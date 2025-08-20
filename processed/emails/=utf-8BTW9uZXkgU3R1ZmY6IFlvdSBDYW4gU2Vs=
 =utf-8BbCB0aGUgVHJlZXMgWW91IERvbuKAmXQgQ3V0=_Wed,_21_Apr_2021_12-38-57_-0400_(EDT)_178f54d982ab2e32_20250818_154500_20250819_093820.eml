@@ -1,0 +1,1435 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:2586:b029:c8:3a1c:ecdb with SMTP id u6csp593648lky;
+        Wed, 21 Apr 2021 09:40:06 -0700 (PDT)
+X-Received: by 2002:a17:906:8812:: with SMTP id zh18mr33754700ejb.342.1619023206446;
+        Wed, 21 Apr 2021 09:40:06 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1619023206; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=rSq98JzpPUYPuljQ6o3qkbyYVRBDe1IN0/PINGl4PGQncNf/A1u+0ySL0FvBQ5oQe+
+         F54zq7NoXny0OFIq8qtP79b5v7udboDsDlHyKo7Eng8lEARajQ+ZbhnYo7rkkaVcH08g
+         RDBDQexl4H4Jo9B4NBzPGFnJThnjX9S76sj6OWPjQ3bO2H/0L/drs8NZTkJsJzuvIE6S
+         wUIjR/tr6ZnKDbbQv7qEobZ39GPlTC5E4tem4QycFRvvgL6DSp3zM21uF45JiuJBOSNI
+         +wGnzlhGKAozy9umkJr/Gzi28TtZn0twOMhzMfMjvj+75whDnEHAffshKZ5yrmY6YnUw
+         oJ3Q==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=1KmlHnEsBGeGnw3xBxRsmJETcc+tX+3fZ8zOFYJdjnA=;
+        b=B1m6d1P9mBS5j2Ax7E1Hr10Ywamx6WOfKh8wwlQdUs8d6/PKDj1ipcJAyR64vgAaz8
+         iZuFQQ0O9YsqfyWHQ7hYBqlviFTOrnlVaY9CsE7uJHFoGGKw7AjIp+Qq4xMCE6cTQngr
+         Lcvfc2nLFSQ9ebghFwWHnla7Mq4LdW3GDBZblkbsxYgGKWRqVVZSt8CCPQj7l0SWFOza
+         8ZArcaoFAsKKp4OvezfGo/dF2yhytkBqFevldrP9bPXXv9+VmwEGn3r86xSWQHFOV7GI
+         SqFQiUS5Aajdkuc82PYmTX7hBEL0A6gkPMTmyOhXeYhm3jPZ4cjZbGNIMPJjNKRmP5wD
+         rzuA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=KicKq6gI;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d14sor3016943edv.0.2021.04.21.09.40.06
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 21 Apr 2021 09:40:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=KicKq6gI;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=1KmlHnEsBGeGnw3xBxRsmJETcc+tX+3fZ8zOFYJdjnA=;
+        b=SzZuqAZ0u524q0ae9i5H9lTVm75dXa+p56ARrdKP4y+YGJdbdT+Lq5iAGx7A42jX9/
+         Yrb38XxYLNPhI6HgQUz9hyS9enW2Ud6mljvc2jMkTBPtGKLdngqyAX/Xc81kNHKVOp11
+         +dMXV4k99zf7UFd7PHZrZ8XA0gQrcO2Y6ooPkNEgFvihG7f1XQswqRSXwFdtO9MGHOCO
+         UlUlWEwGTz3l9eSpydfYlRKWc0fzbCSa+XtDFO0mJH+WrAZ32ba9bXr1/P0S0S1RE3PJ
+         co315gFNzFpl8/wSc50xAxu/RHMwnfXxQm/f09RwDIVWJJUZVIO7Ig4alWejPzkI2vNj
+         bdyg==
+X-Gm-Message-State: AOAM5314I8T026Q0pQnS1JsDhgbAFIghFW7Gf6CgN3uH052ns0atXDPX
+	BkC6yP64RLubvvRgpSxSoQ1L8sdTCYwMwtFePNyScn1LjDiCczEnRw==
+X-Received: by 2002:a05:6402:c1:: with SMTP id i1mr39292753edu.315.1619023206223;
+        Wed, 21 Apr 2021 09:40:06 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3b92:0:0:0:0:0 with SMTP id h18csp566688ecn;
+        Wed, 21 Apr 2021 09:40:04 -0700 (PDT)
+X-Received: by 2002:a7b:cd04:: with SMTP id f4mr11099050wmj.84.1619023203738;
+        Wed, 21 Apr 2021 09:40:03 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1619023203; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=p4e5QE0PtcHymdgSVtd/dvO9743/jrpM6nXiEY8aVmVgopLbCiOXhnKB4l25gleaQY
+         DfORm2tURigi7QacvXXKX5X73UZhhl7hfxXbMKg3ELYynghPYcG+R46qRZ18v99tyPbW
+         rFlDJLIvDs8QapY5UdwppFOgDDtbDwnqoKqPFiv/uav3gOAFfkOa8+G7T7gc/t2miWBS
+         UF4h0a7pXJblO2eNGl27Rzq5hloZmRc7pC61CjcVjRfHB2a9Cjr39X4Y9r1K7xQ+Mpg/
+         iyahv1B48GFM2gUNeQHqsrK6D47gr9vUn05XP/GWgF7wDAEIPbnJNr0wnHo8LPIHHicy
+         Fi7g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=1KmlHnEsBGeGnw3xBxRsmJETcc+tX+3fZ8zOFYJdjnA=;
+        b=B/wiUKwr42e09S0s+hybteYrw5wh9hme2ispwxnPq4Jr4gRX3UJUBmt7VyiKYJcb4I
+         WUZ0Ke9ch3YjyaC26xtewLWKRzMmemnfc0tCCUufCgjw+6wK1PS3YZvVGx5INFBUgk8l
+         gyaP4OWEz3I1pUd8ShFCCRJLW9yt5D/4Z/61j+0TGXt9Q5gaj8aztxb2reeEEYTmW+LS
+         C3fsIL6VKpqD6KlV+2iPLUUEpOqLIkcsZlfwgsOy/Rh06ORft3N9BLVOlc5YuD7qs/BT
+         97YrVvnob7fYcMvWjJGuQnt/PsGwajjVMBMPgHzcr2VrV8AEmDS7N4KDsN+4JhKXBp9c
+         zlRQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=KicKq6gI;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210421123857.23603906.285025@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210421123857.23603906.285025@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210421123857.23603906.285025@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id k9sor1611232wrn.17.2021.04.21.09.40.03
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 21 Apr 2021 09:40:03 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210421123857.23603906.285025@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxV2jjnfMn8AoXcY1eCIG38vus+DFl5BQDSIuo3aMONbg6XMszy8ZVDwVQZ8bqrH9kgIP9/cSmWBgNUQ2XVi2oQqOqfGrA=
+X-Received: by 2002:a5d:4c88:: with SMTP id z8mr28763806wrs.154.1619023203502;
+        Wed, 21 Apr 2021 09:40:03 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1619023203; cv=none;
+        d=google.com; s=arc-20160816;
+        b=wWk3a8/Dtz7lFts5a75JunGdww75qRBuBmQThgy/JKyNGdprT9p+C35r3rdGOMiM4N
+         SUAFadnLEBB5pUBxAIzz/UQnvUPm/xtRd3iKPQe2LawWDoEeAViFXh8KNOj2sgDcI1Ix
+         X9CMqYG5at2x8qgyrIfIQJ5MOuPVGNX0xLWDSOCmK0D8Ui6bQzOL0JJVZBRXHWK71giU
+         U4xlo3a1S8UUCoRw0jUNDMoczDfa22sp/ttV8e3Lme6HTUMBNe1swnsfp+9qGQR3DtXM
+         HYqccbfKA+HD4GsNnoKzZGt4CJSXDBPf5fSrYGeE5hvXwcEDy3oj4vLr4F6yQw3wxtDG
+         lfzw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=1KmlHnEsBGeGnw3xBxRsmJETcc+tX+3fZ8zOFYJdjnA=;
+        b=Pjn/gyBF1jwl9kmB69BYo4iTLJMTTZhO6RVJyKT/GmoPFAX9PV7Qd+6zenZyz5FbpU
+         5bjkUFnq2t5AWYmlkxSwBZdbChMT4zWYi/90F1F5U0y/apnNu/VOnzGS7HeXOFeNFbOJ
+         zOvkM0JgBqfikpLPAwO7WMm5Eo/dsXu2jOJvP26+o96dbWbEMoGKdHJdMpkzVufmlp5j
+         0od4tG1BvBY90WvrhWEgX0wH0iOtPXm1rl5isWqCnJNJyVD+UKR0EbAnGtg5G0etbrQu
+         lHlrPTEH/j1nADZTA+q1YRJjDulwLS9j4R0hWFTKhutQJSe8GsimBsGAS+nMinp1xhDO
+         6xiA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=KicKq6gI;
+       spf=pass (google.com: domain of delivery_20210421123857.23603906.285025@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210421123857.23603906.285025@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210421123857.23603906.285025@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id a191si1021849wme.3.2021.04.21.09.40.03
+        for <khamel83@gmail.com>;
+        Wed, 21 Apr 2021 09:40:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210421123857.23603906.285025@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=fJeDTYMy0TUedr5+/p45tXO0aGs=;
+ b=KicKq6gImPcH5RsCrIX2KTosrGfIaV8od5EByJut4SCzjjrXUCdxzHXPfinWLhyaHyxSZzLq4ES1
+   rXglNxBMkdVzSmhzCRsUW6yh+8fLyUId5u7IuX2EPDNeoeL5gxwA7IjUaF10OdXiWVdTF219BcSu
+   xV/WEdYjHmJexGOrVHU=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by bloomberg-b.sailthru.com id hg1am61qqbsc for <bloomberg@khamel.com>; Wed, 21 Apr 2021 12:40:02 -0400 (envelope-from <delivery_20210421123857.23603906.285025@mx.sailthru.com>)
+Date: Wed, 21 Apr 2021 12:38:57 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210421123857.23603906.285025@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IFlvdSBDYW4gU2Vs?=
+ =?utf-8?B?bCB0aGUgVHJlZXMgWW91IERvbuKAmXQgQ3V0?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_20157790_1487113701.1619023137746"
+Precedence: bulk
+X-TM-ID: 20210421123857.23603906.285025
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddlime.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce1ww2.63xd/a4824bda
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce1ww2.63xd/a4824bda>, <mailto:unsubscribe_20210421123857.23603906.285025@mx.sailthru.com>
+X-rpcampaign: stjko23603906
+
+------=_Part_20157790_1487113701.1619023137746
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+  @media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+
+ =20
+ =20
+  Money Stuff
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+     =20
+     =20
+ =20
+   =20
+      Negative loggingI love this stuff:Companies eager to offset their emi=
+ssions are paying Southern timberland owners not to cut more than a million=
+ acres of mill-bound pine trees until next year.The idea is that the longer=
+ the timber stands, the more carbon the trees can sponge from the atmospher=
+e before becoming two-by-fours and telephone poles.The companies are credit=
+ed with socking away carbon in wood, measured in metric tons and documented=
+ with tradable assets called carbon offsets. Companies buy offsets to scrub=
+ emissions from the carbon ledgers they keep to show investors and customer=
+s their pollution-reduction efforts. Landowners get a check as long as thei=
+r trees remain standing.One reason to love it is as a story about the Coase=
+ theorem. The Coase theorem says that=C2=A0if a timberland owner can make $=
+15 by cutting down her trees, but cutting her trees would cause $20 worth o=
+f harm to her next-door neighbor =E2=80=94=C2=A0because the neighbor would =
+miss the view, or the cooling shade of the trees, or the carbon capture=C2=
+=A0=E2=80=94=C2=A0then they should be able to strike a bargain. The neighbo=
+r can pay the landowner $17=C2=A0not=C2=A0to cut the trees; then the landow=
+ner is $2 better off than if she had cut the trees (she has $17 instead of=
+=C2=A0$15), and the neighbor is $3 better off (she loses $17 instead of $20=
+).=C2=A0The outcome =E2=80=94=C2=A0not cutting the trees =E2=80=94 will be =
+the socially optimal outcome, the one that maximizes overall well-being, ra=
+ther than=C2=A0the property owner=E2=80=99s=C2=A0simplistically selfish out=
+come.=C2=A0If, that is, there are low transaction costs. The Coase theorem =
+is=C2=A0 really=C2=A0about transaction costs. In the stylized example of on=
+e landowner and one neighbor, you can imagine them easily striking a deal. =
+But what if the landowner can make $15 by cutting the trees, and there are =
+10 neighbors who would each suffer $2 worth of harm? It might be harder to =
+get them all to coordinate to pay the landowner not to cut the trees; some =
+of them might be hard to reach, or suspicious, or try to free-ride on the o=
+thers.The limit case of this is of course global=C2=A0environmental harm, w=
+here the landowner makes $15 by cutting the trees but eight billion people =
+suffer an infinitesimal but real harm for every bit of extra carbon in the =
+atmosphere. That is a very hard problem from a Coasean transaction-costs pe=
+rspective.But modern finance is precisely in the business of reducing=C2=A0=
+transaction costs. It reduces them in part through electronic platforms and=
+ satellite photos and computer programs and well-designed products and cent=
+ralized auctions:The market=E2=80=99s architect, SilviaTerra, plans to expa=
+nd its Natural Capital Exchange this summer from Southern pine to hardwood =
+forests there as well as to woods around the Great Lakes. The firm uses sat=
+ellite photos, forest surveys and computer programs to size up timber, calc=
+ulate how much carbon the trees can sequester and determine how many offset=
+s their owners can sell. The price=E2=80=94$17 an offset=E2=80=94was set wi=
+th an auction that landowners began by naming the price it would take to ke=
+ep them from cutting.But that is surely the less important part of this sto=
+ry. It=E2=80=99s not like billions of people around the world are logging o=
+n to SilviaTerra=E2=80=99s exchange and buying one carbon offset each. The =
+more important contribution of modern financial capitalism is that big publ=
+ic companies now want to keep trees around, due to shareholder and customer=
+ pressure:Microsoft Corp., Royal Dutch Shell PLC=E2=80=94both buyers of Sil=
+viaTerra=E2=80=99s offsets=E2=80=94and many others have promised to reduce =
+and offset emissions. Big companies cannot conduct business without generat=
+ing emissions, so a booming market for offsets has emerged. ...Carbon-reduc=
+tion pledges by companies like Microsoft encouraged [timberland owner Keith=
+] McDaniel to consider SilviaTerra=E2=80=99s market more seriously than ear=
+lier attempts to start forest carbon markets.=E2=80=9CIt has the support of=
+ corporate America this time,=E2=80=9D he said. =E2=80=9CThey=E2=80=99re go=
+ing to be big buyers of carbon credits to show they=E2=80=99re making progr=
+ess.=E2=80=9DOne coordination method=C2=A0=E2=80=94=C2=A0one way to reduce =
+transaction costs and make deals more likely =E2=80=94=C2=A0is built into S=
+ilviaTerra=E2=80=99s auction platform. The other coordination method is=C2=
+=A0the public company, combined with the ideas of socially responsible and =
+environmental, social and governance investing, which make big public compa=
+nies somewhat efficient aggregators of public preferences. If it=E2=80=99s =
+good for everyone not to cut down trees, companies like Microsoft =E2=80=94=
+=C2=A0and their  institutional  shareholders =E2=80=94 somehow become a len=
+s to focus that public benefit. What=E2=80=99s good for the world is what=
+=E2=80=99s good for Microsoft, sort of, a little. In modern markets, public=
+ companies have self-interested incentives to seek the greater good, and th=
+ey are big enough to have an impact.I don=E2=80=99t mean to endorse that un=
+critically, to suggest that every ESG thing is actually good for the world,=
+ or that none of them are cynical or whatever. I just mean that public-comp=
+any do-gooding is a coordination mechanism that wasn=E2=80=99t particularly=
+ important in the past, and is more important now, and could reduce transac=
+tion costs. A big company can do its do-gooding more efficiently than milli=
+ons of individuals can.The other reason to love this story is that it is ab=
+out getting paid not to do things. That is always complicated. If you are p=
+aid to do things, it is relatively easy to measure how much you did and how=
+ much you should get paid. If I want you=C2=A0to cut down trees for my sawm=
+ill, we might agree on a price of $5 per tree. You will cut down the trees =
+and deliver them to me, and I will count them. If you deliver 100 trees the=
+n I=E2=80=99ll pay you $500.But if I want you=C2=A0not=C2=A0to cut down tre=
+es for my carbon capture program, it is harder to measure how many trees yo=
+u didn=E2=80=99t cut down. Just sitting here right now, typing this column =
+on my computer, I have cut down zero trees,[1] which means in theory that t=
+here are absolutely billions of trees that I have=C2=A0not=C2=A0cut down. W=
+here is my check? A landowner might have planned to cut down only a few tre=
+es this year, but she will have incentives to say =E2=80=9CI was planning t=
+o cut down all my trees,=E2=80=9D in order to get paid for not cutting down=
+ all of them. She might have trees that are impossibly un-economic to cut d=
+own, but it=E2=80=99s easy enough for her=C2=A0not to cut them down.Similar=
+ly, if I agree to buy 100 trees from you, and you sell me the trees, you ca=
+n=E2=80=99t sell them to anyone else: I have the trees. If I agree to pay y=
+ou not to cut down 100 trees, though, what=E2=80=99s to stop you from getti=
+ng paid by someone else not to cut down the same trees? The trees stay ther=
+e; you can sell the concept of them staying there as many times as you like=
+.These are well-known tricks,[2] but still a little tricky:Forest offsets f=
+ace criticism when landowners are paid to preserve trees at little risk of =
+being logged because they grow in forbidding terrain, are far from mills or=
+ already subject to conservation agreements. SilviaTerra only allows landow=
+ners with mill-worthy timber to sell offsets.=C2=A0Elsewhere: =E2=80=9C Lum=
+ber Prices Soar, But Logs Are Still Dirt Cheap.=E2=80=9D But you can make u=
+p for it with the price of not-logs.Risk managementA few years ago, a bunch=
+ of banks lost money on a margin loan gone wrong. They had loaned money to =
+a guy named Christo Wiese, who was the chairman of Steinhoff International =
+Holdings NV; the loans were secured by Wiese=E2=80=99s shares of Steinhoff =
+stock. The stock more or less evaporated overnight due to an accounting sca=
+ndal, and the banks were left holding collateral worth much less than their=
+ loans. The banks ended up  losing more than a billion dollars=C2=A0collect=
+ively.At the time,  I wrote consolingly:Frankly at this point if you're=C2=
+=A0not=C2=A0calling out a nine-digit Steinhoff margin-loan loss in your ear=
+nings release,=C2=A0that=C2=A0will be a little embarrassing. Why=C2=A0didn'=
+t=C2=A0you do this trade that everyone else did?=C2=A0Were you not importan=
+t enough to get the call? That's not a great look for your margin-loan busi=
+ness; if you're going to be an important bank you need to get the calls on =
+the big trades. Or were you too conservative to do a trade that Goldman and=
+ JPMorgan and Citi and Bank of America were=C2=A0comfortable with? That's e=
+ven worse. Sure they were=C2=A0wrong, but that's not the point. The chief f=
+inancial officer of the next customer looking to do a transaction with a bi=
+t of hair on it=C2=A0doesn't care about how smart you are;=C2=A0she cares a=
+bout how=C2=A0reasonable=C2=A0you are, how likely you are to actually get t=
+he trade done. If=C2=A0you can't get there when everyone else can -- if you=
+r due diligence is too stringent or your committees are too ornery or your =
+lawyers are too careful -- then you are not going to get a look at=C2=A0the=
+ next trade.You miss 100% of the shots you don=E2=80=99t take, or whatever.=
+ If you are smart enough to avoid all the dumb trades, the people with the =
+borderline trades =E2=80=94=C2=A0the risky hairy trades, the trades that mi=
+ght well be dumb, but that, if they=E2=80=99re not dumb, will be very lucra=
+tive =E2=80=94=C2=A0will go elsewhere. Why deal with you and your strict cu=
+lture of risk management, when they could deal with someone else=E2=80=99s =
+nonexistent culture of risk management?=C2=A0I was not=C2=A0entirely=C2=A0s=
+erious about that, but, you know. There=E2=80=99s a balance. You want to do=
+ all the good trades and none of the bad trades. To some extent you can jus=
+t try to be really smart and choose your trades correctly, but in practice,=
+ at a large bank, in a competitive market, over time, it=E2=80=99s not alwa=
+ys going to work that way. Instead there will be a dial you can turn betwee=
+n =E2=80=9Cno bad trades but also=C2=A0no good trades=E2=80=9D and =E2=80=
+=9Clots of good trades but also some=C2=A0bad trades,=E2=80=9D and you will=
+ try to turn the dial to a setting that maximizes net profits (gains from g=
+ood trades minus losses from bad trades).Sometimes you will adjust the dial=
+. If you have a particularly large and embarrassing bad trade, you will jer=
+k the dial to the left; you=E2=80=99ll retrench and do fewer good trades in=
+ order to ensure that you don=E2=80=99t do any more bad trades. If you=C2=
+=A0don=E2=80=99t=C2=A0have any embarrassing losses for a while, though, you=
+ will start creeping the dial to the right, especially if your market share=
+ isn=E2=80=99t great. =E2=80=9CLet=E2=80=99s do a few more risky trades,=E2=
+=80=9D you will think, =E2=80=9Cbecause we are clearly not taking enough ri=
+sk.=E2=80=9D Sometimes this will be a correct diagnosis: You are missing go=
+od trades because you are more conservative than your peers. Other times it=
+ is counterproductive: You are missing good trades because you are less cha=
+rming or less respected or less helpful than your peers, and to get more tr=
+ades you adverse-select yourself into the bad ones.A few weeks ago, a bunch=
+ of banks lost money on some=C2=A0 margin loans gone wrong. (Technically eq=
+uity total return swaps, but same basic idea.) I would not say any of them =
+are proud of it or anything, and it is leading to a lot of retrenchment: Th=
+e banks are=C2=A0cutting back risk in their prime-brokerage and swaps busin=
+esses, and regulators are making noises about new, stricter rules. On the o=
+ther hand,=C2=A0before=C2=A0the swaps went wrong, some of the banks were de=
+finitely in turning-the-dial-to-the-right mode. Here=E2=80=99s a Financial =
+Times story about =E2=80=9CHow Credit Suisse rolled the dice on risk manage=
+ment =E2=80=94 and lost=E2=80=9D:In interviews with the Financial Times, si=
+x current and former Credit Suisse managers said the bank hollowed out risk=
+ expertise and trading acumen in favour of promoting salesmen and technocra=
+ts. Dissenting voices were suppressed, they said.=E2=80=9CThere was a dulli=
+ng of the senses,=E2=80=9D said a former executive. =E2=80=9CCredit Suisse =
+was in the deep end swimming with the sharks, but doing it with a private b=
+anking mindset. They were always going to get destroyed.=E2=80=9DAnd here i=
+s a description of how=C2=A0chief risk officer Lara Warner, a former equiti=
+es analyst, pushed the risk department to be =E2=80=9Cmore commercial,=E2=
+=80=9D which is pretty much how the dial works:Warner was keen that the ban=
+k=E2=80=99s global risk function should not be seen as an =E2=80=9Cacademic=
+ ivory tower=E2=80=9D that could =E2=80=9Cdismiss business out of hand=E2=
+=80=9D, according to a person close to the bank. She also wanted her depart=
+ment to be seen as a career destination rather than an administrative backw=
+ater.During her five-year tenure, Warner and other executives pushed for ri=
+sk and compliance to be =E2=80=9Cmore commercial=E2=80=9D and =E2=80=9Calig=
+ned=E2=80=9D with the front office traders and dealmakers, multiple current=
+ and former staff told the FT.She led by example. In October, Warner person=
+ally overruled risk managers who cautioned against giving Greensill a $160m=
+ bridge loan ahead of a private fundraising. The loan is now in default.=C2=
+=A0It is tempting to conclude that it is good for a bank to have trades blo=
+w up embarrassingly every now and then: If you go too long with no blow-ups=
+, the dial will just creep to the right to let more trades in. =E2=80=9CCle=
+arly we are being too careful,=E2=80=9D the bank will conclude, =E2=80=9Cso=
+ let=E2=80=99s be less careful.=E2=80=9D=C2=A0A few controlled fires can of=
+fset that tendency before it causes too big a=C2=A0problem.=C2=A0One proble=
+m with that conclusion is that Credit Suisse=C2=A0did=C2=A0have some embarr=
+assing blow-ups=C2=A0before=C2=A0its bigger and more embarrassing blow-ups =
+with Archegos Capital Management and=C2=A0Greensill Capital:In 2018, Credit=
+ Suisse lost about $60m after it was left holding a block of shares in clot=
+hing company Canada Goose when its stock price plummeted. About a year late=
+r, the bank lost about $200m when Malachite Capital, a New York hedge fund =
+and one of its prime brokerage clients, imploded.=E2=80=9CThose losses aros=
+e from lack of discipline,=E2=80=9D the former executive said. Just as with=
+ Archegos, senior managers at Credit Suisse got stuck in large positions ne=
+gotiating on price while their peers aggressively sold out.=E2=80=9CThere w=
+as systematic insensitivity at all levels,=E2=80=9D said a second person. =
+=E2=80=9CIf you=E2=80=99re the head of risk and you let a $60m loss go by, =
+then a $200m loss, and you don=E2=80=99t ask what the hell is happening her=
+e, what are you doing?=E2=80=9DIn the simple model, the job of the chief ri=
+sk officer is to turn the dial to =E2=80=9Cless risk=E2=80=9D when things b=
+low up a little bit, so that they don=E2=80=99t blow up more.Bad analystIs =
+this the dumbest way to throw away a financial career?On April 14, 2020, Ma=
+guire received an email from another research analyst in his business unit =
+with the subject line =E2=80=9Crating change heads up.=E2=80=9D The email p=
+reviewed ratings changes for several companies, including an upgrade of the=
+ rating for Company A from neutral to buy. The email attached a draft resea=
+rch report for Company A, which explained the bases for the upgrade. The an=
+alyst further noted that approval for the upgrade would be discussed during=
+ an April 17, 2020 meeting of the firm=E2=80=99s investment review committe=
+e.On April 17, 2020, following approval of the upgrade, Maguire purchased 2=
+,000 shares of Company A in the trust account for $128,098. Before market o=
+pen on Monday, April 20, 2020, Goldman Sachs published a research report up=
+grading the rating for Company A from neutral to buy. The upgrade was mater=
+ial. The research report was substantively identical to the draft report at=
+tached to the April 14 email. Before market close on April 20, 2020, Maguir=
+e sold the Company A shares, which closed at $65.00, up from the prior day=
+=E2=80=99s close of $63.85.Brian Maguire was an equities analyst at Goldman=
+ Sachs Group Inc. At his job, he got to see other analysts=E2=80=99 reports=
+ before they were published. Twice =E2=80=94=C2=A0the trade above, and anot=
+her one a few weeks later =E2=80=94=C2=A0he bought stock in companies that =
+were about to be upgraded by Goldman analysts (in an account for a family m=
+ember and a trust account he controlled). The upgrades were material nonpub=
+lic information that he got in his job and that he was obligated to keep co=
+nfidential, so trading on them was pretty clearly not allowed. A fairly sta=
+ndard case of insider trading.Also though the upgrades weren=E2=80=99t=C2=
+=A0that=C2=A0material? Company A=E2=80=99s stock went up 1.8% on the upgrad=
+e. He made about $1,900 on this trade. Yesterday he settled with the Financ=
+ial Industry Regulatory Authority, which barred him from the securities ind=
+ustry. Goldman fired him last year, after 10 years at the firm. I don=E2=80=
+=99t get it. Nineteen hundred bucks!He also got in trouble for this:On Febr=
+uary 27, 2020, Maguire authored a research report published by Goldman Sach=
+s in which he had a buy recommendation for Company C. Inconsistent with tha=
+t recommendation, Maguire sold Company C shares in the trust account on Mar=
+ch 26, 2020. On March 11, 2020 Maguire authored a research report published=
+ by Goldman Sachs in which he had a buy recommendation for Company D. That =
+recommendation was reiterated in reports he authored that were published on=
+ April 6 and April 8, 2020. Inconsistent with that recommendation, Maguire =
+sold Company D shares in the trust account on April 6 and April 8, 2020.If =
+you put out a buy recommendation on a stock, you=E2=80=99re not really supp=
+osed to be quietly selling it in your personal account; you can see how tha=
+t would look bad. All of this stuff seems sort of tawdry but not lucrative;=
+ it=E2=80=99s almost easier to believe that it was a series of accidents (=
+=E2=80=9CI didn=E2=80=99t read that report, and I forgot I had a buy rating=
+=E2=80=9D?) than an intentional plan.How was your 4/20?A fund manager named=
+ Brett Rogers emailed me yesterday to say:The GME options that traded the m=
+ost today (4/20)Are the expiring 690 callsI have hated my job for months no=
+w, just kill meBloomberg tells me that those calls (GME US 04/23/21 C690 Eq=
+uity) traded 3,970 contracts yesterday. To be fair they traded twice as man=
+y the day before, and their price has gone steadily down over the last few =
+days, as you=E2=80=99d expect from an option that expires on Friday and is =
+$500+ out of the money. (It closed at $0.10.) Also Bloomberg tells me that =
+they didn=E2=80=99t exactly trade the=C2=A0most=C2=A0of any GME contract ye=
+sterday; they=E2=80=99re up there, but they=E2=80=99re=C2=A0behind the some=
+what more sensible $200-strike Friday call. Still. One sees his point.=C2=
+=A0I have to say, I have been a financial blogger for almost 10 years now, =
+and I think this is the first year I have ever, like, commemorated 4/20. It=
+=E2=80=99s a marijuana=C2=A0joke. Obviously plenty of=C2=A0people in the fi=
+nancial industry smoke weed and/or think that =E2=80=9C420=E2=80=9D is a fu=
+nny joke, but they have not traditionally made it central to their=C2=A0wor=
+king=C2=A0lives. Nobody was like =E2=80=9Cwe should upsize this $400 millio=
+n bond deal to $420 million because 420, lol.=E2=80=9D As far as I can tell=
+ that only really started in 2018, when=C2=A0Elon Musk pretended he was goi=
+ng to take Tesla Inc. private at $420 a share because, according to the Sec=
+urities and Exchange Commission, =E2=80=9Che had recently learned about the=
+ number=E2=80=99s significance in marijuana culture and thought his girlfri=
+end =E2=80=98would find it funny, which admittedly is not a great reason to=
+ pick a price.=E2=80=99=E2=80=9DAt the time I  defended Musk a little, writ=
+ing that arbitrary first bids in take-private transactions are pretty norma=
+l, and why not amuse yourself a bit. But now I think that =E2=80=9C420 is t=
+he drugs number=E2=80=9D kind of=C2=A0is=C2=A0a great reason to pick a pric=
+e? One aspect of hyper-modern finance is that the good numbers are 420 and =
+69, and if you can price or size something at 420 or 69 (or some legible mu=
+ltiple of 420 or 69) then you will get attention and possibly buyers. Yeste=
+rday people wanted the $690 Tesla calls, not the $700 or $600 or $500 calls=
+. There is a conventional=C2=A0behavioral-finance view that trading cluster=
+s at round numbers, but the modern version is that trading clusters at Inte=
+rnet Joke Numbers. If you are launching a $400 million special purpose acqu=
+isition company, why not launch a $420.69 million SPAC instead? The ticker =
+=E2=80=9CNICE=E2=80=9D is taken, unfortunately, but still; you will get lot=
+s of retail attention and sell more stock and have more aftermarket support=
+ if you signal that you are in on the joke. Or if Musk were taking Tesla pr=
+ivate at $420 today, he=E2=80=99d have a much easier time raising financing=
+ than he did in 2018[3]:MUSK: I want to take Tesla private at a premium to =
+its last valuation and I need you to give me the money.FINANCING SOURCE: I =
+don=E2=80=99t know, that=E2=80=99s a lot of money, and I am concerned that=
+=E2=80=94MUSK: At $420 a share lol.FINANCING SOURCE:=C2=A0 Nice, here you g=
+o.Elsewhere in, you know, all this stuff,  here=E2=80=99s an article about =
+Dogecoin:So, should you get in on the Dogecoin action?=E2=80=9CIt=E2=80=99s=
+ almost irresponsible to lend credence to the speculation by even asking th=
+at question,=E2=80=9D said David Trainer, chief executive of New Constructs=
+, an independent securities research firm based in Nashville.It features th=
+is person who made a 1,000% return as a joke:Those include Alyssa Vazquez, =
+a 26-year-old accountant from Dallas.Vazquez originally bought $600 worth o=
+f Dogecoin in January and February with her husband as a joke, thinking tha=
+t they probably wouldn=E2=80=99t get anything out of it. =E2=80=9CWhen we s=
+tarted, we agreed that we would never put in more than we could afford to l=
+ose,=E2=80=9D she said. Now, they are up around $6,000.And this person who =
+bought Dogecoin for the purest of reasons, the love of a=C2=A0Shiba Inu:Bra=
+yden Johnson, 26, an electrician from Alberta, Canada, bought Dogecoin in m=
+emory of his Shiba Inu named Hudson who passed away last year at age 15.=E2=
+=80=9CI actually think about him anytime someone says the word doge,=E2=80=
+=9D Johnson wrote in an email. =E2=80=9CI can picture in my head all the ti=
+mes that I=E2=80=99ve seen him do the goofy face of the meme and all his fu=
+r get scrunched up in his collar.=E2=80=9DWhen Johnson saw that Dogecoin wa=
+s up big, he was really excited and did not expect it to gain so much at su=
+ch a rapid rate.=E2=80=9CIt feels good to be up, because who couldn=E2=80=
+=99t use some extra money?=E2=80=9D he said. =E2=80=9CIt feels a little swe=
+eter that an investment made because I missed my dog has paid such nice div=
+idends.=E2=80=9DThis is how it all works now, sorry.Things happenHow Robinh=
+ood  Made Trading Easy=E2=80=94and Maybe Even Too Hard to Resist. Europe=E2=
+=80=99s  Rebel Soccer League Collapses After Fans Force Exit. Leaked Super =
+League plans reveal goal of US-style football finances. Behind the Mysterio=
+us Demise of a $1.7 Billion Mutual Fund. Hertz Gets Sweetened Offer as Bank=
+ruptcy  Bidding War Escalates. Goldman Reveals  Black Workforce Numbers for=
+ the First Time.=C2=A0Regulators Question Credit Suisse Over Recent Archego=
+s-Related Stock Sales. Biden=E2=80=99s Big Agenda Relies on a Shrunken, Str=
+ained Agency: The IRS. HSBC Manager=E2=80=99s Heart Attack  Prompts Viral P=
+ost About Overwork.=C2=A0Elon Musk said he was a Secret Service 'special ag=
+ent' when he donated to the Republican Party, an FEC filing shows. 'Creatur=
+e' terrorizing Poland town turns out to be a croissant stuck in a tree.If y=
+ou'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in y=
+our inbox, please=C2=A0subscribe at this link. Or you can subscribe to Mone=
+y Stuff and other great Bloomberg newsletters here. Thanks![1] Yes I am sur=
+e that the electricity powering my computer has some carbon impact, etc., b=
+ut that=E2=80=99s not what I=E2=80=99m talking about, I=E2=80=99m talking a=
+bout the fact that I have not taken a hatchet out into my backyard to chop =
+down trees. I mean literal tree cutting.[2] A classic case of getting=C2=A0=
+paid not to do things is =E2=80=9Cdemand response=E2=80=9D in electric powe=
+r markets. There are programs that allow electricity consumers to sell powe=
+r back to the grid, during periods of congestion, essentially by using less=
+ of it. But how do you measure how much power you=E2=80=99re not using? The=
+ rough answer is something like =E2=80=9Cyou measure how much power you usu=
+ally use at a particular time, and then get paid for the reduction from tha=
+t baseline,=E2=80=9D but getting that exactly right is tricky.[3] Well, now=
+ the stock is trading in the $700s =E2=80=94=C2=A0after a 5-for-1 split las=
+t August =E2=80=94=C2=A0but ignore that for the moment.
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce1ww2.63xd/a3e16799.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_20157790_1487113701.1619023137746
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<style>@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+</style><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Du=
+tf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<title>Money Stuff</title>
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23603906.285025/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB6d6=
+8475d"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">Negative logging</h2><p style=3D"margin: 16px 0;=
+">I love <a href=3D"https://link.mail.bloombergbusiness.com/click/23603906.=
+285025/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9uZXctY2FyYm9uLW1hcmtldC1wYXlz=
+LXNvdXRoZXJuLXBpbmUtZ3Jvd2Vycy1ub3QtdG8tY3V0LTExNjE4OTExMTgwP21vZD1pdHBfd3N=
+qJnJ1PXlhaG9v/607f07ceef4b8524a319a23cBdea5aca4" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">this stuff</a>:</p><blockquote><p st=
+yle=3D"margin: 16px 0;">Companies eager to offset their emissions are payin=
+g Southern timberland owners not to cut more than a million acres of mill-b=
+ound pine trees until next year.</p><p style=3D"margin: 16px 0;">The idea i=
+s that the longer the timber stands, the more carbon the trees can sponge f=
+rom the atmosphere before becoming two-by-fours and telephone poles.</p><p =
+style=3D"margin: 16px 0;">The companies are credited with socking away carb=
+on in wood, measured in metric tons and documented with tradable assets cal=
+led carbon offsets. Companies buy offsets to scrub emissions from the carbo=
+n ledgers they keep to show investors and customers their pollution-reducti=
+on efforts. Landowners get a check as long as their trees remain standing.<=
+/p></blockquote><p style=3D"margin: 16px 0;">One reason to love it is as a =
+story about the <a href=3D"https://link.mail.bloombergbusiness.com/click/23=
+603906.285025/aHR0cHM6Ly93d3cubGF3LnVjaGljYWdvLmVkdS9maWxlcy9maWxlL2NvYXNlL=
+XByb2JsZW0ucGRm/607f07ceef4b8524a319a23cB4a9e95d4" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">Coase theorem</a>. The Coase theor=
+em <a href=3D"https://link.mail.bloombergbusiness.com/click/23603906.285025=
+/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAxNC8wOC8yOC91cHNob3QvZG9udC13YW50LW1lLX=
+RvLXJlY2xpbmUtbXktYWlybGluZS1zZWF0LXlvdS1jYW4tcGF5LW1lLmh0bWw/607f07ceef4b8=
+524a319a23cB3b044e1c" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">says that</a>=C2=A0if a timberland owner can make $15 by cutti=
+ng down her trees, but cutting her trees would cause $20 worth of harm to h=
+er next-door neighbor =E2=80=94=C2=A0because the neighbor would miss the vi=
+ew, or the cooling shade of the trees, or the carbon capture=C2=A0=E2=80=94=
+=C2=A0then they should be able to strike a bargain. The neighbor can pay th=
+e landowner $17=C2=A0<em>not=C2=A0</em>to cut the trees; then the landowner=
+ is $2 better off than if she had cut the trees (she has $17 instead of=C2=
+=A0$15), and the neighbor is $3 better off (she loses $17 instead of $20).=
+=C2=A0The outcome =E2=80=94=C2=A0not cutting the trees =E2=80=94 will be th=
+e socially optimal outcome, the one that maximizes overall well-being, rath=
+er than=C2=A0the property owner=E2=80=99s=C2=A0simplistically selfish outco=
+me.=C2=A0</p><p style=3D"margin: 16px 0;">If, that is, there are low transa=
+ction costs. The Coase theorem is=C2=A0<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/23603906.285025/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY2=
+9tL25ld3MvbW9ua2V5LWNhZ2Uvd3AvMjAxNC8wOS8wOC90aGUtZWNvbm9taWNzLW9mLXJlY2xpb=
+mluZy15b3VyLWFpcnBsYW5lLXNlYXQtYXJlbnQtc28tc2ltcGxlLw/607f07ceef4b8524a319a=
+23cBa90e1dc8" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> <em>really=C2=A0</em>about transaction costs</a>. In the stylized exam=
+ple of one landowner and one neighbor, you can imagine them easily striking=
+ a deal. But what if the landowner can make $15 by cutting the trees, and t=
+here are 10 neighbors who would each suffer $2 worth of harm? It might be h=
+arder to get them all to coordinate to pay the landowner not to cut the tre=
+es; some of them might be hard to reach, or suspicious, or try to free-ride=
+ on the others.</p><p style=3D"margin: 16px 0;">The limit case of this is o=
+f course global=C2=A0environmental harm, where the landowner makes $15 by c=
+utting the trees but eight billion people suffer an infinitesimal but real =
+harm for every bit of extra carbon in the atmosphere. That is a very hard p=
+roblem from a Coasean transaction-costs perspective.</p><p style=3D"margin:=
+ 16px 0;">But modern finance is precisely in the business of reducing=C2=A0=
+transaction costs. It reduces them in part through electronic platforms and=
+ satellite photos and computer programs and well-designed products and cent=
+ralized auctions:</p><blockquote><p style=3D"margin: 16px 0;">The market=E2=
+=80=99s architect, SilviaTerra, plans to expand its Natural Capital Exchang=
+e this summer from Southern pine to hardwood forests there as well as to wo=
+ods around the Great Lakes. The firm uses satellite photos, forest surveys =
+and computer programs to size up timber, calculate how much carbon the tree=
+s can sequester and determine how many offsets their owners can sell. The p=
+rice=E2=80=94$17 an offset=E2=80=94was set with an auction that landowners =
+began by naming the price it would take to keep them from cutting.</p></blo=
+ckquote><p style=3D"margin: 16px 0;">But that is surely the less important =
+part of this story. It=E2=80=99s not like billions of people around the wor=
+ld are logging on to SilviaTerra=E2=80=99s exchange and buying one carbon o=
+ffset each. The more important contribution of modern financial capitalism =
+is that big public companies now want to keep trees around, due to sharehol=
+der and customer pressure:</p><blockquote><p style=3D"margin: 16px 0;">Micr=
+osoft Corp., Royal Dutch Shell PLC=E2=80=94both buyers of SilviaTerra=E2=80=
+=99s offsets=E2=80=94and many others have promised to reduce and offset emi=
+ssions. Big companies cannot conduct business without generating emissions,=
+ so a booming market for offsets has emerged. ...</p><p style=3D"margin: 16=
+px 0;">Carbon-reduction pledges by companies like Microsoft encouraged [tim=
+berland owner Keith] McDaniel to consider SilviaTerra=E2=80=99s market more=
+ seriously than earlier attempts to start forest carbon markets.</p><p styl=
+e=3D"margin: 16px 0;">=E2=80=9CIt has the support of corporate America this=
+ time,=E2=80=9D he said. =E2=80=9CThey=E2=80=99re going to be big buyers of=
+ carbon credits to show they=E2=80=99re making progress.=E2=80=9D</p></bloc=
+kquote><p style=3D"margin: 16px 0;">One coordination method=C2=A0=E2=80=94=
+=C2=A0one way to reduce transaction costs and make deals more likely =E2=80=
+=94=C2=A0is built into SilviaTerra=E2=80=99s auction platform. The other co=
+ordination method is=C2=A0<em>the public company</em>, combined with the id=
+eas of socially responsible and environmental, social and governance invest=
+ing, which make big public companies somewhat efficient aggregators of publ=
+ic preferences. If it=E2=80=99s good for everyone not to cut down trees, co=
+mpanies like Microsoft =E2=80=94=C2=A0and their <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/23603906.285025/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDYtMjUvdGhlLWdvdmVybm1lbnQtd2FudHMtZXNn=
+LW91dC1vZi1wZW5zaW9ucw/607f07ceef4b8524a319a23cB6db5f3f2" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> institutional</a> <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/23603906.285025/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDEtMTcvdGhlLWNvbXBh=
+bmllcy1hcmUtaW4tY2hhcmdlLW5vdw/607f07ceef4b8524a319a23cBdf2b8509" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> shareholders</a> =
+=E2=80=94 somehow become a lens to focus that public benefit. What=E2=80=99=
+s good for the world is what=E2=80=99s good for Microsoft, sort of, a littl=
+e. In modern markets, public companies have self-interested incentives to s=
+eek the greater good, and they are big enough to have an impact.</p><p styl=
+e=3D"margin: 16px 0;">I don=E2=80=99t mean to endorse that uncritically, to=
+ suggest that every ESG thing is actually good for the world, or that none =
+of them are cynical or whatever. I just mean that public-company do-gooding=
+ is a coordination mechanism that wasn=E2=80=99t particularly important in =
+the past, and is more important now, and could reduce transaction costs. A =
+big company can do its do-gooding more efficiently than millions of individ=
+uals can.</p><p style=3D"margin: 16px 0;">The other reason to love this sto=
+ry is that it is about getting paid not to do things. That is always compli=
+cated. If you are paid to do things, it is relatively easy to measure how m=
+uch you did and how much you should get paid. If I want you=C2=A0to cut dow=
+n trees for my sawmill, we might agree on a price of $5 per tree. You will =
+cut down the trees and deliver them to me, and I will count them. If you de=
+liver 100 trees then I=E2=80=99ll pay you $500.</p><p style=3D"margin: 16px=
+ 0;">But if I want you=C2=A0<em>not=C2=A0</em>to cut down trees for my carb=
+on capture program, it is harder to measure how many trees you didn=E2=80=
+=99t cut down. Just sitting here right now, typing this column on my comput=
+er, I have cut down zero trees,[1] which means in theory that there are abs=
+olutely billions of trees that I have=C2=A0<em>not=C2=A0</em>cut down. Wher=
+e is my check? A landowner might have planned to cut down only a few trees =
+this year, but she will have incentives to say =E2=80=9CI was planning to c=
+ut down all my trees,=E2=80=9D in order to get paid for not cutting down al=
+l of them. She might have trees that are impossibly un-economic to cut down=
+, but it=E2=80=99s easy enough for her=C2=A0<em>not </em>to cut them down.<=
+/p><p style=3D"margin: 16px 0;">Similarly, if I agree to buy 100 trees from=
+ you, and you sell me the trees, you can=E2=80=99t sell them to anyone else=
+: I have the trees. If I agree to pay you not to cut down 100 trees, though=
+, what=E2=80=99s to stop you from getting paid by someone else not to cut d=
+own the same trees? The trees stay there; you can sell the concept of them =
+staying there as many times as you like.</p><p style=3D"margin: 16px 0;">Th=
+ese are well-known tricks,[2] but still a little tricky:</p><blockquote><p =
+style=3D"margin: 16px 0;">Forest offsets face criticism when landowners are=
+ paid to preserve trees at little risk of being logged because they grow in=
+ forbidding terrain, are far from mills or already subject to conservation =
+agreements. SilviaTerra only allows landowners with mill-worthy timber to s=
+ell offsets.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Elsewhere: =
+=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/23603906.=
+285025/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDQtMjAv=
+bHVtYmVyLXMtdmVyc2lvbi1vZi1hLWNyYWNrLXNwcmVhZC1pcy1leHBsb2RpbmctZnJvbS1jaGV=
+hcC10cmVlcw/607f07ceef4b8524a319a23cB27d264a6" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> Lumber Prices Soar, But Logs Are Stil=
+l Dirt Cheap</a>.=E2=80=9D But you can make up for it with the price of not=
+-logs.</p><h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&qu=
+ot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; b=
+order-bottom-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; =
+margin-top: 30px; margin-bottom: 0;">Risk management</h2><p style=3D"margin=
+: 16px 0;">A few years ago, a bunch of banks lost money on a margin loan go=
+ne wrong. They had loaned money to a guy named Christo Wiese, who was the c=
+hairman of Steinhoff International Holdings NV; the loans were secured by W=
+iese=E2=80=99s shares of Steinhoff stock. The stock more or less evaporated=
+ overnight due to an accounting scandal, and the banks were left holding co=
+llateral worth much less than their loans. The banks ended up <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/23603906.285025/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMTgtMDEtMTcvdS1zLWJhbmtzLWhhdmUtbG=
+9zdC1tb3JlLXRoYW4tMS1iaWxsaW9uLW9uLXN0ZWluaG9mZi1sb2Fucw/607f07ceef4b8524a3=
+19a23cB03a7c4d8" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> losing more than a billion dollars</a>=C2=A0collectively.</p><p sty=
+le=3D"margin: 16px 0;">At the time, <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/23603906.285025/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMTgtMDEtMTcvaWYtZXZlcnlvbmUtbG9zZXMtbW9uZXktdG9nZXRoZXIt=
+aXQtcy1maW5l/607f07ceef4b8524a319a23cBb6d88f92" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> I wrote consolingly</a>:</p><blockqu=
+ote><p style=3D"margin: 16px 0;">Frankly at this point if you're=C2=A0<em>n=
+ot</em>=C2=A0calling out a nine-digit Steinhoff margin-loan loss in your ea=
+rnings release,=C2=A0<em>that=C2=A0</em>will be a little embarrassing. Why=
+=C2=A0<em>didn't=C2=A0</em>you do this trade that everyone else did?=C2=A0W=
+ere you not important enough to get the call? That's not a great look for y=
+our margin-loan business; if you're going to be an important bank you need =
+to get the calls on the big trades. Or were you too conservative to do a tr=
+ade that Goldman and JPMorgan and Citi and Bank of America were=C2=A0comfor=
+table with? That's even worse. Sure they were=C2=A0<em>wrong</em>, but that=
+'s not the point. The chief financial officer of the next customer looking =
+to do a transaction with a bit of hair on it=C2=A0doesn't care about how sm=
+art you are;=C2=A0she cares about how=C2=A0<em>reasonable=C2=A0</em>you are=
+, how likely you are to actually get the trade done. If=C2=A0you can't get =
+there when everyone else can -- if your due diligence is too stringent or y=
+our committees are too ornery or your lawyers are too careful -- then you a=
+re not going to get a look at=C2=A0the next trade.</p></blockquote><p style=
+=3D"margin: 16px 0;">You miss 100% of the shots you don=E2=80=99t take, or =
+whatever. If you are smart enough to avoid all the dumb trades, the people =
+with the borderline trades =E2=80=94=C2=A0the risky hairy trades, the trade=
+s that might well be dumb, but that, if they=E2=80=99re not dumb, will be v=
+ery lucrative =E2=80=94=C2=A0will go elsewhere. Why deal with you and your =
+strict culture of risk management, when they could deal with someone else=
+=E2=80=99s nonexistent culture of risk management?=C2=A0</p><p style=3D"mar=
+gin: 16px 0;">I was not=C2=A0<em>entirely=C2=A0</em>serious about that, but=
+, you know. There=E2=80=99s a balance. You want to do all the good trades a=
+nd none of the bad trades. To some extent you can just try to be really sma=
+rt and choose your trades correctly, but in practice, at a large bank, in a=
+ competitive market, over time, it=E2=80=99s not always going to work that =
+way. Instead there will be a dial you can turn between =E2=80=9Cno bad trad=
+es but also=C2=A0no good trades=E2=80=9D and =E2=80=9Clots of good trades b=
+ut also some=C2=A0bad trades,=E2=80=9D and you will try to turn the dial to=
+ a setting that maximizes net profits (gains from good trades minus losses =
+from bad trades).</p><p style=3D"margin: 16px 0;">Sometimes you will adjust=
+ the dial. If you have a particularly large and embarrassing bad trade, you=
+ will jerk the dial to the left; you=E2=80=99ll retrench and do fewer good =
+trades in order to ensure that you don=E2=80=99t do any more bad trades. If=
+ you=C2=A0<em>don=E2=80=99t=C2=A0</em>have any embarrassing losses for a wh=
+ile, though, you will start creeping the dial to the right, especially if y=
+our market share isn=E2=80=99t great. =E2=80=9CLet=E2=80=99s do a few more =
+risky trades,=E2=80=9D you will think, =E2=80=9Cbecause we are clearly not =
+taking enough risk.=E2=80=9D Sometimes this will be a correct diagnosis: Yo=
+u are missing good trades because you are more conservative than your peers=
+. Other times it is counterproductive: You are missing good trades because =
+you are less charming or less respected or less helpful than your peers, an=
+d to get more trades you adverse-select yourself into the bad ones.</p><p s=
+tyle=3D"margin: 16px 0;">A few weeks ago, a bunch of banks lost money on so=
+me=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/23603906.2=
+85025/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtM=
+DUvYmlsbC1od2FuZy1zLWFyY2hlZ29zLXN3YXAtYWZ0ZXJtYXRoLWlzLWF3a3dhcmQtZm9yLWJh=
+bmtz/607f07ceef4b8524a319a23cBc2a8fbdf" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> margin loans gone wrong</a>. (Technically eq=
+uity total return swaps, but same basic idea.) I would not say any of them =
+are proud of it or anything, and it is leading to a lot of retrenchment: Th=
+e banks are=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+3603906.285025/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEt=
+MDQtMDkvY3JlZGl0LXN1aXNzZS1wbGFucy1oZWRnZS1mdW5kLXVuaXQtb3ZlcmhhdWwtYWZ0ZXI=
+tYXJjaGVnb3MtaGl0/607f07ceef4b8524a319a23cB64118527" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">cutting back risk</a> in their p=
+rime-brokerage and swaps businesses, and regulators are <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/23603906.285025/aHR0cHM6Ly93d3cud3NqL=
+mNvbS9hcnRpY2xlcy9hcmNoZWdvcy1ibG93dXAtcHV0cy1zcG90bGlnaHQtb24tZ2Fwcy1pbi1z=
+d2FwLXJlZ3VsYXRpb24tMTE2MTcyODAyNzg/607f07ceef4b8524a319a23cBb03e4191" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">making noises<=
+/a> about new, stricter rules. On the other hand,=C2=A0<em>before=C2=A0</em=
+>the swaps went wrong, some of the banks were definitely in turning-the-dia=
+l-to-the-right mode. Here=E2=80=99s a Financial Times story about =E2=80=9C=
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23603906.285025/aH=
+R0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvY2I3MDhiYTItZWE4Yy00YzY2LTkxOTAtMDI1NWZhN=
+TExMmUz/607f07ceef4b8524a319a23cB6503243c" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">How Credit Suisse rolled the dice on risk =
+management =E2=80=94 and lost</a>=E2=80=9D:</p><blockquote><p style=3D"marg=
+in: 16px 0;">In interviews with the Financial Times, six current and former=
+ Credit Suisse managers said the bank hollowed out risk expertise and tradi=
+ng acumen in favour of promoting salesmen and technocrats. Dissenting voice=
+s were suppressed, they said.</p><p style=3D"margin: 16px 0;">=E2=80=9CTher=
+e was a dulling of the senses,=E2=80=9D said a former executive. =E2=80=9CC=
+redit Suisse was in the deep end swimming with the sharks, but doing it wit=
+h a private banking mindset. They were always going to get destroyed.=E2=80=
+=9D</p></blockquote><p style=3D"margin: 16px 0;">And here is a description =
+of how=C2=A0chief risk officer Lara Warner, a former equities analyst, push=
+ed the risk department to be =E2=80=9Cmore commercial,=E2=80=9D which is pr=
+etty much how the dial works:</p><blockquote><p style=3D"margin: 16px 0;">W=
+arner was keen that the bank=E2=80=99s global risk function should not be s=
+een as an =E2=80=9Cacademic ivory tower=E2=80=9D that could =E2=80=9Cdismis=
+s business out of hand=E2=80=9D, according to a person close to the bank. S=
+he also wanted her department to be seen as a career destination rather tha=
+n an administrative backwater.</p><p style=3D"margin: 16px 0;">During her f=
+ive-year tenure, Warner and other executives pushed for risk and compliance=
+ to be =E2=80=9Cmore commercial=E2=80=9D and =E2=80=9Caligned=E2=80=9D with=
+ the front office traders and dealmakers, multiple current and former staff=
+ told the FT.</p><p style=3D"margin: 16px 0;">She led by example. In Octobe=
+r, Warner personally overruled risk managers who cautioned against giving G=
+reensill a $160m bridge loan ahead of a private fundraising. The loan is no=
+w in default.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">It is temp=
+ting to conclude that it is good for a bank to have trades blow up embarras=
+singly every now and then: If you go too long with no blow-ups, the dial wi=
+ll just creep to the right to let more trades in. =E2=80=9CClearly we are b=
+eing too careful,=E2=80=9D the bank will conclude, =E2=80=9Cso let=E2=80=99=
+s be less careful.=E2=80=9D=C2=A0A few controlled fires can offset that ten=
+dency before it causes too big a=C2=A0problem.=C2=A0</p><p style=3D"margin:=
+ 16px 0;">One problem with that conclusion is that Credit Suisse=C2=A0<em>d=
+id=C2=A0</em>have some embarrassing blow-ups=C2=A0<em>before=C2=A0</em>its =
+bigger and more embarrassing blow-ups with Archegos Capital Management and=
+=C2=A0Greensill Capital:</p><blockquote><p style=3D"margin: 16px 0;">In 201=
+8, Credit Suisse lost about $60m after it was left holding a block of share=
+s in clothing company Canada Goose when its stock price plummeted. About a =
+year later, the bank lost about $200m when Malachite Capital, a New York he=
+dge fund and one of its prime brokerage clients, imploded.</p><p style=3D"m=
+argin: 16px 0;">=E2=80=9CThose losses arose from lack of discipline,=E2=80=
+=9D the former executive said. Just as with Archegos, senior managers at Cr=
+edit Suisse got stuck in large positions negotiating on price while their p=
+eers aggressively sold out.</p><p style=3D"margin: 16px 0;">=E2=80=9CThere =
+was systematic insensitivity at all levels,=E2=80=9D said a second person. =
+=E2=80=9CIf you=E2=80=99re the head of risk and you let a $60m loss go by, =
+then a $200m loss, and you don=E2=80=99t ask what the hell is happening her=
+e, what are you doing?=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;=
+">In the simple model, the job of the chief risk officer is to turn the dia=
+l to =E2=80=9Cless risk=E2=80=9D when things blow up a little bit, so that =
+they don=E2=80=99t blow up more.</p><h2 style=3D"font-weight: bold; font-fa=
+mily: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing=
+: -1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style: dot=
+ted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">Bad analyst<=
+/h2><p style=3D"margin: 16px 0;">Is this the dumbest way to <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/23603906.285025/aHR0cHM6Ly93d3cuZ=
+mlucmEub3JnL3NpdGVzL2RlZmF1bHQvZmlsZXMvMjAyMS0wNC9icmlhbi1tYWd1aXJlLWF3Yy0w=
+NDIwMjEucGRm/607f07ceef4b8524a319a23cB3535d4fd" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">throw away a financial career</a>?</p=
+><blockquote><p style=3D"margin: 16px 0;">On April 14, 2020, Maguire receiv=
+ed an email from another research analyst in his business unit with the sub=
+ject line =E2=80=9Crating change heads up.=E2=80=9D The email previewed rat=
+ings changes for several companies, including an upgrade of the rating for =
+Company A from neutral to buy. The email attached a draft research report f=
+or Company A, which explained the bases for the upgrade. The analyst furthe=
+r noted that approval for the upgrade would be discussed during an April 17=
+, 2020 meeting of the firm=E2=80=99s investment review committee.</p><p sty=
+le=3D"margin: 16px 0;">On April 17, 2020, following approval of the upgrade=
+, Maguire purchased 2,000 shares of Company A in the trust account for $128=
+,098. Before market open on Monday, April 20, 2020, Goldman Sachs published=
+ a research report upgrading the rating for Company A from neutral to buy. =
+The upgrade was material. The research report was substantively identical t=
+o the draft report attached to the April 14 email. Before market close on A=
+pril 20, 2020, Maguire sold the Company A shares, which closed at $65.00, u=
+p from the prior day=E2=80=99s close of $63.85.</p></blockquote><p style=3D=
+"margin: 16px 0;">Brian Maguire was an equities analyst at Goldman Sachs Gr=
+oup Inc. At his job, he got to see other analysts=E2=80=99 reports before t=
+hey were published. Twice =E2=80=94=C2=A0the trade above, and another one a=
+ few weeks later =E2=80=94=C2=A0he bought stock in companies that were abou=
+t to be upgraded by Goldman analysts (in an account for a family member and=
+ a trust account he controlled). The upgrades were material nonpublic infor=
+mation that he got in his job and that he was obligated to keep confidentia=
+l, so trading on them was pretty clearly not allowed. A fairly standard cas=
+e of insider trading.</p><p style=3D"margin: 16px 0;">Also though the upgra=
+des weren=E2=80=99t=C2=A0<em>that=C2=A0</em>material? Company A=E2=80=99s s=
+tock went up 1.8% on the upgrade. He made about $1,900 on this trade. Yeste=
+rday he <a href=3D"https://link.mail.bloombergbusiness.com/click/23603906.2=
+85025/aHR0cHM6Ly93d3cuZmlucmEub3JnL21lZGlhLWNlbnRlci9uZXdzcmVsZWFzZXMvMjAyM=
+S9maW5yYS1iYXJzLXJlc2VhcmNoLWFuYWx5c3QtaW5zaWRlci10cmFkaW5n/607f07ceef4b852=
+4a319a23cBfaa134c8" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">settled with the Financial Industry Regulatory Authority</a>, whi=
+ch barred him from the securities industry. Goldman <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/23603906.285025/aHR0cHM6Ly93d3cud3NqLmNvb=
+S9hcnRpY2xlcy9yZWd1bGF0b3ItYmFycy1mb3JtZXItZ29sZG1hbi1hbmFseXN0LWZvci1pbnNp=
+ZGVyLXRyYWRpbmctMTE2MTg5MzU2NzY/607f07ceef4b8524a319a23cB382390e5" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">fired him last yea=
+r</a>, after 10 years at the firm. I don=E2=80=99t get it. Nineteen hundred=
+ bucks!</p><p style=3D"margin: 16px 0;">He also got in trouble for this:</p=
+><blockquote><p style=3D"margin: 16px 0;">On February 27, 2020, Maguire aut=
+hored a research report published by Goldman Sachs in which he had a buy re=
+commendation for Company C. Inconsistent with that recommendation, Maguire =
+sold Company C shares in the trust account on March 26, 2020. On March 11, =
+2020 Maguire authored a research report published by Goldman Sachs in which=
+ he had a buy recommendation for Company D. That recommendation was reitera=
+ted in reports he authored that were published on April 6 and April 8, 2020=
+. Inconsistent with that recommendation, Maguire sold Company D shares in t=
+he trust account on April 6 and April 8, 2020.</p></blockquote><p style=3D"=
+margin: 16px 0;">If you put out a buy recommendation on a stock, you=E2=80=
+=99re not really supposed to be quietly selling it in your personal account=
+; you can see how that would look bad. All of this stuff seems sort of tawd=
+ry but not lucrative; it=E2=80=99s almost easier to believe that it was a s=
+eries of accidents (=E2=80=9CI didn=E2=80=99t read that report, and I forgo=
+t I had a buy rating=E2=80=9D?) than an intentional plan.</p><h2 style=3D"f=
+ont-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, s=
+ans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px;=
+ border-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin=
+-bottom: 0;">How was your 4/20?</h2><p style=3D"margin: 16px 0;">A fund man=
+ager named Brett Rogers emailed me yesterday to say:</p><blockquote><p styl=
+e=3D"margin: 16px 0;">The GME options that traded the most today (4/20)</p>=
+<p style=3D"margin: 16px 0;">Are the expiring 690 calls</p><p style=3D"marg=
+in: 16px 0;">I have hated my job for months now, just kill me</p></blockquo=
+te><p style=3D"margin: 16px 0;">Bloomberg tells me that those calls (GME US=
+ 04/23/21 C690 Equity) traded 3,970 contracts yesterday. To be fair they tr=
+aded twice as many the day before, and their price has gone steadily down o=
+ver the last few days, as you=E2=80=99d expect from an option that expires =
+on Friday and is $500+ out of the money. (It closed at $0.10.) Also Bloombe=
+rg tells me that they didn=E2=80=99t exactly trade the=C2=A0<em>most=C2=A0<=
+/em>of any GME contract yesterday; they=E2=80=99re up there, but they=E2=80=
+=99re=C2=A0behind the somewhat more sensible $200-strike Friday call. Still=
+. One sees his point.=C2=A0</p><p style=3D"margin: 16px 0;">I have to say, =
+I have been a financial blogger for almost 10 years now, and I think this i=
+s the first year I have ever, like, commemorated 4/20. It=E2=80=99s a <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/23603906.285025/aHR0cHM=
+6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvNDIwXyhjYW5uYWJpc19jdWx0dXJlKQ/607f07ceef4=
+b8524a319a23cB18b85f47" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">marijuana=C2=A0joke</a>. Obviously plenty of=C2=A0people in t=
+he financial industry smoke weed and/or think that =E2=80=9C420=E2=80=9D is=
+ a funny joke, but they have not traditionally made it central to their=C2=
+=A0<em>working=C2=A0</em>lives. Nobody was like =E2=80=9Cwe should upsize t=
+his $400 million bond deal to $420 million because 420, lol.=E2=80=9D As fa=
+r as I can tell that only really started in 2018, when=C2=A0Elon Musk prete=
+nded he was going to take Tesla Inc. private at $420 a share because, <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/23603906.285025/aHR0cHM=
+6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAxOC9jb21wLXByMjAxOC0yMT=
+kucGRm/607f07ceef4b8524a319a23cB30778b43" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">according to the Securities and Exchange C=
+ommission</a>, =E2=80=9Che had recently learned about the number=E2=80=99s =
+significance in marijuana culture and thought his girlfriend =E2=80=98would=
+ find it funny, which admittedly is not a great reason to pick a price.=E2=
+=80=99=E2=80=9D</p><p style=3D"margin: 16px 0;">At the time I <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/23603906.285025/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDktMjgvbXVzay1zLXRlc2xhLW=
+Z1bi1kb2VzLW5vdC1hbXVzZS1zZWM/607f07ceef4b8524a319a23cBa2ba876c" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> defended Musk a l=
+ittle</a>, writing that arbitrary first bids in take-private transactions a=
+re pretty normal, and why not amuse yourself a bit. But now I think that =
+=E2=80=9C420 is the drugs number=E2=80=9D kind of=C2=A0<em>is=C2=A0</em>a g=
+reat reason to pick a price? One aspect of hyper-modern finance is that the=
+ good numbers are 420 and 69, and if you can price or size something at 420=
+ or 69 (or some legible multiple of 420 or 69) then you will get attention =
+and possibly buyers. Yesterday people wanted the $690 Tesla calls, not the =
+$700 or $600 or $500 calls. There is a conventional=C2=A0behavioral-finance=
+ view that trading clusters at round numbers, but the modern version is tha=
+t trading clusters at Internet Joke Numbers. If you are launching a $400 mi=
+llion special purpose acquisition company, why not launch a $420.69 million=
+ SPAC instead? The ticker =E2=80=9CNICE=E2=80=9D is taken, unfortunately, b=
+ut still; you will get lots of retail attention and sell more stock and hav=
+e more aftermarket support if you signal that you are in on the joke. Or if=
+ Musk were taking Tesla private at $420 today, he=E2=80=99d have a much eas=
+ier time raising financing than he did in 2018[3]:</p><blockquote><p style=
+=3D"margin: 16px 0;"><strong>MUSK:</strong> I want to take Tesla private at=
+ a premium to its last valuation and I need you to give me the money.</p><p=
+ style=3D"margin: 16px 0;"><strong>FINANCING SOURCE:</strong> I don=E2=80=
+=99t know, that=E2=80=99s a lot of money, and I am concerned that=E2=80=94<=
+/p><p style=3D"margin: 16px 0;"><strong>MUSK:</strong> At $420 a share lol.=
+</p><p style=3D"margin: 16px 0;"><strong>FINANCING SOURCE:</strong>=C2=A0 N=
+ice, here you go.</p></blockquote><p style=3D"margin: 16px 0;">Elsewhere in=
+, you know, all this stuff, <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/23603906.285025/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjEtMDQtMjAvZG9nZWNvaW4tZG9nZS1ob3ctaXMtaXQtZGlmZmVyZW50LWZyb20tYml0=
+Y29pbi1idGMtYW5kLXNob3VsZC15b3UtYnV5LWl0/607f07ceef4b8524a319a23cBc25a5bf8"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> here=E2=
+=80=99s an article about Dogecoin</a>:</p><blockquote><p style=3D"margin: 1=
+6px 0;">So, should you get in on the Dogecoin action?</p><p style=3D"margin=
+: 16px 0;">=E2=80=9CIt=E2=80=99s almost irresponsible to lend credence to t=
+he speculation by even asking that question,=E2=80=9D said David Trainer, c=
+hief executive of New Constructs, an independent securities research firm b=
+ased in Nashville.</p></blockquote><p style=3D"margin: 16px 0;">It features=
+ this person who made a 1,000% return as a joke:</p><blockquote><p style=3D=
+"margin: 16px 0;">Those include Alyssa Vazquez, a 26-year-old accountant fr=
+om Dallas.</p><p style=3D"margin: 16px 0;">Vazquez originally bought $600 w=
+orth of Dogecoin in January and February with her husband as a joke, thinki=
+ng that they probably wouldn=E2=80=99t get anything out of it. =E2=80=9CWhe=
+n we started, we agreed that we would never put in more than we could affor=
+d to lose,=E2=80=9D she said. Now, they are up around $6,000.</p></blockquo=
+te><p style=3D"margin: 16px 0;">And this person who bought Dogecoin for the=
+ purest of reasons, the love of a=C2=A0Shiba Inu:</p><blockquote><p style=
+=3D"margin: 16px 0;">Brayden Johnson, 26, an electrician from Alberta, Cana=
+da, bought Dogecoin in memory of his Shiba Inu named Hudson who passed away=
+ last year at age 15.</p><p style=3D"margin: 16px 0;">=E2=80=9CI actually t=
+hink about him anytime someone says the word doge,=E2=80=9D Johnson wrote i=
+n an email. =E2=80=9CI can picture in my head all the times that I=E2=80=99=
+ve seen him do the goofy face of the meme and all his fur get scrunched up =
+in his collar.=E2=80=9D</p><p style=3D"margin: 16px 0;">When Johnson saw th=
+at Dogecoin was up big, he was really excited and did not expect it to gain=
+ so much at such a rapid rate.</p><p style=3D"margin: 16px 0;">=E2=80=9CIt =
+feels good to be up, because who couldn=E2=80=99t use some extra money?=E2=
+=80=9D he said. =E2=80=9CIt feels a little sweeter that an investment made =
+because I missed my dog has paid such nice dividends.=E2=80=9D</p></blockqu=
+ote><p style=3D"margin: 16px 0;">This is how it all works now, sorry.</p><h=
+2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, =
+Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom=
+-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top: =
+30px; margin-bottom: 0;">Things happen</h2><p style=3D"margin: 16px 0;">How=
+ Robinhood <a href=3D"https://link.mail.bloombergbusiness.com/click/2360390=
+6.285025/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9mZWF0dXJlcy8yMDIxLXJvYmluaG9vZC=
+1zdG9jay10cmFkaW5nLWRlc2lnbg/607f07ceef4b8524a319a23cBb47adc23" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> Made Trading Easy</a=
+>=E2=80=94and Maybe Even Too Hard to Resist. Europe=E2=80=99s <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/23603906.285025/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDQtMjAvY2hlbHNlYS1yZXBvcnRlZC=
+10by1sZWF2ZS1ldXJvcGVhbi1zdXBlci1sZWFndWUtYW1pZC1jcml0aWNpc20/607f07ceef4b8=
+524a319a23cB92201b35" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Rebel Soccer League Collapses</a> After Fans Force Exit. Leak=
+ed Super League plans reveal goal of <a href=3D"https://link.mail.bloomberg=
+business.com/click/23603906.285025/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZTgw=
+Mjk5YTQtODAxMi00NDdhLTg1MTItYzI0ZTE0OTMwNGIx/607f07ceef4b8524a319a23cB15e71=
+c3e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">US-st=
+yle football finances</a>. Behind the <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/23603906.285025/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9=
+iZWhpbmQtdGhlLW15c3RlcmlvdXMtZGVtaXNlLW9mLWEtMS03LWJpbGxpb24tbXV0dWFsLWZ1bm=
+QtMTE2MTg5MTEwMDA_bW9kPWhwX2xlYWRfcG9zNw/607f07ceef4b8524a319a23cB82b5af33"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">Mysteriou=
+s Demise</a> of a $1.7 Billion Mutual Fund. Hertz Gets Sweetened Offer as B=
+ankruptcy <a href=3D"https://link.mail.bloombergbusiness.com/click/23603906=
+.285025/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDQtMjA=
+va25pZ2h0aGVhZC1jZXJ0YXJlcy1hZ2Fpbi1zd2VldGVuLWRlYWwtdG8tYnV5LWJhbmtydXB0LW=
+hlcnR6/607f07ceef4b8524a319a23cBa2c37133" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> Bidding War Escalates</a>. Goldman Reveal=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/23603906.285025/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDQtMjAvZ29sZG1=
+hbi1yZXZlYWxzLWl0cy1ibGFjay13b3JrZm9yY2UtbnVtYmVycy1mb3ItdGhlLWZpcnN0LXRpbW=
+U/607f07ceef4b8524a319a23cB00fa157c" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Black Workforce Numbers</a> for the First Time.=
+=C2=A0Regulators <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+3603906.285025/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9yZWd1bGF0b3JzLXF1ZXN0=
+aW9uLWNyZWRpdC1zdWlzc2Utb3Zlci1yZWNlbnQtYXJjaGVnb3MtcmVsYXRlZC1zdG9jay1zYWx=
+lcy0xMTYxODkzNDg0Mj9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cBe9=
+66536b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;">Qu=
+estion Credit Suisse</a> Over Recent Archegos-Related Stock Sales. Biden=E2=
+=80=99s Big Agenda Relies on a Shrunken, Strained Agency: <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/23603906.285025/aHR0cHM6Ly93d3cud3N=
+qLmNvbS9hcnRpY2xlcy9iaWRlbi1hZ2VuZGEtcmVsaWVzLW9uLXNocnVua2VuLXN0cmFpbmVkLW=
+lycy0xMTYxODkyODgzMD9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB1=
+8068125" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">T=
+he IRS</a>. HSBC Manager=E2=80=99s Heart Attack <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/23603906.285025/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDQtMjEvaHNiYy1tYW5hZ2VyLXMtaGVhcnQtYXR0YWNr=
+LXByb21wdHMtdmlyYWwtcG9zdC1hYm91dC1vdmVyd29yaw/607f07ceef4b8524a319a23cBd56=
+bbc44" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Pr=
+ompts Viral Post</a> About Overwork.=C2=A0Elon Musk said he was a Secret Se=
+rvice '<a href=3D"https://link.mail.bloombergbusiness.com/click/23603906.28=
+5025/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9lbG9uLW11c2stdGVzbGEtc3BhY2=
+V4LXNlY3JldC1zZXJ2aWNlLXNwZWNpYWwtYWdlbnQtZmlsaW5nLWRvbmF0aW9uLTIwMjEtNA/60=
+7f07ceef4b8524a319a23cB949b748f" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">special agent</a>' when he donated to the Republican=
+ Party, an FEC filing shows. 'Creature' terrorizing Poland town turns out t=
+o be <a href=3D"https://link.mail.bloombergbusiness.com/click/23603906.2850=
+25/aHR0cHM6Ly93d3cuZm94bmV3cy5jb20vZm9vZC1kcmluay9jcmVhdHVyZS10cmVlLXBvbGFu=
+ZC1jcm9pc3NhbnQtYW5pbWFsLWNvbnRyb2w/607f07ceef4b8524a319a23cB2c87758a" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">a croissant st=
+uck in a tree</a>.</p><p style=3D"margin: 16px 0;"><span class=3D"news-desi=
+gned-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=
+=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/23603906.285025/aHR0cDovL2xpbmsubWFp=
+bC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD0=
+1NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB5e8de4=
+23" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">subscribe at this link</a>. Or you =
+can subscribe to Money Stuff and other great Bloomberg newsletters <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/23603906.285025/aHR0cHM6L=
+y9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB1436d0=
+6b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">here</=
+a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] Yes I am su=
+re that the electricity powering my computer has some carbon impact, etc., =
+but that=E2=80=99s not what I=E2=80=99m talking about, I=E2=80=99m talking =
+about the fact that I have not taken a hatchet out into my backyard to chop=
+ down trees. I mean literal tree cutting.</em></p><p style=3D"margin: 16px =
+0;"><em>[2] A classic case of getting=C2=A0paid not to do things is =E2=80=
+=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/23603906.285025=
+/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRGVtYW5kX3Jlc3BvbnNl/607f07ceef4b8=
+524a319a23cBda660f58" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">demand response</a>=E2=80=9D in electric power markets. There =
+are programs that allow electricity consumers to sell power back to the gri=
+d, during periods of congestion, essentially by using less of it. But how d=
+o you measure how much power you=E2=80=99re not using? The rough answer is =
+something like =E2=80=9Cyou measure how much power you usually use at a par=
+ticular time, and then get paid for <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/23603906.285025/aHR0cHM6Ly93d3cubmFlc2Iub3JnL3BkZjQvZHNtZ=
+WVfZ3JvdXAzXzEwMDgwOXczLnBkZg/607f07ceef4b8524a319a23cBf0535b6d" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">the reduction from=
+ that baseline</a>,=E2=80=9D but getting that exactly right is tricky.</em>=
+</p><p style=3D"margin: 16px 0;"><em>[3] Well, now the stock is trading in =
+the $700s =E2=80=94=C2=A0after a 5-for-1 split last August =E2=80=94=C2=A0b=
+ut ignore that for the moment.</em></p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; border-right-wi=
+dth: 10px; border-right-color: white; border-right-style: solid; padding: 9=
+px 0;">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23603906.285025/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB36f72eaf" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iSTidtzUTVno/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23603906.285025/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB8355f159" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ivgKTIiTGA3M/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23603906.285025/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB0b5216fb" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iD_P6YIGeql4/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; border-left-wid=
+th: 10px; border-left-color: white; border-left-style: solid; padding: 9px =
+0;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23603906.285025/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB1fec54b6" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2360=
+3906.285025/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB79d3ae5d" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23603906.285025/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCefcd5ed3" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23603906.285025/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBfc2530e1" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23603906.285025/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB3957578a" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce1ww2.63xd/a3e16799.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_20157790_1487113701.1619023137746--
+

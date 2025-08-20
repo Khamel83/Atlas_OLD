@@ -1,0 +1,2563 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:ac9:1512:0:b0:49a:d010:6bdf with SMTP id u18csp152254ocb;
+        Tue, 31 Jan 2023 06:07:52 -0800 (PST)
+X-Received: by 2002:adf:ee4d:0:b0:2c2:6541:7afa with SMTP id w13-20020adfee4d000000b002c265417afamr2354096wro.57.1675174071600;
+        Tue, 31 Jan 2023 06:07:51 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1675174071; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=WnylRgAKAzGlXKcLYavnyF5TD0RbyhuJjDmEWHk3L2ltx7CN5Bjir7y13Ti2knstV8
+         v2k3gGIJq5ESf0bIkuk2C+T3sx+kRMrHKVLd3uBgRiMxNzX9/wauJLH++6Y49p3QT/YV
+         1hovreYvf4ybHu1vdfrzKJ9k5AWKZ8yknAeEMelfKh9ZwwknhwrlsRCycIeFZ61fE/a/
+         ea1q8pNgSoj0/Qt5WJOfb07OgM2M1eg3xzJEHyAKYml3wyLAgdfzCgNX5fcuREe0jZBZ
+         /b2xH5SOETmTWZtiCXFnbpq0fURNCmW5n4J9ovmvcmq8Bbtf4ftoNB3VSFQpQkYfgdoB
+         NwTA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=sender:list-url:list-owner:references:list-post:message-id:reply-to
+         :list-unsubscribe-post:list-archive:in-reply-to:list-id:date
+         :list-unsubscribe:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=Q3oIvQQiKT/Nn/JNXpM75oz2e5XG7o3kiiCvWGXmx1M=;
+        b=phemb4lu0Sy5Rt/JGPSw5BHiGJWE4hKwwKqaQ4UZ1/M8gNRcJa7326cORWhcd9Z9YF
+         syQi7snDHCMy/7PxgV+CQFcQb56k3RC+65JeoF2iVwi6kIySPBb6qT1RgCS098cOpNmG
+         Ec3NUczXDHJsHQ4yJKSVB1e97vgjr+2vunLOv8YH9VuXS0r5b2jTAoEMdMXwpf9ogm1B
+         N1tJc7PtNd0kH64Sf4Q7xU7uaJrXqeUHZjGeCO3PH9K4vA7typYHaECFzP9tyJrKlMFy
+         V49DFhW4tCGaLP8tT4b/ZfyubtyEC68VwZWGY4/xhOhfnT/1lXerZdW9ylisV6RclJ84
+         N+9A==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b="ih/5BOcH";
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i14-20020adfaace000000b002bfc337f25csor5644140wrc.2.2023.01.31.06.07.51
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 31 Jan 2023 06:07:51 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b="ih/5BOcH";
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=sender:list-url:list-owner:references:list-post:message-id:reply-to
+         :list-unsubscribe-post:list-archive:in-reply-to:list-id:date
+         :list-unsubscribe:to:from:subject:mime-version:dkim-signature
+         :delivered-to:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=Q3oIvQQiKT/Nn/JNXpM75oz2e5XG7o3kiiCvWGXmx1M=;
+        b=Dm+HawQXtQenYkQ97hMyyGutiYRq6OafbEDOWChWDESIICFsb6xxjxwba2fYlIObI/
+         bShnecaFFxUg06HDLSXFGygwAjvNK3AdUepsq8J5/mLpG6BZch/ytQFQQ7LGYKUd/tyq
+         H1GYynKPwsmfEzCkzo0/sTTq6r1rclAW9tkqoiLMzwGdqaUgGhrFVc55E0AnUDF7b3hZ
+         Cu+EUdLWjpLMgUdw8XrZbCr2WX/nRHoq8s36ZhKFs5o9Lm9m2Yg19MwIzEpNYneQG43g
+         sEBWlX77237PkvZX5LnFIyCnawqbkbpCAryROmnd/fIvW0mrIfPAFMA6R/QEx5BR1Eff
+         zFdA==
+X-Gm-Message-State: AO0yUKXXcg3U6Bd84/tJf9xwrrkYGO6sh1mI8UUVbSp3K6VytDr2j+U9
+	2EzDteIW88Fk4gfu20FMC8EyPOSEzdGUPEuTdZ6KbO3J+DTTTbegbQ==
+X-Received: by 2002:a5d:4681:0:b0:2bf:e45d:8dfd with SMTP id u1-20020a5d4681000000b002bfe45d8dfdmr552217wrq.356.1675174071155;
+        Tue, 31 Jan 2023 06:07:51 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:6000:1c08:0:0:0:0 with SMTP id ba8csp114031wrb;
+        Tue, 31 Jan 2023 06:07:48 -0800 (PST)
+X-Received: by 2002:a05:690c:797:b0:507:f428:ae44 with SMTP id bw23-20020a05690c079700b00507f428ae44mr12077814ywb.23.1675174067597;
+        Tue, 31 Jan 2023 06:07:47 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1675174067; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=r447xSEFMQfSDjXTYP341So7UnxqrW2Wj+NV07xJqPeC+GAqDBcPxB5+kmsIDlu0f8
+         C3lRBV4LmRa2/X34aHUkSBjal/fVS6GC25M59NMoKdOER4PJ/LBEIeAu9IPCc5OqQXzg
+         +BkwPpPFLs3SybVnNf68b6uIv6Li8l8B4r/FZbn63uZ/GigusT7xwHGYNwun+EDjbT5m
+         W3kud22sPA+ReFFSid+zPdoLrgzxngeEaQoytdeTFS7Wr9rX2if0xS8lnIHXJDGG/SZ5
+         BTiemV7LUuNVl8WJ+tpLrsHHiPINhom6afxnqOdvm5YtDgS/Fl2XGhY/SRg29CBXI8wk
+         b16A==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=sender:list-url:list-owner:references:list-post:message-id:reply-to
+         :list-unsubscribe-post:list-archive:in-reply-to:list-id:date
+         :list-unsubscribe:to:from:subject:mime-version:dkim-signature;
+        bh=Q3oIvQQiKT/Nn/JNXpM75oz2e5XG7o3kiiCvWGXmx1M=;
+        b=XWsg5ENM6zDl/cLL3kr4BPlQxJc2r3+SrHTQNfIXF8r/2zkJby58Git4p3kytpMzCW
+         ZepA9qRorFX1peB0sTjyKWjpUtiuW2GbJ5ysJZv0yyv8puvXzRIqbONuhEpGgihE9kpQ
+         2eFxkePKSui9WsciKcdEY1G+QZbeX9gShB06E1noUoyT3h0QZcZgdP5TaKTjnaWexnvb
+         qi7Nsb2iMgcspPglOM60xtHWCaWuWbXQtdH2pzAzytP18YfZd2T+L8Hii/c4DrCYvXFD
+         etnDXNpC0RrojZ+/U0jU+FXEm7TGLjyhAR0/E1zoi2ddbt6hMWSvIImSTy1Pk4h0wiZb
+         TzNQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b="ih/5BOcH";
+       arc=pass (i=1 spf=pass spfdomain=mg-d0.substack.com dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x63-20020a81a042000000b004be49f15b12sor7222224ywg.148.2023.01.31.06.07.47
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 31 Jan 2023 06:07:47 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set+HO0wLmqwt1ttd+/2kug80JBh0GNBqqkLslXCf8d+RcoYf48ayrLw2W1r8YYLBkMIQ94HaqR9kJzIOdpB33NImRo/r4tc=
+X-Received: by 2002:a05:7500:3888:b0:f3:b2ca:c6a9 with SMTP id lp8-20020a057500388800b000f3b2cac6a9mr254173gab.32.1675174067040;
+        Tue, 31 Jan 2023 06:07:47 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1675174067; cv=none;
+        d=google.com; s=arc-20160816;
+        b=OhC5y0y6ohhsZC5cLjjDXkF4TbcoLH8OW6iKpMyHzb54CQPhZ9K/JZnUR9LKeVVd7V
+         pJPJ0K1HakhALju+UNQ0EqJeb2ucC3fL57WWJURe7VB7Vs5OjRwlc1yNI36Q8kQlso0B
+         Vhsq62kkwj0UeIrhhibPMzJO2ywBpzyAbPFhZGbsVTrUj93qTaH3DoaBIFTt8ajHqPid
+         Po9JuCuV5qY/j3Or+WbWhcsMZR2QEwC51Isi6m0P/aa7P0DPq3+SuSsrsrm3PmtiEgYB
+         NB6Tog1PsNCh5Z22SdcuJNYYWRSgZnJCvL8w6jljLzcZDXMwGQE/NQ7NFal90SEDlIpE
+         PGQg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=sender:list-url:list-owner:references:list-post:message-id:reply-to
+         :list-unsubscribe-post:list-archive:in-reply-to:list-id:date
+         :list-unsubscribe:to:from:subject:mime-version:dkim-signature;
+        bh=Q3oIvQQiKT/Nn/JNXpM75oz2e5XG7o3kiiCvWGXmx1M=;
+        b=wq7UnbzA5ecCkmQb3/Ut/joCNiRFPgfjQ/HQbwO+euQGIZ021miEqiLrGnV/OliUkD
+         8qke+hteM69iu2KBAqxfvs8j9n5Pn7LuMAEM2jaASjCZkVcqtaLrpVhsUDLT2quCujaf
+         xwiQw5nng/Ik+rHa/JN3324+4V5lOeKmi7t+13l2DXWMll5rj2bjJR1YJTQ/b6v7lmiV
+         W7HHP1v4kuLTMAu1iDpg7XAO34e+sZWyhZPlZvt9N84pnetg7XcSKFViKfi2bjKsdrtt
+         wdzi2P41V3PDujYFMAAXTUS1Lm/t4TC4sGi1xqYvP5KxctN5tGwccPo9zImv6SDAkJWc
+         T17w==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b="ih/5BOcH";
+       spf=pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 161.38.202.170 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from mg-202-170.substack.com (mg-202-170.substack.com. [161.38.202.170])
+        by gmr-mx.google.com with UTF8SMTPS id f68-20020a1fcf47000000b003ea68869952si188852vkg.1.2023.01.31.06.07.36
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 31 Jan 2023 06:07:47 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 161.38.202.170 as permitted sender) client-ip=161.38.202.170;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d0.substack.com; q=dns/txt;
+ s=mailo; t=1675174048; x=1675181248; h=Sender: Sender: List-Owner:
+ References: List-Post: Message-Id: Reply-To: List-Archive: In-Reply-To:
+ List-Id: Date: List-Unsubscribe: To: To: From: From: Subject: Subject:
+ Content-Type: Mime-Version;
+ bh=Q3oIvQQiKT/Nn/JNXpM75oz2e5XG7o3kiiCvWGXmx1M=; b=ih/5BOcH8+SDR5Q/e3JqRD8Iy6MTPpY5WiSAbt35zFUyL3tA7GPprgR+OycaG/7lCygEcK1f
+ 6Pc+kb7nheCXLN6QJ9ufvLb7BgWU7G9/5FIFrI08Ph9S5e0N1ABbrbrS1B2p0HoFjiQGOvum
+ je4VyZ+Yep6EHMAos0r0of27FSs=
+X-Mailgun-Sending-Ip: 161.38.202.170
+X-Mailgun-Sid: WyJhNzc2ZCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiNjNhZjVkIl0=
+Received: from <unknown> (<unknown> []) by c336868df4b3 with HTTP id
+ 63d91de1159e8e6bbd3fbd9f; Tue, 31 Jan 2023 13:55:43 GMT
+X-Mailgun-Batch-Id: 63d91de05a6accb7bc8eabe0
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="06f49b0bace96f81f28248d6e656f8bfd2dd5f97871db28ae76ea2fe8332"
+Subject: Wander: Owning Happy Places
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk1UQXdNREEwTlRJNUxDSnBZWFFpT2pFMk56VXhOek16TkRJc0ltVjRjQ0k2TVRZM056YzJOVE0wTWl3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuc2RzQ0tSaElGVUt2NDZuSVkwQVhhQ0o0eG9wcGhaRWN6VG04U1c1VXN2MCIsInAiOjEwMDAwNDUyOSwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NzUxNzMzNDIsImV4cCI6MTY3Nzc2NTM0MiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0._LmLYWYvP8PD1Z-EGQNiTzPU7suxD2W5FiXvJxFh6XU?>
+Date: Tue, 31 Jan 2023 13:55:34 +0000
+List-Id: <notboring.substack.com>
+In-Reply-To: <post-100004529@substack.com>
+List-Archive: <https://www.notboring.co/archive>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Reply-To: Not Boring
+ <reply+1njfzl&9p0gt&&a4960610005b26cfd04f01a0e89bff8025334567598df68a717e782f35e65651@mg1.substack.com>
+Message-Id: <20230131135534.3.b4d3845cb29e0d16@mg-d0.substack.com>
+List-Post: <https://www.notboring.co/p/wander-owning-happy-places>
+References: <post-100004529@substack.com>
+List-Owner: <mailto:notboring@substack.com>
+List-Url: <https://www.notboring.co/>
+Sender: Not Boring <notboring@substack.com>
+X-Mailgun-Variables: {"category": "post", "comment_id": "",
+ "email_generated_at": "1675173342952", "is_freemail": "true",
+ "post_audience": "everyone", "post_id": "100004529", "post_type":
+ "newsletter", "pub_community_enabled": "true", "publication_id": "10025",
+ "subdomain": "notboring", "user_id": "16283549"}
+
+--06f49b0bace96f81f28248d6e656f8bfd2dd5f97871db28ae76ea2fe8332
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/wander-owning-happy=
+-places
+
+Welcome to the=C2=A0868=C2=A0newly Not Boring people=C2=A0who have joined u=
+s since last Tuesday! If you haven=E2=80=99t subscribed, join=C2=A0184,121 =
+smart, curious folks by subscribing here:
+Hi friends =F0=9F=91=8B,
+Happy Tuesday!=20
+It=E2=80=99s a great week over here at Not Boring HQ. The Eagles are back i=
+n the Super Bowl and I get to write about one of my favorite companies: Wan=
+der [ https://substack.com/redirect/b6bafa61-c458-4320-b2e8-d42873795923?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].=20
+Wander has a chance to build one of those iconic brands that becomes both n=
+oun and verb. As they grow their portfolio of incredible vacation rental pr=
+operties throughout the US and beyond, I suspect that =E2=80=9CLet=E2=80=99=
+s Wander=E2=80=9D will become synonymous with =E2=80=9CLet=E2=80=99s get aw=
+ay for the week.=E2=80=9D=20
+Building that kind of brand, especially when Airbnb and established hotel c=
+hains exist, is really hard. It takes a relentless attention to detail, a r=
+are willingness to do everything in-house, and an uncommon ability to fit a=
+ll of the pieces together just so. It also takes the capital to achieve ubi=
+quity, which is why Wander recently launched Atlas [ https://substack.com/r=
+edirect/b421ebed-ac01-476c-82a3-366442991f3e?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7=
+GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], the first vacation rental REIT.=20
+So this is a piece about Wander, but it=E2=80=99s also a case study on how =
+to build a Natively Integrated Company from the ground up. We=E2=80=99ve wr=
+itten that the most important companies of the next decade will be built at=
+ the intersection of Bits & Atoms =E2=80=94 Wander provides a playbook for =
+those willing and able to do the hard work.=20
+This essay is a Sponsored Deep Dive on a Not Boring Capital portfolio compa=
+ny. You can read more about how I choose which companies to do deep dives o=
+n, and how I write them here [ https://substack.com/redirect/dbf6159b-fbb3-=
+4c4a-a51b-bc5ff1b13403?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqO=
+sa8-6m8ExkRNpU ]. Nothing in this essay is investment advice - check the fo=
+otnote.
+Let=E2=80=99s get to it.
+Wander: Owning Happy Places
+Not all those who wander are lost.
+Look, I didn=E2=80=99t want to use that quote, but bear with me.=C2=A0
+Since J.R.R. Tolkien first wrote those words in The Riddle of Strider, they=
+=E2=80=99ve been splashed across so many inspirational posters and Instagra=
+m bios that they=E2=80=99ve become meaningless.
+Worse than meaningless, in fact. Tolkien meant the exact opposite. The orig=
+inal is a reference to Aragorn, who wanders around his kingdom not because =
+he is lost, but because he has a very specific goal: to learn to become a g=
+reat ruler. Those who wander with a purpose, according to Tolkien, are not =
+lost. Those who wander aimlessly are.=C2=A0
+Admittedly, I only looked into the history of that quote because this is a =
+piece about a company called Wander [ https://substack.com/redirect/b6bafa6=
+1-c458-4320-b2e8-d42873795923?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlX=
+XepKbqOsa8-6m8ExkRNpU ]. But as I read this explanation [ https://substack.=
+com/redirect/28e854cf-abc7-4711-94d4-8fe2e417f34b?j=3DeyJ1IjoiOXAwZ3QifQ.gb=
+8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], it struck me that the dueling =
+interpretations of that same quote are a perfect metaphor for Wander and Ai=
+rbnb.=C2=A0=C2=A0
+Wander is vertically integrated and purposeful; Airbnb is a more meandering=
+ marketplace.
+You=E2=80=99ve heard of Airbnb, probably stayed in a few, and maybe even li=
+sted your home. I have, and I=E2=80=99ve had good, if varied, experiences. =
+I=E2=80=99ve stayed in some Airbnbs that were more wonderful than the pictu=
+res and descriptions could have conveyed, and some that were more appalling=
+ than the Host would have wanted us to believe. Airbnb is a marketplace, an=
+d navigating a marketplace can feel like aimlessly wandering.=C2=A0
+For a long time, Airbnb had that special startup sheen on it that glossed o=
+ver the inconsistencies. Sometimes, you=E2=80=99d show up to an Airbnb and =
+the door was locked and the host didn=E2=80=99t answer the phone and you=E2=
+=80=99d be stuck outside in a foreign country for hours. Sometimes the beds=
+ were barely made. Often, the pictures looked just a little bit better than=
+ the real thing.=C2=A0
+When people booked Airbnbs, all of the little hiccups became part of the ad=
+venture. =E2=80=9CRemember when we were stranded outside our Airbnb in the =
+rain in Porto for three hours and we found that amazing little bar next doo=
+r?!=E2=80=9D That was part of the fun! Not all those who wander are lost, a=
+nd we were ~wAnDeRiNg~!=C2=A0
+Now, however, Airbnb is a public and well-known company, and the little inc=
+onsistencies aren=E2=80=99t as much fun as they used to be. The beds aren=
+=E2=80=99t as comfortable as hotel beds. There=E2=80=99s no food in the fri=
+dge. The Host charged me a $300 cleaning fee and made me take out the trash=
+? Tweets and videos like this one are more and more common:
+Wander, on the other hand, feels purposeful in every detail.=C2=A0
+If you haven=E2=80=99t heard of Wander, the best way to think of it is as a=
+ vertically-integrated Airbnb. If you haven=E2=80=99t seen Wander, the prop=
+erties are ridiculous. Here=E2=80=99s a little eye candy:
+You should go check out the properties and the video tours for each on its =
+site [ https://substack.com/redirect/b6bafa61-c458-4320-b2e8-d42873795923?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. After =
+I mentioned to Puja that I was writing this piece, she watched all of them =
+back-to-back. Wander properties are architectural gems in stunning location=
+s =E2=80=93 some have warnings not to bring kids because they=E2=80=99re pe=
+rched on the edges of cliffs. They=E2=80=99re the kind of properties that c=
+an cost over $1,000 per night =E2=80=93 don=E2=80=99t worry, you can split =
+with friends or teammates in the app =E2=80=93 and still reach occupancy ra=
+tes in the 80-90% range and higher.=C2=A0
+In order to craft a perfect experience, the company handles everything itse=
+lf:=C2=A0
+Acquisitions. Its team scours the country for architecturally stunning vaca=
+tion properties in unique locations and purchases them.
+Design. Wander renovates homes and outfits them with products and furniture=
+ from top brands (every rental comes with a Tesla, for example).
+Booking. All properties are listed on the Wander website and app, where gue=
+sts can book them for themselves, family and friends, or Teams [ https://su=
+bstack.com/redirect/3d2c804c-d596-46b9-bc18-09f783156a90?j=3DeyJ1IjoiOXAwZ3=
+QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. Bookers are able to inv=
+ite guests and even split costs from within the app.=C2=A0
+Property Management: Wander=E2=80=99s team operates each property in-house =
+to keep the experience bar high for each guest.=C2=A0
+The benefit of that approach is that it translates into a consistently high=
+-quality experience. Wander=E2=80=99s Customer Satisfaction Score is consis=
+tently in the 90s. The drawback is that, unlike Airbnb which is able to acq=
+uire its supply for free and scale at near-internet speed, Wander is more e=
+xpensive and slower to scale. Acquiring, renovating, and furnishing propert=
+ies is neither cheap nor easy.=C2=A0
+Or rather, it was capital intensive until very recently, when it launched A=
+tlas [ https://substack.com/redirect/061fa4eb-3adb-4d65-958d-7267b77886bf?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].=20
+In my Fund III announcement [ https://substack.com/redirect/fa7fcf85-cd7f-4=
+41e-b696-3f2216571130?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOs=
+a8-6m8ExkRNpU ], I highlighted Wander specifically:
+We=E2=80=99ve backed a number of companies in traditionally capital-intensi=
+ve categories with the ability to scale in a capital efficient manner. As o=
+ne example from our Fund II portfolio, Wander [ https://substack.com/redire=
+ct/b6bafa61-c458-4320-b2e8-d42873795923?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_Z=
+lNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], which is a vertically integrated vacatio=
+n rental home company, just launched Atlas [ https://substack.com/redirect/=
+061fa4eb-3adb-4d65-958d-7267b77886bf?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNu=
+aMZjmlXXepKbqOsa8-6m8ExkRNpU ], the =E2=80=9Cworld=E2=80=99s first vacation=
+ rental REIT,=E2=80=9D to scale its portfolio without dilutive venture fund=
+ing.
+With Atlas [ https://substack.com/redirect/061fa4eb-3adb-4d65-958d-7267b778=
+86bf?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], =
+Wander is able to move the costs of acquiring, renovating, and furnishing i=
+ts real estate portfolio off of its balance sheet by selling shares in its =
+portfolio of homes to institutional and accredited investors. And investors=
+ get access to a new asset class =E2=80=93 =E2=80=9Cthe first and only vaca=
+tion rental REIT (as far as we know)=E2=80=9D =E2=80=93 with a targeted 8% =
+annual dividend. Importantly, Wander retains full control of the experience=
+ as it manages all properties in the Atlas portfolio.=C2=A0
+What Wander is doing with Atlas is catnip to me. It=E2=80=99s a marriage of=
+ my professional experience (better executed) with ideas I=E2=80=99ve been =
+thinking through for a long time:
+Natively Integrated Company [ https://substack.com/redirect/dfeb018e-39d4-4=
+82b-bbb1-a09a15955393?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOs=
+a8-6m8ExkRNpU ]=C2=A0
+Zillbnb [ https://substack.com/redirect/52f00e69-4dca-4ef0-9397-bbcbd36e051=
+b?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+While I believe that the natively-integrated approach is the only way to at=
+tack a category dominated by large marketplaces, which we=E2=80=99ll discus=
+s, the company=E2=80=99s strategy really comes into focus with Atlas.=C2=A0
+During my first meeting with Wander CEO John Andrew Entwistle [ https://sub=
+stack.com/redirect/9bf460bc-707d-48d7-9318-dda75e94c410?j=3DeyJ1IjoiOXAwZ3Q=
+ifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], a Thiel Fellow and secon=
+d-time founder, it all clicked. It was the pitch I was born to swing at, an=
+d I immediately invested one of Not Boring Capital=E2=80=99s larger Fund II=
+ checks. My only regret one year later is that I didn=E2=80=99t invest more=
+=2E=C2=A0
+Over the past year, I=E2=80=99ve seen Wander execute at every level, from t=
+he obvious product-related things to all the little details. Its investor u=
+pdates are among my favorites to receive because each team leader writes hi=
+s or her team=E2=80=99s section. I=E2=80=99m writing this wearing my Wander=
+ sweatshirt, the most comfortable I own. When I asked JAE where he got them=
+, he told me they designed them in-house, down to the fabric selection, bec=
+ause the quality of the others they looked at didn=E2=80=99t meet their sta=
+ndards.=C2=A0
+Now, they=E2=80=99re bringing that same attention to detail to bear on Atla=
+s. With Atlas, Wander is creating a new asset class =E2=80=93 short-term re=
+ntal REITs (Real Estate Investment Trust). The company spent roughly $1 mil=
+lion to bring the product to market, working with firms like Latham & Watki=
+ns, Ernst & Young, and Citrin Cooperman. They structured the product as a R=
+eg D REIT instead of a Reg A offering. They poured months of effort interna=
+lly =E2=80=93 led by JAE, VP Finance & Head of Acquisitions David Molotsky =
+(ex-Goldman Real Estate), and Head of Capital Markets Jake Kelley (ex-Morga=
+n Stanley Real Estate Structured Finance) =E2=80=93 into getting it right. =
+The Private Placement Memorandum =E2=80=93 which you=E2=80=99ll have the pl=
+easure of reading during the subscription process =E2=80=93 is 160 pages lo=
+ng and chock full of detail. It doesn=E2=80=99t feel like a two-year-old st=
+artup led by a 25-year-old founder did this.=C2=A0
+It=E2=80=99s all part of the master plan =E2=80=93 a purposeful wander =E2=
+=80=93 that JAE laid out the first time we spoke.
+Prove that Wander can acquire and manage the top short-term rentals on its =
+own balance sheet.=C2=A0
+Build a brand and an integrated machine to do it repeatedly and predictably=
+=2E
+Build an investment product that gives people the opportunity to invest in =
+the properties they love while letting Wander scale in a capital-efficient =
+manner.=C2=A0
+Today, we=E2=80=99ll analyze that strategy, tour Wander=E2=80=99s portfolio=
+, dive into the details on Atlas, and discuss where the company might go fr=
+om here:
+Zillbnb and the Short-Term Arbitrage
+Natively Integrated Vacation Rentals
+Wander Atlas
+Wandering Into the Future=C2=A0
+To understand Wander=E2=80=99s potential, you need to understand the theory=
+ behind building a portfolio of STR properties. To do that, we=E2=80=99ll s=
+tart by imagining that Airbnb and Zillow had a baby.=C2=A0
+Zillbnb and the Short-Term Arbitrage
+In June 2020, I wrote a Fantasy M&A piece proposing that Zillow and Airbnb =
+should merge. I gave five reasons I thought a combined =E2=80=9CZillbnb=E2=
+=80=9D could make sense, the most relevant of which for this piece is that =
+combining Zillow=E2=80=99s Offers iBuyer product and Airbnb=E2=80=99s short=
+-term rental expertise would create a more robust business. I wrote:=C2=A0
+Plugging in Airbnb would lower Zillow=E2=80=99s risk and improve its yields=
+=2E Instead of a binary outcome - buy the=
+ house for $x and only profit if Zil=
+low can sell the house for $x+y - Zillow could turn on short-term rentals t=
+o generate income while looking for a buyer at the right price.=C2=A0
+Zillow may even choose to continue to operate the homes it buys as short-te=
+rm rentals on Airbnb instead of selling, based on predictive calculations o=
+f which offering will produce higher yields. Short-term rentals can generat=
+e 30% higher rates [ https://substack.com/redirect/d3f287ca-25d2-461c-b3cd-=
+0d7ef1a6fe38?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Exk=
+RNpU ] than long-term rentals. Airbnb has even shown a desire to own and ma=
+nage its own supply with Backyard [ https://substack.com/redirect/2e5c6f7a-=
+dec1-4bbd-a3eb-1d3178cfff45?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXe=
+pKbqOsa8-6m8ExkRNpU ].=C2=A0
+Zillbnb has the opportunity to build something more potent than Blackstone=
+=E2=80=99s Invitation Homes [ https://substack.com/redirect/561ba661-693a-4=
+a04-b66c-60b7051882bd?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOs=
+a8-6m8ExkRNpU ], on which the private equity firm netted about $7 billion b=
+y buying up a portfolio of single-family homes in the US and managing them =
+as rental properties. By using Zillbnb=E2=80=99s combined data, the company=
+ can make sharper offers based on both short-term and rental cashflow predi=
+ctions. By offering Zillow Offers homes for one night, one month, one year,=
+ or forever, Zillbnb would be able to optimize yields based on where each d=
+uration prices in each market.
+Joining forces with Airbnb might even increase the buyer pool for Zillow=E2=
+=80=99s homes. Selling homes with Airbnb up and running turns a home into a=
+ turnkey small business, making it attractive to financial buyers looking f=
+or yield in a low interest rate environment.
+That=E2=80=99s a longer block quote than Dan [ https://substack.com/redirec=
+t/03854bd1-2eee-408a-99c6-31f08606f4c8?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_Zl=
+NuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] normally lets me get away with, but it=E2=
+=80=99s important context for thinking about Wander=E2=80=99s portfolio. Es=
+sentially, acquiring properties that the company expects to appreciate, fin=
+ancing them, and offering them as short-term rentals increases optionality,=
+ potentially lowering risk and improving yields compared to a standard iBuy=
+er model and compared to a portfolio of single-family rentals (SFRs).
+In the iBuyer model, like Zillow=E2=80=99s now-defunct Offers or Opendoor, =
+companies acquire properties, do improvements, and attempt to sell them qui=
+ckly, taking a small spread on very large numbers. If the market turns, or =
+a home takes longer than expected to sell, however, the company is stuck ho=
+lding the bag. By introducing short-term rentals into the mix, they could g=
+enerate revenue and buy themselves time to wait for the right sale price.=
+=C2=A0=C2=A0
+The first time John Andrew told me the plan for Wander, I immediately saw t=
+he Zillbnb dream, but on a longer timescale. Instead of buying to flip, Wan=
+der would acquire properties that it expects to appreciate over a decade or=
+ so. It mainly buys residential homes, not those that are already operating=
+ as short-term rentals, which means that it can often acquire homes for les=
+s than they=E2=80=99re worth to the company. By building a diversified port=
+folio of high-quality STRs in different locations, it can reduce risk and i=
+mprove yields across the portfolio.=C2=A0
+In real estate terms, Wander is buying residential homes and converting the=
+m into their =E2=80=9Chighest and best use=E2=80=9D:=C2=A0 short-term renta=
+ls.=C2=A0 By converting them to STRs and improving them cost-effectively, t=
+hey can then be valued based on a =E2=80=9Ccap rate=E2=80=9D applied to the=
+ cash flow they generate, rather than appraised as a residential home. The =
+cap rate is the Net Operating Income (NOI) the property generates each year=
+ divided by the Purchase Price of the home, and a lower cap rate is general=
+ly a sign that the property is a lower risk investment.=C2=A0
+So for illustrative purposes, if Wander buys ten $1 million homes that the =
+market believes it could rent annually for $100k above its costs, it would =
+be buying at a 10% cap rate =E2=80=93 $100k/$1 million =E2=80=93 for a tota=
+l of $10 million. If it=E2=80=99s able to increase its NOI to $150k on each=
+ of the properties and sell the portfolio at the same cap rate =E2=80=93 10=
+% =E2=80=93 it could sell the portfolio for $15 million, or a 50% profit. I=
+f, by lowering risk through diversification and professionalization, it can=
+ lower the cap rate the purchaser is willing to pay to 8%, it can sell the =
+portfolio for $18.75 million, or an 87.5% profit.=C2=A0=C2=A0
+If Wander is able to accelerate the institutionalization of the STR market,=
+ time may bring lower cap rates as the market matures. The larger and more =
+sophisticated an industry becomes, the more likely it is to attract large p=
+ools of investors that generally seek low-risk, lower-yielding investments.=
+ As a very relevant comp, institutionalization of the SFR market over the p=
+ast decade or so, and the billions of dollars invested in the space, have d=
+riven cap rates down from 10% to ~6%.=C2=A0
+Wander=E2=80=99s returns may be further enhanced if you factor in annual re=
+venue growth and the fact that Wander finances its properties, meaning that=
+ it might take out a mortgage for 60-75% of the purchase price and only put=
+ down 25-40% in cash. If it can cover its mortgage payments and operating c=
+osts, it can produce higher levered returns than it could by paying the who=
+le purchase price in cash.=C2=A0
+Up to this point, there=E2=80=99s not a huge difference between the STR mod=
+el and the SFR model aside from the fact that SFR has been institutionalize=
+d, lowering cap rates. The STR market today is where the SFR=C2=A0 market w=
+as roughly a decade ago. A professional SFR operator like Invitation Homes =
+can purchase a diverse portfolio of residential properties, standardize the=
+m, rent them on an annual basis to cover its costs and generate NOI, and se=
+ll the lower-risk portfolio at a lower cap rate. Like Wander, an SFR operat=
+or can choose to rent out properties when the numbers favor renting, and se=
+ll them when the numbers favor selling.=C2=A0
+Here, though, Wander=E2=80=99s ability to rent properties short-term, for a=
+s little as three nights, gives them more optionality, and the opportunity =
+to further increase NOI versus SFRs.=C2=A0
+As short-term rentals are the highest and best use, optionality provides do=
+wnside protection. STRs typically generate more income than SFRs, but STRs =
+can also be rented long-term (like SFR=E2=80=99s) if a particular home does=
+n=E2=80=99t perform well as an STR. The opposite is not true. Further, as a=
+ backup to the backup, a Wander STR could be converted back into a regular =
+residential home if it isn=E2=80=99t performing as an STR or didn=E2=80=99t=
+ convert well into an STR. That backup backup market =E2=80=93 the US singl=
+e-family home market =E2=80=93 is the largest, and one of the most liquid, =
+marketplaces in the world.
+For now, though, Wander is able to generate a higher NOI by renting its pro=
+perties to guests for a few nights at a time. Its focus is on increasing Re=
+vPAR =E2=80=93 a hospitality industry metric based on Average Daily Rate (A=
+DR) and occupancy =E2=80=93 by continuing to improve the quality of the gue=
+st experience and making sure its properties are booked as many nights as p=
+ossible. It=E2=80=99s able to do both of those things better than a pure ma=
+rketplace could because it=E2=80=99s a Natively Integrated Company.
+To read how Wander is building a Natively Integrated Vacation Rental Compan=
+y, learn more about Atlas, and glimpse into Wander=E2=80=99s future=E2=80=
+=A6
+Thanks to Dan [ https://substack.com/redirect/03854bd1-2eee-408a-99c6-31f08=
+606f4c8?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU =
+] for editing, and to JAE, Jake, Kyle, David, and Dom for your input!
+That=E2=80=99s all for today! We=E2=80=99ll be back in your podcast feed on=
+ Thursday and back in your inbox on Friday for the Weekly Dose.=20
+Thanks for reading,=20
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZNVEF3TURBME5USTVMQ0pwWVhRaU9qRTJOelV4TnpNek5ESXNJb=
+VY0Y0NJNk1UWTNOemMyTlRNME1pd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpH=
+bHpZV0pzWlY5bGJXRnBiQ0o5LnNkc0NLUmhJRlVLdjQ2bklZMEFYYUNKNHhvcHBoWkVjelRtOFN=
+XNVVzdjAiLCJwIjoxMDAwMDQ1MjksInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaW=
+F0IjoxNjc1MTczMzQyLCJleHAiOjE2Nzc3NjUzNDIsImlzcyI6InB1Yi0wIiwic3ViIjoibGlua=
+y1yZWRpcmVjdCJ9.7vnyzqGmC_wx_NHFR8fEasJB4YrRkUicl_9NV5qiMkY?
+--06f49b0bace96f81f28248d6e656f8bfd2dd5f97871db28ae76ea2fe8332
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D""><head><title>Wander: Owning Happy Places</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.youtube-inner div.youtube-screen,
+  .typography.editor .markup div.youtube-inner div.youtube-screen,
+  .typography .markup div.vimeo-inner div.youtube-screen,
+  .typography.editor .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet,
+  .typography.editor .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-text,
+  .typography.editor .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-photos-container.two,
+  .typography.editor .markup .tweet .tweet-photos-container.two,
+  .typography .markup .tweet .tweet-photos-container.three,
+  .typography.editor .markup .tweet .tweet-photos-container.three,
+  .typography .markup .tweet .tweet-photos-container.four,
+  .typography.editor .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-img,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-description,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-descript=
+ion {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget,
+  .header-anchor-container .header-anchor-widget {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .post-label {
+    margin-top: 8px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .footer-facepile-container {
+    height: 64px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.youtube-inner div.youtube-screen,
+  body .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  body .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-sub=
+scribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-photos-container.two,
+  body .markup .tweet .tweet-photos-container.three,
+  body .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed img.install-substack-app-embed-i=
+mg {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-link=
+ {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper {
+    width: 100%;
+    padding: 0 16px;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper:empty {
+    display: none;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button {
+    width: 100%;
+    margin: 16px 0;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjMwMTMxMTM1NTM0LjMuYjRkMzg0NWNiMjllMGQxNkBtZy1kMC5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFja=
+y5jb20iLCJwIjoxMDAwMDQ1MjksInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6=
+MTAwMjUsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE2NzUxNzM=
+zNDMsImV4cCI6MTY3Nzc2NTM0MywiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.MfkTZPtPsDRjR=
+oOpVOxozS5pDyNhZYfFhjuqA1vYfek" alt=3D"" width=3D"1" height=3D"1" border=3D=
+"0" style=3D"height:1px !important;width:1px !important;border-width:0 !imp=
+ortant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !i=
+mportant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0=
+ !important;padding-right:0 !important;padding-left:0 !important;"/><div st=
+yle=3D"display:none;font-size:1px;color:#333333;line-height:1px;max-height:=
+0px;max-width:0px;opacity:0;overflow:hidden;" class=3D"preview">Wander Atla=
+s &amp; Natively Integrated Luxury Vacation Rentals &#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;</div><table role=3D"presentation" width=3D"100%=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-body-cont=
+ainer"><tr><td></td><td width=3D"550" class=3D"content"></td><td></td></tr>=
+<tr><td></td><td align=3D"left" width=3D"550" class=3D"content"><div style=
+=3D"font-size: 16px; line-height: 26px; margin: 0 auto; max-width: 550px; o=
+verflow-wrap: break-word; width: 100%;"><table role=3D"presentation" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D=
+"right" style=3D"height: 20px;"><table role=3D"presentation" width=3D"auto"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"vertical=
+-align: middle;"><span class=3D"tw-font-body tw-text-ssm tw-text-substack-s=
+econdary" style=3D"color: #808080 !important; font-family: SF Pro Text, -ap=
+ple-system, BlinkMacSystemFont, Inter, Segoe UI, Roboto, Helvetica, Arial, =
+sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important; =
+font-size: 13px !important;"><a href=3D"https://open.substack.com/pub/notbo=
+ring/p/wander-owning-happy-places?utm_source=3Demail&redirect=3Dapp-store" =
+class=3D"tw-text-substack-secondary tw-underline" style=3D"-webkit-text-dec=
+oration-line: underline !important; color: #808080 !important; text-decorat=
+ion-line: underline !important;">Open in app</a> or <a href=3D"https://subs=
+tack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3Avd2FuZGVyLW9=
+3bmluZy1oYXBweS1wbGFjZXM_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOX=
+pkRjlwWkNJNk1UQXdNREEwTlRJNUxDSnBZWFFpT2pFMk56VXhOek16TkRJc0ltVjRjQ0k2TVRZM=
+056YzJOVE0wTWl3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pY0c5emRDMXlaV0Zq=
+ZEdsdmJpSjkua0h5eHB3cEc4LVVuODRYY1BDaWtMRGhFU3l1aUt6M2d5X1hIQTY5S2RXOCIsInA=
+iOjEwMDAwNDUyOSwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NzUxNz=
+MzNDIsImV4cCI6MTY3Nzc2NTM0MiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0I=
+n0.8SCKAKblz-d4daSsvKgxnMbTg-bATn2I51sGGB8_gu0?" class=3D"tw-text-substack-=
+secondary tw-underline" style=3D"-webkit-text-decoration-line: underline !i=
+mportant; color: #808080 !important; text-decoration-line: underline !impor=
+tant;">online</a></span></td></tr></table></td></tr></table><div dir=3D"aut=
+o" class=3D"post typography" style=3D"font-size: 16px; line-height: 26px; p=
+adding: 16px 0 0 0;"><div class=3D"post-header" style=3D"font-size: 16px; l=
+ine-height: 26px;"><h1 class=3D"post-title published" style=3D"-moz-osx-fon=
+t-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antiali=
+ased; color: #404040; font-family: 'SF Compact Display', -apple-system, Bli=
+nkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple C=
+olor Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 32px; font-wei=
+ght: bold; line-height: 36px; margin: 0;"><a href=3D"https://substack.com/a=
+pp-link/post?publication_id=3D10025&post_id=3D100004529&utm_source=3Dpost-e=
+mail-title&isFreemail=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZC=
+I6MTAwMDA0NTI5LCJpYXQiOjE2NzUxNzMzNDIsImV4cCI6MTY3Nzc2NTM0MiwiaXNzIjoicHViL=
+TEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.kHyxpwpG8-Un84XcPCikLDhESyuiKz3gy_X=
+HA69KdW8" style=3D"color: #404040; text-decoration: none;">Wander: Owning H=
+appy Places</a></h1><h3 class=3D"subtitle" style=3D"-moz-osx-font-smoothing=
+: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; color=
+: #808080; font-family: 'SF Compact Display', -apple-system, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-weight: normal=
+; line-height: 24px; margin: 4px 0 0; margin-top: 12px;">Wander Atlas &amp;=
+ Natively Integrated Luxury Vacation Rentals</h3><table cellpadding=3D"0" c=
+ellspacing=3D"0" class=3D"post-meta custom" style=3D"align-items: center; h=
+eight: 20px; margin: 1em 0;"><tr><td title=3D"2023-01-31T13:55:35.488Z" cla=
+ss=3D"post-meta-item post-date" style=3D"color: #808080; font-family: -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-se=
+rif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1=
+4px; font-weight: 400; height: 14px; margin-right: 0; padding: 0px 12px 0px=
+ 0; padding-bottom: 0; padding-right: 0; padding-top: 0; position: relative=
+; text-decoration: none; white-space: nowrap;"><div class=3D"frontend-pencr=
+aft-Text-module__reset--20JLV frontend-pencraft-Text-module__size-12--2onFT=
+ frontend-pencraft-Text-module__line-height-20--1soeQ frontend-pencraft-Tex=
+t-module__weight-medium--aTbx5 frontend-pencraft-Text-module__font-meta--2i=
+-cR frontend-pencraft-Text-module__color-secondary--XjVGl frontend-pencraft=
+-Text-module__meta--3RRSj" style=3D"color: #808080; font-family: 'SF Compac=
+t Text', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe =
+UI', Roboto,
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; font-size: 12px; font-weight: 500; letter-spacing: 0.2px; =
+line-height: 20px; margin: 0; text-decoration: unset; text-transform: upper=
+case;"><time dateTime=3D"2023-01-31T13:55:35.488Z">Jan 31</time></div></td>=
+</tr></table><table role=3D"presentation" width=3D"100%" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" class=3D"email-ufi-2-top" style=3D"border-bo=
+ttom: 1px solid #e0e0e0; border-top: 1px solid #e0e0e0; min-width: 100%;"><=
+tr height=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;=
+">&#160;</td></tr><tr><td><table role=3D"presentation" width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><table role=3D"presenta=
+tion" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><=
+td style=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"=
+38" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"cente=
+r"><a href=3D"https://substack.com/app-link/post?publication_id=3D10025&pos=
+t_id=3D100004529&utm_source=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtrue&=
+token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTAwMDA0NTI5LCJyZWFjdGlvbiI=
+6IuKdpCIsImlhdCI6MTY3NTE3MzM0MiwiZXhwIjoxNjc3NzY1MzQyLCJpc3MiOiJwdWItMTAwMj=
+UiLCJzdWIiOiJyZWFjdGlvbiJ9.1d-4K65JlJVrASCZt7NUwnPoSswjoUnlrsZtxpuaLrI&utm_=
+medium=3Demail" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px=
+; box-sizing: border-box; color: #808080; display: inline-block; font-famil=
+y: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe =
+UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 1=
+; min-width: 38px; padding: 9px 0; text-decoration: none; text-transform: u=
+ppercase; width: 38px;" class=3D"email-icon-button"><img src=3D"https://sub=
+stackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:stee=
+p/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26f=
+ill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D=
+"18" style=3D"border: none !important; max-width: 18px; vertical-align: mid=
+dle;" alt=3D"" class=3D"icon"></a></td></tr></table></td><td width=3D"8" st=
+yle=3D"min-width: 8px"></td><td style=3D"vertical-align: middle;"><table ro=
+le=3D"presentation" width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/app-link/po=
+st?publication_id=3D10025&post_id=3D100004529&utm_source=3Dsubstack&utm_med=
+ium=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4M=
+zU0OSwicG9zdF9pZCI6MTAwMDA0NTI5LCJpYXQiOjE2NzUxNzMzNDIsImV4cCI6MTY3Nzc2NTM0=
+MiwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.kHyxpwpG8-Un84XcPC=
+ikLDhESyuiKz3gy_XHA69KdW8&utm_source=3Dsubstack&utm_medium=3Demail" style=
+=3D"border: 1px solid #e0e0e0; border-radius: 100000px; box-sizing: border-=
+box; color: #808080; display: inline-block; font-family: 'SF Pro Text', -ap=
+ple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetic=
+a, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symb=
+ol'; font-size: 12px; font-weight: 500; line-height: 1; min-width: 38px; pa=
+dding: 9px 0; text-decoration: none; text-transform: uppercase; width: 38px=
+;" class=3D"email-icon-button"><img src=3D"https://substackcdn.com/image/fe=
+tch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubst=
+ack.com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26strok=
+e%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"bord=
+er: none !important; max-width: 18px; vertical-align: middle;" alt=3D"" cla=
+ss=3D"icon"></a></td></tr></table></td><td width=3D"8" style=3D"min-width: =
+8px"></td><td style=3D"vertical-align: middle;"><table role=3D"presentation=
+" width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td ali=
+gn=3D"center"><a href=3D"https://substack.com/app-link/post?publication_id=
+=3D10025&post_id=3D100004529&utm_source=3Dsubstack&utm_medium=3Demail&utm_c=
+ontent=3Dshare&action=3Dshare&triggerShare=3Dtrue&isFreemail=3Dtrue&token=
+=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTAwMDA0NTI5LCJpYXQiOjE2NzUxNzMz=
+NDIsImV4cCI6MTY3Nzc2NTM0MiwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGl=
+vbiJ9.kHyxpwpG8-Un84XcPCikLDhESyuiKz3gy_XHA69KdW8" style=3D"border: 1px sol=
+id #e0e0e0; border-radius: 100000px; box-sizing: border-box; color: #808080=
+; display: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans=
+-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-seri=
+f, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12p=
+x; font-weight: 500; line-height: 1; min-width: 38px; padding: 9px 0; text-=
+decoration: none; text-transform: uppercase; width: 38px;" class=3D"email-i=
+con-button"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_=
+png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLu=
+cideShare%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26stro=
+keWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; m=
+ax-width: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"></a></td><=
+/tr></table></td></tr></table></td><td align=3D"right"><table role=3D"prese=
+ntation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><t=
+r><td style=3D"vertical-align: middle;"><table role=3D"presentation" width=
+=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D=
+"center"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3c=
+ubm90Ym9yaW5nLmNvL3Avd2FuZGVyLW93bmluZy1oYXBweS1wbGFjZXM_dXRtX3NvdXJjZT1zdW=
+JzdGFjayZ1dG1fbWVkaXVtPWVtYWlsJnRva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td=
+2ljRzl6ZEY5cFpDSTZNVEF3TURBME5USTVMQ0pwWVhRaU9qRTJOelV4TnpNek5ESXNJbVY0Y0NJ=
+Nk1UWTNOemMyTlRNME1pd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaWMyRjJaUzF=
+3YjNOMEluMC5qVDZjTWtaWWQwS1VtbXhuaGxrU1pvdWd0VzdjNGVRRTk3aVRaNHE4eUNNJmFjdG=
+lvbj1zYXZlIiwicCI6MTAwMDA0NTI5LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksI=
+mlhdCI6MTY3NTE3MzM0MiwiZXhwIjoxNjc3NzY1MzQyLCJpc3MiOiJwdWItMCIsInN1YiI6Imxp=
+bmstcmVkaXJlY3QifQ.2h3Z3JffSTbTT-P7ISAU3DcuIaXDy6zWGkWbGeZNGWs?" class=3D"e=
+mail-button-outline" style=3D"border: 1px solid #e0e0e0; border-radius: 100=
+000px; color: #808080; display: inline-block; font-family: 'SF Pro Text', -=
+apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvet=
+ica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sy=
+mbol'; font-size: 12px; font-weight: 500; line-height: 12px; padding: 9px 1=
+4px; text-decoration: none; text-transform: uppercase;"><div class=3D"email=
+-button-spacer" style=3D"display: inline-block; font-size: 16px; line-heigh=
+t: 26px; max-width: 0; min-height: 18px; vertical-align: middle;"></div><sp=
+an class=3D"email-button-text" style=3D"vertical-align: middle;">Save</span=
+></a></td></tr></table></td><td width=3D"8" style=3D"min-width: 8px"></td><=
+td style=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"=
+auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"cen=
+ter"><a href=3D"https://open.substack.com/pub/notboring/p/wander-owning-hap=
+py-places?utm_source=3Demail-ufi&play_audio=3Dtrue&token=3DeyJ1c2VyX2lkIjox=
+NjI4MzU0OSwicG9zdF9pZCI6MTAwMDA0NTI5LCJpYXQiOjE2NzUxNzMzNDIsImV4cCI6MTY3Nzc=
+2NTM0MiwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.kHyxpwpG8-Un8=
+4XcPCikLDhESyuiKz3gy_XHA69KdW8" class=3D"email-button-outline" style=3D"bor=
+der: 1px solid #e0e0e0; border-radius: 100000px; color: #808080; display: i=
+nline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Co=
+lor Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weig=
+ht: 500; line-height: 12px; padding: 9px 14px; text-decoration: none; text-=
+transform: uppercase;"><div class=3D"email-button-spacer" style=3D"display:=
+ inline-block; font-size: 16px; line-height: 26px; max-width: 0; min-height=
+: 18px; vertical-align: middle;"></div><span class=3D"email-button-text" st=
+yle=3D"vertical-align: middle;">&#9655;&#160;&#160;Listen</span></a></td></=
+tr></table></td></tr></table></td></tr></table></td></tr><tr height=3D"16">=
+<td height=3D"16" style=3D"font-size: 0px; line-height: 0;">&#160;</td></tr=
+></table></div></div><div dir=3D"auto" class=3D"post typography" style=3D"f=
+ont-size: 16px; line-height: 26px; padding: 16px 0 0 0;"><div dir=3D"auto" =
+class=3D"body markup" style=3D"font-size: 16px; line-height: 26px; margin-b=
+ottom: 16px; text-align: initial; width: 100%; word-break: break-word;"><p =
+style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20=
+px 0; margin-top: 0;"><em><span>Welcome to the&#160;</span><strong>868&#160=
+;newly Not Boring people&#160;</strong><span>who have joined us since last =
+Tuesday! If you haven&#8217;t subscribed, join&#160;</span><strong>184,121 =
+</strong><span>smart, curious folks by subscribing here:</span></em></p><di=
+v class=3D"subscribe-widget is-signed-up" style=3D"direction: ltr; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em;"><p class=3D"button-wrapper" s=
+tyle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20p=
+x 0; text-align: center;"><a href=3D"https://substack.com/redirect/2/eyJlIj=
+oiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3N1YnNjcmliZT91dG1fc291cmNlPXBvc3QiLCJwI=
+joxMDAwMDQ1MjksInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjc1MTcz=
+MzQyLCJleHAiOjE2Nzc3NjUzNDIsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ=
+9.r6_vm-rY8qwGP5oeX5sTYfmYNhka03zvHtwU_Wl5wJ8?&utm_medium=3Demail&utm_sourc=
+e=3Dsubscribe-widget&utm_content=3D100004529" class=3D"button subscribe-btn=
+ primary" style=3D"background-color: #67bdfc; border: none; border-radius: =
+4px; box-sizing: border-box; color: #ffffff !important; cursor: pointer; di=
+splay: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe=
+ UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI =
+Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; height: auto;=
+ line-height: 20px; margin: 0 auto; opacity: 1; outline: none; padding: 12p=
+x 20px; text-align: center; text-decoration: none !important; white-space: =
+nowrap;"><span style=3D"color: #ffffff; text-decoration: none;">Pledge your=
+ support</span></a></p></div><div style=3D"font-size: 16px; line-height: 26=
+px;"><hr style=3D"background: #e0e0e0; border: none; height: 1px; margin: 3=
+2px 0; padding: 0;"></div><p style=3D"color: #404040; font-size: 16px; line=
+-height: 26px; margin: 0 0 20px 0;">Hi friends &#128075;,</p><p style=3D"co=
+lor: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Happ=
+y Tuesday! </p><p style=3D"color: #404040; font-size: 16px; line-height: 26=
+px; margin: 0 0 20px 0;"><span>It&#8217;s a great week over here at Not Bor=
+ing HQ. The Eagles are back in the Super Bowl and I get to write about one =
+of my favorite companies: </span><a href=3D"https://substack.com/redirect/b=
+6bafa61-c458-4320-b2e8-d42873795923?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNua=
+MZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decorat=
+ion: underline;">Wander</a><span>. </span></p><p style=3D"color: #404040; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Wander has a chance=
+ to build one of those iconic brands that becomes both noun and verb. As th=
+ey grow their portfolio of incredible vacation rental properties throughout=
+ the US and beyond, I suspect that &#8220;Let&#8217;s Wander&#8221; will be=
+come synonymous with &#8220;Let&#8217;s get away for the week.&#8221; </p><=
+p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 =
+20px 0;"><span>Building that kind of brand, especially when Airbnb and esta=
+blished hotel chains exist, is really hard. It takes a relentless attention=
+ to detail, a rare willingness to do everything in-house, and an uncommon a=
+bility to fit all of the pieces together just so. It also takes the capital=
+ to achieve ubiquity, which is why Wander recently launched </span><a href=
+=3D"https://substack.com/redirect/b421ebed-ac01-476c-82a3-366442991f3e?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" st=
+yle=3D"color: #404040; text-decoration: underline;">Atlas</a><span>, the fi=
+rst vacation rental REIT. </span></p><p style=3D"color: #404040; font-size:=
+ 16px; line-height: 26px; margin: 0 0 20px 0;">So this is a piece about Wan=
+der, but it&#8217;s also a case study on how to build a Natively Integrated=
+ Company from the ground up. We&#8217;ve written that the most important co=
+mpanies of the next decade will be built at the intersection of Bits &amp; =
+Atoms &#8212; Wander provides a playbook for those willing and able to do t=
+he hard work. </p><p style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;"><span>This essay is a Sponsored Deep Dive on a =
+Not Boring Capital portfolio company. You can read more about how I choose =
+which companies to do deep dives on, and how I write them </span><a href=3D=
+"https://substack.com/redirect/dbf6159b-fbb3-4c4a-a51b-bc5ff1b13403?j=3DeyJ=
+1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=
+=3D"color: #404040; text-decoration: underline;">here</a><span>. Nothing in=
+ this essay is investment advice - check the footnote</span><span class=3D"=
+footnote-anchor-email" style=3D"font-size: 20px;">&#185;</span><span>.</spa=
+n></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margi=
+n: 0 0 20px 0;">Let&#8217;s get to it.</p><div style=3D"font-size: 16px; li=
+ne-height: 26px;"><hr style=3D"background: #e0e0e0; border: none; height: 1=
+px; margin: 32px 0; padding: 0;"></div><h1 class=3D"header-with-anchor-widg=
+et" style=3D"-moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-sm=
+oothing: subpixel-antialiased; color: #404040; font-family: 'SF Compact Dis=
+play', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Ar=
+ial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; =
+font-size: 2em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625=
+em 0; position: relative;">Wander: Owning Happy Places</h1><div class=3D"ca=
+ptioned-image-container-static" style=3D"font-size: 16px; line-height: 26px=
+; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table=
+ class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=
+=3D"text-align: center;"></td><td align=3D"left" class=3D"content" width=3D=
+"1200" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_bla=
+nk" href=3D"https://substack.com/redirect/2a4a74bd-9bb3-44c8-a254-247b8269f=
+dc5?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=
+=3D"" style=3D"align-items: center; border: none; display: block; flex-dire=
+ction: column; height: auto; margin: 0; padding: 0; position: relative; tex=
+t-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot=
+;https://substack-post-media.s3.amazonaws.com/public/images/a58cf161-7c85-4=
+ef6-a4d5-7f8f2bc35e3f_1200x600.png&quot;,&quot;fullscreen&quot;:null,&quot;=
+imageSize&quot;:null,&quot;height&quot;:600,&quot;width&quot;:1200,&quot;re=
+sizeWidth&quot;:null,&quot;bytes&quot;:1122523,&quot;alt&quot;:null,&quot;t=
+itle&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:nul=
+l,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"=
+" width=3D"550" height=3D"275" class=3D"wide-image" src=3D"https://substack=
+cdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/=
+https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa58c=
+f161-7c85-4ef6-a4d5-7f8f2bc35e3f_1200x600.png" style=3D"-ms-interpolation-m=
+ode: bicubic; border: none !important; display: block; height: auto; margin=
+: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-align: mid=
+dle; width: auto !important;"></a></td><td style=3D"text-align: center;"></=
+td></tr></tbody></table></figure></div><div class=3D"pullquote" style=3D"bo=
+rder-bottom: 1px solid #e0e0e0; border-top: 1px solid #e0e0e0; font-size: 1=
+6px; line-height: 26px; margin: 32px auto;"><p style=3D"color: #404040; fon=
+t-size: 16px; font-style: italic; font-weight: 500; line-height: 26px; marg=
+in: 32px 0; text-align: center;"><em>Not all those who wander are lost.</em=
+></p></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; =
+margin: 0 0 20px 0;">Look, I didn&#8217;t want to use that quote, but bear =
+with me.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;"><span>Since J.R.R. Tolkien first wrote those wo=
+rds in </span><em>The Riddle of Strider</em><span>, they&#8217;ve been spla=
+shed across so many inspirational posters and Instagram bios that they&#821=
+7;ve become meaningless.</span></p><div class=3D"captioned-image-container-=
+static" style=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><f=
+igure style=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"m=
+so-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;">=
+</td><td align=3D"left" class=3D"content" width=3D"1055" style=3D"text-alig=
+n: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://subst=
+ack.com/redirect/3da3e2d6-b486-4ee7-989e-d28d1695d2d2?j=3DeyJ1IjoiOXAwZ3Qif=
+Q.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-item=
+s: center; border: none; display: block; flex-direction: column; height: au=
+to; margin: 0; padding: 0; position: relative; text-decoration: none; width=
+: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://substack-post-me=
+dia.s3.amazonaws.com/public/images/7971eae2-1c98-41e0-8eec-c7d883056b80_105=
+5x816.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quo=
+t;height&quot;:816,&quot;width&quot;:1055,&quot;resizeWidth&quot;:null,&quo=
+t;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&q=
+uot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;interna=
+lRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D"425.4028436018957" =
+class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_2110,c_li=
+mit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-med=
+ia.s3.amazonaws.com%2Fpublic%2Fimages%2F7971eae2-1c98-41e0-8eec-c7d883056b8=
+0_1055x816.png" style=3D"-ms-interpolation-mode: bicubic; border: none !imp=
+ortant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; max=
+-width: 100% !important; vertical-align: middle; width: auto !important;"><=
+/a></td><td style=3D"text-align: center;"></td></tr></tbody></table><figcap=
+tion class=3D"image-caption" style=3D"color: #808080; font-size: 14px; font=
+-weight: 400; letter-spacing: -0.15px; line-height: 20px; margin-top: 8px; =
+padding-left: 15%; padding-right: 15%; text-align: center; width: 70%;"><em=
+>~*nOt AlL wHo WaNdEr ArE lOsT*~</em></figcaption></figure></div><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">Worse than meaningless, in fact. Tolkien meant the exact opposite. The or=
+iginal is a reference to Aragorn, who wanders around his kingdom not becaus=
+e he is lost, but because he has a very specific goal: to learn to become a=
+ great ruler. Those who wander with a purpose, according to Tolkien, are no=
+t lost. Those who wander aimlessly are.&#160;</p><p style=3D"color: #404040=
+; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Admittedly=
+, I only looked into the history of that quote because this is a piece abou=
+t a company called </span><strong><a href=3D"https://substack.com/redirect/=
+b6bafa61-c458-4320-b2e8-d42873795923?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNu=
+aMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decora=
+tion: underline;">Wander</a></strong><span>. But as I read </span><a href=
+=3D"https://substack.com/redirect/28e854cf-abc7-4711-94d4-8fe2e417f34b?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" st=
+yle=3D"color: #404040; text-decoration: underline;">this explanation</a><sp=
+an>, it struck me that the dueling interpretations of that same quote are a=
+ </span><strong>perfect metaphor for Wander and Airbnb</strong><span>.&#160=
+;&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;">Wander is vertically integrated and purposeful;=
+ Airbnb is a more meandering marketplace.</p><p style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>You&#8217;ve h=
+eard of Airbnb, probably stayed in a few, and maybe even listed your home. =
+I have, and I&#8217;ve had good, if varied, experiences. I&#8217;ve stayed =
+in some Airbnbs that were more wonderful than the pictures and descriptions=
+ could have conveyed, and some that were more appalling than the Host would=
+ have wanted us to believe. Airbnb is a </span><strong>marketplace</strong>=
+<span>, and navigating a marketplace can feel like aimlessly wandering.&#16=
+0;</span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;">For a long time, Airbnb had that special startup she=
+en on it that glossed over the inconsistencies. Sometimes, you&#8217;d show=
+ up to an Airbnb and the door was locked and the host didn&#8217;t answer t=
+he phone and you&#8217;d be stuck outside in a foreign country for hours. S=
+ometimes the beds were barely made. Often, the pictures looked just a littl=
+e bit better than the real thing.&#160;</p><p style=3D"color: #404040; font=
+-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>When people book=
+ed Airbnbs, all of the little hiccups became part of the adventure. &#8220;=
+Remember when we were stranded outside our Airbnb in the rain in Porto for =
+</span><em>three hours</em><span> and we found that amazing little bar next=
+ door?!&#8221; That was part of the fun! Not all those who wander are lost,=
+ and we were ~wAnDeRiNg~!&#160;</span></p><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Now, however, Air=
+bnb is a public and well-known company, and the little inconsistencies aren=
+&#8217;t as much fun as they used to be. The beds aren&#8217;t as comfortab=
+le as hotel beds. There&#8217;s no food in the fridge. The Host charged me =
+a $300 cleaning fee </span><em>and</em><span> made me take out the trash? T=
+weets and videos like this one are more and more common:</span></p><div cla=
+ss=3D"tweet static" style=3D"-webkit-font-smoothing: subpixel-antialiased; =
+background: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; box-siz=
+ing: border-box; color: #404040; direction: ltr; display: block; flex-direc=
+tion: column; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, Bli=
+nkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 14px; font-weight: 400; gap: 12px; line-height: 20px; marg=
+in: 32px auto; max-width: 550px; padding: 16px 16px 12px; transition: color=
+ 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1);"><a class=3D"tweet-link-to=
+p" href=3D"https://substack.com/redirect/e2f57597-c095-4e64-9b14-95c2c59703=
+2f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" targ=
+et=3D"_blank" rel=3D"" style=3D"color: #404040; display: block; flex-direct=
+ion: column; gap: 12px; text-decoration: none; white-space: pre-wrap;"><div=
+ class=3D"tweet-header" style=3D"align-items: center; display: block; flex-=
+direction: row; font-size: 16px; gap: 12px; height: 48px; line-height: 26px=
+; margin-bottom: 12px;"><img class=3D"tweet-header-avatar" src=3D"https://s=
+ubstackcdn.com/image/twitter_name/w_96/StealthQE4.jpg" alt=3D"Twitter avata=
+r for @StealthQE4" loading=3D"lazy" style=3D"-ms-interpolation-mode: bicubi=
+c; border: none !important; border-radius: 50%; display: block; float: left=
+; height: 48px; margin: 0; margin-right: 12px; max-width: 100%; vertical-al=
+ign: middle; width: 48px;"><div class=3D"tweet-header-text" style=3D"displa=
+y: block; flex-direction: column; font-size: 14px; line-height: 20px; paddi=
+ng-top: 4px;"><span class=3D"tweet-author-name" style=3D"display: block; fo=
+nt-weight: 600;">QE Infinity </span><span class=3D"tweet-author-handle" sty=
+le=3D"color: #808080; display: block;">@StealthQE4</span></div></div><div c=
+lass=3D"tweet-text" style=3D"font-size: 20px; line-height: 24px; margin-bot=
+tom: 16px;">Lol. Why would anyone stay in an AIRBNB over a hotel?
+
+No wonder these places are empty. =20
+
+This won&#8217;t end well </div><div class=3D"tweet-photos-container one" s=
+tyle=3D"border: 1px solid #e0e0e0; border-radius: 8px; box-sizing: border-b=
+ox; display: block; font-size: 16px; gap: 2px; line-height: 26px; overflow:=
+ hidden;"><div class=3D"tweet-photo-wrapper " style=3D"font-size: 16px; hei=
+ght: 100%; line-height: 26px; width: 100%;"><img class=3D"tweet-photo" src=
+=3D"https://substackcdn.com/image/upload/w_1028,c_limit,q_auto:best/l_twitt=
+er_play_button_rvaygk,w_88/ojpraed8j3j6ppv9wzf3" alt=3D"Image" loading=3D"l=
+azy" style=3D"-ms-interpolation-mode: bicubic; border: none !important; dis=
+play: block; height: 100%; margin: 0 auto; max-height: 550px; max-width: 10=
+0%; object-fit: cover; vertical-align: middle; width: 100%;"></div></div></=
+a><a class=3D"tweet-link-bottom" href=3D"https://substack.com/redirect/e2f5=
+7597-c095-4e64-9b14-95c2c597032f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZj=
+mlXXepKbqOsa8-6m8ExkRNpU" target=3D"_blank" rel=3D"" style=3D"color: #40404=
+0; display: block; flex-direction: column; gap: 12px; text-decoration: none=
+; white-space: pre-wrap;"><div class=3D"tweet-footer" style=3D"align-items:=
+ flex-start; display: block; flex-direction: column; font-size: 14px; gap: =
+8px; line-height: 20px; margin-top: 12px;"><span class=3D"tweet-date" style=
+=3D"color: #808080; flex: 1;">1:29 PM &#8729; Jan 21, 2023</span><hr style=
+=3D"background: #e0e0e0; border: none; height: 1px; margin: 12px 0; padding=
+: 0; width: 100%;"><div class=3D"tweet-ufi" style=3D"align-items: center; d=
+isplay: block; font-size: 16px; gap: 24px; height: 20px; line-height: 26px;=
+"><span href=3D"https://twitter.com/StealthQE4/status/1616790099102158854/l=
+ikes" class=3D"likes" style=3D"color: #808080; display: block; float: left;=
+ font-size: 14px; gap: 4px; line-height: 20px; margin-right: 24px; text-dec=
+oration: none;"><span class=3D"like-count" style=3D"color: #404040; font-we=
+ight: 600; margin-right: 4px;">17,214</span><span>Likes</span></span><span =
+href=3D"https://twitter.com/StealthQE4/status/1616790099102158854/retweets"=
+ class=3D"retweets" style=3D"color: #808080; display: block; float: left; f=
+ont-size: 14px; gap: 4px; line-height: 20px; margin-right: 24px; text-decor=
+ation: none;"><span class=3D"rt-count" style=3D"color: #404040; font-weight=
+: 600; margin-right: 4px;">1,667</span><span>Retweets</span></span></div></=
+div></a></div><p style=3D"color: #404040; font-size: 16px; line-height: 26p=
+x; margin: 0 0 20px 0;">Wander, on the other hand, feels purposeful in ever=
+y detail.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;"><span>If you haven&#8217;t heard of Wander, th=
+e best way to think of it is as a </span><strong>vertically-integrated Airb=
+nb</strong><span>. If you haven&#8217;t </span><em>seen </em><span>Wander, =
+the properties are ridiculous. Here&#8217;s a little eye candy:</span></p><=
+div class=3D"captioned-image-container-static" style=3D"font-size: 16px; li=
+ne-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; width=
+: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody=
+><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"con=
+tent" width=3D"1066" style=3D"text-align: center;"><a class=3D"image-link" =
+target=3D"_blank" href=3D"https://substack.com/redirect/891390ee-cf6c-4fcb-=
+b77c-3de790779f68?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6=
+m8ExkRNpU" rel=3D"" style=3D"align-items: center; border: none; display: bl=
+ock; flex-direction: column; height: auto; margin: 0; padding: 0; position:=
+ relative; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;s=
+rc&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/0=
+67ee251-80db-4dd6-88c1-d2c6163e2c20_1066x375.png&quot;,&quot;fullscreen&quo=
+t;:null,&quot;imageSize&quot;:null,&quot;height&quot;:375,&quot;width&quot;=
+:1066,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:n=
+ull,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quo=
+t;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" widt=
+h=3D"550" height=3D"193.48030018761727" class=3D"wide-image" src=3D"https:/=
+/substackcdn.com/image/fetch/w_2132,c_limit,f_auto,q_auto:good,fl_progressi=
+ve:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimag=
+es%2F067ee251-80db-4dd6-88c1-d2c6163e2c20_1066x375.png" style=3D"-ms-interp=
+olation-mode: bicubic; border: none !important; display: block; height: aut=
+o; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-a=
+lign: middle; width: auto !important;"></a></td><td style=3D"text-align: ce=
+nter;"></td></tr></tbody></table><figcaption class=3D"image-caption" style=
+=3D"color: #808080; font-size: 14px; font-weight: 400; letter-spacing: -0.1=
+5px; line-height: 20px; margin-top: 8px; padding-left: 15%; padding-right: =
+15%; text-align: center; width: 70%;"><em>Wander Properties from Coast to C=
+oast</em></figcaption></figure></div><p style=3D"color: #404040; font-size:=
+ 16px; line-height: 26px; margin: 0 0 20px 0;"><span>You should go check ou=
+t the properties and the video tours for each on </span><a href=3D"https://=
+substack.com/redirect/b6bafa61-c458-4320-b2e8-d42873795923?j=3DeyJ1IjoiOXAw=
+Z3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color=
+: #404040; text-decoration: underline;">its site</a><span>. After I mention=
+ed to Puja that I was writing this piece, she watched all of them back-to-b=
+ack. Wander properties are architectural gems in stunning locations &#8211;=
+ some have warnings not to bring kids because they&#8217;re perched on the =
+edges of cliffs. They&#8217;re the kind of properties that can cost over $1=
+,000 per night &#8211; don&#8217;t worry, you can split with friends or tea=
+mmates in the app &#8211; and still reach occupancy rates in the 80-90% ran=
+ge and higher.&#160;</span></p><p style=3D"color: #404040; font-size: 16px;=
+ line-height: 26px; margin: 0 0 20px 0;">In order to craft a perfect experi=
+ence, the company handles everything itself:&#160;</p><ul style=3D"margin-t=
+op: 0; padding: 0;"><li style=3D"margin: 8px 0 0 32px; mso-special-format: =
+bullet;"><p style=3D"box-sizing: border-box; color: #404040; font-size: 16p=
+x; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;"><str=
+ong>Acquisitions.</strong><span> Its team scours the country for architectu=
+rally stunning vacation properties in unique locations and purchases them.<=
+/span></p></li><li style=3D"margin: 8px 0 0 32px; mso-special-format: bulle=
+t;"><p style=3D"box-sizing: border-box; color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;"><strong>D=
+esign.</strong><span> Wander renovates homes and outfits them with products=
+ and furniture from top brands (every rental comes with a Tesla, for exampl=
+e).</span></p></li><li style=3D"margin: 8px 0 0 32px; mso-special-format: b=
+ullet;"><p style=3D"box-sizing: border-box; color: #404040; font-size: 16px=
+; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;"><stro=
+ng>Booking. </strong><span>All properties are listed on the Wander website =
+and app, where guests can book them for themselves, family and friends, or =
+</span><a href=3D"https://substack.com/redirect/3d2c804c-d596-46b9-bc18-09f=
+783156a90?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNp=
+U" rel=3D"" style=3D"color: #404040; text-decoration: underline;">Teams</a>=
+<span>. Bookers are able to invite guests and even split costs from within =
+the app.&#160;</span></p></li><li style=3D"margin: 8px 0 0 32px; mso-specia=
+l-format: bullet;"><p style=3D"box-sizing: border-box; color: #404040; font=
+-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: =
+4px;"><strong>Property Management:</strong><span> Wander&#8217;s team opera=
+tes each property in-house to keep the experience bar high for each guest.&=
+#160;</span></p></li></ul><p style=3D"color: #404040; font-size: 16px; line=
+-height: 26px; margin: 0 0 20px 0;">The benefit of that approach is that it=
+ translates into a consistently high-quality experience. Wander&#8217;s Cus=
+tomer Satisfaction Score is consistently in the 90s. The drawback is that, =
+unlike Airbnb which is able to acquire its supply for free and scale at nea=
+r-internet speed, Wander is more expensive and slower to scale. Acquiring, =
+renovating, and furnishing properties is neither cheap nor easy.&#160;</p><=
+p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 =
+20px 0;"><span>Or rather, it was capital intensive until very recently, whe=
+n it launched </span><strong><a href=3D"https://substack.com/redirect/061fa=
+4eb-3adb-4d65-958d-7267b77886bf?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjm=
+lXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration:=
+ underline;">Atlas</a></strong><span>. </span></p><div class=3D"captioned-i=
+mage-container-static" style=3D"font-size: 16px; line-height: 26px; margin:=
+ 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D=
+"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text=
+-align: center;"></td><td align=3D"left" class=3D"content" width=3D"908" st=
+yle=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=
+=3D"https://substack.com/redirect/aa12205c-ba38-45af-ae28-974786582387?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" st=
+yle=3D"align-items: center; border: none; display: block; flex-direction: c=
+olumn; height: auto; margin: 0; padding: 0; position: relative; text-decora=
+tion: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https:/=
+/substack-post-media.s3.amazonaws.com/public/images/9e35aec4-7fe9-41c7-957d=
+-5dfe11d78010_908x336.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize=
+&quot;:null,&quot;height&quot;:336,&quot;width&quot;:908,&quot;resizeWidth&=
+quot;:null,&quot;bytes&quot;:351234,&quot;alt&quot;:null,&quot;title&quot;:=
+null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;bel=
+owTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"=
+550" height=3D"203.52422907488986" class=3D"wide-image" src=3D"https://subs=
+tackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:st=
+eep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F=
+9e35aec4-7fe9-41c7-957d-5dfe11d78010_908x336.png" style=3D"-ms-interpolatio=
+n-mode: bicubic; border: none !important; display: block; height: auto; mar=
+gin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-align: =
+middle; width: auto !important;"></a></td><td style=3D"text-align: center;"=
+></td></tr></tbody></table><figcaption class=3D"image-caption" style=3D"col=
+or: #808080; font-size: 14px; font-weight: 400; letter-spacing: -0.15px; li=
+ne-height: 20px; margin-top: 8px; padding-left: 15%; padding-right: 15%; te=
+xt-align: center; width: 70%;"><em>Wander Atlas Website</em></figcaption></=
+figure></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;"><span>In my </span><a href=3D"https://substack.com/r=
+edirect/fa7fcf85-cd7f-441e-b696-3f2216571130?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7=
+GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; tex=
+t-decoration: underline;">Fund III announcement</a><span>, I highlighted Wa=
+nder specifically:</span></p><blockquote style=3D"border-left: 4px solid #6=
+7bdfc; margin: 20px 0; padding: 0;"><p style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 0 20px 0; margin-left: 20px;"><em><span>=
+We&#8217;ve backed a number of companies in traditionally capital-intensive=
+ categories with the ability to </span><strong>scale in a capital efficient=
+ manner</strong><span>. As one example from our Fund II portfolio, </span><=
+strong><a href=3D"https://substack.com/redirect/b6bafa61-c458-4320-b2e8-d42=
+873795923?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNp=
+U" rel=3D"" style=3D"color: #404040; text-decoration: underline;">Wander</a=
+></strong><span>, which is a vertically integrated vacation rental home com=
+pany, just launched </span><strong><a href=3D"https://substack.com/redirect=
+/061fa4eb-3adb-4d65-958d-7267b77886bf?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlN=
+uaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decor=
+ation: underline;">Atlas</a></strong><span>, the &#8220;world&#8217;s first=
+ vacation rental REIT,&#8221; to scale its portfolio without dilutive ventu=
+re funding.</span></em></p></blockquote><p style=3D"color: #404040; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>With </span><a href=
+=3D"https://substack.com/redirect/061fa4eb-3adb-4d65-958d-7267b77886bf?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" st=
+yle=3D"color: #404040; text-decoration: underline;">Atlas</a><strong>, </st=
+rong><span>Wander is able to move the costs of acquiring, renovating, and f=
+urnishing its real estate portfolio off of its balance sheet by selling sha=
+res in its portfolio of homes to institutional and accredited investors. An=
+d investors get access to a new asset class &#8211; &#8220;the first and on=
+ly vacation rental REIT (as far as we know)&#8221; &#8211; with a targeted =
+8% annual dividend</span><span class=3D"footnote-anchor-email" style=3D"fon=
+t-size: 20px;">&#178;</span><span>. Importantly, Wander retains full contro=
+l of the experience as it manages all properties in the Atlas portfolio.&#1=
+60;</span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26p=
+x; margin: 0 0 20px 0;">What Wander is doing with Atlas is catnip to me. It=
+&#8217;s a marriage of my professional experience (better executed) with id=
+eas I&#8217;ve been thinking through for a long time:</p><ul style=3D"margi=
+n-top: 0; padding: 0;"><li style=3D"margin: 8px 0 0 32px; mso-special-forma=
+t: bullet;"><p style=3D"box-sizing: border-box; color: #404040; font-size: =
+16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;"><=
+a href=3D"https://substack.com/redirect/dfeb018e-39d4-482b-bbb1-a09a1595539=
+3?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=
+=3D"" style=3D"color: #404040; text-decoration: underline;">Natively Integr=
+ated Company</a><span>&#160;</span></p></li><li style=3D"margin: 8px 0 0 32=
+px; mso-special-format: bullet;"><p style=3D"box-sizing: border-box; color:=
+ #404040; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; =
+padding-left: 4px;"><a href=3D"https://substack.com/redirect/52f00e69-4dca-=
+4ef0-9397-bbcbd36e051b?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqO=
+sa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: underlin=
+e;">Zillbnb</a></p></li></ul><p style=3D"color: #404040; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 20px 0;">While I believe that the natively-in=
+tegrated approach is the only way to attack a category dominated by large m=
+arketplaces, which we&#8217;ll discuss, the company&#8217;s strategy really=
+ comes into focus with Atlas.&#160;</p><p style=3D"color: #404040; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>During my first meet=
+ing with Wander CEO </span><a href=3D"https://substack.com/redirect/9bf460b=
+c-707d-48d7-9318-dda75e94c410?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlX=
+XepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: u=
+nderline;">John Andrew Entwistle</a><span>, a Thiel Fellow and second-time =
+founder, it all clicked. It was the pitch I was born to swing at, and I imm=
+ediately invested one of Not Boring Capital&#8217;s larger Fund II checks. =
+My only regret one year later is that I didn&#8217;t invest more.&#160;</sp=
+an></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; marg=
+in: 0 0 20px 0;">Over the past year, I&#8217;ve seen Wander execute at ever=
+y level, from the obvious product-related things to all the little details.=
+ Its investor updates are among my favorites to receive because each team l=
+eader writes his or her team&#8217;s section. I&#8217;m writing this wearin=
+g my Wander sweatshirt, the most comfortable I own. When I asked JAE where =
+he got them, he told me they designed them in-house, down to the fabric sel=
+ection, because the quality of the others they looked at didn&#8217;t meet =
+their standards.&#160;</p><p style=3D"color: #404040; font-size: 16px; line=
+-height: 26px; margin: 0 0 20px 0;"><span>Now, they&#8217;re bringing that =
+same attention to detail to bear on Atlas. With Atlas, Wander is creating a=
+ new asset class &#8211; </span><strong>short-term rental REITs (Real Estat=
+e Investment Trust)</strong><span>. The company spent roughly $1 million to=
+ bring the product to market, working with firms like Latham &amp; Watkins,=
+ Ernst &amp; Young, and Citrin Cooperman. They structured the product as a =
+Reg D REIT instead of a Reg A offering. They poured months of effort intern=
+ally &#8211; led by JAE, VP Finance &amp; Head of Acquisitions David Molots=
+ky (ex-Goldman Real Estate), and Head of Capital Markets Jake Kelley (ex-Mo=
+rgan Stanley Real Estate Structured Finance) &#8211; into getting it right.=
+ The Private Placement Memorandum &#8211; which you&#8217;ll have the pleas=
+ure of reading during the subscription process &#8211; is 160 pages long an=
+d chock full of detail. It doesn&#8217;t feel like a two-year-old startup l=
+ed by a 25-year-old founder did this.&#160;</span></p><p style=3D"color: #4=
+04040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">It&#8217;s =
+all part of the master plan &#8211; a purposeful wander &#8211; that JAE la=
+id out the first time we spoke.</p><ol style=3D"margin-top: 0; padding: 0;"=
+><li style=3D"margin: 8px 0 0 32px;"><p style=3D"box-sizing: border-box; co=
+lor: #404040; font-size: 16px; line-height: 26px; margin: 0; margin-bottom:=
+ 0; padding-left: 4px;">Prove that Wander can acquire and manage the top sh=
+ort-term rentals on its own balance sheet.&#160;</p></li><li style=3D"margi=
+n: 8px 0 0 32px;"><p style=3D"box-sizing: border-box; color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4=
+px;">Build a brand and an integrated machine to do it repeatedly and predic=
+tably.</p></li><li style=3D"margin: 8px 0 0 32px;"><p style=3D"box-sizing: =
+border-box; color: #404040; font-size: 16px; line-height: 26px; margin: 0; =
+margin-bottom: 0; padding-left: 4px;">Build an investment product that give=
+s people the opportunity to invest in the properties they love while lettin=
+g Wander scale in a capital-efficient manner.&#160;</p></li></ol><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">Today, we&#8217;ll analyze that strategy, tour Wander&#8217;s portfolio, =
+dive into the details on Atlas, and discuss where the company might go from=
+ here:</p><ul style=3D"margin-top: 0; padding: 0;"><li style=3D"margin: 8px=
+ 0 0 32px; mso-special-format: bullet;"><p style=3D"box-sizing: border-box;=
+ color: #404040; font-size: 16px; line-height: 26px; margin: 0; margin-bott=
+om: 0; padding-left: 4px;"><strong>Zillbnb and the Short-Term Arbitrage</st=
+rong></p></li><li style=3D"margin: 8px 0 0 32px; mso-special-format: bullet=
+;"><p style=3D"box-sizing: border-box; color: #404040; font-size: 16px; lin=
+e-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;"><strong>Na=
+tively Integrated Vacation Rentals</strong></p></li><li style=3D"margin: 8p=
+x 0 0 32px; mso-special-format: bullet;"><p style=3D"box-sizing: border-box=
+; color: #404040; font-size: 16px; line-height: 26px; margin: 0; margin-bot=
+tom: 0; padding-left: 4px;"><strong>Wander Atlas</strong></p></li><li style=
+=3D"margin: 8px 0 0 32px; mso-special-format: bullet;"><p style=3D"box-sizi=
+ng: border-box; color: #404040; font-size: 16px; line-height: 26px; margin:=
+ 0; margin-bottom: 0; padding-left: 4px;"><strong>Wandering Into the Future=
+</strong><span>&#160;</span></p></li></ul><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;">To understand Wander&#8=
+217;s potential, you need to understand the theory behind building a portfo=
+lio of STR properties. To do that, we&#8217;ll start by imagining that Airb=
+nb and Zillow had a baby.&#160;</p><h3 class=3D"header-with-anchor-widget" =
+style=3D"-moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smooth=
+ing: subpixel-antialiased; color: #404040; font-family: 'SF Compact Display=
+', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,=
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font=
+-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625=
+em 0; position: relative;"><strong>Zillbnb and the Short-Term Arbitrage</st=
+rong></h3><p style=3D"color: #404040; font-size: 16px; line-height: 26px; m=
+argin: 0 0 20px 0;">In June 2020, I wrote a Fantasy M&amp;A piece proposing=
+ that Zillow and Airbnb should merge. I gave five reasons I thought a combi=
+ned &#8220;Zillbnb&#8221; could make sense, the most relevant of which for =
+this piece is that combining Zillow&#8217;s Offers iBuyer product and Airbn=
+b&#8217;s short-term rental expertise would create a more robust business. =
+I wrote:&#160;</p><blockquote style=3D"border-left: 4px solid #67bdfc; marg=
+in: 20px 0; padding: 0;"><p style=3D"color: #404040; font-size: 16px; line-=
+height: 26px; margin: 0 0 20px 0; margin-left: 20px;"><em>Plugging in Airbn=
+b would lower Zillow&#8217;s risk and improve its yields. Instead of a bina=
+ry outcome - buy the house for $x and only profit if Zillow can sell the ho=
+use for $x+y - Zillow could turn on short-term rentals to generate income w=
+hile looking for a buyer at the right price.&#160;</em></p><p style=3D"colo=
+r: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; margin-=
+left: 20px;"><em><span>Zillow may even choose to continue to operate the ho=
+mes it buys as short-term rentals on Airbnb instead of selling, based on pr=
+edictive calculations of which offering will produce higher yields. Short-t=
+erm rentals can generate </span><a href=3D"https://substack.com/redirect/d3=
+f287ca-25d2-461c-b3cd-0d7ef1a6fe38?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaM=
+ZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decorati=
+on: underline;">30% higher rates</a><span> than long-term rentals. Airbnb h=
+as even shown a desire to own and manage its own supply with </span><a href=
+=3D"https://substack.com/redirect/2e5c6f7a-dec1-4bbd-a3eb-1d3178cfff45?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" st=
+yle=3D"color: #404040; text-decoration: underline;">Backyard</a><span>.&#16=
+0;</span></em></p><p style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0; margin-left: 20px;"><em><span>Zillbnb has the op=
+portunity to build something more potent than </span><a href=3D"https://sub=
+stack.com/redirect/561ba661-693a-4a04-b66c-60b7051882bd?j=3DeyJ1IjoiOXAwZ3Q=
+ifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #=
+404040; text-decoration: underline;">Blackstone&#8217;s Invitation Homes</a=
+><span>, on which the private equity firm netted about $7 billion by buying=
+ up a portfolio of single-family homes in the US and managing them as renta=
+l properties. By using Zillbnb&#8217;s combined data, the company can make =
+sharper offers based on both short-term and rental cashflow predictions. By=
+ offering Zillow Offers homes for one night, one month, one year, or foreve=
+r, Zillbnb would be able to optimize yields based on where each duration pr=
+ices in each market.</span></em></p><p style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 0 20px 0; margin-left: 20px;"><em>Joinin=
+g forces with Airbnb might even increase the buyer pool for Zillow&#8217;s =
+homes. Selling homes with Airbnb up and running turns a home into a turnkey=
+ small business, making it attractive to financial buyers looking for yield=
+ in a low interest rate environment.</em></p></blockquote><p style=3D"color=
+: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>T=
+hat&#8217;s a longer block quote than </span><a href=3D"https://substack.co=
+m/redirect/03854bd1-2eee-408a-99c6-31f08606f4c8?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J=
+5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; =
+text-decoration: underline;">Dan</a><span> normally lets me get away with, =
+but it&#8217;s important context for thinking about Wander&#8217;s portfoli=
+o. Essentially, acquiring properties that the company expects to appreciate=
+, financing them, and offering them as short-term rentals </span><strong>in=
+creases optionality</strong><span>, potentially lowering risk and improving=
+ yields compared to a standard iBuyer model and compared to a portfolio of =
+single-family rentals (SFRs).</span></p><p style=3D"color: #404040; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 20px 0;">In the iBuyer model, like=
+ Zillow&#8217;s now-defunct Offers or Opendoor, companies acquire propertie=
+s, do improvements, and attempt to sell them quickly, taking a small spread=
+ on very large numbers. If the market turns, or a home takes longer than ex=
+pected to sell, however, the company is stuck holding the bag. By introduci=
+ng short-term rentals into the mix, they could generate revenue and buy the=
+mselves time to wait for the right sale price.&#160;&#160;</p><p style=3D"c=
+olor: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">The=
+ first time John Andrew told me the plan for Wander, I immediately saw the =
+Zillbnb dream, but on a longer timescale. Instead of buying to flip, Wander=
+ would acquire properties that it expects to appreciate over a decade or so=
+=2E It mainly buys residential homes, not=
+ those that are already operating as=
+ short-term rentals, which means that it can often acquire homes for less t=
+han they&#8217;re worth to the company. By building a diversified portfolio=
+ of high-quality STRs in different locations, it can reduce risk and improv=
+e yields across the portfolio.&#160;</p><p style=3D"color: #404040; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 20px 0;">In real estate terms, Wan=
+der is buying residential homes and converting them into their &#8220;highe=
+st and best use&#8221;:&#160; short-term rentals.&#160; By converting them =
+to STRs and improving them cost-effectively, they can then be valued based =
+on a &#8220;cap rate&#8221; applied to the cash flow they generate, rather =
+than appraised as a residential home. The cap rate is the Net Operating Inc=
+ome (NOI) the property generates each year divided by the Purchase Price of=
+ the home, and a lower cap rate is generally a sign that the property is a =
+lower risk investment.&#160;</p><p style=3D"color: #404040; font-size: 16px=
+; line-height: 26px; margin: 0 0 20px 0;"><span>So for illustrative purpose=
+s, if Wander buys ten $1 million homes that the market believes it could re=
+nt annually for $100k above its costs, it would be buying at a </span><stro=
+ng>10%</strong><span> </span><strong>cap rate</strong><span> &#8211; $100k/=
+$1 million &#8211; for a total of $10 million. If it&#8217;s able to increa=
+se its NOI to $150k on each of the properties and sell the portfolio at the=
+ same cap rate &#8211; 10% &#8211; it could sell the portfolio for $15 mill=
+ion, or a 50% profit. If, by lowering risk through diversification and prof=
+essionalization, it can lower the cap rate the purchaser is willing to pay =
+to 8%, it can sell the portfolio for $18.75 million, or an 87.5% profit.&#1=
+60;&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 20px 0;"><span>If Wander is able to accelerate the ins=
+titutionalization of the STR market, time may bring</span><strong> lower ca=
+p rates as the market matures</strong><span>. The larger and more sophistic=
+ated an industry becomes, the more likely it is to attract large pools of i=
+nvestors that generally seek low-risk, lower-yielding investments. As a ver=
+y relevant comp, institutionalization of the SFR market over the past decad=
+e or so, and the billions of dollars invested in the space, have driven cap=
+ rates down from 10% to ~6%.&#160;</span></p><p style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Wander&#8217;s retur=
+ns may be further enhanced if you factor in annual revenue growth and the f=
+act that Wander finances its properties, meaning that it might take out a m=
+ortgage for 60-75% of the purchase price and only put down 25-40% in cash. =
+If it can cover its mortgage payments and operating costs, it can produce h=
+igher levered returns than it could by paying the whole purchase price in c=
+ash.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26p=
+x; margin: 0 0 20px 0;">Up to this point, there&#8217;s not a huge differen=
+ce between the STR model and the SFR model aside from the fact that SFR has=
+ been institutionalized, lowering cap rates. The STR market today is where =
+the SFR&#160; market was roughly a decade ago. A professional SFR operator =
+like Invitation Homes can purchase a diverse portfolio of residential prope=
+rties, standardize them, rent them on an annual basis to cover its costs an=
+d generate NOI, and sell the lower-risk portfolio at a lower cap rate. Like=
+ Wander, an SFR operator can choose to rent out properties when the numbers=
+ favor renting, and sell them when the numbers favor selling.&#160;</p><p s=
+tyle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20p=
+x 0;"><span>Here, though, Wander&#8217;s ability to rent properties short-t=
+erm, for as little as three nights, gives them more </span><strong>optional=
+ity</strong><span>, and the opportunity to further increase NOI versus SFRs=
+=2E&#160;</span></p><p style=3D"color: #4=
+04040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;"><span>As short-term rentals are the highest and=
+ best use, </span><strong>optionality provides downside protection</strong>=
+<span>. STRs typically generate more income than SFRs, but STRs can also be=
+ rented long-term (like SFR&#8217;s) if a particular home doesn&#8217;t per=
+form well as an STR. The opposite is not true. Further, as a backup to the =
+backup, a Wander STR could be converted back into a regular residential hom=
+e if it isn&#8217;t performing as an STR or didn&#8217;t convert well into =
+an STR. That backup backup market &#8211; the US single-family home market =
+&#8211; is the largest, and one of the most liquid, marketplaces in the wor=
+ld.</span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26p=
+x; margin: 0 0 20px 0;"><span>For now, though, Wander is able to generate a=
+ higher NOI by renting its properties to guests for a few nights at a time.=
+ Its focus is on increasing </span><strong>RevPAR</strong><span> &#8211; a =
+hospitality industry metric based on Average Daily Rate (ADR) and occupancy=
+ &#8211; by continuing to improve the quality of the guest experience and m=
+aking sure its properties are booked as many nights as possible. It&#8217;s=
+ able to do both of those things better than a pure marketplace could becau=
+se it&#8217;s a </span><strong>Natively Integrated Company</strong><span>.<=
+/span></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"b=
+ackground: #e0e0e0; border: none; height: 1px; margin: 32px 0; padding: 0;"=
+></div><h4 class=3D"header-with-anchor-widget" style=3D"-moz-osx-font-smoot=
+hing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; c=
+olor: #404040; font-family: 'SF Compact Display', -apple-system, BlinkMacSy=
+stemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Em=
+oji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.125em; font-weight:=
+ bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relative;">T=
+o read how Wander is building a Natively Integrated Vacation Rental Company=
+, learn more about Atlas, and glimpse into Wander&#8217;s future&#8230;</h4=
+><p class=3D"button-wrapper" data-attrs=3D"{&quot;url&quot;:&quot;https://w=
+ww.notboring.co/i/100004529/zillbnb-and-the-short-term-arbitrage&quot;,&quo=
+t;text&quot;:&quot;Continue Reading Online&quot;,&quot;action&quot;:null,&q=
+uot;class&quot;:null}" style=3D"color: #404040; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 20px 0; text-align: center;"><a class=3D"button primar=
+y" href=3D"https://substack.com/redirect/ff427af2-ca24-4827-9ca0-8db76764ce=
+b5?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=
+=3D"" style=3D"background-color: #67bdfc; border: none; border-radius: 4px;=
+ box-sizing: border-box; color: #ffffff !important; cursor: pointer; displa=
+y: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; height: auto; lin=
+e-height: 20px; margin: 0; opacity: 1; outline: none; padding: 12px 20px; t=
+ext-align: center; text-decoration: none !important; white-space: nowrap;">=
+<span style=3D"color: #ffffff; text-decoration: none;">Continue Reading Onl=
+ine</span></a></p><div style=3D"font-size: 16px; line-height: 26px;"><hr st=
+yle=3D"background: #e0e0e0; border: none; height: 1px; margin: 32px 0; padd=
+ing: 0;"></div><p style=3D"color: #404040; font-size: 16px; line-height: 26=
+px; margin: 0 0 20px 0;"><em><span>Thanks to </span><a href=3D"https://subs=
+tack.com/redirect/03854bd1-2eee-408a-99c6-31f08606f4c8?j=3DeyJ1IjoiOXAwZ3Qi=
+fQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #4=
+04040; text-decoration: underline;">Dan</a><span> for editing, and to JAE, =
+Jake, Kyle, David, and Dom for your input!</span></em></p><div style=3D"fon=
+t-size: 16px; line-height: 26px;"><hr style=3D"background: #e0e0e0; border:=
+ none; height: 1px; margin: 32px 0; padding: 0;"></div><p style=3D"color: #=
+404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">That&#8217=
+;s all for today! We&#8217;ll be back in your podcast feed on Thursday and =
+back in your inbox on Friday for the Weekly Dose. </p><p style=3D"color: #4=
+04040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Thanks for =
+reading, </p><p style=3D"color: #404040; font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;">Packy</p><div class=3D"footnote" style=3D"align-item=
+s: baseline; border-top: solid 1px rgba(204, 204, 204, 0.5); display: flex;=
+ flex-direction: row; font-size: 90%; line-height: 26px; padding-top: 1.5em=
+;"><span class=3D"footnote-number" style=3D"display: block; margin-right: 6=
+px; min-width: 24px;">1</span><div class=3D"footnote-content" style=3D"disp=
+lay: block; font-size: 16px; line-height: 26px;"><p style=3D"color: #404040=
+; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><em>For the avoi=
+dance of any doubt, the Private Placement Memorandum (&#8220;PPM&#8221;) is=
+ the sole controlling document for all information concerning investment in=
+ Atlas.&#160;Neither Wander nor Atlas can guarantee future performance or a=
+ny return on investment. Like any investment, an investment in Atlas entail=
+s the risk of loss of some or all of one&#8217;s invested capital.&#160;The=
+ PPM explains in detail the risks associated with an investment in Atlas an=
+d the related terms and conditions of the investment and it should be read =
+carefully and in detail before investing. The PPM is the sole and exclusive=
+ source of information concerning investment in Atlas.</em></p></div></div>=
+<div class=3D"footnote" style=3D"align-items: baseline; border-top: none; d=
+isplay: flex; flex-direction: row; font-size: 90%; line-height: 26px; margi=
+n-bottom: 0; padding-top: 0;"><span class=3D"footnote-number" style=3D"disp=
+lay: block; margin-right: 6px; min-width: 24px;">2</span><div class=3D"foot=
+note-content" style=3D"display: block; font-size: 16px; line-height: 26px;"=
+><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 =
+0 20px 0;"><em>Neither Wander nor Atlas, nor certainly not Not Boring, can =
+guarantee future performance or any return on investment. Like any investme=
+nt, an investment in Atlas entails the risk of loss of some or all of one&#=
+8217;s invested capital.</em></p><p style=3D"color: #404040; font-size: 16p=
+x; line-height: 26px; margin: 0 0 20px 0;"></p></div></div></div></div><div=
+ class=3D"container-border" style=3D"border-top: 1px solid #e0e0e0; box-siz=
+ing: border-box; font-size: 16px; line-height: 26px; margin: 32px 0 0; widt=
+h: 100%;"></div><div class=3D"post-cta typography markup" style=3D"font-siz=
+e: 16px; line-height: 26px; margin: 32px 0; margin-bottom: 32px; text-align=
+: initial; word-break: break-word;"><p style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 auto 20px; margin-top: 0; text-align: ce=
+nter; width: 90%;"><span>Not Boring by Packy McCormick is free today. But i=
+f you enjoyed this post, you can tell Not Boring by Packy McCormick that th=
+eir writing is valuable by pledging a future subscription. You won't be cha=
+rged unless they enable payments.</span></p><p class=3D"cta-box" style=3D"c=
+olor: #404040; font-size: 16px; line-height: 26px; margin: 0 auto 20px; mar=
+gin-bottom: 0; margin-left: auto; margin-right: auto; text-align: center; w=
+idth: 90%;"><a role=3D"button" href=3D"https://substack.com/redirect/2/eyJl=
+IjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3N1YnNjcmliZT91dG1fc291cmNlPXBvc3QiLCJ=
+wIjoxMDAwMDQ1MjksInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjc1MT=
+czMzQyLCJleHAiOjE2Nzc3NjUzNDIsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjd=
+CJ9.r6_vm-rY8qwGP5oeX5sTYfmYNhka03zvHtwU_Wl5wJ8?&utm_source=3Dsubstack&utm_=
+medium=3Demail&utm_content=3Dpostcta" class=3D"button primary" style=3D"bac=
+kground-color: #67bdfc; border: none; border-radius: 4px; box-sizing: borde=
+r-box; color: #ffffff !important; cursor: pointer; display: inline-block; f=
+ont-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetic=
+a, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symb=
+ol'; font-size: 14px; font-weight: 600; height: 40px; line-height: 20px; ma=
+rgin: 0; opacity: 1; outline: none; padding: 10px 20px; text-align: center;=
+ text-decoration: none !important; white-space: nowrap;">Pledge your suppor=
+t</a></p></div><table role=3D"presentation" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" class=3D"email-ufi-2-bottom" style=3D"bord=
+er-bottom: 1px solid #e0e0e0; border-top: 1px solid #e0e0e0; min-width: 100=
+%;"><tr height=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-heigh=
+t: 0;">&#160;</td></tr><tr><td><table role=3D"presentation" width=3D"100%" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><table role=3D"pre=
+sentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"margin: 0 auto;"><tr><td style=3D"vertical-align: middle;"><table =
+role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/app-lin=
+k/post?publication_id=3D10025&post_id=3D100004529&utm_source=3Dsubstack&isF=
+reemail=3Dtrue&submitLike=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF=
+9pZCI6MTAwMDA0NTI5LCJyZWFjdGlvbiI6IuKdpCIsImlhdCI6MTY3NTE3MzM0MiwiZXhwIjoxN=
+jc3NzY1MzQyLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJyZWFjdGlvbiJ9.1d-4K65JlJVrASC=
+Zt7NUwnPoSswjoUnlrsZtxpuaLrI&utm_medium=3Demail" class=3D"email-button-outl=
+ine" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; color: #8=
+08080; display: inline-block; font-family: 'SF Pro Text', -apple-system, ui=
+-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans=
+-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size=
+: 12px; font-weight: 500; line-height: 12px; padding: 9px 14px; text-decora=
+tion: none; text-transform: uppercase;"><img src=3D"https://substackcdn.com=
+/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2=
+F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dnone%2=
+6stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=
+=3D"border: none !important; margin-right: 8px; max-width: 18px; min-height=
+: 18px; min-width: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"><=
+span class=3D"email-button-text" style=3D"vertical-align: middle;">Like</sp=
+an></a></td></tr></table></td><td width=3D"8" style=3D"min-width: 8px"></td=
+><td style=3D"vertical-align: middle;"><table role=3D"presentation" width=
+=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D=
+"center"><a href=3D"https://substack.com/app-link/post?publication_id=3D100=
+25&post_id=3D100004529&utm_source=3Dsubstack&utm_medium=3Demail&isFreemail=
+=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTA=
+wMDA0NTI5LCJpYXQiOjE2NzUxNzMzNDIsImV4cCI6MTY3Nzc2NTM0MiwiaXNzIjoicHViLTEwMD=
+I1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.kHyxpwpG8-Un84XcPCikLDhESyuiKz3gy_XHA69K=
+dW8&utm_source=3Dsubstack&utm_medium=3Demail" class=3D"email-button-outline=
+" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; color: #8080=
+80; display: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sa=
+ns-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-se=
+rif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1=
+2px; font-weight: 500; line-height: 12px; padding: 9px 14px; text-decoratio=
+n: none; text-transform: uppercase;"><img src=3D"https://substackcdn.com/im=
+age/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2=
+Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%2=
+6stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=
+=3D"border: none !important; margin-right: 8px; max-width: 18px; min-height=
+: 18px; min-width: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"><=
+span class=3D"email-button-text" style=3D"vertical-align: middle;">Comment<=
+/span></a></td></tr></table></td><td width=3D"8" style=3D"min-width: 8px"><=
+/td><td style=3D"vertical-align: middle;"><table role=3D"presentation" widt=
+h=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=
+=3D"center"><a href=3D"https://substack.com/app-link/post?publication_id=3D=
+10025&post_id=3D100004529&utm_source=3Dsubstack&utm_medium=3Demail&utm_cont=
+ent=3Dshare&action=3Dshare&triggerShare=3Dtrue&isFreemail=3Dtrue&token=3Dey=
+J1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTAwMDA0NTI5LCJpYXQiOjE2NzUxNzMzNDIsI=
+mV4cCI6MTY3Nzc2NTM0MiwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9=
+=2EkHyxpwpG8-Un84XcPCikLDhESyuiKz3gy_XHA6=
+9KdW8" class=3D"email-button-outline=
+" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; color: #8080=
+80; display: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sa=
+ns-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-se=
+rif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1=
+2px; font-weight: 500; line-height: 12px; padding: 9px 14px; text-decoratio=
+n: none; text-transform: uppercase;"><img src=3D"https://substackcdn.com/im=
+age/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2=
+Fsubstack.com%2Ficon%2FLucideShare%3Fv%3D4%26height%3D36%26fill%3Dnone%26st=
+roke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"b=
+order: none !important; margin-right: 8px; max-width: 18px; min-height: 18p=
+x; min-width: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"><span =
+class=3D"email-button-text" style=3D"vertical-align: middle;">Share</span><=
+/a></td></tr></table></td></tr></table></td><td align=3D"right"><table role=
+=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr></tr></table></td></tr></table></td></tr><tr height=3D"16"><td h=
+eight=3D"16" style=3D"font-size: 0px; line-height: 0;">&#160;</td></tr></ta=
+ble><div class=3D"footer frontend-email-shared-typed-module__footer--WmMp1"=
+ style=3D"color: #808080; font-size: 16px; line-height: 26px; padding: 24px=
+ 0; text-align: center;"><div class=3D"frontend-email-shared-typed-module__=
+footerSection--9vwqp" style=3D"font-size: 16px; line-height: 26px; padding:=
+ 0 24px;"><div style=3D"color: #404040; font-family: 'SF Pro Display', -app=
+le-system-headline, 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSy=
+stemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 16px; font-weight: 700; letter-spacing: -0.31px; line-heig=
+ht: 20px; margin: 0; margin-bottom: 4px; text-decoration: unset;" class=3D"=
+frontend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__=
+size-16--yeezN frontend-pencraft-Text-module__line-height-20--1soeQ fronten=
+d-pencraft-Text-module__weight-bold--VnIZR frontend-pencraft-Text-module__f=
+ont-display--v0e_A frontend-pencraft-Text-module__color-primary--2I-sF">Rea=
+d Not Boring by Packy McCormick in the app</div><div style=3D"color: #80808=
+0; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 14px; font-weight: 400; letter-spacing: -0.15px; line-heig=
+ht: 20px; margin: 0; margin-bottom: 16px; text-decoration: unset;" class=3D=
+"frontend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module_=
+_size-14--1PYz8 frontend-pencraft-Text-module__weight-normal--mEmBf fronten=
+d-pencraft-Text-module__font-text--hJYwu frontend-pencraft-Text-module__col=
+or-secondary--XjVGl frontend-pencraft-Text-module__body4--flxpT">Listen to =
+posts, join subscriber chats, and never miss an update from Packy McCormick=
+=2E</div><div style=3D"font-size: 16px; l=
+ine-height: 26px;"><a href=3D"https:=
+//substack.com/redirect/e0bc2b92-7381-4f8a-a595-84664b6bb2c7?j=3DeyJ1IjoiOX=
+AwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" class=3D"email-footer=
+-button" style=3D"border-radius: 8px; display: inline-block; margin: 0 4px;=
+ overflow: hidden; text-decoration: none;"><img alt=3D"Get the iOS app" src=
+=3D"https://substackcdn.com/image/fetch/w_246,c_limit,f_auto,q_auto:good,fl=
+_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fapp_page%2Fapp-store.=
+png" width=3D"123" height=3D"40" style=3D"border: none !important; max-widt=
+h: 550px; vertical-align: middle;"></a><a href=3D"https://substack.com/redi=
+rect/4bf46d58-de5b-4cd4-9659-a09b9bdcf2a2?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA=
+_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" class=3D"email-footer-button" style=3D"b=
+order-radius: 8px; display: inline-block; margin: 0 4px; overflow: hidden; =
+text-decoration: none;"><img alt=3D"Get the Android app" src=3D"https://sub=
+stackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:st=
+eep/https%3A%2F%2Fsubstack.com%2Fimg%2Fapp_page%2Fgoogle-play.png%3Fv%3D1" =
+width=3D"135" height=3D"40" style=3D"border: none !important; max-width: 55=
+0px; vertical-align: middle;"></a></div></div><div class=3D"frontend-email-=
+shared-typed-module__divider--1oKOZ" style=3D"border-top: 1px solid #e0e0e0=
+; font-size: 16px; line-height: 26px; margin: 24px 0;"></div><div style=3D"=
+font-size: 16px; line-height: 26px; padding-bottom: 24px;"><p class=3D"fron=
+tend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__size=
+-12--2onFT frontend-pencraft-Text-module__color-secondary--XjVGl small fron=
+tend-email-shared-typed-module__meta--AAyPr" style=3D"color: #808080; font-=
+family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, A=
+rial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';=
+ font-size: 12px; letter-spacing: 0; line-height: 16px; margin: 0; padding-=
+bottom: 0; text-decoration: unset;">&#169; 2023 <span>Packy McCormick</span=
+><br>10 City Point, Brooklyn, NY 11201 <br><a href=3D"https://substack.com/=
+redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2Vt=
+YWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEF3TUR=
+BME5USTVMQ0pwWVhRaU9qRTJOelV4TnpNek5ESXNJbVY0Y0NJNk1UWTNOemMyTlRNME1pd2lhWE=
+56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LnNkc0NLU=
+mhJRlVLdjQ2bklZMEFYYUNKNHhvcHBoWkVjelRtOFNXNVVzdjAiLCJwIjoxMDAwMDQ1MjksInMi=
+OjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjc1MTczMzQyLCJleHAiOjE2Nzc=
+3NjUzNDIsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.7vnyzqGmC_wx_NHFR=
+8fEasJB4YrRkUicl_9NV5qiMkY?" style=3D"color: #808080; text-decoration: unde=
+rline;"><span style=3D"color: #808080; text-decoration: underline;">Unsubsc=
+ribe</span></a></p></div><p class=3D"frontend-email-shared-typed-module__fo=
+oterSection--9vwqp small powered-by-substack" style=3D"color: #808080; font=
+-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, =
+Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+; font-size: 12px; line-height: 20px; margin: 0; margin-top: 0; padding: 0 =
+24px; padding-bottom: 0;"><a href=3D"https://substack.com/redirect/2/eyJlIj=
+oiaHR0cHM6Ly9zdWJzdGFjay5jb20vc2lnbnVwP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZ=
+Gl1bT1lbWFpbCZ1dG1fY29udGVudD1mb290ZXImdXRtX2NhbXBhaWduPWF1dG9maWxsZWQtZm9v=
+dGVyJmZyZWVTaWdudXBFbWFpbD1ub3Rib3JpbmdAa2hhbWVsLmNvbSIsInAiOjEwMDAwNDUyOSw=
+icyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NzUxNzMzNDIsImV4cCI6MT=
+Y3Nzc2NTM0MiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.ZUqkPoecUZuho=
+p2YYKcaqc7ugvbdXF-jnoUxSTh4zRY?" style=3D"color: #808080; display: inline-b=
+lock; margin: 0 4px; text-decoration: none;"><img src=3D"https://substackcd=
+n.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:steep/htt=
+ps%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png" srcset=3D"=
+https://substackcdn.com/image/fetch/w_135,c_limit,f_auto,q_auto:good,fl_pro=
+gressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button.pn=
+g, https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_=
+progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button=
+%402x.png 2x, https://substackcdn.com/image/fetch/w_405,c_limit,f_auto,q_au=
+to:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpub=
+lish-button%403x.png 3x" width=3D"135" alt=3D"Start writing" height=3D"40" =
+style=3D"border: none !important; max-width: 550px; vertical-align: middle;=
+"></a></p></div></div></td><td></td></tr></table><img src=3D"https://mailgu=
+n.substack.com/api/v1/email/open?token=3DeyJtIjoiPDIwMjMwMTMxMTM1NTM0LjMuYj=
+RkMzg0NWNiMjllMGQxNkBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1NDksInIiOiJub=
+3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxMDAwMDQ1=
+MjksInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTAwMjUsImMiOiJwb3N0Iiw=
+iZiI6dHJ1ZSwicG9zaXRpb24iOiJib3R0b20iLCJpYXQiOjE2NzUxNzMzNDMsImV4cCI6MTY3Nz=
+c2NTM0MywiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9._9V4cdClBfYEWO8Tv9CXBvsa-8ut54RU=
+RxappbtPJ0I" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height=
+:1px !important;width:1px !important;border-width:0 !important;margin-top:0=
+ !important;margin-bottom:0 !important;margin-right:0 !important;margin-lef=
+t:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding=
+-right:0 !important;padding-left:0 !important;"/><img width=3D"1px" height=
+=3D"1px" alt=3D"" src=3D"https://email.mg-d0.substack.com/o/eJxFkEtuhDAQRE8=
+T74L8BxY-i2W7G8YasJFpEnH7MMNI2XaV6lVXCoRzbafb6k4M15AXP2PBdt3BB3LC9kb0Smk5Gs=
+nAWRUmAyzvfmr49jtqB7LtiEtOgXItPoMTnEvDHk6NEAfFR5F0bw3ayM0EoueINlkII3txfTggY=
+0no8AfbWQuyVNcVC72ibsudybk2cmTZSS4VF0oIZYzSneqiBjVok6IckYOwX5qv8zfwbj_iTiE9=
+uyuSNVcqxdpymS_D8xFWXN7CVd-_mEfJdHosIS4I92d0b3Ps2N4trByU0Z_mdG7oCv7uCxJhYxc=
+N6rVK-Qcx_IyouR7-AMbqets"></body></html>
+--06f49b0bace96f81f28248d6e656f8bfd2dd5f97871db28ae76ea2fe8332--

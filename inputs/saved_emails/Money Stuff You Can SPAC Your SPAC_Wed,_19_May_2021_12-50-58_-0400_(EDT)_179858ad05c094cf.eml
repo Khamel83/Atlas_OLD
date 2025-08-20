@@ -1,0 +1,1590 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:ca10:0:b029:f7:875:abe8 with SMTP id z16csp1440608lkq;
+        Wed, 19 May 2021 09:52:18 -0700 (PDT)
+X-Received: by 2002:a17:906:26d4:: with SMTP id u20mr143069ejc.114.1621443137986;
+        Wed, 19 May 2021 09:52:17 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1621443137; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=y5Snz1CYxawk0T7KJri64IeMU/20jn4DYiG+L2dWK6nC8CZnrom/5pqQaUPlA722z6
+         erP1B2vl28lu/23wuFFs0esn1Js7He8pgd1VU18YDLbMs4QPbxU5ArWBsQjxgjT7IfRn
+         +QYrgJCMtGugelBHA2sIumoraoVS+O2VQFP0lboT3FBlkxqjzkBcTfy5QrnK0llNGAD5
+         z+SbJy8Hkk8ZfVYUZa4eFYpIaJnUaDwQxmeXzOQ3sLDIbvU2xGy/b+disSTYvMRQY+DM
+         Nq9r8OZh01vC/40/D9nRiXyp8d2Hc0SwlcQ3OQjBB+Jlat7NgXv7aP0DWSBkRRjlDXs8
+         +JTQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=X+s/QUOAivQKD4MVI4zNaTTsyu8v/kuLzaiqap28kHI=;
+        b=Yo6N/3FsHNq98gqF5j4MK16CSeHdVJqXPsD8rAhEiq5qYt5N541kQ5pKebcclsLXdv
+         J+e/ezehZk/5Eut4jmutUyvu32PJm8T5+TxFZaMUBp+14gakfxJpvJ4lTJIFFV7DcQZi
+         8n8UY1hsSIqoQ7c+vnTvdJV5x4G3w2DfhLgu3HLbGgmQRcJV7i0ZTT6DWAiWD8eypbMl
+         vBKtm+UuDDNdfV8NSPZNMM+LXHqcE5m3q6I0F+R/GL46xfP+DfDfQtC1id3VCPV8osiw
+         vI0yvgVDBJVZNZ0jSOkc2Lf/Uzmdp9Fzh2OYlhaCbCg07iVQ7l7i/WPDBNIrwXk2ucCP
+         wtBw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=v5MJqOjL;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id e17sor182976edy.19.2021.05.19.09.52.17
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 19 May 2021 09:52:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=v5MJqOjL;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=X+s/QUOAivQKD4MVI4zNaTTsyu8v/kuLzaiqap28kHI=;
+        b=nX4tLPyDF7Zt7Pa0t80n9xuSEPIR3KC8Bj3di7LsY8YEE+zvf3Wd5e55MnuQlXK1x8
+         GIKxnjk0ukx8znCPRAYjQxO/0apz5KXhHfuh4hRQRgKjTFKQAa9HSL3R+qY8RUYEbr2i
+         y5reMkCaTGSZwkq0qsNsBjaxCShwb36rEoMmElXoCCmBdYY3Y7LOksO4RpjU1J+m4YtG
+         TAICMArOzkt7VugYCR3M7ssSheq5Z9iCqPd4jVMbJoz4jgx2AtctTcIXkY6mf+KBxn/X
+         fLZeX5oFZHWABihz/AVnBeP852TvwCGYWlocyNSPYwRb8bVro6+45nDx8EYaGxwv5AkA
+         FKMg==
+X-Gm-Message-State: AOAM531MmvsuylZQaloT70KlvkMuJksw75wtPlkUpcN0UF9cpEt75Tf0
+	eil0pVpttj6It4NXe9P30rElFpZSu3zI9HZHO3vkVluJqT0+IP2gdg==
+X-Received: by 2002:aa7:c781:: with SMTP id n1mr13757eds.108.1621443137476;
+        Wed, 19 May 2021 09:52:17 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3ec9:0:0:0:0:0 with SMTP id h9csp665985ecr;
+        Wed, 19 May 2021 09:52:14 -0700 (PDT)
+X-Received: by 2002:a05:6638:3010:: with SMTP id r16mr14262677jak.126.1621443134554;
+        Wed, 19 May 2021 09:52:14 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1621443134; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=0KV4QZfX+os8ObUtFieR0j1tqLgUvuEXs12rb04zws0ug/ofUdObQrwlljgGkgRmjt
+         uSUcT8rDqbd5ie1uJQKoGF2df3qE3Cr3zGhEpoqqR4zDa0hYffBRiZa8tSLr4rBm2s74
+         PO2It2MJqFbzh3H57txbG27Jf2zQdem8L0cWZoD1aTA6SDRl2Pf90qZMtWSnBFZlNUC2
+         XhiFza9K5DKw0RaDxCYiD7ZJ4rPCmjSRvH0Ubb1O3lKWwGw1WsuDFnYuGAQaF6pz8YRq
+         jkT771RarZAwqlGvFshTOnTGQikhGm3+pUrVWnn2xkehNdYMugq8ukagDOSFtLJ/2Roa
+         EA8A==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=X+s/QUOAivQKD4MVI4zNaTTsyu8v/kuLzaiqap28kHI=;
+        b=HV7CSa8vl2XvQBnhwaWF9Kh2CPgHZ7uCSeOsFxATDXLWOgE0UjlqHaj5UTo8qzpJki
+         R0LI/BtZSpK30wXOkgkX2DOJDzaK0TuV6SZWae30GyfT3eCkaOHdR9ZcV+Fj/nZB6osJ
+         ENNGRGVUqk0WVY8lO8oMBSvpZJPb4B4qkypvE+Unk1w0yxpsvPcHSpLfPNgxMb20dnPa
+         h8aFkC7E8j5ppRlmKo5urhND3suRACUQffZIc28dZu7/Uf0Qk/hEcZB8NWLrrFoArpp9
+         MuVQpon+59Vdw6siSm2MD6XHkzPHVnVt/uHasyiR9huT1U3tkdmlrlbErzq8XaJeX8ZW
+         OdKw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=v5MJqOjL;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210519125058.23893912.274019@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210519125058.23893912.274019@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210519125058.23893912.274019@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p7sor153930iov.79.2021.05.19.09.52.14
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 19 May 2021 09:52:14 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210519125058.23893912.274019@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwZqDRyRCufoRYdin4SLB0M/CdMf8cgvvFEx2lBjJy6b3Fnsvz5sblk8XQhit5P5rCQUuz1c2XhsArFQGVEoTZOLVr5U+4=
+X-Received: by 2002:a05:6602:718:: with SMTP id f24mr363171iox.59.1621443133918;
+        Wed, 19 May 2021 09:52:13 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1621443133; cv=none;
+        d=google.com; s=arc-20160816;
+        b=LkcZtffCnnln5G2X5jgcUV/F9pfC0K7u5Ef78sBM3V472ShDgDv5zjzKnFnzzLUUZi
+         VJbbnIZV+Wvsm/uKo9pvFCgiAm79QEXhHmo3M+rvEQSchKyBEsIBTEXkL+qDSEgXh5ne
+         +ptdYiwStVaExH0bbZinR3b4sa3fO8FUdSDbrhkWBO7A52YostjdW2lcw/zu9dbfdPs5
+         o+817JaLqaUsdFG5KxDFtbsvLPXRC+/cXjWiokuyQPpgkKxMqQCpQdNOKT+ZlIW5LcjB
+         Gu4ajlhE47N3IkKijLaBWu7AdjHb27EO+FAqg2D8iIjdZIQaL9P71AW9/UT93AsLUkFd
+         jOXw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=X+s/QUOAivQKD4MVI4zNaTTsyu8v/kuLzaiqap28kHI=;
+        b=UEh7vWdLANrLjMCbXnF63PibPesZDEgLYdbnYvSqEpFf2h0/Ld35i2mETojpp+XSGw
+         8zN7nmZzZp5om9YbwrDTRyb50TSXVwPcBN2jfvKiOl1JbADU8dmMT8CFo5DohmxQThiZ
+         qoB0vRboWKu0zbOVpPk7onhVVBpOh7meys9RVfIOEbZOBYEuNF+XhmNe3wzbRb76zZ1M
+         w7gD7maHhN79nBAUJF/OD1Re4zmY2MxffAKkJfBzzlGbS9mCLoX7Dee1ukuKAfdz6Q7l
+         BSKo8PNolLltfbfH7qSfbvZ6QHWv0yQSjZznMtZgQvf1qeZSGmUJDPjdPrKgsScF5tTG
+         9YYA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=v5MJqOjL;
+       spf=pass (google.com: domain of delivery_20210519125058.23893912.274019@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20210519125058.23893912.274019@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210519125058.23893912.274019@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTP id w1si2951ilv.0.2021.05.19.09.52.13
+        for <khamel83@gmail.com>;
+        Wed, 19 May 2021 09:52:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210519125058.23893912.274019@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=TR2LsOkODnCUMWfmtePxXUZuXWk=;
+ b=v5MJqOjLPS6eLDIL2m/i93h2S7oQwH0jNikVDdWfZUzNgxKm7e02c1VwkHHD6p2xmoiHKNQPf+Yj
+   IYAigs/ECxVSCpCvNF7YfJZ8tmRSRkSg5WuHTuBYWmJBtl1Arni9r18bzih9LeV77imCsLYha3pM
+   CNwW+6OCpY0LAFh+5EQ=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by pmta29.sailthru.com id hkl13q1qqbsu for <bloomberg@khamel.com>; Wed, 19 May 2021 12:52:13 -0400 (envelope-from <delivery_20210519125058.23893912.274019@mx.sailthru.com>)
+Date: Wed, 19 May 2021 12:50:58 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210519125058.23893912.274019@sailthru.com>
+Subject: Money Stuff: You Can SPAC Your SPAC
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_23939924_1177839585.1621443058738"
+Precedence: bulk
+X-TM-ID: 20210519125058.23893912.274019
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wryforest.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce84ns.5vfn/2b09cc0c
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce84ns.5vfn/2b09cc0c>, <mailto:unsubscribe_20210519125058.23893912.274019@mx.sailthru.com>
+X-rpcampaign: stjko23893912
+
+------=_Part_23939924_1177839585.1621443058738
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+ =20
+ =20
+  Money Stuff
+ =20
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+   =20
+       =20
+           =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+
+     =20
+     =20
+ =20
+   =20
+      SPAC SPAC SPAC all rightEvery time I write about special purpose acqu=
+isition companies someone emails me to be like =E2=80=9CI am going to launc=
+h a SPAC of SPACs,=E2=80=9D and it is always pretty=C2=A0half-baked. A SPAC=
+ is a blank-check company that raises money to merge with another company, =
+and that is a meta enough idea that people want to make it more meta. =E2=
+=80=9CA SPAC that raises money to buy SPACs=E2=80=9D=C2=A0is=C2=A0more meta=
+, sure, but it doesn=E2=80=99t make any sense. A SPAC is a tool, it=E2=80=
+=99s a particular way to raise money to take companies public; multiplying =
+the abstraction doesn=E2=80=99t add anything.=C2=A0But  here=E2=80=99s this=
+:It=E2=80=99s the latest twist in the world of blank-check mergers: A compa=
+ny plans to go public with a SPAC and use it to buy back an affiliate that =
+it took public using another SPAC.This circular scenario revolves around a =
+drugmaker called=C2=A0Roivant Sciences Ltd., which wants to merge with a sp=
+ecial-purpose acquisition company and then take over a SPAC that acquired=
+=C2=A0Immunovant Inc.=C2=A0from Roivant less than two years ago.What=E2=80=
+=99s more, Roivant says it knows something that everyone else doesn=E2=80=
+=99t about its former unit, and it=E2=80=99s willing to pay a premium for t=
+he shares -- perhaps as much as 70% by one estimate.A SPAC-on-SPAC deal is =
+such an oddity that people who follow shell companies can=E2=80=99t remembe=
+r it happening before, or anything like Roivant=E2=80=99s head-spinning ver=
+sion. =E2=80=9CIn the years I=E2=80=99ve been analyzing SPACs, I=E2=80=99ve=
+ never seen a transaction like this,=E2=80=9D said=C2=A0Neil Danics, founde=
+r of SPAC Analytics in Toronto and who has been providing research on the i=
+ndustry since 2007. =E2=80=A6=E2=80=9CIf you can raise a bunch of money wit=
+h a SPAC and then use that relatively cheap cash to buy a company at a valu=
+ation they find attractive -- that seems like a rational approach,=E2=80=9D=
+ says Nikolai Roussanov, a finance professor at the University of Pennsylva=
+nia=E2=80=99s Wharton School.The plan goes like this: Roivant has proposed =
+to be acquired by a SPAC called Montes Archimedes Acquisition Corp. in a co=
+mbination valued at about $7.3 billion, according to filings. Roivant would=
+ be the surviving entity, and in turn, would offer a mix of stock and cash =
+to buy up shares that it doesn=E2=80=99t already own in Immunovant, an earl=
+y-stage drugmaker. Roivant spun that off in 2019 into a SPAC called Health =
+Sciences Acquisitions Corp., in return for shares and other considerations =
+initially valued at $395 million.The reason Roivant is willing to pay up is=
+n=E2=80=99t immediately clear. Human trials on Immunovant=E2=80=99s main pr=
+ospect, a monoclonal antibody injection aimed at ailments such as myastheni=
+a gravis and thyroid eye disease, were halted February 2 because of concern=
+ about potential side effects.The SPAC-on-SPAC angle is funny, but I am not=
+ sure one should overemphasize it. Nothing really turns on any of this bein=
+g a SPAC. The story is that Roivant is a company that operates as a sort of=
+ pharmaceutical=C2=A0conglomerate/incubator. It says:We develop drug candid=
+ates in subsidiary companies we call =E2=80=9CVants=E2=80=9D =E2=80=A6.=C2=
+=A0Our Vants continue to benefit from the support of the Roivant platform a=
+nd technologies that are built to address inefficiencies in the drug discov=
+ery, development and commercialization process. =E2=80=A6=C2=A0The Vant mod=
+el also enables a modular approach to the monetization of therapies we adva=
+nce through development, allowing us to pursue commercialization of some pr=
+oducts independently, while selectively establishing partnerships for other=
+ Vants or divesting of the Vants entirely.Since our founding in 2014, we ha=
+ve =E2=80=A6=C2=A0launched and taken public multiple Vants, resulting in an=
+ aggregate ownership stake of $1.1 billion in public Vants as of April 30, =
+2021, based on a $288 million aggregate investment in those Vants.So it dev=
+elops drugs in subsidiaries and takes some of those subsidiaries public, wh=
+ile retaining=C2=A0majority stakes in them. Once upon a time it might have =
+done that with initial public offerings, but now obviously the way to take =
+a pre-revenue=C2=A0drug company public is by merging it with a SPAC, so tha=
+t=E2=80=99s what Roivant did with=C2=A0Immunovant=C2=A0in late 2019.Now Imm=
+unovant is public, Roivant owns 57.5% of it, and apparently Roivant knows s=
+omething that the market does not: =E2=80=9CAs the Issuer=E2=80=99s control=
+ling shareholder, Roivant has received nonpublic information about the Issu=
+er and its lead product candidate,=E2=80=9D says Roivant=E2=80=99s Schedule=
+ 13D. So it wants to buy up the Immunovant shares that it doesn=E2=80=99t o=
+wn, at a premium to their market price. That will require money, perhaps a =
+billion dollars or so, which means going out to investors to raise the mone=
+y.[1] In today=E2=80=99s market, if you are a pharmaceutical company going =
+to investors to raise money, you might as well go to a SPAC: SPACs have lot=
+s of money and are looking to spend it.=C2=A0Obviously IPOing a pre-revenue=
+ drug company and then buying it back a year later because you know somethi=
+ng about its drug candidate that the market doesn=E2=80=99t is itself an in=
+teresting business move! But doing both legs of the deal =E2=80=94=C2=A0IPO=
+ing the company and then buying it back =E2=80=94=C2=A0via SPAC is not=C2=
+=A0especially=C2=A0strange. It=E2=80=99s just that SPACs are the hottest al=
+l-purpose tool of corporate finance right now, or at least they were a few =
+months ago when all this was dreamed up. If you want to raise money to sell=
+ a company, or to buy it back, why not do it with a SPAC?Bitcoin went downH=
+mm,  well:Bitcoin took investors on a wild ride Wednesday, plunging as much=
+ as 29% before cutting the drop in half in a bout of selling that drew atte=
+ntion across Wall Street and social media. ...Bitcoin plunged as much as 29=
+%, wiping out more than $500 billion in value from the coin=E2=80=99s peak =
+market value. It was down 15% to $36,700 as of 10:53 a.m. in New York. It h=
+as erased all the gains it clocked up following Tesla Inc.=E2=80=99s Feb. 8=
+ announcement that it would use corporate cash to buy the asset and accept =
+it as a form of payment for its vehicles. Ethereum, the second-biggest coin=
+, sank more than 40%, while joke token Dogecoin lost 45%. ...Tesla CEO Elon=
+ Musk sparked the wild moves last week. Bitcoin plunged when he announced t=
+he carmaker wouldn=E2=80=99t take it as a payment, but then reversed when h=
+e said the company had no plans to sell its corporate crypto holdings. He s=
+eemed to imply in a tweet Wednesday that Tesla is not selling into the rout=
+.Yeah the way he implied that is by tweeting =E2=80=9CTesla has diamond han=
+ds,=E2=80=9D only with a diamond emoji and a hands emoji instead of the wor=
+ds =E2=80=9Cdiamond=E2=80=9D and =E2=80=9Chands.=E2=80=9D It would be funny=
+ if Tesla was dumping all of its Bitcoins while he was tweeting that. Would=
+ it be fraud? Imagine being the Securities and Exchange Commission and tryi=
+ng to bring that case.[2] =E2=80=9CYour Honor, clearly the diamond emoji fo=
+llowed by the hands emoji meant that Tesla was not selling any of its Bitco=
+in holdings, and market participants would have interpreted it that way.=E2=
+=80=9D Absolutely true! Yet somehow embarrassing to say.=C2=A0Anyway Musk t=
+weeted that at 10:42 a.m. New York time, and in the following half hour Bit=
+coin rallied from a bit under $35,000 to a bit over $37,000. He=E2=80=99s s=
+till got it!  I wrote, ugh, Monday that Musk has the ability to make Bitcoi=
+n go up or down whenever he wants, with his tweets, with no limits on that =
+power. And today there=E2=80=99s a huge Bitcoin crash =E2=80=94=C2=A0caused=
+ in part by Musk=E2=80=99s bad-for-Bitcoin=C2=A0tweeting=C2=A0over the week=
+end, though also by a Chinese regulatory crackdown=C2=A0=E2=80=94=C2=A0and =
+so Musk decided to make Bitcoin go back up.=C2=A0So he tweeted two words an=
+d two emojis and, bang, it went back up.=C2=A0The best estimate  I=E2=80=99=
+ve seen for the price that Tesla paid for its Bitcoins is about $34,700, an=
+d it has about $1.3 billion of Bitcoins at that price. Bitcoin briefly got =
+as low as $30,000 this morning, which would put=C2=A0Tesla down about $180=
+=C2=A0million on its Bitcoin stash =E2=80=94=C2=A0which (unlike any unreali=
+zed gains) Tesla would have  to report as a loss in its quarterly=C2=A0earn=
+ings. It would be kind of=C2=A0weird if Tesla had to report=C2=A0a nine-fig=
+ure loss this quarter caused primarily by its CEO trash-talking one of its =
+assets. Normal CEOs don=E2=80=99t do that. Fortunately Tesla doesn=E2=80=99=
+t have to report a loss like that, because if the price of Bitcoin ever get=
+s below its cost basis, Musk can just make the price go back up again! Like=
+ he just did.Elsewhere, the great thing about decentralized trustless block=
+chain-based digital assets is that when the price goes down  no one can tra=
+de them:The world=E2=80=99s biggest crypto-trading platforms were hit by di=
+sruptions as digital currencies from Bitcoin to Ethereum slid in a collapse=
+ that wiped out billions of dollars in market value.Binance, the world=E2=
+=80=99s biggest cryptocurrency exchange, temporarily disabled Ethereum with=
+drawals, citing network congestion, while Coinbase Global Inc. reported =E2=
+=80=9Cintermittent downtime=E2=80=9D on its platform, before saying it had =
+identified and fixed the issue. Kraken said it=E2=80=99s working to fix som=
+e client disruptions.
+
+
+   =20
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                                Paid Post
+                               =20
+84% of ultra-high-net-worth individuals collect art. It makes sense =E2=80=
+=94contemporary art appreciated 13.6% per year over the last 25 years vs. 8=
+.9% returns for the S&P 500.
+
+Masterworks has fractionalized investments in masterpieces by Basquiat and =
+Banksy. If you're looking for a tangible, non-correlated asset class,=20
+check out Masterworks today.=C2=A0=C2=A0
+
+(See Disclaimer)
+
+                                Masterworks
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+DiscoveryDiscovery Inc. has three classes of stock. There are 162.5 million=
+ shares of Series A stock (ticker DISCA), which has one vote per share. The=
+re are 6.5 million shares of Series B stock (DISCB), which has 10 votes per=
+ share. There are 318.3 million shares of Series C stock (DISCK), which has=
+ no votes.=C2=A0How much more would you pay for voting Series A stock than =
+you=E2=80=99d pay for non-voting Series C stock? I dunno; I am not all that=
+ convinced that voting rights in a public company are particularly valuable=
+. But there is a market answer to this question. Yesterday the Series A=C2=
+=A0closed at $33.31 per share, while the Series C closed at $31.29, for a s=
+pread of $2.02. The median spread in 2021 so far has been $6.10; it got as =
+high as $13.45 on March 16, while yesterday=E2=80=99s $2.02=C2=A0was its lo=
+w point for the year.=C2=A0How much more would you pay for super-voting Ser=
+ies B stock than you=E2=80=99d pay for regular-voting Series A stock? Super=
+ votes are nice, but generally not as nice as they sound. John C. Malone, t=
+he cable-TV mogul and financial-structuring legend who once ran a predecess=
+or of Discovery and is currently on its board of directors, owns 95% of the=
+ Series B stock.=C2=A0He=C2=A0has super-voting power, sure; he owns somethi=
+ng like 4% of the company but has 26.5% of the votes. But if=C2=A0you=C2=A0=
+buy 1,000 shares of Series B stock, that will not give you much say over th=
+e company. In fact, if you buy all 327,099 Series B shares that Malone does=
+n=E2=80=99t own, that will give you only=C2=A03.27 million votes, or about =
+1.4% of the voting power of Discovery=E2=80=99s shares.=C2=A0Super-voting s=
+tock is generally a way to concentrate control in the hands of one or two i=
+nfluential founder types (here, Malone); it is not generally a way for, lik=
+e, an activist hedge fund to efficiently accumulate a lot of voting power i=
+n the open market.=C2=A0Also, as is often true of super-voting shares, the =
+Series B trades much less actively than the Series A (or Series C), so you =
+might expect it to have an illiquidity discount. It=E2=80=99s easier to sel=
+l a lot of Series A stock quickly, which you might find valuable.Nonetheles=
+s yesterday the Series A closed at $33.31 per share, while the Series B clo=
+sed at $78, for a premium of $44.69. In 2021 so far, the spread between the=
+m has been as high as $84.54 =E2=80=94=C2=A0on March 31, when the Series B =
+closed at $128 and the Series A at $43.46 =E2=80=94=C2=A0and as low as nega=
+tive $1.52 in January.It=E2=80=99s weird. One rationale you might have had=
+=C2=A0for paying up for the Series B might have gone like this: If I buy Se=
+ries B stock, I will not have much power over Discovery. But John Malone ow=
+ns a lot of Series B stock and has a lot of power over Discovery, including=
+ some power to push or block a merger. Since he has this power, he will wan=
+t to get a premium for his Series B shares in any merger. Therefore, if Dis=
+covery agrees to a merger, my Series B stock will get paid off much more th=
+an Series A stock will, so I should pay more for it now.I don=E2=80=99t kno=
+w if anyone had this rationale, but if they did it was wrong. Discovery=C2=
+=A0did=C2=A0agree to a merger: On Monday, AT&T Inc. announced that it would=
+ spin off its WarnerMedia content assets and combine them with Discovery in=
+ =E2=80=9Can all-stock, Reverse Morris Trust transaction.=E2=80=9D The new =
+combined company will have one class of stock, and every Discovery share =
+=E2=80=94=C2=A0Series A, B and C =E2=80=94=C2=A0will be exchanged for one u=
+ndifferentiated share of the new company.[3] Malone, in particular, is  not=
+ getting anything extra:=E2=80=9CI am delighted to fully support this trans=
+action, without asking for or receiving a premium for my high vote shares,=
+=E2=80=9D Malone said Tuesday in a statement. =E2=80=9CI believe we are cre=
+ating real value for shareholders and a legacy investment for my grandkids.=
+=E2=80=9DThat=E2=80=99s from an article titled =E2=80=9CCable Billionaire M=
+alone May Take $280 Million Hit on AT&T-Discovery Deal.=E2=80=9D That $280 =
+million is just his 6.2 million high-vote shares times the $44.69 premium a=
+t which they traded yesterday; that premium will go away when the merger cl=
+oses.Why are the Series B shares=C2=A0still trading at a premium? I suppose=
+ the main answer is just that they don=E2=80=99t trade that much; only abou=
+t 17,000 shares traded yesterday, and only about 44,000 traded on Monday wh=
+en the deal was announced. (On Monday, 89.5 million shares of Series A and =
+37.5 million shares of Series C traded.) Only so many people have Series B =
+shares and want to sell them, and because they are so concentrated they are=
+ hard to borrow, so no one is really shorting them. There is not really an =
+arbitrage. Still, somebody=C2=A0is selling, a little bit, which makes sense=
+; you might as well cash in that premium now while it still exists. The que=
+stion is why=C2=A0anyone wants to=C2=A0buy=C2=A0them.In other Discovery/AT&=
+T news, here=E2=80=99s how mergers happen in 2021:AT&T=E2=80=99s negotiatio=
+ns with Discovery heated up earlier this year, when Discovery Chief Executi=
+ve David Zaslav texted [AT&T CEO John]=C2=A0Stankey a series of emojis duri=
+ng the airing of the Pro-Am golf tournament at Pebble Beach, which AT&T spo=
+nsors. Talks continued with face-to-face meetings at Mr. Zaslav=E2=80=99s G=
+reenwich Village townhouse in New York City and meals outdoors.What were th=
+e emojis? Is there an emoji that is generally understood to mean =E2=80=9Cm=
+erger=E2=80=9D? Eventually AT&T and Discovery will file a registration stat=
+ement and proxy for the merger, and there will be a =E2=80=9CBackground of =
+the Merger=E2=80=9D section with an extensive play-by-play of how the deal =
+was conceived and negotiated. Surely this anecdote will be in the backgroun=
+d section. Will it be bland and vague=C2=A0=E2=80=94=C2=A0=E2=80=9Con Feb. =
+11, 2014, Mr. Zaslav contacted Mr. Stankey to propose further discussions a=
+bout a business combination,=E2=80=9D etc. =E2=80=94=C2=A0or will it list t=
+he emojis? Will it print the emojis, or describe them in words? =E2=80=9CMr=
+. Zaslav sent Mr. Stankey a text message consisting of the =E2=80=98emojis=
+=E2=80=99 for man swinging golf club, hand with thumb up, and=C2=A0smiling =
+face, followed by another text message consisting of the =E2=80=98emojis=E2=
+=80=99 for=C2=A0bag with dollar sign on it, bag with dollar sign on it, bag=
+ with dollar sign on it, bag with dollar sign on it,=C2=A0bag with dollar s=
+ign on it,=C2=A0bag with dollar sign on it,=C2=A0bag with dollar sign on it=
+, telephone, question mark.=E2=80=9DElsewhere in M&AA good general rule of =
+thumb is that if you hire a specialist to invest in an=C2=A0asset class, th=
+at person will be good at choosing which particular assets in that class to=
+ buy, but bad at deciding how much money to allocate to that asset class ov=
+erall. If you hire a tech-stocks analyst, she will (you hope) be good at pi=
+cking which tech stocks will outperform other tech stocks. But if the tech =
+sector as a whole is overvalued, she probably will not come to you and say =
+=E2=80=9Cyou should stop investing in tech stocks.=E2=80=9D Her job is inve=
+sting in tech stocks, and the more tech stocks you buy the more important (=
+and better paid) she is, so her bias is to get you to buy more tech stocks.=
+ If she gets you to buy the (relatively) correct tech stocks, but tech stoc=
+ks as a whole underperform, you may be worse off than if you had never hire=
+d a tech specialist.Similarly, some public companies have mergers-and-acqui=
+sitions departments, and others don=E2=80=99t. The trade-off is pretty much=
+:=09If you have an M&A department, the people in it might do a good job of =
+deciding which acquisitions to pursue, how much to pay for them and how to =
+integrate them, but they will want to do a lot of M&A.=09If you don=E2=80=
+=99t have an M&A department, you=E2=80=99ll choose your acquisitions somewh=
+at haphazardly, but you might do=C2=A0fewer=C2=A0of them.One theory of M&A =
+is that acquisitions are=C2=A0corporate finance decisions like any other, a=
+nd that you should try to do ones with positive expected value and avoid on=
+es with negative value. Another theory of M&A is that acquisitions are larg=
+ely a way for chief executive officers to =E2=80=9Cempire build,=E2=80=9D a=
+ggrandizing themselves by making their companies bigger even at the cost of=
+ shareholder value. If you believe the first theory, you might like an M&A =
+department, because it might choose good deals and avoid bad ones. If you b=
+elieve the second theory, you might hate an M&A department, because it migh=
+t just increase the number of deals and encourage the CEO=E2=80=99s empire-=
+building.Anyway here's =E2=80=9CDo Firms with Specialized M&A Staff Make Be=
+tter Acquisitions?=E2=80=9D by=C2=A0Sinan Gokkaya, Xi Liu and=C2=A0Ren=C3=
+=A9=C2=A0Stulz (free SSRN version here):We open the black box of the M&A de=
+cision process by constructing a comprehensive sample of US firms with spec=
+ialized M&A staff. We investigate whether specialized M&A staff improves ac=
+quisition performance or facilitates managerial empire building instead. We=
+ find that firms with specialized M&A staff make better acquisitions when a=
+cquisition performance is measured by stock price reactions to announcement=
+s, long-run stock returns, operating performance, divestitures, and analyst=
+ earnings forecasts. This effect does not hold when the CEO is powerful, ov=
+erconfident, or entrenched. Acquisitions by firms without specialized staff=
+ do not create value, on average. We provide evidence on mechanisms through=
+ which specialized M&A staff improves acquisition performance. For identifi=
+cation, we use the staggered recognition of inevitable disclosure doctrine =
+as a source of exogenous variation in the employment of specialized M&A sta=
+ff.So it=E2=80=99s a bit of both, but mostly M&A departments are good. Also=
+, the reason M&A departments are good is mostly that they are good at picki=
+ng targets, not that they are great at negotiating prices =E2=80=94=C2=A0th=
+ough they=C2=A0do=C2=A0seem to be good at keeping down the costs of investm=
+ent-bank advice:How does specialized M&A staff create value for the acquire=
+r=E2=80=99s shareholders? Our results suggest that specialized M&A staff he=
+lps acquirers identify targets that have higher synergies with the acquirer=
+ as reflected in higher combined announcement returns and improvements in t=
+he combined firm=E2=80=99s abnormal operating performance in the post-acqui=
+sition period. We do not find evidence that specialized M&A staff drives a =
+better bargain for the acquirer in that such acquirers capture more of the =
+combined synergy gains or pay lower takeover premiums. Moreover, while thes=
+e firms do not seem to retain fewer external advisors, we find that they pa=
+y lower advisory fees. The lower fees paid by firms with specialized M&A st=
+aff further suggest that the specialized M&A staff performs some tasks that=
+ otherwise would be performed by the investment bankers.=C2=A0That last par=
+t is not obvious: Maybe if you hire an M&A staff, they will talk to=C2=A0in=
+vestment bankers all day, get used to relying on bankers to do lots of work=
+ for them, and feel a sense of fondness and obligation to the bankers that =
+leads to higher fees, while if the CEO just cuts her own deals she will not=
+ feel particularly beholden to bankers. But, no, empirically, corporate M&A=
+ departments seem to be substitutes for investment bankers, not complements=
+.=C2=A0Shiba InuWell  there=E2=80=99s that answered:Vitalik Buterin, invent=
+or of the Ethereum blockchain, said he won=E2=80=99t get a tax write-off af=
+ter donating more than 50 trillion of the joke coin Shiba Inu to the India =
+Covid Crypto Relief Fund.Because Shiba Inu, a meta play on the ridiculousne=
+ss of Doge Coin, has been incredibly volatile lately, the value of Buterin=
+=E2=80=99s donation has fluctuated wildly. At one point it was worth about =
+$2 billion, then fell to around $800 million.Buterin said in an interview t=
+hat he=E2=80=99s taxed as a citizen of Singapore, whose rules are =E2=80=9C=
+significantly cleaner than in the U.S. or Canada.=E2=80=9D He=E2=80=99s not=
+ eligible for a write-off, he said.=C2=A0I didn=E2=80=99t really think he w=
+ould get a write-off =E2=80=94=C2=A0jurisdiction aside, does he have $1 bil=
+lion of taxable income? =E2=80=94=C2=A0but I did  mention the possibility t=
+he other day.By the way, when we discussed it, I mentioned that I assumed h=
+is basis in the Shiba Inu token=C2=A0was very low or zero =E2=80=94=C2=A0=
+=E2=80=9Cpresumably Buterin didn=E2=80=99t pay very much for it,=E2=80=9D I=
+ said. That was, uh, an understatement. The way Buterin got 50 trillion Shi=
+ba Inu coins was that the developers of Shiba Inu sent them to him, for fre=
+e, unasked-for. From the =E2=80=94=C2=A0I'm sorry =E2=80=94=C2=A0Shiba Inu =
+woof paper:After we finished minting 1 quadrillion tokens, we put half into=
+ Uniswap and threw away the keys. Then, the remaining 50% was =E2=80=9Cburn=
+ed=E2=80=9D to Vitalik Buterin=E2=80=99s wallet, which was the start of our=
+ Army.A footnote adds:Please note that the Shib in VB=E2=80=99s wallet, at =
+the time of this writing, was his #1 HIGHEST valued token, even exceeding t=
+he value of the Ethereum there. This is an incredible accomplishment, and w=
+e are just getting started.As I understand it, inventors of altcoins someti=
+mes =E2=80=9Cburn=E2=80=9D a chunk of those coins to Buterin as a=C2=A0sort=
+ of publicity play. You get to say that Vitalik Buterin owns some of your c=
+oin. You get to inflate the =E2=80=9Cmarket cap=E2=80=9D of your coin: Mark=
+et cap is the trading price times the amount outstanding, and if you put tr=
+illions of coins in the hands of someone who won=E2=80=99t sell or spend th=
+em, you can inflate the multiplier and achieve a huge market cap without mu=
+ch trading. And it is assumed by altcoin developers that Buterin=C2=A0won=
+=E2=80=99t=C2=A0sell the altcoins that get =E2=80=9Cburned=E2=80=9D to him,=
+ because that would undermine his status as a pure-hearted evangelist for E=
+thereum, and because he just seems to be too busy to spend any money.I am s=
+ure that Buterin finds it a bit annoying to receive billions of dollars=E2=
+=80=99=C2=A0worth of random altcoins? A few conclusions:=09I cannot believe=
+ that I typed that sentence; imagine being a person who is annoyed=C2=A0to =
+wake up and find yourself a billion dollars richer. Cryptocurrency economic=
+s are so weird.=09Feel free to burn half of your billion-dollar altcoins to=
+ me instead I guess?=C2=A0=09Buterin=E2=80=99s way of getting around this p=
+roblem =E2=80=94=C2=A0donating=C2=A0the random altcoins to a worthy cause, =
+and letting the charity sell them =E2=80=94=C2=A0is pretty neat.=09That sai=
+d, it doesn=E2=80=99t exactly solve the underlying problem (the problem of =
+people inventing random altcoins and sending him a bunch), because this don=
+ation seems to have been free good publicity for Shiba Inu, even if it did =
+push down the price. Shiba Inu coin is somehow providing hundreds of millio=
+ns of dollars of Covid relief in India; seems good.Accounting rapHere=E2=80=
+=99s an accounting rap. You presumably know how I feel about this. (Bad, I =
+feel bad about this, never do a corporate rap parody.)Things happenAndrea O=
+rcel and Ana Bot=C3=ADn face off in Madrid courtroom over pay row.=C2=A0Ban=
+k of America to Raise Minimum Wage to  $25 Per Hour in Race for Talent. Pos=
+t-Archegos  Hedge Fund Financing Faces Close Scrutiny by BOE. Hertz, the Or=
+iginal Meme Stock, Rewards Its True Believers. Colonial Pipeline=E2=80=99s =
+Computer Network Temporarily  Goes Dark. China Mobile to List in Shanghai a=
+s It Departs NYSE. Hedge Funds Increase Bets on Private Companies. Nvidia t=
+ries to stop its chips being used for crypto mining.=C2=A0Newly Launched Bi=
+tcoin Pizza Brand Doesn=E2=80=99t Accept Bitcoin.If you'd like to get=C2=A0=
+Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=
+=A0subscribe at this link. Or you can subscribe to Money Stuff and other gr=
+eat Bloomberg newsletters here. Thanks![1] To be clear, it will also requir=
+e *disclosure*: If Roivant and Immunovant agree to a deal, they will need t=
+o disclose to Immunovant=E2=80=99s other shareholders any material nonpubli=
+c information that Roivant considered in proposing the deal. There will pro=
+bably always be some information disparity between Roivant =E2=80=94=C2=A0a=
+ drug company that started Immunovant and is the majority shareholder =E2=
+=80=94=C2=A0and the Immunovant public shareholders, but if there is big mat=
+erial news then they=E2=80=99ll have to disclose it before closing the deal=
+.[2] Bitcoin is not a security and it would have to be a case about Tesla s=
+tock, which seems tricky, but never mind, never mind.[3] This is discussed =
+on=C2=A0page 13 of the investor call transcript.
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce84ns.5vfn/9f537120.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_23939924_1177839585.1621443058738
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23893912.274019/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBb8c=
+9df0c"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"8">
+<tr>
+<td width=3D"206" align=3D"center">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23893912.274019/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB8dcda13=
+3">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">SPAC SPAC SPAC all right</h2><p style=3D"margin:=
+ 16px 0;">Every time I write about special purpose acquisition companies so=
+meone emails me to be like =E2=80=9CI am going to launch a SPAC of SPACs,=
+=E2=80=9D and it is always pretty=C2=A0half-baked. A SPAC is a blank-check =
+company that raises money to merge with another company, and that is a meta=
+ enough idea that people want to make it more meta. =E2=80=9CA SPAC that ra=
+ises money to buy SPACs=E2=80=9D=C2=A0<em>is=C2=A0</em>more meta, sure, but=
+ it doesn=E2=80=99t make any sense. A SPAC is a tool, it=E2=80=99s a partic=
+ular way to raise money to take companies public; multiplying the abstracti=
+on doesn=E2=80=99t add anything.=C2=A0But <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/23893912.274019/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjEtMDUtMTkvYS1zcGFjLXdpbGwtYnV5LWJhY2staXRzLW93bi1zcG=
+FjLWFuZC1wYXktYS1zdGFnZ2VyaW5nLXByZW1pdW0/607f07ceef4b8524a319a23cBacc729b1=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> here=E2=
+=80=99s this</a>:</p><blockquote><p style=3D"margin: 16px 0;">It=E2=80=99s =
+the latest twist in the world of blank-check mergers: A company plans to go=
+ public with a SPAC and use it to buy back an affiliate that it took public=
+ using another SPAC.</p><p style=3D"margin: 16px 0;">This circular scenario=
+ revolves around a drugmaker called=C2=A0Roivant Sciences Ltd., which wants=
+ to merge with a special-purpose acquisition company and then take over a S=
+PAC that acquired=C2=A0Immunovant Inc.=C2=A0from Roivant less than two year=
+s ago.</p><p style=3D"margin: 16px 0;">What=E2=80=99s more, Roivant says it=
+ knows something that everyone else doesn=E2=80=99t about its former unit, =
+and it=E2=80=99s willing to pay a premium for the shares -- perhaps as much=
+ as 70% by one estimate.</p><p style=3D"margin: 16px 0;">A SPAC-on-SPAC dea=
+l is such an oddity that people who follow shell companies can=E2=80=99t re=
+member it happening before, or anything like Roivant=E2=80=99s head-spinnin=
+g version. =E2=80=9CIn the years I=E2=80=99ve been analyzing SPACs, I=E2=80=
+=99ve never seen a transaction like this,=E2=80=9D said=C2=A0Neil Danics, f=
+ounder of SPAC Analytics in Toronto and who has been providing research on =
+the industry since 2007. =E2=80=A6</p><p style=3D"margin: 16px 0;">=E2=80=
+=9CIf you can raise a bunch of money with a SPAC and then use that relative=
+ly cheap cash to buy a company at a valuation they find attractive -- that =
+seems like a rational approach,=E2=80=9D says Nikolai Roussanov, a finance =
+professor at the University of Pennsylvania=E2=80=99s Wharton School.</p><p=
+ style=3D"margin: 16px 0;">The plan goes like this: Roivant has proposed to=
+ be acquired by a SPAC called Montes Archimedes Acquisition Corp. in a comb=
+ination valued at about $7.3 billion, according to filings. Roivant would b=
+e the surviving entity, and in turn, would offer a mix of stock and cash to=
+ buy up shares that it doesn=E2=80=99t already own in Immunovant, an early-=
+stage drugmaker. Roivant spun that off in 2019 into a SPAC called Health Sc=
+iences Acquisitions Corp., in return for shares and other considerations in=
+itially valued at $395 million.</p><p style=3D"margin: 16px 0;">The reason =
+Roivant is willing to pay up isn=E2=80=99t immediately clear. Human trials =
+on Immunovant=E2=80=99s main prospect, a monoclonal antibody injection aime=
+d at ailments such as myasthenia gravis and thyroid eye disease, were halte=
+d February 2 because of concern about potential side effects.</p></blockquo=
+te><p style=3D"margin: 16px 0;">The SPAC-on-SPAC angle is funny, but I am n=
+ot sure one should overemphasize it. Nothing really turns on any of this be=
+ing a SPAC. The story is that Roivant is a company that operates as a sort =
+of pharmaceutical=C2=A0conglomerate/incubator. <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/23893912.274019/aHR0cHM6Ly93d3cuc2VjLmdvdi9Bcm=
+NoaXZlcy9lZGdhci9kYXRhLzE2MzUwODgvMDAwMTE5MzEyNTIxMTYyMTkxL2Q2NTA2MmRzNC5od=
+G0/607f07ceef4b8524a319a23cB3069d9b3" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">It says</a>:</p><blockquote><p style=3D"margin:=
+ 16px 0;">We develop drug candidates in subsidiary companies we call =E2=80=
+=9CVants=E2=80=9D =E2=80=A6.=C2=A0Our Vants continue to benefit from the su=
+pport of the Roivant platform and technologies that are built to address in=
+efficiencies in the drug discovery, development and commercialization proce=
+ss. =E2=80=A6=C2=A0</p><p style=3D"margin: 16px 0;">The Vant model also ena=
+bles a modular approach to the monetization of therapies we advance through=
+ development, allowing us to pursue commercialization of some products inde=
+pendently, while selectively establishing partnerships for other Vants or d=
+ivesting of the Vants entirely.</p><p style=3D"margin: 16px 0;">Since our f=
+ounding in 2014, we have =E2=80=A6=C2=A0launched and taken public multiple =
+Vants, resulting in an aggregate ownership stake of $1.1 billion in public =
+Vants as of April 30, 2021, based on a $288 million aggregate investment in=
+ those Vants.</p></blockquote><p style=3D"margin: 16px 0;">So it develops d=
+rugs in subsidiaries and takes some of those subsidiaries public, while ret=
+aining=C2=A0majority stakes in them. Once upon a time it might have done th=
+at with initial public offerings, but now obviously the way to take a pre-r=
+evenue=C2=A0drug company public is by merging it with a SPAC, so that=E2=80=
+=99s what Roivant <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+23893912.274019/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE3NjQ=
+wMTMvMDAwMTE5MzEyNTE5MzIxMTQ3L2Q4MzkzODJkOGsuaHRt/607f07ceef4b8524a319a23cB=
+9fabc1a4" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+did</a> with=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/=
+23893912.274019/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE3NjQ=
+wMTMvMDAwMTIxMzkwMDE5MDI0OTM2L2RlZm0xNGFfaGVhbHRoc2NpZW5jZXMuaHRt/607f07cee=
+f4b8524a319a23cB8c4c6202" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">Immunovant</a>=C2=A0in late 2019.</p><p style=3D"margin: 16=
+px 0;">Now Immunovant is public, Roivant owns 57.5% of it, and apparently R=
+oivant knows something that the market does not: =E2=80=9CAs the Issuer=E2=
+=80=99s controlling shareholder, Roivant has received nonpublic information=
+ about the Issuer and its lead product candidate,=E2=80=9D says Roivant=E2=
+=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/23893912.2=
+74019/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE2MzUwODgvMDAwM=
+TEwNDY1OTIxMDMyOTY3L3RtMjE4OTgyZDFfc2MxM2RhLmh0bQ/607f07ceef4b8524a319a23cB=
+136dbf8b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Schedule 13D</a>. So it wants to buy up the Immunovant shares that it doesn=
+=E2=80=99t own, at a premium to their market price. That will require money=
+, perhaps a billion dollars or so, which means going out to investors to ra=
+ise the money.[1] In today=E2=80=99s market, if you are a pharmaceutical co=
+mpany going to investors to raise money, you might as well go to a SPAC: SP=
+ACs have lots of money and are looking to spend it.=C2=A0</p><p style=3D"ma=
+rgin: 16px 0;">Obviously IPOing a pre-revenue drug company and then buying =
+it back a year later because you know something about its drug candidate th=
+at the market doesn=E2=80=99t is itself an interesting business move! But d=
+oing both legs of the deal =E2=80=94=C2=A0IPOing the company and then buyin=
+g it back =E2=80=94=C2=A0via SPAC is not=C2=A0<em>especially=C2=A0</em>stra=
+nge. It=E2=80=99s just that SPACs are the hottest all-purpose tool of corpo=
+rate finance right now, or at least they were a few months ago when all thi=
+s was dreamed up. If you want to raise money to sell a company, or to buy i=
+t back, why not do it with a SPAC?</p><h2 style=3D"font-weight: bold; font-=
+family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spaci=
+ng: -1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style: d=
+otted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">Bitcoin we=
+nt down</h2><p style=3D"margin: 16px 0;">Hmm, <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/23893912.274019/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTkvYml0Y29pbi1lcmFzZXMtYWxsLWdhaW5zLXNpbm=
+NlLWVsb24tbXVzay1zLWluaXRpYWwtYmlnLWVtYnJhY2U/607f07ceef4b8524a319a23cB3ffb=
+a814" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> wel=
+l</a>:</p><blockquote><p style=3D"margin: 16px 0;">Bitcoin took investors o=
+n a wild ride Wednesday, plunging as much as 29% before cutting the drop in=
+ half in a bout of selling that drew attention across Wall Street and socia=
+l media. ...</p><p style=3D"margin: 16px 0;">Bitcoin plunged as much as 29%=
+, wiping out more than $500 billion in value from the coin=E2=80=99s peak m=
+arket value. It was down 15% to $36,700 as of 10:53 a.m. in New York. It ha=
+s erased all the gains it clocked up following Tesla Inc.=E2=80=99s Feb. 8 =
+announcement that it would use corporate cash to buy the asset and accept i=
+t as a form of payment for its vehicles. Ethereum, the second-biggest coin,=
+ sank more than 40%, while joke token Dogecoin lost 45%. ...</p><p style=3D=
+"margin: 16px 0;">Tesla CEO Elon Musk sparked the wild moves last week. Bit=
+coin plunged when he announced the carmaker wouldn=E2=80=99t take it as a p=
+ayment, but then reversed when he said the company had no plans to sell its=
+ corporate crypto holdings. He seemed to imply in a tweet Wednesday that Te=
+sla is not selling into the rout.</p></blockquote><p style=3D"margin: 16px =
+0;">Yeah the way he implied that is <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/23893912.274019/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zd=
+GF0dXMvMTM5NTAyNzE0NzE2MTQ4OTQxMg/607f07ceef4b8524a319a23cB8943919a" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">by tweeting</a> =
+=E2=80=9CTesla has diamond hands,=E2=80=9D only with a diamond emoji and a =
+hands emoji instead of the words =E2=80=9Cdiamond=E2=80=9D and =E2=80=9Chan=
+ds.=E2=80=9D It would be funny if Tesla was dumping all of its Bitcoins whi=
+le he was tweeting that. Would it be fraud? Imagine being the Securities an=
+d Exchange Commission and trying to bring that case.[2] =E2=80=9CYour Honor=
+, clearly the diamond emoji followed by the hands emoji meant that Tesla wa=
+s not selling any of its Bitcoin holdings, and market participants would ha=
+ve interpreted it that way.=E2=80=9D Absolutely true! Yet somehow embarrass=
+ing to say.=C2=A0</p><p style=3D"margin: 16px 0;">Anyway Musk tweeted that =
+at 10:42 a.m. New York time, and in the following half hour Bitcoin rallied=
+ from a bit under $35,000 to a bit over $37,000. He=E2=80=99s still got it!=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/23893912.274019/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTcvZWxv=
+bi1tdXNrLWNvbnRyb2xzLWJpdGNvaW4tYW5kLWRvZ2Vjb2luLXByaWNlcy13aXRoLXB1cmUtbWF=
+naWM/607f07ceef4b8524a319a23cB67bd442e" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> I wrote</a>, ugh, Monday that Musk has the a=
+bility to make Bitcoin go up or down whenever he wants, with his tweets, wi=
+th no limits on that power. And today there=E2=80=99s a huge Bitcoin crash =
+=E2=80=94=C2=A0caused in part by Musk=E2=80=99s bad-for-Bitcoin=C2=A0<a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/23893912.274019/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTcvZWxvbi1tdXN=
+rLWNvbnRyb2xzLWJpdGNvaW4tYW5kLWRvZ2Vjb2luLXByaWNlcy13aXRoLXB1cmUtbWFnaWM/60=
+7f07ceef4b8524a319a23cC67bd442e" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">tweeting=C2=A0over the weekend</a>, though also by a=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/23893912.274019/a=
+HR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYzRjMjliYjMtYzhlZS00NTRjLWEyZGQtZWFjOWY2=
+NDQwMDdm/607f07ceef4b8524a319a23cBa08984ff" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Chinese regulatory crackdown</a>=C2=A0=E2=
+=80=94=C2=A0and so Musk decided to make Bitcoin go back up.=C2=A0So he twee=
+ted two words and two emojis and, bang, it went back up.=C2=A0</p><p style=
+=3D"margin: 16px 0;">The best estimate <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/23893912.274019/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjEtMDQtMjgvZWxvbi1tdXNrLW1hZGUtdGVzbGEtc29tZS1tb25le=
+S1vbi1iaXRjb2lu/607f07ceef4b8524a319a23cB4da7d7ef" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> I=E2=80=99ve seen</a> for the pri=
+ce that Tesla paid for its Bitcoins <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/23893912.274019/aHR0cHM6Ly9mb3J0dW5lLmNvbS8yMDIxLzA0LzI3L=
+3Rlc2xhLXRzbGEtYml0Y29pbi1idGMtYmV0LWhvdy1tdWNoLWhhcy1pdC1tYWRlLWVsb24tbXVz=
+ay1wcm9maXRzLw/607f07ceef4b8524a319a23cB33ea8e4a" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">is about $34,700</a>, and it has ab=
+out $1.3 billion of Bitcoins at that price. Bitcoin briefly got as low as $=
+30,000 this morning, which would put=C2=A0Tesla down about $180=C2=A0millio=
+n on its Bitcoin stash =E2=80=94=C2=A0which (unlike any unrealized gains) T=
+esla would have <a href=3D"https://link.mail.bloombergbusiness.com/click/23=
+893912.274019/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+jEtMDItMDgvZWxvbi1tdXNrLXdvcmtzLWhpcy1tYWdpYy1vbi1kb2dlY29pbi1hbmQtYml0Y29p=
+bg/607f07ceef4b8524a319a23cBd6b2b83f" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;"> to report as a loss in its quarterly=C2=A0earn=
+ings</a>. It would be kind of=C2=A0weird if Tesla had to report=C2=A0a nine=
+-figure loss this quarter caused primarily by its CEO trash-talking one of =
+its assets. Normal CEOs don=E2=80=99t do that. Fortunately Tesla doesn=E2=
+=80=99t have to report a loss like that, because if the price of Bitcoin ev=
+er gets below its cost basis, Musk can just make the price go back up again=
+! Like he just did.</p><p style=3D"margin: 16px 0;">Elsewhere, the great th=
+ing about decentralized trustless blockchain-based digital assets is that w=
+hen the price goes down <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/23893912.274019/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzL=
+zIwMjEtMDUtMTkvd29ybGQtcy10b3AtY3J5cHRvLXBsYXRmb3Jtcy1kaXNydXB0ZWQtYXMtYml0=
+Y29pbi1ldGhlci10dW1ibGU/607f07ceef4b8524a319a23cB2aaed73a" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;"> no one can trade them</a>=
+:</p><blockquote><p style=3D"margin: 16px 0;">The world=E2=80=99s biggest c=
+rypto-trading platforms were hit by disruptions as digital currencies from =
+Bitcoin to Ethereum slid in a collapse that wiped out billions of dollars i=
+n market value.</p><p style=3D"margin: 16px 0;">Binance, the world=E2=80=99=
+s biggest cryptocurrency exchange, temporarily disabled Ethereum withdrawal=
+s, citing network congestion, while Coinbase Global Inc. reported =E2=80=9C=
+intermittent downtime=E2=80=9D on its platform, before saying it had identi=
+fied and fixed the issue. Kraken said it=E2=80=99s working to fix some clie=
+nt disruptions.</p></blockquote>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 14px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Paid Post</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;"><strong>84% of ultra-high-net-worth individu=
+als collect art. It makes sense =E2=80=94contemporary art appreciated 13.6%=
+ per year over the last 25 years vs. 8.9% returns for the S&amp;P 500.</str=
+ong>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23893912.274019/aH=
+R0cHM6Ly93d3cubWFzdGVyd29ya3MuaW8vP3V0bV9zb3VyY2U9bW9uZXlzdHVmZiZ1dG1fbWVka=
+XVtPW5ld3NsZXR0ZXImdXRtX2NhbXBhaWduPTMtMjItMjE/607f07ceef4b8524a319a23cB3ef=
+bebb2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: underline;">
+Masterworks</a> has fractionalized investments in masterpieces by Basquiat =
+and Banksy. If you're looking for a tangible, non-correlated asset class, <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/23893912.274019/aHR=
+0cHM6Ly93d3cubWFzdGVyd29ya3MuaW8vP3V0bV9zb3VyY2U9bW9uZXlzdHVmZiZ1dG1fbWVkaX=
+VtPW5ld3NsZXR0ZXImdXRtX2NhbXBhaWduPTMtMjItMjE/607f07ceef4b8524a319a23cC3efb=
+ebb2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: underline;">
+check out Masterworks today</a>.=C2=A0=C2=A0</p>
+<p style=3D"margin: 10px 0px;">(See <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/23893912.274019/aHR0cHM6Ly93d3cubWFzdGVyd29ya3MuaW8vZGlzY=
+2xhaW1lcj91dG1fc291cmNlPW1vbmV5c3R1ZmYmdXRtX21lZGl1bT1uZXdzbGV0dGVyJnV0bV9j=
+YW1wYWlnbj0zLTIyLTIx/607f07ceef4b8524a319a23cBe5a2080b" style=3D"color: #00=
+0000; text-decoration: underline;">Disclaimer</a>)</p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Masterworks</p><=
+/div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">Discovery</h2><p style=3D"margin: 16px 0;">Disco=
+very Inc. has <a href=3D"https://link.mail.bloombergbusiness.com/click/2389=
+3912.274019/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MzcxMDc=
+vMDAwMTQzNzEwNzIxMDAwMDE4L2Rpc2NhLTIwMjAxMjMxLmh0bQ/607f07ceef4b8524a319a23=
+cBba3309d7" itemprop=3D"StoryLink" itemscope=3D"itemscope" title=3D"see cov=
+er page and page 101" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">three classes of stock</a>. There a=
+re 162.5 million shares of Series A stock (ticker DISCA), which has one vot=
+e per share. There are 6.5 million shares of Series B stock (DISCB), which =
+has 10 votes per share. There are 318.3 million shares of Series C stock (D=
+ISCK), which has no votes.=C2=A0</p><p style=3D"margin: 16px 0;">How much m=
+ore would you pay for voting Series A stock than you=E2=80=99d pay for non-=
+voting Series C stock? I dunno; I am not all that convinced that voting rig=
+hts in a public company are particularly valuable. But there is a market an=
+swer to this question. Yesterday the Series A=C2=A0closed at $33.31 per sha=
+re, while the Series C closed at $31.29, for a spread of $2.02. The median =
+spread in 2021 so far has been $6.10; it got as high as $13.45 on March 16,=
+ while yesterday=E2=80=99s $2.02=C2=A0was its low point for the year.=C2=A0=
+</p><p style=3D"margin: 16px 0;">How much more would you pay for super-voti=
+ng Series B stock than you=E2=80=99d pay for regular-voting Series A stock?=
+ Super votes are nice, but generally not as nice as they sound. John C. Mal=
+one, the cable-TV mogul and financial-structuring legend who once ran a pre=
+decessor of Discovery and is currently on its board of directors, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/23893912.274019/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MzcxMDcvMDAwMTIwNjc3NDIxMDAx=
+MzQ2L2Rpc2NhMzg1Njk2MS1kZWYxNGEuaHRtI2QzODU2OTZhMDM2/607f07ceef4b8524a319a2=
+3cB114bce9c" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">owns 95%</a> of the Series B stock.=C2=A0<em>He=C2=A0</em>has super-voti=
+ng power, sure; he owns something like 4% of the company but has 26.5% of t=
+he votes. But if=C2=A0<em>you=C2=A0</em>buy 1,000 shares of Series B stock,=
+ that will not give you much say over the company. In fact, if you buy all =
+327,099 Series B shares that Malone doesn=E2=80=99t own, that will give you=
+ only=C2=A03.27 million votes, or about 1.4% of the voting power of Discove=
+ry=E2=80=99s shares.=C2=A0Super-voting stock is generally a way to concentr=
+ate control in the hands of one or two influential founder types (here, Mal=
+one); it is not generally a way for, like, an activist hedge fund to effici=
+ently accumulate a lot of voting power in the open market.=C2=A0</p><p styl=
+e=3D"margin: 16px 0;">Also, as is often true of super-voting shares, the Se=
+ries B trades much less actively than the Series A (or Series C), so you mi=
+ght expect it to have an illiquidity discount. It=E2=80=99s easier to sell =
+a lot of Series A stock quickly, which you might find valuable.</p><p style=
+=3D"margin: 16px 0;">Nonetheless yesterday the Series A closed at $33.31 pe=
+r share, while the Series B closed at $78, for a premium of $44.69. In 2021=
+ so far, the spread between them has been as high as $84.54 =E2=80=94=C2=A0=
+on March 31, when the Series B closed at $128 and the Series A at $43.46 =
+=E2=80=94=C2=A0and as low as negative $1.52 in January.</p><p style=3D"marg=
+in: 16px 0;">It=E2=80=99s weird. One rationale you might have had=C2=A0for =
+paying up for the Series B might have gone like this: If I buy Series B sto=
+ck, I will not have much power over Discovery. But John Malone owns a lot o=
+f Series B stock and has a lot of power over Discovery, including some powe=
+r to push or block a merger. Since he has this power, he will want to get a=
+ premium for his Series B shares in any merger. Therefore, if Discovery agr=
+ees to a merger, my Series B stock will get paid off much more than Series =
+A stock will, so I should pay more for it now.</p><p style=3D"margin: 16px =
+0;">I don=E2=80=99t know if anyone had this rationale, but if they did it w=
+as wrong. Discovery=C2=A0<em>did=C2=A0</em>agree to a merger: On Monday, <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/23893912.274019/aHR0=
+cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MzcxMDcvMDAwMTE5MzEyNTI=
+xMTYyNzI3L2QyMDQ5NjlkZXg5OTEuaHRt/607f07ceef4b8524a319a23cBd5c60a21" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">AT&amp;T Inc. an=
+nounced</a> that it would spin off its WarnerMedia content assets and combi=
+ne them with Discovery in =E2=80=9Can all-stock, Reverse Morris Trust trans=
+action.=E2=80=9D The new combined company will have one class of stock, and=
+ every Discovery share =E2=80=94=C2=A0Series A, B and C =E2=80=94=C2=A0will=
+ be exchanged for one undifferentiated share of the new company.[3] Malone,=
+ in particular, is <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/23893912.274019/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMj=
+EtMDUtMTgvY2FibGUtYmlsbGlvbmFpcmUtbWFsb25lLXRvLXRha2UtMjgwLW1pbGxpb24taGl0L=
+W9uLWRpc2NvdmVyeQ/607f07ceef4b8524a319a23cBf13f5711" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> not getting anything extra</a>:=
+</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CI am delighted to ful=
+ly support this transaction, without asking for or receiving a premium for =
+my high vote shares,=E2=80=9D Malone said Tuesday in a statement. =E2=80=9C=
+I believe we are creating real value for shareholders and a legacy investme=
+nt for my grandkids.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">=
+That=E2=80=99s from an article titled =E2=80=9CCable Billionaire Malone May=
+ Take $280 Million Hit on AT&amp;T-Discovery Deal.=E2=80=9D That $280 milli=
+on is just his 6.2 million high-vote shares times the $44.69 premium at whi=
+ch they traded yesterday; that premium will go away when the merger closes.=
+</p><p style=3D"margin: 16px 0;">Why are the Series B shares=C2=A0<em>still=
+ </em>trading at a premium? I suppose the main answer is just that they don=
+=E2=80=99t trade that much; only about 17,000 shares traded yesterday, and =
+only about 44,000 traded on Monday when the deal was announced. (On Monday,=
+ 89.5 million shares of Series A and 37.5 million shares of Series C traded=
+.) Only so many people have Series B shares and want to sell them, and beca=
+use they are so concentrated they are hard to borrow, so no one is really s=
+horting them. There is not really an arbitrage. Still, <em>somebody=C2=A0</=
+em>is selling, a little bit, which makes sense; you might as well cash in t=
+hat premium now while it still exists. The question is why=C2=A0anyone want=
+s to=C2=A0<em>buy=C2=A0</em>them.</p><p style=3D"margin: 16px 0;">In other =
+Discovery/AT&amp;T news, <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23893912.274019/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hdHQtaG9sbHl3=
+b29kLWVuZGluZy1lcmFzZWQtYmlsbGlvbnMtdmFsdWUtaGJvLWRpc2NvdmVyeS13YXJuZXItMTE=
+2MjEyOTcyNzk/607f07ceef4b8524a319a23cB500205c8" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">here=E2=80=99s how mergers happen in =
+2021</a>:</p><blockquote><p style=3D"margin: 16px 0;">AT&amp;T=E2=80=99s ne=
+gotiations with Discovery heated up earlier this year, when Discovery Chief=
+ Executive David Zaslav texted [AT&amp;T CEO John]=C2=A0Stankey a series of=
+ emojis during the airing of the Pro-Am golf tournament at Pebble Beach, wh=
+ich AT&amp;T sponsors. Talks continued with face-to-face meetings at Mr. Za=
+slav=E2=80=99s Greenwich Village townhouse in New York City and meals outdo=
+ors.</p></blockquote><p style=3D"margin: 16px 0;"><em>What were the emojis?=
+ </em>Is there an emoji that is generally understood to mean =E2=80=9Cmerge=
+r=E2=80=9D? Eventually AT&amp;T and Discovery will file a registration stat=
+ement and proxy for the merger, and there will be a =E2=80=9CBackground of =
+the Merger=E2=80=9D section with an extensive play-by-play of how the deal =
+was conceived and negotiated. Surely this anecdote will be in the backgroun=
+d section. Will it be bland and vague=C2=A0=E2=80=94=C2=A0=E2=80=9Con Feb. =
+11, 2014, Mr. Zaslav contacted Mr. Stankey to propose further discussions a=
+bout a business combination,=E2=80=9D etc. =E2=80=94=C2=A0or will it list t=
+he emojis? Will it print the emojis, or describe them in words? =E2=80=9CMr=
+. Zaslav sent Mr. Stankey a text message consisting of the =E2=80=98emojis=
+=E2=80=99 for man swinging golf club, hand with thumb up, and=C2=A0smiling =
+face, followed by another text message consisting of the =E2=80=98emojis=E2=
+=80=99 for=C2=A0bag with dollar sign on it, bag with dollar sign on it, bag=
+ with dollar sign on it, bag with dollar sign on it,=C2=A0bag with dollar s=
+ign on it,=C2=A0bag with dollar sign on it,=C2=A0bag with dollar sign on it=
+, telephone, question mark.=E2=80=9D</p><h2 style=3D"font-weight: bold; fon=
+t-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spa=
+cing: -1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style:=
+ dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">Elsewher=
+e in M&amp;A</h2><p style=3D"margin: 16px 0;">A good general rule of thumb =
+is that if you hire a specialist to invest in an=C2=A0asset class, that per=
+son will be good at choosing which particular assets in that class to buy, =
+but bad at deciding how much money to allocate to that asset class overall.=
+ If you hire a tech-stocks analyst, she will (you hope) be good at picking =
+which tech stocks will outperform other tech stocks. But if the tech sector=
+ as a whole is overvalued, she probably will not come to you and say =E2=80=
+=9Cyou should stop investing in tech stocks.=E2=80=9D Her job is investing =
+in tech stocks, and the more tech stocks you buy the more important (and be=
+tter paid) she is, so her bias is to get you to buy more tech stocks. If sh=
+e gets you to buy the (relatively) correct tech stocks, but tech stocks as =
+a whole underperform, you may be worse off than if you had never hired a te=
+ch specialist.</p><p style=3D"margin: 16px 0;">Similarly, some public compa=
+nies have mergers-and-acquisitions departments, and others don=E2=80=99t. T=
+he trade-off is pretty much:</p><ol style=3D"list-style-type: decimal; padd=
+ing-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">If yo=
+u have an M&amp;A department, the people in it might do a good job of decid=
+ing which acquisitions to pursue, how much to pay for them and how to integ=
+rate them, but they will want to do a lot of M&amp;A.</li>=09<li style=3D"m=
+argin-bottom: 5px;">If you don=E2=80=99t have an M&amp;A department, you=E2=
+=80=99ll choose your acquisitions somewhat haphazardly, but you might do=C2=
+=A0<em>fewer=C2=A0</em>of them.</li></ol><p style=3D"margin: 16px 0;">One t=
+heory of M&amp;A is that acquisitions are=C2=A0corporate finance decisions =
+like any other, and that you should try to do ones with positive expected v=
+alue and avoid ones with negative value. Another theory of M&amp;A is that =
+acquisitions are largely a way for chief executive officers to =E2=80=9Cemp=
+ire build,=E2=80=9D aggrandizing themselves by making their companies bigge=
+r even at the cost of shareholder value. If you believe the first theory, y=
+ou might like an M&amp;A department, because it might choose good deals and=
+ avoid bad ones. If you believe the second theory, you might hate an M&amp;=
+A department, because it might just increase the number of deals and encour=
+age the CEO=E2=80=99s empire-building.</p><p style=3D"margin: 16px 0;">Anyw=
+ay here's =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click=
+/23893912.274019/aHR0cHM6Ly93d3cubmJlci5vcmcvcGFwZXJzL3cyODc3OA/607f07ceef4=
+b8524a319a23cBbafc8107" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">Do Firms with Specialized M&amp;A Staff Make Better Acquisiti=
+ons?</a>=E2=80=9D by=C2=A0Sinan Gokkaya, Xi Liu and=C2=A0Ren=C3=A9=C2=A0Stu=
+lz (free SSRN version <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/23893912.274019/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2F=
+ic3RyYWN0X2lkPTM4NDAyMzg/607f07ceef4b8524a319a23cBe0c6ff9e" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">here</a>):</p><blockquote=
+><p style=3D"margin: 16px 0;">We open the black box of the M&amp;A decision=
+ process by constructing a comprehensive sample of US firms with specialize=
+d M&amp;A staff. We investigate whether specialized M&amp;A staff improves =
+acquisition performance or facilitates managerial empire building instead. =
+We find that firms with specialized M&amp;A staff make better acquisitions =
+when acquisition performance is measured by stock price reactions to announ=
+cements, long-run stock returns, operating performance, divestitures, and a=
+nalyst earnings forecasts. This effect does not hold when the CEO is powerf=
+ul, overconfident, or entrenched. Acquisitions by firms without specialized=
+ staff do not create value, on average. We provide evidence on mechanisms t=
+hrough which specialized M&amp;A staff improves acquisition performance. Fo=
+r identification, we use the staggered recognition of inevitable disclosure=
+ doctrine as a source of exogenous variation in the employment of specializ=
+ed M&amp;A staff.</p></blockquote><p style=3D"margin: 16px 0;">So it=E2=80=
+=99s a bit of both, but mostly M&amp;A departments are good. Also, the reas=
+on M&amp;A departments are good is mostly that they are good at picking tar=
+gets, not that they are great at negotiating prices =E2=80=94=C2=A0though t=
+hey=C2=A0<em>do=C2=A0</em>seem to be good at keeping down the costs of inve=
+stment-bank advice:</p><blockquote><p style=3D"margin: 16px 0;">How does sp=
+ecialized M&amp;A staff create value for the acquirer=E2=80=99s shareholder=
+s? Our results suggest that specialized M&amp;A staff helps acquirers ident=
+ify targets that have higher synergies with the acquirer as reflected in hi=
+gher combined announcement returns and improvements in the combined firm=E2=
+=80=99s abnormal operating performance in the post-acquisition period. We d=
+o not find evidence that specialized M&amp;A staff drives a better bargain =
+for the acquirer in that such acquirers capture more of the combined synerg=
+y gains or pay lower takeover premiums. Moreover, while these firms do not =
+seem to retain fewer external advisors, we find that they pay lower advisor=
+y fees. The lower fees paid by firms with specialized M&amp;A staff further=
+ suggest that the specialized M&amp;A staff performs some tasks that otherw=
+ise would be performed by the investment bankers.=C2=A0</p></blockquote><p =
+style=3D"margin: 16px 0;">That last part is not obvious: Maybe if you hire =
+an M&amp;A staff, they will talk to=C2=A0investment bankers all day, get us=
+ed to relying on bankers to do lots of work for them, and feel a sense of f=
+ondness and obligation to the bankers that leads to higher fees, while if t=
+he CEO just cuts her own deals she will not feel particularly beholden to b=
+ankers. But, no, empirically, corporate M&amp;A departments seem to be subs=
+titutes for investment bankers, not complements.=C2=A0</p><h2 style=3D"font=
+-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans=
+-serif; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; bo=
+rder-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bo=
+ttom: 0;">Shiba Inu</h2><p style=3D"margin: 16px 0;">Well <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/23893912.274019/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTgvZXRoZXJldW0taW52ZW50b3Itc2=
+F5cy1oZS13b24tdC1nZXQtc2hpYmEtaW51LXRheC13cml0ZS1vZmY/607f07ceef4b8524a319a=
+23cB786d0c6a" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> there=E2=80=99s that answered</a>:</p><blockquote><p style=3D"margin: =
+16px 0;">Vitalik Buterin, inventor of the Ethereum blockchain, said he won=
+=E2=80=99t get a tax write-off after donating more than 50 trillion of the =
+joke coin Shiba Inu to the India Covid Crypto Relief Fund.</p><p style=3D"m=
+argin: 16px 0;">Because Shiba Inu, a meta play on the ridiculousness of Dog=
+e Coin, has been incredibly volatile lately, the value of Buterin=E2=80=99s=
+ donation has fluctuated wildly. At one point it was worth about $2 billion=
+, then fell to around $800 million.</p><p style=3D"margin: 16px 0;">Buterin=
+ said in an interview that he=E2=80=99s taxed as a citizen of Singapore, wh=
+ose rules are =E2=80=9Csignificantly cleaner than in the U.S. or Canada.=E2=
+=80=9D He=E2=80=99s not eligible for a write-off, he said.=C2=A0</p></block=
+quote><p style=3D"margin: 16px 0;">I didn=E2=80=99t really think he would g=
+et a write-off =E2=80=94=C2=A0jurisdiction aside, does he have $1 billion o=
+f taxable income? =E2=80=94=C2=A0but I did <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/23893912.274019/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTMvZWxvbi1tdXNrLWdvdC1ib3JlZC1vZi1iaXRjb=
+2lu/607f07ceef4b8524a319a23cBd7610bb2" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;"> mention the possibility</a> the other day.</p=
+><p style=3D"margin: 16px 0;">By the way, when we discussed it, I mentioned=
+ that I assumed his basis in the Shiba Inu token=C2=A0was very low or zero =
+=E2=80=94=C2=A0=E2=80=9Cpresumably Buterin didn=E2=80=99t pay very much for=
+ it,=E2=80=9D I said. That was, uh, an understatement. The way Buterin got =
+50 trillion Shiba Inu coins was that the developers of Shiba Inu sent them =
+to him, for free, unasked-for. From the =E2=80=94=C2=A0I'm sorry =E2=80=94=
+=C2=A0Shiba Inu <a href=3D"https://link.mail.bloombergbusiness.com/click/23=
+893912.274019/aHR0cHM6Ly9naXRodWIuY29tL3NoeXRvc2hpa3VzYW1hL3NoaWJhd29vZnBhc=
+GVyL3Jhdy9tYWluL1NISUJBSU5VX0Vjb3N5c3RlbV9XT09GX1BhcGVyLnBkZg/607f07ceef4b8=
+524a319a23cBb031195d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">woof paper</a>:</p><blockquote><p style=3D"margin: 16px 0;">Af=
+ter we finished minting 1 quadrillion tokens, we put half into Uniswap and =
+threw away the keys. Then, the remaining 50% was =E2=80=9Cburned=E2=80=9D t=
+o Vitalik Buterin=E2=80=99s wallet, which was the start of our Army.</p></b=
+lockquote><p style=3D"margin: 16px 0;">A footnote adds:</p><blockquote><p s=
+tyle=3D"margin: 16px 0;">Please note that the Shib in VB=E2=80=99s wallet, =
+at the time of this writing, was his #1 HIGHEST valued token, even exceedin=
+g the value of the Ethereum there. This is an incredible accomplishment, an=
+d we are just getting started.</p></blockquote><p style=3D"margin: 16px 0;"=
+>As I understand it, inventors of altcoins sometimes =E2=80=9Cburn=E2=80=9D=
+ a chunk of those coins to Buterin as a=C2=A0sort of publicity play. You ge=
+t to say that Vitalik Buterin owns some of your coin. You get to inflate th=
+e =E2=80=9Cmarket cap=E2=80=9D of your coin: Market cap is the trading pric=
+e times the amount outstanding, and if you put trillions of coins in the ha=
+nds of someone who won=E2=80=99t sell or spend them, you can inflate the mu=
+ltiplier and achieve a huge market cap without much trading. And it is assu=
+med by altcoin developers that Buterin=C2=A0<em>won=E2=80=99t=C2=A0</em>sel=
+l the altcoins that get =E2=80=9Cburned=E2=80=9D to him, because that would=
+ undermine his status as a pure-hearted evangelist for Ethereum, and becaus=
+e he just seems to be too busy to spend any money.</p><p style=3D"margin: 1=
+6px 0;">I am sure that Buterin finds it a bit annoying to receive billions =
+of dollars=E2=80=99=C2=A0worth of random altcoins? A few conclusions:</p><o=
+l style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">I cannot believe that I typed that sen=
+tence; imagine being a person who is annoyed=C2=A0to wake up and find yours=
+elf a billion dollars richer. Cryptocurrency economics are so weird.</li>=
+=09<li style=3D"margin-bottom: 5px;">Feel free to burn half of your billion=
+-dollar altcoins to me instead I guess?=C2=A0</li>=09<li style=3D"margin-bo=
+ttom: 5px;">Buterin=E2=80=99s way of getting around this problem =E2=80=94=
+=C2=A0<em>donating=C2=A0</em>the random altcoins to a worthy cause, and let=
+ting the charity sell them =E2=80=94=C2=A0is pretty neat.</li>=09<li style=
+=3D"margin-bottom: 5px;">That said, it doesn=E2=80=99t exactly solve the un=
+derlying problem (the problem of people inventing random altcoins and sendi=
+ng him a bunch), because this donation seems to have been free good publici=
+ty for Shiba Inu, even if it did push down the price. Shiba Inu coin is som=
+ehow providing hundreds of millions of dollars of Covid relief in India; se=
+ems good.</li></ol><h2 style=3D"font-weight: bold; font-family: &quot;Arial=
+ Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-size=
+: 20px; border-bottom-width: 1px; border-bottom-style: dotted; padding-bott=
+om: 5px; margin-top: 30px; margin-bottom: 0;">Accounting rap</h2><p style=
+=3D"margin: 16px 0;">Here=E2=80=99s an <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/23893912.274019/aHR0cHM6Ly93d3cuY3BhcHJhY3RpY2VhZHZpc2=
+9yLmNvbS9tZWRpYS1jZW50ZXIvdmlkZW8vMjEyMjI1NTkvdHotbW9uZXktYWNjb3VudGluZy1zY=
+2FsZS1zY2FsZS1zY2FsZS1vZmZpY2lhbC12aWRlbw/607f07ceef4b8524a319a23cB7a864661=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">accounti=
+ng rap</a>. You presumably know how I feel about this. (Bad, I feel bad abo=
+ut this, never do a corporate rap parody.)</p><h2 style=3D"font-weight: bol=
+d; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; lett=
+er-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border-bottom-=
+style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">Th=
+ings happen</h2><p style=3D"margin: 16px 0;">Andrea Orcel and Ana Bot=C3=AD=
+n face off in Madrid courtroom over <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/23893912.274019/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYmI4Y=
+mI5MDgtNWEwZi00MzBjLWJiOGMtM2IxN2RmZDJkYjU5/607f07ceef4b8524a319a23cB4fc098=
+fa" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">pay ro=
+w</a>.=C2=A0Bank of America to Raise Minimum Wage to <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/23893912.274019/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTgvYm9mYS10by1yYWlzZS1taW5pbXVtLXd=
+hZ2UtdG8tMjUtcGVyLWhvdXItaW4tcmFjZS1mb3ItdGFsZW50/607f07ceef4b8524a319a23cB=
+042d9ad3" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ $25 Per Hour</a> in Race for Talent. Post-Archegos <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/23893912.274019/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTkvcG9zdC1hcmNoZWdvcy1oZWRnZS1mdW5k=
+LWZpbmFuY2luZy1mYWNlcy1jbG9zZS1zY3J1dGlueS1ieS1ib2U/607f07ceef4b8524a319a23=
+cB2b81a6a3" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Hedge Fund Financing</a> Faces Close Scrutiny by BOE. Hertz, the <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/23893912.274019/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy9oZXJ0ei10aGUtb3JpZ2luYWwtbWVtZS1zdG9jay1yZXdh=
+cmRzLWl0cy10cnVlLWJlbGlldmVycy0xMTYyMTM1NDA5MT9tb2Q9aXRwX3dzaiZydT15YWhvbw/=
+607f07ceef4b8524a319a23cBa7718f1f" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">Original Meme Stock</a>, Rewards Its True Believer=
+s. Colonial Pipeline=E2=80=99s Computer Network Temporarily <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/23893912.274019/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTgvY29sb25pYWwtc2hpcHBlcnMt=
+c2F5LXBpcGVsaW5lLWNvbW11bmljYXRpb24tc3lzdGVtLWlzLWRvd24/607f07ceef4b8524a31=
+9a23cB2a102aeb" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> Goes Dark</a>. China Mobile to <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/23893912.274019/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9=
+jaGluYS1tb2JpbGUtdG8tbGlzdC1pbi1zaGFuZ2hhaS1hcy1pdC1kZXBhcnRzLW55c2UtMTE2Mj=
+EzMjI3NDE_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB9d76b014" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">List in Shan=
+ghai</a> as It Departs NYSE. Hedge Funds Increase Bets on <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/23893912.274019/aHR0cHM6Ly93d3cud3N=
+qLmNvbS9hcnRpY2xlcy9oZWRnZS1mdW5kcy1pbmNyZWFzZS1iZXRzLW9uLXByaXZhdGUtY29tcG=
+FuaWVzLTExNjIxNDE2NjA0P21vZD1ocF9sZWFkX3BvczM/607f07ceef4b8524a319a23cB92d0=
+14da" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">Priv=
+ate Companies</a>. Nvidia tries to stop its chips being used for <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/23893912.274019/aHR0cHM6Ly93=
+d3cuZnQuY29tL2NvbnRlbnQvMDQxNzY0NWMtNDU2ZC00ZWY2LTkwZDktZjc0ZjBlZjFmY2Rm/60=
+7f07ceef4b8524a319a23cB4812bdab" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">crypto mining</a>.=C2=A0Newly Launched <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/23893912.274019/aHR0cHM6Ly93d3c=
+ucmVzdGF1cmFudGJ1c2luZXNzb25saW5lLmNvbS90ZWNobm9sb2d5L25ld2x5LWxhdW5jaGVkLW=
+JpdGNvaW4tcGl6emEtYnJhbmQtZG9lc250LWFjY2VwdC1iaXRjb2lu/607f07ceef4b8524a319=
+a23cB027dfbce" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">Bitcoin Pizza</a> Brand Doesn=E2=80=99t Accept Bitcoin.</p><p style=3D=
+"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media"><em>If y=
+ou'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in y=
+our inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/23893912.274019/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam=
+9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1Y=
+WNlYTY3YQ/607f07ceef4b8524a319a23cB93b42829" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">subscribe at this link</a>. Or you can subscribe to Money Stuff and o=
+ther great Bloomberg newsletters <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/23893912.274019/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3Ns=
+ZXR0ZXJz/607f07ceef4b8524a319a23cB571b792c" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">here</a>. Thanks!</em></span></p><p style=
+=3D"margin: 16px 0;"><em>[1] To be clear, it will also require *disclosure*=
+: If Roivant and Immunovant agree to a deal, they will need to disclose to =
+Immunovant=E2=80=99s other shareholders any material nonpublic information =
+that Roivant considered in proposing the deal. There will probably always b=
+e some information disparity between Roivant =E2=80=94=C2=A0a drug company =
+that started Immunovant and is the majority shareholder =E2=80=94=C2=A0and =
+the Immunovant public shareholders, but if there is big material news then =
+they=E2=80=99ll have to disclose it before closing the deal.</em></p><p sty=
+le=3D"margin: 16px 0;"><em>[2] Bitcoin is not a security and it would have =
+to be a case about Tesla stock, which seems tricky, but never mind, never m=
+ind.</em></p><p style=3D"margin: 16px 0;"><em>[3] This is discussed on=C2=
+=A0page 13 of the <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+23893912.274019/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0Mzc=
+xMDcvMDAwMTE5MzEyNTIxMTYzOTI3L2QxNjc1MzFkNDI1Lmh0bQ/607f07ceef4b8524a319a23=
+cBabd4505d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">investor call transcript</a>.</em></p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23893912.274019/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB420c3a2f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23893912.274019/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBdcf5b4ab" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23893912.274019/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBa8786f94" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23893912.274019/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB4a0577e8" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2389=
+3912.274019/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB74bd477d" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23893912.274019/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCeb7ef057" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23893912.274019/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBefd299c7" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23893912.274019/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB6e53496e" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce84ns.5vfn/9f537120.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_23939924_1177839585.1621443058738--
+

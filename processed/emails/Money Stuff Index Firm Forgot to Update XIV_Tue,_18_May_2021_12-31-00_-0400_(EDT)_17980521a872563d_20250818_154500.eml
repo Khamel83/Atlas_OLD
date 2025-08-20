@@ -1,0 +1,1854 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a55:8298:0:b029:e5:aecd:b9e9 with SMTP id 24csp697383egf;
+        Tue, 18 May 2021 09:32:15 -0700 (PDT)
+X-Received: by 2002:a17:906:1e15:: with SMTP id g21mr6876047ejj.241.1621355535087;
+        Tue, 18 May 2021 09:32:15 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1621355535; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=0sW5uGPJeBTkhjZ0+cSDMKFCJNImT+C0lc+AOb4QtXX3xCBUikAt0oODGe+X/wnzoX
+         2yHr9aOE/iOi3H1uZA2CAQCgGqGjXqKaFN7zkir5FogJog1WVTpdPhrFhipqObWclegH
+         xLxWYGUEjSz3uUrS64p59xU+O4bnHm4zSfZiDp3UGtMFHKS5Bdce783Pydx15fQxifAO
+         Lffu2G1bRb94/JDSsgB0hVtvEoW8JLsem4N0nkA8JWUcNpuY/mgYThMAmIR8YseAaVK7
+         yqht+e1pIqDL3VQ+4REOd8M7b5wceX76wsv3hWTYNyrPt4d0donDr4UnZ1fQHEidBIKK
+         dGfQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=75AebGxO8s7ipDXpfcwTdWDwcxvmArNbFRjppIPVdZ0=;
+        b=tqu4Ypd7T9hvmNJF+tSDzFyanG8TCce/3NfjfCrhoUtjSBErVDPq4KwEgBEKHCTPm3
+         24VyoFFRsbc9Bpx6nN0brHJemVazrAtuCO0OyG9QqV1bWNGwH/2oUpG/MPj16kl8hF74
+         WQKy0NVy/zckzsQqBC72MD9tRcJvvvCfuixHwGtJp4EUk3tR1lrQfX3vs1TeS8wASlIU
+         WAJQCZn1ds4j2EDt4HpaQCYLIciqBl6+5sSIgOle/NhwJTQ20ed0YphgLC3FiRNuf0Uu
+         mbWDC3pB00q+bZDDxCxUybUM1NMNWImF1MUijim5D2489Zv0wYlEIuMuHzhjWAziKgjp
+         r3VQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g0W0bWqT;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id hp35sor5553855ejc.7.2021.05.18.09.32.15
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 18 May 2021 09:32:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g0W0bWqT;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=75AebGxO8s7ipDXpfcwTdWDwcxvmArNbFRjppIPVdZ0=;
+        b=MeW1+WoAobZPSbksTBrMpej9sqG9cWHxsJIYz1Y1EeigxJnP1t+GcjQFuQ9iSoNnaA
+         3Moni87En+Lir+CgB/+xDi5mU0zXhHZSJLVeCuKNiAjrWZriluTo5EY6zx44VjdREp5N
+         3Bg9F2QgcrW5UZsPWl+zMkq0yN5XYBrqG/H+JrOcFx92tfcCrpJR9JGl8UgY/cjdaew2
+         O4Xg0fndHZWWkQZr+VVQ4fFHJTYQy+nu46kVDlJDTMRZ9AAI6vQSNNu4DrGFpAsiE08m
+         l8GflyG8BmwV/TBiZ4T0FzW/t62q7BUL5s5Cxw63BagKco95O4PiwHpKiTO6xwAiPNC0
+         a1/g==
+X-Gm-Message-State: AOAM533ih55Go8QEVQJdP7MFzDm1qb1dGftfuT/jgJG+APKANPjsQwlr
+	OfoA0A/WwZm8fkl3IPwVHTXK3nZEYHflpAaf0Rh7di8cXGQpKMkaJQ==
+X-Received: by 2002:a17:906:3883:: with SMTP id q3mr6814740ejd.4.1621355534829;
+        Tue, 18 May 2021 09:32:14 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3b92:0:0:0:0:0 with SMTP id h18csp399388ecn;
+        Tue, 18 May 2021 09:32:11 -0700 (PDT)
+X-Received: by 2002:a05:6830:22cc:: with SMTP id q12mr4975901otc.145.1621355531475;
+        Tue, 18 May 2021 09:32:11 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1621355531; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Jx9pJQYSkZ6Z0rHP27SVGHl2j3Uh+yObi8sd4thPbo9HhfQnVu5jYGSStRDqYLZlix
+         XApUZJJUOt+iFb7pnDGyBlJQC01kMw2eQK0snuxvEjpEl26hqYALeBUqC0fcNNh5q6Z3
+         E6s1UTUNKx5onEjG0UuVE4DSdjYRQk1GQpe9g0ke3l6X21CnGs00hFCnFJeuRB0f6OQt
+         Hyczx7Q3+SeSTUeSzAuKGRC7JZwxZcuWE8n2scWMELKXQyAa+ZvbFg2PHr4O8bqh0WZB
+         5zO50H2ZDB3QmhHRt9/1hemZzo+hT8UMXJPrq9S56AhDbpgufPD5wRA8ZKKdAP8pUnQV
+         h0pw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=75AebGxO8s7ipDXpfcwTdWDwcxvmArNbFRjppIPVdZ0=;
+        b=DY4Y1zVzxkoJ1k6HjwOs/yi27C7eCl/l3YTkon3h7Cz8jUk03sDc13A08E+7mwo4n3
+         8j2cHMa03J4jAi322qYSXfsaEbj6eyeyijbi/eR4BPZfpoS7Q231l6KRSjWO0gStDl7P
+         SsVtBPMXHqFttEy2ShiRFGefEHu2qwGWaySGDwIVP3A3XTdbj+JSPio9dOEroaDVY69t
+         iv8BXXb89U7Ox4sF4YiKYeryfCq+/AnqLkxAWE+rEqF/Z+VasGvo+2wtjwA/EKSD1lyb
+         oKKDASLzGRKzq/HQEVmgAtVLkZfweZJ4XKgqe/aDpGn5NwbMIRejbGqVGKLWbNGzfz1r
+         81hg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g0W0bWqT;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210518123100.23882452.285958@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210518123100.23882452.285958@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210518123100.23882452.285958@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id o2sor7159548oos.6.2021.05.18.09.32.11
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 18 May 2021 09:32:11 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210518123100.23882452.285958@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzpVCHzgKINWXvWBzKl+ta1mr/+dCwrjlvlUPv7gAUYXTQm+lCI0Wzsn9IJDOTAXxC3JMxc6/O5XvB010XGQn8M42ZdZdM=
+X-Received: by 2002:a4a:d0a5:: with SMTP id t5mr5058323oor.62.1621355531068;
+        Tue, 18 May 2021 09:32:11 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1621355531; cv=none;
+        d=google.com; s=arc-20160816;
+        b=CdCMOf8q8NYINDcZZha+lgwXpF7pDI2eEaWktME/2EWLTX6hRdtdZ+NXLqsVNYCZ6l
+         S9Ytw5iReqmOsix+1gjDhrOK1QVOYDvQURsg+iuoQzRjbKrGpysMRqJOUKYOy8v7bWCA
+         7WV7pO5fzwTf78wt8E9JKyGr8VqVlTmAaXZx+zPRM4uyF/KfoLuX5WHYyJr/1Q0IcLMN
+         6qq5QGjX3fgxmBU5K26VkgXnxymirZIq40SQXt/xctUV/48VPlNaLm4/ESWtG6GFhI4P
+         qwSH9NNu2jiYFGqFcdE/PG5xfF4tyQ9DGimGJQpNSEc9npk3ziUE84bJCqci4JAtn6zS
+         F8JA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=75AebGxO8s7ipDXpfcwTdWDwcxvmArNbFRjppIPVdZ0=;
+        b=ERezbfPOsqWFQcMVXqtzRKy94B+qHUL6B+jOJUA5VcnrBdXfZpceOBziWV4O6ufnGV
+         xnjP+yXa5XzDwHog8RX2QtGrbANkTbl9Ui3ZtpB5PRUoA1gQiukwCWT820hcneE3oWbK
+         BYy9u26b8ic8pfJ3Sjd2kuyiumsIPYf0Ux6+4kmoXy2exfYxB1e9/wa1zgUaBQHJGoBG
+         oUe38vVXpEgJheaqrfqQT2TxsgZlqcXCOubmMVTfLM8R27m/eip5f1J1BRPljMSqDhpM
+         GTDoHVXu83ltSmL3ZS4noAnGs2sde08R15lfQDPshHjm+7TSYxpfHeSo4TdLK5QN8x4T
+         tmmQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g0W0bWqT;
+       spf=pass (google.com: domain of delivery_20210518123100.23882452.285958@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20210518123100.23882452.285958@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210518123100.23882452.285958@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTP id 12si1494465oin.2.2021.05.18.09.32.10
+        for <khamel83@gmail.com>;
+        Tue, 18 May 2021 09:32:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210518123100.23882452.285958@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=lxM+9RtI3bMbtFpRyDJ2kuy4k74=;
+ b=g0W0bWqTpikaCkfW1qLHtr5Xz8GYBE/8pCIcWd3I8Wtd8jq4YLFEP82N3OoKHkH0bRO2JG5Jt9tc
+   VDDBautsmuNuj647rWwI0vgXwXlc/MsehC5fXaqptcqJ5PnVxP4TyJUbePnlMqLUgGz+B9jL/BsB
+   BrsebXMX8vI/kAgE/gs=
+Received: from nj2mta-15.sailthru.com (204.153.121.15) by pmta29.sailthru.com id hkfm0k1qqbsu for <bloomberg@khamel.com>; Tue, 18 May 2021 12:32:10 -0400 (envelope-from <delivery_20210518123100.23882452.285958@mx.sailthru.com>)
+Date: Tue, 18 May 2021 12:31:00 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210518123100.23882452.285958@sailthru.com>
+Subject: Money Stuff: Index Firm Forgot to Update XIV
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_12881463_2066252706.1621355460340"
+Precedence: bulk
+X-TM-ID: 20210518123100.23882452.285958
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetcopper.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce7vtg.64na/7648ddf0
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce7vtg.64na/7648ddf0>, <mailto:unsubscribe_20210518123100.23882452.285958@mx.sailthru.com>
+X-rpcampaign: stjko23882452
+
+------=_Part_12881463_2066252706.1621355460340
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+ =20
+ =20
+  Money Stuff
+ =20
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+   =20
+       =20
+           =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+
+     =20
+     =20
+ =20
+   =20
+      XIVCredit Suisse Group AG used to have a product called XIV, the Velo=
+cityShares Daily Inverse VIX Short-Term ETN, an exchange-traded note that y=
+ou could buy to bet against volatility. Loosely speaking, XIV gave you the =
+daily inverse of VIX, the CBOE Volatility Index: If the VIX went up by 5% i=
+n a day, you lost 5% of your money; if it went down by 10% in a day, you ad=
+ded 10% to your money. One day =E2=80=94=C2=A0Monday, Feb. 5, 2018 =E2=80=
+=94=C2=A0the VIX went up by 115.6%, from 17.3 the previous Friday to 37.3 t=
+hat day.[1] So XIV investors lost all their money that day, and XIV doesn=
+=E2=80=99t exist anymore. Fine!?=C2=A0But that was an oversimplified descri=
+ption of how XIV works. Actually it tracked, not the actual VIX, but change=
+s in=C2=A0an index of near-term=C2=A0futures contracts=C2=A0on the VIX. The=
+ reason for this is that Credit Suisse, the issuer of the exchange-traded n=
+ote, had to hedge its exposure: If VIX went down, Credit Suisse owed XIV ho=
+lders more money. It could hedge that risk by being short VIX futures: If V=
+IX went down, it would make more money on the futures. Because futures expi=
+re, it had to roll those futures over =E2=80=94=C2=A0short some next-month =
+futures and then, as their expiration approaches, close some of them out an=
+d short some following-month futures=C2=A0=E2=80=94=C2=A0and there is an in=
+dex that=C2=A0mechanically tracks that strategy, basically a weighted=C2=A0=
+average of the prices of the next couple of months of VIX futures, with the=
+ weighting changing as one future gets closer to expiration. The index is c=
+alled the S&P 500 VIX Short-Term Futures Index ER; you can read how it=E2=
+=80=99s calculated here.=C2=A0S&P Dow Jones Indices LLC, the index provider=
+, looks at the prices of VIX futures, plugs them into a formula, and calcul=
+ates the level of the index from the futures prices.On that Monday, Feb. 5,=
+ 2018, when VIX more than doubled, the VIX futures index did not=C2=A0quite=
+=C2=A0double; XIV investors lost, not 100% of their money (or 115%), but ab=
+out 95%. The XIV notes had a provision that, if they lost more than 80% of =
+their value in one day, Credit Suisse could redeem them, and it did. It pai=
+d investors $5.99 per note; the XIV notes had closed at $115.55 on Friday, =
+Feb. 2, 2018, the trading day before it blew up.Investors in XIV were not h=
+appy about losing (almost) all their money. One reason they were not happy =
+about it has to do with Credit Suisse=E2=80=99s hedging of the XIV notes. T=
+o hedge the notes, Credit Suisse had to short VIX futures, and it had to re=
+balance its hedge each day as the VIX futures index=C2=A0went up and down. =
+When the index went=C2=A0up, Credit Suisse had to=C2=A0buy back=C2=A0some o=
+f the futures it had shorted. This caused the futures index to go up more, =
+which caused it to buy back more futures, etc. On Feb. 5, 2018, when the VI=
+X went up a lot, (1) Credit Suisse apparently bought a whole bunch of futur=
+es, (2) this drove the VIX futures index up even more, (3) one result was t=
+hat Credit Suisse=E2=80=99s customers, the owners of XIV notes, lost all th=
+eir money, and (4) another result=C2=A0is probably that Credit Suisse=C2=A0=
+made=C2=A0a lot of money.[2]The customers sued, claiming that Credit Suisse=
+=E2=80=99s hedging activity =E2=80=94=C2=A0which is the standard way to hed=
+ge this product, and was fully disclosed, but which does look kinda bad in =
+hindsight! =E2=80=94=C2=A0was actually market manipulation. A court tossed =
+out their case, but last month an appellate court brought it back, concludi=
+ng that the customers could try to persuade a jury that Credit Suisse=E2=80=
+=99s hedging was market manipulation. We  talked about the decision=C2=A0a =
+couple of weeks ago.There was, however, another reason that the XIV investo=
+rs weren=E2=80=99t happy. Some of them bought XIV notes during the day on F=
+eb. 5, 2018. In particular, some of them bought XIV notes after 4 p.m. that=
+ day, when the value of the XIV notes had already collapsed. But they didn=
+=E2=80=99t know that yet, because Credit Suisse was reporting incorrect val=
+ues for the XIV notes. (Technically the values were calculated by Janus Hen=
+derson Group Plc, which marketed XIV for Credit Suisse, and distributed by =
+Nasdaq, which listed the XIV notes.)=C2=A0From the appellate court opinion =
+last month:For one hour from 4:09 p.m. to 5:09 p.m., the intraday indicativ=
+e value for XIV Notes was not updated every 15 seconds as required and did =
+not reflect an accurate valuation of the notes. Instead, during this hour, =
+the intraday indicative value updated only sporadically and valued the XIV =
+Notes at about $24 to $27 per note (the Flatline Value). This published Fla=
+tline Value persisted notwithstanding that, in reality, each note almost im=
+mediately was worth between $4.22 and $4.40.=C2=A0It was not until 5:09 p.m=
+. (and after more than thirty minutes during which the intraday indicative =
+value failed to update at all) that NASDAQ disseminated the correct intrada=
+y indicative value of $4.22. During this hour, investors purchased more tha=
+n $700 million in XIV Notes at inflated secondary market prices based on th=
+eir incorrect belief that XIV Notes had weathered the spike in market volat=
+ility without triggering an Acceleration Event.While the VIX futures=C2=A0h=
+ad almost doubled and effectively wiped out the value of XIV, XIV investors=
+ didn=E2=80=99t know that yet. Their screens told them that the XIV notes w=
+ere still worth $24+, so they paid $24+ for the notes. It turned out that t=
+he notes were worth about $4 and they lost most of their money. Oops.Invest=
+ors sued Credit Suisse and Janus over this too, and the court tossed that l=
+awsuit out too, and the appellate court did=C2=A0not=C2=A0bring it back. Ba=
+sically it concluded that Credit Suisse and Janus didn=E2=80=99t do anythin=
+g wrong here. The value of XIV =E2=80=94=C2=A0the intraday indicative value=
+ that they were supposed to report =E2=80=94=C2=A0was based on that=C2=A0in=
+dex=C2=A0of short-term VIX futures,=C2=A0the S&P 500 VIX Short-Term Futures=
+ Index ER. Credit Suisse and Janus did their calculations right, but the=C2=
+=A0index=C2=A0wasn=E2=80=99t updated properly after 4 p.m. that day. That=
+=E2=80=99s not their fault; that=E2=80=99s the fault of the index provider.=
+The index provider is S&P Dow Jones Indices. Apparently XIV investors forgo=
+t to sue S&P, but the U.S. Securities and Exchange Commission did not; yest=
+erday it announced a $9 million settlement with S&P:The SEC=E2=80=99s order=
+ finds that the S&P 500 VIX Short Term Futures Index ER (Index) published b=
+y S&P DJI was intended to calculate values based on real-time prices of cer=
+tain CBOE Volatility Index (VIX) futures contracts. According to the order,=
+ S&P DJI licenses the Index to, among others, issuers that use it to offer =
+securities, including the issuer of the inverse exchange-traded note called=
+ XIV, and the license agreement requires S&P DJI=E2=80=99s approval of the =
+description of the index in offering documents. On Monday, Feb. 5, 2018, th=
+e VIX experienced a spike of 115%, but the Index remained static during cer=
+tain intervals between 4:00 p.m. and 5:08 p.m. that day.=C2=A0According to =
+the SEC=E2=80=99s order, this was due to an undisclosed =E2=80=9CAuto Hold=
+=E2=80=9D feature, which is triggered if an index value breaches certain th=
+resholds, at which point the immediately prior index value continues to be =
+reported. The SEC found that XIV=E2=80=99s issuer derived information about=
+ the Index from S&P DJI=E2=80=99s public disclosures about the Index, but t=
+he Auto Hold feature had never been publicly disclosed. The SEC=E2=80=99s o=
+rder finds that S&P DJI personnel did not release the Auto Hold for the Ind=
+ex during the referenced intervals, as they had the ability to do, resultin=
+g in the publication and dissemination of stale and static Index values, ra=
+ther than values based on the real-time prices of certain VIX futures contr=
+acts. ...=E2=80=9CIndex providers like S&P DJI play a crucial role in the f=
+inancial markets,=E2=80=9D said Daniel Michael, Chief of the SEC Enforcemen=
+t Division=E2=80=99s Complex Financial Instruments Unit. =E2=80=9CWhen inde=
+x providers license their indices for the issuance of securities, as S&P DJ=
+I did here, they must ensure that the disclosure of critical features of th=
+eir products as well as the publication of real-time values are accurate.=
+=E2=80=9DHere is the SEC=E2=80=99s order. Basically what happened here is t=
+hat S&P=E2=80=99s computer=C2=A0automatically calculated and sent out the l=
+evels of the index every five seconds. But the computer=C2=A0had a sort of =
+sanity-check feature, the =E2=80=9Cauto hold,=E2=80=9D=C2=A0that said that,=
+ if the level of an index moved too much too fast, it would not report the =
+new level (and would keep reporting the old level) until a human being took=
+ a look and made sure that nothing had gone wrong. This makes sense! If you=
+ have an index that is at 100, and five seconds later it=E2=80=99s at 70,=
+=C2=A0probably=C2=A0what happened is that you lost access to a data feed or=
+ some trade was reported wrong or there was some other dumb error that shou=
+ld not really affect the level of the index, and if the computer just blind=
+ly sends out the new number it will propagate that error and make things wo=
+rse. So instead S&P said, if the index moves too much, we won=E2=80=99t sen=
+d out the new number until a human looks at it.Unfortunately on Feb. 5, 202=
+1, the humans were very busy:On February 5, one of the two index managers r=
+esponsible for monitoring the Index was out of the office. As a result, jus=
+t one index manager (=E2=80=9CIndex Manager=E2=80=9D) was left to monitor t=
+he Index, which was one of thousands of indices he was tasked to monitor th=
+at day.Also the market was crazy, and the index kept moving around a lot, w=
+hich meant that it kept triggering auto holds:Following the close of the eq=
+uities markets at 4:00 PM, but before the close of the futures markets at 4=
+:15 PM, prices of the VIX futures contracts used to calculate the Index spi=
+ked. As a result, the Index experienced a series of Auto Holds triggered by=
+ breaches of the Hourly Threshold. Six minutes before the 4:15 PM close of =
+the futures markets, at 4:09:40 PM, the Index experienced an Auto Hold, fre=
+ezing the tick at 86.51. GRIP [S&P=E2=80=99s=C2=A0automated computer system=
+, Global Realtime Index Platform]=C2=A0automatically released this Auto Hol=
+d at 4:12:20 PM, though the Index again experienced an Auto Hold at 4:13:00=
+ PM, freezing the tick at 87.51. This Auto Hold lasted for more than 20 min=
+utes until 4:35:45 PM, when GRIP again automatically released the Auto Hold=
+. The Index experienced another Auto Hold at 4:38:35 PM, freezing the tick =
+at 87.6, which was the last value published by S&P DJI until it published t=
+he Index=E2=80=99s closing value at 5:08 PM.And the one guy in charge of ke=
+eping track of this was too busy doing other, apparently more pressing thin=
+gs:Despite receiving alerts from GRIP regarding these Auto Holds for the In=
+dex, the Index Manager did not release them manually or investigate their c=
+ause. Instead, based on oral instructions from his mid-level supervisor, ea=
+ch day the Index Manager prioritized end-of-day validations over real-time =
+price and index level monitoring beginning at 3:10 PM, with this closing pr=
+ocess typically running until the end of the 4:00 PM hour or beginning of t=
+he 5:00 PM hour. This prioritization of closing files was intended in part =
+to meet S&P DJI=E2=80=99s clients=E2=80=99 expectations with respect to the=
+ timing of delivery of the closing files on a given day.In general, getting=
+ the closing level of an index out promptly and correctly is probably more =
+important than constantly updating its real-time levels during the day. On =
+that particular day it was not. S&P=E2=80=99s misplaced focus that day work=
+ed out=C2=A0poorly for XIV holders:Because the Index is the primary input f=
+or calculating XIV=E2=80=99s Intraday Indicative Value, the Intraday Indica=
+tive Value experienced flatlines while the Index was on Auto Hold. For exam=
+ple, due to the Auto Hold that began at 4:13:00 PM and lasted until 4:35:45=
+ PM, the Intraday Indicative Value published to the market by XIV=E2=80=99s=
+ calculation agent remained static at 24.8933.Immediately following S&P DJI=
+=E2=80=99s dissemination of the Index=E2=80=99s closing value, XIV=E2=80=99=
+s calculation agent published the Closing Indicative Value=E2=80=94i.e., th=
+e Indicative Value as of the close of the futures market at 4:15 PM=E2=80=
+=94of 4.2217 at 5:09 PM. The published Intraday Indicative Values during th=
+e 4:00 PM hour until the publication of the Closing Indicative Value at 5:0=
+9 PM never dropped below 24, let alone reached the Closing Indicative Value=
+ of 4.2217.Oops. Credit Suisse actually called S&P that evening to ask what=
+ had happened, and learned about auto hold for the first time:At 8:16 PM, a=
+n S&P DJI sales representative informed CSSU of the existence of the Auto H=
+old: =E2=80=9CDue to the large swing in the VIX futures contract prices the=
+ index was put on an auto-hold by our intraday calculation system. This is =
+what caused the flatline. . . . Further, our policy is to not restate the t=
+icks for indices that were put on auto-hold, so the values will remain as i=
+s.=E2=80=9D Until the evening of February 5, CSAG had not been informed abo=
+ut the Auto Hold or how it impacted the Index.This is all not great, but it=
+ is a little hard to know exactly what got S&P in trouble here. The SEC=E2=
+=80=99s order says S&P =E2=80=9Cviolated Section 17(a)(3) of the Securities=
+ Act, which prohibits in the offer or sale of securities, engaging in any t=
+ransaction, practice, or course of business which operates or would operate=
+ as a fraud on the purchaser.=E2=80=9D So S&P did a fraud on the people who=
+ bought XIV? S&P didn=E2=80=99t sell them any XIV notes, and didn=E2=80=99t=
+ make any money trading XIV. Credit Suisse did. Credit Suisse did pay S&P a=
+ licensing fee for the index, and I suppose it was entitled to a working in=
+dex? Maybe? Or maybe not; maybe it was just entitled to correct=C2=A0disclo=
+sure=C2=A0about the workings of the index. The SEC makes a lot of the fact =
+that S&P has websites and documents that describe its index methodology =E2=
+=80=94=C2=A0how it calculates and disseminates this index =E2=80=94=C2=A0bu=
+t the auto hold procedure was not mentioned in those disclosures. If you bu=
+y the rights to the S&P 500 VIX Short-Term Futures Index ER for use with yo=
+ur exchange-traded note, I suppose you are entitled to know not just how it=
+ is usually calculated but also how the error-correction procedures work.[3=
+]One way to interpret this is that index providers are not allowed to just =
+use their own best judgment and internal policies=C2=A0to calculate their i=
+ndexes and fix=C2=A0problems: They are quasi-official bodies, and their rul=
+es need to be written down and disclosed. S&P had a fairly reasonable inter=
+nal quality-control policy, and messed up the application of it a bit, but =
+it got in trouble not so much for messing up but for=C2=A0not disclosing th=
+e policy. S&P is too important to have an internal quality-control policy, =
+reasonable or not, messed up or not; its indexes are so important that ever=
+ything about how they work needs to be spelled out in advance and made publ=
+ic and subject to rigorous checking.=C2=A0I guess we will see more of this?=
+ S&P Dow Jones got its start in life 137 years ago, when Charles Dow starte=
+d adding=C2=A0up the stock prices of 11 companies each afternoon and dividi=
+ng by 11. Hardly seems worth regulating; no real consequences turned on his=
+ choice of stocks or his methodology or even whether he got the math wrong.=
+ Now trillions of dollars of investment are directed by indexes, companies =
+can  raise billions of dollars when they are added to a big index, and a mi=
+stake in the index math =E2=80=94=C2=A0even S&P=E2=80=99s mistake here, a f=
+ailure to update a fairly arcane index for an hour after the market closed =
+=E2=80=94=C2=A0can cost investors hundreds of millions of dollars. S&P is n=
+ot just some company that writes down lists of stocks and will show you the=
+ lists for a fee; it is practically the law; it sets the rules and the term=
+s for how the market operates. It has to get them right.SPAC SPAC SPACThe w=
+ay a special purpose acquisition company works is that a bunch of investors=
+ put $10 into a pot in exchange for=C2=A0one share of the pot. The pot then=
+ has=C2=A0money, and the sponsor of the pot =E2=80=94=C2=A0the SPAC =E2=80=
+=94=C2=A0goes out looking for a company to merge with. When the sponsor fin=
+ds a company, the pot buys shares of the company at $10 each, to give to it=
+s shareholders. The tricky part is that the sponsor and the company have to=
+ negotiate how much of the company the SPAC gets for its $10. If a SPAC has=
+ 10 million shares (and thus $100 million in its pot), and it finds a nice =
+little company to take public, it will want to do the merger at a low valua=
+tion. The SPAC sponsor might say =E2=80=9Cwe think your company is worth $4=
+00 million pre-money, or $500 million when merged with our pot of cash, so =
+we should get 20% of the company for our $100 million.=E2=80=9D And the com=
+pany will reply =E2=80=9Cno we are worth $900 million now, or $1 billion wi=
+th the money, so you should get 10% of the company for your $100 million.=
+=E2=80=9DAnd they=E2=80=99ll negotiate and come to a deal and announce the =
+deal, and then the SPAC=E2=80=99s shares =E2=80=94=C2=A0which trade publicl=
+y on the stock exchange the whole time =E2=80=94=C2=A0will trade up or down=
+. And how the SPAC=E2=80=99s shares trade will let you know how good the de=
+al is. So if they agree on a $500 million pre-money valuation ($600 million=
+ post-money), the SPAC=E2=80=99s shareholders=C2=A0will get 16.67% of the c=
+ombined company for their $100 million.[4] If the company is =E2=80=9Creall=
+y=E2=80=9D worth $750 million post-money, then 16.67% of the company will b=
+e worth $125 million, and the SPAC will get more than its money=E2=80=99s w=
+orth. Its stock should trade up to $12.50.[5] If the company is =E2=80=9Cre=
+ally=E2=80=9D worth $450 million, then the SPAC=E2=80=99s share will be wor=
+th $75 million, and the stock will =E2=80=A6=C2=A0well, it shouldn=E2=80=99=
+t=C2=A0trade down to $7.50, because the SPAC=E2=80=99s shareholders can tak=
+e their $10 back instead of rolling it into the deal. But it might trade do=
+wn to like $9.95 as they wait to get their money back.Of course in the real=
+ world you won=E2=80=99t necessarily know what the company is =E2=80=9Creal=
+ly=E2=80=9D worth; you should read the previous paragraph to mean more like=
+ =E2=80=9Cif the market thinks that the company is really worth $750 millio=
+n,=E2=80=9D etc.We have talked about this dynamic before, and I have referr=
+ed to it as the =E2=80=9CSPAC pop.=E2=80=9D The idea is that the SPAC negot=
+iates a=C2=A0good=C2=A0deal with the target company, one that undervalues t=
+he company and gives the SPAC shareholders a nice bargain. Because the shar=
+eholders see this, the SPAC=E2=80=99s shares go up as soon as the deal is a=
+nnounced: The SPAC shareholders are getting=C2=A0$12.50 worth of stock for =
+their $10, so their shares trade up to $12.49 or whatever. And because =E2=
+=80=94=C2=A0when we talked about this in February =E2=80=94=C2=A0there was =
+a history of SPACs getting good deals and trading up, lots of high-profile =
+SPACs would trade at $12 or whatever even=C2=A0before=C2=A0they announced d=
+eals, because investors just expected the deals they announced to be goodBu=
+t there is nothing inevitable about any of this. Whether a SPAC negotiates =
+a good deal or a bad deal depends on the SPAC sponsor=E2=80=99s skills and =
+motivation, the target company=E2=80=99s incentives, the desires of the ins=
+titutional investors who invest alongside the SPAC, market conditions, etc.=
+ It also depends on competitive dynamics: A company that needs to go public=
+ via SPAC (because it has no revenue and would look weird doing a regular i=
+nitial public offering), and that is negotiating with only one SPAC (becaus=
+e it=E2=80=99s 2020 and SPACs are still somewhat uncommon), may have to giv=
+e a SPAC a good deal to sign up a merger. A company that can choose between=
+ a SPAC and an IPO, and that can choose to go public via any one of 20 SPAC=
+s because it=E2=80=99s mid-2021 and there is a glut of SPACs chasing deals,=
+ will be able to negotiate a better deal for itself. Instead of giving a SP=
+AC shares worth $12 or $15 in exchange for the $10 in its pot, the company =
+might give the SPAC shares worth $10, or $9, or $7.50.Also, again, the valu=
+ation of these shares is necessarily a subjective and market-driven thing. =
+In a market where SPAC deals are hot and investors are chasing the next exc=
+iting electric-vehicle SPAC, deals will trade up: A SPAC will announce a de=
+al and investors will say =E2=80=9Cmust be good, let=E2=80=99s buy it.=E2=
+=80=9D In a market where SPACs are pass=C3=A9 and investors have been burne=
+d before, deals will trade down: A SPAC will announce a deal and investors =
+will say =E2=80=9Cmust be bad, let=E2=80=99s sell it.=E2=80=9DNow it=E2=80=
+=99s bad:Shares in special purpose acquisition companies are sliding follow=
+ing takeover announcements, a marked reversal of the enthusiasm for these v=
+ehicles earlier this year which could threaten their ability to do deals.=
+=C2=A0Of the 13 Spacs that have announced acquisitions in May, only one is =
+trading above $10, the level at which shares in blank-cheque companies are =
+originally priced, according to a Financial Times analysis of Refinitiv dat=
+a.As recently as March, about nine out of 10 traded above $10 in the wake o=
+f a deal announcement, according to Spac Research =E2=80=94 and many signif=
+icantly above. =E2=80=A6=C2=A0=E2=80=9CThe retreat of retail investors has =
+been particularly bad,=E2=80=9D said a big Spac sponsor. =E2=80=9CRetail dr=
+ove gigantic speculation from September until the bubble burst [in April] a=
+nd now the Spac market is dead, dead, dead.=E2=80=9D =E2=80=A6
+
+
+   =20
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                                Paid Post
+                               =20
+84% of ultra-high-net-worth individuals collect art. It makes sense =E2=80=
+=94contemporary art appreciated 13.6% per year over the last 25 years vs. 8=
+.9% returns for the S&P 500.
+
+Masterworks has fractionalized investments in masterpieces by Basquiat and =
+Banksy. If you're looking for a tangible, non-correlated asset class,=20
+check out Masterworks today.=C2=A0=C2=A0
+
+(See Disclaimer)
+
+                                Masterworks
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+Credit SuisseThe way you get paid each year, as an investment banker, is so=
+me function of (1) how much money you brought in for the firm and (2) how m=
+uch money the firm made overall. I guess this is true of how most people ge=
+t paid. But investment bankers tend to put a particularly high value on the=
+ir own contributions, especially when they have a good year, and want to be=
+ rewarded for their good year even if the firm overall had a bad year. Espe=
+cially if other firms had good years and there is some competition. So here=
+ is a story about how a bunch of bankers are leaving Credit Suisse Group AG=
+ after its prime brokerage division lost $5.5 billion financing Archegos Ca=
+pital Management:Many Credit Suisse bankers have been frustrated that the f=
+ailure of the bank=E2=80=99s prime-brokerage unit, which caters to investor=
+s like Archegos, overshadowed an otherwise strong run for the investment ba=
+nk, especially within capital markets and advisory.The bank has advised on =
+high-profile transactions lately including chip maker Advanced Micro Device=
+s Inc.=E2=80=99s $35 billion purchase of rival Xilinx Inc. and the $21 bill=
+ion acquisition of Speedway by the Japanese owner of the 7-Eleven convenien=
+ce-store chain. In 2020, it was ranked sixth globally on Dealogic=E2=80=99s=
+ M&A league table.Part of that is due to Credit Suisse=E2=80=99s dominance =
+in the special-purpose acquisition company market, underwriting a higher do=
+llar volume of such vehicles than any other bank last year, according to SP=
+AC Research.Adding to the frustration, some bankers feel Credit Suisse=E2=
+=80=99s management has done little to quell concerns about the impact of th=
+e loss on compensation.Well. Imagine being a Credit Suisse shareholder. Ima=
+gine if management=C2=A0had=C2=A0quelled those concerns. =E2=80=9CWe had a =
+terrible year, but we=E2=80=99re going to pay almost all of our investment =
+bankers=C2=A0as though=C2=A0we had had a great year, because almost all of=
+=C2=A0them=C2=A0did. A couple of people had terrible years, which brought d=
+own the average, and we have fired them and replaced them with new people w=
+hom we really think can turn things around, so we=E2=80=99re=C2=A0paying th=
+em well too.=E2=80=9DThe standard model is that traders =E2=80=94=C2=A0and =
+prime brokers, and investment bankers =E2=80=94=C2=A0at a bank have a call =
+option on their production: If they make a lot of money for the bank they p=
+articipate in=C2=A0the upside, but if they lose a lot of money they (mostly=
+)=C2=A0can=E2=80=99t get less than zero. This model is a problem when one p=
+rime broker loses the bank a whole ton of money: When almost everyone at Cr=
+edit Suisse makes money, you have to pay off all of their options, but when=
+ Credit Suisse as a whole loses money that is hard to do and kind of embarr=
+assing.The deliHow are things at the $2 billion deli?Hometown International=
+, the mystifying New Jersey deli company that is valued at nearly $100 mill=
+ion on the stock market =E2=80=94 despite running just a single deli =E2=80=
+=94 has ousted its CEO, according to a financial filing.=C2=A0Paul Morina, =
+a local high school principal and renowned wrestling coach in the area, was=
+ removed after a vote by majority shareholders, according to the late Frida=
+y filing.Morina owns about 1.5 million shares of the Paulsboro-based compan=
+y, which are worth more than $18.5 million based on the company=E2=80=99s c=
+urrent stock price.=C2=A0Shareholders of the company also ousted the compan=
+y=E2=80=99s only other executive, vice president and secretary Christine Li=
+ndenmuth, who works in her day job with Morina as an administrator at Pauls=
+boro High School.Here is the filing, from last Friday. It is not quite accu=
+rate to say =E2=80=94=C2=A0as the New York Post=E2=80=99s headline does =E2=
+=80=94=C2=A0that shareholders=C2=A0fired=C2=A0Morina. It=E2=80=99s more tha=
+t they demoted him. He lost a lot of titles:On May 13, 2021, the Board remo=
+ved Mr. Morina from all officer positions he held with the Company, includi=
+ng President, Chief Executive Officer, Chief Financial Officer, and Treasur=
+er of the Corporation, effective immediately as of such date.=C2=A0But he s=
+till runs the deli:Mr. Morina and Ms. Lindenmuth remain principals of the C=
+ompany=E2=80=99s operating subsidiary, Your Hometown Deli, LLC.See, Your Ho=
+metown Deli is a deli in Paulsboro, New Jersey, that occasionally sells san=
+dwiches, mainly=C2=A0to curious financial journalists. Hometown Internation=
+al Inc. is a U.S. public company, with a basic market capitalization of  ab=
+out $100 million and a fully diluted market cap of  about $2 billion, that =
+is some sort of mechanism for  taking a foreign company public in U.S. mark=
+ets and that also happens to own the deli. The $2 billion public company is=
+ now run by Peter Coker=C2=A0Jr., a Hong Kong-based financier who was alrea=
+dy the chairman of the board and a major investor in Hometown International=
+, and who =E2=80=9Cintends to devote his full time to seeking a business co=
+mbination for the Company,=E2=80=9D as the company said back in March. It m=
+akes sense that the mergers guy in Hong Kong would run the $2 billion compa=
+ny that=E2=80=99s in the business of merging with an Asian company, and the=
+ wrestling coach in New Jersey would run the local deli in New Jersey. Sens=
+ible division of labor! It was always weird to have the New Jersey wrestlin=
+g guy in charge of the Asian merger company! Also it=E2=80=99s weird that t=
+hey=E2=80=99re the same company.The deli has had some other good filings re=
+cently. Yesterday it disclosed that its quarterly report will be late, =E2=
+=80=9Cbecause the Registrant needs additional time to complete certain disc=
+losures and analyses to be included in the Report.=E2=80=9D The relevant qu=
+arter ended on March 31, before Hometown became famous, so the problem is n=
+ot that they sold so many sandwiches to so many financial journalists that =
+their accounting systems couldn=E2=80=99t keep up. I assume that, given the=
+ir recent scrutiny, everything just needs to be lawyered a bit more careful=
+ly than it has been in the past.Also here is an April 30 filing in which Ho=
+metown =E2=80=9Cdisavows the price of its publicly quoted stock on the OTC =
+Markets under the trading symbol =E2=80=98HWIN.=E2=80=99=C2=A0Management is=
+ aware of no basis to support the Company=E2=80=99s stock price, based upon=
+ its revenue or assets.=E2=80=9D I am not sure I have ever seen a company =
+=E2=80=9Cdisavow=E2=80=9D its stock price before, but I suppose it makes se=
+nse. The filing accurately notes that =E2=80=9Cthere has not been, nor is t=
+here, significant trading volume in the Company=E2=80=99s stock,=E2=80=9D s=
+o it=E2=80=99s not like anyone is particularly getting ripped off by the de=
+li=E2=80=99s weird stock price. It=E2=80=99s just a weird artifact. Still, =
+probably best to disavow it.Elon Musk impersonatorsHas anyone actually done=
+ a crypto doubling giveaway? Like there=E2=80=99s a recurring thing on Twit=
+ter where someone will=C2=A0tweet =E2=80=9Cif you send one Dogecoin to my w=
+allet, I will send 2 Dogecoins back to yours, I just love sharing the wealt=
+h.=E2=80=9D And then people =E2=80=94=C2=A0not many people, but it=E2=80=99=
+s a big internet, and it=E2=80=99s enough people =E2=80=94=C2=A0will send i=
+n their Dogecoins, and of course of course of course of course of course of=
+ course of course of course of course of course they will not get any Dogec=
+oins back, because this is the simplest stupidest imaginable scam.But my qu=
+estion is, is there any precedent for it=C2=A0not=C2=A0being a scam? Has an=
+yone ever said =E2=80=9Cif you send one Dogecoin to my wallet, I will send =
+2 Dogecoins back to yours,=E2=80=9D and then actually done it because they =
+enjoy sharing the wealth so much? It does not really match with my experien=
+ce of human nature, but perhaps I am just a cynical nocoiner and in fact me=
+mbers of the crypto community are constantly giving back by =E2=80=A6=C2=A0=
+asking people to send them money and then =E2=80=A6=C2=A0sending back more =
+money? Ugh if you want to share the wealth why ask for money first, this is=
+ so dumb, how does anyone fall for it.I suppose if you tweet this scam from=
+ an account like =E2=80=9C@coinscam42069=E2=80=9D it can work, but ideally =
+you will tweet it as a reply to a popular tweet from a crypto celebrity, an=
+d you will use=C2=A0an account like =E2=80=9C@eIonmusk=E2=80=9D (with a cap=
+ital I) or =E2=80=9C@VitaIikButerin_,=E2=80=9D some imperceptible modificat=
+ion of a crypto celebrity=E2=80=99s account. (For a while Vitalik Buterin, =
+the founder of Ethereum, used =E2=80=9CVitalik Non-giver of Ether=E2=80=9D =
+as his Twitter display name, to try to discourage these scams.) Or ideally=
+=C2=A0you=E2=80=99d tweet it from Musk=E2=80=99s=C2=A0actual=C2=A0Twitter a=
+ccount (but using your Bitcoin wallet address), as one hacker did last year=
+ after hijacking a bunch of celebrity Twitter accounts. I don=E2=80=99t kno=
+w why it would work even then! But it does.Anyway here=E2=80=99s the U.S. F=
+ederal Trade Commission:Since October 2020, consumers have reported losing =
+more than $80 million to cryptocurrency investment scams, an increase of mo=
+re than ten-fold year-over-year, according to a new data analysis from the =
+Federal Trade Commission.In a new consumer protection data spotlight, the F=
+TC breaks down the contents of nearly 7,000 reports received from consumers=
+ about these scams in the last quarter of 2020 and the first quarter of 202=
+1. The median amount consumers reported losing to the scams was $1,900.The =
+spotlight notes that cryptocurrency investment scams take on a variety of f=
+orms, sometimes starting as offers of investment =E2=80=9Ctips=E2=80=9D or =
+=E2=80=9Csecrets=E2=80=9D in online message boards that lead people to bogu=
+s investment websites. Another common form of the scam involves a promise t=
+hat a celebrity associated with cryptocurrency will multiply any cryptocurr=
+ency you send to their wallet and send it back. In fact, consumers reported=
+ losing more than $2 million to Elon Musk impersonators alone since October=
+.Those are the=C2=A0reported=C2=A0ones. Presumably a lot of people sending =
+cryptocurrency to Elon Musk impersonators are too embarrassed, or too skept=
+ical of traditional government regulation, to report it to the FTC.Things h=
+appenFidelity to  Allow Teenagers to Trade Stocks With No-Fee Accounts. JPM=
+organ=E2=80=99s Lake, Piepszak to  Run Consumer Unit; Smith Leaves. Goldman=
+ Taps Uber Executive to Run Its Consumer Bank. The secret life of Ian Osbor=
+ne, the shadowy 38-year-old cofounder of Chamath Palihapitiya's SPAC who ha=
+s built the ultimate black book of billionaires. Fund Managers Say =E2=80=
+=98Long Bitcoin=E2=80=99 Is the  Most Crowded Trade in the World. MicroStra=
+tegy Builds Up  Bitcoin Cache by $10 Million.=C2=A0=E2=80=9CIf somebody has=
+ a tendency to be a little bit scared of insects, this would be a great opp=
+ortunity to  develop a full-blown fear.=E2=80=9DIf you'd like to get=C2=A0M=
+oney=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0=
+subscribe at this link. Or you can subscribe to Money Stuff and other great=
+ Bloomberg newsletters here. Thanks![1] In volatility circles, it is consid=
+ered somewhat gauche to quote VIX moves in percentages. (The level of the V=
+IX is essentially a percentage =E2=80=94=C2=A0it is, roughly, the expected =
+future annualized standard deviation of S&P 500 moves =E2=80=94=C2=A0so it=
+=E2=80=99s confusing to talk about percentage moves of a percentage.) Here,=
+ though, it does seem notable that VIX more than doubled, because that ough=
+t to lead to a 100% (or more?) loss in the XIV.[2] All of this is somewhat =
+speculative in that it=E2=80=99s still not entirely clear that Credit Suiss=
+e hedged XIV in the expected way. There is some indication that Credit Suis=
+se may have laid off some or all of its XIV risk to some counterparty (pres=
+umably another bank, or possibly a hedge fund), who then presumably hedged =
+it in the expected way. Most likely either (1) Credit Suisse did the standa=
+rd hedging, pushed up the prices of the futures, and made money, or else (2=
+) *its counterparty* did the standard hedging, pushed up the prices of the =
+futures, and made money =E2=80=94=C2=A0so this description is roughly accur=
+ate except that someone else made the money. (We discussed this possibility=
+  at footnote 9 here.) It is also possible that Credit Suisse laid off the =
+exposure to a counterparty who *didn=E2=80=99t* hedge in the expected way =
+=E2=80=94=C2=A0who wanted long VIX exposure, say, or who hedged by issuing =
+a VIX ETN or shorting an ETF or whatever. Given the price moves of the futu=
+res, though, this seems a bit less likely. In any case I suppose we=E2=80=
+=99ll find out when the XIV case goes to trial.[3] In last month=E2=80=99s =
+opinion in the XIV noteholders=E2=80=99 case against Credit Suisse and Janu=
+s, the court noted that Janus *could have* just calculated the value of the=
+ XIV notes itself, from easily available futures data and a mechanical form=
+ula: =E2=80=9CThe complaint alleges in a conclusory fashion that JIC had ac=
+cess to real-time pricing data for VIX futures contracts such that it could=
+ have monitored the accuracy of the VIX Futures Index.=E2=80=9D But it foun=
+d Janus had no reason to do that, because S&P was doing it: =E2=80=9CThe Of=
+fering Documents specified that JIC would rely on a third party, S&P, to ac=
+curately calculate the VIX Futures Index. It would be unreasonable to infer=
+ that, despite this plain effort to reduce JIC=E2=80=99s administrative bur=
+den, JIC nonetheless devoted resources to calculating a redundant pricing i=
+ndex for VIX futures contracts.=E2=80=9D[4] I am ignoring structural featur=
+es like the sponsor=E2=80=99s promote, the warrants, and the PIPE (private =
+investment in public equity) deal that usually accompanies the SPAC; this i=
+s a schematic rather than a technical description.[5] Just, like, the SPAC =
+has 10 million shares and $100 million in trust; it gives the $100 million =
+to the target and distributes 10 million target shares to its shareholders;=
+ the 10 million target shares are 16.67% of the combined company; the combi=
+ned company=E2=80=99s market cap is $750 million; the 10 million shares for=
+ SPAC shareholders are worth $125 million, or $12.50 each. Again ignoring w=
+arrants, sponsor promotes, PIPEs, all the actual details of SPACs.
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce7vtg.64na/24a215a1.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_12881463_2066252706.1621355460340
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23882452.285958/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB577=
+3d5aa"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"8">
+<tr>
+<td width=3D"206" align=3D"center">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB0f7b6ba=
+e">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">XIV</h2><p style=3D"margin: 16px 0;">Credit Suis=
+se Group AG used to have a product called XIV, the VelocityShares Daily Inv=
+erse VIX Short-Term ETN, an exchange-traded note that you could buy to bet =
+against volatility. Loosely speaking, XIV gave you the daily inverse of VIX=
+, the CBOE Volatility Index: If the VIX went up by 5% in a day, you lost 5%=
+ of your money; if it went down by 10% in a day, you added 10% to your mone=
+y. One day =E2=80=94=C2=A0Monday, Feb. 5, 2018 =E2=80=94=C2=A0the VIX went =
+up by 115.6%, from 17.3 the previous Friday to 37.3 that day.[1] So XIV inv=
+estors lost all their money that day, and XIV doesn=E2=80=99t exist anymore=
+. Fine!?=C2=A0</p><p style=3D"margin: 16px 0;">But that was an oversimplifi=
+ed description of how XIV works. Actually it tracked, not the actual VIX, b=
+ut changes in=C2=A0an index of near-term=C2=A0<em>futures contracts=C2=A0</=
+em>on the VIX. The reason for this is that Credit Suisse, the issuer of the=
+ exchange-traded note, had to hedge its exposure: If VIX went down, Credit =
+Suisse owed XIV holders more money. It could hedge that risk by being short=
+ VIX futures: If VIX went down, it would make more money on the futures. Be=
+cause futures expire, it had to roll those futures over =E2=80=94=C2=A0shor=
+t some next-month futures and then, as their expiration approaches, close s=
+ome of them out and short some following-month futures=C2=A0=E2=80=94=C2=A0=
+and there is an index that=C2=A0mechanically tracks that strategy, basicall=
+y a weighted=C2=A0average of the prices of the next couple of months of VIX=
+ futures, with the weighting changing as one future gets closer to expirati=
+on. The index is called the <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/23882452.285958/aHR0cHM6Ly93d3cuc3BnbG9iYWwuY29tL3NwZGppL2VuL2luZ=
+GljZXMvc3RyYXRlZ3kvc3AtNTAwLXZpeC1zaG9ydC10ZXJtLWluZGV4LW1jYXAvI292ZXJ2aWV3=
+/607f07ceef4b8524a319a23cB2ab3e6c6" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">S&amp;P 500 VIX Short-Term Futures Index ER</a>; =
+you can read how it=E2=80=99s calculated <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/23882452.285958/aHR0cHM6Ly93d3cuc3BnbG9iYWwuY29tL3Nw=
+ZGppL2VuL2RvY3VtZW50cy9tZXRob2RvbG9naWVzL21ldGhvZG9sb2d5LXNwLXZpeC1mdXR1cmV=
+zLWluZGljZXMucGRm/607f07ceef4b8524a319a23cB65db8631" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">here</a>.=C2=A0S&amp;P Dow Jones=
+ Indices LLC, the index provider, looks at the prices of VIX futures, plugs=
+ them into a formula, and calculates the level of the index from the future=
+s prices.</p><p style=3D"margin: 16px 0;">On that Monday, Feb. 5, 2018, whe=
+n VIX more than doubled, the VIX futures index did not=C2=A0<em>quite=C2=A0=
+</em>double; XIV investors lost, not 100% of their money (or 115%), but abo=
+ut 95%. The XIV notes had a provision that, if they lost more than 80% of t=
+heir value in one day, Credit Suisse could redeem them, and it did. It paid=
+ investors $5.99 per note; the XIV notes had closed at $115.55 on Friday, F=
+eb. 2, 2018, the trading day before it blew up.</p><p style=3D"margin: 16px=
+ 0;">Investors in XIV were not happy about losing (almost) all their money.=
+ One reason they were not happy about it has to do with Credit Suisse=E2=80=
+=99s hedging of the XIV notes. To hedge the notes, Credit Suisse had to sho=
+rt VIX futures, and it had to rebalance its hedge each day as the VIX futur=
+es index=C2=A0went up and down. When the index went=C2=A0<em>up</em>, Credi=
+t Suisse had to=C2=A0<em>buy back=C2=A0</em>some of the futures it had shor=
+ted. This caused the futures index to go up more, which caused it to buy ba=
+ck more futures, etc. On Feb. 5, 2018, when the VIX went up a lot, (1) Cred=
+it Suisse apparently bought a whole bunch of futures, (2) this drove the VI=
+X futures index up even more, (3) one result was that Credit Suisse=E2=80=
+=99s customers, the owners of XIV notes, lost all their money, and (4) anot=
+her result=C2=A0is probably that Credit Suisse=C2=A0<em>made=C2=A0</em>a lo=
+t of money.[2]</p><p style=3D"margin: 16px 0;">The customers sued, claiming=
+ that Credit Suisse=E2=80=99s hedging activity =E2=80=94=C2=A0which is the =
+standard way to hedge this product, and was fully disclosed, but which does=
+ look kinda bad in hindsight! =E2=80=94=C2=A0was actually market manipulati=
+on. A court tossed out their case, but last month an appellate court brough=
+t it back, concluding that the customers could try to persuade a jury that =
+Credit Suisse=E2=80=99s hedging was market manipulation. We <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/23882452.285958/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMDQvdW5kZXItYXJtb3VyLWVh=
+cm5pbmdzLXdlcmUtYS1iaXQtbWlzbGVhZGluZw/607f07ceef4b8524a319a23cBa80e4a44" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> talked abo=
+ut the decision</a>=C2=A0a couple of weeks ago.</p><p style=3D"margin: 16px=
+ 0;">There was, however, another reason that the XIV investors weren=E2=80=
+=99t happy. Some of them bought XIV notes during the day on Feb. 5, 2018. I=
+n particular, some of them bought XIV notes after 4 p.m. that day, when the=
+ value of the XIV notes had already collapsed. But they didn=E2=80=99t know=
+ that yet, because Credit Suisse was reporting incorrect values for the XIV=
+ notes. (Technically the values were calculated by Janus Henderson Group Pl=
+c, which marketed XIV for Credit Suisse, and distributed by Nasdaq, which l=
+isted the XIV notes.)=C2=A0From <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/23882452.285958/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvd=
+XNlcnMvaXFqV0hCRmRmeElVL3IwOHNWLjlQMVBKcy92MA/607f07ceef4b8524a319a23cBd1ee=
+ad34" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">the =
+appellate court opinion last month</a>:</p><blockquote><p style=3D"margin: =
+16px 0;">For one hour from 4:09 p.m. to 5:09 p.m., the intraday indicative =
+value for XIV Notes was not updated every 15 seconds as required and did no=
+t reflect an accurate valuation of the notes. Instead, during this hour, th=
+e intraday indicative value updated only sporadically and valued the XIV No=
+tes at about $24 to $27 per note (the Flatline Value). This published Flatl=
+ine Value persisted notwithstanding that, in reality, each note almost imme=
+diately was worth between $4.22 and $4.40.=C2=A0It was not until 5:09 p.m. =
+(and after more than thirty minutes during which the intraday indicative va=
+lue failed to update at all) that NASDAQ disseminated the correct intraday =
+indicative value of $4.22. During this hour, investors purchased more than =
+$700 million in XIV Notes at inflated secondary market prices based on thei=
+r incorrect belief that XIV Notes had weathered the spike in market volatil=
+ity without triggering an Acceleration Event.</p></blockquote><p style=3D"m=
+argin: 16px 0;">While the VIX futures=C2=A0had almost doubled and effective=
+ly wiped out the value of XIV, XIV investors didn=E2=80=99t know that yet. =
+Their screens told them that the XIV notes were still worth $24+, so they <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDItMDkvaW52ZX=
+JzZS12b2xhdGlsaXR5LXByb2R1Y3RzLWFsbW9zdC13b3JrZWQ/607f07ceef4b8524a319a23cB=
+bf312d8a" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+paid $24+ for the notes</a>. It turned out that the notes were worth about =
+$4 and they lost most of their money. Oops.</p><p style=3D"margin: 16px 0;"=
+>Investors sued Credit Suisse and Janus over this too, and the court tossed=
+ that lawsuit out too, and the appellate court did=C2=A0<em>not=C2=A0</em>b=
+ring it back. Basically it concluded that Credit Suisse and Janus didn=E2=
+=80=99t do anything wrong here. The value of XIV =E2=80=94=C2=A0the intrada=
+y indicative value that they were supposed to report =E2=80=94=C2=A0was bas=
+ed on that=C2=A0<em>index=C2=A0</em>of short-term VIX futures,=C2=A0the S&a=
+mp;P 500 VIX Short-Term Futures Index ER. Credit Suisse and Janus did their=
+ calculations right, but the=C2=A0<em>index=C2=A0</em>wasn=E2=80=99t update=
+d properly after 4 p.m. that day. That=E2=80=99s not their fault; that=E2=
+=80=99s the fault of the index provider.</p><p style=3D"margin: 16px 0;">Th=
+e index provider is S&amp;P Dow Jones Indices. Apparently XIV investors for=
+got to sue S&amp;P, but the U.S. Securities and Exchange Commission did not=
+; yesterday it <a href=3D"https://link.mail.bloombergbusiness.com/click/238=
+82452.285958/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMS04NA=
+/607f07ceef4b8524a319a23cBc7caf8ec" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">announced a $9 million settlement</a> with S&amp;=
+P:</p><blockquote><p style=3D"margin: 16px 0;">The SEC=E2=80=99s order find=
+s that the S&amp;P 500 VIX Short Term Futures Index ER (Index) published by=
+ S&amp;P DJI was intended to calculate values based on real-time prices of =
+certain CBOE Volatility Index (VIX) futures contracts. According to the ord=
+er, S&amp;P DJI licenses the Index to, among others, issuers that use it to=
+ offer securities, including the issuer of the inverse exchange-traded note=
+ called XIV, and the license agreement requires S&amp;P DJI=E2=80=99s appro=
+val of the description of the index in offering documents. On Monday, Feb. =
+5, 2018, the VIX experienced a spike of 115%, but the Index remained static=
+ during certain intervals between 4:00 p.m. and 5:08 p.m. that day.=C2=A0Ac=
+cording to the SEC=E2=80=99s order, this was due to an undisclosed =E2=80=
+=9CAuto Hold=E2=80=9D feature, which is triggered if an index value breache=
+s certain thresholds, at which point the immediately prior index value cont=
+inues to be reported. The SEC found that XIV=E2=80=99s issuer derived infor=
+mation about the Index from S&amp;P DJI=E2=80=99s public disclosures about =
+the Index, but the Auto Hold feature had never been publicly disclosed. The=
+ SEC=E2=80=99s order finds that S&amp;P DJI personnel did not release the A=
+uto Hold for the Index during the referenced intervals, as they had the abi=
+lity to do, resulting in the publication and dissemination of stale and sta=
+tic Index values, rather than values based on the real-time prices of certa=
+in VIX futures contracts. ...</p><p style=3D"margin: 16px 0;">=E2=80=9CInde=
+x providers like S&amp;P DJI play a crucial role in the financial markets,=
+=E2=80=9D said Daniel Michael, Chief of the SEC Enforcement Division=E2=80=
+=99s Complex Financial Instruments Unit. =E2=80=9CWhen index providers lice=
+nse their indices for the issuance of securities, as S&amp;P DJI did here, =
+they must ensure that the disclosure of critical features of their products=
+ as well as the publication of real-time values are accurate.=E2=80=9D</p><=
+/blockquote><p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/23882452.285958/aHR0cHM6Ly93d3cuc2VjLmdvdi9s=
+aXRpZ2F0aW9uL2FkbWluLzIwMjEvMzMtMTA5NDMucGRm/607f07ceef4b8524a319a23cB6ac9e=
+d3c" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">the S=
+EC=E2=80=99s order</a>. Basically what happened here is that S&amp;P=E2=80=
+=99s computer=C2=A0automatically calculated and sent out the levels of the =
+index every five seconds. But the computer=C2=A0had a sort of sanity-check =
+feature, the =E2=80=9Cauto hold,=E2=80=9D=C2=A0that said that, if the level=
+ of an index moved too much too fast, it would not report the new level (an=
+d would keep reporting the old level) until a human being took a look and m=
+ade sure that nothing had gone wrong. This makes sense! If you have an inde=
+x that is at 100, and five seconds later it=E2=80=99s at 70,=C2=A0<em>proba=
+bly=C2=A0</em>what happened is that you lost access to a data feed or some =
+trade was reported wrong or there was some other dumb error that should not=
+ really affect the level of the index, and if the computer just blindly sen=
+ds out the new number it will propagate that error and make things worse. S=
+o instead S&amp;P said, if the index moves too much, we won=E2=80=99t send =
+out the new number until a human looks at it.</p><p style=3D"margin: 16px 0=
+;">Unfortunately on Feb. 5, 2021, the humans were very busy:</p><blockquote=
+><p style=3D"margin: 16px 0;">On February 5, one of the two index managers =
+responsible for monitoring the Index was out of the office. As a result, ju=
+st one index manager (=E2=80=9CIndex Manager=E2=80=9D) was left to monitor =
+the Index, which was one of thousands of indices he was tasked to monitor t=
+hat day.</p></blockquote><p style=3D"margin: 16px 0;">Also the market was c=
+razy, and the index kept moving around a lot, which meant that it kept trig=
+gering auto holds:</p><blockquote><p style=3D"margin: 16px 0;">Following th=
+e close of the equities markets at 4:00 PM, but before the close of the fut=
+ures markets at 4:15 PM, prices of the VIX futures contracts used to calcul=
+ate the Index spiked. As a result, the Index experienced a series of Auto H=
+olds triggered by breaches of the Hourly Threshold. Six minutes before the =
+4:15 PM close of the futures markets, at 4:09:40 PM, the Index experienced =
+an Auto Hold, freezing the tick at 86.51. GRIP [S&amp;P=E2=80=99s=C2=A0auto=
+mated computer system, Global Realtime Index Platform]=C2=A0automatically r=
+eleased this Auto Hold at 4:12:20 PM, though the Index again experienced an=
+ Auto Hold at 4:13:00 PM, freezing the tick at 87.51. This Auto Hold lasted=
+ for more than 20 minutes until 4:35:45 PM, when GRIP again automatically r=
+eleased the Auto Hold. The Index experienced another Auto Hold at 4:38:35 P=
+M, freezing the tick at 87.6, which was the last value published by S&amp;P=
+ DJI until it published the Index=E2=80=99s closing value at 5:08 PM.</p></=
+blockquote><p style=3D"margin: 16px 0;">And the one guy in charge of keepin=
+g track of this was too busy doing other, apparently more pressing things:<=
+/p><blockquote><p style=3D"margin: 16px 0;">Despite receiving alerts from G=
+RIP regarding these Auto Holds for the Index, the Index Manager did not rel=
+ease them manually or investigate their cause. Instead, based on oral instr=
+uctions from his mid-level supervisor, each day the Index Manager prioritiz=
+ed end-of-day validations over real-time price and index level monitoring b=
+eginning at 3:10 PM, with this closing process typically running until the =
+end of the 4:00 PM hour or beginning of the 5:00 PM hour. This prioritizati=
+on of closing files was intended in part to meet S&amp;P DJI=E2=80=99s clie=
+nts=E2=80=99 expectations with respect to the timing of delivery of the clo=
+sing files on a given day.</p></blockquote><p style=3D"margin: 16px 0;">In =
+general, getting the closing level of an index out promptly and correctly i=
+s probably more important than constantly updating its real-time levels dur=
+ing the day. On that particular day it was not. S&amp;P=E2=80=99s misplaced=
+ focus that day worked out=C2=A0poorly for XIV holders:</p><blockquote><p s=
+tyle=3D"margin: 16px 0;">Because the Index is the primary input for calcula=
+ting XIV=E2=80=99s Intraday Indicative Value, the Intraday Indicative Value=
+ experienced flatlines while the Index was on Auto Hold. For example, due t=
+o the Auto Hold that began at 4:13:00 PM and lasted until 4:35:45 PM, the I=
+ntraday Indicative Value published to the market by XIV=E2=80=99s calculati=
+on agent remained static at 24.8933.</p><p style=3D"margin: 16px 0;">Immedi=
+ately following S&amp;P DJI=E2=80=99s dissemination of the Index=E2=80=99s =
+closing value, XIV=E2=80=99s calculation agent published the Closing Indica=
+tive Value=E2=80=94i.e., the Indicative Value as of the close of the future=
+s market at 4:15 PM=E2=80=94of 4.2217 at 5:09 PM. The published Intraday In=
+dicative Values during the 4:00 PM hour until the publication of the Closin=
+g Indicative Value at 5:09 PM never dropped below 24, let alone reached the=
+ Closing Indicative Value of 4.2217.</p></blockquote><p style=3D"margin: 16=
+px 0;">Oops. Credit Suisse actually called S&amp;P that evening to ask what=
+ had happened, and learned about auto hold for the first time:</p><blockquo=
+te><p style=3D"margin: 16px 0;">At 8:16 PM, an S&amp;P DJI sales representa=
+tive informed CSSU of the existence of the Auto Hold: =E2=80=9CDue to the l=
+arge swing in the VIX futures contract prices the index was put on an auto-=
+hold by our intraday calculation system. This is what caused the flatline. =
+. . . Further, our policy is to not restate the ticks for indices that were=
+ put on auto-hold, so the values will remain as is.=E2=80=9D Until the even=
+ing of February 5, CSAG had not been informed about the Auto Hold or how it=
+ impacted the Index.</p></blockquote><p style=3D"margin: 16px 0;">This is a=
+ll not great, but it is a little hard to know exactly what got S&amp;P in t=
+rouble here. The SEC=E2=80=99s order says S&amp;P =E2=80=9Cviolated Section=
+ 17(a)(3) of the Securities Act, which prohibits in the offer or sale of se=
+curities, engaging in any transaction, practice, or course of business whic=
+h operates or would operate as a fraud on the purchaser.=E2=80=9D So S&amp;=
+P did a fraud on the people who bought XIV? S&amp;P didn=E2=80=99t sell the=
+m any XIV notes, and didn=E2=80=99t make any money trading XIV. Credit Suis=
+se did. Credit Suisse did pay S&amp;P a licensing fee for the index, and I =
+suppose it was entitled to a working index? Maybe? Or maybe not; maybe it w=
+as just entitled to correct=C2=A0<em>disclosure=C2=A0</em>about the working=
+s of the index. The SEC makes a lot of the fact that S&amp;P has websites a=
+nd documents that describe its index methodology =E2=80=94=C2=A0how it calc=
+ulates and disseminates this index =E2=80=94=C2=A0but the auto hold procedu=
+re was not mentioned in those disclosures. If you buy the rights to the S&a=
+mp;P 500 VIX Short-Term Futures Index ER for use with your exchange-traded =
+note, I suppose you are entitled to know not just how it is usually calcula=
+ted but also how the error-correction procedures work.[3]</p><p style=3D"ma=
+rgin: 16px 0;">One way to interpret this is that index providers are not al=
+lowed to just use their own best judgment and internal policies=C2=A0to cal=
+culate their indexes and fix=C2=A0problems: They are quasi-official bodies,=
+ and their rules need to be written down and disclosed. S&amp;P had a fairl=
+y reasonable internal quality-control policy, and messed up the application=
+ of it a bit, but it got in trouble not so much for messing up but for=C2=
+=A0<em>not disclosing the policy</em>. S&amp;P is too important to have an =
+internal quality-control policy, reasonable or not, messed up or not; its i=
+ndexes are so important that everything about how they work needs to be spe=
+lled out in advance and made public and subject to rigorous checking.=C2=A0=
+</p><p style=3D"margin: 16px 0;">I guess we will see more of this? S&amp;P =
+Dow Jones <a href=3D"https://link.mail.bloombergbusiness.com/click/23882452=
+.285958/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRG93X0pvbmVzX0luZHVzdHJpYWx=
+fQXZlcmFnZSNIaXN0b3J5/607f07ceef4b8524a319a23cB2a611c4c" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">got its start in life</a> 13=
+7 years ago, when Charles Dow started adding=C2=A0up the stock prices of 11=
+ companies each afternoon and dividing by 11. Hardly seems worth regulating=
+; no real consequences turned on his choice of stocks or his methodology or=
+ even whether he got the math wrong. Now trillions of dollars of investment=
+ are directed by indexes, companies can <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/23882452.285958/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMDEtMDYvdGVzbGEta2VwdC1idXN5LWluLTIwMjA/607f07ce=
+ef4b8524a319a23cBa17da477" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> raise billions of dollars</a> when they are added to a bi=
+g index, and a mistake in the index math =E2=80=94=C2=A0even S&amp;P=E2=80=
+=99s mistake here, a failure to update a fairly arcane index for an hour af=
+ter the market closed =E2=80=94=C2=A0can cost investors hundreds of million=
+s of dollars. S&amp;P is not just some company that writes down lists of st=
+ocks and will show you the lists for a fee; it is practically the law; it s=
+ets the rules and the terms for how the market operates. It has to get them=
+ right.</p><h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&q=
+uot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; =
+border-bottom-width: 1px; border-bottom-style: dotted; padding-bottom: 5px;=
+ margin-top: 30px; margin-bottom: 0;">SPAC SPAC SPAC</h2><p style=3D"margin=
+: 16px 0;">The way a special purpose acquisition company works is that a bu=
+nch of investors put $10 into a pot in exchange for=C2=A0one share of the p=
+ot. The pot then has=C2=A0money, and the sponsor of the pot =E2=80=94=C2=A0=
+the SPAC =E2=80=94=C2=A0goes out looking for a company to merge with. When =
+the sponsor finds a company, the pot buys shares of the company at $10 each=
+, to give to its shareholders. The tricky part is that the sponsor and the =
+company have to negotiate how much of the company the SPAC gets for its $10=
+. If a SPAC has 10 million shares (and thus $100 million in its pot), and i=
+t finds a nice little company to take public, it will want to do the merger=
+ at a low valuation. The SPAC sponsor might say =E2=80=9Cwe think your comp=
+any is worth $400 million pre-money, or $500 million when merged with our p=
+ot of cash, so we should get 20% of the company for our $100 million.=E2=80=
+=9D And the company will reply =E2=80=9Cno we are worth $900 million now, o=
+r $1 billion with the money, so you should get 10% of the company for your =
+$100 million.=E2=80=9D</p><p style=3D"margin: 16px 0;">And they=E2=80=99ll =
+negotiate and come to a deal and announce the deal, and then the SPAC=E2=80=
+=99s shares =E2=80=94=C2=A0which trade publicly on the stock exchange the w=
+hole time =E2=80=94=C2=A0will trade up or down. And how the SPAC=E2=80=99s =
+shares trade will let you know how good the deal is. So if they agree on a =
+$500 million pre-money valuation ($600 million post-money), the SPAC=E2=80=
+=99s shareholders=C2=A0will get 16.67% of the combined company for their $1=
+00 million.[4] If the company is =E2=80=9Creally=E2=80=9D worth $750 millio=
+n post-money, then 16.67% of the company will be worth $125 million, and th=
+e SPAC will get more than its money=E2=80=99s worth. Its stock should trade=
+ up to $12.50.[5] If the company is =E2=80=9Creally=E2=80=9D worth $450 mil=
+lion, then the SPAC=E2=80=99s share will be worth $75 million, and the stoc=
+k will =E2=80=A6=C2=A0well, it shouldn=E2=80=99t=C2=A0trade down to $7.50, =
+because the SPAC=E2=80=99s shareholders can <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/23882452.285958/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDEtMDgvbW9uZXktc3R1ZmYtc3BhYy1tYWdpYy1pc24t=
+dC1mcmVl/607f07ceef4b8524a319a23cBbbb09187" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">take their $10 back</a> instead of rollin=
+g it into the deal. But it might trade down to like $9.95 as they wait to g=
+et their money back.</p><p style=3D"margin: 16px 0;">Of course in the real =
+world you won=E2=80=99t necessarily know what the company is =E2=80=9Creall=
+y=E2=80=9D worth; you should read the previous paragraph to mean more like =
+=E2=80=9Cif the market thinks that the company is really worth $750 million=
+,=E2=80=9D etc.</p><p style=3D"margin: 16px 0;">We have <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/23882452.285958/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjMvdGVzbGEtcml2YWwtbHVjaWQt=
+bW90b3JzLXBhaWQtYS1wcmljZS1mb3ItaXRzLXNwYWMtZGVhbA/607f07ceef4b8524a319a23c=
+Bc9099947" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>talked about this dynamic before</a>, and I have referred to it as the =E2=
+=80=9CSPAC pop.=E2=80=9D The idea is that the SPAC negotiates a=C2=A0<em>go=
+od=C2=A0</em>deal with the target company, one that undervalues the company=
+ and gives the SPAC shareholders a nice bargain. Because the shareholders s=
+ee this, the SPAC=E2=80=99s shares go up as soon as the deal is announced: =
+The SPAC shareholders are getting=C2=A0$12.50 worth of stock for their $10,=
+ so their shares trade up to $12.49 or whatever. And because =E2=80=94=C2=
+=A0when we talked about this in February =E2=80=94=C2=A0there was a history=
+ of SPACs getting good deals and trading up, lots of high-profile SPACs wou=
+ld trade at $12 or whatever even=C2=A0<em>before=C2=A0</em>they announced d=
+eals, because investors just expected the deals they announced to be good</=
+p><p style=3D"margin: 16px 0;">But there is nothing inevitable about any of=
+ this. Whether a SPAC negotiates a good deal or a bad deal depends on the S=
+PAC sponsor=E2=80=99s skills and motivation, the target company=E2=80=99s i=
+ncentives, the desires of the institutional investors who invest alongside =
+the SPAC, market conditions, etc. It also depends on competitive dynamics: =
+A company that needs to go public via SPAC (because it has no revenue and w=
+ould look weird doing a regular initial public offering), and that is negot=
+iating with only one SPAC (because it=E2=80=99s 2020 and SPACs are still so=
+mewhat uncommon), may have to give a SPAC a good deal to sign up a merger. =
+A company that can choose between a SPAC and an IPO, and that can choose to=
+ go public via any one of 20 SPACs because it=E2=80=99s mid-2021 and there =
+is a glut of SPACs chasing deals, will be able to negotiate a better deal f=
+or itself. Instead of giving a SPAC shares worth $12 or $15 in exchange for=
+ the $10 in its pot, the company might give the SPAC shares worth $10, or $=
+9, or $7.50.</p><p style=3D"margin: 16px 0;">Also, again, the valuation of =
+these shares is necessarily a subjective and market-driven thing. In a mark=
+et where SPAC deals are hot and investors are chasing the next exciting ele=
+ctric-vehicle SPAC, deals will trade up: A SPAC will announce a deal and in=
+vestors will say =E2=80=9Cmust be good, let=E2=80=99s buy it.=E2=80=9D In a=
+ market where SPACs are pass=C3=A9 and investors have been burned before, d=
+eals will trade down: A SPAC will announce a deal and investors will say =
+=E2=80=9Cmust be bad, let=E2=80=99s sell it.=E2=80=9D</p><p style=3D"margin=
+: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness.com/click/2388245=
+2.285958/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMWMyMmJjYjItNjE4NC00YzNiLTkyOD=
+QtYmIxNTJhNTc4NjI5/607f07ceef4b8524a319a23cBb29a6150" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">Now it=E2=80=99s bad</a>:</p><b=
+lockquote><p style=3D"margin: 16px 0;">Shares in special purpose acquisitio=
+n companies are sliding following takeover announcements, a marked reversal=
+ of the enthusiasm for these vehicles earlier this year which could threate=
+n their ability to do deals.=C2=A0</p><p style=3D"margin: 16px 0;">Of the 1=
+3 Spacs that have announced acquisitions in May, only one is trading above =
+$10, the level at which shares in blank-cheque companies are originally pri=
+ced, according to a Financial Times analysis of Refinitiv data.</p><p style=
+=3D"margin: 16px 0;">As recently as March, about nine out of 10 traded abov=
+e $10 in the wake of a deal announcement, according to Spac Research =E2=80=
+=94 and many significantly above. =E2=80=A6</p><p style=3D"margin: 16px 0;"=
+>=C2=A0=E2=80=9CThe retreat of retail investors has been particularly bad,=
+=E2=80=9D said a big Spac sponsor. =E2=80=9CRetail drove gigantic speculati=
+on from September until the bubble burst [in April] and now the Spac market=
+ is dead, dead, dead.=E2=80=9D =E2=80=A6</p></blockquote>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 14px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Paid Post</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;"><strong>84% of ultra-high-net-worth individu=
+als collect art. It makes sense =E2=80=94contemporary art appreciated 13.6%=
+ per year over the last 25 years vs. 8.9% returns for the S&amp;P 500.</str=
+ong>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/aH=
+R0cHM6Ly93d3cubWFzdGVyd29ya3MuaW8vP3V0bV9zb3VyY2U9bW9uZXlzdHVmZiZ1dG1fbWVka=
+XVtPW5ld3NsZXR0ZXImdXRtX2NhbXBhaWduPTMtMjItMjE/607f07ceef4b8524a319a23cBc4e=
+b9afe" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: underline;">
+Masterworks</a> has fractionalized investments in masterpieces by Basquiat =
+and Banksy. If you're looking for a tangible, non-correlated asset class, <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/aHR=
+0cHM6Ly93d3cubWFzdGVyd29ya3MuaW8vP3V0bV9zb3VyY2U9bW9uZXlzdHVmZiZ1dG1fbWVkaX=
+VtPW5ld3NsZXR0ZXImdXRtX2NhbXBhaWduPTMtMjItMjE/607f07ceef4b8524a319a23cCc4eb=
+9afe" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: underline;">
+check out Masterworks today</a>.=C2=A0=C2=A0</p>
+<p style=3D"margin: 10px 0px;">(See <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/23882452.285958/aHR0cHM6Ly93d3cubWFzdGVyd29ya3MuaW8vZGlzY=
+2xhaW1lcj91dG1fc291cmNlPW1vbmV5c3R1ZmYmdXRtX21lZGl1bT1uZXdzbGV0dGVyJnV0bV9j=
+YW1wYWlnbj0zLTIyLTIx/607f07ceef4b8524a319a23cBa5740a65" style=3D"color: #00=
+0000; text-decoration: underline;">Disclaimer</a>)</p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Masterworks</p><=
+/div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">Credit Suisse</h2><p style=3D"margin: 16px 0;">T=
+he way you get paid each year, as an investment banker, is some function of=
+ (1) how much money you brought in for the firm and (2) how much money the =
+firm made overall. I guess this is true of how most people get paid. But in=
+vestment bankers tend to put a particularly high value on their own contrib=
+utions, especially when they have a good year, and want to be rewarded for =
+their good year even if the firm overall had a bad year. Especially if othe=
+r firms had good years and there is some competition. So here is a story ab=
+out how <a href=3D"https://link.mail.bloombergbusiness.com/click/23882452.2=
+85958/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jcmVkaXQtc3Vpc3NlLWZhY2VzLWJhb=
+mtlci10YWxlbnQtZHJhaW4tYWZ0ZXItNS01LWJpbGxpb24tYXJjaGVnb3MtaGl0LTExNjIxMjg4=
+NzYxP21vZD1sZWFkX2ZlYXR1cmVfYmVsb3dfYV9wb3Mx/607f07ceef4b8524a319a23cB820f5=
+c98" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">a bun=
+ch of bankers are leaving Credit Suisse Group AG</a> after its prime broker=
+age division lost $5.5 billion financing Archegos Capital Management:</p><b=
+lockquote><p style=3D"margin: 16px 0;">Many Credit Suisse bankers have been=
+ frustrated that the failure of the bank=E2=80=99s prime-brokerage unit, wh=
+ich caters to investors like Archegos, overshadowed an otherwise strong run=
+ for the investment bank, especially within capital markets and advisory.</=
+p><p style=3D"margin: 16px 0;">The bank has advised on high-profile transac=
+tions lately including chip maker Advanced Micro Devices Inc.=E2=80=99s $35=
+ billion purchase of rival Xilinx Inc. and the $21 billion acquisition of S=
+peedway by the Japanese owner of the 7-Eleven convenience-store chain. In 2=
+020, it was ranked sixth globally on Dealogic=E2=80=99s M&amp;A league tabl=
+e.</p><p style=3D"margin: 16px 0;">Part of that is due to Credit Suisse=E2=
+=80=99s dominance in the special-purpose acquisition company market, underw=
+riting a higher dollar volume of such vehicles than any other bank last yea=
+r, according to SPAC Research.</p><p style=3D"margin: 16px 0;">Adding to th=
+e frustration, some bankers feel Credit Suisse=E2=80=99s management has don=
+e little to quell concerns about the impact of the loss on compensation.</p=
+></blockquote><p style=3D"margin: 16px 0;">Well. Imagine being a Credit Sui=
+sse shareholder. Imagine if management=C2=A0<em>had=C2=A0</em>quelled those=
+ concerns. =E2=80=9CWe had a terrible year, but we=E2=80=99re going to pay =
+almost all of our investment bankers=C2=A0<em>as though=C2=A0</em>we had ha=
+d a great year, because almost all of=C2=A0<em>them=C2=A0</em>did. A couple=
+ of people had terrible years, which brought down the average, and we have =
+fired them and replaced them with new people whom we really think can turn =
+things around, so we=E2=80=99re=C2=A0paying them well too.=E2=80=9D</p><p s=
+tyle=3D"margin: 16px 0;">The standard model is that traders =E2=80=94=C2=A0=
+and prime brokers, and investment bankers =E2=80=94=C2=A0at a bank have a c=
+all option on their production: If they make a lot of money for the bank th=
+ey participate in=C2=A0the upside, but if they lose a lot of money they (<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/aHR0=
+cHM6Ly93d3cubnl0aW1lcy5jb20vMjAxNy8wNC8xMC9idXNpbmVzcy93ZWxscy1mYXJnby1wYXk=
+tZXhlY3V0aXZlcy1hY2NvdW50cy1zY2FuZGFsLmh0bWw/607f07ceef4b8524a319a23cB94d4d=
+fe1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">mostl=
+y</a>)=C2=A0can=E2=80=99t get less than zero. This model is a problem when =
+one prime broker loses the bank a whole ton of money: When almost everyone =
+at Credit Suisse makes money, you have to pay off all of their options, but=
+ when Credit Suisse as a whole <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/23882452.285958/aHR0cHM6Ly93d3cuY3JlZGl0LXN1aXNzZS5jb20vYWJvdX=
+QtdXMvZW4vcmVwb3J0cy1yZXNlYXJjaC9xdWFydGVybHktaW50ZXJpbS1yZXBvcnRzL3F1YXJ0Z=
+XJseS1yZXN1bHRzLmh0bWw/607f07ceef4b8524a319a23cB3b2a4c05" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">loses money</a> that is har=
+d to do and kind of embarrassing.</p><h2 style=3D"font-weight: bold; font-f=
+amily: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacin=
+g: -1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style: do=
+tted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">The deli</h=
+2><p style=3D"margin: 16px 0;">How are things <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/23882452.285958/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjE=
+vMDUvMTcvc2hhcmVob2xkZXJzLW9mLTEwMG0tbmV3LWplcnNleS1kZWxpLWZpcmUtY2VvLXBhdW=
+wtbW9yaW5hLw/607f07ceef4b8524a319a23cB62eeca94" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">at the $2 billion deli</a>?</p><block=
+quote><p style=3D"margin: 16px 0;">Hometown International, the mystifying N=
+ew Jersey deli company that is valued at nearly $100 million on the stock m=
+arket =E2=80=94 despite running just a single deli =E2=80=94 has ousted its=
+ CEO, according to a financial filing.=C2=A0</p><p style=3D"margin: 16px 0;=
+">Paul Morina, a local high school principal and renowned wrestling coach i=
+n the area, was removed after a vote by majority shareholders, according to=
+ the late Friday filing.</p><p style=3D"margin: 16px 0;">Morina owns about =
+1.5 million shares of the Paulsboro-based company, which are worth more tha=
+n $18.5 million based on the company=E2=80=99s current stock price.=C2=A0</=
+p><p style=3D"margin: 16px 0;">Shareholders of the company also ousted the =
+company=E2=80=99s only other executive, vice president and secretary Christ=
+ine Lindenmuth, who works in her day job with Morina as an administrator at=
+ Paulsboro High School.</p></blockquote><p style=3D"margin: 16px 0;">Here i=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/=
+aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE2MzIwODEvMDAwMTIxMzk=
+wMDIxMDI2NTA2L2VhMTQwOTQxLThrX2hvbWV0b3duaW50bC5odG0/607f07ceef4b8524a319a2=
+3cB05495b1f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">the filing</a>, from last Friday. It is not quite accurate to say =E2=80=
+=94=C2=A0as the New York Post=E2=80=99s headline does =E2=80=94=C2=A0that s=
+hareholders=C2=A0<em>fired=C2=A0</em>Morina. It=E2=80=99s more that they de=
+moted him. He lost a lot of titles:</p><blockquote><p style=3D"margin: 16px=
+ 0;">On May 13, 2021, the Board removed Mr. Morina from all officer positio=
+ns he held with the Company, including President, Chief Executive Officer, =
+Chief Financial Officer, and Treasurer of the Corporation, effective immedi=
+ately as of such date.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">B=
+ut he still runs the deli:</p><blockquote><p style=3D"margin: 16px 0;">Mr. =
+Morina and Ms. Lindenmuth remain principals of the Company=E2=80=99s operat=
+ing subsidiary, Your Hometown Deli, LLC.</p></blockquote><p style=3D"margin=
+: 16px 0;">See, Your Hometown Deli is a deli in Paulsboro, New Jersey, that=
+ occasionally sells sandwiches, mainly=C2=A0to curious financial journalist=
+s. Hometown International Inc. is a U.S. public company, with a basic marke=
+t capitalization of <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/23882452.285958/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMjEtMDQtMTkvZXZlcnlvbmUtbG92ZXMtdGhlLTEwMC1taWxsaW9uLW5ldy1qZXJzZXktZGVs=
+aS1leGNlcHQtZGF2aWQtZWluaG9ybi1rbm90dHJtYg/607f07ceef4b8524a319a23cB5899d97=
+7" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> about =
+$100 million</a> and a fully diluted market cap of <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/23882452.285958/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMjAvaG9tZXRvd24taW50ZXJuYXRpb25hb=
+C1uZXctamVyc2V5LWRlbGktaXMtYWN0dWFsbHktd29ydGgtMi1iaWxsaW9u/607f07ceef4b852=
+4a319a23cB0576275b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> about $2 billion</a>, that is some sort of mechanism for <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMzAvaG9tZXRvd24t=
+aW50ZXJuYXRpb25hbC10aGUtMTAwLW1pbGxpb24tZGVsaS1pcy1hLXdlaXJkLXNwYWM/607f07c=
+eef4b8524a319a23cBae23f491" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> taking a foreign company public</a> in U.S. markets and =
+that also happens to own the deli. The $2 billion public company is now run=
+ by Peter Coker=C2=A0Jr., a Hong Kong-based financier who was already the c=
+hairman of the board and a major investor in Hometown International, and wh=
+o =E2=80=9Cintends to devote his full time to seeking a business combinatio=
+n for the Company,=E2=80=9D as the company <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/23882452.285958/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaX=
+Zlcy9lZGdhci9kYXRhLzE2MzIwODEvMDAwMTIxMzkwMDIxMDE4MDIwL2YxMGsyMDIwX2hvbWV0b=
+3duaW50ZXIuaHRt/607f07ceef4b8524a319a23cBcf9232d3" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">said back in March</a>. It makes s=
+ense that the mergers guy in Hong Kong would run the $2 billion company tha=
+t=E2=80=99s in the business of merging with an Asian company, and the wrest=
+ling coach in New Jersey would run the local deli in New Jersey. Sensible d=
+ivision of labor! It was always weird to have the New Jersey wrestling guy =
+in charge of the Asian merger company! Also it=E2=80=99s weird that they=E2=
+=80=99re the same company.</p><p style=3D"margin: 16px 0;">The deli has had=
+ some other good filings recently. Yesterday it disclosed that its <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE2MzIwODEvMDAwMTIxMzkwMDIxMDI2=
+OTEzL2VhMTQxMTA5LW50MTBxX2hvbWV0b3duLmh0bQ/607f07ceef4b8524a319a23cB449db2a=
+1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">quarter=
+ly report will be late</a>, =E2=80=9Cbecause the Registrant needs additiona=
+l time to complete certain disclosures and analyses to be included in the R=
+eport.=E2=80=9D The relevant quarter ended on March 31, before Hometown bec=
+ame famous, so the problem is not that they sold so many sandwiches to so m=
+any financial journalists that their accounting systems couldn=E2=80=99t ke=
+ep up. I assume that, given their recent scrutiny, everything just needs to=
+ be lawyered a bit more carefully than it has been in the past.</p><p style=
+=3D"margin: 16px 0;">Also here is an <a href=3D"https://link.mail.bloomberg=
+business.com/click/23882452.285958/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9l=
+ZGdhci9kYXRhLzE2MzIwODEvMDAwMTIxMzkwMDIxMDIzOTc5L2VhMTQwMjE4LThrX2hvbWV0b3d=
+uaW50ZXIuaHRt/607f07ceef4b8524a319a23cBbac59ecb" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">April 30 filing</a> in which Hometow=
+n =E2=80=9Cdisavows the price of its publicly quoted stock on the OTC Marke=
+ts under the trading symbol =E2=80=98HWIN.=E2=80=99=C2=A0Management is awar=
+e of no basis to support the Company=E2=80=99s stock price, based upon its =
+revenue or assets.=E2=80=9D I am not sure I have ever seen a company =E2=80=
+=9Cdisavow=E2=80=9D its stock price before, but I suppose it makes sense. T=
+he filing accurately notes that =E2=80=9Cthere has not been, nor is there, =
+significant trading volume in the Company=E2=80=99s stock,=E2=80=9D so it=
+=E2=80=99s not like anyone is particularly getting ripped off by the deli=
+=E2=80=99s weird stock price. It=E2=80=99s just a weird artifact. Still, pr=
+obably best to disavow it.</p><h2 style=3D"font-weight: bold; font-family: =
+&quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px=
+; font-size: 20px; border-bottom-width: 1px; border-bottom-style: dotted; p=
+adding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">Elon Musk imperson=
+ators</h2><p style=3D"margin: 16px 0;">Has anyone actually done a crypto do=
+ubling giveaway? Like there=E2=80=99s a recurring thing on Twitter where so=
+meone will=C2=A0tweet =E2=80=9Cif you send one Dogecoin to my wallet, I wil=
+l send 2 Dogecoins back to yours, I just love sharing the wealth.=E2=80=9D =
+And then people =E2=80=94=C2=A0not many people, but it=E2=80=99s a big inte=
+rnet, and it=E2=80=99s enough people =E2=80=94=C2=A0will send in their Doge=
+coins, and of course of course of course of course of course of course of c=
+ourse of course of course of course they will not get any Dogecoins back, b=
+ecause this is the simplest stupidest imaginable scam.</p><p style=3D"margi=
+n: 16px 0;">But my question is, is there any precedent for it=C2=A0<em>not=
+=C2=A0</em>being a scam? Has anyone ever said =E2=80=9Cif you send one Doge=
+coin to my wallet, I will send 2 Dogecoins back to yours,=E2=80=9D and then=
+ actually done it because they enjoy sharing the wealth so much? It does no=
+t really match with my experience of human nature, but perhaps I am just a =
+cynical nocoiner and in fact members of the crypto community are constantly=
+ giving back by =E2=80=A6=C2=A0asking people to send them money and then =
+=E2=80=A6=C2=A0sending back more money? Ugh if you want to share the wealth=
+ why ask for money first, this is so dumb, how does anyone fall for it.</p>=
+<p style=3D"margin: 16px 0;">I suppose if you tweet this scam from an accou=
+nt like =E2=80=9C@coinscam42069=E2=80=9D it can work, but ideally you will =
+tweet it as a reply to a popular tweet from a crypto celebrity, and you wil=
+l use=C2=A0an account like =E2=80=9C@eIonmusk=E2=80=9D (with a capital I) o=
+r =E2=80=9C@VitaIikButerin_,=E2=80=9D some imperceptible modification of a =
+crypto celebrity=E2=80=99s account. (For a while Vitalik Buterin, the found=
+er of Ethereum, used =E2=80=9C<a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23882452.285958/aHR0cHM6Ly9ibG9ja3B1Ymxpc2hlci5jb20vd2h5LWlzLXZ=
+pdGFsaWstYnV0ZXJpbi1ub24tZ2l2ZXItb2YtZXRoZXIvIzp-OnRleHQ9VGhlJTIwZmFrZSUyMG=
+FjY291bnQlMjBvcGVyYXRvcnMlMjB1c2VkLHdoaWNoJTIwaXQlMjBjZXJ0YWlubHklMjB3YXNuJ=
+3Qu/607f07ceef4b8524a319a23cB63372fd9" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;">Vitalik Non-giver of Ether</a>=E2=80=9D as his=
+ Twitter display name, to try to discourage these scams.) Or <em>ideally</e=
+m>=C2=A0you=E2=80=99d tweet it from Musk=E2=80=99s=C2=A0<em>actual=C2=A0</e=
+m>Twitter account (but using your Bitcoin wallet address), as <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/23882452.285958/aHR0cHM6Ly93d3c=
+udGhldmVyZ2UuY29tLzIyMTYzNjQzL3R3aXR0ZXItaGFjay1iaXRjb2luLXNjYW0tanVseS0yMD=
+IwLWVsb24tbXVzaw/607f07ceef4b8524a319a23cB9d843941" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">one hacker did</a> last year afte=
+r hijacking a bunch of celebrity Twitter accounts. I don=E2=80=99t know why=
+ it would work even then! But it does.</p><p style=3D"margin: 16px 0;">Anyw=
+ay <a href=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958=
+/aHR0cHM6Ly93d3cuZnRjLmdvdi9uZXdzLWV2ZW50cy9wcmVzcy1yZWxlYXNlcy8yMDIxLzA1L2=
+Z0Yy1kYXRhLXNob3dzLWh1Z2Utc3Bpa2UtY3J5cHRvY3VycmVuY3ktaW52ZXN0bWVudC1zY2Ftc=
+w/607f07ceef4b8524a319a23cB4ff6a8f6" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">here=E2=80=99s the U.S. Federal Trade Commission=
+</a>:</p><blockquote><p style=3D"margin: 16px 0;">Since October 2020, consu=
+mers have reported losing more than $80 million to cryptocurrency investmen=
+t scams, an increase of more than ten-fold year-over-year, according to a n=
+ew data analysis from the Federal Trade Commission.</p><p style=3D"margin: =
+16px 0;">In a new consumer protection data spotlight, the FTC breaks down t=
+he contents of nearly 7,000 reports received from consumers about these sca=
+ms in the last quarter of 2020 and the first quarter of 2021. The median am=
+ount consumers reported losing to the scams was $1,900.</p><p style=3D"marg=
+in: 16px 0;">The spotlight notes that cryptocurrency investment scams take =
+on a variety of forms, sometimes starting as offers of investment =E2=80=9C=
+tips=E2=80=9D or =E2=80=9Csecrets=E2=80=9D in online message boards that le=
+ad people to bogus investment websites. Another common form of the scam inv=
+olves a promise that a celebrity associated with cryptocurrency will multip=
+ly any cryptocurrency you send to their wallet and send it back. In fact, c=
+onsumers reported losing more than $2 million to Elon Musk impersonators al=
+one since October.</p></blockquote><p style=3D"margin: 16px 0;">Those are t=
+he=C2=A0<em>reported=C2=A0</em>ones. Presumably a lot of people sending cry=
+ptocurrency to Elon Musk impersonators are too embarrassed, or too skeptica=
+l of traditional government regulation, to report it to the FTC.</p><h2 sty=
+le=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helve=
+tica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-widt=
+h: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px;=
+ margin-bottom: 0;">Things happen</h2><p style=3D"margin: 16px 0;">Fidelity=
+ to <a href=3D"https://link.mail.bloombergbusiness.com/click/23882452.28595=
+8/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTgvZmlkZ=
+WxpdHktdG8tYWxsb3ctdGVlbmFnZXJzLXRvLXRyYWRlLXN0b2Nrcy13aXRoLW5vLWZlZS1hY2Nv=
+dW50cw/607f07ceef4b8524a319a23cB184f6079" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> Allow Teenagers to Trade Stocks</a> With =
+No-Fee Accounts. JPMorgan=E2=80=99s Lake, Piepszak to <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/23882452.285958/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTgvanBtb3JnYW4tcy1sYWtlLXBpZXBzem=
+FrLXRvLXJ1bi1jb25zdW1lci11bml0LWFzLXNtaXRoLWxlYXZlcw/607f07ceef4b8524a319a2=
+3cBc35624d4" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Run Consumer Unit</a>; Smith Leaves. Goldman Taps Uber Executive to <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/aHR0c=
+HM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9nb2xkbWFuLXRhcHMtdWJlci1leGVjdXRpdmUtdG8t=
+cnVuLWl0cy1jb25zdW1lci1iYW5rLTExNjIxMjU5OTcyP21vZD1pdHBfd3NqJnJ1PXlhaG9v/60=
+7f07ceef4b8524a319a23cBf1590b1c" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">Run Its Consumer Bank</a>. The secret life of <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/aHR0cHM6=
+Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9wcm9maWxlLWlhbi1vc2Jvcm5lLWNvZm91bmRlci1=
+jaGFtYXRoLXBhbGloYXBpdGl5YS1zb2NpYWwtY2FwaXRhbC1oZWRvc29waGlhLXNwYWMtMjAyMS=
+01/607f07ceef4b8524a319a23cB32c428e3" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">Ian Osborne</a>, the shadowy 38-year-old cofoun=
+der of Chamath Palihapitiya's SPAC who has built the ultimate black book of=
+ billionaires. Fund Managers Say =E2=80=98Long Bitcoin=E2=80=99 Is the <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTgvZnVuZC1tYW5hZ=
+2Vycy1zYXktbG9uZy1iaXRjb2luLWlzLXRoZS1tb3N0LWNyb3dkZWQtdHJhZGUtaW4tdGhlLXdv=
+cmxk/607f07ceef4b8524a319a23cB43731168" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Most Crowded Trade</a> in the World. MicroSt=
+rategy Builds Up <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+3882452.285958/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEt=
+MDUtMTgvc2F5bG9yLXMtbWljcm9zdHJhdGVneS1idWlsZHMtYml0Y29pbi1jYWNoZS1ieS0xMC1=
+taWxsaW9u/607f07ceef4b8524a319a23cB1896214a" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> Bitcoin Cache</a> by $10 Million.=C2=A0=
+=E2=80=9CIf somebody has a tendency to be a little bit scared of insects, t=
+his would be a great opportunity to <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/23882452.285958/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjEtMDUtMTcvdGhlLXBlb3BsZS1saXZpbmctd2l0aC1zZXZlcmUtY2ljYWRh=
+LWFueGlldHk/607f07ceef4b8524a319a23cB39fd831d" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> develop a full-blown fear</a>.=E2=80=
+=9D</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consum=
+er-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy emai=
+l form, right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/23882452.285958/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdi=
+dXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2Z=
+mY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB1f389dac" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">subscribe at this link</a>. Or you can subscribe to=
+ Money Stuff and other great Bloomberg newsletters <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/23882452.285958/aHR0cHM6Ly9sb2dpbi5ibG9vbW=
+JlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB93d041b6" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em><=
+/span></p><p style=3D"margin: 16px 0;"><em>[1] In volatility circles, it is=
+ considered somewhat gauche to quote VIX moves in percentages. (The level o=
+f the VIX is essentially a percentage =E2=80=94=C2=A0it is, roughly, the ex=
+pected future annualized standard deviation of S&amp;P 500 moves =E2=80=94=
+=C2=A0so it=E2=80=99s confusing to talk about percentage moves of a percent=
+age.) Here, though, it does seem notable that VIX more than doubled, becaus=
+e that ought to lead to a 100% (or more?) loss in the XIV.</em></p><p style=
+=3D"margin: 16px 0;"><em>[2] All of this is somewhat speculative in that it=
+=E2=80=99s still not entirely clear that Credit Suisse hedged XIV in the ex=
+pected way. There is some indication that Credit Suisse may have laid off s=
+ome or all of its XIV risk to some counterparty (presumably another bank, o=
+r possibly a hedge fund), who then presumably hedged it in the expected way=
+. Most likely either (1) Credit Suisse did the standard hedging, pushed up =
+the prices of the futures, and made money, or else (2) *its counterparty* d=
+id the standard hedging, pushed up the prices of the futures, and made mone=
+y =E2=80=94=C2=A0so this description is roughly accurate except that someon=
+e else made the money. (We discussed this possibility <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/23882452.285958/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMDQvdW5kZXItYXJtb3VyLWVhcm5pbm=
+dzLXdlcmUtYS1iaXQtbWlzbGVhZGluZyNmb290bm90ZS05/607f07ceef4b8524a319a23cBd4b=
+7b847" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> at=
+ footnote 9 here</a>.) It is also possible that Credit Suisse laid off the =
+exposure to a counterparty who *didn=E2=80=99t* hedge in the expected way =
+=E2=80=94=C2=A0who wanted long VIX exposure, say, or who hedged by issuing =
+a VIX ETN or shorting an ETF or whatever. Given the price moves of the futu=
+res, though, this seems a bit less likely. In any case I suppose we=E2=80=
+=99ll find out when the XIV case goes to trial.</em></p><p style=3D"margin:=
+ 16px 0;"><em>[3] In last month=E2=80=99s <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/23882452.285958/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N=
+1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3IwOHNWLjlQMVBKcy92MA/607f07ceef4b8524a31=
+9a23cCd1eead34" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">opinion</a> in the XIV noteholders=E2=80=99 case against Credit Suiss=
+e and Janus, the court noted that Janus *could have* just calculated the va=
+lue of the XIV notes itself, from easily available futures data and a mecha=
+nical formula: =E2=80=9CThe complaint alleges in a conclusory fashion that =
+JIC had access to real-time pricing data for VIX futures contracts such tha=
+t it could have monitored the accuracy of the VIX Futures Index.=E2=80=9D B=
+ut it found Janus had no reason to do that, because S&amp;P was doing it: =
+=E2=80=9CThe Offering Documents specified that JIC would rely on a third pa=
+rty, S&amp;P, to accurately calculate the VIX Futures Index. It would be un=
+reasonable to infer that, despite this plain effort to reduce JIC=E2=80=99s=
+ administrative burden, JIC nonetheless devoted resources to calculating a =
+redundant pricing index for VIX futures contracts.=E2=80=9D</em></p><p styl=
+e=3D"margin: 16px 0;"><em>[4] I am ignoring structural features like the sp=
+onsor=E2=80=99s promote, the warrants, and the PIPE (private investment in =
+public equity) deal that usually accompanies the SPAC; this is a schematic =
+rather than a technical description.</em></p><p style=3D"margin: 16px 0;"><=
+em>[5] Just, like, the SPAC has 10 million shares and $100 million in trust=
+; it gives the $100 million to the target and distributes 10 million target=
+ shares to its shareholders; the 10 million target shares are 16.67% of the=
+ combined company; the combined company=E2=80=99s market cap is $750 millio=
+n; the 10 million shares for SPAC shareholders are worth $125 million, or $=
+12.50 each. Again ignoring warrants, sponsor promotes, PIPEs, all the actua=
+l details of SPACs.</em></p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB98b93796" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB19649fd8" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBa26789f3" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23882452.285958/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB5f3a3214" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2388=
+2452.285958/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cBb63774f0" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23882452.285958/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCc8fdc164" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23882452.285958/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB894df56e" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23882452.285958/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB05231ce4" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce7vtg.64na/24a215a1.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_12881463_2066252706.1621355460340--
+

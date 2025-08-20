@@ -1,0 +1,1588 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4387:0:b029:109:68cb:7f2e with SMTP id s7csp2684141lko;
+        Tue, 22 Jun 2021 09:02:37 -0700 (PDT)
+X-Received: by 2002:a7b:c089:: with SMTP id r9mr5347063wmh.167.1624377756904;
+        Tue, 22 Jun 2021 09:02:36 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1624377756; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=njI0rFS+Bt/kuEyMMiuKYDy6/4Q6pjekfm0u3ucy/A1t8453bRXO4xt4qxfEPJM44s
+         P9vZej9T5yVnGiLMSMrrPbDWYGDANuDeMTfq5hU8l60NXX1dPGxrplSXkf5xZ39/IYb4
+         3yYVmPa99DLNBxU6WXEUXMyOH1BKEZkmEQv1GdgnKin3QmcY0cm53rJ+RwNI37WjJTNZ
+         PIStm2AQyqcpeYYCwSjmGs6WV5e1tnTAJtYRw8snWE3RoAvLKHAxnlmU8NH5rXQ80+wh
+         8IqyNvuiVENeMSTYHkL3AH5ToXqLR8qSjBUsFa2JoZ0ybBb2mZV3LtBbQgFC8/dQ4fTg
+         +8lQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=/7Dm+A1jOqx1H4/Vq0zs90xx21/RZ5jAwfCIv9gPORs=;
+        b=VV8WwRcenZwtBfL49pJDaI4p1kJdNtDHkJDfnolv9n7jTc7M5uFwmL9Dt8E/vpKFop
+         vBSL/2IAiYATm6qBrsa4Ns1aSP1cucUKqxFx6AlIE/vrTTD9M1hbZn3TTj48NYlND5pI
+         rEr6WZ2RYYhu+h+70MribhgBtzRbUPOjsfZin/nOFSEmDpf+synWl1MhmA53DsD4XjUL
+         3Z9K3JxzDsPBTnVfpBVoOZsPvVPd7RspH57UjQLXEIJjSPWgJNI8plLzxLzat2P+oM82
+         5EWWtJwXd9sCAfl+DniSW2GrTArTDwGs1FxLVIBEvpX7hU8lYDTj7VEaf4uOuIvXBMMq
+         3D+g==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1dNgel59;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id dn8sor6963088ejc.14.2021.06.22.09.02.36
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 22 Jun 2021 09:02:36 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1dNgel59;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=/7Dm+A1jOqx1H4/Vq0zs90xx21/RZ5jAwfCIv9gPORs=;
+        b=iZQyGYvdcxJ7646ga10C6T1vdwLU+TCR3q9TmvenhffPUaMcT/TRCYUw02q7QiNbtX
+         Dw5LfCWHF7JV41tvZkRPX/DgW+rVesT4uJeTFnOo5n5MlbUQYWAlgJAtSHkowXCSWs9o
+         PomFB64DHlAuGehgLDcF4qv2Ra2NhR5ECe9mBgkNz62lhwlz/FZJr/GgTTxcQpR0theo
+         eTpCC6bdVZWcVaBAtvYSKpz+qKUwKRLNk1+ccMt2+RAT9Z7wGK7kXoAuu0ZJSd462z8i
+         +/WLyftZWxVto9dM8Mm1Y1nAtt779d/w5VikqK+KqnW7avDivzQ2qkmv9IMRBwDi7zSA
+         4ZHQ==
+X-Gm-Message-State: AOAM532qTVy7psn8PaBPHFkszU7rS5TpnZDCHqZ9b/gqD/QkxQM/MCi6
+	ajDd1d/I7zC85ET/m+lu5Vb+PlnImYK7QxJdzVMwdI5gbKbXCwbk3Q==
+X-Received: by 2002:a05:6402:10c6:: with SMTP id p6mr5978803edu.332.1624377756217;
+        Tue, 22 Jun 2021 09:02:36 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:ab4:9248:0:0:0:0:0 with SMTP id g8csp5344191ecz;
+        Tue, 22 Jun 2021 09:02:31 -0700 (PDT)
+X-Received: by 2002:a05:6808:210:: with SMTP id l16mr3612728oie.154.1624377751202;
+        Tue, 22 Jun 2021 09:02:31 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1624377751; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=U8QBoRJYb/VKGoAbJrKleUAeoRlsTH4goAx/GG7TmhXYp2uyjFt43fydv89PCpL0dp
+         AQhiriFBuuOrS1QYj810q9px92iXOD9uyuG+jE0VQ74TmP6WcdC2kRwZAUiDXC61waf2
+         T94ZiDw0eIo3hzB1r2qKUHxKqlgc3yCaCUsEf/qlcL7caI7bLdsdy2gBHz2aStnTZM5b
+         IC3nptKEPKVxilkqOXefojhDVrydkjdmP86HlBwjv4vdXWYnLOEduT5e6svzKLq4Oh3c
+         AnhDRAt+d/77CjZGrXaVN1lmyq5HhOH1Yq6sCOqWZHP1NHKZDgjiOnTFRuqj9JKYHuso
+         BdHw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=/7Dm+A1jOqx1H4/Vq0zs90xx21/RZ5jAwfCIv9gPORs=;
+        b=C5gsW506tdtPWzHxiwhsrQDDgxiYwvyYQ4STu/sqmALgFdPT5OA4j03qDJDRjHbppS
+         +KfNJlMGkt+BxhRpcUOef0I2Pbl/RhUKAwLbhKIgpwlDYX5LjZ/sDDDwOJ7E7jYiXIQQ
+         B+2B5BbHCSPRae69+tn4AGXxSYEjkmofnZOplZe0oTY/C/rIKoMn7jxYEhsv0M32CH++
+         s9mGfCBC8tfWw0IVtyNeqGnugDYph4y4ir/UVaHW0w9rqcCwyydHjSNJC5pLh4QF0T6x
+         YQ+zpEjTnCgVTGtEDvAxF6ZGwoj06Ui0RU7XqecyY4K1UbZnrXdO5SVOcDLuSfF62S+I
+         cl8A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1dNgel59;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210622120230.24222441.253607@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210622120230.24222441.253607@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210622120230.24222441.253607@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id v24sor890781ote.184.2021.06.22.09.02.30
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 22 Jun 2021 09:02:31 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210622120230.24222441.253607@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyqXDZuvCierjVrwvXK3KOMPwi+32ewmB8HMzdagpwuFfi+0+kLbkjcJmx1j/KTIQfyvpgXyn7+v0DpakeuLZxgg/GSkd4=
+X-Received: by 2002:a9d:2222:: with SMTP id o31mr3760627ota.75.1624377750610;
+        Tue, 22 Jun 2021 09:02:30 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1624377750; cv=none;
+        d=google.com; s=arc-20160816;
+        b=H7AyYz09ZwQduw8kKCQkYb/6w18scHSPCUuOk7duIRR8DnyGntvHFzbjJXB0w4GRg5
+         ZoiiLhYyfQHg8VN+xVzsTltGDOfbOGbZaFW3+Da74psbJbvNuWJFRuwEnyfylNjWuhbE
+         oxGo41bppsW9rLFdM4dPXT6H4wzIr5LG8Ds0ZxDi0m4mubYI92RMlMdIb6mLOVx23wkT
+         iyd+L9D8xPYKzn/j3bHz8YCa89GY8KC0Usp/4jXsXLYqKMyThkOSGx5xB9ODJbcsR1ky
+         abC+GKgwbs3yhwBg/xV1OLfDaiUyNDt8UWbPO6niGspTBh1qc7UK14LXwworJ34FMgBl
+         /JoQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=/7Dm+A1jOqx1H4/Vq0zs90xx21/RZ5jAwfCIv9gPORs=;
+        b=LaH+J9vmbepx5qQ8s0WvhSUQp3lXWBHvFjkohK2tB9Ertvwv+H4JGFRH9grcqxWjq4
+         C3J1UnHd67y64tShoYApZQnMsX8FzNtE7aWRw1ZTQ66oWULI0C5xVfBIK9YpzvZnDoQI
+         Hwuz0AXtOMLo09I1ySiDqRW1VI2vYBB66XKFZmsiuoHlZhmv34E1ZfKrIBmydLc5TPI7
+         7HoCY331tmcmx6ZyodboPYxSquiFl4DIFHbfuxryZJGeyI0CPaDdWYd1eEwy56YZVzxK
+         63oURAEw25Dt4HPL2ebCHpAKIphxTV1oZnHix5Y/g6iialvEak8Dj0W9awGJJ7qwt7CS
+         ZS0w==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1dNgel59;
+       spf=pass (google.com: domain of delivery_20210622120230.24222441.253607@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210622120230.24222441.253607@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210622120230.24222441.253607@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id i10si332692oie.3.2021.06.22.09.02.30
+        for <khamel83@gmail.com>;
+        Tue, 22 Jun 2021 09:02:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210622120230.24222441.253607@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=TOhymKt+iRDZ/PaiUwKGaGeZ0c0=;
+ b=1dNgel594cZ+GBvNpTO8Qmlnc2gWtdljwKrTJ51A+HZQOXmeNO/cJuSHNq0JWc6tBkxRmxkhgRyZ
+   RLez6z+Onhc8v8FMTLQu/0VnNswCbj7R9xcPUZeNDLYdpsvv4B94PPjXVPRSQiacw3nV2rzvlvb+
+   YE3X6T77KjU+mkaDZxg=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by bloomberg-b.sailthru.com id hq84pc1qqbs4 for <bloomberg@khamel.com>; Tue, 22 Jun 2021 12:02:30 -0400 (envelope-from <delivery_20210622120230.24222441.253607@mx.sailthru.com>)
+Date: Tue, 22 Jun 2021 12:02:30 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210622120230.24222441.253607@sailthru.com>
+Subject: Money Stuff: Everything Still Might Be Securities Fraud
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_50814354_763608972.1624377750123"
+Precedence: bulk
+X-Feedback-ID: 6358:24222441:campaign:sailthru
+X-TM-ID: 20210622120230.24222441.253607
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wrylilac.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cef65l.5fon/ceb4f8ca
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cef65l.5fon/ceb4f8ca>, <mailto:unsubscribe_20210622120230.24222441.253607@mx.sailthru.com>
+X-rpcampaign: stjko24222441
+
+------=_Part_50814354_763608972.1624377750123
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Everything might be=C2=A0securities fraudWe  talked in February a=
+bout a securities-fraud lawsuit against Goldman Sachs Group Inc. that was g=
+oing all the way to the=C2=A0Supreme Court. The issue is that, before the 2=
+008 global financial crisis, Goldman had gone around saying things like =E2=
+=80=9Cour clients=E2=80=99 interests always come first=E2=80=9D and =E2=80=
+=9Cintegrity and honesty are at the heart of our business.=E2=80=9D Then th=
+e global financial crisis occurred, and:=09It came out that maybe Goldman=
+=E2=80=99s clients=E2=80=99 interests sometimes came second, and maybe inte=
+grity and honesty were sometimes not quite at the=C2=A0heart=C2=A0of its bu=
+siness[1]; and=09Goldman=E2=80=99s stock price went down.Why did the stock =
+price go down? Well, I mean, there=C2=A0was=C2=A0a global financial crisis.=
+ That was bad, for earnings and such. Also, though,=C2=A0Goldman got in (le=
+gal, political, public-relations) trouble for some of the specific instance=
+s in which its clients=E2=80=99 interests arguably came second; for instanc=
+e, famously, it paid a big fine for doing some bad=C2=A0stuff with a mortga=
+ge security called Abacus.=C2=A0There is perhaps a third, less specific rea=
+son. Perhaps in 2007, investors read in Goldman=E2=80=99s disclosures that=
+=C2=A0=E2=80=9Cour clients=E2=80=99 interests always come first=E2=80=9D an=
+d =E2=80=9Cintegrity and honesty are at the heart of our business,=E2=80=9D=
+ and they thought: =E2=80=9CYes, it is good that Goldman has integrity and =
+puts its clients=E2=80=99 interests first, that is valuable for its busines=
+s, we will buy the stock.=E2=80=9D In 2009, after Abacus and so forth, inve=
+stors thought =E2=80=9Calas, no, Goldman does not have integrity and does n=
+ot put its clients=E2=80=99 interests first, we are disappointed, we will s=
+ell the stock.=E2=80=9D In other words, perhaps investors=C2=A0ascribed val=
+ue=C2=A0to Goldman=E2=80=99s statements about integrity and honesty, and th=
+en when they found out that those statements were not true that value went =
+away and the stock went down.Are you laughing? A little, right? Investors m=
+ainly ascribed value to Goldman=E2=80=99s income stream, and the stock main=
+ly went down due to Goldman losing money. But of course,=C2=A0at some margi=
+n integrity is valuable, and maybe investors thought Goldman had like 100 u=
+nits of integrity (after reading their disclosures) but revised that estima=
+te down to 80 units (after reading the Abacus settlement), and each unit of=
+ integrity was worth a dollar to the stock price and so forth.If you believ=
+e this theory, then it was=C2=A0securities fraud=C2=A0for Goldman to talk a=
+ lot about having a lot of integrity and honestly when in fact it secretly =
+knew that it had less integrity and honesty. Goldman was cooking the integr=
+ity-and-honesty books. Each quarter the results came in and the business de=
+livered only 80 units of honesty and integrity, but the market was demandin=
+g 100 units, so Goldman=E2=80=99s executives fudged the numbers and reporte=
+d a full supply of honesty and integrity. =E2=80=9COur clients=E2=80=99 int=
+erests came first on 73 out of 91 days this quarter,=E2=80=9D the assistant=
+ treasurer reported, and the chief financial officer was like =E2=80=9Cthat=
+=E2=80=99s not good enough, we need to report that our clients=E2=80=99 int=
+erests=C2=A0always=C2=A0came first, find a way to make it happen!=E2=80=9DA=
+nyway this went to the Supreme Court and there were some arguments about th=
+e theory=C2=A0=E2=80=94=C2=A0which I talk about a lot around here =E2=80=94=
+=C2=A0that =E2=80=9Ceverything is securities fraud.=E2=80=9D If companies s=
+ay vague nice things about themselves =E2=80=94=C2=A0=E2=80=9Cwe have a cod=
+e of ethics,=E2=80=9D =E2=80=9Cthe client comes first,=E2=80=9D =E2=80=9Cwe=
+ have a culture of risk management,=E2=80=9D etc. =E2=80=94=C2=A0and then a=
+ bad thing happens, a shareholder will sue, arguing that the vague nice sta=
+tements were lies=C2=A0that deceived investors and pumped up the stock, and=
+ that when the bad thing happened the truth was revealed and the stock drop=
+ped. When we  talked about it in February, I quoted some amicus curiae brie=
+fs like this one[2]:Frequently, event-driven claims allege that generic or =
+aspirational statements, similar to ones made by virtually every public com=
+pany, maintained inflation in a company=E2=80=99s stock price. Allegations =
+of wrongdoing nearly always conflict, at some level of generality, with a c=
+ompany=E2=80=99s code of conduct or other statements of corporate policy. S=
+o it is not difficult for plaintiffs to allege that negative reporting or d=
+isclosures =E2=80=9Ccorrected=E2=80=9D a prior, generic policy statement (e=
+.g., =E2=80=9CWe strive to comply with all applicable laws.=E2=80=9D). The =
+result is that just about any corporate controversy that coincides with a d=
+rop in stock price can be re-characterized as a securities fraud. Examples =
+abound. COVID-19 exposure on cruise ships, wildfires, data breaches, and se=
+xual-harassment allegations have all served as grounds for event-driven cla=
+ims of securities fraud supposedly tied to generalized statements.=C2=A0Lik=
+e those briefs,=C2=A0I suggested that this case might be a chance for the S=
+upreme Court to reconsider the growing idea that everything is securities f=
+raud.Well, never mind. The Supreme Court decided the case yesterday and it =
+is the most boring imaginable decision. If you were looking for the Supreme=
+ Court to say =E2=80=9Cyou know what, not everything should be securities f=
+raud,=E2=80=9D or =E2=80=9Cyou know what, actually everything should be sec=
+urities fraud,=E2=80=9D you will be disappointed. The decision is about a m=
+inor technicality, sending the case back to an appeals court to think a bit=
+ harder about whether Goldman=E2=80=99s generic statements of honesty and i=
+ntegrity inflated its stock price before the crisis.[3]The rule (from previ=
+ous Supreme Court cases) is basically that Goldman can defeat the lawsuit b=
+y showing that its statements =E2=80=9Cdid not actually affect the market p=
+rice of the stock.=E2=80=9D The court of appeals concluded that Goldman did=
+ not do that, but the=C2=A0Supreme Court wants that court to try again. The=
+ court =E2=80=9C=E2=80=98should be open to all probative evidence on that q=
+uestion=E2=80=94qualitative as well as quantitative=E2=80=94aided by a good=
+ dose of common sense,=E2=80=99=E2=80=9D says the Supreme Court, helpfully.=
+ Goldman had argued to the Supreme Court that the statements at issue here =
+=E2=80=94=C2=A0about integrity, etc. =E2=80=94=C2=A0are so generic that the=
+y could not possibly have affected the price; the Supreme Court basically s=
+aid, well, no, it depends. =E2=80=9CAs a rule=C2=A0of thumb, =E2=80=98a mor=
+e-general statement will affect a security=E2=80=99s price less than a more=
+-specific statement on the same question.=E2=80=99=E2=80=9D Ah.Here=E2=80=
+=99s a good passage (citations omitted):The generic nature of a misrepresen=
+tation often will be important evidence of a lack of price impact, particul=
+arly in cases proceeding under the inflation-maintenance theory. Under that=
+ theory, price impact is the amount of price inflation maintained by an all=
+eged misrepresentation=E2=80=94in other words, the amount that the stock=E2=
+=80=99s price would have fallen =E2=80=9Cwithout the false statement.=E2=80=
+=9D Plaintiffs typically try to prove the amount of inflation indirectly: T=
+hey point to a negative disclosure about a company and an associated drop i=
+n its stock price; allege that the disclosure corrected an earlier misrepre=
+sentation; and then claim that the price drop is equal to the amount of inf=
+lation maintained by the earlier misrepresentation.But that final inference=
+=E2=80=94that the back-end price drop equals front-end inflation=E2=80=94st=
+arts to break down when there is a mismatch between the contents of the mis=
+representation and the corrective disclosure. That may occur when the earli=
+er misrepresentation is generic (e.g., =E2=80=9Cwe have faith in our busine=
+ss model=E2=80=9D) and the later corrective disclosure is specific (e.g., =
+=E2=80=9Cour fourth quarter earnings did not meet expectations=E2=80=9D). U=
+nder those circumstances, it is less likely that the specific disclosure ac=
+tually corrected the generic misrepresentation, which means that there is l=
+ess reason to infer front-end price inflation=E2=80=94that is, price impact=
+=E2=80=94from the back-end price drop.The plaintiffs=E2=80=99 theory here i=
+s that Goldman=E2=80=99s stock price was too high because it kept talking a=
+bout how much integrity it had, and the proof is that, when the news came o=
+ut that it had less integrity, the stock price dropped. But that is not=C2=
+=A0quite how a normal person would describe=C2=A0what happened. What happen=
+ed is not that Goldman went around saying =E2=80=9Cour clients=E2=80=99 int=
+erests always come first=E2=80=9D and then one day it said =E2=80=9Cwe=E2=
+=80=99ve done an audit and actually our clients=E2=80=99 interests usually =
+come fourth=E2=80=9D and the stock dropped. What happened is that Goldman w=
+ent around saying =E2=80=9Cour clients=E2=80=99 interests always come first=
+=E2=80=9D and then a global financial crisis occurred in part =E2=80=94=C2=
+=A0in very small part =E2=80=94=C2=A0because Goldman=E2=80=99s clients=E2=
+=80=99 interests did not always come first. And then Goldman=E2=80=99s stoc=
+k dropped. Does that mean that Goldman=E2=80=99s stock was too high because=
+ Goldman was lying about its clients=E2=80=99 interests always coming first=
+?How=E2=80=99s GameStop doing?A classic problem in corporate finance is tha=
+t companies often sell stock when times are tough and they need money, and =
+they usually buy back stock when times are good and they have plenty=C2=A0o=
+f money. This makes sense from a=C2=A0corporate finance perspective=C2=A0(s=
+elling stock gets you money to do projects; buying back stock uses the mone=
+y you get from the projects and rewards shareholders for funding them), but=
+ is generally bad from a price perspective. If you need money because times=
+ are tough, you will probably be selling stock at a low price: Who wants to=
+ invest in a company that is running out of money? If you are buying back s=
+tock because times are good, you will probably be buying stock at a high pr=
+ice: The high stable profits that fund your buyback also make the stock mor=
+e valuable.So there is a general sense that, when companies trade their own=
+ stock, they tend to buy high and sell low. That sounds like bad trading. Y=
+ou are supposed to buy low and sell high. Arguably this is the wrong way to=
+ think about it, though. Arguably companies should be proud of selling low =
+and buying high. Arguably their loyalty ought to be to their shareholders; =
+if the company sells low and buys high that means that its counterparties =
+=E2=80=94=C2=A0the shareholders =E2=80=94=C2=A0are doing well. If a company=
+ is too good at timing its stock sales and repurchases =E2=80=94=C2=A0if it=
+=E2=80=99s constantly selling stock at peaks and buying it back at troughs =
+=E2=80=94=C2=A0then it is making money for shareholders at the expense of, =
+you know, shareholders.[4]Anyway the whole dynamic seems to have reversed w=
+ith meme stocks. GameStop Corp.,  the greatest of the meme stocks, was a ma=
+ll-based video-game retailer that has transformed in the last few months in=
+to some sort of tech-company rocket-ship abstraction. The thing about selli=
+ng video games in malls is that it produces steady cash flows (until a glob=
+al pandemic hits) but is in secular decline, which means (1) money comes in=
+, (2) you have nothing better to spend it on than stock buybacks and (3) th=
+e stock is cheap. So here=E2=80=99s a sentence from GameStop=E2=80=99s most=
+ recent 10-K:In aggregate, during fiscal 2019, we repurchased a total of 38=
+.1 million shares of our Class A Common Stock, totaling $198.7 million, for=
+ an average price of $5.19 per share.On the other hand, the thing about bei=
+ng a vague tech-company rocket-ship abstraction is that it requires a lot o=
+f cash (to figure out what that actually means and then implement it) and p=
+eople love it, which means (1) you need money, (2) you can get it by sellin=
+g stock, and (3) the stock will be expensive. So here=E2=80=99s a GameStop =
+press release this morning:GameStop Corp. (NYSE: GME) (=E2=80=9CGameStop=E2=
+=80=9D or the =E2=80=9CCompany=E2=80=9D) today announced that it has comple=
+ted its previously announced =E2=80=9Cat-the-market=E2=80=9D equity offerin=
+g program (the =E2=80=9CATM Offering=E2=80=9D).GameStop disclosed on June 9=
+, 2021 that it filed a prospectus supplement with the U.S. Securities and E=
+xchange Commission to offer and sell up to a maximum of 5,000,000 shares of=
+ its common stock from time to time through the ATM Offering. The Company u=
+ltimately sold 5,000,000 shares of common stock and generated aggregate gro=
+ss proceeds before commissions and offering expenses of approximately $1,12=
+6,000,000.It is hard not to admire this. They bought 38.1 million shares tw=
+o years ago=C2=A0at $5.19 each; they sold 5 million shares in the last two =
+weeks at $225.20 each. GameStop is up 33.1 million shares=C2=A0and=C2=A0$92=
+7 million on these two trades. It bought so low and sold so high. It=E2=80=
+=99s a great trade and I congratulate GameStop. But, you know, don=E2=80=99=
+t do it too often.=E2=80=9CDon=E2=80=99t do it too often,=E2=80=9D I say, a=
+nd yet I cannot help myself. What if the GameStop meme run=C2=A0does=C2=A0e=
+nd? What if the transformation to a tech company never goes anywhere? What =
+if it consumes only a fraction of that $1.1 billion (which will be used =E2=
+=80=9Cfor general corporate purposes as well as for investing in growth ini=
+tiatives and maintaining a strong balance sheet=E2=80=9D)? What if, a year =
+from now, GameStop is trading at $20=C2=A0it has a billion dollars of cash =
+on its balance sheet? If you ran GameStop, wouldn=E2=80=99t you be a little=
+ tempted to pivot back to buying back stock?
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                    Invest in world-changing startups on An=
+gelList
+
+
+AngelList is the leading platform for early-stage venture investing.=20
+Invest in experienced VCs that have backed Clubhouse, Notion, Pipe, and 77 =
+other unicorns. Adjust your investment size as your goals evolve.
+                                   =20
+AngelList
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+VOTEOne type of investing business is an activist hedge fund. You buy conce=
+ntrated stakes in a handful of companies after careful analysis, and then u=
+se proxy fights, meetings and strongly worded letters to try to influence t=
+hose companies=E2=80=99 behavior. If you succeed, they make changes to thei=
+r business and their stocks go up. You charge your investors a lot of money=
+ for this service.Another type of investing business is a passive index fun=
+d. You buy stock in every company indiscriminately. The stocks go up becaus=
+e stocks mostly go up, not because you picked good ones; you are aiming for=
+ the market return, not outperformance. You charge your investors as little=
+ as possible =E2=80=94=C2=A0a few basis points, maybe zero =E2=80=94=C2=A0f=
+or this service.These are sort of opposite business models but they have im=
+portant=C2=A0synergies. If you run an activist hedge fund, much of your wor=
+k is about trying to get other big shareholders to support your activist ca=
+mpaigns: They have a lot of votes, and if they vote for you then. you will =
+win your proxy fights. It turns out that the biggest investors are often in=
+dex funds. So if you are an activist who is friends with the index funds, t=
+hat is good for business.Meanwhile if you run a passive index fund, you wil=
+l sometimes become annoyed with the managers of your portfolio companies an=
+d want them to make changes to their business. You might own a lot of share=
+s and have a lot of votes, but your influence will be somewhat muted by you=
+r passivity. You can=E2=80=99t threaten to sell the stock if the managers d=
+on=E2=80=99t do what you want. You are temperamentally unlikely to do a pro=
+xy fight yourself. But if some sympathetic activist could light a fire unde=
+r the managers, that would be helpful.[5] (The phrase is =E2=80=9C request =
+for activist,=E2=80=9D or =E2=80=9CRFA=E2=80=9D: A big institution that is =
+unhappy with a company can quietly suggest to an activist hedge fund that i=
+t should pay attention to the company.) So if you are an index fund manager=
+ who is friends with activist hedge funds, that is good for business.And so=
+ when Engine No. 1 LLC, an activist fund, won a proxy battle at Exxon Mobil=
+ Corp. after winning support from big index managers like BlackRock Inc.,  =
+I wrote that Engine No. 1 gave BlackRock what it wanted (practical influenc=
+e over Exxon), and BlackRock gave Engine No. 1 what it wanted (a proxy-figh=
+t win).You could idly imagine the synergies of merging these two businesses=
+. Run an activist fund and an index fund under one roof, and the activist f=
+und can tell prospective investors =E2=80=9Cwe have index money supporting =
+us so our campaigns have more leverage,=E2=80=9D while the index fund=C2=A0=
+can tell prospective investors =E2=80=9Cwe do no research or monitoring so =
+our fund is very cheap, but we free-ride off the work of our activist divis=
+ion to make sure that our companies are operating efficiently.=E2=80=9D Thi=
+s is not really a thing. The index funds are too big and the activist funds=
+ are too small, the personalities and temperaments clash, and there are som=
+e important dis-synergies, if you run a giant index-y asset manager, from b=
+eing too mean to corporate managers. (You want to manage corporate pensions=
+!)Still here=E2=80=99s this:Engine No. 1, an impact investment group purpos=
+e-built to create long-term value by driving positive impact, today announc=
+ed the upcoming launch of its inaugural ETF, Engine No. 1 Transform 500 ETF=
+ (ticker: VOTE) (=E2=80=9CVOTE=E2=80=9D or the =E2=80=9CFund=E2=80=9D), wit=
+h an initial commitment of $100 million. Engine No. 1 is also announcing th=
+at Betterment, the largest independent digital investment advisor, will be =
+integrating VOTE into all of its socially responsible investing (=E2=80=9CS=
+RI=E2=80=9D) strategies.VOTE will invest in a market-cap weighted index of =
+the 500 largest U.S. stocks and will seek to track the Morningstar U.S. Lar=
+ge Cap Select Index. Rather than excluding or re-weighting stocks, VOTE wil=
+l seek to improve companies=E2=80=99 environmental and social impacts throu=
+gh:1. Votes we cast: Strategically hold companies and leadership teams acco=
+untable while focusing on environmental, social, and governance issues that=
+ create value.2. Campaigns we run: Actively work with companies to strength=
+en the investments they make in stakeholders to drive company performance.3=
+. Investors we bring with us: Build platform to better serve investors=E2=
+=80=99 long-term interests, enabling them to be part of our mission.The Fun=
+d=E2=80=99s annual expense ratio will be 0.05%.A $100 million fund at 5 bas=
+is points brings in $50,000 a year in fees, which would pay for about eight=
+ hours of the Exxon proxy fight.[6] VOTE Is not, on its own, going to be ru=
+nning a lot of activist campaigns. But Engine No. 1 also has a more classic=
+al activist-hedge-fund arm, where it invests its founder's money (and I gue=
+ss institutional money?) in concentrated stock positions where it runs acti=
+vist campaigns. (Well, I mean, it=E2=80=99s pretty small and new, but it di=
+d that once with notable success and is now looking to raise institutional =
+money.) Having an index fund to back it up can=E2=80=99t=C2=A0hurt=C2=A0tho=
+se campaigns, though a $100 million fund spread over 500 stocks is not goin=
+g to help much either.Still, synergies. The activist connection =E2=80=94=
+=C2=A0and the fact that this activist is socially-responsible-investing-foc=
+used activist =E2=80=94=C2=A0will help the index fund raise money; if it ge=
+ts big enough, the index fund connection can help the activist fund raise m=
+oney and win campaigns.Labor shortageLet=E2=80=99s say you work in an inves=
+tment banking group where the right number of analysts is, say, 10. With 10=
+ analysts, everyone will be busy, they will learn things, they will work on=
+ a variety of deals, they will often feel stretched and occasionally bored,=
+ they will have a lot of work but feel like they have a lot of responsibili=
+ty.If by some accident that group gets 15 analysts, that would be bad. Peop=
+le would have too little to do, they wouldn=E2=80=99t learn enough, they=E2=
+=80=99d be bored and feel like they weren=E2=80=99t getting the educational=
+-slash-hazing experience that they want out of banking. This situation woul=
+d, however, correct itself. Bored analysts would quit or transfer out; the =
+reputation of the group as a sleepy backwater would make new analysts avoid=
+ it. You=E2=80=99re only an investment banking analyst for a couple of year=
+s anyway. Things drift back to equilibrium.If by some accident that group g=
+ets five analysts, that would be worse. People would have too much to do, w=
+ork would be done sloppily or not at all, the analysts would be burnt out a=
+nd miserable, they=E2=80=99d have no time to learn anything and deals would=
+ not get done. This is, however, less self-correcting. You can try to hire =
+a sixth analyst, but who wants to be the sixth analyst in a miserable overw=
+orked group? Also the five analysts you do have are gonna quit. Having too =
+few analysts makes a group bad, which makes it harder to attract and keep=
+=C2=A0analysts, which makes it harder to get back to the correct number of =
+analysts.=C2=A0There is a sort of bank-run dynamic. You do not want to catc=
+h the falling knife of overwork. Once you get too far below the stable equi=
+librium of 10 analysts, the next stable equilibrium is zero analysts, every=
+one quits, the group dissolves, there is no cure, it is the end of that ban=
+king group, sorry, oh well.I mean=C2=A0I=E2=80=99m exaggerating. Still,=C2=
+=A0imagine that but for the entire industry:Just months after junior banker=
+s railed against management amid crushing levels of burnout, one of the roo=
+t drivers of the problem has yet to be solved: Banks have too few hands on =
+deck to handle their massive deal loads. =E2=80=A6For banks, it's not just =
+struggling to boost the lackluster number of juniors. They're also expectin=
+g further losses, PwC partner Julia Lamm told Insider."Companies are bracin=
+g for higher turnover numbers than ever before, staffing up the recruiting =
+teams," and getting external recruiting agencies "geared up for more recrui=
+ting," said Lamm, who is a workforce strategy partner in the firm's financi=
+al services people and organization practice.=C2=A0"It's creating an even b=
+igger gap," Lamm said, "because that turnover number is starting to tick up=
+ across the banking sector."One solution is frantic desperate hiring, but e=
+ven that doesn=E2=80=99t stop the bank-run dynamic:This analyst's firm, whi=
+ch has heavily shed juniors throughout the pandemic, has recently been late=
+rally hiring juniors with minimal experience who "have a pretty steep learn=
+ing curve," they said.The result is "a negative feedback loop," this person=
+ added, in which the majority of the deal work is falling on more experienc=
+ed second- and third-year analysts, who are increasingly feeling the weight=
+ of the burden."They get more and more burnt out. They become more likely t=
+o leave," this person, a second-year banking analyst, said. "It just create=
+d more work for us, given that we're still trying to get them trained up."A=
+nother, far more extreme approach is for the managing directors to actually=
+ run the deals (instead of just pitching new deals) and for the vice presid=
+ents to actually get into the PowerPoint (instead of just scrawling edits o=
+n a printout and tossing them at the analysts):Some of the work junior bank=
+ers have traditionally done has fallen on their superiors, according to Kev=
+in Mahoney, a partner at the search firm Bay Street Advisors who leads the =
+company's investment-banking, private-equity, and private-credit practices.=
+"I've heard some stories where some MDs have said, 'I've been in the office=
+ and working like I haven't since I was a VP, and actually helping execute =
+and doing a lot of the heavy lifting that I have not done in 10 years to me=
+et demand,'" Mahoney told Insider.One senior banker recently complained to =
+Mahoney that deal execution had gone from consuming maximum 20% of their ti=
+me, to up to 60%.=C2=A0The result, according to that banker, is less time s=
+pent making outgoing calls to clients to win new business.One bulge-bracket=
+ investment-banking analyst who spoke to Insider under the condition of ano=
+nymity said they've witnessed something similar.=C2=A0"Given how stretched =
+thin everyone is, I have a deal right now where my VP offered to get into P=
+owerPoint and work through changes on the deck, because we just didn't have=
+ enough people to work on the deck," this person said.I have to say, if you=
+r problem is that have more business than you can handle, it is a little we=
+ird to complain =E2=80=9CI am so busy handling the business that I can=E2=
+=80=99t go out looking for new business.=E2=80=9D That=E2=80=99s fine! You =
+have too much business, remember, you don=E2=80=99t have to go looking for =
+more. Have I mentioned that I was an investment banker for four years? I re=
+ally was not cut out for it.Things happenBitcoin Erases Gain for the Year A=
+fter Dropping  Below $30,000. The World=E2=80=99s Financial Centers Struggl=
+e  Back to the Office. Hedge Funds  Get It Wrong With Ill-Timed Dollar, Bon=
+d Bets. =E2=80=98It=E2=80=99s a sovereignty issue=E2=80=99: Bermuda digs in=
+ against global tax deal. JPMorgan Invests In Mortgage Clearinghouse. Morga=
+n Stanley Backs  Blockchain With Investment in Securitize.=C2=A0Splunk Shar=
+es Soar on $1 Billion Investment From Silver Lake. Novogratz=E2=80=99s Gala=
+xy Provides Liquidity on  Goldman Bitcoin Futures. Convicted Ex-Deutsche Ba=
+nk Trader Sentenced to Prison. Federal Reserve  Builds Lego Town to Explain=
+ Inflation.=C2=A0When an Eel Climbs a Ramp to Eat Squid From a Clamp, That=
+=E2=80=99s a Moray.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy=
+ email form, right in your inbox, please=C2=A0subscribe at this link. Or yo=
+u can subscribe to Money Stuff and other great Bloomberg newsletters here. =
+Thanks![1] Disclosure, I used to work at Goldman, my clients=E2=80=99 inter=
+ests always came first, etc.[2] Incidentally, this=C2=A0amicus brief=C2=A0i=
+s from two directors-and-officers insurance companies. Here at Bloomberg Op=
+inion yesterday,  Chris Bryant had a good column on the rising costs of D&O=
+ insurance driven by the proliferation of securities lawsuits. If you are a=
+ D&O insurer, you do not want everything to be securities fraud.[3] There i=
+s a further, even more boring discussion about who bears the burden of pers=
+uasion on that point.[4] You can quibble about who counts as a =E2=80=9Csha=
+reholder.=E2=80=9D If a company sells stock at a=C2=A0high price=C2=A0that =
+rewards existing shareholders at the expense of new shareholders; if it buy=
+s back stock at a low price that rewards continuing shareholders at the exp=
+ense of selling shareholders. You can have a view of the corporation that i=
+s like =E2=80=9Cthe company should maximize value for existing, continuing =
+shareholders, even at the expense of people who are coming in or out of the=
+ shareholder base.=E2=80=9D I am not sure that this view makes a ton of cor=
+porate-finance sense =E2=80=94=C2=A0shareholders have to come from somewher=
+e, and they have to eventually get some reward =E2=80=94=C2=A0but, you know=
+, fine.[5] There is a more complicated version of this argument. Why should=
+ you *care* about corporate performance, if you are an index fund? You are =
+offering investors the performance of the index; you don=E2=80=99t try to o=
+utperform. Still, you are marketing yourself to investors; you want more pe=
+ople to give you their money. Telling them things like (1) the index mostly=
+ goes up, (2) we take good care of your money and try to make companies bet=
+ter, (3) we do things to enhance the long-term sustainability of corporate =
+profits so the index will keep going up, etc., probably helps with that mar=
+keting. Still I do think there is some room for an index-fund marketing str=
+ategy that is like =E2=80=9Cwe will put your money in all the stocks, never=
+ meet with any companies, never tell them what to do, never meet with activ=
+ists, never do any research, never care about anything at all except tracki=
+ng the index, and charge you zero dollars.=E2=80=9D=C2=A0[6] Engine No. 1 s=
+tarted buying Exxon stock on Nov. 9, 2020 (see page 21 here)=C2=A0and won i=
+ts proxy fight on May 26, 2021; it  said it spent about $30 million on the =
+fight. Thirty million divided by 198 days is about $150,000 per day.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cef65l.5fon/bc546067.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_50814354_763608972.1624377750123
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24222441.253607/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBaaa823b5"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24222441.253607/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cBf525ff2=
+2">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Everything might be=C2=A0securities fraud</h2><p style=3D"margin: 16p=
+x 0;">We <a href=3D"https://link.mail.bloombergbusiness.com/click/24222441.=
+253607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDIt=
+MDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlbWUtY291cnQtaGVkZ2UtZnVuZHMtd29uLW9=
+uLWdhbWVzdG9wLWtrcG9lNndz/607f07ceef4b8524a319a23cB32a2494d" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> talked in February</a> =
+about a securities-fraud lawsuit against Goldman Sachs Group Inc. that was =
+going all the way to the=C2=A0Supreme Court. The issue is that, before the =
+2008 global financial crisis, Goldman had gone around saying things like =
+=E2=80=9Cour clients=E2=80=99 interests always come first=E2=80=9D and =E2=
+=80=9Cintegrity and honesty are at the heart of our business.=E2=80=9D Then=
+ the global financial crisis occurred, and:</p><ol style=3D"list-style-type=
+: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bott=
+om: 5px;">It came out that maybe Goldman=E2=80=99s clients=E2=80=99 interes=
+ts sometimes came second, and maybe integrity and honesty were sometimes no=
+t quite at the=C2=A0<em>heart=C2=A0</em>of its business[1]; and</li>=09<li =
+style=3D"margin-bottom: 5px;">Goldman=E2=80=99s stock price went down.</li>=
+</ol><p style=3D"margin: 16px 0;">Why did the stock price go down? Well, I =
+mean, there=C2=A0<em>was=C2=A0</em>a global financial crisis. That was bad,=
+ for earnings and such. Also, though,=C2=A0Goldman got in (legal, political=
+, public-relations) trouble for some of the specific instances in which its=
+ clients=E2=80=99 interests arguably came second; for instance, famously, i=
+t <a href=3D"https://link.mail.bloombergbusiness.com/click/24222441.253607/=
+aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLzIwMTAvMjAxMC0xMjMuaHRt/607f07ceef=
+4b8524a319a23cB90aa87b2" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">paid a big fine</a> for doing some bad=C2=A0stuff with a mor=
+tgage security called Abacus.=C2=A0</p><p style=3D"margin: 16px 0;">There i=
+s perhaps a third, less specific reason. Perhaps in 2007, investors read in=
+ Goldman=E2=80=99s disclosures that=C2=A0=E2=80=9Cour clients=E2=80=99 inte=
+rests always come first=E2=80=9D and =E2=80=9Cintegrity and honesty are at =
+the heart of our business,=E2=80=9D and they thought: =E2=80=9CYes, it is g=
+ood that Goldman has integrity and puts its clients=E2=80=99 interests firs=
+t, that is valuable for its business, we will buy the stock.=E2=80=9D In 20=
+09, after Abacus and so forth, investors thought =E2=80=9Calas, no, Goldman=
+ does not have integrity and does not put its clients=E2=80=99 interests fi=
+rst, we are disappointed, we will sell the stock.=E2=80=9D In other words, =
+perhaps investors=C2=A0<em>ascribed value=C2=A0</em>to Goldman=E2=80=99s st=
+atements about integrity and honesty, and then when they found out that tho=
+se statements were not true that value went away and the stock went down.</=
+p><p style=3D"margin: 16px 0;">Are you laughing? A little, right? Investors=
+ mainly ascribed value to Goldman=E2=80=99s income stream, and the stock ma=
+inly went down due to Goldman losing money. But of course,=C2=A0at some mar=
+gin integrity is valuable, and maybe investors thought Goldman had like 100=
+ units of integrity (after reading their disclosures) but revised that esti=
+mate down to 80 units (after reading the Abacus settlement), and each unit =
+of integrity was worth a dollar to the stock price and so forth.</p><p styl=
+e=3D"margin: 16px 0;">If you believe this theory, then it was=C2=A0<em>secu=
+rities fraud=C2=A0</em>for Goldman to talk a lot about having a lot of inte=
+grity and honestly when in fact it secretly knew that it had less integrity=
+ and honesty. Goldman was cooking the integrity-and-honesty books. Each qua=
+rter the results came in and the business delivered only 80 units of honest=
+y and integrity, but the market was demanding 100 units, so Goldman=E2=80=
+=99s executives fudged the numbers and reported a full supply of honesty an=
+d integrity. =E2=80=9COur clients=E2=80=99 interests came first on 73 out o=
+f 91 days this quarter,=E2=80=9D the assistant treasurer reported, and the =
+chief financial officer was like =E2=80=9Cthat=E2=80=99s not good enough, w=
+e need to report that our clients=E2=80=99 interests=C2=A0<em>always=C2=A0<=
+/em>came first, find a way to make it happen!=E2=80=9D</p><p style=3D"margi=
+n: 16px 0;">Anyway this went to the Supreme Court and there were some argum=
+ents about the theory=C2=A0=E2=80=94=C2=A0which I talk about a lot around h=
+ere =E2=80=94=C2=A0that =E2=80=9Ceverything is securities fraud.=E2=80=9D I=
+f companies say vague nice things about themselves =E2=80=94=C2=A0=E2=80=9C=
+we have a code of ethics,=E2=80=9D =E2=80=9Cthe client comes first,=E2=80=
+=9D =E2=80=9Cwe have a culture of risk management,=E2=80=9D etc. =E2=80=94=
+=C2=A0and then a bad thing happens, a shareholder will sue, arguing that th=
+e vague nice statements were <em>lies=C2=A0</em>that deceived investors and=
+ pumped up the stock, and that when the bad thing happened the truth was re=
+vealed and the stock dropped. When we <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/24222441.253607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlbWUtY2=
+91cnQtaGVkZ2UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNndz/607f07ceef4b8524a319=
+a23cC32a2494d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> talked about it in February</a>, I quoted some <em>amicus curiae</em>=
+ briefs like this one[2]:</p><blockquote><p style=3D"margin: 16px 0;">Frequ=
+ently, event-driven claims allege that generic or aspirational statements, =
+similar to ones made by virtually every public company, maintained inflatio=
+n in a company=E2=80=99s stock price. Allegations of wrongdoing nearly alwa=
+ys conflict, at some level of generality, with a company=E2=80=99s code of =
+conduct or other statements of corporate policy. So it is not difficult for=
+ plaintiffs to allege that negative reporting or disclosures =E2=80=9Ccorre=
+cted=E2=80=9D a prior, generic policy statement (e.g., =E2=80=9CWe strive t=
+o comply with all applicable laws.=E2=80=9D). The result is that just about=
+ any corporate controversy that coincides with a drop in stock price can be=
+ re-characterized as a securities fraud. Examples abound. COVID-19 exposure=
+ on cruise ships, wildfires, data breaches, and sexual-harassment allegatio=
+ns have all served as grounds for event-driven claims of securities fraud s=
+upposedly tied to generalized statements.=C2=A0</p></blockquote><p style=3D=
+"margin: 16px 0;">Like those briefs,=C2=A0I suggested that this case might =
+be a chance for the Supreme Court to reconsider the growing idea that every=
+thing is securities fraud.</p><p style=3D"margin: 16px 0;">Well, never mind=
+. The Supreme Court decided the case yesterday and it is the <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/24222441.253607/aHR0cHM6Ly93d3cu=
+c3VwcmVtZWNvdXJ0Lmdvdi9vcGluaW9ucy8yMHBkZi8yMC0yMjJfMmM4My5wZGY/607f07ceef4=
+b8524a319a23cBd016d55f" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">most boring imaginable decision</a>. If you were looking for =
+the Supreme Court to say =E2=80=9Cyou know what, not everything should be s=
+ecurities fraud,=E2=80=9D or =E2=80=9Cyou know what, actually everything sh=
+ould be securities fraud,=E2=80=9D you will be disappointed. The decision i=
+s about a minor technicality, sending the case back to an appeals court to =
+think a bit harder about whether Goldman=E2=80=99s generic statements of ho=
+nesty and integrity inflated its stock price before the crisis.[3]</p><p st=
+yle=3D"margin: 16px 0;">The rule (from previous Supreme Court cases) is bas=
+ically that Goldman can defeat the lawsuit by showing that its statements =
+=E2=80=9Cdid not actually affect the market price of the stock.=E2=80=9D Th=
+e court of appeals concluded that Goldman did not do that, but the=C2=A0Sup=
+reme Court wants that court to try again. The court =E2=80=9C=E2=80=98shoul=
+d be open to all probative evidence on that question=E2=80=94qualitative as=
+ well as quantitative=E2=80=94aided by a good dose of common sense,=E2=80=
+=99=E2=80=9D says the Supreme Court, helpfully. Goldman had argued to the S=
+upreme Court that the statements at issue here =E2=80=94=C2=A0about integri=
+ty, etc. =E2=80=94=C2=A0are so generic that they could not possibly have af=
+fected the price; the Supreme Court basically said, well, no, it depends. =
+=E2=80=9CAs a rule=C2=A0of thumb, =E2=80=98a more-general statement will af=
+fect a security=E2=80=99s price less than a more-specific statement on the =
+same question.=E2=80=99=E2=80=9D Ah.</p><p style=3D"margin: 16px 0;">Here=
+=E2=80=99s a good passage (citations omitted):</p><blockquote><p style=3D"m=
+argin: 16px 0;">The generic nature of a misrepresentation often will be imp=
+ortant evidence of a lack of price impact, particularly in cases proceeding=
+ under the inflation-maintenance theory. Under that theory, price impact is=
+ the amount of price inflation maintained by an alleged misrepresentation=
+=E2=80=94in other words, the amount that the stock=E2=80=99s price would ha=
+ve fallen =E2=80=9Cwithout the false statement.=E2=80=9D Plaintiffs typical=
+ly try to prove the amount of inflation indirectly: They point to a negativ=
+e disclosure about a company and an associated drop in its stock price; all=
+ege that the disclosure corrected an earlier misrepresentation; and then cl=
+aim that the price drop is equal to the amount of inflation maintained by t=
+he earlier misrepresentation.</p><p style=3D"margin: 16px 0;">But that fina=
+l inference=E2=80=94that the back-end price drop equals front-end inflation=
+=E2=80=94starts to break down when there is a mismatch between the contents=
+ of the misrepresentation and the corrective disclosure. That may occur whe=
+n the earlier misrepresentation is generic (e.g., =E2=80=9Cwe have faith in=
+ our business model=E2=80=9D) and the later corrective disclosure is specif=
+ic (e.g., =E2=80=9Cour fourth quarter earnings did not meet expectations=E2=
+=80=9D). Under those circumstances, it is less likely that the specific dis=
+closure actually corrected the generic misrepresentation, which means that =
+there is less reason to infer front-end price inflation=E2=80=94that is, pr=
+ice impact=E2=80=94from the back-end price drop.</p></blockquote><p style=
+=3D"margin: 16px 0;">The plaintiffs=E2=80=99 theory here is that Goldman=E2=
+=80=99s stock price was too high because it kept talking about how much int=
+egrity it had, and the proof is that, when the news came out that it had le=
+ss integrity, the stock price dropped. But that is not=C2=A0<em>quite </em>=
+how a normal person would describe=C2=A0what happened. What happened is not=
+ that Goldman went around saying =E2=80=9Cour clients=E2=80=99 interests al=
+ways come first=E2=80=9D and then one day it said =E2=80=9Cwe=E2=80=99ve do=
+ne an audit and actually our clients=E2=80=99 interests usually come fourth=
+=E2=80=9D and the stock dropped. What happened is that Goldman went around =
+saying =E2=80=9Cour clients=E2=80=99 interests always come first=E2=80=9D a=
+nd then a global financial crisis occurred in part =E2=80=94=C2=A0in very s=
+mall part =E2=80=94=C2=A0because Goldman=E2=80=99s clients=E2=80=99 interes=
+ts did not always come first. And then Goldman=E2=80=99s stock dropped. Doe=
+s that mean that Goldman=E2=80=99s stock was too high because Goldman was l=
+ying about its clients=E2=80=99 interests always coming first?</p><h2 style=
+=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helveti=
+ca, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-width:=
+ 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px 5px;">How=
+=E2=80=99s GameStop doing?</h2><p style=3D"margin: 16px 0;">A classic probl=
+em in corporate finance is that companies often sell stock when times are t=
+ough and they need money, and they usually buy back stock when times are go=
+od and they have plenty=C2=A0of money. This makes sense from a=C2=A0corpora=
+te finance perspective=C2=A0(selling stock gets you money to do projects; b=
+uying back stock uses the money you get from the projects and rewards share=
+holders for funding them), but is generally bad from a price perspective. I=
+f you need money because times are tough, you will probably be selling stoc=
+k at a low price: Who wants to invest in a company that is running out of m=
+oney? If you are buying back stock because times are good, you will probabl=
+y be buying stock at a high price: The high stable profits that fund your b=
+uyback also make the stock more valuable.</p><p style=3D"margin: 16px 0;">S=
+o there is a general sense that, when companies trade their own stock, they=
+ tend to buy high and sell low. That sounds like bad trading. You are suppo=
+sed to buy low and sell high. Arguably this is the wrong way to think about=
+ it, though. Arguably companies should be proud of selling low and buying h=
+igh. Arguably their loyalty ought to be to their shareholders; if the compa=
+ny sells low and buys high that means that its counterparties =E2=80=94=C2=
+=A0the shareholders =E2=80=94=C2=A0are doing well. If a company is too good=
+ at timing its stock sales and repurchases =E2=80=94=C2=A0if it=E2=80=99s c=
+onstantly selling stock at peaks and buying it back at troughs =E2=80=94=C2=
+=A0then it is making money for shareholders at the expense of, you know, sh=
+areholders.[4]</p><p style=3D"margin: 16px 0;">Anyway the whole dynamic see=
+ms to have reversed with meme stocks. GameStop Corp., <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/24222441.253607/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMjUvdGhlLWdhbWUtbmV2ZXItc3RvcH=
+M/607f07ceef4b8524a319a23cB4d0a46e1" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> the greatest of the meme stocks</a>, was a mall=
+-based video-game retailer that has transformed in the last few months into=
+ some sort of tech-company rocket-ship abstraction. The thing about selling=
+ video games in malls is that it produces steady cash flows (until a global=
+ pandemic hits) but is in secular decline, which means (1) money comes in, =
+(2) you have nothing better to spend it on than stock buybacks and (3) the =
+stock is cheap. So here=E2=80=99s a sentence from GameStop=E2=80=99s <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/24222441.253607/aHR0cHM6=
+Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTMyNjM4MC8wMDAxMzI=
+2MzgwMjEwMDAwMzIvZ21lLTIwMjEwMTMwLmh0bQ/607f07ceef4b8524a319a23cB5bcae498" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">most recen=
+t 10-K</a>:</p><blockquote><p style=3D"margin: 16px 0;">In aggregate, durin=
+g fiscal 2019, we repurchased a total of 38.1 million shares of our Class A=
+ Common Stock, totaling $198.7 million, for an average price of $5.19 per s=
+hare.</p></blockquote><p style=3D"margin: 16px 0;">On the other hand, the t=
+hing about being a vague tech-company rocket-ship abstraction is that it re=
+quires a lot of cash (to figure out what that actually means and then imple=
+ment it) and people love it, which means (1) you need money, (2) you can ge=
+t it by selling stock, and (3) the stock will be expensive. So here=E2=80=
+=99s a <a href=3D"https://link.mail.bloombergbusiness.com/click/24222441.25=
+3607/aHR0cHM6Ly9pbnZlc3Rvci5nYW1lc3RvcC5jb20vbmV3cy1yZWxlYXNlcy9uZXdzLXJlbG=
+Vhc2UtZGV0YWlscy9nYW1lc3RvcC1jb21wbGV0ZXMtbWFya2V0LWVxdWl0eS1vZmZlcmluZy1wc=
+m9ncmFtLTA/607f07ceef4b8524a319a23cB198bcd57" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">GameStop press release this morning</a>=
+:</p><blockquote><p style=3D"margin: 16px 0;">GameStop Corp. (NYSE: GME) (=
+=E2=80=9CGameStop=E2=80=9D or the =E2=80=9CCompany=E2=80=9D) today announce=
+d that it has completed its previously announced =E2=80=9Cat-the-market=E2=
+=80=9D equity offering program (the =E2=80=9CATM Offering=E2=80=9D).</p><p =
+style=3D"margin: 16px 0;">GameStop disclosed on June 9, 2021 that it filed =
+a prospectus supplement with the U.S. Securities and Exchange Commission to=
+ offer and sell up to a maximum of 5,000,000 shares of its common stock fro=
+m time to time through the ATM Offering. The Company ultimately sold 5,000,=
+000 shares of common stock and generated aggregate gross proceeds before co=
+mmissions and offering expenses of approximately $1,126,000,000.</p></block=
+quote><p style=3D"margin: 16px 0;">It is hard not to admire this. They boug=
+ht 38.1 million shares two years ago=C2=A0at $5.19 each; they sold 5 millio=
+n shares in the last two weeks at $225.20 each. GameStop is up 33.1 million=
+ shares=C2=A0<em>and=C2=A0</em>$927 million on these two trades. It bought =
+so low and sold so high. It=E2=80=99s a great trade and I congratulate Game=
+Stop. But, you know, don=E2=80=99t do it too often.</p><p style=3D"margin: =
+16px 0;">=E2=80=9CDon=E2=80=99t do it too often,=E2=80=9D I say, and yet I =
+cannot help myself. What if the GameStop meme run=C2=A0<em>does=C2=A0</em>e=
+nd? What if the transformation to a tech company never goes anywhere? What =
+if it consumes only a fraction of that $1.1 billion (which will be used =E2=
+=80=9Cfor general corporate purposes as well as for investing in growth ini=
+tiatives and maintaining a strong balance sheet=E2=80=9D)? What if, a year =
+from now, GameStop is trading at $20=C2=A0it has a billion dollars of cash =
+on its balance sheet? If you ran GameStop, wouldn=E2=80=99t you be a little=
+ tempted to pivot back to buying back stock?</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/inJXmAcNgA6I/v=
+0/-1x-1.png" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/inJXmAcNgA6I/v0/-1x-1.png" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;"><p style=3D"margin: 10px 0px;"><strong>Invest in world-changing st=
+artups on AngelList</strong><br />
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24222441.253607/aH=
+R0cDovL2FuZ2VsbGlzdC5jb20_dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1ha=
+WwmdXRtX2NhbXBhaWduPW1vbmV5X3N0dWZm/607f07ceef4b8524a319a23cB291bd2ac" styl=
+e=3D"color: #000000; text-decoration: underline;">
+<br />
+AngelList</a><a href=3D"https://link.mail.bloombergbusiness.com/click/24222=
+441.253607/aHR0cDovL2FuZ2VsbGlzdC5jb20vP3V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leV9zdHVmZg/607f07ceef4b8524a319a23c=
+B92dd8584" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: underline;"> </a>is the leading =
+platform for early-stage venture investing. <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24222441.253607/aHR0cHM6Ly93d3cuYW5nZWxsaXN0LmNvb=
+S9yb2xsaW5nP3V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1w=
+YWlnbj1tb25leV9zdHVmZg/607f07ceef4b8524a319a23cB047e9b87" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: underline;">
+Invest</a> in experienced VCs that have backed Clubhouse, Notion, Pipe, and=
+ 77 other unicorns. Adjust your investment size as your goals evolve.</p></=
+div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;"><a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24222441.253607/aHR0cHM6Ly93d3cuYW=
+5nZWxsaXN0LmNvbS8_dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+2NhbXBhaWduPW1vbmV5X3N0dWZm/607f07ceef4b8524a319a23cB295e8237" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: underline;">
+AngelList</a></p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">VOTE</h2><p style=3D"margin: 16px 0;">One type of investing business =
+is an activist hedge fund. You buy concentrated stakes in a handful of comp=
+anies after careful analysis, and then use proxy fights, meetings and stron=
+gly worded letters to try to influence those companies=E2=80=99 behavior. I=
+f you succeed, they make changes to their business and their stocks go up. =
+You charge your investors a lot of money for this service.</p><p style=3D"m=
+argin: 16px 0;">Another type of investing business is a passive index fund.=
+ You buy stock in every company indiscriminately. The stocks go up because =
+stocks mostly go up, not because you picked good ones; you are aiming for t=
+he market return, not outperformance. You charge your investors as little a=
+s possible =E2=80=94=C2=A0a few basis points, maybe zero =E2=80=94=C2=A0for=
+ this service.</p><p style=3D"margin: 16px 0;">These are sort of opposite b=
+usiness models but they have important=C2=A0synergies. If you run an activi=
+st hedge fund, much of your work is about trying to get other big sharehold=
+ers to support your activist campaigns: They have a lot of votes, and if th=
+ey vote for you then. you will win your proxy fights. It turns out that the=
+ biggest investors are often index funds. So if you are an activist who is =
+friends with the index funds, that is good for business.</p><p style=3D"mar=
+gin: 16px 0;">Meanwhile if you run a passive index fund, you will sometimes=
+ become annoyed with the managers of your portfolio companies and want them=
+ to make changes to their business. You might own a lot of shares and have =
+a lot of votes, but your influence will be somewhat muted by your passivity=
+. You can=E2=80=99t threaten to sell the stock if the managers don=E2=80=99=
+t do what you want. You are temperamentally unlikely to do a proxy fight yo=
+urself. But if some sympathetic activist could light a fire under the manag=
+ers, that would be helpful.[5] (The phrase is =E2=80=9C<a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/24222441.253607/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTQtMDMtMTkvYWN0aXZpc3QtaGVkZ2UtZnVuZ=
+HMtYXJlLW1ha2luZy1mcmllbmRz/607f07ceef4b8524a319a23cB7afc4680" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> request for activist<=
+/a>,=E2=80=9D or =E2=80=9CRFA=E2=80=9D: A big institution that is unhappy w=
+ith a company can quietly suggest to an activist hedge fund that it should =
+pay attention to the company.) So if you are an index fund manager who is f=
+riends with activist hedge funds, that is good for business.</p><p style=3D=
+"margin: 16px 0;">And so when Engine No. 1 LLC, an activist fund, won a pro=
+xy battle at Exxon Mobil Corp. after winning support from big index manager=
+s like BlackRock Inc., <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/24222441.253607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjEtMDUtMjcvZXh4b24tbG9zdC1hLWNsaW1hdGUtcHJveHktZmlnaHQ/607f07ceef4b8=
+524a319a23cB6a3a9771" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> I wrote that</a> Engine No. 1 gave BlackRock what it wanted (=
+practical influence over Exxon), and BlackRock gave Engine No. 1 what it wa=
+nted (a proxy-fight win).</p><p style=3D"margin: 16px 0;">You could idly im=
+agine the synergies of merging these two businesses. Run an activist fund a=
+nd an index fund under one roof, and the activist fund can tell prospective=
+ investors =E2=80=9Cwe have index money supporting us so our campaigns have=
+ more leverage,=E2=80=9D while the index fund=C2=A0can tell prospective inv=
+estors =E2=80=9Cwe do no research or monitoring so our fund is very cheap, =
+but we free-ride off the work of our activist division to make sure that ou=
+r companies are operating efficiently.=E2=80=9D This is not really a thing.=
+ The index funds are too big and the activist funds are too small, the pers=
+onalities and temperaments clash, and there are some important dis-synergie=
+s, if you run a giant index-y asset manager, from being too mean to corpora=
+te managers. (You want to manage corporate pensions!)</p><p style=3D"margin=
+: 16px 0;">Still <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+4222441.253607/aHR0cHM6Ly93d3cuYnVzaW5lc3N3aXJlLmNvbS9uZXdzL2hvbWUvMjAyMTA2=
+MjIwMDUzMzAvZW4vRW5naW5lLU5vLi0xLVRyYW5zZm9ybS01MDAtRVRGLVRpY2tlci1WT1RFLVd=
+pbGwtTGF1bmNoLXRvLURyaXZlLVBvc2l0aXZlLUltcGFjdC1UaHJvdWdoLVZvdGluZy1hbmQtQW=
+N0aXZlLU93bmVyc2hpcA/607f07ceef4b8524a319a23cBe92717bf" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">here=E2=80=99s this</a>:</p><=
+blockquote><p style=3D"margin: 16px 0;">Engine No. 1, an impact investment =
+group purpose-built to create long-term value by driving positive impact, t=
+oday announced the upcoming launch of its inaugural ETF, Engine No. 1 Trans=
+form 500 ETF (ticker: VOTE) (=E2=80=9CVOTE=E2=80=9D or the =E2=80=9CFund=E2=
+=80=9D), with an initial commitment of $100 million. Engine No. 1 is also a=
+nnouncing that Betterment, the largest independent digital investment advis=
+or, will be integrating VOTE into all of its socially responsible investing=
+ (=E2=80=9CSRI=E2=80=9D) strategies.</p><p style=3D"margin: 16px 0;">VOTE w=
+ill invest in a market-cap weighted index of the 500 largest U.S. stocks an=
+d will seek to track the Morningstar U.S. Large Cap Select Index. Rather th=
+an excluding or re-weighting stocks, VOTE will seek to improve companies=E2=
+=80=99 environmental and social impacts through:</p><p style=3D"margin: 16p=
+x 0;">1. <strong>Votes we cast:</strong> Strategically hold companies and l=
+eadership teams accountable while focusing on environmental, social, and go=
+vernance issues that create value.</p><p style=3D"margin: 16px 0;">2. <stro=
+ng>Campaigns we run:</strong> Actively work with companies to strengthen th=
+e investments they make in stakeholders to drive company performance.</p><p=
+ style=3D"margin: 16px 0;">3. <strong>Investors we bring with us:</strong> =
+Build platform to better serve investors=E2=80=99 long-term interests, enab=
+ling them to be part of our mission.</p><p style=3D"margin: 16px 0;">The Fu=
+nd=E2=80=99s annual expense ratio will be 0.05%.</p></blockquote><p style=
+=3D"margin: 16px 0;">A $100 million fund at 5 basis points brings in $50,00=
+0 a year in fees, which would pay for about eight hours of the Exxon proxy =
+fight.[6] VOTE Is not, on its own, going to be running a lot of activist ca=
+mpaigns. But Engine No. 1 also has a more classical activist-hedge-fund arm=
+, where it invests its founder's money (and I guess institutional money?) i=
+n concentrated stock positions where it runs activist campaigns. (Well, I m=
+ean, it=E2=80=99s pretty small and new, but it did that once with notable s=
+uccess and is now <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+24222441.253607/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZWJmZGY2N2QtY2JjZS00MGE=
+1LWJiMjktZDM2MTM3N2RlYTdh/607f07ceef4b8524a319a23cBe1f0b2a7" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">looking to raise institu=
+tional money</a>.) Having an index fund to back it up can=E2=80=99t=C2=A0<e=
+m>hurt=C2=A0</em>those campaigns, though a $100 million fund spread over 50=
+0 stocks is not going to help much either.</p><p style=3D"margin: 16px 0;">=
+Still, synergies. The activist connection =E2=80=94=C2=A0and the fact that =
+this activist is socially-responsible-investing-focused activist =E2=80=94=
+=C2=A0will help the index fund raise money; if it gets big enough, the inde=
+x fund connection can help the activist fund raise money and win campaigns.=
+</p><h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, A=
+rial, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-=
+bottom-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px =
+0px 5px;">Labor shortage</h2><p style=3D"margin: 16px 0;">Let=E2=80=99s say=
+ you work in an investment banking group where the right number of analysts=
+ is, say, 10. With 10 analysts, everyone will be busy, they will learn thin=
+gs, they will work on a variety of deals, they will often feel stretched an=
+d occasionally bored, they will have a lot of work but feel like they have =
+a lot of responsibility.</p><p style=3D"margin: 16px 0;">If by some acciden=
+t that group gets 15 analysts, that would be bad. People would have too lit=
+tle to do, they wouldn=E2=80=99t learn enough, they=E2=80=99d be bored and =
+feel like they weren=E2=80=99t getting the educational-slash-hazing experie=
+nce that they want out of banking. This situation would, however, correct i=
+tself. Bored analysts would quit or transfer out; the reputation of the gro=
+up as a sleepy backwater would make new analysts avoid it. You=E2=80=99re o=
+nly an investment banking analyst for a couple of years anyway. Things drif=
+t back to equilibrium.</p><p style=3D"margin: 16px 0;">If by some accident =
+that group gets five analysts, that would be worse. People would have too m=
+uch to do, work would be done sloppily or not at all, the analysts would be=
+ burnt out and miserable, they=E2=80=99d have no time to learn anything and=
+ deals would not get done. This is, however, less self-correcting. You can =
+try to hire a sixth analyst, but who wants to be the sixth analyst in a mis=
+erable overworked group? Also the five analysts you do have are gonna quit.=
+ Having too few analysts makes a group bad, which makes it harder to attrac=
+t and keep=C2=A0analysts, which makes it harder to get back to the correct =
+number of analysts.=C2=A0There is a sort of bank-run dynamic. You do not wa=
+nt to catch the falling knife of overwork. Once you get too far below the s=
+table equilibrium of 10 analysts, the next stable equilibrium is zero analy=
+sts, everyone quits, the group dissolves, there is no cure, it is the end o=
+f that banking group, sorry, oh well.</p><p style=3D"margin: 16px 0;">I mea=
+n=C2=A0I=E2=80=99m exaggerating. Still,=C2=A0imagine that <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/24222441.253607/aHR0cHM6Ly93d3cuYnV=
+zaW5lc3NpbnNpZGVyLmNvbS9pbnZlc3RtZW50LWJhbmtzLWxhYm9yLXNob3J0YWdlLWFuYWx5c3=
+RzLWhpcmluZy1kZWFscy1nb2xkbWFuLWpwbW9yZ2FuLTIwMjEtNg/607f07ceef4b8524a319a2=
+3cB5c8c6015" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">but for the entire industry</a>:</p><blockquote><p style=3D"margin: 16px=
+ 0;">Just months after junior bankers railed against management amid crushi=
+ng levels of burnout, one of the root drivers of the problem has yet to be =
+solved: Banks have too few hands on deck to handle their massive deal loads=
+. =E2=80=A6</p><p style=3D"margin: 16px 0;">For banks, it's not just strugg=
+ling to boost the lackluster number of juniors. They're also expecting furt=
+her losses, PwC partner Julia Lamm told Insider.</p><p style=3D"margin: 16p=
+x 0;">"Companies are bracing for higher turnover numbers than ever before, =
+staffing up the recruiting teams," and getting external recruiting agencies=
+ "geared up for more recruiting," said Lamm, who is a workforce strategy pa=
+rtner in the firm's financial services people and organization practice.=C2=
+=A0</p><p style=3D"margin: 16px 0;">"It's creating an even bigger gap," Lam=
+m said, "because that turnover number is starting to tick up across the ban=
+king sector."</p></blockquote><p style=3D"margin: 16px 0;">One solution is =
+frantic desperate hiring, but even that doesn=E2=80=99t stop the bank-run d=
+ynamic:</p><blockquote><p style=3D"margin: 16px 0;">This analyst's firm, wh=
+ich has heavily shed juniors throughout the pandemic, has recently been lat=
+erally hiring juniors with minimal experience who "have a pretty steep lear=
+ning curve," they said.</p><p style=3D"margin: 16px 0;">The result is "a ne=
+gative feedback loop," this person added, in which the majority of the deal=
+ work is falling on more experienced second- and third-year analysts, who a=
+re increasingly feeling the weight of the burden.</p><p style=3D"margin: 16=
+px 0;">"They get more and more burnt out. They become more likely to leave,=
+" this person, a second-year banking analyst, said. "It just created more w=
+ork for us, given that we're still trying to get them trained up."</p></blo=
+ckquote><p style=3D"margin: 16px 0;">Another, far more extreme approach is =
+for the managing directors to actually run the deals (instead of just pitch=
+ing new deals) and for the vice presidents to actually get into the PowerPo=
+int (instead of just scrawling edits on a printout and tossing them at the =
+analysts):</p><blockquote><p style=3D"margin: 16px 0;">Some of the work jun=
+ior bankers have traditionally done has fallen on their superiors, accordin=
+g to Kevin Mahoney, a partner at the search firm Bay Street Advisors who le=
+ads the company's investment-banking, private-equity, and private-credit pr=
+actices.</p><p style=3D"margin: 16px 0;">"I've heard some stories where som=
+e MDs have said, 'I've been in the office and working like I haven't since =
+I was a VP, and actually helping execute and doing a lot of the heavy lifti=
+ng that I have not done in 10 years to meet demand,'" Mahoney told Insider.=
+</p><p style=3D"margin: 16px 0;">One senior banker recently complained to M=
+ahoney that deal execution had gone from consuming maximum 20% of their tim=
+e, to up to 60%.=C2=A0</p><p style=3D"margin: 16px 0;">The result, accordin=
+g to that banker, is less time spent making outgoing calls to clients to wi=
+n new business.</p><p style=3D"margin: 16px 0;">One bulge-bracket investmen=
+t-banking analyst who spoke to Insider under the condition of anonymity sai=
+d they've witnessed something similar.=C2=A0</p><p style=3D"margin: 16px 0;=
+">"Given how stretched thin everyone is, I have a deal right now where my V=
+P offered to get into PowerPoint and work through changes on the deck, beca=
+use we just didn't have enough people to work on the deck," this person sai=
+d.</p></blockquote><p style=3D"margin: 16px 0;">I have to say, if your prob=
+lem is that have more business than you can handle, it is a little weird to=
+ complain =E2=80=9CI am so busy handling the business that I can=E2=80=99t =
+go out looking for new business.=E2=80=9D That=E2=80=99s fine! You have too=
+ much business, remember, you don=E2=80=99t have to go looking for more. Ha=
+ve I mentioned that I was an investment banker for four years? I really was=
+ not cut out for it.</p><h2 style=3D"font-weight: bold; font-family: &quot;=
+Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font=
+-size: 20px; border-bottom-width: 1px; border-bottom-style: dotted; margin:=
+ 0px; padding: 16px 0px 5px;">Things happen</h2><p style=3D"margin: 16px 0;=
+">Bitcoin Erases Gain for the Year After Dropping <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/24222441.253607/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMjIvYml0Y29pbi1kcm9wcy1iZWxvdy0zMC0wMD=
+AtZm9yLWZpcnN0LXRpbWUtc2luY2UtamFudWFyeQ/607f07ceef4b8524a319a23cB8895c660"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Below $3=
+0,000</a>. The World=E2=80=99s Financial Centers Struggle <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/24222441.253607/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9ncmFwaGljcy8yMDIxLXJldHVybi10by1vZmZpY2Uv/607f07ceef4b8524a=
+319a23cBbd3097d1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> Back to the Office</a>. Hedge Funds <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24222441.253607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMjIvaGVkZ2UtZnVuZHMtZ2V0LWl0LXdyb25nLXdpdGg=
+taWxsLXRpbWVkLWRvbGxhci1zdGVlcGVuZXItYmV0cw/607f07ceef4b8524a319a23cB92dabd=
+38" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> Get I=
+t Wrong</a> With Ill-Timed Dollar, Bond Bets. =E2=80=98It=E2=80=99s a <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24222441.253607/aHR0cHM=
+6Ly93d3cuZnQuY29tL2NvbnRlbnQvYjQwNTZkOWEtMWM4MS00Mjc1LTgwYTAtMGQxYjkyZjYxMz=
+I1/607f07ceef4b8524a319a23cBcc7e0eff" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">sovereignty issue</a>=E2=80=99: Bermuda digs in=
+ against global tax deal. JPMorgan Invests In <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/24222441.253607/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnR=
+pY2xlcy9qcG1vcmdhbi1pbnZlc3RzLWluLW1vcnRnYWdlLWNsZWFyaW5naG91c2UtMTE2MjQzMD=
+U2NjI_bW9kPWhwX2xlYWRfcG9zMg/607f07ceef4b8524a319a23cBb9491ff0" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Mortgage Clearinghous=
+e</a>. Morgan Stanley Backs <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/24222441.253607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjEtMDYtMjEvbW9yZ2FuLXN0YW5sZXktYmFja3MtYmxvY2tjaGFpbi13aXRoLWludmVz=
+dG1lbnQtaW4tc2VjdXJpdGl6ZQ/607f07ceef4b8524a319a23cBed0cfa07" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> Blockchain</a> With In=
+vestment in Securitize.=C2=A0<a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24222441.253607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjEtMDYtMjIvc3BsdW5rLXNoYXJlcy1zb2FyLW9uLTEtYmlsbGlvbi1pbnZlc3RtZW5=
+0LWZyb20tc2lsdmVyLWxha2U/607f07ceef4b8524a319a23cB4f0f8230" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">Splunk</a> Shares Soar on=
+ $1 Billion Investment From Silver Lake. Novogratz=E2=80=99s Galaxy Provide=
+s Liquidity on <a href=3D"https://link.mail.bloombergbusiness.com/click/242=
+22441.253607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMD=
+YtMTgvbm92b2dyYXR6LXMtZ2FsYXh5LXByb3ZpZGVzLWxpcXVpZGl0eS1vbi1nb2xkbWFuLWJpd=
+GNvaW4tZnV0dXJlcw/607f07ceef4b8524a319a23cB3f4793cc" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> Goldman Bitcoin Futures</a>. Co=
+nvicted Ex-Deutsche Bank Trader <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/24222441.253607/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jb252a=
+WN0ZWQtZXgtZGV1dHNjaGUtYmFuay10cmFkZXItc2VudGVuY2VkLXRvLXByaXNvbi0xMTYyNDMw=
+MTQyMQ/607f07ceef4b8524a319a23cB39481549" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Sentenced to Prison</a>. Federal Reserve <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/24222441.253607/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMjEvZmVkLXR1cm=
+5zLXRvLXRveS1jaGVzdC1idWlsZHMtbGVnby10b3duLXRvLWV4cGxhaW4taW5mbGF0aW9u/607f=
+07ceef4b8524a319a23cB128eef7c" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> Builds Lego Town</a> to Explain Inflation.=C2=A0When =
+an Eel Climbs a Ramp to <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/24222441.253607/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNi8yMi9zY2llb=
+mNlL21vcmF5LWVlbHMtZWF0LWxhbmQuaHRtbA/607f07ceef4b8524a319a23cB5e9ba1dc" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">Eat Squid Fr=
+om a Clamp</a>, That=E2=80=99s a Moray.</p><p style=3D"margin: 16px 0;"><sp=
+an class=3D"news-designed-for-consumer-media"><em>If you'd like to get=C2=
+=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/24222441.253=
+607/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXl=
+zdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07c=
+eef4b8524a319a23cB76b351de" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">subscribe a=
+t this link</a>. Or you can subscribe to Money Stuff and other great Bloomb=
+erg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/click/24=
+222441.253607/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ce=
+ef4b8524a319a23cB6276c27d" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px =
+0;"><em>[1] Disclosure, I used to work at Goldman, my clients=E2=80=99 inte=
+rests always came first, etc.</em></p><p style=3D"margin: 16px 0;"><em>[2] =
+Incidentally, this=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/=
+click/24222441.253607/aHR0cHM6Ly93d3cuc3VwcmVtZWNvdXJ0Lmdvdi9Eb2NrZXRQREYvM=
+jAvMjAtMjIyLzE2Nzc5OC8yMDIxMDIwMTE0MDM1NDE3N18yMC0yMjJ0c2FjQW1lcmljYW5JbnRl=
+cm5hdGlvbmFsR3JvdXBJbmNBbmRDaHViYkdyb3VwSG9sZGluZ3NJbmMucGRm/607f07ceef4b85=
+24a319a23cB809974be" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">amicus brief</a>=C2=A0is from two directors-and-officers insur=
+ance companies. Here at Bloomberg Opinion yesterday, <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/24222441.253607/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMjEvd2hlbi1sYXd5ZXJzLWNoYXJnZS0=
+xLTgwMC1hbi1ob3VyLXdoby1wYXlzLWQtby1pbnN1cmFuY2UtZmVlcy1zb2Fy/607f07ceef4b8=
+524a319a23cBe58fe083" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Chris Bryant had a good column</a> on the rising costs of D&a=
+mp;O insurance driven by the proliferation of securities lawsuits. If you a=
+re a D&amp;O insurer, you do not want everything to be securities fraud.</e=
+m></p><p style=3D"margin: 16px 0;"><em>[3] There is a further, even more bo=
+ring discussion about who bears the burden of persuasion on that point.</em=
+></p><p style=3D"margin: 16px 0;"><em>[4] You can quibble about who counts =
+as a =E2=80=9Cshareholder.=E2=80=9D If a company sells stock at a=C2=A0high=
+ price=C2=A0that rewards existing shareholders at the expense of new shareh=
+olders; if it buys back stock at a low price that rewards continuing shareh=
+olders at the expense of selling shareholders. You can have a view of the c=
+orporation that is like =E2=80=9Cthe company should maximize value for exis=
+ting, continuing shareholders, even at the expense of people who are coming=
+ in or out of the shareholder base.=E2=80=9D I am not sure that this view m=
+akes a ton of corporate-finance sense =E2=80=94=C2=A0shareholders have to c=
+ome from somewhere, and they have to eventually get some reward =E2=80=94=
+=C2=A0but, you know, fine.</em></p><p style=3D"margin: 16px 0;"><em>[5] The=
+re is a more complicated version of this argument. Why should you *care* ab=
+out corporate performance, if you are an index fund? You are offering inves=
+tors the performance of the index; you don=E2=80=99t try to outperform. Sti=
+ll, you are marketing yourself to investors; you want more people to give y=
+ou their money. Telling them things like (1) the index mostly goes up, (2) =
+we take good care of your money and try to make companies better, (3) we do=
+ things to enhance the long-term sustainability of corporate profits so the=
+ index will keep going up, etc., probably helps with that marketing. Still =
+I do think there is some room for an index-fund marketing strategy that is =
+like =E2=80=9Cwe will put your money in all the stocks, never meet with any=
+ companies, never tell them what to do, never meet with activists, never do=
+ any research, never care about anything at all except tracking the index, =
+and charge you zero dollars.=E2=80=9D=C2=A0</em></p><p style=3D"margin: 16p=
+x 0;"><em>[6] Engine No. 1 started buying Exxon stock on Nov. 9, 2020 (see =
+page 21 <a href=3D"https://link.mail.bloombergbusiness.com/click/24222441.2=
+53607/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzM0MDg4LzAwMDA5M=
+DI2NjQyMTAwMTkzMS9wMjEtMDk1N2RlZmMxNGEuaHRt/607f07ceef4b8524a319a23cBc92b8c=
+bc" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">here</=
+a>)=C2=A0and won its proxy fight on May 26, 2021; it <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/24222441.253607/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjYvZXh4b24taGFzLWEtdG91Z2gtZ3J=
+lZW4tYWN0aXZpc3Q/607f07ceef4b8524a319a23cB53fc40aa" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> said it spent</a> about $30 mill=
+ion on the fight. Thirty million divided by 198 days is about $150,000 per =
+day.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24222441.253607/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB2bc4c233" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24222441.253607/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB35289330" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24222441.253607/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB60ed0869" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24222441.253607/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBb826b984" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-bottom: 32px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2422244=
+1.253607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB45186a80" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24222441.253607/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCf0950083" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24222441.253607/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB43a147ec" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24222441.253607/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB775942fe" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cef65l.5fon/bc546067.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_50814354_763608972.1624377750123--
+

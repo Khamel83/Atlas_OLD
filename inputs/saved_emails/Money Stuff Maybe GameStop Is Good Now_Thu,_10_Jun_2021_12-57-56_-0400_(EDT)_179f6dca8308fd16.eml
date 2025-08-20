@@ -1,0 +1,1585 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:5c7:b029:fa:486f:dd6a with SMTP id r7csp781559lkr;
+        Thu, 10 Jun 2021 09:58:47 -0700 (PDT)
+X-Received: by 2002:a05:6402:342:: with SMTP id r2mr425291edw.69.1623344326881;
+        Thu, 10 Jun 2021 09:58:46 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1623344326; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=azOkLU7Xw4luyP180ZvSQl8uIrkqkz/gCACX7rbfLFpOhH40veX/hj6eje3H9ra/5+
+         TJord1eK3LfdiNMcf9lRfzvHlR1rNFYhwEcB9yyjYCFpnvIUrVG5/hmyXVmdvA8XrVOB
+         sk5DyOArwBFJIP+cB8pm25/m7L2D25xvSENKQXpQ629zmG/PaosgwHFBkqJ8DUNfpex1
+         vYsYeu26fOgrqAL9Qvi30MNLaV13Kr8xAspbhB8u3a/Rzd+GW+Docz/q7RznPfT5w1rh
+         ws9x/TTwCsVwl8lDOFcTZFqbcbTZ7c5tAAdTTBOyHRF++slLJhfXxtsM8zOhiBWwWJGN
+         FYwA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=bs1Q+o2W804L+zBQye3rkhPG8fC5jejYbnoIAI/zrnk=;
+        b=nYHTyyeeBOK1B0BYDrNf1QtdmFuN+fe4D4q6UhdasRDfQU1ZMgIYMguC1zob14AwsY
+         lj0ZpvqeIGFbAOp0IuxrDtY3wbA5AFHwfSf6ocCbAeZXLsZ3G02lYy4VTMPoIytC0FA4
+         4KNHOBAn/2Mjo7SgDqFUvM7293koOGcaDRXGL6a69o8cliPNo1zHS0ni37boRB7nRGih
+         n9fSBNt+S8IHrjGZlmG0BzhfWVONiaJwwsqz26VI/3C1vhfgEc1hco6fvP+7OcQfCaU6
+         CE/eyzRsRtY27qkIgMqJ5kxPDJvNAyPrvb/bisovnvi74J8JjtNW+9144sOdzcyxaUBK
+         h6jg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1Fugo1Ui;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id y10sor3650689edw.8.2021.06.10.09.58.46
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 10 Jun 2021 09:58:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1Fugo1Ui;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=bs1Q+o2W804L+zBQye3rkhPG8fC5jejYbnoIAI/zrnk=;
+        b=Xw6JfiDiXNzhKjWFGktHE2gg0HGBdXaz0tatGEcqb59HgUKUM4++q1oJlGrYLle0n4
+         mIinjjINx80CCgv6dUgdZFt0Hoe770F/cYHH9aCvMm7oDu7GxzIGM8TvALvCUArXpdif
+         I6lcItwH8RLDdmTgs+4zITL4hSFKVoQjUs8pwb0MO5/kRn6cbPzbNfIQ5o5QwD2Vcarf
+         bn12yPFcjbpodroSZrOkKMCWhVa0DyNn4Yi7FVPqaGRS1w4hMZRD/SVkEwuLcLDEH/Xc
+         /3umQOz1TpWMJTilhdt0XXi8UxEjAstIoH1nXgb8HpDJgyR0VnZByQ5upoixM2Cwbjg9
+         qpig==
+X-Gm-Message-State: AOAM531SLjKkWEWIg3VRlleDNxXfS1TXhYwt9nyGYD6LDPAFR/e6WNF4
+	2EXQb1u7su26+F2Vq2+KZ7uu6XN1H53f2JsOeJS7dJI5uqxPqX/9aEfYWQk=
+X-Received: by 2002:aa7:d85a:: with SMTP id f26mr429009eds.332.1623344326642;
+        Thu, 10 Jun 2021 09:58:46 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:ab4:9248:0:0:0:0:0 with SMTP id g8csp570301ecz;
+        Thu, 10 Jun 2021 09:58:44 -0700 (PDT)
+X-Received: by 2002:a7b:c189:: with SMTP id y9mr6130611wmi.106.1623344324246;
+        Thu, 10 Jun 2021 09:58:44 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1623344324; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=QMxp4cmv30XqqyglukMUIuhjWmiNuAuuLoUKXe5hqV/W7KXSVSM5RdV4psQnmjg0UK
+         Q7qfX6RjwY92vnpQtTMLkk4PgiYI++UDLLQfOWaECIb5FPEuTBjqQ3U9kwHcwgwa+gdC
+         uUszuHNvsVd1rG98nG3hWtCPM6uEU2s9QIJzA0Q12Lbk1mNAr6doL3Gu3GYcOPojmbLd
+         6NBnTChc0gtUXN+I/5x3WSjaOTkAvH4NkdbG5UPrDM2dHERhq2WF3yos00DK9BxN9yEJ
+         0w9EQb/TvEi2/svAVPTy7jPtP2SYaeYcd42y5BVy29rPplIuG0TWD7/KDjczS+yN7BRR
+         OsPw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=bs1Q+o2W804L+zBQye3rkhPG8fC5jejYbnoIAI/zrnk=;
+        b=IPHSaz04/hKO0DRQCWcgJS2hqwRc3g/vMORGeHsI3cXFLabg2uJzo1AIl4Oq50+d58
+         LHTBX2qZ6uHF3CdT2szz6ljLP4t6brv5Ts8UUHkCri3Xy86Fo7J4RlOLU32UeDSTrRqU
+         wFDfVYy7bt4ZU2oBQz4R1lo7O7Or6QBp3ZG4Xeu9YjFLQjbWq1EEFK8eAbJGvIHEVJQe
+         USOxyNQF9nsGXGv5ZqTRoIxMmWH52LMEqFqbvV3ByNrJdAJDf9P/WrE/LcDz7JRJlo+M
+         AdBReu3Kkdwz0JBaABtx0knrzKOihWXpWYhMqN4RdCwkYQwOfY36UDW9AVGhvN08oACt
+         ooug==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1Fugo1Ui;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210610125756.24111213.276879@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210610125756.24111213.276879@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210610125756.24111213.276879@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x2sor2019483wrl.26.2021.06.10.09.58.44
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 10 Jun 2021 09:58:44 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210610125756.24111213.276879@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzC1v0UJYLSvE4wI/KUQ0FMCrMBgs0/ePBaV4WJjcnSYtk2SNO3zXZVjsyBAYOIKDxrjA7eHCUcOtLXE7ZDbzvNbgEP50s=
+X-Received: by 2002:a5d:5271:: with SMTP id l17mr6570657wrc.142.1623344323900;
+        Thu, 10 Jun 2021 09:58:43 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1623344323; cv=none;
+        d=google.com; s=arc-20160816;
+        b=e2I1TCo9OMzUUvbjNc+bh876eMm6tblH91SV1untxlKqiJUxk0ZkPZB/KKHpHPvxTo
+         PZ24JdRe4cUnleJIdnXMutmmwbzN5xkhvJlhiwaYtteME3rJnJInjD9d90UZZA8MWfjm
+         tvMkq2xetoGKZrklfVG5Ch1igq5V9v9ac/ERRjCfJggU/kjkgrOxrIKmjUfRcm6RmHe8
+         mV9Dnz395nT+B7sZ/sbiZkcWeYLIhENCOhg2z66AoS9+JZE9Fadi8eEpC+qoDI7yEkQk
+         L8yOYUchm21hkdQE+ArnmfCNAhhQAJo3vNCzK0zfQTX3VFVDpN2Cil6/qjCqcymVt20Q
+         CScg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=bs1Q+o2W804L+zBQye3rkhPG8fC5jejYbnoIAI/zrnk=;
+        b=Cq0/CbAKBkZ1HRji0T2yD4OXlqistAR5eXbMXY0W31Lmfa4NrGF/GTD+TCYvITubgV
+         b7Snjq3Bs7no01ySXka+8/5cljGrXQvD3bXxwAB7Es8PtxZXJUPABi4ckPWUkmIVXhd6
+         SqQ+hF+wwdapVEWmWetODxJ1Os0zK7sQ+bhMN8lM49WJBYmdwYdwDXiTqSwJ6bQIw4Fq
+         kLubp/8kmoH2XHRXTGmbr9rPVA+WSFkEjWHmlotGL4jL7txEoX+lHUP1SEPztvJpRgMB
+         hclFAYL3NpFKDgh/+eI3QcrDi0Ad3q15nPS+RMe0X52W9kZ8cP5LTfctddhMShWHQ+ms
+         gjlg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1Fugo1Ui;
+       spf=pass (google.com: domain of delivery_20210610125756.24111213.276879@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20210610125756.24111213.276879@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210610125756.24111213.276879@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id s13si167759wrr.5.2021.06.10.09.58.43
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 10 Jun 2021 09:58:43 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210610125756.24111213.276879@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=dneNpIS4nnZYk3YsUtvQ1upsPmu5TzCM4jbyFAJyuDo=;
+ b=1Fugo1UiYOk35VEOleMLlstHnZJ22YbKYDZ9d+6Uq98B+qKthSvYTXkGZ3fXo6zbKZvTakQyw6lU
+   tR8o0a8QuOnDIoXlbviTxbZ+3lFcnUOUIQbiUwTzbJ1Y81It0xJQap8dQiKvHrzhqdsYlnvExv7S
+   RSOHqZYsvwSGOPhApdY=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by pmta29.sailthru.com id ho92c42qflc4 for <bloomberg@khamel.com>; Thu, 10 Jun 2021 12:58:42 -0400 (envelope-from <delivery_20210610125756.24111213.276879@mx.sailthru.com>)
+Date: Thu, 10 Jun 2021 12:57:56 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210610125756.24111213.276879@sailthru.com>
+Subject: Money Stuff: Maybe GameStop Is Good Now
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_33156859_994317548.1623344276603"
+Precedence: bulk
+X-TM-ID: 20210610125756.24111213.276879
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-hotheart.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cecsbx.5xn3/0eac8b9f
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cecsbx.5xn3/0eac8b9f>, <mailto:unsubscribe_20210610125756.24111213.276879@mx.sailthru.com>
+X-rpcampaign: stjko24111213
+
+------=_Part_33156859_994317548.1623344276603
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+ =20
+ =20
+  Money Stuff
+ =20
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+   =20
+       =20
+           =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+
+     =20
+     =20
+ =20
+   =20
+      Programming note: Money Stuff will be off tomorrow, back on Monday.Ga=
+meStopLook the very standard corporate finance theory is that it=E2=80=99s =
+good for a company if its stock price goes up. A company can issue stock; i=
+t can, in a sense, make as much as it wants of its own stock for free. If t=
+hat stock is worth a lot and keeps going up, it can do things with it. It c=
+an sell the stock for=C2=A0money and use the money to do business things. C=
+ompanies usually=C2=A0pay executives largely in stock, and if a company=E2=
+=80=99s=C2=A0stock keeps going up then it will be able to attract and retai=
+n good talented executives because good people will want to be paid in good=
+ stock. Employees who own stock will be happy and motivated and will do bet=
+ter work because they keep getting richer.[1] Companies often pay for acqui=
+sitions in stock, and, again, having an attractive currency lets a company =
+do attractive acquisitions.=C2=A0Usually all this stuff=C2=A0lives in sort =
+of an obvious feedback loop: You do good business things, your stock goes u=
+p, this allows you to do more good business things, etc. If you just, like,=
+ exogenously discovered a gigantic pile of diamonds in the basement of your=
+ headquarters, that might make your stock price go up, but would it make yo=
+u better at doing your business? You could call up superstar executives and=
+ say =E2=80=9Chey come work for our company, we just found a bunch of diamo=
+nds=E2=80=9D; would they do it? I don=E2=80=99t know! Maybe? It=E2=80=99s a=
+ weird question. There are not a lot of natural experiments.My Bloomberg Op=
+inion colleague  Tae Kim writes=C2=A0about GameStop Corp.:GameStop Inc. has=
+ been best known lately for the excitement it has generated with the Reddit=
+ crowd, and as one of the first of the big meme-stock winners. But for thos=
+e willing to take a deeper look, there is something more going on: Its prom=
+ised transformation is taking shape and making significant progress.On Wedn=
+esday, the video-game retailer filled out the remaining key openings for it=
+s senior-management team by hiring a new chief executive officer and chief =
+financial officer =E2=80=94 both from Amazon.com Inc. GameStop also reporte=
+d strong earnings and revealed a plan to raise more capital. Most of the ha=
+rd work is still ahead, but these are all big positives.The biographies of =
+the new leaders give more credibility to GameStop=E2=80=99s turnaround stra=
+tegy. The company appointed Matt Furlong as CEO and Mike Recupero as CFO, b=
+oth of whom supervised growth operations for Amazon. Most recently, Furlong=
+ led the e-commerce giant=E2=80=99s Australia business, while Recupero serv=
+ed as CFO of Amazon=E2=80=99s North American consumer business. Their backg=
+rounds are in stark contrast to GameStop=E2=80=99s current CEO, whose prior=
+ stint entailed running a retail business for that sold Verizon Wireless pr=
+oducts and services, and its former CFO =E2=80=94 who previously was an exe=
+cutive at a Chinese restaurant chain.A year ago, GameStop=E2=80=99s stock c=
+losed at $5.07 per share, down 7% year-over-year, and it was not hiring=C2=
+=A0talent from Amazon or raising a billion dollars by selling stock. Yester=
+day, GameStop=E2=80=99s stock closed at $302.56, up 5,867% year-over-year, =
+and it is. The stock price is not the=C2=A0only=C2=A0thing that has changed=
+: Ryan Cohen, the Chewy Inc. founder who came to GameStop as an activist in=
+vestor and is now its board chair, has a turnaround plan and an ability to =
+attract executives. And the stock price has not changed=C2=A0entirely=C2=A0=
+exogenously; Cohen and his plan, and the early steps toward executing it, h=
+ave helped the stock. But, uh, you know. This is as close as you=E2=80=99re=
+ ever going to come to a company=E2=80=99s stock going up 5,000% in a few m=
+onths for no reason. Seems like that might be good for business!=C2=A0GameS=
+top=E2=80=99s annual shareholder meeting was yesterday, and its new chairma=
+n spoke:Mr. Cohen said at the meeting that the company was fortunate to hav=
+e such a special group of investors holding its shares. =E2=80=9CYou guys i=
+nspire us to think bigger, fight harder and work longer each day,=E2=80=9D =
+he said, adding that the investors have ushered in a whole new era at GameS=
+top.I think that=E2=80=99s right: By paying a ton of money for GameStop sto=
+ck, its shareholders have inspired its executives to work harder (and hire =
+better executives). They have=C2=A0inspired those executives to think bigge=
+r; if you run a $20 billion company you will naturally make bigger plans th=
+an if you run a $300 million company. They have certainly ushered in a whol=
+e new era at GameStop: the era in which it is a meme stock with an enormous=
+ valuation. Perhaps also an era in which it justifies that valuation.Or may=
+be this is the peak, I don=E2=80=99t know;=C2=A0the stock was  down this mo=
+rning because of the stock offering and a Securities and Exchange Commissio=
+n probe about its trading.Archegos CubsHuh:Just three months after investor=
+ Bill Hwang=E2=80=99s investment firm imploded =E2=80=94 leaving Wall Stree=
+t with billions of dollars in losses =E2=80=94 two Archegos Capital staffer=
+s are gearing up to test the strategy all over again, The Post has learned.=
+Jensen Ko and Sterling Clay, who worked at Archegos until its epic collapse=
+ in March, are quietly preparing to launch a new fund using their former bo=
+ss=E2=80=99s highly leveraged investment style, people with direct knowledg=
+e of the plans told The Post.=E2=80=9CThe strategy worked until it didn=E2=
+=80=99t=E2=80=A6. but it worked,=E2=80=9D a source close to one of the Arch=
+egos alumni told The Post in explaining their thinking.Ko and Clay plan to =
+use their own money over the next year to establish a track record of lucra=
+tive but reliable investments with the goal of eventually raising money fro=
+m outside investors, according to people with direct knowledge.=C2=A0 =E2=
+=80=A6The Post was unable to confirm how much the pair have to invest, but =
+people close to them estimated it could be close to $50 million. =E2=80=A6=
+=E2=80=9CI think being an alumnus of Archegos will make it difficult,=E2=80=
+=9D Columbia University Law School professor John Coffee tells The Post. =
+=E2=80=9CIt is a little like having been the lookout on the Titanic and app=
+lying for similar work.=E2=80=9DWhat=C2=A0was=C2=A0Archegos=E2=80=99s strat=
+egy? I still don=E2=80=99t exactly know, but I think there are=C2=A0two pos=
+sibilities. One is: You borrow a ton of money to buy a handful of stocks, y=
+our buying activity pushes the stocks up, your positions are worth more so =
+you can borrow more against them, and you plow the additional borrowed mone=
+y into buying more of your stocks. You keep pushing up the price, giving yo=
+u paper profits but continuing to run the slimmest possible cushion of equi=
+ty, until a slight breeze knocks the whole thing over.This is  how I descri=
+bed Archegos shortly after it collapsed, and it is a=C2=A0bad=C2=A0strategy=
+. =E2=80=9CIt worked until it didn=E2=80=99t, but it worked=E2=80=9D misund=
+erstands the problem with this strategy. This is a strategy of doubling dow=
+n after every bet you win; it can work for a while but it will always end b=
+y not working.The other possibility is: You borrow a ton of money, non-reco=
+urse of course; you build risky concentrated positions in a handful of stoc=
+ks using that borrowed money; you try to pick stocks that go up. If they go=
+ up, you call your brokers and say =E2=80=9Chey I notice we have big paper =
+profits, please send a check for those profits.=E2=80=9D And then you cash =
+the check and put the money somewhere safe and out of reach of your brokers=
+.=C2=A0If they go down, your brokers call you and say =E2=80=9Chey I notice=
+ you have big losses, please send some money for a margin call,=E2=80=9D an=
+d you say =E2=80=9Chow did you get this number?=E2=80=9D And you close your=
+ fund and open a fresh one three months later.I  suggested earlier this wee=
+k that this=C2=A0might=C2=A0have been Archegos=E2=80=99s strategy, and it i=
+s a good strategy. The fact that Ko and Clay=C2=A0have $50 million in their=
+ personal accounts after Archegos went to zero=C2=A0suggests that this migh=
+t have been the strategy?=C2=A0=E2=80=9CIt worked until it didn=E2=80=99t, =
+but it worked=E2=80=9D would be great, if when it worked you took the profi=
+ts, and when it didn=E2=80=99t your banks ate the losses.I  said last month=
+ that =E2=80=9Ca somewhat tongue-in-cheek but surprisingly useful maxim of =
+high finance is that it is good for your career if you lose a billion dolla=
+rs.=E2=80=9D Archegos cost its banks some $10 billion of losses, and the fu=
+nd itself lost some multiple of that peak to trough, and how can you not be=
+ a little impressed by that? =E2=80=9CYou have probably learned from your m=
+istake and won=E2=80=99t do it again,=E2=80=9D I said about career-enhancin=
+g losses, and what lessons did these guys learn? Like if you are a potentia=
+l investor in their next fund, how does that interview go?Investor: So you =
+lost like $30 billion?Ko: Well $10 billion of that was the banks=E2=80=99 m=
+oney, but yes.Investor: I assume you learned some lessons from that debacle=
+?Clay: Yes, all the good lessons.Investor: What lessons specifically?Ko:=C2=
+=A0Definitely make sure all your leverage is non-recourse.Clay: Also do eve=
+rything on swap so that you don=E2=80=99t have to disclose and nobody knows=
+ what you=E2=80=99re up to.Right? Like, structurally there is a lot to be s=
+aid for the Archegos trade; really the only problem is that the stocks went=
+ down. I bet they=E2=80=99ll get investors.=C2=A0I don=E2=80=99t know who w=
+ill want to be their prime broker though?=C2=A0
+
+
+   =20
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                           =20
+                           =20
+                       =20
+                   =20
+                   =20
+                       =20
+                           =20
+                                Sponsored Content
+                                Invest in world-changing startups on AngelL=
+ist
+
+
+AngelList is the leading platform for early-stage venture investing.=20
+Invest in experienced VCs that have backed Clubhouse, Notion, Pipe, and 77 =
+other unicorns. Adjust your investment size as your goals evolve.
+                               =20
+AngelList
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+Bitcoin capital requirementsThe idea of  bank capital requirements is that =
+if you are a=C2=A0bank and you own $100 worth of stuff, and the stuff goes =
+down by X%, regulators do not want your=C2=A0depositors =E2=80=94=C2=A0or t=
+he government =E2=80=94=C2=A0to lose money. So you have to have at least $X=
+ of capital =E2=80=94=C2=A0of your own money, that is, shareholder money =
+=E2=80=94=C2=A0to support each $100 of assets.What is X? Well, intuitively,=
+ X is a reasonable amount that your stuff might go down. In practice capita=
+l rules are risk-weighted: Some stuff is riskier than other stuff, so you n=
+eed more capital against it. If you have $100 of Treasury bills, you are un=
+likely to lose much money, so you don=E2=80=99t need to have much capital t=
+o support them. (Under standard risk-weighted capital rules, you need $0 of=
+ capital for Treasuries, though there=C2=A0is a backup non-risk-weighted ca=
+pital rule=C2=A0called the=C2=A0supplementary leverage ratio that does requ=
+ire some capital against Treasuries.)If you have $100 of corporate loans, s=
+ome of them might go bad, so you need more capital. Simplistically, you nee=
+d about $8 of capital. There are actually a bunch of different kinds of cap=
+ital, different requirements for each type, and various buffers and surchar=
+ges, so it=E2=80=99s a huge oversimplification to say=C2=A0that you need $8=
+ of capital for $100 of corporate loans, but it=E2=80=99s the standard over=
+simplification that everyone uses just to have a number.[2]The way people s=
+ay this is that corporate loans have a 100% =E2=80=9Crisk weight,=E2=80=9D =
+and that banks need to have 8% =E2=80=9Crisk-weighted capital.=E2=80=9D So =
+$100 of stuff with a 100% risk weight requires $8 of capital. Intuitively, =
+a prudent diversified portfolio of corporate loans shouldn=E2=80=99t lose 8=
+% of its value quickly. Stuff that is safer than corporate loans has a lowe=
+r risk weight.[3] Sensible performing residential mortgages generally get a=
+ 50% risk weight =E2=80=94=C2=A0they are half as risky as corporate loans =
+=E2=80=94 so you need $4 of capital for $100 of mortgages. Stuff that is ri=
+skier than corporate loans has a higher risk weight. Publicly traded stocks=
+ generally get a 300% risk weight, so you need $24 of capital for $100 of s=
+tock. When stocks go down, they tend to go down more than bonds do, so you =
+need more capital to prevent depositors from losing money.If you have $100 =
+of Bitcoin, how much money might you lose? The obvious answer is $100. Bitc=
+oin is volatile; it lost 35% of its value just last month.=C2=A0So a bank t=
+hat buys $100 of Bitcoin needs to have $100 of capital against it. Basicall=
+y you can buy Bitcoins with shareholder money, but not with depositor money=
+.  Seems right:The Basel Committee on Banking Supervision said on Thursday =
+that the banking industry faces increased risks from cryptoassets because o=
+f the potential for money laundering, reputational challenges and wild swin=
+gs in prices that could lead to defaults.The panel proposed that a 1,250% r=
+isk weight be applied to a bank=E2=80=99s exposure to Bitcoin and certain o=
+ther cryptocurrencies. In practice, that means a bank may need to hold a do=
+llar in capital for each dollar worth of Bitcoin, based on an 8% minimum ca=
+pital requirement. Other assets with this highest-possible risk weighting i=
+nclude securitized products where banks have insufficient information about=
+ underlying exposures.My instinct here is that this is good for Bitcoin? Tr=
+aditionally 1,250% is the highest possible risk weighting because 1,250% ti=
+mes 8% (the traditional capital requirement for corporate loans) equals 100=
+%; if you own $100 of a 1,250%-risk-weighted asset then you need to have $1=
+00 of capital against it. I am not sure that 100% capital (1,250% risk weig=
+ht) is really an upper bound; you could imagine an asset so risky that if y=
+ou buy $100 of it you will probably (1) lose the whole $100 and (2) get in =
+some sort of bad trouble that costs you another $200.In theory that should =
+have a 3,750% risk weight. In practice the risk weight above 1,250% is =E2=
+=80=9Cjust don=E2=80=99t buy it.=E2=80=9D Banks try not to own cocaine, and=
+ the reason that they don=E2=80=99t own cocaine is not that it has a very h=
+igh risk weight; the reason they don=E2=80=99t own cocaine is that if they =
+owned cocaine their prudential supervisors would have some very stern quest=
+ions that would not be about capital requirements. Cocaine does not have a =
+1,250% risk weight; it has a =E2=80=9Cno no no this is not what banks do=E2=
+=80=9D risk weight. Moving Bitcoin from =E2=80=9Cabsolutely not, what on ea=
+rth=E2=80=9D to 1,250% is a positive.Here is the Basel consultative documen=
+t on =E2=80=9CPrudential treatment of cryptoasset exposures,=E2=80=9D which=
+ does say that typical crypto stuff (Bitcoin, etc.) should get a 1,250% ris=
+k weight. But the bulk of the document is actually about the capital treatm=
+ent of traditional financial assets that are wrapped in blockchain and cryp=
+to.[4] (These are called =E2=80=9CGroup 1 cryptoassets.=E2=80=9D) The basic=
+ rule is that if you very carefully wrap a traditional asset in blockchain,=
+ the crypto version will get the same capital treatment as the traditional =
+asset.[5]=C2=A0We are a little bit past the peak of the fad of =E2=80=9Cblo=
+ckchain for banks,=E2=80=9D but I suppose it=E2=80=99s good for banks to kn=
+ow that, if they blockchain up their loans and derivatives, it won=E2=80=99=
+t hurt their capital treatment.Some insider tradingA good piece of trivia t=
+hat you ought to know=C2=A0if you work at a public company is that, if the =
+company announces big news and the stock goes up or down a lot, the Financi=
+al Industry Regulatory Authority will compile a list of people who traded t=
+he stock=C2=A0before=C2=A0the news was announced and send it to your compan=
+y, and the compliance department=C2=A0will send around the list to everyone=
+ at the company who worked on the big news, and it will say =E2=80=9Chey do=
+ you know any of these people? Any idea why they made such a smart trade ju=
+st before the company announced this news?=E2=80=9DAnd if you don=E2=80=99t=
+ know anyone on the list, that=E2=80=99s great. And if you know a guy on th=
+e list, and you were intentionally=C2=A0feeding him inside information so h=
+e could make profitable trades and split the profits with you, but there=E2=
+=80=99s no paper trail and you never called or texted or emailed him and yo=
+u=E2=80=99re not friends on social media and you don=E2=80=99t live near ea=
+ch other and you=E2=80=99re not related and you didn=E2=80=99t go to colleg=
+e together and you just do dead drops of the information and he does dead d=
+rops of your share of the profits in cash which you bury in your backyard, =
+then that=E2=80=99s also great. (Illegal! But I don=E2=80=99t judge.) You j=
+ust say to compliance=C2=A0=E2=80=9Cnope, never heard of any of these peopl=
+e,=E2=80=9D and they look you in the eye for a long moment, and you almost =
+crack and confess everything, but then they smile and say =E2=80=9Cokay the=
+n=E2=80=9D and move on and your secret is safe.On the other hand, if you kn=
+ow a guy on the list, and you were intentionally feeding him inside informa=
+tion so he could make profitable trades, and he is your father, and he has=
+=C2=A0the same first and last name as you, you will have a problem. Complia=
+nce will give you the list, and you will come to your father=E2=80=99s name=
+, and you will have to either:=09Say =E2=80=9Chuh my father traded the stoc=
+k, that=E2=80=99s weird, the old rascal, don=E2=80=99t know why he did that=
+, certainly I=E2=80=99ve never talked to him about work,=E2=80=9D and then =
+they will quietly look into your phone records and office emails and match =
+them up to his trading activity and if you called him two minutes before ea=
+ch trade you will get in trouble; or=09Say =E2=80=9Cnope, never heard of an=
+y of these people,=E2=80=9D and compliance will be like =E2=80=9Cwait you=
+=E2=80=99ve never heard of Frank Perkins Hixon,=E2=80=9D and you=E2=80=99ll=
+ be like =E2=80=9Cno, doesn=E2=80=99t ring a bell,=E2=80=9D and compliance =
+will be like =E2=80=9Cbut your name is Frank Perkins Hixon Jr.=E2=80=9D and=
+ you=E2=80=99ll say =E2=80=9Chuh, small world,=E2=80=9D and compliance will=
+ be like =E2=80=9Cbut your name being Frank Perkins Hixon Jr. implies that =
+your father is named Frank Perkins Hixon, like this person is,=E2=80=9D and=
+ you will say =E2=80=9Chmm I am trying to work with you here but I am just =
+not sure where you=E2=80=99re=C2=A0going with this,=E2=80=9D and eventually=
+ you will spend  30 months in federal prison=C2=A0as the real Frank Perkins=
+ Hixon Jr. really did after he really did  pretend that he didn=E2=80=99t r=
+ecognize his father=E2=80=99s name=C2=A0on a Finra list.That=E2=80=99s a bi=
+t of a digression that I include here because it makes me laugh every time =
+I think about it. But the point is that if you are not a financial professi=
+onal who regularly works on merger deals, you might not=C2=A0know=C2=A0abou=
+t the Finra lists, and you might be surprised to come to work, after sharin=
+g corporate inside information with the people closest to you so they could=
+ trade on it, to find some very serious-looking compliance people who want =
+to talk to you about the people who did suspicious trades in your company=
+=E2=80=99s stock. =E2=80=9CDo you know anyone on this list,=E2=80=9D they w=
+ill ask, and you might panic a bit.Here is a U.S. Securities and Exchange C=
+ommission settlement=C2=A0with Holly Hand, who worked on drug trials for a =
+publicly traded pharmaceutical company called Neuralstem Inc., and her part=
+ner Chad Calice. Hand allegedly told Calice that a drug trial had gone poor=
+ly, before that was publicly disclosed, and Hand then dumped all his Neural=
+stem stock and avoided losses. You are not supposed to do that, and eventua=
+lly the Finra list came for her:In fact, when Hand was questioned by Neural=
+stem about Calice=E2=80=99s inclusion on a list of names that the Financial=
+ Industry Regulatory Authority sent to Neuralstem in its review of suspicio=
+us pre-Announcement trading, Hand falsely stated that Calice could not have=
+ obtained the negative clinical trial information from her.Yeah that=E2=80=
+=99s a better answer than =E2=80=9Cnever heard of the guy=E2=80=9D (she liv=
+ed with him), and yet still not great. They=E2=80=99re gonna look at your c=
+omputers and stuff:On the following Monday, July 24, 2017, Calice liquidate=
+d his entire Neuralstem position while in possession of the material nonpub=
+lic information about Neuralstem that he had received from Hand. Calice and=
+ Hand were in frequent communication by phone and text throughout the day a=
+nd communicated about the stock price.Hand began checking the stock price t=
+hat morning, while Calice had already logged on to his brokerage account tw=
+ice by the time the market opened, and the two of them spoke on the phone a=
+t around that time. =E2=80=A6=C2=A0Calice spoke with Hand immediately befor=
+e or after placing each order, and right after he fully liquidated his shar=
+es.=C2=A0The other insider trading case that makes me laugh every time I th=
+ink about it is the one about the guys who had no obvious ties to each othe=
+r, met at the clock at Grand Central, passed each other inside information =
+on Post-it notes, and then  ate the Post-it notes to cover their tracks. Th=
+ey got caught, fine, but that is the sort of tradecraft you love to see in =
+insider trading. Just going home to your partner and saying =E2=80=9Chey ho=
+ney big news at work today, better dump all our stock=E2=80=9D =E2=80=94=C2=
+=A0or, worse,=C2=A0calling him from your office=C2=A0to say that =E2=80=94=
+=C2=A0is not the way to go.A mime with a sledgehammerEarlier this week I wr=
+ote about what I called an =E2=80=9Canalog NFT=E2=80=9D: =E2=80=9CAn Italia=
+n artist  sold an invisible sculpture for over $18,000 and had to give the =
+buyer a certificate of authenticity to prove it=E2=80=99s real=E2=80=9D (it=
+=E2=80=99s not real), and I analogized the sculpture =E2=80=94=C2=A0well, r=
+eally the certificate of authenticity =E2=80=94=C2=A0to the crypto/art-worl=
+d fad for non-fungible tokens. In each case, you buy a thing without actual=
+ly getting any real ownership of the thing =E2=80=94 and, often, without a =
+thing at all =E2=80=94=C2=A0but you get a=C2=A0receipt=C2=A0saying that you=
+ own the thing, which is what you really wanted. The whole art project cons=
+ists of the performance of ownership; possession of some actual object is i=
+rrelevant.I also wrote about the invisible sculpture:As I often say, the mo=
+st popular way to generate NFTs is by taking existing physical works of art=
+, lighting them on fire, and selling a receipt to your customer. I suppose =
+someone could NFT this invisible sculpture that way. Hire a mime with an in=
+visible sledgehammer to destroy the invisible sculpture, film the whole thi=
+ng, sell a YouTube video of it on the blockchain. Actually I may do that my=
+self. How do you know that I didn=E2=80=99t sneak into the buyer=E2=80=99s =
+house and steal the invisible sculpture that I am now invisibly destroying =
+with my invisible sledgehammer? Sure I don=E2=80=99t have the receipt for t=
+he sculpture, but an NFT of me illicitly destroying a stolen invisible scul=
+pture is even more daring and transgressive and artistic than one of me des=
+troying an invisible sculpture I bought, right?Here is a two-minute YouTube=
+ video of a mime with a (visible) hammer destroying the invisible sculpture=
+, which he claims he stole=C2=A0from its rightful owner. Is this the best w=
+ork of art that has yet been inspired by Money Stuff? Hard to say, but yes.=
+ He=E2=80=99s selling it as an NFT.Things happenTwo Amazon Shares Spotlight=
+ U.S. Market=E2=80=99s  Odd-Lots Flaw. SEC to Review Market Structure as Me=
+me Stocks Stir Frenzy. Gary Gensler=E2=80=99s remarks on market structure. =
+Consumer Prices in U.S. Top Forecast, Stoking  Inflation Concern. Banks to =
+Companies: No More Deposits, Please. Retail traders have poured $1.27 billi=
+on into meme stocks in 2 weeks - matching the peak during the GameStop shor=
+t squeeze in January.=C2=A0Palihapitiya SPACs Tap SoFi to  Give Retail Trad=
+ers IPO Access.=C2=A0Robinhood and Didi to Kick Off a Hot IPO Summer. Tethe=
+r=E2=80=99s commercial paper disclosure places it among global giants.=C2=
+=A0If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, rig=
+ht in your inbox, please=C2=A0subscribe at this link. Or you can subscribe =
+to Money Stuff and other great Bloomberg newsletters here. Thanks![1] One w=
+ell-known problem here =E2=80=94=C2=A0common among startups that do success=
+ful initial public offerings =E2=80=94=C2=A0is that if the stock goes up to=
+o much too quickly, some of your employees will shoot right past =E2=80=9Ch=
+appy and motivated=E2=80=9D to =E2=80=9Ctoo rich to work,=E2=80=9D and you =
+will have a lot of turnover.[2] The total capital requirement for U.S. bank=
+s, ignoring buffers and surcharges,=C2=A0is 8% of risk-weighted assets, whi=
+ch is as reasonable a number to pick as anything else.[3] Davis Polk & Ward=
+well has an interactive chart of standardized risk weights under U.S. Basel=
+ III rules, which is where I get all my risk weights from. Big banks typica=
+lly use more complex internal models to set their risk weights, rather than=
+ the standardized weights, but people tend to talk about the standardized w=
+eights because, you know, you can see what they are.[4] Including stablecoi=
+ns, which are a way to wrap a very traditional asset (cash) in crypto.[5] I=
+ oversimplify; for stablecoins in which someone maintains the peg, you have=
+ to consider the credit risk of the maintainer, etc.
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cecsbx.5xn3/a1f2d54c.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_33156859_994317548.1623344276603
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24111213.276879/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB1c5=
+c5ccf"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"8">
+<tr>
+<td width=3D"206" align=3D"center">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB027dcef=
+f">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong> <em>Money S=
+tuff will be off tomorrow, back on Monday.</em></p><h2 style=3D"font-weight=
+: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif;=
+ letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border-bo=
+ttom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0=
+;">GameStop</h2><p style=3D"margin: 16px 0;">Look the very standard corpora=
+te finance theory is that it=E2=80=99s good for a company if its stock pric=
+e goes up. A company can issue stock; it can, in a sense, make as much as i=
+t wants of its own stock for free. If that stock is worth a lot and keeps g=
+oing up, it can do things with it. It can sell the stock for=C2=A0money and=
+ use the money to do business things. Companies usually=C2=A0pay executives=
+ largely in stock, and if a company=E2=80=99s=C2=A0stock keeps going up the=
+n it will be able to attract and retain good talented executives because go=
+od people will want to be paid in good stock. Employees who own stock will =
+be happy and motivated and will do better work because they keep getting ri=
+cher.[1] Companies often pay for acquisitions in stock, and, again, having =
+an attractive currency lets a company do attractive acquisitions.=C2=A0</p>=
+<p style=3D"margin: 16px 0;">Usually all this stuff=C2=A0lives in sort of a=
+n obvious feedback loop: You do good business things, your stock goes up, t=
+his allows you to do more good business things, etc. If you just, like, exo=
+genously discovered a gigantic pile of diamonds in the basement of your hea=
+dquarters, that might make your stock price go up, but would it make you be=
+tter at doing your business? You could call up superstar executives and say=
+ =E2=80=9Chey come work for our company, we just found a bunch of diamonds=
+=E2=80=9D; would they do it? I don=E2=80=99t know! Maybe? It=E2=80=99s a we=
+ird question. There are not a lot of natural experiments.</p><p style=3D"ma=
+rgin: 16px 0;">My Bloomberg Opinion colleague <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/24111213.276879/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMTAvZ2FtZXN0b3Atcy1sYXRlc3QtYW1hem9uLW=
+hpcmVzLXNob3ctaXQtcy1ub3QtanVzdC1yZWRkaXQtbWVtZS1zdG9jaw/607f07ceef4b8524a3=
+19a23cB575d0c53" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> Tae Kim writes</a>=C2=A0about GameStop Corp.:</p><blockquote><p sty=
+le=3D"margin: 16px 0;">GameStop Inc. has been best known lately for the exc=
+itement it has generated with the Reddit crowd, and as one of the first of =
+the big meme-stock winners. But for those willing to take a deeper look, th=
+ere is something more going on: Its promised transformation is taking shape=
+ and making significant progress.</p><p style=3D"margin: 16px 0;">On Wednes=
+day, the video-game retailer filled out the remaining key openings for its =
+senior-management team by hiring a new chief executive officer and chief fi=
+nancial officer =E2=80=94 both from Amazon.com Inc. GameStop also reported =
+strong earnings and revealed a plan to raise more capital. Most of the hard=
+ work is still ahead, but these are all big positives.</p><p style=3D"margi=
+n: 16px 0;">The biographies of the new leaders give more credibility to Gam=
+eStop=E2=80=99s turnaround strategy. The company appointed Matt Furlong as =
+CEO and Mike Recupero as CFO, both of whom supervised growth operations for=
+ Amazon. Most recently, Furlong led the e-commerce giant=E2=80=99s Australi=
+a business, while Recupero served as CFO of Amazon=E2=80=99s North American=
+ consumer business. Their backgrounds are in stark contrast to GameStop=E2=
+=80=99s current CEO, whose prior stint entailed running a retail business f=
+or that sold Verizon Wireless products and services, and its former CFO =E2=
+=80=94 who previously was an executive at a Chinese restaurant chain.</p></=
+blockquote><p style=3D"margin: 16px 0;">A year ago, GameStop=E2=80=99s stoc=
+k closed at $5.07 per share, down 7% year-over-year, and it was not <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTMyNjM4MC8wMDAxMTkz=
+MTI1MjExODY3MzIvZDE3NDQwMGQ4ay5odG0/607f07ceef4b8524a319a23cB13d3ab17" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">hiring=C2=A0ta=
+lent</a> from Amazon or <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/24111213.276879/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhL=
+zEzMjYzODAvMDAwMTE5MzEyNTIxMTg2Nzk2L2QxOTI4NzNkNDI0YjUuaHRt/607f07ceef4b852=
+4a319a23cB463aef25" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">raising a billion dollars by selling stock</a>. Yesterday, GameSt=
+op=E2=80=99s stock closed at $302.56, up 5,867% year-over-year, and it is. =
+The stock price is not the=C2=A0<em>only=C2=A0</em>thing that has changed: =
+Ryan Cohen, the Chewy Inc. founder who came to GameStop as an activist inve=
+stor and is now its board chair, has a turnaround plan and an ability to at=
+tract executives. And the stock price has not changed=C2=A0<em>entirely=C2=
+=A0</em>exogenously; Cohen and his plan, and the early steps toward executi=
+ng it, have helped the stock. But, uh, you know. This is as close as you=E2=
+=80=99re ever going to come to a company=E2=80=99s stock going up 5,000% in=
+ a few months for no reason. Seems like that might be good for business!=C2=
+=A0</p><p style=3D"margin: 16px 0;">GameStop=E2=80=99s <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/24111213.276879/aHR0cHM6Ly93d3cuc2VjLm=
+dvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTMyNjM4MC8wMDAxMTkzMTI1MjExODY3N=
+TkvZDE3NDM0MGQ4ay5odG0/607f07ceef4b8524a319a23cC6f7abf5b" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">annual shareholder meeting<=
+/a> was yesterday, and its new chairman spoke:</p><blockquote><p style=3D"m=
+argin: 16px 0;">Mr. Cohen said at the meeting that the company was fortunat=
+e to have such a special group of investors holding its shares. =E2=80=9CYo=
+u guys inspire us to think bigger, fight harder and work longer each day,=
+=E2=80=9D he said, adding that the investors have ushered in a whole new er=
+a at GameStop.</p></blockquote><p style=3D"margin: 16px 0;">I think that=E2=
+=80=99s right: By paying a ton of money for GameStop stock, its shareholder=
+s have inspired its executives to work harder (and hire better executives).=
+ They have=C2=A0inspired those executives to think bigger; if you run a $20=
+ billion company you will naturally make bigger plans than if you run a $30=
+0 million company. They have certainly ushered in a whole new era at GameSt=
+op: the era in which it is a meme stock with an enormous valuation. Perhaps=
+ also an era in which it justifies that valuation.</p><p style=3D"margin: 1=
+6px 0;">Or maybe this is the peak, I don=E2=80=99t know;=C2=A0the stock was=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMTAvZ2FtZXN0=
+b3Atc2xpZGVzLW9uLXN0b2NrLXNhbGUtcGxhbi1zZWMtdHJhZGluZy1pbnZlc3RpZ2F0aW9u/60=
+7f07ceef4b8524a319a23cBebf48abd" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> down this morning</a> because of the stock offering=
+ and a Securities and Exchange Commission probe about its trading.</p><h2 s=
+tyle=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Hel=
+vetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-wi=
+dth: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top: 30p=
+x; margin-bottom: 0;">Archegos Cubs</h2><p style=3D"margin: 16px 0;"><a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/aHR0cHM6=
+Ly9ueXBvc3QuY29tLzIwMjEvMDYvMDgvcHJvdGVnZXMtb2YtYmlsbC1od2FuZy1iZWhpbmQtZXB=
+pYy1hcmNoZWdvcy1jb2xsYXBzZS1wbGFuLW5ldy1mdW5kLw/607f07ceef4b8524a319a23cB3c=
+db9e52" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;">Hu=
+h</a>:</p><blockquote><p style=3D"margin: 16px 0;">Just three months after =
+investor Bill Hwang=E2=80=99s investment firm imploded =E2=80=94 leaving Wa=
+ll Street with billions of dollars in losses =E2=80=94 two Archegos Capital=
+ staffers are gearing up to test the strategy all over again, The Post has =
+learned.</p><p style=3D"margin: 16px 0;">Jensen Ko and Sterling Clay, who w=
+orked at Archegos until its epic collapse in March, are quietly preparing t=
+o launch a new fund using their former boss=E2=80=99s highly leveraged inve=
+stment style, people with direct knowledge of the plans told The Post.</p><=
+p style=3D"margin: 16px 0;">=E2=80=9CThe strategy worked until it didn=E2=
+=80=99t=E2=80=A6. but it worked,=E2=80=9D a source close to one of the Arch=
+egos alumni told The Post in explaining their thinking.</p><p style=3D"marg=
+in: 16px 0;">Ko and Clay plan to use their own money over the next year to =
+establish a track record of lucrative but reliable investments with the goa=
+l of eventually raising money from outside investors, according to people w=
+ith direct knowledge.=C2=A0 =E2=80=A6</p><p style=3D"margin: 16px 0;">The P=
+ost was unable to confirm how much the pair have to invest, but people clos=
+e to them estimated it could be close to $50 million. =E2=80=A6</p><p style=
+=3D"margin: 16px 0;">=E2=80=9CI think being an alumnus of Archegos will mak=
+e it difficult,=E2=80=9D Columbia University Law School professor John Coff=
+ee tells The Post. =E2=80=9CIt is a little like having been the lookout on =
+the Titanic and applying for similar work.=E2=80=9D</p></blockquote><p styl=
+e=3D"margin: 16px 0;">What=C2=A0<em>was=C2=A0</em>Archegos=E2=80=99s strate=
+gy? I still don=E2=80=99t exactly know, but I think there are=C2=A0two poss=
+ibilities. One is: You borrow a ton of money to buy a handful of stocks, yo=
+ur buying activity pushes the stocks up, your positions are worth more so y=
+ou can borrow more against them, and you plow the additional borrowed money=
+ into buying more of your stocks. You keep pushing up the price, giving you=
+ paper profits but continuing to run the slimmest possible cushion of equit=
+y, until a slight breeze knocks the whole thing over.</p><p style=3D"margin=
+: 16px 0;">This is <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/24111213.276879/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjEtMDQtMDUvYmlsbC1od2FuZy1zLWFyY2hlZ29zLXN3YXAtYWZ0ZXJtYXRoLWlzLWF3a3dhc=
+mQtZm9yLWJhbmtz/607f07ceef4b8524a319a23cBb063d5f7" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> how I described Archegos</a> shor=
+tly after it collapsed, and it is a=C2=A0<em>bad=C2=A0</em>strategy. =E2=80=
+=9CIt worked until it didn=E2=80=99t, but it worked=E2=80=9D misunderstands=
+ the problem with this strategy. This is a strategy of doubling down after =
+every bet you win; it can work for a while but it will <em>always </em>end =
+by not working.</p><p style=3D"margin: 16px 0;">The other possibility is: Y=
+ou borrow a ton of money, non-recourse of course; you build risky concentra=
+ted positions in a handful of stocks using that borrowed money; you try to =
+pick stocks that go up. If they go up, you call your brokers and say =E2=80=
+=9Chey I notice we have big paper profits, please send a check for those pr=
+ofits.=E2=80=9D And then you cash the check and put the money somewhere saf=
+e and out of reach of your brokers.=C2=A0If they go down, your brokers call=
+ you and say =E2=80=9Chey I notice you have big losses, please send some mo=
+ney for a margin call,=E2=80=9D and you say =E2=80=9Chow did you get this n=
+umber?=E2=80=9D And you close your fund and open a fresh one three months l=
+ater.</p><p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24111213.276879/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMDYtMDgvbW92aWVwYXNzLWNoYW5nZWQtc29tZS1wYXNzd29y=
+ZHM/607f07ceef4b8524a319a23cB5afed1e7" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;"> suggested earlier this week</a> that this=C2=
+=A0<em>might=C2=A0</em>have been Archegos=E2=80=99s strategy, and it is a<e=
+m> good</em> strategy. The fact that Ko and Clay=C2=A0<em>have $50 million =
+in their personal accounts after Archegos went to zero</em>=C2=A0suggests t=
+hat this might have been the strategy?=C2=A0=E2=80=9CIt worked until it did=
+n=E2=80=99t, but it worked=E2=80=9D would be great, if when it worked you t=
+ook the profits, and when it didn=E2=80=99t your banks ate the losses.</p><=
+p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24111213.276879/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjEtMDUtMjYvZXh4b24taGFzLWEtdG91Z2gtZ3JlZW4tYWN0aXZpc3Q/607f07=
+ceef4b8524a319a23cB640b7e06" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> said last month</a> that =E2=80=9Ca somewhat tongue-in-=
+cheek but surprisingly useful maxim of high finance is that it is good for =
+your career if you lose a billion dollars.=E2=80=9D Archegos cost its banks=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/a=
+HR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy91YnMtdGFrZXMtc3VycHJpc2UtNzc0LW1pbGxp=
+b24tYXJjaGVnb3MtaGl0LTExNjE5NTAxNTQ3/607f07ceef4b8524a319a23cB4d635d39" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">some $10 bill=
+ion of losses</a>, and the fund itself lost some multiple of that peak to t=
+rough, and how can you not be a little impressed by that? =E2=80=9CYou have=
+ probably learned from your mistake and won=E2=80=99t do it again,=E2=80=9D=
+ I said about career-enhancing losses, and what lessons did these guys lear=
+n? Like if you are a potential investor in their next fund, how does that i=
+nterview go?</p><blockquote><p style=3D"margin: 16px 0;"><strong>Investor:<=
+/strong> So you lost like $30 billion?</p><p style=3D"margin: 16px 0;"><str=
+ong>Ko:</strong> Well $10 billion of that was the banks=E2=80=99 money, but=
+ yes.</p><p style=3D"margin: 16px 0;"><strong>Investor:</strong> I assume y=
+ou learned some lessons from that debacle?</p><p style=3D"margin: 16px 0;">=
+<strong>Clay:</strong> Yes, all the good lessons.</p><p style=3D"margin: 16=
+px 0;"><strong>Investor:</strong> What lessons specifically?</p><p style=3D=
+"margin: 16px 0;"><strong>Ko:</strong>=C2=A0Definitely make sure all your l=
+everage is non-recourse.</p><p style=3D"margin: 16px 0;"><strong>Clay:</str=
+ong> Also do everything on swap so that you don=E2=80=99t have to disclose =
+and nobody knows what you=E2=80=99re up to.</p></blockquote><p style=3D"mar=
+gin: 16px 0;">Right? Like, structurally there is a lot to be said for the A=
+rchegos trade; really the only problem is that the stocks went down. I bet =
+they=E2=80=99ll get investors.=C2=A0I don=E2=80=99t know who will want to b=
+e their prime broker though?=C2=A0</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 14px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/inJXmAcNgA6I/v=
+0/-1x-1.png" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/inJXmAcNgA6I/v0/-1x-1.png" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;"><p style=3D"margin: 10px 0px;"><strong>Invest in world-changing st=
+artups on AngelList</strong><br />
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/aH=
+R0cDovL2FuZ2VsbGlzdC5jb20_dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1ha=
+WwmdXRtX2NhbXBhaWduPW1vbmV5X3N0dWZm/607f07ceef4b8524a319a23cB072049a7" styl=
+e=3D"color: #000000; text-decoration: underline;">
+<br />
+AngelList</a><a href=3D"https://link.mail.bloombergbusiness.com/click/24111=
+213.276879/aHR0cDovL2FuZ2VsbGlzdC5jb20vP3V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leV9zdHVmZg/607f07ceef4b8524a319a23c=
+Ba47bd139" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: underline;"> </a>is the leading =
+platform for early-stage venture investing. <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24111213.276879/aHR0cHM6Ly93d3cuYW5nZWxsaXN0LmNvb=
+S9yb2xsaW5nP3V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1w=
+YWlnbj1tb25leV9zdHVmZg/607f07ceef4b8524a319a23cB18c48948" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: underline;">
+Invest</a> in experienced VCs that have backed Clubhouse, Notion, Pipe, and=
+ 77 other unicorns. Adjust your investment size as your goals evolve.</p></=
+div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;"><a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24111213.276879/aHR0cHM6Ly93d3cuYW=
+5nZWxsaXN0LmNvbS8_dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+2NhbXBhaWduPW1vbmV5X3N0dWZm/607f07ceef4b8524a319a23cBbf375d3b" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: underline;">
+AngelList</a></p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">Bitcoin capital requirements</h2><p style=3D"mar=
+gin: 16px 0;">The idea of <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/24111213.276879/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjAtMDMtMDUvY2FwaXRhbC1ydWxlcy1nZXQtbGVzcy1zdHJlc3NmdWw/607f07ceef=
+4b8524a319a23cBcffd93bf" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> bank capital requirements</a> is that if you are a=C2=A0ban=
+k and you own $100 worth of stuff, and the stuff goes down by X%, regulator=
+s do not want your=C2=A0depositors =E2=80=94=C2=A0or the government =E2=80=
+=94=C2=A0to lose money. So you have to have at least $X of capital =E2=80=
+=94=C2=A0of your own money, that is, shareholder money =E2=80=94=C2=A0to su=
+pport each $100 of assets.</p><p style=3D"margin: 16px 0;">What is X? Well,=
+ intuitively, X is a reasonable amount that your stuff might go down. In pr=
+actice capital rules are risk-weighted: Some stuff is riskier than other st=
+uff, so you need more capital against it. If you have $100 of Treasury bill=
+s, you are unlikely to lose much money, so you don=E2=80=99t need to have m=
+uch capital to support them. (Under standard risk-weighted capital rules, y=
+ou need $0 of capital for Treasuries, though there=C2=A0is a backup non-ris=
+k-weighted capital rule=C2=A0called the=C2=A0<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24111213.276879/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDQtMDIvYmFua3MtaGF2ZS10b28tbXVjaC1tb25leS1=
+ub3c/607f07ceef4b8524a319a23cB6b523547" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">supplementary leverage ratio</a> that does re=
+quire some capital against Treasuries.)</p><p style=3D"margin: 16px 0;">If =
+you have $100 of corporate loans, some of them might go bad, so you need mo=
+re capital. Simplistically, you need about $8 of capital. There are actuall=
+y a bunch of different kinds of capital, <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24111213.276879/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1=
+L2Nmci90ZXh0LzEyLzMuMTA/607f07ceef4b8524a319a23cBe61352e5" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">different requirements for=
+ each type</a>, and various <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/24111213.276879/aHR0cHM6Ly93d3cuYmlzLm9yZy9mc2kvZnNpc3VtbWFyaWVzL=
+2IzX2NhcGl0YWwuaHRt/607f07ceef4b8524a319a23cB3cdaec0b" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">buffers</a> and <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/24111213.276879/aHR0cHM6Ly93d3cu=
+ZmVkZXJhbHJlc2VydmUuZ292L2Vjb25yZXNkYXRhL25vdGVzL2ZlZHMtbm90ZXMvMjAxNy9hcmU=
+tYmFzZWxzLWNhcGl0YWwtc3VyY2hhcmdlcy1mb3ItZ2xvYmFsLXN5c3RlbWljYWxseS1pbXBvcn=
+RhbnQtYmFua3MtdG9vLXNtYWxsLTIwMTcwMjIzLmh0bWw/607f07ceef4b8524a319a23cB4983=
+6735" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">surc=
+harges</a>, so it=E2=80=99s a huge oversimplification to say=C2=A0that you =
+need $8 of capital for $100 of corporate loans, but it=E2=80=99s the standa=
+rd oversimplification that everyone uses just to have a number.[2]</p><p st=
+yle=3D"margin: 16px 0;">The way people say this is that corporate loans hav=
+e a 100% =E2=80=9Crisk weight,=E2=80=9D and that banks need to have 8% =E2=
+=80=9Crisk-weighted capital.=E2=80=9D So $100 of stuff with a 100% risk wei=
+ght requires $8 of capital. Intuitively, a prudent diversified portfolio of=
+ corporate loans shouldn=E2=80=99t lose 8% of its value quickly. Stuff that=
+ is safer than corporate loans has a lower risk weight.[3] Sensible perform=
+ing residential mortgages generally get a 50% risk weight =E2=80=94=C2=A0th=
+ey are half as risky as corporate loans =E2=80=94 so you need $4 of capital=
+ for $100 of mortgages. Stuff that is riskier than corporate loans has a hi=
+gher risk weight. Publicly traded stocks generally get a 300% risk weight, =
+so you need $24 of capital for $100 of stock. When stocks go down, they ten=
+d to go down more than bonds do, so you need more capital to prevent deposi=
+tors from losing money.</p><p style=3D"margin: 16px 0;">If you have $100 of=
+ Bitcoin, how much money might you lose? The obvious answer is $100. Bitcoi=
+n is volatile; it lost 35% of its value just last month.=C2=A0So a bank tha=
+t buys $100 of Bitcoin needs to have $100 of capital against it. Basically =
+you can buy Bitcoins with shareholder money, but not with depositor money. =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMTAvYml0Y29pb=
+i1wdXQtaW4taGlnaGVzdC1yaXNrLWNhdGVnb3J5LWluLWJhbmstY2FwaXRhbC1wcm9wb3NhbA/6=
+07f07ceef4b8524a319a23cB69ca9447" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> Seems right</a>:</p><blockquote><p style=3D"margin=
+: 16px 0;">The Basel Committee on Banking Supervision said on Thursday that=
+ the banking industry faces increased risks from cryptoassets because of th=
+e potential for money laundering, reputational challenges and wild swings i=
+n prices that could lead to defaults.</p><p style=3D"margin: 16px 0;">The p=
+anel proposed that a 1,250% risk weight be applied to a bank=E2=80=99s expo=
+sure to Bitcoin and certain other cryptocurrencies. In practice, that means=
+ a bank may need to hold a dollar in capital for each dollar worth of Bitco=
+in, based on an 8% minimum capital requirement. Other assets with this high=
+est-possible risk weighting include securitized products where banks have i=
+nsufficient information about underlying exposures.</p></blockquote><p styl=
+e=3D"margin: 16px 0;">My instinct here is that this is good for Bitcoin? Tr=
+aditionally 1,250% is the highest possible risk weighting because 1,250% ti=
+mes 8% (the traditional capital requirement for corporate loans) equals 100=
+%; if you own $100 of a 1,250%-risk-weighted asset then you need to have $1=
+00 of capital against it. I am not sure that 100% capital (1,250% risk weig=
+ht) is really an upper bound; you could imagine an asset so risky that if y=
+ou buy $100 of it you will probably (1) lose the whole $100 and (2) get in =
+some sort of bad trouble that costs you another $200.</p><p style=3D"margin=
+: 16px 0;">In theory that should have a 3,750% risk weight. In practice the=
+ risk weight above 1,250% is =E2=80=9Cjust don=E2=80=99t buy it.=E2=80=9D B=
+anks try not to own cocaine, and the reason that they don=E2=80=99t own coc=
+aine is not that it has a very high risk weight; the reason they don=E2=80=
+=99t own cocaine is that if they owned cocaine their prudential supervisors=
+ would have some very stern questions that would not be about capital requi=
+rements. Cocaine does not have a 1,250% risk weight; it has a =E2=80=9Cno n=
+o no this is not what banks do=E2=80=9D risk weight. Moving Bitcoin from =
+=E2=80=9Cabsolutely not, what on earth=E2=80=9D to 1,250% is a positive.</p=
+><p style=3D"margin: 16px 0;">Here is the Basel consultative document on =
+=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.=
+276879/aHR0cHM6Ly93d3cuYmlzLm9yZy9iY2JzL3B1YmwvZDUxOS5wZGY/607f07ceef4b8524=
+a319a23cB47617543" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">Prudential treatment of cryptoasset exposures</a>,=E2=80=9D which =
+does say that typical crypto stuff (Bitcoin, etc.) should get a 1,250% risk=
+ weight. But the bulk of the document is actually about the capital treatme=
+nt of traditional financial assets that are wrapped in blockchain and crypt=
+o.[4] (These are called =E2=80=9CGroup 1 cryptoassets.=E2=80=9D) The basic =
+rule is that if you very carefully wrap a traditional asset in blockchain, =
+the crypto version will get the same capital treatment as the traditional a=
+sset.[5]=C2=A0We are a little bit past the peak of the fad of =E2=80=9Cbloc=
+kchain for banks,=E2=80=9D but I suppose it=E2=80=99s good for banks to kno=
+w that, if they blockchain up their loans and derivatives, it won=E2=80=99t=
+ hurt their capital treatment.</p><h2 style=3D"font-weight: bold; font-fami=
+ly: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: =
+-1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style: dotte=
+d; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">Some insider t=
+rading</h2><p style=3D"margin: 16px 0;">A good piece of trivia that you oug=
+ht to know=C2=A0if you work at a public company is that, if the company ann=
+ounces big news and the stock goes up or down a lot, the Financial Industry=
+ Regulatory Authority will compile a list of people who traded the stock=C2=
+=A0<em>before=C2=A0</em>the news was announced and send it to your company,=
+ and the compliance department=C2=A0will send around the list to everyone a=
+t the company who worked on the big news, and it will say =E2=80=9Chey do y=
+ou know any of these people? Any idea why they made such a smart trade just=
+ before the company announced this news?=E2=80=9D</p><p style=3D"margin: 16=
+px 0;">And if you don=E2=80=99t know anyone on the list, that=E2=80=99s gre=
+at. And if you know a guy on the list, and you were intentionally=C2=A0feed=
+ing him inside information so he could make profitable trades and split the=
+ profits with you, but there=E2=80=99s no paper trail and you never called =
+or texted or emailed him and you=E2=80=99re not friends on social media and=
+ you don=E2=80=99t live near each other and you=E2=80=99re not related and =
+you didn=E2=80=99t go to college together and you just do dead drops of the=
+ information and he does dead drops of your share of the profits in cash wh=
+ich you bury in your backyard, then that=E2=80=99s also great. (Illegal! Bu=
+t I don=E2=80=99t judge.) You just say to compliance=C2=A0=E2=80=9Cnope, ne=
+ver heard of any of these people,=E2=80=9D and they look you in the eye for=
+ a long moment, and you almost crack and confess everything, but then they =
+smile and say =E2=80=9Cokay then=E2=80=9D and move on and your secret is sa=
+fe.</p><p style=3D"margin: 16px 0;">On the other hand, if you know a guy on=
+ the list, and you were intentionally feeding him inside information so he =
+could make profitable trades, and he is your father, and he has=C2=A0<em>th=
+e same first and last name as you</em>, you will have a problem. Compliance=
+ will give you the list, and you will come to your father=E2=80=99s name, a=
+nd you will have to either:</p><ol style=3D"list-style-type: decimal; paddi=
+ng-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Say =
+=E2=80=9Chuh my father traded the stock, that=E2=80=99s weird, the old rasc=
+al, don=E2=80=99t know why he did that, certainly I=E2=80=99ve never talked=
+ to him about work,=E2=80=9D and then they will quietly look into your phon=
+e records and office emails and match them up to his trading activity and i=
+f you called him two minutes before each trade you will get in trouble; or<=
+/li>=09<li style=3D"margin-bottom: 5px;">Say =E2=80=9Cnope, never heard of =
+any of these people,=E2=80=9D and compliance will be like =E2=80=9Cwait you=
+=E2=80=99ve never heard of Frank Perkins Hixon,=E2=80=9D and you=E2=80=99ll=
+ be like =E2=80=9Cno, doesn=E2=80=99t ring a bell,=E2=80=9D and compliance =
+will be like =E2=80=9Cbut your name is Frank Perkins Hixon Jr.=E2=80=9D and=
+ you=E2=80=99ll say =E2=80=9Chuh, small world,=E2=80=9D and compliance will=
+ be like =E2=80=9Cbut your name being Frank Perkins Hixon Jr. implies that =
+your father is named Frank Perkins Hixon, like this person is,=E2=80=9D and=
+ you will say =E2=80=9Chmm I am trying to work with you here but I am just =
+not sure where you=E2=80=99re=C2=A0going with this,=E2=80=9D and eventually=
+ you will spend <a href=3D"https://link.mail.bloombergbusiness.com/click/24=
+111213.276879/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9leC1ldmVyY29yZS1zZW5pb=
+3ItbWFuYWdpbmctZGlyZWN0b3Itc2VudGVuY2VkLWZvci1pbnNpZGVyLXRyYWRpbmctMTQwNjky=
+Mzc3Nw/607f07ceef4b8524a319a23cB624433e6" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> 30 months in federal prison</a>=C2=A0as t=
+he real Frank Perkins Hixon Jr. really did after he really did <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/24111213.276879/aHR0cHM6Ly93d3=
+cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAxNC00MA/607f07ceef4b8524a319a23cB7=
+3f64675" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;"> =
+pretend that he didn=E2=80=99t recognize his father=E2=80=99s name</a>=C2=
+=A0on a Finra list.</li></ol><p style=3D"margin: 16px 0;">That=E2=80=99s a =
+bit of a digression that I include here because it makes me laugh every tim=
+e I think about it. But the point is that if you are not a financial profes=
+sional who regularly works on merger deals, you might not=C2=A0<em>know=C2=
+=A0</em>about the Finra lists, and you might be surprised to come to work, =
+after sharing corporate inside information with the people closest to you s=
+o they could trade on it, to find some very serious-looking compliance peop=
+le who want to talk to you about the people who did suspicious trades in yo=
+ur company=E2=80=99s stock. =E2=80=9CDo you know anyone on this list,=E2=80=
+=9D they will ask, and you might panic a bit.</p><p style=3D"margin: 16px 0=
+;">Here is a <a href=3D"https://link.mail.bloombergbusiness.com/click/24111=
+213.276879/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMS05NA/6=
+07f07ceef4b8524a319a23cBb345c826" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">U.S. Securities and Exchange Commission settlement<=
+/a>=C2=A0with Holly Hand, who worked on drug trials for a publicly traded p=
+harmaceutical company called Neuralstem Inc., and her partner Chad Calice. =
+Hand allegedly told Calice that a drug trial had gone poorly, before that w=
+as publicly disclosed, and Hand then dumped all his Neuralstem stock and av=
+oided losses. You are not supposed to do that, and eventually the Finra lis=
+t came for her:</p><blockquote><p style=3D"margin: 16px 0;">In fact, when H=
+and was questioned by Neuralstem about Calice=E2=80=99s inclusion on a list=
+ of names that the Financial Industry Regulatory Authority sent to Neuralst=
+em in its review of suspicious pre-Announcement trading, Hand falsely state=
+d that Calice could not have obtained the negative clinical trial informati=
+on from her.</p></blockquote><p style=3D"margin: 16px 0;">Yeah that=E2=80=
+=99s a better answer than =E2=80=9Cnever heard of the guy=E2=80=9D (she liv=
+ed with him), and yet still not great. They=E2=80=99re gonna look at your c=
+omputers and stuff:</p><blockquote><p style=3D"margin: 16px 0;">On the foll=
+owing Monday, July 24, 2017, Calice liquidated his entire Neuralstem positi=
+on while in possession of the material nonpublic information about Neuralst=
+em that he had received from Hand. Calice and Hand were in frequent communi=
+cation by phone and text throughout the day and communicated about the stoc=
+k price.</p><p style=3D"margin: 16px 0;">Hand began checking the stock pric=
+e that morning, while Calice had already logged on to his brokerage account=
+ twice by the time the market opened, and the two of them spoke on the phon=
+e at around that time. =E2=80=A6=C2=A0Calice spoke with Hand immediately be=
+fore or after placing each order, and right after he fully liquidated his s=
+hares.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">The other insider=
+ trading case that makes me laugh every time I think about it is the one ab=
+out the guys who had no obvious ties to each other, met at the clock at Gra=
+nd Central, passed each other inside information on Post-it notes, and then=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTQtMDMtMTkvYWNj=
+dXNlZC1pbnNpZGVyLXRyYWRlcnMtYXRlLXBvc3QtaXQtbm90ZXMtaW4tdmFpbg/607f07ceef4b=
+8524a319a23cB5b68fdf9" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> ate the Post-it notes</a> to cover their tracks. They got cau=
+ght, fine, but that is the sort of tradecraft you love to see in insider tr=
+ading. Just going home to your partner and saying =E2=80=9Chey honey big ne=
+ws at work today, better dump all our stock=E2=80=9D =E2=80=94=C2=A0or, wor=
+se,=C2=A0<em>calling him from your office=C2=A0</em>to say that =E2=80=94=
+=C2=A0is not the way to go.</p><h2 style=3D"font-weight: bold; font-family:=
+ &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1p=
+x; font-size: 20px; border-bottom-width: 1px; border-bottom-style: dotted; =
+padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">A mime with a sle=
+dgehammer</h2><p style=3D"margin: 16px 0;">Earlier this week I wrote about =
+what I called an =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/24111213.276879/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjEtMDYtMDcvc3BhY3MtY2FuLXNob290LW91dC1zcGFyY3M/607f07ceef4b8524a3=
+19a23cB0b54d90d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">analog NFT</a>=E2=80=9D: =E2=80=9CAn Italian artist <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24111213.276879/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDcvc3BhY3MtY2FuLXNob290L=
+W91dC1zcGFyY3M/607f07ceef4b8524a319a23cC0b54d90d" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> sold an invisible sculpture</a> fo=
+r over $18,000 and had to give the buyer a certificate of authenticity to p=
+rove it=E2=80=99s real=E2=80=9D (it=E2=80=99s not real), and I analogized t=
+he sculpture =E2=80=94=C2=A0well, really the certificate of authenticity =
+=E2=80=94=C2=A0to the crypto/art-world fad for non-fungible tokens. In each=
+ case, you buy a thing without actually getting any real ownership of the t=
+hing =E2=80=94 and, often, without a thing at all =E2=80=94=C2=A0but you ge=
+t a=C2=A0<em>receipt=C2=A0</em>saying that you own the thing, which is what=
+ you really wanted. The whole art project consists of the performance of ow=
+nership; possession of some actual object is irrelevant.</p><p style=3D"mar=
+gin: 16px 0;">I also wrote about the invisible sculpture:</p><blockquote><p=
+ style=3D"margin: 16px 0;">As I often say, the most popular way to generate=
+ NFTs is by taking existing physical works of art, lighting them on fire, a=
+nd selling a receipt to your customer. I suppose someone could NFT this inv=
+isible sculpture that way. Hire a mime with an invisible sledgehammer to de=
+stroy the invisible sculpture, film the whole thing, sell a YouTube video o=
+f it on the blockchain. Actually I may do that myself. How do you know that=
+ I didn=E2=80=99t sneak into the buyer=E2=80=99s house and steal the invisi=
+ble sculpture that I am now invisibly destroying with my invisible sledgeha=
+mmer? Sure I don=E2=80=99t have the receipt for the sculpture, but an NFT o=
+f me illicitly destroying a stolen invisible sculpture is even more daring =
+and transgressive and artistic than one of me destroying an invisible sculp=
+ture I bought, right?</p></blockquote><p style=3D"margin: 16px 0;">Here is =
+a <a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/=
+aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj13ZHp4X1VDLUVBaw/607f07ceef4b8524=
+a319a23cB51aca663" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">two-minute YouTube video</a> of a mime with a (visible) hammer des=
+troying the invisible sculpture, which he claims he stole=C2=A0from its rig=
+htful owner. Is this the best work of art that has yet been inspired by Mon=
+ey Stuff? Hard to say, but yes. He=E2=80=99s <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24111213.276879/aHR0cHM6Ly9taW50YWJsZS5hcHAvdmlk=
+ZW9zL2l0ZW0vSS1oYXZlLXN0b2xlbi1hbmQtZGVzdHJveWVkLXRoZS1Jby1Tb25vLVRoaXMtdml=
+kZW8taXMtYWxsLXRoYXQtcmVtYWlucy1vZi10aGUtaWNvbmljLXN0YXR1ZS9pZEdOOUFXc0xqaj=
+FsOEs/607f07ceef4b8524a319a23cBec5a6b7e" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">selling it as an NFT</a>.</p><h2 style=3D"=
+font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, =
+sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px=
+; border-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; margi=
+n-bottom: 0;">Things happen</h2><p style=3D"margin: 16px 0;">Two Amazon Sha=
+res Spotlight U.S. Market=E2=80=99s <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24111213.276879/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjEtMDYtMDkvdHdvLWFtYXpvbi1zaGFyZXMtc2hpbmUtc3BvdGxpZ2h0LW9u=
+LXUtcy1tYXJrZXQtcy1vZGQtbG90cy1mbGF3/607f07ceef4b8524a319a23cB467fd722" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Odd-Lots Fla=
+w</a>. SEC to <a href=3D"https://link.mail.bloombergbusiness.com/click/2411=
+1213.276879/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zZWMtcHVyc3VpbmctYnJvYWQ=
+tcmV2aWV3LW9mLXN0b2NrLW1hcmtldC1zdHJ1Y3R1cmUtY2hhaXJtYW4tc2F5cy0xMTYyMzI1Nj=
+U2Nj9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB74ab9e4d" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">Review Market Str=
+ucture</a> as Meme Stocks Stir Frenzy. Gary Gensler=E2=80=99s <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/24111213.276879/aHR0cHM6Ly93d3c=
+uc2VjLmdvdi9uZXdzL3NwZWVjaC9nZW5zbGVyLWdsb2JhbC1leGNoYW5nZS1maW50ZWNoLTIwMj=
+EtMDYtMDk/607f07ceef4b8524a319a23cBdd874dae" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">remarks on market structure</a>. Consume=
+r Prices in U.S. Top Forecast, Stoking <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/24111213.276879/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZX=
+dzL2FydGljbGVzLzIwMjEtMDYtMTAvZ2Fpbi1pbi11LXMtY3BpLWV4Y2VlZHMtZm9yZWNhc3RzL=
+WZ1ZWxzLWluZmxhdGlvbi1jb25jZXJu/607f07ceef4b8524a319a23cB98d68348" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Inflation</a> Con=
+cern. Banks to Companies: <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/24111213.276879/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9iYW5rcy10by1=
+jb21wYW5pZXMtbm8tbW9yZS1kZXBvc2l0cy1wbGVhc2UtMTE2MjMyMzgyMDA_bW9kPWl0cF93c2=
+omcnU9eWFob28/607f07ceef4b8524a319a23cB3a00716f" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">No More Deposits</a>, Please. Retail=
+ traders have poured $1.27 billion into <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24111213.276879/aHR0cHM6Ly9tYXJrZXRzLmJ1c2luZXNzaW5za=
+WRlci5jb20vbmV3cy9zdG9ja3MvcmV0YWlsLXRyYWRlcnMtcG91cmVkLWludG8tbWVtZS1zdG9j=
+a3MtbWF0Y2hpbmctZ2FtZXN0b3Atc2hvcnQtc3F1ZWV6ZS0yMDIxLTYtMTAzMDUwODQ2Nw/607f=
+07ceef4b8524a319a23cBee513233" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">meme stocks</a> in 2 weeks - matching the peak during =
+the GameStop short squeeze in January.=C2=A0Palihapitiya SPACs Tap SoFi to =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMDkvcGFsaWhhc=
+Gl0aXlhLXNwYWNzLXRhcC1zb2ZpLXRvLWdpdmUtcmV0YWlsLXRyYWRlcnMtaXBvLWFjY2Vzcw/6=
+07f07ceef4b8524a319a23cB56ae4423" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> Give Retail Traders IPO Access</a>.=C2=A0Robinhood=
+ and Didi to Kick Off a <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/24111213.276879/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9yb2Jpbmhvb2QtY=
+W5kLWRpZGktdG8ta2ljay1vZmYtYS1ob3QtaXBvLXN1bW1lci0xMTYyMzMxNzQwMD9tb2Q9aHBf=
+bGVhZF9wb3M2/607f07ceef4b8524a319a23cB9d46596a" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">Hot IPO Summer</a>. Tether=E2=80=99s =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/aH=
+R0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMzQyOTY2YWYtOThkYy00YjQ4LWI5OTctMzhjMDA4M=
+DQyNzBh/607f07ceef4b8524a319a23cBe4711ed5" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">commercial paper disclosure</a> places it =
+among global giants.=C2=A0</p><p style=3D"margin: 16px 0;"><span class=3D"n=
+ews-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0S=
+tuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"=
+https://link.mail.bloombergbusiness.com/click/24111213.276879/aHR0cDovL2xpb=
+msubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAm=
+aGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23c=
+B4ed0f34b" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">subscribe at this link</a>. =
+Or you can subscribe to Money Stuff and other great Bloomberg newsletters <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/aHR=
+0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB=
+6cde5e76" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] One w=
+ell-known problem here =E2=80=94=C2=A0common among startups that do success=
+ful initial public offerings =E2=80=94=C2=A0is that if the stock goes up to=
+o much too quickly, some of your employees will shoot right past =E2=80=9Ch=
+appy and motivated=E2=80=9D to =E2=80=9Ctoo rich to work,=E2=80=9D and you =
+will have a lot of turnover.</em></p><p style=3D"margin: 16px 0;"><em>[2] T=
+he <a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879=
+/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzEyLzMuMTA/607f07ceef4b85=
+24a319a23cCe61352e5" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">total capital requirement</a> for U.S. banks, ignoring buffers=
+ and surcharges,=C2=A0is 8% of risk-weighted assets, which is as reasonable=
+ a number to pick as anything else.</em></p><p style=3D"margin: 16px 0;"><e=
+m>[3] Davis Polk &amp; Wardwell has an <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/24111213.276879/aHR0cDovL3VzYmFzZWxpaWkuY29tL3Rvb2wvaW=
+5kZXguaHRtbA/607f07ceef4b8524a319a23cB30f1acec" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">interactive chart</a> of standardized=
+ risk weights under U.S. Basel III rules, which is where I get all my risk =
+weights from. Big banks typically use more complex internal models to set t=
+heir risk weights, rather than the standardized weights, but people tend to=
+ talk about the standardized weights because, you know, you can see what th=
+ey are.</em></p><p style=3D"margin: 16px 0;"><em>[4] Including stablecoins,=
+ which are a way to wrap a very traditional asset (cash) in crypto.</em></p=
+><p style=3D"margin: 16px 0;"><em>[5] I oversimplify; for stablecoins in wh=
+ich someone maintains the peg, you have to consider the credit risk of the =
+maintainer, etc.</em></p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB617a4ad8" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB9d1e76c2" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBeaf295c8" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24111213.276879/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB9170fba3" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2411=
+1213.276879/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB07e3a417" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24111213.276879/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCf3a9b1a7" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24111213.276879/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB7cf6c317" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24111213.276879/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB09fa2e7d" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cecsbx.5xn3/a1f2d54c.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_33156859_994317548.1623344276603--
+

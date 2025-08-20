@@ -1,0 +1,1991 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp1673063rwb;
+        Fri, 10 Mar 2023 12:36:27 -0800 (PST)
+X-Received: by 2002:a7b:c053:0:b0:3eb:f59f:6daf with SMTP id u19-20020a7bc053000000b003ebf59f6dafmr3726523wmc.34.1678480586966;
+        Fri, 10 Mar 2023 12:36:26 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1678480586; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=cTD885p6KKzTQdbjh5ritbcW9/99SuMfkWl241yfUHJlO7U8EoW3MiCpANX1OUsPeQ
+         Ju9Fv+z4Tp/ftWQ7UCIMC6MMX4Z7bfNHkzM2cIpvW3+XlHSjlqwKxKIJNd+WrcSoUHQk
+         vJ5xl/CM08lUlO9ANbIzPflTuM7joeVIZyl2V2upAWPZAAbKGEnqx3sHTKBbgjh1ZBlx
+         n0VF2KMMc1ng5MXQIrHdDmmKcuJAdHFGOT6VKOrfy7GN1PV27U5QdT+aFxvWcx67NdZM
+         x5OD3Hw6cMPXCtkQdy/wBehgvtEEcRgWYUrt+GIdZS//STJ0yj2ezu1oo+tsV0c7dUrW
+         vj1A==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=SodWsKT5SOcqOMJdxR/vV/d9GkK3hWiRij8SnC9yxgw=;
+        b=yxA9t8l4bwFC/cKlzNCUM50Ro6O1DtsvXiEf080guzaqbULXw5bPlAM/pxtBjT9dmd
+         L+u0PKNXXbSO2Qj94lvFWdV7Q0BuG1eMym7fD/k8Ia2V2eZf5uad4/wUCgwPEl6BXVmv
+         PutAY1xeVLA6/Kjvqyxlo+SE29+pVWbv6xOrk9DM2Wo0J+dbKSHmca+a/iBopsa9eMaN
+         Yyf3DtelwJXcfB1vnr9N4vW1m904eEOg1jEpoz9ZzOuMeZxVL98pSrwLfKxHVnslXBkR
+         9AVr7XPcTBxO1ukPBwK625Id+Q0a6CkqnbxQRxqfgVhM44GJUGacyzMgbQ/yy2/DKPVA
+         lUfQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=r9OPQWCV;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l24-20020a05600c2cd800b003dfa7934fd9sor333618wmc.2.2023.03.10.12.36.26
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Fri, 10 Mar 2023 12:36:26 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=r9OPQWCV;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1678480586;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=SodWsKT5SOcqOMJdxR/vV/d9GkK3hWiRij8SnC9yxgw=;
+        b=kLv8TPwR3p0fl0urDQJ7k6mXhmuKG39STbPuYNsZKpW0+dQHh6mL43LootAs16Kgjq
+         I0xFkOnoF/vzRV4Z03q4PqyEPKCOQtBuVlBfPUqa3RoQxDrzATQxW4Dh7H3QVigMqCY1
+         ovJz3SHSiDEF8rH9KpmO4gNDzMHvXHQZkFH5BjcF3qIRwerK8AV8koFVFWUPeVDYi9S2
+         3KUe6a/lJQN2JTKGlmZcGeKtoVsAXaKpS9M+iIcqFvAXP7GURJ4iIQgofWeYL0uRo1R/
+         5u4tUHOYi2Fl+rSkGIwYyVMTCCgHdC25TsCFP7EUUyqcm0DJVa788MEnfXo21yZPrxTg
+         zRSQ==
+X-Gm-Message-State: AO0yUKUp7ZbPAbXKGKbhva6T8LUC1gtwc0+Hua4a6sJDeLgW4T3kDPr/
+	zzzoLokwkAjvKqVAED4pc1Az7EC6iaN9J+JE/IXG/bjORGRY1gvr/Q==
+X-Received: by 2002:a05:600c:3512:b0:3df:d8c9:caa9 with SMTP id h18-20020a05600c351200b003dfd8c9caa9mr1174024wmq.7.1678480586447;
+        Fri, 10 Mar 2023 12:36:26 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:fa90:0:0:0:0:0 with SMTP id h16csp1226683wrr;
+        Fri, 10 Mar 2023 12:36:22 -0800 (PST)
+X-Received: by 2002:a05:651c:169a:b0:295:b5d7:44d with SMTP id bd26-20020a05651c169a00b00295b5d7044dmr7141969ljb.49.1678480582273;
+        Fri, 10 Mar 2023 12:36:22 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1678480582; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=KPTpUDGS++t1Zkno0bseSmFy4CpC027lcW9ZkWqH5gfYipFd2UhocY6rVkHOyyjcu0
+         hBRp97GpIP19iFnm38nNYoAHYIGxaL4/Hj6N2A5Isn165HSIRdVMmuVd1NnQlwqMsi6/
+         j+Tbhv5MlOuZvUx5S0ThSqk0qortJLi4uuxzp/9CXQjlvQm5iYmm2e9usJrmepo2sahl
+         uUORxjLE0Fxw/VExgBeLtXEmncaf4iDvUuqRokiKXYXDrcjM7++1Dk2V6+QNTH5Vb+ea
+         OU3P/cV9tTMSkrd3aTe0WeTzPhLCyBDvQQq6ajVOXw9sXlf9X16QTVsLFCjh05BHET1o
+         RAsw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=SodWsKT5SOcqOMJdxR/vV/d9GkK3hWiRij8SnC9yxgw=;
+        b=Kf5zuoTZg196oOUjCJUbj14FqeUn7zWmre+ju+LCYmbOviYVEHgTn23oep3zf9FRhF
+         0e56K2khDLAdmBdWYuN8/8/ecCjeMpKwlNaSmggNQ0pJYT570SlqSE+JjiqlElkPMPeL
+         DhVl7yfq34FM8pO/ti4ZQR6cjauI1gAulMsP0830HhKGZGWgDbuI+90wKC3UGgC7M0/a
+         zzpzqrn0t2j4+VRVIVh4EwTdtp+K4D/tp5oKLYS8PcKV4N/kCUYNo8Sth1V0tv6OyXJF
+         Tn4QkXAw8oN6MD3SRSmhvx3cuRGGhc58BiFz5hQaBwnkd6FfD2FQqI+DLhMyYCVHc2WJ
+         eNFA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=r9OPQWCV;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230310153553.30799833.257405@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230310153553.30799833.257405@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230310153553.30799833.257405@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i19-20020a2ea233000000b002983a492468sor410142ljm.78.2023.03.10.12.36.22
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Fri, 10 Mar 2023 12:36:22 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230310153553.30799833.257405@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set8Gjbr0aUUh2uRQJCFUgVRLJij+oqda8mjLYI743uKfV2UYARgi28GdGi9N3/X5HEYW0jlVQfMb7PodF7tK90igI7TN8B4=
+X-Received: by 2002:a2e:b17a:0:b0:293:32e0:5c8a with SMTP id a26-20020a2eb17a000000b0029332e05c8amr7754883ljm.15.1678480581899;
+        Fri, 10 Mar 2023 12:36:21 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1678480581; cv=none;
+        d=google.com; s=arc-20160816;
+        b=WKy/l34bhv9TnnDgmHkodwK9VTSQhDgYh55GUawAx3fOn8Tzkf8YoFfFanz83SKLoM
+         yzEa/OkZf3p8IGTN3V2/3p3anfBKYGmTiNwdzGup/i8U9CKi0/LXK6oGHAv94ce9HU/L
+         wKLvonqVOhVvdQQFuGVu5SIy5CnWOqVUnVVDbg7xaQ2eeWpa9JjN1s/QKTvJLUXY+ZXm
+         xsxw0TnJK6QzppemF31Z8cZdmjFJ6xvJh/0JChV9XMnL4kunY8rtdWehLNi42sDJv4kU
+         LP+0cB6+kMc1YKg4SURFDh5iV4VhzWUZL8Men6rbsfYafdIoy8B/11UzsT3jXdUH6dxV
+         TmqQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=SodWsKT5SOcqOMJdxR/vV/d9GkK3hWiRij8SnC9yxgw=;
+        b=aja5Ac7Gu7ZkKF+J0IMoVFx59tE5Wf3AVx49Zp/Lf/0kczpamSTp7zj33MeHJs7EE3
+         pdBrBvJTuR6yx0TMZnBWjbrY0KMHjIDItivqNVVfOk03FzOX631+xfHoziVaHTxomFep
+         j4kQX2DS7HKFdWRXcawAZOhkf/MDB7sLgoILr4c+3Ib3KUYS3u67lR6BhgQnROCpf54Q
+         PvOMN65PFGHOm5QCqW58Y7ycHxqCTkgQwfi2JqYmK5lAxznLyV2mXrRNGN89SA5h6QWL
+         xZwEGH/rE9YdZun7dzlovaZfRJ0frec11j35NZj1J3YxzbG+nW9klJrl2cVn20zpEQfz
+         joTA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=r9OPQWCV;
+       spf=pass (google.com: domain of delivery_20230310153553.30799833.257405@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230310153553.30799833.257405@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230310153553.30799833.257405@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id l7-20020a2ea807000000b00295a255ee26si70422ljq.6.2023.03.10.12.36.21
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 10 Mar 2023 12:36:21 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230310153553.30799833.257405@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=C579h2pWDDVAVGgYo4AhD3Y3CnU5Pxl6I76P4V9fBlU=;
+ b=r9OPQWCVoP8tBIhiVe2PQrcbHg3OPukeLLlHcerGtIkYGdUnq4Hw8/c/RbOYmpoThXcPJlebryWr
+   1+ycbbFaiTaqOx0bg4vdE/wCg8j2wA5WM60X3MZ8BxVdsGJwSedPTjsxLYtk62Gh+ei2IKWzUt8g
+   91VBYOuhQztC6PrjKIk=
+Received: from njmta-53.sailthru.com (173.228.155.53) by bloomberg-b.sailthru.com id h1eac830nu8i for <bloomberg@khamel.com>; Fri, 10 Mar 2023 15:36:20 -0500 (envelope-from <delivery_20230310153553.30799833.257405@mx.sailthru.com>)
+Received: from nj1-dimpine.flt (172.18.20.21) by njmta-53.sailthru.com id h1eac61qqbs8 for <bloomberg@khamel.com>; Fri, 10 Mar 2023 15:35:53 -0500 (envelope-from <delivery_20230310153553.30799833.257405@mx.sailthru.com>)
+Date: Fri, 10 Mar 2023 15:35:53 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230310153553.30799833.257405@sailthru.com>
+Subject: Money Stuff: Startup Bank Had a Startup Bank Run
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_24582971_394970194.1678480553031"
+Precedence: bulk
+X-Feedback-ID: 6358:30799833:campaign:sailthru
+X-TM-ID: 20230310153553.30799833.257405
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-dimpine.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cic5ax.5im5/5d64a282
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cic5ax.5im5/5d64a282>, <mailto:unsubscribe_20230310153553.30799833.257405@mx.sailthru.com>
+X-rpcampaign: stjko30799833
+
+------=_Part_24582971_394970194.1678480553031
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff was supposed to be off today, but: ba=
+nk run!The lesson might be that there are some industries that are bad to
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff was supposed to be off today, but: =
+bank run!
+
+ =20
+   =20
+      SVB
+   =20
+ =20
+
+The lesson might be that there are some industries that are bad to bank. Im=
+agine that it was 2021, and someone was like =E2=80=9Cdo you want to start =
+the Bank of Crypto? What about the Bank of Venture-Backed Tech Startups?=E2=
+=80=9D You=E2=80=99d be=C2=A0tempted, right? Those industries had so much m=
+oney! They seemed cool. If you were their bank =E2=80=94=C2=A0if you were t=
+he specialized bank that exclusively focused on those industries =E2=80=94=
+=C2=A0influencers on Twitter would tweet nice things about you, and you=E2=
+=80=99d get invited to fancy parties. Also, as their bank, you=E2=80=99d pr=
+obably=C2=A0find a way to get a cut of growing industries with lots of pote=
+ntial. Provide banking services to tech startups, get warrants in those sta=
+rtups, get rich when they go public. Provide banking services to crypto exc=
+hanges, start some sort of blockchain-based payment network, get rich throu=
+gh the magic of saying =E2=80=9Cblockchain=E2=80=9D a lot.=C2=A0
+But the structure of being the Bank of Crypto or Startups was a bit rickety=
+. Traditionally, the way a bank works is that it takes deposits from people=
+ who have money, and makes loans to people who need money. The weird proble=
+m with focusing exclusively on=C2=A0crypto or startups in 2021 is that they=
+ had too much money. If you were the Bank of Startups, the main service tha=
+t you provided to startups is that equity investors=C2=A0=C2=A0would give t=
+hem a truck full of cash and they=E2=80=99d deposit it at your bank. Here i=
+s how SVB Financial Group, the holding company of Silicon Valley Bank, desc=
+ribes the vibe of 2021 and 2022 in its  Form 10-K two weeks ago:
+Much of the recent deposit growth was driven by our clients across all segm=
+ents obtaining liquidity through liquidity events, such as IPOs, secondary =
+offerings, SPAC fundraising, venture capital investments, acquisitions and =
+other fundraising activities=E2=80=94which during 2021 and early 2022 were =
+at notably high levels.
+People kept flinging money at SVB=E2=80=99s customers, and they kept deposi=
+ting it at SVB.=C2=A0Perfectly reasonable banking service.=C2=A0
+But the customers=C2=A0didn=E2=80=99t need loans, in part because equity in=
+vestors kept giving them trucks full of cash and in part because young tech=
+ startups tend not to have the fixed assets or recurring cash flows that ma=
+ke for good corporate borrowers.
+  [1]
+=C2=A0Oh, there is some=C2=A0tech-industry-adjacent lending you can do.
+  [2]
+ Tech founders want to buy houses, and you can give them mortgages. Venture=
+ capital and private equity funds want to manage liquidity and/or juice the=
+ir reported return rates by paying for investments with borrowed money rath=
+er than=C2=A0drawing from their limited partners, so you can get into the c=
+apital-call-line-of-credit business. There are vineyards near Silicon Valle=
+y=C2=A0and you can develop an expertise in vineyard financing. And, sure, s=
+ome of your tech-company customers=C2=A0do=C2=A0need to borrow money, and=
+=C2=A0are=C2=A0creditworthy, and you lend them money and that works out. Bu=
+t there is a basic imbalance. Customer money keeps coming in, as deposits, =
+but it doesn=E2=80=99t go out, as loans.
+So you have all this customer cash, and you need to do something with it. K=
+eeping it in, like, Fed reserves, or Treasury bills, in 2021, was not a gre=
+at choice; that stuff paid basically no interest, and you want to make mone=
+y. So you=E2=80=99d buy longer-dated, but also very safe, securities, thing=
+s like Treasury bonds and agency mortgage-backed securities. We   talked ye=
+sterday about how this worked out at Silvergate Capital Corp., the actual B=
+ank of Crypto. And as of  the end of 2022, Silicon Valley Bank, the actual =
+Bank of Startups, had about $74 billion of loans and about $120 billion of =
+investment securities.
+Crudely stereotyping, in traditional banking, you take deposits and make lo=
+ans. In the Bank of Startups, in 2021, you take deposits and mostly buy bon=
+ds. Again crudely stereotyping,=C2=A0corporate loans often have floating in=
+terest rates and shorter terms, while bonds have=C2=A0fixed=C2=A0interest r=
+ates and longer terms. None of this is completely true =E2=80=94=C2=A0there=
+ are fixed-rate corporate loans and floating-rate bonds, traditional bankin=
+g tends to involve making lots of loans (like mortgages) with long-term=C2=
+=A0fixed rates,=C2=A0you can do swaps, etc.=C2=A0=E2=80=94=C2=A0but it is a=
+ useful crude stereotype.
+  [3]
+
+Or, to put it in different crude terms, in traditional banking, you make yo=
+ur money in part by taking credit risk: You get to know your customers, you=
+ try to get good at knowing which of them will be able to pay back loans, a=
+nd then you make loans to those good customers. In the Bank of Startups, in=
+ 2021, you couldn=E2=80=99t really make money by taking credit risk: Your c=
+ustomers just didn=E2=80=99t need enough credit to give you the credit risk=
+ that you needed to make money on all those deposits. So you had to make yo=
+ur money by taking interest-rate risk: Instead of making loans to risky cor=
+porate borrowers, you bought long-term bonds backed by the US government.
+The result of this is that, as the Bank of Startups, you were unusually exp=
+osed to interest-rate risk. Most banks, when interest rates go up, have to =
+pay=C2=A0more interest on deposits, but get paid=C2=A0more interest on thei=
+r loans, and end up profiting from rising interest rates. But you, as the B=
+ank of Startups, own a lot of long-duration bonds, and their market value g=
+oes down as rates go up. Every bank has some mix of this =E2=80=94=C2=A0eve=
+ry bank borrows short to lend=C2=A0long; that=E2=80=99s what banking is=C2=
+=A0=E2=80=94=C2=A0but many banks end up a bit more balanced than the Bank o=
+f Startups. At the Financial Times,=C2=A0Robert Armstrong writes:
+
+Few other banks have as much of their assets locked up in fixed-rate securi=
+ties as SVB, rather than in floating-rate loans. Securities are 56 per cent=
+ of SVB=E2=80=99s assets. At Fifth Third, the figure is 25 per cent; at Ban=
+k of America, it is 28 per cent.=C2=A0
+For most banks higher rates, in and of themselves, are good news. They help=
+ the asset side of the balance sheet more than they hurt the liability side=
+. =E2=80=A6 SVB is the opposite: higher rates hurt it on the liability side=
+ more than they help it on the asset side. As Oppenheimer bank analyst Chri=
+s Kotowski sums up, SVB is =E2=80=9Ca liability-sensitive outlier in a gene=
+rally asset-sensitive world=E2=80=9D.
+
+But there is another, subtler, more dangerous exposure to interest rates: Y=
+ou are the Bank of Startups, and startups are a low-interest-rate phenomeno=
+n. When interest rates are low everywhere, a dollar in 20 years is about as=
+ good as a dollar today, so a startup whose business model is =E2=80=9Cwe w=
+ill lose money for a decade building artificial intelligence, and then rake=
+ in lots of money in the far future=E2=80=9D sounds pretty good. When inter=
+est rates are higher, a dollar today is better than a dollar tomorrow, so i=
+nvestors want cash flows. When interest rates were low for a long time, and=
+ suddenly become high, all the money that was rushing to your customers is =
+suddenly cut off. Your clients who were =E2=80=9Cobtaining liquidity throug=
+h liquidity events, such as IPOs, secondary offerings, SPAC fundraising, ve=
+nture capital investments, acquisitions and other fundraising activities=E2=
+=80=9D stop doing that. Your customers keep taking money out of the bank to=
+ pay rent and salaries, but they stop depositing new money.=C2=A0
+This is all even more true of crypto =E2=80=94=C2=A0I mean,=C2=A0the Fed ra=
+ised rates once and the entire crypto industry vanished?
+  [4]
+=C2=A0=E2=80=94 but it is not not true of startups. But if some charismatic=
+ tech founder=C2=A0had come to you in 2021 and said =E2=80=9CI am going to =
+revolutionize the world via [artificial intelligence][robot taxis][flying t=
+axis][space taxis][blockchain],=E2=80=9D it might have felt unnatural to re=
+ply =E2=80=9Cnah but what if the Fed raises rates by 0.25%?=E2=80=9D This w=
+as an industry with a radical vision for the future of humanity, not a bet =
+on interest rates. Turns out it was a bet on interest rates though.=C2=A0
+Here=E2=80=99s   Bloomberg=E2=80=99s Katie Greifeld:
+Silvergate and SVB =E2=80=9Cin fact are victims of the same phenomenon as F=
+ed tightening extinguishes froth from those parts of the economy with the m=
+ost excess =E2=80=94 and it=E2=80=99s hard to find more excess than in cryp=
+to and tech startups,=E2=80=9D said Adam Crisafulli of Vital Knowledge.
+And my Bloomberg Opinion colleague   Paul Davies:
+Both crypto and venture capital booms were children of the ultra-low rates =
+of the past decade and a half. Now, rising rates and the shrinking of the F=
+ederal Reserve=E2=80=99s balance sheet have burst those industry bubbles an=
+d increased the competition among banks for funding.=C2=A0
+And so if you were the Bank of Startups, just like if you were the Bank of =
+Crypto, it turned out that you had made a huge concentrated bet on interest=
+ rates. Your customers were flush with cash, so they gave you all that cash=
+, but they didn=E2=80=99t need loans so you invested all that cash in longe=
+r-dated fixed-income securities, which lost value when rates went up. But a=
+lso, when rates went up, your customers all got smoked, because it turned o=
+ut that=C2=A0they=C2=A0were creatures of low interest rates, and in a highe=
+r-interest-rate environment they didn=E2=80=99t have money anymore. So they=
+ withdrew their deposits, so you had to sell those securities at a loss to =
+pay them back. Now you have lost money and look financially shaky,=C2=A0so =
+customers get spooked and withdraw more money, so you sell more securities,=
+ so you book more losses,=C2=A0oops oops oops.
+  [5]
+
+As Armstrong puts it, SVB had =E2=80=9Ca double sensitivity to higher inter=
+est rates. On the asset side of the balance sheet, higher rates decrease th=
+e value of those long-term debt securities. On the liability side, higher r=
+ates mean less money shoved at tech, and as such, a lower supply of cheap d=
+eposit funding.=E2=80=9D
+Also, I am sorry to be rude, but there is another reason that it is maybe n=
+ot great to be the Bank of Startups, which is that nobody on Earth is more =
+of a herd animal=C2=A0than Silicon Valley venture capitalists. What you wan=
+t, as a bank, is a certain amount of diversity among your depositors. If so=
+me depositors get spooked and take their money out, and other depositors ev=
+aluate your balance sheet and decide things are fine and keep their money i=
+n, and lots more depositors keep their money in because they simply don=E2=
+=80=99t pay attention to banking news, then you have a shot at muddling thr=
+ough your problems.
+But if all of your depositors are startups with=C2=A0the same handful of ve=
+nture capitalists on their boards, and all those venture capitalists are co=
+mpeting with each other to Add Value and Be Influencers and Do The Current =
+Thing by calling all their portfolio companies to say =E2=80=9Chey, did you=
+ hear, everyone=E2=80=99s taking money out of Silicon Valley Bank, you shou=
+ld too,=E2=80=9D then all of your depositors will take their money out at t=
+he same time. In fact,   Bloomberg reported yesterday:
+
+Unease is spreading across the financial world as concerns about the stabil=
+ity of Silicon Valley Bank prompt prominent venture capitalists including P=
+eter Thiel=E2=80=99s Founders Fund to advise startups to withdraw their mon=
+ey. =E2=80=A6
+Founders Fund asked its portfolio companies to move their money out of SVB,=
+ according to a person familiar with the matter who asked not to be identif=
+ied discussing private information. Coatue Management, Union Square Venture=
+s and Founder Collective also advised startups to pull cash, people with kn=
+owledge of the matter said. Canaan, another major VC firm, told firms it in=
+vested in to remove funds on an as-needed basis, according to another perso=
+n.
+SVB Financial Group Chief Executive Officer Greg Becker held a conference c=
+all on Thursday advising clients of SVB-owned Silicon Valley Bank to =E2=80=
+=9Cstay calm=E2=80=9D amid concern about the bank=E2=80=99s financial posit=
+ion, according to a person familiar with the matter.
+Becker held the roughly 10-minute call with investors at about 11:30 a.m. S=
+an Francisco time. He asked the bank=E2=80=99s clients, including venture c=
+apital investors, to support the bank the way it has supported its customer=
+s over the past 40 years, the person said.
+
+Nah, man, you don=E2=80=99t get to be a successful venture capitalist by ta=
+king a long view or investing in relationships or being contrarian.=C2=A0I=
+=E2=80=99m sorry, I=E2=80=99m sorry, this is unfair. Of course they were=C2=
+=A0right=C2=A0=E2=80=94=C2=A0Silicon Valley Bank=C2=A0did=C2=A0collapse, an=
+d if you got your money out early that was good for you=C2=A0=E2=80=94=C2=
+=A0but that is largely self-fulfilling; if all the VCs hadn=E2=80=99t decid=
+ed all at once to pull their money, SVB probably would not have collapsed.
+  [6]
+
+But it did:
+
+Silicon Valley Bank collapsed into Federal Deposit Insurance Corp. receiver=
+ship on Friday, after its long-established customer base of tech startups g=
+rew worried and yanked deposits.=C2=A0
+The California Department of Financial Protection and Innovation in a state=
+ment Friday said it has taken possession of Silicon Valley Bank and appoint=
+ed the FDIC as receiver, citing inadequate liquidity and insolvency. =C2=A0
+The FDIC said that insured depositors would have access to their funds by n=
+o later than Monday morning. Uninsured depositors will get a receivership c=
+ertificate for the remaining amount of their uninsured funds, the regulator=
+ said, adding that it doesn=E2=80=99t yet know the amount.=C2=A0
+Receivership typically means a bank=E2=80=99s deposits will be assumed by a=
+nother, healthy bank or the FDIC will pay depositors up to the insured limi=
+t.=C2=A0
+
+SVB=E2=80=99s capital stack looked=C2=A0roughly like this,  as of Dec. 31:
+=09A tiny sliver of insured deposits (that is, deposits under the $250,000 =
+FDIC limit), something like $8 billion worth out of $173 billion of total d=
+eposits.
+  [7]
+
+=09Roughly=C2=A0$165 billion of uninsured deposits.=C2=A0=09Roughly $13 bil=
+lion of =E2=80=9Cshort-term borrowings,=E2=80=9D meaning mostly  Federal Ho=
+me Loan Bank advances.=09Roughly $2 billion of  long-term FHLB advances.=09=
+Roughly $3 billion of long-term bonds.=09Maybe $4 billion of other liabilit=
+ies, for a total of $195 billion of liabilities.=09About $3.6 billion of pr=
+eferred stock.=09Common stock with a book value of about $12.4 billion and =
+a market value, on Dec. 31, of about $13.6 billion.
+
+It had assets of about $212 billion on that Dec. 31 balance sheet, though s=
+ince then it has had to sell some assets and mark others=C2=A0down, and it=
+=E2=80=99s not clear what they=E2=80=99re worth today. The California Depar=
+tment of Financial Protection and Innovation=C2=A0cited =E2=80=9Cinadequate=
+ liquidity and=C2=A0insolvency=E2=80=9D when it put SVB into FDIC receivers=
+hip, suggesting that the assets are worth less than the liabilities.=C2=A0T=
+he  FDIC=E2=80=99s job, in receivership, is =E2=80=9Cefficiently recovering=
+ the maximum amount possible from the disposition of assets=E2=80=9D to dis=
+tribute to creditors.
+One obvious question is: If you are =E2=80=9Canother, healthy bank=E2=80=9D=
+   working through this weekend to buy SVB and assume its deposits, how muc=
+h would you pay for the assets, which were worth $212 billion in December?
+  [8]
+ I am pretty sure the answer is higher than=C2=A0$8 billion,=C2=A0the amoun=
+t of insured deposits: The FDIC will not be on the hook for the insured dep=
+osits. The $15 billion of=C2=A0FHLB advances are also quite senior and will=
+ presumably be no problem to pay back.
+I would also guess =E2=80=94=C2=A0not investing or banking advice! =E2=80=
+=94=C2=A0that the answer will also turn out to be higher than $188 billion,=
+ which is the total amount of deposits plus FHLB advances. I say this not b=
+ecause I have done a detailed analysis of SVB=E2=80=99s assets but because =
+it seems bad for the FDIC to wind up a big=C2=A0high-profile bank in a way =
+that causes significant losses for=C2=A0depositors, including uninsured dep=
+ositors. There was a run on SVB in part=C2=A0because=C2=A0there hasn=E2=80=
+=99t been a big bank run in a while, and people =E2=80=94=C2=A0venture capi=
+talists, startups =E2=80=94=C2=A0were naturally worried that they might los=
+e their deposits if their bank failed. Then the bank failed.
+If it turns out to be true that they lose their deposits, there could be mo=
+re bank runs: Lots of businesses keep uninsured deposits at lots of banks, =
+and if the moral of SVB is =E2=80=9Cyour uninsured transaction-banking depo=
+sits can vanish overnight=E2=80=9D then those businesses will do a lot more=
+ credit analysis, move their money out of weaker banks, and put it at, like=
+, JPMorgan. This could be self-fulfillingly=C2=A0bad for a lot of weaker ba=
+nks. My assumption is that the FDIC, the Federal Reserve, and=C2=A0the bank=
+s who are looking at buying SVB all really don=E2=80=99t want that. If you =
+are a bank looking at buying SVB, and you do a detailed analysis of its ass=
+ets and conclude that they are worth $180=C2=A0billion, and you come to the=
+ FDIC and say =E2=80=9CI will take over this bank and pay the uninsured dep=
+ositors 95 cents on the dollar,=E2=80=9D the FDIC is going to look at you a=
+nd say =E2=80=9Cdon=E2=80=99t you mean 100 cents on the dollar,=E2=80=9D an=
+d you are going to say =E2=80=9Coh right yes of course, silly me, 100 cents=
+ on the dollar.=E2=80=9D
+  [9]
+
+Maybe I=E2=80=99m wrong about that, but if I am it=E2=80=99ll be bad!
+Above that, though, I have no idea.=C2=A0The stock closed at $106.04 per sh=
+are yesterday (a $6.2 billion market cap, roughly 50% of book value), and w=
+as halted today. The preferred was trading at about 60 cents on the dollar =
+yesterday, also closed today. Byrne Hobart  wrote the bull case yesterday:
+The simple way to look at SVB from an investing perspective is to separate =
+the ongoing business from the balance sheet for a moment, and ask: what pre=
+mium does SVB's business deserve to book value, in a hypothetical world whe=
+re they didn't make a massive rates bet? Over the last twenty years, they'v=
+e traded at an average of 2.3x tangible book value, and generally at a prem=
+ium to their banking peers. So a simple way to value the business is to say=
+ that the fair value of the business is generally ~100 cents on the dollar =
+in liquidating value and another ~130 cents on the dollar in franchise valu=
+e. If that liquidating value has been vaporized by a rates bet, the survivi=
+ng business is still worth a premium to book.
+But that was yesterday, and the franchise value melts pretty quickly when y=
+ou go into FDIC receivership. The bear case is =E2=80=A6 well, back in Nove=
+mber, when crypto exchange FTX was still looking for a rescue (it never fou=
+nd one), I wrote that the traditional price for that sort of rescue=C2=A0is=
+ =E2=80=9Cwe will buy your exchange, make sure that all your customers are =
+made whole, and give you a Snickers bar in exchange for 100% of the equity.=
+=E2=80=9D That may be where this is heading.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      More From Bloomberg Opinion
+   =20
+ =20
+
+=09Silicon Valley Bank=E2=80=99s Swoon Should   Scare Us All.=09Why Is the =
+US Regulating JPMorgan But   Not SVB?=09SVB and Silvergate Tumult Has Echoe=
+s in   Texas Bank Crisis.=09
+ Crypto Carcass Will Attract Hedge Fund Vultures.=09Banks Throw Markets a  =
+ Curveball.
+
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Similarly in crypto, on 2021, crypto exchanges had tons of cash that =
+they needed to park at a bank, but were not really in the business of takin=
+g loans from banks. There was a lot of lending in the crypto world, but it =
+was all loans secured by Bitcoins and stuff and that is mostly too spicy fo=
+r a bank; it was mostly done by crypto shadow banks (including exchanges th=
+emselves). Though Silvergate did some of it.
+
+
+  [2] Here I am sort of summarizing SVB's discussion of its loan portfolio =
+on pages 70-71 of the 10-K.
+
+
+  [3] Oh it=E2=80=99s way too crude. Here is =E2=80=9CBanking on Deposits: =
+Maturity Transformation without Interest Rate Risk,=E2=80=9D by Itamar Drec=
+hsler, Alexi Savov and Philipp Schnabl, in the Journal of Finance in 2021, =
+making the case =E2=80=9Cthat maturity transformation does not expose banks=
+ to interest rate risk =E2=80=94 it hedges it,=E2=80=9D even in a model whe=
+re banks lend long at fixed rates, because depositors are not very sensitiv=
+e to interest rates.
+
+
+  [4] Oh I am exaggerating for effect, please do not email me to be like =
+=E2=80=9Cby summer 2022 there had been a string of actual and projected Fed=
+ rate increases=E2=80=9D or =E2=80=9Cactually there is still crypto,=E2=80=
+=9D I know.
+
+
+  [5] This oversimplifies the mechanics of how you lose money, and I recomm=
+end Marc Rubinstein's explanation today. Basically SVB ended up with a larg=
+e portfolio of held-to-maturity bonds with an average duration of 6.2 years=
+ at the end of 2022, =E2=80=9Cand unrealised losses snowballed, from nothin=
+g in June 2021, to $16 billion by September 2022.=E2=80=9D These losses =E2=
+=80=9Ccompletely subsumed the $11.8 billion of tangible common equity that =
+supported the bank=E2=80=99s balance sheet,=E2=80=9D meaning that SVB was t=
+echnically insolvent. But mark-to-market losses on held-to-maturity bonds d=
+on't count for bank accounting purposes; the theory is that you will just h=
+old the bonds until maturity, they will pay back par, and you won't have an=
+y losses. So SVB was still solvent and fine. =E2=80=9CSell even a single bo=
+nd out of an HTM portfolio, however, and the entire portfolio would need to=
+ be re-marked accordingly=E2=80=9D: If you have bonds in your held-to-matur=
+ity portfolio, you have to be really confident you can hold them to maturit=
+y. SVB=E2=80=99s bonds kept maturing, providing cash to pay out depositors =
+who wanted their money back. But: =E2=80=9CWhat neither the CEO nor the CFO=
+ anticipated, however, was that deposits might run off faster=E2=80=9D than=
+ the bonds. They did, SVB sold its available-for-sale bonds, it wasn=E2=80=
+=99t enough, and here we are.
+
+
+  [6] Other things might have prevented its failure.  Daniel Davies points =
+out that Silicon Valley Bank, though it is big, is not quite big enough to =
+be subject to the Federal Reserve=E2=80=99s post-2008 liquidity regulations=
+, which would have made it more, you know, liquid.
+
+
+  [7] The  FDIC=E2=80=99s statement says =E2=80=9CAt the time of closing, t=
+he amount of deposits in excess of the insurance limits was undetermined,=
+=E2=80=9D and presumably the mix has shifted since Dec. 31.
+
+
+  [8] They were not: Again, that was the book value, and the unrealized los=
+ses on the held-to-maturity bonds would reduce that. On the other hand, may=
+be they've gone up since then? Byrne Hobart tweeted: "One irony of all this=
+ is that a flight to safety is disproportionately good for exactly the long=
+-duration low/no-credit risk stuff that caused this problem in the first pl=
+ace."
+
+
+  [9] When IndyMac Bancorp failed in 2008, uninsured depositors got back 50=
+ cents on the dollar, though they were  relatively small. Since then, it  s=
+eems to be an FDIC  goal to get the uninsured depositors paid.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cic5ax.5im5/037733d6.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_24582971_394970194.1678480553031
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff was supposed to be off today, but: bank run!T=
+he lesson might be that there are some industries that are bad to
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDc5OTgzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwNTcyMzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBd1bfaff9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30799833&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31057238&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzEwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTAmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB53f5aee3"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDc5OTgzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwNTcyMzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC1cfa33e6" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30799833&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31057238&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff was supposed to be off today, but: bank run!</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SVB</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The lesson might be that there are some indust=
+ries that are bad to bank. Imagine that it was 2021, and someone was like =
+=E2=80=9Cdo you want to start the Bank of Crypto? What about the Bank of Ve=
+nture-Backed Tech Startups?=E2=80=9D You=E2=80=99d be=C2=A0tempted, right? =
+Those industries had so much money! They seemed cool. If you were their ban=
+k =E2=80=94=C2=A0if you were the specialized bank that exclusively focused =
+on those industries =E2=80=94=C2=A0influencers on Twitter would tweet nice =
+things about you, and you=E2=80=99d get invited to fancy parties. Also, as =
+their bank, you=E2=80=99d probably=C2=A0find a way to get a cut of growing =
+industries with lots of potential. Provide banking services to tech startup=
+s, get warrants in those startups, get rich when they go public. Provide ba=
+nking services to crypto exchanges, start some sort of blockchain-based pay=
+ment network, get rich through the magic of saying =E2=80=9Cblockchain=E2=
+=80=9D a lot.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But the structure of being the Bank of Crypto =
+or Startups was a bit rickety. Traditionally, the way a bank works is that =
+it takes deposits from people who have money, and makes loans to people who=
+ need money. The weird problem with focusing exclusively on=C2=A0crypto or =
+startups in 2021 is that they had too much money. If you were the Bank of S=
+tartups, the main service that you provided to startups is that equity inve=
+stors=C2=A0=C2=A0would give them a truck full of cash and they=E2=80=99d de=
+posit it at your bank. Here is how SVB Financial Group, the holding company=
+ of Silicon Valley Bank, describes the vibe of 2021 and 2022 in its <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9jZ2ktYmluL2Jyb3dzZS1lZGdhcj9jb21wYW55PSZDSUs9c2l2YiZmaWxl=
+bnVtPSZTdGF0ZT0mU0lDPSZvd25lcj1leGNsdWRlJmFjdGlvbj1nZXRjb21wYW55/607f07ceef=
+4b8524a319a23cBe4b33a8d" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> Form 10-K two weeks ago</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Much of the recent deposit growth =
+was driven by our clients across all segments obtaining liquidity through l=
+iquidity events, such as IPOs, secondary offerings, SPAC fundraising, ventu=
+re capital investments, acquisitions and other fundraising activities=E2=80=
+=94which during 2021 and early 2022 were at notably high levels.</p></block=
+quote>
+<p style=3D"margin: 16px 0;">People kept flinging money at SVB=E2=80=99s cu=
+stomers, and they kept depositing it at SVB.=C2=A0Perfectly reasonable bank=
+ing service.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But the customers=C2=A0didn=E2=80=99t need loa=
+ns, in part because equity investors kept giving them trucks full of cash a=
+nd in part because young tech startups tend not to have the fixed assets or=
+ recurring cash flows that make for good corporate borrowers.<a class=3D"fo=
+otnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: none !important; background-color: transparent !import=
+ant; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0Oh, there is <em>some=C2=A0</em>tech-industry-adjacent lending yo=
+u can do.<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: none !important; background-col=
+or: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a> Tech founders want to buy houses, and you can give them mortgages. Ven=
+ture capital and private equity funds want to manage liquidity and/or juice=
+ their reported return rates by paying for investments with borrowed money =
+rather than=C2=A0drawing from their limited partners, so you can get into t=
+he capital-call-line-of-credit business. There are vineyards near Silicon V=
+alley=C2=A0and you can develop an expertise in vineyard financing. And, sur=
+e, some of your tech-company customers=C2=A0<em>do=C2=A0</em>need to borrow=
+ money, and=C2=A0<em>are=C2=A0</em>creditworthy, and you lend them money an=
+d that works out. But there is a basic imbalance. Customer money keeps comi=
+ng in, as deposits, but it doesn=E2=80=99t go out, as loans.</p>
+<p style=3D"margin: 16px 0;">So you have all this customer cash, and you ne=
+ed to do something with it. Keeping it in, like, Fed reserves, or Treasury =
+bills, in 2021, was not a great choice; that stuff paid basically no intere=
+st, and you want to make money. So you=E2=80=99d buy longer-dated, but also=
+ very safe, securities, things like Treasury bonds and agency mortgage-back=
+ed securities. We <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+30799833.257405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMjMtMDMtMDkvY3J5cHRvLWJhbmstaGFkLWEtYm9yaW5nLWNvbGxhcHNlP2NtcGlkPUJCRDAzMT=
+AyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0b=
+V90ZXJtPTIzMDMxMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB=
+a3c89450" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">  talked yesterday</a> about how this worked out at Silve=
+rgate Capital Corp., the actual Bank of Crypto. And as of <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/30799833.257405/aHR0cHM6Ly93d3cuc2V=
+jLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvNzE5NzM5LzAwMDA3MTk3MzkyMzAwMD=
+AyMS9zaXZiLTIwMjIxMjMxLmh0bSNpYmI0ZGQ3M2ExZDNmNGJmZjk0NGI1ZDM1ZmQyYzVlMmFfM=
+Tg0/607f07ceef4b8524a319a23cB1461cc07" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> the end of 2022</a>, Silico=
+n Valley Bank, the actual Bank of Startups, had about $74 billion of loans =
+and about $120 billion of investment securities.</p>
+<p style=3D"margin: 16px 0;">Crudely stereotyping, in traditional banking, =
+you take deposits and make loans. In the Bank of Startups, in 2021, you tak=
+e deposits and mostly buy bonds. Again crudely stereotyping,=C2=A0corporate=
+ loans often have floating interest rates and shorter terms, while bonds ha=
+ve=C2=A0fixed<em>=C2=A0</em>interest rates and longer terms. None of this i=
+s completely true =E2=80=94=C2=A0there are fixed-rate corporate loans and f=
+loating-rate bonds, traditional banking tends to involve making lots of loa=
+ns (like mortgages) with long-term=C2=A0fixed rates,=C2=A0you can do swaps,=
+ etc.=C2=A0=E2=80=94=C2=A0but it is a useful crude stereotype.<a class=3D"f=
+ootnote-index" href=3D"#footnote-3" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: none !important; background-color: transparent !impor=
+tant; display: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Or, to put it in different crude terms, in tra=
+ditional banking, you make your money in part by taking credit risk: You ge=
+t to know your customers, you try to get good at knowing which of them will=
+ be able to pay back loans, and then you make loans to those good customers=
+. In the Bank of Startups, in 2021, you couldn=E2=80=99t really make money =
+by taking credit risk: Your customers just didn=E2=80=99t need enough credi=
+t to give you the credit risk that you needed to make money on all those de=
+posits. So you had to make your money by taking interest-rate risk: Instead=
+ of making loans to risky corporate borrowers, you bought long-term bonds b=
+acked by the US government.</p>
+<p style=3D"margin: 16px 0;">The result of this is that, as the Bank of Sta=
+rtups, you were unusually exposed to interest-rate risk. Most banks, when i=
+nterest rates go up, have to pay=C2=A0more interest on deposits, but get pa=
+id=C2=A0more interest on their loans, and end up profiting from rising inte=
+rest rates. But you, as the Bank of Startups, own a lot of long-duration bo=
+nds, and their market value goes down as rates go up. Every bank has some m=
+ix of this =E2=80=94=C2=A0every bank borrows short to lend=C2=A0long; that=
+=E2=80=99s what banking is=C2=A0=E2=80=94=C2=A0but many banks end up a bit =
+more balanced than the Bank of Startups. At the Financial Times,=C2=A0<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aHR0cHM=
+6Ly93d3cuZnQuY29tL2NvbnRlbnQvN2NmNGViNDUtNzhiNy00ZTZlLWIxMzQtMWYwYjA4MmJhMj=
+Az/607f07ceef4b8524a319a23cBb71a92f7" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">Robert Armstrong writes</a>:<=
+/p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Few other banks have as much of their assets l=
+ocked up in fixed-rate securities as SVB, rather than in floating-rate loan=
+s. Securities are 56 per cent of SVB=E2=80=99s assets. At Fifth Third, the =
+figure is 25 per cent; at Bank of America, it is 28 per cent.=C2=A0</p>
+<p style=3D"margin: 16px 0;">For most banks higher rates, in and of themsel=
+ves, are good news. They help the asset side of the balance sheet more than=
+ they hurt the liability side. =E2=80=A6 SVB is the opposite: higher rates =
+hurt it on the liability side more than they help it on the asset side. As =
+Oppenheimer bank analyst Chris Kotowski sums up, SVB is =E2=80=9Ca liabilit=
+y-sensitive outlier in a generally asset-sensitive world=E2=80=9D.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But there is another, subtler, more dangerous =
+exposure to interest rates: You are the Bank of Startups, and <em>startups =
+are a low-interest-rate phenomenon</em>. When interest rates are low everyw=
+here, a dollar in 20 years is about as good as a dollar today, so a startup=
+ whose business model is =E2=80=9Cwe will lose money for a decade building =
+artificial intelligence, and then rake in lots of money in the far future=
+=E2=80=9D sounds pretty good. When interest rates are higher, a dollar toda=
+y is better than a dollar tomorrow, so investors want cash flows. When inte=
+rest rates were low for a long time, and suddenly become high, all the mone=
+y that was rushing to your customers is suddenly cut off. Your clients who =
+were =E2=80=9Cobtaining liquidity through liquidity events, such as IPOs, s=
+econdary offerings, SPAC fundraising, venture capital investments, acquisit=
+ions and other fundraising activities=E2=80=9D stop doing that. Your custom=
+ers keep taking money out of the bank to pay rent and salaries, but they st=
+op depositing new money.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This is all even more true of crypto =E2=80=94=
+=C2=A0I mean,=C2=A0the Fed raised rates once and the entire crypto industry=
+ vanished?<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: none !important; background-co=
+lor: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0=E2=80=94 but it is not <em>not</em> true of startups. But if som=
+e charismatic tech founder=C2=A0had come to you in 2021 and said =E2=80=9CI=
+ am going to revolutionize the world via [artificial intelligence][robot ta=
+xis][flying taxis][space taxis][blockchain],=E2=80=9D it might have felt un=
+natural to reply =E2=80=9Cnah but what if the Fed raises rates by 0.25%?=E2=
+=80=9D This was an industry with a radical vision for the future of humanit=
+y, not a bet on interest rates. Turns out it was a bet on interest rates th=
+ough.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30799833.257405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL25ld3NsZXR0ZXJzLzIwMjMtMDMtMTAvdGhlLXdlZWtseS1maXgtam9icy1kYXktY291=
+bGQtbWFrZS1vci1icmVhay1iZXRzLW9uLTUwLWJhc2lzLXBvaW50cz9jbXBpZD1CQkQwMzEwMjN=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yMzAzMTAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBfd75=
+e90a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  Bloomberg=E2=80=99s Katie Greifeld</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Silvergate and SVB =E2=80=9Cin fac=
+t are victims of the same phenomenon as Fed tightening extinguishes froth f=
+rom those parts of the economy with the most excess =E2=80=94 and it=E2=80=
+=99s hard to find more excess than in crypto and tech startups,=E2=80=9D sa=
+id Adam Crisafulli of Vital Knowledge.</p></blockquote>
+<p style=3D"margin: 16px 0;">And my Bloomberg Opinion colleague <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/30799833.257405/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3ZiLWFuZC1zaWx2=
+ZXJnYXRlLWJhbmstdHVtdWx0LWluLWNhbGlmb3JuaWEtaGFzLWVjaG9lcy1pbi10ZXhhcy1jcml=
+zaXM_Y21waWQ9QkJEMDMxMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzEwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBffb7df91" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  Paul Davies</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Both crypto and venture capital bo=
+oms were children of the ultra-low rates of the past decade and a half. Now=
+, rising rates and the shrinking of the Federal Reserve=E2=80=99s balance s=
+heet have burst those industry bubbles and increased the competition among =
+banks for funding.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">And so if you were the Bank of Startups, just =
+like if you were the Bank of Crypto, it turned out that you had made a huge=
+ concentrated bet on interest rates. Your customers were flush with cash, s=
+o they gave you all that cash, but they didn=E2=80=99t need loans so you in=
+vested all that cash in longer-dated fixed-income securities, which lost va=
+lue when rates went up. But also, when rates went up, your customers all go=
+t smoked, because it turned out that=C2=A0<em>they=C2=A0</em>were creatures=
+ of low interest rates, and in a higher-interest-rate environment they didn=
+=E2=80=99t have money anymore. So they withdrew their deposits, so you had =
+to sell those securities at a loss to pay them back. Now you have lost mone=
+y and look financially shaky,=C2=A0so customers get spooked and withdraw mo=
+re money, so you sell more securities, so you book more losses,=C2=A0oops o=
+ops oops.<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: none !important; background-col=
+or: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">As Armstrong puts it, SVB had =E2=80=9Ca doubl=
+e sensitivity to higher interest rates. On the asset side of the balance sh=
+eet, higher rates decrease the value of those long-term debt securities. On=
+ the liability side, higher rates mean less money shoved at tech, and as su=
+ch, a lower supply of cheap deposit funding.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Also, I am sorry to be rude, but there is anot=
+her reason that it is maybe not great to be the Bank of Startups, which is =
+that nobody on Earth is more of a herd animal=C2=A0than Silicon Valley vent=
+ure capitalists. What you want, as a bank, is a certain amount of diversity=
+ among your depositors. If some depositors get spooked and take their money=
+ out, and other depositors evaluate your balance sheet and decide things ar=
+e fine and keep their money in, and lots more depositors keep their money i=
+n because they simply don=E2=80=99t pay attention to banking news, then you=
+ have a shot at muddling through your problems.</p>
+<p style=3D"margin: 16px 0;">But if all of your depositors are startups wit=
+h=C2=A0the same handful of venture capitalists on their boards, and all tho=
+se venture capitalists are competing with each other to Add Value and Be In=
+fluencers and Do The Current Thing by calling all their portfolio companies=
+ to say =E2=80=9Chey, did you hear, everyone=E2=80=99s taking money out of =
+Silicon Valley Bank, you should too,=E2=80=9D then all of your depositors w=
+ill take their money out at the same time. In fact, <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30799833.257405/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMDkvc3ZiLWNlby1iZWNrZXItYXNrcy1zaWxp=
+Y29uLXZhbGxleS1iYW5rLWNsaWVudHMtdG8tc3RheS1jYWxtP2NtcGlkPUJCRDAzMTAyM19NT05=
+FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPT=
+IzMDMxMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB10862c2f"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">  Bloomberg reported yesterday</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Unease is spreading across the financial world=
+ as concerns about the stability of Silicon Valley Bank prompt prominent ve=
+nture capitalists including Peter Thiel=E2=80=99s Founders Fund to advise s=
+tartups to withdraw their money. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Founders Fund asked its portfolio companies to=
+ move their money out of SVB, according to a person familiar with the matte=
+r who asked not to be identified discussing private information. Coatue Man=
+agement, Union Square Ventures and Founder Collective also advised startups=
+ to pull cash, people with knowledge of the matter said. Canaan, another ma=
+jor VC firm, told firms it invested in to remove funds on an as-needed basi=
+s, according to another person.</p>
+<p style=3D"margin: 16px 0;">SVB Financial Group Chief Executive Officer Gr=
+eg Becker held a conference call on Thursday advising clients of SVB-owned =
+Silicon Valley Bank to =E2=80=9Cstay calm=E2=80=9D amid concern about the b=
+ank=E2=80=99s financial position, according to a person familiar with the m=
+atter.</p>
+<p style=3D"margin: 16px 0;">Becker held the roughly 10-minute call with in=
+vestors at about 11:30 a.m. San Francisco time. He asked the bank=E2=80=99s=
+ clients, including venture capital investors, to support the bank the way =
+it has supported its customers over the past 40 years, the person said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Nah, man, you don=E2=80=99t get to be a succes=
+sful venture capitalist by taking a long view or investing in relationships=
+ or being contrarian.=C2=A0I=E2=80=99m sorry, I=E2=80=99m sorry, this is un=
+fair. Of course they were=C2=A0<em>right=C2=A0</em>=E2=80=94=C2=A0Silicon V=
+alley Bank=C2=A0<em>did=C2=A0</em>collapse, and if you got your money out e=
+arly that was good for you=C2=A0=E2=80=94=C2=A0but that is largely self-ful=
+filling; if all the VCs hadn=E2=80=99t decided all at once to pull their mo=
+ney, SVB probably would not have collapsed.<a class=3D"footnote-index" href=
+=3D"#footnote-6" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[6]</span>
+</a></p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30799833.257405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDMtMTAvc2lsaWNvbi12YWxsZXktYmFuay1jb2xsYXBzZXMtZW50ZXJzLWZkaWM=
+tcmVjZWl2ZXJzaGlwP2NtcGlkPUJCRDAzMTAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haW=
+wmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxMCZ1dG1fY2FtcGFpZ249bW9uZ=
+XlzdHVmZg/607f07ceef4b8524a319a23cB2ec635af" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">But it did</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Silicon Valley Bank collapsed into Federal Dep=
+osit Insurance Corp. receivership on Friday, after its long-established cus=
+tomer base of tech startups grew worried and yanked deposits.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The California Department of Financial Protect=
+ion and Innovation in a statement Friday said it has taken possession of Si=
+licon Valley Bank and appointed the FDIC as receiver, citing inadequate liq=
+uidity and insolvency. =C2=A0</p>
+<p style=3D"margin: 16px 0;">The FDIC said that insured depositors would ha=
+ve access to their funds by no later than Monday morning. Uninsured deposit=
+ors will get a receivership certificate for the remaining amount of their u=
+ninsured funds, the regulator said, adding that it doesn=E2=80=99t yet know=
+ the amount.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Receivership typically means a bank=E2=80=99s =
+deposits will be assumed by another, healthy bank or the FDIC will pay depo=
+sitors up to the insured limit.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">SVB=E2=80=99s capital stack looked=C2=A0roughl=
+y like this, <a href=3D"https://link.mail.bloombergbusiness.com/click/30799=
+833.257405/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEv=
+NzE5NzM5LzAwMDA3MTk3MzkyMzAwMDAyMS9zaXZiLTIwMjIxMjMxLmh0bSNpYmI0ZGQ3M2ExZDN=
+mNGJmZjk0NGI1ZDM1ZmQyYzVlMmFfMTg0/607f07ceef4b8524a319a23cC1461cc07" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> as of Dec. 31</a>:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">A tiny sliver of insured deposits (tha=
+t is, deposits under the $250,000 FDIC limit), something like $8 billion wo=
+rth out of $173 billion of total deposits.<a class=3D"footnote-index" href=
+=3D"#footnote-7" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[7]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">Roughly=C2=A0<a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30799833.257405/aHR0cHM6Ly93d3cuc2VjLm=
+dvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvNzE5NzM5LzAwMDA3MTk3MzkyMzAwMDAyM=
+S9zaXZiLTIwMjIxMjMxLmh0bSNpYmI0ZGQ3M2ExZDNmNGJmZjk0NGI1ZDM1ZmQyYzVlMmFfMTMw=
+/607f07ceef4b8524a319a23cBbe5cd580" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">$165 billion of uninsured depos=
+its</a>.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">Roughly $13 billion=
+ of =E2=80=9Cshort-term borrowings,=E2=80=9D meaning mostly <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30799833.257405/aHR0cHM6Ly93d3cuc=
+2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvNzE5NzM5LzAwMDA3MTk3MzkyMzAw=
+MDAyMS9zaXZiLTIwMjIxMjMxLmh0bSNpYmI0ZGQ3M2ExZDNmNGJmZjk0NGI1ZDM1ZmQyYzVlMmF=
+fMTM2/607f07ceef4b8524a319a23cB858f1c7c" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Federal Home Loan Bank =
+advances</a>.</li>=09<li style=3D"margin-bottom: 5px;">Roughly $2 billion o=
+f <a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/=
+aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvNzE5NzM5LzA=
+wMDA3MTk3MzkyMzAwMDAyMS9zaXZiLTIwMjIxMjMxLmh0bSNpYmI0ZGQ3M2ExZDNmNGJmZjk0NG=
+I1ZDM1ZmQyYzVlMmFfMjY1/607f07ceef4b8524a319a23cB50efe054" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> long-ter=
+m FHLB advances</a>.</li>=09<li style=3D"margin-bottom: 5px;">Roughly $3 bi=
+llion of long-term bonds.</li>=09<li style=3D"margin-bottom: 5px;">Maybe $4=
+ billion of other liabilities, for a total of $195 billion of liabilities.<=
+/li>=09<li style=3D"margin-bottom: 5px;">About $3.6 billion of preferred st=
+ock.</li>=09<li style=3D"margin-bottom: 5px;">Common stock with a book valu=
+e of about $12.4 billion and a market value, on Dec. 31, of about $13.6 bil=
+lion.</li>
+</ul>
+<p style=3D"margin: 16px 0;">It had assets of about $212 billion on that De=
+c. 31 balance sheet, though since then it has had to sell some assets and m=
+ark others=C2=A0down, and it=E2=80=99s not clear what they=E2=80=99re worth=
+ today. The California Department of Financial Protection and Innovation=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405=
+/aHR0cHM6Ly9kZnBpLmNhLmdvdi8yMDIzLzAzLzEwL2NhbGlmb3JuaWEtZmluYW5jaWFsLXJlZ3=
+VsYXRvci10YWtlcy1wb3NzZXNzaW9uLW9mLXNpbGljb24tdmFsbGV5LWJhbmsvP3V0bV9zb3VyY=
+2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbA/607f07ceef4b8524a319a23cB882a3e8b" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">cited</a> =E2=80=9Cinadequate liquidity <em>and=C2=A0</em>insolvency=
+=E2=80=9D when it put SVB into FDIC receivership, suggesting that the asset=
+s are worth less than the liabilities.=C2=A0The <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/30799833.257405/aHR0cHM6Ly93d3cuZmRpYy5nb3YvY=
+WJvdXQvc3RyYXRlZ2ljLXBsYW5zL3N0cmF0ZWdpYy9yZWNlaXZlcnNoaXAuaHRtbA/607f07cee=
+f4b8524a319a23cBfb4a20c5" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> FDIC=E2=80=99s job</a>, in receivership,=
+ is =E2=80=9Cefficiently recovering the maximum amount possible from the di=
+sposition of assets=E2=80=9D to distribute to creditors.</p>
+<p style=3D"margin: 16px 0;">One obvious question is: If you are =E2=80=9Ca=
+nother, healthy bank=E2=80=9D <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30799833.257405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjMtMDMtMTAvc3ZiLXNlZWtzLWZhc3QtYnV5ZXItYWZ0ZXItcmVndWxhdG9ycy1zaH=
+V0LWJhbmtpbmctb3BlcmF0aW9ucz9jbXBpZD1CQkQwMzEwMjNfTU9ORVlTVFVGRiZ1dG1fbWVka=
+XVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTAmdXRtX2NhbXBh=
+aWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBa8601a9e" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  working th=
+rough this weekend</a> to buy SVB and assume its deposits, how much would y=
+ou pay for the assets, which were worth $212 billion in December?<a class=
+=3D"footnote-index" href=3D"#footnote-8" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[8]</span>
+</a> I am pretty sure the answer is higher than=C2=A0<em>$8 billion,=C2=A0<=
+/em>the amount of insured deposits: The FDIC will not be on the hook for th=
+e insured deposits. The $15 billion of=C2=A0FHLB advances are also quite se=
+nior and will presumably be no problem to pay back.</p>
+<p style=3D"margin: 16px 0;">I would also guess =E2=80=94=C2=A0not investin=
+g or banking advice! =E2=80=94=C2=A0that the answer will also turn out to b=
+e higher than $188 billion, which is the total amount of deposits plus FHLB=
+ advances. I say this not because I have done a detailed analysis of SVB=E2=
+=80=99s assets but because it seems bad for the FDIC to wind up a big=C2=A0=
+high-profile bank in a way that causes significant losses for=C2=A0deposito=
+rs, including uninsured depositors. There was a run on SVB in part=C2=A0bec=
+ause=C2=A0there hasn=E2=80=99t been a big bank run in a while, and people =
+=E2=80=94=C2=A0venture capitalists, startups =E2=80=94=C2=A0were naturally =
+worried that they might lose their deposits if their bank failed. Then the =
+bank failed.</p>
+<p style=3D"margin: 16px 0;">If it turns out to be true that they lose thei=
+r deposits, there could be more bank runs: Lots of businesses keep uninsure=
+d deposits at lots of banks, and if the moral of SVB is =E2=80=9Cyour unins=
+ured transaction-banking deposits can vanish overnight=E2=80=9D then those =
+businesses will do a lot more credit analysis, move their money out of weak=
+er banks, and put it at, like, JPMorgan. This could be self-fulfillingly=C2=
+=A0bad for a lot of weaker banks. My assumption is that the FDIC, the Feder=
+al Reserve, and=C2=A0the banks who are looking at buying SVB all really don=
+=E2=80=99t want that. If you are a bank looking at buying SVB, and you do a=
+ detailed analysis of its assets and conclude that they are worth $180=C2=
+=A0billion, and you come to the FDIC and say =E2=80=9CI will take over this=
+ bank and pay the uninsured depositors 95 cents on the dollar,=E2=80=9D the=
+ FDIC is going to look at you and say =E2=80=9Cdon=E2=80=99t you mean 100 c=
+ents on the dollar,=E2=80=9D and you are going to say =E2=80=9Coh right yes=
+ of course, silly me, 100 cents on the dollar.=E2=80=9D<a class=3D"footnote=
+-index" href=3D"#footnote-9" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: none !important; background-color: transparent !important; d=
+isplay: inline-block;">
+<span>[9]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Maybe I=E2=80=99m wrong about that, but if I a=
+m it=E2=80=99ll be bad!</p>
+<p style=3D"margin: 16px 0;">Above that, though, I have no idea.=C2=A0The s=
+tock closed at $106.04 per share yesterday (a $6.2 billion market cap, roug=
+hly 50% of book value), and was halted today. The preferred was trading at =
+about 60 cents on the dollar yesterday, also closed today. Byrne Hobart <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aHR0c=
+HM6Ly93d3cudGhlZGlmZi5jby9hcmNoaXZlL3N2Yi1vZi1iYWxhbmNlLXNoZWV0cy1icmFuZHMt=
+YW5kLWJhbmtzLw/607f07ceef4b8524a319a23cBf54d0276" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> wrote the bull c=
+ase yesterday</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">The simple way to look at SVB from=
+ an investing perspective is to separate the ongoing business from the bala=
+nce sheet for a moment, and ask: what premium does SVB's business deserve t=
+o book value, in a hypothetical world where they didn't make a massive rate=
+s bet? Over the last twenty years, they've traded at an average of 2.3x tan=
+gible book value, and generally at a premium to their banking peers. So a s=
+imple way to value the business is to say that the fair value of the busine=
+ss is generally ~100 cents on the dollar in liquidating value and another ~=
+130 cents on the dollar in franchise value. If that liquidating value has b=
+een vaporized by a rates bet, the surviving business is still worth a premi=
+um to book.</p></blockquote>
+<p style=3D"margin: 16px 0;">But that was yesterday, and the franchise valu=
+e melts pretty quickly when you go into FDIC receivership. The bear case is=
+ =E2=80=A6 well, back in November, when crypto exchange FTX was still looki=
+ng for a rescue (it never found one), I wrote that <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30799833.257405/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMDgvYmluYW5jZS1zLXpoYW8tc2JmLWVkL=
+WZ0eC1zLWJhbmttYW4tZnJpZWQ_Y21waWQ9QkJEMDMxMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1=
+bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzEwJnV0bV9jYW1wYWl=
+nbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB85ccacfd" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">the traditiona=
+l price for that sort of rescue</a>=C2=A0is =E2=80=9Cwe will buy your excha=
+nge, make sure that all your customers are made whole, and give you a Snick=
+ers bar in exchange for 100% of the equity.=E2=80=9D That may be where this=
+ is heading.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDc5OTgzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwNTcyMzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDecb5fa11" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30799833&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31057238&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDc5OTgzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwNTcyMzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEecb5fa11" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30799833&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31057238&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDc5OTgzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwNTcyMzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF668a4d76" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30799833&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31057238&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDc5OTgzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwNTcyMzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG668a4d76" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30799833&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31057238&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDc5OTgzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwNTcyMzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHf9108ffd" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30799833&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31057238&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDc5OTgzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwNTcyMzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIf9108ffd" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30799833&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31057238&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">More From Bloomberg Opinion</h2>
+</td>
+</tr>
+</table>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Silicon Valley Bank=E2=80=99s Swoon Sh=
+ould <a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.2574=
+05/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMDkv=
+aXMtc2lsaWNvbi12YWxsZXktYmFuay1zLXN3b29uLWEtcmVjZXNzaW9uLXNpZ25hbD9jbXBpZD1=
+CQkQwMzEwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMzAzMTAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cBa4034cd5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  Scare Us All</a>.</li>=09<li style=3D"margin-bo=
+ttom: 5px;">Why Is the US Regulating JPMorgan But <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/30799833.257405/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvYmFua2luZy13aHktaXMtdGhlLXVzLX=
+JlZ3VsYXRpbmctanBtb3JnYW4tYnV0LW5vdC1zdmI_Y21waWQ9QkJEMDMxMDIzX01PTkVZU1RVR=
+kYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzEw=
+JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBb9ad9e17" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>  Not SVB</a>?</li>=09<li style=3D"margin-bottom: 5px;">SVB and Silvergate=
+ Tumult Has Echoes in <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/30799833.257405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjMtMDMtMTAvc3ZiLWFuZC1zaWx2ZXJnYXRlLWJhbmstdHVtdWx0LWluLWNhbGlmb3JuaW=
+EtaGFzLWVjaG9lcy1pbi10ZXhhcy1jcmlzaXM_Y21waWQ9QkJEMDMxMDIzX01PTkVZU1RVRkYmd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzEwJnV0=
+bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cCffb7df91" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">  T=
+exas Bank Crisis</a>.</li>=09<li style=3D"margin-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc2lsd=
+mVyZ2F0ZS1zdmItY3J5cHRvLXMtY2FyY2Fzcy13aWxsLWF0dHJhY3QtaGVkZ2UtZnVuZC12dWx0=
+dXJlcz9jbXBpZD1CQkQwMzEwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/60=
+7f07ceef4b8524a319a23cBf6e16342" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> Crypto Carcass</a> Will Attract H=
+edge Fund Vultures.</li>=09<li style=3D"margin-bottom: 5px;">Banks Throw Ma=
+rkets a <a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.2=
+57405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtM=
+TAvYmFuay1yb3V0LWl0LXMtYS1jdXJ2ZWJhbGwtZm9yLW1hcmtldHMtYW54aW91cy1hYm91dC10=
+aGUtb3V0bG9vaz9jbXBpZD1CQkQwMzEwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV=
+0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTAmdXRtX2NhbXBhaWduPW1vbmV5c3=
+R1ZmY/607f07ceef4b8524a319a23cB634a5d93" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  Curveball</a>.</li>
+</ul>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30799833.257405/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBaa4ec637" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30799833.257405/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB93b06699" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Similarly in crypto, on 2021, crypto excha=
+nges had tons of cash that they needed to park at a bank, but were not real=
+ly in the business of taking loans from banks. There was a lot of lending i=
+n the crypto world, but it was all loans secured by Bitcoins and stuff and =
+that is mostly too spicy for a bank; it was mostly done by crypto shadow ba=
+nks (including exchanges themselves). Though Silvergate did some of it.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Here I am sort of summarizing SVB's discus=
+sion of its loan portfolio on <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30799833.257405/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmV=
+zL2VkZ2FyL2RhdGEvNzE5NzM5LzAwMDA3MTk3MzkyMzAwMDAyMS9zaXZiLTIwMjIxMjMxLmh0bS=
+NpYmI0ZGQ3M2ExZDNmNGJmZjk0NGI1ZDM1ZmQyYzVlMmFfMTIx/607f07ceef4b8524a319a23c=
+B541d2dbf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">pages 70-71 of the 10-K</a>.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Oh it=E2=80=99s way too crude. Here is =E2=
+=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257=
+405/aHR0cHM6Ly9wYWdlcy5zdGVybi5ueXUuZWR1L35hc2F2b3YvYWxleGlzYXZvdi9BbGV4aV9=
+TYXZvdl9maWxlcy9CYW5raW5nT25EZXBvc2l0cy5wZGY/607f07ceef4b8524a319a23cB446d3=
+ddc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Banking on Deposits: Maturity Transformation without Interest =
+Rate Risk</a>,=E2=80=9D by Itamar Drechsler, Alexi Savov and Philipp Schnab=
+l, in the Journal of Finance in 2021, making the case =E2=80=9Cthat maturit=
+y transformation does not expose banks to interest rate risk =E2=80=94 it h=
+edges it,=E2=80=9D even in a model where banks lend long at fixed rates, be=
+cause depositors are not very sensitive to interest rates.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Oh I am exaggerating for effect, please do=
+ not email me to be like =E2=80=9Cby summer 2022 there had been a string of=
+ actual and projected Fed rate increases=E2=80=9D or =E2=80=9Cactually ther=
+e is still crypto,=E2=80=9D I know.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] This oversimplifies the mechanics of how y=
+ou lose money, and I recommend <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/30799833.257405/aHR0cHM6Ly93d3cubmV0aW50ZXJlc3QuY28vcC90aGUtZG=
+VtaXNlLW9mLXNpbGljb24tdmFsbGV5LWJhbms/607f07ceef4b8524a319a23cB2f27f6b1" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">Marc Rubinstein's explanation today</a>. Basically SVB ended up with =
+a large portfolio of held-to-maturity bonds with an average duration of 6.2=
+ years at the end of 2022, =E2=80=9Cand unrealised losses snowballed, from =
+nothing in June 2021, to $16 billion by September 2022.=E2=80=9D These loss=
+es =E2=80=9Ccompletely subsumed the $11.8 billion of tangible common equity=
+ that supported the bank=E2=80=99s balance sheet,=E2=80=9D meaning that SVB=
+ was technically insolvent. But mark-to-market losses on held-to-maturity b=
+onds don't count for bank accounting purposes; the theory is that you will =
+just hold the bonds until maturity, they will pay back par, and you won't h=
+ave any losses. So SVB was still solvent and fine. =E2=80=9CSell even a sin=
+gle bond out of an HTM portfolio, however, and the entire portfolio would n=
+eed to be re-marked accordingly=E2=80=9D: If you have bonds in your held-to=
+-maturity portfolio, you have to be really confident you can hold them to m=
+aturity. SVB=E2=80=99s bonds kept maturing, providing cash to pay out depos=
+itors who wanted their money back. But: =E2=80=9CWhat neither the CEO nor t=
+he CFO anticipated, however, was that deposits might run off faster=E2=80=
+=9D than the bonds. They did, SVB sold its available-for-sale bonds, it was=
+n=E2=80=99t enough, and here we are.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] <em>Other things might have prevented its =
+failure. <a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.=
+257405/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYzk1ZTc3MDgtYjkwMy00MDVkLWEwMTct=
+OTYzODQ0ZWIzZGMz/607f07ceef4b8524a319a23cBfb52fe55" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> Daniel Davies<=
+/a> points out that Silicon Valley Bank, though it is big, is not quite big=
+ enough to be subject to the Federal Reserve=E2=80=99s post-2008 liquidity =
+regulations, which would have made it more, you know, liquid.</em></p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] The <a href=3D"https://link.mail.bloomberg=
+business.com/click/30799833.257405/aHR0cHM6Ly93d3cuZmRpYy5nb3YvbmV3cy9wcmVz=
+cy1yZWxlYXNlcy8yMDIzL3ByMjMwMTYuaHRtbA/607f07ceef4b8524a319a23cB79456405" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> FDIC=E2=80=99s statement</a> says =E2=80=9CAt the time of closing, =
+the amount of deposits in excess of the insurance limits was undetermined,=
+=E2=80=9D and presumably the mix has shifted since Dec. 31.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] They were not: Again, that was the book va=
+lue, and the unrealized losses on the held-to-maturity bonds would reduce t=
+hat. On the other hand, maybe they've gone up since then? Byrne Hobart <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aHR0cH=
+M6Ly90d2l0dGVyLmNvbS9CeXJuZUhvYmFydC9zdGF0dXMvMTYzNDIwMTc3Mjk4NTAzMjcwOA/60=
+7f07ceef4b8524a319a23cB17aae298" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">tweeted</a>: "One irony of all thi=
+s is that a flight to safety is disproportionately good for exactly the lon=
+g-duration low/no-credit risk stuff that caused this problem in the first p=
+lace."</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] When IndyMac Bancorp failed in 2008, unins=
+ured depositors got back 50 cents on the dollar, though they were <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aHR0cHM6L=
+y9sYWJ1c2luZXNzam91cm5hbC5jb20vbmV3cy9mZGljLWxvd2Vycy1lc3RpbWF0ZS1vZi1pbmR5=
+bWFjcy11bmluc3VyZWQv/607f07ceef4b8524a319a23cB26c12228" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> relatively=
+ small</a>. Since then, it <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30799833.257405/aHR0cHM6Ly93d3cuY2F0by5vcmcvY29tbWVudGFyeS9mZGljLW=
+ludmVudHMtY29zdGx5LXNvbHV0aW9uLWltYWdpbmFyeS1wcm9ibGVt/607f07ceef4b8524a319=
+a23cBcabbc1bb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> seems</a> to be an FDIC <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/30799833.257405/aHR0cHM6Ly93d3cuYW1lcmljYW5iY=
+W5rZXIuY29tL29waW5pb24vd2lsbC1mZGljLWtlZXAtcHJvdGVjdGluZy1mYWlsZWQtYmFua3Mt=
+dW5pbnN1cmVkLWRlcG9zaXRz/607f07ceef4b8524a319a23cB550b4901" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> goal</=
+a> to get the uninsured depositors paid.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB532b5885" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB828f0ffd" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB7148a052" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB8c00c370" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDc5OTgzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwNTcyMzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJ1c2212e4" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30799833&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31057238&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB684ebc3e" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30799833.257405/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCd796956d" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30799833.257405/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB5a25a751" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30799833.257405/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB69caac9e" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB9=
+23a092b" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30799833.257405/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBa=
+1547c1f" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D307998=
+33&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31057238&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D307998=
+33&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31057238&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D307998=
+33&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31057238&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D307998=
+33&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31057238&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D307998=
+33&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31057238&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cic5ax.5im5/037733d6.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_24582971_394970194.1678480553031--
+

@@ -1,0 +1,2197 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:a51:b0:e2:9b5b:7c1 with SMTP id 17csp3490932rwb;
+        Mon, 9 Jan 2023 10:10:32 -0800 (PST)
+X-Received: by 2002:a05:600c:4148:b0:3d3:52bb:3985 with SMTP id h8-20020a05600c414800b003d352bb3985mr47191722wmm.31.1673287832231;
+        Mon, 09 Jan 2023 10:10:32 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1673287832; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Y3lSbJoSuhquq7A+vFFpZqx0K31WCPVja4q+mdakq7fd9S92oVAai1/MoHM6PQjSQY
+         unKVAtRRj3TkzZ4QgTgYjChEmdh4rTPYkpsfVohnmoUg98dJknGlHJ8idJxxMMObfRtr
+         LsYJOlJVyDJxsvNQe9zzvCXZxqCBVSwHirejUGmdRtnD5qmBHcS6RLrOOYFYFnsqmU66
+         FK/YzeNHdegSlhTfqvFCyMVjt47+RbcX+xVioyuBvQQfyemenSlNv/uPlS39Je2eWgJI
+         zFrkv245mPHVYZ58TfrovS1W0mhTLdQkKv+wVCTLRVNQoEWvhGMKTdoJWvlO+IvSZxv0
+         xvyg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=RHM4dyz0fLkADO+a83CLnz2BkJs4RVht7GvFq3JazpU=;
+        b=sAEnEhS5r31df5cSWk2/nAB7sJ4nL9Kyj8djDPHlZUKFJ41O7ZN7LZ+DgjdtjNvvOB
+         WC65yrEiXwXK4xcU1ZHwaVA+a0rzw5eYNM41oKPucNgumYHHj2WGoLFVeMMf/jqJ4EpN
+         G4oPEoKU3t+PkDbbnBip3R1KiXr8C+Vl7piFRpoS2tfEV5oAJ9BAKVGrJOpiq2lMiVXJ
+         pMOoTlAur1Vf+kioiWloaHzcbBzfX0INX1L7xVEGa5L7m4X8W8Dc7xOb4c/IloL9WiQv
+         FE3GxzGIe2ZslaFvWfr7I0E3ahNn7KEH3zMmQ6os4vo12aEBvM13QjdUqiPkOUYpQ20K
+         +itA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=YagtY1yj;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id f21-20020a7bcc15000000b003d05dc60e01sor3950350wmh.3.2023.01.09.10.10.32
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 09 Jan 2023 10:10:32 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=YagtY1yj;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=RHM4dyz0fLkADO+a83CLnz2BkJs4RVht7GvFq3JazpU=;
+        b=C5Yytj+CeBBXXX3vYW9whRfnGc3BCYaOPpxhdhbhUX8k+P3oaY31yKigyenP51qjLR
+         d5EIRIXfCb87+UrZ8iZEQRllGwwuGVhMgD+SAv/SvCRkJRtHA4RkOWZtmWstlW0SMgFA
+         iq4qSFZW7RCsizFO8O5eNYwBeFeKpEkcMEMaG1t3aeVzviK3UQsJmXYi1YnmOEbSTQkv
+         tYUY61GLf0Fg8EldCQEiwqH2N9hPcxq5ShC47QB7NQGOEsd3ctamWWn8yphNoVZ2r+gX
+         5nlG4KO2pOD8GzazCGHziWoGsF/qebSO8mtirz8bDnOE2FME1jDJNnswG5EbpTbClYUX
+         FVAw==
+X-Gm-Message-State: AFqh2kq51I6+zfP6ldErvyfYwP1J9ZGKMHEfJrjX/x/ewflTOLjwClCF
+	fSMQraGtFO+nUzqQcLdUIDrammcnUb3uHM4YxmzoM7qj1N33U65gZg==
+X-Received: by 2002:a05:600c:4194:b0:3d2:3cb4:946e with SMTP id p20-20020a05600c419400b003d23cb4946emr3834293wmh.36.1673287831869;
+        Mon, 09 Jan 2023 10:10:31 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5608:0:0:0:0:0 with SMTP id l8csp2552204wrv;
+        Mon, 9 Jan 2023 10:10:28 -0800 (PST)
+X-Received: by 2002:a67:e1cc:0:b0:3c4:dd81:72fe with SMTP id p12-20020a67e1cc000000b003c4dd8172femr25844940vsl.22.1673287828394;
+        Mon, 09 Jan 2023 10:10:28 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1673287828; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=p5dmV/y5X1iqNJJ5PsHd+oH5Sq9fDEr2IvZ41KIAMf+0BTxjQO9gL36caRwF83hllj
+         krwdpsvHzKwCsoKxGUdCvv8RTW8wUi+fh8c7HVaURKRLhQ/MYNcqyv/tJMDswZ2YHdsb
+         AhAfyFnpElFs3pPDWNjg81W6p/8UisSY/sxTbxvlpBMDZ3tMhRK/CDBqOgftSL3LWWel
+         N2ilP6L4dK/2D4W26D3p6h6RsiXdn/EtFrqk8BtCyQFmGp08T/QdmYs6AvwnkcppTkKX
+         8ksPdJTvTYIy3pONEqLs61PtTaA6mkc7cWJjSgPl5d+Ofho49w1DWC/CO/MfMHRNWvmB
+         cS1Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=RHM4dyz0fLkADO+a83CLnz2BkJs4RVht7GvFq3JazpU=;
+        b=Fq3nw1ZkHm7QRTuM1hW8p9dUJhTbLQQ++pqp80d9cU56ljdQ0b9lEf19PX0Ie9T5yc
+         WdvJ2B06UIUJmbaG0ruC/L4TWyTKD5ZFeeCxxCv4+CTh45T2SaPD/YlH3aaxmYSNvYrn
+         g/Y1eE6k3TOHxkm/jLsFCp1/PmCRLxnBLriF5Z3cjUzElFV5mn3Rxcg4BCynWjyGp7dD
+         lzdPCHABEqpmM6cr/F4VRhXQoEEk4uj1ERIxIAj4HSgM352ulGKosq8yRemwGp/38rB9
+         oW6xetERnaD2mGRSWE7scQlU6DhzIzMoKG3RGuPRA9SDxRXvaoOn0z2pMZcfjfoNFSZA
+         3C3w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=YagtY1yj;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230109130854.30196665.271518@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230109130854.30196665.271518@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230109130854.30196665.271518@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id z4-20020a67d284000000b003ce88049330sor5590233vsi.86.2023.01.09.10.10.28
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 09 Jan 2023 10:10:28 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230109130854.30196665.271518@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMrXdXudB/6XEZLOWSpRfPhppz8yBSnbg5uFuLd2eAtRo683lQMzLhgvpv2lX+mK0+T49Be639mMZy3qbu2pwhl2DDfVkDbNrfc=
+X-Received: by 2002:a67:ec53:0:b0:3d0:c143:3ff6 with SMTP id z19-20020a67ec53000000b003d0c1433ff6mr657984vso.14.1673287827995;
+        Mon, 09 Jan 2023 10:10:27 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1673287827; cv=none;
+        d=google.com; s=arc-20160816;
+        b=hk0ysWBl0NJc7woUfbN9ShTPEb4Vq291HmPON1idiF2JRDR8EsbeA+paHrkWTD2G4G
+         IM2rtSmB3nnwGrNrQjWe8m6D4vS9UklnEYazmrSbGqgloyMh9BiTGEcbS36qq9TCLOoT
+         HMAAE08N3QaaFYKIb31PtA7aOAnBWbPu88Y8Ry/5Otk6OWWRc8f69fMO9xN7QlprAoPU
+         gsibndSCMyGk22vmKMTNXsy6EGw3hyiBb+LJTJhSsZ7NQqbBbebJk32UqLex1tv6gHP6
+         Vsy2IHF41WU4rdIGEsgQRcJsUwCX8hE1pcE1HVFcxiJLiKbg2+l0c/aassDh7RZFlMNQ
+         LXOA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=RHM4dyz0fLkADO+a83CLnz2BkJs4RVht7GvFq3JazpU=;
+        b=rc29auLg4xdJHql3O52CuqjXwmOX2uHAZXEjNKcwN5+I3/MerB46Rzb9sr2xViFbFj
+         cRLORjwBzfdZKWh8mBAhl3XQjyuC1rCSrXQ/G/dH4KYJYbS67M3JEAtxW3DRTvk0T5X+
+         BSj8k1qd918dEPkx2U7a47yiTivfy/ccaK33BQXYCR4PcNCs+MjSdqVq5qJ4zNygN66y
+         b0Rz2YtYskSkXP4xUUeAdxheaq7rSNO9pjYrlMaFmTXD7Xn/napong3xF5Yln9WrwtRL
+         ke3HVdfLyA0rGA4GlrZekXYN6NcDb80FKAZZ/qTY5Myq4XgzAhZk7Vken2KQ0YoX0UVf
+         1AAQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=YagtY1yj;
+       spf=pass (google.com: domain of delivery_20230109130854.30196665.271518@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230109130854.30196665.271518@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230109130854.30196665.271518@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id a13-20020ab03c8d000000b0054bf671c8ccsi1409204uax.0.2023.01.09.10.10.27
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 09 Jan 2023 10:10:27 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230109130854.30196665.271518@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=e8DYJPLWiVmVDLE4SDwdmuHsmn0nIgYApTwENyNG2Ck=;
+ b=YagtY1yjENHU/nOREh0s7R9/ptlo7o4pX3hj7h/4PIdWfJs52bJzSAqDT9XIfK92roXyYHWavmLg
+   zdTxXApLPppBZYQooxUlIMuGpwzEVtA9v8Q8pBxyP9CjJFVRoU0gRYioMVCFJoq3XCgVSMNwIvS8
+   DpvE9bs1V1k7uRTT1XA=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by bloomberg-b.sailthru.com id hnhc9630nu8m for <bloomberg@khamel.com>; Mon, 9 Jan 2023 13:10:27 -0500 (envelope-from <delivery_20230109130854.30196665.271518@mx.sailthru.com>)
+Date: Mon, 9 Jan 2023 13:08:54 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230109130854.30196665.271518@sailthru.com>
+Subject: Money Stuff: SPAC Math No Longer Adds Up
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_197194039_1643278879.1673287734358"
+Precedence: bulk
+X-Feedback-ID: 6358:30196665:campaign:sailthru
+X-TM-ID: 20230109130854.30196665.271518
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetcarmine.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chz7w9.5ti6/2271554c
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chz7w9.5ti6/2271554c>, <mailto:unsubscribe_20230109130854.30196665.271518@mx.sailthru.com>
+X-rpcampaign: stjko30196665
+
+------=_Part_197194039_1643278879.1673287734358
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Simplifying a bit, the way a special purpose acquisition company wo=
+rks is that the sponsor of the SPAC raises a pot of money by selling shar
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      SPAC SPAC SPAC
+   =20
+ =20
+
+Simplifying a bit, the way a special purpose acquisition company works is t=
+hat the sponsor of the SPAC raises a pot of money by selling shares to publ=
+ic investors at $10 per share. Say the sponsor offers 20 million shares, so=
+ the pot of money has $200 million in it. Then she goes out and looks for a=
+ private target company to merge with to take it public. Say she finds a pr=
+ivate company that is worth $800 million. (The valuation of a private compa=
+ny will always be uncertain, but let=E2=80=99s assume for now that the valu=
+ation of=C2=A0this=C2=A0company is certain, and that it=E2=80=99s $800 mill=
+ion.) If the target company is worth $800 million, and the SPAC is just a p=
+ot of money with $200 million in it, then the combined company should be wo=
+rth $1 billion. So the sponsor and the target company negotiate a merger in=
+ which the existing shareholders of the target company get 80% of the share=
+s of the combined company ($800 million worth) and the SPAC shareholders ge=
+t 20% ($200 million worth). (The merger=C2=A0is sometimes called a =E2=80=
+=9Cde-SPAC merger.=E2=80=9D)=C2=A0The public investors in the SPAC, who put=
+ in $10 each, end up with publicly traded shares of the combined company wo=
+rth $10 each.=C2=A0
+If the SPAC sponsor doesn=E2=80=99t find a deal before, typically, the two-=
+year deadline put on the SPAC, she has to give her public shareholders thei=
+r $200 million back with interest. If she does find a deal, she has to put =
+it to a vote of the public shareholders; they can vote it down if they don=
+=E2=80=99t think it=E2=80=99s a good deal. Even if they vote in favor, they=
+ can=C2=A0redeem=C2=A0their stock: Instead of taking new shares in the comb=
+ined company, the SPAC shareholders can ask for their $10 back (with intere=
+st).=C2=A0
+That is the basic story, but it=C2=A0is too simplified, and=C2=A0in the rea=
+l world things won=E2=80=99t quite work this way. In the real world the val=
+uation of the private target company will be uncertain, and there will be a=
+ negotiation about how much of the combined company the SPAC=E2=80=99s shar=
+eholders should get. The SPAC sponsor might reasonably say: =E2=80=9CLook, =
+you are a risky private company, your valuation is uncertain, and I am=C2=
+=A0doing you a favor =E2=80=94=C2=A0I am providing a service =E2=80=94 by g=
+iving you publicly traded stock. You and I both think that you are probably=
+ worth $800 million, but I want a discount. Let=E2=80=99s do this deal as t=
+hough you were worth $600 million, so the SPAC shareholders get 25%=C2=A0of=
+ the company, instead of 20%.=E2=80=9D If the target company agrees, and if=
+ they=E2=80=99re right that the real=C2=A0value is $800 million, then the p=
+ublic investors will end up with 25% of a combined company worth $1 billion=
+. They put in $200 million and got back shares worth $250 million; each of =
+their public shares will be worth $12.50. And in fact at the peak of the 20=
+20-2021 SPAC boom, this happened a lot: SPACs would announce deals with pri=
+vate companies, and their shares would trade up, to $12.50 or higher, becau=
+se the SPACs were getting a good deal.
+  [1]
+
+Now, things could go the other way. In fact there was eventually a glut of =
+SPACs looking for deals, and the negotiating leverage flipped. The target c=
+ompany=E2=80=99s founder might reasonably say: =E2=80=9CLook, you are a SPA=
+C in a glut of SPACs, you need a deal, and I am=C2=A0doing you a favor=C2=
+=A0by giving you a target. You and I both think that I am worth $800 millio=
+n, but I want a premium. Let=E2=80=99s do this deal as though I was worth $=
+1 billion, so your SPAC shareholders get 16.7% of the company instead of 20=
+%.=E2=80=9D Then the SPAC=E2=80=99s public shareholders would get shares of=
+ the combined company worth $8.33.
+  [2]
+=C2=A0Except that if this happened =E2=80=94 if the SPAC agreed to do a dea=
+l at a value that everyone knew made the shares worth less than $10 =E2=80=
+=94=C2=A0the shareholders would just say no. They would vote to reject the =
+deal, or at least, they=E2=80=99d redeem their shares: Much better to get b=
+ack $10 with interest than keep shares worth $8.33. SPACs can do deals at a=
+ discount (if they can talk their targets into those deals!), but not at a =
+premium.
+Of course I am still oversimplifying. For one thing, I am still assuming th=
+at everyone basically knows the valuation of the private company: The SPAC =
+and the target might negotiate for a premium or discount, but the =E2=80=9C=
+real=E2=80=9D value is transparent to the market. That=E2=80=99s not really=
+ true, and it is not hard to find SPAC deals that traded up when they were =
+announced and eventually traded down as the real value of the company becam=
+e clearer. In reality it is not at all uncommon for SPAC shareholders to tr=
+ade their $10 for shares that ultimately turn out to be=C2=A0worth=C2=A0les=
+s than that. When that happens, the shareholders might, in hindsight, feel =
+like they were deceived. The SPAC sponsor announced the deal with great exc=
+itement, the shareholders believed it, they kept their shares, thinking tha=
+t they=E2=80=99d be worth way more than $10, and they turned out to be wort=
+h less.
+But I have also oversimplified by omitting some important structural elemen=
+ts of SPACs. In fact, when the SPAC sponsor raises $200 million at the very=
+ beginning of this process, she=C2=A0doesn=E2=80=99t=C2=A0do it just by sel=
+ling 20 million shares. She sells 20 million =E2=80=9Cunits,=E2=80=9D and e=
+ach unit consists of (1) one share and (2) some number of=C2=A0warrants, op=
+tions to buy another share at some higher price. (Generally the warrant exe=
+rcise price is $11.50, a 15% premium to the initial price of the stock, and=
+ each unit comes with a fraction of a warrant, often one-quarter or=C2=A0on=
+e-third.) After the SPAC goes public, the warrants and shares will trade se=
+parately. Ultimately, if the SPAC closes a deal, each=C2=A0share=C2=A0can b=
+e redeemed for $10 or roll over into a share of the combined company, but e=
+ach=C2=A0warrant=C2=A0can only roll over to become a warrant of the combine=
+d company. And if the SPAC does=C2=A0not=C2=A0close a deal, each=C2=A0share=
+=C2=A0can be redeemed for $10, but each warrant expires worthless.
+Also, when the SPAC sponsor raises $200 million at the beginning of the pro=
+cess, there are not just 20 million SPAC shares outstanding. In fact the SP=
+AC sponsor will generally give herself 20% ownership of the SPAC =E2=80=94 =
+5 million shares =E2=80=94=C2=A0for free as a reward for her efforts in set=
+ting it up and finding a deal.
+  [3]
+=C2=A0If she fails to find a deal, those shares are canceled: She has to re=
+turn $10 per share to the public shareholders, $200 million total, which us=
+es up all of the money in the pot, and there=E2=80=99s nothing left for her=
+. (In fact she will lose=C2=A0money, because she paid the SPAC=E2=80=99s st=
+artup costs, advisory fees etc. out of her own pocket.) But if she does fin=
+d a deal, her 5 million shares roll over into shares of the combined compan=
+y.
+(One more thing that I am omitting is that SPAC deals are traditionally don=
+e alongside PIPEs, private investments in public equity, where the sponsor =
+and/or some other big institutional investors put=C2=A0more money into the =
+combined company=C2=A0at $10 per share. I am going to continue omitting tha=
+t =E2=80=94=C2=A0and in fact as the SPAC glut got shakier PIPEs were=C2=A0n=
+ot universal =E2=80=94=C2=A0but if there is a PIPE it considerably softens =
+some of the criticisms in the rest of this story.)
+Now let=E2=80=99s go back to the simple math, but with these more realistic=
+ facts. The sponsor finds a private company worth $800 million, and they ag=
+ree to a merger on exact fair-value terms. The SPAC contributes $200 millio=
+n, the combined company is worth $1 billion, so the SPAC gets back 20% of t=
+he combined company, which is worth $200 million. But now the SPAC has to d=
+ivide up that value. There are=C2=A0not=C2=A020 million shares of the SPAC:=
+ There are 25 million, the 20 million public shares and the sponsor=E2=80=
+=99s 5 million free shares. Each of these shares is worth $8. The sponsor g=
+ets 5 million shares worth $40 million for free, but that $40 million comes=
+ directly out of the public shareholders=E2=80=99 ownership stake. They put=
+ in $10 and get back shares worth $8.
+Also there are the warrants. In this stylized example, where we know the st=
+ock is worth $8 and the warrants are worthless unless the stock gets to $11=
+.50, the warrants aren=E2=80=99t worth much. But in the real world, where s=
+tocks are volatile and value is uncertain, the warrants will have some valu=
+e, and that value will dilute the other holders of the combined company. Th=
+e target company might say: =E2=80=9COkay fine, we are worth $800 million, =
+you have $200 million, the combined company is worth $1 billion and we will=
+ give you 20% of that value. But that 20% has to be divided among your shar=
+es and your warrants; we are not going to give your=C2=A0shareholders=C2=A0=
+20% of the company and then also let your=C2=A0warrantholders=C2=A0exercise=
+ their warrants for another 20%.
+  [4]
+=C2=A0That would be unfair. We=E2=80=99ll give your shareholders, say, 16% =
+of the combined company=E2=80=99s stock, to reflect the fact that if things=
+ go well your warrantholders will get another big chunk of the stock.=E2=80=
+=9D (Don=E2=80=99t worry about the exact number =E2=80=94=C2=A0it will depe=
+nd on, basically, how valuable you think the warrants are, how close they a=
+re to being a share of stock =E2=80=94=C2=A0but the point is that you shoul=
+d attribute=C2=A0some=C2=A0value to the SPAC=E2=80=99s warrants, which will=
+ reduce the value that you attribute to its stock.)
+These things are problems. They suggest that if a SPAC ever agrees to a mer=
+ger at=C2=A0exactly fair value=C2=A0=E2=80=94=C2=A0where the SPAC puts in $=
+200 million and gets back exactly $200 million worth of the combined compan=
+y =E2=80=94=C2=A0then the SPAC=E2=80=99s=C2=A0public shareholders=C2=A0are =
+getting hosed. Their $10 investment turns into stock worth $8 at most, prob=
+ably $7 or less. Of course they can vote no on the deal, and/or redeem thei=
+r stock, and this math suggests that they always should, and that if they v=
+ote yes they are somehow confused or deceived.
+The simplest=C2=A0solution here is for the SPAC to negotiate such a good de=
+al =E2=80=94=C2=A0and for the combined company to perform so well =E2=80=94=
+=C2=A0that the shares are worth $12 anyway. Like, if the SPAC contributes $=
+200 million and gets back $400 million worth of value, that=E2=80=99s plent=
+y to make sure that the sponsor gets her free shares, the warrantholders ge=
+t their warrants, and the public shareholders get shares worth more than $1=
+0. In the peak days of SPAC enthusiasm, that kind of worked, through some c=
+ombination of:
+=09SPACs seemed like an attractive way to go public, so private companies=
+=C2=A0were=C2=A0willing to merge with them at=C2=A0discounts;=09you needed =
+a PIPE deal alongside the SPAC, so if a deal was going to get=C2=A0done the=
+n target companies had to agree on a valuation that made the common shares =
+worth $10
+  [5]
+;=09the market was going up generally;=09SPAC shareholders were particularl=
+y enthusiastic, so they kept bidding up de-SPAC mergers; and=09possibly peo=
+ple did not understand this stuff very clearly?
+
+But over time, as the market stopped rising, SPACs became better understood=
+, and a glut of SPACs pursued a smaller universe of good deals, these thing=
+s became real problems. The deep problem with a SPAC is that the SPAC=E2=80=
+=99s sponsor takes out 20% of the value of the money that she raises, and t=
+he warrantholders get a cut too, and=C2=A0somebody needs to pay them that c=
+ut. Either the target company pays it (by giving up more of the company for=
+ the SPAC proceeds), or the public SPAC shareholders pay it=C2=A0(by gettin=
+g shares worth $7 for their $10 investment). Somebody is getting a bad deal=
+.
+The argument above is loosely based on a well-known=C2=A02020 paper called =
+=E2=80=9CA Sober Look at SPACs,=E2=80=9D by Michael Klausner, Michael Ohlro=
+gge and Emily Ruan. From the abstract:
+We find that costs embedded in the SPAC structure are subtle, opaque, highe=
+r than has been previously recognized, and higher than the cost of an IPO. =
+Although SPACs raise $10.00 per share from investors in their IPOs, by the =
+time a SPAC merges with a private company to take it public, the SPAC holds=
+ far less in net cash per share to contribute to the combined company. For =
+SPACs that merged during our primary sample period of January 2019 through =
+June 2020, mean and median net cash per share were $4.10 and $5.70, respect=
+ively. Between June 2020 and November 2021, net cash per share was somewhat=
+ higher but far below $10. We find that SPAC costs are not born by the comp=
+anies they take public, but instead by the SPAC shareholders who hold share=
+s at the time SPACs merge. These investors experience steep post-merger los=
+ses, while SPAC sponsors profit handsomely.=C2=A0
+Intuitively, if the =E2=80=9Cnet cash per share=E2=80=9D =E2=80=94=C2=A0tha=
+t is, the money=C2=A0that the SPAC has in its pot, divided by the=C2=A0real=
+=C2=A0number of shares including free sponsor shares and warrants =E2=80=94=
+=C2=A0is $5.70, then either target companies are getting a bad deal (giving=
+ up $10 of value for $5.70 of cash), or public SPAC shareholders are gettin=
+g a bad deal (getting $5.70 of value for $10 of cash). And Klausner et al. =
+find that it=E2=80=99s mostly the shareholders getting the bad deal. Their =
+article =E2=80=9Cconcludes by suggesting that the SEC promulgate disclosure=
+ requirements specific to SPAC mergers that make clear SPACs=E2=80=99=C2=A0=
+costs and sponsors=E2=80=99 incentives.=E2=80=9D
+But that=E2=80=99s just an academic paper. Putting his money where his mout=
+h is, though, Klausner went out to sue some SPACs, and   last week he won a=
+ round:
+
+A court ruling Wednesday bolstered research that argues the true worth of b=
+lank-check company mergers is often far below the typical $10-a-share valua=
+tion.
+The Delaware Chancery Court ruling found that the GigCapital3 Inc. special =
+purpose acquisition company must face claims that public shareholders were =
+denied crucial information, including how much money shares were worth in t=
+he purchase of an electric vehicle manufacturer.
+The GigCapital3 SPAC shareholders couldn=E2=80=99t make an informed decisio=
+n on whether to cash out shares or participate in its purchase of Lightning=
+ eMotors, court Vice Chancellor Lori Will ruled. =E2=80=A6
+Stanford Law Professor Michael Klausner developed a financial model that ar=
+gues the true value of SPAC shares are much lower than $10-a-share. He brou=
+ght the court case in August 2021 against GigCapital3 alongside lawyers fro=
+m Grant & Eisenhofer. The suit was a rare move for a self-described =E2=80=
+=9Cobscure academic.=E2=80=9D
+In the Gig3 case, the sponsor=E2=80=99s initial $25,000 investment had an i=
+mplied market value at the time of the merger worth $39 million=E2=80=94a 1=
+55,900% return, Klausner argued. Sponsors only earn those returns when a de=
+al is completed.
+Will=E2=80=99s ruling accepted Klausner=E2=80=99s calculations. Part of the=
+ information GigCapital3 shareholders didn=E2=80=99t receive was that the s=
+hares the SPAC used to purchase Lightning eMotors were worth around $5.25 p=
+er share=E2=80=94not $10, according to Will.
+=E2=80=9CIf Gig3 had less than $6 per share to contribute to the merger, th=
+e proxy=E2=80=99s statement that Gig3 shares were worth $10 each was false=
+=E2=80=94or at least materially misleading,=E2=80=9D she wrote. =E2=80=9CMo=
+reover, Gig3 stockholders could not logically expect to receive $10 per sha=
+re of value in exchange.=E2=80=9D
+
+Here is  the opinion. The merger closed in May 2021, when about 71% of Gig3=
+=E2=80=99s public shareholders agreed to exchange their shares for shares i=
+n the newly public Lightning instead of redeeming at $10 per share. The sto=
+ck closed at $0.5161 on Friday. Shareholders who did not redeem =E2=80=94=
+=C2=A0who effectively traded $10 for shares worth $0.5161 =E2=80=94=C2=A0su=
+ed, claiming that Gig3=E2=80=99s sponsors did the deal not because it was g=
+ood for their=C2=A0shareholders (it turned out not to be) but because it go=
+t the sponsors $39 million of free stock.=C2=A0Gig3/Lightning tried to have=
+ the lawsuit dismissed, but the Chancery Court let it go ahead.=C2=A0
+There are some bad facts =E2=80=94=C2=A0Gig3 tried to do a $100+ million PI=
+PE deal to raise more money and validate the price it was paying, but ultim=
+ately raised only $25 million from a big existing Lighting shareholder, so =
+it ended up selling convertible notes at pretty onerous terms; the prospect=
+us for the merger had optimistic financial projections that mostly didn=E2=
+=80=99t work out =E2=80=94=C2=A0but mostly the problems here are the proble=
+ms of any SPAC. In any SPAC, the sponsor has incentives to do a deal, any d=
+eal, since she gets millions of dollars of free stock if a deal closes and =
+loses the startup costs of the SPAC if it doesn=E2=80=99t. And in any SPAC,=
+ the SPAC=E2=80=99s pot of cash is not=C2=A0really=C2=A0worth $10 per share=
+ =E2=80=94=C2=A0it=E2=80=99s worth $8 per share or less =E2=80=94=C2=A0so i=
+t is hard for the sponsor to find a deal worth $10 per share or more.=C2=A0
+Everything that I wrote above is =E2=80=A6=C2=A0correct? =E2=80=A6=C2=A0and=
+ =E2=80=A6=C2=A0intuitive? =E2=80=9CIf Gig3 had less than $6 per share to c=
+ontribute to the merger,=E2=80=9D then =E2=80=9CGig3 stockholders could not=
+ logically expect to receive $10 per share of value in exchange.=E2=80=9D B=
+ut that=E2=80=99s just=C2=A0logic.=C2=A0There is some practical sense in wh=
+ich, in like 2020, the answer was pretty much =E2=80=9Cehhh there is enough=
+ value to go around here, it=E2=80=99s fine, everything goes up, don=E2=80=
+=99t worry about how much the sponsor is getting paid or who=E2=80=99s payi=
+ng them.=E2=80=9D Now things are tighter, and there is reason to worry.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Elsewhere in conflicts
+   =20
+ =20
+
+As part of a   broad restructuring, Credit Suisse Group AG has announced th=
+at it will spin out its investment banking business into a separate company=
+, which will revive the old First Boston name. New First Boston will be own=
+ed partly by Credit Suisse, partly by outside investors=C2=A0and partly by =
+its employees. To spin off First Boston, Credit Suisse needed to give it a =
+chief executive officer, and it chose Michael Klein for the job. Klein is a=
+ former Citigroup Inc. banker who was also on Credit Suisse=E2=80=99s super=
+visory board. There is an obvious conflict of interest there: Credit Suisse=
+=E2=80=99s board decided on a strategy that involved handing ownership of i=
+ts banking business over to the employees of that business, and one member =
+of that board was also appointed to run =E2=80=94=C2=A0and, thus,=C2=A0own=
+=C2=A0=E2=80=94 that business. Bloomberg=E2=80=99s Dinesh Nair, Sridhar Nat=
+arajan and Eyk Henning   note:
+
+The Swiss bank already faced questions when Klein, a member of the board co=
+mmittee that decided to carve out CS First Boston, was appointed to run it.=
+ The firm=E2=80=99s chairman has said Klein abstained from some votes on th=
+e topic.
+Klein stepped down from Credit Suisse=E2=80=99s supervisory board to become=
+ CEO designate of CS First Boston as part of the bank=E2=80=99s major strat=
+egic revamp in October.
+
+But it=E2=80=99s even more complicated than that because Klein=C2=A0already=
+=C2=A0runs, and owns, an investment bank. It is called M. Klein & Co., so y=
+ou can hardly expect him to quit. (Actually his brother Mark is also an exe=
+cutive there, so even if Michael Klein left, it could still accurately be c=
+alled M. Klein & Co.) So the solution is for Credit Suisse to buy Klein=E2=
+=80=99s firm and combine it with First Boston. Nair, Natarajan and Henning:
+
+Credit Suisse Group AG is close to an agreement to buy Michael Klein=E2=80=
+=99s advisory boutique after several rounds of tense negotiations, accordin=
+g to people briefed on the talks.
+As part of the expected agreement that=E2=80=99s been hashed out in recent =
+days, the bank will value the firm founded by the incoming head of its Firs=
+t Boston spinout at around a few hundred million dollars, said the people, =
+who asked not to be identified as talks are private. The Swiss firm engaged=
+ Deutsche Bank AG to provide a fairness opinion, two of the people said. =
+=E2=80=A6
+The deal is expected to allow M. Klein & Co. shareholders to take an eventu=
+al stake in First Boston using proceeds from the sale, the people said. Kle=
+in and top executives at the Swiss bank clashed in recent weeks over issues=
+ including the value of the boutique, with the two sides at one point hundr=
+eds of millions of dollars apart on its value, the people said. =E2=80=A6
+Mark Klein, Michael=E2=80=99s brother and an executive and stakeholder at M=
+. Klein & Co., is likely to join First Boston as part of the deal, the peop=
+le said, which could raise further questions about corporate governance.=C2=
+=A0
+
+I=E2=80=99m sure it=E2=80=99s fine, there=E2=80=99s a fairness opinion, and=
+ it=E2=80=99s not like I have better ideas. I can see why Credit Suisse wan=
+ts to retreat from investment banking, why it wants to get some value from =
+this business=C2=A0and why it thinks Klein is the best person to do it.=C2=
+=A0But =E2=80=A6 what is the good way for this to go? If First Boston ends =
+up being a massive success with a $100 billion valuation, then in hindsight=
+ this deal is going to look like =E2=80=9Cthe board of Credit Suisse voted =
+to take=C2=A0a $100 billion business from shareholders and give it to one b=
+oard member, plus his brother.=E2=80=9D If First Boston ends up being a fai=
+lure, it is going to look like =E2=80=9CCredit Suisse took a perfectly good=
+ business and handed it over to one of its board members, plus his brother,=
+ who broke it.=E2=80=9D If you are a high-powered investment banker you are=
+ in some=C2=A0sense in the=C2=A0business=C2=A0of managing conflicts of inte=
+rest =E2=80=94=C2=A0your job is to be friends with everybody who matters, a=
+nd any time you represent a seller you will be thinking a little bit about =
+how you can win future business from the buyer =E2=80=94=C2=A0but this one =
+seems particularly tough.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Everything is securities fraud
+   =20
+ =20
+
+If the chief executive officer of a public company exercises poor judgment =
+and engages in an inappropriate personal relationship with an employee, is =
+that securities fraud? You know my rule: Every bad thing that a public comp=
+any does is also securities fraud, this is a bad thing, therefore this is s=
+ecurities fraud. Here=E2=80=99s the=C2=A0US Securities and Exchange Commiss=
+ion  enforcement action:
+
+The Securities and Exchange Commission today charged Stephen J. Easterbrook=
+, former CEO of McDonald=E2=80=99s Corporation, with making false and misle=
+ading statements to investors about the circumstances leading to his termin=
+ation in November 2019. McDonald=E2=80=99s also was charged for shortcoming=
+s in its public disclosures related to Easterbrook=E2=80=99s separation agr=
+eement.
+According to the SEC=E2=80=99s order, McDonald=E2=80=99s terminated Easterb=
+rook for exercising poor judgment and engaging in an inappropriate personal=
+ relationship with a McDonald=E2=80=99s employee in violation of company po=
+licy. However, McDonald=E2=80=99s and Easterbrook entered into a separation=
+ agreement that concluded his termination was without cause, which allowed =
+him to retain substantial equity compensation that otherwise would have bee=
+n forfeited. In making this conclusion, McDonald=E2=80=99s exercised discre=
+tion that was not disclosed to investors.
+Subsequently, in July 2020, McDonald=E2=80=99s discovered through an intern=
+al investigation that Easterbrook had engaged in other undisclosed, imprope=
+r relationships with additional McDonald=E2=80=99s employees. According to =
+the SEC=E2=80=99s order, Easterbrook knew or was reckless in not knowing th=
+at his failure to disclose these additional violations of company policy pr=
+ior to his termination would influence McDonald=E2=80=99s disclosures to in=
+vestors related to his departure and compensation.
+"When corporate officers corrupt internal processes to manage their persona=
+l reputations or line their own pockets, they breach their fundamental duti=
+es to shareholders, who are entitled to transparency and fair dealing from =
+executives," said Gurbir S. Grewal, Director of the Division of Enforcement=
+. "By allegedly concealing the extent of his misconduct during the company=
+=E2=80=99s internal investigation, Easterbrook broke that trust with =E2=80=
+=93 and ultimately misled =E2=80=93 shareholders."
+
+The general form of =E2=80=9Ceverything is securities fraud=E2=80=9D is:
+=09The company, or one of its executives, does a bad thing;=C2=A0=09The com=
+pany does not simultaneously disclose the bad thing=C2=A0to shareholders (b=
+ecause it is shameful, etc.);=09Eventually the bad thing comes out and the =
+stock drops;=09The shareholders can say they were defrauded: They paid more=
+ for the stock than they would have if they had known about the bad thing.
+
+When I write about this, sometimes I get complaints from securities lawyers=
+ who say =E2=80=9Cno, securities fraud doesn=E2=80=99t work that way: You a=
+re not required to disclose=C2=A0everything immediately, and it is only sec=
+urities fraud if the company puts out some misleading disclosure. Just not =
+mentioning a bad thing is not fraud.=E2=80=9D
+  [6]
+=C2=A0And so in fact the technical game of =E2=80=9Ceverything is securitie=
+s fraud=E2=80=9D is that you have to find something that the company=C2=A0d=
+id=C2=A0say that turns out not to be true in light of the bad thing. A clas=
+sic that we have   discussed a   few times is that, if a company has a publ=
+ic code of ethics saying =E2=80=9Cour executives are not allowed to do bad =
+stuff,=E2=80=9D and they do bad stuff, then you sue the company because its=
+ code of ethics is misleading. Or if the company has a   risk factor that s=
+ays =E2=80=9Cbad stuff might happen and that would be bad,=E2=80=9D and the=
+ bad stuff has already=C2=A0happened, then that risk factor is misleading.
+Or, here, if the company fires an executive for having an intra-office affa=
+ir, and it puts out a press release saying that he =E2=80=9Cseparated from =
+the Company following the Board=E2=80=99s determination that he violated co=
+mpany policy and demonstrated poor judgment involving a recent consensual r=
+elationship with an employee,=E2=80=9D but it doesn=E2=80=99t say that he h=
+ad=C2=A0several=C2=A0consensual relationships with employees, well, I guess=
+ that use of the singular is misleading?=C2=A0
+
+ =20
+   =20
+      Sorry JPMorgan!
+   =20
+ =20
+
+At FT Alphaville,  Bryce Elder reports that JPMorgan Chase & Co.=C2=A0 is b=
+uilding a computer program to tell you what=E2=80=99s in the news, =E2=80=
+=9Cto help investors with their allocation decisions by tracking the evolut=
+ion of themes over time.=E2=80=9D Apparently their previous efforts failed =
+because of, um, me:
+This is JPMorgan=E2=80=99s second attempt at getting a computer to read the=
+ news. Its first go struggled because =E2=80=9Csome of our detected themes =
+were being driven by only one or two sources=E2=80=9D, it said. =E2=80=9CTh=
+e problem is exacerbated if a source publishes its entire output on just on=
+e theme at great volume.=E2=80=9D (Cf, its first dataset ran to November 15=
+ and Bloomberg Businessweek published The Crypto Story on October 25.)
+Oops! Sorry. I hope you did not use this signal to get extremely long crypt=
+o on Oct. 25. I periodically remind my readers that nothing in this column =
+is ever legal or investing advice, but I should emphasize that anything tha=
+t your computer algorithm=C2=A0manages to pull out of this column is partic=
+ularly not legal or investing advice. Sometimes it=E2=80=99s jokes! What is=
+ your computer gonna do with that?
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+ Goldman to Cut About 3,200 Jobs This Week After Cost Review. HSBC Sends   =
+Recruitment Emails to Rival Bankers Facing Cuts. The Murdoch  family trust:=
+ how the scions could battle for control. Jack Ma  Cedes Control of Fintech=
+ Giant Ant Group. Crypto Empire   DCG Faces US Investigation Over Internal =
+Transfers. Celsius founder  Mashinsky sued for fraud by New York attorney-g=
+eneral. Why  Gemini Kept Pushing Risky Accounts as Crypto Market Tumbled. F=
+TX Reaches   Bankruptcy Cooperation Deal With Bahamas Liquidators. FTX Seek=
+s to  Recoup Sam Bankman-Fried=E2=80=99s Charitable Donations. =E2=80=98Spe=
+ctacular=E2=80=99   Trading Drop Plagues Still-Reeling Crypto Market. Broth=
+er of Criminal Bitcoin Mixing CEO Pleads Guilty to  Stealing 712 Bitcoins F=
+rom IRS. Companies Face Rising Pressure to Offer   ESG Retirement Options. =
+Deere to Allow Farmers to  Repair Their Own Equipment. Silicon Valley=C2=A0=
+horse therapy.=C2=A0Silicon Valley Can=E2=80=99t Quit Its   Pizza Robot Obs=
+ession.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Or at least, because their investors thought they were. Often these d=
+eals ended up trading poorly in the long run.
+
+
+  [2] That is, the combined company is really worth $1 billion, they get 16=
+.7%, so their $200 million investment turns into $167 million of stock, or =
+$8.33 for each $10 share.
+
+
+  [3] Generally she pays some startup costs and might buy these shares for =
+a nominal amount, but =E2=80=9Cfor free=E2=80=9D is the right intuition.
+
+
+  [4] The math doesn=E2=80=99t quite work that way =E2=80=94 warrant exerci=
+se increases both the numerator and the denominator =E2=80=94 but you know =
+what I mean.
+
+
+  [5] Also the PIPE would generally be just common equity at $10 per share,=
+ which reduced the dilutive impact of the SPAC structural stuff. If you rai=
+sed $200 million from a SPAC and $300 million from a PIPE, the sponsor=E2=
+=80=99s 5 million free SPAC shares represent only 10% of the total value in=
+stead of 25%.
+
+
+  [6] The  actual rule, in the US, is that it is fraud, =E2=80=9Cin connect=
+ion with the purchase or sale of any security,=E2=80=9D =E2=80=9Cto make an=
+y untrue statement of a material fact or to omit to state a material fact n=
+ecessary in order to make the statements made, in the light of the circumst=
+ances under which they were made, not misleading.=E2=80=9D
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chz7w9.5ti6/7c47d1e7.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_197194039_1643278879.1673287734358
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Simplifying a bit, the way a special purpose acquisition company works is t=
+hat the sponsor of the SPAC raises a pot of money by selling shar
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDE5NjY2NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0NjgxODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB4e955680" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30196665&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTA5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMDkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB54f577d1"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDE5NjY2NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0NjgxODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC7b6d0126" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30196665&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SPAC SPAC SPAC</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Simplifying a bit, the way a special purpose a=
+cquisition company works is that the sponsor of the SPAC raises a pot of mo=
+ney by selling shares to public investors at $10 per share. Say the sponsor=
+ offers 20 million shares, so the pot of money has $200 million in it. Then=
+ she goes out and looks for a private target company to merge with to take =
+it public. Say she finds a private company that is worth $800 million. (The=
+ valuation of a private company will always be uncertain, but let=E2=80=99s=
+ assume for now that the valuation of=C2=A0<em>this=C2=A0</em>company is ce=
+rtain, and that it=E2=80=99s $800 million.) If the target company is worth =
+$800 million, and the SPAC is just a pot of money with $200 million in it, =
+then the combined company should be worth $1 billion. So the sponsor and th=
+e target company negotiate a merger in which the existing shareholders of t=
+he target company get 80% of the shares of the combined company ($800 milli=
+on worth) and the SPAC shareholders get 20% ($200 million worth). (The merg=
+er=C2=A0is sometimes called a =E2=80=9Cde-SPAC merger.=E2=80=9D)=C2=A0The p=
+ublic investors in the SPAC, who put in $10 each, end up with publicly trad=
+ed shares of the combined company worth $10 each.=C2=A0</p>
+<p style=3D"margin: 16px 0;">If the SPAC sponsor doesn=E2=80=99t find a dea=
+l before, typically, the two-year deadline put on the SPAC, she has to give=
+ her public shareholders their $200 million back with interest. If she does=
+ find a deal, she has to put it to a vote of the public shareholders; they =
+can vote it down if they don=E2=80=99t think it=E2=80=99s a good deal. Even=
+ if they vote in favor, they can=C2=A0<em>redeem=C2=A0</em>their stock: Ins=
+tead of taking new shares in the combined company, the SPAC shareholders ca=
+n ask for <em>their </em>$10 back (with interest).=C2=A0</p>
+<p style=3D"margin: 16px 0;">That is the basic story, but it=C2=A0is too si=
+mplified, and=C2=A0in the real world things won=E2=80=99t quite work this w=
+ay. In the real world the valuation of the private target company will be u=
+ncertain, and there will be a negotiation about how much of the combined co=
+mpany the SPAC=E2=80=99s shareholders should get. The SPAC sponsor might re=
+asonably say: =E2=80=9CLook, you are a risky private company, your valuatio=
+n is uncertain, and I am=C2=A0doing you a favor =E2=80=94=C2=A0I am providi=
+ng a service =E2=80=94 by giving you publicly traded stock. You and I both =
+think that you are probably worth $800 million, but I want a discount. Let=
+=E2=80=99s do this deal <em>as though</em> you were worth $600 million, so =
+the SPAC shareholders get 25%=C2=A0of the company, instead of 20%.=E2=80=9D=
+ If the target company agrees, and if they=E2=80=99re right that the <em>re=
+al=C2=A0</em>value is $800 million, then the public investors will end up w=
+ith 25% of a combined company worth $1 billion. They put in $200 million an=
+d got back shares worth $250 million; each of their public shares will be w=
+orth $12.50. And in fact at the peak of the 2020-2021 SPAC boom, this happe=
+ned a lot: SPACs would announce deals with private companies, and their sha=
+res would trade up, to $12.50 or higher, because the SPACs were getting a g=
+ood deal.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: none !important; background-col=
+or: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Now, things could go the other way. In fact th=
+ere was eventually a glut of SPACs looking for deals, and the negotiating l=
+everage flipped. The target company=E2=80=99s founder might reasonably say:=
+ =E2=80=9CLook, you are a SPAC in a glut of SPACs, you need a deal, and I a=
+m=C2=A0doing<em> you </em>a favor=C2=A0by giving you a target. You and I bo=
+th think that I am worth $800 million, but I want a premium. Let=E2=80=99s =
+do this deal as though I was worth $1 billion, so your SPAC shareholders ge=
+t 16.7% of the company instead of 20%.=E2=80=9D Then the SPAC=E2=80=99s pub=
+lic shareholders would get shares of the combined company worth $8.33.<a cl=
+ass=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: none !important; background-color: transparen=
+t !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0Except that if this happened =E2=80=94 if the SPAC agreed to do a=
+ deal at a value that everyone knew made the shares worth less than $10 =E2=
+=80=94=C2=A0the shareholders would just say no. They would vote to reject t=
+he deal, or at least, they=E2=80=99d redeem their shares: Much better to ge=
+t back $10 with interest than keep shares worth $8.33. SPACs can do deals a=
+t a discount (if they can talk their targets into those deals!), but not at=
+ a premium.</p>
+<p style=3D"margin: 16px 0;">Of course I am still oversimplifying. For one =
+thing, I am still assuming that everyone basically knows the valuation of t=
+he private company: The SPAC and the target might negotiate for a premium o=
+r discount, but the =E2=80=9Creal=E2=80=9D value is transparent to the mark=
+et. That=E2=80=99s not really true, and it is not hard to find SPAC deals t=
+hat traded up when they were announced and eventually traded down as the re=
+al value of the company became clearer. In reality it is not at all uncommo=
+n for SPAC shareholders to trade their $10 for shares that ultimately turn =
+out to be=C2=A0worth=C2=A0less than that. When that happens, the shareholde=
+rs might, in hindsight, feel like they were deceived. The SPAC sponsor anno=
+unced the deal with great excitement, the shareholders believed it, they ke=
+pt their shares, thinking that they=E2=80=99d be worth way more than $10, a=
+nd they turned out to be worth less.</p>
+<p style=3D"margin: 16px 0;">But I have also oversimplified by omitting som=
+e important structural elements of SPACs. In fact, when the SPAC sponsor ra=
+ises $200 million at the very beginning of this process, she=C2=A0<em>doesn=
+=E2=80=99t=C2=A0</em>do it just by selling 20 million shares. She sells 20 =
+million =E2=80=9Cunits,=E2=80=9D and each unit consists of (1) one share an=
+d (2) some number of=C2=A0<em>warrants</em>, options to buy another share a=
+t some higher price. (Generally the warrant exercise price is $11.50, a 15%=
+ premium to the initial price of the stock, and each unit comes with a frac=
+tion of a warrant, often one-quarter or=C2=A0one-third.) After the SPAC goe=
+s public, the warrants and shares will trade separately. Ultimately, if the=
+ SPAC closes a deal, each=C2=A0<em>share=C2=A0</em>can be redeemed for $10 =
+or roll over into a share of the combined company, but each=C2=A0<em>warran=
+t=C2=A0</em>can only roll over to become a warrant of the combined company.=
+ And if the SPAC does=C2=A0<em>not=C2=A0</em>close a deal, each=C2=A0<em>sh=
+are=C2=A0</em>can be redeemed for $10, but each warrant expires worthless.<=
+/p>
+<p style=3D"margin: 16px 0;">Also, when the SPAC sponsor raises $200 millio=
+n at the beginning of the process, there are not just 20 million SPAC share=
+s outstanding. In fact the SPAC sponsor will generally give herself 20% own=
+ership of the SPAC =E2=80=94 5 million shares =E2=80=94=C2=A0for free as a =
+reward for her efforts in setting it up and finding a deal.<a class=3D"foot=
+note-index" href=3D"#footnote-3" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: none !important; background-color: transparent !importan=
+t; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0If she fails to find a deal, those shares are canceled: She has t=
+o return $10 per share to the public shareholders, $200 million total, whic=
+h uses up all of the money in the pot, and there=E2=80=99s nothing left for=
+ her. (In fact she will <em>lose=C2=A0</em>money, because she paid the SPAC=
+=E2=80=99s startup costs, advisory fees etc. out of her own pocket.) But if=
+ she does find a deal, her 5 million shares roll over into shares of the co=
+mbined company.</p>
+<p style=3D"margin: 16px 0;">(One more thing that I am omitting is that SPA=
+C deals are traditionally done alongside PIPEs, private investments in publ=
+ic equity, where the sponsor and/or some other big institutional investors =
+put=C2=A0more money into the combined company=C2=A0at $10 per share. I am g=
+oing to continue omitting that =E2=80=94=C2=A0and in fact as the SPAC glut =
+got shakier PIPEs were=C2=A0not universal =E2=80=94=C2=A0but if there is a =
+PIPE it considerably softens some of the criticisms in the rest of this sto=
+ry.)</p>
+<p style=3D"margin: 16px 0;">Now let=E2=80=99s go back to the simple math, =
+but with these more realistic facts. The sponsor finds a private company wo=
+rth $800 million, and they agree to a merger on exact fair-value terms. The=
+ SPAC contributes $200 million, the combined company is worth $1 billion, s=
+o the SPAC gets back 20% of the combined company, which is worth $200 milli=
+on. But now the SPAC has to divide up that value. There are=C2=A0<em>not=C2=
+=A0</em>20 million shares of the SPAC: There are 25 million, the 20 million=
+ public shares and the sponsor=E2=80=99s 5 million free shares. Each of the=
+se shares is worth $8. The sponsor gets 5 million shares worth $40 million =
+for free, but that $40 million comes directly out of the public shareholder=
+s=E2=80=99 ownership stake. They put in $10 and get back shares worth $8.</=
+p>
+<p style=3D"margin: 16px 0;">Also there are the warrants. In this stylized =
+example, where we know the stock is worth $8 and the warrants are worthless=
+ unless the stock gets to $11.50, the warrants aren=E2=80=99t worth much. B=
+ut in the real world, where stocks are volatile and value is uncertain, the=
+ warrants will have some value, and that value will dilute the other holder=
+s of the combined company. The target company might say: =E2=80=9COkay fine=
+, we are worth $800 million, you have $200 million, the combined company is=
+ worth $1 billion and we will give you 20% of that value. But that 20% has =
+to be divided among your shares and your warrants; we are not going to give=
+ your=C2=A0<em>shareholders=C2=A0</em>20% of the company and then also let =
+your=C2=A0<em>warrantholders=C2=A0</em>exercise their warrants for another =
+20%.<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: none !important; background-color: t=
+ransparent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0That would be unfair. We=E2=80=99ll give your shareholders, say, =
+16% of the combined company=E2=80=99s stock, to reflect the fact that if th=
+ings go well your warrantholders will get another big chunk of the stock.=
+=E2=80=9D (Don=E2=80=99t worry about the exact number =E2=80=94=C2=A0it wil=
+l depend on, basically, how valuable you think the warrants are, how close =
+they are to being a share of stock =E2=80=94=C2=A0but the point is that you=
+ should attribute=C2=A0<em>some=C2=A0</em>value to the SPAC=E2=80=99s warra=
+nts, which will reduce the value that you attribute to its stock.)</p>
+<p style=3D"margin: 16px 0;">These things are problems. They suggest that i=
+f a SPAC ever agrees to a merger at=C2=A0<em>exactly fair value=C2=A0</em>=
+=E2=80=94=C2=A0where the SPAC puts in $200 million and gets back exactly $2=
+00 million worth of the combined company =E2=80=94=C2=A0then the SPAC=E2=80=
+=99s=C2=A0<em>public shareholders=C2=A0</em>are getting hosed. Their $10 in=
+vestment turns into stock worth $8 at most, probably $7 or less. Of course =
+they can vote no on the deal, and/or redeem their stock, and this math sugg=
+ests that they always should, and that if they vote yes they are somehow co=
+nfused or deceived.</p>
+<p style=3D"margin: 16px 0;">The simplest=C2=A0solution here is for the SPA=
+C to negotiate such a good deal =E2=80=94=C2=A0and for the combined company=
+ to perform so well =E2=80=94=C2=A0that the shares are worth $12 anyway. Li=
+ke, if the SPAC contributes $200 million and gets back $400 million worth o=
+f value, that=E2=80=99s plenty to make sure that the sponsor gets her free =
+shares, the warrantholders get their warrants, and the public shareholders =
+get shares worth more than $10. In the peak days of SPAC enthusiasm, that k=
+ind of worked, through some combination of:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">SPACs seemed like an attractive way to=
+ go public, so private companies=C2=A0<em>were=C2=A0</em>willing to merge w=
+ith them at=C2=A0discounts;</li>=09<li style=3D"margin-bottom: 5px;">you ne=
+eded a PIPE deal alongside the SPAC, so if a deal was going to get=C2=A0don=
+e then target companies had to agree on a valuation that made the common sh=
+ares worth $10<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: none !important; backgroun=
+d-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a>;</li>=09<li style=3D"margin-bottom: 5px;">the market was going up gene=
+rally;</li>=09<li style=3D"margin-bottom: 5px;">SPAC shareholders were part=
+icularly enthusiastic, so they kept bidding up de-SPAC mergers; and</li>=09=
+<li style=3D"margin-bottom: 5px;">possibly people did not understand this s=
+tuff very clearly?</li>
+</ul>
+<p style=3D"margin: 16px 0;">But over time, as the market stopped rising, S=
+PACs became better understood, and a glut of SPACs pursued a smaller univer=
+se of good deals, these things became real problems. The deep problem with =
+a SPAC is that the SPAC=E2=80=99s sponsor takes out 20% of the value of the=
+ money that she raises, and the warrantholders get a cut too, and=C2=A0<em>=
+somebody needs to pay them that cut</em>. Either the target company pays it=
+ (by giving up more of the company for the SPAC proceeds), or the public SP=
+AC shareholders pay it=C2=A0(by getting shares worth $7 for their $10 inves=
+tment). Somebody is getting a bad deal.</p>
+<p style=3D"margin: 16px 0;">The argument above is loosely based on a well-=
+known=C2=A02020 paper called =E2=80=9C<a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/30196665.271518/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9=
+wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTM3MjA5MTk/607f07ceef4b8524a319a23cB7299ec73"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">A Sober Look at SPACs</a>,=E2=80=9D by Michael Klausner, Michael O=
+hlrogge and Emily Ruan. From the abstract:</p>
+<blockquote><p style=3D"margin: 16px 0;">We find that costs embedded in the=
+ SPAC structure are subtle, opaque, higher than has been previously recogni=
+zed, and higher than the cost of an IPO. Although SPACs raise $10.00 per sh=
+are from investors in their IPOs, by the time a SPAC merges with a private =
+company to take it public, the SPAC holds far less in net cash per share to=
+ contribute to the combined company. For SPACs that merged during our prima=
+ry sample period of January 2019 through June 2020, mean and median net cas=
+h per share were $4.10 and $5.70, respectively. Between June 2020 and Novem=
+ber 2021, net cash per share was somewhat higher but far below $10. We find=
+ that SPAC costs are not born by the companies they take public, but instea=
+d by the SPAC shareholders who hold shares at the time SPACs merge. These i=
+nvestors experience steep post-merger losses, while SPAC sponsors profit ha=
+ndsomely.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">Intuitively, if the =E2=80=9Cnet cash per shar=
+e=E2=80=9D =E2=80=94=C2=A0that is, the money=C2=A0that the SPAC has in its =
+pot, divided by the=C2=A0<em>real=C2=A0</em>number of shares including free=
+ sponsor shares and warrants =E2=80=94=C2=A0is $5.70, then either target co=
+mpanies are getting a bad deal (giving up $10 of value for $5.70 of cash), =
+or public SPAC shareholders are getting a bad deal (getting $5.70 of value =
+for $10 of cash). And Klausner et al. find that it=E2=80=99s mostly the sha=
+reholders getting the bad deal. Their article =E2=80=9Cconcludes by suggest=
+ing that the SEC promulgate disclosure requirements specific to SPAC merger=
+s that make clear SPACs=E2=80=99=C2=A0costs and sponsors=E2=80=99 incentive=
+s.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">But that=E2=80=99s just an academic paper. Put=
+ting his money where his mouth is, though, Klausner went out to sue some SP=
+ACs, and <a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.=
+271518/aHR0cHM6Ly9uZXdzLmJsb29tYmVyZ2xhdy5jb20vYnVzaW5lc3MtYW5kLXByYWN0aWNl=
+L2xhd3N1aXQtdGVzdGluZy10cnVlLXZhbHVlLW9mLXNwYWNzLXN1cnZpdmVzLW1vdGlvbi10by1=
+kaXNtaXNz/607f07ceef4b8524a319a23cB2cbe5cc1" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  last week he won a r=
+ound</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A court ruling Wednesday bolstered research th=
+at argues the true worth of blank-check company mergers is often far below =
+the typical $10-a-share valuation.</p>
+<p style=3D"margin: 16px 0;">The Delaware Chancery Court ruling found that =
+the GigCapital3 Inc. special purpose acquisition company must face claims t=
+hat public shareholders were denied crucial information, including how much=
+ money shares were worth in the purchase of an electric vehicle manufacture=
+r.</p>
+<p style=3D"margin: 16px 0;">The GigCapital3 SPAC shareholders couldn=E2=80=
+=99t make an informed decision on whether to cash out shares or participate=
+ in its purchase of Lightning eMotors, court Vice Chancellor Lori Will rule=
+d. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Stanford Law Professor Michael Klausner develo=
+ped a financial model that argues the true value of SPAC shares are much lo=
+wer than $10-a-share. He brought the court case in August 2021 against GigC=
+apital3 alongside lawyers from Grant &amp; Eisenhofer. The suit was a rare =
+move for a self-described =E2=80=9Cobscure academic.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">In the Gig3 case, the sponsor=E2=80=99s initia=
+l $25,000 investment had an implied market value at the time of the merger =
+worth $39 million=E2=80=94a 155,900% return, Klausner argued. Sponsors only=
+ earn those returns when a deal is completed.</p>
+<p style=3D"margin: 16px 0;">Will=E2=80=99s ruling accepted Klausner=E2=80=
+=99s calculations. Part of the information GigCapital3 shareholders didn=E2=
+=80=99t receive was that the shares the SPAC used to purchase Lightning eMo=
+tors were worth around $5.25 per share=E2=80=94not $10, according to Will.<=
+/p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIf Gig3 had less than $6 per share to=
+ contribute to the merger, the proxy=E2=80=99s statement that Gig3 shares w=
+ere worth $10 each was false=E2=80=94or at least materially misleading,=E2=
+=80=9D she wrote. =E2=80=9CMoreover, Gig3 stockholders could not logically =
+expect to receive $10 per share of value in exchange.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/30196665.271518/aHR0cHM6Ly9jb3VydHMuZGVsYXdhcmUuZ292L09w=
+aW5pb25zL0Rvd25sb2FkLmFzcHg_aWQ9MzQyMjQw/607f07ceef4b8524a319a23cB34d4fd13"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> the opinion</a>. The merger closed in May 2021, when about 71% of=
+ Gig3=E2=80=99s public shareholders agreed to exchange their shares for sha=
+res in the newly public Lightning instead of redeeming at $10 per share. Th=
+e stock closed at $0.5161 on Friday. Shareholders who did not redeem =E2=80=
+=94=C2=A0who effectively traded $10 for shares worth $0.5161 =E2=80=94=C2=
+=A0sued, claiming that Gig3=E2=80=99s sponsors did the deal not because it =
+was good for their=C2=A0shareholders (it turned out not to be) but because =
+it got <em>the sponsors</em> $39 million of free stock.=C2=A0Gig3/Lightning=
+ tried to have the lawsuit dismissed, but the Chancery Court let it go ahea=
+d.=C2=A0</p>
+<p style=3D"margin: 16px 0;">There are some bad facts =E2=80=94=C2=A0Gig3 t=
+ried to do a $100+ million PIPE deal to raise more money and validate the p=
+rice it was paying, but ultimately raised only $25 million from a big exist=
+ing Lighting shareholder, so it ended up selling convertible notes at prett=
+y onerous terms; the prospectus for the merger had optimistic financial pro=
+jections that mostly didn=E2=80=99t work out =E2=80=94=C2=A0but mostly the =
+problems here are the problems of any SPAC. In any SPAC, the sponsor has in=
+centives to do a deal, any deal, since she gets millions of dollars of free=
+ stock if a deal closes and loses the startup costs of the SPAC if it doesn=
+=E2=80=99t. And in any SPAC, the SPAC=E2=80=99s pot of cash is not=C2=A0<em=
+>really=C2=A0</em>worth $10 per share =E2=80=94=C2=A0it=E2=80=99s worth $8 =
+per share or less =E2=80=94=C2=A0so it is hard for the sponsor to find a de=
+al worth $10 per share or more.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Everything that I wrote above is =E2=80=A6=C2=
+=A0correct? =E2=80=A6=C2=A0and =E2=80=A6=C2=A0intuitive? =E2=80=9CIf Gig3 h=
+ad less than $6 per share to contribute to the merger,=E2=80=9D then =E2=80=
+=9CGig3 stockholders could not logically expect to receive $10 per share of=
+ value in exchange.=E2=80=9D But that=E2=80=99s just=C2=A0<em>logic.</em>=
+=C2=A0There is some practical sense in which, in like 2020, the answer was =
+pretty much =E2=80=9Cehhh there is enough value to go around here, it=E2=80=
+=99s fine, everything goes up, don=E2=80=99t worry about how much the spons=
+or is getting paid or who=E2=80=99s paying them.=E2=80=9D Now things are ti=
+ghter, and there is reason to worry.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDE5NjY2NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0NjgxODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD666526ba" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30196665&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDE5NjY2NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0NjgxODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE666526ba" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30196665&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDE5NjY2NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0NjgxODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF0e2ee46a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30196665&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDE5NjY2NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0NjgxODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG0e2ee46a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30196665&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDE5NjY2NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0NjgxODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH459a064b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30196665&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDE5NjY2NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0NjgxODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI459a064b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30196665&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in conflicts</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">As part of a <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/30196665.271518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjItMTAtMjcvY3JlZGl0LXN1aXNzZS1naXZlcy1maXJzdC1ib3=
+N0b24tZ2V0cy1hLXNlY29uZC1jaGFuY2U_Y21waWQ9QkJEMDEwOTIzX01PTkVZU1RVRkYmdXRtX=
+21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTA5JnV0bV9j=
+YW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa1ea955e" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  broad=
+ restructuring</a>, Credit Suisse Group AG has announced that it will spin =
+out its investment banking business into a separate company, which will rev=
+ive the old First Boston name. New First Boston will be owned partly by Cre=
+dit Suisse, partly by outside investors=C2=A0and partly by its employees. T=
+o spin off First Boston, Credit Suisse needed to give it a chief executive =
+officer, and it chose Michael Klein for the job. Klein is a former Citigrou=
+p Inc. banker who was also on Credit Suisse=E2=80=99s supervisory board. Th=
+ere is an obvious conflict of interest there: Credit Suisse=E2=80=99s board=
+ decided on a strategy that involved handing ownership of its banking busin=
+ess over to the employees of that business, and one member of that board wa=
+s also appointed to run =E2=80=94=C2=A0and, thus,=C2=A0<em>own=C2=A0</em>=
+=E2=80=94 that business. Bloomberg=E2=80=99s Dinesh Nair, Sridhar Natarajan=
+ and Eyk Henning <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+0196665.271518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMt=
+MDEtMDkvY3JlZGl0LXN1aXNzZS1uZWFycy1kZWFsLWZvci1rbGVpbi1zLWJvdXRpcXVlLWFmdGV=
+yLXRlbnNlLXRhbGtzP2NtcGlkPUJCRDAxMDkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haW=
+wmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDEwOSZ1dG1fY2FtcGFpZ249bW9uZ=
+XlzdHVmZg/607f07ceef4b8524a319a23cBa654febc" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  note</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Swiss bank already faced questions when Kl=
+ein, a member of the board committee that decided to carve out CS First Bos=
+ton, was appointed to run it. The firm=E2=80=99s chairman has said Klein ab=
+stained from some votes on the topic.</p>
+<p style=3D"margin: 16px 0;">Klein stepped down from Credit Suisse=E2=80=99=
+s supervisory board to become CEO designate of CS First Boston as part of t=
+he bank=E2=80=99s major strategic revamp in October.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But it=E2=80=99s even more complicated than th=
+at because Klein=C2=A0<em>already=C2=A0</em>runs, and owns, an investment b=
+ank. It is called M. Klein &amp; Co., so you can hardly expect him to quit.=
+ (Actually his brother Mark is also an executive there, so even if Michael =
+Klein left, it could still accurately be called M. Klein &amp; Co.) So the =
+solution is for Credit Suisse to buy Klein=E2=80=99s firm and combine it wi=
+th First Boston. Nair, Natarajan and Henning:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Credit Suisse Group AG is close to an agreemen=
+t to buy Michael Klein=E2=80=99s advisory boutique after several rounds of =
+tense negotiations, according to people briefed on the talks.</p>
+<p style=3D"margin: 16px 0;">As part of the expected agreement that=E2=80=
+=99s been hashed out in recent days, the bank will value the firm founded b=
+y the incoming head of its First Boston spinout at around a few hundred mil=
+lion dollars, said the people, who asked not to be identified as talks are =
+private. The Swiss firm engaged Deutsche Bank AG to provide a fairness opin=
+ion, two of the people said. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The deal is expected to allow M. Klein &amp; C=
+o. shareholders to take an eventual stake in First Boston using proceeds fr=
+om the sale, the people said. Klein and top executives at the Swiss bank cl=
+ashed in recent weeks over issues including the value of the boutique, with=
+ the two sides at one point hundreds of millions of dollars apart on its va=
+lue, the people said. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Mark Klein, Michael=E2=80=99s brother and an e=
+xecutive and stakeholder at M. Klein &amp; Co., is likely to join First Bos=
+ton as part of the deal, the people said, which could raise further questio=
+ns about corporate governance.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I=E2=80=99m sure it=E2=80=99s fine, there=E2=
+=80=99s a fairness opinion, and it=E2=80=99s not like I have better ideas. =
+I can see why Credit Suisse wants to retreat from investment banking, why i=
+t wants to get some value from this business=C2=A0and why it thinks Klein i=
+s the best person to do it.=C2=A0But =E2=80=A6 what is the good way for thi=
+s to go? If First Boston ends up being a massive success with a $100 billio=
+n valuation, then in hindsight this deal is going to look like =E2=80=9Cthe=
+ board of Credit Suisse voted to take=C2=A0a $100 billion business from sha=
+reholders and give it to one board member, plus his brother.=E2=80=9D If Fi=
+rst Boston ends up being a failure, it is going to look like =E2=80=9CCredi=
+t Suisse took a perfectly good business and handed it over to one of its bo=
+ard members, plus his brother, who broke it.=E2=80=9D If you are a high-pow=
+ered investment banker you are in some=C2=A0sense in the=C2=A0<em>business=
+=C2=A0</em>of managing conflicts of interest =E2=80=94=C2=A0your job is to =
+be friends with everybody who matters, and any time you represent a seller =
+you will be thinking a little bit about how you can win future business fro=
+m the buyer =E2=80=94=C2=A0but this one seems particularly tough.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDE5NjY2NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0NjgxODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJ0fc0acd9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30196665&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Everything is securities fraud</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If the chief executive officer of a public com=
+pany exercises poor judgment and engages in an inappropriate personal relat=
+ionship with an employee, is that securities fraud? You know my rule: Every=
+ bad thing that a public company does is also securities fraud, this is a b=
+ad thing, therefore this is securities fraud. Here=E2=80=99s the=C2=A0US Se=
+curities and Exchange Commission <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30196665.271518/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJl=
+bGVhc2UvMjAyMy00/607f07ceef4b8524a319a23cBb4186544" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> enforcement ac=
+tion</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission today c=
+harged Stephen J. Easterbrook, former CEO of McDonald=E2=80=99s Corporation=
+, with making false and misleading statements to investors about the circum=
+stances leading to his termination in November 2019. McDonald=E2=80=99s als=
+o was charged for shortcomings in its public disclosures related to Easterb=
+rook=E2=80=99s separation agreement.</p>
+<p style=3D"margin: 16px 0;">According to the SEC=E2=80=99s order, McDonald=
+=E2=80=99s terminated Easterbrook for exercising poor judgment and engaging=
+ in an inappropriate personal relationship with a McDonald=E2=80=99s employ=
+ee in violation of company policy. However, McDonald=E2=80=99s and Easterbr=
+ook entered into a separation agreement that concluded his termination was =
+without cause, which allowed him to retain substantial equity compensation =
+that otherwise would have been forfeited. In making this conclusion, McDona=
+ld=E2=80=99s exercised discretion that was not disclosed to investors.</p>
+<p style=3D"margin: 16px 0;">Subsequently, in July 2020, McDonald=E2=80=99s=
+ discovered through an internal investigation that Easterbrook had engaged =
+in other undisclosed, improper relationships with additional McDonald=E2=80=
+=99s employees. According to the SEC=E2=80=99s order, Easterbrook knew or w=
+as reckless in not knowing that his failure to disclose these additional vi=
+olations of company policy prior to his termination would influence McDonal=
+d=E2=80=99s disclosures to investors related to his departure and compensat=
+ion.</p>
+<p style=3D"margin: 16px 0;">"When corporate officers corrupt internal proc=
+esses to manage their personal reputations or line their own pockets, they =
+breach their fundamental duties to shareholders, who are entitled to transp=
+arency and fair dealing from executives," said Gurbir S. Grewal, Director o=
+f the Division of Enforcement. "By allegedly concealing the extent of his m=
+isconduct during the company=E2=80=99s internal investigation, Easterbrook =
+broke that trust with =E2=80=93 and ultimately misled =E2=80=93 shareholder=
+s."</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The general form of =E2=80=9Ceverything is sec=
+urities fraud=E2=80=9D is:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">The company, or one of its executives,=
+ does a bad thing;=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">The compa=
+ny does not simultaneously disclose the bad thing=C2=A0to shareholders (bec=
+ause it is shameful, etc.);</li>=09<li style=3D"margin-bottom: 5px;">Eventu=
+ally the bad thing comes out and the stock drops;</li>=09<li style=3D"margi=
+n-bottom: 5px;">The shareholders can say they were defrauded: They paid mor=
+e for the stock than they would have if they had known about the bad thing.=
+</li>
+</ul>
+<p style=3D"margin: 16px 0;">When I write about this, sometimes I get compl=
+aints from securities lawyers who say =E2=80=9Cno, securities fraud doesn=
+=E2=80=99t work that way: You are not required to disclose=C2=A0<em>everyth=
+ing immediately</em>, and it is only securities fraud if the company puts o=
+ut some misleading disclosure. Just not mentioning a bad thing is not fraud=
+.=E2=80=9D<a class=3D"footnote-index" href=3D"#footnote-6" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: none !important; background-co=
+lor: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0And so in fact the technical game of =E2=80=9Ceverything is secur=
+ities fraud=E2=80=9D is that you have to find something that the company=C2=
+=A0<em>did=C2=A0</em>say that turns out not to be true in light of the bad =
+thing. A classic that we have <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30196665.271518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlbWUtY291cnQtaG=
+VkZ2UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNndzP2NtcGlkPUJCRDAxMDkyM19NT05FW=
+VNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIz=
+MDEwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6298a3e5" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">  discussed</a> a <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30196665.271518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMjAtMDUtMDEvaXQtZG9lc24tdC1wYXktdG8tYmUtdG9vLWV0aGljYWw_Y21waWQ9QkJ=
+EMDEwOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjMwMTA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cB92905147" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  few times</a> is that, if a company has a public c=
+ode of ethics saying =E2=80=9Cour executives are not allowed to do bad stuf=
+f,=E2=80=9D and they do bad stuff, then you sue the company because its cod=
+e of ethics is misleading. Or if the company has a <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30196665.271518/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDctMjQvZmFjZWJvb2stZ2V0cy1hLW5ldy1jb=
+21taXR0ZWU_Y21waWQ9QkJEMDEwOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cB654ecd11" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  risk factor</a> that says =
+=E2=80=9Cbad stuff might happen and that would be bad,=E2=80=9D and the bad=
+ stuff has <em>already=C2=A0</em>happened, then that risk factor is mislead=
+ing.</p>
+<p style=3D"margin: 16px 0;">Or, here, if the company fires an executive fo=
+r having an intra-office affair, and it puts out a press release saying tha=
+t he =E2=80=9Cseparated from the Company following the Board=E2=80=99s dete=
+rmination that he violated company policy and demonstrated poor judgment in=
+volving a recent consensual relationship with an employee,=E2=80=9D but it =
+doesn=E2=80=99t say that he had=C2=A0<em>several=C2=A0</em>consensual relat=
+ionships with employees, well, I guess that use of the singular is misleadi=
+ng?=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Sorry JPMorgan!</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">At FT Alphaville, <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30196665.271518/aHR0cHM6Ly93d3cuZnQuY29tL2Nvbn=
+RlbnQvNzQ3NzNlZGEtM2ZiZS00MWYzLWE2ZTYtNTQ2NDEwZmQ5ZTAw/607f07ceef4b8524a319=
+a23cB604f2a11" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> Bryce Elder reports</a> that JPMorgan Chase &amp; C=
+o.=C2=A0 is building a computer program to tell you what=E2=80=99s in the n=
+ews, =E2=80=9Cto help investors with their allocation decisions by tracking=
+ the evolution of themes over time.=E2=80=9D Apparently their previous effo=
+rts failed because of, um, me:</p>
+<blockquote><p style=3D"margin: 16px 0;">This is JPMorgan=E2=80=99s second =
+attempt at getting a computer to read the news. Its first go struggled beca=
+use =E2=80=9Csome of our detected themes were being driven by only one or t=
+wo sources=E2=80=9D, it said. =E2=80=9CThe problem is exacerbated if a sour=
+ce publishes its entire output on just one theme at great volume.=E2=80=9D =
+(Cf, its first dataset ran to November 15 and Bloomberg Businessweek publis=
+hed The Crypto Story on October 25.)</p></blockquote>
+<p style=3D"margin: 16px 0;">Oops! Sorry. I hope you did not use this signa=
+l to get extremely long crypto on Oct. 25. I periodically remind my readers=
+ that nothing in this column is ever legal or investing advice, but I shoul=
+d emphasize that anything that your <em>computer algorithm=C2=A0</em>manage=
+s to pull out of this column is particularly not legal or investing advice.=
+ Sometimes it=E2=80=99s jokes! What is your computer gonna do with that?</p=
+>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30196665.271518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDEtMDkvZ29sZG1hbi1zYWNocy1ncy10by1jdXQtYWJvdXQtMy0yMDAtam9icy1=
+hZnRlci1jb3N0LXJldmlldz9jbXBpZD1CQkQwMTA5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPW=
+VtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMDkmdXRtX2NhbXBhaWduP=
+W1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBaef6fba0" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> Goldman</a> to C=
+ut About 3,200 Jobs This Week After Cost Review. HSBC Sends <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30196665.271518/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTItMTQvaHNiYy1zZW5kcy1yZWNydWl0=
+bWVudC1lbWFpbHMtdG8tcml2YWwtYmFua2Vycy1mYWNpbmctY3V0cz9jbXBpZD1CQkQwMTA5MjN=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yMzAxMDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB4412=
+a22a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  Recruitment Emails</a> to Rival Bankers Facing Cuts. The Mu=
+rdoch <a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271=
+518/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNThhNzUyYTMtMGRhZC00MzNjLTk3Y2QtMDQ=
+3YjFmZjdmZTM5/607f07ceef4b8524a319a23cBded66f4f" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> family trust</a>:=
+ how the scions could battle for control. Jack Ma <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/30196665.271518/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+hcnRpY2xlcy9qYWNrLW1hLWNlZGVzLWNvbnRyb2wtb2YtZmludGVjaC1naWFudC1hbnQtZ3JvdX=
+AtMTE2NzMwNjY4MTc_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB1b03=
+cf57" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Cedes Control</a> of Fintech Giant Ant Group. Crypto Empire =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMDcvY3J5cHRvL=
+WVtcGlyZS1kY2ctZmFjZXMtdXMtaW52ZXN0aWdhdGlvbi1vdmVyLWludGVybmFsLXRyYW5zZmVy=
+cz9jbXBpZD1CQkQwMTA5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U=
+9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07=
+ceef4b8524a319a23cB381b4e1f" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  DCG</a> Faces US Investigation Over =
+Internal Transfers. Celsius founder <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/30196665.271518/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNzNmN=
+jBjODktYTg3Ni00NmMwLWEyZmItY2U3ZjBiNjA1YjE5/607f07ceef4b8524a319a23cBda7487=
+21" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Mashinsky sued for fraud</a> by New York attorney-general. Wh=
+y <a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/=
+aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL2luc2lkZS10aGUtcmlzZS1=
+hbmQtZmFsbC1vZi1nZW1pbmlzLXJpc2t5LWVhcm4tYWNjb3VudHMtdGhhdC1sZWZ0LTkwMC1taW=
+xsaW9uLW9mLWN1c3RvbWVyLW1vbmV5LWluLWxpbWJvP3JjPTFiZGk1aA/607f07ceef4b8524a3=
+19a23cBcae2ecc4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> Gemini</a> Kept Pushing Risky Accounts as Crypto =
+Market Tumbled. FTX Reaches <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/30196665.271518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjMtMDEtMDYvZnR4LWN1dHMtYmFua3J1cHRjeS1jb29wZXJhdGlvbi1kZWFsLXdpdGgt=
+YmFoYW1hcy1saXF1aWRhdG9ycz9jbXBpZD1CQkQwMTA5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXV=
+tPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMDkmdXRtX2NhbXBhaW=
+duPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB39bdb1d1" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  Bankruptcy C=
+ooperation Deal</a> With Bahamas Liquidators. FTX Seeks to <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/30196665.271518/aHR0cHM6Ly93d3cud3=
+NqLmNvbS9hcnRpY2xlcy9mdHgtc2Vla3MtdG8tcmVjb3VwLXNhbS1iYW5rbWFuLWZyaWVkcy1ja=
+GFyaXRhYmxlLWRvbmF0aW9ucy0xMTY3MzA0OTM1ND9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f0=
+7ceef4b8524a319a23cBc6799b6a" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> Recoup</a> Sam Bankman-Fried=E2=80=
+=99s Charitable Donations. =E2=80=98Spectacular=E2=80=99 <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/30196665.271518/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMDcvLXNwZWN0YWN1bGFyLXRyYWRpbmc=
+tZHJvcC1wbGFndWVzLXN0aWxsLXJlZWxpbmctY3J5cHRvLW1hcmtldD9jbXBpZD1CQkQwMTA5Mj=
+NfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fd=
+GVybT0yMzAxMDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe6d=
+fbba5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  Trading Drop</a> Plagues Still-Reeling Crypto Market. Brot=
+her of Criminal Bitcoin Mixing CEO Pleads Guilty to <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30196665.271518/aHR0cHM6Ly93d3cuY29pbmRlc=
+2suY29tL3BvbGljeS8yMDIzLzAxLzA2L2Jyb3RoZXItb2YtY3JpbWluYWwtYml0Y29pbi1taXhp=
+bmctY2VvLXBsZWFkcy1ndWlsdHktdG8tc3RlYWxpbmctNzEyLWJpdGNvaW5zLWZyb20taXJzLw/=
+607f07ceef4b8524a319a23cB260739df" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> Stealing 712 Bitcoins From IRS<=
+/a>. Companies Face Rising Pressure to Offer <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/30196665.271518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMDkvYW1hem9uLWFuZC1taWNyb3NvZnQtYXJlLXVuZGV=
+yLXByZXNzdXJlLXRvLW9mZmVyLWVzZy1yZXRpcmVtZW50LW9wdGlvbnM_Y21waWQ9QkJEMDEwOT=
+IzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjMwMTA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB1c=
+c57fc9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  ESG Retirement Options</a>. Deere to Allow Farmers to <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aHR0c=
+HM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9kZWVyZS10by1hbGxvdy1mYXJtZXJzLXRvLXJlcGFp=
+ci10aGVpci1vd24tZXF1aXBtZW50LTExNjczMjI4NTgwP21vZD1ocF9saXN0YV9wb3Mz/607f07=
+ceef4b8524a319a23cB5bf4763d" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> Repair Their Own Equipment</a>. Silic=
+on Valley=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/301=
+96665.271518/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL3doeS10aG=
+UtbG9uZy1mYWNlLWZvdW5kZXItdGhlLW5ldy1leGVjdXRpdmUtY29hY2gtaGFzLWZvdXItbGVnc=
+y1hbmQtYS1tYW5l/607f07ceef4b8524a319a23cB06e21c73" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">horse therapy</a=
+>.=C2=A0Silicon Valley Can=E2=80=99t Quit Its <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/30196665.271518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMDEtMDYvcGl6emEtcm9ib3QtY29tcGFueS1zdGVsbGFyLW=
+RyYXdzLWVuZ2luZWVycy1mcm9tLXNwYWNleD9jbXBpZD1CQkQwMTA5MjNfTU9ORVlTVFVGRiZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMDkmdXRt=
+X2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBbf9e0a80" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Pi=
+zza Robot Obsession</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30196665.271518/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB5428883f" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30196665.271518/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB6edf5b3a" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Or at least, because their investors thoug=
+ht they were. Often these deals ended up trading poorly in the long run.</p=
+>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] That is, the combined company is really wo=
+rth $1 billion, they get 16.7%, so their $200 million investment turns into=
+ $167 million of stock, or $8.33 for each $10 share.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Generally she pays some startup costs and =
+might buy these shares for a nominal amount, but =E2=80=9Cfor free=E2=80=9D=
+ is the right intuition.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] The math doesn=E2=80=99t quite work that w=
+ay =E2=80=94 warrant exercise increases both the numerator and the denomina=
+tor =E2=80=94 but you know what I mean.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Also the PIPE would generally be just comm=
+on equity at $10 per share, which reduced the dilutive impact of the SPAC s=
+tructural stuff. If you raised $200 million from a SPAC and $300 million fr=
+om a PIPE, the sponsor=E2=80=99s 5 million free SPAC shares represent only =
+10% of the total value instead of 25%.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] The <a href=3D"https://link.mail.bloomberg=
+business.com/click/30196665.271518/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nm=
+ci90ZXh0LzE3LzI0MC4xMGItNQ/607f07ceef4b8524a319a23cBfcfcc232" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> actu=
+al rule</a>, in the US, is that it is fraud, =E2=80=9Cin connection with th=
+e purchase or sale of any security,=E2=80=9D =E2=80=9Cto make any untrue st=
+atement of a material fact or to omit to state a material fact necessary in=
+ order to make the statements made, in the light of the circumstances under=
+ which they were made, not misleading.=E2=80=9D</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBc016df2d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBbd1405a9" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB283e8d8e" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBa8b8a83a" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDE5NjY2NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0NjgxODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cK3325f6a4" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30196665&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBffd6a2d8" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30196665.271518/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC8dbf0f15" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30196665.271518/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB778bcfb1" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30196665.271518/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBccf007db" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB1=
+8a95567" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30196665.271518/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB4=
+d800c72" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D301966=
+65&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D301966=
+65&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D301966=
+65&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D301966=
+65&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D301966=
+65&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30468183&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chz7w9.5ti6/7c47d1e7.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_197194039_1643278879.1673287734358--
+

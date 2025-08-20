@@ -1,0 +1,2181 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:ad4:558f:0:b0:66d:158:b35e with SMTP id f15csp3739874qvx;
+        Mon, 16 Oct 2023 11:34:58 -0700 (PDT)
+X-Received: by 2002:a05:600c:1d1e:b0:406:f833:d853 with SMTP id l30-20020a05600c1d1e00b00406f833d853mr26341719wms.15.1697481298418;
+        Mon, 16 Oct 2023 11:34:58 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1697481298; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=yC43GTShsXd38DRByLgCPgOsWwXiSuelLCMjqT6GYx7ctFmpDc0bGxUSKZADM7BcDW
+         A0S+O4DQbN5U+l6CadG070jL6nHspYYhITbqBuM1yxW6dW1/3uG8TCoxb0DAzHqfATcR
+         EiZLVrjt6PjhpvS9DA+Tb8Rfib2x9DUPbpQ2D17kAiksTbLf223nW01y+u+XMnfyQm44
+         goz5N2WV7aw6nzUTfKqPHBZ/Oyt6OR7npi5+6CmGPnEuCjfSjnvxZe7MyM9fLPUDnE+k
+         ONxm46JdEczvysXFhLDq5bdN0pwJO8P1gpWmI4Wpk3Qp1wIysSzqWuo1onHiBGxtrM8y
+         bOYA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=SITSrROJxNBc5k4fToNSlkcT3R3LD4YcVzROzOBDFKQ=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=WLX4MWGBViRBQLNLuGq144QYTKgaTxg/u9/ohxxi68RudENWY7fJUTx4FEPso/3FMM
+         ZbXv08Nxtqo6G8W/gSs3hO2urrQoA3vs/E7c18FzOx0n5tWa1Te1JzX/fiOiqZL3H+XC
+         Li+1af628YHhQhqexK78ER4xAbQ5qQ3wunViHz9YR1UWGyybJfScaGOEATJnNwmD4drg
+         +ABi71AqKPoQOmbPfX2ritaA3N2n74wx5Wwx0ZAOroeDC6iCAt+JU+x29LQsvZkIKd9R
+         ifFBBkaW7ydoGkUtkHDNv+7rDqdu0XPzeCYsnzLEcPKvCFLkVq+cMxJaMxzSx97wFMt2
+         cVDw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=wqNdS8d2;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id t26-20020a1c771a000000b00403b83c49dcsor1728546wmi.11.2023.10.16.11.34.57
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 16 Oct 2023 11:34:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=wqNdS8d2;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1697481297; x=1698086097;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=SITSrROJxNBc5k4fToNSlkcT3R3LD4YcVzROzOBDFKQ=;
+        b=D7tU2Fj9fc34dibMABJ5AjED+XHpkhJx8wbxevZsIJtoXehHAL71YM3B6Byl6cfmwP
+         yMAUOqJzPwhbEZE7nxQ016ZzAI8fcOmBzgyDAzAw9Fw6yA5sKanT9HUZBlZSIGjB5FnE
+         n8FvWJ4ASw1QPJrD6m3n1t2hn75txi2b3TSlN8hUao8MJ7t7kuYoeMjpf/7Amo9V4AqD
+         IXznohgjXPkhV0do2Nfl8ENV1QHT4nzpFj3v6ED8rA+JMXXS4ssjTP3aBBx+RGXwGLex
+         wogrX+7n0qU6PZ2n94sFPNQlX9qlZFsWPXbvBghmWZ2f7DJlCAVnWQVBPx6SnObjh6vj
+         kKwQ==
+X-Gm-Message-State: AOJu0YzIBTCKrO8emq/wPw2M1M+V0dQ7k4zuXi2QoN34qynNjOCOtHz2
+	Va6h26FICZSSgvovbU7uzJjQlEDNulBKYPmMBG8WTjoxHTHbgwVivw==
+X-Received: by 2002:a5d:43c7:0:b0:32d:9e4f:718f with SMTP id v7-20020a5d43c7000000b0032d9e4f718fmr201248wrr.44.1697481297581;
+        Mon, 16 Oct 2023 11:34:57 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:504e:0:b0:314:13a5:30c2 with SMTP id h14csp79438wrt;
+        Mon, 16 Oct 2023 11:34:53 -0700 (PDT)
+X-Received: by 2002:a0d:f381:0:b0:586:9f6c:4215 with SMTP id c123-20020a0df381000000b005869f6c4215mr32957932ywf.33.1697481293456;
+        Mon, 16 Oct 2023 11:34:53 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1697481293; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=YzzB0mGU4EBcV33VrhpA1iZqcobzxGcT2+qLjgADzFdjVXYKLpuacf/3WOk8ey051v
+         CuB0XCxGLFOQPe17R7n7qsN938BBIq8QqIeuLckdHeIkKY3/Pv28Dt3gAMAWQCtOnamV
+         nMymBs0eltjNNjCWUhf5HlGepTkUyy2WroYpzm4Ygxx2ET/hDajZ3P3BLg7za/osbWbU
+         ozjIQnrmPysgAJknHEV9g5xF8rwJz4WHxQKKYydgiApocWx4m/J1GQ29vu1RpG8Zs54V
+         1flc2qiBarsQdFIt2fqT8DBiPkDMZTE7pYQsbQVJrhhHX57SeoZxV2oTfw9wiw7yiABe
+         GOQQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=SITSrROJxNBc5k4fToNSlkcT3R3LD4YcVzROzOBDFKQ=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=mL0YfI/CGrHRHMx8EEGGxnXwnrXyqbR0cyXHOAnlt0NyWgE339JxxmQZY88PwjKTKl
+         LEhvnF9RdZ8dxcpqD68ZNjrYdKuDVbXjh/c1LW5jjuzgDp2VBllI8r9SDsXGQ8ZGWrg+
+         4eFDY9uhw+Bk67w9MvmKYKBbPSlfXXvBfhok++vtYcT0FA0RkMJnckiTLfynARl7MvLL
+         pRqq8zVTwWPy6eIRAZlFP7rz+uovt2m0YJjaXpOAK8a4G4WD5+W/P9cGuEwVuWITrOJ/
+         loBe9fmKLh8+nNPujsFkJMGhbZFXQr9fb99O9ChAy60ChlAdeoX2/SUtg9ogSnCpqQXw
+         B1NA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=wqNdS8d2;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231016143452.33044024.256428@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231016143452.33044024.256428@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231016143452.33044024.256428@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id y204-20020a0dd6d5000000b005a251b1d7fcsor2642539ywd.5.2023.10.16.11.34.53
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 16 Oct 2023 11:34:53 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20231016143452.33044024.256428@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IGS13RtkxMpyzRETF1BL8uC8XU9W8JH0p1Ect3aCTp+9mnhC0lAeYtbC1KLUhveYpzxYjKZQSfgctQ+N4bOv00sGGlneio=
+X-Received: by 2002:a0d:f542:0:b0:59f:5361:d18c with SMTP id e63-20020a0df542000000b0059f5361d18cmr35197138ywf.41.1697481292981;
+        Mon, 16 Oct 2023 11:34:52 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1697481292; cv=none;
+        d=google.com; s=arc-20160816;
+        b=WaHmaP8lLELxC7zITB9jShLExHZzxPa7eXf9guv5k521Pi7+ayDiiT/AA9eD4JwWvI
+         8MXt1E0GeORyRzhd6Xe4e70CStbGmfitt+GMMSA9Z0fYeO/18ZbwY7bO9o7Hes3grK81
+         vzAlP31jXHZ4l5TgDTM9VxJtV6FMKdN2YPeF7YxLdKK2brb52L5axorhqPB8CLebiJvP
+         pFK1n/8NsMmlYG4dPFf2h+1wIA/xbbqfFkhq4oiljmC3yqGpX/QQPbonXgV5okK8KJ5R
+         g7YXpBq2Kb6BrqMZrFO7qGsOCMbNHR03g7VMOwTPyaXh1Hv8y0XJM5Z+mZb56FmCDdXl
+         B5Nw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=SITSrROJxNBc5k4fToNSlkcT3R3LD4YcVzROzOBDFKQ=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=qbqvmGnsEhguAngHeEM/BsghpKBcielW0duSrATJN/pObXoJ3UEwFqMQe1Gn9FUavh
+         ETSCzpHPlAvRjs2nM5uWcpaVJvuzXwGzAxRvZUNioP9Yx1BaT+EbH+8zaDVMBFNnx9RI
+         qTgsjdO+mNmP8TZmkRMzVpyy26ZwywtgjTDZJUypfQeC8ngYmMomGOtpbOOTBwXqVF65
+         FWbrCfuFCKablUT3JKFN+h/x26lU044WQnXQE413AH5mVN5yrf4SXzXSY2iQUUlzWntD
+         9eVLmCDGYLlmqSkjgOgwKZ+z3YeRI805DHG+PtVmx5pVwq879dvIT44r+eHirxqccSst
+         rktQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=wqNdS8d2;
+       spf=pass (google.com: domain of delivery_20231016143452.33044024.256428@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20231016143452.33044024.256428@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231016143452.33044024.256428@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id h31-20020a81b65f000000b005a7e4fb91b7si711178ywk.4.2023.10.16.11.34.52
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 16 Oct 2023 11:34:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20231016143452.33044024.256428@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=J4UIdO0xtQO3cX8ktzeNcGUDkVDW9e+2OYXbLGTbur8=;
+ b=wqNdS8d2+0onIvp+TvXkGUxlIUHbTrtcbKTHI70fQxZi9c1Dmcv/PFTIQjRP9sugdt1pY91CtZXk
+   DcMNhy19ISiYCieTTOieq0asAx0vaxpwiIBF7Dh12k7isOhGWVUbWMUrrvOYH6uN3HQ/eyIrS+K1
+   t79hiMCmys7JjBeFn9o=
+Received: from aws1-mta-relay7.sailthru.cloud (10.55.90.61) by bloomberg-b.sailthru.com id h5m14o30nu8t for <bloomberg@khamel.com>; Mon, 16 Oct 2023 13:34:52 -0500 (envelope-from <delivery_20231016143452.33044024.256428@mx.sailthru.com>)
+Date: Mon, 16 Oct 2023 14:34:52 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231016143452.33044024.256428@sailthru.com>
+Subject: Money Stuff: CDS Bet Bites Carl Icahn
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9881819_239639088.1697481292672"
+Precedence: bulk
+x-job: 6358-33044024-20231016
+X-Feedback-ID: 6358:33044024:campaign:sailthru
+X-TM-ID: 20231016143452.33044024.256428
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-61-119.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjo8xk.5hv0/63d8f729
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjo8xk.5hv0/63d8f729>, <mailto:unsubscribe_20231016143452.33044024.256428@mx.sailthru.com>
+X-rpcampaign: stjko33044024
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_9881819_239639088.1697481292672
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Credit default swaps have two related functions: You can trade CDS =
+to bet on the creditworthiness of some company (or country, or type of st
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Icahn CDS bet
+   =20
+ =20
+
+Credit default swaps have two related functions:
+=09You can trade CDS to bet on the creditworthiness of some company (or cou=
+ntry, or type of structured credit, etc.). When the company reports good ea=
+rnings or otherwise seems to be more creditworthy, its CDS price will go do=
+wn, and people who sold CDS will have a mark-to-market gain. When the compa=
+ny reports bad earnings or otherwise seems to be falling apart, its CDS pri=
+ce will go up, and people who bought CDS will have a mark-to-market gain.=
+=09CDS works as insurance against default. If the company (country, pool of=
+ loans, etc.) defaults on its debt, then CDS is =E2=80=9Ctriggered,=E2=80=
+=9D the people who sold CDS have to pay some money to the people who bought=
+ CDS, and there is some fairly complex   auction process to determine how m=
+uch.
+
+Thing 1=C2=A0sort of=C2=A0works by backward induction from=C2=A0Thing 2: As=
+ the creditworthiness of the issuer goes down, it becomes more likely that =
+the CDS will trigger, which makes it more likely that CDS sellers will have=
+ to pay CDS buyers, and in broad strokes the auction process in Thing 2 mea=
+ns that the sellers pay buyers more the worse things end up being for the i=
+ssuer.=C2=A0
+But that is approximate, and these things are not=C2=A0that=C2=A0tightly co=
+upled. The actual payout mechanism, upon a default, is not simply =E2=80=9C=
+the CDS pays more the worse the default is.=E2=80=9D In fact there might be=
+ an auction with different deliverable securities, and there can be a certa=
+in amount of gamesmanship in the auction, and there are various ways to aff=
+ect the result to make the payout higher or lower than you might intuitivel=
+y expect. We   talk from   time to   time around here about companies or in=
+vestors buying or creating or hoarding or releasing securities in order to =
+get the price of the auction closer to what they want. The outcomes can get=
+ weird. A company that collapses in a pile of rubble could have CDS that pa=
+ys off zero cents on the dollar; a company that is basically fine could do =
+a technical default and have CDS that pays off 100 cents on the dollar.
+Broadly speaking, CDS is a generic bet on the issuer=E2=80=99s creditworthi=
+ness=C2=A0as long as it isn=E2=80=99t too close to default, but it is a hyp=
+erspecific bet on auction mechanics and deliverable securities and intra-cr=
+editor game theory when the issuer is in default.=C2=A0And there is a trans=
+ition zone where, as the issuer=E2=80=99s credit gets worse, people who=C2=
+=A0were=C2=A0reading the issuer=E2=80=99s financial statements to bet on it=
+s business=C2=A0have to switch over to start reading its bond documents to =
+bet on the mechanics.=C2=A0
+And so if you buy CDS on some issuer as a bet against its economic fundamen=
+tals, and those fundamentals deteriorate, then the price of CDS will go up =
+and you will have a big paper gain on your bet, because you are still in th=
+e zone where the CDS acts as a bet on fundamentals. Perhaps you should sell=
+ your CDS and take your profits! Or you can hold on, but as the fundamental=
+s get even worse, they will also get less important, and the dark arts of C=
+DS auction mechanics will become more important.=C2=A0
+Here=E2=80=99s a Wall Street Journal=C2=A0story about Carl Icahn:
+
+Four years ago, legendary Wall Street investor Carl Icahn made a huge bet a=
+gainst the future of the U.S. shopping mall in what was called the Big Shor=
+t 2.0. His wager pitted him against huge asset managers and hedge funds tha=
+t routinely deal in a notoriously complex and contentious market. =C2=A0 =
+=C2=A0
+The bet used credit-default swaps, essentially insurance policies insuring =
+bonds against losses, tied to an index tracking bundles of loans to malls a=
+nd other commercial properties. Purchasers pay a monthly premium, but the p=
+olicies can pay out potentially huge sums if the bonds take a loss. =E2=80=
+=A6
+Now, Icahn, 87 years old, is watching some of his jackpot slip away. In 202=
+2, Icahn Enterprises=E2=80=99 credit-default swap positions took a $742 mil=
+lion paper loss, according to corporate filings, and the firm=E2=80=99s sho=
+rt credit positions have also been losers so far in 2023. Adding insult to =
+injury: When Crossgates [Mall]=E2=80=99s debt recently sold for nearly $100=
+ million less than its previous value, the price was just high enough to av=
+oid triggering a payout on some derivatives Icahn used to bet against malls=
+.
+He now claims this twist shows the deck was stacked against him by his trad=
+ing counterparties, though veterans caution that markets like this one are =
+rife with disputes of this sort.
+=E2=80=9CIn many instances, it=E2=80=99s just a rigged market for billions =
+and billions of dollars,=E2=80=9D Icahn said in an interview.=C2=A0
+
+Icahn bet against the CMBX 6, an index of commercial mortgage-backed securi=
+ties that was heavily weighted toward risky shopping malls, in 2019. It wor=
+ked out great:
+
+When Covid-19 hit the following year, the index crashed and the value of it=
+s derivative CDS contracts surged. Some other funds shorting the CMBX 6 sol=
+d out of positions for big profits, while Icahn=E2=80=99s positions gained =
+about $900 million for the year.=C2=A0
+Icahn increased the size of his bet, according to financial filings.=C2=A0
+=E2=80=9CA lot of these bonds now are in grave danger,=E2=80=9D Icahn told =
+CNBC. =E2=80=9CIt=E2=80=99s like selling insurance to someone who=E2=80=99s=
+ going to go to the electric chair in a couple of months.=E2=80=9D
+
+And then loans to Crossgates Mall defaulted in May 2023, and they were sold=
+ at auction, and =E2=80=9Cthe servicer received a stalking horse offer of $=
+162 million from a small Connecticut hedge fund called Cannae Portfolio Adv=
+isors,=E2=80=9D $40 million higher than the next bid and =E2=80=9Cjust enou=
+gh to ensure that one of the three Crossgates securitizations would avoid l=
+osses that would trigger a CDS payout tied to certain tranches of the debt.=
+=E2=80=9D
+Icahn bet that mall debt would perform poorly, and it did, and he made mone=
+y. And then he kept the bet on, and increased it. But meanwhile the bet its=
+elf shifted: It was no longer a bet that mall debt would perform poorly; it=
+ was now a bet on how an auction for one particular loan would clear. It st=
+opped being a bet on macroeconomic conditions, and became a bet on a poker =
+game. He should have gotten out while he was still right.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Crypto lending
+   =20
+ =20
+
+At a very high level, the way banking works is:
+=09People have money and would like to earn interest on it.=09They put the =
+money in the bank, which lends it to other people, who do stuff =E2=80=94=
+=C2=A0run businesses, buy houses =E2=80=94=C2=A0with the money and pay inte=
+rest to the bank.=09This funds economic activity, and over time, the econom=
+y mostly grows. There are more people, more productivity, more stuff. If I =
+take $100 from you and use it to buy a house or start a business, and I pro=
+mise to pay you back $110 with the proceeds of my house or business, there=
+=E2=80=99s a pretty good chance that I will be able to do that, that the th=
+ing I buy now will be worth more later. I invest the $100 in productive ent=
+erprises, those productive enterprises pay off $120, I pay back the loan wi=
+th interest and have $10 left over for myself.=09Obviously sometimes this d=
+oesn=E2=80=99t work =E2=80=94=C2=A0my business fails, my neighborhood gets =
+cheaper =E2=80=94=C2=A0but the successes should outweigh the failures, and =
+if banks are diversified and well capitalized they=E2=80=99ll be fine and c=
+an pay back their depositors.=09Occasionally the whole system overreaches =
+=E2=80=94=C2=A0all the banks decide, at once, to bet all their money on hom=
+e prices going up =E2=80=94=C2=A0and the bet goes wrong and  there=E2=80=99=
+s a financial crisis.
+
+Broadly, banking is a=C2=A0levered bet on economic growth, and the bet is r=
+isky but usually pays off.
+How does crypto banking work? I think there are three broad ways to conceiv=
+e of it:
+=09=E2=80=9CCrypto=E2=80=9D and=C2=A0=E2=80=9Cbanking=E2=80=9D simply don=
+=E2=80=99t go together. The strict view of some early crypto adopters is th=
+at crypto is an=C2=A0alternative=C2=A0to the leverage of traditional bankin=
+g. Traditional banks hold your money for you and use it to make levered bet=
+s on economic growth, and that is risky, and if you don=E2=80=99t like it y=
+ou can use crypto. You hold your money for yourself, nobody is making any b=
+ets with it, everything is transparent and on the blockchain, there are no =
+intermediaries, there is no hidden leverage or risk of financial crisis. It=
+ feels quaint to me to even type this, but I think this view was pretty inf=
+luential in the early days of crypto.=09Crypto banking is just like regular=
+ banking, a levered bet on economic growth: There are crypto firms, quasi-b=
+anks, that hold people=E2=80=99s cryptocurrency=C2=A0for them and pay them =
+interest, and they use that crypto to invest in productive enterprises that=
+ grow the economy and return enough to pay the interest. They lend out cryp=
+to to people who want to start businesses or buy homes or open factories. A=
+nything is possible! I know from experience that if I write =E2=80=9Cyou do=
+n=E2=80=99t hear much about people borrowing crypto to start real-world bus=
+inesses=C2=A0or buy houses,=E2=80=9D someone will email me to say =E2=80=9C=
+I have a firm that lets people borrow crypto to buy houses on the blockchai=
+n.=E2=80=9D But =E2=80=A6=C2=A0I mean =E2=80=A6=C2=A0not=C2=A0so=C2=A0much?=
+=09Crypto banking is purely financial, a levered bet=C2=A0on the size of th=
+e crypto market. There are crypto firms, quasi-banks, that hold people=E2=
+=80=99s cryptocurrency for them and pay them interest, and they use that cr=
+ypto to invest in more crypto. They lend out crypto to hedge funds that wan=
+t to make levered bets on crypto, and as long as crypto prices generally go=
+ up those hedge funds will make enough money to pay back the loans with int=
+erest and get rich themselves. But=C2=A0nothing productive is happening=C2=
+=A0with these money flows; people are buying tokens but not doing any activ=
+ity that makes anyone better off in the real world. Crypto prices go up bec=
+ause people=C2=A0speculate on crypto, so there is more money in crypto, so =
+it is easier to borrow more money to make more levered bets on crypto, so p=
+rices keep going up, etc., until a slight breeze blows it all over and ther=
+e=E2=80=99s nothing left.
+
+I don=E2=80=99t want to say that that Version 3 is entirely right. Obviousl=
+y some of the money that flowed into crypto produced some stuff that is sti=
+ll used. The market capitalization of all crypto, which peaked at   over $3=
+ trillion in late 2021, is  about $1 trillion now, a huge crash but still a=
+ lot of residual value.
+But I do think that Version 3=C2=A0basically=C2=A0explains the crypto credi=
+t bubble and crash of 2022. Everyone in crypto wanted to pay, and receive, =
+interest, but nobody who was paying that interest even=C2=A0considered=C2=
+=A0investing in productive real-world businesses.
+  [1]
+ And so a group of crypto hedge funds sprang up that would go to crypto qua=
+si-banks and say =E2=80=9Cwe would like to do leveraged speculation on cryp=
+to=E2=80=9D and the quasi-banks were like =E2=80=9Cgreat, perfect, please t=
+ake all of our money,=E2=80=9D and the hedge funds would take all the money=
+ and use it to buy, like, Luna, and then   Luna went to zero and the hedge =
+funds were vaporized and so were the lenders.
+Last week the US  Commodity Futures Trading Commission and  Federal Trade C=
+ommission brought enforcement cases against Stephen Ehrlich, who ran Voyage=
+r Digital Ltd., one of the bankrupt crypto quasi-banks. The  FTC case is st=
+raightforward but insane: Voyager was going around telling customers that t=
+heir deposits of crypto at Voyager were backed by the Federal Deposit Insur=
+ance Corp., but they were not. That=E2=80=99s it. Voyager went bankrupt and=
+=C2=A0customer money was frozen:
+
+In another letter to the bankruptcy court, a consumer lamented that he had =
+put his life savings as well as a portion of his paycheck every month into =
+Voyager for the last few years. As he put it, =E2=80=9CI used Voyager to re=
+place my savings account as it was advertised as FDIC insured, I am now fil=
+led with regret for doing so and fear that I pretty much lost everything fo=
+r trusting this company.=E2=80=9D =E2=80=A6
+To date, consumers have not been able to recover any loss of assets through=
+ Voyager=E2=80=99s supposed FDIC insurance.
+
+The  CFTC case, though, is more about the details of Voyager=E2=80=99s oper=
+ations; the gist is that Voyager was desperate to gamble away its customers=
+=E2=80=99 money, and did:
+
+Voyager transferred large volumes of pooled customer assets to multiple hig=
+h-risk third parties (including Firms A=E2=80=93D), without conducting suff=
+icient diligence. In some instances, Voyager got lucky=E2=80=94for example,=
+ Firms B, C, and D and certain others repaid Voyager.
+With respect to Firm A, Voyager was similarly reckless but, unfortunately f=
+or Voyager=E2=80=99s customers, far less lucky. Voyager transferred Firm A =
+over $650 million worth of digital assets commodities=E2=80=94an amount suf=
+ficient to bankrupt Voyager in the event of nonrepayment=E2=80=94without co=
+nducting any meaningful diligence, and without obtaining even the minimal m=
+aterials (such as audited financials) requested in its bare-bones DDQ [due =
+diligence questionnaire].
+
+Firms A through D were crypto trading firms that borrowed from Voyager to s=
+peculate on cryptocurrencies. Firm A was Three Arrows Capital,
+  [2]
+ perhaps the most spectacular   crypto-trading-firm failure until Alameda R=
+esearch. We have   talked before about an amazing interview that Three Arro=
+ws co-founder Kyle Davies gave after the crash, in which he gloated about h=
+ow little due diligence or collateral lenders demanded before giving him mo=
+ney. The CFTC=E2=80=99s Voyager complaint lays this out from Voyager=E2=80=
+=99s side:
+In or around February 2022, Voyager began discussing with Firm A a potentia=
+l =E2=80=9Cloan=E2=80=9D of significant assets to Firm A. However, instead =
+of proceeding cautiously as a responsible steward of its customers=E2=80=99=
+ assets, Voyager at the time focused more on the profit potential of the re=
+lationship and doing whatever was needed to clear Firm A=E2=80=99s onboardi=
+ng process and diligence of Voyager. For example, on approximately February=
+ 7, 2022, a Voyager senior executive (=E2=80=9CExecutive 1=E2=80=9D) commun=
+icated with Firm A regarding Firm A=E2=80=99s efforts to onboard Voyager fo=
+r lending to Firm A and/or affiliates Firm A controlled. A second Voyager s=
+enior executive (=E2=80=9CExecutive 2=E2=80=9D) forwarded that email to rel=
+evant Voyager personnel, writing =E2=80=9Cthis one could be huge for us. Is=
+ it possible to make this a high priority item?=E2=80=9D
+Voyager tried to do some due diligence, but Three Arrows politely declined:
+
+On approximately February 16, 2022, Firm A emailed Executive 1, Executive 2=
+, and others, noting that Voyager would need to remove the requirement in t=
+he draft Master Loan Agreement to provide audited financial statements: =E2=
+=80=9C[A]s communicated we don=E2=80=99t send financials to lenders . . . .=
+=E2=80=9D Executive 2 forwarded that email internally at Voyager, asking =
+=E2=80=9CLet us know what you think of the attached statements. They are pr=
+oviding us with a [net asset valuation=E2=80=9D (=E2=80=9CNAV=E2=80=9D)] st=
+atement in place of audited financials.=E2=80=9D
+An =E2=80=9CNAV statement=E2=80=9D was not a responsible replacement for au=
+dited financials. Instead of dozens or hundreds of pages of financial infor=
+mation audited by a certified public accountant, a Firm A cofounder provide=
+d a letter titled =E2=80=9CAUM Letter=E2=80=9D containing the following sin=
+gle sentence with zero supporting documentation:
+
+The AUM letter is a bit famous; it goes like this:
+
+To Whom It May Concern,
+We confirm the following for [Firm A] as at 1-January-2022 in millions of U=
+SD.
+NAV 3,729
+
+The CFTC continues:
+
+On February 16, 2022, the same day that Firm A responded to Voyager=E2=80=
+=99s request for audited financial statements with a one-sentence letter, F=
+irm A emailed Executive 2 and others noting that Firm A needed additional d=
+ocuments from Voyager to complete Firm A=E2=80=99s=C2=A0onboarding process.=
+ Executive 2 forwarded to the Voyager employee who was compiling onboarding=
+ documents as well as Ehrlich, asking the Voyager employee =E2=80=9CCan you=
+ please help get this over the line ASAP? This is a high priority for us as=
+ they are going to be a huge borrower. Copying Steve [Ehrlich] for awarenes=
+s and to let him know if you need any of his documents directly from him.=
+=E2=80=9D =E2=80=A6
+During the Firm A diligence process, Voyager personnel did not receive Firm=
+ A income statements, cash flow statements, balance sheets, or even a debt-=
+to-asset ratio. Voyager did not conduct any stress testing of Firm A=E2=80=
+=99s liquidity. Numerous individuals involved in the diligence process did =
+not have a background in credit risk evaluation.
+
+It was not just Three Arrows; Voyager was sending customer money to lots of=
+ crypto hedge funds with limited due diligence, and those funds collapsed t=
+oo:
+During this period, Voyager=E2=80=99s counterparty diligence process was br=
+oken, reflecting an inability or unwillingness to accurately assess counter=
+party risk. For example, on approximately January 28, 2022, Voyager complet=
+ed limited diligence on Firm C, concluding it was =E2=80=9Clow risk.=E2=80=
+=9D Firm C later went bankrupt. Similarly, on approximately February 22, 20=
+22, Voyager completed limited diligence on Firm B, concluding it was =E2=80=
+=9Clow risk.=E2=80=9D On June 13, 2022, while still officially concluding F=
+irm B was low risk, Ehrlich privately confided to a professional athlete, =
+=E2=80=9CMy biggest fear is that [Firm B] is a house of cards. Not for us b=
+ut will blow up the industry[.]=E2=80=9D Firm B later went bankrupt. Simila=
+rly, in connection with a prospective business relationship with Firm D, Vo=
+yager evaluated Firm D as a =E2=80=9Clow risk=E2=80=9D counterparty. Firm D=
+ also went bankrupt in 2022.
+The story here is the one Davies told: Crypto lenders were desperate to fin=
+d a way to pay interest on their deposits, and had no useful place to put t=
+hem. So they put them at Three Arrows, which was doing insanely risky crypt=
+o speculation and shared no information with lenders, but which had been ar=
+ound for a relatively long time (for crypto), and was famous, so it looked =
+relatively safe. Relative to what, though?=C2=A0
+Anyway! Bloomberg=E2=80=99s   Olga Kharif and Anna Irrera report=C2=A0today=
+:
+
+Crypto exchanges seeking to bolster sagging revenues are stepping up lendin=
+g, potentially seeding the market with fresh risks less than a year after t=
+he last major crisis.
+Recently launched programs from the likes of Coinbase Global Inc. and Binan=
+ce come in many different guises, from margin loans meant to stimulate trad=
+ing to facilitating borrowing through their platforms to making direct loan=
+s to clients.
+Crypto lending is still small compared with the leverage bubble that took d=
+own large swathes of the sector when it burst in 2022, and executives say t=
+hey=E2=80=99ve taken pains to avoid a repeat. Yet the comeback risks creati=
+ng new opaque pockets of leverage across crypto markets that could exacerba=
+te the impact of any major correction in prices.
+
+I suppose one broad question you could ask here is not, like, =E2=80=9Cwhat=
+ collateral are they getting for these loans=E2=80=9D but rather =E2=80=9Cw=
+hat sort of productive economic activity are these loans funding?=E2=80=9D =
+If the answer is =E2=80=9Cthey are designed to encourage more trading on cr=
+ypto exchanges=E2=80=9D then, uh.=C2=A0
+
+ =20
+   =20
+      Bitcoin ETF
+   =20
+ =20
+
+The regulatory situation in the US is that there are exchange-traded funds =
+that allow people to speculate on Bitcoin (and Ether), but those funds hold=
+ Bitcoin (or Ether)=C2=A0futures, not actual Bitcoins. The US Securities an=
+d Exchange Commission has, so far, declined to approve spot Bitcoin ETFs (f=
+unds that just hold Bitcoins). It has said that this is because the spot Bi=
+tcoin market is largely unregulated and so there is a risk of manipulation,=
+ whereas Bitcoin futures trade on regulated US exchanges and so are safer. =
+This has always   struck me as incoherent (manipulating the spot market als=
+o manipulates the futures), and in August   a federal appeals court ruled t=
+hat it was =E2=80=9Carbitrary and capricious,=E2=80=9D which probably=C2=A0=
+means that the SEC will have to approve spot Bitcoin ETFs pretty soon.
+But it hasn=E2=80=99t yet! Bloomberg=E2=80=99s   Vildana Hajric reports:
+
+Bitcoin reversed an earlier gain of as much as 10% after BlackRock said tha=
+t its application for an exchange-traded fund that invests directly in the =
+cryptocurrency is still under review.
+=E2=80=9CThe iShares Spot Bitcoin ETF application is still under review by =
+the SEC,=E2=80=9D a spokesperson said. Bitcoin was up about 3% to $28,000 a=
+s of 10:12 a.m. in New York on Monday after briefly jumping to $30,000.
+Speculation swirled on social media that BlackRock, which in June submitted=
+ an application for a spot-Bitcoin ETF, received a green-light from the US =
+Securities and Exchange Commission to launch the first such product in the =
+US. That spurred the surge in the largest coin, though Bitcoin quickly reve=
+rsed the majority of those gains after the rumor was debunked.
+Still, the episode suggests that there remains a lot of excitement and hope=
+ for a spot-Bitcoin product in the US, which regulators have in the past re=
+fused to allow. They=E2=80=99ve previously cited market manipulation, among=
+ other reasons, for not granting an endorsement. However, the incident also=
+ serves as a reminder that Bitcoin=E2=80=99s price can easily be moved by g=
+ossip or hearsay.
+
+Again, I am not=C2=A0that=C2=A0sympathetic to the SEC=E2=80=99s objections =
+to a spot Bitcoin ETF. But this story makes me a little more sympathetic? T=
+he price of Bitcoin jumped by 10% because people on social media were sayin=
+g, falsely, that BlackRock=E2=80=99s spot Bitcoin ETF was approved. Seems l=
+ike the sort of thing that could be manipulated!
+Obviously the Chicago Mercantile Exchange front-month Bitcoin futures also =
+briefly jumped above $30,000 today. If you want to move the price of Bitcoi=
+n=C2=A0futures=C2=A0with gossip and hearsay,=C2=A0that is pretty much exact=
+ly as easy as moving the price of spot Bitcoin with gossip and hearsay, bec=
+ause they are kind of the same price.
+
+ =20
+   =20
+      Two sandwiches
+   =20
+ =20
+
+I used to work at an investment bank and, well, I don=E2=80=99t want to say=
+ that I witnessed anyone abusing their meal allowance, but let=E2=80=99s=C2=
+=A0say that I can easily imagine how it might come about. You finish work e=
+arly but stay at the office an extra 15 minutes just to be able to claim yo=
+ur  $30 dinner allowance. Or you order your dinner and take it home to eat,=
+ rather than being chained to your desk as the meal allowance assumes. You =
+order two cheap items, eat one, and bring one home for your partner, or for=
+ lunch tomorrow. You order dinner for a group of analysts on your desk, it =
+comes to more than $30 per person, and you throw in the names of a few anal=
+ysts who aren=E2=80=99t there so you can use their allowance too. Or you do=
+ one of the seven more creative minor abuses that my readers are going to e=
+mail me about today.
+Again, I am not saying that I witnessed any of this behavior, necessarily, =
+in so many words. But I can imagine it. I can even imagine that the bank wo=
+uldn=E2=80=99t mind it that much. The numbers involved are small, relative =
+to bankers=E2=80=99 pay and to the value of keeping them at work late; an a=
+nalyst=C2=A0scheming to stay later at work=C2=A0is probably good for the ba=
+nk. Also a certain risk appetite and ethical flexibility probably=C2=A0help=
+ too. It=E2=80=99s probably not even worth it for the bank to audit any mea=
+l receipts. If it=E2=80=99s under the allowance, just pay it, who cares.
+On the other hand, if a bank=C2=A0does=C2=A0aggressively audit meal expense=
+s, it might find, let=E2=80=99s say, many many many cases of mild meal-allo=
+wance abuse. And then it can send every involved analyst an email saying =
+=E2=80=9Chey it looks like you ordered two entrees with your allowance, we=
+=E2=80=99re gonna deduct $11.95 from your paycheck, don=E2=80=99t do it aga=
+in.=E2=80=9D And then the bank would save $11.95 per analyst.
+Which is not worth it. But it would also get a=C2=A0few=C2=A0analysts who w=
+rite back indignantly with elaborate fictional stories about the chain of e=
+vents that led to them ordering two entrees with their meal allowances. And=
+ then it could investigate those stories, and if they turn out to be false,=
+ it could=C2=A0fire those analysts, which is=C2=A0good, because=C2=A0they=
+=C2=A0are a real compliance risk.=C2=A0
+Here=E2=80=99s  this guy:
+
+Citibank has won an employment lawsuit against a banker who was dismissed f=
+or submitting an expenses claim that included coffee and sandwiches for his=
+ partner and lying about it.
+Szabolcs Fekete, a senior analyst, sued the bank alleging unfair and wrongf=
+ul dismissal after he was ousted over the expenses he submitted after a thr=
+ee-day work trip to Amsterdam in 2022. ...
+Fekete, who had worked at Citi since 2015, travelled with his partner, who =
+was not a bank employee, on his trip to Amsterdam the tribunal noted. He su=
+bmitted his expenses claim in late July and claimed that the amounts were w=
+ell within the bank=E2=80=99s =E2=82=AC100 a day limit. However, a senior m=
+anager informed him that his expenses claim would be rejected because he be=
+lieved the meals on the receipt had been for two people.
+According to the ruling, which was made public on Friday, Fekete replied by=
+ email that: =E2=80=9CI was on the business trip by myself and that I had 2=
+ coffees as they were very small.=E2=80=9D
+The senior manager questioned his answer, saying: =E2=80=9CThe receipt appe=
+ars to have two sandwiches, two coffees, and another drink=E2=80=89.=E2=80=
+=89.=E2=80=89.=E2=80=89Are you advising that this was all consumed by you?=
+=E2=80=9D
+Fekete replied: =E2=80=9CYes that is correct=E2=80=89.=E2=80=89.=E2=80=89.=
+=E2=80=89On that day I skipped breakfast and only had 1 coffee in the morni=
+ng. For lunch I had 1 sandwich with a drink and 1 coffee in the restaurant =
+and took another coffee back to the office with me and had the second sandw=
+ich in the afternoon=E2=80=89.=E2=80=89.=E2=80=89.=E2=80=89Which also serve=
+d as my dinner.=E2=80=9D ...
+The ruling noted that after further queries from the manager, Fekete replie=
+d: =E2=80=9CAll my expenses are within the =E2=82=AC100 daily allowance. Co=
+uld you please outline what your concern is as I don=E2=80=99t think I have=
+ to justify my eating habits to this extent.=E2=80=9D ...
+Later in August, Fekete confirmed that some of the food had been consumed b=
+y his partner and Citi=E2=80=99s investigation in October concluded that he=
+ had breached the company=E2=80=99s expense management policy and had lied =
+during an internal investigation. =E2=80=A6
+The judge said in the ruling: =E2=80=A6 =E2=80=9CI am satisfied that even i=
+f the expense claim had been filed under a misunderstanding, there was an o=
+bligation upon the claimant to own up and rectify the position at the first=
+ opportunity. I accept that the respondent requires a commitment to honesty=
+ from its employees.=E2=80=9D
+
+Should a senior manager have spent time haggling over a=C2=A0=E2=82=AC100 m=
+eal bill? Not as such, no. Should a senior manager have spent time investig=
+ating and firing a guy who invented elaborate lies to tell his boss in orde=
+r to cover up an unjustified free sandwich? Yes? That=E2=80=99s bad? Being =
+aggressive with expense reports, meh, whatever,=C2=A0maybe on balance a=C2=
+=A0good=C2=A0trait in an investment banker. But writing tons of easily chec=
+kable lies in email and being indignant about it just seems like a bad comp=
+liance risk.
+
+ =20
+   =20
+      Zuzalu
+   =20
+ =20
+
+I guess some foundational=C2=A0questions in crypto are, if you got all the =
+most dedicated crypto enthusiasts in the world together in one place and le=
+t them build a new society together, would that new society run on the bloc=
+kchain? Would it use cryptocurrency for payments? Lol, no.=C2=A0Ethereum fo=
+under Vitalik Buterin threw a two-month-long Ethereum conference at a resor=
+t in Montenegro, and=C2=A0his report on the experience=C2=A0is thoughtful a=
+nd candid:
+Crypto payments, a long-time dream of the Bitcoin and Ethereum communities,=
+ were present but limited. No one even considered governing Zuzalu with a D=
+AO, a decentralized autonomous organization running on a blockchain. A two-=
+hundred-person community lasting for two months was either too short, too s=
+mall, or both for such a thing to really make sense. But these two dreams a=
+re important enough that future experiments, whether run by the Zuzalu comm=
+unity or by independent spinoffs, will undoubtedly make a much more concert=
+ed effort to realize them.
+Blockchain governance and crypto payments might still conquer the world, bu=
+t they couldn=E2=80=99t conquer the two-month Ethereum=C2=A0co-living exper=
+iment.
+
+ =20
+   =20
+      Compass
+   =20
+ =20
+
+I do not have=C2=A0that=C2=A0much occasion to cover financial-industry-adja=
+cent puzzle hunts in this newsletter, but I do have a   little, so=C2=A0 I =
+will mention that the Compass hunt was this past weekend. Sadly I missed it=
+   again, but congratulations to Midnight Marauders, this year=E2=80=99s wi=
+nning team.=C2=A0
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+The   Goldman Banker on a Crucial Mission to Help Juice Its Stock.=C2=A0 Tr=
+ading Stocks Loses Its Thrill: =E2=80=98I Would Get Burned.=E2=80=99=C2=A0O=
+zempic Is Obviously Good For Business.=C2=A0How  Evergrande=E2=80=99s Chief=
+ Tried to Turn Things Around=E2=80=94and Failed.=C2=A0  Rite Aid Files for =
+Bankruptcy as Debt Load, Opioid Risk Rise. These Companies Are Being  Squee=
+zed by Higher Rates. Time Is Running Out for the =E2=80=98  Year of the Bon=
+d=E2=80=99 as Losses Mount. SEC=E2=80=99s New   Hedge Fund Rules Lack an Ac=
+countant=E2=80=99s Precision. Citigroup=E2=80=99s Fraser Plans to Remove   =
+Five Management Layers in Reorganization.   Schwab=E2=80=99s Net Interest R=
+evenue Falls 24% From Client Cash Moves.=C2=A0Why the U.S. Government Has  =
+$5 Billion in Bitcoin. M.B.A. Job-Offers in Short Supply as Tech, Finance, =
+Consulting  Dial Back Recruiting. The Ivy League  Doesn=E2=80=99t Want Fras=
+ier Crane. Introducing=C2=A0The Businessweek Show=C2=A0With Max Abelson.=C2=
+=A0
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Except, ironically,   FTX and Alameda Research, who were sending cust=
+omer money into all sorts of non-crypto venture investments, a few of which=
+ =E2=80=94 in artificial intelligence, for instance =E2=80=94 might pay off=
+. Oh and possibly   Tether, who for all I know might have been investing a =
+lot of crypto money in   Chinese real estate.
+
+
+  [2] You can tell because the =E2=80=9CNAV statement=E2=80=9D cited in the=
+ CFTC complaint  is famous.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjo8xk.5hv0/3b97cff3.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9881819_239639088.1697481292672
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Credit default swaps have two related functions: You can trade CDS to bet o=
+n the creditworthiness of some company (or country, or type of st
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMDE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMTYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB29e24285"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzA0NDAyNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMzMDA0NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB39280df4" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33044024&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33300452&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Icahn CDS bet</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Credit default swaps have two related function=
+s:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You can trade CDS to bet on the credi=
+tworthiness of some company (or country, or type of structured credit, etc.=
+). When the company reports good earnings or otherwise seems to be more cre=
+ditworthy, its CDS price will go down, and people who sold CDS will have a =
+mark-to-market gain. When the company reports bad earnings or otherwise see=
+ms to be falling apart, its CDS price will go up, and people who bought CDS=
+ will have a mark-to-market gain.</li>=09<li style=3D"margin-bottom: 5px;">=
+CDS works as insurance against default. If the company (country, pool of lo=
+ans, etc.) defaults on its debt, then CDS is =E2=80=9Ctriggered,=E2=80=9D t=
+he people who sold CDS have to pay some money to the people who bought CDS,=
+ and there is some fairly complex <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMTgtMDQtMTAvaG92bmFuaWFuLXMtd2VpcmQtY2RzLXRyYWRlLWdldHMtd2=
+VpcmRlcj9jbXBpZD1CQkQxMDE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb=
+3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/=
+607f07ceef4b8524a319a23cBc4a16c08" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  auction process</a> to determi=
+ne how much.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Thing 1=C2=A0<em>sort of=C2=A0</em>works by ba=
+ckward induction from=C2=A0Thing 2: As the creditworthiness of the issuer g=
+oes down, it becomes more likely that the CDS will trigger, which makes it =
+more likely that CDS sellers will have to pay CDS buyers, and in broad stro=
+kes the auction process in Thing 2 means that the sellers pay buyers more t=
+he worse things end up being for the issuer.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But that is approximate, and these things are =
+not=C2=A0<em>that=C2=A0</em>tightly coupled. The actual payout mechanism, u=
+pon a default, is not simply =E2=80=9Cthe CDS pays more the worse the defau=
+lt is.=E2=80=9D In fact there might be an auction with different deliverabl=
+e securities, and there can be a certain amount of gamesmanship in the auct=
+ion, and there are various ways to affect the result to make the payout hig=
+her or lower than you might intuitively expect. We <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDQtMTAvaG92bmFuaWFuLXMtd2VpcmQtY2RzL=
+XRyYWRlLWdldHMtd2VpcmRlcj9jbXBpZD1CQkQxMDE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVt=
+PWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMTYmdXRtX2NhbXBhaWd=
+uPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cCc4a16c08" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">  talk</a> from=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMTEtMjgvc2Vh=
+cnMtZGVmYXVsdC1iZXRzLXBheS1vZmYtZm9yLXNlYXJzP2NtcGlkPUJCRDEwMTYyM19NT05FWVN=
+UVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMT=
+AxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBe1b3d399" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">  time</a> to <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS92aWV3L2FydGljbGVzLzIwMT=
+gtMDUtMDEvYW5vdGhlci13ZWlyZC1kZWFsLXVwc2V0cy1jZHMtdHJhZGVycz9jbXBpZD1CQkQxM=
+DE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1=
+dG1fdGVybT0yMzEwMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23=
+cBb985dc1a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">  time</a> around here about companies or investors buy=
+ing or creating or hoarding or releasing securities in order to get the pri=
+ce of the auction closer to what they want. The outcomes can get weird. A c=
+ompany that collapses in a pile of rubble could have CDS that pays off zero=
+ cents on the dollar; a company that is basically fine could do a technical=
+ default and have CDS that pays off 100 cents on the dollar.</p>
+<p style=3D"margin: 16px 0;">Broadly speaking, CDS is a generic bet on the =
+issuer=E2=80=99s creditworthiness=C2=A0<em>as long as it isn=E2=80=99t too =
+close to default</em>, but it is a hyperspecific bet on auction mechanics a=
+nd deliverable securities and intra-creditor game theory when the issuer is=
+ in default.=C2=A0And there is a transition zone where, as the issuer=E2=80=
+=99s credit gets worse, people who=C2=A0<em>were=C2=A0</em>reading the issu=
+er=E2=80=99s financial statements to bet on its business=C2=A0have to switc=
+h over to start reading its bond documents to bet on the mechanics.=C2=A0</=
+p>
+<p style=3D"margin: 16px 0;">And so if you buy CDS on some issuer as a bet =
+against its economic fundamentals, and those fundamentals deteriorate, then=
+ the price of CDS will go up and you will have a big paper gain on your bet=
+, because you are still in the zone where the CDS acts as a bet on fundamen=
+tals. Perhaps you should sell your CDS and take your profits! Or you can ho=
+ld on, but as the fundamentals get even worse, they will also get less impo=
+rtant, and the dark arts of CDS auction mechanics will become more importan=
+t.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s a Wall Street Journal=C2=A0<a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/aHR0cH=
+M6Ly93d3cud3NqLmNvbS9maW5hbmNlL2ludmVzdGluZy9jYXJsLWljYWhuLWJldC1vbi10aGUtY=
+mlnLXNob3J0LTItMC1ub3ctaGUtc2F5cy10aGUtZ2FtZS13YXMtcmlnZ2VkLTFjZTA5MGFhP21v=
+ZD1pdHBfd3Nq/607f07ceef4b8524a319a23cB62258876" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">story about Carl Ic=
+ahn</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Four years ago, legendary Wall Street investor=
+ Carl Icahn made a huge bet against the future of the U.S. shopping mall in=
+ what was called the Big Short 2.0. His wager pitted him against huge asset=
+ managers and hedge funds that routinely deal in a notoriously complex and =
+contentious market. =C2=A0 =C2=A0</p>
+<p style=3D"margin: 16px 0;">The bet used credit-default swaps, essentially=
+ insurance policies insuring bonds against losses, tied to an index trackin=
+g bundles of loans to malls and other commercial properties. Purchasers pay=
+ a monthly premium, but the policies can pay out potentially huge sums if t=
+he bonds take a loss. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Now, Icahn, 87 years old, is watching some of =
+his jackpot slip away. In 2022, Icahn Enterprises=E2=80=99 credit-default s=
+wap positions took a $742 million paper loss, according to corporate filing=
+s, and the firm=E2=80=99s short credit positions have also been losers so f=
+ar in 2023. Adding insult to injury: When Crossgates [Mall]=E2=80=99s debt =
+recently sold for nearly $100 million less than its previous value, the pri=
+ce was just high enough to avoid triggering a payout on some derivatives Ic=
+ahn used to bet against malls.</p>
+<p style=3D"margin: 16px 0;">He now claims this twist shows the deck was st=
+acked against him by his trading counterparties, though veterans caution th=
+at markets like this one are rife with disputes of this sort.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIn many instances, it=E2=80=99s just =
+a rigged market for billions and billions of dollars,=E2=80=9D Icahn said i=
+n an interview.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Icahn bet against the CMBX 6, an index of comm=
+ercial mortgage-backed securities that was heavily weighted toward risky sh=
+opping malls, in 2019. It worked out great:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">When Covid-19 hit the following year, the inde=
+x crashed and the value of its derivative CDS contracts surged. Some other =
+funds shorting the CMBX 6 sold out of positions for big profits, while Icah=
+n=E2=80=99s positions gained about $900 million for the year.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Icahn increased the size of his bet, according=
+ to financial filings.=C2=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CA lot of these bonds now are in grave=
+ danger,=E2=80=9D Icahn told CNBC. =E2=80=9CIt=E2=80=99s like selling insur=
+ance to someone who=E2=80=99s going to go to the electric chair in a couple=
+ of months.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And then loans to Crossgates Mall defaulted in=
+ May 2023, and they were sold at auction, and =E2=80=9Cthe servicer receive=
+d a stalking horse offer of $162 million from a small Connecticut hedge fun=
+d called Cannae Portfolio Advisors,=E2=80=9D $40 million higher than the ne=
+xt bid and =E2=80=9Cjust enough to ensure that one of the three Crossgates =
+securitizations would avoid losses that would trigger a CDS payout tied to =
+certain tranches of the debt.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Icahn bet that mall debt would perform poorly,=
+ and it did, and he made money. And then he kept the bet on, and increased =
+it. But meanwhile the bet itself shifted: It was no longer a bet that mall =
+debt would perform poorly; it was now a bet on how an auction for one parti=
+cular loan would clear. It stopped being a bet on macroeconomic conditions,=
+ and became a bet on a poker game. He should have gotten out while he was s=
+till right.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzA0NDAyNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMzMDA0NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC09e413ae" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33044024&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33300452&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzA0NDAyNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMzMDA0NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD09e413ae" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33044024&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33300452&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Crypto lending</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">At a very high level, the way banking works is=
+:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">People have money and would like to e=
+arn interest on it.</li>=09<li style=3D"margin-bottom: 5px;">They put the m=
+oney in the bank, which lends it to other people, who do stuff =E2=80=94=C2=
+=A0run businesses, buy houses =E2=80=94=C2=A0with the money and pay interes=
+t to the bank.</li>=09<li style=3D"margin-bottom: 5px;">This funds economic=
+ activity, and over time, the economy mostly grows. There are more people, =
+more productivity, more stuff. If I take $100 from you and use it to buy a =
+house or start a business, and I promise to pay you back $110 with the proc=
+eeds of my house or business, there=E2=80=99s a pretty good chance that I w=
+ill be able to do that, that the thing I buy now will be worth more later. =
+I invest the $100 in productive enterprises, those productive enterprises p=
+ay off $120, I pay back the loan with interest and have $10 left over for m=
+yself.</li>=09<li style=3D"margin-bottom: 5px;">Obviously sometimes this do=
+esn=E2=80=99t work =E2=80=94=C2=A0my business fails, my neighborhood gets c=
+heaper =E2=80=94=C2=A0but the successes should outweigh the failures, and i=
+f banks are diversified and well capitalized they=E2=80=99ll be fine and ca=
+n pay back their depositors.</li>=09<li style=3D"margin-bottom: 5px;">Occas=
+ionally the whole system overreaches =E2=80=94=C2=A0all the banks decide, a=
+t once, to bet all their money on home prices going up =E2=80=94=C2=A0and t=
+he bet goes wrong and <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/33044024.256428/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTWluc2t5X21vbWV=
+udA/607f07ceef4b8524a319a23cB68bcb6ce" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> there=E2=80=99s a financial=
+ crisis</a>.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Broadly, banking is a=C2=A0<em>levered bet on =
+economic growth</em>, and the bet is risky but usually pays off.</p>
+<p style=3D"margin: 16px 0;">How does crypto banking work? I think there ar=
+e three broad ways to conceive of it:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">=E2=80=9CCrypto=E2=80=9D and=C2=A0=E2=
+=80=9Cbanking=E2=80=9D simply don=E2=80=99t go together. The strict view of=
+ some early crypto adopters is that crypto is an=C2=A0<em>alternative=C2=A0=
+</em>to the leverage of traditional banking. Traditional banks hold your mo=
+ney for you and use it to make levered bets on economic growth, and that is=
+ risky, and if you don=E2=80=99t like it you can use crypto. You hold your =
+money for yourself, nobody is making any bets with it, everything is transp=
+arent and on the blockchain, there are no intermediaries, there is no hidde=
+n leverage or risk of financial crisis. It feels quaint to me to even type =
+this, but I think this view was pretty influential in the early days of cry=
+pto.</li>=09<li style=3D"margin-bottom: 5px;">Crypto banking is just like r=
+egular banking, a levered bet on economic growth: There are crypto firms, q=
+uasi-banks, that hold people=E2=80=99s cryptocurrency=C2=A0for them and pay=
+ them interest, and they use that crypto to invest in productive enterprise=
+s that grow the economy and return enough to pay the interest. They lend ou=
+t crypto to people who want to start businesses or buy homes or open factor=
+ies. Anything is possible! I know from experience that if I write =E2=80=9C=
+you don=E2=80=99t hear much about people borrowing crypto to start real-wor=
+ld businesses=C2=A0or buy houses,=E2=80=9D someone will email me to say =E2=
+=80=9CI have a firm that lets people borrow crypto to buy houses on the blo=
+ckchain.=E2=80=9D But =E2=80=A6=C2=A0I mean =E2=80=A6=C2=A0not=C2=A0<em>so=
+=C2=A0</em>much?</li>=09<li style=3D"margin-bottom: 5px;">Crypto banking is=
+ purely financial, a levered bet=C2=A0<em>on the size of the crypto market<=
+/em>. There are crypto firms, quasi-banks, that hold people=E2=80=99s crypt=
+ocurrency for them and pay them interest, and they use that crypto to inves=
+t in more crypto. They lend out crypto to hedge funds that want to make lev=
+ered bets on crypto, and as long as crypto prices generally go up those hed=
+ge funds will make enough money to pay back the loans with interest and get=
+ rich themselves. But=C2=A0<em>nothing productive is happening=C2=A0</em>wi=
+th these money flows; people are buying tokens but not doing any activity t=
+hat makes anyone better off in the real world. Crypto prices go up because =
+people=C2=A0speculate on crypto, so there is more money in crypto, so it is=
+ easier to borrow more money to make more levered bets on crypto, so prices=
+ keep going up, etc., until a slight breeze blows it all over and there=E2=
+=80=99s nothing left.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t want to say that that Version =
+3 is entirely right. Obviously some of the money that flowed into crypto pr=
+oduced some stuff that is still used. The market capitalization of all cryp=
+to, which peaked at <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwM=
+jEtMTEtMDgvY3J5cHRvLXdvcmxkLWhpdHMtMy10cmlsbGlvbi1tYXJrZXQtY2FwLWFzLWV0aGVy=
+LWJpdGNvaW4tZ2Fpbj9jbXBpZD1CQkQxMDE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWl=
+sJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMTYmdXRtX2NhbXBhaWduPW1vbm=
+V5c3R1ZmY/607f07ceef4b8524a319a23cB92aeafb6" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  over $3 trillion</a>=
+ in late 2021, is <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+33044024.256428/aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS8/607f07ceef4b8524a319a23=
+cB3bc8d975" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> about $1 trillion now</a>, a huge crash but still a lo=
+t of residual value.</p>
+<p style=3D"margin: 16px 0;">But I do think that Version 3=C2=A0<em>basical=
+ly=C2=A0</em>explains the crypto credit bubble and crash of 2022. Everyone =
+in crypto wanted to pay, and receive, interest, but nobody who was paying t=
+hat interest even=C2=A0<em>considered=C2=A0</em>investing in productive rea=
+l-world businesses.<a class=3D"footnote-index" href=3D"#footnote-1" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a> And so a group of crypto hedge funds sprang up that would go to crypto=
+ quasi-banks and say =E2=80=9Cwe would like to do leveraged speculation on =
+crypto=E2=80=9D and the quasi-banks were like =E2=80=9Cgreat, perfect, plea=
+se take all of our money,=E2=80=9D and the hedge funds would take all the m=
+oney and use it to buy, like, Luna, and then <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTEvdGVycmEtZmxvcHM_Y21waWQ9QkJEMTAxNjI=
+zX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3=
+Rlcm09MjMxMDE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB1c7=
+58981" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  Luna went to zero</a> and the hedge funds were vaporized a=
+nd so were the lenders.</p>
+<p style=3D"margin: 16px 0;">Last week the US <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cuY2Z0Yy5nb3YvUHJ=
+lc3NSb29tL1ByZXNzUmVsZWFzZXMvODgwNS0yMw/607f07ceef4b8524a319a23cB47342de7" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> Commodity Futures Trading Commission</a> and <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cuZnRjLmd=
+vdi9sZWdhbC1saWJyYXJ5L2Jyb3dzZS9jYXNlcy1wcm9jZWVkaW5ncy8yMjIzMTQ5LXZveWFnZX=
+ItZGlnaXRhbC1sbGMtZXQtYWwtZnRjLXY/607f07ceef4b8524a319a23cB9657864c" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Federal Trade Commission</a> brought enforcement cases against Stephen E=
+hrlich, who ran Voyager Digital Ltd., one of the bankrupt crypto quasi-bank=
+s. The <a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.25=
+6428/aHR0cHM6Ly93d3cuZnRjLmdvdi9zeXN0ZW0vZmlsZXMvZnRjX2dvdi9wZGYvdm95YWdlcl=
+9jb21wbGFpbnRfZmlsZWQucGRm/607f07ceef4b8524a319a23cBa844e08c" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> FTC =
+case</a> is straightforward but insane: Voyager was going around telling cu=
+stomers that their deposits of crypto at Voyager were backed by the Federal=
+ Deposit Insurance Corp., but they were not. That=E2=80=99s it. Voyager wen=
+t bankrupt and=C2=A0customer money was frozen:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In another letter to the bankruptcy court, a c=
+onsumer lamented that he had put his life savings as well as a portion of h=
+is paycheck every month into Voyager for the last few years. As he put it, =
+=E2=80=9CI used Voyager to replace my savings account as it was advertised =
+as FDIC insured, I am now filled with regret for doing so and fear that I p=
+retty much lost everything for trusting this company.=E2=80=9D =E2=80=A6</p=
+>
+<p style=3D"margin: 16px 0;">To date, consumers have not been able to recov=
+er any loss of assets through Voyager=E2=80=99s supposed FDIC insurance.</p=
+>
+</blockquote>
+<p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/33044024.256428/aHR0cHM6Ly93d3cuY2Z0Yy5nb3YvbWVkaWEvOTQ0Ni9l=
+bmZzdGVwaGVuZWhybGljaGNvbXBsYWludDEwMTIyMy9kb3dubG9hZA/607f07ceef4b8524a319=
+a23cBa6442c32" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> CFTC case</a>, though, is more about the details of=
+ Voyager=E2=80=99s operations; the gist is that Voyager was desperate to ga=
+mble away its customers=E2=80=99 money, and did:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Voyager transferred large volumes of pooled cu=
+stomer assets to multiple high-risk third parties (including Firms A=E2=80=
+=93D), without conducting sufficient diligence. In some instances, Voyager =
+got lucky=E2=80=94for example, Firms B, C, and D and certain others repaid =
+Voyager.</p>
+<p style=3D"margin: 16px 0;">With respect to Firm A, Voyager was similarly =
+reckless but, unfortunately for Voyager=E2=80=99s customers, far less lucky=
+. Voyager transferred Firm A over $650 million worth of digital assets comm=
+odities=E2=80=94an amount sufficient to bankrupt Voyager in the event of no=
+nrepayment=E2=80=94without conducting any meaningful diligence, and without=
+ obtaining even the minimal materials (such as audited financials) requeste=
+d in its bare-bones DDQ [due diligence questionnaire].</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Firms A through D were crypto trading firms th=
+at borrowed from Voyager to speculate on cryptocurrencies. Firm A was Three=
+ Arrows Capital,<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: none !important; backgro=
+und-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a> perhaps the most spectacular <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjMtMDYtMTIvdGhyZWUtYXJyb3dzLWhhZC1hLWZ1bi1idWJibGU_Y21waW=
+Q9QkJEMTAxNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZ=
+XR0ZXImdXRtX3Rlcm09MjMxMDE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b852=
+4a319a23cB01ddbd90" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  crypto-trading-firm failure</a> until Alame=
+da Research. We have <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMjItMTItMDUvY3J5cHRvLWhhZC1hLWNyZWRpdC1idWJibGU_Y21waWQ9QkJEMTAxNjIzX01=
+PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm=
+09MjMxMDE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB55fbbe4=
+f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  talked before</a> about an amazing interview that Three Arro=
+ws co-founder Kyle Davies gave after the crash, in which he gloated about h=
+ow little due diligence or collateral lenders demanded before giving him mo=
+ney. The CFTC=E2=80=99s Voyager complaint lays this out from Voyager=E2=80=
+=99s side:</p>
+<blockquote><p style=3D"margin: 16px 0;">In or around February 2022, Voyage=
+r began discussing with Firm A a potential =E2=80=9Cloan=E2=80=9D of signif=
+icant assets to Firm A. However, instead of proceeding cautiously as a resp=
+onsible steward of its customers=E2=80=99 assets, Voyager at the time focus=
+ed more on the profit potential of the relationship and doing whatever was =
+needed to clear Firm A=E2=80=99s onboarding process and diligence of Voyage=
+r. For example, on approximately February 7, 2022, a Voyager senior executi=
+ve (=E2=80=9CExecutive 1=E2=80=9D) communicated with Firm A regarding Firm =
+A=E2=80=99s efforts to onboard Voyager for lending to Firm A and/or affilia=
+tes Firm A controlled. A second Voyager senior executive (=E2=80=9CExecutiv=
+e 2=E2=80=9D) forwarded that email to relevant Voyager personnel, writing =
+=E2=80=9Cthis one could be huge for us. Is it possible to make this a high =
+priority item?=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">Voyager tried to do some due diligence, but Th=
+ree Arrows politely declined:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On approximately February 16, 2022, Firm A ema=
+iled Executive 1, Executive 2, and others, noting that Voyager would need t=
+o remove the requirement in the draft Master Loan Agreement to provide audi=
+ted financial statements: =E2=80=9C[A]s communicated we don=E2=80=99t send =
+financials to lenders . . . .=E2=80=9D Executive 2 forwarded that email int=
+ernally at Voyager, asking =E2=80=9CLet us know what you think of the attac=
+hed statements. They are providing us with a [net asset valuation=E2=80=9D =
+(=E2=80=9CNAV=E2=80=9D)] statement in place of audited financials.=E2=80=9D=
+</p>
+<p style=3D"margin: 16px 0;">An =E2=80=9CNAV statement=E2=80=9D was not a r=
+esponsible replacement for audited financials. Instead of dozens or hundred=
+s of pages of financial information audited by a certified public accountan=
+t, a Firm A cofounder provided a letter titled =E2=80=9CAUM Letter=E2=80=9D=
+ containing the following single sentence with zero supporting documentatio=
+n:</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The AUM letter <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33044024.256428/aHR0cHM6Ly9jb2ludGVsZWdyYXBoLmNvb=
+S9tYWdhemluZS8zYWMtb3BueC1hc2lhLWV4cHJlc3Mv/607f07ceef4b8524a319a23cB8a6e76=
+90" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">is a bit famous</a>; it goes like this:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">To Whom It May Concern,</p>
+<p style=3D"margin: 16px 0;">We confirm the following for [Firm A] as at 1-=
+January-2022 in millions of USD.</p>
+<p style=3D"margin: 16px 0;"><strong>NAV 3,729</strong></p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The CFTC continues:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On February 16, 2022, the same day that Firm A=
+ responded to Voyager=E2=80=99s request for audited financial statements wi=
+th a one-sentence letter, Firm A emailed Executive 2 and others noting that=
+ Firm A needed additional documents from Voyager to complete Firm A=E2=80=
+=99s=C2=A0onboarding process. Executive 2 forwarded to the Voyager employee=
+ who was compiling onboarding documents as well as Ehrlich, asking the Voya=
+ger employee =E2=80=9CCan you please help get this over the line ASAP? This=
+ is a high priority for us as they are going to be a huge borrower. Copying=
+ Steve [Ehrlich] for awareness and to let him know if you need any of his d=
+ocuments directly from him.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">During the Firm A diligence process, Voyager p=
+ersonnel did not receive Firm A income statements, cash flow statements, ba=
+lance sheets, or even a debt-to-asset ratio. Voyager did not conduct any st=
+ress testing of Firm A=E2=80=99s liquidity. Numerous individuals involved i=
+n the diligence process did not have a background in credit risk evaluation=
+.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It was not just Three Arrows; Voyager was send=
+ing customer money to lots of crypto hedge funds with limited due diligence=
+, and those funds collapsed too:</p>
+<blockquote><p style=3D"margin: 16px 0;">During this period, Voyager=E2=80=
+=99s counterparty diligence process was broken, reflecting an inability or =
+unwillingness to accurately assess counterparty risk. For example, on appro=
+ximately January 28, 2022, Voyager completed limited diligence on Firm C, c=
+oncluding it was =E2=80=9Clow risk.=E2=80=9D Firm C later went bankrupt. Si=
+milarly, on approximately February 22, 2022, Voyager completed limited dili=
+gence on Firm B, concluding it was =E2=80=9Clow risk.=E2=80=9D On June 13, =
+2022, while still officially concluding Firm B was low risk, Ehrlich privat=
+ely confided to a professional athlete, =E2=80=9CMy biggest fear is that [F=
+irm B] is a house of cards. Not for us but will blow up the industry[.]=E2=
+=80=9D Firm B later went bankrupt. Similarly, in connection with a prospect=
+ive business relationship with Firm D, Voyager evaluated Firm D as a =E2=80=
+=9Clow risk=E2=80=9D counterparty. Firm D also went bankrupt in 2022.</p></=
+blockquote>
+<p style=3D"margin: 16px 0;">The story here is the one Davies told: Crypto =
+lenders were desperate to find a way to pay interest on their deposits, and=
+ had no useful place to put them. So they put them at Three Arrows, which w=
+as doing insanely risky crypto speculation and shared no information with l=
+enders, but which had been around for a relatively long time (for crypto), =
+and was famous, so it looked relatively safe. Relative to what, though?=C2=
+=A0</p>
+<p style=3D"margin: 16px 0;">Anyway! Bloomberg=E2=80=99s <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMTYvY3J5cHRvLWxlbmRpbmctcmV0dXJ=
+ucy1jb2luYmFzZS1iaW5hbmNlLXRyeS10by1yZXZpdmUtcmV2ZW51ZXM_Y21waWQ9QkJEMTAxNj=
+IzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjMxMDE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB74=
+6e7f46" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  Olga Kharif and Anna Irrera report=C2=A0<em>today</em></a=
+>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Crypto exchanges seeking to bolster sagging re=
+venues are stepping up lending, potentially seeding the market with fresh r=
+isks less than a year after the last major crisis.</p>
+<p style=3D"margin: 16px 0;">Recently launched programs from the likes of C=
+oinbase Global Inc. and Binance come in many different guises, from margin =
+loans meant to stimulate trading to facilitating borrowing through their pl=
+atforms to making direct loans to clients.</p>
+<p style=3D"margin: 16px 0;">Crypto lending is still small compared with th=
+e leverage bubble that took down large swathes of the sector when it burst =
+in 2022, and executives say they=E2=80=99ve taken pains to avoid a repeat. =
+Yet the comeback risks creating new opaque pockets of leverage across crypt=
+o markets that could exacerbate the impact of any major correction in price=
+s.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I suppose one broad question you could ask her=
+e is not, like, =E2=80=9Cwhat collateral are they getting for these loans=
+=E2=80=9D but rather =E2=80=9Cwhat sort of productive economic activity are=
+ these loans funding?=E2=80=9D If the answer is =E2=80=9Cthey are designed =
+to encourage more trading on crypto exchanges=E2=80=9D then, uh.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bitcoin ETF</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The regulatory situation in the US is that the=
+re are exchange-traded funds that allow people to speculate on Bitcoin (and=
+ Ether), but those funds hold Bitcoin (or Ether)=C2=A0<em>futures</em>, not=
+ actual Bitcoins. The US Securities and Exchange Commission has, so far, de=
+clined to approve spot Bitcoin ETFs (funds that just hold Bitcoins). It has=
+ said that this is because the spot Bitcoin market is largely unregulated a=
+nd so there is a risk of manipulation, whereas Bitcoin futures trade on reg=
+ulated US exchanges and so are safer. This has always <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMDcvZnR4LXdhbnRzLWl0cy1iaXRjb2=
+lucy1iYWNrLWZyb20tZ3JheXNjYWxlP2NtcGlkPUJCRDEwMTYyM19NT05FWVNUVUZGJnV0bV9tZ=
+WRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTAxNiZ1dG1fY2Ft=
+cGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBaebddd51" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">  struck =
+me</a> as incoherent (manipulating the spot market also manipulates the fut=
+ures), and in August <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMjMtMDgtMjkvZ3JheXNjYWxlLWNhbi1iZS1hLWJpdGNvaW4tZXRmP2NtcGlkPUJCRDEwMTY=
+yM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV=
+90ZXJtPTIzMTAxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBd=
+05bcc32" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  a federal appeals court ruled</a> that it was =E2=80=9Ca=
+rbitrary and capricious,=E2=80=9D which <em>probably=C2=A0</em>means that t=
+he SEC will have to approve spot Bitcoin ETFs pretty soon.</p>
+<p style=3D"margin: 16px 0;">But it hasn=E2=80=99t yet! Bloomberg=E2=80=99s=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMTYvYml0Y29p=
+bi1zdXJnZXMtYWJvdmUtMzAtMDAwLW9uLWV0Zi1hcHByb3ZhbC1zcGVjdWxhdGlvbj9jbXBpZD1=
+CQkQxMDE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMzEwMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cB0bd333b7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  Vildana Hajric reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Bitcoin reversed an earlier gain of as much as=
+ 10% after BlackRock said that its application for an exchange-traded fund =
+that invests directly in the cryptocurrency is still under review.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe iShares Spot Bitcoin ETF applicat=
+ion is still under review by the SEC,=E2=80=9D a spokesperson said. Bitcoin=
+ was up about 3% to $28,000 as of 10:12 a.m. in New York on Monday after br=
+iefly jumping to $30,000.</p>
+<p style=3D"margin: 16px 0;">Speculation swirled on social media that Black=
+Rock, which in June submitted an application for a spot-Bitcoin ETF, receiv=
+ed a green-light from the US Securities and Exchange Commission to launch t=
+he first such product in the US. That spurred the surge in the largest coin=
+, though Bitcoin quickly reversed the majority of those gains after the rum=
+or was debunked.</p>
+<p style=3D"margin: 16px 0;">Still, the episode suggests that there remains=
+ a lot of excitement and hope for a spot-Bitcoin product in the US, which r=
+egulators have in the past refused to allow. They=E2=80=99ve previously cit=
+ed market manipulation, among other reasons, for not granting an endorsemen=
+t. However, the incident also serves as a reminder that Bitcoin=E2=80=99s p=
+rice can easily be moved by gossip or hearsay.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Again, I am not=C2=A0<em>that=C2=A0</em>sympat=
+hetic to the SEC=E2=80=99s objections to a spot Bitcoin ETF. But this story=
+ makes me a little more sympathetic? The price of Bitcoin jumped by 10% bec=
+ause people on social media were saying, falsely, that BlackRock=E2=80=99s =
+spot Bitcoin ETF was approved. Seems like the sort of thing that could be m=
+anipulated!</p>
+<p style=3D"margin: 16px 0;">Obviously the Chicago Mercantile Exchange fron=
+t-month Bitcoin futures also briefly jumped above $30,000 today. If you wan=
+t to move the price of Bitcoin=C2=A0<em>futures=C2=A0</em>with gossip and h=
+earsay,=C2=A0that is pretty much exactly as easy as moving the price of spo=
+t Bitcoin with gossip and hearsay, because they are kind of the same price.=
+</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Two sandwiches</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I used to work at an investment bank and, well=
+, I don=E2=80=99t want to say that I witnessed anyone abusing their meal al=
+lowance, but let=E2=80=99s=C2=A0say that I can easily imagine how it might =
+come about. You finish work early but stay at the office an extra 15 minute=
+s just to be able to claim your <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33044024.256428/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjIvMDQvMTkvZ29sZ=
+G1hbi1zYWNocy1yYWlzZXMtZGFpbHktZGlubmVyLWFsbG93YW5jZS1ieS01LWFmdGVyLWNvbXBs=
+YWludHMv/607f07ceef4b8524a319a23cB268f6e4c" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> $30</a> dinner allowan=
+ce. Or you order your dinner and take it home to eat, rather than being cha=
+ined to your desk as the meal allowance assumes. You order two cheap items,=
+ eat one, and bring one home for your partner, or for lunch tomorrow. You o=
+rder dinner for a group of analysts on your desk, it comes to more than $30=
+ per person, and you throw in the names of a few analysts who aren=E2=80=99=
+t there so you can use their allowance too. Or you do one of the seven more=
+ creative minor abuses that my readers are going to email me about today.</=
+p>
+<p style=3D"margin: 16px 0;">Again, I am not <em>saying </em>that I witness=
+ed any of this behavior, necessarily, in so many words. But I can imagine i=
+t. I can even imagine that the bank wouldn=E2=80=99t mind it that much. The=
+ numbers involved are small, relative to bankers=E2=80=99 pay and to the va=
+lue of keeping them at work late; an analyst=C2=A0<em>scheming to stay late=
+r at work=C2=A0</em>is probably good for the bank. Also a certain risk appe=
+tite and ethical flexibility probably=C2=A0help too. It=E2=80=99s probably =
+not even worth it for the bank to audit any meal receipts. If it=E2=80=99s =
+under the allowance, just pay it, who cares.</p>
+<p style=3D"margin: 16px 0;">On the other hand, if a bank=C2=A0<em>does=C2=
+=A0</em>aggressively audit meal expenses, it might find, let=E2=80=99s say,=
+ many many many cases of mild meal-allowance abuse. And then it can send ev=
+ery involved analyst an email saying =E2=80=9Chey it looks like you ordered=
+ two entrees with your allowance, we=E2=80=99re gonna deduct $11.95 from yo=
+ur paycheck, don=E2=80=99t do it again.=E2=80=9D And then the bank would sa=
+ve $11.95 per analyst.</p>
+<p style=3D"margin: 16px 0;">Which is not worth it. But it would also get a=
+=C2=A0<em>few=C2=A0</em>analysts who write back indignantly with elaborate =
+fictional stories about the chain of events that led to them ordering two e=
+ntrees with their meal allowances. And then it could investigate those stor=
+ies, and if they turn out to be false, it could=C2=A0fire those analysts, w=
+hich is=C2=A0good, because=C2=A0they=C2=A0are a real compliance risk.=C2=A0=
+</p>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlb=
+nQvYTc5MzQxMTEtZmQ1Ny00YmJkLWJkMzktNmMyOTUyMzYxNzVk/607f07ceef4b8524a319a23=
+cB4ada4eea" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> this guy</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Citibank has won an employment lawsuit against=
+ a banker who was dismissed for submitting an expenses claim that included =
+coffee and sandwiches for his partner and lying about it.</p>
+<p style=3D"margin: 16px 0;">Szabolcs Fekete, a senior analyst, sued the ba=
+nk alleging unfair and wrongful dismissal after he was ousted over the expe=
+nses he submitted after a three-day work trip to Amsterdam in 2022. ...</p>
+<p style=3D"margin: 16px 0;">Fekete, who had worked at Citi since 2015, tra=
+velled with his partner, who was not a bank employee, on his trip to Amster=
+dam the tribunal noted. He submitted his expenses claim in late July and cl=
+aimed that the amounts were well within the bank=E2=80=99s =E2=82=AC100 a d=
+ay limit. However, a senior manager informed him that his expenses claim wo=
+uld be rejected because he believed the meals on the receipt had been for t=
+wo people.</p>
+<p style=3D"margin: 16px 0;">According to the ruling, which was made public=
+ on Friday, Fekete replied by email that: =E2=80=9CI was on the business tr=
+ip by myself and that I had 2 coffees as they were very small.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">The senior manager questioned his answer, sayi=
+ng: =E2=80=9CThe receipt appears to have two sandwiches, two coffees, and a=
+nother drink=E2=80=89.=E2=80=89.=E2=80=89.=E2=80=89Are you advising that th=
+is was all consumed by you?=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Fekete replied: =E2=80=9CYes that is correct=
+=E2=80=89.=E2=80=89.=E2=80=89.=E2=80=89On that day I skipped breakfast and =
+only had 1 coffee in the morning. For lunch I had 1 sandwich with a drink a=
+nd 1 coffee in the restaurant and took another coffee back to the office wi=
+th me and had the second sandwich in the afternoon=E2=80=89.=E2=80=89.=E2=
+=80=89.=E2=80=89Which also served as my dinner.=E2=80=9D ...</p>
+<p style=3D"margin: 16px 0;">The ruling noted that after further queries fr=
+om the manager, Fekete replied: =E2=80=9CAll my expenses are within the =E2=
+=82=AC100 daily allowance. Could you please outline what your concern is as=
+ I don=E2=80=99t think I have to justify my eating habits to this extent.=
+=E2=80=9D ...</p>
+<p style=3D"margin: 16px 0;">Later in August, Fekete confirmed that some of=
+ the food had been consumed by his partner and Citi=E2=80=99s investigation=
+ in October concluded that he had breached the company=E2=80=99s expense ma=
+nagement policy and had lied during an internal investigation. =E2=80=A6</p=
+>
+<p style=3D"margin: 16px 0;">The judge said in the ruling: =E2=80=A6 =E2=80=
+=9CI am satisfied that even if the expense claim had been filed under a mis=
+understanding, there was an obligation upon the claimant to own up and rect=
+ify the position at the first opportunity. I accept that the respondent req=
+uires a commitment to honesty from its employees.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Should a senior manager have spent time haggli=
+ng over a=C2=A0=E2=82=AC100 meal bill? Not as such, no. Should a senior man=
+ager have spent time investigating and firing a guy who invented elaborate =
+lies to tell his boss in order to cover up an unjustified free sandwich? Ye=
+s? That=E2=80=99s bad? Being aggressive with expense reports, meh, whatever=
+,=C2=A0maybe on balance a=C2=A0<em>good=C2=A0</em>trait in an investment ba=
+nker. But writing tons of easily checkable lies in email and being indignan=
+t about it just seems like a bad compliance risk.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Zuzalu</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I guess some foundational=C2=A0questions in cr=
+ypto are, if you got all the most dedicated crypto enthusiasts in the world=
+ together in one place and let them build a new society together, would tha=
+t new society run on the blockchain? Would it use cryptocurrency for paymen=
+ts? Lol, no.=C2=A0Ethereum founder Vitalik Buterin threw a two-month-long E=
+thereum conference at a resort in Montenegro, and=C2=A0<a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cucGFsbG=
+FkaXVtbWFnLmNvbS8yMDIzLzEwLzA2L3doeS1pLWJ1aWx0LXp1emFsdS8_cmVmPXRoZWJyb3dzZ=
+XIuY29t/607f07ceef4b8524a319a23cB5b752a0e" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">his report on the experi=
+ence</a>=C2=A0is thoughtful and candid:</p>
+<blockquote><p style=3D"margin: 16px 0;">Crypto payments, a long-time dream=
+ of the Bitcoin and Ethereum communities, were present but limited. No one =
+even considered governing Zuzalu with a DAO, a decentralized autonomous org=
+anization running on a blockchain. A two-hundred-person community lasting f=
+or two months was either too short, too small, or both for such a thing to =
+really make sense. But these two dreams are important enough that future ex=
+periments, whether run by the Zuzalu community or by independent spinoffs, =
+will undoubtedly make a much more concerted effort to realize them.</p></bl=
+ockquote>
+<p style=3D"margin: 16px 0;">Blockchain governance and crypto payments migh=
+t still conquer the world, but they couldn=E2=80=99t conquer the two-month =
+Ethereum=C2=A0co-living experiment.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Compass</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I do not have=C2=A0<em>that=C2=A0</em>much occ=
+asion to cover financial-industry-adjacent puzzle hunts in this newsletter,=
+ but I do have a <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+3044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MTctMDktMTkvbWVtb3J5LW1vcnRnYWdlcy1hbmQtcHV6emxlcz9jbXBpZD1CQkQxMDE2MjNfTU9=
+ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT=
+0yMzEwMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe5546ec0=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">  little</a>, so=C2=A0 I will mention that <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly9nb29kc2hlcGhl=
+cmRzLm9yZy9nb29kLXNoZXBoZXJkcy1jb21wYXNzLWxhdGUtbmlnaHQtcHV6emxlLWh1bnQtZnV=
+uZHJhaXNlci1yZXR1cm5zLXRvLW55Yy8/607f07ceef4b8524a319a23cB8a6a2ff1" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>the Compass hunt</a> was this past weekend. Sadly I missed it <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMjEvbWF0dC1sZXZpbmUtc=
+y1tb25leS1zdHVmZi1kb25hbGQtdHJ1bXAtZG9lcy1hLXNwYWM_Y21waWQ9QkJEMTAxNjIzX01P=
+TkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm0=
+9MjMxMDE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5607fbf9=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">  again</a>, but congratulations to Midnight Marauders, this year=
+=E2=80=99s winning team.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjMtMTAtMTUvbWVldC10aGUtZ29sZG1hbi1zYWNocy1iYW5rZXItdGFza2VkLXd=
+pdGgtanVpY2luZy1ncy1zdG9jaz9jbXBpZD1CQkQxMDE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMTYmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB3e1d401e" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  Goldman</a>=
+ Banker on a Crucial Mission to Help Juice Its Stock.=C2=A0<a href=3D"https=
+://link.mail.bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cud3=
+NqLmNvbS9maW5hbmNlL3N0b2Nrcy90cmFkaW5nLXN0b2Nrcy1sb3Nlcy1pdHMtdGhyaWxsLWktd=
+291bGQtZ2V0LWJ1cm5lZC00M2JhYjYxNQ/607f07ceef4b8524a319a23cB9584fde2" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Trading Stocks</a> Loses Its Thrill: =E2=80=98I Would Get Burned.=E2=80=
+=99=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.=
+256428/aHR0cHM6Ly93d3cuam9zaGJhcnJvLmNvbS9wL296ZW1waWMtaXMtb2J2aW91c2x5LWdv=
+b2QtZm9yLWJ1c2luZXNz/607f07ceef4b8524a319a23cB1a47b9d2" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">Ozempic</a>=
+ Is Obviously Good For Business.=C2=A0How <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cud3NqLmNvbS93b3JsZC9=
+jaGluYS9ob3ctZXZlcmdyYW5kZXMtY2hpZWYtdHJpZWQtdG8tdHVybi10aGluZ3MtYXJvdW5kYW=
+5kLWZhaWxlZC1lYjI4NzY5P21vZD1ocF9sZWFkX3BvczEw/607f07ceef4b8524a319a23cB1ff=
+3d603" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Evergrande=E2=80=99s</a> Chief Tried to Turn Things Around=
+=E2=80=94and Failed.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGV=
+zLzIwMjMtMTAtMTYvcml0ZS1haWQtZmlsZXMtZm9yLWJhbmtydXB0Y3ktYXMtbGlhYmlsaXRpZX=
+MtcGlsZS11cD9jbXBpZD1CQkQxMDE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cB1cd582a9" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  Rite Aid</a> Files for Ban=
+kruptcy as Debt Load, Opioid Risk Rise. These Companies Are Being <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/aHR0cHM6L=
+y93d3cud3NqLmNvbS9maW5hbmNlL2JhbmtpbmcvdGhlc2UtY29tcGFuaWVzLWFyZS1iZWluZy1z=
+cXVlZXplZC1ieS1oaWdoZXItcmF0ZXMtNzY1ZWVkODM_bW9kPWl0cF93c2o/607f07ceef4b852=
+4a319a23cB9eefa1bf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Squeezed by Higher Rates</a>. Time Is Runnin=
+g Out for the =E2=80=98<a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjMtMTAtMTUvdGltZS1pcy1ydW5uaW5nLW91dC1mb3ItdGhlLXllYXItb2YtdGhlLWJvbmQtY=
+XMtbG9zc2VzLW1vdW50P2NtcGlkPUJCRDEwMTYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTAxNiZ1dG1fY2FtcGFpZ249bW9=
+uZXlzdHVmZg/607f07ceef4b8524a319a23cBbe48c4c5" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">  Year of the Bond</=
+a>=E2=80=99 as Losses Mount. SEC=E2=80=99s New <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTAtMTYvc2VjLXMtbmV3LWhlZGdlLWZ1bmQtcnVsZ=
+XMtbGFjay1hbi1hY2NvdW50YW50LXMtcHJlY2lzaW9uP2NtcGlkPUJCRDEwMTYyM19NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTA=
+xNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB64c966af" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  Hedge Fund Rules</a> Lack an Accountant=E2=80=99s Precision. Citigrou=
+p=E2=80=99s Fraser Plans to Remove <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjMtMTAtMTMvY2l0aS1zLWZyYXNlci10by1yZW1vdmUtZml2ZS1tYW5hZ2VtZ=
+W50LWxheWVycy1pbi1yZW9yZ2FuaXphdGlvbj9jbXBpZD1CQkQxMDE2MjNfTU9ORVlTVFVGRiZ1=
+dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMTYmdXR=
+tX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB009efe31" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">  F=
+ive Management Layers</a> in Reorganization. <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMTYvc2Nod2FiLXMtbmV0LWludGVyZXN0LXJldmVudWU=
+tZmFsbHMtMjQtZnJvbS1jYXNoLXNvcnRpbmctd29lcz9jbXBpZD1CQkQxMDE2MjNfTU9ORVlTVF=
+VGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwM=
+TYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB081051b3" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  Schwab=E2=80=99s</a> Net Interest Revenue Falls 24% From Client Cash M=
+oves.=C2=A0Why the U.S. Government Has <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2=
+N1cnJlbmNpZXMvZmVkZXJhbC1nb3Zlcm5tZW50LWJpdGNvaW4tNS1iaWxsaW9uLTc4Y2UwOTM4P=
+21vZD1pdHBfd3Nq/607f07ceef4b8524a319a23cB8248c9d3" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> $5 Billion in B=
+itcoin</a>. M.B.A. Job-Offers in Short Supply as Tech, Finance, Consulting =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/aH=
+R0cHM6Ly93d3cud3NqLmNvbS9saWZlc3R5bGUvY2FyZWVycy9tLWItYS1qb2Itb2ZmZXJzLWluL=
+XNob3J0LXN1cHBseS1hcy10ZWNoLWZpbmFuY2UtY29uc3VsdGluZy1kaWFsLWJhY2stcmVjcnVp=
+dGluZy0zZjkwY2NjND9tb2Q9aHBfbGVhZF9wb3M0/607f07ceef4b8524a319a23cB420d3549"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Dial Back Recruiting</a>. The Ivy League <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cudnVsdHVyZS=
+5jb20vYXJ0aWNsZS9mcmFzaWVyLXJlYm9vdC1pcy1oZS1xdWFsaWZpZWQtaGFydmFyZC1wcm9mZ=
+XNzb3IuaHRtbCNfZ2E9Mi4xMDE5MDY4ODEuMTM3NTI5NDQxOS4xNjk3MjA4MDQ4LTE2NTcwMDQy=
+MDIuMTUzMzI5Nzg2Nw/607f07ceef4b8524a319a23cBe557f306" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Doesn=E2=80=
+=99t Want Frasier Crane</a>. Introducing=C2=A0<a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMTMvYmxvb21iZXJnLWJ1c2luZXNzd2Vlay1zaG93LX=
+dpdGgtbWF4LWFiZWxzb24tdG8tZm9jdXMtb24tbW9uZXktcG93ZXItYW5kLXN0dWZmP2NtcGlkP=
+UJCRDEwMTYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0=
+dGVyJnV0bV90ZXJtPTIzMTAxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524=
+a319a23cB729527a3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"><em>The Businessweek Show</em></a>=C2=A0With Max=
+ Abelson.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33044024.256428/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBf484d877" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33044024.256428/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB62b2b4ff" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Except, ironically, <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTAtMDUvZnR4LW1pZ2h0LWhhdmUtZm91bmQ=
+tc29tZS1tb25leT9jbXBpZD1CQkQxMDE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJn=
+V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMTYmdXRtX2NhbXBhaWduPW1vbmV5c=
+3R1ZmY/607f07ceef4b8524a319a23cB4899f014" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  FTX and Alameda Resear=
+ch</a>, who were sending customer money into all sorts of non-crypto ventur=
+e investments, a few of which =E2=80=94 in artificial intelligence, for ins=
+tance =E2=80=94 might pay off. Oh and possibly <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjQvdGhlLXZhY2NpbmUtaXMtbm90LWEtY29tc=
+GV0aXRpb24_Y21waWQ9QkJEMTAxNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMDE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cB1c2f25a1" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  Tether</a>, who for all I kn=
+ow might have been investing a lot of crypto money in <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/33044024.256428/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMTYvYmlnZ2VzdC1jcnlwdG8tc3RhYmxlY2=
+9pbi13YXMtb25jZS1iYWNrZWQtYnktY2hpbmVzZS1zZWN1cml0aWVzP2NtcGlkPUJCRDEwMTYyM=
+19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTIzMTAxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB3c0=
+b606f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  Chinese real estate</a>.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] You can tell because the =E2=80=9CNAV stat=
+ement=E2=80=9D cited in the CFTC complaint <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/33044024.256428/aHR0cHM6Ly9jb2ludGVsZWdyYXBoLmNvbS=
+9tYWdhemluZS8zYWMtb3BueC1hc2lhLWV4cHJlc3Mv/607f07ceef4b8524a319a23cC8a6e769=
+0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> is famous</a>.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB35c12820" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB0efd2ce1" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB09c78533" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBebe49496" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB8c4865b1" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.2564=
+28/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBecf45790" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33044024.256428/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC204ab2f6" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33044024.256428/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB69d2157d" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33044024.256428/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB2fa2bf0b" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBc=
+2fb699a" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33044024.256428/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBb=
+e32c3c1" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjo8xk.5hv0/3b97cff3.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9881819_239639088.1697481292672--
+

@@ -1,0 +1,1977 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:c011:0:b0:191:bcf:3d4e with SMTP id z17csp1374387lko;
+        Tue, 1 Feb 2022 11:00:57 -0800 (PST)
+X-Received: by 2002:a05:600c:4e91:: with SMTP id f17mr3000274wmq.37.1643742057300;
+        Tue, 01 Feb 2022 11:00:57 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1643742057; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=jtF2OFqm8fRkgYDvl38S5UKpKhPfJm8Ms9sayzaNAzEcHYBCso+0NQ7tbWX9c5sLZH
+         3OMgai8dWpXYAitZoUj9+ug3PvfdzdIyxIDKlWp84ijmSfhYh6HqUZqNSbjv0I6MyOKe
+         qgtlFSss8Z1k+VyAAGhgMsBCAs8eU7Iy2mXuZZI4dlgghos8hx8YnEsvKQwKx9eoCvon
+         GDkjDzPPbXzuMAboX2MfPEdDNOyjHPvG8N/cmPZXpg7m9FpQN80LucCWnZzgbgx3J094
+         R/4zYj7VZ1pvriMDn7TOyK6sHyMEMjBjJfjwgauF4j5uJR5Hw/L8Ni2nt21N6niMGKuJ
+         +LSQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=xTeorI5IBepuZlt+L/IcoWFBemOHgfxYVKSr8mVnhlQ=;
+        b=V5PK857C+pBUitx9nxTrfIdVtsn/Pbtf1u3sfiLWQHzByz+aMnu2uw2PvP4qUBeKK+
+         Pbw5Iko/4CqYe0nuqF9VM7Bk4oCaZ0H80W7Ue1zz44dcI7BdrB1U+RUj/VIVSoD2scbG
+         q1qrp21TqcvksepiqgzHXr10Cfy72I4QAyeUXMeP5yjVDITQGPVqf106g6Y0IyMQhbcX
+         3X1NOLDiTMB7TdIcMC8HbVRxQQ40o7e1DMQMItv7mO01FjHAUNTxuYLOyC4RlrRZkcHP
+         RUeNQtuTiaRPhcqmzeIf54qGYOhxYlsFLp6ZOZNfVaL2PTDVI/YhwUTqn3Z5rWtu6Y8O
+         JSQQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=fJkybnsH;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l8sor16887714wry.55.2022.02.01.11.00.57
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 01 Feb 2022 11:00:57 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=fJkybnsH;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=xTeorI5IBepuZlt+L/IcoWFBemOHgfxYVKSr8mVnhlQ=;
+        b=3n9ZtmyWwTGkf+FFhECQEOw+XP+MzBHcg367aySOBYRysKxWBu3n+DUzvtoDcbQUS9
+         PA7QRpc+v8ve2Gb1/jOrk1Ze0zHHTH41g0xUPUPJRzZz4mNUtKtTalRsvpl+yPhVC209
+         Ia8rPWJUFi+BcNuqGBKp45SbsL/JYfbt0Xv1WY/n8KNDkmwxZmNEckRIpMps9057NSjY
+         CXLVLQoAHLE8sN6wA+gf/fIvCc+6s07vYBI1od2J14fd1j4zonTNvf36Y03hPDQqmAQ0
+         8z9iuJmXzZKy3X0Z4Jn18llI6h0ohogFkkX+hRkvecYRYjaK/NtbSW4wKgLHgDKGAlSt
+         XNjA==
+X-Gm-Message-State: AOAM531sdnUoretwXtVbfIFvirIYcT0KD6VEDUHYsTlOe+PBYfzECitG
+	DBD9LVqq+TDimAl7pGdi8+F8YHpzD8KtdyaAYSUuZTFcTjtenm+AiQ==
+X-Received: by 2002:a5d:6acf:: with SMTP id u15mr12310081wrw.483.1643742056615;
+        Tue, 01 Feb 2022 11:00:56 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f350:0:0:0:0:0 with SMTP id e16csp932120wrp;
+        Tue, 1 Feb 2022 11:00:51 -0800 (PST)
+X-Received: by 2002:a37:aac9:: with SMTP id t192mr17899139qke.32.1643742051485;
+        Tue, 01 Feb 2022 11:00:51 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1643742051; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=zjq/Xq1uq/5sqzS5cV/jELxe3i0yEhpkP/yFVyfJyXvfwbbDzdlXpLFXNkvf/FGrq4
+         dV7cAR6F0pNfKe4sDPKgm7DP9d5XMkMxvM4TxkYfgGwDE/WorSDpOoiCUOZ0sBPkHL9y
+         zYRb4+6F3UeUX2avhzIR3Jr5ubdMxA8kgKwje1HvGMp+8cIvWIXXNhZuijLBAu7ULMFb
+         plJhussaUmkYfh6idGYFYZr9Oy1fLba5sGdYCxo4zI3GBQeSPsQ7kNTLaofzKMXiBZW5
+         2iLLjWapygZZAaCT5FL90JrLnxah43eJpCBuItpY14Fl+LDX+rutBpGoGwArKxUTfguJ
+         l4yA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=xTeorI5IBepuZlt+L/IcoWFBemOHgfxYVKSr8mVnhlQ=;
+        b=r2IqCc9UmPmnooXFs4+YmSn96tsYZtxi71lPDEBrrVwrCnXY0/ZV/KfplQgcD0tyaK
+         jyWMt3mcmc3yARlbOl1HYtWmaX1kJ4m4Pg3KUDuqd5MFzQric4XQ1BkeL3HX2IylcF18
+         5O3H1h8kw+AeHHRLPC31dgmVShcMTWPaPPXr7pK6JfYC0YbLI0tQADdFuDKrChGwXV0R
+         YPES9E2/Ni+5qlsxP5cbvxnBGlx+yWQS2gGw8zEiFChLJFnYYY5twF+7ahXgPmOYMB9t
+         jOWvbomjnw9mRgRkLMBgCo12hNBtvaf8mraRz/Wo5NxvctodbJvUKaLO0ZogwhJ74ySc
+         UgPw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=fJkybnsH;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220201135856.26561018.257624@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220201135856.26561018.257624@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220201135856.26561018.257624@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h5sor2911069qkn.167.2022.02.01.11.00.51
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 01 Feb 2022 11:00:51 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20220201135856.26561018.257624@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxZNyjC/5FWmtoQfMUmICsCG9eZn+ULB1ozwTD/0TwK/UFLo8PKZI0lPcPwbptB8l7E3l4MUKAPgHt1twhLvkTIT2exwmY=
+X-Received: by 2002:a05:620a:1a85:: with SMTP id bl5mr8269448qkb.490.1643742050914;
+        Tue, 01 Feb 2022 11:00:50 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1643742050; cv=none;
+        d=google.com; s=arc-20160816;
+        b=EfJ11tkpXwd+1RD2dqmomZRcD8EVHLwQzX3eosS4InlgNaqV+FZYhchfslIxZcIxCz
+         Ul8fqDG8D+05HE3zEtCJ5kZLpIaR+gOCfvAw4zpwhSqlI7lhbtlY6Nq04iRSu8XnOfsN
+         csJn7IiE8LS5wQVcyZQWliJkg2Oi2KqJ1PLOEk2+A03ZSXVCdPo64/jwUxN0o9J2kvhN
+         v2UjuBTxHeHjk/P5aZQ57Y4FGlTlqzlK+ou8iRp0MzBn/uOGiORef29KTnD1wIspln57
+         uOMLK2W+bniZ0AXgJI9J3B5wxV15qbU/2/tsqcGXo9DgVGKunFq8xSeZDM8yz1rqTg7J
+         YJJA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=xTeorI5IBepuZlt+L/IcoWFBemOHgfxYVKSr8mVnhlQ=;
+        b=sNrIuAMZnhvUYDXTjPrN4fLXxe2XRzqGYhIzwEdzz83X316xaOQoP+1BvaB/QHsuxJ
+         00K6HMXEmpPmQ6fu+h3vGoC7+8nronEbrW5d2DPGiSpSs+TiGrhHkItquynsAA9UTfpm
+         8oqGl3loF2CffZNEsTfESzjd/gFb3aEogPD3woItUQRJgPzdufGh7adi2XQHHwy6ITqG
+         Wcj00i2yhQJsyxqdWterNLuTmJAOYb59p8sXVO+tQ29KkmhVRmte/zZLTwKoTfnOaihj
+         gqMn5dCWvo+jrlM/5YcyFH6VvmFVWxSA0vNmvANIy3ltKDPScVPoLwaTzlLdcR6XzvF7
+         o91g==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=fJkybnsH;
+       spf=pass (google.com: domain of delivery_20220201135856.26561018.257624@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220201135856.26561018.257624@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220201135856.26561018.257624@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id 3si447717qkr.2.2022.02.01.11.00.43
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 01 Feb 2022 11:00:50 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20220201135856.26561018.257624@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=AFxOSQ+QrH9FWiM3ui+uExIB9i2rZzoJpHOO9j+adss=;
+ b=fJkybnsHOHGgAOtrAUB980UmspOmLlHB7RVXEsLbBJXR5kVoL5tgIb1ZbT5TCVIyWtoRPTj/iLOR
+   L3tZd7zZ2a0XbYqHCVbA6KVHwO1gzbAAfamJ2FNocVkeK0hmeT+Ox+YhSMT8kBP2mB/l3KoK7hKm
+   3pgAtx6QTIJ+dQ/GuxQ=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by bloomberg-b.sailthru.com id hv61lq2tkt0g for <bloomberg@khamel.com>; Tue, 1 Feb 2022 13:59:26 -0500 (envelope-from <delivery_20220201135856.26561018.257624@mx.sailthru.com>)
+Date: Tue, 1 Feb 2022 13:58:56 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220201135856.26561018.257624@sailthru.com>
+Subject: Money Stuff: Hedge Funds Are a Job Now
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_134572470_142702451.1643741936007"
+Precedence: bulk
+X-Feedback-ID: 6358:26561018:campaign:sailthru
+X-TM-ID: 20220201135856.26561018.257624
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-madbrick.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cftam2.5is8/da0f7742
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cftam2.5is8/da0f7742>, <mailto:unsubscribe_20220201135856.26561018.257624@mx.sailthru.com>
+X-rpcampaign: stjko26561018
+
+------=_Part_134572470_142702451.1643741936007
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Hedge fundsThere is a sense in which the main story of modern hedge=
+ funds is style drift. You start out doing convertible arbitrage or merge
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Hedge funds
+   =20
+ =20
+There is a sense in which the main story of modern hedge funds is style dri=
+ft. You start out doing convertible arbitrage or merger arb or relative-val=
+ue structured-credit trades, you make a lot of money, you attract more inve=
+stors, you gain in confidence at the same time that you reach the limits of=
+ your strategy=E2=80=99s capacity, you expand into other strategies, you ma=
+ke more money, you conclude that you are an all-purpose genius, you start g=
+oing on television, your returns maybe suffer a bit but who cares, and you =
+end up trying to influence national politics and/or mentoring Diddy.Arguabl=
+y this works best for your clients at the early stages, when you are making=
+ them a lot of money by focusing on your fairly specialized core skills. Th=
+ere is a long history of clients  complaining that their hedge fund manager=
+s go on TV too much. But surely it works best for=C2=A0you=C2=A0at the late=
+r stages, when you are rich and hanging out with Diddy. Starting a hedge fu=
+nd is not only=C2=A0a bet that, if you work hard and have lots of skill and=
+ get a bit lucky, you will make a lot of money and win the respect of your =
+peers and the gratitude of your clients. Starting a hedge fund is also a be=
+t that you might get famous.Arguably then it is a valuable service to hedge=
+ fund clients to promise them that their managers will not get famous? Here=
+=E2=80=99s Nishant Kumar at Bloomberg News on  multi-strategy funds:Investo=
+rs are plowing money into funds that don=E2=80=99t rely on the next macro g=
+enius or star stockpicker, but instead offer an army of traders who invest =
+in an array of strategies. These behemoths secured pretty much all of the n=
+ew money in the hedge fund industry last year, cementing a tectonic shift t=
+hat=E2=80=99s accelerated since the pandemic.=C2=A0Clients are increasingly=
+ willing to pay high fees =E2=80=94 outsized even by hedge fund standards =
+=E2=80=94 to gain access to a whole universe of investments, from U.S. stoc=
+ks and precious metals to Asian currencies, executed by scores of traders w=
+ho can be easily replaced if they stumble.=C2=A0It=E2=80=99s a stark contra=
+st to the old business model: Launch a fund, name it after yourself, call t=
+he shots, profit. A generation of managers are finding this new style more =
+appealing =E2=80=94 and in some cases have little choice since flashy tradi=
+ng stars aren't in vogue with investors any more. With a shakeout underway =
+in an industry that runs about $4 trillion, multi-strats are the only way t=
+o grow.=C2=A0Byrne Hobart points out that one advantage of a multi-strategy=
+=C2=A0fund=C2=A0is that it more tightly limits=C2=A0managers=C2=A0to one st=
+rategy:Pod shop managers lose other kinds of flexibility, too. Since they'r=
+e all trying to deliver uncorrelated alpha, the fund has to make sure corre=
+lations don't sneak into their various portfolios. One way to do this is to=
+ impose very specific limitations on what a given manager can invest in, an=
+d how their portfolio can be positioned.=C2=A0If you are a convertible arbi=
+trage portfolio manager at a multi-strategy fund, and you decide that your =
+genius for financial markets is such that you should also dabble in emergin=
+g-markets currencies, your boss will just tell you no. Your job is to add u=
+ncorrelated alpha, and you have to do your job.=C2=A0If you are a convertib=
+le arbitrage manager at your own fund, you are the boss, and it is not so c=
+lear what your job is. One thing that I  often say about managing a hedge f=
+und is that the primary job is not picking stocks that go up, but rather=C2=
+=A0continuing to manage a hedge fund. If you are a hedge fund manager and y=
+ou=E2=80=99re down 20% one year, but your investors do not withdraw much mo=
+ney because (1) they like you or (2) you wrote a really good investor lette=
+r explaining your losses with a lot of well chosen quotes from classical ph=
+ilosophers or=C2=A0(3) they have signed long-term lockups or (4) you have s=
+tructured a permanent capital vehicle, then you had a pretty good year all =
+things considered! So your job is to be liked, to write good letters, to ne=
+gotiate lockups, to structure permanent capital vehicles, etc., as much as =
+it is to add uncorrelated alpha. If you go to work for a multi-strategy fun=
+d none of that works:Multi-strats, meanwhile, have a low tolerance for unde=
+rperformance. With individual managers less visible to clients, those who s=
+tart losing in high single digits or overextend their risk can have their a=
+ssets cut at best, and at worst can be fired on the spot.=C2=A0The good new=
+s, for the portfolio managers, is that you get to focus on investing. Kumar=
+:=E2=80=9CJoining a multi-strat on Monday and having $500 million to punt a=
+round on Tuesday is a hell of lot more appealing than scrounging for $50 mi=
+llion of seed capital to start your own firm,=E2=80=9D Andrew Beer, founder=
+ of New York-based Dynamic Beta Investments, said.And Hobart:A platform fun=
+d is part of this evolution for the hedge fund business: most people who st=
+art funds don't do it because they have a deep and abiding love of back-off=
+ice operations, risk management, and investor relations. They do it because=
+ they like predicting which way asset prices will go, and really like getti=
+ng paid for it.If you got into the hedge fund business because you are real=
+ly good at predicting asset prices in a particular niche, and you want to f=
+ocus on that,=C2=A0then multi-strategy funds are appealing. If you got into=
+ the hedge fund business because you=E2=80=99re really good at raising mone=
+y from investors, and you want to be famous, then you will want and need to=
+ strike out on your own. If you are an investor, which sort of hedge fund m=
+anager would you want to invest with?
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      The Fed vs. stablecoins
+   =20
+ =20
+The most obvious risk of stablecoins is that they won=E2=80=99t be stable. =
+Stablecoins are crypto tokens that are pegged to the dollar (or to some oth=
+er fiat currency or non-crypto thing). All of the popular ways to create st=
+ablecoins involve some risk that the peg will fail and the stablecoin won=
+=E2=80=99t be worth a dollar. The simplest approach =E2=80=94=C2=A0issue on=
+e stablecoin for one dollar, invest the dollar in safe-ish cash-like assets=
+, and promise to redeem the stablecoins for dollars =E2=80=94=C2=A0runs the=
+ risk that the issuer will invest its dollars in not-quite-safe assets that=
+ lose value, or will just steal the dollars, and when stablecoin holders as=
+k for their money back it won=E2=80=99t be there. This also creates risks o=
+f runs (people will ask for their dollars back preemptively) and contagion =
+(when they ask for their dollars back, the stablecoin issuer will have to s=
+ell its assets rapidly, driving down the price of those assets and causing =
+losses in the regular financial system). Other approaches to stablecoins =
+=E2=80=94=C2=A0overcollateralizing them with volatile crypto assets, using =
+some algorithmic stabilization mechanism=C2=A0=E2=80=94=C2=A0can also break=
+ if, basically, the prices of other crypto tokens go down. These risks are =
+quite salient =E2=80=94=C2=A0algorithmic stablecoins  break all the time, a=
+nd some of the dollar-backed stablecoins, uh, look=C2=A0a  little  sketchy=
+=C2=A0=E2=80=94=C2=A0and people talk about them a lot.A less obvious risk o=
+f stablecoins is that they might be too stable. A stablecoin is, among othe=
+r things, a substitute for putting money in a bank. Banks are generally ver=
+y safe places to put money, but they are not=C2=A0perfectly=C2=A0safe. Ther=
+e can be runs on banks;=C2=A0banks can fail. For most U.S. retail bank acco=
+unts this is not a very salient problem, since they are backed by governmen=
+t deposit insurance, but many large institutional pools of money (corporate=
+ cash accounts, money-market funds, etc.) park their money in short-term ba=
+nk instruments and are sensitive to risk. If a bank gets riskier, it will l=
+ose deposits. And if a stablecoin is so stable that it is safer than a bank=
+, then banks generally will lose deposits.Why is this a risk? Well, banks d=
+o useful stuff. Classically, they take people=E2=80=99s deposits and lend t=
+hem out to other people to start businesses and buy homes. The provision of=
+ credit by banks helps the economy grow. More to the point, the=C2=A0withdr=
+awal=C2=A0of credit by banks hurts the economy, and the risk here is wrong-=
+way. If people get nervous about banks and pull out all their money to put =
+it in safer stablecoins, then (1) that will probably happen at a time when =
+the economy is shaky and (2) that will definitely make the economy shakier.=
+ The bulk of the response to the 2008 financial crisis involved=C2=A0preven=
+ting runs on banks, because those would have made all of the problems of th=
+e crisis much worse.I suspect that this worry =E2=80=94=C2=A0that stablecoi=
+ns might be too safe =E2=80=94=C2=A0is not at the top of most people=E2=80=
+=99s minds.=C2=A0This is not the main problem with actually existing stable=
+coins! It sounds a bit silly, as I type it. But it=C2=A0does=C2=A0seem to b=
+e top of mind for U.S. banking regulators, particularly for the Federal Res=
+erve. This is probably because in some sense the Fed=E2=80=99s introduction=
+ to stablecoins came from people  pushing the Fed to launch its own stablec=
+oin. A Fed-issued stablecoin =E2=80=94=C2=A0the usual term is CBDC,=C2=A0=
+=E2=80=9Ccentral bank digital currency=E2=80=9D =E2=80=94=C2=A0would indeed=
+ be perfectly safe, a pure dollar on the blockchain, safer than any bank ac=
+count. And the Fed  has not been interested, in part for these sorts of cro=
+wding-out reasons.=C2=A0But the Fed has also  rejected a proposal to allow =
+a =E2=80=9Cnarrow bank,=E2=80=9D meaning a bank that issues super-safe=C2=
+=A0deposits backed solely by reserves at the Fed, for similar reasons. And =
+when U.S. financial regulators put out proposals on stablecoin regulation, =
+they were ostensibly  focused on safety, but the proposals also very quietl=
+y called=C2=A0for=C2=A0banning ultra-safe Fed-backed stablecoins=C2=A0and r=
+equiring stablecoins to be issued through regular banks.Here is a new Feder=
+al Reserve Board discussion paper by Gordon Liao and John Caramichael about=
+ =E2=80=9CStablecoins: Growth Potential and Impact on Banking,=E2=80=9D whi=
+ch explicitly argues that stablecoins should not be too safe:Our research s=
+uggests the broad adoption of asset-backed stablecoins can potentially be s=
+upported within a two-tiered, fractional reserve banking system without a n=
+egative impact on credit intermediation. In such a framework, stablecoin re=
+serves are held as commercial bank deposits, and commercial banks engage in=
+ fractional reserve lending and maturity transformation as they normally wo=
+uld with traditional bank deposits. We also find that the replacement of ph=
+ysical cash (banknotes) with stablecoins could result in more credit interm=
+ediation. In contrast, a narrow banking framework, in which stablecoin issu=
+ers are required to back their stablecoins with central bank reserves, mini=
+mizes the risk of =E2=80=9Druns=E2=80=9D on stablecoins but can potentially=
+ reduce credit intermediation. =E2=80=A6While a narrow bank framework would=
+ guarantee the stability of a stablecoin=E2=80=99s peg as it is effectively=
+ a pass-through central bank digital currency (CBDC), this reserve framewor=
+k poses the largest risk of credit disintermediation. Periods of financial =
+stress or panic could lead to large migrations of regular commercial bank d=
+eposits into narrow bank stablecoins, which could disrupt credit provision.=
+ Though this credit disruption effect could be mitigated by limits on stabl=
+ecoin holdings and differential reserve interest rates, the overall structu=
+re of the narrow bank approach to stablecoin reserves is potentially destab=
+ilizing for the banking system. Additionally, the narrow bank approach coul=
+d lead to an expansion of the central bank=E2=80=99s balance sheet in order=
+ to accommodate the demand for reserve balances from stablecoin issuers.I s=
+hould say here that my sympathies are with the Fed researchers: I think tha=
+t fractional reserve banking and credit intermediation are good, and accide=
+ntally getting rid of them would be bad. But I am also aware that lots of c=
+rypto people disagree; they got into crypto specifically because they are s=
+uspicious of the existing financial system and of fractional reserve bankin=
+g.=C2=A0And while =E2=80=9CU.S. regulators want to crack down on crypto=C2=
+=A0 to protect banks=E2=80=9D sounds a bit like a conspiracy theory, it has=
+ some truth to it.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      PE ESG
+   =20
+ =20
+A  main thesis of environmental, social and governance investing is that it=
+ is about maximizing profits in the face of=C2=A0future=C2=A0regulation. Th=
+e idea is roughly that right now it is legal to do a certain amount of poll=
+uting, but in the future, as societies get more serious about combating glo=
+bal warming, it will not be legal to do that amount of polluting, so you sh=
+ould invest=C2=A0now=C2=A0in companies that do less polluting because their=
+ profits will be higher in that more-regulated future. Eventually a company=
+=E2=80=99s  externalities will be internalized, so companies should try to =
+minimize their externalities now.=C2=A0This is=C2=A0a strange thesis. =E2=
+=80=9CWe predict future environmental regulation and optimize our cash flow=
+s for that regulation=E2=80=9D is not an obvious substitute for =E2=80=9Cwe=
+ invest to make the world a better place.=E2=80=9D=C2=A0Last month Bloomber=
+g Businessweek published an=C2=A0article titled =E2=80=9CThe ESG Mirage,=E2=
+=80=9D pointing out that =E2=80=9CMSCI, the largest ESG rating company, doe=
+sn=E2=80=99t even try to measure the impact of a corporation on the world. =
+It=E2=80=99s all about whether the world might mess with the bottom line.=
+=E2=80=9D Yes! That=E2=80=99s the standard ESG approach. It=E2=80=99s just =
+weird.You could analyze this=C2=A0thesis in two ways:=09It is correct, or a=
+t least argued in good faith. People do ESG investing hoping to maximize th=
+eir long-term cash flows, and potential future regulation is a key componen=
+t of that calculation.=09Investing in companies that do less polluting make=
+s people =E2=80=94=C2=A0investment managers and their customers =E2=80=94=
+=C2=A0feel better=C2=A0for non-financial reasons, but for regulatory and ma=
+rketing purposes they like to say =E2=80=9Calso it maximizes our future pro=
+fit=E2=80=9D without particularly caring whether or not that is true, and t=
+his story about future regulation is a way to do that.How can you tell whic=
+h it is? Well, here is a fascinating paper by Aymeric Bellon of Wharton abo=
+ut private equity firms in the oil and gas industry. In standard financial =
+theory and the popular imagination, private equity firms should be particul=
+arly focused on profit maximization:=C2=A0They have a good alignment of own=
+ership and control (PE firms and their hired managers tend to own a lot of =
+stock in the companies they run and so have a large economic stake in their=
+ decisions) and are plausibly more economically motivated than either publi=
+c companies (which have to answer to activists, ESG-focused shareholders, e=
+tc.) or family firms. And Bellon finds that when PE firms own oil and gas w=
+ells they actually pollute less: =E2=80=9COn average PE ownership leads to =
+a 70% reduction in the use of toxic chemicals and a 50% reduction in satell=
+ite-based measures of CO2 emission.=E2=80=9D He argues that this is due to =
+profit maximizing in the face of potential future regulation:What are the e=
+conomic channels driving the effect? I hypothesize that PE ownership confer=
+s strong incentive to maximize shareholders value =C2=A0which leads to less=
+ pollution, when environmental regulation is likely to increase in the futu=
+re. There are at least two non-mutually exclusive explanations for why abst=
+aining from polluting is value maximizing where regulation risk is high in =
+the context of the oil and gas industry. First, if regulation is more likel=
+y in the future, there is a benefit to over-comply now if the cost function=
+ of abatement exhibits dynamic increasing returns to scale, such as learnin=
+g by doing effects. In the oil and gas industry, there is much evidence of =
+learning effects, which makes this channel likely. Second, the Comprehensiv=
+e Environmental Response, Compensation and Liability Act imposes liabilitie=
+s to oil and gas firms in case of a contamination if chemicals are used. A =
+profit-maximizing agent decreases environmental risks when this enforcement=
+ risk is expected to become stronger in the future.But he also =E2=80=9Cexp=
+loit[s] a natural experiment that plausibly exogenously changes environment=
+al liability risks to better validate this interpretation.=E2=80=9D Basical=
+ly in the U.S., fracking on Native American lands is subject to different r=
+ules than fracking on other land, and due to court decisions and regulatory=
+ changes, =E2=80=9Cbetween 2016 and 2018, the probability of having a new r=
+egulation in Native American reservations and federal lands was low=E2=80=
+=9D:Using this empirical design, I show that projects from PE-backed firms =
+in areas that faced lower regulation risks contained more toxic pollution t=
+han other projects from PE-backed firms in areas=C2=A0with no changes to re=
+gulation risks. The relative increase in pollution following the regulation=
+ shock is quantitatively large, equivalent to double the usage of pollution=
+ for the average firm in the sample. ...=C2=A0Thus, these results are consi=
+stent with the shareholder value maximization channel. =E2=80=A6Similarly, =
+the inverse relationship between environmental liability risks and PE-backe=
+d firms=E2=80=99 pollution decisions is not consistent with a reduction dri=
+ven by a non-pecuniary channel. If we view impact investing as a way to sub=
+stitute for frictions that prevent governments from implementing environmen=
+tally friendly regulations as in B=C3=A9nabou and Tirole (2010), then we sh=
+ould observe a decrease in pollution instead of an increase when regulatory=
+ risks become less important.So in a context of more or less purely economi=
+cally motivated private equity investors, pollution does seem to decrease b=
+ased on perceived risk of future regulation. That main thesis of ESG invest=
+ing =E2=80=94=C2=A0that voluntarily reducing pollution today maximizes long=
+-term cash flows, because pollution might be more regulated tomorrow =E2=80=
+=94=C2=A0is weird, but it seems to be true.
+ =20
+   =20
+      The MoviePass economy
+   =20
+ =20
+We have  talked a lot around  here about a basic business model of:=09Pay p=
+eople to use your app, service, product, etc.=09Get lots of users and rapid=
+ growth.=09Tell investors =E2=80=9Csee we have lots of users and rapid grow=
+th! The margins will sort themselves out eventually.=E2=80=9D=C2=A0=09Raise=
+ lots of money from investors on that premise.=09Stop paying people to use =
+your thing, and start charging them instead.=09Either it works, and the thi=
+ng is so good that they keep using it now that they have to pay for it, or =
+it doesn=E2=80=99t, and your thing dies, your investors lose money, and you=
+ keep some of their money.In principle you can do this with any sort of app=
+, service, product, etc., but it helps your pitch if you can project that, =
+once people get used to your thing, they won=E2=80=99t be able to quit it. =
+They will become so reliant on, say, grocery delivery in 20 minutes or less=
+ that they will be willing to pay up for it rather than return to the archa=
+ic barbarism of going to the grocery store themselves.I don=E2=80=99t give =
+=E2=80=A6=C2=A0gambling advice? =E2=80=A6=C2=A0around here, but I gather th=
+at a lot of companies are willing to give New Yorkers a lot of money to try=
+ sports betting. Here is a Bloomberg News article about companies  giving W=
+hitney Tilson some money to gamble:Whitney Tilson regularly warns readers o=
+f his daily financial newsletter that =E2=80=9Csports betting is a sucker=
+=E2=80=99s game=E2=80=9D and that they shouldn=E2=80=99t get hooked.=C2=A0T=
+hat hasn=E2=80=99t stopped the 55-year-old former hedge-fund manager from g=
+oing all in. Since New York state legalized digital sports gambling three w=
+eeks ago, Tilson says he=E2=80=99s won over $7,000.=C2=A0His advice: =E2=80=
+=9CThe companies are banking on people getting hooked,=E2=80=9D said Tilson=
+, founder of Empire Financial Research. =E2=80=9CSo you have to be clever a=
+nd outwit them.=E2=80=9D =E2=80=A6Gambling companies have pushed promotiona=
+l credits as large as $1,000, reeling in first-time bettors. More than 1.1 =
+million accounts were created in New York in the first two weeks of legaliz=
+ation, according to GeoComply Solutions Inc., which monitors transactions. =
+Nearly 90% of the players are new to regulated digital sports betting, GeoC=
+omply said.And here is a Max Read newsletter with practical advice on how t=
+o claim your free money (and not lose it by gambling). You can, uh, I think=
+ you can pretty easily understand the thinking here? The thinking is that i=
+f you pay someone $1,000 to gamble on your sports betting site, that person=
+ will end up losing a lot of money on your sports betting site, enough for =
+you to recoup the $1,000 and then some. =E2=80=9CThe companies are banking =
+on people getting hooked,=E2=80=9D just like the 20-minute-grocery-delivery=
+ companies are, except that the grocery companies are offering convenience =
+and the gambling companies are offering addiction? I wrote yesterday about =
+the grocery ones:For the venture capitalists the good outcome here is that =
+you succeed in building a monopoly, jack up prices, squeeze your delivery w=
+orkers=E2=80=99 pay and make a lot of money. From a societal perspective it=
+ is possible that the good outcome is =E2=80=A6 you know =E2=80=A6 Saudi so=
+vereign wealth funds just give everyone in New York free groceries for a wh=
+ile? There is an argument that this business model is a symptom of investor=
+s having too much money, and buying groceries for people seems like as good=
+ a use of that money as anything else.Here arguably the model is =E2=80=9Cw=
+e are taking $1,000 from gambling addicts and giving it to Whitney Tilson,=
+=E2=80=9D which seems less great.Elsewhere here's one of the grocery ones:I=
+nstant-delivery startup Jokr has initiated talks to sell its New York opera=
+tions, which make up the bulk of its U.S. business, after encountering heav=
+y losses in the city, said three people with direct knowledge of the matter=
+.Jokr has reached out to several rivals, including Philadelphia-based Gopuf=
+f, Istanbul-based Getir and California-based FastAF, to discuss a potential=
+ sale, the people said.If you have a money-losing business of delivering gr=
+oceries in New York, and someone else with a money-losing business of deliv=
+ering groceries in New York approaches you asking you to buy their operatio=
+ns, you should do it! Your near-term goal here is customer growth, not prof=
+its, and buying another company=E2=80=99s unprofitable customers allows you=
+ to lose money twice as fast.
+ =20
+   =20
+      Banque Havilland
+   =20
+ =20
+When I worked as an investment banker I kept a folder in my desk in which I=
+ saved particularly bad pitchbook pages; perhaps my greatest regret from ba=
+nking is that I=C2=A0did not sneak this folder out when I quit. I promise i=
+t was good. So I consider myself a bit of a connoisseur of bad banking pitc=
+hes. But probably the worst I have ever seen was a pitch by Banque Havillan=
+d SA=C2=A0to a United Arab Emirates sovereign wealth fund that was reported=
+ in the Intercept in 2017. The pitch was not for a promising=C2=A0investmen=
+t opportunity but rather =E2=80=9Ca plan for the United Arab Emirates to wa=
+ge financial war against its Gulf rival Qatar=E2=80=9D by driving down its =
+bond prices or something. =E2=80=9CControl the yield curve, decide the futu=
+re,=E2=80=9D was the tag line, and then there was some pretty high-level di=
+scussion of, like, you buy credit default swaps on Qatar, you do some wash =
+trading =E2=80=A6=C2=A0honestly in addition to being a pitch for economic w=
+arfare and market manipulation, it did not make a ton of sense on its own t=
+erms? Basically you buy a lot of Qatari CDS and then you rub your hands tog=
+ether and cackle I guess. Anyway:Banque Havilland SA, the Luxembourg-based =
+lender that counts Prince Andrew as one of its clients, was issued with a w=
+arning notice by the U.K. financial regulator over its alleged role in an e=
+conomic boycott of Qatar.Controlled by financier and U.K. Conservative Part=
+y backer David Rowland, the lender gave =E2=80=9Cimproper advice=E2=80=9D i=
+n a presentation that set out =E2=80=9Cmanipulative trading practices=E2=80=
+=9D over Qatari bonds, the Financial Conduct Authority said Tuesday. The pr=
+esentation could be taken to harm the Qatari economy, it said.A spokesperso=
+n for Banque Havilland said no findings had yet been made by the regulator =
+and it was challenging the warning notice through the FCA=E2=80=99s interna=
+l processes. The warning =E2=80=9Crefers to historic allegations of miscond=
+uct at the bank=E2=80=99s London premises in 2017.=E2=80=9DHere is the (ver=
+y brief) warning notice. The presentation definitely called for manipulativ=
+e trading practices! =E2=80=9CIncrease long CDS positions slowly with large=
+ banks, just enough to move the price sufficiently to make it newsworthy,=
+=E2=80=9D it said. =E2=80=9CEstablish a crossing transaction arrangement wh=
+ereby another affiliated party sells the same bond holdings back to the ori=
+ginal seller and thereby creates additional downward pressure,=E2=80=9D it =
+said. It is all a bit zany, and=C2=A0hard to believe it was written by a pr=
+ofessional banker or trader. But if you are a bank and you write a pitch de=
+ck about how one country can manipulate markets to harm another country=E2=
+=80=99s economy I guess you really should expect to get a warning from the =
+FCA.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Sony to Buy Videogame Maker Bungie in $3.6 Billion Deal. Investors Sour on =
+Muni Funds. Stock Market Chaos Revved Up by  Options Dealers Rushing to Hed=
+ge. Ex-BNP banker wins =C2=A32mn payout for gender discrimination. Teen Who=
+ Demanded $50,000 From Elon Musk Is Now Targeting  More Billionaire Jets. L=
+ucky Bettor Wins $579,000 With  $20 Wager on NFL Championship Games. Kanye =
+West Explains Why He Won=E2=80=99t Make NFTs,  For Now. The New York Times =
+Buys Wordle.=C2=A0=E2=80=9CWe tried to take it on methodically and convince=
+ him that the Space Force was real.=E2=80=9D=C2=A0If you'd like to get=C2=
+=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=
+=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and other=
+ great Bloomberg newsletters here. Thanks!
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cftam2.5is8/a1268383.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_134572470_142702451.1643741936007
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Hedge fundsThere is a sense in which the main story of modern hedge funds i=
+s style drift. You start out doing convertible arbitrage or merge
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjU2MTAxOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MTg2NDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBa76d2843" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26561018&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26818642&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMjAxMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBe852ac2c"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjU2MTAxOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MTg2NDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC45cf3ea6" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26561018&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26818642&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Hedge funds</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">There is a sense in which the main sto=
+ry of modern hedge funds is style drift. You start out doing convertible ar=
+bitrage or merger arb or relative-value structured-credit trades, you make =
+a lot of money, you attract more investors, you gain in confidence at the s=
+ame time that you reach the limits of your strategy=E2=80=99s capacity, you=
+ expand into other strategies, you make more money, you conclude that you a=
+re an all-purpose genius, you start going on television, your returns maybe=
+ suffer a bit but who cares, and you end up trying to influence national po=
+litics and/or <a href=3D"https://link.mail.bloombergbusiness.com/click/2656=
+1018.257624/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1TQ0NmazJhMk81bw/607f=
+07ceef4b8524a319a23cBb3747e39" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">mentoring Diddy</a>.</p><p style=3D"=
+margin: 16px 0;">Arguably this works best for your clients at the early sta=
+ges, when you are making them a lot of money by focusing on your fairly spe=
+cialized core skills. There is a long <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/26561018.257624/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vYXJ0aWN=
+sZS91cy1oZWRnZWZ1bmRzLWFja21hbi1leGNsdXNpdmUvZXhjbHVzaXZlLWFja21hbi1jdXRzLX=
+N0YWZmLXNodW5zLWxpbWVsaWdodC1hcy1oZS1zZWVrcy10by10dXJuLWFyb3VuZC1mdW5kLWlkV=
+VNLQk4xRkIzMlk_X190d2l0dGVyX2ltcHJlc3Npb249dHJ1ZQ/607f07ceef4b8524a319a23cB=
+42d57b9f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">history</a> of clients <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/26561018.257624/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjItMDEtMTgvYmxhY2tyb2NrLXN0aWxsLWxpa2VzLWNhcGl0YWx=
+pc20_Y21waWQ9QkJEMDIwMTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjAxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBfb50c446" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> complaining</a> that their hedge fu=
+nd managers go on TV too much. But surely it works best for=C2=A0<em>you=C2=
+=A0</em>at the later stages, when you are rich and hanging out with Diddy. =
+Starting a hedge fund is not <em>only</em>=C2=A0a bet that, if you work har=
+d and have lots of skill and get a bit lucky, you will make a lot of money =
+and win the respect of your peers and the gratitude of your clients. Starti=
+ng a hedge fund is also a bet that you might get famous.</p><p style=3D"mar=
+gin: 16px 0;">Arguably then it is a valuable service to hedge fund clients =
+to promise them that their managers will not get famous? Here=E2=80=99s Nis=
+hant Kumar at Bloomberg News on <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/26561018.257624/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlY=
+XR1cmVzLzIwMjItMDEtMzAvdG9wLWhlZGdlLWZ1bmRzLWNpdGFkZWwtbWlsbGVubml1bS1zaGlm=
+dC00LXRyaWxsaW9uLXNlY3Rvci1mcm9tLXJvY2stc3RhcnM_Y21waWQ9QkJEMDIwMTIyX01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+IwMjAxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB36c9d9bb" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> multi-strategy funds</a>:</p><blockquote><p style=3D"margin: 16px 0=
+;">Investors are plowing money into funds that don=E2=80=99t rely on the ne=
+xt macro genius or star stockpicker, but instead offer an army of traders w=
+ho invest in an array of strategies. These behemoths secured pretty much al=
+l of the new money in the hedge fund industry last year, cementing a tecton=
+ic shift that=E2=80=99s accelerated since the pandemic.=C2=A0</p><p style=
+=3D"margin: 16px 0;">Clients are increasingly willing to pay high fees =E2=
+=80=94 outsized even by hedge fund standards =E2=80=94 to gain access to a =
+whole universe of investments, from U.S. stocks and precious metals to Asia=
+n currencies, executed by scores of traders who can be easily replaced if t=
+hey stumble.=C2=A0</p><p style=3D"margin: 16px 0;">It=E2=80=99s a stark con=
+trast to the old business model: Launch a fund, name it after yourself, cal=
+l the shots, profit. A generation of managers are finding this new style mo=
+re appealing =E2=80=94 and in some cases have little choice since flashy tr=
+ading stars aren't in vogue with investors any more. With a shakeout underw=
+ay in an industry that runs about $4 trillion, multi-strats are the only wa=
+y to grow.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Byrne Hobart =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly93d3cudGhlZGlmZi5jby9wL3BvZC1wZW9wbGU/607f07ceef4b8524a319a23cB3947=
+2281" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">points out</a> that one advantage of a multi-strategy=C2=A0<e=
+m>fund=C2=A0</em>is that it more tightly limits=C2=A0<em>managers=C2=A0</em=
+>to one strategy:</p><blockquote><p style=3D"margin: 16px 0;">Pod shop mana=
+gers lose other kinds of flexibility, too. Since they're all trying to deli=
+ver uncorrelated alpha, the fund has to make sure correlations don't sneak =
+into their various portfolios. One way to do this is to impose very specifi=
+c limitations on what a given manager can invest in, and how their portfoli=
+o can be positioned.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">If =
+you are a convertible arbitrage portfolio manager at a multi-strategy fund,=
+ and you decide that your genius for financial markets is such that you sho=
+uld also dabble in emerging-markets currencies, your boss will just tell yo=
+u no. Your job is to add uncorrelated alpha, and you have to do your job.=
+=C2=A0</p><p style=3D"margin: 16px 0;">If you are a convertible arbitrage m=
+anager at your own fund, you are the boss, and it is not so clear what your=
+ job is. One thing that I <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/26561018.257624/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjEtMDgtMjQvaGVkZ2UtZnVuZHMtd2FudC10by1zdGF5LXBvcHVsYXI_Y21waWQ9Qk=
+JEMDIwMTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjIwMjAxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cB2b645383" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> often say</a> about managing a hedge fund is that =
+the primary job is not picking stocks that go up, but rather=C2=A0continuin=
+g to manage a hedge fund. If you are a hedge fund manager and you=E2=80=99r=
+e down 20% one year, but your investors do not withdraw much money because =
+(1) they like you or (2) you wrote a really good investor letter explaining=
+ your losses with a lot of well chosen quotes from classical philosophers o=
+r=C2=A0(3) they have signed long-term lockups or (4) you have structured a =
+permanent capital vehicle, then you had a pretty good year all things consi=
+dered! So your job is to be liked, to write good letters, to negotiate lock=
+ups, to structure permanent capital vehicles, etc., as much as it is to add=
+ uncorrelated alpha. If you go to work for a multi-strategy fund none of th=
+at works:</p><blockquote><p style=3D"margin: 16px 0;">Multi-strats, meanwhi=
+le, have a low tolerance for underperformance. With individual managers les=
+s visible to clients, those who start losing in high single digits or overe=
+xtend their risk can have their assets cut at best, and at worst can be fir=
+ed on the spot.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">The good=
+ news, for the portfolio managers, is that you get to focus on investing. K=
+umar:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CJoining a multi-=
+strat on Monday and having $500 million to punt around on Tuesday is a hell=
+ of lot more appealing than scrounging for $50 million of seed capital to s=
+tart your own firm,=E2=80=9D Andrew Beer, founder of New York-based Dynamic=
+ Beta Investments, said.</p></blockquote><p style=3D"margin: 16px 0;">And H=
+obart:</p><blockquote><p style=3D"margin: 16px 0;">A platform fund is part =
+of this evolution for the hedge fund business: most people who start funds =
+don't do it because they have a deep and abiding love of back-office operat=
+ions, risk management, and investor relations. They do it because they like=
+ predicting which way asset prices will go, and <em>really</em> like gettin=
+g paid for it.</p></blockquote><p style=3D"margin: 16px 0;">If you got into=
+ the hedge fund business because you are really good at predicting asset pr=
+ices in a particular niche, and you want to focus on that,=C2=A0then multi-=
+strategy funds are appealing. If you got into the hedge fund business becau=
+se you=E2=80=99re really good at raising money from investors, and you want=
+ to be famous, then you will want and need to strike out on your own. If yo=
+u are an investor, which sort of hedge fund manager would you want to inves=
+t with?</p><table class=3D"liveintent-sponsored-content" width=3D"auto" cel=
+lpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjU2MTAxOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MTg2NDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD1b0a5e83" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26561018&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26818642&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjU2MTAxOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MTg2NDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE1b0a5e83" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26561018&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26818642&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjU2MTAxOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MTg2NDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFabd59968" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26561018&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26818642&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjU2MTAxOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MTg2NDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGabd59968" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26561018&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26818642&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The Fed vs. stablecoins</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The most obvious risk of stablecoins i=
+s that they won=E2=80=99t be stable. Stablecoins are crypto tokens that are=
+ pegged to the dollar (or to some other fiat currency or non-crypto thing).=
+ All of the popular ways to create stablecoins involve some risk that the p=
+eg will fail and the stablecoin won=E2=80=99t be worth a dollar. The simple=
+st approach =E2=80=94=C2=A0issue one stablecoin for one dollar, invest the =
+dollar in safe-ish cash-like assets, and promise to redeem the stablecoins =
+for dollars =E2=80=94=C2=A0runs the risk that the issuer will invest its do=
+llars in not-quite-safe assets that lose value, or will just steal the doll=
+ars, and when stablecoin holders ask for their money back it won=E2=80=99t =
+be there. This also creates risks of runs (people will ask for their dollar=
+s back preemptively) and contagion (when they ask for their dollars back, t=
+he stablecoin issuer will have to sell its assets rapidly, driving down the=
+ price of those assets and causing losses in the regular financial system).=
+ Other approaches to stablecoins =E2=80=94=C2=A0overcollateralizing them wi=
+th volatile crypto assets, using some algorithmic stabilization mechanism=
+=C2=A0=E2=80=94=C2=A0can also break if, basically, the prices of other cryp=
+to tokens go down. These risks are quite salient =E2=80=94=C2=A0algorithmic=
+ stablecoins <a href=3D"https://link.mail.bloombergbusiness.com/click/26561=
+018.257624/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEt=
+MDYtMTcvdGl0YW5pdW0tZ290LWNydXNoZWQ_Y21waWQ9QkJEMDIwMTIyX01PTkVZU1RVRkYmdXR=
+tX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjAxJnV0bV=
+9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf460f480" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> brea=
+k</a> all the time, and some of the dollar-backed stablecoins, uh, look=C2=
+=A0a <a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.2576=
+24/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMDcv=
+bWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1sb29raW5nLWZvci10ZXRoZXItcy1tb25leT9jbXB=
+pZD1CQkQwMjAxMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMjAyMDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cBaf84863d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> little</a> <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26561018.257624/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMTktMDQtMjYvdGhpbmdzLWdvdC13ZWlyZC1mb3Itc3RhYmxlY2=
+9pbi10ZXRoZXI_Y21waWQ9QkJEMDIwMTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1d=
+G1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjAxJnV0bV9jYW1wYWlnbj1tb25leXN0=
+dWZm/607f07ceef4b8524a319a23cBf245ea82" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> sketchy</a>=C2=A0=E2=80=94=
+=C2=A0and people talk about them a lot.</p><p style=3D"margin: 16px 0;">A l=
+ess obvious risk of stablecoins is that they might be too stable. A stablec=
+oin is, among other things, a substitute for putting money in a bank. Banks=
+ are generally very safe places to put money, but they are not=C2=A0<em>per=
+fectly=C2=A0</em>safe. There can be runs on banks;=C2=A0banks can fail. For=
+ most U.S. retail bank accounts this is not a very salient problem, since t=
+hey are backed by government deposit insurance, but many large institutiona=
+l pools of money (corporate cash accounts, money-market funds, etc.) park t=
+heir money in short-term bank instruments and are sensitive to risk. If a b=
+ank gets riskier, it will lose deposits. And if a stablecoin is so stable t=
+hat it is safer than a bank, then banks generally will lose deposits.</p><p=
+ style=3D"margin: 16px 0;">Why is this a risk? Well, banks do useful stuff.=
+ Classically, they take people=E2=80=99s deposits and lend them out to othe=
+r people to start businesses and buy homes. The provision of credit by bank=
+s helps the economy grow. More to the point, the=C2=A0<em>withdrawal=C2=A0<=
+/em>of credit by banks hurts the economy, and the risk here is wrong-way. I=
+f people get nervous about banks and pull out all their money to put it in =
+safer stablecoins, then (1) that will probably happen at a time when the ec=
+onomy is shaky and (2) that will definitely make the economy shakier. The b=
+ulk of the response to the 2008 financial crisis involved=C2=A0<em>preventi=
+ng runs on banks</em>, because those would have made all of the problems of=
+ the crisis much worse.</p><p style=3D"margin: 16px 0;">I suspect that this=
+ worry =E2=80=94=C2=A0that stablecoins might be too safe =E2=80=94=C2=A0is =
+not at the top of most people=E2=80=99s minds.=C2=A0This is not the main pr=
+oblem with actually existing stablecoins! It sounds a bit silly, as I type =
+it. But it=C2=A0<em>does=C2=A0</em>seem to be top of mind for U.S. banking =
+regulators, particularly for the Federal Reserve. This is probably because =
+in some sense the Fed=E2=80=99s introduction to stablecoins came from peopl=
+e <a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDYtMTEvbWF=
+5YmUtZG9sbGFycy1zaG91bGQtYmUtZGlnaXRhbD9jbXBpZD1CQkQwMjAxMjJfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDEmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB302f03b6" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ pushing</a> the Fed to launch its own stablecoin. A Fed-issued stablecoin =
+=E2=80=94=C2=A0the usual term is CBDC,=C2=A0=E2=80=9Ccentral bank digital c=
+urrency=E2=80=9D =E2=80=94=C2=A0would indeed be perfectly safe, a pure doll=
+ar on the blockchain, safer than any bank account. And the Fed <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/26561018.257624/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMjkvZmFjZWJvb2stdmljd=
+G9yeS1hZ2FpbnN0LXRoZS1mdGMtaXMtYW4tYW50aXRydXN0LWxlc3Nvbi1pbi1tb25vcG9seS1w=
+b3dlci1rcWk4amVrdT9jbXBpZD1CQkQwMjAxMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWl=
+sJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDEmdXRtX2NhbXBhaWduPW1vbm=
+V5c3R1ZmY/607f07ceef4b8524a319a23cBa2759952" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> has not been interest=
+ed</a>, in part for these sorts of crowding-out reasons.=C2=A0But the Fed h=
+as also <a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.2=
+57624/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDMtM=
+DgvdGhlLWZlZC12ZXJzdXMtdGhlLW5hcnJvdy1iYW5rP2NtcGlkPUJCRDAyMDEyMl9NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDI=
+wMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB18a61d04" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> rejected a proposal</a> to allow a =E2=80=9Cnarrow bank,=E2=80=9D mean=
+ing a bank that issues super-safe=C2=A0deposits backed solely by reserves a=
+t the Fed, for similar reasons. And when U.S. financial regulators put out =
+proposals on stablecoin regulation, they were ostensibly <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26561018.257624/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMDIvc3RhYmxlY29pbnMtbWlnaHQ=
+taGF2ZS10by1iZS1iYW5rcz9jbXBpZD1CQkQwMjAxMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPW=
+VtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDEmdXRtX2NhbXBhaWduP=
+W1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB4fa6b9ad" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> focused on safet=
+y</a>, but the proposals also very quietly called=C2=A0for=C2=A0<a href=3D"=
+https://link.mail.bloombergbusiness.com/click/26561018.257624/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMTUvbW92aWVwYXNzLWlz=
+LWJhY2std2lsbC1pdC1iZS10aGUtbmV4dC1nYW1lc3RvcD9jbXBpZD1CQkQwMjAxMjJfTU9ORVl=
+TVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMj=
+AyMDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBc5f3e6ef" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"><em>banning ultra-safe Fed-backed stablecoins</em></a>=C2=A0and requi=
+ring stablecoins to be issued through regular banks.</p><p style=3D"margin:=
+ 16px 0;">Here is a new Federal Reserve Board discussion paper by Gordon Li=
+ao and John Caramichael about =E2=80=9C<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/26561018.257624/aHR0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUuZ2=
+92L2Vjb25yZXMvaWZkcC9zdGFibGVjb2lucy1ncm93dGgtcG90ZW50aWFsLWFuZC1pbXBhY3Qtb=
+24tYmFua2luZy5odG0/607f07ceef4b8524a319a23cB5380e59d" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">Stablecoins: =
+Growth Potential and Impact on Banking</a>,=E2=80=9D which explicitly argue=
+s that stablecoins should not be too safe:</p><blockquote><p style=3D"margi=
+n: 16px 0;">Our research suggests the broad adoption of asset-backed stable=
+coins can potentially be supported within a two-tiered, fractional reserve =
+banking system without a negative impact on credit intermediation. In such =
+a framework, stablecoin reserves are held as commercial bank deposits, and =
+commercial banks engage in fractional reserve lending and maturity transfor=
+mation as they normally would with traditional bank deposits. We also find =
+that the replacement of physical cash (banknotes) with stablecoins could re=
+sult in more credit intermediation. In contrast, a narrow banking framework=
+, in which stablecoin issuers are required to back their stablecoins with c=
+entral bank reserves, minimizes the risk of =E2=80=9Druns=E2=80=9D on stabl=
+ecoins but can potentially reduce credit intermediation. =E2=80=A6</p><p st=
+yle=3D"margin: 16px 0;">While a narrow bank framework would guarantee the s=
+tability of a stablecoin=E2=80=99s peg as it is effectively a pass-through =
+central bank digital currency (CBDC), this reserve framework poses the larg=
+est risk of credit disintermediation. Periods of financial stress or panic =
+could lead to large migrations of regular commercial bank deposits into nar=
+row bank stablecoins, which could disrupt credit provision. Though this cre=
+dit disruption effect could be mitigated by limits on stablecoin holdings a=
+nd differential reserve interest rates, the overall structure of the narrow=
+ bank approach to stablecoin reserves is potentially destabilizing for the =
+banking system. Additionally, the narrow bank approach could lead to an exp=
+ansion of the central bank=E2=80=99s balance sheet in order to accommodate =
+the demand for reserve balances from stablecoin issuers.</p></blockquote><p=
+ style=3D"margin: 16px 0;">I should say here that my sympathies are with th=
+e Fed researchers: I think that fractional reserve banking and credit inter=
+mediation are good, and accidentally getting rid of them would be bad. But =
+I am also aware that lots of crypto people disagree; they got into crypto s=
+pecifically because they are suspicious of the existing financial system an=
+d of fractional reserve banking.=C2=A0And while =E2=80=9CU.S. regulators wa=
+nt to crack down on crypto=C2=A0 to protect banks=E2=80=9D sounds a bit lik=
+e a conspiracy theory, it has some truth to it.</p><table class=3D"liveinte=
+nt-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"cente=
+r">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjU2MTAxOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MTg2NDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH38c596c4" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26561018&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26818642&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">PE ESG</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/26561018.257624/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjEtMTAtMDQvZmFjZWJvb2std2hpc3RsZWJsb3dlci1zaG93cy1hL=
+XNoaWZ0LWluLXNoYXJlaG9sZGVyLXZhbHVlcy1hd2F5LWZyb20tcHJvZml0cz9jbXBpZD1CQkQw=
+MjAxMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMjAyMDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cB88b6766c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> main thesis</a> of environmental, social and governan=
+ce investing is that it is about maximizing profits in the face of=C2=A0<em=
+>future=C2=A0</em>regulation. The idea is roughly that right now it is lega=
+l to do a certain amount of polluting, but in the future, as societies get =
+more serious about combating global warming, it will not be legal to do tha=
+t amount of polluting, so you should invest=C2=A0<em>now=C2=A0</em>in compa=
+nies that do less polluting because their profits will be higher in that mo=
+re-regulated future. Eventually a company=E2=80=99s <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/26561018.257624/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMTQvZG9uLXQtc3BlbmQteW91ci1saXRl=
+Y29pbnMtYXQtd2FsbWFydD9jbXBpZD1CQkQwMjAxMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWV=
+tYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDEmdXRtX2NhbXBhaWduPW=
+1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB90886260" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> externalities wil=
+l be internalized</a>, so companies should try to minimize their externalit=
+ies now.=C2=A0</p><p style=3D"margin: 16px 0;">This is=C2=A0a strange thesi=
+s. =E2=80=9CWe predict future environmental regulation and optimize our cas=
+h flows for that regulation=E2=80=9D is not an obvious substitute for =E2=
+=80=9Cwe invest to make the world a better place.=E2=80=9D=C2=A0Last month =
+Bloomberg Businessweek published an=C2=A0article titled =E2=80=9C<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/26561018.257624/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9ncmFwaGljcy8yMDIxLXdoYXQtaXMtZXNnLWludmVzdGluZy1tc2N=
+pLXJhdGluZ3MtZm9jdXMtb24tY29ycG9yYXRlLWJvdHRvbS1saW5lLz9jbXBpZD1CQkQwMjAxMj=
+JfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fd=
+GVybT0yMjAyMDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe7a=
+8a5f7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">The ESG Mirage</a>,=E2=80=9D pointing out that =E2=80=9CMSCI=
+, the largest ESG rating company, doesn=E2=80=99t even try to measure the i=
+mpact of a corporation on the world. It=E2=80=99s all about whether the wor=
+ld might mess with the bottom line.=E2=80=9D Yes! That=E2=80=99s the standa=
+rd ESG approach. It=E2=80=99s just weird.</p><p style=3D"margin: 16px 0;">Y=
+ou could analyze this=C2=A0thesis in two ways:</p><ol style=3D"list-style-t=
+ype: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-b=
+ottom: 5px;">It is correct, or at least argued in good faith. People do ESG=
+ investing hoping to maximize their long-term cash flows, and potential fut=
+ure regulation is a key component of that calculation.</li>=09<li style=3D"=
+margin-bottom: 5px;">Investing in companies that do less polluting makes pe=
+ople =E2=80=94=C2=A0investment managers and their customers =E2=80=94=C2=A0=
+<em>feel better=C2=A0</em>for non-financial reasons, but for regulatory and=
+ marketing purposes they like to say =E2=80=9Calso it maximizes our future =
+profit=E2=80=9D without particularly caring whether or not that is true, an=
+d this story about future regulation is a way to do that.</li></ol><p style=
+=3D"margin: 16px 0;">How can you tell which it is? Well, here is <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/26561018.257624/aHR0cHM6Ly9y=
+b2RuZXl3aGl0ZWNlbnRlci53aGFydG9uLnVwZW5uLmVkdS93cC1jb250ZW50L3VwbG9hZHMvMjA=
+yMi8wMS9QYXBlcjVfQmVsbG9uLnBkZg/607f07ceef4b8524a319a23cB01533f20" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+a fascinating paper</a> by Aymeric Bellon of Wharton about private equity f=
+irms in the oil and gas industry. In standard financial theory and the popu=
+lar imagination, private equity firms should be particularly focused on pro=
+fit maximization:=C2=A0They have a good alignment of ownership and control =
+(PE firms and their hired managers tend to own a lot of stock in the compan=
+ies they run and so have a large economic stake in their decisions) and are=
+ plausibly more economically motivated than either public companies (which =
+have to answer to activists, ESG-focused shareholders, etc.) or family firm=
+s. And Bellon finds that when PE firms own oil and gas wells they actually =
+pollute less: =E2=80=9COn average PE ownership leads to a 70% reduction in =
+the use of toxic chemicals and a 50% reduction in satellite-based measures =
+of CO2 emission.=E2=80=9D He argues that this is due to profit maximizing i=
+n the face of potential future regulation:</p><blockquote><p style=3D"margi=
+n: 16px 0;">What are the economic channels driving the effect? I hypothesiz=
+e that PE ownership confers strong incentive to maximize shareholders value=
+ =C2=A0which leads to less pollution, when environmental regulation is like=
+ly to increase in the future. There are at least two non-mutually exclusive=
+ explanations for why abstaining from polluting is value maximizing where r=
+egulation risk is high in the context of the oil and gas industry. First, i=
+f regulation is more likely in the future, there is a benefit to over-compl=
+y now if the cost function of abatement exhibits dynamic increasing returns=
+ to scale, such as learning by doing effects. In the oil and gas industry, =
+there is much evidence of learning effects, which makes this channel likely=
+. Second, the Comprehensive Environmental Response, Compensation and Liabil=
+ity Act imposes liabilities to oil and gas firms in case of a contamination=
+ if chemicals are used. A profit-maximizing agent decreases environmental r=
+isks when this enforcement risk is expected to become stronger in the futur=
+e.</p></blockquote><p style=3D"margin: 16px 0;">But he also =E2=80=9Cexploi=
+t[s] a natural experiment that plausibly exogenously changes environmental =
+liability risks to better validate this interpretation.=E2=80=9D Basically =
+in the U.S., fracking on Native American lands is subject to different rule=
+s than fracking on other land, and due to court decisions and regulatory ch=
+anges, =E2=80=9Cbetween 2016 and 2018, the probability of having a new regu=
+lation in Native American reservations and federal lands was low=E2=80=9D:<=
+/p><blockquote><p style=3D"margin: 16px 0;">Using this empirical design, I =
+show that projects from PE-backed firms in areas that faced lower regulatio=
+n risks contained more toxic pollution than other projects from PE-backed f=
+irms in areas=C2=A0with no changes to regulation risks. The relative increa=
+se in pollution following the regulation shock is quantitatively large, equ=
+ivalent to double the usage of pollution for the average firm in the sample=
+. ...=C2=A0Thus, these results are consistent with the shareholder value ma=
+ximization channel. =E2=80=A6</p><p style=3D"margin: 16px 0;">Similarly, th=
+e inverse relationship between environmental liability risks and PE-backed =
+firms=E2=80=99 pollution decisions is not consistent with a reduction drive=
+n by a non-pecuniary channel. If we view impact investing as a way to subst=
+itute for frictions that prevent governments from implementing environmenta=
+lly friendly regulations as in B=C3=A9nabou and Tirole (2010), then we shou=
+ld observe a decrease in pollution instead of an increase when regulatory r=
+isks become less important.</p></blockquote><p style=3D"margin: 16px 0;">So=
+ in a context of more or less purely economically motivated private equity =
+investors, pollution does seem to decrease based on perceived risk of futur=
+e regulation. That main thesis of ESG investing =E2=80=94=C2=A0that volunta=
+rily reducing pollution today maximizes long-term cash flows, because pollu=
+tion might be more regulated tomorrow =E2=80=94=C2=A0is weird, but it seems=
+ to be true.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The MoviePass economy</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/26561018.257624/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtMzEvbGlib3Itd2FzLW1hZGUtdXAtYW55d2F5P2N=
+tcGlkPUJCRDAyMDEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTIyMDIwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cB084bc2a0" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> talked</a> a <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/26561018.257624/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDUtMTgvc2lsaWNvbi12YWxsZXktcy1zdWJzY3Jpc=
+HRpb24tZnJlZS1mb3ItYWxsP2NtcGlkPUJCRDAyMDEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09=
+ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIwMSZ1dG1fY2FtcGFpZ24=
+9bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB2446db50" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">lot</a> around <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtMTkvd2FzaG=
+luZy13ZWIzP2NtcGlkPUJCRDAyMDEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVm=
+Zg/607f07ceef4b8524a319a23cB06ab1c42" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> here</a> about a basic busin=
+ess model of:</p><ol style=3D"list-style-type: decimal; padding-left: 40px;=
+ margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Pay people to use yo=
+ur app, service, product, etc.</li>=09<li style=3D"margin-bottom: 5px;">Get=
+ lots of users and rapid growth.</li>=09<li style=3D"margin-bottom: 5px;">T=
+ell investors =E2=80=9Csee we have lots of users and rapid growth! The marg=
+ins will sort themselves out eventually.=E2=80=9D=C2=A0</li>=09<li style=3D=
+"margin-bottom: 5px;">Raise lots of money from investors on that premise.</=
+li>=09<li style=3D"margin-bottom: 5px;">Stop paying people to use your thin=
+g, and start charging them instead.</li>=09<li style=3D"margin-bottom: 5px;=
+">Either it works, and the thing is so good that they keep using it now tha=
+t they have to pay for it, or it doesn=E2=80=99t, and your thing dies, your=
+ investors lose money, and you keep some of their money.</li></ol><p style=
+=3D"margin: 16px 0;">In principle you can do this with any sort of app, ser=
+vice, product, etc., but it helps your pitch if you can project that, once =
+people get used to your thing, they won=E2=80=99t be able to quit it. They =
+will become so reliant on, say, grocery delivery in 20 minutes or less that=
+ they will be willing to pay up for it rather than return to the archaic ba=
+rbarism of going to the grocery store themselves.</p><p style=3D"margin: 16=
+px 0;">I don=E2=80=99t give =E2=80=A6=C2=A0gambling advice? =E2=80=A6=C2=A0=
+around here, but I gather that a lot of companies are willing to give New Y=
+orkers a lot of money to try sports betting. Here is a Bloomberg News artic=
+le about companies <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/26561018.257624/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMj=
+ItMDEtMzEvZmFuZHVlbC1kcmFmdGtpbmdzLWx1cmUtbmV3LXlvcmtlcnMtdG8td2FnZXItdGhvd=
+XNhbmRzLWluLW1vYmlsZS1zcG9ydHMtYmV0dGluZz9jbXBpZD1CQkQwMjAxMjJfTU9ORVlTVFVG=
+RiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDE=
+mdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9a611cf8" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> giving Whitney Tilson some money to gamble</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">Whitney Tilson regularly warns readers of his daily fi=
+nancial newsletter that =E2=80=9Csports betting is a sucker=E2=80=99s game=
+=E2=80=9D and that they shouldn=E2=80=99t get hooked.=C2=A0</p><p style=3D"=
+margin: 16px 0;">That hasn=E2=80=99t stopped the 55-year-old former hedge-f=
+und manager from going all in. Since New York state legalized digital sport=
+s gambling three weeks ago, Tilson says he=E2=80=99s won over $7,000.=C2=A0=
+</p><p style=3D"margin: 16px 0;">His advice: =E2=80=9CThe companies are ban=
+king on people getting hooked,=E2=80=9D said Tilson, founder of Empire Fina=
+ncial Research. =E2=80=9CSo you have to be clever and outwit them.=E2=80=9D=
+ =E2=80=A6</p><p style=3D"margin: 16px 0;">Gambling companies have pushed p=
+romotional credits as large as $1,000, reeling in first-time bettors. More =
+than 1.1 million accounts were created in New York in the first two weeks o=
+f legalization, according to GeoComply Solutions Inc., which monitors trans=
+actions. Nearly 90% of the players are new to regulated digital sports bett=
+ing, GeoComply said.</p></blockquote><p style=3D"margin: 16px 0;">And here =
+is a <a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.2576=
+24/aHR0cHM6Ly9tYXhyZWFkLnN1YnN0YWNrLmNvbS9wL2ktbWFkZS0zMDAwLWdhbWJsaW5nLWZy=
+b20taG9tZQ/607f07ceef4b8524a319a23cBe212dcf7" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Max Read newsletter</=
+a> with practical advice on how to claim your free money (and not lose it b=
+y gambling). You can, uh, I think you can pretty easily understand the thin=
+king here? The thinking is that if you pay someone $1,000 to gamble on your=
+ sports betting site, that person will end up losing a lot of money on your=
+ sports betting site, enough for you to recoup the $1,000 and then some. =
+=E2=80=9CThe companies are banking on people getting hooked,=E2=80=9D just =
+like the 20-minute-grocery-delivery companies are, except that the grocery =
+companies are offering convenience and the gambling companies are offering =
+addiction? I wrote yesterday about the grocery ones:</p><blockquote><p styl=
+e=3D"margin: 16px 0;">For the venture capitalists the good outcome here is =
+that you succeed in building a monopoly, jack up prices, squeeze your deliv=
+ery workers=E2=80=99 pay and make a lot of money. From a societal perspecti=
+ve it is possible that the good outcome is =E2=80=A6 you know =E2=80=A6 Sau=
+di sovereign wealth funds just give everyone in New York free groceries for=
+ a while? There is an argument that this business model is a symptom of inv=
+estors having too much money, and buying groceries for people seems like as=
+ good a use of that money as anything else.</p></blockquote><p style=3D"mar=
+gin: 16px 0;">Here arguably the model is =E2=80=9Cwe are taking $1,000 from=
+ gambling addicts and giving it to Whitney Tilson,=E2=80=9D which seems les=
+s great.</p><p style=3D"margin: 16px 0;">Elsewhere <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26561018.257624/aHR0cHM6Ly93d3cudGhlaW5mb3=
+JtYXRpb24uY29tL2FydGljbGVzL2luc3RhbnQtZGVsaXZlcnktc3RhcnR1cC1qb2tyLWluLXRhb=
+GtzLXRvLXNlbGwtbmV3LXlvcmstb3BlcmF0aW9ucw/607f07ceef4b8524a319a23cB3c6a412f=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">here's one of the grocery ones</a>:</p><blockquote><p style=3D"ma=
+rgin: 16px 0;">Instant-delivery startup Jokr has initiated talks to sell it=
+s New York operations, which make up the bulk of its U.S. business, after e=
+ncountering heavy losses in the city, said three people with direct knowled=
+ge of the matter.</p><p style=3D"margin: 16px 0;">Jokr has reached out to s=
+everal rivals, including Philadelphia-based Gopuff, Istanbul-based Getir an=
+d California-based FastAF, to discuss a potential sale, the people said.</p=
+></blockquote><p style=3D"margin: 16px 0;">If you have a money-losing busin=
+ess of delivering groceries in New York, and someone else with a money-losi=
+ng business of delivering groceries in New York approaches you asking you t=
+o buy their operations, you should do it! Your near-term goal here is custo=
+mer growth, not profits, and buying another company=E2=80=99s unprofitable =
+customers allows you to lose money twice as fast.</p><table class=3D"header=
+" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Banque Havilland</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">When I worked as an investment banker =
+I kept a folder in my desk in which I saved particularly bad pitchbook page=
+s; perhaps my greatest regret from banking is that I=C2=A0did not sneak thi=
+s folder out when I quit. I promise it was good. So I consider myself a bit=
+ of a connoisseur of bad banking pitches. But probably the worst I have eve=
+r seen was a pitch by Banque Havilland SA=C2=A0to a United Arab Emirates so=
+vereign wealth fund that was <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/26561018.257624/aHR0cHM6Ly90aGVpbnRlcmNlcHQuY29tLzIwMTcvMTEvMDkv=
+dWFlLXFhdGFyLW9pdGFiYS1yb3dsYW5kLWJhbnF1ZS1oYXZpbGxhbmQtd29ybGQtY3VwLw/607f=
+07ceef4b8524a319a23cBcbf0ec32" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">reported in the Intercept in 2017</a=
+>. The pitch was not for a promising=C2=A0investment opportunity but rather=
+ =E2=80=9Ca plan for the United Arab Emirates to wage financial war against=
+ its Gulf rival Qatar=E2=80=9D by driving down its bond prices or something=
+. =E2=80=9CControl the yield curve, decide the future,=E2=80=9D was the tag=
+ line, and then there was some pretty high-level discussion of, like, you b=
+uy credit default swaps on Qatar, you do some wash trading =E2=80=A6=C2=A0h=
+onestly in addition to being a pitch for economic warfare and market manipu=
+lation, it did not make a ton of sense on its own terms? Basically you buy =
+a lot of Qatari CDS and then you rub your hands together and cackle I guess=
+.</p><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbus=
+iness.com/click/26561018.257624/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjItMDItMDEvdS1rLXdhdGNoZG9nLXdhcm5zLWJhbnF1ZS1oYXZpbGxhbmQtb3=
+Zlci1oYXJtZnVsLXFhdGFyLWFkdmljZT9jbXBpZD1CQkQwMjAxMjJfTU9ORVlTVFVGRiZ1dG1fb=
+WVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDEmdXRtX2Nh=
+bXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBcabf7d53" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> Anyway<=
+/a>:</p><blockquote><p style=3D"margin: 16px 0;">Banque Havilland SA, the L=
+uxembourg-based lender that counts Prince Andrew as one of its clients, was=
+ issued with a warning notice by the U.K. financial regulator over its alle=
+ged role in an economic boycott of Qatar.</p><p style=3D"margin: 16px 0;">C=
+ontrolled by financier and U.K. Conservative Party backer David Rowland, th=
+e lender gave =E2=80=9Cimproper advice=E2=80=9D in a presentation that set =
+out =E2=80=9Cmanipulative trading practices=E2=80=9D over Qatari bonds, the=
+ Financial Conduct Authority said Tuesday. The presentation could be taken =
+to harm the Qatari economy, it said.</p><p style=3D"margin: 16px 0;">A spok=
+esperson for Banque Havilland said no findings had yet been made by the reg=
+ulator and it was challenging the warning notice through the FCA=E2=80=99s =
+internal processes. The warning =E2=80=9Crefers to historic allegations of =
+misconduct at the bank=E2=80=99s London premises in 2017.=E2=80=9D</p></blo=
+ckquote><p style=3D"margin: 16px 0;">Here is the (very brief) <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/26561018.257624/aHR0cHM6Ly93d3c=
+uZmNhLm9yZy51ay9wdWJsaWNhdGlvbi93YXJuaW5nLW5vdGljZXMvd2FybmluZy1ub3RpY2Utc3=
+RhdGVtZW50LTIyLTEucGRm/607f07ceef4b8524a319a23cB2a860b84" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">warning n=
+otice</a>. The presentation definitely called for manipulative trading prac=
+tices! =E2=80=9CIncrease long CDS positions slowly with large banks, just e=
+nough to move the price sufficiently to make it newsworthy,=E2=80=9D it sai=
+d. =E2=80=9CEstablish a crossing transaction arrangement whereby another af=
+filiated party sells the same bond holdings back to the original seller and=
+ thereby creates additional downward pressure,=E2=80=9D it said. It is all =
+a bit zany, and=C2=A0hard to believe it was written by a professional banke=
+r or trader. But if you are a bank and you write a pitch deck about how one=
+ country can manipulate markets to harm another country=E2=80=99s economy I=
+ guess you really should expect to get a warning from the FCA.</p><table cl=
+ass=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Sony to Buy Videogame Maker <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/26561018.257624/aHR0cHM6Ly93=
+d3cud3NqLmNvbS9hcnRpY2xlcy9zb255LXRvLWJ1eS12aWRlb2dhbWUtbWFrZXItYnVuZ2llLWl=
+uLTMtNi1iaWxsaW9uLWRlYWwtMTE2NDM2NTM3ODc_bW9kPWl0cF93c2omcnU9eWFob28/607f07=
+ceef4b8524a319a23cB790621af" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Bungie</a> in $3.6 Billion Deal. Inves=
+tors Sour on <a href=3D"https://link.mail.bloombergbusiness.com/click/26561=
+018.257624/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9pbnZlc3RvcnMtc291ci1vbi1t=
+dW5pLWZ1bmRzLTExNjQzNTY4MjUzP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a3=
+19a23cB3f13a306" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">Muni Funds</a>. Stock Market Chaos Revved Up by <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMzEvaGVya3ktamV=
+ya3ktc3RvY2tzLWxhc2hlZC1ieS1nYW1tYS1oZWRnaW5nLWluLXRoaW5uaW5nLWxpcXVpZGl0eT=
+9jbXBpZD1CQkQwMjAxMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cBe34eb544" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> Options Dealers</a> Rushing to Hedge. E=
+x-BNP banker wins =C2=A32mn payout for <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/26561018.257624/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMz=
+EwY2FlZTQtZDJkOS00Zjg4LTlhMmItZjZkNzkwYjllYjFi/607f07ceef4b8524a319a23cB278=
+bf341" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">gender discrimination</a>. Teen Who Demanded $50,000 From El=
+on Musk Is Now Targeting <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26561018.257624/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjItMDEtMzEvZWxvbi1tdXNrLWpldC10cmFja2luZy10ZWVuLXJlZnVzZXMtNS0wMDAtcGF=
+5b3V0LXRhcmdldHMtbW9yZS1iaWxsaW9uYWlyZS1qZXRzP2NtcGlkPUJCRDAyMDEyMl9NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyM=
+DIwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB94300080" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> More Billionaire Jets</a>. Lucky Bettor Wins $579,000 With <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMzEvZmFuZHVlbC1uZmwt=
+YmV0dG9yLXR1cm5zLTIwLXRvLTU3OWstYnktZ3Vlc3NpbmctcmFtcy1iZW5nYWxzLWZpbmFsLXN=
+jb3Jlcz9jbXBpZD1CQkQwMjAxMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cBe09fcd3e" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> $20 Wager</a> on NFL Championshi=
+p Games. Kanye West Explains Why He Won=E2=80=99t Make NFTs, <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/26561018.257624/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDEva2FueWUtd2VzdC1oYW5kd3J=
+pdHRlbi1pbnN0YWdyYW0tcG9zdC1sZWF2ZXMtZG9vci1vcGVuLXRvLW5mdHMtanVzdC1ub3Qtbm=
+93P2NtcGlkPUJCRDAyMDEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cBea8c1aac" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> For Now</a>. The New York Times <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aHR0cH=
+M6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wMS8zMS9idXNpbmVzcy9tZWRpYS9uZXcteW9yay10a=
+W1lcy13b3JkbGUuaHRtbA/607f07ceef4b8524a319a23cB01671587" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">Buys Wordl=
+e</a>.=C2=A0=E2=80=9CWe tried to take it on methodically and convince him t=
+hat <a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.25762=
+4/aHR0cHM6Ly93d3cubWlsaXRhcnkuY29tL2RhaWx5LW5ld3MvMjAyMi8wMS8yOC9zcGFjZS1mb=
+3JjZS1yZWFsLWd1YXJkaWFucy1zdGlsbC1zdHJ1Z2dsaW5nLXVuY29udmluY2VkLXB1YmxpYy5o=
+dG1s/607f07ceef4b8524a319a23cBa99e0d7e" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">the Space Force was real</a=
+>.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;"><span class=3D"news-desig=
+ned-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=
+=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26561018.257624/aHR0cDovL2xpbmsubWFp=
+bC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD0=
+1NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB04fa68=
+6c" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">subscribe at this link</a>. Or you =
+can subscribe to Money Stuff and other great Bloomberg newsletters <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aHR0cHM6L=
+y9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB73f945=
+33" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">here</=
+a>. Thanks!</em></span></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBa58ed7cf" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB0ece5f79" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB2f227b3b" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBf0b935ed" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjU2MTAxOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MTg2NDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI985b2dc3" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26561018&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26818642&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2656101=
+8.257624/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBf5f894e3" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26561018.257624/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC57f8760b" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26561018.257624/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB2433c81b" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26561018.257624/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB4196b856" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB2=
+551bcea" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26561018.257624/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB6=
+9e27579" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D265610=
+18&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26818642&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D265610=
+18&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26818642&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D265610=
+18&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26818642&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D265610=
+18&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26818642&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D265610=
+18&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26818642&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cftam2.5is8/a1268383.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_134572470_142702451.1643741936007--
+

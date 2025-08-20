@@ -1,0 +1,2423 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4882:0:b0:14f:df5a:7f27 with SMTP id o2csp6474339lkd;
+        Tue, 16 Nov 2021 10:07:08 -0800 (PST)
+X-Received: by 2002:a05:6402:1d52:: with SMTP id dz18mr12668275edb.246.1637086028418;
+        Tue, 16 Nov 2021 10:07:08 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1637086028; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=hfrT9+roLVDpBZ5Olv2LY6Fj/ljlBRiNLOxYuc3FYhz+G9AoTfIEtBe2Wk+8pOlU8O
+         VA/i1OkY2tK37cu3ZOn8jS6RAl6YQ0QL/uZ9+D7uCIQfhlnz7W2rf0nLIedPmF20BHRk
+         zG4zi+uQIDzCUf/8Modk/KfoBsj6IxNh0RaLyzTyog/U2/RIvxhnbypsa19WKBOgacal
+         II0J6yppVKWShD/oytQcFupqikLXTynY7Ed1x2qkKKOCov464o9zZCg1reAu/kG7KyKV
+         QcnEQEdVXSqoqhuyYWqzedEKwXSLX2QexDp7TKefl/a+wQmY7cDRBpVUGFp95xLx5jv8
+         uWSw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=nHpMFyhlo52p1DqzBwCNBCNS1S+9uM1XOoxoAX3GFnU=;
+        b=yXA9vE4c2JCFFrrmh8dW66z273vqEiW6qyRmyI88x2FpzPYDVd0JKbH8/UDnKm2KJs
+         0W6dR6A5gIvuWeL6nP1G7UV9xXTKtA9NdUmtQ3w+R5q/GfChigLI2PcBNXffY0yk8eH3
+         /o3nd/c0AGpanghVfZJeK0G9UfbNtmKMIR4aZKzdSM3menbBwcGerrBHoVYFZR35z3hq
+         yxcNX4Cb3zu7tl9KyeVUGVxkQTl7qp2DBYPyYyFQGz7/4ZO436/CUvt4HlafjPDrbD4X
+         SXYQe2ED3YJOzz5o+Wfzv8XPxe6yrsqNroJi8hjaQIAiPy24fqGd71zbBHAqFD4b8xre
+         fQAw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="BZE6C/2W";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n9sor7575051edx.0.2021.11.16.10.07.08
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 16 Nov 2021 10:07:08 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="BZE6C/2W";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=nHpMFyhlo52p1DqzBwCNBCNS1S+9uM1XOoxoAX3GFnU=;
+        b=pXzZNy87ALeT5glA2EPjEp1NY6e69gLHHlfNgJ2+goh61t/jo2Upe0QJCJarRz6NVs
+         AGeJHQBXrC95f0dF7AGxW4MWwulueXYmuxRxVI7QlqSHPjswVPkU8GOvq3REz4pc5IbW
+         Y/ZQML295HHl0Cc5Wy9X4rVtkUCyhUsQRyvW/onEc0BWJnlvnMa440WPxks8S0fK80MH
+         GclNnom2eeqY6iZOOpwqjpYBWlYIYtkW5zF6sGvggXDi96iKULenCXm+VtKZyTQIi8tw
+         fE+AVLMS4vRbplspRAf8p88y2DW59+VOXI+jW20GnmjkdHR15GYhdYdXY020qmFSPvwf
+         sEDQ==
+X-Gm-Message-State: AOAM530uyC2Zx7A+V9PywC8p4MN0MYeWpGkQuOpXL70/sDk9Kp2UtgkF
+	NTEr7lkl1VIfPbILIyt6oiZ27TcZyWtMmt+d6Al6excffMQDixWlC7QR
+X-Received: by 2002:a05:6402:4c4:: with SMTP id n4mr12712739edw.30.1637086028088;
+        Tue, 16 Nov 2021 10:07:08 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3f11:0:0:0:0:0 with SMTP id b17csp2220441ecq;
+        Tue, 16 Nov 2021 10:07:03 -0800 (PST)
+X-Received: by 2002:a9d:6405:: with SMTP id h5mr7788543otl.90.1637086023667;
+        Tue, 16 Nov 2021 10:07:03 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1637086023; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=WvqNNrhhpGugtM7jCFZHYwhYb/mxrhSdUtQPSyc9SgK4nZ9ZamTf0JONZQoLe7YeNZ
+         16B/mDuAwRsjFzza3DdQ07HuRiQEk2CRkuk/JaNN15qK4gXEVOWXDmw1pIqLD6rBc96h
+         BzY2OGI6l8MPdHY/lvOWzrLWnqxHgJYPTb9u3X4YVUI7+i21F5E1gmzuO6Lycf2QS71X
+         /nEqcvgfPgQZTGD6pVYu0MbzqXeUpJ2xXAeKWoME3PoESx5PnSwDOOnzsMNUVru7ACkp
+         aT1E9ddbYPHicjdUdV8ccZvXQFtrPLNyzI9WD7Frzin+rqphhS7v9DDV3owJMPtO40rd
+         /SWQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=nHpMFyhlo52p1DqzBwCNBCNS1S+9uM1XOoxoAX3GFnU=;
+        b=KwKShy1sDf3y2x0zxwT47iCj406IzVphic64mtA8dBZsk9GSkBGP5DU2k0ALxsQxdd
+         unGYq4HYcUhEDoXIQvvX+sReEgmellTFWKhI+4tKiW9oMPqAqobkytF/boIusghvtc3H
+         D+vzgvyIwXWyJnHnlMVfjVd2JWigJ793yDrhRKEqsZpBgChSIb7HM6fI6NxqUFy426eu
+         9b2iCv4U57v1rEDLiVM2pSOyqqQjbvpAQaecAPuJbMPOzI91rrrLkn3Db5ofR3M1YGFk
+         HOxgfna+8ViKqR4ML3JaTaKmuYfS5PvaqwkJYJrCZ+esY3eIoarrU58APdEQyE0etREn
+         sKxw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="BZE6C/2W";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20211116130453.25723599.270661@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20211116130453.25723599.270661@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211116130453.25723599.270661@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id k12sor5866982oig.118.2021.11.16.10.07.03
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 16 Nov 2021 10:07:03 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20211116130453.25723599.270661@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyOZ1OM7vJIgG73/2TfziJYTaBwmmH6QF1HEH3rTbv5H2WC9aaR4Q2YJzu6W9gD30Mim0p/mGxgA6htwCF6B8FczlZoCgA=
+X-Received: by 2002:a54:4401:: with SMTP id k1mr55285767oiw.143.1637086023324;
+        Tue, 16 Nov 2021 10:07:03 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1637086023; cv=none;
+        d=google.com; s=arc-20160816;
+        b=esQ6u+jblE49SbI9kaAGjBQ7ukFTx4WbsVVAmxKeQRuxv10VtN49PhksR6iqsZm8nE
+         fCjWVzxV0aYLQ3X9nAsxdKf0/GEvlsl9L0NXbFzdR5qPSQ8zkaaqzpSw7L1Yp4vU1L8o
+         wynL91ULJXtj/tEjGDLsKBbHxxkf4wj65p20HoOfro1IPLDIC8cnv61zp7hVCAirmiFU
+         GTKA2E4ZPuiy5ZmkvQCrP2ws9dV20r2oGiqapOg2ksWxZyhe5yNEqikteK+eCsJ4KqnV
+         z7ZVlYZMyIR10lGhtbnE4QCtuY3fBLUt+lICkpJyJYQ1go5NpbuLyqI24Pvz3auwzFUq
+         kUpQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=nHpMFyhlo52p1DqzBwCNBCNS1S+9uM1XOoxoAX3GFnU=;
+        b=d0PJLoa/tAGfOLSoualee7XPHoApVTiu7PMHFa3CnTXqbuz0d8r8uX3et7yDj1nKQ7
+         MPWBPEQfVupOe64o+WivikU6KJGeD3do0NKNxF2KLnDGljrSk8PKzVwDLSvx2c74dOdB
+         a2gn5o4cvsWrNftXMtEUFORlki77xJnoD1u0sQPRMSIi4HvUSJzLKiZR3lo+6QJVXIKv
+         OdfZcEQN7FNR4YQYhREta0QGds879HioNM/F8C0Po/+ul5E/2v2tUTqvMGDnnQ+KH0U/
+         LN/1ifuwABVcRvvj5ZBvpskgg/55DD6A7jCic1kOm1oIY3UzqLB0qNPy7v024j1fGOL5
+         xXWQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="BZE6C/2W";
+       spf=pass (google.com: domain of delivery_20211116130453.25723599.270661@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20211116130453.25723599.270661@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211116130453.25723599.270661@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id u27si1764715ots.2.2021.11.16.10.06.53
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 16 Nov 2021 10:07:03 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20211116130453.25723599.270661@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=s6CsxwByYz+NgCWIeQtYs4+DTf3IYhL/hhPwI7+QCJs=;
+ b=BZE6C/2WoUgQP8X7BF2uf9OcZAFIqlUBf6NQSHxl9PMfiLi4vq4sxkyy1QX/+XZ/SwjSsAkZhSnW
+   JjI0wObSNv8Ls28VtHvC8hM1G3bOXyXKPkyKGexoGSl/v7qtWL0W2MgU667O8YY3v+FGdQS3Hvrg
+   hKZYoy3C4bO3QhunaF4=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by pmta29.sailthru.com id hifpjs2tem4p for <bloomberg@khamel.com>; Tue, 16 Nov 2021 13:06:43 -0500 (envelope-from <delivery_20211116130453.25723599.270661@mx.sailthru.com>)
+Date: Tue, 16 Nov 2021 13:04:53 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20211116130453.25723599.270661@sailthru.com>
+Subject: JPMorgan Fights Tesla Over Warrants
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_31826358_1081449978.1637085893710"
+Precedence: bulk
+X-Feedback-ID: 6358:25723599:campaign:sailthru
+X-TM-ID: 20211116130453.25723599.270661
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddviolet.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfbcgf.5sud/4e3323ce
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfbcgf.5sud/4e3323ce>, <mailto:unsubscribe_20211116130453.25723599.270661@mx.sailthru.com>
+X-rpcampaign: stjko25723599
+
+------=_Part_31826358_1081449978.1637085893710
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+        WarrantsCompanies sometimes issue convertible bonds. A convertible =
+bond is a bond that can be converted into stock. Normally the conversion=20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Warrants
+   =20
+ =20
+Companies sometimes issue convertible bonds. A convertible bond is a bond t=
+hat can be converted into stock. Normally the conversion is at a fixed pric=
+e that is above the price of the stock when the convertible is issued.=C2=
+=A0In 2014, Tesla Motors Inc. (now Tesla Inc.) sold $1.38 billion of 7-year=
+ convertible bonds with a 1.25% coupon and a conversion price of $359.87, a=
+ 42.5% premium above its stock price of $252.54 at the time. (At the same t=
+ime, it sold another $920 million of 5-year convertibles with a 0.25% coupo=
+n and the same 42.5% conversion premium, though I will not discuss those bo=
+nds further here.[1]) When the bonds matured seven years later (this March =
+1), Tesla=E2=80=99s stock was trading at $718.43. But in between Tesla had =
+done a 5-for-1 stock split, making the effective conversion price of the bo=
+nds about $71.97. One $1,000 bond converted at maturity=C2=A0into about $10=
+,000 worth of stock. All the convertible bondholders converted by the time =
+the bonds matured =E2=80=94=C2=A0some long before =E2=80=94=C2=A0and were h=
+appy and we will not=C2=A0talk about them anymore.[2]When a company issues =
+a convertible bond, often it thinks: =E2=80=9CThis is fine, but I want a=C2=
+=A0higher=C2=A0conversion premium. I don=E2=80=99t want people to be able t=
+o convert into my stock at 42.5% above my current stock price, because I th=
+ink my stock will go up a lot. I want, like, a 100% conversion premium. I w=
+ant to do a convertible that doesn=E2=80=99t dilute my stock unless my stoc=
+k goes up a whole lot.=E2=80=9D But this is hard to do, in the convertible =
+bond market; convertible-bond investors don=E2=80=99t want to buy super-hig=
+h-premium convertibles. So=C2=A0companies sometimes do=C2=A0what is called =
+a =E2=80=9Ccall options overlay,=E2=80=9D or a =E2=80=9Ccall spread,=E2=80=
+=9D or a =E2=80=9Cbond hedge and warrant transaction,=E2=80=9D with their i=
+nvestment banks. In effect they buy an option from the banks (the =E2=80=9C=
+bond hedge=E2=80=9D) that mirrors the conversion option in the convertible:=
+ In this case, Tesla=E2=80=99s $1.38 billion 7-year convertible would conve=
+rt into about 3.8=C2=A0million shares of stock, so Tesla bought a 7-year op=
+tion on 3.8=C2=A0million shares with a strike price of $359.87. (Those 3.8=
+=C2=A0million shares automatically became 19 million shares after the stock=
+ split.) And then they sell the banks a separate option (the =E2=80=9Cwarra=
+nt=E2=80=9D) at a higher strike price: In this case, Tesla sold the banks a=
+ 7ish-year warrant with a strike price of $560.6388, a 122% premium above t=
+he stock price when it issued the convertible bonds.[3] The overall result =
+is that the company has effectively issued a synthetic high-premium convert=
+ible: If the stock goes up 80% or 100%, it will issue some shares on the co=
+nvertible but get them back from the bond hedge; it only =E2=80=9Creally=E2=
+=80=9D issues shares if the stock goes up more than 122% and the warrant is=
+ in the money.[4]So Tesla=E2=80=99s banks owned warrants to buy Tesla stock=
+. One of those banks was JPMorgan Chase & Co. Disclosure! Another one of th=
+ose banks was Goldman Sachs Group Inc. I used to work at Goldman Sachs, on =
+the convertible bonds and corporate equity derivatives desk, doing exactly =
+these trades, though I was long gone by the time of the Tesla deal (I left =
+in 2011).The banks, of course, hedge these warrants. Roughly speaking the w=
+ay you hedge a warrant is that=C2=A0you sell a portion of the underlying st=
+ock; as the stock goes up you sell more, and as it goes down you buy some b=
+ack.[5] The more often you do that =E2=80=94=C2=A0the more you buy low and =
+sell high =E2=80=94=C2=A0the more money you make. So you want the stock to =
+be volatile, to bounce around a lot, because every time it bounces around y=
+ou make money. The volatility of the underlying stock is an important input=
+ to the options calculators that the banks use to figure out how much to pa=
+y for the warrant.When you do a deal like this, one thing that you worry ab=
+out is a merger. The value of the warrant comes in large part from the vola=
+tility of the stock. Tesla=E2=80=99s stock is volatile, so the banks paid a=
+ lot for its warrants. (A total of about $390 million combined for these wa=
+rrants plus other warrants related to the five-year convertible bond.) If T=
+esla were to be acquired for, say, $420 a share, it would stop being volati=
+le; its stock would be worth $420 per share forever. Not only that, but it =
+would stop being volatile =E2=80=94=C2=A0at least, it would become a lot le=
+ss volatile =E2=80=94=C2=A0as soon as the merger was=C2=A0announced; it wou=
+ld trade close to the deal price ($420) and be pinned there until the deal =
+was completed or abandoned. The merger might be sort of good for you =E2=80=
+=94=C2=A0the stock probably jumps up on the merger news, and you are long a=
+n option =E2=80=94=C2=A0but it=E2=80=99s not that good; you were hedged, so=
+ you don=E2=80=99t have a huge windfall from the stock going up. What you h=
+ave is a loss in warrant value from the reduced volatility.When you are a b=
+ank doing a deal like this, and you worry about things, you put provisions =
+in the contract to protect you against them. These warrants are over-the-co=
+unter options done under an International Swaps and Derivatives Association=
+ form agreement; the banks write the agreements,=C2=A0and they give the ban=
+ks a lot of protections against risks. Basically if the banks identify some=
+ risk that they worry about, the contract will say =E2=80=9Cif the risk hap=
+pens the bank can adjust the terms of the agreement to preserve the fair va=
+lue to the bank.=E2=80=9D (Generally if something=C2=A0good=C2=A0happens th=
+at makes the warrant=C2=A0more=C2=A0valuable for the bank, the bank=C2=A0wo=
+n=E2=80=99t=C2=A0adjust to reduce that fair value.) You can read the form w=
+arrant agreement that Tesla=E2=80=99s banks signed here, though it doesn=E2=
+=80=99t say much; mostly it works by reference to the ISDA Equity Derivativ=
+es Definitions.=C2=A0And so, in particular,=C2=A0it is standard for these w=
+arrants to have an adjustment provision in case of a corporate event like a=
+n acquisition. This provision tends to give the bank broad discretion to ad=
+just the terms of the warrant to keep the value the same. The bank can =E2=
+=80=9Cmake such adjustment to the exercise, settlement, payment or any othe=
+r terms=E2=80=9D of the warrant as it=C2=A0=E2=80=9Cdetermines appropriate =
+to account for the economic effect on the [warrant]=C2=A0of [the announceme=
+nt of a merger] (including adjustments to account for changes in volatility=
+, expected dividends, stock loan rate or liquidity ...).=E2=80=9D[6]=C2=A0I=
+n practice what that means is that if you are bopping along with the warran=
+t, and one day it is worth, say, $400 million, and the next day the company=
+ announces a merger and the volatility flatlines, you fire up your options =
+calculator and figure out how to get the warrant back to being worth $400 m=
+illion. If the lower volatility causes the warrant=E2=80=99s value to drop =
+to $250 million, then you lower the strike price of the warrant until it=E2=
+=80=99s worth $400 million again. A warrant with a strike price of $450 is =
+worth a lot more than a warrant with a strike price of $560; the extra valu=
+e from lowering the strike price can make up for the reduced value from fla=
+ttening the volatility.I do not think I am giving away any huge secrets her=
+e when I say that, if a client gives its=C2=A0bank broad discretion to adju=
+st a complex transaction to preserve value for itself, and the bank uses th=
+at discretion, the client will end up=C2=A0annoyed. The client will announc=
+e a merger, it will have a party, it will be well pleased, and then its ban=
+k will show up and say =E2=80=9Chey remember that warrant we did a few year=
+s ago? Yeah you owe us an extra $150 million on that. Due to volatility. I =
+can show you the model but you won=E2=80=99t understand it.=E2=80=9D The ba=
+nk might even be acting in good faith! But. You know. The client will be up=
+set, and also the banker on the trade just made her whole year=E2=80=99s re=
+venue target with that adjustment, weird how that works.[7]This is a story =
+about Tesla and Tesla, you might notice, has not been acquired.[8] But you =
+may remember that time that Elon Musk, the chief executive officer and majo=
+r shareholder and memelord of Tesla, spent a couple of weeks=C2=A0 pretendi=
+ng on Twitter that he was going to take Tesla private at $420 per share. If=
+ he had taken Tesla private, JPMorgan (and Tesla=E2=80=99s other banks) wou=
+ld definitely have adjusted their warrants and demanded a big payday. He di=
+d not do that; it was all pretend. But he did=C2=A0say=C2=A0he would.And wh=
+en he said that, in August 2018,=C2=A0JPMorgan said, well, okay, that's an =
+announcement of a merger, we get to adjust the warrants. So it did:Followin=
+g its standard practice, JPMorgan determined the economic effect of Tesla=
+=E2=80=99s announcement by looking to the resulting change in the average i=
+mplied volatility of publicly listed options on Tesla=E2=80=99s common stoc=
+k with a maturity and strike price similar to the 2021 Warrants. ... In thi=
+s case, JPMorgan looked at the average implied volatility prior to the anno=
+uncement (from June 25 through August 6) and compared it to the average imp=
+lied volatility after the announcement (from August 7 through August 15). B=
+ased on these calculations, JPMorgan concluded that the average implied vol=
+atility dropped by 12.41 points, a reduction of 26.4%.Next, consistent with=
+ its standard practice, JPMorgan determined that the appropriate adjustment=
+ to account for this economic effect would be a change to the strike price =
+of the 2021 Warrants that preserved their fair value in light of this reduc=
+tion in average implied volatility, keeping all other pricing inputs consta=
+nt. Following a methodology that takes into account the differences between=
+ the bespoke 2021 Warrants and the listed Tesla options for which implied v=
+olatility data is publicly available=E2=80=94a methodology that, like the u=
+se of an average implied volatility, would tend to result in adjustments mo=
+re favorable to Tesla=E2=80=94 JPMorgan determined that the strike price ha=
+d to be reduced from $560.6388 to $424.66 (the =E2=80=9CFirst Adjustment=E2=
+=80=9D) to maintain the same fair value for the 2021 Warrants as they had b=
+efore the Announcement Event. JPMorgan made the First Adjustment effective =
+August 15 and modified its hedge positions the same day.The day before Musk=
+=E2=80=99s tweet, Tesla closed at $341.99 and JPMorgan had out-of-the-money=
+ warrants to buy Tesla stock for $560.5388. The week after Musk=E2=80=99s t=
+weet, Tesla closed at $338.69 and JPMorgan had warrants to buy the stock fo=
+r $424.66. Tesla=E2=80=99s stock price was about the same, but JPMorgan=E2=
+=80=99s warrants were much closer to being in-the-money. That was a big imp=
+rovement!Of course it was an improvement meant to offset the reduced volati=
+lity in Tesla=E2=80=99s stock caused by Elon Musk pretending he was going t=
+o take Tesla private. Except that ... except that ... having a CEO pretend =
+to take the company private makes=C2=A0it=C2=A0way more volatile? That=E2=
+=80=99s a wild thing to do! If your CEO is the sort of wild man who will=C2=
+=A0do pretend mergers because he=E2=80=99s bored on Twitter then your stock=
+ will be volatile! I mean, yes, Tesla=E2=80=99s expected=C2=A0volatility wa=
+s reduced for a bit in the week or so after Musk made his announcement, whe=
+n some people thought he might actually take the company private at $420 pe=
+r share. But then it went up again as they realized (1) no he wouldn=E2=80=
+=99t and (2) he=E2=80=99s the sort of guy who would joke around about that.=
+ In general Tesla has been more volatile since Musk=E2=80=99s tweet than it=
+ was before; in the long run, Musk=E2=80=99s tweet made JPMorgan=E2=80=99s =
+warrant much more valuable.[9]=C2=A0But the warrant gave JPMorgan the right=
+ to adjust as soon as Tesla announced an acquisition, so it did. Well =E2=
+=80=A6=C2=A0did Tesla announce an acquisition? Sure I dunno whatever. Here=
+=E2=80=99s what JPMorgan says:At the time, Mr. Musk was not only Tesla=E2=
+=80=99s CEO, but also the chair of its board of directors and its largest s=
+hareholder. In a Form 8-K filed on November 5, 2013, Tesla had identified M=
+r. Musk=E2=80=99s personal Twitter account as a source of material public i=
+nformation about the company and encouraged investors to review that accoun=
+t. Because the tweet violated Nasdaq rules requiring at least 10 minutes=E2=
+=80=99 advance notice before a listed corporation publicly disclosed a goin=
+g-private transaction, Nasdaq temporarily halted trading in Tesla=E2=80=99s=
+ stock following Mr. Musk=E2=80=99s tweet, evidencing that the exchange con=
+sidered the tweet to constitute an announcement by the company itself.After=
+ Mr. Musk=E2=80=99s tweet, Tesla=E2=80=99s Chief Financial Officer, its hea=
+d of communications, and its General Counsel drafted an email=E2=80=94attri=
+buted to Mr. Musk=E2=80=94detailing the going-private plan. The email was s=
+ent to Tesla employees and published the same day on both Mr. Musk=E2=80=99=
+s Twitter account and Tesla=E2=80=99s blog (which Tesla had also designated=
+ as a source of material public information about the company). In the emai=
+l, and in a series of tweets responding to his Twitter followers, Mr. Musk =
+elaborated on his plans to take Tesla private. He concluded in a tweet that=
+ =E2=80=9CInvestor support is confirmed. Only reason why this is not certai=
+n is that it=E2=80=99s contingent on a shareholder vote.=E2=80=9DThat same =
+day, in response to various inquiries from research analysts, Tesla=E2=80=
+=99s head of investor relations confirmed that Mr. Musk=E2=80=99s tweet sig=
+nified a =E2=80=9Cfirm offer=E2=80=9D to take Tesla private that was =E2=80=
+=9Cas firm as it gets.=E2=80=9D=C2=A0Man, what a weird time that was; all t=
+hat stuff happened. I feel like =E2=80=A6=C2=A0I knew he was kidding? I fee=
+l like the market kind of knew he was kidding? (The stock went up 11% on hi=
+s tweets, but not all that close=C2=A0to the supposed $420 deal price.) I f=
+eel like JPMorgan knew he was kidding? But they saw a deal announcement, of=
+ a sort, and they adjusted their warrant to make it worth a lot more money.=
+A few weeks later, on Aug. 24,=C2=A0Tesla confirmed that Musk was just kidd=
+ing, and JPMorgan dutifully adjusted the warrant again. Weirdly, though, it=
+ did not adjust it all the way back:JPMorgan had to determine the actual ec=
+onomic effect of Tesla=E2=80=99s second announcement. JPMorgan thus employe=
+d the same methodology as it had for its First Adjustment, comparing the av=
+erage implied volatility before the second announcement (from August 16, th=
+e first day after the effective date of the First Adjustment, through Frida=
+y, August 24) to the average implied volatility after that announcement (fr=
+om Monday, August 27 through August 29).Based on these calculations, JPMorg=
+an concluded that the average implied volatility increased by 5.74 points, =
+or 14.3%, as a result of the August 24 announcement, and determined that in=
+creasing the strike price to $484.35 was the appropriate adjustment to main=
+tain=C2=A0the same pre-announcement fair value for the 2021 Warrants.So bec=
+ause Elon Musk spent three weeks in 2018 pretending he would take Tesla pri=
+vate, JPMorgan lowered the strike price of its warrants by about $75. (Thes=
+e are pre-split prices; post-split, that=E2=80=99s about a $15=C2=A0differe=
+nce, and JPMorgan calculates the split-adjusted strike price as $96.87.)=C2=
+=A0Tesla, understandably,=C2=A0disagreed with all of this:After receiving n=
+otice from JPMorgan of the Second Adjustment on August 29, Tesla protested =
+that no adjustment should be necessary at all because it had so quickly aba=
+ndoned its going-private plans. Consistent with its obligations under the A=
+greements, JPMorgan shared a written explanation describing its calculation=
+s, including supporting market data and quotations, and held several confer=
+ence calls with Tesla to explain its calculations. Tesla did not provide an=
+y specific objection to JPMorgan=E2=80=99s explanations on these calls, and=
+ following these calls, Tesla did not communicate further with JPMorgan reg=
+arding the Adjustments for six months. =E2=80=A6Tesla sent a letter to JPMo=
+rgan about the 2021 Warrants on February 13, 2019 arguing that the Adjustme=
+nts made by JPMorgan pursuant to the terms of the Warrants were =E2=80=9Cun=
+reasonably swift and represented an opportunistic=C2=A0attempt to take adva=
+ntage of changes in volatility in Tesla=E2=80=99s stock.=E2=80=9D Tesla=E2=
+=80=99s letter, however, did not dispute that Announcement Events had occur=
+red, did not challenge any of the specific calculations or supporting mater=
+ials JPMorgan had provided six months earlier, and did not offer any suppor=
+t for its assertion that JPMorgan=E2=80=99s methodology was unreasonable.=
+=C2=A0If it is not obvious by now, I am quoting from the lawsuit that JPMor=
+gan filed against Tesla in federal court yesterday. The warrants expired in=
+ June and July of this year;=C2=A0they were very in-the-money no matter wha=
+t strike price you use (Tesla=E2=80=99s stock has been on a tear since 2018=
+), but JPMorgan and Tesla used two different strike prices. JPMorgan demand=
+ed a lot of shares based on its adjusted strike price, Tesla gave it fewer =
+shares based on an unadjusted price, and JPMorgan sued Tesla for a differen=
+ce of 228,775 shares, which it converted to $162.2 million of cash.[10]I do=
+n=E2=80=99t know! I can see Tesla=E2=80=99s point here. Was JPMorgan being =
+opportunistic in lowering the strike price of its warrants by $75 for three=
+ weeks of a pretend going-private transaction that actually=C2=A0increased =
+the volatility of Tesla=E2=80=99s stock and the value of JPMorgan=E2=80=99s=
+ warrants? Yes, of course. The harm that JPMorgan was guarding against =E2=
+=80=94=C2=A0losing the value of its warrant because a merger crushed the vo=
+latility of Tesla=E2=80=99s stock =E2=80=94=C2=A0obviously did not happen, =
+and obviously was not going to happen, and really the exact opposite happen=
+ed and Elon Musk=E2=80=99s nonsense made Tesla=E2=80=99s stock more volatil=
+e. But the letter of the contract let it adjust the warrant to offset that =
+imagined harm, so it did.On the other hand it is not a great defense to be =
+like =E2=80=9Cwhen our CEO makes corporate announcements nobody should list=
+en to him.=E2=80=9D JPMorgan might not have actually believed=C2=A0Elon Mus=
+k when he said he was going to take Tesla private. But it=E2=80=99s weird f=
+or Tesla to argue that. He=E2=80=99s the CEO! If he says he=E2=80=99s going=
+ to take Tesla private, Tesla is kind of committed to that position.It=E2=
+=80=99s worth saying that JPMorgan was one of four banks that acted as Tesl=
+a=E2=80=99s counterparties on the warrant transactions for this convertible=
+ bond deal. Did the=C2=A0other=C2=A0banks=C2=A0adjust their warrants to giv=
+e themselves more shares for Musk=E2=80=99s pretend going-private deal? App=
+arently not. Here=E2=80=99s a grudging footnote in JPMorgan=E2=80=99s compl=
+aint:Tesla also claimed that none of its three other warrant dealers had ma=
+de similar adjustments. But Tesla has never substantiated that claim. Moreo=
+ver, even if it were true, it has no bearing on whether JPMorgan acted in g=
+ood faith, or whether its methods for calculating the adjustment were comme=
+rcially reasonable. Tesla=E2=80=99s other warrant dealers generally held fe=
+wer warrants, and thus had less exposure, than JPMorgan. In addition, accor=
+ding to Tesla=E2=80=99s August 24 blog post, two of Tesla=E2=80=99s other w=
+arrant dealers were advising Mr. Musk on his going-private proposal. The th=
+ird dealer may have been under consideration to serve as financial advisor =
+to the special committee of Tesla=E2=80=99s board, but even if it was not i=
+nvolved in the going-private transaction, that dealer was working on a majo=
+r financial transaction with Tesla that closed on or about August 21, 2018,=
+ just days before the going-private transaction was publicly abandoned. Thu=
+s, each of the other dealers may have been privy to non-public information =
+about the going-private transaction, or otherwise may have declined to adju=
+st their warrants for business reasons having nothing to do with the contra=
+ctual terms or the reasonableness of JPMorgan=E2=80=99s adjustments.=C2=A0O=
+n the one hand, sure, fair, the other banks could have had thought =E2=80=
+=9Cwe should adjust these warrants=E2=80=9D and had other reasons for decid=
+ing not to. On the other hand, if one bank adjusts its warrants to be worth=
+ an extra $162 million, and the other three don=E2=80=99t, that does tend t=
+o undermine the one bank=E2=80=99s position. The other three banks saw Musk=
+=E2=80=99s tweets too; they just let it go.Speaking of =E2=80=9Cbusiness re=
+asons,=E2=80=9D with cases like this it is fun, for me at least, to imagine=
+ the discussions within the bank. Like there is some banker at JPMorgan who=
+ covers Tesla, and who is not particularly in the weeds of the equity deriv=
+atives book. And this coverage banker was just cheerfully going about her b=
+usiness, planning to meet with Tesla and pitch some mergers and financing d=
+eals, when=C2=A0some nerd in=C2=A0equity derivatives called and said=C2=A0=
+=E2=80=9Chey, heads up, we=E2=80=99re in a dispute with Tesla about how we =
+calculate the adjusted strike price of the warrants we did in 2014.=E2=80=
+=9D And the coverage banker was probably like =E2=80=9CI don=E2=80=99t know=
+ what those words mean but this sounds very trivial, this is a huge company=
+ with huge prospective revenue, don=E2=80=99t antagonize them, just do them=
+ a favor and calculate the adjusted strike price the way they want.=E2=80=
+=9D And then the derivatives banker said =E2=80=9Cno you don=E2=80=99t unde=
+rstand it=E2=80=99s $162 million.=E2=80=9DAnd then the coverage banker pres=
+umably =E2=80=A6=C2=A0fainted? Like, obviously people very high up at JPMor=
+gan had to sign off on filing this lawsuit, and presumably the coverage ban=
+kers=C2=A0advocated against it, but they had absolutely no leg to stand on =
+because it takes a whole lot of banking revenue to=C2=A0compete with the $1=
+62 million that the equity derivatives nerds are planning to collect from T=
+esla. And now Tesla presumably hates JPMorgan and doesn=E2=80=99t return th=
+e coverage banker=E2=80=99s phone calls, and JPMorgan has decided as a matt=
+er of corporate policy to do this anyway because very few clients are worth=
+ $162 million.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Everything is securities fraud
+   =20
+ =20
+Say it with me now!Ohio=E2=80=99s attorney general is suing Meta Platforms =
+Inc., formerly known as Facebook Inc., alleging the company misled the publ=
+ic about how it controlled its algorithm and the effects its products have =
+on children.The lawsuit, filed on behalf of Meta investors and the Ohio Pub=
+lic Employees Retirement System, seeks more than $100 billion in damages an=
+d demands that Meta make significant changes so as to not mislead investors=
+ again, Ohio Attorney General Dave Yost said in a statement. =E2=80=A6The l=
+awsuit alleges that between April 29 and Oct. 21, 2021, Facebook and its ex=
+ecutives violated federal securities law by intentionally misleading the pu=
+blic about the negative impact of its products on minors in an effort to bo=
+ost its stock and deceive shareholders.=E2=80=9CFacebook said it was lookin=
+g out for our children and weeding out online trolls, but in reality was cr=
+eating misery and divisiveness for profit,=E2=80=9D Mr. Yost, a Republican,=
+ said.Here is the complaint. You  know the drill by now.=C2=A0Facebook said=
+ some generic things about how it was good:Throughout the Class Period, the=
+ Company repeatedly assured investors that it has =E2=80=9Cthe most robust =
+set of content policies out there=E2=80=9D and touted the aggressive steps =
+it takes to ensure the safety and security of its users by preventing misin=
+formation and harmful content from spreading through its platforms. Faceboo=
+k also stated that it was committed to keeping people safe and assured inve=
+stors that it enforces its content policies evenly across all users.=C2=A0A=
+nd investors, reassured by those statements, assumed that Facebook was good=
+ and bought its stock. But in fact it was bad:Thousands of recently leaked =
+internal Facebook documents paint a remarkably different picture. Those doc=
+uments show that Defendants were acutely aware that the products and system=
+s central to Facebook=E2=80=99s business are riddled with flaws that sow di=
+ssention, facilitate illegal activity and violent extremism, and cause sign=
+ificant harm to users, but Facebook lacks the will or ability to correct th=
+em. Despite this knowledge, Facebook opted to maximize its profits at the e=
+xpense of the safety of its users and the broader public, exposing Facebook=
+ to serious reputational, legal, and financial harm.And, when the facts (th=
+at Facebook was bad) came out, the stock went down:From the date of the fir=
+st article published by The Wall Street Journal on September 13, 2021 to Th=
+e Wall Street Journal article published on October 21, 2021 that raised con=
+cerns about the accuracy and reliability of the Company=E2=80=99s user metr=
+ics, Facebook=E2=80=99s stock price declined by $54.08 per share, or over 1=
+4%, representing a decline of more than $150 billion in Facebook=E2=80=99s =
+total market capitalization.If you were the attorney general of Ohio and yo=
+u were interested in =E2=80=9Clooking out for our children,=E2=80=9D it is =
+not=C2=A0obvious=C2=A0that the right mechanism for that would be to try to =
+recover billions of dollars of damages for=C2=A0Meta shareholders? Those sh=
+areholders are the ones who enjoyed the profits that Facebook was allegedly=
+ maximizing =E2=80=9Cat the expense of the safety of its users and the broa=
+der public.=E2=80=9D Arguably if you are a state attorney general you shoul=
+d be protecting the broader public=C2=A0from=C2=A0Meta and its owners, not =
+trying to recover more money for Meta=E2=80=99s owners. But this ship has s=
+ailed, nobody thinks it=E2=80=99s weird, everything is securities fraud.And=
+, sure, fair. Imagine the attorney general of Ohio trying to sue Meta on be=
+half of children who were negatively impacted by using Facebook and Instagr=
+am. He=E2=80=99d have to find the children in Ohio who used Facebook and In=
+stagram, and figure out how sad Facebook and Instagram made them. It would =
+be hard to turn that into a damages claim, especially one with a big dollar=
+ number; how much is a child=E2=80=99s sadness worth in dollars? He could s=
+eek an injunction =E2=80=94=C2=A0not =E2=80=9Cpay us money=E2=80=9D but rat=
+her =E2=80=9Cchange your policies to be nicer to children=E2=80=9D =E2=80=
+=94=C2=A0but that would require him to figure out what the right policies a=
+re, which is not easy! But if bad documents come out of Facebook and the st=
+ock goes down by $150 billion, then that=E2=80=99s a big lawsuit with clear=
+ victims (the shareholders) and clear damages ($150 billion). And if Facebo=
+ok wants to avoid lawsuits like that, well, it can figure out what policies=
+ to write so that its stock doesn=E2=80=99t drop again.Byrne Hobart writes =
+that =E2=80=9Ceverything is securities fraud=E2=80=9D is =E2=80=9Cpartly a =
+result of how efficiently markets aggregate and share information: it's har=
+d to directly measure the effect of corporate malfeasance on sales or emplo=
+yee retention, especially over long periods. But stock prices react fast, a=
+nd they represent a guess about the long term. So if you want to know=C2=A0=
+exactly=C2=A0how bad some piece of news was, the only way to rephrase that=
+=C2=A0is =E2=80=98how bad was it=C2=A0for shareholders?=E2=80=99=E2=80=9DI =
+do not disagree with this but  it continues to be just a weird way to struc=
+ture a society. Here you have the top law enforcement officer of a state sa=
+ying that Facebook did things that were bad for society in order to maximiz=
+e profits for its shareholders. =E2=80=9CHow bad were those=C2=A0things, fo=
+r society,=E2=80=9D you might ask the attorney general, and his only answer=
+ is to measure=C2=A0how much they cost the shareholders. If Facebook harms =
+society, and as a result its stock goes down by $150 billion, society sends=
+ it a $150 billion bill.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      The Elon show
+   =20
+ =20
+Well  there you go:Elon Musk exercised options and offloaded more Tesla Inc=
+. shares, continuing a streak of sales that helped tank the stock last week=
+ by the most since March 2020. =C2=A0The world=E2=80=99s richest person dis=
+posed of more than 934,000 shares on Monday for about $930 million, accordi=
+ng to regulatory filings. That adds to the $6.9 billion he already sold las=
+t week, just after he took an unusual Twitter poll asking whether he should=
+ dispose of 10% of his Tesla stake. Part of Monday=E2=80=99s sales were to =
+help pay taxes on the exercise of 2.1 million options.I was puzzled by this=
+ last week.=C2=A0Last Monday, Musk exercised 2.15 million options and sold =
+934,091=C2=A0shares to pay taxes under a prearranged Rule 10b5-1 plan that =
+he had set up in September. Then last Tuesday through Saturday he dumped 5.=
+4 million more shares, not=C2=A0under the 10b5-1 plan,=C2=A0not=C2=A0as a r=
+esult of options exercises. =E2=80=9CHow does that 10b5-1 plan work, anyway=
+,=E2=80=9D  I asked; it seemed weird that it would exercise 2.15 million op=
+tions and sell 934,000 shares on Monday and then=C2=A0stop. =E2=80=9CMaybe =
+the plan says =E2=80=98exercise 2.15 million shares per week and sell the s=
+tock,=E2=80=99=E2=80=9D I wrote, but I wondered. Maybe he had canceled the =
+10b5-1 plan to spend more time on his spontaneous, poll-related, trolling-d=
+riven voluntary stock sales?=C2=A0But, no, I guess the plan does say =E2=80=
+=9Cexercise 2=C2=A0million-ish shares per week each Monday and sell the sto=
+ck=E2=80=9D? Or close enough. Yesterday he exercised 2,107,672 options and =
+sold 934,091 shares for about $930 million, an average price of about $996.=
+37 per share, all under his September Rule 10b5-1 plan. (Here are the Form =
+4s.)=C2=A0Tomorrow I assume he=E2=80=99ll be back to dumping stock voluntar=
+ily, and then next Monday he=E2=80=99ll exercise 2 million more options, an=
+d so on.=C2=A0
+ =20
+   =20
+      This is how the stock market works now, you think I am joking but I n=
+ever joke, everything is much stupider than my attempts to parody it
+   =20
+ =20
+The other day  I wrote that =E2=80=9CThe basic issue is that right now ever=
+ything is dumb. You can complain about that, or you can embrace it.=E2=80=
+=9D I said:If you are the CEO of a public company, I want you to consider v=
+ery seriously going to an investment conference with no pants on. Your stoc=
+k will go up, your shareholders will be happy and your cost of financing wi=
+ll go down. =E2=80=9CWhy would my stock go up because I don=E2=80=99t wear =
+pants,=E2=80=9D you ask me, and I say, shh, shh, it just will, don=E2=80=99=
+t ask why. =E2=80=9CI have my dignity, I am not going to go to an important=
+ business conference with no pants on just to amuse some apes on Reddit,=E2=
+=80=9D you say, and I say: You are not as committed to maximizing sharehold=
+er value as I thought you were.Was I joking? Well, the suggestion was based=
+ on, let=E2=80=99s say, alleged fact. But, sure, I suppose I hoped I was ex=
+aggerating a bit? Here=E2=80=99s a MarketWatch story from Thornton McEnery:=
+At roughly 1 a.m. EST on Monday, [Ryan Cohen,] the 30-something Chewy co-fo=
+under, turned activist investor, turned GameStop chairman, tweeted =E2=80=
+=9Ceew eew llams a evah I,=E2=80=9D which spelled backward reads =E2=80=9CI=
+ have a small wee wee.=E2=80=9DAs we=E2=80=99ve talked about in the past, f=
+undamentals can be fun, but nothing moves GameStop shares like an inscrutab=
+le tweet from the company=E2=80=99s perceived savior turned actual chairman=
+. ...Many of Cohen=E2=80=99s twitter followers took the backwardness of eve=
+rything as a signal that Cohen was trying to communicate the opposite meani=
+ng, for example, engaging in some public self-care by spending the twilight=
+ of Monday morning doing a public affirmation that he indeed has a large =
+=E2=80=9Cwee wee.=E2=80=9DBy midday, GameStop shares had climbed up as high=
+ as 4.2%, before trimming that advance.McEnery advances a Straussian readin=
+g of the tweet, arguing=C2=A0=E2=80=94=C2=A0I swear =E2=80=94=C2=A0that Coh=
+en might have meant to reference the =E2=80=9CSouth Park=E2=80=9D catchphra=
+se =E2=80=9COh my God, they killed Kenny,=E2=80=9D because Reddit meme-stoc=
+k investors =E2=80=9Chave made Citadel founder Ken Griffin into their prime=
+ enemy, re-christening him as =E2=80=98Kenny G=E2=80=99 or simply =E2=80=98=
+Kenny.=E2=80=99=E2=80=9D Anyway if you are the chief executive officer of a=
+ public company and you can add half a billion dollars of market cap by twe=
+eting inscrutably about your anatomy, should you do it? I dunno, you are ki=
+nd of on your own here.
+ =20
+   =20
+      NFT Stuff (1)
+   =20
+ =20
+Technically this is a fungible token but:The Green Bay Packers will hold a =
+stock sale Tuesday, offering shares of =E2=80=9Cownership=E2=80=9D in the N=
+FL franchise for the first time in nearly 10 years. Funds raised will be us=
+ed for stadium improvements.=C2=A0An individual can buy a share of the Pack=
+ers for $300, the sixth time the team has offered shares to fans in its his=
+tory.=C2=A0The shares have no financial value and can=E2=80=99t be resold. =
+Shareholders of the Green Bay franchise don=E2=80=99t get paid dividends. T=
+he stock doesn=E2=80=99t appreciate in value and isn=E2=80=99t transferable=
+, except to family members by gift or in the event of death.=C2=A0Essential=
+ly, fans can get bragging rights for owning a piece of the team and a stock=
+ certificate commemorating the purchase.=C2=A0Yeah, tell you what, make it =
+transferable, put it on the blockchain, bam, you=E2=80=99ve got a $40 billi=
+on market cap. Give the shares voting rights to change the team name and ma=
+scot. The Green Bay Bored Apes. This is all going to happen isn=E2=80=99t i=
+t.
+ =20
+   =20
+      NFT Stuff (2)
+   =20
+ =20
+Sure, pretending to buy the Packers is nice, but now you can pretend to buy=
+ the U.S. Constitution:Sotheby=E2=80=99s is auctioning off an extremely rar=
+e and historic first-edition printing of the U.S. Constitution, and crypto =
+investors are pooling millions of dollars worth of ether to buy it.An organ=
+ization known as ConstitutionDAO is raising the money using a digital crypt=
+o wallet with the aim of crowdsourcing enough funds to make the winning bid=
+ when the document hits the auction block on Thursday night.The foundationa=
+l text is valued at $15 million to $20 million. Since launching five days a=
+go, the group has thus far raised 967 ether, or $4.3 million.The exercise o=
+ffers some of the first practical insight into how crypto infrastructure ca=
+n be used to facilitate fractional ownership of a physical artifact.Constit=
+utionDAO is a decentralized autonomous organization, or DAO, formed for the=
+ sole purpose of putting an original copy of the Constitution back in the h=
+ands of the people.Ben Thompson points out that this is all pretty approxim=
+ate; ConstitutionDAO will=C2=A0not=C2=A0give its token holders fractionaliz=
+ed ownership of the Constitution:The most obvious reason for this limitatio=
+n is regulatory: issuing ownership tokens with the expectation of a return =
+would make ConstitutionDAO a security; moreover, a DAO is digital, and the =
+Constitution copy is physical, and it is not well established in most juris=
+dictions how or if a DAO can own physical property. Then there is the fact =
+that Sotheby=E2=80=99s has to follow Know Your Customer (KYC) laws: if the =
+DAO is simply a bunch of anonymous Ethereum addresses how can the auction h=
+ouse satisfy its legal requirements around limiting money laundering?Instea=
+d, according to the project=E2=80=99s Purchase Process Details, it appears =
+that the actual bidder for the Constitution will be a just-formed LLC with =
+two members/beneficiaries who may sign a letter of intent to be bound by DA=
+O decisions, but still TBD. It=E2=80=99s also not clear whether or not the =
+founders of the project will take money off of the table =E2=80=A6Also, not=
+ to be like this, but there is an original copy of the Constitution on perm=
+anent display at the National Archives; it is already=C2=A0=E2=80=9Cin the =
+hands of the people,=E2=80=9D in the sense that (1) it is owned by the U.S.=
+ government and (2) the U.S. government is, when you think about it, sort o=
+f a decentralized=C2=A0autonomous organization made up of the citizens of t=
+he U.S.? The citizens can kind of tell the government what to do? By voting=
+?=C2=A0When you think about it? I don=E2=80=99t know.=C2=A0I=E2=80=99m sure=
+ that in five years ConstitutionDAO token holders will vote to change the S=
+econd Amendment to say =E2=80=9Cputting laser implants in your eyes is now =
+mandatory=E2=80=9D and somehow that will have the force of law.
+ =20
+   =20
+      NFT Stuff (3)
+   =20
+ =20
+Here=E2=80=99s a paragraph about  celebrities doing=C2=A0non-fungible token=
+s:=E2=80=9CThere are some that are done tastefully i.e. Paris Hilton=E2=80=
+=99s drop with Nifty Gateway, and there are some with poor design, poor lau=
+nch partners and poor execution,=E2=80=9D said WhaleShark, one of the world=
+=E2=80=99s biggest NFT collectors, who bought an NFT from Paris Hilton but =
+is staying away from other celeb NFTs. =E2=80=9CThe latter tend to come acr=
+oss as money grabs, rather than a true leveraging of one=E2=80=99s fan base=
+ to drive NFT mainstream adoption.=E2=80=9D A Hilton NFT of a hummingbird t=
+hat sold for $10,000 in April last sold for $12,000.That sure was a paragra=
+ph.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Corporate  Snitching to SEC Surges as Telework Emboldens Tipsters (earlier)=
+. Pfizer Moves to Allow Cheap Versions of  Promising Covid Pill. Retirement=
+ Fund Giant Calpers Votes to Use Leverage, More Alternative Assets. Third U=
+.S.  Bitcoin Futures ETF Launches After Weeks-Long Delay. The CEO of a $1.4=
+5 billion fintech bought an 11-employee small-town bank with a pig mascot.=
+=C2=A0If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, =
+right in your inbox, please=C2=A0subscribe at this link. Or you can subscri=
+be to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Th=
+e numbers were actually=C2=A0$1.2 billion and $800 million of 2021 and 2019=
+ convertibles, respectively, plus 15% greenshoe options that were exercised=
+.[2] The bonds were net share settled, a technicality meaning that each $1,=
+000 bond would be paid off on conversion with $1,000 in cash and *the rest*=
+ in shares; if the conversion value was $10,000, you=E2=80=99d get $1,000 i=
+n cash and $9,000 in stock. Page 20 of Tesla=E2=80=99s 10Q for the first qu=
+arter discusses the settlement of these bonds (the =E2=80=9C2021 Notes=E2=
+=80=9D).[3] For tax reasons, people care a lot about keeping the bond hedge=
+ and warrant separate; one way to do this is that the warrant usually has a=
+ somewhat longer maturity =E2=80=94=C2=A0by a few months =E2=80=94 than the=
+ convertible bonds or the bond hedge. Here the bonds matured in March 2021;=
+ the warrant matured in 40 equal tranches in June and July 2021. Here is an=
+ Internal Revenue Service memo discussing the call options overlay structur=
+e and how to optimize its tax treatment; one rough way to put it is that, i=
+f you do it right, the amount that the company pays for the bond hedge is t=
+ax-deductible but the amount that it gets paid for the warrant is not taxab=
+le.[4] It is a little unclear if the warrants covered the same 3.8 million =
+shares as the convertible bond and bond hedge, as is common (see page 79 of=
+ the 2014 Form 10K), or twice as many shares, as sometimes happens to incre=
+ase the value of the warrant (see the 8-Ks announcing the deal and greensho=
+e).[5] In the real world, the main way the banks in this transaction=C2=A0h=
+edge the warrant is *by being=C2=A0short an offsetting bond hedge*. But her=
+e, with=C2=A0convertible bonds that may have converted early due to the hug=
+e stock-price run-up, the warrant may have dominated. In any case JPMorgan=
+=E2=80=99s lawsuit, sensibly, talks only about the warrant and ignores the =
+bond hedge.[6] Again, you can read the form confirmation for the warrant tr=
+ansactions here, though it doesn=E2=80=99t say much; the relevant provision=
+s are on page 9 (=E2=80=9CConsequences of Announcement Events=E2=80=9D and =
+=E2=80=9CAnnouncement Event=E2=80=9D). The actual governing provisions, inc=
+luding what I quoted, are in the International Swaps and Derivatives Associ=
+ation Equity Derivatives Definitions, which are incorporated into the confi=
+rm for the deal. I have quoted from page 7 of JPMorgan=E2=80=99s lawsuit, w=
+hich quotes the Equity Definitions; the modifications are mine.[7]=C2=A0Mea=
+nwhile, for complicated tax reasons (see note 3), the bond hedge generally =
+will=C2=A0not=C2=A0adjust in the same way as the warrant, so the bank will =
+demand lots of extra value from the client on the warrant but not give it a=
+ny offsetting value on the bond hedge. =E2=80=9CTax reasons, what can we do=
+,=E2=80=9D the bank will shrug.[8] It has done acquisitions =E2=80=94=C2=A0=
+e.g.  of SolarCity Corp. in 2016 =E2=80=94 but that would not trigger this =
+adjustment.[9] One crude measure is to take the timeline of the convertible=
+, from roughly March 1, 2014, through March 1, 2021,=C2=A0divide that into =
+pre- and post-tweet periods (i.e. at Aug. 7, 2018), and take the average vo=
+latility over the pre- and post-tweet periods. In the post-tweet period, Te=
+sla=E2=80=99s average implied volatility (per Bloomberg page HVT, 30-day at=
+-the-money implied volatility) has been about 66%; pre-tweet it was about 4=
+4%. The average 260-day historical volatility numbers are similar. Tesla wa=
+s about 50% more volatile after Musk pretended to take it private than it w=
+as before.[10] These warrants are net share settled; effectively, JPMorgan =
+can pay the exercise price of the warrants with some of the shares it would=
+ otherwise get. So the lower the strike price, the more shares JPMorgan get=
+s.=C2=A0
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfbcgf.5sud/c2636cc4.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_31826358_1081449978.1637085893710
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+WarrantsCompanies sometimes issue convertible bonds. A convertible bond is =
+a bond that can be converted into stock. Normally the conversion=20
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTcyMzU5OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5OTQyNjAmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cBe737e551" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25723599&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25994260&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTE2MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMTYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBc632480f"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTcyMzU5OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5OTQyNjAmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cC6be5647a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25723599&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25994260&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"108" style=3D"width: 108px !important; display:block" =
+/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Warrants</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Companies sometimes issue convertible =
+bonds. A convertible bond is a bond that can be converted into stock. Norma=
+lly the conversion is at a fixed price that is above the price of the stock=
+ when the convertible is issued.=C2=A0In 2014, Tesla Motors Inc. (now Tesla=
+ Inc.) <a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.27=
+0661/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMT=
+E5MzEyNTE0MDc3Mjg4L2Q2Nzg2MTRkNDI0YjUuaHRt/607f07ceef4b8524a319a23cBa39ff22=
+2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">sold $1.38 billion of 7-year convertible bonds</a> with a 1.25=
+% coupon and a conversion price of $359.87, a 42.5% premium above its stock=
+ price of $252.54 at the time. (At the same time, it sold another $920 mill=
+ion of 5-year convertibles with a 0.25% coupon and the same 42.5% conversio=
+n premium, though I will not discuss those bonds further here.[1]) When the=
+ bonds matured seven years later (this March 1), Tesla=E2=80=99s stock was =
+trading at $718.43. But in between Tesla had done a 5-for-1 stock split, ma=
+king the effective conversion price of the bonds about $71.97. One $1,000 b=
+ond converted at maturity=C2=A0into about $10,000 worth of stock. All the c=
+onvertible bondholders converted by the time the bonds matured =E2=80=94=C2=
+=A0some long before =E2=80=94=C2=A0and were happy and we will not=C2=A0talk=
+ about them anymore.[2]</p><p style=3D"margin: 16px 0;">When a company issu=
+es a convertible bond, often it thinks: =E2=80=9CThis is fine, but I want a=
+=C2=A0<em>higher=C2=A0</em>conversion premium. I don=E2=80=99t want people =
+to be able to convert into my stock at 42.5% above my current stock price, =
+because I think my stock will go up a lot. I want, like, a 100% conversion =
+premium. I want to do a convertible that doesn=E2=80=99t dilute my stock un=
+less my stock goes up a whole lot.=E2=80=9D But this is hard to do, in the =
+convertible bond market; convertible-bond investors don=E2=80=99t want to b=
+uy super-high-premium convertibles. So=C2=A0companies sometimes do=C2=A0wha=
+t is called a =E2=80=9Ccall options overlay,=E2=80=9D or a =E2=80=9Ccall sp=
+read,=E2=80=9D or a =E2=80=9Cbond hedge and warrant transaction,=E2=80=9D w=
+ith their investment banks. In effect they buy an option from the banks (th=
+e =E2=80=9Cbond hedge=E2=80=9D) that mirrors the conversion option in the c=
+onvertible: In this case, Tesla=E2=80=99s $1.38 billion 7-year convertible =
+would convert into about 3.8=C2=A0million shares of stock, so Tesla bought =
+a 7-year option on 3.8=C2=A0million shares with a strike price of $359.87. =
+(Those 3.8=C2=A0million shares automatically became 19 million shares after=
+ the stock split.) And then they sell the banks a separate option (the =E2=
+=80=9Cwarrant=E2=80=9D) at a higher strike price: In this case, Tesla sold =
+the banks a 7ish-year warrant with a strike price of $560.6388, a 122% prem=
+ium above the stock price when it issued the convertible bonds.[3] The over=
+all result is that the company has effectively issued a synthetic high-prem=
+ium convertible: If the stock goes up 80% or 100%, it will issue some share=
+s on the convertible but get them back from the bond hedge; it only =E2=80=
+=9Creally=E2=80=9D issues shares if the stock goes up more than 122% and th=
+e warrant is in the money.[4]</p><p style=3D"margin: 16px 0;">So Tesla=E2=
+=80=99s banks owned warrants to buy Tesla stock. One of those banks was JPM=
+organ Chase &amp; Co. Disclosure! Another one of those banks was Goldman Sa=
+chs Group Inc. I used to work at Goldman Sachs, on the convertible bonds an=
+d corporate equity derivatives desk, doing exactly these trades, though I w=
+as long gone by the time of the Tesla deal (I left in 2011).</p><p style=3D=
+"margin: 16px 0;">The banks, of course, hedge these warrants. Roughly speak=
+ing the way you hedge a warrant is that=C2=A0you sell a portion of the unde=
+rlying stock; as the stock goes up you sell more, and as it goes down you b=
+uy some back.[5] The more often you do that =E2=80=94=C2=A0the more you buy=
+ low and sell high =E2=80=94=C2=A0the more money you make. So you want the =
+stock to be volatile, to bounce around a lot, because every time it bounces=
+ around you make money. The volatility of the underlying stock is an import=
+ant input to the options calculators that the banks use to figure out how m=
+uch to pay for the warrant.</p><p style=3D"margin: 16px 0;">When you do a d=
+eal like this, one thing that you worry about is a merger. The value of the=
+ warrant comes in large part from the volatility of the stock. Tesla=E2=80=
+=99s stock is volatile, so the banks paid a lot for its warrants. (A <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aHR0cHM6=
+Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMTE5MzEyNTE0MDg=
+0NDg0L2Q2ODYwNTFkOGsuaHRt/607f07ceef4b8524a319a23cB98518681" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">total<=
+/a> of <a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.27=
+0661/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMT=
+E5MzEyNTE0MTI5MTc4L2Q3MDQxMjJkOGsuaHRt/607f07ceef4b8524a319a23cBf4cfd7ee" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">about</a> $390 million combined for these warrants plus other warran=
+ts related to the five-year convertible bond.) If Tesla were to be acquired=
+ for, say, $420 a share, it would stop being volatile; its stock would be w=
+orth $420 per share forever. Not only that, but it would stop being volatil=
+e =E2=80=94=C2=A0at least, it would become a lot less volatile =E2=80=94=C2=
+=A0as soon as the merger was=C2=A0<em>announced</em>; it would trade close =
+to the deal price ($420) and be pinned there until the deal was completed o=
+r abandoned. The merger might be sort of good for you =E2=80=94=C2=A0the st=
+ock probably jumps up on the merger news, and you are long an option =E2=80=
+=94=C2=A0but it=E2=80=99s not that good; you were hedged, so you don=E2=80=
+=99t have a huge windfall from the stock going up. What you have is a loss =
+in warrant value from the reduced volatility.</p><p style=3D"margin: 16px 0=
+;">When you are a bank doing a deal like this, and you worry about things, =
+you put provisions in the contract to protect you against them. These warra=
+nts are over-the-counter options done under an International Swaps and Deri=
+vatives Association form agreement; the banks write the agreements,=C2=A0an=
+d they give the banks a lot of protections against risks. Basically if the =
+banks identify some risk that they worry about, the contract will say =E2=
+=80=9Cif the risk happens the bank can adjust the terms of the agreement to=
+ preserve the fair value to the bank.=E2=80=9D (Generally if something=C2=
+=A0<em>good=C2=A0</em>happens that makes the warrant=C2=A0<em>more=C2=A0</e=
+m>valuable for the bank, the bank=C2=A0<em>won=E2=80=99t=C2=A0</em>adjust t=
+o reduce that fair value.) You can read the form warrant agreement that Tes=
+la=E2=80=99s banks signed <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/25723599.270661/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXR=
+hLzEzMTg2MDUvMDAwMTE5MzEyNTE0MDg0NDg0L2Q2ODYwNTFkZXgxMDQuaHRt/607f07ceef4b8=
+524a319a23cBb89a92cf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">here</a>, though it doesn=E2=80=99t say much;=
+ mostly it works by reference to the <a href=3D"https://link.mail.bloomberg=
+business.com/click/25723599.270661/aHR0cHM6Ly93d3cuaXNkYS5vcmcvYm9vay8yMDAy=
+LWlzZGEtZXF1aXR5LWRlcml2YXRpdmVzLWRlZmluaXRpb25zLw/607f07ceef4b8524a319a23c=
+Bfe5b79bf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">ISDA Equity Derivatives Definitions</a>.=C2=A0</p><p sty=
+le=3D"margin: 16px 0;">And so, in particular,=C2=A0it is standard for these=
+ warrants to have an adjustment provision in case of a corporate event like=
+ an acquisition. This provision tends to give the bank broad discretion to =
+adjust the terms of the warrant to keep the value the same. The bank can =
+=E2=80=9Cmake such adjustment to the exercise, settlement, payment or any o=
+ther terms=E2=80=9D of the warrant as it=C2=A0=E2=80=9Cdetermines appropria=
+te to account for the economic effect on the [warrant]=C2=A0of [the announc=
+ement of a merger] (including adjustments to account for changes in volatil=
+ity, expected dividends, stock loan rate or liquidity ...).=E2=80=9D[6]=C2=
+=A0</p><p style=3D"margin: 16px 0;">In practice what that means is that if =
+you are bopping along with the warrant, and one day it is worth, say, $400 =
+million, and the next day the company announces a merger and the volatility=
+ flatlines, you fire up your options calculator and figure out how to get t=
+he warrant back to being worth $400 million. If the lower volatility causes=
+ the warrant=E2=80=99s value to drop to $250 million, then you lower the st=
+rike price of the warrant until it=E2=80=99s worth $400 million again. A wa=
+rrant with a strike price of $450 is worth a lot more than a warrant with a=
+ strike price of $560; the extra value from lowering the strike price can m=
+ake up for the reduced value from flattening the volatility.</p><p style=3D=
+"margin: 16px 0;">I do not think I am giving away any huge secrets here whe=
+n I say that, if a client gives its=C2=A0bank broad discretion to adjust a =
+complex transaction to preserve value for itself, and the bank uses that di=
+scretion, the client will end up=C2=A0annoyed. The client will announce a m=
+erger, it will have a party, it will be well pleased, and then its bank wil=
+l show up and say =E2=80=9Chey remember that warrant we did a few years ago=
+? Yeah you owe us an extra $150 million on that. Due to volatility. I can s=
+how you the model but you won=E2=80=99t understand it.=E2=80=9D The bank mi=
+ght even be acting in good faith! But. You know. The client will be upset, =
+and also the banker on the trade just made her whole year=E2=80=99s revenue=
+ target with that adjustment, weird how that works.[7]</p><p style=3D"margi=
+n: 16px 0;">This is a story about Tesla and Tesla, you might notice, has no=
+t been acquired.[8] But you may remember that time that Elon Musk, the chie=
+f executive officer and major shareholder and memelord of Tesla, spent a co=
+uple of weeks=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click=
+/25723599.270661/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMTgtMDgtMDgvZWxvbi1tdXNrLWhhcy1zb21lLWZ1bi13aXRoLXRlc2xhP2NtcGlkPUJCRDExM=
+TYyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIxMTExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+B1ef8726d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> pretending on Twitter that he was going to take Tesla p=
+rivate at $420 per share</a>. If he had taken Tesla private, JPMorgan (and =
+Tesla=E2=80=99s other banks) would definitely have adjusted their warrants =
+and demanded a big payday. He did not do that; it was all pretend. But he d=
+id=C2=A0<em>say=C2=A0</em>he would.</p><p style=3D"margin: 16px 0;">And whe=
+n he said that, in August 2018,=C2=A0JPMorgan said, well, okay, that's an a=
+nnouncement of a merger, we get to adjust the warrants. <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/25723599.270661/aHR0cHM6Ly9hc3NldHMuY=
+ndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JKV21ILk91dGxZTS92MA/607f0=
+7ceef4b8524a319a23cBcac1b0c1" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">So it did</a>:</p><blockquote><p styl=
+e=3D"margin: 16px 0;">Following its standard practice, JPMorgan determined =
+the economic effect of Tesla=E2=80=99s announcement by looking to the resul=
+ting change in the average implied volatility of publicly listed options on=
+ Tesla=E2=80=99s common stock with a maturity and strike price similar to t=
+he 2021 Warrants. ... In this case, JPMorgan looked at the average implied =
+volatility prior to the announcement (from June 25 through August 6) and co=
+mpared it to the average implied volatility after the announcement (from Au=
+gust 7 through August 15). Based on these calculations, JPMorgan concluded =
+that the average implied volatility dropped by 12.41 points, a reduction of=
+ 26.4%.</p><p style=3D"margin: 16px 0;">Next, consistent with its standard =
+practice, JPMorgan determined that the appropriate adjustment to account fo=
+r this economic effect would be a change to the strike price of the 2021 Wa=
+rrants that preserved their fair value in light of this reduction in averag=
+e implied volatility, keeping all other pricing inputs constant. Following =
+a methodology that takes into account the differences between the bespoke 2=
+021 Warrants and the listed Tesla options for which implied volatility data=
+ is publicly available=E2=80=94a methodology that, like the use of an avera=
+ge implied volatility, would tend to result in adjustments more favorable t=
+o Tesla=E2=80=94 JPMorgan determined that the strike price had to be reduce=
+d from $560.6388 to $424.66 (the =E2=80=9CFirst Adjustment=E2=80=9D) to mai=
+ntain the same fair value for the 2021 Warrants as they had before the Anno=
+uncement Event. JPMorgan made the First Adjustment effective August 15 and =
+modified its hedge positions the same day.</p></blockquote><p style=3D"marg=
+in: 16px 0;">The day before Musk=E2=80=99s tweet, Tesla closed at $341.99 a=
+nd JPMorgan had out-of-the-money warrants to buy Tesla stock for $560.5388.=
+ The week after Musk=E2=80=99s tweet, Tesla closed at $338.69 and JPMorgan =
+had warrants to buy the stock for $424.66. Tesla=E2=80=99s stock price was =
+about the same, but JPMorgan=E2=80=99s warrants were much closer to being i=
+n-the-money. That was a big improvement!</p><p style=3D"margin: 16px 0;">Of=
+ course it was an improvement meant to offset the reduced volatility in Tes=
+la=E2=80=99s stock caused by Elon Musk pretending he was going to take Tesl=
+a private. Except that ... except that ... having a CEO pretend to take the=
+ company private makes=C2=A0it=C2=A0<em>way more volatile? </em>That=E2=80=
+=99s a wild thing to do! If your CEO is the sort of wild man who will=C2=A0=
+do pretend mergers because he=E2=80=99s bored on Twitter then your stock wi=
+ll be volatile! I mean, yes, Tesla=E2=80=99s expected=C2=A0volatility was r=
+educed for a bit in the week or so after Musk made his announcement, when s=
+ome people thought he might actually take the company private at $420 per s=
+hare. But then it went up again as they realized (1) no he wouldn=E2=80=99t=
+ and (2) he=E2=80=99s the sort of guy who would joke around about that. In =
+general Tesla has been more volatile since Musk=E2=80=99s tweet than it was=
+ before; in the long run, Musk=E2=80=99s tweet made JPMorgan=E2=80=99s warr=
+ant much more valuable.[9]=C2=A0</p><p style=3D"margin: 16px 0;">But the wa=
+rrant gave JPMorgan the right to adjust as soon as Tesla announced an acqui=
+sition, so it did. Well =E2=80=A6=C2=A0did Tesla announce an acquisition? S=
+ure I dunno whatever. Here=E2=80=99s <a href=3D"https://link.mail.bloomberg=
+business.com/click/25723599.270661/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVu=
+dHMvdXNlcnMvaXFqV0hCRmRmeElVL3JKV21ILk91dGxZTS92MA/607f07ceef4b8524a319a23c=
+Ccac1b0c1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">what JPMorgan says</a>:</p><blockquote><p style=3D"margi=
+n: 16px 0;">At the time, Mr. Musk was not only Tesla=E2=80=99s CEO, but als=
+o the chair of its board of directors and its largest shareholder. In a For=
+m 8-K filed on November 5, 2013, Tesla had identified Mr. Musk=E2=80=99s pe=
+rsonal Twitter account as a source of material public information about the=
+ company and encouraged investors to review that account. Because the tweet=
+ violated Nasdaq rules requiring at least 10 minutes=E2=80=99 advance notic=
+e before a listed corporation publicly disclosed a going-private transactio=
+n, Nasdaq temporarily halted trading in Tesla=E2=80=99s stock following Mr.=
+ Musk=E2=80=99s tweet, evidencing that the exchange considered the tweet to=
+ constitute an announcement by the company itself.</p><p style=3D"margin: 1=
+6px 0;">After Mr. Musk=E2=80=99s tweet, Tesla=E2=80=99s Chief Financial Off=
+icer, its head of communications, and its General Counsel drafted an email=
+=E2=80=94attributed to Mr. Musk=E2=80=94detailing the going-private plan. T=
+he email was sent to Tesla employees and published the same day on both Mr.=
+ Musk=E2=80=99s Twitter account and Tesla=E2=80=99s blog (which Tesla had a=
+lso designated as a source of material public information about the company=
+). In the email, and in a series of tweets responding to his Twitter follow=
+ers, Mr. Musk elaborated on his plans to take Tesla private. He concluded i=
+n a tweet that =E2=80=9CInvestor support is confirmed. Only reason why this=
+ is not certain is that it=E2=80=99s contingent on a shareholder vote.=E2=
+=80=9D</p><p style=3D"margin: 16px 0;">That same day, in response to variou=
+s inquiries from research analysts, Tesla=E2=80=99s head of investor relati=
+ons confirmed that Mr. Musk=E2=80=99s tweet signified a =E2=80=9Cfirm offer=
+=E2=80=9D to take Tesla private that was =E2=80=9Cas firm as it gets.=E2=80=
+=9D=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Man, what a weird ti=
+me that was; all that stuff happened. I feel like =E2=80=A6=C2=A0<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/25723599.270661/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDgtMDgvZWxvbi1tdXNrLWh=
+hcy1zb21lLWZ1bi13aXRoLXRlc2xhP2NtcGlkPUJCRDExMTYyMV9NT05FWVNUVUZGJnV0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTExNiZ1dG1fY2Ftc=
+GFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cC1ef8726d" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">I knew he =
+was kidding</a>? I feel like the market kind of knew he was kidding? (The s=
+tock went up 11% on his tweets, but not all that close=C2=A0to the supposed=
+ $420 deal price.) I feel like JPMorgan knew he was kidding? But they saw a=
+ deal announcement, of a sort, and they adjusted their warrant to make it w=
+orth a lot more money.</p><p style=3D"margin: 16px 0;">A few weeks later, o=
+n Aug. 24,=C2=A0Tesla confirmed that Musk was just kidding, and JPMorgan du=
+tifully adjusted the warrant again. Weirdly, though, it did not adjust it a=
+ll the way back:</p><blockquote><p style=3D"margin: 16px 0;">JPMorgan had t=
+o determine the actual economic effect of Tesla=E2=80=99s second announceme=
+nt. JPMorgan thus employed the same methodology as it had for its First Adj=
+ustment, comparing the average implied volatility before the second announc=
+ement (from August 16, the first day after the effective date of the First =
+Adjustment, through Friday, August 24) to the average implied volatility af=
+ter that announcement (from Monday, August 27 through August 29).</p><p sty=
+le=3D"margin: 16px 0;">Based on these calculations, JPMorgan concluded that=
+ the average implied volatility increased by 5.74 points, or 14.3%, as a re=
+sult of the August 24 announcement, and determined that increasing the stri=
+ke price to $484.35 was the appropriate adjustment to maintain=C2=A0the sam=
+e pre-announcement fair value for the 2021 Warrants.</p></blockquote><p sty=
+le=3D"margin: 16px 0;">So because Elon Musk spent three weeks in 2018 prete=
+nding he would take Tesla private, JPMorgan lowered the strike price of its=
+ warrants by about $75. (These are pre-split prices; post-split, that=E2=80=
+=99s about a $15=C2=A0difference, and JPMorgan calculates the split-adjuste=
+d strike price as $96.87.)=C2=A0</p><p style=3D"margin: 16px 0;">Tesla, und=
+erstandably,=C2=A0disagreed with all of this:</p><blockquote><p style=3D"ma=
+rgin: 16px 0;">After receiving notice from JPMorgan of the Second Adjustmen=
+t on August 29, Tesla protested that no adjustment should be necessary at a=
+ll because it had so quickly abandoned its going-private plans. Consistent =
+with its obligations under the Agreements, JPMorgan shared a written explan=
+ation describing its calculations, including supporting market data and quo=
+tations, and held several conference calls with Tesla to explain its calcul=
+ations. Tesla did not provide any specific objection to JPMorgan=E2=80=99s =
+explanations on these calls, and following these calls, Tesla did not commu=
+nicate further with JPMorgan regarding the Adjustments for six months. =E2=
+=80=A6</p><p style=3D"margin: 16px 0;">Tesla sent a letter to JPMorgan abou=
+t the 2021 Warrants on February 13, 2019 arguing that the Adjustments made =
+by JPMorgan pursuant to the terms of the Warrants were =E2=80=9Cunreasonabl=
+y swift and represented an opportunistic=C2=A0attempt to take advantage of =
+changes in volatility in Tesla=E2=80=99s stock.=E2=80=9D Tesla=E2=80=99s le=
+tter, however, did not dispute that Announcement Events had occurred, did n=
+ot challenge any of the specific calculations or supporting materials JPMor=
+gan had provided six months earlier, and did not offer any support for its =
+assertion that JPMorgan=E2=80=99s methodology was unreasonable.=C2=A0</p></=
+blockquote><p style=3D"margin: 16px 0;">If it is not obvious by now, I am q=
+uoting from <a href=3D"https://link.mail.bloombergbusiness.com/click/257235=
+99.270661/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRme=
+ElVL3JKV21ILk91dGxZTS92MA/607f07ceef4b8524a319a23cDcac1b0c1" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">the la=
+wsuit that JPMorgan filed against Tesla</a> in federal court yesterday. The=
+ warrants expired in June and July of this year;=C2=A0they were very in-the=
+-money no matter what strike price you use (Tesla=E2=80=99s stock has been =
+on a tear since 2018), but JPMorgan and Tesla used two different strike pri=
+ces. JPMorgan demanded a lot of shares based on its adjusted strike price, =
+Tesla gave it fewer shares based on an unadjusted price, and JPMorgan sued =
+Tesla for a difference of 228,775 shares, which it converted to $162.2 mill=
+ion of cash.[10]</p><p style=3D"margin: 16px 0;">I don=E2=80=99t know! I ca=
+n see Tesla=E2=80=99s point here. Was JPMorgan being opportunistic in lower=
+ing the strike price of its warrants by $75 for three weeks of a pretend go=
+ing-private transaction that actually=C2=A0<em>increased </em>the volatilit=
+y of Tesla=E2=80=99s stock and the value of JPMorgan=E2=80=99s warrants? Ye=
+s, of course. The harm that JPMorgan was guarding against =E2=80=94=C2=A0lo=
+sing the value of its warrant because a merger crushed the volatility of Te=
+sla=E2=80=99s stock =E2=80=94=C2=A0obviously did not happen, and obviously =
+was not going to happen, and really the exact opposite happened and Elon Mu=
+sk=E2=80=99s nonsense made Tesla=E2=80=99s stock more volatile. But the let=
+ter of the contract let it adjust the warrant to offset that imagined harm,=
+ so it did.</p><p style=3D"margin: 16px 0;">On the other hand it is not a g=
+reat defense to be like =E2=80=9Cwhen our CEO makes corporate announcements=
+ nobody should listen to him.=E2=80=9D JPMorgan might not have <em>actually=
+ believed</em>=C2=A0Elon Musk when he said he was going to take Tesla priva=
+te. But it=E2=80=99s weird for <em>Tesla</em> to argue that. He=E2=80=99s t=
+he CEO! If he says he=E2=80=99s going to take Tesla private, Tesla is kind =
+of committed to that position.</p><p style=3D"margin: 16px 0;">It=E2=80=99s=
+ worth saying that JPMorgan was one of four banks that acted as Tesla=E2=80=
+=99s counterparties on the warrant transactions for this convertible bond d=
+eal. Did the=C2=A0<em>other=C2=A0</em>banks=C2=A0adjust their warrants to g=
+ive themselves more shares for Musk=E2=80=99s pretend going-private deal? A=
+pparently not. Here=E2=80=99s a grudging footnote in JPMorgan=E2=80=99s com=
+plaint:</p><blockquote><p style=3D"margin: 16px 0;">Tesla also claimed that=
+ none of its three other warrant dealers had made similar adjustments. But =
+Tesla has never substantiated that claim. Moreover, even if it were true, i=
+t has no bearing on whether JPMorgan acted in good faith, or whether its me=
+thods for calculating the adjustment were commercially reasonable. Tesla=E2=
+=80=99s other warrant dealers generally held fewer warrants, and thus had l=
+ess exposure, than JPMorgan. In addition, according to Tesla=E2=80=99s Augu=
+st 24 blog post, two of Tesla=E2=80=99s other warrant dealers were advising=
+ Mr. Musk on his going-private proposal. The third dealer may have been und=
+er consideration to serve as financial advisor to the special committee of =
+Tesla=E2=80=99s board, but even if it was not involved in the going-private=
+ transaction, that dealer was working on a major financial transaction with=
+ Tesla that closed on or about August 21, 2018, just days before the going-=
+private transaction was publicly abandoned. Thus, each of the other dealers=
+ may have been privy to non-public information about the going-private tran=
+saction, or otherwise may have declined to adjust their warrants for busine=
+ss reasons having nothing to do with the contractual terms or the reasonabl=
+eness of JPMorgan=E2=80=99s adjustments.=C2=A0</p></blockquote><p style=3D"=
+margin: 16px 0;">On the one hand, sure, fair, the other banks could have ha=
+d thought =E2=80=9Cwe should adjust these warrants=E2=80=9D and had other r=
+easons for deciding not to. On the other hand, if one bank adjusts its warr=
+ants to be worth an extra $162 million, and the other three don=E2=80=99t, =
+that does tend to undermine the one bank=E2=80=99s position. The other thre=
+e banks saw Musk=E2=80=99s tweets too; they just let it go.</p><p style=3D"=
+margin: 16px 0;">Speaking of =E2=80=9Cbusiness reasons,=E2=80=9D with cases=
+ like this it is fun, for me at least, to imagine the discussions within th=
+e bank. Like there is some banker at JPMorgan who covers Tesla, and who is =
+not particularly in the weeds of the equity derivatives book. And this cove=
+rage banker was just cheerfully going about her business, planning to meet =
+with Tesla and pitch some mergers and financing deals, when=C2=A0some nerd =
+in=C2=A0equity derivatives called and said=C2=A0=E2=80=9Chey, heads up, we=
+=E2=80=99re in a dispute with Tesla about how we calculate the adjusted str=
+ike price of the warrants we did in 2014.=E2=80=9D And the coverage banker =
+was probably like =E2=80=9CI don=E2=80=99t know what those words mean but t=
+his sounds very trivial, this is a huge company with huge prospective reven=
+ue, don=E2=80=99t antagonize them, just do them a favor and calculate the a=
+djusted strike price the way they want.=E2=80=9D And then the derivatives b=
+anker said =E2=80=9Cno you don=E2=80=99t understand it=E2=80=99s $162 milli=
+on.=E2=80=9D</p><p style=3D"margin: 16px 0;">And then the coverage banker p=
+resumably =E2=80=A6=C2=A0fainted? Like, obviously people very high up at JP=
+Morgan had to sign off on filing this lawsuit, and presumably the coverage =
+bankers=C2=A0advocated against it, but they had absolutely no leg to stand =
+on because it takes a whole lot of banking revenue to=C2=A0compete with the=
+ $162 million that the equity derivatives nerds are planning to collect fro=
+m Tesla. And now Tesla presumably hates JPMorgan and doesn=E2=80=99t return=
+ the coverage banker=E2=80=99s phone calls, and JPMorgan has decided as a m=
+atter of corporate policy to do this anyway because very few clients are wo=
+rth $162 million.</p><table class=3D"liveintent-sponsored-content" width=3D=
+"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTcyMzU5OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5OTQyNjAmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cD6fb0f779" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25723599&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25994260&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTcyMzU5OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5OTQyNjAmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cE6fb0f779" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25723599&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25994260&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTcyMzU5OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5OTQyNjAmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cF778264a2" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25723599&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25994260&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTcyMzU5OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5OTQyNjAmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cG778264a2" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25723599&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25994260&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Everything is securities fraud</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Say <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/25723599.270661/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xl=
+cy9vaGlvLXN1ZXMtbWV0YS1hbGxlZ2luZy1mYWNlYm9vay1wYXJlbnQtbWlzbGVkLXB1YmxpYy1=
+hYm91dC1pdHMtcHJvZHVjdHMtZWZmZWN0LW9uLWNoaWxkcmVuLTExNjM3MDExMzMy/607f07cee=
+f4b8524a319a23cBd0b1ca45" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">it with me now</a>!</p><blockquote><p sty=
+le=3D"margin: 16px 0;">Ohio=E2=80=99s attorney general is suing Meta Platfo=
+rms Inc., formerly known as Facebook Inc., alleging the company misled the =
+public about how it controlled its algorithm and the effects its products h=
+ave on children.</p><p style=3D"margin: 16px 0;">The lawsuit, filed on beha=
+lf of Meta investors and the Ohio Public Employees Retirement System, seeks=
+ more than $100 billion in damages and demands that Meta make significant c=
+hanges so as to not mislead investors again, Ohio Attorney General Dave Yos=
+t said in a statement. =E2=80=A6</p><p style=3D"margin: 16px 0;">The lawsui=
+t alleges that between April 29 and Oct. 21, 2021, Facebook and its executi=
+ves violated federal securities law by intentionally misleading the public =
+about the negative impact of its products on minors in an effort to boost i=
+ts stock and deceive shareholders.</p><p style=3D"margin: 16px 0;">=E2=80=
+=9CFacebook said it was looking out for our children and weeding out online=
+ trolls, but in reality was creating misery and divisiveness for profit,=E2=
+=80=9D Mr. Yost, a Republican, said.</p></blockquote><p style=3D"margin: 16=
+px 0;">Here is <a href=3D"https://link.mail.bloombergbusiness.com/click/257=
+23599.270661/aHR0cHM6Ly93d3cub2hpb2F0dG9ybmV5Z2VuZXJhbC5nb3YvRmlsZXMvQnJpZW=
+ZpbmctUm9vbS9OZXdzLVJlbGVhc2VzL0ZhY2Vib29rLUluaXRpYWwtQ29tcGxhaW50LShGaWxlZ=
+CkuYXNweA/607f07ceef4b8524a319a23cB9c1d78a7" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">the complaint</a>. You=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDMvZ29s=
+ZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlbWUtY291cnQtaGVkZ2UtZnVuZHMtd29uLW9uLWdhbWV=
+zdG9wLWtrcG9lNndzP2NtcGlkPUJCRDExMTYyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haW=
+wmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTExNiZ1dG1fY2FtcGFpZ249bW9uZ=
+XlzdHVmZg/607f07ceef4b8524a319a23cBbaef1638" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> know the drill</a> by=
+ now.=C2=A0Facebook said some generic things about how it was good:</p><blo=
+ckquote><p style=3D"margin: 16px 0;">Throughout the Class Period, the Compa=
+ny repeatedly assured investors that it has =E2=80=9Cthe most robust set of=
+ content policies out there=E2=80=9D and touted the aggressive steps it tak=
+es to ensure the safety and security of its users by preventing misinformat=
+ion and harmful content from spreading through its platforms. Facebook also=
+ stated that it was committed to keeping people safe and assured investors =
+that it enforces its content policies evenly across all users.=C2=A0</p></b=
+lockquote><p style=3D"margin: 16px 0;">And investors, reassured by those st=
+atements, assumed that Facebook was good and bought its stock. But in fact =
+it was bad:</p><blockquote><p style=3D"margin: 16px 0;">Thousands of recent=
+ly leaked internal Facebook documents paint a remarkably different picture.=
+ Those documents show that Defendants were acutely aware that the products =
+and systems central to Facebook=E2=80=99s business are riddled with flaws t=
+hat sow dissention, facilitate illegal activity and violent extremism, and =
+cause significant harm to users, but Facebook lacks the will or ability to =
+correct them. Despite this knowledge, Facebook opted to maximize its profit=
+s at the expense of the safety of its users and the broader public, exposin=
+g Facebook to serious reputational, legal, and financial harm.</p></blockqu=
+ote><p style=3D"margin: 16px 0;">And, when the facts (that Facebook was bad=
+) came out, the stock went down:</p><blockquote><p style=3D"margin: 16px 0;=
+">From the date of the first article published by The Wall Street Journal o=
+n September 13, 2021 to The Wall Street Journal article published on Octobe=
+r 21, 2021 that raised concerns about the accuracy and reliability of the C=
+ompany=E2=80=99s user metrics, Facebook=E2=80=99s stock price declined by $=
+54.08 per share, or over 14%, representing a decline of more than $150 bill=
+ion in Facebook=E2=80=99s total market capitalization.</p></blockquote><p s=
+tyle=3D"margin: 16px 0;">If you were the attorney general of Ohio and you w=
+ere interested in =E2=80=9Clooking out for our children,=E2=80=9D it is not=
+=C2=A0<em>obvious=C2=A0</em>that the right mechanism for that would be to t=
+ry to recover billions of dollars of damages for=C2=A0<em>Meta shareholders=
+</em>? Those shareholders are the ones who enjoyed the profits that Faceboo=
+k was allegedly maximizing =E2=80=9Cat the expense of the safety of its use=
+rs and the broader public.=E2=80=9D Arguably if you are a state attorney ge=
+neral you should be protecting the broader public=C2=A0<em>from=C2=A0</em>M=
+eta and its owners, not trying to recover more money for Meta=E2=80=99s own=
+ers. But this ship has sailed, nobody thinks it=E2=80=99s weird, everything=
+ is securities fraud.</p><p style=3D"margin: 16px 0;">And, sure, fair. Imag=
+ine the attorney general of Ohio trying to sue Meta on behalf of children w=
+ho were negatively impacted by using Facebook and Instagram. He=E2=80=99d h=
+ave to find the children in Ohio who used Facebook and Instagram, and figur=
+e out how sad Facebook and Instagram made them. It would be hard to turn th=
+at into a damages claim, especially one with a big dollar number; how much =
+is a child=E2=80=99s sadness worth in dollars? He could seek an injunction =
+=E2=80=94=C2=A0not =E2=80=9Cpay us money=E2=80=9D but rather =E2=80=9Cchang=
+e your policies to be nicer to children=E2=80=9D =E2=80=94=C2=A0but that wo=
+uld require him to figure out what the right policies are, which is not eas=
+y! But if bad documents come out of Facebook and the stock goes down by $15=
+0 billion, then that=E2=80=99s a big lawsuit with clear victims (the shareh=
+olders) and clear damages ($150 billion). And if Facebook wants to avoid la=
+wsuits like that, well, it can figure out what policies to write so that it=
+s stock doesn=E2=80=99t drop again.</p><p style=3D"margin: 16px 0;"><a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aHR0cHM6L=
+y93d3cudGhlZGlmZi5jby9wL2FkdmVydGlzaW5nLWFuZC1zdHJhdGVnaWMtY29uc3VsdGluZw/6=
+07f07ceef4b8524a319a23cB964b0f7c" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">Byrne Hobart writes</a> that =E2=
+=80=9Ceverything is securities fraud=E2=80=9D is =E2=80=9Cpartly a result o=
+f how efficiently markets aggregate and share information: it's hard to dir=
+ectly measure the effect of corporate malfeasance on sales or employee rete=
+ntion, especially over long periods. But stock prices react fast, and they =
+represent a guess about the long term. So if you want to know=C2=A0<em>exac=
+tly</em>=C2=A0how bad some piece of news was, the only way to rephrase that=
+=C2=A0is =E2=80=98how bad was it=C2=A0<em>for shareholders</em>?=E2=80=99=
+=E2=80=9D</p><p style=3D"margin: 16px 0;">I do not disagree with this but <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMDQvZmFjZW=
+Jvb2std2hpc3RsZWJsb3dlci1zaG93cy1hLXNoaWZ0LWluLXNoYXJlaG9sZGVyLXZhbHVlcy1hd=
+2F5LWZyb20tcHJvZml0cz9jbXBpZD1CQkQxMTE2MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVt=
+YWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMTYmdXRtX2NhbXBhaWduPW1=
+vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB4097528d" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> it continues to be=
+</a> just a weird way to structure a society. Here you have the top law enf=
+orcement officer of a state saying that Facebook did things that were bad f=
+or society in order to maximize profits for its shareholders. =E2=80=9CHow =
+bad were those=C2=A0things, for society,=E2=80=9D you might ask the attorne=
+y general, and his only answer is to measure=C2=A0<em>how much they cost th=
+e shareholders</em>. If Facebook harms society, and as a result its stock g=
+oes down by $150 billion, society sends it a $150 billion bill.</p><table c=
+lass=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTcyMzU5OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5OTQyNjAmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cH9161b83c" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25723599&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25994260&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The Elon show</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Well <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/25723599.270661/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjEtMTEtMTYvZWxvbi1tdXNrLWV4ZXJjaXNlcy1vcHRpb25zLXNlbG=
+xzLTkzMC1taWxsaW9uLW9mLXRlc2xhLXNoYXJlcz9jbXBpZD1CQkQxMTE2MjFfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMTYm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB3e8f434d" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ there you go</a>:</p><blockquote><p style=3D"margin: 16px 0;">Elon Musk ex=
+ercised options and offloaded more Tesla Inc. shares, continuing a streak o=
+f sales that helped tank the stock last week by the most since March 2020. =
+=C2=A0</p><p style=3D"margin: 16px 0;">The world=E2=80=99s richest person d=
+isposed of more than 934,000 shares on Monday for about $930 million, accor=
+ding to regulatory filings. That adds to the $6.9 billion he already sold l=
+ast week, just after he took an unusual Twitter poll asking whether he shou=
+ld dispose of 10% of his Tesla stake. Part of Monday=E2=80=99s sales were t=
+o help pay taxes on the exercise of 2.1 million options.</p></blockquote><p=
+ style=3D"margin: 16px 0;">I was puzzled by this last week.=C2=A0<em>Last <=
+/em>Monday, Musk exercised 2.15 million options and sold 934,091=C2=A0share=
+s to pay taxes under a prearranged Rule 10b5-1 plan that he had set up in S=
+eptember. Then last Tuesday through Saturday he dumped 5.4 million more sha=
+res<em>, not=C2=A0</em>under the 10b5-1 plan,=C2=A0<em>not=C2=A0</em>as a r=
+esult of options exercises. =E2=80=9CHow does that 10b5-1 plan work, anyway=
+,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/2572359=
+9.270661/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMT=
+EtMTEvZWxvbi1tdXNrLXNvbGQtc29tZS10ZXNsYS1zdG9jay1rdnY3NGtjZT9jbXBpZD1CQkQxM=
+TE2MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1=
+dG1fdGVybT0yMTExMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23=
+cBa4f2b8a8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> I asked</a>; it seemed weird that it would exercise 2.=
+15 million options and sell 934,000 shares on Monday and then=C2=A0<em>stop=
+</em>. =E2=80=9CMaybe the plan says =E2=80=98exercise 2.15 million shares p=
+er week and sell the stock,=E2=80=99=E2=80=9D I wrote, but I wondered. Mayb=
+e he had canceled the 10b5-1 plan to spend more time on his spontaneous, po=
+ll-related, trolling-driven voluntary stock sales?=C2=A0</p><p style=3D"mar=
+gin: 16px 0;">But, no, I guess the plan does say =E2=80=9Cexercise 2=C2=A0m=
+illion-ish shares per week each Monday and sell the stock=E2=80=9D? Or clos=
+e enough. Yesterday he exercised 2,107,672 options and sold 934,091 shares =
+for about $930 million, an average price of about $996.37 per share, all un=
+der his September Rule 10b5-1 plan. (<a href=3D"https://link.mail.bloomberg=
+business.com/click/25723599.270661/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9l=
+ZGdhci9kYXRhLzEzMTg2MDUvMDAwMDg5OTI0MzIxMDQ0Njg3L3hzbEYzNDVYMDMvZG9jNC54bWw=
+/607f07ceef4b8524a319a23cBf8a86307" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">Here</a> are the Form <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMDg5OTI0MzIxMDQ0=
+Njg5L3hzbEYzNDVYMDMvZG9jNC54bWw/607f07ceef4b8524a319a23cBf6c6ccff" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+4s</a>.)=C2=A0Tomorrow I assume he=E2=80=99ll be back to dumping stock volu=
+ntarily, and then next Monday he=E2=80=99ll exercise 2 million more options=
+, and so on.=C2=A0</p><table class=3D"header" width=3D"100%" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">This is how the stock market works now, you think I am joking but I n=
+ever joke, everything is much stupider than my attempts to parody it</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The other day <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/25723599.270661/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMDQvbWFjeS1zLXRhcmdldGVkLWJ5LW1lb=
+WUtYWN0aXZpc3RzP2NtcGlkPUJCRDExMTYyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwm=
+dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTExNiZ1dG1fY2FtcGFpZ249bW9uZXl=
+zdHVmZg/607f07ceef4b8524a319a23cB6d197404" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> I wrote that</a> =E2=80=
+=9CThe basic issue is that right now everything is dumb. You can complain a=
+bout that, or you can embrace it.=E2=80=9D I said:</p><blockquote><p style=
+=3D"margin: 16px 0;">If you are the CEO of a public company, I want you to =
+consider very seriously going to an investment conference with no pants on.=
+ Your stock will go up, your shareholders will be happy and your cost of fi=
+nancing will go down. =E2=80=9CWhy would my stock go up because I don=E2=80=
+=99t wear pants,=E2=80=9D you ask me, and I say, shh, shh, it just will, do=
+n=E2=80=99t ask why. =E2=80=9CI have my dignity, I am not going to go to an=
+ important business conference with no pants on just to amuse some apes on =
+Reddit,=E2=80=9D you say, and I say: You are not as committed to maximizing=
+ shareholder value as I thought you were.</p></blockquote><p style=3D"margi=
+n: 16px 0;">Was I joking? Well, the suggestion was based on, let=E2=80=99s =
+say, <a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.2706=
+61/aHR0cHM6Ly93d3cucmVhZG1hcmdpbnMuY29tL3AvYXBlLWFybWllcy1hbmQtaW52ZXN0b3It=
+cmVsYXRpb25z/607f07ceef4b8524a319a23cBe81eecf6" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">alleged fact</a>. B=
+ut, sure, I suppose I hoped I was exaggerating a bit? Here=E2=80=99s a <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aHR0cH=
+M6Ly93d3cubWFya2V0d2F0Y2guY29tL3N0b3J5L2dhbWVzdG9wLXN0b2NrLXBvcHMtdGhhbmtzL=
+XRvLXJ5YW4tY29oZW5zLXNtYWxsLXdlZS13ZWUtMTE2MzY5OTc3ODA/607f07ceef4b8524a319=
+a23cB98badb41" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">MarketWatch story from Thornton McEnery</a>:</p><blo=
+ckquote><p style=3D"margin: 16px 0;">At roughly 1 a.m. EST on Monday, [Ryan=
+ Cohen,] the 30-something Chewy co-founder, turned activist investor, turne=
+d GameStop chairman, tweeted =E2=80=9Ceew eew llams a evah I,=E2=80=9D whic=
+h spelled backward reads =E2=80=9CI have a small wee wee.=E2=80=9D</p><p st=
+yle=3D"margin: 16px 0;">As we=E2=80=99ve talked about in the past, fundamen=
+tals can be fun, but nothing moves GameStop shares like an inscrutable twee=
+t from the company=E2=80=99s perceived savior turned actual chairman. ...</=
+p><p style=3D"margin: 16px 0;">Many of Cohen=E2=80=99s twitter followers to=
+ok the backwardness of everything as a signal that Cohen was trying to comm=
+unicate the opposite meaning, for example, engaging in some public self-car=
+e by spending the twilight of Monday morning doing a public affirmation tha=
+t he indeed has a large =E2=80=9Cwee wee.=E2=80=9D</p><p style=3D"margin: 1=
+6px 0;">By midday, GameStop shares had climbed up as high as 4.2%, before t=
+rimming that advance.</p></blockquote><p style=3D"margin: 16px 0;">McEnery =
+advances a Straussian reading of the tweet, arguing=C2=A0=E2=80=94=C2=A0I s=
+wear =E2=80=94=C2=A0that Cohen might have meant to reference the =E2=80=9CS=
+outh Park=E2=80=9D catchphrase =E2=80=9COh my God, they killed Kenny,=E2=80=
+=9D because Reddit meme-stock investors =E2=80=9Chave made Citadel founder =
+Ken Griffin into their prime enemy, re-christening him as =E2=80=98Kenny G=
+=E2=80=99 or simply =E2=80=98Kenny.=E2=80=99=E2=80=9D Anyway if you are the=
+ chief executive officer of a public company and you can add half a billion=
+ dollars of market cap by tweeting inscrutably about your anatomy, should y=
+ou do it? I dunno, you are kind of on your own here.</p><table class=3D"hea=
+der" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT Stuff (1)</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Technically <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/25723599.270661/aHR0cHM6Ly93d3cud3NqLmNvbS9h=
+cnRpY2xlcy95b3UtY2FuLWJ1eS1zdG9jay1pbi10aGUtZ3JlZW4tYmF5LXBhY2tlcnMtZm9yLWp=
+1c3QtMzAwLTExNjM3MDM0NDEzP21vZD1ocF9sZWFkX3BvczEz/607f07ceef4b8524a319a23cB=
+8bc6c716" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">this is a fungible token</a> but:</p><blockquote><p style=
+=3D"margin: 16px 0;">The Green Bay Packers will hold a stock sale Tuesday, =
+offering shares of =E2=80=9Cownership=E2=80=9D in the NFL franchise for the=
+ first time in nearly 10 years. Funds raised will be used for stadium impro=
+vements.=C2=A0</p><p style=3D"margin: 16px 0;">An individual can buy a shar=
+e of the Packers for $300, the sixth time the team has offered shares to fa=
+ns in its history.=C2=A0</p><p style=3D"margin: 16px 0;">The shares have no=
+ financial value and can=E2=80=99t be resold. Shareholders of the Green Bay=
+ franchise don=E2=80=99t get paid dividends. The stock doesn=E2=80=99t appr=
+eciate in value and isn=E2=80=99t transferable, except to family members by=
+ gift or in the event of death.=C2=A0</p><p style=3D"margin: 16px 0;">Essen=
+tially, fans can get bragging rights for owning a piece of the team and a s=
+tock certificate commemorating the purchase.=C2=A0</p></blockquote><p style=
+=3D"margin: 16px 0;">Yeah, tell you what, make it transferable, put it on t=
+he blockchain, bam, you=E2=80=99ve got a $40 billion market cap. Give the s=
+hares voting rights to change the team name and mascot. The Green Bay Bored=
+ Apes. This is all going to happen isn=E2=80=99t it.</p><table class=3D"hea=
+der" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT Stuff (2)</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Sure, pretending to buy the Packers is=
+ nice, but now you can <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/25723599.270661/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMS8xMS8xNS9jcnlwdG8taW=
+52ZXN0b3JzLXJhaXNpbmctbWlsbGlvbnMtdG8tYnV5LWEtY29weS1vZi10aGUtY29uc3RpdHV0a=
+W9uLmh0bWw/607f07ceef4b8524a319a23cBdc8429a6" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">pretend to buy the U.=
+S. Constitution</a>:</p><blockquote><p style=3D"margin: 16px 0;">Sotheby=E2=
+=80=99s is auctioning off an extremely rare and historic first-edition prin=
+ting of the U.S. Constitution, and crypto investors are pooling millions of=
+ dollars worth of ether to buy it.</p><p style=3D"margin: 16px 0;">An organ=
+ization known as ConstitutionDAO is raising the money using a digital crypt=
+o wallet with the aim of crowdsourcing enough funds to make the winning bid=
+ when the document hits the auction block on Thursday night.</p><p style=3D=
+"margin: 16px 0;">The foundational text is valued at $15 million to $20 mil=
+lion. Since launching five days ago, the group has thus far raised 967 ethe=
+r, or $4.3 million.</p><p style=3D"margin: 16px 0;">The exercise offers som=
+e of the first practical insight into how crypto infrastructure can be used=
+ to facilitate fractional ownership of a physical artifact.</p><p style=3D"=
+margin: 16px 0;">ConstitutionDAO is a decentralized autonomous organization=
+, or DAO, formed for the sole purpose of putting an original copy of the Co=
+nstitution back in the hands of the people.</p></blockquote><p style=3D"mar=
+gin: 16px 0;">Ben Thompson <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25723599.270661/aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMS9jb25zdGl0dX=
+Rpb25kYW8tdGhlLW5lZWQtZm9yLXRydXN0LW1lbWVzLWFuZC1yZWFsaXR5Lw/607f07ceef4b85=
+24a319a23cBa6476bc6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">points out</a> that this is all pretty approx=
+imate; ConstitutionDAO will=C2=A0<em>not=C2=A0</em>give its token holders f=
+ractionalized ownership of the Constitution:</p><blockquote><p style=3D"mar=
+gin: 16px 0;">The most obvious reason for this limitation is regulatory: is=
+suing ownership tokens with the expectation of a return would make Constitu=
+tionDAO a security; moreover, a DAO is digital, and the Constitution copy i=
+s physical, and it is not well established in most jurisdictions how or if =
+a DAO can own physical property. Then there is the fact that Sotheby=E2=80=
+=99s has to follow Know Your Customer (KYC) laws: if the DAO is simply a bu=
+nch of anonymous Ethereum addresses how can the auction house satisfy its l=
+egal requirements around limiting money laundering?</p><p style=3D"margin: =
+16px 0;">Instead, according to the project=E2=80=99s Purchase Process Detai=
+ls, it appears that the actual bidder for the Constitution will be a just-f=
+ormed LLC with two members/beneficiaries who may sign a letter of intent to=
+ be bound by DAO decisions, but still TBD. It=E2=80=99s also not clear whet=
+her or not the founders of the project will take money off of the table =E2=
+=80=A6</p></blockquote><p style=3D"margin: 16px 0;">Also, not to be like th=
+is, but there is an original copy of the Constitution <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/25723599.270661/aHR0cHM6Ly93d3cuYXJjaGl=
+2ZXMuZ292L2ZvdW5kaW5nLWRvY3MvY29uc3RpdHV0aW9u/607f07ceef4b8524a319a23cB2373=
+8fde" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">on permanent display at the National Archives</a>; it is alre=
+ady=C2=A0=E2=80=9Cin the hands of the people,=E2=80=9D in the sense that (1=
+) it is owned by the U.S. government and (2) the U.S. government is, when y=
+ou think about it, sort of a decentralized=C2=A0autonomous organization mad=
+e up of the citizens of the U.S.? The citizens can kind of tell the governm=
+ent what to do? By voting?=C2=A0When you think about it? I don=E2=80=99t kn=
+ow.=C2=A0I=E2=80=99m sure that in five years ConstitutionDAO token holders =
+will vote to change the Second Amendment to say =E2=80=9Cputting laser impl=
+ants in your eyes is now mandatory=E2=80=9D and somehow that will have the =
+force of law.</p><table class=3D"header" width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT Stuff (3)</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here=E2=80=99s a paragraph about <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMTUvbmZ0cy1ieS1jZW=
+xlYnJpdGllcy1saWtlLWdyaW1lcy1qb2huLWNlbmEtYW5kLWEtYXAtcm9ja3ktZmFsbC1pbi12Y=
+Wx1ZT9jbXBpZD1CQkQxMTE2MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3Vy=
+Y2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607=
+f07ceef4b8524a319a23cBc03f7d96" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> celebrities doing=C2=A0non-fungibl=
+e tokens</a>:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CThere ar=
+e some that are done tastefully i.e. Paris Hilton=E2=80=99s drop with Nifty=
+ Gateway, and there are some with poor design, poor launch partners and poo=
+r execution,=E2=80=9D said WhaleShark, one of the world=E2=80=99s biggest N=
+FT collectors, who bought an NFT from Paris Hilton but is staying away from=
+ other celeb NFTs. =E2=80=9CThe latter tend to come across as money grabs, =
+rather than a true leveraging of one=E2=80=99s fan base to drive NFT mainst=
+ream adoption.=E2=80=9D A Hilton NFT of a hummingbird that sold for $10,000=
+ in April last sold for $12,000.</p></blockquote><p style=3D"margin: 16px 0=
+;">That sure was a paragraph.</p><table class=3D"header" width=3D"100%" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Corporate <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/25723599.270661/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMTUvY29ycG9yYXRlLXNuaXRjaGluZy10by1zZWMtc=
+3VyZ2VzLWFzLXRlbGV3b3JrLWVtYm9sZGVucy10aXBzdGVycz9jbXBpZD1CQkQxMTE2MjFfTU9O=
+RVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0=
+yMTExMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB17070b4b"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Snitching to SEC Surges</a> as Telework Emboldens Tipsters (<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMTMvZnJhdWQtaX=
+Mtbm8tZnVuLXdpdGhvdXQtZnJpZW5kcz9jbXBpZD1CQkQxMTE2MjFfTU9ORVlTVFVGRiZ1dG1fb=
+WVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMTYmdXRtX2Nh=
+bXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB489c8db9" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">earlier<=
+/a>). Pfizer Moves to Allow Cheap Versions of <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/25723599.270661/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMTYvcGZpemVyLWFncmVlcy10by1hbGxvdy1jaGVhcG=
+VyLXZlcnNpb25zLW9mLXByb21pc2luZy1jb3ZpZC1waWxsP2NtcGlkPUJCRDExMTYyMV9NT05FW=
+VNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIx=
+MTExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBe1b2f962" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> Promising Covid Pill</a>. Retirement Fund Giant <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/25723599.270661/aHR0cHM6Ly93d3cud3NqL=
+mNvbS9hcnRpY2xlcy9yZXRpcmVtZW50LWZ1bmQtZ2lhbnQtY2FscGVycy12b3Rlcy10by11c2Ut=
+bGV2ZXJhZ2UtbW9yZS1hbHRlcm5hdGl2ZS1hc3NldHMtMTE2MzcwMzI0NjE_bW9kPWhwX2xlYWR=
+fcG9zNA/607f07ceef4b8524a319a23cB2b820178" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Calpers</a> Votes to Use=
+ Leverage, More Alternative Assets. Third U.S. <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/25723599.270661/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMTYvdGhpcmQtdS1zLWJpdGNvaW4tZnV0dXJlcy1ld=
+GYtbGF1bmNoZXMtYWZ0ZXItd2Vla3MtbG9uZy1kZWxheT9jbXBpZD1CQkQxMTE2MjFfTU9ORVlT=
+VFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTE=
+xMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7c69885a" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> Bitcoin Futures ETF</a> Launches After Weeks-Long Delay. The CEO of a=
+ $1.45 billion fintech bought an 11-employee small-town bank with a <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aHR0cHM6L=
+y93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9maW50ZWNoLWRlYWwtbTEtYWNxdWlyZXMtY29tbXVu=
+aXR5LWJhbmstcGVyc29uYWwtZmluYW5jZS1iYW5raW5nLTIwMjEtMTE/607f07ceef4b8524a31=
+9a23cB4e49a5d3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">pig mascot</a>.=C2=A0</p><p style=3D"margin: 16px 0=
+;"><span class=3D"news-designed-for-consumer-media"><em>If you'd like to ge=
+t=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, plea=
+se=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.2=
+70661/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZ=
+XlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f0=
+7ceef4b8524a319a23cB3343d2ca" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">subscribe=
+ at this link</a>. Or you can subscribe to Money Stuff and other great Bloo=
+mberg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+25723599.270661/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07=
+ceef4b8524a319a23cBc593955e" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16p=
+x 0;"><em>[1] The numbers were actually=C2=A0$1.2 billion and $800 million =
+of 2021 and 2019 convertibles, respectively, plus 15% greenshoe options tha=
+t <a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/=
+aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMTE5MzE=
+yNTE0MTI5MTc4L2Q3MDQxMjJkOGsuaHRt/607f07ceef4b8524a319a23cCf4cfd7ee" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">were exercised</a>.</em></p><p style=3D"margin: 16px 0;"><em>[2] The bond=
+s were net share settled, a technicality meaning that each $1,000 bond woul=
+d be paid off on conversion with $1,000 in cash and *the rest* in shares; i=
+f the conversion value was $10,000, you=E2=80=99d get $1,000 in cash and $9=
+,000 in stock. Page 20 of <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/25723599.270661/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2V=
+kZ2FyL2RhdGEvMTMxODYwNS8wMDAwOTUwMTcwMjEwMDAwNDYvdHNsYS0yMDIxMDMzMS5odG0/60=
+7f07ceef4b8524a319a23cB8175f680" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">Tesla=E2=80=99s 10Q</a> for the fi=
+rst quarter discusses the settlement of these bonds (the =E2=80=9C2021 Note=
+s=E2=80=9D).</em></p><p style=3D"margin: 16px 0;"><em>[3] For tax reasons, =
+people care a lot about keeping the bond hedge and warrant separate; one wa=
+y to do this is that the warrant usually has a somewhat longer maturity =E2=
+=80=94=C2=A0by a few months =E2=80=94 than the convertible bonds or the bon=
+d hedge. Here the bonds matured in March 2021; the warrant matured in 40 eq=
+ual tranches in June and July 2021. Here is <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/25723599.270661/aHR0cHM6Ly93d3cuaXJzLmdvdi9wdWIva=
+XJzLXV0bC9hbTIwMDcwMTQucGRm/607f07ceef4b8524a319a23cB77abf38e" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">an I=
+nternal Revenue Service memo</a> discussing the call options overlay struct=
+ure and how to optimize its tax treatment; one rough way to put it is that,=
+ if you do it right, the amount that the company pays for the bond hedge is=
+ tax-deductible but the amount that it gets paid for the warrant is not tax=
+able.</em></p><p style=3D"margin: 16px 0;"><em>[4] It is a little unclear i=
+f the warrants covered the same 3.8 million shares as the convertible bond =
+and bond hedge, as is common (see page 79 of the <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/25723599.270661/aHR0cHM6Ly93d3cuc2VjLmdvdi9B=
+cmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMTU2NDU5MDE1MDAxMDMxL3RzbGEtMTBrXzI=
+wMTQxMjMxLmh0bQ/607f07ceef4b8524a319a23cB94c34ca6" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">2014 Form 10K</a=
+>), or twice as many shares, as sometimes happens to increase the value of =
+the warrant (see the 8-Ks announcing the <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/25723599.270661/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZl=
+cy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMTE5MzEyNTE0MDg0NDg0L2Q2ODYwNTFkOGsuaHRt/60=
+7f07ceef4b8524a319a23cC98518681" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">deal</a> and <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/25723599.270661/aHR0cHM6Ly93d3cuc2VjLmd=
+vdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMTE5MzEyNTE0MTI5MTc4L2Q3MDQxMj=
+JkOGsuaHRt/607f07ceef4b8524a319a23cDf4cfd7ee" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">greenshoe</a>).</em><=
+/p><p style=3D"margin: 16px 0;"><em>[5] In the real world, the main way the=
+ banks in this transaction=C2=A0hedge the warrant is *by being=C2=A0short a=
+n offsetting bond hedge*. But here, with=C2=A0convertible bonds that may ha=
+ve converted early due to the huge stock-price run-up, the warrant may have=
+ dominated. In any case JPMorgan=E2=80=99s lawsuit, sensibly, talks only ab=
+out the warrant and ignores the bond hedge.</em></p><p style=3D"margin: 16p=
+x 0;"><em>[6] Again, you can read the form confirmation for the warrant tra=
+nsactions <a href=3D"https://link.mail.bloombergbusiness.com/click/25723599=
+.270661/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDA=
+wMTE5MzEyNTE0MDg0NDg0L2Q2ODYwNTFkZXgxMDQuaHRt/607f07ceef4b8524a319a23cCb89a=
+92cf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">here</a>, though it doesn=E2=80=99t say much; the relevant pr=
+ovisions are on page 9 (=E2=80=9CConsequences of Announcement Events=E2=80=
+=9D and =E2=80=9CAnnouncement Event=E2=80=9D). The actual governing provisi=
+ons, including what I quoted, are in the International Swaps and Derivative=
+s Association Equity Derivatives Definitions, which are incorporated into t=
+he confirm for the deal. I have quoted from page 7 of <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/25723599.270661/aHR0cHM6Ly9hc3NldHMuYnd=
+ieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JKV21ILk91dGxZTS92MA/607f07c=
+eef4b8524a319a23cEcac1b0c1" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">JPMorgan=E2=80=99s lawsuit</a>, which q=
+uotes the Equity Definitions; the modifications are mine.</em></p><p style=
+=3D"margin: 16px 0;"><em>[7]=C2=A0Meanwhile, for complicated tax reasons (s=
+ee note 3), the bond hedge generally will=C2=A0not=C2=A0adjust in the same =
+way as the warrant, so the bank will demand lots of extra value from the cl=
+ient on the warrant but not give it any offsetting value on the bond hedge.=
+ =E2=80=9CTax reasons, what can we do,=E2=80=9D the bank will shrug.</em></=
+p><p style=3D"margin: 16px 0;"><em>[8] It has done acquisitions =E2=80=94=
+=C2=A0e.g. <a href=3D"https://link.mail.bloombergbusiness.com/click/2572359=
+9.270661/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMTYtMTEtMT=
+cvdGVzbGEtc2VhbHMtMi1iaWxsaW9uLXNvbGFyY2l0eS1kZWFsLXNldC10by10ZXN0LW11c2stc=
+y12aXNpb24_Y21waWQ9QkJEMTExNjIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cB49fdfa42" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> of SolarCity Corp.</a> in 201=
+6 =E2=80=94 but that would not trigger this adjustment.</em></p><p style=3D=
+"margin: 16px 0;"><em>[9] One crude measure is to take the timeline of the =
+convertible, from roughly March 1, 2014, through March 1, 2021,=C2=A0divide=
+ that into pre- and post-tweet periods (i.e. at Aug. 7, 2018), and take the=
+ average volatility over the pre- and post-tweet periods. In the post-tweet=
+ period, Tesla=E2=80=99s average implied volatility (per Bloomberg page HVT=
+, 30-day at-the-money implied volatility) has been about 66%; pre-tweet it =
+was about 44%. The average 260-day historical volatility numbers are simila=
+r. Tesla was about 50% more volatile after Musk pretended to take it privat=
+e than it was before.</em></p><p style=3D"margin: 16px 0;"><em>[10] These w=
+arrants are net share settled; effectively, JPMorgan can pay the exercise p=
+rice of the warrants with some of the shares it would otherwise get. So the=
+ lower the strike price, the more shares JPMorgan gets.=C2=A0</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB27f808a6" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB1122945d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB2c1c5e5c" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB4329dd42" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTcyMzU5OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5OTQyNjAmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cI83a14461" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25723599&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25994260&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2572359=
+9.270661/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBf5a311b9" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25723599.270661/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC073acffd" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25723599.270661/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBd2c1f6c1" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25723599.270661/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBfea1cd63" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBd=
+a3e1ffe" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25723599.270661/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBa=
+4b17280" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D257235=
+99&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25994260&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D257235=
+99&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25994260&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D257235=
+99&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25994260&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D257235=
+99&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25994260&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D257235=
+99&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25994260&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfbcgf.5sud/c2636cc4.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_31826358_1081449978.1637085893710--
+

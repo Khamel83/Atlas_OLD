@@ -1,0 +1,2520 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:a51:b0:e2:9b5b:7c1 with SMTP id 17csp6194450rwb;
+        Thu, 12 Jan 2023 10:59:01 -0800 (PST)
+X-Received: by 2002:adf:e392:0:b0:2bd:daf2:77ef with SMTP id e18-20020adfe392000000b002bddaf277efmr1229319wrm.39.1673549940853;
+        Thu, 12 Jan 2023 10:59:00 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1673549940; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Nyut2d4jIjFUx/ng7FbguaoTwCQYV6z5KDG0XOWFp4RETqPQeWffdyrfPbEoZ7O8OS
+         aJ09qVOJ/BohP30hJb54l8xBJrWH16CaQVrM/EXrOwuMzhkPGbNN1idKfFVu7TEJvx5I
+         IXCFACb5ziB4KCXUsVpZcM3aqFVXCNM3uSrMtSuFpCAB5iutgf+BJMaLLNCT0EYyaPn1
+         M0N7lkitet5qW0ThP2GqSpOI0gl+dcLRkmlauU/R7x35xdRgPzq2tdw3FzQD7yTQVd7s
+         rYD/4/IdldaktzO7QhO49GtnCnti7AJp4Ucgy6Ri4BEfHBmb7eqkTktGxUX/I712/Acl
+         W2SQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=sXbIqQKYLUK6vF1Kta9bgpkqDdVHApQBS3+gNTYgGyA=;
+        b=Oc8+1gkWeXlxHQyWgS1gHaI5KPEljnUubFE5gkhWpH7l9KWlssSg4DPPx4jiZ7DKfv
+         RPQHv4qK5EueiEZ8VS7IIJrXy+bOm6qFnlkuAXIrhqc9ZURa0nFF9P+9MWMyj6g7TabI
+         yeS0av4veZhuL258nOVKHLs4ozP2IMeTbeKNbCEF9SAKyhQc3iE3IDDsLCeOTUTkXPtA
+         OYg4Y22WYSDYutGcKMlOTIgY2myATy7H12CX7UXvoVhuEjG15LwivEA9PuCc9jVfPgvl
+         TfDjuU/f8S77M8CkGHHYm/9DGrBHTWVi9wub3UsETjM5o1+nshhIQXyMJEPvDJWXM3mj
+         8ghQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zR0lmOGz;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h18-20020adfa4d2000000b0028fccf64e39sor7682378wrb.60.2023.01.12.10.59.00
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 12 Jan 2023 10:59:00 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zR0lmOGz;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=sXbIqQKYLUK6vF1Kta9bgpkqDdVHApQBS3+gNTYgGyA=;
+        b=7KikRBcc5N2glnv0dn/WWb6mpTaNaYnI1v5Q2yjtZEjiZMe7FEBLXWGUc3rnocJRLq
+         7VMEr8wz4y8NXieb8GoFImhHu3K781pxBwzg5xtrxGCbB4ebj00Cm1hJuhtqxgCiTb2w
+         dMnih+yGFX9zg3kSq4FPVv8OdLPpV/CvMmlzmWr7EhwbikeLdydJMoxydxIBrER8m3bL
+         97wvSzFlLyPTE8x+lXs053/LSY/GFTEXIdSFfNp30O60F2nFjyQBQ8k2uyGtuiby455Y
+         uawTnQwLZXvsw0F/4sow9uVNIQ2QmaGSeu0cENQF0sbPhQsZoGn3zK2ajYCIY6p6QMO1
+         3ieA==
+X-Gm-Message-State: AFqh2krPKAzI9COrNXd2xxIwKOC0jsluk1JqwWyjJnuYZrvhbupFS0mv
+	2aC/REdo57QVtUMDRcMVisjnY258nvSJ95W9VLCdv3JDMI9/JyC06Q==
+X-Received: by 2002:adf:cd91:0:b0:2bd:cfae:984b with SMTP id q17-20020adfcd91000000b002bdcfae984bmr103444wrj.409.1673549940306;
+        Thu, 12 Jan 2023 10:59:00 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5608:0:0:0:0:0 with SMTP id l8csp4408140wrv;
+        Thu, 12 Jan 2023 10:58:56 -0800 (PST)
+X-Received: by 2002:a67:f2c6:0:b0:3ce:88b3:d7d8 with SMTP id a6-20020a67f2c6000000b003ce88b3d7d8mr26584491vsn.19.1673549936310;
+        Thu, 12 Jan 2023 10:58:56 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1673549936; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=BfSDT0/IIelOEYQMHiherwsIz2qXTMMEtfn7FXAObhCZ8Z2t3jwOM+Kk1bzp71opFS
+         uF2yaFQtPkHP3dmAFN3WVa0aXa+QFsuMNDkXfB4tuNVHu/KD3MrlOuWGYaj39xdeWRNm
+         h8tRTJkRxZ8Y/sQq3wK6khia+fTldC8XOKHvE/y0Zd9uhEl5w36zPi9yz/AxsPvDT7Wv
+         HZ0l5bmh5vMY9uAbfcaLYdc9glRmg9yFfcTTh/tG6a1V1lPiB9kzaweF707+cjq0QbSI
+         CVDDXhMMN2ybNFVio2NYH7QlRciwEiWNDGy5e6Um6Qzmx5loCJY/wuNDLrLfgST9Ppb/
+         mAjw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=sXbIqQKYLUK6vF1Kta9bgpkqDdVHApQBS3+gNTYgGyA=;
+        b=wpw4TN8QlAory4omJWkwaAUcjC9lu3AoNhuQjlEGdKBZz51oXMCS7mz0vvOdcoJwBB
+         YUQr3kFKmL6BJVqvpijJd9exoZ+To1Liy3YUfpU9/KTO37uJd2WLYj1SnkzYySBXRjws
+         ZEqB5fyvdzl4g3+3i8BvWdWvsuV0ZTrqhpb9T6E9JRYcD5IvDX8YP9XzMoGztTcOZySd
+         HjPOm6Do3j2owbxKQ+QEOX48KXQ82b1uLZot7kLc9rWCmRNpFx7BOci1/SHlikIOjlpv
+         4ta4tn5fUqrbspAPgJZmKp+DjlhXi/OIrN9K6APZ405OUUsfLHndIc3ZAmS4wL6OogU+
+         uh+w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zR0lmOGz;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230112135754.30232666.268518@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230112135754.30232666.268518@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230112135754.30232666.268518@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i1-20020a67e2c1000000b003ceb28a09e5sor10936597vsm.57.2023.01.12.10.58.56
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 12 Jan 2023 10:58:56 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230112135754.30232666.268518@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMrXdXuiC2CqXhGEIJEIRbwPvBUL4LXmySk1GpgIf9DipjAwMiop/e5dURF46qdXUWc6+OcsRgyL9EKVj+PTXhkNX9YN3oxSXx8=
+X-Received: by 2002:a67:f3cf:0:b0:3b1:3c78:b07f with SMTP id j15-20020a67f3cf000000b003b13c78b07fmr44109917vsn.34.1673549935947;
+        Thu, 12 Jan 2023 10:58:55 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1673549935; cv=none;
+        d=google.com; s=arc-20160816;
+        b=In8+Flnl7JL2HT1+4GMc7nTWamuhwqlNx6dZFgjO5qpuu7OrG/fNv/Pt484ll1Qat6
+         vaalZkWW7QNcJ7c1gAf/BTtr2pflNXdFN8v/hE6ZsJdSLnX5Tk27eJeKsXCqJVbaUHS8
+         UIKW5ooM4ql1jWMZP0D5+60NNlbP2a+D4/Yp0XGXnrngzWaXeFlXxA/7uCkjKbY0uNWE
+         VOoflHMPo634qJ//70Dq5fb/rcYXUpWFr/pEISxl/Tkgm6soS3Rw27il5SThiA073KHa
+         rUI1jWL2NNl0EF4BAf6GzZ09KxHl6SBB5lCm0luvTerXDNpbupPFpm15YAj6RD92Bhhs
+         kKCQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=sXbIqQKYLUK6vF1Kta9bgpkqDdVHApQBS3+gNTYgGyA=;
+        b=BJ0PIuG0pi9iip4sEXay9kYj5y0yhCdnaSNdyihhdgHQMe6GYv6l/2kk/nQEimFEAr
+         veyS4s/yo5cV0YyhmDE/07Na9jsE+ZU+MJhm0SlVBKlZh221MTue+zPHUq1BVb9Bhnzw
+         Ii7OAn4E1mSNP9t50dq54GaLDumSBOd7w/EofcVI+hUMNdX8fZicuLaoZMsl17pABkaN
+         B78sIGANBXxa3NY6NiCjEInbYRzw0oVY5JWW+WylFEnKd94TlCkRkqxXhgPrSkggwj0i
+         8ian3DrKmUybD5dnNx4qxI7zzmS/v1MV6UhlxyHyDyNmBI69JxRGGA6cAUd0J9bgmzmS
+         FS1g==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zR0lmOGz;
+       spf=pass (google.com: domain of delivery_20230112135754.30232666.268518@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230112135754.30232666.268518@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230112135754.30232666.268518@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id az31-20020a056130039f00b005e51a1a1ef1si1082440uab.2.2023.01.12.10.58.55
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 12 Jan 2023 10:58:55 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230112135754.30232666.268518@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=wqESkJraJNApeZ6YsqLgzb9ABuRFzhs3vhCmJAI2szg=;
+ b=zR0lmOGzlLdMRA34haB5TXSczERPlNxN/2exSU+mnzyeGnjhT3YZqB8jT6p1NBJcXnfh3XHJRWC7
+   yKOqL6R9dZhtWhBAAV/28o6rAu8grQrG1uw6ncMTzZUlKaEMwSBKVkgWr/tbqtIKm9N8I9NEwC4J
+   qwztc7+8td3NEGuge+k=
+Received: from njmta-53.sailthru.com (173.228.155.53) by pmta29.sailthru.com id ho1c6u2sd4sn for <bloomberg@khamel.com>; Thu, 12 Jan 2023 13:58:55 -0500 (envelope-from <delivery_20230112135754.30232666.268518@mx.sailthru.com>)
+Received: from nj1-jma-39.flt (172.18.20.37) by njmta-53.sailthru.com id ho1c6u1qqbsa for <bloomberg@khamel.com>; Thu, 12 Jan 2023 13:57:54 -0500 (envelope-from <delivery_20230112135754.30232666.268518@mx.sailthru.com>)
+Date: Thu, 12 Jan 2023 13:57:54 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230112135754.30232666.268518@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEpQTW9yZ2FuwqBTYXlzIEZyYW5rIFdhcyBGcmF1ZA==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_242623387_53573807.1673549874962"
+Precedence: bulk
+X-Feedback-ID: 6358:30232666:campaign:sailthru
+X-TM-ID: 20230112135754.30232666.268518
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-jma-39.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chzzoa.5r6u/49ec4e59
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chzzoa.5r6u/49ec4e59>, <mailto:unsubscribe_20230112135754.30232666.268518@mx.sailthru.com>
+X-rpcampaign: stjko30232666
+
+------=_Part_242623387_53573807.1673549874962
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow and Monday, back=
+ on Tuesday. In 2021, JPMorgan Chase & Co. paid $175 million to acquire F
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow and Monday, ba=
+ck on Tuesday.
+
+ =20
+   =20
+      Frank!
+   =20
+ =20
+
+In 2021, JPMorgan Chase & Co. paid $175 million to acquire Frank, a financi=
+al technology company that helps students fill out college financial aid fo=
+rms. It is not obvious why this would be a lucrative business for JPMorgan,=
+ or Frank, but that was not really the point of the acquisition. The point =
+of the acquisition is that helping students fill out college financial aid =
+forms, while not itself lucrative,=C2=A0might help you build long-term fina=
+ncial relationships with them at an early and impressionable point in their=
+ lives. If Frank helps a student fill out her financial aid forms, she migh=
+t like Frank, so when Frank emails her and says =E2=80=9Chey now that you=
+=E2=80=99re in college you should set up a checking account, here=E2=80=99s=
+ one,=E2=80=9D she might open the checking account =E2=80=94=C2=A0at JPMorg=
+an =E2=80=94=C2=A0that Frank recommends. Later, she might get her mortgage =
+through a Frank recommendation. JPMorgan was buying Frank=E2=80=99s custome=
+r relationships, so that it could use them to sell financial products that=
+=C2=A0were=C2=A0lucrative.
+That is, in some sense, JPMorgan paid Frank $175 million for an email list.=
+ As the proprietor of an email list myself, I have some interest=C2=A0in th=
+is transaction.
+It went poorly. Frank=E2=80=99s founder, Charlie Javice, kept running Frank=
+ after it became part of JPMorgan, but in November 2022 JPMorgan fired=C2=
+=A0her, and now   she and JPMorgan are suing each other. Here is  Javice=E2=
+=80=99s lawsuit against JPMorgan, which basically demands that the bank pay=
+ her legal fees; her lawyer is Alex Spiro, who is also Elon Musk=E2=80=99s =
+lawyer, so I assume he=E2=80=99s expensive. Here is  JPMorgan=E2=80=99s law=
+suit against Javice, which accuses her of fraud: The gist of it is that JPM=
+organ now says that Frank=E2=80=99s email list, which it paid $175 million =
+for, was fake.
+One thing that the two lawsuits agree on is that, when JPMorgan took over F=
+rank, its first order of business was to spam Frank=E2=80=99s customers wit=
+h JPMorgan marketing. Here=E2=80=99s how JPMorgan puts it:
+
+In January 2022, after JPMC acquired Frank, JPMC began work on a marketing =
+campaign to test the quality of Frank=E2=80=99s customer account list and t=
+he receptiveness of these customers to JPMC=E2=80=99s products and services=
+. To facilitate this marketing campaign, JPMC asked Javice and [Frank Chief=
+ Growth Officer Olivier] Amar to provide Frank=E2=80=99s user list so that =
+JPMC could send the marketing test by email. =E2=80=A6
+JPMC reached out via email to a random sample of the list Frank provided =
+=E2=80=93 approximately 400,000 purported customers of Frank =E2=80=93 with=
+ offers to open Chase checking or savings accounts. Of those 400,000, only =
+103 even clicked through to Frank=E2=80=99s website.
+
+As an email list proprietor, I can say: not a great click rate. Here=E2=80=
+=99s Javice=E2=80=99s version:
+Chase undermined Frank=E2=80=99s value by pursuing poorly conceived busines=
+s plans focused on monetizing student FAFSA=C2=AE data and conducting direc=
+t marketing campaigns aimed at Frank=E2=80=99s historical customers. The pr=
+oposed business plans disregarded the regulatory environment in which the f=
+inancial aid platform operated, failed to capitalize on Ms. Javice=E2=80=99=
+s past successes, and discounted the very skills for which JPMorgan Bank hi=
+red her. More specifically, the new team focused primarily on mining the pe=
+rsonal information of Frank=E2=80=99s legacy customers to blast them with m=
+arketing emails promoting consumer financial products, including credit car=
+ds and personal loans.=C2=A0
+In Javice=E2=80=99s story, she objected to JPMorgan=E2=80=99s efforts to ma=
+rket to her customers, for regulatory and, one assumes, aesthetic reasons; =
+JPMorgan=C2=A0retaliated by subjecting her =E2=80=9Cto overzealous internal=
+ investigations and fishing expeditions=E2=80=9D and eventually firing her.
+JPMorgan=E2=80=99s story is considerably more interesting. In its story, th=
+e 0.026% click rate on the test email was evidence that Javice=E2=80=99s em=
+ail list was not what JPMorgan had hoped for. So it =E2=80=9Cinitiated a co=
+mprehensive investigation into Frank and the Merger,=E2=80=9D mostly by rea=
+ding through Javice=E2=80=99s old emails, which are now on JPMorgan=E2=80=
+=99s servers.
+  [1]
+ Oh boy did that turn up some good stuff!
+During due diligence for the merger, Javice told JPMorgan that Frank had 4.=
+25 million users. =E2=80=9CUsers,=E2=80=9D to JPMorgan, seems to have meant=
+ something close to =E2=80=9Cpeople we can send emails to=E2=80=9D:
+
+At an initial July 2021 meeting, Javice told JPMC that Frank had significan=
+t engagement with college-aged students, a market segment that JPMC wanted =
+to grow. Javice stated that Frank had 4.25 million users, expressly definin=
+g a =E2=80=9Cuser=E2=80=9D as an individual who created a Frank account by =
+entering a first name, last name, email, and phone number on Frank=E2=80=99=
+s website. =E2=80=A6
+Based on the July 21 meeting and the data room materials, JPMC confirmed Fr=
+ank=E2=80=99s definition of its customers base, namely, customers are users=
+ who created a Frank account. Thereafter, as part of due diligence on Javic=
+e=E2=80=99s 4.265 million customer account claim, JPMC made an unambiguous =
+request to Javice for a list of Frank=E2=80=99s customer accounts that incl=
+uded important data, such as first names, last names, dates of birth, phone=
+ numbers, mailing addresses, and email addresses. =E2=80=A6
+Specifically, JPMC sought to confirm its thesis that Frank=E2=80=99s acquis=
+ition of 4.265 million customer accounts demonstrated that=C2=A0Frank had c=
+reated momentum, growth, and scale by developing meaningful relationships w=
+ith millions of students. That momentum, growth, and scale, JPMC believed, =
+indicated that Frank was a proven acquisition machine for college-aged stud=
+ents and would continue =E2=80=93 and even increase =E2=80=93 its customer =
+account base once Frank merged with and into JPMC. If Frank=E2=80=99s custo=
+mer base existed, JPMC could proceed with the deal.
+
+But, JPMorgan now says, Frank only really had about 300,000 customer accoun=
+ts. So Javice allegedly asked a Frank engineer to make up a fake list. It d=
+id not go great:
+
+She sent Frank=E2=80=99s Director of Engineering an email with a link to an=
+ article entitled =E2=80=9CGenerating Tabular Synthetic Data Using GANs.=E2=
+=80=9D=C2=A0The article notes that =E2=80=9C[t]he goal is to generate synth=
+etic data that is similar to the actual data in terms of statistics and dem=
+ographics.=E2=80=9D The article suggests that =E2=80=9Cit[=E2=80=99]s fairl=
+y simpl[e] to use GANs to generate synthetic data where the actual data is =
+sensitive in nature and can=E2=80=99t be shared publicly.=E2=80=9D
+Javice, Amar, and the Director of Engineering then had a Zoom meeting durin=
+g which Javice and Amar asked the Director of Engineering to help them crea=
+te a synthetic list of=C2=A0customer data. She asked the Director of Engine=
+ering if he could help her take a known set of FAFSA application data and u=
+se it to artificially augment a much larger set of anonymous data that her =
+systems had collected over time. The Director of Engineering questioned whe=
+ther creating and using such a data set was legal, but Javice tried to assu=
+re the engineer by claiming that this was perfectly acceptable in an invest=
+ment situation and she did not believe that anyone would end up in an =E2=
+=80=9Corange jumpsuit=E2=80=9D over this project.
+The Director of Engineering was not persuaded and told Javice and Amar that=
+ he would not perform the task and only would send them the file containing=
+ Frank=E2=80=99s actual users, which amounted to approximately 293,000 indi=
+viduals at that time.
+
+Aieee, this is not legal advice, but if your boss is prone to using the phr=
+ase =E2=80=9Corange jumpsuit=E2=80=9D you should quit! And probably go clai=
+m your whistle-blower reward while you=E2=80=99re at it. Anyway Javice then=
+ allegedly =E2=80=9Csought help from external sources=E2=80=9D:
+Javice then turned to a data science professor at a New York City area coll=
+ege (the =E2=80=9CData Science Professor=E2=80=9D) who advertised his =E2=
+=80=9Ccreative solutions=E2=80=9D to data problems. Javice provided the Dat=
+a Science Professor a list of 293,192 individuals who had started or submit=
+ted a FAFSA application through Frank. She then directed the Data Science P=
+rofessor to use=C2=A0=E2=80=9Csynthetic data=E2=80=9D techniques to create =
+4.265 million customer names, email addresses, birthdays, and other persona=
+l information based on the list Javice supplied.
+The professor allegedly created the list, with lots of hilarious guidance a=
+long the way that JPMorgan now has:
+
+Regarding creating physical addresses, the Data Science Professor wrote to =
+Javice, =E2=80=9CI can=E2=80=99t seem to find addresses in my raw files . .=
+ . . Should I attempt to fabricate them?=E2=80=9D Javice responded =E2=80=
+=9CI just wouldn=E2=80=99t want the street to not exist in the state.=E2=80=
+=9D Later, the Data Science Professor determined that =E2=80=9C=E2=80=98rea=
+l addresses=E2=80=99 may not be doable,=E2=80=9D and Javice responded =E2=
+=80=9CIf we can=E2=80=99t do real addresses what[=E2=80=99]s the best we ca=
+n do for that?=E2=80=9D =E2=80=A6
+Javice was particularly concerned with the email addresses, asking the Data=
+ Science Professor =E2=80=9Cwill the fake emails look real with an eye chec=
+k or better to use unique ID?=E2=80=9D He responded =E2=80=9C[t]hey will lo=
+ok fake,=E2=80=9D at which point Javice agreed to use a =E2=80=9Cunique ID=
+=E2=80=9D instead.
+
+Eventually the list was done and the professor sent Frank an invoice for $1=
+3,300, listing his hours devoted to tasks like =E2=80=9Ccollege major gener=
+ation.=E2=80=9D This was not the invoice Javice wanted, so:
+
+In response to the initial invoice, Javice demanded that he remove all the =
+details admitting to how they had created fake customers =E2=80=93 and adde=
+d a $4,700 bonus. In an email to the Data Science Professor at 12:39 p.m. o=
+n August 5, 2021, Javice wrote: =E2=80=9Csend the invoice back at $18k and =
+just one line item for data analysis.=E2=80=9D In total, Javice paid the Da=
+ta Science Professor over $800 per hour for his work creating the Fake Cust=
+omer List, which is 270% of his usual hourly rate.
+The Data Science Professor provided Javice the revised invoice via email se=
+ven minutes later at 12:46 p.m., commenting =E2=80=9CWow. Thank you. Here i=
+s the new invoice.=E2=80=9D
+
+Yeah I mean a general lesson here is that you want to be in the sort of bus=
+iness that sends one-line invoices, not the sort of business that bills by =
+the sixth of the hour.
+  [2]
+
+This basically worked: Frank sent its list of 4,265,085 customers to JPMorg=
+an=E2=80=99s third-party due diligence consultant,
+  [3]
+ the consultant okayed it, JPMorgan was satisfied and they signed the merge=
+r agreement. But you can see how this would be a problem for Frank in the m=
+edium term: It had a list of 4 million customers with fake email addresses,=
+ and JPMorgan was basically buying it so it could send emails to that list.=
+ If the email addresses were all fake, JPMorgan would notice immediately. S=
+o Frank allegedly=C2=A0went out and bought an email list:
+
+At the exact same time Javice was working with the Data Science Professor o=
+n the Fake Customer List, Amar separately reached out to ASL Marketing, Inc=
+. (=E2=80=9CASL=E2=80=9D), a marketing firm that purports to have =E2=80=9C=
+the most comprehensive, accurate and responsive data of high school student=
+s, college students and young adults available anywhere.=E2=80=9D Amar caus=
+ed Frank to purchase a list of 4.5 million students from ASL for a cost of =
+$105,000 (the =E2=80=9CASL List=E2=80=9D) on the same day Javice transferre=
+d the Fake Customer List to the third-party vendor for validation. ...
+Amar and Javice would have had no reason to buy a list of 4.5 million colle=
+ge students if Frank actually had the number of customer accounts that Javi=
+ce represented to JPMC and provided to Acxiom.
+
+The ASL list had about 4.5 million names, but only about 2 million of them =
+had email addresses, so Javice allegedly went to another company to try to =
+buy the relevant email addresses:
+
+Javice again engaged the Data Science Professor to work with another third-=
+party vendor, Enformion, LLC (=E2=80=9CEnformion=E2=80=9D), to obtain addit=
+ional email addresses to add-on to the individuals in the ASL List. =E2=80=
+=A6
+After receiving the data, Enformion ran the ASL List through its databases =
+in an attempt to find matching additional data, including email addresses. =
+Enformion then provided those matches to the Data Science Professor.
+Upon information and belief, Javice and the Data Science Professor=E2=80=99=
+s first request to Enformion was to provide email addresses based on the ex=
+isting full names and addresses, but that provided a limited number of matc=
+hes. Upon information and belief, Javice decided to instruct Enformion to m=
+atch against just last names and addresses, which could generate email addr=
+esses of siblings, parents, and other family members of the individual on t=
+he ASL List, even if the email affiliated with the exact individual on the =
+ASL List could not be found.
+Ultimately, Javice and the Data Science Professor obtained at least one ema=
+il address for approximately 1.9 million of the 4.5 million individuals on =
+the ASL List from Enformion.
+
+Frank paid Enformion $70,000 for this. So, in essence, it paid a total of $=
+175,000 for a list of email addresses, and then=C2=A0sold that list to JPMo=
+rgan for $175 million, for a perfect 99,900% return on its investment.=C2=
+=A0What an arbitrage! The intuition is that a list of 4 million email addre=
+sses with whom you have a warm customer relationship is worth roughly 1,000=
+ times as much as a list of 4 million random email addresses that you scrap=
+ed up from the dregs of the internet. Javice allegedly scraped up these add=
+resses from the dregs of the internet, dressed them up in Frank=E2=80=99s w=
+arm customer relationships, and sold them to JPMorgan at a 1,000x markup. I=
+ncredible stuff.
+  [4]
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Elsewhere in email businesses
+   =20
+ =20
+
+Sam Bankman-Fried  has a Substack? I have subscribed. There is a widespread=
+ consensus, particularly among criminal defense lawyers,=C2=A0that Bankman-=
+Fried should stop talking and tweeting and blogging, but I kind of don=E2=
+=80=99t see how this hurts. His only real hope of avoiding many years in pr=
+ison is to convince people that he did not steal money from FTX=E2=80=99s c=
+ustomers, but rather that he ran a leveraged financial institution that ine=
+ptly but innocently ran into trouble. This will be very hard to do! But I a=
+m not sure it is=C2=A0impossible. The task, really, is to lay out a reasona=
+ble-seeming story of how FTX=E2=80=99s innocent choices led to its insolven=
+cy. Eventually he has to do that to a jury, but why not get some practice o=
+n Substack?
+  [5]
+
+Here is the first post on his Substack, =E2=80=9CFTX Pre-Mortem Overview.=
+=E2=80=9D I   said yesterday that I have never seen a real balance sheet of=
+ FTX, and I still haven=E2=80=99t, but this post does include a balance she=
+et of sorts=C2=A0for FTX=C2=A0US, FTX=E2=80=99s more-regulated, less-levera=
+ged US subsidiary.
+  [6]
+ This balance sheet represents that, when Bankman-Fried stepped down from F=
+TX, FTX US was fully solvent. This is an important point, for a couple of r=
+easons. For one thing, while FTX=E2=80=99s main exchange is in the Bahamas,=
+ FTX US is in the US, and Bankman-Fried is being prosecuted in the US. If t=
+he basic story here is =E2=80=9CFTX US was fine, all of its US customers wi=
+ll get back 100 cents on the dollar, and only foreigners were harmed by thi=
+s foreign company that I ran from the Bahamas,=E2=80=9D then he has a=C2=A0=
+bit of an argument that the US has no jurisdiction to prosecute him. I woul=
+d not bet on that =E2=80=94=C2=A0the general sense of US prosecutors and co=
+urts is that they have jurisdiction to prosecute financial crime anywhere i=
+n the world =E2=80=94=C2=A0but it=E2=80=99s worth a shot.
+The other reason FTX US matters is that FTX US was=C2=A0not=C2=A0a futures =
+exchange, and FTX International=C2=A0was. The two possible stories of FTX a=
+re:
+=09Bankman-Fried argues that FTX was a leveraged financial institution, lik=
+e MF Global or Lehman Brothers or the London Metals Exchange, that owed cli=
+ents lots of money and was owed lots of money by clients. It   did not keep=
+ customer assets in a box, and no customer could have expected that it woul=
+d: The customers were leveraged futures traders; if you buy Bitcoin futures=
+ you can=E2=80=99t seriously think that you own Bitcoins or that the exchan=
+ge is holding onto those Bitcoins for you. And, in Bankman-Fried=E2=80=99s =
+telling, FTX got into trouble in much the same way that   the LME did: The =
+market moved, a big leveraged customer went bust and couldn=E2=80=99t pay F=
+TX what it owed, so FTX had to shut down. As it happens, in FTX=E2=80=99s c=
+ase, the big leveraged customer was Alameda Research, the affiliated tradin=
+g firm that was also started (and mostly owned) by Bankman-Fried, but that =
+by last year was being run independently by Caroline Ellison. Alameda had l=
+ots of assets, it owed FTX lots of money, and one day its assets lost most =
+of their value and it couldn=E2=80=99t pay back the money it owed. When you=
+ run a futures exchange, and someone on one side of all the trades doesn=E2=
+=80=99t pay,=C2=A0the people on the other side don=E2=80=99t get paid.=C2=
+=A0=09Basically everyone else on earth is like =E2=80=9Cno I mean FTX just =
+stole the customers=E2=80=99 money and gave it to Alameda.=E2=80=9D
+
+I want to interject here that Story 1 above is meant to characterize Bankma=
+n-Fried=E2=80=99s position, not what I think. But I also want to say that y=
+ou have to take it seriously if you want to understand FTX. FTX=C2=A0was=C2=
+=A0a futures exchange, it=C2=A0did=C2=A0offer a lot of leveraged trading, a=
+nd that=C2=A0does=C2=A0sometimes lead totally legitimate businesses into tr=
+ouble when markets move too rapidly. I have written about it before =E2=80=
+=94=C2=A0most notably   here and   here =E2=80=94=C2=A0and I certainly=C2=
+=A0do not mean to suggest that =E2=80=9Cwell we ran a futures exchange and =
+the market moved=E2=80=9D is a complete defense. I think it is entirely=C2=
+=A0possible   to=C2=A0disguise=C2=A0fraud=C2=A0by running a leveraged excha=
+nge; you can lend yourself money against bad collateral, exempt yourself fr=
+om margin calls, and when it blows up say =E2=80=9Cwhat can you do, leverag=
+ed exchange!=E2=80=9D I also think that, if you are going to run a leverage=
+d exchange, it is important to be=C2=A0honest with customers=C2=A0about you=
+r risks and safeguards; if you=C2=A0say=C2=A0that you carefully limit custo=
+mer exposure, and don=E2=80=99t do it, that=E2=80=99s fraud too. But it is =
+also possible to run a futures exchange honestly and nonetheless blow up, a=
+nd that is the argument that Bankman-Fried is making.
+  [7]
+
+But the fact that FTX US also shut down customer withdrawals, and that FTX=
+=E2=80=99s current management seems to think it is insolvent, is very bad f=
+or Bankman-Fried=E2=80=99s story. FTX US is not a futures exchange, it more=
+ or less=C2=A0did (or at least, was supposed to) keep its customers=E2=80=
+=99 crypto safe in a box,=C2=A0and there is no innocent story of how it cou=
+ld have lost customer money. There are different ways to characterize how F=
+TX International could have lost its customers=E2=80=99 money, but=C2=A0if =
+the money is gone at FTX US, it was straightforwardly stolen.=C2=A0
+So this first Substack post =E2=80=9Cis about FTX Intenational=E2=80=99s (i=
+n)solvency. It=E2=80=99s not about FTX US,=E2=80=9D but it=C2=A0starts=C2=
+=A0with a claim that FTX US =E2=80=9Cis fully solvent and always has been,=
+=E2=80=9D because if that=E2=80=99s not true then the rest of it is kind of=
+ irrelevant.
+Actually, though, this first Substack post mostly isn=E2=80=99t about FTX I=
+nternational=E2=80=99s insolvency. It=E2=80=99s mostly about Alameda. Those=
+ topics are, of course, related: The problem at FTX, in Bankman-Fried=E2=80=
+=99s story and also really in the other story, is that it loaned a lot of m=
+oney to Alameda and Alameda lost it. So you might ask questions like =E2=80=
+=9Cwhy on earth did FTX loan Alameda all that money,=E2=80=9D and again the=
+ two possible answers would be (1) because FTX thought it was a good idea a=
+t the time and (2) to steal it.
+So here Bankman-Fried=E2=80=99s goal is to argue that lending money to Alam=
+eda was rational. The basic form of the argument is that Alameda was a big =
+fund with lots of valuable assets, so FTX had no problem lending it money, =
+and then all those assets vanished in the blink of an eye for reasons that =
+were not his fault. So he writes:
+
+Alameda, then, entered 2022 with roughly:
+=09=09$100b NAV=09=09=09$8b net borrow=09=09=091.06x leverage=09=09=09Tens =
+of billions of dollars of liquidity=09
+
+Then, over the course of the year, markets crash=E2=80=93again and again an=
+d again.=C2=A0=C2=A0
+
+That is: At the beginning of 2022, lending money to Alameda was sensible; b=
+y the end of 2022, that money was gone.=C2=A0=E2=80=9CAs Alameda became ill=
+iquid, FTX International did as well, because Alameda had a margin position=
+ open on FTX; and the run on the bank turned that illiquidity into insolven=
+cy.=E2=80=9D
+Now, this is not a great defense, because at some point between $100 billio=
+n of net asset value and=C2=A0zero=C2=A0of net asset value, you might want =
+to stop lending to Alameda. And in fact the core of the=C2=A0case against B=
+ankman-Fried is pretty much that, when the value of Alameda=E2=80=99s inves=
+tments collapsed in the summer of 2022, other lenders=C2=A0did stop lending=
+ to it, so FTX=C2=A0increased=C2=A0its lending to Alameda to keep it afloat=
+. But here is Bankman-Fried=E2=80=99s take:
+
+In the summer of 2022, Alameda finally put on substantial hedges, in some c=
+ombination of BTC, ETH, and QQQ (a NASDAQ ETF).
+But even after all the market crashes of 2022, shortly before November Alam=
+eda still had ~$10b of net asset value; it was positive even if you exclude=
+d SRM and tokens like it, and it was finally hedged.
+
+That is: Even in late summer and fall of 2022, FTX=E2=80=99s lending to Ala=
+meda was sensible, Bankman-Fried says,=C2=A0because Alameda had billions of=
+ dollars of value =E2=80=9Cand it was finally hedged,=E2=80=9D so FTX=E2=80=
+=99s money should have been pretty safe with Alameda.
+Of course you can object to that too. For one thing, that $10 billion of va=
+lue includes =E2=80=9CSRM and tokens like it,=E2=80=9D that is, tokens (FTT=
+, SRM, MAPS)   that were created by FTX/Alameda, that were owned almost ent=
+irely by Alameda, and that represented essentially bets on the continuing s=
+uccess of FTX.=C2=A0For FTX to lend Alameda real money against those tokens=
+ is a   terrible wrong-way risk=C2=A0and at least suggestive of fraud. Bank=
+man-Fried says that Alameda =E2=80=9Cwas positive even if you excluded=E2=
+=80=9D those tokens. =E2=80=9CPositive=E2=80=9D is not great, but it=E2=80=
+=99s something.
+Also, though, the hedges. Alameda owned a collection of =E2=80=9Caltcoins, =
+crypto companies, public equities, and venture investments,=E2=80=9D which =
+seems to have included=C2=A0a lot of FTT, SRM, MAPS, and SOL, the token of =
+the Solana blockchain. And to hedge the market risk that that stuff would l=
+ose value, it shorted =E2=80=9Csome combination of BTC, ETH, and QQQ,=E2=80=
+=9D that is, an exchange-traded fund of Nasdaq stocks. If the market =E2=80=
+=94=C2=A0Solana and FTT and Bitcoin and the Nasdaq =E2=80=94=C2=A0went up, =
+Alameda would make money on its positions but lose money on its hedges. If =
+the market =E2=80=94=C2=A0all that stuff =E2=80=94=C2=A0went down, Alameda =
+would lose money on its positions but be cushioned by its hedges.
+If Solana and FTT went down a ton, but Bitcoin and the Nasdaq did not, Alam=
+eda would get vaporized and the hedges wouldn=E2=80=99t help. The hedges we=
+re only as good as their correlation to Alameda=E2=80=99s assets. I suppose=
+ there was a time when Solana and FTT and Bitcoin and the Nasdaq were all m=
+ore or less correlated to each other, when every crypto altcoin was sort of=
+ a generic bet on =E2=80=9Cpeople love tech and crypto is tech and everythi=
+ng goes up.=E2=80=9D But in the fall of 2022, that was not how things worke=
+d. The Nasdaq is, like, Microsoft, and Apple. In the fall of 2022, it was v=
+ery very very easy to have a thesis like =E2=80=9Cwell Microsoft and Apple =
+are fine but Solana is toast.=E2=80=9D The Nasdaq is up about 4% since the =
+end of September. Solana is down about 50%. FTT is down almost 95%.=C2=A0
+Here=E2=80=99s Bankman-Fried=E2=80=99s take on that:
+
+Then came CZ=E2=80=99s=C2=A0fateful tweet, following an extremely effective=
+ months-long PR campaign against FTX=E2=80=93and the crash.
+Up until that final crash in November, QQQ had moved roughly half as much a=
+s Alameda=E2=80=99s portfolio, and BTC/ETH had moved roughly 80% as much=E2=
+=80=93meaning that Alameda=E2=80=99s hedges (QQQ/BTC/ETH), to the extent th=
+ey existed, had worked.=C2=A0 Unfortunately the hedges hadn=E2=80=99t been =
+sufficiently large until after the 3AC crash=E2=80=93but as of October 2022=
+, they finally were.
+But the November crash was a targeted attack on assets held by Alameda, not=
+ a broad market move.=C2=A0 Over the few days in November, Alameda=E2=80=99=
+s assets fell roughly 50%; BTC fell about 15%--only 30% as much as Alameda=
+=E2=80=99s assets=E2=80=93and QQQ didn=E2=80=99t move at all. As a result, =
+the larger hedge that Alameda had finally put on that summer didn=E2=80=99t=
+ end up helping.=C2=A0 It would have for every previous crash that year=E2=
+=80=93but not for this one.
+Over the course of November 7th and 8th, things went from stressful but mos=
+tly under control to clearly insolvent.
+
+That is, Changpeng Zhao, the head of rival exchange Binance, tweeted mean s=
+tuff about FTX=E2=80=99s FTT token, which collapsed the value of that token=
+. There was =E2=80=9Ca targeted attack on assets held by Alameda,=E2=80=9D =
+in which its stuff collapsed =E2=80=94=C2=A0due to an =E2=80=9Cattack=E2=80=
+=9D =E2=80=94 while Bitcoin and the Nasdaq held up fine.=C2=A0
+At some level this is crazy. FTX loaned billions of dollars of money =E2=80=
+=94=C2=A0of real money, of customer money =E2=80=94=C2=A0to Alameda against=
+ a pile of assets with billions of dollar of nominal value, but those asset=
+s were mostly altcoins, mostly incredibly risky bets on the future of crypt=
+o. They could all go to zero in the blink of an eye, and some of them did. =
+FTX loaned billions of dollars to Alameda against assets that could, and di=
+d, evaporate because=C2=A0CZ tweeted mean things about them. Oh but Alameda=
+ was hedged! It hedged by shorting=C2=A0Apple. It could only go bankrupt if=
+ its assets lost their value =E2=80=94=C2=A0because of a mean tweet =E2=80=
+=94=C2=A0but Apple did not. What were the chances=C2=A0of that? Incredibly =
+high! Come on.
+Still I guess it is sort of a defense? The defense is: =E2=80=9CAlameda had=
+ assets, those assets had market values, I thought those values were real, =
+I thought they were hedged, and the market moved against them. Sure=C2=A0yo=
+u=C2=A0might think that Alameda=E2=80=99s assets were worthless magic beans=
+, and that=E2=80=99s how it turned out, but at the time I was a naive belie=
+ver, so I thought it was fine to lend money against them.=E2=80=9D This is =
+not a great story,
+  [8]
+ but it=E2=80=99s a lot better than =E2=80=9CI just stole the money,=E2=80=
+=9D and it seems to be what he is going with.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Premium bonds=C2=A0
+   =20
+ =20
+
+We   talked yesterday about the idea that the US Department of the Treasury=
+ should issue premium bonds to avoid the debt ceiling. The idea is that the=
+ Treasury could issue a 10-year bond with a $100 face amount and a 15.6% in=
+terest rate, and that bond would be worth about $200. It could sell the bon=
+d for $200, raising $200 in cash but counting for only $100 against the deb=
+t ceiling. If you buy that bond, you pay $200 now and get back only $100 in=
+ 10 years, but you get $15.60 per year in interest over those 10 years, whi=
+ch makes it worth it.
+People raised a couple of objections that I want to quickly discuss here. F=
+irst of all, a lot of people worry about the tax treatment. If you buy a $2=
+00 Treasury for $200, and you get 3.6% interest ($7.20 per year) and your $=
+200 back at maturity, you pay tax on that $7.20 of annual interest but not =
+on the $200 you get back at the end. If you buy a $100 Treasury for $200, a=
+nd you get 15.6% interest ($15.60 per year) and $100 back at maturity, you =
+pay tax on the $15.60 of annual interest. More of your payments are charact=
+erized as taxable income rather than non-taxable return of principal, which=
+ seems bad.
+But in fact the tax treatment is basically sensible: The tax code lets you =
+ deduct the premium that you paid from your taxes. If you pay $200 for a $1=
+00 bond, you paid $100 of premium, which you can amortize and deduct from y=
+our taxable income over the life of the bond. Oversimplifying , you deduct =
+$10 per year for 10 years, so your taxable interest income is $15.60 minus =
+$10 equals $5.60 per year, more or less the right amount.
+  [9]
+ There are some  elections to make, and I am certainly not giving you tax a=
+dvice, and this is probably a bit more annoying than just getting normal in=
+terest payments. But, no, the premium bond is not dramatically more tax-ine=
+fficient than a normal bond.
+Second, there is a timing worry. The way this works is that Treasury would =
+issue new premium bonds to pay back old bonds and raise extra money: A $100=
+ bond comes due, Treasury replaces it with a new $100 high-interest bond, i=
+t sells the high-interest bond for $200, it pays off the old bond and=C2=A0=
+keeps the extra $100 to pay for expenses. But if it has $200 of expenses, t=
+hat doesn=E2=80=99t work: You need to be doing enough new premium bond issu=
+ance to cover all the costs, or you need to start well before reaching the =
+debt ceiling to build up some cash cushion.=C2=A0In fact,  Treasury=E2=80=
+=99s monthly flows vary but tend to range from about a $300 billion surplus=
+ (April, tax day) to about a $430 billion deficit (September); roughly $400=
+ billion of Treasuries mature each month.
+  [10]
+ So it does not seem implausible that Treasury could cover its monthly expe=
+nses by issuing premium bonds worth 200 cents on the dollar, even if it did=
+n=E2=80=99t start much before hitting the limit.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Bed Bath & Beyond Triples as   Retail Traders Fuel Latest Burst. Nelson Pel=
+tz Plans Proxy Fight Against  Disney. Subway  Explores Sale That Could Valu=
+e Sandwich Chain at More Than $10 Billion.=C2=A0Fed on Track for   Rate-Hik=
+e Downshift After Cool Inflation Data.  Saudi Aramco bets on being the last=
+ oil major standing. JPMorgan Accuses Morgan Stanley Defector of   Poaching=
+ 32 Clients. How=E2=80=99s   Barry Silbert doing? =E2=80=9CMike Novogratz W=
+ants to   Punch Disgraced Crypto Titans in the Face=E2=80=9D?? =E2=80=9CIt=
+=E2=80=99s a stark difference from the late crowd, where everyone is upset =
+and barfing.=E2=80=9D
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] =E2=80=9CJPMC has all the emails showing the fraud because Javice and=
+ Amar used Frank=E2=80=99s email accounts to create the Fake Customer List =
+and the email accounts now belong to JPMC following the Merger.=E2=80=9D=20
+
+
+  [2] I used to do mergers and acquisitions work at a law firm that rather =
+famously  does not bill by the hour. My most pleasing task was sending clie=
+nt bills that were like =E2=80=9CServices rendered =E2=80=A6 $4,000,000.=E2=
+=80=9D=20
+
+
+  [3] Why a consultant? JPMorgan says: =E2=80=9CJavice also cited privacy c=
+oncerns in sharing Frank=E2=80=99s customer data directly with JPMC. After =
+numerous internal conversations, and in order to allay Javice=E2=80=99s con=
+cerns, JPMC agreed to use a third-party data management vendor, Acxiom, to =
+validate Frank=E2=80=99s customer information rather than providing the per=
+sonal identifying information directly to JPMC.=E2=80=9D
+
+
+  [4] This is probably boring to most people, but there is a strange interl=
+ude on pages 30 to 34 of JPMorgan=E2=80=99s complaint where they discuss th=
+e merger agreement in great detail. Specifically, they discuss a number of =
+representations and covenants that Frank made in the merger agreement =E2=
+=80=94 things like it =E2=80=9Chas conducted its business and operated its =
+properties in the ordinary course of business consistent with past practice=
+=E2=80=9D and will =E2=80=9Cuse commercially reasonable efforts to maintain=
+ and preserve the =E2=80=A6 goodwill of the business=E2=80=9D and =E2=80=9C=
+there has not been a =E2=80=A6 misuse or misappropriation of any Trade Secr=
+ets=E2=80=9D =E2=80=94 and argue that this alleged fraud breached those pro=
+visions of the merger agreement. This is kind of weird! The most natural wa=
+y to describe the alleged fraud here is not that it was a *misuse of trade =
+secrets*. The implication that you have to take from it is that the merger =
+agreement did *not* say things like =E2=80=9Cthe information Frank provided=
+ in due diligence is substantially correct=E2=80=9D or =E2=80=9CFrank has 4=
+.25 million customers=E2=80=9D or whatever. (A further implication is that =
+the merger agreement probably had an =E2=80=9Centire agreement=E2=80=9D cla=
+use saying that JPMorgan did not rely on anything outside of the agreement =
+in signing the deal.) And so JPMorgan has to assert that Javice breached th=
+e merger agreement in some weird indirect way, that inventing a customer li=
+st was a misuse of trade secrets or not in the ordinary course or whatever.=
+ Oddly it is a little reminiscent of   Elon Musk=E2=80=99s efforts last yea=
+r to get out of his deal with Twitter Inc.: Musk claimed that Twitter was l=
+ying about how many bot accounts there were, but in fact Twitter never made=
+ any representations at all about the number of bots, so Musk had to make w=
+eird indirect claims about how the bot stuff somehow violated the merger ag=
+reement. There, too, though, he also made separate claims of *fraud*; the i=
+ntuition is that even if he couldn=E2=80=99t get out of the merger agreemen=
+t due to a breach of the contract, maybe he could because Twitter had pulle=
+d an enormous con to trick him into signing. This did not work for him, bec=
+ause it was just obviously untrue. Here, uh =E2=80=A6 I mean I would think =
+JPMorgan could argue the same sort of thing? Possibly with more success?
+
+
+  [5] One obvious answer is "because it gives prosecutors more information =
+about his defense and more time to figure out how to undermine it." But pre=
+sumably they have a pretty good idea anyway.
+
+
+  [6] Frustratingly, it is not laid out as a balance sheet; I think you hav=
+e to read the first line =E2=80=94 =E2=80=9CCustomer balances=E2=80=9D =E2=
+=80=94 as the liabilities and the other lines =E2=80=94 =E2=80=9CWallet bal=
+ances,=E2=80=9D =E2=80=9CFBO bank balances,=E2=80=9D =E2=80=9CCorp balances=
+=E2=80=9D and =E2=80=9CReg bank balances=E2=80=9D =E2=80=94 as the assets.=
+=20
+
+
+  [7] He is also making the case that FTX could have been saved? =E2=80=9CI=
+ think it=E2=80=99s likely that FTX could have made all customers whole if =
+a concerted effort had been made to raise liquidity. There were billions of=
+ dollars of funding offers when Mr. Ray took over, and more than $4b that c=
+ame in after. If FTX had been given a few weeks to raise the necessary liqu=
+idity, I believe it would have been able to make customers substantially wh=
+ole.=E2=80=9D I mean? Okay?
+
+
+  [8] I am sorry to   keep bringing it up, but this story is particularly u=
+ndermined by the time, last April, when Bankman-Fried   described yield far=
+ming to me on the Odd Lots podcast. He said: =E2=80=9CIf everyone kind of n=
+ow thinks that this box token is worth about a billion dollar market cap, t=
+hat's what people are pricing it at and sort of has that market cap. Everyo=
+ne's gonna mark to market. In fact, you can even finance this, right? You p=
+ut X token in a borrow lending protocol and borrow dollars with it. If you =
+think it's worth like less than two thirds of that, you could even just lik=
+e put some in there, take the dollars out. Never, you know, give the dollar=
+s back.=E2=80=9D And I said: =E2=80=9CYou're just like, well, I'm in the Po=
+nzi business and it's pretty good.=E2=80=9D My point here is just that he d=
+idn=E2=80=99t *sound* like a naive true believer in the robust long-term va=
+lue of FTT or Solana or whatever, or in the wisdom of lending against it.
+
+
+  [9] In fact the amortization is constant interest rate amortization rathe=
+r than straight-line, meaning that you deduct less in early years and more =
+in later years, but it adds up to the same thing (you deduct $100 over 10 y=
+ears). The $5.60 per year of taxable income is an average: You pay more tha=
+n that in earlier years (when you have gotten back less of your money and s=
+o really are getting 3.6% interest on $200ish of investment) and less in la=
+ter years (when you have gotten back much of your money and are getting 3.6=
+% interest on $100ish of remaining principal).
+
+
+  [10] Treasury  reports that it has about $23 billion of marketable securi=
+ties outstanding as of last February, and Nasdaq reports that their average=
+ maturity is 62 months. So that=E2=80=99s an average of $370 billion of mat=
+urities a month.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chzzoa.5r6u/5fd2eec6.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_242623387_53573807.1673549874962
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow and Monday, back on Tues=
+day. In 2021, JPMorgan Chase &amp; Co. paid $175 million to acquire F
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDIzMjY2NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1MDExODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB1e9a1b7b" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30232666&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTEyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTImdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB60238325"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDIzMjY2NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1MDExODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC0ab049dc" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30232666&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong> <em>Money S=
+tuff will be off tomorrow and Monday, back on Tuesday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Frank!</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">In 2021, JPMorgan Chase &amp; Co. paid $175 mi=
+llion to acquire Frank, a financial technology company that helps students =
+fill out college financial aid forms. It is not obvious why this would be a=
+ lucrative business for JPMorgan, or Frank, but that was not really the poi=
+nt of the acquisition. The point of the acquisition is that helping student=
+s fill out college financial aid forms, while not itself lucrative,=C2=A0mi=
+ght help you build long-term financial relationships with them at an early =
+and impressionable point in their lives. If Frank helps a student fill out =
+her financial aid forms, she might <em>like </em>Frank, so when Frank email=
+s her and says =E2=80=9Chey now that you=E2=80=99re in college you should s=
+et up a checking account, here=E2=80=99s one,=E2=80=9D she might open the c=
+hecking account =E2=80=94=C2=A0at JPMorgan =E2=80=94=C2=A0that Frank recomm=
+ends. Later, she might get her mortgage through a Frank recommendation. JPM=
+organ was buying Frank=E2=80=99s customer relationships, so that it could u=
+se them to sell financial products that=C2=A0<em>were=C2=A0</em>lucrative.<=
+/p>
+<p style=3D"margin: 16px 0;">That is, in some sense, JPMorgan paid Frank $1=
+75 million for an email list. As the proprietor of an email list myself, I =
+have some interest=C2=A0in this transaction.</p>
+<p style=3D"margin: 16px 0;">It went poorly. Frank=E2=80=99s founder, Charl=
+ie Javice, kept running Frank after it became part of JPMorgan, but in Nove=
+mber 2022 JPMorgan fired=C2=A0her, and now <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30232666.268518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTEvanBtb3JnYW4tc2F5cy1pdC13YXMtZGVmcmF1ZGVkL=
+WluLTE3NS1taWxsaW9uLWZyYW5rLWFjcXVpc2l0aW9uP2NtcGlkPUJCRDAxMTIyM19NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDE=
+xMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB91250a9c" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  she and JPMorgan are suing each other</a>. Here is <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/30232666.268518/aHR0cHM6Ly9hc3NldHMu=
+YndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JfMnB1ckI3VzRsby92MA/607f=
+07ceef4b8524a319a23cB2d217e4d" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> Javice=E2=80=99s lawsuit against JP=
+Morgan</a>, which basically demands that the bank pay her legal fees; her l=
+awyer is Alex Spiro, who is also Elon Musk=E2=80=99s lawyer, so I assume he=
+=E2=80=99s expensive. Here is <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30232666.268518/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXN=
+lcnMvaXFqV0hCRmRmeElVL3JObE5WVGwuNnloOC92MA/607f07ceef4b8524a319a23cB47e917=
+28" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> JPMorgan=E2=80=99s lawsuit against Javice</a>, which accuses =
+her of fraud: The gist of it is that JPMorgan now says that Frank=E2=80=99s=
+ email list, which it paid $175 million for, was fake.</p>
+<p style=3D"margin: 16px 0;">One thing that the two lawsuits agree on is th=
+at, when JPMorgan took over Frank, its first order of business was to spam =
+Frank=E2=80=99s customers with JPMorgan marketing. Here=E2=80=99s how JPMor=
+gan puts it:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In January 2022, after JPMC acquired Frank, JP=
+MC began work on a marketing campaign to test the quality of Frank=E2=80=99=
+s customer account list and the receptiveness of these customers to JPMC=E2=
+=80=99s products and services. To facilitate this marketing campaign, JPMC =
+asked Javice and [Frank Chief Growth Officer Olivier] Amar to provide Frank=
+=E2=80=99s user list so that JPMC could send the marketing test by email. =
+=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">JPMC reached out via email to a random sample =
+of the list Frank provided =E2=80=93 approximately 400,000 purported custom=
+ers of Frank =E2=80=93 with offers to open Chase checking or savings accoun=
+ts. Of those 400,000, only 103 even clicked through to Frank=E2=80=99s webs=
+ite.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">As an email list proprietor, I can say: not a =
+great click rate. Here=E2=80=99s Javice=E2=80=99s version:</p>
+<blockquote><p style=3D"margin: 16px 0;">Chase undermined Frank=E2=80=99s v=
+alue by pursuing poorly conceived business plans focused on monetizing stud=
+ent FAFSA=C2=AE data and conducting direct marketing campaigns aimed at Fra=
+nk=E2=80=99s historical customers. The proposed business plans disregarded =
+the regulatory environment in which the financial aid platform operated, fa=
+iled to capitalize on Ms. Javice=E2=80=99s past successes, and discounted t=
+he very skills for which JPMorgan Bank hired her. More specifically, the ne=
+w team focused primarily on mining the personal information of Frank=E2=80=
+=99s legacy customers to blast them with marketing emails promoting consume=
+r financial products, including credit cards and personal loans.=C2=A0</p><=
+/blockquote>
+<p style=3D"margin: 16px 0;">In Javice=E2=80=99s story, she objected to JPM=
+organ=E2=80=99s efforts to market to her customers, for regulatory and, one=
+ assumes, aesthetic reasons; JPMorgan=C2=A0retaliated by subjecting her =E2=
+=80=9Cto overzealous internal investigations and fishing expeditions=E2=80=
+=9D and eventually firing her.</p>
+<p style=3D"margin: 16px 0;">JPMorgan=E2=80=99s story is considerably more =
+interesting. In its story, the 0.026% click rate on the test email was evid=
+ence that Javice=E2=80=99s email list was not what JPMorgan had hoped for. =
+So it =E2=80=9Cinitiated a comprehensive investigation into Frank and the M=
+erger,=E2=80=9D mostly by reading through Javice=E2=80=99s old emails, whic=
+h are now on JPMorgan=E2=80=99s servers.<a class=3D"footnote-index" href=3D=
+"#footnote-1" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+none !important; background-color: transparent !important; display: inline-=
+block;">
+<span>[1]</span>
+</a> Oh boy did that turn up some good stuff!</p>
+<p style=3D"margin: 16px 0;">During due diligence for the merger, Javice to=
+ld JPMorgan that Frank had 4.25 million users. =E2=80=9CUsers,=E2=80=9D to =
+JPMorgan, seems to have meant something close to =E2=80=9Cpeople we can sen=
+d emails to=E2=80=9D:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">At an initial July 2021 meeting, Javice told J=
+PMC that Frank had significant engagement with college-aged students, a mar=
+ket segment that JPMC wanted to grow. Javice stated that Frank had 4.25 mil=
+lion users, expressly defining a =E2=80=9Cuser=E2=80=9D as an individual wh=
+o created a Frank account by entering a first name, last name, email, and p=
+hone number on Frank=E2=80=99s website. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Based on the July 21 meeting and the data room=
+ materials, JPMC confirmed Frank=E2=80=99s definition of its customers base=
+, namely, customers are users who created a Frank account. Thereafter, as p=
+art of due diligence on Javice=E2=80=99s 4.265 million customer account cla=
+im, JPMC made an unambiguous request to Javice for a list of Frank=E2=80=99=
+s customer accounts that included important data, such as first names, last=
+ names, dates of birth, phone numbers, mailing addresses, and email address=
+es. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Specifically, JPMC sought to confirm its thesi=
+s that Frank=E2=80=99s acquisition of 4.265 million customer accounts demon=
+strated that=C2=A0Frank had created momentum, growth, and scale by developi=
+ng meaningful relationships with millions of students. That momentum, growt=
+h, and scale, JPMC believed, indicated that Frank was a proven acquisition =
+machine for college-aged students and would continue =E2=80=93 and even inc=
+rease =E2=80=93 its customer account base once Frank merged with and into J=
+PMC. If Frank=E2=80=99s customer base existed, JPMC could proceed with the =
+deal.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But, JPMorgan now says, Frank only really had =
+about 300,000 customer accounts. So Javice allegedly asked a Frank engineer=
+ to make up a fake list. It did not go great:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">She sent Frank=E2=80=99s Director of Engineeri=
+ng an email with a link to an article entitled =E2=80=9CGenerating Tabular =
+Synthetic Data Using GANs.=E2=80=9D=C2=A0The article notes that =E2=80=9C[t=
+]he goal is to generate synthetic data that is similar to the actual data i=
+n terms of statistics and demographics.=E2=80=9D The article suggests that =
+=E2=80=9Cit[=E2=80=99]s fairly simpl[e] to use GANs to generate synthetic d=
+ata where the actual data is sensitive in nature and can=E2=80=99t be share=
+d publicly.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Javice, Amar, and the Director of Engineering =
+then had a Zoom meeting during which Javice and Amar asked the Director of =
+Engineering to help them create a synthetic list of=C2=A0customer data. She=
+ asked the Director of Engineering if he could help her take a known set of=
+ FAFSA application data and use it to artificially augment a much larger se=
+t of anonymous data that her systems had collected over time. The Director =
+of Engineering questioned whether creating and using such a data set was le=
+gal, but Javice tried to assure the engineer by claiming that this was perf=
+ectly acceptable in an investment situation and she did not believe that an=
+yone would end up in an =E2=80=9Corange jumpsuit=E2=80=9D over this project=
+.</p>
+<p style=3D"margin: 16px 0;">The Director of Engineering was not persuaded =
+and told Javice and Amar that he would not perform the task and only would =
+send them the file containing Frank=E2=80=99s actual users, which amounted =
+to approximately 293,000 individuals at that time.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Aieee, this is not legal advice, but if your b=
+oss is prone to using the phrase =E2=80=9Corange jumpsuit=E2=80=9D you shou=
+ld quit! And probably go claim your whistle-blower reward while you=E2=80=
+=99re at it. Anyway Javice then allegedly =E2=80=9Csought help from externa=
+l sources=E2=80=9D:</p>
+<blockquote><p style=3D"margin: 16px 0;">Javice then turned to a data scien=
+ce professor at a New York City area college (the =E2=80=9CData Science Pro=
+fessor=E2=80=9D) who advertised his =E2=80=9Ccreative solutions=E2=80=9D to=
+ data problems. Javice provided the Data Science Professor a list of 293,19=
+2 individuals who had started or submitted a FAFSA application through Fran=
+k. She then directed the Data Science Professor to use=C2=A0=E2=80=9Csynthe=
+tic data=E2=80=9D techniques to create 4.265 million customer names, email =
+addresses, birthdays, and other personal information based on the list Javi=
+ce supplied.</p></blockquote>
+<p style=3D"margin: 16px 0;">The professor allegedly created the list, with=
+ lots of hilarious guidance along the way that JPMorgan now has:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Regarding creating physical addresses, the Dat=
+a Science Professor wrote to Javice, =E2=80=9CI can=E2=80=99t seem to find =
+addresses in my raw files . . . . Should I attempt to fabricate them?=E2=80=
+=9D Javice responded =E2=80=9CI just wouldn=E2=80=99t want the street to no=
+t exist in the state.=E2=80=9D Later, the Data Science Professor determined=
+ that =E2=80=9C=E2=80=98real addresses=E2=80=99 may not be doable,=E2=80=9D=
+ and Javice responded =E2=80=9CIf we can=E2=80=99t do real addresses what[=
+=E2=80=99]s the best we can do for that?=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Javice was particularly concerned with the ema=
+il addresses, asking the Data Science Professor =E2=80=9Cwill the fake emai=
+ls look real with an eye check or better to use unique ID?=E2=80=9D He resp=
+onded =E2=80=9C[t]hey will look fake,=E2=80=9D at which point Javice agreed=
+ to use a =E2=80=9Cunique ID=E2=80=9D instead.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Eventually the list was done and the professor=
+ sent Frank an invoice for $13,300, listing his hours devoted to tasks like=
+ =E2=80=9Ccollege major generation.=E2=80=9D This was not the invoice Javic=
+e wanted, so:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In response to the initial invoice, Javice dem=
+anded that he remove all the details admitting to how they had created fake=
+ customers =E2=80=93 and added a $4,700 bonus. In an email to the Data Scie=
+nce Professor at 12:39 p.m. on August 5, 2021, Javice wrote: =E2=80=9Csend =
+the invoice back at $18k and just one line item for data analysis.=E2=80=9D=
+ In total, Javice paid the Data Science Professor over $800 per hour for hi=
+s work creating the Fake Customer List, which is 270% of his usual hourly r=
+ate.</p>
+<p style=3D"margin: 16px 0;">The Data Science Professor provided Javice the=
+ revised invoice via email seven minutes later at 12:46 p.m., commenting =
+=E2=80=9CWow. Thank you. Here is the new invoice.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yeah I mean a general lesson here is that you =
+want to be in the sort of business that sends one-line invoices, not the so=
+rt of business that bills by the sixth of the hour.<a class=3D"footnote-ind=
+ex" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: none !important; background-color: transparent !important; displ=
+ay: inline-block;">
+<span>[2]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">This basically worked: Frank sent its list of =
+4,265,085 customers to JPMorgan=E2=80=99s third-party due diligence consult=
+ant,<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: none !important; background-color: t=
+ransparent !important; display: inline-block;">
+<span>[3]</span>
+</a> the consultant okayed it, JPMorgan was satisfied and they signed the m=
+erger agreement. But you can see how this would be a problem for Frank in t=
+he medium term: It had a list of 4 million customers with fake email addres=
+ses, and JPMorgan was basically buying it so it could send emails to that l=
+ist. If the email addresses were all fake, JPMorgan would notice immediatel=
+y. So Frank allegedly=C2=A0<em>went out and bought an email list:</em></p>
+<blockquote>
+<p style=3D"margin: 16px 0;">At the exact same time Javice was working with=
+ the Data Science Professor on the Fake Customer List, Amar separately reac=
+hed out to ASL Marketing, Inc. (=E2=80=9CASL=E2=80=9D), a marketing firm th=
+at purports to have =E2=80=9Cthe most comprehensive, accurate and responsiv=
+e data of high school students, college students and young adults available=
+ anywhere.=E2=80=9D Amar caused Frank to purchase a list of 4.5 million stu=
+dents from ASL for a cost of $105,000 (the =E2=80=9CASL List=E2=80=9D) on t=
+he same day Javice transferred the Fake Customer List to the third-party ve=
+ndor for validation. ...</p>
+<p style=3D"margin: 16px 0;">Amar and Javice would have had no reason to bu=
+y a list of 4.5 million college students if Frank actually had the number o=
+f customer accounts that Javice represented to JPMC and provided to Acxiom.=
+</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The ASL list had about 4.5 million names, but =
+only about 2 million of them had email addresses, so Javice allegedly went =
+to another company to try to buy the relevant email addresses:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Javice again engaged the Data Science Professo=
+r to work with another third-party vendor, Enformion, LLC (=E2=80=9CEnformi=
+on=E2=80=9D), to obtain additional email addresses to add-on to the individ=
+uals in the ASL List. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">After receiving the data, Enformion ran the AS=
+L List through its databases in an attempt to find matching additional data=
+, including email addresses. Enformion then provided those matches to the D=
+ata Science Professor.</p>
+<p style=3D"margin: 16px 0;">Upon information and belief, Javice and the Da=
+ta Science Professor=E2=80=99s first request to Enformion was to provide em=
+ail addresses based on the existing full names and addresses, but that prov=
+ided a limited number of matches. Upon information and belief, Javice decid=
+ed to instruct Enformion to match against just last names and addresses, wh=
+ich could generate email addresses of siblings, parents, and other family m=
+embers of the individual on the ASL List, even if the email affiliated with=
+ the exact individual on the ASL List could not be found.</p>
+<p style=3D"margin: 16px 0;">Ultimately, Javice and the Data Science Profes=
+sor obtained at least one email address for approximately 1.9 million of th=
+e 4.5 million individuals on the ASL List from Enformion.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Frank paid Enformion $70,000 for this. So, in =
+essence, it paid a total of $175,000 for a list of email addresses, and the=
+n=C2=A0<em>sold that list to JPMorgan for $175 million</em>, for a perfect =
+99,900% return on its investment.=C2=A0What an arbitrage! The intuition is =
+that a list of 4 million email addresses with whom you have a warm customer=
+ relationship is worth roughly 1,000 times as much as a list of 4 million r=
+andom email addresses that you scraped up from the dregs of the internet. J=
+avice allegedly scraped up these addresses from the dregs of the internet, =
+dressed them up in Frank=E2=80=99s warm customer relationships, and sold th=
+em to JPMorgan at a 1,000x markup. Incredible stuff.<a class=3D"footnote-in=
+dex" href=3D"#footnote-4" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: none !important; background-color: transparent !important; disp=
+lay: inline-block;">
+<span>[4]</span>
+</a></p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDIzMjY2NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1MDExODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD4b13aa9a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30232666&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDIzMjY2NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1MDExODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE4b13aa9a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30232666&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDIzMjY2NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1MDExODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFa70d1883" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30232666&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDIzMjY2NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1MDExODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGa70d1883" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30232666&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDIzMjY2NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1MDExODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHe0f08653" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30232666&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDIzMjY2NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1MDExODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIe0f08653" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30232666&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in email businesses</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Sam Bankman-Fried <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30232666.268518/aHR0cHM6Ly9zYW1iZi5zdWJzdGFjay=
+5jb20v/607f07ceef4b8524a319a23cB05cfeefe" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> has a Substack</a>? I h=
+ave subscribed. There is a widespread consensus, particularly among crimina=
+l defense lawyers,=C2=A0that Bankman-Fried should stop talking and tweeting=
+ and blogging, but I kind of don=E2=80=99t see how this hurts. His only rea=
+l hope of avoiding many years in prison is to convince people that he did n=
+ot steal money from FTX=E2=80=99s customers, but rather that he ran a lever=
+aged financial institution that ineptly but innocently ran into trouble. Th=
+is will be very hard to do! But I am not sure it is=C2=A0<em>impossible</em=
+>. The task, really, is to lay out a reasonable-seeming story of how FTX=E2=
+=80=99s innocent choices led to its insolvency. Eventually he has to do tha=
+t to a jury, but why not get some practice on Substack?<a class=3D"footnote=
+-index" href=3D"#footnote-5" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: none !important; background-color: transparent !important; d=
+isplay: inline-block;">
+<span>[5]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Here is the first post on his Substack, =E2=80=
+=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518=
+/aHR0cHM6Ly9zYW1iZi5zdWJzdGFjay5jb20vcC9mdHgtcHJlLW1vcnRlbS1vdmVydmlldw/607=
+f07ceef4b8524a319a23cBa5bf9737" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">FTX Pre-Mortem Overview</a>.=E2=80=
+=9D I <a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268=
+518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDEtMTE=
+vZmluYW5jaWFsLWVuZ2luZWVyaW5nLXRoZS1kZWJ0LWNlaWxpbmc_Y21waWQ9QkJEMDExMjIzX0=
+1PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlc=
+m09MjMwMTEyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBac174a=
+d4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  said yesterday</a> that I have never seen a real balance she=
+et of FTX, and I still haven=E2=80=99t, but this post does include a balanc=
+e sheet of sorts=C2=A0for FTX=C2=A0<em>US</em>, FTX=E2=80=99s more-regulate=
+d, less-leveraged US subsidiary.<a class=3D"footnote-index" href=3D"#footno=
+te-6" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !im=
+portant; background-color: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a> This balance sheet represents that, when Bankman-Fried stepped down fr=
+om FTX, FTX US was fully solvent. This is an important point, for a couple =
+of reasons. For one thing, while FTX=E2=80=99s main exchange is in the Baha=
+mas, FTX US is in the US, and Bankman-Fried is being prosecuted in the US. =
+If the basic story here is =E2=80=9CFTX US was fine, all of its US customer=
+s will get back 100 cents on the dollar, and only foreigners were harmed by=
+ this foreign company that I ran from the Bahamas,=E2=80=9D then he has a=
+=C2=A0<em>bit </em>of an argument that the US has no jurisdiction to prosec=
+ute him. I would not bet on that =E2=80=94=C2=A0the general sense of US pro=
+secutors and courts is that they have jurisdiction to prosecute financial c=
+rime anywhere in the world =E2=80=94=C2=A0but it=E2=80=99s worth a shot.</p=
+>
+<p style=3D"margin: 16px 0;">The other reason FTX US matters is that FTX US=
+ was=C2=A0<em>not=C2=A0</em>a futures exchange, and FTX International=C2=A0=
+<em>was</em>. The two possible stories of FTX are:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Bankman-Fried argues that FTX was a l=
+everaged financial institution, like MF Global or Lehman Brothers or the Lo=
+ndon Metals Exchange, that owed clients lots of money and was owed lots of =
+money by clients. It <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/30232666.268518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMjItMTEtMDkvYmFua21hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyYWwtYmVmb3J=
+lLWJpbmFuY2UtZGVhbD9jbXBpZD1CQkQwMTEyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYW=
+lsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTImdXRtX2NhbXBhaWduPW1vb=
+mV5c3R1ZmY/607f07ceef4b8524a319a23cB82165369" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">  did not keep custom=
+er assets in a box</a>, and no customer could have expected that it would: =
+The customers were leveraged futures traders; if you buy Bitcoin futures yo=
+u can=E2=80=99t seriously think that you own Bitcoins or that the exchange =
+is holding onto those Bitcoins for you. And, in Bankman-Fried=E2=80=99s tel=
+ling, FTX got into trouble in much the same way that <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/30232666.268518/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMDcvbmlja2VsLWJpZy1zaG90LWNhbGx=
+lZC10aGUtc2hvdHM_Y21waWQ9QkJEMDExMjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbC=
+Z1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTEyJnV0bV9jYW1wYWlnbj1tb25le=
+XN0dWZm/607f07ceef4b8524a319a23cB641bf7a4" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  the LME did</a>: The m=
+arket moved, a big leveraged customer went bust and couldn=E2=80=99t pay FT=
+X what it owed, so FTX had to shut down. As it happens, in FTX=E2=80=99s ca=
+se, the big leveraged customer was Alameda Research, the affiliated trading=
+ firm that was also started (and mostly owned) by Bankman-Fried, but that b=
+y last year was being run independently by Caroline Ellison. Alameda had lo=
+ts of assets, it owed FTX lots of money, and one day its assets lost most o=
+f their value and it couldn=E2=80=99t pay back the money it owed. When you =
+run a futures exchange, and someone on one side of all the trades doesn=E2=
+=80=99t pay,=C2=A0the people on the other side don=E2=80=99t get paid.=C2=
+=A0</li>=09<li style=3D"margin-bottom: 5px;">Basically everyone else on ear=
+th is like =E2=80=9Cno I mean FTX just stole the customers=E2=80=99 money a=
+nd gave it to Alameda.=E2=80=9D</li>
+</ol>
+<p style=3D"margin: 16px 0;">I want to interject here that Story 1 above is=
+ meant to characterize Bankman-Fried=E2=80=99s position, not what I think. =
+But I also want to say that you have to take it seriously if you want to un=
+derstand FTX. FTX=C2=A0<em>was=C2=A0</em>a futures exchange, it=C2=A0<em>di=
+d=C2=A0</em>offer a lot of leveraged trading, and that=C2=A0<em>does=C2=A0<=
+/em>sometimes lead totally legitimate businesses into trouble when markets =
+move too rapidly. I have written about it before =E2=80=94=C2=A0most notabl=
+y <a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMDkvYmF=
+ua21hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyYWwtYmVmb3JlLWJpbmFuY2UtZGVhbD=
+9jbXBpZD1CQkQwMTEyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cC82165369" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  here</a> and <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/30232666.268518/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTItMTMvaG93LXRvLWRvLWZyYXVkLWF0LWEtZn=
+V0dXJlcy1leGNoYW5nZT9jbXBpZD1CQkQwMTEyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtY=
+WlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTImdXRtX2NhbXBhaWduPW1v=
+bmV5c3R1ZmY/607f07ceef4b8524a319a23cB9a2f2706" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">  here</a> =E2=80=94=
+=C2=A0and I <em>certainly=C2=A0</em>do not mean to suggest that =E2=80=9Cwe=
+ll we ran a futures exchange and the market moved=E2=80=9D is a complete de=
+fense. I think it is <em>entirely=C2=A0</em>possible <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/30232666.268518/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTItMTMvaG93LXRvLWRvLWZyYXVkLWF0LWE=
+tZnV0dXJlcy1leGNoYW5nZT9jbXBpZD1CQkQwMTEyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPW=
+VtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTImdXRtX2NhbXBhaWduP=
+W1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cC9a2f2706" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  to=C2=A0<em>dis=
+guise=C2=A0</em>fraud</a>=C2=A0by running a leveraged exchange; you can len=
+d yourself money against bad collateral, exempt yourself from margin calls,=
+ and when it blows up say =E2=80=9Cwhat can you do, leveraged exchange!=E2=
+=80=9D I also think that, if you are going to run a leveraged exchange, it =
+is important to be=C2=A0<em>honest </em>with customers=C2=A0about your risk=
+s and safeguards; if you=C2=A0<em>say=C2=A0</em>that you carefully limit cu=
+stomer exposure, and don=E2=80=99t do it, that=E2=80=99s fraud too. But it =
+is also possible to run a futures exchange honestly and nonetheless blow up=
+, and that is the argument that Bankman-Fried is making.<a class=3D"footnot=
+e-index" href=3D"#footnote-7" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: none !important; background-color: transparent !important; =
+display: inline-block;">
+<span>[7]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But the fact that FTX US also shut down custom=
+er withdrawals, and that FTX=E2=80=99s current management seems to think it=
+ is insolvent, is <em>very bad</em> for Bankman-Fried=E2=80=99s story. FTX =
+US is not a futures exchange, it more or less=C2=A0<em>did </em>(or at leas=
+t, was supposed to) keep its customers=E2=80=99 crypto safe in a box,=C2=A0=
+and there is no innocent story of how it could have lost customer money. Th=
+ere are different ways to characterize how FTX International could have los=
+t its customers=E2=80=99 money, but=C2=A0if the money is gone at FTX US, it=
+ was straightforwardly stolen.=C2=A0</p>
+<p style=3D"margin: 16px 0;">So this first Substack post =E2=80=9Cis about =
+FTX Intenational=E2=80=99s (in)solvency. It=E2=80=99s not about FTX US,=E2=
+=80=9D but it=C2=A0<em>starts=C2=A0</em>with a claim that FTX US =E2=80=9Ci=
+s fully solvent and always has been,=E2=80=9D because if that=E2=80=99s not=
+ true then the rest of it is kind of irrelevant.</p>
+<p style=3D"margin: 16px 0;">Actually, though, this first Substack post mos=
+tly <em>isn=E2=80=99t </em>about FTX International=E2=80=99s insolvency. It=
+=E2=80=99s mostly about Alameda. Those topics are, of course, related: The =
+problem at FTX, in Bankman-Fried=E2=80=99s story and also really in the oth=
+er story, is that it loaned a lot of money to Alameda and Alameda lost it. =
+So you might ask questions like =E2=80=9Cwhy on earth did FTX loan Alameda =
+all that money,=E2=80=9D and again the two possible answers would be (1) be=
+cause FTX thought it was a good idea at the time and (2) to steal it.</p>
+<p style=3D"margin: 16px 0;">So here Bankman-Fried=E2=80=99s goal is to arg=
+ue that lending money to Alameda was rational. The basic form of the argume=
+nt is that Alameda was a big fund with lots of valuable assets, so FTX had =
+no problem lending it money, and then all those assets vanished in the blin=
+k of an eye for reasons that were not his fault. So he writes:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Alameda, then, entered 2022 with roughly:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">=09<p style=3D"margin: 16px 0;">$100b=
+ NAV</p>=09</li>=09<li style=3D"margin-bottom: 5px;">=09<p style=3D"margin:=
+ 16px 0;">$8b net borrow</p>=09</li>=09<li style=3D"margin-bottom: 5px;">=
+=09<p style=3D"margin: 16px 0;">1.06x leverage</p>=09</li>=09<li style=3D"m=
+argin-bottom: 5px;">=09<p style=3D"margin: 16px 0;">Tens of billions of dol=
+lars of liquidity</p>=09</li>
+</ol>
+<p style=3D"margin: 16px 0;">Then, over the course of the year, markets cra=
+sh=E2=80=93again and again and again.=C2=A0=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That is: At the beginning of 2022, lending mon=
+ey to Alameda was sensible; by the end of 2022, that money was gone.=C2=A0=
+=E2=80=9CAs Alameda became illiquid, FTX International did as well, because=
+ Alameda had a margin position open on FTX; and the run on the bank turned =
+that illiquidity into insolvency.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Now, this is not a great defense, because at s=
+ome point between $100 billion of net asset value and=C2=A0<em>zero=C2=A0</=
+em>of net asset value, you might want to stop lending to Alameda. And in fa=
+ct the core of the=C2=A0case against Bankman-Fried is pretty much that, whe=
+n the value of Alameda=E2=80=99s investments collapsed in the summer of 202=
+2, other lenders=C2=A0<em>did </em>stop lending to it, so FTX=C2=A0<em>incr=
+eased=C2=A0</em>its lending to Alameda to keep it afloat. But here is Bankm=
+an-Fried=E2=80=99s take:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In the summer of 2022, Alameda finally put on =
+substantial hedges, in some combination of BTC, ETH, and QQQ (a NASDAQ ETF)=
+.</p>
+<p style=3D"margin: 16px 0;">But even after all the market crashes of 2022,=
+ shortly before November Alameda still had ~$10b of net asset value; it was=
+ positive even if you excluded SRM and tokens like it, and it was finally h=
+edged.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That is: Even in late summer and fall of 2022,=
+ FTX=E2=80=99s lending to Alameda was sensible, Bankman-Fried says,=C2=A0be=
+cause Alameda had billions of dollars of value =E2=80=9Cand it was finally =
+hedged,=E2=80=9D so FTX=E2=80=99s money should have been pretty safe with A=
+lameda.</p>
+<p style=3D"margin: 16px 0;">Of course you can object to that too. For one =
+thing, that $10 billion of value includes =E2=80=9CSRM and tokens like it,=
+=E2=80=9D that is, tokens (FTT, SRM, MAPS) <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30232666.268518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LXMtYmFsYW5jZS1zaGVldC13YXMtYmFkP=
+2NtcGlkPUJCRDAxMTIyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cB6045a956" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  that were created by FTX/Alameda</a>, =
+that were owned almost entirely by Alameda, and that represented essentiall=
+y bets on the continuing success of FTX.=C2=A0For FTX to lend Alameda real =
+money against those tokens is a <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30232666.268518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjItMTEtMDkvYmFua21hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGly=
+YWwtYmVmb3JlLWJpbmFuY2UtZGVhbD9jbXBpZD1CQkQwMTEyMjNfTU9ORVlTVFVGRiZ1dG1fbWV=
+kaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTImdXRtX2NhbX=
+BhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cD82165369" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">  terrible=
+ wrong-way risk</a>=C2=A0and at least suggestive of fraud. Bankman-Fried sa=
+ys that Alameda =E2=80=9Cwas positive even if you excluded=E2=80=9D those t=
+okens. =E2=80=9CPositive=E2=80=9D is not great, but it=E2=80=99s something.=
+</p>
+<p style=3D"margin: 16px 0;">Also, though, the hedges. Alameda owned a coll=
+ection of =E2=80=9Caltcoins, crypto companies, public equities, and venture=
+ investments,=E2=80=9D which seems to have included=C2=A0a lot of FTT, SRM,=
+ MAPS, and SOL, the token of the Solana blockchain. And to hedge the market=
+ risk that that stuff would lose value, it shorted =E2=80=9Csome combinatio=
+n of BTC, ETH, and QQQ,=E2=80=9D that is, an exchange-traded fund of Nasdaq=
+ stocks. If the market =E2=80=94=C2=A0Solana and FTT and Bitcoin and the Na=
+sdaq =E2=80=94=C2=A0went up, Alameda would make money on its positions but =
+lose money on its hedges. If the market =E2=80=94=C2=A0all that stuff =E2=
+=80=94=C2=A0went down, Alameda would lose money on its positions but be cus=
+hioned by its hedges.</p>
+<p style=3D"margin: 16px 0;">If Solana and FTT went down a ton, but Bitcoin=
+ and the Nasdaq did not, Alameda would get vaporized and the hedges wouldn=
+=E2=80=99t help. The hedges were only as good as their correlation to Alame=
+da=E2=80=99s assets. I suppose there was a time when Solana and FTT and Bit=
+coin and the Nasdaq were all more or less correlated to each other, when ev=
+ery crypto altcoin was sort of a generic bet on =E2=80=9Cpeople love tech a=
+nd crypto is tech and everything goes up.=E2=80=9D But in the fall of 2022,=
+ that was not how things worked. The Nasdaq is, like, Microsoft, and Apple.=
+ In the fall of 2022, it was very very very easy to have a thesis like =E2=
+=80=9Cwell Microsoft and Apple are fine but Solana is toast.=E2=80=9D The N=
+asdaq is up about 4% since the end of September. Solana is down about 50%. =
+FTT is down almost 95%.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s Bankman-Fried=E2=80=99s take on=
+ that:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Then came CZ=E2=80=99s=C2=A0<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/30232666.268518/aHR0cHM6Ly90d2l0dGVy=
+LmNvbS9jel9iaW5hbmNlL3N0YXR1cy8xNTg5MjgzNDIxNzA0MjkwMzA2P2xhbmc9ZW4/607f07c=
+eef4b8524a319a23cB90157a06" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">fateful tweet</a>, following =
+an extremely effective months-long PR campaign against FTX=E2=80=93and the =
+crash.</p>
+<p style=3D"margin: 16px 0;">Up until that final crash in November, QQQ had=
+ moved roughly half as much as Alameda=E2=80=99s portfolio, and BTC/ETH had=
+ moved roughly 80% as much=E2=80=93meaning that Alameda=E2=80=99s hedges (Q=
+QQ/BTC/ETH), to the extent they existed, had worked.=C2=A0 Unfortunately th=
+e hedges hadn=E2=80=99t been sufficiently large until after the 3AC crash=
+=E2=80=93but as of October 2022, they finally were.</p>
+<p style=3D"margin: 16px 0;">But the November crash was a targeted attack o=
+n assets held by Alameda, not a broad market move.=C2=A0 Over the few days =
+in November, Alameda=E2=80=99s assets fell roughly 50%; BTC fell about 15%-=
+-only 30% as much as Alameda=E2=80=99s assets=E2=80=93and QQQ didn=E2=80=99=
+t move at all. As a result, the larger hedge that Alameda had finally put o=
+n that summer didn=E2=80=99t end up helping.=C2=A0 It would have for every =
+previous crash that year=E2=80=93but not for this one.</p>
+<p style=3D"margin: 16px 0;">Over the course of November 7th and 8th, thing=
+s went from stressful but mostly under control to clearly insolvent.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That is, Changpeng Zhao, the head of rival exc=
+hange Binance, tweeted mean stuff about FTX=E2=80=99s FTT token, which coll=
+apsed the value of that token. There was =E2=80=9Ca targeted attack on asse=
+ts held by Alameda,=E2=80=9D in which its stuff collapsed =E2=80=94=C2=A0du=
+e to an =E2=80=9Cattack=E2=80=9D =E2=80=94 while Bitcoin and the Nasdaq hel=
+d up fine.=C2=A0</p>
+<p style=3D"margin: 16px 0;">At some level this is crazy. FTX loaned billio=
+ns of dollars of money =E2=80=94=C2=A0of real money, of customer money =E2=
+=80=94=C2=A0to Alameda against a pile of assets with billions of dollar of =
+nominal value, but those assets were mostly altcoins, mostly incredibly ris=
+ky bets on the future of crypto. They could all go to zero in the blink of =
+an eye, and some of them did. FTX loaned billions of dollars to Alameda aga=
+inst assets that could, and did, evaporate because=C2=A0<em>CZ tweeted mean=
+ things about them</em>. Oh but Alameda was hedged! It hedged by shorting=
+=C2=A0<em>Apple</em>. It could only go bankrupt if its assets lost their va=
+lue =E2=80=94=C2=A0because of a mean tweet =E2=80=94=C2=A0but Apple did not=
+. What were the chances=C2=A0of that? Incredibly high! Come on.</p>
+<p style=3D"margin: 16px 0;">Still I guess it is sort of a defense? The def=
+ense is: =E2=80=9CAlameda had assets, those assets had market values, I tho=
+ught those values were real, I thought they were hedged, and the market mov=
+ed against them. Sure=C2=A0<em>you=C2=A0</em>might think that Alameda=E2=80=
+=99s assets were worthless magic beans, and that=E2=80=99s how it turned ou=
+t, but at the time I was a naive believer, so I thought it was fine to lend=
+ money against them.=E2=80=9D This is not a great story,<a class=3D"footnot=
+e-index" href=3D"#footnote-8" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: none !important; background-color: transparent !important; =
+display: inline-block;">
+<span>[8]</span>
+</a> but it=E2=80=99s a lot better than =E2=80=9CI just stole the money,=E2=
+=80=9D and it seems to be what he is going with.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDIzMjY2NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1MDExODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJfbe4479c" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30232666&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Premium bonds=C2=A0</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30232666.268518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDEtMTEvZmluYW5jaWFsLWVuZ2luZWVyaW5nLXRoZS1kZWJ0LWNlaWxp=
+bmc_Y21waWQ9QkJEMDExMjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTEyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f0=
+7ceef4b8524a319a23cCac174ad4" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  talked yesterday</a> about the idea=
+ that the US Department of the Treasury should issue premium bonds to avoid=
+ the debt ceiling. The idea is that the Treasury could issue a 10-year bond=
+ with a $100 face amount and a 15.6% interest rate, and that bond would be =
+worth about $200. It could sell the bond for $200, raising $200 in cash but=
+ counting for only $100 against the debt ceiling. If you buy that bond, you=
+ pay $200 now and get back only $100 in 10 years, but you get $15.60 per ye=
+ar in interest over those 10 years, which makes it worth it.</p>
+<p style=3D"margin: 16px 0;">People raised a couple of objections that I wa=
+nt to quickly discuss here. First of all, a lot of people worry about the t=
+ax treatment. If you buy a $200 Treasury for $200, and you get 3.6% interes=
+t ($7.20 per year) and your $200 back at maturity, you pay tax on that $7.2=
+0 of annual interest but not on the $200 you get back at the end. If you bu=
+y a $100 Treasury for $200, and you get 15.6% interest ($15.60 per year) an=
+d $100 back at maturity, you pay tax on the $15.60 of annual interest. More=
+ of your payments are characterized as taxable income rather than non-taxab=
+le return of principal, which seems bad.</p>
+<p style=3D"margin: 16px 0;">But in fact the tax treatment is basically sen=
+sible: The tax code lets you <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30232666.268518/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL3N0YXRpYy5jb250=
+ZW50cmVzLmNvbS9tZWRpYS9kb2N1bWVudHMvOTkwMDg2YTYtZDg3ZS00NmRmLWJkYjQtNjgxNTU=
+0OTY5ZWU1LnBkZg/607f07ceef4b8524a319a23cB0cd6f123" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> deduct the prem=
+ium</a> that you paid from your taxes. If you pay $200 for a $100 bond, you=
+ paid $100 of premium, which you can amortize and deduct from your taxable =
+income over the life of the bond. Oversimplifying , you deduct $10 per year=
+ for 10 years, so your taxable interest income is $15.60 minus $10 equals $=
+5.60 per year, more or less the right amount.<a class=3D"footnote-index" hr=
+ef=3D"#footnote-9" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: none !important; background-color: transparent !important; display: in=
+line-block;">
+<span>[9]</span>
+</a> There are some <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/30232666.268518/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzI2LzEuM=
+TcxLTQ/607f07ceef4b8524a319a23cB6440bae9" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> elections to make</a>, =
+and I am certainly not giving you tax advice, and this is probably a bit mo=
+re annoying than just getting normal interest payments. But, no, the premiu=
+m bond is not dramatically more tax-inefficient than a normal bond.</p>
+<p style=3D"margin: 16px 0;">Second, there is a timing worry. The way this =
+works is that Treasury would issue new premium bonds to pay back old bonds =
+and raise extra money: A $100 bond comes due, Treasury replaces it with a n=
+ew $100 high-interest bond, it sells the high-interest bond for $200, it pa=
+ys off the old bond and=C2=A0keeps the extra $100 to pay for expenses. But =
+if it has $200 of expenses, that doesn=E2=80=99t work: You need to be doing=
+ enough new premium bond issuance to cover all the costs, or you need to st=
+art well before reaching the debt ceiling to build up some cash cushion.=C2=
+=A0In fact, <a href=3D"https://link.mail.bloombergbusiness.com/click/302326=
+66.268518/aHR0cHM6Ly9maXNjYWxkYXRhLnRyZWFzdXJ5Lmdvdi9kYXRhc2V0cy9tb250aGx5L=
+XRyZWFzdXJ5LXN0YXRlbWVudC9zdW1tYXJ5LW9mLXJlY2VpcHRzLW91dGxheXMtYW5kLXRoZS1k=
+ZWZpY2l0LXN1cnBsdXMtb2YtdGhlLXUtcy1nb3Zlcm5tZW50/607f07ceef4b8524a319a23cB6=
+34a1a36" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Treasury=E2=80=99s monthly flows</a> vary but tend to ran=
+ge from about a $300 billion surplus (April, tax day) to about a $430 billi=
+on deficit (September); roughly $400 billion of Treasuries mature each mont=
+h.<a class=3D"footnote-index" href=3D"#footnote-10" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: none !important; background-color: tr=
+ansparent !important; display: inline-block;">
+<span>[10]</span>
+</a> So it does not seem implausible that Treasury could cover its monthly =
+expenses by issuing premium bonds worth 200 cents on the dollar, even if it=
+ didn=E2=80=99t start much before hitting the limit.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Bed Bath &amp; Beyond Triples as <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/30232666.268518/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTIvYmVkLWJhdGgtYmV5b25kLX=
+RyaXBsZXMtYXMtcmV0YWlsLXRyYWRlcnMtZnVlbC1sYXRlc3QtYnVyc3Q_Y21waWQ9QkJEMDExM=
+jIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjMwMTEyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBb=
+05c6094" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  Retail Traders</a> Fuel Latest Burst. Nelson Peltz Plans=
+ Proxy Fight Against <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/30232666.268518/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9uZWxzb24tcGVsdHot=
+cGxhbnMtcHJveHktZmlnaHQtYWdhaW5zdC1kaXNuZXktMTE2NzM0NzI3MDM/607f07ceef4b852=
+4a319a23cB69a7c06d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Disney</a>. Subway <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/30232666.268518/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+hcnRpY2xlcy9zdWJ3YXktZXhwbG9yZXMtc2FsZS10aGF0LWNvdWxkLXZhbHVlLXNhbmR3aWNoLW=
+NoYWluLWF0LW1vcmUtdGhhbi0xMC1iaWxsaW9uLTExNjczNDgwMjM2P21vZD1ocF9sZWFkX3Bvc=
+zM/607f07ceef4b8524a319a23cBca5d7dc4" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> Explores Sale</a> That Could=
+ Value Sandwich Chain at More Than $10 Billion.=C2=A0Fed on Track for <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTIvZmVkLW9uLXRyYW=
+NrLWZvci1yYXRlLWhpa2UtZG93bnNoaWZ0LWFmdGVyLWNvb2wtaW5mbGF0aW9uLWRhdGEtbGN0Y=
+Wp5Y2k_Y21waWQ9QkJEMDExMjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291=
+cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTEyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/60=
+7f07ceef4b8524a319a23cBedd31173" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  Rate-Hike Downshift</a> After Co=
+ol Inflation Data. <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/30232666.268518/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNTEzYjc3MGItODM2Yi00Nz=
+JiLWEwNTgtM2U0YTk1NDM3YzY5/607f07ceef4b8524a319a23cB9b118b1c" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Saud=
+i Aramco</a> bets on being the last oil major standing. JPMorgan Accuses Mo=
+rgan Stanley Defector of <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30232666.268518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjMtMDEtMTIvanBtb3JnYW4tYWNjdXNlcy1tb3JnYW4tc3RhbmxleS1kZWZlY3Rvci1vZi1=
+wb2FjaGluZy0zMi1jbGllbnRzP2NtcGlkPUJCRDAxMTIyM19NT05FWVNUVUZGJnV0bV9tZWRpdW=
+09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExMiZ1dG1fY2FtcGFpZ=
+249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6954d4f3" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  Poaching 32 =
+Clients</a>. How=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30232666.268518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbG=
+VzLzIwMjMtMDEtMTEvZGNnLXMtYmFycnktc2lsYmVydC1yYWNrcy11cC1lbmVtaWVzLWFzLWdlb=
+mVzaXMtY3J5cHRvLWxlbmRpbmctY3Jpc2lzLW1vdW50cz9jbXBpZD1CQkQwMTEyMjNfTU9ORVlT=
+VFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA=
+xMTImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB0a8dd34c" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">  Barry Silbert</a> doing? =E2=80=9CMike Novogratz Wants to <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/30232666.268518/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMDEtMTIvbWlrZS1ub3ZvZ3JhdHo=
+td2FudHMtdG8tcHVuY2gtY3J5cHRvLXRpdGFucy1zYW0tYmFua21hbi1mcmllZC1iYXJyeS1zaW=
+xiZXJ0P2NtcGlkPUJCRDAxMTIyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nvd=
+XJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/6=
+07f07ceef4b8524a319a23cB0b3f9795" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  Punch Disgraced Crypto Titans i=
+n the Face</a>=E2=80=9D?? =E2=80=9CIt=E2=80=99s a stark difference from the=
+ late crowd, where <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/30232666.268518/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wMS8xMi9zdHlsZS9hbm=
+4tYXJib3ItZ2VlemVyLWhhcHB5LWhvdXIuaHRtbA/607f07ceef4b8524a319a23cB7de69030"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">everyone is upset and barfing</a>.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30232666.268518/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBecfd1e5d" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30232666.268518/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB4a2c76be" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] =E2=80=9CJPMC has all the emails showing t=
+he fraud because Javice and Amar used Frank=E2=80=99s email accounts to cre=
+ate the Fake Customer List and the email accounts now belong to JPMC follow=
+ing the Merger.=E2=80=9D </p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] I used to do mergers and acquisitions work=
+ at a law firm that rather famously <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/30232666.268518/aHR0cHM6Ly9hcmNoaXZlLm55dGltZXMuY29tL2RlY=
+Wxib29rLm55dGltZXMuY29tLzIwMTUvMDEvMDkvYS1wZWVrLWludG8taG93LXdhY2h0ZWxsLWJp=
+bGxzLWZvci1kZWFscy8/607f07ceef4b8524a319a23cB0dcec91a" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> does not bi=
+ll by the hour</a>. My most pleasing task was sending client bills that wer=
+e like =E2=80=9CServices rendered =E2=80=A6 $4,000,000.=E2=80=9D </p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Why a consultant? JPMorgan says: =E2=80=9C=
+Javice also cited privacy concerns in sharing Frank=E2=80=99s customer data=
+ directly with JPMC. After numerous internal conversations, and in order to=
+ allay Javice=E2=80=99s concerns, JPMC agreed to use a third-party data man=
+agement vendor, Acxiom, to validate Frank=E2=80=99s customer information ra=
+ther than providing the personal identifying information directly to JPMC.=
+=E2=80=9D</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] This is probably boring to most people, bu=
+t there is a strange interlude on pages 30 to 34 of JPMorgan=E2=80=99s comp=
+laint where they discuss the merger agreement in great detail. Specifically=
+, they discuss a number of representations and covenants that Frank made in=
+ the merger agreement =E2=80=94 things like it =E2=80=9Chas conducted its b=
+usiness and operated its properties in the ordinary course of business cons=
+istent with past practice=E2=80=9D and will =E2=80=9Cuse commercially reaso=
+nable efforts to maintain and preserve the =E2=80=A6 goodwill of the busine=
+ss=E2=80=9D and =E2=80=9Cthere has not been a =E2=80=A6 misuse or misapprop=
+riation of any Trade Secrets=E2=80=9D =E2=80=94 and argue that this alleged=
+ fraud breached those provisions of the merger agreement. This is kind of w=
+eird! The most natural way to describe the alleged fraud here is not that i=
+t was a *misuse of trade secrets*. The implication that you have to take fr=
+om it is that the merger agreement did *not* say things like =E2=80=9Cthe i=
+nformation Frank provided in due diligence is substantially correct=E2=80=
+=9D or =E2=80=9CFrank has 4.25 million customers=E2=80=9D or whatever. (A f=
+urther implication is that the merger agreement probably had an =E2=80=9Cen=
+tire agreement=E2=80=9D clause saying that JPMorgan did not rely on anythin=
+g outside of the agreement in signing the deal.) And so JPMorgan has to ass=
+ert that Javice breached the merger agreement in some weird indirect way, t=
+hat inventing a customer list was a misuse of trade secrets or not in the o=
+rdinary course or whatever. Oddly it is a little reminiscent of <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/30232666.268518/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMTgvZWxvbi13YW50cy10=
+by1maWdodC10aGUtYm90cz9jbXBpZD1CQkQwMTEyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWV=
+tYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTImdXRtX2NhbXBhaWduPW=
+1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB51e7e720" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  Elon Musk=E2=80=
+=99s efforts</a> last year to get out of his deal with Twitter Inc.: Musk c=
+laimed that Twitter was lying about how many bot accounts there were, but i=
+n fact Twitter never made any representations at all about the number of bo=
+ts, so Musk had to make weird indirect claims about how the bot stuff someh=
+ow violated the merger agreement. There, too, though, he also made separate=
+ claims of *fraud*; the intuition is that even if he couldn=E2=80=99t get o=
+ut of the merger agreement due to a breach of the contract, maybe he could =
+because Twitter had pulled an enormous con to trick him into signing. This =
+did not work for him, because it was just obviously untrue. Here, uh =E2=80=
+=A6 I mean I would think JPMorgan could argue the same sort of thing? Possi=
+bly with more success?</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] One obvious answer is "because it gives pr=
+osecutors more information about his defense and more time to figure out ho=
+w to undermine it." But presumably they have a pretty good idea anyway.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Frustratingly, it is not laid out as a bal=
+ance sheet; I think you have to read the first line =E2=80=94 =E2=80=9CCust=
+omer balances=E2=80=9D =E2=80=94 as the liabilities and the other lines =E2=
+=80=94 =E2=80=9CWallet balances,=E2=80=9D =E2=80=9CFBO bank balances,=E2=80=
+=9D =E2=80=9CCorp balances=E2=80=9D and =E2=80=9CReg bank balances=E2=80=9D=
+ =E2=80=94 as the assets. </p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] He is also making the case that FTX could =
+have been saved? =E2=80=9CI think it=E2=80=99s likely that FTX could have m=
+ade all customers whole if a concerted effort had been made to raise liquid=
+ity. There were billions of dollars of funding offers when Mr. Ray took ove=
+r, and more than $4b that came in after. If FTX had been given a few weeks =
+to raise the necessary liquidity, I believe it would have been able to make=
+ customers substantially whole.=E2=80=9D I mean? Okay?</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] I am sorry to <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30232666.268518/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LXMtYmFsYW5jZS1zaGVldC13YXMtY=
+mFkP2NtcGlkPUJCRDAxMTIyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJj=
+ZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f=
+07ceef4b8524a319a23cC6045a956" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  keep bringing it up</a>, but this =
+story is particularly undermined by the time, last April, when Bankman-Frie=
+d <a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMjUvc2FtLWJ=
+hbmttYW4tZnJpZWQtZGVzY3JpYmVkLXlpZWxkLWZhcm1pbmctYW5kLWxlZnQtbWF0dC1sZXZpbm=
+Utc3R1bm5lZD9jbXBpZD1CQkQwMTEyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTImdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cB8ac6c182" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  described yield farming</a=
+> to me on the Odd Lots podcast. He said: =E2=80=9CIf everyone kind of now =
+thinks that this box token is worth about a billion dollar market cap, that=
+'s what people are pricing it at and sort of has that market cap. Everyone'=
+s gonna mark to market. In fact, you can even finance this, right? You put =
+X token in a borrow lending protocol and borrow dollars with it. If you thi=
+nk it's worth like less than two thirds of that, you could even just like p=
+ut some in there, take the dollars out. Never, you know, give the dollars b=
+ack.=E2=80=9D And I said: =E2=80=9CYou're just like, well, I'm in the Ponzi=
+ business and it's pretty good.=E2=80=9D My point here is just that he didn=
+=E2=80=99t *sound* like a naive true believer in the robust long-term value=
+ of FTT or Solana or whatever, or in the wisdom of lending against it.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] In fact the amortization is constant inter=
+est rate amortization rather than straight-line, meaning that you deduct le=
+ss in early years and more in later years, but it adds up to the same thing=
+ (you deduct $100 over 10 years). The $5.60 per year of taxable income is a=
+n average: You pay more than that in earlier years (when you have gotten ba=
+ck less of your money and so really are getting 3.6% interest on $200ish of=
+ investment) and less in later years (when you have gotten back much of you=
+r money and are getting 3.6% interest on $100ish of remaining principal).</=
+p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] Treasury <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30232666.268518/aHR0cHM6Ly90cmVhc3VyeWRpcmVjdC5nb3=
+YvZmlsZXMvZ292ZXJubWVudC9yZXBvcnRzL21zcGQvMjAyMi9vcGRzLTAyLTIwMjIucGRm/607f=
+07ceef4b8524a319a23cBed27486d" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> reports</a> that it has about $23 b=
+illion of marketable securities outstanding as of last February, and Nasdaq=
+ reports that their average maturity is 62 months. So that=E2=80=99s an ave=
+rage of $370 billion of maturities a month.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBeaff54f9" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBa325e726" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB71b5e708" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBf3b6f97b" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDIzMjY2NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1MDExODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cK39319d34" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30232666&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB7f1d8969" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30232666.268518/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCc708e9c3" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30232666.268518/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB5472cbca" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30232666.268518/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB0a9d867d" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBd=
+d244718" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30232666.268518/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB9=
+f47c965" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D302326=
+66&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D302326=
+66&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D302326=
+66&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D302326=
+66&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D302326=
+66&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30501184&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chzzoa.5r6u/5fd2eec6.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_242623387_53573807.1673549874962--
+

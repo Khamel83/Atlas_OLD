@@ -1,0 +1,1896 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6214:424f:b0:68c:4f37:2ebb with SMTP id ne15csp1348138qvb;
+        Tue, 30 Jan 2024 11:26:19 -0800 (PST)
+X-Received: by 2002:a5d:6104:0:b0:33a:efda:46e1 with SMTP id v4-20020a5d6104000000b0033aefda46e1mr4584927wrt.12.1706642778715;
+        Tue, 30 Jan 2024 11:26:18 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1706642778; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Q985ZEjSRXXtfeZ/Izpc/zVw7fB/q5ShwK9jk2n9rsnb8ttpez75Buavl+4J8Yvo20
+         eAg9yd1DZnoYu+JrIzUZ2+jvAw9CPnOrqyhNye6GIWT6n9ZLa7/mZP36KYp+uTZ5l4ph
+         romB6lBvfHNH66u5cx89wzX+xDfm28ehIztGUyC4WbaYlmLdmCccZMkZq0w2l+dXZPzl
+         8wu615pEsCcJqDYYXI6+gCYsSsIVVqvN6wDTLSgiEKWlNJwu2MxQaICk0SgYO+DdTe5C
+         +KfTI5f4BlHirT6eaN7CZzAiQ4+sbG8MpH2x/ImNC0lxbVsz4JZGrzRIczpBuT7/gQuV
+         Hgmw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=kgwweDJVWh82xoPeiEgCBLSW6EtU93eUCrx9G+3Oh/Y=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=J+/IDRQ1O3BGWDYTad4TSZ9EHQEoTluQAJC8FVgY81uF8ytYJuXaufcpxT8vf5eEn8
+         6Gtz7X+yAj6wqGW1L5vlVhpyIGlrK84uK8qdpTqZKdYiUZWW7uV/dpdpaI4N3LtpzjuL
+         pZFWCITmnhE3FeJtKWGo2z7N73O0bOoLx2970DwThhRWY77wXuh+aSP+1woGzcdGMCUc
+         rFCbKhj1MEGTkWPVgR2xZfz+V6QtmvOHJkWUEBYeuZqhVUmylbcCV5Mw2HVLR9eqGIZ1
+         SnWdRXoS1YAQAQpNJmNe0AAax7AcLiImlAEZKbutNfFcUH2ATUtYG4dKEBT09UxVRvbY
+         PmEQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LMH3GYfH;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c10-20020adfc04a000000b0033ae2c51b10sor1181766wrf.10.2024.01.30.11.26.18
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 30 Jan 2024 11:26:18 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LMH3GYfH;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1706642778; x=1707247578;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=kgwweDJVWh82xoPeiEgCBLSW6EtU93eUCrx9G+3Oh/Y=;
+        b=rEx7OBwti2/M56KQCGtp51YBVyNqWtvcf+bLXwX0DQRw/ZQD2XfsfQ2gbNuF1WsYIv
+         QY0wYT0ZQSMju3u9xAIFnWButYi9SXXg54r6VsNzk2RGris0XnAcAyXD8xbEmKhK+rgQ
+         rwEGJX9yYYCmefIpkIJbrQ5hMIIcO/xQC54XFdGCy1GLSVkr1XTIDi3h+UVncbtELPSM
+         ZmbT3Qxd66aqTcX1Dp3nw92+5zIZIcnI9oRqehxulUvG3Zxu836k/ABNVisHHUpZuDL0
+         XPxTlGkSNVFwAWiaWnMQmLOOuE+8dI5Xk3rzpcgAN2BSs+2HgX2ew67UFgzVEVO1weip
+         gfMQ==
+X-Gm-Message-State: AOJu0Yza1jMBmusyg0Nin16+5I7/BiM4Fj6/ZZ+DHwAoHfZk/OyxG7if
+	DpCeN/G1Mpd9u9UqfWaAwMuAhodHaX7s2UXb/XUhvoxIqsGCtEZc/OKqmJEAdv21fCqfRWDJCTw
+	PpZYLan5oW8Eh0XRMdW3CxwsxBQzF2i/CgcbxYSPEMPx3iy3SImXUnI8QW1fw
+X-Received: by 2002:a05:6000:1445:b0:33a:eda2:baf5 with SMTP id v5-20020a056000144500b0033aeda2baf5mr6256391wrx.49.1706642777900;
+        Tue, 30 Jan 2024 11:26:17 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:ca04:0:b0:33a:dfde:36b8 with SMTP id o4csp1657954wrh;
+        Tue, 30 Jan 2024 11:26:14 -0800 (PST)
+X-Received: by 2002:a05:6870:b68f:b0:214:d83a:cccd with SMTP id cy15-20020a056870b68f00b00214d83acccdmr6204048oab.21.1706642774404;
+        Tue, 30 Jan 2024 11:26:14 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1706642774; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=pUcKuchVOjEd0ZY50clynaDxSQi3tU3/lJs7bJy0Lh1Bo1tzobZmphXiA29vnnFDfu
+         AoGuP8N3fZozA5RQ7JsRZ4yfEkw5A+OPbqhSAO4pSFmw0F2GqPZzjVYZz2h/fj9Iq7Zp
+         7LubMm3C3j+5PfHPMcimqHq70X09FlTEnYD29S08YMCUW0WCAqbGbQaC9HNrUoS5LQL/
+         jVXLjOa6iS6TA48E5Qxz3mObNbesGePviwYpysAdemACYjjEWqhtJsht6Ag6mlh8IfBr
+         JM5F/clACmjAUZOFr2ofAswTc92EuvP6vmvmlZQkTEGec6T/VMoW2tG9Q6wYdIe0k1gG
+         IW5Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=kgwweDJVWh82xoPeiEgCBLSW6EtU93eUCrx9G+3Oh/Y=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=G7nWNK3NkC+LOd8H4DVs8E/E47scqqzAcAkS077l0uhQ2C3pzgAZkD19sXrca2I/li
+         kF7RaMZMfibMlO+rWRPjJBkRk8fBixWIX5gQgiCqhXzBSX0/Zy1UW0ldRUHrg1mnj4e4
+         xXAvElmzNbjVAf14ltihtYNJkkU7nTqbgj+3dCNM9ExlJdt077CrLUVXPDgFAeRqKFS7
+         RtqCErgp19cTmDacPvADVclQ1kCtXW8JBWb6uu/2JrVbVZxVCzW15CCaH28UoTlkMBCB
+         XV2Hs2mslSXk5s1eHjXap0VhudBQaljde2op6F5WMxYIovQ1YfgwFehWZxaL1fmY+k67
+         7lNg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LMH3GYfH;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20240130142613.34176316.282398@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20240130142613.34176316.282398@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20240130142613.34176316.282398@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id an1-20020a056871b18100b00210e01911afsor3028747oac.15.2024.01.30.11.26.14
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 30 Jan 2024 11:26:14 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20240130142613.34176316.282398@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IEhRh14SltmV8Z1ygQPxY21ed0iAl8Zh5QuR6zEOPLWCLjRBq64/m1rvCXuF243iEekr+c0QL6x/epWyE97a4rpi5Dytgs=
+X-Received: by 2002:a05:6871:3408:b0:210:dbce:f8be with SMTP id nh8-20020a056871340800b00210dbcef8bemr6069211oac.20.1706642773957;
+        Tue, 30 Jan 2024 11:26:13 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1706642773; cv=none;
+        d=google.com; s=arc-20160816;
+        b=blkY8ZO9VgofLbr70YB2B/c1c4zB33dwMPRs+xUb8nD9a/9r3TcvXXISP6UfCA8Um+
+         pabe3w4MuXb+degp0LksZgZE6N5Ox0o/je/uj5+m366ALxQ2mqHFrOwvvQl2fv8PQhqT
+         d8XGa3kuA4wXlkY1Nyd1Sg7Tjw2B0aAkeZVgX8RTPgPnEYNV6F/wuU/+WQnAWkuMoEL4
+         R7Ae0oRRLnDsOkEMedsv1GXv2N7mCwG+63H4fLSaDLkioku/r0MhWQutEnUQFpyeCWI9
+         JVJPRpoLWxtyUG7u1NgALM19vhYS0Td5RFV1lvhSbwXL8mJ97JkF0w9wQgPrsTlOg1FI
+         wYpQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=kgwweDJVWh82xoPeiEgCBLSW6EtU93eUCrx9G+3Oh/Y=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=Y14NPgQsMctVKehRas1jf/OktzgBxR8vsHSBqKbj63ql5P3qF53W5P38ABDg1zbnZ/
+         R+VzRsqS2KZQUqEXtY9C6umwWK9MW6BvVxUESqyANKvpmjjpYbh4GocrnF3p8RIBF4X5
+         +I7OF7Qlmb5JOht3TjtQnm1POaOiv8ogTJxDgv6keuxoRwBbMLeTznkCRG6pofJNK9j3
+         wqZq8EWKzBE4DQPa1mY9ha8idzkH/TbXCZTzickXWnsBLxzhxCOgBpWvhn1dpSdGyaMF
+         +TH6PNZMsiEkr75So6as2qTdEmXFySBpXiELuCyFA+rk9Hm4/c0R8sZENsgtYs/+0atf
+         Ijpg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LMH3GYfH;
+       spf=pass (google.com: domain of delivery_20240130142613.34176316.282398@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20240130142613.34176316.282398@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20240130142613.34176316.282398@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id fu20-20020a0568705d9400b00215d04848eesi1360652oab.1.2024.01.30.11.26.13
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 30 Jan 2024 11:26:13 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20240130142613.34176316.282398@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=mnlCCpCLWJCYPXUA2uVTit+HT08jQOJmHg8h7pSHLSc=;
+ b=LMH3GYfH62SxSLheTgoP4/oRS4xkKAMkvIdYyoh6Y3GIzHSzaWCH4Bp58c6zWCGJZ6sQhnxajDiN
+   JkIt1O2RS3RSAdugN7/JNQjZlm6t8X86pHvE+WVaEE613w/UrYnvNqMxxXvifO+KzqUzV6JJhUNF
+   uA6XRMWZ81o68hKPtqI=
+Received: from aws1-mta-relay8.sailthru.cloud (10.55.75.62) by pmta29.sailthru.com id hn56la2sd4sh for <bloomberg@khamel.com>; Tue, 30 Jan 2024 13:26:13 -0600 (envelope-from <delivery_20240130142613.34176316.282398@mx.sailthru.com>)
+Date: Tue, 30 Jan 2024 14:26:13 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20240130142613.34176316.282398@sailthru.com>
+Subject: Money Stuff: HyperFund Had More to Lose Than to Gain
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3078875_889711438.1706642773169"
+Precedence: bulk
+x-job: 6358-34176316-20240130
+X-Feedback-ID: 6358:34176316:campaign:sailthru
+X-TM-ID: 20240130142613.34176316.282398
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-87-11.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ckcim4.61we/98e62a75
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ckcim4.61we/98e62a75>,<mailto:unsubscribe_20240130142613.34176316.282398@mx.sailthru.com>
+X-rpcampaign: stjko34176316
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_3078875_889711438.1706642773169
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        If I ran the crypto enforcement unit at the US Securities and Excha=
+nge Commission, and I were as crypto-skeptical as the actual SEC seems to
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      HyperFund
+   =20
+ =20
+
+If I ran the crypto enforcement unit at the US Securities and Exchange Comm=
+ission, and I were as crypto-skeptical as the actual SEC seems to be, I gue=
+ss I would want my cases to divide roughly evenly into two categories:
+=09Important cases against big crypto projects and, especially, crypto exch=
+anges, cases that will set important precedents and have large impact on th=
+e crypto industry.   Enforcement actions against=C2=A0exchanges, in particu=
+lar, are likely to have huge effects: If you shut down crypto=C2=A0trading=
+=C2=A0at centralized exchanges, you get a lot more consumer-protection bang=
+ for your buck than if you have to shut down every questionable crypto proj=
+ect individually.=09Dumb easy cases against wild scams.
+
+Category 2 is important for a couple of reasons. For one thing, those cases=
+ are fun for the lawyers. Also you=E2=80=99ll probably win. Also people=C2=
+=A0do=C2=A0seem to lose a lot of money to wild crypto scams, and it=E2=80=
+=99s nice to get some back for them.
+For another thing, those cases=C2=A0do=C2=A0set good precedents: If you bri=
+ng a securities fraud case against an absolutely wild scam, the scammers wi=
+ll probably say =E2=80=9Cno no no, we were not doing=C2=A0securities fraud,=
+ because our scam tokens were not=C2=A0securities.=E2=80=9D But that argume=
+nt won=E2=80=99t=C2=A0go over well with a judge, who will be inclined to sa=
+y =E2=80=9Cah come on, you were doing a scam, I=E2=80=99m not gonna let you=
+ off on a technicality=E2=80=9D =E2=80=94=C2=A0and so the judge will be mor=
+e likely to rule that the tokens were securities.=C2=A0It is perhaps not a =
+coincidence that we have discussed two big crypto cases that are going on i=
+n New York federal courts right now, one against Ripple Labs Inc., which so=
+ld investors tokens that are down a modest 66% from their 2021 peak, and th=
+e other against Terraform Labs Pte, which sold investors tokens that are do=
+wn a dreadful 99.9999% since their 2022 peak, and whose founder is  in jail=
+ in Montenegro.
+  [1]
+=C2=A0Both Ripple and Terra have argued that their tokens are not securitie=
+s; Ripple=E2=80=99s argument on that point   has mostly succeeded, while   =
+Terra=E2=80=99s has failed. Ripple may or may not have a better=C2=A0legal=
+=C2=A0argument, but it definitely has a better=C2=A0look=C2=A0than Terra.
+Also, just, the more hilarious crypto frauds the SEC can sue, the better is=
+ its broad argument,=C2=A0to courts and legislators and the public, that =
+=E2=80=9Ccome on, someone needs to regulate crypto, and nobody else is doin=
+g it, so you might as well let us.=E2=80=9D If the SEC finds one ludicrous =
+fraud a week in the crypto space, it is harder to argue that the SEC should=
+ just leave crypto alone.
+Anyway here=E2=80=99s a dumb crypto enforcement case from the SEC against a=
+ barely crypto thing called=C2=A0HyperFund:
+
+The Securities and Exchange Commission today charged Xue Lee (aka Sam Lee) =
+and Brenda Chunga (aka Bitcoin Beautee) for their involvement in a fraudule=
+nt crypto asset pyramid scheme known as HyperFund that raised more than $1.=
+7 billion from investors worldwide.
+According to the SEC=E2=80=99s complaint, from June 2020 through early 2022=
+, Lee and Chunga promoted HyperFund =E2=80=9Cmembership=E2=80=9D packages, =
+which they claimed guaranteed investors high returns, including from HyperF=
+und=E2=80=99s supposed crypto asset mining operations and associations with=
+ a Fortune 500 company. As the complaint alleges, however, Lee and Chunga k=
+new or were reckless in not knowing that HyperFund was a pyramid scheme and=
+ had no real source of revenue other than funds received from investors. In=
+ 2022, the HyperFund scheme collapsed and investors were no longer able to =
+make withdrawals.
+
+From  the complaint this case does seem like one that was just fun for the =
+lawyers:
+
+One of the details Chunga touted was the fact that Lee and another one of t=
+he Founders were featured and interviewed in an episode of an Amazon Prime =
+documentary series called =E2=80=9CNext: Blockchain.=E2=80=9D
+In one presentation, Chunga leveraged HyperFund=E2=80=99s Founders=E2=80=99=
+ public-facing profiles in order to persuade investors that there was no ri=
+sk in investing with the HyperTech Group: =E2=80=9CSome people say things, =
+how do we know they won=E2=80=99t just take our money and disappear? Well, =
+ladies and gents, they have more to lose than to gain. They=E2=80=99re all =
+over CNN. They have publicly traded companies, they are on Amazon Prime, th=
+eir faces are everywhere. They have more to lose than to gain.=E2=80=9D
+
+There was a pivot to the metaverse:
+In the fall of 2021, HyperFund rebranded itself as HyperVerse. HyperVerse w=
+as officially launched on December 5, 2021. Part of the new HyperVerse narr=
+ative was that the HyperTech Group was creating a virtual world to connect =
+people in the HyperVerse Ecosystem, which you would enter using your virtua=
+l avatar.
+Speaking of virtual avatars, apparently its CEO was fake?
+During this launch event, which took place live online and was recorded and=
+ then made available publicly online, HyperVerse presented a new supposed C=
+EO of HyperVerse,=C2=A0=E2=80=9CSteven Reece Lewis.=E2=80=9D In a recorded =
+video played during the launch event, Lewis thanked everyone for their part=
+icipation and for giving him =E2=80=9Cthe chance to share more about HyperV=
+erse, our operations, and future direction . . . . =E2=80=9D After repeated=
+ly invoking a prominent social media company=E2=80=99s rebranding, =E2=80=
+=9CCEO Lewis=E2=80=9D explained that HyperVerse offered a =E2=80=9Cvirtual =
+world=E2=80=9D with =E2=80=9Cnew business opportunities=E2=80=9D and the de=
+velopment of a crypto asset, characterized as a =E2=80=9Cnative token,=E2=
+=80=9D called =E2=80=9CHVT.=E2=80=9D In reality, the person presented as Le=
+wis was an actor playing a role of a fabricated character. He was not the C=
+EO of HyperVerse.
+There is very little discussion of Hyperfund=E2=80=99s technology or token =
+economics, and I=E2=80=99m not sure it had any. Its technology was telling =
+people that if they invested money in its business, it would give them way =
+more money in return. That=C2=A0does=C2=A0sound like a securities offering,=
+ doesn=E2=80=99t it?
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Auditor independence
+   =20
+ =20
+
+The business of public company auditing has at its heart a conflict of inte=
+rest:=C2=A0
+=09Your job, as an auditor, is to scrutinize a company=E2=80=99s financial =
+statements and make sure that they are true and accurate, and then to certi=
+fy those statements to the public. If the company is doing financial fraud,=
+ you should try not to certify their financial statements. If you sign off =
+on the financial statements of a big fraud, you will look bad and maybe =09=
+get in trouble.=09The company=C2=A0gives=C2=A0you that job. It hires you, i=
+n a reasonably competitive market. If you are annoying to work with, or are=
+ difficult about signing off on things, then it might hire someone else. If=
+ you are pleasant and friendly and take the company=E2=80=99s chief financi=
+al officer out to nice dinners, she will be more likely to retain you.
+
+If you are friends with your clients you will keep more clients. But if you=
+ are friends with your clients you might not be a strict independent audito=
+r of their financial statements.
+It is hard to get=C2=A0rid=C2=A0of this conflict of interest, though people=
+ sometimes suggest ideas. (If you  assign auditors to companies randomly, t=
+hey=E2=80=99d presumably be more independent? If  shareholders paid them, i=
+nstead of management, that might help?) But there are two main ways to miti=
+gate it by regulation. The more important way is that you just have profess=
+ional standards of quality and ethics for auditors, and you train the audit=
+ors in these standards, and then hopefully the auditors will do a good audi=
+t even if they are friendly with their clients. =E2=80=9CSorry, I know we j=
+ust went out to a nice dinner last night, but I found some errors in your f=
+inancials and my duty as an auditor outweighs our friendly relationship,=E2=
+=80=9D the auditor maybe says, or at least she worries that if she signs of=
+f on a bad audit she will get in trouble.
+The other way, though, is that regulation prohibits=C2=A0some conflicts of =
+interest that make auditors less independent. Usually not the most importan=
+t one =E2=80=94=C2=A0that the company=E2=80=99s managers=C2=A0hire=C2=A0and=
+ work with the auditor who sign=C2=A0off on their financials =E2=80=94=C2=
+=A0because that is central to the whole business. (Though=C2=A0we talked a =
+few years ago about an auditor who got in trouble for too blatantly using h=
+is friendship with a company=E2=80=99s chief accounting officer to win that=
+ company=E2=80=99s auditing business.) But usually regulation restricts oth=
+er conflicts that are easier to identify. Auditing firms tend to also have =
+consulting businesses, and it used to be standard practice for them to cros=
+s-sell consulting services to audit clients, but that is now  mostly forbid=
+den in the US. And we   talked once about a guy who =E2=80=9Crepeatedly acc=
+epted tens of thousands of dollars in casino markers=E2=80=9D from a casino=
+ he was auditing, which I suppose compromised his independence.
+The rules get nitpicky enough that the big audit firms just have to do occa=
+sional mass apologies for violating them constantly?  The Financial Times r=
+eports:
+
+The Big Four accounting firms have admitted hundreds of violations of regul=
+ations designed to protect the independence of their audit work, following =
+the introduction of new disclosure rules in the US. ...
+PwC said on Monday that it had identified 129 breaches of independence rule=
+s affecting 74 clients and [Public Company Accounting Oversight Board] insp=
+ectors had found a further one themselves while inspecting audit work in 20=
+22. =E2=80=A6=C2=A0Deloitte said in its audit quality report last month tha=
+t it had told PCAOB inspectors of 129 breaches across 78 clients in 2022 =
+=E2=80=94 affecting approximately 3 per cent of its US audits =E2=80=94 and=
+ 107 across 53 clients in the 2023 inspection cycle. EY also said it had fo=
+und independence violations affecting 3 per cent of its audits in 2022.
+
+What kind of violations? Oh:
+
+PwC, Deloitte and EY all said that they had looked into each violation and =
+concluded there were no cases in which the independence of an audit was act=
+ually compromised. A person familiar with the situation at PwC said one exa=
+mple was the spouse of a staffer holding a cash balance on payments app Ven=
+mo while PwC was auditing Venmo=E2=80=99s parent company PayPal.
+Deloitte said the most common instances of non-compliance were =E2=80=9Crel=
+ated to financial relationships and employment relationships of approximate=
+ly 145,000 professionals monitored=E2=80=9D.
+=E2=80=9CI would characterise them as technical violations,=E2=80=9D said D=
+ennis McGowan, vice-president of the Center for Audit Quality, which repres=
+ents large US accounting firms. =E2=80=9CThese firms are big, with a lot of=
+ people in them, and they have put in the controls and systems to track peo=
+ple=E2=80=99s compliance, which is why these are almost always self-reporte=
+d items.=E2=80=9D
+
+I submit to you that, if you are the partner on the PayPal audit, the fact =
+that one of your accountants has a spouse who has a cash balance on Venmo i=
+s much, much, much, much, much, much, much less likely to compromise the in=
+dependence of your audit than is the fact that you have to talk to PayPal=
+=E2=80=99s employees to do the audit, and you want those conversations to b=
+e friendly.
+
+ =20
+   =20
+      Fine, now you can sell tax credits
+   =20
+ =20
+
+We   talked yesterday about how a change in US bank capital rules might aff=
+ect the market for tax equity financing, a form of quasi-debt financing in =
+which big banks fund green energy projects by, effectively, buying the tax =
+credits that they are expected to generate over their lifetimes. The idea i=
+s that, to be respected by the Internal Revenue Service, these deals cannot=
+=C2=A0really=C2=A0be just=C2=A0buying=C2=A0the tax credit, or lending again=
+st it: They have to look like equity investments in the green projects. (=
+=E2=80=9CYou don=E2=80=99t go around selling tax credits,=E2=80=9D I wrote,=
+=C2=A0=E2=80=9Cand your tax lawyers will get mad if you say that.=E2=80=9D)=
+ But to get good capital treatment from bank regulators, these deals cannot=
+=C2=A0really be equity financing: They have to look like safe debt deals. T=
+he glory of modern=C2=A0US financial engineering is that banks can build a =
+product that satisfies both of these objectives =E2=80=94=C2=A0that is equi=
+ty to the IRS but debt to bank regulators =E2=80=94=C2=A0and they did, and =
+it was good, and now new bank capital rules might kill it, and the banks ar=
+e mad.
+A bunch of readers emailed, though, to point out that the problem isn=E2=80=
+=99t that big, because the 2022 Inflation Reduction Act did make it legal t=
+o just buy and sell certain green-energy tax credits directly. So instead o=
+f getting a big bank to do the tax equity financing song and dance =E2=80=
+=94=C2=A0which currently works, but which might not work under proposed new=
+ capital rules =E2=80=94=C2=A0you can just sell the tax break, for cash up =
+front, to a bank or anyone else who wants to buy it. Here is an  Akin Gump =
+memo on the tax credit transferability guidance.=C2=A0
+This is not necessarily a perfect substitute for tax equity, and the  Ameri=
+can Council on Renewable Energy report that I quoted yesterday says: =E2=80=
+=9CWhile the IRA provides new tax credit monetization options through trans=
+ferable tax credits and direct pay, tax equity is expected to remain the mo=
+st common and preferred option for project developers because it monetizes =
+both the tax credits and other tax benefits, such as tax depreciation.=E2=
+=80=9D Still I suppose the broad conclusion might be that when a financial =
+engineering door is closed, a financial engineering window is opened.
+
+ =20
+   =20
+      Art valuation
+   =20
+ =20
+
+We have   talked a few times about the long-running dispute between art dea=
+ler Yves Bouvier and his former customer Dmitry Rybolovlev. Basically Bouvi=
+er would buy a painting for $126 million, tell Rybolovlev =E2=80=9CI think =
+I can get this painting for you for $185 million, the sellers want $190 mil=
+lion but I=E2=80=99ll try to talk them down,=E2=80=9D and then he=E2=80=99d=
+ sell Rybolovlev the painting for $184 million. Rybolovlev thought he got a=
+ good deal and good service from Bouvier, who was able to talk the sellers =
+down from their asking price. But really he got a bad deal and bad service =
+from Bouvier, who=C2=A0was=C2=A0the seller, and who took only a little bit =
+off his own enormous undisclosed markup.
+The question is basically, was Bouvier allowed to do this (as a third-party=
+ seller in a sharp-elbowed market), or not (as a trusted advisor in a fiduc=
+iary relationship with Rybolovlev). Courts in various countries have mostly=
+ said it=E2=80=99s fine, but there=E2=80=99s a trial on in New York now in =
+which Rybolovlev is suing Sotheby=E2=80=99s, the auction house, for helping=
+ Bouvier inflate his valuations.
+For some reason this is a thing? Like, Bouvier would buy a painting at a mo=
+re-or-less made-up number from someone else, and then he=E2=80=99d make up =
+a higher number to tell Rybolovlev, and then Rybolovlev would pay that high=
+er number or something close to it. But before doing so, I suppose he neede=
+d some independent third party to say =E2=80=9Coh yes, that number, that=E2=
+=80=99s a good number.=E2=80=9D None of this is real, there are no cash flo=
+ws, each item is unique and there is no fungible liquid market for it, and =
+the correct value for a=C2=A0da Vinci painting=C2=A0is surely =E2=80=9Cwhat=
+ever the most enthusiastic Russian oligarch or Saudi prince will pay for it=
+.=E2=80=9D Any valuation that anyone gave Rybolovlev was necessarily self-r=
+eferential.=C2=A0
+Here=E2=80=99s a fun  Financial Times article about how that case is going:
+Over multiple days of testimony, Samuel Valette =E2=80=94 the global head o=
+f private sales at Sotheby=E2=80=99s who sold many of the works to Bouvier,=
+ the Swiss dealer who worked for years with Rybolovlev =E2=80=94 detailed t=
+he process by which works, including Leonardo da Vinci=E2=80=99s =E2=80=9CS=
+alvator Mundi=E2=80=9D, were procured for Bouvier, his top client at the ti=
+me.
+Salvator Mundi=E2=80=99s modern price history is:
+=09A group of art dealers  paid $1,175 for it=C2=A0in 2005 at an auction in=
+ New Orleans. They had it restored, and people became convinced it was the =
+original by da Vinci.=09In 2013, Sotheby=E2=80=99s negotiated a sale betwee=
+n those dealers and Bouvier, =E2=80=9Cwho started negotiations with what he=
+ described as a =E2=80=98brutally low=E2=80=99 offer of about $47mn. The se=
+llers were hoping for at least $100mn.=E2=80=9D Ultimately Bouvier paid =E2=
+=80=9C$68mn, plus a painting by Picasso valued at $12mn,=E2=80=9D which I g=
+uess adds up to $80 million if you believe the number on the Picasso.=09=E2=
+=80=9CBouvier would sell the painting to Rybolovlev shortly afterwards for =
+$127.5mn.=E2=80=9D=09=E2=80=9CFour years later, Rybolovlev resold the work =
+at auction, this time at Christie=E2=80=99s, for a record-shattering $450mn=
+,=E2=80=9D  apparently to Abu Dhabi.
+
+So the reasonable range of possible values of this painting would run from,=
+ say, $1,000 to $450 million. Just, really, pick a number. And Sotheby=E2=
+=80=99s did:
+
+Emails show how as art valuations soared, margins of $5mn to $10mn on these=
+ =E2=80=9Ctrophy=E2=80=9D artworks felt like rounding errors. Over email in=
+ 2015, Valette expressed frustration when a colleague at Sotheby=E2=80=99s =
+pushed back on his request for a higher valuation for the da Vinci painting=
+ two years after the original sale to Bouvier was agreed. The colleague sai=
+d =E2=82=AC95mn was =E2=80=9Cthe most [he] could live with=E2=80=9D but Val=
+ette told the court he thought =E2=80=9C95 was too precise=E2=80=9D and =E2=
+=80=9Can awkward number=E2=80=9D, and pushed for =E2=82=AC100mn, or about $=
+110mn.
+Valette said he wanted a big, round number. =E2=80=9CIn this world, if you=
+=E2=80=99re at =E2=82=AC95mn, you=E2=80=99re at =E2=82=AC100mn, =E2=80=9D h=
+e said.
+
+I=E2=80=99m sorry, that=E2=80=99s just correct, if you are providing a valu=
+ation of that painting to a potential buyer, the correct valuation is just =
+a piece of paper saying =E2=80=9Chow frisky are you feeling?=E2=80=9D Too m=
+uch precision really is awkward.
+
+ =20
+   =20
+      Pivot to AI
+   =20
+ =20
+
+Sure   whatever:
+
+Advertising giant Publicis Groupe SA made an unusual executive hire in mid-=
+2022 =E2=80=93 a lion-headed digital avatar named Leon who would serve as =
+=E2=80=9Cchief metaverse officer,=E2=80=9D guiding clients through the virt=
+ual realm that had seized real-world attention.
+His moment in the spotlight didn=E2=80=99t last long.
+Five months later, ChatGPT debuted, and the buzz that had surrounded the me=
+taverse ever since Mark Zuckerberg rebranded Facebook as Meta Platforms Inc=
+. shifted to artificial intelligence. Leon and other, human officers focuse=
+d on the metaverse =E2=80=94 an immersive digital reality where people can =
+interact with one another =E2=80=94 quickly became an endangered species. =
+=E2=80=A6
+Instead, businesses are scrambling to appoint AI leaders, with Accenture an=
+d GE HealthCare making recent hires. A few metaverse executives have even r=
+einvented themselves as AI experts, deftly switching from one hot technolog=
+y to the next. Compensation packages average well above $1 million, accordi=
+ng to a survey from executive-search and leadership advisory firm Heidrick =
+& Struggles. Last week, Publicis said it would invest 300 million euros ($3=
+27 million) over the next three years on artificial intelligence technology=
+ and talent.
+
+I mean, if your chief metaverse officer was an imaginary digital lion, (1) =
+firing him is fine, he won=E2=80=99t be upset, he doesn=E2=80=99t need this=
+ job to feed his virtual cubs,=C2=A0and (2) surely your new chief artificia=
+l intelligence officer should be a chatbot? It is truly incredible how inte=
+nse and how brief the whole =E2=80=9Cmetaverse=E2=80=9D thing was:
+
+=E2=80=9CIt=E2=80=99s been a long time since I have had a conversation with=
+ a client about the metaverse,=E2=80=9D said Fawad Bajwa, the global AI pra=
+ctice leader at the Russell Reynolds Associates executive search and adviso=
+ry firm. =E2=80=9CThe metaverse might still be there, but it=E2=80=99s a lo=
+nely place.=E2=80=9D =E2=80=A6
+Most companies have largely moved on from the metaverse. The word was utter=
+ed just twice on earnings calls at S&P 500 businesses last quarter, compare=
+d with 63 times in 2022=E2=80=99s first quarter, according to Bloomberg tra=
+nscript data. That year, eight out of ten CEOs said they were either hiring=
+ dedicated talent with expertise in the space or expanding the responsibili=
+ties of their leadership teams to cover it, according to Russell Reynolds. =
+All were chasing a piece of a global business opportunity that McKinsey & C=
+o. consultants at the time optimistically estimated could be worth $5 trill=
+ion by 2030.
+
+You could imagine three skill sets here:
+=09Metaverse skills: I don=E2=80=99t know, designing digital lion avatars o=
+r whatever.=09AI skills: understanding how modern artificial intelligence m=
+odels work, how to build them, how to deploy and use them, etc.=09Internal =
+politics and entrepreneurship: understanding that saying =E2=80=9Cmetaverse=
+=E2=80=9D would get you a big job and budget and bonus in 2022, but saying =
+=E2=80=9CAI=E2=80=9D will get you those things in 2024. What magic word wil=
+l get you those things in 2026? Probably somebody will know before I do.
+
+My assumption is that Skill 1 was valuable in 2022 and Skill 2 is valuable =
+in 2024, though I can=E2=80=99t be sure; I have no particular evidence that=
+ the chief metaverse officers hired in 2022 were in fact any good at doing =
+metaverse stuff. (Was the lion?) And my assumption is that Skill 3 is sort =
+of permanently valuable, perhaps more so the more trends and technologies c=
+hange.=C2=A0
+
+ =20
+   =20
+      Pricing
+   =20
+ =20
+
+I don=E2=80=99t know, this is just a useful thing to learn at a young age:
+He broke into the city=E2=80=99s private-school set and soon found himself =
+in the fancy Fifth Avenue apartment of a new client. Rim says that one day =
+this teen=E2=80=99s mother gave him a reality check. As Rim recalls it, =E2=
+=80=9CShe said, =E2=80=98Chris, if you want to make it here in New York, yo=
+u cannot charge $75. No one=E2=80=99s going to take you seriously.=E2=80=99=
+ =E2=80=9D Rim says she told him to charge $1,500 an hour and vowed to brin=
+g him more clients.
+That=E2=80=99s from this New York Magazine story about Christopher Rim, the=
+ founder of Command Education, an extremely expensive college admissions co=
+unseling service. As a young man out of Yale, he started a modestly priced =
+college admissions counseling service, until a client correctly told him th=
+at there was more demand for an extremely expensive one.
+We=E2=80=99ve   talked about Rim before, when   Bloomberg News reported tha=
+t another parent gave him another great pricing idea: =E2=80=9CRim said a p=
+arent at New York=E2=80=99s Trinity School =E2=80=94 a $64,000-a-year Ivy L=
+eague-feeder =E2=80=94 once offered him $1.5 million if he would agree not =
+to work with any of his child=E2=80=99s classmates.=E2=80=9D Basically if y=
+ou are extremely rich, and buying positional goods like good college resume=
+s, it is to your benefit for those goods to be as expensive =E2=80=94=C2=A0=
+and thus exclusive =E2=80=94 as possible. If you are in the business of sel=
+ling those goods, that=E2=80=99s nice for you.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Silicon Valley investors build  $300bn cash pile in start-up funding crunch=
+. Scandal-Hit Trading Desk Turns Into   Money Spinner at Wells Fargo. Priva=
+te-Fund Lobbyists Get Set for High-Stakes  SEC Court Fight. The Real-Estate=
+ Downturn Comes for America=E2=80=99s  Premier Office Towers. Saudi Arabia =
+ ditches plan to raise oil production. Indonesia=E2=80=99s flood of nickel =
+sparks  =E2=80=98Darwinian=E2=80=99 battle for survival among miners. U.S. =
+ Oil Drillers Are Going Electric=E2=80=94if They Can Get the Electricity. E=
+x-Freshfields Partner Convicted Over   Tax Scandal. Steve Cohen, John Henry=
+ Group Set to Invest Billions in  PGA Tour.=C2=A0Musk Says First   Neuralin=
+k Patient Received Implant in Brain.=C2=A0Shaquille O=E2=80=99Neal Wants to=
+ Buy =E2=80=98Whatever=E2=80=99 NBA Team Is =E2=80=98Available.=E2=80=99
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Don=E2=80=99t take those numbers too seriously. CoinMarketCap  tells =
+me that Ripple=E2=80=99s XRP token briefly peaked at $3.021 in January 2018=
+, and is at about $0.53 now, but that=E2=80=99s a very brief peak and I=E2=
+=80=99m not going to worry about it too much. Its post-2018 peak is about $=
+1.56 in April 2021, so down about 66% to today.  Meanwhile Terra=E2=80=99s =
+original Luna token hit $113.01 in April 2022 and is worth apparently $0.00=
+01 today.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ckcim4.61we/c040fbe5.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_3078875_889711438.1706642773169
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+If I ran the crypto enforcement unit at the US Securities and Exchange Comm=
+ission, and I were as crypto-skeptical as the actual SEC seems to
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTMwMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMzAmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB5645bc48"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zNDE3NjMxNiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQ0NTg3MTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB0b13a0f6" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D34176316&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34458714&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">HyperFund</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If I ran the crypto enforcement unit at the US=
+ Securities and Exchange Commission, and I were as crypto-skeptical as the =
+actual SEC seems to be, I guess I would want my cases to divide roughly eve=
+nly into two categories:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Important cases against big crypto pr=
+ojects and, especially, crypto exchanges, cases that will set important pre=
+cedents and have large impact on the crypto industry. <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/34176316.282398/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMDcvd2hlbi1pcy1hLXRva2VuLW5vdC=
+1hLXNlY3VyaXR5P2NtcGlkPUJCRDAxMzAyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmd=
+XRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEzMCZ1dG1fY2FtcGFpZ249bW9uZXlz=
+dHVmZg/607f07ceef4b8524a319a23cBceaf44d1" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  Enforcement actions ag=
+ainst=C2=A0<em>exchanges</em></a>, in particular, are likely to have huge e=
+ffects: If you shut down crypto=C2=A0<em>trading=C2=A0</em>at centralized e=
+xchanges, you get a lot more consumer-protection bang for your buck than if=
+ you have to shut down every questionable crypto project individually.</li>=
+=09<li style=3D"margin-bottom: 5px;">Dumb easy cases against wild scams.</l=
+i>
+</ol>
+<p style=3D"margin: 16px 0;">Category 2 is important for a couple of reason=
+s. For one thing, those cases are fun for the lawyers. Also you=E2=80=99ll =
+probably win. Also people=C2=A0<em>do=C2=A0</em>seem to lose a lot of money=
+ to wild crypto scams, and it=E2=80=99s nice to get some back for them.</p>
+<p style=3D"margin: 16px 0;">For another thing, those cases=C2=A0<em>do=C2=
+=A0</em>set good precedents: If you bring a securities fraud case against a=
+n absolutely wild scam, the scammers will probably say =E2=80=9Cno no no, w=
+e were not doing=C2=A0<em>securities fraud</em>, because our scam tokens we=
+re not=C2=A0<em>securities.</em>=E2=80=9D But that argument won=E2=80=99t=
+=C2=A0<em>go over well with a judge</em>, who will be inclined to say =E2=
+=80=9Cah come on, you were doing a scam, I=E2=80=99m not gonna let you off =
+on a technicality=E2=80=9D =E2=80=94=C2=A0and so the judge will be more lik=
+ely to rule that the tokens were securities.=C2=A0It is perhaps not a coinc=
+idence that we have discussed two big crypto cases that are going on in New=
+ York federal courts right now, one against Ripple Labs Inc., which sold in=
+vestors tokens that are down a modest 66% from their 2021 peak, and the oth=
+er against Terraform Labs Pte, which sold investors tokens that are down a =
+dreadful 99.9999% since their 2022 peak, and whose founder is <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/34176316.282398/aHR0cHM6Ly9kZWN=
+yeXB0LmNvLzIxMDI3Ny90ZXJyYS1kby1rd29uLWV4dHJhZGl0aW9uLW1vbnRlbmVncm8/607f07=
+ceef4b8524a319a23cB4c1ad79a" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> in jail in Montenegro</a>.<a class=3D=
+"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: none !important; background-color: transparent !imp=
+ortant; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0Both Ripple and Terra have argued that their tokens are not secur=
+ities; Ripple=E2=80=99s argument on that point <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/34176316.282398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDctMTQvcmlwcGxlLWlzLWEtc2VjdXJpdHktYW5kL=
+Wl0LWlzbi10P2NtcGlkPUJCRDAxMzAyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRt=
+X3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHV=
+mZg/607f07ceef4b8524a319a23cB99b5e237" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  has mostly succeeded</a>, =
+while <a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.282=
+398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDgtMDM=
+vdGVycmEtaXMtdXN1YWxseS1hLXNlY3VyaXR5P2NtcGlkPUJCRDAxMzAyNF9NT05FWVNUVUZGJn=
+V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEzMCZ1d=
+G1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB59b41716" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Terra=E2=80=99s has failed</a>. Ripple may or may not have a better=C2=A0=
+<em>legal=C2=A0</em>argument, but it definitely has a better=C2=A0<em>look=
+=C2=A0</em>than Terra.</p>
+<p style=3D"margin: 16px 0;">Also, just, the more hilarious crypto frauds t=
+he SEC can sue, the better is its broad argument,=C2=A0to courts and legisl=
+ators and the public, that =E2=80=9Ccome on, someone needs to regulate cryp=
+to, and nobody else is doing it, so you might as well let us.=E2=80=9D If t=
+he SEC finds one ludicrous fraud a week in the crypto space, it is harder t=
+o argue that the SEC should just leave crypto alone.</p>
+<p style=3D"margin: 16px 0;">Anyway here=E2=80=99s a <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/34176316.282398/aHR0cHM6Ly93d3cuc2VjLmdv=
+di9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyNC0xMQ/607f07ceef4b8524a319a23cB0c3b4209" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">dumb crypto enforcement case</a> from the SEC against a barely crypt=
+o thing called=C2=A0HyperFund:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission today c=
+harged Xue Lee (aka Sam Lee) and Brenda Chunga (aka Bitcoin Beautee) for th=
+eir involvement in a fraudulent crypto asset pyramid scheme known as HyperF=
+und that raised more than $1.7 billion from investors worldwide.</p>
+<p style=3D"margin: 16px 0;">According to the SEC=E2=80=99s complaint, from=
+ June 2020 through early 2022, Lee and Chunga promoted HyperFund =E2=80=9Cm=
+embership=E2=80=9D packages, which they claimed guaranteed investors high r=
+eturns, including from HyperFund=E2=80=99s supposed crypto asset mining ope=
+rations and associations with a Fortune 500 company. As the complaint alleg=
+es, however, Lee and Chunga knew or were reckless in not knowing that Hyper=
+Fund was a pyramid scheme and had no real source of revenue other than fund=
+s received from investors. In 2022, the HyperFund scheme collapsed and inve=
+stors were no longer able to make withdrawals.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">From <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/34176316.282398/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9saXRpZ2F=
+0aW9uL2NvbXBsYWludHMvMjAyNC9jb21wLXByMjAyNC0xMS5wZGY/607f07ceef4b8524a319a2=
+3cBa48d6431" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> the complaint</a> this case does seem like one that w=
+as just fun for the lawyers:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">One of the details Chunga touted was the fact =
+that Lee and another one of the Founders were featured and interviewed in a=
+n episode of an Amazon Prime documentary series called =E2=80=9CNext: Block=
+chain.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">In one presentation, Chunga leveraged HyperFun=
+d=E2=80=99s Founders=E2=80=99 public-facing profiles in order to persuade i=
+nvestors that there was no risk in investing with the HyperTech Group: =E2=
+=80=9CSome people say things, how do we know they won=E2=80=99t just take o=
+ur money and disappear? Well, ladies and gents, they have more to lose than=
+ to gain. They=E2=80=99re all over CNN. They have publicly traded companies=
+, they are on Amazon Prime, their faces are everywhere. They have more to l=
+ose than to gain.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There was a pivot to the metaverse:</p>
+<blockquote><p style=3D"margin: 16px 0;">In the fall of 2021, HyperFund reb=
+randed itself as HyperVerse. HyperVerse was officially launched on December=
+ 5, 2021. Part of the new HyperVerse narrative was that the HyperTech Group=
+ was creating a virtual world to connect people in the HyperVerse Ecosystem=
+, which you would enter using your virtual avatar.</p></blockquote>
+<p style=3D"margin: 16px 0;">Speaking of virtual avatars, apparently its CE=
+O was fake?</p>
+<blockquote><p style=3D"margin: 16px 0;">During this launch event, which to=
+ok place live online and was recorded and then made available publicly onli=
+ne, HyperVerse presented a new supposed CEO of HyperVerse,=C2=A0=E2=80=9CSt=
+even Reece Lewis.=E2=80=9D In a recorded video played during the launch eve=
+nt, Lewis thanked everyone for their participation and for giving him =E2=
+=80=9Cthe chance to share more about HyperVerse, our operations, and future=
+ direction . . . . =E2=80=9D After repeatedly invoking a prominent social m=
+edia company=E2=80=99s rebranding, =E2=80=9CCEO Lewis=E2=80=9D explained th=
+at HyperVerse offered a =E2=80=9Cvirtual world=E2=80=9D with =E2=80=9Cnew b=
+usiness opportunities=E2=80=9D and the development of a crypto asset, chara=
+cterized as a =E2=80=9Cnative token,=E2=80=9D called =E2=80=9CHVT.=E2=80=9D=
+ In reality, the person presented as Lewis was an actor playing a role of a=
+ fabricated character. He was not the CEO of HyperVerse.</p></blockquote>
+<p style=3D"margin: 16px 0;">There is very little discussion of Hyperfund=
+=E2=80=99s technology or token economics, and I=E2=80=99m not sure it had a=
+ny. Its technology was telling people that if they invested money in its bu=
+siness, it would give them way more money in return. That=C2=A0<em>does=C2=
+=A0</em>sound like a securities offering, doesn=E2=80=99t it?</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zNDE3NjMxNiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQ0NTg3MTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCbef0055b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D34176316&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34458714&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zNDE3NjMxNiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQ0NTg3MTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDbef0055b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D34176316&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34458714&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Auditor independence</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The business of public company auditing has at=
+ its heart a conflict of interest:=C2=A0</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Your job, as an auditor, is to scruti=
+nize a company=E2=80=99s financial statements and make sure that they are t=
+rue and accurate, and then to certify those statements to the public. If th=
+e company is doing financial fraud, you should try not to certify their fin=
+ancial statements. If you sign off on the financial statements of a big fra=
+ud, you will look bad and maybe <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/34176316.282398/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQXJ0a=
+HVyX0FuZGVyc2Vu/607f07ceef4b8524a319a23cB6cc8ab5b" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">=09get in troubl=
+e</a>.</li>=09<li style=3D"margin-bottom: 5px;">The company=C2=A0<em>gives=
+=C2=A0</em>you that job. It hires you, in a reasonably competitive market. =
+If you are annoying to work with, or are difficult about signing off on thi=
+ngs, then it might hire someone else. If you are pleasant and friendly and =
+take the company=E2=80=99s chief financial officer out to nice dinners, she=
+ will be more likely to retain you.</li>
+</ol>
+<p style=3D"margin: 16px 0;">If you are friends with your clients you will =
+keep more clients. But if you are friends with your clients you might not b=
+e a strict independent auditor of their financial statements.</p>
+<p style=3D"margin: 16px 0;">It is hard to get=C2=A0<em>rid=C2=A0</em>of th=
+is conflict of interest, though people sometimes suggest ideas. (If you <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/aHR0c=
+HM6Ly93d3cubmJlci5vcmcvcGFwZXJzL3czMDY0NA/607f07ceef4b8524a319a23cBf6cc41d9=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> assign auditors to companies randomly</a>, they=E2=80=99d presum=
+ably be more independent? If <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/34176316.282398/aHR0cHM6Ly9hYm1hZ2F6aW5lLmFjY2FnbG9iYWwuY29tL2ds=
+b2JhbC9hcnRpY2xlcy8yMDIyL25vdi9hY2NhL2F1ZGl0b3Itc2hvdWxkLWJlLWhpcmVkLWJ5LXN=
+oYXJlaG9sZGVyLmh0bWw/607f07ceef4b8524a319a23cB4e96daeb" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> shareholde=
+rs paid them</a>, instead of management, that might help?) But there are tw=
+o main ways to mitigate it by regulation. The more important way is that yo=
+u just have professional standards of quality and ethics for auditors, and =
+you train the auditors in these standards, and then hopefully the auditors =
+will do a good audit even if they are friendly with their clients. =E2=80=
+=9CSorry, I know we just went out to a nice dinner last night, but I found =
+some errors in your financials and my duty as an auditor outweighs our frie=
+ndly relationship,=E2=80=9D the auditor maybe says, or at least she worries=
+ that if she signs off on a bad audit she will get in trouble.</p>
+<p style=3D"margin: 16px 0;">The other way, though, is that regulation proh=
+ibits=C2=A0<em>some </em>conflicts of interest that make auditors less inde=
+pendent. Usually not the most important one =E2=80=94=C2=A0that the company=
+=E2=80=99s managers=C2=A0hire=C2=A0and work with the auditor who sign=C2=A0=
+off on their financials =E2=80=94=C2=A0because that is central to the whole=
+ business. (Though=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/=
+click/34176316.282398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjEtMDgtMDMveW91ci1hdWRpdG9yLWlzLW5vdC15b3VyLWZyaWVuZD9jbXBpZD1CQkQw=
+MTMwMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yNDAxMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cBe2b2ef0b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">we talked a few years ago</a> about an auditor who got=
+ in trouble for too blatantly using his friendship with a company=E2=80=99s=
+ chief accounting officer to win that company=E2=80=99s auditing business.)=
+ But usually regulation restricts other conflicts that are easier to identi=
+fy. Auditing firms tend to also have consulting businesses, and it used to =
+be standard practice for them to cross-sell consulting services to audit cl=
+ients, but that is now <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/34176316.282398/aHR0cHM6Ly9hbmRlcnNvbi1yZXZpZXcudWNsYS5lZHUvc2VwYXJhdG=
+luZy1hdWRpdGluZy1mcm9tLWNvbnN1bHRpbmctbW9yZS1jb21wbGV4LXRoYW4taXQtc2VlbXMv/=
+607f07ceef4b8524a319a23cBd50e3b8a" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> mostly forbidden</a> in the US.=
+ And we <a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.2=
+82398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTQtMDUtM=
+jAvYWNjb3VudGFudC1iZXQtY2xpZW50LXMtbW9uZXktYXQtY2xpZW50LXMtY2FzaW5vP2NtcGlk=
+PUJCRDAxMzAyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTI0MDEzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cBe404c5fd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  talked once</a> about a guy who =E2=80=9Cre=
+peatedly accepted tens of thousands of dollars in casino markers=E2=80=9D f=
+rom a casino he was auditing, which I suppose compromised his independence.=
+</p>
+<p style=3D"margin: 16px 0;">The rules get nitpicky enough that the big aud=
+it firms just have to do occasional mass apologies for violating them const=
+antly? <a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.28=
+2398/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYTNiZGY0ZmMtMTUxYy00MzZmLWFlYjktYj=
+VlOWI0ZDYwZDIz/607f07ceef4b8524a319a23cBeaf1f861" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> The Financial Ti=
+mes reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Big Four accounting firms have admitted hu=
+ndreds of violations of regulations designed to protect the independence of=
+ their audit work, following the introduction of new disclosure rules in th=
+e US. ...</p>
+<p style=3D"margin: 16px 0;">PwC said on Monday that it had identified 129 =
+breaches of independence rules affecting 74 clients and [Public Company Acc=
+ounting Oversight Board] inspectors had found a further one themselves whil=
+e inspecting audit work in 2022. =E2=80=A6=C2=A0Deloitte said in its audit =
+quality report last month that it had told PCAOB inspectors of 129 breaches=
+ across 78 clients in 2022 =E2=80=94 affecting approximately 3 per cent of =
+its US audits =E2=80=94 and 107 across 53 clients in the 2023 inspection cy=
+cle. EY also said it had found independence violations affecting 3 per cent=
+ of its audits in 2022.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">What kind of violations? Oh:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">PwC, Deloitte and EY all said that they had lo=
+oked into each violation and concluded there were no cases in which the ind=
+ependence of an audit was actually compromised. A person familiar with the =
+situation at PwC said one example was the spouse of a staffer holding a cas=
+h balance on payments app Venmo while PwC was auditing Venmo=E2=80=99s pare=
+nt company PayPal.</p>
+<p style=3D"margin: 16px 0;">Deloitte said the most common instances of non=
+-compliance were =E2=80=9Crelated to financial relationships and employment=
+ relationships of approximately 145,000 professionals monitored=E2=80=9D.</=
+p>
+<p style=3D"margin: 16px 0;">=E2=80=9CI would characterise them as technica=
+l violations,=E2=80=9D said Dennis McGowan, vice-president of the Center fo=
+r Audit Quality, which represents large US accounting firms. =E2=80=9CThese=
+ firms are big, with a lot of people in them, and they have put in the cont=
+rols and systems to track people=E2=80=99s compliance, which is why these a=
+re almost always self-reported items.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I submit to you that, if you are the partner o=
+n the PayPal audit, the fact that one of your accountants has a spouse who =
+has a cash balance on Venmo is much, much, much, much, much, much, much les=
+s likely to compromise the independence of your audit than is the fact that=
+ you have to talk to PayPal=E2=80=99s employees to do the audit, and you wa=
+nt those conversations to be friendly.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Fine, now you can sell tax credits</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/34176316.282398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjQtMDEtMjkvZmluYW5jaWFsLWVuZ2luZWVyaW5nLWZvci1ncmVlbi1lbmVy=
+Z3k_Y21waWQ9QkJEMDEzMDI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f0=
+7ceef4b8524a319a23cB836266db" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  talked yesterday</a> about how a ch=
+ange in US bank capital rules might affect the market for tax equity financ=
+ing, a form of quasi-debt financing in which big banks fund green energy pr=
+ojects by, effectively, buying the tax credits that they are expected to ge=
+nerate over their lifetimes. The idea is that, to be respected by the Inter=
+nal Revenue Service, these deals cannot=C2=A0<em>really=C2=A0</em>be just=
+=C2=A0<em>buying=C2=A0</em>the tax credit, or lending against it: They have=
+ to look like equity investments in the green projects. (=E2=80=9CYou don=
+=E2=80=99t go around selling tax credits,=E2=80=9D I wrote,=C2=A0=E2=80=9Ca=
+nd your tax lawyers will get mad if you say that.=E2=80=9D) But to get good=
+ capital treatment from bank regulators, these deals cannot=C2=A0<em>really=
+ </em>be equity financing: They have to look like safe debt deals. The glor=
+y of modern=C2=A0US financial engineering is that banks can build a product=
+ that satisfies both of these objectives =E2=80=94=C2=A0that is equity to t=
+he IRS but debt to bank regulators =E2=80=94=C2=A0and they did, and it was =
+good, and now new bank capital rules might kill it, and the banks are mad.<=
+/p>
+<p style=3D"margin: 16px 0;">A bunch of readers emailed, though, to point o=
+ut that the problem isn=E2=80=99t that big, because the 2022 Inflation Redu=
+ction Act <em>did </em>make it legal to just buy and sell certain green-ene=
+rgy tax credits directly. So instead of getting a big bank to do the tax eq=
+uity financing song and dance =E2=80=94=C2=A0which currently works, but whi=
+ch might not work under proposed new capital rules =E2=80=94=C2=A0you can j=
+ust sell the tax break, for cash up front, to a bank or anyone else who wan=
+ts to buy it. Here is an <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/34176316.282398/aHR0cHM6Ly93d3cuYWtpbmd1bXAuY29tL2VuL2luc2lnaHRzL2Fs=
+ZXJ0cy9jbGVhbi1lbmVyZ3ktdGF4LWNyZWRpdC10cmFuc2ZlcmFiaWxpdHktZ3VpZGFuY2UtaXN=
+zdWVk/607f07ceef4b8524a319a23cB267684d6" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Akin Gump memo</a> on t=
+he tax credit transferability guidance.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This is not necessarily a perfect substitute f=
+or tax equity, and the <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/34176316.282398/aHR0cHM6Ly9hY29yZS5vcmcvcmVzb3VyY2VzL3RoZS1yaXNrLXByb2=
+ZpbGUtb2YtcmVuZXdhYmxlLWVuZXJneS10YXgtZXF1aXR5LWludmVzdG1lbnRzLw/607f07ceef=
+4b8524a319a23cB2b3f54cf" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> American Council on Renewable Energy repo=
+rt</a> that I quoted yesterday says: =E2=80=9CWhile the IRA provides new ta=
+x credit monetization options through transferable tax credits and direct p=
+ay, tax equity is expected to remain the most common and preferred option f=
+or project developers because it monetizes both the tax credits and other t=
+ax benefits, such as tax depreciation.=E2=80=9D Still I suppose the broad c=
+onclusion might be that when a financial engineering door is closed, a fina=
+ncial engineering window is opened.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Art valuation</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bloomberg=
+business.com/click/34176316.282398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjQtMDEtMDkvaW1hZ2luYXJ5LWFydC1zZWxsZXItZHJvdmUtYS1oYXJ=
+kLWJhcmdhaW4_Y21waWQ9QkJEMDEzMDI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTMwJnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cB9f0c103e" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  talked a few times</a> abo=
+ut the long-running dispute between art dealer Yves Bouvier and his former =
+customer Dmitry Rybolovlev. Basically Bouvier would buy a painting for $126=
+ million, tell Rybolovlev =E2=80=9CI think I can get this painting for you =
+for $185 million, the sellers want $190 million but I=E2=80=99ll try to tal=
+k them down,=E2=80=9D and then he=E2=80=99d sell Rybolovlev the painting fo=
+r $184 million. Rybolovlev thought he got a good deal and good service from=
+ Bouvier, who was able to talk the sellers down from their asking price. Bu=
+t really he got a bad deal and bad service from Bouvier, who=C2=A0<em>was=
+=C2=A0</em>the seller, and who took only a little bit off his own enormous =
+undisclosed markup.</p>
+<p style=3D"margin: 16px 0;">The question is basically, was Bouvier allowed=
+ to do this (as a third-party seller in a sharp-elbowed market), or not (as=
+ a trusted advisor in a fiduciary relationship with Rybolovlev). Courts in =
+various countries have mostly said it=E2=80=99s fine, but there=E2=80=99s a=
+ trial on in New York now in which Rybolovlev is suing Sotheby=E2=80=99s, t=
+he auction house, for helping Bouvier inflate his valuations.</p>
+<p style=3D"margin: 16px 0;">For some reason this is a thing? Like, Bouvier=
+ would buy a painting at a more-or-less made-up number from someone else, a=
+nd then he=E2=80=99d make up a higher number to tell Rybolovlev, and then R=
+ybolovlev would pay that higher number or something close to it. But before=
+ doing so, I suppose he needed some independent third party to say =E2=80=
+=9Coh yes, that number, that=E2=80=99s a good number.=E2=80=9D None of this=
+ is real, there are no cash flows, each item is unique and there is no fung=
+ible liquid market for it, and the correct value for a=C2=A0<em>da Vinci pa=
+inting=C2=A0</em>is surely =E2=80=9Cwhatever the most enthusiastic Russian =
+oligarch or Saudi prince will pay for it.=E2=80=9D Any valuation that anyon=
+e gave Rybolovlev was necessarily self-referential.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s a fun <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/34176316.282398/aHR0cHM6Ly93d3cuZnQuY29tL2N=
+vbnRlbnQvMjU0MTBjMzYtMjMxMi00ZmZjLTk3N2EtM2JkNGY1MzkyYjdl/607f07ceef4b8524a=
+319a23cB786dbe22" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Financial Times article</a> about how that case =
+is going:</p>
+<blockquote><p style=3D"margin: 16px 0;">Over multiple days of testimony, S=
+amuel Valette =E2=80=94 the global head of private sales at Sotheby=E2=80=
+=99s who sold many of the works to Bouvier, the Swiss dealer who worked for=
+ years with Rybolovlev =E2=80=94 detailed the process by which works, inclu=
+ding Leonardo da Vinci=E2=80=99s =E2=80=9CSalvator Mundi=E2=80=9D, were pro=
+cured for Bouvier, his top client at the time.</p></blockquote>
+<p style=3D"margin: 16px 0;">Salvator Mundi=E2=80=99s modern price history =
+is:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">A group of art dealers <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/34176316.282398/aHR0cHM6Ly9lbi53a=
+WtpcGVkaWEub3JnL3dpa2kvU2FsdmF0b3JfTXVuZGlfKExlb25hcmRvKQ/607f07ceef4b8524a=
+319a23cBda65ac07" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> paid $1,175 for it</a>=C2=A0in 2005 at an auctio=
+n in New Orleans. They had it restored, and people became convinced it was =
+the original by da Vinci.</li>=09<li style=3D"margin-bottom: 5px;">In 2013,=
+ Sotheby=E2=80=99s negotiated a sale between those dealers and Bouvier, =E2=
+=80=9Cwho started negotiations with what he described as a =E2=80=98brutall=
+y low=E2=80=99 offer of about $47mn. The sellers were hoping for at least $=
+100mn.=E2=80=9D Ultimately Bouvier paid =E2=80=9C$68mn, plus a painting by =
+Picasso valued at $12mn,=E2=80=9D which I guess adds up to $80 million if y=
+ou believe the number on the Picasso.</li>=09<li style=3D"margin-bottom: 5p=
+x;">=E2=80=9CBouvier would sell the painting to Rybolovlev shortly afterwar=
+ds for $127.5mn.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">=E2=80=
+=9CFour years later, Rybolovlev resold the work at auction, this time at Ch=
+ristie=E2=80=99s, for a record-shattering $450mn,=E2=80=9D <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/34176316.282398/aHR0cHM6Ly93d3cudG=
+hlZ3VhcmRpYW4uY29tL2FydGFuZGRlc2lnbi8yMDE3L2RlYy8wNy93b3JsZC1yZWNvcmQtZGEtd=
+mluY2ktcGFpbnRpbmctdG8tYmUtZXhoaWJpdGVkLWF0LWxvdXZyZS1hYnUtZGhhYmk/607f07ce=
+ef4b8524a319a23cB189462d5" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> apparently to Abu Dhabi</a>.</li>
+</ul>
+<p style=3D"margin: 16px 0;">So the reasonable range of possible values of =
+this painting would run from, say, $1,000 to $450 million. Just, really, pi=
+ck a number. And Sotheby=E2=80=99s did:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Emails show how as art valuations soared, marg=
+ins of $5mn to $10mn on these =E2=80=9Ctrophy=E2=80=9D artworks felt like r=
+ounding errors. Over email in 2015, Valette expressed frustration when a co=
+lleague at Sotheby=E2=80=99s pushed back on his request for a higher valuat=
+ion for the da Vinci painting two years after the original sale to Bouvier =
+was agreed. The colleague said =E2=82=AC95mn was =E2=80=9Cthe most [he] cou=
+ld live with=E2=80=9D but Valette told the court he thought =E2=80=9C95 was=
+ too precise=E2=80=9D and =E2=80=9Can awkward number=E2=80=9D, and pushed f=
+or =E2=82=AC100mn, or about $110mn.</p>
+<p style=3D"margin: 16px 0;">Valette said he wanted a big, round number. =
+=E2=80=9CIn this world, if you=E2=80=99re at =E2=82=AC95mn, you=E2=80=99re =
+at =E2=82=AC100mn, =E2=80=9D he said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I=E2=80=99m sorry, that=E2=80=99s just correct=
+, if you are providing a valuation of that painting to a potential buyer, t=
+he correct valuation is just a piece of paper saying =E2=80=9Chow frisky ar=
+e you feeling?=E2=80=9D Too much precision really is awkward.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Pivot to AI</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Sure <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/34176316.282398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjQtMDEtMjkvYWktb3ZlcnRha2VzLW1ldGF2ZXJzZS1hcy1maXJtcy1yZXNodW=
+ZmbGUtY29ycG9yYXRlLWhpcmluZy1zdHJhdGVneT9jbXBpZD1CQkQwMTMwMjRfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMzAm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBfbf52d08" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  whatever</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Advertising giant Publicis Groupe SA made an u=
+nusual executive hire in mid-2022 =E2=80=93 a lion-headed digital avatar na=
+med Leon who would serve as =E2=80=9Cchief metaverse officer,=E2=80=9D guid=
+ing clients through the virtual realm that had seized real-world attention.=
+</p>
+<p style=3D"margin: 16px 0;">His moment in the spotlight didn=E2=80=99t las=
+t long.</p>
+<p style=3D"margin: 16px 0;">Five months later, ChatGPT debuted, and the bu=
+zz that had surrounded the metaverse ever since Mark Zuckerberg rebranded F=
+acebook as Meta Platforms Inc. shifted to artificial intelligence. Leon and=
+ other, human officers focused on the metaverse =E2=80=94 an immersive digi=
+tal reality where people can interact with one another =E2=80=94 quickly be=
+came an endangered species. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Instead, businesses are scrambling to appoint =
+AI leaders, with Accenture and GE HealthCare making recent hires. A few met=
+averse executives have even reinvented themselves as AI experts, deftly swi=
+tching from one hot technology to the next. Compensation packages average w=
+ell above $1 million, according to a survey from executive-search and leade=
+rship advisory firm Heidrick &amp; Struggles. Last week, Publicis said it w=
+ould invest 300 million euros ($327 million) over the next three years on a=
+rtificial intelligence technology and talent.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I mean, if your chief metaverse officer was an=
+ imaginary digital lion, (1) firing him is fine, he won=E2=80=99t be upset,=
+ he doesn=E2=80=99t need this job to feed his virtual cubs,=C2=A0and (2) su=
+rely your new chief artificial intelligence officer should be a chatbot? It=
+ is truly incredible how intense and how brief the whole =E2=80=9Cmetaverse=
+=E2=80=9D thing was:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s been a long time since I=
+ have had a conversation with a client about the metaverse,=E2=80=9D said F=
+awad Bajwa, the global AI practice leader at the Russell Reynolds Associate=
+s executive search and advisory firm. =E2=80=9CThe metaverse might still be=
+ there, but it=E2=80=99s a lonely place.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Most companies have largely moved on from the =
+metaverse. The word was uttered just twice on earnings calls at S&amp;P 500=
+ businesses last quarter, compared with 63 times in 2022=E2=80=99s first qu=
+arter, according to Bloomberg transcript data. That year, eight out of ten =
+CEOs said they were either hiring dedicated talent with expertise in the sp=
+ace or expanding the responsibilities of their leadership teams to cover it=
+, according to Russell Reynolds. All were chasing a piece of a global busin=
+ess opportunity that McKinsey &amp; Co. consultants at the time optimistica=
+lly estimated could be worth $5 trillion by 2030.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">You could imagine three skill sets here:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Metaverse skills: I don=E2=80=99t kno=
+w, designing digital lion avatars or whatever.</li>=09<li style=3D"margin-b=
+ottom: 5px;">AI skills: understanding how modern artificial intelligence mo=
+dels work, how to build them, how to deploy and use them, etc.</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">Internal politics and entrepreneurship: unders=
+tanding that saying =E2=80=9Cmetaverse=E2=80=9D would get you a big job and=
+ budget and bonus in 2022, but saying =E2=80=9CAI=E2=80=9D will get you tho=
+se things in 2024. What magic word will get you those things in 2026? Proba=
+bly somebody will know before I do.</li>
+</ol>
+<p style=3D"margin: 16px 0;">My assumption is that Skill 1 was valuable in =
+2022 and Skill 2 is valuable in 2024, though I can=E2=80=99t be sure; I hav=
+e no particular evidence that the chief metaverse officers hired in 2022 we=
+re in fact any good at doing metaverse stuff. (Was the lion?) And my assump=
+tion is that Skill 3 is sort of permanently valuable, perhaps more so the m=
+ore trends and technologies change.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Pricing</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know, this is just a useful th=
+ing to learn at a young age:</p>
+<blockquote><p style=3D"margin: 16px 0;">He broke into the city=E2=80=99s p=
+rivate-school set and soon found himself in the fancy Fifth Avenue apartmen=
+t of a new client. Rim says that one day this teen=E2=80=99s mother gave hi=
+m a reality check. As Rim recalls it, =E2=80=9CShe said, =E2=80=98Chris, if=
+ you want to make it here in New York, you cannot charge $75. No one=E2=80=
+=99s going to take you seriously.=E2=80=99 =E2=80=9D Rim says she told him =
+to charge $1,500 an hour and vowed to bring him more clients.</p></blockquo=
+te>
+<p style=3D"margin: 16px 0;">That=E2=80=99s from this <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/34176316.282398/aHR0cHM6Ly9ueW1hZy5jb20=
+vaW50ZWxsaWdlbmNlci9hcnRpY2xlL2NvbGxlZ2UtYWRtaXNzaW9ucy1lZHVjYXRpb25hbC1jb2=
+5zdWx0YW50cy1jb21tYW5kLWVkdWNhdGlvbi5odG1s/607f07ceef4b8524a319a23cB5fa3227=
+b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">New York Magazine story</a> about Christopher Rim, the founder=
+ of Command Education, an extremely expensive college admissions counseling=
+ service. As a young man out of Yale, he started a modestly priced college =
+admissions counseling service, until a client correctly told him that there=
+ was more demand for an extremely expensive one.</p>
+<p style=3D"margin: 16px 0;">We=E2=80=99ve <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/34176316.282398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjMtMDktMTgvc2N1bHB0b3Itc3RpY2tzLXdpdGgtdGhlLWRlY=
+WwtaXQta25vd3M_Y21waWQ9QkJEMDEzMDI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1=
+dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTMwJnV0bV9jYW1wYWlnbj1tb25leXN=
+0dWZm/607f07ceef4b8524a319a23cB1138ac91" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  talked about Rim befor=
+e</a>, when <a href=3D"https://link.mail.bloombergbusiness.com/click/341763=
+16.282398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtM=
+DktMTgvc2N1bHB0b3Itc3RpY2tzLXdpdGgtdGhlLWRlYWwtaXQta25vd3M_Y21waWQ9QkJEMDEz=
+MDI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXR=
+tX3Rlcm09MjQwMTMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cC=
+1138ac91" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">  Bloomberg News reported</a> that another parent gave hi=
+m another great pricing idea: =E2=80=9CRim said a parent at New York=E2=80=
+=99s Trinity School =E2=80=94 a $64,000-a-year Ivy League-feeder =E2=80=94 =
+once offered him $1.5 million if he would agree not to work with any of his=
+ child=E2=80=99s classmates.=E2=80=9D Basically if you are extremely rich, =
+and buying positional goods like good college resumes, it is to your benefi=
+t for those goods to be as expensive =E2=80=94=C2=A0and thus exclusive =E2=
+=80=94 as possible. If you are in the business of selling those goods, that=
+=E2=80=99s nice for you.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Silicon Valley investors build <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/34176316.282398/aHR0cHM6Ly93d3cuZ=
+nQuY29tL2NvbnRlbnQvZWIyZTA4NWEtZWY1YS00ZTkxLTg2MzQtNzQ3ZTJhNjAyZmJl/607f07c=
+eef4b8524a319a23cB810be536" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> $300bn cash pile</a> in start-up fundi=
+ng crunch. Scandal-Hit Trading Desk Turns Into <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/34176316.282398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMzAvc2NhbmRhbC1oaXQtdHJhZGluZy1kZXNrLXR1c=
+m5zLWludG8tbW9uZXktc3Bpbm5lci1hdC13ZWxscy1mYXJnbz9jbXBpZD1CQkQwMTMwMjRfTU9O=
+RVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0=
+yNDAxMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBfa9528f5"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">  Money Spinner</a> at Wells Fargo. Private-Fund Lobbyists Get Set=
+ for High-Stakes <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+4176316.282398/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9wcml2YXRlLWZ1bmQtbG9i=
+Ynlpc3RzLWdldC1zZXQtZm9yLWhpZ2gtc3Rha2VzLXNlYy1jb3VydC1maWdodC1mNmMyYTU5Nj9=
+tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB934900d4" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> SEC=
+ Court Fight</a>. The Real-Estate Downturn Comes for America=E2=80=99s <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/aHR0cH=
+M6Ly93d3cud3NqLmNvbS9yZWFsLWVzdGF0ZS9jb21tZXJjaWFsL3RoZS1yZWFsLWVzdGF0ZS1kb=
+3dudHVybi1jb21lcy1mb3ItYW1lcmljYXMtcHJlbWllci1vZmZpY2UtdG93ZXJzLTcxNzQ3N2E5=
+P21vZD1ocF9sZWFkX3Bvczg/607f07ceef4b8524a319a23cB3d1172fb" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> Premier=
+ Office Towers</a>. Saudi Arabia <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/34176316.282398/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMTM2Zjg5=
+YTgtZjhkMi00MjdlLWE2MzMtMzc3MTA0YzgzN2Vh/607f07ceef4b8524a319a23cB0a0127cf"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> ditches plan</a> to raise oil production. Indonesia=E2=80=99s flo=
+od of nickel sparks <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/34176316.282398/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZGQ5NDM0YjQtMDRlNS00N=
+zRkLTg1ZmYtNzE0OWY4OWVmZDE5/607f07ceef4b8524a319a23cB9acb6372" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> =E2=
+=80=98Darwinian=E2=80=99 battle</a> for survival among miners. U.S. <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/aHR0cHM6L=
+y93d3cud3NqLmNvbS9idXNpbmVzcy9lbmVyZ3ktb2lsL29pbC1mcmFja2Vycy1lbGVjdHJpYy1w=
+b3dlci1ncmlkLTAzZjUyNzY3P21vZD1pdHBfd3Nq/607f07ceef4b8524a319a23cB720fd883"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Oil Drillers Are Going Electric</a>=E2=80=94if They Can Get the E=
+lectricity. Ex-Freshfields Partner Convicted Over <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/34176316.282398/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMzAvZXgtZnJlc2hmaWVsZHMtZ2xvYmFsLWhlYW=
+Qtb2YtdGF4LWNvbnZpY3RlZC1pbi1jdW0tZXgtY2FzZT9jbXBpZD1CQkQwMTMwMjRfTU9ORVlTV=
+FVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAx=
+MzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb73fed6b" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  Tax Scandal</a>. Steve Cohen, John Henry Group Set to Invest Billions=
+ in <a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.28239=
+8/aHR0cHM6Ly93d3cud3NqLmNvbS9zcG9ydHMvZ29sZi9wZ2EtdG91ci1zdGV2ZS1jb2hlbi1qb=
+2huLWhlbnJ5LWFydGh1ci1ibGFuay1saXYtZ29sZi1mMzA2OTk1OD9tb2Q9aXRwX3dzag/607f0=
+7ceef4b8524a319a23cB788a51fb" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> PGA Tour</a>.=C2=A0Musk Says First <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMjkvZWxvbi1tdX=
+NrLXNheXMtZmlyc3QtaHVtYW4tcGF0aWVudC1oYXMtcmVjZWl2ZWQtYnJhaW4taW1wbGFudD9jb=
+XBpZD1CQkQwMTMwMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3=
+c2xldHRlciZ1dG1fdGVybT0yNDAxMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4=
+b8524a319a23cB8c04873b" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  Neuralink Patient</a> Received Implant in=
+ Brain.=C2=A0Shaquille O=E2=80=99Neal Wants to Buy =E2=80=98<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/34176316.282398/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMzAvc2hhcS1vLW5lYWwtd2FudHMt=
+dG8tYnV5LXdoYXRldmVyLW5iYS10ZWFtLWlzLWF2YWlsYWJsZT9jbXBpZD1CQkQwMTMwMjRfTU9=
+ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT=
+0yNDAxMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7043b2aa=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">Whatever</a>=E2=80=99 NBA Team Is =E2=80=98Available.=E2=80=99</p=
+>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/34176316.282398/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB1686d347" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/34176316.282398/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBe90bbb54" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Don=E2=80=99t take those numbers too serio=
+usly. CoinMarketCap <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/34176316.282398/aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL3hycC8/6=
+07f07ceef4b8524a319a23cBc61ee019" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> tells me</a> that Ripple=E2=80=
+=99s XRP token briefly peaked at $3.021 in January 2018, and is at about $0=
+.53 now, but that=E2=80=99s a very brief peak and I=E2=80=99m not going to =
+worry about it too much. Its post-2018 peak is about $1.56 in April 2021, s=
+o down about 66% to today. <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/34176316.282398/aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL3=
+RlcnJhLWx1bmEv/607f07ceef4b8524a319a23cBbea68073" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> Meanwhile</a> Te=
+rra=E2=80=99s original Luna token hit $113.01 in April 2022 and is worth ap=
+parently $0.0001 today.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB3b604be4" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBf5b526f8" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB05b6ff87" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB0648c266" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB1def6e47" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.2823=
+98/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBba7467e6" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/34176316.282398/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC69e26fe1" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/34176316.282398/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB4f041f0d" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/34176316.282398/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBc3f69745" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB8=
+f0ef5f9" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34176316.282398/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB6=
+8fff655" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ckcim4.61we/c040fbe5.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_3078875_889711438.1706642773169--
+

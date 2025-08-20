@@ -1,0 +1,1861 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:1a95:b0:13a:e9d7:68bd with SMTP id gm21csp2694027rwb;
+        Mon, 28 Aug 2023 10:16:01 -0700 (PDT)
+X-Received: by 2002:a05:600c:11c1:b0:400:cc2d:5e00 with SMTP id b1-20020a05600c11c100b00400cc2d5e00mr10448621wmi.7.1693242961255;
+        Mon, 28 Aug 2023 10:16:01 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1693242961; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=fHCb2RUmTPpAPVkKyiqu6riRTbDxgTnfUR9n69j1JmosfoCu+fuWd7OPICwGNKX2HY
+         QD3/0SyTMZYzcISUJuQ8dmR6fZ/wRgRI/Z5+WldHvtHd4tKmMduV/foJP8BlOiMtzinI
+         72Sa5gkxngS5DW0sCqgSxqi/dGGATRFA4eKT6Ieznt+BtHdZEfG40ccIQ0zMQsVKT+kW
+         b+UXFluudf92lVkN4Iml7ouCo8qGRzSeVOx/Dwh2a84OTwhBruu7F5PV8W5Xi8BgWZ2s
+         dACSgX+1PsJOQnEwa/5TsrwnAZv7a5k5+dlMBXsMPjWRmBOf66tsuBSYzB0sTg+A/Tew
+         Sjkg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=F0XSLMzhj1jmHBSXC5365BHhlG5T/oNjsv1kLly/860=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=qZWaG/+/mm1lfxCIaU1GbO14AfzQI7LdTulQJh1aLfH+KhOMJQRTptxdWOKyRH8CWi
+         YWR7+sWIh4ch18dEUgidpq7Iawoyhwa4XGbhmYv8jbUMBeX64dQJjevkOEJeK4SleWjQ
+         Kj/3HL8vScG/h9vY4k+VEIzFFNsqt5g9fQoaqvdPhSRiFdA/iUby66JoSdS1Lv2IBbI3
+         WgVR7X9vP66os40GsR+YYM5bRseEjpHvAD4j4m+T7hBb6KVfSj9IUo18fPNs8O+ONKM3
+         kkaiauJ88LyGl3VbNaOsVdb6FjimpmANeQGYkkVBmNFf1lMpmMmRu2sTsfjlMBg9NpFW
+         SVGg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="xZ/5/0GE";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l21-20020a7bc455000000b003fbe4cecc69sor3029583wmi.0.2023.08.28.10.16.01
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 28 Aug 2023 10:16:01 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="xZ/5/0GE";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1693242961; x=1693847761;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=F0XSLMzhj1jmHBSXC5365BHhlG5T/oNjsv1kLly/860=;
+        b=SQsEpgcmgz5FoITc4lPVhRK0Wbw7aJVVX3OLxH0GJoe42Hr4lBnoBottarFfw1cb00
+         BkOHrltWKG7Gn+V18iCtB3SXy/lucAljEAHFJMQWKA+BKDASPCGPRItPfrtavmIiLeo+
+         3OAI9AfmHRQBl6XelECF4seStJ/Yg7oNrJ/D+PjS2ZeNBPqP6dDIULK2IJ31E6MWdz4r
+         XJz+kqMcEfWd9MkILfRKAfSohhYLXhkLj+byN5XMuZSc7AIhJH8GzXMNAg5EioUWiiRN
+         dnaJe3ajEFb6c75Zz3Ajag6ET/p/eXgDsgdQAqkj5sj1zDRyhPoZxYHla+nNU9EVmXDH
+         owUQ==
+X-Gm-Message-State: AOJu0YxTcEg1vtl6H/KLUVFORVSyPbFyF3h6BnbbYkpaOyro5eWM3E7/
+	WGwwwwkYKbdduv2Py6ZryY7rjegnwCjRQUMUPTDwvjHyDv0+Fcb5AQ==
+X-Received: by 2002:adf:f244:0:b0:319:6327:6adb with SMTP id b4-20020adff244000000b0031963276adbmr18502920wrp.70.1693242960673;
+        Mon, 28 Aug 2023 10:16:00 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5542:0:b0:317:6ac3:4e22 with SMTP id g2csp1079762wrw;
+        Mon, 28 Aug 2023 10:15:57 -0700 (PDT)
+X-Received: by 2002:a05:6808:1491:b0:3a7:4e0c:faa9 with SMTP id e17-20020a056808149100b003a74e0cfaa9mr13593251oiw.29.1693242956912;
+        Mon, 28 Aug 2023 10:15:56 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1693242956; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=TXOoYpc1HR/hcDmHs0SeRuIoB3FUnRG0AGcLLKWPalygJqFBjczj2hp4bcjO+V/X4g
+         AYBzPtUh3HFglGIDZJlF8Bcu/qB4+xwJOBZxRz4plS1ql75TWsJqxr3zVjEbFzFz1wp1
+         PAK334xyC/2KpxIyvhoXtrWelKp/VDEEihubx7rbzu6zutZSqF0C7N4gK3NkYH97Ikos
+         eScm2m0REOUocpjbIE60Tgyee6VNiPjl/EtvQSFvVuCQYdj33U402myAzvRuALgU6BVH
+         6u3J9WJP4lNPf6ONzT/MeffwdjWweIN0GAgn+X/RrD+N02urr2c+la6wevFMAVY4xrm/
+         R/tA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=F0XSLMzhj1jmHBSXC5365BHhlG5T/oNjsv1kLly/860=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=K6Xl6sucaxOS4P2KLDkpt9+Dc6kbUfZg30hZnf5AnPoxt+wuMESCvFak9ZjPmp/1Ic
+         MF66MfxGgYYmT8kcb66ehEOsdZvdz6IngMMIRUQ8mamLuPdmgPCIWvnHbX6YyKb6JtiG
+         JO7khvhyohgwPcB/5Soedid5vyUMcT+pAjVbTZnQo1J3t5KO4gDWXlnjvuY3Q7MAqDbG
+         t3e+9Mdreu2hVoSubDaYaIMisr52Bg0Fgy+RmBYeojlAp0LMOjfe30216nSbeJ6fpeEZ
+         TeZ6XdyPIAa5JWPwePauQKMv9YrYZ5JH3XHDNV7fqYzqnWnTe6SSVi2gV8/oyuHKYqn0
+         qq2g==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="xZ/5/0GE";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230828131555.32533691.258429@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230828131555.32533691.258429@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230828131555.32533691.258429@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 21-20020aca0915000000b003a429269c51sor3849543oij.0.2023.08.28.10.15.56
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 28 Aug 2023 10:15:56 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230828131555.32533691.258429@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IEBY44yu3hQp958Dr7HiuxVMRd4TsYprP27tSWTswiO68bQAObzEE5zJ2sWn5VSZ3A5HmGTHiDgauTozQ/u9vvPrfsbLUw=
+X-Received: by 2002:a05:6808:1491:b0:3a7:4e0c:faa9 with SMTP id e17-20020a056808149100b003a74e0cfaa9mr13593236oiw.29.1693242956637;
+        Mon, 28 Aug 2023 10:15:56 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1693242956; cv=none;
+        d=google.com; s=arc-20160816;
+        b=zsZp2Iv1wftGeNt6ew3BPt1vAqAQoxMWgwB6ZseFJjjt49bTooY31QRgKo/h9PgpoN
+         9z8hkf9Ys1JURGDYC78ghDpxtlnI7Yh8Q0vtaJsOTZ8mgG0txBPY3OipfDvUcYPKK1ec
+         gRS3UH74ot5857vKaY8iC4XZ7ACWucXcMy5A19bQXuqAcYD28tQtUiBEAkYdrVHEy+9/
+         ViOcGW1HoyMp5ESoZ3pPYlV8yqYyAIhhrNWvvUUGJLpLkwcTvINYlf2iv8JTZQBWDsGw
+         77H0SG3nbqbpS5JSdLboW7ATVPE9KdEwpVQpKSr1DQL+ufxYmjLqfnU51KICUQo2ZDTJ
+         +jhg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=F0XSLMzhj1jmHBSXC5365BHhlG5T/oNjsv1kLly/860=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=CkVUYaQNvSckj0CRjNlADBjimttpWT8So5O67KYEl+3QJMK2g3eJOiW9Hc9e/+UxgS
+         jk40kX43eQuXQ0YLWtntGqkenBdtlCos3fsdX5PrS9g5CyltxQ4U2gr7eCpHrNuCpiek
+         c6bJXZ8XRQe5g5JxKMANJWKGvGsXYXW89wShdQ/2Oj0+MCw69hZKyHYxA0CvdQVmeDUT
+         xb3HBsFYGezPff8OY5blU5bb09Ehcc2u8aQ04wQK7EM3vyLO8zSN4hUwUw7KAS3Nnh9C
+         sodsIweKPGxQL+sJjUGi8cKfTdvy2eZxhpxnhwt9EeRUUB1Fc4AzdFyVSu6tA9Mg34+8
+         LbJg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="xZ/5/0GE";
+       spf=pass (google.com: domain of delivery_20230828131555.32533691.258429@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230828131555.32533691.258429@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230828131555.32533691.258429@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id gu15-20020a0568082f0f00b003a8a0b717ddsi1082982oib.3.2023.08.28.10.15.56
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 28 Aug 2023 10:15:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230828131555.32533691.258429@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=wJDJrvtiiShh1o7hvMYuy6fdgL15Df5XCRrs+9JAn7s=;
+ b=xZ/5/0GE8BWpi7ho1Ip4FWGNMww2E/TKD9x+B6DRcUnPxd7XjBFLolsjg92/2qeqpSlqhArcJdy7
+   VfqV2Mf5QFosr/SrBUZAp/30ctpNdrNmu9L1eKLITwoz2IR7LWremLyP/k3QNHX5aMqOeSfnCWpm
+   ExrUFB3UxRgr5kOgdwo=
+Received: from ip-10-55-93-190.ec2.internal (10.55.93.190) by aws1-mta-relay3.sailthru.cloud id htjb4m1qqbsg for <bloomberg@khamel.com>; Mon, 28 Aug 2023 12:15:55 -0500 (envelope-from <delivery_20230828131555.32533691.258429@mx.sailthru.com>)
+Date: Mon, 28 Aug 2023 13:15:55 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230828131555.32533691.258429@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IExvYW5zIFN0aWxsIEFyZW7igJl0IFNlY3VyaXRpZXM=?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_44297610_968971599.1693242955791"
+Precedence: bulk
+x-job: 6358-32533691-20230828
+X-Feedback-ID: 6358:32533691:campaign:sailthru
+X-TM-ID: 20230828131555.32533691.258429
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-93-190.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjdb5n.5jel/7e79c9e1
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjdb5n.5jel/7e79c9e1>, <mailto:unsubscribe_20230828131555.32533691.258429@mx.sailthru.com>
+X-rpcampaign: stjko32533691
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_44297610_968971599.1693242955791
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        The rule in the US is that corporate bonds are =E2=80=9Csecurities=
+=E2=80=9D and corporate loans are not. Bonds are subject to the securities =
+laws and regula
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Are loans securities?
+   =20
+ =20
+
+The rule in the US is that corporate=C2=A0bonds are =E2=80=9Csecurities=E2=
+=80=9D and corporate loans are not. Bonds are subject to the securities law=
+s and regulated by the US Securities and Exchange Commission, and if the is=
+suer of a bond lies to a buyer then that=E2=80=99s securities fraud. Loans =
+are not subject to securities laws, not regulated by the SEC, and lying abo=
+ut loans is probably some sort of fraud, but not=C2=A0securities=C2=A0fraud=
+.
+The traditional reason for this distinction is that bonds could be sold to =
+mom-and-pop investors and traded on secondary markets, so you wanted good p=
+ublic securities-style disclosure about those bonds, while loans were made =
+by banks which held them to maturity. Banks, the theory went, didn=E2=80=99=
+t need the protections of securities laws, because they were banks. They we=
+re sophisticated lenders who knew their borrowers intimately and got much m=
+ore information before making a loan than they would get from a bond prospe=
+ctus. And loans were structurally less risky and volatile than bonds: They =
+were secured by collateral, so they were safer than unsecured bonds, and th=
+e fact that they didn=E2=80=99t trade meant that lenders didn=E2=80=99t usu=
+ally have big mark-to-market losses on their loans.
+  [1]
+=C2=A0Also, on the other side, bonds tended to be issued by big stable inve=
+stment-grade companies that could afford to do securities-style disclosure,=
+ while banks would often lend money to smaller companies that couldn=E2=80=
+=99t.
+Everything in that paragraph is a lot less true now than it was 30 years ag=
+o. Now, bonds and loans are pretty similar to each other:
+=09The investor bases are much more similar. On the bond side, many bonds a=
+re sold in private placements
+  [2]
+=C2=A0limited to institutional investors (asset managers, hedge funds, etc.=
+), not retail. On the loan side, many loans are syndicated to institutional=
+ investors (hedge funds, collateralized loan obligations, etc.), not banks.=
+ And loans are less=C2=A0relationship-driven:=C2=A0A loan is less likely to=
+ be made by one bank that knows the borrower well and plans to hold the loa=
+n to maturity, and more likely to be made by a group of banks that look lik=
+e bond underwriters and go sell the loans to investors.=09The issuer bases =
+are much more similar: Investment-grade companies borrow in the bond and lo=
+an markets, but so do non-investment-grade companies. Leveraged buyouts are=
+ often funded by some mix of bonds and bank loans issued by the same compan=
+y.=09The secondary markets are much more similar: Bonds and loans both trad=
+e among institutions and are to some extent substitutes for each other.
+
+Bonds are still more often unsecured and fixed-rate, and loans are still mo=
+re often secured and floating-rate, but the differences are less prominent.
+If you were reimagining the market from scratch, you might say, well, eithe=
+r bonds and loans are both securities, or neither of them are, since they a=
+re kind of the same things issued by the same companies and traded by the s=
+ame investors. Should they both be securities, or neither? I tend to think =
+that they should both be securities: They are both investments in companies=
+, traded on financial markets=C2=A0by financial institutions, like securiti=
+es. Also=C2=A0the Securities Act of 1933  defines =E2=80=9Csecurity=E2=80=
+=9D to mean, among other things, =E2=80=9Cany note, =E2=80=A6=C2=A0bond, de=
+benture, evidence of indebtedness,=E2=80=9D etc., so bonds are definitely s=
+ecurities and it sure sounds like loans (=E2=80=9Cnotes,=E2=80=9D =E2=80=9C=
+evidences of indebtedness=E2=80=9D) are too. But honestly I don=E2=80=99t f=
+eel that strongly about this; both are largely issued in institutional mark=
+ets to big investors who can and do demand disclosure even without the prot=
+ection of securities laws. Either way would be fine.
+But, again, the traditional rule is that bonds are securities and loans are=
+n=E2=80=99t. This rule is sometimes cited to a 1990 case called  Reves v. E=
+rnst & Young, in which the US Supreme Court said that =E2=80=9Cthe phrase =
+=E2=80=98any note=E2=80=99=E2=80=9D in the definition of a security=C2=A0=
+=E2=80=9Cshould not be interpreted to mean literally =E2=80=98any note.=E2=
+=80=99=E2=80=9D It set out a very woolly test for when a loan is a security=
+:
+First, we examine the transaction to assess the motivations that would prom=
+pt a reasonable seller and buyer to enter into it. If the seller's purpose =
+is to raise money for the general use of a business enterprise or to financ=
+e substantial investments and the buyer is interested primarily in the prof=
+it the note is expected to generate, the instrument is likely to be a "secu=
+rity." If the note is exchanged to facilitate the purchase and sale of a mi=
+nor asset or consumer good, to correct for the seller's cash-flow difficult=
+ies, or to advance some other commercial or consumer purpose, on the other =
+hand, the note is less sensibly described as a "security." ... Second, we e=
+xamine the "plan of distribution" of the instrument =E2=80=A6=C2=A0to deter=
+mine whether it is an instrument in which there is "common trading for spec=
+ulation or investment." ... Third, we examine the reasonable expectations o=
+f the investing public: The Court will consider instruments to be "securiti=
+es" on the basis of such public expectations, even where an economic analys=
+is of the circumstances of the particular transaction might suggest that th=
+e instruments are not "securities" as used in that transaction. =E2=80=A6=
+=C2=A0Finally, we examine whether some factor such as the existence of anot=
+her regulatory scheme significantly reduces the risk of the instrument, the=
+reby rendering application of the Securities Acts unnecessary.
+My impression is that nobody has any idea what any of that means, except th=
+at they sort of assume =E2=80=9Cwell bank loans are made by banks, which ar=
+e regulated by bank regulators, which is =E2=80=98another regulatory regime=
+,=E2=80=99 so they=E2=80=99re not securities.=E2=80=9D Though even that isn=
+=E2=80=99t true anymore!
+Still people occasionally push back on this. In 2014, a=C2=A0company called=
+ Millennium Health LLC did a $1.775 billion syndicated term loan; Citigroup=
+ Inc. and JPMorgan Chase & Co. led the syndication and sold the loan to 61 =
+different lenders. Millennium then got in trouble for some billing fraud, p=
+aid a=C2=A0$256 million settlement to the government and filed for bankrupt=
+cy in 2015, and a trustee for the lenders sued JPMorgan and Citi for securi=
+ties violations. The theory is that the loans were securities, JPMorgan and=
+ Citi were underwriters, and they didn=E2=80=99t disclose enough about the =
+billing fraud. JPMorgan and Citi moved to dismiss the securities claims, sa=
+ying that the loans were not securities. The district court agreed and dism=
+issed those claims, the trustee appealed, the case spent years in court,=C2=
+=A0the appeals court asked the SEC to weigh in and it  awkwardly declined.=
+=C2=A0
+Last week, finally,   the banks won on appeal: Corporate loans are still no=
+t securities. You can read  the opinion here. It applies the Reves test in =
+a way that is even woollier than the original. For instance, was the purpos=
+e of Millennium=E2=80=99s term loan =E2=80=9Cinvestment=E2=80=9D or =E2=80=
+=9Ccommercial=E2=80=9D? Ehh I dunno whatever:
+
+On the one hand, the pleaded facts plausibly suggest that the lenders=E2=80=
+=99 motivation was investment because the lenders expected to profit from t=
+heir purchase of the Notes. Under the Credit Agreement, the lenders were en=
+titled to receive quarterly interest payments over the course of seven year=
+s. They therefore expected to receive a =E2=80=9Cvaluable return=E2=80=9D o=
+n their purchase of the Notes.
+On the other hand, the pleaded facts do not plausibly suggest that Millenni=
+um=E2=80=99s motivation was investment. Millennium was not using the Term L=
+oan to raise funds for its urine testing business or to finance other inves=
+tments. Instead, it planned to use the Term Loan to pay the outstanding amo=
+unt due under the 2012 Credit Agreement, make a shareholder distribution, =
+=E2=80=9Credeem outstanding warrants, debentures and stock options,=E2=80=
+=9D and pay fees and expenses related to the Transaction.=C2=A0These uses s=
+uggest that Millennium=E2=80=99s motivation was commercial.
+
+If a company borrows money to fund its business, that is =E2=80=A6=C2=A0=E2=
+=80=9Cinvestment=E2=80=9D? But if it borrows money to pay cash out to share=
+holders, that is =E2=80=A6=C2=A0=E2=80=9Ccommercial=E2=80=9D? I dunno. Seco=
+nd factor:
+The pleaded facts do not plausibly suggest that the Notes were =E2=80=9Coff=
+ered and sold to a broad segment of the public.=E2=80=9D The Lead Arrangers=
+ offered the Notes only to sophisticated institutional entities, providing =
+them with a Confidential Information Memorandum.
+Yes, they were sold only to institutional investors, same as most bonds. Th=
+ird factor:
+The pleaded facts do not plausibly suggest that the lenders reasonably perc=
+eived the Notes as securities. Instead, we are persuaded that the sophistic=
+ated entities that purchased the Notes =E2=80=9Cwere given ample notice tha=
+t the [Notes] were . . . loans and not investments in a business enterprise=
+.=E2=80=9D=C2=A0Before purchasing the Notes, the lenders certified that the=
+y were =E2=80=9Csophisticated and experienced in extending credit to entiti=
+es similar to [Millennium].=E2=80=9D
+Again, same as bonds. Fourth factor:
+The pleaded facts do not plausibly suggest that application of securities l=
+aws are necessary here for two reasons. First, the Notes were =E2=80=9Csecu=
+red by a perfected first priority security interest in all of [Millennium=
+=E2=80=99s] tangible and intangible assets,=E2=80=9D i.e., Millennium=E2=80=
+=99s collateral. That perfected first priority security interest reduces th=
+e risk associated with the Notes. Second, the Office of the Comptroller of =
+the Currency, the Board of Governors of the Federal Reserve System, and the=
+ Federal Deposit Insurance Corporation (jointly, the =E2=80=9CBank Regulato=
+rs=E2=80=9D) issued =E2=80=9Cspecific policy guidelines=E2=80=9D addressing=
+ syndicated term loans.
+The stuff about collateral is true, but of course Millennium went bankrupt =
+and the lenders lost money, so it=E2=80=99s not=C2=A0that=C2=A0true. The th=
+ing that matters here, I think, is the last sentence:=C2=A0Bank regulators=
+=C2=A0regulate syndicated loans (even though most of the lenders aren=E2=80=
+=99t banks), so=C2=A0securities law=C2=A0doesn=E2=80=99t have to.
+None of this makes very much sense on an intellectual level. On the other h=
+and, surely the thinking=C2=A0here =E2=80=94 and probably the reason the SE=
+C declined to weigh in =E2=80=94=C2=A0is that the loan market works fine, t=
+he bond market works fine, and there=E2=80=99s no reason to change anything=
+, and changing the rules of the loan market would, at least in the short te=
+rm, cause a lot of disruption. It doesn=E2=80=99t make a ton of sense that =
+bonds are securities and loans aren=E2=80=99t, but it doesn=E2=80=99t reall=
+y cause much trouble either, so the courts might as well leave it alone.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Are NFTs securities?
+   =20
+ =20
+
+I   like to   explain crypto initial coin offerings by saying that =E2=80=
+=9Cthey=E2=80=99re like if the Wright Brothers sold air miles to finance in=
+venting the airplane,=E2=80=9D so here=E2=80=99s another old-timey analogy =
+for non-fungible token offerings. Imagine that one day in the boom times of=
+ the 1920s a young animator named Walter Disney shows up at the stock marke=
+t one day looking to raise money for his new company. =E2=80=9CI am going t=
+o make a fortune making movies and theme parks,=E2=80=9D he says, =E2=80=9C=
+and I am giving you the opportunity to invest early. I=E2=80=99m not sellin=
+g you shares of my company, though; I=E2=80=99m selling something even bett=
+er. Here=E2=80=99s a drawing of a mouse. If you give me $1 million, I will =
+use it to build a movie studio and theme-park empire, and the mouse will fe=
+ature prominently in that empire, and you will get the royalties from that =
+mouse. Here=E2=80=99s a dog, and a duck, and some nephew ducks. Same deal, =
+though the nephew=C2=A0ducks are cheaper.=E2=80=9D
+Obviously that would, in hindsight, have been a good investment. What kind =
+of investment would it have been? Would it have been like=C2=A0buying art?=
+=C2=A0Would it have been like=C2=A0buying intellectual property?=C2=A0Or wo=
+uld it have been like=C2=A0investing in a speculative business?=C2=A0The mo=
+use is a picture of a mouse, like art, but he=E2=80=99s valuable if Disney =
+builds a film and theme-park empire and not if he doesn=E2=80=99t, like sto=
+ck.
+You could expand it. =E2=80=9CI have drawn 101 dalmations,=E2=80=9D he migh=
+t go on. =E2=80=9CThey all look like, you know, dalmations. You can buy any=
+ one of them, and get the royalties from that dalmation, and use that dalma=
+tion in any spinoff intellectual property you want. Dalmation 43 has diamon=
+ds on her collar; Dalmation 81=E2=80=99s ears are in sort of a sassy pose; =
+maybe those dalmations are worth more, I dunno, what=E2=80=99ll you pay me =
+for them?=E2=80=9D
+Here=E2=80=99s an SEC=C2=A0NFT enforcement action:
+
+The Securities and Exchange Commission today charged Impact Theory, LLC, a =
+media and entertainment company headquartered in Los Angeles, with conducti=
+ng an unregistered offering of crypto asset securities in the form of purpo=
+rted non-fungible tokens (NFTs). Impact Theory raised approximately $30 mil=
+lion from hundreds of investors, including investors across the United Stat=
+es, through the offering.
+According to the SEC=E2=80=99s order, from October to December 2021, Impact=
+ Theory offered and sold three tiers of NFTs, known as Founder=E2=80=99s Ke=
+ys, which Impact Theory called =E2=80=9CLegendary,=E2=80=9D =E2=80=9CHeroic=
+,=E2=80=9D and =E2=80=9CRelentless.=E2=80=9D The order finds that Impact Th=
+eory encouraged potential investors to view the purchase of a Founder=E2=80=
+=99s Key as an investment into the business, stating that investors would p=
+rofit from their purchases if Impact Theory was successful in its efforts. =
+Among other things, Impact Theory emphasized that it was =E2=80=9Ctrying to=
+ build the next Disney,=E2=80=9D and, if successful, it would deliver =E2=
+=80=9Ctremendous value=E2=80=9D to Founder=E2=80=99s Key purchasers. The or=
+der finds that the NFTs offered and sold to investors were investment contr=
+acts and therefore securities. Accordingly, Impact Theory violated the fede=
+ral securities laws by offering and selling these crypto asset securities t=
+o the public in an unregistered offering that was not otherwise exempt from=
+ registration.
+
+Impact Theory settled, paying about $6.1 million without admitting or denyi=
+ng the charges. I don=E2=80=99t know! On the one hand, in the hypothetical =
+Disney case, I think it is not at all clear that the mouse or even the dalm=
+ations are securities; they do get their value from Disney=E2=80=99s effort=
+s to build a company, but they are independent pieces of intellectual prope=
+rty and it seems weird to think of them as securities.
+On the other hand, this company wasn=E2=80=99t Disney. The=C2=A0 SEC=E2=80=
+=99s order=C2=A0includes some pictures of the NFTs and they are =E2=80=A6=
+=C2=A0I dunno, vaguely sci-fi stuff, I=E2=80=99m not even sure what they ar=
+e supposed to look like? A plucky young mouse they are not. And:
+
+Impact Theory also underscored that this purported value would be derived f=
+rom the company=E2=80=99s efforts, and that Impact Theory would use the pro=
+ceeds from the Offering for =E2=80=9Cdevelopment,=E2=80=9D =E2=80=9Cbringin=
+g on more team,=E2=80=9D and =E2=80=9Ccreating more projects.=E2=80=9D For =
+example, Impact Theory stated:
+A. =E2=80=9CBut yeah, I will make sure that we do something that by any rea=
+sonable standard, people got a crushing, hilarious amount of value.=E2=80=
+=9D
+B. =E2=80=9CThe key takeaway that I want you to have is that there is a lot=
+ of cool things coming in the next 18 to 24 months. And that is ultimately =
+a tiny fraction of the things that will be coming in the next five years. T=
+he reason that we=E2=80=99re only selling on the next 18-to-24 month hype i=
+s I want you guys to be able to capture 90 percent of the economic value of=
+ all the big things that we will do in the coming years beyond that. And th=
+e only way to do that is to only sell and set the price based on the things=
+ that we=E2=80=99re doing in the short term, and that will leave the upside=
+ to be largely captured by you guys.=E2=80=9D
+C. =E2=80=9CWe=E2=80=99re going to be investing that money into development=
+, into bringing on more team, creating more projects, making sure that we=
+=E2=80=99re delivering just an obscene amount of value. Until people are gi=
+ggling thinking that they can=E2=80=99t believe that they paid =E2=80=93 yo=
+u know =E2=80=93 whichever tier they come in on and are getting all this va=
+lue =E2=80=93 until that=E2=80=99s the sentiment =E2=80=93 we will just kee=
+p stocking it with value.=E2=80=9D
+
+Yeah sounds like securities. No one is touting the aesthetic value of the N=
+FTs,=C2=A0or even=C2=A0saying what the intellectual property franchise woul=
+d be; they=E2=80=99re just talking about getting rich.=C2=A0
+
+ =20
+   =20
+      ESG pay
+   =20
+ =20
+
+Traditional corporate finance theory says that the sole purpose of the corp=
+oration is to maximize profits for shareholders, not because that is=C2=A0t=
+he most important thing in the world, but because it is very helpful to pic=
+k=C2=A0one=C2=A0thing. Corporations are, for the most part, run by their ex=
+ecutives and directors, who mostly choose their own successors without much=
+ oversight from shareholders or anyone else. If the rule is =E2=80=9Cexecut=
+ives have to maximize profits for shareholders,=E2=80=9D that gives directo=
+rs and shareholders and governance activists and everyone else something to=
+ measure: If profits are good, then the executives are doing a good job; if=
+ they aren=E2=80=99t they aren=E2=80=99t.
+If the rule is =E2=80=9Cexecutives have to maximize profits for shareholder=
+s, minimize pollution and maximize employee morale,=E2=80=9D then executive=
+s and directors have a lot of leeway in=C2=A0measuring=C2=A0their performan=
+ce. =E2=80=9CAh well our buddy the CEO didn=E2=80=99t make a lot of money f=
+or shareholders=C2=A0this year,=E2=80=9D the directors can say, =E2=80=9Can=
+d the pollution is terrible, but surveys show employee satisfaction is up 0=
+.3 points on a 7-point scale, so let=E2=80=99s max out her bonus.=E2=80=9D=
+=C2=A0
+It is not a law of nature that the board=C2=A0has=C2=A0to do this, of cours=
+e. But=C2=A0boards and executives tend to be friendly with each other and n=
+ot subject to much outside oversight, and if you don=E2=80=99t give them cl=
+ear unambiguous criteria then they might tend to do what is in their intere=
+sts rather than what is in the interests of=C2=A0anyone=C2=A0else, sharehol=
+ders or employees or the environment. A company answerable for one metric t=
+o one set of shareholders has to perform; a company answerable for several =
+metrics to several sets of stakeholders can always point to something else.
+This is not universally and absolutely true, but it is a useful rule of thu=
+mb. It is what I think of, for instance, when I see a bunch of public-compa=
+ny chief executive officers saying that the =E2=80=9Cpurpose of a corporati=
+on=E2=80=9D is not shareholder value but rather to deliver value to =E2=80=
+=9Call stakeholders=E2=80=9D: =E2=80=9COh, right,=E2=80=9D  I think, =E2=80=
+=9Cthe CEOs want to be able to brush off shareholder complaints by saying =
+=E2=80=98but think of the employees,=E2=80=99 and brush off employee compla=
+ints by saying =E2=80=98but think of the community,=E2=80=99 and brush off =
+community complaints by saying =E2=80=98but think of the shareholders,=E2=
+=80=99 and just do whatever they want.=E2=80=9D A CEO answerable to =E2=80=
+=9Call stakeholders=E2=80=9D is answerable to none of them.
+Anyway  here=E2=80=99s this:
+
+A growing number of blue-chip US companies are using environmental and soci=
+al factors to decide bonuses for top executives, but investors are worried =
+the metrics are being gamed to increase payouts.
+Three-quarters of S&P 500 companies have disclosed that environmental, soci=
+al and governance metrics contributed to executives=E2=80=99 pay, up from t=
+wo-thirds of companies in 2021, according to data from The Conference Board=
+ and Esgauge, an ESG data analytics firm. =E2=80=A6
+=E2=80=9CWe are sceptical of ESG metrics being used in compensation,=E2=80=
+=9D said Ben Colton, head of stewardship at State Street Global Advisors, w=
+hich manages $3.79tn. =E2=80=9COftentimes they are very subjective, fluffy =
+and easily gamed.=E2=80=9D
+At Southwest, chief executive Robert Jordan=E2=80=99s pay increased 76 per =
+cent to $5.3mn last year even though the airline angered passengers by canc=
+elling more than 16,700 flights during the holiday season.
+Southwest, in a regulatory filing earlier this year, said the December canc=
+ellations negatively affected executives=E2=80=99 bonuses, but added: =E2=
+=80=9CWith respect to ESG initiatives, including DEI and sustainability, th=
+e [board] determined that the company performed above target-level expectat=
+ions.=E2=80=9D DEI stands for diversity, equity and inclusion.
+
+The board can=C2=A0always=C2=A0determine that the company performed above t=
+arget-level expectations on DEI initiatives, whereas =E2=80=9Cdid the plane=
+s take off?=E2=80=9D is harder to game.
+
+ =20
+   =20
+      SVB wine
+   =20
+ =20
+
+A few weeks ago, walking down the street in Midtown, I saw someone wearing =
+a t-shirt that said =E2=80=9CSilicon Valley Bank Risk Management Department=
+, Spring 2023.=E2=80=9D I am pretty sure it was printed as an after-the-fac=
+t joke,
+  [3]
+ just because, if Silicon Valley Bank=E2=80=99s risk management department =
+had actually had team t-shirts printed in spring 2023, and you got one, you=
+ would not go around wearing it, not because you were embarrassed (though, =
+maybe?) but=C2=A0because it would be=C2=A0worth $10,000 on eBay. Few things=
+ are more coveted=C2=A0than the relics of failed financial firms. I have an=
+ FTX water bottle.=C2=A0
+And so if you bought Silicon Valley Bank=E2=80=99s actual wine collection a=
+t a Federal Deposit Insurance Corp. auction, and you plan to resell it, sho=
+uld you prominently advertise it as being SVB=E2=80=99s wine collection? Ab=
+solutely! That wine is far more delicious knowing that it came from a faile=
+d bank.  The Wall Street Journal reports:
+
+When [Heritage Auctions wine director Frank]=C2=A0Martell heard through the=
+ grapevine that the Federal Deposit Insurance Corp. was having the wine auc=
+tioned off, he was eager to jump in. After all, a rare-coin company buying =
+wine from two collapsed banks seemed, if nothing else, weirdly poetic. ...
+After a number of rounds, Martell won the auction for the SVB wine lot for =
+roughly $150,000 with fees, a discount of about 40%. Later, he nabbed the m=
+ore-than-400-bottle First Republic wine collection for less than $20,000, a=
+t about the same discount. Together the collections include bottles with pr=
+ice tags that range from $3 to $1,000 a pop.
+Martell estimates that Heritage will make tens of thousands of dollars from=
+ the two bank wine collections, some of which the company plans to sell at =
+its Fine & Rare Wine Signature Auction in Beverly Hills this September. Her=
+itage went back and forth over whether to advertise where the wine had come=
+ from. It ultimately decided it would.
+
+Correct. SVB was big in the wine lending business, but it doesn=E2=80=99t s=
+eem like this wine was seized collateral from loans gone bad; this was just=
+ the corporate collection, I think, kept in =E2=80=9Celaborate climate-cont=
+rolled cellars built within the bank=E2=80=99s Santa Clara and Menlo Park b=
+ranches.=E2=80=9D (Even the $3 bottles?) Anyway the FDIC has fun:
+
+When banks fail, the government can suddenly find itself in charge of =E2=
+=80=9Cspecialty assets=E2=80=9D that are extravagant, strange=E2=80=94or ev=
+en in flames.=C2=A0
+The oddball asset sales are lore within the FDIC. A column in its internal =
+newsletter periodically plumbed the history until the author, Jay Rosenstei=
+n, retired in 2020, an agency spokesman said. Among the items it recounted:=
+ 25,000 pounds of frozen rabbit, a 12% share in the Dallas Cowboys in the l=
+ate 1980s, a coal mine =E2=80=9Cthat was on fire the day the bank was close=
+d=E2=80=9D and abandoned churches and synagogues. Once, the FDIC seized a S=
+tyrofoam cooler that turned out to be holding a human skull.
+
+Do you think the FDIC put out the fire? I feel like these days you could ma=
+ke more money by selling =E2=80=9CFailed Bank=E2=80=99s Coal Mine, Currentl=
+y On Fire=E2=80=9D than if you put the fire out. People want a good disaste=
+r story!
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Goldman Is   Selling a Wealth-Advisory Unit to $240 Billion Money Manager. =
+SEC Probes Major Lender Over   Mortgage-Backed Securities Sold to Wall Stre=
+et. The =E2=80=98Fidelity Mafia=E2=80=99 Behind Big Crypto.=C2=A0  Bitcoin =
+ETF Deadlines Loom Again for SEC Ahead of Labor Day Weekend. SoftBank seeks=
+ to build  investment war chest on back of Arm IPO. 3M Agrees to Pay More T=
+han $5.5 Billion Over Combat Earplugs. Hester Peirce  profile. FTX turns to=
+ Mike Novogratz=E2=80=99s Galaxy Digital to  sell crypto tokens. Corporate =
+ crowdfunding. The Silicon Valley Elite Who Want to  Build a City From Scra=
+tch. =E2=80=9CThe prime years for making smart financial decisions are, on =
+average,  53 and 54.=E2=80=9D The Next Wave of Scams Will Be   Deepfake Vid=
+eo Calls From Your Boss. France to pay farmers =E2=82=AC200mn for  destroyi=
+ng wine surplus.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] I realize =E2=80=9Cthey don=E2=80=99t trade so their price can=E2=80=
+=99t go down=E2=80=9D is not correct as a matter of financial theory, but i=
+t=20
+has some intuitive appeal. Also corporate loans are stereotypically floatin=
+g-rate, while corporate bonds are stereotypically fixed-rate, which makes b=
+ond prices more volatile when rates move.
+
+
+  [2] Capital markets people sometimes use the term =E2=80=9Cprivate placem=
+ent=E2=80=9D to mean, like, selling the bonds to only a handful of big inve=
+stors in a negotiated deal, whereas lawyers sometimes use it to mean sellin=
+g the bonds only to big investors (possibly dozens or hundreds) in a regula=
+r-way underwritten transaction exempt from securities-law registration requ=
+irements. Here I am using it in the latter sense, what capital markets peop=
+le call =E2=80=9C144A deals,=E2=80=9D where you sell bonds broadly to insti=
+tutions in a way that avoids registration requirements.
+
+
+  [3] Casual Googling finds many versions of it on Etsy.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjdb5n.5jel/9c39583b.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_44297610_968971599.1693242955791
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+The rule in the US is that corporate bonds are =E2=80=9Csecurities=E2=80=9D=
+ and corporate loans are not. Bonds are subject to the securities laws and =
+regula
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32533691.258429/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwODI4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MjgmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB9408189c"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32533691.258429/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjUzMzY5MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI3OTIxMjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBd70cf9b9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32533691&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32792120&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Are loans securities?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The rule in the US is that corporate=C2=A0bond=
+s are =E2=80=9Csecurities=E2=80=9D and corporate loans are not. Bonds are s=
+ubject to the securities laws and regulated by the US Securities and Exchan=
+ge Commission, and if the issuer of a bond lies to a buyer then that=E2=80=
+=99s securities fraud. Loans are not subject to securities laws, not regula=
+ted by the SEC, and lying about loans is probably some sort of fraud, but n=
+ot=C2=A0<em>securities=C2=A0</em>fraud.</p>
+<p style=3D"margin: 16px 0;">The traditional reason for this distinction is=
+ that bonds could be sold to mom-and-pop investors and traded on secondary =
+markets, so you wanted good public securities-style disclosure about those =
+bonds, while loans were made by banks which held them to maturity. Banks, t=
+he theory went, didn=E2=80=99t need the protections of securities laws, bec=
+ause they were banks. They were sophisticated lenders who knew their borrow=
+ers intimately and got much more information before making a loan than they=
+ would get from a bond prospectus. And loans were structurally less risky a=
+nd volatile than bonds: They were secured by collateral, so they were safer=
+ than unsecured bonds, and the fact that they didn=E2=80=99t trade meant th=
+at lenders didn=E2=80=99t usually have big mark-to-market losses on their l=
+oans.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: none !important; background-color: =
+transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0Also, on the other side, bonds tended to be issued by big stable =
+investment-grade companies that could afford to do securities-style disclos=
+ure, while banks would often lend money to smaller companies that couldn=E2=
+=80=99t.</p>
+<p style=3D"margin: 16px 0;">Everything in that paragraph is a lot less tru=
+e now than it was 30 years ago. Now, bonds and loans are pretty similar to =
+each other:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The investor bases are much more simi=
+lar. On the bond side, many bonds are sold in private placements<a class=3D=
+"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: none !important; background-color: transparent !imp=
+ortant; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0limited to institutional investors (asset managers, hedge funds, =
+etc.), not retail. On the loan side, many loans are syndicated to instituti=
+onal investors (hedge funds, collateralized loan obligations, etc.), not ba=
+nks. And loans are less=C2=A0<em>relationship-driven:=C2=A0</em>A loan is l=
+ess likely to be made by one bank that knows the borrower well and plans to=
+ hold the loan to maturity, and more likely to be made by a group of banks =
+that look like bond underwriters and go sell the loans to investors.</li>=
+=09<li style=3D"margin-bottom: 5px;">The issuer bases are much more similar=
+: Investment-grade companies borrow in the bond and loan markets, but so do=
+ non-investment-grade companies. Leveraged buyouts are often funded by some=
+ mix of bonds and bank loans issued by the same company.</li>=09<li style=
+=3D"margin-bottom: 5px;">The secondary markets are much more similar: Bonds=
+ and loans both trade among institutions and are to some extent substitutes=
+ for each other.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Bonds are still more often unsecured and fixed=
+-rate, and loans are still more often secured and floating-rate, but the di=
+fferences are less prominent.</p>
+<p style=3D"margin: 16px 0;">If you were reimagining the market from scratc=
+h, you might say, well, either bonds and loans are both securities, or neit=
+her of them are, since they are kind of the same things issued by the same =
+companies and traded by the same investors. Should they both be securities,=
+ or neither? I tend to think that they should both be securities: They are =
+both investments in companies, traded on financial markets=C2=A0by financia=
+l institutions, like securities. Also=C2=A0the Securities Act of 1933 <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/32533691.258429/aHR0cHM=
+6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzE1Lzc3Yg/607f07ceef4b8524a31=
+9a23cB79fc9299" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> defines</a> =E2=80=9Csecurity=E2=80=9D to mean, am=
+ong other things, =E2=80=9Cany note, =E2=80=A6=C2=A0bond, debenture, eviden=
+ce of indebtedness,=E2=80=9D etc., so bonds are definitely securities and i=
+t sure sounds like loans (=E2=80=9Cnotes,=E2=80=9D =E2=80=9Cevidences of in=
+debtedness=E2=80=9D) are too. But honestly I don=E2=80=99t feel that strong=
+ly about this; both are largely issued in institutional markets to big inve=
+stors who can and do demand disclosure even without the protection of secur=
+ities laws. Either way would be fine.</p>
+<p style=3D"margin: 16px 0;">But, again, the traditional rule is that bonds=
+ are securities and loans aren=E2=80=99t. This rule is sometimes cited to a=
+ 1990 case called <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+32533691.258429/aHR0cHM6Ly9zdXByZW1lLmp1c3RpYS5jb20vY2FzZXMvZmVkZXJhbC91cy8=
+0OTQvNTYv/607f07ceef4b8524a319a23cB800ae2fe" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> Reves v. Ernst &amp; =
+Young</a>, in which the US Supreme Court said that =E2=80=9Cthe phrase =E2=
+=80=98any note=E2=80=99=E2=80=9D in the definition of a security=C2=A0=E2=
+=80=9Cshould not be interpreted to mean literally =E2=80=98any note.=E2=80=
+=99=E2=80=9D It set out a very woolly test for when a loan is a security:</=
+p>
+<blockquote><p style=3D"margin: 16px 0;">First, we examine the transaction =
+to assess the motivations that would prompt a reasonable seller and buyer t=
+o enter into it. If the seller's purpose is to raise money for the general =
+use of a business enterprise or to finance substantial investments and the =
+buyer is interested primarily in the profit the note is expected to generat=
+e, the instrument is likely to be a "security." If the note is exchanged to=
+ facilitate the purchase and sale of a minor asset or consumer good, to cor=
+rect for the seller's cash-flow difficulties, or to advance some other comm=
+ercial or consumer purpose, on the other hand, the note is less sensibly de=
+scribed as a "security." ... Second, we examine the "plan of distribution" =
+of the instrument =E2=80=A6=C2=A0to determine whether it is an instrument i=
+n which there is "common trading for speculation or investment." ... Third,=
+ we examine the reasonable expectations of the investing public: The Court =
+will consider instruments to be "securities" on the basis of such public ex=
+pectations, even where an economic analysis of the circumstances of the par=
+ticular transaction might suggest that the instruments are not "securities"=
+ as used in that transaction. =E2=80=A6=C2=A0Finally, we examine whether so=
+me factor such as the existence of another regulatory scheme significantly =
+reduces the risk of the instrument, thereby rendering application of the Se=
+curities Acts unnecessary.</p></blockquote>
+<p style=3D"margin: 16px 0;">My impression is that nobody has any idea what=
+ any of that means, except that they sort of assume =E2=80=9Cwell bank loan=
+s are made by banks, which are regulated by bank regulators, which is =E2=
+=80=98another regulatory regime,=E2=80=99 so they=E2=80=99re not securities=
+.=E2=80=9D Though even that isn=E2=80=99t true anymore!</p>
+<p style=3D"margin: 16px 0;">Still people occasionally push back on this. I=
+n 2014, a=C2=A0company called Millennium Health LLC did a $1.775 billion sy=
+ndicated term loan; Citigroup Inc. and JPMorgan Chase &amp; Co. led the syn=
+dication and sold the loan to 61 different lenders. Millennium then got in =
+trouble for some billing fraud, paid a=C2=A0$256 million settlement to the =
+government and filed for bankruptcy in 2015, and a trustee for the lenders =
+sued JPMorgan and Citi for securities violations. The theory is that the lo=
+ans were securities, JPMorgan and Citi were underwriters, and they didn=E2=
+=80=99t disclose enough about the billing fraud. JPMorgan and Citi moved to=
+ dismiss the securities claims, saying that the loans were not securities. =
+The district court agreed and dismissed those claims, the trustee appealed,=
+ the case spent years in court,=C2=A0the appeals court asked the SEC to wei=
+gh in and it <a href=3D"https://link.mail.bloombergbusiness.com/click/32533=
+691.258429/aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9zZWFyY2g_cT1zZWMra2lyc2NobmVyK3Np=
+dGUlM0FibG9vbWJlcmcuY29tJnNjYV9lc3Y9NTYwNjY0ODkyJnJsej0xQzVDSEZBX2VuVVM4MDd=
+VUzgwNyZzeHNyZj1BQjVzdEJqSnZjd2g0MjlYYnBaaEF3TlBaemYwQzJQV2JnJTNBMTY5MzIzNT=
+Q3MzkyMCZlaT1FYm5zWkxIV044NnI1Tm9QeEx1ZjRBSSZ2ZWQ9MGFoVUtFd2p4b3NiWDBmLUFBe=
+FhPRlZrRkhjVGRCeXdRNGRVRENCQSZ1YWN0PTUmb3E9c2VjK2tpcnNjaG5lcitzaXRlJTNBYmxv=
+b21iZXJnLmNvbSZnc19scD1FZ3huZDNNdGQybDZMWE5sY25BaUlITmxZeUJyYVhKelkyaHVaWEl=
+nYzJsMFpUcGliRzl2YldKbGNtY3VZMjl0U0pJVFVKMERXSklTY0FGNEFKQUJBSmdCZ1FHZ0FhRU=
+txZ0VFTVRjdU1yZ0JBOGdCQVBnQkFjSUNDQkFBR0lBRUdMQUR3Z0lIRUFBWUhoaXdBOElDQ1JBQ=
+UdBZ1lIaGl3QThJQ0N4QUFHSW9GR0lZREdMQUR3Z0lGRUFBWWdBVENBZ1lRQUJnV0dCN0NBZ2dR=
+QUJpS0JSaUdBOElDQlJBaEdLQUJ3Z0lGRUNFWXF3TGlBd1FZQVNCQmlBWUJrQVlGJnNjbGllbnQ=
+9Z3dzLXdpei1zZXJw/607f07ceef4b8524a319a23cB931a600a" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> awkwardly dec=
+lined</a>.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Last week, finally, <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32533691.258429/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMjQvanBtb3JnYW4td2lucy1ydWxpbmctdGhhdC1=
+sZXZlcmFnZWQtbG9hbnMtYXJlLW5vdC1zZWN1cml0aWVzP2NtcGlkPUJCRDA4MjgyM19NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzM=
+DgyOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB3e790fcb" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  the banks won on appeal</a>: Corporate loans are still not securiti=
+es. You can read <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+2533691.258429/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hC=
+RmRmeElVL3IyckNSdGs2a3lFNC92MA/607f07ceef4b8524a319a23cB6e18edd8" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ the opinion here</a>. It applies the Reves test in a way that is even wool=
+lier than the original. For instance, was the purpose of Millennium=E2=80=
+=99s term loan =E2=80=9Cinvestment=E2=80=9D or =E2=80=9Ccommercial=E2=80=9D=
+? Ehh I dunno whatever:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On the one hand, the pleaded facts plausibly s=
+uggest that the <em>lenders</em>=E2=80=99 motivation was investment because=
+ the lenders expected to profit from their purchase of the Notes. Under the=
+ Credit Agreement, the lenders were entitled to receive quarterly interest =
+payments over the course of seven years. They therefore expected to receive=
+ a =E2=80=9Cvaluable return=E2=80=9D on their purchase of the Notes.</p>
+<p style=3D"margin: 16px 0;">On the other hand, the pleaded facts do not pl=
+ausibly suggest that <em>Millennium=E2=80=99s</em> motivation was investmen=
+t. Millennium was not using the Term Loan to raise funds for its urine test=
+ing business or to finance other investments. Instead, it planned to use th=
+e Term Loan to pay the outstanding amount due under the 2012 Credit Agreeme=
+nt, make a shareholder distribution, =E2=80=9Credeem outstanding warrants, =
+debentures and stock options,=E2=80=9D and pay fees and expenses related to=
+ the Transaction.=C2=A0These uses suggest that Millennium=E2=80=99s motivat=
+ion was commercial.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If a company borrows money to fund its busines=
+s, that is =E2=80=A6=C2=A0=E2=80=9Cinvestment=E2=80=9D? But if it borrows m=
+oney to pay cash out to shareholders, that is =E2=80=A6=C2=A0=E2=80=9Ccomme=
+rcial=E2=80=9D? I dunno. Second factor:</p>
+<blockquote><p style=3D"margin: 16px 0;">The pleaded facts do not plausibly=
+ suggest that the Notes were =E2=80=9Coffered and sold to a broad segment o=
+f the public.=E2=80=9D The Lead Arrangers offered the Notes only to sophist=
+icated institutional entities, providing them with a Confidential Informati=
+on Memorandum.</p></blockquote>
+<p style=3D"margin: 16px 0;">Yes, they were sold only to institutional inve=
+stors, same as most bonds. Third factor:</p>
+<blockquote><p style=3D"margin: 16px 0;">The pleaded facts do not plausibly=
+ suggest that the lenders reasonably perceived the Notes as securities. Ins=
+tead, we are persuaded that the sophisticated entities that purchased the N=
+otes =E2=80=9Cwere given ample notice that the [Notes] were . . . loans and=
+ not investments in a business enterprise.=E2=80=9D=C2=A0Before purchasing =
+the Notes, the lenders certified that they were =E2=80=9Csophisticated and =
+experienced in extending credit to entities similar to [Millennium].=E2=80=
+=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">Again, same as bonds. Fourth factor:</p>
+<blockquote><p style=3D"margin: 16px 0;">The pleaded facts do not plausibly=
+ suggest that application of securities laws are necessary here for two rea=
+sons. First, the Notes were =E2=80=9Csecured by a perfected first priority =
+security interest in all of [Millennium=E2=80=99s] tangible and intangible =
+assets,=E2=80=9D i.e., Millennium=E2=80=99s collateral. That perfected firs=
+t priority security interest reduces the risk associated with the Notes. Se=
+cond, the Office of the Comptroller of the Currency, the Board of Governors=
+ of the Federal Reserve System, and the Federal Deposit Insurance Corporati=
+on (jointly, the =E2=80=9CBank Regulators=E2=80=9D) issued =E2=80=9Cspecifi=
+c policy guidelines=E2=80=9D addressing syndicated term loans.</p></blockqu=
+ote>
+<p style=3D"margin: 16px 0;">The stuff about collateral is true, but of cou=
+rse Millennium went bankrupt and the lenders lost money, so it=E2=80=99s no=
+t=C2=A0<em>that=C2=A0</em>true. The thing that matters here, I think, is th=
+e last sentence:=C2=A0<em>Bank regulators=C2=A0</em>regulate syndicated loa=
+ns (even though most of the lenders aren=E2=80=99t banks), so=C2=A0<em>secu=
+rities law=C2=A0</em>doesn=E2=80=99t have to.</p>
+<p style=3D"margin: 16px 0;">None of this makes very much sense on an intel=
+lectual level. On the other hand, surely the thinking=C2=A0here =E2=80=94 a=
+nd probably the reason the SEC declined to weigh in =E2=80=94=C2=A0is that =
+the loan market works fine, the bond market works fine, and there=E2=80=99s=
+ no reason to change anything, and changing the rules of the loan market wo=
+uld, at least in the short term, cause a lot of disruption. It doesn=E2=80=
+=99t make a ton of sense that bonds are securities and loans aren=E2=80=99t=
+, but it doesn=E2=80=99t really cause much trouble either, so the courts mi=
+ght as well leave it alone.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32533691.258429/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjUzMzY5MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI3OTIxMjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC7af4e5e6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32533691&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32792120&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32533691.258429/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjUzMzY5MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI3OTIxMjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD7af4e5e6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32533691&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32792120&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Are NFTs securities?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/32533691.258429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjMtMDYtMDcvd2hlbi1pcy1hLXRva2VuLW5vdC1hLXNlY3VyaXR5P2NtcGlkP=
+UJCRDA4MjgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0=
+dGVyJnV0bV90ZXJtPTIzMDgyOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524=
+a319a23cB0f9135ae" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">  like</a> to <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/32533691.258429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMTktMTAtMTQvdGhlLXNlYy1yZWFsbHktZG9lc24tdC1saWtlLWl=
+jb3M_Y21waWQ9QkJEMDgyODIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwODI4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB62fd94ef" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  explain</a> crypto initial coin of=
+ferings by saying that =E2=80=9Cthey=E2=80=99re like if the Wright Brothers=
+ sold air miles to finance inventing the airplane,=E2=80=9D so here=E2=80=
+=99s another old-timey analogy for non-fungible token offerings. Imagine th=
+at one day in the boom times of the 1920s a young animator named Walter Dis=
+ney shows up at the stock market one day looking to raise money for his new=
+ company. =E2=80=9CI am going to make a fortune making movies and theme par=
+ks,=E2=80=9D he says, =E2=80=9Cand I am giving you the opportunity to inves=
+t early. I=E2=80=99m not selling you shares of my company, though; I=E2=80=
+=99m selling something even better. Here=E2=80=99s a drawing of a mouse. If=
+ you give me $1 million, I will use it to build a movie studio and theme-pa=
+rk empire, and the mouse will feature prominently in that empire, and you w=
+ill get the royalties from that mouse. Here=E2=80=99s a dog, and a duck, an=
+d some nephew ducks. Same deal, though the nephew=C2=A0ducks are cheaper.=
+=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Obviously that would, in hindsight, have been =
+a good investment. What kind of investment would it have been? Would it hav=
+e been like=C2=A0<em>buying art?=C2=A0</em>Would it have been like=C2=A0<em=
+>buying intellectual property?=C2=A0</em>Or would it have been like=C2=A0<e=
+m>investing in a speculative business?=C2=A0</em>The mouse is a picture of =
+a mouse, like art, but he=E2=80=99s valuable if Disney builds a film and th=
+eme-park empire and not if he doesn=E2=80=99t, like stock.</p>
+<p style=3D"margin: 16px 0;">You could expand it. =E2=80=9CI have drawn 101=
+ dalmations,=E2=80=9D he might go on. =E2=80=9CThey all look like, you know=
+, dalmations. You can buy any one of them, and get the royalties from that =
+dalmation, and use that dalmation in any spinoff intellectual property you =
+want. Dalmation 43 has diamonds on her collar; Dalmation 81=E2=80=99s ears =
+are in sort of a sassy pose; maybe those dalmations are worth more, I dunno=
+, what=E2=80=99ll you pay me for them?=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s an SEC=C2=A0<a href=3D"https://=
+link.mail.bloombergbusiness.com/click/32533691.258429/aHR0cHM6Ly93d3cuc2VjL=
+mdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy0xNjM/607f07ceef4b8524a319a23cB61b8ef9=
+3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">NFT enforcement action</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission today c=
+harged Impact Theory, LLC, a media and entertainment company headquartered =
+in Los Angeles, with conducting an unregistered offering of crypto asset se=
+curities in the form of purported non-fungible tokens (NFTs). Impact Theory=
+ raised approximately $30 million from hundreds of investors, including inv=
+estors across the United States, through the offering.</p>
+<p style=3D"margin: 16px 0;">According to the SEC=E2=80=99s order, from Oct=
+ober to December 2021, Impact Theory offered and sold three tiers of NFTs, =
+known as Founder=E2=80=99s Keys, which Impact Theory called =E2=80=9CLegend=
+ary,=E2=80=9D =E2=80=9CHeroic,=E2=80=9D and =E2=80=9CRelentless.=E2=80=9D T=
+he order finds that Impact Theory encouraged potential investors to view th=
+e purchase of a Founder=E2=80=99s Key as an investment into the business, s=
+tating that investors would profit from their purchases if Impact Theory wa=
+s successful in its efforts. Among other things, Impact Theory emphasized t=
+hat it was =E2=80=9Ctrying to build the next Disney,=E2=80=9D and, if succe=
+ssful, it would deliver =E2=80=9Ctremendous value=E2=80=9D to Founder=E2=80=
+=99s Key purchasers. The order finds that the NFTs offered and sold to inve=
+stors were investment contracts and therefore securities. Accordingly, Impa=
+ct Theory violated the federal securities laws by offering and selling thes=
+e crypto asset securities to the public in an unregistered offering that wa=
+s not otherwise exempt from registration.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Impact Theory settled, paying about $6.1 milli=
+on without admitting or denying the charges. I don=E2=80=99t know! On the o=
+ne hand, in the hypothetical Disney case, I think it is not at all clear th=
+at the mouse or even the dalmations are securities; they do get their value=
+ from Disney=E2=80=99s efforts to build a company, but they are independent=
+ pieces of intellectual property and it seems weird to think of them as sec=
+urities.</p>
+<p style=3D"margin: 16px 0;">On the other hand, this company wasn=E2=80=99t=
+ Disney. The=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/=
+32533691.258429/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9saXRpZ2F0aW9uL2FkbWluLzI=
+wMjMvMzMtMTEyMjYucGRm/607f07ceef4b8524a319a23cB73f40791" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> SEC=E2=80=
+=99s order</a>=C2=A0includes some pictures of the NFTs and they are =E2=80=
+=A6=C2=A0I dunno, vaguely sci-fi stuff, I=E2=80=99m not even sure what they=
+ are supposed to look like? A plucky young mouse they are not. And:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Impact Theory also underscored that this purpo=
+rted value would be derived from the company=E2=80=99s efforts, and that Im=
+pact Theory would use the proceeds from the Offering for =E2=80=9Cdevelopme=
+nt,=E2=80=9D =E2=80=9Cbringing on more team,=E2=80=9D and =E2=80=9Ccreating=
+ more projects.=E2=80=9D For example, Impact Theory stated:</p>
+<p style=3D"margin: 16px 0;">A. =E2=80=9CBut yeah, I will make sure that we=
+ do something that by any reasonable standard, people got a crushing, hilar=
+ious amount of value.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">B. =E2=80=9CThe key takeaway that I want you t=
+o have is that there is a lot of cool things coming in the next 18 to 24 mo=
+nths. And that is ultimately a tiny fraction of the things that will be com=
+ing in the next five years. The reason that we=E2=80=99re only selling on t=
+he next 18-to-24 month hype is I want you guys to be able to capture 90 per=
+cent of the economic value of all the big things that we will do in the com=
+ing years beyond that. And the only way to do that is to only sell and set =
+the price based on the things that we=E2=80=99re doing in the short term, a=
+nd that will leave the upside to be largely captured by you guys.=E2=80=9D<=
+/p>
+<p style=3D"margin: 16px 0;">C. =E2=80=9CWe=E2=80=99re going to be investin=
+g that money into development, into bringing on more team, creating more pr=
+ojects, making sure that we=E2=80=99re delivering just an obscene amount of=
+ value. Until people are giggling thinking that they can=E2=80=99t believe =
+that they paid =E2=80=93 you know =E2=80=93 whichever tier they come in on =
+and are getting all this value =E2=80=93 until that=E2=80=99s the sentiment=
+ =E2=80=93 we will just keep stocking it with value.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yeah sounds like securities. No one is touting=
+ the aesthetic value of the NFTs,=C2=A0or even=C2=A0saying what the intelle=
+ctual property franchise would be; they=E2=80=99re just talking about getti=
+ng rich.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">ESG pay</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Traditional corporate finance theory says that=
+ the sole purpose of the corporation is to maximize profits for shareholder=
+s, not because that is=C2=A0the most important thing in the world, but beca=
+use it is very helpful to pick=C2=A0<em>one=C2=A0</em>thing. Corporations a=
+re, for the most part, run by their executives and directors, who mostly ch=
+oose their own successors without much oversight from shareholders or anyon=
+e else. If the rule is =E2=80=9Cexecutives have to maximize profits for sha=
+reholders,=E2=80=9D that gives directors and shareholders and governance ac=
+tivists and everyone else something to measure: If profits are good, then t=
+he executives are doing a good job; if they aren=E2=80=99t they aren=E2=80=
+=99t.</p>
+<p style=3D"margin: 16px 0;">If the rule is =E2=80=9Cexecutives have to max=
+imize profits for shareholders, minimize pollution and maximize employee mo=
+rale,=E2=80=9D then executives and directors have a lot of leeway in=C2=A0<=
+em>measuring=C2=A0</em>their performance. =E2=80=9CAh well our buddy the CE=
+O didn=E2=80=99t make a lot of money for shareholders=C2=A0this year,=E2=80=
+=9D the directors can say, =E2=80=9Cand the pollution is terrible, but surv=
+eys show employee satisfaction is up 0.3 points on a 7-point scale, so let=
+=E2=80=99s max out her bonus.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">It is not a law of nature that the board=C2=A0=
+<em>has=C2=A0</em>to do this, of course. But=C2=A0boards and executives ten=
+d to be friendly with each other and not subject to much outside oversight,=
+ and if you don=E2=80=99t give them clear unambiguous criteria then they mi=
+ght tend to do what is in their interests rather than what is in the intere=
+sts of=C2=A0<em>anyone=C2=A0</em>else, shareholders or employees or the env=
+ironment. A company answerable for one metric to one set of shareholders ha=
+s to perform; a company answerable for several metrics to several sets of s=
+takeholders can always point to something else.</p>
+<p style=3D"margin: 16px 0;">This is not universally and absolutely true, b=
+ut it is a useful rule of thumb. It is what I think of, for instance, when =
+I see a bunch of public-company chief executive officers saying that the =
+=E2=80=9Cpurpose of a corporation=E2=80=9D is not shareholder value but rat=
+her to deliver value to =E2=80=9Call stakeholders=E2=80=9D: =E2=80=9COh, ri=
+ght,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/3253=
+3691.258429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS92aWV3L2FydGljbGVzLzIwMTktMDg=
+tMTkvbWF4aW1pemUtc2hhcmVob2xkZXItdmFsdWUtdG9wLWNlb3MtbWlnaHQtYmUtb3B0aW5nLW=
+91dD9jbXBpZD1CQkQwODI4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY=
+2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MjgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f=
+07ceef4b8524a319a23cB425beac4" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> I think</a>, =E2=80=9Cthe CEOs want=
+ to be able to brush off shareholder complaints by saying =E2=80=98but thin=
+k of the employees,=E2=80=99 and brush off employee complaints by saying =
+=E2=80=98but think of the community,=E2=80=99 and brush off community compl=
+aints by saying =E2=80=98but think of the shareholders,=E2=80=99 and just d=
+o whatever they want.=E2=80=9D A CEO answerable to =E2=80=9Call stakeholder=
+s=E2=80=9D is answerable to none of them.</p>
+<p style=3D"margin: 16px 0;">Anyway <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/32533691.258429/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMjVhZ=
+WQ2MGQtMWRlYi00YTQxLThmMzktMDBjOTI3MDJiNjYz/607f07ceef4b8524a319a23cBdc6e46=
+5a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> here=E2=80=99s this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A growing number of blue-chip US companies are=
+ using environmental and social factors to decide bonuses for top executive=
+s, but investors are worried the metrics are being gamed to increase payout=
+s.</p>
+<p style=3D"margin: 16px 0;">Three-quarters of S&amp;P 500 companies have d=
+isclosed that environmental, social and governance metrics contributed to e=
+xecutives=E2=80=99 pay, up from two-thirds of companies in 2021, according =
+to data from The Conference Board and Esgauge, an ESG data analytics firm. =
+=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe are sceptical of ESG metrics being=
+ used in compensation,=E2=80=9D said Ben Colton, head of stewardship at Sta=
+te Street Global Advisors, which manages $3.79tn. =E2=80=9COftentimes they =
+are very subjective, fluffy and easily gamed.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">At Southwest, chief executive Robert Jordan=E2=
+=80=99s pay increased 76 per cent to $5.3mn last year even though the airli=
+ne angered passengers by cancelling more than 16,700 flights during the hol=
+iday season.</p>
+<p style=3D"margin: 16px 0;">Southwest, in a regulatory filing earlier this=
+ year, said the December cancellations negatively affected executives=E2=80=
+=99 bonuses, but added: =E2=80=9CWith respect to ESG initiatives, including=
+ DEI and sustainability, the [board] determined that the company performed =
+above target-level expectations.=E2=80=9D DEI stands for diversity, equity =
+and inclusion.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The board can=C2=A0<em>always=C2=A0</em>determ=
+ine that the company performed above target-level expectations on DEI initi=
+atives, whereas =E2=80=9Cdid the planes take off?=E2=80=9D is harder to gam=
+e.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SVB wine</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A few weeks ago, walking down the street in Mi=
+dtown, I saw someone wearing a t-shirt that said =E2=80=9CSilicon Valley Ba=
+nk Risk Management Department, Spring 2023.=E2=80=9D I am pretty sure it wa=
+s printed as an after-the-fact joke,<a class=3D"footnote-index" href=3D"#fo=
+otnote-3" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none=
+ !important; background-color: transparent !important; display: inline-bloc=
+k;">
+<span>[3]</span>
+</a> just because, if Silicon Valley Bank=E2=80=99s risk management departm=
+ent had actually had team t-shirts printed in spring 2023, and you got one,=
+ you would not go around wearing it, not because you were embarrassed (thou=
+gh, maybe?) but=C2=A0because it would be=C2=A0<em>worth $10,000 on eBay</em=
+>. Few things are more coveted=C2=A0than the relics of failed financial fir=
+ms. I have an FTX water bottle.=C2=A0</p>
+<p style=3D"margin: 16px 0;">And so if you bought Silicon Valley Bank=E2=80=
+=99s actual wine collection at a Federal Deposit Insurance Corp. auction, a=
+nd you plan to resell it, should you prominently advertise it as being SVB=
+=E2=80=99s wine collection? Absolutely! That wine is far more delicious kno=
+wing that it came from a failed bank. <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/32533691.258429/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2J=
+hbmtpbmcvd2hvLXdpbnMtd2hlbi1hLWJhbmstZmFpbHMtd2luZS1ndXktZnJhbmstbWFydGVsbC=
+00MWQ0NDZjMw/607f07ceef4b8524a319a23cB826a519b" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> The Wall Street Jo=
+urnal reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">When [Heritage Auctions wine director Frank]=
+=C2=A0Martell heard through the grapevine that the Federal Deposit Insuranc=
+e Corp. was having the wine auctioned off, he was eager to jump in. After a=
+ll, a rare-coin company buying wine from two collapsed banks seemed, if not=
+hing else, weirdly poetic. ...</p>
+<p style=3D"margin: 16px 0;">After a number of rounds, Martell won the auct=
+ion for the SVB wine lot for roughly $150,000 with fees, a discount of abou=
+t 40%. Later, he nabbed the more-than-400-bottle First Republic wine collec=
+tion for less than $20,000, at about the same discount. Together the collec=
+tions include bottles with price tags that range from $3 to $1,000 a pop.</=
+p>
+<p style=3D"margin: 16px 0;">Martell estimates that Heritage will make tens=
+ of thousands of dollars from the two bank wine collections, some of which =
+the company plans to sell at its Fine &amp; Rare Wine Signature Auction in =
+Beverly Hills this September. Heritage went back and forth over whether to =
+advertise where the wine had come from. It ultimately decided it would.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Correct. SVB was big in the wine lending busin=
+ess, but it doesn=E2=80=99t seem like this wine was seized collateral from =
+loans gone bad; this was just the corporate collection, I think, kept in =
+=E2=80=9Celaborate climate-controlled cellars built within the bank=E2=80=
+=99s Santa Clara and Menlo Park branches.=E2=80=9D (Even the $3 bottles?) A=
+nyway the FDIC has fun:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">When banks fail, the government can suddenly f=
+ind itself in charge of =E2=80=9Cspecialty assets=E2=80=9D that are extrava=
+gant, strange=E2=80=94or even in flames.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The oddball asset sales are lore within the FD=
+IC. A column in its internal newsletter periodically plumbed the history un=
+til the author, Jay Rosenstein, retired in 2020, an agency spokesman said. =
+Among the items it recounted: 25,000 pounds of frozen rabbit, a 12% share i=
+n the Dallas Cowboys in the late 1980s, a coal mine =E2=80=9Cthat was on fi=
+re the day the bank was closed=E2=80=9D and abandoned churches and synagogu=
+es. Once, the FDIC seized a Styrofoam cooler that turned out to be holding =
+a human skull.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Do you think the FDIC put out the fire? I feel=
+ like these days you could make more money by selling =E2=80=9CFailed Bank=
+=E2=80=99s Coal Mine, Currently On Fire=E2=80=9D than if you put the fire o=
+ut. People want a good disaster story!</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Goldman Is <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/32533691.258429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjMtMDgtMjgvZ29sZG1hbi1zYWNocy1zZWxscy1yaWEtd2VhbHRoLWFk=
+dmlzb3J5LXVuaXQtdG8tY3JlYXRpdmUtcGxhbm5pbmc_Y21waWQ9QkJEMDgyODIzX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOD=
+I4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB27212510" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  Selling a Wealth-Advisory Unit</a> to $240 Billion Money Manager. SEC =
+Probes Major Lender Over <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32533691.258429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjMtMDgtMjgvc2VjLXByb2Jlcy1jYWxpZm9ybmlhLW1vcnRnYWdlLWxlbmRlci1vdmVyLW1=
+icy1zb2xkLXRvLXdhbGwtc3RyZWV0P2NtcGlkPUJCRDA4MjgyM19NT05FWVNUVUZGJnV0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgyOCZ1dG1fY2Ftc=
+GFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBa0d5b565" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">  Mortgage=
+-Backed Securities</a> Sold to Wall Street. The =E2=80=98<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/32533691.258429/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS9maW5hbmNlL2N1cnJlbmNpZXMvdGhlLWZpZGVsaXR5LW1hZmlhLWJlaGluZC1iaWctY3J=
+5cHRvLTk1M2FkMDBlP21vZD1ocF9sZWFkX3BvczEw/607f07ceef4b8524a319a23cBe1242e74=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">Fidelity Mafia</a>=E2=80=99 Behind Big Crypto.=C2=A0<a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/32533691.258429/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMjgvYml0Y29pbi1idGMtZXRmLW=
+RlYWRsaW5lcy1sb29tLWFnYWluLWZvci1zZWMtYWhlYWQtb2YtbGFib3ItZGF5LXdlZWtlbmQ_Y=
+21waWQ9QkJEMDgyODIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5l=
+d3NsZXR0ZXImdXRtX3Rlcm09MjMwODI4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB7c36720f" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  Bitcoin ETF</a> Deadlines Loom Again for=
+ SEC Ahead of Labor Day Weekend. SoftBank seeks to build <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/32533691.258429/aHR0cHM6Ly93d3cuZnQu=
+Y29tL2NvbnRlbnQvNDMxMzdlNDAtN2I3Zi00Njk5LWFhOGEtYzkwMzYzM2RhMTE3/607f07ceef=
+4b8524a319a23cBb6c47977" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> investment war chest</a> on back of Arm I=
+PO. 3M Agrees to Pay More Than $5.5 Billion Over <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32533691.258429/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMjcvM20tYWdyZWVzLXRvLXBheS1tb3JlLXRoYW4=
+tNS01LWJpbGxpb24tb3Zlci1taWxpdGFyeS1lYXJwbHVncz9jbXBpZD1CQkQwODI4MjNfTU9ORV=
+lTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yM=
+zA4MjgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB6d29903b" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">Combat Earplugs</a>. Hester Peirce <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/32533691.258429/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQ=
+vZmViZGFiZmItZTQ1My00NTAyLThlZjgtOWNmYTAzYjkwZDk4/607f07ceef4b8524a319a23cB=
+2412e6f9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> profile</a>. FTX turns to Mike Novogratz=E2=80=99s Galax=
+y Digital to <a href=3D"https://link.mail.bloombergbusiness.com/click/32533=
+691.258429/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOWY1ZGJlMzEtOWY3OC00NWE5LThh=
+YWEtMDI1M2JiYzlmZGRl/607f07ceef4b8524a319a23cB9e875d14" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> sell crypt=
+o tokens</a>. Corporate <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/32533691.258429/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9lbnRyZXByZW5ld=
+XJzaGlwL2JpZy1tYW51ZmFjdHVyZXJzLXRyeS1jcm93ZGZ1bmRpbmctdG8tbWFya2V0LXRlc3Qt=
+cHJvZHVjdHMtYTRlYTQyMzE_bW9kPWhwX2xlYWRfcG9zNg/607f07ceef4b8524a319a23cBb38=
+46ffb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> crowdfunding</a>. The Silicon Valley Elite Who Want to <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/32533691.258429/aHR0cH=
+M6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wOC8yNS9idXNpbmVzcy9sYW5kLXB1cmNoYXNlcy1zb=
+2xhbm8tY291bnR5Lmh0bWw/607f07ceef4b8524a319a23cBec992bf9" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Build a =
+City</a> From Scratch. =E2=80=9CThe prime years for making smart financial =
+decisions are, on average, <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32533691.258429/aHR0cHM6Ly93d3cud3NqLmNvbS9wZXJzb25hbC1maW5hbmNlL3=
+RoZS1leGFjdC1hZ2Utd2hlbi15b3UtbWFrZS15b3VyLWJlc3QtZmluYW5jaWFsLWRlY2lzaW9uc=
+y0yYTgxNjNiYj9tb2Q9aHBfbGVhZF9wb3M5/607f07ceef4b8524a319a23cB884a22ee" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> 53 and 54</a>.=E2=80=9D The Next Wave of Scams Will Be <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/32533691.258429/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMjUvZGVlcGZha2UtdmlkZW8tcGhv=
+bmUtY2FsbHMtY291bGQtYmUtYS1kYW5nZXJvdXMtYWktcG93ZXJlZC1zY2FtP2NtcGlkPUJCRDA=
+4MjgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJn=
+V0bV90ZXJtPTIzMDgyOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a2=
+3cB6742ed0f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  Deepfake Video Calls From Your Boss</a>. France to p=
+ay farmers =E2=82=AC200mn for <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32533691.258429/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYzE4Nzc5Nzc=
+tY2M0Zi00YTVlLWI3YWItMmNkNzM4NmY3ZjBm/607f07ceef4b8524a319a23cB9999ff65" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> destroying wine surplus</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32533691.258429/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB62ed054c" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32533691.258429/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB5eb0e2cc" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] I realize =E2=80=9Cthey don=E2=80=99t trad=
+e so their price can=E2=80=99t go down=E2=80=9D is not correct as a matter =
+of financial theory, but it <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/32533691.258429/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMTktMTItMjAveW91LWQtcGF5LW5vdC10by1zZWUteW91ci1zdG9jay1wcmljZT9j=
+bXBpZD1CQkQwODI4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV=
+3c2xldHRlciZ1dG1fdGVybT0yMzA4MjgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef=
+4b8524a319a23cB94f02daa" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">
+has some intuitive appeal</a>. Also corporate loans are stereotypically flo=
+ating-rate, while corporate bonds are stereotypically fixed-rate, which mak=
+es bond prices more volatile when rates move.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Capital markets people sometimes use the t=
+erm =E2=80=9Cprivate placement=E2=80=9D to mean, like, selling the bonds to=
+ only a handful of big investors in a negotiated deal, whereas lawyers some=
+times use it to mean selling the bonds only to big investors (possibly doze=
+ns or hundreds) in a regular-way underwritten transaction exempt from secur=
+ities-law registration requirements. Here I am using it in the latter sense=
+, what capital markets people call =E2=80=9C<a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32533691.258429/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZ=
+WR1L3dleC9ydWxlXzE0NGE/607f07ceef4b8524a319a23cB2072fb42" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">144A deal=
+s</a>,=E2=80=9D where you sell bonds broadly to institutions in a way that =
+avoids registration requirements.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Casual Googling finds many versions of it =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32533691.258429/aH=
+R0cHM6Ly93d3cuZXRzeS5jb20vbGlzdGluZy8xNDQwNTA2MjIzL3NpbGljb24tdmFsbGV5LWJhb=
+mstcmlzay1tYW5hZ2VtZW50P2NsaWNrX2tleT1hM2RlZDQzOTYwY2ZlZGY3NTA2OWZiMGIxZTQw=
+ZDkxMGE3Mzg1MmUwJTNBMTQ0MDUwNjIyMyZjbGlja19zdW09M2I5NjQyZjQmZXh0ZXJuYWw9MSZ=
+yZWNfdHlwZT1jcyZyZWY9cGxhX3NpbWlsYXJfbGlzdGluZ190b3AtNSZmcnM9MQ/607f07ceef4=
+b8524a319a23cB45ac01bf" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">on Etsy</a>.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32533691.258429/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB985a7451" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32533691.258429/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB1c190e70" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32533691.258429/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBaf6e1e2b" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32533691.258429/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB0b866568" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32533691.258429/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBfa1c4cdc" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32533691.2584=
+29/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBe7ac28a3" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32533691.258429/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC3b1a7469" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32533691.258429/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB3096ecce" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32533691.258429/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB26647023" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32533691.258429/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+235dd99" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32533691.258429/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB7=
+f88261b" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjdb5n.5jel/9c39583b.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_44297610_968971599.1693242955791--
+

@@ -1,0 +1,1884 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:c011:0:b0:191:bcf:3d4e with SMTP id z17csp1170002lko;
+        Tue, 8 Feb 2022 11:04:53 -0800 (PST)
+X-Received: by 2002:a05:6000:1a85:: with SMTP id f5mr4299333wry.709.1644347092783;
+        Tue, 08 Feb 2022 11:04:52 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1644347092; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=SahGvUHX35k2pgSKxYV6QFerJbrNCuJG1pVNPwlZubhfxFqwhp5jS9bKOu2A7DJnWr
+         dnf7coUJcqeslodr5NjiNBmmeGGZG88WSQOdIyPvDtU3NBmpgfGB9aIQI6XbdnoVnXU7
+         A6lvjhg7/10/4VTLZ6i+3gSs2i3iY2qLq45UiYcoVjbJ/eupdLdQcsiCdfgXNYIKKnB5
+         WUjKj/Cq9EO2ow53wkxfpeeXsL9ikCpzcuLHuvXMMPsAscvV6ptLgKuC9VII7YZwrgE4
+         LrJZaW9VSoR5C1JEXmGQbn85IUahPJlFUV33ls8Jdp1DAX1YPUrKz28ceW/BIucDYV2+
+         T7bw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=28yujeuN8GukymrPYH/TLjjStgtIOj7MS85HEUdfA24=;
+        b=Ny9UmpUC1C+Etti2eBuvUXNWbykFVzZ8QDEb1F5149jqc0A2AgpVdbAPguoof6ZbnJ
+         LUcsqB3ZQ6uWaVKWoUVMq8WE7Zn7s0q4PCmfN/P41YeOM0VP3WX5jJD3aDLSWvTToVB9
+         Z2EWb3WP8C4ckffZcOdTvCbFMXJp///Vwr/+SN1jfdIARukqWUu0AFu6H/b2cJ5w31IJ
+         SEsRnaeabFhBrnEZ0fg+uapo2kv7WBu91EbwlHuBJB7U+gabmC2H0hlLY8i05vFipa5g
+         iwpv0huC4rP4sotfcG+R/KjRSh3HRsC+LnO1O0oHHRydVrkBJxrp3cNaHDNuQ+2JMWHc
+         7hcg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g01tXS4z;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id b16sor7955871wrr.64.2022.02.08.11.04.52
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 08 Feb 2022 11:04:52 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g01tXS4z;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=28yujeuN8GukymrPYH/TLjjStgtIOj7MS85HEUdfA24=;
+        b=YzjfFDRAEnEDfj5bRqufT0gBUEfSpry9N181t/UL4j7qDK9EvKkH4dzUBGNeIflSG0
+         7hIKcewy+x4NhLQQGeNK+iSB1glKBd5Hcv7OfXTBpUFcejJe/vvcKjev5bBnK4Hp+1Nk
+         BqJY5Q+GxSQfkVotQWTLpuRTph0EnRDAL/hSHkbCLRs5Ca22VLZK+E4GGxxpWhK8O/tb
+         CDwCAJ7Ooz0hkbzQnYYB6tqBaRKAKCb29Zqg+XMeiemsSf9oISMuICV7Ea1cghAJszu6
+         GrhGNw9DJGzhDrbk1NDobufo9YczMYql6N8AwzxnEj0z+pMN/6fUFXrw0eeRApfXFBIz
+         4Hlw==
+X-Gm-Message-State: AOAM533AG64a4mIwNnaU2IGtzrrRpiFp46vEX+BEFv/og+1CgSW85hsH
+	LdU+9R8YpHh6V70774ybpoUpGlPZW1dqpYA3AmyKlAeeLzTk9823sg==
+X-Received: by 2002:adf:f312:: with SMTP id i18mr4453844wro.441.1644347091759;
+        Tue, 08 Feb 2022 11:04:51 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f350:0:0:0:0:0 with SMTP id e16csp917502wrp;
+        Tue, 8 Feb 2022 11:04:48 -0800 (PST)
+X-Received: by 2002:a63:6885:: with SMTP id d127mr4754806pgc.470.1644347087794;
+        Tue, 08 Feb 2022 11:04:47 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1644347087; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ItsGUSgGhc//0G5jV+e65Pvk7N6w3Vo1yVZeax2Cl0PqcC94P9Vy+l9NKjqbPYRBYo
+         U5e4M6lfWvkbUjFKeYvHHf/xEa9LOhJcfpCmUO53+d2alR6+BafyA1JUTuu9Z8AZo6yP
+         wTvuRuOJC6GkhoCpkGnVWZyXRyEw0f+FtyySegtFY2+PFfOZzz+xRbHbQwL7Z9QW7vaK
+         QTfYEtt72m0oPwObmS14teocUel66gMU/BZqA5f3YNDCl0rlkz05g3hwCww2xavcczSc
+         yxZv0DVhcNsDirAsDTArVcN22pjLPTeHcOC/xTtV0mFUgmnhOKSAef7w/+5XLnK6K2M6
+         XDzA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=28yujeuN8GukymrPYH/TLjjStgtIOj7MS85HEUdfA24=;
+        b=IlVbcUhIJhP7yOgq0iMMFVajXrmy/3zcPwmCrYSFJpMiqGKSXbkeIYjTSuopF4DUTu
+         IC6ylAIjaV4q1hs21gLkhhPSrEsOCGVAvVkv1lNF7eKhq0WB/imtqlGcuIUbutMWpT4x
+         aaV6qWErIfGAeDunc1D6Vuj5kfvTX0RPvrZT4Ez+po9fcA+yJpPpeY1xKQoGJInNS14I
+         79DiBH+qxXiG819iMgXynszP3HDhzFApGNsHGpN0o7QqOdSUOobwCojNBkQwVgfoAard
+         uaMQ3yiuiHi9EGZSBWd4KUMPax7raxwt0xwTqFoRT/qy7NyYc3d8mB8wx2BgL5sBYIDm
+         G/VA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g01tXS4z;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220208140319.26639604.260613@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220208140319.26639604.260613@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220208140319.26639604.260613@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g4sor7211999pfu.99.2022.02.08.11.04.47
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 08 Feb 2022 11:04:47 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20220208140319.26639604.260613@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzw2rXddM22GRfpYOdx2jAtxowx7hl1tXA3xlyG9Do0rnkpMT5y+oblUDpH0iLKPcGSEpW+xSm8Mlt9Cgp8e21Gh98z68s=
+X-Received: by 2002:a05:6a00:1251:: with SMTP id u17mr5768875pfi.72.1644347087266;
+        Tue, 08 Feb 2022 11:04:47 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1644347087; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Xt6Y/f2pRIYSL9mNigdro51bNbP822LhasmnzPtCESsc0vam32vBkkun7PX8JXNEDd
+         g73uzt2gBx9k4xemFWC6HWerY6wl9pYtKd+X30c7uhHDLDwhVI7BQD8YZRUk9+G0Rh+A
+         nYxMM62rapVtNbLdXIRV2UAo33vNr469GywCz+mi3K9hVSTLasrwRxbxfwiAZnuEH9SW
+         z+tvCaDT5y5ll5AhZ5JqZmaNLa3vag54od0wZvVrXR0ADUVflNk5RqKhoLgebIuwV6ri
+         Ya0YBZNnLbHKknWPt6xnGEJzEV9m0HVNr0NRt4VTxZLQJNjBAbYH1smbpJKifi4HM8Dp
+         mpUw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=28yujeuN8GukymrPYH/TLjjStgtIOj7MS85HEUdfA24=;
+        b=qqsxNctlLw1nKI0LGE6xjdb1Pw0u9ZZh4lDWstoMHsWnJOjjasrbTHfHICVSV0JOjn
+         T2ss983JL5SdILKWH9lH19MzM4vopGlZXBaDziNu+m0iaZaeLAkb8wlfEnpqYKrFsu5T
+         1wE1v93lYdjbs1UaHQ2MkrvVsrFDPLxC4ogGds+D1Ju9SuFqFRNIcrOTCV20T34ATi5N
+         KnnvgakCkOWe6W/9/pDgYKA8EF8gFdaZQrXntvLQRlWyxzyY62vROEkZZiONs11Zp/0O
+         t64+HI8dCcNFA3GG1ovnbN/furue2phFh6t3A9B5JGQJw/L94om/C4FmUmnNqhneE+yz
+         xofQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g01tXS4z;
+       spf=pass (google.com: domain of delivery_20220208140319.26639604.260613@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220208140319.26639604.260613@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220208140319.26639604.260613@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id l9si138867pjy.1.2022.02.08.11.04.46
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 08 Feb 2022 11:04:47 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20220208140319.26639604.260613@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=NbUbpvMP8OVfJEw3hIq2bpmIE3gClD5fMOZziOw4NIg=;
+ b=g01tXS4zd11rOoZoAmsOxM9ir939mY7OtoH1izmFLvsYfw81Qs13OPBcztr+TL8jIhZ4J3qZUIO0
+   92ht6xSiObATM6/7WWimH0mIKEAKGkB6EUzmVvqdYcLu1lkVr+iOPrGeJ9Xa1GvrKgCsSAKfqUlg
+   B5EHnQvWsQInpf89JA0=
+Received: from njmta-53.sailthru.com (173.228.155.53) by pmta29.sailthru.com id h0avcq2sd4sp for <bloomberg@khamel.com>; Tue, 8 Feb 2022 14:04:44 -0500 (envelope-from <delivery_20220208140319.26639604.260613@mx.sailthru.com>)
+Received: from nj1-illmaroon.flt (172.18.20.34) by njmta-53.sailthru.com id h0avco1qqbs6 for <bloomberg@khamel.com>; Tue, 8 Feb 2022 14:03:19 -0500 (envelope-from <delivery_20220208140319.26639604.260613@mx.sailthru.com>)
+Date: Tue, 8 Feb 2022 14:03:19 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220208140319.26639604.260613@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IFBlbG90b27igJlzIENFTyBIYXMgSGFkIEVub3VnaA==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_17547593_417559251.1644346999347"
+Precedence: bulk
+X-Feedback-ID: 6358:26639604:campaign:sailthru
+X-TM-ID: 20220208140319.26639604.260613
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illmaroon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfuz90.5l39/1249d935
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfuz90.5l39/1249d935>, <mailto:unsubscribe_20220208140319.26639604.260613@mx.sailthru.com>
+X-rpcampaign: stjko26639604
+
+------=_Part_17547593_417559251.1644346999347
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        PelotonIt is not quite right to say that John Foley, the co-founder=
+ and still technically chief executive officer of Peloton Interactive Inc
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Peloton
+   =20
+ =20
+It is not quite right to say that John Foley, the co-founder and still tech=
+nically chief executive officer of Peloton Interactive Inc., is also Peloto=
+n=E2=80=99s controlling shareholder, but it=E2=80=99s close. Peloton has du=
+al-class stock in which the founders and some other insiders have stock wit=
+h 20 votes per share, and Foley has a lot of it; according=C2=A0to Peloton=
+=E2=80=99s proxy statement, he controls 39.6% of the voting power of Peloto=
+n=E2=80=99s stock, and his co-founders Thomas Cortese=C2=A0and Hisao Kushi =
+own another 18%. This is not quite right either =E2=80=94=C2=A0it counts st=
+ock options in a weird way[1] =E2=80=94=C2=A0but we will just go with it. I=
+n practice, Foley controls a large block of super-voting stock, and along w=
+ith his co-founders and fellow senior executives he has a majority of the v=
+oting stock.This makes shareholder activism somewhat challenging. If you ar=
+e an activist and you do not like Peloton=E2=80=99s management, you can put=
+ together a zingy deck about how bad the managers are and how much money th=
+ey are costing shareholders, and you can present it to Peloton=E2=80=99s bo=
+ard of directors and urge them to fire the managers, but the board=E2=80=99=
+s hands are somewhat tied because, if they fire the managers, the managers =
+=E2=80=94=C2=A0as controlling shareholders =E2=80=94=C2=A0can fire them rig=
+ht back and reinstate themselves. Or you can present your zingy deck to Pel=
+oton=E2=80=99s other=C2=A0shareholders, hoping to lead a proxy fight that w=
+ill unseat the board, but you will lose that fight because, again, the mana=
+gers control a majority of the voting stock.=C2=A0There are ways around thi=
+s =E2=80=94=C2=A0if you peel off enough of Foley=E2=80=99s co-founders and =
+fellow executives and venture-capital backers maybe you can get a majority =
+of the stock to vote against him =E2=80=94=C2=A0but they are narrow. If you=
+ are an activist shareholder looking to convince Peloton=E2=80=99s board to=
+ fire Foley, the most promising avenue is probably to=C2=A0convince Foley t=
+o fire himself.Here is a fun activist deck from Blackwells Capital yesterda=
+y that leans heavily on the theme of =E2=80=9Ccome on man even you don=E2=
+=80=99t want to be here=E2=80=9D:It  worked!Peloton Interactive Inc. Chief =
+Executive Officer John Foley will step down and become executive chairman i=
+n a victory for activist investor Blackwells Capital LLC, which had campaig=
+ned for his departure as the fitness company struggled with declining deman=
+d for its products.Barry McCarthy, former chief financial officer at Spotif=
+y Technology SA, will become CEO and president, effective Feb. 9, Peloton s=
+aid in a statement Tuesday. Peloton also said about 2,800 global jobs would=
+ be cut, affecting around 20% of corporate positions.=C2=A0I mean, I don=E2=
+=80=99t know how well it worked; =E2=80=9Cexecutive chairman and controllin=
+g shareholder=E2=80=9D is still a powerful job. But the idea, at least, is =
+to put Peloton=E2=80=99s day-to-day management and strategic planning into =
+different hands.In a sense, the pitch here is straightforward. Blackwells d=
+oes not think that Foley is very good at running Peloton. The stock market =
+does not think that Foley is very good at running Peloton, in that the stoc=
+k is down 80% from its highs last year and spent last week below its 2019 i=
+nitial public offering price of $29. (It=E2=80=99s up today.) And Foley doe=
+s not think he=E2=80=99s particularly good at running Peloton, at least if =
+you believe the quotes that Blackwells selected here. If someone else takes=
+ over the day-to-day running of Peloton, or the process of=C2=A0selling it =
+to a better owner (and Blackwells is also pushing for a sale), then Foley w=
+ill have more money (because he owns a lot of Peloton stock) and also more =
+free time (because he=E2=80=99s not running Peloton). It is no fun to do a =
+job that you=E2=80=99re not good at, particularly when doing that job=C2=A0=
+costs you money. If you can get in a room with Foley, or just lob a PowerPo=
+int deck at him, and explain =E2=80=9Chey, everyone is mad at you, you=E2=
+=80=99re=C2=A0not having fun and it=E2=80=99s making you poorer,=E2=80=9D t=
+hat=E2=80=99s fairly persuasive and maybe he=E2=80=99ll listen. He did!In a=
+nother sense, Foley seems to have done almost enough to insulate himself fr=
+om this sort of pressure. He has super-voting shares, not quite enough to b=
+e a majority but enough to swat away pesky activists in most=C2=A0situation=
+s. A lot of his net worth is wrapped up in Spotify, so he has economic ince=
+ntives to do the value-maximizing thing, but not=C2=A0all=C2=A0of his net w=
+orth is wrapped up in Spotify, and one of Blackwells=E2=80=99 big complaint=
+s is that Foley sold $96 million of Peloton stock in 2021 even while profes=
+sing optimism about the business.[2] One effect of selling $96 million wort=
+h of stock while the stock is high and declining is that you end up with $9=
+6 million, which dulls your incentives to make the stock go back up. If the=
+ stock never goes back up you still have the $96 million. Most people who h=
+ave $96 million and are the CEO of a public company would prefer, all in al=
+l, to make the stock go up and have more money. (His remaining stock is wor=
+th something like $500 million at yesterday=E2=80=99s closing price.)=C2=A0=
+But it is not an absolute necessity.So, loosely speaking, if Foley found it=
+ enjoyable to run Peloton poorly for the rest of his life, he could pretty =
+much afford to, and pretty much nobody could stop him. And if you tweaked t=
+he situation slightly =E2=80=94=C2=A0if he had sold a bit more stock, and i=
+f he had slightly more of the super-voting shares =E2=80=94=C2=A0then that =
+would go from pretty much true to completely true.[3]A lot of public-compan=
+y governance operates on the assumption that the shareholders are ultimatel=
+y in charge. How this actually works is complicated and indirect, and we ha=
+ve  talked about how the path from =E2=80=9Cshareholders want something=E2=
+=80=9D to =E2=80=9Ccompany is forced to do it by legally binding mechanisms=
+=E2=80=9D is winding and uncertain. But if you are an activist, everything =
+you do takes place against a backdrop of =E2=80=9Cif you ignore the shareho=
+lders we can vote you out.=E2=80=9D Usually! Traditionally!=C2=A0But modern=
+ U.S. public markets increasingly have the rules of private tech startups: =
+The founders control the company, they can do what they want, and=C2=A0the =
+shareholders have no=C2=A0binding=C2=A0power to get rid of them. All they c=
+an do is appeal to the founders themselves, telling the founders that givin=
+g up power will be good for=C2=A0them, that they=E2=80=99ll have more fun a=
+nd also more money if they leave. The company belongs to the founders, and =
+they=E2=80=99ll only leave if they want to.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      DWAC
+   =20
+ =20
+Here=E2=80=99s a trade you can=E2=80=99t do:DWAC warrants are trading aroun=
+d $27, compared with the stock=E2=80=99s $80. Some analysts say they are un=
+dervalued because assuming the deal closes with the stock price roughly whe=
+re it is now, warrant holders would pay $11.50 per share and could immediat=
+ely sell at the market price of several times that. By that logic, some ana=
+lysts say the warrants should roughly trade at the stock price minus $11.50=
+, or in the high $60s, instead of the high $20s.Traders expecting the gap b=
+etween the shares and warrants to close in the coming months could buy the =
+warrants and try to short the stock by borrowing shares, selling them and a=
+iming to buy them back at lower prices.That is from a Wall Street Journal s=
+tory about DWAC,=C2=A0Digital World Acquisition Corp., the special purpose =
+acquisition company that has signed a deal to merge with Donald Trump=E2=80=
+=99s vague social media thing, Trump Media & Technology Group. DWAC=E2=80=
+=99s shares are trading at a very high price due to retail investor enthusi=
+asm for Donald Trump=E2=80=99s vague social media plans. Like most SPACs, D=
+WAC also has warrants outstanding, which represent the right to pay $11.50 =
+and get back one share of DWAC after the merger closes. Nobody knows when t=
+he merger will close, but it will require lawyers to write a prospectus exp=
+laining what exactly Donald Trump=E2=80=99s social media thing is, how the =
+deal came together, etc., and nobody is especially holding their breath.=C2=
+=A0On the other hand that trade right there seems good=C2=A0no matter what:=
+ Pay $27 for a warrant, sell a share short for $80, and you=E2=80=99ve got =
+$53. If the deal closes and the stock trades at $80, you pay $11.50 to exer=
+cise your warrant, get the share, deliver it to your stock lender, and you =
+are left with $41.50 of profit. If the deal closes and the stock trades at =
+$15 or $50 or $100 or $2,000, the math is the same and you still have that =
+$41.50 of profit. If the deal does not close then the shares will in practi=
+ce be worth $10 and the warrants will be worth $0, so you=E2=80=99ll buy yo=
+ur share back for $10, deliver it to your stock lender, and keep $43 of pro=
+fit.[4]But the trade does not work:The challenge is that the wild trading i=
+n DWAC has driven the fee to borrow shares to exorbitant rates, according t=
+o data from technology and data analytics firm S3 Partners. That high borro=
+wing fee is one reason the number of shares shorted is still relatively sma=
+ll even though it has ticked higher lately, investors say.The issue here is=
+ that to short DWAC stock you need to be able to borrow it, but there just =
+is not that much available to borrow and what is available is extremely exp=
+ensive.[5] If you could easily borrow DWAC stock, hoo boy! There is actuall=
+y a long line to borrow DWAC stock to lock in risk-free trades; the warrant=
+s are nice but the real money is in the PIPE, the private investment in pub=
+lic equity that DWAC  signed up with some hedge funds in December. Those fu=
+nds could lock in a profit of something like $50 per share if they could sh=
+ort DWAC stock now, and their investment agreement=C2=A0specifically allows=
+ them to, but stock-borrow availability and cost makes it hard.Still here=
+=E2=80=99s a trade that you can do:=09You already own DWAC stock because yo=
+u think Donald Trump=E2=80=99s social media thing will be lucrative, etc.=
+=09Sell it for $80!=09Buy a warrant for $27.=09Put $11.50 in an envelope fo=
+r when you might need to exercise the warrant.=09The other $41.50 is yours =
+to keep.This is not investment advice, but if you have the stock in your Ro=
+binhood account this seems like a no-brainer: You=C2=A0have $41.50 more cas=
+h and the exact same amount of exposure to DWAC=E2=80=99s stock.Why doesn=
+=E2=80=99t this happen? I think you could tell two stories. One is the =E2=
+=80=9Ceverything is dumb=E2=80=9D story.=C2=A0In this story, professionals =
+buy the warrants, or don=E2=80=99t, and their enthusiasm for Trump=E2=80=99=
+s vague social media thing is lukewarm. They see the soaring stock price, a=
+nd are willing to bet that the deal will close and they can exercise the wa=
+rrants at a big profit, but they are not=C2=A0that=C2=A0confident, so the w=
+arrant price does not fully reflect the stock price. Meanwhile, retail Trum=
+p enthusiasts buy the stock and bid it up to wild levels, and nobody has bo=
+thered to tell them about the warrants. So the market for the stock and the=
+ market for the warrants are totally separate and there is no arbitrage bet=
+ween them; lack of knowledge prevents retail traders from buying the warran=
+ts, and lack of stock borrow prevents institutional traders from shorting t=
+he stock.=C2=A0This is a story that, in general, I find pretty compelling h=
+ere in 2022, and it=E2=80=99s the story the Journal tells:The gap between s=
+hares and warrants is evidence that individual investors are driving up mor=
+e well-known shares and options, some analysts said. Digital World=E2=80=99=
+s stock ticker, DWAC, has been trending on some social-media platforms in r=
+ecent weeks and its trading volumes at times have been comparable to those =
+of much larger companies.=E2=80=9CThis is the meme stock of all meme stocks=
+ because it=E2=80=99s Trump,=E2=80=9D said Matthew Tuttle, whose firm Tuttl=
+e Capital Management runs a few SPAC exchange-traded funds. Meme stocks gai=
+n popularity among online traders for reasons other than their business pro=
+spects, as GameStop and others have in the past year. ...More-sophisticated=
+ traders are likely trading the warrants, analysts said, tempering their ex=
+pectations about where the stock will trade when the deal closes. The warra=
+nt price is still unprecedented for SPACs and implies a valuation for Trump=
+ Media & Technology Group in the billions, albeit a much smaller one than t=
+he stock price does.The other story you can tell is something like =E2=80=
+=9Cthese prices reflect a rational market, but the market is for=C2=A0stock=
+ borrow.=E2=80=9D In this story, stock investors have decided that DWAC is =
+worth $80 per share. PIPE investors have committed to invest $1 billion in =
+the company, when the merger closes, at $33.60 per share. If they can buy a=
+t $33.60 and sell at $80 then that is an incredibly good return for a few m=
+onths of capital commitment, so they want to. Maybe some of those PIPE inve=
+stors think this is a $1,000-a-share company and won=E2=80=99t sell, but yo=
+u have to figure that most of the hedge-fund PIPE investors are in this for=
+ a quick trade and will happily buy at $33.60 to sell at $80. So those hedg=
+e funds create enormous demand for stock borrow:=C2=A0If they can borrow an=
+y DWAC shares to short them, they will.=C2=A0This means that, if you are an=
+ institutional investor who owns DWAC stock, it=C2=A0really is=C2=A0worth m=
+uch more than the warrants. If you own the stock, you can lend it out and c=
+ollect those exorbitant stock-borrow fees. If you own the warrant, you can=
+=E2=80=99t. If the stock borrow fees are 100% per year and the merger won=
+=E2=80=99t close for six months, then you can get $40 of income from the st=
+ock that you wouldn=E2=80=99t get from the warrant. So the stock should be =
+worth $51.50 (the $40 of income plus the $11.50 exercise price) more than t=
+he warrants, which is about what the difference actually is. So you should =
+not sell stock and buy warrants; you should keep the stock, use it to suppo=
+rt the PIPE investors' risk-free trade, and charge them for it.This story i=
+s appealing =E2=80=94=C2=A0I would like it to be true =E2=80=94=C2=A0but I =
+do not think it is=C2=A0exactly=C2=A0true. For one thing, while the stock b=
+orrow cost is high, there are not that many shares borrowed and shorted; Bl=
+oomberg shows something like 4.5 million shares of short interest. So it is=
+=C2=A0not the case that PIPE investors have hedged out all their risk by pa=
+ying stock borrow fees to shareholders, and it is certainly not the case th=
+at all the shareholders are holding shares because of the lucrative payment=
+s for stock borrow. Also, while institutional investors can generally colle=
+ct their stock-borrow fees, and so can some retail investors,=C2=A0average =
+Robinhood investors are not getting paid for lending out their shares, so i=
+t=E2=80=99s not really true that the shares are worth more than the warrant=
+s to them. They should just switch to the warrants!Elsewhere in Trump=E2=80=
+=99s vague social media thing:Trump Media and Technology Group CEO Devin Nu=
+nes announced on Thursday that TRUTH Social was still undergoing beta testi=
+ng and would release by the end of March. That would place the app's releas=
+e a month after its initial announcement, which said it would debut Feb. 21=
+ on its iOS app page.Sure!
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Elsewhere in Trumpy social media SPACs
+   =20
+ =20
+A good tip in big business is that if you ever find yourself sending an uns=
+olicited nine-figure=C2=A0bid for something, you should end your bid letter=
+ by saying =E2=80=9CAnd yes, this is totally legit.=E2=80=9D If you do not =
+end that way, the person receiving your unsolicited nine-figure bid letter =
+might wonder if it is in fact legit; they might conclude that it is not, an=
+d throw the letter away instead of calling you to negotiate. Whereas =E2=80=
+=9Cthis is totally legit=E2=80=9D conveys the important information that it=
+ is totally legit. I used to be a mergers and acquisitions lawyer and =E2=
+=80=A6=C2=A0no, I=E2=80=99m sorry, I=E2=80=99m kidding here,=C2=A0in high-s=
+takes M&A auctions I cannot recall ever receiving a bid package ending =E2=
+=80=9Cthis is totally legit.=E2=80=9D Context clues allowed me to conclude =
+that bid packages were totally legit. If you end a=C2=A0bid =E2=80=9CAnd ye=
+s, this is totally legit,=E2=80=9D it=E2=80=99s because you know the contex=
+t clues are not helping.Anyway here=E2=80=99s a letter that Rumble Inc.=C2=
+=A0wrote to podcaster Joe Rogan and posted on Twitter yesterday, saying in =
+part:How about you bring all your shows to Rumble, both old and new, with n=
+o censorship, for 100 million bucks over four years?This is our chance to s=
+ave the world. And yes, this is totally legit.I am not sure how serious it =
+actually is:The offer, made public in a letter from Rumble Chief Executive =
+Chris Pavlovski posted to Twitter, follows Spotify CEO Daniel Ek=E2=80=99s =
+letter to employees on Sunday apologizing for Mr. Rogan=E2=80=99s use of a =
+racial slur in previous podcast episodes and saying he doesn=E2=80=99t beli=
+eve in =E2=80=9Csilencing=E2=80=9D him. Spotify has said Mr. Rogan signed a=
+ multiyear deal with the company in September 2020. It is unclear whether M=
+r. Rogan would be able to switch platforms any time soon. =E2=80=A6Mr. Ek s=
+aid in his letter that Mr. Rogan chose to remove some episodes from Spotify=
+ after discussions with the company and Mr. Rogan=E2=80=99s own reflections=
+. Tracking site jremissing.com says 113 of Mr. Rogan=E2=80=99s episodes hav=
+e been taken off Spotify since Friday.But Rumble also has signed a deal to =
+merge with a SPAC called CF Acquisition Corp. VI, and the stock was up 18% =
+yesterday. Just offering Joe Rogan $100 million added some $500 million to =
+Rumble=E2=80=99s market value.[6] I suppose you can tell a story about this=
+ letter increasing Rumble=E2=80=99s expected future cash flows by $500 mill=
+ion, but I won=E2=80=99t. My advice to CEOs recently has been pretty much =
+=E2=80=9Cdo meme stuff,=E2=80=9D and if you are a right-wing media SPAC in =
+2022 surely the meme-iest thing you can do is say =E2=80=9CJoe Rogan=E2=80=
+=9D a lot. So, makes sense.=C2=A0They should offer him $200 million to host=
+=C2=A0just=C2=A0the shows that use racial slurs.
+ =20
+   =20
+      NFT IP
+   =20
+ =20
+If=C2=A0you buy a book, and you read it, and you don=E2=80=99t want to read=
+ it again, you can sell it. You own the book that you bought so it=E2=80=99=
+s yours to do what you want with. On the other hand, you can=E2=80=99t scan=
+ the book, upload it to the internet, and sell thousands of electronic copi=
+es at $1 each. You don=E2=80=99t own=C2=A0the contents of the book; you don=
+=E2=80=99t own the intellectual property. You own the physical printed copy=
+ of the book. In the U.S., this is called the =E2=80=9Cfirst-sale doctrine.=
+=E2=80=9D=C2=A0Similarly if you buy sneakers you can resell them. You can a=
+lso wear them. They=E2=80=99ll probably have some brand on them, like a Nik=
+e swoosh. If someone sees you wearing the sneakers they might say =E2=80=9C=
+hey cool shoes are those Nikes=E2=80=9D and you can say =E2=80=9Cthey sure =
+are, they=E2=80=99re the new Air Jordan 420s=E2=80=9D or whatever and they =
+might say =E2=80=9Coh wow those are ultra rare and cool=E2=80=9D and you ca=
+n be like =E2=80=9CI know.=E2=80=9D=C2=A0What if you tried to separate out =
+that rare coolness from the shoes? What if you, like, advertised that you w=
+ould let people take pictures with your rare Nikes to post on social media?=
+ I am not an intellectual property lawyer but I feel like eventually Nike I=
+nc. would get annoyed. You own the=C2=A0shoes, sure, but Nike owns the inte=
+llectual property. You can resell the shoes, but the brand belongs to Nike.=
+Anyway:Nike Inc. has sued StockX LLC, accusing the online marketplace of se=
+lling unauthorized digital products based on its sneakers.The lawsuit, file=
+d Thursday in New York federal court, is the latest dispute involving a bra=
+nd over the sale of products known as nonfungible tokens, or NFTs.Nike said=
+ the sale of NFTs based on recently released iterations of sneakers such as=
+ Nike Dunks and Air Jordans =E2=80=9Care likely to confuse consumers, creat=
+e a false association between those products and Nike=E2=80=9D and dilute i=
+ts trademarks, according to the suit. NFTs act as vouchers of authenticity =
+on the blockchain for goods. =E2=80=A6Customers who buy the StockX NFTs hav=
+e the option of being shipped the physical sneaker, which would take that N=
+FT out of circulation, or keeping the digital asset on the blockchain, whic=
+h enables it to be resold on StockX=E2=80=99s platform.In recent days, NFTs=
+ of the Air Jordan 4 and the Nike Dunk Low have resold for over $500 on the=
+ site, according to a review by The Wall Street Journal of data on StockX, =
+more than double the retail price of the physical shoes. StockX charges cus=
+tomers who sell an NFT on its platform a 3% transaction fee in addition to =
+a 1% payment processing fee. On its website, StockX markets the digital goo=
+ds as authentic products and exclusive NFTs.Look! If you have the choice be=
+tween:=09Selling a pair of rare Nike sneakers for $250, or=09Selling the sa=
+me pair of sneakers for $500=C2=A0and keeping the shoes,[7]there is really =
+only one logical choice. The problem is, why should Nike let you do this? W=
+hy shouldn=E2=80=99t=C2=A0Nike=C2=A0do this? Nike, as the issuer of Nikes, =
+should be the one selling rare Nikes and not delivering them. That makes th=
+em especially rare! It=E2=80=99s one thing for StockX to sell you an Air Jo=
+rdan 4 and hang onto it, but Nike can sell you an Air Jordan 69,420 and not=
+ even make it! It=E2=80=99s the rarest sneaker of all! Exactly zero were ev=
+er made![8] It=E2=80=99s worth millions.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+The  Carry Trade Is Minting Big Returns in Latin America Again. The  Titans=
+ of Junk Debt Turned Trash Into Bond-Market Treasure. Turkey Courts Investo=
+rs at London Meeting, Promises  Stable Lira. Credit Suisse  Cuts Bonus Pool=
+ by 10% After Regulator Pushback. Investors Gobble Up Dividend Stocks Durin=
+g Market Turbulence. SoftBank Begins to Pitch  Arm IPO as Nvidia Gives Up o=
+n Deal. Women spoke up, men cried conspiracy: inside Axel Springer=E2=80=99=
+s #MeToo moment. Neil Young Blasts Spotify=E2=80=99s Ek,  Goes After Four B=
+ig Banks Next. Peter Thiel Is Finally Free to Go All-In on  Far-Right Polit=
+ics. New study shows that Mafia accountants are really good at their jobs.I=
+f you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right i=
+n your inbox, please=C2=A0subscribe at this link. Or you can subscribe to M=
+oney Stuff and other great Bloomberg newsletters here. Thanks![1] There are=
+ about 28.8 million high-vote Class B shares outstanding, and 274 million l=
+ow-vote Class As, and the proxy says that Foley owns 17 million of the Bs. =
+(See page 40 of the proxy.) But in a footnote it explains that he actually =
+only owns 5.2 million of those; the remaining 11.9 million are shares under=
+lying options. The options have low strike prices and are exercisable now, =
+so he effectively does control those shares, but they are not counted in th=
+e 28.8 million Bs that are outstanding. If he exercised the options, there=
+=E2=80=99d be 40.7 million Class B shares outstanding, and he=E2=80=99d own=
+ 42% of them (as the proxy correctly reports), or about 31% of the total vo=
+te. Other co-founder/executive share counts have similar issues. By my coun=
+t if Foley, Cortese, Kushi, President William Lynch and Chief Financial Off=
+icer Jill Woodworth all exercised all their options, they=E2=80=99d have ab=
+out 53% of the voting power. (Lynch is stepping down as president as Foley =
+steps down as CEO.)[2] See page 35 of their deck. Page 36 also notes that F=
+oley and other directors and officers have *pledged* a lot of their stock, =
+which is also kind of weird for a public company and also (depending on the=
+ terms of the pledge) potentially a way to take money off the table.[3]=C2=
+=A0Blackwells=C2=A0complains=C2=A0that =E2=80=9CMr. Foley=E2=80=99s interes=
+ts and incentives are misaligned with employees and shareholders,=E2=80=9D =
+=E2=80=9CPeloton=E2=80=99s governance structure frustrates accountability a=
+nd lacks basic protections,=E2=80=9D and =E2=80=9Cthe Company=E2=80=99s dua=
+l-class share structure decouples economic interests from voting interests=
+=E2=80=9D because =E2=80=9CPeloton=E2=80=99s executives control more than 7=
+5% of the voting power despite an economic interest of less than 15%.=E2=80=
+=9D Those are all reasons to expect Blackwells=E2=80=99s complaints to be i=
+gnored![4] If the deal closes and the stock trades below $11.50 this is als=
+o the math, though you might pay more (or less) than $10.[5] S3 shows borro=
+w costs in the neighborhood of 100%, meaning that if you borrow the stock f=
+or a year you pay about $80. If it takes six months to close the merger the=
+n that eats all your profits. And there=E2=80=99s no guarantee that those r=
+ates will stay stable; they can go up, eating your profits faster.[6] The m=
+ath there is that the SPAC has $300 million in cash (30 million shares), an=
+d the merger gives Rumble a $2.1 billion enterprise value, giving the publi=
+c SPAC shareholders roughly one-seventh of that value. The stock went up $2=
+.32 per share yesterday, adding about $70 million to the market value of th=
+e SPAC; if you figure the SPAC is one-seventh of the total value of the pos=
+t-merger company then that means a total value add of $490ish million.[7] A=
+nd then taking a 3% cut of all resales![8]=C2=A0I suppose it=E2=80=99s made=
+ of solid gold? Tungsten? A fine yarn spun from the manes of unicorns? If y=
+ou make zero of them, you can make them out of whatever you want. The cost =
+of materials can be millions of dollars per shoe, times zero shoes.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfuz90.5l39/cfbe110d.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_17547593_417559251.1644346999347
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+PelotonIt is not quite right to say that John Foley, the co-founder and sti=
+ll technically chief executive officer of Peloton Interactive Inc
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjYzOTYwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY5MDAyMTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB566246a0" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26639604&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26900217&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMjA4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDgmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB4a5b5a00"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjYzOTYwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY5MDAyMTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCcf126b6b" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26639604&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26900217&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Peloton</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">It is not quite right to say that John=
+ Foley, the co-founder and still technically chief executive officer of Pel=
+oton Interactive Inc., is also Peloton=E2=80=99s controlling shareholder, b=
+ut it=E2=80=99s close. Peloton has dual-class stock in which the founders a=
+nd some other insiders have stock with 20 votes per share, and Foley has a =
+lot of it; according=C2=A0to Peloton=E2=80=99s <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/26639604.260613/aHR0cHM6Ly93d3cuc2VjLmdvdi9Bcm=
+NoaXZlcy9lZGdhci9kYXRhLzE2Mzk4MjUvMDAwMTE5MzEyNTIxMzA2NjU1L2QyMTcxNjlkZGVmM=
+TRhLmh0bSN0b2MyMTcxNjlfMTI/607f07ceef4b8524a319a23cB1e4881a2" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">proxy=
+ statement</a>, he controls 39.6% of the voting power of Peloton=E2=80=99s =
+stock, and his co-founders Thomas Cortese=C2=A0and Hisao Kushi own another =
+18%. This is not quite right either =E2=80=94=C2=A0it counts stock options =
+in a weird way[1] =E2=80=94=C2=A0but we will just go with it. In practice, =
+Foley controls a large block of super-voting stock, and along with his co-f=
+ounders and fellow senior executives he has a majority of the voting stock.=
+</p><p style=3D"margin: 16px 0;">This makes shareholder activism somewhat c=
+hallenging. If you are an activist and you do not like Peloton=E2=80=99s ma=
+nagement, you can put together a zingy deck about how bad the managers are =
+and how much money they are costing shareholders, and you can present it to=
+ Peloton=E2=80=99s board of directors and urge them to fire the managers, b=
+ut the board=E2=80=99s hands are somewhat tied because, if they fire the ma=
+nagers, the managers =E2=80=94=C2=A0as controlling shareholders =E2=80=94=
+=C2=A0can fire them right back and reinstate themselves. Or you can present=
+ your zingy deck to Peloton=E2=80=99s other=C2=A0<em>shareholders</em>, hop=
+ing to lead a proxy fight that will unseat the board, but you will lose tha=
+t fight because, again, the managers control a majority of the voting stock=
+.=C2=A0</p><p style=3D"margin: 16px 0;">There are ways around this =E2=80=
+=94=C2=A0if you peel off enough of Foley=E2=80=99s co-founders and fellow e=
+xecutives and venture-capital backers maybe you can get a majority of the s=
+tock to vote against him =E2=80=94=C2=A0but they are narrow. If you are an =
+activist shareholder looking to convince Peloton=E2=80=99s board to fire Fo=
+ley, the most promising avenue is probably to=C2=A0<em>convince Foley to fi=
+re himself</em>.</p><p style=3D"margin: 16px 0;">Here is a <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/26639604.260613/aHR0cHM6Ly93d3cuYm=
+xhY2t3ZWxsc2NhcC5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDIvQldfUGVsb3Rvbl9Qc=
+mVzZW50YXRpb25fRmViMDcyMDIyLnBkZg/607f07ceef4b8524a319a23cBbb91af88" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">fun activist deck</a> from Blackwells Capital yesterday that leans heavil=
+y on the theme of =E2=80=9Ccome on man even you don=E2=80=99t want to be he=
+re=E2=80=9D:</p><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/izwBVB2kFpP0/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/izwBVB2kFpP0/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]--><p style=3D"margin: 16px 0;">It <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/26639604.260613/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjItMDItMDgvcGVsb3Rvbi1jZW8tZm9sZXktdG8tZGVwYXJ0LWFz=
+LWJpa2VtYWtlci1wbGFucy1qb2ItY3V0cy13c2o_Y21waWQ9QkJEMDIwODIyX01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjA4Jn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3e4b1507" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ worked</a>!</p><blockquote><p style=3D"margin: 16px 0;">Peloton Interactiv=
+e Inc. Chief Executive Officer John Foley will step down and become executi=
+ve chairman in a victory for activist investor Blackwells Capital LLC, whic=
+h had campaigned for his departure as the fitness company struggled with de=
+clining demand for its products.</p><p style=3D"margin: 16px 0;">Barry McCa=
+rthy, former chief financial officer at Spotify Technology SA, will become =
+CEO and president, effective Feb. 9, Peloton said in a statement Tuesday. P=
+eloton also said about 2,800 global jobs would be cut, affecting around 20%=
+ of corporate positions.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;"=
+>I mean, I don=E2=80=99t know how well it worked; =E2=80=9Cexecutive chairm=
+an and controlling shareholder=E2=80=9D is still a powerful job. But the id=
+ea, at least, is to put Peloton=E2=80=99s day-to-day management and strateg=
+ic planning into different hands.</p><p style=3D"margin: 16px 0;">In a sens=
+e, the pitch here is straightforward. Blackwells does not think that Foley =
+is very good at running Peloton. The stock market does not think that Foley=
+ is very good at running Peloton, in that the stock is down 80% from its hi=
+ghs last year and spent last week below its 2019 initial public offering pr=
+ice of $29. (It=E2=80=99s up today.) And Foley does not think he=E2=80=99s =
+particularly good at running Peloton, at least if you believe the quotes th=
+at Blackwells selected here. If someone else takes over the day-to-day runn=
+ing of Peloton, or the process of=C2=A0selling it to a better owner (and Bl=
+ackwells is also pushing for a sale), then Foley will have more money (beca=
+use he owns a lot of Peloton stock) and also more free time (because he=E2=
+=80=99s not running Peloton). It is no fun to do a job that you=E2=80=99re =
+not good at, particularly when doing that job=C2=A0<em>costs you money</em>=
+. If you can get in a room with Foley, or just lob a PowerPoint deck at him=
+, and explain =E2=80=9Chey, everyone is mad at you, you=E2=80=99re=C2=A0not=
+ having fun and it=E2=80=99s making you poorer,=E2=80=9D that=E2=80=99s fai=
+rly persuasive and maybe he=E2=80=99ll listen. He did!</p><p style=3D"margi=
+n: 16px 0;">In another sense, Foley seems to have done almost enough to ins=
+ulate himself from this sort of pressure. He has super-voting shares, not q=
+uite enough to be a majority but enough to swat away pesky activists in mos=
+t=C2=A0situations. A lot of his net worth is wrapped up in Spotify, so he h=
+as economic incentives to do the value-maximizing thing, but not=C2=A0<em>a=
+ll=C2=A0</em>of his net worth is wrapped up in Spotify, and one of Blackwel=
+ls=E2=80=99 big complaints is that Foley sold $96 million of Peloton stock =
+in 2021 even while professing optimism about the business.[2] One effect of=
+ selling $96 million worth of stock while the stock is high and declining i=
+s that you end up with $96 million, which dulls your incentives to make the=
+ stock go back up. If the stock never goes back up you still have the $96 m=
+illion. Most people who have $96 million and are the CEO of a public compan=
+y would prefer, all in all, to make the stock go up and have more money. (H=
+is remaining stock is worth something like $500 million at yesterday=E2=80=
+=99s closing price.)=C2=A0But it is not an absolute necessity.</p><p style=
+=3D"margin: 16px 0;">So, loosely speaking, if Foley found it enjoyable to r=
+un Peloton poorly for the rest of his life, he could pretty much afford to,=
+ and pretty much nobody could stop him. And if you tweaked the situation sl=
+ightly =E2=80=94=C2=A0if he had sold a bit more stock, and if he had slight=
+ly more of the super-voting shares =E2=80=94=C2=A0then that would go from p=
+retty much true to completely true.[3]</p><p style=3D"margin: 16px 0;">A lo=
+t of public-company governance operates on the assumption that the sharehol=
+ders are ultimately in charge. How this actually works is complicated and i=
+ndirect, and we have <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/26639604.260613/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMjEtMDUtMjcvZXh4b24tbG9zdC1hLWNsaW1hdGUtcHJveHktZmlnaHQ_Y21waWQ9QkJEMDI=
+wODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdX=
+RtX3Rlcm09MjIwMjA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23c=
+B9b9d0987" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> talked about</a> how the path from =E2=80=9Cshareholder=
+s want something=E2=80=9D to =E2=80=9Ccompany is forced to do it by legally=
+ binding mechanisms=E2=80=9D is winding and uncertain. But if you are an ac=
+tivist, everything you do takes place against a backdrop of =E2=80=9Cif you=
+ ignore the shareholders we can vote you out.=E2=80=9D Usually! Traditional=
+ly!=C2=A0But modern U.S. public markets increasingly have the rules of priv=
+ate tech startups: The founders control the company, they can do what they =
+want, and=C2=A0the shareholders have no=C2=A0<em>binding=C2=A0</em>power to=
+ get rid of them. All they can do is appeal to the founders themselves, tel=
+ling the founders that giving up power will be good for=C2=A0<em>them</em>,=
+ that they=E2=80=99ll have more fun and also more money if they leave. The =
+company belongs to the founders, and they=E2=80=99ll only leave if they wan=
+t to.</p><table class=3D"liveintent-sponsored-content" width=3D"auto" cellp=
+adding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjYzOTYwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY5MDAyMTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD6fec24a2" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26639604&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26900217&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjYzOTYwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY5MDAyMTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE6fec24a2" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26639604&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26900217&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjYzOTYwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY5MDAyMTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF922cb826" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26639604&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26900217&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjYzOTYwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY5MDAyMTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG922cb826" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26639604&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26900217&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">DWAC</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here=E2=80=99s <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/26639604.260613/aHR0cHM6Ly93d3cud3NqLmNvb=
+S9hcnRpY2xlcy9ob3ctbXVjaC1pcy10cnVtcHMtbmV3LXNvY2lhbC1tZWRpYS1jb21wYW55LXdv=
+cnRoLXRyYWRlcnMtY2FudC1kZWNpZGUtMTE2NDQzMTYzODA_bW9kPWhwX2xlYWRfcG9zNA/607f=
+07ceef4b8524a319a23cBa4a1a78a" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">a trade you can=E2=80=99t do</a>:</p=
+><blockquote><p style=3D"margin: 16px 0;">DWAC warrants are trading around =
+$27, compared with the stock=E2=80=99s $80. Some analysts say they are unde=
+rvalued because assuming the deal closes with the stock price roughly where=
+ it is now, warrant holders would pay $11.50 per share and could immediatel=
+y sell at the market price of several times that. By that logic, some analy=
+sts say the warrants should roughly trade at the stock price minus $11.50, =
+or in the high $60s, instead of the high $20s.</p><p style=3D"margin: 16px =
+0;">Traders expecting the gap between the shares and warrants to close in t=
+he coming months could buy the warrants and try to short the stock by borro=
+wing shares, selling them and aiming to buy them back at lower prices.</p><=
+/blockquote><p style=3D"margin: 16px 0;">That is from a Wall Street Journal=
+ story about DWAC,=C2=A0Digital World Acquisition Corp., the special purpos=
+e acquisition company that has signed a deal to merge with Donald Trump=E2=
+=80=99s vague social media thing, Trump Media &amp; Technology Group. DWAC=
+=E2=80=99s shares are trading at a very high price due to retail investor e=
+nthusiasm for Donald Trump=E2=80=99s vague social media plans. Like most SP=
+ACs, DWAC also has warrants outstanding, which represent the right to pay $=
+11.50 and get back one share of DWAC after the merger closes. Nobody knows =
+when the merger will close, but it will require lawyers to write a prospect=
+us explaining what exactly Donald Trump=E2=80=99s social media thing is, ho=
+w the deal came together, etc., and nobody is especially holding their brea=
+th.=C2=A0</p><p style=3D"margin: 16px 0;">On the other hand that trade righ=
+t there seems good=C2=A0no matter what: Pay $27 for a warrant, sell a share=
+ short for $80, and you=E2=80=99ve got $53. If the deal closes and the stoc=
+k trades at $80, you pay $11.50 to exercise your warrant, get the share, de=
+liver it to your stock lender, and you are left with $41.50 of profit. If t=
+he deal closes and the stock trades at $15 or $50 or $100 or $2,000, the ma=
+th is the same and you still have that $41.50 of profit. If the deal does n=
+ot close then the shares will in practice be worth $10 and the warrants wil=
+l be worth $0, so you=E2=80=99ll buy your share back for $10, deliver it to=
+ your stock lender, and keep $43 of profit.[4]</p><p style=3D"margin: 16px =
+0;">But the trade does not work:</p><blockquote><p style=3D"margin: 16px 0;=
+">The challenge is that the wild trading in DWAC has driven the fee to borr=
+ow shares to exorbitant rates, according to data from technology and data a=
+nalytics firm S3 Partners. That high borrowing fee is one reason the number=
+ of shares shorted is still relatively small even though it has ticked high=
+er lately, investors say.</p></blockquote><p style=3D"margin: 16px 0;">The =
+issue here is that to short DWAC stock you need to be able to borrow it, bu=
+t there just is not that much available to borrow and what is available is =
+extremely expensive.[5] If you could easily borrow DWAC stock, hoo boy! The=
+re is actually a long line to borrow DWAC stock to lock in risk-free trades=
+; the warrants are nice but the real money is in the PIPE, the private inve=
+stment in public equity that DWAC <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/26639604.260613/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjEtMTItMDYvdGhlLXRydW1wLXNwYWMtZGlkLWEtcGlwZT9jbXBpZD1CQk=
+QwMjA4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlc=
+iZ1dG1fdGVybT0yMjAyMDgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319=
+a23cBb5590090" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> signed up with some hedge funds in December</a>. Th=
+ose funds could lock in a profit of something like $50 per share if they co=
+uld short DWAC stock now, and their investment agreement=C2=A0<a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/26639604.260613/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMTMvdGhlLXRydW1wLXNwYW=
+MtcGlwZS1pcy1mcmVlLW1vbmV5P2NtcGlkPUJCRDAyMDgyMl9NT05FWVNUVUZGJnV0bV9tZWRpd=
+W09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIwOCZ1dG1fY2FtcGFp=
+Z249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB33411219" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"><em>specifica=
+lly allows them to</em></a>, but stock-borrow availability and cost makes i=
+t hard.</p><p style=3D"margin: 16px 0;">Still here=E2=80=99s a trade that y=
+ou can do:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; ma=
+rgin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">You already own DWAC st=
+ock because you think Donald Trump=E2=80=99s social media thing will be luc=
+rative, etc.</li>=09<li style=3D"margin-bottom: 5px;">Sell it for $80!</li>=
+=09<li style=3D"margin-bottom: 5px;">Buy a warrant for $27.</li>=09<li styl=
+e=3D"margin-bottom: 5px;">Put $11.50 in an envelope for when you might need=
+ to exercise the warrant.</li>=09<li style=3D"margin-bottom: 5px;">The othe=
+r $41.50 is yours to keep.</li></ol><p style=3D"margin: 16px 0;">This is no=
+t investment advice, but if you have the stock in your Robinhood account th=
+is seems like a no-brainer: You=C2=A0have $41.50 more cash and the exact sa=
+me amount of exposure to DWAC=E2=80=99s stock.</p><p style=3D"margin: 16px =
+0;">Why doesn=E2=80=99t this happen? I think you could tell two stories. On=
+e is the =E2=80=9Ceverything is dumb=E2=80=9D story.=C2=A0In this story, pr=
+ofessionals buy the warrants, or don=E2=80=99t, and their enthusiasm for Tr=
+ump=E2=80=99s vague social media thing is lukewarm. They see the soaring st=
+ock price, and are willing to bet that the deal will close and they can exe=
+rcise the warrants at a big profit, but they are not=C2=A0<em>that=C2=A0</e=
+m>confident, so the warrant price does not fully reflect the stock price. M=
+eanwhile, retail Trump enthusiasts buy the stock and bid it up to wild leve=
+ls, and nobody has bothered to tell them about the warrants. So the market =
+for the stock and the market for the warrants are totally separate and ther=
+e is no arbitrage between them; lack of knowledge prevents retail traders f=
+rom buying the warrants, and lack of stock borrow prevents institutional tr=
+aders from shorting the stock.=C2=A0</p><p style=3D"margin: 16px 0;">This i=
+s a story that, in general, I find pretty compelling here in 2022, and it=
+=E2=80=99s the story the Journal tells:</p><blockquote><p style=3D"margin: =
+16px 0;">The gap between shares and warrants is evidence that individual in=
+vestors are driving up more well-known shares and options, some analysts sa=
+id. Digital World=E2=80=99s stock ticker, DWAC, has been trending on some s=
+ocial-media platforms in recent weeks and its trading volumes at times have=
+ been comparable to those of much larger companies.</p><p style=3D"margin: =
+16px 0;">=E2=80=9CThis is the meme stock of all meme stocks because it=E2=
+=80=99s Trump,=E2=80=9D said Matthew Tuttle, whose firm Tuttle Capital Mana=
+gement runs a few SPAC exchange-traded funds. Meme stocks gain popularity a=
+mong online traders for reasons other than their business prospects, as Gam=
+eStop and others have in the past year. ...</p><p style=3D"margin: 16px 0;"=
+>More-sophisticated traders are likely trading the warrants, analysts said,=
+ tempering their expectations about where the stock will trade when the dea=
+l closes. The warrant price is still unprecedented for SPACs and implies a =
+valuation for Trump Media &amp; Technology Group in the billions, albeit a =
+much smaller one than the stock price does.</p></blockquote><p style=3D"mar=
+gin: 16px 0;">The other story you can tell is something like =E2=80=9Cthese=
+ prices reflect a rational market, but the market is for=C2=A0<em>stock bor=
+row</em>.=E2=80=9D In this story, stock investors have decided that DWAC is=
+ worth $80 per share. PIPE investors have committed to invest $1 billion in=
+ the company, when the merger closes, at $33.60 per share. If they can buy =
+at $33.60 and sell at $80 then that is an incredibly good return for a few =
+months of capital commitment, so they want to. Maybe some of those PIPE inv=
+estors think this is a $1,000-a-share company and won=E2=80=99t sell, but y=
+ou have to figure that most of the hedge-fund PIPE investors are in this fo=
+r a quick trade and will happily buy at $33.60 to sell at $80. So those hed=
+ge funds create enormous <em>demand for stock borrow:=C2=A0</em>If they can=
+ borrow any DWAC shares to short them, they will.=C2=A0</p><p style=3D"marg=
+in: 16px 0;">This means that, if you are an institutional investor who owns=
+ DWAC stock, it=C2=A0<em>really is=C2=A0</em>worth much more than the warra=
+nts. If you own the stock, you can lend it out and collect those exorbitant=
+ stock-borrow fees. If you own the warrant, you can=E2=80=99t. If the stock=
+ borrow fees are 100% per year and the merger won=E2=80=99t close for six m=
+onths, then you can get $40 of income from the stock that you wouldn=E2=80=
+=99t get from the warrant. So the stock should be worth $51.50 (the $40 of =
+income plus the $11.50 exercise price) more than the warrants, which is abo=
+ut what the difference actually is. So you should not sell stock and buy wa=
+rrants; you should keep the stock, use it to support the PIPE investors' ri=
+sk-free trade, and charge them for it.</p><p style=3D"margin: 16px 0;">This=
+ story is appealing =E2=80=94=C2=A0I would like it to be true =E2=80=94=C2=
+=A0but I do not think it is=C2=A0exactly=C2=A0true. For one thing, while th=
+e stock borrow cost is high, there are not <em>that</em> many shares borrow=
+ed and shorted; Bloomberg shows something like 4.5 million shares of short =
+interest. So it is=C2=A0not the case that PIPE investors have hedged out al=
+l their risk by paying stock borrow fees to shareholders, and it is certain=
+ly not the case that all the shareholders are holding shares because of the=
+ lucrative payments for stock borrow. Also, while institutional investors c=
+an generally collect their stock-borrow fees, and so can <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26639604.260613/aHR0cHM6Ly93d3cuaW50=
+ZXJhY3RpdmVicm9rZXJzLmNvbS9lbi9wcmljaW5nL3N0b2NrLXlpZWxkLWVuaGFuY2VtZW50LXB=
+yb2dyYW0ucGhw/607f07ceef4b8524a319a23cB36427e17" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">some retail invest=
+ors</a>,=C2=A0average Robinhood investors are not getting paid for lending =
+out their shares, so it=E2=80=99s not really true that the shares are worth=
+ more than the warrants to them. They should just switch to the warrants!</=
+p><p style=3D"margin: 16px 0;">Elsewhere in <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/26639604.260613/aHR0cHM6Ly93d3cud2FzaGluZ3RvbmV4Y=
+W1pbmVyLmNvbS9uZXdzL3RydXRoLXNvY2lhbC1kZWxheWVkLWRlc3BpdGUtaHlwZQ/607f07cee=
+f4b8524a319a23cB9ee61875" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Trump=E2=80=99s vague social media thing<=
+/a>:</p><blockquote><p style=3D"margin: 16px 0;">Trump Media and Technology=
+ Group CEO Devin Nunes announced on Thursday that TRUTH Social was still un=
+dergoing beta testing and would release by the end of March. That would pla=
+ce the app's release a month after its initial announcement, which said it =
+would debut Feb. 21 on its iOS app page.</p></blockquote><p style=3D"margin=
+: 16px 0;">Sure!</p><table class=3D"liveintent-flex-ad" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjYzOTYwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY5MDAyMTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH7f2a9898" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26639604&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26900217&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in Trumpy social media SPACs</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A good tip in big business is that if =
+you ever find yourself sending an unsolicited nine-figure=C2=A0bid for some=
+thing, you should end your bid letter by saying =E2=80=9CAnd yes, this is t=
+otally legit.=E2=80=9D If you do not end that way, the person receiving you=
+r unsolicited nine-figure bid letter might wonder if it is in fact legit; t=
+hey might conclude that it is not, and throw the letter away instead of cal=
+ling you to negotiate. Whereas =E2=80=9Cthis is totally legit=E2=80=9D conv=
+eys the important information that it is totally legit. I used to be a merg=
+ers and acquisitions lawyer and =E2=80=A6=C2=A0no, I=E2=80=99m sorry, I=E2=
+=80=99m kidding here,=C2=A0in high-stakes M&amp;A auctions I cannot recall =
+ever receiving a bid package ending =E2=80=9Cthis is totally legit.=E2=80=
+=9D Context clues allowed me to conclude that bid packages were totally leg=
+it. If you end a=C2=A0bid =E2=80=9CAnd yes, this is totally legit,=E2=80=9D=
+ it=E2=80=99s because you know the context clues are not helping.</p><p sty=
+le=3D"margin: 16px 0;">Anyway <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26639604.260613/aHR0cHM6Ly90d2l0dGVyLmNvbS9ydW1ibGV2aWRlby9zdGF=
+0dXMvMTQ5MDcxODE1ODQ0OTE3MjQ4MQ/607f07ceef4b8524a319a23cBad6db029" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+here=E2=80=99s a letter</a> that Rumble Inc.=C2=A0wrote to podcaster Joe Ro=
+gan and posted on Twitter yesterday, saying in part:</p><blockquote><p styl=
+e=3D"margin: 16px 0;">How about you bring all your shows to Rumble, both ol=
+d and new, with no censorship, for 100 million bucks over four years?</p><p=
+ style=3D"margin: 16px 0;">This is our chance to save the world. And yes, t=
+his is totally legit.</p></blockquote><p style=3D"margin: 16px 0;">I am not=
+ sure <a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260=
+613/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9qb2Utcm9nYW4tZ2V0cy0xMDAtbWlsbGl=
+vbi1vZmZlci1mcm9tLXJ1bWJsZS12aWRlby13ZWJzaXRlLTExNjQ0MjcxMDEyP21vZD1pdHBfd3=
+NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cBc1fdc025" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">how serious it ac=
+tually is</a>:</p><blockquote><p style=3D"margin: 16px 0;">The offer, made =
+public in a letter from Rumble Chief Executive Chris Pavlovski posted to Tw=
+itter, follows Spotify CEO Daniel Ek=E2=80=99s letter to employees on Sunda=
+y apologizing for Mr. Rogan=E2=80=99s use of a racial slur in previous podc=
+ast episodes and saying he doesn=E2=80=99t believe in =E2=80=9Csilencing=E2=
+=80=9D him. Spotify has said Mr. Rogan signed a multiyear deal with the com=
+pany in September 2020. It is unclear whether Mr. Rogan would be able to sw=
+itch platforms any time soon. =E2=80=A6</p><p style=3D"margin: 16px 0;">Mr.=
+ Ek said in his letter that Mr. Rogan chose to remove some episodes from Sp=
+otify after discussions with the company and Mr. Rogan=E2=80=99s own reflec=
+tions. Tracking site jremissing.com says 113 of Mr. Rogan=E2=80=99s episode=
+s have been taken off Spotify since Friday.</p></blockquote><p style=3D"mar=
+gin: 16px 0;">But Rumble also has signed a deal to <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26639604.260613/aHR0cHM6Ly93d3cuc2VjLmdvdi=
+9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTgzMDA4MS8wMDAxMjEzOTAwMjEwNjMwOTMvZ=
+WExNTE2MzktOGtfY2ZhY3F1aXNpdDYuaHRt/607f07ceef4b8524a319a23cBe8df7866" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">merge with a SPAC</a> called CF Acquisition Corp. VI, and the stock was=
+ up 18% yesterday. Just offering Joe Rogan $100 million added some $500 mil=
+lion to Rumble=E2=80=99s market value.[6] I suppose you can tell a story ab=
+out this letter increasing Rumble=E2=80=99s expected future cash flows by $=
+500 million, but I won=E2=80=99t. My advice to CEOs recently has been prett=
+y much =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/26=
+639604.260613/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+jItMDEtMjQvbWF5YmUtdGhlLW1lbWVzLWFyZS1vdmVyP2NtcGlkPUJCRDAyMDgyMl9NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDI=
+wOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB0314d167" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">do meme stuff</a>,=E2=80=9D and if you are a right-wing media SPAC in 2=
+022 surely the meme-iest thing you can do is say =E2=80=9CJoe Rogan=E2=80=
+=9D a lot. So, makes sense.=C2=A0They should offer him $200 million to host=
+=C2=A0<em>just=C2=A0</em>the shows that use racial slurs.</p><table class=
+=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+>
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT IP</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">If=C2=A0you buy a book, and you read i=
+t, and you don=E2=80=99t want to read it again, you can sell it. You own th=
+e book that you bought so it=E2=80=99s yours to do what you want with. On t=
+he other hand, you can=E2=80=99t scan the book, upload it to the internet, =
+and sell thousands of electronic copies at $1 each. You don=E2=80=99t own=
+=C2=A0<em>the contents of the book</em>; you don=E2=80=99t own the intellec=
+tual property. You own the physical printed copy of the book. In the U.S., =
+this is called the =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.=
+com/click/26639604.260613/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRmlyc3Qtc=
+2FsZV9kb2N0cmluZQ/607f07ceef4b8524a319a23cB13b04dff" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">first-sale doc=
+trine</a>.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;">Similarly if you =
+buy sneakers you can resell them. You can also wear them. They=E2=80=99ll p=
+robably have some brand on them, like a Nike swoosh. If someone sees you we=
+aring the sneakers they might say =E2=80=9Chey cool shoes are those Nikes=
+=E2=80=9D and you can say =E2=80=9Cthey sure are, they=E2=80=99re the new A=
+ir Jordan 420s=E2=80=9D or whatever and they might say =E2=80=9Coh wow thos=
+e are ultra rare and cool=E2=80=9D and you can be like =E2=80=9CI know.=E2=
+=80=9D=C2=A0</p><p style=3D"margin: 16px 0;">What if you tried to separate =
+out that rare coolness from the shoes? What if you, like, advertised that y=
+ou would let people take pictures with your rare Nikes to post on social me=
+dia? I am not an intellectual property lawyer but I feel like eventually Ni=
+ke Inc. would get annoyed. You own the=C2=A0<em>shoes</em>, sure, but Nike =
+owns the intellectual property. You can resell the shoes, but the brand bel=
+ongs to Nike.</p><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.=
+bloombergbusiness.com/click/26639604.260613/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnR=
+pY2xlcy9uaWtlLWFjY3VzZXMtc3RvY2t4LW9mLXRyYWRlbWFyay1pbmZyaW5nZW1lbnQtaW4tc2=
+FsZXMtb2YtbmZ0cy0xMTY0NDAwMTI4Nw/607f07ceef4b8524a319a23cB01f763ee" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>Anyway</a>:</p><blockquote><p style=3D"margin: 16px 0;">Nike Inc. has sued=
+ StockX LLC, accusing the online marketplace of selling unauthorized digita=
+l products based on its sneakers.</p><p style=3D"margin: 16px 0;">The lawsu=
+it, filed Thursday in New York federal court, is the latest dispute involvi=
+ng a brand over the sale of products known as nonfungible tokens, or NFTs.<=
+/p><p style=3D"margin: 16px 0;">Nike said the sale of NFTs based on recentl=
+y released iterations of sneakers such as Nike Dunks and Air Jordans =E2=80=
+=9Care likely to confuse consumers, create a false association between thos=
+e products and Nike=E2=80=9D and dilute its trademarks, according to the su=
+it. NFTs act as vouchers of authenticity on the blockchain for goods. =E2=
+=80=A6</p><p style=3D"margin: 16px 0;">Customers who buy the StockX NFTs ha=
+ve the option of being shipped the physical sneaker, which would take that =
+NFT out of circulation, or keeping the digital asset on the blockchain, whi=
+ch enables it to be resold on StockX=E2=80=99s platform.</p><p style=3D"mar=
+gin: 16px 0;">In recent days, NFTs of the Air Jordan 4 and the Nike Dunk Lo=
+w have resold for over $500 on the site, according to a review by The Wall =
+Street Journal of data on StockX, more than double the retail price of the =
+physical shoes. StockX charges customers who sell an NFT on its platform a =
+3% transaction fee in addition to a 1% payment processing fee. On its websi=
+te, StockX markets the digital goods as authentic products and exclusive NF=
+Ts.</p></blockquote><p style=3D"margin: 16px 0;">Look! If you have the choi=
+ce between:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; m=
+argin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Selling a pair of rare=
+ Nike sneakers for $250, or</li>=09<li style=3D"margin-bottom: 5px;">Sellin=
+g the same pair of sneakers for $500=C2=A0<em>and keeping the shoes</em>,[7=
+]</li></ol><p style=3D"margin: 16px 0;">there is really only one logical ch=
+oice. The problem is, why should Nike let <em>you </em>do this? Why shouldn=
+=E2=80=99t=C2=A0<em>Nike=C2=A0</em>do this? Nike, as the issuer of Nikes, s=
+hould be the one selling rare Nikes and not delivering them. That makes the=
+m especially rare! It=E2=80=99s one thing for StockX to sell you an Air Jor=
+dan 4 and hang onto it, but Nike can sell you an Air Jordan 69,420 and not =
+even make it! It=E2=80=99s the rarest sneaker of all! Exactly zero were eve=
+r made![8] It=E2=80=99s worth millions.</p><table class=3D"header" width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/26639604.260613/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjItMDItMDgvdGhlLWNhcnJ5LXRyYWRlLWlzLW1pbnRpbmctYmlnLXJ=
+ldHVybnMtaW4tbGF0aW4tYW1lcmljYS1hZ2Fpbj9jbXBpZD1CQkQwMjA4MjJfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDgmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB58b5ab97" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Carry Trade</a> Is Minting Big Returns in Latin America Again. The <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDMvbmV0ZmxpeC10ZXNs=
+YS10LW1vYmlsZS1hbmQtZGVsbC10dXJuZWQtanVuay1kZWJ0LWludG8tYm9uZC1tYXJrZXQtdHJ=
+lYXN1cmU_Y21waWQ9QkJEMDIwODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc2=
+91cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/=
+607f07ceef4b8524a319a23cBf9aa6c20" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> Titans of Junk Debt</a> Turned =
+Trash Into Bond-Market Treasure. Turkey Courts Investors at London Meeting,=
+ Promises <a href=3D"https://link.mail.bloombergbusiness.com/click/26639604=
+.260613/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDg=
+vdHVya2V5LWNvdXJ0cy1pbnZlc3RvcnMtYXQtbG9uZG9uLW1lZXRpbmctcHJvbWlzZXMtc3RhYm=
+xlLWxpcmE_Y21waWQ9QkJEMDIwODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc=
+291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm=
+/607f07ceef4b8524a319a23cB10f3fc4e" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> Stable Lira</a>. Credit Suisse=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDgvY3JlZGl0=
+LXN1aXNzZS1jdXRzLWJvbnVzLXBvb2wtYWJvdXQtMTAtYWZ0ZXItcmVndWxhdG9yLXB1c2hiYWN=
+rP2NtcGlkPUJCRDAyMDgyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIwOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cBffa37f35" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> Cuts Bonus Pool</a> by 10% After Regu=
+lator Pushback. Investors Gobble Up <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/26639604.260613/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9pb=
+nZlc3RvcnMtZ29iYmxlLXVwLWRpdmlkZW5kLXN0b2Nrcy1kdXJpbmctbWFya2V0LXR1cmJ1bGVu=
+Y2UtMTE2NDQyNzUxMTQ_bW9kPWhwX2xlYWRfcG9zNQ/607f07ceef4b8524a319a23cB12a7138=
+5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Dividend Stocks</a> During Market Turbulence. SoftBank Begins =
+to Pitch <a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.=
+260613/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDgv=
+c29mdGJhbmstYmVnaW5zLXRvLXBpdGNoLWFybS1pcG8tYXMtbnZpZGlhLWdpdmVzLXVwLW9uLWR=
+lYWw_Y21waWQ9QkJEMDIwODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB1b992ecc" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> Arm IPO</a> as Nvidia Gives Up on D=
+eal. Women spoke up, men cried conspiracy: inside <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/26639604.260613/aHR0cHM6Ly93d3cuZnQuY29tL2N=
+vbnRlbnQvMDMxN2VkZDItY2YzNy00ZDMyLTllMDMtZTcyODg5MDQxMjZj/607f07ceef4b8524a=
+319a23cBa7eb8bd9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">Axel Springer=E2=80=99s #MeToo moment</a>. Neil Y=
+oung Blasts Spotify=E2=80=99s Ek, <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/26639604.260613/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjItMDItMDgvbmVpbC15b3VuZy1ibGFzdHMtc3BvdGlmeS1zLWVrLWdvZXMtYW=
+Z0ZXItZm91ci1iaWctYmFua3MtbmV4dD9jbXBpZD1CQkQwMjA4MjJfTU9ORVlTVFVGRiZ1dG1fb=
+WVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDgmdXRtX2Nh=
+bXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB0b59c602" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> Goes Af=
+ter Four Big Banks Next</a>. Peter Thiel Is Finally Free to Go All-In on <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDcvcGV0ZXItdGh=
+pZWwtbGVhdmVzLWZhY2Vib29rLWJvYXJkLWlzLWZpbmFsbHktZnJlZS10by1nby1hbGwtaW4tb2=
+4tcG9saXRpY3M_Y21waWQ9QkJEMDIwODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1d=
+G1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjA4JnV0bV9jYW1wYWlnbj1tb25leXN0=
+dWZm/607f07ceef4b8524a319a23cB60a52312" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> Far-Right Politics</a>. Ne=
+w study shows that <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/26639604.260613/aHR0cHM6Ly9ib2luZ2JvaW5nLm5ldC8yMDIyLzAyLzA4L25ldy1zdHVkeS=
+1zaG93cy10aGF0LW1hZmlhLWFjY291bnRhbnRzLWFyZS1yZWFsbHktZ29vZC1hdC10aGVpci1qb=
+2JzLmh0bWw/607f07ceef4b8524a319a23cB505106fc" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Mafia accountants</a>=
+ are really good at their jobs.</p><p style=3D"margin: 16px 0;"><span class=
+=3D"news-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=
+=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aHR0cD=
+ovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1za=
+WdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a=
+319a23cBb594c154" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">subscribe at this lin=
+k</a>. Or you can subscribe to Money Stuff and other great Bloomberg newsle=
+tters <a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260=
+613/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a3=
+19a23cBf7d4352b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1=
+] There are about 28.8 million high-vote Class B shares outstanding, and 27=
+4 million low-vote Class As, and the proxy says that Foley owns 17 million =
+of the Bs. (See page 40 of <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26639604.260613/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYX=
+RhLzE2Mzk4MjUvMDAwMTE5MzEyNTIxMzA2NjU1L2QyMTcxNjlkZGVmMTRhLmh0bSN0b2MyMTcxN=
+jlfMTI/607f07ceef4b8524a319a23cC1e4881a2" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">the proxy</a>.) But in a=
+ footnote it explains that he actually only owns 5.2 million of those; the =
+remaining 11.9 million are shares underlying options. The options have low =
+strike prices and are exercisable now, so he effectively does control those=
+ shares, but they are not counted in the 28.8 million Bs that are outstandi=
+ng. If he exercised the options, there=E2=80=99d be 40.7 million Class B sh=
+ares outstanding, and he=E2=80=99d own 42% of them (as the proxy correctly =
+reports), or about 31% of the total vote. Other co-founder/executive share =
+counts have similar issues. By my count if Foley, Cortese, Kushi, President=
+ William Lynch and Chief Financial Officer Jill Woodworth all exercised all=
+ their options, they=E2=80=99d have about 53% of the voting power. (Lynch i=
+s stepping down as president as Foley steps down as CEO.)</em></p><p style=
+=3D"margin: 16px 0;"><em>[2] See page 35 of <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/26639604.260613/aHR0cHM6Ly93d3cuYmxhY2t3ZWxsc2Nhc=
+C5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDIvQldfUGVsb3Rvbl9QcmVzZW50YXRpb25f=
+RmViMDcyMDIyLnBkZg/607f07ceef4b8524a319a23cCbb91af88" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">their deck</a=
+>. Page 36 also notes that Foley and other directors and officers have *ple=
+dged* a lot of their stock, which is also kind of weird for a public compan=
+y and also (depending on the terms of the pledge) potentially a way to take=
+ money off the table.</em></p><p style=3D"margin: 16px 0;"><em>[3]=C2=A0Bla=
+ckwells=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/26639=
+604.260613/aHR0cHM6Ly93d3cuYmxhY2t3ZWxsc2NhcC5jb20vd3AtY29udGVudC91cGxvYWRz=
+LzIwMjIvMDIvQldfUGVsb3Rvbl9QcmVzZW50YXRpb25fRmViMDcyMDIyLnBkZg/607f07ceef4b=
+8524a319a23cDbb91af88" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">complains</a>=C2=A0that =E2=80=9CMr. Foley=
+=E2=80=99s interests and incentives are misaligned with employees and share=
+holders,=E2=80=9D =E2=80=9CPeloton=E2=80=99s governance structure frustrate=
+s accountability and lacks basic protections,=E2=80=9D and =E2=80=9Cthe Com=
+pany=E2=80=99s dual-class share structure decouples economic interests from=
+ voting interests=E2=80=9D because =E2=80=9CPeloton=E2=80=99s executives co=
+ntrol more than 75% of the voting power despite an economic interest of les=
+s than 15%.=E2=80=9D Those are all reasons to expect Blackwells=E2=80=99s c=
+omplaints to be ignored!</em></p><p style=3D"margin: 16px 0;"><em>[4] If th=
+e deal closes and the stock trades below $11.50 this is also the math, thou=
+gh you might pay more (or less) than $10.</em></p><p style=3D"margin: 16px =
+0;"><em>[5] S3 shows borrow costs in the neighborhood of 100%, meaning that=
+ if you borrow the stock for a year you pay about $80. If it takes six mont=
+hs to close the merger then that eats all your profits. And there=E2=80=99s=
+ no guarantee that those rates will stay stable; they can go up, eating you=
+r profits faster.</em></p><p style=3D"margin: 16px 0;"><em>[6] The math the=
+re is that the SPAC has $300 million in cash (30 million shares), and the m=
+erger gives Rumble a $2.1 billion <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/26639604.260613/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGd=
+hci9kYXRhLzE4MzAwODEvMDAwMTIxMzkwMDIxMDYyOTc4L2VhMTUxNTQ5ZXg5OS0xX2NmYWNxNi=
+5odG0/607f07ceef4b8524a319a23cB1420dc9f" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">enterprise value</a>, gi=
+ving the public SPAC shareholders roughly one-seventh of that value. The st=
+ock went up $2.32 per share yesterday, adding about $70 million to the mark=
+et value of the SPAC; if you figure the SPAC is one-seventh of the total va=
+lue of the post-merger company then that means a total value add of $490ish=
+ million.</em></p><p style=3D"margin: 16px 0;"><em>[7] And then taking a 3%=
+ cut of all resales!</em></p><p style=3D"margin: 16px 0;"><em>[8]=C2=A0I su=
+ppose it=E2=80=99s made of solid gold? Tungsten? A fine yarn spun from the =
+manes of unicorns? If you make zero of them, you can make them out of whate=
+ver you want. The cost of materials can be millions of dollars per shoe, ti=
+mes zero shoes.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBa9b3b57c" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBd661794b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBa37ca7a3" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB0f0c6164" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjYzOTYwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY5MDAyMTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIb3056432" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26639604&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26900217&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2663960=
+4.260613/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBd7fb754b" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26639604.260613/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC77f70094" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26639604.260613/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB1cdf7947" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26639604.260613/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB95921910" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB5=
+0a57f7b" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26639604.260613/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB5=
+13e8f50" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D266396=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26900217&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D266396=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26900217&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D266396=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26900217&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D266396=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26900217&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D266396=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26900217&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfuz90.5l39/cfbe110d.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_17547593_417559251.1644346999347--
+

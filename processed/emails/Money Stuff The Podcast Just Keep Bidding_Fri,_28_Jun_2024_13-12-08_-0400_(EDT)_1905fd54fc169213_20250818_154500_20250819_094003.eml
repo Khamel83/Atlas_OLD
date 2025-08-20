@@ -1,0 +1,602 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:e8cf:0:b0:6b5:620:d080 with SMTP id m15csp266315qvo;
+        Fri, 28 Jun 2024 10:12:13 -0700 (PDT)
+X-Forwarded-Encrypted: i=5; AJvYcCVnOhhoK1067xJNnIbXZZL7j5UPnkU+avOXVoQfLfcwuHQoS4XNaKlLF+xixFq781W3J7QbUZEHWY992WzRmC73
+X-Received: by 2002:a05:600c:6d48:b0:424:a308:1746 with SMTP id 5b1f17b1804b1-424a30817fbmr100851665e9.16.1719594733354;
+        Fri, 28 Jun 2024 10:12:13 -0700 (PDT)
+ARC-Seal: i=4; a=rsa-sha256; t=1719594733; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=CWq8fR+5wLGc1Qw1yhrH5f1+AcmFI3gLObHgVWd3Fm2LnlhUIMGj+VhxZvp4CWXLdf
+         zxg9ukFKgtfKFkCICdtAxFQET6n9IT/HQP25HU3xfLYJC34ceKGK887afOU3NiXRtVTM
+         uUNqrcX+S89SLLUyjEZnuzYlTWVtKzyVX+q4Q6SuhiXtCXeba44cNihBMElfgkfEzSuo
+         /jkdTi8O12vi6mYPWsb7R5x62Dr2i/VQXP1W5BZZoOSFaKDQ8YhKdSok3P10n3EHA/Gf
+         V2ro6eo/W8OYhLPFPseGVXArKucMxxVJGBNRIRIvnKECXKHwbhna8TUttcAYmOBdrMBl
+         URMg==
+ARC-Message-Signature: i=4; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:list-unsubscribe-post:precedence:mime-version
+         :subject:message-id:to:from:date:dkim-signature:dkim-signature
+         :delivered-to;
+        bh=m/HJOqNCjnizH4cGuToFReqaZpzz7gFIH723v6oelPM=;
+        fh=PUctEnPqV413p6e7uawU1Qi91Pg63qg8nFQREcmuD4U=;
+        b=bY95/v/xSCKA2d/w+H+hEMDNbQh6jAWEg8bioWRRKeo85XT7YpkoFZrATCTs5nNPqj
+         cImHA5hUmjSIdIx3TX4lGds01WKvboS4xrnetThRpSgzzNSkVbmxMfEt+RUwTnksaBLH
+         W/7AB09AJJ79l7G1Ta2lGCfpxKyHD9s79grGd2Cn2xfh9hhx+OOI4nTAE3b1b2MljJR8
+         G1S0madgXIjo45feIDKdSFmfKYwTzfZ/uxs6OYCnUx1+X4q9f+97Zt6XhoaEB8lkRiUU
+         khVUylBo3RLAop312aPGp6dR5RnA3fDHcCGmZWRfupPm4ainBdZPijSuF6rnxA3ySMUJ
+         QYVg==;
+        dara=google.com
+ARC-Authentication-Results: i=4; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=Ls79MOhN;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=VZFfDtYM;
+       arc=pass (i=3 spf=pass spfdomain=khamel.com dkim=pass dkdomain=khamel.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 5b1f17b1804b1-4256562fb1dsor18030015e9.8.2024.06.28.10.12.13
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Fri, 28 Jun 2024 10:12:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=Ls79MOhN;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=VZFfDtYM;
+       arc=pass (i=3 spf=pass spfdomain=khamel.com dkim=pass dkdomain=khamel.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+ARC-Seal: i=3; a=rsa-sha256; t=1719594733; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=R7zYSQTolKmBJmDuFgsPJKgic7b1AdKZu+conrp+jEhtBNHJNCo98U9HOMNjw7t3JB
+         +m5dkVHj62DbRUMRv5PfEjidQtBeBFr/uAUD/zfyfXKARS1/2NDpnPAS11qDgFE61udR
+         Lh9pFtNOgpaUFeuHwhh0bxNgaZSs0OBdPmFKzXGfqKA7RKEURatAElOI3tcqP6zdZBWK
+         dUJEcEcwWs51D3AQkNkI00//rfeqgILJP9JwPeZysFvsysydDC8lpkQSnndivS46VfG+
+         oWfTrRHAHbWkT+i3MV2q9/vio3PcH1eH+HLdT/DvDlx4JaVVvrgq8hDpF3LOGDcPWiGZ
+         KICQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:list-unsubscribe-post:precedence:mime-version
+         :subject:message-id:to:from:date:dkim-signature:dkim-signature
+         :delivered-to;
+        bh=m/HJOqNCjnizH4cGuToFReqaZpzz7gFIH723v6oelPM=;
+        fh=PUctEnPqV413p6e7uawU1Qi91Pg63qg8nFQREcmuD4U=;
+        b=E0geOZ4u6EopjSdXDLp461TvJBV27RULmeYHzggsCiWOBr2x8ohyJZHGqHKSsKfzms
+         hC+iseJyTNCXRtm3wNGoFHVyPNN9PUZ43w5ZtCH5wHSXIYv1mHdEfYihQS6VQh5HjkbB
+         O+OX2HMaBRmSBiYec7OFiUgiy5CX/dIendDHuoOXpTDVP8kKIR2nVpGMl6o0zTKbvI5A
+         Wf5H94EUEZHbf+rzx5KvkSV4mD+QkIwUd4/xD6WTPlhSKcNX0enK17wbijCpFhCt9DQ/
+         XoxW7e1gTRrYrmN87jJcHxEwhP+s97SmWpjohkLnhgLc5SKNAolqXfZhhmIWWFgEoS+D
+         q5Xg==;
+        dara=google.com
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=Ls79MOhN;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=VZFfDtYM;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 198.244.55.167 as permitted sender) smtp.mailfrom="bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1719594733; x=1720199533;
+        h=list-unsubscribe:list-unsubscribe-post:precedence:mime-version
+         :subject:message-id:to:from:date:dkim-signature:dkim-signature
+         :delivered-to:x-forwarded-for:x-forwarded-to:x-gm-message-state:from
+         :to:cc:subject:date:message-id:reply-to;
+        bh=m/HJOqNCjnizH4cGuToFReqaZpzz7gFIH723v6oelPM=;
+        b=a36uXeEiNFyOGwp12vq4cczEF3CDSwG/MvgZbMKCEjMzt79TmSAqktS4Yu2/1vMW4x
+         aMl0AeeB2iH+hZb4WYr8CG4ymJxWwSqV8sx4b+o71DP3rZ/AF+5h/SQ7znKv97Ic8ucj
+         GQJYx6pqHbuC1ZLuvgpVn0mLW6sMJTC2ECysWgkABZ+oBbdzbPZFbZ/Z2xVwHFd2MqGn
+         UMI9PCG/BVLziCDC3cnV9quI6crPi2rbrXeGkZAnGtE0RfBu8B5UF0Jt1udA7NcVY/fI
+         7HwHfr8gHWG4wRc3asQJ4R0mRJI6m0MYN6/G4UiEsjdP+1DTAqq+B25UKI+6xufRxIHa
+         D2Tw==
+X-Forwarded-Encrypted: i=3; AJvYcCWIiMxQjLsmFVtnSUnXpjreLvGbbs6SJZdT6k6XCnKHcno+2+XxGiwL5QVoDcEO72cwwO6jy/ty6l0eZ6fgY8zq
+X-Gm-Message-State: AOJu0YxyvxzDjnHPUs5Tu0VMQilfEB9C1mgVfcN9N4dvOlSBcf8dOKzD
+	pJr4gM3SxWFrOV13SbB5TvczC3YP5gfDo5eGGZDWhGwkoRgP4Ev0cbimLWp306qSP6g/lVHU83F
+	wf5t6cFBcOmvx+4JrOfA6Z2shEXtPleiQNwKzL7QCV4/HOaLeAN8OBZcbzQ==
+X-Received: by 2002:a5d:410a:0:b0:367:437f:1785 with SMTP id ffacd0b85a97d-367437f198dmr3959800f8f.13.1719594732811;
+        Fri, 28 Jun 2024 10:12:12 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:b19e:0:b0:367:326d:d3c4 with SMTP id q30csp422035wra;
+        Fri, 28 Jun 2024 10:12:11 -0700 (PDT)
+X-Forwarded-Encrypted: i=3; AJvYcCUC6IEu45Jk6Koctv1Vk69t4J29iTi3LHhL9DzLubVUdPFfWhtmXqZncfOPkSujddV6qk4UMLSeKkhZ+XSe70sRfhM=
+X-Google-Smtp-Source: AGHT+IGjFQJ+PF0FI4U4doRCCVcf4CIrU6pQl+EIsfENuUEnxK4RcBAAYojNGRgXAX16iGrZdVQV
+X-Received: by 2002:a05:6a20:3247:b0:1b6:23ae:b295 with SMTP id adf61e73a8af0-1bcf7fcb614mr15724491637.38.1719594730717;
+        Fri, 28 Jun 2024 10:12:10 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1719594730; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=FumkE7eAT2+riV2yd1DLeM2NoJTuDKokaPBHTZM+LCDw7bcMIgHH+EjRvEJUxGYFfx
+         nf4rLomIJr3mYbvJlgyFEz69/U0rI6INQklJpX6cWkzMKDNzkIcOGBdA5EfNFm19wlHI
+         EHGFkS0uT5bKwZMhRtU5mDKwYl+LldHdBMOPVvgzSSb7KeFWkfXG4hY8BaCGZtCmPVv9
+         ccPuluCU/r+imEq+52Ct31OM4ch6j/m+kn6mMroro2XlTF8aJEctYvslW/sKLf9am8Pt
+         BTnmfLdB7PjTSeD1CAswk8jjsgHtqTXod1QyoJDfeFyn01aRL4gzF04Qm1TZC19pgY1K
+         ZYbQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:list-unsubscribe-post:precedence:mime-version
+         :subject:message-id:to:from:date:dkim-signature:dkim-signature;
+        bh=m/HJOqNCjnizH4cGuToFReqaZpzz7gFIH723v6oelPM=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=CecY3n5/0NBPhl5vU1J+CiRZS2GpZuvkxIukzPWl6jDxDDzj8j5rLg2QL6uNLaizFy
+         Mfv0sC699rhoJ4j7YrA/a+DWBA9a1mqzq1EUwzAt20BqY2ydvqnIComy1+GX2pBi3zC3
+         krWfrZsHf7yGqWtG9kptYjhyBMAwdrG7rZxPCDrWMuD7307UAyDDVV5sLJ4tPjRND5er
+         lxiRxVsfHuNMzJFW8dtpHKQkj0sc+bS4aoJPQRElztCXC2bmAAgSeXHAnzFu6i0fejEx
+         JEGivBLTVWaj7Bpm64b5OaDqh5NPh5ZQayzS/nJZypprC3O6UihRfV5aoUpS7wd1yrOJ
+         SEqQ==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=Ls79MOhN;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=VZFfDtYM;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 198.244.55.167 as permitted sender) smtp.mailfrom="bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com>
+Received: from a167.a94b46b0.use4.send.mailgun.net (a167.a94b46b0.use4.send.mailgun.net. [198.244.55.167])
+        by mx.google.com with UTF8SMTPS id d2e1a72fcca58-70801d1c448si2183322b3a.86.2024.06.28.10.12.10
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 28 Jun 2024 10:12:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 198.244.55.167 as permitted sender) client-ip=198.244.55.167;
+ARC-Seal: i=1; cv=none; a=rsa-sha256; d=mailgun.org; s=mg; t=1719594729;
+ b=gt4xF/c74EtWWWW9Lu8ESsTl3mXIe62bQZXuNXd30m57lxy2dWfnVhnexN2MWRFjYcPJERI6W1xqmUnTlKtza4+Re4yCru1mlRk9dPoF1r6gUhoWz9d3VX4iBIikHk+KzLZ1eabqhoM0CPO2ijsX6PoKVvki0xcEU9A8tJMVzwY=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=mailgun.org; s=mg; t=1719594729;
+ h=List-Unsubscribe: List-Unsubscribe-Post: X-Feedback-ID: Content-Type: MIME-Version: Subject: Subject: Message-ID: To: To: From: From: Date: X-Feedback-Id: Sender: DKIM-Signature: DKIM-Signature;
+ bh=m/HJOqNCjnizH4cGuToFReqaZpzz7gFIH723v6oelPM=;
+ b=IXz4n9S+caWB/OMoD/QLbs8yrQXosB4kMjdVhZG7XCSMOh3Qb7j0yr+N0+4sXuAnoOvZgdr+yRNtxlPpH6jy//dvn3YrMFAQuYSo8O6Pa6ohIT/coOqVHz7ILaqKgLuQQvJ5gzAYW8Czb8k+CrZ0FovvAZaCsVIpe+ZIiQVhbtE=
+ARC-Authentication-Results: i=1; mailgun.org;
+ dkim=pass header.d=mail.bloombergview.com header.s=sailthru header.b=VZFfDtYM;
+ spf=pass (domain mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom="delivery_20240628131208.35896109.283281@mx.sailthru.com";
+ dmarc=pass (dkim=pass domain=mail.bloombergview.com) header.from=mail.bloombergview.com;
+ arc=none
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=khamel.com; q=dns/txt; s=pic; t=1719594729; x=1719601929;
+ h=List-Unsubscribe: List-Unsubscribe-Post: X-Feedback-ID: Content-Type: MIME-Version: Subject: Subject: Message-ID: To: To: From: From: Date: X-Feedback-Id: Sender;
+ bh=m/HJOqNCjnizH4cGuToFReqaZpzz7gFIH723v6oelPM=;
+ b=Ls79MOhNDz5iiqQZmTL49mZKZvqNwHiMxigrJpsnnO0QQlmWrBEyMQBzdpuGWR5QsquQ089qfxDR/51pDERBnsXEOoXh+wFk0FlrQluAoPZInqLqXaDoxeZ4LO4sf0aMknr/kUeCLosT1fbymzzaRsweREF2NCf8LSHUFIkS0Ew=
+X-Feedback-Id: delivery_20240628131208.35896109.283281@mx.sailthru.com::663d69d519aae0348c93b932:mailgun
+X-Mailgun-Sending-Ip: 198.244.55.167
+Received: from pmta29.sailthru.com (pmta29.sailthru.com [192.64.237.222]) by
+ 3114339a9521 with SMTP id 667eeee98df8f68d6983d624 (version=TLS1.3,
+ cipher=TLS_AES_128_GCM_SHA256); Fri, 28 Jun 2024 17:12:09 GMT
+Received: from pmta29.sailthru.com (pmta29.sailthru.com [192.64.237.222]) by
+ 3114339a9521 with SMTP id <undefined> (version=TLS1.3,
+ cipher=TLS_AES_128_GCM_SHA256); Fri, 28 Jun 2024 17:12:09 GMT
+X-Envelope-From: delivery_20240628131208.35896109.283281@mx.sailthru.com
+X-Mailgun-Incoming: Yes
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:
+ List-Unsubscribe-Post:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=m/HJOqNCjnizH4cGuToFReqaZpzz7gFIH723v6oelPM=;
+ b=VZFfDtYMyzxo4Rbx52tBMXXIKMOCaDWIMJSy1KVczyv+Mfv4FuGqWD9RCTV1qUAYj2ckzF3NJcaB
+   QmpszByC4zcLBwBLo9MC3qIcDxnNwn0LEvK+lAAlqdcwbewFzUcD+tnnjJIrjx5iNqTP/vfO1nSm
+   XQLc6DRBXXJutQqCBXk=
+Received: from aws1-mta-relay4.sailthru.cloud (10.55.93.134) by pmta29.sailthru.com id hfrneg3791ss for <bloomberg@khamel.com>; Fri, 28 Jun 2024 12:12:08 -0500 (envelope-from <delivery_20240628131208.35896109.283281@mx.sailthru.com>)
+Date: Fri, 28 Jun 2024 13:12:08 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20240628131208.35896109.283281@sailthru.com>
+Subject: Money Stuff: The Podcast: Just Keep Bidding
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_17843071_1316533975.1719594728369"
+Precedence: bulk
+x-job: 6358-35896109-20240628
+X-Feedback-ID: 6358:35896109:campaign:sailthru
+X-TM-ID: 20240628131208.35896109.283281
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: aws-campaign-mailer-24.sailthru.cloud
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23clddm5.62kx/2205dabe
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23clddm5.62kx/2205dabe>,<mailto:unsubscribe_20240628131208.35896109.283281@mx.sailthru.com>
+X-rpcampaign: stjko35896109
+
+------=_Part_17843071_1316533975.1719594728369
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        This week=E2=80=99s Money Stuff podcast episode is out now, in whic=
+h Katie and I discuss the MMTLP squeeze(s), the MAAX zips squeeze, 2 a.m. p=
+rivate
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+             =20
+           =20
+         =20
+       =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Podcast
+   =20
+ =20
+This week=E2=80=99s Money Stuff podcast episode is out now, in which Katie =
+and I discuss the MMTLP squeeze(s), the MAAX zips squeeze, 2 a.m. private e=
+quity interviews and replicating options using a mix of cash and stock. You=
+ can listen to the episode here:
+   =20
+
+
+You can get Money Stuff: The Podcast=C2=A0at Apple, Spotify or wherever you=
+ get your podcasts.=C2=A0We=E2=80=99d love your feedback. You can email us =
+at moneypod@bloomberg.net.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+       =20
+          Follow Us
+       =20
+     =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+               =20
+             =20
+             =20
+               =20
+                 =20
+               =20
+             =20
+             =20
+               =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                  You received this message because you are subscribed to B=
+loomberg's Money Stuff newsletter. If a friend forwarded you this message, =
+sign up here to get it in your inbox.
+               =20
+             =20
+           =20
+           =20
+             =20
+               =20
+                  Unsubscribe
+                 =20
+                  Bloomberg.com
+                 =20
+                  Contact Us
+               =20
+               =20
+                  Bloomberg L.P.731 Lexington Avenue,New York, NY 10022
+               =20
+             =20
+           =20
+       =20
+     =20
+     =20
+   =20
+ =20
+   =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23clddm5.62kx/5cfd8ab3.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_17843071_1316533975.1719594728369
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" class=3D"newsletter-campaign__template" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Georgia, ser=
+if; font-size: 16px; line-height: 24px; margin: 0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Georgia, serif; font-size: 16px; line-height: 24px; margin: 0; padding: =
+0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Georgia, serif; font-size: 16px; max-width: 5=
+50px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+This week=E2=80=99s Money Stuff podcast episode is out now, in which Katie =
+and I discuss the MMTLP squeeze(s), the MAAX zips squeeze, 2 a.m. private
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35896109.283281/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjI4MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA2MjgmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBd590179b">
+<!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/iNRFZUq6PpLs/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/iNRFZUq6PpLs/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]-->
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" style=3D"font-size: 16px; line-height: 24px;">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-family: Helvetica, Arial, sans-serif; letter-spacing: -1p=
+x; font-size: 26px; line-height: 28px; font-weight: normal; border-top-widt=
+h: 1px; border-top-style: solid; padding-top: 12px; margin: 20px 0px 0px;">=
+Podcast</h2>
+</td>
+</tr>
+</table><p style=3D"font-family: Georgia, serif; margin: 16px 0;">This week=
+=E2=80=99s Money Stuff podcast episode is out now, in which Katie and I dis=
+cuss the MMTLP squeeze(s), the MAAX zips squeeze, 2 a.m. private equity int=
+erviews and replicating options using a mix of cash and stock. You can list=
+en to the episode <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+35896109.283281/aHR0cHM6Ly9saW5rLnBvZHRyYWMuY29tL2Y4eTd2ODlv/607f07ceef4b85=
+24a319a23cBb1c12d8b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank">here</a>:</p><div class=3D"body-image" style=3D"margin: 20px 0p=
+x;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35896109.283281/aH=
+R0cHM6Ly9saW5rLnBvZHRyYWMuY29tL2Y4eTd2ODlv/607f07ceef4b8524a319a23cCb1c12d8=
+b" target=3D"_blank"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/i0sZ4OHezJtw/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/i0sZ4OHezJtw/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin: auto;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</div><p style=3D"font-family: Georgia, serif; margin: 16px 0;">You can get=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/35896109.283281/a=
+HR0cHM6Ly9saW5rLnBvZHRyYWMuY29tL2Y4eTd2ODlv/607f07ceef4b8524a319a23cDb1c12d=
+8b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">Money =
+Stuff: The Podcast</a>=C2=A0at Apple, Spotify or wherever you get your podc=
+asts.=C2=A0We=E2=80=99d love your feedback. You can email us at <a href=3D"=
+mailto:moneypod@bloomberg.net" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank">moneypod@bloomberg.net</a>.</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"social-component__text" align=3D"center" style=3D"border-colla=
+pse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom=
+: 10px;">
+<strong style=3D"font-family: Helvetica, Arial, sans-serif;">Follow Us</str=
+ong>
+</td>
+</tr>
+<tr>
+<td class=3D"social-component__icons" align=3D"center" style=3D"border-coll=
+apse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; padding: 0px 10px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35896109.283281/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB264e47d9">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"39" height=3D"39" style=3D"max-width: 550px; vertical=
+-align: middle; width: 39px !important; height: 39px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; padding: 0px 10px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35896109.283281/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB998cb2e7">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"39" height=3D"39" style=3D"max-width: 550px; vertical=
+-align: middle; width: 39px !important; height: 39px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; padding: 0px 10px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35896109.283281/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB4c956f82">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"39" height=3D"39" style=3D"max-width: 550px; vertical=
+-align: middle; width: 39px !important; height: 39px !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" style=3D"border-collapse: collapse; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px;">
+<table class=3D"footer-message" width=3D"100%" align=3D"center" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Aria=
+l, sans-serif; font-size: 14px; line-height: 150%;">
+<tr>
+<td class=3D"footer-message-container" style=3D"border-collapse: collapse; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 10px;">
+You received this message because you are subscribed to Bloomberg's Money S=
+tuff newsletter. If a friend forwarded you this message, <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/35896109.283281/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP3NvdXJjZT1OTHNoYXJ=
+l/607f07ceef4b8524a319a23cB75eb801a">sign up here</a> to get it in your inb=
+ox.
+</td>
+</tr>
+</table>
+<table class=3D"footer-info" width=3D"100%" align=3D"center" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, =
+sans-serif; font-size: 14px; line-height: 150%;">
+<tr>
+<td class=3D"footer-info-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 10px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35896109.283281/aH=
+R0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX=
+3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb20maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2=
+OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a23cB93853bf5" alias=3D"Unsubscr=
+ibe" style=3D"text-decoration: none !important;">Unsubscribe</a>
+<br />
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35896109.283281/aH=
+R0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a23cB3032e589" target=3D"_bla=
+nk" style=3D"text-decoration: none !important;">Bloomberg.com</a>
+<br />
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35896109.283281/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21waWQ9bW9zdHBvcA/607f07ceef=
+4b8524a319a23cB31f9eb73" target=3D"_blank" style=3D"text-decoration: none !=
+important;">Contact Us</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+Bloomberg L.P.<br />731 Lexington Avenue,<br />New York, NY 10022
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23clddm5.62kx/5cfd8ab3.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_17843071_1316533975.1719594728369--

@@ -1,0 +1,2472 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:10d5:b0:1b9:b7d6:557d with SMTP id cc21csp4832537lkb;
+        Wed, 27 Apr 2022 12:04:02 -0700 (PDT)
+X-Received: by 2002:a5d:64ae:0:b0:20a:e2be:de02 with SMTP id m14-20020a5d64ae000000b0020ae2bede02mr8608700wrp.336.1651086242588;
+        Wed, 27 Apr 2022 12:04:02 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1651086242; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=F+y4/0vTSV7msLd3b/O2OSUkbvClHFP/asXYglV+scw8Dhyr78ZeiPzDoNn3MATN7l
+         liK7jff7kpWmjJj3RLt08v0u8CtUnB/5VHkppOPm19nsxlNaP+s7r9R4elXCssffrzjs
+         tIYIL4wyPevh1W3vfGPjA3lGFmcK29FmAY7L6gfMyuY9BNfYwMGiRdVfQOSAfnMk5yMi
+         wqDwnTZTy+0yV2UWzxMf3rxtCioRAXB4l3jtj8dD44XtrcoOuNZWQzyqOE7Gma3pBl1L
+         nVUVmCCLJEjQ/YnPx9yB/U9Cn+TQM0jvkufS+A4dl03Z433odbcE2yPswQE0P/g/WoCv
+         LEnw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=+q/PWmuD5ONf5Hltn+7OH7pwW20/IlQNhOuS+Gxa2r4=;
+        b=spodNLrnPANo+z41r6g2Ip2SPvJVG5RnyyoEKCIpiaglj0GREk41M3QvFkKwZjH/9v
+         Ki7r2+VarSzQui9EWd2cLDd2PadWYgcfELTgCTfbLIJyA6SiV5MaOT3s4udD1ENPk0SP
+         IXNzXblLrCko/U3xucD69GVrat+l8A5fQl6NCm1jkoyWanNAN7v8BcfC/0ppsaSi5my4
+         nQfB0VUdy3k8tFgbWcZXMqYwW3ozgQEcVDd7K+p4jXjThjUmeHWbGC00I1W8asCCaSPI
+         y5ms427rq8w3Zy6s+KaDeMH+w/bVfXFLlx0G7sEuMwd5Z9Etbm9SHnTuf3z719eTJIWI
+         FBCg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=VEp17t0b;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id t9-20020adfeb89000000b0020612f7167fsor1494417wrn.71.2022.04.27.12.04.02
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 27 Apr 2022 12:04:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=VEp17t0b;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=+q/PWmuD5ONf5Hltn+7OH7pwW20/IlQNhOuS+Gxa2r4=;
+        b=fEdI+SeLgjjDTnVt6wLOcZ5tu63kTqJ1SaOcBzkmeu8Ks/kMy3UmUpxVTYCusW9ZdF
+         KumbwsfsAX9ezJAE0ouYyCqjbQIqQUVHgxtvYCkk7URBFUEzMa8gada7GgPrxuLjAZOY
+         oLNhCwgkK2W7kR4ZxCmUjm19WFeR8799BLCXkKhRUOml1/38vgWvz0y4LhcnFaNXj8BZ
+         odHVryi0vLVqrQqy1nPV8IcDG5+wPEnBhsd3x01j7gBoYkBB5Kmfbk5I9gCZv/97O8eK
+         sXDFK4K5bsak9n6Q9JDFKXyWsXwZf1Jccfq0VIrBBummtuG28PXq8tpdtw5GUSFljTVV
+         qCNA==
+X-Gm-Message-State: AOAM530AsGiPgPo2okduNNVP5sFCO60KcaWe8VBj3aUJIe7gwNHUvI0g
+	+EqCDw6ZByuOYkbD+fOoQnpVKZ7s4XpxEhTb7ksoFfKSjIrnJsj8fw==
+X-Received: by 2002:adf:d1c6:0:b0:20a:f235:5f86 with SMTP id b6-20020adfd1c6000000b0020af2355f86mr2696808wrd.381.1651086242205;
+        Wed, 27 Apr 2022 12:04:02 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f74a:0:0:0:0:0 with SMTP id z10csp1763437wrp;
+        Wed, 27 Apr 2022 12:03:58 -0700 (PDT)
+X-Received: by 2002:ac8:5942:0:b0:2f3:7134:42aa with SMTP id 2-20020ac85942000000b002f3713442aamr9032697qtz.170.1651086237694;
+        Wed, 27 Apr 2022 12:03:57 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1651086237; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=uUPulvNp3PhH1azVBPIxjQK5H2inhe+rrn0WzLdFBHdFdzOpTvJPoRHZGy/Sr5iJ+p
+         LCJ8ErZAKGaV3e4Pyt2eNROLGr44m+RBcovU1WyHlTrTh4gmmbSYk0FG8uTJ0Gkr+5Pr
+         tYg+MAlVgZ8MSYSa7Df65myEiRSq/74I4bhXQev1xiMkWHzBF7ePOGB9NEs3qdpdpD68
+         Cuek1k1e+adY5U2Sp1KN3gpkhf0+5MXkzoMwwZ2L43GNxS6UwxoTGwgcSfMXO1FsYaXa
+         BghmcvFboiecg/KCSIAEH7uWwv8jFEtvyWCzb3aKtOSciFnhtrIiC46Rx11mFZll4Lpr
+         zvtQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=+q/PWmuD5ONf5Hltn+7OH7pwW20/IlQNhOuS+Gxa2r4=;
+        b=fxpRLtk+aRQ7sWXo02fgIWx+jlTiPHtreZCF7AtFc3UmadTDZb5H94XAVG/m7HuxqA
+         AgK7klrgWRORuJDxlK2oeQ0G9Pnt6RWqR+Y9YCsRThmTDuM/0w5C4TRuFeB0j0DmHH9o
+         oIo38svRBHmWSVJk/qeLUT446AwMD0fwM/pLd4nt6o5SUzujyffnYVV11MVeSHcZVZIg
+         30SsGtE1MU58B6gwLbbyv/474/k0GX0AuRtjZCmUk5RWU7KhGkAYKKaq06SB5n251fDa
+         VqFYQPgRhYDGEs3/AGYdBn9hUZhnHf+gu1BK6w1ywY9VJi2vIFjyZSrQtTBuWMN2KTgu
+         0p1g==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=VEp17t0b;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220427150352.27514057.274605@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220427150352.27514057.274605@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220427150352.27514057.274605@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id v19-20020a05622a145300b002de98004200sor1802011qtx.87.2022.04.27.12.03.57
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 27 Apr 2022 12:03:57 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220427150352.27514057.274605@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxhEsbB9F2umd5zdAwsncQgveV665UwcWsBCky/OnIeto80eeAYgAp6/6yN5vFbkYKGs4iPARWdNaos2L7bbxu4UXc7+M8=
+X-Received: by 2002:a05:622a:4cb:b0:2f3:73f1:7198 with SMTP id q11-20020a05622a04cb00b002f373f17198mr8151774qtx.102.1651086237343;
+        Wed, 27 Apr 2022 12:03:57 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1651086237; cv=none;
+        d=google.com; s=arc-20160816;
+        b=leCAE6mLCsFFskokgxvc4xoIyeifcUSsZuXPOEDvWiV0xjYQEa9vuRFwTjZD8scl8X
+         +Y+5L+58o2Pb7hVgqitSLBMw44HFla9afF8OVclq0xosTL/tG37C4SiJXCZjk4asHgFd
+         Haw0ncQa89nIMR42vLps1OoDFxVXx1ShMrb2pPcuOi8Tc/fA+OBndxowPzEAmRbtqxt8
+         YlnDQADoBxOHTrUz3fuhK5gDKgzyJNas77P9FpfkXi4LhXT11t9rdYtd6od40Jb4ktv9
+         /YM9gSJOW5GbfSe82Ipft4p01G0/zn+dfBflJyu704IZ/B8TZ6hwmRyE7CAec9W88Md+
+         9tNw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=+q/PWmuD5ONf5Hltn+7OH7pwW20/IlQNhOuS+Gxa2r4=;
+        b=ypU2CxjAc2bY6bh3Gi7nm02fkjbRYTjbLM1k7zXeV/fXniK4O5+1/m1kfVpcWAirF7
+         2+XX5OEAYr0wPi6/9A3FvAPj0kz5/r9cY8w2Wzr6z5bpMWh3aPbxEATU5HRMKotQSm/b
+         tXJHbuFz+dsbX9gVQlRE4UDVme0VIZ7Er0jkVeNvTzBZsIc3K8H/2UJ+z4OHt6TszKDl
+         UABIFJIGDCUna1Rz2P4ddHcWNUl74VIEqCe+tdN2q85qwiAPwxqHhPhOxMtEyRDIxWF2
+         lMbT97kL0OFegH+XsV++NSH/vTelpsIlpeYd5k8Zmi85oZaHs+Z2Fq9z3+kEVyW1sUgR
+         ZKOw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=VEp17t0b;
+       spf=pass (google.com: domain of delivery_20220427150352.27514057.274605@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220427150352.27514057.274605@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220427150352.27514057.274605@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id s204-20020a37a9d5000000b0069f96278236si179584qke.0.2022.04.27.12.03.57
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 27 Apr 2022 12:03:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220427150352.27514057.274605@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=OvwiQoxkjSncZWrPgJEqpn+Ak5yMSDYMFYVcr9m7mB0=;
+ b=VEp17t0bwvydVrUqT0Fn0Iq5pGQDocvn9I8GV7TFXmq4D5+p03MFTF9SsI+4CzyccU/XkgKH/bS0
+   SrWW/zn3InqGIH/aYpTwWYTg+79yu5ZQSVOp2qaNVCxjrGM/2J3pkZ/WwNmbEF/hDRsOq8n7WRuu
+   hL/mLZb04KjqrCUfoo4=
+Received: from njmta-90.sailthru.com (173.228.155.90) by pmta29.sailthru.com id hd69po2sd4sp for <bloomberg@khamel.com>; Wed, 27 Apr 2022 15:03:56 -0400 (envelope-from <delivery_20220427150352.27514057.274605@mx.sailthru.com>)
+Received: from nj1-wryforest.flt (172.18.20.15) by njmta-90.sailthru.com id hd69po1qqbs4 for <bloomberg@khamel.com>; Wed, 27 Apr 2022 15:03:53 -0400 (envelope-from <delivery_20220427150352.27514057.274605@mx.sailthru.com>)
+Date: Wed, 27 Apr 2022 15:03:52 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220427150352.27514057.274605@sailthru.com>
+Subject: Money Stuff: What Was Bill Hwang Thinking?
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2531646_1321147889.1651086232803"
+Precedence: bulk
+X-Feedback-ID: 6358:27514057:campaign:sailthru
+X-TM-ID: 20220427150352.27514057.274605
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wryforest.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgdpzd.5vvx/d691d3dd
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgdpzd.5vvx/d691d3dd>, <mailto:unsubscribe_20220427150352.27514057.274605@mx.sailthru.com>
+X-rpcampaign: stjko27514057
+
+------=_Part_2531646_1321147889.1651086232803
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        ArchegosHere is a simplified version of the Archegos story. Archego=
+s Capital Management was a family office run by Bill Hwang, a former Tige
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Archegos
+   =20
+ =20
+Here is a simplified version of  the Archegos story. Archegos Capital Manag=
+ement was a family office run by Bill Hwang, a former Tiger Cub hedge fund =
+manager, that invested his personal fortune. Starting in about 2020, Archeg=
+os=E2=80=99s investment strategy consisted of buying a whole ton of shares =
+of like 10 stocks, using mostly money borrowed from about a dozen banks. (T=
+echnically it did this buying using total return swaps rather than actually=
+ buying the stocks on margin, but that is a minor point.)As Archegos kept b=
+uying more of these stocks, they went up, because generally if you buy a lo=
+t of a stock the price will go up. As the prices went up, Archegos had mark=
+-to-market profits: The shares it bought earlier at lower prices were worth=
+ more, so it had made money. Archegos used these profits, leveraged with mo=
+re money borrowed from its banks, to buy more of its favorite stocks. This =
+made the prices go up more, which created more profits, which gave it more =
+money to buy more stocks, etc., in what I guess you could call a virtuous c=
+ycle.I don=E2=80=99t know how to write an ending for this story? I mean, I =
+know how the story ended in real life, and it=E2=80=99s the obvious ending.=
+ The obvious ending is that, if you keep doing this, you end up owning enor=
+mous quantities of your favorite 10 stocks, owing enormous amounts of money=
+ to your banks, and having a very slim margin for error. If a slight=C2=A0b=
+reeze knocks down the price of one of your stocks, your banks will demand m=
+ore money in a margin call, and you won=E2=80=99t have any cash because you=
+ have invested every cent in buying stocks with borrowed money. Your banks =
+will be forced to sell some of your stocks, which will drive their prices d=
+own, which will lead to more margin calls and more forced sales and more pr=
+ice drops, etc., in what you would certainly call a vicious cycle.=C2=A0And=
+ that is in fact  exactly what happened. There was a small hiccup with one =
+of its stocks: ViacomCBS Inc., a huge Archegos holding, saw its stock price=
+ shoot up=C2=A0and decided to raise some money by selling stock, which push=
+ed down the price a bit.=C2=A0The result was that Archegos was absolutely v=
+aporized almost immediately:=C2=A0It got margin calls that it couldn=E2=80=
+=99t meet, its stocks were liquidated, their prices=C2=A0crashed, it lost a=
+ll its money,=C2=A0and some of its less nimble banks lost billions of dolla=
+rs when they were too slow to liquidate. It is the obvious outcome, and it =
+happened.But I don=E2=80=99t really understand it, because it is=C2=A0so=C2=
+=A0obvious. Bill Hwang is not some dope; he is a long-time hedge fund manag=
+er with a=C2=A0Tiger Management pedigree. The story I laid out above is stu=
+pid, and it inevitably=C2=A0ends the way I described. Bill Hwang presumably=
+ did not=C2=A0want=C2=A0to lose all his money. What was his exit plan? How =
+did he think the story would end?The simple story is so unsatisfying that I=
+ have occasionally speculated that he might have had a better plan. One=C2=
+=A0better plan is to do essentially what I laid out above =E2=80=94=C2=A0bu=
+y stocks with borrowed money, push them up, reinvest the profits to push th=
+em up some more =E2=80=94 but then=C2=A0stop, call up your banks, withdraw =
+your latest (enormous) round of mark-to-market profits, and=C2=A0instead=C2=
+=A0of using them to buy more leveraged stock positions, use them to buy som=
+e gold bars and bury them in your backyard. Then a slight breeze blows over=
+ your stocks, you get margin calls, you say =E2=80=9Csorry I have no money,=
+=E2=80=9D your stocks crash, your fund=E2=80=99s equity goes to zero, your =
+banks lose billions on their loans, you get a lot of negative news articles=
+ written about you, you sigh and look chagrined, eventually everyone moves =
+on and=C2=A0you dig up the gold bars.[1]I can=E2=80=99t say there was much =
+evidence for this possibility but I liked it a lot. There were tantalizing =
+hints: Archegos took $2.4 billion of cash  out of its account at Credit Sui=
+sse Group AG just a couple of weeks=C2=A0before it blew up; where did that =
+money go? And some former Archegos employees  went out to start a new fund =
+with $50 million of their personal capital, suggesting that they at least g=
+ot=C2=A0out in time.=C2=A0A version of the Archegos story in which Archegos=
+ was vaporized and its banks lost money, but Hwang emerged=C2=A0smug and vi=
+ctorious, is just more fun than the one in which he briefly got very rich a=
+nd then mechanically lost it all.There are other possible endings, other po=
+ssible explanations for what Hwang might have been thinking. The most plaus=
+ible one is: He liked the stocks. This theory is, like, your favorite stock=
+ is trading at $20 and you think it is worth $100. So you keep buying, in a=
+ more and more leveraged way, until you own like 30% of the shares and the =
+stock is at $50. Then you hope that the company announces great earnings, e=
+veryone comes to see the story your way, the stock trades to $100, and you =
+sell at a profit. You are making a huge, risky, but=C2=A0fundamental=C2=A0b=
+et; your theory is not just =E2=80=9Cif I buy this stock it will go up=E2=
+=80=9D but also =E2=80=9Cand it should go up because the market will come t=
+o understand its fundamental value.=E2=80=9D =E2=80=9CIf I buy this stock i=
+t will go up=E2=80=9D has the unfortunate corollary =E2=80=9Cbut then I wil=
+l sell it and it will go down,=E2=80=9D but if you have a lot of conviction=
+ on a fundamental view then maybe you think you can avoid that fate. Hwang=
+=E2=80=99s reputation was as a risk-taking, high-conviction fundamental sto=
+ck analyst, who once got in trouble for using fundamental information that =
+was a little=C2=A0too=C2=A0good. (His old hedge fund=C2=A0shut down after h=
+e was charged with insider trading, whoops.) Perhaps he really liked his fa=
+vorite 10 stocks and figured they=E2=80=99d grow into the very high valuati=
+ons he created for them. Perhaps he wanted to bet as much as he could on th=
+at outcome.Today the U.S. Securities and Exchange Commission and federal pr=
+osecutors  charged Hwang and some of his employees with market manipulation=
+ and fraud. Ah, well. (=E2=80=9CBill Hwang is entirely innocent of any wron=
+gdoing,=E2=80=9D  said his lawyer. =E2=80=9CThere is no evidence whatsoever=
+ that he committed any kind of crime, let alone the overblown allegations t=
+hat pervade this indictment.=E2=80=9D)The market manipulation case is just =
+what I laid out above: If you buy a whole ton of like 10 stocks, their pric=
+es will go up. Hwang bought a whole ton of his favorite stocks! From the cr=
+iminal indictment:The majority of Archegos=E2=80=99s positions were =E2=80=
+=9Clong,=E2=80=9D meaning the value of Archegos=E2=80=99s portfolio would i=
+ncrease if the prices of the stock underlying its swaps increased. To drive=
+ up the prices, HWANG amassed extraordinary exposure to those stocks throug=
+h billons of dollars of purchases made with money borrowed from Counterpart=
+ies based on lies and misrepresentations. The increased demand for these st=
+ocks, and the dwindling supply of freely trading shares, led to significant=
+ artificial appreciation in the price of each stock. This manipulative stra=
+tegy harnessed the margin frameworks of Archegos=E2=80=99s Counterparties b=
+y recycling =E2=80=9Cexcess=E2=80=9D margin into further buying. In turn, t=
+he strategy generated additional price inflation and, thus, still more =E2=
+=80=9Cexcess=E2=80=9D margin.And from the SEC complaint:The size of Archego=
+s=E2=80=99s exposures to its Top 10 Holdings allowed Archegos to assert a d=
+ominant market position over the securities of these issuers.For example, b=
+y late March 2021, Archegos=E2=80=99s cumulative cash equity and derivative=
+ SBS exposures to the following issuers equated to the following percentage=
+s of outstanding shares, based on Archegos=E2=80=99s estimate of those issu=
+ers=E2=80=99 floats:=C2=A0GSX Techedu Inc. (=E2=80=9CGSX=E2=80=9D) =E2=80=
+=93 Over 70% of outstanding shares;=C2=A0Discovery Class A =E2=80=93 Over 6=
+0% of outstanding shares;=C2=A0IQIYI Inc. =E2=80=93 Over 50% of outstanding=
+ shares;=C2=A0ViacomCBS =E2=80=93 Over 50% of outstanding shares;=C2=A0Tenc=
+ent Music Entertainment Group (=E2=80=9CTencent=E2=80=9D) =E2=80=93 Over 45=
+% of outstanding shares; and=C2=A0Discovery Class C =E2=80=93 Over 30% of o=
+utstanding shares.Hwang knew that Archegos could impact markets through the=
+ exercise of its sheer buying power. For example, in June 2020, when asked =
+in a text message by an Archegos analyst whether ViacomCBS=E2=80=99s stock =
+price improvement that day was =E2=80=9Ca sign of strength,=E2=80=9D Hwang =
+responded, =E2=80=9CNo. It is a sign of me buying,=E2=80=9D followed by a =
+=E2=80=9Ctears of joy=E2=80=9D or laughing emoji.=C2=A0These are comically =
+large numbers; Hwang owned, economically speaking, a majority of the shares=
+ of a number of big public companies. (=E2=80=9CSBS=E2=80=9D here stands fo=
+r =E2=80=9Csecurity-based swap,=E2=80=9D i.e. the total return swaps by whi=
+ch he did the bulk of his investing: His banks would write a derivative giv=
+ing him economic exposure to the shares, and the banks would often, though =
+not always, buy the underlying shares to hedge that derivative.) His buying=
+ was also a big portion of the trading activity in those stocks many days:D=
+uring the Relevant Period, and particularly from January through March 2021=
+, Archegos=E2=80=99s trading of the equities of and SBSs referencing its To=
+p 10 Holdings frequently exceeded 20%, often reached 30%, and even surpasse=
+d 40% of certain issuers=E2=80=99 daily trading volume.=C2=A0Is this market=
+ manipulation? Man, I don=E2=80=99t know.=C2=A0Anyone=C2=A0who buys a lot o=
+f stock will make the price of the stock go up, but surely just buying a lo=
+t of stock can=E2=80=99t be a crime? The SEC and prosecutors hint that it m=
+ight be illegal to buy more than 10% to 15% of a stock=E2=80=99s daily volu=
+me; from the SEC complaint:Hwang and [Archegos head trader William] Tomita =
+knew that trading in large volumes on a given day =E2=80=93 at percentages =
+of more than 10% to 15% of the daily trading volume of a specific issuer =
+=E2=80=93 would create upward pressure on the share price and often result =
+in the share price increasing.=C2=A0And from the indictment:HWANG also trad=
+ed the relevant securities in amounts far exceeding volumes known within th=
+e securities industry and to HWANG to affect market prices. Specifically, H=
+WANG, Tomita, and others working at Archegos understood that buying or sell=
+ing more than approximately 10-15% of a day=E2=80=99s total trading volume =
+of a given stock would likely affect the market price in the stock. HWANG r=
+outinely directed trading in excess of these volumes.People buy 15% of dail=
+y volume all the time. Elon Musk bought more than 15% of the volume of Twit=
+ter Inc. stock on several different days this year,[2] and the stock did in=
+ fact go up as he was buying. He obviously=C2=A0did not do this to=C2=A0man=
+ipulate the stock; he did it because he wanted to own Twitter (and now he s=
+ort of does). If you buy stock aggressively, it will go up, but people do n=
+ot always buy stock aggressively=C2=A0to make it go up. Sometimes they buy =
+stock aggressively because they want to own a lot of it, fast.Ordinarily, m=
+y  rough but useful theory of what =E2=80=9Cmarket manipulation=E2=80=9D is=
+ goes like this:=09You buy a lot of stock.=09The stock goes up as you buy i=
+t.=09You send bad chat messages to your buddies saying =E2=80=9Clol I am ma=
+nipulating this stock.=E2=80=9DStep 3 is important! This=C2=A0is not a comp=
+lete legal definition or anything, but the basic point is that market manip=
+ulation is a crime of intent. If you buy stock because you think it is unde=
+rvalued, and it goes up because of your buying, then that=E2=80=99s fine, t=
+hat=E2=80=99s just an inevitable fact of stock trading. If you buy stock=C2=
+=A0because you want to push up the price, that=E2=80=99s bad. If you send c=
+hat messages saying =E2=80=9CI am buying this stock to push up the price be=
+cause I am a bad criminal,=E2=80=9D it is easy to prove intent. If you don=
+=E2=80=99t, then prosecutors have to rely on fuzzier circumstantial evidenc=
+e, and it will be relatively easy for you to say =E2=80=9Cno I bought that =
+stock because I thought it was a good investment.=E2=80=9DHere it does not=
+=C2=A0seem=C2=A0like Hwang sent the bad chat messages. I have already quote=
+d his text=C2=A0saying =E2=80=9C=E2=80=98No. It is a sign of me buying,=E2=
+=80=99 followed by a =E2=80=98tears of joy=E2=80=99 or laughing emoji,=E2=
+=80=9D but that one is obviously fine!=C2=A0If you asked Elon Musk, as he w=
+as accumulating Twitter, =E2=80=9Cwhy is Twitter=E2=80=99s stock going up,=
+=E2=80=9D I think he would have reasonably replied=C2=A0=E2=80=9Cbecause I =
+am buying a lot of it,=E2=80=9D and he would have added an emoji. That was=
+=C2=A0why it was going up, but that was not why he was buying it.=C2=A0=E2=
+=80=9CThe stock is going up because I am buying it=E2=80=9D is straightforw=
+ardly true and neutral. =E2=80=9CI am buying it to make it go up=E2=80=9D i=
+s the bad one, and this message simply does not say that.That said, is ther=
+e circumstantial evidence that Hwang was doing weird stuff? Sure, a little.=
+ For instance, from the SEC:None of this trading was based on a principled =
+view of the true value of a particular issuer and instead was intended to a=
+rtificially inflate share prices.Indeed, Hwang essentially sidelined his re=
+search operation, ignoring their stock price targets in favor of his own ou=
+tsized stock price targets, which were often orders of magnitude larger tha=
+n what his research operation had determined on its own and, unlike his res=
+earch operation, based on little or no analytical support.=C2=A0Again I do =
+not think it can be a crime for a hedge fund manager to overrule his analys=
+ts and say =E2=80=9Cno I really like this stock, let=E2=80=99s buy tons of =
+it,=E2=80=9D but it is not a helpful fact=C2=A0here. If his analysts sent h=
+im a report saying =E2=80=9Call these stocks are gonna quadruple so let=E2=
+=80=99s buy as much as we can,=E2=80=9D that would be helpful for him, but =
+they did not. =E2=80=9CHWANG all but stopped holding investment strategy me=
+etings,=E2=80=9D says the indictment, and he =E2=80=9Cfrequently spent almo=
+st all of his workday with the traders=E2=80=9D rather than the investment =
+analysts.Or there is this:Archegos also engaged in substantial trading duri=
+ng the last 30 minutes of the trading day =E2=80=93 that is, =E2=80=9Cmarki=
+ng the close=E2=80=9D =E2=80=93 to again push the stock prices of certain i=
+ssuers, in which Archegos held long exposures, upward. The goal was that th=
+e upward movement in stock prices would lead to an increase in margin on Ar=
+chegos=E2=80=99s SBSs, which was based on end of day valuations, thereby pr=
+oviding Archegos with even more leverage to purchase more exposure to the s=
+ame issuers the next day, among other reasons.=C2=A0Again it cannot be a cr=
+ime to do most of your trading in the last 30 minutes of the day. U.S. stoc=
+k market trading is increasingly concentrated in the last 30 minutes, becau=
+se (1) that=E2=80=99s when closing prices are set, which matters for a lot =
+of index-y investors who are measured on closing prices, and (2) that=E2=80=
+=99s when the market is liquid, because that=E2=80=99s when the big funds a=
+re trading. If trading a lot at the close is a crime, then everyone is a cr=
+iminal. And yet sure, yes, if you are trying to manipulate a stock to keep =
+its closing price high to support your heavily leveraged positions, you abs=
+olutely would trade a lot at the close. It=C2=A0could=C2=A0be manipulation;=
+ you just would need more evidence of intent. (The indictment says that som=
+etimes Archegos would=C2=A0sell=C2=A0in the morning, to =E2=80=9C=E2=80=98m=
+ake room=E2=80=99 for later trades, when they would be most likely to creat=
+e the desired impact on the securities price,=E2=80=9D which does sound bad=
+.)Or:Another example of Archegos=E2=80=99s non-economic trading occurred in=
+ March 2021. An Archegos trader messaged among others, Hwang, that after Di=
+scovery Class C shares opened at $61.68, Archegos should enter orders of =
+=E2=80=9C60.00-61.00 and be aggressive below 60.00 because=C2=A0some short =
+term people see whether the stock can keep 60.00 floor as psychological lev=
+el.=E2=80=9D Hwang responded within seconds, writing =E2=80=9CI LIKE THAT P=
+LEASE GO AHEAD WITH $50=C2=A0MIL.=E2=80=9D Over the course of the trading, =
+Hwang periodically sought status updates on trading to gain greater exposur=
+e to Discovery Class C shares, often then increasing the size of the exposu=
+re to be added and incrementally walking up the limits orders, with a messa=
+ge late in the day writing =E2=80=9CFIRM LIMIT TO 63=E2=80=9D and including=
+ instructions to =E2=80=9CLET=E2=80=99S BE AGGRESSIVE.=E2=80=9D Discovery C=
+lass C shares closed at $62.99 that day.=C2=A0I don=E2=80=99t know. That sa=
+ys: Discovery opened at $61.68, and Hwang=E2=80=99s trader said =E2=80=9Cwe=
+ should try to buy it if it goes lower.=E2=80=9D They entered limit orders =
+to buy it=C2=A0below where it was trading. That is not traditionally how yo=
+u manipulate a stock up! They bought some, the stock did go up, and they ra=
+ised their limits so they could buy more. I am not saying that that is=C2=
+=A0not=C2=A0manipulation, just that it is not particularly compelling=C2=A0=
+evidence=C2=A0of manipulation.The worst fact, for Hwang, is that he alleged=
+ly lied to his banks about his positions. This is bad for several reasons. =
+For one thing, it is an independent sort of fraud: Whether or not you are a=
+lso doing market manipulation, it is illegal to lie to your banks to get th=
+em to lend you money. For another thing, it is a bad look: Lying to your ba=
+nks to get money to buy stocks is not proof=C2=A0that you were buying those=
+ stocks to manipulate the market =E2=80=94=C2=A0those concepts are barely r=
+elated =E2=80=94=C2=A0but it will look bad to a jury. Also, lying to your b=
+anks about your positions is a much more black-and-white thing than market =
+manipulation; if you say =E2=80=9Cwe own 1 million shares of XYZ with other=
+ banks=E2=80=9D and actually you own 20 million, prosecutors can just point=
+ to the factual discrepancy rather than inquiring into your intentions.[3]F=
+rom the SEC complaint:As Hwang understood, the only way for Archegos=E2=80=
+=99s manipulative trading strategy to succeed during the Relevant Period wa=
+s for it to continue adding to its already concentrated positions. By the s=
+econd half of 2020, it was becoming more and more difficult to add to posit=
+ions. Archegos=E2=80=99s growing position sizes began to bump up against th=
+e Counterparties=E2=80=99 trading capacity limits =E2=80=93 limits on the a=
+mount of SBSs that Counterparties would allow Archegos to hold in particula=
+r companies.=C2=A0So, allegedly, Archegos lied to its banks to get them to =
+increase its limits. From=C2=A0the indictment:In or about January 2021, at =
+the direction of [Archegos Chief Financial Officer Patrick] HALLIGAN, [Arch=
+egos Chief Risk Officer Scott] Becker claimed to representatives of Credit =
+Suisse, in substance, that as of November 30, 2020, the largest gross posit=
+ion in Archegos=E2=80=99s portfolio =E2=80=A6=C2=A0totaled 35% of Archegos=
+=E2=80=99s capital. That was false. In truth, as of November 30, 2020, Arch=
+egos=E2=80=99s largest long position (VIAC) constituted approximately 96% o=
+f Archegos=E2=80=99s capital. Indeed, as of that date, Archegos had six pos=
+itions that were greater than 35% of capital, including VIAC at approximate=
+ly 96%, BIDU at approximately 67%, GSX at approximately 55%, TME at approxi=
+mately 48%, IQ at approximately 45%, and VIPS at approximately 43%.If you d=
+o most of your trading with borrowed money, you can have half your fund in =
+each of six stocks, no problem.=C2=A0Also:In or about February 2021, Archeg=
+os sought to raise its existing trading limits at UBS. In discussions about=
+ an increase, Becker told UBS, in substance, that Archegos could liquidate =
+its entire portfolio in approximately two weeks, or ten trading days, selli=
+ng at approximately 15% of average daily trading volume (=E2=80=9CADTV=E2=
+=80=9D), measuring from the prior 20 days. =E2=80=A6=C2=A0In fact, to liqui=
+date at 15% of ATV at that time, it would have taken, for example, approxim=
+ately 134 trading days to liquidate Archegos=E2=80=99s position in VIPS and=
+ approximately 78 trading days to liquidate its position in VIAC. Even had =
+Archegos sold its positions at 100% of ATV, which would have severely impac=
+ted the prices of the stocks, it would have taken approximately 20 trading =
+days to liquidate VIPS, approximately 16 days to liquidate IQ, and approxim=
+ately 12 days to liquidate VIAC.Yeah that=E2=80=99s a lot of stock.[4] The =
+basic problem is that each bank only knew about Archegos's positions with t=
+hat bank. If you were a bank lending money to Archegos against some stock, =
+and you knew it owned $1 billion of that stock through total return swaps w=
+ith you, then that might be fine; $1 billion might be a reasonable position=
+ size, easy to liquidate quickly, etc. But if it also owned $10 billion mor=
+e with other=C2=A0banks, that would not be fine: If Archegos defaulted, you=
+=E2=80=99d all be selling at once and the stock would crater. Banks were ve=
+ry aware of this risk, and asked Archegos about it, and Archegos allegedly =
+lied:Becker told UBS, in substance, that the portion of Archegos=E2=80=99s =
+portfolio at UBS was not representative of its portfolio with other counter=
+parties, and that Archegos=E2=80=99s largest positions overall were in larg=
+e, liquid technology socks, such as Amazon, Google, Microsoft, and Apple. I=
+n truth, none of Amazon, Google, Apple, or Microsoft ranked in the top ten =
+of Archegos=E2=80=99s positions.Seems bad.The thing is,=C2=A0I still have n=
+o idea what Hwang was thinking? The SEC=E2=80=99s and Justice Department=E2=
+=80=99s basic story is that he bought a lot of stock to make the stock go u=
+p so he=E2=80=99d have paper profits to plow into buying more of the stock.=
+ Fine, but, then what? He is a smart guy; if he was doing this to manipulat=
+e the price, what was his plan? What was the end game? This strategy, as la=
+id out by the SEC and DOJ, inevitably ends in ruin, and it did. How was he =
+planning to make money?My fun conspiracy theory =E2=80=94=C2=A0he took out =
+a bunch of profits just before the end and buried them in his backyard =E2=
+=80=94=C2=A0seems ruled out. The indictment is explicit that he plowed ever=
+y penny into buying more of his stocks, even as the strategy was cracking:T=
+he Archegos Conspirators=E2=80=99 manipulative and fraudulent schemes left =
+Archegos=E2=80=99s portfolio highly vulnerable to price fluctuations in a h=
+andful of stocks. In late March 2021, that risk materialized: a decline in =
+the prices of certain stocks in Archegos=E2=80=99s portfolio prompted margi=
+n calls; that is, Counterparties required Archegos to provide more cash to =
+support its trading. Because selling Archegos=E2=80=99s positions to raise =
+cash could further deflate the artificial prices of those securities, leadi=
+ng to a downward spiral, BILL HWANG, the defendant, instead directed Archeg=
+os=E2=80=99s traders to engage in a desperate buying spree in an attempt to=
+ reverse the price decliens of stocks underlying Archegos=E2=80=99s core po=
+sitions. Acting at HWANG=E2=80=99s direction, the traders used Archegos=E2=
+=80=99s remaining cash and credit, including funds borrowed based on lies a=
+nd misrepresentations to the Counterparties, to pay for billions of dollars=
+ in trades over just a few days.If I was running a manipulative strategy to=
+ artificially inflate the prices of some stocks, and that strategy stopped =
+working and I faced margin calls and a downward spiral in the stocks=E2=80=
+=99 prices, and=C2=A0also I had billions of dollars in cash, I would not pl=
+ow all of that cash into a desperate buying spree to prop up=C2=A0my artifi=
+cially inflated stocks! I would, and I cannot emphasize this enough, bury i=
+t in my backyard! First I=E2=80=99d fly to a non-extradition country and bu=
+y a backyard there! With my billions of dollars! This makes no sense!That d=
+oesn=E2=80=99t mean that it=E2=80=99s wrong, but it is very unsatisfying. T=
+he theory here is that Bill Hwang tried to manipulate these stocks up as hi=
+gh as they could go, basically to achieve a high score, knowing that the in=
+evitable end was losing all his money and going to prison. He would not be =
+the first person in finance to=C2=A0do something like that, but it is a wei=
+rd theory and I don't like it. I don=E2=80=99t have a great alternative for=
+ you. =E2=80=9CHe really liked these stocks and wanted to own a lot of them=
+=E2=80=9D is not really satisfying either. But I don=E2=80=99t think it=E2=
+=80=99s ruled out yet.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in ha=
+ndy email form, right in your inbox, please=C2=A0subscribe at this link. Or=
+ you can subscribe to Money Stuff and other great Bloomberg newsletters her=
+e. Thanks!
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      The Twitter merger agreement
+   =20
+ =20
+Yesterday, at a little after 5 p.m. New York time, Twitter Inc. filed a For=
+m 8-K with the Securities and Exchange Commission describing and attaching =
+its merger agreement with Elon Musk. Due to the demands of being a daily co=
+lumnist on the internet,[5] I felt an obligation to summarize the main term=
+s of the merger agreement yesterday morning. This was an exciting challenge=
+=C2=A0because the agreement was not yet public and I had not yet read it. B=
+ut, you know, there are only so many things a merger ageement can say. I th=
+ink I did pretty well, given those constraints? You can read  my summary of=
+ Twitter=E2=80=99s merger agreement from yesterday and it basically holds u=
+p.=C2=A0A quick recap, now informed by the actual merger agreement. The poi=
+nt of a merger agreement is (1) to agree to do a merger, (2) to agree on wh=
+at the two parties need to do to get the merger closed, (3) to agree on the=
+ circumstances in which the merger might=C2=A0not=C2=A0close and (4) to agr=
+ee on what happens in those cases.The actual merger part is=C2=A0straightfo=
+rward: Musk will pay $54.20 per share to each Twitter shareholder other tha=
+n himself (he owns about 9.1% of the stock), and in exchange he will own 10=
+0% of Twitter and get to do whatever he wants with it. (This is Section 3.1=
+ of the merger agreement.) Vested in-the-money Twitter employee stock optio=
+ns, etc., will also be paid out in cash (Section 3.6).The doing-stuff-to-ge=
+t-to-closing part (Article VI) is mostly pretty standard: Musk and Twitter =
+will work together to get antitrust and other regulatory approvals, prepare=
+ a proxy statement to get a Twitter shareholder vote, and line up the $13 b=
+illion of debt financing that a Musk-owned Twitter will borrow. In the inte=
+rim =E2=80=94=C2=A0which could be perhaps six months =E2=80=94=C2=A0Twitter=
+ will run its business normally, reporting to its existing managers and dir=
+ectors, not to Musk. It is required to =E2=80=9Cuse its commercially reason=
+able efforts to conduct the business of the Company and its Subsidiaries in=
+ the ordinary course of business.=E2=80=9D (Section 6.1.) There are various=
+ specific restrictions about, e.g., not going crazy with employee pay, not =
+selling assets, not entering into big new contracts, etc. Basically Twitter=
+ is in a sort of stasis: It can=E2=80=99t run its business however it wants=
+, but Musk can=E2=80=99t run its business however he wants either; it just =
+keeps doing what it was doing until he takes over.There are a=C2=A0few oddi=
+ties. In public-company mergers, there is generally a section about how the=
+ parties will coordinate on public announcements about the deal. This agree=
+ment has that section (Section 6.8). It begins normally:=C2=A0Except as oth=
+erwise contemplated by Section 6.5, so long as this Agreement is in effect,=
+ the Company [Twitter], Parent and Acquisition Sub [the=C2=A0shell companie=
+s that Elon Musk is using to buy Twitter] shall consult with each other bef=
+ore issuing any press release or otherwise making any public statements wit=
+h respect to this Agreement or the transactions contemplated by this Agreem=
+ent, and none of the parties hereto or their Affiliates shall issue any suc=
+h press release or make any public statement prior to obtaining the other p=
+arties=E2=80=99 consent (which consent shall not be unreasonably withheld o=
+r delayed), except that no such consent shall be necessary to the extent di=
+sclosure may be required by Law,=C2=A0etc.;=C2=A0it goes on for a bit. But =
+then there is the Elon Musk Proviso:Notwithstanding the foregoing, the Equi=
+ty Investor [Musk] shall be permitted to issue Tweets about the Merger or t=
+he transactions contemplated hereby so long as such Tweets do not disparage=
+ the Company or any of its Representatives.What if the tweets are false! Wh=
+at if they lead to a Securities and Exchange Commission lawsuit! What if th=
+ey tank the stock or scare away employees! Usually the way it works is that=
+ if the buyer wants to issue an inflammatory press release, it goes to the =
+seller for permission, and the seller says =E2=80=9Cwhat, no,=E2=80=9D and =
+the buyer realizes that it didn=E2=80=99t actually want to issue an inflamm=
+atory press release, and, you know, that=E2=80=99s why they have this secti=
+on. But here they also have Elon Musk, and when he wants to Tweet he Tweets=
+.[6] Of course he spent last night tweeting disparaging things about Twitte=
+r and  its employees. What are they gonna do, sue?(Incidentally there is no=
+ similar provision allowing=C2=A0Twitter=C2=A0to tweet freely about the dea=
+l; I suppose that was considered unnecessary because no one on Twitter=E2=
+=80=99s board or executive team uses the product. Except founder and board =
+member Jack Dorsey, who has tweeted some=C2=A0nice things about Musk and th=
+e deal. A lawyer then dutifully filed those tweets with the SEC.)Much of th=
+e negotiation in a merger agreement is over what might go wrong: How could =
+the deal fall through, and what would happen if it does? We talked about th=
+e main issues yesterday, and let=E2=80=99s go through them again.=09Can Mus=
+k just change his mind? The short answer is no. If Musk changes his mind wi=
+thout a good reason, Twitter can force him to close the deal, as long as hi=
+s debt financing is available. That is, if all of the conditions to closing=
+ are satisfied, and if Musk=E2=80=99s banks are willing to fund the $13 bil=
+lion of Twitter debt and $12.5 billion of Tesla margin loans that they=E2=
+=80=99ve promised, then Twitter can force Musk to put up the $21 billion of=
+ cash that=C2=A0he=C2=A0has promised and close the deal. (Section 9.9(b).) =
+Short of that, though =E2=80=94=C2=A0short of actually forcing Musk to clos=
+e the deal, which is tricky=C2=A0=E2=80=94=C2=A0Musk=E2=80=99s liability is=
+ limited to a reverse termination fee of $1 billion.[7]=C2=A0This is=C2=A0e=
+xactly what I laid out yesterday, except that I assumed the reverse termina=
+tion fee would be $1,420,690,000, because Elon Musk loves meme numbers and =
+Twitter seems willing to play along. The $1 billion breakup fee, while pret=
+ty standard for a deal of this size, is bizarre for an Elon Musk deal. Not =
+a 420 in sight! (420 is a weed joke.)=09What if Twitter=E2=80=99s business =
+breaks?=C2=A0Musk does not have to close the deal if there has been a =E2=
+=80=9Cmaterial adverse effect=E2=80=9D at Twitter. (Sections 4.9 and 7.2(b)=
+.) =E2=80=9CMaterial adverse effect=E2=80=9D is defined on page 5 of the ag=
+reement and it is long. Actually the definition doesn=E2=80=99t say much; i=
+t just says, tautologically, that a =E2=80=9CMaterial Adverse Effect=E2=80=
+=9D is=C2=A0=E2=80=9Cany change, event, effect or circumstance which, indiv=
+idually or in the aggregate, has resulted in or would reasonably be expecte=
+d to result in a material adverse effect on the business, financial conditi=
+on or results of operations=E2=80=9D of Twitter. All the action is in the=
+=C2=A0exceptions=C2=A0to the MAE. As I suggested yesterday, there are lots =
+of them, and it is somewhat difficult to think of an event that would cause=
+ a material adverse effect on Twitter=E2=80=99s business but=C2=A0not be co=
+vered by an exception to the MAE. If Twitter does badly due to all=C2=A0sor=
+ts of general conditions (changes in law, general economic and financial co=
+nditions, pandemics, etc.), that does not count as an MAE. If Twitter fails=
+ =E2=80=9Cto meet internal, analysts=E2=80=99 or other earnings estimates o=
+r financial projections or forecasts for any period,=E2=80=9D that doesn=E2=
+=80=99t count as an MAE; just having bad earnings=C2=A0isn=E2=80=99t enough=
+. And, as usual, bad effects that result from =E2=80=9Cthe negotiation, exe=
+cution, announcement, performance, consummation or existence of this Agreem=
+ent or the transactions contemplated by this Agreement=E2=80=9D do not coun=
+t as an MAE, though here they felt it necessary to spell out =E2=80=9Cinclu=
+ding (A) by reason of the identity of Elon Musk, Parent or any of their Aff=
+iliates or their respective financing sources, or any communication by Pare=
+nt or any of its Affiliates or their respective financing sources, includin=
+g regarding their plans or intentions with respect to the conduct of the bu=
+siness of the Company.=E2=80=9D If Elon Musk breaks Twitter by tweeting his=
+ plans for it, he still has to buy it.=09What if Musk=E2=80=99s financing f=
+alls apart?=C2=A0Musk has to do his best to get his debt financing at closi=
+ng, and Twitter has to cooperate with his banks in marketing the debt on Tw=
+itter. But if he can=E2=80=99t get the money=C2=A0=E2=80=94=C2=A0if his ban=
+ks won=E2=80=99t fund =E2=80=94=C2=A0then he can=C2=A0pay the $1 billion re=
+verse termination fee and walk away. (Sections 6.10, 6.11, 8.3 and 9.9(b).)=
+ As I said yesterday, the $13 billion of debt financing that Musk plans to =
+raise against Twitter seems reasonably likely to close. But the $12.5 billi=
+on that he plans to raise against his shares of Tesla Inc.=C2=A0depends on =
+Tesla=E2=80=99s stock price, and if it goes down too much =E2=80=94=C2=A0  =
+below about $740 =E2=80=94=C2=A0then he might have trouble getting that fin=
+ancing.=09What if someone else wants to buy Twitter? Twitter is not allowed=
+ to go out looking for a better offer, but if it gets an unsolicited better=
+ offer it can talk to that bidder. If it concludes that the offer really is=
+ better it has to give Musk four days to match; if he doesn=E2=80=99t match=
+, Twitter can take the other offer. If it does, it has to pay Musk a $1 bil=
+lion termination fee. (Sections 6.5, 8.1(b) and 8.3(a).)=C2=A0=09What if Tw=
+itter=E2=80=99s shareholders vote no on the deal?=C2=A0Then the deal termin=
+ates and nobody pays anybody any fees, unless they vote down Musk=E2=80=99s=
+ deal to take a competing offer, in which case Twitter owes Musk the $1 bil=
+lion termination fee. (Sections=C2=A08.1(b)(iii) and 8.3(a)(i).) Musk=C2=A0=
+has agreed to hold on to his 9.1% of the stock and vote in favor of the mer=
+ger (Section 6.2(d)); there is no requirement that a majority of the non-Mu=
+sk shareholders approve the deal.=09What if Twitter=E2=80=99s board changes=
+ its mind? As I pointed out yesterday,=C2=A0during negotiations  Musk offer=
+ed to let Twitter=E2=80=99s board sign a deal=C2=A0without=C2=A0recommendin=
+g it to shareholders. But the final deal is pretty buttoned up, and allows =
+the board to change its mind only for genuinely new developments.[8] If the=
+ board does change its mind about the merits of the deal, it can recommend =
+that shareholders vote against it, but it still has to put it to a sharehol=
+der vote (and if the shareholders vote yes the deal will close), unless it =
+can find some other way out. (The realistic other ways out are (1) acceptin=
+g a higher offer from someone else and (2) arguing that Musk breached the m=
+erger agreement by, I don=E2=80=99t know, tweeting disparaging things?)=09W=
+hat if regulators block the deal?=C2=A0They won=E2=80=99t, is the basic ans=
+wer, but if they do then the deal ends and no one pays anyone any fees. Sec=
+tion 6.3 contains the agreements for Twitter and Musk to work together to g=
+et regulatory approvals.I also predicted=C2=A0yesterday that the merger agr=
+eement would=C2=A0not contain any provisions constraining how Musk will ope=
+rate Twitter when he owns it: The agreement would contain=C2=A0no promises =
+to run Twitter in the public interest, to preserve free speech, to protect =
+the privacy of user data, or anything else. It does not. It is a standard m=
+erger agreement, focused on price and certainty; nobody who negotiated this=
+ agreement, except Musk, cares about the product.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Four European Gas Buyers Made  Ruble Payments to Russia. European gas price=
+s soar after Gazprom halts supplies to Poland and Bulgaria. Robinhood  Cutt=
+ing 9% of Full-Time Staff as =E2=80=98Hyper Growth=E2=80=99 Ebbs.=C2=A0JPMo=
+rgan Sued After  Millions Stolen From Ray-Ban Maker Funds. Cryptocurrency F=
+irms Push Back Against Proposal to Police Treasury Markets. EU  Attacks Law=
+suits Used by Rich and Powerful to Silence Critics.=C2=A0Payment Startup  B=
+olt Sued by Its Most Prominent Customer. I did a Q&A with Isaac Chotiner ab=
+out Elon Musk and Twitter.[1] Obviously you have to get the timing and sizi=
+ng right, and this is very tricky. But if you have a lot of skill and luck=
+=C2=A0you can snowball a relatively small amount of money into a giant pile=
+ of leveraged stock bets, take out a fairly giant chunk of profits near the=
+ end, and end up with gold bars worth a lot more than the money you started=
+ with.[2] He bought 21.3% of volume on Feb. 7, 18.6% on March 11, 15.8% on =
+March 12, 19.3% on March 23, and more than 15% on each of the five trading =
+days from March 25 through April 1. (Sources: Bloomberg volume and his Sche=
+dule 13D.)[3] There is a broader context to the allegation that Hwang lied =
+to his banks. The SEC, under Gary Gensler,  is very focused on requiring pu=
+blic disclosure of swaps positions, and it points to Archegos as an example=
+ of why that disclosure is necessary. If Archegos had to disclose its posit=
+ions publicly, the thinking goes, then its banks would not have loaned it s=
+o much money, it would not have gotten so big, and the prices of its favori=
+te stocks would not have gone up so much or crashed so hard. There are, I t=
+hink, flaws in this reasoning. For one thing, Credit Suisse did a  meticulo=
+us postmortem of its Archegos losses, which found that Credit Suisse knew p=
+erfectly well that Archegos had huge concentrated positions, and *wanted* t=
+o demand more margin, but just never quite got around to it for social and =
+business-retention reasons. Adding disclosure might not have changed that d=
+ynamic. For another thing, the allegation here is not that Archegos=E2=80=
+=99s positions were fundamentally unknowable to its counterparties. The all=
+egation is that the banks asked Archegos directly about its positions elsew=
+here, and expected Archegos to answer truthfully, and Archegos lied to them=
+, and that was a federal crime. But that suggests that no new disclosure ru=
+les are actually necessary: Banks are able to ask counterparties about thei=
+r exposures, and they do, and if the counterparties don=E2=80=99t answer tr=
+uthfully then they can go to prison. If you write a new rule saying =E2=80=
+=9Cyou have to disclose your swaps publicly,=E2=80=9D people might still ig=
+nore that rule. (Elon Musk  ignored the SEC=E2=80=99s existing rules about =
+disclosing his stock positions!) The point of a rule is that if they ignore=
+ it they can get in trouble. But Hwang is in trouble now![4] I should say t=
+hat  the Credit Suisse Archegos report suggests that Archegos was more hone=
+st with Credit Suisse than the indictment implies. =E2=80=9CIn December 202=
+0, Archegos reported to CRM that its top five long positions represented 17=
+5% of its NAV; moreover, Archegos held two positions that represented betwe=
+en 5 and 10 days=E2=80=99 DTV, six positions that represented between 2.5 a=
+nd 4.99 days=E2=80=99 DTV, and another nine positions that represented betw=
+een 1 and 2.49 days=E2=80=99 DTV in those respective stocks.=E2=80=9D Those=
+ numbers don=E2=80=99t exactly tie to the indictment=E2=80=99s =E2=80=9Ccor=
+rect=E2=80=9D numbers (which are for different dates, etc.), but they are i=
+n the right neighborhood. =E2=80=9CWe have two positions that are 10 days=
+=E2=80=99 volume=E2=80=9D is very different from =E2=80=9Cwe could sell all=
+ our positions in 10 days at 15% of volume.=E2=80=9D =E2=80=9COur top five=
+=C2=A0positions are 175% of NAV=E2=80=9D is actually compatible with =E2=80=
+=9Cour biggest position is 35% of NAV=E2=80=9D =E2=80=94=C2=A0if you have f=
+ive positions tied for 35% =E2=80=94=C2=A0but *feels* different. Broadly sp=
+eaking Credit Suisse=E2=80=99s risk officers seem to have had an accurate s=
+ense of what was up at Archegos. They didn=E2=80=99t like it! But they knew=
+ about it.[5] And, to be honest, to the fact that I expected them to file t=
+he 8-K yesterday morning. It=E2=80=99s certainly well within the rules to f=
+ile yesterday afternoon, or even later =E2=80=94=C2=A0they get four days =
+=E2=80=94=C2=A0but it is customary to be quick on these things. But the dea=
+l moved fast and they have a lot going on.[6] Incidentally, when I saw that=
+ the word =E2=80=9CTweet=E2=80=9D was capitalized in the agreement I though=
+t, =E2=80=9Cahaha, it=E2=80=99s a defined term, somewhere in its merger agr=
+eement Twitter has felt it necessary to define the word =E2=80=98Tweet.=E2=
+=80=99=E2=80=9D But, no, it=E2=80=99s not defined. I guess Twitter=E2=80=99=
+s lawyers=E2=80=99 style is just to capitalize =E2=80=9CTweet=E2=80=9D? Wei=
+rd.[7] This is confusing, and the Financial Times has reported that =E2=80=
+=9CElon Musk can walk away from Twitter deal by paying $1bn break fee=E2=80=
+=9D and that =E2=80=9CNo matter what Musk does, he knows his liability is c=
+apped at $1bn.=E2=80=9D This is not really right as a contractual matter: I=
+f all goes smoothly, he gets his financing, and he just decides to walk, a =
+court can order him to put up $21 billion and actually buy the company. (He=
+re is a law firm memo on specific performance as an M&A remedy.) But it is =
+true that if he does *not* buy the company =E2=80=94=C2=A0if he decides to =
+walk away and Twitter sues him for damages rather than trying to force him =
+to close the deal =E2=80=94=C2=A0his liability is capped at $1 billion. In =
+practice, when buyers abandon mergers, they never just say =E2=80=9Coops ch=
+anged my mind=E2=80=9D; they argue that there has been a material adverse e=
+ffect or the company has failed to fulfill its obligations or the financing=
+ is unavailable or whatever. (And if Musk does not want to close, his finan=
+cing sources might not be too enthusiastic about funding.) In those circums=
+tances, it can be hard and time-consuming and disruptive and uncertain for =
+the target to sue to *force the acquirer to close*, and Twitter might prefe=
+r to just take the $1 billion and move on with life as an independent compa=
+ny. But Musk=E2=80=99s liability is not actually capped at $1 billion, and =
+he does not exactly=C2=A0have an option to walk away for $1 billion.[8]=C2=
+=A0Section 6.5(d): =E2=80=9CNotwithstanding anything in this Agreement to t=
+he contrary, at any time prior to receipt of the Company Stockholder Approv=
+al, the Company Board may (i) make an Adverse Board Recommendation Change i=
+n response to an event, occurrence, change, effect, condition, development =
+or state of facts or circumstances =E2=80=A6 that was neither known to, nor=
+ reasonably foreseeable by, the Company Board as of the date of this Agreem=
+ent (or, if known, the consequences of which were not known or reasonably f=
+oreseeable to the Company Board as of the date of this Agreement) (an =E2=
+=80=9CIntervening Event=E2=80=9D) (where, for the avoidance of doubt, (x) t=
+he fact, in itself, that the Company meets or exceeds projections, forecast=
+s or estimates (it being understood that the underlying causes of (or contr=
+ibutors to) such performance that are not otherwise excluded from the defin=
+ition of Intervening Event may be taken into account) and (y) changes, in t=
+hemselves, in the price of the Company Common Stock or the trading volume t=
+hereof shall be considered known and reasonably foreseeable occurrences (it=
+ being understood that the underlying causes of (or contributors to) such c=
+hanges in price or trading volume that are not otherwise excluded from the =
+definition of Intervening Event may be taken into account)) if the Company =
+Board has determined in good faith (after consultation with its legal couns=
+el and financial advisors) that the failure to take such action would reaso=
+nably be expected to be inconsistent with the Company=E2=80=99s directors=
+=E2=80=99 fiduciary duties under applicable Law,=E2=80=9D or to accept a be=
+tter offer.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgdpzd.5vvx/e0c1c718.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_2531646_1321147889.1651086232803
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+ArchegosHere is a simplified version of the Archegos story. Archegos Capita=
+l Management was a family office run by Bill Hwang, a former Tige
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNzUxNDA1NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc3ODg2NjImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBa0d2c25c" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D27514057&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27788662&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNDI3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MjcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBcaa1b2cf"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNzUxNDA1NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc3ODg2NjImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC80207a23" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D27514057&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27788662&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Archegos</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is a simplified version of <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMDUvYmlsbC1od2F=
+uZy1zLWFyY2hlZ29zLXN3YXAtYWZ0ZXJtYXRoLWlzLWF3a3dhcmQtZm9yLWJhbmtzP2NtcGlkPU=
+JCRDA0MjcyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIyMDQyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cB0eedc950" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> the Archegos story</a>. Archegos Capital Managem=
+ent was a family office run by Bill Hwang, a former Tiger Cub hedge fund ma=
+nager, that invested his personal fortune. Starting in about 2020, Archegos=
+=E2=80=99s investment strategy consisted of buying a whole ton of shares of=
+ like 10 stocks, using mostly money borrowed from about a dozen banks. (Tec=
+hnically it did this buying using total return swaps rather than actually b=
+uying the stocks on margin, but that is a minor point.)</p><p style=3D"marg=
+in: 16px 0;">As Archegos kept buying more of these stocks, they went up, be=
+cause generally if you buy a lot of a stock the price will go up. As the pr=
+ices went up, Archegos had mark-to-market profits: The shares it bought ear=
+lier at lower prices were worth more, so it had made money. Archegos used t=
+hese profits, leveraged with more money borrowed from its banks, to buy mor=
+e of its favorite stocks. This made the prices go up more, which created mo=
+re profits, which gave it more money to buy more stocks, etc., in what I gu=
+ess you could call a virtuous cycle.</p><p style=3D"margin: 16px 0;">I don=
+=E2=80=99t know how to write an ending for this story? I mean, I know how t=
+he story ended in real life, and it=E2=80=99s the obvious ending. The obvio=
+us ending is that, if you keep doing this, you end up owning enormous quant=
+ities of your favorite 10 stocks, owing enormous amounts of money to your b=
+anks, and having a very slim margin for error. If a slight=C2=A0breeze knoc=
+ks down the price of one of your stocks, your banks will demand more money =
+in a margin call, and you won=E2=80=99t have any cash because you have inve=
+sted every cent in buying stocks with borrowed money. Your banks will be fo=
+rced to sell some of your stocks, which will drive their prices down, which=
+ will lead to more margin calls and more forced sales and more price drops,=
+ etc., in what you would certainly call a vicious cycle.=C2=A0</p><p style=
+=3D"margin: 16px 0;">And that is in fact <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjEtMDQtMDUvYmlsbC1od2FuZy1zLWFyY2hlZ29zLXN3YXAtYWZ=
+0ZXJtYXRoLWlzLWF3a3dhcmQtZm9yLWJhbmtzP2NtcGlkPUJCRDA0MjcyMl9NT05FWVNUVUZGJn=
+V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDQyNyZ1d=
+G1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cC0eedc950" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ exactly what happened</a>. There was a small hiccup with one of its stocks=
+: ViacomCBS Inc., a huge Archegos holding, saw its stock price shoot up=C2=
+=A0and decided to raise some money by selling stock, which pushed down the =
+price a bit.=C2=A0The result was that Archegos was absolutely vaporized alm=
+ost immediately:=C2=A0It got margin calls that it couldn=E2=80=99t meet, it=
+s stocks were liquidated, their prices=C2=A0crashed, it lost all its money,=
+=C2=A0and some of its less nimble banks <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMS8wN=
+C8yNy91YnMtbm9tdXJhLXB1c2gtZ2xvYmFsLWJhbmtzLWFyY2hlZ29zLWxvc3Nlcy1vdmVyLTEw=
+LWJpbGxpb24uaHRtbCM6fjp0ZXh0PVVCUyUyQyUyME5vbXVyYSUyMHB1c2glMjBnbG9iYWwlMjB=
+iYW5rcyclMjBBcmNoZWdvcyUyMGxvc3NlcyUyMG92ZXIlMjAlMjQxMCUyMGJpbGxpb24sLVB1Ym=
+xpc2hlZCUyMFR1ZSUyQyUyMEFwciZ0ZXh0PVVCUyUyMHJlcG9ydGVkJTIwYW4lMjB1bmV4cGVjd=
+GVkJTIwJTI0Nzc0LGZhbWlseSUyMG9mZmljZSUyMGJleW9uZCUyMCUyNDEwJTIwYmlsbGlvbi4/=
+607f07ceef4b8524a319a23cBd9cf7c78" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">lost billions of dollars</a> whe=
+n they were too slow to liquidate. It is the obvious outcome, and it happen=
+ed.</p><p style=3D"margin: 16px 0;">But I don=E2=80=99t really understand i=
+t, because it is=C2=A0<em>so=C2=A0</em>obvious. Bill Hwang is not some dope=
+; he is a long-time hedge fund manager with a=C2=A0<a href=3D"https://link.=
+mail.bloombergbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjEtMDQtMDgvaG93LWJpbGwtaHdhbmctb2YtYXJjaGVnb=
+3MtY2FwaXRhbC1sb3N0LTIwLWJpbGxpb24taW4tdHdvLWRheXM_Y21waWQ9QkJEMDQyNzIyX01P=
+TkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm0=
+9MjIwNDI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa384a394=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">Tiger Management pedigree</a>. The story I laid out above is stup=
+id, and it inevitably=C2=A0ends the way I described. Bill Hwang presumably =
+did not=C2=A0<em>want=C2=A0</em>to lose all his money. What was his exit pl=
+an? How did he think the story would end?</p><p style=3D"margin: 16px 0;">T=
+he simple story is so unsatisfying that I have occasionally speculated that=
+ he might have had a better plan. One=C2=A0better plan is to do essentially=
+ what I laid out above =E2=80=94=C2=A0buy stocks with borrowed money, push =
+them up, reinvest the profits to push them up some more =E2=80=94 but then=
+=C2=A0<em>stop</em>, call up your banks, withdraw your latest (enormous) ro=
+und of mark-to-market profits, and=C2=A0<em>instead=C2=A0</em>of using them=
+ to buy more leveraged stock positions, use them to buy some gold bars and =
+bury them in your backyard. Then a slight breeze blows over your stocks, yo=
+u get margin calls, you say =E2=80=9Csorry I have no money,=E2=80=9D your s=
+tocks crash, your fund=E2=80=99s equity goes to zero, your banks lose billi=
+ons on their loans, you get a lot of negative news articles written about y=
+ou, you sigh and look chagrined, eventually everyone moves on and=C2=A0<em>=
+you dig up the gold bars</em>.[1]</p><p style=3D"margin: 16px 0;">I can=E2=
+=80=99t say there was much evidence for this possibility but I liked it a l=
+ot. There were tantalizing hints: Archegos took $2.4 billion of cash <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMjkvYXJjaGVnb3M=
+td2FzLXRvby1idXN5LWZvci1tYXJnaW4tY2FsbHM_Y21waWQ9QkJEMDQyNzIyX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDI3J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe91ce2d4" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ out of its account at Credit Suisse Group AG</a> just a couple of weeks=C2=
+=A0before it blew up; where did that money go? And some former Archegos emp=
+loyees <a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.27=
+4605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMT=
+AvbWF5YmUtZ2FtZXN0b3AtaXMtZ29vZC1ub3c_Y21waWQ9QkJEMDQyNzIyX01PTkVZU1RVRkYmd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDI3JnV0=
+bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBab7cce2d" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> we=
+nt out to start a new fund</a> with $50 million of their personal capital, =
+suggesting that they at least got=C2=A0out in time.=C2=A0A version of the A=
+rchegos story in which Archegos was vaporized and its banks lost money, but=
+ Hwang emerged=C2=A0smug and victorious, is just more fun than the one in w=
+hich he briefly got very rich and then mechanically lost it all.</p><p styl=
+e=3D"margin: 16px 0;">There are other possible endings, other possible expl=
+anations for what Hwang might have been thinking. The most plausible one is=
+: He liked the stocks. This theory is, like, your favorite stock is trading=
+ at $20 and you think it is worth $100. So you keep buying, in a more and m=
+ore leveraged way, until you own like 30% of the shares and the stock is at=
+ $50. Then you hope that the company announces great earnings, everyone com=
+es to see the story your way, the stock trades to $100, and you sell at a p=
+rofit. You are making a huge, risky, but=C2=A0<em>fundamental=C2=A0</em>bet=
+; your theory is not just =E2=80=9Cif I buy this stock it will go up=E2=80=
+=9D but also =E2=80=9Cand it <em>should</em> go up because the market will =
+come to understand its fundamental value.=E2=80=9D =E2=80=9CIf I buy this s=
+tock it will go up=E2=80=9D has the unfortunate corollary =E2=80=9Cbut then=
+ I will sell it and it will go down,=E2=80=9D but if you have a lot of conv=
+iction on a fundamental view then maybe you think you can avoid that fate. =
+Hwang=E2=80=99s reputation was as a risk-taking, high-conviction fundamenta=
+l stock analyst, who once got in trouble for using fundamental information =
+that was a little=C2=A0<em>too=C2=A0</em>good. (His old hedge fund=C2=A0shu=
+t down after he was <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/27514057.274605/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAxM=
+i0yMDEyLTI2NGh0bQ/607f07ceef4b8524a319a23cB06cb5ac4" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">charged with i=
+nsider trading</a>, whoops.) Perhaps he really liked his favorite 10 stocks=
+ and figured they=E2=80=99d grow into the very high valuations he created f=
+or them. Perhaps he wanted to bet as much as he could on that outcome.</p><=
+p style=3D"margin: 16px 0;">Today the U.S. <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3=
+ByZXNzLXJlbGVhc2UvMjAyMi03MA/607f07ceef4b8524a319a23cB5351c62e" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">Sec=
+urities and Exchange Commission</a> and federal prosecutors <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMjcvYXJjaGVnb3MtZm91bmRlci1o=
+aXQtd2l0aC1jcmltaW5hbC1jaGFyZ2VzLWluLW1hc3NpdmUtZnVuZC1yb3V0P2NtcGlkPUJCRDA=
+0MjcyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJn=
+V0bV90ZXJtPTIyMDQyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a2=
+3cBc0350572" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> charged Hwang and some of his employees</a> with mark=
+et manipulation and fraud. Ah, well. (=E2=80=9CBill Hwang is entirely innoc=
+ent of any wrongdoing,=E2=80=9D <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/27514057.274605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fyd=
+GljbGVzLzIwMjItMDQtMjcvYXJjaGVnb3MtZm91bmRlci1oaXQtd2l0aC1jcmltaW5hbC1jaGFy=
+Z2VzLWluLW1hc3NpdmUtZnVuZC1yb3V0P2NtcGlkPUJCRDA0MjcyMl9NT05FWVNUVUZGJnV0bV9=
+tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDQyNyZ1dG1fY2=
+FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cCc0350572" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> said h=
+is lawyer</a>. =E2=80=9CThere is no evidence whatsoever that he committed a=
+ny kind of crime, let alone the overblown allegations that pervade this ind=
+ictment.=E2=80=9D)</p><p style=3D"margin: 16px 0;">The market manipulation =
+case is just what I laid out above: If you buy a whole ton of like 10 stock=
+s, their prices will go up. Hwang bought a whole ton of his favorite stocks=
+! From <a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.27=
+4605/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3=
+I4aUttSndvS0pFUS92MA/607f07ceef4b8524a319a23cB33a4946f" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">the crimina=
+l indictment</a>:</p><blockquote><p style=3D"margin: 16px 0;">The majority =
+of Archegos=E2=80=99s positions were =E2=80=9Clong,=E2=80=9D meaning the va=
+lue of Archegos=E2=80=99s portfolio would increase if the prices of the sto=
+ck underlying its swaps increased. To drive up the prices, HWANG amassed ex=
+traordinary exposure to those stocks through billons of dollars of purchase=
+s made with money borrowed from Counterparties based on lies and misreprese=
+ntations. The increased demand for these stocks, and the dwindling supply o=
+f freely trading shares, led to significant artificial appreciation in the =
+price of each stock. This manipulative strategy harnessed the margin framew=
+orks of Archegos=E2=80=99s Counterparties by recycling =E2=80=9Cexcess=E2=
+=80=9D margin into further buying. In turn, the strategy generated addition=
+al price inflation and, thus, still more =E2=80=9Cexcess=E2=80=9D margin.</=
+p></blockquote><p style=3D"margin: 16px 0;">And from <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuc2VjLmdv=
+di9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMi9jb21wLXByMjAyMi03MC5wZGY/607f07ceef4=
+b8524a319a23cBfd1cd82e" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">the SEC complaint</a>:</p><blockquote><p st=
+yle=3D"margin: 16px 0;">The size of Archegos=E2=80=99s exposures to its Top=
+ 10 Holdings allowed Archegos to assert a dominant market position over the=
+ securities of these issuers.</p><p style=3D"margin: 16px 0;">For example, =
+by late March 2021, Archegos=E2=80=99s cumulative cash equity and derivativ=
+e SBS exposures to the following issuers equated to the following percentag=
+es of outstanding shares, based on Archegos=E2=80=99s estimate of those iss=
+uers=E2=80=99 floats:<br />=C2=A0GSX Techedu Inc. (=E2=80=9CGSX=E2=80=9D) =
+=E2=80=93 Over 70% of outstanding shares;<br />=C2=A0Discovery Class A =E2=
+=80=93 Over 60% of outstanding shares;<br />=C2=A0IQIYI Inc. =E2=80=93 Over=
+ 50% of outstanding shares;<br />=C2=A0ViacomCBS =E2=80=93 Over 50% of outs=
+tanding shares;<br />=C2=A0Tencent Music Entertainment Group (=E2=80=9CTenc=
+ent=E2=80=9D) =E2=80=93 Over 45% of outstanding shares; and<br />=C2=A0Disc=
+overy Class C =E2=80=93 Over 30% of outstanding shares.</p><p style=3D"marg=
+in: 16px 0;">Hwang knew that Archegos could impact markets through the exer=
+cise of its sheer buying power. For example, in June 2020, when asked in a =
+text message by an Archegos analyst whether ViacomCBS=E2=80=99s stock price=
+ improvement that day was =E2=80=9Ca sign of strength,=E2=80=9D Hwang respo=
+nded, =E2=80=9CNo. It is a sign of me buying,=E2=80=9D followed by a =E2=80=
+=9Ctears of joy=E2=80=9D or laughing emoji.=C2=A0</p></blockquote><p style=
+=3D"margin: 16px 0;">These are comically large numbers; Hwang owned, econom=
+ically speaking, a majority of the shares of a number of big public compani=
+es. (=E2=80=9CSBS=E2=80=9D here stands for =E2=80=9Csecurity-based swap,=E2=
+=80=9D i.e. the total return swaps by which he did the bulk of his investin=
+g: His banks would write a derivative giving him economic exposure to the s=
+hares, and the banks would often, though not always, buy the underlying sha=
+res to hedge that derivative.) His buying was also a big portion of the tra=
+ding activity in those stocks many days:</p><blockquote><p style=3D"margin:=
+ 16px 0;">During the Relevant Period, and particularly from January through=
+ March 2021, Archegos=E2=80=99s trading of the equities of and SBSs referen=
+cing its Top 10 Holdings frequently exceeded 20%, often reached 30%, and ev=
+en surpassed 40% of certain issuers=E2=80=99 daily trading volume.=C2=A0</p=
+></blockquote><p style=3D"margin: 16px 0;">Is this market manipulation? Man=
+, I don=E2=80=99t know.=C2=A0<em>Anyone=C2=A0</em>who buys a lot of stock w=
+ill make the price of the stock go up, but surely just buying a lot of stoc=
+k can=E2=80=99t be a crime? The SEC and prosecutors hint that it might be i=
+llegal to buy more than 10% to 15% of a stock=E2=80=99s daily volume; from =
+the SEC complaint:</p><blockquote><p style=3D"margin: 16px 0;">Hwang and [A=
+rchegos head trader William] Tomita knew that trading in large volumes on a=
+ given day =E2=80=93 at percentages of more than 10% to 15% of the daily tr=
+ading volume of a specific issuer =E2=80=93 would create upward pressure on=
+ the share price and often result in the share price increasing.=C2=A0</p><=
+/blockquote><p style=3D"margin: 16px 0;">And from the indictment:</p><block=
+quote><p style=3D"margin: 16px 0;">HWANG also traded the relevant securitie=
+s in amounts far exceeding volumes known within the securities industry and=
+ to HWANG to affect market prices. Specifically, HWANG, Tomita, and others =
+working at Archegos understood that buying or selling more than approximate=
+ly 10-15% of a day=E2=80=99s total trading volume of a given stock would li=
+kely affect the market price in the stock. HWANG routinely directed trading=
+ in excess of these volumes.</p></blockquote><p style=3D"margin: 16px 0;">P=
+eople buy 15% of daily volume all the time. Elon Musk bought more than 15% =
+of the volume of Twitter Inc. stock on several different days this year,[2]=
+ and the stock did in fact go up as he was buying. He <em>obviously=C2=A0</=
+em>did not do this to=C2=A0<em>manipulate the stock</em>; he did it because=
+ he wanted to own Twitter (and now he sort of does). If you buy stock aggre=
+ssively, it will go up, but people do not always buy stock aggressively=C2=
+=A0<em>to make it go up</em>. Sometimes they buy stock aggressively because=
+ they want to own a lot of it, fast.</p><p style=3D"margin: 16px 0;">Ordina=
+rily, my <a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.=
+274605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMTIt=
+MDQvdHJ5aW5nLXRvLWJ1eS1zdHVmZi15b3Utd2FudC1pcy1ub3QtbWFuaXB1bGF0aW9uP2NtcGl=
+kPUJCRDA0MjcyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIyMDQyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cBd5a174c1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> rough but useful theory</a> of what =E2=80=
+=9Cmarket manipulation=E2=80=9D is goes like this:</p><ol style=3D"list-sty=
+le-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"marg=
+in-bottom: 5px;">You buy a lot of stock.</li>=09<li style=3D"margin-bottom:=
+ 5px;">The stock goes up as you buy it.</li>=09<li style=3D"margin-bottom: =
+5px;">You send bad chat messages to your buddies saying =E2=80=9Clol I am m=
+anipulating this stock.=E2=80=9D</li></ol><p style=3D"margin: 16px 0;">Step=
+ 3 is important! This=C2=A0is not a complete legal definition or anything, =
+but the basic point is that <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/27514057.274605/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9NYXJrZXQlMjBNY=
+W5pcHVsYXRpb25zJTIwYW5kJTIwQ2FzZSUyMFN0dWRpZXMucGRm/607f07ceef4b8524a319a23=
+cB31f1a341" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">market manipulation</a> is a crime of intent. If you bu=
+y stock because you think it is undervalued, and it goes up because of your=
+ buying, then that=E2=80=99s fine, that=E2=80=99s just an inevitable fact o=
+f stock trading. If you buy stock=C2=A0<em>because you want to push up the =
+price</em>, that=E2=80=99s bad. If you send chat messages saying =E2=80=9CI=
+ am buying this stock to push up the price because I am a bad criminal,=E2=
+=80=9D it is easy to prove intent. If you don=E2=80=99t, then prosecutors h=
+ave to rely on fuzzier circumstantial evidence, and it will be relatively e=
+asy for you to say =E2=80=9Cno I bought that stock because I thought it was=
+ a good investment.=E2=80=9D</p><p style=3D"margin: 16px 0;">Here it does n=
+ot=C2=A0<em>seem=C2=A0</em>like Hwang sent the bad chat messages. I have al=
+ready quoted his text=C2=A0saying =E2=80=9C=E2=80=98No. It is a sign of me =
+buying,=E2=80=99 followed by a =E2=80=98tears of joy=E2=80=99 or laughing e=
+moji,=E2=80=9D but that one is obviously fine!=C2=A0If you asked Elon Musk,=
+ as he was accumulating Twitter, =E2=80=9Cwhy is Twitter=E2=80=99s stock go=
+ing up,=E2=80=9D I think he would have reasonably replied=C2=A0=E2=80=9Cbec=
+ause I am buying a lot of it,=E2=80=9D and he would have added an emoji. Th=
+at <em>was=C2=A0</em>why it was going up, but that was not why he was buyin=
+g it.=C2=A0=E2=80=9CThe stock is going up because I am buying it=E2=80=9D i=
+s straightforwardly true and neutral. =E2=80=9CI am buying it to make it go=
+ up=E2=80=9D is the bad one, and this message simply does not say that.</p>=
+<p style=3D"margin: 16px 0;">That said, is there circumstantial evidence th=
+at Hwang was doing weird stuff? Sure, a little. For instance, from the SEC:=
+</p><blockquote><p style=3D"margin: 16px 0;">None of this trading was based=
+ on a principled view of the true value of a particular issuer and instead =
+was intended to artificially inflate share prices.</p><p style=3D"margin: 1=
+6px 0;">Indeed, Hwang essentially sidelined his research operation, ignorin=
+g their stock price targets in favor of his own outsized stock price target=
+s, which were often orders of magnitude larger than what his research opera=
+tion had determined on its own and, unlike his research operation, based on=
+ little or no analytical support.=C2=A0</p></blockquote><p style=3D"margin:=
+ 16px 0;">Again I do not think it can be a crime for a hedge fund manager t=
+o overrule his analysts and say =E2=80=9Cno I really like this stock, let=
+=E2=80=99s buy tons of it,=E2=80=9D but it is not a<em> helpful</em> fact=
+=C2=A0here. If his analysts sent him a report saying =E2=80=9Call these sto=
+cks are gonna quadruple so let=E2=80=99s buy as much as we can,=E2=80=9D th=
+at would be helpful for him, but they did not. =E2=80=9CHWANG all but stopp=
+ed holding investment strategy meetings,=E2=80=9D says the indictment, and =
+he =E2=80=9Cfrequently spent almost all of his workday with the traders=E2=
+=80=9D rather than the investment analysts.</p><p style=3D"margin: 16px 0;"=
+>Or there is this:</p><blockquote><p style=3D"margin: 16px 0;">Archegos als=
+o engaged in substantial trading during the last 30 minutes of the trading =
+day =E2=80=93 that is, =E2=80=9Cmarking the close=E2=80=9D =E2=80=93 to aga=
+in push the stock prices of certain issuers, in which Archegos held long ex=
+posures, upward. The goal was that the upward movement in stock prices woul=
+d lead to an increase in margin on Archegos=E2=80=99s SBSs, which was based=
+ on end of day valuations, thereby providing Archegos with even more levera=
+ge to purchase more exposure to the same issuers the next day, among other =
+reasons.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Again it cannot=
+ be a crime to do most of your trading in the last 30 minutes of the day. U=
+.S. stock market trading is <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/27514057.274605/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90aGUtMzAtb=
+WludXRlcy10aGF0LWNhbi1tYWtlLW9yLWJyZWFrLXRoZS10cmFkaW5nLWRheS0xMTU4Mzg4NjEz=
+MQ/607f07ceef4b8524a319a23cB061662fb" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">increasingly concentrated</a>=
+ in the <a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.2=
+74605/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOWUxZjA1YjQtNDNlNy0xMWU4LTgwM2EtM=
+jk1Yzk3ZTZmZDBi/607f07ceef4b8524a319a23cBc722e5dd" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">last 30 minutes<=
+/a>, because (1) that=E2=80=99s when closing prices are set, which matters =
+for a lot of index-y investors who are measured on closing prices, and (2) =
+that=E2=80=99s when the market is liquid, because that=E2=80=99s when the b=
+ig funds are trading. If trading a lot at the close is a crime, then everyo=
+ne is a criminal. And yet sure, yes, if you are trying to manipulate a stoc=
+k to keep its closing price high to support your heavily leveraged position=
+s, you absolutely would trade a lot at the close. It=C2=A0<em>could=C2=A0</=
+em>be manipulation; you just would need more evidence of intent. (The indic=
+tment says that sometimes Archegos would=C2=A0<em>sell=C2=A0</em>in the mor=
+ning, to =E2=80=9C=E2=80=98make room=E2=80=99 for later trades, when they w=
+ould be most likely to create the desired impact on the securities price,=
+=E2=80=9D which does sound bad.)</p><p style=3D"margin: 16px 0;">Or:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">Another example of Archegos=E2=80=99s=
+ non-economic trading occurred in March 2021. An Archegos trader messaged a=
+mong others, Hwang, that after Discovery Class C shares opened at $61.68, A=
+rchegos should enter orders of =E2=80=9C60.00-61.00 and be aggressive below=
+ 60.00 because=C2=A0some short term people see whether the stock can keep 6=
+0.00 floor as psychological level.=E2=80=9D Hwang responded within seconds,=
+ writing =E2=80=9CI LIKE THAT PLEASE GO AHEAD WITH $50=C2=A0MIL.=E2=80=9D O=
+ver the course of the trading, Hwang periodically sought status updates on =
+trading to gain greater exposure to Discovery Class C shares, often then in=
+creasing the size of the exposure to be added and incrementally walking up =
+the limits orders, with a message late in the day writing =E2=80=9CFIRM LIM=
+IT TO 63=E2=80=9D and including instructions to =E2=80=9CLET=E2=80=99S BE A=
+GGRESSIVE.=E2=80=9D Discovery Class C shares closed at $62.99 that day.=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">I don=E2=80=99t know. That=
+ says: Discovery opened at $61.68, and Hwang=E2=80=99s trader said =E2=80=
+=9Cwe should try to buy it if it goes lower.=E2=80=9D They entered limit or=
+ders to buy it=C2=A0<em>below where it was trading</em>. That is not tradit=
+ionally how you manipulate a stock up! They bought some, the stock did go u=
+p, and they raised their limits so they could buy more. I am not saying tha=
+t that is=C2=A0<em>not=C2=A0</em>manipulation, just that it is not particul=
+arly compelling=C2=A0<em>evidence=C2=A0</em>of manipulation.</p><p style=3D=
+"margin: 16px 0;">The worst fact, for Hwang, is that he allegedly lied to h=
+is banks about his positions. This is bad for several reasons. For one thin=
+g, it is an independent sort of fraud: Whether or not you are also doing ma=
+rket manipulation, it is illegal to lie to your banks to get them to lend y=
+ou money. For another thing, it is a bad look: Lying to your banks to get m=
+oney to buy stocks is not <em>proof=C2=A0</em>that you were buying those st=
+ocks to manipulate the market =E2=80=94=C2=A0those concepts are barely rela=
+ted =E2=80=94=C2=A0but it will <em>look</em> bad to a jury. Also, lying to =
+your banks about your positions is a much more black-and-white thing than m=
+arket manipulation; if you say =E2=80=9Cwe own 1 million shares of XYZ with=
+ other banks=E2=80=9D and actually you own 20 million, prosecutors can just=
+ point to the factual discrepancy rather than inquiring into your intention=
+s.[3]</p><p style=3D"margin: 16px 0;">From the SEC complaint:</p><blockquot=
+e><p style=3D"margin: 16px 0;">As Hwang understood, the only way for Archeg=
+os=E2=80=99s manipulative trading strategy to succeed during the Relevant P=
+eriod was for it to continue adding to its already concentrated positions. =
+By the second half of 2020, it was becoming more and more difficult to add =
+to positions. Archegos=E2=80=99s growing position sizes began to bump up ag=
+ainst the Counterparties=E2=80=99 trading capacity limits =E2=80=93 limits =
+on the amount of SBSs that Counterparties would allow Archegos to hold in p=
+articular companies.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">So,=
+ allegedly, Archegos lied to its banks to get them to increase its limits. =
+From=C2=A0the indictment:</p><blockquote><p style=3D"margin: 16px 0;">In or=
+ about January 2021, at the direction of [Archegos Chief Financial Officer =
+Patrick] HALLIGAN, [Archegos Chief Risk Officer Scott] Becker claimed to re=
+presentatives of Credit Suisse, in substance, that as of November 30, 2020,=
+ the largest gross position in Archegos=E2=80=99s portfolio =E2=80=A6=C2=A0=
+totaled 35% of Archegos=E2=80=99s capital. That was false. In truth, as of =
+November 30, 2020, Archegos=E2=80=99s largest long position (VIAC) constitu=
+ted approximately 96% of Archegos=E2=80=99s capital. Indeed, as of that dat=
+e, Archegos had six positions that were greater than 35% of capital, includ=
+ing VIAC at approximately 96%, BIDU at approximately 67%, GSX at approximat=
+ely 55%, TME at approximately 48%, IQ at approximately 45%, and VIPS at app=
+roximately 43%.</p></blockquote><p style=3D"margin: 16px 0;">If you do most=
+ of your trading with borrowed money, you can have half your fund in each o=
+f six stocks, no problem.=C2=A0Also:</p><blockquote><p style=3D"margin: 16p=
+x 0;">In or about February 2021, Archegos sought to raise its existing trad=
+ing limits at UBS. In discussions about an increase, Becker told UBS, in su=
+bstance, that Archegos could liquidate its entire portfolio in approximatel=
+y two weeks, or ten trading days, selling at approximately 15% of average d=
+aily trading volume (=E2=80=9CADTV=E2=80=9D), measuring from the prior 20 d=
+ays. =E2=80=A6=C2=A0In fact, to liquidate at 15% of ATV at that time, it wo=
+uld have taken, for example, approximately 134 trading days to liquidate Ar=
+chegos=E2=80=99s position in VIPS and approximately 78 trading days to liqu=
+idate its position in VIAC. Even had Archegos sold its positions at 100% of=
+ ATV, which would have severely impacted the prices of the stocks, it would=
+ have taken approximately 20 trading days to liquidate VIPS, approximately =
+16 days to liquidate IQ, and approximately 12 days to liquidate VIAC.</p></=
+blockquote><p style=3D"margin: 16px 0;">Yeah that=E2=80=99s a lot of stock.=
+[4] The basic problem is that each bank only knew about Archegos's position=
+s <em>with that bank</em>. If you were a bank lending money to Archegos aga=
+inst some stock, and you knew it owned $1 billion of that stock through tot=
+al return swaps with you, then that might be fine; $1 billion might be a re=
+asonable position size, easy to liquidate quickly, etc. But if it also owne=
+d $10 billion more with <em>other=C2=A0</em>banks, that would not be fine: =
+If Archegos defaulted, you=E2=80=99d all be selling at once and the stock w=
+ould crater. Banks were very aware of this risk, and asked Archegos about i=
+t, and Archegos allegedly lied:</p><blockquote><p style=3D"margin: 16px 0;"=
+>Becker told UBS, in substance, that the portion of Archegos=E2=80=99s port=
+folio at UBS was not representative of its portfolio with other counterpart=
+ies, and that Archegos=E2=80=99s largest positions overall were in large, l=
+iquid technology socks, such as Amazon, Google, Microsoft, and Apple. In tr=
+uth, none of Amazon, Google, Apple, or Microsoft ranked in the top ten of A=
+rchegos=E2=80=99s positions.</p></blockquote><p style=3D"margin: 16px 0;">S=
+eems bad.</p><p style=3D"margin: 16px 0;">The thing is,=C2=A0I still have n=
+o idea what Hwang was thinking? The SEC=E2=80=99s and Justice Department=E2=
+=80=99s basic story is that he bought a lot of stock to make the stock go u=
+p so he=E2=80=99d have paper profits to plow into buying more of the stock.=
+ Fine, but, then what? He is a smart guy; if he was doing this to manipulat=
+e the price, what was his plan? What was the end game? This strategy, as la=
+id out by the SEC and DOJ, inevitably ends in ruin, and it did. How was he =
+planning to make money?</p><p style=3D"margin: 16px 0;">My fun conspiracy t=
+heory =E2=80=94=C2=A0he took out a bunch of profits just before the end and=
+ buried them in his backyard =E2=80=94=C2=A0seems ruled out. The indictment=
+ is explicit that he plowed every penny into buying more of his stocks, eve=
+n as the strategy was cracking:</p><blockquote><p style=3D"margin: 16px 0;"=
+>The Archegos Conspirators=E2=80=99 manipulative and fraudulent schemes lef=
+t Archegos=E2=80=99s portfolio highly vulnerable to price fluctuations in a=
+ handful of stocks. In late March 2021, that risk materialized: a decline i=
+n the prices of certain stocks in Archegos=E2=80=99s portfolio prompted mar=
+gin calls; that is, Counterparties required Archegos to provide more cash t=
+o support its trading. Because selling Archegos=E2=80=99s positions to rais=
+e cash could further deflate the artificial prices of those securities, lea=
+ding to a downward spiral, BILL HWANG, the defendant, instead directed Arch=
+egos=E2=80=99s traders to engage in a desperate buying spree in an attempt =
+to reverse the price decliens of stocks underlying Archegos=E2=80=99s core =
+positions. Acting at HWANG=E2=80=99s direction, the traders used Archegos=
+=E2=80=99s remaining cash and credit, including funds borrowed based on lie=
+s and misrepresentations to the Counterparties, to pay for billions of doll=
+ars in trades over just a few days.</p></blockquote><p style=3D"margin: 16p=
+x 0;">If I was running a manipulative strategy to artificially inflate the =
+prices of some stocks, and that strategy stopped working and I faced margin=
+ calls and a downward spiral in the stocks=E2=80=99 prices, and=C2=A0<em>al=
+so I had billions of dollars in cash</em>, I would not plow all of that cas=
+h into a desperate buying spree to prop up=C2=A0my artificially inflated st=
+ocks! I would, and I cannot emphasize this enough, bury it in my backyard! =
+First I=E2=80=99d fly to a non-extradition country and buy a backyard there=
+! With my billions of dollars! This makes no sense!</p><p style=3D"margin: =
+16px 0;">That doesn=E2=80=99t mean that it=E2=80=99s wrong, but it is very =
+unsatisfying. The theory here is that Bill Hwang tried to manipulate these =
+stocks up as high as they could go, basically to achieve a high score, know=
+ing that the inevitable end was losing all his money and going to prison. H=
+e would not be the <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/27514057.274605/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQmVybmllX01hZG9mZg=
+/607f07ceef4b8524a319a23cB6b16c792" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">first person</a> in finance to=
+=C2=A0do something like that, but it is a weird theory and I don't like it.=
+ I don=E2=80=99t have a great alternative for you. =E2=80=9CHe really liked=
+ these stocks and wanted to own a lot of them=E2=80=9D is not really satisf=
+ying either. But I don=E2=80=99t think it=E2=80=99s ruled out yet.</p><p st=
+yle=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media"><e=
+m>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, righ=
+t in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness=
+.com/click/27514057.274605/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5j=
+b20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI=
+5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB1843e06d" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">subscribe at this link</a>. Or you can subscribe to Money Stuf=
+f and other great Bloomberg newsletters <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/27514057.274605/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL=
+25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBe08d8e59" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span></p><=
+table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D"=
+0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzUxNDA1NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc3ODg2NjImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDe455e5be" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27514057&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27788662&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzUxNDA1NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc3ODg2NjImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEe455e5be" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27514057&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27788662&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzUxNDA1NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc3ODg2NjImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFf43985da" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27514057&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27788662&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzUxNDA1NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc3ODg2NjImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGf43985da" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27514057&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27788662&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The Twitter merger agreement</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Yesterday, at a little after 5 p.m. Ne=
+w York time, Twitter Inc. filed a <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/27514057.274605/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2h=
+pdmVzL2VkZ2FyL2RhdGEvMTQxODA5MS8wMDAxMTkzMTI1MjIxMjA0NjEvZDMxMDg0M2Q4ay5odG=
+0/607f07ceef4b8524a319a23cBd7cfded7" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">Form 8-K</a> with the Securiti=
+es and Exchange Commission describing and attaching its <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuc2VjL=
+mdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyMTIwNDYxL2QzMTA4=
+NDNkZXgyMS5odG0/607f07ceef4b8524a319a23cB5db1d908" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">merger agreement=
+</a> with Elon Musk. Due to the demands of being a daily columnist on the i=
+nternet,[5] I felt an obligation to summarize the main terms of the merger =
+agreement yesterday morning. This was an exciting challenge=C2=A0because th=
+e agreement was not yet public and I had not yet read it. But, you know, th=
+ere are only so many things a merger ageement can say. I think I did pretty=
+ well, given those constraints? You can read <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMjYvZWxvbi1nb3QtaGlzLWRlYWw_Y21waWQ9QkJ=
+EMDQyNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjIwNDI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cB84bad042" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> my summary of Twitter=E2=80=99s merger agreement</a=
+> from yesterday and it basically holds up.=C2=A0</p><p style=3D"margin: 16=
+px 0;">A quick recap, now informed by the actual <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuc2VjLmdvdi9B=
+cmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyMTIwNDYxL2QzMTA4NDNkZXg=
+yMS5odG0/607f07ceef4b8524a319a23cC5db1d908" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">merger agreement</a>. T=
+he point of a merger agreement is (1) to agree to do a merger, (2) to agree=
+ on what the two parties need to do to get the merger closed, (3) to agree =
+on the circumstances in which the merger might=C2=A0<em>not=C2=A0</em>close=
+ and (4) to agree on what happens in those cases.</p><p style=3D"margin: 16=
+px 0;">The actual merger part is=C2=A0straightforward: Musk will pay $54.20=
+ per share to each Twitter shareholder other than himself (he owns about 9.=
+1% of the stock), and in exchange he will own 100% of Twitter and get to do=
+ whatever he wants with it. (This is Section 3.1 of the merger agreement.) =
+Vested in-the-money Twitter employee stock options, etc., will also be paid=
+ out in cash (Section 3.6).</p><p style=3D"margin: 16px 0;">The doing-stuff=
+-to-get-to-closing part (Article VI) is mostly pretty standard: Musk and Tw=
+itter will work together to get antitrust and other regulatory approvals, p=
+repare a proxy statement to get a Twitter shareholder vote, and line up the=
+ $13 billion of debt financing that a Musk-owned Twitter will borrow. In th=
+e interim =E2=80=94=C2=A0which could be perhaps six months =E2=80=94=C2=A0T=
+witter will run its business normally, reporting to its existing managers a=
+nd directors, not to Musk. It is required to =E2=80=9Cuse its commercially =
+reasonable efforts to conduct the business of the Company and its Subsidiar=
+ies in the ordinary course of business.=E2=80=9D (Section 6.1.) There are v=
+arious specific restrictions about, e.g., not going crazy with employee pay=
+, not selling assets, not entering into big new contracts, etc. Basically T=
+witter is in a sort of stasis: It can=E2=80=99t run its business however it=
+ wants, but Musk can=E2=80=99t run its business however he wants either; it=
+ just keeps doing what it was doing until he takes over.</p><p style=3D"mar=
+gin: 16px 0;">There are a=C2=A0few oddities. In public-company mergers, the=
+re is generally a section about how the parties will coordinate on public a=
+nnouncements about the deal. This agreement has that section (Section 6.8).=
+ It begins normally:=C2=A0</p><blockquote><p style=3D"margin: 16px 0;">Exce=
+pt as otherwise contemplated by Section 6.5, so long as this Agreement is i=
+n effect, the Company [<em>Twitter</em>], Parent and Acquisition Sub [<em>t=
+he=C2=A0shell companies that Elon Musk is using to buy Twitter</em>] shall =
+consult with each other before issuing any press release or otherwise makin=
+g any public statements with respect to this Agreement or the transactions =
+contemplated by this Agreement, and none of the parties hereto or their Aff=
+iliates shall issue any such press release or make any public statement pri=
+or to obtaining the other parties=E2=80=99 consent (which consent shall not=
+ be unreasonably withheld or delayed), except that no such consent shall be=
+ necessary to the extent disclosure may be required by Law,=C2=A0</p></bloc=
+kquote><p style=3D"margin: 16px 0;">etc.;=C2=A0it goes on for a bit. But th=
+en there is the Elon Musk Proviso:</p><blockquote><p style=3D"margin: 16px =
+0;">Notwithstanding the foregoing, the Equity Investor [<em>Musk</em>] shal=
+l be permitted to issue Tweets about the Merger or the transactions contemp=
+lated hereby so long as such Tweets do not disparage the Company or any of =
+its Representatives.</p></blockquote><p style=3D"margin: 16px 0;">What if t=
+he tweets are false! What if they lead to a Securities and Exchange Commiss=
+ion lawsuit! What if they tank the stock or scare away employees! Usually t=
+he way it works is that if the buyer wants to issue an inflammatory press r=
+elease, it goes to the seller for permission, and the seller says =E2=80=9C=
+what, no,=E2=80=9D and the buyer realizes that it didn=E2=80=99t actually w=
+ant to issue an inflammatory press release, and, you know, that=E2=80=99s w=
+hy they have this section. But here they also have Elon Musk, and when he w=
+ants to Tweet he Tweets.[6] Of course he spent last night <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/27514057.274605/aHR0cHM6Ly90d2l0dGV=
+yLmNvbS9lbG9ubXVzay9zdGF0dXMvMTUxOTA3MzAwMzkzMzUxNTc3Nj9zPTIwJnQ9QzhBLVVPTk=
+N3cDh2bEROU29mVFYydw/607f07ceef4b8524a319a23cBe36dd88d" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">tweeting</a=
+> <a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/=
+aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTUxOTE1MTgyMzgzMTA2MDQ4MT9=
+zPTIwJnQ9QzhBLVVPTkN3cDh2bEROU29mVFYydw/607f07ceef4b8524a319a23cBf8cfddea" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">disparaging</a> <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/27514057.274605/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTUxO=
+TE3OTc4NzE2MzY1MjA5OT9zPTIwJnQ9QzhBLVVPTkN3cDh2bEROU29mVFYydw/607f07ceef4b8=
+524a319a23cB5159c79a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">things</a> about Twitter and <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMjcvbXVzay1zLXR3ZWV0LW9uLXR3a=
+XR0ZXItbGVnYWwtZXhlY3V0aXZlLXByZXNhZ2VzLXdhdmUtb2YtYWJ1c2U_Y21waWQ9QkJEMDQy=
+NzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXR=
+tX3Rlcm09MjIwNDI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB=
+93b9fc04" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> its employees</a>. What are they gonna do, sue?</p><p st=
+yle=3D"margin: 16px 0;">(Incidentally there is no similar provision allowin=
+g=C2=A0<em>Twitter=C2=A0</em>to tweet freely about the deal; I suppose that=
+ was considered unnecessary because no one on Twitter=E2=80=99s board or ex=
+ecutive team uses the product. Except founder and board member Jack Dorsey,=
+ who has tweeted some=C2=A0nice things about Musk and the deal. A lawyer th=
+en dutifully <a href=3D"https://link.mail.bloombergbusiness.com/click/27514=
+057.274605/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEv=
+MDAwMTE5MzEyNTIyMTIwNDc3L2QzNTQ2MzhkZGVmYTE0YS5odG0/607f07ceef4b8524a319a23=
+cBa7be9af4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">filed those tweets with the SEC</a>.)</p><p style=3D"ma=
+rgin: 16px 0;">Much of the negotiation in a merger agreement is over what m=
+ight go wrong: How could the deal fall through, and what would happen if it=
+ does? We talked about the main issues yesterday, and let=E2=80=99s go thro=
+ugh them again.</p><ol style=3D"list-style-type: decimal; padding-left: 40p=
+x; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;"><em>Can Musk just =
+change his mind?</em> The short answer is no. If Musk changes his mind with=
+out a good reason, Twitter can force him to close the deal, as long as his =
+debt financing is available. That is, if all of the conditions to closing a=
+re satisfied, and if Musk=E2=80=99s banks are willing to fund the $13 billi=
+on of Twitter debt and $12.5 billion of Tesla margin loans that they=E2=80=
+=99ve promised, then Twitter can force Musk to put up the $21 billion of ca=
+sh that=C2=A0<em>he=C2=A0</em>has promised and close the deal. (Section 9.9=
+(b).) Short of that, though =E2=80=94=C2=A0short of actually forcing Musk t=
+o close the deal, which is tricky=C2=A0=E2=80=94=C2=A0Musk=E2=80=99s liabil=
+ity is limited to a reverse termination fee of $1 billion.[7]=C2=A0This is=
+=C2=A0exactly what I laid out yesterday, except that I assumed the reverse =
+termination fee would be $1,420,690,000, because Elon Musk loves meme numbe=
+rs and Twitter seems willing to play along. The $1 billion breakup fee, whi=
+le pretty standard for a deal of this size, is bizarre for an Elon Musk dea=
+l. Not a 420 in sight! (420 is a weed joke.)</li>=09<li style=3D"margin-bot=
+tom: 5px;"><em>What if Twitter=E2=80=99s business breaks?=C2=A0</em>Musk do=
+es not have to close the deal if there has been a =E2=80=9Cmaterial adverse=
+ effect=E2=80=9D at Twitter. (Sections 4.9 and 7.2(b).) =E2=80=9CMaterial a=
+dverse effect=E2=80=9D is defined on page 5 of the agreement and it is long=
+. Actually the definition doesn=E2=80=99t say much; it just says, tautologi=
+cally, that a =E2=80=9CMaterial Adverse Effect=E2=80=9D is=C2=A0=E2=80=9Can=
+y change, event, effect or circumstance which, individually or in the aggre=
+gate, has resulted in or would reasonably be expected to result in a materi=
+al adverse effect on the business, financial condition or results of operat=
+ions=E2=80=9D of Twitter. All the action is in the=C2=A0<em>exceptions=C2=
+=A0</em>to the MAE. As I suggested yesterday, there are lots of them, and i=
+t is somewhat difficult to think of an event that would cause a material ad=
+verse effect on Twitter=E2=80=99s business but=C2=A0<em>not </em>be covered=
+ by an exception to the MAE. If Twitter does badly due to all=C2=A0sorts of=
+ general conditions (changes in law, general economic and financial conditi=
+ons, pandemics, etc.), that does not count as an MAE. If Twitter fails =E2=
+=80=9Cto meet internal, analysts=E2=80=99 or other earnings estimates or fi=
+nancial projections or forecasts for any period,=E2=80=9D that doesn=E2=80=
+=99t count as an MAE; just <em>having bad earnings=C2=A0</em>isn=E2=80=99t =
+enough. And, as usual, bad effects that result from =E2=80=9Cthe negotiatio=
+n, execution, announcement, performance, consummation or existence of this =
+Agreement or the transactions contemplated by this Agreement=E2=80=9D do no=
+t count as an MAE, though here they felt it necessary to spell out =E2=80=
+=9Cincluding (A) by reason of the identity of Elon Musk, Parent or any of t=
+heir Affiliates or their respective financing sources, or any communication=
+ by Parent or any of its Affiliates or their respective financing sources, =
+including regarding their plans or intentions with respect to the conduct o=
+f the business of the Company.=E2=80=9D If Elon Musk breaks Twitter by twee=
+ting his plans for it, he still has to buy it.</li>=09<li style=3D"margin-b=
+ottom: 5px;"><em>What if Musk=E2=80=99s financing falls apart?=C2=A0</em>Mu=
+sk has to do his best to get his debt financing at closing, and Twitter has=
+ to cooperate with his banks in marketing the debt on Twitter. But if he ca=
+n=E2=80=99t get the money=C2=A0=E2=80=94=C2=A0if his banks won=E2=80=99t fu=
+nd =E2=80=94=C2=A0then he can=C2=A0pay the $1 billion reverse termination f=
+ee and walk away. (Sections 6.10, 6.11, 8.3 and 9.9(b).) As I said yesterda=
+y, the $13 billion of debt financing that Musk plans to raise against Twitt=
+er seems reasonably likely to close. But the $12.5 billion that he plans to=
+ raise against his shares of Tesla Inc.=C2=A0depends on Tesla=E2=80=99s sto=
+ck price, and if it goes down too much =E2=80=94=C2=A0<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMjYvbXVzay1sb3Nlcy0zMi1iaWxsaW9uLW=
+luLXRlc2xhLXdlYWx0aC11bmRlcnNjb3JpbmctbWFyZ2luLXJpc2s_Y21waWQ9QkJEMDQyNzIyX=
+01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rl=
+cm09MjIwNDI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe1414=
+077" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  below about $740</a> =E2=80=94=C2=A0then he might have troub=
+le getting that financing.</li>=09<li style=3D"margin-bottom: 5px;"><em>Wha=
+t if someone else wants to buy Twitter? </em>Twitter is not allowed to go o=
+ut looking for a better offer, but if it gets an unsolicited better offer i=
+t can talk to that bidder. If it concludes that the offer really is better =
+it has to give Musk four days to match; if he doesn=E2=80=99t match, Twitte=
+r can take the other offer. If it does, it has to pay Musk a $1 billion ter=
+mination fee. (Sections 6.5, 8.1(b) and 8.3(a).)=C2=A0</li>=09<li style=3D"=
+margin-bottom: 5px;"><em>What if Twitter=E2=80=99s shareholders vote no on =
+the deal?=C2=A0</em>Then the deal terminates and nobody pays anybody any fe=
+es, unless they vote down Musk=E2=80=99s deal to take a competing offer, in=
+ which case Twitter owes Musk the $1 billion termination fee. (Sections=C2=
+=A08.1(b)(iii) and 8.3(a)(i).) Musk=C2=A0has agreed to hold on to his 9.1% =
+of the stock and vote in favor of the merger (Section 6.2(d)); there is no =
+requirement that a majority of the non-Musk shareholders approve the deal.<=
+/li>=09<li style=3D"margin-bottom: 5px;"><em>What if Twitter=E2=80=99s boar=
+d changes its mind?</em> As I pointed out yesterday,=C2=A0during negotiatio=
+ns <a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605=
+/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTEwND=
+Y1OTIyMDQ5ODQ0L3RtMjIxMzE4OWQ4X2V4OTktZy5odG0/607f07ceef4b8524a319a23cB11ad=
+e739" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Musk offered</a> to let Twitter=E2=80=99s board sign a deal=
+=C2=A0<em>without=C2=A0</em>recommending it to shareholders. But the final =
+deal is pretty buttoned up, and allows the board to change its mind only fo=
+r genuinely new developments.[8] If the board does change its mind about th=
+e merits of the deal, it can recommend that shareholders vote against it, b=
+ut it still has to put it to a shareholder vote (and if the shareholders vo=
+te yes the deal will close), unless it can find some other way out. (The re=
+alistic other ways out are (1) accepting a higher offer from someone else a=
+nd (2) arguing that Musk breached the merger agreement by, I don=E2=80=99t =
+know, tweeting disparaging things?)</li>=09<li style=3D"margin-bottom: 5px;=
+"><em>What if regulators block the deal?=C2=A0</em>They won=E2=80=99t, is t=
+he basic answer, but if they do then the deal ends and no one pays anyone a=
+ny fees. Section 6.3 contains the agreements for Twitter and Musk to work t=
+ogether to get regulatory approvals.</li></ol><p style=3D"margin: 16px 0;">=
+I also predicted=C2=A0yesterday that the merger agreement would=C2=A0<em>no=
+t </em>contain any provisions constraining how Musk will operate Twitter wh=
+en he owns it: The agreement would contain=C2=A0no promises to run Twitter =
+in the public interest, to preserve free speech, to protect the privacy of =
+user data, or anything else. It does not. It is a standard merger agreement=
+, focused on price and certainty; nobody who negotiated this agreement, exc=
+ept Musk, cares about the product.</p><table class=3D"liveintent-flex-ad" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNzUxNDA1NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc3ODg2NjImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH75a70309" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D27514057&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27788662&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Four European Gas Buyers Made <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMjcvZm91ci1ldXJvcGVh=
+bi1nYXMtYnV5ZXJzLW1hZGUtcnVibGUtcGF5bWVudHMtdG8tcnVzc2lhP2NtcGlkPUJCRDA0Mjc=
+yMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV=
+90ZXJtPTIyMDQyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8=
+3337ca2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Ruble Payments</a> to Russia. European gas prices soar af=
+ter <a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.27460=
+5/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYTJlZWExYTEtZjcyYS00M2M0LWFhOTMtNGU1N=
+Dc3YjVlYWQ0/607f07ceef4b8524a319a23cB4d8e95a5" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">Gazprom halts suppli=
+es</a> to Poland and Bulgaria. Robinhood <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjItMDQtMjYvcm9iaW5ob29kLWRpc21pc3Nlcy05LW9mLWZ1bGwtdGl=
+tZS1zdGFmZi1hcy1oeXBlci1ncm93dGgtZWJicz9jbXBpZD1CQkQwNDI3MjJfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0Mjcmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe98b07fe" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Cutting 9% of Full-Time Staff</a> as =E2=80=98Hyper Growth=E2=80=99 Ebbs.=
+=C2=A0JPMorgan Sued After <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/27514057.274605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGV=
+zLzIwMjItMDQtMjYvanBtb3JnYW4tc3VlZC1hZnRlci1taWxsaW9ucy1zdG9sZW4tZnJvbS1yYX=
+ktYmFuLW1ha2VyLXMtYWNjb3VudD9jbXBpZD1CQkQwNDI3MjJfTU9ORVlTVFVGRiZ1dG1fbWVka=
+XVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MjcmdXRtX2NhbXBh=
+aWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB3ec65c3d" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> Millions St=
+olen</a> From Ray-Ban Maker Funds. <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/27514057.274605/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jcn=
+lwdG9jdXJyZW5jeS1maXJtcy1wdXNoLWJhY2stYWdhaW5zdC1wcm9wb3NhbC10by1wb2xpY2Utd=
+HJlYXN1cnktbWFya2V0cy0xMTY1MTA2NDU4MT9tb2Q9aHBfbGVhZF9wb3M1/607f07ceef4b852=
+4a319a23cBeb29f0b3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Cryptocurrency Firms</a> Push Back Against Pr=
+oposal to Police Treasury Markets. EU <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL2FydGljbGVzLzIwMjItMDQtMjcvZXUtYXR0YWNrcy1sYXdzdWl0cy11c2VkLWJ5LXJpY2gtYW=
+5kLXBvd2VyZnVsLXRvLXNpbGVuY2UtY3JpdGljcz9jbXBpZD1CQkQwNDI3MjJfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0Mjcm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB87bb7058" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Attacks Lawsuits</a> Used by Rich and Powerful to Silence Critics.=C2=A0Pa=
+yment Startup <a href=3D"https://link.mail.bloombergbusiness.com/click/2751=
+4057.274605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQ=
+tMjYvZm9yZXZlci0yMS1wYXJlbnQtYXV0aGVudGljLWJyYW5kcy1zdWVzLWJvbHQtc3RhcnR1cD=
+9jbXBpZD1CQkQwNDI3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMjA0MjcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cB7c2b1fe3" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> Bolt</a> Sued by Its Most Prominent Cus=
+tomer. I did a <a href=3D"https://link.mail.bloombergbusiness.com/click/275=
+14057.274605/aHR0cHM6Ly93d3cubmV3eW9ya2VyLmNvbS9uZXdzL3EtYW5kLWEvd2h5LWVsb2=
+4tbXVzay1ib3VnaHQtdHdpdHRlcg/607f07ceef4b8524a319a23cBf529a6eb" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">Q&a=
+mp;A with Isaac Chotiner</a> about Elon Musk and Twitter.</p><p style=3D"ma=
+rgin: 16px 0;"><em>[1] Obviously you have to get the timing and sizing righ=
+t, and this is very tricky. But if you have a lot of skill and luck=C2=A0yo=
+u can snowball a relatively small amount of money into a giant pile of leve=
+raged stock bets, take out a fairly giant chunk of profits near the end, an=
+d end up with gold bars worth a lot more than the money you started with.</=
+em></p><p style=3D"margin: 16px 0;"><em>[2] He bought 21.3% of volume on Fe=
+b. 7, 18.6% on March 11, 15.8% on March 12, 19.3% on March 23, and more tha=
+n 15% on each of the five trading days from March 25 through April 1. (Sour=
+ces: Bloomberg volume and his <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27514057.274605/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9=
+kYXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIyMDQyODYzL3RtMjIxMTc1N2QxX3NjMTNkLmh0bQ/607=
+f07ceef4b8524a319a23cBc9f6a897" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">Schedule 13D</a>.)</em></p><p style=
+=3D"margin: 16px 0;"><em>[3] There is a broader context to the allegation t=
+hat Hwang lied to his banks. The SEC, under Gary Gensler, <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMjQvdGhlLXNlYy13YW50cy10by=
+1zdG9wLWFjdGl2aXNtP2NtcGlkPUJCRDA0MjcyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1ha=
+WwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDQyNyZ1dG1fY2FtcGFpZ249bW9u=
+ZXlzdHVmZg/607f07ceef4b8524a319a23cB7d1cf416" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> is very focused</a> =
+on requiring <a href=3D"https://link.mail.bloombergbusiness.com/click/27514=
+057.274605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEt=
+MTItMTYvdGhlLXNlYy1oYXMtYmlnLXBsYW5zP2NtcGlkPUJCRDA0MjcyMl9NT05FWVNUVUZGJnV=
+0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDQyNyZ1dG=
+1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBfc22499f" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">pub=
+lic disclosure of swaps positions</a>, and it points to Archegos as an exam=
+ple of why that disclosure is necessary. If Archegos had to disclose its po=
+sitions publicly, the thinking goes, then its banks would not have loaned i=
+t so much money, it would not have gotten so big, and the prices of its fav=
+orite stocks would not have gone up so much or crashed so hard. There are, =
+I think, flaws in this reasoning. For one thing, Credit Suisse did a <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMjkvYXJjaGVnb3M=
+td2FzLXRvby1idXN5LWZvci1tYXJnaW4tY2FsbHM_Y21waWQ9QkJEMDQyNzIyX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDI3J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cCe91ce2d4" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ meticulous postmortem</a> of its Archegos losses, which found that Credit =
+Suisse knew perfectly well that Archegos had huge concentrated positions, a=
+nd <a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605=
+/aHR0cHM6Ly90d2l0dGVyLmNvbS90cmFjeWFsbG93YXkvc3RhdHVzLzE1MTkzMTExMDcwNjc4OT=
+U4MDk/607f07ceef4b8524a319a23cB5bee5c66" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">*wanted* to demand more =
+margin</a>, but just never quite got around to it for social and business-r=
+etention reasons. Adding disclosure might not have changed that dynamic. Fo=
+r another thing, the allegation here is not that Archegos=E2=80=99s positio=
+ns were fundamentally unknowable to its counterparties. The allegation is t=
+hat the banks asked Archegos directly about its positions elsewhere, and ex=
+pected Archegos to answer truthfully, and Archegos lied to them, and that w=
+as a federal crime. But that suggests that no new disclosure rules are actu=
+ally necessary: Banks are able to ask counterparties about their exposures,=
+ and they do, and if the counterparties don=E2=80=99t answer truthfully the=
+n they can go to prison. If you write a new rule saying =E2=80=9Cyou have t=
+o disclose your swaps publicly,=E2=80=9D people might still ignore that rul=
+e. (Elon Musk <a href=3D"https://link.mail.bloombergbusiness.com/click/2751=
+4057.274605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjI=
+tMDQtMDYvZWxvbi1tdXNrLWlzLWFjdGl2ZS1ub3c_Y21waWQ9QkJEMDQyNzIyX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDI3J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2cd090e2" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ ignored the SEC=E2=80=99s existing rules</a> about disclosing his stock po=
+sitions!) The point of a rule is that if they ignore it they can get in tro=
+uble. But Hwang is in trouble now!</em></p><p style=3D"margin: 16px 0;"><em=
+>[4] I should say that <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/27514057.274605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjEtMDctMjkvYXJjaGVnb3Mtd2FzLXRvby1idXN5LWZvci1tYXJnaW4tY2FsbHM_Y21wa=
+WQ9QkJEMDQyNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3Ns=
+ZXR0ZXImdXRtX3Rlcm09MjIwNDI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b85=
+24a319a23cDe91ce2d4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> the Credit Suisse Archegos report</a> sugges=
+ts that Archegos was more honest with Credit Suisse than the indictment imp=
+lies. =E2=80=9CIn December 2020, Archegos reported to CRM that its top five=
+ long positions represented 175% of its NAV; moreover, Archegos held two po=
+sitions that represented between 5 and 10 days=E2=80=99 DTV, six positions =
+that represented between 2.5 and 4.99 days=E2=80=99 DTV, and another nine p=
+ositions that represented between 1 and 2.49 days=E2=80=99 DTV in those res=
+pective stocks.=E2=80=9D Those numbers don=E2=80=99t exactly tie to the ind=
+ictment=E2=80=99s =E2=80=9Ccorrect=E2=80=9D numbers (which are for differen=
+t dates, etc.), but they are in the right neighborhood. =E2=80=9CWe have tw=
+o positions that are 10 days=E2=80=99 volume=E2=80=9D is very different fro=
+m =E2=80=9Cwe could sell all our positions in 10 days at 15% of volume.=E2=
+=80=9D =E2=80=9COur top five=C2=A0positions are 175% of NAV=E2=80=9D is act=
+ually compatible with =E2=80=9Cour biggest position is 35% of NAV=E2=80=9D =
+=E2=80=94=C2=A0if you have five positions tied for 35% =E2=80=94=C2=A0but *=
+feels* different. Broadly speaking Credit Suisse=E2=80=99s risk officers se=
+em to have had an accurate sense of what was up at Archegos. They didn=E2=
+=80=99t like it! But they knew about it.</em></p><p style=3D"margin: 16px 0=
+;"><em>[5] And, to be honest, to the fact that I expected them to file the =
+8-K yesterday morning. It=E2=80=99s certainly well within the rules to file=
+ yesterday afternoon, or even later =E2=80=94=C2=A0they get four days =E2=
+=80=94=C2=A0but it is customary to be quick on these things. But the deal m=
+oved fast and they have a lot going on.</em></p><p style=3D"margin: 16px 0;=
+"><em>[6] Incidentally, when I saw that the word =E2=80=9CTweet=E2=80=9D wa=
+s capitalized in the agreement I thought, =E2=80=9Cahaha, it=E2=80=99s a de=
+fined term, somewhere in its merger agreement Twitter has felt it necessary=
+ to define the word =E2=80=98Tweet.=E2=80=99=E2=80=9D But, no, it=E2=80=99s=
+ not defined. I guess Twitter=E2=80=99s lawyers=E2=80=99 style is just to c=
+apitalize =E2=80=9CTweet=E2=80=9D? Weird.</em></p><p style=3D"margin: 16px =
+0;"><em>[7] This is confusing, and the <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/27514057.274605/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYT=
+gyZTBkMjYtNzdlZC00OGZjLTk1MjEtZGQyY2E0NGFjODAz/607f07ceef4b8524a319a23cBd36=
+17077" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">Financial Times has reported</a> that =E2=80=9CElon Musk can=
+ walk away from Twitter deal by paying $1bn break fee=E2=80=9D and that =E2=
+=80=9CNo matter what Musk does, he knows his liability is capped at $1bn.=
+=E2=80=9D This is not really right as a contractual matter: If all goes smo=
+othly, he gets his financing, and he just decides to walk, a court can orde=
+r him to put up $21 billion and actually buy the company. (Here is a <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aHR0cHM6=
+Ly9qZW5uZXIuY29tL3N5c3RlbS9hc3NldHMvcHVibGljYXRpb25zLzE1NDI0L29yaWdpbmFsL0F=
+zY2hlciUyMExpY2h0bWFuJTIwTGF3MzYwJTIwSnVseSUyMDIwMTYucGRmPzE0Njk1NDIyMzc/60=
+7f07ceef4b8524a319a23cB254ed555" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">law firm memo</a> on specific perf=
+ormance as an M&amp;A remedy.) But it is true that if he does *not* buy the=
+ company =E2=80=94=C2=A0if he decides to walk away and Twitter sues him for=
+ damages rather than trying to force him to close the deal =E2=80=94=C2=A0h=
+is liability is capped at $1 billion. In practice, when buyers abandon merg=
+ers, they never just say =E2=80=9Coops changed my mind=E2=80=9D; they argue=
+ that there has been a material adverse effect or the company has failed to=
+ fulfill its obligations or the financing is unavailable or whatever. (And =
+if Musk does not want to close, his financing sources might not be too enth=
+usiastic about funding.) In those circumstances, it can be hard and time-co=
+nsuming and disruptive and uncertain for the target to sue to *force the ac=
+quirer to close*, and Twitter might prefer to just take the $1 billion and =
+move on with life as an independent company. But Musk=E2=80=99s liability i=
+s not actually capped at $1 billion, and he does not exactly=C2=A0have an o=
+ption to walk away for $1 billion.</em></p><p style=3D"margin: 16px 0;"><em=
+>[8]=C2=A0Section 6.5(d): =E2=80=9CNotwithstanding anything in this Agreeme=
+nt to the contrary, at any time prior to receipt of the Company Stockholder=
+ Approval, the Company Board may (i) make an Adverse Board Recommendation C=
+hange in response to an event, occurrence, change, effect, condition, devel=
+opment or state of facts or circumstances =E2=80=A6 that was neither known =
+to, nor reasonably foreseeable by, the Company Board as of the date of this=
+ Agreement (or, if known, the consequences of which were not known or reaso=
+nably foreseeable to the Company Board as of the date of this Agreement) (a=
+n =E2=80=9CIntervening Event=E2=80=9D) (where, for the avoidance of doubt, =
+(x) the fact, in itself, that the Company meets or exceeds projections, for=
+ecasts or estimates (it being understood that the underlying causes of (or =
+contributors to) such performance that are not otherwise excluded from the =
+definition of Intervening Event may be taken into account) and (y) changes,=
+ in themselves, in the price of the Company Common Stock or the trading vol=
+ume thereof shall be considered known and reasonably foreseeable occurrence=
+s (it being understood that the underlying causes of (or contributors to) s=
+uch changes in price or trading volume that are not otherwise excluded from=
+ the definition of Intervening Event may be taken into account)) if the Com=
+pany Board has determined in good faith (after consultation with its legal =
+counsel and financial advisors) that the failure to take such action would =
+reasonably be expected to be inconsistent with the Company=E2=80=99s direct=
+ors=E2=80=99 fiduciary duties under applicable Law,=E2=80=9D or to accept a=
+ better offer.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBaf82d1aa" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB592058a5" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB013ec8fa" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB036e897b" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNzUxNDA1NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc3ODg2NjImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI7bb094d7" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D27514057&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27788662&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB72cd03d8" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27514057.274605/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC69456440" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27514057.274605/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB63b34a51" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27514057.274605/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBab054b0a" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBa=
+8adf279" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27514057.274605/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBc=
+0f9298d" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D275140=
+57&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27788662&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D275140=
+57&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27788662&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D275140=
+57&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27788662&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D275140=
+57&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27788662&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D275140=
+57&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27788662&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgdpzd.5vvx/e0c1c718.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_2531646_1321147889.1651086232803--
+

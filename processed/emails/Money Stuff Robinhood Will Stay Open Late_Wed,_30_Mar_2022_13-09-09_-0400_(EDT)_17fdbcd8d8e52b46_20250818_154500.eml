@@ -1,0 +1,1906 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:63c7:0:b0:1a5:fa8c:80ab with SMTP id n7csp1513664lkk;
+        Wed, 30 Mar 2022 10:09:16 -0700 (PDT)
+X-Received: by 2002:a5d:6542:0:b0:203:da90:969f with SMTP id z2-20020a5d6542000000b00203da90969fmr496888wrv.479.1648660155886;
+        Wed, 30 Mar 2022 10:09:15 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1648660155; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=g1zlBY2ZpxvxW6mvZW0qLBbWwANQZxLVP0fVYEUvrsx+DgbYxaUoZorgcVu1byMy6q
+         MVV82pT2LWUuNQVhgfBmuI2krjqQy5iBGb+2Tvy2p5y6KEggYhB/zcqpufUsqGrk6Clj
+         Lgr48EAZltZW0a6Y7+uzoltQd1jspSNkVzRXVHQyPIr+FiqBtdg+HFtNPJYkKXGB6EYS
+         8Q63qol5Ei2u+ucPFsw0N3GrKKvNz/VK0aWWY6aLBe+6jXLURWB+d2vFtX2jkqt8WYXg
+         vTCw/Lkn5VMPzoUwLYm4Lkka12NbUPGGdrA1e32korzW6O0JtDtqJr8FYcQx7CwVLTEW
+         oWOg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=S7x9XYJxOMiQ5O/ElwxsaW57zsivYmYAHgl5nZkIYIY=;
+        b=n11HvEfNrJSJnzjPMGHZqWDyHwsVtdMry5V8xNsysB3i6mnYzPVGctNZ1B1+v/NXxn
+         9oacmtgCAmdQn3ZQT/1IY/6H//h8J0J0/yR/D8rv/2UT/CfhYZYlv1WLnB0C2rC/Ir+M
+         04ao8MG+l8fAnWSXrKEqr3VHBPF7tWT3XLHEv8oX0k59vf0kPI80y97qjmfcJWeCYGCZ
+         cTaG/5DK+Rs4aV1qA0YrIYe5jP+Of9lM7RMrKTBhPWGhY7QsXkF01cMGFMsLj2UeM5h1
+         if9nfgsEa+BgSuesCp3c4d0SO61FIbEF8Mu79EV0eUyuMkxwWUC5j6EssIiEZZRAX1Jx
+         6UXw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UETsyxvo;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id q16-20020adfab10000000b001ede4df6f39sor9010740wrc.77.2022.03.30.10.09.15
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 30 Mar 2022 10:09:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UETsyxvo;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=S7x9XYJxOMiQ5O/ElwxsaW57zsivYmYAHgl5nZkIYIY=;
+        b=OhDD6RxkatkcnRAdgsI/uFCCorjDb/UUw1BCzCQM8LHbCbnDvZChklzjPEFnq4OdDW
+         YeXXLmwc1dg7Klfi4ntj/NNSiBN8rw5m/DBkYATaKLIMSD2mL19oxfWxLhTmPS+23qBP
+         gk8QKf2bOMEtdKE+CYVGxc3tbhHiFB/JppEHnPrWfY3OgBUDuXdKc/fYgIxMwAAj9iBX
+         iAYBKnX69vwHNF8IN/E1iVTfLc1iAU5bIAhM29LGFChHuJa6pRc8cpvRNkJCwVTL7ZWQ
+         PP0Z7qutbjuPKnSsCwN5CDkYSN/m/R6hbaHgdn+yPuDtenh7n68zPHfaiGgdVQ7OS8Yi
+         LLCg==
+X-Gm-Message-State: AOAM533kFi879niBhQz3GuzTuDjOSTqmlWYACaNR+1oVEMrKEnWIFpEk
+	n9fVNDXl0WFGojr/SxbCwd1PGORk6ZwUdl8Fnms4H4ERK69zcW5LtA==
+X-Received: by 2002:a05:6000:178e:b0:205:7acf:8fb1 with SMTP id e14-20020a056000178e00b002057acf8fb1mr524379wrg.499.1648660155632;
+        Wed, 30 Mar 2022 10:09:15 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f410:0:0:0:0:0 with SMTP id g16csp1516860wro;
+        Wed, 30 Mar 2022 10:09:12 -0700 (PDT)
+X-Received: by 2002:a05:6902:308:b0:633:73dc:8e7f with SMTP id b8-20020a056902030800b0063373dc8e7fmr639254ybs.424.1648660152438;
+        Wed, 30 Mar 2022 10:09:12 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1648660152; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=kINGfr2sqNbreC6J0XFBXvqLJXSWvJm0M8RgI2M1eT6wrsfEabTvPTzaBr35z6T+U8
+         GY7z/IMtURDSp0HBsaPUdkKlAcRU4X1cMKexbJMZIkQ8LFk7M5BMZxjzPnuXMYnO9tXC
+         aOFsa3tW1yMfvAYd8J2wM1+PwxzH9bBa0EYdBaX0v1kjEXy0LNcY3tN1OAWY4dTVzvzl
+         1KX4yvqu5txUz9aGEn+symMffLZN0jApYhFhfzw1Dk2AeLgHfCqhsZDGEqE4gZSwR3IM
+         AqeNcHrup9qyFQsEet1PVuOST71yhlGyzYSccSbS34tcODO7OA5MYbwrUu1nQZpMyJBa
+         6Pmw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=S7x9XYJxOMiQ5O/ElwxsaW57zsivYmYAHgl5nZkIYIY=;
+        b=NkLR2yR3k+AAzMJ4GQGBsTfFikHPiuZNkxMJyxQmB/FdqOIIFIoPJ7ZLQnRyevQ/jE
+         HxmOLCHHxKfDs/RqurwJnJUBOAR3rAL6keV1aG72Xn1cRdEvnQcyuadg7wT582jGhTCj
+         fNPMF5qMn0nvx4zjiaIJ/Cbs+L0aUw+w6MfozB5LXZenWpQ9bKSQ7fvXMLC/kHuNpLMP
+         EU+5VUt6mF2SZ3YwxtcyUkkXHkJUO4PyMbgkCaNPeTRhdFDyE1aH+v721rlLAv7ErFAR
+         SSLFd6ddR28QORFlvkZBVZ4Fm4wRrCCmVvv5hKd3mXdqOlyo7JsBhN5w80aaKt+om6L2
+         DECA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UETsyxvo;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220330130909.27201820.262606@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220330130909.27201820.262606@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220330130909.27201820.262606@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 83-20020a811356000000b002d82aab98b3sor4826139ywt.71.2022.03.30.10.09.12
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 30 Mar 2022 10:09:12 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220330130909.27201820.262606@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzsOEX6IesM0ObWr9JRzV2nmkgz/1eXCnVQEtD+9DIDwLG0L+laFpAO668/l2yBck35EltDJT4nuP8wsOIA10rYEwsUE2c=
+X-Received: by 2002:a81:4f87:0:b0:2e5:dc8f:b4e with SMTP id d129-20020a814f87000000b002e5dc8f0b4emr621420ywb.467.1648660152147;
+        Wed, 30 Mar 2022 10:09:12 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1648660152; cv=none;
+        d=google.com; s=arc-20160816;
+        b=mfrMiijlYsHtcomMMaeVGiLsHKj+fHtPmWGCmH9FUxz1Zsse1RM4imU8bRPOHgiMPI
+         ot8cHDj04vPUYxLXIT5+7bTUWueDQCXoNXGP88P4RAfUXcyAlOapJvgnwebaeonrKnSZ
+         0ZckGgDtDaibzk3z90eN2nfJYOxm6MbvFRCy1Ppe/FcZldbEz/KUyseFb+dJBa1Vi7y/
+         JIlL34j64paIeX0Ly0abR8Z1BQRW49NLJmS8/gVfRryVFhmRCyGs4uwlJxoUWnECDYN4
+         yAdOTX5oDRFehsQhQ/P8D/ER5HKJ2/xYefHoAFse+KDQnRrIrSrpv/YOrkEbvzzdXll4
+         oRTw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=S7x9XYJxOMiQ5O/ElwxsaW57zsivYmYAHgl5nZkIYIY=;
+        b=WNozL5ubpbsuetCyJcwCi5zp54VZsSxqTy3gkcZ0EEcSYBX2/Tsg3Z+umOsxCCLbkP
+         GliA5APUaF/22A2abY/3BwXvyUZHF9OVSw1xwLdiWK2OWkCPUwYMWv+QfSS55C2AhGuh
+         Rd2S/4FrNLe8PFVVGWt6ArzhIx08umpU48+2aPPu8s7d/uqAKhUU/+018gveLYTbQCjp
+         Jh4Ci2+d4oDGY/6UBizl5HRice0EsjCTZv6yaPJqrGSIT8hstWStDsWMbwIdMdncfbUp
+         Gx4atgfBtm60IN64sCksdZtPNUGZwgYpxc3GXU2GBpthI6m1EDuDqXy7cam9f6jfFeQK
+         XDWA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UETsyxvo;
+       spf=pass (google.com: domain of delivery_20220330130909.27201820.262606@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220330130909.27201820.262606@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220330130909.27201820.262606@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id s9-20020a258309000000b0063c084240bdsi191215ybk.3.2022.03.30.10.09.11
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 30 Mar 2022 10:09:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220330130909.27201820.262606@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=brX2/QHwpModFeNeYLXnPqoIqBlVW5hSdJS+XD+8VX4=;
+ b=UETsyxvoA7IaJdw41H2b/8QzpCrEJBiyHssdNGMTXIoGpEXhOYU9FsFOv474G0KjBLUdtfGX9qYG
+   u1EFuJ0+xQWS0SMnTDwTBEMMc8tVs3mg033lutjYRg10fGHkiB7QNT6FSPQNYxhiizCBe/g5nSgC
+   X0F8YZTfpJ3awqLe8uA=
+Received: from nj2mta-17.sailthru.com (204.153.121.17) by pmta29.sailthru.com id h8i7be2sd4s2 for <bloomberg@khamel.com>; Wed, 30 Mar 2022 13:09:11 -0400 (envelope-from <delivery_20220330130909.27201820.262606@mx.sailthru.com>)
+Date: Wed, 30 Mar 2022 13:09:09 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220330130909.27201820.262606@sailthru.com>
+Subject: Money Stuff: Robinhood Will Stay Open Late
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9229655_156758429.1648660149371"
+Precedence: bulk
+X-Feedback-ID: 6358:27201820:campaign:sailthru
+X-TM-ID: 20220330130909.27201820.262606
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetcopper.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg7124.5mmm/9e7ccafc
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg7124.5mmm/9e7ccafc>, <mailto:unsubscribe_20220330130909.27201820.262606@mx.sailthru.com>
+X-rpcampaign: stjko27201820
+
+------=_Part_9229655_156758429.1648660149371
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Robinhood After DarkHistorically there were people whose job it was=
+ to trade stocks, and they showed up at the New York Stock Exchange build
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Robinhood After Dark
+   =20
+ =20
+Historically there were people whose job it was to trade stocks, and they s=
+howed up at the New York Stock Exchange building each weekday from 9:30 to =
+4 to trade stocks, and if you wanted to trade stocks your best bet was to s=
+how up there and trade with them. Now those people are mostly for decoratio=
+n, and the stocks trade on computers. But there are still people whose job =
+it is to trade stocks, or at least to supervise the computers,=C2=A0and a l=
+ot of them work in New York, and it would be inhumane to expect them to tra=
+de stocks 24 hours a day, seven days a week.So the U.S. stock exchanges sti=
+ll keep those traditional opening hours of 9:30 a.m. to 4 p.m. New York tim=
+e, and most of the people and computers=C2=A0whose job it is to trade stock=
+s trade stocks mostly during those hours. Not entirely; the exchanges have =
+extended hours in the morning and evening, and I suppose technically you co=
+uld meet someone at a bar at midnight and agree to sell her some stock.[1] =
+But most of the trading =E2=80=94=C2=A0and the trading that =E2=80=9Ccounts=
+,=E2=80=9D that sets official prices and so forth =E2=80=94 is during the r=
+egular hours.=C2=A0And in fact it would mostly be counterproductive for the=
+ people whose job it is to trade stocks to trade stocks for longer hours. W=
+hen your job is to trade stocks, you want to trade stocks when everyone els=
+e trades stocks. There are advantages to concentrating liquidity; if everyo=
+ne does all of their trading in the same half-hour window there will be mor=
+e people to trade with during that window than if everyone=E2=80=99s tradin=
+g is spaced out over 7 hours. (Plus:  You=E2=80=99d have more free time.) A=
+nd in fact liquidity in U.S. stock markets=C2=A0is=C2=A0increasingly concen=
+trated in one half-hour window, the 30 minutes before the markets close at =
+4 p.m. All the people whose job it is to trade stocks know that all the oth=
+er people whose job it is to trade stocks show up between 3:30 and 4, so th=
+at=E2=80=99s when they show up too.But there are other people whose job is =
+not to trade stocks. There are people whose jobs are to be dentists, or  fi=
+nancial wellness educators, or college administrators or pool salespeople o=
+r IT consultants. Many of these people also like to trade stocks, not as a =
+job, but for fun and also maybe profit who knows. But they show up to work =
+at 9 and leave at 5 and spend the time in between doing their jobs, which p=
+revent=C2=A0them from devoting the time they=E2=80=99d like to trading stoc=
+ks. Then they leave work and commute home and have dinner and put the kids =
+to bed and pour themselves a nice Scotch and sit down to trade stocks but, =
+whoops, the market has been closed for hours.=C2=A0These people are the cor=
+e customers of Robinhood Markets Inc., which caters to them=C2=A0mainly=C2=
+=A0by having an easy-to-use smartphone app that allows them to trade stocks=
+ quickly during the day when they=E2=80=99re supposed to be doing their job=
+s. But,  now, also:Robinhood Markets Inc. shares jumped as much as 28% afte=
+r announcing plans to extend the trading day for customers by four hours.Tr=
+ading will run from 7 a.m. to 8 p.m. New York time, a step toward offering =
+24-hour equities investing, the Menlo Park, California-based company said i=
+n a blog post Tuesday.The shares rose the most since August on the news and=
+ were up 24% to $15.85 at 11:22 a.m. in New York.=C2=A0=E2=80=9COur custome=
+rs often tell us they=E2=80=99re working or preoccupied during regular mark=
+et hours, limiting their ability to invest on their own schedule or evaluat=
+e and react to important market news,=E2=80=9D Robinhood said in the blog p=
+ost.Traditional market hours run from 9:30 a.m. to 4 p.m. and Robinhood alr=
+eady offered extended trading starting at 9 a.m. and ending at 6 p.m. There=
+=E2=80=99s reason for Robinhood=E2=80=99s 22.7 million customers to be wary=
+ of the change, however. Extended-hours trading come with risk, including l=
+ower liquidity (or opportunities to buy and sell) and the potential for hig=
+her volatility, which could lead to customers getting a worse price than in=
+ market hours.=C2=A0Well but =E2=80=9Clower liquidity=E2=80=9D just means =
+=E2=80=9Cnobody trades then,=E2=80=9D and nobody trades then because Robinh=
+ood hasn=E2=80=99t let them yet. Robinhood can create its own liquidity! Yo=
+u just =E2=80=A6=C2=A0you know, you have one deep liquid trading session fr=
+om 3:30 to 4 p.m. for the index funds and other professionals to trade with=
+ each other and set a closing price, and you have another deep liquid tradi=
+ng session from 7:30 to 8 p.m. for all the dentists and Redditors to trade =
+with each other and have fun, and the other 12 or 23 hours are a ghost town=
+. It=E2=80=99s fine. Last call at the Robinhood saloon will be liquid, if p=
+eople want it to be. Eventually stocks will report two closing prices per d=
+ay, the 4 p.m. close on the stock exchange and the 8 p.m. close on Robinhoo=
+d.Actually, the blog post says that =E2=80=9CRobinhood is working towards o=
+ffering 24/7 investing,=E2=80=9D and if that works out I suppose that the r=
+eal Robinhood action will be even later at night, once the Scotch really ki=
+cks in. (To be fair, presumably this will also be aimed at non-U.S. investo=
+rs trading U.S. stocks during their daylight hours.)Robinhood=E2=80=99s sto=
+ck closed up 24.2% yesterday on this news. There is something a bit odd abo=
+ut that. =E2=80=9CTD Ameritrade is letting retail investors trade 24 hours =
+a day, five days a week, and the brand has enlisted Lionel Richie to help t=
+ell the story,=E2=80=9D it says here, in an article from 2018 about a=C2=A0=
+Super Bowl ad=C2=A0for TD Ameritrade=E2=80=99s all-night trading session. (=
+Here=E2=80=99s the ad.)=C2=A0That is limited to=C2=A0exchange-traded funds,=
+ though, not single stocks. But the 7 a.m. to 8 p.m. trading day for U.S. s=
+tocks seems pretty standard at retail brokerages including TD Ameritrade, E=
+*Trade,=C2=A0Fidelity, Charles Schwab=C2=A0and=C2=A0Interactive Brokers. Ro=
+binhood offered shorter=C2=A0trading hours than its competitors, and now it=
+ is catching up, and its stock is up 24%.I suppose one way to read the pric=
+e move is that the market thinks that Robinhood, unlike its competitors, is=
+ really good at=C2=A0influencing its customers=E2=80=99 behavior, and at ge=
+tting them to trade more.[2] TD Ameritrade hires Lionel Richie to pitch all=
+-night stock trading during the Super Bowl, and its customers shrug and con=
+tinue trading on their lunch breaks. Robinhood puts out a blog post about a=
+fter-hours trading, and its customers say =E2=80=9Cwell now I know what I=
+=E2=80=99m=C2=A0doing between 6 and 8 every evening!=E2=80=9D Other brokers=
+ try to satisfy customer demand for extended trading, even if there isn=E2=
+=80=99t very much of it; Robinhood creates its own demand.One more point ab=
+out the extended session: The way this will work is not exactly that the de=
+ntists will trade stocks back and forth with each other at 7 p.m. The way t=
+his works is  the way that Robinhood trading works anyway: Its customers wi=
+ll put in orders, and Robinhood will route those orders to a handful of big=
+ market makers (Virtu Financial Inc., Citadel Securities LLC, G1X Execution=
+ Services LLC, Two Sigma Securities LLC, etc.), and those market makers wil=
+l fill those orders from their own inventory or execute them on an exchange=
+ or dark pool. In general, during the day, the market makers will fill the =
+orders at a price that is at least as good as the =E2=80=9Cnational best bi=
+d and offer=E2=80=9D: If you=E2=80=99re buying stock, the market maker will=
+ sell it to you at either the lowest available price on a public stock exch=
+ange, or a slightly lower price. They do this in part because of Robinhood=
+=E2=80=99s legal obligation to give you =E2=80=9Cbest execution=E2=80=9D on=
+ your trades, but also because of a thicket of other rules (called =E2=80=
+=9CRegulation NMS=E2=80=9D) regulating the routing of orders and the priori=
+ty of the best=C2=A0price.After hours, when the exchanges are closed, or cl=
+osed-ish, all of this is a bit more relaxed. There are still best execution=
+ requirements, but the Reg NMS rules about the national best bid and offer =
+apply only during =E2=80=9Cregular trading hours.=E2=80=9D[3] There are few=
+er public quotes on public stock exchanges, and fewer traders and market ma=
+kers quoting the stock; market makers will have to build their models of wh=
+at the right price is based on more limited data. During the regular tradin=
+g day, there are very visible prices and fierce competition to make those p=
+rices as tight and accurate as possible. At night, who knows! Spreads will =
+presumably be wider,[4]=C2=A0and people who  complain about Robinhood selli=
+ng its orders to market makers will have more to complain about.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Volcano bonds
+   =20
+ =20
+Maybe the one trade I have ever suggested in this column (still not financi=
+al advice!)  was:=09Don=E2=80=99t buy El Salvador=E2=80=99s =E2=80=9Cvolcan=
+o bond,=E2=80=9D a 6.5% 10-year dollar bond that also includes a call optio=
+n on Bitcoins.=09Instead, buy El Salvador=E2=80=99s regular 8.25% dollar bo=
+nd due in 2032 at like 75 cents on the dollar, and use the extra 25 cents t=
+o buy Bitcoin.I mean, I=E2=80=99m not saying you should do the second trade=
+ either, really. I=E2=80=99m just saying that if you find the volcano bond =
+tempting, buying something that is worth more in every scenario=C2=A0should=
+ be=C2=A0more=C2=A0tempting.Since I wrote that, the 8.25% bonds have traded=
+ down to around 50 cents on the dollar, for a yield of about 20%. Oops? Mea=
+nwhile the volcano bonds have not priced yet, but they continue to lurch al=
+ong, apparently on the previously advertised terms. This makes them a much,=
+ much worse deal. But they were always a bad deal, so it=E2=80=99s not clea=
+r why that would matter. Anyway here=E2=80=99s some more on the volcano bon=
+ds, from the Financial Times:El Salvador=E2=80=99s $1bn bitcoin-backed bond=
+ could tap deep wells of capital among cryptocurrency enthusiasts after man=
+y big international investors have shunned the project.Demand from bitcoin =
+=E2=80=9Cwhales=E2=80=9D =E2=80=94 investors holding large quantities of th=
+e world=E2=80=99s biggest cryptocurrency =E2=80=94 is likely to be crucial =
+to fundraising for the bond, according to people involved with the effort. =
+...The optimism in the crypto community for the offering, which is the firs=
+t of its kind from a sovereign borrower, sharply contrasts with most large =
+traditional investors, who have said they are highly sceptical of the deal.=
+Buyers of the 10-year bitcoin bond =E2=80=94 which offers an annual interes=
+t rate of 6.5 per cent along with a share of any upside from the proceeds i=
+nvested in bitcoin =E2=80=94 would be offering financing on favourable term=
+s to El Salvador, whose existing 10-year dollar bonds currently yield in ex=
+cess of 20 per cent.After a five-year lock-up period El Salvador will sell =
+bitcoin until it recoups its initial investment and then share half of any =
+profit with investors.Those yields have climbed sharply as most investors t=
+ook a dim view of Bukele=E2=80=99s experiments with cryptocurrency, warning=
+ that the bitcoin bond could push El Salvador further from access to tradit=
+ional debt markets and hurt its relationship with the IMF.Sure. Look, if yo=
+u want exposure to El Salvador=E2=80=99s credit and Bitcoin, you can spend =
+50 cents on El Salvador bonds and 50 cents on Bitcoin and get something tha=
+t is so, so much better than a volcano bond. But you don=E2=80=99t want tha=
+t. You want to either (1) stay far away from all of this or (2) buy some cr=
+ypto financial engineering. You want to buy a Bitcoin-linked sovereign bond=
+ because that sounds cool, or because you want to support a country=E2=80=
+=99s experiment with Bitcoin as legal currency, or because you want to supp=
+ort the development of an ecosystem of crypto-linked bonds. You might want =
+that out of, like, naive aesthetic enthusiasm. Or you might be a crypto wha=
+le whose net worth is highly levered to the continuing broad adoption of cr=
+ypto. You are more or less=C2=A0donating=C2=A0money to El Salvador to make =
+this project work, but that might be a positive-value trade for you.Meanwhi=
+le if the volcano bond is issued, do you think that the prices will be arbi=
+traged? Like will someone buy regular El Salvador bonds plus Bitcoin and sh=
+ort the volcano bond until the prices get back in line? No, they absolutely=
+ will not; nobody really knows how the volcano bonds will work yet (=E2=80=
+=9CImportant details of the bond would need to be ironed out, requiring the=
+ passing of new securities laws in El Salvador=E2=80=9D), but I am sure tha=
+t it will be unusually painful to sell them short. The volcano bonds will t=
+rade among crypto enthusiasts and the regular bonds will trade among emergi=
+ng-markets credit enthusiasts and they will never have any interaction with=
+ each other.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Ronin
+   =20
+ =20
+Axie Infinity is an online world where people toil in indentured servitude =
+to earn cryptocurrency for =E2=80=9Csponsors=E2=80=9D who take as much as 9=
+0% of their earnings, but on the blockchain. Also I guess it is a video gam=
+e. I  once wrote about it:Doesn=E2=80=99t it feel like the dystopian future=
+ we deserve? Like in a decade everyone will make their living by steering c=
+olorful blob-like creatures around to acquire coins in a virtual world, but=
+ ownership of the colorful blob-like virtual creatures will be concentrated=
+ among a hereditary elite of people who, like, bought Dogecoin in 2014, and=
+ in order to scrape together enough to live on you will need to indenture y=
+ourself to a member of that elite, steering their blob-like virtual creatur=
+es around to earn coins for them and getting a few crumbs for yourself. And=
+ you=E2=80=99ll work 16-hour days in the Smooth Love Potions mines just to =
+feed your children, but every once in a while in a rare free moment you wil=
+l stop and ask yourself =E2=80=9Cwait why do our overlords want all these S=
+mooth Love Potions anyway?=E2=80=9DMeanwhile the overlords will form a leis=
+ure class and devote themselves to philosophy and philanthropy. They=E2=80=
+=99ll keep busy collecting non-fungible-token art and putting their names o=
+n virtual library buildings in the metaverse and writing manifestos about h=
+ow cryptocurrency enhances human freedom and levels the playing field for e=
+veryone.Anyway, good news,  hackers stole its cryptocurrency:Hackers stole =
+about $600 million from a blockchain network connected to the popular Axie =
+Infinity online game in one of the biggest crypto attacks to date.Computers=
+ known as nodes operated by Axie Infinity maker Sky Mavis and the Axie DAO =
+that support a so-called bridge -- software that lets people convert tokens=
+ into ones that can be used on another network -- were attacked, with the h=
+acker draining what=E2=80=99s known as the Ronin Bridge of 173,600 Ether an=
+d 25.5 million USDC tokens in two transactions. The breach happened on Marc=
+h 23, but was only discovered Tuesday, according to=C2=A0Ronin, the blockch=
+ain that supports Axie Infinity.Here is Ronin=E2=80=99s explanation of the =
+hack, which is basically =E2=80=9Cwe had secure validation procedures, but =
+they took too long, so we built a shortcut when things got busy, and then w=
+e forgot to turn off the shortcut.=E2=80=9D Nobody cares less about informa=
+tion security than the builders of cryptocurrency projects.
+ =20
+   =20
+      Virtual interview cheating
+   =20
+ =20
+When I was an investment banker, I would occasionally interview undergradua=
+tes looking to get banking jobs. I am trying to imagine what I would have s=
+aid if one of them had walked into the room, pulled out a computer, and sai=
+d =E2=80=9CI=E2=80=99m sorry, do you mind? I spent 12 hours preparing a hyp=
+erlinked document with answers to a range of possible interview=C2=A0questi=
+ons, and I=E2=80=99d like to refer to it during our interview. For instance=
+, if you were to ask me =E2=80=98what are your strengths and weaknesses,=E2=
+=80=99 I=E2=80=99d click into the =E2=80=98Behavioral=E2=80=99 section, the=
+n the =E2=80=98Strengths & Weaknesses=E2=80=99 subsection, and I would read=
+ off my bullet-pointed list of responses. I think this will make this proce=
+ss more efficient and informative for both of us.=E2=80=9DI think I would =
+=E2=80=A6=C2=A0obviously have hired that person on the spot? That person ha=
+s what it takes to be an investment banker! Ooh, so she has to look at her =
+notes to do an accretion/dilution model, who cares, you can look at your no=
+tes on the job. That=E2=80=99s a person who obsessively prepped for a meeti=
+ng! =E2=80=9CObsessively preps for=C2=A0meetings=E2=80=9D is the whole job =
+of a junior investment banker! What else could the banks possibly be hiring=
+ for if not that?Anyway here is a hilarious Insider story about college stu=
+dents who =E2=80=9Ccheated=E2=80=9D in virtual i-banking interviews by spre=
+ading hyperlinked notes around their Zoom windows, and now are worried that=
+ they won=E2=80=99t be able to =E2=80=9Ccheat=E2=80=9D anymore as interview=
+ing is increasingly in-person again:"To be honest, I'm really worried about=
+ how I'll do during my interviews now since I won't have access to the mate=
+rials I had during COVID," said one Wharton student who asked not to be ide=
+ntified in order to openly discuss the use of these answer sheets. "Everybo=
+dy's hush-hush about full-time recruiting, but I know it's on everybody's m=
+ind." =E2=80=A6The Wharton undergrad who bemoaned the loss of virtual inter=
+views admitted to using a Google Doc with notes on behavioral questions whi=
+le recruiting for 2022 summer analyst roles last spring. In addition to the=
+ Google Doc, the student also relied on 10 pages of handwritten notes that =
+addressed technical questions. The handwritten notes were spread out under =
+this person's computer.When recruiters asked technical questions about topi=
+cs like LBO modeling, the student was able to look down to refer to these p=
+apers since recruiters expected that candidates would jot down shorthand no=
+tes on scratch paper on their desks in order to perform calculations.Prepar=
+ing the notes took almost 12 hours, the student estimated.Another student =
+=E2=80=A6 described how she and some of her friends peppered their Google D=
+ocs with hyperlinked tables of contents which enabled them, quick as a flas=
+h, to jump directly down to the answers to almost any question they were as=
+ked.=C2=A0Most students set up their tables of contents using key terms lik=
+e "behaviorals," she said, giving users near-instantaneous access to bullet=
+ed notes for questions like: "What are your strengths and weaknesses?"=C2=
+=A0Honestly why even interview, just have the candidates send the banks Pow=
+erPoint decks charting their strengths and weaknesses. The formatting of th=
+e PowerPoint deck will be way more informative, for junior banker hiring, t=
+han the answers.
+ =20
+   =20
+      Goldman
+   =20
+ =20
+=E2=80=9CJunior bankers at Goldman Sachs are threatening to quit over deman=
+ds that they show up to the office five days a week,=E2=80=9D it says here,=
+ and I feel inconceivably old. Disclosure! I worked at Goldman =E2=80=94 I =
+left=C2=A010 (!)=C2=A0years ago =E2=80=94=C2=A0and if you had told me then=
+=C2=A0that one day JUNIOR BANKERS AT GOLDMAN SACHS WOULD COMPLAIN ABOUT SHO=
+WING UP TO THE OFFICE FIVE DAYS A WEEK I simply would not have believed you=
+. =E2=80=9CJunior bankers at Goldman Sachs are threatening to quit over dem=
+ands that they show up to the office seven days a week,=E2=80=9D maybe, if =
+it was=C2=A0every=C2=A0week, but five? In investment banking? Nothing says =
+=E2=80=9CCovid-19 has permanently changed the world of work=E2=80=9D like =
+=E2=80=9CJunior bankers at Goldman Sachs are threatening to quit over deman=
+ds that they show up to the office five days a week.=E2=80=9D Five!I=E2=80=
+=99m sure it=E2=80=99s unpleasant but still:As bonuses across Wall Street h=
+it record highs, underlings at Goldman =E2=80=94 headed by hard-charging Ch=
+ief Executive David Solomon =E2=80=94 are nevertheless stepping up complain=
+ts of =E2=80=9Chellhole=E2=80=9D working conditions that have notoriously i=
+ncluded 100-hour weeks.Most recently, some junior Goldmanites claim that th=
+ey are being =E2=80=9Cbullied=E2=80=9D into showing up in person =E2=80=9C5=
+-0=E2=80=9D =E2=80=94 meaning five days working in the office, zero from ho=
+me =E2=80=94 and that the bullying is being orchestrated by top managers ar=
+med with spreadsheets.=E2=80=9CIn GS, the top management says it=E2=80=99s =
+employees choice but internally they track which team has most in office at=
+tendance,=E2=80=9D one Goldman employee wrote on the corporate message boar=
+d Blind, which verifies users=E2=80=99 place of employment with the help of=
+ their company email accounts. =E2=80=A6A Goldman spokesperson declined to =
+comment for the record. A person close to the bank disputed there was wides=
+pread frustration. =E2=80=9CFar from a scientific survey, The Post has chos=
+en a handful of comments submitted to an online forum no one has heard of.=
+=E2=80=9DProbably some of them would like to come in to the office less oft=
+en, sure. But they work at Goldman!=C2=A0
+ =20
+   =20
+      Things happen
+   =20
+ =20
+From VW to JPMorgan, the Unlikely Cast Behind  Nickel=E2=80=99s Big Squeeze=
+.=C2=A0Icahn  Blasts Kroger for Low Wages, =E2=80=98Torturous=E2=80=99 Pig =
+Crates. Hedge Funds That Took  Roman Abramovich=E2=80=99s Billions Have No =
+Way Out. Germany Braces for Less Gas as Russia Demands Ruble Payments. Bank=
+ers Are Still Standing Behind the  Dirtiest Fossil Fuel.  Chicken Price-Fix=
+ing Prosecution Ends in Second Mistrial.=C2=A0Bombardier Hires Cravath, See=
+ks to Dismiss  Bond Default Lawsuit. People are worried about  duration. =
+=E2=80=9C=E2=80=98When you invest in China, there=E2=80=99s  no point for d=
+ocuments,=E2=80=99 Lim said. =E2=80=98Even if I have a document, where do I=
+ go to enforce it?=E2=80=99=E2=80=9D=C2=A0California man caught with dozens=
+ of lizards in his clothes is charged with smuggling 1,700 reptiles.=C2=A0I=
+f you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right i=
+n your inbox, please=C2=A0subscribe at this link. Or you can subscribe to M=
+oney Stuff and other great Bloomberg newsletters here. Thanks![1] There are=
+ also dark pools =E2=80=94=C2=A0ECNs, for =E2=80=9Celectronic communication=
+s network=E2=80=9D =E2=80=94=C2=A0that keep later hours than the exchanges.=
+[2] Another way to read it is: =E2=80=9CRobinhood=E2=80=99s shareholders, w=
+ho are often also its customers, are pretty meme-focused, and the fact that=
+ this sounds good to them is enough to push up the stock even though every =
+other retail broker already does it.=E2=80=9D[3] See Rule 611, and the defi=
+nition of =E2=80=9Ctrade-through=E2=80=9D in Rule 600(b)(94).[4] Not just b=
+ecause there is less competition among market makers, by the way. There is =
+also a higher risk of adverse selection: If someone is trading after hours,=
+ and dealing with the illiquidity and wide spreads, it is probably because =
+they are particularly axed to trade. Perhaps they have a lot of stock to se=
+ll, which will move the price, or perhaps they know something about the sto=
+ck that is not yet reflected in the price. (After all, a lot of news comes =
+out before the open or after the close, meaning you can trade on it in the =
+extended session.) This is all bad for market makers: There=E2=80=99s more =
+risk of adverse selection in the extended session. So they need to charge w=
+ider spreads.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg7124.5mmm/f43fe155.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9229655_156758429.1648660149371
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Robinhood After DarkHistorically there were people whose job it was to trad=
+e stocks, and they showed up at the New York Stock Exchange build
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNzIwMTgyMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc0NjQ0MjYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBc54e01ef" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D27201820&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27464426&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzMwMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMzAmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB4e4c12fd"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNzIwMTgyMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc0NjQ0MjYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC76de61a1" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D27201820&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27464426&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Robinhood After Dark</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Historically there were people whose j=
+ob it was to trade stocks, and they showed up at the New York Stock Exchang=
+e building each weekday from 9:30 to 4 to trade stocks, and if you wanted t=
+o trade stocks your best bet was to show up there and trade with them. Now =
+those people are mostly for decoration, and the stocks trade on computers. =
+But there are still people whose job it is to trade stocks, or at least to =
+supervise the computers,=C2=A0and a lot of them work in New York, and it wo=
+uld be inhumane to expect them to trade stocks 24 hours a day, seven days a=
+ week.</p><p style=3D"margin: 16px 0;">So the U.S. stock exchanges still ke=
+ep those traditional opening hours of 9:30 a.m. to 4 p.m. New York time, an=
+d most of the people and computers=C2=A0whose job it is to trade stocks tra=
+de stocks mostly during those hours. Not entirely; the <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly93d3cubmFzZG=
+FxLmNvbS9tYXJrZXQtYWN0aXZpdHkvcXVvdGVzL2V4dGVuZGVkLXRyYWRpbmc/607f07ceef4b8=
+524a319a23cB96a23d45" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">exchanges</a> have <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly93d3cubnlzZS5jb20v=
+bWFya2V0cy9ueXNlLWFyY2EvbWFya2V0LWluZm8jOn46dGV4dD1FeHRlbmRlZCUyMEhvdXJzJTN=
+BJTIwNCUzQTAwJTIwcC5tLiUyMHRvJTIwOCUzQTAwJTIwcC5tLiUyMEVU/607f07ceef4b8524a=
+319a23cBf6501c14" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">extended hours</a> in the morning and evening, an=
+d I suppose technically you could meet someone at a bar at midnight and agr=
+ee to sell her some stock.[1] But most of the trading =E2=80=94=C2=A0and th=
+e trading that =E2=80=9Ccounts,=E2=80=9D that sets official prices and so f=
+orth =E2=80=94 is during the regular hours.=C2=A0</p><p style=3D"margin: 16=
+px 0;">And in fact it would mostly be counterproductive for the people whos=
+e job it is to trade stocks to trade stocks for longer hours. When your job=
+ is to trade stocks, you want to trade stocks when everyone else trades sto=
+cks. There are advantages to <em>concentrating liquidity</em>; if everyone =
+does all of their trading in the same half-hour window there will be more p=
+eople to trade with during that window than if everyone=E2=80=99s trading i=
+s spaced out over 7 hours. (Plus: <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/27201820.262606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjAtMDItMDYvdGVzbGEtaGFzLXNvbWUtd2lsZC10aW1lcz9jbXBpZD1CQk=
+QwMzMwMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlc=
+iZ1dG1fdGVybT0yMjAzMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319=
+a23cB413ca408" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> You=E2=80=99d have more free time</a>.) And in fact=
+ liquidity in U.S. stock markets=C2=A0<a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/27201820.262606/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9=
+0aGUtMzAtbWludXRlcy10aGF0LWNhbi1tYWtlLW9yLWJyZWFrLXRoZS10cmFkaW5nLWRheS0xMT=
+U4Mzg4NjEzMQ/607f07ceef4b8524a319a23cB687aca07" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"><em>is=C2=A0</em>in=
+creasingly concentrated</a> in one half-hour window, the 30 minutes before =
+the markets close at 4 p.m. All the people whose job it is to trade stocks =
+know that all the other people whose job it is to trade stocks show up betw=
+een 3:30 and 4, so that=E2=80=99s when they show up too.</p><p style=3D"mar=
+gin: 16px 0;">But there are other people whose job is not to trade stocks. =
+There are people whose jobs are to be dentists, or <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMTcvYmUtY2FyZWZ1bC13aXRoLXlvdXItZ=
+mluYW5jaWFsLWluZmx1ZW5jZT9jbXBpZD1CQkQwMzMwMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVt=
+PWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMzAmdXRtX2NhbXBhaWd=
+uPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBd3a7971b" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> financial well=
+ness educators</a>, or college administrators or pool salespeople or IT con=
+sultants. Many of these people also like to trade stocks, not as a job, but=
+ for fun and also maybe profit who knows. But they show up to work at 9 and=
+ leave at 5 and spend the time in between doing their jobs, which prevent=
+=C2=A0them from devoting the time they=E2=80=99d like to trading stocks. Th=
+en they leave work and commute home and have dinner and put the kids to bed=
+ and pour themselves a nice Scotch and sit down to trade stocks but, whoops=
+, the market has been closed for hours.=C2=A0</p><p style=3D"margin: 16px 0=
+;">These people are the core customers of Robinhood Markets Inc., which cat=
+ers to them=C2=A0<em>mainly=C2=A0</em>by having an easy-to-use smartphone a=
+pp that allows them to trade stocks quickly during the day when they=E2=80=
+=99re supposed to be doing their jobs. But, <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/27201820.262606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjItMDMtMjkvcm9iaW5ob29kLWxlYXBzLTI4LW9uLXBsYW4tdG8t=
+ZXh0ZW5kLXRyYWRpbmctZGF5LWJ5LWZvdXItaG91cnM_Y21waWQ9QkJEMDMzMDIyX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMz=
+MwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBeebd6e44" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> now, also</a>:</p><blockquote><p style=3D"margin: 16px 0;">Robinhood Ma=
+rkets Inc. shares jumped as much as 28% after announcing plans to extend th=
+e trading day for customers by four hours.</p><p style=3D"margin: 16px 0;">=
+Trading will run from 7 a.m. to 8 p.m. New York time, a step toward offerin=
+g 24-hour equities investing, the Menlo Park, California-based company said=
+ in a blog post Tuesday.</p><p style=3D"margin: 16px 0;">The shares rose th=
+e most since August on the news and were up 24% to $15.85 at 11:22 a.m. in =
+New York.=C2=A0</p><p style=3D"margin: 16px 0;">=E2=80=9COur customers ofte=
+n tell us they=E2=80=99re working or preoccupied during regular market hour=
+s, limiting their ability to invest on their own schedule or evaluate and r=
+eact to important market news,=E2=80=9D Robinhood said in the blog post.</p=
+><p style=3D"margin: 16px 0;">Traditional market hours run from 9:30 a.m. t=
+o 4 p.m. and Robinhood already offered extended trading starting at 9 a.m. =
+and ending at 6 p.m. There=E2=80=99s reason for Robinhood=E2=80=99s 22.7 mi=
+llion customers to be wary of the change, however. Extended-hours trading c=
+ome with risk, including lower liquidity (or opportunities to buy and sell)=
+ and the potential for higher volatility, which could lead to customers get=
+ting a worse price than in market hours.=C2=A0</p></blockquote><p style=3D"=
+margin: 16px 0;">Well but =E2=80=9Clower liquidity=E2=80=9D just means =E2=
+=80=9Cnobody trades then,=E2=80=9D and nobody trades then because Robinhood=
+ hasn=E2=80=99t let them yet. Robinhood can create its own liquidity! You j=
+ust =E2=80=A6=C2=A0you know, you have one deep liquid trading session from =
+3:30 to 4 p.m. for the index funds and other professionals to trade with ea=
+ch other and set a closing price, and you have another deep liquid trading =
+session from 7:30 to 8 p.m. for all the dentists and Redditors to trade wit=
+h each other and have fun, and the other 12 or 23 hours are a ghost town. I=
+t=E2=80=99s fine. Last call at the Robinhood saloon will be liquid, if peop=
+le want it to be. Eventually stocks will report two closing prices per day,=
+ the 4 p.m. close on the stock exchange and the 8 p.m. close on Robinhood.<=
+/p><p style=3D"margin: 16px 0;">Actually, the <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly9ibG9nLnJvYmluaG9vZC5=
+jb20vbmV3cy8yMDIyLzMvMjgvdGhlLWZ1dHVyZS1vZi1pbnZlc3RpbmctaXMtMjQ3/607f07cee=
+f4b8524a319a23cBb9022025" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">blog post</a> says that =E2=80=9CRobinhoo=
+d is working towards offering 24/7 investing,=E2=80=9D and if that works ou=
+t I suppose that the real Robinhood action will be even later at night, onc=
+e the Scotch really kicks in. (To be fair, presumably this will also be aim=
+ed at non-U.S. investors trading U.S. stocks during their daylight hours.)<=
+/p><p style=3D"margin: 16px 0;">Robinhood=E2=80=99s stock closed up 24.2% y=
+esterday on this news. There is something a bit odd about that. =E2=80=9CTD=
+ Ameritrade is letting retail investors trade 24 hours a day, five days a w=
+eek, and the brand has enlisted Lionel Richie to help tell the story,=E2=80=
+=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.26260=
+6/aHR0cHM6Ly93d3cudGhlZHJ1bS5jb20vY3JlYXRpdmUtd29ya3MvcHJvamVjdC9oYXZhcy1uZ=
+XcteW9yay10ZC1hbWVyaXRyYWRlLXRyYWRlLWFsbC1uaWdodC1sb25n/607f07ceef4b8524a31=
+9a23cBbac46e7b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">it says here</a>, in an article from <em>2018 </em>=
+about a=C2=A0<em>Super Bowl ad=C2=A0</em>for TD Ameritrade=E2=80=99s all-ni=
+ght trading session. (Here=E2=80=99s <a href=3D"https://link.mail.bloomberg=
+business.com/click/27201820.262606/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_=
+dj1oZy04aVp3QkVXQQ/607f07ceef4b8524a319a23cBab141299" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">the ad</a>.)=
+=C2=A0That is limited to=C2=A0<a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27201820.262606/aHR0cHM6Ly93d3cudGRhbWVyaXRyYWRlLmNvbS90b29scy1=
+hbmQtcGxhdGZvcm1zL2FmdGVyLWhvdXJzLXRyYWRpbmcuaHRtbD9TTElEPXRwLWJlbGwmZWZfaW=
+Q9RUFJYUlRb2JDaE1JcS02dWlmM3Q5Z0lWOE1tVUNSMG1md0lJRUFBWUFTQUNFZ0lXRl9EX0J3R=
+TpHOnMmc19rd2NpZD1BTCEyNTIxITMhNTE4NjYwMTEwMjcxIXAhIWchIWFtZXJpLXRyYWRlJkNJ=
+RD1QU0JSQQ/607f07ceef4b8524a319a23cBdf74e2ac" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">exchange-traded funds=
+</a>, though, not single stocks. But the 7 a.m. to 8 p.m. trading day for U=
+.S. stocks seems pretty standard at retail brokerages including <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly90a=
+WNrZXJ0YXBlLnRkYW1lcml0cmFkZS5jb20vdHJhZGluZy9wcmVtYXJrZXQtdHJhZGluZy1hZnRl=
+ci1ob3Vycy0xODE4MQ/607f07ceef4b8524a319a23cB4050f414" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">TD Ameritrade=
+</a>, <a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262=
+606/aHR0cHM6Ly91cy5ldHJhZGUuY29tL2wvZi9kaXNjbG9zdXJlLWxpYnJhcnkvZXh0ZW5kZWQ=
+taG91cnMtdHJhZGluZyM6fjp0ZXh0PVRyYWRpbmclMjBkdXJpbmclMjBFeHRlbmRlZCUyMEhvdX=
+JzJTIwVHJhZGluZyxhLm0uJTIwZm9yJTIwY2VydGFpbiUyMEVURnMpJTJDJTIwaW4/607f07cee=
+f4b8524a319a23cB71730eee" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">E*Trade</a>,=C2=A0<a href=3D"https://link=
+.mail.bloombergbusiness.com/click/27201820.262606/aHR0cDovL3BlcnNvbmFsLmZpZ=
+GVsaXR5LmNvbS93ZWJ4cHJlc3MvaGVscC90b3BpY3MvbGVhcm5fZXh0ZW5kZWRfaG91cnNfdHJh=
+ZGluZy5zaHRtbCM6fjp0ZXh0PUZpZGVsaXR5JTIwYWNjZXB0cyUyMHByZW1hcmtldCUyMG9yZGV=
+ycyUyMGZyb20sRmlkZWxpdHklMjBvZmZlcmluZyUyMGV4dGVuZGVkJTIwaG91cnMlMjB0cmFkaW=
+5nJTNG/607f07ceef4b8524a319a23cB5fe8296d" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Fidelity</a>, <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly93=
+d3cuc2Nod2FiLmNvbS9wdWJsaWMvc2Nod2FiL25uL3FxL2Fib3V0X2V4dGVuZGVkX2hvdXJzX3R=
+yYWRpbmcuaHRtbCM6fjp0ZXh0PUV4dGVuZGVkJTIwSG91cnMlMjBTZXNzaW9ucyZ0ZXh0PU9yZG=
+VycyUyMGNhbiUyMGJlJTIwcGxhY2VkJTIwYXQsdG8lMjA0JTNBMDAlMjBwLm0uJTIwRVQuJnRle=
+HQ9UHJlJTJETWFya2V0JTNBJTIwT3JkZXJzJTIwY2FuJTIwYmUsYW5kJTIwOSUzQTI1JTIwYS5t=
+LiUyMEVULg/607f07ceef4b8524a319a23cB6bba7177" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Charles Schwab</a>=C2=
+=A0and=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/272018=
+20.262606/aHR0cHM6Ly9pYmtyLmluZm8vbm9kZS81NzYjOn46dGV4dD1PdXRzaWRlJTIwUmVnd=
+WxhciUyMFRyYWRpbmclMjBIb3VycyUyMGZvciUyMElCS1IlMjBMaXRlJTIwYWNjb3VudHMlMjBi=
+ZWdpbnMlMjBhdCwzMCUyRDE2JTNBMDAlMjBFU1Qu/607f07ceef4b8524a319a23cBaee3f064"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">Interactive Brokers</a>. Robinhood offered <em>shorter=C2=A0</em>t=
+rading hours than its competitors, and now it is catching up, and its stock=
+ is up 24%.</p><p style=3D"margin: 16px 0;">I suppose one way to read the p=
+rice move is that the market thinks that Robinhood, unlike its competitors,=
+ is really good at=C2=A0<em>influencing its customers=E2=80=99 behavior</em=
+>, and at <em>getting them to trade more</em>.[2] TD Ameritrade hires Lione=
+l Richie to pitch all-night stock trading during the Super Bowl, and its cu=
+stomers shrug and continue trading on their lunch breaks. Robinhood puts ou=
+t a blog post about after-hours trading, and its customers say =E2=80=9Cwel=
+l now I know what <em>I=E2=80=99m=C2=A0</em>doing between 6 and 8 every eve=
+ning!=E2=80=9D Other brokers try to satisfy customer demand for extended tr=
+ading, even if there isn=E2=80=99t very much of it; Robinhood creates its o=
+wn demand.</p><p style=3D"margin: 16px 0;">One more point about the extende=
+d session: The way this will work is not exactly that the dentists will tra=
+de stocks back and forth with each other at 7 p.m. The way this works is <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDUvcm9iaW5=
+ob29kLWdhbWVzdG9wLXNhZ2EtcHJlc3N1cmVzLXBheW1lbnQtZm9yLW9yZGVyLWZsb3c_Y21waW=
+Q9QkJEMDMzMDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZ=
+XR0ZXImdXRtX3Rlcm09MjIwMzMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b852=
+4a319a23cB853c891e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> the way that Robinhood trading works anyway<=
+/a>: Its customers will put in orders, and Robinhood will route those order=
+s to a <a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.26=
+2606/aHR0cHM6Ly9jZG4ucm9iaW5ob29kLmNvbS9hc3NldHMvcm9iaW5ob29kL2xlZ2FsL1JIUy=
+UyMFNFQyUyMFJ1bGUlMjA2MDYlMjBhbmQlMjA2MDclMjBEaXNjbG9zdXJlJTIwUTIlMjAyMDIxL=
+nBkZg/607f07ceef4b8524a319a23cBb810c36e" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">handful of big market ma=
+kers</a> (Virtu Financial Inc., Citadel Securities LLC, G1X Execution Servi=
+ces LLC, Two Sigma Securities LLC, etc.), and those market makers will fill=
+ those orders from their own inventory or execute them on an exchange or da=
+rk pool. In general, during the day, the market makers will fill the orders=
+ at a price that is at least as good as the =E2=80=9Cnational best bid and =
+offer=E2=80=9D: If you=E2=80=99re buying stock, the market maker will sell =
+it to you at either the lowest available price on a public stock exchange, =
+or a slightly lower price. They do this in part because of Robinhood=E2=80=
+=99s legal obligation to give you =E2=80=9Cbest execution=E2=80=9D on your =
+trades, but also because of a thicket of other rules (called =E2=80=9C<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aHR0cHM=
+6Ly93d3cuc2VjLmdvdi9zcG90bGlnaHQvcmVnbm1zLmh0bQ/607f07ceef4b8524a319a23cB65=
+88ca86" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">Regulation NMS</a>=E2=80=9D) regulating the routing of orde=
+rs and the priority of the best=C2=A0price.</p><p style=3D"margin: 16px 0;"=
+>After hours, when the exchanges are closed, or closed-ish, all of this is =
+a bit more relaxed. There are still best execution requirements, but the Re=
+g NMS rules about the national best bid and offer <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+zcG90bGlnaHQvZW1zYWMvbWVtby1ydWxlLTYxMS1yZWd1bGF0aW9uLW5tcy5wZGY/607f07ceef=
+4b8524a319a23cB798136c4" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">apply only during</a> =E2=80=9Cregular tra=
+ding hours.=E2=80=9D[3] There are fewer public quotes on public stock excha=
+nges, and fewer traders and market makers quoting the stock; market makers =
+will have to build their models of what the right price is based on more li=
+mited data. During the regular trading day, there are very visible prices a=
+nd fierce competition to make those prices as tight and accurate as possibl=
+e. At night, who knows! Spreads will presumably be wider,[4]=C2=A0and peopl=
+e who <a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262=
+606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDU=
+vcm9iaW5ob29kLWdhbWVzdG9wLXNhZ2EtcHJlc3N1cmVzLXBheW1lbnQtZm9yLW9yZGVyLWZsb3=
+c_Y21waWQ9QkJEMDMzMDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cC853c891e" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> complain about Robinhood selling its o=
+rders</a> to market makers will have more to complain about.</p><table clas=
+s=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D"0" cellspa=
+cing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzIwMTgyMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc0NjQ0MjYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDf73b2064" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27201820&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27464426&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzIwMTgyMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc0NjQ0MjYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEf73b2064" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27201820&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27464426&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzIwMTgyMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc0NjQ0MjYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF1975f6cd" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27201820&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27464426&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzIwMTgyMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc0NjQ0MjYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG1975f6cd" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27201820&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27464426&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Volcano bonds</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Maybe the one trade I have ever sugges=
+ted in this column (still not financial advice!) <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMjIvYmUtY2FyZWZ1bC13aXRoLXZvbGNhbm8=
+tYm9uZHM_Y21waWQ9QkJEMDMzMDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc2=
+91cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/=
+607f07ceef4b8524a319a23cBb6099e3d" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> was</a>:</p><ol style=3D"list-s=
+tyle-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"ma=
+rgin-bottom: 5px;">Don=E2=80=99t buy El Salvador=E2=80=99s =E2=80=9Cvolcano=
+ bond,=E2=80=9D a 6.5% 10-year dollar bond that also includes a call option=
+ on Bitcoins.</li>=09<li style=3D"margin-bottom: 5px;">Instead, buy El Salv=
+ador=E2=80=99s regular 8.25% dollar bond due in 2032 at like 75 cents on th=
+e dollar, and use the extra 25 cents to buy Bitcoin.</li></ol><p style=3D"m=
+argin: 16px 0;">I mean, I=E2=80=99m not saying you should do the second tra=
+de either, really. I=E2=80=99m just saying that if you find the volcano bon=
+d tempting, buying something that <em>is worth more in every scenario=C2=A0=
+</em>should be=C2=A0<em>more=C2=A0</em>tempting.</p><p style=3D"margin: 16p=
+x 0;">Since I wrote that, the 8.25% bonds have traded down to around 50 cen=
+ts on the dollar, for a yield of about 20%. Oops? Meanwhile the volcano bon=
+ds have not priced yet, but they continue to lurch along, apparently on the=
+ previously advertised terms. This makes them a much, much worse deal. But =
+they were always a bad deal, so it=E2=80=99s not clear why that would matte=
+r. Anyway here=E2=80=99s some more on the volcano bonds, <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly93d3cuZnQu=
+Y29tL2NvbnRlbnQvNGZhNjNjOGMtNTFmNS00NTEyLWI1MjItNzZkZDc1ZTYyOTE2/607f07ceef=
+4b8524a319a23cB3040b9cd" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">from the Financial Times</a>:</p><blockquo=
+te><p style=3D"margin: 16px 0;">El Salvador=E2=80=99s $1bn bitcoin-backed b=
+ond could tap deep wells of capital among cryptocurrency enthusiasts after =
+many big international investors have shunned the project.</p><p style=3D"m=
+argin: 16px 0;">Demand from bitcoin =E2=80=9Cwhales=E2=80=9D =E2=80=94 inve=
+stors holding large quantities of the world=E2=80=99s biggest cryptocurrenc=
+y =E2=80=94 is likely to be crucial to fundraising for the bond, according =
+to people involved with the effort. ...</p><p style=3D"margin: 16px 0;">The=
+ optimism in the crypto community for the offering, which is the first of i=
+ts kind from a sovereign borrower, sharply contrasts with most large tradit=
+ional investors, who have said they are highly sceptical of the deal.</p><p=
+ style=3D"margin: 16px 0;">Buyers of the 10-year bitcoin bond =E2=80=94 whi=
+ch offers an annual interest rate of 6.5 per cent along with a share of any=
+ upside from the proceeds invested in bitcoin =E2=80=94 would be offering f=
+inancing on favourable terms to El Salvador, whose existing 10-year dollar =
+bonds currently yield in excess of 20 per cent.</p><p style=3D"margin: 16px=
+ 0;">After a five-year lock-up period El Salvador will sell bitcoin until i=
+t recoups its initial investment and then share half of any profit with inv=
+estors.</p><p style=3D"margin: 16px 0;">Those yields have climbed sharply a=
+s most investors took a dim view of Bukele=E2=80=99s experiments with crypt=
+ocurrency, warning that the bitcoin bond could push El Salvador further fro=
+m access to traditional debt markets and hurt its relationship with the IMF=
+.</p></blockquote><p style=3D"margin: 16px 0;">Sure. Look, if you want expo=
+sure to El Salvador=E2=80=99s credit and Bitcoin, you can spend 50 cents on=
+ El Salvador bonds and 50 cents on Bitcoin and get something that is so, so=
+ much better than a volcano bond. But you don=E2=80=99t want that. You want=
+ to either (1) stay far away from all of this or (2) buy some <em>crypto fi=
+nancial engineering</em>. You want to buy a Bitcoin-linked sovereign bond b=
+ecause that sounds cool, or because you want to support a country=E2=80=99s=
+ experiment with Bitcoin as legal currency, or because you want to support =
+the development of an ecosystem of crypto-linked bonds. You might want that=
+ out of, like, naive aesthetic enthusiasm. Or you might be a crypto whale w=
+hose net worth is highly levered to the continuing broad adoption of crypto=
+. You are more or less=C2=A0<em>donating=C2=A0</em>money to El Salvador to =
+make this project work, but that might be a positive-value trade for you.</=
+p><p style=3D"margin: 16px 0;">Meanwhile if the volcano bond is issued, do =
+you think that the prices will be arbitraged? Like will someone buy regular=
+ El Salvador bonds plus Bitcoin and short the volcano bond until the prices=
+ get back in line? No, they absolutely will not; nobody really knows how th=
+e volcano bonds will work yet (=E2=80=9CImportant details of the bond would=
+ need to be ironed out, requiring the passing of new securities laws in El =
+Salvador=E2=80=9D), but I am sure that it will be unusually painful to sell=
+ them short. The volcano bonds will trade among crypto enthusiasts and the =
+regular bonds will trade among emerging-markets credit enthusiasts and they=
+ will never have any interaction with each other.</p><table class=3D"livein=
+tent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"cen=
+ter">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNzIwMTgyMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc0NjQ0MjYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH1a8ae4e0" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D27201820&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27464426&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Ronin</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Axie Infinity is an online world where=
+ people <a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.2=
+62606/aHR0cHM6Ly9lei5zdWJzdGFjay5jb20vcC90aGUtaW5maW5pdGUtZXhwbG9pdGF0aW9uL=
+W9mLWNyeXB0b2N1cnJlbmN5P3M9cg/607f07ceef4b8524a319a23cB77512ddb" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+toil in indentured servitude</a> to earn cryptocurrency for =E2=80=9Csponso=
+rs=E2=80=9D who take as much as 90% of their earnings, but on the blockchai=
+n. Also I guess it is a video game. I <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/27201820.262606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjEtMDgtMjYvYWNjdXNlZC1wb256aS1zY2hlbWVyLWtlcHQtYnVzeT=
+9jbXBpZD1CQkQwMzMwMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMjAzMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cBc164bb7b" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> once wrote about it</a>:</p><blockquote=
+><p style=3D"margin: 16px 0;">Doesn=E2=80=99t it feel like the dystopian fu=
+ture we deserve? Like in a decade everyone will make their living by steeri=
+ng colorful blob-like creatures around to acquire coins in a virtual world,=
+ but ownership of the colorful blob-like virtual creatures will be concentr=
+ated among a hereditary elite of people who, like, bought Dogecoin in 2014,=
+ and in order to scrape together enough to live on you will need to indentu=
+re yourself to a member of that elite, steering their blob-like virtual cre=
+atures around to earn coins for them and getting a few crumbs for yourself.=
+ And you=E2=80=99ll work 16-hour days in the Smooth Love Potions mines just=
+ to feed your children, but every once in a while in a rare free moment you=
+ will stop and ask yourself =E2=80=9Cwait why do our overlords want all the=
+se Smooth Love Potions anyway?=E2=80=9D</p><p style=3D"margin: 16px 0;">Mea=
+nwhile the overlords will form a leisure class and devote themselves to phi=
+losophy and philanthropy. They=E2=80=99ll keep busy collecting non-fungible=
+-token art and putting their names on virtual library buildings in the meta=
+verse and writing manifestos about how cryptocurrency enhances human freedo=
+m and levels the playing field for everyone.</p></blockquote><p style=3D"ma=
+rgin: 16px 0;">Anyway, good news, <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/27201820.262606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjItMDMtMjkvaGFja2Vycy1zdGVhbC01OTAtbWlsbGlvbi1mcm9tLXJvbmluLW=
+luLWxhdGVzdC1icmlkZ2UtYXR0YWNrP2NtcGlkPUJCRDAzMzAyMl9NT05FWVNUVUZGJnV0bV9tZ=
+WRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMzMCZ1dG1fY2Ft=
+cGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB1f18cda2" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> hackers =
+stole its cryptocurrency</a>:</p><blockquote><p style=3D"margin: 16px 0;">H=
+ackers stole about $600 million from a blockchain network connected to the =
+popular Axie Infinity online game in one of the biggest crypto attacks to d=
+ate.</p><p style=3D"margin: 16px 0;">Computers known as nodes operated by A=
+xie Infinity maker Sky Mavis and the Axie DAO that support a so-called brid=
+ge -- software that lets people convert tokens into ones that can be used o=
+n another network -- were attacked, with the hacker draining what=E2=80=99s=
+ known as the Ronin Bridge of 173,600 Ether and 25.5 million USDC tokens in=
+ two transactions. The breach happened on March 23, but was only discovered=
+ Tuesday, according to=C2=A0<a href=3D"https://link.mail.bloombergbusiness.=
+com/click/27201820.262606/aHR0cHM6Ly90d2l0dGVyLmNvbS9Sb25pbl9OZXR3b3JrL3N0Y=
+XR1cy8xNTA4ODI4NzE5NzExODc5MTY4/607f07ceef4b8524a319a23cB3228b83b" target=
+=3D"_blank" title=3D"Link to Website" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">Ronin</a>, the bloc=
+kchain that supports Axie Infinity.</p></blockquote><p style=3D"margin: 16p=
+x 0;">Here is <a href=3D"https://link.mail.bloombergbusiness.com/click/2720=
+1820.262606/aHR0cHM6Ly9yb25pbmJsb2NrY2hhaW4uc3Vic3RhY2suY29tL3AvY29tbXVuaXR=
+5LWFsZXJ0LXJvbmluLXZhbGlkYXRvcnM_cz13/607f07ceef4b8524a319a23cBfc305c4f" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">Ronin=E2=80=99s explanation</a> of the hack, which is basically =E2=
+=80=9Cwe had secure validation procedures, but they took too long, so we bu=
+ilt a shortcut when things got busy, and then we forgot to turn off the sho=
+rtcut.=E2=80=9D Nobody cares less about information security than the build=
+ers of cryptocurrency projects.</p><table class=3D"header" width=3D"100%" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Virtual interview cheating</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">When I was an investment banker, I wou=
+ld occasionally interview undergraduates looking to get banking jobs. I am =
+trying to imagine what I would have said if one of them had walked into the=
+ room, pulled out a computer, and said =E2=80=9CI=E2=80=99m sorry, do you m=
+ind? I spent 12 hours preparing a hyperlinked document with answers to a ra=
+nge of possible interview=C2=A0questions, and I=E2=80=99d like to refer to =
+it during our interview. For instance, if you were to ask me =E2=80=98what =
+are your strengths and weaknesses,=E2=80=99 I=E2=80=99d click into the =E2=
+=80=98Behavioral=E2=80=99 section, then the =E2=80=98Strengths &amp; Weakne=
+sses=E2=80=99 subsection, and I would read off my bullet-pointed list of re=
+sponses. I think this will make this process more efficient and informative=
+ for both of us.=E2=80=9D</p><p style=3D"margin: 16px 0;">I think I would =
+=E2=80=A6=C2=A0obviously have hired that person on the spot? That person ha=
+s what it takes to be an investment banker! Ooh, so she has to look at her =
+notes to do an accretion/dilution model, who cares, you can look at your no=
+tes on the job. That=E2=80=99s a person who obsessively prepped for a meeti=
+ng! =E2=80=9CObsessively preps for=C2=A0meetings=E2=80=9D is the whole job =
+of a junior investment banker! What else could the banks possibly be hiring=
+ for if not that?</p><p style=3D"margin: 16px 0;">Anyway here is a <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aHR0cHM6L=
+y93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9ob3ctc3R1ZGVudHMtdXNlZC1jaGVhdC1zaGVldHMt=
+b25saW5lLWludGVydmlld3Mtd2FsbC1zdHJlZXQtaW50ZXJuc2hpcHMtMjAyMi0z/607f07ceef=
+4b8524a319a23cBbf426d57" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">hilarious Insider story</a> about college =
+students who =E2=80=9Ccheated=E2=80=9D in virtual i-banking interviews by s=
+preading hyperlinked notes around their Zoom windows, and now are worried t=
+hat they won=E2=80=99t be able to =E2=80=9Ccheat=E2=80=9D anymore as interv=
+iewing is increasingly in-person again:</p><blockquote><p style=3D"margin: =
+16px 0;">"To be honest, I'm really worried about how I'll do during my inte=
+rviews now since I won't have access to the materials I had during COVID," =
+said one Wharton student who asked not to be identified in order to openly =
+discuss the use of these answer sheets. "Everybody's hush-hush about full-t=
+ime recruiting, but I know it's on everybody's mind." =E2=80=A6</p><p style=
+=3D"margin: 16px 0;">The Wharton undergrad who bemoaned the loss of virtual=
+ interviews admitted to using a Google Doc with notes on behavioral questio=
+ns while recruiting for 2022 summer analyst roles last spring. In addition =
+to the Google Doc, the student also relied on 10 pages of handwritten notes=
+ that addressed technical questions. The handwritten notes were spread out =
+under this person's computer.</p><p style=3D"margin: 16px 0;">When recruite=
+rs asked technical questions about topics like LBO modeling, the student wa=
+s able to look down to refer to these papers since recruiters expected that=
+ candidates would jot down shorthand notes on scratch paper on their desks =
+in order to perform calculations.</p><p style=3D"margin: 16px 0;">Preparing=
+ the notes took almost 12 hours, the student estimated.</p><p style=3D"marg=
+in: 16px 0;">Another student =E2=80=A6 described how she and some of her fr=
+iends peppered their Google Docs with hyperlinked tables of contents which =
+enabled them, quick as a flash, to jump directly down to the answers to alm=
+ost any question they were asked.=C2=A0</p><p style=3D"margin: 16px 0;">Mos=
+t students set up their tables of contents using key terms like "behavioral=
+s," she said, giving users near-instantaneous access to bulleted notes for =
+questions like: "What are your strengths and weaknesses?"=C2=A0</p></blockq=
+uote><p style=3D"margin: 16px 0;">Honestly why even interview, just have th=
+e candidates send the banks PowerPoint decks charting their strengths and w=
+eaknesses. The formatting of the PowerPoint deck will be way more informati=
+ve, for junior banker hiring, than the answers.</p><table class=3D"header" =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Goldman</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">=E2=80=9CJunior bankers at Goldman Sac=
+hs are threatening to quit over demands that they show up to the office fiv=
+e days a week,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/27201820.262606/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjIvMDMvMzAvanVuaW9yLWdvb=
+GRtYW4tc2FjaHMtYmFua2Vycy10aHJlYXRlbi10by1xdWl0LW92ZXItNS1kYXlzLWEtd2Vlay1v=
+ZmZpY2UtcnVsZS8_dXRtX3NvdXJjZT1ueXBidXNpbmVzc3R3aXR0ZXImdXRtX2NhbXBhaWduPVN=
+vY2lhbEZsb3cmdXRtX21lZGl1bT1Tb2NpYWxGbG93/607f07ceef4b8524a319a23cB040d7ee3=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">it says here</a>, and I feel inconceivably old. Disclosure! I wor=
+ked at Goldman =E2=80=94 I left=C2=A010 (!)=C2=A0years ago =E2=80=94=C2=A0a=
+nd if you had told me then=C2=A0that one day JUNIOR BANKERS AT GOLDMAN SACH=
+S WOULD COMPLAIN ABOUT SHOWING UP TO THE OFFICE FIVE DAYS A WEEK I simply w=
+ould not have believed you. =E2=80=9CJunior bankers at Goldman Sachs are th=
+reatening to quit over demands that they show up to the office seven days a=
+ week,=E2=80=9D maybe, if it was=C2=A0<em>every=C2=A0</em>week, but five? I=
+n investment banking? Nothing says =E2=80=9CCovid-19 has permanently change=
+d the world of work=E2=80=9D like =E2=80=9CJunior bankers at Goldman Sachs =
+are threatening to quit over demands that they show up to the office five d=
+ays a week.=E2=80=9D Five!</p><p style=3D"margin: 16px 0;">I=E2=80=99m sure=
+ it=E2=80=99s unpleasant but still:</p><blockquote><p style=3D"margin: 16px=
+ 0;">As bonuses across Wall Street hit record highs, underlings at Goldman =
+=E2=80=94 headed by hard-charging Chief Executive David Solomon =E2=80=94 a=
+re nevertheless stepping up complaints of =E2=80=9Chellhole=E2=80=9D workin=
+g conditions that have notoriously included 100-hour weeks.</p><p style=3D"=
+margin: 16px 0;">Most recently, some junior Goldmanites claim that they are=
+ being =E2=80=9Cbullied=E2=80=9D into showing up in person =E2=80=9C5-0=E2=
+=80=9D =E2=80=94 meaning five days working in the office, zero from home =
+=E2=80=94 and that the bullying is being orchestrated by top managers armed=
+ with spreadsheets.</p><p style=3D"margin: 16px 0;">=E2=80=9CIn GS, the top=
+ management says it=E2=80=99s employees choice but internally they track wh=
+ich team has most in office attendance,=E2=80=9D one Goldman employee wrote=
+ on the corporate message board Blind, which verifies users=E2=80=99 place =
+of employment with the help of their company email accounts. =E2=80=A6</p><=
+p style=3D"margin: 16px 0;">A Goldman spokesperson declined to comment for =
+the record. A person close to the bank disputed there was widespread frustr=
+ation. =E2=80=9CFar from a scientific survey, The Post has chosen a handful=
+ of comments submitted to an online forum no one has heard of.=E2=80=9D</p>=
+</blockquote><p style=3D"margin: 16px 0;">Probably some of them would like =
+to come in to the office less often, sure. But they work at Goldman!=C2=A0<=
+/p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">From VW to JPMorgan, the Unlikely Cast=
+ Behind <a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.2=
+62606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjkvZ=
+nJvbS12dy10by1qcG1vcmdhbi10aGUtdW5saWtlbHktY2FzdC1iZWhpbmQtbmlja2VsLXMtYmln=
+LXNxdWVlemU_Y21waWQ9QkJEMDMzMDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzMwJnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cBa95dc2d6" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> Nickel=E2=80=99s Big Squeeze=
+</a>.=C2=A0Icahn <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+7201820.262606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjIt=
+MDMtMjkvaWNhaG4tbm9taW5hdGVzLWtyb2dlci1kaXJlY3RvcnMtaW4tYmlkLWZvci1odW1hbmU=
+tcGlnLXRyZWF0bWVudD9jbXBpZD1CQkQwMzMwMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYW=
+lsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMzAmdXRtX2NhbXBhaWduPW1vb=
+mV5c3R1ZmY/607f07ceef4b8524a319a23cB0bc6650f" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> Blasts Kroger</a> fo=
+r Low Wages, =E2=80=98Torturous=E2=80=99 Pig Crates. Hedge Funds That Took =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjkvaGVkZ2UtZ=
+nVuZHMtdGhhdC10b29rLWFicmFtb3ZpY2gtcy1iaWxsaW9ucy1oYXZlLW5vLXdheS1vdXQ_Y21w=
+aWQ9QkJEMDMzMDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3N=
+sZXR0ZXImdXRtX3Rlcm09MjIwMzMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8=
+524a319a23cBa120753a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Roman Abramovich=E2=80=99s Billions</a> Have=
+ No Way Out. Germany Braces for Less Gas as Russia Demands <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly93d3cud3=
+NqLmNvbS9hcnRpY2xlcy9nZXJtYW55LWJyYWNlcy1mb3ItbGVzcy1nYXMtYXMtcnVzc2lhLWRlb=
+WFuZHMtcnVibGUtcGF5bWVudHMtMTE2NDg2MzMwMTY/607f07ceef4b8524a319a23cBf3f0c01=
+d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Ruble Payments</a>. Bankers Are Still Standing Behind the <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMzAvYmFua2Vycy1zd=
+GlsbC1zdGFuZC1iZWhpbmQtZGlydGllc3QtZm9zc2lsLWZ1ZWwtZ3JlZW4taW5zaWdodD9jbXBp=
+ZD1CQkQwMzMwMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2x=
+ldHRlciZ1dG1fdGVybT0yMjAzMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b85=
+24a319a23cB3594cdf4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Dirtiest Fossil Fuel</a>. <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjkvY2hpY2tlbi1wcmljZS1maXhpbmc=
+tdHJpYWwtZW5kcy1pbi1taXN0cmlhbC1mb3ItYS1zZWNvbmQtdGltZT9jbXBpZD1CQkQwMzMwMj=
+JfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fd=
+GVybT0yMjAzMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB6cb=
+f2931" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Chicken Price-Fixing Prosecution</a> Ends in Second Mistria=
+l.=C2=A0Bombardier Hires Cravath, Seeks to Dismiss <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMjkvYm9tYmFyZGllci1oaXJlcy1jcmF2YXRoL=
+XNlZWtzLXRvLWRpc21pc3MtYm9uZC1kZWZhdWx0LWxhd3N1aXQ_Y21waWQ9QkJEMDMzMDIyX01P=
+TkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm0=
+9MjIwMzMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBda298858=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> Bond Default Lawsuit</a>. People are worried about <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMzAvYW4tYWEtcmF0ZWQtZ292ZX=
+JubWVudC1ib25kLWRvd24tNTUtc2hvd3MtdGhlLXBhaW4tb2YtaGlnaGVyLXJhdGVzP2NtcGlkP=
+UJCRDAzMzAyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0=
+dGVyJnV0bV90ZXJtPTIyMDMzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524=
+a319a23cB632ee537" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> duration</a>. =E2=80=9C=E2=80=98When you invest=
+ in China, there=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27201820.262606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbG=
+VzLzIwMjItMDMtMjkvZXgtZ29sZG1hbi1iYW5rZXItcy13aWZlLXNheXMtc2hlLWhhcy1uby1wc=
+m9vZi1vZi1pbnZlc3RtZW50cz9jbXBpZD1CQkQwMzMwMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVt=
+PWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMzAmdXRtX2NhbXBhaWd=
+uPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7111e929" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> no point for d=
+ocuments</a>,=E2=80=99 Lim said. =E2=80=98Even if I have a document, where =
+do I go to enforce it?=E2=80=99=E2=80=9D=C2=A0California man caught with <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aHR0=
+cHM6Ly9iYW5nb3JkYWlseW5ld3MuY29tLzIwMjIvMDMvMjYvbmV3cy9uYXRpb24vbWFuLWNhdWd=
+odC13aXRoLWRvemVucy1vZi1saXphcmRzLWluLWhpcy1jbG90aGVzLWlzLWNoYXJnZWQtd2l0aC=
+1zbXVnZ2xpbmctMTcwMC1yZXB0aWxlcy8/607f07ceef4b8524a319a23cB63830001" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">dozens of lizards</a> in his clothes is charged with smuggling 1,700 rept=
+iles.=C2=A0</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-fo=
+r-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in ha=
+ndy email form, right in your inbox, please=C2=A0<a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27201820.262606/aHR0cDovL2xpbmsubWFpbC5ibG9v=
+bWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzA=
+wMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBe4654dff" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">subscribe at this link</a>. Or you can subs=
+cribe to Money Stuff and other great Bloomberg newsletters <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly9sb2dpbi=
+5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBc8b484f7" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">here</a>. Thank=
+s!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] There are also dark =
+pools =E2=80=94=C2=A0ECNs, for =E2=80=9Celectronic communications network=
+=E2=80=9D =E2=80=94=C2=A0that keep later hours than the exchanges.</em></p>=
+<p style=3D"margin: 16px 0;"><em>[2] Another way to read it is: =E2=80=9CRo=
+binhood=E2=80=99s shareholders, who are often also its customers, are prett=
+y meme-focused, and the fact that this sounds good to them is enough to pus=
+h up the stock even though every other retail broker already does it.=E2=80=
+=9D</em></p><p style=3D"margin: 16px 0;"><em>[3] See <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/27201820.262606/aHR0cHM6Ly93d3cubGF3LmNv=
+cm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0Mi42MTE/607f07ceef4b8524a319a23cB5737bec0" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">Rule 611</a>, and the definition of =E2=80=9Ctrade-through=E2=80=9D=
+ in <a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.26260=
+6/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0Mi42MDA/607f07cee=
+f4b8524a319a23cB8bcd7c9e" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Rule 600(b)(94)</a>.</em></p><p style=3D"=
+margin: 16px 0;"><em>[4] Not just because there is less competition among m=
+arket makers, by the way. There is also a higher risk of adverse selection:=
+ If someone is trading after hours, and dealing with the illiquidity and wi=
+de spreads, it is probably because they are particularly axed to trade. Per=
+haps they have a lot of stock to sell, which will move the price, or perhap=
+s they know something about the stock that is not yet reflected in the pric=
+e. (After all, a lot of news comes out before the open or after the close, =
+meaning you can trade on it in the extended session.) This is all bad for m=
+arket makers: There=E2=80=99s more risk of adverse selection in the extende=
+d session. So they need to charge wider spreads.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBdff1280f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBa957497d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB61575c8b" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB41b2b774" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNzIwMTgyMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc0NjQ0MjYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI7e50ffb9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D27201820&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27464426&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2720182=
+0.262606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBb1b84dcd" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27201820.262606/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC4159d78e" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27201820.262606/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB18b8812c" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27201820.262606/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBfffce0f5" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB1=
+c729406" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27201820.262606/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB9=
+ed0a593" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D272018=
+20&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27464426&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D272018=
+20&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27464426&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D272018=
+20&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27464426&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D272018=
+20&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27464426&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D272018=
+20&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27464426&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg7124.5mmm/f43fe155.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9229655_156758429.1648660149371--
+

@@ -1,0 +1,2094 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:10d5:b0:1b9:b7d6:557d with SMTP id cc21csp4182967lkb;
+        Mon, 9 May 2022 11:11:51 -0700 (PDT)
+X-Received: by 2002:a7b:cc12:0:b0:37c:1ae:100a with SMTP id f18-20020a7bcc12000000b0037c01ae100amr23692941wmh.54.1652119911212;
+        Mon, 09 May 2022 11:11:51 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1652119911; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=diJynIduDKv64SQVRzBlexf5dqlapSWPGQRXkXcpU8YJg+NpUQBRMGXrhAiBT8lbYB
+         UYsQ18yIOJFWP/2rGgDVMBMGB7bFWswe33hvsGnG34VGY5WonYZ1/wBXz5fSFzlqFkvu
+         zCReM0Utalr037fhrWvrQ4pT00zfQ1XVBWkS8SnT3P+h4rY35vg1m+xPFBZqcUU6sfRb
+         WATRzoreBqJsoqdjZwTe1RypYmENVkT4hrB98qwLBtfVuj947fNqfmNYHs+/X5HllpZJ
+         vrzOaqCxekRNct3sfz7c3rD7uvThzh2nKJMCgH/HRJKXxbcenj360YFn1pFM7TT59uHY
+         WgUQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=s/cXwnJDVYyw5odHm9M22f0k91G78XMMJ0/n9UPHuNI=;
+        b=BowRGI5zF0BIm4iru5C/dc+vvrsDM1GN1Lgd+ILKAo6CTqhwygnvTTNrlthRxZ8jXk
+         lJnOEm5wULlGPeQ+dS1V39xlO0teRUbpxEIlUWIbiMr+3Qk9nBT5FOZ485+a1RjNoXYp
+         1+crvOCnUn00FaxaucM5qNCh9q4EU6yY6K05DSKFWfyWJQp4Q17SmP4wBQSIDWS2b5b9
+         sAurHsAvpxOKjidmqsCa30b7+ZHAYnrXPQNi4zX2H4spL0+crtHg/m+5yx8Puc9Z3mMr
+         qz8BL7gzEg97/sTQmjHRuWREAC7MH2n2b1SkLl98ynTD0OBf899go8G27VGeJ9Pog7f8
+         M4QQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=WOSMXJRt;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g6-20020a05600c4ec600b00389b5871ecfsor2715895wmq.17.2022.05.09.11.11.50
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 09 May 2022 11:11:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=WOSMXJRt;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=s/cXwnJDVYyw5odHm9M22f0k91G78XMMJ0/n9UPHuNI=;
+        b=vV/6KFOz77MKIVMv4omtImgOPeF0ueD7yYLeJEcXnWKjsNFYqnjstlSHIt4Gy4cCCa
+         N2CxqNNbCBudQuZT7c7Ny0WLeZ6rMwaK/guy2dT/2EGMekGkFSWoUYdY3rk4sYZipKVF
+         NI2VgIqq9FJ6Y/hgL8QV5CXfVZnanYkUCT2ctiMDiByLMQfQwow9zhOE6tsCDOrXLx/u
+         ILX6rP3O/AyI73tQYcjFxi5HcJnYNF0AMT/J8IrWUspz7oaNYSVf4US2wIn0ZbIhVnBJ
+         vyaOZz2QzF/DQCWwMOCE1zOfYp/XGky1pobD+nqXWqcLF3QrtY30Q6AsX4iigjLtJB4R
+         10Uw==
+X-Gm-Message-State: AOAM532w4zwzVoT/0WiXs7givtTVXMD0ZONmeaSJNm9L6s7w6oTuPQHv
+	EG5bDq7kFLQBEM56fqNveKWesWNIirWe/SoDrfdCOXjp6uE5NFThvg==
+X-Received: by 2002:a05:600c:3583:b0:394:77fc:d6a2 with SMTP id p3-20020a05600c358300b0039477fcd6a2mr17307800wmq.63.1652119910436;
+        Mon, 09 May 2022 11:11:50 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f74a:0:0:0:0:0 with SMTP id z10csp3046033wrp;
+        Mon, 9 May 2022 11:11:48 -0700 (PDT)
+X-Received: by 2002:a17:906:5d11:b0:6f5:942e:bc60 with SMTP id g17-20020a1709065d1100b006f5942ebc60mr13690644ejt.254.1652119907656;
+        Mon, 09 May 2022 11:11:47 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1652119907; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=QGTqjD2uazLvART8vtZ2iGtHSIe+mFXETh8hePVxhB8p1mNS44pfYnvcc+ayDSli37
+         3KMz0ECzfH/cH7P4vFDgXiTEgspifDo4ZgTsuxXEKUtnTk3K6Nv9c7SO9ugJWmQ/No2H
+         xqr6u2t+ntwaG1afWvlTl6oQEM5nSFzVq+PgRO1VxgOUHYzGg4MJDl2uKgNzzPmW9GPS
+         IpaaDKwdgWeGZsWzSZspB+eo0R02XcFDNidmXS4+102aZ9zVL7kySMeyyTbJotq7JYEn
+         wxRkGfVqQrL6H6TN2YHjknReAeLsSKnJ9bOSVgvBseXb/uBF2xUPypfSyUm9RSpfp4Us
+         XGpQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=s/cXwnJDVYyw5odHm9M22f0k91G78XMMJ0/n9UPHuNI=;
+        b=P5fVwlno48aFD2IqVqRfBIwdFInAHd9z8i6sUYhPe9wigsK172pu4iomalkUIABMXU
+         7SGZMIPc4bf7n02BOA5zEVzrKx2ZU0SYLDUlekYSQjVmZ3egzf73gcqVVTuXHxSH14KI
+         mLJ3I842HinB4CT2bUR8fM756zYMlWJ+JUlV7Mnq7D9NXuzXdKraWSp7a2G5ZOWFfKWs
+         QlrCK0s9IXNn7FI9u6eycsWWQQsnJz0OEp2rFzy3QSfOL526+YD1swqbXovfp099yi7P
+         3yXAziCupjN0huLppcrPyJ1FL/0AZTBIzVdoHPMOny6kzBeqOZLpPYxOJRdF/rrC8srW
+         85aQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=WOSMXJRt;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220509141054.27652254.263132@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220509141054.27652254.263132@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220509141054.27652254.263132@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id y71-20020a50bb4d000000b00425a6d1035fsor8054964ede.23.2022.05.09.11.11.47
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 09 May 2022 11:11:47 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220509141054.27652254.263132@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwObZXV6086GgXQxZS9h8JjAJl0foKXMUeyIlCXpsq4EICWg1XEbAJ+XaN4t6sJZKn3qkCWAq7dZ3SQ5TlNwVs2bYuRqho=
+X-Received: by 2002:a50:f14e:0:b0:427:efb9:1bbb with SMTP id z14-20020a50f14e000000b00427efb91bbbmr18488347edl.322.1652119907191;
+        Mon, 09 May 2022 11:11:47 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1652119907; cv=none;
+        d=google.com; s=arc-20160816;
+        b=JbPIYu6/Z7Qt6ygr9bopf6K0bDwRe9knZTsynrPrewzSQ5cqIPauDil3SqGsXtrqp+
+         2LCfdl1GgA+GVuWN5Y0xZsYo6wI7ukTKmgt+f7avVUHFG8CvNmznsup8wJm/jv1K/Ckv
+         INhKUFCwTdrurG4ExFFCYSnPoxgjQVlQgv96kMOpoz6r97objVfPDGUzxJ6zxMrPlPKa
+         2uMsNSMsBmlCiMz2M5iDeYRRfeJGga+Dy2uRwJDhbz6MZJdZvFMEgKgbLZxwd0JuKxGY
+         xARJWvPxLOZa8eR3JiMmScdahfbGQ5VuAUNzF98/HLLjuWZ2u5csbOfo3OCs6G0eMH5b
+         7cmA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=s/cXwnJDVYyw5odHm9M22f0k91G78XMMJ0/n9UPHuNI=;
+        b=Z08I7b5HjE4y066pyxV/Gf9VrcAGSIU3ZTEV/7E1mGLidUPyAv/1JmRqSgDpRHmp4H
+         aTzoW29yUWDXNqNVbhmhkMwgeIdomGKr+TrTHSOLX9/MMNb64d/R/W1hil19mszFyG+n
+         HL9aQE3VjyiPiZeiLUMRldJSRtibSzsqPP3oCxDzTB7WOOOqXs5Rn3EaAy0wDP5K3yLi
+         E7geV336kBbS9ioKnnPb41idl35PZJTKEGTYbAq/ulPGfUpmEJtYU/4FLO2g5m9n4tBO
+         0jNShE7whgcY71+QA21kXS2V0uB6FQBSHcKcUywxchgUoK9nF0TXJVKVFOxuM8NqSh1G
+         KhhQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=WOSMXJRt;
+       spf=pass (google.com: domain of delivery_20220509141054.27652254.263132@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220509141054.27652254.263132@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220509141054.27652254.263132@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id s3-20020aa7cb03000000b0042888ee8cfdsi311374edt.5.2022.05.09.11.11.46
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 09 May 2022 11:11:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220509141054.27652254.263132@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=XB9xc6R88XUKIKvjjlb1keOljic3Ek3NY2G05/RuFko=;
+ b=WOSMXJRtJlOCgxN2drjoBRBbwCdRkoCN/a1g0UouNEBXGGIfuNQMR4uzRSae08irFIgBEWxNn0M+
+   aoEbHcZBv2JXVDUxkcbHDYnSHRxx4p8W/XVbUdBPJp/zMY+XDFHZZHgxqCsK+WmfKjjv4MuIwb2f
+   t9e5nyk2lxKn4VbttsY=
+Received: from njmta-90.sailthru.com (173.228.155.90) by pmta29.sailthru.com id hf5cm22sd4s8 for <bloomberg@khamel.com>; Mon, 9 May 2022 14:11:45 -0400 (envelope-from <delivery_20220509141054.27652254.263132@mx.sailthru.com>)
+Received: from nj1-madbrick.flt (172.18.20.7) by njmta-90.sailthru.com id hf5cm21qqbsl for <bloomberg@khamel.com>; Mon, 9 May 2022 14:10:54 -0400 (envelope-from <delivery_20220509141054.27652254.263132@mx.sailthru.com>)
+Date: Mon, 9 May 2022 14:10:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220509141054.27652254.263132@sailthru.com>
+Subject: Money Stuff: Musk Twitter Has New Owners
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_74580345_240204521.1652119854483"
+Precedence: bulk
+X-Feedback-ID: 6358:27652254:campaign:sailthru
+X-TM-ID: 20220509141054.27652254.263132
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-madbrick.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cggom6.5n18/8212ba0c
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cggom6.5n18/8212ba0c>, <mailto:unsubscribe_20220509141054.27652254.263132@mx.sailthru.com>
+X-rpcampaign: stjko27652254
+
+------=_Part_74580345_240204521.1652119854483
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Musk StuffLast month, when Elon Musk first proposed to buy Twitter =
+Inc. for $54.20 per share, Saudi Prince Alwaleed bin Talal, who owns abou
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Musk Stuff
+   =20
+ =20
+Last month, when Elon Musk first proposed to buy Twitter Inc. for $54.20 pe=
+r share, Saudi Prince Alwaleed bin Talal, who owns about 4.6% of Twitter,  =
+said no. He tweeted=C2=A0that Musk=E2=80=99s offer did not =E2=80=9Ccome cl=
+ose to the intrinsic value=E2=80=9D of Twitter. (Musk replied by asking Alw=
+aleed about his views on free speech.)Eventually Twitter=E2=80=99s board ap=
+proved a merger at $54.20 per share. But last=C2=A0week, Musk announced tha=
+t Alwaleed will not be taking the $54.20. His Kingdom Holding Co.=C2=A0has =
+agreed to keep=C2=A0its shares and roll them over into=C2=A0the new, Musk-o=
+wned Twitter. Incredibly, Elon Musk is finally going to take a public compa=
+ny private with Saudi funding.The advantage of this for Alwaleed is that=C2=
+=A0he thinks Twitter is worth more than $54.20 per share and gets to keep o=
+wning Twitter. Sure he thought that a public, non-Musk-controlled Twitter w=
+as worth more than $54.20, and now he is stuck owning a private Musk Twitte=
+r, but if you believe Musk=E2=80=99s projections then Musk Twitter is worth=
+ way=C2=A0more=C2=A0than regular Twitter.The advantage for Musk is mostly=
+=C2=A0that it saves him some cash:=C2=A0Paying $54.20 per share to Alwaleed=
+ for his 34.9 million shares would cost almost $1.9 billion in cash. Rollin=
+g him over costs nothing. Well, no, actually it costs Musk something like 6=
+% of whatever profits he ends up making on Twitter.[1] But it doesn=E2=80=
+=99t cost him any=C2=A0cash, now, which probably matters.There is another a=
+dvantage for Musk, which is that Alwaleed (1) owns 4.6% of Twitter=E2=80=99=
+s stock and (2) thinks the deal price is too low. If he were=C2=A0not=C2=A0=
+rolling over his stake into Musk Twitter, you might expect him to vote=C2=
+=A0against=C2=A0the merger. But since he is now on Musk=E2=80=99s team, you=
+=E2=80=99d expect him to vote=C2=A0for=C2=A0the merger.[2] I don't have muc=
+h reason to think that many Twitter shareholders will vote against the deal=
+ =E2=80=94=C2=A0the stock closed at $49.80 on Friday, suggesting that most =
+shareholders disagree with Alwaleed that $54.20 is too low =E2=80=94=C2=A0b=
+ut perhaps this does help lock in votes.Alwaleed=E2=80=99s plan to roll his=
+ shares into Musk Twitter was disclosed in a filing last week describing eq=
+uity commitments that Musk has gotten from investors who plan to join him i=
+n owning the new, private Twitter. They total about $7.1 billion so far. Mu=
+sk had  initially committed to put up, in essence, $33.5 billion of his own=
+ money: $12.5 billion borrowed from banks against his Tesla Inc. stock, and=
+ $21 billion of cash from other sources (presumably selling Tesla stock, et=
+c.). The $7.1 billion from co-investors will be used to cut the margin loan=
+ in half (to $6.25 billion) and, presumably, to slightly reduce the other $=
+21 billion he has to come up with. The co-investors are sort of a random gr=
+oup; there=E2=80=99s fellow billionaire Larry Ellison, venture firms like S=
+equoia Capital and  Andreessen Horowitz, crypto firm  Binance, Qatar Holdin=
+gs, and some asset managers who seem to be Elon Musk fans. There is also Fi=
+delity Management & Research Co., which is an existing Twitter shareholder =
+and seems to be effectively rolling some (though not all) of its public Twi=
+tter shares into Musk Twitter.[3]The reporting on this, and Musk=E2=80=99s =
+own filing, suggests that this is just the start, and that Musk =E2=80=9Cis=
+ seeking and ... may receive additional financing commitments to fund addit=
+ional portions of the total Merger Consideration,=E2=80=9D reducing both Mu=
+sk=E2=80=99s ownership of Musk Twitter and the amount of cash he will need.=
+ I don=E2=80=99t know how far this will go. Presumably Musk, the richest pe=
+rson in the world, will put up many billions of dollars of his own money an=
+d=C2=A0will own a majority of Musk Twitter.=C2=A0Still I can kind of imagin=
+e him selling down most of his stake? I feel like there is an idealized mod=
+el of an Elon Musk merger that would go like this:=09He shows up at some pu=
+blic company.=09He suggests a price for that company. The price is somewhat=
+ arbitrary, but it should (1) represent=C2=A0a premium to the current tradi=
+ng price and (2) involve some funny number, ideally 420, which is a weed jo=
+ke.=09People who already own shares of the company, and who=C2=A0like Elon =
+Musk and want him to run the company, just keep their stock.=09People who=
+=C2=A0don=E2=80=99t=C2=A0own shares of the company, but who=C2=A0like Elon =
+Musk and want him to run the company and want to be a part of that, buy sto=
+ck (at Musk=E2=80=99s somewhat arbitrary joke price).=09People who=C2=A0do=
+=C2=A0own shares of the company, but who don=E2=80=99t particularly want to=
+ be involved in the Elon Musk situation, sell stock (at Musk=E2=80=99s pric=
+e).=09Ideally the orders in No. 4 and No. 5 would exactly balance, so that =
+all the Musk fans can get in and all the Musk haters can get out. (I don=E2=
+=80=99t know why this would work?)=09Then the company is 100% owned by fans=
+ of Musk and they elect him chief executive officer, Technoking, Memelord, =
+whatever.=09The stock continues to trade? I don=E2=80=99t know.This is an e=
+xtremely vague sketch, and obviously most of the steps do not make any=C2=
+=A0sense, but I nonetheless think it captures something essential about not=
+ only Musk=E2=80=99s planned acquisition of Twitter but also about his 2018=
+  pretend=C2=A0going-private transaction=C2=A0for Tesla Inc.=C2=A0Elon Musk=
+ is not, I think, especially interested in=C2=A0owning=C2=A0Twitter. He is =
+interested in=C2=A0controlling Twitter. The goal is not to make a financial=
+ model that generates a 30% internal rate of return on Musk=E2=80=99s conce=
+ntrated levered equity stake in Twitter. The goal is for Twitter to be=C2=
+=A0(1) run by him (as CEO, initially, and I suppose eventually by some othe=
+r CEO chosen by him) and (2) owned partly by him but mostly by a bunch of l=
+oyal shareholders who will let him do what he wants.=C2=A0You can=E2=80=99t=
+ really=C2=A0do=C2=A0the thing that I sketched out above, but you can do=C2=
+=A0some=C2=A0of it. Musk is clearly=C2=A0open to current Twitter shareholde=
+rs keeping their shares. He  said publicly that his goal =E2=80=9Cis to ret=
+ain as many shareholders as is allowed by the law in a private company.=E2=
+=80=9D=C2=A0So far only Alwaleed and Fidelity have=C2=A0signed on, but in t=
+he same filing Musk said that he =E2=80=9Cis having, and will continue to h=
+ave, discussions with certain existing holders of Common Stock (including J=
+ack Dorsey) regarding the possibility of contributing such shares of Common=
+ Stock to Parent, at or immediately prior to the closing of the Merger, in =
+order to retain an equity investment in Twitter following completion of the=
+ Merger in lieu of receiving Merger Consideration in the Merger.=E2=80=9D I=
+f Dorsey =E2=80=94=C2=A0a Twitter founder, former CEO, current board member=
+ =E2=80=94=C2=A0or anyone else wants to sign up for Musk Twitter, then they=
+=E2=80=99re welcome, to the extent allowed by law. In rough terms, what tha=
+t means is that any billionaire or institutional investor who wants to sign=
+ up with Musk can do so, but Musk=E2=80=99s retail-investor fans mostly can=
+=E2=80=99t. Musk Twitter will be a private company, meaning that it can=E2=
+=80=99t have a lot of retail shareholders.Also, in my sketch above, I assum=
+e that Musk sets some joke price =E2=80=94=C2=A0here, $54.20 =E2=80=94=C2=
+=A0and that price magically balances supply and demand. It would be weird i=
+f that were true, and so far, for Twitter, it isn=E2=80=99t. As of right no=
+w, Musk has about $7.1 billion of equity commitments to buy Twitter at $54.=
+20, much less than the $40+ billion that Twitter=E2=80=99s board has commit=
+ted to sell him at that price.[4] The rest of the money will have to come f=
+rom some combination of=C2=A0(1) him hustling up some more investors (still=
+ a live effort), (2) somewhat unhealthy amounts of debt financing raised ag=
+ainst Twitter and (3) his own pocket. Which is fine, really; he=E2=80=99s v=
+ery rich. But clearly he=E2=80=99d rather buy Twitter without paying for it=
+.I used to make fun of Musk for this model, this idea that he can take a co=
+mpany private while keeping any shareholder who wants to stick around. And =
+I stand by that, in the sense that it does not really work as a matter of m=
+ergers-and-acquisitions law or securities law or even, like, the meaning of=
+ the word =E2=80=9Cprivate.=E2=80=9D But now I kind of see his point. The p=
+oint is that if you take a public company that is mostly owned by dispersed=
+ diversified shareholders who are not directly involved in the management o=
+f the company, and you transform the shareholder list so that it is now own=
+ed=C2=A0by dispersed diversified shareholders who are not directly involved=
+ in the management of the company and=C2=A0who all love Elon Musk, then you=
+ can arguably create value. You create the value by putting Elon Musk in ch=
+arge, letting him do whatever he wants, and hoping that it will work. So fa=
+r it often has! You transform a regular public company into an Elon Musk pa=
+ssion project, and maybe everyone gets rich.This never made any sense as a =
+reason to take Tesla private, because Tesla was=C2=A0already=C2=A0owned by =
+shareholders who love Elon Musk, so that never went anywhere. But as a stra=
+tegy for Twitter, sure, why not.An alternative approach here would be=C2=A0=
+activism:=C2=A0Musk could buy 9% of Twitter, say =E2=80=9CI want to meddle =
+with Twitter now,=E2=80=9D run a proxy fight to replace the board with his =
+handpicked nominees, try to get support from other shareholders, and ultima=
+tely in effect take control of the company without buying all of it for cas=
+h. Lots of activist investors do things like this, and when Musk first boug=
+ht his stake in Twitter a month ago, that=E2=80=99s kind of  what people ex=
+pected. He was  given a board seat almost immediately. But he seems to have=
+ decided, I think reasonably, that this sort of activism would be slower an=
+d more restrictive and give him less control than just buying the company a=
+nd redistributing it to more loyal shareholders.This also helps explain Mus=
+k=E2=80=99s apparent plan=C2=A0to take Twitter public again in three years.=
+ I  wrote last week:If, as Musk sometimes suggests, it is bad for =E2=80=9C=
+free speech=E2=80=9D or whatever for Twitter to be a public company beholde=
+n to shareholders, what changes in three years? Is it that when he takes Tw=
+itter public again, Musk will remain the majority shareholder? Will it have=
+ dual-class stock? Will a re-IPO=E2=80=99ed Musk Twitter just be sort of Mu=
+sky enough, with Musk-fan retail shareholders and a Musk-aligned board of d=
+irectors, that it can withstand any pressures on free speech?=C2=A0=E2=80=
+=9CThis is the town square, an important venue for public communication, so=
+ the richest man in the world must take it private=E2=80=9D always struck m=
+e as a very weird argument, but =E2=80=9C=E2=80=A6 and then take it public =
+again almost immediately=E2=80=9D adds some new complications.But I guess t=
+he point here is that he's not=C2=A0really=C2=A0taking it private. Or he is=
+, but not in the sense that he will own it privately; it will be owned by a=
+ bunch of big institutional investors, but he=E2=80=99ll be in control. He=
+=E2=80=99s adjusting the shareholder register to make it Muskier. After tha=
+t, sure, he can take it public again and retain control; it has worked for =
+Tesla.I=C2=A0want to make one other point about this approach, which is tha=
+t it is awkward for Twitter=E2=80=99s board of directors, who approved this=
+ merger essentially because they concluded that $54.20 per share is vastly =
+more than Twitter is worth. Imagine a limit case where Musk convinces holde=
+rs of 51% of the stock to roll over into Musk Twitter.[5] The merger still =
+has to be approved by a vote of Twitter shareholders. In that limit case:=
+=09A majority of Twitter shareholders would think that Twitter is worth mor=
+e than $54.20 per share (which is why they are keeping their stock), but=09=
+They=E2=80=99d all vote to approve the merger and cash out the=C2=A0other=
+=C2=A0shareholders at $54.20.The continuing shareholders would force out th=
+e minority at a price that they themselves think is too low. Seems bad! Obv=
+iously that is not where we are =E2=80=94=C2=A0so far only about two and a =
+half shareholders (Musk, Alwaleed, some of Fidelity) plan to roll into Musk=
+ Twitter, and most Twitter shareholders seem to think that $54.20 is quite=
+=C2=A0generous =E2=80=94=C2=A0but there is already something awkward about =
+Twitter=E2=80=99s biggest shareholders (and a board member!) being pitched =
+on keeping their stock and voting to cash out the regular shareholders.One =
+way to address this  would have been for Twitter=E2=80=99s board to insist =
+on some sort of majority-of-the-minority vote, where the merger could only =
+happen if a majority of the shareholders who are=C2=A0not=C2=A0part of Musk=
+=E2=80=99s buying group voted to approve it. The board  did not demand that=
+, but it  did not demand a lot of things. Intriguingly,=C2=A0one=C2=A0share=
+holder=C2=A0is demanding it:Elon Musk=E2=80=99s $44 billion buyout of Twitt=
+er Inc. was challenged in a lawsuit by a Florida pension fund that argues t=
+he deal can=E2=80=99t close before 2025 because Musk was an =E2=80=9Cintere=
+sted shareholder=E2=80=9D in the social-networking platform.The Orlando Pol=
+ice Pension Fund filed suit in Delaware Chancery Court on Thursday. Accordi=
+ng to the complaint, Musk had agreements with other major Twitter sharehold=
+ers -- including founder Jack Dorsey -- to rely on their holdings when offe=
+ring to take the company private last month. Those arrangements triggered a=
+ Delaware law that calls for a three-year delay in closing such deals, the =
+fund claims. ...Under Delaware corporate law, those agreements make Musk an=
+ =E2=80=9Cinterested shareholder=E2=80=9D who has to wait three years to cl=
+ose the deal or win the support of investors who control =E2=80=9Cat least =
+66 2/3% of Twitter=E2=80=99s outstanding voting stock=E2=80=9D and were ind=
+ependent from the billionaire, the suit said.This, I think, is probably not=
+ right. (The relevant law is Delaware General Corporation Law section 203, =
+and particularly the definition of =E2=80=9Cownership=E2=80=9D in section 2=
+03(c)(9)(iii).)=C2=A0There is no indication that Musk has any sort of votin=
+g agreement with Dorsey (though Dorsey seems enthusiastic=C2=A0about the de=
+al), and it misunderstands the role of Morgan Stanley as Musk=E2=80=99s inv=
+estment banker and also as an investment adviser to funds that own Twitter.=
+ On the other hand, does Musk now have an arrangement with=C2=A0Alwaleed? I=
+f he signs up Dorsey to roll over his shares, are they part of a group for =
+these purposes?Anyway, also last week, the New York Times reported on Musk=
+=E2=80=99s plans for Twitter, which include growing revenue to $26.4 billio=
+n and users to 931 million by 2028, while also charging for subscriptions a=
+nd reducing reliance on advertising. It all seems a little optimistic but t=
+he man runs a space rocket company, what do I know. Meanwhile: =E2=80=9CAt =
+a Twitter Inc. staff meeting Wednesday morning, the first slide of a presen=
+tation asked a question on the minds of many employees: =E2=80=98Why Bother=
+?=E2=80=99=E2=80=9D As a corporate finance matter, Musk is reshuffling Twit=
+ter=E2=80=99s shareholder base to make it Muskier, but as a management matt=
+er=C2=A0he might have to do the same with the employees.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Regime change
+   =20
+ =20
+I dunno. Yesterday the chief executive officer of Uber Technologies Inc.,=
+=C2=A0Dara Khosrowshahi, sent out an email to employees telling them that U=
+ber is going to try to make money from doing its businesses:=E2=80=9CWe hav=
+e to make sure our unit economics work before we go big,=E2=80=9D the Uber =
+boss wrote. =E2=80=9CThe least efficient marketing and incentive spend will=
+ be pulled back.=E2=80=9D =E2=80=A6Uber will now focus on achieving profita=
+bility on a free cash flow basis rather than adjusted earnings before inter=
+est, taxes, depreciation, and amortization, Khosrowshahi said.There are arg=
+uably two basic models of how to build a big business:=09Try to do somethin=
+g that makes money. Then try to do more of it.=09Try to do as much as possi=
+ble of something that=C2=A0loses=C2=A0money. Then try to make it make money=
+.The second model was arguably  the major business paradigm of the last dec=
+ade; we have talked about it under names like =E2=80=9Cthe MoviePass econom=
+y=E2=80=9D and =E2=80=9Cblitzscaling.=E2=80=9D=C2=A0Perhaps no company was =
+more associated with it than Uber. And now Uber is changing to the first mo=
+del, =E2=80=9Cmake sure our unit economics work before we go big.=E2=80=9DI=
+n one sense, there is nothing surprising about a public-company CEO telling=
+ employees that (1) they should try to make money and (2) if they are doing=
+ things that lose money, they should do=C2=A0less=C2=A0of them rather than=
+=C2=A0more. In another sense, this is the CEO of=C2=A0Uber.=C2=A0=E2=80=9CI=
+t=E2=80=99s clear that the market is experiencing a seismic shift,=E2=80=9D=
+ says Khosrowshahi,=C2=A0=E2=80=9Cand we need to react accordingly.=E2=80=
+=9DAnyway stocks were down last week; the S&P 500 index has gone down each =
+of the last five weeks, and things seem especially rough in the tech indust=
+ry. In a world where money is cheap and plentiful, losing a lot of it for t=
+he foreseeable future in order to grab a share of huge faraway profits can =
+be a reasonable strategy, or at least one that can attract investors. In a =
+world of higher discount rates, making money now is distinctly preferable t=
+o losing it. A seismic shift.Elsewhere,=C2=A0the meme stocks are over!Nursi=
+ng losses in 2022 that are worse than the rest of the market=E2=80=99s, ama=
+teur investors who jumped in when the lockdown began have now given back al=
+l of their once-prodigious gains, according to an estimate by Morgan Stanle=
+y. The calculation is based on trades placed by new entrants since the star=
+t of 2020 and uses exchange and public price-feed data to tally overall pro=
+fits and losses. =E2=80=A6=E2=80=9CA lot of these guys started trading righ=
+t around Covid so their only investing experience was the wacked-out, Fed-f=
+ueled market,=E2=80=9D said Matthew Tuttle, chief executive officer at Tutt=
+le Capital Management LLC. =E2=80=9CThat all changed with the Fed pivot in =
+November, but they didn=E2=80=99t realize that because they have never seen=
+ a market that wasn=E2=80=99t supported by the Fed,=E2=80=9D he said. =E2=
+=80=9CThe results have been horrific.=E2=80=9D ...Famous names from the hei=
+ght of the frenzy are nursing serious losses. AMC Entertainment Inc. is dow=
+n 78% since June 2021. It=E2=80=99s lost 49% this year. Peloton Interactive=
+ Inc. is off 90% from its record. From the start of 2020 to last November, =
+a basket of retail =C2=A0stock favored by retail trades that Goldman Sachs =
+Group Inc. tracks more than doubled. This year, that basket has plunged 32%=
+, more than twice the S&P 500=E2=80=99s decline.=C2=A0I don=E2=80=99t know,=
+ man, GameStop Corp. closed at $114.70 on Friday. It was down another 10% (=
+!) as of noon today, but still. It started 2021 at $18.84, and we all  lost=
+ our minds when it hit $76.79. If your only meme-stock trade was being earl=
+y to the main meme-stock trade, you=E2=80=99re still doing okay.  Meanwhile=
+:The surge in individual stock trading by Americans last year contributed t=
+o a record tax haul for the federal government this spring. =E2=80=A6Indivi=
+dual taxes from small business proceeds or the sale of stock and other asse=
+ts are nearly triple the 2019 levels.Tax preparers, in the annual season th=
+at closed last month, had reported a significant increase among their clien=
+ts of people using services like Robinhood. Close watchers of Treasury data=
+ picked up on similar trends.=E2=80=9CA big chunk of it has come from short=
+-term capital gains,=E2=80=9D said Lou Crandall, chief economist at Wrights=
+on ICAP LLC. =E2=80=9CMeme stocks were very, very good to the IRS.=E2=80=9D=
+The short-term capital=C2=A0loss rules=C2=A0are less generous, so if you ma=
+de a million dollars trading last year and lost it all this year your tax s=
+ituation will feel unfair.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Multistrat Mets
+   =20
+ =20
+If you are good at investing, how hard can X be, for any X? There is a stan=
+dard story of hedge-fund-manager hubris, in which:=09You start a small hedg=
+e fund focused on some narrow niche.=09You do well,=C2=A0racking up consist=
+ent high returns for a few years.=09You decide you are an all-around invest=
+ing genius; you raise more money and expand your fund into other areas.=09A=
+lso you decide you are an all-around=C2=A0everything=C2=A0genius and start =
+telling corporate managers, politicians, teachers, scientists, etc., how to=
+ do their jobs.=09Possibly you are wrong about one or both of these things,=
+ but if No. 3 works out well enough no one ever tells you you=E2=80=99re wr=
+ong about No. 4.On the other hand here is a story about how Steve Cohen, wh=
+o is very good at managing a (large and multi-strategy) hedge fund, looked =
+at Major League Baseball, thought =E2=80=9Chow hard can this possibly be,=
+=E2=80=9D bought a team, put his hedge fund in charge of it, and =E2=80=A6=
+=C2=A0it =E2=80=A6 worked?Some senior employees from Cohen=E2=80=99s firm, =
+Point72 Asset Management, have been moonlighting as Mets employees in cruci=
+al roles, according to staffers=E2=80=99 LinkedIn pages, the Mets=E2=80=99 =
+website and people familiar with the matter. Many are tasked with improving=
+ the team=E2=80=99s once-outdated infrastructure, data-analytics capabiliti=
+es and technological prowess. =E2=80=A6Since Cohen took over, the number of=
+ people working in data and analytics has grown from eight full-time employ=
+ees to 35, some of them from Point72, a person familiar with the matter sai=
+d. Cohen has embedded data scientists in the Mets=E2=80=99 scouting departm=
+ents. A new data-engineering group is also stocked with people from Point72=
+.These investments are helping to make the Mets one of the best teams in ba=
+seball, where they are seen as significant World Series contenders this sea=
+son. Point72 is a key reason why.There are limits: =E2=80=9CThe Point72 emp=
+loyees aren=E2=80=99t the ones deciding which players the Mets should acqui=
+re or how they should deploy their bullpen,=E2=80=9D and they are not, you =
+know, actually playing baseball themselves. (True hedge-fund-manager hubris=
+ would be saying =E2=80=9Chey that man is just throwing a ball, how hard ca=
+n that be=E2=80=9D and putting yourself on the roster.) Still this is an ex=
+ample of a hedge fund manager looking at a high-profile, mature and competi=
+tive field, saying =E2=80=9Cah sure I could do that,=E2=80=9D parachuting i=
+n and in fact being successful. I guess he should run for governor next.On =
+the other hand:Several Point72 investors contacted by The Wall Street Journ=
+al in recent weeks said they were unhappy about the moonlighting or unaware=
+ of it altogether. Some said they withdrew their money from Point72 after C=
+ohen bought the team partly because they viewed him as distracted by the Me=
+ts.This seems misguided to me, but I write about Elon Musk all the time now=
+ so I suppose my standards are all messed up. =E2=80=9CWhat, he runs=C2=A0t=
+wo=C2=A0complicated organizations, that=E2=80=99s nothing,=E2=80=9D is my i=
+nstinctive thought. Also the goal of modern management of high-intensity or=
+ganizations often seems to be to merge work with every aspect of the employ=
+ees=E2=80=99 lives; if Cohen=E2=80=99s employees are doing data science at =
+their job (as hedge-fund data scientists) and then also at their hobby (as =
+baseball data scientists) then really that means they have fewer=C2=A0distr=
+actions.=C2=A0Also:Cohen=E2=80=99s chief-of-staff, Michael Sullivan, said C=
+ohen hasn=E2=80=99t missed a day of trading since he bought the Mets and co=
+ntinues to work seven days a week.=E2=80=9CSome members of his senior leade=
+rship team that were hoping he=E2=80=99d be distracted by the Mets on weeke=
+nds have been horribly disappointed,=E2=80=9D Sullivan said.Oh man do I kno=
+w that feeling. You have an always-on boss, something nice happens in his p=
+ersonal life, you think =E2=80=9Cah now he will spend more time with his [f=
+amily, sports team, etc.]=E2=80=9D and, nope, somehow he has even more time=
+ to create work for you!Anyway I assume that if the Mets lose five games in=
+ a row their payroll will be slashed. They=E2=80=99re a pod in a multistrat=
+egy hedge fund now; that is just how it works.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+UST Stablecoin Briefly Loses Peg, Luna Drops 10%. =E2=80=9CFlash loans also=
+ have a dark side.=E2=80=9D=C2=A0Chinese Companies Boost Returns to Shareho=
+lders. U.S. Bans  Accounting Services to Russia in Added Sanctions. EU Drop=
+s Plan to Stop  Tankers Moving Russian Oil to Other Buyers.=C2=A0Russia-exp=
+osed asset managers to shut funds permanently.=C2=A0Rivian Slumps Amid Repo=
+rt Ford Is Selling Shares at a Discount.=C2=A0Dan Loeb=E2=80=99s Third Poin=
+t Fund Expands Stake in Energy Giant  Shell. Firms Pay Biggest  Premiums on=
+ New Bond Deals Since Covid Peak. Inventor of Brain-Scan Helmet Takes Ketam=
+ine to  Test His Technology. The slurp juice milkshake ducked.If you'd like=
+ to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox=
+, please=C2=A0subscribe at this link. Or you can subscribe to Money Stuff a=
+nd other great Bloomberg newsletters here. Thanks![1] That math is approxim=
+ate, but Musk Twitter will be much more levered than public Twitter, so Alw=
+aleed won=E2=80=99t just roll over to owning 4.6% of the new company. Figur=
+e that the total equity check for this buyout is $33.5 billion, consisting =
+of (1) Musk=E2=80=99s personal equity commitment, (2) the equity commitment=
+s from his co-investors and (3) Musk=E2=80=99s margin loan (which is equity=
+ as far as *Twitter* goes). Then Kingdom=E2=80=99s $1.9 billion is about 5.=
+7% of the equity.[2] Or not, I guess; he might prefer owning public Twitter=
+ to Musk Twitter and continue to oppose the merger, but hedge his bets by a=
+greeing to roll into Musk Twitter if the merger happens anyway. You might e=
+xpect Musk to demand some sort of voting agreement in which Alwaleed promis=
+es to vote for the merger, but I have not seen one (in Musk=E2=80=99s or Al=
+waleed=E2=80=99s filings), and I can imagine reasons why they would not wan=
+t that. (Musk and Alwaleed probably do not want to be a =E2=80=9Cgroup=E2=
+=80=9D for securities-law purposes, and in particular they do not want to b=
+e lumped together for DGCL section 203 purposes; see below.)[3] Sort of. Te=
+chnically it is listed with the other co-investors who are contributing cas=
+h, not with Alwaleed as a rollover shareholder. But=C2=A0Fidelity=E2=80=99s=
+ commitment is a strange number =E2=80=94=C2=A0$316,139,386 =E2=80=94=C2=A0=
+and all of Musk=E2=80=99s other cash commitments are reasonably round numbe=
+rs. But Fidelity=E2=80=99s commitment divides evenly by $54.20 to get 5,832=
+,830 shares, and Fidelity is a big current shareholder of Twitter (with 17,=
+641,927 shares, per Bloomberg). I don=E2=80=99t know why Alwaleed is rollin=
+g his shares, while Fidelity is getting cashed out for 100% of its shares a=
+nd then rolling some of the cash proceeds, but Fidelity is a more regulated=
+ entity than Kingdom Holdings and I assume it has to do with some sort of F=
+idelity internal accounting concerns.=C2=A0[4] Don=E2=80=99t take that numb=
+er too seriously. Twitter has about 764 million shares outstanding, worth a=
+bout $41.4 billion at the merger price, though Musk already owns 73 million=
+ of them, reducing the cash he needs to buy the rest to about $37.5 billion=
+. (Arguably in a perfect Musk Merger he wouldn=E2=80=99t need to own any sh=
+ares on his own.) But there are also employee stock awards, convertible bon=
+d warrants, etc., that increase the total consideration; his total financin=
+g commitments are for $46.5 billion.[5] He=E2=80=99s currently at like =E2=
+=80=A6=C2=A015%? He and Alwaleed combine for 14.1%, and Fidelity=E2=80=99s =
+commitment amounts to about another 0.8%. Jack Dorsey, who seems to be a to=
+p target,=C2=A0owns about 2.4%, and otherwise the shareholders seem pretty =
+dispersed, so 51% seems very unlikely; this is a thought experiment, not a =
+real possibility.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cggom6.5n18/5c2becf3.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_74580345_240204521.1652119854483
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Musk StuffLast month, when Elon Musk first proposed to buy Twitter Inc. for=
+ $54.20 per share, Saudi Prince Alwaleed bin Talal, who owns abou
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNzY1MjI1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5MTUzODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBef69960a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D27652254&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27915386&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNTA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MDkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB8d8a792a"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNzY1MjI1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5MTUzODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCc9b3103f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D27652254&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27915386&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Musk Stuff</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Last month, when Elon Musk first propo=
+sed to buy Twitter Inc. for $54.20 per share, Saudi Prince Alwaleed bin Tal=
+al, who <a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.2=
+63132/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEwMzU0MTAvMDAwM=
+TEyMzI5MjIyMDAwMDg4L3R3aXR0ZXIxM2QuaHRt/607f07ceef4b8524a319a23cBf8164f0f" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">owns about 4.6%</a> of Twitter, <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjItMDQtMTQvYmlsbGlvbmFpcmUtcHJpbmNlLWFsd2FsZWVkLXJlamVj=
+dHMtbXVzay1zLXR3aXR0ZXItYmlkP2NtcGlkPUJCRDA1MDkyMl9NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUwOSZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB52c5c67b" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> said no</a=
+>. He <a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263=
+132/aHR0cHM6Ly90d2l0dGVyLmNvbS9BbHdhbGVlZF9UYWxhbC9zdGF0dXMvMTUxNDYxNTk1Njk=
+4Njc1NzEyNw/607f07ceef4b8524a319a23cBdadb7f6e" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">tweeted</a>=C2=A0tha=
+t Musk=E2=80=99s offer did not =E2=80=9Ccome close to the intrinsic value=
+=E2=80=9D of Twitter. (Musk <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/27652254.263132/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvM=
+TUxNDY4MzA3OTk2ODkzMTg0MQ/607f07ceef4b8524a319a23cBe60f4a34" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">replie=
+d</a> by asking Alwaleed about his views on free speech.)</p><p style=3D"ma=
+rgin: 16px 0;">Eventually Twitter=E2=80=99s board approved a merger at $54.=
+20 per share. But last=C2=A0week, <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/27652254.263132/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGd=
+hci9kYXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIyMDU2MDU1L3RtMjIxNDYwOC0xX3NjMTNkYS5odG=
+0/607f07ceef4b8524a319a23cB2c472efc" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">Musk announced</a> that Alwale=
+ed will not be taking the $54.20. His Kingdom Holding Co.=C2=A0has agreed t=
+o keep=C2=A0its shares and roll them over into=C2=A0the new, Musk-owned Twi=
+tter. Incredibly, Elon Musk is finally going to take a public company priva=
+te with <a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.2=
+63132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDgtM=
+TMvZnVuZGluZy1mb3ItZWxvbi1tdXNrLXMtdGVzbGEtYnV5b3V0LXdhc24tdC1zby1zZWN1cmU_=
+Y21waWQ9QkJEMDUwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5=
+ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07cee=
+f4b8524a319a23cBc993c687" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Saudi funding</a>.</p><p style=3D"margin:=
+ 16px 0;">The advantage of this for Alwaleed is that=C2=A0he thinks Twitter=
+ is worth more than $54.20 per share and gets to keep owning Twitter. Sure =
+he thought that a <em>public</em>, non-Musk-controlled Twitter was worth mo=
+re than $54.20, and now he is stuck owning a <em>private</em> Musk Twitter,=
+ but if you <a href=3D"https://link.mail.bloombergbusiness.com/click/276522=
+54.263132/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wNS8wNi90ZWNobm9sb2d5L2Vsb=
+24tbXVzay10d2l0dGVyLXBpdGNoLWRlY2suaHRtbA/607f07ceef4b8524a319a23cB14a10a26=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">believe Musk=E2=80=99s projections</a> then Musk Twitter is worth=
+ way=C2=A0<em>more=C2=A0</em>than regular Twitter.</p><p style=3D"margin: 1=
+6px 0;">The advantage for Musk is mostly=C2=A0that it saves him some cash:=
+=C2=A0Paying $54.20 per share to Alwaleed for his 34.9 million shares would=
+ cost almost $1.9 billion in cash. Rolling him over costs nothing. Well, no=
+, actually it costs Musk something like 6% of whatever profits he ends up m=
+aking on Twitter.[1] But it doesn=E2=80=99t cost him any=C2=A0<em>cash</em>=
+, now, which probably matters.</p><p style=3D"margin: 16px 0;">There is ano=
+ther advantage for Musk, which is that Alwaleed (1) owns 4.6% of Twitter=E2=
+=80=99s stock and (2) thinks the deal price is too low. If he were=C2=A0<em=
+>not=C2=A0</em>rolling over his stake into Musk Twitter, you might expect h=
+im to vote=C2=A0<em>against=C2=A0</em>the merger. But since he is now on Mu=
+sk=E2=80=99s team, you=E2=80=99d expect him to vote=C2=A0<em>for=C2=A0</em>=
+the merger.[2] I don't have much reason to think that many Twitter sharehol=
+ders will vote against the deal =E2=80=94=C2=A0the stock closed at $49.80 o=
+n Friday, suggesting that most shareholders disagree with Alwaleed that $54=
+.20 is too low =E2=80=94=C2=A0but perhaps this does help lock in votes.</p>=
+<p style=3D"margin: 16px 0;">Alwaleed=E2=80=99s plan to roll his shares int=
+o Musk Twitter was disclosed in <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/27652254.263132/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhc=
+i9kYXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIyMDU2MDU1L3RtMjIxNDYwOC0xX3NjMTNkYS5odG0/=
+607f07ceef4b8524a319a23cC2c472efc" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">a filing last week</a> describin=
+g equity commitments that Musk has gotten from investors who plan to join h=
+im in owning the new, private Twitter. They total about $7.1 billion so far=
+. Musk had <a href=3D"https://link.mail.bloombergbusiness.com/click/2765225=
+4.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMD=
+QtMjEvZWxvbi1nb3QtaGlzLW1vbmV5P2NtcGlkPUJCRDA1MDkyMl9NT05FWVNUVUZGJnV0bV9tZ=
+WRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUwOSZ1dG1fY2Ft=
+cGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8f90bea6" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> initiall=
+y committed</a> to put up, in essence, $33.5 billion of his own money: $12.=
+5 billion borrowed from banks against his Tesla Inc. stock, and $21 billion=
+ of cash from other sources (presumably <em>selling</em> Tesla stock, etc.)=
+. The $7.1 billion from co-investors will be used to cut the margin loan in=
+ half (to $6.25 billion) and, presumably, to slightly reduce the other $21 =
+billion he has to come up with. The co-investors are sort of a random group=
+; there=E2=80=99s fellow billionaire Larry Ellison, venture firms like Sequ=
+oia Capital and <a href=3D"https://link.mail.bloombergbusiness.com/click/27=
+652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItM=
+DUtMDUvYW5kcmVlc3Nlbi1zdXBwb3J0LWZvci1tdXNrLXR3aXR0ZXItYmlkLW1heS1wb3NlLW1l=
+dGEtY29uZmxpY3Q_Y21waWQ9QkJEMDUwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ=
+1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTA5JnV0bV9jYW1wYWlnbj1tb25leX=
+N0dWZm/607f07ceef4b8524a319a23cBdc2eaa12" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Andreessen Horowitz</a>=
+, crypto firm <a href=3D"https://link.mail.bloombergbusiness.com/click/2765=
+2254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDU=
+tMDUvYmluYW5jZS1leWVzLWJyaW5naW5nLXR3aXR0ZXItdG8td2ViMy13aXRoLWJhY2tpbmctZm=
+9yLW11c2stYmlkP2NtcGlkPUJCRDA1MDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmd=
+XRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUwOSZ1dG1fY2FtcGFpZ249bW9uZXlz=
+dHVmZg/607f07ceef4b8524a319a23cB5388ec36" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Binance</a>, Qatar Hold=
+ings, and some asset managers who seem to be <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAy=
+Mi8wNS8wNS90ZXNsYS1idWxsLXJvbi1iYXJvbi1zYXlzLW11c2stZ290LWEtZ29vZC1kZWFsLW9=
+uLXR3aXR0ZXIuaHRtbA/607f07ceef4b8524a319a23cBf2395df0" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">Elon Musk fa=
+ns</a>. There is also Fidelity Management &amp; Research Co., which is an e=
+xisting Twitter shareholder and seems to be effectively rolling some (thoug=
+h not all) of its public Twitter shares into Musk Twitter.[3]</p><p style=
+=3D"margin: 16px 0;">The reporting on this, and Musk=E2=80=99s own filing, =
+suggests that this is just the start, and that Musk =E2=80=9Cis seeking and=
+ ... may receive additional financing commitments to fund additional portio=
+ns of the total Merger Consideration,=E2=80=9D reducing both Musk=E2=80=99s=
+ ownership of Musk Twitter and the amount of cash he will need. I don=E2=80=
+=99t know how far this will go. Presumably Musk, the richest person in the =
+world, will put up many billions of dollars of his own money and=C2=A0will =
+own a majority of Musk Twitter.=C2=A0</p><p style=3D"margin: 16px 0;">Still=
+ I can kind of imagine him selling down most of his stake? I feel like ther=
+e is an idealized model of an Elon Musk merger that would go like this:</p>=
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">He shows up at some public company.</=
+li>=09<li style=3D"margin-bottom: 5px;">He suggests a price for that compan=
+y. The price is somewhat arbitrary, but it should (1) represent=C2=A0a prem=
+ium to the current trading price and (2) involve some funny number, ideally=
+ 420, which is a weed joke.</li>=09<li style=3D"margin-bottom: 5px;">People=
+ who already own shares of the company, and who=C2=A0like Elon Musk and wan=
+t him to run the company, just keep their stock.</li>=09<li style=3D"margin=
+-bottom: 5px;">People who=C2=A0<em>don=E2=80=99t=C2=A0</em>own shares of th=
+e company, but who=C2=A0like Elon Musk and want him to run the company and =
+want to be a part of that, buy stock (at Musk=E2=80=99s somewhat arbitrary =
+joke price).</li>=09<li style=3D"margin-bottom: 5px;">People who=C2=A0<em>d=
+o=C2=A0</em>own shares of the company, but who don=E2=80=99t particularly w=
+ant to be involved in the Elon Musk situation, sell stock (at Musk=E2=80=99=
+s price).</li>=09<li style=3D"margin-bottom: 5px;">Ideally the orders in No=
+. 4 and No. 5 would exactly balance, so that all the Musk fans can get in a=
+nd all the Musk haters can get out. (I don=E2=80=99t know why this would wo=
+rk?)</li>=09<li style=3D"margin-bottom: 5px;">Then the company is 100% owne=
+d by fans of Musk and they elect him chief executive officer, Technoking, M=
+emelord, whatever.</li>=09<li style=3D"margin-bottom: 5px;">The stock conti=
+nues to trade? I don=E2=80=99t know.</li></ol><p style=3D"margin: 16px 0;">=
+This is an extremely vague sketch, and obviously most of the steps do not m=
+ake any=C2=A0<em>sense</em>, but I nonetheless think it captures something =
+essential about not only Musk=E2=80=99s planned acquisition of Twitter but =
+also about his 2018 <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/27652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMTgtMDgtMTMvZnVuZGluZy1mb3ItZWxvbi1tdXNrLXMtdGVzbGEtYnV5b3V0LXdhc24tdC1z=
+by1zZWN1cmU_Y21waWQ9QkJEMDUwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTA5JnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cCc993c687" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> pretend=C2=A0going-private t=
+ransaction</a>=C2=A0for Tesla Inc.=C2=A0Elon Musk is not, I think, especial=
+ly interested in=C2=A0<em>owning=C2=A0</em>Twitter. He is interested in=C2=
+=A0<em>controlling </em>Twitter. The goal is not to make a financial model =
+that generates a 30% internal rate of return on Musk=E2=80=99s concentrated=
+ levered equity stake in Twitter. The goal is for Twitter to be=C2=A0(1) ru=
+n by him (<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254=
+.263132/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMi8wNS8wNS9lbG9uLW11c2stZXhwZWN0ZWQ=
+tdG8tc2VydmUtYXMtdGVtcG9yYXJ5LXR3aXR0ZXItY2VvLWFmdGVyLWRlYWwtY2xvc2VzLmh0bW=
+w/607f07ceef4b8524a319a23cB4a69b244" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">as CEO, initially</a>, and I s=
+uppose eventually by some other CEO chosen by him) and (2) owned partly by =
+him but mostly by a bunch of loyal shareholders who will let him do what he=
+ wants.=C2=A0</p><p style=3D"margin: 16px 0;">You can=E2=80=99t really=C2=
+=A0<em>do=C2=A0</em>the thing that I sketched out above, but you can do=C2=
+=A0<em>some=C2=A0</em>of it. Musk is clearly<em>=C2=A0</em>open to current =
+Twitter shareholders keeping their shares. He <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMTQvbXVzay1zYXlzLWhlLXMtbm90LXN1cmUtaGUtbG=
+wtc3VjY2VlZC13aXRoLXR3aXR0ZXItYWNxdWlzaXRpb24_Y21waWQ9QkJEMDUwOTIyX01PTkVZU=
+1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIw=
+NTA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB4f81d54b" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> said publicly</a> that his goal =E2=80=9Cis to retain as many shareho=
+lders as is allowed by the law in a private company.=E2=80=9D=C2=A0So far o=
+nly Alwaleed and Fidelity have=C2=A0signed on, but in the same filing Musk =
+said that he =E2=80=9Cis having, and will continue to have, discussions wit=
+h certain existing holders of Common Stock (including Jack Dorsey) regardin=
+g the possibility of contributing such shares of Common Stock to Parent, at=
+ or immediately prior to the closing of the Merger, in order to retain an e=
+quity investment in Twitter following completion of the Merger in lieu of r=
+eceiving Merger Consideration in the Merger.=E2=80=9D If Dorsey =E2=80=94=
+=C2=A0a Twitter founder, former CEO, current board member =E2=80=94=C2=A0or=
+ anyone else wants to sign up for Musk Twitter, then they=E2=80=99re welcom=
+e, to the extent allowed by law. In rough terms, what that means is that an=
+y billionaire or institutional investor who wants to sign up with Musk can =
+do so, but Musk=E2=80=99s retail-investor fans mostly can=E2=80=99t. Musk T=
+witter will be a private company, meaning that it can=E2=80=99t have a lot =
+of retail shareholders.</p><p style=3D"margin: 16px 0;">Also, in my sketch =
+above, I assume that Musk sets some joke price =E2=80=94=C2=A0here, $54.20 =
+=E2=80=94=C2=A0and that price magically balances supply and demand. It woul=
+d be weird if that were true, and so far, for Twitter, it isn=E2=80=99t. As=
+ of right now, Musk has about $7.1 billion of equity commitments to buy Twi=
+tter at $54.20, much less than the $40+ billion that Twitter=E2=80=99s boar=
+d has committed to sell him at that price.[4] The rest of the money will ha=
+ve to come from some combination of=C2=A0(1) him hustling up some more inve=
+stors (still a live effort), (2) somewhat unhealthy amounts of debt financi=
+ng raised against Twitter and (3) his own pocket. Which is fine, really; he=
+=E2=80=99s very rich. But clearly he=E2=80=99d rather buy Twitter without p=
+aying for it.</p><p style=3D"margin: 16px 0;">I used to make fun of Musk fo=
+r this model, this idea that he can take a company private while keeping an=
+y shareholder who wants to stick around. And I stand by that, in the sense =
+that it does not really work as a matter of mergers-and-acquisitions law or=
+ securities law or even, like, the meaning of the word =E2=80=9Cprivate.=E2=
+=80=9D But now I kind of see his point. The point is that if you take a pub=
+lic company that is mostly owned by dispersed diversified shareholders who =
+are not directly involved in the management of the company, and you transfo=
+rm the shareholder list so that it is now owned=C2=A0by dispersed diversifi=
+ed shareholders who are not directly involved in the management of the comp=
+any and=C2=A0<em>who all love Elon Musk</em>, then you can arguably create =
+value. You create the value by putting Elon Musk in charge, letting him do =
+whatever he wants, and hoping that it will work. So far it often has! You t=
+ransform a regular public company into an Elon Musk passion project, and ma=
+ybe everyone gets rich.</p><p style=3D"margin: 16px 0;">This never made any=
+ sense as a reason to take Tesla private, because Tesla was=C2=A0<em>alread=
+y=C2=A0</em>owned by shareholders who love Elon Musk, so that never went an=
+ywhere. But as a strategy for Twitter, sure, why not.</p><p style=3D"margin=
+: 16px 0;">An alternative approach here would be=C2=A0<em>activism:=C2=A0</=
+em>Musk could buy 9% of Twitter, say =E2=80=9CI want to meddle with Twitter=
+ now,=E2=80=9D run a proxy fight to replace the board with his handpicked n=
+ominees, try to get support from other shareholders, and ultimately in effe=
+ct take control of the company without buying all of it for cash. Lots of a=
+ctivist investors do things like this, and when Musk first bought his stake=
+ in Twitter a month ago, that=E2=80=99s kind of <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMDQvZWxvbi1tdXNrLWJvdWdodC1zb21lLXR3=
+aXR0ZXI_Y21waWQ9QkJEMDUwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cBc2b20117" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> what people expected</a>. He was=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMTEvZWxv=
+bi1tdXNrLXMtd29yay1vbi10d2l0dGVyLXMtYm9hcmQtaXMtZG9uZT9jbXBpZD1CQkQwNTA5MjJ=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yMjA1MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB16e0=
+94ac" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> given a board seat</a> almost immediately. But he seems to h=
+ave decided, I think reasonably, that this sort of activism would be slower=
+ and more restrictive and give him less control than just buying the compan=
+y and redistributing it to more loyal shareholders.</p><p style=3D"margin: =
+16px 0;">This also helps explain Musk=E2=80=99s <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cud3NqLmNvbS9hc=
+nRpY2xlcy9lbG9uLW11c2stcGxhbnMtdG8tdGFrZS10d2l0dGVyLXB1YmxpYy1hZ2Fpbi1sYXRl=
+ci1zb3VyY2VzLXNheS0xMTY1MTYwOTcwNz9tb2Q9aHBfbGVhZF9wb3Mx/607f07ceef4b8524a3=
+19a23cB7ab86e32" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">apparent plan</a>=C2=A0to take Twitter public agai=
+n in three years. I <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/27652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMjItMDUtMDQvc29tZW9uZS1oYWNrZWQtYS1tZXJnZXI_Y21waWQ9QkJEMDUwOTIyX01PTkVZ=
+U1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjI=
+wNTA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB404f899d" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> wrote last week</a>:</p><blockquote><p style=3D"margin: 16px 0;">If,=
+ as Musk sometimes suggests, it is bad for =E2=80=9Cfree speech=E2=80=9D or=
+ whatever for Twitter to be a public company beholden to shareholders, what=
+ changes in three years? Is it that when he takes Twitter public again, Mus=
+k will remain the majority shareholder? Will it have dual-class stock? Will=
+ a re-IPO=E2=80=99ed Musk Twitter just be sort of Musky enough, with Musk-f=
+an retail shareholders and a Musk-aligned board of directors, that it can w=
+ithstand any pressures on free speech?=C2=A0=E2=80=9CThis is the town squar=
+e, an important venue for public communication, so the richest man in the w=
+orld must take it private=E2=80=9D always struck me as a very weird argumen=
+t, but =E2=80=9C=E2=80=A6 and then take it public again almost immediately=
+=E2=80=9D adds some new complications.</p></blockquote><p style=3D"margin: =
+16px 0;">But I guess the point here is that he's not=C2=A0<em>really=C2=A0<=
+/em>taking it private. Or he is, but not in the sense that he will own it p=
+rivately; it will be owned by a bunch of big institutional investors, but h=
+e=E2=80=99ll be in control. He=E2=80=99s adjusting the shareholder register=
+ to make it Muskier. After that, sure, he can take it public again and reta=
+in control; it has worked for Tesla.</p><p style=3D"margin: 16px 0;">I=C2=
+=A0want to make one other point about this approach, which is that it is aw=
+kward for Twitter=E2=80=99s board of directors, who approved this merger es=
+sentially because they concluded that $54.20 per share is vastly more than =
+Twitter is worth. Imagine a limit case where Musk convinces holders of 51% =
+of the stock to roll over into Musk Twitter.[5] The merger still has to be =
+approved by a vote of Twitter shareholders. In that limit case:</p><ul styl=
+e=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=09<li sty=
+le=3D"margin-bottom: 5px;">A majority of Twitter shareholders would think t=
+hat Twitter is worth more than $54.20 per share (which is why they are keep=
+ing their stock), but</li>=09<li style=3D"margin-bottom: 5px;">They=E2=80=
+=99d all vote to approve the merger and cash out the=C2=A0<em>other=C2=A0</=
+em>shareholders at $54.20.</li></ul><p style=3D"margin: 16px 0;">The contin=
+uing shareholders would force out the minority at a price that they themsel=
+ves think is too low. Seems bad! Obviously that is not where we are =E2=80=
+=94=C2=A0so far only about two and a half shareholders (Musk, Alwaleed, som=
+e of Fidelity) plan to roll into Musk Twitter, and most Twitter shareholder=
+s seem to think that $54.20 is quite=C2=A0generous =E2=80=94=C2=A0but there=
+ is already something awkward about Twitter=E2=80=99s biggest shareholders =
+(and a board member!) being pitched on keeping their stock and voting to ca=
+sh out the regular shareholders.</p><p style=3D"margin: 16px 0;">One way to=
+ address this <a href=3D"https://link.mail.bloombergbusiness.com/click/2765=
+2254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjI=
+tMDQtMjUvZWxvbi1jbG9zZXMtaW4_Y21waWQ9QkJEMDUwOTIyX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTA5JnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBca4c51fd" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> would have =
+been</a> for Twitter=E2=80=99s board to insist on some sort of majority-of-=
+the-minority vote, where the merger could only happen if a majority of the =
+shareholders who are=C2=A0<em>not=C2=A0</em>part of Musk=E2=80=99s buying g=
+roup voted to approve it. The board <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjItMDQtMjYvZWxvbi1nb3QtaGlzLWRlYWw_Y21waWQ9QkJEMDUwOTIy=
+X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3R=
+lcm09MjIwNTA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBfcf1=
+a6db" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> did not demand that</a>, but it <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMDIvdHdpdHRlci1zLWJvYXJkLWdhdmUtdXA_Y=
+21waWQ9QkJEMDUwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5l=
+d3NsZXR0ZXImdXRtX3Rlcm09MjIwNTA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB5c4ee7e7" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> did not demand a lot of things</a>. Intri=
+guingly,=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2765=
+2254.263132/aHR0cHM6Ly93d3cueWFob28uY29tL25vdy9tdXNrLXR3aXR0ZXItYnV5b3V0LWN=
+oYWxsZW5nZWQtZmxvcmlkYS0xNTEwNTUzODAuaHRtbA/607f07ceef4b8524a319a23cB4bf0e3=
+9d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">one=C2=A0<em>shareholder=C2=A0</em>is demanding it</a>:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">Elon Musk=E2=80=99s $44 billion buyou=
+t of Twitter Inc. was challenged in a lawsuit by a Florida pension fund tha=
+t argues the deal can=E2=80=99t close before 2025 because Musk was an =E2=
+=80=9Cinterested shareholder=E2=80=9D in the social-networking platform.</p=
+><p style=3D"margin: 16px 0;">The Orlando Police Pension Fund filed suit in=
+ Delaware Chancery Court on Thursday. According to the complaint, Musk had =
+agreements with other major Twitter shareholders -- including founder Jack =
+Dorsey -- to rely on their holdings when offering to take the company priva=
+te last month. Those arrangements triggered a Delaware law that calls for a=
+ three-year delay in closing such deals, the fund claims. ...</p><p style=
+=3D"margin: 16px 0;">Under Delaware corporate law, those agreements make Mu=
+sk an =E2=80=9Cinterested shareholder=E2=80=9D who has to wait three years =
+to close the deal or win the support of investors who control =E2=80=9Cat l=
+east 66 2/3% of Twitter=E2=80=99s outstanding voting stock=E2=80=9D and wer=
+e independent from the billionaire, the suit said.</p></blockquote><p style=
+=3D"margin: 16px 0;">This, I think, is probably not right. (The relevant la=
+w is Delaware General Corporation Law <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/27652254.263132/aHR0cHM6Ly9kZWxjb2RlLmRlbGF3YXJlLmdvdi9=
+0aXRsZTgvYzAwMS9zYzA2L2luZGV4Lmh0bWw/607f07ceef4b8524a319a23cB960b31fd" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">section 203</a>, and particularly the definition of =E2=80=9Cownership=
+=E2=80=9D in section 203(c)(9)(iii).)=C2=A0There is no indication that Musk=
+ has any sort of voting agreement with Dorsey (though Dorsey seems <em>enth=
+usiastic=C2=A0</em>about the deal), and it misunderstands the role of Morga=
+n Stanley as Musk=E2=80=99s investment banker and also as an investment adv=
+iser to funds that own Twitter. On the other hand, does Musk now have an ar=
+rangement with=C2=A0<em>Alwaleed</em>? If he signs up Dorsey to roll over h=
+is shares, are they part of a group for these purposes?</p><p style=3D"marg=
+in: 16px 0;">Anyway, also last week, the New York Times <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cubnl0a=
+W1lcy5jb20vMjAyMi8wNS8wNi90ZWNobm9sb2d5L2Vsb24tbXVzay10d2l0dGVyLXBpdGNoLWRl=
+Y2suaHRtbA/607f07ceef4b8524a319a23cC14a10a26" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">reported on Musk=E2=
+=80=99s plans for Twitter</a>, which include growing revenue to $26.4 billi=
+on and users to 931 million by 2028, while also charging for subscriptions =
+and reducing reliance on advertising. It all seems a little optimistic but =
+the man runs a space rocket company, what do I know.</p><p style=3D"margin:=
+ 16px 0;"><a href=3D"https://link.mail.bloombergbusiness.com/click/27652254=
+.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMDQ=
+vdHdpdHRlci13b3Jrcy10by1zb290aGUtYW54aW91cy1zdGFmZmVycy13b25kZXJpbmctd2h5LW=
+JvdGhlcj9jbXBpZD1CQkQwNTA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb=
+3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/=
+607f07ceef4b8524a319a23cBec23559d" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> Meanwhile</a>: =E2=80=9CAt a Tw=
+itter Inc. staff meeting Wednesday morning, the first slide of a presentati=
+on asked a question on the minds of many employees: =E2=80=98Why Bother?=E2=
+=80=99=E2=80=9D As a corporate finance matter, Musk is reshuffling Twitter=
+=E2=80=99s shareholder base to make it Muskier, but as a management matter=
+=C2=A0he might have to do the same with the employees.</p><table class=3D"l=
+iveintent-sponsored-content" width=3D"auto" cellpadding=3D"0" cellspacing=
+=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzY1MjI1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5MTUzODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD82e1a3f6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27652254&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27915386&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzY1MjI1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5MTUzODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE82e1a3f6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27652254&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27915386&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzY1MjI1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5MTUzODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF28974f0e" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27652254&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27915386&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzY1MjI1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5MTUzODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG28974f0e" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27652254&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27915386&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Regime change</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I dunno. Yesterday the chief executive=
+ officer of Uber Technologies Inc.,=C2=A0Dara Khosrowshahi, <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuY=
+25iYy5jb20vMjAyMi8wNS8wOS91YmVyLXRvLWN1dC1kb3duLW9uLWNvc3RzLXRyZWF0LWhpcmlu=
+Zy1hcy1hLXByaXZpbGVnZS1jZW8tZW1haWwuaHRtbA/607f07ceef4b8524a319a23cBa3a5f92=
+a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">sent out an email to employees</a> telling them that Uber is g=
+oing to try to make money from doing its businesses:</p><blockquote><p styl=
+e=3D"margin: 16px 0;">=E2=80=9CWe have to make sure our unit economics work=
+ before we go big,=E2=80=9D the Uber boss wrote. =E2=80=9CThe least efficie=
+nt marketing and incentive spend will be pulled back.=E2=80=9D =E2=80=A6</p=
+><p style=3D"margin: 16px 0;">Uber will now focus on achieving profitabilit=
+y on a free cash flow basis rather than adjusted earnings before interest, =
+taxes, depreciation, and amortization, Khosrowshahi said.</p></blockquote><=
+p style=3D"margin: 16px 0;">There are arguably two basic models of how to b=
+uild a big business:</p><ol style=3D"list-style-type: decimal; padding-left=
+: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Try to do som=
+ething that makes money. Then try to do more of it.</li>=09<li style=3D"mar=
+gin-bottom: 5px;">Try to do as much as possible of something that=C2=A0<em>=
+loses=C2=A0</em>money. Then try to make it make money.</li></ol><p style=3D=
+"margin: 16px 0;">The second model was arguably <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtMTkvd2FzaGluZy13ZWIzP2NtcGlkPUJCRDA1=
+MDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV=
+0bV90ZXJtPTIyMDUwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23=
+cB14e577bc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> the major business paradigm</a> of the last decade; we=
+ have talked about it under names like =E2=80=9C<a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDUtMTgvc2lsaWNvbi12YWxsZXktcy1zdWJzY3Jp=
+cHRpb24tZnJlZS1mb3ItYWxsP2NtcGlkPUJCRDA1MDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW0=
+9ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUwOSZ1dG1fY2FtcGFpZ2=
+49bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB51589a60" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">the MoviePass e=
+conomy</a>=E2=80=9D and =E2=80=9C<a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/27652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjAtMDEtMzEvZG9uLXQtYmxpdHpzY2FsZS1hZ2FpbnN0LXlvdXJzZWxmP2N=
+tcGlkPUJCRDA1MDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTIyMDUwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cBa8255c80" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">blitzscaling</a>.=E2=80=9D=C2=A0Perhaps no=
+ company was more associated with it than Uber. And now Uber is changing to=
+ the first model, =E2=80=9Cmake sure our unit economics work before we go b=
+ig.=E2=80=9D</p><p style=3D"margin: 16px 0;">In one sense, there is nothing=
+ surprising about a public-company CEO telling employees that (1) they shou=
+ld try to make money and (2) if they are doing things that lose money, they=
+ should do=C2=A0<em>less=C2=A0</em>of them rather than=C2=A0<em>more</em>. =
+In another sense, this is the CEO of=C2=A0<em>Uber</em>.=C2=A0=E2=80=9CIt=
+=E2=80=99s clear that the market is experiencing a seismic shift,=E2=80=9D =
+says Khosrowshahi,=C2=A0=E2=80=9Cand we need to react accordingly.=E2=80=9D=
+</p><p style=3D"margin: 16px 0;">Anyway stocks were down last week; the S&a=
+mp;P 500 index has gone down each of the last five weeks, and things seem <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aHR=
+0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90aGUtdGVjaC1pbmR1c3RyeXMtZXBpYy10d28teW=
+Vhci1ydW4tc3B1dHRlcnMtMTE2NTIwMDIzODI_bW9kPWl0cF93c2omcnU9eWFob28/607f07cee=
+f4b8524a319a23cBe077c225" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">especially rough in the tech industry</a>=
+. In a world where money is cheap and plentiful, losing a lot of it for the=
+ foreseeable future in order to grab a share of huge faraway profits can be=
+ a reasonable strategy, or at least one that can attract investors. In a wo=
+rld of higher discount rates, making money now is distinctly preferable to =
+losing it. A seismic shift.</p><p style=3D"margin: 16px 0;">Elsewhere,=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMDgvZGF5LX=
+RyYWRlci1hcm15LWxvc2VzLWFsbC10aGUtbW9uZXktaXQtbWFkZS1pbi1tZW1lLXN0b2NrLWVyY=
+T9jbXBpZD1CQkQwNTA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cB5c68ddd6" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">the meme stocks are over</a>!</p><block=
+quote><p style=3D"margin: 16px 0;">Nursing losses in 2022 that are worse th=
+an the rest of the market=E2=80=99s, amateur investors who jumped in when t=
+he lockdown began have now given back all of their once-prodigious gains, a=
+ccording to an estimate by Morgan Stanley. The calculation is based on trad=
+es placed by new entrants since the start of 2020 and uses exchange and pub=
+lic price-feed data to tally overall profits and losses. =E2=80=A6</p><p st=
+yle=3D"margin: 16px 0;">=E2=80=9CA lot of these guys started trading right =
+around Covid so their only investing experience was the wacked-out, Fed-fue=
+led market,=E2=80=9D said Matthew Tuttle, chief executive officer at Tuttle=
+ Capital Management LLC. =E2=80=9CThat all changed with the Fed pivot in No=
+vember, but they didn=E2=80=99t realize that because they have never seen a=
+ market that wasn=E2=80=99t supported by the Fed,=E2=80=9D he said. =E2=80=
+=9CThe results have been horrific.=E2=80=9D ...</p><p style=3D"margin: 16px=
+ 0;">Famous names from the height of the frenzy are nursing serious losses.=
+ AMC Entertainment Inc. is down 78% since June 2021. It=E2=80=99s lost 49% =
+this year. Peloton Interactive Inc. is off 90% from its record. From the st=
+art of 2020 to last November, a basket of retail =C2=A0stock favored by ret=
+ail trades that Goldman Sachs Group Inc. tracks more than doubled. This yea=
+r, that basket has plunged 32%, more than twice the S&amp;P 500=E2=80=99s d=
+ecline.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">I don=E2=80=99t =
+know, man, GameStop Corp. closed at $114.70 on Friday. It was down another =
+10% (!) as of noon today, but still. It started 2021 at $18.84, and we all =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMjUvdGhlL=
+WdhbWUtbmV2ZXItc3RvcHM_Y21waWQ9QkJEMDUwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1l=
+bWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTA5JnV0bV9jYW1wYWlnbj1=
+tb25leXN0dWZm/607f07ceef4b8524a319a23cBdc2abe86" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> lost our minds</a=
+> when it hit $76.79. If your only meme-stock trade was being early to the =
+main meme-stock trade, you=E2=80=99re still doing okay. <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMDkvbWVtZS1zdG9jay1mcmVuenktZnVl=
+bHMtcmVjb3JkLXRheC1oYXVsLXdpdGgtbm8tYm91bmNlLWZvci1iaWRlbj9jbXBpZD1CQkQwNTA=
+5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG=
+1fdGVybT0yMjA1MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB=
+d5a9d0bd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Meanwhile</a>:</p><blockquote><p style=3D"margin: 16px 0=
+;">The surge in individual stock trading by Americans last year contributed=
+ to a record tax haul for the federal government this spring. =E2=80=A6</p>=
+<p style=3D"margin: 16px 0;">Individual taxes from small business proceeds =
+or the sale of stock and other assets are nearly triple the 2019 levels.</p=
+><p style=3D"margin: 16px 0;">Tax preparers, in the annual season that clos=
+ed last month, had reported a significant increase among their clients of p=
+eople using services like Robinhood. Close watchers of Treasury data picked=
+ up on similar trends.</p><p style=3D"margin: 16px 0;">=E2=80=9CA big chunk=
+ of it has come from short-term capital gains,=E2=80=9D said Lou Crandall, =
+chief economist at Wrightson ICAP LLC. =E2=80=9CMeme stocks were very, very=
+ good to the IRS.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">The=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/a=
+HR0cHM6Ly90dXJib3RheC5pbnR1aXQuY29tL3RheC10aXBzL2ludmVzdG1lbnRzLWFuZC10YXhl=
+cy9jYXBpdGFsLWdhaW5zLWFuZC1sb3NzZXMvTDdHRjFvdVA4/607f07ceef4b8524a319a23cBd=
+d34a82f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">short-term capital=C2=A0<em>loss</em> rules</a>=C2=A0are l=
+ess generous, so if you made a million dollars trading last year and lost i=
+t all this year your tax situation will feel unfair.</p><table class=3D"liv=
+eintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"=
+center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNzY1MjI1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5MTUzODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHb8cfe718" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D27652254&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27915386&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Multistrat Mets</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">If you are good at investing, how hard=
+ can X be, for any X? There is a standard story of hedge-fund-manager hubri=
+s, in which:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; =
+margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">You start a small hed=
+ge fund focused on some narrow niche.</li>=09<li style=3D"margin-bottom: 5p=
+x;">You do well,=C2=A0racking up consistent high returns for a few years.</=
+li>=09<li style=3D"margin-bottom: 5px;">You decide you are an all-around in=
+vesting genius; you raise more money and expand your fund into other areas.=
+</li>=09<li style=3D"margin-bottom: 5px;">Also you decide you are an all-ar=
+ound=C2=A0<em>everything=C2=A0</em>genius and start telling corporate manag=
+ers, politicians, teachers, scientists, etc., how to do their jobs.</li>=09=
+<li style=3D"margin-bottom: 5px;">Possibly you are wrong about one or both =
+of these things, but if No. 3 works out well enough no one ever tells you y=
+ou=E2=80=99re wrong about No. 4.</li></ol><p style=3D"margin: 16px 0;">On t=
+he other hand <a href=3D"https://link.mail.bloombergbusiness.com/click/2765=
+2254.263132/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zdGV2ZS1jb2hlbi1tZXRzLWh=
+lZGdlLWZ1bmQtcG9pbnQ3Mi0xMTY1MjA1NjAyNT9tb2Q9aHBfbGVhZF9wb3MxMQ/607f07ceef4=
+b8524a319a23cBd271e31c" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">here is a story</a> about how Steve Cohen, =
+who is very good at managing a (large and multi-strategy) hedge fund, looke=
+d at Major League Baseball, thought =E2=80=9Chow hard can this possibly be,=
+=E2=80=9D bought a team, put his hedge fund in charge of it, and =E2=80=A6=
+=C2=A0it =E2=80=A6 worked?</p><blockquote><p style=3D"margin: 16px 0;">Some=
+ senior employees from Cohen=E2=80=99s firm, Point72 Asset Management, have=
+ been moonlighting as Mets employees in crucial roles, according to staffer=
+s=E2=80=99 LinkedIn pages, the Mets=E2=80=99 website and people familiar wi=
+th the matter. Many are tasked with improving the team=E2=80=99s once-outda=
+ted infrastructure, data-analytics capabilities and technological prowess. =
+=E2=80=A6</p><p style=3D"margin: 16px 0;">Since Cohen took over, the number=
+ of people working in data and analytics has grown from eight full-time emp=
+loyees to 35, some of them from Point72, a person familiar with the matter =
+said. Cohen has embedded data scientists in the Mets=E2=80=99 scouting depa=
+rtments. A new data-engineering group is also stocked with people from Poin=
+t72.</p><p style=3D"margin: 16px 0;">These investments are helping to make =
+the Mets one of the best teams in baseball, where they are seen as signific=
+ant World Series contenders this season. Point72 is a key reason why.</p></=
+blockquote><p style=3D"margin: 16px 0;">There are limits: =E2=80=9CThe Poin=
+t72 employees aren=E2=80=99t the ones deciding which players the Mets shoul=
+d acquire or how they should deploy their bullpen,=E2=80=9D and they are no=
+t, you know, actually playing baseball themselves. (True hedge-fund-manager=
+ hubris would be saying =E2=80=9Chey that man is just throwing a ball, how =
+hard can that be=E2=80=9D and putting yourself on the roster.) Still this i=
+s an example of a hedge fund manager looking at a high-profile, mature and =
+competitive field, saying =E2=80=9Cah sure I could do that,=E2=80=9D parach=
+uting in and in fact being successful. I guess he should run for governor n=
+ext.</p><p style=3D"margin: 16px 0;">On the other hand:</p><blockquote><p s=
+tyle=3D"margin: 16px 0;">Several Point72 investors contacted by The Wall St=
+reet Journal in recent weeks said they were unhappy about the moonlighting =
+or unaware of it altogether. Some said they withdrew their money from Point=
+72 after Cohen bought the team partly because they viewed him as distracted=
+ by the Mets.</p></blockquote><p style=3D"margin: 16px 0;">This seems misgu=
+ided to me, but I write about Elon Musk all the time now so I suppose my st=
+andards are all messed up. =E2=80=9CWhat, he runs=C2=A0<em>two=C2=A0</em>co=
+mplicated organizations, that=E2=80=99s nothing,=E2=80=9D is my instinctive=
+ thought. Also the goal of modern management of high-intensity organization=
+s often seems to be to merge work with every aspect of the employees=E2=80=
+=99 lives; if Cohen=E2=80=99s employees are doing data science at their job=
+ (as hedge-fund data scientists) and then also at their hobby (as baseball =
+data scientists) then really that means they have <em>fewer=C2=A0</em>distr=
+actions.=C2=A0Also:</p><blockquote><p style=3D"margin: 16px 0;">Cohen=E2=80=
+=99s chief-of-staff, Michael Sullivan, said Cohen hasn=E2=80=99t missed a d=
+ay of trading since he bought the Mets and continues to work seven days a w=
+eek.</p><p style=3D"margin: 16px 0;">=E2=80=9CSome members of his senior le=
+adership team that were hoping he=E2=80=99d be distracted by the Mets on we=
+ekends have been horribly disappointed,=E2=80=9D Sullivan said.</p></blockq=
+uote><p style=3D"margin: 16px 0;">Oh man do I know that feeling. You have a=
+n always-on boss, something nice happens in his personal life, you think =
+=E2=80=9Cah now he will spend more time with his [family, sports team, etc.=
+]=E2=80=9D and, nope, somehow he has even more time to create work for you!=
+</p><p style=3D"margin: 16px 0;">Anyway I assume that if the Mets lose five=
+ games in a row their payroll will be slashed. They=E2=80=99re a pod in a m=
+ultistrategy hedge fund now; that is just how it works.</p><table class=3D"=
+header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">UST <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL2J1=
+c2luZXNzLzIwMjIvMDUvMDgvdXN0LWJyaWVmbHktbG9zZXMtcGVnLWx1bmEtZHJvcHMtMTAv/60=
+7f07ceef4b8524a319a23cBc5c30d56" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">Stablecoin Briefly Loses Peg</a>, =
+Luna Drops 10%. =E2=80=9CFlash loans <a href=3D"https://link.mail.bloomberg=
+business.com/click/27652254.263132/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90=
+aGlzLWJpbGxpb24tZG9sbGFyLWNyeXB0by1sb2FuLWlzLWVhc3ktdG8tZ2V0LWJ1dC1nb25lLWl=
+uLWEtZmxhc2gtMTE2NTE5ODUwODk_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a3=
+19a23cBf7c61df5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">also have a dark side</a>.=E2=80=9D=C2=A0Chinese C=
+ompanies Boost <a href=3D"https://link.mail.bloombergbusiness.com/click/276=
+52254.263132/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jaGluZXNlLWNvbXBhbmllcy=
+1ib29zdC1yZXR1cm5zLXRvLXNoYXJlaG9sZGVycy0xMTY1MjA4ODYwMT9tb2Q9aHBfbGVhZF9wb=
+3M1/607f07ceef4b8524a319a23cB69131375" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">Returns to Shareholders</a>.=
+ U.S. Bans <a href=3D"https://link.mail.bloombergbusiness.com/click/2765225=
+4.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMD=
+gvdS1zLWJhbnMtYWNjb3VudGluZy1zZXJ2aWNlcy10by1ydXNzaWEtaW4tbmV3LXNhbmN0aW9uc=
+y1wYWNrYWdlP2NtcGlkPUJCRDA1MDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRt=
+X3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHV=
+mZg/607f07ceef4b8524a319a23cB1700f320" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> Accounting Services to Russ=
+ia</a> in Added Sanctions. EU Drops Plan to Stop <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMDkvZXUtZHJvcHMtcGxhbi10by1zdG9wLXRhbmt=
+lcnMtbW92aW5nLXJ1c3NpYW4tb2lsLXRvLW90aGVyLWJ1eWVycz9jbXBpZD1CQkQwNTA5MjJfTU=
+9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVyb=
+T0yMjA1MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB53e2567=
+b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Tankers Moving Russian Oil</a> to Other Buyers.=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvYTY2OGFkM2MtNTFkNC00ZGM3LWFkYTQtMGE1YmZkM2E5NmIy=
+/607f07ceef4b8524a319a23cBf7ea4e7d" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">Russia-exposed</a> asset manage=
+rs to shut funds permanently.=C2=A0<a href=3D"https://link.mail.bloombergbu=
+siness.com/click/27652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjItMDUtMDkvcml2aWFuLXNsdW1wcy1hbWlkLXJlcG9ydC1mb3JkLWlzLXNlb=
+Gxpbmctc2hhcmVzLWF0LWEtZGlzY291bnQ_Y21waWQ9QkJEMDUwOTIyX01PTkVZU1RVRkYmdXRt=
+X21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTA5JnV0bV9=
+jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBfab88e40" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">Rivian=
+</a> Slumps Amid Report Ford Is Selling Shares at a Discount.=C2=A0Dan Loeb=
+=E2=80=99s Third Point Fund Expands Stake in Energy Giant <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMDkvZGFuLWxvZWItcy10aGlyZC1wb2=
+ludC1mdW5kLWV4cGFuZHMtc3Rha2UtaW4tZW5lcmd5LWdpYW50LXNoZWxsP2NtcGlkPUJCRDA1M=
+DkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIyMDUwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+Bec15b766" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> Shell</a>. Firms Pay Biggest <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMDkvZmlybXMtcGF5LWJpZ2dlc3QtcHJlbWl1bXM=
+tb24tbmV3LWJvbmQtZGVhbHMtc2luY2UtY292aWQtcGVhaz9jbXBpZD1CQkQwNTA5MjJfTU9ORV=
+lTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yM=
+jA1MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB4d4ed76f" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> Premiums on New Bond Deals</a> Since Covid Peak. Inventor of Brain-=
+Scan Helmet Takes Ketamine to <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27652254.263132/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3N=
+sZXR0ZXJzLzIwMjItMDUtMDkvd2hhdC1kb2VzLWtldGFtaW5lLWRvLXRvLXlvdXItYnJhaW4ta2=
+VybmVsLWNlby10cmllcy10by1maW5kLW91dD9jbXBpZD1CQkQwNTA5MjJfTU9ORVlTVFVGRiZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MDkmdXRt=
+X2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB23ff6e0d" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Tes=
+t His Technology</a>. The <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/27652254.263132/aHR0cHM6Ly93d3cuYnV6emZlZWRuZXdzLmNvbS9hcnRpY2xlL2t=
+hdGllbm90b3BvdWxvcy95b3UtY2FuLXVzZS1tdWx0aXBsZS1zbHVycC1qdWljZXMtb24tYW4tYX=
+Bl/607f07ceef4b8524a319a23cB9fd4cc9c" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">slurp juice</a> <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/27652254.263132/aHR0cHM6Ly90d2l=
+0dGVyLmNvbS9rYXRpZW5vdG9wb3Vsb3Mvc3RhdHVzLzE1MjE5NzM3NzQ0Mjk2MDU4ODg/607f07=
+ceef4b8524a319a23cB44f2453c" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">milkshake ducked</a>.</p><p style=3D"m=
+argin: 16px 0;"><span class=3D"news-designed-for-consumer-media"><em>If you=
+'d like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in you=
+r inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/27652254.263132/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9p=
+bi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWN=
+lYTY3YQ/607f07ceef4b8524a319a23cB65a686e6" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">subscribe at this link</a>. Or you can subscribe to Money Stuff and oth=
+er great Bloomberg newsletters <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/27652254.263132/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZX=
+R0ZXJz/607f07ceef4b8524a319a23cB8646e233" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">here</a>. Thanks!</em></span></p><p style=
+=3D"margin: 16px 0;"><em>[1] That math is approximate, but Musk Twitter wil=
+l be much more levered than public Twitter, so Alwaleed won=E2=80=99t just =
+roll over to owning 4.6% of the new company. Figure that the total equity c=
+heck for this buyout is $33.5 billion, consisting of (1) Musk=E2=80=99s per=
+sonal equity commitment, (2) the equity commitments from his co-investors a=
+nd (3) Musk=E2=80=99s margin loan (which is equity as far as *Twitter* goes=
+). Then Kingdom=E2=80=99s $1.9 billion is about 5.7% of the equity.</em></p=
+><p style=3D"margin: 16px 0;"><em>[2] Or not, I guess; he might prefer owni=
+ng public Twitter to Musk Twitter and continue to oppose the merger, but he=
+dge his bets by agreeing to roll into Musk Twitter if the merger happens an=
+yway. You might expect Musk to demand some sort of voting agreement in whic=
+h Alwaleed promises to vote for the merger, but I have not seen one (in Mus=
+k=E2=80=99s or <a href=3D"https://link.mail.bloombergbusiness.com/click/276=
+52254.263132/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEwMzU0MT=
+AvMDAwMTEyMzI5MjIyMDAwMDg4L3R3aXR0ZXIxM2QuaHRt/607f07ceef4b8524a319a23cCf81=
+64f0f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">Alwaleed=E2=80=99s</a> filings), and I can imagine reasons w=
+hy they would not want that. (Musk and Alwaleed probably do not want to be =
+a =E2=80=9Cgroup=E2=80=9D for securities-law purposes, and in particular th=
+ey do not want to be lumped together for DGCL section 203 purposes; see bel=
+ow.)</em></p><p style=3D"margin: 16px 0;"><em>[3] Sort of. Technically it i=
+s listed with the other co-investors who are contributing cash, not with Al=
+waleed as a rollover shareholder. But=C2=A0<a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaX=
+Zlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIyMDU2MDU1L3RtMjIxNDYwOC0xX3NjM=
+TNkYS5odG0/607f07ceef4b8524a319a23cD2c472efc" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Fidelity=E2=80=99s co=
+mmitment</a> is a strange number =E2=80=94=C2=A0$316,139,386 =E2=80=94=C2=
+=A0and all of Musk=E2=80=99s other cash commitments are reasonably round nu=
+mbers. But Fidelity=E2=80=99s commitment divides evenly by $54.20 to get 5,=
+832,830 shares, and Fidelity is a big current shareholder of Twitter (with =
+17,641,927 shares, per Bloomberg). I don=E2=80=99t know why Alwaleed is rol=
+ling his shares, while Fidelity is getting cashed out for 100% of its share=
+s and then rolling some of the cash proceeds, but Fidelity is a more regula=
+ted entity than Kingdom Holdings and I assume it has to do with some sort o=
+f Fidelity internal accounting concerns.=C2=A0</em></p><p style=3D"margin: =
+16px 0;"><em>[4] Don=E2=80=99t take that number too seriously. Twitter has =
+about 764 million shares outstanding, worth about $41.4 billion at the merg=
+er price, though Musk already owns 73 million of them, reducing the cash he=
+ needs to buy the rest to about $37.5 billion. (Arguably in a perfect Musk =
+Merger he wouldn=E2=80=99t need to own any shares on his own.) But there ar=
+e also employee stock awards, convertible bond warrants, etc., that increas=
+e the total consideration; his total financing commitments are for $46.5 bi=
+llion.</em></p><p style=3D"margin: 16px 0;"><em>[5] He=E2=80=99s currently =
+at like =E2=80=A6=C2=A015%? He and Alwaleed <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/27652254.263132/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoa=
+XZlcy9lZGdhci9kYXRhLzEwMzU0MTAvMDAwMTEyMzI5MjIyMDAwMDg4L3R3aXR0ZXIxM2QuaHRt=
+/607f07ceef4b8524a319a23cDf8164f0f" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">combine for 14.1%</a>, and Fide=
+lity=E2=80=99s commitment amounts to about another 0.8%. Jack Dorsey, who s=
+eems to be a top target,=C2=A0owns about 2.4%, and otherwise the shareholde=
+rs seem pretty dispersed, so 51% seems very unlikely; this is a thought exp=
+eriment, not a real possibility.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBf6719e2b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB9baf0ee0" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB97b229b2" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB1d89a9e3" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNzY1MjI1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5MTUzODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIbe9c866b" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D27652254&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27915386&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB75901399" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27652254.263132/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC13b768cb" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27652254.263132/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBa1350034" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27652254.263132/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB864cb678" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+ae2b9b6" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27652254.263132/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB6=
+f3732bb" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D276522=
+54&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27915386&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D276522=
+54&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27915386&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D276522=
+54&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27915386&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D276522=
+54&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27915386&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D276522=
+54&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27915386&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cggom6.5n18/5c2becf3.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_74580345_240204521.1652119854483--
+

@@ -1,0 +1,2055 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:cd0a:b0:130:da8c:7dd9 with SMTP id gv10csp1635913rwb;
+        Mon, 24 Jul 2023 10:48:00 -0700 (PDT)
+X-Received: by 2002:a5d:6609:0:b0:317:5e0a:545e with SMTP id n9-20020a5d6609000000b003175e0a545emr2688954wru.58.1690220879921;
+        Mon, 24 Jul 2023 10:47:59 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1690220879; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=bHNrJPHGMjrZAKc4VjcJdp32oRVqM/bm653P42nDz3EUtYSjagCEmhPaTb5nfFI9KY
+         +QIrtXz0BohBx3Z9Qqqjm5psiur9GiIv6zHPi9YXPphPfjTBXviDxQ/2aLhJv2LcRtTZ
+         2Jp0fYODw9bWRLDHdw15cOAqq2pUWrkty6ITR6p5IrmxW+yAafWU7DKsiPAMRLc9zXui
+         ZMb6zytTLiHBl0UeMn20svru97MRaatOjk6OPRdiIJwi+kY9fVUzmUCjAueiMC5jYlkg
+         hjlxMglV8aryyBezOWu4AGig7AioKUSAUyK+PdAVyx2i+K2NHSav9JSUIKWTvdHaOevM
+         U1Fw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=kxxDwAsECmRN6z0tZtunf2zSTbbzWR9q/75n9ITxh74=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=tUyVX5IGLruyiyo8LYhHqmxuFgYAR2atqbleQnTAX76odZvih4D6Vsffhh24TSCC3N
+         XjGPzNiSInxDI4xiHKaLu7P8cdmu/Tzz9zjXN7OU/JiyesXtpaH5ToqpWd+hN2g1Mt/b
+         1EM08+eDVv/qlstyEr9Ic/st2Vm4eSXOwu8slItZbTdx8nRpijDD4Hm+nNYjZXDzCpDI
+         8zBFLnbIXe/dc3MYUu4hIQXn3psJj72sYqJSMUDS7LiUHZCx3k5pgxUcSz4CZSdq6AM2
+         VLHam4rkcLQr5K64KTixoSAtCczgSG9hlMPAzr7jyYZYD/qNFIIfSjBRGIbr/ThYWuLg
+         MKAg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=BDACoreZ;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d2-20020adf9b82000000b0031755246846sor1009449wrc.4.2023.07.24.10.47.59
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 24 Jul 2023 10:47:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=BDACoreZ;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1690220879; x=1690825679;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=kxxDwAsECmRN6z0tZtunf2zSTbbzWR9q/75n9ITxh74=;
+        b=CMRImMks++mo4ltk8ktSZMx8McAU9rtkvE6iXpkqxdUl+wiSD2eVpxDSWPprFnwtDq
+         EYEWoTgib+9KOQWcpANx80xSo8C61UXXjtdAImHqkPuT3zYK9mmpftZKvQcCBQYyO2oS
+         njDYE2NwNRRbZVq25hjAlgdTSkGE1+/xwJkEhiDBkDDp3l+smWyg8IB6W1axe0iODwUf
+         OLeCdd7R5piB9UEDz5DeAE4vFcW76H/QjC0COREymwWqusRWVPUJJFqSAz3wOPkWKRK6
+         aNyraVJ/3A65bXSQA9rr/0JJznW4hIOtzOLtOfGMJX6krxlq0oWSCu5hokwTLT8yqEpG
+         zGjw==
+X-Gm-Message-State: ABy/qLbZ2CVbaM6aF6pyGnR//dh7XcZh1OvXPeC5kRlxVvbZH7fAC+PO
+	vQxpEpPQ6yXZs9KxJhW/duRIlz0GX14pux/Rg3vwolq+/q0xdkJuIQ==
+X-Received: by 2002:adf:e285:0:b0:313:e9f6:3378 with SMTP id v5-20020adfe285000000b00313e9f63378mr8791912wri.4.1690220879239;
+        Mon, 24 Jul 2023 10:47:59 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:694b:0:b0:317:293c:c8b with SMTP id r11csp1777033wrw;
+        Mon, 24 Jul 2023 10:47:55 -0700 (PDT)
+X-Received: by 2002:a05:6a00:2302:b0:67f:e74a:d309 with SMTP id h2-20020a056a00230200b0067fe74ad309mr10675325pfh.30.1690220875111;
+        Mon, 24 Jul 2023 10:47:55 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1690220875; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=WCRs8Dxd9bHssazwvlwbjnO2jWJu4DEbFgQgaMIVgjA/s7FQ5dwN6J5iMLI0/CwGvQ
+         fOZ8lpZnuVpP03CBZMh5wF7v8pie5byayb2oJymU8LIKrETrb/GDvtG05T03HxBrH9vT
+         Rk12PmqY5WIs9RstHSxb5vStZuQKGkHZapPzjw0apw19OSmHUU6Unkn4hUma4Pb83Noi
+         mpn+j5yGe1XDPyNmIUax0MJR0adJD5u17aryUa2QcoobLBhc0BAgoVGp0ORJxWadPKyR
+         iiiU3DdUS+VC8IL6Am22vGkr58SvOb9HyI+kAzSPoXHYc2fgu7PvsJggfSg2XHNTgBvE
+         b0+w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=kxxDwAsECmRN6z0tZtunf2zSTbbzWR9q/75n9ITxh74=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=SjoyVfzXQHs8MZ1zYw5C1JvoU57A7BGC+Ux7MWswzP07161TdMv5bZChQ3Sqc/DyUw
+         VfnGFFR/DtEDpoI3hzDW7UCfGuAUTE+Ou0mTek2cwLCSmu45tGCQS+M0+Wpn4Im6LuZ+
+         98O+8fqGJhwX0yT3TtKCwjKqQvf6O0A5351MJYswbDu51Dy/O8XD555u59po1tiDv4eI
+         0R1ejieK4N71GG2P38GYlZQlgIhMeduY7PNVVHjBiJnQWqkspToO8TL71b6KQks58SbZ
+         pRufA5qkAYsTWExf1wcYF3d5f3mavVG8D05liBSlPh6+y4DHChCIHzrIjEpCN41J6yJf
+         ERbA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=BDACoreZ;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230724134753.32175659.262414@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230724134753.32175659.262414@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230724134753.32175659.262414@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id bt24-20020a632918000000b00545e773fb17sor2192824pgb.2.2023.07.24.10.47.54
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 24 Jul 2023 10:47:55 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230724134753.32175659.262414@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: APBJJlH836dFnG52ViAZDBevPV0re4BFeF8QfpAPC0Gmusk5ZWcDAKu2cfuuoP8CgFakhIGFeVlp/5uDQBSb+ohGhuRP5pzUIpc=
+X-Received: by 2002:a05:6a20:1054:b0:134:eee2:f9ce with SMTP id gt20-20020a056a20105400b00134eee2f9cemr9243764pzc.11.1690220874700;
+        Mon, 24 Jul 2023 10:47:54 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1690220874; cv=none;
+        d=google.com; s=arc-20160816;
+        b=G1tlWC51sd4ZeAAW35ymtiImxn3wvXhcgX8agmid2VRHhgCVQGkAuYYNcjMUzswU7k
+         GsHM7gvXIhKmMdAZHnfZtynbcy7Yh4CZvg8DSD4GxNs6RYfQ9L0uLUQ7mMa6MOJW9L5/
+         b/4DF5+KajvCf1B+xdeZv0si3DT8hvY8722ju33phP1UXkOcNW20FCJy90o5JsuPufUp
+         dDjL0yK1tThCRVOnqjornKAU40unTGUzH7MlKd3M88dsgOlV6aTudB8PUKetPmSIynva
+         cBRY+fswlj4cR5ZLXd3pl8WN8KXV4Qbdj0TOfU4qPkqxExlnYNSbLjt07eYpSgmFSZdT
+         32Cw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=kxxDwAsECmRN6z0tZtunf2zSTbbzWR9q/75n9ITxh74=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=0mID08QOnwC54b5DPxlkRMTXhGZVNItW4ndpFDffb+v+RR2Ev5EEfWWOr4z+pcwqqy
+         CSdbbNd94u2xECxdOw3GketTFta+WXiH18pzQOGcN8T6QUHOGeAfFIP/qb2WKM5BjK2O
+         54hmlJyJcWxiXU1K7mnjd4mTlSDel5qLwouK4DVnk5xpkvTiw27w1azE9rcTcpW/LCN/
+         aqKy886RgD8R1lBAaqVRgwxOEIldVdGOyJI98lLkeTn0LsZlbzSeodFLn2xATtjnwa/B
+         Fid8yiJ97RhXOSlOwscbIrLellmQua2Bhn1uWw+4Y8P8cUl3M9kpFwlugYRMbXuOtJTi
+         XDog==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=BDACoreZ;
+       spf=pass (google.com: domain of delivery_20230724134753.32175659.262414@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230724134753.32175659.262414@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230724134753.32175659.262414@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id k4-20020a056a00134400b006819db556a2si568584pfu.3.2023.07.24.10.47.54
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 24 Jul 2023 10:47:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230724134753.32175659.262414@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=LzTsPO+F5PvvSBzIELxBEEJgEhJUfHCWjuOs59t14JA=;
+ b=BDACoreZ2+4YsoJB9vK7B6bQJFpfybQfq2rR8FQMtdZ1VjoYtGfTq6WR1CofQrwKtuT0GOanJrxD
+   Oo0Y7zOb8hVtktXLHyFtWMXNZcRZ3HQNZs4N9IYksZjSlJTwzgSp1ulL7R4IYN6n9x2XfYx+YYn7
+   z/+gPV5VhOwYCAgFaS0=
+Received: from ip-10-55-71-150.ec2.internal (10.55.71.150) by aws1-mta-relay9.sailthru.cloud id hnqski1qqbsg for <bloomberg@khamel.com>; Mon, 24 Jul 2023 12:47:53 -0500 (envelope-from <delivery_20230724134753.32175659.262414@mx.sailthru.com>)
+Date: Mon, 24 Jul 2023 13:47:53 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230724134753.32175659.262414@sailthru.com>
+Subject: Money Stuff: The APEs Can Be Saved
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8241459_1533903815.1690220873684"
+Precedence: bulk
+x-job: 6358-32175659-20230724
+X-Feedback-ID: 6358:32175659:campaign:sailthru
+X-TM-ID: 20230724134753.32175659.262414
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-71-150.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj5mwb.5mha/bbfa0076
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj5mwb.5mha/bbfa0076>, <mailto:unsubscribe_20230724134753.32175659.262414@mx.sailthru.com>
+X-rpcampaign: stjko32175659
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_8241459_1533903815.1690220873684
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        The story in brief. AMC Entertainment Holdings Inc. became a meme-s=
+tock company and sold a lot of stock to retail investors to raise money t
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      AMC=C2=A0
+   =20
+ =20
+
+The   story in brief. AMC Entertainment Holdings Inc. became=C2=A0a meme-st=
+ock company and=C2=A0sold a lot of stock to retail investors to raise money=
+ to buy, among other things,   a gold mine. Eventually it sold all the comm=
+on stock that its corporate charter allowed it to sell, and it couldn=E2=80=
+=99t get its shareholders to approve more, because meme-stock investors mos=
+tly don=E2=80=99t vote. So it created a new type of preferred stock, AMC Pr=
+eferred Equity Units (APEs), and   gave out one APE for every share of comm=
+on stock. Then it sold more APEs to raise more money. Then it held another =
+shareholder vote, in which the common shares and APEs voted together as a s=
+ingle class, to approve (1) issuing new shares and (2) converting the APEs =
+into common stock. This vote was   somewhat rigged (the APEs would surely v=
+ote yes, and the voting mechanics basically turned=C2=A0non-voting APEs int=
+o yes votes), and AMC   won it.
+Before it could convert the APEs into common stock, though, a class of comm=
+on shareholders   sued, claiming that this was all rigged and illegitimate.=
+ AMC and the class eventually settled this lawsuit=C2=A0for   a deal in whi=
+ch (1) each APE would convert into one new common share but (2) each old co=
+mmon share would convert into about 1.13 new common shares.
+  [1]
+=C2=A0The Delaware judge hearing the lawsuit, Vice Chancellor Morgan Zurn, =
+did not immediately sign off on the conversion: Some shareholders objected =
+to the settlement, and she heard them out, commissioning a special master t=
+o examine the settlement. The special master  filed a report last month say=
+ing =E2=80=9Cmeh this seems fine.=E2=80=9D Many of the objections are meme-=
+stock nonsense about dark pools, hedge funds, phantom shares, naked shorts,=
+ etc.; I will not spend a lot of time on them, and neither did the special =
+master or Vice Chancellor Zurn.
+But on Friday, Vice Chancellor Zurn   rejected the settlement. Oops!
+Here is  the opinion. Her reason for rejection was fairly narrow and techni=
+cal.=C2=A0The lawsuit was a class action on behalf of AMC=E2=80=99s common =
+shareholders, who claimed that AMC was treating them unfairly when it=C2=A0=
+issued the APEs and tried to convert them=C2=A0into common stock. As in any=
+ class-action settlement, this one would release AMC from the class=E2=80=
+=99s claims against it: The point of settling a class action is that no AMC=
+ shareholders can turn around and sue AMC=C2=A0again=C2=A0over this stuff. =
+But the judge worried that the settlement released too=C2=A0many=C2=A0claim=
+s against AMC:
+The release purports to release not only claims associated with the common =
+stock, but also claims associated with preferred interests that common stoc=
+kholders might also hold. The release cannot properly extend to those latte=
+r claims, because the plaintiffs were not appointed as fiduciaries for the =
+holders of preferred interests and did not bring claims based on preferred =
+rights. The plaintiffs only sued on behalf of a putative class of common st=
+ockholders, and only asserted claims based on the voting rights of common s=
+tockholders. They can agree to a release that encompasses the claims they a=
+sserted, and claims that the class holds and that arise out of the same fac=
+tual predicate.
+That is, the settlement would not only put to rest the complaints that AMC =
+common shareholders might have about the APE deal, but also any complaints =
+that AMC=C2=A0APEholders might have.
+This makes no sense! The common shareholders had a complaint, they sued, an=
+d they negotiated a settlement in which they would get a somewhat better de=
+al: They would get a bit more stock than the APEholders, to make up for the=
+ somewhat fishy circumstances in which the APEholders got their APEs. But t=
+he APEholders hadn=E2=80=99t sued:=C2=A0They=C2=A0had no complaints about t=
+he issuance of the APEs or their conversion into common stock; that was wha=
+t they wanted. They were not involved in the lawsuit, so no one speaks for =
+them in the settlement.
+And=C2=A0the=C2=A0settlement is=C2=A0bad for the APEholders: Instead of con=
+verting into common stock on a one-for-one basis, they=E2=80=99re getting a=
+ bit less stock than the common shareholders. They bought APEs thinking tha=
+t they would be economically equivalent to AMC common stock, and now it tur=
+ns out that they won=E2=80=99t be: The APEs are a little bit worse than com=
+mon. The APEholders should sue!
+No they shouldn=E2=80=99t, not really: Converting into common, even at wors=
+e than a one-for-one ratio, really is what they want. (On Friday, the APEs =
+closed at $1.80 per share, while the common shares closed at $4.40: The com=
+mon trades at a 144% premium to the APEs, versus the 13% premium offered in=
+ the settlement.)=C2=A0Rationally the APEholders should like this deal.=C2=
+=A0But since they are not involved in the lawsuit, the settlement can=E2=80=
+=99t foreclose their claims. If they want to sue, they can go ahead.
+Now, I am overstating it somewhat. The settlement wouldn=E2=80=99t release =
+AMC from=C2=A0all=C2=A0APE claims. It would release it from APE claims =E2=
+=80=9Cthat common stockholders might hold=E2=80=9D: If you are an AMC commo=
+n shareholder, you are part of this class, and if you=C2=A0also=C2=A0own AP=
+Es then this settlement would prevent you from suing AMC for treating your =
+APEs unfairly. But if you own only APEs and no common shares at all, then y=
+ou are not part of the class and your claims are not released. But since a =
+lot of people own both APEs and common shares (the APEs were originally dis=
+tributed as a dividend on the common), and in different proportions, it see=
+ms unfair to prevent a holder of a million APEs from suing over their APE t=
+reatment=C2=A0if they happen to own one common share. =E2=80=9CAPE units ar=
+e not represented in the complaints or in the common stockholder class,=E2=
+=80=9D writes Vice Chancellor Zurn, and so the lead plaintiffs of the class=
+ =E2=80=9Ccannot represent or release APE direct claims.=E2=80=9D=C2=A0
+This seems right? Vice Chancellor Zurn raised it in court and everyone kind=
+ of ignored her; she writes:
+I raised the fact that the Release included APE claims released by common s=
+tockholders at argument to Plaintiffs and the defendants. Plaintiffs=E2=80=
+=99 counsel first tried to describe the APEs as a share split to color the =
+APE claims as appurtenant to the common shares, then deferred to the defend=
+ants=E2=80=99 counsel, and then wondered aloud if the defendants would drop=
+ that part of the Release. The defendants=E2=80=99 counsel simply insisted =
+they were =E2=80=9Centitled to complete peace.=E2=80=9D
+Anyway this seems obviously fixable:
+=09File a revised settlement releasing only the common claims, not the APE =
+ones.=09Get that approved by the court.=09
+Go ahead and convert the APEs into common.=09If any APEholders want to sue,=
+ let them. Maybe they will win, and a court will give them some extra share=
+s. Most likely they won=E2=80=99t, because this works out pretty well for t=
+hem and they don=E2=80=99t have a ton to complain about.
+  [2]
+
+
+
+AMC doesn=E2=80=99t get =E2=80=9Ccomplete peace,=E2=80=9D but it gets to co=
+nvert its APEs into common and then sell more stock, which is the main thin=
+g. AMC=E2=80=99s meme-y chief executive officer, Adam Aron,  tweeted an ope=
+n letter begging to be allowed to do that:
+
+Raising fresh equity in the near term is critical to our company, so it is =
+important that we work to address the concern raised in the Delaware Court =
+of Chancery=E2=80=99s ruling on Friday. =E2=80=A6
+AMC must be in a position to raise equity capital. I repeat, to protect AMC=
+=E2=80=99s shareholder value over the long term, we MUST be able to raise e=
+quity capital. =E2=80=A6=C2=A0If we are unable to raise equity capital, the=
+ risk materially increases of AMC conceivably running out of cash in 2024 o=
+r 2025, or AMC being unable to satisfactorily refinance and stretch out the=
+ maturity of some of our debt. =E2=80=A6
+
+ And so:
+
+The company and investors leading a lawsuit over the plan filed a revision =
+of a nine-figure settlement over the weekend in Delaware Chancery Court to =
+address problems identified by Judge Morgan Zurn, according to people famil=
+iar with the filing. =E2=80=A6
+The settlement=E2=80=99s backers want Zurn to weigh the new version of the =
+deal without seeking additional comment from AMC shareholders, the people s=
+aid.
+
+It=E2=80=99s pretty easy to revise the settlement to accommodate the judge=
+=E2=80=99s concerns: In the sentence of the settlement that says =E2=80=9C=
+=E2=80=98Released Plaintiffs=E2=80=99 Claims=E2=80=99 means any and all act=
+ions =E2=80=A6=C2=A0that related to the ownership of Common Stock and/or AM=
+C Preferred Equity Units,=E2=80=9D just cross out the words =E2=80=9Cand/or=
+ AMC Preferred Equity Units.=E2=80=9D So that=E2=80=99s what they did.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      DWAC
+   =20
+ =20
+
+In October 2021, Trump Media & Technology Group  announced that it would go=
+ public by merging=C2=A0with Digital World Acquisition Corp., a special pur=
+pose acquisition company. This was certainly the first=C2=A0I had ever hear=
+d of Trump Media & Technology Group, and I am pretty sure I am not alone. I=
+t seemed, at the time, pretty half-baked. There were some plans for launchi=
+ng a social media site called Truth Social, but it did not exist yet. There=
+ was an investor presentation, but it was not replete with financial or bus=
+iness information: I  pointed out that=C2=A0=E2=80=9Cthere is not a single =
+dollar sign in the whole deck.=E2=80=9D
+Digital World Acquisition Corp., meanwhile, was a SPAC that had gone public=
+ only a few weeks earlier. It had raised $287.5 million from investors, at =
+$10 per share, to hunt for a company to take public. =E2=80=9CWe intend to =
+focus on middle market and emerging growth technology-focused companies in =
+the Americas, in SaaS and Technology or Fintech and Financial Services,=E2=
+=80=9D  it told prospective investors. And: =E2=80=9CWe have not selected a=
+ny specific business combination target and we have not, nor has anyone on =
+our behalf, initiated any substantive discussions, directly or indirectly, =
+with any business combination target.=E2=80=9D
+This was,  it soon became apparent, a lie. When DWAC filed to go public, it=
+s sponsor was already in serious talks with Trump=E2=80=99s people to take =
+TMTG public. DWAC was not really a blind pool of cash looking for companies=
+ to take public; it was a vehicle specifically for taking TMTG public.=C2=
+=A0
+You are not supposed to lie in securities filings, so last week DWAC  agree=
+d to pay $18 million to the US Securities and Exchange Commission, if the d=
+eal ever closes:
+
+The Securities and Exchange Commission [Thursday] announced=C2=A0settled fr=
+aud charges against Digital World Acquisition Corporation (DWAC), a special=
+ purpose acquisition company (SPAC), for making material misrepresentations=
+ in forms filed with the SEC as part of DWAC=E2=80=99s initial public offer=
+ing and proposed merger with Trump Media & Technology Group Corp. (TMTG). T=
+he Commission finds that DWAC misled investors and the SEC by failing to di=
+sclose that it had formulated a plan to acquire and was pursuing the acquis=
+ition of TMTG prior to DWAC=E2=80=99s IPO.
+The purpose of a SPAC is to identify and acquire an operating business. As =
+such, steps taken by a SPAC in furtherance of a particular acquisition are =
+important to investors. According to the SEC=E2=80=99s order, DWAC filed an=
+ amended Form S-1 in support of its IPO in early September 2021 that stated=
+ that neither DWAC nor its officers and directors had had any discussions w=
+ith any potential target companies prior to the IPO. But, as found in the S=
+EC=E2=80=99s order, dating back to February 2021, an individual who would l=
+ater become DWAC=E2=80=99s CEO and Board Chairman, and others involved with=
+ DWAC, had extensive SPAC merger discussions with TMTG. The SEC=E2=80=99s o=
+rder further finds that, while DWAC=E2=80=99s CEO and Chairman initially pu=
+rsued these discussions with TMTG on behalf of another SPAC, he created a p=
+lan in the spring and summer of 2021 to potentially use DWAC to pursue a me=
+rger with TMTG and used this plan to solicit certain pre-IPO investors. =E2=
+=80=A6
+=E2=80=9CDWAC failed to disclose its discussions with TMTG and failed to di=
+sclose a material conflict of interest of its CEO and Chairman,=E2=80=9D=C2=
+=A0said Gurbir S. Grewal, Director of the SEC=E2=80=99s Division of Enforce=
+ment. =E2=80=9CIn the context of a SPAC =E2=80=93 a =E2=80=98blank-check=E2=
+=80=99 entity without business operations =E2=80=93 these disclosure failur=
+es are particularly problematic because investors focus on factors such as =
+the SPAC=E2=80=99s management team and potential merger targets when making=
+ financial decisions.=E2=80=9D
+
+When we have   discussed this situation   previously, I have pointed out th=
+at investors in DWAC were not really=C2=A0harmed=C2=A0by its lies.
+  [3]
+=C2=A0They bought DWAC stock at $10 in its public offering, thinking it was=
+ a SPAC like any other, one that might or might not find an attractive deal=
+. And then it quickly found the Trump deal and the stock shot up: The stock=
+ closed at $9.96 the day before the Trump deal was announced, and $94.20 tw=
+o days later.=C2=A0If you bought DWAC stock for $10 in its initial public o=
+ffering, you were=C2=A0deceived=C2=A0about its plans, but in a=C2=A0nice=C2=
+=A0way. You paid less for DWAC stock than it was worth. That=E2=80=99s good=
+!
+On the other hand =E2=80=A6=C2=A0why would DWAC do that? Why lie about its =
+plans, in order to trick people into=C2=A0underpaying=C2=A0for the stock? I=
+ don=E2=80=99t know, but let me suggest three possibilities.
+One is just, like, sloppiness and incompetence? The standard form of SPAC p=
+rospectus says =E2=80=9Cwe have not had any substantive conversations with =
+any target,=E2=80=9D so they just copied and pasted that even though it was=
+n=E2=80=99t true. Can=E2=80=99t really rule that out.
+Another=C2=A0is insider trading. You=C2=A0are an executive at DWAC, you wan=
+t DWAC to=C2=A0sell stock to raise money, and you want it to be too cheap s=
+o that you can=C2=A0buy=C2=A0it cheaply, in the market, just before you ann=
+ounce the deal, and then you=C2=A0make money when you announce the deal and=
+ the stock pops. You want to trick people into thinking the stock is worth =
+less than it is, so you can make informed trades on the other side.
+This explanation doesn=E2=80=99t make very much sense,
+  [4]
+ and I mention it only because it =E2=80=A6=C2=A0appears to be true? We   t=
+alked last month about a different  SEC enforcement action (and a related f=
+ederal criminal prosecution), this one against a DWAC board member and his =
+buddies, accusing them of insider trading by buying DWAC stock and warrants=
+ on the open market before the Trump deal was announced. So, sure, I guess.
+But I think the real reason is that DWAC probably couldn=E2=80=99t=C2=A0hav=
+e done this deal without lying. It=E2=80=99s not just that DWAC lied in its=
+ prospectus by saying it hadn=E2=80=99t had discussions with TMTG when it h=
+ad. If it had told the truth =E2=80=94=C2=A0if it had said =E2=80=9Cwe=E2=
+=80=99re a SPAC that=E2=80=99s raising money to take Trump Media & Technolo=
+gy Group public=E2=80=9D =E2=80=94=C2=A0it wouldn=E2=80=99t have been allow=
+ed to do its offering in the first place. A SPAC is supposed to be a blank-=
+check company=C2=A0without=C2=A0any particular private company to take publ=
+ic. If you are raising money to take one particular company public, that=E2=
+=80=99s not a SPAC. That=E2=80=99s just a regular initial public offering. =
+You don=E2=80=99t just file for a blank check; you file for an initial publ=
+ic offering, with all of the regular disclosure about the company=E2=80=99s=
+ business and finances.
+Could TMTG have done a regular initial public offering in October 2021? No?=
+ The investor presentation had no dollar signs. DWAC and TMTG eventually  f=
+iled a prospectus describing=C2=A0TMTG=E2=80=99s business, but it took them=
+ until May 2022. I=C2=A0  made fun of the prospectus=C2=A0at the time, beca=
+use it was still not all that businesslike, and the stock is down about 60%=
+ since that filing. And the SEC has been holding up the deal ever since =E2=
+=80=94=C2=A0in part, clearly, because of the misstatements in DWAC=E2=80=99=
+s original prospectus, but I suspect also a little bit because they have th=
+eir doubts about the business disclosure. If TMTG had just filed for an ini=
+tial public offering, I bet the SEC would have had lots of questions.
+But meanwhile =E2=80=A6=C2=A0look, I do not use Truth Social, but I gather =
+that it exists, at least in some=C2=A0minimal sense of the word. The fact t=
+hat TMTG was announced to the world along with a $287.5=C2=A0million fundra=
+ising, a public listing, and a stock price that shot up 840% in two days wa=
+s=C2=A0useful=C2=A0to TMTG. It attracted attention, and employees, and user=
+s, and hangers-on, and, not least, another   billion dollars of committed p=
+rivate-investment-in-public equity (PIPE)=C2=A0financing (if the merger eve=
+r closes) from, uh, institutional-ish investors. By launching as a vague id=
+ea, rather than a fully formed company, TMTG was able to get enough attenti=
+on and money and stock-market action to perhaps become a real company.
+Also, to be clear, this SEC settlement is very=C2=A0good=C2=A0news for DWAC=
+ and TMTG. Any resolution is good news; what was bad, for DWAC, was the lim=
+bo that it was in with the SEC. The SEC has now signed off, at least in con=
+cept, on the idea that DWAC=C2=A0can=C2=A0file some amended disclosure, get=
+ a shareholder vote, and close its merger. When it does, TMTG gets DWAC=E2=
+=80=99s $287.5 million, plus probably the $1 billion of PIPE money, plus a =
+public stock-market listing and the ability to raise more money. The stock =
+has drifted down since the glory days, but it closed at $20.08 on Friday, a=
+fter the SEC settlement was announced, up 50% from the day before. There=E2=
+=80=99s still some investor excitement here.
+When this SPAC deal was first announced, back in October 2021,   I wrote th=
+at =E2=80=9Cit does feel a little bit like all of recent financial history =
+has been leading up to this moment.=E2=80=9D For instance, =E2=80=9Cmeme st=
+ocks have prepared everyone for the notion that the value of a stock is bas=
+ed on the fervor of its community of online fans, not its projected cash fl=
+ows.=E2=80=9D TMTG is the purest form of meme stock: It launched as a meme =
+stock before it was actually a company, and used its meme-stock status to s=
+ort of, maybe, bootstrap its way into being a company.
+
+ =20
+   =20
+      X
+   =20
+ =20
+
+Last year, when Elon Musk was toying with the idea of buying Twitter Inc. =
+=E2=80=94=C2=A0asking to be on the board, quitting the board in a huff, say=
+ing he would buy the company, saying he wouldn=E2=80=99t buy it, etc. =E2=
+=80=94=C2=A0he mused that, instead of buying Twitter, he could just start a=
+ competing social media platform.
+  [5]
+ On the one hand, that seems kind of hard: Social networks are=C2=A0network=
+=C2=A0businesses, and Twitter=E2=80=99s large=C2=A0user base and well-known=
+ brand gave it a big head start over a hypothetical new Musk platform. On t=
+he other hand, it=E2=80=99s not=C2=A0that=C2=A0hard: Twitter is a website, =
+not a space rocket company; the basic mechanics of displaying a social feed=
+ are reasonably well understood and easy to copy; Twitter=E2=80=99s users a=
+re perpetually dissatisfied; Musk is a very famous person with a lot of fan=
+s and followers. Could he hire a dozen engineers, spin up a Twitter clone, =
+get a few million people to use it, and see if it developed into a real bus=
+iness? Sure,=C2=A0maybe. Donald Trump did, sort of.
+In the event, Musk spent $44 billion to actually acquire Twitter. Then he f=
+ired most of the employees,=C2=A0drove away its celebrity users and is now =
+  changing its name and logo:
+
+Elon Musk has changed Twitter=E2=80=99s logo, replacing its signature blue =
+bird with a stylized X as part of the billionaire=E2=80=99s vision of trans=
+forming the 17-year-old service into an everything app. =E2=80=A6
+While crowdsourcing the logo, Musk changed his profile information to read =
+=E2=80=9CX.com,=E2=80=9D a web address that now redirects to corresponding =
+user pages on twitter.com. The move is part of a broader overhaul that will=
+ see all familiar =E2=80=9CTwitter=E2=80=9D and bird branding stripped away=
+, he said. =E2=80=A6
+The abrupt change comes as Twitter faces a steep decline in advertising dol=
+lars and a new rival in Meta Platforms Inc.=E2=80=99s Threads, a service th=
+at racked up 100 million users within five days of launching this month. Th=
+e debut of Threads was greeted with derision by Musk, who=E2=80=99s accused=
+ it of being a copycat service due to its similarities to Twitter.
+
+I don=E2=80=99t know! I=E2=80=99ll kind of believe the everything app when =
+I see it; certainly so far Musk has done a lot to make Twitter less useful =
+but nothing, as far as I can see, to make it more useful. Adding payments t=
+o Twitter=E2=80=99s messaging capability might be interesting in theory, bu=
+t in real life=C2=A0Musk is  cutting back that messaging capability, so I d=
+unno.=C2=A0
+But if you traveled back in time two years and said =E2=80=9Ctwo years from=
+ now, Twitter will no longer exist, and you will be able to choose between =
+a Twitter-like service called =E2=80=98X=E2=80=99 run by Elon Musk and a Tw=
+itter-like service called =E2=80=98Threads=E2=80=99 run by Facebook, which =
+by the way will be  called Meta,=E2=80=9D I=E2=80=99m not sure it=E2=80=99s=
+ obvious=C2=A0that X is the winner there?
+  [6]
+=C2=A0Facebook/Meta/Mark Zuckerberg have a lot of experience running popula=
+r social media platforms, and they employ a lot of people who have built so=
+cial media platforms (some of them hired from Twitter!), while Musk mostly =
+has experience tweeting (now called x=E2=80=99ing???)=C2=A0and employs stri=
+kingly few people who have built social media platforms, because he fired=
+=C2=A0most of them. There is a certain inertia that causes people to stay o=
+n Twitter, but if you get rid of Twitter I=E2=80=99m not sure the inertia w=
+ill fully carry over to X.
+I guess my question is, what was he paying for?=C2=A0Musk didn=E2=80=99t wa=
+nt Twitter for its employees (whom he fired) or its code (which he trashes =
+regularly)=C2=A0or its brand=C2=A0(which he abandoned) or its most dedicate=
+d=C2=A0users (whom he is working to drive away); he just wanted an entirely=
+ different Twitter-like service. Surely he could have built that for less t=
+han $44 billion? Mark Zuckerberg did!
+
+ =20
+   =20
+      Everything is securities fraud
+   =20
+ =20
+
+If a beer company sends beer to=C2=A0a transgender influencer and right-win=
+g influencers get mad about it and boycott the beer, is that securities fra=
+ud? Buddy everything is =E2=80=A6=C2=A0well, technically this is a sharehol=
+der derivative action for breach of fiduciary duty, and more technically it=
+=E2=80=99s just a guy=C2=A0talking=C2=A0about a shareholder derivative acti=
+on, but still  here you go:
+
+Florida Gov. Ron DeSantis is urging the state=E2=80=99s pension fund manage=
+r to consider legal action against Bud Light=E2=80=99s parent company amid =
+conservative backlash to the beermaker=E2=80=99s recent marketing efforts, =
+the latest attempt by the Republican presidential candidate to inject himse=
+lf and the state he runs into the country=E2=80=99s culture wars.
+In a Thursday letter obtained by CNN, DeSantis suggests AB InBev =E2=80=9Cb=
+reached legal duties owed to its shareholders=E2=80=9D when it decided to a=
+ssociate with =E2=80=9Cradical social ideologies.=E2=80=9D Sales of Bud Lig=
+ht have plummeted in the months since it entered into a minor partnership w=
+ith transgender influencer Dylan Mulvaney that precipitated a boycott from =
+conservatives.
+=E2=80=9CAll options are on the table,=E2=80=9D DeSantis wrote, as the stat=
+e reviews the impact of AB InBev=E2=80=99s recent financial downturn, thoug=
+h it=E2=80=99s unclear what legal recourse the state might have to challeng=
+e a multinational corporation=E2=80=99s business decisions.
+=E2=80=9CWe must prudently manage the funds of Florida=E2=80=99s hardworkin=
+g law enforcement officers, teachers, firefighters, and first responders in=
+ a manner that focuses on growing returns, not subsidizing an ideological a=
+genda through woke virtue signaling,=E2=80=9D DeSantis wrote in the letter =
+to Lamar Taylor, the interim director of the State Board of Administration,=
+ the state agency that manages Florida=E2=80=99s retirement funds for publi=
+c workers. DeSantis oversees the board as a trustee along with the state=E2=
+=80=99s attorney general and chief financial officer, both also Republicans=
+.
+Speaking to Fox News on Thursday night about the letter, DeSantis said the =
+state may consider a =E2=80=9Cderivative lawsuit=E2=80=9D against AB InBev.=
+ Derivative lawsuits are filed by shareholders on behalf of a company again=
+st a corporation=E2=80=99s directors or officers alleging breach of duties.
+
+Sure.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+The   Great M&A Slump Is Shaking Up Giants of Investment Banking. FOMO Driv=
+es Investors as  IPO Market Awakens From Long Slumber.  Julius Baer pulls i=
+n more than $10bn after Credit Suisse collapse. Jamie Dimon Is   Boss Banke=
+rs Crave, Investor Survey Shows. Wall Street Is Grappling With Crypto=E2=80=
+=99s Trillion-Dollar   Custody Question.=C2=A0US junk loan market hit with =
+flurry of  credit rating downgrades. Russia Defies Sanctions by  Selling Oi=
+l Above Price Cap.  Chinese Money Flees the Western World. Apollo Is Opposi=
+ng Push to Tighten Rule for Key  Insurance Business.=C2=A0Chevron  Waives R=
+etirement Age for CEO Mike Wirth. =E2=80=9COnce users have  proved they are=
+ not robots, they can be issued one of the company=E2=80=99s tokens.=E2=80=
+=9D  Barbie Girl, in the Style of Six Classical Composers.=C2=A0
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Each common shareholder would get a bonus share of common stock for e=
+very 7.5 shares they held.
+
+
+  [2] The more technical legal point here is that the shareholder class act=
+ion asked for injunctive relief: They wanted AMC to be forbidden from (ever=
+) converting the APEs into common, because that conversion would sort of up=
+end AMC=E2=80=99s share structure and be impossible to undo. But the APEs h=
+ave no real claim for injunctive relief: The point of the APEs was always t=
+o convert into common, so converting into common is what the APE holders wa=
+nt. They might want to convert at a more equal conversion ratio, but that i=
+s solvable by allowing the conversion and suing for damages. The APE holder=
+s won=E2=80=99t suffer irreversible damage, so it=E2=80=99s fine for them t=
+o sue after the APEs are converted.
+
+
+  [3] A very minor exception is that some hedge funds were (publicly announ=
+ced as) anchor investors in DWAC=E2=80=99s initial public offering, apparen=
+tly without knowing that it was doing a deal with Trump, and after the deal=
+ was announced they  hurried to exit their positions and said some version =
+of =E2=80=9Cwe didn=E2=80=99t know this was a Trump thing.=E2=80=9D I suppo=
+se this caused them some embarrassment. On the other hand they made a ton o=
+f money in the rush to exit!
+
+
+  [4] Just, come on. If you sell shares worth $94 to the public for $10, an=
+d then you buy some in the market at $10, you have left a lot of money on t=
+he table. Just keep all of the shares and sell them to the public at $94 wh=
+en the deal is announced!=20
+
+
+  [5] For instance,  in March 2022, after Musk had bought a stake in Twitte=
+r but before he offered to take it private, he had a discussion with Twitte=
+r=E2=80=99s chief executive officer, Parag Agrawal, and its board chairman,=
+ Bret Taylor, in which =E2=80=9CMr. Musk stated that he was considering var=
+ious options with respect to his ownership, including potentially joining t=
+he Twitter Board, seeking to take Twitter private or starting a competitor =
+to Twitter.=E2=80=9D
+
+
+  [6] The obvious winner would be =E2=80=9Ca Twitter-like service called =
+=E2=80=98BlueSky=E2=80=99 sort of started by Jack Dorsey and designed to be=
+ more of a protocol and less of a company,=E2=80=9D except that in the real=
+ world it=E2=80=99s tiny, invitation-only and mostly journalists.=20
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj5mwb.5mha/0b3e7535.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8241459_1533903815.1690220873684
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+The story in brief. AMC Entertainment Holdings Inc. became a meme-stock com=
+pany and sold a lot of stock to retail investors to raise money t
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.262414/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNzI0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MjQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB8a149e89"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.262414/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjE3NTY1OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI0MzgwNzMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBe92c7ec7" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32175659&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32438073&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">AMC=C2=A0</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/32175659.262414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjMtMDctMDUvbG90cy1vZi1iYW5rcy1tZWFucy1sb3RzLW9mLWJhbmstbWV=
+yZ2Vycz9jbXBpZD1CQkQwNzI0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cB011516f7" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  story in brief</a>. AMC Enterta=
+inment Holdings Inc. became=C2=A0a meme-stock company and=C2=A0sold a lot o=
+f stock to retail investors to raise money to buy, among other things, <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/32175659.262414/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMTUvYW1jLWJvd=
+WdodC1hLWdvbGQtbWluZT9jbXBpZD1CQkQwNzI0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVt=
+YWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MjQmdXRtX2NhbXBhaWduPW1=
+vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB12bc305a" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  a gold mine</a>. =
+Eventually it sold all the common stock that its corporate charter allowed =
+it to sell, and it couldn=E2=80=99t get its shareholders to approve more, b=
+ecause meme-stock investors mostly don=E2=80=99t vote. So it created a new =
+type of preferred stock, AMC Preferred Equity Units (APEs), and <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/32175659.262414/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDgtMjMvYW1jLWdvZXMtYXBl=
+P2NtcGlkPUJCRDA3MjQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1=
+uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07c=
+eef4b8524a319a23cB12dd9f36" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">  gave out one APE</a> for every share =
+of common stock. Then it sold more APEs to raise more money. Then it held a=
+nother shareholder vote, in which the common shares and APEs voted together=
+ as a single class, to approve (1) issuing new shares and (2) converting th=
+e APEs into common stock. This vote was <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/32175659.262414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjMtMDItMDEvYW1jLWhhcy1zb21lLWNsZXZlci1hcGVzP2NtcGlk=
+PUJCRDA3MjQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTIzMDcyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cB8e5dedd5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  somewhat rigged</a> (the APEs would surely =
+vote yes, and the voting mechanics basically turned=C2=A0<em>non-</em>votin=
+g APEs into yes votes), and AMC <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/32175659.262414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDMtMTUvc2lsaWNvbi12YWxsZXktYmFuay1pcy1mb3Itc2FsZT9jbXBp=
+ZD1CQkQwNzI0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2x=
+ldHRlciZ1dG1fdGVybT0yMzA3MjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b85=
+24a319a23cB564b790d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  won it</a>.</p>
+<p style=3D"margin: 16px 0;">Before it could convert the APEs into common s=
+tock, though, a class of common shareholders <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/32175659.262414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMjEvYW1jLWFwZXMtaGF0ZS1hbWMtcy1hcGVzP2N=
+tcGlkPUJCRDA3MjQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTIzMDcyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cB80cd9294" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  sued</a>, claiming that this was all rig=
+ged and illegitimate. AMC and the class eventually settled this lawsuit=C2=
+=A0for <a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.26=
+2414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDQtMT=
+AvZnR4LWxvc3QtdHJhY2stb2YtaXRzLW1vbmV5P2NtcGlkPUJCRDA3MjQyM19NT05FWVNUVUZGJ=
+nV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcyNCZ1=
+dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB13b695a1" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  a deal in which</a> (1) each APE would convert into one new common share =
+but (2) each old common share would convert into about 1.13 new common shar=
+es.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: none !important; background-color: tr=
+ansparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0The Delaware judge hearing the lawsuit, Vice Chancellor Morgan Zu=
+rn, did not immediately sign off on the conversion: Some shareholders objec=
+ted to the settlement, and she heard them out, commissioning a special mast=
+er to examine the settlement. The special master <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32175659.262414/aHR0cHM6Ly9zMjUucTRjZG4uY29t=
+LzQ3MjY0MzYwOC9maWxlcy9kb2NfZG93bmxvYWRzL3NoYXJlaG9sZGVyLW1lZXRpbmcvMjAyMy8=
+wNi9SZXBvcnQtYW5kLVJlY29tbWVuZGF0aW9uLW9mLVNwZWNpYWwtTWFzdGVyLVJlZ2FyZGluZy=
+1PYmplY3Rpb25zLXRvLVByb3Bvc2VkLVNldHRsZW1lbnQtd2l0aC1FeGhpYml0cy1hbmQtQXBwZ=
+W5kaWNlcy5wZGY/607f07ceef4b8524a319a23cB665fee54" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> filed a report</=
+a> last month saying =E2=80=9Cmeh this seems fine.=E2=80=9D Many of the obj=
+ections are meme-stock nonsense about dark pools, hedge funds, phantom shar=
+es, naked shorts, etc.; I will not spend a lot of time on them, and neither=
+ did the special master or Vice Chancellor Zurn.</p>
+<p style=3D"margin: 16px 0;">But on Friday, Vice Chancellor Zurn <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/32175659.262414/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMjMvYW1jLXJldmlzZXMtc3R=
+vY2stY29udmVyc2lvbi1zZXR0bGVtZW50LXBsYW4tcmVqZWN0ZWQtYnktanVkZ2U_Y21waWQ9Qk=
+JEMDcyNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjMwNzI0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cB1737e5a8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  rejected the settlement</a>. Oops!</p>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/32175659.262414/aHR0cHM6Ly9jb3VydHMuZGVsYXdhcmUuZ292L09w=
+aW5pb25zL0Rvd25sb2FkLmFzcHg_aWQ9MzUwNDQw/607f07ceef4b8524a319a23cB15b8b200"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> the opinion</a>. Her reason for rejection was fairly narrow and t=
+echnical.=C2=A0The lawsuit was a class action on behalf of AMC=E2=80=99s co=
+mmon shareholders, who claimed that AMC was treating them unfairly when it=
+=C2=A0issued the APEs and tried to convert them=C2=A0into common stock. As =
+in any class-action settlement, this one would release AMC from the class=
+=E2=80=99s claims against it: The point of settling a class action is that =
+no AMC shareholders can turn around and sue AMC=C2=A0<em>again=C2=A0</em>ov=
+er this stuff. But the judge worried that the settlement released too=C2=A0=
+<em>many=C2=A0</em>claims against AMC:</p>
+<blockquote><p style=3D"margin: 16px 0;">The release purports to release no=
+t only claims associated with the common stock, but also claims associated =
+with preferred interests that common stockholders might also hold. The rele=
+ase cannot properly extend to those latter claims, because the plaintiffs w=
+ere not appointed as fiduciaries for the holders of preferred interests and=
+ did not bring claims based on preferred rights. The plaintiffs only sued o=
+n behalf of a putative class of common stockholders, and only asserted clai=
+ms based on the voting rights of common stockholders. They can agree to a r=
+elease that encompasses the claims they asserted, and claims that the class=
+ holds and that arise out of the same factual predicate.</p></blockquote>
+<p style=3D"margin: 16px 0;">That is, the settlement would not only put to =
+rest the complaints that AMC common shareholders might have about the APE d=
+eal, but also any complaints that AMC=C2=A0<em>APEholders</em> might have.<=
+/p>
+<p style=3D"margin: 16px 0;">This makes no sense! The common shareholders h=
+ad a complaint, they sued, and they negotiated a settlement in which they w=
+ould get a somewhat better deal: They would get a bit more stock than the A=
+PEholders, to make up for the somewhat fishy circumstances in which the APE=
+holders got their APEs. But the APEholders hadn=E2=80=99t sued:=C2=A0<em>Th=
+ey=C2=A0</em>had no complaints about the issuance of the APEs or their conv=
+ersion into common stock; that was what they wanted. They were not involved=
+ in the lawsuit, so no one speaks for them in the settlement.</p>
+<p style=3D"margin: 16px 0;">And=C2=A0the=C2=A0<em>settlement </em>is=C2=A0=
+<em>bad </em>for the APEholders: Instead of converting into common stock on=
+ a one-for-one basis, they=E2=80=99re getting a bit less stock than the com=
+mon shareholders. They bought APEs thinking that they would be economically=
+ equivalent to AMC common stock, and now it turns out that they won=E2=80=
+=99t be: The APEs are a little bit worse than common. The APEholders should=
+ sue!</p>
+<p style=3D"margin: 16px 0;">No they shouldn=E2=80=99t, not really: Convert=
+ing into common, even at worse than a one-for-one ratio, really is what the=
+y want. (On Friday, the APEs closed at $1.80 per share, while the common sh=
+ares closed at $4.40: The common trades at a 144% premium to the APEs, vers=
+us the 13% premium offered in the settlement.)=C2=A0Rationally the APEholde=
+rs should like this deal.=C2=A0But since they are not involved in the lawsu=
+it, the settlement can=E2=80=99t foreclose their claims. If they want to su=
+e, they can go ahead.</p>
+<p style=3D"margin: 16px 0;">Now, I am overstating it somewhat. The settlem=
+ent wouldn=E2=80=99t release AMC from=C2=A0<em>all=C2=A0</em>APE claims. It=
+ would release it from APE claims =E2=80=9Cthat common stockholders might h=
+old=E2=80=9D: If you are an AMC common shareholder, you are part of this cl=
+ass, and if you=C2=A0<em>also=C2=A0</em>own APEs then this settlement would=
+ prevent you from suing AMC for treating your APEs unfairly. But if you own=
+ only APEs and no common shares at all, then you are not part of the class =
+and your claims are not released. But since a lot of people own both APEs a=
+nd common shares (the APEs were originally distributed as a dividend on the=
+ common), and in different proportions, it seems unfair to prevent a holder=
+ of a million APEs from suing over their APE treatment=C2=A0if they happen =
+to own one common share. =E2=80=9CAPE units are not represented in the comp=
+laints or in the common stockholder class,=E2=80=9D writes Vice Chancellor =
+Zurn, and so the lead plaintiffs of the class =E2=80=9Ccannot represent or =
+release APE direct claims.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">This seems right? Vice Chancellor Zurn raised =
+it in court and everyone kind of ignored her; she writes:</p>
+<blockquote><p style=3D"margin: 16px 0;">I raised the fact that the Release=
+ included APE claims released by common stockholders at argument to Plainti=
+ffs and the defendants. Plaintiffs=E2=80=99 counsel first tried to describe=
+ the APEs as a share split to color the APE claims as appurtenant to the co=
+mmon shares, then deferred to the defendants=E2=80=99 counsel, and then won=
+dered aloud if the defendants would drop that part of the Release. The defe=
+ndants=E2=80=99 counsel simply insisted they were =E2=80=9Centitled to comp=
+lete peace.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">Anyway this seems obviously fixable:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">File a revised settlement releasing o=
+nly the common claims, not the APE ones.</li>=09<li style=3D"margin-bottom:=
+ 5px;">Get that approved by the court.</li>=09<li style=3D"margin-bottom: 5=
+px;">
+<em>Go ahead and convert the APEs into common</em>.</li>=09<li style=3D"mar=
+gin-bottom: 5px;">If any APEholders want to sue, let them. Maybe they will =
+win, and a court will give them some extra shares. Most likely they won=E2=
+=80=99t, because this works out pretty well for them and they don=E2=80=99t=
+ have a ton to complain about.<a class=3D"footnote-index" href=3D"#footnote=
+-2" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: none !impo=
+rtant; background-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>
+</li>
+</ol>
+<p style=3D"margin: 16px 0;">AMC doesn=E2=80=99t get =E2=80=9Ccomplete peac=
+e,=E2=80=9D but it gets to convert its APEs into common and then <em>sell m=
+ore stock</em>, which is the main thing. AMC=E2=80=99s meme-y chief executi=
+ve officer, Adam Aron, <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/32175659.262414/aHR0cHM6Ly90d2l0dGVyLmNvbS9DRU9BZGFtL3N0YXR1cy8xNjgzMj=
+E1OTY1NjA4MTg5OTU0/607f07ceef4b8524a319a23cB15fe175d" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> tweeted an o=
+pen letter</a> begging to be allowed to do that:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Raising fresh equity in the near term is criti=
+cal to our company, so it is important that we work to address the concern =
+raised in the Delaware Court of Chancery=E2=80=99s ruling on Friday. =E2=80=
+=A6</p>
+<p style=3D"margin: 16px 0;">AMC must be in a position to raise equity capi=
+tal. I repeat, to protect AMC=E2=80=99s shareholder value over the long ter=
+m, we MUST be able to raise equity capital. =E2=80=A6=C2=A0If we are unable=
+ to raise equity capital, the risk materially increases of AMC conceivably =
+running out of cash in 2024 or 2025, or AMC being unable to satisfactorily =
+refinance and stretch out the maturity of some of our debt. =E2=80=A6</p>
+</blockquote>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32175659.262414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDctMjMvYW1jLXJldmlzZXMtc3RvY2stY29udmVyc2lvbi1zZXR0bGVtZW50LXB=
+sYW4tcmVqZWN0ZWQtYnktanVkZ2U_Y21waWQ9QkJEMDcyNDIzX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzI0JnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cC1737e5a8" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> And so</a>:=
+</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The company and investors leading a lawsuit ov=
+er the plan filed a revision of a nine-figure settlement over the weekend i=
+n Delaware Chancery Court to address problems identified by Judge Morgan Zu=
+rn, according to people familiar with the filing. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The settlement=E2=80=99s backers want Zurn to =
+weigh the new version of the deal without seeking additional comment from A=
+MC shareholders, the people said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It=E2=80=99s pretty easy to revise the settlem=
+ent to accommodate the judge=E2=80=99s concerns: In the sentence of the set=
+tlement that says =E2=80=9C=E2=80=98Released Plaintiffs=E2=80=99 Claims=E2=
+=80=99 means any and all actions =E2=80=A6=C2=A0that related to the ownersh=
+ip of Common Stock and/or AMC Preferred Equity Units,=E2=80=9D just cross o=
+ut the words =E2=80=9Cand/or AMC Preferred Equity Units.=E2=80=9D So that=
+=E2=80=99s what they did.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.262414/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjE3NTY1OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI0MzgwNzMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC069ec7fd" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32175659&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32438073&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.262414/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjE3NTY1OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI0MzgwNzMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD069ec7fd" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32175659&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32438073&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">DWAC</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">In October 2021, Trump Media &amp; Technology =
+Group <a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.262=
+414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMjE=
+vbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1kb25hbGQtdHJ1bXAtZG9lcy1hLXNwYWM_Y21waW=
+Q9QkJEMDcyNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZ=
+XR0ZXImdXRtX3Rlcm09MjMwNzI0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b852=
+4a319a23cB77ac2524" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> announced</a> that it would go public by mer=
+ging=C2=A0with Digital World Acquisition Corp., a special purpose acquisiti=
+on company. This was certainly the first=C2=A0<em>I </em>had ever heard of =
+Trump Media &amp; Technology Group, and I am pretty sure I am not alone. It=
+ seemed, at the time, pretty half-baked. There were some plans for launchin=
+g a social media site called Truth Social, but it did not exist yet. There =
+was an investor presentation, but it was not replete with financial or busi=
+ness information: I <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/32175659.262414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMjEtMTAtMjEvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1kb25hbGQtdHJ1bXAtZG9lcy1h=
+LXNwYWM_Y21waWQ9QkJEMDcyNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzI0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cC77ac2524" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> pointed out</a> that=C2=A0=E2=80=
+=9Cthere is not a single dollar sign in the whole deck.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Digital World Acquisition Corp., meanwhile, wa=
+s a SPAC that had gone public only a few weeks earlier. It had raised $287.=
+5 million from investors, at $10 per share, to hunt for a company to take p=
+ublic. =E2=80=9CWe intend to focus on middle market and emerging growth tec=
+hnology-focused companies in the Americas, in SaaS and Technology or Fintec=
+h and Financial Services,=E2=80=9D <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/32175659.262414/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZG=
+dhci9kYXRhLzE4NDk2MzUvMDAwMTEwNDY1OTIxMTEzNTQxL3RtMjEyNzAzNWQxXzQyNGI0Lmh0b=
+Q/607f07ceef4b8524a319a23cBb0aa201f" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> it told prospective investors=
+</a>. And: =E2=80=9CWe have not selected any specific business combination =
+target and we have not, nor has anyone on our behalf, initiated any substan=
+tive discussions, directly or indirectly, with any business combination tar=
+get.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">This was, <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/32175659.262414/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi=
+8xMC8yNS9idXNpbmVzcy90cnVtcC1tZWRpYS1zcGFjLXNlYy5odG1s/607f07ceef4b8524a319=
+a23cB03a52aaf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> it soon became apparent</a>, a lie. When DWAC filed=
+ to go public, its sponsor was already in serious talks with Trump=E2=80=99=
+s people to take TMTG public. DWAC was not really a blind pool of cash look=
+ing for companies to take public; it was a vehicle specifically for taking =
+TMTG public.=C2=A0</p>
+<p style=3D"margin: 16px 0;">You are not supposed to lie in securities fili=
+ngs, so last week DWAC <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/32175659.262414/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMj=
+AyMy0xMzU/607f07ceef4b8524a319a23cBe3bc373a" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> agreed to pay $18 mil=
+lion</a> to the US Securities and Exchange Commission, if the deal ever clo=
+ses:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission [Thursd=
+ay] announced=C2=A0settled fraud charges against Digital World Acquisition =
+Corporation (DWAC), a special purpose acquisition company (SPAC), for makin=
+g material misrepresentations in forms filed with the SEC as part of DWAC=
+=E2=80=99s initial public offering and proposed merger with Trump Media &am=
+p; Technology Group Corp. (TMTG). The Commission finds that DWAC misled inv=
+estors and the SEC by failing to disclose that it had formulated a plan to =
+acquire and was pursuing the acquisition of TMTG prior to DWAC=E2=80=99s IP=
+O.</p>
+<p style=3D"margin: 16px 0;">The purpose of a SPAC is to identify and acqui=
+re an operating business. As such, steps taken by a SPAC in furtherance of =
+a particular acquisition are important to investors. According to the SEC=
+=E2=80=99s order, DWAC filed an amended Form S-1 in support of its IPO in e=
+arly September 2021 that stated that neither DWAC nor its officers and dire=
+ctors had had any discussions with any potential target companies prior to =
+the IPO. But, as found in the SEC=E2=80=99s order, dating back to February =
+2021, an individual who would later become DWAC=E2=80=99s CEO and Board Cha=
+irman, and others involved with DWAC, had extensive SPAC merger discussions=
+ with TMTG. The SEC=E2=80=99s order further finds that, while DWAC=E2=80=99=
+s CEO and Chairman initially pursued these discussions with TMTG on behalf =
+of another SPAC, he created a plan in the spring and summer of 2021 to pote=
+ntially use DWAC to pursue a merger with TMTG and used this plan to solicit=
+ certain pre-IPO investors. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CDWAC failed to disclose its discussio=
+ns with TMTG and failed to disclose a material conflict of interest of its =
+CEO and Chairman,=E2=80=9D=C2=A0said Gurbir S. Grewal, Director of the SEC=
+=E2=80=99s Division of Enforcement. =E2=80=9CIn the context of a SPAC =E2=
+=80=93 a =E2=80=98blank-check=E2=80=99 entity without business operations =
+=E2=80=93 these disclosure failures are particularly problematic because in=
+vestors focus on factors such as the SPAC=E2=80=99s management team and pot=
+ential merger targets when making financial decisions.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">When we have <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/32175659.262414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjItMTAtMjUvdGhlLXRydW1wLXNwYWMtaGFzLXNlYy10cm91Ym=
+xlP2NtcGlkPUJCRDA3MjQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cB01534317" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  discussed</a> this situation <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/32175659.262414/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMjkvdGhlLWJpZy1=
+iYW5rcy1hcmVuLXQtc3RyZXNzZWQ_Y21waWQ9QkJEMDcyNDIzX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzI0JnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBdec10e6e" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  previously=
+</a>, I have pointed out that investors in DWAC were not really=C2=A0<em>ha=
+rmed=C2=A0</em>by its lies.<a class=3D"footnote-index" href=3D"#footnote-3"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: none !importa=
+nt; background-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0They bought DWAC stock at $10 in its public offering, thinking it=
+ was a SPAC like any other, one that might or might not find an attractive =
+deal. And then it quickly found the Trump deal and the stock shot up: The s=
+tock closed at $9.96 the day before the Trump deal was announced, and $94.2=
+0 two days later.=C2=A0If you bought DWAC stock for $10 in its initial publ=
+ic offering, you were=C2=A0<em>deceived=C2=A0</em>about its plans, but in a=
+=C2=A0<em>nice=C2=A0</em>way. You paid less for DWAC stock than it was wort=
+h. That=E2=80=99s good!</p>
+<p style=3D"margin: 16px 0;">On the other hand =E2=80=A6=C2=A0why would DWA=
+C do that? Why lie about its plans, in order to trick people into=C2=A0<em>=
+underpaying=C2=A0</em>for the stock? I don=E2=80=99t know, but let me sugge=
+st three possibilities.</p>
+<p style=3D"margin: 16px 0;">One is just, like, sloppiness and incompetence=
+? The standard form of SPAC prospectus says =E2=80=9Cwe have not had any su=
+bstantive conversations with any target,=E2=80=9D so they just copied and p=
+asted that even though it wasn=E2=80=99t true. Can=E2=80=99t really rule th=
+at out.</p>
+<p style=3D"margin: 16px 0;">Another=C2=A0is insider trading. You=C2=A0are =
+an executive at DWAC, you want DWAC to=C2=A0sell stock to raise money, and =
+you want it to be too cheap so that <em>you</em> can=C2=A0<em>buy=C2=A0</em=
+>it cheaply, in the market, just before you announce the deal, and then you=
+=C2=A0make money when you announce the deal and the stock pops. You want to=
+ trick people into thinking the stock is worth less than it is, so you can =
+make informed trades on the other side.</p>
+<p style=3D"margin: 16px 0;">This explanation doesn=E2=80=99t make very muc=
+h sense,<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: none !important; background-colo=
+r: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a> and I mention it only because it =E2=80=A6=C2=A0appears to be true? We=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.262414/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMjkvdGhl=
+LWJpZy1iYW5rcy1hcmVuLXQtc3RyZXNzZWQ_Y21waWQ9QkJEMDcyNDIzX01PTkVZU1RVRkYmdXR=
+tX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzI0JnV0bV=
+9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cCdec10e6e" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  tal=
+ked last month</a> about a different <a href=3D"https://link.mail.bloomberg=
+business.com/click/32175659.262414/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNz=
+LXJlbGVhc2UvMjAyMy0xMjE/607f07ceef4b8524a319a23cB800561f8" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> SEC enf=
+orcement action</a> (and a related <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/32175659.262414/aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvdXNhby1zZG=
+55L3ByL3VzLWF0dG9ybmV5LWFubm91bmNlcy1jaGFyZ2VzLWZvdXItc2VwYXJhdGUtaW5zaWRlc=
+i10cmFkaW5nLWNhc2VzLWFnYWluc3QtMTA/607f07ceef4b8524a319a23cBc4295c96" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">federal criminal prosecution</a>), this one against a DWAC board member =
+and his buddies, accusing them of insider trading by buying DWAC stock and =
+warrants on the open market before the Trump deal was announced. So, sure, =
+I guess.</p>
+<p style=3D"margin: 16px 0;">But I think the real reason is that DWAC proba=
+bly <em>couldn=E2=80=99t=C2=A0</em>have done this deal without lying. It=E2=
+=80=99s not just that DWAC lied in its prospectus by saying it hadn=E2=80=
+=99t had discussions with TMTG when it had. If it had told the truth =E2=80=
+=94=C2=A0if it had said =E2=80=9Cwe=E2=80=99re a SPAC that=E2=80=99s raisin=
+g money to take Trump Media &amp; Technology Group public=E2=80=9D =E2=80=
+=94=C2=A0it wouldn=E2=80=99t have been allowed to do its offering in the fi=
+rst place. A SPAC is supposed to be a blank-check company=C2=A0<em>without=
+=C2=A0</em>any particular private company to take public. If you are raisin=
+g money to take one particular company public, that=E2=80=99s not a SPAC. T=
+hat=E2=80=99s just a regular initial public offering. You don=E2=80=99t jus=
+t file for a blank check; you file for an initial public offering, with all=
+ of the regular disclosure about the company=E2=80=99s business and finance=
+s.</p>
+<p style=3D"margin: 16px 0;">Could TMTG have done a regular initial public =
+offering in October 2021? No? The investor presentation had no dollar signs=
+. DWAC and TMTG eventually <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32175659.262414/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYX=
+RhLzE4NDk2MzUvMDAwMTE5MzEyNTIyMTUwODAxL2QyMjYyMDVkczQuaHRt/607f07ceef4b8524=
+a319a23cB29ec1b71" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> filed a prospectus</a> describing=C2=A0TMTG=E2=
+=80=99s business, but it took them until May 2022. I=C2=A0<a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/32175659.262414/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTYvdGhlLXRydW1wLXNwYWMtaX=
+MtaW4tYnVzaW5lc3M_Y21waWQ9QkJEMDcyNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpb=
+CZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzI0JnV0bV9jYW1wYWlnbj1tb25l=
+eXN0dWZm/607f07ceef4b8524a319a23cB87f7df30" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  made fun of the prosp=
+ectus=C2=A0at the time</a>, because it was still not all that businesslike,=
+ and the stock is down about 60% since that filing. And the SEC has been ho=
+lding up the deal ever since =E2=80=94=C2=A0in part, clearly, because of th=
+e misstatements in DWAC=E2=80=99s original prospectus, but I suspect also a=
+ little bit because they have their doubts about the business disclosure. I=
+f TMTG had just filed for an initial public offering, I bet the SEC would h=
+ave had lots of questions.</p>
+<p style=3D"margin: 16px 0;">But meanwhile =E2=80=A6=C2=A0look, I do not us=
+e Truth Social, but I gather that it exists, at least in some=C2=A0minimal =
+sense of the word. The fact that TMTG was announced to the world along with=
+ a $287.5=C2=A0million fundraising, a public listing, and a stock price tha=
+t shot up 840% in two days was=C2=A0<em>useful=C2=A0</em>to TMTG. It attrac=
+ted attention, and employees, and users, and hangers-on, and, not least, an=
+other <a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.262=
+414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMDY=
+vdGhlLXRydW1wLXNwYWMtZGlkLWEtcGlwZT9jbXBpZD1CQkQwNzI0MjNfTU9ORVlTVFVGRiZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MjQmdXRtX=
+2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb7defc66" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  bil=
+lion dollars of committed private-investment-in-public equity (PIPE)=C2=A0f=
+inancing</a> (if the merger ever closes) from, uh, institutional-ish invest=
+ors. By launching as a vague idea, rather than a fully formed company, TMTG=
+ was able to get enough attention and money and stock-market action to perh=
+aps become a real company.</p>
+<p style=3D"margin: 16px 0;">Also, to be clear, this SEC settlement is very=
+=C2=A0<em>good=C2=A0</em>news for DWAC and TMTG. Any resolution is good new=
+s; what was bad, for DWAC, was the limbo that it was in with the SEC. The S=
+EC has now signed off, at least in concept, on the idea that DWAC=C2=A0<em>=
+can=C2=A0</em>file some amended disclosure, get a shareholder vote, and clo=
+se its merger. When it does, TMTG gets DWAC=E2=80=99s $287.5 million, plus =
+probably the $1 billion of PIPE money, plus a public stock-market listing a=
+nd the ability to raise more money. The stock has drifted down since the gl=
+ory days, but it closed at $20.08 on Friday, after the SEC settlement was a=
+nnounced, up 50% from the day before. There=E2=80=99s still some investor e=
+xcitement here.</p>
+<p style=3D"margin: 16px 0;">When this SPAC deal was first announced, back =
+in October 2021, <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+2175659.262414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjEtMTAtMjEvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1kb25hbGQtdHJ1bXAtZG9lcy1hLXN=
+wYWM_Y21waWQ9QkJEMDcyNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzI0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cD77ac2524" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  I wrote that</a> =E2=80=9Cit does =
+feel a little bit like all of recent financial history has been leading up =
+to this moment.=E2=80=9D For instance, =E2=80=9Cmeme stocks have prepared e=
+veryone for the notion that the value of a stock is based on the fervor of =
+its community of online fans, not its projected cash flows.=E2=80=9D TMTG i=
+s the purest form of meme stock: It launched as a meme stock before it was =
+actually a company, and used its meme-stock status to sort of, maybe, boots=
+trap its way into being a company.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">X</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Last year, when Elon Musk was toying with the =
+idea of buying Twitter Inc. =E2=80=94=C2=A0asking to be on the board, quitt=
+ing the board in a huff, saying he would buy the company, saying he wouldn=
+=E2=80=99t buy it, etc. =E2=80=94=C2=A0he mused that, instead of buying Twi=
+tter, he could just start a competing social media platform.<a class=3D"foo=
+tnote-index" href=3D"#footnote-5" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: none !important; background-color: transparent !importa=
+nt; display: inline-block;">
+<span>[5]</span>
+</a> On the one hand, that seems kind of hard: Social networks are=C2=A0<em=
+>network=C2=A0</em>businesses, and Twitter=E2=80=99s large=C2=A0user base a=
+nd well-known brand gave it a big head start over a hypothetical new Musk p=
+latform. On the other hand, it=E2=80=99s not=C2=A0<em>that=C2=A0</em>hard: =
+Twitter is a website, not a space rocket company; the basic mechanics of di=
+splaying a social feed are reasonably well understood and easy to copy; Twi=
+tter=E2=80=99s users are perpetually dissatisfied; Musk is a very famous pe=
+rson with a lot of fans and followers. Could he hire a dozen engineers, spi=
+n up a Twitter clone, get a few million people to use it, and see if it dev=
+eloped into a real business? Sure,=C2=A0maybe. Donald Trump did, sort of.</=
+p>
+<p style=3D"margin: 16px 0;">In the event, Musk spent $44 billion to actual=
+ly acquire Twitter. Then he fired most of the employees,=C2=A0drove away it=
+s celebrity users and is now <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32175659.262414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDctMjQvbXVzay1kZWNsYXJlcy1mYW4tc3VibWl0dGVkLXgtbmV3LXR3aXR0ZXI=
+tbG9nby1pbi1hYnJ1cHQtc2hpZnQ_Y21waWQ9QkJEMDcyNDIzX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzI0JnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe57e7cf1" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  changing i=
+ts name and logo</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Elon Musk has changed Twitter=E2=80=99s logo, =
+replacing its signature blue bird with a stylized X as part of the billiona=
+ire=E2=80=99s vision of transforming the 17-year-old service into an everyt=
+hing app. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">While crowdsourcing the logo, Musk changed his=
+ profile information to read =E2=80=9CX.com,=E2=80=9D a web address that no=
+w redirects to corresponding user pages on twitter.com. The move is part of=
+ a broader overhaul that will see all familiar =E2=80=9CTwitter=E2=80=9D an=
+d bird branding stripped away, he said. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The abrupt change comes as Twitter faces a ste=
+ep decline in advertising dollars and a new rival in Meta Platforms Inc.=E2=
+=80=99s Threads, a service that racked up 100 million users within five day=
+s of launching this month. The debut of Threads was greeted with derision b=
+y Musk, who=E2=80=99s accused it of being a copycat service due to its simi=
+larities to Twitter.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know! I=E2=80=99ll kind of bel=
+ieve the everything app when I see it; certainly so far Musk has done a lot=
+ to make Twitter less useful but nothing, as far as I can see, to make it m=
+ore useful. Adding payments to Twitter=E2=80=99s messaging capability might=
+ be interesting in theory, but in real life=C2=A0Musk is <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/32175659.262414/aHR0cHM6Ly93d3cudGhl=
+dmVyZ2UuY29tLzIwMjMvNy8yMS8yMzgwMzYzMi9lbG9uLW11c2stc3BhbS10d2l0dGVyLWJsdWU=
+tZG1z/607f07ceef4b8524a319a23cBf28279bc" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> cutting back that messa=
+ging capability</a>, so I dunno.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But if you traveled back in time two years and=
+ said =E2=80=9Ctwo years from now, Twitter will no longer exist, and you wi=
+ll be able to choose between a Twitter-like service called =E2=80=98X=E2=80=
+=99 run by Elon Musk and a Twitter-like service called =E2=80=98Threads=E2=
+=80=99 run by Facebook, which by the way will be <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32175659.262414/aHR0cHM6Ly9hYm91dC5mYi5jb20v=
+bmV3cy8yMDIxLzEwL2ZhY2Vib29rLWNvbXBhbnktaXMtbm93LW1ldGEv/607f07ceef4b8524a3=
+19a23cBa44ca95c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> called Meta</a>,=E2=80=9D I=E2=80=99m not sure it=
+=E2=80=99s <em>obvious=C2=A0</em>that X is the winner there?<a class=3D"foo=
+tnote-index" href=3D"#footnote-6" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: none !important; background-color: transparent !importa=
+nt; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0Facebook/Meta/Mark Zuckerberg have a lot of experience running po=
+pular social media platforms, and they employ a lot of people who have buil=
+t social media platforms (some of them hired from Twitter!), while Musk mos=
+tly has experience tweeting (<a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32175659.262414/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9lbG9uLW11=
+c2stc2F5cy10d2l0dGVyLXdpbGwtY2hhbmdlLWl0cy1sb2dvLXRvLXgtNWY3M2MzNDk_bW9kPWh=
+wX2xlYWRfcG9zMg/607f07ceef4b8524a319a23cBf9bb78af" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">now called x=E2=
+=80=99ing???</a>)=C2=A0and employs strikingly few people who have built soc=
+ial media platforms, because he fired=C2=A0most of them. There is a certain=
+ inertia that causes people to stay on Twitter, but if you get rid of Twitt=
+er I=E2=80=99m not sure the inertia will fully carry over to X.</p>
+<p style=3D"margin: 16px 0;">I guess my question is, <em>what was he paying=
+ for?=C2=A0</em>Musk didn=E2=80=99t want Twitter for its employees (whom he=
+ fired) or its code (which he trashes regularly)=C2=A0or its brand=C2=A0(wh=
+ich he abandoned) or its most dedicated=C2=A0users (whom he is working to d=
+rive away); he just wanted an entirely different Twitter-like service. Sure=
+ly he could have built that for less than $44 billion? Mark Zuckerberg did!=
+</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Everything is securities fraud</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If a beer company sends beer to=C2=A0a transge=
+nder influencer and right-wing influencers get mad about it and boycott the=
+ beer, is that securities fraud? Buddy everything is =E2=80=A6=C2=A0well, t=
+echnically this is a shareholder derivative action for breach of fiduciary =
+duty, and more technically it=E2=80=99s just a guy=C2=A0<em>talking=C2=A0</=
+em>about a shareholder derivative action, but still <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/32175659.262414/aHR0cHM6Ly93d3cuY25uLmNvb=
+S8yMDIzLzA3LzIwL3BvbGl0aWNzL2Rlc2FudGlzLWxldHRlci1idWQtbGlnaHQtY29tcGFueS9p=
+bmRleC5odG1s/607f07ceef4b8524a319a23cB1a01ded0" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> here you go</a>:</=
+p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Florida Gov. Ron DeSantis is urging the state=
+=E2=80=99s pension fund manager to consider legal action against Bud Light=
+=E2=80=99s parent company amid conservative backlash to the beermaker=E2=80=
+=99s recent marketing efforts, the latest attempt by the Republican preside=
+ntial candidate to inject himself and the state he runs into the country=E2=
+=80=99s culture wars.</p>
+<p style=3D"margin: 16px 0;">In a Thursday letter obtained by CNN, DeSantis=
+ suggests AB InBev =E2=80=9Cbreached legal duties owed to its shareholders=
+=E2=80=9D when it decided to associate with =E2=80=9Cradical social ideolog=
+ies.=E2=80=9D Sales of Bud Light have plummeted in the months since it ente=
+red into a minor partnership with transgender influencer Dylan Mulvaney tha=
+t precipitated a boycott from conservatives.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CAll options are on the table,=E2=80=
+=9D DeSantis wrote, as the state reviews the impact of AB InBev=E2=80=99s r=
+ecent financial downturn, though it=E2=80=99s unclear what legal recourse t=
+he state might have to challenge a multinational corporation=E2=80=99s busi=
+ness decisions.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe must prudently manage the funds of=
+ Florida=E2=80=99s hardworking law enforcement officers, teachers, firefigh=
+ters, and first responders in a manner that focuses on growing returns, not=
+ subsidizing an ideological agenda through woke virtue signaling,=E2=80=9D =
+DeSantis wrote in the letter to Lamar Taylor, the interim director of the S=
+tate Board of Administration, the state agency that manages Florida=E2=80=
+=99s retirement funds for public workers. DeSantis oversees the board as a =
+trustee along with the state=E2=80=99s attorney general and chief financial=
+ officer, both also Republicans.</p>
+<p style=3D"margin: 16px 0;">Speaking to Fox News on Thursday night about t=
+he letter, DeSantis said the state may consider a =E2=80=9Cderivative lawsu=
+it=E2=80=9D against AB InBev. Derivative lawsuits are filed by shareholders=
+ on behalf of a company against a corporation=E2=80=99s directors or office=
+rs alleging breach of duties.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Sure.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/32175659.262414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjMtMDctMjMvbS1hLWRlYWwtc2x1bXAtc3BhcmtzLXR1cm5vdmVyLWF0LWludmV=
+zdG1lbnQtYmFua3MtZ29sZG1hbi1zYWNocy1tb3JnYW4tc3RhbmxleT9jbXBpZD1CQkQwNzI0Mj=
+NfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fd=
+GVybT0yMzA3MjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB19d=
+03129" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  Great M&amp;A Slump</a> Is Shaking Up Giants of Investment=
+ Banking. FOMO Drives Investors as <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/32175659.262414/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mb2=
+1vLWRyaXZlcy1pbnZlc3RvcnMtYXMtaXBvLW1hcmtldC1hd2FrZW5zLWZyb20tbG9uZy1zbHVtY=
+mVyLWIxNDQ5YzE_bW9kPWhwX2xlYWRfcG9zNQ/607f07ceef4b8524a319a23cBe2a609bd" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> IPO Market</a> Awakens From Long Slumber. <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32175659.262414/aHR0cHM6Ly93d3cuZnQuY29tL2Nv=
+bnRlbnQvYzk1MTIzYjMtNDFiMC00MDVkLThlZGMtMzY5ZWU1ZmQ3YmEx/607f07ceef4b8524a3=
+19a23cB9c159ef9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> Julius Baer</a> pulls in more than $10bn after Cr=
+edit Suisse collapse. Jamie Dimon Is <a href=3D"https://link.mail.bloomberg=
+business.com/click/32175659.262414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjMtMDctMjQvanBtb3JnYW4tY2VvLWphbWllLWRpbW9uLWlzLWJvc3MtYmF=
+ua2Vycy1jcmF2ZS1zdXJ2ZXktc2hvd3M_Y21waWQ9QkJEMDcyNDIzX01PTkVZU1RVRkYmdXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzI0JnV0bV9jY=
+W1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8d569547" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  Boss B=
+ankers Crave</a>, Investor Survey Shows. Wall Street Is Grappling With Cryp=
+to=E2=80=99s Trillion-Dollar <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32175659.262414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDctMjQvbmFzZGFxLWNyeXB0by1jdXN0b2R5LWhhbHQtc2hvd3MtY2hhbGxlbmd=
+lcy1mb3ItZGlnaXRhbC1hc3NldC1tYXJrZXQ_Y21waWQ9QkJEMDcyNDIzX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzI0JnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB456e69c3" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Cu=
+stody Question</a>.=C2=A0US junk loan market hit with flurry of <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/32175659.262414/aHR0cHM6Ly93d=
+3cuZnQuY29tL2NvbnRlbnQvNTMwNzA0MTktY2JmYi00ZjgzLTkxYjMtMDdmNzQ2MGI1NDE3/607=
+f07ceef4b8524a319a23cB54d0b1c5" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> credit rating downgrades</a>. Russ=
+ia Defies Sanctions by <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/32175659.262414/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ydXNzaWEtZGVmaW=
+VzLXNhbmN0aW9ucy1ieS1zZWxsaW5nLW9pbC1hYm92ZS1wcmljZS1jYXAtYmFlMWMyNzE_bW9kP=
+Wl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB00f709d2" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Selling =
+Oil</a> Above Price Cap. <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32175659.262414/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jaGluZXNlLW1v=
+bmV5LWZsZWVzLXRoZS13ZXN0ZXJuLXdvcmxkLTY3M2Q5YmJiP21vZD1ocF9saXN0YV9wb3My/60=
+7f07ceef4b8524a319a23cBb06c5133" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> Chinese Money</a> Flees the Weste=
+rn World. Apollo Is Opposing Push to Tighten Rule for Key <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/32175659.262414/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMjEvYXBvbGxvLW9wcG9zaW5nLXB1c2=
+gtdG8tdGlnaHRlbi1ydWxlLWZvci1rZXktaW5zdXJhbmNlLWJ1c2luZXNzP2NtcGlkPUJCRDA3M=
+jQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIzMDcyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+B4f9e76f7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> Insurance Business</a>.=C2=A0Chevron <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/32175659.262414/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS9hcnRpY2xlcy9jaGV2cm9uLXdhaXZlcy1yZXRpcmVtZW50LWFnZS1mb3ItY2VvLW1pa2U=
+td2lydGgtZDZmODhlM2U_bW9kPWxlYWRfZmVhdHVyZV9iZWxvd19hX3BvczE/607f07ceef4b85=
+24a319a23cB7f83f632" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Waives Retirement Age</a> for CEO Mike Wirth=
+. =E2=80=9COnce users have <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32175659.262414/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYjdhODY3ZjQtMj=
+Q2Mi00ZDFiLWE4MDUtYjgyMWJmMDgwNGY2/607f07ceef4b8524a319a23cB3433880a" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> proved they are not robots</a>, they can be issued one of the company=
+=E2=80=99s tokens.=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/32175659.262414/aHR0cHM6Ly9rb3R0a2Uub3JnLzIzLzA3L2JhcmJpZS1naXJsL=
+WluLXRoZS1zdHlsZS1vZi1zaXgtY2xhc3NpY2FsLWNvbXBvc2Vycw/607f07ceef4b8524a319a=
+23cBa2fa62d4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> Barbie Girl</a>, in the Style of Six Classical Compo=
+sers.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32175659.262414/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB09006182" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32175659.262414/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB3870cc3f" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Each common shareholder would get a bonus =
+share of common stock for every 7.5 shares they held.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] The more technical legal point here is tha=
+t the shareholder class action asked for injunctive relief: They wanted AMC=
+ to be forbidden from (ever) converting the APEs into common, because that =
+conversion would sort of upend AMC=E2=80=99s share structure and be impossi=
+ble to undo. But the APEs have no real claim for injunctive relief: The poi=
+nt of the APEs was always to convert into common, so converting into common=
+ is what the APE holders want. They might want to convert at a more equal c=
+onversion ratio, but that is solvable by allowing the conversion and suing =
+for damages. The APE holders won=E2=80=99t suffer irreversible damage, so i=
+t=E2=80=99s fine for them to sue after the APEs are converted.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] A very minor exception is that some hedge =
+funds were (publicly announced as) anchor investors in DWAC=E2=80=99s initi=
+al public offering, apparently without knowing that it was doing a deal wit=
+h Trump, and after the deal was announced they <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/32175659.262414/aHR0cHM6Ly93d3cuY25iYy5jb20vMj=
+AyMS8xMC8yMi9oZWRnZS1mdW5kLXNlbGxzLXN0YWtlLWluLXRydW1wLXNwYWMtZmlybS1kd2FjL=
+WFmdGVyLW1lcmdlci1uZXdzLmh0bWw/607f07ceef4b8524a319a23cB5ec36069" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ hurried to exit their positions</a> and said some version of =E2=80=9Cwe d=
+idn=E2=80=99t know this was a Trump thing.=E2=80=9D I suppose this caused t=
+hem some embarrassment. On the other hand they made a ton of money in the r=
+ush to exit!</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Just, come on. If you sell shares worth $9=
+4 to the public for $10, and then you buy some in the market at $10, you ha=
+ve left a lot of money on the table. Just keep all of the shares and sell t=
+hem to the public at $94 when the deal is announced! </p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] For instance, <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/32175659.262414/aHR0cHM6Ly93d3cuc2VjLmdvdi9Bcm=
+NoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyMjAyMTYzL2QyODMxMTlkZGVmb=
+TE0YS5odG0jdG9jMjgzMTE5XzUx/607f07ceef4b8524a319a23cBe845aa10" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> in =
+March 2022</a>, after Musk had bought a stake in Twitter but before he offe=
+red to take it private, he had a discussion with Twitter=E2=80=99s chief ex=
+ecutive officer, Parag Agrawal, and its board chairman, Bret Taylor, in whi=
+ch =E2=80=9CMr. Musk stated that he was considering various options with re=
+spect to his ownership, including potentially joining the Twitter Board, se=
+eking to take Twitter private or starting a competitor to Twitter.=E2=80=9D=
+</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] The obvious winner would be =E2=80=9Ca Twi=
+tter-like service called =E2=80=98BlueSky=E2=80=99 sort of started by Jack =
+Dorsey and designed to be more of a protocol and less of a company,=E2=80=
+=9D except that in the real world it=E2=80=99s tiny, invitation-only and mo=
+stly journalists. </p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.262414/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBb159a6cc" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.262414/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB0e1d4671" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.262414/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBc9bcb3c5" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.262414/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBf6af0fcd" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.262414/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB581e4e91" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.2624=
+14/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBfe453b1d" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32175659.262414/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC0ca4f467" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32175659.262414/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBa3180301" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32175659.262414/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBcd08670c" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.262414/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB1=
+74be51b" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32175659.262414/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBf=
+6c3898a" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj5mwb.5mha/0b3e7535.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8241459_1533903815.1690220873684--
+

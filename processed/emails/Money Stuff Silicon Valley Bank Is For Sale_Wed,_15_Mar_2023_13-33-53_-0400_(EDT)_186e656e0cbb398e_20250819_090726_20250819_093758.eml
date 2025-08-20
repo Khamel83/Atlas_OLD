@@ -1,0 +1,2380 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp3246935rwb;
+        Wed, 15 Mar 2023 10:34:59 -0700 (PDT)
+X-Received: by 2002:a05:600c:4f54:b0:3ed:454d:36a1 with SMTP id m20-20020a05600c4f5400b003ed454d36a1mr333906wmq.2.1678901699075;
+        Wed, 15 Mar 2023 10:34:59 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1678901699; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=FNPdT6lM+AjMLYF9YasGTJaDubvJxLZ90oTFFW/Km6Jf5uc6YSREpV6xdMqO86/WJe
+         WOIQN7uBD9v+rNjzWddJwc87io9V1rvlk6zu9u36UiNZnMmZvtvceXkrWFcxktcr1BIe
+         AgA5asVCFn8GbHNvaA4WvXXc0MOhKJKaXH+QTca0KwjGuHc36ihqE7TPmZ+XZ9u8KaLy
+         hrn0CIjNMN31Di3pT0k8qIFO8I8+i1RypYXLkPdjnjHbdrnKNbNZ/zSjjDDAIYfSXDT9
+         1QnPvdfU7KZDVM06ogoxR98gsU+ltNTllYy9FxtbFTW7bNzEvHwlMOCmN9tQXSGYXQWI
+         lqnw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=kUvjfLb7mIdo/gVM3udsjK8UEASQbPRse2haeMxDI0o=;
+        b=PH1Fcv4RCmWIYaGwytkIS1vE38gH4dIOV0Tq5Qq8bcqCDtARqTj7m7Vrs5+N3jhfg1
+         br+hMF6aaYqQp0SGTc3O4Or+i26hUvYdaM/eH9bIqjj/vmnyFzjGrwSzoLJRc7si9w8j
+         4HpiEkYxQGGxuLTQrBganqwiv2YqQLVn2UD1jNlsbrw1//+rXVPvPy0/AaWpNkQf7NzC
+         vNocqVNQXtaHOBCYs5OWR/9TR0e2oSkLi82PO6cw7+DXnXVN1gDdpafZ2TwAhdtO8B0j
+         Qvf9Ba1yvgvrbr0QTB+UvGQicFM4bwG/YlpDeivJDuyyKWvDLEPbTpnIBMPxy0qj4auI
+         zUHw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=uBL4ziC7;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n19-20020a05600c501300b003d9f87c505dsor830264wmr.15.2023.03.15.10.34.58
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 15 Mar 2023 10:34:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=uBL4ziC7;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1678901698;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=kUvjfLb7mIdo/gVM3udsjK8UEASQbPRse2haeMxDI0o=;
+        b=wg20LDMJPv+bFATDRtEAOp73oP1aid1fkSxJr5jf6IwZiz67b2h01T+hbOi0JUfexK
+         62wdlDhIYSB/thX4n4aBk/Paju71I0OvpGOs/cnTuK4PwyAOg7KyFKmBaFJeu2a43+x3
+         OwUvWZYfpABf+e62eVjU0eG8edYYRhxYwEqPB5z4X75jpFFKv0VAC0AVTYXPwk+lruli
+         Z/E+Oip45B9PVSL1GvI0R1eYDpPo44DximY/OyJ7E6pHvZgZvYd9s2yuMuuDlMHlWPXP
+         KzySyy+bnkTkyhVG19HbwySJ+jZd7KgCQ3pyE+m92eiCreo58pgxk4eumC55yPgTZ/bP
+         4TZw==
+X-Gm-Message-State: AO0yUKXZFg+RLp+WTWbwAAN3kr2ZMJ31mebXnFusSNfxBa/MCR1IB5wy
+	oXIBO6HoDddr+8lsyr+36ZAR6LrT4lI+LOVLY4xaMvz2LyRlAp7w1w==
+X-Received: by 2002:a05:600c:4fcb:b0:3df:97a1:75e2 with SMTP id o11-20020a05600c4fcb00b003df97a175e2mr5510700wmq.4.1678901698728;
+        Wed, 15 Mar 2023 10:34:58 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5412:0:0:0:0:0 with SMTP id g18csp2401106wrv;
+        Wed, 15 Mar 2023 10:34:55 -0700 (PDT)
+X-Received: by 2002:a05:600c:5028:b0:3eb:a4e:a2b2 with SMTP id n40-20020a05600c502800b003eb0a4ea2b2mr18425108wmr.4.1678901695576;
+        Wed, 15 Mar 2023 10:34:55 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1678901695; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=0Xyll21M6/GilpTh+HsnucsZbkDX8EF0wO2P43tsVwQYAtMIqK0IVuFRVqc/I3o2WV
+         N3ZClq30dG1cZ235mkrRxbGsLfrDLzCvIr1qB6PeqtIaDM42IYr9vjmcnSnS78yanxsZ
+         j3O6MAYQg9FmseqMxprOcq1l/Q+jdb6/CG0EhZC6oD60UkUCz6T3XE8PpT88bOsOu6cB
+         ZuhQcHHcDHqwzUDlPKyZStLxZK1JBT08hDoj9FCW20WQmxiU8nI3746mTewyyM65lY0q
+         JPqc6IU2Vs52H0gV/hC4zHgv9o9GXe+Uea80AosVcY1ZeMatiqgcXpHMwhpRGMc3+2Z/
+         NbWQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=kUvjfLb7mIdo/gVM3udsjK8UEASQbPRse2haeMxDI0o=;
+        b=BuSJwOanW4hrKwMfo1Iug2XXOaGQQFndm2guTvIMLxjbgHFI+jE6gP618NdNiR8fAW
+         va/3Gu+hbpBieSUEp7IlV6jgD74bkrjs+EuQFpgGk1D/2VXF27zcn2royCVJeA/4sTf2
+         DDGyfzeM8fOzZJmlqFj/3va6r4/my02aWtwB0r1CfJmXLZ+TqYrDGSQuIAZIObiG0S50
+         vT1fzfcHW6bFehGEpY93b0oCFId5mb/YYNxEsU5pj0O+2zYMjgdwuY4MqI4yPqlw/R+I
+         aiiLFlMJEa4A1xo9MYIiAkpaDNLB9lUSzrYG7zCPiCXVi03xQzqQAbO0BRl/b5lZNcRR
+         ncrw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=uBL4ziC7;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230315133353.30845777.258426@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230315133353.30845777.258426@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230315133353.30845777.258426@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id s7-20020a05600c45c700b003ed2469000csor852223wmo.35.2023.03.15.10.34.55
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 15 Mar 2023 10:34:55 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230315133353.30845777.258426@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set88cjvnVki5E5oSjlNLFzPox5nHXEOzSrLzn4LfD5gzsdwcE0xcGRkGSU1wluH5Ue6HEZgGBn7O37ZOMaSNXmTA5IU51Fs=
+X-Received: by 2002:a05:600c:470e:b0:3eb:29fe:734a with SMTP id v14-20020a05600c470e00b003eb29fe734amr18801350wmo.39.1678901695346;
+        Wed, 15 Mar 2023 10:34:55 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1678901695; cv=none;
+        d=google.com; s=arc-20160816;
+        b=RD3tld38bwdKCFh7pFbfx/M21cJXFOAiofPo2QDSyN3FOWN4mbU8hn1AF+dgjAGX7a
+         DmQN2Odsf6SGUDu547rY5nTIJ18KoNG0GcFHEy9B4VDCE3zNOshXqRzEuA5KcDs+Qo7T
+         ADatRzd/OZpviR1THfdqHXZDnjKYexma6aU34JOx9UQcN4TIf7sTaLnuqZ4rEJX8rxSF
+         Tmzekyb2yIcWzDRU9s3i7oOXISbQ0V9WkFCkT+qcM0VfPvgf2vl2a9sfJT51YfSe1Az5
+         lVllBBfW0IvX+lQTqrdwHSt7rT7NRIhK0ON5KX7pecc8W6avgL2wPxNBRVNcMUXuMkW6
+         gFDw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=kUvjfLb7mIdo/gVM3udsjK8UEASQbPRse2haeMxDI0o=;
+        b=kVnt2JP3jvyfVaTTk7g4oygHrm9JypHATTC/kzOR/ZAcEEJgQjd36hIBuTQQsYX4wG
+         71DTffHWPVN9lT0tdEqOmEKXLgiVE0683O2M+m2khQvaJ198ifG5mEX0oENOqf3ROjAj
+         P2QR/LNDl5VpTWAF023EjXX0SgZaXyQdk1+jIKqgEhlTX8xELIUAqclESfeiSQx6ZzNn
+         fpk5596juJ7HRbpcnK++NmbkCNVUiur2jAJPFgmodwaKf3ahPROaU88KZJrab//ZX2GG
+         nr+cWU/cn7k8cn0Mtngvee5C14Z9PgyR9k2b9mDYtBPOAIKQTW2dFTQZ3rAbeYNCjsda
+         eJzQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=uBL4ziC7;
+       spf=pass (google.com: domain of delivery_20230315133353.30845777.258426@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230315133353.30845777.258426@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230315133353.30845777.258426@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id bh23-20020a05600c3d1700b003ed26bd5589si356133wmb.0.2023.03.15.10.34.54
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 15 Mar 2023 10:34:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230315133353.30845777.258426@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=hpZVTfQIg2bzudR42z+RdLQt3FQjQr4kk0CC1OfVvzo=;
+ b=uBL4ziC7kDLzE+3kn9IwJzL3+M6N7YsZNOYL3XrAYSDmjmPS0yCYtetG3677llZHhauRkhRrMtO+
+   7gynIRSVHRZK+SmcQASgipd8J3DloeHZef2cd43BMEwnd1jZrhFo9Uf7OoP7pW1/sT5bFp1CBiFs
+   SViCgd0xeCMFhYLlnU4=
+Received: from nj2mta-17.sailthru.com (204.153.121.17) by bloomberg-b.sailthru.com id h280rs30nu8u for <bloomberg@khamel.com>; Wed, 15 Mar 2023 13:34:53 -0400 (envelope-from <delivery_20230315133353.30845777.258426@mx.sailthru.com>)
+Date: Wed, 15 Mar 2023 13:33:53 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230315133353.30845777.258426@sailthru.com>
+Subject: Money Stuff: Silicon Valley Bank Is For Sale
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_21879108_801277559.1678901633187"
+Precedence: bulk
+X-Feedback-ID: 6358:30845777:campaign:sailthru
+X-TM-ID: 20230315133353.30845777.258426
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddlime.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cid4r5.5jei/398a43b6
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cid4r5.5jei/398a43b6>, <mailto:unsubscribe_20230315133353.30845777.258426@mx.sailthru.com>
+X-rpcampaign: stjko30845777
+
+------=_Part_21879108_801277559.1678901633187
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Would you want to buy Silicon Valley Bank? You get three main thing=
+s: A big portfolio of Treasury bonds and agency mortgage-backed securitie
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      SVB: M&A
+   =20
+ =20
+
+Would=C2=A0you=C2=A0want to buy Silicon Valley Bank? You get three main thi=
+ngs:
+=09A big portfolio of Treasury bonds and agency mortgage-backed securities.=
+ These are worth what they=E2=80=99re worth: There=E2=80=99s a pretty liqui=
+d market for them and not much dispute about their value. They=E2=80=99re w=
+orth a lot less than SVB paid for them, which is a big part of why SVB fail=
+ed last week, but they=E2=80=99re worth a lot more today than they were las=
+t week,=C2=A0because=C2=A0SVB failed and so everyone panicked and rushed to=
+ buy safe assets like Treasuries.=09A portfolio of loans. The   loans  are =
+frankly pretty cool? If you buy this portfolio you will have a lot of mortg=
+ages on fancy vineyards? And on a lot of tech execs=E2=80=99 fancy houses? =
+But also you will have a big book of capital-call financing for venture cap=
+ital firms, a bit of financial engineering that seems to produce safe loans=
+. Also a smaller book of loans to risky startups.
+  [1]
+
+=09A, look, somewhat tarnished, but still interesting=C2=A0brand=C2=A0and s=
+et of=C2=A0relationships. Silicon Valley Bank was the leading bank of the h=
+uge and exciting ecosystem of startups and venture capitalists, until the V=
+Cs all turned on it last week out of boredom and=C2=A0a desire for Twitter =
+clout. But they=E2=80=99re sorry for what they did and have promised to com=
+e back to SVB and support it, and maybe that=E2=80=99s worth something. SVB=
+ was the cool bank for tech startups, and maybe if you buy it=C2=A0you=C2=
+=A0can be the cool bank for tech startups?
+
+Those are the main things, but you could imagine other, more contingent thi=
+ngs. Like: If you buy SVB, and it turns out to have been up to bad stuff, d=
+o you get sued for the bad stuff? That would be bad. Conversely: If you buy=
+ SVB out of government receivership, taking it off the hands of the Federal=
+ Deposit Insurance Corp., can you get the FDIC to do some sort of risk-shar=
+ing where if those Treasuries lose more value, or if=C2=A0all the loans tur=
+n out to be bad, the FDIC will reimburse you for some of the loss? All sort=
+s of possibilities.
+I don=E2=80=99t know if you should buy SVB?=C2=A0The first thing you get, t=
+he securities portfolio, seems pretty easy to value, though there are a lot=
+ of them and they=E2=80=99d take some time to sell so you=E2=80=99d have so=
+me risk. The second thing, the loan book, seems harder. SVB was in a busine=
+ss of making somewhat nontraditional loans to somewhat nontraditional borro=
+wers and your average regional bank might not know what to do with them. So=
+me of these loans, to early-stage startups, will probably look alarming to =
+traditional banks. Some of them, loans to venture capital funds secured by =
+those funds=E2=80=99 limited partners=E2=80=99 capital commitments, will pr=
+obably look pretty sweet. I have no idea about the vineyards.
+The third thing you get, the franchise and relationships, looked great a ye=
+ar=C2=A0ago when the tech industry was booming. It looked pretty good a wee=
+k ago, when the tech industry was slumping but still prominent and profitab=
+le. But I think that   the story of SVB=E2=80=99s failure has turned out to=
+ be that SVB was the banker=C2=A0to tech startups, and tech startups turned=
+ out to be incredibly dangerous customers for a bank.
+  [2]
+=C2=A0So any other bank will have to be careful about acquiring SVB=E2=80=
+=99s customers, no matter how loyal they are promising to be now. You might=
+ ascribe a=C2=A0negative=C2=A0value to those relationships: =E2=80=9CIf I b=
+ecome the bank of venture capitalists, they will push me to do stuff that i=
+s not in my best interests, and I will be seduced or pressured and say yes,=
+ so the expected value of these relationships is negative.=E2=80=9D
+Anyway, the FDIC took over Silicon Valley Bank last Friday, and then spent =
+the weekend trying to sell it. I assumed it would succeed, because I still =
+thought the=C2=A0franchise was valuable, and because I remember the experie=
+nce of 2008 when Jamie Dimon seemed to spend every weekend buying failed ba=
+nks. But it failed: Presumably the FDIC will eventually sell SVB, in whole =
+or in pieces, but the neat solution of selling it as a whole on Sunday and =
+opening it up on Monday as a normal bank failed. Instead,=C2=A0the FDIC and=
+ the Fed had to announce extraordinary measures to guarantee deposits at SV=
+B and to lend cash to other regional banks so that=C2=A0they=C2=A0don=E2=80=
+=99t have runs.
+There is a lot of reporting about why the FDIC failed to sell SVB. One reas=
+on does seem to be that Jamie Dimon is no longer in the buying-failed-banks=
+-every-weekend business, because he is still aggrieved about how that worke=
+d out in 2008. At the Information,  Lauren Tara LaCapra and Michael Roddan =
+report:
+
+JPMorgan didn=E2=80=99t show up as an emergency lender to SVB and didn=E2=
+=80=99t bid on SVB after the bank failed and came up for government auction=
+, the people said. =E2=80=A6
+Lessons from the financial crisis are still seared into management=E2=80=99=
+s brain at JPMorgan. After the 2008 crisis, it got slapped with the label o=
+f a bailed-out bank profiting from taxpayers=E2=80=99 generosity, and it ev=
+entually paid billions of dollars of fines and legal expenses after buying =
+Bear Stearns and Washington Mutual, including a then-record $13 billion pen=
+alty over mortgage lending. The irony was that it completed the takeovers p=
+artly at the request of the government, which had encouraged JPMorgan to ac=
+quire the stressed banks to prevent further instability in the financial sy=
+stem.
+As CEO Jamie Dimon said in his 2018 letter to shareholders: =E2=80=9CIn cas=
+e you were wondering: No, we would not do something like Bear Stearns again=
+=E2=80=94in fact, I don=E2=80=99t think our board would let me take the cal=
+l.=E2=80=9D
+
+Is SVB going to owe billions of dollars of settlements over the misdeeds th=
+at led to its failure, and will any acquirer be on the hook for those settl=
+ements? I mean, my guess is no, but Jamie Dimon doesn=E2=80=99t want to fin=
+d out.
+Also, though, it=E2=80=99s not like the FDIC wanted him bidding. At Semafor=
+,  Liz Hoffman and Gina Chon report:
+
+The largest U.S. banks didn=E2=80=99t submit a bid for Silicon Valley Bank =
+over the weekend, largely because they were initially excluded from the sal=
+es process by the Federal Deposit Insurance Corp. and ran out of time as a =
+result, people familiar with the matter said.
+The agency, which is led by FDIC Chair Martin Gruenberg, who has been publi=
+cly critical of consolidation in the industry, eventually allowed the bigge=
+st global banks into the auction where potential bidders didn=E2=80=99t get=
+ access to SVB=E2=80=99s financial information until late into the weekend,=
+ when the data room was opened, the people said.
+
+I think there is a view among financial regulators that it was=C2=A0bad=C2=
+=A0that the 2008 financial crisis increased concentration in the banking in=
+dustry, as all the failed banks kept being bought by giant banks. The regul=
+ators would prefer not to repeat that history. The problem is that it=E2=80=
+=99s hard for anyone=C2=A0other=C2=A0than a giant bank to buy a failed stil=
+l-pretty-big bank, and if you=C2=A0don=E2=80=99t=C2=A0have a buyer then the=
+ crisis gets worse and  depositors flee to the giant banks. As Twitter user=
+ Modest Proposal  put it:
+
+There are two main ways to increase concentration in the banking sector=C2=
+=A0
+1. Let big banks acquire troubled banks
+2. Don=E2=80=99t let big banks acquire troubled banks
+
+If JPMorgan bought SVB, it would end up with=C2=A0all of SVB=E2=80=99s depo=
+sits. If no one buys SVB, JPMorgan might also end up with all of SVB=E2=80=
+=99s deposits.
+Meanwhile I guess this is  the best the FDIC got?
+One large regional bank, PNC, tiptoed toward making an acceptable offer. Bu=
+t that deal fell through as the bank scrambled to scrub Silicon Valley Bank=
+=E2=80=99s books and failed to get enough assurances from the government th=
+at it would be protected from risks, according to a person briefed on the m=
+atter.
+One lesson that Jamie Dimon learned in 2008 was that if you buy a big faile=
+d bank you might eventually get sued for its failings, but another lesson b=
+anks learned in 2008 was that if you buy a big failed bank over the weekend=
+ you can reasonably say to the government =E2=80=9Cokay, well, I=E2=80=99ve=
+ had 20 minutes to do due diligence, but if any of these bonds go down will=
+ you pay me back for my losses,=E2=80=9D and the government might say yes. =
+PNC Financial Services Group=C2=A0apparently tried that, but the government=
+ didn=E2=80=99t bite.
+Arguably one lesson that the=C2=A0government=C2=A0learned in 2008 was that =
+that was dumb: Why sell a failed bank to a buyer, give the buyer the upside=
+, and give the government the downside? By not hitting PNC=E2=80=99s bid, t=
+he FDIC kept all of the downside of SVB and its portfolio, but it also kept=
+ all of the upside. Not forever, I mean =E2=80=94=C2=A0presumably it will s=
+ell SVB pretty soon =E2=80=94=C2=A0but because the government was willing t=
+o float SVB for longer than a weekend, it was not desperate to accept PNC=
+=E2=80=99s offer, and may end up doing a lot better. Or worse, but, again, =
+rates have rallied a lot since last week.
+The current state of buying interest includes:
+=09=E2=80=9CApollo Global Management Inc., Ares Management, Blackstone Inc.=
+, Carlyle Group Inc. and KKR & Co. are   among those looking to buy=E2=80=
+=9D the loan portfolio. The loans, again, are kind of cool, and Apollo et a=
+l. are very much in the business of buying private loans at the right price=
+. They are probably not in the business of=C2=A0buying a bank, though, and =
+it seems like the FDIC does not love the idea of selling the loans separate=
+ly from the banking business. (Dan Primack  reports that Apollo =E2=80=9Cwa=
+s rebuffed by the FDIC last weekend when it offered to buy SVB=E2=80=99s lo=
+an book,=E2=80=9D presumably because the FDIC thinks that the bank is worth=
+ more with its loans.)=09Something something something something venture ca=
+pitalists? It would make a kind of sense if the VC community all banded tog=
+ether to buy SVB from the FDIC, but I just don=E2=80=99t see it? But =E2=80=
+=9Cventure capital groups are  working on a long-shot plan to preserve part=
+s of Silicon Valley Bank so it can keep serving clients in the technology s=
+ector, according to people briefed on the effort.=E2=80=9D=09The bondholder=
+s of SVB=E2=80=99s parent company have  formed a creditors=E2=80=99 committ=
+ee and apparently think there might be enough value left over after paying =
+depositors that they will get some of it.=09=E2=80=9CSellers have cashed in=
+ on SVB=E2=80=99s infamy to make money on all sorts of  company merch they =
+may have once neglected. On Wednesday, there were eBay listings for an SVB-=
+branded blanket ($26), a purse hook ($12.50) and a cheese board ($200). Als=
+o for sale: SVB laptop bags, a branded apron and a cardboard box with the b=
+ank=E2=80=99s logo.=E2=80=9D The obvious conclusion here is that the FDIC s=
+hould also be selling SVB merch on eBay; every bit helps.=09Elon Musk defin=
+itely did  tweet about buying SVB, and his M&A jokes sometimes become real.=
+ Imagine that regulatory approval process.
+
+Meanwhile here is an  actual announcement from SVB yesterday:
+
+As stated in yesterday=E2=80=99s announcement, depositors have full access =
+to their money and both new and existing deposits are fully protected by th=
+e FDIC. =C2=A0This action by FDIC effectively means that deposits held with=
+ SVB are among the safest of any bank or institution in the country.
+If you, your portfolio companies, or your firm moved funds within the past =
+week, please consider moving some of them back as part of a secure deposit =
+diversification strategy. =C2=A0We are also open for business for any new c=
+ustomers. We are actively opening new accounts of all sizes and making new =
+loans.
+
+I assume that SVB =E2=80=94=C2=A0now called =E2=80=9CSilicon Valley Bridge =
+Bank NA=E2=80=9D =E2=80=94=C2=A0will not actually be owned by the FDIC fore=
+ver,
+  [3]
+ and that the FDIC will sell it off fairly soon. I suppose that, the better=
+ it does now at opening accounts and making loans, the more valuable it wil=
+l be to a buyer; its current FDIC-appointed managers are doing their job of=
+ maximizing recovery for the FDIC. But it would be pretty funny if they att=
+ract a lot of deposits by=C2=A0saying =E2=80=9Cwe are the safest bank in th=
+e US because we are explicitly owned and guaranteed by the government,=E2=
+=80=9D and then the government sells them and they go back to being only=C2=
+=A0implicitly=C2=A0guaranteed by the government and all the depositors flee=
+ again. =E2=80=9CI wanted an account at the Bank of FDIC, but not at PNC, i=
+f it=E2=80=99s just PNC I might as well go back to JPMorgan.=E2=80=9D If yo=
+u buy SVB you should demand that the FDIC continue to guarantee all the dep=
+osits forever.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      SVB: ECM
+   =20
+ =20
+
+As I said above, the basic story=C2=A0of the fall of SVB is that venture-ba=
+cked tech startups plowed too much money into SVB too quickly in the boom t=
+imes, and took it out too quickly last week. SVB had nowhere to put that mo=
+ney except in long-dated government bonds with lots of interest-rate risk; =
+when rates went up those bonds lost money, and when its depositors all fled=
+ last week it realized those losses and went bust. The depositors were the =
+problem.
+But, as a former equity capital markets banker at Goldman Sachs Group Inc. =
+(disclosure!), I should add that another story of the fall of SVB is that G=
+oldman=E2=80=99s equity capital markets advice might not have been that hot=
+? Here is a pretty brutal review from former capital markets banker=C2=A0 C=
+raig Coben at FT Alphaville:
+
+Couldn=E2=80=99t SVB have saved itself?
+After all, SVB had put together a rescue plan with a powerhouse investment =
+bank and a powerhouse investment firm. On the evening of March 8 SVB launch=
+ed a $2.25bn combined common and preferred stock offering led by Goldman Sa=
+chs, with General Atlantic agreeing to purchase $500mn of the common stock =
+at the offer price.
+Better yet, SVB was raising more money than the $1.8bn it said it had lost =
+from the sale of nearly all of its =E2=80=9Cavailable for sale=E2=80=9D (Af=
+S) bond portfolio. What could go wrong?
+Everything.
+
+Coben explains how you should do it
+  [4]
+:
+
+First, go big. Really big. Bazooka-big. Raise a lot more equity than you ne=
+ed and a lot more equity than regulators tell you to raise. Don=E2=80=99t j=
+ust fill in the capital hole.
+Second, the stock offering has to be underwritten. Hard-underwritten. Or al=
+ready subscribed-for. Investors must assess the equity offering on the basi=
+s of a repaired balance sheet. They must know you don=E2=80=99t actually ne=
+ed them.
+
+That is, if you go out and announce =E2=80=9Chey we=E2=80=99d like to raise=
+ $2 billion of equity, anyone interested?=E2=80=9D everyone will panic and =
+(1) not buy the stock and (2) withdraw deposits, cause a run, etc. But if y=
+ou go out and announce =E2=80=9Chey we have already raised $5 billion of eq=
+uity, everything=E2=80=99s cool now,=E2=80=9D then everything will in fact =
+be cool.
+This advice seems fine, but it=C2=A0does assume that you=C2=A0can=C2=A0go o=
+ut and raise a ton of equity before publicly announcing the deal. If you ca=
+n do that =E2=80=94=C2=A0if you can quietly call half a dozen big investors=
+ and get them all to agree to write $500+ million checks and then announce =
+=E2=80=9Cour deal is done, everything=E2=80=99s great,=E2=80=9D then great.=
+ A lot of bank rescues=C2=A0have=C2=A0gone like that. But there=E2=80=99s n=
+o guarantee it will work, and SVB didn=E2=80=99t have a ton of time to find=
+ out.
+  [5]
+=C2=A0Bloomberg News reports:
+
+The death spiral at SVB began with credit ratings. In early March, Moody=E2=
+=80=99s informed the bank it was considering a multilevel downgrade that wo=
+uld have pushed it to the brink of junk-bond status. In response, Goldman S=
+achs Group Inc., hired by SVB to help it raise fresh capital, jumped into a=
+ction. It offloaded a chunk of SVB=E2=80=99s investment portfolio at a $1.8=
+ billion loss. On Wednesday, March 8, Goldman pitched a plan to investors t=
+o help plug that hole, and then some, by raising $2.25 billion in capital f=
+rom General Atlantic and other investors. It didn=E2=80=99t work.
+=E2=80=9CThe Catch-22 of the situation is that, by announcing the need to r=
+aise capital, they in essence accelerated customer concern, resulting in th=
+e liquidity stress that ultimately caused their collapse,=E2=80=9D says Oli=
+vier Sarkozy, managing partner at Further Global, a private equity firm. =
+=E2=80=9CIt would have been far better to announce the $2.25 billion they w=
+ere seeking had been secured.=E2=80=9D
+In the bankers=E2=80=99 view, they were racing the clock to defuse the Mood=
+y=E2=80=99s threat. That didn=E2=80=99t leave them enough time to canvass t=
+he market, line up the funding and present a neatly put-together deal.=C2=
+=A0
+
+Obviously announcing the capital raise=C2=A0without having=C2=A0buyers line=
+d up led to a disaster, but announcing a Moody=E2=80=99s downgrade without =
+any capital raise would also have led to disaster. Announcing =E2=80=9CWarr=
+en Buffett put $4 billion into our stock  from his bathtub=E2=80=9D would h=
+ave avoided disaster, but requires Warren Buffett to actually do that, and =
+apparently he didn=E2=80=99t.
+Elsewhere  in Goldman:
+
+As an adviser to Silicon Valley Bank, Goldman Sachs last week tried to pull=
+ off a last-minute capital raise to save the firm from collapse. But the Wa=
+ll Street giant also had another role in the bank=E2=80=99s final days, for=
+ which it=E2=80=99s expected to collect a massive fee: It bought a cache of=
+ the bank=E2=80=99s debt in a deal that ultimately led to concerns about th=
+e bank=E2=80=99s viability.
+Goldman=E2=80=99s payday: In exchange for buying $21.4 billion of debt from=
+ Silicon Valley Bank =E2=80=94 which the failed lender booked at a loss of =
+$1.8 billion =E2=80=94 Goldman is likely to make more than $100 million, De=
+alBook has learned.
+
+I mean the basic issue is that if Goldman is going to buy a $21.4 billion b=
+ond portfolio from you all at once, it is going to buy it at a discount, be=
+cause reselling that portfolio will drive the price down. Except that the a=
+ctual result of this transaction was (1) people panicked about SVB, (2) the=
+re was=C2=A0a flight to safety and=C2=A0(3) the value of that bond portfoli=
+o went=C2=A0up. When it announced the capital raise last Wednesday, SVB  al=
+so said that it had sold a portfolio of $21 billion of Treasury and agency =
+securities with a=C2=A0duration of 3.6 years. Since then, Treasury rates ha=
+ve fallen by something like 90 basis points,=C2=A0meaning that this portfol=
+io has gone up by something like $600 million in the last week.
+  [6]
+ Presumably Goldman hasn=E2=80=99t just held onto all those bonds the whole=
+ time, but if it did, great trade, for Goldman anyway.
+
+ =20
+   =20
+      Credit Suisse
+   =20
+ =20
+
+What?
+
+The chairman of Saudi National Bank, which became Credit Suisse=E2=80=99s b=
+iggest shareholder late last year, said that the bank wouldn=E2=80=99t boos=
+t its share of the bank past the current level of just under 10%.=C2=A0
+=E2=80=9CThe answer is absolutely not, for many reasons outside the simples=
+t reason, which is regulatory and statutory,=E2=80=9D Ammar Al Khudairy sai=
+d in an interview with Bloomberg TV on Wednesday. That was in response to a=
+ question on whether the bank was open to further injections if there was a=
+nother call for additional funds.
+
+Look I suppose that if you are the biggest shareholder of a somewhat beleag=
+uered bank and someone asks you on television =E2=80=9Cwould you throw more=
+ money into this bank,=E2=80=9D and the actual answer is =E2=80=9Cno we can=
+=E2=80=99t,=E2=80=9D you should not say =E2=80=9Cyes.=E2=80=9D Everything i=
+s securities fraud, etc. But =E2=80=A6=C2=A0you should not =E2=80=A6=C2=A0s=
+ay =E2=80=9Cno=E2=80=9D? You certainly should not say =E2=80=9Cabsolutely n=
+ot=E2=80=9D? =E2=80=9CWe believe strongly in Credit Suisse, we are in close=
+ contact with management, and we ourselves have access to tons of cash=E2=
+=80=9D: Nothing in that sentence is a lie, it does not actually answer the =
+question, and yet it sounds like it does?=C2=A0It sounds vaguely confidence=
+-inspiring? I thought of that in three seconds? You could probaby do better=
+ if it was your money on the line?
+We just got through discussing the fact that the=C2=A0immediate=C2=A0cause =
+of SVB=E2=80=99s downfall was that it announced that it was=C2=A0raising eq=
+uity without having buyers lined up. If you are Credit Suisse=E2=80=99s big=
+gest shareholder, why would you just go around saying =E2=80=9Chey FYI if C=
+redit Suisse needs to raise equity, it won=E2=80=99t have us as a buyer=E2=
+=80=9D? Not helpful!
+Anyway,   yeesh:
+Credit Suisse=E2=80=99s share price plunged 28% in the biggest one-day sell=
+off on record, leaving it down more than 75% over the past year. Its bonds =
+fell to levels that signal deep financial distress, with securities due in =
+2026 dropping 17.75 cents to 70 cents on the dollar in New York. That puts =
+their yield at about 20 percentage points above US Treasuries, according to=
+ Trace.
+ And:
+
+The cost of credit derivatives linked to Credit Suisse Group AG are blowing=
+ out to levels reminiscent of the financial panic of 2008 after the lender=
+=E2=80=99s biggest shareholder said it doesn=E2=80=99t want to boost its st=
+ake.
+The moves are being exacerbated by banks rushing to buy protection against =
+a possible default by the Zurich-based firm to reduce their counterparty ri=
+sk on trades, according to people with knowledge of the matter.
+In a chaotic day of trading, quotes for one-year credit default swaps were =
+considerably more expensive than the offers for longer durations as lenders=
+ tried to give themselves a near-term shield from their exposure to the len=
+der, the people said.
+Bid-ask spreads were as much as 10 points apart upfront they said, asking n=
+ot to be named because they aren=E2=80=99t authorized to speak publicly.=C2=
+=A0
+
+Also this is not really all that related to the slide in Credit Suisse=E2=
+=80=99s stock price and CDS, but what an absolutely majestic paragraph from=
+ Credit Suisse=E2=80=99s  annual report filed yesterday:
+On February 9, 2023, the Group announced that it had taken further importan=
+t steps to progress the carve-out of CS First Boston as a leading capital m=
+arkets and advisory business through the acquisition of The Klein Group LLC=
+, the investment banking business as well as the registered broker-dealer o=
+f M. Klein & Company LLC (the seller). The Group also announced the appoint=
+ment of former Board member Michael Klein as CEO of Banking and regional CE=
+O of Americas, as well as designated CEO of CS First Boston and a member of=
+ the Executive Board. Both Michael Klein=E2=80=99s appointment to the Execu=
+tive Board and the acquisition of The Klein Group LLC are subject to regula=
+tory approval. In addition, on October 27, 2022, the Group and The Klein Gr=
+oup LLC entered into an engagement letter, under which The Klein Group LLC =
+has been engaged to provide strategic advice and assistance to the Group in=
+ connection with the proposed carve-out of CS First Boston, whereby it was =
+agreed that Michael Klein would devote significant time and attention to th=
+e services to be provided by The Klein Group LLC to the Group.
+This is stuff   we knew already but it is so briskly summarized: Credit Sui=
+sse wanted to spin out its once-and-future First Boston=C2=A0investment ban=
+king business, so it hired Michael Klein =E2=80=94=C2=A0a member of its own=
+ board =E2=80=94=C2=A0to advise on what to do. His advice was, apparently, =
+=E2=80=9Cthe first thing to do is to put me in charge of it, and the second=
+ thing to do is to buy my investment banking boutique to merge it with Firs=
+t Boston,=E2=80=9D and he charged Credit Suisse $10 million for that advice=
+.
+  [7]
+
+Quite possibly this is all fine and the prices=C2=A0are fair and arm=E2=80=
+=99s-length, but this might be the most conflicted transaction I have ever =
+seen? I just admire it? =E2=80=9CNo conflict, no interest=E2=80=9D is  the =
+old joke, and it is true that the best and most famous investment bankers t=
+end to find themselves with close ties to everyone on every side of every b=
+ig deal. If Credit Suisse just thinks that Michael Klein is the best invest=
+ment banker going, then (1) who better to serve on its board of directors, =
+(2) who better to advise it on this tricky transaction and (3) who better t=
+o lead its new investment bank? A lesser banker might have said =E2=80=9Cah=
+h I=E2=80=99d love to run First Boston=C2=A0but you see I=E2=80=99m on the =
+Credit Suisse board and it=E2=80=99d look bad,=E2=80=9D but Klein was like =
+=E2=80=9Cnope, I=E2=80=99m the guy, don=E2=80=99t care how it looks, I gott=
+a do it all myself.=E2=80=9D Love it.
+
+ =20
+   =20
+      APEs
+   =20
+ =20
+
+I feel like we were recently in the Era of Meme Stocks, but now that ended =
+and we are in an Era of Banking Crises, and it=E2=80=99s a bit silly to tal=
+k about the meme stocks. But they still exist! They=E2=80=99re still doing =
+stuff! We have talked a bunch about AMC Entertainment Holdings Inc.=E2=80=
+=99s   APE gambit. Basically:
+=09AMC was a meme stock and issued tons of stock to shore up its balance sh=
+eet, pay down debt, and go off on larks like   buying a gold mine.=09Eventu=
+ally it ran out of authorized shares to sell.=09It asked its shareholders t=
+o approve more shares, but that would require a majority of all of the shar=
+es to vote in favor of an amendment to the corporate charter, and retail sh=
+areholders stereotypically don=E2=80=99t vote. So AMC couldn=E2=80=99t get =
+enough votes, so it withdrew the request.=09Also some of its shareholders o=
+bjected to the dilution that would come from issuing new shares, though it=
+=E2=80=99s hard to know how much that objection mattered versus just the fa=
+ct that most of its shareholders don=E2=80=99t vote at all. Not voting is e=
+quivalent to voting no, and it seems like AMC=E2=80=99s biggest problem was=
+ shareholder apathy rather than shareholder opposition.=09AMC came up with =
+a=C2=A0very=C2=A0silly workaround. It issued a new weird class of stock cal=
+led APEs, AMC Preferred Equity Units. Each APE has the same economic and vo=
+ting rights as a=C2=A0common share, and AMC gave out one APE for each commo=
+n share. Then it sold a bunch more APEs to raise cash.=09The APEs trade at =
+a discount to the common stock, which makes this strategy sort of awful and=
+ dilutive: You are selling something that is economically equivalent to the=
+ common, but at a huge discount.=C2=A0=09So AMC asked its shareholders agai=
+n to approve issuing more shares and=C2=A0converting=C2=A0the APEs into com=
+mon, which will result in AMC being able to sell lots more regular common s=
+tock.=09It also stacked this vote, because (1) the APEs=C2=A0vote alongside=
+ the common, (2) there are now=C2=A0more=C2=A0APEs=C2=A0than common shares =
+and=C2=A0(3) the APE holders have an incentive to vote to allow the convers=
+ion, since the common trades at a much higher price than the APEs.=09Also t=
+hough,=C2=A0(4) the APEs are  structured in a clever way to make sure that =
+they=C2=A0all=C2=A0vote. Technically APEs are not shares but depositary rec=
+eipts for 1/100th of a share of preferred stock. All the preferred stock is=
+ held by a depositary, and the depositary has agreed to vote all of its pre=
+ferred shares, in proportion to how the APE holders instruct it. So if 40% =
+of the APEs vote yes, 10% vote no, and 50% never return a proxy, the actual=
+ vote will be 80% yes and 20% no. Not voting an APE is=C2=A0not=C2=A0equiva=
+lent to voting no.=09AMC scheduled the shareholder vote for yesterday.=09So=
+me  shareholders sued, saying that this whole structure is ridiculous and d=
+isenfranchises shareholders.
+
+When we  talked about this last month, the shareholders and AMC had reached=
+ an agreement to delay the lawsuit until April and hold the shareholder vot=
+e on schedule, but not actually issue more shares or convert the APEs until=
+ the lawsuit is resolved. AMC agreed to count votes separately, that is, to=
+ report (1) how many common shares voted yes, how many voted=C2=A0no, and h=
+ow many didn=E2=80=99t vote, (2) how many preferred shares voted yes becaus=
+e the APE holders voted yes, how many preferred shares voted no because the=
+ APE holders voted no, and how many preferred shares voted yes/no because A=
+PE holders didn=E2=80=99t vote but the depositary voted the shares anyway.
+The results of that vote will, I think, be interesting for the lawsuit. Bas=
+ically if the common shareholders all vote no and the APEs all vote yes, th=
+at supports the plaintiffs=E2=80=99 claim that this was all a trick to dise=
+nfranchise shareholders. But if the common shareholders=C2=A0mostly don=E2=
+=80=99t vote, but the ones who do vote vote yes, then that supports AMC=E2=
+=80=99s view that this was all a trick to=C2=A0help=C2=A0shareholders who w=
+ould otherwise just fail to vote for something that they actually want. I w=
+rote:
+If a majority of the common shares that vote vote yes, and the APEs also vo=
+te yes, but the amendment fails to get a majority of all of the common shar=
+es =E2=80=94 if 40% of the common votes yes, 20% votes no, and 40% doesn=E2=
+=80=99t vote at all, say =E2=80=94 then in April AMC will have a decent arg=
+ument to the judge to the effect of: =E2=80=9CLook, yes, we did this to get=
+ around the strict letter of the voting requirements, but as you see, even =
+with all the publicity this has generated, our shareholders never vote. So =
+we are doing what we think is best for them and also what a majority of the=
+m, as best we can tell, actually want.=E2=80=9D I am not sure that a judge =
+would allow the amendment, in this case, but it would be a bit harsh to sto=
+p it.
+Well that=E2=80=99s what happened. AMC held its shareholder vote yesterday =
+and:
+=0925.5% of the common stock voted to authorize more shares, 9.1% voted no,=
+ 0.5% abstained (like, affirmatively chose to vote, but marked =E2=80=9Cabs=
+tain=E2=80=9D) and the other 64.8% just didn=E2=80=99t vote.=0957.1% of the=
+ APES voted yes, 5.2% no, 0.5% abstained and 37.3% didn=E2=80=99t vote.=09B=
+ut because of the preferred-stock voting mechanic, that meant that 91% of t=
+he preferred stock voted yes, 8.3% no and 0.7% abstained, making for more t=
+han enough votes to authorize the new shares.
+
+AMC said:
+Commenting on the results, Adam Aron, AMC Entertainment Chairman and CEO sa=
+id, =E2=80=9CAMC=E2=80=99s shareholders exercised their rights today to hav=
+e their voices be heard. They voted resoundingly in favor of proposals that=
+ we believe are crucial to AMC=E2=80=99s future. Shareholders overwhelmingl=
+y approved combining AMC common shares and APE units, with total votes 87% =
+in favor, while significantly increasing the capacity to issue additional c=
+ommon shares, with total votes 88% in favor.If implemented, AMC should have=
+ an ability to raise a significant amount of equity capital in the months a=
+nd years ahead. Winning these shareholder votes by such a lopsided margin i=
+s a powerful vote of confidence to allow AMC to raise equity capital, reduc=
+e debt, strengthen our balance sheet and continue our transformation.=E2=80=
+=9D
+And I think it has a good argument in court that the shareholders=C2=A0did=
+=C2=A0vote in favor of authorizing new shares, to the extent they voted at =
+all, so the APE mechanism was a way to give shareholders what they wanted e=
+ven though the shareholders never vote. Again I am not=C2=A0sure=C2=A0that =
+a Delaware court will allow it: The APEs kicked off a wave of strange votin=
+g preferred stock deals designed to get around shareholder voting problems,=
+ and the court might reasonably think =E2=80=9Cwe don=E2=80=99t want boards=
+ of directors to engineer shareholder votes like this so we=E2=80=99re goin=
+g to block the APEs.=E2=80=9D But, again, it would be a bit harsh, because =
+the APEs really do seem to be giving AMC shareholders what they want.
+
+ =20
+   =20
+      Isn=E2=80=99t it ironic?
+   =20
+ =20
+
+It is the official position of this column that you should never participat=
+e in a corporate parody rap video, but can you, on your own time, record an=
+ Alanis Morissette parody video about the collapse of your employer? I mean=
+, I=E2=80=99m not gonna stop you. It helps that this  SVB-themed Alanis Mor=
+issette parody is reasonably funny? And actually a pretty good summary of t=
+he situation?=C2=A0=E2=80=9CIt=E2=80=99s a federal bailout, two minutes too=
+ late.=E2=80=9D =E2=80=9CIt's like when you thought that T-bonds were safe,=
+ but then Jerome Powell went and raised interest rates. It=E2=80=99s the sh=
+are sale that just didn=E2=80=99t take, so now Elon Musk please buy us.=E2=
+=80=9D
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Signature Bank CEO in 2018: =E2=80=9CIn five years a number of banks   will=
+ not be around because of blockchain technology.=E2=80=9D Patrick McKenzie:=
+ =E2=80=9CThe world sits atop four elephants who stand astride the risk-fre=
+e rate, and then it is interest rates all the way down.=E2=80=9D Nathan Tan=
+kus: =E2=80=9CAll this nonsense can be eliminated by simply removing the ca=
+p on deposit insurance, and admitting that  a bank deposit is money, and sh=
+ould just be treated straightforwardly as such.=E2=80=9D Matt Klein: =E2=80=
+=9CBanks are speculative investment funds grafted on top of  critical infra=
+structure.=E2=80=9D Fed Weighs  Tougher Rules for Midsized Banks After SVB=
+=E2=80=99s Collapse.=C2=A0Focus on SVB=E2=80=99s $180mn  D&O tower as US ac=
+ts to avert wider banking crisis. Ukraine Wins UK Top Court Case Over $3 Bi=
+llion   Bond Default.=C2=A0
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Here is an  interesting Twitter thread from Todd Baker about how the =
+loan portfolio and the franchise relate: =E2=80=9CThe $6.7 billion in =E2=
+=80=98investor dependent=E2=80=99 loans to Venture-backed startups are the =
+ones that are difficult for national banks to acquire. They are also the ke=
+y to the whole SVB ecosystem, including the Global Fund Banking portfolio. =
+=E2=80=A6 The challenge for FDIC in a nutshell: these apparently disparate =
+lending businesses are all deeply intertwined. High value to a franchise bu=
+yer, questionable value to a piecemeal buyer. And if a buyer can't to the e=
+arliest stage =E2=80=98investor dependent=E2=80=99 loans, can it hold on to=
+ the rest of the business?=E2=80=9D That is, a small but risky part of SVB=
+=E2=80=99s lending portfolio is making loans to early-stage startups. Most =
+banks don=E2=80=99t like to do that, but it=E2=80=99s what won SVB so much =
+of its other business, because venture capitalists wanted to work with a ba=
+nk that supported startups.
+
+
+  [2] The best analyst of this view is probably Dan Davies,  on Twitter and=
+ on Bloomberg's   Odd Lots podcast.
+
+
+  [3] Though wouldn=E2=80=99t that be funny? Fannie Mae and Freddie Mac wer=
+e taken over by the government in 2008, they are still under government con=
+trol, and I delight in   pointing out periodically that that is never ever =
+going to change because no one wants it to. What if SVB ends up like that?
+
+
+  [4] One reader also argued to me that, instead of selling the bond portfo=
+lio first and then announcing the equity raise, SVB should have gone out to=
+ potential equity investors saying =E2=80=9Cwe=E2=80=99ll sell the bond por=
+tfolio and probably have a $1.8 billion loss,=E2=80=9D but wait to actually=
+ sell it until the equity raise was done. The theory is that it is better t=
+o always be well capitalized than to first dig a capital hole and then fill=
+ it. I don=E2=80=99t have a strong view of the mechanics of that, and I can=
+ see the appeal of SVB=E2=80=99s actual rip-the-Band-Aid-off approach, but =
+it didn=E2=80=99t work, so.
+
+
+  [5] There is another complication here. Most equity offerings are priced =
+at a discount of a few percentage points to the closing price of the stock.=
+ If SVB had quietly done a deal after the close last Wednesday, what would =
+the right price for the deal have been? The stock closed on Wednesday at $2=
+67.83, it closed on Thursday at $106.04, and it never opened again. If SVB =
+had tried to quietly line up investors after the close on Wednesday, it mig=
+ht have offered the stock at =E2=80=A6 $250? And the investors might reason=
+ably have bid =E2=80=A6 $100? Less? There=E2=80=99s a big bid-ask in a resc=
+ue financing, is the point here. Obviously this is a problem that gets solv=
+ed somewhat frequently in rescue financings, but it does make things hairy.=
+ SVB's approach of announcing the deal publicly did, in theory, allow the d=
+eal to price based on how the stock actually traded.
+
+
+  [6] Like, 3.6 times 0.9% times $21.4 billion is about $690 million, thoug=
+h I am ignoring what I assume is negative convexity on a largely mortgage-y=
+ portfolio.
+
+
+  [7] On page 327 of the report Credit Suisse notes that the purchase price=
+ for the Klein Group is $175 million and the fee under the engagement lette=
+r was $10 million. Also I say =E2=80=9Ca member of its own board,=E2=80=9D =
+but technically Klein stepped down from the board on Oct. 27, the day he wa=
+s hired as an adviser instead.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cid4r5.5jei/085731ef.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_21879108_801277559.1678901633187
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Would you want to buy Silicon Valley Bank? You get three main things: A big=
+ portfolio of Treasury bonds and agency mortgage-backed securitie
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzE1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBa385c33c"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDg0NTc3NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzExMDQyMDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB72d29ddd" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30845777&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31104203&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SVB: M&amp;A</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Would=C2=A0<em>you=C2=A0</em>want to buy Silic=
+on Valley Bank? You get three main things:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">A big portfolio of Treasury bonds and=
+ agency mortgage-backed securities. These are worth what they=E2=80=99re wo=
+rth: There=E2=80=99s a pretty liquid market for them and not much dispute a=
+bout their value. They=E2=80=99re worth a lot less than SVB paid for them, =
+which is a big part of why SVB failed last week, but they=E2=80=99re worth =
+a lot more today than they were last week,=C2=A0<em>because=C2=A0</em>SVB f=
+ailed and so everyone panicked and rushed to buy safe assets like Treasurie=
+s.</li>=09<li style=3D"margin-bottom: 5px;">A portfolio of loans. The <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC=
+1iYW5rLWhhZC1hLXN0YXJ0dXAtYmFuay1ydW4_Y21waWQ9QkJEMDMxNTIzX01PTkVZU1RVRkYmd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzE1JnV0=
+bV9jYW1wYWlnbj1tb25leXN0dWZmI2Zvb3Rub3RlLTI/607f07ceef4b8524a319a23cBbe9083=
+f5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  loans</a> <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30845777.258426/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRh=
+LzcxOTczOS8wMDAxMTkzMTI1MjMwNjQ2ODAvZDQzMDkyMGRleDk5Mi5odG0/607f07ceef4b852=
+4a319a23cB381d2cad" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> are</a> frankly pretty cool? If you buy this=
+ portfolio you will have a lot of mortgages on fancy vineyards? And on a lo=
+t of tech execs=E2=80=99 fancy houses? But also you will have a big book of=
+ capital-call financing for venture capital firms, a bit of financial engin=
+eering that seems to produce safe loans. Also a smaller book of loans to ri=
+sky startups.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: none !important; background=
+-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">A, look, somewhat tarnished, but =
+still interesting=C2=A0<em>brand=C2=A0</em>and set of=C2=A0<em>relationship=
+s</em>. Silicon Valley Bank was the leading bank of the huge and exciting e=
+cosystem of startups and venture capitalists, until the VCs all turned on i=
+t last week out of boredom and=C2=A0a desire for Twitter clout. But they=E2=
+=80=99re sorry for what they did and have promised to come back to SVB and =
+support it, and maybe that=E2=80=99s worth something. SVB was the cool bank=
+ for tech startups, and maybe if you buy it=C2=A0<em>you=C2=A0</em>can be t=
+he cool bank for tech startups?</li>
+</ol>
+<p style=3D"margin: 16px 0;">Those are the main things, but you could imagi=
+ne other, more contingent things. Like: If you buy SVB, and it turns out to=
+ have been up to bad stuff, do you get sued for the bad stuff? That would b=
+e bad. Conversely: If you buy SVB out of government receivership, taking it=
+ off the hands of the Federal Deposit Insurance Corp., can you get the FDIC=
+ to do some sort of risk-sharing where if those Treasuries lose more value,=
+ or if=C2=A0all the loans turn out to be bad, the FDIC will reimburse you f=
+or some of the loss? All sorts of possibilities.</p>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know if you should buy SVB?=C2=
+=A0The first thing you get, the securities portfolio, seems pretty easy to =
+value, though there are a lot of them and they=E2=80=99d take some time to =
+sell so you=E2=80=99d have some risk. The second thing, the loan book, seem=
+s harder. SVB was in a business of making somewhat nontraditional loans to =
+somewhat nontraditional borrowers and your average regional bank might not =
+know what to do with them. Some of these loans, to early-stage startups, wi=
+ll probably look alarming to traditional banks. Some of them, loans to vent=
+ure capital funds secured by those funds=E2=80=99 limited partners=E2=80=99=
+ capital commitments, will probably look pretty sweet. I have no idea about=
+ the vineyards.</p>
+<p style=3D"margin: 16px 0;">The third thing you get, the franchise and rel=
+ationships, looked great a year=C2=A0ago when the tech industry was booming=
+. It looked pretty good a week ago, when the tech industry was slumping but=
+ still prominent and profitable. But I think that <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/30845777.258426/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC1iYW5rLWhhZC1hLXN0YX=
+J0dXAtYmFuay1ydW4_Y21waWQ9QkJEMDMxNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpb=
+CZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzE1JnV0bV9jYW1wYWlnbj1tb25l=
+eXN0dWZm/607f07ceef4b8524a319a23cBaed5feec" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  the story of SVB=E2=
+=80=99s failure</a> has turned out to be that SVB was the banker=C2=A0to te=
+ch startups, and tech startups turned out to be incredibly dangerous custom=
+ers for a bank.<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: none !important; backgrou=
+nd-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0So any other bank will have to be careful about acquiring SVB=E2=
+=80=99s customers, no matter how loyal they are promising to be now. You mi=
+ght ascribe a=C2=A0<em>negative=C2=A0</em>value to those relationships: =E2=
+=80=9CIf I become the bank of venture capitalists, they will push me to do =
+stuff that is not in my best interests, and I will be seduced or pressured =
+and say yes, so the expected value of these relationships is negative.=E2=
+=80=9D</p>
+<p style=3D"margin: 16px 0;">Anyway, the FDIC took over Silicon Valley Bank=
+ last Friday, and then spent the weekend trying to sell it. I assumed it wo=
+uld succeed, because I still thought the=C2=A0franchise was valuable, and b=
+ecause I remember the experience of 2008 when Jamie Dimon seemed to spend e=
+very weekend buying failed banks. But it failed: Presumably the FDIC will e=
+ventually sell SVB, in whole or in pieces, but the neat solution of selling=
+ it as a whole on Sunday and opening it up on Monday as a normal bank faile=
+d. Instead,=C2=A0the FDIC and the Fed had to announce extraordinary measure=
+s to guarantee deposits at SVB and to lend cash to other regional banks so =
+that=C2=A0<em>they=C2=A0</em>don=E2=80=99t have runs.</p>
+<p style=3D"margin: 16px 0;">There is a lot of reporting about why the FDIC=
+ failed to sell SVB. One reason does seem to be that Jamie Dimon is no long=
+er in the buying-failed-banks-every-weekend business, because he is still a=
+ggrieved about how that worked out in 2008. At the Information, <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/30845777.258426/aHR0cHM6Ly93d=
+3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL2hvdy1qcG1vcmdhbi1tYW5ldXZlcmVkLWR1=
+cmluZy10aGUtZmFsbC1vZi1zaWxpY29uLXZhbGxleS1iYW5rP3JjPTFiZGk1aA/607f07ceef4b=
+8524a319a23cBf7a5ec8f" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> Lauren Tara LaCapra and Michael Roddan repo=
+rt</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">JPMorgan didn=E2=80=99t show up as an emergenc=
+y lender to SVB and didn=E2=80=99t bid on SVB after the bank failed and cam=
+e up for government auction, the people said. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Lessons from the financial crisis are still se=
+ared into management=E2=80=99s brain at JPMorgan. After the 2008 crisis, it=
+ got slapped with the label of a bailed-out bank profiting from taxpayers=
+=E2=80=99 generosity, and it eventually paid billions of dollars of fines a=
+nd legal expenses after buying Bear Stearns and Washington Mutual, includin=
+g a then-record $13 billion penalty over mortgage lending. The irony was th=
+at it completed the takeovers partly at the request of the government, whic=
+h had encouraged JPMorgan to acquire the stressed banks to prevent further =
+instability in the financial system.</p>
+<p style=3D"margin: 16px 0;">As CEO Jamie Dimon said in his 2018 letter to =
+shareholders: =E2=80=9CIn case you were wondering: No, we would not do some=
+thing like Bear Stearns again=E2=80=94in fact, I don=E2=80=99t think our bo=
+ard would let me take the call.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Is SVB going to owe billions of dollars of set=
+tlements over the misdeeds that led to its failure, and will any acquirer b=
+e on the hook for those settlements? I mean, my guess is no, but Jamie Dimo=
+n doesn=E2=80=99t want to find out.</p>
+<p style=3D"margin: 16px 0;">Also, though, it=E2=80=99s not like the FDIC w=
+anted him bidding. At Semafor, <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/30845777.258426/aHR0cHM6Ly93d3cuc2VtYWZvci5jb20vYXJ0aWNsZS8wMy=
+8xNC8yMDIzL2xhcmdlc3QtdXMtYmFua3MtZmlyc3Qtc2h1dC1vdXQtb2Ytc2lsaWNvbi12YWxsZ=
+XktYmFuay1iaWQ/607f07ceef4b8524a319a23cBe1b219b2" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> Liz Hoffman and =
+Gina Chon report</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The largest U.S. banks didn=E2=80=99t submit a=
+ bid for Silicon Valley Bank over the weekend, largely because they were in=
+itially excluded from the sales process by the Federal Deposit Insurance Co=
+rp. and ran out of time as a result, people familiar with the matter said.<=
+/p>
+<p style=3D"margin: 16px 0;">The agency, which is led by FDIC Chair Martin =
+Gruenberg, who has been publicly critical of consolidation in the industry,=
+ eventually allowed the biggest global banks into the auction where potenti=
+al bidders didn=E2=80=99t get access to SVB=E2=80=99s financial information=
+ until late into the weekend, when the data room was opened, the people sai=
+d.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I think there is a view among financial regula=
+tors that it was=C2=A0<em>bad=C2=A0</em>that the 2008 financial crisis incr=
+eased concentration in the banking industry, as all the failed banks kept b=
+eing bought by giant banks. The regulators would prefer not to repeat that =
+history. The problem is that it=E2=80=99s hard for anyone=C2=A0<em>other=C2=
+=A0</em>than a giant bank to buy a failed still-pretty-big bank, and if you=
+=C2=A0<em>don=E2=80=99t=C2=A0</em>have a buyer then the crisis gets worse a=
+nd <a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426=
+/aHR0cHM6Ly9jdXN0b21lcmNlbnRlci53c2ouY29tL3ZpZXcvcGF5bWVudF9tZXRob2RzLmh0bW=
+w_Y2NfZmFpbD10cnVlJm5zPXByb2QvYWNjb3VudHMtbXcmdXJsPWh0dHBzJTNBJTJGJTJGd3d3L=
+m1hcmtldHdhdGNoLmNvbSUyRnN0b3J5JTJGcmVnaW9uYWwtYmFua3MtYXJlLXNlZWluZy1mbGln=
+aHQtb2YtZGVwb3NpdHMtdG8tdG9vLWJpZy10by1mYWlsLW1lZ2FiYW5rcy1lMDcyZGFhNyZ1dWl=
+kPWRlNWRjNzhlLTgxNWMtNDY4NC05NDVkLTMwMmYxMzZiMTAzNg/607f07ceef4b8524a319a23=
+cB6e1035cd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> depositors flee to the giant banks</a>. As Twitter use=
+r Modest Proposal <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+30845777.258426/aHR0cHM6Ly90d2l0dGVyLmNvbS9tb2Rlc3Rwcm9wb3NhbDEvc3RhdHVzLzE=
+2MzUyNTk3ODI4MDU0NTg5NDQ/607f07ceef4b8524a319a23cB437b46d1" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> put it=
+</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">There are two main ways to increase concentrat=
+ion in the banking sector=C2=A0</p>
+<p style=3D"margin: 16px 0;">1. Let big banks acquire troubled banks</p>
+<p style=3D"margin: 16px 0;">2. Don=E2=80=99t let big banks acquire trouble=
+d banks</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If JPMorgan bought SVB, it would end up with=
+=C2=A0all of SVB=E2=80=99s deposits. If no one buys SVB, JPMorgan might als=
+o end up with all of SVB=E2=80=99s deposits.</p>
+<p style=3D"margin: 16px 0;">Meanwhile I guess this is <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30845777.258426/aHR0cHM6Ly93d3cubnl0aW=
+1lcy5jb20vMjAyMy8wMy8xNC91cy9wb2xpdGljcy9pbnNpZGUtc2lsaWNvbi12YWxsZXktYmFua=
+y1yZXNjdWUuaHRtbA/607f07ceef4b8524a319a23cB292f4321" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> the best the =
+FDIC got</a>?</p>
+<blockquote><p style=3D"margin: 16px 0;">One large regional bank, PNC, tipt=
+oed toward making an acceptable offer. But that deal fell through as the ba=
+nk scrambled to scrub Silicon Valley Bank=E2=80=99s books and failed to get=
+ enough assurances from the government that it would be protected from risk=
+s, according to a person briefed on the matter.</p></blockquote>
+<p style=3D"margin: 16px 0;">One lesson that Jamie Dimon learned in 2008 wa=
+s that if you buy a big failed bank you might eventually get sued for its f=
+ailings, but another lesson banks learned in 2008 was that if you buy a big=
+ failed bank over the weekend you can reasonably say to the government =E2=
+=80=9Cokay, well, I=E2=80=99ve had 20 minutes to do due diligence, but if a=
+ny of these bonds go down will you pay me back for my losses,=E2=80=9D and =
+the government might say yes. PNC Financial Services Group=C2=A0apparently =
+tried that, but the government didn=E2=80=99t bite.</p>
+<p style=3D"margin: 16px 0;">Arguably one lesson that the=C2=A0<em>governme=
+nt=C2=A0</em>learned in 2008 was that that was dumb: Why sell a failed bank=
+ to a buyer, give the buyer the upside, and give the government the downsid=
+e? By not hitting PNC=E2=80=99s bid, the FDIC kept all of the downside of S=
+VB and its portfolio, but it also kept all of the upside. Not forever, I me=
+an =E2=80=94=C2=A0presumably it will sell SVB pretty soon =E2=80=94=C2=A0bu=
+t because the government was willing to float SVB for longer than a weekend=
+, it was not desperate to accept PNC=E2=80=99s offer, and may end up doing =
+a lot better. Or worse, but, again, rates have rallied a lot since last wee=
+k.</p>
+<p style=3D"margin: 16px 0;">The current state of buying interest includes:=
+</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">=E2=80=9CApollo Global Management Inc.=
+, Ares Management, Blackstone Inc., Carlyle Group Inc. and KKR &amp; Co. ar=
+e <a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTMvYXBvbGx=
+vLWV5ZXMtc3ZiLWFzc2V0cy1hcy1zdWl0b3JzLWNpcmNsZS03My02LWJpbGxpb24tbG9hbi1ib2=
+9rP2NtcGlkPUJCRDAzMTUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cBd2c93857" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  among those looking to buy</a>=E2=
+=80=9D the loan portfolio. The loans, again, are kind of cool, and Apollo e=
+t al. are very much in the business of buying private loans at the right pr=
+ice. They are probably not in the business of=C2=A0<em>buying a bank</em>, =
+though, and it seems like the FDIC does not love the idea of selling the lo=
+ans separately from the banking business. (Dan Primack <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30845777.258426/aHR0cHM6Ly93d3cuYXhpb3=
+MuY29tLzIwMjMvMDMvMTUvc2lsaWNvbi12YWxsZXktaXMtd29ya2luZy13aXRoLXdhbGwtc3RyZ=
+WV0LXRvLWJ1eS1zb21lLXN2Yi1hc3NldHM/607f07ceef4b8524a319a23cB4e36cbfa" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> reports that</a> Apollo =E2=80=9Cwas rebuffed by the FDIC last weekend =
+when it offered to buy SVB=E2=80=99s loan book,=E2=80=9D presumably because=
+ the FDIC thinks that the bank is worth more with its loans.)</li>=09<li st=
+yle=3D"margin-bottom: 5px;">Something something something something venture=
+ capitalists? It would make a kind of sense if the VC community all banded =
+together to buy SVB from the FDIC, but I just don=E2=80=99t see it? But =E2=
+=80=9Cventure capital groups are <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30845777.258426/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMmE1NGRl=
+NzYtNjI0MS00MmI3LWE2NTQtM2IzNTlkM2ZlYWFh/607f07ceef4b8524a319a23cB3460b5e6"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> working on a long-shot plan</a> to preserve parts of Silicon Vall=
+ey Bank so it can keep serving clients in the technology sector, according =
+to people briefed on the effort.=E2=80=9D</li>=09<li style=3D"margin-bottom=
+: 5px;">The bondholders of SVB=E2=80=99s parent company have <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/30845777.258426/aHR0cHM6Ly93d3cu=
+d3NqLmNvbS9hcnRpY2xlcy9zaWxpY29uLXZhbGxleS1iYW5rLWNyZWRpdG9ycy1mb3JtLWdyb3V=
+wLWluLWFkdmFuY2Utb2YtcG9zc2libGUtYmFua3J1cHRjeS02MmU2MzFhYT9tb2Q9aHBfbGVhZF=
+9wb3Mx/607f07ceef4b8524a319a23cBc37d3aa9" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> formed a creditors=E2=
+=80=99 committee</a> and apparently think there might be enough value left =
+over after paying depositors that they will get some of it.</li>=09<li styl=
+e=3D"margin-bottom: 5px;">=E2=80=9CSellers have cashed in on SVB=E2=80=99s =
+infamy to make money on all sorts of <a href=3D"https://link.mail.bloomberg=
+business.com/click/30845777.258426/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9z=
+dmItbWVyY2gtc3dhZy1lYmF5LWQ5NzQ3ZmY4/607f07ceef4b8524a319a23cB6f14b78f" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> company merch</a> they may have once neglected. On Wednesday, there w=
+ere eBay listings for an SVB-branded blanket ($26), a purse hook ($12.50) a=
+nd a cheese board ($200). Also for sale: SVB laptop bags, a branded apron a=
+nd a cardboard box with the bank=E2=80=99s logo.=E2=80=9D The obvious concl=
+usion here is that the FDIC should also be selling SVB merch on eBay; every=
+ bit helps.</li>=09<li style=3D"margin-bottom: 5px;">Elon Musk definitely d=
+id <a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426=
+/aHR0cHM6Ly9mb3J0dW5lLmNvbS8yMDIzLzAzLzExL2Vsb24tbXVzay1vcGVuLXRvLWJ1eWluZy=
+1zaWxpY29uLXZhbGxleS1iYW5rLWFzLWhlLWxheXMtdHdpdHRlci1wYXltZW50cy1ncm91bmR3b=
+3JrLw/607f07ceef4b8524a319a23cB04439f07" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> tweet about buying SVB<=
+/a>, and his M&amp;A jokes sometimes become real. Imagine that regulatory a=
+pproval process.</li>
+</ul>
+<p style=3D"margin: 16px 0;">Meanwhile here is an <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/30845777.258426/aHR0cHM6Ly93d3cuc3ZiLmNvbS9=
+uZXdzL2NvbXBhbnktbmV3cy91cGRhdGUtZnJvbS1zaWxpY29uLXZhbGxleS1icmlkZ2UtYmFuay=
+1jZW8/607f07ceef4b8524a319a23cBe9767d2e" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> actual announcement fro=
+m SVB yesterday</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">As stated in yesterday=E2=80=99s announcement,=
+ depositors have full access to their money and both new and existing depos=
+its are fully protected by the FDIC. =C2=A0This action by FDIC effectively =
+means that deposits held with SVB are among the safest of any bank or insti=
+tution in the country.</p>
+<p style=3D"margin: 16px 0;">If you, your portfolio companies, or your firm=
+ moved funds within the past week, please consider moving some of them back=
+ as part of a secure deposit diversification strategy. =C2=A0We are also op=
+en for business for any new customers. We are actively opening new accounts=
+ of all sizes and making new loans.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I assume that SVB =E2=80=94=C2=A0now called =
+=E2=80=9CSilicon Valley Bridge Bank NA=E2=80=9D =E2=80=94=C2=A0will not act=
+ually be owned by the FDIC forever,<a class=3D"footnote-index" href=3D"#foo=
+tnote-3" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none =
+!important; background-color: transparent !important; display: inline-block=
+;">
+<span>[3]</span>
+</a> and that the FDIC will sell it off fairly soon. I suppose that, the be=
+tter it does now at opening accounts and making loans, the more valuable it=
+ will be to a buyer; its current FDIC-appointed managers are doing their jo=
+b of maximizing recovery for the FDIC. But it would be pretty funny if they=
+ attract a lot of deposits by=C2=A0<em>saying =E2=80=9Cwe are the safest ba=
+nk in the US because we are explicitly owned and guaranteed by the governme=
+nt</em>,=E2=80=9D and then the government sells them and they go back to be=
+ing only=C2=A0<em>implicitly=C2=A0</em>guaranteed by the government and all=
+ the depositors flee again. =E2=80=9CI wanted an account at the Bank of FDI=
+C, but not at PNC, if it=E2=80=99s just PNC I might as well go back to JPMo=
+rgan.=E2=80=9D If you buy SVB you should demand that the FDIC continue to g=
+uarantee all the deposits forever.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDg0NTc3NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzExMDQyMDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC48a9b4ff" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30845777&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31104203&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDg0NTc3NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzExMDQyMDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD48a9b4ff" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30845777&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31104203&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SVB: ECM</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">As I said above, the basic story=C2=A0of the f=
+all of SVB is that venture-backed tech startups plowed too much money into =
+SVB too quickly in the boom times, and took it out too quickly last week. S=
+VB had nowhere to put that money except in long-dated government bonds with=
+ lots of interest-rate risk; when rates went up those bonds lost money, and=
+ when its depositors all fled last week it realized those losses and went b=
+ust. The depositors were the problem.</p>
+<p style=3D"margin: 16px 0;">But, as a former equity capital markets banker=
+ at Goldman Sachs Group Inc. (disclosure!), I should add that another story=
+ of the fall of SVB is that Goldman=E2=80=99s equity capital markets advice=
+ might not have been that hot? Here is a pretty brutal review from former c=
+apital markets banker=C2=A0<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30845777.258426/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvN2U3ZmRkZGItNz=
+I0Yy00MmZkLTk4ZWUtNWQ3MjQ4ZDUzMzM0/607f07ceef4b8524a319a23cB4f138d79" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Craig Coben at FT Alphaville</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Couldn=E2=80=99t SVB have saved itself?</p>
+<p style=3D"margin: 16px 0;">After all, SVB had put together a rescue plan =
+with a powerhouse investment bank and a powerhouse investment firm. On the =
+evening of March 8 SVB launched a $2.25bn combined common and preferred sto=
+ck offering led by Goldman Sachs, with General Atlantic agreeing to purchas=
+e $500mn of the common stock at the offer price.</p>
+<p style=3D"margin: 16px 0;">Better yet, SVB was raising more money than th=
+e $1.8bn it said it had lost from the sale of nearly all of its =E2=80=9Cav=
+ailable for sale=E2=80=9D (AfS) bond portfolio. What could go wrong?</p>
+<p style=3D"margin: 16px 0;">Everything.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Coben explains how you should do it<a class=3D=
+"footnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: none !important; background-color: transparent !imp=
+ortant; display: inline-block;">
+<span>[4]</span>
+</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">First, go big. Really big. Bazooka-big. Raise =
+a lot more equity than you need and a lot more equity than regulators tell =
+you to raise. Don=E2=80=99t just fill in the capital hole.</p>
+<p style=3D"margin: 16px 0;">Second, the stock offering has to be underwrit=
+ten. Hard-underwritten. Or already subscribed-for. Investors must assess th=
+e equity offering on the basis of a repaired balance sheet. They must know =
+you don=E2=80=99t actually need them.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That is, if you go out and announce =E2=80=9Ch=
+ey we=E2=80=99d like to raise $2 billion of equity, anyone interested?=E2=
+=80=9D everyone will panic and (1) not buy the stock and (2) withdraw depos=
+its, cause a run, etc. But if you go out and announce =E2=80=9Chey we have =
+already raised $5 billion of equity, everything=E2=80=99s cool now,=E2=80=
+=9D then everything will in fact be cool.</p>
+<p style=3D"margin: 16px 0;">This advice seems fine, but it=C2=A0does assum=
+e that you=C2=A0<em>can=C2=A0</em>go out and raise a ton of equity before p=
+ublicly announcing the deal. If you can do that =E2=80=94=C2=A0if you can q=
+uietly call half a dozen big investors and get them all to agree to write $=
+500+ million checks and then announce =E2=80=9Cour deal is done, everything=
+=E2=80=99s great,=E2=80=9D then great. A lot of bank rescues=C2=A0<em>have=
+=C2=A0</em>gone like that. But there=E2=80=99s no guarantee it will work, a=
+nd SVB didn=E2=80=99t have a ton of time to find out.<a class=3D"footnote-i=
+ndex" href=3D"#footnote-5" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: none !important; background-color: transparent !important; dis=
+play: inline-block;">
+<span>[5]</span>
+</a>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30845777=
+.258426/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTU=
+vc3ZiLWJhaWxvdXQtc2hhcGVkLWJ5LWJpZGVuLWFkbWluaXN0cmF0aW9uLW92ZXItNzItaG91cn=
+M_Y21waWQ9QkJEMDMxNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cBc112f00e" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">Bloomberg News reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The death spiral at SVB began with credit rati=
+ngs. In early March, Moody=E2=80=99s informed the bank it was considering a=
+ multilevel downgrade that would have pushed it to the brink of junk-bond s=
+tatus. In response, Goldman Sachs Group Inc., hired by SVB to help it raise=
+ fresh capital, jumped into action. It offloaded a chunk of SVB=E2=80=99s i=
+nvestment portfolio at a $1.8 billion loss. On Wednesday, March 8, Goldman =
+pitched a plan to investors to help plug that hole, and then some, by raisi=
+ng $2.25 billion in capital from General Atlantic and other investors. It d=
+idn=E2=80=99t work.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe Catch-22 of the situation is that=
+, by announcing the need to raise capital, they in essence accelerated cust=
+omer concern, resulting in the liquidity stress that ultimately caused thei=
+r collapse,=E2=80=9D says Olivier Sarkozy, managing partner at Further Glob=
+al, a private equity firm. =E2=80=9CIt would have been far better to announ=
+ce the $2.25 billion they were seeking had been secured.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">In the bankers=E2=80=99 view, they were racing=
+ the clock to defuse the Moody=E2=80=99s threat. That didn=E2=80=99t leave =
+them enough time to canvass the market, line up the funding and present a n=
+eatly put-together deal.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Obviously announcing the capital raise=C2=A0<e=
+m>without </em>having=C2=A0buyers lined up led to a disaster, but announcin=
+g a Moody=E2=80=99s downgrade without any capital raise would also have led=
+ to disaster. Announcing =E2=80=9CWarren Buffett put $4 billion into our st=
+ock <a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.25842=
+6/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9CTC1ETEItMzQ0OTY/607f07ceef4b8524a=
+319a23cBd4a3ed23" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> from his bathtub</a>=E2=80=9D would have avoided=
+ disaster, but requires Warren Buffett to actually do that, and apparently =
+he didn=E2=80=99t.</p>
+<p style=3D"margin: 16px 0;">Elsewhere <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/30845777.258426/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy=
+8wMy8xNS9idXNpbmVzcy9kZWFsYm9vay9nb2xkbWFuLXNhY2hzLXNpbGljb24tdmFsbGV5LWJhb=
+mstZmVlLmh0bWw/607f07ceef4b8524a319a23cBfdf9d2cd" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> in Goldman</a>:<=
+/p>
+<blockquote>
+<p style=3D"margin: 16px 0;">As an adviser to Silicon Valley Bank, Goldman =
+Sachs last week tried to pull off a last-minute capital raise to save the f=
+irm from collapse. But the Wall Street giant also had another role in the b=
+ank=E2=80=99s final days, for which it=E2=80=99s expected to collect a mass=
+ive fee: It bought a cache of the bank=E2=80=99s debt in a deal that ultima=
+tely led to concerns about the bank=E2=80=99s viability.</p>
+<p style=3D"margin: 16px 0;">Goldman=E2=80=99s payday: In exchange for buyi=
+ng $21.4 billion of debt from Silicon Valley Bank =E2=80=94 which the faile=
+d lender booked at a loss of $1.8 billion =E2=80=94 Goldman is likely to ma=
+ke more than $100 million, DealBook has learned.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I mean the basic issue is that if Goldman is g=
+oing to buy a $21.4 billion bond portfolio from you all at once, it is goin=
+g to buy it at a discount, because reselling that portfolio will drive the =
+price down. Except that the actual result of this transaction was (1) peopl=
+e panicked about SVB, (2) there was=C2=A0a flight to safety and=C2=A0(3) th=
+e value of that bond portfolio went=C2=A0<em>up</em>. When it announced the=
+ capital raise last Wednesday, SVB <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/30845777.258426/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZG=
+dhci9kYXRhLzcxOTczOS8wMDAxMTkzMTI1MjMwNjQ2ODAvZDQzMDkyMGRleDk5Mi5odG0/607f0=
+7ceef4b8524a319a23cC381d2cad" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> also said</a> that it had sold a por=
+tfolio of $21 billion of Treasury and agency securities with a=C2=A0duratio=
+n of 3.6 years. Since then, Treasury rates have fallen by something like 90=
+ basis points,=C2=A0meaning that this portfolio has gone up by something li=
+ke $600 million in the last week.<a class=3D"footnote-index" href=3D"#footn=
+ote-6" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !i=
+mportant; background-color: transparent !important; display: inline-block;"=
+>
+<span>[6]</span>
+</a> Presumably Goldman hasn=E2=80=99t just held onto all those bonds the w=
+hole time, but if it did, great trade, for Goldman anyway.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Credit Suisse</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30845777.258426/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDMtMTUvY3JlZGl0LXN1aXNzZS10b3Atc2hhcmVob2xkZXItcnVsZXMtb3V0LW1=
+vcmUtYXNzaXN0YW5jZS10by1iYW5rLWxmOWdmaGJyP2NtcGlkPUJCRDAzMTUyM19NT05FWVNUVU=
+ZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxN=
+SZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBddeb093a" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">What</a>?</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The chairman of Saudi National Bank, which bec=
+ame Credit Suisse=E2=80=99s biggest shareholder late last year, said that t=
+he bank wouldn=E2=80=99t boost its share of the bank past the current level=
+ of just under 10%.=C2=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe answer is absolutely not, for man=
+y reasons outside the simplest reason, which is regulatory and statutory,=
+=E2=80=9D Ammar Al Khudairy said in an interview with Bloomberg TV on Wedne=
+sday. That was in response to a question on whether the bank was open to fu=
+rther injections if there was another call for additional funds.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Look I suppose that if you are the biggest sha=
+reholder of a somewhat beleaguered bank and someone asks you on television =
+=E2=80=9Cwould you throw more money into this bank,=E2=80=9D and the actual=
+ answer is =E2=80=9Cno we can=E2=80=99t,=E2=80=9D you should not say =E2=80=
+=9Cyes.=E2=80=9D Everything is securities fraud, etc. But =E2=80=A6=C2=A0yo=
+u should not =E2=80=A6=C2=A0say =E2=80=9Cno=E2=80=9D? You certainly should =
+not say =E2=80=9Cabsolutely not=E2=80=9D? =E2=80=9CWe believe strongly in C=
+redit Suisse, we are in close contact with management, and we ourselves hav=
+e access to tons of cash=E2=80=9D: Nothing in that sentence is a lie, it do=
+es not actually answer the question, and yet it sounds like it does?=C2=A0I=
+t sounds vaguely confidence-inspiring? I thought of that in three seconds? =
+You could probaby do better if it was your money on the line?</p>
+<p style=3D"margin: 16px 0;">We just got through discussing the fact that t=
+he=C2=A0<em>immediate=C2=A0</em>cause of SVB=E2=80=99s downfall was that it=
+ announced that it was=C2=A0raising equity without having buyers lined up. =
+If you are Credit Suisse=E2=80=99s biggest shareholder, why would you just =
+go around saying =E2=80=9Chey FYI if Credit Suisse needs to raise equity, i=
+t won=E2=80=99t have us as a buyer=E2=80=9D? Not helpful!</p>
+<p style=3D"margin: 16px 0;">Anyway, <a href=3D"https://link.mail.bloomberg=
+business.com/click/30845777.258426/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjMtMDMtMTUvY3JlZGl0LXN1aXNzZS1pcy1mdWVsaW5nLWEtYnJvYWRlci1=
+yb3V0LWluLWV1cm9wZWFuLWJhbmstc3RvY2tzP2NtcGlkPUJCRDAzMTUyM19NT05FWVNUVUZGJn=
+V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxNSZ1d=
+G1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBa77a47bc" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  yeesh</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Credit Suisse=E2=80=99s share pric=
+e plunged 28% in the biggest one-day selloff on record, leaving it down mor=
+e than 75% over the past year. Its bonds fell to levels that signal deep fi=
+nancial distress, with securities due in 2026 dropping 17.75 cents to 70 ce=
+nts on the dollar in New York. That puts their yield at about 20 percentage=
+ points above US Treasuries, according to Trace.</p></blockquote>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30845777.258426/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDMtMTUvY3JlZGl0LXN1aXNzZS1jZHMtcmVhY2gtY3Jpc2lzLWxldmVscy1hcy1=
+iYW5rcy1ydXNoLXRvLWJ1eS1wcm90ZWN0aW9uP2NtcGlkPUJCRDAzMTUyM19NT05FWVNUVUZGJn=
+V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxNSZ1d=
+G1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB227d8c6b" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ And</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The cost of credit derivatives linked to Credi=
+t Suisse Group AG are blowing out to levels reminiscent of the financial pa=
+nic of 2008 after the lender=E2=80=99s biggest shareholder said it doesn=E2=
+=80=99t want to boost its stake.</p>
+<p style=3D"margin: 16px 0;">The moves are being exacerbated by banks rushi=
+ng to buy protection against a possible default by the Zurich-based firm to=
+ reduce their counterparty risk on trades, according to people with knowled=
+ge of the matter.</p>
+<p style=3D"margin: 16px 0;">In a chaotic day of trading, quotes for one-ye=
+ar credit default swaps were considerably more expensive than the offers fo=
+r longer durations as lenders tried to give themselves a near-term shield f=
+rom their exposure to the lender, the people said.</p>
+<p style=3D"margin: 16px 0;">Bid-ask spreads were as much as 10 points apar=
+t upfront they said, asking not to be named because they aren=E2=80=99t aut=
+horized to speak publicly.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Also this is not really all that related to th=
+e slide in Credit Suisse=E2=80=99s stock price and CDS, but what an absolut=
+ely majestic paragraph from Credit Suisse=E2=80=99s <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30845777.258426/aHR0cHM6Ly93d3cuc2VjLmdvd=
+i9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTA1MzA5Mi8wMDAxMzcwMzY4MjMwMDAwMjYv=
+Y3MtMjAyMjEyMzEuaHRt/607f07ceef4b8524a319a23cB57d1e3ce" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> annual rep=
+ort filed yesterday</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">On February 9, 2023, the Group ann=
+ounced that it had taken further important steps to progress the carve-out =
+of CS First Boston as a leading capital markets and advisory business throu=
+gh the acquisition of The Klein Group LLC, the investment banking business =
+as well as the registered broker-dealer of M. Klein &amp; Company LLC (the =
+seller). The Group also announced the appointment of former Board member Mi=
+chael Klein as CEO of Banking and regional CEO of Americas, as well as desi=
+gnated CEO of CS First Boston and a member of the Executive Board. Both Mic=
+hael Klein=E2=80=99s appointment to the Executive Board and the acquisition=
+ of The Klein Group LLC are subject to regulatory approval. In addition, on=
+ October 27, 2022, the Group and The Klein Group LLC entered into an engage=
+ment letter, under which The Klein Group LLC has been engaged to provide st=
+rategic advice and assistance to the Group in connection with the proposed =
+carve-out of CS First Boston, whereby it was agreed that Michael Klein woul=
+d devote significant time and attention to the services to be provided by T=
+he Klein Group LLC to the Group.</p></blockquote>
+<p style=3D"margin: 16px 0;">This is stuff <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30845777.258426/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjMtMDEtMDkvc3BhYy1tYXRoLW5vLWxvbmdlci1hZGRzLXVwP=
+2NtcGlkPUJCRDAzMTUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cB7300d054" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  we knew already</a> but it is so brisk=
+ly summarized: Credit Suisse wanted to spin out its once-and-future First B=
+oston=C2=A0investment banking business, so it hired Michael Klein =E2=80=94=
+=C2=A0a member of its own board =E2=80=94=C2=A0to advise on what to do. His=
+ advice was, apparently, =E2=80=9Cthe first thing to do is to put me in cha=
+rge of it, and the second thing to do is to buy my investment banking bouti=
+que to merge it with First Boston,=E2=80=9D and he charged Credit Suisse $1=
+0 million for that advice.<a class=3D"footnote-index" href=3D"#footnote-7" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: none !importan=
+t; background-color: transparent !important; display: inline-block;">
+<span>[7]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Quite possibly this is all fine and the prices=
+=C2=A0are fair and arm=E2=80=99s-length, but this might be the most conflic=
+ted transaction I have ever seen? I just admire it? =E2=80=9CNo conflict, n=
+o interest=E2=80=9D is <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/30845777.258426/aHR0cHM6Ly9hdmMuY29tLzIwMTAvMDQvbm8tY29uZmxpY3Qtbm8taW=
+50ZXJlc3Qv/607f07ceef4b8524a319a23cB9586cba4" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> the old joke</a>, an=
+d it is true that the best and most famous investment bankers tend to find =
+themselves with close ties to everyone on every side of every big deal. If =
+Credit Suisse just thinks that Michael Klein is the best investment banker =
+going, then (1) who better to serve on its board of directors, (2) who bett=
+er to advise it on this tricky transaction and (3) who better to lead its n=
+ew investment bank? A lesser banker might have said =E2=80=9Cahh I=E2=80=99=
+d love to run First Boston=C2=A0but you see I=E2=80=99m on the Credit Suiss=
+e board and it=E2=80=99d look bad,=E2=80=9D but Klein was like =E2=80=9Cnop=
+e, I=E2=80=99m the guy, don=E2=80=99t care how it looks, I gotta do it all =
+myself.=E2=80=9D Love it.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">APEs</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I feel like we were recently in the Era of Mem=
+e Stocks, but now that ended and we are in an Era of Banking Crises, and it=
+=E2=80=99s a bit silly to talk about the meme stocks. But they still exist!=
+ They=E2=80=99re still doing stuff! We have talked a bunch about AMC Entert=
+ainment Holdings Inc.=E2=80=99s <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30845777.258426/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjItMDgtMjMvYW1jLWdvZXMtYXBlP2NtcGlkPUJCRDAzMTUyM19NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDM=
+xNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB88751fbd" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  APE gambit</a>. Basically:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">AMC was a meme stock and issued tons o=
+f stock to shore up its balance sheet, pay down debt, and go off on larks l=
+ike <a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.25842=
+6/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMTUvY=
+W1jLWJvdWdodC1hLWdvbGQtbWluZT9jbXBpZD1CQkQwMzE1MjNfTU9ORVlTVFVGRiZ1dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTUmdXRtX2NhbXB=
+haWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB52820a76" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  buying a =
+gold mine</a>.</li>=09<li style=3D"margin-bottom: 5px;">Eventually it ran o=
+ut of authorized shares to sell.</li>=09<li style=3D"margin-bottom: 5px;">I=
+t asked its shareholders to approve more shares, but that would require a m=
+ajority of all of the shares to vote in favor of an amendment to the corpor=
+ate charter, and retail shareholders stereotypically don=E2=80=99t vote. So=
+ AMC couldn=E2=80=99t get enough votes, so it withdrew the request.</li>=09=
+<li style=3D"margin-bottom: 5px;">Also some of its shareholders objected to=
+ the dilution that would come from issuing new shares, though it=E2=80=99s =
+hard to know how much that objection mattered versus just the fact that mos=
+t of its shareholders don=E2=80=99t vote at all. Not voting is equivalent t=
+o voting no, and it seems like AMC=E2=80=99s biggest problem was shareholde=
+r apathy rather than shareholder opposition.</li>=09<li style=3D"margin-bot=
+tom: 5px;">AMC came up with a=C2=A0<em>very=C2=A0</em>silly workaround. It =
+issued a new weird class of stock called APEs, AMC Preferred Equity Units. =
+Each APE has the same economic and voting rights as a=C2=A0common share, an=
+d AMC gave out one APE for each common share. Then it sold a bunch more APE=
+s to raise cash.</li>=09<li style=3D"margin-bottom: 5px;">The APEs trade at=
+ a discount to the common stock, which makes this strategy sort of awful an=
+d dilutive: You are selling something that is economically equivalent to th=
+e common, but at a huge discount.=C2=A0</li>=09<li style=3D"margin-bottom: =
+5px;">So AMC asked its shareholders again to approve issuing more shares an=
+d=C2=A0<em>converting=C2=A0</em>the APEs into common, which will result in =
+AMC being able to sell lots more regular common stock.</li>=09<li style=3D"=
+margin-bottom: 5px;">It also stacked this vote, because (1) the APEs=C2=A0v=
+ote alongside the common, (2) there are now=C2=A0<em>more</em>=C2=A0APEs=C2=
+=A0than common shares and=C2=A0(3) the APE holders have an incentive to vot=
+e to allow the conversion, since the common trades at a much higher price t=
+han the APEs.</li>=09<li style=3D"margin-bottom: 5px;">Also though,=C2=A0(4=
+) the APEs are <a href=3D"https://link.mail.bloombergbusiness.com/click/308=
+45777.258426/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+MtMDItMDEvYW1jLWhhcy1zb21lLWNsZXZlci1hcGVzP2NtcGlkPUJCRDAzMTUyM19NT05FWVNUV=
+UZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMx=
+NSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB0fdcde89" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> structured in a clever way</a> to make sure that they=C2=A0<em>all=C2=
+=A0</em>vote. Technically APEs are not shares but depositary receipts for 1=
+/100th of a share of preferred stock. All the preferred stock is held by a =
+depositary, and the depositary has agreed to vote all of its preferred shar=
+es, in proportion to how the APE holders instruct it. So if 40% of the APEs=
+ vote yes, 10% vote no, and 50% never return a proxy, the actual vote will =
+be 80% yes and 20% no. Not voting an APE is=C2=A0<em>not=C2=A0</em>equivale=
+nt to voting no.</li>=09<li style=3D"margin-bottom: 5px;">AMC scheduled the=
+ shareholder vote for yesterday.</li>=09<li style=3D"margin-bottom: 5px;">S=
+ome <a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.25842=
+6/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMjEvY=
+W1jLWFwZXMtaGF0ZS1hbWMtcy1hcGVzP2NtcGlkPUJCRDAzMTUyM19NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxNSZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB07f62c70" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> shareho=
+lders sued</a>, saying that this whole structure is ridiculous and disenfra=
+nchises shareholders.</li>
+</ul>
+<p style=3D"margin: 16px 0;">When we <a href=3D"https://link.mail.bloomberg=
+business.com/click/30845777.258426/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjMtMDItMjgvYW1jLXMtYXBlcy1oYXZlLXRvLXdhaXQ_Y21waWQ9QkJ=
+EMDMxNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjMwMzE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cB103b62dd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> talked about this last month</a>, the shareholders =
+and AMC had reached an agreement to delay the lawsuit until April and hold =
+the shareholder vote on schedule, but not actually issue more shares or con=
+vert the APEs until the lawsuit is resolved. AMC agreed to count votes sepa=
+rately, that is, to report (1) how many common shares voted yes, how many v=
+oted=C2=A0no, and how many didn=E2=80=99t vote, (2) how many preferred shar=
+es voted yes because the APE holders voted yes, how many preferred shares v=
+oted no because the APE holders voted no, and how many preferred shares vot=
+ed yes/no because APE holders didn=E2=80=99t vote but the depositary voted =
+the shares anyway.</p>
+<p style=3D"margin: 16px 0;">The results of that vote will, I think, be int=
+eresting for the lawsuit. Basically if the common shareholders all vote no =
+and the APEs all vote yes, that supports the plaintiffs=E2=80=99 claim that=
+ this was all a trick to disenfranchise shareholders. But if the common sha=
+reholders=C2=A0<em>mostly don=E2=80=99t vote</em>, but the ones who do vote=
+ vote yes, then that supports AMC=E2=80=99s view that this was all a trick =
+to=C2=A0<em>help=C2=A0</em>shareholders who would otherwise just fail to vo=
+te for something that they actually want. I wrote:</p>
+<blockquote><p style=3D"margin: 16px 0;">If a majority of the common shares=
+ <em>that vote</em> vote yes, and the APEs also vote yes, but the amendment=
+ fails to get a majority of <em>all</em> of the common shares =E2=80=94 if =
+40% of the common votes yes, 20% votes no, and 40% doesn=E2=80=99t vote at =
+all, say =E2=80=94 then in April AMC will have a decent argument to the jud=
+ge to the effect of: =E2=80=9CLook, yes, we did this to get around the stri=
+ct letter of the voting requirements, but as you see, even with all the pub=
+licity this has generated, our shareholders never vote. So we are doing wha=
+t we think is best for them and also what a majority of them, as best we ca=
+n tell, actually want.=E2=80=9D I am not <em>sure</em> that a judge would a=
+llow the amendment, in this case, but it would be a bit harsh to stop it.</=
+p></blockquote>
+<p style=3D"margin: 16px 0;">Well that=E2=80=99s what happened. AMC held it=
+s shareholder vote yesterday <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30845777.258426/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVz=
+L2VkZ2FyL2RhdGEvMTQxMTU3OS8wMDAxMTA0NjU5MjMwMzI0MDkvdG0yMzk0OTdkMV84ay5odG0=
+/607f07ceef4b8524a319a23cCca03bcfc" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">and</a>:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">25.5% of the common stock voted to aut=
+horize more shares, 9.1% voted no, 0.5% abstained (like, affirmatively chos=
+e to vote, but marked =E2=80=9Cabstain=E2=80=9D) and the other 64.8% just d=
+idn=E2=80=99t vote.</li>=09<li style=3D"margin-bottom: 5px;">57.1% of the A=
+PES voted yes, 5.2% no, 0.5% abstained and 37.3% didn=E2=80=99t vote.</li>=
+=09<li style=3D"margin-bottom: 5px;">But because of the preferred-stock vot=
+ing mechanic, that meant that 91% of the preferred stock voted yes, 8.3% no=
+ and 0.7% abstained, making for more than enough votes to authorize the new=
+ shares.</li>
+</ul>
+<p style=3D"margin: 16px 0;">AMC <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30845777.258426/aHR0cHM6Ly9pbnZlc3Rvci5hbWN0aGVhdHJlcy5jb20v=
+bmV3c3Jvb20vbmV3cy1kZXRhaWxzLzIwMjMvQU1DLUVudGVydGFpbm1lbnQtSG9sZGluZ3MtSW5=
+jLi1Bbm5vdW5jZXMtUmVzdWx0cy1vZi1TcGVjaWFsLU1lZXRpbmctb2YtU3RvY2tob2xkZXJzL2=
+RlZmF1bHQuYXNweA/607f07ceef4b8524a319a23cB064ca6ef" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">said</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Commenting on the results, Adam Ar=
+on, AMC Entertainment Chairman and CEO said, =E2=80=9CAMC=E2=80=99s shareho=
+lders exercised their rights today to have their voices be heard. They vote=
+d resoundingly in favor of proposals that we believe are crucial to AMC=E2=
+=80=99s future. Shareholders overwhelmingly approved combining AMC common s=
+hares and APE units, with total votes 87% in favor, while significantly inc=
+reasing the capacity to issue additional common shares, with total votes 88=
+% in favor.If implemented, AMC should have an ability to raise a significan=
+t amount of equity capital in the months and years ahead. Winning these sha=
+reholder votes by such a lopsided margin is a powerful vote of confidence t=
+o allow AMC to raise equity capital, reduce debt, strengthen our balance sh=
+eet and continue our transformation.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">And I think it has a good argument in court th=
+at the shareholders=C2=A0<em>did=C2=A0</em>vote in favor of authorizing new=
+ shares, to the extent they voted at all, so the APE mechanism was a way to=
+ give shareholders what they wanted even though the shareholders never vote=
+. Again I am not=C2=A0<em>sure=C2=A0</em>that a Delaware court will allow i=
+t: The APEs kicked off a wave of strange voting preferred stock deals desig=
+ned to get around shareholder voting problems, and the court might reasonab=
+ly think =E2=80=9Cwe don=E2=80=99t want boards of directors to engineer sha=
+reholder votes like this so we=E2=80=99re going to block the APEs.=E2=80=9D=
+ But, again, it would be a bit harsh, because the APEs really do seem to be=
+ giving AMC shareholders what they want.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Isn=E2=80=99t it ironic?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">It is the official position of this column tha=
+t you should never participate in a corporate parody rap video, but can you=
+, on your own time, record an Alanis Morissette parody video about the coll=
+apse of your employer? I mean, I=E2=80=99m not gonna stop you. It helps tha=
+t this <a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.25=
+8426/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_YXBwPWRlc2t0b3Amdj1VRzlQc1c4UV=
+ZfSQ/607f07ceef4b8524a319a23cBd3f8f2a4" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> SVB-themed Alanis Morisset=
+te parody</a> is reasonably funny? And actually a pretty good summary of th=
+e situation?=C2=A0=E2=80=9CIt=E2=80=99s a federal bailout, two minutes too =
+late.=E2=80=9D =E2=80=9CIt's like when you thought that T-bonds were safe, =
+but then Jerome Powell went and raised interest rates. It=E2=80=99s the sha=
+re sale that just didn=E2=80=99t take, so now Elon Musk please buy us.=E2=
+=80=9D</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Signature Bank CEO in 2018: =E2=80=9CIn five y=
+ears a number of banks <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/30845777.258426/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjMtMDMtMTQvd2h5LWRpZC1zaWduYXR1cmUtYmFuay1mYWlsLWluc2lkZS10aGUtb2xkLXNja=
+G9vbC1uZXcteW9yay1iYW5rP2NtcGlkPUJCRDAzMTUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09=
+ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxNSZ1dG1fY2FtcGFpZ24=
+9bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8a8a708e" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">  will not be ar=
+ound</a> because of blockchain technology.=E2=80=9D Patrick McKenzie: =E2=
+=80=9CThe world sits atop four elephants who stand astride <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/30845777.258426/aHR0cHM6Ly93d3cuYm=
+l0c2Fib3V0bW9uZXkuY29tL2FyY2hpdmUvYmFua2luZy1pbi12ZXJ5LXVuY2VydGFpbi10aW1lc=
+y8_cmVmPWJpdHMtYWJvdXQtbW9uZXktbmV3c2xldHRlcg/607f07ceef4b8524a319a23cB1008=
+d867" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">the risk-free rate</a>, and then it is interest rates all the=
+ way down.=E2=80=9D Nathan Tankus: =E2=80=9CAll this nonsense can be elimin=
+ated by simply removing the cap on deposit insurance, and admitting that <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426/aHR0=
+cHM6Ly93d3cuY3Jpc2Vzbm90ZXMuY29tL2V2ZXJ5LWNvbXBsZXgtYmFua2luZy1pc3N1ZS1hbGw=
+tYXQtb25jZS10aGUtZmFpbHVyZS1vZi1zaWxpY29uLXZhbGxleS1iYW5rLWluLW9uZS1icmllZi=
+1zdW1tYXJ5LWFuZC1maXZlLXF1aWNrLWltcGxpY2F0aW9ucy8_cmVmPW5vdGVzLW9uLXRoZS1jc=
+mlzZXMtbmV3c2xldHRlcg/607f07ceef4b8524a319a23cBab361076" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> a bank de=
+posit is money</a>, and should just be treated straightforwardly as such.=
+=E2=80=9D Matt Klein: =E2=80=9CBanks are speculative investment funds graft=
+ed on top of <a href=3D"https://link.mail.bloombergbusiness.com/click/30845=
+777.258426/aHR0cHM6Ly90aGVvdmVyc2hvb3QuY28vcC90aG91Z2h0cy1vbi10aGUtYmFuay1i=
+YWlsb3V0cw/607f07ceef4b8524a319a23cBf9a307bf" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> critical infrastruct=
+ure</a>.=E2=80=9D Fed Weighs <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30845777.258426/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDMtMTUvZmVkLXdlaWdocy10b3VnaGVyLXJ1bGVzLWZvci1taWRzaXplZC1iYW5=
+rcy1hZnRlci1zdmItcy1jb2xsYXBzZT9jbXBpZD1CQkQwMzE1MjNfTU9ORVlTVFVGRiZ1dG1fbW=
+VkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTUmdXRtX2Nhb=
+XBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB2b9933bc" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Tougher =
+Rules for Midsized Banks</a> After SVB=E2=80=99s Collapse.=C2=A0Focus on SV=
+B=E2=80=99s $180mn <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/30845777.258426/aHR0cHM6Ly93d3cudGhlaW5zdXJlci5jb20vbmV3cy9mb2N1cy1vbi1zdm=
+JzLTE4MG1uLWRvLXRvd2VyLWFzLXVzLWFjdHMtdG8tYXZlcnQtd2lkZXItYmFua2luZy1jcmlza=
+XMv/607f07ceef4b8524a319a23cBd87ea6cf" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> D&amp;O tower</a> as US act=
+s to avert wider banking crisis. Ukraine Wins UK Top Court Case Over $3 Bil=
+lion <a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.2584=
+26/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTUvdWty=
+YWluZS13aW5zLXVrLXN1cHJlbWUtY291cnQtY2FzZS1vdmVyLTMtYmlsbGlvbi1ib25kLWRlZmF=
+1bHQ_Y21waWQ9QkJEMDMxNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB48d01bb0" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  Bond Default</a>.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30845777.258426/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB8197a3b0" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30845777.258426/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB439fa4e9" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Here is an <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30845777.258426/aHR0cHM6Ly90d2l0dGVyLmNvbS9UQmFrZ=
+XJCcm9hZG1vb3Ivc3RhdHVzLzE2MzU0MjQ5OTU0Mzc1ODAyOTA/607f07ceef4b8524a319a23c=
+B11cf50b0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> interesting Twitter thread</a> from Todd Baker about ho=
+w the loan portfolio and the franchise relate: =E2=80=9CThe $6.7 billion in=
+ =E2=80=98investor dependent=E2=80=99 loans to Venture-backed startups are =
+the ones that are difficult for national banks to acquire. They are also th=
+e key to the whole SVB ecosystem, including the Global Fund Banking portfol=
+io. =E2=80=A6 The challenge for FDIC in a nutshell: these apparently dispar=
+ate lending businesses are all deeply intertwined. High value to a franchis=
+e buyer, questionable value to a piecemeal buyer. And if a buyer can't to t=
+he earliest stage =E2=80=98investor dependent=E2=80=99 loans, can it hold o=
+n to the rest of the business?=E2=80=9D That is, a small but risky part of =
+SVB=E2=80=99s lending portfolio is making loans to early-stage startups. Mo=
+st banks don=E2=80=99t like to do that, but it=E2=80=99s what won SVB so mu=
+ch of its other business, because venture capitalists wanted to work with a=
+ bank that supported startups.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] The best analyst of this view is probably =
+Dan Davies, <a href=3D"https://link.mail.bloombergbusiness.com/click/308457=
+77.258426/aHR0cHM6Ly90d2l0dGVyLmNvbS9kc3F1YXJlZGRpZ2VzdC9zdGF0dXMvMTYzNTc3M=
+Tc2MDQ3MjcyNzU2MQ/607f07ceef4b8524a319a23cB6ab50e81" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> on Twitter</a=
+> and on Bloomberg's <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/30845777.258426/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIw=
+MjMtMDMtMTQvZGFuLWRhdmllcy1vbi13aGF0LWJyb3VnaHQtZG93bi1zaWxpY29uLXZhbGxleS1=
+iYW5rP2NtcGlkPUJCRDAzMTUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdX=
+JjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/60=
+7f07ceef4b8524a319a23cBd81ade94" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  Odd Lots podcast</a>.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Though wouldn=E2=80=99t that be funny? Fan=
+nie Mae and Freddie Mac were taken over by the government in 2008, they are=
+ still under government control, and I delight in <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/30845777.258426/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMTUvbWF0dC1sZXZpbmUtcy1tb25leS1zdH=
+VmZi1ub3QtZXZlcnl0aGluZy1pcy1pbnNpZGVyLXRyYWRpbmc_Y21waWQ9QkJEMDMxNTIzX01PT=
+kVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09=
+MjMwMzE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBad5b9080"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">  pointing out periodically</a> that that is never ever going to c=
+hange because no one wants it to. What if SVB ends up like that?</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] One reader also argued to me that, instead=
+ of selling the bond portfolio first and then announcing the equity raise, =
+SVB should have gone out to potential equity investors saying =E2=80=9Cwe=
+=E2=80=99ll sell the bond portfolio and probably have a $1.8 billion loss,=
+=E2=80=9D but wait to actually sell it until the equity raise was done. The=
+ theory is that it is better to always be well capitalized than to first di=
+g a capital hole and then fill it. I don=E2=80=99t have a strong view of th=
+e mechanics of that, and I can see the appeal of SVB=E2=80=99s actual rip-t=
+he-Band-Aid-off approach, but it didn=E2=80=99t work, so.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] There is another complication here. Most e=
+quity offerings are priced at a discount of a few percentage points to the =
+closing price of the stock. If SVB had quietly done a deal after the close =
+last Wednesday, what would the right price for the deal have been? The stoc=
+k closed on Wednesday at $267.83, it closed on Thursday at $106.04, and it =
+never opened again. If SVB had tried to quietly line up investors after the=
+ close on Wednesday, it might have offered the stock at =E2=80=A6 $250? And=
+ the investors might reasonably have bid =E2=80=A6 $100? Less? There=E2=80=
+=99s a big bid-ask in a rescue financing, is the point here. Obviously this=
+ is a problem that gets solved somewhat frequently in rescue financings, bu=
+t it does make things hairy. SVB's approach of announcing the deal publicly=
+ did, in theory, allow the deal to price based on how the stock actually tr=
+aded.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Like, 3.6 times 0.9% times $21.4 billion i=
+s about $690 million, though I am ignoring what I assume is negative convex=
+ity on a largely mortgage-y portfolio.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] On page 327 of the report Credit Suisse no=
+tes that the purchase price for the Klein Group is $175 million and the fee=
+ under the engagement letter was $10 million. Also I say =E2=80=9Ca member =
+of its own board,=E2=80=9D but technically Klein stepped down from the boar=
+d on Oct. 27, the day he was hired as an adviser instead.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBb6ec6da2" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB9d816da4" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBff62a543" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBaee1a79f" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB48712b61" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30845777.258426/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC2874ebd6" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30845777.258426/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBae4ea607" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30845777.258426/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBd6868384" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBc=
+2f241ab" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30845777.258426/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB4=
+95c2fd2" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cid4r5.5jei/085731ef.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_21879108_801277559.1678901633187--
+

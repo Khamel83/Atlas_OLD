@@ -1,0 +1,2541 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:d923:0:b0:19f:10ea:7f7a with SMTP id v3csp1788741lkc;
+        Thu, 24 Feb 2022 05:58:17 -0800 (PST)
+X-Received: by 2002:a5d:6d0d:0:b0:1e8:7b6a:38e7 with SMTP id e13-20020a5d6d0d000000b001e87b6a38e7mr2331778wrq.625.1645711096881;
+        Thu, 24 Feb 2022 05:58:16 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1645711096; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=jqAJFqxyRB6SP0I9VCtKQjyg1Twrd3ezqmxwwFTzwdZskcIkHOBmGWJ2G7eCHmsTJJ
+         0vZBJI7eXzrdw9Qgd0aGKDJZBORADiAyLrlIEwLumYrYTO7jDco3bODkThEsj00GxztV
+         bGnU7kXT+jTunHhV7xWqsn97MQwQ3GD7l5WB77Fxwq6X3LV8kiLfRuCZG7noWvG8m6na
+         7Ec5gQJGxmwk5gS6T0SQ5ZOIFHcgOt3z9RS7hHjuRFr/Bd1L3mb/hKfQuLyg6bPz4Mq2
+         87MoL1D/wcbv6Uy7bOqthIpu2Sh6sjQnvFDhY0U6Jj0xU4mX6IGxRm20+dGW0UG3+yCf
+         XErA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-archive:in-reply-to:date:sender:list-owner
+         :list-unsubscribe-post:list-post:list-id:list-url:list-unsubscribe
+         :reply-to:message-id:references:to:from:subject:mime-version
+         :dkim-signature:delivered-to;
+        bh=sjfh53uMPxV5/qmvrlK29Q9/pkVJxlEjb3H/P1hIfzs=;
+        b=qWmoTy7Df2wv5EwxlSm6/7jz7flbitCsPdwrS7hw/FKslx8dr7V5X38o49xFq1o0H3
+         asLAoZLcWvl6iV3D8nH4+DJpAchvW7tgNe37ynpctA0vv3fxhx5TBnxD50EtCYrJivVl
+         tEofgBOu/n4dSGALOnq1d0Fyvm9hvIvxhxS+KSJ+lWQWS/Oi9fQ8UvAvW1OnpGX4n/fa
+         93g2YZJnrwPPcf0DxnBulktEehNWuC7EJvZK0CSR59JqRi9lxYS5Zj0MdxsAhM2aK4aM
+         7I7yjBHn593gZReoCTUzsng7jggBS5PV0pSEdspzD4H5n3cFRwSJBRPWwe3+ru/dmHZs
+         JxwQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=winENUyE;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i10sor1211385wmq.1.2022.02.24.05.58.16
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 24 Feb 2022 05:58:16 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=winENUyE;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:mime-version:subject
+         :from:to:references:message-id:reply-to:list-unsubscribe:list-url
+         :list-id:list-post:list-unsubscribe-post:list-owner:sender:date
+         :in-reply-to:list-archive;
+        bh=sjfh53uMPxV5/qmvrlK29Q9/pkVJxlEjb3H/P1hIfzs=;
+        b=1IJIPHX4xt2GMsYgGHDy3F7j/uoe4WRfcY4/lcBR68dco2SEJpqX6qVIyEN5bAIrMf
+         dcGk5uE0HynnE8QVWQVsjlI31QzjrbbANDPqmMn2hQYrQb+G5NOCm3iStgw1fAXS1+9/
+         WuW2JAU/F0yE7nIM+gyDxJ8QxiADi48pm8bYMqeGsEtpc85I7M39EQ46rIr/acOeLSvk
+         DUTmBfv5YLFdLavKOFO83xSHez6YanMLJOiiwuvE/DWE+RgBbgyow5SaaM/DQwjurpR5
+         RmcPlbmvNT249IzJJUc8NvV5UhiSEEVmEjI3JG1ZchZQQFNluBAhSvLLK3mPB4EidKDj
+         WHRg==
+X-Gm-Message-State: AOAM530tASS2tISj5mmcpz0DjpAtI77p3DpAaGlOHMSoPQyd1BTe8Wa/
+	yyqy3EDHRVTAH4GWNC66uYHN432dAy7PK7rgJLdxI2sj9aRdHbIviw==
+X-Received: by 2002:a05:600c:3d06:b0:37b:f831:2a98 with SMTP id bh6-20020a05600c3d0600b0037bf8312a98mr2423781wmb.36.1645711096469;
+        Thu, 24 Feb 2022 05:58:16 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:4d51:0:0:0:0:0 with SMTP id a17csp1130021wru;
+        Thu, 24 Feb 2022 05:58:13 -0800 (PST)
+X-Received: by 2002:a92:c691:0:b0:2be:8eab:9f7d with SMTP id o17-20020a92c691000000b002be8eab9f7dmr2513031ilg.26.1645711093416;
+        Thu, 24 Feb 2022 05:58:13 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1645711093; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=xMPR0kwmDs++maN2LM+6WWEUgXl6LUeOt+9WeUhydD+QiZ2pzxV38dn6Zjm9dLORHs
+         rhvGBlMpSbvMnwwqJW9TbCYfcehVWOHt6c+01VNfCGc2xIXxJFvtMU9HJ0fss++qWs3k
+         VZ0sNMwRbICmRizGVeQfgMr6Dy86NnA9xQi/K2VowGZvOGhZSyPw0eqFrXqUGWFQIdZD
+         qbnrt61BBxJtSB3yKKuxWAJMnQYnQ3bnupBDeLq5jY79DnJ3TwTxedg+w92UwBDgCsfm
+         COJddtnKCX9CctDaBgJURsW2GCNiTxCcbtkWbVrWkih9R+UmOk7BNN79VMz3GIPs6UUE
+         Yqbw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-archive:in-reply-to:date:sender:list-owner
+         :list-unsubscribe-post:list-post:list-id:list-url:list-unsubscribe
+         :reply-to:message-id:references:to:from:subject:mime-version
+         :dkim-signature;
+        bh=sjfh53uMPxV5/qmvrlK29Q9/pkVJxlEjb3H/P1hIfzs=;
+        b=c0gQ11SUfOiyb4espVWKlJywGUYCQ8NJOTXQjaB+PPM8XvrZBQmgHqdr8DEvkrSjVI
+         +e84Hz1RVTq1MAkVtlrz9gxCKFvc6NHGEaJ1yTIuHQ7UPp83CW0Eod+AwVqnBCTwc2tY
+         Vz4FddNdh3C1i0ItaZ4nlu39HaoGvRMR/Fo4XznlpN/3pVa+R8MZSBfEos/PeiHS1NtR
+         9p7Kt8wWDP5XEnlckMg9h0nzUgApBaPZ5a0YBTswoXa/lPcLMqsM/3jdI3bTkVvL51Ab
+         aMdE15yeO2S2u9lrOp3opZtGQCIRxokUdaxNK/n/UqwV5hdDBTqV28me3nnHu0N7SRpl
+         /GiQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=winENUyE;
+       arc=pass (i=1 spf=pass spfdomain=mg2.substack.com dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j5sor822185iom.31.2022.02.24.05.58.13
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 24 Feb 2022 05:58:13 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwgGYIMvRobHMUwtiGOHCHTNOPAokbLk9E+yXLSI4c57GxpoPFAQtAjvYhgQUfBzQv94AujMgLjjwzNypQGiXmf4+5sz+8=
+X-Received: by 2002:a5e:8714:0:b0:641:600f:8778 with SMTP id y20-20020a5e8714000000b00641600f8778mr2042877ioj.31.1645711093092;
+        Thu, 24 Feb 2022 05:58:13 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1645711093; cv=none;
+        d=google.com; s=arc-20160816;
+        b=RyFMQKcnhAQ6k2Pd35Dsmr4Sokn/V1cGjN0bOYGMAK1ufNPGT2JcvXGwu/JMLHwdsF
+         xXZFFuFir3hlgNoKVV+uP4ajDYVTLYWjUzpQRdHlZOr5usWBx/U4HGvIaUMSm61VKR7f
+         by6j7Mp33IbnY/yIqyRDvbTJo3N/Ac5ZMBjrggNO//OByRKUvVR7VibtXeDUj24s04NE
+         KQVaT6XOL2n/IpV2D/MhGvIVq40J5YcLnpXLg3VpfTryik4G17y0VJxpl0qJ2SZOmM8V
+         BLFIZTBh84HXZgMnichHIE5O8D97zR622jL3ZmTfQHflhMfRBrPXLP4uHg53Liwh/M4N
+         YJqQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-archive:in-reply-to:date:sender:list-owner
+         :list-unsubscribe-post:list-post:list-id:list-url:list-unsubscribe
+         :reply-to:message-id:references:to:from:subject:mime-version
+         :dkim-signature;
+        bh=sjfh53uMPxV5/qmvrlK29Q9/pkVJxlEjb3H/P1hIfzs=;
+        b=EP6mZOjeAF2HCOLaLALTrS/10mATbrqOUwkhKVZD81Mx8rwT/x4qprnfVzcMuAT4MB
+         dELuJFhZFC1C65qHM26yZbhlr9N65VuhSgxNY79zOSFlFvk0Bov8ry+zWJKF70ceLnVs
+         iDypUZ9SKkLKthmG5thYTS+bh8G+abdfjgRzGo/rOaaEDtNotwi72aeuNdD5aWbaNqbM
+         CPwMaa7ZycviAnIe/O07sYA0nJ3LweVW0e5QqW+EBBj16o/iBdy2G7v+X38CP6vNQqxH
+         W0v5scKve8/sKll3244F4SmslxgPjowK/2c+RcPyeXqu9OojBJhQV1JNXsfJQd73RF61
+         O0NQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=winENUyE;
+       spf=pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 159.135.228.155 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mg-228-155.static.mg2.substack.com (mg-228-155.static.mg2.substack.com. [159.135.228.155])
+        by gmr-mx.google.com with UTF8SMTPS id x8si377236jaf.7.2022.02.24.05.57.59
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 24 Feb 2022 05:58:13 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 159.135.228.155 as permitted sender) client-ip=159.135.228.155;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg2.substack.com; q=dns/txt;
+ s=mailo; t=1645711092; h=List-Archive: In-Reply-To: Date: Sender:
+ List-Owner: List-Post: List-Id: List-Unsubscribe: Reply-To: Message-Id:
+ References: To: From: Subject: Content-Type: Mime-Version;
+ bh=sjfh53uMPxV5/qmvrlK29Q9/pkVJxlEjb3H/P1hIfzs=; b=winENUyEjtpbSP9ukpJSz/IosLtmKy152fzi5Yw3n2i864oCbBc4LcCapJcqV/xoagP1ojNq
+ /EMFGDzQWr9PaSnCAf033X934LJNbvzfRNHAlTCVxwVEISXOvU5XeVIx4sCbpzTinmXRnkES
+ Uka/KzN5c36xpZ8mYKC40GtKJto=
+X-Mailgun-Sending-Ip: 159.135.228.155
+X-Mailgun-Sid: WyIyZDMzMyIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICI0ZDE4NTgiXQ==
+Received: from <unknown> (<unknown> []) by
+ api-n10.prod.us-east-1.postgun.com with HTTP id 62178ebcdc205fd237de71d0;
+ Thu, 24 Feb 2022 13:57:09 GMT
+X-Mailgun-Batch-Id: 62178eb518892df15f5a9c69
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="f1d36df0933a458195292ab63763b027200f12ffcb94483e8825ae783a4d"
+Subject: Wrangling Venture Entropy with Standard Metrics
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+References: <post-49284881@substack.com>
+Message-Id: <20220224135656.2.9c22d654b410751b.qs46lwl7@mg2.substack.com>
+Reply-To: Not Boring
+ <reply+tccgh&9p0gt&&3245a7c5f96845157b7e42b1c7cd9cf0444ce083ee034177d9539092e9da4355@mg1.substack.com>
+List-Unsubscribe: <https://www.notboring.co/action/disable_email/disable?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NDkyODQ4ODEsImlhdCI6MTY0NTcxMTAyOSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoiZGlzYWJsZV9lbWFpbCJ9.6qSbXEU0tg5g0nsaSd7sO1MWUn6BOfhg_JLGg9DgRX8>
+List-Url: <https://www.notboring.co/>
+List-Id: <notboring.substack.com>
+List-Post: <https://www.notboring.co/p/wrangling-venture-entropy-with-standard>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Owner: <mailto:notboring@substack.com>
+Sender: Not Boring <notboring@substack.com>
+Date: Thu, 24 Feb 2022 13:56:56 +0000
+In-Reply-To: <post-49284881@substack.com>
+List-Archive: <https://www.notboring.co/archive>
+X-Mailgun-Variables: {"category":"post", "email_generated_at":"1645711029410",
+ "is_freemail":"true", "post_audience":"everyone", "post_id":"49284881",
+ "post_type":"newsletter", "pub_community_enabled":"true",
+ "publication_id":"10025", "subdomain":"notboring", "user_id":"16283549"}
+
+--f1d36df0933a458195292ab63763b027200f12ffcb94483e8825ae783a4d
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://email.mg2.substack.com/c/eJxFkEGOhCAQR=
+U_T7DSAgLhgMZu5hgEplTSCA9jG2w_dJjNJhUp-5eeFN-kCS0yX2mMu6P2M5dpBBTizh1IgoSND=
+Gp1VRFDZcTYgq5glkkvk8jgngE07r0o6AO2H8W7SxcXwaWBMOVrVzHqBmTE9YEm7TusZC85nJoe=
+-Fxqzm6sP6yBMoOAF6YoBkFdrKXt-dF8P-l3nPM82xGJicmFpp1ij_R0nHRZfo-YFoRwJmrpS3K=
+_mdGVtctHB6mSRUxTT9zDSccFFS9thotQKzgwjuOfEtD-ZCX_6_sHwttA2H6bWp2eFbSipP3g9P=
+1e9gf8c6rfHurcjuHKNELTxYG8j5Rb7cTQuECBV4XbUpepkvCcE06GybwNVGRuoZFISVMk21lb4=
+h_4CwxORDA
+
+Welcome to the=C2=A01,033=C2=A0newly Not Boring people=C2=A0who have joined=
+ us since last Monday! Join=C2=A0105,562 smart, curious folks by subscribin=
+g here:=20
+=F0=9F=8E=A7=C2=A0To get this essay straight in your ears:=C2=A0listen=C2=
+=A0on=C2=A0Spotify [https://email.mg2.substack.com/c/eJxFkctq7DAMQL8mXgY_81=
+h40XYoXNrLpY9NV8GOlYwZx861nU7Tr69nZlEQEkiII45GlWEOcZdrSBld0pD3FaSHc3KQM0S0J=
+YiDNZI0tGOC98hIbkgnOmTTMEWARVknc9wArZt2dlTZBn_dwJgKdJTa4EZjglvaYWzEROikWNdz=
+oSY26bG9cdVmLPgRJHxC3IMH5OQx5zVV7K6ijyXCCr5Oa8h22usxLKWVjuFcSnMiH8_3n_9eX__=
+uIT3t7It8_XEVe0y2YofDunP78NS-CPpGnjkj3-kdz8hKiuklOGGiEU1N636k1DSCa16uFUTX_x=
+Nv3Nm1FcfLTOu06ZTVeLrQUZQ-ZB2i9XMZn45qAXcdFA1Dqcvmbd4H8Eo7MDdD-Sb66myYwUMsD=
+zCDykUvFy0hmPaFfTNSFPKedrzrCCpkE8qW_4X-AKBVk14] or=C2=A0Apple Podcasts [htt=
+ps://email.mg2.substack.com/c/eJxFkEtuxCAMQE8z7BoBgYQsWHTTa0R8nAwqgRScjnL7M=
+pNKI1kYbNlPPGcQ1lxOveeK5HnMeO6gEzxqBEQo5KhQ5uA1G7jqpZiI18IzJRUJdV4KwGZC1FgO=
+IPthY3AGQ06vCUq5JHc90YlRJWi_LJQrJ9ziRjCWOWNhGRZ2cc3hAyQHGn6hnDkBifqOuNdb_3n=
+jXy327J2pWDuz7xE6l7dWPOq7024p44fNJaS1PYJnko-Cs6lnJGhO-TME6-Ugh453k-PcD1JYwe=
+gome1-qhjiI443QbeVd_WwFY37fqJI0W33_2pBv-9mg_hqtF_PLW9HCnjOkIyN4C8heHl9KZpXS=
+FCabz8bbDaFHBmjfGrsS0AzJiauhFKMNLLPbSq9oX_b4Y6S]
+Hi friends =F0=9F=91=8B,
+Happy Thursday!
+One of the most frequent topics in Not Boring is the extraordinary growth o=
+f venture capital. More dollars invested, more funds, smaller funds, bigger=
+ funds, decentralized funds, global funds. The space fascinates me endlessl=
+y.=20
+All of that growth in every direction means that the venture landscape has =
+gotten a lot more complex. There=E2=80=99s an opportunity for new companies=
+ to help make sense of it all.=20
+That=E2=80=99s where Standard Metrics comes in.=20
+Today=E2=80=99s post is a Sponsored Deep Dive on a company that I invested =
+in through Not Boring Capital. As always, I only write Sponsored Deep Dives=
+ on companies I would invest in, and in most cases, I actually have. You ca=
+n read my thought process on deep dives here [https://email.mg2.substack.co=
+m/c/eJxFkU1rxCAQhn9NPIZoNCYHD4W2lH5dCqU9BaOzWVmjqR9d8u9rNofCOCMzvPPKo5IJZh8=
+2sfqY0J7GtK0gHFyjhZQgoBwhjEYL3JG-ZXRAWlCNe9YjE8dTAFiksSKFDGjNkzVKJuPdTdE0hK=
+Gz4KCpUpwPuKNMyhYmjhUHelJqIO2pOXxl1gacAgG_EDbvAFlxTmmNVXtXkccS2qtYz97PFmrll=
+6OTF3Bpv5aDXwjVdy_swl-f8vdbfH7bNJHq_uPn2k8P-nkZV2U-w_L5_rWvBG1S1T7muFbtfTzL=
+YNyMjCAN2YPilnWsq0k9KEJ0x-hEccMZnuqfSDt7tbyizTKTOuYpJqku-6NQEM6nye-7yvhylgv=
+Y26DAGUtdsjNpG8HJyYI-uKUD_43kOIODUL5FjzKJnRjHuCFD8T44FbB0ID3te4yKs_ZF5f5N_w=
+ARhJwh]. I=E2=80=99ll always disclose my conflicts. No conflict, no interes=
+t.
+Let=E2=80=99s get to it.
+Wrangling Venture Entropy with Standard Metrics [https://email.mg2.substack=
+=2Ecom/c/eJxFUtGuojAQ_Rp5k9DSIjzwcCPqYkSz=
+u6567wspbYVqKViKXPz6rZrsJpNOcqZzTmbO=
+UGJ42egxbpvOOM8nN2PLY8WHTnJjuHb6jutcsBgEMPQxihwWIwZCHDqiy8-a85oIGRvdc6ftCyk=
+oMaJRrw7Pg9ip4gIXJGIBOaMIR4SGmEJYBGdAyJlw7AVvXdIzwRXlMb9zPTaKOzKujGm7if8xgU=
+sbwzC4qjFFo4UqXdpYqH3CmqhSWmh658r0mk9t0k07TgdhqmlniGJEs4m_NM2Vq4mf8HENKDyMJ=
+yiv6aX53l5SlD3-eLvfg6Cr6MGWUfs1T4Ntch13yU-0SxZdWsuKWSzbf3rbPf3O9h_j8z85bR-W=
+Q9AfB7HZL4YsSUEqLI9_EC_8yTcH49dxeWEreS_EOnI7eGrn5fRzcyvXq9tiukmGHCw2wPw6FRd=
+60FlyPNzyqNocM0fE0IPPQMDHAQ5c6EZ2gSzAqEDAm2FQuLcOBXKQswny6hK6XV_YqenV7qh2dP=
+xvZ7Z8rUjN5atg3cptrnslzJhzRQrJ2dtI876Hl7V5yRXX9k5YToy9AoRnAHgwstpv46zTKIIhC=
+kPgWGXW2C71X_QvHMHP7A]
+(You can click this =F0=9F=91=86 to go read the full thing online)
+Every few years, there=E2=80=99s a new *thing* that=E2=80=99s going to chan=
+ge the face of venture capital investing as we know it. AngelList, ICOs, cr=
+ossover funds, solo capitalists, crowdfunding, CartaX, Capital-as-a-Service=
+=2E Most of them boil down to a few questions; how can we:=C2=A0
+Increase liquidity in the private markets?
+Improve capital allocation and pricing?
+Expand access to the asset class?=C2=A0
+Make sure the right things get funded as efficiently as possible?
+Which all boil down to one question, really: how can we get the private mar=
+kets to behave more like the public markets?=C2=A0=C2=A0
+In terms of size and activity, the private markets, and venture capital in =
+particular, have been growing at a torrid pace.=C2=A0
+In 2021, venture capitalists invested $329.6 billion into startups across 1=
+5,500 deals=E2=80=A6 in the US alone. Those numbers are so large as to be p=
+ractically meaningless, so a visual comparison to previous years might be h=
+elpful.=C2=A0
+The $329.6 billion invested in 2021 was just a hair short of doubling the a=
+ll-time record=E2=80=A6 set in 2020. The two most active years before that =
+were 2019 and 2018. There hasn=E2=80=99t not been a new record set since 20=
+16.=C2=A0
+While the market has tightened a little in the growth stage, following publ=
+ic markets and the specter of rising interest rates, the pace in the market=
+ as a whole doesn=E2=80=99t seem to be slowing down. Big funds are raising =
+bigger funds [https://email.mg2.substack.com/c/eJxFkMuOhSAMhp_msDSCILJgMZt5=
+DYNQlRwEB-oY337wuJikaSG9_O1nDcKS8qX3VJDcbsRrBx3hLAEQIZOjQB6907RnQye4Ik5zRwc=
+xEF_GOQNsxgeN-QCyH1Pw1qBP8dPRtkyQVRvZyllY1btZMjXPtpPcCd7NE5VzR-mjaw7nIVrQ8A=
+v5ShFI0CviXl7d14t9V8PT3xs1Nm31V1bjlzuiwaPUB-WKD0wKxZVqGaWtZMRr1rLbOO1EL_qGN=
+coy5nrBJ14rBJ2an8L7cAb54u22sKYcUx1p37cMyTomnFL2canp92o2CJ9EPXWscTuix2uEaKYA=
+7qGAD8wPl3GBCLlCdqPBipALWRdjqmo_V1dMXLGBDwMlVdml2hX_Rf8A8WKI3Q] and there a=
+re more small funds, solo capitalists, and syndicate leads investing more m=
+oney than ever. As one proxy for the latter, AngelList, which hosts smaller=
+, newer funds like Not Boring Capital, now supports over $10 billion in ass=
+ets, 10x higher than it supported in 2019.=C2=A0
+Venture capital has come a long way since there were a handful of firms on =
+Sand Hill Road investing into a handful of companies each year. Now, ventur=
+e firms are everywhere and come in so many flavors Baskin-Robbins would blu=
+sh. And each venture firm backs somewhere between a dozen and a couple hund=
+red startups, from all around the world, in all stages of maturity and indu=
+stries and levels of operational sophistication and, and, and. You get the =
+point.=C2=A0
+The startup ecosystem has jumped from a lower state of entropy to a higher =
+one.=C2=A0
+There=E2=80=99s no going back. Since the start of COVID, with more money fl=
+ooding the market and more deals happening more quickly over Zoom, the vent=
+ure market has jumped to a higher state of complexity. Very valuable compan=
+ies like AngelList, DocuSign, and Carta (recently valued at $7.4 billion) h=
+elp to wrangle some of that entropy with software. But there=E2=80=99s stil=
+l a big infrastructural puzzle piece missing.=C2=A0
+The private markets need standard metrics.=C2=A0
+So, the private markets need Standard Metrics [https://email.mg2.substack.c=
+om/c/eJxFUEGOhCAQfM1wNIKgcOCwl_0GQWgdMggutDvx98voYZNKd9KV6kqVswhrLqfec0XyGQ=
+bPHXSCd42ACIUcFYoJXtORyUFwRbzmnkohSahmKQCbDVFjOYDsxxyDsxhyuhR9zwR56oXPTDrlO=
+dhlAS_GnlE6KKfENFEH9va1hw-QHGj4hXLmBCTqJ-JeH8PXg303VLTJ2-I3wBJc7UJuRxI069kH=
+nA5iFGPHOuUY86PgM6f9JOjc_VQ-xnecHrzfVtbVY26_3KtzeSNFp4xzLiGtjX497QbxIloa0_Z=
+2pICngWTnCP4OindfV3SzQoLSevTGYmuJi4nSnqnmfQdrTXDFJJeSkubsc1Olf9M_EuaCNg].
+Standard Metrics=E2=80=99 goal is to build a data and relationship graph fo=
+r the private capital markets.=C2=A0
+That=E2=80=99s a deceptively tricky goal to achieve. Others have tried and =
+failed to build a =E2=80=9CBloomberg for the Private Markets,=E2=80=9D one =
+resource to provide the same level of information and transparency to the p=
+rivate markets that public market investors have access to.=C2=A0
+But Standard Metrics is starting with a more bite-sized ambition: get VCs t=
+o use its product to track the handful of metrics that matter most for thei=
+r portfolio companies, like Cash in Bank, Revenue, Monthly Burn, and Gross =
+Margin.=C2=A0
+Win the VCs, the logic goes, and you can win their portfolio companies and =
+their LPs, all of whom come with their own set of VC relationships, each of=
+ which come with fresh portfolio companies and LPs. When the spark catches,=
+ it can spread like wildfire.=C2=A0
+VC to Portfolio Company. Portfolio Company to VC. VC to LP. LP to many VCs.=
+ Many VCs to Many LPs and Portfolio Companies. Slowly at first, and then su=
+ddenly, you become the standard.=C2=A0
+To help set the standard, today, Standard Metrics is announcing a rebrand f=
+rom Quaestor to Standard Metrics and a fresh $23.7 million Series A led by =
+8VC, which incubated the company in 2020, with participation from Spark Cap=
+ital, Slack Fund, Fin VC, Alpha Edison, Kindergarten Ventures, First Trust =
+Capital Partners, January Capital, and Not Boring Capital, among other fund=
+s. Individual investors include a16z=E2=80=99s Sriram Krishnan, Bain Capita=
+l Ventures=E2=80=99 Merritt Hummer, Quiet Capital=E2=80=99s Morgan Livermor=
+e, Meritech=E2=80=99s Craig Sherman, and Redpoint=E2=80=99s Medha Agarwal. =
+(Actually, it was $3.7 million in notes and a $20 million Series A. Precisi=
+on around metrics is important!)=C2=A0
+When you build for VCs, your customers can also become your investors, and =
+your investors can become your customers. That=E2=80=99s true here.=C2=A0
+The hard part is: to set the standard for an industry, you need to win over=
+ most of the industry participants. Standard Metrics will need to displace =
+incumbents and stand out among newer companies that look like competition o=
+n the surface. Getting that right requires the right timing, the right team=
+, and the right strategic bets. So today, we=E2=80=99ll cover:=C2=A0
+Entropy Wrangling
+The Quaestor Quest
+Standardizing Metrics
+VCs as the Target Customer
+Building the Private Markets Platform
+The timing couldn=E2=80=99t be better. Venture is in need of an Entropy Wra=
+ngler.
+Entropy Wrangling
+In July 2020, the same month that Quaestor announced itself to the world, I=
+ wrote one of my thinkpieciest thinkpieces: Entropy Theory [https://email.m=
+g2.substack.com/c/eJxFkE1uxCAMRk8z7BoBASZZsJhNrxHx4yZoCKTgNMrty0ykVjIgYdlP3=
+3MGYc7l1FuuSF7XhOcGOsFRIyBCIXuFMgWvmeJDL8VIvBaeDXIgoU5fBWA1IWosO5BttzE4gyGn=
+9wSlXJJFU9Y7OwKTpmejFUJw6oxT1nLVczfYi2t2HyA50PAD5cwJSNQL4lZv_ePGP1sdx9GljDa=
+XkObO5fa1tQMJS97OD1ygJSFBc8pfJVgvlVQd70bHuVdSWMHoXTLbfVeh4hHvN0HXmXd1txWNe7=
+adKyn6j9Haz8WsEN-Nlm5q77qngOcEydgI_gqOl7-3immGBKV59ZPBZk3IO2OUj419BW1mxMgHM=
+QyMNLLPbSr9Q38BVMiHsA].=C2=A0
+Look, I was new to writing newsletters and Ben Thompson was a big inspirati=
+on and I wanted to name my own theory, too. It was a little presumptuous. B=
+ut I actually think the idea holds up.=C2=A0
+The main point of the essay was to add direction to the Jim Barksdale quote=
+: =E2=80=9CThere are only two ways I know of to make money: bundling and un=
+bundling.=E2=80=9D That always felt Sisyphean to me. =E2=80=9CWe=E2=80=99re=
+ not just bundling and unbundling,=E2=80=9D I wrote, =E2=80=9Cbut unleashin=
+g energy, organizing it, and then unleashing new energy on the next thing.=
+=E2=80=9D=C2=A0
+An industry is in status quo. Some force or forces come along and shake thi=
+ngs up, unleashing new energy and creating constructive chaos. Some company=
+ comes along and creates order from the chaos, at a higher, more advanced s=
+tate. I called that company an Entropy Wrangler. The Entropy Wranglers capt=
+ure a lot of value, and they themselves create a platform for more entropy,=
+ and then new players come along and wrangle that entropy.
+Think about the music industry.=C2=A0
+Napster and other file sharing services wrought chaos on the market; Spotif=
+y worked with all of the parties involved to bring order to the chaos. Toda=
+y, it=E2=80=99s worth $29 billion.=C2=A0Spotify made it easier for more peo=
+ple to publish music =E2=80=94 higher entropy =E2=80=94 but it=E2=80=99s ha=
+rd for most of them to make a living. That creates an opening for a new Wra=
+ngler, maybe a Music NFT platform like sound.xyz [https://email.mg2.substac=
+k.com/c/eJxFkEtuxCAQRE8zLC3AYOwFi2xyDcSn40GDwcMnjnP6MONFpFa3WqVS6ZXVFdaUT7m=
+nUtFrqXruICMcJUCtkFErkJV3kkx0HjlbkJPMkZnPyBf1lQE27YOsuQHamwne6upTfDswphzdpQ=
+ZsjKOMzowYIUbOhdDOCuCOWzD8ytXNeYgWJHxDPlMEFOS91r3cxo8b_exzHMdQUotu-Dl_-4-8p=
+Ji-hpGRT3wa6LBYSt3EmWEEC07M8CxsCkcQN4a3lQ6lmVK1fQw2bSjLmKpJ2ce1y4-73iC8hQ6i=
+-t1a9PVUELUJ4C7GelX1plYrRMi9Qqd07QUxLgjBdOnZF1MvgS0de54J6skudVf8D_0DN1-AMw]=
+=2E z
+It doesn=E2=80=99t have to be that dramatic. An Entropy Wrangler doesn=E2=
+=80=99t have to save an industry from decline. Google, for example, took ad=
+vantage of the good chaos created by the internet=E2=80=99s rapid growth by=
+ building a tool that made sense of it all. It set the standard, and league=
+s of SEO specialists fight to follow it. In the process, it indexed itself =
+to the growth of the internet. That=E2=80=99s been kind to Google sharehold=
+ers.=C2=A0
+That=E2=80=99s the kind of Entropy Wrangler Standard Metrics is building, b=
+ringing order to the chaos and opportunity brought on by the growth of vent=
+ure and web3 investing over the past couple of years. In the process, it ho=
+pes to become an indexed bet on the growth of private market investing.=C2=
+=A0
+The Quaestor Quest
+So the timing is perfect. How about the team?=C2=A0
+They=E2=80=99re intimately familiar with the problem.=C2=A0
+Before there was Standard Metrics, there was Quaestor. And before Quaestor,=
+ there were spreadsheets. Lots and lots of spreadsheets.=C2=A0
+Very often, venture capitalists fund people who are trying to solve a pain =
+point in their personal or professional lives. Occasionally, VCs spin up th=
+eir own companies =E2=80=93 called incubation =E2=80=93 by identifying a ho=
+le in the market with no solution and bringing in someone to lead a company=
+ to fill it. It=E2=80=99s very rare to find stories about the overlap in th=
+at Venn Diagram: VCs incubating companies to solve their own pain points.=
+=C2=A0
+That=E2=80=99s how Standard Metrics began its life as Quaestor, inside the =
+walls of 8VC. The venture capital firm=E2=80=99s partners realized that the=
+ companies in their portfolio, some of the most technically sophisticated i=
+n the world including Anduril, Asana, The Boring Company, Cityblock, Flexpo=
+rt, Oculus, Palantir, and Wish, were still updating them via spreadsheets (=
+at best) and PDFs (yuck), and that there might be an opportunity to fix tha=
+t with software.=C2=A0
+According to the company=E2=80=99s announcement post [https://email.mg2.sub=
+stack.com/c/eJxFkdGOgyAQRb-mvGmEguIDD_uyv2EQRkuqYGHYxr_faZvNJgOEuRnuzcFZhDX=
+l0xypIHttE54HmAjPsgEiZFYL5Cl4w3uhr0qOzBvpuVaahTItGWC3YTOYK7CjzltwFkOK74muE4=
+rdzOhhEX50SoGV9Aa4xelBKrEsbhC9-_ja6gNEBwZ-IJ8pAtvMDfEol-vXRXxT7eBD3VuX9tddd=
+o9qoWDKCO5GHRtjqtGFuDZ_SmkKgG8y9X1jaXkoYY3NYTNGIHnRHqQeleUaWDCiE6-S_Kp61bei=
+HZ0QvldylrwbFJ_bR5H99twGst9X0ZY6F7Tu_grFsokJ55QpAcn3m91hewvEZaJzrzHgOUG08wb=
+-gww_5N8QpxUoFP2InywSb6kGzjsxkvcHETGVo9BSa87I2Seaiv-mv50rnPw] in July 2020,=
+ =E2=80=9CQuaestor was born from a simple question: why is it so difficult =
+for startups and investors to collaborate around financial data and busines=
+s metrics?=E2=80=9D
+I=E2=80=99ve had this experience first-hand from both sides of the table, a=
+nd it=E2=80=99s a surprisingly real problem for something seemingly so simp=
+le.=C2=A0
+At Breather, we tried a bunch of things to keep our board members up to dat=
+e on metrics, from the standard monthly investor update and quarterly board=
+ deck =E2=80=93 which I=E2=80=99m sure some junior person on their team had=
+ to put into a spreadsheet =E2=80=93 to operating models to an investor das=
+hboard in Looker. Inevitably, that Looker got bloated with different reques=
+ts for specific data points or some investor=E2=80=99s favorite metric base=
+d on their experience with another quasi-analogous company. It was also as =
+certain as death and taxes that an investor would see a number, take it out=
+ of context, and blow up its importance, wasting hours of the exec team and=
+ data team=E2=80=99s time.=C2=A0
+As an investor =E2=80=93 albeit a non-lead one usually without data rights =
+=E2=80=93 I=E2=80=99m at the mercy of whatever founders decide to put in th=
+at month or quarter=E2=80=99s update. Key metrics change often, companies r=
+eport things differently, and all of that information is squirreled away so=
+mewhere in my inbox until I take the time to manually move it from email to=
+ Airtable. It makes staying on top of portfolio companies=E2=80=99 performa=
+nce a bigger challenge than it needs to be.=C2=A0
+On the individual level, it=E2=80=99s a pain. At the system level, it=E2=80=
+=99s a huge drain of time and resources:=C2=A0
+Companies spend too much time pulling together numbers for investors.=C2=A0
+Investors spend too much time manually tracking and cleaning data, if they =
+do it at all.=C2=A0
+Surprises lead to tension between companies and their investors, which mean=
+s that the relationships aren=E2=80=99t as productive as they could be.=C2=
+=A0
+Investors don=E2=80=99t allocate money as effectively as they could to the =
+most productive companies.=C2=A0
+The most productive companies need to waste too much time fundraising when =
+they could just focus on building their businesses.=C2=A0
+If the solutions to some of the biggest challenges facing humanity lie in t=
+he technological innovation of talented entrepreneurs, then wasting their t=
+ime going back and forth on metrics should be a crime. Conversely, tools th=
+at save entrepreneurs time and let them focus on the things they=E2=80=99re=
+ uniquely good at should generate a ton of leverage.=C2=A0
+So the team at 8VC, including partners Joe Lonsdale and Alex Moore, put tog=
+ether a co-founding team to go build it, with a mix of operator and investo=
+r DNA:
+Kevin Hsu [https://email.mg2.substack.com/c/eJxFkMtuxCAMRb9mWEZAII8Fi276G4i=
+Hm6AhkIIzo_x9yWRRybJlWfbxvc4gLLmcas8VyZU0njuoBO8aAREKOSoUHbxiA596KWbilfBskh=
+MJVf8UgM2EqLAcQPbDxuAMhpw-G5RySVY1zNCPjFPOvbFyHh0feyOZ884PM7X25prDB0gOFLygn=
+DkBiWpF3Ouj_3rw7xb4DtdHnctb657wCikCrPUgQV3XWwjWy0EOHe9m13CDFFYwOkpmu98qhviO=
+40PQbeFdPWxF457XNVJUymhzCWlp4-dqNoifQVOkW92OFPDUkIyN4G-xeHv2ka8XSFCal14bbE4=
+JOTJG-dzYt7jmhpj5JKaJkUb2uW2lf-gf-1yDmg] was doing an EIR stint at 8VC afte=
+r being an early PM at Carta, bringing deeply relevant experience to the pr=
+oblem.
+Deny Khoung [https://email.mg2.substack.com/c/eJxFUMGOhSAM_JrH0QCC4oHDXvY3D=
+EJV8hBcqGv8-8XnYZOmTTOZTmesQVhSvvSeCpK7jXjtoCOcJQAiZHIUyKN3mnVctVIMxGnhmJKK=
+-DLOGWAzPmjMB5D9mIK3Bn2KHwalXJJVG-qYbGHu2DDMQz_1TPTKUulAzqqz_aNrDuchWtDwC_l=
+KEUjQK-JeXu3Xi3_XwtPfHzU2bXVzEK_3mo64EK855XcJ1spOdg1vBsu566SYBKO9ZFPzU0QXzt=
+C_BN0W3pRjKmjs-z5Gso4Jp5R9XCr8Xs0G4QNUQ2Od2xE9XiNEMwVwj1d8Ivu4HxeIkGuUbjRYg=
+xKyZ4zyoWo_3moYYuBKKMVIVXapsuK_6B9hAIMk] worked as a designer at 8VC, helpi=
+ng spin up incubated companies like Affinity [https://email.mg2.substack.co=
+m/c/eJxFkMGOhCAMhp9mOBqogHjgsJd9DYNQHTIILuAa336Z8bBJ0yb90375f2sqrilfek-lkne=
+b6rWjjniWgLViJkfBPHmnmQTVCz4Sp7ljSijiy7RkxM34oGs-kOzHHLw11af4uaAUBHlqhlIKZD=
+0oYP0s6aCok3ZZDBhpLbibaw7nMVrU-Iv5ShFJ0M9a9_Lovx7w3eo8z84si4--Xp1NbUO8Bgrv4=
+qwXUsgOutECOCn4zBkdBJu7n8JlOMPw4HRboSvHXKqxr_ZhI1nHVOeUfVyb_HqaDcNHaFamNrfj=
+DZswmjmgu13WO6yP72nFiLmF6CZTW0RcDIxRGBv7dtVi4CMorhQjjexSu4r_0D-2dYBi].
+John Melas-Kyriazi [https://email.mg2.substack.com/c/eJxFkMtuxCAMRb9mWEaBQB=
+4LFt30NxAPJ0OHQApOo_TrSyaLShYIWfbhHqsRlpRPuaWC5DoUnhvICEcJgAiZ7AWy8k7Sno2d4=
+BNxkjs6ipH4ouYMsGofJOYdyLab4K1Gn-J7om2ZIE9pte2YcQNvzTzSduDdPHNDRTcz3feDu7l6=
+dx6iBQk_kM8UgQT5RNzKo_t4sM9aePjrR41Na319rRB0eZ3Z619PvGQtu4rTTvSib1gzWcZcL7j=
+hlSmoab4L78MRhgdv14U1ZTcFtX1d-0iWMaFJ2celtl9PXbe_GzWTqve6R4-ngqhNAHfHxdvaW4=
+BaIEKuNp3SWF1xMVDasqmy73jVB5_YyMeRkkp2qU7Ff-gfaciEpQ] joined as CEO after f=
+ive years as a VC at Spark Capital.
+The trio, which had a mix of operator and investor DNA with a sprinkle of e=
+xperience building best-in-class tools for the space, spun out of 8VC in Ma=
+rch 2020 as Quaestor, named after the treasurers of Ancient Rome.=C2=A0
+(They=E2=80=99re not the only ones who liked the name for a money-related b=
+usiness =E2=80=93 I uncovered Quaestor.com=E2=80=99s first inhabitant from =
+the Internet Archive=E2=80=99s Wayback Machine [https://email.mg2.substack.=
+com/c/eJxFkMmOwyAQRL8mHBGrlwOHucxvWCwdGw0GB3As__3g-BCp1S1VqbqkZ3WFOeVTbalUd=
+K2pnhuoCEcJUCtktBfIk3eKdmzgUozIKeHoIAfky_TMAKv2QdW8A9p2E7zV1af4SRDCJFoUkz0j=
+0j71wIlx8iksWAlgiOWdATvevXp3HqIFBW_IZ4qAglpq3cqD_zzYb5sDDNbZLv4NOOX5VtpmhFD=
+COWVc9oQ24Yp9U8eBX7uGUlPGNq1NQl4xwq4RlMtOdpjh0TLmOimMoKSX1OBXEV04Qv8QZJ0ZLr=
+spVdu_6wXKKqZqUvZxbvbfolcIH6MRmNpd9-jrOUHUJoC74dSb8QfXNEOE3Ni7SddGVsieUsLG1=
+n3DaPTEyAYxDBS1ZpdaKn5L_wEFe5DV].)
+In July 2020, Questor announced a $5.8 million seed round from 8VC, Spark, =
+Abstract Ventures, Riot Ventures, Fathom Ventures, and GFC. In the TechCrun=
+ch piece announcing the raise [https://email.mg2.substack.com/c/eJxFUc1u9CA=
+MfJrlRhQI5OfAoZfvNSIC3g0qgRRMq7z9591VVcnySLbGMxo7i_DI5TJnrsiebcXrBJPgp0ZAhM=
+JahbIGb8Qo50GrhXmjvJj1zEJd7wXgsCEaLA3Y2bYYnMWQ04vR91Kz3Qxunqf7MMxSCzcucpgWb=
+eWwaD9KKcXw1rXNB0gODHxDuXICFs2OeNbb8HGT_6gQ3O5KS27vXD5oIHvZE_TTb_tqFirmwkPl=
+BUL6hoQhPfjWakhQKz8AS3Dc5RjtlsvLKr8TAXfgFW3BdvKT4OIlt-Q5FEt3WTCk9SwlBj3qsZP=
+d4qT0o1abEv2kxdZ9VTXGnzjdVH88ZFfbRgfd59MrKyZlJEEyQ-vP3R4QXwuKbCU8Wgp4rZDsFs=
+G_08T3U175rg9IZAXBrxbpFUpPQvRyIe13ehS3WuSs5lkwUvaZWOlP9D-RvaRC], Melas-Kyri=
+azi explained the types of questions Quaestor would help answer:=C2=A0
+How do VCs and their companies interact around financial data, whether it=
+=E2=80=99s documents like P&L / balance sheet / cash flow statement [or] in=
+dividual financial KPIs like revenue, gross margin, net income, ARR, etc.? =
+How do companies share that information with their investors to keep them u=
+pdated? How do investors support their companies in understanding what goal=
+s they should be setting?
+As TechCrunch highlighted, Quaestor was opinionated from the beginning, wit=
+h two goals:=C2=A0
+Turn the spreadsheet into a SaaS product. Like many SaaS businesses, goal n=
+umber one was just to unbundle Excel with specialized software.=C2=A0
+Define the Metrics that matter. Quaestor=E2=80=99s customers all work from =
+the same set of key metrics like cash balance, revenue, gross margin, and b=
+urn.=C2=A0
+Why guide customers to use the financial metrics? As Melas-Kryiazi explaine=
+d at the time, =E2=80=9CMost entrepreneurs come from a product background o=
+r engineering or sales and they might not necessarily have worked in financ=
+e before.=E2=80=9D A set of =E2=80=A6 standard metrics =E2=80=A6 would make=
+ it easy for entrepreneurs to understand which metrics matter.=C2=A0
+That=E2=80=99s a good, simple answer for the press, but there=E2=80=99s mor=
+e there than that. The decision to pick standard metrics from the start is =
+one of two subtle strategic decisions the company made that will ultimately=
+ determine whether it=E2=80=99s successful in building the data and relatio=
+nship graph for the private markets:
+Setting Standard Metrics
+Focusing on VCs as the Target Customer
+There are strong companies in the market including incumbents like IHS Mark=
+it, and new entrants =E2=80=93 Cabal [https://email.mg2.substack.com/c/eJxF=
+UMtuxCAQ-5rlGAHhlQOHXvobEY_ZLFoCKZCu8vclyaGSNaPRyLZsZxosuRx6y7Whc8zt2EAn-NQ=
+IrUFBe4UyB6-JoGrkbEJeM08UVyjU-VkAVhOibmUHtO02BmdayOliYEw5emkp8VMoOYrRSIulF8=
+5N49NTK60iRInb1-w-QHKg4RfKkROgqF-tbfUxfj3od8cCzRlr4uDy2k8UNMX0BCMjF1wMdJgcp=
+V5wZhnBkhM7_FQm4ifKB8PrQoe629qMe58SqOiUm80lpKW_3y-zwqV95pj7XvcU2jFDMjaCvyO2=
+u6kr9LxAgtIb9LNpvR_GJSGYTt37jtQ7YBNVTCmCurPPnZX-Tf8At1J-0A] and Visible.vc =
+[https://email.mg2.substack.com/c/eJxFkEuOwyAQRE8TlhZgwHjBYjZzDcSn7aBgcAAn8=
+u2HxIuRWt1qlUpPVc40WHM51Z5rQ5-l27mDSvCuEVqDgo4KRQeviKBy5GxGXjFPJJcoVL0UgM2E=
+qFo5AO2HjcGZFnL6OjCmHN0VAObjYg2TGBY2CjtZzgmeFzEbTAlcXHP4AMmBgheUMydAUd1b2-t=
+t_LnR3z6vUIONMLxcf1BQFNPPMDJywcVAh9lR6gVnlhE8cWKHZ2UivuN0Y3hb6VAPW5txj8HlDR=
+WVcrO5hLR2-XE3G8Sv0FPofrcjhXZqSKYz_RWwXT19I-sVEpTen9em9XYYnwjBdO7sK1BvgM1UM=
+ikJ6mSfuyv9Q_8ADI1-cA] =E2=80=93 that look like direct competitors on the s=
+urface.
+But Standard Metrics is betting that those two strategic choices will diffe=
+rentiate it and help win the market.=C2=A0
+Standardizing Metrics=C2=A0
+With this Series A announcement, Quaestor is officially changing its name t=
+o Standard Metrics.
+Aside from being much easier to spell, John told me that the new name bette=
+r reflects the company=E2=80=99s mission: =E2=80=9CIn this next growth phas=
+e, we are building true standards for how critical information is shared in=
+ the private markets for the first time using software.=E2=80=9D=C2=A0
+Building a standard set of metrics was Standard Metrics=E2=80=99 first stra=
+tegic choice.
+Picking a certain set of metrics that every investor starts with, instead o=
+f letting investors or companies choose their own starting set, is a strate=
+gic decision, not in the vague sense, but in the sense that it comes with t=
+rade-offs that the team believes are worth it. Every company using Standard=
+ Metrics starts with these eight metrics:=C2=A0
+Cash in Bank=C2=A0
+Net Burn=C2=A0
+Runway=C2=A0
+Revenue=C2=A0
+Gross Margin=C2=A0
+Operating Expenses=C2=A0
+Net Income=C2=A0
+Headcount
+Investors can and do choose to add other metrics to request from their comp=
+anies =E2=80=93 they may be vertical-specific metrics, metrics the investor=
+ has found to be particularly predictive, or even things like ESG metrics t=
+hat matter to the investor =E2=80=93 but it all starts with those eight. I =
+asked John why they chose those eight when each vertical has its own metric=
+s, and he explained:=C2=A0
+There are metrics that apply to every company, and then there are metrics t=
+hat are useful for evaluating specific subsectors (e.g. SaaS, consumer apps=
+, marketplaces, etc.). We are building out sector-specific standards as wel=
+l as global standards, but starting with global ones.
+The approach is subtly different than Visible.vc=E2=80=99s. While both comp=
+anies let investors customize metrics, Standard Metrics always includes the=
+ same eight metrics, whereas Visible.vc lets investors start from scratch f=
+or each segment or even portfolio company.=C2=A0
+On the surface, Visible.vc=E2=80=99s approach might appear to make more sen=
+se. Of course customers should get to choose for themselves, and of course =
+different types of companies should have different sets of metrics.=C2=A0
+And if you=E2=80=99re building a purely SaaS product, it probably is. But S=
+tandard Metrics has a bigger vision: it=E2=80=99s trying to build a data an=
+d relationship graph on top of which it and others can build a series of ap=
+ps. Today, the data that investors get from companies is all over the place=
+, negotiated on a case-by-case basis, and practically impossible to compare=
+ consistently. So to start, Standard Metrics needs to wrangle that entropy =
+and build a standardized set of metrics.
+In other words, just as equity is the atomic unit on top of which Carta bui=
+lt a series of products, operational metrics are the atomic unit on top of =
+which Standard Metrics will build a series of products.=C2=A0
+Standard Metrics wants to build the core system of record for operational m=
+etrics, the main source of truth investors rely on to run their businesses =
+and make decisions. =E2=80=9CStandards allow everyone to move faster,=E2=80=
+=9D John explained, =E2=80=9Cand we think there are enormous advantages to =
+standardization of data through software. For example:=C2=A0
+We can make it lightning fast and automated for companies to pull their met=
+rics of interest into our platform if those metrics are standardized and ac=
+cessible through various APIs. Also, we will be able to offer context to co=
+mpanies over time on their performance =E2=80=94 for example, how do you st=
+ack up against other SaaS companies in your lead investor's portfolio in te=
+rms of ARR growth or NDR?
+But picking metrics is one thing, collecting them is another. Standard Metr=
+ics offers integrations with banks and accounting software to make collecti=
+ng the metrics seamless.
+That=E2=80=99s useful, and it=E2=80=99s an improvement over incumbents like=
+ IHS Markit, but for modern software, integrations are table stakes. There =
+are startup-focused accounting tools that do the same.=C2=A0
+The question is: how do you actually get enough companies to give you that =
+data that you become the standard?=C2=A0
+That brings us to Standard Metrics=E2=80=99 second strategic choice.=C2=A0=
+=C2=A0
+To learn why VCs make a good target customer and what happens when the priv=
+ate markets have Standard Metrics=E2=80=A6=20
+Thanks to Dan [https://email.mg2.substack.com/c/eJxFkE2O7CAMhE_TLCMgkJ8Fi9m=
+8ayAHPGnUBDLgvFZuP6SzGKmEhSy7XJ8DwjWX0-y5ErseS-eOJuG7RiTCwo6KxQZvxCCnXquZea=
+O8mPTEQrXfBXGDEA2VA9l-LDE4oJDTZ4JzqdnTLNAD57320IQw4Oyw93JEAD4LdLcvHD5gcmjwP=
+5YzJ2TRPIn2-ui_HvJfE73DdVHn8tZ-HjbnctmCe4meBSO5vKRErwc9dLKbnZR-0GpRgo9aLN1P=
+VUN8x_Gh-LbKrh5LJXCvax8rJmVacglpbe3XEzaMn0bLZFvdjhTotJhgiejvuHRT-wCwKyYsjaa=
+3QI2V0qMQXM7N-47XeKhZTmqaBGvOPrep9Gf6C9-dhOk] for editing the piece, and to=
+ John [https://email.mg2.substack.com/c/eJxFkMtuxCAMRb9mWEaBQB4LFt30NxAPJ0O=
+HQApOo_TrSyaLShYIWfbhHqsRlpRPuaWC5DoUnhvICEcJgAiZ7AWy8k7Sno2d4BNxkjs6ipH4ou=
+YMsGofJOYdyLab4K1Gn-J7om2ZIE9pte2YcQNvzTzSduDdPHNDRTcz3feDu7l6dx6iBQk_kM8Ug=
+QT5RNzKo_t4sM9aePjrR41Na319rRB0eZ3Z619PvGQtu4rTTvSib1gzWcZcL7jhlSmoab4L78MR=
+hgdv14U1ZTcFtX1d-0iWMaFJ2celtl9PXbe_GzWTqve6R4-ngqhNAHfHxdvaW4BaIEKuNp3SWF1=
+xMVDasqmy73jVB5_YyMeRkkp2qU7Ff-gfaciEpQ] and the Standard Metrics team for =
+working with me to tell their story.=20
+Thanks for reading and see you on Monday,
+Packy
+
+Unsubscribe https://email.mg2.substack.com/c/eJxFkl2PoyAUhn9NvTSCYOXCi9mx7d=
+pM2-xOv6Y3BgEtU0RHcB376xfbZDc5AXIO57zkfWDUiqrpxqRtjPWmJbdjKxItBqOEtaLzeiO6X=
+PIERDAOMSIeTxAHMY49afKyE6KmUiW264XX9oWSjFrZ6EdHEEDsXRMgCItCTBAsAZ-TuMRljCgt=
+YoQYEmX41KU9l0IzkYg_ohsbLTyVXK1tzSx8mcGli2EYfN3YoumkrnzWuBRlk5g7cGlooUT-eM0=
+sXNrmJvQsTMW4BgwexzNUt-yz-d5-ZmhzPwS790GyFbnzJWkvr1m0TW_jLv2FdunCZLW6cpfb7D=
+-C7Z59b_Yv43Sfnrd3N0Oyn0f5tl8MmzQDmXRzwqOc8peVun-c1uZyJKo4LdvidU386Ou9OC8Og=
+a1wFWhD3_nc7MDmdNDRj115rfL126oiafX77AxNYACnQCDEEY586BMGIY8wKhAI5hgU_pdBkRrU=
+fIaCuoK-6QtjKbs5O2qvS_7Z48q3K62FehQcmNztda-lHXOhJ6v4k5l9on_4lldCi859CZ5T64A=
+jPAcggMRpPxk5qIjAGMUx8Jwyb1yX_i_6F_uTxrI
+--f1d36df0933a458195292ab63763b027200f12ffcb94483e8825ae783a4d
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>Wrangling Venture Entropy with Standard Metrics</title><=
+style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 16px 0 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+table.post-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item,
+  table.post-meta.alternative-meta tr td.post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item,
+  table.post-meta.alternative-meta tr td.post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item.guest=
+-author-publication,
+  table.post-meta.alternative-meta tr td.post-meta-item.guest-author-public=
+ation {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  table.post-meta tr td.post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  table.post-meta tr td.post-meta-item .post-meta-button .meta-button-label=
+ {
+    display: none;
+  }
+  table.post-meta tr td.post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  table.post-meta tr td.post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f8f8f8 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 18px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (max-width: 259px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 30%;
+    width: 30%;
+  }
+  .audio-player-wrapper-fancy .audio-player {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 60%;
+    width: 60%;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 70%;
+    width: 70%;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwMjI0MTM1NjU2LjIuOWMyMmQ2NTRiNDEwNzUxYi5xczQ2bHdsN0BtZzIuc3Vic3RhY2suY2=
+9tPiIsInUiOjE2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1Y=
+nN0YWNrLmNvbSIsInAiOjQ5Mjg0ODgxLCJ0IjoibmV3c2xldHRlciIsImEiOiJldmVyeW9uZSIs=
+InMiOjEwMDI1LCJjIjoicG9zdCIsImYiOnRydWUsImlhdCI6MTY0NTcxMTAyOSwiaXNzIjoicHV=
+iLTAiLCJzdWIiOiJlbyJ9.cyrrKbeDr0Y3oCs5IN9rySLHyi5XCajFnWFr6gSY8CU" alt=3D""=
+ width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width=
+:1px !important;border-width:0 !important;margin-top:0 !important;margin-bo=
+ttom:0 !important;margin-right:0 !important;margin-left:0 !important;paddin=
+g-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;p=
+adding-left:0 !important;"/><div style=3D"display:none;font-size:1px;color:=
+#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hid=
+den;" class=3D"preview">Quaestor Rebrands to Standard Metrics and Raises a =
+$23.7M Series A &#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;</div><ta=
+ble role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" class=3D"email-body-container"><tr><td></td><td width=3D"550=
+" class=3D"content"></td><td></td></tr><tr><td></td><td align=3D"left" widt=
+h=3D"550" class=3D"content"><div style=3D"font-size: 16px; line-height: 26p=
+x; margin: 0 auto; max-width: 550px; overflow-wrap: break-word; width: 100%=
+;"><div dir=3D"auto" class=3D"post typography" style=3D"font-size: 16px; li=
+ne-height: 26px; padding: 9.6px 0;"><div class=3D"post-header" style=3D"fon=
+t-size: 16px; line-height: 26px;"><h1 class=3D"post-title long published" s=
+tyle=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antia=
+liased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, B=
+linkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple=
+ Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.625em; fon=
+t-weight: bold; line-height: 130%; margin: 0.378em 0 0 0;"><a href=3D"https=
+://email.mg2.substack.com/c/eJxFUtGuojAQ_Rp5k9DSIjzwcCPqYkSzu6567wspbYVqKVi=
+KXPz6rZrsJpNOcqZzTmbOUGJ42egxbpvOOM8nN2PLY8WHTnJjuHb6jutcsBgEMPQxihwWIwZCHD=
+qiy8-a85oIGRvdc6ftCykoMaJRrw7Pg9ip4gIXJGIBOaMIR4SGmEJYBGdAyJlw7AVvXdIzwRXlM=
+b9zPTaKOzKujGm7if8xgUsbwzC4qjFFo4UqXdpYqH3CmqhSWmh658r0mk9t0k07TgdhqmlniGJE=
+s4m_NM2Vq4mf8HENKDyMJyiv6aX53l5SlD3-eLvfg6Cr6MGWUfs1T4Ntch13yU-0SxZdWsuKWSz=
+bf3rbPf3O9h_j8z85bR-WQ9AfB7HZL4YsSUEqLI9_EC_8yTcH49dxeWEreS_EOnI7eGrn5fRzcy=
+vXq9tiukmGHCw2wPw6FRd60FlyPNzyqNocM0fE0IPPQMDHAQ5c6EZ2gSzAqEDAm2FQuLcOBXKQs=
+wny6hK6XV_YqenV7qh2dPxvZ7Z8rUjN5atg3cptrnslzJhzRQrJ2dtI876Hl7V5yRXX9k5YToy9=
+AoRnAHgwstpv46zTKIIhCkPgWGXW2C71X_QvHMHP7A" style=3D"color: #1a1a1a; text-d=
+ecoration: none;">Wrangling Venture Entropy with Standard Metrics</a></h1><=
+h3 class=3D"subtitle" style=3D"-moz-osx-font-smoothing: antialiased; -webki=
+t-font-smoothing: antialiased; color: #767676; font-family: 'SF Compact Dis=
+play', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Ar=
+ial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; =
+font-size: 20px; font-weight: normal; line-height: 1.16em; margin: 4px 0 8p=
+x; margin-top: 8px;">Quaestor Rebrands to Standard Metrics and Raises a $23=
+=2E7M Series A</h3><table cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"post-m=
+eta   custom" style=3D"margin: 1em 0;"><tr><td title=3D"2022-02-24T13:57:07=
+=2E964Z" class=3D"post-meta-item post-dat=
+e" style=3D"color: #767676; font-fam=
+ily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Aria=
+l, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fo=
+nt-size: 14px; font-weight: 400; height: 14px; line-height: 100%; padding: =
+0px 12px 0px 0; padding-bottom: 0; padding-top: 0; position: relative; text=
+-decoration: none; vertical-align: middle; white-space: nowrap;"><time date=
+Time=3D"2022-02-24T13:57:07.964Z">Feb 24</time></td><td class=3D"post-meta-=
+item icon" style=3D"color: #767676; font-family: -apple-system, BlinkMacSys=
+temFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 400=
+; height: 14px; line-height: 100%; padding: 0px 12px 0px 0; padding-bottom:=
+ 0; padding-top: 0; position: relative; text-decoration: none; text-indent:=
+ 3px; vertical-align: middle; white-space: nowrap;"><span class=3D"post-met=
+a-icon"><a href=3D"https://email.mg2.substack.com/c/eJxFUttuozAQ_ZrwFgTG3B5=
+4iEpTkU2Com5Kty_IxhPiYDALJoR8fU2yF2k0Ix9r5szlFERBKbspamWvjNnlamohamDsBSgFnT=
+H00OWcRbaHAsfFocEizOzADQze56cOoCZcRKobwGgHKnhBFJfNI8OykGucIwgCB9MTpp7vEQj9E=
+z4FHgvwifq0cBznyUsGxqEpIIIrdJNswBDRWam2XzirBVprG8fRbKSisuNNaRZSQ6Tl2l9t7eYi=
+OjzaWXZAirmNhbNWsgIdY5g2doE-pk8kquQib_tLgnf3o5W-j7x4C-9sHbZfL4m3j6spjQ84jV_=
+7pNmIX9neIlk46ByOW1QlfOQkW1vPGgd7f3-97eLE3b5s2sLZ8ZRvRpYlavdzNe4uR67xu37P-P=
+SVrS_sTVwp34RmSmldOeV2iT_u4niMxypZXT7VmG33jvsu3R_d8nArU7ByvEDeoOq8l0NXgJ6lH=
+2ivSFH9wWtgfKjnGefhDR4hC82Gbcf1XM9EZlggxDwXU2xbvmtT83ePPTEKf4GtukTm34J6q7XR=
+Rf-2rL-rM6lBPD70fXMd66HhasqhIVQAe55ePRX0aCAvoYFOK4vlRGndYNe3bQuFmvt5aq0NHKI=
+AB4FtaGYmdVbzn_QbN5vfbw" class=3D"like-button" style=3D"display: block; tex=
+t-decoration: none;"><img src=3D"https://cdn.substack.com/image/fetch/w_28,=
+c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2=
+Ficon%2FHeartIconRounded%3Fv%3D3%26height%3D28%26fill%3D%2523757575%26strok=
+e%3D%2523757575%26strokeWidth%3D2" width=3D"14" height=3D"14" style=3D"bord=
+er: none !important; display: inline-block; float: left; height: 14px; max-=
+width: 14px; vertical-align: top; width: auto;" alt=3D""></a></span></td><t=
+d class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-se=
+rif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1=
+4px; font-weight: 400; height: 14px; line-height: 100%; padding: 0px 12px 0=
+px 0; padding-bottom: 0; padding-top: 0; position: relative; text-decoratio=
+n: none; text-indent: 3px; vertical-align: middle; white-space: nowrap;"><a=
+ class=3D"" href=3D"https://email.mg2.substack.com/c/eJxFUtuSojAQ_Rp5kyIhID=
+zwMCXqanmp3XXVmRcqJC1GIcEQhsGv36B7qepKqk53n74dRg0USvdJrRrjDE9m-hoSCV1TgjGgn=
+bYBnQmeoBBHfkBihyeEoyiIHNFkZw1QUVEmRrfg1G1eCkaNUPKZ4Xk4cC5JxM_BBFFKz2FMfUQx=
+5JNw4mNg3OcBCV51acsFSAYJfILulQSnTC7G1M3IfxvhubWu61ypTK60kIXLlIXqAdZUFqWFxp8=
+gTathbD-t6n7cCXMZN4ZKTjW3kUxVlfVZxrlRN5AjP4V-hRg-9Cdc3pZX9bW9Lsnm8cvb_ewEW8=
+QPPo_rj-ky3Ka3fpd-J7t01iyr8sItttm_e9s9-9rs3_ohnp62D8sh2LeDWO9n3SZdoqWwPP5BP=
+PGBb4r6j-P8yhflZy5WsdvgUz0txu_re7Fa3GfjddplaLZG5scpv7KD3qTHwz2LL-vjZoTD1lRZ=
+o1rNwPbetLkdjt3-4BVw0VbDTMNFHJFgDw9GkB-EQehiN2YY8zAgOUHeJEC5e29IWHblZES8qsD=
+uX0K728rRyb9dW_ftQisonw575WzYZCuF6TOQNC-BvwRgXjp6NpAVIEFbffGMGqseYjWAPBzb2q=
+-DW4WQGEckipBjK3Nls-T_or8Bowjjxg" style=3D"display: block; text-decoration:=
+ none;"><img src=3D"https://cdn.substack.com/image/fetch/w_28,c_scale,f_png=
+,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FComme=
+ntIconRounded%3Fv%3D3%26height%3D28%26fill%3D%2523757575%26stroke%3D%252375=
+7575%26strokeWidth%3D2" width=3D"14" height=3D"14" style=3D"border: none !i=
+mportant; display: inline-block; float: left; height: 14px; max-width: 14px=
+; vertical-align: top; width: auto;" alt=3D"Comment" class=3D"comment-icon =
+post-meta-icon"></a></td><td class=3D"post-meta-item icon" style=3D"color: =
+#767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto=
+, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Seg=
+oe UI Symbol'; font-size: 14px; font-weight: 400; height: 14px; line-height=
+: 100%; margin-right: 0; padding: 0px 12px 0px 0; padding-bottom: 0; paddin=
+g-right: 0; padding-top: 0; position: relative; text-decoration: none; text=
+-indent: 3px; vertical-align: middle; white-space: nowrap;"><span><a href=
+=3D"https://email.mg2.substack.com/c/eJxNkt2S4iAQhZ_G3JkCQmJykQtnZ63Snejsjq=
+7uVYpAqyiBLCGTiU-_RPevqguKr2m6OH04c3Aydsgb07pgXEo3NJBr6FsFzoENuhZsKUWOE5JGM=
+c0CkVOB0zgNZFseLUDNpMqd7SBoukpJzpw0-l6BEImDc44QQyxBFUkSjnGGExGz6siiLIoIPmL-=
+6Ms6IUFzyOEd7GA0BCo_O9e0k2g-IQsffd-H2rjKWKlPITceNSO2TJ-UR9N30K6zMPWbNc0w7aU=
+7T1vHtGBWTKJF5-qyNZ3lMIme267yKX6dkGTkNQjZ1Z7f__MbcqOdf2y8fWYWPGV8_N1_wJkrjG=
+cYVpiT78OBqOvyYj7WlyUtbju0eesl2y_Qg33F69vnj-J5Gb98WjU8KuRGrnqxX7piO--Ly056f=
+vPnO6-iNXo5rNSP_RqxfdYtNQrldgHX7YVldjXHCzd_NUTTb9UrORQ60dlut3miT3SryBcTyJwg=
+MgbFUZzESUjCjBMikphWFKNZjKvwZ0sT1avZhKL6RMI_qnh568Dmf-X26euZ1aDuCT9or01dd1q=
+6oQTNKgXi4QH3sNJdxfIEGqy3mCiZ8wai8QxjRDLf-zFzbxKakZSmKQ58Z2F8lf7X9BfZsuMN" =
+style=3D"display: block; text-decoration: none;"><img src=3D"https://cdn.su=
+bstack.com/image/fetch/w_32,c_scale,f_png,q_auto:good,fl_progressive:steep/=
+https%3A%2F%2Fsubstack.com%2Ficon%2FRecommendIconRounded%3Fv%3D2%26height%3=
+D32%26fill%3D%2523757575%26stroke%3Dnone%26strokeWidth%3D2" width=3D"16" he=
+ight=3D"16" style=3D"border: none !important; display: inline-block; float:=
+ left; height: 16px; max-width: 550px; vertical-align: top; width: 16px;" a=
+lt=3D"Share" class=3D"recommend-icon post-meta-icon"></a></span></td></tr><=
+/table></div></div><div dir=3D"auto" class=3D"post typography" style=3D"fon=
+t-size: 16px; line-height: 26px; padding: 9.6px 0;"><div dir=3D"auto" class=
+=3D"body markup" style=3D"font-size: 16px; line-height: 26px; margin-bottom=
+: 12px; text-align: initial; width: 100%; word-break: break-word;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; =
+margin-top: 0;"><em>Welcome to the&nbsp;<strong>1,033&nbsp;newly Not Boring=
+ people&nbsp;</strong>who have joined us since last Monday! Join&nbsp;<stro=
+ng>105,562 </strong>smart, curious folks by subscribing here: </em></p><div=
+ class=3D"subscribe-widget is-signed-up" style=3D"direction: ltr; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em;"><p class=3D"button-wrapper" st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em =
+0; text-align: center;"><a href=3D"https://email.mg2.substack.com/c/eJxFUct=
+uwyAQ_BpzqwUYiH3gUCnqb1gYtg6KAReWWvn7kodSacVhZ4YZzVqDsKZ803sqSO7PjLcddISjbI=
+AImdQCefZOM8XHQYqJOC0cG-VIfJm_M0AwftOYK5C9Lpu3Bn2KDwWlXJKLpssETAycq9ExMJROb=
+AAlTmpSXAnpnr6mOg_RgoZfyLcUgWz6griXbvjs-Feb4zj6mHBJ2ce1t6mtSl2KzX6BbmgMVTHM=
+AZyvoRvOj2CvZUk120Y6vwUfh3cr4Au3KSJEbAQx8VGMIyNec8rvI9gglVQ97yfLuVNSLILRk2R=
+L_1OE2o7t1AkaVt7fP0djry1bIFm_szb4ejEBtgfQWmp-IdTo8TZDNMsG7lkgPu_wSD6vECG3-7=
+jZYGtfyBNjlE_N-1lYa_gdtjm71FTx3_QPYLqfJA" class=3D"button primary subscribe=
+-btn" style=3D"background-color: #67bdfc; border: none; border-radius: 4px;=
+ box-sizing: border-box; color: #ffffff !important; cursor: pointer; displa=
+y: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height: auto; =
+line-height: 20px; margin: 0; opacity: 1; outline: none; padding: 12px 20px=
+; text-align: center; text-decoration: none !important; white-space: nowrap=
+;"><span style=3D"color: #ffffff; text-decoration: none;">Subscribe now</sp=
+an></a></p></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">&#127911;<em>&nbsp;To get this essay straight in =
+your ears:&nbsp;listen&nbsp;on&nbsp;<strong><a href=3D"https://email.mg2.su=
+bstack.com/c/eJxFkctq7DAMQL8mXgY_81h40XYoXNrLpY9NV8GOlYwZx861nU7Tr69nZlEQEk=
+iII45GlWEOcZdrSBld0pD3FaSHc3KQM0S0JYiDNZI0tGOC98hIbkgnOmTTMEWARVknc9wArZt2d=
+lTZBn_dwJgKdJTa4EZjglvaYWzEROikWNdzoSY26bG9cdVmLPgRJHxC3IMH5OQx5zVV7K6ijyXC=
+Cr5Oa8h22usxLKWVjuFcSnMiH8_3n_9eX__uIT3t7It8_XEVe0y2YofDunP78NS-CPpGnjkj3-k=
+dz8hKiuklOGGiEU1N636k1DSCa16uFUTX_xNv3Nm1FcfLTOu06ZTVeLrQUZQ-ZB2i9XMZn45qAX=
+cdFA1Dqcvmbd4H8Eo7MDdD-Sb66myYwUMsDzCDykUvFy0hmPaFfTNSFPKedrzrCCpkE8qW_4X-A=
+KBVk14" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Spot=
+ify</a> </strong>or&nbsp;<strong><a href=3D"https://email.mg2.substack.com/=
+c/eJxFkEtuxCAMQE8z7BoBgYQsWHTTa0R8nAwqgRScjnL7MpNKI1kYbNlPPGcQ1lxOveeK5HnMe=
+O6gEzxqBEQo5KhQ5uA1G7jqpZiI18IzJRUJdV4KwGZC1FgOIPthY3AGQ06vCUq5JHc90YlRJWi_=
+LJQrJ9ziRjCWOWNhGRZ2cc3hAyQHGn6hnDkBifqOuNdb_3njXy327J2pWDuz7xE6l7dWPOq7024=
+p44fNJaS1PYJnko-Cs6lnJGhO-TME6-Ugh453k-PcD1JYwegome1-qhjiI443QbeVd_WwFY37fq=
+JI0W33_2pBv-9mg_hqtF_PLW9HCnjOkIyN4C8heHl9KZpXSFCabz8bbDaFHBmjfGrsS0AzJiauh=
+FKMNLLPbSq9oX_b4Y6S" rel=3D"" style=3D"color: #1a1a1a; text-decoration: und=
+erline;">Apple Podcasts</a></strong></em></p><div style=3D"font-size: 16px;=
+ line-height: 26px;"><hr style=3D"background: #e0ecf6; border: none; height=
+: 1px; margin: 25.6px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Hi friends &#128075;,<=
+/p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: =
+0 0 1em 0;">Happy Thursday!</p><p style=3D"color: #1a1a1a; font-size: 16px;=
+ line-height: 26px; margin: 0 0 1em 0;">One of the most frequent topics in =
+Not Boring is the extraordinary growth of venture capital. More dollars inv=
+ested, more funds, smaller funds, bigger funds, decentralized funds, global=
+ funds. The space fascinates me endlessly. </p><p style=3D"color: #1a1a1a; =
+font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">All of that growth =
+in every direction means that the venture landscape has gotten a lot more c=
+omplex. There&#8217;s an opportunity for new companies to help make sense o=
+f it all. </p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;">That&#8217;s where Standard Metrics comes in. </p><p=
+ style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1=
+em 0;">Today&#8217;s post is a Sponsored Deep Dive on a company that I inve=
+sted in through Not Boring Capital. As always, I only write Sponsored Deep =
+Dives on companies I would invest in, and in most cases, I actually have. Y=
+ou can read my <a href=3D"https://email.mg2.substack.com/c/eJxFkU1rxCAQhn9N=
+PIZoNCYHD4W2lH5dCqU9BaOzWVmjqR9d8u9rNofCOCMzvPPKo5IJZh82sfqY0J7GtK0gHFyjhZQ=
+goBwhjEYL3JG-ZXRAWlCNe9YjE8dTAFiksSKFDGjNkzVKJuPdTdE0hKGz4KCpUpwPuKNMyhYmjh=
+UHelJqIO2pOXxl1gacAgG_EDbvAFlxTmmNVXtXkccS2qtYz97PFmrll6OTF3Bpv5aDXwjVdy_sw=
+l-f8vdbfH7bNJHq_uPn2k8P-nkZV2U-w_L5_rWvBG1S1T7muFbtfTzLYNyMjCAN2YPilnWsq0k9=
+KEJ0x-hEccMZnuqfSDt7tbyizTKTOuYpJqku-6NQEM6nye-7yvhylgvY26DAGUtdsjNpG8HJyYI=
+-uKUD_43kOIODUL5FjzKJnRjHuCFD8T44FbB0ID3te4yKs_ZF5f5N_wARhJwh" rel=3D"" sty=
+le=3D"color: #1a1a1a; text-decoration: underline;">thought process on deep =
+dives here</a>. I&#8217;ll always disclose my conflicts. No conflict, no in=
+terest.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0 0 1em 0;">Let&#8217;s get to it.</p><div style=3D"font-size: 16px=
+; line-height: 26px;"><hr style=3D"background: #e0ecf6; border: none; heigh=
+t: 1px; margin: 25.6px 0; padding: 0;"></div><h2 style=3D"-moz-osx-font-smo=
+othing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; f=
+ont-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe=
+ UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI =
+Emoji', 'Segoe UI Symbol'; font-size: 1.625em; font-weight: bold; line-heig=
+ht: 1.16em; margin: 1em 0 0.625em 0;"><a href=3D"https://email.mg2.substack=
+=2Ecom/c/eJxFUtGuojAQ_Rp5k9DSIjzwcCPqYkSz=
+u6567wspbYVqKViKXPz6rZrsJpNOcqZzTmbO=
+UGJ42egxbpvOOM8nN2PLY8WHTnJjuHb6jutcsBgEMPQxihwWIwZCHDqiy8-a85oIGRvdc6ftCyk=
+oMaJRrw7Pg9ip4gIXJGIBOaMIR4SGmEJYBGdAyJlw7AVvXdIzwRXlMb9zPTaKOzKujGm7if8xgU=
+sbwzC4qjFFo4UqXdpYqH3CmqhSWmh658r0mk9t0k07TgdhqmlniGJEs4m_NM2Vq4mf8HENKDyMJ=
+yiv6aX53l5SlD3-eLvfg6Cr6MGWUfs1T4Ntch13yU-0SxZdWsuKWSzbf3rbPf3O9h_j8z85bR-W=
+Q9AfB7HZL4YsSUEqLI9_EC_8yTcH49dxeWEreS_EOnI7eGrn5fRzcyvXq9tiukmGHCw2wPw6FRd=
+60FlyPNzyqNocM0fE0IPPQMDHAQ5c6EZ2gSzAqEDAm2FQuLcOBXKQswny6hK6XV_YqenV7qh2dP=
+xvZ7Z8rUjN5atg3cptrnslzJhzRQrJ2dtI876Hl7V5yRXX9k5YToy9AoRnAHgwstpv46zTKIIhC=
+kPgWGXW2C71X_QvHMHP7A" rel=3D"" style=3D"color: #1a1a1a; text-decoration: u=
+nderline;">Wrangling Venture Entropy with Standard Metrics</a></h2><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>(You can click this &#128070; to go read the full thing online)</p><div cl=
+ass=3D"captioned-image-container-static" style=3D"font-size: 16px; line-hei=
+ght: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"displ=
+ay: inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapp=
+er" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=
+=3D"text-align: center;"></td><td align=3D"left" class=3D"content" width=3D=
+"1200" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_bla=
+nk" href=3D"https://email.mg2.substack.com/c/eJxVUsuO5CAM_JrOLREQIHDIYTTS_k=
+bEw51GnUAGyPT2fP04yWG1kmUbLFdZLjtTYU75PW6p1OZwU31vMEZ4lQVqhdzsBfIU_EglU73gu=
+vEj91QJ1YQy3TPAasIy1rxDs-12Cc7UkOLZQQgTzWN00vZAtBRcDMCkYtJYC1JY77RRhl-8ZvcB=
+ooMRviG_U4RmGR-1buXWf9zYHzTnY1d2W6pxz86lFb_CambAeIfqHkdEmJpu7PPrSvqPOSWP7_s=
+ybTnNGUoJ34D_pQJs2HFRMHGQiIMGnd3dE7CeWyDCWqd4a43pW94P0GpBVWu87ZmFYdCKd6XvzG=
+p-UjSvcs2FGNcuzvQcspzpANoz63wLiumWu2FAvDttcTsKMaUTWkyUEfJXEtJtcW7CyAg7jNNeS=
+CE71mnHmMdtWk7JIKjtvgqXy2sZbpysM_tvR00eY6o25RBnLD8fZoXlLOCAE8Z1j6G-J4jGLuAv=
+Het1Dqey0wwRMp6Jn0zFI0ANKSVMI_elGwrNNVNcKdogs0_YFf-R_gJDF8Yv" rel=3D"" styl=
+e=3D"align-items: center; border: none; display: block; flex-direction: col=
+umn; height: auto; margin: 0; padding: 0; text-decoration: none; width: aut=
+o;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-ba=
+a3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/7e9d2bcd-e829-4c77=
+-95f1-0968adb6c595_1200x600.png&quot;,&quot;fullscreen&quot;:null,&quot;ima=
+geSize&quot;:null,&quot;height&quot;:600,&quot;width&quot;:1200,&quot;resiz=
+eWidth&quot;:null,&quot;bytes&quot;:239524,&quot;alt&quot;:null,&quot;title=
+&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null}" =
+alt=3D"" width=3D"550" height=3D"275" class=3D"wide-image" src=3D"https://c=
+dn.substack.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressiv=
+e:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.ama=
+zonaws.com%2Fpublic%2Fimages%2F7e9d2bcd-e829-4c77-95f1-0968adb6c595_1200x60=
+0.png" style=3D"-ms-interpolation-mode: bicubic; border: none !important; d=
+isplay: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 1=
+00% !important; vertical-align: middle; width: auto !important;"></a></td><=
+td style=3D"text-align: center;"></td></tr></tbody></table></figure></div><=
+p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 =
+1em 0;">Every few years, there&#8217;s a new *thing* that&#8217;s going to =
+change the face of venture capital investing as we know it. AngelList, ICOs=
+, crossover funds, solo capitalists, crowdfunding, CartaX, Capital-as-a-Ser=
+vice. Most of them boil down to a few questions; how can we:&nbsp;</p><ul s=
+tyle=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; =
+margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-botto=
+m: 0;">Increase liquidity in the private markets?</p></li><li style=3D"marg=
+in-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-spe=
+cial-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0; margin-bottom: 0;">Improve capital allocation and pri=
+cing?</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-rig=
+ht: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">Exp=
+and access to the asset class?&nbsp;</p></li><li style=3D"margin-bottom: 4p=
+x; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: =
+bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0; margin-bottom: 0;">Make sure the right things get funded as effici=
+ently as possible?</p></li></ul><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em 0;">Which all boil down to one questio=
+n, really: <strong>how can we get the private markets to behave more like t=
+he public markets?</strong>&nbsp;&nbsp;</p><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0 0 1em 0;">In terms of size and ac=
+tivity, the private markets, and venture capital in particular, have been g=
+rowing at a torrid pace.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;">In 2021, venture capitalists inv=
+ested $329.6 billion into startups across 15,500 deals&#8230; in the US alo=
+ne. Those numbers are so large as to be practically meaningless, so a visua=
+l comparison to previous years might be helpful.&nbsp;</p><div class=3D"cap=
+tioned-image-container-static" style=3D"font-size: 16px; line-height: 26px;=
+ margin-bottom: 16px; text-align: center;"><figure style=3D"display: inline=
+-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin:=
+ 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-alig=
+n: center;"></td><td align=3D"left" class=3D"content" width=3D"547" style=
+=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"=
+https://email.mg2.substack.com/c/eJxVUsmO5CAM_Zrilog1wCGHVkvzGxGLK4UqgTSQrq=
+n--ibJYTSS5VX2s_zsTIU55fe4pVLRoab63mCM8CoL1AoZ7QXyFPxIBqqY4Br5kXuihEKhTPcMs=
+JqwjDXvgLbdLsGZGlI8OzCmAj1GSaX31knJHZUD85wId9dKeqmFGQZ94ZrdB4gORviG_E4R0DI-=
+at3KjX3c6J8mzse-7LZU4569S2tLhdXM0Owdqnscto2p6UY_vy6Hfcwp-Rbfl2nLac5QSviGli8=
+VYGsdFwQVB4g4YJqyu3tCq-cOsLDWKd5ZY1jHmYROC6I64y2jFqTUiveF9WY1PymaV7n2ajOuW5=
+zuuWQ5XYeNAexxpyURHVfYdG2w7iSmxnqrGeViElz-JVr3W5xRGCmmh3DCxCCGnvbaUeoHwS0nW=
+Api-6_Ch-W1yBvH60z_OxHKY0zVphzi3MrPh1lhOQttv6nZdY-hvieIxi7gLxrr9Q0nsdMMEXL7=
+Ej-Z2n6AC0kIprphX7Q1nrmmiitFUEP2qXXFf6C_n2XFag" rel=3D"" style=3D"align-ite=
+ms: center; border: none; display: block; flex-direction: column; height: a=
+uto; margin: 0; padding: 0; text-decoration: none; width: auto;"><img data-=
+attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-a=
+db32be77984.s3.amazonaws.com/public/images/c0aae0d0-9715-480a-aa39-702abdb9=
+3245_547x199.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:nu=
+ll,&quot;height&quot;:199,&quot;width&quot;:547,&quot;resizeWidth&quot;:nul=
+l,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;=
+type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"547" height=3D"19=
+9" class=3D"" src=3D"https://cdn.substack.com/image/fetch/w_547,c_limit,f_a=
+uto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-=
+437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0aae0d0-9715-4=
+80a-aa39-702abdb93245_547x199.png" style=3D"-ms-interpolation-mode: bicubic=
+; border: none !important; display: block; height: auto; margin: 0 auto; ma=
+rgin-bottom: 0; max-width: 100% !important; vertical-align: middle; width: =
+auto !important;"></a></td><td style=3D"text-align: center;"></td></tr></tb=
+ody></table><figcaption class=3D"image-caption" style=3D"color: #767676; fo=
+nt-family: sans-serif; font-size: 14px; font-weight: 300; line-height: 1.4e=
+m; text-align: center;"><em>Pitchbook/NVCA 2021 Venture Monitor Summary&nbs=
+p;</em></figcaption></figure></div><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0 0 1em 0;">The $329.6 billion invested in =
+2021 was just a hair short of <em>doubling</em> the all-time record&#8230; =
+set in 2020. The two most active years before that were 2019 and 2018. Ther=
+e hasn&#8217;t <em>not</em> been a new record set since 2016.&nbsp;</p><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em=
+ 0;">While the market has tightened a little in the growth stage, following=
+ public markets and the specter of rising interest rates, the pace in the m=
+arket as a whole doesn&#8217;t seem to be slowing down. Big funds are <a hr=
+ef=3D"https://email.mg2.substack.com/c/eJxFkMuOhSAMhp_msDSCILJgMZt5DYNQlRwE=
+B-oY337wuJikaSG9_O1nDcKS8qX3VJDcbsRrBx3hLAEQIZOjQB6907RnQye4Ik5zRwcxEF_GOQN=
+sxgeN-QCyH1Pw1qBP8dPRtkyQVRvZyllY1btZMjXPtpPcCd7NE5VzR-mjaw7nIVrQ8Av5ShFI0C=
+viXl7d14t9V8PT3xs1Nm31V1bjlzuiwaPUB-WKD0wKxZVqGaWtZMRr1rLbOO1EL_qGNcoy5nrBJ=
+14rBJ2an8L7cAb54u22sKYcUx1p37cMyTomnFL2canp92o2CJ9EPXWscTuix2uEaKYA7qGAD8wP=
+l3GBCLlCdqPBipALWRdjqmo_V1dMXLGBDwMlVdml2hX_Rf8A8WKI3Q" rel=3D"" style=3D"c=
+olor: #1a1a1a; text-decoration: underline;">raising bigger funds</a> and th=
+ere are more small funds, solo capitalists, and syndicate leads investing m=
+ore money than ever. As one proxy for the latter, AngelList, which hosts sm=
+aller, newer funds like Not Boring Capital, now supports over $10 billion i=
+n assets, 10x higher than it supported in 2019.&nbsp;</p><div class=3D"capt=
+ioned-image-container-static" style=3D"font-size: 16px; line-height: 26px; =
+margin-bottom: 16px; text-align: center;"><figure style=3D"display: inline-=
+block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin:=
+ 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-alig=
+n: center;"></td><td align=3D"left" class=3D"content" width=3D"661" style=
+=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"=
+https://email.mg2.substack.com/c/eJxVUsmOpDAM_ZrKDUT2cMih1dL8BsrioqKChE5C11=
+R_fQc4jEayvMp-lp-dqTCn_NZbKhUdaqrvDXSEV1mgVshoL5Cn4DUWRFHORuQ181hxhUKZ7hlgN=
+WHRNe-Att0uwZkaUjw7hoFw9NCEE2HFCEIYP0pBucUSBB2suQMTgl24ZvcBogMN35DfKQJa9KPW=
+rdzox438aeJ87MtuSzXu2bu0tlRYzQzN3qG6x2HbmJpu5PPrcujHnJJv8X2ZtpzmDKWEb2j5UgG=
+21nFBEH6A8AOmKbu7J7R67mDg1jrFOmsM7RiV0I0cq854S4kFKUfF-kJ7s5qfFM2rXHu1GdctTv=
+dcspwuE26QSpEOCMYdE3ffGS5Mh0Exw5kHItkkBP5LJe-3OKOgyUAOYZhywUVP-tER4gVnluFBc=
+mz7r8LE8lrkjQ3rTP47Eco6pmpTDnFu5efDrLCchbbf1Oy6x1DfE0RjF_AXjfX6hpPYaYYIuX2J=
+n0xtP8C4xHggY8O-aGs8s5EophRGDdmn1hX_gf4CJ3DFCQ" rel=3D"" style=3D"align-ite=
+ms: center; border: none; display: block; flex-direction: column; height: a=
+uto; margin: 0; padding: 0; text-decoration: none; width: auto;"><img data-=
+attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-a=
+db32be77984.s3.amazonaws.com/public/images/46c07882-e211-46fd-a56a-1e84a54d=
+e274_661x375.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:nu=
+ll,&quot;height&quot;:375,&quot;width&quot;:661,&quot;resizeWidth&quot;:nul=
+l,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;=
+type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"550" height=3D"31=
+2.02723146747354" class=3D"wide-image" src=3D"https://cdn.substack.com/imag=
+e/fetch/w_1322,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%=
+2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%=
+2Fimages%2F46c07882-e211-46fd-a56a-1e84a54de274_661x375.png" style=3D"-ms-i=
+nterpolation-mode: bicubic; border: none !important; display: block; height=
+: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; verti=
+cal-align: middle; width: auto !important;"></a></td><td style=3D"text-alig=
+n: center;"></td></tr></tbody></table><figcaption class=3D"image-caption" s=
+tyle=3D"color: #767676; font-family: sans-serif; font-size: 14px; font-weig=
+ht: 300; line-height: 1.4em; text-align: center;"><em><a href=3D"https://em=
+ail.mg2.substack.com/c/eJxFkE2OhCAQRk8jSyMIggsWs5lrGH5qbNIINpRjvP3Q7WKSSpFU=
+pXj5njMIay6X3nNF8m4LXjvoBGeNgAiFHBXKErymE1Oj4DPxmnuqhCKhLj8FYDMhaiwHkP2wMTi=
+DIafPxTAwQR7awMCUGeVopZFUUamos5xbLvnoKZM31xw-QHKg4RfKlROQqB-Ie-3Gr459tzrPsz=
+dphRhDxd7lrc3YwGjHRndUzBuUSoJuo3dxOopJTD3rZ8eYn0QD0kEKavtX5VM8o-z4sK2sr4eta=
+Nzz_SUpOmW0uYS0tvXzYTaIn0ULt7R3O1LAa4FkbAR_58Zb38fEskKC0rT6xWCTxoWkdGBzY985=
+mxg-M8WVoqSRfW5X6R_6B3q6hd4" rel=3D"">AngelList 2021 Year in Review</a></em=
+></figcaption></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;">Venture capital has come a long way s=
+ince there were a handful of firms on Sand Hill Road investing into a handf=
+ul of companies each year. Now, venture firms are everywhere and come in so=
+ many flavors Baskin-Robbins would blush. And each venture firm backs somew=
+here between a dozen and a couple hundred startups, from all around the wor=
+ld, in all stages of maturity and industries and levels of operational soph=
+istication and, and, and. You get the point.&nbsp;</p><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">The startup =
+ecosystem has jumped from a lower state of entropy to a higher one.&nbsp;</=
+p><div class=3D"captioned-image-container-static" style=3D"font-size: 16px;=
+ line-height: 26px; margin-bottom: 16px; text-align: center;"><figure style=
+=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=3D"im=
+age-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td =
+style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" wid=
+th=3D"900" style=3D"text-align: center;"><a class=3D"image-link" target=3D"=
+_blank" href=3D"https://email.mg2.substack.com/c/eJxVUsuOpDAM_JrmBkqCA-TAYT=
+TS_gbKw9BRQ8IkYXp7vn7ccFitZNmVWHZZLltdcInpNe4xl-rtpvLacQz4zCuWgqk6MqbJu5F3Y=
+mglqMqN4Pggh8rnaU6Im_brWNKB1X6Y1VtdfAxnBWNCVvdR96xVnQHVSyU4n8EMYgYFnZoFZyAv=
+Xn04j8HiiN-YXjFgtY73UvZ8az9u4g-ZdaHJh8lF20dj40ZfftMLUpyx2Ps7UpsSb-Lz6wLtxxK=
+jo_e8TnuKS8Kc_TfSfy6IO1VcFEK-SeSbhpw57AMpn2pk0hg7QG20bmtoe6yV5EOtnWmFwb5XAz=
+S5bfSmf2LQz3zNRT2uXZzwHDKfUJtOcDCsdq6ba1CEdA_Unnai5QzOzHZSjP3teNvsYan8KJh4G=
+_BWdrJrRKOsEK6TYICzXnLTfGXo1ufa34Bti_hvRVUaQywmJh8WSj_uesP1TNB8E8XtCL68Jgza=
+rOguGct1Daew04IBE12Jm3ShGwDZc86EIu5LNtIZlBhgGHhFzC5SVfhH-gukSMVU" rel=3D"" =
+style=3D"align-items: center; border: none; display: block; flex-direction:=
+ column; height: auto; margin: 0; padding: 0; text-decoration: none; width:=
+ auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc8=
+4-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ab6214b0-dd6f-=
+49b0-a744-b4b8a5f4dbfc_900x613.png&quot;,&quot;fullscreen&quot;:null,&quot;=
+imageSize&quot;:null,&quot;height&quot;:613,&quot;width&quot;:900,&quot;res=
+izeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title=
+&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D=
+"550" height=3D"374.6111111111111" class=3D"wide-image" src=3D"https://cdn.=
+substack.com/image/fetch/w_1800,c_limit,f_auto,q_auto:good,fl_progressive:s=
+teep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazon=
+aws.com%2Fpublic%2Fimages%2Fab6214b0-dd6f-49b0-a744-b4b8a5f4dbfc_900x613.pn=
+g" style=3D"-ms-interpolation-mode: bicubic; border: none !important; displ=
+ay: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% =
+!important; vertical-align: middle; width: auto !important;"></a></td><td s=
+tyle=3D"text-align: center;"></td></tr></tbody></table><figcaption class=3D=
+"image-caption" style=3D"color: #767676; font-family: sans-serif; font-size=
+: 14px; font-weight: 300; line-height: 1.4em; text-align: center;"><em>I Ac=
+tually Drew This One Myself Believe It Or Not</em></figcaption></figure></d=
+iv><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: =
+0 0 1em 0;">There&#8217;s no going back. Since the start of COVID, with mor=
+e money flooding the market and more deals happening more quickly over Zoom=
+, the venture market has jumped to a higher state of complexity. Very valua=
+ble companies like AngelList, DocuSign, and Carta (recently valued at $7.4 =
+billion) help to wrangle some of that entropy with software. But there&#821=
+7;s still a big infrastructural puzzle piece missing.&nbsp;</p><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">The=
+ private markets need standard metrics.&nbsp;</p><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>So, the p=
+rivate markets need <a href=3D"https://email.mg2.substack.com/c/eJxFUEGOhCA=
+QfM1wNIKgcOCwl_0GQWgdMggutDvx98voYZNKd9KV6kqVswhrLqfec0XyGQbPHXSCd42ACIUcFY=
+oJXtORyUFwRbzmnkohSahmKQCbDVFjOYDsxxyDsxhyuhR9zwR56oXPTDrlOdhlAS_GnlE6KKfEN=
+FEH9va1hw-QHGj4hXLmBCTqJ-JeH8PXg303VLTJ2-I3wBJc7UJuRxI069kHnA5iFGPHOuUY86Pg=
+M6f9JOjc_VQ-xnecHrzfVtbVY26_3KtzeSNFp4xzLiGtjX497QbxIloa0_Z2pICngWTnCP4Oind=
+fV3SzQoLSevTGYmuJi4nSnqnmfQdrTXDFJJeSkubsc1Olf9M_EuaCNg" rel=3D"" style=3D"=
+color: #1a1a1a; text-decoration: underline;">Standard Metrics</a>.</strong>=
+</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0;">Standard Metrics&#8217; goal is to <strong>build a data and re=
+lationship graph for the private capital markets</strong>.&nbsp;</p><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;=
+">That&#8217;s a deceptively tricky goal to achieve. Others have tried and =
+failed to build a &#8220;Bloomberg for the Private Markets,&#8221; one reso=
+urce to provide the same level of information and transparency to the priva=
+te markets that public market investors have access to.&nbsp;</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>But Standard Metrics is starting with a more bite-sized ambition: <strong>=
+get VCs to use its product</strong> to track the handful of metrics that ma=
+tter most for their portfolio companies, like Cash in Bank, Revenue, Monthl=
+y Burn, and Gross Margin.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0 0 1em 0;">Win the VCs, the logic goes, an=
+d you can win their portfolio companies and their LPs, all of whom come wit=
+h their own set of VC relationships, each of which come with fresh portfoli=
+o companies and LPs. When the spark catches, it can spread like wildfire.&n=
+bsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 1em 0;">VC to Portfolio Company. Portfolio Company to VC. VC to LP=
+=2E LP to many VCs. Many VCs to Many LPs=20=
+<em>and</em> Portfolio Companies. Sl=
+owly at first, and then suddenly, you become the <strong>standard</strong>.=
+&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0;">To help set the standard, today, Standard Metrics is ann=
+ouncing a <strong>rebrand from Quaestor to Standard Metrics</strong> and a =
+fresh <strong>$23.7 million Series A led by 8VC</strong>, which incubated t=
+he company in 2020, with participation from Spark Capital, Slack Fund, Fin =
+VC, Alpha Edison, Kindergarten Ventures, First Trust Capital Partners, Janu=
+ary Capital, and Not Boring Capital, among other funds. Individual investor=
+s include a16z&#8217;s Sriram Krishnan, Bain Capital Ventures&#8217; Merrit=
+t Hummer, Quiet Capital&#8217;s Morgan Livermore, Meritech&#8217;s Craig Sh=
+erman, and Redpoint&#8217;s Medha Agarwal. (Actually, it was $3.7 million i=
+n notes and a $20 million Series A. Precision around metrics is important!)=
+&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0;">When you build for VCs, your customers can also become y=
+our investors, and your investors can become your customers. That&#8217;s t=
+rue here.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height=
+: 26px; margin: 0 0 1em 0;">The hard part is: to set the standard for an in=
+dustry, you need to win over most of the industry participants. Standard Me=
+trics will need to displace incumbents and stand out among newer companies =
+that look like competition on the surface. Getting that right requires the =
+<strong>right timing</strong>, the <strong>right team</strong>, and the <st=
+rong>right strategic bets</strong>. So today, we&#8217;ll cover:&nbsp;</p><=
+ul style=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8=
+px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-b=
+ottom: 0;"><strong>Entropy Wrangling</strong></p></li><li style=3D"margin-b=
+ottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special=
+-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0; margin-bottom: 0;"><strong>The Quaestor Quest</strong></p=
+></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; m=
+argin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Sta=
+ndardizing Metrics</strong></p></li><li style=3D"margin-bottom: 4px; margin=
+-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;">=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; =
+margin-bottom: 0;"><strong>VCs as the Target Customer</strong></p></li><li =
+style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top:=
+ 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Building the =
+Private Markets Platform</strong></p></li></ul><p style=3D"color: #1a1a1a; =
+font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">The timing couldn&#=
+8217;t be better. Venture is in need of an Entropy Wrangler.</p><h3 style=
+=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialias=
+ed; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-we=
+ight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;"><strong>Entropy =
+Wrangling</strong></h3><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;">In July 2020, the same month that Quaestor =
+announced itself to the world, I wrote one of my thinkpieciest thinkpieces:=
+ <em><a href=3D"https://email.mg2.substack.com/c/eJxFkE1uxCAMRk8z7BoBASZZsJ=
+hNrxHx4yZoCKTgNMrty0ykVjIgYdlP33MGYc7l1FuuSF7XhOcGOsFRIyBCIXuFMgWvmeJDL8VIv=
+BaeDXIgoU5fBWA1IWosO5BttzE4gyGn9wSlXJJFU9Y7OwKTpmejFUJw6oxT1nLVczfYi2t2HyA5=
+0PAD5cwJSNQL4lZv_ePGP1sdx9GljDaXkObO5fa1tQMJS97OD1ygJSFBc8pfJVgvlVQd70bHuVd=
+SWMHoXTLbfVeh4hHvN0HXmXd1txWNe7adKyn6j9Haz8WsEN-Nlm5q77qngOcEydgI_gqOl7-3im=
+mGBKV59ZPBZk3IO2OUj419BW1mxMgHMQyMNLLPbSr9Q38BVMiHsA" rel=3D"" style=3D"col=
+or: #1a1a1a; text-decoration: underline;">Entropy Theory</a></em>.&nbsp;</p=
+><div class=3D"captioned-image-container-static" style=3D"font-size: 16px; =
+line-height: 26px; margin-bottom: 16px; text-align: center;"><figure style=
+=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=3D"im=
+age-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td =
+style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" wid=
+th=3D"900" style=3D"text-align: center;"><a class=3D"image-link" target=3D"=
+_blank" href=3D"https://email.mg2.substack.com/c/eJxVUsuOpDAM_JrmBsqThAOH0U=
+j7GygPQ0cNCZOE6e35-nHDYbWSZTuxXGW57EyFJeXXuKdSm7eb6muHMcKzrFAr5OYokKfgR9ozz=
+aUYGj8KT7XUTSjTnAE2E9ax5gOa_bBrcKaGFM8OQphs7qNQnDvi6cyctsRIrWYqqTZc9W4Qg714=
+zeEDRAcjfEN-pQjNOt5r3cuNf9zYHzTnY1cOW6pxj86lDb_CZhbAOEN193dEmJpu7PPrSvjHkpL=
+H97xOe05LhlLCN-B_qQA7dlwUTL5J5JsGnT3cA7CeWyDSWqdFa43hreAK2gFHb423nFlQatCiK7=
+wzm_lJ0TzLNRdiXLs403PIcqYzeG6t6RHKqVY4MyOehNYIbubBid7OfhoI-cul7va4NGFkhL1NU=
+C572XesGxxjvpfCCkqUpLb7KqJfn6u6CbIt7L8VNXmMqdqUQ1yw_LibDdazgPNNGLcjhvqaIBq7=
+gr9krNc1nMJOC0TIeCV-MhVvQEhFKWEDcl-yoc5iYFpoTRtk9gm74j_SX2uOxn8" rel=3D"" s=
+tyle=3D"align-items: center; border: none; display: block; flex-direction: =
+column; height: auto; margin: 0; padding: 0; text-decoration: none; width: =
+auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84=
+-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/fed3bba6-43c7-4=
+caf-955e-a43af9c46bfd_900x358.png&quot;,&quot;fullscreen&quot;:null,&quot;i=
+mageSize&quot;:null,&quot;height&quot;:358,&quot;width&quot;:900,&quot;resi=
+zeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&=
+quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"=
+550" height=3D"218.77777777777777" class=3D"wide-image" src=3D"https://cdn.=
+substack.com/image/fetch/w_1800,c_limit,f_auto,q_auto:good,fl_progressive:s=
+teep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazon=
+aws.com%2Fpublic%2Fimages%2Ffed3bba6-43c7-4caf-955e-a43af9c46bfd_900x358.pn=
+g" style=3D"-ms-interpolation-mode: bicubic; border: none !important; displ=
+ay: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% =
+!important; vertical-align: middle; width: auto !important;"></a></td><td s=
+tyle=3D"text-align: center;"></td></tr></tbody></table></figure></div><p st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em =
+0;">Look, I was new to writing newsletters and Ben Thompson was a big inspi=
+ration and I wanted to name my own theory, too. It was a little presumptuou=
+s. But I actually think the idea holds up.&nbsp;</p><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">The main point=
+ of the essay was to add direction to the Jim Barksdale quote: &#8220;There=
+ are only two ways I know of to make money: bundling and unbundling.&#8221;=
+ That always felt Sisyphean to me. &#8220;We&#8217;re not just bundling and=
+ unbundling,&#8221; I wrote, &#8220;but unleashing energy, organizing it, a=
+nd then unleashing new energy on the next thing.&#8221;&nbsp;</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>An industry is in status quo. Some force or forces come along and shake th=
+ings up, unleashing new energy and creating constructive chaos. Some compan=
+y comes along and creates order from the chaos, at a higher, more advanced =
+state. I called that company an <strong>Entropy Wrangler</strong>. The Entr=
+opy Wranglers capture a lot of value, and they themselves create a platform=
+ for more entropy, and then new players come along and wrangle <em>that </e=
+m>entropy.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;">Think about the music industry.&nbsp;</p><div class=
+=3D"captioned-image-container-static" style=3D"font-size: 16px; line-height=
+: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"display:=
+ inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"m=
+argin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"tex=
+t-align: center;"></td><td align=3D"left" class=3D"content" width=3D"1008" =
+style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" hre=
+f=3D"https://email.mg2.substack.com/c/eJxVUsmOpDAM_ZrKDRSyEQ4cWi3Nb6AshooKE=
+joJXVP99e2Cw2gky6vsZ_nZmQpLyq9xT6WSt5rqa4cxwrOsUCtkchTIU_Bjp5jmUgzEj8J3WmoS=
+yjRngM2Edaz5ALIfdg3O1JDi2UEpk-Q-zk5ZBkCV6jsKTDBGvWI91drSWRp54ZrDB4gORviG_Eo=
+RyDrea93LjX_c2B8U52NbDluqcY_WpQ1TYTMLoJ2huvvb4piabuzz63L4x5KSx3hepz2nJUMp4R=
+swXyrAjh0XBJNvEPmGQWUP9wCs5waotNZp0VhjeCN4D80gO90Ybzmz0PeDFm3hrdnMT4rmWa69c=
+MZ1i9M9lyynO8-D6UGoxggqG0GdbYxzAudxsMApo26Y8G76r6ai3eNCwsgoe4vouFRStawdHGNe=
+SWFFR3vZ2farCLU-1_4m6Law_25E8hhTtSmHuGD5cTcbrGcBF5zQbkcM9TVBNHYFf_FYr3c4mZ0=
+WiJDxTfxkKj6BkH3XUTYg9sUbEi0GpoXWHUFkn7Ar_gP9BZX-xic" rel=3D"" style=3D"ali=
+gn-items: center; border: none; display: block; flex-direction: column; hei=
+ght: auto; margin: 0; padding: 0; text-decoration: none; width: auto;"><img=
+ data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-=
+9518-adb32be77984.s3.amazonaws.com/public/images/ff9a7e46-a405-40cb-acc4-ad=
+3ebe3020c9_1008x804.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&q=
+uot;:null,&quot;height&quot;:804,&quot;width&quot;:1008,&quot;resizeWidth&q=
+uot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:nul=
+l,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"550" heig=
+ht=3D"438.6904761904762" class=3D"wide-image" src=3D"https://cdn.substack.c=
+om/image/fetch/w_2016,c_limit,f_auto,q_auto:good,fl_progressive:steep/https=
+%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2F=
+public%2Fimages%2Fff9a7e46-a405-40cb-acc4-ad3ebe3020c9_1008x804.png" style=
+=3D"-ms-interpolation-mode: bicubic; border: none !important; display: bloc=
+k; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !importa=
+nt; vertical-align: middle; width: auto !important;"></a></td><td style=3D"=
+text-align: center;"></td></tr></tbody></table><figcaption class=3D"image-c=
+aption" style=3D"color: #767676; font-family: sans-serif; font-size: 14px; =
+font-weight: 300; line-height: 1.4em; text-align: center;"><em>Source: RIAA=
+, annotated by Not Boring</em></figcaption></figure></div><p style=3D"color=
+: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Napster =
+and other file sharing services wrought chaos on the market; <strong>Spotif=
+y</strong> worked with all of the parties involved to bring order to the ch=
+aos. Today, it&#8217;s worth $29 billion.&nbsp;Spotify made it easier for m=
+ore people to publish music &#8212; higher entropy &#8212; but it&#8217;s h=
+ard for most of them to make a living. That creates an opening for a new Wr=
+angler, maybe a Music NFT platform like <a href=3D"https://email.mg2.substa=
+ck.com/c/eJxFkEtuxCAQRE8zLC3AYOwFi2xyDcSn40GDwcMnjnP6MONFpFa3WqVS6ZXVFdaUT7=
+mnUtFrqXruICMcJUCtkFErkJV3kkx0HjlbkJPMkZnPyBf1lQE27YOsuQHamwne6upTfDswphzdp=
+QZsjKOMzowYIUbOhdDOCuCOWzD8ytXNeYgWJHxDPlMEFOS91r3cxo8b_exzHMdQUotu-Dl_-4-8=
+pJi-hpGRT3wa6LBYSt3EmWEEC07M8CxsCkcQN4a3lQ6lmVK1fQw2bSjLmKpJ2ce1y4-73iC8hQ6=
+i-t1a9PVUELUJ4C7GelX1plYrRMi9Qqd07QUxLgjBdOnZF1MvgS0de54J6skudVf8D_0DN1-AMw=
+" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">sound.xyz<=
+/a>. z</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0;">It doesn&#8217;t have to be that dramatic. An Entropy Wr=
+angler doesn&#8217;t have to save an industry from decline. <strong>Google<=
+/strong>, for example, took advantage of the good chaos created by the inte=
+rnet&#8217;s rapid growth by building a tool that made sense of it all. It =
+set the standard, and leagues of SEO specialists fight to follow it. In the=
+ process, it indexed itself to the growth of the internet. That&#8217;s bee=
+n kind to Google shareholders.&nbsp;</p><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;">That&#8217;s the kind of E=
+ntropy Wrangler Standard Metrics is building, bringing order to the chaos a=
+nd opportunity brought on by the growth of venture and web3 investing over =
+the past couple of years. In the process, it hopes to become an indexed bet=
+ on the growth of private market investing.&nbsp;</p><h3 style=3D"-moz-osx-=
+font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1=
+a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont=
+, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'S=
+egoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; l=
+ine-height: 1.16em; margin: 1em 0 0.625em 0;"><strong>The Quaestor Quest</s=
+trong></h3><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0 0 1em 0;">So the <strong>timing</strong> is perfect. How about th=
+e <strong>team</strong>?&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;">They&#8217;re intimately familia=
+r with the problem.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;">Before there was Standard Metrics, th=
+ere was Quaestor. And before Quaestor, there were spreadsheets. Lots and lo=
+ts of spreadsheets.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;">Very often, venture capitalists fund =
+people who are trying to solve a pain point in their personal or profession=
+al lives. Occasionally, VCs spin up their own companies &#8211; called <str=
+ong>incubation</strong> &#8211; by identifying a hole in the market with no=
+ solution and bringing in someone to lead a company to fill it. It&#8217;s =
+very rare to find stories about the overlap in that Venn Diagram: VCs incub=
+ating companies to solve their <em>own</em> pain points.&nbsp;</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>That&#8217;s how Standard Metrics began its life as Quaestor, inside the w=
+alls of 8VC. The venture capital firm&#8217;s partners realized that the co=
+mpanies in their portfolio, some of the most technically sophisticated in t=
+he world including Anduril, Asana, The Boring Company, Cityblock, Flexport,=
+ Oculus, Palantir, and Wish, were still updating them via spreadsheets (at =
+best) and PDFs (yuck), and that there might be an opportunity to fix that w=
+ith software.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;">According to the company&#8217;s <a href=3D=
+"https://email.mg2.substack.com/c/eJxFkdGOgyAQRb-mvGmEguIDD_uyv2EQRkuqYGHYx=
+r_faZvNJgOEuRnuzcFZhDXl0xypIHttE54HmAjPsgEiZFYL5Cl4w3uhr0qOzBvpuVaahTItGWC3=
+YTOYK7CjzltwFkOK74muE4rdzOhhEX50SoGV9Aa4xelBKrEsbhC9-_ja6gNEBwZ-IJ8pAtvMDfE=
+ol-vXRXxT7eBD3VuX9tdddo9qoWDKCO5GHRtjqtGFuDZ_SmkKgG8y9X1jaXkoYY3NYTNGIHnRHq=
+QeleUaWDCiE6-S_Kp61beiHZ0QvldylrwbFJ_bR5H99twGst9X0ZY6F7Tu_grFsokJ55QpAcn3m=
+91hewvEZaJzrzHgOUG08wb-gww_5N8QpxUoFP2InywSb6kGzjsxkvcHETGVo9BSa87I2Seaiv-m=
+v50rnPw" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">ann=
+ouncement post</a> in July 2020, &#8220;Quaestor was born from a simple que=
+stion: <strong>why is it so difficult for startups and investors to collabo=
+rate around financial data and business metrics?</strong>&#8221;</p><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;=
+">I&#8217;ve had this experience first-hand from both sides of the table, a=
+nd it&#8217;s a surprisingly real problem for something seemingly so simple=
+=2E&nbsp;</p><p style=3D"color: #1a1a1a;=20=
+font-size: 16px; line-height: 26px; =
+margin: 0 0 1em 0;">At Breather, we tried a bunch of things to keep our boa=
+rd members up to date on metrics, from the standard monthly investor update=
+ and quarterly board deck &#8211; which I&#8217;m sure some junior person o=
+n their team had to put into a spreadsheet &#8211; to operating models to a=
+n investor dashboard in Looker. Inevitably, that Looker got bloated with di=
+fferent requests for specific data points or some investor&#8217;s favorite=
+ metric based on their experience with another quasi-analogous company. It =
+was also as certain as death and taxes that an investor would see a number,=
+ take it out of context, and blow up its importance, wasting hours of the e=
+xec team and data team&#8217;s time.&nbsp;</p><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em 0;">As an investor &#821=
+1; albeit a non-lead one usually without data rights &#8211; I&#8217;m at t=
+he mercy of whatever founders decide to put in that month or quarter&#8217;=
+s update. Key metrics change often, companies report things differently, an=
+d all of that information is squirreled away somewhere in my inbox until I =
+take the time to manually move it from email to Airtable. It makes staying =
+on top of portfolio companies&#8217; performance a bigger challenge than it=
+ needs to be.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;">On the individual level, it&#8217;s a pain.=
+ At the system level, it&#8217;s a huge drain of time and resources:&nbsp;<=
+/p><ul style=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-lef=
+t: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; marg=
+in-bottom: 0;">Companies spend too much time pulling together numbers for i=
+nvestors.&nbsp;</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; =
+margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-botto=
+m: 0;">Investors spend too much time manually tracking and cleaning data, i=
+f they do it at all.&nbsp;</p></li><li style=3D"margin-bottom: 4px; margin-=
+left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><=
+p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; m=
+argin-bottom: 0;">Surprises lead to tension between companies and their inv=
+estors, which means that the relationships aren&#8217;t as productive as th=
+ey could be.&nbsp;</p></li><li style=3D"margin-bottom: 4px; margin-left: 8p=
+x; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-b=
+ottom: 0;">Investors don&#8217;t allocate money as effectively as they coul=
+d to the most productive companies.&nbsp;</p></li><li style=3D"margin-botto=
+m: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-for=
+mat: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0; margin-bottom: 0;">The most productive companies need to wast=
+e too much time fundraising when they could just focus on building their bu=
+sinesses.&nbsp;</p></li></ul><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;">If the solutions to some of the bigge=
+st challenges facing humanity lie in the technological innovation of talent=
+ed entrepreneurs, then wasting their time going back and forth on metrics s=
+hould be a crime. Conversely, tools that save entrepreneurs time and let th=
+em focus on the things they&#8217;re uniquely good at should generate a ton=
+ of leverage.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;">So the team at 8VC, including partners Joe =
+Lonsdale and Alex Moore, put together a co-founding team to go build it, wi=
+th a mix of operator and investor DNA:</p><ul style=3D"margin-top: 0;"><li =
+style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top:=
+ 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0; margin-bottom: 0;"><a href=3D"https://em=
+ail.mg2.substack.com/c/eJxFkMtuxCAMRb9mWEZAII8Fi276G4iHm6AhkIIzo_x9yWRRybJl=
+Wfbxvc4gLLmcas8VyZU0njuoBO8aAREKOSoUHbxiA596KWbilfBskhMJVf8UgM2EqLAcQPbDxuA=
+Mhpw-G5RySVY1zNCPjFPOvbFyHh0feyOZ884PM7X25prDB0gOFLygnDkBiWpF3Ouj_3rw7xb4Dt=
+dHnctb657wCikCrPUgQV3XWwjWy0EOHe9m13CDFFYwOkpmu98qhviO40PQbeFdPWxF457XNVJUy=
+mhzCWlp4-dqNoifQVOkW92OFPDUkIyN4G-xeHv2ka8XSFCal14bbE4JOTJG-dzYt7jmhpj5JKaJ=
+kUb2uW2lf-gf-1yDmg" rel=3D"" style=3D"color: #1a1a1a; text-decoration: unde=
+rline;">Kevin Hsu</a> was doing an EIR stint at 8VC after being an early PM=
+ at Carta, bringing deeply relevant experience to the problem.</p></li><li =
+style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top:=
+ 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0; margin-bottom: 0;"><a href=3D"https://em=
+ail.mg2.substack.com/c/eJxFUMGOhSAM_JrH0QCC4oHDXvY3DEJV8hBcqGv8-8XnYZOmTTOZ=
+TmesQVhSvvSeCpK7jXjtoCOcJQAiZHIUyKN3mnVctVIMxGnhmJKK-DLOGWAzPmjMB5D9mIK3Bn2=
+KHwalXJJVG-qYbGHu2DDMQz_1TPTKUulAzqqz_aNrDuchWtDwC_lKEUjQK-JeXu3Xi3_XwtPfHz=
+U2bXVzEK_3mo64EK855XcJ1spOdg1vBsu566SYBKO9ZFPzU0QXztC_BN0W3pRjKmjs-z5Gso4Jp=
+5R9XCr8Xs0G4QNUQ2Od2xE9XiNEMwVwj1d8Ivu4HxeIkGuUbjRYgxKyZ4zyoWo_3moYYuBKKMVI=
+VXapsuK_6B9hAIMk" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underl=
+ine;">Deny Khoung</a> worked as a designer at 8VC, helping spin up incubate=
+d companies like <a href=3D"https://email.mg2.substack.com/c/eJxFkMGOhCAMhp=
+9mOBqogHjgsJd9DYNQHTIILuAa336Z8bBJ0yb90375f2sqrilfek-lkneb6rWjjniWgLViJkfBP=
+HmnmQTVCz4Sp7ljSijiy7RkxM34oGs-kOzHHLw11af4uaAUBHlqhlIKZD0oYP0s6aCok3ZZDBhp=
+Lbibaw7nMVrU-Iv5ShFJ0M9a9_Lovx7w3eo8z84si4--Xp1NbUO8Bgrv4qwXUsgOutECOCn4zBk=
+dBJu7n8JlOMPw4HRboSvHXKqxr_ZhI1nHVOeUfVyb_HqaDcNHaFamNrfjDZswmjmgu13WO6yP72=
+nFiLmF6CZTW0RcDIxRGBv7dtVi4CMorhQjjexSu4r_0D-2dYBi" rel=3D"" style=3D"color=
+: #1a1a1a; text-decoration: underline;">Affinity</a>.</p></li><li style=3D"=
+margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso=
+-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0; margin-bottom: 0;"><a href=3D"https://email.mg2.s=
+ubstack.com/c/eJxFkMtuxCAMRb9mWEaBQB4LFt30NxAPJ0OHQApOo_TrSyaLShYIWfbhHqsRl=
+pRPuaWC5DoUnhvICEcJgAiZ7AWy8k7Sno2d4BNxkjs6ipH4ouYMsGofJOYdyLab4K1Gn-J7om2Z=
+IE9pte2YcQNvzTzSduDdPHNDRTcz3feDu7l6dx6iBQk_kM8UgQT5RNzKo_t4sM9aePjrR41Na31=
+9rRB0eZ3Z619PvGQtu4rTTvSib1gzWcZcL7jhlSmoab4L78MRhgdv14U1ZTcFtX1d-0iWMaFJ2c=
+eltl9PXbe_GzWTqve6R4-ngqhNAHfHxdvaW4BaIEKuNp3SWF1xMVDasqmy73jVB5_YyMeRkkp2q=
+U7Ff-gfaciEpQ" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline=
+;">John Melas-Kyriazi</a> joined as CEO after five years as a VC at Spark C=
+apital.</p></li></ul><div class=3D"captioned-image-container-static" style=
+=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: ce=
+nter;"><figure style=3D"display: inline-block; margin: 0 auto; width: 100%;=
+"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6=
+em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" c=
+lass=3D"content" width=3D"908" style=3D"text-align: center;"><a class=3D"im=
+age-link" target=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJxVUk=
+uOpDAMPU2xA-VLwoJFq6W5BnISQ0UFCZ2Erqk-fadgMRrJ8lf2s_xsoeAS02vcYy7NW03lteMY8=
+JlXLAVTc2RMk3cj7ZnmUgyNG4WjWurG52lOiBv4dSzpwGY_zOotFB_D2UEIk819tIo55WZHiZE9=
+UCUcU3Q2RipNOJP2woXDeQwWR_zG9IoBm3W8l7LnG_-4sT9VrAtdPkwuYB-djVtN-Q0WrHbGYu9=
+vW8eUeGOfX5fDP5YYXY3nddpTXBLm7L-x5nNB3GvHBcHkG0S-Yaoyh31gracWiTTGatEaAN4Krr=
+AdJNUtOMOZQaUGLbrMO9jgJwZ45muvOuO6xemeS-bTHWaUaMC2IHmdx-a-BWCu7bkSEuRMCVXTQ=
+PTfXvNuD0vjR0bYWwTlspd9x7rBMuZ6KYygRElquq8s-vW5qpsg28L-O1GTxhCLicmHpZYfd9hw=
+PQt1v6na7Qi-vCYMYFZ0F43l-oaT2GnBgKl-iZug1B8QUlFK2FCxL9oqz2JgWmhNm4rsYu0K_0B=
+_AUmdxeA" rel=3D"" style=3D"align-items: center; border: none; display: blo=
+ck; flex-direction: column; height: auto; margin: 0; padding: 0; text-decor=
+ation: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https:=
+//bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/im=
+ages/9fe5ebac-a533-42f6-aa2d-63745a5f1017_908x683.png&quot;,&quot;fullscree=
+n&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:683,&quot;width&=
+quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quo=
+t;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}=
+" alt=3D"" width=3D"550" height=3D"413.7114537444934" class=3D"wide-image" =
+src=3D"https://cdn.substack.com/image/fetch/w_1816,c_limit,f_auto,q_auto:go=
+od,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb=
+32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9fe5ebac-a533-42f6-aa2d-6374=
+5a5f1017_908x683.png" style=3D"-ms-interpolation-mode: bicubic; border: non=
+e !important; display: block; height: auto; margin: 0 auto; margin-bottom: =
+0; max-width: 100% !important; vertical-align: middle; width: auto !importa=
+nt;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></table><=
+figcaption class=3D"image-caption" style=3D"color: #767676; font-family: sa=
+ns-serif; font-size: 14px; font-weight: 300; line-height: 1.4em; text-align=
+: center;"><em>Standard Metrics Co-Founders Hsu, Melas-Kyriazi, and Khoung<=
+/em></figcaption></figure></div><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em 0;">The trio, which had a mix of opera=
+tor and investor DNA with a sprinkle of experience building best-in-class t=
+ools for the space, spun out of 8VC in March 2020 as Quaestor, named after =
+the treasurers of Ancient Rome.&nbsp;</p><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>(They&#8217;re not th=
+e only ones who liked the name for a money-related business &#8211; I uncov=
+ered Quaestor.com&#8217;s first inhabitant from the <a href=3D"https://emai=
+l.mg2.substack.com/c/eJxFkMmOwyAQRL8mHBGrlwOHucxvWCwdGw0GB3As__3g-BCp1S1Vqb=
+qkZ3WFOeVTbalUdK2pnhuoCEcJUCtktBfIk3eKdmzgUozIKeHoIAfky_TMAKv2QdW8A9p2E7zV1=
+af4SRDCJFoUkz0j0j71wIlx8iksWAlgiOWdATvevXp3HqIFBW_IZ4qAglpq3cqD_zzYb5sDDNbZ=
+Lv4NOOX5VtpmhFDCOWVc9oQ24Yp9U8eBX7uGUlPGNq1NQl4xwq4RlMtOdpjh0TLmOimMoKSX1OB=
+XEV04Qv8QZJ0ZLrspVdu_6wXKKqZqUvZxbvbfolcIH6MRmNpd9-jrOUHUJoC74dSb8QfXNEOE3N=
+i7SddGVsieUsLG1n3DaPTEyAYxDBS1ZpdaKn5L_wEFe5DV" rel=3D"" style=3D"color: #1=
+a1a1a; text-decoration: underline;">Internet Archive&#8217;s Wayback Machin=
+e</a>.)</em></p><div class=3D"captioned-image-container-static" style=3D"fo=
+nt-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: center;"=
+><figure style=3D"display: inline-block; margin: 0 auto; width: 100%;"><tab=
+le class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><=
+tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=
+=3D"content" width=3D"550" style=3D"text-align: center;"><a class=3D"image-=
+link" target=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJxVUsmOpD=
+AM_ZriBsriQHLg0GppfgNlMVRUkNBJ6Jrqr-8UHEYjWV5lP8vPVhdcYnqNe8yleaupvHYcAz7zi=
+qVgao6MafJupD2TXIBq3AiOSiEbn6c5IW7ar2NJBzb7YVZvdfExnB2EMNHcR5AgCEpOpbYgSe-I=
+hkFaxe1MgVt94erDeQwWR_zG9IoBm3W8l7LnG_-4sT9VrAtdPkwu2j46G7ea8ptesNoZi72_bR1=
+T4o19fl0O_1hidDWe12lPcUmYs__Gms8Fca8dFwQTbxDxhqnKHPaBtZ5aJMIYK6E1WvMW-ICtEl=
+S22hnODA6DktBl3ulN_8Sgn_naq864bnG655L5dCWligHMrVDAWiBoWg0cWyu4mRVS1gs19Yz95=
+YR0i58bPzLC3gKUi170HeuUZcz1AgxQMghquq8M_fpchxuQbWH_nahJY4jFxOTDUsuPu95wPQt1=
+v6na7Qi-vCYM2qzoLhrL9Q0nsdOCAVP9EjfpUn8AxEApYapiX7RVnkExCVLSpiK7WLvCP9BfyiT=
+Esg" rel=3D"" style=3D"align-items: center; border: none; display: block; f=
+lex-direction: column; height: auto; margin: 0; padding: 0; text-decoration=
+: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://buc=
+keteer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/=
+8119244f-5942-40eb-a43e-c53bf9e12659_622x300.gif&quot;,&quot;fullscreen&quo=
+t;:null,&quot;imageSize&quot;:null,&quot;height&quot;:300,&quot;width&quot;=
+:622,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:nu=
+ll,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=
+=3D"" width=3D"550" height=3D"265.2733118971061" class=3D"" src=3D"https://=
+cdn.substack.com/image/fetch/w_550,c_limit,f_auto,q_auto:good,fl_lossy/http=
+s%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2=
+Fpublic%2Fimages%2F8119244f-5942-40eb-a43e-c53bf9e12659_622x300.gif" style=
+=3D"-ms-interpolation-mode: bicubic; border: none !important; display: bloc=
+k; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !importa=
+nt; vertical-align: middle; width: auto !important;"></a></td><td style=3D"=
+text-align: center;"></td></tr></tbody></table></figure></div><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">In J=
+uly 2020, Questor announced a $5.8 million seed round from 8VC, Spark, Abst=
+ract Ventures, Riot Ventures, Fathom Ventures, and GFC. In the <a href=3D"h=
+ttps://email.mg2.substack.com/c/eJxFUc1u9CAMfJrlRhQI5OfAoZfvNSIC3g0qgRRMq7z=
+9591VVcnySLbGMxo7i_DI5TJnrsiebcXrBJPgp0ZAhMJahbIGb8Qo50GrhXmjvJj1zEJd7wXgsC=
+EaLA3Y2bYYnMWQ04vR91Kz3Qxunqf7MMxSCzcucpgWbeWwaD9KKcXw1rXNB0gODHxDuXICFs2Oe=
+Nbb8HGT_6gQ3O5KS27vXD5oIHvZE_TTb_tqFirmwkPlBUL6hoQhPfjWakhQKz8AS3Dc5RjtlsvL=
+Kr8TAXfgFW3BdvKT4OIlt-Q5FEt3WTCk9SwlBj3qsZPd4qT0o1abEv2kxdZ9VTXGnzjdVH88ZFf=
+bRgfd59MrKyZlJEEyQ-vP3R4QXwuKbCU8Wgp4rZDsFsG_08T3U175rg9IZAXBrxbpFUpPQvRyIe=
+13ehS3WuSs5lkwUvaZWOlP9D-RvaRC" rel=3D"" style=3D"color: #1a1a1a; text-deco=
+ration: underline;">TechCrunch piece announcing the raise</a>, Melas-Kyriaz=
+i explained the types of questions Quaestor would help answer:&nbsp;</p><bl=
+ockquote style=3D"border-left: 4px solid #67bdfc; margin: 1em 0;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; =
+margin-left: 1em;"><em>How do VCs and their companies interact around finan=
+cial data, whether it&#8217;s documents like P&amp;L / balance sheet / cash=
+ flow statement [or] individual financial KPIs like revenue, gross margin, =
+net income, ARR, etc.? How do companies share that information with their i=
+nvestors to keep them updated? How do investors support their companies in =
+understanding what goals they should be setting?</em></p></blockquote><p st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em =
+0;">As TechCrunch highlighted, Quaestor was opinionated from the beginning,=
+ with two goals:&nbsp;</p><ol style=3D"margin-top: 0;"><li style=3D"margin-=
+bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-b=
+ottom: 0;"><strong>Turn the spreadsheet into a SaaS product</strong>. Like =
+many SaaS businesses, goal number one was just to unbundle Excel with speci=
+alized software.&nbsp;</p></li><li style=3D"margin-bottom: 4px; margin-left=
+: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Define=
+ the Metrics that matter. </strong>Quaestor&#8217;s customers all work from=
+ the same set of key metrics like cash balance, revenue, gross margin, and =
+burn.&nbsp;</p></li></ol><div class=3D"captioned-image-container-static" st=
+yle=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align:=
+ center;"><figure style=3D"display: inline-block; margin: 0 auto; width: 10=
+0%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 =
+1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left=
+" class=3D"content" width=3D"908" style=3D"text-align: center;"><a class=3D=
+"image-link" target=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJx=
+VUsuOpDAM_JrmBsqThAOH0Uj7GygPQ0cNCZOE6e35-nHDYbWSZTux7Cq57EyFJeXXuKdSm7eb6m=
+uHMcKzrFAr5OYokKfgR9ozzaUYGj8KT7XUTSjTnAE2E9ax5gOa_bBrcKaGFM8OQphs7qMznmlBh=
+DBzT2VPuGFEcMW9dorNhFy45vABooMRviG_UoRmHe-17uXGP27sD5rzsSuHLdW4R-fShl9hMwtg=
+nKG6-zvimJpu7PPrSvjHkpLH97xOe05LhlLCN-B_qQA7dlwQTL5B5BsGnT3cA7CeWyDSWqdFa43=
+hLZKGdpBUt8ZbziwoNWjRFd6ZzfykaJ7l4oUzrl2c6UmynGmvh1lxLVvq0Yl-1q2mA7RCDsrNM1=
+Gesmkg-i9nrNvj0oSREfY2QbnsZd-xbnCM-V4KKyhRktruq4h-fa7qJsi2sP9W1OQxpmpTDnHB8=
+uNuNljPAvKbMG5HDPU1QTR2BX_JWK9rOIWdFoiQ8Ur8ZCregJCKUsIGxL5kQ53FgPJqTRtE9gm7=
+4j_QX11mxHw" rel=3D"" style=3D"align-items: center; border: none; display: =
+block; flex-direction: column; height: auto; margin: 0; padding: 0; text-de=
+coration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;htt=
+ps://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public=
+/images/689f7385-1d85-46f8-819e-4597cff07d12_908x322.png&quot;,&quot;fullsc=
+reen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:322,&quot;wid=
+th&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&=
+quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:nu=
+ll}" alt=3D"" width=3D"550" height=3D"195.04405286343612" class=3D"wide-ima=
+ge" src=3D"https://cdn.substack.com/image/fetch/w_1816,c_limit,f_auto,q_aut=
+o:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518=
+-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F689f7385-1d85-46f8-819e-=
+4597cff07d12_908x322.png" style=3D"-ms-interpolation-mode: bicubic; border:=
+ none !important; display: block; height: auto; margin: 0 auto; margin-bott=
+om: 0; max-width: 100% !important; vertical-align: middle; width: auto !imp=
+ortant;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></tab=
+le><figcaption class=3D"image-caption" style=3D"color: #767676; font-family=
+: sans-serif; font-size: 14px; font-weight: 300; line-height: 1.4em; text-a=
+lign: center;"><em><a href=3D"https://email.mg2.substack.com/c/eJxVkE2OwyAM=
+hU9TlhEQIGTBYja9RsSPk6ASSIG0yu2HNovRWJaRbT0_8VldYUn5VHsqFX3KVM8dVIR3CVArZHQ=
+UyJN3iggqe85G5BRzRHKJfJnmDLBpH1TNB6D9MMFbXX2KXwXGlKNV8Zn3wKhhowYzynmmwg5OUM=
+Hn0XHcX776cB6iBQUvyGeKgIJaa93Lrf-50XvLN5hOZ7v6F3QpL9ekVYopxpJwzGiLNvgvex4aS=
+k25s2lrLfKqCT7JSM8FFx3tRkupE5wZRvDAiemehYnwDsON4W2hXTlMqdo-PidQVjFVk7KPS1s_=
+Vr1B-C7a96f2bkf09ZwgahPAXWTqBfjLalogQm7g3aRrw8r4QAimY_O-SDR0bKSSSUlQc3apqeK=
+f6S97f48T" rel=3D"">Early Quaestor Website, August 2020 via Wayback Machine=
+</a></em></figcaption></figure></div><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0 0 1em 0;">Why guide customers to use th=
+e financial metrics? As Melas-Kryiazi explained at the time, &#8220;Most en=
+trepreneurs come from a product background or engineering or sales and they=
+ might not necessarily have worked in finance before.&#8221; A set of &#823=
+0; standard metrics &#8230; would make it easy for entrepreneurs to underst=
+and which metrics matter.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0 0 1em 0;">That&#8217;s a good, simple ans=
+wer for the press, but there&#8217;s more there than that. The decision to =
+pick standard metrics from the start is one of two subtle strategic decisio=
+ns the company made that will ultimately determine whether it&#8217;s succe=
+ssful in building the data and relationship graph for the private markets:<=
+/p><ol style=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-lef=
+t: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Setti=
+ng Standard Metrics</strong></p></li><li style=3D"margin-bottom: 4px; margi=
+n-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>=
+Focusing on VCs as the Target Customer</strong></p></li></ol><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">There=
+ are strong companies in the market including incumbents like IHS Markit, a=
+nd new entrants &#8211; <a href=3D"https://email.mg2.substack.com/c/eJxFUMt=
+uxCAQ-5rlGAHhlQOHXvobEY_ZLFoCKZCu8vclyaGSNaPRyLZsZxosuRx6y7Whc8zt2EAn-NQIrU=
+FBe4UyB6-JoGrkbEJeM08UVyjU-VkAVhOibmUHtO02BmdayOliYEw5emkp8VMoOYrRSIulF85N4=
+9NTK60iRInb1-w-QHKg4RfKkROgqF-tbfUxfj3od8cCzRlr4uDy2k8UNMX0BCMjF1wMdJgcpV5w=
+ZhnBkhM7_FQm4ifKB8PrQoe629qMe58SqOiUm80lpKW_3y-zwqV95pj7XvcU2jFDMjaCvyO2u6k=
+r9LxAgtIb9LNpvR_GJSGYTt37jtQ7YBNVTCmCurPPnZX-Tf8At1J-0A" rel=3D"" style=3D"=
+color: #1a1a1a; text-decoration: underline;">Cabal</a> and <a href=3D"https=
+://email.mg2.substack.com/c/eJxFkEuOwyAQRE8TlhZgwHjBYjZzDcSn7aBgcAAn8u2HxIu=
+RWt1qlUpPVc40WHM51Z5rQ5-l27mDSvCuEVqDgo4KRQeviKBy5GxGXjFPJJcoVL0UgM2EqFo5AO=
+2HjcGZFnL6OjCmHN0VAObjYg2TGBY2CjtZzgmeFzEbTAlcXHP4AMmBgheUMydAUd1b2-tt_LnR3=
+z6vUIONMLxcf1BQFNPPMDJywcVAh9lR6gVnlhE8cWKHZ2UivuN0Y3hb6VAPW5txj8HlDRWVcrO5=
+hLR2-XE3G8Sv0FPofrcjhXZqSKYz_RWwXT19I-sVEpTen9em9XYYnwjBdO7sK1BvgM1UMikJ6mS=
+fuyv9Q_8ADI1-cA" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underli=
+ne;">Visible.vc</a> &#8211; that look like direct competitors on the surfac=
+e.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0;">But Standard Metrics is betting that those <strong>two</stro=
+ng> <strong>strategic choices</strong> will differentiate it and help win t=
+he market.&nbsp;</p><h3 style=3D"-moz-osx-font-smoothing: antialiased; -web=
+kit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact D=
+isplay', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, =
+Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0=
+ 0.625em 0;"><strong>Standardizing Metrics&nbsp;</strong></h3><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">With=
+ this Series A announcement, Quaestor is officially changing its name to <s=
+trong>Standard Metrics</strong>.</p><div class=3D"captioned-image-container=
+-static" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; =
+text-align: center;"><figure style=3D"display: inline-block; margin: 0 auto=
+; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-=
+alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td al=
+ign=3D"left" class=3D"content" width=3D"548" style=3D"text-align: center;">=
+<a class=3D"image-link" target=3D"_blank" href=3D"https://email.mg2.substac=
+k.com/c/eJxVUsmOpDAM_ZrKDZSdcMih1dL8BsrioqKChE5C11R_fQc4jEayvMp-lp-dqTCn_NZ=
+bKhUdaqrvDXSEV1mgVshoL5Cn4DWRVDHBR-Q190QJhUKZ7hlgNWHRNe-Att0uwZkaUjw7MKYCPT=
+QnRhJCPPeYCEWlwiDYXQGWg8fGygvX7D5AdKDhG_I7RUCLftS6lRv7uNE_TZyPfdltqcY9e5fWl=
+gqrmaHZO1T3OGwbU9ONfn5dDvuYU_Itvi_TltOcoZTwDS1fKsDWOi4IKg4QccA0ZXf3hFbPHWBh=
+rVO8s8awjrMBulEQ1RlvGbUwDKPifWG9Wc1PiuZVrr3ajOsWp3suWU6Xe-cGDKRjAyNtnvWdxdJ=
+2o-MWpLFu5DAJrv5SrPotzihoiukhnDAhhexpPzpKvRTccoIHQWz_VbhcXstw43id6X8nQlnHVG=
+3KIc6t_HyYFZaz0Pabml33GOp7gmjsAv6isV7fcBI7zRAhty_xk6ntB7gYCMF0bNgXbY1nPlLFl=
+SKoIfvUuuI_0F9YSsWg" rel=3D"" style=3D"align-items: center; border: none; d=
+isplay: block; flex-direction: column; height: auto; margin: 0; padding: 0;=
+ text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&=
+quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.co=
+m/public/images/4dcc70e1-3731-43bd-b06b-9c4be6abc94e_548x208.png&quot;,&quo=
+t;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:208,&=
+quot;width&quot;:548,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&q=
+uot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&=
+quot;:null}" alt=3D"" width=3D"548" height=3D"208" class=3D"" src=3D"https:=
+//cdn.substack.com/image/fetch/w_548,c_limit,f_auto,q_auto:good,fl_progress=
+ive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.a=
+mazonaws.com%2Fpublic%2Fimages%2F4dcc70e1-3731-43bd-b06b-9c4be6abc94e_548x2=
+08.png" style=3D"-ms-interpolation-mode: bicubic; border: none !important; =
+display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: =
+100% !important; vertical-align: middle; width: auto !important;"></a></td>=
+<td style=3D"text-align: center;"></td></tr></tbody></table><figcaption cla=
+ss=3D"image-caption" style=3D"color: #767676; font-family: sans-serif; font=
+-size: 14px; font-weight: 300; line-height: 1.4em; text-align: center;"><em=
+>From Quaestor to Standard Metrics</em></figcaption></figure></div><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Aside from being much easier to spell, John told me that the new name bett=
+er reflects the company&#8217;s mission: &#8220;In this next growth phase, =
+we are building true standards for how critical information is shared in th=
+e private markets for the first time using software.&#8221;&nbsp;</p><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;"><strong>Building a standard set of metrics was Standard Metrics&#8217; f=
+irst strategic choice.</strong></p><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0 0 1em 0;">Picking a certain set of metric=
+s that every investor starts with, instead of letting investors or companie=
+s choose their own starting set, is a strategic decision, not in the vague =
+sense, but in the sense that it comes with trade-offs that the team believe=
+s are worth it. Every company using Standard Metrics starts with these eigh=
+t metrics:&nbsp;</p><ul style=3D"margin-top: 0;"><li style=3D"margin-bottom=
+: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-form=
+at: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px=
+; margin: 0; margin-bottom: 0;">Cash in Bank&nbsp;</p></li><li style=3D"mar=
+gin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-sp=
+ecial-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0; margin-bottom: 0;">Net Burn&nbsp;</p></li><li style=
+=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;=
+ mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0; margin-bottom: 0;">Runway&nbsp;</p></li><li s=
+tyle=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: =
+4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0; margin-bottom: 0;">Revenue&nbsp;</p></li>=
+<li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-=
+top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">Gross Margin&nbsp=
+;</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: =
+0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">Operati=
+ng Expenses&nbsp;</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px=
+; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-b=
+ottom: 0;">Net Income&nbsp;</p></li><li style=3D"margin-bottom: 4px; margin=
+-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;">=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; =
+margin-bottom: 0;">Headcount</p></li></ul><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;">Investors can and do cho=
+ose to add other metrics to request from their companies &#8211; they may b=
+e vertical-specific metrics, metrics the investor has found to be particula=
+rly predictive, or even things like ESG metrics that matter to the investor=
+ &#8211; but <strong>it all starts with those eight</strong>. I asked John =
+why they chose those eight when each vertical has its own metrics, and he e=
+xplained:&nbsp;</p><blockquote style=3D"border-left: 4px solid #67bdfc; mar=
+gin: 1em 0;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px=
+; margin: 0 0 1em 0; margin-left: 1em;"><em>There are metrics that apply to=
+ every company, and then there are metrics that are useful for evaluating s=
+pecific subsectors (e.g. SaaS, consumer apps, marketplaces, etc.). We are b=
+uilding out sector-specific standards as well as global standards, but star=
+ting with global ones.</em></p></blockquote><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;">The approach is subtly=
+ different than Visible.vc&#8217;s. While both companies let investors cust=
+omize metrics, <strong>Standard Metrics always includes the same eight metr=
+ics</strong>, whereas Visible.vc lets investors start from scratch for each=
+ segment or even portfolio company.&nbsp;</p><div class=3D"captioned-image-=
+container-static" style=3D"font-size: 16px; line-height: 26px; margin-botto=
+m: 16px; text-align: center;"><figure style=3D"display: inline-block; margi=
+n: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso=
+-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></=
+td><td align=3D"left" class=3D"content" width=3D"908" style=3D"text-align: =
+center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://email.mg=
+2.substack.com/c/eJxVUsmOpDAM_ZrKDZQVwoFDq6X5DZTFUFFBQieha6q_vl1wGI1keZX9LD=
+87U2FJ-TXuqVTyVlN97TBGeJYVaoVMjgJ5Cn5kHddCyYH4UXqmlSahTHMG2ExYx5oPIPth1-BMD=
+SmeHZRyRe6jlfPsZmU4UAlG45iOMsXBetcZzuSFaw4fIDoY4RvyK0Ug63ivdS838XHjf1Ccj205=
+bKnGPVqXNkyFzSyAdobq7m-LY2q68c-vyxEfS0oe43md9pyWDKWEb8B8qQA7dlwQXL1B1BsGlT3=
+cA7CeG6DKWqdlY40RjRQ9NINiujHeCm6h7wct2yJas5mfFM2zXHvhjOsWp3suWU6XMmeZ0arp8Z=
+KNnDlthnnwjWCcil5RJXs1DVT_lZS2e1xIGDnlb5FMqE51LW8Hx7nvlLSS0V4x234V2a3Ptb9Ju=
+i38vxORPMZUbcohLlh-3M0G61nA_Sa02xFDfU0QjV3BXzTW6xtOYqcFImT8Ej-Zij8gVc8Y5QNi=
+X7Qhz3LgWmrNCCL7hF3xH-gvx7bE4w" rel=3D"" style=3D"align-items: center; bord=
+er: none; display: block; flex-direction: column; height: auto; margin: 0; =
+padding: 0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;=
+src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.a=
+mazonaws.com/public/images/01cb1a85-7549-4f20-9f9d-312037505475_908x400.png=
+&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&=
+quot;:400,&quot;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&qu=
+ot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,=
+&quot;href&quot;:null}" alt=3D"" width=3D"550" height=3D"242.2907488986784"=
+ class=3D"wide-image" src=3D"https://cdn.substack.com/image/fetch/w_1816,c_=
+limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bb=
+c84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F01cb1a=
+85-7549-4f20-9f9d-312037505475_908x400.png" style=3D"-ms-interpolation-mode=
+: bicubic; border: none !important; display: block; height: auto; margin: 0=
+ auto; margin-bottom: 0; max-width: 100% !important; vertical-align: middle=
+; width: auto !important;"></a></td><td style=3D"text-align: center;"></td>=
+</tr></tbody></table><figcaption class=3D"image-caption" style=3D"color: #7=
+67676; font-family: sans-serif; font-size: 14px; font-weight: 300; line-hei=
+ght: 1.4em; text-align: center;"><em>Visible.vc</em></figcaption></figure><=
+/div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin=
+: 0 0 1em 0;">On the surface, Visible.vc&#8217;s approach might appear to m=
+ake more sense. <em>Of course</em> customers should get to choose for thems=
+elves, and of course different types of companies should have different set=
+s of metrics.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;">And if you&#8217;re building a purely SaaS =
+product, it probably is. But Standard Metrics has a bigger vision: it&#8217=
+;s trying to build a <strong>data and relationship graph</strong> on top of=
+ which it and others can build a series of apps. Today, the data that inves=
+tors get from companies is all over the place, negotiated on a case-by-case=
+ basis, and practically impossible to compare consistently. So to start, St=
+andard Metrics needs to wrangle that entropy and build a standardized set o=
+f metrics.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;">In other words, just as equity is the atomic unit on=
+ top of which Carta built a series of products, <strong>operational metrics=
+ are the atomic unit on top of which Standard Metrics will build a series o=
+f products</strong>.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0 0 1em 0;">Standard Metrics wants to build <str=
+ong>the core system of record for operational metrics</strong>, the main so=
+urce of truth investors rely on to run their businesses and make decisions.=
+ &#8220;Standards allow everyone to move faster,&#8221; John explained, &#8=
+220;and we think there are enormous advantages to standardization of data t=
+hrough software. For example:&nbsp;</p><blockquote style=3D"border-left: 4p=
+x solid #67bdfc; margin: 1em 0;"><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0; margin-left: 1em;"><em>We can make=
+ it lightning fast and automated for companies to pull their metrics of int=
+erest into our platform if those metrics are standardized and accessible th=
+rough various APIs. Also, we will be able to offer context to companies ove=
+r time on their performance &#8212; for example, how do you stack up agains=
+t other SaaS companies in your lead investor's portfolio in terms of ARR gr=
+owth or NDR?</em></p></blockquote><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;">But picking metrics is one thing=
+, collecting them is another. Standard Metrics offers integrations with ban=
+ks and accounting software to make collecting the metrics seamless.</p><div=
+ class=3D"captioned-image-container-static" style=3D"font-size: 16px; line-=
+height: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"di=
+splay: inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wr=
+apper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=
+=3D"text-align: center;"></td><td align=3D"left" class=3D"content" width=3D=
+"908" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blan=
+k" href=3D"https://email.mg2.substack.com/c/eJxVUsmOpDAM_ZriBsrikOTAodXS_Ab=
+KYihUkNBJ6Jrqr-8UHEYjWV5lP8vPzhScY3oNe8yleauxvHYcAj7ziqVgao6MaVz8QHumuADd-A=
+E8VUI1Sx6nhLiZZR1KOrDZD7suzpQlhrODECaa-zBpgajAgxATFbz3wAEYgUlaCyD9hWsOv2BwO=
+OA3plcM2KzDvZQ93_jHjf2p4nzo8mFzMe7RubjV1LKZGaudsLj729YxJd7Y59fl8I85Rl_jaR33=
+FOeEOS_fWPO5IO6144Jg4g0i3jBV2cM9sNZTi0RY6xS01hjeApfYakFVa7zlzKKUWkGXeWc28xO=
+DeeZrrzrjusXpnkvm03VCerS0bycipxaY0a22PWtJT5zQk6Z8oqMm6i-nstvD3CwDI-wtQLnoRd=
+-xTjvGfC_AAiVSUNt9ZejX5ypvQLaZ_XeiJg0hFhvTEuZaftzNhutZqPuN1W5HWMprxGDsiv6is=
+VzfcBI7zhgw1S_xoyn1B0BISgnTFfuirfIMmilQijYV2cfaFf6B_gJmNsU_" rel=3D"" style=
+=3D"align-items: center; border: none; display: block; flex-direction: colu=
+mn; height: auto; margin: 0; padding: 0; text-decoration: none; width: auto=
+;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa=
+3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/c57deb16-f07f-42a9-=
+9b62-060c59f913f1_908x317.png&quot;,&quot;fullscreen&quot;:null,&quot;image=
+Size&quot;:null,&quot;height&quot;:317,&quot;width&quot;:908,&quot;resizeWi=
+dth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot=
+;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"550"=
+ height=3D"192.01541850220264" class=3D"wide-image" src=3D"https://cdn.subs=
+tack.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep=
+/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.=
+com%2Fpublic%2Fimages%2Fc57deb16-f07f-42a9-9b62-060c59f913f1_908x317.png" s=
+tyle=3D"-ms-interpolation-mode: bicubic; border: none !important; display: =
+block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !imp=
+ortant; vertical-align: middle; width: auto !important;"></a></td><td style=
+=3D"text-align: center;"></td></tr></tbody></table><figcaption class=3D"ima=
+ge-caption" style=3D"color: #767676; font-family: sans-serif; font-size: 14=
+px; font-weight: 300; line-height: 1.4em; text-align: center;"><em>Standard=
+ Metrics Website</em>&nbsp;</figcaption></figure></div><p style=3D"color: #=
+1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">That&#8217;=
+s useful, and it&#8217;s an improvement over incumbents like IHS Markit, bu=
+t for modern software, integrations are table stakes. There are startup-foc=
+used accounting tools that do the same.&nbsp;</p><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">The question is: =
+how do you actually get enough companies to give you that data that you bec=
+ome the standard?&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">That brings us to Standard Metrics&#821=
+7; <strong>second strategic choice.</strong>&nbsp;&nbsp;</p><h3 style=3D"-m=
+oz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; co=
+lor: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSys=
+temFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: =
+bold; line-height: 1.16em; margin: 1em 0 0.625em 0;"><strong>To learn why V=
+Cs make a good target customer and what happens when the private markets ha=
+ve Standard Metrics&#8230; </strong></h3><p class=3D"button-wrapper" data-a=
+ttrs=3D"{&quot;url&quot;:&quot;https://www.notboring.co/p/wrangling-venture=
+-entropy-with-standard?token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NDky=
+ODQ4ODEsImlhdCI6MTY0NTcxMTAyOSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWF=
+jdGlvbiJ9.s2XpCg-YLqgJGqE-LDw_1EL1tRXbjcVrMDWVq_9hLWM&quot;,&quot;text&quot=
+;:&quot;Continue Reading Online&quot;,&quot;action&quot;:null,&quot;class&q=
+uot;:null}" style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0; text-align: center;"><a class=3D"button primary" href=3D"h=
+ttps://email.mg2.substack.com/c/eJxFUtGuojAQ_Rp5k9DSIjzwcCPqYkSzu6567wspbYV=
+qKViKXPz6rZrsJpNOcqZzTmbOUGJ42egxbpvOOM8nN2PLY8WHTnJjuHb6jutcsBgEMPQxihwWIw=
+ZCHDqiy8-a85oIGRvdc6ftCykoMaJRrw7Pg9ip4gIXJGIBOaMIR4SGmEJYBGdAyJlw7AVvXdIzw=
+RXlMb9zPTaKOzKujGm7if8xgUsbwzC4qjFFo4UqXdpYqH3CmqhSWmh658r0mk9t0k07Tgdhqmln=
+iGJEs4m_NM2Vq4mf8HENKDyMJyiv6aX53l5SlD3-eLvfg6Cr6MGWUfs1T4Ntch13yU-0SxZdWsu=
+KWSzbf3rbPf3O9h_j8z85bR-WQ9AfB7HZL4YsSUEqLI9_EC_8yTcH49dxeWEreS_EOnI7eGrn5f=
+RzcyvXq9tiukmGHCw2wPw6FRd60FlyPNzyqNocM0fE0IPPQMDHAQ5c6EZ2gSzAqEDAm2FQuLcOB=
+XKQswny6hK6XV_YqenV7qh2dPxvZ7Z8rUjN5atg3cptrnslzJhzRQrJ2dtI876Hl7V5yRXX9k5Y=
+Toy9AoRnAHgwstpv46zTKIIhCkPgWGXW2C71X_QvHMHP7A" rel=3D"" style=3D"backgroun=
+d-color: #67bdfc; border: none; border-radius: 4px; box-sizing: border-box;=
+ color: #ffffff !important; cursor: pointer; display: inline-block; font-fa=
+mily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Ari=
+al, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; f=
+ont-size: 16px; font-weight: normal; height: auto; line-height: 20px; margi=
+n: 0; opacity: 1; outline: none; padding: 12px 20px; text-align: center; te=
+xt-decoration: none !important; white-space: nowrap;"><span style=3D"color:=
+ #ffffff; text-decoration: none;">Continue Reading Online</span></a></p><di=
+v style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: #e=
+0ecf6; border: none; height: 1px; margin: 25.6px 0; padding: 0;"></div><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em=
+ 0;"><em>Thanks to</em> <em><a href=3D"https://email.mg2.substack.com/c/eJx=
+FkE2O7CAMhE_TLCMgkJ8Fi9m8ayAHPGnUBDLgvFZuP6SzGKmEhSy7XJ8DwjWX0-y5ErseS-eOJu=
+G7RiTCwo6KxQZvxCCnXquZeaO8mPTEQrXfBXGDEA2VA9l-LDE4oJDTZ4JzqdnTLNAD57320IQw4=
+Oyw93JEAD4LdLcvHD5gcmjwP5YzJ2TRPIn2-ui_HvJfE73DdVHn8tZ-HjbnctmCe4meBSO5vKRE=
+rwc9dLKbnZR-0GpRgo9aLN1PVUN8x_Gh-LbKrh5LJXCvax8rJmVacglpbe3XEzaMn0bLZFvdjhT=
+otJhgiejvuHRT-wCwKyYsjaa3QI2V0qMQXM7N-47XeKhZTmqaBGvOPrep9Gf6C9-dhOk" rel=
+=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Dan</a> for edi=
+ting the piece, and to <a href=3D"https://email.mg2.substack.com/c/eJxFkMtu=
+xCAMRb9mWEaBQB4LFt30NxAPJ0OHQApOo_TrSyaLShYIWfbhHqsRlpRPuaWC5DoUnhvICEcJgAi=
+Z7AWy8k7Sno2d4BNxkjs6ipH4ouYMsGofJOYdyLab4K1Gn-J7om2ZIE9pte2YcQNvzTzSduDdPH=
+NDRTcz3feDu7l6dx6iBQk_kM8UgQT5RNzKo_t4sM9aePjrR41Na319rRB0eZ3Z619PvGQtu4rTT=
+vSib1gzWcZcL7jhlSmoab4L78MRhgdv14U1ZTcFtX1d-0iWMaFJ2celtl9PXbe_GzWTqve6R4-n=
+gqhNAHfHxdvaW4BaIEKuNp3SWF1xMVDasqmy73jVB5_YyMeRkkp2qU7Ff-gfaciEpQ" rel=3D"=
+" style=3D"color: #1a1a1a; text-decoration: underline;">John</a> and the St=
+andard Metrics team for working with me to tell their story. </em></p><div =
+style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: #e0e=
+cf6; border: none; height: 1px; margin: 25.6px 0; padding: 0;"></div><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;">Thanks for reading and see you on Monday,</p><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-bottom: 0;">=
+Packy</p></div></div><table cellpadding=3D"0" cellspacing=3D"0" class=3D"po=
+st-meta big centered custom" style=3D"margin: 0 auto;"><tr><td class=3D"pos=
+t-meta-item icon" style=3D"color: #767676; font-family: -apple-system, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Co=
+lor Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 1=
+8px; line-height: 18px; padding: 0px 12px 0px 0; padding-right: 16px; posit=
+ion: relative; text-decoration: none; text-indent: 3px; vertical-align: mid=
+dle; white-space: nowrap;"><span class=3D"post-meta-icon"><a href=3D"https:=
+//email.mg2.substack.com/c/eJxFUttuozAQ_ZrwFgTG3B54iEpTkU2Com5Kty_IxhPiYDAL=
+JoR8fU2yF2k0Ix9r5szlFERBKbspamWvjNnlamohamDsBSgFnTH00OWcRbaHAsfFocEizOzADQz=
+e56cOoCZcRKobwGgHKnhBFJfNI8OykGucIwgCB9MTpp7vEQj9Ez4FHgvwifq0cBznyUsGxqEpII=
+IrdJNswBDRWam2XzirBVprG8fRbKSisuNNaRZSQ6Tl2l9t7eYiOjzaWXZAirmNhbNWsgIdY5g2d=
+oE-pk8kquQib_tLgnf3o5W-j7x4C-9sHbZfL4m3j6spjQ84jV_7pNmIX9neIlk46ByOW1QlfOQk=
+W1vPGgd7f3-97eLE3b5s2sLZ8ZRvRpYlavdzNe4uR67xu37P-PSVrS_sTVwp34RmSmldOeV2iT_=
+u4niMxypZXT7VmG33jvsu3R_d8nArU7ByvEDeoOq8l0NXgJ6lH2ivSFH9wWtgfKjnGefhDR4hC8=
+2Gbcf1XM9EZlggxDwXU2xbvmtT83ePPTEKf4GtukTm34J6q7XRRf-2rL-rM6lBPD70fXMd66Hha=
+sqhIVQAe55ePRX0aCAvoYFOK4vlRGndYNe3bQuFmvt5aq0NHKIAB4FtaGYmdVbzn_QbN5vfbw" =
+class=3D"like-button button post-meta-button" style=3D"background-color: tr=
+ansparent; border: 1px solid #e0ecf6; border-radius: 4px; box-sizing: borde=
+r-box; color: #666; cursor: pointer; display: block; font-family: -apple-sy=
+stem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px;=
+ font-weight: normal; height: auto; line-height: 15px; margin: 0; opacity: =
+1; outline: none; padding: 10px 16px; text-align: center; text-decoration: =
+none; white-space: nowrap;"><img src=3D"https://cdn.substack.com/image/fetc=
+h/w_28,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstac=
+k.com%2Ficon%2FHeartIconRounded%3Fv%3D3%26height%3D28%26fill%3D%2523757575%=
+26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"14" height=3D"14" style=
+=3D"border: none !important; display: inline-block; float: left; height: 14=
+px; margin-right: 4px; max-width: 14px; vertical-align: top; width: auto;" =
+alt=3D""><span class=3D"meta-button-label">Like</span></a></span></td><td c=
+lass=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-s=
+ystem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px=
+; height: 18px; line-height: 18px; padding: 0px 12px 0px 0; padding-right: =
+16px; position: relative; text-decoration: none; text-indent: 3px; vertical=
+-align: middle; white-space: nowrap;"><a href=3D"https://email.mg2.substack=
+=2Ecom/c/eJxFUtuSojAQ_Rp5kyIhIDzwMCXqanmp=
+3XXVmRcqJC1GIcEQhsGv36B7qepKqk53n74d=
+Rg0USvdJrRrjDE9m-hoSCV1TgjGgnbYBnQmeoBBHfkBihyeEoyiIHNFkZw1QUVEmRrfg1G1eCka=
+NUPKZ4Xk4cC5JxM_BBFFKz2FMfUQx5JNw4mNg3OcBCV51acsFSAYJfILulQSnTC7G1M3Ifxvhub=
+Wu61ypTK60kIXLlIXqAdZUFqWFxp8gTathbD-t6n7cCXMZN4ZKTjW3kUxVlfVZxrlRN5AjP4V-h=
+Rg-9Cdc3pZX9bW9Lsnm8cvb_ewEW8QPPo_rj-ky3Ka3fpd-J7t01iyr8sItttm_e9s9-9rs3_oh=
+np62D8sh2LeDWO9n3SZdoqWwPP5BPPGBb4r6j-P8yhflZy5WsdvgUz0txu_re7Fa3GfjddplaLZ=
+G5scpv7KD3qTHwz2LL-vjZoTD1lRZo1rNwPbetLkdjt3-4BVw0VbDTMNFHJFgDw9GkB-EQehiN2=
+YY8zAgOUHeJEC5e29IWHblZES8qsDuX0K728rRyb9dW_ftQisonw575WzYZCuF6TOQNC-BvwRgX=
+jp6NpAVIEFbffGMGqseYjWAPBzb2q-DW4WQGEckipBjK3Nls-T_or8Bowjjxg" class=3D"pos=
+t-meta-button button" style=3D"background-color: transparent; border: 1px s=
+olid #e0ecf6; border-radius: 4px; box-sizing: border-box; color: #666; curs=
+or: pointer; display: block; font-family: -apple-system, BlinkMacSystemFont=
+, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'S=
+egoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; he=
+ight: auto; line-height: 15px; margin: 0; opacity: 1; outline: none; paddin=
+g: 10px 16px; text-align: center; text-decoration: none; white-space: nowra=
+p;"><img src=3D"https://cdn.substack.com/image/fetch/w_28,c_scale,f_png,q_a=
+uto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FCommentIc=
+onRounded%3Fv%3D3%26height%3D28%26fill%3D%2523757575%26stroke%3D%2523757575=
+%26strokeWidth%3D2" width=3D"14" height=3D"14" style=3D"border: none !impor=
+tant; display: inline-block; float: left; height: 14px; margin-right: 4px; =
+max-width: 14px; vertical-align: top; width: auto;" alt=3D"Comment" class=
+=3D"comment-icon post-meta-icon"><span class=3D"meta-button-label">Comment<=
+/span></a></td><td class=3D"post-meta-item icon" style=3D"color: #767676; f=
+ont-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetic=
+a, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symb=
+ol'; font-size: 14px; height: 18px; line-height: 18px; margin-right: 0; pad=
+ding: 0px 12px 0px 0; padding-right: 0; position: relative; text-decoration=
+: none; text-indent: 3px; vertical-align: middle; white-space: nowrap;"><sp=
+an><a href=3D"https://email.mg2.substack.com/c/eJxNkt2S4iAQhZ_G3JkCQmJykQtn=
+Z63Snejsjq7uVYpAqyiBLCGTiU-_RPevqguKr2m6OH04c3Aydsgb07pgXEo3NJBr6FsFzoENuhZ=
+sKUWOE5JGMc0CkVOB0zgNZFseLUDNpMqd7SBoukpJzpw0-l6BEImDc44QQyxBFUkSjnGGExGz6s=
+iiLIoIPmL-6Ms6IUFzyOEd7GA0BCo_O9e0k2g-IQsffd-H2rjKWKlPITceNSO2TJ-UR9N30K6zM=
+PWbNc0w7aU7T1vHtGBWTKJF5-qyNZ3lMIme267yKX6dkGTkNQjZ1Z7f__MbcqOdf2y8fWYWPGV8=
+_N1_wJkrjGcYVpiT78OBqOvyYj7WlyUtbju0eesl2y_Qg33F69vnj-J5Gb98WjU8KuRGrnqxX7p=
+iO--Ly056fvPnO6-iNXo5rNSP_RqxfdYtNQrldgHX7YVldjXHCzd_NUTTb9UrORQ60dlut3miT3=
+SryBcTyJwgMgbFUZzESUjCjBMikphWFKNZjKvwZ0sT1avZhKL6RMI_qnh568Dmf-X26euZ1aDuC=
+T9or01dd1q6oQTNKgXi4QH3sNJdxfIEGqy3mCiZ8wai8QxjRDLf-zFzbxKakZSmKQ58Z2F8lf7X=
+9BfZsuMN" class=3D"button post-meta-button" style=3D"background-color: tran=
+sparent; border: 1px solid #e0ecf6; border-radius: 4px; box-sizing: border-=
+box; color: #666; cursor: pointer; display: block; font-family: -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; f=
+ont-weight: normal; height: auto; line-height: 15px; margin: 0; opacity: 1;=
+ outline: none; padding: 10px 16px; text-align: center; text-decoration: no=
+ne; white-space: nowrap;"><img src=3D"https://cdn.substack.com/image/fetch/=
+w_32,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.=
+com%2Ficon%2FRecommendIconRounded%3Fv%3D2%26height%3D32%26fill%3D%252375757=
+5%26stroke%3Dnone%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"bo=
+rder: none !important; display: inline-block; float: left; height: 16px; ma=
+rgin-right: 4px; max-width: 550px; vertical-align: top; width: 16px;" alt=
+=3D"Share" class=3D"recommend-icon post-meta-icon"><span class=3D"meta-butt=
+on-label">Share</span></a></span></td></tr></table><div class=3D"container-=
+border" style=3D"border-top: 1px solid #e0ecf6; box-sizing: border-box; fon=
+t-size: 16px; line-height: 26px; margin: 32px 0 0; width: 100%;"></div><div=
+ class=3D"post-cta" style=3D"font-size: 16px; line-height: 26px; margin: 24=
+px 0 40px;"><p style=3D"font-size: 16px; font-style: italic; line-height: 2=
+6px; margin: 24px 0 0; margin-top: 0;"><span>If you liked this post from <a=
+ href=3D"https://email.mg2.substack.com/c/eJxFUMuOwyAQ-5pyjHiHHDjsZX8DEZimq=
+ARSIBvl75c20q40mpHGsi3b2QZLLqfecm3ovUw7N9AJjhqhNShor1BM8JpIqpjgE_Kae6KEQqGa=
+ewFYbYi6lR3Qts8xONtCTh8GxlSgh1aKYkUIjIT6u2AjU95LNo3Mw50x6S5fu_sAyYGGHyhnToC=
+ifrS21Rv7utHvPsdxDCm3OZeQlsHl_kJBU0zfwwkTUsiBDpOj1EvBZ07wKMg8vCqX8YjjjeN1oU=
+Pd59qse3aFFRX9p9jh58OuED9Az2L6XfcU2mkg2TmCv2K2q61PcLNAgtJb9Ma23hEXIyGYTt37i=
+tV74BNVXCmCurPPnZX-TX8B3PSAZQ">Not Boring by Packy McCormick</a>, why not s=
+hare it?</span></p><p class=3D"cta-box" style=3D"font-size: 16px; font-styl=
+e: italic; line-height: 26px; margin: 24px 0 0; text-align: center;"><a rol=
+e=3D"button" href=3D"https://email.mg2.substack.com/c/eJxFUdtqxSAQ_Jr4doIaz=
+eXBh0Lpb4SNbhOp0dRLQ_6-5hxoYXHZWZYZZzRkXEO81BFSJvcz5-tA5fFMDnPGSErCOFujWM_H=
+ToqJGCUMG-VIbJo_I-IO1qkcC5KjLM5qyDb45wWlXJJN6cnQjgrGxYIaNO_0ROVAOQAMOAB_8UI=
+xFr1GhT8Yr-CROLXlfKSme2v4R63zPFsf8hKi9WurQ4WOG47gV1ehxw_6XCI-aovhuB6nzdsjZf=
+AGomm6j5L3eUdjy95070_dDe9vUMN-gF19hXWGCoK-P1HHtEFEYhWn_C7BOtnLvuXtpDk3vRSLY=
+HSQbGm_k-jd6YZG0H3lbSpLZdZfVedOovrTXddfG-zonovq2Fz7XrzN14weFofmZWZ-ZfKUOa_o=
+MdaszAy5JiHkwBjlU-V-mVfdFhMfxTgyUplNqFf-n_QXVJymMQ" class=3D"button primary=
+ twitter-link" style=3D"background-color: #67bdfc; border: 0px solid #67bdf=
+c; border-radius: 4px; border-width: 13px 20px 13px 18px; box-sizing: conte=
+nt-box; color: #ffffff !important; cursor: pointer; display: inline-block; =
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helveti=
+ca, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 17px; font-style: normal; font-weight: 300; height: 24px; =
+line-height: 24px; margin: 0; opacity: 1; outline: none; padding: 0; text-a=
+lign: center; text-decoration: none !important; vertical-align: middle; whi=
+te-space: nowrap;"><img src=3D"https://cdn.substack.com/image/fetch/w_23.1,=
+c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2=
+Ficon%2FShareIcon%3Fv%3D2%26height%3D42%26stroke%3D%2523FFF%26strokeWidth%3=
+D2" width=3D"11.55" height=3D"21" style=3D"border: none !important; display=
+: inline-block; height: 21px; margin-right: 8px; max-width: 11.55px; vertic=
+al-align: middle; width: 21px;" alt=3D""><span style=3D"color: #ffffff; tex=
+t-decoration: none;">Share</span></a></p></div><div class=3D"footer" style=
+=3D"background: #f8f8f8 !important; color: #bcbcbc; font-size: 16px; line-h=
+eight: 26px; margin-top: 24px; padding: 32px; text-align: center;"><p class=
+=3D"small" style=3D"color: #bcbcbc; font-family: -apple-system, BlinkMacSys=
+temFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 13px; line-height: 26p=
+x; margin-bottom: 0; padding-bottom: 30px;">&#169; 2022 <span>Packy McCormi=
+ck</span> <a href=3D"https://email.mg2.substack.com/c/eJxFkl2PoyAUhn9NvTSCY=
+OXCi9mx7dpM2-xOv6Y3BgEtU0RHcB376xfbZDc5AXIO57zkfWDUiqrpxqRtjPWmJbdjKxItBqOE=
+taLzeiO6XPIERDAOMSIeTxAHMY49afKyE6KmUiW264XX9oWSjFrZ6EdHEEDsXRMgCItCTBAsAZ-=
+TuMRljCgtYoQYEmX41KU9l0IzkYg_ohsbLTyVXK1tzSx8mcGli2EYfN3YoumkrnzWuBRlk5g7cG=
+looUT-eM0sXNrmJvQsTMW4BgwexzNUt-yz-d5-ZmhzPwS790GyFbnzJWkvr1m0TW_jLv2FdunCZ=
+LW6cpfb7D-C7Z59b_Yv43Sfnrd3N0Oyn0f5tl8MmzQDmXRzwqOc8peVun-c1uZyJKo4LdvidU38=
+6Ou9OC8Oga1wFWhD3_nc7MDmdNDRj115rfL126oiafX77AxNYACnQCDEEY586BMGIY8wKhAI5hg=
+U_pdBkRrUfIaCuoK-6QtjKbs5O2qvS_7Z48q3K62FehQcmNztda-lHXOhJ6v4k5l9on_4lldCi8=
+59CZ5T64AjPAcggMRpPxk5qIjAGMUx8Jwyb1yX_i_6F_uTxrI" style=3D"color: #bcbcbc;=
+"><span style=3D"color: #bcbcbc; text-decoration: underline;">Unsubscribe</=
+span></a><br>10 City Point, Brooklyn, NY 11201</p><p class=3D"small powered=
+-by-substack" style=3D"color: #bcbcbc; font-family: -apple-system, BlinkMac=
+SystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color =
+Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 13px; line-height: =
+26px; margin-bottom: 0; padding-bottom: 0;"><a href=3D"https://email.mg2.su=
+bstack.com/c/eJxNkcFuwyAQRL_GHC3AYOMDh0pVfsPCsElQDaSwNMrfF9utWmnFYUarmX1Yg3=
+BL-aUfqSDZnwVfD9ARnmUDRMikFsiLd5qNXA1SzMRp4ZiSiviyXDNAMH7TmCuQR103bw36FI8NS=
+rkkdz0qZaQSgvOVghw4iHmy1I2TYsYaS89cU52HaEHDF-RXikA2fUd8lG546_ilTalrQWM_epvC=
+rgyXimEpqWYL3fD-a3d83PUAztfQ9KPgj2hTRIjY1GtK-3Vec8r3EWyQoxx73s-WczdKsQpGJ8n=
+W_rOIcXtuUydouPH-fw2SdUy4puzjrdkfdxNgO4zGoqWFUKPH1wLRrBu4ExOetI9eyw0i5PYLbj=
+HYGAs5MUb53LJPLI2jmLkSSjHSkl1qW_Ev9BuKBJea" style=3D"color: #bcbcbc; text-d=
+ecoration: none;"><img alt=3D"Publish on Substack" src=3D"https://cdn.subst=
+ack.com/image/fetch/w_340,c_limit,f_auto,q_auto:good,fl_progressive:steep/h=
+ttps%3A%2F%2Fsubstack.com%2Fimg%2Fpublish-on-substack.png" width=3D"170" he=
+ight=3D"32" style=3D"border: none !important; margin-top: 3px; max-width: 5=
+50px; vertical-align: middle;"></a></p></div></div></td><td></td></tr></tab=
+le><img width=3D"1px" height=3D"1px" alt=3D"" src=3D"https://email.mg2.subs=
+tack.com/o/eJxFUNuOhCAM_Zrl0QAC4gPfQopUhwyCCzgT_37ZcZNNmjTpaXsuCzTccrnMkWsj=
+uEOIdsOEpc-9hWaYEnJijPJZMEq8EZ5pqUmodi342TetnEiO08WwQAs52eANo5RL8jDjNMM6ovQ=
+rcFgdgGKjok5pqZxbp37XeS2cPmBa0OALy5XT37j_ETPXQmtGguGU_5Zgo1RSDXyYF869ksJ1ZZ=
+NkbviuQsV3nL4E3Tc-1NPVBstzWPJOikm5uVxC2jr8fMCO8QN04bb3_UyhXRYTuIj-9tTuVM6K5=
+eNJcT1KMd_i2nWgSfiuEVvDQjqbzz2P9E_0A4l7dc0"></body></html>
+--f1d36df0933a458195292ab63763b027200f12ffcb94483e8825ae783a4d--

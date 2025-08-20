@@ -1,0 +1,1559 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:c110:0:b029:115:78b4:bc0a with SMTP id c16csp2314159lkp;
+        Wed, 7 Jul 2021 09:59:02 -0700 (PDT)
+X-Received: by 2002:a17:906:36d5:: with SMTP id b21mr24946199ejc.258.1625677142502;
+        Wed, 07 Jul 2021 09:59:02 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1625677142; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Aoq/UR2bOfn4iGgF5QL9Ie4V3K4QLDxMjACIP5ibmVlicMkkDEzCxiEZb4Z2AC21ph
+         7DHUAkEUuojNEXAPjbQSRyg3ab/yu6R/wjKNsmeEbVkVDrXpUQv+5ZpRmjl7G65gD8fz
+         hvv7O8M8Y4AuJk6JnUJPT0EgozdqkAseRa0sb99qML7qyem1VRpDBdlCoguU+ZON0bfj
+         Hwl+919K8Ad9mbNHOFmiT5KnLX6prii2GEGDL37QjFnbsB9X7+CeUyecXyjFeleLAbRU
+         R0IgGP1v/kURvVQHGv/93DwfWKajWyxHwpiqdbQB5vNiN/hlvctOby5Zn6CENVBHPIlP
+         yzeg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=YiLp6Z6TA8pbslnMgUYBTTPEpH9HAPzVSwK7AP0AbzU=;
+        b=HIVDS5v4jbIxkW6FhSUfvMTLFQe7n+QthVfN//oa+haT6AsQ8YtqWAet5CB/gSkO4v
+         0eVolVu76Ci1Gj+yoUkckYfTOY0ziGV27hXw3EE2lU9JRm4UyavpPQKiNMmyxMj+QiWc
+         Jpmjz1Qg93WM3zFmBfKyQL2HGrJQRoE8/3YXSkDgvmT0kKIgqdzHu3fowbMegK57LGxm
+         YIDRSPZzRZafUqjTukNq+aZpSpZW5WnxwPPBVRdWBcX20BzdpSKl+nX6B3aBqxF4k8UM
+         ASymkUsZQaubY1nAGblaZeRmxa1dA47ZN5K2oBMwA7B6uEWseFcNu6BBzHDD9stK1Te9
+         9o4A==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DXKq2DVm;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id u18sor2213182ejh.17.2021.07.07.09.59.02
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 07 Jul 2021 09:59:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DXKq2DVm;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=YiLp6Z6TA8pbslnMgUYBTTPEpH9HAPzVSwK7AP0AbzU=;
+        b=erHJp8S9hsVRiUKWG3be4s0iEa7ihmyhoF01Uhcr04XaloZ71htd8MUoiwPTjDpEJ3
+         Y5unJmUVuRiaP4GpIn1S3esZ7YsDdAjt5XmR6wgwOfYz55TyPBx24OQTG/kF4Yih6DJz
+         M4pLMCCmjP2tyLC557jUyTA6j689BBB7lEGea5mEOFuiM8nQOMfz0JQTYzQwlN30ZORz
+         esr7BHw/KylqBqDzuh15/B6gHIXkxkkHbu1JS0tH3xjYZzUUqWksBkwavK2pwFUmp1rO
+         kMweha1HHlhvqON6MFQHGnQEj/2vzfuQxo6iyphN+g5WxIpJBdvLh1qJZGdPP/6Ti6J/
+         3qcA==
+X-Gm-Message-State: AOAM533I3Vibx9tD4TUjgFvpfZzsiC+kSCYrCPpv+6aFzlehbUXU3glK
+	mkY4Mqoa4TXjdmu9JlEeiOYMnkLlcMQcDoAYOUrfFMLrQBBOsVx3fg==
+X-Received: by 2002:a17:906:25cb:: with SMTP id n11mr25274086ejb.539.1625677142190;
+        Wed, 07 Jul 2021 09:59:02 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:314a:0:0:0:0:0 with SMTP id k10csp1520048ecs;
+        Wed, 7 Jul 2021 09:58:59 -0700 (PDT)
+X-Received: by 2002:ab0:76d0:: with SMTP id w16mr14589758uaq.15.1625677139285;
+        Wed, 07 Jul 2021 09:58:59 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1625677139; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=HjB7vLXanCGVylFDDSciXL43hljM+iv1tmMFmRwAwR3eepspTl9D/yqEMQuWom2HiL
+         fJ2x8jkTUALVXJpXV5notymfGSqSInJyicY9wanYFbLO7c1Tcngp1v/cKGkqXoAzzIq2
+         Yh4MSNcsRvqQDe1rGlg8DTX+c/KgEk3gCsD1/Q0E1RwOrecj/b9AJ5g0pcJaSAAMTMxR
+         tv3oKoskiftA0xHivt7FY0Mb5hsHwW30sij6NJRyZZBEm8PBEUCK6bQoYhf9rNDocCQd
+         FhilojBdNe0UP3WEixlbhTrTHxx7waVxmIJPplo2ocZe+xekqFiRr/+09OqtZfe4VMpW
+         RtTQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=YiLp6Z6TA8pbslnMgUYBTTPEpH9HAPzVSwK7AP0AbzU=;
+        b=ttIPF/jF9nIETB3stzhhZG4WgLbcy65rU8Gla5xXV+m09G9xJElNjC31xxhhY902CY
+         GcTR1o/hF5G7/ABBQdwaCUJtiPF91ynFyy8KJMTMZNktvvG79SpkAqf85EAgeevEDyyB
+         PePEZpv9DEh8IqgK5iZ4YQzfdZ2mwBPMK9l6NfhDnwB9rEQjbBYTukB77oarORToKBei
+         wqbbkhGWp11j5j4NQR7/+mbp2wJ+osjHCbhywbqW4c8XXyfVR2F8ROE20Kg7fSBmqq/Z
+         U35qYBe48Bmd5btXxP3GwNQa2UZ/0HzMMekEUORA5VD9MDlGrY1MYUgTAnQlRehJUeVS
+         esDA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DXKq2DVm;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210707125752.24382607.274778@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210707125752.24382607.274778@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210707125752.24382607.274778@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x2sor742401vsq.69.2021.07.07.09.58.58
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 07 Jul 2021 09:58:59 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210707125752.24382607.274778@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxkASoXEJ1Cno4xKeX7ebnBD0CqrEoU3BrlkCqNxBls3vgep2ntqa+OJCIK0ORrC0rosR+2dW5an3rWTUDZBfhbokHOVBQ=
+X-Received: by 2002:a67:db05:: with SMTP id z5mr22769720vsj.18.1625677138596;
+        Wed, 07 Jul 2021 09:58:58 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1625677138; cv=none;
+        d=google.com; s=arc-20160816;
+        b=vrqERIGO9WvUtKicItv5CK8dXzo3kRXi0CKQJfQeRPPCFVI2Q3aUEiXU9BiRRTm45k
+         F0a2mz6jbEz0TRr8vEEzGljeB1XPabkMfsiGFKFDilG95O6+cN3SIpvV8wzbQlrj62qp
+         bsSWn03CuGGQeJVhqhRq0uri5CGLjDhOYovY6KdpTyV387C2xml9vVCKn9A1ENzQPOqy
+         LnYzQxJv3//vf06ARzLhOssUlcfMsEuFR9SxffiF+P0n/iLnPTW33fT6YmLW1O82szyR
+         7q4UvEKlBsvq0o1uhtygrYr3nKLQ7C+3ei5iSMK3WjRODVS5riuqQwB/W77/d4y68xK1
+         vi6A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=YiLp6Z6TA8pbslnMgUYBTTPEpH9HAPzVSwK7AP0AbzU=;
+        b=VArVykvu4piwjxA3tTUJCK6Eh/96hphzMBwog1M+mSIVJ+5HvUDnADreLPwmMvD1ZR
+         ufL8gESXZ2G9SksfiGd2+Ozntagfbd4MnnTYZzSPhn5EGu/BNnD7W7pqkfgVN//pt/xU
+         rdmaaL6Xl8ApFdL5Cm5qd5xfeOU4LWWgKziJy/kaTAHpwEnKlL6b3g5XGRHw/kvXKwnR
+         u8PtX0ao8nH5eMCOjDpNFXkp09UvuUdzeJC7icnV65anpR9IJ7vOHUsPAYh6IjmWviEL
+         VeqWKr2F+Yjb9oQTc977ZFBUqsvNs6BAThvklkNGeVXUNGZlGfKPcandzOaJrLfqnVrv
+         ivHw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DXKq2DVm;
+       spf=pass (google.com: domain of delivery_20210707125752.24382607.274778@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210707125752.24382607.274778@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210707125752.24382607.274778@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id l6si2331643vkg.0.2021.07.07.09.58.58
+        for <khamel83@gmail.com>;
+        Wed, 07 Jul 2021 09:58:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210707125752.24382607.274778@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=DPMQUHOzMw1Xf0xRheUqbtSO4t8=;
+ b=DXKq2DVmzV+AUTWH5o3VuM7wpmwp7zNJslUDd/qAD7MJitz3ep+ZpG5YDqOFFi23ZCFBlq/ZS1wY
+   BWpFZeJk9VcynQXCYx1gB7B9OwzIF5TZCMym62lbXf/MvqgtEdJxDgVGhbvXu0uDJyNgmM9W+Iuo
+   1Js/9GZ5rrC0F3OTlTE=
+Received: from njmta-180.sailthru.com (173.228.155.180) by bloomberg-b.sailthru.com id hsnel41qqbsj for <bloomberg@khamel.com>; Wed, 7 Jul 2021 12:58:58 -0400 (envelope-from <delivery_20210707125752.24382607.274778@mx.sailthru.com>)
+Received: from nj1-illmaroon.flt (172.18.20.34) by njmta-180.sailthru.com id hsnel21qqbsl for <bloomberg@khamel.com>; Wed, 7 Jul 2021 12:57:52 -0400 (envelope-from <delivery_20210707125752.24382607.274778@mx.sailthru.com>)
+Date: Wed, 7 Jul 2021 12:57:52 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210707125752.24382607.274778@sailthru.com>
+Subject: Money Stuff: Owning Chinese Companies Is Complicated
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_11266342_312559079.1625677072718"
+Precedence: bulk
+X-Feedback-ID: 6358:24382607:campaign:sailthru
+X-TM-ID: 20210707125752.24382607.274778
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illmaroon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ceilqn.5w0q/7b11a82e
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ceilqn.5w0q/7b11a82e>, <mailto:unsubscribe_20210707125752.24382607.274778@mx.sailthru.com>
+X-rpcampaign: stjko24382607
+
+------=_Part_11266342_312559079.1625677072718
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Didi VIEsIn my old life, I was a derivatives structurer at an inv=
+estment bank, and an experience that I frequently had was getting calls lik=
+e this:Relationship banker: Our client wants to do ______.Me: That=E2=80=99=
+s illegal.Relationship banker: Yes that=E2=80=99s our problem.Me: Ah.Relati=
+onship banker: We were hoping there was a =E2=80=A6 derivative?Sometimes th=
+ere was! If you came to me and said =E2=80=9Cour client would like to buy 8=
+% of a public company, but not disclose her ownership,=E2=80=9D I would say=
+ =E2=80=9Cwell, under U.S. law you do have to disclose that level of stock =
+ownership, but I could put you in a nice derivative that gets around that r=
+equirement.=E2=80=9D The client could enter into a swap that gives her econ=
+omic exposure to the shares, but not actual ownership, so she would not be =
+subject to the laws about ownership disclosure. Everyone is happy, more or =
+less. (No one is happy, and we have  talked a  few  times about how mad eve=
+ryone is that Archegos Capital Management=C2=A0was allowed to do this.)So I=
+ have a soft spot for Chinese VIEs. The idea is that, under Chinese law, it=
+ is somewhere between =E2=80=9Ccomplicated=E2=80=9D and =E2=80=9Cforbidden=
+=E2=80=9D for foreigners to own certain big important Chinese tech=C2=A0com=
+panies. This is a problem for those companies if they want to raise capital=
+ from foreign investors and list their stocks on foreign stock exchanges. B=
+ut there is a solution. =E2=80=9COwnership=E2=80=9D of a company is a compl=
+icated notion, a vague jumble of rights to elect directors and approve merg=
+ers and claim a residual interest=C2=A0in the company=E2=80=99s cash flows.=
+ You could break those things up and sell them separately. Write a profit-s=
+haring contract that says =E2=80=9CA will pay B all of A=E2=80=99s profits =
+after expenses for the next 100 years, renewable at B=E2=80=99s option,=E2=
+=80=9D and hey that=E2=80=99s a residual claim on cash flows. (Or something=
+ vaguer: =E2=80=9CA will pay B an annual consulting fee that B decides in i=
+ts total discretion based on the economic value of the relationship,=E2=80=
+=9D etc.; not technically a residual claim but what else is it?) =E2=80=9CB=
+ will provide management services to A and A will follow B=E2=80=99s instru=
+ctions,=E2=80=9D hey that=E2=80=99s basically control. =E2=80=9CB will have=
+ the right to appoint a majority of A=E2=80=99s board of directors,=E2=80=
+=9D put it in a contract, it=E2=80=99s not actually stock ownership. Etc. W=
+rite some contracts that, bundled together, look like ownership, but=C2=A0a=
+ren=E2=80=99t=C2=A0ownership.With Chinese companies this sort of thing is g=
+enerally called a =E2=80=9Cvariable interest entity.=E2=80=9D You set up a =
+company in the Cayman Islands that can be owned by anyone. The Caymans comp=
+any enters into a series of contracts with the local Chinese company, givin=
+g it, not ownership, but certain carefully curated economic interests and c=
+ontrol rights over the Chinese company. Then you list the Caymans company i=
+n the U.S., and people buy its stock, and they sort of pretend that they=E2=
+=80=99re buying stock in the Chinese company =E2=80=94=C2=A0they sort of pr=
+etend that the Chinese company is a=C2=A0subsidiary=C2=A0of the Caymans hol=
+ding company =E2=80=94=C2=A0even though really they=E2=80=99re only buying =
+an empty shell that has certain contractual relationships with the Chinese =
+company.The problem with this is that it sort of sounds like you=E2=80=99re=
+ kidding. So here is the prospectus for Didi Global Inc., a Cayman Islands =
+company that has certain contractual relationships with a giant Chinese rid=
+e-hailing company. (Technically the top-level Chinese company is called Bei=
+jing Xiaoju Science and Technology Co. Ltd., though colloquially it is =E2=
+=80=9CDidi Chuxing.=E2=80=9D) Didi Global did an initial public offering of=
+ its American depositary shares last week; it has a market capitalization o=
+f something like $57 billion. Page 12 of the prospectus has a diagram of th=
+e corporate structure, which looks almost normal:Looks like a holding compa=
+ny with some intermediate holding companies and operating subsidiaries, fin=
+e. The only weird thing is that somewhere near the middle there is a=C2=A0d=
+ouble=C2=A0arrow (representing =E2=80=9Ccontractual arrangements=E2=80=9D) =
+rather than a single arrow (representing =E2=80=9Cequity interest=E2=80=9D)=
+. Didi Global=E2=80=99s shareholders =E2=80=9Cown,=E2=80=9D in some fairly =
+normal sense, everything above the double arrow, right down to one =E2=80=
+=9Cwholly foreign owned enterprise=E2=80=9D (WFOE) in China. Everything bel=
+ow the double arrow =E2=80=94=C2=A0the actual ride-hailing business, etc. =
+=E2=80=94=C2=A0is slightly askew; they just have contractual rights to do s=
+tuff with it.The actual contractual rights are spelled out on pages 100-102=
+ of the prospectus under the heading =E2=80=9CContractual Arrangements with=
+ Our Variable Interest Entities,=E2=80=9D and they are worth reading. =E2=
+=80=9CAgreements that Allow Us to Receive Economic Benefits from Our Variab=
+le Interest Entities=E2=80=9D is one sub-heading, describing a contract pro=
+viding that =E2=80=9CBeijing DiDi or its designated parties have the exclus=
+ive right to provide Xiaoju Technology with comprehensive technical support=
+, consulting services and other services,=E2=80=9D and that =E2=80=9CXiaoju=
+ Technology agrees to pay services fees, the amount of which is determined =
+by Beijing DiDi on the basis of the work performed and commercial value of =
+the services.=E2=80=9D Is that a residual claim on the cash flows of the ri=
+de-hailing business? Maybe!=E2=80=9CAgreements that Provide Us with Effecti=
+ve Control over Our Variable Interest Entities=E2=80=9D and =E2=80=9CAgreem=
+ents that Provide Us with the Option to Purchase the Equity Interest in Our=
+ Variable Interest Entities=E2=80=9D are two other sub-headings. (The latte=
+r is less of a stock option and more of a transfer restriction: It=E2=80=99=
+s not that Didi can practically buy the shares in the VIE; it=E2=80=99s tha=
+t it doesn=E2=80=99t want the shareholders selling those shares to someone =
+else.) And here=E2=80=99s this:Spousal Consent Letters. The spouses of the =
+shareholders of Xiaoju Technology have each signed a spousal consent letter=
+ agreeing that the equity interests in Xiaoju Technology held by and regist=
+ered under the name of the respective shareholders will be disposed pursuan=
+t to the contractual agreements with Beijing DiDi. Each spouse agreed not t=
+o assert any rights over the equity interest in Xiaoju Technology held by t=
+he respective shareholder.Somebody=C2=A0owns the ride-hailing business, in =
+a technical legal sense, and it=E2=80=99s not Didi Global or its shareholde=
+rs. You don=E2=80=99t want the actual owners, or their spouses, to go aroun=
+d selling the shares out from under Didi.I don=E2=80=99t want to pick on Di=
+di. This is a standard method for mainland Chinese internet companies to go=
+ public, Didi is just the latest in a long line of big companies to use it,=
+ the market has come to accept it, and Didi=E2=80=99s Chinese counsel has o=
+pined that =E2=80=9Cthe ownership structure of our principal variable inter=
+est entity ... will not result in any violation of the applicable PRC laws =
+or regulations currently in effect=E2=80=9D and that =E2=80=9Cthe agreement=
+s under the contractual arrangement among Beijing DiDi, Xiaoju Technology a=
+nd its shareholders are currently valid, binding and enforceable in accorda=
+nce with their terms and the applicable PRC laws or regulations currently i=
+n effect.=E2=80=9D It=E2=80=99s all fine!But, again, it sounds like you=E2=
+=80=99re kidding, and as that legal opinion sort of implies, the laws can c=
+hange.  So!Regulators in Beijing are planning rule changes that would allow=
+ them to block a Chinese company from listing overseas even if the unit sel=
+ling shares is incorporated outside China, closing a loophole long-used by =
+the country=E2=80=99s technology giants, according to people familiar with =
+the matter.The China Securities Regulatory Commission is leading efforts to=
+ revise rules on overseas listings that have been in effect since 1994 and =
+make no reference to companies registered in places like the Cayman Islands=
+, said the people, asking not to be identified discussing a private matter.=
+ Once amended, the rules would require firms structured using the so-called=
+ Variable Interest Entity model to seek approval before going public in Hon=
+g Kong or the U.S., the people said.=C2=A0The proposed change is the first =
+indication of how Beijing plans to implement a crackdown on overseas listin=
+gs flagged by the country=E2=80=99s State Council on Tuesday. Closer oversi=
+ght would plug a gap that=E2=80=99s been used for two decades by technology=
+ giants from Alibaba Group Holding Ltd. to Tencent Holdings Ltd. to attract=
+ foreign capital and list offshore, potentially thwarting the ambitions of =
+firms like ByteDance Ltd. contemplating going public outside the mainland. =
+=E2=80=A6Pioneered by Sina Corp. and its investment bankers during a 2000 i=
+nitial public offering, the VIE framework has never been formally endorsed =
+by Beijing. It has nevertheless enabled Chinese companies to sidestep restr=
+ictions on foreign investment in sensitive sectors including the Internet i=
+ndustry. The structure allows a Chinese firm to transfer profits to an offs=
+hore entity -- registered in places like the Cayman Islands or the British =
+Virgin Islands -- with shares that foreign investors can then own.While vir=
+tually every major Chinese internet company has used the structure, it=E2=
+=80=99s become increasingly worrisome for Beijing as it tightens its grip o=
+n technology firms that have infiltrated every corner of Chinese life and c=
+ontrol reams of consumer data. Authorities so far have little legal recours=
+e to prevent sensitive overseas listings, as with the recent Didi Global In=
+c. IPO, which went ahead despite requests for a delay from regulators.The a=
+dditional oversight could bestow a level of legitimacy on the VIE structure=
+ that=E2=80=99s been a perennial worry for global investors given the shaky=
+ legal ground on which it stands.Yeah that=E2=80=99s not the worst outcome.=
+ The worst outcome would be something like the Chinese government declaring=
+ =E2=80=9Call these VIE contracts are actually a disguised form of foreign =
+ownership, which is not allowed by the rules, so they are all void and your=
+ Didi and Alibaba shares are worthless.=E2=80=9D That would =E2=80=A6=C2=A0=
+I mean, these VIE contracts=C2=A0are=C2=A0a disguised form of foreign owner=
+ship, and a fairly thin disguise. (It=E2=80=99s not like Chinese government=
+ authorities are unaware that foreign investors own shares in Alibaba; it=
+=E2=80=99s just that they seem to accept this level of technical compliance=
+ with the rules.) This is a real risk! It=E2=80=99s in Didi=E2=80=99s risk =
+factors:PRC laws and regulations impose restrictions on foreign ownership a=
+nd investment in certain internet-based businesses. We are an exempted comp=
+any incorporated in the Cayman Islands and our PRC subsidiaries are conside=
+red foreign-invested enterprises. To comply with PRC laws, regulations and =
+regulatory requirements, we set up a series of contractual arrangements ent=
+ered into among some of our PRC subsidiaries, our VIEs and their shareholde=
+rs to conduct some of our operations in China. ...We have been further advi=
+sed by our PRC legal counsel that there are substantial uncertainties regar=
+ding the interpretation and application of current or future PRC laws and r=
+egulations. Thus, the PRC government may ultimately take a view contrary to=
+ the opinion of our PRC legal counsel. If the PRC government otherwise find=
+ that we are in violation of any existing or future PRC laws or regulations=
+ or lack the necessary permits or licenses to operate our business, the rel=
+evant governmental authorities would have broad discretion in dealing with =
+such violation, including, without limitation:=C2=A0=E2=80=A6revoking the b=
+usiness licenses and/or operating licenses of our PRC entities; ...requirin=
+g us to restructure our ownership structure or operations, including termin=
+ating the contractual arrangements with our VIEs and deregistering the equi=
+ty pledges of our VIEs, which in turn would affect our ability to consolida=
+te, derive economic interests from, or exert effective control over our VIE=
+s and their subsidiaries; ...If the Chinese government decides =E2=80=9CVIE=
+s are okay, but you have to get our permission to list them abroad,=E2=80=
+=9D that's not a worst-case scenario even if it never grants permission. Th=
+e bad news would be if the ones already listed abroad were just, you know,=
+=C2=A0voided.Anyway there is a whole mess of Chinese and U.S. government pr=
+oclamations about cracking down on Chinese companies listing abroad. On the=
+ Chinese side,=C2=A0=E2=80=9CDidi Plunges Below IPO Price as  China Crackdo=
+wn Brings U.S. Pain,=E2=80=9D and =E2=80=9CChina=E2=80=99s crackdown on US =
+listings threatens $2tn market.=E2=80=9D And on the U.S. side: =E2=80=9CInv=
+estment Review Panel Gets Wider Role Under Biden in Rivalry With China,=E2=
+=80=9D and =E2=80=9CRepublican senator Marco Rubio lambasts =E2=80=98reckle=
+ss and irresponsible=E2=80=99 Didi listing.=E2=80=9D If U.S. regulators ban=
+ Chinese firms from listing in the U.S., and Chinese regulators also ban Ch=
+inese firms from listing in the U.S., I guess it will be hard for Chinese f=
+irms to list in the U.S. But maybe they=E2=80=99ll find a way anyway. Maybe=
+ there=E2=80=99s a derivative.Palantir SPACsThe basic deal, when a company =
+goes public, is that anyone can buy its stock. You put out a notice saying =
+=E2=80=9Chey we have stock for sale, please buy it,=E2=80=9D and then whoev=
+er is willing to pay the most buys the stock. The advantage of this, for th=
+e company, is generally that you=C2=A0can raise a lot of money. Deep liquid=
+ public markets are good for valuation; people are more willing to take a r=
+isk on buying stock that they can easily resell. So if you want money, havi=
+ng public stock is good. The disadvantage is that anyone can buy your stock=
+. Activist investors can buy your stock and yell at you to change things. H=
+ostile bidders can tender for your stock to try to take you over. Crazy ret=
+ail investors can push your stock around. Index funds can buy your stock an=
+d sit around doing nothing. Etc.[1]There is another model, in which you int=
+erview=C2=A0the people who want to buy your stock and choose the best ones.=
+ Price matters =E2=80=94=C2=A0people who will pay more for your stock are b=
+etter for you than people who will pay less =E2=80=94=C2=A0but it is not th=
+e only thing. Buying your stock is a way to start a relationship, and you w=
+ill try to sell stock to people who will be good relationship partners. Wis=
+e investors who can give you good advice will be more appealing than hands-=
+off index funds. Hands-off index funds will be more appealing than mean act=
+ivists who will boss you around and try to fire your managers. Selling stoc=
+k to your competitors seems bad. Selling stock to your suppliers or custome=
+rs to cement your business relationships seems good.The second model is typ=
+ical, though not universal, in venture-capital-funded private companies. VC=
+s advertise themselves to startups as wise advisers, as helpful (but not in=
+trusive) board members, as providers of operational expertise and introduct=
+ions to customers and suppliers. This is so standard in venture capital tha=
+t it is  faintly scandalous that Tiger Global, a big hedge fund, does a lot=
+ of venture-type investing in private tech companies=C2=A0without=C2=A0all=
+=C2=A0this relationship-building stuff; it just buys stock with money=C2=A0=
+and leaves them alone.One way to think about special purpose acquisition co=
+mpanies is that they are sort of venture-capital deals to go public. When y=
+ou sign a deal with a SPAC, you get cash and a public listing (like you wou=
+ld in an IPO), but you also get a long-term relationship with the SPAC=E2=
+=80=99s sponsor. The sponsor generally joins your board of directors, typic=
+ally along with a couple of other fancy people that the sponsor has signed =
+up to be directors. For many young companies, part of the appeal of a SPAC =
+deal is that you get a bunch of highly qualified directors all at once, dir=
+ectors whom you couldn=E2=80=99t have gotten by just going public and tryin=
+g to recruit them. (If you want Shaq on your board, merging with a Shaq SPA=
+C is the way to go.) The sponsor will=C2=A0tout her industry connections an=
+d financial-structuring expertise and whatever else she brings to the table=
+; you=E2=80=99ll sign with her not just for the money she brings but also f=
+or the rest of the continuing relationship.Alongside the SPAC merger, a com=
+pany will typically raise additional money, privately, in a PIPE deal (=E2=
+=80=9Cprivate investment in public equity=E2=80=9D). The PIPE investors wil=
+l put in money alongside the SPAC, in order to make the deal bigger and pro=
+vide more certainty. (SPAC investors have withdrawal rights, so if you sign=
+ a $500 million SPAC deal you can=E2=80=99t be sure of getting $500 million=
+; if you throw in a $400 million PIPE alongside the SPAC you=E2=80=99re gua=
+ranteed at least the $400 million.) The PIPE investors will often be the so=
+rts of big boring institutional investors you=E2=80=99d get in an initial p=
+ublic offering, but not necessarily:While most PIPE participants are instit=
+utional investors, they sometimes include strategic investors.And that=E2=
+=80=99s where Palantir (ticker: PLTR) comes in.To date, Palantir has partic=
+ipated in at least eight SPAC-related PIPE transactions, investing well ove=
+r $100 million, using the deals as a way to win business from emerging comp=
+anies that can benefit from Palantir=E2=80=99s big data analytics software.=
+ In effect, Palantir is providing capital up front in return for a multiyea=
+r commitments to use the company=E2=80=99s software.Obviously Palantir coul=
+d just go buy stock in public companies, on the stock exchange,=C2=A0if it =
+wanted to, but it doesn=E2=80=99t; that has none of the relationship-buildi=
+ng advantages of this. Or it could invest in venture rounds, if it wanted t=
+o, but those are sometimes small and exclusive. A SPAC PIPE is like a ventu=
+re round but for an about-to-be-public company.
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                    High Paying Cards For Americans With Go=
+od Credit. These cards feature=C2=A0$200 bonus offers and up to 3% cash bac=
+k. PLUS no annual fee and no interest for 15 months. A long-time credit car=
+d writer says=C2=A0these are some of the best deals=C2=A0he's seen in his y=
+ears of writing for top financial websites.
+                                    Wise Bread
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+Inflation indexingA major problem in finance is that a lot of lawyers=C2=A0=
+became lawyers because they did not like math, while a lot of bankers and t=
+raders became bankers and traders because they did not like to read. So lot=
+s of financial contracts will consist of 10 or 50 or 200 pages of text, whi=
+ch a lawyer will cheerfully write (or sullenly copy and paste, fine) but wh=
+ich her client will not read, and buried within those pages there will be l=
+ike three formulas, which the lawyer will write and which might be wrong. T=
+he lawyer, who fears math, will write the formula wrong, and her client, wh=
+o knows math but fears words, will not read it, and so the wrong formula wi=
+ll be enshrined in the contract. (It does not help that the formula will ge=
+nerally be=C2=A0written=C2=A0in words =E2=80=94=C2=A0it will look like a ve=
+ry long sentence rather than a formula =E2=80=94=C2=A0due mostly to typogra=
+phical limitations. So it won=E2=80=99t look appealing to=C2=A0anybody.)=C2=
+=A0These are both =E2=80=94=C2=A0=E2=80=9Clawyers can=E2=80=99t do math,=E2=
+=80=9D =E2=80=9Ctraders can=E2=80=99t read=E2=80=9D =E2=80=94=C2=A0cruel st=
+ereotypes and mostly untrue, so in fact the formulas are rarely wrong. (On =
+my old desk, several of the bankers were ex-lawyers, and our lawyer had an =
+advanced degree in math.) But not=C2=A0entirely=C2=A0untrue, so sometimes t=
+he formulas are wrong. We have talked a  couple of  times about a Ligand Ph=
+armaceuticals Inc. convertible bond where, deep in=C2=A0of a document that =
+no one read,=C2=A0the lawyers put a constant in a formula where they should=
+ have put a variable, with the result that instead of paying $700 million t=
+he bond said it would pay $5 billion. Oops! This was plainly a mistake: It =
+was not what=C2=A0anyone had agreed to; the formula written in the document=
+ did not reflect the economic deal that the parties understood. So Ligand c=
+orrected the document, and then some investors sued (you gotta try!), but t=
+hey lost. You get to correct obvious mistakes, the judge decided.=C2=A0Or h=
+ere=E2=80=99s an even sillier story  from Bloomberg=E2=80=99s Tracy Alloway=
+:In this particular contract (a lease for a term of 25 years), Monsolar agr=
+eed to pay annual rent to Woden Park that would increase every year accordi=
+ng to inflation as measured by the Retail Price Index, or RPI, one of the t=
+wo main consumer price indices produced by the U.K.=E2=80=99s Office for Na=
+tional Statistics. The initial amount was set at =C2=A315,000 ($20,691) and=
+ was governed by a formula for future increases.That formula, apparently co=
+nstructed by the landlord himself from examples =E2=80=98available on the i=
+nternet,=E2=80=99 looks something like this:Revised rent =3D Previous year=
+=E2=80=99s rent x (May RPI for current year)/(May 2013 RPI)Perhaps you can =
+see where this is going?Yeah where it=E2=80=99s going is that double-counts=
+: You can adjust for inflation by multiplying last year=E2=80=99s rent by t=
+he change in the price index since last year, or you can adjust for inflati=
+on by multiplying the first year=E2=80=99s rent by the change in the price =
+index since inception, but if you adjust by multiplying last year=E2=80=99s=
+ rent by the change in the price index since inception then you=E2=80=99re =
+sort of compounding twice. (If you cobble together a formula based on examp=
+les on the internet, you might find yourself doing everything at once.) =E2=
+=80=9CBy the tenant=E2=80=99s calculation, were RPI to increase over the le=
+ase term in line with the preceding 20-year average (2.855% per annum) the =
+annual rent payable in the final year of the lease would end up being just =
+over =C2=A376,000,000 =E2=80=94 a cool $100 million =E2=80=94 and by the en=
+d of the 25-year lease an increase of some 507,000%.=E2=80=9DThe tenant sue=
+d to change the contract to say what they meant =E2=80=94=C2=A0adjust, once=
+, for inflation =E2=80=94=C2=A0and the landlord said, nah man, you signed t=
+he contract, pay us our $100 million. The U.K. court sided with the tenant =
+because you get to correct obvious mistakes, the landlord appealed, and the=
+ appeals court also sided with the tenant because honestly come on we live =
+in a society.=C2=A0Two points here. One is that =E2=80=9Chonestly come on w=
+e live in a society=E2=80=9D is a good bedrock principle of the common law;=
+ you certainly can=E2=80=99t rely on it to protect all of your interests =
+=E2=80=94=C2=A0don=E2=80=99t go around signing contracts that you don=E2=80=
+=99t mean! =E2=80=94=C2=A0but it tends to soften the blow of the most egreg=
+ious cases. It is, however, a principle that requires human intervention an=
+d common sense; it is hard to automate. Smart contracts on the blockchain c=
+an=E2=80=99t solve this: If code is law, and the code is wrong, oops, you p=
+ay the $100 million.The other thing is that I can=E2=80=99t resist quoting =
+this passage from the appellate decision, describing the original judge=E2=
+=80=99s decision[2]:He proceeded to consider whether it was clear what sch =
+6 was objectively intended to mean. =C2=A0 MonSolar=E2=80=99s case was that=
+ the drafting mistake should be corrected by reading the Formula as if it r=
+ead:=E2=80=9CRevised Rent =C2=A0=3D =C2=A0Original Rent (=C2=A315,000) =C2=
+=A0 x=C2=A0 =C2=A0(May RPI for current year) / (May 2013 RPI)=E2=80=9DFanco=
+urt J however considered that the appropriate correction was as follows:=E2=
+=80=9CRevised Rent =C2=A0=3D =C2=A0Previous year=E2=80=99s Rent =C2=A0 =C2=
+=A0x=C2=A0 =C2=A0(May RPI for current year) / (May RPI for previous year)=
+=E2=80=9DI will call these =E2=80=9CCorrection A=E2=80=9D and =E2=80=9CCorr=
+ection B=E2=80=9D respectively. =C2=A0=C2=A0No doubt due to the fact that h=
+e was having to resolve the issues on written submissions alone, Fancourt J=
+ evidently thought that Correction A and Correction B produced different re=
+sults, and he proceeded to explain why he preferred Correction B. =C2=A0Thi=
+s part of his judgment, with respect, is not entirely easy to understand, b=
+ut in summary it appears he thought that Correction A would only produce si=
+mple increases whereas Correction B would produce compound increases. =C2=
+=A0It is however common ground that the premise is false and that Correctio=
+n A and Correction B will always produce exactly the same results. =C2=A0Th=
+is is because RPI itself is in effect compounded, as a simple illustration =
+demonstrates: if an item costing =C2=A3100 is subject to RPI increases of 2=
+% a year, it will cost =C2=A3102 after one year and =C2=A3104.04 (not =C2=
+=A3104) after two years, and the total RPI increase over the two years will=
+ be 4.04% not 4%. =C2=A0So it does not matter whether one calculates the pr=
+ice at the end of year 2 as =C2=A3100 x 104.04/100 (Correction A), or =C2=
+=A3102 x 104.04/102 (Correction B). =C2=A0 Both produce the same figure of =
+=C2=A3104.04.Compounding! Who can understand it? If you get it wrong in you=
+r contract and go to court to fix it, what are the odds the judge will unde=
+rstand it?Things happenGoldman Sachs offices are open, but getting junior b=
+ankers to return full time is proving tough. More Credit Suisse Senior Bank=
+ers Depart in Wake of Archegos Loss. China to  Sell More Metals From Reserv=
+es to Ensure Stable Prices. Bitcoin Fraud Concerns Draw Scrutiny From Regul=
+ators. Ever Given Container Ship That Blocked Suez Canal Sets Sail After Ow=
+ner Pays Compensation. =E2=80=9COur results suggest that skilled individual=
+ investors exploit market inefficiencies (or perhaps conditional risk premi=
+ums) to earn abnormal profits.=E2=80=9D Scientists discover spiders are eat=
+ing snakes all over the world. The Best  Pizza City in America Is Portland,=
+ Oregon. =E2=80=9CHe=E2=80=99s ambivalent about pursuing bank work himself.=
+ =E2=80=98Maybe,=E2=80=99 he says. =E2=80=98The thing that=E2=80=99s not in=
+teresting is that it goes on all day.=E2=80=99=E2=80=9D =E2=80=9CIt=E2=80=
+=99s like a Gramercy Park for dogs.=E2=80=9D =E2=80=9CIs this France=E2=80=
+=99s most extreme performance artist =E2=80=93 and how does he go to the to=
+ilet?=E2=80=9DIf you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy emai=
+l form, right in your inbox, please=C2=A0subscribe at this link. Or you can=
+ subscribe to Money Stuff and other great Bloomberg newsletters here. Thank=
+s![1] Another disadvantage is that anyone can sell your stock, including sh=
+ort sellers. There is a theoretical view that publicly traded stock should =
+be worth more than private stock, because it is more liquid, but there is a=
+n argument that private stock is often actually worth more because it=E2=80=
+=99s harder to sell.[2] I have made minor typographical alterations due to =
+my own typesetting limitations.=C2=A0
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ceilqn.5w0q/0ccc299a.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_11266342_312559079.1625677072718
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBc1c4194f"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cBd0e3385=
+6">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Didi VIEs</h2><p style=3D"margin: 16px 0;">In my old life, I was a de=
+rivatives structurer at an investment bank, and an experience that I freque=
+ntly had was getting calls like this:</p><blockquote><p style=3D"margin: 16=
+px 0;"><strong>Relationship banker:</strong> Our client wants to do ______.=
+</p><p style=3D"margin: 16px 0;"><strong>Me:</strong> That=E2=80=99s illega=
+l.</p><p style=3D"margin: 16px 0;"><strong>Relationship banker:</strong> Ye=
+s that=E2=80=99s our problem.</p><p style=3D"margin: 16px 0;"><strong>Me:</=
+strong> Ah.</p><p style=3D"margin: 16px 0;"><strong>Relationship banker:</s=
+trong> We were hoping there was a =E2=80=A6 derivative?</p></blockquote><p =
+style=3D"margin: 16px 0;">Sometimes there was! If you came to me and said =
+=E2=80=9Cour client would like to buy 8% of a public company, but not discl=
+ose her ownership,=E2=80=9D I would say =E2=80=9Cwell, under U.S. law you d=
+o have to disclose that level of stock ownership, but I could put you in a =
+nice derivative that gets around that requirement.=E2=80=9D The client coul=
+d enter into a swap that gives her economic exposure to the shares, but not=
+ actual ownership, so she would not be subject to the laws about ownership =
+disclosure. Everyone is happy, more or less. (No one is happy, and we have =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMDUvYmlsb=
+C1od2FuZy1zLWFyY2hlZ29zLXN3YXAtYWZ0ZXJtYXRoLWlzLWF3a3dhcmQtZm9yLWJhbmtz/607=
+f07ceef4b8524a319a23cB75d6d394" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> talked</a> a <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24382607.274778/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjEtMDQtMDgvYXJjaGVnb3MtZ290LXRvby1iaWctZm9yLWl0cy1iYW5r=
+cw/607f07ceef4b8524a319a23cBb313a6b0" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;"> few</a> <a href=3D"https://link.mail.bloomberg=
+business.com/click/24382607.274778/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjEtMDQtMjIvanBtb3JnYW4tcy1ldXJvcGVhbi1zdXBlci1sZWFndWU=
+tZGViYWNsZS1pcy1hYm91dC1zdGFrZWhvbGRlcnM/607f07ceef4b8524a319a23cB53727e20"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> times</a=
+> about how mad everyone is that Archegos Capital Management=C2=A0was allow=
+ed to do this.)</p><p style=3D"margin: 16px 0;">So I have a soft spot for C=
+hinese VIEs. The idea is that, under Chinese law, it is somewhere between =
+=E2=80=9Ccomplicated=E2=80=9D and =E2=80=9Cforbidden=E2=80=9D for foreigner=
+s to own certain big important Chinese tech=C2=A0companies. This is a probl=
+em for those companies if they want to raise capital from foreign investors=
+ and list their stocks on foreign stock exchanges. But there is a solution.=
+ =E2=80=9COwnership=E2=80=9D of a company is a complicated notion, a vague =
+jumble of rights to elect directors and approve mergers and claim a residua=
+l interest=C2=A0in the company=E2=80=99s cash flows. You could break those =
+things up and sell them separately. Write a profit-sharing contract that sa=
+ys =E2=80=9CA will pay B all of A=E2=80=99s profits after expenses for the =
+next 100 years, renewable at B=E2=80=99s option,=E2=80=9D and hey that=E2=
+=80=99s a residual claim on cash flows. (Or something vaguer: =E2=80=9CA wi=
+ll pay B an annual consulting fee that B decides in its total discretion ba=
+sed on the economic value of the relationship,=E2=80=9D etc.; not technical=
+ly a residual claim but what else is it?) =E2=80=9CB will provide managemen=
+t services to A and A will follow B=E2=80=99s instructions,=E2=80=9D hey th=
+at=E2=80=99s basically control. =E2=80=9CB will have the right to appoint a=
+ majority of A=E2=80=99s board of directors,=E2=80=9D put it in a contract,=
+ it=E2=80=99s not actually stock ownership. Etc. Write some contracts that,=
+ bundled together, look like ownership, but=C2=A0<em>aren=E2=80=99t=C2=A0</=
+em>ownership<em>.</em></p><p style=3D"margin: 16px 0;">With Chinese compani=
+es this sort of thing is generally called a =E2=80=9Cvariable interest enti=
+ty.=E2=80=9D You set up a company in the Cayman Islands that can be owned b=
+y anyone. The Caymans company enters into a series of contracts with the lo=
+cal Chinese company, giving it, not ownership, but certain carefully curate=
+d economic interests and control rights over the Chinese company. Then you =
+list the Caymans company in the U.S., and people buy its stock, and they so=
+rt of pretend that they=E2=80=99re buying stock in the Chinese company =E2=
+=80=94=C2=A0they sort of pretend that the Chinese company is a=C2=A0<em>sub=
+sidiary=C2=A0</em>of the Caymans holding company =E2=80=94=C2=A0even though=
+ really they=E2=80=99re only buying an empty shell that has certain contrac=
+tual relationships with the Chinese company.</p><p style=3D"margin: 16px 0;=
+">The problem with this is that it sort of sounds like you=E2=80=99re kiddi=
+ng. So here is <a href=3D"https://link.mail.bloombergbusiness.com/click/243=
+82607.274778/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE3NjQ3NT=
+cvMDAwMTA0NzQ2OTIxMDAxMjI3L2EyMjQzMzAwejQyNGI0Lmh0bQ/607f07ceef4b8524a319a2=
+3cB2afb4b0f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">the prospectus for Didi Global Inc.</a>, a Cayman Islands company that h=
+as certain contractual relationships with a giant Chinese ride-hailing comp=
+any. (Technically the top-level Chinese company is called Beijing Xiaoju Sc=
+ience and Technology Co. Ltd., though colloquially it is =E2=80=9CDidi Chux=
+ing.=E2=80=9D) Didi Global did an initial public offering of its American d=
+epositary shares last week; it has a market capitalization of something lik=
+e $57 billion. Page 12 of the prospectus has a diagram of the corporate str=
+ucture, which looks almost normal:</p><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/iQmGqtaYp1WU/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/iQmGqtaYp1WU/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]--><p style=3D"margin: 16px 0;">Looks like a holding company with =
+some intermediate holding companies and operating subsidiaries, fine. The o=
+nly weird thing is that somewhere near the middle there is a=C2=A0<em>doubl=
+e=C2=A0</em>arrow (representing =E2=80=9Ccontractual arrangements=E2=80=9D)=
+ rather than a single arrow (representing =E2=80=9Cequity interest=E2=80=9D=
+). Didi Global=E2=80=99s shareholders =E2=80=9Cown,=E2=80=9D in some fairly=
+ normal sense, everything above the double arrow, right down to one =E2=80=
+=9Cwholly foreign owned enterprise=E2=80=9D (WFOE) in China. Everything bel=
+ow the double arrow =E2=80=94=C2=A0the actual ride-hailing business, etc. =
+=E2=80=94=C2=A0is slightly askew; they just have contractual rights to do s=
+tuff with it.</p><p style=3D"margin: 16px 0;">The actual contractual rights=
+ are spelled out on <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/24382607.274778/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE3N=
+jQ3NTcvMDAwMTA0NzQ2OTIxMDAxMjI3L2EyMjQzMzAwejQyNGI0Lmh0bSNkazEwMjAxX2NvcnBv=
+cmF0ZV9oaXN0b3J5X2FuZF9zdHJ1Y3R1cmU/607f07ceef4b8524a319a23cB26b5a73a" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">pages 100-102 =
+of the prospectus</a> under the heading =E2=80=9CContractual Arrangements w=
+ith Our Variable Interest Entities,=E2=80=9D and they are worth reading. =
+=E2=80=9CAgreements that Allow Us to Receive Economic Benefits from Our Var=
+iable Interest Entities=E2=80=9D is one sub-heading, describing a contract =
+providing that =E2=80=9CBeijing DiDi or its designated parties have the exc=
+lusive right to provide Xiaoju Technology with comprehensive technical supp=
+ort, consulting services and other services,=E2=80=9D and that =E2=80=9CXia=
+oju Technology agrees to pay services fees, the amount of which is determin=
+ed by Beijing DiDi on the basis of the work performed and commercial value =
+of the services.=E2=80=9D Is that a residual claim on the cash flows of the=
+ ride-hailing business? Maybe!</p><p style=3D"margin: 16px 0;">=E2=80=9CAgr=
+eements that Provide Us with Effective Control over Our Variable Interest E=
+ntities=E2=80=9D and =E2=80=9CAgreements that Provide Us with the Option to=
+ Purchase the Equity Interest in Our Variable Interest Entities=E2=80=9D ar=
+e two other sub-headings. (The latter is less of a stock option and more of=
+ a transfer restriction: It=E2=80=99s not that Didi can practically buy the=
+ shares in the VIE; it=E2=80=99s that it doesn=E2=80=99t want the sharehold=
+ers selling those shares to someone else.) And here=E2=80=99s this:</p><blo=
+ckquote><p style=3D"margin: 16px 0;"><em>Spousal Consent Letters.</em> The =
+spouses of the shareholders of Xiaoju Technology have each signed a spousal=
+ consent letter agreeing that the equity interests in Xiaoju Technology hel=
+d by and registered under the name of the respective shareholders will be d=
+isposed pursuant to the contractual agreements with Beijing DiDi. Each spou=
+se agreed not to assert any rights over the equity interest in Xiaoju Techn=
+ology held by the respective shareholder.</p></blockquote><p style=3D"margi=
+n: 16px 0;"><em>Somebody=C2=A0</em>owns the ride-hailing business, in a tec=
+hnical legal sense, and it=E2=80=99s not Didi Global or its shareholders. Y=
+ou don=E2=80=99t want the actual owners, or their spouses, to go around sel=
+ling the shares out from under Didi.</p><p style=3D"margin: 16px 0;">I don=
+=E2=80=99t want to pick on Didi. This is a standard method for mainland Chi=
+nese internet companies to go public, Didi is just the latest in a long lin=
+e of big companies to use it, the market has come to accept it, and Didi=E2=
+=80=99s Chinese counsel has opined that =E2=80=9Cthe ownership structure of=
+ our principal variable interest entity ... will not result in any violatio=
+n of the applicable PRC laws or regulations currently in effect=E2=80=9D an=
+d that =E2=80=9Cthe agreements under the contractual arrangement among Beij=
+ing DiDi, Xiaoju Technology and its shareholders are currently valid, bindi=
+ng and enforceable in accordance with their terms and the applicable PRC la=
+ws or regulations currently in effect.=E2=80=9D It=E2=80=99s all fine!</p><=
+p style=3D"margin: 16px 0;">But, again, it sounds like you=E2=80=99re kiddi=
+ng, and as that legal opinion sort of implies, the laws can change. <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMDcvY2hpbmEtbXVsbHMt=
+Y2xvc2luZy1sb29waG9sZS11c2VkLWJ5LXRlY2gtZ2lhbnRzLWZvci11LXMtaXBvcw/607f07ce=
+ef4b8524a319a23cBd39dd136" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> So</a>!</p><blockquote><p style=3D"margin: 16px 0;">Regul=
+ators in Beijing are planning rule changes that would allow them to block a=
+ Chinese company from listing overseas even if the unit selling shares is i=
+ncorporated outside China, closing a loophole long-used by the country=E2=
+=80=99s technology giants, according to people familiar with the matter.</p=
+><p style=3D"margin: 16px 0;">The China Securities Regulatory Commission is=
+ leading efforts to revise rules on overseas listings that have been in eff=
+ect since 1994 and make no reference to companies registered in places like=
+ the Cayman Islands, said the people, asking not to be identified discussin=
+g a private matter. Once amended, the rules would require firms structured =
+using the so-called Variable Interest Entity model to seek approval before =
+going public in Hong Kong or the U.S., the people said.=C2=A0</p><p style=
+=3D"margin: 16px 0;">The proposed change is the first indication of how Bei=
+jing plans to implement a crackdown on overseas listings flagged by the cou=
+ntry=E2=80=99s State Council on Tuesday. Closer oversight would plug a gap =
+that=E2=80=99s been used for two decades by technology giants from Alibaba =
+Group Holding Ltd. to Tencent Holdings Ltd. to attract foreign capital and =
+list offshore, potentially thwarting the ambitions of firms like ByteDance =
+Ltd. contemplating going public outside the mainland. =E2=80=A6</p><p style=
+=3D"margin: 16px 0;">Pioneered by Sina Corp. and its investment bankers dur=
+ing a 2000 initial public offering, the VIE framework has never been formal=
+ly endorsed by Beijing. It has nevertheless enabled Chinese companies to si=
+destep restrictions on foreign investment in sensitive sectors including th=
+e Internet industry. The structure allows a Chinese firm to transfer profit=
+s to an offshore entity -- registered in places like the Cayman Islands or =
+the British Virgin Islands -- with shares that foreign investors can then o=
+wn.</p><p style=3D"margin: 16px 0;">While virtually every major Chinese int=
+ernet company has used the structure, it=E2=80=99s become increasingly worr=
+isome for Beijing as it tightens its grip on technology firms that have inf=
+iltrated every corner of Chinese life and control reams of consumer data. A=
+uthorities so far have little legal recourse to prevent sensitive overseas =
+listings, as with the recent Didi Global Inc. IPO, which went ahead despite=
+ requests for a delay from regulators.</p><p style=3D"margin: 16px 0;">The =
+additional oversight could bestow a level of legitimacy on the VIE structur=
+e that=E2=80=99s been a perennial worry for global investors given the shak=
+y legal ground on which it stands.</p></blockquote><p style=3D"margin: 16px=
+ 0;">Yeah that=E2=80=99s not the worst outcome. The worst outcome would be =
+something like the Chinese government declaring =E2=80=9Call these VIE cont=
+racts are actually a disguised form of foreign ownership, which is not allo=
+wed by the rules, so they are all void and your Didi and Alibaba shares are=
+ worthless.=E2=80=9D That would =E2=80=A6=C2=A0I mean, these VIE contracts=
+=C2=A0<em>are=C2=A0</em>a disguised form of foreign ownership, and a fairly=
+ thin disguise. (It=E2=80=99s not like Chinese government authorities are <=
+em>unaware</em> that foreign investors own shares in Alibaba; it=E2=80=99s =
+just that they seem to accept this level of technical compliance with the r=
+ules.) This is a real risk! It=E2=80=99s in <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24382607.274778/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoa=
+XZlcy9lZGdhci9kYXRhLzE3NjQ3NTcvMDAwMTA0NzQ2OTIxMDAxMjI3L2EyMjQzMzAwejQyNGI0=
+Lmh0bSNkYTEwMjAxX3Jpc2tfZmFjdG9ycw/607f07ceef4b8524a319a23cBc2e731eb" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">Didi=E2=80=99s =
+risk factors</a>:</p><blockquote><p style=3D"margin: 16px 0;">PRC laws and =
+regulations impose restrictions on foreign ownership and investment in cert=
+ain internet-based businesses. We are an exempted company incorporated in t=
+he Cayman Islands and our PRC subsidiaries are considered foreign-invested =
+enterprises. To comply with PRC laws, regulations and regulatory requiremen=
+ts, we set up a series of contractual arrangements entered into among some =
+of our PRC subsidiaries, our VIEs and their shareholders to conduct some of=
+ our operations in China. ...</p><p style=3D"margin: 16px 0;">We have been =
+further advised by our PRC legal counsel that there are substantial uncerta=
+inties regarding the interpretation and application of current or future PR=
+C laws and regulations. Thus, the PRC government may ultimately take a view=
+ contrary to the opinion of our PRC legal counsel. If the PRC government ot=
+herwise find that we are in violation of any existing or future PRC laws or=
+ regulations or lack the necessary permits or licenses to operate our busin=
+ess, the relevant governmental authorities would have broad discretion in d=
+ealing with such violation, including, without limitation:=C2=A0=E2=80=A6</=
+p><p style=3D"margin: 16px 0;">revoking the business licenses and/or operat=
+ing licenses of our PRC entities; ...</p><p style=3D"margin: 16px 0;">requi=
+ring us to restructure our ownership structure or operations, including ter=
+minating the contractual arrangements with our VIEs and deregistering the e=
+quity pledges of our VIEs, which in turn would affect our ability to consol=
+idate, derive economic interests from, or exert effective control over our =
+VIEs and their subsidiaries; ...</p></blockquote><p style=3D"margin: 16px 0=
+;">If the Chinese government decides =E2=80=9CVIEs are okay, but you have t=
+o get our permission to list them abroad,=E2=80=9D that's not a worst-case =
+scenario even if it never grants permission. The bad news would be if the o=
+nes already listed abroad were just, you know,=C2=A0<em>voided</em>.</p><p =
+style=3D"margin: 16px 0;">Anyway there is a whole mess of Chinese and U.S. =
+government proclamations about cracking down on Chinese companies listing a=
+broad. On the Chinese side,=C2=A0=E2=80=9CDidi Plunges Below IPO Price as <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMDYvZGlkaS1zbH=
+VtcHMtYWZ0ZXItY2hpbmEtcmVndWxhdG9ycy1vcmRlci1zdG9yZXMtdG8tcmVtb3ZlLWFwcA/60=
+7f07ceef4b8524a319a23cBb59f133c" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> China Crackdown Brings U.S. Pain</a>,=E2=80=9D and =
+=E2=80=9CChina=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24382607.274778/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMjk5YmEwMGItZGZl=
+Zi00YzUzLTg4YTItZTY3MjVkMTQwMjVk/607f07ceef4b8524a319a23cBf87f59c6" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">crackdown on US l=
+istings</a> threatens $2tn market.=E2=80=9D And on the U.S. side: =E2=80=9C=
+Investment Review Panel <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/24382607.274778/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9pbnZlc3RtZW50L=
+XJldmlldy1wYW5lbC1nZXRzLXdpZGVyLXJvbGUtdW5kZXItYmlkZW4taW4tcml2YWxyeS13aXRo=
+LWNoaW5hLTExNjI1NjUwMjAwP21vZD1ocF9sZWFkX3BvczI/607f07ceef4b8524a319a23cB82=
+08f449" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;">Ge=
+ts Wider Role</a> Under Biden in Rivalry With China,=E2=80=9D and =E2=80=9C=
+Republican senator <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/24382607.274778/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYjgyZDUzMDctMjU2Yy00Nz=
+kxLTk4NDctNjdhZDlmNmY2ODlj/607f07ceef4b8524a319a23cBb9101257" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">Marco Rubio lambasts</a=
+> =E2=80=98reckless and irresponsible=E2=80=99 Didi listing.=E2=80=9D If U.=
+S. regulators ban Chinese firms from listing in the U.S., and Chinese regul=
+ators also ban Chinese firms from listing in the U.S., I guess it will be h=
+ard for Chinese firms to list in the U.S. But maybe they=E2=80=99ll find a =
+way anyway. Maybe there=E2=80=99s a derivative.</p><h2 style=3D"font-weight=
+: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif;=
+ letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border-bo=
+ttom-style: dotted; margin: 0px; padding: 16px 0px 5px;">Palantir SPACs</h2=
+><p style=3D"margin: 16px 0;">The basic deal, when a company goes public, i=
+s that anyone can buy its stock. You put out a notice saying =E2=80=9Chey w=
+e have stock for sale, please buy it,=E2=80=9D and then whoever is willing =
+to pay the most buys the stock. The advantage of this, for the company, is =
+generally that you=C2=A0can raise a lot of money. Deep liquid public market=
+s are good for valuation; people are more willing to take a risk on buying =
+stock that they can easily resell. So if you want money, having public stoc=
+k is good. The disadvantage is that anyone can buy your stock. Activist inv=
+estors can buy your stock and yell at you to change things. Hostile bidders=
+ can tender for your stock to try to take you over. Crazy retail investors =
+can push your stock around. Index funds can buy your stock and sit around d=
+oing nothing. Etc.[1]</p><p style=3D"margin: 16px 0;">There is another mode=
+l, in which you interview=C2=A0the people who want to buy your stock and ch=
+oose the best ones. Price matters =E2=80=94=C2=A0people who will pay more f=
+or your stock are better for you than people who will pay less =E2=80=94=C2=
+=A0but it is not the only thing. Buying your stock is a way to start a rela=
+tionship, and you will try to sell stock to people who will be good relatio=
+nship partners. Wise investors who can give you good advice will be more ap=
+pealing than hands-off index funds. Hands-off index funds will be more appe=
+aling than mean activists who will boss you around and try to fire your man=
+agers. Selling stock to your competitors seems bad. Selling stock to your s=
+uppliers or customers to cement your business relationships seems good.</p>=
+<p style=3D"margin: 16px 0;">The second model is typical, though not univer=
+sal, in venture-capital-funded private companies. VCs advertise themselves =
+to startups as wise advisers, as helpful (but not intrusive) board members,=
+ as providers of operational expertise and introductions to customers and s=
+uppliers. This is so standard in venture capital that it is <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24382607.274778/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMTUvY29pbmJhc2UtZGlyZWN0=
+LWxpc3RpbmctbmVlZGVkLXRoZS1jb2luLXRpY2tlcg/607f07ceef4b8524a319a23cB435ba99=
+3" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> faintl=
+y scandalous</a> that Tiger Global, a big hedge fund, does a lot of venture=
+-type investing in private tech companies=C2=A0<a href=3D"https://link.mail=
+.bloombergbusiness.com/click/24382607.274778/aHR0cHM6Ly9yYW5kbGUuc3Vic3RhY2=
+suY29tL3AvcGxheWluZy1kaWZmZXJlbnQtZ2FtZXM/607f07ceef4b8524a319a23cBb688587f=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"><em>with=
+out=C2=A0</em>all=C2=A0this relationship-building stuff</a>; it just buys s=
+tock with money=C2=A0and leaves them alone.</p><p style=3D"margin: 16px 0;"=
+>One way to think about special purpose acquisition companies is that they =
+are sort of venture-capital deals to go public. When you sign a deal with a=
+ SPAC, you get cash and a public listing (like you would in an IPO), but yo=
+u also get a long-term relationship with the SPAC=E2=80=99s sponsor. The sp=
+onsor generally joins your board of directors, typically along with a coupl=
+e of other fancy people that the sponsor has signed up to be directors. For=
+ many young companies, part of the appeal of a SPAC deal is that you get a =
+bunch of highly qualified directors all at once, directors whom you couldn=
+=E2=80=99t have gotten by just going public and trying to recruit them. (If=
+ you want Shaq on your board, merging with a <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24382607.274778/aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNv=
+bS9uZXdzL3NoYXEtc3BhYy0yLTAtY29taW5nLTEzMzYzNzU2Ni5odG1s/607f07ceef4b8524a3=
+19a23cBb3949565" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">Shaq SPAC</a> is the way to go.) The sponsor will=C2=A0tout her indu=
+stry connections and financial-structuring expertise and whatever else she =
+brings to the table; you=E2=80=99ll sign with her not just for the money sh=
+e brings but also for the rest of the continuing relationship.</p><p style=
+=3D"margin: 16px 0;">Alongside the SPAC merger, a company will typically ra=
+ise additional money, privately, in a PIPE deal (=E2=80=9Cprivate investmen=
+t in public equity=E2=80=9D). The PIPE investors will put in money alongsid=
+e the SPAC, in order to make the deal bigger and provide more certainty. (S=
+PAC investors have withdrawal rights, so if you sign a $500 million SPAC de=
+al you can=E2=80=99t be sure of getting $500 million; if you throw in a $40=
+0 million PIPE alongside the SPAC you=E2=80=99re guaranteed at least the $4=
+00 million.) The PIPE investors will often be the sorts of big boring insti=
+tutional investors you=E2=80=99d get in an initial public offering, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aHR0cHM6L=
+y93d3cuYmFycm9ucy5jb20vYXJ0aWNsZXMvcGFsYW50aXItc3RvY2stc3BhYy1pcG8tNTE2MjUy=
+NTAyODU/607f07ceef4b8524a319a23cB42fe0788" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">but not necessarily</a>:</p><blockquote><p=
+ style=3D"margin: 16px 0;">While most PIPE participants are institutional i=
+nvestors, they sometimes include strategic investors.</p><p style=3D"margin=
+: 16px 0;">And that=E2=80=99s where Palantir (ticker: PLTR) comes in.</p><p=
+ style=3D"margin: 16px 0;">To date, Palantir has participated in at least e=
+ight SPAC-related PIPE transactions, investing well over $100 million, usin=
+g the deals as a way to win business from emerging companies that can benef=
+it from Palantir=E2=80=99s big data analytics software. In effect, Palantir=
+ is providing capital up front in return for a multiyear commitments to use=
+ the company=E2=80=99s software.</p></blockquote><p style=3D"margin: 16px 0=
+;">Obviously Palantir could just go buy stock in public companies, on the s=
+tock exchange,=C2=A0if it wanted to, but it doesn=E2=80=99t; that has none =
+of the relationship-building advantages of this. Or it could invest in vent=
+ure rounds, if it wanted to, but those are sometimes small and exclusive. A=
+ SPAC PIPE is like a venture round but for an about-to-be-public company.</=
+p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7euuWjKLZ5M/v=
+0/-1x-1.jpg" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/i7euuWjKLZ5M/v0/-1x-1.jpg" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;"><p style=3D"margin: 10px 0px;">High Paying Cards For Americans Wit=
+h Good Credit. These cards feature=C2=A0<a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24382607.274778/aHR0cHM6Ly9iaXQubHkvM3hsYjRNag/607f07=
+ceef4b8524a319a23cB988dfec7" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" title=3D"$200 bonus offers and up to 3% cash back" style=
+=3D"color: #000000; text-decoration: underline;">$200 bonus offers and up t=
+o 3% cash back</a>. PLUS no annual fee and no interest for 15 months. A lon=
+g-time credit card writer says=C2=A0<a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24382607.274778/aHR0cHM6Ly9iaXQubHkvM3hsYjRNag/607f07ceef=
+4b8524a319a23cC988dfec7" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" title=3D"these are some of the best deals" style=3D"color: #=
+000000; text-decoration: underline;">these are some of the best deals</a>=
+=C2=A0he's seen in his years of writing for top financial websites.</p></di=
+v>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Wise Bread</p></=
+div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Inflation indexing</h2><p style=3D"margin: 16px 0;">A major problem i=
+n finance is that a lot of lawyers=C2=A0became lawyers because they did not=
+ like math, while a lot of bankers and traders became bankers and traders b=
+ecause they did not like to read. So lots of financial contracts will consi=
+st of 10 or 50 or 200 pages of text, which a lawyer will cheerfully write (=
+or sullenly copy and paste, fine) but which her client will not read, and b=
+uried within those pages there will be like three formulas, which the lawye=
+r will write and which might be wrong. The lawyer, who fears math, will wri=
+te the formula wrong, and her client, who knows math but fears words, will =
+not read it, and so the wrong formula will be enshrined in the contract. (I=
+t does not help that the formula will generally be=C2=A0<em>written=C2=A0</=
+em>in words =E2=80=94=C2=A0it will look like a very long sentence rather th=
+an a formula =E2=80=94=C2=A0due mostly to typographical limitations. So it =
+won=E2=80=99t look appealing to=C2=A0<em>anybody</em>.)=C2=A0</p><p style=
+=3D"margin: 16px 0;">These are both =E2=80=94=C2=A0=E2=80=9Clawyers can=E2=
+=80=99t do math,=E2=80=9D =E2=80=9Ctraders can=E2=80=99t read=E2=80=9D =E2=
+=80=94=C2=A0cruel stereotypes and mostly untrue, so in fact the formulas ar=
+e rarely wrong. (On my old desk, several of the bankers were ex-lawyers, an=
+d our lawyer had an advanced degree in math.) But not=C2=A0<em>entirely=C2=
+=A0</em>untrue, so sometimes the formulas are wrong. We have talked a <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDctMzEvc29tZXRpbW=
+VzLXRoZS1kb2N1bWVudHMtYXJlLXdyb25n/607f07ceef4b8524a319a23cB9939c133" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> couple</a> of =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDUtMjgvaXQtc=
+y1maW5lLWlmLXRoZS1kb2N1bWVudHMtYXJlLXdyb25nI2Zvb3Rub3RlLTI/607f07ceef4b8524=
+a319a23cB94ac0376" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> times</a> about a Ligand Pharmaceuticals Inc. convertible bond wh=
+ere, deep in=C2=A0of a document that no one read,=C2=A0the lawyers put a co=
+nstant in a formula where they should have put a variable, with the result =
+that instead of paying $700 million the bond said it would pay $5 billion. =
+Oops! This was plainly a mistake: It was not what=C2=A0anyone had agreed to=
+; the formula written in the document did not reflect the economic deal tha=
+t the parties understood. So Ligand corrected the document, and then some i=
+nvestors sued (you gotta try!), but they lost. You get to correct obvious m=
+istakes, the judge decided.=C2=A0</p><p style=3D"margin: 16px 0;">Or here=
+=E2=80=99s an even sillier story <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/24382607.274778/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMTktMDUtMjgvaXQtcy1maW5lLWlmLXRoZS1kb2N1bWVudHMtYXJlLXdyb25=
+nI2Zvb3Rub3RlLTI/607f07ceef4b8524a319a23cC94ac0376" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> from Bloomberg=E2=80=99s Tracy A=
+lloway</a>:</p><blockquote><p style=3D"margin: 16px 0;">In this particular =
+contract (a lease for a term of 25 years), Monsolar agreed to pay annual re=
+nt to Woden Park that would increase every year according to inflation as m=
+easured by the Retail Price Index, or RPI, one of the two main consumer pri=
+ce indices produced by the U.K.=E2=80=99s Office for National Statistics. T=
+he initial amount was set at =C2=A315,000 ($20,691) and was governed by a f=
+ormula for future increases.</p><p style=3D"margin: 16px 0;">That formula, =
+apparently constructed by the landlord himself from examples =E2=80=98avail=
+able on the internet,=E2=80=99 looks something like this:</p><p style=3D"ma=
+rgin: 16px 0;">Revised rent =3D Previous year=E2=80=99s rent x (May RPI for=
+ current year)/(May 2013 RPI)</p><p style=3D"margin: 16px 0;">Perhaps you c=
+an see where this is going?</p></blockquote><p style=3D"margin: 16px 0;">Ye=
+ah where it=E2=80=99s going is that double-counts: You can adjust for infla=
+tion by multiplying last year=E2=80=99s rent by the change in the price ind=
+ex since last year, or you can adjust for inflation by multiplying the firs=
+t year=E2=80=99s rent by the change in the price index since inception, but=
+ if you adjust by multiplying last year=E2=80=99s rent by the change in the=
+ price index since inception then you=E2=80=99re sort of compounding twice.=
+ (If you cobble together a formula based on examples on the internet, you m=
+ight find yourself doing everything at once.) =E2=80=9CBy the tenant=E2=80=
+=99s calculation, were RPI to increase over the lease term in line with the=
+ preceding 20-year average (2.855% per annum) the annual rent payable in th=
+e final year of the lease would end up being just over =C2=A376,000,000 =E2=
+=80=94 a cool $100 million =E2=80=94 and by the end of the 25-year lease an=
+ increase of some 507,000%.=E2=80=9D</p><p style=3D"margin: 16px 0;">The te=
+nant sued to change the contract to say what they meant =E2=80=94=C2=A0adju=
+st, once, for inflation =E2=80=94=C2=A0and the landlord said, nah man, you =
+signed the contract, pay us our $100 million. The U.K. court sided with the=
+ tenant because you get to correct obvious mistakes, the landlord appealed,=
+ and the appeals court also sided with the tenant because honestly come on =
+we live in a society.=C2=A0</p><p style=3D"margin: 16px 0;">Two points here=
+. One is that =E2=80=9Chonestly come on we live in a society=E2=80=9D is a =
+good bedrock principle of the common law; you certainly can=E2=80=99t rely =
+on it to protect all of your interests =E2=80=94=C2=A0don=E2=80=99t go arou=
+nd signing contracts that you don=E2=80=99t mean! =E2=80=94=C2=A0but it ten=
+ds to soften the blow of the most egregious cases. It is, however, a princi=
+ple that requires human intervention and common sense; it is hard to automa=
+te. Smart contracts on the blockchain <em>can=E2=80=99t</em> solve this: If=
+ code is law, and the code is wrong, oops, you pay the $100 million.</p><p =
+style=3D"margin: 16px 0;">The other thing is that I can=E2=80=99t resist qu=
+oting <a href=3D"https://link.mail.bloombergbusiness.com/click/24382607.274=
+778/aHR0cHM6Ly93d3cuYmFpbGlpLm9yZy9ldy9jYXNlcy9FV0NBL0Npdi8yMDIxLzk2MS5odG1=
+s/607f07ceef4b8524a319a23cB77b82df0" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">this passage from the appellate decision</a>, de=
+scribing the original judge=E2=80=99s decision[2]:</p><blockquote><p style=
+=3D"margin: 16px 0;">He proceeded to consider whether it was clear what sch=
+ 6 was objectively intended to mean. =C2=A0 MonSolar=E2=80=99s case was tha=
+t the drafting mistake should be corrected by reading the Formula as if it =
+read:</p><p style=3D"margin: 16px 0;">=E2=80=9CRevised Rent =C2=A0=3D =C2=
+=A0Original Rent (=C2=A315,000) =C2=A0 x=C2=A0 =C2=A0(May RPI for current y=
+ear) / (May 2013 RPI)=E2=80=9D</p><p style=3D"margin: 16px 0;">Fancourt J h=
+owever considered that the appropriate correction was as follows:</p><p sty=
+le=3D"margin: 16px 0;">=E2=80=9CRevised Rent =C2=A0=3D =C2=A0Previous year=
+=E2=80=99s Rent =C2=A0 =C2=A0x=C2=A0 =C2=A0(May RPI for current year) / (Ma=
+y RPI for previous year)=E2=80=9D</p><p style=3D"margin: 16px 0;">I will ca=
+ll these =E2=80=9CCorrection A=E2=80=9D and =E2=80=9CCorrection B=E2=80=9D =
+respectively. =C2=A0=C2=A0</p><p style=3D"margin: 16px 0;">No doubt due to =
+the fact that he was having to resolve the issues on written submissions al=
+one, Fancourt J evidently thought that Correction A and Correction B produc=
+ed different results, and he proceeded to explain why he preferred Correcti=
+on B. =C2=A0This part of his judgment, with respect, is not entirely easy t=
+o understand, but in summary it appears he thought that Correction A would =
+only produce simple increases whereas Correction B would produce compound i=
+ncreases. =C2=A0It is however common ground that the premise is false and t=
+hat Correction A and Correction B will always produce exactly the same resu=
+lts. =C2=A0This is because RPI itself is in effect compounded, as a simple =
+illustration demonstrates: if an item costing =C2=A3100 is subject to RPI i=
+ncreases of 2% a year, it will cost =C2=A3102 after one year and =C2=A3104.=
+04 (not =C2=A3104) after two years, and the total RPI increase over the two=
+ years will be 4.04% not 4%. =C2=A0So it does not matter whether one calcul=
+ates the price at the end of year 2 as =C2=A3100 x 104.04/100 (Correction A=
+), or =C2=A3102 x 104.04/102 (Correction B). =C2=A0 Both produce the same f=
+igure of =C2=A3104.04.</p></blockquote><p style=3D"margin: 16px 0;">Compoun=
+ding! Who can understand it? If you get it wrong in your contract and go to=
+ court to fix it, what are the odds the judge will understand it?</p><h2 st=
+yle=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helv=
+etica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-wid=
+th: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px 5px;">=
+Things happen</h2><p style=3D"margin: 16px 0;">Goldman Sachs offices are op=
+en, but <a href=3D"https://link.mail.bloombergbusiness.com/click/24382607.2=
+74778/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9nb2xkbWFuLWp1bmlvci1iYW5rZ=
+XJzLXJldHVybi1vZmZpY2UtbmV3LXlvcmstc2FsdC1sYWtlLXJvdGF0aW9uLTIwMjEtNw/607f0=
+7ceef4b8524a319a23cBbbd89386" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">getting junior bankers to return</a> full time is provi=
+ng tough. More <a href=3D"https://link.mail.bloombergbusiness.com/click/243=
+82607.274778/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9tb3JlLWNyZWRpdC1zdWlzc2=
+Utc2VuaW9yLWJhbmtlcnMtZGVwYXJ0LWluLXdha2Utb2YtYXJjaGVnb3MtbG9zcy0xMTYyNTU4N=
+zUxMD9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB334d53eb" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">Credit Suisse Se=
+nior Bankers Depart</a> in Wake of Archegos Loss. China to <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24382607.274778/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMDcvY2hpbmEtdG8tc2VsbC1tb3JlL=
+W1ldGFscy1mcm9tLXJlc2VydmVzLXRvLWVuc3VyZS1zdGFibGUtcHJpY2Vz/607f07ceef4b852=
+4a319a23cBcd5b45db" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> Sell More Metals From Reserves</a> to Ensure Stable Prices. <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aHR0cH=
+M6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9iaXRjb2luLWRyYXdzLW1vcmUtc2NydXRpbnktZnJvb=
+S1yZWd1bGF0b3JzLXdvcnJpZWQtYWJvdXQtZnJhdWQtMTE2MjU1NzY0MDA_bW9kPWl0cF93c2om=
+cnU9eWFob28/607f07ceef4b8524a319a23cB31593821" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Bitcoin Fraud Concerns</a> Draw Scruti=
+ny From Regulators. Ever Given Container Ship That Blocked Suez Canal <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aHR0cHM=
+6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ldmVyLWdpdmVuLWNvbnRhaW5lci1zaGlwLXRoYXQtYm=
+xvY2tlZC1zdWV6LWNhbmFsLWlzLXNldC10by1zYWlsLTExNjI1NjQxMDIxP21vZD1ocF9sZWFkX=
+3BvczU/607f07ceef4b8524a319a23cB336fc4ca" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Sets Sail</a> After Owner Pays Compensatio=
+n. =E2=80=9COur results suggest that <a href=3D"https://link.mail.bloomberg=
+business.com/click/24382607.274778/aHR0cHM6Ly9hY2FkZW1pYy5vdXAuY29tL3JhcHMv=
+YWR2YW5jZS1hcnRpY2xlLWFic3RyYWN0L2RvaS8xMC4xMDkzL3JhcHN0dS9yYWFiMDE3LzYzMTE=
+2Nzc_cmVkaXJlY3RlZEZyb209ZnVsbHRleHQ/607f07ceef4b8524a319a23cB2c64b08a" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">skilled indiv=
+idual investors</a> exploit market inefficiencies (or perhaps conditional r=
+isk premiums) to earn abnormal profits.=E2=80=9D Scientists discover <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aHR0cHM6=
+Ly9tYXJnaW5hbHJldm9sdXRpb24uY29tL21hcmdpbmFscmV2b2x1dGlvbi8yMDIxLzA3L3NjaWV=
+udGlzdHMtZGlzY292ZXItc3BpZGVycy1hcmUtZWF0aW5nLXNuYWtlcy1hbGwtb3Zlci10aGUtd2=
+9ybGQuaHRtbA/607f07ceef4b8524a319a23cB0072f6f9" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">spiders are eating snakes</a> all ove=
+r the world. The Best <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/24382607.274778/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzI=
+wMjEtMDctMDcvYmVzdC1waXp6YS1jaXR5LWluLWFtZXJpY2EtaXMtcG9ydGxhbmQtb3JlZ29uLX=
+NheS1tb2Rlcm5pc3QtZXhwZXJ0cw/607f07ceef4b8524a319a23cB8e859c9d" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> Pizza City</a> in Am=
+erica Is Portland, Oregon. =E2=80=9CHe=E2=80=99s ambivalent about pursuing =
+bank work himself. =E2=80=98Maybe,=E2=80=99 he says. =E2=80=98The thing tha=
+t=E2=80=99s not interesting is that <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24382607.274778/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93a=
+GF0LXlvdXIta2lkLXRoaW5rcy1hYm91dC15b3VyLWpvYi1pdC1nb2VzLW9uLWFsbC1kYXktMTE2=
+MjU1ODAyNDM/607f07ceef4b8524a319a23cBfef26649" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">it goes on all day</a>.=E2=80=99=E2=80=
+=9D =E2=80=9CIt=E2=80=99s like a <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/24382607.274778/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9uZXct=
+eW9yay1jaXR5LWRvZy1vd25lcnMtcHJpdmF0ZS1jbHVicy1kb2ctcnVuLW9mZi1sZWFzaC1wYW5=
+kZW1pYy1wdXBweS0xMTYyNTU4MDAwMD9tb2Q9aHBfZmVhdHN0X3BvczU/607f07ceef4b8524a3=
+19a23cBbe032520" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">Gramercy Park for dogs</a>.=E2=80=9D =E2=80=9CIs this <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/24382607.274778/aHR0cHM6Ly93d3cu=
+dGhlZ3VhcmRpYW4uY29tL2FydGFuZGRlc2lnbi8yMDIxL2p1bC8wNS9hYnJhaGFtLXBvaW5jaGV=
+2YWwtaW50ZXJ2aWV3/607f07ceef4b8524a319a23cBa0c20ade" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">France=E2=80=99s most extreme pe=
+rformance artist</a> =E2=80=93 and how does he go to the toilet?=E2=80=9D</=
+p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-me=
+dia"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email for=
+m, right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24382607.274778/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpb=
+mVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0=
+MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB98c39a93" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Mone=
+y Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/24382607.274778/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmc=
+uY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBc3e9d84b" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span=
+></p><p style=3D"margin: 16px 0;"><em>[1] Another disadvantage is that anyo=
+ne can sell your stock, including short sellers. There is a theoretical vie=
+w that publicly traded stock should be worth more than private stock, becau=
+se it is more liquid, but there is an argument that private stock is often =
+actually worth more because it=E2=80=99s harder to sell.</em></p><p style=
+=3D"margin: 16px 0;"><em>[2] I have made minor typographical alterations du=
+e to my own typesetting limitations.</em></p><p style=3D"margin: 16px 0;">=
+=C2=A0</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBac2a1545" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBdb41cc3d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBe8fed41c" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24382607.274778/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBccd51972" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-bottom: 32px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2438260=
+7.274778/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB620a459d" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24382607.274778/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC5e4bcd45" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24382607.274778/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB02f9db63" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24382607.274778/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB43569be9" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ceilqn.5w0q/0ccc299a.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_11266342_312559079.1625677072718--
+

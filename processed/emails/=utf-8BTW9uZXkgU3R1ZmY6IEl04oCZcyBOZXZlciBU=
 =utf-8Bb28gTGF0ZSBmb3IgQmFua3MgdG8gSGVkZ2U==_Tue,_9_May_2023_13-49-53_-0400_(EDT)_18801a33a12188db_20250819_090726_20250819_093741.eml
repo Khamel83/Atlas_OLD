@@ -1,0 +1,2038 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp2833353rwb;
+        Tue, 9 May 2023 10:50:55 -0700 (PDT)
+X-Received: by 2002:a7b:cc93:0:b0:3f4:2bb3:a5bb with SMTP id p19-20020a7bcc93000000b003f42bb3a5bbmr1969511wma.9.1683654654837;
+        Tue, 09 May 2023 10:50:54 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1683654654; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=IG6u1ccOGCUmG0jZJQBhX5F7hYSfnIqD6Z4o39qDskaNRJejlOIQFOYYPeLpFTHtqq
+         esBUY7MnkXRkNUNgxLWH5cD8x1Vw0aEuwQ9zyYBYdppkoELNK+Tx6lxrfzA1cFIwETCf
+         DApMyYrrETWvqoofNF2Dwuzfgk9RUv87m1CycPFY/ACnVfhDAqNSwfbo0Y1Ry5JIsqj4
+         b255u3OWgaZ9OCfdcdkFq8aJwDg4AFBEzgqCJsCTrHWCltEsnd7MPQZ7DwQx7VxA0AZb
+         zN0CDKVFquvzl0WyJxsvcwoIGjvOCLWpUnw9AWqWo743Q1ph5Mkvl6kt1G9kEsTo5Y+5
+         QxGQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=7/AJffYuljZx75vMyJy1d2aKNSbH3MTr/ec/02Wrogw=;
+        b=dO6f/tZPweqAZfiNdc2y3Xc40+khu+kgmNgEZ3ms5Fv/RFa4t8g1QJeXJyFVC9+m+U
+         RFiDyajRptazi6rvWMC+aETXySQfUMsOclBrVsdNr7d66lnUrUOxb6VycTPbj9RnaG1P
+         SYFJTl+dC+9jke97eGOz5Cx3uQhgV4unoewcfKGNxHQU10+FYCrjEKAnIMCT26RQnR03
+         x7Gn9EqykacbowT2z9mBbV/IuGWComvUjOBhfG+9Klc0c9HRvl1QDT/IMsexOeSWFfPI
+         UKhkZ9JgJvvFEWN3/uQDx6hyqg93qHrdh+Wd/HHwDjFBxK/bBBXUX1JQTM37DSVwUGX+
+         YEqQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kcuKnIgQ;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id z8-20020a05600c220800b003f42d8dd7d2sor452721wml.4.2023.05.09.10.50.54
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 09 May 2023 10:50:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kcuKnIgQ;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1683654654; x=1686246654;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=7/AJffYuljZx75vMyJy1d2aKNSbH3MTr/ec/02Wrogw=;
+        b=hHatRPpMHM1Gxg/DtMgDINt651D/qpcIoQC6P5H7GZazMTkWONHHBQnz5Ul6RMy6jM
+         F2Ja2lOKKcdF15jIaW8QAjOXcVIPzHHCRmG7qzMEtYuBqmELPFvPUY3AF2rSTMYdBhk7
+         5AE5sCGws/qwku3A4G9C5beNCFZgDj44ospexoo54OlP+NjPiPHBtBERVrg2YG+Ci6iy
+         2jMkhCCe5vob1isk8BrpNF9dt9E507iiVa0CVXqCgZoEbD8zKG9oEjcmTcb9BV4fPsP9
+         UMQ/dCfzMDPqdu0b+O4o/TATX8kDbGj+Cy2nXpuO9V+K0/+MFaatLpBawja+5yhriSOR
+         URDw==
+X-Gm-Message-State: AC+VfDwnp1U6W4aKeeNPqtem1qm+Ovtsabhomt/pBZHNDKI5zLwiIKKh
+	606LeETm0Xd6BHtTZVp+LXRGEL3PfX6oxYzlwbsb5vnCI2O9sD/9Kw==
+X-Received: by 2002:a1c:ed13:0:b0:3f1:6ef6:c9c7 with SMTP id l19-20020a1ced13000000b003f16ef6c9c7mr2666987wmh.0.1683654654420;
+        Tue, 09 May 2023 10:50:54 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f404:0:0:0:0:0 with SMTP id g4csp448039wro;
+        Tue, 9 May 2023 10:50:51 -0700 (PDT)
+X-Received: by 2002:a7b:cd93:0:b0:3f1:6ec5:bc6f with SMTP id y19-20020a7bcd93000000b003f16ec5bc6fmr9655412wmj.24.1683654651402;
+        Tue, 09 May 2023 10:50:51 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1683654651; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=BYUmAMil0kO06AqQT7zAud5P1uf1b42NtZM2h+hNK5jWLZrPooUWsCs/FATYwz5/rH
+         lEeI8pMuaSbekpx386tGrppgQeOjioqEpPqP5kiIsoZw5GFCuTGN/IpphdwL9yubHAxa
+         tFNjjGqe3LtN/m8ehRmQn7jo4iJ50QElDLmKOwZ7SzurXaJ1Kp+XjL1EhbU6gb7Ay3uI
+         cLYlTuRQqdN2eRl2NSvXsvsWGPJEhpbCRu1epbvCKenE6gZl8iOUnc8JlCnw87WplWQV
+         egyAXgZq2+ZhkTMEDxIeCoobIIHgt1lScCREVvO/HzPpy6O7abH/pIRElHBX/+8/qazo
+         Ycww==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=7/AJffYuljZx75vMyJy1d2aKNSbH3MTr/ec/02Wrogw=;
+        b=xITS/+BRuJFWao/GB2KDDxs+fDq0MZJBot9zi9GZVNzE+/WekUz+4Cm4JRgdF2XnjE
+         /J8eAbShRbZXLomonprGlgkGLmVe5dRfwJLhrzxukvJsMzEQxdTN2ryUdkVWKvDMGeix
+         DU13H0uKfK+ZTzocwDKRl5k+KYcJn2nqO0vtoo2kWUH7w848UGBeBkppjvu+7/YUx/F2
+         2f2W/7u7Dfuuu3pddtPJibvLasi0q4iFtaXhPvDd0NyAhGGIN4iWqjHRVcBsBYiA0snr
+         7j4WJvcmPU5tdfjdtSrI7cTHHUzscBKavnmYgY6sLPlnQlSeW7hwIa6mmgd0VP5Csrl0
+         +spg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kcuKnIgQ;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230509134953.31427429.263436@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230509134953.31427429.263436@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230509134953.31427429.263436@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m16-20020a7bca50000000b003f19576d67csor4621113wml.0.2023.05.09.10.50.51
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 09 May 2023 10:50:51 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230509134953.31427429.263436@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ6xwNqfGDZsblIP6uwjMvadhGWhdBAS+WXn93UtBxIuyolp8FvS4tBb9yPCKVicBd+H73G7AQhgHq+0IGcl7k9AKDErlpI=
+X-Received: by 2002:a7b:cd93:0:b0:3f1:6ec5:bc6f with SMTP id y19-20020a7bcd93000000b003f16ec5bc6fmr9655406wmj.24.1683654651210;
+        Tue, 09 May 2023 10:50:51 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1683654651; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ylrDvd+Ff/f7TS3ziFW3vXe/YcaCKwg+4l2emAj7Kne+2QigG5L75G4QqtMHr9mgaj
+         HjWNkvzNpu3a1BoVBHv9kKpDaHMysR02xc/oTEgyaSkvIiE2xmQMf4M1k/AD3PMeF1eq
+         bV/j8uh4BmVs2CWCu6kA4nLfG6aRsU3vJr8Kk475Ufb0s02meZAl3OpUtKwC4eCvc450
+         7P7tedHrNTvj7FtLRuaCP50b/VJQ9nDAgg8HzmQFnUoGvYe87CC3VH0C6eYgqU31ugyZ
+         l3vzRJqUgzr5mfbn3oa7Z61vdM+wkdNB3BVXyBr/ZVJVVESyzqPVyInLoZs3qvpwXNpE
+         rdqQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=7/AJffYuljZx75vMyJy1d2aKNSbH3MTr/ec/02Wrogw=;
+        b=oIoWUDttXE0rpTy5ry7B1rG9xF/snhYPkHUPza3wMIdzGDtTyZBMynYmHfC6dRfyT5
+         rTCpCz+LPuvkNBgECI4cG5xoZMgVlt1l5w935ACCGnIFKFgAPMF3ySwLx7ocbhMslJoR
+         7DwV+n1L8DmcDSvHsb/QbVZK8/5rQpt8aRLDX6KDVm8JGTbnyBs6EWuAzZr8KoMmKPYU
+         z04toxLdh9/C0uwo9VwKvMlpZjGXNurKJaXznBtBkntuu/ZAR4gcZKwf0oRf1moRJo7M
+         R49oAb+FRcC8fNdLASd51vTAUbvklequRVugeY5uL7urMH15atnUVHMEmFvEVdxmd5J4
+         YZ7Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kcuKnIgQ;
+       spf=pass (google.com: domain of delivery_20230509134953.31427429.263436@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230509134953.31427429.263436@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230509134953.31427429.263436@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id j15-20020a05600c1c0f00b003f4226e1b16si221284wms.1.2023.05.09.10.50.50
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 09 May 2023 10:50:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230509134953.31427429.263436@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=GpBfe5jJzsm7+HUsLSsUS98MjVu0l2gzQF9ZP+t/d2E=;
+ b=kcuKnIgQzpXn6Vy9QgzgfGzTKE7lsPemI95kYUzZCIkMoP2xI9/4PE3RLegvmhZglHQpD5Gx17Y+
+   lpg4MxOw7c0+KxjJgOnz/PLdtvonlHB+c6NyennkkAafhmEQ6RtfzTM/yK6YokA6mHZvU81PNQO5
+   UjdGuSPxjCVwCWOhXco=
+Received: from njmta-149.sailthru.com (173.228.155.149) by pmta29.sailthru.com id hba3vi2sd4sl for <bloomberg@khamel.com>; Tue, 9 May 2023 13:50:49 -0400 (envelope-from <delivery_20230509134953.31427429.263436@mx.sailthru.com>)
+Received: from nj1-jma-39.flt (172.18.20.37) by njmta-149.sailthru.com id hba3vi1qqbs8 for <bloomberg@khamel.com>; Tue, 9 May 2023 13:49:53 -0400 (envelope-from <delivery_20230509134953.31427429.263436@mx.sailthru.com>)
+Date: Tue, 9 May 2023 13:49:53 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230509134953.31427429.263436@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEl04oCZcyBOZXZlciBU?=
+ =?utf-8?B?b28gTGF0ZSBmb3IgQmFua3MgdG8gSGVkZ2U=?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9104233_777665002.1683654593704"
+Precedence: bulk
+X-Feedback-ID: 6358:31427429:campaign:sailthru
+X-TM-ID: 20230509134953.31427429.263436
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-jma-39.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciplk5.5n9o/4e08ac23
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciplk5.5n9o/4e08ac23>, <mailto:unsubscribe_20230509134953.31427429.263436@mx.sailthru.com>
+X-rpcampaign: stjko31427429
+
+------=_Part_9104233_777665002.1683654593704
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        One question people have asked is: Why didn=E2=80=99t Silicon Valle=
+y Bank hedge its interest-rate risk? SVB, like other regional banks, got a =
+lot of
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Interest-rate hedging
+   =20
+ =20
+
+One question people have asked is: Why didn=E2=80=99t Silicon Valley Bank h=
+edge its interest-rate risk? SVB, like other regional banks, got a lot of d=
+eposits and invested them in long-term US government and agency bonds with =
+fixed interest rates. As interest rates went up, those bonds lost value, ea=
+ting through all of SVB=E2=80=99s equity. This was bad, people noticed, the=
+y withdrew their deposits, and SVB ran out of money. This was all pretty pr=
+edictable, or at least a known risk. Why didn=E2=80=99t SVB hedge?
+We have talked about=C2=A0a couple of answers to that question:
+=09SVB had expenses, and it needed to make money. It had to invest its depo=
+sitors=E2=80=99 cash to make that money. In 2022, if it had been earning sh=
+ort-term interest rates on that cash, it would not have made enough money t=
+o cover its expenses.   The way that it made money was by investing at long=
+-term interest rates, which were higher.
+  [1]
+ So it invested in long-term bonds, earned higher rates, and made enough mo=
+ney. =E2=80=9CHedging=E2=80=9D would have meant swapping its long-term rate=
+s to short-term rates, which would have defeated its main purpose, making m=
+oney. And in fact SVB=C2=A0did have some interest-rate hedges in place in e=
+arly 2022; it took them off, though, to increase its profits.=C2=A0=09SVB=
+=C2=A0thought=C2=A0that it was hedged: It was=C2=A0buying long-term bonds, =
+yes, but it was funding those purchases with deposits. Those deposits are t=
+echnically very short-term: Depositors could take their money back at any t=
+ime, and eventually they did. But   it is traditional in banking to=C2=A0th=
+ink=C2=A0of them as long-term, to think that the =E2=80=9Cdeposit franchise=
+=E2=80=9D and the deep relationship between banker and customer would make =
+customers unlikely to take their money out. SVB invested a lot in good cust=
+omer service and good relations with its depositors; it also made loans to =
+startups that=C2=A0required=C2=A0them to keep their cash on deposit at SVB.=
+ So it figured it had pretty long-term funding, and it matched that long-te=
+rm funding with long-term assets. If it had swapped the assets to short-ter=
+m rates, and then rates fell, it would lose money, and SVB thought that was=
+ the bigger risk. When SVB got rid of its interest-rate hedges in early 202=
+2,  it did so=C2=A0because=C2=A0it had become =E2=80=9Cincreasingly concern=
+ed with decreasing [net interest income] if rates were to decrease=E2=80=9D=
+: It worried that the hedges would hurt it if rates fell.
+
+Those are, I think, the main answers. But there is one other sort of dumb a=
+ccounting answer. Most of SVB=E2=80=99s interest-rate risk came in its port=
+folio of =E2=80=9Cheld to maturity=E2=80=9D bonds. The idea here is that SV=
+B bought a lot of bonds and planned to hold them until they matured. If it =
+did that, the bonds =E2=80=94=C2=A0which were mostly US-government backed a=
+nd so very safe =E2=80=94=C2=A0would pay back 100 cents on the dollar. So S=
+VB didn=E2=80=99t need to worry about mark-to-market fluctuations in their =
+value. If interest rates went up, and the value of these bonds dropped from=
+ 100 to 85 cents on the dollar, SVB could ignore it, because the value woul=
+d definitely go back up to 100,=C2=A0as long as it held the bonds to maturi=
+ty. (The problem is that it=C2=A0couldn=E2=80=99t:=C2=A0There was a run on =
+the bank long before the bonds matured.)=C2=A0
+This is a standard assumption in banking, that the bank is making loans or =
+buying bonds and planning to hold them for life, so fluctuations in their m=
+arket values don=E2=80=99t matter. And   bank=C2=A0accounting=C2=A0reflects=
+ this: Held-to-maturity bonds are held on the balance sheet at their cost, =
+and fluctuations in their market values do not affect the bank=E2=80=99s ba=
+lance sheet, or its income statement, or its regulatory capital. And thus f=
+or a while last year SVB was mark-to-market insolvent =E2=80=94=C2=A0if you=
+ subtracted its liabilities from the market value of its assets, you got a =
+negative number =E2=80=94=C2=A0but its regulatory capital was fine, because=
+ regulatory capital doesn=E2=80=99t subtract that way.
+But now add hedging. SVB had, call it, $120 billion of held-to-maturity bon=
+ds. When rates went up, they lost something like $15 billion of market valu=
+e.
+  [2]
+ If SVB had fully hedged those bonds =E2=80=94=C2=A0if it had put on $120 b=
+illion notional amount of swaps, say =E2=80=94 then the hedges would have p=
+erfectly offset that loss. But if rates had instead gone=C2=A0down, the hed=
+ges would have lost money. Obviously last year rates probably had more room=
+ to rise than to fall, but even a 0.25% decline in long-term interest rates=
+ could have cost SVB something like $2 billion in this scenario.
+  [3]
+
+Of course in that scenario its bonds would have gained $2 billion of market=
+ value, offsetting the loss on the hedges. But this is where the accounting=
+ is a problem. If you have a held-to-maturity bond, its fluctuations in val=
+ue do not affect your income statement or balance sheet: When the market pr=
+ice of the bond goes up (or down), the book value of your assets does not g=
+o up (or down), and you do not have income (or loss) from the change. But i=
+f you have an interest-rate swap, its fluctuations in value=C2=A0do=C2=A0af=
+fect your income statement and balance sheet: When its market value goes up=
+ (or down), the book value of your assets goes up (or down), and you have i=
+ncome (or loss). An interest-rate derivative is sort of naturally a mark-to=
+-market asset, and so changes in its value are reflected in income.
+And so if SVB had hedged and rates had gone down, it would have reported a =
+huge loss: A $2 billion loss on interest-rate derivatives would have wiped =
+out more than all of  SVB=E2=80=99s profit last year. Hedging the held-to-m=
+aturity bond portfolio would have made SVB=C2=A0economically=C2=A0less risk=
+y, but it would have made its=C2=A0reported financial results=C2=A0far more=
+ volatile. The hedge would have made SVB=C2=A0look riskier.=C2=A0And bankin=
+g is a business of confidence, so you don=E2=80=99t want to look riskier. (=
+Also: The hedge would have made SVB=E2=80=99s regulatory capital more volat=
+ile, and banking is also a business of regulatory capital.)
+Now, an obvious response is: =E2=80=9CThis is dumb, why should hedging make=
+ you look riskier?=E2=80=9D And accountants are aware of that, and there is=
+ a thing called =E2=80=9Chedge accounting=E2=80=9D where you basically get =
+to take some asset and the derivative that you use to hedge it, offset them=
+ against each other, and neutralize the accounting effect of fluctuations i=
+n their values. The hedge makes your financial statements look less risky, =
+which makes sense.
+The problem is that this is=C2=A0specifically not allowed for held-to-matur=
+ity assets.  PricewaterhouseCoopers explains:
+The notion of hedging the interest rate risk in a security classified as he=
+ld to maturity is inconsistent with the held-to-maturity classification und=
+er ASC 320,
+  [4]
+=C2=A0which requires the reporting entity to hold the security until maturi=
+ty regardless of changes in market interest rates. For this reason, ASC 815=
+-20-25-43(c)(2) indicates that interest rate risk may not be the hedged ris=
+k in a fair value hedge of held-to-maturity debt securities.=C2=A0
+Again, here the accounting standards line up with the way banks have histor=
+ically thought about themselves, which is basically that they are in the bu=
+siness of holding long-term assets for the long term. =E2=80=9CWhy would a =
+bank hedge interest-rate risk on its held-to-maturity portfolio,=E2=80=9D t=
+he accountants ask, =E2=80=9Cif it is just going to hold that portfolio to =
+maturity?=E2=80=9D
+That said, you=C2=A0can=C2=A0hedge your bonds that you treat as =E2=80=9Cav=
+ailable-for-sale,=E2=80=9D and if you do that you will get hedge accounting=
+ treatment, so your income statement (and capital) will look less volatile =
+rather than more. (This is  what SVB was doing when it=C2=A0did=C2=A0have i=
+nterest-rate hedges in place last year.) And=C2=A0if you are a US bank in s=
+pring of 2023, you will be keenly focused on the risk of rising interest ra=
+tes, perhaps more keenly focused than you were back when interest rates wer=
+e about to rise rapidly. Never too late I guess. Bloomberg=E2=80=99s=C2=A0A=
+nnie Massa reports:
+
+Charles Schwab Corp. started using derivatives to hedge interest rate-relat=
+ed risk during the first quarter.
+The derivatives had a notional value of $3.9 billion as of March 31, the We=
+stlake, Texas-based company said in a regulatory filing Monday.=C2=A0
+Schwab, which runs both brokerage and bank businesses, has been ensnared in=
+ the tumult ravaging US regional banks after the Federal Reserve embarked o=
+n its most aggressive interest rate tightening cycle in decades last year.=
+=C2=A0
+The firm confronted swelling paper losses on securities it owns and grapple=
+d with dwindling deposits as customers moved cash into accounts that earn m=
+ore interest. Schwab executives have said those withdrawals will abate. The=
+ pace of cash withdrawals is already starting to slow, Chief Financial Offi=
+cer Peter Crawford said in a recent statement.
+
+It has $3.9 billion of swaps to  hedge $3.9 billion of available-for-sale s=
+ecurities, out of a total of about $141 billion of available-for-sale and $=
+170 billion of held-to-maturity securities.=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Elsewhere in banks and interest-rate risk
+   =20
+ =20
+
+We have   talked a few   times recently about two theories of banking, whic=
+h I have boringly called Theory 1 and Theory 2. Theory 1 is a mark-to-marke=
+t, legalistic approach:=C2=A0A bank uses short-term deposits to fund long-t=
+erm assets, which makes it risky and fragile and particularly at risk from=
+=C2=A0rising=C2=A0interest rates, which increase its cost of funding and de=
+crease the value of its assets.
+Theory 2 is a traditional, relationship-driven approach: A bank has a =E2=
+=80=9Cdeposit franchise=E2=80=9D of long-term loyal customers, which gives =
+it long-term rate-insensitive=C2=A0funding to invest in long-term assets, a=
+nd it is at risk from=C2=A0falling=C2=A0interest rates, which decrease the =
+amount of net interest margin it can earn on its assets. The problem, I hav=
+e suggested, is that banks (and regulators) have traditionally thought in a=
+ Theory 2 sort of way, and modern financial markets, and the Fed=E2=80=99s =
+rapid interest-rate increases,=C2=A0seem to have put us in a Theory 1 world=
+.
+In discussing Theory 2 I have sometimes cited a 2021 paper by Itamar Drechs=
+ler, Alexi Savov and Philipp Schnabl titled =E2=80=9CBanking on Deposits: M=
+aturity Transformation without Interest Rate Risk.=E2=80=9D The abstract:
+We show that maturity transformation does not expose banks to interest rate=
+ risk=E2=80=94it hedges it. The reason is the deposit franchise, which allo=
+ws banks to pay deposit rates that are low and insensitive to market intere=
+st rates. Hedging the deposit franchise requires banks to earn income that =
+is also insensitive, that is, to lend long term=C2=A0at fixed rates. As pre=
+dicted by this theory, we show that banks closely match the interest rate s=
+ensitivities of their interest income and expense, and that this insulates =
+their equity from interest rate shocks. Our results explain why banks suppl=
+y long-term credit.
+This is what I meant when I said, above, that SVB thought its interest-rate=
+ risk=C2=A0was=C2=A0hedged, and that its bigger risk was declining earnings=
+ if interest rates fell. If your deposits are insensitive to changes in sho=
+rt-term interest rates =E2=80=94=C2=A0because your long-term, loyal, relati=
+onship-driven customers are not checking the rate on their checking account=
+ every day =E2=80=94=C2=A0then you don=E2=80=99t want your assets to be ver=
+y sensitive to rates (you don=E2=80=99t want to have very short-term invest=
+ments), because then your income will be very volatile. Investing your sort=
+-of-long-term deposits in actually-long-term assets is a way to=C2=A0reduce=
+=C2=A0risk.
+That=E2=80=99s the theory, Theory 2, but obviously things have not been wor=
+king out that way recently. Drechsler, Savov and Schnabl have a new paper w=
+ith Olivier Wang, titled =E2=80=9CBanking on Uninsured Deposits.=E2=80=9D T=
+he abstract:
+Motivated by the regional bank crisis of 2023, we model the impact of inter=
+est rates on the liquidity risk of banks. Prior work shows that banks hedge=
+ the interest rate risk of their assets with their deposit franchise: when =
+interest rates rise, the value of the assets falls but the value of the dep=
+osit franchise rises. Yet the deposit franchise is only valuable if deposit=
+ors remain in the bank. This creates run incentives for uninsured depositor=
+s. We show that a run equilibrium is absent at low interest rates but appea=
+rs when rates rise because the deposit franchise comes to dominate the valu=
+e of the bank. The liquidity risk of the bank thus increases with interest =
+rates. We provide a formula for the bank=E2=80=99s optimal risk management =
+policy. The bank should act as if its deposit rate is more sensitive to mar=
+ket rates than it really is, i.e., as if its =E2=80=9Cdeposit beta=E2=80=9D=
+ is higher. This leads the bank to shrink the duration of its assets. Short=
+ening duration has a downside, however: it exposes the bank to insolvency i=
+f interest rates fall. The bank thus faces a dilemma: it cannot simultaneou=
+sly hedge its interest rate risk and liquidity risk exposures. The dilemma =
+disappears only if uninsured deposits do not contribute to the deposit fran=
+chise (if they have a deposit beta of one). The recent growth of low-beta u=
+ninsured checking and savings accounts thus poses stability risks to banks.=
+ The risks increase with interest rates and are amplified by other exposure=
+s such as credit risk. We show how they can be addressed with an optimal ca=
+pital requirement that rises with interest rates.
+The new paper summarizes the previous paper, and Theory 2 generally:
+Following Drechsler et al. (2021), we model a bank with a low =E2=80=9Cdepo=
+sit beta=E2=80=9D =E2=80=93 a low sensitivity of deposit rates to the marke=
+t interest rate. The bank then earns a deposit spread that rises with the i=
+nterest rate. This is the source of its deposit franchise. The deposit fran=
+chise does not come for free: the bank pays an operating cost to maintain i=
+t. The deposit franchise is=C2=A0effectively an interest rate swap in which=
+ the bank pays fixed (the operating cost) and receives floating (the deposi=
+t spread). This swap has negative duration. The=C2=A0bank hedges it by inve=
+sting in assets with positive duration; by holding long-term loans and secu=
+rities.
+But they add an increased likelihood of interest-rate-driven deposit outflo=
+ws, and also the risk of runs by uninsured depositors:
+The second reason for outflows is a run by uninsured depositors. Uninsured =
+depositors have an incentive to run if the value of their claims exceeds th=
+e value of the bank if they do run. In standard models (Diamond and Dybvig,=
+ 1983) this is due to fire sales of the bank=E2=80=99s loans. There are no =
+such fire sales in our model; the bank=E2=80=99s assets are fully liquid. R=
+uns are instead due to the nature of the deposit franchise. When a deposit =
+is withdrawn, the bank loses the stream of deposit=C2=A0spreads net of oper=
+ating costs it would have earned on that deposit. In effect, the deposit fr=
+anchise is subject to an extreme form of =E2=80=9Cfire sale=E2=80=9D: its v=
+alue is fully destroyed in a run. Moreover, since its value is increasing i=
+n interest rates, a run is more destructive =E2=80=93 and hence more likely=
+ =E2=80=93 at high interest rates.
+This is sort of what you saw in the recent bank runs: Regional banks had fi=
+nancial assets (loans, bonds) whose market value fell due to rising interes=
+t rates until it=C2=A0was slightly less than their liabilities. On traditio=
+nal banking theory, that=E2=80=99s survivable: The=C2=A0deposit franchise=
+=C2=A0is itself valuable, and the combined value of the=C2=A0financial asse=
+ts and the deposit franchise ought to have exceeded the liabilities, so the=
+ banks were solvent and valuable. But in practice the value of the deposit =
+franchise evaporated overnight, leaving only a pile of financial assets tha=
+t had lost value, funded by a bunch of short-term loans that came due.
+
+ =20
+   =20
+      Narrow banking/shadow banking
+   =20
+ =20
+
+Along these lines, I   wrote yesterday that the main risk of banking comes =
+not from its assets (bonds, loans) but from its liabilities: If you fund yo=
+ur business with short-term loans (deposits) that can be withdrawn at any t=
+ime, but you assume that your relationships with your lenders (depositors) =
+are so good that=C2=A0they would never withdraw their money, you are liable=
+ to get in=C2=A0trouble. And we have talked about the possibility that, in =
+a mark-to-market, no-relationships, Theory 1 sort of world, that funding mo=
+del for banks wouldn=E2=80=99t work, or at least would become less popular.=
+ There is a set of ideas called =E2=80=9Cnarrow banking=E2=80=9D or the =E2=
+=80=9CChicago plan,=E2=80=9D in which:
+=09Deposits would not be used to fund loans or other long-term assets, but =
+would just be parked at the Federal Reserve: Banking would be fully reserve=
+d, bank accounts would just be dollars, and they would not be used to make =
+loans.=09Loans would be equity-funded: People who wanted to take credit (or=
+ interest-rate) risk would invest their money in funds, and the funds would=
+ make loans (or buy bonds). But the investors in those funds would not be i=
+nformation-insensitive bank depositors who expected access to their money a=
+t any time; they would be conscious risk-takers. They would know what they =
+were getting into: They would lock up their money for a long time and under=
+stand that they were taking the risk of any loan losses. Loans would effect=
+ively come from loan mutual funds, not from banks.
+
+I   have suggested that some of this is really happening now. For one thing=
+, a lot of US money market funds   kind of look like narrow banks (they jus=
+t park money at the Fed=E2=80=99s reverse repo program), while there has be=
+en a huge rise in private credit funds that=C2=A0are=C2=A0equity-funded len=
+ders, and that are displacing banks in some lending markets.
+We talked yesterday about a  DealBook story about the rise of private credi=
+t, which worried that private credit funds are =E2=80=9Cnot subject to the =
+same regulations as banks, which allows them to take greater risks.=E2=80=
+=9D=C2=A0I thought that was the wrong thing to worry about; I wrote:
+A private credit firm that raises money from investors in a locked-up fund,=
+ and uses that money to make idiotic loans that all go bust, is less risky =
+than, well, a licensed bank that raises money from uninsured depositors and=
+ uses that money to buy safe US-government-backed bonds, like Silicon Valle=
+y Bank did.
+That said, I added: =E2=80=9CThough: A private credit fund that leverages i=
+ts fund with short-term borrowing is riskier, more run-prone, more like a b=
+ank.=E2=80=9D You could imagine private credit being=C2=A0very=C2=A0safe, v=
+ery Chicago-plan, just taking long-term=C2=A0equity investments from people=
+ who want to take risks. But financial markets love leverage, and if you ha=
+ve a $1 billion loan fund, you might go to someone =E2=80=94=C2=A0say, a ba=
+nk =E2=80=94=C2=A0and say =E2=80=9Chey I have $1 billion of equity, lend me=
+ another $1 billion and I=E2=80=99ll go make $2 billion of loans with the m=
+oney.=E2=80=9D And then =E2=80=94=C2=A0if the money you borrowed from the b=
+ank is short-term=C2=A0or subject to margin calls =E2=80=94=C2=A0you have r=
+eintroduced a lot of the fragility of banking.
+The details matter, though. A good, conservative, well-run bank might well =
+fund $2=C2=A0billion of long-term loans with $200=C2=A0million of equity an=
+d $1.8 billion of short-term borrowing (deposits), which is just a lot more=
+ fragile than a private credit fund=C2=A0funding them with $1 billion of eq=
+uity and $1 billion of borrowing. Even if the bank is making safer and more=
+ conservative loans than the private credit fund, it might be more fragile.
+Anyway also yesterday the Fed released its  Financial Stability Report, and=
+ it directly discusses the financial-stability risks of private credit fund=
+s. The Fed, like me, is not that worried:
+
+Since the 2007=E2=80=9309 financial crisis, private credit funds have exper=
+ienced substantial growth, as the privately negotiated loans that they exte=
+nd have become an increasingly important source of credit for some business=
+es, particularly middle-market companies.=C2=A0As of 2021:Q4, their assets =
+under management (AUM) stood at $1=C2=A0trillion, and the estimated =E2=80=
+=9Cdry powder=E2=80=9D (committed but uncalled capital) amounted to $228=C2=
+=A0billion (figure A). =E2=80=A6
+Investors in private credit funds are diversified institutional investors a=
+nd high-net-worth individuals (figure B). Based on Form PF, as of 2021:Q4, =
+public and private pension funds held about 31=C2=A0percent ($307=C2=A0bill=
+ion) of aggregate private credit fund assets. Other private funds made up t=
+he second-largest cohort of investors at 14=C2=A0percent ($136=C2=A0billion=
+) of assets, while insurance companies and individual investors each had ab=
+out 9=C2=A0percent ($92=C2=A0billion). Given the rapid growth of private cr=
+edit funds, these investors are increasingly indirectly exposed to the liqu=
+idity and credit risks of assets in private credit fund portfolios.=C2=A0
+Financial stability risks associated with investor redemptions from private=
+ credit funds appear low. Most private credit funds have a closed-end fund =
+structure and typically lock up the capital of their investors (that is, li=
+mited partners) for 5=C2=A0to=C2=A010=C2=A0years. Those funds that are stru=
+ctured as hedge funds routinely restrict share redemptions of their investo=
+rs through redemption notice periods, lockups, and gates. Thus, private cre=
+dit funds engage in limited liquidity and maturity transformation. =E2=80=
+=A6
+Risks to financial stability from leverage at private credit funds appear l=
+ow. Indeed, most private credit funds are unlevered, with no borrowings or =
+derivative exposures. A minority of funds, however, use modest amounts of f=
+inancial or synthetic leverage. Figure C shows that the most levered funds =
+(those at the 95th percentile) have borrowings-to-assets ratios of about 1.=
+27 and derivatives-to-assets ratios of about 0.66. In the aggregate, privat=
+e credit funds borrowed about $200 billion in 2021:Q4, mainly from U.S. fin=
+ancial institutions, and held about $200 billion of derivative gross notion=
+al exposure. Risks to lenders of private credit funds, typically banks, app=
+ear moderate due to the relatively modest amount of borrowings of private c=
+redit funds and their secured nature.
+Overall, the financial stability vulnerabilities posed by private credit fu=
+nds appear limited. Most private credit funds use little leverage and have =
+low redemption risks, making it unlikely that these funds would amplify mar=
+ket stress through asset sales.
+
+Are private credit funds making worse loans than banks are? Just the wrong =
+question to ask! The right question is =E2=80=9Ccan there be a run on priva=
+te credit funds,=E2=80=9D and the answer, so far, is =E2=80=9Cmostly no.=E2=
+=80=9D
+
+ =20
+   =20
+      Active passive management
+   =20
+ =20
+
+Bloomberg=E2=80=99s Ye Xie and Liz McCormick have sort of   a funny profile=
+ of Josh Barrickman, who runs Vanguard Group Inc.=E2=80=99s Americas bond i=
+ndexing business. You might think that the guy running $1 trillion of bond =
+index funds would not have to make a lot of decisions =E2=80=94=C2=A0=E2=80=
+=9Cjust buy the index=E2=80=9D =E2=80=94=C2=A0but in fact the way you run a=
+ bond index fund is=C2=A0not=C2=A0by buying all the bonds in the index: The=
+re are too many, and many of them don=E2=80=99t trade that much. Instead yo=
+u buy a=C2=A0lot=C2=A0of the bonds in the index, try to get a representativ=
+e sample, try to track the index, and end up making a lot of decisions. You=
+ are in some sense much=C2=A0less=C2=A0active than an active bond manager, =
+but on the other hand you run $1 trillion and they don=E2=80=99t:
+
+That makes Barrickman exhibit A of a passive management revolution that=E2=
+=80=99s reshaping the world of fixed-income, just as it did equities a deca=
+de ago. No longer dominated by traders making multimillion-dollar bets and =
+eating what they kill, the real money is flowing to guys like him, whose de=
+cisions are increasingly rippling through markets.
+=E2=80=9CWe do have size and scale, and that matters in the marketplace,=E2=
+=80=9D Barrickman said in an interview. =E2=80=9CTracking is job one, two a=
+nd three,=E2=80=9D he said, adding =E2=80=9Cif we can have a basis point a =
+year, that=E2=80=99s a lot of real money.=E2=80=9D =E2=80=A6
+Barrickman himself now oversees three of the world=E2=80=99s four largest b=
+ond funds, including the $298 billion Vanguard Total Bond Market Index Fund=
+, according to data compiled by Bloomberg.
+That means many of the decisions he makes, like which bonds to buy when try=
+ing to replicate his funds=E2=80=99 underlying benchmarks, can have big con=
+sequences for the market (the Vanguard Total International Bond Index Fund,=
+ for example, only holds roughly half the 13,000 bonds in the index it trac=
+ks.)
+=E2=80=9CWe have to be, by definition, overweight some places and underweig=
+ht others to build a sample,=E2=80=9D Barrickman said. =E2=80=9CWe=E2=80=99=
+re dealing in a market that forces us to take some active positions.=E2=80=
+=9D
+
+If you run $1 trillion of indexed bond money and capture one basis point a =
+year with your active decisionmaking, that=E2=80=99s $100 million of alpha.=
+=C2=A0
+
+ =20
+   =20
+      Shaq is hiding from an FTX lawsuit
+   =20
+ =20
+
+Sure   whatever:
+
+Shaquille O=E2=80=99Neal is calling foul on the lawyers who chased him for =
+months to serve a lawsuit accusing the basketball legend of duping investor=
+s in FTX crypto exchange.
+Chucking legal documents at the front of O=E2=80=99Neal=E2=80=99s car as he=
+ drove quickly through the gates of his Georgia home doesn=E2=80=99t count =
+as properly serving a lawsuit, his attorneys say.
+The seven foot-one inch former Los Angeles Lakers star and NBA commentator =
+known as Shaq is among numerous celebrities targeted in a suit claiming the=
+y funneled investors into a Ponzi scheme by promoting FTX=E2=80=99s unregis=
+tered securities.
+O=E2=80=99Neal stood as a holdout among the group for not acknowledging rec=
+eipt of the complaint despite what plaintiffs=E2=80=99 lawyers said were do=
+zens of attempts to present it to him at known residences in Georgia and Te=
+xas and elsewhere, according to court filings.=C2=A0
+
+Seems like a blockchain could fix this.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+PacWest, Western Alliance Slide as   Regional Bank Stocks Fall.=C2=A0 Betti=
+ng Against Banks Brings Reward and Backlash. Regional Banks Will   Cut Bonu=
+ses While Big Firms Raise Incentive Pay.=C2=A0US lenders warned that  comme=
+rcial property is =E2=80=98next shoe to drop.=E2=80=99 Concern Over TD  Ant=
+i-Money-Laundering Practices Helped Scuttle First Horizon Deal. Goldman to =
+Pay $215 Million to End Case on   Underpaying Women. UBS to   Overhaul Boar=
+d After Credit Suisse Deal. =E2=80=9CZoltan Pozsar, a widely followed Credi=
+t Suisse  markets guru, has left the bank.=E2=80=9D Tempur Sealy to   Buy M=
+attress Firm for About $4 Billion.=C2=A0The  Supreme Court Case That Could =
+Threaten the SEC=E2=80=99s Climate-Disclosure Rule. High-Tech Banks Grapple=
+ With a Rise in Old-Fashioned Crime:  Check Fraud.=C2=A0Ireland to propose =
+creation of  sovereign wealth fund.=C2=A0Sri Lanka=E2=80=99s Creditors Hold=
+ Inaugural Debt Meet as China Observes. Why  Flossbar/Medbar Failed & What =
+We Learned Along the Way. FTX Founder Sam Bankman-Fried  Seeks Dismissal of=
+ Criminal Charges. JPMorgan Ordered to   Pay Javice's Lawyers While They Su=
+e Her.=C2=A0Spotify ejects thousands of AI-made songs in  purge of fake str=
+eams.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Another way to make money would have been to take less duration risk =
+and more credit risk: to make, say, floating-rate loans to businesses. But =
+SVB=E2=80=99s customer base=20
+made that harder: In 2022, startups and VCs were flush with cash, so they p=
+arked a lot of deposits with SVB and didn=E2=80=99t need many loans. SVB co=
+uldn=E2=80=99t take credit risk to earn money, so it took duration risk.
+
+
+  [2] In super rough numbers, SVB=E2=80=99s portfolio had a duration of abo=
+ut 6 years, the 10-year Treasury rate went up by about 2 percentage points =
+from early 2022 through early 2023, so its $120 billion portfolio lost $120=
+bn x 6 x 2% =3D $14.4 billion or so of value. This is not really right, but=
+ it=E2=80=99s the rough intuition.=20
+
+
+  [3] See my fake math in the footnote above. Six years duration, $120bn no=
+tional, 0.25% move, $1.8 billion loss.=20
+
+
+  [4] =E2=80=9CASC=E2=80=9D stands for =E2=80=9CAccounting Standards Codifi=
+cation,=E2=80=9D and is the way the US Financial Accounting Standards Board=
+ codifies US generally accepted accounting principles.=20
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciplk5.5n9o/e3758b4d.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9104233_777665002.1683654593704
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+One question people have asked is: Why didn=E2=80=99t Silicon Valley Bank h=
+edge its interest-rate risk? SVB, like other regional banks, got a lot of
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNTA5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MDkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBc8cc1d5f"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTQyNzQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE2OTA4NjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB3508ec0d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31427429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31690865&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Interest-rate hedging</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One question people have asked is: Why didn=E2=
+=80=99t Silicon Valley Bank hedge its interest-rate risk? SVB, like other r=
+egional banks, got a lot of deposits and invested them in long-term US gove=
+rnment and agency bonds with fixed interest rates. As interest rates went u=
+p, those bonds lost value, eating through all of SVB=E2=80=99s equity. This=
+ was bad, people noticed, they withdrew their deposits, and SVB ran out of =
+money. This was all pretty predictable, or at least a known risk. Why didn=
+=E2=80=99t SVB hedge?</p>
+<p style=3D"margin: 16px 0;">We have talked about=C2=A0a couple of answers =
+to that question:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">SVB had expenses, and it needed to ma=
+ke money. It had to invest its depositors=E2=80=99 cash to make that money.=
+ In 2022, if it had been earning short-term interest rates on that cash, it=
+ would not have made enough money to cover its expenses. <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC1iYW5rLWhhZC1=
+hLXN0YXJ0dXAtYmFuay1ydW4_Y21waWQ9QkJEMDUwOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT=
+1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTA5JnV0bV9jYW1wYWlnb=
+j1tb25leXN0dWZm/607f07ceef4b8524a319a23cBd2844c51" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">  The way that i=
+t made money</a> was by investing at long-term interest rates, which were h=
+igher.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: none !important; background-color:=
+ transparent !important; display: inline-block;">
+<span>[1]</span>
+</a> So it invested in long-term bonds, earned higher rates, and made enoug=
+h money. =E2=80=9CHedging=E2=80=9D would have meant swapping its long-term =
+rates to short-term rates, which would have defeated its main purpose, maki=
+ng money. And in fact SVB=C2=A0<em>did </em>have some interest-rate hedges =
+in place in early 2022; it took them off, though, to increase its profits.=
+=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">SVB=C2=A0thought=C2=A0that =
+it <em>was </em>hedged: It was=C2=A0buying long-term bonds, yes, but it was=
+ funding those purchases with deposits. Those deposits are technically very=
+ short-term: Depositors could take their money back at any time, and eventu=
+ally they did. But <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/31427429.263436/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjMtMDUtMDQvbm9ib2R5LXRydXN0cy10aGUtYmFua3Mtbm93P2NtcGlkPUJCRDA1MDkyM19NT=
+05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJt=
+PTIzMDUwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB2146518=
+8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  it is traditional in banking</a> to=C2=A0<em>think=C2=A0</em=
+>of them as long-term, to think that the =E2=80=9Cdeposit franchise=E2=80=
+=9D and the deep relationship between banker and customer would make custom=
+ers unlikely to take their money out. SVB invested a lot in good customer s=
+ervice and good relations with its depositors; it also made loans to startu=
+ps that=C2=A0<em>required=C2=A0</em>them to keep their cash on deposit at S=
+VB. So it figured it had pretty long-term funding, and it matched that long=
+-term funding with long-term assets. If it had swapped the assets to short-=
+term rates, and then rates <em>fell</em>, it would lose money, and <em>SVB =
+thought that was the bigger risk</em>. When SVB got rid of its interest-rat=
+e hedges in early 2022, <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31427429.263436/aHR0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUuZ292L3B1YmxpY2F0a=
+W9ucy9maWxlcy9zdmItcmV2aWV3LTIwMjMwNDI4LnBkZg/607f07ceef4b8524a319a23cB7e39=
+a2f2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> it did so=C2=A0</a><em><a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUuZ29=
+2L3B1YmxpY2F0aW9ucy9maWxlcy9zdmItcmV2aWV3LTIwMjMwNDI4LnBkZg/607f07ceef4b852=
+4a319a23cC7e39a2f2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">because</a>=C2=A0</em>it had become =E2=80=9C=
+increasingly concerned with decreasing [net interest income] if rates were =
+to decrease=E2=80=9D: It worried that the hedges would hurt it if rates fel=
+l.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Those are, I think, the main answers. But ther=
+e is one other sort of dumb accounting answer. Most of SVB=E2=80=99s intere=
+st-rate risk came in its portfolio of =E2=80=9Cheld to maturity=E2=80=9D bo=
+nds. The idea here is that SVB bought a lot of bonds and planned to hold th=
+em until they matured. If it did that, the bonds =E2=80=94=C2=A0which were =
+mostly US-government backed and so very safe =E2=80=94=C2=A0would pay back =
+100 cents on the dollar. So SVB didn=E2=80=99t need to worry about mark-to-=
+market fluctuations in their value. If interest rates went up, and the valu=
+e of these bonds dropped from 100 to 85 cents on the dollar, SVB could igno=
+re it, because the value would definitely go back up to 100,=C2=A0<em>as lo=
+ng as it held the bonds to maturity</em>. (The problem is that it=C2=A0<em>=
+couldn=E2=80=99t:=C2=A0</em>There was a run on the bank long before the bon=
+ds matured.)=C2=A0</p>
+<p style=3D"margin: 16px 0;">This is a standard assumption in banking, that=
+ the bank is making loans or buying bonds and planning to hold them for lif=
+e, so fluctuations in their market values don=E2=80=99t matter. And <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTMvc3ZiLWNvdWxk=
+bi10LWlnbm9yZS1pdHMtbG9zc2VzLWJ1dC10aGUtZmVkLWNhbj9jbXBpZD1CQkQwNTA5MjNfTU9=
+ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT=
+0yMzA1MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB3f2bf3f0=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">  bank=C2=A0accounting=C2=A0reflects this</a>: Held-to-maturity b=
+onds are held on the balance sheet at their cost, and fluctuations in their=
+ market values do not affect the bank=E2=80=99s balance sheet, or its incom=
+e statement, or its regulatory capital. And thus for a while last year SVB =
+was mark-to-market insolvent =E2=80=94=C2=A0if you subtracted its liabiliti=
+es from the market value of its assets, you got a negative number =E2=80=94=
+=C2=A0but its regulatory capital was fine, because regulatory capital doesn=
+=E2=80=99t subtract that way.</p>
+<p style=3D"margin: 16px 0;">But now add hedging. SVB had, call it, $120 bi=
+llion of held-to-maturity bonds. When rates went up, they lost something li=
+ke $15 billion of market value.<a class=3D"footnote-index" href=3D"#footnot=
+e-2" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: none !imp=
+ortant; background-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a> If SVB had fully hedged those bonds =E2=80=94=C2=A0if it had put on $1=
+20 billion notional amount of swaps, say =E2=80=94 then the hedges would ha=
+ve perfectly offset that loss. But if rates had instead gone=C2=A0<em>down<=
+/em>, the hedges would have lost money. Obviously last year rates probably =
+had more room to rise than to fall, but even a 0.25% decline in long-term i=
+nterest rates could have cost SVB something like $2 billion in this scenari=
+o.<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: none !important; background-color: tra=
+nsparent !important; display: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Of course in that scenario its bonds would hav=
+e gained $2 billion of market value, offsetting the loss on the hedges. But=
+ this is where the accounting is a problem. If you have a held-to-maturity =
+bond, its fluctuations in value do not affect your income statement or bala=
+nce sheet: When the market price of the bond goes up (or down), the book va=
+lue of your assets does not go up (or down), and you do not have income (or=
+ loss) from the change. But if you have an interest-rate swap, its fluctuat=
+ions in value=C2=A0<em>do=C2=A0</em>affect your income statement and balanc=
+e sheet: When its market value goes up (or down), the book value of your as=
+sets goes up (or down), and you have income (or loss). An interest-rate der=
+ivative is sort of naturally a mark-to-market asset, and so changes in its =
+value are reflected in income.</p>
+<p style=3D"margin: 16px 0;">And so if SVB had hedged and rates had gone do=
+wn, it would have reported a huge loss: A $2 billion loss on interest-rate =
+derivatives would have wiped out more than all of <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMDAwMDcxOTczOS8wMDAwNzE5NzM5MjMwMDAwMj=
+Evc2l2Yi0yMDIyMTIzMS5odG0jaWJiNGRkNzNhMWQzZjRiZmY5NDRiNWQzNWZkMmM1ZTJhXzE4N=
+w/607f07ceef4b8524a319a23cBeab08c82" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> SVB=E2=80=99s profit last yea=
+r</a>. Hedging the held-to-maturity bond portfolio would have made SVB=C2=
+=A0<em>economically=C2=A0</em>less risky, but it would have made its=C2=A0<=
+em>reported financial results=C2=A0</em>far more volatile. The hedge would =
+have made SVB=C2=A0<em>look riskier.=C2=A0</em>And banking is a business of=
+ confidence, so you don=E2=80=99t want to look riskier. (Also: The hedge wo=
+uld have made SVB=E2=80=99s regulatory capital more volatile, and banking i=
+s also a business of regulatory capital.)</p>
+<p style=3D"margin: 16px 0;">Now, an obvious response is: =E2=80=9CThis is =
+dumb, why should hedging make you look riskier?=E2=80=9D And accountants ar=
+e aware of that, and there is a thing called =E2=80=9C<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly9mYXNiLm9yZy9=
+kb2N1bWVudC9ibG9iP2ZpbGVOYW1lPUFTVSUyMDIwMjItMDEucGRm/607f07ceef4b8524a319a=
+23cB26835520" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">hedge accounting</a>=E2=80=9D where you basically get=
+ to take some asset and the derivative that you use to hedge it, offset the=
+m against each other, and neutralize the accounting effect of fluctuations =
+in their values. The hedge makes your financial statements look less risky,=
+ which makes sense.</p>
+<p style=3D"margin: 16px 0;">The problem is that this is=C2=A0<em>specifica=
+lly not allowed for held-to-maturity assets</em>. <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly92aWV3cG9pbnQucHd=
+jLmNvbS9kdC91cy9lbi9wd2MvYWNjb3VudGluZ19ndWlkZXMvZGVyaXZhdGl2ZXNfYW5kX2hlZG=
+cvZGVyaXZhdGl2ZXNfYW5kX2hlZGdfVVMvY2hhcHRlcl82X2hlZGdlc19vZl9fVVMvNjRfaGVkZ=
+2luZ19maXhlZHJhdGVfVVMuaHRtbA/607f07ceef4b8524a319a23cBdb4bce27" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ PricewaterhouseCoopers explains</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">The notion of hedging the interest=
+ rate risk in a security classified as held to maturity is inconsistent wit=
+h the held-to-maturity classification under ASC 320,<a class=3D"footnote-in=
+dex" href=3D"#footnote-4" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: none !important; background-color: transparent !important; disp=
+lay: inline-block;">
+<span>[4]</span>
+</a>=C2=A0which requires the reporting entity to hold the security until ma=
+turity regardless of changes in market interest rates. For this reason, ASC=
+ 815-20-25-43(c)(2) indicates that interest rate risk may not be the hedged=
+ risk in a fair value hedge of held-to-maturity debt securities.=C2=A0</p><=
+/blockquote>
+<p style=3D"margin: 16px 0;">Again, here the accounting standards line up w=
+ith the way banks have historically thought about themselves, which is basi=
+cally that they are in the business of holding long-term assets for the lon=
+g term. =E2=80=9CWhy would a bank hedge interest-rate risk on its held-to-m=
+aturity portfolio,=E2=80=9D the accountants ask, =E2=80=9Cif it is just goi=
+ng to hold that portfolio to maturity?=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">That said, you=C2=A0<em>can=C2=A0</em>hedge yo=
+ur bonds that you treat as =E2=80=9Cavailable-for-sale,=E2=80=9D and if you=
+ do that you will get hedge accounting treatment, so your income statement =
+(and capital) will look less volatile rather than more. (This is <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93=
+d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMDAwMDcxOTczOS8wMDAwNzE=
+5NzM5MjIwMDAwODEvc2l2Yi0yMDIyMDkzMC5odG0/607f07ceef4b8524a319a23cB074e08d0"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" title=3D"=
+see page 29" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> what SVB was doing</a> when it=C2=A0<em>did=
+=C2=A0</em>have interest-rate hedges in place last year.) And=C2=A0if you a=
+re a US bank in spring of 2023, you will be keenly focused on the risk of r=
+ising interest rates, perhaps more keenly focused than you were back when i=
+nterest rates were about to rise rapidly. Never too late I guess. Bloomberg=
+=E2=80=99s=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/31=
+427429.263436/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtM=
+DUtMDkvc2Nod2FiLWJlZ2FuLWhlZGdpbmctaW50ZXJlc3QtcmF0ZS1yaXNrLXdpdGgtZGVyaXZh=
+dGl2ZXM_Y21waWQ9QkJEMDUwOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB3cea59fc" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">Annie Massa reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Charles Schwab Corp. started using derivatives=
+ to hedge interest rate-related risk during the first quarter.</p>
+<p style=3D"margin: 16px 0;">The derivatives had a notional value of $3.9 b=
+illion as of March 31, the Westlake, Texas-based company said in a regulato=
+ry filing Monday.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Schwab, which runs both brokerage and bank bus=
+inesses, has been ensnared in the tumult ravaging US regional banks after t=
+he Federal Reserve embarked on its most aggressive interest rate tightening=
+ cycle in decades last year.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The firm confronted swelling paper losses on s=
+ecurities it owns and grappled with dwindling deposits as customers moved c=
+ash into accounts that earn more interest. Schwab executives have said thos=
+e withdrawals will abate. The pace of cash withdrawals is already starting =
+to slow, Chief Financial Officer Peter Crawford said in a recent statement.=
+</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It has $3.9 billion of swaps to <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3cu=
+c2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMzE2NzA5LzAwMDAzMTY3MDkyMzA=
+wMDAyNi9zY2h3LTIwMjMwMzMxLmh0bQ/607f07ceef4b8524a319a23cC4b97e79f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" title=3D"see page =
+50" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> hedge $3.9 billion of available-for-sale securities<=
+/a>, out of a total of about $141 billion of available-for-sale and $170 bi=
+llion of held-to-maturity securities.=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTQyNzQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE2OTA4NjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC27749f71" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31427429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31690865&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTQyNzQyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE2OTA4NjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD27749f71" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31427429&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31690865&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in banks and interest-rate risk</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bloomberg=
+business.com/click/31427429.263436/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjMtMDUtMDQvbm9ib2R5LXRydXN0cy10aGUtYmFua3Mtbm93P2NtcGl=
+kPUJCRDA1MDkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIzMDUwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cC21465188" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  talked</a> a few <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMDgvb2lsLWNvbXBhbmllcy1naXZlLWJhY2s=
+tdGhlLWNhc2g_Y21waWQ9QkJEMDUwOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTA5JnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cB46cfb383" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  times</a> recently about t=
+wo theories of banking, which I have boringly called Theory 1 and Theory 2.=
+ Theory 1 is a mark-to-market, legalistic approach:=C2=A0A bank uses short-=
+term deposits to fund long-term assets, which makes it risky and fragile an=
+d particularly at risk from=C2=A0<em>rising=C2=A0</em>interest rates, which=
+ increase its cost of funding and decrease the value of its assets.</p>
+<p style=3D"margin: 16px 0;">Theory 2 is a traditional, relationship-driven=
+ approach: A bank has a =E2=80=9Cdeposit franchise=E2=80=9D of long-term lo=
+yal customers, which gives it long-term rate-insensitive=C2=A0funding to in=
+vest in long-term assets, and it is at risk from=C2=A0<em>falling=C2=A0</em=
+>interest rates, which decrease the amount of net interest margin it can ea=
+rn on its assets. The problem, I have suggested, is that banks (and regulat=
+ors) have traditionally thought in a Theory 2 sort of way, and modern finan=
+cial markets, and the Fed=E2=80=99s rapid interest-rate increases,=C2=A0see=
+m to have put us in a Theory 1 world.</p>
+<p style=3D"margin: 16px 0;">In discussing Theory 2 I have sometimes cited =
+a 2021 paper by Itamar Drechsler, Alexi Savov and Philipp Schnabl titled =
+=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/31427429.=
+263436/aHR0cHM6Ly9wYWdlcy5zdGVybi5ueXUuZWR1L35hc2F2b3YvYWxleGlzYXZvdi9BbGV4=
+aV9TYXZvdl9maWxlcy9CYW5raW5nT25EZXBvc2l0cy5wZGY/607f07ceef4b8524a319a23cB05=
+c03c8c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">Banking on Deposits: Maturity Transformation without Intere=
+st Rate Risk</a>.=E2=80=9D The abstract:</p>
+<blockquote><p style=3D"margin: 16px 0;">We show that maturity transformati=
+on does not expose banks to interest rate risk=E2=80=94it hedges it. The re=
+ason is the deposit franchise, which allows banks to pay deposit rates that=
+ are low and insensitive to market interest rates. Hedging the deposit fran=
+chise requires banks to earn income that is also insensitive, that is, to l=
+end long term=C2=A0at fixed rates. As predicted by this theory, we show tha=
+t banks closely match the interest rate sensitivities of their interest inc=
+ome and expense, and that this insulates their equity from interest rate sh=
+ocks. Our results explain why banks supply long-term credit.</p></blockquot=
+e>
+<p style=3D"margin: 16px 0;">This is what I meant when I said, above, that =
+SVB thought its interest-rate risk=C2=A0<em>was=C2=A0</em>hedged, and that =
+its bigger risk was declining earnings if interest rates fell. If your depo=
+sits are insensitive to changes in short-term interest rates =E2=80=94=C2=
+=A0because your long-term, loyal, relationship-driven customers are not che=
+cking the rate on their checking account every day =E2=80=94=C2=A0then you =
+don=E2=80=99t want your assets to be very sensitive to rates (you don=E2=80=
+=99t want to have very short-term investments), because then your income wi=
+ll be very volatile. Investing your sort-of-long-term deposits in actually-=
+long-term assets is a way to=C2=A0<em>reduce=C2=A0</em>risk.</p>
+<p style=3D"margin: 16px 0;">That=E2=80=99s the theory, Theory 2, but obvio=
+usly things have not been working out that way recently. Drechsler, Savov a=
+nd Schnabl have a new paper with Olivier Wang, titled =E2=80=9C<a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly9wYX=
+BlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTQ0MTExMjc/607f07cee=
+f4b8524a319a23cBf49097b7" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Banking on Uninsured Deposits</a>.=E2=80=
+=9D The abstract:</p>
+<blockquote><p style=3D"margin: 16px 0;">Motivated by the regional bank cri=
+sis of 2023, we model the impact of interest rates on the liquidity risk of=
+ banks. Prior work shows that banks hedge the interest rate risk of their a=
+ssets with their deposit franchise: when interest rates rise, the value of =
+the assets falls but the value of the deposit franchise rises. Yet the depo=
+sit franchise is only valuable if depositors remain in the bank. This creat=
+es run incentives for uninsured depositors. We show that a run equilibrium =
+is absent at low interest rates but appears when rates rise because the dep=
+osit franchise comes to dominate the value of the bank. The liquidity risk =
+of the bank thus increases with interest rates. We provide a formula for th=
+e bank=E2=80=99s optimal risk management policy. The bank should act as if =
+its deposit rate is more sensitive to market rates than it really is, i.e.,=
+ as if its =E2=80=9Cdeposit beta=E2=80=9D is higher. This leads the bank to=
+ shrink the duration of its assets. Shortening duration has a downside, how=
+ever: it exposes the bank to insolvency if interest rates fall. The bank th=
+us faces a dilemma: it cannot simultaneously hedge its interest rate risk a=
+nd liquidity risk exposures. The dilemma disappears only if uninsured depos=
+its do not contribute to the deposit franchise (if they have a deposit beta=
+ of one). The recent growth of low-beta uninsured checking and savings acco=
+unts thus poses stability risks to banks. The risks increase with interest =
+rates and are amplified by other exposures such as credit risk. We show how=
+ they can be addressed with an optimal capital requirement that rises with =
+interest rates.</p></blockquote>
+<p style=3D"margin: 16px 0;">The new paper summarizes the previous paper, a=
+nd Theory 2 generally:</p>
+<blockquote><p style=3D"margin: 16px 0;">Following Drechsler et al. (2021),=
+ we model a bank with a low =E2=80=9Cdeposit beta=E2=80=9D =E2=80=93 a low =
+sensitivity of deposit rates to the market interest rate. The bank then ear=
+ns a deposit spread that rises with the interest rate. This is the source o=
+f its deposit franchise. The deposit franchise does not come for free: the =
+bank pays an operating cost to maintain it. The deposit franchise is=C2=A0e=
+ffectively an interest rate swap in which the bank pays fixed (the operatin=
+g cost) and receives floating (the deposit spread). This swap has negative =
+duration. The=C2=A0bank hedges it by investing in assets with positive dura=
+tion; by holding long-term loans and securities.</p></blockquote>
+<p style=3D"margin: 16px 0;">But they add an increased likelihood of intere=
+st-rate-driven deposit outflows, and also the risk of runs by uninsured dep=
+ositors:</p>
+<blockquote><p style=3D"margin: 16px 0;">The second reason for outflows is =
+a run by uninsured depositors. Uninsured depositors have an incentive to ru=
+n if the value of their claims exceeds the value of the bank if they do run=
+. In standard models (Diamond and Dybvig, 1983) this is due to fire sales o=
+f the bank=E2=80=99s loans. There are no such fire sales in our model; the =
+bank=E2=80=99s assets are fully liquid. Runs are instead due to the nature =
+of the deposit franchise. When a deposit is withdrawn, the bank loses the s=
+tream of deposit=C2=A0spreads net of operating costs it would have earned o=
+n that deposit. In effect, the deposit franchise is subject to an extreme f=
+orm of =E2=80=9Cfire sale=E2=80=9D: its value is fully destroyed in a run. =
+Moreover, since its value is increasing in interest rates, a run is more de=
+structive =E2=80=93 and hence more likely =E2=80=93 at high interest rates.=
+</p></blockquote>
+<p style=3D"margin: 16px 0;">This is sort of what you saw in the recent ban=
+k runs: Regional banks had financial assets (loans, bonds) whose market val=
+ue fell due to rising interest rates until it=C2=A0was slightly less than t=
+heir liabilities. On traditional banking theory, that=E2=80=99s survivable:=
+ The=C2=A0<em>deposit franchise=C2=A0</em>is itself valuable, and the combi=
+ned value of the=C2=A0financial assets and the deposit franchise ought to h=
+ave exceeded the liabilities, so the banks were solvent and valuable. But i=
+n practice the value of the deposit franchise evaporated overnight, leaving=
+ only a pile of financial assets that had lost value, funded by a bunch of =
+short-term loans that came due.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Narrow banking/shadow banking</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Along these lines, I <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMDgvb2lsLWNvbXBhbmllcy1naXZlLWJhY2=
+stdGhlLWNhc2g_Y21waWQ9QkJEMDUwOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1d=
+G1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTA5JnV0bV9jYW1wYWlnbj1tb25leXN0=
+dWZm/607f07ceef4b8524a319a23cC46cfb383" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">  wrote yesterday</a> that =
+the main risk of banking comes not from its assets (bonds, loans) but from =
+its liabilities: If you fund your business with short-term loans (deposits)=
+ that can be withdrawn at any time, but you assume that your relationships =
+with your lenders (depositors) are so good that=C2=A0<em>they </em>would ne=
+ver withdraw their money, you are liable to get in=C2=A0trouble. And we hav=
+e talked about the possibility that, in a mark-to-market, no-relationships,=
+ Theory 1 sort of world, that funding model for banks wouldn=E2=80=99t work=
+, or at least would become less popular. There is a set of ideas called =E2=
+=80=9Cnarrow banking=E2=80=9D or the =E2=80=9CChicago plan,=E2=80=9D in whi=
+ch:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Deposits would not be used to fund loa=
+ns or other long-term assets, but would just be parked at the Federal Reser=
+ve: Banking would be fully reserved, bank accounts would just be dollars, a=
+nd they would not be used to make loans.</li>=09<li style=3D"margin-bottom:=
+ 5px;">Loans would be equity-funded: People who wanted to take credit (or i=
+nterest-rate) risk would invest their money in funds, and the funds would m=
+ake loans (or buy bonds). But the investors in those funds would not be inf=
+ormation-insensitive bank depositors who expected access to their money at =
+any time; they would be conscious risk-takers. They would know what they we=
+re getting into: They would lock up their money for a long time and underst=
+and that they were taking the risk of any loan losses. Loans would effectiv=
+ely come from loan mutual funds, not from banks.</li>
+</ul>
+<p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/31427429.263436/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjMtMDQtMjAvYmFua2luZy1nZXRzLWEtYml0LW5hcnJvd2VyP2NtcGlkPUJCR=
+DA1MDkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVy=
+JnV0bV90ZXJtPTIzMDUwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319=
+a23cB1edf5f25" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  have suggested</a> that some of this is really hap=
+pening now. For one thing, a lot of US money market funds <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMzAvYmVkLWJhdGgtYmV5b25kLW=
+hhcy1tb3JlLXN0b2NrLXRvLXNlbGw_Y21waWQ9QkJEMDUwOTIzX01PTkVZU1RVRkYmdXRtX21lZ=
+Gl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTA5JnV0bV9jYW1w=
+YWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB9506d8af" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  kind of l=
+ook like narrow banks</a> (they just park money at the Fed=E2=80=99s revers=
+e repo program), while there has been a huge rise in private credit funds t=
+hat=C2=A0<em>are=C2=A0</em>equity-funded lenders, and that are displacing b=
+anks in some lending markets.</p>
+<p style=3D"margin: 16px 0;">We talked yesterday about a <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3cubnl0=
+aW1lcy5jb20vMjAyMy8wNS8wNi9idXNpbmVzcy9kZWFsYm9vay9iYW5rLWNyaXNpcy1zaGFkb3c=
+tYmFua3MuaHRtbA/607f07ceef4b8524a319a23cB310ec25f" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> DealBook story<=
+/a> about the rise of private credit, which worried that private credit fun=
+ds are =E2=80=9Cnot subject to the same regulations as banks, which allows =
+them to take greater risks.=E2=80=9D=C2=A0I thought that was the wrong thin=
+g to worry about; I wrote:</p>
+<blockquote><p style=3D"margin: 16px 0;">A private credit firm that raises =
+money from investors in a locked-up fund, and uses that money to make idiot=
+ic loans that all go bust, is <em>less </em>risky than, well, a licensed ba=
+nk that raises money from uninsured depositors and uses that money to buy s=
+afe US-government-backed bonds, like Silicon Valley Bank did.</p></blockquo=
+te>
+<p style=3D"margin: 16px 0;">That said, I added: =E2=80=9CThough: A private=
+ credit fund that leverages its fund with short-term borrowing is riskier, =
+more run-prone, more like a bank.=E2=80=9D You could imagine private credit=
+ being=C2=A0<em>very=C2=A0</em>safe, very Chicago-plan, just taking long-te=
+rm=C2=A0equity investments from people who want to take risks. But financia=
+l markets love leverage, and if you have a $1 billion loan fund, you might =
+go to someone =E2=80=94=C2=A0say, a bank =E2=80=94=C2=A0and say =E2=80=9Che=
+y I have $1 billion of equity, lend me another $1 billion and I=E2=80=99ll =
+go make $2 billion of loans with the money.=E2=80=9D And then =E2=80=94=C2=
+=A0if the money you borrowed from the bank is short-term=C2=A0or subject to=
+ margin calls =E2=80=94=C2=A0you have reintroduced a lot of the fragility o=
+f banking.</p>
+<p style=3D"margin: 16px 0;">The details matter, though. A good, conservati=
+ve, well-run bank might well fund $2=C2=A0billion of long-term loans with $=
+200=C2=A0million of equity and $1.8 billion of short-term borrowing (deposi=
+ts), which is just a lot more fragile than a private credit fund=C2=A0fundi=
+ng them with $1 billion of equity and $1 billion of borrowing. Even if the =
+bank is making safer and more conservative loans than the private credit fu=
+nd, it might be more fragile.</p>
+<p style=3D"margin: 16px 0;">Anyway also yesterday the Fed released its <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aHR0c=
+HM6Ly93d3cuZmVkZXJhbHJlc2VydmUuZ292L3B1YmxpY2F0aW9ucy9maWxlcy9maW5hbmNpYWwt=
+c3RhYmlsaXR5LXJlcG9ydC0yMDIzMDUwOC5wZGY/607f07ceef4b8524a319a23cB4db25bf9" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> Financial Stability Report</a>, and it directly discusses the fina=
+ncial-stability risks of private credit funds. The Fed, like me, is not tha=
+t worried:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Since the 2007=E2=80=9309 financial crisis, pr=
+ivate credit funds have experienced substantial growth, as the privately ne=
+gotiated loans that they extend have become an increasingly important sourc=
+e of credit for some businesses, particularly middle-market companies.=C2=
+=A0As of 2021:Q4, their assets under management (AUM) stood at $1=C2=A0tril=
+lion, and the estimated =E2=80=9Cdry powder=E2=80=9D (committed but uncalle=
+d capital) amounted to $228=C2=A0billion (figure A). =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Investors in private credit funds are diversif=
+ied institutional investors and high-net-worth individuals (figure B). Base=
+d on Form PF, as of 2021:Q4, public and private pension funds held about 31=
+=C2=A0percent ($307=C2=A0billion) of aggregate private credit fund assets. =
+Other private funds made up the second-largest cohort of investors at 14=C2=
+=A0percent ($136=C2=A0billion) of assets, while insurance companies and ind=
+ividual investors each had about 9=C2=A0percent ($92=C2=A0billion). Given t=
+he rapid growth of private credit funds, these investors are increasingly i=
+ndirectly exposed to the liquidity and credit risks of assets in private cr=
+edit fund portfolios.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Financial stability risks associated with inve=
+stor redemptions from private credit funds appear low. Most private credit =
+funds have a closed-end fund structure and typically lock up the capital of=
+ their investors (that is, limited partners) for 5=C2=A0to=C2=A010=C2=A0yea=
+rs. Those funds that are structured as hedge funds routinely restrict share=
+ redemptions of their investors through redemption notice periods, lockups,=
+ and gates. Thus, private credit funds engage in limited liquidity and matu=
+rity transformation. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Risks to financial stability from leverage at =
+private credit funds appear low. Indeed, most private credit funds are unle=
+vered, with no borrowings or derivative exposures. A minority of funds, how=
+ever, use modest amounts of financial or synthetic leverage. Figure C shows=
+ that the most levered funds (those at the 95th percentile) have borrowings=
+-to-assets ratios of about 1.27 and derivatives-to-assets ratios of about 0=
+.66. In the aggregate, private credit funds borrowed about $200 billion in =
+2021:Q4, mainly from U.S. financial institutions, and held about $200 billi=
+on of derivative gross notional exposure. Risks to lenders of private credi=
+t funds, typically banks, appear moderate due to the relatively modest amou=
+nt of borrowings of private credit funds and their secured nature.</p>
+<p style=3D"margin: 16px 0;">Overall, the financial stability vulnerabiliti=
+es posed by private credit funds appear limited. Most private credit funds =
+use little leverage and have low redemption risks, making it unlikely that =
+these funds would amplify market stress through asset sales.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Are private credit funds making worse loans th=
+an banks are? Just the wrong question to ask! The right question is =E2=80=
+=9Ccan there be a run on private credit funds,=E2=80=9D and the answer, so =
+far, is =E2=80=9Cmostly no.=E2=80=9D</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Active passive management</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Bloomberg=E2=80=99s Ye Xie and Liz McCormick h=
+ave sort of <a href=3D"https://link.mail.bloombergbusiness.com/click/314274=
+29.263436/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtM=
+DgvaG93LXByb2ZpdGFibGUtYXJlLXZhbmd1YXJkLWZpeGVkLWluY29tZS1mdW5kcz9jbXBpZD1C=
+QkQwNTA5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHR=
+lciZ1dG1fdGVybT0yMzA1MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a3=
+19a23cBcddb9a18" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">  a funny profile of Josh Barrickman</a>, who runs=
+ Vanguard Group Inc.=E2=80=99s Americas bond indexing business. You might t=
+hink that the guy running $1 trillion of bond index funds would not have to=
+ make a lot of decisions =E2=80=94=C2=A0=E2=80=9Cjust buy the index=E2=80=
+=9D =E2=80=94=C2=A0but in fact the way you run a bond index fund is=C2=A0<e=
+m>not=C2=A0</em>by buying all the bonds in the index: There are too many, a=
+nd many of them don=E2=80=99t trade that much. Instead you buy a=C2=A0<em>l=
+ot=C2=A0</em>of the bonds in the index, try to get a representative sample,=
+ try to track the index, and end up making a lot of decisions. You are in s=
+ome sense much=C2=A0<em>less=C2=A0</em>active than an active bond manager, =
+but on the other hand you run $1 trillion and they don=E2=80=99t:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">That makes Barrickman exhibit A of a passive m=
+anagement revolution that=E2=80=99s reshaping the world of fixed-income, ju=
+st as it did equities a decade ago. No longer dominated by traders making m=
+ultimillion-dollar bets and eating what they kill, the real money is flowin=
+g to guys like him, whose decisions are increasingly rippling through marke=
+ts.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe do have size and scale, and that m=
+atters in the marketplace,=E2=80=9D Barrickman said in an interview. =E2=80=
+=9CTracking is job one, two and three,=E2=80=9D he said, adding =E2=80=9Cif=
+ we can have a basis point a year, that=E2=80=99s a lot of real money.=E2=
+=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Barrickman himself now oversees three of the w=
+orld=E2=80=99s four largest bond funds, including the $298 billion Vanguard=
+ Total Bond Market Index Fund, according to data compiled by Bloomberg.</p>
+<p style=3D"margin: 16px 0;">That means many of the decisions he makes, lik=
+e which bonds to buy when trying to replicate his funds=E2=80=99 underlying=
+ benchmarks, can have big consequences for the market (the Vanguard Total I=
+nternational Bond Index Fund, for example, only holds roughly half the 13,0=
+00 bonds in the index it tracks.)</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe have to be, by definition, overwei=
+ght some places and underweight others to build a sample,=E2=80=9D Barrickm=
+an said. =E2=80=9CWe=E2=80=99re dealing in a market that forces us to take =
+some active positions.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If you run $1 trillion of indexed bond money a=
+nd capture one basis point a year with your active decisionmaking, that=E2=
+=80=99s $100 million of alpha.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Shaq is hiding from an FTX lawsuit</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Sure <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31427429.263436/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjMtMDUtMDkvc2hhcXVpbGxlLW8tbmVhbC1zZWVrcy10by1xdWFzaC1mdHgtc3=
+VpdC1zdW1tb25zLWFzLWluYWRlcXVhdGU_Y21waWQ9QkJEMDUwOTIzX01PTkVZU1RVRkYmdXRtX=
+21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTA5JnV0bV9j=
+YW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB53710e5b" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  whate=
+ver</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Shaquille O=E2=80=99Neal is calling foul on th=
+e lawyers who chased him for months to serve a lawsuit accusing the basketb=
+all legend of duping investors in FTX crypto exchange.</p>
+<p style=3D"margin: 16px 0;">Chucking legal documents at the front of O=E2=
+=80=99Neal=E2=80=99s car as he drove quickly through the gates of his Georg=
+ia home doesn=E2=80=99t count as properly serving a lawsuit, his attorneys =
+say.</p>
+<p style=3D"margin: 16px 0;">The seven foot-one inch former Los Angeles Lak=
+ers star and NBA commentator known as Shaq is among numerous celebrities ta=
+rgeted in a suit claiming they funneled investors into a Ponzi scheme by pr=
+omoting FTX=E2=80=99s unregistered securities.</p>
+<p style=3D"margin: 16px 0;">O=E2=80=99Neal stood as a holdout among the gr=
+oup for not acknowledging receipt of the complaint despite what plaintiffs=
+=E2=80=99 lawyers said were dozens of attempts to present it to him at know=
+n residences in Georgia and Texas and elsewhere, according to court filings=
+.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Seems like a blockchain could fix this.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">PacWest, Western Alliance Slide as <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMDkvcGFjd2VzdC1yZXN1bWVz=
+LXNlbGxvZmYtYXMtYmF0dGVyZWQtcmVnaW9uYWwtYmFuay1zdG9ja3Mtc2xpZGU_Y21waWQ9QkJ=
+EMDUwOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjMwNTA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cB255b6bd5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  Regional Bank Stocks Fall</a>.=C2=A0<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3cu=
+d3NqLmNvbS9hcnRpY2xlcy9iZXR0aW5nLWFnYWluc3QtYmFua3MtYnJpbmdzLXJld2FyZC1hbmQ=
+tYmFja2xhc2gtOGEwNGI3OWY_bW9kPWhwX2xlYWRfcG9zNA/607f07ceef4b8524a319a23cB69=
+2d4069" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> Betting Against Banks</a> Brings Reward and Backlash. Regi=
+onal Banks Will <a href=3D"https://link.mail.bloombergbusiness.com/click/31=
+427429.263436/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtM=
+DUtMDkvcmVnaW9uYWwtYmFua2Vycy1icmFjZS1mb3ItMjAtYm9udXMtY3V0cy1pbi0yMDIzLXdo=
+aWxlLWJpZy1maXJtcy1yaXNlP2NtcGlkPUJCRDA1MDkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW0=
+9ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUwOSZ1dG1fY2FtcGFpZ2=
+49bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB72100350" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">  Cut Bonuses</=
+a> While Big Firms Raise Incentive Pay.=C2=A0US lenders warned that <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvYTc3Njk1YWMtYTUxNi00NjU0LThlMGYtNWFlYjRmNGZmZjcx=
+/607f07ceef4b8524a319a23cBd9079f0f" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> commercial property</a> is =E2=
+=80=98next shoe to drop.=E2=80=99 Concern Over TD <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+hcnRpY2xlcy9jb25jZXJuLW92ZXItdGQtYW50aS1tb25leS1sYXVuZGVyaW5nLXByYWN0aWNlcy=
+1oZWxwZWQtc2N1dHRsZS1maXJzdC1ob3Jpem9uLWRlYWwtZmM3M2I4MzE/607f07ceef4b8524a=
+319a23cBc33af1f0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Anti-Money-Laundering Practices</a> Helped Scutt=
+le First Horizon Deal. Goldman to Pay $215 Million to End Case on <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMDgvZ29sZG1hbi1zaGVs=
+bHMtb3V0LTIxNS1taWxsaW9uLXRvLWVuZC1jYXNlLW9uLXVuZGVycGF5aW5nLXdvbWVuP2NtcGl=
+kPUJCRDA1MDkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIzMDUwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cB3b3322f3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  Underpaying Women</a>. UBS to <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMDkvdWJzLXJlc2h1ZmZsZXMtbG=
+VhZGVyc2hpcC10ZWFtLWFmdGVyLWNyZWRpdC1zdWlzc2UtZGVhbD9jbXBpZD1CQkQwNTA5MjNfT=
+U9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVy=
+bT0yMzA1MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB16e7b4=
+2d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Overhaul Board</a> After Credit Suisse Deal. =E2=80=9CZoltan=
+ Pozsar, a widely followed Credit Suisse <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xl=
+cy96b2x0YW4tcG96c2Fycy13cml0aW5nLWlzLWRlbnNlLWVzb3RlcmljLWFuZC1hLWhpdC1ub3c=
+taGVzLWxlZnQtY3JlZGl0LXN1aXNzZS1mMmVjMjQ4Mz9tb2Q9aXRwX3dzaiZydT15YWhvbw/607=
+f07ceef4b8524a319a23cBbf05865f" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> markets guru</a>, has left the ban=
+k.=E2=80=9D Tempur Sealy to <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/31427429.263436/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjMtMDUtMDkvdGVtcHVyLXNlYWx5LXRvLWJ1eS1tYXR0cmVzcy1maXJtLWZvci1hYm91=
+dC00LWJpbGxpb24_Y21waWQ9QkJEMDUwOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ=
+1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTA5JnV0bV9jYW1wYWlnbj1tb25leX=
+N0dWZm/607f07ceef4b8524a319a23cB64e4d33d" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  Buy Mattress Firm</a> =
+for About $4 Billion.=C2=A0The <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/31427429.263436/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90aGUtc3=
+VwcmVtZS1jb3VydC1jYXNlLXRoYXQtY291bGQtdGhyZWF0ZW4tdGhlLXNlY3MtY2xpbWF0ZS1ka=
+XNjbG9zdXJlLXJ1bGUtODRhY2UyZGM_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524=
+a319a23cB67058236" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Supreme Court Case</a> That Could Threaten the =
+SEC=E2=80=99s Climate-Disclosure Rule. High-Tech Banks Grapple With a Rise =
+in Old-Fashioned Crime: <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31427429.263436/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9oaWdoLXRlY2gtY=
+mFua3MtZ3JhcHBsZS13aXRoLWEtcmlzZS1pbi1vbGQtZmFzaGlvbmVkLWNyaW1lLWNoZWNrLWZy=
+YXVkLTlhM2RhZmE5P21vZD1ocF9sZWFkX3BvczEy/607f07ceef4b8524a319a23cBe9133702"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Check Fraud</a>.=C2=A0Ireland to propose creation of <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3=
+cuZnQuY29tL2NvbnRlbnQvNzE1MDY5MWUtNjE2Zi00YjQwLTkyNjUtODYzZmM3ZWRiZjQ3/607f=
+07ceef4b8524a319a23cB2cac20c7" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> sovereign wealth fund</a>.=C2=A0<a =
+href=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMDkvc3JpLWxhbmth=
+LXMtY3JlZGl0b3JzLWhvbGQtaW5hdWd1cmFsLWRlYnQtbWVldC1hcy1jaGluYS1vYnNlcnZlcz9=
+jbXBpZD1CQkQwNTA5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bm=
+V3c2xldHRlciZ1dG1fdGVybT0yMzA1MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07cee=
+f4b8524a319a23cBb7e42bdd" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Sri Lanka</a>=E2=80=99s Creditors Hold In=
+augural Debt Meet as China Observes. Why <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/31427429.263436/aHR0cHM6Ly9tZWRpdW0uY29tL0BldmFfYWxs=
+YW4vd2h5LWZsb3NzYmFyLW1lZGJhci1mYWlsZWQtZDM0NjFjYjY1MWQ/607f07ceef4b8524a31=
+9a23cB3a21dcbc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> Flossbar/Medbar Failed</a> &amp; What We Learned A=
+long the Way. FTX Founder Sam Bankman-Fried <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY=
+2xlcy9mdHgtZm91bmRlci1zYW0tYmFua21hbi1mcmllZC1zZWVrcy1kaXNtaXNzYWwtb2YtY3Jp=
+bWluYWwtY2hhcmdlcy0xOWZlNDY5Yj9tb2Q9bGVhZF9mZWF0dXJlX2JlbG93X2FfcG9zMQ/607f=
+07ceef4b8524a319a23cBef64ccee" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> Seeks Dismissal</a> of Criminal Cha=
+rges. JPMorgan Ordered to <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/31427429.263436/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGV=
+zLzIwMjMtMDUtMDgvanBtb3JnYW4tb3JkZXJlZC10by1wYXktamF2aWNlLXMtbGVnYWwtZmVlcy=
+1pbi1mcmFuay1mcmF1ZC1jYXNlP2NtcGlkPUJCRDA1MDkyM19NT05FWVNUVUZGJnV0bV9tZWRpd=
+W09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUwOSZ1dG1fY2FtcGFp=
+Z249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb8ae161e" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  Pay Javice'=
+s Lawyers</a> While They Sue Her.=C2=A0Spotify ejects thousands of AI-made =
+songs in <a href=3D"https://link.mail.bloombergbusiness.com/click/31427429.=
+263436/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYjY4MDJjOGYtNTBlNy00ZGY4LTg2ODIt=
+Y2NhNzk0ODgxZTMw/607f07ceef4b8524a319a23cB5ba2af32" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> purge of fake =
+streams</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31427429.263436/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBcdb5d11e" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31427429.263436/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB708a02ff" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Another way to make money would have been =
+to take less duration risk and more credit risk: to make, say, floating-rat=
+e loans to businesses. But SVB=E2=80=99s customer base <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/31427429.263436/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC1iYW5rLWhhZC1hL=
+XN0YXJ0dXAtYmFuay1ydW4_Y21waWQ9QkJEMDUwOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1l=
+bWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNTA5JnV0bV9jYW1wYWlnbj1=
+tb25leXN0dWZm/607f07ceef4b8524a319a23cCd2844c51" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">
+made that harder</a>: In 2022, startups and VCs were flush with cash, so th=
+ey parked a lot of deposits with SVB and didn=E2=80=99t need many loans. SV=
+B couldn=E2=80=99t take credit risk to earn money, so it took duration risk=
+.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] In super rough numbers, SVB=E2=80=99s port=
+folio had a duration of about 6 years, the 10-year Treasury rate went up by=
+ about 2 percentage points from early 2022 through early 2023, so its $120 =
+billion portfolio lost $120bn x 6 x 2% =3D $14.4 billion or so of value. Th=
+is is not really right, but it=E2=80=99s the rough intuition. </p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] See my fake math in the footnote above. Si=
+x years duration, $120bn notional, 0.25% move, $1.8 billion loss. </p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] =E2=80=9CASC=E2=80=9D stands for =E2=80=9C=
+Accounting Standards Codification,=E2=80=9D and is the way the US Financial=
+ Accounting Standards Board codifies US generally accepted accounting princ=
+iples. </p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBc2b0d7b2" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB116a7e99" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBcace1e68" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB22688a35" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBff632d06" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31427429.2634=
+36/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBa1346541" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31427429.263436/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC792c0e57" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31427429.263436/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB92fccb63" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31427429.263436/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBc2d27b8f" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB2=
+c61cd9f" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31427429.263436/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB4=
+4db661f" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciplk5.5n9o/e3758b4d.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9104233_777665002.1683654593704--
+

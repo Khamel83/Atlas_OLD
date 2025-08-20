@@ -1,0 +1,1914 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:c011:0:b0:191:bcf:3d4e with SMTP id z17csp2281535lko;
+        Wed, 2 Feb 2022 10:39:01 -0800 (PST)
+X-Received: by 2002:a05:600c:3049:: with SMTP id n9mr7155722wmh.121.1643827141067;
+        Wed, 02 Feb 2022 10:39:01 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1643827141; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=f0e8dZIi02SNVS+nklGZOj+64xr3+UF5QbijOl3Lwk6wnxXbI16FR2Jbc25ZiNRJWz
+         wo3sZLAXI35rKesQaU3zYAXzkYiZbNkIqhfh8sMDPxXyjCncsEaJgVJsCAZS9VGMFyu5
+         t/SPgtALpgiS84X4KrhQ1dFMhlwdjOe7NTk3O/mud2BkdOwZjjg3DtkJD7N/LsWlvG1K
+         uejFt0nBz3+JSLPZ2HWux3Y3JHTSHW44J96tnS5+SXzKuL4Zggu6eG68k2NYGJ3efUPB
+         U65r0U63MXP2+UYFhmx3zbVLx1F/egE5DtbZDLu2VE8hQ2UtVFQ7hIJ49UIBtBftK9dt
+         pGlQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=hBmO6y4kIlP/eZqB2FuQmhx/Q9mHWU6iz2r7hfzCZTY=;
+        b=ZiCThtLQ+GuFsypXiSZUky8SoXWhTg0FJb4L78E7u6ybVBOrWMCBE8N0aH30kfjCQK
+         yJOb92oa+3whNnJDrWDKlHeTJ/0pkj/MgYZeQeFpBXrgC3HgtyNJ6c/ydjy/8xYogaYS
+         obxagShM9X+NsGz2CZvhg4VL4boawZ03nHKZY33L6vC8RO9cXbgztXND83zIQWcWnvvU
+         MfszxT5KwHrQal6XmebBEqwtwD7tg7RF9Wk9npH2/Op+/ZRiqwNIMqlgfw65kZKGMhKg
+         uFp04EGz1AXyKdBdGWVcpRtXefCwdCX/9tWkIvTA2GYxyUUr+kktoFWGhg471JXtV8pt
+         tQBQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QzBHJCXO;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j7sor3264247wms.21.2022.02.02.10.39.00
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 02 Feb 2022 10:39:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QzBHJCXO;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=hBmO6y4kIlP/eZqB2FuQmhx/Q9mHWU6iz2r7hfzCZTY=;
+        b=E5iZZHY92y0zHe0yX6jVBPK8tQDs8dDOxNfqkfb5vpoYtt7AtzvuORjnr6g4MCJamN
+         M40ApCxBpzuV3WPu2S5GDLGQnMGDqyQNngEOz1LlbxfqoVKU78zoOmHdCIjeOSgmYiw8
+         Y24yPnuCY4WM7ciPJ+mk5gIUZULwcxJ/Ab9mZ33iZ4gJKKz9NYkg6wRipfrk1+eFJtjq
+         hNqTGFQUKBYqlC7HuSRqDz72kfPiZlNspxFuv5mawg+fMlVDjHUi7DCxABco9VxjRbqI
+         uCkgqT8loPeNrROAJ3mduPYquAYTQD98tDj1N5sIGSvQo18vetuAV53v5mWnfQzb/QEy
+         U+Ig==
+X-Gm-Message-State: AOAM533WRFcsHkRKVV5wqoXYWgrhB/CaNmmebi6EtML57FnzKcLTlFak
+	YZAJSehDv9CrCsqCWNL0lrpmKAVNDXSv661z+XnvIfokaGjm68rMyw==
+X-Received: by 2002:a05:600c:4186:: with SMTP id p6mr7238019wmh.12.1643827140664;
+        Wed, 02 Feb 2022 10:39:00 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f350:0:0:0:0:0 with SMTP id e16csp1580587wrp;
+        Wed, 2 Feb 2022 10:38:58 -0800 (PST)
+X-Received: by 2002:a05:6830:108f:: with SMTP id y15mr17675498oto.185.1643827137941;
+        Wed, 02 Feb 2022 10:38:57 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1643827137; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=XiqXogXAXC/Gk+S5mwaJvcxXtgu0QL/v6hjBeCuMROGBEgKMa0MaELZBprbWgqXacQ
+         vIsAtkL5kuwSELaXcGBYHYxEBW2CvULJuT82svyFu86uivS3FnwtOjKuVGU5KAtxzOFb
+         eWwumeSOWPTyHi8KN2lpobmH4SUYaqR6VTKwGdO+hJVHsKr4z5jEv1glepOdukbuyvxw
+         NOosAGVCRfwafDjsE2X/v0jTNPxC8Fq7Ot+j+aHHRd8OWifk3ByVpdEM06FNwsWaKLE1
+         3B7BCRqBN68BWeXcEqiBzQN4KKKm8ZkKF7lbLJD4whSUAvyr2eKx3daax7NFHEZLH3vx
+         fUSA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=hBmO6y4kIlP/eZqB2FuQmhx/Q9mHWU6iz2r7hfzCZTY=;
+        b=sKK3d1aFxevI4HKB8JnuOzgJsFKID1R/Ug2WCCaKh2/wWt8iCg3idNAW8PN/jXbsIe
+         IOfgLKj950NeNjmNqGc7/rhqX7yVbgeVlSd7hiQU75kAObiqt64kkGO8kmhWHUjveH3G
+         49s+rYmEKiKUxN3nOEcIOKt+R6amjVQGDSECWS0BjijR314r13pM4mjPcKBiJ/kcypU8
+         P2s7ffXvUSrS/1eWJcId1cD+GrV5qNKt9TzpdmHBnm347SsMQjJuOuVQd3THsY8mvHtV
+         r1d0BWIaqqvSxVXkVP7IgflFULaYyyErJZcsRQJl8EYohT38E3acaUBpdEWKPwhFdiBu
+         bK3w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QzBHJCXO;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220202133752.26573728.257620@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220202133752.26573728.257620@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220202133752.26573728.257620@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 5sor9194448oif.18.2022.02.02.10.38.57
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 02 Feb 2022 10:38:57 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20220202133752.26573728.257620@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyu75V9V9qAQIRocC49GYWeld4713i8hdCiDRyLnOVusAuLcYtHfmL4ntpT/AXvPwNLWsU92XoYBLxFLw/LxCblF2tUTt0=
+X-Received: by 2002:a05:6808:199c:: with SMTP id bj28mr5299562oib.125.1643827137621;
+        Wed, 02 Feb 2022 10:38:57 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1643827137; cv=none;
+        d=google.com; s=arc-20160816;
+        b=yXuqYnLm/W/nKFMHND0FSvOe0BhdVAD2/X+LBdHLoGMgvoiqtjLITqy9QwjrNYTzll
+         OI/+joUtQEhNywr3q4k78r80tR9MFTbF2G7rz62BSKBk1TTfb0RdcODe3nQaSC0xVzWn
+         4ZZdPu3tq535hK/HcKxqoKUZY8rEE2ToK5wCSkGrnlnrbTpTW33dWQG58gTeP8h1Eeqo
+         bgw2WjdYjgtlu4d2KEy1FXj1/JlZvEAHLczw3ZFPBiCRHNgqKExudfYtKUcVc6e9BSGY
+         svRSBvSIrEwXZpXujCLtg4EMr50R/zc2V4frp+QLVOOlYYak4Z92WkPkxUEAIgSfzka8
+         kJDQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=hBmO6y4kIlP/eZqB2FuQmhx/Q9mHWU6iz2r7hfzCZTY=;
+        b=j43P+KxSt75KahbXcHbY1gBoW2wvCDKqKiiguSNwI9gf99srhZZKKZAEXueWsUkUZm
+         O15ZXq9l/6VjUd5olsnKcpJfxjnf/VlLMj2b26dl4Ej64OEYdafyUOZXFiuYhpWf7i6U
+         1X+mnXSVI/mIAvaXvgz8p/lF8n3yLlO/Qy0EiFETcofAijD42erKX/DBVbaMFay+lxhE
+         OeJQK1IjFDDVuudUmsSdLpP4jysDdmDyya/8IQM+IMndr72Q82fG4DRXy7aWV3/pq4OB
+         8dkUP8T7IJFKPma0Alw7TB0oBKpC8x5MK/I9Yb8ouSQ6UTZPv8nVjbzRle09ThTWDr0w
+         anNw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QzBHJCXO;
+       spf=pass (google.com: domain of delivery_20220202133752.26573728.257620@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220202133752.26573728.257620@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220202133752.26573728.257620@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id u43si2775963oiw.2.2022.02.02.10.38.50
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 02 Feb 2022 10:38:57 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20220202133752.26573728.257620@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=qHOLsLJnPqVGvICVsK4/B64QvWc7dvxvXMF75K3CtCs=;
+ b=QzBHJCXORdBmy+uEeXLKZUGiu5x0ghuggCHXXzn8iWQsw7lcD0X6ODfXSj5cUpgHSwgs81k9nL9R
+   pmDrW8Fq9atSdqOcCLFvXV4VL87T0z61ufXjkkdyvrs+AuRw/e2H2XEV5IofTfGhOyBIcet9D5di
+   z1oSa7OgUpJxsTUJ1n4=
+Received: from njmta-149.sailthru.com (173.228.155.149) by bloomberg-b.sailthru.com id hvb7rm2tkt0p for <bloomberg@khamel.com>; Wed, 2 Feb 2022 13:38:43 -0500 (envelope-from <delivery_20220202133752.26573728.257620@mx.sailthru.com>)
+Received: from nj1-hotheart.flt (172.18.20.32) by njmta-149.sailthru.com id hvb7r61qqbs9 for <bloomberg@khamel.com>; Wed, 2 Feb 2022 13:37:52 -0500 (envelope-from <delivery_20220202133752.26573728.257620@mx.sailthru.com>)
+Date: Wed, 2 Feb 2022 13:37:52 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220202133752.26573728.257620@sailthru.com>
+Subject: Money Stuff: Busy Bankers Made Big Money
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2653788_1702215710.1643827072530"
+Precedence: bulk
+X-Feedback-ID: 6358:26573728:campaign:sailthru
+X-TM-ID: 20220202133752.26573728.257620
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-hotheart.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cftkf4.5is4/8edece8f
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cftkf4.5is4/8edece8f>, <mailto:unsubscribe_20220202133752.26573728.257620@mx.sailthru.com>
+X-rpcampaign: stjko26573728
+
+------=_Part_2653788_1702215710.1643827072530
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Good timesOne thing that happened at Goldman Sachs Group Inc. in 20=
+21 is that a group of junior analysts put together a PowerPoint presentat
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Good times
+   =20
+ =20
+One thing that happened at Goldman Sachs Group Inc. in 2021 is that a group=
+ of junior analysts  put together a  PowerPoint presentation for their mana=
+gers, which subsequently went viral online, about how miserable they were f=
+rom working so hard. =E2=80=9CI=E2=80=99ve been through foster care and thi=
+s is arguably worse,=E2=80=9D said one analyst. Other big financial firms r=
+eceived similar complaints. Everyone was working really hard and they did n=
+ot like it.Another thing that happened at Goldman in 2021 is that it made s=
+o much money, and its competitors made so much money, that it paid its seni=
+or bankers and traders tens of millions of dollars in bonuses and special e=
+xtra bonuses. Bloomberg=E2=80=99s=C2=A0 Sridhar Natarajan and Hannah Levitt=
+ report:Wall Streeters are buzzing about the swelling number of people scor=
+ing eight-figure pay packages this year. The top earners at Goldman will be=
+ approaching $30 million, with some even exceeding that mark, people famili=
+ar with the matter have said. Those rewards included=C2=A0special one-time =
+payouts=C2=A0for a few hundred top executives.=C2=A0And at=C2=A0Jefferies F=
+inancial Group Inc., pay for some of the best performers has surpassed $25 =
+million, people with knowledge of the matter said. There=E2=80=99s a notabl=
+e feature: Executives can elect to get paid in cash, unlike the stock-heavy=
+ compensation at larger rivals.The article goes on to talk about Tribeca pe=
+nthouse apartments, thousand-dollar Barolos and Goldman Chief Executive Off=
+icer and DJ David Solomon being =E2=80=9Cscheduled to hit the DJ circuit ag=
+ain in sunny Los Angeles this month at an event billed as the =E2=80=98elit=
+e playground of partygoers.=E2=80=99=E2=80=9DThese things are related! Wall=
+ Street is making a lot of money because it is busy; Wall Street is paying =
+people a lot of money because they are busy. (Strictly, it is paying its se=
+nior rainmakers a lot of money because they are doing a good job of keeping=
+ the junior analysts busy, which is probably more pleasant for the rainmake=
+rs than it is for the analysts.)=C2=A0Merger and issuance and trading=C2=A0=
+activity are booming, and loosely speaking the way that big Wall Street ban=
+ks get paid is by (1) intermediating securities and derivatives trades and =
+taking a spread and (2) advising companies on mergers, acquisitions and sto=
+ck and bond issuance and taking a fee. They are middlemen, service provider=
+s, and as markets are ebullient and volatile there is a lot of demand for t=
+heir services.None of this is unusual; this is also how law firms work, or =
+Starbucks, or really any other business. If there is a lot of client demand=
+ you work hard to meet it and you make a lot of money. Wall Street has a ce=
+rtain extra leverage because it deals in piles of money: It costs Starbucks=
+ roughly 10 times as much effort to make 10 times as many coffees, for whic=
+h it earns roughly=C2=A010 times as much money; it does not cost Goldman th=
+at much more effort to do a $10 billion merger than=C2=A0a $1 billion merge=
+r, but the $10 billion merger does bring in much higher fees.=C2=A0Still th=
+e money varies in some rough proportion to the workload.There are =E2=80=A6=
+=C2=A0other kinds of finance? Kinds that are less about providing client se=
+rvice? Certainly if you took your modest Goldman bonus in 2012, invested al=
+l of it in Bitcoin and played video games for the last decade, you=E2=80=99=
+d be richer now than if you spent that decade working 100-hour weeks at Gol=
+dman and becoming a $30-million-a-year superstar.[1] I think a lot of peopl=
+e at Goldman are keenly aware of that. There is a sense in the traditional =
+financial intermediation business, the working-on-behalf-of-clients busines=
+s that the big banks are in,=C2=A0that the money is at least somewhat a fun=
+ction of effort, and that in other corners of the world that connection is =
+less tight:Back in 2007, the head of Goldman Sachs was one of the highest-p=
+aid executives in the broadest definition of Wall Street. Today, when it co=
+mes to pay, banks occupy a relatively impoverished corner of the financial =
+metaverse. Private equity firms dole out far more to their leaders. And the=
+n there=E2=80=99s the riches being minted at Silicon Valley ventures and in=
+ cryptocurrencies.=E2=80=9CIn different eras, Wall Street really stood out =
+alone,=E2=80=9D Corzine said. =E2=80=9CThat=E2=80=99s not the case now.=E2=
+=80=9DLast month  I quoted the line in =E2=80=9CLiar=E2=80=99s Poker=E2=80=
+=9D in which Michael Lewis, on his first day as a bond salesman at Salomon =
+Brothers, says =E2=80=9CI didn=E2=80=99t really imagine I was going to work=
+, more as if I were going to collect lottery winnings.=E2=80=9D That is not=
+ how the junior people feel now! Now it=E2=80=99s worse than foster care! N=
+ow they see=C2=A0other=C2=A0people getting rich in ways that look more like=
+ lottery winnings.One thing to do, when faced with this situation, is to au=
+tomate the business of financial intermediation, so that you can scale up t=
+he revenue without doing too much more work. Another class of financial int=
+ermediaries was perhaps even busier than the big banks in 2021. The Wall St=
+reet Journal reports:Brokerages serving individual investors received a win=
+dfall last year for selling their customers=E2=80=99 order flow to electron=
+ic trading firms, even as the practice faced increasing scrutiny from regul=
+ators.The dozen largest U.S. brokerages earned a combined $3.8 billion for =
+selling their customers=E2=80=99 stock and options orders last year, up 33%=
+ from 2020, according to new data compiled by Bloomberg Intelligence and re=
+leased Tuesday. =E2=80=A6Citadel Securities continued to be the biggest sou=
+rce of payment for order flow. The electronic trading giant founded by hedg=
+e-fund billionaire Ken Griffin paid the 12 brokerages tracked by Bloomberg =
+just under $1.5 billion for order flow last year, the data show. Other larg=
+e sources of the payments were Susquehanna International Group LLP and Wolv=
+erine Trading LLC, a pair of low-profile trading firms that are significant=
+ players in options markets.It seems safe to say that Citadel Securities ma=
+de a whole ton of money from intermediating all those trades. It also seems=
+ safe to say that people at Citadel Securities were=C2=A0busier=C2=A0during=
+ the meme-stock boom than they otherwise would have been: They had some lat=
+e-night phone calls with Robinhood and so forth. But there was not some 23-=
+year-old analyst at Citadel Securities frantically working the phones to do=
+ all those trades. The computers did those trades. Citadel Securities is in=
+ the business of=C2=A0automating=C2=A0stock and options trading for retail =
+clients; as markets get busier Citadel Securities gets richer but its life =
+doesn=E2=80=99t get that much more unpleasant.That is how tech companies ar=
+e supposed to work, scaling up not with labor but with technology, and Cita=
+del Securities has recently  attracted venture-capital investment as more o=
+r less a tech company. The big banks have also been fond, in recent years, =
+of saying that they are tech companies, and of  rolling out  apps to automa=
+te bits of their financial-intermediation offerings. =C2=A0There is a huge =
+gusher of money in financial intermediation right now, but you have to pay =
+a lot of people to stand in front of it with buckets and laboriously haul=
+=C2=A0it away. The money is nice, but it would be better if there were an e=
+asier way.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Google stock split
+   =20
+ =20
+The other day I was talking to someone about the trend=C2=A0of mayors who t=
+ake their salary in Bitcoin, and she objected to the practice because a Bit=
+coin is so expensive. =E2=80=9CDoes Eric Adams even get a whole Bitcoin for=
+ his salary,=E2=80=9D she asked skeptically, and no he does not.[2] I found=
+ this a strange objection. Bitcoin trades in essentially infinitesimal unit=
+s; for one U.S. cent you can buy about 2,654 atomic one-one-hundred-million=
+th fractions of a Bitcoin, which is probably enough precision for any reaso=
+nable purpose. You can convert any amount of dollars into Bitcoins,=C2=A0th=
+ere is no real discontinuity where 1 Bitcoin is vastly better than 0.9999 B=
+itcoins, and the nominal expensiveness of Bitcoin has no practical importan=
+ce.And yet this objection is not uncommon. You sometimes hear people say th=
+at they like some other cryptocurrency more than Bitcoin=C2=A0because the p=
+rice of Bitcoin is off-putting, not in some fundamental-valuation sense but=
+ just in the sense that a $30,000+ price tag for anything will scare people=
+ off. People prefer to buy things where one whole thing costs a normal amou=
+nt of money, even if the concept =E2=80=9Cone whole thing=E2=80=9D makes no=
+ sense and has no practical importance.=C2=A0I used to vaguely think that t=
+he rise of crypto, with its visibly arbitrary prices and its=C2=A0microscop=
+ic fractionalization of everything, would change this preference, but it ha=
+s not. Specifically I used to vaguely think that stock splits=C2=A0would be=
+ less of a thing: If everyone understands that a $30,000+ price tag for Bit=
+coin is arbitrary and you can buy whatever fraction of a Bitcoin you want, =
+then everyone will get used to the fact that a $2,700+ price tag for Alphab=
+et Inc. common stock is arbitrary and you can buy whatever fraction of an A=
+lphabet share you want.[3] (At least you can now that retail brokerages  of=
+fer fractional shares.) But nobody understands either of those things  so:A=
+lphabet Inc. is bringing big stock splits back to the market, so prospectiv=
+e buyers won=E2=80=99t need upwards of $3,000 to own a share. Taking down t=
+he price achieves something else for the Google parent: making it possible =
+to put America=E2=80=99s third-biggest company into its most venerated stoc=
+k average.The company said late Tuesday it will increase its outstanding sh=
+ares by a 20-to-1 ratio, aiming to entice the numerous small investors who =
+have flocked to the stock market during the pandemic. The shares jumped 10%=
+ in U.S. premarket trading on Wednesday, and were set to surpass their reco=
+rd high reached last November.=E2=80=9CThe reason for the split is it makes=
+ our shares more accessible,=E2=80=9D Ruth Porat, Alphabet=E2=80=99s chief =
+financial officer, said in a conference call with television anchors. =E2=
+=80=9CWe thought it made sense to do.=E2=80=9DFor mom-and-pop traders, a lo=
+wer stock price makes it easier to buy shares rather than purchase fraction=
+al stocks through their brokerage firms. Alphabet=E2=80=99s 20-for-1 split =
+would reduce the price of Class A shares to roughly $138, based on Tuesday=
+=E2=80=99s closing price of $2,752.88. A share of the company hasn=E2=80=99=
+t been that cheap since 2005.=E2=80=9CInstitutional investors can buy in si=
+ze and the price per share doesn=E2=80=99t matter,=E2=80=9D said Ed Clissol=
+d, chief U.S. strategist at Ned Davis Research. =E2=80=9CBut for a smaller =
+investor, a lower price-per-share makes it easier for them to buy a reasona=
+ble number of shares.=E2=80=9DSee I think that 0.05 shares is a perfectly r=
+easonable number of shares to buy in your Robinhood account that encourages=
+ fractional-share investing,=C2=A0but no one agrees with me and that=E2=80=
+=99s fine.=C2=A0I think it=E2=80=99s charming that Alphabet cares? One very=
+ visible lesson of 2021 in financial markets is that retail investors are a=
+ powerful force, and you can get some more or less free shareholder value b=
+y catering to them. Making=C2=A0retail investors want to buy your stock dri=
+ves up your stock price, which arguably gives you more financial flexibilit=
+y (probably not a huge concern for Alphabet, which had $91.7 billion of ope=
+rating cash flow last year) and which in any case is good for shareholders =
+in itself (their stock is worth more). I  often  write  about  this in  stu=
+pid  terms, because there are a lot of stupid ways to cater to retail inves=
+tors, and if you don=E2=80=99t care much about your dignity you can spend y=
+our earnings calls talking about how you=E2=80=99re going to start selling =
+NFTs and=C2=A0accepting Dogecoin. Ruth Porat is a respectable person, and w=
+hile splitting your stock is=C2=A0a slightly stupid way to appeal to retail=
+ shareholders, it is also quite respectably, traditionally stupid.It is so =
+traditional, in fact, that the stupidest investor who cares about nominal s=
+tock prices is the Dow:Another motivation for the split could be gaining en=
+try to the Dow Jones Industrial Average, whose price-weighted index has bee=
+n a barrier for years to the likes of Alphabet and also Amazon.com Inc., wh=
+ich has a four-figure stock price, according to Michael O=E2=80=99Rourke, c=
+hief market strategist at Jonestrading.=C2=A0The Dow=E2=80=99s archaic weig=
+hting system is based on share price rather than market capitalization, and=
+ in Alphabet=E2=80=99s presplit form it was just too big to add to the gaug=
+e without it overwhelming all the other members.The Dow was invented over a=
+ century ago when stocks all cost=C2=A0$40 to $100, and if a stock cost $3,=
+000 you=E2=80=99d need to pile sacks of gold coins on a horse-drawn cart to=
+ buy a round lot of 100 shares.[4] If all the stocks cost $40 then the mark=
+et was low, if all the stocks cost $80 then the market was high, and averag=
+ing the prices of all the big stocks was a good rough way to figure out wha=
+t the market was up to. This has not been true for many decades, but fortun=
+ately it also doesn=E2=80=99t matter at all. For one thing, taking a sample=
+ of $100-ish stocks and averaging their prices gets you pretty close to rep=
+licating a market-cap-weighted average of a larger sample of stocks, so the=
+ Dow does a decent job of tracking real indexes like the S&P 500; for anoth=
+er thing, most index-fund money is indexed to real indexes so the Dow is pr=
+obably not a huge driver of investment flows. Still it is a status symbol, =
+and it drives some retail flows, and all that stuff is important right now =
+so why not.Oh, by the way, an earlier version of that story said that =E2=
+=80=9CAlphabet has been at a disadvantage=E2=80=9D with modern retail inves=
+tors =E2=80=9Cas its stock is expensive and uses the name of a holding comp=
+any, rather than the globally recognized brand, Google.=E2=80=9D I never fu=
+lly understand why Google thought it was a great idea to change its name to=
+ Alphabet, and that name has never really gotten much traction, but I gathe=
+r that the explanation had something to do with  making its business more l=
+egible to institutional investors. In 2022 I feel like the move is to renam=
+e your business to make it more meme-y for retail investors. Maybe they sho=
+uld go back to Google?
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Funding secured!
+   =20
+ =20
+We=E2=80=99re  still doing this huh:Elon Musk says his 2018 tweet about pla=
+nning to take Tesla Inc. private was =E2=80=9Centirely truthful=E2=80=9D an=
+d that investors who claim the missive was fraudulent are wrong.Lawyers for=
+ the billionaire chief executive officer of the electric-car maker said in =
+a court filing Tuesday that Saudi Arabia=E2=80=99s sovereign wealth fund ha=
+d indeed agreed to support his attempt to take the company private.=E2=80=
+=9CElon Musk=E2=80=99s August 7, 2018 tweet informing the public that he wa=
+s considering taking Tesla private was entirely truthful,=E2=80=9D the CEO=
+=E2=80=99s attorney Alex Spiro said in a heavily redacted filing. =E2=80=9C=
+Mr. Musk was considering taking Tesla private at $420 a share. Funding was =
+secured. There was investor support.=E2=80=9DWhat is specifically going on =
+here is that some investors sued Musk for securities fraud for that tweet, =
+and they=C2=A0have asked a judge for partial summary judgment: They want th=
+e judge to rule that the tweet was false, so that they can go to trial on q=
+uestions of damages, etc. Musk=E2=80=99s lawyers filed a brief opposing tha=
+t motion and demanding that a jury get to decide if the tweet was false. Th=
+at seems reasonable.The actual evidence that Musk had lined up $70 billion =
+of committed financing to take Tesla private is redacted in the public vers=
+ion of the brief and, uh, I don=E2=80=99t believe it? The U.S. Securities a=
+nd Exchange Commission  went through all of this with Musk and Tesla back w=
+hen it  fined him $20 million for that tweet, and Musk=E2=80=99s own public=
+ blogging  made it pretty clear that (1) he never got committed funding fro=
+m the Saudi fund and (2) he never even asked for=C2=A0sufficient funding to=
+ actually take Tesla private.=C2=A0Instead he had some sort of half-baked n=
+otion that he would =E2=80=9Ctake Tesla private=E2=80=9D without buying mos=
+t of the shares: Tesla would be =E2=80=9Cprivate=E2=80=9D instead of =E2=80=
+=9Cpublic,=E2=80=9D but have most of the same shareholders, so he would not=
+ need much cash. This was a weird and implausible idea but he=E2=80=99s a w=
+eird and implausible guy and if he wants to argue it again to a jury they s=
+hould probably let him.
+ =20
+   =20
+      Play-to-earn
+   =20
+ =20
+Sure! Sure!  Sure:Tinder is rolling out a virtual currency to encourage use=
+rs to spend more time swiping, scrolling and eventually spending real money=
+ on the most popular dating app in the U.S.Initially available only in Aust=
+ralia, the in-app =E2=80=9Ccoins=E2=80=9D can be acquired as users remain a=
+ctive on the platform or keep their profiles up to date. They can also be b=
+ought with regular money. The coins can then be used to step up a user=E2=
+=80=99s profile by purchasing Tinder=E2=80=99s perks such as Super Likes or=
+ Boosts, which can help increase the chances of finding a good match. =E2=
+=80=A6The in-app currency, which will be available later this month, is par=
+t of Tinder=E2=80=99s efforts to create a richer experience for people onli=
+ne, moving beyond just its traditional =E2=80=9Cswipe right=E2=80=9D method=
+ for finding a romantic partner. Tinder, owned by Match Group Inc., expects=
+ the virtual currency to enable more opportunities to earn money from the a=
+pp. Chief Financial Officer Gary Swidler said during the company=E2=80=99s =
+second-quarter earnings call that Tinder users=E2=80=99 =E2=80=9Cpropensity=
+ to pay has improved significantly.=E2=80=9DThe company expects the coins =
+=E2=80=9Cwill play an important role as the Tinder experience evolves and b=
+ecomes more immersive, because virtual currency is useful in the context of=
+ gifting digital goods,=E2=80=9D Swidler said in a statement to Bloomberg.I=
+ am looking forward to next year when I will read stories about=C2=A0Tinder=
+coin venture capitalists who stake penniless young daters who work 12-hour =
+days updating their profiles and give 50% of their Tindercoin earnings to t=
+he venture capitalists. When I will read stories about how=C2=A0you can use=
+ your Tindercoins to buy non-fungible tokens in the metaverse (a cartoon dr=
+awing of a hat that you can put on your Tinder profile), and about how nobo=
+dy will date anyone who does not have the right sort of NFT hat on their pr=
+ofile picture. When I will read stories about how young people are not gett=
+ing married anymore because it would require them to stop updating their Ti=
+nder profiles and give up all their sweet sweet Tindercoins, which are now =
+the main store of value in society. When I will read stories about how youn=
+g people=C2=A0are=C2=A0getting married but keep updating their Tinder profi=
+les and earning Tindercoins, which they spend on =E2=80=A6=C2=A0staking pen=
+niless young daters? Cartoon hats? I don=E2=80=99t know. It is so rarely th=
+at you find yourself at the dawn of a whole new way of organizing human soc=
+iety, except that now it is every day and it=E2=80=99s exhausting.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+ AMC Taps Junk-Bond Market for $500 Million to Refinance High-Cost Pandemic=
+ Debt. Exxon, Chevron Hit Gushers of Cash as Big Oil Companies Lure Back In=
+vestors. Startup Investors Cut Valuations Amid Tech Stock Rout, Dismal IPOs=
+.=C2=A0Ford to Spend Up to $20 Billion Reorganizing for  Shift to Electric =
+Cars. U.S. National Debt Exceeds $30 Trillion for First Time. Fiat Hyperinf=
+lations in the Age of Crypto. Mapping the celebrity NFT complex. Ripple=E2=
+=80=99s Legal Brawl With SEC Could Help Settle When Cryptocurrencies Are Se=
+curities. Dolphins Owner Dangled $100,000 for  Losing Games, Ex-Coach Says.=
+=C2=A0=E2=80=9CThere simply  aren=E2=80=99t enough yachts available for pur=
+chase.=E2=80=9D=C2=A0Afghanistan's Taliban told they can't take their guns =
+to the funfair. Groundhog dies.If you'd like to get=C2=A0Money=C2=A0Stuff=
+=C2=A0in handy email form, right in your inbox, please=C2=A0subscribe at th=
+is link. Or you can subscribe to Money Stuff and other great Bloomberg news=
+letters here. Thanks![1]=C2=A0Assume the modest bonus is $100,000 in after-=
+tax cash and you=C2=A0buy about 20,000 Bitcoins at about $5 each (a rough F=
+ebruary 2012 price); at today=E2=80=99s price that=E2=80=99s about $750 mil=
+lion. Here I am neglecting your living expenses for those 10 years of video=
+ games; if you=E2=80=99d sold Bitcoin to cover them you would =E2=80=A6=C2=
+=A0probably not be rich.[2] Adams=E2=80=99s annual salary is apparently $25=
+8,750, and the New York Post reports that he is paid biweekly and gets abou=
+t $5,900 after withholding. He converted his first paycheck to crypto on Ja=
+n. 21, when Bitcoin prices opened above $40,000, meaning he could have boug=
+ht something like 0.15 Bitcoins, though he actually apparently split his mo=
+ney between Bitcoin and Ether.[3] We have talked about stock splits before =
+around here, for  Tesla Inc. and=C2=A0 twice for  Apple Inc., but they were=
+n=E2=80=99t that interesting then either.[4] Possibly this history is inacc=
+urate.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cftkf4.5is4/7f9c6104.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_2653788_1702215710.1643827072530
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Good timesOne thing that happened at Goldman Sachs Group Inc. in 2021 is th=
+at a group of junior analysts put together a PowerPoint presentat
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjU3MzcyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MzEzNDgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBd1336f8b" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26573728&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26831348&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMjAyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDImdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB27e2791d"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjU3MzcyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MzEzNDgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCde84d3ea" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26573728&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26831348&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Good times</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One thing that happened at Goldman Sac=
+hs Group Inc. in 2021 is that a group of junior analysts <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDktMjEvZ29sZG1hbi1qdW5pb3ItYmFua2V=
+yLXVwcmlzaW5nLXdhcy1pZ25pdGVkLWJ5LXNvbi1vZi10cGctbGVhZGVyP2NtcGlkPUJCRDAyMD=
+IyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0b=
+V90ZXJtPTIyMDIwMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB=
+55b07174" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> put together</a> a <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjEtMDMtMTgvZ29sZG1hbi1hbmFseXN0cy13b3JrLXRvby1oYXJkP2=
+NtcGlkPUJCRDAyMDIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZ=
+XdzbGV0dGVyJnV0bV90ZXJtPTIyMDIwMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07cee=
+f4b8524a319a23cBbb9cfaeb" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> PowerPoint presentation</a> for their ma=
+nagers, which subsequently went viral online, about how miserable they were=
+ from working so hard. =E2=80=9CI=E2=80=99ve been through foster care and t=
+his is arguably worse,=E2=80=9D <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/26573728.257620/aHR0cHM6Ly9ueW1hZy5jb20vaW50ZWxsaWdlbmNlci8yM=
+DIxLzExL2dvbGRtYW4tc2FjaHMtYW5hbHlzdHMtbW9uZXktcGFuZGVtaWMuaHRtbA/607f07cee=
+f4b8524a319a23cB314545ca" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">said one analyst</a>. Other big financial=
+ firms received similar complaints. Everyone was working really hard and th=
+ey did not like it.</p><p style=3D"margin: 16px 0;">Another thing that happ=
+ened at Goldman in 2021 is that it made so much money, and its competitors =
+made so much money, that it paid its senior bankers and traders tens of mil=
+lions of dollars in bonuses and special <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjItMDEtMTgvYmxhY2tyb2NrLXN0aWxsLWxpa2VzLWNhcGl0YWxp=
+c20_Y21waWQ9QkJEMDIwMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f0=
+7ceef4b8524a319a23cBdb565824" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">extra bonuses</a>. Bloomberg=E2=80=99=
+s=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.25=
+7620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDIvd2=
+FsbC1zdHJlZXQtcy1iaWctYm9udXNlcy1hcmUtYmFjay1hbmQtYmFua2Vycy1hcmUtYnV5aW5nL=
+XlhY2h0cy1jaGFtcGFnbmU_Y21waWQ9QkJEMDIwMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1l=
+bWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjAyJnV0bV9jYW1wYWlnbj1=
+tb25leXN0dWZm/607f07ceef4b8524a319a23cB79218530" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Sridhar Natarajan=
+ and Hannah Levitt report</a>:</p><blockquote><p style=3D"margin: 16px 0;">=
+Wall Streeters are buzzing about the swelling number of people scoring eigh=
+t-figure pay packages this year. The top earners at Goldman will be approac=
+hing $30 million, with some even exceeding that mark, people familiar with =
+the matter have said. Those rewards included=C2=A0special one-time payouts=
+=C2=A0for a few hundred top executives.=C2=A0</p><p style=3D"margin: 16px 0=
+;">And at=C2=A0Jefferies Financial Group Inc., pay for some of the best per=
+formers has surpassed $25 million, people with knowledge of the matter said=
+. There=E2=80=99s a notable feature: Executives can elect to get paid in ca=
+sh, unlike the stock-heavy compensation at larger rivals.</p></blockquote><=
+p style=3D"margin: 16px 0;">The article goes on to talk about Tribeca penth=
+ouse apartments, thousand-dollar Barolos and Goldman Chief Executive Office=
+r and DJ David Solomon being =E2=80=9Cscheduled to hit the DJ circuit again=
+ in sunny Los Angeles this month at an event billed as the =E2=80=98elite p=
+layground of partygoers.=E2=80=99=E2=80=9D</p><p style=3D"margin: 16px 0;">=
+These things are related! Wall Street is making a lot of money because it i=
+s busy; Wall Street is paying people a lot of money because they are busy. =
+(Strictly, it is paying its senior rainmakers a lot of money because they a=
+re doing a good job of keeping the junior analysts busy, which is probably =
+more pleasant for the rainmakers than it is for the analysts.)=C2=A0Merger =
+and issuance and trading=C2=A0activity are booming, and loosely speaking th=
+e way that big Wall Street banks get paid is by (1) intermediating securiti=
+es and derivatives trades and taking a spread and (2) advising companies on=
+ mergers, acquisitions and stock and bond issuance and taking a fee. They a=
+re middlemen, service providers, and as markets are ebullient and volatile =
+there is a lot of demand for their services.</p><p style=3D"margin: 16px 0;=
+">None of this is unusual; this is also how law firms work, or Starbucks, o=
+r really any other business. If there is a lot of client demand you work ha=
+rd to meet it and you make a lot of money. Wall Street has a certain extra =
+leverage because it deals in piles of money: It costs Starbucks roughly 10 =
+times as much effort to make 10 times as many coffees, for which it earns r=
+oughly=C2=A010 times as much money; it does not cost Goldman that much more=
+ effort to do a $10 billion merger than=C2=A0a $1 billion merger, but the $=
+10 billion merger does bring in much higher fees.=C2=A0Still the money vari=
+es in some rough proportion to the workload.</p><p style=3D"margin: 16px 0;=
+">There are =E2=80=A6=C2=A0other kinds of finance? Kinds that are less abou=
+t providing client service? Certainly if you took your modest Goldman bonus=
+ in 2012, invested all of it in Bitcoin and played video games for the last=
+ decade, you=E2=80=99d be richer now than if you spent that decade working =
+100-hour weeks at Goldman and becoming a $30-million-a-year superstar.[1] I=
+ think a lot of people at Goldman are keenly aware of that. There is a sens=
+e in the traditional financial intermediation business, the working-on-beha=
+lf-of-clients business that the big banks are in,=C2=A0that the money is at=
+ least somewhat a function of effort, and that in other corners of the worl=
+d that connection is less tight:</p><blockquote><p style=3D"margin: 16px 0;=
+">Back in 2007, the head of Goldman Sachs was one of the highest-paid execu=
+tives in the broadest definition of Wall Street. Today, when it comes to pa=
+y, banks occupy a relatively impoverished corner of the financial metaverse=
+. Private equity firms dole out far more to their leaders. And then there=
+=E2=80=99s the riches being minted at Silicon Valley ventures and in crypto=
+currencies.</p><p style=3D"margin: 16px 0;">=E2=80=9CIn different eras, Wal=
+l Street really stood out alone,=E2=80=9D Corzine said. =E2=80=9CThat=E2=80=
+=99s not the case now.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;=
+">Last month <a href=3D"https://link.mail.bloombergbusiness.com/click/26573=
+728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEt=
+MTItMjIvd2FsbC1zdHJlZXQtaXMtbm8tZnVuLWFueW1vcmU_Y21waWQ9QkJEMDIwMjIyX01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+IwMjAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5fecbbec" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> I quoted the line</a> in =E2=80=9CLiar=E2=80=99s Poker=E2=80=9D in =
+which Michael Lewis, on his first day as a bond salesman at Salomon Brother=
+s, says =E2=80=9CI didn=E2=80=99t really imagine I was going to work, more =
+as if I were going to collect lottery winnings.=E2=80=9D That is not how th=
+e junior people feel now! Now it=E2=80=99s worse than foster care! Now they=
+ see=C2=A0<em>other=C2=A0</em>people getting rich in ways that look <em>mor=
+e</em> like lottery winnings.</p><p style=3D"margin: 16px 0;">One thing to =
+do, when faced with this situation, is to automate the business of financia=
+l intermediation, so that you can scale up the revenue without doing too mu=
+ch more work. Another class of financial intermediaries was perhaps even bu=
+sier than the big banks in 2021. The Wall Street Journal <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS9hcnRpY2xlcy9wYXltZW50cy10by11LXMtYnJva2Vycy1zdXJnZWQtYW1pZC1tZW1lLXN=
+0b2NrLWFuZC1vcHRpb25zLWJvb20tMTE2NDM3NDU3NzE_bW9kPWl0cF93c2omcnU9eWFob28/60=
+7f07ceef4b8524a319a23cBb5263509" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">reports</a>:</p><blockquote><p sty=
+le=3D"margin: 16px 0;">Brokerages serving individual investors received a w=
+indfall last year for selling their customers=E2=80=99 order flow to electr=
+onic trading firms, even as the practice faced increasing scrutiny from reg=
+ulators.</p><p style=3D"margin: 16px 0;">The dozen largest U.S. brokerages =
+earned a combined $3.8 billion for selling their customers=E2=80=99 stock a=
+nd options orders last year, up 33% from 2020, according to new data compil=
+ed by Bloomberg Intelligence and released Tuesday. =E2=80=A6</p><p style=3D=
+"margin: 16px 0;">Citadel Securities continued to be the biggest source of =
+payment for order flow. The electronic trading giant founded by hedge-fund =
+billionaire Ken Griffin paid the 12 brokerages tracked by Bloomberg just un=
+der $1.5 billion for order flow last year, the data show. Other large sourc=
+es of the payments were Susquehanna International Group LLP and Wolverine T=
+rading LLC, a pair of low-profile trading firms that are significant player=
+s in options markets.</p></blockquote><p style=3D"margin: 16px 0;">It seems=
+ safe to say that Citadel Securities made a whole ton of money from interme=
+diating all those trades. It also seems safe to say that people at Citadel =
+Securities were=C2=A0<em>busier=C2=A0</em>during the meme-stock boom than t=
+hey otherwise would have been: They had some <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cubWFya2V0d2F0Y2gu=
+Y29tL3N0b3J5L2NpdGFkZWxzLWtlbi1ncmlmZmluLWNhbGxzLWFjY3VzYXRpb25zLXRoYXQtaGl=
+zLW1hcmtldC1tYWtlcnMtY29sbHVkZWQtd2l0aC1yb2Jpbmhvb2QtYS1iYWQtY29tZWR5LWpva2=
+UtMTE2MzY1NzQyMjI/607f07ceef4b8524a319a23cB04e88da2" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">late-night pho=
+ne calls with Robinhood</a> and so forth. But there was not some 23-year-ol=
+d analyst at Citadel Securities frantically working the phones to do all th=
+ose trades. The computers did those trades. Citadel Securities is in the bu=
+siness of=C2=A0<em>automating=C2=A0</em>stock and options trading for retai=
+l clients; as markets get busier Citadel Securities gets richer but its lif=
+e doesn=E2=80=99t get <em>that</em> much more unpleasant.</p><p style=3D"ma=
+rgin: 16px 0;">That is how tech companies are supposed to work, scaling up =
+not with labor but with technology, and Citadel Securities has recently <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtMTEvd2hvLWNh=
+bi1yZXNpc3QtdGhlLWNyeXB0by1ib29tP2NtcGlkPUJCRDAyMDIyMl9NT05FWVNUVUZGJnV0bV9=
+tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIwMiZ1dG1fY2=
+FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB44a5f027" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> attrac=
+ted venture-capital investment</a> as more or less a tech company. The big =
+banks have also been fond, in recent years, of saying that they are tech co=
+mpanies, and of <a href=3D"https://link.mail.bloombergbusiness.com/click/26=
+573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+jEtMTItMDEvZ29sZG1hbi1zLWNsb3VkLXdpbGwtcGl0Y2gtdHJhZGVzP2NtcGlkPUJCRDAyMDIy=
+Ml9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIyMDIwMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBaa=
+91ed61" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> rolling</a> out <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjAtMDgtMDMvbm93LWFuLWFwcC1jYW4tcGl0Y2gtbWVyZ2Vycz9jbXBpZD1=
+CQkQwMjAyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMjAyMDImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cB0fe8ab52" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> apps</a> to automate bits of their financial-int=
+ermediation offerings. =C2=A0There is a huge gusher of money in financial i=
+ntermediation right now, but you have to pay a lot of people to stand in fr=
+ont of it with buckets and laboriously haul=C2=A0it away. The money is nice=
+, but it would be better if there were an easier way.</p><table class=3D"li=
+veintent-sponsored-content" width=3D"auto" cellpadding=3D"0" cellspacing=3D=
+"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjU3MzcyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MzEzNDgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD0afdb371" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26573728&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26831348&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjU3MzcyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MzEzNDgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE0afdb371" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26573728&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26831348&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjU3MzcyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MzEzNDgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFd6aa53cf" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26573728&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26831348&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjU3MzcyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MzEzNDgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGd6aa53cf" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26573728&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26831348&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Google stock split</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The other day I was talking to someone=
+ about the trend=C2=A0of <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26573728.257620/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wMS8yNS9idXNp=
+bmVzcy9jcnlwdG8tbWF5b3JzLmh0bWw/607f07ceef4b8524a319a23cBef687743" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+mayors who take their salary in Bitcoin</a>, and she objected to the practi=
+ce because a Bitcoin is so expensive. =E2=80=9CDoes Eric Adams even get a w=
+hole Bitcoin for his salary,=E2=80=9D she asked skeptically, and no he does=
+ not.[2] I found this a strange objection. Bitcoin trades in <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/26573728.257620/aHR0cHM6Ly9lbi5i=
+aXRjb2luLml0L3dpa2kvU2F0b3NoaV8odW5pdCk/607f07ceef4b8524a319a23cBdff770cc" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">essentially infinitesimal units</a>; for one U.S. cent you can buy =
+about 2,654 atomic one-one-hundred-millionth fractions of a Bitcoin, which =
+is probably enough precision for any reasonable purpose. You can convert an=
+y amount of dollars into Bitcoins,=C2=A0there is no real discontinuity wher=
+e 1 Bitcoin is vastly better than 0.9999 Bitcoins, and the nominal expensiv=
+eness of Bitcoin has no practical importance.</p><p style=3D"margin: 16px 0=
+;">And yet this objection is not uncommon. You sometimes hear people say th=
+at they like some other cryptocurrency more than Bitcoin=C2=A0because the p=
+rice of Bitcoin is off-putting, not in some fundamental-valuation sense but=
+ just in the sense that a $30,000+ price tag for anything will scare people=
+ off. People prefer to buy things where one whole thing costs a normal amou=
+nt of money, even if the concept =E2=80=9Cone whole thing=E2=80=9D makes no=
+ sense and has no practical importance.=C2=A0</p><p style=3D"margin: 16px 0=
+;">I used to vaguely think that the rise of crypto, with its visibly arbitr=
+ary prices and its=C2=A0microscopic fractionalization of everything, would =
+change this preference, but it has not. Specifically I used to vaguely thin=
+k that <em>stock splits=C2=A0</em>would be less of a thing: If everyone und=
+erstands that a $30,000+ price tag for Bitcoin is arbitrary and you can buy=
+ whatever fraction of a Bitcoin you want, then everyone will get used to th=
+e fact that a $2,700+ price tag for Alphabet Inc. common stock is arbitrary=
+ and you can buy whatever fraction of an Alphabet share you want.[3] (At le=
+ast you can now that retail brokerages <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMTktMTAtMTgvaGFsZi1hLXNoYXJlLW9mLXN0b2NrLWlzLWJldHRlc=
+i10aGFuLW5vdGhpbmc_Y21waWQ9QkJEMDIwMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFp=
+bCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjAyJnV0bV9jYW1wYWlnbj1tb25=
+leXN0dWZm/607f07ceef4b8524a319a23cBb6e1b97b" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> offer fractional shar=
+es</a>.) But nobody understands either of those things <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDIvYWxwaGFiZXQtc3RvY2stc3BsaXQtY=
+WltZWQtYXQtYnJpbmdpbmctZ29vZ2xlLXNoYXJlcy10by1tYXNzZXM_Y21waWQ9QkJEMDIwMjIy=
+X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3R=
+lcm09MjIwMjAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB505e=
+e45a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> so</a>:</p><blockquote><p style=3D"margin: 16px 0;">Alphabet=
+ Inc. is bringing big stock splits back to the market, so prospective buyer=
+s won=E2=80=99t need upwards of $3,000 to own a share. Taking down the pric=
+e achieves something else for the Google parent: making it possible to put =
+America=E2=80=99s third-biggest company into its most venerated stock avera=
+ge.</p><p style=3D"margin: 16px 0;">The company said late Tuesday it will i=
+ncrease its outstanding shares by a 20-to-1 ratio, aiming to entice the num=
+erous small investors who have flocked to the stock market during the pande=
+mic. The shares jumped 10% in U.S. premarket trading on Wednesday, and were=
+ set to surpass their record high reached last November.</p><p style=3D"mar=
+gin: 16px 0;">=E2=80=9CThe reason for the split is it makes our shares more=
+ accessible,=E2=80=9D Ruth Porat, Alphabet=E2=80=99s chief financial office=
+r, said in a conference call with television anchors. =E2=80=9CWe thought i=
+t made sense to do.=E2=80=9D</p><p style=3D"margin: 16px 0;">For mom-and-po=
+p traders, a lower stock price makes it easier to buy shares rather than pu=
+rchase fractional stocks through their brokerage firms. Alphabet=E2=80=99s =
+20-for-1 split would reduce the price of Class A shares to roughly $138, ba=
+sed on Tuesday=E2=80=99s closing price of $2,752.88. A share of the company=
+ hasn=E2=80=99t been that cheap since 2005.</p><p style=3D"margin: 16px 0;"=
+>=E2=80=9CInstitutional investors can buy in size and the price per share d=
+oesn=E2=80=99t matter,=E2=80=9D said Ed Clissold, chief U.S. strategist at =
+Ned Davis Research. =E2=80=9CBut for a smaller investor, a lower price-per-=
+share makes it easier for them to buy a reasonable number of shares.=E2=80=
+=9D</p></blockquote><p style=3D"margin: 16px 0;">See I think that 0.05 shar=
+es is a perfectly reasonable number of shares to buy in your Robinhood acco=
+unt that encourages fractional-share investing,=C2=A0but no one agrees with=
+ me and that=E2=80=99s fine.=C2=A0</p><p style=3D"margin: 16px 0;">I think =
+it=E2=80=99s charming that Alphabet cares? One very visible lesson of 2021 =
+in financial markets is that retail investors are a powerful force, and you=
+ can get some more or less free shareholder value by catering to them. Maki=
+ng=C2=A0retail investors want to buy your stock drives up your stock price,=
+ which arguably gives you more financial flexibility (probably not a huge c=
+oncern for Alphabet, which had <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/26573728.257620/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdm=
+VzL2VkZ2FyL2RhdGEvMTY1MjA0NC8wMDAxNjUyMDQ0MjIwMDAwMTkvZ29vZy0yMDIxMTIzMS5od=
+G0jaTBlZjkzYzgyMGRhMDQyMDRhOWM1YTQ5ZjQ5YTNiMmViXzE1Nw/607f07ceef4b8524a319a=
+23cB15cf7853" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">$91.7 billion</a> of operating cash flow last year) a=
+nd which in any case is good for shareholders in itself (their stock is wor=
+th more). I <a href=3D"https://link.mail.bloombergbusiness.com/click/265737=
+28.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtM=
+DgtMTAvc3BlbmQteW91ci1iaXRjb2lucy1hdC10aGUtZ2FtZXN0b3AtaW4tdGhlLWFtYz9jbXBp=
+ZD1CQkQwMjAyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2x=
+ldHRlciZ1dG1fdGVybT0yMjAyMDImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b85=
+24a319a23cBa5e2304f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> often</a> <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjEtMTEtMDkvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1kb2l=
+uZy1mcmF1ZC1vbi1zZWN1cml0aWVzLWZyYXVkP2NtcGlkPUJCRDAyMDIyMl9NT05FWVNUVUZGJn=
+V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIwMiZ1d=
+G1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7dd8107c" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ write</a> <a href=3D"https://link.mail.bloombergbusiness.com/click/2657372=
+8.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMD=
+gtMTIvY3JlZGl0LXN1aXNzZS1zLW9vcHNpZS1ib25kcy1nby1kb3duP2NtcGlkPUJCRDAyMDIyM=
+l9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTIyMDIwMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB0b7=
+c12af" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> about</a> <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjEtMTItMTQvc2VsbC15b3VyLWNvbXBhbnktdG8teW91ci1iYW5rZXJzP2NtcGlkPU=
+JCRDAyMDIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIyMDIwMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cB45b86775" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> this</a> in <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjEtMTEtMDQvbWFjeS1zLXRhcmdldGVkLWJ5LW1lbWUtYWN0aXZpc=
+3RzP2NtcGlkPUJCRDAyMDIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJj=
+ZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIwMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f=
+07ceef4b8524a319a23cB8415c636" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> stupid</a> <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtMjQvbWF5YmUtdGhlLW1lbWVzLWFyZS1vd=
+mVyP2NtcGlkPUJCRDAyMDIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJj=
+ZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIwMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f=
+07ceef4b8524a319a23cB273091a4" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> terms</a>, because there are a lot =
+of stupid ways to cater to retail investors, and if you don=E2=80=99t care =
+much about your dignity you can spend your earnings calls talking about how=
+ you=E2=80=99re going to start selling NFTs and=C2=A0accepting Dogecoin. Ru=
+th Porat is a respectable person, and while splitting your stock <em>is</em=
+>=C2=A0a slightly stupid way to appeal to retail shareholders, it is also q=
+uite respectably, traditionally stupid.</p><p style=3D"margin: 16px 0;">It =
+is so traditional, in fact, that the stupidest investor who cares about nom=
+inal stock prices is the Dow:</p><blockquote><p style=3D"margin: 16px 0;">A=
+nother motivation for the split could be gaining entry to the Dow Jones Ind=
+ustrial Average, whose price-weighted index has been a barrier for years to=
+ the likes of Alphabet and also Amazon.com Inc., which has a four-figure st=
+ock price, according to Michael O=E2=80=99Rourke, chief market strategist a=
+t Jonestrading.=C2=A0</p><p style=3D"margin: 16px 0;">The Dow=E2=80=99s arc=
+haic weighting system is based on share price rather than market capitaliza=
+tion, and in Alphabet=E2=80=99s presplit form it was just too big to add to=
+ the gauge without it overwhelming all the other members.</p></blockquote><=
+p style=3D"margin: 16px 0;">The Dow <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/26573728.257620/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvR=
+G93X0pvbmVzX0luZHVzdHJpYWxfQXZlcmFnZQ/607f07ceef4b8524a319a23cB8a90a8b0" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">was invented</a> over a century ago when stocks all cost=C2=A0$40 to =
+$100, and if a stock cost $3,000 you=E2=80=99d need to pile sacks of gold c=
+oins on a horse-drawn cart to buy a round lot of 100 shares.[4] If all the =
+stocks cost $40 then the market was low, if all the stocks cost $80 then th=
+e market was high, and averaging the prices of all the big stocks was a goo=
+d rough way to figure out what the market was up to. This has not been true=
+ for many decades, but fortunately it also doesn=E2=80=99t matter at all. F=
+or one thing, taking a sample of $100-ish stocks and averaging their prices=
+ gets you pretty close to replicating a market-cap-weighted average of a la=
+rger sample of stocks, so the Dow does a decent job of tracking real indexe=
+s like the S&amp;P 500; for another thing, most index-fund money is indexed=
+ to real indexes so the Dow is probably not a huge driver of investment flo=
+ws. Still it is a status symbol, and it drives some retail flows, and all t=
+hat stuff is important right now so why not.</p><p style=3D"margin: 16px 0;=
+">Oh, by the way, an earlier version of that story said that =E2=80=9CAlpha=
+bet has been at a disadvantage=E2=80=9D with modern retail investors =E2=80=
+=9Cas its stock is expensive and uses the name of a holding company, rather=
+ than the globally recognized brand, Google.=E2=80=9D I never fully underst=
+and why Google thought it was a great idea to change its name to Alphabet, =
+and that name has never really gotten much traction, but I gather that the =
+explanation had something to do with <a href=3D"https://link.mail.bloomberg=
+business.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMTUtMDgtMTEvYWJjLXh5ei1hbmQtdGhlLXJtYj9jbXBpZD1CQkQwMjA=
+yMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG=
+1fdGVybT0yMjAyMDImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB=
+dfb0da15" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> making its business more legible to institutional invest=
+ors</a>. In 2022 I feel like the move is to rename your business to make it=
+ more meme-y for retail investors. Maybe they should go back to Google?</p>=
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjU3MzcyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MzEzNDgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHf981e263" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26573728&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26831348&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Funding secured!</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We=E2=80=99re <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDIvbXVzay1jYWxscy1pbmZhbW91cy10YWtlL=
+XRlc2xhLXByaXZhdGUtdHdlZXQtZW50aXJlbHktdHJ1dGhmdWw_Y21waWQ9QkJEMDIwMjIyX01P=
+TkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm0=
+9MjIwMjAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB9799bfef=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> still doing this huh</a>:</p><blockquote><p style=3D"margin: 16p=
+x 0;">Elon Musk says his 2018 tweet about planning to take Tesla Inc. priva=
+te was =E2=80=9Centirely truthful=E2=80=9D and that investors who claim the=
+ missive was fraudulent are wrong.</p><p style=3D"margin: 16px 0;">Lawyers =
+for the billionaire chief executive officer of the electric-car maker said =
+in a court filing Tuesday that Saudi Arabia=E2=80=99s sovereign wealth fund=
+ had indeed agreed to support his attempt to take the company private.</p><=
+p style=3D"margin: 16px 0;">=E2=80=9CElon Musk=E2=80=99s August 7, 2018 twe=
+et informing the public that he was considering taking Tesla private was en=
+tirely truthful,=E2=80=9D the CEO=E2=80=99s attorney Alex Spiro said in a h=
+eavily redacted filing. =E2=80=9CMr. Musk was considering taking Tesla priv=
+ate at $420 a share. Funding was secured. There was investor support.=E2=80=
+=9D</p></blockquote><p style=3D"margin: 16px 0;">What is specifically going=
+ on here is that some investors sued Musk for securities fraud for that twe=
+et, and they=C2=A0have asked a judge for partial summary judgment: They wan=
+t the judge to rule that the tweet was false, so that they can go to trial =
+on questions of damages, etc. Musk=E2=80=99s lawyers filed a brief opposing=
+ that motion and demanding that a jury get to decide if the tweet was false=
+. That seems reasonable.</p><p style=3D"margin: 16px 0;">The actual evidenc=
+e that Musk had lined up $70 billion of committed financing to take Tesla p=
+rivate is redacted in <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/26573728.257620/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXF=
+qV0hCRmRmeElVL3JhMHExcmVzMmEzUS92MA/607f07ceef4b8524a319a23cB411f36f5" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">the public version of the brief</a> and, uh, I don=E2=80=99t believe it=
+? The U.S. Securities and Exchange Commission <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDktMjgvbXVzay1zLXRlc2xhLWZ1bi1kb2VzLW5vdC=
+1hbXVzZS1zZWM_Y21waWQ9QkJEMDIwMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1d=
+G1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjAyJnV0bV9jYW1wYWlnbj1tb25leXN0=
+dWZm/607f07ceef4b8524a319a23cB772ecef5" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> went through all of this</=
+a> with Musk and Tesla back when it <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMTgtMTAtMDEvdGVzbGEtd2lsbC10cnktdG8tYmUtbW9yZS1ub3JtYWw_=
+Y21waWQ9QkJEMDIwMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5=
+ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07cee=
+f4b8524a319a23cBd4c9666f" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> fined him</a> $20 million for that tweet=
+, and Musk=E2=80=99s own public blogging <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMTgtMDgtMTMvZnVuZGluZy1mb3ItZWxvbi1tdXNrLXMtdGVzbGE=
+tYnV5b3V0LXdhc24tdC1zby1zZWN1cmU_Y21waWQ9QkJEMDIwMjIyX01PTkVZU1RVRkYmdXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjAyJnV0bV9jY=
+W1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBb65865b1" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> made it=
+ pretty clear</a> that (1) he never got committed funding from the Saudi fu=
+nd and (2) he never even <em>asked for</em>=C2=A0sufficient funding to <em>=
+actually take Tesla private.</em>=C2=A0Instead he had some sort of half-bak=
+ed notion that he would =E2=80=9Ctake Tesla private=E2=80=9D without buying=
+ most of the shares: Tesla would be =E2=80=9Cprivate=E2=80=9D instead of =
+=E2=80=9Cpublic,=E2=80=9D but have most of the same shareholders, so he wou=
+ld not need much cash. This was a weird and implausible idea but he=E2=80=
+=99s a weird and implausible guy and if he wants to argue it again to a jur=
+y they should probably let him.</p><table class=3D"header" width=3D"100%" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Play-to-earn</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Sure! Sure! <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMDQvdGluZGVyLXJvbGxzLW91dC1pbi1hcHAtY3V=
+ycmVuY3ktdG8tZW5jb3VyYWdlLXJlYWwtc3BlbmRpbmc_Y21waWQ9QkJEMDIwMjIyX01PTkVZU1=
+RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwM=
+jAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB638520c7" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> Sure</a>:</p><blockquote><p style=3D"margin: 16px 0;">Tinder is rollin=
+g out a virtual currency to encourage users to spend more time swiping, scr=
+olling and eventually spending real money on the most popular dating app in=
+ the U.S.</p><p style=3D"margin: 16px 0;">Initially available only in Austr=
+alia, the in-app =E2=80=9Ccoins=E2=80=9D can be acquired as users remain ac=
+tive on the platform or keep their profiles up to date. They can also be bo=
+ught with regular money. The coins can then be used to step up a user=E2=80=
+=99s profile by purchasing Tinder=E2=80=99s perks such as Super Likes or Bo=
+osts, which can help increase the chances of finding a good match. =E2=80=
+=A6</p><p style=3D"margin: 16px 0;">The in-app currency, which will be avai=
+lable later this month, is part of Tinder=E2=80=99s efforts to create a ric=
+her experience for people online, moving beyond just its traditional =E2=80=
+=9Cswipe right=E2=80=9D method for finding a romantic partner. Tinder, owne=
+d by Match Group Inc., expects the virtual currency to enable more opportun=
+ities to earn money from the app. Chief Financial Officer Gary Swidler said=
+ during the company=E2=80=99s second-quarter earnings call that Tinder user=
+s=E2=80=99 =E2=80=9Cpropensity to pay has improved significantly.=E2=80=9D<=
+/p><p style=3D"margin: 16px 0;">The company expects the coins =E2=80=9Cwill=
+ play an important role as the Tinder experience evolves and becomes more i=
+mmersive, because virtual currency is useful in the context of gifting digi=
+tal goods,=E2=80=9D Swidler said in a statement to Bloomberg.</p></blockquo=
+te><p style=3D"margin: 16px 0;">I am looking forward to next year when I wi=
+ll read stories about=C2=A0Tindercoin venture capitalists who <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDgtMjYvbW9uZXktc3R1ZmYtYW=
+NjdXNlZC1wb256aS1zY2hlbWVyLWtlcHQtYnVzeT9jbXBpZD1CQkQwMjAyMjJfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDIm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb58d2ab0" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+stake penniless young daters</a> who work 12-hour days updating their profi=
+les and give 50% of their Tindercoin earnings to the venture capitalists. W=
+hen I will read stories about how=C2=A0you can use your Tindercoins to buy =
+non-fungible tokens in the metaverse (a cartoon drawing of a hat that you c=
+an put on your Tinder profile), and about how nobody will date anyone who d=
+oes not have the right sort of NFT hat on their profile picture. When I wil=
+l read stories about how young people are not getting married anymore becau=
+se it would require them to stop updating their Tinder profiles and give up=
+ all their sweet sweet Tindercoins, which are now the main store of value i=
+n society. When I will read stories about how young people=C2=A0<em>are=C2=
+=A0</em>getting married but keep updating their Tinder profiles and earning=
+ Tindercoins, which they spend on =E2=80=A6=C2=A0staking penniless young da=
+ters? Cartoon hats? I don=E2=80=99t know. It is so rarely that you find you=
+rself at the dawn of a whole new way of organizing human society, except th=
+at now it is every day and it=E2=80=99s exhausting.</p><table class=3D"head=
+er" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloomberg=
+business.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjItMDItMDIvYW1jLXRhcHMtanVuay1ib25kLW1hcmtldC10by1yZWZpbmF=
+uY2UtaGlnaC1jb3N0LXBhbmRlbWljLWRlYnQ_Y21waWQ9QkJEMDIwMjIyX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjAyJnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB0ae4269e" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> AMC=
+</a> Taps Junk-Bond Market for $500 Million to Refinance High-Cost Pandemic=
+ Debt. Exxon, Chevron Hit Gushers of Cash as <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRp=
+Y2xlcy9leHhvbi1jaGV2cm9uLWhpdC1ndXNoZXJzLW9mLWNhc2gtYXMtYmlnLW9pbC1jb21wYW5=
+pZXMtbHVyZS1iYWNrLWludmVzdG9ycy0xMTY0MzcyMTA3OD9tb2Q9aXRwX3dzaiZydT15YWhvbw=
+/607f07ceef4b8524a319a23cB081ec987" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">Big Oil Companies</a> Lure Back=
+ Investors. Startup Investors <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26573728.257620/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9yZWQtaG9=
+0LXN0YXJ0dXAtbWFya2V0LXN0YXJ0cy10by1jaGlsbC1hcy1pbnZlc3RvcnMtdHVybi1vbi10ZW=
+NoLXN0b2Nrcy0xMTY0MzcxODc4Mz9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a3=
+19a23cB69f43657" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">Cut Valuations</a> Amid Tech Stock Rout, Dismal IP=
+Os.=C2=A0Ford to Spend Up to $20 Billion Reorganizing for <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDEvZm9yZC10by1zcGVuZC11cC10by=
+0yMC1iaWxsaW9uLXJlb3JnYW5pemluZy1mb3Itc2hpZnQtdG8tZXZzP2NtcGlkPUJCRDAyMDIyM=
+l9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTIyMDIwMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB666=
+40367" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Shift to Electric Cars</a>. U.S. National Debt Exceeds <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aHR0cH=
+M6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy91LXMtbmF0aW9uYWwtZGVidC1leGNlZWRzLTMwLXRya=
+WxsaW9uLWZvci1maXJzdC10aW1lLTExNjQzNzY2MjMxP21vZD1ocF9sZWFkX3BvczM/607f07ce=
+ef4b8524a319a23cBd4643696" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">$30 Trillion</a> for First Time. Fiat <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aHR0=
+cHM6Ly9mcmFua211Y2kuc3Vic3RhY2suY29tL3AvZmlhdC1oeXBlcmluZmxhdGlvbnMtaW4tdGh=
+lLWFnZS1vZg/607f07ceef4b8524a319a23cB8a30cfca" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">Hyperinflations</a> =
+in the Age of Crypto. Mapping the <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/26573728.257620/aHR0cHM6Ly9tYXhyZWFkLnN1YnN0YWNrLmNvbS9wL21=
+hcHBpbmctdGhlLWNlbGVicml0eS1uZnQtY29tcGxleA/607f07ceef4b8524a319a23cB32795b=
+87" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">celebrity NFT complex</a>. Ripple=E2=80=99s Legal Brawl With S=
+EC Could Help Settle <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/26573728.257620/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jcnlwdG8taW5kdXN0=
+cnktaG9wZXMtbG9vbWluZy1sZWdhbC1icmF3bC13aWxsLXRod2FydC1zZWNzLXJlZ3VsYXRpb24=
+tcHVzaC0xMTY0MzcyNDAwMj9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23=
+cB2b4dbc65" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">When Cryptocurrencies Are Securities</a>. Dolphins Owne=
+r Dangled $100,000 for <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjItMDItMDIvZG9scGhpbnMtb3duZXItZGFuZ2xlZC0xMDAtMDAwLXBlci10YW5rZWQtZ2FtZ=
+S1leC1jb2FjaC1zYXlzP2NtcGlkPUJCRDAyMDIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIwMiZ1dG1fY2FtcGFpZ249bW9=
+uZXlzdHVmZg/607f07ceef4b8524a319a23cB1adb55af" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> Losing Games</a>, E=
+x-Coach Says.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click=
+/26573728.257620/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hbWMtc3RvY2stanVtcH=
+Mtb24tcmV2ZW51ZS1ndWlkYW5jZS1mb3ItaG9saWRheS1xdWFydGVyLTExNjQzNzMwNjM5P21vZ=
+D1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cBf3e23df6" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"></a>=E2=
+=80=9CThere simply <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMj=
+ItMDItMDEvc3VwZXJ5YWNodC1zYWxlcy1qdW1wZWQtNzctbGFzdC15ZWFyLWFzLWludmVudG9ya=
+WVzLXNocmFuaz9jbXBpZD1CQkQwMjAyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0=
+bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDImdXRtX2NhbXBhaWduPW1vbmV5c3R=
+1ZmY/607f07ceef4b8524a319a23cB15d47f0b" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> aren=E2=80=99t enough yach=
+ts</a> available for purchase.=E2=80=9D=C2=A0Afghanistan's Taliban told the=
+y can't <a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.2=
+57620/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vd29ybGQvYXNpYS1wYWNpZmljL2FmZ2hhbmlzd=
+GFucy10YWxpYmFuLXRvbGQtdGhleS1jYW50LXRha2UtdGhlaXItZ3Vucy1mdW5mYWlyLTIwMjIt=
+MDItMDIvP3RhaWQ9NjFmYTUzY2Q3MGZkMDkwMDAxYTc5OWIwJnV0bV9jYW1wYWlnbj10cnVlQW5=
+0aGVtOitUcmVuZGluZytDb250ZW50JnV0bV9tZWRpdW09dHJ1ZUFudGhlbSZ1dG1fc291cmNlPX=
+R3aXR0ZXI/607f07ceef4b8524a319a23cBa2fea240" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">take their guns to the=
+ funfair</a>. Groundhog <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/26573728.257620/aHR0cHM6Ly93d3cubnByLm9yZy8yMDIyLzAyLzAxLzEwNzczNTIxN=
+TkvZ3JvdW5kaG9nLWRheS1taWxsdG93bi1tZWwtZGllcw/607f07ceef4b8524a319a23cBeae9=
+1736" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">dies</a>.</p><p style=3D"margin: 16px 0;"><span class=3D"news=
+-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuf=
+f=C2=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/26573728.257620/aHR0cDovL2xpbmsu=
+bWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGF=
+zaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBfe=
+4e7926" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">subscribe at this link</a>. Or =
+you can subscribe to Money Stuff and other great Bloomberg newsletters <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aHR0cH=
+M6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB801=
+b85a0" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">her=
+e</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1]=C2=A0Ass=
+ume the modest bonus is $100,000 in after-tax cash and you=C2=A0buy about 2=
+0,000 Bitcoins at about $5 each (a rough February 2012 price); at today=E2=
+=80=99s price that=E2=80=99s about $750 million. Here I am neglecting your =
+living expenses for those 10 years of video games; if you=E2=80=99d sold Bi=
+tcoin to cover them you would =E2=80=A6=C2=A0probably not be rich.</em></p>=
+<p style=3D"margin: 16px 0;"><em>[2] Adams=E2=80=99s <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/26573728.257620/aHR0cHM6Ly9lbi53aWtpcGVk=
+aWEub3JnL3dpa2kvTWF5b3Jfb2ZfTmV3X1lvcmtfQ2l0eQ/607f07ceef4b8524a319a23cBbe3=
+c03b4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">annual salary</a> is apparently $258,750, and the <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/26573728.257620/aHR0cHM6Ly9u=
+eXBvc3QuY29tLzIwMjIvMDEvMjQvbnljLW1heW9yLWFkYW1zLW1heS1oYXZlLWxvc3QtbW9yZS1=
+0aGFuLTFrLWNvbnZlcnRpbmctaGlzLXBheS10by1jcnlwdG8v/607f07ceef4b8524a319a23cB=
+096906b9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">New York Post reports</a> that he is paid biweekly and ge=
+ts about $5,900 after withholding. He converted his <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cxLm55Yy5nb=
+3Yvb2ZmaWNlLW9mLXRoZS1tYXlvci9uZXdzLzA0MS0yMi9tYXlvci1hZGFtcy1yZWNlaXZlLWZp=
+cnN0LXBheWNoZWNrLWNyeXB0b2N1cnJlbmN5/607f07ceef4b8524a319a23cBf1420aef" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">first paycheck</a> to crypto on Jan. 21, when Bitcoin prices opened ab=
+ove $40,000, meaning he could have bought something like 0.15 Bitcoins, tho=
+ugh he actually apparently split his money between Bitcoin and Ether.</em><=
+/p><p style=3D"margin: 16px 0;"><em>[3] We have talked about stock splits b=
+efore around here, for <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjEtMDEtMDYvdGVzbGEta2VwdC1idXN5LWluLTIwMjA_Y21waWQ9QkJEMDIwMjIyX01PT=
+kVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09=
+MjIwMjAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBfb1ac0dc"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Tesla Inc.</a> and=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMTQtMDQtMjUvd2hvLWNhcmVzLXdoYXQtYXBwbGUtcy1zdG9jay1wcmljZS=
+1pcz9jbXBpZD1CQkQwMjAyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY=
+2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f=
+07ceef4b8524a319a23cB9b0b12d6" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> twice</a> for <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/26573728.257620/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDctMzEvYXBwbGUtc3RvY2std2lsbC1nZX=
+QtY2hlYXBlcj9jbXBpZD1CQkQwMjAyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDImdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cB2322f487" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> Apple Inc.</a>, but they we=
+ren=E2=80=99t that interesting then either.</em></p><p style=3D"margin: 16p=
+x 0;"><em>[4] Possibly this history is inaccurate.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB58aa3166" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBb2d87859" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBd76e388f" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBd38305d5" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjU3MzcyOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MzEzNDgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI28dffc7d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26573728&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26831348&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2657372=
+8.257620/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBa09adeb1" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26573728.257620/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC32e2430c" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26573728.257620/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB378172ea" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26573728.257620/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB77b56db5" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB5=
+d7e2dd3" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26573728.257620/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBb=
+a27d995" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D265737=
+28&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26831348&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D265737=
+28&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26831348&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D265737=
+28&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26831348&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D265737=
+28&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26831348&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D265737=
+28&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26831348&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cftkf4.5is4/7f9c6104.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_2653788_1702215710.1643827072530--
+

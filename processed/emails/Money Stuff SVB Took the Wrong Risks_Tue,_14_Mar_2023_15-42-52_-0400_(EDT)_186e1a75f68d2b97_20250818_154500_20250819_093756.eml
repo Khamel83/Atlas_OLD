@@ -1,0 +1,2158 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp2517746rwb;
+        Tue, 14 Mar 2023 12:44:48 -0700 (PDT)
+X-Received: by 2002:a05:600c:1c9a:b0:3ed:2418:6cbe with SMTP id k26-20020a05600c1c9a00b003ed24186cbemr8693557wms.39.1678823088039;
+        Tue, 14 Mar 2023 12:44:48 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1678823088; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=vQRP4ZRO1lpiHGjAmhFoKDW5El8brkVN0SF3i3ycFXrZTS3uiGg1KeOhVPSIUUbtTN
+         xRCtOI6BwIlkGLhQ4weVBF+b6RTAK1KiFC7i4pSz4hiQY1vIghalp9L067xjgn/7PeJE
+         hI46SodIUqWHo+byfKBrBUQL10qjDoFszT+oYsHjZmIaXGAww8k9il8SN0CSMwFWD1jg
+         ubLQTxnY9W9NQmL3wWqmGszlubw2CKBEQqAPZXEgv9pOgM2xlt1PSqInaOVQU59LZY6L
+         pGeF5g6J0oZx0uX3jqGcDQPZ2//dNnunpdEx1igzjiHt2OBecu43PRPAuxG0GrSvdRNM
+         wUNQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=ghdLKFdAxaRnF9HjdP5H3yLsNjqDaLmRiXIjV3OVTlo=;
+        b=u5UlLHGbiy1GT/56f812iScq6BfIcDSeG/lfwqQ9d+Ua2X+VqO9HxuthGSj8uUKBx0
+         zBIteTkURd9gPg23bkvvENkrtYA+iaUz2J8OcOh4nb9aoCRS2fDPnEagnsl9ydc1spJ8
+         hzMU8kDsooezIKfDJSltx9tjobtC0KQWrE6h7ERDDMBPtzQI5liCUlsHgH/a5slXHLSe
+         CWEYPrsAf2SylW93RZveGOIhq6ivxqcxWOREIGKDtUw8SWU1atDXTjeSAV+4PROh4Zl4
+         kXfpWYKGgHi9xbxHm+u5LF7E5OG8O0QB6Whi1Sx4EzfgK2JWWBQg85ZA7RAwGSKlYaLo
+         Ujhg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UQV6dExr;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n3-20020adff083000000b002c709f79724sor1447672wro.54.2023.03.14.12.44.47
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 14 Mar 2023 12:44:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UQV6dExr;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1678823087;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=ghdLKFdAxaRnF9HjdP5H3yLsNjqDaLmRiXIjV3OVTlo=;
+        b=A8+HObq4V1bi95Nz9M87cjDFIykzcNg1AMX9Be9yNZuLSTSbwlrHdPp4XlojLvQmXF
+         feVF/M1ScrUbk2ODF9IKaZwDEmZnLJN2NwkrHk9a4gxVQzir4EgjnQrC/5ycYKVnwcmq
+         AO437o+wriSNh+yYN+TCV4kO1EwFHUpCOPjyAlQWANGm67mt/mID9rOR+2jBT9mbWBSQ
+         vdcIAyimAd3OrzF2m19gdPvG5BWxjBxEt2/ASCoaN1pGCqH4n5FiGYNP9Lm0SMHfoVK0
+         JdilRFQD/1fdaexu6uiPk99bk1DcqmdfCmRh2u3gNCzWSNR2GVmwWDxNq5nVASO2bR93
+         6dMw==
+X-Gm-Message-State: AO0yUKW34rzEajhqqKjpIaj65E6ibcCd+UOGKzloEgaYmaQzO2Htaizs
+	kt1VKu+Sl7eaXHDJVF7/gt0/mYWvdjN9fXQRRe2RJpuI+f64pRgV6w==
+X-Received: by 2002:adf:dfd2:0:b0:2c7:1745:77ec with SMTP id q18-20020adfdfd2000000b002c7174577ecmr61623wrn.2.1678823087539;
+        Tue, 14 Mar 2023 12:44:47 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5412:0:0:0:0:0 with SMTP id g18csp1839769wrv;
+        Tue, 14 Mar 2023 12:44:44 -0700 (PDT)
+X-Received: by 2002:a5d:452d:0:b0:2cf:e7d5:8fcb with SMTP id j13-20020a5d452d000000b002cfe7d58fcbmr153969wra.49.1678823084428;
+        Tue, 14 Mar 2023 12:44:44 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1678823084; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=MuVmTHtBOthrUcin0QbEsLHWZlAV47CZD6+X5S5SlaTa5p+8Z8hWpNZ3cPBdgSXj/7
+         fMzxv9icZoEPQpWGsc8Kqf0MzvXJlcnu1D88hvq2O2GLq5Bk0djbixDWCd8LO2U7mmm7
+         d3XQXowlCPTU/adrO8YBURvSRbEYMcfQrG++bCPypuqsscCO5eHZRvShQUh891WdnUIb
+         fviPn4arSgIRlZsEAj0rAEYrbni4lhW04+GbbuZPA/fQHa7LCR3Ne9LeW7Ndl0291tb5
+         RRyIkIVyMw12L3CtsNQx6oKd/tWNuyamVBiXIM2dW2v/lr3lGocNI0Q1eOG/e7HVjOfs
+         e56w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=ghdLKFdAxaRnF9HjdP5H3yLsNjqDaLmRiXIjV3OVTlo=;
+        b=m9UvMc7fvc34ECje2zAS21WAKjDSHUH97p8mOgp5FOMOk3iIU9Z8iHfRrc3Uzr3koM
+         WPCEKkPWdV3OVHeGgjE5pnQ7CdQGCVUk4dHPDT1Bvori2WHRc8pvqNvYXtBDOhlZMKlf
+         aLJgl/te+fABxsxry30KQINK6V/yzWDI9zlLvfS/Pu0IN2bFR1nk66DaYpPaJlmAQpc1
+         X9SlUYPV8kqS9Ec69sdySyLYSsXc7bBbK2CU0C0EWh+PpAxPZXUHBuP6SP9mtGdIhMyc
+         AtFghHBHUqi3xB4nXwpZ96Jk1aolw9ggRSVyusbM32ipoTpnPkA+PsibC5VO4yW0l7L3
+         F13g==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UQV6dExr;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230314154252.30835463.258425@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230314154252.30835463.258425@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230314154252.30835463.258425@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id v8-20020a5d6108000000b002c552f13713sor1523785wrt.15.2023.03.14.12.44.44
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 14 Mar 2023 12:44:44 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230314154252.30835463.258425@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set8eHE5jTcvZlKOmNSuY+aLaN+O7pzRr8NXqa7AfTqxkpS/T8LN7UCF7OoGXsa/dUnmSzzGu3DiToB+xBKROXwTB0/lDzco=
+X-Received: by 2002:adf:fe4a:0:b0:2cf:e702:c01d with SMTP id m10-20020adffe4a000000b002cfe702c01dmr177614wrs.23.1678823084181;
+        Tue, 14 Mar 2023 12:44:44 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1678823084; cv=none;
+        d=google.com; s=arc-20160816;
+        b=fJCE977NL5gBgWib2UadaHSh/yjCe5caAnaiMYwyZqsgiUbxCU3KXWBy55S+MVuxN8
+         +b1EEkmjFyJtLmYFj5zhBRZc46/9QMl1l6rXl/7HzZepXF9Q1BtNzCdgYvniSwLR1Jl0
+         ixlDvHmeBx3zsP5HTkSewsROVj2h7kpfg3dmT1OtQW7yA2rO7XXLNeLyWX9G/g3IEU3x
+         iVL1CgmCyxw+X/5R2el1tL5r/kjl+u5OVUxmFcXysePrPzmyBi4CfdC6MUu2ckMh50OQ
+         NpAjJmOeutcSo7y+bvhi27Meng2LYJaLMHt3FyuJuPOaXGcPCrisTmS7VO5gBk4ZIsED
+         /AzA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=ghdLKFdAxaRnF9HjdP5H3yLsNjqDaLmRiXIjV3OVTlo=;
+        b=cKJt4jECR9OqnbXKfETJQkyGY2mCqhojipxpf6Rq101lEFEnYq+tPbIGWPiuyynSTw
+         BBNP7NXI2S7Uh/DSjYpOfYylJQnTFq92K307PDgL/lVbHd2pS//UR6/H/j0Ed2e+vW0J
+         eUuukkK0eMF1d7T6sNY+Mm8TedGOhCCAQ6HFJ6ysr1tq7+Tn52w44UrZ42v5v+NeYD7s
+         f8xUtwgSOxRUNws/bLwK87lHn4xNh4hNPn2sO3iDlLFqHr+w0sqBmS5D09JIzISRWJrJ
+         RjLadk0vvK64USEDFm8T8Hrp/QdweWD9QSpmsl/YluHMCNaBuCdGvDgEmzy3pBl4QCOi
+         vgBQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UQV6dExr;
+       spf=pass (google.com: domain of delivery_20230314154252.30835463.258425@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230314154252.30835463.258425@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230314154252.30835463.258425@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id bj27-20020a0560001e1b00b002c6ec127706si171661wrb.0.2023.03.14.12.44.43
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 14 Mar 2023 12:44:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230314154252.30835463.258425@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=q9cloyZVyGos0RUmpE+4uvr/Pr+cuATwhFpxwxUTKIc=;
+ b=UQV6dExrmy8xr112x/IjI0pvnzH7a3RFuk4bKW7IArZhrg1n/ahSY1PidnuQSw3Db/MQh3ElOow+
+   vIt37z8S/hqSN/7uPzAOcj/VP9dSk5oBQfF96S96frJIEeVkYNcvCaRb1/fC7wpPhKfqclageo8g
+   WmqHj3ck9bkmXQYS6dA=
+Received: from njmta-20.sailthru.com (173.228.155.20) by pmta29.sailthru.com id h237ak2sd4s2 for <bloomberg@khamel.com>; Tue, 14 Mar 2023 15:44:42 -0400 (envelope-from <delivery_20230314154252.30835463.258425@mx.sailthru.com>)
+Received: from nj1-heypurple.flt (172.18.20.12) by njmta-20.sailthru.com id h237ai1qqbsp for <bloomberg@khamel.com>; Tue, 14 Mar 2023 15:42:52 -0400 (envelope-from <delivery_20230314154252.30835463.258425@mx.sailthru.com>)
+Date: Tue, 14 Mar 2023 15:42:52 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230314154252.30835463.258425@sailthru.com>
+Subject: Money Stuff: SVB Took the Wrong Risks
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9606926_467919765.1678822972530"
+Precedence: bulk
+X-Feedback-ID: 6358:30835463:campaign:sailthru
+X-TM-ID: 20230314154252.30835463.258425
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-heypurple.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cicwsn.5jeh/51a1da0d
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cicwsn.5jeh/51a1da0d>, <mailto:unsubscribe_20230314154252.30835463.258425@mx.sailthru.com>
+X-rpcampaign: stjko30835463
+
+------=_Part_9606926_467919765.1678822972530
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        I don=E2=80=99t think that anything interesting turns on whether or=
+ not this weekend=E2=80=99s resolution of Silicon Valley Bank was a =E2=80=
+=9Cbailout,=E2=80=9D so let=E2=80=99s n
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Bailouts etc.
+   =20
+ =20
+
+I don=E2=80=99t think that anything interesting turns on whether or not thi=
+s weekend=E2=80=99s resolution of=C2=A0Silicon Valley Bank was a =E2=80=9Cb=
+ailout,=E2=80=9D so let=E2=80=99s not discuss that.
+  [1]
+=C2=A0But when people talk about bank bailouts, what they often mean to tal=
+k about is moral hazard, the idea that if the government saves=C2=A0people =
+from the consequences of bad bank behavior, that will encourage more bad ba=
+nk behavior in the future. And that seems worth talking about.
+It is, I think, fair to say that Silicon Valley Bank took some bad risks, a=
+nd that=E2=80=99s why it ended up failing. It is a bit harder to say exactl=
+y what SVB=E2=80=99s bad decision was. A simple answer is =E2=80=9Cit made =
+a huge bet on interest rates staying low, which most prudent banks would no=
+t have done, and it blew up.=E2=80=9D Yesterday   Bloomberg reported that =
+=E2=80=9Cin late 2020, the firm=E2=80=99s asset-liability committee receive=
+d an internal recommendation to buy shorter-term bonds as more deposits flo=
+wed in,=E2=80=9D to reduce its duration risk, but that would have reduced e=
+arnings, and so =E2=80=9Cexecutives balked=E2=80=9D and =E2=80=9Ccontinued =
+to plow cash into higher-yielding assets.=E2=80=9D They took imprudent dura=
+tion risk, ignored objections,=C2=A0and it blew them up.
+I think that answer is fine. A   more complicated answer would be that they=
+ took duration risk, as banks generally do, but their real sin was having a=
+ concentrated set of=C2=A0depositors=C2=A0who were uninsured, quick-moving,=
+ well-informed, herd-like and very rates-sensitive in their own businesses:=
+ If all of your money is demand deposits from tech startups who will withdr=
+aw it at the slightest sign of trouble and/or higher rates, you should not =
+be investing it in long-term bonds. This is a more subtle answer than =E2=
+=80=9Cjust hedge your rate risk bro,=E2=80=9D and it is arguably more=C2=A0=
+understandable=C2=A0that SVB=E2=80=99s executives would get it wrong,
+  [2]
+=C2=A0but in any case it certainly ended up being a bad risk.
+So if SVB was=C2=A0rewarded=C2=A0for taking these risks that blew it up, th=
+at would be bad; that would be =E2=80=9Cmoral hazard.=E2=80=9D But the way =
+the Silicon Valley Bank resolution worked is:
+=09SVB was seized by the Federal Deposit Insurance Corp. on Friday, and by =
+Sunday night the FDIC and other regulators announced that all of SVB=E2=80=
+=99s depositors =E2=80=94=C2=A0including those who were above the FDIC=E2=
+=80=99s usual $250,000 insurance limit =E2=80=94=C2=A0would be able to get =
+all of their money back on Monday. So the depositors were fully rescued.=09=
+The shareholders, bondholders and executives were not: The executives were =
+removed; the shares, which closed at $267.83 last Wednesday, are almost cer=
+tainly worth zero
+  [3]
+; the bonds are also   probably impaired=C2=A0and possibly a zero.
+
+What lessons will rational actors take from this? I mean:
+=09If you are a depositor =E2=80=94=C2=A0in particular, a business that nee=
+ds more than $250,000 of cash to operate efficiently =E2=80=94=C2=A0you sho=
+uld be much less concerned about risk-taking by your bank, because if your =
+bank fails the government will probably rescue you.=09If you are a bank exe=
+cutive or shareholder or probably bondholder, you should be=C2=A0more=C2=A0=
+concerned about risk-taking by your bank, because you have seen that it can=
+ lead to executives and shareholders and bondholders getting zeroed, and th=
+at the government won=E2=80=99t rescue you if that happens.
+
+And so the question is: Is that moral hazard? Well, not for shareholders an=
+d executives and bondholders. I suppose it is moral hazard for depositors, =
+and a resolution of SVB that left depositors with losses would force deposi=
+tors to pay closer attention to the risks their banks are taking. (Cliff As=
+ness  on Twitter: =E2=80=9CThe moral hazard here is we=E2=80=99ve greatly r=
+educed the incentive for depositors of any size now =E2=80=A6 to actually g=
+ive a moment=E2=80=99s thought to the riskiness of where they=E2=80=99re pu=
+tting their money.=E2=80=9D)
+But I think the modern bank-regulatory view is=C2=A0that=C2=A0the point of =
+a bank deposit is that you shouldn=E2=80=99t have to worry about it, and th=
+at it is a=C2=A0failure=C2=A0of bank regulation if depositors of any size h=
+ave =E2=80=9Cto actually give a moment=E2=80=99s thought to the riskiness=
+=E2=80=9D of a bank. (Bank deposits are meant to be =E2=80=9Cinformation in=
+sensitive.=E2=80=9D)=C2=A0There are vast areas of life where we don=E2=80=
+=99t worry about moral hazard. We don=E2=80=99t say things like =E2=80=9Cth=
+e moral hazard of food safety regulation is that we=E2=80=99ve greatly redu=
+ced the incentive for consumers to give a moment=E2=80=99s thought to the r=
+iskiness of their supermarket=E2=80=99s supply chain.=E2=80=9D That=E2=80=
+=99s not a thing you=E2=80=99re supposed to think about!=C2=A0
+Similarly the riskiness of a bank=E2=80=99s asset/liability mix is absolute=
+ly a thing that lots of people =E2=80=94=C2=A0bank executives, bank directo=
+rs, bank regulators, bank shareholders, bank derivatives counterparties =E2=
+=80=94=C2=A0are supposed to think about.
+  [4]
+=C2=A0But not, generally, in 2023, depositors. Opening a bank account, for =
+an individual human but also for a business that needs more than $250,000 i=
+n cash to conduct business efficiently, is not meant to be a high-stakes in=
+vestment decision that requires extensive due diligence.
+  [5]
+=C2=A0It=E2=80=99s a bank account! It=E2=80=99s just supposed to work.
+  [6]
+
+This is not a universal view. In the olden days, bank depositors=C2=A0did=
+=C2=A0think more about their bank=E2=80=99s creditworthiness, and I suppose=
+ there is a market-discipline=C2=A0argument that, like, if depositors monit=
+or creditworthiness then only the good banks will attract deposits and so t=
+he bad banks won=E2=80=99t be able to grow and take risks. But in practice =
+I do not think anyone would much like a market where depositors evaluate ba=
+nks on their creditworthiness. For one thing, doesn=E2=80=99t it sound exha=
+usting? Don=E2=80=99t you have better things to do? For another thing, SVB=
+=E2=80=99s depositors kind of=C2=A0did=C2=A0that: They woke up one day, not=
+iced that SVB=E2=80=99s balance sheet was bad, and withdrew all their money=
+ at once, leading to a banking crisis. Why do we want more of that? For a t=
+hird thing, the likely outcome of a rule like=C2=A0=E2=80=9Conly deposit mo=
+ney in banks you are sure won=E2=80=99t fail=E2=80=9D would probably be to =
+drive more deposits to giant too-big-to-fail banks, which is maybe a fine o=
+utcome economically but not likely to be popular.
+Still, there really is a moral hazard in banking and in information-insensi=
+tive deposits. Schematically, a bank consists of shareholders taking $10 of=
+ their own money and $90 of depositors=E2=80=99 money and making some bets =
+(home loans, business loans, bond investments, whatever) with that combined=
+ pile of money. If the bets pay off, the shareholders get the upside (the d=
+epositors just get their deposits back). If the bets lose, the shareholders=
+ lose money (the depositors get their money back before shareholders get an=
+ything). If the bets lose really big =E2=80=94=C2=A0if the bank bets $100 a=
+nd ends up with $50 =E2=80=94=C2=A0then the shareholders lose all their mon=
+ey, but=C2=A0the depositors get their money back: If the bank is left with =
+only $50, the government gives the depositors the other $40.
+If you are a rational bank shareholder (or, more to the point, a bank=C2=A0=
+executive=C2=A0who owns shares and gets paid for increasing shareholder val=
+ue), this structure encourages you to take risk. If you bet $100 on a coin =
+flip and you win, the bank has $200, and the shareholders keep $110 of that=
+, a 1,000% return. If you lose, the bank has $0, and the shareholders lose =
+$10 of that, a -100% return. The expected value of this bet, for the shareh=
+olders, is positive. The expected value for the depositors is neutral: Eith=
+er way they get their $90 back, either from the bank or from the government=
+. The expected value for the government is negative: If the bank wins, the =
+government gets nothing; if the bank loses, the government=C2=A0pays the de=
+positors $90. But the shareholders =E2=80=94=C2=A0really the executives =E2=
+=80=94=C2=A0are the ones who get to decide what bets to take.
+(The finance-y way to say this is that the shareholders have a call=C2=A0op=
+tion on the bank=E2=80=99s assets, struck at the face value of its deposits=
+. An option=E2=80=99s value increases with volatility, so the shareholders =
+should want the assets to be volatile. This is roughly true of every compan=
+y =E2=80=94=C2=A0the shareholders always have an option on the company=E2=
+=80=99s assets struck at the face value of its debts =E2=80=94=C2=A0but (1)=
+ most companies are way less leveraged than banks, so the option is less at=
+-the-money and (2) at most companies the option is=C2=A0*priced*, because t=
+he debt comes from bondholders who are information-sensitive and won=E2=80=
+=99t give the shareholders cheap debt if they=E2=80=99re taking wild risks.=
+ At banks, because of the (reasonable) social desire to make deposits infor=
+mation-insensitive, the deposits are cheap and the option is not priced.)
+This is all true of all banking, to the extent that deposit insurance and l=
+ender-of-last-resort mechanisms exist, but certainly it is=C2=A0more=C2=A0t=
+rue when the government expands its protection of depositors. But it=C2=A0i=
+s=C2=A0true of all banking, which is why there is so much bank regulation. =
+Because the=C2=A0 standard solution to this problem is regulation and gover=
+nment supervision: The government says to banks =E2=80=9Clook, we all under=
+stand that you are effectively making bets with government money, so we are=
+ going to keep a close eye on the bets you are making to prevent you from l=
+osing our money.=E2=80=9D
+The modern view that bank deposits should be safe and information-insensiti=
+ve kind of goes along with a modern view that=C2=A0banks are public-private=
+ partnerships, that a bank is sort of a business partner with the governmen=
+t in taking deposits and providing credit, and that the way the partnership=
+ works is that the bank=E2=80=99s executives make the day-to-day decisions =
+but the government has a lot of input into and oversight over those decisio=
+ns.
+On that view, you should probably draw two related=C2=A0conclusions from SV=
+B:
+=09Regulators and supervisors probably should have stopped SVB from taking =
+dumb risks, they missed something, and changes should be made so they don=
+=E2=80=99t miss those same things again.=09The regulators=E2=80=99=C2=A0res=
+ponse=C2=A0to SVB=C2=A0=E2=80=94=C2=A0guaranteeing all depositors, but also=
+ the Fed=E2=80=99s Bank Term Funding Program to finance other banks=E2=80=
+=99 bond portfolios at par
+  [7]
+=C2=A0=E2=80=94 increases the value of=C2=A0other=C2=A0banks=E2=80=99 optio=
+nality, which encourages=C2=A0them=C2=A0to take more risk, because their de=
+posits are safer. (I suppose this is the real moral hazard concern.) And so=
+ there should be more regulatory and supervisory changes to tamp down the o=
+ther banks=E2=80=99 risks.
+
+The first conclusion seems sort of obvious. If the goal is to make it so de=
+positors don=E2=80=99t have to think about the risks banks are taking with =
+their money, somebody else =E2=80=94=C2=A0the regulators =E2=80=94=C2=A0hav=
+e to think about those risks instead. I am not going to sit here and tell y=
+ou what SVB=E2=80=99s regulators and supervisors=C2=A0should=C2=A0have done=
+ to prevent its meltdown last week, though I=E2=80=99m sure other people wi=
+ll. But a few points:
+=09=E2=80=9CThe Federal Reserve said Monday it is   launching an internal r=
+eview of its supervision and regulation of Silicon Valley Bank after its fa=
+ilure last week.=E2=80=9D The report will be released publicly by May 1. So=
+ the Fed=C2=A0will eventually tell you what it should have done to prevent =
+SVB=E2=80=99s meltdown.=09Bank regulators spend a lot of time thinking abou=
+t=C2=A0liquidity=C2=A0requirements for banks. The idea of liquidity rules i=
+s that you think about how much money people might want to take out of the =
+bank at once, and you try to make sure the bank has enough money to give th=
+em. Modern banking regulation has rules like the liquidity coverage ratio (=
+LCR) and net stable funding ratio (NSFR) to try to measure and regulate tha=
+t risk, but =E2=80=94=C2=A0as Dan Davies  wrote in the Financial Times this=
+ weekend =E2=80=94=C2=A0the US decided not to apply those rules to even ver=
+y large regional banks like SVB. I am not sure how much that mattered =E2=
+=80=94=C2=A0most banks don=E2=80=99t have enough liquidity to cover all of =
+their deposits leaving at once, and SVB   might have met=C2=A0the requireme=
+nts=C2=A0=E2=80=94 but it=E2=80=99s something regulators will consider. (Ra=
+ising=C2=A0the liquidity requirements, to account for the speed of modern b=
+ank runs, could also be on the table.)=09More generally, US financial regul=
+ation tends to draw a sharp distinction between =E2=80=9Csystemically impor=
+tant=E2=80=9D banks (like JPMorgan Chase & Co.) and just regular banks like=
+ SVB. The systemically important banks are regulated and supervised much mo=
+re strictly than the regular banks, and in recent years the difference has =
+increased as   some rules were rolled back for regular banks.=C2=A0This dis=
+tinction has always struck me as sort of incoherent, because =E2=80=9Csyste=
+mic risk=E2=80=9D is not really a property of=C2=A0one bank=C2=A0but of=C2=
+=A0the system. When SVB collapsed, its venture capitalist depositors clamor=
+ed for a rescue by threatening systemic risk, by arguing that allowing them=
+ to lose money would lead to broader panic across lots of banks: SVB wasn=
+=E2=80=99t that big, but an uncontrolled failure at SVB would lead to many =
+other failures at similar banks. They might well have been right! But  the =
+obvious conclusion to draw from this=C2=A0is that biggish regional banks li=
+ke SVB, at least, need to be subject to stricter regulations =E2=80=94=C2=
+=A0the sorts of rules that apply=C2=A0to the big banks =E2=80=94 because th=
+ey are in fact systemically important. Not due to their individual size, bu=
+t due to the (well known!) fact that a run on one bank can easily lead to r=
+uns on other banks.=09Existing regulations do not seem to be particularly a=
+ttuned to the risk of=C2=A0bad depositors. Bank regulators have historicall=
+y given some thought to the question =E2=80=9Cwhat sorts of deposits are mo=
+re likely to put a bank at risk by running all at once,=E2=80=9D and they t=
+hink about  the risks of categories like brokered deposits, insured retail =
+deposits, uninsured retail deposits, operational business deposits, etc. Bu=
+t last month US banking regulators put out a =E2=80=9CJoint Statement on Li=
+quidity Risks to Banking Organizations Resulting from Crypto-Asset=09Market=
+ Vulnerabilities=E2=80=9D saying, in essence, that crypto companies are a p=
+articularly risky class of depositors and banks should watch out for them. =
+I   have argued that venture-backed tech firms are a similarly risky class =
+of depositors, or at least they were for SVB. =E2=80=9CBanking organization=
+s are neither prohibited nor discouraged from providing banking services to=
+ customers of any specific class or type, as permitted by law or regulation=
+,=E2=80=9D the regulators  hastened to add. But I wonder=C2=A0if future ban=
+king supervision will be more sensitive to things like industry diversifica=
+tion among depositors, or the volatility of depositors=E2=80=99 industries.=
+ If all of your depositors are in the same line of business, and if they ar=
+e sometimes flush with cash and sometimes broke, then your bank is riskier.
+
+The second conclusion=C2=A0is =E2=80=A6=C2=A0well, one way to put it is tha=
+t=C2=A0the post-SVB actions have made bank deposits=C2=A0a lot safer, which=
+ is a nice windfall for the shareholders of every=C2=A0other=C2=A0regional =
+bank that has a lot of losses on held-to-maturity securities. And so in exc=
+hange for that windfall the regulators should=C2=A0regulate those banks muc=
+h more strictly, which will make them=C2=A0actually=C2=A0safer (and reduce =
+the government=E2=80=99s exposure to their risks), but will also reduce the=
+ir profitability.
+Another way to put it is:
+=09As a matter of moral hazard, rescuing SVB=E2=80=99s depositors is fine;=
+=09As a matter of moral hazard, zeroing SVB=E2=80=99s shareholders is good;=
+ but=09As a matter of moral hazard, the right thing to do now is to=C2=A0pu=
+nish other risky banks=E2=80=99 shareholders.
+
+This is tricky! You are sort of =E2=80=A6=C2=A0prospectively punishing thos=
+e shareholders? Punishing them in lieu of=C2=A0letting their banks fail?
+What does it mean in practice?=C2=A0Mainly=C2=A0it means what we talked abo=
+ut above, more strictly regulating risk-taking at regional banks to make su=
+re that they don=E2=80=99t cause any systemic problems. Make regional banks=
+ do things =E2=80=94=C2=A0raise more capital, hold more short-term safe liq=
+uid instruments, turn down risky borrowers and depositors =E2=80=94=C2=A0th=
+at lower their risk, but also lower their expected returns on capital.=C2=
+=A0
+But we   talked yesterday about the failure of Signature Bank, which is a s=
+trange sort of bank failure. It did not particularly seem to be insolvent o=
+r experiencing an ongoing bank run on Sunday, but it was seized by the gove=
+rnment anyway.=C2=A0Bloomberg=E2=80=99s   Max Reyes reports today:
+
+Signature Bank was seized by the government Sunday after regulators lost fa=
+ith in management, according to New York officials.
+=E2=80=9CThe bank failed to provide reliable and consistent data, creating =
+a significant crisis of confidence in the bank=E2=80=99s leadership,=E2=80=
+=9D a spokesperson for the state=E2=80=99s Department of Financial Services=
+ said in an emailed statement Tuesday. =E2=80=9CThe decision to take posses=
+sion of the bank and hand it over to the FDIC was based on the current stat=
+us of the bank and its ability to do business in a safe and sound manner on=
+ Monday.=E2=80=9D
+
+They can just do that! What   I said yesterday was:
+
+Every=C2=A0other=C2=A0bank=E2=80=99s=C2=A0shareholders and bondholders and =
+executives will benefit from those measures [that the Fed and FDIC took to =
+rescue SVB=E2=80=99s depositors]. If you are an uninsured depositor at a me=
+dium-sized bank that made some dumb rates bets, there is no reason to move =
+your money now; the Fed has made it clear that it will support that bank. T=
+his (probably!)=C2=A0takes run risk off the table for those banks, making t=
+hem less likely to fail, making their stocks and bonds more valuable than t=
+hey would be if the Fed hadn=E2=80=99t acted to limit contagion. (In actual=
+ fact many bank stocks=C2=A0are=C2=A0down big today, though presumably they=
+=E2=80=99d be down=C2=A0more=C2=A0without these measures.) The rescue of Si=
+licon Valley Bank=E2=80=99s depositors comes too late for Silicon Valley Ba=
+nk=E2=80=99s shareholders, but it=E2=80=99s good for every similar bank=E2=
+=80=99s shareholders.
+As a matter of rough justice you could imagine the Fed looking at the=C2=A0=
+most=C2=A0similar bank =E2=80=94=C2=A0arguably Signature, with its huge pro=
+portion of uninsured deposits and its exposure to fast-money crypto/tech cu=
+stomers =E2=80=94=C2=A0and saying =E2=80=9Cno, not you,=C2=A0your=C2=A0shar=
+eholders are getting toasted.=E2=80=9D
+
+The way for bank regulators to reduce the moral-hazard impact of the SVB re=
+scue is to take some other banks=E2=80=99 shareholders out and shoot them.
+Is that what happened?=C2=A0I don=E2=80=99t know! It=E2=80=99s possible tha=
+t Signature was shut due to a traditional bank run. Reyes reports that =E2=
+=80=9CSignature lost 20% of its deposits on Friday=E2=80=9D; Signature (and=
+ its board member Barney Frank) said that its outflows had stabilized and t=
+hat it had enough cash, but the New York Department of Financial Services a=
+pparently disputes=C2=A0that. But DFS leads with =E2=80=9Ca significant cri=
+sis of confidence in the bank=E2=80=99s leadership.=E2=80=9D If you are a b=
+ank regulator and you think that a bank is (1) poorly managed and taking ba=
+d risks but also (2) not going to disappear because you went and guaranteed=
+ all the deposits,=C2=A0you can make it disappear anyway, and arguably you =
+should.=C2=A0
+One other point on this subject. If you are a banking regulator and you thi=
+nk that the regional banks have taken too much risk and are now undercapita=
+lized given their unrealized losses on=C2=A0held-to-maturity securities, th=
+en the=C2=A0most obvious next thing to do =E2=80=94=C2=A0after the weekend=
+=E2=80=99s actions of promising to finance those securities at par, but bef=
+ore rewriting any regulations =E2=80=94=C2=A0is to make those banks raise c=
+apital to fix their balance sheets. This is good simply as a matter of soun=
+d banking: You don=E2=80=99t want your banks to be undercapitalized, so if =
+they are =E2=80=94=C2=A0on whatever accounting measure you prefer =E2=80=94=
+=C2=A0then they should get more capital. It is also good as a matter of pun=
+ishing shareholders to avoid moral hazard: Bank stocks have been absolutely=
+ wrecked, and making banks raise more equity now at these prices will be a =
+painful dilution for existing shareholders.
+On the other hand, it=E2=80=99s tricky: Silicon Valley Bank did (more or le=
+ss) the responsible thing last week by trying to raise equity to shore up i=
+ts balance sheet, and=C2=A0that=E2=80=99s what brought it down, as people  =
+saw the equity raise and panicked. I doubt anyone wants to be the=C2=A0next=
+=C2=A0regional bank to go out with a marketed stock offering. And a bank re=
+gulatory climate that is too punitive for shareholders will make it hard fo=
+r banks to sell more stock, which is the main thing they should be doing.
+I guess that is the tension now. Bank regulators want depositors to feel li=
+ke they are not taking a risk by keeping their money in the bank. They want=
+ the banks and their shareholders not to take risks with those depositors=
+=E2=80=99=C2=A0money. But they do still want shareholders to take the risk =
+of owning bank stock.=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Banking as mystery
+   =20
+ =20
+
+I   wrote yesterday about the Fed=E2=80=99s Bank Term Funding Program. Bank=
+s buy long-term bonds, mark them =E2=80=9Cheld to maturity,=E2=80=9D and th=
+en when those bonds lose value the banks ignore it for accounting purposes.=
+ But that only goes so far: The banks disclose the losses in footnotes to t=
+heir financial statements, people sometimes notice, and when the losses get=
+ too big there are runs. The BTFP is a way for the=C2=A0Fed=C2=A0to take ov=
+er the job of ignoring those losses instead: The Fed promised to lend again=
+st those bonds at 100 cents on the dollar, as though they hadn=E2=80=99t lo=
+st value. The Fed is not subject to bank runs. The Fed can=C2=A0credibly=C2=
+=A0ignore those losses; banks can only=C2=A0mostly=C2=A0ignore them.
+I also wrote about Tether:
+Another possible understanding, though, is that banking requires mystery! M=
+y point, in the first section of this column, was that too much transparenc=
+y can=C2=A0add=C2=A0to the fragility of a bank, that the Fed is providing a=
+ valuable service by ignoring banks=E2=80=99 mark-to-market losses.
+Byrne Hobart, whose Diff newsletter may or may not=C2=A0have played a role =
+in bringing=C2=A0down Silicon Valley Bank,=C2=A0wrote today that =E2=80=9Ct=
+he frequency of=C2=A0Diff/Money Stuff=C2=A0cross-linking is a good ad hoc m=
+easure of financial conditions.=E2=80=9D He quotes my point about Tether an=
+d goes on:
+This post by Interfluidity=C2=A0is a wonderful exposition on the theme, arg=
+uing that financial systems overcome the collective action problem that the=
+re just aren't that many projects with an attractive level of risk and rewa=
+rd to the person doing them, and that by disguising some of the risk, we ca=
+n increase the positive externalities. This is an extreme view.
+Yes! I=C2=A0think that post (=E2=80=9CWhy is finance so complex?=E2=80=9D) =
+from Steve Randy Waldman at Interfluidity is a classic, I cite it often, an=
+d it was what I had in mind as I was writing yesterday. Waldman describes b=
+anking as, broadly speaking, an opacity mechanism for credit, a way for soc=
+iety to take a lot of credit risk without the people taking that risk quite=
+ knowing that that=E2=80=99s what they=E2=80=99re doing. My point yesterday=
+ was that it is also an opacity mechanism for interest rates, a way for soc=
+iety to borrow short and lend long. Sometimes you need to bulk up the opaci=
+ty though.
+In other news, here is =E2=80=9CMonetary Tightening and U.S. Bank Fragility=
+ in 2023: Mark-to-Market Losses and Uninsured Depositor Runs?=E2=80=9D by=
+=C2=A0Erica Xuewei Jiang,=C2=A0Gregor Matvos, Tomasz Piskorski and Amit Ser=
+u, dated yesterday:
+We analyze U.S. banks=E2=80=99 asset exposure to a recent rise in the inter=
+est rates with implications for financial stability. The U.S. banking syste=
+m=E2=80=99s market value of assets is $2 trillion lower than suggested by t=
+heir book value of assets accounting for loan portfolios held to maturity. =
+Marked-to-market bank assets have declined by an average of 10% across all =
+the banks, with the bottom 5th percentile experiencing a decline of 20%. We=
+ illustrate that uninsured leverage (i.e., Uninsured Debt/Assets) is the ke=
+y to understanding whether these losses would lead to some banks in the U.S=
+. becoming insolvent-- unlike insured depositors, uninsured depositors stan=
+d to lose a part of their deposits if the bank fails, potentially giving th=
+em incentives to run. A case study of the recently failed Silicon Valley Ba=
+nk (SVB) is illustrative. 10 percent of banks have larger unrecognized loss=
+es than those at SVB. Nor was SVB the worst capitalized bank, with 10 perce=
+nt of banks having lower capitalization than SVB. On the other hand, SVB ha=
+d a disproportional share of uninsured funding: only 1 percent of banks had=
+ higher uninsured leverage. Combined, losses and uninsured leverage provide=
+ incentives for an SVB uninsured depositor run. We compute similar incentiv=
+es for the sample of all U.S. banks. Even if only half of uninsured deposit=
+ors decide to withdraw, almost 190 banks are at a potential risk of impairm=
+ent to insured depositors, with potentially $300 billion of insured deposit=
+s at risk. If uninsured deposit withdrawals cause even small fire sales, su=
+bstantially more banks are at risk. Overall, these calculations suggests th=
+at recent declines in bank asset values very significantly increased the fr=
+agility of the US banking system to uninsured depositor runs.
+Yeesh! Not now!
+
+ =20
+   =20
+      Everything is securities fraud
+   =20
+ =20
+
+Oh=C2=A0sure:
+
+Shareholders for the collapsed Silicon Valley Bank have filed a class actio=
+n lawsuit against the bank=E2=80=99s parent company and its leaders over al=
+legations that they did not disclose how interest rate increases could have=
+ an effect on business.=C2=A0
+The shareholders, led by Chandra Vanipenta, filed the lawsuit on Monday aga=
+inst SVB Financial Group, former CEO Greg Becker and Chief Financial Office=
+r Daniel Beck to seek unspecified damages for investors who backed the bank=
+ between June 16, 2021 and March 10, 2023.=C2=A0
+The complaint states that quarterly and annual financial reports from the b=
+ank did not take into account warnings that the Federal Reserve gave about =
+raising interest rates.=C2=A0
+
+Sure. Here=E2=80=99s  the complaint. SVB=E2=80=99s annual reports =E2=80=9C=
+understated the risks posed to the Company by not disclosing that likely in=
+terest rate hikes, as outlined by the Fed, had the potential to cause irrev=
+ocable damage to the Company,=E2=80=9D sure. I don=E2=80=99t know how much =
+money they=E2=80=99ll get out of the holding company at this point, but I d=
+o think that as a securities class action lawyer you are just sort of profe=
+ssionally obligated to file this suit so here it is.=C2=A0
+Elsewhere:
+
+The Justice Department and the Securities and Exchange Commission are inves=
+tigating the collapse of Silicon Valley Bank, according to people familiar =
+with the matter, after the California lender was taken over by regulators l=
+ast week amid a historic run on its deposits.=C2=A0
+The separate probes are in their preliminary phases and may not lead to cha=
+rges or allegations of wrongdoing. Prosecutors and regulators often open in=
+vestigations after financial institutions or public companies suffer big, u=
+nexpected losses. Shares in SVB Financial Group, which formerly owned the b=
+ank, fell 60% last week and have been stopped from trading since Friday.=C2=
+=A0
+The investigations are also examining stock sales that SVB Financial=E2=80=
+=99s officers made days before the bank failed, the people said.=C2=A0
+
+I said above that, as a moral hazard matter, SVB=E2=80=99s executives are o=
+ut of their jobs and their shares are zeroed, which is a good warning to ot=
+her risk-loving bank executives. But several of them sold stock just before=
+ the failure, so they are not=C2=A0really=C2=A0zeroed, and you can see how =
+that would rub people the wrong way. My own impression is that this is=C2=
+=A0unlikely to be insider trading: SVB=E2=80=99s balance-sheet problems wer=
+e disclosed and known weeks ago, and I gather that SVB=E2=80=99s executives=
+ were as surprised as anyone else by the run last week. But, still, it does=
+n=E2=80=99t look great.
+
+ =20
+   =20
+      Not now Credit Suisse!
+   =20
+ =20
+
+ Come on:
+
+Credit Suisse Group AG said it found =E2=80=9Cmaterial weaknesses=E2=80=9D =
+in its reporting and control procedures for the past two years, after quest=
+ions from US regulators last week.=C2=A0
+The Zurich-based bank said Tuesday it will take steps to fix ineffective ch=
+ecks on the process it follows to pull together its financial reports. But =
+the firm said its statements for 2022 and 2021 =E2=80=9Cfairly present=E2=
+=80=9D its financial condition.
+
+There is never a great time for a bank to announce =E2=80=9Chey turns out w=
+e don=E2=80=99t really know what=E2=80=99s going on at our bank,=E2=80=9D b=
+ut this week does feel like a particularly bad time.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+AMC plunges as investors approve reverse stock split,  APE share conversion=
+.=C2=A0
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] For what it=E2=80=99s worth, I agree with  my Bloomberg colleague Joe=
+ Weisenthal that (1) it was obviously a bailout and (2) that is sort of a m=
+orally neutral conclusion. If there is some established resolution procedur=
+e for a failed bank that would expose some claimants to some risk of loss, =
+and the government steps in to modify that resolution procedure to give tho=
+se claimants more money and/or certainty, then that is just obviously a bai=
+lout; what else could it be? (Josh Barro: =E2=80=9CI think a fair definitio=
+n of a =E2=80=98bailout=E2=80=99 is when people or entities receive an ad h=
+oc financial rescue to which they were not legally entitled before the even=
+t that necessitated the rescue.=E2=80=9D) But it seems perfectly coherent t=
+o think something like =E2=80=9Cthe SVB resolution was a bailout of deposit=
+ors, but that was good, and doesn=E2=80=99t really have much or any economi=
+c cost to taxpayers given the likely selling price of the assets.=E2=80=9D
+
+
+  [2] Isn=E2=80=99t it? You might disagree. But SVB was sort of embedded in=
+ the culture of Silicon Valley, which meant things like (1) its executives =
+probably thought of its startup customers as world-changing businesses rath=
+er than creatures of interest rates and (2) they probably believed Silicon =
+Valley=E2=80=99s hype that the tech ecosystem was cooperative and supportiv=
+e and not just everyone looking out for themselves, so they didn=E2=80=99t =
+expect their loyal venture capitalist depositors to turn on them so quickly=
+. I highly recommend Ben Thompson=E2=80=99s Stratechery post from yesterday=
+, =E2=80=9CThe End of Silicon Valley (Bank)," for his view on the demise of=
+ Silicon Valley=E2=80=99s cooperative, repeat-player, infinite-game ethos. =
+If you were an SVB executive a week ago, you might have still believed in t=
+hat ethos. But if your response to all this is =E2=80=9Cthis was stupid and=
+ they were taking stupid risks by being the bank of startups and betting bi=
+g on duration,=E2=80=9D that=E2=80=99s fine too.
+
+
+  [3] Ooh I don=E2=80=99t know man, rates have rallied hard since SVB was r=
+escued, and it was insolvent-ish because of a bad bet on rates. If you sell=
+ the portfolio *today* maybe it is solvent enough to pay the equity somethi=
+ng? I would not bet on the stock or anything but that would be a funny outc=
+ome.
+
+
+  [4] Asness was replying to this tweet from Jason Furman, which I agree wi=
+th: =E2=80=9CI=E2=80=99m not particularly worried about moral hazard. The C=
+EO, management & Board all losing their jobs. Equity going to zero. Bondhol=
+ders won't be paid in full. These are all the entities that can effectively=
+ monitor, is unrealistic to expect depositors to do much monitoring.=E2=80=
+=9D
+
+
+  [5] One way you know this is that lots of SVB depositors were earning zer=
+o interest on their deposits. If they were knowingly or unknowingly taking =
+risk in the hope of making a big return, or even a little return, it might =
+be bad to bail them out. But they were not getting paid at all for taking r=
+isk! It was just a bank account.
+
+
+  [6] There is a  contrary view floating  around that in fact if you are a =
+business with more than a few hundred thousand dollars in cash, you should =
+develop expertise in cash management and bank risk, and use third-party pro=
+ducts to spread that risk around to maximize FDIC coverage. Look: sure? Wha=
+tever? I suppose that=E2=80=99s a useful business skill, but it feels like =
+a skill that is useful in a second-best world. Better to make all the banks=
+ safe so no one has to have this expertise.
+
+
+  [7] No time to explain! Covered in   yesterday=E2=80=99s column!
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cicwsn.5jeh/9cd6f36b.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9606926_467919765.1678822972530
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+I don=E2=80=99t think that anything interesting turns on whether or not thi=
+s weekend=E2=80=99s resolution of Silicon Valley Bank was a =E2=80=9Cbailou=
+t,=E2=80=9D so let=E2=80=99s n
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBec27e805"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDgzNTQ2MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwOTM4ODgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB74051830" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30835463&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31093888&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bailouts etc.</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t think that anything interestin=
+g turns on whether or not this weekend=E2=80=99s resolution of=C2=A0Silicon=
+ Valley Bank was a =E2=80=9Cbailout,=E2=80=9D so let=E2=80=99s not discuss =
+that.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: none !important; background-color: =
+transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0But when people talk about bank bailouts, what they often mean to=
+ talk about is moral hazard, the idea that if the government saves=C2=A0peo=
+ple from the consequences of bad bank behavior, that will encourage more ba=
+d bank behavior in the future. And that seems worth talking about.</p>
+<p style=3D"margin: 16px 0;">It is, I think, fair to say that Silicon Valle=
+y Bank took some bad risks, and that=E2=80=99s why it ended up failing. It =
+is a bit harder to say exactly <em>what</em> SVB=E2=80=99s bad decision was=
+. A simple answer is =E2=80=9Cit made a huge bet on interest rates staying =
+low, which most prudent banks would not have done, and it blew up.=E2=80=9D=
+ Yesterday <a href=3D"https://link.mail.bloombergbusiness.com/click/3083546=
+3.258425/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMT=
+Mvc3ZiLWZhaWx1cmUtc3BhcmtzLWJsYW1lLWdhbWUtb3Zlci10cnVtcC1lcmEtcmVndWxhdG9ye=
+S1yb2xsYmFjaz9jbXBpZD1CQkQwMzE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0=
+bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R=
+1ZmY/607f07ceef4b8524a319a23cBe8dd5b95" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">  Bloomberg reported that</=
+a> =E2=80=9Cin late 2020, the firm=E2=80=99s asset-liability committee rece=
+ived an internal recommendation to buy shorter-term bonds as more deposits =
+flowed in,=E2=80=9D to reduce its duration risk, but that would have reduce=
+d earnings, and so =E2=80=9Cexecutives balked=E2=80=9D and =E2=80=9Ccontinu=
+ed to plow cash into higher-yielding assets.=E2=80=9D They took imprudent d=
+uration risk, ignored objections,=C2=A0and it blew them up.</p>
+<p style=3D"margin: 16px 0;">I think that answer is fine. A <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30835463.258425/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC1iYW5rLWhh=
+ZC1hLXN0YXJ0dXAtYmFuay1ydW4_Y21waWQ9QkJEMDMxNDIzX01PTkVZU1RVRkYmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzE0JnV0bV9jYW1wYW=
+lnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa05d04ec" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  more compli=
+cated answer</a> would be that they took duration risk, as banks generally =
+do, but their real sin was having a concentrated set of=C2=A0<em>depositors=
+=C2=A0</em>who were uninsured, quick-moving, well-informed, herd-like and v=
+ery rates-sensitive in their own businesses: If all of your money is demand=
+ deposits from tech startups who will withdraw it at the slightest sign of =
+trouble and/or higher rates, you should not be investing it in long-term bo=
+nds. This is a more subtle answer than =E2=80=9Cjust hedge your rate risk b=
+ro,=E2=80=9D and it is arguably more=C2=A0<em>understandable=C2=A0</em>that=
+ SVB=E2=80=99s executives would get it wrong,<a class=3D"footnote-index" hr=
+ef=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: none !important; background-color: transparent !important; display: in=
+line-block;">
+<span>[2]</span>
+</a>=C2=A0but in any case it certainly ended up being a bad risk.</p>
+<p style=3D"margin: 16px 0;">So if SVB was=C2=A0<em>rewarded=C2=A0</em>for =
+taking these risks that blew it up, that would be bad; that would be =E2=80=
+=9Cmoral hazard.=E2=80=9D But the way the Silicon Valley Bank resolution wo=
+rked is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">SVB was seized by the Federal Deposit=
+ Insurance Corp. on Friday, and by Sunday night the FDIC and other regulato=
+rs announced that all of SVB=E2=80=99s depositors =E2=80=94=C2=A0including =
+those who were above the FDIC=E2=80=99s usual $250,000 insurance limit =E2=
+=80=94=C2=A0would be able to get all of their money back on Monday. So the =
+depositors were fully rescued.</li>=09<li style=3D"margin-bottom: 5px;">The=
+ shareholders, bondholders and executives were not: The executives were rem=
+oved; the shares, which closed at $267.83 last Wednesday, are almost certai=
+nly worth zero<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: none !important; backgroun=
+d-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>; the bonds are also <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30835463.258425/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjMtMDMtMTMvc3ZiLWJvbmRzLXRoZS11cy1zYXlzLXdpbGwtYmUtd2lwZWQtb3V0LWdhaW4=
+taW4tcmFyZS1zZXNzaW9uP2NtcGlkPUJCRDAzMTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxNCZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cBe0e6dd7a" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  probably impaire=
+d</a>=C2=A0and possibly a zero.</li>
+</ol>
+<p style=3D"margin: 16px 0;">What lessons will rational actors take from th=
+is? I mean:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">If you are a depositor =E2=80=94=C2=A0=
+in particular, a business that needs more than $250,000 of cash to operate =
+efficiently =E2=80=94=C2=A0you should be much less concerned about risk-tak=
+ing by your bank, because if your bank fails the government will probably r=
+escue you.</li>=09<li style=3D"margin-bottom: 5px;">If you are a bank execu=
+tive or shareholder or probably bondholder, you should be=C2=A0<em>more=C2=
+=A0</em>concerned about risk-taking by your bank, because you have seen tha=
+t it can lead to executives and shareholders and bondholders getting zeroed=
+, and that the government won=E2=80=99t rescue you if that happens.</li>
+</ul>
+<p style=3D"margin: 16px 0;">And so the question is: Is that moral hazard? =
+Well, not for shareholders and executives and bondholders. I suppose it is =
+moral hazard for depositors, and a resolution of SVB that left depositors w=
+ith losses would force depositors to pay closer attention to the risks thei=
+r banks are taking. (Cliff Asness <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30835463.258425/aHR0cHM6Ly90d2l0dGVyLmNvbS9jbGlmZm9yZGFzbmV=
+zcy9zdGF0dXMvMTYzNTExNzkyNzUxODMxMDQwNA/607f07ceef4b8524a319a23cBf2fdce92" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> on Twitter</a>: =E2=80=9CThe moral hazard here is we=E2=80=99ve gr=
+eatly reduced the incentive for depositors of any size now =E2=80=A6 to act=
+ually give a moment=E2=80=99s thought to the riskiness of where they=E2=80=
+=99re putting their money.=E2=80=9D)</p>
+<p style=3D"margin: 16px 0;">But I think the modern bank-regulatory view is=
+=C2=A0that=C2=A0<em>the point of a bank deposit is that you shouldn=E2=80=
+=99t have to worry about it</em>, and that it is a=C2=A0<em>failure=C2=A0</=
+em>of bank regulation if depositors of any size have =E2=80=9Cto actually g=
+ive a moment=E2=80=99s thought to the riskiness=E2=80=9D of a bank. (Bank d=
+eposits are meant to be =E2=80=9C<a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30835463.258425/aHR0cHM6Ly93d3cubmJlci5vcmcvcGFwZXJzL3cyNjA3=
+NA/607f07ceef4b8524a319a23cBcc168de1" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">information insensitive</a>.=
+=E2=80=9D)=C2=A0There are vast areas of life where we don=E2=80=99t worry a=
+bout moral hazard. We don=E2=80=99t say things like =E2=80=9Cthe moral haza=
+rd of food safety regulation is that we=E2=80=99ve greatly reduced the ince=
+ntive for consumers to give a moment=E2=80=99s thought to the riskiness of =
+their supermarket=E2=80=99s supply chain.=E2=80=9D That=E2=80=99s not a thi=
+ng you=E2=80=99re supposed to think about!=C2=A0</p>
+<p style=3D"margin: 16px 0;">Similarly the riskiness of a bank=E2=80=99s as=
+set/liability mix is absolutely a thing that lots of people =E2=80=94=C2=A0=
+bank executives, bank directors, bank regulators, bank shareholders, bank d=
+erivatives counterparties =E2=80=94=C2=A0are supposed to think about.<a cla=
+ss=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: none !important; background-color: transparent=
+ !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0But not, generally, in 2023, depositors. Opening a bank account, =
+for an individual human but also for a business that needs more than $250,0=
+00 in cash to conduct business efficiently, is not meant to be a high-stake=
+s investment decision that requires extensive due diligence.<a class=3D"foo=
+tnote-index" href=3D"#footnote-5" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: none !important; background-color: transparent !importa=
+nt; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0It=E2=80=99s a bank account! It=E2=80=99s just supposed to work.<=
+a class=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: none !important; background-color: transp=
+arent !important; display: inline-block;">
+<span>[6]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">This is not a universal view. In the olden day=
+s, bank depositors=C2=A0<em>did=C2=A0</em>think more about their bank=E2=80=
+=99s creditworthiness, and I suppose there is a market-discipline=C2=A0argu=
+ment that, like, if depositors monitor creditworthiness then only the good =
+banks will attract deposits and so the bad banks won=E2=80=99t be able to g=
+row and take risks. But in practice I do not think anyone would much like a=
+ market where depositors evaluate banks on their creditworthiness. For one =
+thing, doesn=E2=80=99t it sound exhausting? Don=E2=80=99t you have better t=
+hings to do? For another thing, SVB=E2=80=99s depositors kind of=C2=A0<em>d=
+id=C2=A0</em>that: They woke up one day, noticed that SVB=E2=80=99s balance=
+ sheet was bad, and withdrew all their money at once, leading to a banking =
+crisis. Why do we want more of that? For a third thing, the likely outcome =
+of a rule like=C2=A0=E2=80=9Conly deposit money in banks you are sure won=
+=E2=80=99t fail=E2=80=9D would probably be to drive more deposits to giant =
+too-big-to-fail banks, which is maybe a fine outcome economically but not l=
+ikely to be popular.</p>
+<p style=3D"margin: 16px 0;">Still, there really is a moral hazard in banki=
+ng and in information-insensitive deposits. Schematically, a bank consists =
+of shareholders taking $10 of their own money and $90 of depositors=E2=80=
+=99 money and making some bets (home loans, business loans, bond investment=
+s, whatever) with that combined pile of money. If the bets pay off, the sha=
+reholders get the upside (the depositors just get their deposits back). If =
+the bets lose, the shareholders lose money (the depositors get their money =
+back before shareholders get anything). If the bets lose really big =E2=80=
+=94=C2=A0if the bank bets $100 and ends up with $50 =E2=80=94=C2=A0then the=
+ shareholders lose all their money, but=C2=A0the depositors get their money=
+ back: If the bank is left with only $50, the government gives the deposito=
+rs the other $40.</p>
+<p style=3D"margin: 16px 0;">If you are a rational bank shareholder (or, mo=
+re to the point, a bank=C2=A0<em>executive=C2=A0</em>who owns shares and ge=
+ts paid for increasing shareholder value), this structure encourages you to=
+ take risk. If you bet $100 on a coin flip and you win, the bank has $200, =
+and the shareholders keep $110 of that, a 1,000% return. If you lose, the b=
+ank has $0, and the shareholders lose $10 of that, a -100% return. The expe=
+cted value of this bet, for the shareholders, is positive. The expected val=
+ue for the depositors is neutral: Either way they get their $90 back, eithe=
+r from the bank or from the government. The expected value for the governme=
+nt is negative: If the bank wins, the government gets nothing; if the bank =
+loses, the government=C2=A0pays the depositors $90. But the shareholders =
+=E2=80=94=C2=A0really the executives =E2=80=94=C2=A0are the ones who get to=
+ decide what bets to take.</p>
+<p style=3D"margin: 16px 0;">(The finance-y way to say this is that the sha=
+reholders have a call=C2=A0option on the bank=E2=80=99s assets, struck at t=
+he face value of its deposits. An option=E2=80=99s value increases with vol=
+atility, so the shareholders should want the assets to be volatile. This is=
+ roughly true of every company =E2=80=94=C2=A0the shareholders always have =
+an option on the company=E2=80=99s assets struck at the face value of its d=
+ebts =E2=80=94=C2=A0but (1) most companies are way less leveraged than bank=
+s, so the option is less at-the-money and (2) at most companies the option =
+is=C2=A0*priced*, because the debt comes from bondholders who are informati=
+on-sensitive and won=E2=80=99t give the shareholders cheap debt if they=E2=
+=80=99re taking wild risks. At banks, because of the (reasonable) social de=
+sire to make deposits information-insensitive, the deposits are cheap and t=
+he option is not priced.)</p>
+<p style=3D"margin: 16px 0;">This is all true of all banking, to the extent=
+ that deposit insurance and lender-of-last-resort mechanisms exist, but cer=
+tainly it is=C2=A0<em>more=C2=A0</em>true when the government expands its p=
+rotection of depositors. But it=C2=A0<em>is=C2=A0</em>true of all banking, =
+which is why there is so much bank regulation. Because the=C2=A0 standard s=
+olution to this problem is regulation and government supervision: The gover=
+nment says to banks =E2=80=9Clook, we all understand that you are effective=
+ly making bets with government money, so we are going to keep a close eye o=
+n the bets you are making to prevent you from losing our money.=E2=80=9D</p=
+>
+<p style=3D"margin: 16px 0;">The modern view that bank deposits should be s=
+afe and information-insensitive kind of goes along with a modern view that=
+=C2=A0<em>banks are public-private partnerships</em>, that a bank is sort o=
+f a business partner with the government in taking deposits and providing c=
+redit, and that the way the partnership works is that the bank=E2=80=99s ex=
+ecutives make the day-to-day decisions but the government has a lot of inpu=
+t into and oversight over those decisions.</p>
+<p style=3D"margin: 16px 0;">On that view, you should probably draw two rel=
+ated=C2=A0conclusions from SVB:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Regulators and supervisors probably s=
+hould have stopped SVB from taking dumb risks, they missed something, and c=
+hanges should be made so they don=E2=80=99t miss those same things again.</=
+li>=09<li style=3D"margin-bottom: 5px;">The regulators=E2=80=99=C2=A0<em>re=
+sponse=C2=A0</em>to SVB<em>=C2=A0</em>=E2=80=94=C2=A0guaranteeing all depos=
+itors, but also the Fed=E2=80=99s Bank Term Funding Program to finance othe=
+r banks=E2=80=99 bond portfolios at par<a class=3D"footnote-index" href=3D"=
+#footnote-7" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: n=
+one !important; background-color: transparent !important; display: inline-b=
+lock;">
+<span>[7]</span>
+</a>=C2=A0=E2=80=94 increases the value of=C2=A0<em>other=C2=A0</em>banks=
+=E2=80=99 optionality, which encourages=C2=A0<em>them=C2=A0</em>to take mor=
+e risk, because their deposits are safer. (I suppose this is the real moral=
+ hazard concern.) And so there should be more regulatory and supervisory ch=
+anges to tamp down the other banks=E2=80=99 risks.</li>
+</ol>
+<p style=3D"margin: 16px 0;">The first conclusion seems sort of obvious. If=
+ the goal is to make it so depositors don=E2=80=99t have to think about the=
+ risks banks are taking with their money, somebody else =E2=80=94=C2=A0the =
+regulators =E2=80=94=C2=A0have to think about those risks instead. I am not=
+ going to sit here and tell you what SVB=E2=80=99s regulators and superviso=
+rs=C2=A0<em>should=C2=A0</em>have done to prevent its meltdown last week, t=
+hough I=E2=80=99m sure other people will. But a few points:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">=E2=80=9CThe Federal Reserve said Mond=
+ay it is <a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.=
+258425/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTMv=
+ZmVkLXRvLXByb2JlLWl0cy1zdXBlcnZpc2lvbi1vZi1zdmItcmVsZWFzZS1yZXZpZXctYnktbWF=
+5LTE_Y21waWQ9QkJEMDMxNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB5bcd6c9e" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  launching an internal review</a> o=
+f its supervision and regulation of Silicon Valley Bank after its failure l=
+ast week.=E2=80=9D The report will be released publicly by May 1. So the <e=
+m>Fed=C2=A0</em>will eventually tell you what it should have done to preven=
+t SVB=E2=80=99s meltdown.</li>=09<li style=3D"margin-bottom: 5px;">Bank reg=
+ulators spend a lot of time thinking about=C2=A0<em>liquidity=C2=A0</em>req=
+uirements for banks. The idea of liquidity rules is that you think about ho=
+w much money people might want to take out of the bank at once, and you try=
+ to make sure the bank has enough money to give them. Modern banking regula=
+tion has rules like the liquidity coverage ratio (LCR) and net stable fundi=
+ng ratio (NSFR) to try to measure and regulate that risk, but =E2=80=94=C2=
+=A0as Dan Davies <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+0835463.258425/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYzk1ZTc3MDgtYjkwMy00MDVk=
+LWEwMTctOTYzODQ0ZWIzZGMz/607f07ceef4b8524a319a23cB964100d8" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> wrote =
+in the Financial Times</a> this weekend =E2=80=94=C2=A0the US decided not t=
+o apply those rules to even very large regional banks like SVB. I am not su=
+re how much that mattered =E2=80=94=C2=A0most banks don=E2=80=99t have enou=
+gh liquidity to cover all of their deposits leaving at once, and SVB <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTMvZmVkLXRvLXByb2J=
+lLWl0cy1zdXBlcnZpc2lvbi1vZi1zdmItcmVsZWFzZS1yZXZpZXctYnktbWF5LTE_Y21waWQ9Qk=
+JEMDMxNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjMwMzE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cC5bcd6c9e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  might have met</a>=C2=A0the requirements=C2=A0=E2=
+=80=94 but it=E2=80=99s something regulators will consider. (<em>Raising=C2=
+=A0</em>the liquidity requirements, to account for the speed of modern bank=
+ runs, could also be on the table.)</li>=09<li style=3D"margin-bottom: 5px;=
+">More generally, US financial regulation tends to draw a sharp distinction=
+ between =E2=80=9Csystemically important=E2=80=9D banks (like JPMorgan Chas=
+e &amp; Co.) and just regular banks like SVB. The systemically important ba=
+nks are regulated and supervised much more strictly than the regular banks,=
+ and in recent years the difference has increased as <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/30835463.258425/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTMvc3ZiLWZhaWx1cmUtc3BhcmtzLWJsYW1=
+lLWdhbWUtb3Zlci10cnVtcC1lcmEtcmVndWxhdG9yeS1yb2xsYmFjaz9jbXBpZD1CQkQwMzE0Mj=
+NfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fd=
+GVybT0yMzAzMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cCe8d=
+d5b95" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  some rules were rolled back for regular banks</a>.=C2=A0Th=
+is distinction has always struck me as sort of incoherent, because =E2=80=
+=9Csystemic risk=E2=80=9D is not really a property of=C2=A0<em>one bank=C2=
+=A0</em>but of=C2=A0<em>the system</em>. When SVB collapsed, its venture ca=
+pitalist depositors clamored for a rescue by <em>threatening systemic risk<=
+/em>, by arguing that allowing them to lose money would lead to broader pan=
+ic across lots of banks: SVB wasn=E2=80=99t <em>that</em> big, but an uncon=
+trolled failure at SVB would lead to many other failures at similar banks. =
+They might well have been right! But <a href=3D"https://link.mail.bloomberg=
+business.com/click/30835463.258425/aHR0cHM6Ly90d2l0dGVyLmNvbS9tYXR0eWdsZXNp=
+YXMvc3RhdHVzLzE2MzQ5MDcwNDAxNzM3MDMxNjg_cz00MyZ0PUpYS2hPdDB0MnJ6M2I4ZEpJTmt=
+KalE/607f07ceef4b8524a319a23cB00fada5b" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> the obvious conclusion to =
+draw from this</a>=C2=A0is that biggish regional banks like SVB, at least, =
+need to be subject to stricter regulations =E2=80=94=C2=A0the sorts of rule=
+s that apply=C2=A0to the big banks =E2=80=94 because they are in fact syste=
+mically important. Not due to their individual size, but due to the (well k=
+nown!) fact that a run on one bank can easily lead to runs on other banks.<=
+/li>=09<li style=3D"margin-bottom: 5px;">Existing regulations do not seem t=
+o be particularly attuned to the risk of=C2=A0<em>bad depositors</em>. Bank=
+ regulators have historically given some thought to the question =E2=80=9Cw=
+hat sorts of deposits are more likely to put a bank at risk by running all =
+at once,=E2=80=9D and they think about <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/30835463.258425/aHR0cHM6Ly93d3cuYmlzLm9yZy9wdWJsL2JjYn=
+MyMzgucGRm/607f07ceef4b8524a319a23cB2c5d134e" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> the risks of categor=
+ies</a> like <a href=3D"https://link.mail.bloombergbusiness.com/click/30835=
+463.258425/aHR0cHM6Ly93d3cuc3VsbGNyb20uY29tL2ZpbGVzL3VwbG9hZC9TQy1QdWJsaWNh=
+dGlvbi1Ccm9rZXJlZC1EZXBvc2l0cy5wZGY/607f07ceef4b8524a319a23cBae61b043" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">brokered deposits</a>, insured retail deposits, uninsured retail deposi=
+ts, operational business deposits, etc. But last month US banking regulator=
+s put out a =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/30835463.258425/aHR0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUuZ292L25ld3NldmVudHMv=
+cHJlc3NyZWxlYXNlcy9maWxlcy9iY3JlZzIwMjMwMjIzYTEucGRm/607f07ceef4b8524a319a2=
+3cBb9d804c7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">Joint Statement</a> on Liquidity Risks to Banking Orga=
+nizations Resulting from Crypto-Asset<br />=09Market Vulnerabilities=E2=80=
+=9D saying, in essence, that crypto companies are a particularly risky clas=
+s of depositors and banks should watch out for them. I <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30835463.258425/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC1iYW5rLWhhZC1hL=
+XN0YXJ0dXAtYmFuay1ydW4_Y21waWQ9QkJEMDMxNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1l=
+bWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzE0JnV0bV9jYW1wYWlnbj1=
+tb25leXN0dWZm/607f07ceef4b8524a319a23cCa05d04ec" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  have argued</a> =
+that venture-backed tech firms are a similarly risky class of depositors, o=
+r at least they were for SVB. =E2=80=9CBanking organizations are neither pr=
+ohibited nor discouraged from providing banking services to customers of an=
+y specific class or type, as permitted by law or regulation,=E2=80=9D the r=
+egulators <a href=3D"https://link.mail.bloombergbusiness.com/click/30835463=
+.258425/aHR0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUuZ292L25ld3NldmVudHMvcHJlc3NyZWx=
+lYXNlcy9iY3JlZzIwMjMwMjIzYS5odG0/607f07ceef4b8524a319a23cB3dae98eb" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> hastened to add</a>. But I wonder=C2=A0if future banking supervision will=
+ be more sensitive to things like industry diversification among depositors=
+, or the volatility of depositors=E2=80=99 industries. If all of your depos=
+itors are in the same line of business, and if they are sometimes flush wit=
+h cash and sometimes broke, then your bank is riskier.</li>
+</ul>
+<p style=3D"margin: 16px 0;">The second conclusion=C2=A0is =E2=80=A6=C2=A0w=
+ell, one way to put it is that=C2=A0the post-SVB actions have made bank dep=
+osits=C2=A0a lot safer, which is a nice windfall for the shareholders of ev=
+ery=C2=A0<em>other=C2=A0</em>regional bank that has a lot of losses on held=
+-to-maturity securities. And so in exchange for that windfall the regulator=
+s should=C2=A0regulate those banks much more strictly, which will make them=
+=C2=A0<em>actually=C2=A0</em>safer (and reduce the government=E2=80=99s exp=
+osure to their risks), but will also reduce their profitability.</p>
+<p style=3D"margin: 16px 0;">Another way to put it is:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">As a matter of moral hazard, rescuing =
+SVB=E2=80=99s depositors is fine;</li>=09<li style=3D"margin-bottom: 5px;">=
+As a matter of moral hazard, zeroing SVB=E2=80=99s shareholders is good; bu=
+t</li>=09<li style=3D"margin-bottom: 5px;">As a matter of moral hazard, the=
+ right thing to do now is to=C2=A0<em>punish other risky banks=E2=80=99 sha=
+reholders</em>.</li>
+</ul>
+<p style=3D"margin: 16px 0;">This is tricky! You are sort of =E2=80=A6=C2=
+=A0prospectively punishing those shareholders? Punishing them <em>in lieu o=
+f=C2=A0</em>letting their banks fail?</p>
+<p style=3D"margin: 16px 0;">What does it mean in practice?=C2=A0Mainly<em>=
+=C2=A0</em>it means what we talked about above, more strictly regulating ri=
+sk-taking at regional banks to make sure that they don=E2=80=99t cause any =
+systemic problems. Make regional banks do things =E2=80=94=C2=A0raise more =
+capital, hold more short-term safe liquid instruments, turn down risky borr=
+owers and depositors =E2=80=94=C2=A0that lower their risk, but also lower t=
+heir expected returns on capital.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But we <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/30835463.258425/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjMtMDMtMTMvc3ZiLWNvdWxkbi10LWlnbm9yZS1pdHMtbG9zc2VzLWJ1=
+dC10aGUtZmVkLWNhbj9jbXBpZD1CQkQwMzE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWl=
+sJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTQmdXRtX2NhbXBhaWduPW1vbm=
+V5c3R1ZmY/607f07ceef4b8524a319a23cB083768b3" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  talked yesterday</a>=
+ about the failure of Signature Bank, which is a strange sort of bank failu=
+re. It did not particularly seem to be insolvent or experiencing an ongoing=
+ bank run on Sunday, but it was seized by the government anyway.=C2=A0Bloom=
+berg=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/308=
+35463.258425/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMD=
+MtMTQvc2lnbmF0dXJlLXdhcy1zZWl6ZWQtYWZ0ZXItbGVhZGVycy1jYXVzZWQtY3Jpc2lzLW9mL=
+WNvbmZpZGVuY2U_Y21waWQ9QkJEMDMxNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1=
+dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzE0JnV0bV9jYW1wYWlnbj1tb25leXN=
+0dWZm/607f07ceef4b8524a319a23cBf9f792a7" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  Max Reyes reports toda=
+y</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Signature Bank was seized by the government Su=
+nday after regulators lost faith in management, according to New York offic=
+ials.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe bank failed to provide reliable a=
+nd consistent data, creating a significant crisis of confidence in the bank=
+=E2=80=99s leadership,=E2=80=9D a spokesperson for the state=E2=80=99s Depa=
+rtment of Financial Services said in an emailed statement Tuesday. =E2=80=
+=9CThe decision to take possession of the bank and hand it over to the FDIC=
+ was based on the current status of the bank and its ability to do business=
+ in a safe and sound manner on Monday.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">They can just do that! What <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/30835463.258425/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTMvc3ZiLWNvdWxkbi10LWlnbm9=
+yZS1pdHMtbG9zc2VzLWJ1dC10aGUtZmVkLWNhbj9jbXBpZD1CQkQwMzE0MjNfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTQmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cC083768b3" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  I said yesterday was</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Every=C2=A0<em>other=C2=A0</em>bank=E2=80=99s=
+=C2=A0shareholders and bondholders and executives will benefit from those m=
+easures [that the Fed and FDIC took to rescue SVB=E2=80=99s depositors]. If=
+ you are an uninsured depositor at a medium-sized bank that made some dumb =
+rates bets, there is no reason to move your money now; the Fed has made it =
+clear that it will support that bank. This (probably!)=C2=A0<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30835463.258425/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTMvc3ZiLWFmdGVybWF0aC10=
+aGVyZS1zLWxpdHRsZS1ldmlkZW5jZS1vZi1hLWZ1bGwtc2NhbGUtYmFua2luZy1jcmlzaXM_Y21=
+waWQ9QkJEMDMxNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3=
+NsZXR0ZXImdXRtX3Rlcm09MjMwMzE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b=
+8524a319a23cB2894c632" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">takes run risk o=
+ff the table for those banks</a>, making them less likely to fail, making t=
+heir stocks and bonds more valuable than they would be if the Fed hadn=E2=
+=80=99t acted to limit contagion. (In actual fact many bank stocks=C2=A0are=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.258=
+425/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9iYW5rLXN0b2Nrcy1hcmUtdGFraW5nLXR=
+oZWlyLXdvcnN0LWJlYXRpbmctc2luY2UtdGhlLWNvdmlkLXNjYXJlLWQ4MzVhMGNj/607f07cee=
+f4b8524a319a23cBb0d46737" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">down big toda=
+y</a>, though presumably they=E2=80=99d be down=C2=A0<em>more=C2=A0</em>wit=
+hout these measures.) The rescue of Silicon Valley Bank=E2=80=99s depositor=
+s comes too late for Silicon Valley Bank=E2=80=99s shareholders, but it=E2=
+=80=99s good for every similar bank=E2=80=99s shareholders.</p>
+<p style=3D"margin: 16px 0;">As a matter of rough justice you could imagine=
+ the Fed looking at the=C2=A0<em>most=C2=A0</em>similar bank =E2=80=94=C2=
+=A0arguably Signature, with its huge proportion of uninsured deposits and i=
+ts exposure to fast-money crypto/tech customers =E2=80=94=C2=A0and saying =
+=E2=80=9Cno, not you,=C2=A0<em>your=C2=A0</em>shareholders are getting toas=
+ted.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The way for bank regulators to reduce the mora=
+l-hazard impact of the SVB rescue is to take some <em>other</em> banks=E2=
+=80=99 shareholders out and shoot them.</p>
+<p style=3D"margin: 16px 0;">Is that what happened?=C2=A0I don=E2=80=99t kn=
+ow! It=E2=80=99s possible that Signature was shut due to a traditional bank=
+ run. Reyes reports that =E2=80=9CSignature lost 20% of its deposits on Fri=
+day=E2=80=9D; Signature (and its board member Barney Frank) said that its o=
+utflows had stabilized and that it had enough cash, but the New York Depart=
+ment of Financial Services apparently disputes=C2=A0that. But DFS leads wit=
+h =E2=80=9Ca significant crisis of confidence in the bank=E2=80=99s leaders=
+hip.=E2=80=9D If you are a bank regulator and you think that a bank is (1) =
+poorly managed and taking bad risks but also (2) not going to disappear bec=
+ause you went and guaranteed all the deposits,=C2=A0<em>you can make it dis=
+appear anyway</em>, and arguably you should.=C2=A0</p>
+<p style=3D"margin: 16px 0;">One other point on this subject. If you are a =
+banking regulator and you think that the regional banks have taken too much=
+ risk and are now undercapitalized given their unrealized losses on=C2=A0he=
+ld-to-maturity securities, then the=C2=A0<em>most</em> obvious next thing t=
+o do =E2=80=94=C2=A0after the weekend=E2=80=99s actions of promising to fin=
+ance those securities at par, but before rewriting any regulations =E2=80=
+=94=C2=A0is to make those banks raise capital to fix their balance sheets. =
+This is good simply as a matter of sound banking: You don=E2=80=99t want yo=
+ur banks to be undercapitalized, so if they are =E2=80=94=C2=A0on whatever =
+accounting measure you prefer =E2=80=94=C2=A0then they should get more capi=
+tal. It is also good as a matter of punishing shareholders to avoid moral h=
+azard: Bank stocks have been absolutely wrecked, and making banks raise mor=
+e equity now at these prices will be a painful dilution for existing shareh=
+olders.</p>
+<p style=3D"margin: 16px 0;">On the other hand, it=E2=80=99s tricky: Silico=
+n Valley Bank did (more or less) the responsible thing last week by trying =
+to raise equity to shore up its balance sheet, and=C2=A0<em>that=E2=80=99s =
+what brought it down</em>, as people <a href=3D"https://link.mail.bloomberg=
+business.com/click/30835463.258425/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvN2U3=
+ZmRkZGItNzI0Yy00MmZkLTk4ZWUtNWQ3MjQ4ZDUzMzM0P3JlZj10aGUtZGlmZg/607f07ceef4b=
+8524a319a23cBa5909cc8" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> saw the equity raise and panicked</a>. I do=
+ubt anyone wants to be the=C2=A0<em>next=C2=A0</em>regional bank to go out =
+with a marketed stock offering. And a bank regulatory climate that is too p=
+unitive for shareholders will make it hard for banks to sell more stock, wh=
+ich is the main thing they should be doing.</p>
+<p style=3D"margin: 16px 0;">I guess that is the tension now. Bank regulato=
+rs want depositors to feel like they are not taking a risk by keeping their=
+ money in the bank. They want the banks and their shareholders not to take =
+risks with those depositors=E2=80=99=C2=A0money. But they do still want sha=
+reholders to take the risk of owning bank stock.=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDgzNTQ2MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwOTM4ODgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC7da27341" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30835463&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31093888&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDgzNTQ2MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEwOTM4ODgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD7da27341" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30835463&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31093888&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Banking as mystery</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/30835463.258425/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjMtMDMtMTMvc3ZiLWNvdWxkbi10LWlnbm9yZS1pdHMtbG9zc2VzLWJ1dC10a=
+GUtZmVkLWNhbj9jbXBpZD1CQkQwMzE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0=
+bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R=
+1ZmY/607f07ceef4b8524a319a23cD083768b3" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">  wrote yesterday</a> about=
+ the Fed=E2=80=99s Bank Term Funding Program. Banks buy long-term bonds, ma=
+rk them =E2=80=9Cheld to maturity,=E2=80=9D and then when those bonds lose =
+value the banks ignore it for accounting purposes. But that only goes so fa=
+r: The banks disclose the losses in footnotes to their financial statements=
+, people sometimes notice, and when the losses get too big there are runs. =
+The BTFP is a way for the=C2=A0<em>Fed=C2=A0</em>to take over the job of ig=
+noring those losses instead: The Fed promised to lend against those bonds a=
+t 100 cents on the dollar, as though they hadn=E2=80=99t lost value. The Fe=
+d is not subject to bank runs. The Fed can=C2=A0<em>credibly=C2=A0</em>igno=
+re those losses; banks can only=C2=A0<em>mostly=C2=A0</em>ignore them.</p>
+<p style=3D"margin: 16px 0;">I also wrote about Tether:</p>
+<blockquote><p style=3D"margin: 16px 0;">Another possible understanding, th=
+ough, is that banking requires mystery! My point, in the first section of t=
+his column, was that too much transparency can=C2=A0<em>add</em>=C2=A0to th=
+e fragility of a bank, that the Fed is providing a valuable service by igno=
+ring banks=E2=80=99 mark-to-market losses.</p></blockquote>
+<p style=3D"margin: 16px 0;">Byrne Hobart, whose Diff newsletter may or may=
+ not=C2=A0have played a role in bringing=C2=A0down Silicon Valley Bank,=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425=
+/aHR0cHM6Ly93d3cudGhlZGlmZi5jby9hcmNoaXZlL2xveWFsdHktcHJvZ3JhbS1lY29ub21pY3=
+MvP3JlZj10aGUtZGlmZi1uZXdzbGV0dGVy/607f07ceef4b8524a319a23cBd2809bfa" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">wrote today</a> that =E2=80=9Cthe frequency of=C2=A0Diff/Money Stuff=C2=
+=A0cross-linking is a good ad hoc measure of financial conditions.=E2=80=9D=
+ He quotes my point about Tether and goes on:</p>
+<blockquote><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30835463.258425/aHR0cHM6Ly93d3cuaW50ZXJmbHVpZGl0eS5j=
+b20vdjIvMjY2OS5odG1sP3JlZj10aGUtZGlmZg/607f07ceef4b8524a319a23cBaade42bc" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">This post by Interfluidity</a>=C2=A0is a wonderful exposit=
+ion on the theme, arguing that financial systems overcome the collective ac=
+tion problem that there just aren't that many projects with an attractive l=
+evel of risk and reward to the person doing them, and that by disguising so=
+me of the risk, we can increase the positive externalities. This is an extr=
+eme view.</p></blockquote>
+<p style=3D"margin: 16px 0;">Yes! I=C2=A0think that post (=E2=80=9C<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425/aHR0cHM6L=
+y93d3cuaW50ZXJmbHVpZGl0eS5jb20vdjIvMjY2OS5odG1s/607f07ceef4b8524a319a23cC09=
+eba2c9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">Why is finance so complex?</a>=E2=80=9D) from Steve Randy W=
+aldman at Interfluidity is a classic, I cite it often, and it was what I ha=
+d in mind as I was writing yesterday. Waldman describes banking as, broadly=
+ speaking, an opacity mechanism for credit, a way for society to take a lot=
+ of credit risk without the people taking that risk quite knowing that that=
+=E2=80=99s what they=E2=80=99re doing. My point yesterday was that it is al=
+so an opacity mechanism for interest rates, a way for society to borrow sho=
+rt and lend long. Sometimes you need to bulk up the opacity though.</p>
+<p style=3D"margin: 16px 0;">In other news, here is =E2=80=9C<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/30835463.258425/aHR0cHM6Ly9wYXBl=
+cnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTQzODc2NzY/607f07ceef4=
+b8524a319a23cB9c87f4e1" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">Monetary Tightening and U.S. Bank Fragility=
+ in 2023: Mark-to-Market Losses and Uninsured Depositor Runs?</a>=E2=80=9D =
+by=C2=A0Erica Xuewei Jiang,=C2=A0Gregor Matvos, Tomasz Piskorski and Amit S=
+eru, dated yesterday:</p>
+<blockquote><p style=3D"margin: 16px 0;">We analyze U.S. banks=E2=80=99 ass=
+et exposure to a recent rise in the interest rates with implications for fi=
+nancial stability. The U.S. banking system=E2=80=99s market value of assets=
+ is $2 trillion lower than suggested by their book value of assets accounti=
+ng for loan portfolios held to maturity. Marked-to-market bank assets have =
+declined by an average of 10% across all the banks, with the bottom 5th per=
+centile experiencing a decline of 20%. We illustrate that uninsured leverag=
+e (i.e., Uninsured Debt/Assets) is the key to understanding whether these l=
+osses would lead to some banks in the U.S. becoming insolvent-- unlike insu=
+red depositors, uninsured depositors stand to lose a part of their deposits=
+ if the bank fails, potentially giving them incentives to run. A case study=
+ of the recently failed Silicon Valley Bank (SVB) is illustrative. 10 perce=
+nt of banks have larger unrecognized losses than those at SVB. Nor was SVB =
+the worst capitalized bank, with 10 percent of banks having lower capitaliz=
+ation than SVB. On the other hand, SVB had a disproportional share of unins=
+ured funding: only 1 percent of banks had higher uninsured leverage. Combin=
+ed, losses and uninsured leverage provide incentives for an SVB uninsured d=
+epositor run. We compute similar incentives for the sample of all U.S. bank=
+s. Even if only half of uninsured depositors decide to withdraw, almost 190=
+ banks are at a potential risk of impairment to insured depositors, with po=
+tentially $300 billion of insured deposits at risk. If uninsured deposit wi=
+thdrawals cause even small fire sales, substantially more banks are at risk=
+. Overall, these calculations suggests that recent declines in bank asset v=
+alues very significantly increased the fragility of the US banking system t=
+o uninsured depositor runs.</p></blockquote>
+<p style=3D"margin: 16px 0;">Yeesh! Not now!</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Everything is securities fraud</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Oh=C2=A0<a href=3D"https://link.mail.bloomberg=
+business.com/click/30835463.258425/aHR0cHM6Ly90aGVoaWxsLmNvbS9idXNpbmVzcy9l=
+Y29ub215LzM4OTk5MTEtc2hhcmVob2xkZXJzLWZpbGwtY2xhc3MtYWN0aW9uLWxhd3N1aXQtYWd=
+haW5zdC1zaWxpY29uLXZhbGxleS1iYW5rLXBhcmVudC1jb21wYW55Lw/607f07ceef4b8524a31=
+9a23cB20b1985f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">sure</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Shareholders for the collapsed Silicon Valley =
+Bank have filed a class action lawsuit against the bank=E2=80=99s parent co=
+mpany and its leaders over allegations that they did not disclose how inter=
+est rate increases could have an effect on business.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The shareholders, led by Chandra Vanipenta, fi=
+led the lawsuit on Monday against SVB Financial Group, former CEO Greg Beck=
+er and Chief Financial Officer Daniel Beck to seek unspecified damages for =
+investors who backed the bank between June 16, 2021 and March 10, 2023.=C2=
+=A0</p>
+<p style=3D"margin: 16px 0;">The complaint states that quarterly and annual=
+ financial reports from the bank did not take into account warnings that th=
+e Federal Reserve gave about raising interest rates.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Sure. Here=E2=80=99s <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/30835463.258425/aHR0cHM6Ly9zdG9yYWdlLmNvdXJ=
+0bGlzdGVuZXIuY29tL3JlY2FwL2dvdi51c2NvdXJ0cy5jYW5kLjQwOTQyNy9nb3YudXNjb3VydH=
+MuY2FuZC40MDk0MjcuMS4wLnBkZg/607f07ceef4b8524a319a23cBef6c2827" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> th=
+e complaint</a>. SVB=E2=80=99s annual reports =E2=80=9Cunderstated the risk=
+s posed to the Company by not disclosing that likely interest rate hikes, a=
+s outlined by the Fed, had the potential to cause irrevocable damage to the=
+ Company,=E2=80=9D sure. I don=E2=80=99t know how much money they=E2=80=99l=
+l get out of the holding company at this point, but I do think that as a se=
+curities class action lawyer you are just sort of professionally obligated =
+to file this suit so here it is.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30835463.258425/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9qdXN0aWNl=
+LWRlcGFydG1lbnQtc2VjLWludmVzdGlnYXRpbmctc2lsaWNvbi12YWxsZXktYmFua3MtY29sbGF=
+wc2UtYzE5MmMyYjI/607f07ceef4b8524a319a23cBaffbfadc" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">Elsewhere</a>:<=
+/p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Justice Department and the Securities and =
+Exchange Commission are investigating the collapse of Silicon Valley Bank, =
+according to people familiar with the matter, after the California lender w=
+as taken over by regulators last week amid a historic run on its deposits.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">The separate probes are in their preliminary p=
+hases and may not lead to charges or allegations of wrongdoing. Prosecutors=
+ and regulators often open investigations after financial institutions or p=
+ublic companies suffer big, unexpected losses. Shares in SVB Financial Grou=
+p, which formerly owned the bank, fell 60% last week and have been stopped =
+from trading since Friday.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The investigations are also examining stock sa=
+les that SVB Financial=E2=80=99s officers made days before the bank failed,=
+ the people said.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I said above that, as a moral hazard matter, S=
+VB=E2=80=99s executives are out of their jobs and their shares are zeroed, =
+which is a good warning to other risk-loving bank executives. But several o=
+f them sold stock just before the failure, so they are not=C2=A0<em>really=
+=C2=A0</em>zeroed, and you can see how that would rub people the wrong way.=
+ My own impression is that this is<em>=C2=A0</em>unlikely to be insider tra=
+ding: SVB=E2=80=99s balance-sheet problems were disclosed and known weeks a=
+go, and I gather that SVB=E2=80=99s executives were as surprised as anyone =
+else by the run last week. But, still, it doesn=E2=80=99t look great.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Not now Credit Suisse!</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30835463.258425/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDMtMTQvY3JlZGl0LXN1aXNzZS1maW5kcy1tYXRlcmlhbC13ZWFrbmVzcy1pbi1=
+maW5hbmNpYWwtcmVwb3J0aW5nP2NtcGlkPUJCRDAzMTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW=
+09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxNCZ1dG1fY2FtcGFpZ=
+249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB68415ff3" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> Come on</a>:<=
+/p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Credit Suisse Group AG said it found =E2=80=9C=
+material weaknesses=E2=80=9D in its reporting and control procedures for th=
+e past two years, after questions from US regulators last week.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The Zurich-based bank said Tuesday it will tak=
+e steps to fix ineffective checks on the process it follows to pull togethe=
+r its financial reports. But the firm said its statements for 2022 and 2021=
+ =E2=80=9Cfairly present=E2=80=9D its financial condition.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There is never a great time for a bank to anno=
+unce =E2=80=9Chey turns out we don=E2=80=99t really know what=E2=80=99s goi=
+ng on at our bank,=E2=80=9D but this week does feel like a particularly bad=
+ time.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">AMC plunges as investors approve reverse stock=
+ split, <a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.2=
+58425/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMy8wMy8xNC9hbWMtaW52ZXN0b3JzLWFwcHJvd=
+mUtcmV2ZXJzZS1zdG9jay1zcGxpdC1hcGUtc2hhcmUtY29udmVyc2lvbi5odG1s/607f07ceef4=
+b8524a319a23cB4529394b" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> APE share conversion</a>.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30835463.258425/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB6b195f92" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30835463.258425/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB256ff420" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] For what it=E2=80=99s worth, I agree with =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9UaGVTdGFsd2FydC9zdGF0dXMvMTYzNTIzNzQ0MDUzNjMzODQzM=
+g/607f07ceef4b8524a319a23cB11f9672b" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> my Bloomberg colleague Joe We=
+isenthal</a> that (1) it was obviously a bailout and (2) that is sort of a =
+morally neutral conclusion. If there is some established resolution procedu=
+re for a failed bank that would expose some claimants to some risk of loss,=
+ and the government steps in to modify that resolution procedure to give th=
+ose claimants more money and/or certainty, then that is just obviously a ba=
+ilout; what else could it be? (<a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/30835463.258425/aHR0cHM6Ly93d3cuam9zaGJhcnJvLmNvbS9wL2JhaWxvdX=
+QtaXMtbm90LWEtZGlydHktd29yZD91dG1fc291cmNlPXN1YnN0YWNrJnV0bV9tZWRpdW09ZW1ha=
+Ww/607f07ceef4b8524a319a23cB285c24e1" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">Josh Barro</a>: =E2=80=9CI th=
+ink a fair definition of a =E2=80=98bailout=E2=80=99 is when people or enti=
+ties receive an ad hoc financial rescue to which they were not legally enti=
+tled before the event that necessitated the rescue.=E2=80=9D) But it seems =
+perfectly coherent to think something like =E2=80=9Cthe SVB resolution was =
+a bailout of depositors, but that was good, and doesn=E2=80=99t really have=
+ much or any economic cost to taxpayers given the likely selling price of t=
+he assets.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Isn=E2=80=99t it? You might disagree. But =
+SVB was sort of embedded in the culture of Silicon Valley, which meant thin=
+gs like (1) its executives probably thought of its startup customers as wor=
+ld-changing businesses rather than creatures of interest rates and (2) they=
+ probably believed Silicon Valley=E2=80=99s hype that the tech ecosystem wa=
+s cooperative and supportive and not just everyone looking out for themselv=
+es, so they didn=E2=80=99t expect their loyal venture capitalist depositors=
+ to turn on them so quickly. I highly recommend Ben Thompson=E2=80=99s Stra=
+techery post from yesterday, =E2=80=9C<a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/30835463.258425/aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMy9=
+0aGUtZGVhdGgtb2Ytc2lsaWNvbi12YWxsZXktYmFuay8/607f07ceef4b8524a319a23cB139dc=
+b47" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">The End of Silicon Valley (Bank),</a>" for his view on the dem=
+ise of Silicon Valley=E2=80=99s cooperative, repeat-player, infinite-game e=
+thos. If you were an SVB executive a week ago, you might have still believe=
+d in that ethos. But if your response to all this is =E2=80=9Cthis was stup=
+id and they were taking stupid risks by being the bank of startups and bett=
+ing big on duration,=E2=80=9D that=E2=80=99s fine too.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Ooh I don=E2=80=99t know man, rates have r=
+allied hard since SVB was rescued, and it was insolvent-ish because of a ba=
+d bet on rates. If you sell the portfolio *today* maybe it is solvent enoug=
+h to pay the equity something? I would not bet on the stock or anything but=
+ that would be a funny outcome.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Asness was replying to <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/30835463.258425/aHR0cHM6Ly90d2l0dGVyL=
+mNvbS9qYXNvbmZ1cm1hbi9zdGF0dXMvMTYzNTExMjE2NTcxNDgyOTMxOQ/607f07ceef4b8524a=
+319a23cBe789478f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">this tweet from Jason Furman</a>, which I agree w=
+ith: =E2=80=9CI=E2=80=99m not particularly worried about moral hazard. The =
+CEO, management &amp; Board all losing their jobs. Equity going to zero. Bo=
+ndholders won't be paid in full. These are all the entities that can effect=
+ively monitor, is unrealistic to expect depositors to do much monitoring.=
+=E2=80=9D</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] One way you know this is that lots of SVB =
+depositors were earning zero interest on their deposits. If they were knowi=
+ngly or unknowingly taking risk in the hope of making a big return, or even=
+ a little return, it might be bad to bail them out. But they were not getti=
+ng paid at all for taking risk! It was just a bank account.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] There is a <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30835463.258425/aHR0cHM6Ly90d2l0dGVyLmNvbS9kZGF5Z=
+W4vc3RhdHVzLzE2MzQ5MjU3ODMwODgyNDY3ODQ/607f07ceef4b8524a319a23cBabb15ca8" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> contrary view</a> floating <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/30835463.258425/aHR0cHM6Ly90d2l0dGVyLmNvbS9yaXR3aWtfcHJpeW=
+Evc3RhdHVzLzE2MzU1NjI4OTQwNDA0ODE3OTI_cz00MyZ0PUpYS2hPdDB0MnJ6M2I4ZEpJTmtKa=
+lE/607f07ceef4b8524a319a23cB6b88df9b" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> around</a> that in fact if y=
+ou are a business with more than a few hundred thousand dollars in cash, yo=
+u should develop expertise in cash management and bank risk, and use third-=
+party products to spread that risk around to maximize FDIC coverage. Look: =
+sure? Whatever? I suppose that=E2=80=99s a useful business skill, but it fe=
+els like a skill that is useful in a second-best world. Better to make all =
+the banks safe so no one has to have this expertise.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] No time to explain! Covered in <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/30835463.258425/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTMvc3ZiLWNvdWxkbi10=
+LWlnbm9yZS1pdHMtbG9zc2VzLWJ1dC10aGUtZmVkLWNhbj9jbXBpZD1CQkQwMzE0MjNfTU9ORVl=
+TVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMz=
+AzMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cE083768b3" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  yesterday=E2=80=99s column</a>!</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBd555fbc0" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBd5f3f211" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB50878077" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBf9ea24fa" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB11015368" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30835463.258425/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCb75fb35d" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30835463.258425/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB1696eac6" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30835463.258425/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBc7e749cb" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB3=
+bfc1e9d" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30835463.258425/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB5=
+5a73513" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cicwsn.5jeh/9cd6f36b.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9606926_467919765.1678822972530--
+

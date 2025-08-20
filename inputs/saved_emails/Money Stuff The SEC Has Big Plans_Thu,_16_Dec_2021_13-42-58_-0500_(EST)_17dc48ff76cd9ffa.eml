@@ -1,0 +1,2585 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4882:0:b0:14f:df5a:7f27 with SMTP id o2csp770899lkd;
+        Thu, 16 Dec 2021 10:45:09 -0800 (PST)
+X-Received: by 2002:a17:907:608e:: with SMTP id ht14mr16854950ejc.120.1639680308850;
+        Thu, 16 Dec 2021 10:45:08 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1639680308; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=gkeyCVrEcI7+MWkL5hFEoXMjgHLgt+q6eZbozoJG17GagY6ApPO9xmGScTpL8xzKoU
+         6un4N4ivldYq7jyKbqwOJilhG0pmp9bj26F7LxMJs0pca7rH6e6v+MVIJy3npRoO56yR
+         DPh6PyfJRVOVOkyLfhK390m7wo6kBB5jqGq6b2Up/y8+4WKoz+zyZnK9lB8qHfNeX4sS
+         fCDbqTdtD/T+0NOCf3JAmr+Id+VQO9KyTC8CN/OnwrffwzjIDRBQWlD4lNKf+uXY7G+M
+         XDATb402+UbEecInXDuTa3tdVJ/3XSbiODxD6LXRik6RxSH84kZsFX4dBHk3ByjiaWBV
+         BdJw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=0JWC1P8XofRJQRXO+eiYa1NXKguAvr3qZ9DrO2pv63o=;
+        b=ydYMNHZb6qyFU8i2oyirefsIo/ILeJuXfHIyhdHrJJNCLE8WSVa3FXVHeppUi9lBrH
+         sJoUI7MDmkWSlstiwrDsaKsJjykjYMMwGaG57zk8v5WzhxAN2c8M3PaaoC7cKRuDr4AG
+         /bfN+RVREiVteKMqx3OWDm+OCYSXn9Rp6lD8Mg1rtEWsF5zO/khCb4ecQP3CEqctp08Q
+         OFcuPwv4h6bp8+nDmD39IEeoq2ry754ORm4TFso88WIof4SKj3m+RCPpxFnJ2QXt3jzF
+         iJLSpjgTNW4mOEGjMObd0sbyYSxzny+XrxO4je7N9FnX4HTU4HiNdwSvFOPFnPT1BZwO
+         TVzQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=lQ8hmjsj;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l18sor2698165ejo.123.2021.12.16.10.45.08
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 16 Dec 2021 10:45:08 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=lQ8hmjsj;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=0JWC1P8XofRJQRXO+eiYa1NXKguAvr3qZ9DrO2pv63o=;
+        b=M6z786h+qh1JWi1zGKbk/w8Otski1PnSczuNesKJjQmEmjDxI4s27ZuClg7i31iK2B
+         38iyVKca6QMN7fnWjUOW4JbIsG4XFYu/HGyaX3fJnZ30TasFctXRtPDJMa5w/7y8mPOj
+         p0NWbRe2DzL7GnS5se6YnXnpSJ5IoOS3AXboWXoF2cZbsKaIJYWePOlymGtOxKlKMUB5
+         nGI1QltaqyovUKDKRSR3kV4kbwmnFS9V7jntrEswpTYDe193jbuX1eJJVUkLw4+gmFjC
+         ceMGPvqn1f3Ay2m2/ptNDUCjO2+b2bNAEd3dKoOtrLLt1klIlTiH7XWAAp17EHaZCdoV
+         0LWw==
+X-Gm-Message-State: AOAM530goLSrCgjI8pT+nf5pZArCBfGJEcZ/00t4yTP6Tr00EnSG6T/F
+	xZnnSkHQkTkIJyIYXiVgW5xeU948VvuukwEXL6eYl2RGXmJjW2tilg==
+X-Received: by 2002:a17:907:118f:: with SMTP id uz15mr7031001ejb.726.1639680308346;
+        Thu, 16 Dec 2021 10:45:08 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:318e:0:0:0:0:0 with SMTP id c14csp761269ecs;
+        Thu, 16 Dec 2021 10:45:02 -0800 (PST)
+X-Received: by 2002:a17:90b:1b4a:: with SMTP id nv10mr7660080pjb.118.1639680302269;
+        Thu, 16 Dec 2021 10:45:02 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1639680302; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=OsQdxE5XFQtz/tQuBT+f0tHqje4YRRJyF8r/nO4btlKHzZwW1Y9DTtVDNZwkyFUWgK
+         8AQYYbHiWD7llwjRotivtE7YYvnMjSDIDZMw8oQyCL6Eef+7Bh4vddRL0pIi+PjphfkC
+         Zv1SeCBlsMzwJ9fPCSN1SuRQrwvakLcqn8iqI53UVLGVcv+mfkqYzet7VArvdzw5mrMY
+         7m8P+sjS70d3Zgh0FkZOmqEKXwyOTVXodhseo1rHnEw2Ini5F1x2XEmSna31CvKQJ6yA
+         GEVWd6n1oB2P5xwtlorOdykAIBhh2m8fWWb9dJOUbGuqGzeFQE1kVwNCqGMcXNNviPAX
+         1uKQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=0JWC1P8XofRJQRXO+eiYa1NXKguAvr3qZ9DrO2pv63o=;
+        b=IgFY9vDbxyHq+mqQKRi5ZsDOJ4ai4poudVOfVhU+C8TojQn6SRLg4mWXTN6NuP9I+E
+         weSfe+ruZw3MK/ljK17iIMcfzJVvQln3WB6T+rwApPEGuYf/t7OXK/TIK1l6lCY3KrBT
+         cRte5//ebChWHkGBz1YgeedO7gbQ2uMVmeX6gw39SpbS5BLqnGDTWP2WfCAhTYf9/Zdx
+         XBTapB2lD9f9Ptf2X3KYU8y65bnoiO6IypMXBtEgQGlX8lWZ1phtwMBeIInrQZ1p5lIt
+         kemA2A6Z5vuwqnvL2fAW4bwK6qgiRzsMdQk7y/PqFLKD7Nxx0Riygd4zCDXATfY0k1VM
+         DvlQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=lQ8hmjsj;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20211216134258.26067671.278641@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20211216134258.26067671.278641@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211216134258.26067671.278641@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id mi1sor5572302pjb.17.2021.12.16.10.45.01
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 16 Dec 2021 10:45:02 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20211216134258.26067671.278641@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwmtKov+0v/1rLIUtZeFWXlclhBTPliX8H3SzDa1VIGtlSxmGJ9FURImBcdVA2gctxG6V0/3GtBkO8D8JrgvpgjvCZjYlc=
+X-Received: by 2002:a17:90b:4acd:: with SMTP id mh13mr7610693pjb.230.1639680301235;
+        Thu, 16 Dec 2021 10:45:01 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1639680301; cv=none;
+        d=google.com; s=arc-20160816;
+        b=LZ7s1v7Of7PZgI9nnFV4n3y0SuGYW3N4F+M+l1T7q6NaX7dF1yT2cWdg8spnpHOQEy
+         73mf/ebuXyKW1HEnQTSzJhVoMsJWaCegyOV1sL99umQgmzhTVe9qPxHl7/PWlxWEtbdq
+         QUPuTDYBcKrngAlUAZBx+gsrV2d3wkMZ1iBLaAby/FCHPf1j/OSOc7VTUCAE7TcZy9N4
+         CSRvZ0lOqwh4hzS3bnhwfHKVAhwlYhk2i0aCe0fYpCg+r0RmdFJD02kSPV0INoZM1a1m
+         Mtlnpyl0ECKk1gr/STc4lcvO/iAnOIBFqa2xyFqs595xOVj2Q2YaDc3RUBjR4UopmXDj
+         b3cA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=0JWC1P8XofRJQRXO+eiYa1NXKguAvr3qZ9DrO2pv63o=;
+        b=J1AD51VbuNUHLv83l5OnX830plSQBs604xDUVaUICsK2tFBjpakxmcLD4qInMuw5oA
+         XHWQykAqEN3/Tly2/6Eoo9PJIGpWNSQY94q0aivXkJ9U9gjeFCMpsrVOWnTAuCSjYf+a
+         41SJNc2VMTJiaFzUDvm03k0Fb86oGLdeo0NydsrWxoTERrzcnSnLH/v0c4yKvmfDZlGq
+         uCywiGNHimr2QJNJJP0fH/L5d/FsW18S44pKUflezFdm4DMgzSDq5cnBGLHYhkZuPL5V
+         7DpKZiMX/r1jN2+kD6VXZLHPdJ1oXl7soUqk8iLc9aQ/pjADkjDLvzX2EJVh8Qzzx3DV
+         kb+A==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=lQ8hmjsj;
+       spf=pass (google.com: domain of delivery_20211216134258.26067671.278641@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20211216134258.26067671.278641@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211216134258.26067671.278641@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id mu12si550260pjb.3.2021.12.16.10.44.52
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 16 Dec 2021 10:45:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20211216134258.26067671.278641@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=9PYm2YI6/gq4l8fjQCioP817t3Jn6dvZjoIzNNPnVho=;
+ b=lQ8hmjsjeVXtoa0qHGdb8p3fIy7JE3maj4UPZHW+hCwzoCsamJkbBkKSX1Ul5S/WX7NVit/dZh5G
+   cCTut/ukcJLRQEe2oDp7eY1DkUus+lWr9XVD61JlNoG/fYo1NZb4sZBOp2YemAmHluWiEuG1jzTs
+   EPP53NB46PaEmX1wej4=
+Received: from njmta-90.sailthru.com (173.228.155.90) by bloomberg-b.sailthru.com id hne4i82tkt00 for <bloomberg@khamel.com>; Thu, 16 Dec 2021 13:44:49 -0500 (envelope-from <delivery_20211216134258.26067671.278641@mx.sailthru.com>)
+Received: from nj1-illcherry.flt (172.18.20.10) by njmta-90.sailthru.com id hne4i21qqbsa for <bloomberg@khamel.com>; Thu, 16 Dec 2021 13:42:58 -0500 (envelope-from <delivery_20211216134258.26067671.278641@mx.sailthru.com>)
+Date: Thu, 16 Dec 2021 13:42:58 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20211216134258.26067671.278641@sailthru.com>
+Subject: Money Stuff: The SEC Has Big Plans
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_45289_300348787.1639680178037"
+Precedence: bulk
+X-Feedback-ID: 6358:26067671:campaign:sailthru
+X-TM-ID: 20211216134258.26067671.278641
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illcherry.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfipxz.5z01/cc7fec78
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfipxz.5z01/cc7fec78>, <mailto:unsubscribe_20211216134258.26067671.278641@mx.sailthru.com>
+X-rpcampaign: stjko26067671
+
+------=_Part_45289_300348787.1639680178037
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+We are well into the holiday season, which means that people are wrapping
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.We are well into the holiday season, which means that people are wrapping=
+ up work for the year, and yesterday the U.S. Securities and Exchange Commi=
+ssion proposed, uh, all the rules? Here are some=C2=A0new rule proposals=C2=
+=A0about 10b5-1 plans, stock buybacks, money market funds and swaps. Take t=
+he rest of the year off, SEC, you=E2=80=99ve earned it.=C2=A0Let=E2=80=99s =
+start with swaps.
+ =20
+   =20
+      SEC v. CDS
+   =20
+ =20
+Here are the SEC=E2=80=99s proposed rules about =E2=80=9Csecurity-based swa=
+ps.=E2=80=9D =E2=80=9CSwaps,=E2=80=9D to the SEC, can refer to two differen=
+t instruments, which I will discuss separately. One is a credit default swa=
+p, where the buyer pays a premium to the seller and the seller pays the buy=
+er if some reference debt instrument =E2=80=94=C2=A0a corporate bond or loa=
+n, a sovereign bond, etc. =E2=80=94=C2=A0defaults.=C2=A0There  was a  wave =
+of controversy a few years ago  about a  category of  stuff that I will loo=
+sely call =E2=80=9CCDS shenanigans.=E2=80=9D=C2=A0A credit default swap is =
+a bilateral contract between two people who may or may not own any debt of =
+the underlying company or=C2=A0have any relationship with the underlying co=
+mpany. At some point, buyers and sellers of CDS realized that they could go=
+ to the underlying company and say =E2=80=9Chey, it would help us out a lot=
+ on our CDS contract if you [did][did not] default on your debt,=E2=80=9D a=
+nd would cut deals with the company to do that. (=E2=80=9CDefault=E2=80=9D =
+here generally meant some sort of technical default that triggered CDS but =
+did not plunge the company into a disastrous bankruptcy.) Occasionally CDS =
+buyers would go to the company and offer it a deal to default, and CDS sell=
+ers would offer it a deal=C2=A0not=C2=A0to default, and the company could p=
+lay them against each other and get itself a really good deal.This always s=
+truck me as sort of wonderful. The downside was that some hedge funds lost =
+money on zero-sum bets with other hedge funds. The upside was that distress=
+ed companies got attractive financing to keep their businesses alive.[1] Th=
+ese deals were pure transfers of money from hedge funds to workers: People =
+at troubled companies got to keep their jobs because some hedge fund would =
+pay their salaries in order to rip off another hedge fund.Almost nobody agr=
+ees with me about this.  Literally the Pope called on hedge funds to stop g=
+iving money to companies to default on their debts. Regulators have  made n=
+oises forever about it being market manipulation.To me it seems like=C2=A0o=
+bviously=C2=A0not market manipulation: You are not manipulating=C2=A0a mark=
+et, you are changing=C2=A0economic=C2=A0reality. This is totally normal in =
+distressed credit situations: A company has run out of money and might defa=
+ult, which will be good for some interested parties (vulture funds who boug=
+ht senior debt at a discount and want to=C2=A0seize the company,=C2=A0etc.)=
+ and bad for other interested parties (junior creditors who might lose ever=
+ything, etc.). Someone for whom it is bad will come to the company and say =
+=E2=80=9Chey we will give you more financing so you don=E2=80=99t default a=
+nd we won=E2=80=99t lose our money.=E2=80=9D Someone for whom it is good wi=
+ll come to the company and say =E2=80=9Chey you should default and get out =
+from these onerous debts, we will treat you nice in bankruptcy.=E2=80=9D=C2=
+=A0The addition of CDS makes these negotiations=C2=A0more interesting but d=
+oes not change the fundamental character.Again, though, nobody agrees with =
+me, and the SEC wants to ban, you know, the stuff I am talking about. If th=
+at sounds vague, it is. The SEC has proposed a new rule, Rule 9j-1, banning=
+ manipulation of securities-based swaps. Part of this =E2=80=94=C2=A0Rule 9=
+j-1(a) =E2=80=94=C2=A0basically bans market manipulation and insider tradin=
+g in CDS; the SEC originally proposed this in 2010 and is coming back to it=
+ now.[2] But Rule 9j-1(b) is intended to ban CDS shenanigans. From the SEC=
+=E2=80=99s proposal:Re-proposed Rule 9j-1(b) would make it unlawful for any=
+ person to, directly or indirectly, manipulate or attempt to manipulate the=
+ price or valuation of any security-based swap, or any payment or delivery =
+related thereto. Among other things, this language is intended to address a=
+ number of the manufactured or other opportunistic CDS strategies observed =
+over the last decade, and summarized above in section I.B, including situat=
+ions where a party intentionally distorts any payment related to a security=
+-based swap for the benefit of one of the security-based swap counterpartie=
+s, such as actions that serve little to no economic purpose other than to a=
+rtificially influence the composition of the deliverable obligations in a C=
+DS auction.Re-proposed Rule 9j-1(b) also is intended to prohibit, among oth=
+er things, a situation where a person (or group of persons) improperly and =
+intentionally causes or avoids the purchase or sale of a security-based swa=
+p for the benefit of a counterparty to an SBS, such as intentionally and im=
+properly orphaning a CDS, avoiding termination of a CDS for a period of tim=
+e, or causing the termination of a CDS. As previously noted, =E2=80=9Corpha=
+ning=E2=80=9D a CDS refers to a situation where the debt of a reference ent=
+ity is eliminated or reduced for the purposes of moving the price of CDS.=
+=C2=A0The end result of such activity is that CDS buyers continue to pay (a=
+nd CDS sellers continue to receive) premiums on CDS that will never default=
+. Similarly, a CDS protection seller could offer financing to the company t=
+o avoid a credit event and subsequent CDS payout, with the financing timed =
+so that the company=E2=80=99s bankruptcy is merely delayed until after the =
+CDS expires.=C2=A0To be clear, a person simply profiting from a CDS positio=
+n after a company=E2=80=99s bankruptcy, which such person could have preven=
+ted by participating in a financing to the company, without more is not in =
+and of itself improper conduct for purposes of re-proposed Rule 9j-1(b).Tha=
+t last sentence is fun. You are a big credit fund, you own CDS on a company=
+ and you will make money if it goes bankrupt. The company comes to you and =
+says =E2=80=9Cwill you lend us some money to avoid bankruptcy?=E2=80=9D =E2=
+=80=9CNo,=E2=80=9D you say, =E2=80=9CI=E2=80=99ll be better off if you go b=
+ankrupt.=E2=80=9D Is that CDS manipulation? No, says the SEC. Or rather, =
+=E2=80=9Cwithout more,=E2=80=9D it =E2=80=9Cis not in and of itself imprope=
+r conduct.=E2=80=9DAlternatively: You are a big credit fund, you have=C2=A0=
+sold=C2=A0CDS on a company, and you will lose money if it goes bankrupt. Th=
+e company comes to you and says =E2=80=9Cwill you lend us some money to avo=
+id bankruptcy?=E2=80=9D =E2=80=9CSure,=E2=80=9D you say, =E2=80=9Cthat way =
+I will save money on my CDS trade.=E2=80=9D Is that CDS manipulation? I mea=
+n, probably not, but it=E2=80=99s a live question now isn=E2=80=99t it?=C2=
+=A0Are you =E2=80=9Cimproperly and intentionally ... avoiding termination o=
+f a CDS for a period of time=E2=80=9D? Here=E2=80=99s the SEC:The Commissio=
+n recognizes that reference entities often rely on financing and other form=
+s of relief to avoid defaulting on their debt, and the proposed rule is not=
+ intended to discourage lenders and prospective lenders from discussing or =
+providing such financing or relief, even when those persons also hold CDS p=
+ositions. Rather, the Commission is proposing Rule 9j-1(b) to account for a=
+ctions taken outside the ordinary course of a typical lender-borrower relat=
+ionship (or a prospective lender-borrower relationship). Although any such =
+determination would need to be based on the facts and circumstances of a pa=
+rticular situation, as a general matter the Commission believes that an act=
+ion that appears to be designed almost exclusively to harm one or more CDS =
+counterparties would likely fall within the prohibition in re-proposed Rule=
+ 9j-1(b).I think=C2=A0from the company=E2=80=99s perspective=C2=A0it is nev=
+er getting financing =E2=80=9Calmost exclusively to harm one or more CDS co=
+unterparties=E2=80=9D! It is always getting financing to run its business! =
+But you kind of know what the SEC means. If the money the company is gettin=
+g is extracted mostly from a CDS buyer or seller, that=E2=80=99s bad.=C2=A0=
+Another one: You are a big credit fund and you have a CDS calendar trade wh=
+ere you have sold CDS on a company that expires next month, and bought CDS =
+on the same company that expires next year. If it goes bankrupt in the next=
+ month you will lose money. If it survives a month and then goes bankrupt w=
+ithin the next year, you will make money. The company comes to you and says=
+ =E2=80=9Cwill you lend us some money to avoid bankruptcy?=E2=80=9D =E2=80=
+=9CFor six months I will, sure,=E2=80=9D you say. Is=C2=A0that=C2=A0CDS man=
+ipulation? I feel like you, and the SEC, and the Pope, will all say =E2=80=
+=9Cyes it is.=E2=80=9D The SEC complains about =E2=80=9CCDS buyers endeavor=
+ing to influence the timing of a credit event in order to ensure a payment =
+(upon the triggering of the CDS) before expiration of a CDS, or a CDS selle=
+r taking similar actions to avoid the obligation to pay by ensuring a credi=
+t event occurs after the expiration of the CDS,=E2=80=9D and you are arguab=
+ly doing both. And yet the thing you are doing is basically (1) lending mon=
+ey to a company to keep it alive and then (2) later declining to do that ag=
+ain. Both of those things seem fine? I don=E2=80=99t know.Or: A company wit=
+h a lot of debt outstanding, issued out of a financing subsidiary, comes to=
+ you and says =E2=80=9Cwill you lend me some money to avoid a default?=E2=
+=80=9D You have sold a lot of CDS. =E2=80=9CSure,=E2=80=9D you say, =E2=80=
+=9Cno problem. In fact I will pay off all of your existing debt, because I =
+want to lend to you with a cleaner capital structure and more runway. But I=
+ want to lend you the money through your operating subsidiary, not the fina=
+ncing subsidiary that issued all the old debt. I think the operating sub is=
+ a better credit.=E2=80=9D I feel like all of those words sound fine? But w=
+hat I have described is also  =E2=80=9Corphaning=E2=80=9D the old CDS: When=
+ all the debt of the old financing subsidiary is gone, the CDS on that subs=
+idiary is worthless; you sold that CDS and have a windfall when it becomes =
+worthless. That=E2=80=99s the thing the SEC wants to prevent. But which par=
+t of what you are doing =E2=80=9Cappears to be designed almost exclusively =
+to harm one or more CDS counterparties=E2=80=9D? Which part is just =E2=80=
+=9Cthe ordinary course of a typical lender-borrower relationship=E2=80=9D?I=
+t=E2=80=99s also worth briefly discussing Rule 9j-1(a), which is meant (amo=
+ng other things) to prohibit insider trading in CDS. CDS was originally des=
+igned as a way for banks to hedge their credit risk in lending: A bank woul=
+d lend money to a company, and then it would buy CDS in the market to insur=
+e it against credit losses on the loan.Classically, a bank loan is not a =
+=E2=80=9Csecurity,=E2=80=9D and it is okay =E2=80=94=C2=A0expected, really =
+=E2=80=94=C2=A0for a bank to make loans while it has material nonpublic inf=
+ormation about the borrower. Classically banks are trusted partners of thei=
+r borrower companies; the companies tell them everything, and the banks kno=
+w the borrowers really well so they=C2=A0can make good credit decisions.[3]=
+These things interact awkwardly. If you=E2=80=99re a bank and you lend mone=
+y to a company based on inside information, and then you hedge in the CDS m=
+arket, are you committing insider trading? I think the answer is and should=
+ be =E2=80=9Cyes=E2=80=9D: =E2=80=9CBanks are best positioned to evaluate c=
+redit risk because they have total access to a company=E2=80=9D is a reason=
+able theory of banking, and =E2=80=9Cbanks fund loans but hedge the credit =
+risk in the CDS market=E2=80=9D is a reasonable theory of banking, but=C2=
+=A0they make no sense together. Either get inside information and own the c=
+redit risk, or use public information and hedge in public markets. This see=
+ms pretty obvious, and the SEC=C2=A0 apparently agrees, but they asked for =
+comments in case anyone disagrees:Should the Commission also create a safe =
+harbor for entering into security-based swap transactions for purposes of h=
+edging some or all of their exposure arising out of lending activities with=
+ a reference entity or the syndication of such lending activities? Why or w=
+hy not? If such a safe harbor is necessary, should =E2=80=9Chedging=E2=80=
+=9D be defined and if so, how should it be defined? What types of activitie=
+s should be included and/or excluded in such a safe harbor? What conditions=
+ should be included to protect other market participants and to ensure that=
+ any such safe harbor is not overly broad? For example, should the safe har=
+bor require that a person using a security-based swap to hedge their intere=
+st in a loan while in possession of material nonpublic information provide =
+certain information to their counterparty about the underlying borrower/ref=
+erence entity? If so, what information should be required to be provided, a=
+nd why? Should the safe harbor be conditioned on the person using a securit=
+y-based swap to hedge their interest in a loan being a particular type of f=
+inancial institution, such as a bank?
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      SEC v. TRS
+   =20
+ =20
+The other thing that the SEC counts as a =E2=80=9Cswap=E2=80=9D is what I w=
+ill loosely call an =E2=80=9Cequity total return swap.=E2=80=9D[4] This is =
+a contract in which an investment bank buys a bunch of stock of some compan=
+y=C2=A0on behalf of=C2=A0the bank=E2=80=99s client, generally a hedge fund.=
+ The bank holds the stock; if it goes up, the bank pays money to the client=
+; if it goes down, the client pays money to the bank. The client has econom=
+ic exposure to the stock (it makes money when it goes up and loses money wh=
+en it goes down); the bank mostly does not (it is perfectly hedged unless t=
+he client defaults).There are two main reasons a client would do this. One =
+is leverage. If you want to buy $1 billion of stock but don=E2=80=99t have =
+$1 billion lying around, you can buy it =E2=80=9Con swap,=E2=80=9D the=C2=
+=A0bank=C2=A0will put up the $1 billion, and you=E2=80=99ll only have to pu=
+t down a deposit of $100 million or $200 million or whatever to cover the r=
+isk that you=E2=80=99ll have to pay the bank when the stock moves down. Thi=
+s is roughly equivalent to a margin loan =E2=80=94=C2=A0the bank lends you =
+some of the money to buy the stock =E2=80=94=C2=A0but it is a little nicer =
+for the bank,[5] so the bank will be willing to give you more leverage on b=
+etter terms.The other is, sometimes the client wants to own the stock but n=
+ot, you know,=C2=A0own=C2=A0the stock. There are various rules that apply t=
+o owners of stock that those owners might find annoying, and if you just wa=
+nt to have economic exposure to a stock you might buy it on swap and skip t=
+he legal ownership. The most obvious of these rules, in the U.S., is Sectio=
+n 13=C2=A0of the Exchange Act: If you own a lot of stock of a company, you =
+have to disclose your ownership, which you might not want to do. If you own=
+ the stock on swap, your=C2=A0banks=C2=A0might have to disclose their owner=
+ship, or they might not,[6] but there=E2=80=99s no public indication that=
+=C2=A0you=C2=A0are the economic owner. To be clear, there is a reason for t=
+his: Section 13 is meant to let people know who owns a company, and if you =
+own shares on swap you don=E2=80=99t. You can=E2=80=99t vote those shares. =
+You don=E2=80=99t have control the way a big actual shareholder would. You =
+just have an economic bet on the stock.Similarly, there are antitrust appro=
+val rules that apply to people who acquire big chunks of stock, and if you =
+want to buy stock economically without jumping through antitrust hoops, you=
+ might buy on swap. (And because you can=E2=80=99t control the company with=
+ a swap, it doesn=E2=80=99t count.) Or there are ownership restrictions in =
+various industries, like banking, that  swaps might get around.This strikes=
+ me as mostly fine?=C2=A0The broad theme is that there are a lot of rules d=
+esigned to get at=C2=A0ownership=C2=A0and=C2=A0control=C2=A0of companies, a=
+nd buying stock on swap is a way to get=C2=A0economic exposure=C2=A0to comp=
+anies without ownership or control. So all the rules about ownership and co=
+ntrol don=E2=80=99t apply to swaps. Everything sort of works as designed.Bu=
+t=C2=A0the somewhat weird result is that swaps seem to evade=C2=A0every=C2=
+=A0disclosure regime, because all the disclosure rules are aimed at ownersh=
+ip, and swaps are not ownership, and there is no separate swaps disclosure =
+rule. Now the SEC has proposed one:The Commission has decided to utilize it=
+s rulemaking authority under Section 10B of the Exchange Act to propose new=
+ Rule 10B-1, which would be a large trader position reporting rule for secu=
+rity-based swaps. Specifically, proposed Rule 10B-1 would require public re=
+porting of, among other things: (1) certain large positions in security-bas=
+ed swaps; (2) positions in any security or loan underlying the security-bas=
+ed swap position; and (3) positions in any other instrument relating to the=
+ underlying security or loan or group or index of securities or loans. As d=
+escribed in detail below, proposed Rule 10B-1 would, among other things, in=
+clude a specific quantitative threshold for when public reporting is requir=
+ed. ...In terms of timing, proposed Rule 10B-1(a)(2) would provide that any=
+ Schedule 10B required by the rule shall be filed promptly, but in no event=
+ later than the end of the first business day following the day of executio=
+n of the security-based swap transaction that results in the Security-Based=
+ Swap Position first exceeding the Reporting Threshold Amount.The Reporting=
+ Threshold Amount, for stock total return swaps, is either $300 million of =
+notional amount or 5% of the company=E2=80=99s stock.[7] Under the proposed=
+ rules, if you own a lot of stock on swap, you=E2=80=99ll have to disclose =
+it.One reason people want a rule like this is that, because swap positions =
+are generally not subject to disclosure obligations, nobody knows about the=
+m, and so big secret risks can build up in the financial system.The poster =
+child for this is Archegos Capital Management, a family office that had a b=
+unch of huge stock positions on swap; the stocks went down, Archegos defaul=
+ted on the swaps, and its banks sold all the stocks quickly, leading to big=
+ price moves. In the early days of  the Archegos story, it was widely belie=
+ved that the banks=C2=A0didn=E2=80=99t know about each others=E2=80=99 swap=
+s:=C2=A0Each bank knew =E2=80=9CI own 2% of this stock for Archegos,=E2=80=
+=9D but not =E2=80=9Cfive other banks do too and there=E2=80=99s a ton of s=
+tock to sell if Archegos goes bust.=E2=80=9D But that turned out to be comp=
+letely untrue. Credit Suisse Group AG, which lost billions of dollars on Ar=
+chegos,  published a very thorough and embarrassing report about its failin=
+gs, and one clear conclusion of the report is that Credit Suisse=C2=A0absol=
+utely=C2=A0knew about Archegos=E2=80=99s positions with other banks. Archeg=
+os=E2=80=99s banks had various risk management problems, but =E2=80=9Cswaps=
+ are secret=E2=80=9D does not seem to have been one of them.On the other ha=
+nd it is true that=C2=A0journalists, and=C2=A0the SEC, and=C2=A0other share=
+holders, didn=E2=80=99t know about Archegos=E2=80=99s huge swap positions. =
+I do not know what they would have done if they had known but, yes, conceiv=
+ably someone might have said =E2=80=9Chey Archegos are you sure you want to=
+ own so much of those stocks=E2=80=9D or =E2=80=9Chey banks are you sure yo=
+u all want to be financing such big positions for Archegos=E2=80=9D or what=
+ever. So more swap disclosure might have helped there.The other objection t=
+o total return swaps comes from=C2=A0public companies who worry about activ=
+ist investors. The basic thing an activist investor traditionally does is (=
+1) quietly buy up a big stake in a company, (2) announce that she owns a=C2=
+=A0stake and (3) pressure the company to do stuff. Public companies do not =
+like to be pressured to do stuff, so they tend to dislike activists. One li=
+ne of attack that corporate managers take against activists is to try to li=
+mit their ability to quietly buy up big stakes in companies. Activists like=
+ to buy stakes quietly because, once they announce that they own a big chun=
+k of stock in a company and plan to do activism, the stock will generally g=
+o up.[8] If the rules said =E2=80=9Cas soon as an activist even thinks abou=
+t buying stock, she has to disclose that, so everyone knows what she=E2=80=
+=99s doing,=E2=80=9D then the stock will go up=C2=A0before=C2=A0she buys, a=
+nd being an activist will be less economically viable. All of the benefits =
+of her activism =E2=80=94=C2=A0her ability to push the company to do better=
+ things for shareholders =E2=80=94=C2=A0will go, prospectively, to the peop=
+le who=C2=A0sell=C2=A0her the stock, not to her.Right now the main rule abo=
+ut this in U.S. law is Section 13(d) of the Exchange Act, which says that i=
+nvestors have to disclose their stakes, and any activist intentions, on Sch=
+edule 13D, within=C2=A010 days after they get above 5% of the stock.=C2=A0T=
+his gives activists a chance to buy, you know, 8% or so of the stock quietl=
+y, before disclosing it 10 days after they cross the 5% threshold.=C2=A0(Th=
+ere is also Section 13(f), which says that institutional investment manager=
+s have to disclose all of their large positions every quarter.) Corporate m=
+anagers would prefer a shorter deadline to make life harder for activists. =
+(My old law firm, Wachtell, Lipton, Rosen & Katz, does a lot of activism de=
+fense, and has been pushing for this for more than a decade.)Activists some=
+times use swaps to build larger economic positions without triggering 13D r=
+equirements, and so swap disclosure is a way to restrict activists. Right n=
+ow, Section 13(d) requires disclosure only of =E2=80=9Cbeneficial ownership=
+=E2=80=9D of stock, and most swaps =E2=80=94 cash-settled bets on stock pri=
+ces =E2=80=94=C2=A0do not carry beneficial ownership and don=E2=80=99t trig=
+ger disclosure requirements. Again, this fits with what the 13D rules are=
+=C2=A0intended=C2=A0to do, which is require disclosure of big voting positi=
+ons. But people worry that activists who buy stock on swap can quickly exch=
+ange their swaps for =E2=80=9Cphysical=E2=80=9D positions in voting stock. =
+(For instance, by buying the stock from the bank that is holding it as a he=
+dge to their swap.) Or they worry that the activist=E2=80=99s swap counterp=
+arties (the banks) will feel pressure to vote the stock the way the activis=
+t wants. Or they just want everyone to know that an activist is acquiring s=
+tock, on swap or otherwise, so that retail investors can copy the activists=
+=E2=80=99 trades and make money while reducing the returns to activism.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      SEC v. 10b5-1 plans
+   =20
+ =20
+The  basic issue is that if you are a senior executive of a public company,=
+ (1) you always know things about the company that the public doesn=E2=80=
+=99t know, but (2) we want you to be able to trade stock anyway. Everyone l=
+oves when corporate executives=C2=A0buy=C2=A0stock =E2=80=94=C2=A0bullish s=
+ignal, etc. =E2=80=94=C2=A0and, since lots of executives are paid mostly in=
+ stock, we want them to be able to sell stock sometimes to buy houses and s=
+tuff.So there are rules and norms that let executives trade stock without g=
+etting in trouble for insider trading. One is the norm that there are =E2=
+=80=9Copen windows=E2=80=9D for trading, typically shortly after a company =
+announces earnings; the idea is that the company has disclosed everything m=
+aterial in the earnings release and call, so now the executives don=E2=80=
+=99t know any more than anyone else and can trade freely. (This is mostly s=
+illy but nonetheless the norm.[9]) The other is Rule 10b5-1(c), which says =
+that if an executive sets up an automated=C2=A0plan to trade stock while sh=
+e has no material nonpublic information (i.e. when she is in an open window=
+), that=C2=A0plan=C2=A0can go ahead and trade stock for her even if she lat=
+er gets some material nonpublic information.Rule 10b5-1 plans are controver=
+sial. For one thing, it is  theoretically possible to game them to insider =
+trade in cute but somewhat silly ways.=C2=A0More important, though, nobody=
+=C2=A0really=C2=A0believes that executives are ever free of inside informat=
+ion, so the whole 10b5-1 concept seems suspect. If you set up a plan to tra=
+de stock, and then a week later you sell stock, and then a week later bad n=
+ews comes out and=C2=A0the stock goes down, everyone will say =E2=80=9Cwell=
+ you probably had inside information didn=E2=80=99t you.=E2=80=9DOne really=
+ simple fix here would be to say: Okay, executives can trade stock all they=
+ want, but on a long delay. You can put in an order today saying =E2=80=9Cs=
+ell 10,000 shares,=E2=80=9D or =E2=80=9Csell $50,000 of stock,=E2=80=9D and=
+ your broker can execute it, but only=C2=A0four months from now. You might =
+have inside information today, and you might have inside information in fou=
+r months, but=C2=A0it will definitely be different information. If you want=
+ to sell stock today because you have secret knowledge of a data breach or =
+an earnings miss, or you want to buy stock today because you have secret kn=
+owledge of a merger or an earnings beat, just put in the order today, trade=
+ in four months, and by then the market will have already learned and price=
+d in whatever secret information you know today and moved on to other thing=
+s.The simple and elegant solution would be to have a new rule saying=C2=A0=
+=E2=80=9Ccorporate executives can put in an order to trade=C2=A0stock whene=
+ver they want, whether or not they have inside information, but the order c=
+an=E2=80=99t execute for four months and can=E2=80=99t be canceled in the m=
+eantime.=E2=80=9D But I guess that=E2=80=99s a bit harsh and weird, and any=
+way Rule 10b5-1 already exists, so the SEC did not take that approach. Inst=
+ead:The proposed amendments to Rule 10b5-1 would update the requirements fo=
+r the affirmative defense, including imposing a cooling off period before t=
+rading could commence under a plan, prohibiting overlapping trading plans, =
+and limiting single-trade plans to one trading plan per twelve month period=
+. In addition, the proposed rules would require directors and officers to f=
+urnish written certifications that they are not aware of any material nonpu=
+blic information when they enter into the plans and expand the existing goo=
+d faith requirement for trading under Rule 10b5-1 plans.=E2=80=9CSpecifical=
+ly,=E2=80=9D says the SEC, =E2=80=9Cour proposals would:=C2=A0Require a Rul=
+e 10b5-1 trading arrangement entered into by officers or directors to inclu=
+de a 120-day mandatory cooling-off period before any trading can commence u=
+nder the trading arrangement after its adoption (including adoption of a mo=
+dified trading arrangement).=E2=80=9D (The=C2=A0company itself=C2=A0can do =
+a 10b5-1 plan, for a stock buyback, with a 30-day cooling-off period.) Seem=
+s reasonable.=C2=A0There are a bunch of other new 10b5-1 rules,[10]=C2=A0of=
+ which my favorite is the one that will =E2=80=9Cprovide that the affirmati=
+ve defense under Rule 10b5-1(c)(1) does not apply to multiple overlapping R=
+ule 10b5=E2=80=911 trading arrangements for open market trades in the same =
+class of securities.=E2=80=9D The classic cutesy securities-lawyer hypothet=
+ical way to game Rule 10b5-1 is:=09You don=E2=80=99t have inside informatio=
+n now, but you are sure you will in five=C2=A0months. (For instance, you=E2=
+=80=99ll announce earnings in 5.5 months; in five months you=E2=80=99ll kno=
+w what=E2=80=99s in the earnings but the market won=E2=80=99t.)=09Set up a =
+10b5-1 plan, today, to sell a bunch of stock in five months.=09Set up anoth=
+er 10b5-1 plan, today, to buy a bunch of stock in five months.=09Wait five =
+months and get the inside information.=09If you have good inside informatio=
+n, cancel the selling plan but leave the buying one in place. You=E2=80=99l=
+l buy stock, the information will come out, the stock will go up.=09If you =
+have bad inside information, cancel the buying plan but leave the selling o=
+ne in place. You=E2=80=99ll sell stock, the information will come out, the =
+stock will go down.The idea is that canceling=C2=A0a 10b5-1 plan is not a =
+=E2=80=9Ctrade=E2=80=9D and so you can do it even if you have inside inform=
+ation. This is very cute but I cannot imagine anyone really does it, and I =
+am pretty sure it=E2=80=99s=C2=A0illegal under existing law. Nonetheless th=
+e SEC is banning it just in case.
+ =20
+   =20
+      SEC v. stock buybacks
+   =20
+ =20
+People are worried about stock buybacks? The SEC has proposed new stock buy=
+back disclosure rules,[11] some of which are about making companies disclos=
+e stock buybacks on a more timely and comprehensive basis. There will be a =
+new =E2=80=9CForm SR,=E2=80=9D and companies will have to file it within a =
+day after buying back stock, disclosing how many shares they purchased and =
+how much they paid. Currently companies disclose this on a long lag in thei=
+r quarterly reports; the SEC wants to make that disclosure daily.But anothe=
+r weird part of the rules is that companies will now have to disclose=C2=A0=
+why=C2=A0they bought back stock. (In their quarterly reports, not in the da=
+ily Form SR.) There are, I think, roughly four overlapping good reasons for=
+ a company to buy back stock:=09We have a lot of cash and no good investmen=
+t ideas, so we=E2=80=99re going to hand it back to shareholders for them to=
+ figure out what to do with it.=09We have a lot of cash and our shareholder=
+s could use some cash, so we=E2=80=99re going to give them some of ours.=09=
+Our stock price is too low so we=E2=80=99re going to buy some to improve re=
+turns for our remaining shareholders.=09We have too much equity in our capi=
+tal structure so we are going to raise debt and buy back stock to improve o=
+ur return on equity.[12]But people who are worried about stock buybacks thi=
+nk that companies do them for bad reasons, such as:=09To manipulate earning=
+s per share calculations by reducing the share count.=09To artificially inf=
+late the stock price.=09To artificially inflate the stock price so that exe=
+cutives can sell stock while the company buys.=09To cover up the massive di=
+lution caused by executive stock grants.=09Etc.The SEC=E2=80=99s proposed=
+=C2=A0rules would basically require companies to declare that they=E2=80=99=
+re not doing any of the bad reasons:Specifically, we propose to require an =
+issuer to disclose:=E2=80=A2 The objective or rationale for its share repur=
+chases and process or criteria used to determine the amount of repurchases;=
+=E2=80=A2 Any policies and procedures relating to purchases and sales of th=
+e issuer=E2=80=99s securities by its officers and directors during a repurc=
+hase program, including any restriction on such transactions. ...We are add=
+itionally proposing to require that issuers disclose if any of their office=
+rs or directors =E2=80=A6 purchased or sold shares =E2=80=A6 within 10 busi=
+ness days before or after=C2=A0the announcement of an issuer purchase plan =
+or program by checking a box.I feel like =E2=80=9Cthe objective or rational=
+e for its share repurchases=E2=80=9D is going to get real formulaic real qu=
+ick? Part of the point here is just to make it a tiny bit more annoying for=
+ companies to buy back stock by making them type this somewhat embarrassing=
+ formulaic declaration.But part of the point is of course that  everything =
+is securities fraud. Now companies will need to say, in their securities fi=
+lings, that they are buying back stock for good reasons and not to enrich t=
+heir executives. And now disgruntled shareholders will be able to sue, sayi=
+ng =E2=80=9Cactually you bought back stock to enrich your executives and li=
+ed about it in your securities filings.=E2=80=9D
+ =20
+   =20
+      SEC v. money market funds
+   =20
+ =20
+There is a theory among many smart banking aficionados that money market fu=
+nds are not actually boring, that the boringness is just a distraction, tha=
+t under their boring surface they are roiling monstrosities that could brin=
+g down the world financial system at a moment=E2=80=99s notice. I respect t=
+his theory intellectually, and as a general matter I am all for theories of=
+ the form =E2=80=9Cthis seemingly boring thing is actually terrifying,=E2=
+=80=9D but I cannot quite feel this one in my bones. I find money market fu=
+nds boring. I=E2=80=99m sorry.Still! Here are the SEC=E2=80=99s proposed am=
+endments to money market fund rules:The proposed amendments would increase =
+liquidity requirements for money market funds to provide a more substantial=
+ liquidity buffer in the event of rapid redemptions. The proposed amendment=
+s also would remove provisions in the current rule permitting or requiring =
+a money market fund to impose liquidity fees or to suspend redemptions thro=
+ugh a gate when a fund=E2=80=99s liquidity drops below an identified thresh=
+old. These provisions appeared to contribute to investors=E2=80=99 incentiv=
+es to redeem in March 2020 as some funds=E2=80=99 reported liquidity levels=
+ declined.To address concerns about redemption costs and liquidity, the pro=
+posal would require institutional prime and institutional tax-exempt money =
+market funds to implement swing pricing policies and procedures that would =
+require redeeming investors, under certain circumstances, to bear the liqui=
+dity costs of their redemptions.Further, the proposal would amend certain r=
+eporting requirements to improve the availability of information about mone=
+y market funds and enhance the Commission=E2=80=99s monitoring and analysis=
+ of these funds.I have  pointed out in  the past that U.S. regulators want =
+to regulate=C2=A0crypto=C2=A0shadow banking (stablecoins) much more strictl=
+y than=C2=A0traditional=C2=A0shadow banking (money market funds, etc.). Sta=
+blecoins, under proposed U.S. rules, would be regulated as banks and would =
+have to have equity capital; money market funds are not regulated as banks =
+and can be funded 100% with shares that are supposed to be stable and alway=
+s worth a dollar. This doesn=E2=80=99t change=C2=A0that, but I suppose incr=
+easing liquidity requirements makes money market funds a little safer.
+ =20
+   =20
+      Credit building
+   =20
+ =20
+This one is not a new SEC proposal, this one is just fun.If you are a young=
+ person with no credit history, or a person with bad credit history, you wi=
+ll want to =E2=80=9Cbuild your credit.=E2=80=9D This consists basically of =
+creating a long record of reliably repaying your debts, so that credit repo=
+rting bureaus think you are a good credit, so that banks will happily lend =
+you money, so that you can buy stuff on credit cards and get leases and mor=
+tgages and car loans. If you have no or bad credit this is hard, though, si=
+nce no one will advance you any credit, so you won=E2=80=99t have any debts=
+ to pay, so you won=E2=80=99t build credit.There are=C2=A0canonical approac=
+hes. Banks will give you credit cards with low credit limits so you can sta=
+rt small and build from there. Or they will give you secured credit cards: =
+You put $1,000 in a bank account, you get a linked credit card with a $1,00=
+0 limit, the credit advanced to you is secured by the money in your account=
+, the bank takes no credit risk but reports repayments to the credit bureau=
+s, etc.What if there was a simpler way? Yesterday reader Sark Asadourian se=
+nt me a link to a Credit Building product from Canadian fintech Koho, and I=
+ haven=E2=80=99t stopped laughing about it since. Here is the =E2=80=9CHow =
+it works=E2=80=9D section of the website:1 Start by subscribing to Credit B=
+uilding for $7/month in-app2 Sit back. We'll report your progress to a majo=
+r credit bureau and help you grow your credit score in just 6 months =E2=80=
+=94 without having to lift a finger3 Ensure there=E2=80=99s $7 in your Spen=
+dable account each month to cover the subscription fee. That=E2=80=99s it!T=
+hey will demonstrate to a credit bureau that you pay your bills, by sending=
+ you a $7 bill each month, which you will pay. What is the bill for? For de=
+monstrating that you pay your bills. They=E2=80=99ll charge you $7 a month =
+for charging you $7 a month. What you get for the $7 is a record that you p=
+aid $7. Which could conceivably be worth $7 to you! Possibly this is=C2=A0g=
+ood for the customers!=C2=A0I cannot stop laughing. This is maybe the best =
+financial product I have ever seen.[13] =E2=80=9CFor the low cost of $7 a m=
+onth, you can pay us $7 a month.=E2=80=9D Everything else is so dull and ov=
+erelaborated. Imagine being the person who came up with this. Imagine the b=
+right wild=C2=A0gleam in your eye, coming in to work that day to tell your =
+colleagues.Also though imagine messing this up. You=E2=80=99re a young pers=
+on, money is tight, you sign up for Credit Building, you pay them $7 a mont=
+h for a few months but then life gets complicated, your account balance get=
+s below $7 and you miss a payment. Do they report that to a credit bureau? =
+Does it hurt your credit? Oh you=E2=80=99d better believe it:Just as making=
+ your payments on time will positively impact your credit score, the invers=
+e is true. Not making your payments on time will hurt your credit score.To =
+keep it simple: We advise you to let KOHO do all the work after you registe=
+r. Just ensure there is $7 in your Spendable balance for the subscription f=
+ee each month and you won=E2=80=99t miss a payment!Seems harsh!
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Reddit  Files for IPO After Igniting the Year=E2=80=99s Meme Stock Frenzy. =
+Private Equity Firm  TPG Files for Long-Awaited U.S. IPO. WallStreetBets Jo=
+kes of  Pumping Reddit Stock After IPO Filing. Anchorage Capital Is Closing=
+ $7.4 Billion Flagship Hedge Fund. Money Manager  Vanishes With $313 Millio=
+n From China Builder. JPMorgan A-Rod Adviser  Loses Ruling in Client-Poachi=
+ng Fight. Fired JPMorgan Trader Shows It Pays to  Win Your Old Job Back. UK=
+ regulator fines GAM and former star fund manager over managing Gupta ties.=
+ US borrowers breach loan limit guidance at record pace. Michael Jordan Jum=
+ps Into Web3 via Solana App for Athletes. Tesla Takes Customers to Court to=
+  Silence Its Critics in China. Harvard scam. =E2=80=9CSomeone was walking =
+through the streets with black bin liners of cash.=E2=80=9D Drawing bought =
+for $30 at estate sale is actually worth $50 million. Kraft will pay you $2=
+0 not to make cheesecake for Christmas. Melania Trump Joins Crypto Frenzy W=
+ith Release of First  NFT.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0i=
+n handy email form, right in your inbox, please=C2=A0subscribe at this link=
+. Or you can subscribe to Money Stuff and other great Bloomberg newsletters=
+ here. Thanks![1] The other downside, to be fair, is that some distressed c=
+ompanies probably *should* shut down their businesses, and CDS shenanigans =
+could keep them alive inefficiently.[2] Arguably this has not been a priori=
+ty because insider trading and market manipulation in CDS is probably illeg=
+al anyway. =E2=80=9CAlthough the Commission generally believes that a situa=
+tion where a person uses material non-public information in a security in c=
+onnection with the purchase and sale of a security-based swap would be subj=
+ect to the existing antifraud authority under the Federal securities laws, =
+particularly Section 10(b) of the Exchange Act and Rule 10b-5 thereunder, t=
+he Commission also believes that market participants would benefit from a c=
+larified interpretation of that statutory provision in this rulemaking,=E2=
+=80=9D says the SEC.[3] This feels a little weird in modern syndicated loan=
+ markets, but some residue of it still exists. See page 28 of this 2016 Dav=
+is Polk memo for an overview of how lenders treat the =E2=80=9Cpublic side=
+=E2=80=9D/=E2=80=9Cprivate side=E2=80=9D distinction in loan markets.[4] Lo=
+osely because in practice you can do a number of economically very similar =
+transactions with different names. =E2=80=9CTotal return swap=E2=80=9D feel=
+s like the most standard and generic, but =E2=80=9Cforward=E2=80=9D or =E2=
+=80=9Cpenny-strike call option=E2=80=9D or =E2=80=9Cput/call combo=E2=80=9D=
+ all mean more or less the same thing, and you can put =E2=80=9Ccash settle=
+d=E2=80=9D or =E2=80=9Cphysically settled=E2=80=9D in front of any of those=
+ things to get economically similar but technologically different transacti=
+ons. Also you can more or less lump any sort of high-delta option transacti=
+on into this bucket too. The category is =E2=80=9Cleveraged synthetic expos=
+ure to a stock,=E2=80=9D which I will just generically call =E2=80=9Ctotal =
+return swaps.=E2=80=9D[5] In a margin loan you own the stock, the bank has =
+a lien on it, and foreclosing can be a bit complicated and annoying. In a s=
+wap the bank owns the stock and can just sell it whenever it wants, and it =
+can close out the swap=C2=A0under contractual terms that are probably very =
+protective of the bank.[6] The main Section 13(d) threshold is 5%. Iff you =
+own 5% on swap with five different banks, and none of them is above 5% itse=
+lf, then they won=E2=80=99t.[7] This reporting rule also covers CDS, at a l=
+ower threshold, and is intended to crack down on =E2=80=9Cnet short debt ac=
+tivism=E2=80=9D along the lines of (allegedly) the Aurelius/Windstream situ=
+ation.=C2=A0[8] If they=E2=80=99re good activists anyway.[9] To be clear, i=
+t is just a default norm. If the executives are negotiating a merger or dea=
+ling with a huge data breach right after earnings, and they trade the stock=
+, that can still be insider trading.[10]=C2=A0The other complaint that peop=
+le sometimes make about 10b5-1 plans is that they should be disclosed in ad=
+vance; executives should have to give shareholders some warning that they m=
+ight be buying or selling stock. The SEC=E2=80=99s proposed rules don=E2=80=
+=99t say that, but they would=C2=A0require companies to provide new quarter=
+ly disclosures about whether any officers or directors have put in place (o=
+r canceled) a 10b5-1 plan, and how long it will last and how many shares it=
+ covers.=C2=A0[11] It=E2=80=99s not in these rules, but we talked in the pr=
+evious section about the new proposed cooling-off period under Rule 10b5-1.=
+ Companies that do open-market stock buybacks often do so under Rule 10b5-1=
+, so that they can set up an automatic buyback plan and continue buying thr=
+ough blackout periods. The new Rule 10b5-1 proposal would require them to w=
+ait 30 days after setting up the plan before they start buying. (I think a =
+fair number of companies do this anyway, to be safe, but now it might be re=
+quired.)[12] Everyone in finance thinks this is a good reason to buy back s=
+tock (except Modigliani and Miller, ha), but normal people hate it. Nonethe=
+less I am counting it as a good reason.[13] Exercise for the reader: What d=
+o you think are the margins on this product? My guess is =E2=80=9Csurprisin=
+gly low, depending on how you count.=E2=80=9D
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfipxz.5z01/7b5f3956.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_45289_300348787.1639680178037
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.We are w=
+ell into the holiday season, which means that people are wrapping
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjA2NzY3MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYzNDYzMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBd17eba0f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26067671&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26346312&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMjE2MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEyMTYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB89be1bbb"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjA2NzY3MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYzNDYzMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC79f8a347" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26067671&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26346312&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong> <em>Money S=
+tuff will be off tomorrow, back on Monday.</em></p><p style=3D"margin: 16px=
+ 0;">We are well into the holiday season, which means that people are wrapp=
+ing up work for the year, and yesterday the U.S. Securities and Exchange Co=
+mmission proposed, uh, all the rules? Here are some=C2=A0new rule proposals=
+=C2=A0about <a href=3D"https://link.mail.bloombergbusiness.com/click/260676=
+71.278641/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMS0yNTY/6=
+07f07ceef4b8524a319a23cBad668c92" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">10b5-1 plans</a>, <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuc=
+2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMS0yNTc/607f07ceef4b8524a319a23cB64b=
+da43b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">stock buybacks</a>, <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/26067671.278641/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLX=
+JlbGVhc2UvMjAyMS0yNTg/607f07ceef4b8524a319a23cB83b753be" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">money mark=
+et funds</a> and <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+6067671.278641/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMS0y=
+NTk/607f07ceef4b8524a319a23cB713710b7" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">swaps</a>. Take the rest of =
+the year off, SEC, you=E2=80=99ve earned it.=C2=A0Let=E2=80=99s start with =
+swaps.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SEC v. CDS</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here are <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXd=
+zL3ByZXNzLXJlbGVhc2UvMjAyMS0yNTk/607f07ceef4b8524a319a23cC713710b7" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>the SEC=E2=80=99s proposed rules</a> about =E2=80=9Csecurity-based swaps.=
+=E2=80=9D =E2=80=9CSwaps,=E2=80=9D to the SEC, can refer to two different i=
+nstruments, which I will discuss separately. One is a credit default swap, =
+where the buyer pays a premium to the seller and the seller pays the buyer =
+if some reference debt instrument =E2=80=94=C2=A0a corporate bond or loan, =
+a sovereign bond, etc. =E2=80=94=C2=A0defaults.=C2=A0</p><p style=3D"margin=
+: 16px 0;">There <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+6067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MTctMTEtMTcvYmxhY2tzdG9uZS1tYXktZG8taXRzLWNsZXZlcmVzdC1jZHMtdHJhZGUtYWdhaW4=
+_Y21waWQ9QkJEMTIxNjIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW=
+5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMjE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ce=
+ef4b8524a319a23cB9c118c5a" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> was</a> a <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDQtMTAvaG92bmFuaWFuLXMtd2VpcmQtY2RzLXRyYW=
+RlLWdldHMtd2VpcmRlcj9jbXBpZD1CQkQxMjE2MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtY=
+WlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEyMTYmdXRtX2NhbXBhaWduPW1v=
+bmV5c3R1ZmY/607f07ceef4b8524a319a23cBb28a4c15" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> wave</a> of <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDEtMTgvbm90LWV2ZXJ5=
+b25lLWFwcHJlY2lhdGVzLWNkcy1jcmVhdGl2aXR5P2NtcGlkPUJCRDEyMTYyMV9NT05FWVNUVUZ=
+GJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTIxNi=
+Z1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB399aed05" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>controversy</a> a few <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMTgtMTItMTMvY3JlZGl0LWRlZmF1bHQtc3dhcHMtZ2V0LXdlaXJkLWFmdGVyLXNlYXJzL=
+WJhbmtydXB0Y3k_Y21waWQ9QkJEMTIxNjIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1=
+dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMjE2JnV0bV9jYW1wYWlnbj1tb25leXN=
+0dWZm/607f07ceef4b8524a319a23cBdc2aa688" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">years</a> ago <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDYtMjgvY3JlZGl0LWRlcml=
+2YXRpdmVzLWJyaW5nLXBlb3BsZS10b2dldGhlcj9jbXBpZD1CQkQxMjE2MjFfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEyMTYmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB941d2727" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ about</a> a <a href=3D"https://link.mail.bloombergbusiness.com/click/26067=
+671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgt=
+MDUtMDEvYW5vdGhlci13ZWlyZC1kZWFsLXVwc2V0cy1jZHMtdHJhZGVycz9jbXBpZD1CQkQxMjE=
+2MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG=
+1fdGVybT0yMTEyMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB=
+597f471c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> category</a> of <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMTktMDEtMTUvc29tZXRpbWVzLWNkcy1pcy1vbi10aGUtd3JvbmctY29tc=
+GFueT9jbXBpZD1CQkQxMjE2MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3Vy=
+Y2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEyMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607=
+f07ceef4b8524a319a23cB18dbf892" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> stuff</a> that I will loosely call=
+ =E2=80=9CCDS shenanigans.=E2=80=9D=C2=A0A credit default swap is a bilater=
+al contract between two people who may or may not own any debt of the under=
+lying company or=C2=A0have any relationship with the underlying company. At=
+ some point, buyers and sellers of CDS realized that they could go to the u=
+nderlying company and say =E2=80=9Chey, it would help us out a lot on our C=
+DS contract if you [did][did not] default on your debt,=E2=80=9D and would =
+cut deals with the company to do that. (=E2=80=9CDefault=E2=80=9D here gene=
+rally meant some sort of technical default that triggered CDS but did not p=
+lunge the company into a disastrous bankruptcy.) Occasionally CDS buyers wo=
+uld go to the company and offer it a deal to default, and CDS sellers would=
+ offer it a deal=C2=A0<em>not=C2=A0</em>to default, and the company could p=
+lay them against each other and get itself a really good deal.</p><p style=
+=3D"margin: 16px 0;">This always struck me as <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMTItMTMvY3JlZGl0LWRlZmF1bHQtc3dhcHMtZ2V0LX=
+dlaXJkLWFmdGVyLXNlYXJzLWJhbmtydXB0Y3k_Y21waWQ9QkJEMTIxNjIxX01PTkVZU1RVRkYmd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMjE2JnV0=
+bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cCdc2aa688" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">sor=
+t of wonderful</a>. The downside was that some hedge funds lost money on ze=
+ro-sum bets with other hedge funds. The upside was that distressed companie=
+s got attractive financing to keep their businesses alive.[1] These deals w=
+ere pure transfers of money from hedge funds to workers: People at troubled=
+ companies got to keep their jobs because some hedge fund would pay their s=
+alaries in order to rip off another hedge fund.</p><p style=3D"margin: 16px=
+ 0;">Almost nobody agrees with me about this. <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDUtMTgvc2luZnVsLWRlcml2YXRpdmVzLWhhdmUtdG=
+hlaXItdXNlcz9jbXBpZD1CQkQxMjE2MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEyMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cB87833c3f" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> Literally the Pope</a> call=
+ed on hedge funds to stop giving money to companies to default on their deb=
+ts. Regulators have <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMTgtMDQtMjYvd2hlbi1jbGV2ZXJuZXNzLWJlY29tZXMtbWFuaXB1bGF0aW9uP2NtcGlkPUJC=
+RDEyMTYyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGV=
+yJnV0bV90ZXJtPTIxMTIxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a31=
+9a23cB659d85be" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> made noises forever</a> about it being market mani=
+pulation.</p><p style=3D"margin: 16px 0;">To me it seems like=C2=A0<em>obvi=
+ously=C2=A0</em>not market manipulation: You are not manipulating=C2=A0<em>=
+a market</em>, you are <em>changing</em>=C2=A0<em>economic=C2=A0reality</em=
+>. This is totally normal in distressed credit situations: A company has ru=
+n out of money and might default, which will be good for some interested pa=
+rties (vulture funds who bought senior debt at a discount and want to=C2=A0=
+seize the company,=C2=A0etc.) and bad for other interested parties (junior =
+creditors who might lose everything, etc.). Someone for whom it is bad will=
+ come to the company and say =E2=80=9Chey we will give you more financing s=
+o you don=E2=80=99t default and we won=E2=80=99t lose our money.=E2=80=9D S=
+omeone for whom it is good will come to the company and say =E2=80=9Chey yo=
+u should default and get out from these onerous debts, we will treat you ni=
+ce in bankruptcy.=E2=80=9D=C2=A0The addition of CDS makes these negotiation=
+s=C2=A0more interesting but does not change the fundamental character.</p><=
+p style=3D"margin: 16px 0;">Again, though, nobody agrees with me, and the S=
+EC wants to ban, you know, the stuff I am talking about. If that sounds vag=
+ue, it is. The SEC has proposed a new rule, Rule 9j-1, banning manipulation=
+ of securities-based swaps. Part of this =E2=80=94=C2=A0Rule 9j-1(a) =E2=80=
+=94=C2=A0basically bans market manipulation and insider trading in CDS; the=
+ SEC originally proposed this in 2010 and is coming back to it now.[2] But =
+Rule 9j-1(b) is intended to ban CDS shenanigans. From <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuc2VjLmd=
+vdi9ydWxlcy9wcm9wb3NlZC8yMDIxLzM0LTkzNzg0LnBkZg/607f07ceef4b8524a319a23cB40=
+639b89" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">the SEC=E2=80=99s proposal</a>:</p><blockquote><p style=3D"=
+margin: 16px 0;">Re-proposed Rule 9j-1(b) would make it unlawful for any pe=
+rson to, directly or indirectly, manipulate or attempt to manipulate the pr=
+ice or valuation of any security-based swap, or any payment or delivery rel=
+ated thereto. Among other things, this language is intended to address a nu=
+mber of the manufactured or other opportunistic CDS strategies observed ove=
+r the last decade, and summarized above in section I.B, including situation=
+s where a party intentionally distorts any payment related to a security-ba=
+sed swap for the benefit of one of the security-based swap counterparties, =
+such as actions that serve little to no economic purpose other than to arti=
+ficially influence the composition of the deliverable obligations in a CDS =
+auction.</p><p style=3D"margin: 16px 0;">Re-proposed Rule 9j-1(b) also is i=
+ntended to prohibit, among other things, a situation where a person (or gro=
+up of persons) improperly and intentionally causes or avoids the purchase o=
+r sale of a security-based swap for the benefit of a counterparty to an SBS=
+, such as intentionally and improperly orphaning a CDS, avoiding terminatio=
+n of a CDS for a period of time, or causing the termination of a CDS. As pr=
+eviously noted, =E2=80=9Corphaning=E2=80=9D a CDS refers to a situation whe=
+re the debt of a reference entity is eliminated or reduced for the purposes=
+ of moving the price of CDS.=C2=A0The end result of such activity is that C=
+DS buyers continue to pay (and CDS sellers continue to receive) premiums on=
+ CDS that will never default. Similarly, a CDS protection seller could offe=
+r financing to the company to avoid a credit event and subsequent CDS payou=
+t, with the financing timed so that the company=E2=80=99s bankruptcy is mer=
+ely delayed until after the CDS expires.=C2=A0To be clear, a person simply =
+profiting from a CDS position after a company=E2=80=99s bankruptcy, which s=
+uch person could have prevented by participating in a financing to the comp=
+any, without more is not in and of itself improper conduct for purposes of =
+re-proposed Rule 9j-1(b).</p></blockquote><p style=3D"margin: 16px 0;">That=
+ last sentence is fun. You are a big credit fund, you own CDS on a company =
+and you will make money if it goes bankrupt. The company comes to you and s=
+ays =E2=80=9Cwill you lend us some money to avoid bankruptcy?=E2=80=9D =E2=
+=80=9CNo,=E2=80=9D you say, =E2=80=9CI=E2=80=99ll be better off if you go b=
+ankrupt.=E2=80=9D Is that CDS manipulation? No, says the SEC. Or rather, =
+=E2=80=9Cwithout more,=E2=80=9D it =E2=80=9Cis not in and of itself imprope=
+r conduct.=E2=80=9D</p><p style=3D"margin: 16px 0;">Alternatively: You are =
+a big credit fund, you have=C2=A0<em>sold=C2=A0</em>CDS on a company, and y=
+ou will lose money if it goes bankrupt. The company comes to you and says =
+=E2=80=9Cwill you lend us some money to avoid bankruptcy?=E2=80=9D =E2=80=
+=9CSure,=E2=80=9D you say, =E2=80=9Cthat way I will save money on my CDS tr=
+ade.=E2=80=9D Is that CDS manipulation? I mean, probably not, but it=E2=80=
+=99s a live question now isn=E2=80=99t it?=C2=A0Are you =E2=80=9Cimproperly=
+ and intentionally ... avoiding termination of a CDS for a period of time=
+=E2=80=9D? Here=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/26067671.278641/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9wcm9wb3NlZC8yMDI=
+xLzM0LTkzNzg0LnBkZg/607f07ceef4b8524a319a23cC40639b89" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">the SEC</a>:=
+</p><blockquote><p style=3D"margin: 16px 0;">The Commission recognizes that=
+ reference entities often rely on financing and other forms of relief to av=
+oid defaulting on their debt, and the proposed rule is not intended to disc=
+ourage lenders and prospective lenders from discussing or providing such fi=
+nancing or relief, even when those persons also hold CDS positions. Rather,=
+ the Commission is proposing Rule 9j-1(b) to account for actions taken outs=
+ide the ordinary course of a typical lender-borrower relationship (or a pro=
+spective lender-borrower relationship). Although any such determination wou=
+ld need to be based on the facts and circumstances of a particular situatio=
+n, as a general matter the Commission believes that an action that appears =
+to be designed almost exclusively to harm one or more CDS counterparties wo=
+uld likely fall within the prohibition in re-proposed Rule 9j-1(b).</p></bl=
+ockquote><p style=3D"margin: 16px 0;">I think=C2=A0<em>from the company=E2=
+=80=99s perspective=C2=A0</em>it is never getting financing =E2=80=9Calmost=
+ exclusively to harm one or more CDS counterparties=E2=80=9D! It is always =
+getting financing to run its business! But you kind of know what the SEC me=
+ans. If the money the company is getting is extracted mostly from a CDS buy=
+er or seller, that=E2=80=99s bad.=C2=A0</p><p style=3D"margin: 16px 0;">Ano=
+ther one: You are a big credit fund and you have a CDS calendar trade where=
+ you have sold CDS on a company that expires next month, and bought CDS on =
+the same company that expires next year. If it goes bankrupt in the next mo=
+nth you will lose money. If it survives a month and then goes bankrupt with=
+in the next year, you will make money. The company comes to you and says =
+=E2=80=9Cwill you lend us some money to avoid bankruptcy?=E2=80=9D =E2=80=
+=9CFor six months I will, sure,=E2=80=9D you say. Is=C2=A0<em>that=C2=A0</e=
+m>CDS manipulation? I feel like you, and the SEC, and the Pope, will all sa=
+y =E2=80=9Cyes it is.=E2=80=9D The SEC <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9wcm=
+9wb3NlZC8yMDIxLzM0LTkzNzg0LnBkZg/607f07ceef4b8524a319a23cD40639b89" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>complains about</a> =E2=80=9CCDS buyers endeavoring to influence the timin=
+g of a credit event in order to ensure a payment (upon the triggering of th=
+e CDS) before expiration of a CDS, or a CDS seller taking similar actions t=
+o avoid the obligation to pay by ensuring a credit event occurs after the e=
+xpiration of the CDS,=E2=80=9D and you are arguably doing both. And yet the=
+ thing you are doing is basically (1) lending money to a company to keep it=
+ alive and then (2) later declining to do that again. Both of those things =
+seem fine? I don=E2=80=99t know.</p><p style=3D"margin: 16px 0;">Or: A comp=
+any with a lot of debt outstanding, issued out of a financing subsidiary, c=
+omes to you and says =E2=80=9Cwill you lend me some money to avoid a defaul=
+t?=E2=80=9D You have sold a lot of CDS. =E2=80=9CSure,=E2=80=9D you say, =
+=E2=80=9Cno problem. In fact I will pay off all of your existing debt, beca=
+use I want to lend to you with a cleaner capital structure and more runway.=
+ But I want to lend you the money through your operating subsidiary, not th=
+e financing subsidiary that issued all the old debt. I think the operating =
+sub is a better credit.=E2=80=9D I feel like all of those words sound fine?=
+ But what I have described is also <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMTgtMDUtMDEvYW5vdGhlci13ZWlyZC1kZWFsLXVwc2V0cy1jZHMtdHJhZ=
+GVycz9jbXBpZD1CQkQxMjE2MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3Vy=
+Y2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEyMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607=
+f07ceef4b8524a319a23cC597f471c" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> =E2=80=9Corphaning=E2=80=9D the ol=
+d CDS</a>: When all the debt of the old financing subsidiary is gone, the C=
+DS on that subsidiary is worthless; you sold that CDS and have a windfall w=
+hen it becomes worthless. That=E2=80=99s the thing the SEC wants to prevent=
+. But which part of what you are doing =E2=80=9Cappears to be designed almo=
+st exclusively to harm one or more CDS counterparties=E2=80=9D? Which part =
+is just =E2=80=9Cthe ordinary course of a typical lender-borrower relations=
+hip=E2=80=9D?</p><p style=3D"margin: 16px 0;">It=E2=80=99s also worth brief=
+ly discussing Rule 9j-1(a), which is meant (among other things) to prohibit=
+ insider trading in CDS. CDS was originally designed as a way for banks to =
+hedge their credit risk in lending: A bank would lend money to a company, a=
+nd then it would buy CDS in the market to insure it against credit losses o=
+n the loan.</p><p style=3D"margin: 16px 0;">Classically, a bank loan is not=
+ a =E2=80=9Csecurity,=E2=80=9D and it is okay =E2=80=94=C2=A0expected, real=
+ly =E2=80=94=C2=A0for a bank to make loans while it has material nonpublic =
+information about the borrower. Classically banks are trusted partners of t=
+heir borrower companies; the companies tell them everything, and the banks =
+know the borrowers really well so they=C2=A0can make good credit decisions.=
+[3]</p><p style=3D"margin: 16px 0;">These things interact awkwardly. If you=
+=E2=80=99re a bank and you lend money to a company based on inside informat=
+ion, and then you hedge in the CDS market, are you committing insider tradi=
+ng? I think the answer is and should be =E2=80=9Cyes=E2=80=9D: =E2=80=9CBan=
+ks are best positioned to evaluate credit risk because they have total acce=
+ss to a company=E2=80=9D is a reasonable theory of banking, and =E2=80=9Cba=
+nks fund loans but hedge the credit risk in the CDS market=E2=80=9D is a re=
+asonable theory of banking, but=C2=A0<em>they make no sense together</em>. =
+Either get inside information and own the credit risk, or use public inform=
+ation and hedge in public markets. This seems pretty obvious, and the SEC=
+=C2=A0 apparently agrees, but they asked for comments in case anyone disagr=
+ees:</p><blockquote><p style=3D"margin: 16px 0;">Should the Commission also=
+ create a safe harbor for entering into security-based swap transactions fo=
+r purposes of hedging some or all of their exposure arising out of lending =
+activities with a reference entity or the syndication of such lending activ=
+ities? Why or why not? If such a safe harbor is necessary, should =E2=80=9C=
+hedging=E2=80=9D be defined and if so, how should it be defined? What types=
+ of activities should be included and/or excluded in such a safe harbor? Wh=
+at conditions should be included to protect other market participants and t=
+o ensure that any such safe harbor is not overly broad? For example, should=
+ the safe harbor require that a person using a security-based swap to hedge=
+ their interest in a loan while in possession of material nonpublic informa=
+tion provide certain information to their counterparty about the underlying=
+ borrower/reference entity? If so, what information should be required to b=
+e provided, and why? Should the safe harbor be conditioned on the person us=
+ing a security-based swap to hedge their interest in a loan being a particu=
+lar type of financial institution, such as a bank?</p></blockquote><table c=
+lass=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D"0" cell=
+spacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjA2NzY3MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYzNDYzMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDcdcd0e24" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26067671&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26346312&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjA2NzY3MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYzNDYzMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEcdcd0e24" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26067671&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26346312&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjA2NzY3MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYzNDYzMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF76664b9d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26067671&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26346312&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjA2NzY3MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYzNDYzMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG76664b9d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26067671&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26346312&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SEC v. TRS</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The other thing that the SEC counts as=
+ a =E2=80=9Cswap=E2=80=9D is what I will loosely call an =E2=80=9Cequity to=
+tal return swap.=E2=80=9D[4] This is a contract in which an investment bank=
+ buys a bunch of stock of some company=C2=A0<em>on behalf of=C2=A0</em>the =
+bank=E2=80=99s client, generally a hedge fund. The bank holds the stock; if=
+ it goes up, the bank pays money to the client; if it goes down, the client=
+ pays money to the bank. The client has economic exposure to the stock (it =
+makes money when it goes up and loses money when it goes down); the bank mo=
+stly does not (it is perfectly hedged unless the client defaults).</p><p st=
+yle=3D"margin: 16px 0;">There are two main reasons a client would do this. =
+One is leverage. If you want to buy $1 billion of stock but don=E2=80=99t h=
+ave $1 billion lying around, you can buy it =E2=80=9Con swap,=E2=80=9D the=
+=C2=A0<em>bank=C2=A0</em>will put up the $1 billion, and you=E2=80=99ll onl=
+y have to put down a deposit of $100 million or $200 million or whatever to=
+ cover the risk that you=E2=80=99ll have to pay the bank when the stock mov=
+es down. This is roughly equivalent to a margin loan =E2=80=94=C2=A0the ban=
+k lends you some of the money to buy the stock =E2=80=94=C2=A0but it is a l=
+ittle nicer for the bank,[5] so the bank will be willing to give you more l=
+everage on better terms.</p><p style=3D"margin: 16px 0;">The other is, some=
+times the client wants to own the stock but not, you know,=C2=A0<em>own=C2=
+=A0</em>the stock. There are various rules that apply to owners of stock th=
+at those owners might find annoying, and if you just want to have economic =
+exposure to a stock you might buy it on swap and skip the legal ownership. =
+The most obvious of these rules, in the U.S., is Section 13=C2=A0of the Exc=
+hange Act: If you own a lot of stock of a company, you have to disclose you=
+r ownership, which you might not want to do. If you own the stock on swap, =
+your=C2=A0<em>banks=C2=A0</em>might have to disclose their ownership, or th=
+ey might not,[6] but there=E2=80=99s no public indication that=C2=A0<em>you=
+=C2=A0</em>are the economic owner. To be clear, there is a <em>reason</em> =
+for this: Section 13 is meant to let people know who owns a company, and if=
+ you own shares on swap you don=E2=80=99t. You can=E2=80=99t vote those sha=
+res. You don=E2=80=99t have control the way a big actual shareholder would.=
+ You just have an economic bet on the stock.</p><p style=3D"margin: 16px 0;=
+">Similarly, there are antitrust approval rules that apply to people who ac=
+quire big chunks of stock, and if you want to buy stock economically withou=
+t jumping through antitrust hoops, you might buy on swap. (And because you =
+can=E2=80=99t control the company with a swap, it doesn=E2=80=99t count.) O=
+r there are ownership restrictions in various industries, like banking, tha=
+t <a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMTcvYmlsbC1=
+od2FuZy1tYWRlLXNlY3JldC1iYW5rLWJldC1iZWZvcmUtMjAtYmlsbGlvbi1sb3NzLWFyY2hlZ2=
+9zLWNvbGxhcHNlP2NtcGlkPUJCRDEyMTYyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmd=
+XRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTIxNiZ1dG1fY2FtcGFpZ249bW9uZXlz=
+dHVmZg/607f07ceef4b8524a319a23cBbaf12c42" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> swaps might get around<=
+/a>.</p><p style=3D"margin: 16px 0;">This strikes me as mostly fine?=C2=A0T=
+he broad theme is that there are a lot of rules designed to get at=C2=A0<em=
+>ownership=C2=A0</em>and=C2=A0<em>control=C2=A0</em>of companies, and buyin=
+g stock on swap is a way to get=C2=A0<em>economic exposure</em>=C2=A0to com=
+panies without ownership or control. So all the rules about ownership and c=
+ontrol don=E2=80=99t apply to swaps. Everything sort of works as designed.<=
+/p><p style=3D"margin: 16px 0;">But=C2=A0the somewhat weird result is that =
+swaps seem to evade=C2=A0<em>every=C2=A0</em>disclosure regime, because all=
+ the disclosure rules are aimed at ownership, and swaps are not ownership, =
+and there is no separate swaps disclosure rule. Now the SEC has <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d=
+3cuc2VjLmdvdi9ydWxlcy9wcm9wb3NlZC8yMDIxLzM0LTkzNzg0LnBkZg/607f07ceef4b8524a=
+319a23cE40639b89" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">proposed one</a>:</p><blockquote><p style=3D"marg=
+in: 16px 0;">The Commission has decided to utilize its rulemaking authority=
+ under Section 10B of the Exchange Act to propose new Rule 10B-1, which wou=
+ld be a large trader position reporting rule for security-based swaps. Spec=
+ifically, proposed Rule 10B-1 would require public reporting of, among othe=
+r things: (1) certain large positions in security-based swaps; (2) position=
+s in any security or loan underlying the security-based swap position; and =
+(3) positions in any other instrument relating to the underlying security o=
+r loan or group or index of securities or loans. As described in detail bel=
+ow, proposed Rule 10B-1 would, among other things, include a specific quant=
+itative threshold for when public reporting is required. ...</p><p style=3D=
+"margin: 16px 0;">In terms of timing, proposed Rule 10B-1(a)(2) would provi=
+de that any Schedule 10B required by the rule shall be filed promptly, but =
+in no event later than the end of the first business day following the day =
+of execution of the security-based swap transaction that results in the Sec=
+urity-Based Swap Position first exceeding the Reporting Threshold Amount.</=
+p></blockquote><p style=3D"margin: 16px 0;">The Reporting Threshold Amount,=
+ for stock total return swaps, is either $300 million of notional amount or=
+ 5% of the company=E2=80=99s stock.[7] Under the proposed rules, if you own=
+ a lot of stock on swap, you=E2=80=99ll have to disclose it.</p><p style=3D=
+"margin: 16px 0;">One reason people want a rule like this is that, because =
+swap positions are generally not subject to disclosure obligations, nobody =
+knows about them, and so big secret risks can build up in the financial sys=
+tem.</p><p style=3D"margin: 16px 0;">The poster child for this is Archegos =
+Capital Management, a family office that had a bunch of huge stock position=
+s on swap; the stocks went down, Archegos defaulted on the swaps, and its b=
+anks sold all the stocks quickly, leading to big price moves. In the early =
+days of <a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.2=
+78641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtM=
+DUvYmlsbC1od2FuZy1zLWFyY2hlZ29zLXN3YXAtYWZ0ZXJtYXRoLWlzLWF3a3dhcmQtZm9yLWJh=
+bmtzP2NtcGlkPUJCRDEyMTYyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJ=
+jZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTIxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607=
+f07ceef4b8524a319a23cBe7019a03" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> the Archegos story</a>, it was wid=
+ely believed that the banks=C2=A0<em>didn=E2=80=99t know about each others=
+=E2=80=99 swaps:=C2=A0</em>Each bank knew =E2=80=9CI own 2% of this stock f=
+or Archegos,=E2=80=9D but not =E2=80=9Cfive other banks do too and there=E2=
+=80=99s a ton of stock to sell if Archegos goes bust.=E2=80=9D But that tur=
+ned out to be completely untrue. Credit Suisse Group AG, which lost billion=
+s of dollars on Archegos, <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjEtMDctMjkvYXJjaGVnb3Mtd2FzLXRvby1idXN5LWZvci1tYXJnaW4tY2FsbHM_Y2=
+1waWQ9QkJEMTIxNjIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld=
+3NsZXR0ZXImdXRtX3Rlcm09MjExMjE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4=
+b8524a319a23cB0f71f08e" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> published a very thorough and embarrassing=
+ report</a> about its failings, and one clear conclusion of the report is t=
+hat Credit Suisse=C2=A0<em>absolutely=C2=A0</em>knew about Archegos=E2=80=
+=99s positions with other banks. Archegos=E2=80=99s banks had various risk =
+management problems, but =E2=80=9Cswaps are secret=E2=80=9D does not seem t=
+o have been one of them.</p><p style=3D"margin: 16px 0;">On the other hand =
+it is true that=C2=A0<em>journalists</em>, and=C2=A0<em>the SEC</em>, and=
+=C2=A0<em>other shareholders</em>, didn=E2=80=99t know about Archegos=E2=80=
+=99s huge swap positions. I do not know what they would have done if they h=
+ad known but, yes, conceivably someone might have said =E2=80=9Chey Archego=
+s are you sure you want to own so much of those stocks=E2=80=9D or =E2=80=
+=9Chey banks are you sure you all want to be financing such big positions f=
+or Archegos=E2=80=9D or whatever. So more swap disclosure might have helped=
+ there.</p><p style=3D"margin: 16px 0;">The other objection to total return=
+ swaps comes from=C2=A0<em>public companies</em> who worry about <em>activi=
+st investors</em>. The basic thing an activist investor traditionally does =
+is (1) quietly buy up a big stake in a company, (2) announce that she owns =
+a=C2=A0stake and (3) pressure the company to do stuff. Public companies do =
+not like to be pressured to do stuff, so they tend to dislike activists. On=
+e line of attack that corporate managers take against activists is to try t=
+o limit their ability to quietly buy up big stakes in companies. Activists =
+like to buy stakes quietly because, once they announce that they own a big =
+chunk of stock in a company and plan to do activism, the stock will general=
+ly go up.[8] If the rules said =E2=80=9Cas soon as an activist even thinks =
+about buying stock, she has to disclose that, so everyone knows what she=E2=
+=80=99s doing,=E2=80=9D then the stock will go up=C2=A0<em>before=C2=A0</em=
+>she buys, and being an activist will be less economically viable. All of t=
+he benefits of her activism =E2=80=94=C2=A0her ability to push the company =
+to do better things for shareholders =E2=80=94=C2=A0will go, prospectively,=
+ to the people who=C2=A0<em>sell=C2=A0</em>her the stock, not to her.</p><p=
+ style=3D"margin: 16px 0;">Right now the main rule about this in U.S. law i=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/=
+aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzE1Lzc4bQ/607f07ceef4b=
+8524a319a23cB453cd69e" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">Section 13(d) of the Exchange Act</a>, which=
+ says that investors have to disclose their stakes, and any activist intent=
+ions, on Schedule 13D, within=C2=A010 days after they get above 5% of the s=
+tock.=C2=A0This gives activists a chance to buy, you know, 8% or so of the =
+stock quietly, before disclosing it 10 days after they cross the 5% thresho=
+ld.=C2=A0(There is also Section 13(f), which says that institutional invest=
+ment managers have to disclose all of their large positions every quarter.)=
+ Corporate managers would prefer a shorter deadline to make life harder for=
+ activists. (My old law firm, Wachtell, Lipton, Rosen &amp; Katz, does a lo=
+t of activism defense, and has been <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/26067671.278641/aHR0cHM6Ly93d3cud2xyay5jb20vc2VjdGlvbi0xM=
+y1kLw/607f07ceef4b8524a319a23cBe7aef953" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">pushing for this</a> for=
+ more than a decade.)</p><p style=3D"margin: 16px 0;">Activists sometimes u=
+se swaps to build larger economic positions without triggering 13D requirem=
+ents, and so swap disclosure is a way to restrict activists. Right now, Sec=
+tion 13(d) requires disclosure only of =E2=80=9Cbeneficial ownership=E2=80=
+=9D of stock, and most swaps =E2=80=94 cash-settled bets on stock prices =
+=E2=80=94=C2=A0do not carry beneficial ownership and don=E2=80=99t trigger =
+disclosure requirements. Again, this fits with what the 13D rules are=C2=A0=
+intended=C2=A0to do, which is require disclosure of big voting positions. B=
+ut people worry that activists who buy stock on swap can quickly exchange t=
+heir swaps for =E2=80=9Cphysical=E2=80=9D positions in voting stock. (For i=
+nstance, by buying the stock from the bank that is holding it as a hedge to=
+ their swap.) Or they worry that the activist=E2=80=99s swap counterparties=
+ (the banks) will feel pressure to vote the stock the way the activist want=
+s. Or they just want everyone to know that an activist is acquiring stock, =
+on swap or otherwise, so that retail investors can copy the activists=E2=80=
+=99 trades and make money while reducing the returns to activism.</p><table=
+ class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjA2NzY3MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYzNDYzMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH58972daf" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26067671&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26346312&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SEC v. 10b5-1 plans</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjEtMDYtMjEvbG9yZHN0b3duLWV4ZWN1dGl2ZXMtaGFkLWdvb2Q=
+tdGltaW5nP2NtcGlkPUJCRDEyMTYyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3=
+NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTIxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZ=
+g/607f07ceef4b8524a319a23cBd95c0260" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> basic issue</a> is that if yo=
+u are a senior executive of a public company, (1) you always know things ab=
+out the company that the public doesn=E2=80=99t know, but (2) we want you t=
+o be able to trade stock anyway. Everyone loves when corporate executives=
+=C2=A0<em>buy=C2=A0</em>stock =E2=80=94=C2=A0bullish signal, etc. =E2=80=94=
+=C2=A0and, since lots of executives are paid mostly in stock, we want them =
+to be able to sell stock sometimes to buy houses and stuff.</p><p style=3D"=
+margin: 16px 0;">So there are rules and norms that let executives trade sto=
+ck without getting in trouble for insider trading. One is the norm that the=
+re are =E2=80=9Copen windows=E2=80=9D for trading, typically shortly after =
+a company announces earnings; the idea is that the company has disclosed ev=
+erything material in the earnings release and call, so now the executives d=
+on=E2=80=99t know any more than anyone else and can trade freely. (This is =
+mostly silly but nonetheless the norm.[9]) The other is <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cubGF3L=
+mNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0MC4xMGI1LTE/607f07ceef4b8524a319a23cBbaa=
+56441" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">Rule 10b5-1(c)</a>, which says that if an executive sets up =
+an automated=C2=A0<em>plan </em>to trade stock while she has no material no=
+npublic information (i.e. when she is in an open window), that=C2=A0<em>pla=
+n=C2=A0</em>can go ahead and trade stock for her even if she later gets som=
+e material nonpublic information.</p><p style=3D"margin: 16px 0;">Rule 10b5=
+-1 plans are controversial. For one thing, it is <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDgvbW92aWVwYXNzLWNoYW5nZWQtc29tZS1=
+wYXNzd29yZHM_Y21waWQ9QkJEMTIxNjIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMjE2JnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cB87795236" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> theoretically possible to g=
+ame them</a> to insider trade in cute but somewhat silly ways.=C2=A0More im=
+portant, though, nobody=C2=A0<em>really=C2=A0</em>believes that executives =
+are ever free of inside information, so the whole 10b5-1 concept seems susp=
+ect. If you set up a plan to trade stock, and then a week later you sell st=
+ock, and then a week later bad news comes out and=C2=A0the stock goes down,=
+ everyone will say =E2=80=9Cwell you probably had inside information didn=
+=E2=80=99t you.=E2=80=9D</p><p style=3D"margin: 16px 0;">One really simple =
+fix here would be to say: Okay, executives can trade stock all they want, b=
+ut on a long delay. You can put in an order today saying =E2=80=9Csell 10,0=
+00 shares,=E2=80=9D or =E2=80=9Csell $50,000 of stock,=E2=80=9D and your br=
+oker can execute it, but only=C2=A0<em>four months from now</em>. You might=
+ have inside information today, and you might have inside information in fo=
+ur months, but=C2=A0<em>it will definitely be different information</em>. I=
+f you want to sell stock today because you have secret knowledge of a data =
+breach or an earnings miss, or you want to buy stock today because you have=
+ secret knowledge of a merger or an earnings beat, just put in the order to=
+day, trade in four months, and by then the market will have already learned=
+ and priced in whatever secret information you know today and moved on to o=
+ther things.</p><p style=3D"margin: 16px 0;">The simple and elegant solutio=
+n would be to have a new rule saying=C2=A0=E2=80=9Ccorporate executives can=
+ put in an order to trade=C2=A0stock whenever they want, whether or not the=
+y have inside information, but the order can=E2=80=99t execute for four mon=
+ths and can=E2=80=99t be canceled in the meantime.=E2=80=9D But I guess tha=
+t=E2=80=99s a bit harsh and weird, and anyway Rule 10b5-1 already exists, s=
+o the SEC did not take that approach. <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXN=
+zLXJlbGVhc2UvMjAyMS0yNTY/607f07ceef4b8524a319a23cCad668c92" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">Instead=
+</a>:</p><blockquote><p style=3D"margin: 16px 0;">The proposed amendments t=
+o Rule 10b5-1 would update the requirements for the affirmative defense, in=
+cluding imposing a cooling off period before trading could commence under a=
+ plan, prohibiting overlapping trading plans, and limiting single-trade pla=
+ns to one trading plan per twelve month period. In addition, the proposed r=
+ules would require directors and officers to furnish written certifications=
+ that they are not aware of any material nonpublic information when they en=
+ter into the plans and expand the existing good faith requirement for tradi=
+ng under Rule 10b5-1 plans.</p></blockquote><p style=3D"margin: 16px 0;">=
+=E2=80=9CSpecifically,=E2=80=9D <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/26067671.278641/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9wcm9wb3NlZ=
+C8yMDIxLzMzLTExMDEzLnBkZg/607f07ceef4b8524a319a23cB8c4f8e9d" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">says t=
+he SEC</a>, =E2=80=9Cour proposals would:=C2=A0Require a Rule 10b5-1 tradin=
+g arrangement entered into by officers or directors to include a 120-day ma=
+ndatory cooling-off period before any trading can commence under the tradin=
+g arrangement after its adoption (including adoption of a modified trading =
+arrangement).=E2=80=9D (The=C2=A0<em>company itself=C2=A0</em>can do a 10b5=
+-1 plan, for a stock buyback, with a 30-day cooling-off period.) Seems reas=
+onable.=C2=A0</p><p style=3D"margin: 16px 0;">There are a bunch of other ne=
+w 10b5-1 rules,[10]=C2=A0of which my favorite is the one that will =E2=80=
+=9Cprovide that the affirmative defense under Rule 10b5-1(c)(1) does not ap=
+ply to multiple overlapping Rule 10b5=E2=80=911 trading arrangements for op=
+en market trades in the same class of securities.=E2=80=9D The classic cute=
+sy securities-lawyer hypothetical way to game Rule 10b5-1 is:</p><ol style=
+=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li s=
+tyle=3D"margin-bottom: 5px;">You don=E2=80=99t have inside information now,=
+ but you are sure you will in five=C2=A0months. (For instance, you=E2=80=99=
+ll announce earnings in 5.5 months; in five months you=E2=80=99ll know what=
+=E2=80=99s in the earnings but the market won=E2=80=99t.)</li>=09<li style=
+=3D"margin-bottom: 5px;">Set up a 10b5-1 plan, today, to sell a bunch of st=
+ock in five months.</li>=09<li style=3D"margin-bottom: 5px;">Set up another=
+ 10b5-1 plan, today, to buy a bunch of stock in five months.</li>=09<li sty=
+le=3D"margin-bottom: 5px;">Wait five months and get the inside information.=
+</li>=09<li style=3D"margin-bottom: 5px;">If you have good inside informati=
+on, cancel the selling plan but leave the buying one in place. You=E2=80=99=
+ll buy stock, the information will come out, the stock will go up.</li>=09<=
+li style=3D"margin-bottom: 5px;">If you have bad inside information, cancel=
+ the buying plan but leave the selling one in place. You=E2=80=99ll sell st=
+ock, the information will come out, the stock will go down.</li></ol><p sty=
+le=3D"margin: 16px 0;">The idea is that <em>canceling=C2=A0</em>a 10b5-1 pl=
+an is not a =E2=80=9Ctrade=E2=80=9D and so you can do it even if you have i=
+nside information. This is very cute but I cannot imagine anyone really doe=
+s it, and I am pretty sure it=E2=80=99s=C2=A0illegal under existing law. No=
+netheless the SEC is banning it just in case.</p><table class=3D"header" wi=
+dth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SEC v. stock buybacks</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">People are worried about stock buyback=
+s? The SEC has <a href=3D"https://link.mail.bloombergbusiness.com/click/260=
+67671.278641/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMS0yNT=
+c/607f07ceef4b8524a319a23cC64bda43b" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">proposed new stock buyback dis=
+closure rules</a>,[11] some of which are about making companies disclose st=
+ock buybacks on a more timely and comprehensive basis. There will be a new =
+=E2=80=9CForm SR,=E2=80=9D and companies will have to file it within a day =
+after buying back stock, disclosing how many shares they purchased and how =
+much they paid. Currently companies disclose this on a long lag in their qu=
+arterly reports; the SEC wants to make that disclosure daily.</p><p style=
+=3D"margin: 16px 0;">But another weird part of the rules is that companies =
+will now have to disclose=C2=A0<em>why=C2=A0</em>they bought back stock. (I=
+n their quarterly reports, not in the daily Form SR.) There are, I think, r=
+oughly four overlapping good reasons for a company to buy back stock:</p><o=
+l style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">We have a lot of cash and no good inve=
+stment ideas, so we=E2=80=99re going to hand it back to shareholders for th=
+em to figure out what to do with it.</li>=09<li style=3D"margin-bottom: 5px=
+;">We have a lot of cash and our shareholders could use some cash, so we=E2=
+=80=99re going to give them some of ours.</li>=09<li style=3D"margin-bottom=
+: 5px;">Our stock price is too low so we=E2=80=99re going to buy some to im=
+prove returns for our remaining shareholders.</li>=09<li style=3D"margin-bo=
+ttom: 5px;">We have too much equity in our capital structure so we are goin=
+g to raise debt and buy back stock to improve our return on equity.[12]</li=
+></ol><p style=3D"margin: 16px 0;">But people who are worried about stock b=
+uybacks think that companies do them for bad reasons, such as:</p><ol style=
+=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li s=
+tyle=3D"margin-bottom: 5px;">To manipulate earnings per share calculations =
+by reducing the share count.</li>=09<li style=3D"margin-bottom: 5px;">To ar=
+tificially inflate the stock price.</li>=09<li style=3D"margin-bottom: 5px;=
+">To artificially inflate the stock price so that executives can sell stock=
+ while the company buys.</li>=09<li style=3D"margin-bottom: 5px;">To cover =
+up the massive dilution caused by executive stock grants.</li>=09<li style=
+=3D"margin-bottom: 5px;">Etc.</li></ol><p style=3D"margin: 16px 0;">The SEC=
+=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/2606767=
+1.278641/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9wcm9wb3NlZC8yMDIxLzM0LTkzNzgzLn=
+BkZg/607f07ceef4b8524a319a23cBed308901" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">proposed=C2=A0rules</a> wou=
+ld basically require companies to declare that they=E2=80=99re not doing an=
+y of the bad reasons:</p><blockquote><p style=3D"margin: 16px 0;">Specifica=
+lly, we propose to require an issuer to disclose:<br />=E2=80=A2 The object=
+ive or rationale for its share repurchases and process or criteria used to =
+determine the amount of repurchases;<br />=E2=80=A2 Any policies and proced=
+ures relating to purchases and sales of the issuer=E2=80=99s securities by =
+its officers and directors during a repurchase program, including any restr=
+iction on such transactions. ...</p><p style=3D"margin: 16px 0;">We are add=
+itionally proposing to require that issuers disclose if any of their office=
+rs or directors =E2=80=A6 purchased or sold shares =E2=80=A6 within 10 busi=
+ness days before or after=C2=A0the announcement of an issuer purchase plan =
+or program by checking a box.</p></blockquote><p style=3D"margin: 16px 0;">=
+I feel like =E2=80=9Cthe objective or rationale for its share repurchases=
+=E2=80=9D is going to get real formulaic real quick? Part of the point here=
+ is just to make it a tiny bit more annoying for companies to buy back stoc=
+k by making them type this somewhat embarrassing formulaic declaration.</p>=
+<p style=3D"margin: 16px 0;">But part of the point is of course that <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1=
+zYWNocy1nb2VzLXRvLXN1cHJlbWUtY291cnQtaGVkZ2UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLW=
+trcG9lNndzP2NtcGlkPUJCRDEyMTYyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTIxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVm=
+Zg/607f07ceef4b8524a319a23cB26038c3c" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> everything is securities fra=
+ud</a>. Now companies will need to say, in their securities filings, that t=
+hey are buying back stock for good reasons and not to enrich their executiv=
+es. And now disgruntled shareholders will be able to sue, saying =E2=80=9Ca=
+ctually you bought back stock to enrich your executives and lied about it i=
+n your securities filings.=E2=80=9D</p><table class=3D"header" width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SEC v. money market funds</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">There is a theory among many smart ban=
+king aficionados that money market funds are not actually boring, that the =
+boringness is just a distraction, that under their boring surface they are =
+roiling monstrosities that could bring down the world financial system at a=
+ moment=E2=80=99s notice. I respect this theory intellectually, and as a ge=
+neral matter I am all for theories of the form =E2=80=9Cthis seemingly bori=
+ng thing is actually terrifying,=E2=80=9D but I cannot quite feel this one =
+in my bones. I find money market funds boring. I=E2=80=99m sorry.</p><p sty=
+le=3D"margin: 16px 0;">Still! Here are the SEC=E2=80=99s proposed <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMS0yNTg/607f07ceef4b8524a319=
+a23cC83b753be" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">amendments to money market fund rules</a>:</p><block=
+quote><p style=3D"margin: 16px 0;">The proposed amendments would increase l=
+iquidity requirements for money market funds to provide a more substantial =
+liquidity buffer in the event of rapid redemptions. The proposed amendments=
+ also would remove provisions in the current rule permitting or requiring a=
+ money market fund to impose liquidity fees or to suspend redemptions throu=
+gh a gate when a fund=E2=80=99s liquidity drops below an identified thresho=
+ld. These provisions appeared to contribute to investors=E2=80=99 incentive=
+s to redeem in March 2020 as some funds=E2=80=99 reported liquidity levels =
+declined.</p><p style=3D"margin: 16px 0;">To address concerns about redempt=
+ion costs and liquidity, the proposal would require institutional prime and=
+ institutional tax-exempt money market funds to implement swing pricing pol=
+icies and procedures that would require redeeming investors, under certain =
+circumstances, to bear the liquidity costs of their redemptions.</p><p styl=
+e=3D"margin: 16px 0;">Further, the proposal would amend certain reporting r=
+equirements to improve the availability of information about money market f=
+unds and enhance the Commission=E2=80=99s monitoring and analysis of these =
+funds.</p></blockquote><p style=3D"margin: 16px 0;">I have <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMDIvc3RhYmxlY29pbnMtbWlna=
+HQtaGF2ZS10by1iZS1iYW5rcz9jbXBpZD1CQkQxMjE2MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVt=
+PWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEyMTYmdXRtX2NhbXBhaWd=
+uPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7183ab01" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> pointed out</a=
+> in <a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.2786=
+41/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMTUv=
+bW92aWVwYXNzLWlzLWJhY2std2lsbC1pdC1iZS10aGUtbmV4dC1nYW1lc3RvcD9jbXBpZD1CQkQ=
+xMjE2MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlci=
+Z1dG1fdGVybT0yMTEyMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a=
+23cB01a2f202" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> the past</a> that U.S. regulators want to regulate=
+=C2=A0<em>crypto=C2=A0</em>shadow banking (stablecoins) much more strictly =
+than=C2=A0<em>traditional=C2=A0</em>shadow banking (money market funds, etc=
+.). Stablecoins, under proposed U.S. rules, would be regulated as banks and=
+ would have to have equity capital; money market funds are not regulated as=
+ banks and can be funded 100% with shares that are supposed to be stable an=
+d always worth a dollar. This doesn=E2=80=99t change=C2=A0that, but I suppo=
+se increasing liquidity requirements makes money market funds a little safe=
+r.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Credit building</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">This one is not a new SEC proposal, th=
+is one is just fun.</p><p style=3D"margin: 16px 0;">If you are a young pers=
+on with no credit history, or a person with bad credit history, you will wa=
+nt to =E2=80=9Cbuild your credit.=E2=80=9D This consists basically of creat=
+ing a long record of reliably repaying your debts, so that credit reporting=
+ bureaus think you are a good credit, so that banks will happily lend you m=
+oney, so that you can buy stuff on credit cards and get leases and mortgage=
+s and car loans. If you have no or bad credit this is hard, though, since n=
+o one will advance you any credit, so you won=E2=80=99t have any debts to p=
+ay, so you won=E2=80=99t build credit.</p><p style=3D"margin: 16px 0;">Ther=
+e are=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2606767=
+1.278641/aHR0cHM6Ly93d3cubmVyZHdhbGxldC5jb20vYXJ0aWNsZS9maW5hbmNlL2hvdy10by=
+1idWlsZC1jcmVkaXQ/607f07ceef4b8524a319a23cB08607c30" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">canonical appr=
+oaches</a>. Banks will give you credit cards with low credit limits so you =
+can start small and build from there. Or they will give you secured credit =
+cards: You put $1,000 in a bank account, you get a linked credit card with =
+a $1,000 limit, the credit advanced to you is secured by the money in your =
+account, the bank takes no credit risk but reports repayments to the credit=
+ bureaus, etc.</p><p style=3D"margin: 16px 0;">What if there was a simpler =
+way? Yesterday reader Sark Asadourian sent me a link to <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cua29ob=
+y5jYS9jcmVkaXQtYnVpbGRpbmcv/607f07ceef4b8524a319a23cB41bbc71c" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">a Cr=
+edit Building product</a> from Canadian fintech Koho, and I haven=E2=80=99t=
+ stopped laughing about it since. Here is the =E2=80=9CHow it works=E2=80=
+=9D section of the website:</p><blockquote><p style=3D"margin: 16px 0;">1 S=
+tart by subscribing to Credit Building for $7/month in-app</p><p style=3D"m=
+argin: 16px 0;">2 Sit back. We'll report your progress to a major credit bu=
+reau and help you grow your credit score in just 6 months =E2=80=94 without=
+ having to lift a finger</p><p style=3D"margin: 16px 0;">3 Ensure there=E2=
+=80=99s $7 in your Spendable account each month to cover the subscription f=
+ee. That=E2=80=99s it!</p></blockquote><p style=3D"margin: 16px 0;">They wi=
+ll demonstrate to a credit bureau that you pay your bills, by sending you a=
+ $7 bill each month, which you will pay. What is the bill for? For demonstr=
+ating that you pay your bills. They=E2=80=99ll charge you $7 a month for ch=
+arging you $7 a month. What you get for the $7 is a record that you paid $7=
+. Which could conceivably be worth $7 to you! Possibly this is=C2=A0good fo=
+r the customers!=C2=A0I cannot stop laughing. This is maybe the best financ=
+ial product I have ever seen.[13] =E2=80=9CFor the low cost of $7 a month, =
+you can pay us $7 a month.=E2=80=9D Everything else is so dull and overelab=
+orated. Imagine being the person who came up with this. Imagine the bright =
+wild=C2=A0gleam in your eye, coming in to work that day to tell your collea=
+gues.</p><p style=3D"margin: 16px 0;">Also though imagine messing this up. =
+You=E2=80=99re a young person, money is tight, you sign up for Credit Build=
+ing, you pay them $7 a month for a few months but then life gets complicate=
+d, your account balance gets below $7 and you miss a payment. Do they repor=
+t that to a credit bureau? Does it hurt your credit? Oh you=E2=80=99d bette=
+r believe it:</p><blockquote><p style=3D"margin: 16px 0;">Just as making yo=
+ur payments on time will positively impact your credit score, the inverse i=
+s true. Not making your payments on time will hurt your credit score.</p><p=
+ style=3D"margin: 16px 0;">To keep it simple: We advise you to let KOHO do =
+all the work after you register. Just ensure there is $7 in your Spendable =
+balance for the subscription fee each month and you won=E2=80=99t miss a pa=
+yment!</p></blockquote><p style=3D"margin: 16px 0;">Seems harsh!</p><table =
+class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Reddit <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjEtMTItMTYvbWVkaWEtcGxhdGZvcm0tcmVkZGl0LXNheXMtaXQt=
+ZmlsZWQtY29uZmlkZW50aWFsbHktZm9yLXUtcy1pcG8_Y21waWQ9QkJEMTIxNjIxX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMj=
+E2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB360ba805" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Files for IPO</a> After Igniting the Year=E2=80=99s Meme Stock Frenzy. =
+Private Equity Firm <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwM=
+jEtMTItMTYvcHJpdmF0ZS1lcXVpdHktZ2lhbnQtdHBnLWZpbGVzLXRvLWdvLXB1YmxpYy1pbi10=
+aGUtdS1zP2NtcGlkPUJCRDEyMTYyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3N=
+vdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTIxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg=
+/607f07ceef4b8524a319a23cB832e85e4" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> TPG</a> Files for Long-Awaited=
+ U.S. IPO. WallStreetBets Jokes of <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjEtMTItMTYvd2FsbHN0cmVldGJldHMtam9rZXMtb2YtcHVtcGluZy1yZWRka=
+XQtc3RvY2stYWZ0ZXItaXBvLWZpbGluZz9jbXBpZD1CQkQxMjE2MjFfTU9ORVlTVFVGRiZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEyMTYmdXRtX2N=
+hbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb22b7f30" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> Pumpin=
+g Reddit Stock</a> After IPO Filing. Anchorage Capital <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cud3NqLm=
+NvbS9hcnRpY2xlcy9hbmNob3JhZ2UtY2FwaXRhbC1jbG9zaW5nLTctNC1iaWxsaW9uLWZsYWdza=
+GlwLWhlZGdlLWZ1bmQtMTE2Mzk1ODg5NTk_bW9kPWhwX2xpc3RhX3BvczI/607f07ceef4b8524=
+a319a23cB714da4fc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">Is Closing</a> $7.4 Billion Flagship Hedge Fund.=
+ Money Manager <a href=3D"https://link.mail.bloombergbusiness.com/click/260=
+67671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMT=
+ItMTYvbW9uZXktbWFuYWdlci13aXRoLTMxMy1taWxsaW9uLWZyb20tY2hpbmEtZGV2ZWxvcGVyL=
+WRpc2FwcGVhcnM_Y21waWQ9QkJEMTIxNjIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1=
+dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMjE2JnV0bV9jYW1wYWlnbj1tb25leXN=
+0dWZm/607f07ceef4b8524a319a23cB460700f3" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Vanishes</a> With $313 =
+Million From China Builder. JPMorgan A-Rod Adviser <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTItMTUvanBtb3JnYW4tYS1yb2QtYWR2aXNlci1sb=
+3Nlcy1ydWxpbmctaW4tY2xpZW50LXBvYWNoaW5nLWZpZ2h0P2NtcGlkPUJCRDEyMTYyMV9NT05F=
+WVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI=
+xMTIxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBe67e3604" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> Loses Ruling</a> in Client-Poaching Fight. Fired JPMorgan Trader S=
+hows It Pays to <a href=3D"https://link.mail.bloombergbusiness.com/click/26=
+067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtM=
+TItMTYvZmlyZWQtanBtb3JnYW4tdHJhZGVyLXNob3dzLWl0LXBheXMtdG8td2luLXlvdXItb2xk=
+LWpvYi1iYWNrP2NtcGlkPUJCRDEyMTYyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXR=
+tX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTIxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdH=
+VmZg/607f07ceef4b8524a319a23cB9f1fb3f5" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> Win Your Old Job Back</a>.=
+ UK regulator <a href=3D"https://link.mail.bloombergbusiness.com/click/2606=
+7671.278641/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMjY3ZGE1N2MtMDk0NS00YjM5LTk=
+4OTQtYjJkYTE5MWE5ODE4/607f07ceef4b8524a319a23cB628bd0af" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">fines GAM<=
+/a> and former star fund manager over managing Gupta ties. US borrowers bre=
+ach <a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.27864=
+1/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNjdiNjI1ZTctODdhYi00NzhlLWFjYTEtOTk1Z=
+jE1MGU2Yjlj/607f07ceef4b8524a319a23cBee0eba31" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">loan limit guidance<=
+/a> at record pace. Michael Jordan <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/26067671.278641/aHR0cHM6Ly9kZWNyeXB0LmNvLzg4MzkzL21pY2hhZW=
+wtam9yZGFuLWp1bXBzLWludG8td2ViMy1zb2xhbmEtYXBwLWF0aGxldGVzLW5mdHMtdG9rZW5z/=
+607f07ceef4b8524a319a23cB79fd0fd8" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">Jumps Into Web3</a> via Solana A=
+pp for Athletes. Tesla Takes Customers to Court to <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTItMTUvY2hpbmVzZS1jdXN0b21lcnMtaW4tY291c=
+nQtb3Zlci10ZXNsYS1sZWdhbC1zdHJhdGVneS10by1zaWxlbmNlLWNyaXRpY3M_Y21waWQ9QkJE=
+MTIxNjIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXI=
+mdXRtX3Rlcm09MjExMjE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a=
+23cB873f0609" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> Silence Its Critics</a> in China. Harvard <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93=
+d3cubnl0aW1lcy5jb20vMjAyMS8xMi8xNi90ZWNobm9sb2d5L2hhcnZhcmQtam9iLXNjYW0taW5=
+kaWEuaHRtbD9yZWZlcnJpbmdTb3VyY2U9YXJ0aWNsZVNoYXJl/607f07ceef4b8524a319a23cB=
+bb83309c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">scam</a>. =E2=80=9CSomeone was walking through the street=
+s with <a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.27=
+8641/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNGNkNmM0M2UtZTcyNy00NzkyLWIyYzAtMD=
+gzNjk0YmQ1MWNl/607f07ceef4b8524a319a23cB1a3bfa9a" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">black bin liners =
+of cash</a>.=E2=80=9D Drawing <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26067671.278641/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjEvMTIvMTUvZHJhd2l=
+uZy1ib3VnaHQtZm9yLTMwLWlzLWFjdHVhbGx5LXdvcnRoLTUwLW1pbGxpb24v/607f07ceef4b8=
+524a319a23cBb9cf3ca1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">bought for $30</a> at estate sale is actually=
+ worth $50 million. Kraft will pay you $20 <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuY25uLmNvbS8yMDIxLz=
+EyLzE1L2J1c2luZXNzL2NyZWFtLWNoZWVzZS1zaG9ydGFnZS1kZXNzZXJ0L2luZGV4Lmh0bWw/6=
+07f07ceef4b8524a319a23cBfe2a0e66" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">not to make cheesecake</a> for Ch=
+ristmas. Melania Trump Joins Crypto Frenzy With Release of First <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTItMTYvbWVsYW5pYS10cnVtcC1=
+qb2lucy1jcnlwdG8tZnJlbnp5LXdpdGgtbmZ0cy1yZWxlYXNlP2NtcGlkPUJCRDEyMTYyMV9NT0=
+5FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtP=
+TIxMTIxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBcaf55c39=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> NFT</a>.</p><p style=3D"margin: 16px 0;"><span class=3D"news-des=
+igned-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=
+=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26067671.278641/aHR0cDovL2xpbmsubWFp=
+bC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD0=
+1NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB66a180=
+16" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">subscribe at this link</a>. Or you =
+can subscribe to Money Stuff and other great Bloomberg newsletters <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6L=
+y9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB248376=
+02" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">here</=
+a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] The other d=
+ownside, to be fair, is that some distressed companies probably *should* sh=
+ut down their businesses, and CDS shenanigans could keep them alive ineffic=
+iently.</em></p><p style=3D"margin: 16px 0;"><em>[2] Arguably this has not =
+been a priority because insider trading and market manipulation in CDS is p=
+robably illegal anyway. =E2=80=9CAlthough the Commission generally believes=
+ that a situation where a person uses material non-public information in a =
+security in connection with the purchase and sale of a security-based swap =
+would be subject to the existing antifraud authority under the Federal secu=
+rities laws, particularly Section 10(b) of the Exchange Act and Rule 10b-5 =
+thereunder, the Commission also believes that market participants would ben=
+efit from a clarified interpretation of that statutory provision in this ru=
+lemaking,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/26067671.278641/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9wcm9wb3NlZC8yMDIxLzM0LT=
+kzNzg0LnBkZg/607f07ceef4b8524a319a23cF40639b89" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">says the SEC</a>.</=
+em></p><p style=3D"margin: 16px 0;"><em>[3] This feels a little weird in mo=
+dern syndicated loan markets, but some residue of it still exists. See page=
+ 28 of <a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.27=
+8641/aHR0cHM6Ly93d3cuZGF2aXNwb2xrLmNvbS9zaXRlcy9kZWZhdWx0L2ZpbGVzL0ludGVybm=
+F0aW9uYWwlMjBDb21wYXJhdGl2ZSUyMExlZ2FsJTIwR3VpZGUlMjB0byUyMExlbmRpbmclMjAlM=
+jYlMjBTZWN1cmVkJTIwRmluYW5jZSUyMENoLiUyMDYlMjAyMDE2LlBERg/607f07ceef4b8524a=
+319a23cB9e5879d3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">this 2016 Davis Polk memo</a> for an overview of =
+how lenders treat the =E2=80=9Cpublic side=E2=80=9D/=E2=80=9Cprivate side=
+=E2=80=9D distinction in loan markets.</em></p><p style=3D"margin: 16px 0;"=
+><em>[4] Loosely because in practice you can do a number of economically ve=
+ry similar transactions with different names. =E2=80=9CTotal return swap=E2=
+=80=9D feels like the most standard and generic, but =E2=80=9Cforward=E2=80=
+=9D or =E2=80=9Cpenny-strike call option=E2=80=9D or =E2=80=9Cput/call comb=
+o=E2=80=9D all mean more or less the same thing, and you can put =E2=80=9Cc=
+ash settled=E2=80=9D or =E2=80=9Cphysically settled=E2=80=9D in front of an=
+y of those things to get economically similar but technologically different=
+ transactions. Also you can more or less lump any sort of high-delta option=
+ transaction into this bucket too. The category is =E2=80=9Cleveraged synth=
+etic exposure to a stock,=E2=80=9D which I will just generically call =E2=
+=80=9Ctotal return swaps.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"><em=
+>[5] In a margin loan you own the stock, the bank has a lien on it, and for=
+eclosing can be a bit complicated and annoying. In a swap the bank owns the=
+ stock and can just sell it whenever it wants, and it can close out the swa=
+p=C2=A0under contractual terms that are probably very protective of the ban=
+k.</em></p><p style=3D"margin: 16px 0;"><em>[6] The main Section 13(d) thre=
+shold is 5%. Iff you own 5% on swap with five different banks, and none of =
+them is above 5% itself, then they won=E2=80=99t.</em></p><p style=3D"margi=
+n: 16px 0;"><em>[7] This reporting rule also covers CDS, at a lower thresho=
+ld, and is intended to crack down on =E2=80=9C<a href=3D"https://link.mail.=
+bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly9jb3JwZ292Lmxhdy5oYXJ=
+2YXJkLmVkdS8yMDE4LzA4LzA3L3RoZS1yaXNlLW9mLXRoZS1uZXQtc2hvcnQtZGVidC1hY3Rpdm=
+lzdC8/607f07ceef4b8524a319a23cBfb8d47f0" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">net short debt activism<=
+/a>=E2=80=9D along the lines of (allegedly) <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMTktMDItMTkvYXVyZWxpdXMtd2lucy1hZ2FpbnN0LXdpbmRz=
+dHJlYW0_Y21waWQ9QkJEMTIxNjIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMjE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB79823b4f" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">the Aurelius/Windstream situation=
+</a>.</em>=C2=A0</p><p style=3D"margin: 16px 0;"><em>[8] If they=E2=80=99re=
+ good activists anyway.</em></p><p style=3D"margin: 16px 0;"><em>[9] To be =
+clear, it is just a default norm. If the executives are negotiating a merge=
+r or dealing with a huge data breach right after earnings, and they trade t=
+he stock, that can still be insider trading.</em></p><p style=3D"margin: 16=
+px 0;"><em>[10]=C2=A0The other complaint that people sometimes make about 1=
+0b5-1 plans is that they should be disclosed in advance; executives should =
+have to give shareholders some warning that they might be buying or selling=
+ stock. The SEC=E2=80=99s proposed rules don=E2=80=99t say that, but they w=
+ould=C2=A0require companies to provide new quarterly disclosures about whet=
+her any officers or directors have put in place (or canceled) a 10b5-1 plan=
+, and how long it will last and how many shares it covers.=C2=A0</em></p><p=
+ style=3D"margin: 16px 0;"><em>[11] It=E2=80=99s not in these rules, but we=
+ talked in the previous section about the new proposed <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/26067671.278641/aHR0cHM6Ly93d3cuc2VjLm=
+dvdi9ydWxlcy9wcm9wb3NlZC8yMDIxLzMzLTExMDEzLnBkZg/607f07ceef4b8524a319a23cC8=
+c4f8e9d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">cooling-off period under Rule 10b5-1</a>. Companies that d=
+o open-market stock buybacks often do so under Rule 10b5-1, so that they ca=
+n set up an automatic buyback plan and continue buying through blackout per=
+iods. The new Rule 10b5-1 proposal would require them to wait 30 days after=
+ setting up the plan before they start buying. (I think a fair number of co=
+mpanies do this anyway, to be safe, but now it might be required.)</em></p>=
+<p style=3D"margin: 16px 0;"><em>[12] Everyone in finance thinks this is a =
+good reason to buy back stock (except <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/26067671.278641/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2k=
+vTW9kaWdsaWFuaSVFMiU4MCU5M01pbGxlcl90aGVvcmVt/607f07ceef4b8524a319a23cB2855=
+df04" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">Modigliani and Miller</a>, ha), but normal people hate it. No=
+netheless I am counting it as a good reason.</em></p><p style=3D"margin: 16=
+px 0;"><em>[13] Exercise for the reader: What do you think are the margins =
+on this product? My guess is =E2=80=9Csurprisingly low, depending on how yo=
+u count.=E2=80=9D</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB6d4667dd" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB399481c9" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB96b39fb0" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBee604fed" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjA2NzY3MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYzNDYzMTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIcd15af28" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26067671&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26346312&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2606767=
+1.278641/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB72dc06bf" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26067671.278641/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC00b05420" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26067671.278641/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB94ff3487" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26067671.278641/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBb287d989" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB8=
+7465e32" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26067671.278641/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB9=
+6c328b3" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D260676=
+71&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26346312&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D260676=
+71&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26346312&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D260676=
+71&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26346312&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D260676=
+71&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26346312&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D260676=
+71&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26346312&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfipxz.5z01/7b5f3956.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_45289_300348787.1639680178037--
+

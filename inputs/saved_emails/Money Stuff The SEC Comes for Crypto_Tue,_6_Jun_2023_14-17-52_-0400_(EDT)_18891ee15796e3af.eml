@@ -1,0 +1,2641 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp3654262rwb;
+        Tue, 6 Jun 2023 11:17:59 -0700 (PDT)
+X-Received: by 2002:a05:600c:2054:b0:3f4:f0c2:143 with SMTP id p20-20020a05600c205400b003f4f0c20143mr2552276wmg.20.1686075479501;
+        Tue, 06 Jun 2023 11:17:59 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1686075479; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=gxWYX3OlandIeMQ72HkzVhm2bNHrLhnG1fjkkSx9YGlHNAzzk1IM9ZFzeHsEYwHllR
+         2HXZWJL/YcWoNmi0jjCp5OzVUr6bk8KyzhEmXLWfMf5Y8ZLHc7+tDpBooWQJPBXiXDsg
+         pKQ0GrNj2J6PtgCp8LVI37vR/A/PLdPmhm9J8XhwQ7Pa/Oaw5dZSVeqFVNQLKkkwsSfB
+         LOQqbnBWRCwBm7xWah8iQaJ//pLXE2q2+kO5CFMVm3a49ElIz/He/mEUa42v3XPOjqLK
+         GHk9ZnY7XWc6lSRY5GAGKptpEfOVThKUI2mIBlgvtaSTHP7WF0si7nidWPi9bUoXQYJc
+         N7wQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=OU/qJmBWHlTBNSbRSfu3KC1nThsZ6sUuYaolOlBJXjg=;
+        b=sTgRQmIz/PmEMmEooIF0r5Hioo01kqDvFXZWC6/Xmt9f/ucL44xp92OPt1yDDK6xdY
+         xaq9RadFGmUygxjjzI9Etx8BwVFuFCgro24/JALXgN8GM6Btoycy2Oxh+u7MD51oCoto
+         34Rtw+87QzC7oMEMnVb51vou143QBejWYFTGGazNrb9FXuLdHs/t51X54P3f8spHvCej
+         TazDURsZJT/RitWKtWx8o0Ko3NIBBMVfP+Lp4APJywfvTk2DcjaiR3iLe35t3zg5/Sz7
+         zTFW3oNAnDdTnx2ORo8GlLCeTpN7N50Tte7uY4/Dx2EchzGesWC81VUhPEpw0vlrteg3
+         ki/w==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="tqmmAH/D";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id k5-20020a05600c0b4500b003f72d799ed2sor2451899wmr.5.2023.06.06.11.17.59
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 06 Jun 2023 11:17:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="tqmmAH/D";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1686075479; x=1688667479;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=OU/qJmBWHlTBNSbRSfu3KC1nThsZ6sUuYaolOlBJXjg=;
+        b=L0L9GIv0TR6lDYjJPg663qY8fUPotR/JcGf5p9TJNm0JGv7Fv3IXiaED05i1l01BAg
+         l91U3iYEg3vGPP5Rq/6WGePb1DRx2J455ussl5mBfETAGrzr1RGobvx0a4Ai8m932red
+         06wLwlFQMGUluhQW6E4TM/4B3avcMgQd1m+aLnS2EJyeFDXvcRglQHL6thW/mjTSm2p2
+         WFjhalMSddl6bC1Xl9ROOoi4DFthwohsRwMiLl0pUgAzk892MnYaPjmvK2UGEnNY1sLn
+         xC4DGXx/HQItK3LuNJLpVdJXPouDtfK81qdsunuadAYnKE2gZivDc3NoIWA/p+pNEurR
+         Ut0w==
+X-Gm-Message-State: AC+VfDyLiB62jkwqE1UEW0hoGe6GHYX5xlDZaJAxnOLqT5v1CX2x2iWd
+	rwArKDOFBAqHcjnfexS2qI1UmLxoqtQw3bRyNKnaZrOEfJbjpQYpxw==
+X-Received: by 2002:a05:600c:228c:b0:3f7:e497:a9f5 with SMTP id 12-20020a05600c228c00b003f7e497a9f5mr570303wmf.8.1686075478985;
+        Tue, 06 Jun 2023 11:17:58 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f8c2:0:0:0:0:0 with SMTP id f2csp119557wrq;
+        Tue, 6 Jun 2023 11:17:54 -0700 (PDT)
+X-Received: by 2002:a92:3206:0:b0:33d:3b69:2d23 with SMTP id z6-20020a923206000000b0033d3b692d23mr2649216ile.19.1686075473959;
+        Tue, 06 Jun 2023 11:17:53 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1686075473; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=0HzBW0aYmT9sNNlfrPtoCDzKDVuA3GR95lUQbaU+h26EMdr/VKBwLBGM06f8kv3bHL
+         3FuIbwOFB3/osSi2s9UWu5yKCf5a2Gd2ObhHLAoDKORfyXs30CK9ptMRuk8vygVkKCSP
+         97m2v7ACWVbWYtRZHTFul5ppyhJWMSTWM52SgMbhRZhQciidJv66sHUdk32CJvjxujh/
+         nS0D0aPcHD6jmnpzi/VmmcojOjajiNp1tGLC1ZIMl6jmUidSHGp5DJzYmMpMd97WBJBc
+         vwGhPhztpk3lp7TqTgGSnBd3gpH3oDV4L2OXYNWnaUJBLO67yhDVM+w7RFdT+bMYT5hg
+         Nd4w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=OU/qJmBWHlTBNSbRSfu3KC1nThsZ6sUuYaolOlBJXjg=;
+        b=DYTSaBTUQJ9MsoMuT/J9CC36LXtLueQCGdKL37qHmhT9J8IOVc7GOK8oWvDb/oL505
+         mAnuY7wj+Z2Nc0GHnoRelcfCVcvl7eODR9OuvX50pDRsIemBEy2Q4jI42C4sdZKaZGjb
+         aPlpn1lmTOK60KbvN1Ii8GoTOwcp8hJKE+AUPr5gX5qtYvt2aq4aOL5ootGxCW90aGGg
+         daWmaSs9DWMefVk476O5yUmuhotG2Dzl5jn1BIGFaK3mdD9R15i+MZ5rL6jSmLxKVO7q
+         c16zmnQtt6hQMvDrKc6+jN3Zd0y5/x06Hz1lybquuXwokpftxtY0b8pufugGEy8UDklE
+         NHbQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="tqmmAH/D";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230606141752.31711038.259416@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230606141752.31711038.259416@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230606141752.31711038.259416@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j15-20020a056e02014f00b0033d08726460sor2488137ilr.10.2023.06.06.11.17.53
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 06 Jun 2023 11:17:53 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230606141752.31711038.259416@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ7Dv1k2Z/6hBgNekTsN8Oi+Ia9O71iL7miMbKcHRenCd3m9dDdgdQamqVAk2/vlb5rSXNfgGyrmWEB/iDSgraAioMRRitU=
+X-Received: by 2002:a92:4b02:0:b0:338:9290:9aac with SMTP id m2-20020a924b02000000b0033892909aacmr2734958ilg.23.1686075473528;
+        Tue, 06 Jun 2023 11:17:53 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1686075473; cv=none;
+        d=google.com; s=arc-20160816;
+        b=IjZYLjisF690G+JHplnb3f62h3V0QiNhyMPkV3ixo+ZvYrfgS8rA+jefBDjPzsYgPC
+         5sVrZDDVNFy0jBV0MpmbcP/De6DW1GC73xGOhuAfzakL1I5XyAARSZ21JquuZnZ5F5DH
+         FR7RYLfQFYJWfpcOtyvgqV3kksulbLIbWPRDEJdletIpsTZ4pJBpo2poGu05AoE6WtUB
+         DEsnUw9iXVzf1yeexgz5f9bzEEabmfm7/GPu8h8Tl+x2iFWobtaPnrr4oaejMBvjIMqS
+         6R3ZRUgmoQjMfGLStveCnzsqB0Di34CMD3piR/iDrjKHZXsNikdJCVD9lUIk1Qs+mhvj
+         eu4Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=OU/qJmBWHlTBNSbRSfu3KC1nThsZ6sUuYaolOlBJXjg=;
+        b=g9hphRe6qwEkj7uEC6xsZby46TRw/hV0UqgidbO9fZKm4KaM3tMng0BX+l3GdXvDar
+         LsLoo3Tqx98jbi2JaH0qgqpZV8IglHcsOP/JuC4Y5ONzlpVedIsoHbHr37YTXcfMkDGC
+         GqKlIZaCtusQAlV/64477boobPPoLXx35rg1vlZrpYE7MLUSp6zp3C4sjuRXpkNDbWSj
+         ZvFo8/TWbWuvAThMTpSQQM/IF4Fr20gehrYAlD9sBgRGQ+FlEr4s0p9/4UQpBDvwnYB/
+         Go0g+jQFy9noUc26hlDhlguKyY/Ati8UfWNmjhcVytKAMypvvns7DK4EjZj97vh+V8xN
+         bQ6w==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="tqmmAH/D";
+       spf=pass (google.com: domain of delivery_20230606141752.31711038.259416@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230606141752.31711038.259416@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230606141752.31711038.259416@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id k11-20020a056638140b00b0040fa7700d64si769112jad.4.2023.06.06.11.17.53
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 06 Jun 2023 11:17:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230606141752.31711038.259416@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=VPdWHy/rGm5dWfQxgb+Fkr5xv0wLCxaa8cVFJi8ZKpU=;
+ b=tqmmAH/DIpcBEjpCr5QMS8nAHI+LxkB3zLJ68fNKDwn9vxzhr6gLUkh267K5cRr5somI6ReJX2gD
+   Y2Ard/i2lVcUIqWYjVYGUx3S9DkuVB0ptftAP3VqQk2F4tulgdSpGR06LF6uapEB74Pqx9tjA2v3
+   k/N4w/Z+GMu4RLpBoi4=
+Received: from njmta-149.sailthru.com (173.228.155.149) by pmta29.sailthru.com id hfts522sd4sj for <bloomberg@khamel.com>; Tue, 6 Jun 2023 13:17:53 -0500 (envelope-from <delivery_20230606141752.31711038.259416@mx.sailthru.com>)
+Received: from nj1-farmelon.flt (172.18.20.31) by njmta-149.sailthru.com id hfts501qqbsc for <bloomberg@khamel.com>; Tue, 6 Jun 2023 14:17:52 -0400 (envelope-from <delivery_20230606141752.31711038.259416@mx.sailthru.com>)
+Date: Tue, 6 Jun 2023 14:17:52 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230606141752.31711038.259416@sailthru.com>
+Subject: Money Stuff: The SEC Comes for Crypto
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_68615_1170758062.1686075472805"
+Precedence: bulk
+x-job: 6358-31711038-20230606
+X-Feedback-ID: 6358:31711038:campaign:sailthru
+X-TM-ID: 20230606141752.31711038.259416
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-farmelon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23civoe6.5k60/c3be5c48
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23civoe6.5k60/c3be5c48>, <mailto:unsubscribe_20230606141752.31711038.259416@mx.sailthru.com>
+X-rpcampaign: stjko31711038
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_68615_1170758062.1686075472805
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        =E2=80=9CA decent rule of thumb,=E2=80=9D I wrote in March, =E2=80=
+=9Cis that all cryptocurrency exchanges are doing crimes, and if you=E2=80=
+=99re lucky your exchange is doi
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      SEC v. Crypto
+   =20
+ =20
+
+=E2=80=9CA decent rule of thumb,=E2=80=9D   I wrote in March, =E2=80=9Cis t=
+hat all cryptocurrency exchanges are doing crimes, and if you=E2=80=99re lu=
+cky your exchange is doing only process crimes.=E2=80=9D Like:
+=09Is your exchange operating an illegal securities exchange in the US? Yes=
+! Yes it is! The view of the US Securities and Exchange Commission, at leas=
+t, is that every crypto exchange in the US is illegal. You might disagree =
+=E2=80=94=C2=A0plenty of crypto exchange executives disagree, and we will t=
+alk more about the arguments below=C2=A0=E2=80=94=C2=A0but realistically, i=
+f you are trading crypto, you simply cannot be too squeamish about strict a=
+dherence to US securities law.=09Is your exchange stealing all of its custo=
+mers=E2=80=99 money? It might be! Some are! Others are not!=C2=A0This is th=
+e one you should mostly care about, if you are a customer.
+
+These things are not especially correlated because, again,=C2=A0every crypt=
+o exchange is violating US securities law. =E2=80=9COooh I shouldn=E2=80=99=
+t trust my money to those guys because they are violating US law=E2=80=9D: =
+Sure, yes, a reasonable position that would save you from a lot of crypto d=
+isasters, but also one that would prevent you from trading crypto entirely.=
+ Your choice!
+I am overstating all of this but=C2=A0not by much, man, not by much.
+Yesterday the SEC=C2=A0sued Binance, the biggest global crypto exchange, an=
+d its founder Changpeng Zhao, for operating an illegal securities exchange.=
+ Today the SEC  sued Coinbase Inc., the biggest US crypto exchange, for ope=
+rating an illegal securities exchange.
+There are basically two ways for a crypto exchange to get in trouble with t=
+he SEC. The=C2=A0good=C2=A0way is that you get in trouble for running an il=
+legal securities exchange. In April, the SEC   sued Bittrex Inc.=C2=A0for a=
+llegedly operating an illegal securities exchange; any reasonable reading o=
+f the Bittrex case made it clear that similar cases were coming against Coi=
+nbase and Binance. Just being a crypto exchange in the US is, in the SEC=E2=
+=80=99s eyes, illegal.
+The=C2=A0bad=C2=A0way is that you get in trouble for stealing all the money=
+. Last December,   the SEC sued FTX Trading Ltd., a big crypto exchange.=C2=
+=A0Here is  the SEC=E2=80=99s complaint against FTX. I am=C2=A0absolutely c=
+ertain=C2=A0that the SEC thinks that FTX operated an illegal securities exc=
+hange in the US. But that does not even=C2=A0come up in the complaint.=C2=
+=A0There is too much else going on.=C2=A0FTX allegedly stole all the money!=
+ When an exchange steals all the money, the SEC focuses on that. When it do=
+esn=E2=80=99t steal all the money, the SEC focuses on the illegal securitie=
+s exchange stuff.
+And so one question about this week=E2=80=99s cases is: Is the SEC suing Co=
+inbase and Binance for being crypto exchanges, or for being bad=C2=A0crypto=
+ exchanges? Is the claim here =E2=80=9Cyou let people trade crypto, which w=
+e think is illegal,=E2=80=9D or is it =E2=80=9Cyou let people trade crypto =
+and steal their money=E2=80=9D?
+With Coinbase, I think=C2=A0the answer is obvious. Coinbase is, as crypto e=
+xchanges go, quite law-abiding. It is a US public company, incorporated in =
+Delaware, listed on the Nasdaq. It went public in a direct listing in 2021,=
+ filing extensive disclosures with the SEC. Its financial statements are au=
+dited by Deloitte & Touche. Its   business model seems to consist of taking=
+ money from customers, using the money to buy crypto, and keeping the crypt=
+o somewhere safe with the customers=E2=80=99 names on it. I hesitate to mak=
+e any bold claims about any crypto actors, and I have been wrong before, bu=
+t it is my impression that Coinbase does not steal the money.
+And in fact  the SEC=E2=80=99s complaint against Coinbase is very dry and f=
+ocused entirely on the fact that Coinbase did not register as a securities =
+exchange. Again, in the SEC=E2=80=99s view, every crypto exchange is violat=
+ing US securities law. But Coinbase is doing so politely and, relatively sp=
+eaking, harmlessly. Not=C2=A0totally=C2=A0harmlessly =E2=80=94=C2=A0=E2=80=
+=9CCoinbase=E2=80=99s failure to register has deprived investors of signifi=
+cant protections, including inspection by the SEC, recordkeeping requiremen=
+ts, and safeguards against conflicts of interest,=E2=80=9D  says the SEC =
+=E2=80=94=C2=A0but relatively.
+With Binance, the answer is more interesting. Binance is, as crypto exchang=
+es go, sort of an average amount of law-abiding? It is notoriously opaque, =
+headquartered nowhere, a web of confusing entities designed to avoid regula=
+tion. (The SEC quotes its chief compliance officer saying, in 2018, =E2=80=
+=9Cwe do not want [Binance].com to be regulated ever.=E2=80=9D) Like FTX, i=
+t has its own token, called BNB; it has its own affiliated trading firms; i=
+t has separate platforms for US customers (Binance.us) and for the rest of =
+the world (Binance.com). It was   sued by the US Commodity Futures Trading =
+Commission in March, mostly for letting big US customers (high-frequency ma=
+rket makers like=C2=A0Jane Street and Tower Research) trade on its Binance.=
+com exchange through their offshore affiliates, though there are not=C2=A0z=
+ero=C2=A0mentions of terrorist financing in the CFTC complaint.=C2=A0
+And similarly  the SEC=E2=80=99s complaint against Binance includes=C2=A0so=
+me=C2=A0claims that Binance was doing bad stuff. Binance has some affiliate=
+d market makers =E2=80=94=C2=A0firms including Sigma Chain AG and Merit Pea=
+k Ltd. that are allegedly controlled by Zhao and that traded on Binance.com=
+ and Binance.us =E2=80=94 and the SEC hints that they got up to shady stuff=
+:
+For example, by 2021, at least $145 million was transferred from BAM Tradin=
+g [i.e. Binance.us]=C2=A0to a Sigma Chain account, and another $45 million =
+of funds were transferred from BAM Trading=E2=80=99s Trust Company B accoun=
+t to the Sigma Chain account. From this account, Sigma Chain spent $11 mill=
+ion to purchase a yacht.
+And:
+From at least September 2019 until June 2022, Sigma Chain AG (=E2=80=9CSigm=
+a Chain=E2=80=9D), a trading firm owned and controlled by Zhao, engaged in =
+wash trading that artificially inflated the trading volume of crypto asset =
+securities on the Binance.US Platform.=C2=A0
+And more generally:
+The SEC also alleges that Zhao and Binance exercise control of the platform=
+s=E2=80=99 customers=E2=80=99 assets, permitting them to commingle customer=
+ assets or divert customer assets as they please, including to an entity Zh=
+ao owned and controlled called Sigma Chain.=C2=A0
+But the SEC does not dwell much on these claims,
+  [1]
+ and for the most part the Binance complaint is the same as the Coinbase co=
+mplaint: Binance is accused of operating a crypto exchange that was open to=
+ US customers and that listed crypto tokens that are securities, without re=
+gistering as a US securities exchange.=C2=A0I am tempted to read yesterday=
+=E2=80=99s lawsuit as kind of an endorsement=C2=A0of Binance by the SEC. Th=
+e SEC, and before it the CFTC, investigated Binance carefully and wrote a 1=
+36-page complaint about every bad thing it could find, and all it could fin=
+d is that Binance is running a crypto exchange.=C2=A0
+Still, while the arguments in the two complaints are mostly the same, Coinb=
+ase=E2=80=99s and Binance=E2=80=99s=C2=A0attitudes are very different. The =
+key legal question, which we=E2=80=99ll discuss below, is whether the crypt=
+o tokens listed on Binance and Coinbase are securities. If they are securit=
+ies, then probably Coinbase and Binance (and Bittrex and everyone else) are=
+ operating illegal securities exchanges; if they are not securities then ev=
+erything=E2=80=99s fine.=C2=A0Coinbase recognized that this was a potential=
+ risk, and set up committees and procedures to ponder and mitigate it. From=
+ the SEC=E2=80=99s Coinbase complaint:
+
+Recognizing that at least certain crypto assets were being offered, sold, a=
+nd otherwise distributed by an identifiable group of persons or promoters, =
+in or around September 2018, Coinbase publicly released the =E2=80=9CCoinba=
+se Crypto Asset Framework,=E2=80=9D which included a listing application fo=
+rm for crypto asset issuers and promoters seeking to make their crypto asse=
+ts available on the Coinbase Platform.
+Coinbase=E2=80=99s listing application required issuers and promoters to pr=
+ovide information about their crypto assets and blockchain projects. It spe=
+cifically included requests for information relevant to a Howey analysis of=
+ the crypto asset. =E2=80=A6
+Additionally, in or around September 2019, Coinbase and other crypto asset =
+businesses founded the Crypto Rating Council (=E2=80=9CCRC=E2=80=9D). The C=
+RC subsequently released a framework for analyzing crypto assets that =E2=
+=80=9Cdistilled a set of yes or no questions which are designed to plainly =
+address each of the four Howey test factors=E2=80=9D and assigned to the cr=
+ypto asset a score ranging from 1 to 5, with a score of 1 indicating that a=
+n =E2=80=9Casset has few or no characteristics consistent with treatment as=
+ an investment contract,=E2=80=9D and a score of 5 meaning that an =E2=80=
+=9Casset has many characteristics strongly consistent with treatment as a s=
+ecurity.=E2=80=9D=C2=A0
+In announcing the CRC=E2=80=99s creation, Coinbase stated, =E2=80=9C[a]ltho=
+ugh the U.S. Securities and Exchange Commission has issued helpful guidance=
+, whether any given crypto asset is a security ultimately requires a fact-i=
+ntensive analysis.=E2=80=9D
+
+Very responsible, though the SEC disagrees with Coinbase=E2=80=99s conclusi=
+ons and has quibbles with the process:
+Between late 2019 and the end of 2020, Coinbase more than doubled the numbe=
+r of crypto assets available for trading on the Coinbase Platform, and it m=
+ore than doubled that number again in 2021. During this period, Coinbase ma=
+de available on the Coinbase Platform crypto assets with high =E2=80=9Crisk=
+=E2=80=9D scores under the CRC framework it had adopted. In other words, to=
+ realize exponential growth of the Coinbase Platform and boost its own trad=
+ing profits, Coinbase made the strategic business decision to add crypto as=
+sets to the Coinbase Platform even where it recognized the crypto assets ha=
+d the characteristics of securities.
+Meanwhile here is how Binance=E2=80=99s wonderful chief compliance officer =
+described his=C2=A0fact-intensive analysis of whether Binance=C2=A0listed s=
+ecurity tokens in the US:
+As Binance=E2=80=99s CCO bluntly admitted to another Binance compliance off=
+icer in December 2018, =E2=80=9Cwe are operating as a fking unlicensed secu=
+rities exchange in the USA bro.=E2=80=9D (Emphasis added.)
+Just a much clearer perspective! Coinbase hired a lot of lawyers and did a =
+lot of analysis and wrote a lot of checklists to convince itself that it wa=
+s legally running a crypto exchange in the US. Binance was like =E2=80=9Cwe=
+ll obviously this is illegal in the US, ah well.=E2=80=9D=C2=A0The SEC=C2=
+=A0absolutely agrees with Binance.
+This might work out well for Coinbase: It might be able to go to court and =
+portray itself as a good actor who tried to follow the law, while Binance l=
+ooks like a bad actor who tried to ignore the law; Coinbase might win again=
+st the SEC and Binance might lose. But I have to say that,=C2=A0so far, Bin=
+ance=E2=80=99s approach seems smarter. (Though obviously don=E2=80=99t put =
+it in writing, etc.)=C2=A0Binance noticed that it's illegal to run a crypto=
+ exchange in the US, and did it anyway, but minimized and compartmentalized=
+ its US exposure: It has relatively few US customers and seems to keep most=
+ of its business out of the US. Coinbase went all-in on the possibility of =
+running a legal and regulatorily compliant crypto exchange in the US, and n=
+ow the SEC has said that that=E2=80=99s impossible. If the SEC is right, wh=
+at is left for Coinbase?
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      SEC v. Crypto: What is a security?
+   =20
+ =20
+
+Okay let=E2=80=99s discuss the basic theory of the SEC=E2=80=99s case here,=
+ which we previously   discussed when the SEC sued Bittrex:
+=09If you run an exchange that offers securities trading in the US, you nee=
+d to register it as a securities exchange with the SEC.=09Binance and Coinb=
+ase offer trading of crypto tokens that are securities.=09They did not regi=
+ster their US exchanges as securities exchanges.
+  [2]
+
+=09Bad!
+
+Point 1 is a bit more nuanced than that; there are, for instance, stock tra=
+ding venues that are not registered as securities exchanges, though they ar=
+e registered with the SEC under other rules. But from the SEC=E2=80=99s per=
+spective the important thing here is that the rules for securities exchange=
+s are designed to protect investors. In particular, they tend to require a =
+separation of three key functions =E2=80=94=C2=A0the=C2=A0exchange=C2=A0tha=
+t matches buyers and sellers, the=C2=A0broker-dealer=C2=A0that trades on th=
+e exchange on behalf of customers, and the clearinghouse that actually move=
+s the money and securities =E2=80=94=C2=A0that are usually combined in cryp=
+to. In the stock market, you go to Robinhood=E2=80=99s website to put in an=
+ order to buy stock on the New York Stock Exchange,
+  [3]
+ and the Depository Trust Co. keeps custody of the stock and settles the tr=
+ade. In the crypto market, you go to Coinbase=E2=80=99s website to put in a=
+n order to buy crypto on Coinbase, and Coinbase keeps custody of the crypto=
+ and settles the trade.=C2=A0
+But the main point here is Point 3: Are crypto tokens securities?
+  [4]
+=C2=A0The SEC=E2=80=99s basic view is that most crypto tokens =E2=80=94=C2=
+=A0not all of them, not Bitcoin, but most of them =E2=80=94=C2=A0are securi=
+ties under US law. Coinbase=E2=80=99s view, certainly, is that lots of them=
+ aren=E2=80=99t. The particular question at issue here is whether a list of=
+ popular crypto tokens =E2=80=94=C2=A0the SEC cites a bunch including Solan=
+a=E2=80=99s SOL token, Cardano=E2=80=99s ADA, Polygon=E2=80=99s MATIC, File=
+coin=E2=80=99s FIL, Decentraland=E2=80=99s MANA, Algorand=E2=80=99s ALGO, A=
+xie Infinity=E2=80=99s AXS and Voyager Digital=E2=80=99s VGX =E2=80=94=C2=
+=A0that were listed on Binance and/or Coinbase are securities.
+  [5]
+
+The  US securities laws define a =E2=80=9Csecurity=E2=80=9D to include, amo=
+ng other things,=C2=A0any =E2=80=9Cstock,=E2=80=9D =E2=80=9Ccertificate of =
+interest or participation in any profit-sharing agreement,=E2=80=9D =E2=80=
+=9Cpreorganization certificate or subscription,=E2=80=9D =E2=80=9Ctransfera=
+ble share, investment contract, [or] voting-trust=C2=A0certificate.=E2=80=
+=9D The most general term there is =E2=80=9Cinvestment contract,=E2=80=9D a=
+nd the US Supreme Court explained it in a famous 1946 case called  SEC v. W=
+.J. Howey Co.:
+
+An investment contract, for purposes of the Securities Act, means a contrac=
+t, transaction=C2=A0or scheme whereby a person invests his money in a commo=
+n enterprise and is led to expect profits solely from the efforts of the pr=
+omoter or a third party, it being immaterial whether the shares in the ente=
+rprise are evidenced by formal certificates or by nominal interests in the =
+physical assets employed in the enterprise. Such a definition =E2=80=A6 per=
+mits the fulfillment of the statutory purpose of compelling full and fair d=
+isclosure relative to the issuance of =E2=80=9Cthe many types of instrument=
+s that, in our commercial world, fall within the ordinary concept of a secu=
+rity.=E2=80=9D =E2=80=A6 It embodies a flexible, rather than a static, prin=
+ciple, one that is capable of adaptation to meet the countless and variable=
+ schemes devised by those who seek the use of the money of others on the pr=
+omise of profits. =E2=80=A6
+The investors provide the capital and share in the earnings and profits; th=
+e promoters manage, control, and operate the enterprise. It follows that th=
+e arrangements whereby the investors' interests are made manifest involve i=
+nvestment contracts, regardless of the legal terminology in which such cont=
+racts are clothed. =E2=80=A6
+The test is whether the scheme involves an investment of money in a common =
+enterprise with profits to come solely from the efforts of others. If that =
+test be satisfied, it is immaterial whether the enterprise is speculative o=
+r nonspeculative, or whether there is a sale of property with or without in=
+trinsic value.
+
+This has become the =E2=80=9CHowey test,=E2=80=9D and courts ask whether th=
+ere is (1) an investment of money (2) in a common enterprise (3) with an ex=
+pectation of profits (4) to come solely from the efforts of others. The SEC=
+  has argued, at least  since 2017, that most crypto enterprises fit this d=
+escription.
+For instance, consider Solana. Solana is a blockchain that runs crypto appl=
+ications; its native token is called SOL.=C2=A0Here=E2=80=99s the SEC=E2=80=
+=99s explanation of Solana
+  [6]
+:
+
+=E2=80=9CSOL=E2=80=9D is the native token of the Solana blockchain. The Sol=
+ana blockchain was created by Solana Labs, Inc. (=E2=80=9CSolana Labs=E2=80=
+=9D), a Delaware corporation headquartered in San Francisco that was founde=
+d in 2018 by Anatoly Yakovenko (=E2=80=9CYakovenko=E2=80=9D) and Raj Gokal =
+(Solana Labs=E2=80=99 current CEO and COO, respectively). According to Sola=
+na=E2=80=99s website, www.solana.com, the Solana blockchain is a network up=
+on which decentralized apps (=E2=80=9CdApps=E2=80=9D) can be built, and is =
+comprised of a platform that aims to improve blockchain scalability and ach=
+ieve high transaction speeds by using a combination of consensus mechanisms=
+.
+According to Solana=E2=80=99s website, SOL may be =E2=80=9Cstaked=E2=80=9D =
+on the Solana blockchain to earn rewards, and a certain infinitesimal amoun=
+t of SOL must be =E2=80=9Cburned=E2=80=9D to propose a transaction on the S=
+olana blockchain, a common function for native tokens on blockchains that c=
+onstitutes a method for cryptographically distributed ledgers to avoid a po=
+tential bad actor from =E2=80=9Cspamming=E2=80=9D a blockchain by overwhelm=
+ing it with an infinite number of proposed transactions.
+
+Solana Labs sold SOL tokens to raise money to build the Solana ecosystem:
+Solana Labs stated publicly that it would pool the proceeds from its privat=
+e and public SOL sales in omnibus crypto asset wallets that it controlled, =
+and that it would use those proceeds to fund the development, operations, a=
+nd marketing efforts with respect to the Solana blockchain in order to attr=
+act more users to that blockchain (potentially increasing the demand for,=
+=C2=A0and therefore the value of, SOL itself, given the need for those who =
+wish to interact with the Solana blockchain to tender SOL). For example, in=
+ connection with the 2021 private sale of SOL, Solana Labs stated publicly =
+that it would use investor funds to: (i) hire engineers and support staff t=
+o help grow Solana=E2=80=99s developer ecosystem; (ii) =E2=80=9Caccelerate =
+the deployment of market-ready applications focused on onboarding the next =
+billion users into crypto=E2=80=9D; (iii) =E2=80=9Claunch an incubation stu=
+dio to accelerate the development of decentralized applications and Platfor=
+ms building on Solana=E2=80=9D; and (iv) develop a =E2=80=9Cventure investi=
+ng arm=E2=80=9D and =E2=80=9Ctrading desk dedicated to the Solana ecosystem=
+.=E2=80=9D
+The Howey test:
+=09Did investors invest money? Yes, SOL was sold for money, to raise fundin=
+g to build Solana.
+  [7]
+
+=09Was there a common enterprise? Yes, Solana is an=C2=A0enterprise; it is =
+a blockchain ecosystem that competes with Ethereum and Cardano and so forth=
+, that tries to attract users.=09Is there an expectation of profits? Yes, p=
+eople bought SOL hoping that it would go up, and it did.=C2=A0=09Do the pro=
+fits come from the efforts of others? Yes, SOL went up because its promoter=
+s and developers built Solana into a popular blockchain, as they said they =
+would, increasing the demand for SOL.
+
+These are often close questions. Most big crypto blockchains are to some ex=
+tent decentralized; Solana=E2=80=99s growth depends not only on the efforts=
+ of Solana Labs but also on the efforts of third-party users and developers=
+ who like using it.
+  [8]
+ With some crypto tokens, it is plausible to argue that people buy the toke=
+ns=C2=A0not=C2=A0as an investment with an expectation of profits, but rathe=
+r to pay for transactions on the blockchain; the SOL token is the =E2=80=9C=
+gas=E2=80=9D that people use to run programs and transactions on the Solana=
+ blockchain, and if you buy SOL as a pure =E2=80=9Cutility token=E2=80=9D t=
+hen it is arguably not a security. Most crypto tokens   have=C2=A0both=C2=
+=A0utility=C2=A0and=C2=A0speculative-investment=C2=A0aspects, muddying the =
+analysis a bit.
+Also, even if you buy SOL as a speculative investment, it is not clear that=
+ you are buying it to=C2=A0share in the profits of the underlying enterpris=
+e.=C2=A0Your thought process might be =E2=80=9Cif I buy SOL, a lot of other=
+ people might buy SOL, and its price will go up and I will make money.=E2=
+=80=9D That is not really an expectation of profits derived from the =E2=80=
+=9Cefforts of others=E2=80=9D; that=E2=80=99s an expectation of profits der=
+ived from speculative mania and online memes. We   talked yesterday about D=
+ogecoin, a joke crypto token where everyone pretty ostentatiously promised =
+to do nothing at all to build an ecosystem; people buy Dogecoin because the=
+y think other people will buy Dogecoin. I=C2=A0think=C2=A0that that means t=
+hat Dogecoin is not a security; a purely meaningless token doesn=E2=80=99t =
+involve enough efforts-of-others to qualify.
+  [9]
+=C2=A0(Surely, e.g., Beanie Babies are not securities.) And surely even whe=
+n a crypto project=C2=A0does=C2=A0promise efforts and ecosystems and hard-w=
+orking brilliant developers, a lot of people probably buy the tokens for th=
+e same pure number-go-up reasons that they bought Dogecoin.=C2=A0
+But the way that I like to think of crypto and securities is that most cryp=
+to tokens are pretty clearly analogues of=C2=A0stock=C2=A0in some underlyin=
+g=C2=A0tech business. In Solana (and Cardano, Polygon, etc.), the underlyin=
+g business is a platform business, a blockchain ecosystem for building apps=
+, largely though not exclusively financial-services apps for trading=C2=A0c=
+rypto. And everyone who buys the tokens is in some loose sense a quasi-shar=
+eholder of the business. And they are rewarded in the same way that traditi=
+onal shareholders are: with stock buybacks.
+  [10]
+=C2=A0The crypto term for stock buybacks is =E2=80=9Cburning=E2=80=9D:
+Further, Solana Labs markets that it =E2=80=9Cburns=E2=80=9D (or destroys) =
+SOL tokens as part of a =E2=80=9Cdeflationary model.=E2=80=9D As Yakovenko =
+explained in an April 14, 2021 article entitled =E2=80=9CSolana (SOL): Scal=
+ing Crypto to the Masses=E2=80=9D posted on gemini.com, =E2=80=9CSolana tra=
+nsaction fees are paid in SOL and=C2=A0burnt (or permanently destroyed) as =
+a deflationary mechanism to reduce the total supply and thereby maintain a =
+healthy SOL price.=E2=80=9D As explained on the Solana website, since the S=
+olana network was launched, the =E2=80=9CTotal Current Supply=E2=80=9D of S=
+OL =E2=80=9Chas been reduced by the burning of transaction fees and a plann=
+ed token reduction event.=E2=80=9D This marketed burning of SOL as part of =
+the Solana network=E2=80=99s =E2=80=9Cdeflationary mechanism=E2=80=9D has l=
+ed investors reasonably to view their purchase of SOL as having the potenti=
+al for profit to the extent there is a built-in mechanism to decrease the s=
+upply and therefore increase the price of SOL.
+In the  Binance complaint, the SEC quotes Changpeng Zhao describing the bur=
+ning mechanism for Binance=E2=80=99s own BNB token:=C2=A0
+Indeed, on July 9, 2019, Zhao described Binance=E2=80=99s planned BNB burn =
+in an interview posted on YouTube, stating that a =E2=80=9Cbenefit we promi=
+sed in the Whitepaper is every quarter we will use 20 percent of our profit=
+s to buy back [BNB] at the market value =E2=80=A6 we will buy back and dest=
+roy those. We will destroy up to 100 million Binance coins. Basically half =
+of all available coins =E2=80=A6 Financially that works the same way as a d=
+ividend economically.=E2=80=9D
+I mean I would say it works the same as a stock buyback, but sure, dividend=
+s and stock buybacks are essentially equivalent. The point is that sharehol=
+ders =E2=80=94=C2=A0sorry, tokenholders =E2=80=94=C2=A0in a crypto project =
+share in the profits of that project when it uses some of its revenue to bu=
+y back and burn tokens, increasing the value of the remaining tokens, exact=
+ly the way a share buyback works.
+One way to understand crypto economics is that crypto built a new way to se=
+ll stock=C2=A0in promising technology and financial businesses=C2=A0without=
+ calling it stock. If you are starting a crypto exchange, for instance, and=
+ you want to raise money, you could go to investors and offer them stock in=
+ your business. If the business does well, there will be lots of profits (f=
+rom charging customers trading fees), and you will share them with your inv=
+estors. But this has problems:
+=09If you sell stock to the public, you will need to register with the SEC.=
+=09If you sell stock to big venture capitalists,=C2=A0they will need to reg=
+ister their resales with the SEC, or otherwise find an exemption from SEC r=
+egistration.=09Either way you will probably have to give your investors=C2=
+=A0some=C2=A0sort of financial information about the business to get their =
+money.=09Your shareholders might want voting rights, ongoing financial disc=
+losures, etc., which are customary and often mandated by law.
+
+Or, if you are starting a crypto exchange, you can go to investors and offe=
+r them=C2=A0tokens=C2=A0in your business. If the business does well, there =
+will be lots of profits (from charging customers trading fees), and you wil=
+l share them with your investors (by buying and burning tokens). This is ve=
+ry nice:
+=09If you sell tokens to the public, you can say that they are not securiti=
+es, and not register with the SEC.=09If you sell the tokens to big VCS,=C2=
+=A0they=C2=A0can say that they are not securities, and resell them freely.=
+=09You will write a white paper to sell the tokens that does not necessaril=
+y get into a ton of financial or operational detail.=09You can give the tok=
+ens whatever rights you want.
+
+I am being a little unfair. I am describing a pure regulatory arbitrage; Bi=
+nance=E2=80=99s BNB token =E2=80=94=C2=A0or   FTX=E2=80=99s FTT token =E2=
+=80=94=C2=A0is a pure substitute for stock, issued by a company to raise mo=
+ney to run its centralized business. Lots of crypto is not quite like this;=
+ in some projects   there is a real idealism about building decentralized e=
+cosystems that will not be owned by any one company, and selling tokens can=
+ be a way to create and fund projects without owners, an economic model tha=
+t really is very different from a shareholder-owned corporation. But much o=
+f the time, the crypto ecosystems seem to be built by pretty centralized te=
+ams, and the tokens are sold as more or less stock in a new tech company wi=
+th a promising idea started by a promising team.
+You can see why people in crypto like this! It combines regulatory arbitrag=
+e with a certain exciting philosophical newfangledness. You can see why the=
+ SEC does not like it! The SEC knows all about =E2=80=9C=C2=A0the countless=
+ and variable schemes devised by those who seek the use of the money of oth=
+ers on the promise of profits.=E2=80=9D The SEC is the regulator getting ar=
+bitraged. And it is not happy about it.
+
+ =20
+   =20
+      SEC v. Crypto: What now?
+   =20
+ =20
+
+Oh I don=E2=80=99t know. Conceptually, there are several possible outcomes =
+here:
+=09The SEC wins and crypto is more or less banned in the US. You can still =
+buy Bitcoin and probably Ethereum
+  [11]
+=C2=A0and maybe Dogecoin in the US, because those are not securities, but a=
+ny other crypto project is probably a security and not going to be offered =
+for trading in the US. Crypto withers and dies and everyone moves on to art=
+ificial intelligence. The SEC kills crypto, as a sort of slow-burn revenge =
+for crypto=E2=80=99s attempt to arbitrage around the SEC.=09Same, except th=
+at crypto develops and flourishes elsewhere, and the US simply misses it. C=
+rypto turns out to be extremely world-changing and valuable, and the US is =
+left behind. Or it turns out to be a weird niche financial product you can =
+trade in Europe but not in the US, like  binary options or contracts for di=
+fferences. Either way it lives on abroad, but not in the US.=09The SEC wins=
+, and then somebody =E2=80=94=C2=A0some combination of existing crypto firm=
+s, new crypto entrants and=C2=A0legacy financial services firms =E2=80=94=
+=C2=A0finds a path forward for crypto to be traded in the US in compliance =
+with US securities laws. Everyone buckles down and says =E2=80=9Cokay, Sola=
+na is going to start filing annual reports with audited financial statement=
+s,=E2=80=9D and people will start crypto exchanges that register with the S=
+EC and that are separate from the clearinghouses and brokerages, etc. This =
+seems=C2=A0very=C2=A0hard, because the SEC is quite   clearly not intereste=
+d in   accommodating any crypto projects. I am not going to sit here and te=
+ll you =E2=80=9Chere=E2=80=99s how crypto firms can register their tokens a=
+s securities.=E2=80=9D Certainly Coinbase has been trying forever to figure=
+ out how to do it =E2=80=94=C2=A0they have  pestered the SEC for rules allo=
+wing it, etc. =E2=80=94=C2=A0with, so far, not much luck. But I suppose it=
+=E2=80=99s always possible.
+  [12]
+
+=09The SEC loses, the courts say =E2=80=9Cwhat, no, none of this stuff is a=
+ security,=E2=80=9D and crypto continues to trade in the US without much se=
+curities regulation.=09Congress (or a future SEC) steps in to change the ru=
+les, saying =E2=80=9Cwell sure all this stuff is technically illegal under =
+existing law, but it is crazy to stifle innovation like this, so we will ma=
+ke new rules to allow for regulated trading=C2=A0of crypto in the US.=E2=80=
+=9D=C2=A0
+
+I don=E2=80=99t know which outcome I would bet on. The last outcome is the =
+one that the crypto industry wants, and there does seem to be some=C2=A0app=
+etite in Congress to write crypto rules.
+But I do want to say that the SEC is clearly betting on the first outcome. =
+That is why it is bringing these cases=C2=A0now, after the collapse of FTX =
+and so many other big crypto firms, after crypto prices have fallen, after =
+the venture capitalists have all moved on to AI. These cases, against Binan=
+ce and Coinbase, are high-risk cases for the SEC: Coinbase and Bitcoin are =
+big well-funded companies=C2=A0with good lawyers and lobbyists,=C2=A0they h=
+ave the resources and motivation to fight these cases to the end, and they =
+do have decent legal arguments. The SEC might lose! But it is being strateg=
+ic about maximizing its chances. I   wrote in February:
+
+When crypto is popular and exciting and going up, if you are a regulator wh=
+o says =E2=80=9Cno, we must stop this,=E2=80=9D you look like a killjoy. In=
+vestors want to put their money into stuff that is going up, and they are m=
+ad at you for stopping them. Politicians like the stuff that is going up, a=
+nd hold hearings about how you=E2=80=99re stifling innovation. Crypto found=
+ers are rich and popular and criticize you on Twitter and get a lot of like=
+s and retweets. Your own regulatory employees, who have an eye on their nex=
+t private-sector jobs, want to be leaders in crypto innovation rather than =
+just banning everything.
+When crypto is going down and so many projects are evaporating in fraud and=
+ bankruptcy, you can kind of say =E2=80=9CI told you so.=E2=80=9D There is =
+just a lot more appetite to regulate, or I guess just to shut everything do=
+wn. =E2=80=9CYou are stifling innovation,=E2=80=9D the indicted founder of =
+a bankrupt crypto firm can say, but nobody cares.=C2=A0
+
+That is the bet that the SEC is making. Now we=E2=80=99ll see if it=E2=80=
+=99s right.
+
+ =20
+   =20
+      Private gigs
+   =20
+ =20
+
+If you work at a private equity firm and it has reached its 25th anniversar=
+y, it will probably have a party to celebrate. If it has a party, it will p=
+robably book a musical guest. If it books a musical guest and David Solomon=
+ is unavailable, it will probably book Flo Rida. You will go to your privat=
+e equity firm=E2=80=99s anniversary party and your boss will give a speech =
+about the value you provide to limited partners, and then she will say =E2=
+=80=9Cand now, Flo Rida.=E2=80=9D And then Flo Rida will come out on stage,=
+ and you will perhaps, for just a second, think, =E2=80=9Cwell, why Flo Rid=
+a?=E2=80=9D And he will probably be thinking =E2=80=9Cwell, why this privat=
+e equity firm?=E2=80=9D But that is just life in modern capitalism, sometim=
+es private equity firms celebrate significant milestones and Flo Rida is th=
+ere. It doesn=E2=80=99t have to make sense; it just is.
+Evan Osnos has=C2=A0an extremely delightful New Yorker article about the pr=
+ivate gig industry, in which star and former-star and near-star musicians c=
+ollect large checks for playing short sets for the bar mitzvahs and corpora=
+te parties of the wealthy. =E2=80=9CIf you can say, =E2=80=98Hey, I=E2=80=
+=99m going to go have a bad time for an afternoon, but it=E2=80=99s going t=
+o pay for my kid=E2=80=99s entire college education,=E2=80=99 then that=E2=
+=80=99s a trade-off I think most responsible adults will make,=E2=80=9D say=
+s one booking agent, correctly. Osnos follows Flo Rida, who =E2=80=9Cattain=
+ed celebrity in 2008 with his song =E2=80=98Low,=E2=80=99 an admiring ode t=
+o a Rubenesque beauty on the dance floor,=E2=80=9D to both a bar mitzvah an=
+d a private equity gig:
+
+On a crisp spring night on the southern tip of Manhattan, Flo Rida was back=
+stage once more. This time, he huddled in a darkened hallway with his dance=
+rs and the d.j. and Int=E2=80=99l Nephew, their arms laced around one anoth=
+er, as they murmured a prayer. Then they lined up in a loose stack behind t=
+he door that separated them from the stage.=C2=A0
+On the other side, in a cavernous ballroom bathed in purple light, about fo=
+ur hundred people with matching lanyards were celebrating the twenty-fifth =
+anniversary of a private-equity firm. It was business casual, with the occa=
+sional bow tie and ball gown. A sushi buffet ran the length of one wall. Th=
+e venue, Casa Cipriani, occupies a restored Beaux-Arts ferry terminal that =
+also includes a hotel and private club, which offers suites with cashmere-l=
+ined walls, easy access to a helicopter pad, and fastidious attention to se=
+rvice. Guests are asked to choose which type of Italian bedding they prefer=
+, cotton or linen.
+At the lectern, two of the firm=E2=80=99s leaders were holding forth. A gra=
+y-haired man in a gray plaid blazer praised his colleagues=E2=80=99 deliver=
+y of =E2=80=9Cindustry-leading returns for our limited partners,=E2=80=9D a=
+nd thanked attendees for various feats, including =E2=80=9Cfive hundred mil=
+lion in proceeds at a 5.5x multiple on investment capital=E2=80=9D and endu=
+ring =E2=80=9Cawful six-hour golf rounds with me.=E2=80=9D As showtime appr=
+oached, a partner in an elegant black-and-white gown told the crowd, =E2=80=
+=9CWith pride in our hearts and sushi in our mouths, let=E2=80=99s celebrat=
+e.=E2=80=9D
+The partygoers had not been told who the headline entertainer would be, and=
+ some were quietly hoping for Springsteen. When Flo charged out from backst=
+age, there was a brief vacuum of silence. But he plunged ahead into =E2=80=
+=9CGood Feeling,=E2=80=9D a thumping ode to success, with references to a G=
+ulfstream, a Bugatti, and a Maybach. (=E2=80=9CTalk like a winner, my chest=
+ to that sun / G5 dealer, U.S. to Taiwan.=E2=80=9D) The crowd began to fall=
+ in, and Flo showed a rowdier mode than he had at the bar mitzvah. =E2=80=
+=9CWho wants some shots?=E2=80=9D he shouted, holding up bottles of vodka a=
+nd tequila. There was a nervous titter; a gentleman in a bow tie craned his=
+ neck for a look, and then some of the younger guests stepped forward to dr=
+ink from bottles held in Flo=E2=80=99s outstretched hands. The mood in the =
+room started to evolve fast.
+
+Springsteen! The main thing that I took away from this is that Flo Rida=E2=
+=80=99s band includes =E2=80=9Ca younger rapper known as Int=E2=80=99l Neph=
+ew,=E2=80=9D the greatest stage name I have ever seen, but I will probably =
+also use the =E2=80=9Cwith pride in our hearts and sushi in our mouths=E2=
+=80=9D line in the future.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+PGA Tour Bows to Saudi Rival in Shock   Combination With LIV Golf.=C2=A0Pri=
+vate Credit is Poised for a Multi-Trillion-Dollar Boom, But It Could Get Ug=
+ly Soon.=C2=A0A $1.5 Trillion Backstop for Homebuyers   Props Up Banks Inst=
+ead. A Wall Street Titan Scores One of the Best  Real Estate Trades Ever.=
+=C2=A0Lina Khan Is Upending Wall Street=E2=80=99s   Merger-Arbitrage Playbo=
+ok. Companies That Embraced  Social Issues Have Second Thoughts.=C2=A0  Seq=
+uoia Splits Into Three Firms Amid Geopolitical Tension.=C2=A0Swiss Governme=
+nt to Have Say on   UBS Assets Backed by Guarantee.=C2=A0Clumps of 5,000-mi=
+le  seaweed blob bring flesh-eating bacteria to Florida.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] In particular the yacht is just mentioned and dropped. There are weir=
+d claims that *could* be read as ominous: =E2=80=9CSince the launch of the =
+Binance.US Platform, Merit Peak=E2=80=99s U.S. bank account received, as a =
+=E2=80=98pass through=E2=80=99 account, over $20 billion that included cust=
+omer funds from both Binance Platforms. Merit Peak then transferred the vas=
+t majority of those funds to Trust Company A, in transfers that appear to r=
+elate to the purchase of BUSD. As Merit Peak was a purportedly independent =
+entity, sending Binance customer funds to Merit Peak placed those funds at =
+risk, including of loss or theft, and was done without notice to customers.=
+=E2=80=9D I think I read that to mean =E2=80=9CMerit Peak operated as a mar=
+ket maker selling Binance customers BUSD stablecoins,=E2=80=9D rather than =
+=E2=80=9CBinance siphoned $20 billion of customer money to its affiliated t=
+rading firm,=E2=80=9D but the SEC just mentions this and moves on.
+
+
+  [2] Coinbase is a US exchange so the analysis is pretty simple. Binance h=
+as Binance.us, which is open to US customers, and Binance.com, which is not=
+. The SEC=E2=80=99s complaint against Binance has two components: One is th=
+at Binance.us is an illegal securities exchange, because it offers spot tra=
+ding in crypto assets that the SEC claims are securities (same as Coinbase)=
+; the other is that Binance.com actually did let big US traders use its pla=
+tform (same as the CFTC case against Binance).=20
+
+
+  [3] Actually Robinhood almost certainly=20
+routes your order to a wholesaler to execute, rather than sending it to the=
+ exchange; to some extent Robinhood, or the wholesaler, runs a venue for ma=
+tching buy and sell orders, with Robinhood=E2=80=99s retail customers on on=
+e side and the wholesaler on the other. This is part of what I mean about s=
+tock trading venues not all being registered as exchanges; broker-dealers r=
+un various sorts of trading venues (internalizing like this, dark pools, et=
+c.) that are somewhat exchange-like but not exchanges. Still they are subje=
+ct to more SEC registration than crypto exchanges are.=20
+
+
+  [4] Another question raised in these cases is: Are crypto *lending* progr=
+ams (where a platform like Binance or Coinbase takes its customers=E2=80=99=
+ crypto, lends it to crypto hedge funds, charges interest and passes on a p=
+ortion of the interest to the customers) and *staking* programs (where the =
+platform takes its customers=E2=80=99 crypto, locks it up in blockchain pro=
+of-of-stake mechanisms that validate transactions and earn staking rewards,=
+ and passes on a portion of the rewards to the customers) securities, even =
+if the underlying crypto is not a security? We have talked about this quest=
+ion when=20
+the SEC sued Kraken for running a staking program, and when it=20
+sued Gemini and=20
+threatened Coinbase over lending programs. The SEC makes similar claims aga=
+inst Coinbase and Binance this week over lending and staking programs.
+
+
+  [5] The elephant in the room is Ethereum, the second-biggest crypto block=
+chain behind Bitcoin, which entirely fits the SEC=E2=80=99s description of =
+Solana, Cardano, etc. Is ETH (the Ethereum token) a security?=20
+My view is that (1) the SEC *clearly* thinks ETH is a security, (2) for his=
+torical reasons the SEC missed that boat and now US law treats ETH as a non=
+-security commodity, (3) the SEC doesn=E2=80=99t like it but (4) they=E2=80=
+=99re picking their battles and are not going to come out and argue that ET=
+H is a security.
+
+
+  [6] I am quoting the Coinbase complaint, though there is similar text in =
+the Binance complaint.
+
+
+  [7] A side note here. Solana did not, in its early fundraising, sell SOL =
+tokens. Instead it sold =E2=80=9CSimple Agreements for Future Tokens,=E2=80=
+=9D or SAFTs, that is, a sort of futures-contract wrapper for the SOL token=
+s. The thinking here was that the SAFTs were securities, because they were =
+used to raise money to build a blockchain ecosystem, but that once that eco=
+system was running the tokens would be pure =E2=80=9Cutility tokens,=E2=80=
+=9D that is, gas for running the Solana network rather than an investment s=
+ecurity. This SAFT idea is sort of best practice in crypto, but the SEC doe=
+sn=E2=80=99t really believe in it; their view seems to be once a security, =
+always a security. (We talked about this view=20
+as far back as 2019.) And so in this week=E2=80=99s complaints, the SEC cit=
+es the fact that Solana actually admitted that its (SAFT) fundraising was a=
+ securities sale: =E2=80=9CBetween May 2018 and early March 2020, Solana La=
+bs filed with the SEC multiple forms claiming that its offers and sales of =
+securities=E2=80=94what Solana described in those forms as the =E2=80=98sal=
+e and issuance of rights to receive Solana Labs, Inc. tokens in the future =
+via a Simple Agreement for Future Tokens (SAFTs)=E2=80=99=E2=80=94were exem=
+pt from registration under Rule 506(c) of Regulation D under the Securities=
+ Act. Through these offers and sales of securities, Solana sold approximate=
+ly 177 million SOL, raising over $23 million.=E2=80=9D You can follow indus=
+try best practices in crypto securities-law compliance, but they are still =
+not good enough for the SEC.
+
+
+  [8] Charmingly, a big player in the Solana ecosystem was Sam Bankman-Frie=
+d, whoops.
+
+
+  [9] I am sure some Dogecoin enthusiasts will email me to explain its incr=
+edibly powerful ecosystem and road map to global domination.
+
+
+  [10] Also with staking rewards, which are analogous to dividends. From th=
+e SEC=E2=80=99s analysis of Polygon=E2=80=99s MATIC token: =E2=80=9CMATIC h=
+olders can earn additional MATIC for staking their MATIC on the Polygon pla=
+tform and becoming a validator, from delegating their MATIC to other valida=
+tors in return for a portion of the fees collected from validating transact=
+ions, or from staking their MATIC with other third parties, such as crypto =
+asset platforms that offer staking services.=E2=80=9D
+
+
+  [11] See footnote 5.
+
+
+  [12] Last month=20
+Prometheum Ember Capital =E2=80=9Csaid it has received the first special pu=
+rpose broker-dealer license under US Securities and Exchange Commission gui=
+delines that would allow it to custody digital assets securities,=E2=80=9D =
+which I guess is a start.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23civoe6.5k60/5eb0aeda.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_68615_1170758062.1686075472805
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+=E2=80=9CA decent rule of thumb,=E2=80=9D I wrote in March, =E2=80=9Cis tha=
+t all cryptocurrency exchanges are doing crimes, and if you=E2=80=99re luck=
+y your exchange is doi
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB1b7bcb44"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTcxMTAzOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE5NzA0NTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB2b248749" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31711038&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31970454&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SEC v. Crypto</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">=E2=80=9CA decent rule of thumb,=E2=80=9D <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMjcvdGhlLWNmd=
+GMtY29tZXMtZm9yLWJpbmFuY2U_Y21waWQ9QkJEMDYwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1=
+bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA2JnV0bV9jYW1wYWl=
+nbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB43ffbff5" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  I wrote in M=
+arch</a>, =E2=80=9Cis that all cryptocurrency exchanges are doing crimes, a=
+nd if you=E2=80=99re lucky your exchange is doing only process crimes.=E2=
+=80=9D Like:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Is your exchange operating an illegal=
+ securities exchange in the US? Yes! Yes it is! The view of the US Securiti=
+es and Exchange Commission, at least, is that every crypto exchange in the =
+US is illegal. You might disagree =E2=80=94=C2=A0plenty of crypto exchange =
+executives disagree, and we will talk more about the arguments below=C2=A0=
+=E2=80=94=C2=A0but realistically, if you are trading crypto, you simply can=
+not be too squeamish about strict adherence to US securities law.</li>=09<l=
+i style=3D"margin-bottom: 5px;">Is your exchange stealing all of its custom=
+ers=E2=80=99 money? It might be! Some are! Others are not!=C2=A0This is the=
+ one you should mostly care about, if you are a customer.</li>
+</ol>
+<p style=3D"margin: 16px 0;">These things are not especially correlated bec=
+ause, again,=C2=A0<em>every crypto exchange is violating US securities law<=
+/em>. =E2=80=9COooh I shouldn=E2=80=99t trust my money to those guys becaus=
+e they are violating US law=E2=80=9D: Sure, yes, a reasonable position that=
+ would save you from a lot of crypto disasters, but also one that would pre=
+vent you from trading crypto entirely. Your choice!</p>
+<p style=3D"margin: 16px 0;">I am overstating all of this but=C2=A0<em>not =
+by much</em>, man, not by much.</p>
+<p style=3D"margin: 16px 0;">Yesterday the SEC=C2=A0<a href=3D"https://link=
+.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuc2VjLmdvd=
+i9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy0xMDE/607f07ceef4b8524a319a23cB8f629441" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">sued Binance</a>, the biggest global crypto exchange, and its founde=
+r Changpeng Zhao, for operating an illegal securities exchange. Today the S=
+EC <a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416=
+/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy0xMDI/607f07ceef=
+4b8524a319a23cB91a4bf1f" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> sued Coinbase Inc.</a>, the biggest US cr=
+ypto exchange, for operating an illegal securities exchange.</p>
+<p style=3D"margin: 16px 0;">There are basically two ways for a crypto exch=
+ange to get in trouble with the SEC. The=C2=A0<em>good=C2=A0</em>way is tha=
+t you get in trouble for running an illegal securities exchange. In April, =
+the SEC <a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.2=
+59416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDQtM=
+TcvdGhlLXNlYy1jb21lcy1mb3ItYml0dHJleD9jbXBpZD1CQkQwNjA2MjNfTU9ORVlTVFVGRiZ1=
+dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDYmdXR=
+tX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBc27f3b29" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">  s=
+ued Bittrex Inc.</a>=C2=A0for allegedly operating an illegal securities exc=
+hange; any reasonable reading of the Bittrex case made it clear that simila=
+r cases were coming against Coinbase and Binance. Just being a crypto excha=
+nge in the US is, in the SEC=E2=80=99s eyes, illegal.</p>
+<p style=3D"margin: 16px 0;">The=C2=A0<em>bad=C2=A0</em>way is that you get=
+ in trouble for stealing all the money. Last December, <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTItMTMvaG93LXRvLWRvLWZyYXVkLWF0L=
+WEtZnV0dXJlcy1leGNoYW5nZT9jbXBpZD1CQkQwNjA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVt=
+PWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDYmdXRtX2NhbXBhaWd=
+uPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB02935058" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">  the SEC sued =
+FTX Trading Ltd.</a>, a big crypto exchange.=C2=A0Here is <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuc2V=
+jLmdvdi9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMi9jb21wLXByMjAyMi0yMTkucGRm/607f0=
+7ceef4b8524a319a23cB36efdc33" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> the SEC=E2=80=99s complaint against =
+FTX</a>. I am=C2=A0<em>absolutely certain=C2=A0</em>that the SEC thinks tha=
+t FTX operated an illegal securities exchange in the US. But that does not =
+even=C2=A0come up in the complaint.=C2=A0There is too much else going on.=
+=C2=A0FTX allegedly stole all the money! When an exchange steals all the mo=
+ney, the SEC focuses on that. When it doesn=E2=80=99t steal all the money, =
+the SEC focuses on the illegal securities exchange stuff.</p>
+<p style=3D"margin: 16px 0;">And so one question about this week=E2=80=99s =
+cases is: Is the SEC suing Coinbase and Binance <em>for being crypto exchan=
+ges</em>, or for being <em>bad=C2=A0</em>crypto exchanges? Is the claim her=
+e =E2=80=9Cyou let people trade crypto, which we think is illegal,=E2=80=9D=
+ or is it =E2=80=9Cyou let people trade crypto and steal their money=E2=80=
+=9D?</p>
+<p style=3D"margin: 16px 0;">With Coinbase, I think=C2=A0the answer is obvi=
+ous. Coinbase is, as crypto exchanges go, quite law-abiding. It is a US pub=
+lic company, incorporated in Delaware, listed on the Nasdaq. It went public=
+ in a <a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259=
+416/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE2Nzk3ODgvMDAwMTY=
+yODI4MDIxMDA2ODUwL2NvaW5iYXNlZ2xvYmFsaW5jNDI0Yi5odG0/607f07ceef4b8524a319a2=
+3cB0787f640" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">direct listing</a> in 2021, filing extensive disclosur=
+es with the SEC. Its <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/31711038.259416/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2Fy=
+L2RhdGEvMTY3OTc4OC8wMDAxNjc5Nzg4MjMwMDAwMzEvY29pbi0yMDIyMTIzMS5odG0jaTA5ZGQ=
+wZmM1ODZlMDRlZjJiZWMyOTI4YTZiZGQ0OTc3XzEz/607f07ceef4b8524a319a23cB201c1586=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">financial statements</a> are audited by Deloitte &amp; Touche. It=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMDkvYmF=
+ua21hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyYWwtYmVmb3JlLWJpbmFuY2UtZGVhbD=
+9jbXBpZD1CQkQwNjA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cBbcc3ccfd" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  business model</a> seems to consist of=
+ taking money from customers, using the money to buy crypto, and keeping th=
+e crypto somewhere safe with the customers=E2=80=99 names on it. I hesitate=
+ to make any bold claims about any crypto actors, and I have been wrong bef=
+ore, but it is my impression that Coinbase does not steal the money.</p>
+<p style=3D"margin: 16px 0;">And in fact <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0=
+aW9uL2NvbXBsYWludHMvMjAyMy9jb21wLXByMjAyMy0xMDIucGRm/607f07ceef4b8524a319a2=
+3cBfe6d08ee" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> the SEC=E2=80=99s complaint against Coinbase</a> is v=
+ery dry and focused entirely on the fact that Coinbase did not register as =
+a securities exchange. Again, in the SEC=E2=80=99s view, every crypto excha=
+nge is violating US securities law. But Coinbase is doing so politely and, =
+relatively speaking, harmlessly. Not=C2=A0<em>totally=C2=A0</em>harmlessly =
+=E2=80=94=C2=A0=E2=80=9CCoinbase=E2=80=99s failure to register has deprived=
+ investors of significant protections, including inspection by the SEC, rec=
+ordkeeping requirements, and safeguards against conflicts of interest,=E2=
+=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.25=
+9416/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy0xMDI/607f07=
+ceef4b8524a319a23cC91a4bf1f" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> says the SEC</a> =E2=80=94=C2=A0but r=
+elatively.</p>
+<p style=3D"margin: 16px 0;">With Binance, the answer is more interesting. =
+Binance is, as crypto exchanges go, sort of an average amount of law-abidin=
+g? It is notoriously opaque, headquartered nowhere, a web of confusing enti=
+ties designed to avoid regulation. (The SEC quotes its chief compliance off=
+icer saying, in 2018, =E2=80=9Cwe do not want [Binance].com to be regulated=
+ ever.=E2=80=9D) Like FTX, it has its own token, called BNB; it has its own=
+ affiliated trading firms; it has separate platforms for US customers (Bina=
+nce.us) and for the rest of the world (Binance.com). It was <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMjcvdGhlLWNmdGMtY29tZXMt=
+Zm9yLWJpbmFuY2U_Y21waWQ9QkJEMDYwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ=
+1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA2JnV0bV9jYW1wYWlnbj1tb25leX=
+N0dWZm/607f07ceef4b8524a319a23cC43ffbff5" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  sued by the US Commodi=
+ty Futures Trading Commission</a> in March, <em>mostly </em>for letting big=
+ US customers (high-frequency market makers like=C2=A0<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDQtMDUvamFuZS1zdHJlZXQtdG93ZXItYW5kLX=
+JhZGl4LWFyZS11bm5hbWVkLXZpcHMtaW4tYmluYW5jZS1jYXNlP2NtcGlkPUJCRDA2MDYyM19NT=
+05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJt=
+PTIzMDYwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB641fa8d=
+f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Jane Street and Tower Research</a>) trade on its Binance.com e=
+xchange through their offshore affiliates, though there are not=C2=A0<em>ze=
+ro=C2=A0</em>mentions of terrorist financing in the CFTC complaint.=C2=A0</=
+p>
+<p style=3D"margin: 16px 0;">And similarly <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy=
+9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMy9jb21wLXByMjAyMy0xMDEucGRm/607f07ceef4b=
+8524a319a23cB0f866a2a" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> the SEC=E2=80=99s complaint against Binance=
+</a> includes=C2=A0<em>some=C2=A0</em>claims that Binance was doing bad stu=
+ff. Binance has some affiliated market makers =E2=80=94=C2=A0firms includin=
+g Sigma Chain AG and Merit Peak Ltd. that are allegedly controlled by Zhao =
+and that traded on Binance.com and Binance.us =E2=80=94 and the SEC hints t=
+hat they got up to shady stuff:</p>
+<blockquote><p style=3D"margin: 16px 0;">For example, by 2021, at least $14=
+5 million was transferred from BAM Trading [i<em>.e. Binance.us</em>]=C2=A0=
+to a Sigma Chain account, and another $45 million of funds were transferred=
+ from BAM Trading=E2=80=99s Trust Company B account to the Sigma Chain acco=
+unt. From this account, Sigma Chain spent $11 million to purchase a yacht.<=
+/p></blockquote>
+<p style=3D"margin: 16px 0;">And:</p>
+<blockquote><p style=3D"margin: 16px 0;">From at least September 2019 until=
+ June 2022, Sigma Chain AG (=E2=80=9CSigma Chain=E2=80=9D), a trading firm =
+owned and controlled by Zhao, engaged in wash trading that artificially inf=
+lated the trading volume of crypto asset securities on the Binance.US Platf=
+orm.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">And more generally:</p>
+<blockquote><p style=3D"margin: 16px 0;">The SEC also alleges that Zhao and=
+ Binance exercise control of the platforms=E2=80=99 customers=E2=80=99 asse=
+ts, permitting them to commingle customer assets or divert customer assets =
+as they please, including to an entity Zhao owned and controlled called Sig=
+ma Chain.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">But the SEC does not dwell much on these claim=
+s,<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: none !important; background-color: tra=
+nsparent !important; display: inline-block;">
+<span>[1]</span>
+</a> and for the most part the Binance complaint is the same as the Coinbas=
+e complaint: Binance is accused of operating a crypto exchange that was ope=
+n to US customers and that listed crypto tokens that are securities, withou=
+t registering as a US securities exchange.=C2=A0I am tempted to read yester=
+day=E2=80=99s lawsuit as kind of an <em>e</em><em>ndorsement=C2=A0</em>of B=
+inance by the SEC. The SEC, and before it the CFTC, investigated Binance ca=
+refully and wrote a 136-page complaint about every bad thing it could find,=
+ and all it could find is that Binance is running a crypto exchange.=C2=A0<=
+/p>
+<p style=3D"margin: 16px 0;">Still, while the arguments in the two complain=
+ts are mostly the same, Coinbase=E2=80=99s and Binance=E2=80=99s=C2=A0<em>a=
+ttitudes </em>are very different. The key legal question, which we=E2=80=99=
+ll discuss below, is whether the crypto tokens listed on Binance and Coinba=
+se are securities. If they are securities, then probably Coinbase and Binan=
+ce (and Bittrex and everyone else) are operating illegal securities exchang=
+es; if they are not securities then everything=E2=80=99s fine.=C2=A0Coinbas=
+e recognized that this was a potential risk, and set up committees and proc=
+edures to ponder and mitigate it. From <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW=
+9uL2NvbXBsYWludHMvMjAyMy9jb21wLXByMjAyMy0xMDIucGRm/607f07ceef4b8524a319a23c=
+Cfe6d08ee" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">the SEC=E2=80=99s Coinbase complaint</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Recognizing that at least certain crypto asset=
+s were being offered, sold, and otherwise distributed by an identifiable gr=
+oup of persons or promoters, in or around September 2018, Coinbase publicly=
+ released the =E2=80=9CCoinbase Crypto Asset Framework,=E2=80=9D which incl=
+uded a listing application form for crypto asset issuers and promoters seek=
+ing to make their crypto assets available on the Coinbase Platform.</p>
+<p style=3D"margin: 16px 0;">Coinbase=E2=80=99s listing application require=
+d issuers and promoters to provide information about their crypto assets an=
+d blockchain projects. It specifically included requests for information re=
+levant to a <em>Howey </em>analysis of the crypto asset. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Additionally, in or around September 2019, Coi=
+nbase and other crypto asset businesses founded the Crypto Rating Council (=
+=E2=80=9CCRC=E2=80=9D). The CRC subsequently released a framework for analy=
+zing crypto assets that =E2=80=9Cdistilled a set of yes or no questions whi=
+ch are designed to plainly address each of the four Howey test factors=E2=
+=80=9D and assigned to the crypto asset a score ranging from 1 to 5, with a=
+ score of 1 indicating that an =E2=80=9Casset has few or no characteristics=
+ consistent with treatment as an investment contract,=E2=80=9D and a score =
+of 5 meaning that an =E2=80=9Casset has many characteristics strongly consi=
+stent with treatment as a security.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">In announcing the CRC=E2=80=99s creation, Coin=
+base stated, =E2=80=9C[a]lthough the U.S. Securities and Exchange Commissio=
+n has issued helpful guidance, whether any given crypto asset is a security=
+ ultimately requires a fact-intensive analysis.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Very responsible, though the SEC disagrees wit=
+h Coinbase=E2=80=99s conclusions and has quibbles with the process:</p>
+<blockquote><p style=3D"margin: 16px 0;">Between late 2019 and the end of 2=
+020, Coinbase more than doubled the number of crypto assets available for t=
+rading on the Coinbase Platform, and it more than doubled that number again=
+ in 2021. During this period, Coinbase made available on the Coinbase Platf=
+orm crypto assets with high =E2=80=9Crisk=E2=80=9D scores under the CRC fra=
+mework it had adopted. In other words, to realize exponential growth of the=
+ Coinbase Platform and boost its own trading profits, Coinbase made the str=
+ategic business decision to add crypto assets to the Coinbase Platform even=
+ where it recognized the crypto assets had the characteristics of securitie=
+s.</p></blockquote>
+<p style=3D"margin: 16px 0;">Meanwhile here is how Binance=E2=80=99s wonder=
+ful chief compliance officer described <em>his</em>=C2=A0fact-intensive ana=
+lysis of whether Binance=C2=A0listed security tokens in the US:</p>
+<blockquote><p style=3D"margin: 16px 0;">As Binance=E2=80=99s CCO bluntly a=
+dmitted to another Binance compliance officer in December 2018, <strong>=E2=
+=80=9Cwe are operating as a fking unlicensed securities exchange in the USA=
+ bro.</strong>=E2=80=9D (Emphasis added.)</p></blockquote>
+<p style=3D"margin: 16px 0;">Just a much clearer perspective! Coinbase hire=
+d a lot of lawyers and did a lot of analysis and wrote a lot of checklists =
+to convince itself that it was legally running a crypto exchange in the US.=
+ Binance was like =E2=80=9Cwell obviously this is illegal in the US, ah wel=
+l.=E2=80=9D=C2=A0The SEC=C2=A0<em>absolutely agrees with Binance</em>.</p>
+<p style=3D"margin: 16px 0;">This might work out well for Coinbase: It migh=
+t be able to go to court and portray itself as a good actor who tried to fo=
+llow the law, while Binance looks like a bad actor who tried to ignore the =
+law; Coinbase might win against the SEC and Binance might lose. But I have =
+to say that,=C2=A0<em>so far</em>, Binance=E2=80=99s approach seems smarter=
+. (Though obviously don=E2=80=99t put it in writing, etc.)=C2=A0Binance not=
+iced that it's illegal to run a crypto exchange in the US, and did it anywa=
+y, but minimized and compartmentalized its US exposure: It has relatively f=
+ew US customers and seems to keep most of its business out of the US. Coinb=
+ase went all-in on the possibility of running a legal and regulatorily comp=
+liant crypto exchange in the US, and now the SEC has said that that=E2=80=
+=99s impossible. If the SEC is right, what is left for Coinbase?</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTcxMTAzOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE5NzA0NTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCe02632cf" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31711038&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31970454&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTcxMTAzOCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE5NzA0NTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDe02632cf" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31711038&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31970454&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SEC v. Crypto: What is a security?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Okay let=E2=80=99s discuss the basic theory of=
+ the SEC=E2=80=99s case here, which we previously <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDQtMTcvdGhlLXNlYy1jb21lcy1mb3ItYml0dH=
+JleD9jbXBpZD1CQkQwNjA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY=
+2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f=
+07ceef4b8524a319a23cCc27f3b29" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  discussed when the SEC sued Bittre=
+x</a>:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If you run an exchange that offers se=
+curities trading in the US, you need to register it as a securities exchang=
+e with the SEC.</li>=09<li style=3D"margin-bottom: 5px;">Binance and Coinba=
+se offer trading of crypto tokens that are securities.</li>=09<li style=3D"=
+margin-bottom: 5px;">They did not register their US exchanges as securities=
+ exchanges.<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: none !important; background-c=
+olor: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">Bad!</li>
+</ol>
+<p style=3D"margin: 16px 0;">Point 1 is a bit more nuanced than that; there=
+ are, for instance, stock trading venues that are not registered as securit=
+ies exchanges, though they are registered with the SEC under other rules. B=
+ut from the SEC=E2=80=99s perspective the important thing here is that the =
+rules for securities exchanges are designed to protect investors. In partic=
+ular, they tend to require a separation of three key functions =E2=80=94=C2=
+=A0the=C2=A0<em>exchange=C2=A0</em>that matches buyers and sellers, the=C2=
+=A0<em>broker-dealer=C2=A0</em>that trades on the exchange on behalf of cus=
+tomers, and the <em>clearinghouse </em>that actually moves the money and se=
+curities =E2=80=94=C2=A0that are usually combined in crypto. In the stock m=
+arket, you go to Robinhood=E2=80=99s website to put in an order to buy stoc=
+k on the New York Stock Exchange,<a class=3D"footnote-index" href=3D"#footn=
+ote-3" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !i=
+mportant; background-color: transparent !important; display: inline-block;"=
+>
+<span>[3]</span>
+</a> and the Depository Trust Co. keeps custody of the stock and settles th=
+e trade. In the crypto market, you go to Coinbase=E2=80=99s website to put =
+in an order to buy crypto on Coinbase, and Coinbase keeps custody of the cr=
+ypto and settles the trade.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But the main point here is Point 3: Are crypto=
+ tokens securities?<a class=3D"footnote-index" href=3D"#footnote-4" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0The SEC=E2=80=99s basic view is that most crypto tokens =E2=80=94=
+=C2=A0not all of them, not Bitcoin, but most of them =E2=80=94=C2=A0are sec=
+urities under US law. Coinbase=E2=80=99s view, certainly, is that lots of t=
+hem aren=E2=80=99t. The particular question at issue here is whether a list=
+ of popular crypto tokens =E2=80=94=C2=A0the SEC cites a bunch including So=
+lana=E2=80=99s SOL token, Cardano=E2=80=99s ADA, Polygon=E2=80=99s MATIC, F=
+ilecoin=E2=80=99s FIL, Decentraland=E2=80=99s MANA, Algorand=E2=80=99s ALGO=
+, Axie Infinity=E2=80=99s AXS and Voyager Digital=E2=80=99s VGX =E2=80=94=
+=C2=A0that were listed on Binance and/or Coinbase are securities.<a class=
+=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[5]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31711038.259416/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29k=
+ZS90ZXh0LzE1Lzc3Yg/607f07ceef4b8524a319a23cB6d6d27ff" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> US securitie=
+s laws</a> define a =E2=80=9Csecurity=E2=80=9D to include, among other thin=
+gs,=C2=A0any =E2=80=9Cstock,=E2=80=9D =E2=80=9Ccertificate of interest or p=
+articipation in any profit-sharing agreement,=E2=80=9D =E2=80=9Cpreorganiza=
+tion certificate or subscription,=E2=80=9D =E2=80=9Ctransferable share, inv=
+estment contract, [or] voting-trust=C2=A0certificate.=E2=80=9D The most gen=
+eral term there is =E2=80=9Cinvestment contract,=E2=80=9D and the US Suprem=
+e Court explained it in a famous 1946 case called <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly9zdXByZW1lLmp1c3R=
+pYS5jb20vY2FzZXMvZmVkZXJhbC91cy8zMjgvMjkzLw/607f07ceef4b8524a319a23cB7fee0e=
+40" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> SEC v. W.J. Howey Co.</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">An investment contract, for purposes of the Se=
+curities Act, means a contract, transaction=C2=A0or scheme whereby a person=
+ invests his money in a common enterprise and is led to expect profits sole=
+ly from the efforts of the promoter or a third party, it being immaterial w=
+hether the shares in the enterprise are evidenced by formal certificates or=
+ by nominal interests in the physical assets employed in the enterprise. Su=
+ch a definition =E2=80=A6 permits the fulfillment of the statutory purpose =
+of compelling full and fair disclosure relative to the issuance of =E2=80=
+=9Cthe many types of instruments that, in our commercial world, fall within=
+ the ordinary concept of a security.=E2=80=9D =E2=80=A6 It embodies a flexi=
+ble, rather than a static, principle, one that is capable of adaptation to =
+meet the countless and variable schemes devised by those who seek the use o=
+f the money of others on the promise of profits. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The investors provide the capital and share in=
+ the earnings and profits; the promoters manage, control, and operate the e=
+nterprise. It follows that the arrangements whereby the investors' interest=
+s are made manifest involve investment contracts, regardless of the legal t=
+erminology in which such contracts are clothed. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The test is whether the scheme involves an inv=
+estment of money in a common enterprise with profits to come solely from th=
+e efforts of others. If that test be satisfied, it is immaterial whether th=
+e enterprise is speculative or nonspeculative, or whether there is a sale o=
+f property with or without intrinsic value.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">This has become the =E2=80=9CHowey test,=E2=80=
+=9D and courts ask whether there is (1) an investment of money (2) in a com=
+mon enterprise (3) with an expectation of profits (4) to come solely from t=
+he efforts of others. The SEC <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31711038.259416/aHR0cHM6Ly93d3cuc2VjLmdvdi9jb3JwZmluL2ZyYW1ld29=
+yay1pbnZlc3RtZW50LWNvbnRyYWN0LWFuYWx5c2lzLWRpZ2l0YWwtYXNzZXRz/607f07ceef4b8=
+524a319a23cB698f2ac2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> has argued</a>, at least <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuc2VjL=
+mdvdi9saXRpZ2F0aW9uL2ludmVzdHJlcG9ydC8zNC04MTIwNy5wZGY/607f07ceef4b8524a319=
+a23cB8de6f17a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> since 2017</a>, that most crypto enterprises fit th=
+is description.</p>
+<p style=3D"margin: 16px 0;">For instance, consider Solana. Solana is a blo=
+ckchain that runs crypto applications; its native token is called SOL.=C2=
+=A0Here=E2=80=99s the SEC=E2=80=99s explanation of Solana<a class=3D"footno=
+te-index" href=3D"#footnote-6" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: none !important; background-color: transparent !important;=
+ display: inline-block;">
+<span>[6]</span>
+</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CSOL=E2=80=9D is the native token of t=
+he Solana blockchain. The Solana blockchain was created by Solana Labs, Inc=
+. (=E2=80=9CSolana Labs=E2=80=9D), a Delaware corporation headquartered in =
+San Francisco that was founded in 2018 by Anatoly Yakovenko (=E2=80=9CYakov=
+enko=E2=80=9D) and Raj Gokal (Solana Labs=E2=80=99 current CEO and COO, res=
+pectively). According to Solana=E2=80=99s website, www.solana.com, the Sola=
+na blockchain is a network upon which decentralized apps (=E2=80=9CdApps=E2=
+=80=9D) can be built, and is comprised of a platform that aims to improve b=
+lockchain scalability and achieve high transaction speeds by using a combin=
+ation of consensus mechanisms.</p>
+<p style=3D"margin: 16px 0;">According to Solana=E2=80=99s website, SOL may=
+ be =E2=80=9Cstaked=E2=80=9D on the Solana blockchain to earn rewards, and =
+a certain infinitesimal amount of SOL must be =E2=80=9Cburned=E2=80=9D to p=
+ropose a transaction on the Solana blockchain, a common function for native=
+ tokens on blockchains that constitutes a method for cryptographically dist=
+ributed ledgers to avoid a potential bad actor from =E2=80=9Cspamming=E2=80=
+=9D a blockchain by overwhelming it with an infinite number of proposed tra=
+nsactions.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Solana Labs sold SOL tokens to raise money to =
+build the Solana ecosystem:</p>
+<blockquote><p style=3D"margin: 16px 0;">Solana Labs stated publicly that i=
+t would pool the proceeds from its private and public SOL sales in omnibus =
+crypto asset wallets that it controlled, and that it would use those procee=
+ds to fund the development, operations, and marketing efforts with respect =
+to the Solana blockchain in order to attract more users to that blockchain =
+(potentially increasing the demand for,=C2=A0and therefore the value of, SO=
+L itself, given the need for those who wish to interact with the Solana blo=
+ckchain to tender SOL). For example, in connection with the 2021 private sa=
+le of SOL, Solana Labs stated publicly that it would use investor funds to:=
+ (i) hire engineers and support staff to help grow Solana=E2=80=99s develop=
+er ecosystem; (ii) =E2=80=9Caccelerate the deployment of market-ready appli=
+cations focused on onboarding the next billion users into crypto=E2=80=9D; =
+(iii) =E2=80=9Claunch an incubation studio to accelerate the development of=
+ decentralized applications and Platforms building on Solana=E2=80=9D; and =
+(iv) develop a =E2=80=9Cventure investing arm=E2=80=9D and =E2=80=9Ctrading=
+ desk dedicated to the Solana ecosystem.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">The Howey test:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Did investors invest money? Yes, SOL =
+was sold for money, to raise funding to build Solana.<a class=3D"footnote-i=
+ndex" href=3D"#footnote-7" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: none !important; background-color: transparent !important; dis=
+play: inline-block;">
+<span>[7]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">Was there a common enterprise? Ye=
+s, Solana is an=C2=A0<em>enterprise</em>; it is a blockchain ecosystem that=
+ competes with Ethereum and Cardano and so forth, that tries to attract use=
+rs.</li>=09<li style=3D"margin-bottom: 5px;">Is there an expectation of pro=
+fits? Yes, people bought SOL hoping that it would go up, and it did.=C2=A0<=
+/li>=09<li style=3D"margin-bottom: 5px;">Do the profits come from the effor=
+ts of others? Yes, SOL went up because its promoters and developers built S=
+olana into a popular blockchain, as they said they would, increasing the de=
+mand for SOL.</li>
+</ol>
+<p style=3D"margin: 16px 0;">These are often close questions. Most big cryp=
+to blockchains are to some extent decentralized; Solana=E2=80=99s growth de=
+pends not only on the efforts of Solana Labs but also on the efforts of thi=
+rd-party users and developers who like using it.<a class=3D"footnote-index"=
+ href=3D"#footnote-8" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: none !important; background-color: transparent !important; display:=
+ inline-block;">
+<span>[8]</span>
+</a> With some crypto tokens, it is plausible to argue that people buy the =
+tokens=C2=A0<em>not=C2=A0</em>as an investment with an expectation of profi=
+ts, but rather to pay for transactions on the blockchain; the SOL token is =
+the =E2=80=9Cgas=E2=80=9D that people use to run programs and transactions =
+on the Solana blockchain, and if you buy SOL as a pure =E2=80=9Cutility tok=
+en=E2=80=9D then it is arguably not a security. Most crypto tokens <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDktMDgvZ2FyeS1nZW5z=
+bGVyLXdhbnRzLXRvLXJlZ3VsYXRlLWNyeXB0bz9jbXBpZD1CQkQwNjA2MjNfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDYmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB69dcd58d" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  have=C2=A0<em>both=C2=A0</em>utility=C2=A0<em>and=C2=A0</em>speculative-i=
+nvestment=C2=A0aspects</a>, muddying the analysis a bit.</p>
+<p style=3D"margin: 16px 0;">Also, even if you buy SOL as a speculative inv=
+estment, it is not clear that you are buying it to=C2=A0<em>share in the pr=
+ofits of the underlying enterprise.=C2=A0</em>Your thought process might be=
+ =E2=80=9Cif I buy SOL, a lot of other people might buy SOL, and its price =
+will go up and I will make money.=E2=80=9D That is not really an expectatio=
+n of profits derived from the =E2=80=9Cefforts of others=E2=80=9D; that=E2=
+=80=99s an expectation of profits derived from speculative mania and online=
+ memes. We <a href=3D"https://link.mail.bloombergbusiness.com/click/3171103=
+8.259416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMD=
+YtMDUvZWxvbi1tdXNrLWhhZC1mdW4td2l0aC1kb2dlY29pbj9jbXBpZD1CQkQwNjA2MjNfTU9OR=
+VlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0y=
+MzA2MDYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBefeb0974" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  talked yesterday about Dogecoin</a>, a joke crypto token where ev=
+eryone pretty ostentatiously promised to do nothing at all to build an ecos=
+ystem; people buy Dogecoin because they think other people will buy Dogecoi=
+n. I=C2=A0<em>think=C2=A0</em>that that means that Dogecoin is <em>not </em=
+>a security; a purely meaningless token doesn=E2=80=99t involve enough effo=
+rts-of-others to qualify.<a class=3D"footnote-index" href=3D"#footnote-9" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: none !important=
+; background-color: transparent !important; display: inline-block;">
+<span>[9]</span>
+</a>=C2=A0(Surely, e.g., Beanie Babies are not securities.) And surely even=
+ when a crypto project=C2=A0<em>does=C2=A0</em>promise efforts and ecosyste=
+ms and hard-working brilliant developers, a lot of people probably buy the =
+tokens for the same pure number-go-up reasons that they bought Dogecoin.=C2=
+=A0</p>
+<p style=3D"margin: 16px 0;">But the way that I like to think of crypto and=
+ securities is that most crypto tokens are pretty clearly analogues of=C2=
+=A0<em>stock=C2=A0</em>in some underlying=C2=A0<em>tech business</em>. In S=
+olana (and Cardano, Polygon, etc.), the underlying business is a platform b=
+usiness, a blockchain ecosystem for building apps, largely though not exclu=
+sively financial-services apps for trading=C2=A0crypto. And everyone who bu=
+ys the tokens is in some loose sense a quasi-shareholder of the business. A=
+nd they are rewarded in the same way that traditional shareholders are: wit=
+h stock buybacks.<a class=3D"footnote-index" href=3D"#footnote-10" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: none !important; backg=
+round-color: transparent !important; display: inline-block;">
+<span>[10]</span>
+</a>=C2=A0The crypto term for stock buybacks is =E2=80=9Cburning=E2=80=9D:<=
+/p>
+<blockquote><p style=3D"margin: 16px 0;">Further, Solana Labs markets that =
+it =E2=80=9Cburns=E2=80=9D (or destroys) SOL tokens as part of a =E2=80=9Cd=
+eflationary model.=E2=80=9D As Yakovenko explained in an April 14, 2021 art=
+icle entitled =E2=80=9CSolana (SOL): Scaling Crypto to the Masses=E2=80=9D =
+posted on gemini.com, =E2=80=9CSolana transaction fees are paid in SOL and=
+=C2=A0burnt (or permanently destroyed) as a deflationary mechanism to reduc=
+e the total supply and thereby maintain a healthy SOL price.=E2=80=9D As ex=
+plained on the Solana website, since the Solana network was launched, the =
+=E2=80=9CTotal Current Supply=E2=80=9D of SOL =E2=80=9Chas been reduced by =
+the burning of transaction fees and a planned token reduction event.=E2=80=
+=9D This marketed burning of SOL as part of the Solana network=E2=80=99s =
+=E2=80=9Cdeflationary mechanism=E2=80=9D has led investors reasonably to vi=
+ew their purchase of SOL as having the potential for profit to the extent t=
+here is a built-in mechanism to decrease the supply and therefore increase =
+the price of SOL.</p></blockquote>
+<p style=3D"margin: 16px 0;">In the <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9saXRpZ=
+2F0aW9uL2NvbXBsYWludHMvMjAyMy9jb21wLXByMjAyMy0xMDEucGRm/607f07ceef4b8524a31=
+9a23cC0f866a2a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> Binance complaint</a>, the SEC quotes Changpeng Zh=
+ao describing the burning mechanism for Binance=E2=80=99s own BNB token:=C2=
+=A0</p>
+<blockquote><p style=3D"margin: 16px 0;">Indeed, on July 9, 2019, Zhao desc=
+ribed Binance=E2=80=99s planned BNB burn in an interview posted on YouTube,=
+ stating that a =E2=80=9Cbenefit we promised in the Whitepaper is every qua=
+rter we will use 20 percent of our profits to buy back [BNB] at the market =
+value =E2=80=A6 we will buy back and destroy those. We will destroy up to 1=
+00 million Binance coins. Basically half of all available coins =E2=80=A6 F=
+inancially that works the same way as a dividend economically.=E2=80=9D</p>=
+</blockquote>
+<p style=3D"margin: 16px 0;">I mean I would say it works the same as a stoc=
+k buyback, but sure, dividends and stock buybacks are essentially equivalen=
+t. The point is that shareholders =E2=80=94=C2=A0sorry, tokenholders =E2=80=
+=94=C2=A0in a crypto project share in the profits of that project when it u=
+ses some of its revenue to buy back and burn tokens, increasing the value o=
+f the remaining tokens, exactly the way a share buyback works.</p>
+<p style=3D"margin: 16px 0;">One way to understand crypto economics is that=
+ crypto built a new way to <em>sell stock=C2=A0</em>in promising technology=
+ and financial businesses=C2=A0<em>without calling it stock</em>. If you ar=
+e starting a crypto exchange, for instance, and you want to raise money, yo=
+u could go to investors and offer them stock in your business. If the busin=
+ess does well, there will be lots of profits (from charging customers tradi=
+ng fees), and you will share them with your investors. But this has problem=
+s:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If you sell stock to the public, you =
+will need to register with the SEC.</li>=09<li style=3D"margin-bottom: 5px;=
+">If you sell stock to big venture capitalists,=C2=A0<em>they </em>will nee=
+d to register their resales with the SEC, or otherwise find an exemption fr=
+om SEC registration.</li>=09<li style=3D"margin-bottom: 5px;">Either way yo=
+u will probably have to give your investors=C2=A0<em>some=C2=A0</em>sort of=
+ financial information about the business to get their money.</li>=09<li st=
+yle=3D"margin-bottom: 5px;">Your shareholders might want voting rights, ong=
+oing financial disclosures, etc., which are customary and often mandated by=
+ law.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Or, if you are starting a crypto exchange, you=
+ can go to investors and offer them=C2=A0<em>tokens=C2=A0</em>in your busin=
+ess. If the business does well, there will be lots of profits (from chargin=
+g customers trading fees), and you will share them with your investors (by =
+buying and burning tokens). This is very nice:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If you sell tokens to the public, you=
+ can say that they are not securities, and not register with the SEC.</li>=
+=09<li style=3D"margin-bottom: 5px;">If you sell the tokens to big VCS,=C2=
+=A0<em>they=C2=A0</em>can say that they are not securities, and resell them=
+ freely.</li>=09<li style=3D"margin-bottom: 5px;">You will write a white pa=
+per to sell the tokens that does not necessarily get into a ton of financia=
+l or operational detail.</li>=09<li style=3D"margin-bottom: 5px;">You can g=
+ive the tokens whatever rights you want.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I am being a little unfair. I am describing a =
+pure regulatory arbitrage; Binance=E2=80=99s BNB token =E2=80=94=C2=A0or <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LXM=
+tYmFsYW5jZS1zaGVldC13YXMtYmFkP2NtcGlkPUJCRDA2MDYyM19NT05FWVNUVUZGJnV0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYwNiZ1dG1fY2Ftc=
+GFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB617b95a3" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">  FTX=E2=
+=80=99s FTT token</a> =E2=80=94=C2=A0is a pure substitute for stock, issued=
+ by a company to raise money to run its centralized business. Lots of crypt=
+o is not quite like this; in some projects <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMTctMTAtMTMvaWNvcy1tYXJ4aXNtLWFuZC1jcmVkaXQtcmVwb=
+3J0cz9jbXBpZD1CQkQwNjA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3Vy=
+Y2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607=
+f07ceef4b8524a319a23cB6d254bd5" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">  there is a real idealism</a> abou=
+t building decentralized ecosystems that will not be owned by any one compa=
+ny, and selling tokens can be a way to create and fund projects without own=
+ers, an economic model that really is very different from a shareholder-own=
+ed corporation. But much of the time, the crypto ecosystems seem to be buil=
+t by pretty centralized teams, and the tokens are sold as more or less stoc=
+k in a new tech company with a promising idea started by a promising team.<=
+/p>
+<p style=3D"margin: 16px 0;">You can see why people in crypto like this! It=
+ combines regulatory arbitrage with a certain exciting philosophical newfan=
+gledness. You can see why the SEC does not like it! The SEC knows all about=
+ =E2=80=9C=C2=A0the countless and variable schemes devised by those who see=
+k the use of the money of others on the promise of profits.=E2=80=9D The SE=
+C is the regulator getting arbitraged. And it is not happy about it.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SEC v. Crypto: What now?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Oh I don=E2=80=99t know. Conceptually, there a=
+re several possible outcomes here:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The SEC wins and crypto is more or le=
+ss banned in the US. You can still buy Bitcoin and probably Ethereum<a clas=
+s=3D"footnote-index" href=3D"#footnote-11" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: none !important; background-color: transparent=
+ !important; display: inline-block;">
+<span>[11]</span>
+</a>=C2=A0and maybe Dogecoin in the US, because those are not securities, b=
+ut any other crypto project is probably a security and not going to be offe=
+red for trading in the US. Crypto withers and dies and everyone moves on to=
+ artificial intelligence. The SEC kills crypto, as a sort of slow-burn reve=
+nge for crypto=E2=80=99s attempt to arbitrage around the SEC.</li>=09<li st=
+yle=3D"margin-bottom: 5px;">Same, except that crypto develops and flourishe=
+s elsewhere, and the US simply misses it. Crypto turns out to be extremely =
+world-changing and valuable, and the US is left behind. Or it turns out to =
+be a weird niche financial product you can trade in Europe but not in the U=
+S, like <a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.2=
+59416/aHR0cHM6Ly93d3cuZXNtYS5ldXJvcGEuZXUvcHJlc3MtbmV3cy9lc21hLW5ld3MvZXNtY=
+S1hZ3JlZXMtcHJvaGliaXQtYmluYXJ5LW9wdGlvbnMtYW5kLXJlc3RyaWN0LWNmZHMtcHJvdGVj=
+dC1yZXRhaWwtaW52ZXN0b3Jz/607f07ceef4b8524a319a23cB09413d83" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> binary=
+ options or contracts for differences</a>. Either way it lives on abroad, b=
+ut not in the US.</li>=09<li style=3D"margin-bottom: 5px;">The SEC wins, an=
+d then somebody =E2=80=94=C2=A0some combination of existing crypto firms, n=
+ew crypto entrants and=C2=A0legacy financial services firms =E2=80=94=C2=A0=
+finds a path forward for crypto to be traded in the US in compliance with U=
+S securities laws. Everyone buckles down and says =E2=80=9Cokay, Solana is =
+going to start filing annual reports with audited financial statements,=E2=
+=80=9D and people will start crypto exchanges that register with the SEC an=
+d that are separate from the clearinghouses and brokerages, etc. This seems=
+=C2=A0<em>very=C2=A0</em>hard, because the SEC is quite <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDktMTMvY3J5cHRvLXdhbnRzLXNvbWUt=
+c2VjLXJ1bGVzP2NtcGlkPUJCRDA2MDYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXR=
+tX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdH=
+VmZg/607f07ceef4b8524a319a23cB43061470" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">  clearly not interested</a=
+> in <a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.2594=
+16/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDktMDgv=
+Z2FyeS1nZW5zbGVyLXdhbnRzLXRvLXJlZ3VsYXRlLWNyeXB0bz9jbXBpZD1CQkQwNjA2MjNfTU9=
+ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT=
+0yMzA2MDYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cC69dcd58d=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">  accommodating any crypto projects</a>. I am not going to sit he=
+re and tell you =E2=80=9Chere=E2=80=99s how crypto firms can register their=
+ tokens as securities.=E2=80=9D Certainly Coinbase has been trying forever =
+to figure out how to do it =E2=80=94=C2=A0they have <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuY29pbmJhc=
+2UuY29tL2Jsb2cvd2UtYXNrZWQtdGhlLXNlYy1mb3ItcmVhc29uYWJsZS1jcnlwdG8tcnVsZXMt=
+Zm9yLWFtZXJpY2Fucy13ZS1nb3QtbGVnYWw/607f07ceef4b8524a319a23cBbbe0edab" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> pestered the SEC for rules allowing it</a>, etc. =E2=80=94=C2=A0with, =
+so far, not much luck. But I suppose it=E2=80=99s always possible.<a class=
+=3D"footnote-index" href=3D"#footnote-12" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: none !important; background-color: transparent =
+!important; display: inline-block;">
+<span>[12]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">The SEC loses, the courts say =E2=
+=80=9Cwhat, no, none of this stuff is a security,=E2=80=9D and crypto conti=
+nues to trade in the US without much securities regulation.</li>=09<li styl=
+e=3D"margin-bottom: 5px;">Congress (or a future SEC) steps in to change the=
+ rules, saying =E2=80=9Cwell sure all this stuff is technically illegal und=
+er existing law, but it is crazy to stifle innovation like this, so we will=
+ make new rules to allow for regulated trading=C2=A0of crypto in the US.=E2=
+=80=9D=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know which outcome I would bet=
+ on. The last outcome is the one that the crypto industry wants, and there =
+does seem to be <em>some=C2=A0</em>appetite in Congress to write crypto rul=
+es.</p>
+<p style=3D"margin: 16px 0;">But I do want to say that <em>the SEC </em>is =
+clearly betting on the first outcome. That is why it is bringing these case=
+s=C2=A0<em>now</em>, after the collapse of FTX and so many other big crypto=
+ firms, after crypto prices have fallen, after the venture capitalists have=
+ all moved on to AI. These cases, against Binance and Coinbase, are high-ri=
+sk cases for the SEC: Coinbase and Bitcoin are big well-funded companies=C2=
+=A0with good lawyers and lobbyists,=C2=A0they have the resources and motiva=
+tion to fight these cases to the end, and they do have decent legal argumen=
+ts. The SEC might lose! But it is being strategic about maximizing its chan=
+ces. I <a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.25=
+9416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMT=
+MvdGhlLXNlYy1jcmFja3MtZG93bi1vbi1jcnlwdG8_Y21waWQ9QkJEMDYwNjIzX01PTkVZU1RVR=
+kYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA2=
+JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBbe1e99b3" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>  wrote in February</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">When crypto is popular and exciting and going =
+up, if you are a regulator who says =E2=80=9Cno, we must stop this,=E2=80=
+=9D you look like a killjoy. Investors want to put their money into stuff t=
+hat is going up, and they are mad at you for stopping them. Politicians lik=
+e the stuff that is going up, and hold hearings about how you=E2=80=99re st=
+ifling innovation. Crypto founders are rich and popular and criticize you o=
+n Twitter and get a lot of likes and retweets. Your own regulatory employee=
+s, who have an eye on their next private-sector jobs, want to be leaders in=
+ crypto innovation rather than just banning everything.</p>
+<p style=3D"margin: 16px 0;">When crypto is going down and so many projects=
+ are evaporating in fraud and bankruptcy, you can kind of say =E2=80=9CI to=
+ld you so.=E2=80=9D There is just a lot more appetite to regulate, or I gue=
+ss just to shut everything down. =E2=80=9CYou are stifling innovation,=E2=
+=80=9D the indicted founder of a bankrupt crypto firm can say, but nobody c=
+ares.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That is the bet that the SEC is making. Now we=
+=E2=80=99ll see if it=E2=80=99s right.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Private gigs</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you work at a private equity firm and it ha=
+s reached its 25th anniversary, it will probably have a party to celebrate.=
+ If it has a party, it will probably book a musical guest. If it books a mu=
+sical guest and David Solomon is unavailable, it will probably book Flo Rid=
+a. You will go to your private equity firm=E2=80=99s anniversary party and =
+your boss will give a speech about the value you provide to limited partner=
+s, and then she will say =E2=80=9Cand now, Flo Rida.=E2=80=9D And then Flo =
+Rida will come out on stage, and you will perhaps, for just a second, think=
+, =E2=80=9Cwell, why Flo Rida?=E2=80=9D And he will probably be thinking =
+=E2=80=9Cwell, why this private equity firm?=E2=80=9D But that is just life=
+ in modern capitalism, sometimes private equity firms celebrate significant=
+ milestones and Flo Rida is there. It doesn=E2=80=99t have to make sense; i=
+t just is.</p>
+<p style=3D"margin: 16px 0;">Evan Osnos has=C2=A0an <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cubmV3eW9ya=
+2VyLmNvbS9tYWdhemluZS8yMDIzLzA2LzA1L2hvdy10by1oaXJlLWEtcG9wLXN0YXItZm9yLXlv=
+dXItcHJpdmF0ZS1wYXJ0eQ/607f07ceef4b8524a319a23cB709a076f" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">extremely=
+ delightful New Yorker article</a> about the private gig industry, in which=
+ star and former-star and near-star musicians collect large checks for play=
+ing short sets for the bar mitzvahs and corporate parties of the wealthy. =
+=E2=80=9CIf you can say, =E2=80=98Hey, I=E2=80=99m going to go have a bad t=
+ime for an afternoon, but it=E2=80=99s going to pay for my kid=E2=80=99s en=
+tire college education,=E2=80=99 then that=E2=80=99s a trade-off I think mo=
+st responsible adults will make,=E2=80=9D says one booking agent, correctly=
+. Osnos follows Flo Rida, who =E2=80=9Cattained celebrity in 2008 with his =
+song =E2=80=98Low,=E2=80=99 an admiring ode to a Rubenesque beauty on the d=
+ance floor,=E2=80=9D to both a bar mitzvah and a private equity gig:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On a crisp spring night on the southern tip of=
+ Manhattan, Flo Rida was backstage once more. This time, he huddled in a da=
+rkened hallway with his dancers and the d.j. and Int=E2=80=99l Nephew, thei=
+r arms laced around one another, as they murmured a prayer. Then they lined=
+ up in a loose stack behind the door that separated them from the stage.=C2=
+=A0</p>
+<p style=3D"margin: 16px 0;">On the other side, in a cavernous ballroom bat=
+hed in purple light, about four hundred people with matching lanyards were =
+celebrating the twenty-fifth anniversary of a private-equity firm. It was b=
+usiness casual, with the occasional bow tie and ball gown. A sushi buffet r=
+an the length of one wall. The venue, Casa Cipriani, occupies a restored Be=
+aux-Arts ferry terminal that also includes a hotel and private club, which =
+offers suites with cashmere-lined walls, easy access to a helicopter pad, a=
+nd fastidious attention to service. Guests are asked to choose which type o=
+f Italian bedding they prefer, cotton or linen.</p>
+<p style=3D"margin: 16px 0;">At the lectern, two of the firm=E2=80=99s lead=
+ers were holding forth. A gray-haired man in a gray plaid blazer praised hi=
+s colleagues=E2=80=99 delivery of =E2=80=9Cindustry-leading returns for our=
+ limited partners,=E2=80=9D and thanked attendees for various feats, includ=
+ing =E2=80=9Cfive hundred million in proceeds at a 5.5x multiple on investm=
+ent capital=E2=80=9D and enduring =E2=80=9Cawful six-hour golf rounds with =
+me.=E2=80=9D As showtime approached, a partner in an elegant black-and-whit=
+e gown told the crowd, =E2=80=9CWith pride in our hearts and sushi in our m=
+ouths, let=E2=80=99s celebrate.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">The partygoers had not been told who the headl=
+ine entertainer would be, and some were quietly hoping for Springsteen. Whe=
+n Flo charged out from backstage, there was a brief vacuum of silence. But =
+he plunged ahead into =E2=80=9CGood Feeling,=E2=80=9D a thumping ode to suc=
+cess, with references to a Gulfstream, a Bugatti, and a Maybach. (=E2=80=9C=
+Talk like a winner, my chest to that sun / G5 dealer, U.S. to Taiwan.=E2=80=
+=9D) The crowd began to fall in, and Flo showed a rowdier mode than he had =
+at the bar mitzvah. =E2=80=9CWho wants some shots?=E2=80=9D he shouted, hol=
+ding up bottles of vodka and tequila. There was a nervous titter; a gentlem=
+an in a bow tie craned his neck for a look, and then some of the younger gu=
+ests stepped forward to drink from bottles held in Flo=E2=80=99s outstretch=
+ed hands. The mood in the room started to evolve fast.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Springsteen! The main thing that I took away f=
+rom this is that Flo Rida=E2=80=99s band includes =E2=80=9Ca younger rapper=
+ known as Int=E2=80=99l Nephew,=E2=80=9D the greatest stage name I have eve=
+r seen, but I will probably also use the =E2=80=9Cwith pride in our hearts =
+and sushi in our mouths=E2=80=9D line in the future.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">PGA Tour Bows to Saudi Rival in Shock <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMDYvcGdhLXRvdXItZHAt=
+d29ybGQtdG91ci1saXYtZ29sZi1tZXJnZS1jb21tZXJjaWFsLW9wZXJhdGlvbnM_Y21waWQ9QkJ=
+EMDYwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjMwNjA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cBe393b51c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  Combination With LIV Golf</a>.=C2=A0<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMDUvYXBvbGxvLWZpZGVsaXR5LWl=
+udGVybmF0aW9uYWwtYW5kLXQtcm93ZS1wcmljZS1wb2lzZWQtZm9yLXByaXZhdGUtY3JlZGl0LW=
+Jvb20_Y21waWQ9QkJEMDYwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291c=
+mNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607=
+f07ceef4b8524a319a23cB65a722c1" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">Private Credit</a> is Poised for a =
+Multi-Trillion-Dollar Boom, But It Could Get Ugly Soon.=C2=A0A $1.5 Trillio=
+n Backstop for Homebuyers <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/31711038.259416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmV=
+zLzIwMjMtMDYtMDQvdXMtZWZmb3J0LXRvLWhlbHAtaG9tZWJ1eWVycy1nZXQtYWZmb3JkYWJsZS=
+1sb2Fucy1tYWlubHktYmVuZWZpdHMtYmFua3MtaW5zdGVhZD9jbXBpZD1CQkQwNjA2MjNfTU9OR=
+VlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0y=
+MzA2MDYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBdb678d54" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  Props Up Banks</a> Instead. A Wall Street Titan Scores One of the=
+ Best <a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259=
+416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMDYtMDUvd2F=
+sbC1zdHJlZXQtcy1ibGFja3N0b25lLW1hZGUtYmlsbGlvbnMtaW4tcmVhbC1lc3RhdGUtYmV0LW=
+9uLXVyYmFuLXdhcmVob3VzZXM_Y21waWQ9QkJEMDYwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1b=
+T1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA2JnV0bV9jYW1wYWln=
+bj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3d77c2e2" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> Real Estate Tr=
+ades</a> Ever.=C2=A0Lina Khan Is Upending Wall Street=E2=80=99s <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMDYvbGluYS1raGFuLWlzLXVw=
+ZW5kaW5nLXdhbGwtc3RyZWV0LXMtbWVyZ2VyLWFyYml0cmFnZS1wbGF5Ym9vaz9jbXBpZD1CQkQ=
+wNjA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlci=
+Z1dG1fdGVybT0yMzA2MDYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a=
+23cB17cb4018" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  Merger-Arbitrage</a> Playbook. Companies That Embra=
+ced <a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.25941=
+6/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jb21wYW5pZXMtbmV3LWNhdXNlLWRvZGdpb=
+mctdGhlLWN1bHR1cmUtd2Fycy03M2U1MmNmMz9tb2Q9aHBfbGVhZF9wb3M5/607f07ceef4b852=
+4a319a23cBbe477588" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Social Issues</a> Have Second Thoughts.=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMDYvc2VxdW=
+9pYS1zcGxpdHMtaW50by10aHJlZS1lbnRpdGllcy1tYWtlcy1jaGluYS1zdGFuZGFsb25lLWZpc=
+m0_Y21waWQ9QkJEMDYwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNl=
+PW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07=
+ceef4b8524a319a23cBb3498696" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  Sequoia</a> Splits Into Three Firms =
+Amid Geopolitical Tension.=C2=A0Swiss Government to Have Say on <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMDYvc3dpc3MtZ292ZXJubWVu=
+dC10by1oYXZlLXNheS1vbi11YnMtYXNzZXRzLWJhY2tlZC1ieS1ndWFyYW50ZWU_Y21waWQ9QkJ=
+EMDYwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjMwNjA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cB68bca9b4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  UBS Assets</a> Backed by Guarantee.=C2=A0Clumps of=
+ 5,000-mile <a href=3D"https://link.mail.bloombergbusiness.com/click/317110=
+38.259416/aHR0cHM6Ly93d3cudGhlZ3VhcmRpYW4uY29tL2Vudmlyb25tZW50LzIwMjMvanVuL=
+zAzL3Nhcmdhc3N1bS1zZWF3ZWVkLWFsZ2FlLWZsb3JpZGEtYmFjdGVyaWEtdmlicmlv/607f07c=
+eef4b8524a319a23cB68370179" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> seaweed blob</a> bring flesh-eating ba=
+cteria to Florida.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31711038.259416/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB5130616d" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31711038.259416/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB12e7dd8b" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] In particular the yacht is just mentioned =
+and dropped. There are weird claims that *could* be read as ominous: =E2=80=
+=9CSince the launch of the Binance.US Platform, Merit Peak=E2=80=99s U.S. b=
+ank account received, as a =E2=80=98pass through=E2=80=99 account, over $20=
+ billion that included customer funds from both Binance Platforms. Merit Pe=
+ak then transferred the vast majority of those funds to Trust Company A, in=
+ transfers that appear to relate to the purchase of BUSD. As Merit Peak was=
+ a purportedly independent entity, sending Binance customer funds to Merit =
+Peak placed those funds at risk, including of loss or theft, and was done w=
+ithout notice to customers.=E2=80=9D I think I read that to mean =E2=80=9CM=
+erit Peak operated as a market maker selling Binance customers BUSD stablec=
+oins,=E2=80=9D rather than =E2=80=9CBinance siphoned $20 billion of custome=
+r money to its affiliated trading firm,=E2=80=9D but the SEC just mentions =
+this and moves on.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Coinbase is a US exchange so the analysis =
+is pretty simple. Binance has Binance.us, which is open to US customers, an=
+d Binance.com, which is not. The SEC=E2=80=99s complaint against Binance ha=
+s two components: One is that Binance.us is an illegal securities exchange,=
+ because it offers spot trading in crypto assets that the SEC claims are se=
+curities (same as Coinbase); the other is that Binance.com actually did let=
+ big US traders use its platform (same as the CFTC case against Binance). <=
+/p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Actually Robinhood almost certainly <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDUvcm9iaW5ob29=
+kLWdhbWVzdG9wLXNhZ2EtcHJlc3N1cmVzLXBheW1lbnQtZm9yLW9yZGVyLWZsb3c_Y21waWQ9Qk=
+JEMDYwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjMwNjA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cBd04d46bf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">
+routes your order</a> to a wholesaler to execute, rather than sending it to=
+ the exchange; to some extent Robinhood, or the wholesaler, runs a venue fo=
+r matching buy and sell orders, with Robinhood=E2=80=99s retail customers o=
+n one side and the wholesaler on the other. This is part of what I mean abo=
+ut stock trading venues not all being registered as exchanges; broker-deale=
+rs run various sorts of trading venues (internalizing like this, dark pools=
+, etc.) that are somewhat exchange-like but not exchanges. Still they are s=
+ubject to more SEC registration than crypto exchanges are. </p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Another question raised in these cases is:=
+ Are crypto *lending* programs (where a platform like Binance or Coinbase t=
+akes its customers=E2=80=99 crypto, lends it to crypto hedge funds, charges=
+ interest and passes on a portion of the interest to the customers) and *st=
+aking* programs (where the platform takes its customers=E2=80=99 crypto, lo=
+cks it up in blockchain proof-of-stake mechanisms that validate transaction=
+s and earn staking rewards, and passes on a portion of the rewards to the c=
+ustomers) securities, even if the underlying crypto is not a security? We h=
+ave talked about this question when <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjMtMDItMTMvdGhlLXNlYy1jcmFja3MtZG93bi1vbi1jcnlwdG8_Y21w=
+aWQ9QkJEMDYwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3N=
+sZXR0ZXImdXRtX3Rlcm09MjMwNjA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8=
+524a319a23cCbe1e99b3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">
+the SEC sued Kraken</a> for running a staking program, and when it <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDEtMTcvc2VjLWNvbWVz=
+LWZvci1nZW1pbmktdG9vLWxhdGU_Y21waWQ9QkJEMDYwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA2JnV0bV9jYW1wYW=
+lnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa3aef614" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">
+sued Gemini</a> and <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/31711038.259416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMjEtMDktMDgvbGVuZGluZy1iaXRjb2lucy1pcy10cmlja3k_Y21waWQ9QkJEMDYwNjIzX01P=
+TkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm0=
+9MjMwNjA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB58a24c06=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">
+threatened Coinbase</a> over lending programs. The SEC makes similar claims=
+ against Coinbase and Binance this week over lending and staking programs.<=
+/p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] The elephant in the room is Ethereum, the =
+second-biggest crypto blockchain behind Bitcoin, which entirely fits the SE=
+C=E2=80=99s description of Solana, Cardano, etc. Is ETH (the Ethereum token=
+) a security? <a href=3D"https://link.mail.bloombergbusiness.com/click/3171=
+1038.259416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjM=
+tMDQtMTkvYmV0dGVybWVudC1taXNzZWQtc29tZS10YXgtdHJhZGVzP2NtcGlkPUJCRDA2MDYyM1=
+9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90Z=
+XJtPTIzMDYwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBda1c=
+66c6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">
+My view is</a> that (1) the SEC *clearly* thinks ETH is a security, (2) for=
+ historical reasons the SEC missed that boat and now US law treats ETH as a=
+ non-security commodity, (3) the SEC doesn=E2=80=99t like it but (4) they=
+=E2=80=99re picking their battles and are not going to come out and argue t=
+hat ETH is a security.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] I am quoting <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXR=
+pZ2F0aW9uL2NvbXBsYWludHMvMjAyMy9jb21wLXByMjAyMy0xMDIucGRm/607f07ceef4b8524a=
+319a23cDfe6d08ee" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">the Coinbase complaint</a>, though there is simil=
+ar text in <a href=3D"https://link.mail.bloombergbusiness.com/click/3171103=
+8.259416/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9saXRpZ2F0aW9uL2NvbXBsYWludHMvMj=
+AyMy9jb21wLXByMjAyMy0xMDEucGRm/607f07ceef4b8524a319a23cD0f866a2a" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+the Binance complaint</a>.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] A side note here. Solana did not, in its e=
+arly fundraising, sell SOL tokens. Instead it sold =E2=80=9CSimple Agreemen=
+ts for Future Tokens,=E2=80=9D or SAFTs, that is, a sort of futures-contrac=
+t wrapper for the SOL tokens. The thinking here was that the SAFTs were sec=
+urities, because they were used to raise money to build a blockchain ecosys=
+tem, but that once that ecosystem was running the tokens would be pure =E2=
+=80=9Cutility tokens,=E2=80=9D that is, gas for running the Solana network =
+rather than an investment security. This SAFT idea is sort of best practice=
+ in crypto, but the SEC doesn=E2=80=99t really believe in it; their view se=
+ems to be once a security, always a security. (We talked about this view <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMTAtMTQvdGhlLXN=
+lYy1yZWFsbHktZG9lc24tdC1saWtlLWljb3M_Y21waWQ9QkJEMDYwNjIzX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA2JnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBcf241b6f" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">
+as far back as 2019</a>.) And so in this week=E2=80=99s complaints, the SEC=
+ cites the fact that Solana actually admitted that its (SAFT) fundraising w=
+as a securities sale: =E2=80=9CBetween May 2018 and early March 2020, Solan=
+a Labs filed with the SEC multiple forms claiming that its offers and sales=
+ of securities=E2=80=94what Solana described in those forms as the =E2=80=
+=98sale and issuance of rights to receive Solana Labs, Inc. tokens in the f=
+uture via a Simple Agreement for Future Tokens (SAFTs)=E2=80=99=E2=80=94wer=
+e exempt from registration under Rule 506(c) of Regulation D under the Secu=
+rities Act. Through these offers and sales of securities, Solana sold appro=
+ximately 177 million SOL, raising over $23 million.=E2=80=9D You can follow=
+ industry best practices in crypto securities-law compliance, but they are =
+still not good enough for the SEC.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] Charmingly, a <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly9mb3J0dW5lLmNvbS9jcn=
+lwdG8vMjAyMi8xMi8wNi9yaXBwaW5nLXRoZS1iYW5kYWlkLXNvbGFuYS1jb2ZvdW5kZXJzLXRhb=
+Gstc2JmLWZ0eC1hbmQtd2hhdC1jb21lcy1uZXh0Lw/607f07ceef4b8524a319a23cB4ceb0404=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">big player</a> in the Solana ecosystem <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/31711038.259416/aHR0cHM6Ly9wcm90b3MuY29tL2Nh=
+bi1zb2xhbmEtc3RheS1hZmxvYXQtd2l0aG91dC1zYmYtYW5kLWZ0eC8/607f07ceef4b8524a31=
+9a23cB4bc3838d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">was Sam Bankman-Fried</a>, whoops.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] I am sure some Dogecoin enthusiasts will e=
+mail me to explain its incredibly powerful ecosystem and road map to global=
+ domination.</p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] Also with staking rewards, which are anal=
+ogous to dividends. From the SEC=E2=80=99s analysis of Polygon=E2=80=99s MA=
+TIC token: =E2=80=9CMATIC holders can earn additional MATIC for staking the=
+ir MATIC on the Polygon platform and becoming a validator, from delegating =
+their MATIC to other validators in return for a portion of the fees collect=
+ed from validating transactions, or from staking their MATIC with other thi=
+rd parties, such as crypto asset platforms that offer staking services.=E2=
+=80=9D</p>
+</div>
+<div id=3D"footnote-11" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[11] See footnote 5.</p>
+</div>
+<div id=3D"footnote-12" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[12] Last month <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/31711038.259416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMjMvcHJvbWV0aGV1bS1jYXBpdGFsLXNlZXMtcGF0aC1=
+0by1yZWdpc3Rlci13aXRoLXNlYy1hcy1zcGVjaWFsLXB1cnBvc2UtYnJva2VyP2NtcGlkPUJCRD=
+A2MDYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJ=
+nV0bV90ZXJtPTIzMDYwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a=
+23cB4247eb66" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">
+Prometheum Ember Capital</a> =E2=80=9Csaid it has received the first specia=
+l purpose broker-dealer license under US Securities and Exchange Commission=
+ guidelines that would allow it to custody digital assets securities,=E2=80=
+=9D which I guess is a start.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBb9fd8e37" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBef63ad52" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB47da58b2" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB3064120c" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB3583aa87" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.2594=
+16/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB764a64fc" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31711038.259416/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCc41673fc" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31711038.259416/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB728829fd" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31711038.259416/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB929786cd" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB8=
+2656196" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31711038.259416/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBe=
+7b2ad93" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23civoe6.5k60/5eb0aeda.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_68615_1170758062.1686075472805--
+

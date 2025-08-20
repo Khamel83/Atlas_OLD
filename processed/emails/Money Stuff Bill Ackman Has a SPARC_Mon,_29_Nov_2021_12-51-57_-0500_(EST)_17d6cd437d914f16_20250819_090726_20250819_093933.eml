@@ -1,0 +1,1928 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4882:0:b0:14f:df5a:7f27 with SMTP id o2csp5983539lkd;
+        Mon, 29 Nov 2021 09:53:07 -0800 (PST)
+X-Received: by 2002:a17:906:309b:: with SMTP id 27mr60738195ejv.129.1638208386695;
+        Mon, 29 Nov 2021 09:53:06 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1638208386; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=iV4k+Epy3Ntex1wPV2qx5saPYCCpiP590Z67ZuJkY96JMqbVlTustNl9rCR8z7j+NJ
+         glFHjp2ctBv+CdATb5sUNwN2sB3EH7xAw7jGLrZDIYO+yazGAG604qoQWGjA+ucDOiLO
+         VIdJInKz6+um2pnHXwGPxqnva9ddE03/RqEawDggicew7EvvzpTg6xbRB8uicmMn95/D
+         oNtxSzvtl7rLaxyDxsiJKOxiYN/ZUu1V8h2gc8j3s0ccHIUli/5O91S0gMMN1qEMR8jv
+         RUkDKOf7Yw/D6HKFMbT6Ac4ZDoBDlOLXY6r5ygd2rGhzlKgsKwRy49oh+XRU5DnQg5mc
+         2OUQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=YNb6DbT4pRnHZqcW+Q/sDtqangaVYrL2LmV21fSMvhQ=;
+        b=h0ufFxE1PvdiLV9nCO80T5t5Ia/S6LTWyMVITy8u6lmfTPe6UyFaRU3EjCYULwHeM6
+         FPte6w/moBZYSQCSCsNOXG9LCTZvjSPnjCbKWpw/o8g2A0Kg97FS6yYzBamRb13c4pdV
+         kXl9q/0At1aR92iMshuQPcyPmIvG9IOX7RELOKPxA9uH6ENS6DfGuwpILAAYV80GY+wu
+         Nqnjl/sWoYSnYQol6ZA4kHdORo6m64BJ2dpsOETDqKcJ85XYu1oco32yHRdnU8Q9TWr0
+         PC27OsE36828MqPCvb5WaNEMR0OO2cdVJpPR67AKp4G1FpaN/ZTMOTuYP7gwGn28pTG+
+         YHHQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=4O2QPqyu;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id he39sor7640820ejc.24.2021.11.29.09.53.06
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 29 Nov 2021 09:53:06 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=4O2QPqyu;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=YNb6DbT4pRnHZqcW+Q/sDtqangaVYrL2LmV21fSMvhQ=;
+        b=1rHPqlcTGdAiGZ01gD1ZzNj2Ub0AqzeAYsy1aDdHVuLWhWnyl7rR/yz+w4+vBt+5mZ
+         3o3v4fCC17gNWcY/vAUzbUr+TDFqLGdh/wuSWZMBBF694mOK1BeFAcJFZzKciH3B7vO0
+         imOSn3x7cGzzmYR5XdJ2vZEMtRFBT82EzKFj2fzlm7Ahk8VQvAIxRDMkl2k8CTMYRZ+5
+         WEldjfaCEtkYQ36b5/yWXj64mugkNMjExM9rgJR7E+3Zh+LCtvfH6N+Fcjw0D0bXVwNa
+         P4dRGjUXyvlMpvkuoL0YHNJ9Nn54IUc+DgD204vcjXRVoRx91FRjKjQZwK3YUTpcq/PB
+         jSuA==
+X-Gm-Message-State: AOAM530SXac+LjRlAN9r9XMsPk/j1gtpoMFpu0XN3BXP6DWPLa4oi+xh
+	g+9K9gqDiktVcdzfBywIIFsq/GaXYNSfi+pCiyT07VcfF/XympNhuKpf
+X-Received: by 2002:a17:906:fca3:: with SMTP id qw3mr63709788ejb.285.1638208386338;
+        Mon, 29 Nov 2021 09:53:06 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3f11:0:0:0:0:0 with SMTP id b17csp5592202ecq;
+        Mon, 29 Nov 2021 09:53:03 -0800 (PST)
+X-Received: by 2002:a25:cfc2:: with SMTP id f185mr7572068ybg.746.1638208383167;
+        Mon, 29 Nov 2021 09:53:03 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1638208383; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=cRzM8MamjEJFsgRDha7iKNPnQWTT+Weuh6zfFiLuZ3J/1q2eG0Yv9dNR2XdLlROC8D
+         iLsRWnfV2GecB1jEzZtZ022Mgax8q/GWtrH8QtucblBchAiPS02ufLVhbucGIx6HXHpo
+         1oythQ1C9MKiwwJk3wPat6ISIA291ca1LnaThGWnYyiacb/3ozKZ2eER3jqbSyhz8By5
+         Yet3zj9Eh+wMsC1GPgVBRIqfSxuVAGE04X41KA7gW0EXSSVoyl9NPiinc5XHIJvpeIg5
+         PJlg5Yic1Qowr4x2mShaRDm+K2tstrriiqIEp962/HwInIyhVhLGhGJi9V2bqjG8elaJ
+         WGgg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=YNb6DbT4pRnHZqcW+Q/sDtqangaVYrL2LmV21fSMvhQ=;
+        b=toRuZSKgap2kqDA/Tkidhw83Qap2TK35LJxGrRg1utlV3hI33d+nIG9ikDVhrx6lXk
+         OosYgQE+5CG7oHvUwf3qQ1bvePq+uyvxlJXZGr6/DU06sJiBvz82+CLYdU/mEbpZwcB2
+         FlgJa0E2Iq8ICEefGLej6pH1mGOD+DGzjHCQm0F0yiaSEpYbe2tJarNO/BGDDLrzYjG5
+         neIF544BL7i95PUwoo4tkqn+w9+OoAhE6xOOhI3hJvk/HnL49OuR0F6Jvm1Cv3Ou9rSW
+         F56QU+48Yvn6dvjqjuJ75vHSyWx29JF01UG2hstEq51Hv9uJ1y3LanyK8k8027MCbXBA
+         uZFQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=4O2QPqyu;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20211129125157.25866447.270656@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20211129125157.25866447.270656@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211129125157.25866447.270656@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id w7sor14738089ybt.208.2021.11.29.09.53.02
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 29 Nov 2021 09:53:03 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20211129125157.25866447.270656@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJy544S3W2dp0K9m1xhsd5VPcBMCE8Q/lGhy1qBrRpN6M83qni0ZGWYedGRq8yKbLIQIIazcrNwY+dnnibJhyqQNKu0owGo=
+X-Received: by 2002:a1f:c193:: with SMTP id r141mr38506938vkf.27.1638208382748;
+        Mon, 29 Nov 2021 09:53:02 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1638208382; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Ht1NQ5QN2Fpv2ZwV9x14LW8j5AmzC6W9QHyNseSIva5pcJmHjHvT+4Qne7hYyWAMbN
+         EZddjGpMwpmcBB1qF8wdyljZsFnu/OzJp0r7RZFJxRnrDPDtEM1pXrgY+brFiK+jqzh3
+         sMqm2fEu5pgChTcRxJ6rFzvI4zJu9F6dYEjEIjHnN9ktny0X1EtCooMrXj7qv/X6LPOL
+         8hlj4ts+Fbp1B2OjeFcyG3ku59UALFQR3cmIvRrV1Ru6PjBAzG3lc9wnWQMYgwU2uqBL
+         s4oe+b/JmgX13G3Noh+EuBoJQY609V8s6ZjAoXkNBMuMLGzL3unxDBGMyHfbCH6L4Zv8
+         R2Kw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=YNb6DbT4pRnHZqcW+Q/sDtqangaVYrL2LmV21fSMvhQ=;
+        b=bSapkq9S5NncIRHlHWructyp9MrIlQ+B8rGBNT/SNSWaMHdJFfuI+toyjYbA1QueCM
+         3l9PdBlVCkVd9OHcXAeGSIOgNxzMblqjoRJoK9t6S8HWtiOnKJyT/QCKDWSqgRkpef/H
+         0hkm7x/HG2ZE0BYk5CdF35uTPNzKmCsZWfeBHNICjV8qXA8zRwteuP+8U3aCSHvIe1s5
+         azxoQ4D69thTEk2l52fupZoyZwsSsnKZc2aAhgoGZTZwpvSbn8q2+mSPrvf4CW4ewnYM
+         dTcMR3nUZGWcmZdC+iJQpqTWAPaDqni3nWjExJdVfIElYf1XbI60H/S+wZzrx/j/IKJR
+         89Gg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=4O2QPqyu;
+       spf=pass (google.com: domain of delivery_20211129125157.25866447.270656@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20211129125157.25866447.270656@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211129125157.25866447.270656@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id q25si776993vko.0.2021.11.29.09.52.58
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 29 Nov 2021 09:53:02 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20211129125157.25866447.270656@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=s2IXNiWXqaWOh6MgVtmXj4viWtCkEXT45sANwdUVOOU=;
+ b=4O2QPqyujNIbX7jhItvcco6VSGJGgdNAesQs0rQckMmK8x/YVuWfM7oxwOTBfH6rXhjQRlq1RWcq
+   GIWOXU1sxyOesju36Yv7imBKVQLA4rWUNVt+9IE51t443/D206wi8CbsqeQE9O0ftVwt4DsBSr+g
+   L1LGSjNhaZ9X00OEl2A=
+Received: from nj2mta-15.sailthru.com (204.153.121.15) by pmta29.sailthru.com id hkk9no2tem4k for <bloomberg@khamel.com>; Mon, 29 Nov 2021 12:52:53 -0500 (envelope-from <delivery_20211129125157.25866447.270656@mx.sailthru.com>)
+Date: Mon, 29 Nov 2021 12:51:57 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20211129125157.25866447.270656@sailthru.com>
+Subject: Money Stuff: Bill Ackman Has a SPARC
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_95462540_893185035.1638208317736"
+Precedence: bulk
+X-Feedback-ID: 6358:25866447:campaign:sailthru
+X-TM-ID: 20211129125157.25866447.270656
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-fadindigo.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfeeof.5su8/c63a8ed7
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfeeof.5su8/c63a8ed7>, <mailto:unsubscribe_20211129125157.25866447.270656@mx.sailthru.com>
+X-rpcampaign: stjko25866447
+
+------=_Part_95462540_893185035.1638208317736
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+        SPARCmanHow much would you pay for the right to buy one share of on=
+e big future initial public offering at the IPO price? What a strange que
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      SPARCman
+   =20
+ =20
+How much would you pay for the right to buy one share of one big future=C2=
+=A0initial public offering at the IPO price? What a strange question. You d=
+on=E2=80=99t know which IPO it will be, or when, or what the price is. Just=
+ some big company, sometime in the future. One useful piece of information =
+is that most IPOs go up; in particular, the average first-day IPO pop is ar=
+ound 18%. So if you buy a share at the IPO price and sell immediately, you=
+=E2=80=99ll probably make about 18%, though there is a lot of variance arou=
+nd that number.[1] But let=E2=80=99s just say=C2=A0you=E2=80=99ll make 18% =
+=E2=80=94=C2=A0but 18% of what? If the IPO price is $10, you=E2=80=99ll mak=
+e $1.80, and the right to buy one share is worth about $1.80 discounted for=
+ time (I also haven=E2=80=99t told you when this IPO will happen) and gener=
+al uncertainty. If the IPO price is $100, you=E2=80=99ll make $18, and the =
+right to buy one share is worth about $18.It is a strange problem in option=
+ valuation. But the value can=E2=80=99t be zero, can it? Most IPOs do go up=
+; mostly shares price in a range of, you know, $10 to $100 or whatever. Bei=
+ng able to buy a share at the IPO price is valuable. You=E2=80=99d pay some=
+thing for it.=C2=A0I suppose you put together your best guess at a probabil=
+ity distribution for when this IPO will happen, how big it will be, and how=
+ much it will pop on its first day, and you use that to estimate what the r=
+ight is worth.=C2=A0Here=E2=80=99s the first filing for Pershing Square SPA=
+RC Holdings Ltd., Bill Ackman=E2=80=99s next-generation SPAC. A SPAC is a s=
+pecial purpose acquisition company: It raises a pool of money from investor=
+s, puts the money in trust, looks for a private company to take public, mer=
+ges with the target company,=C2=A0gives it the cash and gives its investors=
+ shares in the newly public target company. A SPARC is a special purpose ac=
+quisition=C2=A0rights=C2=A0company: It's like a SPAC, but instead of sellin=
+g shares to investors for $10 each, it gives away =E2=80=9Cspecial purpose =
+acquisition rights=E2=80=9D (SPARs) to investors for $0 each, and then when=
+ it finds a target company it asks the investors to put up some money to me=
+rge with the target. Before it finds a target, the SPARC rights =E2=80=94=
+=C2=A0which the SPARC gave away for free =E2=80=94=C2=A0trade on the stock =
+exchange for whatever they=E2=80=99re worth, or I guess for whatever people=
+ think they=E2=80=99re worth. A somewhat mysterious number. Basically: How =
+big a deal do you think Ackman will do, how fast will he do it, and how goo=
+d a deal will it be?We have  talked about Ackman=E2=80=99s SPARC idea  befo=
+re and I just find it delightful? One fun thing about the SPARC is that, si=
+nce it doesn=E2=80=99t raise the money in advance, there=E2=80=99s no real =
+reason for it to be for a fixed amount of money. Ackman will go find a targ=
+et company, and he=E2=80=99ll figure out how much money the target company =
+wants to raise, and then he=E2=80=99ll go to the SPARC investors and ask th=
+em for the money:The SPARs will each be exercisable for one Public Share, a=
+t a minimum exercise price of $10.00 per share. In connection with a propos=
+ed business combination, we may decide to seek a greater amount of capital =
+from public investors, in which case we may increase, but not decrease, the=
+ exercise price of our SPARs. If we decide to increase the exercise price o=
+f our SPARs, we will publicly announce such increase at the time we announc=
+e that we have entered into a definitive agreement with respect to our busi=
+ness combination (the =E2=80=9CDefinitive Agreement=E2=80=9D). We refer to =
+the $10.00 SPAR exercise price as the =E2=80=9CMinimum Exercise Price=E2=80=
+=9D and to the publicly announced final exercise price as the =E2=80=9CFina=
+l Exercise Price.=E2=80=9D The total proceeds from the exercise of all SPAR=
+s at the Minimum Exercise Price will be $2,444,444,440. There is no maximum=
+ Final Exercise Price, and accordingly, no maximum amount of total proceeds=
+ we could raise from the exercise of all SPARs at the Final Exercise Price =
+(the =E2=80=9CFinal Exercise Proceeds=E2=80=9D). For example, if we decided=
+ to raise twice as much public capital, each SPAR would become exercisable =
+for one Public Share at a Final Exercise Price of $20.00, and the Final SPA=
+R Proceeds would be $4,888,888,880.Also,=C2=A0Pershing Square Capital Manag=
+ement=C2=A0hedge funds will buy anywhere from $500 million to $3.5 billion =
+of target-company stock alongside the SPARC, meaning that the SPARC deal wi=
+ll be for at least $2.9 billion but could be any arbitrary larger number.An=
+other fun thing about the SPARC is that, since it doesn=E2=80=99t raise the=
+ money in advance, it=C2=A0just gives away its rights for free. In the case=
+ of Pershing Square=E2=80=99s SPARC, it plans to give away the rights to sh=
+areholders of Pershing Square=E2=80=99s  somewhat abortive=C2=A0SPAC, Persh=
+ing Square Tontine Holdings. Then the SPARC would do a deal, raise money fr=
+om SPARC rights holders, give them shares of the target company, and=C2=A0a=
+lso=C2=A0give them shares of a=C2=A0new=C2=A0SPARC that would go looking fo=
+r another deal, a sort of chain-SPARC business where each SPARC would, uh, =
+spark the next SPARC.[2] This adds to the fun of valuation. Let=E2=80=99s s=
+ay you think each SPARC right is worth $3: You think that Ackman will annou=
+nce a deal at about $10 to $20 a share and it will trade up by 15% to 30%; =
+you average that out to $3 per share. But then when he announces the deal y=
+ou get another SPARC right, which is also (let=E2=80=99s say) worth $3 per =
+share. So was your original SPARC right worth $6? But this continues indefi=
+nitely =E2=80=94=C2=A0the second SPARC deal comes with a third SPARC right,=
+=C2=A0etc. =E2=80=94=C2=A0so in theory you=E2=80=99re getting an indefinite=
+ string of IPO pops, not just one. How much is that worth?Also=C2=A0I suppo=
+se anyone could copy this structure and give the rights to whoever they wan=
+t? It helps to have name recognition and an existing SPAC, as Ackman does, =
+but if this structure catches on you could imagine other people just air-dr=
+opping=C2=A0SPARCs onto some list of investors and hoping that they trade.T=
+he pitch to the target company is also very fun. I once  wrote about it:Bil=
+l Ackman can go around to private companies looking to go public and say =
+=E2=80=A6 what? =E2=80=9CHey, I=E2=80=99ve got some friends, and they are f=
+ollowing with interest my efforts to find a company to merge with. If I fin=
+d a good one, maybe they=E2=80=99ll give me money, though they haven=E2=80=
+=99t given me any money yet and they=E2=80=99re under no obligation to do s=
+o. Would you like to be that company, and maybe my friends will give you th=
+eir money? We can find out together!=E2=80=9DIf you are a company looking t=
+o go public, is that pitch appealing? Kind of, right? You will be comparing=
+ it to the pitch you are receiving from investment bankers to do a traditio=
+nal initial public offering.[3] The investment bankers will want to charge =
+you an underwriting fee of, say, 1% to 5% of the money you raise; the SPARC=
+ has no underwriting fee. (It does require you to give=C2=A0Pershing Square=
+=C2=A0warrants to buy about 5% of your company, at a 20% premium to the IPO=
+ price, which is pretty significant, but you=E2=80=99re selling stock at th=
+e IPO price anyway so perhaps you do not ascribe much value to this.)The in=
+vestment bankers will put together a roadshow with a plan to pitch big inve=
+stors on the merits of your company. Ackman will also do some of that; pres=
+umably when you announce the deal he=E2=80=99ll do an investor presentation=
+ on the merits. But whereas the bankers will be starting from scratch =E2=
+=80=94=C2=A0calling up big investors to say =E2=80=9CI have a cool company =
+to tell you about=E2=80=9D =E2=80=94=C2=A0Ackman will already have done a l=
+ot of the work of fundraising. The SPARC rights will already trade publicly=
+; they will already be held by an audience of Ackman fans hoping to get in =
+on his next deal. And their price will react to the deal and give you a qui=
+ck indication of whether it works: If you announce a deal with the SPARC an=
+d the rights trade up to $3, that means that people will probably exercise =
+their rights and that you=E2=80=99ll get your money; if you announce the de=
+al and the rights trade down to $0.01, that means they won=E2=80=99t and yo=
+u should rethink the deal. Getting instant feedback on whether your IPO wil=
+l work is sort of cool.=C2=A0A few other technical things. First, when the =
+SPARC announces a deal, the deal will in an important=C2=A0legal sense be a=
+n initial public offering. (The SPARC will be=C2=A0asking investors for mon=
+ey, rather than, like a SPAC, offering to give them their money back.)=C2=
+=A0This is=C2=A0different=C2=A0from a SPAC. With a SPAC, the SPAC does an I=
+PO for cash and then trades publicly; when it announces a deal, that=C2=A0i=
+s just a merger of a private company (the target) with a public company (th=
+e SPAC). This means that the disclosure rules for SPAC mergers are differen=
+t from those for IPOs, and in particular,  it is generally assumed that SPA=
+Cs can market themselves based on projections of future revenue rather than=
+ sticking to historical financial data. With a SPARC merger, the disclosure=
+ rules are the same as for any other IPO; the SPARC deal probably can=E2=80=
+=99t be marketed based on overly optimistic projections.Second, for this to=
+ work, the New York Stock Exchange needs to change its listing rules to all=
+ow the listing of SPARC warrants. NYSE wants to do this =E2=80=94=C2=A0here=
+ is its proposed rule change=C2=A0=E2=80=94=C2=A0but it is not totally clea=
+r that the Securities and Exchange Commission will allow it.[4] My basic mo=
+del of the SEC and SPACs right now is that the SEC really doesn=E2=80=99t l=
+ike SPACs. I don=E2=80=99t know which way this cuts. On the one hand, the S=
+PARC is SPAC-ish, and if the SEC hates everything SPAC-related it will not =
+be interested in approving new SPAC-ish things. Also the valuation of SPARC=
+ rights does seem like a difficult puzzle, and a weird one for retail inves=
+tors to figure out. On the other hand, the SPARC solves some of the problem=
+s the SEC has with SPACs ( bad economics of SPAC warrants, use of goofy pro=
+jections, etc.), so shifting from SPACs to SPARCs seems like an improvement=
+. Also I like to think that the SEC shares at least some of my sense of fun=
+, and this is definitely fun.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      ESG
+   =20
+ =20
+Here is a simple story about environmental, social and governance investing=
+. The point of ESG investing is to raise the cost of capital of things that=
+ are bad for the environment or society. ESG investors will shun companies =
+that do bad things and prefer companies that do good things, raising the co=
+st of capital of the bad companies and lowering the cost of capital of the =
+good companies. The companies will be economically motivated to get a lower=
+ cost of capital, so they will stop doing bad things and do more good thing=
+s.This will operate in crude large-scale ways: Investors will shun bad coal=
+ companies and prefer wind-energy companies, so some coal companies will sh=
+ut down and wind companies will launch. But it will also operate in small-s=
+cale ways within industries. Investors will reward, like, consulting firms =
+that do sales calls over Zoom instead of flying on carbon-intensive planes =
+to meet with clients. Or if they have to fly to meet with clients, they=E2=
+=80=99ll be rewarded for renting electric vehicles instead of gas-powered S=
+UVs when they get there.This story sounds too neat, doesn=E2=80=99t it? The=
+ idea that ESG investing raises the cost of capital of bad ESG things  is i=
+tself controversial, but even if you buy it, it seems pretty bold to apply =
+it to=C2=A0every=C2=A0decision that a company makes, even decisions as smal=
+l-scale as what cars to rent on business trips. Car rental is not, for most=
+ companies, a big line item in the income statement. The idea that you=E2=
+=80=99d be able to meaningfully lower your cost of capital this way seems a=
+lmost like a fantasy of market efficiency: The market places a price on car=
+bon emissions by public companies, and companies automatically respond to t=
+hat price signal by lowering emissions=C2=A0in every aspect of their busine=
+ss.Here=E2=80=99s a Wall Street Journal story titled =E2=80=9CHertz-Tesla D=
+eal Signals Broad Shift to EVs for Rental-Car Companies=E2=80=9D that sugge=
+sts this story is just true?The shift to electrics can benefit rental-car c=
+ompanies in other important ways. It helps them shrink their own carbon foo=
+tprints by integrating more zero-emissions vehicles into their overall rent=
+al fleets. That, in turn, can help improve their environmental, social and =
+governance, or ESG, standing with investors, executives and analysts say.=
+=E2=80=9CESG-associated names like Tesla usually get a much higher multiple=
+,=E2=80=9D said Hamzah Mazari, an analyst with Jefferies Group who covers t=
+he rental-car industry.Corporate clients also see an advantage because the =
+more clean vehicles they rent, the more they can count the emissions-reduct=
+ion efforts toward their own ESG ratings, analysts say.I think that=E2=80=
+=99s the most optimistic thing I have ever read about ESG investing? It=E2=
+=80=99s not about a company and a bank putting out an excited press release=
+ about=C2=A0a loan agreement with a one-basis-point reward for meeting some=
+ vague checklist of ESG goals; it=E2=80=99s about actual everyday business =
+decisions being driven by ESG ratings.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Volcano bonds
+   =20
+ =20
+I don=E2=80=99t give investing advice around here, but the other day I did =
+ have some nice things to say about the El Salvador 8.25% bond due in 2032.=
+ Relatively nice things, anyway. Last week El Salvador announced that it wa=
+s issuing a $1 billion =E2=80=9Cvolcano bond,=E2=80=9D a 6.5% bond due in 2=
+032 that will be issued on a blockchain, will be pitched to crypto fans, an=
+d will come with a call option on $250 million of Bitcoin. I said, well, in=
+stead of buying that, you can buy the 8.25% bond for about 75 cents on the =
+dollar and put the other 25 cents into buying Bitcoin. That way you get a h=
+igher yield (8.25% is more than 6.5%) and more Bitcoin exposure ($25 worth =
+of Bitcoin is a bit more Bitcoin than an at-the-money call option on $25 of=
+ Bitcoin).=C2=A0How is that working out? I really must emphasize that nothi=
+ng here is ever investing advice; here=E2=80=99s  a Bloomberg article from =
+Friday:Dollar bonds from El Salvador are among the worst-performing in emer=
+ging markets so far this month, lagging only defaulted Lebanese debt, accor=
+ding to data compiled from a Bloomberg index.=C2=A0The selloff in the bonds=
+ came as investors weighed the possibility of higher indebtedness in the Ce=
+ntral American nation, as well as rising concern it will not reach a deal w=
+ith the International Monetary Fund.=C2=A0=E2=80=9CBitcoin Bond Plan Sends =
+El Salvador=E2=80=99s Dollar Debt Diving,=E2=80=9D says  this Bloomberg hea=
+dline from early last week. And those 8.25% bonds now seem to trade at abou=
+t 68 cents on the dollar, down about 10% from when we last discussed them. =
+Oh well.In some vague financial theory, if El Salvador succeeds in issuing =
+these volcano bonds, somebody should (1) buy the 8.25% bonds and some Bitco=
+in along the lines I proposed, (2) short the volcano bonds and (3) collect =
+a risk-free profit. Arguably this should be=C2=A0good=C2=A0for the price of=
+ El Salvador=E2=80=99s existing debt.But in practice it seems very hard to =
+actually do the arbitrage here.=C2=A0The only people realistically buying E=
+l Salvador=E2=80=99s 8.25% bonds are, like, grizzled emerging-markets veter=
+ans. Those bonds do not trade in particularly convenient ways; the average =
+retail speculator is not going to go buy them. Those grizzled veterans migh=
+t or might not be able to buy Bitcoin to complete the long side of the arbi=
+trage; if you run an emerging-market fund it is not obvious that your manda=
+te would allow buying Bitcoin. Meanwhile I do not know a lot about the bloc=
+kchain apparatus that will be used to issue the volcano bonds, but I am goi=
+ng to guess that (1) neither do those emerging-markets veterans and (2) it =
+probably will not make it=C2=A0easy=C2=A0to short the volcano bonds.=C2=A0S=
+o doing the arbitrage involves trading three markets =E2=80=94=C2=A0EM bond=
+s, Bitcoin, and short selling on the volcano bond=E2=80=99s blockchain plat=
+form =E2=80=94=C2=A0that do not have a lot of overlap.=C2=A0Meanwhile the p=
+eople buying El Salvador=E2=80=99s 6.5% Bitcoin bonds will be, like, crypto=
+ fans who enjoy going to crypto parties with El Salvador=E2=80=99s crypto-b=
+ro president.=C2=A0They=C2=A0are not going to go figure out how to buy the =
+8.25% bond to get better economics than the volcano bond; that requires usi=
+ng antiquated traditional-finance infrastructure and won=E2=80=99t get them=
+ invited to the parties. I suspect that El Salvador=E2=80=99s efforts at ma=
+rket segmentation will just work; there is no reason for the price of its v=
+olcano bonds to track the price of its regular bonds, and they probably won=
+=E2=80=99t.=C2=A0
+ =20
+   =20
+      Everything is securities fraud
+   =20
+ =20
+Is it securities fraud to refuse to sell ice cream in the occupied Palestin=
+ian territories? Folks, everything is securities fraud:A Bronx congressman =
+is asking the Securities and Exchange Commission to demand the parent compa=
+ny of Ben & Jerrys to amend their regulatory filings to reflect potential n=
+ew risks caused by the woke ice cream maker=E2=80=99s decision to no longer=
+ peddle its products in parts of Israel.Participating in the Boycott Divest=
+ment and Sanctions movement against Israel can result in potentially stiff =
+financial consequences in more than 30 states =E2=80=94 including New York,=
+ which has moved to divest more than $100 million in pension funds from Uni=
+lever.=E2=80=9CUnilever is a widely held company with a current market capi=
+talization of $135 billion, which places in jeopardy the manifold United St=
+ates institutions, pension funds, and endowments which hold its shares on b=
+ehalf of its beneficiaries,=E2=80=9D reads the letter sent to SEC Chairman =
+Gary Gensler on Friday.=E2=80=9CWe believe that these actions require the S=
+EC to request that the regulatory filings of Unilever be amended to disclos=
+e the material risk factors.=E2=80=9DOf all the ways that the world=E2=80=
+=99s leading superpower can conduct foreign policy, =E2=80=9Casking a Briti=
+sh consumer company to update its U.S. securities filings to=C2=A0add risk =
+factors about=C2=A0its=C2=A0premium-ice-cream subsidiary=E2=80=9D is =E2=80=
+=A6=C2=A0a weird one? Just, like, there you are in Congress, you have some =
+foreign policy issue that you want to do something about, and the most natu=
+ral thing to do about it is to send a letter to the SEC. Because U.S. forei=
+gn policy, like so much of U.S. policy, is a subset of securities law.
+ =20
+   =20
+      NFT Stuff (1)
+   =20
+ =20
+Here is a=C2=A0story about Lucian Freud, the major modern painter, who appa=
+rently denied that he painted some of his paintings because he was mad at t=
+heir owners:Almost 25 years ago, a Swiss art collector bought a Lucian Freu=
+d painting =E2=80=93 a full-length male nude =E2=80=93 at auction. He then =
+received a call from the British artist, asking to buy it from him. The two=
+ men did not know each other, and the collector politely refused, as he lik=
+ed the picture.Three days later, he claims he received another call from a =
+now furious Freud who told him that, unless he sold it to him, he would den=
+y having painted it.The collector, who wishes to remain anonymous, told the=
+ Observer: =E2=80=9CHe said: =E2=80=98I=E2=80=99ll give you more than you p=
+aid, I=E2=80=99ll double it.=E2=80=99 I declined, and he became very aggres=
+sive, with bad words. He said: =E2=80=98In that case, you will never sell i=
+t.=E2=80=99=E2=80=9D To his dismay, the Freud estate subsequently refused t=
+o authenticate Standing Male Nude =E2=80=93 and that could have been the en=
+d of a sad tale for the collector. =E2=80=A6In 2016, an early Freud picture=
+ was attributed to the artist, despite his own denials that he painted it. =
+Philip Mould=E2=80=99s BBC show Fake or Fortune? uncovered evidence that in=
+cluded notes from the artist=E2=80=99s former solicitor. The artist had app=
+arently refused to acknowledge the work because it was originally owned by =
+Denis Wirth-Miller, an artist with whom Freud had a long-running feud.So, o=
+ne, on a personal level, that=E2=80=99s great: The man devoted his life to =
+art, but he never let his commitment to that art get in the way of his pett=
+y personal feuds. Truly something to aspire to.Two, in each case these pain=
+tings were authenticated over Freud=E2=80=99s objection through some combin=
+ation of extrinsic documentary evidence, pigment analysis and connoisseursh=
+ip. (Also, like, artificial-intelligence connoisseurship? =E2=80=9COur AI h=
+as classified parts of the painting as being by the hand of Freud with a hi=
+gh score =E2=80=93 a positive result up to 95%,=E2=80=9D says someone.) Tha=
+t=E2=80=99s cool for the owners. Would you rather own a genuine Freud that =
+he acknowledged, or one that he denied? I feel like the ones he denied are =
+rarer and more interesting? They=E2=80=99ve got more of a story to them, th=
+ey=E2=80=99re more fun, I bet they=E2=80=99re more valuable. If you owned a=
+ genuine Freud and were friends with him, would it have been a good idea to=
+ ask him to deny the painting (and give you a note saying =E2=80=9CI=E2=80=
+=99m going to deny that I painted this out of pique=E2=80=9D) to make it mo=
+re valuable?Three, blah blah blah put the paintings on the blockchain as no=
+n-fungible tokens blah blah blah then this would never happen blah blah bla=
+h. Actually I feel like you could have some fun with that? You=E2=80=99ve g=
+ot three sort-of-incommensurable things: the (living, human) painter (not F=
+reud =E2=80=94=C2=A0he died before NFTs were invented =E2=80=94=C2=A0but so=
+meone else could do this), the (physical) painting, and some digital object=
+ on some blockchain signed with some public key. =E2=80=9CThis digital obje=
+ct was verifiably issued by this crypto wallet,=E2=80=9D you can say pretty=
+ definitively, but the painter can sit around saying =E2=80=9Cah yes but th=
+at=E2=80=99s not the painting that corresponds to the digital object=E2=80=
+=9D or =E2=80=9Cah yes but that crypto wallet is not mine=E2=80=9D or, why =
+not, both. I feel like there are rich veins of NFT prank that haven=E2=80=
+=99t really been mined yet.
+ =20
+   =20
+      NFT Stuff (2)
+   =20
+ =20
+AMC Entertainment Holdings Inc. is doing something involving=C2=A0Spider-Ma=
+n-related=C2=A0non-fungible tokens. That is all that I want to know about t=
+his subject, honestly. I bet AMC Chief Executive Officer Adam Aron feels th=
+e same way, but here he is tweeting about it, because he is committed to th=
+e bit.=C2=A0
+ =20
+   =20
+      Things happen
+   =20
+ =20
+When a Hacker Calls: How Robinhood Fell Victim to a  Vishing Raid. China Ca=
+sh Flowed Through  Congo Bank to Former President=E2=80=99s Cronies. Wall S=
+treet Grudgingly Allows Remote Work as Bankers Dig In. U.K. Looks to Compet=
+e on Financial Regulation. Oil=E2=80=99s  Black Friday: Algos and Options T=
+urn a Tumble Into a Crash. Binance  Reopens Dogecoin Withdrawals After Musk=
+ Spat With CEO. Jack Dorsey Steps Down as  Twitter CEO, Replaced by CTO Par=
+ag Agrawal. The Evergrande Blueprint Worked for Other Chinese Developers, U=
+ntil It Didn=E2=80=99t. The Great  Huckleberry Supply Crunch. Macau Casino =
+Stocks Sink After Police Arrest City=E2=80=99s  Junket King. Matthew  McCon=
+aughey Says He Won=E2=80=99t Run for Texas Governor in 2022. Nordea Retract=
+s  Vaccine Conspiracy-Fueled Research Note. Congrats Claire!If you'd like t=
+o get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, =
+please=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and=
+ other great Bloomberg newsletters here. Thanks![1] The longer-term perform=
+ance of IPOs is less great, but if you can buy at the IPO price you can fli=
+p on the first day and capture that pop.=C2=A0[2] From the prospectus: =E2=
+=80=9CWe intend to form and register Pershing Square SPARC Holdings II, Ltd=
+., a SPARC that will pursue a subsequent business combination after the com=
+pletion of SPARC=E2=80=99s business combination. We expect to distribute 24=
+4,444,444 SPARC II Tontine SPARs (=E2=80=98SPAR2s=E2=80=99) only to those S=
+PAR holders who exercise to receive stock in SPARC=E2=80=99s initial busine=
+ss combination. The distribution of SPAR2s will provide additional value to=
+ exercising SPAR holders, and to the extent that this increases the trading=
+ price of SPARs prior to closing, it will increase the likelihood that all =
+or substantially all SPARs are exercised. By providing free SPAR2s to exerc=
+ising holders, we provide more value to exercising SPAR holders, increasing=
+ the probability of SPARs being exercised, and thereby increasing transacti=
+on certainty for our business combination partner. We intend to use this sa=
+me approach for Pershing Square SPARC Holdings III, Ltd. and thereafter.=E2=
+=80=9D[3] And to SPAC pitches, but the old theory that SPACs offered certai=
+nty of proceeds is no longer particularly true.=C2=A0[4]=C2=A0The SPARC fil=
+ing says:=C2=A0=E2=80=9CNo later than December 9, 2021, we expect that the =
+SEC will either approve the rule, disapprove the rule, or institute proceed=
+ings to determine whether the rule change should be disapproved. =E2=80=A6 =
+The NYSE=E2=80=99s rule proposal submission and public comments can be view=
+ed on the SEC=E2=80=99s website at https://link.mail.bloombergbusiness.com/=
+click/25866447.270656/aHR0cHM6Ly93d3cuc2VjLmdvdi9jb21tZW50cy9zci1ueXNlLTIwM=
+jEtNDUvc3JueXNlMjAyMTQ1Lmh0bS4/607f07ceef4b8524a319a23cB3c8796bf Of the app=
+roximately 168 public comments published on the SEC=E2=80=99s website, an o=
+verwhelming majority express support for the proposed rule. =E2=80=A6 Howev=
+er, there is no guarantee that this or a similar listing rule will be appro=
+ved, or that our company will comply with and be approved for listing on th=
+e NYSE pursuant to any such rule. If our SPARs cannot be listed on the NYSE=
+, they would trade on the =E2=80=98over-the-counter=E2=80=99=C2=A0market, w=
+hich may present significant risks to the holders of SPARs, including lower=
+ availability and efficiency of market price quotations, significantly less=
+ liquidity, increased trading costs, the absence of certain corporate gover=
+nance protections, and the applicability of state securities laws that coul=
+d result in restrictions on the sale of our SPARs.=E2=80=9D
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfeeof.5su8/3bd2d1c1.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_95462540_893185035.1638208317736
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+SPARCmanHow much would you pay for the right to buy one share of one big fu=
+ture initial public offering at the IPO price? What a strange que
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTg2NjQ0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxMzcxMDMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cB870d09b9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25866447&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26137103&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; display:b=
+lock" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTI5MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMjkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBb66eb526"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTg2NjQ0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxMzcxMDMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cCf9d83d7f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25866447&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26137103&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"108" style=3D"width: 108px !important; display:block" =
+/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SPARCman</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">How much would you pay for the right t=
+o buy one share of one big future=C2=A0initial public offering at the IPO p=
+rice? What a strange question. You don=E2=80=99t know which IPO it will be,=
+ or when, or what the price is. Just some big company, sometime in the futu=
+re. One useful piece of information is that most IPOs go up; in particular,=
+ the <a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.2706=
+56/aHR0cHM6Ly93d3cubmFzZGFxLmNvbS9hcnRpY2xlcy90cmVuZHMtaW4taXBvLXBvcHMtMjAy=
+MS0wMy0wNA/607f07ceef4b8524a319a23cBb1d3f176" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">average first-day IPO=
+ pop</a> is around 18%. So if you buy a share at the IPO price and sell imm=
+ediately, you=E2=80=99ll probably make about 18%, though there is a lot of =
+variance around that number.[1] But let=E2=80=99s just say=C2=A0you=E2=80=
+=99ll make 18% =E2=80=94=C2=A0but 18% of what? If the IPO price is $10, you=
+=E2=80=99ll make $1.80, and the right to buy one share is worth about $1.80=
+ discounted for time (I also haven=E2=80=99t told you when this IPO will ha=
+ppen) and general uncertainty. If the IPO price is $100, you=E2=80=99ll mak=
+e $18, and the right to buy one share is worth about $18.</p><p style=3D"ma=
+rgin: 16px 0;">It is a strange problem in option valuation. But the value c=
+an=E2=80=99t be zero, can it? Most IPOs do go up; mostly shares price in a =
+range of, you know, $10 to $100 or whatever. Being able to buy a share at t=
+he IPO price is valuable. You=E2=80=99d pay something for it.=C2=A0I suppos=
+e you put together your best guess at a probability distribution for when t=
+his IPO will happen, how big it will be, and how much it will pop on its fi=
+rst day, and you use that to estimate what the right is worth.=C2=A0</p><p =
+style=3D"margin: 16px 0;">Here=E2=80=99s the first <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/25866447.270656/aHR0cHM6Ly93d3cuc2VjLmdvdi=
+9BcmNoaXZlcy9lZGdhci9kYXRhLzE4OTU1ODIvMDAwMTE5MzEyNTIxMzQwNjAyL2QxNzU5MjBkc=
+zEuaHRt/607f07ceef4b8524a319a23cB0e1e89f7" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">filing for Pershing Squa=
+re SPARC Holdings Ltd.</a>, Bill Ackman=E2=80=99s next-generation SPAC. A S=
+PAC is a special purpose acquisition company: It raises a pool of money fro=
+m investors, puts the money in trust, looks for a private company to take p=
+ublic, merges with the target company,=C2=A0gives it the cash and gives its=
+ investors shares in the newly public target company. A SPARC is a special =
+purpose acquisition=C2=A0<em>rights=C2=A0</em>company: It's like a SPAC, bu=
+t instead of selling shares to investors for $10 each, it gives away =E2=80=
+=9Cspecial purpose acquisition rights=E2=80=9D (SPARs) to investors for $0 =
+each, and then when it finds a target company it asks the investors to put =
+up some money to merge with the target. Before it finds a target, the SPARC=
+ rights =E2=80=94=C2=A0which the SPARC gave away for free =E2=80=94=C2=A0tr=
+ade on the stock exchange for whatever they=E2=80=99re worth, or I guess fo=
+r whatever people think they=E2=80=99re worth. A somewhat mysterious number=
+. Basically: How big a deal do you think Ackman will do, how fast will he d=
+o it, and how good a deal will it be?</p><p style=3D"margin: 16px 0;">We ha=
+ve <a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDQvYm=
+lsbC1hY2ttYW4tcy1zcGFjLXdpbGwtYmUtdGhyZWUtc3BhY3M_Y21waWQ9QkJEMTEyOTIxX01PT=
+kVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09=
+MjExMTI5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB96659e60"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> talked</a> about Ackman=E2=80=99s SPARC idea <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/25866447.270656/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDcvc3BhY3MtY2FuLXNob290LW91d=
+C1zcGFyY3M_Y21waWQ9QkJEMTEyOTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTI5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cB6ca892fa" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> before</a> and I just find it=
+ delightful? One fun thing about the SPARC is that, since it doesn=E2=80=99=
+t raise the money in advance, there=E2=80=99s no real reason for it to be f=
+or a fixed amount of money. Ackman will go find a target company, and he=E2=
+=80=99ll figure out how much money the target company wants to raise, and t=
+hen he=E2=80=99ll go to the SPARC investors and ask them for the money:</p>=
+<blockquote><p style=3D"margin: 16px 0;">The SPARs will each be exercisable=
+ for one Public Share, at a minimum exercise price of $10.00 per share. In =
+connection with a proposed business combination, we may decide to seek a gr=
+eater amount of capital from public investors, in which case we may increas=
+e, but not decrease, the exercise price of our SPARs. If we decide to incre=
+ase the exercise price of our SPARs, we will publicly announce such increas=
+e at the time we announce that we have entered into a definitive agreement =
+with respect to our business combination (the =E2=80=9CDefinitive Agreement=
+=E2=80=9D). We refer to the $10.00 SPAR exercise price as the =E2=80=9CMini=
+mum Exercise Price=E2=80=9D and to the publicly announced final exercise pr=
+ice as the =E2=80=9CFinal Exercise Price.=E2=80=9D The total proceeds from =
+the exercise of all SPARs at the Minimum Exercise Price will be $2,444,444,=
+440. There is no maximum Final Exercise Price, and accordingly, no maximum =
+amount of total proceeds we could raise from the exercise of all SPARs at t=
+he Final Exercise Price (the =E2=80=9CFinal Exercise Proceeds=E2=80=9D). Fo=
+r example, if we decided to raise twice as much public capital, each SPAR w=
+ould become exercisable for one Public Share at a Final Exercise Price of $=
+20.00, and the Final SPAR Proceeds would be $4,888,888,880.</p></blockquote=
+><p style=3D"margin: 16px 0;">Also,=C2=A0Pershing Square Capital Management=
+=C2=A0hedge funds will buy anywhere from $500 million to $3.5 billion of ta=
+rget-company stock alongside the SPARC, meaning that the SPARC deal will be=
+ for at least $2.9 billion but could be any arbitrary larger number.</p><p =
+style=3D"margin: 16px 0;">Another fun thing about the SPARC is that, since =
+it doesn=E2=80=99t raise the money in advance, it=C2=A0just gives away its =
+rights for free. In the case of Pershing Square=E2=80=99s SPARC, it plans t=
+o give away the rights to shareholders of Pershing Square=E2=80=99s <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMjAvYmlsbC1hY2tt=
+YW4tcy10aHJlZS1zcGFjcy13ZXJlLXRvby1tYW55P2NtcGlkPUJCRDExMjkyMV9NT05FWVNUVUZ=
+GJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTEyOS=
+Z1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8717cea7" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> somewhat abortive=C2=A0<em>SPAC</em></a>, Pershing Square Tontine Holding=
+s. Then the SPARC would do a deal, raise money from SPARC rights holders, g=
+ive them shares of the target company, and=C2=A0<em>also=C2=A0</em>give the=
+m shares of a=C2=A0<em>new=C2=A0</em>SPARC that would go looking for anothe=
+r deal, a sort of chain-SPARC business where each SPARC would, uh, spark th=
+e next SPARC.[2] This adds to the fun of valuation. Let=E2=80=99s say you t=
+hink each SPARC right is worth $3: You think that Ackman will announce a de=
+al at about $10 to $20 a share and it will trade up by 15% to 30%; you aver=
+age that out to $3 per share. But then when he announces the deal you get a=
+nother SPARC right, which is also (let=E2=80=99s say) worth $3 per share. S=
+o was your original SPARC right worth $6? But this continues indefinitely =
+=E2=80=94=C2=A0the second SPARC deal comes with a third SPARC right,=C2=A0e=
+tc. =E2=80=94=C2=A0so in theory you=E2=80=99re getting an indefinite string=
+ of IPO pops, not just one. How much is that worth?</p><p style=3D"margin: =
+16px 0;">Also=C2=A0I suppose anyone could copy this structure and give the =
+rights to whoever they want? It helps to have name recognition and an exist=
+ing SPAC, as Ackman does, but if this structure catches on you could imagin=
+e other people just air-dropping=C2=A0SPARCs onto some list of investors an=
+d hoping that they trade.</p><p style=3D"margin: 16px 0;">The pitch to the =
+target company is also very fun. I once <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/25866447.270656/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMDYtMDQvYmlsbC1hY2ttYW4tcy1zcGFjLXdpbGwtYmUtdGhy=
+ZWUtc3BhY3M_Y21waWQ9QkJEMTEyOTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTI5JnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cC96659e60" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> wrote about it</a>:</p><bloc=
+kquote><p style=3D"margin: 16px 0;">Bill Ackman can go around to private co=
+mpanies looking to go public and say =E2=80=A6 what? =E2=80=9CHey, I=E2=80=
+=99ve got some friends, and they are following with interest my efforts to =
+find a company to merge with. If I find a good one, maybe they=E2=80=99ll g=
+ive me money, though they haven=E2=80=99t given me any money yet and they=
+=E2=80=99re under no obligation to do so. Would you like to be that company=
+, and maybe my friends will give you their money? We can find out together!=
+=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">If you are a company=
+ looking to go public, is that pitch appealing? Kind of, right? You will be=
+ comparing it to the pitch you are receiving from investment bankers to do =
+a traditional initial public offering.[3] The investment bankers will want =
+to charge you an underwriting fee of, say, 1% to 5% of the money you raise;=
+ the SPARC has no underwriting fee. (It does require you to give=C2=A0Persh=
+ing Square=C2=A0warrants to buy about 5% of your company, at a 20% premium =
+to the IPO price, which is pretty significant, but you=E2=80=99re selling s=
+tock at the IPO price anyway so perhaps you do not ascribe much value to th=
+is.)</p><p style=3D"margin: 16px 0;">The investment bankers will put togeth=
+er a roadshow with a plan to pitch big investors on the merits of your comp=
+any. Ackman will also do some of that; presumably when you announce the dea=
+l he=E2=80=99ll do an investor presentation on the merits. But whereas the =
+bankers will be starting from scratch =E2=80=94=C2=A0calling up big investo=
+rs to say =E2=80=9CI have a cool company to tell you about=E2=80=9D =E2=80=
+=94=C2=A0Ackman will already have done a lot of the work of fundraising. Th=
+e SPARC rights will already trade publicly; they will already be held by an=
+ audience of Ackman fans hoping to get in on his next deal. And their price=
+ will react to the deal and give you a quick indication of whether it works=
+: If you announce a deal with the SPARC and the rights trade up to $3, that=
+ means that people will probably exercise their rights and that you=E2=80=
+=99ll get your money; if you announce the deal and the rights trade down to=
+ $0.01, that means they won=E2=80=99t and you should rethink the deal. Gett=
+ing instant feedback on whether your IPO will work is sort of cool.=C2=A0</=
+p><p style=3D"margin: 16px 0;">A few other technical things. First, when th=
+e SPARC announces a deal, the deal will in an important=C2=A0legal sense be=
+ an initial public offering. (The SPARC will be=C2=A0asking investors for m=
+oney, rather than, like a SPAC, offering to give them their money back.)=C2=
+=A0This is=C2=A0<em>different=C2=A0</em>from a SPAC. With a SPAC, the SPAC =
+does an IPO for cash and then trades publicly; when it announces a deal, th=
+at=C2=A0is just a merger of a private company (the target) with a public co=
+mpany (the SPAC). This means that the disclosure rules for SPAC mergers are=
+ different from those for IPOs, and in particular, <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/25866447.270656/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMTIvbWF5YmUtc3BhY3MtYXJlLXJlYWxse=
+S1pcG9zP2NtcGlkPUJCRDExMjkyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nv=
+dXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTEyOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/=
+607f07ceef4b8524a319a23cB3c309ce3" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> it is generally assumed</a> tha=
+t SPACs can market themselves based on projections of future revenue rather=
+ than sticking to historical financial data. With a SPARC merger, the discl=
+osure rules are the same as for any other IPO; the SPARC deal probably can=
+=E2=80=99t be marketed based on overly optimistic projections.</p><p style=
+=3D"margin: 16px 0;">Second, for this to work, the New York Stock Exchange =
+needs to change its listing rules to allow the listing of SPARC warrants. N=
+YSE wants to do this =E2=80=94=C2=A0here is its <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/25866447.270656/aHR0cHM6Ly93d3cubnlzZS5jb20vc=
+HVibGljZG9jcy9ueXNlL21hcmtldHMvbnlzZS9ydWxlLWZpbGluZ3MvZmlsaW5ncy8yMDIxL1NS=
+LU5ZU0UtMjAyMS00NSUyMFBERi5wZGY/607f07ceef4b8524a319a23cBa6d9b927" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+proposed rule change</a>=C2=A0=E2=80=94=C2=A0but it is not totally clear th=
+at the Securities and Exchange Commission will allow it.[4] My basic model =
+of the SEC and SPACs right now is that the SEC really doesn=E2=80=99t like =
+SPACs. I don=E2=80=99t know which way this cuts. On the one hand, the SPARC=
+ is SPAC-ish, and if the SEC hates everything SPAC-related it will not be i=
+nterested in approving new SPAC-ish things. Also the valuation of SPARC rig=
+hts does seem like a difficult puzzle, and a weird one for retail investors=
+ to figure out. On the other hand, the SPARC solves some of the problems th=
+e SEC has with SPACs (<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/25866447.270656/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjEtMDEtMDgvc3BhYy1tYWdpYy1pc24tdC1mcmVlP2NtcGlkPUJCRDExMjkyMV9NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxM=
+TEyOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB4828bbf3" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> bad economics of SPAC warrants</a>, use of goofy projections, etc.),=
+ so shifting from SPACs to SPARCs seems like an improvement. Also I like to=
+ think that the SEC shares at least some of my sense of fun, and this is de=
+finitely fun.</p><table class=3D"liveintent-sponsored-content" width=3D"aut=
+o" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTg2NjQ0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxMzcxMDMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cDca771f92" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25866447&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26137103&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTg2NjQ0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxMzcxMDMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cEca771f92" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25866447&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26137103&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTg2NjQ0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxMzcxMDMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cFe162a952" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25866447&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26137103&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTg2NjQ0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxMzcxMDMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cGe162a952" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25866447&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26137103&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">ESG</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is a simple story about environme=
+ntal, social and governance investing. The point of ESG investing is to rai=
+se the cost of capital of things that are bad for the environment or societ=
+y. ESG investors will shun companies that do bad things and prefer companie=
+s that do good things, raising the cost of capital of the bad companies and=
+ lowering the cost of capital of the good companies. The companies will be =
+economically motivated to get a lower cost of capital, so they will stop do=
+ing bad things and do more good things.</p><p style=3D"margin: 16px 0;">Thi=
+s will operate in crude large-scale ways: Investors will shun bad coal comp=
+anies and prefer wind-energy companies, so some coal companies will shut do=
+wn and wind companies will launch. But it will also operate in small-scale =
+ways within industries. Investors will reward, like, consulting firms that =
+do sales calls over Zoom instead of flying on carbon-intensive planes to me=
+et with clients. Or if they have to fly to meet with clients, they=E2=80=99=
+ll be rewarded for renting electric vehicles instead of gas-powered SUVs wh=
+en they get there.</p><p style=3D"margin: 16px 0;">This story sounds too ne=
+at, doesn=E2=80=99t it? The idea that ESG investing raises the cost of capi=
+tal of bad ESG things <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/25866447.270656/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjEtMDctMDgvc29tZW9uZS1pcy1nb2luZy10by1kcmlsbC10aGUtb2lsP2NtcGlkPUJCRD=
+ExMjkyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJ=
+nV0bV90ZXJtPTIxMTEyOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a=
+23cBc924b964" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> is itself controversial</a>, but even if you buy it,=
+ it seems pretty bold to apply it to=C2=A0<em>every=C2=A0</em>decision that=
+ a company makes, even decisions as small-scale as what cars to rent on bus=
+iness trips. Car rental is not, for most companies, a big line item in the =
+income statement. The idea that you=E2=80=99d be able to meaningfully lower=
+ your cost of capital this way seems almost like a fantasy of market effici=
+ency: The market places a price on carbon emissions by public companies, an=
+d companies automatically respond to that price signal by lowering emission=
+s=C2=A0in every aspect of their business.</p><p style=3D"margin: 16px 0;">H=
+ere=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/2586=
+6447.270656/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9oZXJ0ei10ZXNsYS1kZWFsLXN=
+pZ25hbHMtYnJvYWQtc2hpZnQtdG8tZXZzLWZvci1yZW50YWwtY2FyLWNvbXBhbmllcy0xMTYzOD=
+AwOTAwMD9tb2Q9aHBfbGVhZF9wb3M0/607f07ceef4b8524a319a23cBd8c60ae0" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+a Wall Street Journal story</a> titled =E2=80=9CHertz-Tesla Deal Signals Br=
+oad Shift to EVs for Rental-Car Companies=E2=80=9D that suggests this story=
+ is just true?</p><blockquote><p style=3D"margin: 16px 0;">The shift to ele=
+ctrics can benefit rental-car companies in other important ways. It helps t=
+hem shrink their own carbon footprints by integrating more zero-emissions v=
+ehicles into their overall rental fleets. That, in turn, can help improve t=
+heir environmental, social and governance, or ESG, standing with investors,=
+ executives and analysts say.</p><p style=3D"margin: 16px 0;">=E2=80=9CESG-=
+associated names like Tesla usually get a much higher multiple,=E2=80=9D sa=
+id Hamzah Mazari, an analyst with Jefferies Group who covers the rental-car=
+ industry.</p><p style=3D"margin: 16px 0;">Corporate clients also see an ad=
+vantage because the more clean vehicles they rent, the more they can count =
+the emissions-reduction efforts toward their own ESG ratings, analysts say.=
+</p></blockquote><p style=3D"margin: 16px 0;">I think that=E2=80=99s the mo=
+st optimistic thing I have ever read about ESG investing? It=E2=80=99s not =
+about a company and a bank putting out an excited press release about=C2=A0=
+a loan agreement with a one-basis-point reward for meeting some vague check=
+list of ESG goals; it=E2=80=99s about actual everyday business decisions be=
+ing driven by ESG ratings.</p><table class=3D"liveintent-flex-ad" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTg2NjQ0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxMzcxMDMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cH96aef877" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25866447&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26137103&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; display:b=
+lock" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Volcano bonds</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I don=E2=80=99t give investing advice =
+around here, but the other day I did <a href=3D"https://link.mail.bloomberg=
+business.com/click/25866447.270656/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjEtMTEtMjIvYmUtY2FyZWZ1bC13aXRoLXZvbGNhbm8tYm9uZHM_Y21=
+waWQ9QkJEMTEyOTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3=
+NsZXR0ZXImdXRtX3Rlcm09MjExMTI5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b=
+8524a319a23cBeb4e272d" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> have some nice things to say</a> about the =
+El Salvador 8.25% bond due in 2032. Relatively nice things, anyway. Last we=
+ek El Salvador announced that it was issuing a $1 billion =E2=80=9Cvolcano =
+bond,=E2=80=9D a 6.5% bond due in 2032 that will be issued on a blockchain,=
+ will be pitched to crypto fans, and will come with a call option on $250 m=
+illion of Bitcoin. I said, well, instead of buying that, you can buy the 8.=
+25% bond for about 75 cents on the dollar and put the other 25 cents into b=
+uying Bitcoin. That way you get a higher yield (8.25% is more than 6.5%) an=
+d more Bitcoin exposure ($25 worth of Bitcoin is a bit more Bitcoin than an=
+ at-the-money call option on $25 of Bitcoin).=C2=A0</p><p style=3D"margin: =
+16px 0;">How is that working out? I really must emphasize that nothing here=
+ is ever investing advice; here=E2=80=99s <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/25866447.270656/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjEtMTEtMjYvZWwtc2FsdmFkb3ItYm91Z2h0LXRoZS1kaXAtYWNxdW=
+lyaW5nLTEwMC1tb3JlLWJpdGNvaW4_Y21waWQ9QkJEMTEyOTIxX01PTkVZU1RVRkYmdXRtX21lZ=
+Gl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTI5JnV0bV9jYW1w=
+YWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB56e13e84" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> a Bloomber=
+g article from Friday</a>:</p><blockquote><p style=3D"margin: 16px 0;">Doll=
+ar bonds from El Salvador are among the worst-performing in emerging market=
+s so far this month, lagging only defaulted Lebanese debt, according to dat=
+a compiled from a Bloomberg index.=C2=A0</p><p style=3D"margin: 16px 0;">Th=
+e selloff in the bonds came as investors weighed the possibility of higher =
+indebtedness in the Central American nation, as well as rising concern it w=
+ill not reach a deal with the International Monetary Fund.=C2=A0</p></block=
+quote><p style=3D"margin: 16px 0;">=E2=80=9CBitcoin Bond Plan Sends El Salv=
+ador=E2=80=99s Dollar Debt Diving,=E2=80=9D says <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/25866447.270656/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMjIvYml0Y29pbi1ib25kLW9uLWhvcml6b24tc2V=
+uZHMtZWwtc2FsdmFkb3Itcy1kb2xsYXItZGVidC1kaXZpbmc_Y21waWQ9QkJEMTEyOTIxX01PTk=
+VZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09M=
+jExMTI5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB9b688191" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> this Bloomberg headline</a> from early last week. And those 8.25% =
+bonds now seem to <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+25866447.270656/aHR0cHM6Ly93d3cuYm91cnNlLmx1L3NlY3VyaXR5L1hTMDE0NjE3MzM3MS8=
+1NjY1Mw/607f07ceef4b8524a319a23cBcc3da5b7" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">trade at about 68 cents =
+on the dollar</a>, down about 10% from when we last discussed them. Oh well=
+.</p><p style=3D"margin: 16px 0;">In some vague financial theory, if El Sal=
+vador succeeds in issuing these volcano bonds, somebody should (1) buy the =
+8.25% bonds and some Bitcoin along the lines I proposed, (2) short the volc=
+ano bonds and (3) collect a risk-free profit. Arguably this should be=C2=A0=
+<em>good=C2=A0</em>for the price of El Salvador=E2=80=99s existing debt.</p=
+><p style=3D"margin: 16px 0;">But in practice it seems very hard to actuall=
+y do the arbitrage here.=C2=A0The only people realistically buying El Salva=
+dor=E2=80=99s 8.25% bonds are, like, grizzled emerging-markets veterans. Th=
+ose bonds do not trade in particularly convenient ways; the average retail =
+speculator is not going to go buy them. Those grizzled veterans might or mi=
+ght not be able to buy Bitcoin to complete the long side of the arbitrage; =
+if you run an emerging-market fund it is not obvious that your mandate woul=
+d allow buying Bitcoin. Meanwhile I do not know a lot about the blockchain =
+apparatus that will be used to issue the volcano bonds, but I am going to g=
+uess that (1) neither do those emerging-markets veterans and (2) it probabl=
+y will not make it=C2=A0<em>easy=C2=A0</em>to short the volcano bonds.=C2=
+=A0So doing the arbitrage involves trading three markets =E2=80=94=C2=A0EM =
+bonds, Bitcoin, and short selling on the volcano bond=E2=80=99s blockchain =
+platform =E2=80=94=C2=A0that do not have a lot of overlap.=C2=A0</p><p styl=
+e=3D"margin: 16px 0;">Meanwhile the people buying El Salvador=E2=80=99s 6.5=
+% Bitcoin bonds will be, like, crypto fans who enjoy going to crypto partie=
+s with El Salvador=E2=80=99s crypto-bro president.=C2=A0<em>They=C2=A0</em>=
+are not going to go figure out how to buy the 8.25% bond to get better econ=
+omics than the volcano bond; that requires using antiquated traditional-fin=
+ance infrastructure and won=E2=80=99t get them invited to the parties. I su=
+spect that El Salvador=E2=80=99s efforts at market segmentation will just w=
+ork; there is no reason for the price of its volcano bonds to track the pri=
+ce of its regular bonds, and they probably won=E2=80=99t.=C2=A0</p><table c=
+lass=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Everything is securities fraud</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Is it securities fraud to refuse to se=
+ll ice cream in the occupied Palestinian territories? Folks, <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/25866447.270656/aHR0cHM6Ly9ueXBv=
+c3QuY29tLzIwMjEvMTEvMjcvdG9ycmVzLWFza3Mtc2VjLXRvLXJldmlldy1maWxpbmdzLW92ZXI=
+tYmVuLWplcnJ5cy1pc3JhZWwtYm95Y290dC8/607f07ceef4b8524a319a23cB2c412329" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">everything is securities fraud</a>:</p><blockquote><p style=3D"margin:=
+ 16px 0;">A Bronx congressman is asking the Securities and Exchange Commiss=
+ion to demand the parent company of Ben &amp; Jerrys to amend their regulat=
+ory filings to reflect potential new risks caused by the woke ice cream mak=
+er=E2=80=99s decision to no longer peddle its products in parts of Israel.<=
+/p><p style=3D"margin: 16px 0;">Participating in the Boycott Divestment and=
+ Sanctions movement against Israel can result in potentially stiff financia=
+l consequences in more than 30 states =E2=80=94 including New York, which h=
+as moved to divest more than $100 million in pension funds from Unilever.</=
+p><p style=3D"margin: 16px 0;">=E2=80=9CUnilever is a widely held company w=
+ith a current market capitalization of $135 billion, which places in jeopar=
+dy the manifold United States institutions, pension funds, and endowments w=
+hich hold its shares on behalf of its beneficiaries,=E2=80=9D reads the let=
+ter sent to SEC Chairman Gary Gensler on Friday.</p><p style=3D"margin: 16p=
+x 0;">=E2=80=9CWe believe that these actions require the SEC to request tha=
+t the regulatory filings of Unilever be amended to disclose the material ri=
+sk factors.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">Of all th=
+e ways that the world=E2=80=99s leading superpower can conduct foreign poli=
+cy, =E2=80=9Casking a British consumer company to update its U.S. securitie=
+s filings to=C2=A0add risk factors about=C2=A0its=C2=A0premium-ice-cream su=
+bsidiary=E2=80=9D is =E2=80=A6=C2=A0a weird one? Just, like, there you are =
+in Congress, you have some foreign policy issue that you want to do somethi=
+ng about, and the most natural thing to do about it is to send a letter to =
+the SEC. Because U.S. foreign policy, like so much of U.S. policy, is a sub=
+set of securities law.</p><table class=3D"header" width=3D"100%" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT Stuff (1)</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is a=C2=A0<a href=3D"https://link=
+.mail.bloombergbusiness.com/click/25866447.270656/aHR0cHM6Ly93d3cudGhlZ3Vhc=
+mRpYW4uY29tL2FydGFuZGRlc2lnbi8yMDIxL25vdi8yOC9sdWNpYW4tZnJldWQtcGFpbnRpbmct=
+ZGVuaWVkLWJ5LWFydGlzdC1pcy1hdXRoZW50aWNhdGVkLWJ5LWV4cGVydHM/607f07ceef4b852=
+4a319a23cB424de879" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">story about Lucian Freud</a>, the major moder=
+n painter, who apparently denied that he painted some of his paintings beca=
+use he was mad at their owners:</p><blockquote><p style=3D"margin: 16px 0;"=
+>Almost 25 years ago, a Swiss art collector bought a Lucian Freud painting =
+=E2=80=93 a full-length male nude =E2=80=93 at auction. He then received a =
+call from the British artist, asking to buy it from him. The two men did no=
+t know each other, and the collector politely refused, as he liked the pict=
+ure.</p><p style=3D"margin: 16px 0;">Three days later, he claims he receive=
+d another call from a now furious Freud who told him that, unless he sold i=
+t to him, he would deny having painted it.</p><p style=3D"margin: 16px 0;">=
+The collector, who wishes to remain anonymous, told the Observer: =E2=80=9C=
+He said: =E2=80=98I=E2=80=99ll give you more than you paid, I=E2=80=99ll do=
+uble it.=E2=80=99 I declined, and he became very aggressive, with bad words=
+. He said: =E2=80=98In that case, you will never sell it.=E2=80=99=E2=80=9D=
+ To his dismay, the Freud estate subsequently refused to authenticate Stand=
+ing Male Nude =E2=80=93 and that could have been the end of a sad tale for =
+the collector. =E2=80=A6</p><p style=3D"margin: 16px 0;">In 2016, an early =
+Freud picture was attributed to the artist, despite his own denials that he=
+ painted it. Philip Mould=E2=80=99s BBC show Fake or Fortune? uncovered evi=
+dence that included notes from the artist=E2=80=99s former solicitor. The a=
+rtist had apparently refused to acknowledge the work because it was origina=
+lly owned by Denis Wirth-Miller, an artist with whom Freud had a long-runni=
+ng feud.</p></blockquote><p style=3D"margin: 16px 0;">So, one, on a persona=
+l level, that=E2=80=99s great: The man devoted his life to art, but he neve=
+r let his commitment to that art get in the way of his petty personal feuds=
+. Truly something to aspire to.</p><p style=3D"margin: 16px 0;">Two, in eac=
+h case these paintings were authenticated over Freud=E2=80=99s objection th=
+rough some combination of extrinsic documentary evidence, pigment analysis =
+and connoisseurship. (Also, like, artificial-intelligence connoisseurship? =
+=E2=80=9COur AI has classified parts of the painting as being by the hand o=
+f Freud with a high score =E2=80=93 a positive result up to 95%,=E2=80=9D s=
+ays someone.) That=E2=80=99s cool for the owners. Would you rather own a ge=
+nuine Freud that he acknowledged, or one that he denied? I feel like the on=
+es he denied are rarer and more interesting? They=E2=80=99ve got more of a =
+story to them, they=E2=80=99re more fun, I bet they=E2=80=99re more valuabl=
+e. If you owned a genuine Freud and were friends with him, would it have be=
+en a good idea to ask him to deny the painting (and give you a note saying =
+=E2=80=9CI=E2=80=99m going to deny that I painted this out of pique=E2=80=
+=9D) to make it more valuable?</p><p style=3D"margin: 16px 0;">Three, blah =
+blah blah put the paintings on the blockchain as non-fungible tokens blah b=
+lah blah then this would never happen blah blah blah. Actually I feel like =
+you could have some fun with that? You=E2=80=99ve got three sort-of-incomme=
+nsurable things: the (living, human) painter (not Freud =E2=80=94=C2=A0he d=
+ied before NFTs were invented =E2=80=94=C2=A0but someone else could do this=
+), the (physical) painting, and some digital object on some blockchain sign=
+ed with some public key. =E2=80=9CThis digital object was verifiably issued=
+ by this crypto wallet,=E2=80=9D you can say pretty definitively, but the p=
+ainter can sit around saying =E2=80=9Cah yes but that=E2=80=99s not the pai=
+nting that corresponds to the digital object=E2=80=9D or =E2=80=9Cah yes bu=
+t that crypto wallet is not mine=E2=80=9D or, why not, both. I feel like th=
+ere are rich veins of NFT prank that haven=E2=80=99t really been mined yet.=
+</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT Stuff (2)</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">AMC Entertainment Holdings Inc. is doi=
+ng something involving=C2=A0Spider-Man-related=C2=A0non-fungible tokens. Th=
+at is all that I want to know about this subject, honestly. I bet AMC Chief=
+ Executive Officer Adam Aron feels the same way, <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/25866447.270656/aHR0cHM6Ly90d2l0dGVyLmNvbS9D=
+RU9BZGFtL3N0YXR1cy8xNDY1MDE4NTU4NTE0MTQzMjMy/607f07ceef4b8524a319a23cB6c329=
+94f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">but here he is tweeting about it</a>, because he is committed =
+to the bit.=C2=A0</p><table class=3D"header" width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">When a Hacker Calls: How Robinhood Fel=
+l Victim to a <a href=3D"https://link.mail.bloombergbusiness.com/click/2586=
+6447.270656/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTE=
+tMjcvd2hlbi1hLWhhY2tlci1jYWxscy1ob3ctcm9iaW5ob29kLWZlbGwtdmljdGltLXRvLXZpc2=
+hpbmctYXR0YWNrP2NtcGlkPUJCRDExMjkyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmd=
+XRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTEyOSZ1dG1fY2FtcGFpZ249bW9uZXlz=
+dHVmZg/607f07ceef4b8524a319a23cB0f458346" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Vishing Raid</a>. China=
+ Cash Flowed Through <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/25866447.270656/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIw=
+MjEtMTEtMjgvYWZyaWNhLXMtYmlnZ2VzdC1kYXRhLWxlYWstcmV2ZWFscy1jaGluYS1tb25leS1=
+yb2xlLWluLWthYmlsYS1zLWNvbmdvLWxvb3Rpbmc_Y21waWQ9QkJEMTEyOTIxX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTI5J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB1d72174d" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Congo Bank</a> to Former President=E2=80=99s Cronies. Wall Street Grudging=
+ly Allows <a href=3D"https://link.mail.bloombergbusiness.com/click/25866447=
+.270656/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8xMS8yNC9idXNpbmVzcy93YWxsLXN=
+0cmVldC1yZW1vdGUtd29yay1iYW5rcy5odG1sP3JlZmVycmluZ1NvdXJjZT1hcnRpY2xlU2hhcm=
+U/607f07ceef4b8524a319a23cB855e7e92" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">Remote Work</a> as Bankers Dig=
+ In. U.K. Looks to <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/25866447.270656/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy91LWstbG9va3MtdG8tY2=
+9tcGV0ZS1vbi1maW5hbmNpYWwtcmVndWxhdGlvbi0xMTYzODAwOTAwMT9tb2Q9aXRwX3dzaiZyd=
+T15YWhvbw/607f07ceef4b8524a319a23cB4a92362a" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Compete on Financial R=
+egulation</a>. Oil=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/25866447.270656/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjEtMTEtMjYvb2lsLXMtYmxhY2stZnJpZGF5LWFsZ29zLWFuZC1vcHRpb25zLXR1cm4=
+tYS10dW1ibGUtaW50by1hLWNyYXNoP2NtcGlkPUJCRDExMjkyMV9NT05FWVNUVUZGJnV0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTEyOSZ1dG1fY2Ftc=
+GFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBcd7c49ac" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> Black Fri=
+day</a>: Algos and Options Turn a Tumble Into a Crash. Binance <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/25866447.270656/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMjkvYmluYW5jZS1yZW9wZW5zL=
+WRvZ2Vjb2luLXdpdGhkcmF3YWxzLWFmdGVyLW11c2stc3BhdC13aXRoLWNlbz9jbXBpZD1CQkQx=
+MTI5MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMTExMjkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cB783378a0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> Reopens Dogecoin Withdrawals</a> After Musk Spat With=
+ CEO. Jack Dorsey Steps Down as <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/25866447.270656/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fyd=
+GljbGVzLzIwMjEtMTEtMjkvamFjay1kb3JzZXktdG8tc3RlcC1kb3duLWFzLXR3aXR0ZXItY2Vv=
+LWNuYmMtcmVwb3J0cz9jbXBpZD1CQkQxMTI5MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWl=
+sJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMjkmdXRtX2NhbXBhaWduPW1vbm=
+V5c3R1ZmY/607f07ceef4b8524a319a23cB930d8d86" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> Twitter CEO</a>, Repl=
+aced by CTO Parag Agrawal. The Evergrande Blueprint Worked for Other <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aHR0cHM6=
+Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90aGUtZXZlcmdyYW5kZS1ibHVlcHJpbnQtd29ya2VkLWZ=
+vci1vdGhlci1jaGluZXNlLWRldmVsb3BlcnMtdW50aWwtaXQtZGlkbnQtMTE2MzgwOTU0MDM_bW=
+9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cBb5eaac81" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">Chines=
+e Developers</a>, Until It Didn=E2=80=99t. The Great <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/25866447.270656/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMjQvaHVja2xlYmVycmllcy1pbi1zaG9ydC1=
+zdXBwbHktYW1pZC1ib29taW5nLWRlbWFuZC13ZWFrLWhhcnZlc3RzP2NtcGlkPUJCRDExMjkyMV=
+9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90Z=
+XJtPTIxMTEyOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7830=
+7f25" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Huckleberry</a> Supply Crunch. Macau Casino Stocks Sink Afte=
+r Police Arrest City=E2=80=99s <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/25866447.270656/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydG=
+ljbGVzLzIwMjEtMTEtMjkvbWFjYXUtY2FzaW5vLXN0b2Nrcy1zaW5rLWFmdGVyLXBvbGljZS1hc=
+nJlc3QtY2l0eS1zLWp1bmtldC1raW5nP2NtcGlkPUJCRDExMjkyMV9NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTEyOSZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB24e1f49a" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> Junket =
+King</a>. Matthew <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+25866447.270656/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjE=
+tMTEtMjkvbWF0dGhldy1tY2NvbmF1Z2hleS1zYXlzLWhlLXdvbi10LXJ1bi1mb3ItdGV4YXMtZ2=
+92ZXJub3ItaW4tMjAyMj9jbXBpZD1CQkQxMTI5MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtY=
+WlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMjkmdXRtX2NhbXBhaWduPW1v=
+bmV5c3R1ZmY/607f07ceef4b8524a319a23cBd81e54ed" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> McConaughey</a> Say=
+s He Won=E2=80=99t Run for Texas Governor in 2022. Nordea Retracts <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMjUvbm9yZGVhLXN0YXJ0=
+cy1wcm9iZS1vbi1jb25zcGlyYWN5LXRoZW9yeS1mdWVsZWQtcmVzZWFyY2gtbm90ZT9jbXBpZD1=
+CQkQxMTI5MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMTExMjkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cB5928bbf6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Vaccine Conspiracy-Fueled Research Note</a>. Con=
+grats <a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270=
+656/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjEvMTEvMjUvYmVzdC1pbi1zaG93LXdpbm5lci1hdC0=
+yMDIxLW5hdGlvbmFsLWRvZy1zaG93LW1ha2VzLWhpc3RvcnkvP3V0bV9jYW1wYWlnbj1pcGhvbm=
+VfbnlwJnV0bV9zb3VyY2U9bWFpbF9hcHA/607f07ceef4b8524a319a23cB97b19f9d" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">Claire</a>!</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-=
+for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in =
+handy email form, right in your inbox, please=C2=A0<a href=3D"https://link.=
+mail.bloombergbusiness.com/click/25866447.270656/aHR0cDovL2xpbmsubWFpbC5ibG=
+9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyM=
+zAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBe61adf28" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">subscribe at this link</a>. Or you can su=
+bscribe to Money Stuff and other great Bloomberg newsletters <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/25866447.270656/aHR0cHM6Ly9sb2dp=
+bi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB64ab6cd8" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">here</a>. Tha=
+nks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] The longer-term pe=
+rformance of IPOs is <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/25866447.270656/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNGM2OGMzN2ItNTdhZS00=
+N2IxLTk4ZGQtZjRhODE1YjMxODJk/607f07ceef4b8524a319a23cBa44de9fa" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">les=
+s great</a>, but if you can buy at the IPO price you can flip on the first =
+day and capture that pop.=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[2=
+] From the prospectus: =E2=80=9CWe intend to form and register Pershing Squ=
+are SPARC Holdings II, Ltd., a SPARC that will pursue a subsequent business=
+ combination after the completion of SPARC=E2=80=99s business combination. =
+We expect to distribute 244,444,444 SPARC II Tontine SPARs (=E2=80=98SPAR2s=
+=E2=80=99) only to those SPAR holders who exercise to receive stock in SPAR=
+C=E2=80=99s initial business combination. The distribution of SPAR2s will p=
+rovide additional value to exercising SPAR holders, and to the extent that =
+this increases the trading price of SPARs prior to closing, it will increas=
+e the likelihood that all or substantially all SPARs are exercised. By prov=
+iding free SPAR2s to exercising holders, we provide more value to exercisin=
+g SPAR holders, increasing the probability of SPARs being exercised, and th=
+ereby increasing transaction certainty for our business combination partner=
+. We intend to use this same approach for Pershing Square SPARC Holdings II=
+I, Ltd. and thereafter.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"><em>[=
+3] And to SPAC pitches, but the old theory that SPACs offered certainty of =
+proceeds is no longer particularly true.=C2=A0</em></p><p style=3D"margin: =
+16px 0;"><em>[4]=C2=A0The SPARC filing says:=C2=A0=E2=80=9CNo later than De=
+cember 9, 2021, we expect that the SEC will either approve the rule, disapp=
+rove the rule, or institute proceedings to determine whether the rule chang=
+e should be disapproved. =E2=80=A6 The NYSE=E2=80=99s rule proposal submiss=
+ion and public comments can be viewed on the SEC=E2=80=99s website at https=
+://www.sec.gov/comments/sr-nyse-2021-45/srnyse202145.htm. Of the approximat=
+ely 168 public comments published on the SEC=E2=80=99s website, an overwhel=
+ming majority express support for the proposed rule. =E2=80=A6 However, the=
+re is no guarantee that this or a similar listing rule will be approved, or=
+ that our company will comply with and be approved for listing on the NYSE =
+pursuant to any such rule. If our SPARs cannot be listed on the NYSE, they =
+would trade on the =E2=80=98over-the-counter=E2=80=99=C2=A0market, which ma=
+y present significant risks to the holders of SPARs, including lower availa=
+bility and efficiency of market price quotations, significantly less liquid=
+ity, increased trading costs, the absence of certain corporate governance p=
+rotections, and the applicability of state securities laws that could resul=
+t in restrictions on the sale of our SPARs.=E2=80=9D</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB14d14750" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB7d96de1e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB9f11a39f" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB58457642" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTg2NjQ0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxMzcxMDMmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cIbc5dc765" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25866447&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26137103&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; display:b=
+lock" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2586644=
+7.270656/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB9a3c5f5e" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25866447.270656/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCade8d636" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25866447.270656/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBbc560f85" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25866447.270656/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB5b74c289" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB5=
+44d8580" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25866447.270656/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB9=
+f3af4a4" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D258664=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26137103&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D258664=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26137103&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D258664=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26137103&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D258664=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26137103&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D258664=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26137103&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfeeof.5su8/3bd2d1c1.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_95462540_893185035.1638208317736--
+

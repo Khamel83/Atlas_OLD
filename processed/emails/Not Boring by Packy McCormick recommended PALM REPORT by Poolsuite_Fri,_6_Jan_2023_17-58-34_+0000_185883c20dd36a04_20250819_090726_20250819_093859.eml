@@ -1,0 +1,1328 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:a51:b0:e2:9b5b:7c1 with SMTP id 17csp1380311rwb;
+        Fri, 6 Jan 2023 09:58:40 -0800 (PST)
+X-Received: by 2002:a5d:40d0:0:b0:250:22e4:b8a6 with SMTP id b16-20020a5d40d0000000b0025022e4b8a6mr32251701wrq.39.1673027919971;
+        Fri, 06 Jan 2023 09:58:39 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1673027919; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=piKuAQYHCB/rdAOyagjImuNyNlO4bjeSKUuDFQBT/mV4Rk2t3man0rjkJ4+ZU1oun8
+         uUvF3KX0W5bti/ixbTn07SzPx//gQ/NY4bY2jx0srdYdTNzJmqTfYCaGstEkV0mvNRyk
+         6Azeow9m9fgH2jdNtLOpLdCllnACsN+baJssZBYpRM5WY9HGBaKdn59zBXZA5r3Obdyd
+         j2bdVBhzNhdUJCrzrK0/kIZJoHMcOjeXzvJKLBQWR5r+OnVn0PtrVNO12ddjQYbAYWm4
+         jOsRjCvTG8o4M8QpahHt5nH+WNtj/EVlD3ej/s7S+Pot6AfD4BGQI5Gs+an1C3x9xViK
+         fM4g==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:list-url:message-id:list-id:list-owner
+         :date:list-unsubscribe:reply-to:to:from:subject:mime-version:sender
+         :dkim-signature:delivered-to;
+        bh=5z0J20jZXze+smggn7YuZLe0kagWLKtIhFWqmjtk/84=;
+        b=PIuXcrzRpaP/aNKJyZXGNs4ZTEklAqTX5KcLHUlj51XRemKKJJopIugcU/BEWWNmYm
+         dY7M5NPgsANdW0BGAIVJUxXoWNHINk8A17n5HyA/4eSSjMaZOX+4WI9u9gfmcLqoNLYz
+         qaEKisFXrdYOwKHTvDYE+EUl3QfHLiOvLuiY577sqA33lDUetmvMezAGsZlAixtD9JPt
+         x6TUcMsN4LnMWblM/MN33EPn5mRFed6vUg3Waba0qHT3qzc4PEuKh0zUeHN5iA5+lS8K
+         xecJJYWUmS97IMCTHEWSknMaBqffr+OBI45cyj6iZXyFxX3ACWHSbJQz45PM/P3uu/cz
+         azJg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=Pyy5jQoA;
+       arc=pass (i=2 dkim=pass dkdomain=mg1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id o27-20020adfa11b000000b00241e71268cdsor723292wro.74.2023.01.06.09.58.39
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Fri, 06 Jan 2023 09:58:39 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=Pyy5jQoA;
+       arc=pass (i=2 dkim=pass dkdomain=mg1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=content-transfer-encoding:list-url:message-id:list-id:list-owner
+         :date:list-unsubscribe:reply-to:to:from:subject:mime-version:sender
+         :dkim-signature:delivered-to:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=5z0J20jZXze+smggn7YuZLe0kagWLKtIhFWqmjtk/84=;
+        b=3HC2lmfaRm6mjkcq+1qJdzrRUQyX4unq08gRAJexeI+N7f4LCKBnPmfQO/+KxK2Sc4
+         U9ArwE3lfVsriKyKw4nsqOw2q40NzQzW9baTuNXT7lEGk2zt8LI8FngvyoYFC8hF9u/7
+         nkTNwiJGXxaqWCoLrVnajOspHGFt9ZHtuu3uz9dzRZDqxco1gr3UkdlLw87aFmbtkdZc
+         uF2cr1J/avCzR3i0Jyxm05GZSt3hPMjan/MP1+zrj9pOYcyJcrmzYjHqgkpmjV+a25Di
+         elnuyQfpx6Z1+3/cwoe25kuKkjiurP9oHcABioiy/m9vVi0H4MoMIUXgW5tGp0bZaR5s
+         M7QQ==
+X-Gm-Message-State: AFqh2kriUI7myaBvsY8K4HHygJpvoo6IGGZKWmu6y9eeSQiH5eFR617R
+	wnpOqhW/ilVtW7QfTXaFINw65TCTGspvKXSlt0v5nmmxlcDCkaWkuQ==
+X-Received: by 2002:adf:f192:0:b0:2bb:33d7:5816 with SMTP id h18-20020adff192000000b002bb33d75816mr19631wro.612.1673027919565;
+        Fri, 06 Jan 2023 09:58:39 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5608:0:0:0:0:0 with SMTP id l8csp1052981wrv;
+        Fri, 6 Jan 2023 09:58:38 -0800 (PST)
+X-Received: by 2002:a17:902:e54c:b0:189:abe0:e13b with SMTP id n12-20020a170902e54c00b00189abe0e13bmr89323244plf.57.1673027917895;
+        Fri, 06 Jan 2023 09:58:37 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1673027917; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=rWcIbHb2zEs633uy8cgbrbOFQc3oCAKt3dwauF60IWcO/q2i6nVLiNQz6tBGhhPfYd
+         riSYHjxFIDN2aKJwsfWk+ufy38NgahXxQIDmsWJO7nmOXX4YRMnOgkX9++ze3Qju26PM
+         74vXYo5inOxhvP/IrXNJTQE6H4S+pAQ+cCdQa4dAAJ7adcM65XEclVh+R5vbXYSbMQV/
+         FmNwD7rcD7xDtDQ/zL4P5KD2+4QTqUFflWntWeppaj6CWmimymVnygsxJAic/88hJ8HN
+         g3sPsZtqMFAyOdIISy5aTmYo8eT9Sh4h7Ps7HSGoapb9iHJKVJlen348uEYDU5hdHnV7
+         PAEQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:list-url:message-id:list-id:list-owner
+         :date:list-unsubscribe:reply-to:to:from:subject:mime-version:sender
+         :dkim-signature;
+        bh=5z0J20jZXze+smggn7YuZLe0kagWLKtIhFWqmjtk/84=;
+        b=PcmiVqf2cSA4PCYzZT7lQ4vcn42IOnWKkfKs3rGhYEf0GtwO5A9lELP95neN5524PX
+         c1ft5vGk+ImbSh1SXx5kqJ1eHNWDPpaN1SCDSjcMPypqMejVqp9zEih5WOzLFRXI9Hz3
+         /fXejsdod+qAZmDbgp273xj1t/ozgXXyR8cKACR7Z19ZT380ibF9Pf2eVI+muqDreIQF
+         UrFUEq5gYieiZcFfaM6gTbP9hUcpSMccKrh/6+L4RRjwSBJMc57pnVgfccdMbqXe8H4i
+         RsAilWRsmtkF1Zxb2EDyEWyyCKjXgVKHYuBkhDBdJ+1a1heVQ2bakOjRneu4UTmWW6Ak
+         AjXA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=Pyy5jQoA;
+       arc=pass (i=1 spf=pass spfdomain=mg1.substack.com dkim=pass dkdomain=mg1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 13-20020a170902c20d00b00192afa9b403sor736941pll.61.2023.01.06.09.58.37
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Fri, 06 Jan 2023 09:58:37 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMrXdXuVo/SYA0FZ9Zr8FVktGxIidv6T7VCws/f8FONU9T/C5+hkuoz34c8+Tye9gzU/DI2UfopSHKcUCGucFZ+rvxN20bIciMs=
+X-Received: by 2002:a05:6a20:d48e:b0:b5:389e:870e with SMTP id im14-20020a056a20d48e00b000b5389e870emr8510192pzb.4.1673027917460;
+        Fri, 06 Jan 2023 09:58:37 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1673027917; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Wth1DAVKOoKtu9QrS5iaJVnFZr7+d6385rRnBvtiEwzAVIYfi0ZogLKzdTIM8f60HO
+         zDDcLwIvoy+yrYj7i6UmzJXlKmP63MPmowudvwsirk6gRV22orAdNPh2WEsV9PBeEG6V
+         VEXTdY0hxb8v+sAn/FnEbZhH246eoBRfrG49nf9gBzYiYwC7zrRs6PB4sHwqanoN4+Kw
+         uufw3M9AtOJaaprcPfCutuUnvwz7rnSD4JgZx3wh9wGAS3AWieCw1zcGcPHg4UtmI5gG
+         7qFX8jjIfphcb3x5mpMAdwWBiSakTLSoQuRrFKUxBJayYYiUkt1hOlLvDeGKND08LqM4
+         3alQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:list-url:message-id:list-id:list-owner
+         :date:list-unsubscribe:reply-to:to:from:subject:mime-version:sender
+         :dkim-signature;
+        bh=5z0J20jZXze+smggn7YuZLe0kagWLKtIhFWqmjtk/84=;
+        b=frHdjMGPVV1tgXw/DKeIXUfUBadIaeTK+ZmQXKmhmnK5dz3zsNL0q/sJEq9fSq5naP
+         MT92jcLJzRCNOT/ksTpW0+pmzRP75lzRdSlLJ43uNPxA/6F5WuFM7mqIYLfeb0r0jaTa
+         iCUI3+lR/oCJnDgy+O9zItm4WOZnpljy9XkV/gnRPUW9JC923DSZi+9Z/TTBJgBrVCO5
+         nMk3CsTJu8BfCuPXwXyCwDgcd09z93fF+W15f+g6rarjmQ7pv6baJN6GsrK2Y18Vk+iW
+         IY1nMHTmLqRfOJ/P2nWeWQVablTZ8ZPey40sHm7EvjsJ7V+X25uhvc75oew2MAw/xgAO
+         DkgQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=Pyy5jQoA;
+       spf=pass (google.com: domain of bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com designates 161.38.202.34 as permitted sender) smtp.mailfrom="bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com>
+Received: from mg-202-34.substack.com (mg-202-34.substack.com. [161.38.202.34])
+        by gmr-mx.google.com with UTF8SMTPS id k2-20020a636f02000000b004ac6ba951f1si94606pgc.2.2023.01.06.09.58.37
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 06 Jan 2023 09:58:37 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com designates 161.38.202.34 as permitted sender) client-ip=161.38.202.34;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg1.substack.com; q=dns/txt;
+ s=mailo; t=1673027916; x=1673035116; h=Content-Transfer-Encoding:
+ Content-Type: Message-Id: List-Id: List-Owner: Date: List-Unsubscribe:
+ Reply-To: To: To: From: From: Subject: Subject: Mime-Version: Sender:
+ Sender; bh=5z0J20jZXze+smggn7YuZLe0kagWLKtIhFWqmjtk/84=; b=Pyy5jQoA6Y/CZWetqKEOafQgg2OsUNd5CjhmjDdhrjy1qv8ofk0TkuHjod4XL3fsqa5SQVZ5
+ mS1rZwtXmliNjItjQUpBDMUfsEq1DAZOuUKYdeAKBgpXEAJ4sm3FA9W8yQfoxQ2eue0HMQoJ
+ S3cc8N//JQnnRkGpd6GuCJ4s0LE=
+X-Mailgun-Sending-Ip: 161.38.202.34
+X-Mailgun-Sid: WyIwMzJmMCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiMDcyYzdiIl0=
+Received: from <unknown> (<unknown> []) by a1c956189a46 with HTTP id
+ 63b8614c17bbde5af4040a9b; Fri, 06 Jan 2023 17:58:36 GMT
+Sender: no-reply=substack.com@mg1.substack.com
+Mime-Version: 1.0
+Subject: Not Boring by Packy McCormick recommended PALM REPORT by Poolsuite
+From: Substack <no-reply@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: reader-recommendation-email
+Reply-To: Substack <no-reply@substack.com>
+List-Unsubscribe: <https://substack.com/api/v1/email/notification/unsubscribe?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwidG9waWMiOiJyZWFkZXJfcHVibGljYXRpb25fcmVjb21tZW5kYXRpb24iLCJpYXQiOjE2NzMwMjc5MTYsImV4cCI6MTY3NTYxOTkxNiwiaXNzIjoicHViLTAiLCJzdWIiOiJub3RpZmljYXRpb24tdW5zdWJzY3JpYmUifQ.bsn3lVCyvOvVjBCESZ-PWS3TQDGfmoHQ72Ob3ERbxAo>
+Date: Fri, 6 Jan 2023 17:58:34 +0000
+List-Owner: <mailto:no-reply@substack.com>
+List-Id: <www.substack.com>
+Message-Id: <20230106175834.3.24065ce9a75e3a51.a6jrupsf@mg1.substack.com>
+List-Url: <https://substack.com/>
+X-Mailgun-Variables: {"category": "reader-recommendation-email",
+ "comment_id": "", "email_generated_at": "1673027916418", "is_freemail": "",
+ "post_audience": "", "post_id": "", "post_type": "",
+ "pub_community_enabled": "", "publication_id": "", "subdomain": "www",
+ "user_id": "16283549"}
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D""><head><title></title><meta charset=3D"utf-8"><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.youtube-inner div.youtube-screen,
+  .typography.editor .markup div.youtube-inner div.youtube-screen,
+  .typography .markup div.vimeo-inner div.youtube-screen,
+  .typography.editor .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet,
+  .typography.editor .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-text,
+  .typography.editor .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-photos-container.two,
+  .typography.editor .markup .tweet .tweet-photos-container.two,
+  .typography .markup .tweet .tweet-photos-container.three,
+  .typography.editor .markup .tweet .tweet-photos-container.three,
+  .typography .markup .tweet .tweet-photos-container.four,
+  .typography.editor .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-img,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-description,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-descript=
+ion {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget,
+  .header-anchor-container .header-anchor-widget {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .post-label {
+    margin-top: 8px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .footer-facepile-container {
+    height: 64px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.youtube-inner div.youtube-screen,
+  body .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  body .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-sub=
+scribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-photos-container.two,
+  body .markup .tweet .tweet-photos-container.three,
+  body .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed img.install-substack-app-embed-i=
+mg {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-link=
+ {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper {
+    width: 100%;
+    padding: 0 16px;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper:empty {
+    display: none;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button {
+    width: 100%;
+    margin: 16px 0;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjMwMTA2MTc1ODM0LjMuMjQwNjVjZTlhNzVlM2E1MS5hNmpydXBzZkBtZzEuc3Vic3RhY2suY2=
+9tPiIsInUiOjE2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcxLnN1Y=
+nN0YWNrLmNvbSIsInAiOm51bGwsInQiOm51bGwsImEiOm51bGwsInMiOm51bGwsImMiOiJyZWFk=
+ZXItcmVjb21tZW5kYXRpb24tZW1haWwiLCJmIjpmYWxzZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQ=
+iOjE2NzMwMjc5MTYsImV4cCI6MTY3NTYxOTkxNiwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.e=
+ICOYWOSft43YvndAIRgm8V5LRjIGts-VXy-FFTsTFU" alt=3D"" width=3D"1" height=3D"=
+1" border=3D"0" style=3D"height:1px !important;width:1px !important;border-=
+width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margi=
+n-right:0 !important;margin-left:0 !important;padding-top:0 !important;padd=
+ing-bottom:0 !important;padding-right:0 !important;padding-left:0 !importan=
+t;"/><table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" class=3D"email-body-container"><tr><td></td><td wi=
+dth=3D"550" class=3D"content"></td><td></td></tr><tr><td></td><td align=3D"=
+left" width=3D"550" class=3D"content revamped-reader-recommendation notific=
+ation" style=3D"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol';"><div style=3D"font-size: 16px; line-height: 26px; ma=
+rgin: 0 auto; max-width: 550px; overflow-wrap: break-word; width: 100%;"><h=
+2 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: an=
+tialiased; color: #404040; font-family: 'SF Compact Display', -apple-system=
+, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Ap=
+ple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.625em; =
+font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">Not Borin=
+g by Packy McCormick recommended PALM REPORT by Poolsuite</h2><table role=
+=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" class=3D"email-body-center" style=3D"margin: 0 auto; margin-bottom: =
+8px; margin-top: 32px;"><tr><td style=3D"border-top: 1px solid #e0e0e0; pad=
+ding-bottom: 16px; padding-top: 16px;"><img src=3D"https://substackcdn.com/=
+image/fetch/w_51.55555555555556,c_scale,f_png,q_auto:good,fl_progressive:st=
+eep/https%3A%2F%2Fsubstack.com%2Ficon%2FSubstackLogoIcon%3Fv%3D4%26height%3=
+D58%26strokeWidth%3D2" width=3D"26" height=3D"29" style=3D"border: none !im=
+portant; max-width: 25.77777777777778px; vertical-align: middle;" alt=3D"">=
+<div class=3D"icon-pile" style=3D"font-size: 16px; line-height: 26px; margi=
+n: 16px 0px;"><div class=3D"pub-and-pub-author" style=3D"align-items: cente=
+r; display: flex; font-size: 16px; line-height: 26px;"><div class=3D"pub-ic=
+on pub-icon stacked-icons" style=3D"border-radius: 4px; font-size: 16px; he=
+ight: 30px; line-height: 26px; margin-right: 8px; min-width: 30px; position=
+: relative; width: 30px;"><a href=3D"https://email.mg1.substack.com/c/eJx9U=
+MuOwyAM_Jpya8QjhOTAoZf9DeSASdkmEAFR1b9fmkqrPa1k-WCPxzNjoeKS8ktnBIf5mtGmbcPo=
+oIYUr7hBWMmeSjX1taMmR8FsgtNs4KOQ_UScpopbNZNQjM94HmiyH_Ma7MnxRpO7HuWoFOe8d4C=
+OeT_5SXA_Mjl4tNPMP0_gcAGjbY8-Mup5vep7rXu5iNuFf7V6Pp9dTHVOOcSls6mNSNCcckEZHZ=
+iSo-g70fGeDtLiBEqiAMk6GL7zsRd_6em2sK4cc6lgH41hI1n_Mrb14w4brueiWTFvMUcM9WUww=
+rxi01T_TezsZsGIuQXsDNSWmBKUq4kNPRs_bt_emgiXGjrq5orgH9gPagyKmA" native=3D"" =
+style=3D"color: #ff6719; text-decoration: none;"><picture><source type=3D"i=
+mage/webp" srcset=3D"https://substackcdn.com/image/fetch/w_64,h_64,c_fill,f=
+_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa=
+3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F62784289-29bb=
+-4fdf-9ada-642905c5a28b_400x400.png"><img src=3D"https://substackcdn.com/im=
+age/fetch/w_64,h_64,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A=
+%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpub=
+lic%2Fimages%2F62784289-29bb-4fdf-9ada-642905c5a28b_400x400.png" sizes=3D"1=
+00vw" alt=3D"Not Boring by Packy McCormick" srcset=3D"" width=3D"32" height=
+=3D"32" class=3D"frontend-components-responsive_img-module__img--1l4UG cust=
+om" style=3D"border-radius: 4px; display: flex; height: 100%; max-width: 10=
+0%; width: 100%;"></picture></a></div><div class=3D"profile-image-wrapper" =
+style=3D"display: inline-block; font-size: 16px; height: auto; line-height:=
+ 26px; max-width: 100%; position: relative;"><img height=3D"32" width=3D"32=
+" src=3D"https://substackcdn.com/image/fetch/w_64,h_64,c_fill,f_auto,q_auto=
+:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-=
+adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F40bee61d-67eb-4492-9ee1-e=
+bbbf2b03141_1280x855.jpeg" class=3D"user-profile-head" style=3D"border: non=
+e !important; border-radius: 50%; display: block; max-width: 550px; vertica=
+l-align: middle;"></div></div></div><div class=3D"describe-text" style=3D"f=
+ont-size: 16px; line-height: 26px; margin-bottom: 16px;"><div class=3D"fron=
+tend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__size=
+-16--yeezN frontend-pencraft-Text-module__line-height-22--2MbqA frontend-pe=
+ncraft-Text-module__weight-normal--mEmBf frontend-pencraft-Text-module__col=
+or-primary--2I-sF" style=3D"color: #404040; font-size: 16px; font-weight: 4=
+00; letter-spacing: -0.31px; line-height: 22px; margin: 0; text-decoration:=
+ unset;"><a class=3D"recommender-link" href=3D"https://email.mg1.substack.c=
+om/c/eJx9UMuOwyAM_Jpya8QjhOTAoZf9DeSASdkmEAFR1b9fmkqrPa1k-WCPxzNjoeKS8ktnBI=
+f5mtGmbcPooIYUr7hBWMmeSjX1taMmR8FsgtNs4KOQ_UScpopbNZNQjM94HmiyH_Ma7MnxRpO7H=
+uWoFOe8d4COeT_5SXA_Mjl4tNPMP0_gcAGjbY8-Mup5vep7rXu5iNuFf7V6Pp9dTHVOOcSls6mN=
+SNCcckEZHZiSo-g70fGeDtLiBEqiAMk6GL7zsRd_6em2sK4cc6lgH41hI1n_Mrb14w4brueiWTF=
+vMUcM9WUwwrxi01T_TezsZsGIuQXsDNSWmBKUq4kNPRs_bt_emgiXGjrq5orgH9gPagyKmA" st=
+yle=3D"color: #ff6719; text-decoration: none;">Not Boring by Packy McCormic=
+k</a> recommended <a class=3D"recommended-link" href=3D"https://email.mg1.s=
+ubstack.com/c/eJx9UDuOwyAQPU3ogvhjFxTb7DUQhrHDxgaEsazcfonTbLXSaIqZN_M-3jVYc=
+n2ZCi5AvVfwedsgBddiTnfYXFxRyXuz7VXAoGOHamMwVLGBSzGiYIhmXk8o7naucB0YVI5pjf76=
+8Uajh4FhZlINXIEigycizNR74bX2cvQC-IfEHSFC8p3oI6Nd16t5tFb2G_-6se9e53ni4tYNVyi=
+5tj5B0TDCOKFEUS0HLjDHTBAlPYxOS-BOUuzUTz3KPt8E2RaK92Pam_NP3KlQNSm3KdeYlr5-Pt=
+wG67XoTuxby5Fie1lIblqhS2r_BnZ1u0CC2vMN1rUemOaE6ZEqQYeP2be1LiLkjk6mm0LwB_YLz=
+02KMQ" style=3D"color: #ff6719; text-decoration: none;">PALM REPORT by Pool=
+suite</a>:</div></div><div style=3D"color: #808080; font-size: 14px; font-s=
+tyle: italic; font-weight: 400; letter-spacing: -0.15px; line-height: 20px;=
+ margin: 0; margin-bottom: 12px; text-decoration: unset;" class=3D"frontend=
+-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__size-14-=
+-1PYz8 frontend-pencraft-Text-module__line-height-20--1soeQ frontend-pencra=
+ft-Text-module__weight-normal--mEmBf frontend-pencraft-Text-module__color-s=
+econdary--XjVGl blurb-text">&quot;Poolsuite has taste.&quot;</div></td></tr=
+><tr><td style=3D"border-top: 1px solid #e0e0e0; padding-bottom: 16px; padd=
+ing-top: 16px;"><a href=3D"https://email.mg1.substack.com/c/eJx9UcuO3CAQ_Bp=
+zG4uHbewDh5VW-xsWhvYMWQMWj4zm79N4EinKIRLiUF3dVV1tdIF7TC-VQFtItwQmeg_B6uJiuI=
+HX7iBnzGUtrxMUqRnS6qxiE5_FOCzEKiq5kRtxed0TXA2KnHU7nLlmNDZ5KDlrRoFtVC5sn5dll=
+jNn2shJIDiP8i2iq3UQDAq9bZSr-1CPUs7ciY-Of-F7Pp_9qQ_fJzhjKg0UX7X4NceaDHTiM9ct=
+F22-Oz413IN11SN-2fsNmhgKKiCa4Kf2J9h_ts-3PbZEWjDYk2CHlFy4r7gd-kI_n4xSPhKnOOW=
+CMjoxOc5i6EXPBzqNBhYtRxB6ZL2efqR65r0bqL-z_o_BHgVJUiGWLbbZWP5-aA_HVWhCzVENrr=
+xWCHo7APMo_73W9a93CJDwuHbVBa8lBeWY_DSw-Z10yxVN2IjsoDBRAn_RfgFucLab" style=
+=3D"color: #ff6719; text-decoration: none;"><table class=3D"link-card" styl=
+e=3D"background: #f5f5f5; border-radius: 8px; padding: 16px; width: 100%;">=
+<tr><td><div class=3D"pub-icon pub-icon-margin subscribe-image" style=3D"bo=
+rder: none; border-radius: 4px; font-size: 16px; height: 40px; line-height:=
+ 26px; margin-bottom: 12px; margin-right: 10px; min-width: 30px; position: =
+relative; width: 40px;"><a href=3D"https://email.mg1.substack.com/c/eJx9kL2=
+OwyAQhJ8mdEH82nFBcc29BlrD2uFiAwKsKG9_xGmuOglts7PMfOOg4ZrKyxQEj-Va0KV9x-ihhR=
+SvuEPYSE612fbKaMhRsdjgDR_ETWo1EW_YKNw4k1DtUvA8MCQf8xbc-cdbTe5mWCR3YnY4TVIoP=
+0nltAauFlBcSSY-JnD4gNF1o0-Mdl5v5t5arhf5dRHf_T2fT5ph22nBnEojwQgmJONs4KO-SUUl=
+FYoNupvBqFGC5hSGn3LkulwU21dO6zHXBu5Buw8pJqY2pxLi2tePO-y4nYuOYd9Bjhjay2KEecO=
+ep_3b1jntihFLL9dbaL2tsSOOEx8Uv31I31w9hE9dHU0nIvhH9gsAWokZ" native=3D"" styl=
+e=3D"color: #ff6719; text-decoration: none;"><picture><source type=3D"image=
+/webp" srcset=3D"https://substackcdn.com/image/fetch/w_80,h_80,c_fill,f_web=
+p,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-43=
+7e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4264016-c551-469=
+4-b724-2f7add993fa8_1280x1280.png"><img src=3D"https://substackcdn.com/imag=
+e/fetch/w_80,h_80,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2=
+F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpubli=
+c%2Fimages%2Fc4264016-c551-4694-b724-2f7add993fa8_1280x1280.png" sizes=3D"1=
+00vw" alt=3D"PALM REPORT by Poolsuite" srcset=3D"" width=3D"40" height=3D"4=
+0" class=3D"frontend-components-responsive_img-module__img--1l4UG custom" s=
+tyle=3D"border-radius: 4px; display: flex; height: 100%; max-width: 100%; w=
+idth: 100%;"></picture></a></div></td></tr><tr><td><div class=3D"frontend-p=
+encraft-Text-module__reset--20JLV frontend-pencraft-Text-module__size-16--y=
+eezN frontend-pencraft-Text-module__weight-semibold--2XLPl frontend-pencraf=
+t-Text-module__color-primary--2I-sF subscribe-title" style=3D"color: #40404=
+0; font-size: 16px; font-weight: 600; letter-spacing: -0.31px; line-height:=
+ 20px; margin: 0; margin-bottom: 4px; text-decoration: unset;">PALM REPORT =
+by Poolsuite</div></td></tr><tr class=3D"subscribe-desc"><td><div class=3D"=
+frontend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__=
+size-14--1PYz8 frontend-pencraft-Text-module__weight-normal--mEmBf frontend=
+-pencraft-Text-module__color-primary--2I-sF" style=3D"color: #404040; font-=
+size: 14px; font-weight: 400; letter-spacing: -0.15px; line-height: 18px; m=
+argin: 0; text-decoration: unset;">An uplifting cocktail of content explori=
+ng &quot;the good life&quot;, served weekly</div></td></tr></table></a></td=
+></tr></table><div class=3D"cta" style=3D"font-size: 16px; line-height: 26p=
+x; margin-bottom: 16px; margin-top: 6px; padding-top: 10px; text-align: cen=
+ter;"><a role=3D"button" href=3D"https://email.mg1.substack.com/c/eJx9UkmO2=
+zAQfI10s8BFouSDDgGM-UAeIHBpyZwRSYHLGP79NOUEk-QQgCDAYldX9aJlhi3E5xxBGoiXCDo4=
+B97IbIO_gJN2b4-Q8pKfB8xtSRAXa2Yq2MSH_tqamYxMj6q1aVkjnIS5PYrarT5z1Oj2PrNBa76=
+uAyFKKjoJSgW9asUZm4Qwkr9EZDEWvEahl418svf5nvORGv6jYW94Ho9Hd8jddRGOEDMiqaiko1=
+XQ8LeS3ZJCiRoft_qRpf5omKi4A2OLQ_z0-QvUwWeUQjTCp3QHmH_akC5rqK2pHUKOLDn8LMrZS=
+smxAGIRVojR-m3B0tE0mr1RQtiAf-8FK0t282CWcnxzXh74zYesQuU2bOjJx1062DvUb-3MCOOE=
+EkHHYeJ9xzvWEzFouMpxAC4H2knxHsuR1qYnbqPd73pPfpy_U_-VuHqsBRZv83MBL9UO2Of83y0=
+472UDDxGXxiwy4xaMnLDxSkVPp9cE67zQhAkY7WecVAt_hH0B0rbWfA" class=3D"button pr=
+imary" style=3D"background-color: #FF6719; border: none; border-radius: 6px=
+; box-sizing: border-box; color: #ffffff !important; cursor: pointer; displ=
+ay: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI=
+', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emo=
+ji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; height: auto; li=
+ne-height: 20px; margin: 0; opacity: 1; outline: none; padding: 10px 24px; =
+text-align: center; text-decoration: none !important; white-space: nowrap; =
+width: 100%;"><div class=3D"frontend-pencraft-Text-module__reset--20JLV fro=
+ntend-pencraft-Text-module__size-14--1PYz8 frontend-pencraft-Text-module__l=
+ine-height-20--1soeQ frontend-pencraft-Text-module__weight-semibold--2XLPl"=
+ style=3D"font-size: 14px; font-weight: 600; letter-spacing: -0.15px; line-=
+height: 20px; margin: 0; text-decoration: unset;">Subscribe to PALM REPORT =
+by Poolsuite</div></a></div><div class=3D"footer frontend-email-shared-type=
+d-module__footer--WmMp1" style=3D"color: #808080; font-size: 16px; line-hei=
+ght: 26px; padding: 24px 0; text-align: center;"><div style=3D"font-size: 1=
+6px; line-height: 26px; padding-bottom: 24px;"><p class=3D"frontend-pencraf=
+t-Text-module__reset--20JLV frontend-pencraft-Text-module__size-12--2onFT f=
+rontend-pencraft-Text-module__color-secondary--XjVGl small frontend-email-s=
+hared-typed-module__meta--AAyPr" style=3D"color: #808080; font-family: -app=
+le-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: =
+12px; letter-spacing: 0; line-height: 16px; margin: 0; padding-bottom: 0; t=
+ext-decoration: unset;">&#169; 2023 <span>Substack Inc.</span><br>548 Marke=
+t Street PMB 72296, San Francisco, CA 94104 <br><a href=3D"https://email.mg=
+1.substack.com/c/eJx9UsmO4jAQ_RpyI_KShRxyYGigQQ0MSyfAJbIdB5xdiUMIXz9OmJH6NJ=
+JVdrmWV6r3GJH8VlSdW3ES8mpccVZkGc9DIkWRj3lGRKqVRS0D2ZXc1ZqaV4EIXWihCTYNRwtdY=
+CNmU03UQVTxocDVyoamgg09-mzt7jKLUwgp4CEDPAJR5IQGRcwABqVOZDlvENKEgudMAb3HkEN1=
+6t6lLOsRno7QQp26obUkLNFVknJJKZR9QGUGeHXnhRTR3wGU2-R9CasE5SO8kEXC8xH-4N0aMuR=
+1Z5Qmq7h4buOVsXl9g92xFeHSaYm_ETux7q7-Irme1xH79ARdpvHlfCgpMiOWeTFFUF59M3n_Ge=
+Jrti4v573YxXO0fW3aTczMzelSrzLPYLOVpd54e7o8d6fkuRWtIOftS2GLvvfXadrXv0J_1eM2F=
+B_Ka_YPz5Chb6rY-nXBCiP7FtFep3WOU2_WPXYPL_41mx-v49_-EZ_2H8soKz73NtpRPD_Q57TQ=
+hIsAwgACC9rmBBs61pEBLJNxh9gmx8SEOrHiqinraGSA7Ab1n4vWKldtlRaVyG8qnNxJxtMhoMg=
+OerqaXMgu4DmhKVesyf9qarDBjee8UhIMAyKVpmwMkO1Ay4CTtx569tUQYaGyc7dtW43_SPsD7Z=
+Xu-A" style=3D"color: #808080; text-decoration: underline;"><span style=3D"=
+color: #808080; text-decoration: underline;">Unsubscribe from this digest</=
+span></a></p></div><p class=3D"frontend-email-shared-typed-module__footerSe=
+ction--9vwqp small powered-by-substack" style=3D"color: #808080; font-famil=
+y: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,=
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font=
+-size: 12px; line-height: 20px; margin: 0; margin-top: 0; padding: 0 24px; =
+padding-bottom: 0;"><a href=3D"https://email.mg1.substack.com/c/eJx9Uc2OhCA=
+Mfhq5jUFAdA4cNtnMa5gK1WFHwGDNZN5-US972oQ0If3a76cWCOeUPyYjOMy3jDaFgNEB-RRvGM=
+AvbE0bDfRZ0bB9wzx4ZxotetmqO3OGd8J2I_PbMGU8Bwxb93Hx9txxoNnT8EaoybbQS9trjmriX=
+GkHk5gUF9riRQK78xhtIbpk0Dm9mCfRulXyqxKP8rZ93Ajsqy6g8oV1vepto5SxeHC--KBKPnYK=
+g4Wwgp9jJb8PTID8QvJxroQ-2ylSISrdU_ttSolKEONOlCLzRnAhecN107W9VLWsheK6tXiHrkU=
+JbVOD_sn7uk2V4mFu6r_qWDYx0Zjywaf46wkBl7NREhoOj3v09BkwwrhgsUr_HuKsw4wRc7mbG4=
+DKITrJRXdvtGr6K8QjsiLCpYKO5v1-M_wD-wVy06qV" style=3D"color: #808080; displa=
+y: inline-block; margin: 0 4px; text-decoration: none;"><img src=3D"https:/=
+/substackcdn.com/image/fetch/w_260,c_limit,f_auto,q_auto:good,fl_progressiv=
+e:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button%402x.=
+png" srcset=3D"https://substackcdn.com/image/fetch/w_130,c_limit,f_auto,q_a=
+uto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fge=
+neric-app-button.png, https://substackcdn.com/image/fetch/w_260,c_limit,f_a=
+uto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fema=
+il%2Fgeneric-app-button%402x.png 2x, https://substackcdn.com/image/fetch/w_=
+390,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.=
+com%2Fimg%2Femail%2Fgeneric-app-button%403x.png 3x" width=3D"130" alt=3D"Ge=
+t the app" height=3D"40" style=3D"border: none !important; max-width: 550px=
+; vertical-align: middle;"></a><a href=3D"https://email.mg1.substack.com/c/=
+eJx9UctuwyAQ_Bpzq8XDxvaBQ6Uqv4F4bBwaAxYPRfn7YqeVcqqEkJid3ZkdjCqwxvQUCZSF9JH=
+ARO8hWFVcDB_gldvQHnOR5bmDQDVDks4KwunMxmFBVuCJmkkjl-U1wdkg0F715sw542Cjm9CzUm=
+Rh1FBmLSyjppxoppmhfAJM8UtEVesgmCb0slHO7k3cStlzxz47emknV52LMve-kY6nW0PdO3apx=
+cscazLQsa8_Ukf5gXuwrvqGnw5_QRNDaSINvcZYICEnKKYME8zJNM5s6FlPB8xHA4uaRmBqJL3i=
+36nu-doN2K-kfzeDkgix6JhcWFv5flMetrPQApHHSjW48pQQlN6gbVb-zf285QoBUvsmK1VpuU8=
+M02khfCDzK7MjoWbCxsYO4vF4IHij_QC046QX" style=3D"color: #808080; display: in=
+line-block; margin: 0 4px; text-decoration: none;"><img src=3D"https://subs=
+tackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:ste=
+ep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png" srcs=
+et=3D"https://substackcdn.com/image/fetch/w_135,c_limit,f_auto,q_auto:good,=
+fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-but=
+ton.png, https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:go=
+od,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-=
+button%402x.png 2x, https://substackcdn.com/image/fetch/w_405,c_limit,f_aut=
+o,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail=
+%2Fpublish-button%403x.png 3x" width=3D"135" alt=3D"Start writing" height=
+=3D"40" style=3D"border: none !important; max-width: 550px; vertical-align:=
+ middle;"></a></p></div></div></td><td></td></tr></table><img src=3D"https:=
+//mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDIwMjMwMTA2MTc1OD=
+M0LjMuMjQwNjVjZTlhNzVlM2E1MS5hNmpydXBzZkBtZzEuc3Vic3RhY2suY29tPiIsInUiOjE2M=
+jgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcxLnN1YnN0YWNrLmNvbSIs=
+InAiOm51bGwsInQiOm51bGwsImEiOm51bGwsInMiOm51bGwsImMiOiJyZWFkZXItcmVjb21tZW5=
+kYXRpb24tZW1haWwiLCJmIjpmYWxzZSwicG9zaXRpb24iOiJib3R0b20iLCJpYXQiOjE2NzMwMj=
+c5MTYsImV4cCI6MTY3NTYxOTkxNiwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.tVjsh1ZX5hFW=
+r1yY1sV6Y-ed2GX7dFIdiXwd9GWdDFs" alt=3D"" width=3D"1" height=3D"1" border=
+=3D"0" style=3D"height:1px !important;width:1px !important;border-width:0 !=
+important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0=
+ !important;margin-left:0 !important;padding-top:0 !important;padding-botto=
+m:0 !important;padding-right:0 !important;padding-left:0 !important;"/><img=
+ width=3D"1px" height=3D"1px" alt=3D"" src=3D"https://email.mg1.substack.co=
+m/o/eJx9kM2OwyAMhJ9muTXiL1AOPAsy4KRsE4gIUdS3L00ve9qLZWnGnk8ToOFc6stWhIj1VjG=
+UdcUcoaWSb7hCWsg13YwZa7dHB80ypQXl2jAl2Z1ESzUP2pO0u6ni5bdkO_ySwvXIpWjJw3KFwc=
+hJaM9RgkKjOETDlTZBej0pspW9OThiwhzQki9Lu64v6bMkyykXlFHF9HgXchADl1SNAQ3oEQWMb=
+AD1W49tn34kXWc27IffG4Tn0B-SanNpvtSU5y4_H7Dicgmd130Sj5zay2EGv2DPa_92c-xYP1hM=
+8bsYpflyttfW8XtsLN2V7XmeBP-U9gZY337A"></body></html>

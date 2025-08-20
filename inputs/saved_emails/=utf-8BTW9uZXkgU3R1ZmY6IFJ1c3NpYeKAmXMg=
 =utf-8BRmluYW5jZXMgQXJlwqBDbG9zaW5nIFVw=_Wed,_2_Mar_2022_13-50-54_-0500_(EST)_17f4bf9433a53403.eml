@@ -1,0 +1,2018 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:7e8f:0:b0:1a3:7af1:224c with SMTP id l15csp23828lkh;
+        Wed, 2 Mar 2022 10:51:41 -0800 (PST)
+X-Received: by 2002:adf:806e:0:b0:1e3:2a17:bd60 with SMTP id 101-20020adf806e000000b001e32a17bd60mr22903154wrk.719.1646247101119;
+        Wed, 02 Mar 2022 10:51:41 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1646247101; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=iPy4M1J8YQUfNOpKflTjOXVz2cRstq6yzGJtfGx591T61OTbHHWBnjrchbAhkl0uzm
+         AIMcMlvj1Xggs3Grr1o18/50TuPGXzRA9noI9Xl6VXyDf/RFixXTVSSnBPkH5VJbEMDB
+         Umtgk0UwANEtt2slB+02TnzjZEa11O8htaalGCgEp24+/Di0V9YK33pD17U2rYdR1/Y9
+         +35P/I1b6tzmxO9UHTLR6IBn/hVft6HKYp2phu/5jRr/cGL+dytxro1MY4FxKMe8RG1u
+         zLipSK0e38PSf9i+Gs+1zZT2WTOryzWFaB2kmtaqcL95mO+LB6BcO7SverYrDH1KKB6u
+         sqEw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=opmyyUEdAgCFPItbdsWkaPHdap/Y7GIqUw6PgpvchcE=;
+        b=DMu3HpTsy5lE3NC/D4g/IQ+n0TCnid4Bi/O4RB9YbyuC3pXVwCOJ1ZFbg39kbVRXIi
+         qupXdMmQOAx2QLK1mtxZ1yCeBOs9p3uZG1vVS5Q+mShtpNuxCSYgahRZ2zMU8kZn+AxJ
+         ILM42q323oFs+SETBlKlY6X/WU55fuMUsgsKer4t9kAmur2xurOdVT7lhynFdIEw1ZQU
+         6AcaFipx7qIi5Yr2YHtlox1s2N48peQtm+0zU/EWafdPznb5hEuTP3H7OF6NKSwfLYEF
+         AJrbVcP+VaMN47NaA+EFElc7aqy4U0RfdzH0/AVoW7BpzIW6r7yE1jLIZWUDhwkklB85
+         FNTQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LZReDxwx;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l14-20020a7bcf0e000000b0038113e140dfsor138732wmg.6.2022.03.02.10.51.41
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 02 Mar 2022 10:51:41 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LZReDxwx;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=opmyyUEdAgCFPItbdsWkaPHdap/Y7GIqUw6PgpvchcE=;
+        b=dRvP8phqSGvMwAo6rxNFmp7SEasACeUiADQqmO/8MkbUbtbiYa7q9MJ/l01QBtNO00
+         CSVC5jGs1CwI3ftdyRjB/2AkTpMC6DdQsK18i3aDZgGPy3nEpdZ9hTulwvW/TNViiQw2
+         AFbbYe7TKG1LsbhElLJeybQwHrUA9Gmw3RcsockDxzeZcSBc46HniQcqiZWJMqH9GCDL
+         GEgk6np3B7mwiRzkN/0G794YeoPmLDQomadk5zT//MArX0Cbd3dZIZ199MNRac3d+dyN
+         VDgr4D4S5KEBiZQWXRKBAKdttBZaOckVR77swMrsXCWZ14hitMLTkP5NaEXecfkhCR2K
+         lc0Q==
+X-Gm-Message-State: AOAM533c1H7Ie7iWoLGrAZzWBhN89WHAmUPT3fn74wuHJzYiGZBZnC8K
+	ubNP7fYjtpVD8RM4bRiZvIBiGsThTKNDa00d+A4kCkffIVqII56o5g==
+X-Received: by 2002:a1c:a186:0:b0:385:31c:4b2d with SMTP id k128-20020a1ca186000000b00385031c4b2dmr945439wme.7.1646247100859;
+        Wed, 02 Mar 2022 10:51:40 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:9f4b:0:0:0:0:0 with SMTP id f11csp393821wrg;
+        Wed, 2 Mar 2022 10:51:37 -0800 (PST)
+X-Received: by 2002:a05:6870:f697:b0:d7:5679:8fc8 with SMTP id el23-20020a056870f69700b000d756798fc8mr1000089oab.172.1646247097589;
+        Wed, 02 Mar 2022 10:51:37 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1646247097; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=IsqFysE90CFPfBUjLoF73EFTMv9CvbXHmgki/EwHF+Oe5tY9MVn+yWu7Meg1xDIsMx
+         D6TxAjLZ4MpVRLuf+v1jFtzCw97FOLWLjx8lp9tLYQkFeZSYXELY/Mr/gRhAo1TgQ3wY
+         623xVP2QNUryIefHdm4LJ4Gil4N8ysnqkufaVOdjRT62BzVq1c50xqBNaZUWsqpQ6Vbr
+         MjouXlCzqV9xDgwha/AQFV0s0CRipKakA6Qzl4ggCaFeI4sz5fL9Q3IaEQn2ebPvEcF6
+         cxiK1UwQJCQ9qP/vcmD6Q0YlglJReEuUbbjni/+q18eChYaEAwNnh/JP+RMyhSmAwWam
+         zDqA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=opmyyUEdAgCFPItbdsWkaPHdap/Y7GIqUw6PgpvchcE=;
+        b=YUt20S6PZrNAJkbgC1y/OPtDF/1MWIFLqIv/j4Iqs1GIG9MwQpIcHU/w4jv6nPfi6g
+         PE9CcCG6hT1qpbL38Y/Aj9G9czjplDynbfTxbq32/gyFs2R9CEFkEHjLiQ6DNbJZUK1m
+         fChxu0P0GsUgeS6j4XaTv4P7BM5jM2/12beKn6xEkYU1uqEVEmayFMCd6lAFl8TPzka6
+         MWqdfYGqoN4J4qDisYsDKP7cyvvT0n5mBdZYUXqP4/Nnne8FrX6DdLXdjmxQ4689oCQc
+         F4YDiSfK1bd2aAA9BdyLJOpBoxNxvChsWTqFG7JgB8sgM68vBfVAyZkoYmtoUqqBVIrj
+         hf2A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LZReDxwx;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220302135054.26886847.262605@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220302135054.26886847.262605@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220302135054.26886847.262605@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 11-20020a9d060b000000b005afb14cee5asor2441528otn.67.2022.03.02.10.51.37
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 02 Mar 2022 10:51:37 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20220302135054.26886847.262605@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzjtfGX//MIN66zG51An3FTwL2zruHHSA0KfeRYJDxIsSrE4+I+RGG9Nt4BvAqaZorqkHtMigccOT5WgmWDxq6DTBh5MEw=
+X-Received: by 2002:a05:6830:4183:b0:5ac:e256:2fc3 with SMTP id r3-20020a056830418300b005ace2562fc3mr16114451otu.225.1646247097262;
+        Wed, 02 Mar 2022 10:51:37 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1646247097; cv=none;
+        d=google.com; s=arc-20160816;
+        b=a6ErXm/IoSTOz9e97QNg4FhfdjMTLje3wQ9pDK/dbvSn6hVj5eOiFpireTvX8SFQQy
+         2W38qlwUfxz00kEns+u/IN4WX5boGfPwv81EoNIySnST1udHQm1xtFwIqAcQc0BVIKMF
+         VawYQAfrMiXkx9byc2wfA2zT4CPmHAp++wZnY8JjTzoUXlYAVkp+YLu3daychhxBM8e+
+         j4R3gRMAjajC2sTTPyACwFIo4Uaa0P/wI06kG6ZAPpkHPo8kpZYXel/xlKmbllyxLiEu
+         Ni6HWdu6LJcRj7pCdTsA9TNa4G5hBA6s/DO7o3VY+/rI3vTXpjgDU5sSfKcWj+kDAify
+         Fzfw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=opmyyUEdAgCFPItbdsWkaPHdap/Y7GIqUw6PgpvchcE=;
+        b=R2MJocXTWLoayYnJGzWnztBaShpNzm0xk2HzcV2ER5zyiAc+I7tus1eQ6ws2H5ciDL
+         MOxXQaznirpsayfNKge9uCRhEGuA9jAE3bY/4Wufd4nP+Nn/yV62sqZHgZg5DUKazkxS
+         1Sj4Agp9HTNL2TNnRUE8Wnf/Gchefxd3t+lgqV2n9+bRYiiVxRN1y3I49rFOrgDko+GA
+         Ik5Y6vL9QAc3/+fDuQUVfFtLHf0g0CktLX6C7oso3iJMbfo8OGTfZU6RrnIiTPGWl7KM
+         1kKbfUcgf58wXlZlNbDxqMj7VnZVGdVmwLM28kCTYLWH1adqNc/Djt7t1pUbAXZ++2zr
+         q8ww==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LZReDxwx;
+       spf=pass (google.com: domain of delivery_20220302135054.26886847.262605@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220302135054.26886847.262605@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220302135054.26886847.262605@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id o7-20020a9d7187000000b005ad53a5e2cdsi1083547otj.5.2022.03.02.10.51.36
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 02 Mar 2022 10:51:37 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20220302135054.26886847.262605@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=8K9CrWQ3AsbTfTnfa5BA2eUfcoZESzBTp7XqHlbD0rw=;
+ b=LZReDxwxfoWq1YxT9wC22brVnMwJXSYxdCQn/SSXpqvUpYdBDrZxvHiJHK0jUzJHBm7kOONo9Hz6
+   goS2W5ZaIvYEsrG+QXMSkcyNu0+ScBlKPyoVxs3/vsAX/RgnLObNfEVURvid8YB3rXINiwMyXBhb
+   klc1EMpvsaslmNN+UIc=
+Received: from njmta-180.sailthru.com (173.228.155.180) by pmta29.sailthru.com id h3uubg2sd4s2 for <bloomberg@khamel.com>; Wed, 2 Mar 2022 13:51:36 -0500 (envelope-from <delivery_20220302135054.26886847.262605@mx.sailthru.com>)
+Received: from nj1-wetcarmine.flt (172.18.20.5) by njmta-180.sailthru.com id h3uubg1qqbsv for <bloomberg@khamel.com>; Wed, 2 Mar 2022 13:50:54 -0500 (envelope-from <delivery_20220302135054.26886847.262605@mx.sailthru.com>)
+Date: Wed, 2 Mar 2022 13:50:54 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220302135054.26886847.262605@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IFJ1c3NpYeKAmXMg?=
+ =?utf-8?B?RmluYW5jZXMgQXJlwqBDbG9zaW5nIFVw?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_101237089_1338569635.1646247054422"
+Precedence: bulk
+X-Feedback-ID: 6358:26886847:campaign:sailthru
+X-TM-ID: 20220302135054.26886847.262605
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetcarmine.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg0a0v.5mml/42807e85
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg0a0v.5mml/42807e85>, <mailto:unsubscribe_20220302135054.26886847.262605@mx.sailthru.com>
+X-rpcampaign: stjko26886847
+
+------=_Part_101237089_1338569635.1646247054422
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Sanctions, etc.A week ago Russia was a more or less well-integrated=
+ part of the global financial system. Shares of Russian companies traded=20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Sanctions, etc.
+   =20
+ =20
+A week ago Russia was a more or less well-integrated part of the global fin=
+ancial system. Shares of Russian companies traded in Europe and the U.S., R=
+ussian companies issued bonds to global investors and did joint ventures wi=
+th global companies, Russian commodities were sold abroad for dollars and e=
+uros, Russian airlines leased planes from Irish finance companies, everythi=
+ng was just part of an international web of contracts and transactions.It i=
+s possible that, say, a year from now none of that will be true. It is poss=
+ible that Russia will continue invading and occupying Ukraine and killing c=
+ivilians there, that international sanctions against Russia will continue a=
+nd become harsher, and that even beyond legal sanctions international compa=
+nies and investors will avoid dealing with Russia due to public pressure or=
+=C2=A0worries about risk . And in a year shares of Russian companies will t=
+rade only in Russia, Russian companies will not get financing from abroad, =
+there will be no joint ventures, they=E2=80=99ll own their own planes made =
+in Russia, etc. (Or, more plausibly, Russia will maintain financial ties to=
+ some foreign countries, mainly China, but will be shut out of broader inte=
+rnational markets.)=C2=A0But the transition between those two states is ext=
+remely  complicated and uncertain. For instance,  we talked yesterday about=
+ how international oil companies own stakes in Russian joint ventures, and =
+do not want to own them anymore. But who do they sell them to? I wrote abou=
+t BP Plc=E2=80=99s plan to exit its joint venture with Rosneft PJSC:I suppo=
+se you could donate them back to the company =E2=80=94=C2=A0call up Rosneft=
+ and say =E2=80=9Ccancel our shares, don=E2=80=99t bother paying us=E2=80=
+=9D =E2=80=94=C2=A0but I am not sure that that=E2=80=99s a good way to impo=
+se sanctions=C2=A0on Russia; it is in some sense=C2=A0good=C2=A0for Rosneft=
+ (or Shell=E2=80=99s Russian partners in its joint ventures, etc.) to cance=
+l equity claims on its business=C2=A0for free. If you=E2=80=99re writing th=
+e assets down to zero anyway I suppose one option (depending on the mechani=
+cs of the sanctions regime) is to give them to charity; there would be some=
+thing a bit satisfying about a Ukraine relief charity owning 20% of Rosneft=
+.=C2=A0The realistic answer, though not a great one, is to donate the share=
+s to Rosneft, and apparently  Exxon is doing that with its JV:Exxon Mobil C=
+orp. plans to hand over its stake in a Russian oil development to Kremlin-c=
+ontrolled Rosneft PJSC and other partners as sanctions make it harder to op=
+erate in the country. =E2=80=A6Exxon, Rosneft and their Japanese and Indian=
+ partners have been harvesting crude from a cluster of subsea fields off th=
+e coast of Sakhalin Island since 2005. Exxon valued the asset at $4 billion=
+ on its balance sheet, according to company documents. =C2=A0In some rough =
+accounting sense the result of this decision is that Exxon is giving Rosnef=
+t $4 billion, though that is probably not the right way to look at it in th=
+e long run.[1]Or, it is one thing to say =E2=80=9Cinternational investors s=
+hould not buy Russian government bonds,=E2=80=9D but right now internationa=
+l investors=C2=A0do=C2=A0own Russian government bonds. But they can=E2=80=
+=99t sell them, and they=C2=A0can=E2=80=99t get paid:Russia paid a=C2=A0cou=
+pon=C2=A0due on ruble bonds on Wednesday, but it=E2=80=99s not clear how fo=
+reigners will be able to access the cash after the central bank banned tran=
+sfers to foreign investors.Investors are still scrambling to understand whe=
+ther or not the bonds could be in default even after the 11 billion ruble (=
+$98 million) payment that was widely expected. The Bank of Russia has intro=
+duced capital controls in a bid to avert a ruble collapse after its foreign=
+ reserves were frozen by international governments in response to Russia=E2=
+=80=99s invasion of Ukraine.=C2=A0The restrictions could leave foreign inve=
+stors who held almost 3 trillion rubles ($29 billion) in the so-called OFZ =
+debt at the start of February unable to collect income on their holdings --=
+ raising the specter of the nation=E2=80=99s first debt default since 1998.=
+ The transfer of the coupon was=C2=A0reported=C2=A0Wednesday afternoon on t=
+he website of the National Settlement Depositary. =C2=A0=C2=A0=E2=80=9CUnle=
+ss it reaches all holders, they can=E2=80=99t deny default,=E2=80=9D=C2=A0P=
+aul McNamara, a portfolio manager at GAM Investments, said of the coupon on=
+ Wednesday. =E2=80=9CThey can=E2=80=99t say they paid with any conviction.=
+=E2=80=9DIn addition to a broader presidential decree on capital controls o=
+n Monday, the central bank communicated separately to brokers that there wo=
+uld be a temporary ban on the transfer of payments abroad. The regulator su=
+bsequently confirmed the decision in an emailed comment to Bloomberg. On Mo=
+nday, the Interfax news service reported the suspension will be in effect f=
+or half a year unless the regulator lifts it ahead of time.=C2=A0=E2=80=9CI=
+ssuers have the right to make decisions on the payment of dividends and the=
+ making of other payments on securities and transfer them to the accounting=
+ system,=E2=80=9D the central bank said in an emailed reply to questions on=
+ Tuesday. =E2=80=9CHowever, the payments themselves will not be made by dep=
+ositories and registrars to foreign clients. This also applies to OFZ.=E2=
+=80=9DBasically the way bond interest works is that the issuer (the Russian=
+ government or a=C2=A0Russian company) wires some money at one end, and the=
+ bond holder gets wired the money at the other end, and in between there is=
+ a series of intermediaries (trustees, banks, depositories, brokers) who pa=
+ss the payments along. Right now, broadly speaking, the intermediaries in R=
+ussia are not allowed to pass payments along to foreigners.=C2=A0Meanwhile =
+the main intermediaries=C2=A0outside=C2=A0Russia are also starting to decli=
+ne payments from Russia:The world=E2=80=99s biggest settlement systems Euro=
+clear and Clearstream are no longer handling Russian assets -- reversing th=
+e=C2=A0much-heralded=C2=A0opening of the local debt market to international=
+ investors nine years ago.=C2=A0Though this door is  not closing entirely:G=
+azprom PJSC, the Russian state-controlled energy giant, is already in the p=
+rocess of settling a $1.3 billion debt due on Monday.The company wired the =
+cash on Feb. 28 to the settlement bank, which will probably release the fun=
+ds on March 4, a person familiar with the matter said, declining to be iden=
+tified because the information is private. Gazprom also has a coupon paymen=
+t nominally due a day earlier on a Swiss franc debt, which the person said =
+will also be paid.It=E2=80=99s a reprieve for Gazprom=E2=80=99s bonds, whic=
+h lost about half of their value in just over a week as investors fretted o=
+ver whether the company will settle next week=E2=80=99s payments.=C2=A0Obse=
+rvers of sovereign debt crises might remember=C2=A0Argentina=E2=80=99s 2014=
+ debt default: Argentina had the money to pay interest on its bonds, and wa=
+nted to pay interest on its bonds, and it actually showed up at the bank (i=
+n Argentina) with the money, but a New York federal court had prohibited va=
+rious intermediaries from transferring the money from Argentina to the hold=
+ers.[2]=C2=A0At first this struck Argentina, and the intermediaries, and th=
+e holders, as somewhat absurd, but the judge was serious, the money didn=E2=
+=80=99t get transferred, and Argentina defaulted on its debts until it coul=
+d mollify the New York judge and he freed up the payments intermediaries. H=
+ere there are a lot of relevant authorities and it is hard to see them all =
+being satisfied enough to avoid any defaults.The Argentina crisis also nota=
+bly featured a seizure of an Argentine naval vessel as purported collateral=
+ for the country=E2=80=99s foreign debts. Here are some nautical seizure cl=
+aims about the current crisis:Buried in Article I, Section 8 of the U.S. Co=
+nstitution is a federal power that will probably be unfamiliar to a laypers=
+on. Among the powers granted Congress, it reads, is that to =E2=80=9Cgrant =
+Letters of Marque and Reprisal, and make Rules concerning Captures on Land =
+and Water.=E2=80=9D So what does that mean? It means the federal government=
+ is authorized by the Constitution to issue documents (letters of marque) t=
+hat empower private individuals to legally seize foreign vessels.On Monday,=
+ Rep. Lance Gooden (R-Tex.) introduced the idea once again in the context o=
+f the yachts and jets owned by those oligarchs. In broad strokes, the theor=
+y is that the government would establish a system allowing private individu=
+als to seize the vessels and, eventually, make them their own. So instead o=
+f that Ukrainian mechanic sinking his Russian boss=E2=80=99s yacht, he coul=
+d theoretically have gotten some friends together, sailed it away from port=
+ and become its new owner.You can see how there might be some legal questio=
+ns here.I do not think that a revival of=C2=A0privateering=C2=A0is the most=
+ likely outcome of this war but you never know.[3]
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Dollar hegemony
+   =20
+ =20
+One way to interpret this situation is that there is a thing called =E2=80=
+=9Cthe international financial system,=E2=80=9D and being in it is good, an=
+d being kicked out of it is bad. The international financial system is enor=
+mously powerful, it allocates capital, and if you get kicked out then you c=
+an't do various sorts of commerce anymore.Another way to interpret this sit=
+uation is that there is some amount of fluidity in what constitutes the int=
+ernational financial system. There is sort of a main network of that system=
+: The U.S. dollar, and the=C2=A0payment rails and messaging systems and cor=
+respondent banks and central banks=C2=A0that work with the dollar, and the =
+currencies and systems of the main U.S. allies, are basically what you need=
+ to use to participate in the international financial system even if you ar=
+e not particularly a U.S. ally.But every time the U.S. and its allies kick =
+a country off this system, it goes and finds other systems and rails and cu=
+rrencies to use to trade. And=C2=A0other=C2=A0countries, countries that hav=
+e not been kicked off the main network but who are not necessarily aligned =
+with the U.S. in every way, think that the main network looks a bit less at=
+tractive: For one thing, a big potential trading partner=C2=A0has been kick=
+ed off of it and is now trading on some other system. For another thing, th=
+e main system is visibly a=C2=A0tool of political power, and if you are not=
+ aligned with the U.S. you might worry about one day being kicked off the s=
+ystem yourself. So you get more interested in trying out alternative system=
+s now, before you need them. And so kicking Russia out of the dollar-based =
+international financial system makes it more likely that that system will b=
+e replaced, over time, by something else. The main alternatives people talk=
+ about these days seem to be (1) the Chinese yuan, the currency of the othe=
+r giant economic power that is not particularly aligned with the U.S. (and =
+that is looking to project a competing financial system) and (2) crypto, wh=
+ich has a very self-conscious ethos of not being under the control of any g=
+overnment.In this theory, it is not simply good to be in the international =
+system and bad to be kicked out of it. There is a recoil, each time someone=
+ is kicked out of the system; the system is weakened each time it exercises=
+ its power.Anyway that=E2=80=99s a theory. I am somewhat skeptical of it, f=
+or reasons that I  wrote about on Monday. But here is a  Bloomberg =E2=80=
+=9COdd Lots=E2=80=9D podcast with Zoltan Poszar; from the episode summary:R=
+ussia=E2=80=99s invasion of Ukraine could mark the beginning of a turning p=
+oint for the U.S. dollar, according to money market guru Zoltan Pozsar.Spea=
+king on Bloomberg=E2=80=99s Odd Lots podcast, the global head of short-term=
+ interest rate strategy at Credit Suisse AG noted that wars tend to turn in=
+to major junctures for global currencies, and with Russia losing access to =
+its foreign currency reserves, a message has been sent to all countries tha=
+t they can=E2=80=99t count on these money stashes to actually be theirs in =
+the event of tension. As such, it may make less and less sense for global r=
+eserve managers to hold dollars for safety, given that they could be taken =
+away right when they=E2=80=99re most needed.And here is Rana Foroohar argui=
+ng that one consequence of Russia=E2=80=99s invasion of Ukraine =E2=80=9Cwi=
+ll be a quickening of the shift to a bipolar global financial system =E2=80=
+=94 one based on the dollar, the other on the renminbi.=E2=80=9DHere on the=
+ other hand is Alan Cole arguing that it is unlikely:=C2=A0The U.S. has sub=
+stantial reserves of credibility to draw on here. Few dollar users, if any,=
+ are likely to commit the same offenses as Russia or draw the same punishme=
+nt. Furthermore, as European allies have joined the effort, there aren=E2=
+=80=99t alternatives to the U.S. system.In freezing reserves and oligarch a=
+ssets retroactively while allowing future oil transactions to go through, t=
+he U.S. and European governments may succeed at a kind of policy coup, wher=
+e some of Russia=E2=80=99s past accumulated wealth from oil exports gets co=
+nfiscated, and yet, it still suffers no incentive to stem future oil produc=
+tion. =E2=80=A6Financial commentators love talking about the dollar losing =
+its status as reserve currency, because it gives them a permission structur=
+e to wildly speculate. But there is little constituency for a Russia-friend=
+ly financial system among the world=E2=80=99s largest economies. And for co=
+untries seeking a relatively neutral and rules-based system free of geopoli=
+tics, China isn=E2=80=99t a very good alternative anyway. (It has a variety=
+ of idiosyncratic foreign policy demands of its own, and regularly uses eco=
+nomic might to help reinforce them.)
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      The tax angle
+   =20
+ =20
+Elsewhere in privateering, here=E2=80=99s an apparently real notice from In=
+terfax-Ukraine:No need to declare captured Russian tanks, other equipment o=
+f invaders as income =E2=80=93 NAPCUkraine's National Agency for the Protec=
+tion against Corruption (NAPC) has declared that captured Russian tanks and=
+ other equipment are not subject to declaration."Have you captured a Russia=
+n tank or armored personnel carrier and are worried about how to declare it=
+? Keep calm and continue to defend the Motherland! There is no need to decl=
+are the captured Russian tanks and other equipment, because the cost of thi=
+s ... does not exceed 100 living wages (UAH 248,100)," NAPC's press service=
+ said. =E2=80=A6"Speaking by the letter of the law, combat trophies are not=
+ subject to reflection in the declaration for the following reasons: they w=
+ere acquired not as a result of the conclusion of any type of transaction, =
+but in connection with the full-scale aggression of the Russian Federation =
+on February 24, 2022 against the independent and sovereign Ukrainian state =
+as a continuation the insidious attack of the Russian Federation on Ukraine=
+ launched in 2014. Thanks to the courage and victory of the defenders of th=
+e Ukrainian state, enemy military equipment usually comes to you already de=
+stroyed and disabled, which makes it impossible to evaluate it in accordanc=
+e with the law On the valuation of property, property rights and profession=
+al valuation activities in Ukraine. Therefore, it is also impossible to fin=
+d out how much such property costs,=E2=80=9D the NACP said.This strikes me =
+as sensible tax policy. For one thing, taxing anything tends to discourage =
+that thing, and clearly the Ukrainian government wants to encourage its cit=
+izens to capture Russian tanks. For another thing, surely the stated reason=
+ing is correct and it is hard to get a market value for a disabled Russian =
+tank; if you can=E2=80=99t sell it in a ready market it is a bit harsh to h=
+ave to pay taxes on it. Presumably the main motive for this press release i=
+s not so much to get the tax policy right but rather to demonstrate some in=
+credible wartime sangfroid, but the tax policy also seems right.
+ =20
+   =20
+      I must study electronic trading so that my son may get into crystals =
+and run my ESG department
+   =20
+ =20
+Here=E2=80=99s Thomas Peterffy=E2=80=99s story:Before building a net worth =
+of $21.5 billion on Wall Street, Thomas grew up in communist Hungary, immig=
+rated to the U.S. at the age of 21 knowing no English, and saved up to buy =
+a seat on the American Stock Exchange. He became an early player in electro=
+nic trading, building a company that used computers to transact in financia=
+l markets and eventually evolved into a broker that sells professional-qual=
+ity trading software to individual investors and money managers, including =
+hedge funds. He=E2=80=99d achieved the fantasy of amassing an unimaginable =
+fortune.Here=E2=80=99s his son  Will Peterffy=E2=80=99s story:He=E2=80=99s =
+been a ranch hand in Colorado; an organic farm worker in California; a stud=
+ent of yoga, sound therapy, and Chinese medicine; a board member for an env=
+ironmental advocacy organization; and a post-production associate for a 10-=
+part documentary series on =E2=80=9Carchetypal astrology.=E2=80=9D He serve=
+d time at two investment firms, for about nine months apiece, but those sti=
+nts left him =E2=80=9Cheart-crushed=E2=80=9D and pushed him in 2016 to go, =
+with his dog Bowie, from New York to New Mexico in hopes of absorbing the h=
+ealing powers of the desert. =E2=80=A6In late November he visited friends f=
+or dinner at their regenerative farm. A citrine crystal, believed to symbol=
+ize positivity and new beginnings, sat nearby as he feasted on braised lamb=
+ shoulder, mashed potatoes, arugula, beet sauerkraut, and a punchy fermente=
+d hot sauce=E2=80=94a meal his friends prepared using only crops and animal=
+s raised on their farm, except for a bit of clarified butter and a few glug=
+s of olive oil. =E2=80=A6More than two years earlier he=E2=80=99d joined hi=
+s father=E2=80=99s company, a giant trading platform called Interactive Bro=
+kers Group Inc. Rather than become a sales rep or data analyst, he carved o=
+ut a role more simpatico with his worldview. Not unlike when he was 7 and m=
+ade the case for getting a pet ferret, he pitched his dad on a big idea: th=
+at he could become the company=E2=80=99s first director of environmental, s=
+ocial, and governance (ESG) affairs, helping to make the firm a better stew=
+ard of the Earth and society. Interactive Brokers would reduce its environm=
+ental footprint, boost gender and racial diversity, and, in the triple-bott=
+om-line spirit, draw a whole new set of younger customers who want to inves=
+t in companies doing the same. =E2=80=9CWe=E2=80=99ve been saturated with t=
+his idea that we are separate=E2=80=94we are separate from each other, we a=
+re separate from the Earth, we are separate from nature=E2=80=94and it=E2=
+=80=99s just not true,=E2=80=9D he says. =E2=80=9CWe=E2=80=99re very connec=
+ted with each other. All life is connected. And it=E2=80=99s not even woo-w=
+oo.=E2=80=9DAnd he should know what=E2=80=99s woo-woo.=C2=A0I suppose that =
+if you make billions of dollars in financial services your kids will have s=
+ome tendency to become documentary film producers and look down on financia=
+l services as grubby capitalism while cashing checks from their trust funds=
+. But ESG is, among other things, a way for financial-services billionaires=
+ to bond with their alternative-healing-curious children. =E2=80=9CDad, I=
+=E2=80=99ve decided that I don=E2=80=99t want to work in sales or data at t=
+he family brokerage, because that is bad capitalism and separates me from n=
+ature, but I could be your director of ESG. This idea that your electronic =
+brokerage firm is separate from the earth, it=E2=80=99s just not true, I th=
+ink that with the right set of crystals I could really=E2=80=94=E2=80=9D =
+=E2=80=9CSounds great, Junior, I=E2=80=99m just happy to have you aboard, g=
+ive me a hug.=E2=80=9DImagine being the=C2=A0deputy director of ESG at Inte=
+ractive Brokers. Presumably you got hired based on your background doing ES=
+G initiatives at major financial firms.=C2=A0Presumably you think of ESG as=
+ a real career path in finance, and you have spent your career building exp=
+ertise in the theory and practice and complex accounting of ESG.=C2=A0But y=
+ou=E2=80=99ve got to compete with financial-services heirs, and British-mon=
+archy heirs for that matter. ESG is, somewhat paradoxically, an attractive =
+area of finance for people who don=E2=80=99t care about finance but do like=
+ the money it provides.
+ =20
+   =20
+      Tim! Leissner!
+   =20
+ =20
+This  guy!Former Goldman Sachs Group Inc. banker Tim Leissner testified tha=
+t after the FBI handed him a grand jury subpoena tied to the 1MDB scandal, =
+he consulted a feng shui master to see if more trouble lay ahead over the n=
+ext decade.Leissner, the U.S. government=E2=80=99s key witness in the trial=
+ of former Goldman colleague Roger Ng over the multibillion-dollar scam to =
+loot Malaysia=E2=80=99s wealth fund, told a federal jury on Tuesday that it=
+ was Ng who suggested the consultation. He said the master=E2=80=99s report=
+ predicted that =E2=80=9CI would have an issue with authorities for the fir=
+st half of the 10 years but then it would be resolved.=E2=80=9D =E2=80=A6Le=
+issner told the jury he gave Ng the time and date of his birth for the feng=
+ shui reading. He said he and his ex-wife Judy Chan then met with Ng and hi=
+s wife, Hwee Bin Lim, at a Hong Kong hotel in 2016 to discuss the report, w=
+ith Chan translating for Leissner because he doesn=E2=80=99t read Chinese.L=
+eissner testified that he was trying to figure out if he was a target of th=
+e U.S. investigation into 1MDB and Goldman Sachs, a subject of the probe or=
+ merely a witness.=C2=A0He did all the crimes! Like he took tens of million=
+s of dollars of bribes for himself, and he=E2=80=99s wondering if he=E2=80=
+=99s merely a witness? And yet here he is, six years later, testifying as a=
+ witness. Though after pleading guilty himself.Leissner  has previously tes=
+tified that an ex-girlfriend (not Chan!)=C2=A0blackmailed him into buying h=
+er a $10 million house by threatening to expose the 1MDB crimes, so I suppo=
+se you can have some doubts about the translation. =E2=80=9CThe feng shui m=
+aster says you are gonna have trouble with the authorities unless =E2=80=A6=
+=C2=A0it says here unless you give all your money to your ex-wife? Well, fe=
+ng shui works in mysterious ways.=E2=80=9D Anyway it=E2=80=99s been six=C2=
+=A0years since this reading and Leissner is still awaiting sentencing for a=
+ll the crimes he has confessed to so there were at least some inaccuracies.
+ =20
+   =20
+      Duration
+   =20
+ =20
+Here=E2=80=99s a weird trade:Bruce Sawyer, a retiree living in North Caroli=
+na, said that last year he was offered a $1,000 credit on his new Ford F-15=
+0 purchase if he took out a loan from Ford=E2=80=99s lending arm. The incen=
+tive came from the lender, he was told. He had intended to pay cash, but ca=
+me around to the financing after talking with a friend who had encountered =
+a similar deal about a decade earlier.Mr. Sawyer took a $31,000 loan with a=
+ 6.74% interest rate, then paid it in full a few weeks later. =E2=80=9CThey=
+ said, you can pay it all off as soon as you want to,=E2=80=9D Mr. Sawyer s=
+aid. He estimates that he paid roughly $100 in interest, which was more tha=
+n offset by the financing credit.A spokeswoman for Ford said =E2=80=9Ccusto=
+mers may choose to pay off before the end of the loan term, which they are =
+welcome to do with no prepayment penalty.=E2=80=9D A dealership representat=
+ive didn=E2=80=99t return requests for comment.=C2=A0If you are a bank, or =
+a financing arm of a car company, you want to originate loans these days. L=
+oans are valuable to=C2=A0you: The expected payments from the loan (6.74% p=
+er year for typically five years) are higher than the amount you are paying=
+ for the funding, even taking into account the risks of default (some peopl=
+e won=E2=80=99t pay back their loans) and prepayment (some people will pay =
+back their loans early with no penalty, so you won=E2=80=99t get the 6.74% =
+anymore). This is true enough at a statistical level that you sort of don=
+=E2=80=99t care if it=E2=80=99s true at an individual level. So you offer e=
+veryone $1,000 to take out a loan, figuring that most of them will keep the=
+ loan outstanding for a long time and pay you more in interest over five ye=
+ars than you are paying them in incentives. And then some people will show =
+up with cash, you=E2=80=99ll pay them $1,000 to take out a loan instead, th=
+ey=E2=80=99ll pay off the loan a week later and be a bit mystified by why t=
+hey had to go through all that.
+ =20
+   =20
+      NFT Stuff
+   =20
+ =20
+I guess a good financial product is a vending machine where (1) you put in =
+money and (2) the machine gives you a receipt verifying that you put in the=
+ money? I mean. That=E2=80=99s a good financial product for the owner of th=
+e machine? I don=E2=80=99t know why you=E2=80=99re putting in the money tho=
+ugh. I don=E2=80=99t know anything:It=E2=80=99s easy to miss the storefront=
+ that is home to the =E2=80=9Cworld=E2=80=99s first NFT vending machine=E2=
+=80=9D in Manhattan=E2=80=99s financial district. Squished between a sandwi=
+ch shop and a tailor, the windows are bathed in pink neon light, with glowi=
+ng letters that announce =E2=80=9CNFT ATM.=E2=80=9D When you walk through t=
+he entryway, you enter a tiny booth with the vending machine, filled with r=
+ows of little paper cartons, looking almost like cigarette packs. There are=
+ only two products: a =E2=80=9Ccolor=E2=80=9D for $5.99 and a =E2=80=9Cpart=
+y pigeon=E2=80=9D for $420.69. ...I didn=E2=80=99t think my editor would be=
+ thrilled with the pigeon, so I bought a color. This, it turns out, meant a=
+ piece of paper inside the carton with a randomly generated code that would=
+ allow me to =E2=80=9Cmint=E2=80=9D an NFT, claiming ownership over one of =
+10,000 different colors. Birnholtz tried to clarify: =E2=80=9CIt=E2=80=99s =
+impossible to own a color. What you own is a ledger on the Solana blockchai=
+n that represents that particular color. And we allow people to collect tho=
+se colors to trade them, and sell them.=E2=80=9DThe guy=E2=80=99s NFT didn=
+=E2=80=99t even work, but would it have been better if it did? Anyway if yo=
+u want to send me $420.69 I=E2=80=99ll send you a randomly generated sequen=
+ce of numbers sure why not I can afford that.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Russian Stocks in London Wipe Out  98% of Value in Two Weeks. Sberbank Euro=
+pe  Unravels After Russia Sanctions Cause Bank Run. Apple, Exxon, Ford, Oth=
+ers Retreat From Russia; VW Warns of Disruption. Western accountants and co=
+nsultants face pressure to abandon Russia. Public relations firms cut Russi=
+a ties amid reputational fears.=C2=A0Credit Suisse asks investors to destro=
+y documents linked to oligarch and tycoon yacht loans. Bitcoin Rally Cools =
+as Specter of  Crypto Sanctions Raised. Russian cyber attacks against US ba=
+nks increasing. Citigroup Says Profitability to Fall Amid Spending on Strat=
+egy Shift. Ford Creates Electric-Vehicle, Gas-Engine Divisions in Company R=
+eshape.=C2=A0Summer Interns Jilt Companies as Better Offers Come Along. Mul=
+tiple Tyrannosauri.=C2=A0If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in=
+ handy email form, right in your inbox, please=C2=A0subscribe at this link.=
+ Or you can subscribe to Money Stuff and other great Bloomberg newsletters =
+here. Thanks![1]=C2=A0I do not think that donating the shares of a JV to a =
+Ukraine relief charity is all that realistic an approach; presumably the JV=
+ agreement has transfer agreements and anyway you=E2=80=99re not getting ca=
+sh out anytime soon.[2]=C2=A0I cannot get into the details here, because th=
+ey are complicated; here is the Wikipedia, and  a summary I wrote at the ti=
+me. Weirdly there does not seem to be a book about the Argentine pari passu=
+ saga, though for a while Katia Porzecanski and I were talking about writin=
+g one.[3] Speaking of  the yacht mechanic: =E2=80=9CAfter his release, Osta=
+pchuk said he would fly to Poland and head to Ukraine to fight against the =
+Russians, according to local newspaper Ultima Hora. =E2=80=98I=E2=80=99m a =
+middle-aged man, but I have a lot of experience as a mechanic,=E2=80=99 he =
+said. =E2=80=98I=E2=80=99ve never held a weapon, but if necessary I will.=
+=E2=80=99=E2=80=9D
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg0a0v.5mml/b709ea6d.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_101237089_1338569635.1646247054422
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Sanctions, etc.A week ago Russia was a more or less well-integrated part of=
+ the global financial system. Shares of Russian companies traded=20
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjg4Njg0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcxNDk0NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBe64121b2" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26886847&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27149452&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzAyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDImdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB434122cb"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjg4Njg0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcxNDk0NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC81528091" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26886847&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27149452&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Sanctions, etc.</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A week ago Russia was a more or less w=
+ell-integrated part of the global financial system. Shares of Russian compa=
+nies traded in Europe and the U.S., Russian companies issued bonds to globa=
+l investors and did joint ventures with global companies, Russian commoditi=
+es were sold abroad for dollars and euros, Russian airlines leased planes f=
+rom Irish finance companies, everything was just part of an international w=
+eb of contracts and transactions.</p><p style=3D"margin: 16px 0;">It is pos=
+sible that, say, a year from now none of that will be true. It is possible =
+that Russia will continue invading and occupying Ukraine and killing civili=
+ans there, that international sanctions against Russia will continue and be=
+come harsher, and that even beyond legal sanctions international companies =
+and investors will avoid dealing with Russia due to public pressure or=C2=
+=A0worries about risk . And in a year shares of Russian companies will trad=
+e only in Russia, Russian companies will not get financing from abroad, the=
+re will be no joint ventures, they=E2=80=99ll own their own planes made in =
+Russia, etc. (Or, more plausibly, Russia will maintain financial ties to so=
+me foreign countries, mainly China, but will be shut out of broader interna=
+tional markets.)=C2=A0</p><p style=3D"margin: 16px 0;">But the <em>transiti=
+on </em>between those two states is extremely <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/26886847.262605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDIvcnVzc2lhbi1tYXJrZXRzLWJyZWFrLWRvd24td2=
+l0aC1jYXNoLWZyb3plbi1hdC10aGUtYm9yZGVyP2NtcGlkPUJCRDAzMDIyMl9NT05FWVNUVUZGJ=
+nV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMwMiZ1=
+dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBaf9e2567" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ complicated and uncertain</a>. For instance, <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/26886847.262605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMDEvbm9ib2R5LXdhbnRzLXJ1c3NpYW4tYXNzZX=
+RzP2NtcGlkPUJCRDAzMDIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMwMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cB548aebe8" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> we talked yesterday</a> about how in=
+ternational oil companies own stakes in Russian joint ventures, and do not =
+want to own them anymore. But who do they sell them to? I wrote about BP Pl=
+c=E2=80=99s plan to exit its joint venture with Rosneft PJSC:</p><blockquot=
+e><p style=3D"margin: 16px 0;">I suppose you could donate them back to the =
+company =E2=80=94=C2=A0call up Rosneft and say =E2=80=9Ccancel our shares, =
+don=E2=80=99t bother paying us=E2=80=9D =E2=80=94=C2=A0but I am not sure th=
+at that=E2=80=99s a good way to impose sanctions=C2=A0<em>on Russia</em>; i=
+t is in some sense=C2=A0<em>good=C2=A0</em>for Rosneft (or Shell=E2=80=99s =
+Russian partners in its joint ventures, etc.) to cancel equity claims on it=
+s business=C2=A0for free. If you=E2=80=99re writing the assets down to zero=
+ anyway I suppose one option (depending on the mechanics of the sanctions r=
+egime) is to give them to charity; there would be something a bit satisfyin=
+g about a Ukraine relief charity owning 20% of Rosneft.=C2=A0</p></blockquo=
+te><p style=3D"margin: 16px 0;">The realistic answer, though not a great on=
+e, is to donate the shares to Rosneft, and apparently <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/26886847.262605/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDIvZXh4b24tdG8taGFuZC1zdGFrZS1pbi=
+1ydXNzaWFuLW9pbC1wcm9qZWN0LXRvLXJvc25lZnQtcGFydG5lcnM_Y21waWQ9QkJEMDMwMjIyX=
+01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rl=
+cm09MjIwMzAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa901e=
+8cf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Exxon is doing that with its JV</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">Exxon Mobil Corp. plans to hand over its stake in a Ru=
+ssian oil development to Kremlin-controlled Rosneft PJSC and other partners=
+ as sanctions make it harder to operate in the country. =E2=80=A6</p><p sty=
+le=3D"margin: 16px 0;">Exxon, Rosneft and their Japanese and Indian partner=
+s have been harvesting crude from a cluster of subsea fields off the coast =
+of Sakhalin Island since 2005. Exxon valued the asset at $4 billion on its =
+balance sheet, according to company documents. =C2=A0</p></blockquote><p st=
+yle=3D"margin: 16px 0;">In some rough accounting sense the result of this d=
+ecision is that Exxon is giving Rosneft $4 billion, though that is probably=
+ not the right way to look at it in the long run.[1]</p><p style=3D"margin:=
+ 16px 0;">Or, it is one thing to say =E2=80=9Cinternational investors shoul=
+d not buy Russian government bonds,=E2=80=9D but right now international in=
+vestors=C2=A0<em>do=C2=A0</em>own Russian government bonds. But they can=E2=
+=80=99t sell them, and they=C2=A0<a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/26886847.262605/aHR0cHM6Ly9ibGlua3MuYmxvb21iZXJnLmNvbS9uZXdz=
+L3N0b3JpZXMvUjg0NllTVDFVTTE1P2NtcGlkPUJCRDAzMDIyMl9NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMwMiZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB00360ea2" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">can=E2=80=
+=99t get paid</a>:</p><blockquote><p style=3D"margin: 16px 0;">Russia paid =
+a=C2=A0coupon=C2=A0due on ruble bonds on Wednesday, but it=E2=80=99s not cl=
+ear how foreigners will be able to access the cash after the central bank b=
+anned transfers to foreign investors.</p><p style=3D"margin: 16px 0;">Inves=
+tors are still scrambling to understand whether or not the bonds could be i=
+n default even after the 11 billion ruble ($98 million) payment that was wi=
+dely expected. The Bank of Russia has introduced capital controls in a bid =
+to avert a ruble collapse after its foreign reserves were frozen by interna=
+tional governments in response to Russia=E2=80=99s invasion of Ukraine.=C2=
+=A0</p><p style=3D"margin: 16px 0;">The restrictions could leave foreign in=
+vestors who held almost 3 trillion rubles ($29 billion) in the so-called OF=
+Z debt at the start of February unable to collect income on their holdings =
+-- raising the specter of the nation=E2=80=99s first debt default since 199=
+8. The transfer of the coupon was=C2=A0reported=C2=A0Wednesday afternoon on=
+ the website of the National Settlement Depositary. =C2=A0=C2=A0</p><p styl=
+e=3D"margin: 16px 0;">=E2=80=9CUnless it reaches all holders, they can=E2=
+=80=99t deny default,=E2=80=9D=C2=A0Paul McNamara, a portfolio manager at G=
+AM Investments, said of the coupon on Wednesday. =E2=80=9CThey can=E2=80=99=
+t say they paid with any conviction.=E2=80=9D</p><p style=3D"margin: 16px 0=
+;">In addition to a broader presidential decree on capital controls on Mond=
+ay, the central bank communicated separately to brokers that there would be=
+ a temporary ban on the transfer of payments abroad. The regulator subseque=
+ntly confirmed the decision in an emailed comment to Bloomberg. On Monday, =
+the Interfax news service reported the suspension will be in effect for hal=
+f a year unless the regulator lifts it ahead of time.=C2=A0</p><p style=3D"=
+margin: 16px 0;">=E2=80=9CIssuers have the right to make decisions on the p=
+ayment of dividends and the making of other payments on securities and tran=
+sfer them to the accounting system,=E2=80=9D the central bank said in an em=
+ailed reply to questions on Tuesday. =E2=80=9CHowever, the payments themsel=
+ves will not be made by depositories and registrars to foreign clients. Thi=
+s also applies to OFZ.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;=
+">Basically the way bond interest works is that the issuer (the Russian gov=
+ernment or a=C2=A0Russian company) wires some money at one end, and the bon=
+d holder gets wired the money at the other end, and in between there is a s=
+eries of intermediaries (trustees, banks, depositories, brokers) who pass t=
+he payments along. Right now, broadly speaking, the intermediaries in Russi=
+a are not allowed to pass payments along to foreigners.=C2=A0</p><p style=
+=3D"margin: 16px 0;">Meanwhile the main intermediaries=C2=A0<em>outside=C2=
+=A0</em>Russia are also starting to decline payments from Russia:</p><block=
+quote><p style=3D"margin: 16px 0;">The world=E2=80=99s biggest settlement s=
+ystems Euroclear and Clearstream are no longer handling Russian assets -- r=
+eversing the=C2=A0much-heralded=C2=A0opening of the local debt market to in=
+ternational investors nine years ago.=C2=A0</p></blockquote><p style=3D"mar=
+gin: 16px 0;">Though this door is <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/26886847.262605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjItMDMtMDIvZ2F6cHJvbS1zYWlkLXRvLWJlLWluLXByb2Nlc3Mtb2YtcGF5aW=
+5nLWRvbGxhci1ib25kcy1kdWUtbWFyY2gtNz9jbXBpZD1CQkQwMzAyMjJfTU9ORVlTVFVGRiZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDImdXRt=
+X2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBf1b99a4e" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> not=
+ closing entirely</a>:</p><blockquote><p style=3D"margin: 16px 0;">Gazprom =
+PJSC, the Russian state-controlled energy giant, is already in the process =
+of settling a $1.3 billion debt due on Monday.</p><p style=3D"margin: 16px =
+0;">The company wired the cash on Feb. 28 to the settlement bank, which wil=
+l probably release the funds on March 4, a person familiar with the matter =
+said, declining to be identified because the information is private. Gazpro=
+m also has a coupon payment nominally due a day earlier on a Swiss franc de=
+bt, which the person said will also be paid.</p><p style=3D"margin: 16px 0;=
+">It=E2=80=99s a reprieve for Gazprom=E2=80=99s bonds, which lost about hal=
+f of their value in just over a week as investors fretted over whether the =
+company will settle next week=E2=80=99s payments.=C2=A0</p></blockquote><p =
+style=3D"margin: 16px 0;">Observers of sovereign debt crises might remember=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262=
+605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDMtMTM=
+vbm93LWFyZ2VudGluYS1jYW4tdC1ldmVuLXBheS1ib25kcy1pbi1hcmdlbnRpbmE_Y21waWQ9Qk=
+JEMDMwMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjIwMzAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cBa4508b4f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">Argentina=E2=80=99s 2014 debt default</a>: Argentin=
+a had the money to pay interest on its bonds, and wanted to pay interest on=
+ its bonds, and it actually showed up at the bank (in Argentina) with the m=
+oney, but a New York federal court had prohibited various intermediaries fr=
+om transferring the money from Argentina to the holders.[2]=C2=A0At first t=
+his struck Argentina, and the intermediaries, and the holders, as somewhat =
+absurd, but the judge was serious, the money didn=E2=80=99t get transferred=
+, and Argentina defaulted on its debts until it could mollify the New York =
+judge and he freed up the payments intermediaries. Here there are a lot of =
+relevant authorities and it is hard to see them all being satisfied enough =
+to avoid any defaults.</p><p style=3D"margin: 16px 0;">The Argentina crisis=
+ also notably featured a seizure of an Argentine naval vessel as purported =
+collateral for the country=E2=80=99s foreign debts. Here are <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/26886847.262605/aHR0cHM6Ly93d3cu=
+d2FzaGluZ3RvbnBvc3QuY29tL3BvbGl0aWNzLzIwMjIvMDMvMDEvY291bGQtY29uZ3Jlc3MtbGV=
+0LXlvdS1zZWl6ZS10aGlzLXJ1c3NpYW4tb2xpZ2FyY2hzLXlhY2h0Lw/607f07ceef4b8524a31=
+9a23cB6eaad371" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">some nautical seizure claims about the current cris=
+is</a>:</p><blockquote><p style=3D"margin: 16px 0;">Buried in Article I, Se=
+ction 8 of the U.S. Constitution is a federal power that will probably be u=
+nfamiliar to a layperson. Among the powers granted Congress, it reads, is t=
+hat to =E2=80=9Cgrant Letters of Marque and Reprisal, and make Rules concer=
+ning Captures on Land and Water.=E2=80=9D So what does that mean? It means =
+the federal government is authorized by the Constitution to issue documents=
+ (letters of marque) that empower private individuals to legally seize fore=
+ign vessels.</p><p style=3D"margin: 16px 0;">On Monday, Rep. Lance Gooden (=
+R-Tex.) introduced the idea once again in the context of the yachts and jet=
+s owned by those oligarchs. In broad strokes, the theory is that the govern=
+ment would establish a system allowing private individuals to seize the ves=
+sels and, eventually, make them their own. So instead of that Ukrainian mec=
+hanic sinking his Russian boss=E2=80=99s yacht, he could theoretically have=
+ gotten some friends together, sailed it away from port and become its new =
+owner.</p><p style=3D"margin: 16px 0;">You can see how there might be some =
+legal questions here.</p></blockquote><p style=3D"margin: 16px 0;">I do not=
+ think that a revival of=C2=A0<em>privateering=C2=A0</em>is the most likely=
+ outcome of this war but you never know.[3]</p><table class=3D"liveintent-s=
+ponsored-content" width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjg4Njg0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcxNDk0NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD6da57cc6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26886847&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27149452&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjg4Njg0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcxNDk0NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE6da57cc6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26886847&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27149452&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjg4Njg0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcxNDk0NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF8347be57" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26886847&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27149452&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjg4Njg0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcxNDk0NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG8347be57" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26886847&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27149452&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Dollar hegemony</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One way to interpret this situation is=
+ that there is a thing called =E2=80=9Cthe international financial system,=
+=E2=80=9D and being in it is good, and being kicked out of it is bad. The i=
+nternational financial system is enormously powerful, it allocates capital,=
+ and if you get kicked out then you can't do various sorts of commerce anym=
+ore.</p><p style=3D"margin: 16px 0;">Another way to interpret this situatio=
+n is that there is some amount of fluidity in what constitutes the internat=
+ional financial system. There is sort of a main network of that system: The=
+ U.S. dollar, and the=C2=A0payment rails and messaging systems and correspo=
+ndent banks and central banks=C2=A0that work with the dollar, and the curre=
+ncies and systems of the main U.S. allies, are basically what you need to u=
+se to participate in the international financial system even if you are not=
+ particularly a U.S. ally.</p><p style=3D"margin: 16px 0;">But every time t=
+he U.S. and its allies kick a country off this system, it goes and finds ot=
+her systems and rails and currencies to use to trade. And=C2=A0<em>other=C2=
+=A0</em>countries, countries that have not been kicked off the main network=
+ but who are not necessarily aligned with the U.S. in every way, think that=
+ the main network looks a bit less attractive: For one thing, a big potenti=
+al trading partner=C2=A0has been kicked off of it and is now trading on som=
+e other system. For another thing, the main system is visibly a=C2=A0<em>to=
+ol of political power</em>, and if you are not aligned with the U.S. you mi=
+ght worry about one day being kicked off the system yourself. So you get mo=
+re interested in trying out alternative systems now, before you need them. =
+And so kicking Russia out of the dollar-based international financial syste=
+m makes it more likely that that system will be replaced, over time, by som=
+ething else. The main alternatives people talk about these days seem to be =
+(1) the Chinese yuan, the currency of the other giant economic power that i=
+s not particularly aligned with the U.S. (and that is looking to project a =
+competing financial system) and (2) crypto, which has a very self-conscious=
+ ethos of not being under the control of any government.</p><p style=3D"mar=
+gin: 16px 0;">In this theory, it is not simply good to be in the internatio=
+nal system and bad to be kicked out of it. There is a recoil, each time som=
+eone is kicked out of the system; the system is weakened each time it exerc=
+ises its power.</p><p style=3D"margin: 16px 0;">Anyway that=E2=80=99s a the=
+ory. I am somewhat skeptical of it, for reasons that I <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/26886847.262605/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDItMjgvcnVzc2lhLXMtbW9uZXktaXMtZ=
+29uZT9jbXBpZD1CQkQwMzAyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3Vy=
+Y2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607=
+f07ceef4b8524a319a23cB8b0955c1" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> wrote about on Monday</a>. But her=
+e is a <a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.26=
+2605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDIvd2=
+lsbC1ydXNzaWEtcy1ydWJsZS1nby1nb2xkLWJhY2tlZC11a3JhaW5lLXdhci10by1pbXBhY3Qtd=
+XMtZG9sbGFyLWRvbWluYW5jZT9jbXBpZD1CQkQwMzAyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVt=
+PWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDImdXRtX2NhbXBhaWd=
+uPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB93534dec" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> Bloomberg =E2=
+=80=9COdd Lots=E2=80=9D podcast with Zoltan Poszar</a>; from the episode su=
+mmary:</p><blockquote><p style=3D"margin: 16px 0;">Russia=E2=80=99s invasio=
+n of Ukraine could mark the beginning of a turning point for the U.S. dolla=
+r, according to money market guru Zoltan Pozsar.</p><p style=3D"margin: 16p=
+x 0;">Speaking on Bloomberg=E2=80=99s Odd Lots podcast, the global head of =
+short-term interest rate strategy at Credit Suisse AG noted that wars tend =
+to turn into major junctures for global currencies, and with Russia losing =
+access to its foreign currency reserves, a message has been sent to all cou=
+ntries that they can=E2=80=99t count on these money stashes to actually be =
+theirs in the event of tension. As such, it may make less and less sense fo=
+r global reserve managers to hold dollars for safety, given that they could=
+ be taken away right when they=E2=80=99re most needed.</p></blockquote><p s=
+tyle=3D"margin: 16px 0;">And here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/26886847.262605/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZTU3=
+MzUzNzUtNzVkZi00ODU5LWJiZjAtYWUyMmU0ZmUyZmY2/607f07ceef4b8524a319a23cB60d26=
+f31" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Rana Foroohar arguing</a> that one consequence of Russia=E2=80=
+=99s invasion of Ukraine =E2=80=9Cwill be a quickening of the shift to a bi=
+polar global financial system =E2=80=94 one based on the dollar, the other =
+on the renminbi.=E2=80=9D</p><p style=3D"margin: 16px 0;">Here on the other=
+ hand is <a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.=
+262605/aHR0cHM6Ly9mdWxsc3RhY2tlY29ub21pY3MuY29tL2ZpdmUtcmVhc29ucy10aGUtc2Fu=
+Y3Rpb25zLWFyZS13b3JraW5nLw/607f07ceef4b8524a319a23cB83efd321" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">Alan =
+Cole arguing that it is unlikely</a>:=C2=A0</p><blockquote><p style=3D"marg=
+in: 16px 0;">The U.S. has substantial reserves of credibility to draw on he=
+re. Few dollar users, if any, are likely to commit the same offenses as Rus=
+sia or draw the same punishment. Furthermore, as European allies have joine=
+d the effort, there aren=E2=80=99t alternatives to the U.S. system.</p><p s=
+tyle=3D"margin: 16px 0;">In freezing reserves and oligarch assets retroacti=
+vely while allowing future oil transactions to go through, the U.S. and Eur=
+opean governments may succeed at a kind of policy coup, where some of Russi=
+a=E2=80=99s past accumulated wealth from oil exports gets confiscated, and =
+yet, it still suffers no incentive to stem future oil production. =E2=80=A6=
+</p><p style=3D"margin: 16px 0;">Financial commentators love talking about =
+the dollar losing its status as reserve currency, because it gives them a p=
+ermission structure to wildly speculate. But there is little constituency f=
+or a Russia-friendly financial system among the world=E2=80=99s largest eco=
+nomies. And for countries seeking a relatively neutral and rules-based syst=
+em free of geopolitics, China isn=E2=80=99t a very good alternative anyway.=
+ (It has a variety of idiosyncratic foreign policy demands of its own, and =
+regularly uses economic might to help reinforce them.)</p></blockquote><tab=
+le class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjg4Njg0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcxNDk0NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH2edd9af6" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26886847&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27149452&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The tax angle</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Elsewhere in privateering, here=E2=80=
+=99s an <a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.2=
+62605/aHR0cHM6Ly9lbi5pbnRlcmZheC5jb20udWEvbmV3cy9nZW5lcmFsLzgwNDQ0MS5odG1s/=
+607f07ceef4b8524a319a23cB1e514ea7" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">apparently real notice</a> from =
+Interfax-Ukraine:</p><blockquote><p style=3D"margin: 16px 0;"><strong>No ne=
+ed to declare captured Russian tanks, other equipment of invaders as income=
+ =E2=80=93 NAPC</strong></p><p style=3D"margin: 16px 0;">Ukraine's National=
+ Agency for the Protection against Corruption (NAPC) has declared that capt=
+ured Russian tanks and other equipment are not subject to declaration.</p><=
+p style=3D"margin: 16px 0;">"Have you captured a Russian tank or armored pe=
+rsonnel carrier and are worried about how to declare it? Keep calm and cont=
+inue to defend the Motherland! There is no need to declare the captured Rus=
+sian tanks and other equipment, because the cost of this ... does not excee=
+d 100 living wages (UAH 248,100)," NAPC's press service said. =E2=80=A6</p>=
+<p style=3D"margin: 16px 0;">"Speaking by the letter of the law, combat tro=
+phies are not subject to reflection in the declaration for the following re=
+asons: they were acquired not as a result of the conclusion of any type of =
+transaction, but in connection with the full-scale aggression of the Russia=
+n Federation on February 24, 2022 against the independent and sovereign Ukr=
+ainian state as a continuation the insidious attack of the Russian Federati=
+on on Ukraine launched in 2014. Thanks to the courage and victory of the de=
+fenders of the Ukrainian state, enemy military equipment usually comes to y=
+ou already destroyed and disabled, which makes it impossible to evaluate it=
+ in accordance with the law On the valuation of property, property rights a=
+nd professional valuation activities in Ukraine. Therefore, it is also impo=
+ssible to find out how much such property costs,=E2=80=9D the NACP said.</p=
+></blockquote><p style=3D"margin: 16px 0;">This strikes me as sensible tax =
+policy. For one thing, taxing anything tends to discourage that thing, and =
+clearly the Ukrainian government wants to encourage its citizens to capture=
+ Russian tanks. For another thing, surely the stated reasoning is correct a=
+nd it is hard to get a market value for a disabled Russian tank; if you can=
+=E2=80=99t sell it in a ready market it is a bit harsh to have to pay taxes=
+ on it. Presumably the main motive for this press release is not so much to=
+ get the tax policy right but rather to demonstrate some incredible wartime=
+ sangfroid, but the tax policy also seems right.</p><table class=3D"header"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">I must study electronic trading so that my son may get into crystals =
+and run my ESG department</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here=E2=80=99s Thomas Peterffy=E2=80=
+=99s story:</p><blockquote><p style=3D"margin: 16px 0;">Before building a n=
+et worth of $21.5 billion on Wall Street, Thomas grew up in communist Hunga=
+ry, immigrated to the U.S. at the age of 21 knowing no English, and saved u=
+p to buy a seat on the American Stock Exchange. He became an early player i=
+n electronic trading, building a company that used computers to transact in=
+ financial markets and eventually evolved into a broker that sells professi=
+onal-quality trading software to individual investors and money managers, i=
+ncluding hedge funds. He=E2=80=99d achieved the fantasy of amassing an unim=
+aginable fortune.</p></blockquote><p style=3D"margin: 16px 0;">Here=E2=80=
+=99s his son <a href=3D"https://link.mail.bloombergbusiness.com/click/26886=
+847.262605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjItMDMt=
+MDIvYmlsbGlvbmFpcmUtd2FsbC1zdHJlZXQtaGVpci13aWxsaWFtLXBldGVyZmZ5LXRha2VzLWV=
+zZy1yb2xlLXRvLWZpeC1jYXBpdGFsaXNtP2NtcGlkPUJCRDAzMDIyMl9NT05FWVNUVUZGJnV0bV=
+9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMwMiZ1dG1fY=
+2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf4790877" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> Will =
+Peterffy=E2=80=99s story</a>:</p><blockquote><p style=3D"margin: 16px 0;">H=
+e=E2=80=99s been a ranch hand in Colorado; an organic farm worker in Califo=
+rnia; a student of yoga, sound therapy, and Chinese medicine; a board membe=
+r for an environmental advocacy organization; and a post-production associa=
+te for a 10-part documentary series on =E2=80=9Carchetypal astrology.=E2=80=
+=9D He served time at two investment firms, for about nine months apiece, b=
+ut those stints left him =E2=80=9Cheart-crushed=E2=80=9D and pushed him in =
+2016 to go, with his dog Bowie, from New York to New Mexico in hopes of abs=
+orbing the healing powers of the desert. =E2=80=A6</p><p style=3D"margin: 1=
+6px 0;">In late November he visited friends for dinner at their regenerativ=
+e farm. A citrine crystal, believed to symbolize positivity and new beginni=
+ngs, sat nearby as he feasted on braised lamb shoulder, mashed potatoes, ar=
+ugula, beet sauerkraut, and a punchy fermented hot sauce=E2=80=94a meal his=
+ friends prepared using only crops and animals raised on their farm, except=
+ for a bit of clarified butter and a few glugs of olive oil. =E2=80=A6</p><=
+p style=3D"margin: 16px 0;">More than two years earlier he=E2=80=99d joined=
+ his father=E2=80=99s company, a giant trading platform called Interactive =
+Brokers Group Inc. Rather than become a sales rep or data analyst, he carve=
+d out a role more simpatico with his worldview. Not unlike when he was 7 an=
+d made the case for getting a pet ferret, he pitched his dad on a big idea:=
+ that he could become the company=E2=80=99s first director of environmental=
+, social, and governance (ESG) affairs, helping to make the firm a better s=
+teward of the Earth and society. Interactive Brokers would reduce its envir=
+onmental footprint, boost gender and racial diversity, and, in the triple-b=
+ottom-line spirit, draw a whole new set of younger customers who want to in=
+vest in companies doing the same. =E2=80=9CWe=E2=80=99ve been saturated wit=
+h this idea that we are separate=E2=80=94we are separate from each other, w=
+e are separate from the Earth, we are separate from nature=E2=80=94and it=
+=E2=80=99s just not true,=E2=80=9D he says. =E2=80=9CWe=E2=80=99re very con=
+nected with each other. All life is connected. And it=E2=80=99s not even wo=
+o-woo.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">And he should =
+know what=E2=80=99s woo-woo.=C2=A0I suppose that if you make billions of do=
+llars in financial services your kids will have some tendency to become doc=
+umentary film producers and look down on financial services as grubby capit=
+alism while cashing checks from their trust funds. But ESG is, among other =
+things, a way for financial-services billionaires to bond with their altern=
+ative-healing-curious children. =E2=80=9CDad, I=E2=80=99ve decided that I d=
+on=E2=80=99t want to work in sales or data at the family brokerage, because=
+ that is bad capitalism and separates me from nature, but I could be your d=
+irector of ESG. This idea that your electronic brokerage firm is separate f=
+rom the earth, it=E2=80=99s just not true, I think that with the right set =
+of crystals I could really=E2=80=94=E2=80=9D =E2=80=9CSounds great, Junior,=
+ I=E2=80=99m just happy to have you aboard, give me a hug.=E2=80=9D</p><p s=
+tyle=3D"margin: 16px 0;">Imagine being the=C2=A0<em>deputy </em>director of=
+ ESG at Interactive Brokers. Presumably you got hired based on your backgro=
+und doing ESG initiatives at major financial firms.=C2=A0Presumably you thi=
+nk of ESG as a real career path in finance, and you have spent your career =
+building expertise in the theory and practice and complex accounting of ESG=
+.=C2=A0But you=E2=80=99ve got to compete with financial-services heirs, and=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/a=
+HR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8xMC8xMi9idXNpbmVzcy9kZWFsYm9vay9oYXJy=
+eS1tZWdoYW4tZXRoaWNhbC1pbnZlc3RvcnMuaHRtbA/607f07ceef4b8524a319a23cB88511d4=
+d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">British-monarchy heirs</a> for that matter. ESG is, somewhat p=
+aradoxically, an attractive area of finance for people who don=E2=80=99t ca=
+re about finance but do like the money it provides.</p><table class=3D"head=
+er" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Tim! Leissner!</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">This <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26886847.262605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjItMDMtMDEvZ29sZG1hbi1zdGFyLWdvdC1mZW5nLXNodWktYWR2aW=
+NlLXRoYXQtMW1kYi13b21lbi13ZXJlLXRyb3VibGU_Y21waWQ9QkJEMDMwMjIyX01PTkVZU1RVR=
+kYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzAy=
+JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2b4abec1" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> guy</a>!</p><blockquote><p style=3D"margin: 16px 0;">Former Goldman Sachs=
+ Group Inc. banker Tim Leissner testified that after the FBI handed him a g=
+rand jury subpoena tied to the 1MDB scandal, he consulted a feng shui maste=
+r to see if more trouble lay ahead over the next decade.</p><p style=3D"mar=
+gin: 16px 0;">Leissner, the U.S. government=E2=80=99s key witness in the tr=
+ial of former Goldman colleague Roger Ng over the multibillion-dollar scam =
+to loot Malaysia=E2=80=99s wealth fund, told a federal jury on Tuesday that=
+ it was Ng who suggested the consultation. He said the master=E2=80=99s rep=
+ort predicted that =E2=80=9CI would have an issue with authorities for the =
+first half of the 10 years but then it would be resolved.=E2=80=9D =E2=80=
+=A6</p><p style=3D"margin: 16px 0;">Leissner told the jury he gave Ng the t=
+ime and date of his birth for the feng shui reading. He said he and his ex-=
+wife Judy Chan then met with Ng and his wife, Hwee Bin Lim, at a Hong Kong =
+hotel in 2016 to discuss the report, with Chan translating for Leissner bec=
+ause he doesn=E2=80=99t read Chinese.</p><p style=3D"margin: 16px 0;">Leiss=
+ner testified that he was trying to figure out if he was a target of the U.=
+S. investigation into 1MDB and Goldman Sachs, a subject of the probe or mer=
+ely a witness.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">He did al=
+l the crimes! Like he took tens of millions of dollars of bribes for himsel=
+f, and he=E2=80=99s wondering if he=E2=80=99s merely a witness? And yet her=
+e he is, six years later, testifying as a witness. Though after <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/26886847.262605/aHR0cHM6Ly93d=
+3cuanVzdGljZS5nb3Yvb3BhL3ByL21hbGF5c2lhbi1maW5hbmNpZXItbG93LXRhZWstamhvLWFs=
+c28ta25vd24tamhvLWxvdy1hbmQtZm9ybWVyLWJhbmtlci1uZy1jaG9uZy1od2EtYWxzby1rbm9=
+3bg/607f07ceef4b8524a319a23cB85a22c0e" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">pleading guilty</a> himself.=
+</p><p style=3D"margin: 16px 0;">Leissner <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26886847.262605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjItMDItMjMvYnV5LXRoZS1jb2FsLXBsYW50LXRvLXN0b3AtaX=
+Q_Y21waWQ9QkJEMDMwMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cB1ce1d2ab" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> has previously testified</a> that an e=
+x-girlfriend (not Chan!)=C2=A0blackmailed him into buying her a $10 million=
+ house by threatening to expose the 1MDB crimes, so I suppose you can have =
+some doubts about the translation. =E2=80=9CThe feng shui master says you a=
+re gonna have trouble with the authorities unless =E2=80=A6=C2=A0it says he=
+re unless you give all your money to your ex-wife? Well, feng shui works in=
+ mysterious ways.=E2=80=9D Anyway it=E2=80=99s been six=C2=A0years since th=
+is reading and Leissner is still awaiting sentencing for all the crimes he =
+has confessed to so there were at least some inaccuracies.</p><table class=
+=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+>
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Duration</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here=E2=80=99s <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/26886847.262605/aHR0cHM6Ly93d3cud3NqLmNvb=
+S9hcnRpY2xlcy9jYXItZGVhbGVyc2hpcHMtZG9udC13YW50LXlvdXItY2FzaHRoZXktd2FudC10=
+by1naXZlLXlvdS1hLWxvYW4tMTE2NDYxMTM2Mzc_bW9kPWhwX2xlYWRfcG9zMTEmbW9kPWhwX2x=
+lYWRfcG9zNQ/607f07ceef4b8524a319a23cB82fe61a4" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">a weird trade</a>:</=
+p><blockquote><p style=3D"margin: 16px 0;">Bruce Sawyer, a retiree living i=
+n North Carolina, said that last year he was offered a $1,000 credit on his=
+ new Ford F-150 purchase if he took out a loan from Ford=E2=80=99s lending =
+arm. The incentive came from the lender, he was told. He had intended to pa=
+y cash, but came around to the financing after talking with a friend who ha=
+d encountered a similar deal about a decade earlier.</p><p style=3D"margin:=
+ 16px 0;">Mr. Sawyer took a $31,000 loan with a 6.74% interest rate, then p=
+aid it in full a few weeks later. =E2=80=9CThey said, you can pay it all of=
+f as soon as you want to,=E2=80=9D Mr. Sawyer said. He estimates that he pa=
+id roughly $100 in interest, which was more than offset by the financing cr=
+edit.</p><p style=3D"margin: 16px 0;">A spokeswoman for Ford said =E2=80=9C=
+customers may choose to pay off before the end of the loan term, which they=
+ are welcome to do with no prepayment penalty.=E2=80=9D A dealership repres=
+entative didn=E2=80=99t return requests for comment.=C2=A0</p></blockquote>=
+<p style=3D"margin: 16px 0;">If you are a bank, or a financing arm of a car=
+ company, you want to originate loans these days. Loans are valuable to=C2=
+=A0you: The expected payments from the loan (6.74% per year for typically f=
+ive years) are higher than the amount you are paying for the funding, even =
+taking into account the risks of default (some people won=E2=80=99t pay bac=
+k their loans) and prepayment (some people will pay back their loans early =
+with no penalty, so you won=E2=80=99t get the 6.74% anymore). This is true =
+enough at a statistical level that you sort of don=E2=80=99t care if it=E2=
+=80=99s true at an individual level. So you offer everyone $1,000 to take o=
+ut a loan, figuring that most of them will keep the loan outstanding for a =
+long time and pay you more in interest over five years than you are paying =
+them in incentives. And then some people will show up with cash, you=E2=80=
+=99ll pay them $1,000 to take out a loan instead, they=E2=80=99ll pay off t=
+he loan a week later and be a bit mystified by why they had to go through a=
+ll that.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT Stuff</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I guess a good financial product is a =
+vending machine where (1) you put in money and (2) the machine gives you a =
+receipt verifying that you put in the money? I mean. That=E2=80=99s a good =
+financial product for the owner of the machine? I don=E2=80=99t know why yo=
+u=E2=80=99re putting in the money though. <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26886847.262605/aHR0cHM6Ly93d3cudGhlZ3VhcmRpYW4uY29=
+tL3RlY2hub2xvZ3kvMjAyMi9mZWIvMjgvbmZ0LXZlbmRpbmctbWFjaGluZS1uZXcteW9yay1ibG=
+9ja2NoYWlu/607f07ceef4b8524a319a23cBa781398f" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">I don=E2=80=99t know =
+anything</a>:</p><blockquote><p style=3D"margin: 16px 0;">It=E2=80=99s easy=
+ to miss the storefront that is home to the =E2=80=9Cworld=E2=80=99s first =
+NFT vending machine=E2=80=9D in Manhattan=E2=80=99s financial district. Squ=
+ished between a sandwich shop and a tailor, the windows are bathed in pink =
+neon light, with glowing letters that announce =E2=80=9CNFT ATM.=E2=80=9D W=
+hen you walk through the entryway, you enter a tiny booth with the vending =
+machine, filled with rows of little paper cartons, looking almost like ciga=
+rette packs. There are only two products: a =E2=80=9Ccolor=E2=80=9D for $5.=
+99 and a =E2=80=9Cparty pigeon=E2=80=9D for $420.69. ...</p><p style=3D"mar=
+gin: 16px 0;">I didn=E2=80=99t think my editor would be thrilled with the p=
+igeon, so I bought a color. This, it turns out, meant a piece of paper insi=
+de the carton with a randomly generated code that would allow me to =E2=80=
+=9Cmint=E2=80=9D an NFT, claiming ownership over one of 10,000 different co=
+lors. Birnholtz tried to clarify: =E2=80=9CIt=E2=80=99s impossible to own a=
+ color. What you own is a ledger on the Solana blockchain that represents t=
+hat particular color. And we allow people to collect those colors to trade =
+them, and sell them.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">=
+The guy=E2=80=99s NFT didn=E2=80=99t even work, but would it have been bett=
+er if it did? Anyway if you want to send me $420.69 I=E2=80=99ll send you a=
+ randomly generated sequence of numbers sure why not I can afford that.</p>=
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Russian Stocks in London Wipe Out <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDIvbG9uZG9uLWxpc=
+3RlZC1ydXNzaWFuLXN0b2Nrcy1lcmFzZS01NzAtYmlsbGlvbi1pbi10d28td2Vla3M_Y21waWQ9=
+QkJEMDMwMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR=
+0ZXImdXRtX3Rlcm09MjIwMzAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a=
+319a23cB763dfbfd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> 98% of Value</a> in Two Weeks. Sberbank Europe <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDEvc2JlcmJhbm=
+stZXVyb3BlLXVuaXRzLXRvLWJlLXNvbGQtd291bmQtZG93bi1pbi11a3JhaW5lLWZhbGxvdXQ_Y=
+21waWQ9QkJEMDMwMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5l=
+d3NsZXR0ZXImdXRtX3Rlcm09MjIwMzAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB4a96a101" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> Unravels</a> After Russia Sanctions Cause=
+ Bank Run. Apple, Exxon, Ford, Others <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/26886847.262605/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9=
+1a3JhaW5lLXdhci1sZWFkcy10by1tb3JlLWdsb2JhbC1idXNpbmVzcy1kaXNydXB0aW9uLTExNj=
+Q2MTczOTE1/607f07ceef4b8524a319a23cB4d945047" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Retreat From Russia</=
+a>; VW Warns of Disruption. Western <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/26886847.262605/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMDQ2N=
+DM4NDItNGMyYi00ODlmLThjMjQtZjM0OTA0MzMwOGVk/607f07ceef4b8524a319a23cB59280c=
+5e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">accountants and consultants</a> face pressure to abandon Russi=
+a. <a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605=
+/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZDNiMmY4MWUtN2RkYi00MDc4LWE5NmQtMWM3OG=
+NlN2ZjY2Nk/607f07ceef4b8524a319a23cBea9e9561" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Public relations</a> =
+firms cut Russia ties amid reputational fears.=C2=A0Credit Suisse asks inve=
+stors to destroy documents linked to <a href=3D"https://link.mail.bloomberg=
+business.com/click/26886847.262605/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYmZl=
+YTAwNjktNDE0My00ZTRiLWFjY2ItOTcxMmNlOTVhMjgyP3NoYXJlVHlwZT1ub25naWZ0/607f07=
+ceef4b8524a319a23cB86ef96f0" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">oligarch and tycoon yacht loans</a>. B=
+itcoin Rally Cools as Specter of <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/26886847.262605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjItMDMtMDIvYml0Y29pbi1yYWxseS1jb29scy1hcy10aGUtc3BlY3Rlci1vZi1=
+jcnlwdG8tc2FuY3Rpb25zLXJhaXNlZD9jbXBpZD1CQkQwMzAyMjJfTU9ORVlTVFVGRiZ1dG1fbW=
+VkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDImdXRtX2Nhb=
+XBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB33c2fe08" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Crypto S=
+anctions</a> Raised. Russian <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/26886847.262605/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjIvMDMvMDEvcnVzc2lh=
+bi1jeWJlci1hdHRhY2tzLWFnYWluc3QtdXMtYmFua3MtaW5jcmVhc2luZw/607f07ceef4b8524=
+a319a23cB611b46b1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">cyber attacks</a> against US banks increasing. C=
+itigroup Says Profitability to Fall Amid Spending on Strategy Shift. <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aHR0cHM6=
+Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mb3JkLWNyZWF0ZXMtZWxlY3RyaWMtdmVoaWNsZS1nYXM=
+tZW5naW5lLWRpdmlzaW9ucy1pbi1jb21wYW55LXJlc2hhcGUtMTE2NDYyMjI0NTg_bW9kPWhwX2=
+xlYWRfcG9zMg/607f07ceef4b8524a319a23cB42b8d086" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">Ford</a> Creates El=
+ectric-Vehicle, Gas-Engine Divisions in Company Reshape.=C2=A0<a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/26886847.262605/aHR0cHM6Ly93d3c=
+ud3NqLmNvbS9hcnRpY2xlcy9zdW1tZXItaW50ZXJucy1uZWdvdGlhdGUtc2FsYXJ5LXBlcmtzLT=
+ExNjQ1ODI1NTY2P21vZD1ocF9saXN0Y19wb3My/607f07ceef4b8524a319a23cBd3e119ce" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">Summer Interns</a> Jilt Companies as Better Offers Come Along. Multi=
+ple <a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.26260=
+5/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wMi8yOC9zY2llbmNlL3R5cmFubm9zYXVyd=
+XMtcmV4LXNwZWNpZXMuaHRtbA/607f07ceef4b8524a319a23cBd97d1c00" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">Tyrann=
+osauri</a>.=C2=A0</p><p style=3D"margin: 16px 0;"><span class=3D"news-desig=
+ned-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=
+=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26886847.262605/aHR0cDovL2xpbmsubWFp=
+bC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD0=
+1NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB759602=
+be" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">subscribe at this link</a>. Or you =
+can subscribe to Money Stuff and other great Bloomberg newsletters <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aHR0cHM6L=
+y9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB3e120a=
+8a" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">here</=
+a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1]=C2=A0I do n=
+ot think that donating the shares of a JV to a Ukraine relief charity is al=
+l that realistic an approach; presumably the JV agreement has transfer agre=
+ements and anyway you=E2=80=99re not getting cash out anytime soon.</em></p=
+><p style=3D"margin: 16px 0;"><em>[2]=C2=A0I cannot get into the details he=
+re, because they are complicated; here is <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26886847.262605/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3d=
+pa2kvQXJnZW50aW5lX2RlYnRfcmVzdHJ1Y3R1cmluZyNBcmdlbnRpbmFfMjAxNF8lMjJzZWxlY3=
+RpdmVfZGVmYXVsdCUyMg/607f07ceef4b8524a319a23cB0d00cafb" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">the Wikiped=
+ia</a>, and <a href=3D"https://link.mail.bloombergbusiness.com/click/268868=
+47.262605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTQtM=
+DYtMTkvd2hhdC13aWxsLWFyZ2VudGluYS1kby13aXRoLWl0cy12dWx0dXJlcz9jbXBpZD1CQkQw=
+MzAyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMjAzMDImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmYjZm9vdG5vdGUtMg/607f07c=
+eef4b8524a319a23cB327bfc34" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> a summary</a> I wrote at the time. Wei=
+rdly there does not seem to be a book about the Argentine pari passu saga, =
+though for a while Katia Porzecanski and I were talking about writing one.<=
+/em></p><p style=3D"margin: 16px 0;"><em>[3] Speaking of <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26886847.262605/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDEvdWtyYWluZS1tZWNoYW5pYy1hcnJ=
+lc3RlZC1mb3Itc2Fib3RhZ2Utb2YtcnVzc2lhbi10eWNvb24tcy15YWNodD9jbXBpZD1CQkQwMz=
+AyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1d=
+G1fdGVybT0yMjAzMDImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23c=
+Bc7c7ac20" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> the yacht mechanic</a>: =E2=80=9CAfter his release, Ost=
+apchuk said he would fly to Poland and head to Ukraine to fight against the=
+ Russians, according to local newspaper Ultima Hora. =E2=80=98I=E2=80=99m a=
+ middle-aged man, but I have a lot of experience as a mechanic,=E2=80=99 he=
+ said. =E2=80=98I=E2=80=99ve never held a weapon, but if necessary I will.=
+=E2=80=99=E2=80=9D</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB08626070" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB0b6d3f4c" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB55fae5c8" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB5b2f7347" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjg4Njg0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcxNDk0NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIe0cf2c10" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26886847&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27149452&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2688684=
+7.262605/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBbbc355bd" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26886847.262605/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC9b33b052" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26886847.262605/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB8357aee0" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26886847.262605/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB0b538d6e" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB7=
+766cc19" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26886847.262605/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBe=
+ee77515" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D268868=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27149452&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D268868=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27149452&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D268868=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27149452&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D268868=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27149452&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D268868=
+47&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27149452&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg0a0v.5mml/b709ea6d.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_101237089_1338569635.1646247054422--
+

@@ -1,0 +1,2443 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:c697:b0:130:da8c:7dd9 with SMTP id fe23csp915483rwb;
+        Tue, 18 Jul 2023 06:08:09 -0700 (PDT)
+X-Received: by 2002:a5d:5915:0:b0:314:545b:4f3 with SMTP id v21-20020a5d5915000000b00314545b04f3mr51549wrd.36.1689685688685;
+        Tue, 18 Jul 2023 06:08:08 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1689685688; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=zDoqgL0niLUsiXrhRxatsvsT/fT5LK8QSawbSNAOG+utldacsiYa7SpVBQBPC9nkS9
+         LztwXk+fMAlAXMrt9/60QGn7a5Ha1JjIMW1VBCrQvvDOY//3ILzxMnj7RFiDE5ftnygw
+         2aJ0m8Vu1lKKcg3jMHlr3kqdr/PFnW084CVsoeX0IbYH3Kr2uT4IZqMFjVNllG4eIqBY
+         4Cz9jb8hPlqW61oYB6Gm7aFBkqbqQbGatXKIZTCOmtz2uwxUgiUo/wmMg9MT525+/1jY
+         boeuM+dhylw9xrV9ZOelQZVNEwSTCNrkKB4ciCST9AwJsRgFUNLtBpJpVIw/m8OPZTYU
+         C6+g==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-id:list-unsubscribe-post:list-unsubscribe
+         :list-archive:list-url:list-owner:reply-to:in-reply-to:references
+         :sender:date:message-id:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=2febkjS6fOpXPSNkkg+J6mp4dLmxnsZxGPVw981iUSw=;
+        fh=6oqmI0CKOKVjG2kqNQTJ6cG62Pt4gKNc3BEKkONPY2I=;
+        b=D5xiiObOX2I8EPIrUhlD/dY8E7ZaoJwYGOoyZ7+00TtWPgWP8ycKADcVd+qV8C9TAe
+         SKTQQT7ZAw/6Q3sAAl85O7itigza25jonoWZub3aVNB9t4dGFLVzPSb9Ayd7l+ZgZTRB
+         C//e/+6thhbXIluIuAABxv9j0ScbMNO2xbp69Q93QU2H6cEE5Hbx3Y7cjUctyC9ghV23
+         QKgOKOkplsKxGA80Sqf0F7BrJiKbCJgFUi24e49FKkEwTIbT2TyMbtfqJBZp3s605xKZ
+         Xp77LvKCUKunHsMexV/7LTWsF6ejvt8TCtapA7+lp1qOBr0zP8TAFk3h3LN3V2WKAmSv
+         IsMw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=EVTv2x83;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id v24-20020adfa1d8000000b0030ac395a0b8sor823696wrv.6.2023.07.18.06.08.08
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 18 Jul 2023 06:08:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=EVTv2x83;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1689685688; x=1692277688;
+        h=list-post:list-id:list-unsubscribe-post:list-unsubscribe
+         :list-archive:list-url:list-owner:reply-to:in-reply-to:references
+         :sender:date:message-id:to:from:subject:mime-version:dkim-signature
+         :delivered-to:x-forwarded-for:x-forwarded-to:x-gm-message-state:from
+         :to:cc:subject:date:message-id:reply-to;
+        bh=2febkjS6fOpXPSNkkg+J6mp4dLmxnsZxGPVw981iUSw=;
+        b=kKVrtaBsfBOMQHl1tsURsSsHKhGHqjVvJMGNWjgn+hhzQzGGse35vpp3KG2aqkuQWT
+         261rL7xKaVlec7vti3jIm1ZUztN76WieL5Oan6w3fu7ryjWZDJspaiS0ur3lfbRoIM8H
+         BvvpqQbESDF9NS6FjLPh16e1Ao01nyeqy0QZ7kLykdEviKQ2KR/AEZK8TsR7/cZhLQ7Q
+         LtekbCL8mAErVGxes1exKqgFLn9Uj9ASSCMzB92bNCHdQt020Vk01LI4TVbX2sWyUcla
+         qxxM1k1WX9dMW4YELbsAn1qlOokziTnypBJ3SMnLZAz93hYik3kvc1pb6px7h37O9Ste
+         KxEg==
+X-Gm-Message-State: ABy/qLbc5Oemc7wPlXkMAXzPHuj4hf0ASRU7Ux7Y+sXpw+yvl+mpT0yi
+	y+wNYK22UcJTyxJdO0Z80w6kW00Lo99wZM9C4VZfyaJGFHg5NAe9bg==
+X-Received: by 2002:a5d:6102:0:b0:314:3c8f:d267 with SMTP id v2-20020a5d6102000000b003143c8fd267mr14770481wrt.45.1689685688101;
+        Tue, 18 Jul 2023 06:08:08 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f542:0:b0:314:3851:ec58 with SMTP id j2csp384908wrp;
+        Tue, 18 Jul 2023 06:08:05 -0700 (PDT)
+X-Received: by 2002:a05:6e02:b4b:b0:345:ab58:5afd with SMTP id f11-20020a056e020b4b00b00345ab585afdmr2756579ilu.16.1689685684980;
+        Tue, 18 Jul 2023 06:08:04 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1689685684; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=fT6uwSqpphnSKxYUAmepWIWSTTexRH1K8DzNkTa6gxTEMITK+ddroRhv2GNQIUb8IO
+         lTz30nJjozXw9ImTZSf5g4x/UiL+5xojbyTqInUVUHg16kiY+IJ8z+hLxx8NPEYuDBJJ
+         7nL1k1w2XLdHE8MKpq/NmVHAppLsP9BXEJ05JkZBXdzQdz/NX82TbuwiDk8DnsMZNmX+
+         VkIMJJpZwxJBpcXeM9JED+0jLrsa27j81hNDXkfHWMxdUnhL/dQMbYqNH8kOGvlG523D
+         Lsm+yRuS2vTNBMvIiXgBkE4ui5ASVe477xj63IkX5M8Ys3n6Rs8QojIsAh1PJDzKwhT/
+         3PYg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-id:list-unsubscribe-post:list-unsubscribe
+         :list-archive:list-url:list-owner:reply-to:in-reply-to:references
+         :sender:date:message-id:to:from:subject:mime-version:dkim-signature;
+        bh=2febkjS6fOpXPSNkkg+J6mp4dLmxnsZxGPVw981iUSw=;
+        fh=6oqmI0CKOKVjG2kqNQTJ6cG62Pt4gKNc3BEKkONPY2I=;
+        b=mLWNcHQrzvJU8e0paYq0Shbj7pqrNqpumngbiDrNcof5HRY9P16ErKNCRl0yDq0iAw
+         qMKp606YztFaW7+p5X0VVLzVysW2H0JtRDjuMZjvX60y6q1w5KeDSWZinFjX6Dvd3W7G
+         irMnSI6uul9WpU3AXtPL1VVYQqbNCEHIjM4KycmYpJ0L70DKYrdY7Maqz+42/OrkoLBu
+         1P5nPJ0e8dVWBvR5M9gihH9prr9UscIqt2FJFi68dmzYmkizb5S+53mtH7UG20u0t0c8
+         wZEQwyS5F/r9aMz8Mz7DSgBqq3ve2NvtYEV5eKG4MAP8NFKmbECOl0i0l4f3WwQMKgVO
+         sJkA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=EVTv2x83;
+       arc=pass (i=1 spf=pass spfdomain=mg-d0.substack.com dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id o7-20020a92d4c7000000b00347eab01b4bsor362067ilm.3.2023.07.18.06.08.04
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 18 Jul 2023 06:08:04 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: APBJJlHdy0yjTvbSUe8vmJ/iuXi+kyXC9U1N8PuaTg4yfwc52FSgvCBYD7GJ5Z4KtPvEYRZr9MVsgOn0gfSfpbY/MbAj1oxnV4w=
+X-Received: by 2002:a05:6e02:1a8b:b0:348:8542:a673 with SMTP id k11-20020a056e021a8b00b003488542a673mr2567897ilv.22.1689685684593;
+        Tue, 18 Jul 2023 06:08:04 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1689685684; cv=none;
+        d=google.com; s=arc-20160816;
+        b=zh+B2+/GAj5ev1NMR7MeZpmY6MYMnEzNVkyHsEbdv1h38nZChvCJ/N0R0ZuOKkK859
+         9/T+Ldk+VUxL/Y3lyJwCABU8rFV7IwC8NFUpzVy7zwp7F943wwZFwC2ZkAUP0/Gf1+y6
+         pxoA/7R4a9oDvq068TKB7mlxcpwkkQUDDAwKULu/QOlqyH8nXfqiax3ZJDmctEsrVLV2
+         XKH3HqqeLjBB/RQl4TUuKOhf9kOAez7/RqJUWSUR/5RjTe1IAtUcFw3gdmt2JNdkQKYD
+         TgiLMBgQxl8qzn36n2rOtlr8JbbG666t9tdVtfddqtiA7xkpq0zRAo2c+KVc/uy9QRNM
+         3F7Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-id:list-unsubscribe-post:list-unsubscribe
+         :list-archive:list-url:list-owner:reply-to:in-reply-to:references
+         :sender:date:message-id:to:from:subject:mime-version:dkim-signature;
+        bh=2febkjS6fOpXPSNkkg+J6mp4dLmxnsZxGPVw981iUSw=;
+        fh=6oqmI0CKOKVjG2kqNQTJ6cG62Pt4gKNc3BEKkONPY2I=;
+        b=SSDtCjdzH4wMcdbJH4ocN9GftqrPKipAA5Dn1b9IQvc4IDY/CXWfx09xKN5gv5l0fe
+         mG98STlV/yd97DRZc+LnRjiUlDfBCV/cm0p/D5ZjDzGNMoriwnbAA0fm79D5/nFpRjV2
+         /pMBjtl7Heio17srq5zxM4dnIK9v59iUdWc7sGm2ZdjaVOOq5Z0nweLlQUmZuOO5H514
+         vna35zhILLe5T7xULGinbrbE4/m3O8oOBLRfAnRUR3CnOn8mwyrxa76I5KU92g79hecP
+         0/iQHks4RgUZbkP8pHfMwevjR5LtelXWnf+mjwgDURD2xt5HVVv8NKVH8xSKR3W2xGHc
+         GwqQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=EVTv2x83;
+       spf=pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 159.112.244.8 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from m244-8.mailgun.net (m244-8.mailgun.net. [159.112.244.8])
+        by gmr-mx.google.com with UTF8SMTPS id c6-20020a056e020cc600b003489a8dd9a6si53560ilj.0.2023.07.18.06.08.04
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 18 Jul 2023 06:08:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 159.112.244.8 as permitted sender) client-ip=159.112.244.8;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d0.substack.com;
+ q=dns/txt; s=mailo; t=1689685684; x=1689692884; h=List-Post: List-Id:
+ List-Unsubscribe: List-Archive: List-Owner: Reply-To: In-Reply-To:
+ References: sender: sender: Date: Message-Id: To: To: From: From: Subject:
+ Subject: Content-Type: Mime-Version;
+ bh=2febkjS6fOpXPSNkkg+J6mp4dLmxnsZxGPVw981iUSw=;
+ b=EVTv2x83dkEWcmLvp/8uUfAVARRfJAy7MmUjcj78cuGcZCcjEoytP//QFcHgbuDs0EQLqzedTsnKLHXXx4nrLEKJoIIINjM9KP/2u6e1aEfvJyMQ+dFS19rjuPcZZqW3CV6F8h7Z0QKyDOUy/5SEi+9CUbtNB0l7Uc2jG3tpLv0=
+X-Mailgun-Sending-Ip: 159.112.244.8
+X-Mailgun-Sid: WyJhNzc2ZCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiNjNhZjVkIl0=
+Received: from <unknown> (<unknown> []) by cfbd75eecbd0 with HTTP id
+ 64b68eab70d85f1b58a8658e; Tue, 18 Jul 2023 13:07:30 GMT
+X-Mailgun-Batch-Id: 64b68e92951a7cb1cbc13112
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="9ff0d82907f6861d1e05e0d43d9803c9bca9f5047a4117fbe8cc349c7af1"
+Subject: When to Dig a Moat
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+Message-Id: <20230718125653.3.f92d4ef214182f45@mg-d0.substack.com>
+Date: Tue, 18 Jul 2023 12:56:53 +0000
+sender: Not Boring <notboring@substack.com>
+References: <post-135132007@substack.com>
+In-Reply-To: <post-135132007@substack.com>
+Reply-To: Not Boring
+ <reply+28gciv&9p0gt&&9dc7041a9752aecf069eb37f1fc90147b48edb1faa553776c81c76e62df21690@mg1.substack.com>
+List-Owner: <mailto:notboring@substack.com>
+List-URL: <https://www.notboring.co/>
+List-Archive: <https://www.notboring.co/archive>
+List-Unsubscribe: <https://www.notboring.co/action/disable_email/disable?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTM1MTMyMDA3LCJpYXQiOjE2ODk2ODU2NDksImV4cCI6MTY5MjI3NzY0OSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoiZGlzYWJsZV9lbWFpbCJ9.9djPMiR1B1YhrO-CyNadLnA4UA2TQ-fGtpkGd2kYqRg&expires=365d>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Id: <notboring.substack.com>
+List-Post: <https://www.notboring.co/p/when-to-dig-a-moat>
+X-Mailgun-Variables: {"category": "post", "email_generated_at": "1689685649817", "is_freemail":
+ "true", "post_audience": "everyone", "post_id": "135132007", "post_type":
+ "newsletter", "pub_community_enabled": "true", "publication_id": "10025",
+ "subdomain": "notboring", "user_id": "16283549"}
+X-X-Forwarded-For: notboring@khamel.com khamel83@gmail.com
+
+--9ff0d82907f6861d1e05e0d43d9803c9bca9f5047a4117fbe8cc349c7af1
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/when-to-dig-a-moat
+
+Welcome to the=C2=A0443=C2=A0newly Not Boring people=C2=A0who have joined u=
+s since last Tuesday! If you haven=E2=80=99t subscribed, join=C2=A0207,918 =
+smart, curious folks by subscribing here:
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 Slack [ https://li=
+nk.sbstck.com/redirect/76f23ec2-34a2-48a7-99bc-bb12371fe453?j=3DeyJ1IjoiOXA=
+wZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+I=E2=80=99m a long time Slack [ https://link.sbstck.com/redirect/76f23ec2-3=
+4a2-48a7-99bc-bb12371fe453?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXep=
+KbqOsa8-6m8ExkRNpU ] fan. This piece on Slack in 2020 [ https://link.sbstck=
+=2Ecom/redirect/b94ee0f9-374a-4962-8cb=
+9-0dc5ba5371a3?j=3DeyJ1IjoiOXAwZ3QifQ.g=
+b8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] was one of my first viral essa=
+ys ever. Three years and tens of thousands of Slack messages later, and I=
+=E2=80=99m more bullish on Slack than ever. And I=E2=80=99m not alone. Slac=
+k is where millions of companies =E2=80=93 of varying sizes =E2=80=93 get w=
+ork done.
+We all know that everyday tasks can slow you and your team down
+Back-and-forth emails. Meetings on top of meetings. A never-ending to-do li=
+st.=C2=A0But Slack is the single space to connect with everything, share an=
+d search for information, and help your teams do more with less. And with S=
+lack Pro [ https://link.sbstck.com/redirect/76f23ec2-34a2-48a7-99bc-bb12371=
+fe453?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ],=
+ you can:
+Keep conversations in one place
+At Not Boring, all internal-team collaboration happens within Slack, but we=
+ also collaborate with portfolio companies, advertising partners, and other=
+ communities all within our main Slack workspace.
+Find what you need, share what you know
+From files to photos to conversations, everyone can access any message that=
+=E2=80=99s ever been shared, so they have all the information they need to =
+make decisions and move work forward. Crtl+f makes the world go round.
+Connect instantly with huddles
+Fun fact, Dan and I have never scheduled a video meeting. But we huddle all=
+ the time. With huddles you can talk, video chat, or share your screen inst=
+antly with anyone in your Slack.
+Right now, you can save 50% off your first 3 months of Slack Pro [ https://=
+link.sbstck.com/redirect/76f23ec2-34a2-48a7-99bc-bb12371fe453?j=3DeyJ1IjoiO=
+XAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+Hi friends =F0=9F=91=8B ,
+Happy Tuesday!=20
+There=E2=80=99s been a lot of debate about the importance of moats recently=
+=2E Do startups have them, or not? Do startups need them, or not?=20
+In my opinion, the conversation has lacked some depth and dimensionality, w=
+hich has rendered it relatively useless for entrepreneurs and investors ali=
+ke. I want to take a shot at clearing it up today.=20
+Let=E2=80=99s get to it.=20
+When to Dig a Moat
+There=E2=80=99s a belief in tech that if you have the most talented team, t=
+he best product, and the fastest growth =E2=80=93 that if you just Make Som=
+ething People Want =E2=80=93 you don=E2=80=99t need to worry about moats.
+That=E2=80=99s precisely wrong.=C2=A0
+Companies that have the best products, most talented people, and fastest gr=
+owth are precisely the ones for which moats are most important.=C2=A0
+They=E2=80=99re the ones who might get lucky enough to have something to lo=
+se. They=E2=80=99re the ones that bigger, better-resourced or smaller, fast=
+er companies will one day compete with. And the faster they become successf=
+ul, the faster they=E2=80=99ll face meaningful competition.=C2=A0
+Success accelerates the need for moats. As soon as success seems obvious, s=
+tartups lose their training wheels moat =E2=80=93 uncertainty =E2=80=93 and=
+ should have at least the foundations of more permanent moats in place.=C2=
+=A0
+There=E2=80=99s simply less time to fuck around now, as many companies will=
+ soon find out.=C2=A0=C2=A0
+To set the foundation here, what are moats? In 7 Powers [ https://link.sbst=
+ck.com/redirect/6d2331c9-e6fd-48ed-b376-829ff2847f0b?j=3DeyJ1IjoiOXAwZ3QifQ=
+=2Egb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8=
+ExkRNpU ], Hamilton Helmer defines the=
+m as =E2=80=9Cthose barriers that protect your business=E2=80=99 margins fr=
+om the erosive forces of competition.=E2=80=9D He lists seven types: Econom=
+ies of Scale, Network Effects, Counter-Positioning, Switching Costs, Brand,=
+ Cornered Resource, Process Power. For definitions and examples of each, ch=
+eck out Flo Crivello=E2=80=99s Mind the Moat [ https://link.sbstck.com/redi=
+rect/6546deff-ee31-4306-a9df-ad836c8ec260?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA=
+_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+Moats won=E2=80=99t get you Product-Market Fit (PMF). You need that first b=
+efore worrying about anything else, as USV=E2=80=99s Fred Wilson wrote in a=
+ 2013 blog post Product > Strategy > Business Model [ https://link.sbstck.c=
+om/redirect/1a379e81-9878-4b10-bbe3-5732d2498f9d?j=3DeyJ1IjoiOXAwZ3QifQ.gb8=
+J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. But by the time you have PMF, b=
+y the time it=E2=80=99s obvious that what you=E2=80=99re doing could work, =
+you should be able to protect it from the erosive forces of competition.=C2=
+=A0
+The ultimate goal of a venture-backed startup is to go public or get acquir=
+ed for roughly $1 billion or more, not to get marked up by other VCs. That =
+can take a long time, typically seven to ten years. Even if the startup lig=
+hts a fire before competitors realize what it=E2=80=99s doing, it needs to =
+protect and fan that fire for many years before a successful exit. For comp=
+anies at which everything is going right, moats can be the difference betwe=
+en IPO and cautionary tale.=C2=A0
+Puja and I were watching Tour de France: Unchained on Netflix this weekend,=
+ and I think Steve Chainel=E2=80=99s line on the cobblestone stage sums it =
+up nicely:=C2=A0
+=E2=80=9CYou can=E2=80=99t win the Tour de France on the cobblestones=E2=80=
+=A6 but you can lose it.=E2=80=9D
+This question about moats has come up a bunch recently in the context of ge=
+nerative AI startups built on top of OpenAI=E2=80=99s APIs, ungenerously re=
+ferred to as =E2=80=9CGPT Wrappers.=E2=80=9D On the one side are the VCs an=
+d armchair analysts who believe that GPT Wrappers have no moats. On the oth=
+er are the builders who say that building great products and growing quickl=
+y is what matters most, and that moats will come later.=C2=A0
+On Friday, The Information  [ https://link.sbstck.com/redirect/e8bae9db-f45=
+5-4401-b392-f80fee68f8ca?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKb=
+qOsa8-6m8ExkRNpU ]reported [ https://link.sbstck.com/redirect/e8bae9db-f455=
+-4401-b392-f80fee68f8ca?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbq=
+Osa8-6m8ExkRNpU ] that two generative AI companies, Jasper and Mutiny AI, w=
+ere laying off employees. Jasper in particular had been growing very quickl=
+y. Founded in 2021, before the AI Hype Cycle, it was on track to reach $75 =
+million in revenue this year. Last October, it rode that growth to a $1.5 b=
+illion valuation [ https://link.sbstck.com/redirect/4c29fdca-9537-4834-900c=
+-1d65427cb204?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Ex=
+kRNpU ]. Nine months later, it=E2=80=99s doing layoffs in the face of incre=
+ased competition. It would seem that the company has not yet built deep eno=
+ugh moats to protect its fast-growing prize. It=E2=80=99s only been alive t=
+wo years. It=E2=80=99s hard to blame it.=C2=A0
+What happened? Jasper simply ran out of uncertainty cover before it could b=
+uild real moats. Let me explain.=C2=A0
+In Productive Uncertainty [ https://link.sbstck.com/redirect/2eb5094c-b045-=
+4b22-897e-91fb497a0adb?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqO=
+sa8-6m8ExkRNpU ], Jerry Neumann wrote that =E2=80=9Cthe only moat that can =
+create excess value for a new startup is uncertainty=E2=80=9D because =E2=
+=80=9Cuncertainty keeps competition at bay long enough for a moat to be bui=
+lt.=E2=80=9D=C2=A0
+The more obvious your idea is and the easier it is to build, the faster you=
+ need to dig moats. Conversely, the less obvious your idea is and the harde=
+r it is to build, the longer you have to dig moats.=C2=A0
+Whether you should spend all of your time on product or spend some of it on=
+ strategy, even at an early stage, is a function of how much uncertainty ex=
+ists in your business.=C2=A0
+Neumann calls out two kinds of uncertainty: Novelty Uncertainty (~technical=
+ risk) and Complexity Uncertainty (~market risk). Novelty Uncertainty is th=
+e kind faced by a lot of deeptech companies: uncertainty over whether you c=
+an actually build what you say you=E2=80=99re going to build. Complexity Un=
+certainty assumes that you can build it, but questions whether there will e=
+ver be a big and profitable market for it.=C2=A0
+New startups have a limited window of time during which they=E2=80=99re pro=
+tected by the cover of uncertainty to dig moats, and if they don=E2=80=99t =
+dig them by the time others catch on, their excess profit will be competed =
+away and they=E2=80=99ll struggle to achieve a good outcome.
+Dumbing it down to a formula, you get something like this:=C2=A0
+Depth of Moat Needed =3D How Obviously Good Your Idea Is - How Hard it is t=
+o Build
+The variables in this formula can and do change over time. Non-obvious idea=
+s can become obvious as the market catches up to your insight and customers=
+ prove you right with their wallets. Things that were once hard to build ca=
+n become easier to build as infrastructure improves. One company's core tec=
+hnology can become another=E2=80=99s API. It=E2=80=99s important for founde=
+rs and investors alike to update the formula as the facts on the ground cha=
+nge.=C2=A0
+This formula explains startup truisms like =E2=80=9CGreat companies are bui=
+lt in bear markets!=E2=80=9D and =E2=80=9CYou need to be contrarian and rig=
+ht.=E2=80=9D In both cases, increased uncertainty provides more time to bui=
+ld defensibility.=C2=A0
+If you=E2=80=99re in the =E2=80=9Cnew startups don=E2=80=99t need to worry =
+about moats=E2=80=9D camp, you might point to success stories like Twitter =
+and Airbnb, but those examples would miss the uncertainty angle.
+In his blog post, Wilson used Twitter as an example of a company that found=
+ PMF and then turned to strategy. Twitter was fortunate in that, even when =
+people were using it, it started out looking like a toy [ https://link.sbst=
+ck.com/redirect/5ab46ad5-bc89-4434-b9ed-bfc9ff87066c?j=3DeyJ1IjoiOXAwZ3QifQ=
+=2Egb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m=
+8ExkRNpU ]. Would-be competitors didn=
+=E2=80=99t take a product that people used to share what they were eating f=
+or lunch seriously enough to compete with until it was too late. We are sti=
+ll dealing with the strength of the Network Effects Twitter was able to bui=
+ld up under the cover of Complexity Uncertainty 17 years later.=C2=A0
+Airbnb also focused exclusively on product at the expense of strategy in it=
+s early days.=C2=A0
+The Competitive Advantage slide in Airbnb=E2=80=99s pre-seed deck [ https:/=
+/link.sbstck.com/redirect/0cfb43ef-1489-4608-8548-f7fb479ddae4?j=3DeyJ1Ijoi=
+OXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] lists six product =
+features and no real moats (unless you=E2=80=99re counting Brand, but that=
+=E2=80=99s a very weak one until you have it).=C2=A0
+There=E2=80=99s a reason that they were able to succeed despite that, and i=
+t=E2=80=99s not just the brilliance of the product. It=E2=80=99s the fact t=
+hat Airbnb seemed like a terrible idea! Airbnb had a really hard time raisi=
+ng money. It faced rejection after rejection from VCs [ https://link.sbstck=
+=2Ecom/redirect/1e9385cc-c7d2-43d9-974=
+a-37d9eeacd151?j=3DeyJ1IjoiOXAwZ3QifQ.g=
+b8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. There=E2=80=99s probably a ru=
+le in here somewhere: the easier it is for you to raise money, the more imm=
+ediately you need moats.=C2=A0
+Complexity Uncertainty gave Airbnb time to develop the Brand and Network Ef=
+fects moats that have protected it all the way to that $91 billion market c=
+ap. Ultimately, it spent a ton of time, money, and effort to build those mo=
+ats =E2=80=93 it hired teams of people to finely balance supply and demand =
+and worked with Disney to storyboard its guest experience, as two examples =
+=E2=80=93 but given the amount of uncertainty around whether anyone would p=
+ay to stay on someone else=E2=80=99s couch, they were right to focus on pro=
+ving out the product before worrying about moats.
+This is why the VCs and commentariat are jumping up and down about the lack=
+ of moats in generative AI. There is practically no uncertainty.=C2=A0
+Building on top of ChatGPT kills Novelty Uncertainty. I think everyone agre=
+es on that. But the wild early success of so many generative AI products al=
+so kills Complexity Uncertainty! If you build a generative AI product that =
+starts to take off, you=E2=80=99re going to be attacked by other startups, =
+bootstrapped companies, solo builders, and incumbents all hungry for your u=
+sers.=C2=A0
+Competition is inevitable. In a slower-moving or more technically novel spa=
+ce, competition may be fine because you=E2=80=99ll have had time to build p=
+roto-moats and customer loyalty. In a space that=E2=80=99s moving as quickl=
+y as generative AI, the chances that you=E2=80=99ve dug strong enough moats=
+ by the time that competitors come are slim.=C2=A0
+In a piece titled Generative AI Companies Have Moats (Eventually) [ https:/=
+/link.sbstck.com/redirect/b59f0eb5-8e16-4aa5-9dc8-66967d9a0917?j=3DeyJ1Ijoi=
+OXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], Battery Ventures=
+=E2=80=99 Brandon Gleklen argued that it=E2=80=99s OK for generative AI com=
+panies not to worry about moats, because like cloud companies before them, =
+they can build them =E2=80=93 Scale Economies, in particular =E2=80=93 over=
+ time as they listen to customers and evolve based on user feedback.=C2=A0
+The point I=E2=80=99m trying to make is that that=E2=80=99s not true in a s=
+pace as certain as generative AI. Eventually is a luxury for companies oper=
+ating under uncertainty.=C2=A0
+There will, of course, be very lucrative outcomes in AI when you zoom out f=
+rom GPT wrappers. Two examples highlight the importance of digging moats du=
+ring periods of uncertainty to protect yourself once the uncertainty lifts:=
+ Hugging Face [ https://link.sbstck.com/redirect/a09aefa0-230d-4141-a3ce-c2=
+922615e391?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRN=
+pU ] and Runway [ https://link.sbstck.com/redirect/e29449ed-691d-4771-879c-=
+a68e387d516f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Exk=
+RNpU ].=C2=A0
+When Hugging Face was founded in 2016, back before AI was The Thing, its pr=
+oduct was an AI chatbot built on top of its own NLP models. When the Attent=
+ion is All You Need [ https://link.sbstck.com/redirect/d8a52cee-4d2a-4a29-9=
+157-2c9d33be4cb7?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m=
+8ExkRNpU ] paper introduced the Transformer architecture the following year=
+, the Hugging Face team created the Transformers [ https://link.sbstck.com/=
+redirect/ac5103a1-fc98-451f-9c99-19e681067be8?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T=
+7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] open source library on GitHub, whic=
+h took off in the open source community.=C2=A0
+Hugging Face threw its full weight into becoming the =E2=80=9CGitHub for ma=
+chine learning,=E2=80=9D hosting open source models and data sets, building=
+ tools for users to build, train, and deploy those models, and fostering a =
+community of developers.=C2=A0
+Hugging Face used the five years that it operated under Complexity Uncertai=
+nty =E2=80=93 before AI became the obvious thing =E2=80=93 to dig moats, th=
+e most powerful of which is Network Effects. It=E2=80=99s rumored [ https:/=
+/link.sbstck.com/redirect/cee0e239-afd1-454d-8201-53e3b9f3ac37?j=3DeyJ1Ijoi=
+OXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] to have $30 - $50 =
+million in revenue and to be raising a round at a $4 billion valuation.=C2=
+=A0
+If Hugging Face is an example of successfully using the time provided by Co=
+mplexity Uncertainty to establish strong moats, Runway is a live situation:=
+ can it dig moats before its Novelty Uncertainty shot clock expires?=C2=A0
+Runway was also founded before the AI boom, in 2018, to build the =E2=80=9C=
+world=E2=80=99s first end-to-end AI generation platform.=E2=80=9D It faced =
+Novelty Uncertainty =E2=80=93 AI could barely generate images, let alone vi=
+deos, in 2018. When it raised $2 million from Lux Capital, it did so at a m=
+odest $9 million post-money valuation.=C2=A0
+In the intervening five years, it=E2=80=99s built state-of-the-art video mo=
+dels based on its own applied research. Recently, it announced the launch o=
+f Gen-2, the best on the market:=C2=A0=C2=A0
+In June, Runway raised [ https://link.sbstck.com/redirect/f8d85745-bc0e-4d4=
+5-96cf-3fdb69c0cc7f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8=
+-6m8ExkRNpU ] a $141 million round from Google, Nvidia, Salesforce and othe=
+rs at a $1.5 billion valuation.=C2=A0
+Because of how hard it is to build what Runway=E2=80=99s built, and the fac=
+t that it only recently became apparent that it was possible, it=E2=80=99s =
+been protected by Novelty Uncertainty to date. They=E2=80=99ve also shipped=
+ products at a rapid clip to stay ahead. I=E2=80=99m not sure that the comp=
+any has real moats yet, though, and it should act quickly to dig them befor=
+e uncertainty runs out.=C2=A0
+This is why strategy is important for startups, even if it=E2=80=99s uncool=
+=2E At its simplest, early stage startu=
+p strategy is about directing limited=20=
+resources towards digging moats before you=E2=80=99ve removed enough uncert=
+ainty to attract serious competition.=C2=A0
+I=E2=80=99ve wanted to write a post defending strategy for a while, but I p=
+romised myself I=E2=80=99d keep this one short and crisp, so I=E2=80=99ll s=
+ave that for another post.=C2=A0
+For now, what=E2=80=99s clear is that while not all startups need moats in =
+the early days, they do need to start digging moats when their eventual suc=
+cess is obvious to them but to very few others. If they=E2=80=99re lucky en=
+ough to have something obviously worth attacking one day, moats will matter=
+=2E=20
+Get digging.=20
+Thanks to Dan [ https://link.sbstck.com/redirect/e4322359-c89c-4d2b-bc2b-57=
+aa40aeb014?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRN=
+pU ] for editing!=20
+That=E2=80=99s all for today! We=E2=80=99ll be back in your podcast feed to=
+morrow and in your inbox with the Weekly Dose on Friday.=20
+Thanks for reading,=20
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZNVE0xTVRNeU1EQTNMQ0pwWVhRaU9qRTJPRGsyT0RVMk5Ea3NJb=
+VY0Y0NJNk1UWTVNakkzTnpZME9Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpH=
+bHpZV0pzWlY5bGJXRnBiQ0o5LjlkalBNaVIxQjFZaHJPLUN5TmFkTG5BNFVBMlRRLWZHdHBrR2Q=
+ya1lxUmcmZXhwaXJlcz0zNjVkIiwicCI6MTM1MTMyMDA3LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidS=
+I6MTYyODM1NDksImlhdCI6MTY4OTY4NTY0OSwiZXhwIjoxNjkyMjc3NjQ5LCJpc3MiOiJwdWItM=
+CIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.xwPC933ojjS1o9Ew6-g4d7o2lP5WvRTio--vihJpM=
+NU?
+--9ff0d82907f6861d1e05e0d43d9803c9bca9f5047a4117fbe8cc349c7af1
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta charset=3D"utf-8"><title>When to Dig a Moat</title><style=
+>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.youtube-inner div.youtube-screen,
+  .typography.editor .markup div.youtube-inner div.youtube-screen,
+  .typography .markup div.vimeo-inner div.youtube-screen,
+  .typography.editor .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet,
+  .typography.editor .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-text,
+  .typography.editor .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-photos-container.two,
+  .typography.editor .markup .tweet .tweet-photos-container.two,
+  .typography .markup .tweet .tweet-photos-container.three,
+  .typography.editor .markup .tweet .tweet-photos-container.three,
+  .typography .markup .tweet .tweet-photos-container.four,
+  .typography.editor .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-img,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-description,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-descript=
+ion {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget,
+  .header-anchor-container .header-anchor-widget {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .post-label {
+    margin-top: 8px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .footer-facepile-container {
+    height: 64px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.youtube-inner div.youtube-screen,
+  body .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  body .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-sub=
+scribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-photos-container.two,
+  body .markup .tweet .tweet-photos-container.three,
+  body .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed img.install-substack-app-embed-i=
+mg {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-link=
+ {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .reader2-text-b3 {
+    line-height: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .reader2-text-h4 {
+    line-height: 24px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper {
+    width: 100%;
+    padding: 16px;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper:empty {
+    display: none;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://eotrx.substackcdn.com/open?token=3DeyJtIjoiPDIwMjMwNzE4MTI=
+1NjUzLjMuZjkyZDRlZjIxNDE4MmY0NUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1ND=
+ksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwI=
+joxMzUxMzIwMDcsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTAwMjUsImMi=
+OiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE2ODk2ODU2NDksImV4cCI=
+6MTY5MjI3NzY0OSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.EcCjbiMtPzKciDKly4S_Hljv3=
+ten6S0wfQ7e217lSvo" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D=
+"height:1px !important;width:1px !important;border-width:0 !important;margi=
+n-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;mar=
+gin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;=
+padding-right:0 !important;padding-left:0 !important;"/><div style=3D"displ=
+ay:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-widt=
+h:0px;opacity:0;overflow:hidden;" class=3D"preview">Uncertainty, Success, a=
+nd Defensibility &#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;</div><t=
+able role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" class=3D"email-body-container"><tr><td></td><td width=3D"55=
+0" class=3D"content"></td><td></td></tr><tr><td></td><td align=3D"left" wid=
+th=3D"550" class=3D"content"><div style=3D"font-size: 16px; line-height: 26=
+px; margin: 0 auto; max-width: 550px; overflow-wrap: break-word; width: 100=
+%;"><table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0"><tr><td align=3D"right" style=3D"height: 20px;"><tabl=
+e role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0"><tr><td style=3D"vertical-align: middle;"><span class=3D"tw-fo=
+nt-body tw-text-ssm tw-text-substack-secondary" style=3D"color: rgb(128, 12=
+8, 128) !important; font-family: SF Pro Text, -apple-system, BlinkMacSystem=
+Font, Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Em=
+oji, Segoe UI Emoji, Segoe UI Symbol !important; font-size: 13px !important=
+;"><a href=3D"https://open.substack.com/pub/notboring/p/when-to-dig-a-moat?=
+utm_source=3Demail&redirect=3Dapp-store" class=3D"tw-text-substack-secondar=
+y tw-underline" style=3D"-webkit-text-decoration-line: underline !important=
+; color: rgb(128, 128, 128) !important; text-decoration-line: underline !im=
+portant;">Open in app</a> or <a href=3D"https://substack.com/redirect/2/eyJ=
+lIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3Avd2hlbi10by1kaWctYS1tb2F0P3Rva2VuPW=
+V5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVE0xTVRNeU1EQTNMQ0pwW=
+VhRaU9qRTJPRGsyT0RVMk5Ea3NJbVY0Y0NJNk1UWTVNakkzTnpZME9Td2lhWE56SWpvaWNIVmlM=
+VEV3TURJMUlpd2ljM1ZpSWpvaWNHOXpkQzF5WldGamRHbHZiaUo5Lm9zV1BMWDJmM2FwbGFJRU0=
+1MDlaOHplT1ZHbm1qaEdOcmpiTGkxbzJ1STAiLCJwIjoxMzUxMzIwMDcsInMiOjEwMDI1LCJmIj=
+p0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjg5Njg1NjQ5LCJleHAiOjE2OTIyNzc2NDksImlzc=
+yI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.UQutIeCotU5QsjL1R74Z-ZWVIcBuNGS=
+OgmgAzRZ6D9s?" class=3D"tw-text-substack-secondary tw-underline" style=3D"-=
+webkit-text-decoration-line: underline !important; color: rgb(128, 128, 128=
+) !important; text-decoration-line: underline !important;">online</a></span=
+></td></tr></table></td></tr></table><div dir=3D"auto" class=3D"post typogr=
+aphy" style=3D"font-size: 16px; line-height: 26px; padding: 16px 0 0 0;"><d=
+iv class=3D"post-header" style=3D"font-size: 16px; line-height: 26px;"><h1 =
+class=3D"post-title published" style=3D"-moz-appearance: optimizelegibility=
+; -moz-osx-font-smoothing: antialiased; -webkit-appearance: optimizelegibil=
+ity; -webkit-font-smoothing: antialiased; appearance: optimizelegibility; c=
+olor: rgb(64, 64, 64); font-family: 'Roboto Mono',monospace; font-size: 32p=
+x; font-weight: 700; line-height: 36px; margin: 0;"><a href=3D"https://subs=
+tack.com/app-link/post?publication_id=3D10025&post_id=3D135132007&utm_sourc=
+e=3Dpost-email-title&isFreemail=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwi=
+cG9zdF9pZCI6MTM1MTMyMDA3LCJpYXQiOjE2ODk2ODU2NDksImV4cCI6MTY5MjI3NzY0OSwiaXN=
+zIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.osWPLX2f3aplaIEM509Z8zeOV=
+GnmjhGNrjbLi1o2uI0" style=3D"color: rgb(64, 64, 64); text-decoration: none;=
+">When to Dig a Moat</a></h1><h3 class=3D"subtitle" style=3D"-moz-appearanc=
+e: optimizelegibility; -moz-osx-font-smoothing: antialiased; -webkit-appear=
+ance: optimizelegibility; -webkit-font-smoothing: antialiased; appearance: =
+optimizelegibility; color: #808080; font-family: 'SF Compact Display', -app=
+le-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: =
+18px; font-weight: normal; line-height: 24px; margin: 4px 0 0; margin-top: =
+12px;">Uncertainty, Success, and Defensibility</h3><table cellpadding=3D"0"=
+ cellspacing=3D"0" class=3D"post-meta custom" style=3D"align-items: center;=
+ height: 20px; margin: 1em 0;"><tr><td title=3D"2023-07-18T13:07:13.820Z" c=
+lass=3D"post-meta-item post-date" style=3D"color: #808080; font-family: -ap=
+ple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-=
+serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size:=
+ 14px; font-weight: 400; height: 14px; margin-right: 0; padding: 0px 12px 0=
+px 0; padding-bottom: 0; padding-right: 0; padding-top: 0; position: relati=
+ve; text-decoration: none; white-space: nowrap;"><div class=3D"pencraft fro=
+ntend-pencraft-Box-module__reset--VfQY8 frontend-pencraft-Text-module__size=
+-11--k1e8b frontend-pencraft-Text-module__line-height-20--p0dP8 frontend-pe=
+ncraft-Text-module__weight-medium--x7khA frontend-pencraft-Text-module__fon=
+t-meta--U_nxy frontend-pencraft-Text-module__color-secondary--WRADg fronten=
+d-pencraft-Text-module__transform-uppercase--IDkUL frontend-pencraft-Text-m=
+odule__reset--dW0zZ frontend-pencraft-Text-module__meta--jzHdd" style=3D"co=
+lor: rgb(128, 128, 128); font-family: 'SF Compact', -apple-system, -apple-s=
+ystem, -system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial=
+, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fon=
+t-size: 11px; font-weight: 500; letter-spacing: .2px; line-height: 20px; ma=
+rgin: 0; text-decoration: unset; text-transform: uppercase;"><time dateTime=
+=3D"2023-07-18T13:07:13.820Z">Jul 18</time></div></td></tr></table><table r=
+ole=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" class=3D"email-ufi-2-top" style=3D"border-bottom: 1px solid rgba(=
+0, 0, 0, .13); border-top: 1px solid rgba(0, 0, 0, .13); min-width: 100%;">=
+<tr height=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0=
+;">&#160;</td></tr><tr><td><table role=3D"presentation" width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><table role=3D"present=
+ation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr>=
+<td style=3D"vertical-align: middle;"><table role=3D"presentation" width=3D=
+"38" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"cent=
+er"><a href=3D"https://substack.com/app-link/post?publication_id=3D10025&po=
+st_id=3D135132007&utm_source=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtrue=
+&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTM1MTMyMDA3LCJyZWFjdGlvbi=
+I6IuKdpCIsImlhdCI6MTY4OTY4NTY0OSwiZXhwIjoxNjkyMjc3NjQ5LCJpc3MiOiJwdWItMTAwM=
+jUiLCJzdWIiOiJyZWFjdGlvbiJ9.1ZWRVUDrpaEuW8o7tZWpybhEj6MU6_BybHUAcbpTFSQ&utm=
+_medium=3Demail" style=3D"border: 1px solid rgba(0, 0, 0, .13); border-radi=
+us: 100000px; box-sizing: border-box; color: rgb(128, 128, 128); display: i=
+nline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Co=
+lor Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weig=
+ht: 500; line-height: 1; min-width: 38px; padding: 9px 0; text-decoration: =
+none; text-transform: uppercase; width: 38px;" class=3D"email-icon-button">=
+<img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:g=
+ood,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3F=
+v%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2"=
+ width=3D"18" height=3D"18" style=3D"border: none !important; max-width: 18=
+px; vertical-align: middle;" alt class=3D"icon"></a></td></tr></table></td>=
+<td width=3D"8" style=3D"min-width: 8px"></td><td style=3D"vertical-align: =
+middle;"><table role=3D"presentation" width=3D"38" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://substa=
+ck.com/app-link/post?publication_id=3D10025&post_id=3D135132007&utm_source=
+=3Dsubstack&utm_medium=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3Dey=
+J1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTM1MTMyMDA3LCJpYXQiOjE2ODk2ODU2NDksI=
+mV4cCI6MTY5MjI3NzY0OSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9=
+=2EosWPLX2f3aplaIEM509Z8zeOVGnmjhGNrjb=
+Li1o2uI0&utm_source=3Dsubstack&utm_medi=
+um=3Demail" style=3D"border: 1px solid rgba(0, 0, 0, .13); border-radius: 1=
+00000px; box-sizing: border-box; color: rgb(128, 128, 128); display: inline=
+-block; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacS=
+ystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color E=
+moji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 5=
+00; line-height: 1; min-width: 38px; padding: 9px 0; text-decoration: none;=
+ text-transform: uppercase; width: 38px;" class=3D"email-icon-button"><img =
+src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%=
+3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" w=
+idth=3D"18" height=3D"18" style=3D"border: none !important; max-width: 18px=
+; vertical-align: middle;" alt class=3D"icon"></a></td></tr></table></td><t=
+d width=3D"8" style=3D"min-width: 8px"></td><td style=3D"vertical-align: mi=
+ddle;"><table role=3D"presentation" width=3D"38" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://substa=
+ck.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3Avd2hlbi10by1ka=
+WctYS1tb2F0P3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZhY3Rpb249cmVz=
+dGFjay1jb21tZW50IiwicCI6MTM1MTMyMDA3LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM=
+1NDksImlhdCI6MTY4OTY4NTY0OSwiZXhwIjoxNjkyMjc3NjQ5LCJpc3MiOiJwdWItMCIsInN1Yi=
+I6ImxpbmstcmVkaXJlY3QifQ.f8vCL5bGcnbvPhNo28CP2qGCvPVW_2SWhXk7N9JCBj8?&utm_s=
+ource=3Dsubstack&utm_medium=3Demail" style=3D"border: 1px solid rgba(0, 0, =
+0, .13); border-radius: 100000px; box-sizing: border-box; color: rgb(128, 1=
+28, 128); display: inline-block; font-family: 'SF Pro Text', -apple-system,=
+ ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, s=
+ans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-s=
+ize: 12px; font-weight: 500; line-height: 1; min-width: 38px; padding: 9px =
+0; text-decoration: none; text-transform: uppercase; width: 38px;" class=3D=
+"email-icon-button"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_=
+scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fi=
+con%2FNoteForwardIcon%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%25238=
+08080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !=
+important; max-width: 18px; vertical-align: middle;" alt class=3D"icon"></a=
+></td></tr></table></td></tr></table></td><td align=3D"right"><table role=
+=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td style=3D"vertical-align: middle;"><table role=3D"presentatio=
+n" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td =
+align=3D"center"><a href=3D"https://substack.com/app-link/post?publication_=
+id=3D10025&post_id=3D135132007&utm_source=3Dsubstack&utm_medium=3Demail&utm=
+_content=3Dshare&action=3Dshare&triggerShare=3Dtrue&isFreemail=3Dtrue&token=
+=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTM1MTMyMDA3LCJpYXQiOjE2ODk2ODU2=
+NDksImV4cCI6MTY5MjI3NzY0OSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGl=
+vbiJ9.osWPLX2f3aplaIEM509Z8zeOVGnmjhGNrjbLi1o2uI0" class=3D"email-button-ou=
+tline" style=3D"border: 1px solid rgba(0, 0, 0, .13); border-radius: 100000=
+px; color: rgb(128, 128, 128); display: inline-block; font-family: 'SF Pro =
+Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto=
+, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Seg=
+oe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 12px; paddin=
+g: 9px 14px; text-decoration: none; text-transform: uppercase;"><div class=
+=3D"email-button-spacer" style=3D"display: inline-block; font-size: 16px; l=
+ine-height: 26px; max-width: 0; min-height: 18px; vertical-align: middle;">=
+</div><span class=3D"email-button-text" style=3D"vertical-align: middle;">S=
+hare</span></a></td></tr></table></td></tr></table></td></tr></table></td><=
+/tr><tr height=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-heigh=
+t: 0;">&#160;</td></tr></table></div></div><div dir=3D"auto" class=3D"post =
+typography" style=3D"font-size: 16px; line-height: 26px; padding: 16px 0 0 =
+0;"><div dir=3D"auto" class=3D"body markup" style=3D"font-size: 16px; line-=
+height: 26px; margin-bottom: 16px; text-align: initial; width: 100%; word-b=
+reak: break-word;"><p style=3D"color: rgb(64, 64, 64); font-size: 16px; lin=
+e-height: 26px; margin: 0 0 20px 0; margin-top: 0;"><em><span>Welcome to th=
+e&#160;</span><strong>443&#160;newly Not Boring people&#160;</strong><span>=
+who have joined us since last Tuesday! If you haven&#8217;t subscribed, joi=
+n&#160;</span><strong>207,918 </strong><span>smart, curious folks by subscr=
+ibing here:</span></em></p><div data-component-name=3D"SubscribeWidget" cla=
+ss=3D"subscribe-widget is-signed-up is-fully-subscribed" style=3D"direction=
+: ltr; font-size: 16px; line-height: 26px; margin: 0 0 1em;"><p class=3D"bu=
+tton-wrapper" style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0; text-align: center;"><a href=3D"https://substac=
+k.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjY291bnQiLCJwIj=
+oxMzUxMzIwMDcsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjg5Njg1N=
+jQ5LCJleHAiOjE2OTIyNzc2NDksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9=
+=2EYDz6PU771ZOYKk_krn8SghpLiOysuUeF2cC=
+0EkBzdbg?" class=3D"button subscribe-bt=
+n outline" style=3D"background: transparent; background-color: transparent;=
+ border: 1px solid #51b4e9; border-radius: 6px; box-sizing: border-box; col=
+or: #51b4e9; cursor: pointer; display: inline-block; font-family: -apple-sy=
+stem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px;=
+ font-weight: 600; height: auto; line-height: 20px; margin: 0 auto; opacity=
+: 1; outline: none; padding: 12px 20px; text-align: center; text-decoration=
+: none !important; white-space: nowrap;"><img src=3D"https://substackcdn.co=
+m/image/fetch/w_40,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%=
+2F%2Fsubstack.com%2Ficon%2FLucideCheck%3Fv%3D4%26height%3D40%26fill%3Dtrans=
+parent%26stroke%3D%252351b4e9%26strokeWidth%3D3.6" width=3D"20" height=3D"2=
+0" style=3D"-ms-interpolation-mode: bicubic; border: none !important; displ=
+ay: inline-block; height: auto; margin: -2px 8px 0 0; max-width: 20px; vert=
+ical-align: middle;" alt class=3D"check-icon static"><span style=3D"text-de=
+coration: none;">Subscribe</span></a></p></div><div style=3D"font-size: 16p=
+x; line-height: 26px;"><hr style=3D"background: #e0e0e0; border: none; heig=
+ht: 1px; margin: 32px 0; padding: 0;"></div><p style=3D"color: rgb(64, 64, =
+64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><strong><span=
+>Today&#8217;s Not Boring is brought to you by&#8230; </span><a href=3D"htt=
+ps://link.sbstck.com/redirect/76f23ec2-34a2-48a7-99bc-bb12371fe453?j=3DeyJ1=
+IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"co=
+lor: rgb(64, 64, 64); text-decoration: underline;">Slack</a></strong></p><d=
+iv class=3D"captioned-image-container-static" style=3D"font-size: 16px; lin=
+e-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; width:=
+ 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" data-component-name=3D"Image2ToDOMStatic" style=
+=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: cent=
+er;"></td><td align=3D"left" class=3D"content" width=3D"585" style=3D"text-=
+align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://l=
+ink.sbstck.com/redirect/6792daa9-f5d0-412f-91c6-bbe2053400fa?j=3DeyJ1IjoiOX=
+AwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"align-it=
+ems: center; border: none; display: block; flex-direction: column; height: =
+auto; margin: 0; padding: 0; position: relative; text-decoration: none; wid=
+th: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://substack-post-=
+media.s3.amazonaws.com/public/images/0ff4b4ce-1e9c-47ec-89a5-be428744ba7d_5=
+85x400.jpeg&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&q=
+uot;height&quot;:400,&quot;width&quot;:585,&quot;resizeWidth&quot;:null,&qu=
+ot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&=
+quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topIm=
+age&quot;:true,&quot;internalRedirect&quot;:null}" alt width=3D"550" height=
+=3D"376.0683760683761" class=3D"wide-image" src=3D"https://substackcdn.com/=
+image/fetch/w_1170,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A=
+%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0ff4b4ce-1e9=
+c-47ec-89a5-be428744ba7d_585x400.jpeg" style=3D"-ms-interpolation-mode: bic=
+ubic; border: none !important; display: block; height: auto; margin: 0 auto=
+; margin-bottom: 0; max-width: 100% !important; vertical-align: middle; wid=
+th: auto !important;"></a></td><td style=3D"text-align: center;"></td></tr>=
+</tbody></table></figure></div><p style=3D"color: rgb(64, 64, 64); font-siz=
+e: 16px; line-height: 26px; margin: 0 0 20px 0;"><em><span>I&#8217;m a long=
+ time </span><a href=3D"https://link.sbstck.com/redirect/76f23ec2-34a2-48a7=
+-99bc-bb12371fe453?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-=
+6m8ExkRNpU" rel style=3D"color: rgb(64, 64, 64); text-decoration: underline=
+;">Slack</a><span> fan. </span><a href=3D"https://link.sbstck.com/redirect/=
+b94ee0f9-374a-4962-8cb9-0dc5ba5371a3?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNu=
+aMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: rgb(64, 64, 64); text-dec=
+oration: underline;">This piece on Slack in 2020</a><span> was one of my fi=
+rst viral essays ever. Three years and tens of thousands of Slack messages =
+later, and I&#8217;m more bullish on Slack than ever. And I&#8217;m not alo=
+ne. Slack is where millions of companies &#8211; of varying sizes &#8211; g=
+et work done.</span></em></p><p style=3D"color: rgb(64, 64, 64); font-size:=
+ 16px; line-height: 26px; margin: 0 0 20px 0;"><em><strong>We all know that=
+ everyday tasks can slow you and your team down</strong></em></p><p style=
+=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;"><em><span>Back-and-forth emails. Meetings on top of meetings. A n=
+ever-ending to-do list.&#160;But Slack is the single space to connect with =
+everything, share and search for information, and help your teams do more w=
+ith less. And with </span><a href=3D"https://link.sbstck.com/redirect/76f23=
+ec2-34a2-48a7-99bc-bb12371fe453?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjm=
+lXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: rgb(64, 64, 64); text-decorati=
+on: underline;">Slack Pro</a><span>, you can:</span></em></p><p style=3D"co=
+lor: rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px =
+0;"><em><strong>Keep conversations in one place</strong></em></p><p style=
+=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;"><em>At Not Boring, all internal-team collaboration happens within=
+ Slack, but we also collaborate with portfolio companies, advertising partn=
+ers, and other communities all within our main Slack workspace.</em></p><p =
+style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin=
+: 0 0 20px 0;"><em><strong>Find what you need, share what you know</strong>=
+</em></p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0;"><em>From files to photos to conversations, every=
+one can access any message that&#8217;s ever been shared, so they have all =
+the information they need to make decisions and move work forward. Crtl+f m=
+akes the world go round.</em></p><p style=3D"color: rgb(64, 64, 64); font-s=
+ize: 16px; line-height: 26px; margin: 0 0 20px 0;"><em><strong>Connect inst=
+antly with huddles</strong></em></p><p style=3D"color: rgb(64, 64, 64); fon=
+t-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><em>Fun fact, Dan and=
+ I have never scheduled a video meeting. But we huddle all the time. With h=
+uddles you can talk, video chat, or share your screen instantly with anyone=
+ in your Slack.</em></p><p style=3D"color: rgb(64, 64, 64); font-size: 16px=
+; line-height: 26px; margin: 0 0 20px 0;"><em><span>Right now, you can save=
+ 50% off your first 3 months of </span><a href=3D"https://link.sbstck.com/r=
+edirect/76f23ec2-34a2-48a7-99bc-bb12371fe453?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7=
+GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: rgb(64, 64, 64); =
+text-decoration: underline;">Slack Pro</a><span>.</span></em></p><div style=
+=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: #e0e0e0; =
+border: none; height: 1px; margin: 32px 0; padding: 0;"></div><p style=3D"c=
+olor: rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px=
+ 0;">Hi friends &#128075; ,</p><p style=3D"color: rgb(64, 64, 64); font-siz=
+e: 16px; line-height: 26px; margin: 0 0 20px 0;">Happy Tuesday! </p><p styl=
+e=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 =
+0 20px 0;">There&#8217;s been a lot of debate about the importance of moats=
+ recently. Do startups have them, or not? Do startups need them, or not? </=
+p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px; m=
+argin: 0 0 20px 0;">In my opinion, the conversation has lacked some depth a=
+nd dimensionality, which has rendered it relatively useless for entrepreneu=
+rs and investors alike. I want to take a shot at clearing it up today. </p>=
+<p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;">Let&#8217;s get to it. </p><div style=3D"font-size: 16px;=
+ line-height: 26px;"><hr style=3D"background: #e0e0e0; border: none; height=
+: 1px; margin: 32px 0; padding: 0;"></div><h1 class=3D"header-with-anchor-w=
+idget" style=3D"-moz-appearance: optimizelegibility; -moz-osx-font-smoothin=
+g: antialiased; -webkit-appearance: optimizelegibility; -webkit-font-smooth=
+ing: antialiased; appearance: optimizelegibility; color: rgb(64, 64, 64); f=
+ont-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe=
+ UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI =
+Emoji', 'Segoe UI Symbol'; font-size: 2em; font-weight: bold; line-height: =
+1.16em; margin: 1em 0 0.625em 0; position: relative;">When to Dig a Moat</h=
+1><div class=3D"captioned-image-container-static" style=3D"font-size: 16px;=
+ line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; wi=
+dth: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" data-component-name=3D"Image2ToDOMStatic" s=
+tyle=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: =
+center;"></td><td align=3D"left" class=3D"content" width=3D"1200" style=3D"=
+text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"http=
+s://link.sbstck.com/redirect/11223020-dc60-40a3-a8c7-9b668106ad2b?j=3DeyJ1I=
+joiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"ali=
+gn-items: center; border: none; display: block; flex-direction: column; hei=
+ght: auto; margin: 0; padding: 0; position: relative; text-decoration: none=
+; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://substack-=
+post-media.s3.amazonaws.com/public/images/1bd7b861-8e47-4c68-ab5d-77e7fb4cb=
+264_1200x600.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:nu=
+ll,&quot;height&quot;:600,&quot;width&quot;:1200,&quot;resizeWidth&quot;:nu=
+ll,&quot;bytes&quot;:876470,&quot;alt&quot;:null,&quot;title&quot;:null,&qu=
+ot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFol=
+d&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null}"=
+ alt width=3D"550" height=3D"275" class=3D"wide-image" src=3D"https://subst=
+ackcdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:ste=
+ep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1=
+bd7b861-8e47-4c68-ab5d-77e7fb4cb264_1200x600.png" style=3D"-ms-interpolatio=
+n-mode: bicubic; border: none !important; display: block; height: auto; mar=
+gin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-align: =
+middle; width: auto !important;"></a></td><td style=3D"text-align: center;"=
+></td></tr></tbody></table></figure></div><p style=3D"color: rgb(64, 64, 64=
+); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>There&#82=
+17;s a belief in tech that if you have the most talented team, the best pro=
+duct, and the fastest growth &#8211; that if you just Make Something People=
+ Want &#8211; you don&#8217;t need to worry about </span><strong>moats</str=
+ong><span>.</span></p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; =
+line-height: 26px; margin: 0 0 20px 0;">That&#8217;s precisely wrong.&#160;=
+</p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px;=
+ margin: 0 0 20px 0;"><strong>Companies that have the best products, most t=
+alented people, and fastest growth are precisely the ones for which moats a=
+re most important.</strong><span>&#160;</span></p><p style=3D"color: rgb(64=
+, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">They&#8=
+217;re the ones who might get lucky enough to have something to lose. They&=
+#8217;re the ones that bigger, better-resourced or smaller, faster companie=
+s will one day compete with. And the faster they become successful, the fas=
+ter they&#8217;ll face meaningful competition.&#160;</p><p style=3D"color: =
+rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><=
+span>Success accelerates the need for moats. As soon as success seems obvio=
+us, startups lose their training wheels moat &#8211; </span><strong>uncerta=
+inty</strong><span> &#8211; and should have at least the foundations of mor=
+e permanent moats in place.&#160;</span></p><p style=3D"color: rgb(64, 64, =
+64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">There&#8217;s=
+ simply less time to fuck around now, as many companies will soon find out.=
+&#160;&#160;</p><div class=3D"captioned-image-container-static" style=3D"fo=
+nt-size: 16px; line-height: 26px; margin: 32px auto;"><figure style=3D"marg=
+in: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0" data-component-name=3D"Image2=
+ToDOMStatic" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=
+=3D"text-align: center;"></td><td align=3D"left" class=3D"content" width=3D=
+"508" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blan=
+k" href=3D"https://link.sbstck.com/redirect/ec58f4e0-3c4f-41bc-be29-eb71a60=
+1dc1e?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" r=
+el style=3D"align-items: center; border: none; display: block; flex-directi=
+on: column; height: auto; margin: 0; padding: 0; position: relative; text-d=
+ecoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;ht=
+tps://substack-post-media.s3.amazonaws.com/public/images/60ce664f-86ae-446a=
+-b49a-901179ce58b2_508x508.png&quot;,&quot;fullscreen&quot;:null,&quot;imag=
+eSize&quot;:null,&quot;height&quot;:508,&quot;width&quot;:508,&quot;resizeW=
+idth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quo=
+t;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot=
+;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null}" alt w=
+idth=3D"508" height=3D"508" class src=3D"https://substackcdn.com/image/fetc=
+h/w_508,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubst=
+ack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60ce664f-86ae-446a-b49a=
+-901179ce58b2_508x508.png" style=3D"-ms-interpolation-mode: bicubic; border=
+: none !important; display: block; height: auto; margin: 0 auto; margin-bot=
+tom: 0; max-width: 100% !important; vertical-align: middle; width: auto !im=
+portant;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></ta=
+ble><figcaption class=3D"image-caption" style=3D"box-sizing: content-box; c=
+olor: #808080; font-size: 14px; font-weight: 400; letter-spacing: -.15px; l=
+ine-height: 20px; margin-top: 8px; padding-left: 15%; padding-right: 15%; t=
+ext-align: center; width: 70%;"><em>Roger Skaer</em></figcaption></figure><=
+/div><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;"><span>To set the foundation here, what are moats? In=
+ </span><em><a href=3D"https://link.sbstck.com/redirect/6d2331c9-e6fd-48ed-=
+b376-829ff2847f0b?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6=
+m8ExkRNpU" rel style=3D"color: rgb(64, 64, 64); text-decoration: underline;=
+">7 Powers</a><span>,</span></em><span> Hamilton Helmer defines them as &#8=
+220;those barriers that protect your business&#8217; margins from the erosi=
+ve forces of competition.&#8221; He lists seven types: Economies of Scale, =
+Network Effects, Counter-Positioning, Switching Costs, Brand, Cornered Reso=
+urce, Process Power. For definitions and examples of each, check out Flo Cr=
+ivello&#8217;s </span><em><a href=3D"https://link.sbstck.com/redirect/6546d=
+eff-ee31-4306-a9df-ad836c8ec260?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjm=
+lXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: rgb(64, 64, 64); text-decorati=
+on: underline;">Mind the Moat</a></em><span>.</span></p><p style=3D"color: =
+rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><=
+span>Moats won&#8217;t get you Product-Market Fit (PMF). You need that firs=
+t before worrying about anything else, as USV&#8217;s Fred Wilson wrote in =
+a 2013 blog post </span><a href=3D"https://link.sbstck.com/redirect/1a379e8=
+1-9878-4b10-bbe3-5732d2498f9d?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlX=
+XepKbqOsa8-6m8ExkRNpU" rel style=3D"color: rgb(64, 64, 64); text-decoration=
+: underline;">Product &gt; Strategy &gt; Business Model</a><span>. But by t=
+he time you have PMF, by the time it&#8217;s obvious that what you&#8217;re=
+ doing could work, you should be able to protect it from the erosive forces=
+ of competition.&#160;</span></p><p style=3D"color: rgb(64, 64, 64); font-s=
+ize: 16px; line-height: 26px; margin: 0 0 20px 0;">The ultimate goal of a v=
+enture-backed startup is to go public or get acquired for roughly $1 billio=
+n or more, not to get marked up by other VCs. That can take a long time, ty=
+pically seven to ten years. Even if the startup lights a fire before compet=
+itors realize what it&#8217;s doing, it needs to protect and fan that fire =
+for many years before a successful exit. For companies at which everything =
+is going right, moats can be the difference between IPO and cautionary tale=
+=2E&#160;</p><p style=3D"color: rgb(64,=20=
+64, 64); font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;"><span>Puja and I were watching </span><em>Tour=
+ de France: Unchained</em><span> on Netflix this weekend, and I think Steve=
+ Chainel&#8217;s line on the cobblestone stage sums it up nicely:&#160;</sp=
+an></p><div class=3D"captioned-image-container-static" style=3D"font-size: =
+16px; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 aut=
+o; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" data-component-name=3D"Image2ToDOMStat=
+ic" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-al=
+ign: center;"></td><td align=3D"left" class=3D"content" width=3D"908" style=
+=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"=
+https://link.sbstck.com/redirect/dd1b6c08-faeb-49d9-8f6c-44dccc5d13d2?j=3De=
+yJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D=
+"align-items: center; border: none; display: block; flex-direction: column;=
+ height: auto; margin: 0; padding: 0; position: relative; text-decoration: =
+none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://subst=
+ack-post-media.s3.amazonaws.com/public/images/6bb30f8f-32b3-499e-9c29-28072=
+2a4bc80_908x257.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;=
+:null,&quot;height&quot;:257,&quot;width&quot;:908,&quot;resizeWidth&quot;:=
+null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&qu=
+ot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quo=
+t;topImage&quot;:false,&quot;internalRedirect&quot;:null}" alt width=3D"550=
+" height=3D"155.6718061674009" class=3D"wide-image" src=3D"https://substack=
+cdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/=
+https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6bb3=
+0f8f-32b3-499e-9c29-280722a4bc80_908x257.png" style=3D"-ms-interpolation-mo=
+de: bicubic; border: none !important; display: block; height: auto; margin:=
+ 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-align: midd=
+le; width: auto !important;"></a></td><td style=3D"text-align: center;"></t=
+d></tr></tbody></table><figcaption class=3D"image-caption" style=3D"box-siz=
+ing: content-box; color: #808080; font-size: 14px; font-weight: 400; letter=
+-spacing: -.15px; line-height: 20px; margin-top: 8px; padding-left: 15%; pa=
+dding-right: 15%; text-align: center; width: 70%;"><em>Tour de France: Unch=
+ained, Netflix</em></figcaption></figure></div><p style=3D"color: rgb(64, 6=
+4, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">&#8220;You=
+ can&#8217;t win the Tour de France on the cobblestones&#8230; but you can =
+lose it.&#8221;</p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; lin=
+e-height: 26px; margin: 0 0 20px 0;">This question about moats has come up =
+a bunch recently in the context of generative AI startups built on top of O=
+penAI&#8217;s APIs, ungenerously referred to as &#8220;GPT Wrappers.&#8221;=
+ On the one side are the VCs and armchair analysts who believe that GPT Wra=
+ppers have no moats. On the other are the builders who say that building gr=
+eat products and growing quickly is what matters most, and that moats will =
+come later.&#160;</p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; l=
+ine-height: 26px; margin: 0 0 20px 0;"><span>On Friday, </span><em><a href=
+=3D"https://link.sbstck.com/redirect/e8bae9db-f455-4401-b392-f80fee68f8ca?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel styl=
+e=3D"color: rgb(64, 64, 64); text-decoration: underline;">The Information <=
+/a></em><a href=3D"https://link.sbstck.com/redirect/e8bae9db-f455-4401-b392=
+-f80fee68f8ca?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Ex=
+kRNpU" rel style=3D"color: rgb(64, 64, 64); text-decoration: underline;">re=
+ported</a><span> that two generative AI companies, Jasper and Mutiny AI, we=
+re laying off employees. Jasper in particular had been growing very quickly=
+=2E Founded in 2021, before the AI Hype=
+ Cycle, it was on track to reach $75 m=
+illion in revenue this year. Last October, it rode that growth to a </span>=
+<a href=3D"https://link.sbstck.com/redirect/4c29fdca-9537-4834-900c-1d65427=
+cb204?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" r=
+el style=3D"color: rgb(64, 64, 64); text-decoration: underline;">$1.5 billi=
+on valuation</a><span>. Nine months later, it&#8217;s doing layoffs in the =
+face of increased competition. It would seem that the company has not yet b=
+uilt deep enough moats to protect its fast-growing prize. It&#8217;s only b=
+een alive two years. It&#8217;s hard to blame it.&#160;</span></p><p style=
+=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;"><span>What happened? Jasper simply ran out of </span><strong>unce=
+rtainty cover</strong><span> before it could build real moats. Let me expla=
+in.&#160;</span></p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;"><span>In </span><em><a href=3D"https:=
+//link.sbstck.com/redirect/2eb5094c-b045-4b22-897e-91fb497a0adb?j=3DeyJ1Ijo=
+iOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color=
+: rgb(64, 64, 64); text-decoration: underline;">Productive Uncertainty</a><=
+/em><span>, Jerry Neumann wrote that &#8220;the only moat that can create e=
+xcess value for a new startup is uncertainty&#8221; because &#8220;uncertai=
+nty keeps competition at bay long enough for a moat to be built.&#8221;&#16=
+0;</span></p><div class=3D"captioned-image-container-static" style=3D"font-=
+size: 16px; line-height: 26px; margin: 32px auto;"><figure style=3D"margin:=
+ 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" data-component-name=3D"Image2ToD=
+OMStatic" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"t=
+ext-align: center;"></td><td align=3D"left" class=3D"content" width=3D"648"=
+ style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" hr=
+ef=3D"https://link.sbstck.com/redirect/0b06370b-f601-4ae8-9be8-3b741b923491=
+?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel st=
+yle=3D"align-items: center; border: none; display: block; flex-direction: c=
+olumn; height: auto; margin: 0; padding: 0; position: relative; text-decora=
+tion: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https:/=
+/substack-post-media.s3.amazonaws.com/public/images/872b9b51-6250-4914-b2fc=
+-c4d6262be19d_648x401.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize=
+&quot;:null,&quot;height&quot;:401,&quot;width&quot;:648,&quot;resizeWidth&=
+quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:nu=
+ll,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:tru=
+e,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null}" alt width=
+=3D"550" height=3D"340.35493827160496" class=3D"wide-image" src=3D"https://=
+substackcdn.com/image/fetch/w_1296,c_limit,f_auto,q_auto:good,fl_progressiv=
+e:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimage=
+s%2F872b9b51-6250-4914-b2fc-c4d6262be19d_648x401.png" style=3D"-ms-interpol=
+ation-mode: bicubic; border: none !important; display: block; height: auto;=
+ margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-ali=
+gn: middle; width: auto !important;"></a></td><td style=3D"text-align: cent=
+er;"></td></tr></tbody></table><figcaption class=3D"image-caption" style=3D=
+"box-sizing: content-box; color: #808080; font-size: 14px; font-weight: 400=
+; letter-spacing: -.15px; line-height: 20px; margin-top: 8px; padding-left:=
+ 15%; padding-right: 15%; text-align: center; width: 70%;"><em>Jerry Neuman=
+n, Productive Uncertainty</em></figcaption></figure></div><p style=3D"color=
+: rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"=
+>The more obvious your idea is and the easier it is to build, the faster yo=
+u need to dig moats. Conversely, the less obvious your idea is and the hard=
+er it is to build, the longer you have to dig moats.&#160;</p><p style=3D"c=
+olor: rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px=
+ 0;">Whether you should spend all of your time on product or spend some of =
+it on strategy, even at an early stage, is a function of how much uncertain=
+ty exists in your business.&#160;</p><p style=3D"color: rgb(64, 64, 64); fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Neumann calls out tw=
+o kinds of uncertainty: Novelty Uncertainty (~technical risk) and Complexit=
+y Uncertainty (~market risk). Novelty Uncertainty is the kind faced by a lo=
+t of deeptech companies: uncertainty over whether you can actually build wh=
+at you say you&#8217;re going to build. Complexity Uncertainty assumes that=
+ you can build it, but questions whether there will ever be a big and profi=
+table market for it.&#160;</p><p style=3D"color: rgb(64, 64, 64); font-size=
+: 16px; line-height: 26px; margin: 0 0 20px 0;"><strong>New startups have a=
+ limited window of time during which they&#8217;re protected by the cover o=
+f uncertainty to dig moats, and if they don&#8217;t dig them by the time ot=
+hers catch on, their excess profit will be competed away and they&#8217;ll =
+struggle to achieve a good outcome.</strong></p><div class=3D"captioned-ima=
+ge-container-static" style=3D"font-size: 16px; line-height: 26px; margin: 3=
+2px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"i=
+mage-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" data-component-name=3D"Image2ToDOMStatic" style=3D"mso-padding-alt: 1em =
+0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"le=
+ft" class=3D"content" width=3D"913" style=3D"text-align: center;"><a class=
+=3D"image-link" target=3D"_blank" href=3D"https://link.sbstck.com/redirect/=
+4da4f6b0-ae97-46a7-accb-ad04c7761b50?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNu=
+aMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"align-items: center; border: non=
+e; display: block; flex-direction: column; height: auto; margin: 0; padding=
+: 0; position: relative; text-decoration: none; width: auto;"><img data-att=
+rs=3D"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/p=
+ublic/images/a2054ce8-a01f-48dc-949b-9e00c4ca5cbc_913x346.png&quot;,&quot;f=
+ullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:346,&quo=
+t;width&quot;:913,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot=
+;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quo=
+t;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;inte=
+rnalRedirect&quot;:null}" alt width=3D"550" height=3D"208.43373493975903" c=
+lass=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1826,c_lim=
+it,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-medi=
+a.s3.amazonaws.com%2Fpublic%2Fimages%2Fa2054ce8-a01f-48dc-949b-9e00c4ca5cbc=
+_913x346.png" style=3D"-ms-interpolation-mode: bicubic; border: none !impor=
+tant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-w=
+idth: 100% !important; vertical-align: middle; width: auto !important;"></a=
+></td><td style=3D"text-align: center;"></td></tr></tbody></table></figure>=
+</div><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26p=
+x; margin: 0 0 20px 0;">Dumbing it down to a formula, you get something lik=
+e this:&#160;</p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-=
+height: 26px; margin: 0 0 20px 0;"><strong>Depth of Moat Needed =3D How Obv=
+iously Good Your Idea Is - How Hard it is to Build</strong></p><p style=3D"=
+color: rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20p=
+x 0;">The variables in this formula can and do change over time. Non-obviou=
+s ideas can become obvious as the market catches up to your insight and cus=
+tomers prove you right with their wallets. Things that were once hard to bu=
+ild can become easier to build as infrastructure improves. One company's co=
+re technology can become another&#8217;s API. It&#8217;s important for foun=
+ders and investors alike to update the formula as the facts on the ground c=
+hange.&#160;</p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-h=
+eight: 26px; margin: 0 0 20px 0;">This formula explains startup truisms lik=
+e &#8220;Great companies are built in bear markets!&#8221; and &#8220;You n=
+eed to be contrarian and right.&#8221; In both cases, increased uncertainty=
+ provides more time to build defensibility.&#160;</p><p style=3D"color: rgb=
+(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">If y=
+ou&#8217;re in the &#8220;new startups don&#8217;t need to worry about moat=
+s&#8221; camp, you might point to success stories like Twitter and Airbnb, =
+but those examples would miss the uncertainty angle.</p><p style=3D"color: =
+rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><=
+span>In his blog post, Wilson used </span><strong>Twitter</strong><span> as=
+ an example of a company that found PMF and then turned to strategy. Twitte=
+r was fortunate in that, even when people were using it, it </span><a href=
+=3D"https://link.sbstck.com/redirect/5ab46ad5-bc89-4434-b9ed-bfc9ff87066c?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel styl=
+e=3D"color: rgb(64, 64, 64); text-decoration: underline;">started out looki=
+ng like a toy</a><span>. Would-be competitors didn&#8217;t take a product t=
+hat people used to share what they were eating for lunch seriously enough t=
+o compete with until it was too late. We are still dealing with the strengt=
+h of the Network Effects Twitter was able to build up under the cover of Co=
+mplexity Uncertainty 17 years later.&#160;</span></p><p style=3D"color: rgb=
+(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><str=
+ong>Airbnb</strong><span> also focused exclusively on product at the expens=
+e of strategy in its early days.&#160;</span></p><p style=3D"color: rgb(64,=
+ 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Th=
+e Competitive Advantage slide in </span><a href=3D"https://link.sbstck.com/=
+redirect/0cfb43ef-1489-4608-8548-f7fb479ddae4?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T=
+7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: rgb(64, 64, 64);=
+ text-decoration: underline;">Airbnb&#8217;s pre-seed deck</a><span> lists =
+six product features and no real moats (unless you&#8217;re counting Brand,=
+ but that&#8217;s a very weak one until you have it).&#160;</span></p><div =
+class=3D"captioned-image-container-static" style=3D"font-size: 16px; line-h=
+eight: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 10=
+0%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" data-component-name=3D"Image2ToDOMStatic" style=3D=
+"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;=
+"></td><td align=3D"left" class=3D"content" width=3D"908" style=3D"text-ali=
+gn: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://link=
+=2Esbstck.com/redirect/c66aea57-dcc8-4=
+7aa-9753-76b8f49b47c1?j=3DeyJ1IjoiOXAwZ=
+3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"align-items=
+: center; border: none; display: block; flex-direction: column; height: aut=
+o; margin: 0; padding: 0; position: relative; text-decoration: none; width:=
+ auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://substack-post-med=
+ia.s3.amazonaws.com/public/images/dcd5cc01-ced2-480e-95cc-9f458f788754_908x=
+705.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;=
+height&quot;:705,&quot;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;b=
+ytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot=
+;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&q=
+uot;:false,&quot;internalRedirect&quot;:null}" alt width=3D"550" height=3D"=
+427.0374449339207" class=3D"wide-image" src=3D"https://substackcdn.com/imag=
+e/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%=
+2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdcd5cc01-ced2-48=
+0e-95cc-9f458f788754_908x705.png" style=3D"-ms-interpolation-mode: bicubic;=
+ border: none !important; display: block; height: auto; margin: 0 auto; mar=
+gin-bottom: 0; max-width: 100% !important; vertical-align: middle; width: a=
+uto !important;"></a></td><td style=3D"text-align: center;"></td></tr></tbo=
+dy></table><figcaption class=3D"image-caption" style=3D"box-sizing: content=
+-box; color: #808080; font-size: 14px; font-weight: 400; letter-spacing: -.=
+15px; line-height: 20px; margin-top: 8px; padding-left: 15%; padding-right:=
+ 15%; text-align: center; width: 70%;"><em>Airbnb Pre-Seed Deck, from Failo=
+ry</em><span>&#160;</span></figcaption></figure></div><p style=3D"color: rg=
+b(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><sp=
+an>There&#8217;s a reason that they were able to succeed despite that, and =
+it&#8217;s not just the brilliance of the product. It&#8217;s the fact that=
+ Airbnb seemed like a terrible idea! Airbnb had a really hard time raising =
+money. It faced </span><a href=3D"https://link.sbstck.com/redirect/1e9385cc=
+-c7d2-43d9-974a-37d9eeacd151?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXX=
+epKbqOsa8-6m8ExkRNpU" rel style=3D"color: rgb(64, 64, 64); text-decoration:=
+ underline;">rejection after rejection from VCs</a><span>. There&#8217;s pr=
+obably a rule in here somewhere: the easier it is for you to raise money, t=
+he more immediately you need moats.&#160;</span></p><p style=3D"color: rgb(=
+64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span=
+>Complexity Uncertainty gave Airbnb time to develop the Brand and Network E=
+ffects moats that have protected it all the way to that $91 billion market =
+cap. Ultimately, it spent a ton of time, money, and effort to build those m=
+oats &#8211; it hired teams of people to finely balance supply and demand a=
+nd worked with Disney to storyboard its guest experience, as two examples &=
+#8211; but given the amount of uncertainty around whether anyone would pay =
+to stay on someone else&#8217;s couch, they were right to focus on proving =
+out the product </span><em>before</em><span> worrying about moats.</span></=
+p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px; m=
+argin: 0 0 20px 0;"><span>This is why the VCs and commentariat are jumping =
+up and down about the lack of moats in generative AI. </span><strong>There =
+is practically no uncertainty</strong><span>.&#160;</span></p><p style=3D"c=
+olor: rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px=
+ 0;">Building on top of ChatGPT kills Novelty Uncertainty. I think everyone=
+ agrees on that. But the wild early success of so many generative AI produc=
+ts also kills Complexity Uncertainty! If you build a generative AI product =
+that starts to take off, you&#8217;re going to be attacked by other startup=
+s, bootstrapped companies, solo builders, and incumbents all hungry for you=
+r users.&#160;</p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line=
+-height: 26px; margin: 0 0 20px 0;">Competition is inevitable. In a slower-=
+moving or more technically novel space, competition may be fine because you=
+&#8217;ll have had time to build proto-moats and customer loyalty. In a spa=
+ce that&#8217;s moving as quickly as generative AI, the chances that you&#8=
+217;ve dug strong enough moats by the time that competitors come are slim.&=
+#160;</p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0;"><span>In a piece titled </span><em><a href=3D"ht=
+tps://link.sbstck.com/redirect/b59f0eb5-8e16-4aa5-9dc8-66967d9a0917?j=3DeyJ=
+1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"c=
+olor: rgb(64, 64, 64); text-decoration: underline;">Generative AI Companies=
+ Have Moats (Eventually)</a><span>, </span></em><span>Battery Ventures&#821=
+7; Brandon Gleklen argued that it&#8217;s OK for generative AI companies no=
+t to worry about moats, because like cloud companies before them, they can =
+build them &#8211; </span><strong>Scale Economies</strong><span>, in partic=
+ular &#8211; over time as they listen to customers and evolve based on user=
+ feedback.&#160;</span></p><p style=3D"color: rgb(64, 64, 64); font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;">The point I&#8217;m trying to =
+make is that that&#8217;s not true in a space as certain as generative AI. =
+Eventually is a luxury for companies operating under uncertainty.&#160;</p>=
+<p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;"><span>There will, of course, be very lucrative outcomes i=
+n AI when you zoom out from GPT wrappers. Two examples highlight the import=
+ance of digging moats during periods of uncertainty to protect yourself onc=
+e the uncertainty lifts: </span><a href=3D"https://link.sbstck.com/redirect=
+/a09aefa0-230d-4141-a3ce-c2922615e391?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlN=
+uaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: rgb(64, 64, 64); text-de=
+coration: underline;">Hugging Face</a><span> and </span><a href=3D"https://=
+link.sbstck.com/redirect/e29449ed-691d-4771-879c-a68e387d516f?j=3DeyJ1IjoiO=
+XAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: =
+rgb(64, 64, 64); text-decoration: underline;">Runway</a><span>.&#160;</span=
+></p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;"><span>When </span><strong>Hugging Face</strong><span=
+> was founded in 2016, back before AI was The Thing, its product was an AI =
+chatbot built on top of its own NLP models. When the </span><em><a href=3D"=
+https://link.sbstck.com/redirect/d8a52cee-4d2a-4a29-9157-2c9d33be4cb7?j=3De=
+yJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D=
+"color: rgb(64, 64, 64); text-decoration: underline;">Attention is All You =
+Need</a><span> </span></em><span>paper introduced the Transformer architect=
+ure the following year, the Hugging Face team created the </span><a href=3D=
+"https://link.sbstck.com/redirect/ac5103a1-fc98-451f-9c99-19e681067be8?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=
+=3D"color: rgb(64, 64, 64); text-decoration: underline;">Transformers</a><s=
+pan> open source library on GitHub, which took off in the open source commu=
+nity.&#160;</span></p><div class=3D"captioned-image-container-static" style=
+=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><figure style=
+=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"1=
+00%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" data-component-name=
+=3D"Image2ToDOMStatic" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><=
+td style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" =
+width=3D"908" style=3D"text-align: center;"><a class=3D"image-link" target=
+=3D"_blank" href=3D"https://link.sbstck.com/redirect/5025af45-44ad-4396-946=
+6-8a1e74af3cdf?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8E=
+xkRNpU" rel style=3D"align-items: center; border: none; display: block; fle=
+x-direction: column; height: auto; margin: 0; padding: 0; position: relativ=
+e; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;=
+:&quot;https://substack-post-media.s3.amazonaws.com/public/images/f08dbef3-=
+2f93-4b49-848d-fbbaf4e49bb6_908x563.png&quot;,&quot;fullscreen&quot;:null,&=
+quot;imageSize&quot;:null,&quot;height&quot;:563,&quot;width&quot;:908,&quo=
+t;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;=
+title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowThe=
+Fold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:nul=
+l}" alt width=3D"550" height=3D"341.0242290748899" class=3D"wide-image" src=
+=3D"https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpu=
+blic%2Fimages%2Ff08dbef3-2f93-4b49-848d-fbbaf4e49bb6_908x563.png" style=3D"=
+-ms-interpolation-mode: bicubic; border: none !important; display: block; h=
+eight: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; =
+vertical-align: middle; width: auto !important;"></a></td><td style=3D"text=
+-align: center;"></td></tr></tbody></table><figcaption class=3D"image-capti=
+on" style=3D"box-sizing: content-box; color: #808080; font-size: 14px; font=
+-weight: 400; letter-spacing: -.15px; line-height: 20px; margin-top: 8px; p=
+adding-left: 15%; padding-right: 15%; text-align: center; width: 70%;"><em>=
+<a href=3D"https://link.sbstck.com/redirect/1fcc324e-4040-447d-aad2-a4bfd8e=
+1f98d?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" r=
+el style=3D"text-decoration: underline;">Brandon Reeves, Lux Capital</a></e=
+m></figcaption></figure></div><p style=3D"color: rgb(64, 64, 64); font-size=
+: 16px; line-height: 26px; margin: 0 0 20px 0;">Hugging Face threw its full=
+ weight into becoming the &#8220;GitHub for machine learning,&#8221; hostin=
+g open source models and data sets, building tools for users to build, trai=
+n, and deploy those models, and fostering a community of developers.&#160;<=
+/p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px; =
+margin: 0 0 20px 0;"><span>Hugging Face used the five years that it operate=
+d under Complexity Uncertainty &#8211; before AI became the obvious thing &=
+#8211; to dig moats, the most powerful of which is Network Effects. It&#821=
+7;s </span><a href=3D"https://link.sbstck.com/redirect/cee0e239-afd1-454d-8=
+201-53e3b9f3ac37?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m=
+8ExkRNpU" rel style=3D"color: rgb(64, 64, 64); text-decoration: underline;"=
+>rumored</a><span> to have $30 - $50 million in revenue and to be raising a=
+ round at a $4 billion valuation.&#160;</span></p><p style=3D"color: rgb(64=
+, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">If Hugg=
+ing Face is an example of successfully using the time provided by Complexit=
+y Uncertainty to establish strong moats, Runway is a live situation: can it=
+ dig moats before its Novelty Uncertainty shot clock expires?&#160;</p><p s=
+tyle=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin:=
+ 0 0 20px 0;"><strong>Runway</strong><span> was also founded before the AI =
+boom, in 2018, to build the &#8220;world&#8217;s first end-to-end AI genera=
+tion platform.&#8221; It faced Novelty Uncertainty &#8211; AI could barely =
+generate images, let alone videos, in 2018. When it raised $2 million from =
+Lux Capital, it did so at a modest $9 million post-money valuation.&#160;</=
+span></p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0;">In the intervening five years, it&#8217;s built =
+state-of-the-art video models based on its own applied research. Recently, =
+it announced the launch of Gen-2, the best on the market:&#160;&#160;</p><a=
+ href=3D"https://link.sbstck.com/redirect/4aed1605-9315-4319-b94a-0c3571e98=
+c5f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" tar=
+get=3D"_blank" class=3D"youtube-wrap" data-component-name=3D"Youtube2ToDOMS=
+tatic" style=3D"display: block; margin: 1.6em 0;"><img src=3D"https://subst=
+ackcdn.com/image/youtube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/BpoOVEED=
+iFA" style=3D"-ms-interpolation-mode: bicubic; border: none !important; dis=
+play: block; height: auto; margin: 0 auto; max-width: 100%; vertical-align:=
+ middle; width: 100%;"></a><p style=3D"color: rgb(64, 64, 64); font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;"><span>In June, </span><a href=
+=3D"https://link.sbstck.com/redirect/f8d85745-bc0e-4d45-96cf-3fdb69c0cc7f?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel styl=
+e=3D"color: rgb(64, 64, 64); text-decoration: underline;">Runway raised</a>=
+<span> a $141 million round from Google, Nvidia, Salesforce and others at a=
+ $1.5 billion valuation.&#160;</span></p><p style=3D"color: rgb(64, 64, 64)=
+; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Because of how h=
+ard it is to build what Runway&#8217;s built, and the fact that it only rec=
+ently became apparent that it was possible, it&#8217;s been protected by No=
+velty Uncertainty to date. They&#8217;ve also shipped products at a rapid c=
+lip to stay ahead. I&#8217;m not sure that the company has real moats yet, =
+though, and it should act quickly to dig them before uncertainty runs out.&=
+#160;</p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0;"><span>This is why strategy is important for star=
+tups, even if it&#8217;s uncool. At its simplest, </span><strong>early stag=
+e startup strategy is about directing limited resources towards digging moa=
+ts before you&#8217;ve removed enough uncertainty to attract serious compet=
+ition.&#160;</strong></p><div class=3D"captioned-image-container-static" st=
+yle=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><figure styl=
+e=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"=
+100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" data-component-name=
+=3D"Image2ToDOMStatic" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><=
+td style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" =
+width=3D"611" style=3D"text-align: center;"><a class=3D"image-link" target=
+=3D"_blank" href=3D"https://link.sbstck.com/redirect/516bd626-44a2-4f55-a40=
+5-d6bebf4700db?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8E=
+xkRNpU" rel style=3D"align-items: center; border: none; display: block; fle=
+x-direction: column; height: auto; margin: 0; padding: 0; position: relativ=
+e; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;=
+:&quot;https://substack-post-media.s3.amazonaws.com/public/images/d5005ab4-=
+757a-4e72-af53-c81cb3631451_611x232.png&quot;,&quot;fullscreen&quot;:null,&=
+quot;imageSize&quot;:null,&quot;height&quot;:232,&quot;width&quot;:611,&quo=
+t;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;=
+title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowThe=
+Fold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:nul=
+l}" alt width=3D"550" height=3D"208.8379705400982" class=3D"wide-image" src=
+=3D"https://substackcdn.com/image/fetch/w_1222,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpu=
+blic%2Fimages%2Fd5005ab4-757a-4e72-af53-c81cb3631451_611x232.png" style=3D"=
+-ms-interpolation-mode: bicubic; border: none !important; display: block; h=
+eight: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; =
+vertical-align: middle; width: auto !important;"></a></td><td style=3D"text=
+-align: center;"></td></tr></tbody></table><figcaption class=3D"image-capti=
+on" style=3D"box-sizing: content-box; color: #808080; font-size: 14px; font=
+-weight: 400; letter-spacing: -.15px; line-height: 20px; margin-top: 8px; p=
+adding-left: 15%; padding-right: 15%; text-align: center; width: 70%;"><em>=
+<a href=3D"https://link.sbstck.com/redirect/02462cff-9756-4bad-954a-ae090a1=
+87b2f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" r=
+el style=3D"text-decoration: underline;">Link to Tweet</a></em></figcaption=
+></figure></div><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-h=
+eight: 26px; margin: 0 0 20px 0;">I&#8217;ve wanted to write a post defendi=
+ng strategy for a while, but I promised myself I&#8217;d keep this one shor=
+t and crisp, so I&#8217;ll save that for another post.&#160;</p><p style=3D=
+"color: rgb(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20=
+px 0;">For now, what&#8217;s clear is that while not all startups need moat=
+s in the early days, they do need to start digging moats when their eventua=
+l success is obvious to them but to very few others. If they&#8217;re lucky=
+ enough to have something obviously worth attacking one day, moats will mat=
+ter. </p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0;">Get digging. </p><div style=3D"font-size: 16px; =
+line-height: 26px;"><hr style=3D"background: #e0e0e0; border: none; height:=
+ 1px; margin: 32px 0; padding: 0;"></div><p style=3D"color: rgb(64, 64, 64)=
+; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><em><span>Thanks=
+ to </span><a href=3D"https://link.sbstck.com/redirect/e4322359-c89c-4d2b-b=
+c2b-57aa40aeb014?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m=
+8ExkRNpU" rel style=3D"color: rgb(64, 64, 64); text-decoration: underline;"=
+>Dan</a><span> for editing!</span></em><span> </span></p><div style=3D"font=
+-size: 16px; line-height: 26px;"><hr style=3D"background: #e0e0e0; border: =
+none; height: 1px; margin: 32px 0; padding: 0;"></div><p style=3D"color: rg=
+b(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Tha=
+t&#8217;s all for today! We&#8217;ll be back in your podcast feed tomorrow =
+and in your inbox with the Weekly Dose on Friday. </p><p style=3D"color: rg=
+b(64, 64, 64); font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Tha=
+nks for reading, </p><p style=3D"color: rgb(64, 64, 64); font-size: 16px; l=
+ine-height: 26px; margin: 0 0 20px 0; margin-bottom: 0;">Packy</p></div></d=
+iv><table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" class=3D"email-ufi-2-bottom" style=3D"border-bottom: 1=
+px solid rgba(0, 0, 0, .13); border-top: 1px solid rgba(0, 0, 0, .13); min-=
+width: 100%;"><tr height=3D"16"><td height=3D"16" style=3D"font-size: 0px; =
+line-height: 0;">&#160;</td></tr><tr><td><table role=3D"presentation" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><table r=
+ole=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"margin: 0 auto;"><tr><td style=3D"vertical-align: middle=
+;"><table role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.c=
+om/app-link/post?publication_id=3D10025&post_id=3D135132007&utm_source=3Dsu=
+bstack&isFreemail=3Dtrue&submitLike=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0=
+OSwicG9zdF9pZCI6MTM1MTMyMDA3LCJyZWFjdGlvbiI6IuKdpCIsImlhdCI6MTY4OTY4NTY0OSw=
+iZXhwIjoxNjkyMjc3NjQ5LCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJyZWFjdGlvbiJ9.1ZWRV=
+UDrpaEuW8o7tZWpybhEj6MU6_BybHUAcbpTFSQ&utm_medium=3Demail" class=3D"email-b=
+utton-outline" style=3D"border: 1px solid rgba(0, 0, 0, .13); border-radius=
+: 100000px; color: rgb(128, 128, 128); display: inline-block; font-family: =
+'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 12px=
+; padding: 9px 14px; text-decoration: none; text-transform: uppercase;"><im=
+g src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good=
+,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3=
+D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" wi=
+dth=3D"18" height=3D"18" style=3D"border: none !important; margin-right: 8p=
+x; max-width: 18px; min-height: 18px; min-width: 18px; vertical-align: midd=
+le;" alt class=3D"icon"><span class=3D"email-button-text" style=3D"vertical=
+-align: middle;">Like</span></a></td></tr></table></td><td width=3D"8" styl=
+e=3D"min-width: 8px"></td><td style=3D"vertical-align: middle;"><table role=
+=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/app-link/po=
+st?publication_id=3D10025&post_id=3D135132007&utm_source=3Dsubstack&utm_med=
+ium=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4M=
+zU0OSwicG9zdF9pZCI6MTM1MTMyMDA3LCJpYXQiOjE2ODk2ODU2NDksImV4cCI6MTY5MjI3NzY0=
+OSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.osWPLX2f3aplaIEM50=
+9Z8zeOVGnmjhGNrjbLi1o2uI0&utm_source=3Dsubstack&utm_medium=3Demail" class=
+=3D"email-button-outline" style=3D"border: 1px solid rgba(0, 0, 0, .13); bo=
+rder-radius: 100000px; color: rgb(128, 128, 128); display: inline-block; fo=
+nt-family: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont,=
+ 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-h=
+eight: 12px; padding: 9px 14px; text-decoration: none; text-transform: uppe=
+rcase;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,=
+q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucide=
+Comments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strok=
+eWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; ma=
+rgin-right: 8px; max-width: 18px; min-height: 18px; min-width: 18px; vertic=
+al-align: middle;" alt class=3D"icon"><span class=3D"email-button-text" sty=
+le=3D"vertical-align: middle;">Comment</span></a></td></tr></table></td><td=
+ width=3D"8" style=3D"min-width: 8px"></td><td style=3D"vertical-align: mid=
+dle;"><table role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://substa=
+ck.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3Avd2hlbi10by1ka=
+WctYS1tb2F0P3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZhY3Rpb249cmVz=
+dGFjay1jb21tZW50IiwicCI6MTM1MTMyMDA3LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM=
+1NDksImlhdCI6MTY4OTY4NTY0OSwiZXhwIjoxNjkyMjc3NjQ5LCJpc3MiOiJwdWItMCIsInN1Yi=
+I6ImxpbmstcmVkaXJlY3QifQ.f8vCL5bGcnbvPhNo28CP2qGCvPVW_2SWhXk7N9JCBj8?&utm_s=
+ource=3Dsubstack&utm_medium=3Demail" class=3D"email-button-outline" style=
+=3D"border: 1px solid rgba(0, 0, 0, .13); border-radius: 100000px; color: r=
+gb(128, 128, 128); display: inline-block; font-family: 'SF Pro Text', -appl=
+e-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,=
+ Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol=
+'; font-size: 12px; font-weight: 500; line-height: 12px; padding: 9px 14px;=
+ text-decoration: none; text-transform: uppercase;"><img src=3D"https://sub=
+stackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:stee=
+p/https%3A%2F%2Fsubstack.com%2Ficon%2FNoteForwardIcon%3Fv%3D4%26height%3D36=
+%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" heigh=
+t=3D"18" style=3D"border: none !important; margin-right: 8px; max-width: 18=
+px; min-height: 18px; min-width: 18px; vertical-align: middle;" alt class=
+=3D"icon"><span class=3D"email-button-text" style=3D"vertical-align: middle=
+;">Restack</span></a></td></tr></table></td></tr></table></td><td align=3D"=
+right"><table role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr></tr></table></td></tr></table></td></tr><tr h=
+eight=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;">&#=
+160;</td></tr></table><div class=3D"footer frontend-email-shared-typed-modu=
+le__footer--B5jqg" style=3D"color: rgb(128, 128, 128); font-size: 16px; lin=
+e-height: 26px; padding: 24px 0; text-align: center;"><div style=3D"font-si=
+ze: 16px; line-height: 26px; padding-bottom: 24px;"><p class=3D"pencraft fr=
+ontend-pencraft-Box-module__reset--VfQY8 frontend-pencraft-Text-module__siz=
+e-12--KorQF frontend-pencraft-Text-module__color-secondary--WRADg frontend-=
+pencraft-Text-module__reset--dW0zZ small frontend-email-shared-typed-module=
+__meta--vRZSC" style=3D"color: rgb(128, 128, 128); font-family: -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; l=
+etter-spacing: 0; line-height: 16px; margin: 0; padding-bottom: 0; text-dec=
+oration: unset;">&#169; 2023 <span>Packy McCormick</span><br>Brooklyn, NY <=
+br><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Y=
+m9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0=
+TXpVME9Td2ljRzl6ZEY5cFpDSTZNVE0xTVRNeU1EQTNMQ0pwWVhRaU9qRTJPRGsyT0RVMk5Ea3N=
+JbVY0Y0NJNk1UWTVNakkzTnpZME9Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaV=
+pHbHpZV0pzWlY5bGJXRnBiQ0o5LjlkalBNaVIxQjFZaHJPLUN5TmFkTG5BNFVBMlRRLWZHdHBrR=
+2Qya1lxUmcmZXhwaXJlcz0zNjVkIiwicCI6MTM1MTMyMDA3LCJzIjoxMDAyNSwiZiI6dHJ1ZSwi=
+dSI6MTYyODM1NDksImlhdCI6MTY4OTY4NTY0OSwiZXhwIjoxNjkyMjc3NjQ5LCJpc3MiOiJwdWI=
+tMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.xwPC933ojjS1o9Ew6-g4d7o2lP5WvRTio--vihJ=
+pMNU?" style=3D"color: rgb(128, 128, 128); text-decoration: underline;"><sp=
+an style=3D"color: rgb(128, 128, 128); text-decoration: underline;">Unsubsc=
+ribe</span></a></p></div><p class=3D"frontend-email-shared-typed-module__fo=
+oterSection--dumyu small powered-by-substack" style=3D"color: rgb(128, 128,=
+ 128); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, =
+Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe=
+ UI Symbol'; font-size: 12px; line-height: 20px; margin: 0; margin-top: 0; =
+padding: 0 24px; padding-bottom: 0;"><a href=3D"https://link.sbstck.com/red=
+irect/a81946d9-d27b-497e-a0b2-c169f4cbd6a2?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7Gn=
+A_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" style=3D"color: rgb(128, 128, 128); dis=
+play: inline-block; margin: 0 4px; text-decoration: none;"><img src=3D"http=
+s://substackcdn.com/image/fetch/w_260,c_limit,f_auto,q_auto:good,fl_progres=
+sive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button%40=
+2x.png" srcset=3D"https://substackcdn.com/image/fetch/w_130,c_limit,f_auto,=
+q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2=
+Fgeneric-app-button.png, https://substackcdn.com/image/fetch/w_260,c_limit,=
+f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2F=
+email%2Fgeneric-app-button%402x.png 2x, https://substackcdn.com/image/fetch=
+/w_390,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubsta=
+ck.com%2Fimg%2Femail%2Fgeneric-app-button%403x.png 3x" width=3D"130" alt=3D=
+"Get the app" height=3D"40" style=3D"border: none !important; max-width: 55=
+0px; vertical-align: middle;"></a><a href=3D"https://substack.com/redirect/=
+2/eyJlIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vc2lnbnVwP3V0bV9zb3VyY2U9c3Vic3RhY2smd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fY29udGVudD1mb290ZXImdXRtX2NhbXBhaWduPWF1dG9maWxs=
+ZWQtZm9vdGVyJmZyZWVTaWdudXBFbWFpbD1ub3Rib3JpbmdAa2hhbWVsLmNvbSIsInAiOjEzNTE=
+zMjAwNywicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2ODk2ODU2NDksIm=
+V4cCI6MTY5MjI3NzY0OSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.H3zaj=
+xY1QJbpZ7CBwUWTbszxDoJVvhyX10CQa90YIR4?" style=3D"color: rgb(128, 128, 128)=
+; display: inline-block; margin: 0 4px; text-decoration: none;"><img src=3D=
+"https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_pr=
+ogressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%4=
+02x.png" srcset=3D"https://substackcdn.com/image/fetch/w_135,c_limit,f_auto=
+,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%=
+2Fpublish-button.png, https://substackcdn.com/image/fetch/w_270,c_limit,f_a=
+uto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fema=
+il%2Fpublish-button%402x.png 2x, https://substackcdn.com/image/fetch/w_405,=
+c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%=
+2Fimg%2Femail%2Fpublish-button%403x.png 3x" width=3D"135" alt=3D"Start writ=
+ing" height=3D"40" style=3D"border: none !important; max-width: 550px; vert=
+ical-align: middle;"></a></p></div></div></td><td></td></tr></table><img sr=
+c=3D"https://eotrx.substackcdn.com/open?token=3DeyJtIjoiPDIwMjMwNzE4MTI1NjU=
+zLjMuZjkyZDRlZjIxNDE4MmY0NUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1NDksIn=
+IiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxM=
+zUxMzIwMDcsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTAwMjUsImMiOiJw=
+b3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJib3R0b20iLCJpYXQiOjE2ODk2ODU2NDksImV4cCI=
+6MTY5MjI3NzY0OSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.-EmDzHcpAa2qXFxr0XNzEeg66=
+N-YYyWICUUD2YvEggc" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D=
+"height:1px !important;width:1px !important;border-width:0 !important;margi=
+n-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;mar=
+gin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;=
+padding-right:0 !important;padding-left:0 !important;"/><img width=3D"1px" =
+height=3D"1px" alt=3D"" src=3D"https://email.mg-d0.substack.com/o/eJxEkE2O6=
+yAQBk8Tds_iP-0FZ7GwaRwUAxE0b-Tbj8aJZrbVrVLp2zzhXtvpXrUTC84qH01g6ISF2YKxoBlm=
+n45lx4LNE4bF0-9VzyDu7OFAi7BGCWAMVxA4gOBBWYjBosFZsuQkl4rfBQhprFGTmuIsg8YohRY=
+gozY3zfP-L_Cpj7WT357TVjNLfYkNrwRHbSD7CV38CAnLhg7_Yztr-eAUnFBGKMn5_U3ofKEr-N=
+UPJMLGXmNdtprzKInOBYtfDwwf8ViPtHlKtVwizqVhzZVKa22p7DfNnw-f8bi6-lhDzT6VvwdG7=
+xVHx3YZrARl9PwdAAD__ziZdd8"></body></html>
+--9ff0d82907f6861d1e05e0d43d9803c9bca9f5047a4117fbe8cc349c7af1--

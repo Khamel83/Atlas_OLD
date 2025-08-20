@@ -1,0 +1,2090 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:7e97:0:b0:147:d9bd:f310 with SMTP id l23csp868028lkh;
+        Thu, 21 Oct 2021 10:05:39 -0700 (PDT)
+X-Received: by 2002:a7b:c94d:: with SMTP id i13mr8003746wml.121.1634835939432;
+        Thu, 21 Oct 2021 10:05:39 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1634835939; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=H4nIoaNh28bUV4Bwz8mEPe4cVpqcWXL+Oj15QBdD2SCnm1WKvq9yV+MLH7eb6L3rVZ
+         t94jgxFa+/y/5AyfVfDh/VELkN2h1JHpEAZddJecPbP9oWRuN7DLlyIGcIZz6djHVAS/
+         IH5hCsuDFgip+rn9MD7LW6z335GtJ8bV99q6dBXvNKSxfrUx/jYBtrZYGeuQsrfglj6i
+         6ekijBJiU7FkFEUPla8bNhACkc4a/VGKZZDo4I+Ais5JIYH+X5FLHnbDtrScEpe/AwpH
+         GfRoCDa6Gb+0FfwHG9xWMoYV1AppJj1fluaz/b5iJb56MpbinnxyZFyQOD6v57oJjL5q
+         pFOQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=xXcG0dJ//rnJmXsR7hIYJX7hiZbGZ1Hqs0L2h8MNrJY=;
+        b=A5l2EgwQENYeAMmIrpET+08kO4aR2yG91CwXw6obw6NSHsI0zmeC/t794axa3ZaDHA
+         7hsskCCfZNwbteRx9AJVXfr1DHcRAd0CIW+Dmf5j4xhGSO4luzo15Ytrmv5ET4JDshvG
+         acj2hiQ1nkG5UuY1+nVUmYV6zYE8xsVGhKntgLzDlwHuv6Pn6bZxtA+tVyulpxa3ZrxE
+         ORBZC7Vz/fRGWfp8MEkecjKPqjJGlnmrSkt5LVhNMAPToidHHZ94/YDZfxqNQwdIYmsX
+         QSuYvgiHgTL9xwXn65cQU690I16BnBKhYhyt0/zMkVwnwsbY7EEy7TQP6y5S1La+cEAF
+         bSkQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=jg5UB5Lz;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id go36sor4572517ejc.33.2021.10.21.10.05.39
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 21 Oct 2021 10:05:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=jg5UB5Lz;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=xXcG0dJ//rnJmXsR7hIYJX7hiZbGZ1Hqs0L2h8MNrJY=;
+        b=ya6/1BHHWBEC/XHgSVaJ3BrJvLYMhuXxMTq1NARJfdBotMl+2ObkBz+9xASSJeW3h0
+         hqPcc1XckPTyFcytYq4BD0m+UZqUiGL2UdG1kqylY/S9/3YEf2RNkaAzPMPizSY2teWW
+         Y3W97PszubphOLGGxsCR9Bdqo3EcHd8ccRjl207ZE/cSR7zgm/9tK64nkSKIWUnV0rht
+         ev8Gv7OsDD+B5bDv9BF8X48SQdSD2Zh2qrjDCxTIdMgYiMgbucneKNE3VPauXD0a41Yp
+         LdBrvW/nzEi1H9uzsjiSJ9ejUQgrOWD0tOZD42cXEvA2E6lBeTKxke+/1Uqy6KHqk/HD
+         Ls7g==
+X-Gm-Message-State: AOAM531y9dzCQTtNtaISXAXoQyF5tNSSCDZO2q6KHrzw6JJ9+8A8Cr6x
+	UJ+zOtu0sT7/2Igesk9Sd5mGZf0I8aez9Tl7BG1SZKaKKehrUSwdzT9x
+X-Received: by 2002:a17:907:6e0c:: with SMTP id sd12mr8815382ejc.344.1634835939140;
+        Thu, 21 Oct 2021 10:05:39 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:2090:0:0:0:0:0 with SMTP id v16csp459864ecn;
+        Thu, 21 Oct 2021 10:05:35 -0700 (PDT)
+X-Received: by 2002:a17:902:c10c:b0:13f:68b4:4abe with SMTP id 12-20020a170902c10c00b0013f68b44abemr6401678pli.8.1634835934620;
+        Thu, 21 Oct 2021 10:05:34 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1634835934; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=jnl0P6Kb8kUCUQxX+PKdNnNasAo8y5tT2H88BMNtHoYiIajZGPqURAOzPhi1/44k8f
+         NOuzsJsTNlZSwFb5w323FEq+PhetYsc+N5JGi29HEH5324UBN0Hsy3O3zOVWsN/qULHy
+         mNR29wIRK6eD45lXdViIc8kWBM+KKbCEc9yubgidRuuNnSWhzzf19hLX7U5reOME7s7a
+         KD1FzCGaH7S4o0Wecw3miE0iLxk0WRfwy172D84ApD36oLCcwHyeO1cW8QoXpGRNtqEy
+         qupQNBTMnPXCAqlCLuEccvYJvjSrXhir6BSMYx6aOPus8XQCJQhUCHndL8OZ8xwwoexB
+         EPcA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=xXcG0dJ//rnJmXsR7hIYJX7hiZbGZ1Hqs0L2h8MNrJY=;
+        b=cIFNAmKY8VpKdM30iEVBf+ylMqiWvgYgEACD1i0VP9HkI6GYVbO1RbhfcTwGuzlsR9
+         T+/QHwQeBP1AMiR1XwnrXCPWMxRgqFS60pxJQKcQwTZivY2oK9sfRCTpeUDx+TCbk9sX
+         U6DojgPHVSGcBdgo9uPZaD6aj9xTeOhW9WQvwlzcd5E+Uj005dqwA0en0G0CrzjbufmQ
+         LqiZsvkPNNQz91RWRm8/lOffPivhtfJICkDL+v62KT+JZi2j/PT+h5xmY2vrzkSruHQe
+         X9npleofV7hgLHQWxQDOaOLJcQxK9KWkNc201ibPcCb8AFyFr9+wo6Roy9ef4DwqTOgK
+         W6kw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=jg5UB5Lz;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20211021130455.25418633.268044@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20211021130455.25418633.268044@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211021130455.25418633.268044@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id my8sor3863955pjb.15.2021.10.21.10.05.34
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 21 Oct 2021 10:05:34 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20211021130455.25418633.268044@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyWdtxAChKwZ46hIpJtinUVGli7Q7y/Xd8HKbtpAeVrBAxYrTRyM/4DCIsiNj5+N+n+QJti7GVZnGdohmPUZYYvspS9m9Q=
+X-Received: by 2002:a17:90b:17d2:: with SMTP id me18mr8047858pjb.132.1634835933726;
+        Thu, 21 Oct 2021 10:05:33 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1634835933; cv=none;
+        d=google.com; s=arc-20160816;
+        b=UMLLp2anZGp1twsDzfB5ARjKHzG33tfUTqfQcppyPJOlyGDd1FwcwmQZsdvbsP1pUT
+         V1W9oiVamlhsX4RbTAeUetvC0usX06aliRmjdjAHsxc2EWxoigu7MrF2H+J5bQsrr/5d
+         6PCv7m54QpeweCv6EVxKRFwtwGuDvioJr0G4F2JBgRIrXhZY2USjqGIeu1jMLaEsc+rh
+         3oev8I9yTfsu9OwSMqVf7YZ987RkUdJf5NDAjUn7d6npw/csUW0r2iAm5PlR40o/KPtn
+         VoVsAmcGypBIQmvRuNuXxzSOzr7QjTrmBF0qzQM5DJ3XnXfNq+mzVzxd4lOEkcVYbDEF
+         tUKw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=xXcG0dJ//rnJmXsR7hIYJX7hiZbGZ1Hqs0L2h8MNrJY=;
+        b=wXA8esnj+m2xYa8SH0VYYCHhnK9SrDz9gyqTZzP2wdq5CB91zAfxjhwcIsC9Un1dVc
+         jvYSMc3oBRQ2yoRI3CxUaE1SBzvGNOaYPK8S4j8yNGTJNJBy+UBUjWUGXwiwTZuV9Yn2
+         5QNkMAVnnFZMdrA09RN/N8JCjQIqsH3Y/EzrZvD4UuNVzy/h5e2Lwkk+85kT5KveOxHt
+         hwdeoaST745JknfFXWA3cm1Yw9oO0qR2NWfNqriNb2czLyBwKTh7GFq9+hf7y6pRpGfg
+         iUW40cf2PqVx39SRJmwFJ/MIDDiKp86mpcdxoRj0SI63HOfyRTP2i4EIFKsIOTyQGCEx
+         PTAw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=jg5UB5Lz;
+       spf=pass (google.com: domain of delivery_20211021130455.25418633.268044@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20211021130455.25418633.268044@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211021130455.25418633.268044@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTP id ke3si352963pjb.2.2021.10.21.10.05.33
+        for <khamel83@gmail.com>;
+        Thu, 21 Oct 2021 10:05:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20211021130455.25418633.268044@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=yD981YBVvFEZR8+M3JJujrQHcB3/0MrJ+k4LWTX4NZ4=;
+ b=jg5UB5LzM7/JMYGbFfBn+2UalNq9ddgq7wbZKlSgaKbXNuzmcFiwrVvWg+o9WM5GSa6wNJGzcrKY
+   Ee+Ymla2J5R+tFQYFY2w66xCEPwaeXm42bD+LJEop8T4OtJ3OCAz/s41sOIjo/iObgPzm76DCTDa
+   pUVfM/XUrF/YODCxKnU=
+Received: from mtast-04.sailthru.com (204.153.121.10) by pmta29.sailthru.com id he6etq2tem4j for <bloomberg@khamel.com>; Thu, 21 Oct 2021 13:05:32 -0400 (envelope-from <delivery_20211021130455.25418633.268044@mx.sailthru.com>)
+Received: from nj1-madbrick.flt (172.18.20.7) by mtast-04.sailthru.com id he6eto1s6j0q for <bloomberg@khamel.com>; Thu, 21 Oct 2021 13:04:55 -0400 (envelope-from <delivery_20211021130455.25418633.268044@mx.sailthru.com>)
+Date: Thu, 21 Oct 2021 13:04:55 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20211021130455.25418633.268044@sailthru.com>
+Subject: Money Stuff: Donald Trump Does a SPAC Deal
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_21652596_1841704695.1634835895357"
+Precedence: bulk
+X-Feedback-ID: 6358:25418633:campaign:sailthru
+X-TM-ID: 20211021130455.25418633.268044
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-madbrick.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cf4t55.5qto/1a4cf914
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cf4t55.5qto/1a4cf914>, <mailto:unsubscribe_20211021130455.25418633.268044@mx.sailthru.com>
+X-rpcampaign: stjko25418633
+
+------=_Part_21652596_1841704695.1634835895357
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+ =20
+   =20
+      Trump SPAC
+   =20
+ =20
+Donald Trump is a very famous person who likes to talk and who has a lot of=
+ enthusiastic fans. If he started a television channel that consisted of=C2=
+=A0him talking about whatever for two hours every afternoon, surrounded by =
+22 hours of other people talking about how great he is, it would probably g=
+et a lot of viewers and could carry a lot of ads for pillows or whatever. B=
+ut this would probably involve a certain amount=C2=A0of work and competence=
+ =E2=80=94=C2=A0you=E2=80=99d have to hire people to point the cameras at h=
+im and negotiate cable carriage and ad deals =E2=80=94 and television is ex=
+pensive; there would be some real financial risk to it.Or he could start a =
+social media company for his fans, where he could send out his thoughts wit=
+hout being banned. I am not going to pretend to make a business case for th=
+at one =E2=80=94=C2=A0there is a long=C2=A0history of=C2=A0hilarious=C2=A0f=
+ailure in the =E2=80=9Csocial media for Trump=E2=80=9D category=C2=A0=E2=80=
+=94=C2=A0but maybe you can. It is not a=C2=A0sure thing, in any case. Maybe=
+ it would work, maybe it wouldn=E2=80=99t.=C2=A0When Twitter Inc. went publ=
+ic it had never been profitable and it was, you know, a real social network=
+ that people used. Maybe Twitter But Trump=C2=A0would immediately be profit=
+able but boy I have some doubts.On the other hand if Donald Trump launched =
+a company that was like =E2=80=9CI am going to start a social media platfor=
+m for Trump fans,=E2=80=9D could he get people to=C2=A0buy the stock? I thi=
+nk that two fundamental lessons of the last few years are:=09You can get pe=
+ople to buy=C2=A0any=C2=A0stock; and=09Donald Trump can get people to buy a=
+nything.So if Donald Trump announced =E2=80=9Chey I=E2=80=99m gonna do a so=
+cial media company, buy some stock,=E2=80=9D people would buy some stock. A=
+nd then he=E2=80=99d get a lot of money.[1] And then if the social media pl=
+atform did not end up being profitable =E2=80=94=C2=A0as I cannot imagine i=
+t would be! =E2=80=94=C2=A0then he would, uh, still have that money? And if=
+ the social media platform did not end up being launched =E2=80=94=C2=A0if =
+Trump and his crack team of technologists just couldn=E2=80=99t actually bu=
+ild a well-functioning online social network =E2=80=94=C2=A0then he would, =
+uh, still have that money? And if there was no crack team of technologists =
+at all, if nobody even=C2=A0tried=C2=A0to build the social media platform =
+=E2=80=94=C2=A0then=C2=A0you see where I am going with this right?The point=
+ is that if you launch a company with the goal of making it profitable, you=
+ have to, like, have a workable business=C2=A0plan and execute on it and de=
+al with a million different operational complexities. If you launch a compa=
+ny with the goal of selling a lot of stock, you have to get people to trust=
+ you and give you their money. There is some overlap between those things! =
+But they are different things!Now, there are some difficulties with doing a=
+n initial public offering that is like =E2=80=9Cwe=E2=80=99re gonna build a=
+ beautiful social network, trust me.=E2=80=9D But a third important lesson =
+of the last few years is:=C2=A0 =C2=A0 =C2=A03. SPACs!If you go public by m=
+erging your private company with a special purpose acquisition company, the=
+n you can just make up whatever you want and no one will check. No, I=E2=80=
+=99m kidding, that is very much not the law! But it is  maybe a little bit =
+the law? In particular, there is a view that pre-revenue private companies =
+can go public via SPAC merger and market themselves to investors using wild=
+ly optimistic projections of their future revenue, and that if those projec=
+tions do not come true they won=E2=80=99t get in trouble. Again, this is no=
+t quite true =E2=80=94=C2=A0talk to your lawyer before trying this! =E2=80=
+=94=C2=A0but there is an element of truth to it.=C2=A0If you are in the bus=
+iness of raising money to fund a social media company that you haven=E2=80=
+=99t built yet and perhaps never will, the SPAC format has a real appeal.An=
+yway, anyway, anyway, anyway, anyway, anyway:PALM BEACH, FL -- October 20, =
+2021 -- Trump Media & Technology Group and Digital World Acquisition Corp. =
+(NASDAQ: DWAC) have entered into a definitive merger agreement, providing f=
+or a business combination that will result in Trump Media & Technology Grou=
+p becoming a publicly listed company, subject to regulatory and stockholder=
+ approval. The transaction values Trump Media & Technology Group at an init=
+ial enterprise value of $875 Million, with a potential additional earnout o=
+f $825 Million in additional shares (at the valuation they are granted) for=
+ a cumulative valuation of up to $1.7 Billion depending on the performance =
+of the stock price post-business combination. Trump Media & Technology Grou=
+p=E2=80=99s growth plans initially will be funded by DWAC=E2=80=99s cash in=
+ trust of $293 Million (assuming no redemptions).Trump Media & Technology G=
+roup's mission is to create a rival to the liberal media consortium and fig=
+ht back against the "Big Tech=E2=80=9D companies of Silicon Valley, which h=
+ave used their unilateral power to silence opposing voices in America.Trump=
+ Media & Technology Group (=E2=80=9CTMTG=E2=80=9D) will soon be launching a=
+ social network, named "TRUTH Social." TRUTH Social is now available for Pr=
+e-Order in the Apple App store. TRUTH Social plans to begin its Beta Launch=
+ for invited guests in November 2021. A nationwide rollout is expected in t=
+he first quarter of 2022. Those who are interested in joining TRUTH Social =
+may now visit www.truthsocial.com to sign up for the invite list.President =
+Donald J. Trump, the Chairman of TMTG, stated, =E2=80=9CI created TRUTH Soc=
+ial and TMTG to stand up to the tyranny of Big Tech. We live in a world whe=
+re the Taliban has a huge presence on Twitter, yet your favorite American P=
+resident has been silenced. This is unacceptable. I am excited to send out =
+my first TRUTH on TRUTH Social very soon. TMTG was founded with a mission t=
+o give a voice to all. I'm excited to soon begin sharing my thoughts on TRU=
+TH Social and to fight back against Big Tech. Everyone asks me why doesn=E2=
+=80=99t someone stand up to Big Tech? Well, we will be soon!=E2=80=9DWell. =
+That's a real press release=C2=A0filed with the real Securities and Exchang=
+e Commission by Digital World Acquisition Corp., which is a real SPAC insof=
+ar as a SPAC can be real. It has $293 million in its trust. Traditionally=
+=C2=A0SPAC deals are often  announced with PIPEs, private investments in pu=
+blic equity, in which institutional or strategic investors commit hundreds =
+of millions of dollars of their own money alongside the SPAC investment. He=
+re, there is no PIPE;=C2=A0no institutional investors seem to be involved. =
+Trump Very Tech Company Group is raising its money only from public investo=
+rs in the SPAC.Ordinarily that would be risky:=C2=A0The SPAC investors have=
+ withdrawal rights =E2=80=94=C2=A0they can take back $10 per share in cash =
+instead of leaving it in the pot for the merger =E2=80=94=C2=A0so the compa=
+ny might not get any money. Here, it is not risky. The reason it is not ris=
+ky is that people who like Trump will buy the stock. (Also: People who thin=
+k =E2=80=9Cpeople who like Trump will buy the stock=E2=80=9D will buy the s=
+tock; the Keynesian beauty contest applies here too.) Yesterday, before thi=
+s announcement, DWAC=E2=80=99s stock closed at $9.96, a bit below the $10 p=
+er share that it has in its trust, sort of a standard price for a=C2=A0SPAC=
+ with no deal yet. At 11 a.m.=C2=A0today it was trading at about $19.38, im=
+plying=C2=A0a valuation for Trump Thing=C2=A0of something like $1.7 billion=
+.[2] If you think Trump Thing is worth $19.38 per share, you are not going =
+to take your $10 back; you=E2=80=99re going to keep the stock and let Trump=
+ have your $10.[3] He will definitely get all $293 million.Why would you th=
+ink Trump Thing, a company with no product and no revenue,=C2=A0is worth $1=
+.7 billion? Are you looking at the wildly optimistic projections of future =
+revenue in the investor presentation? No you certainly are not!=C2=A0The in=
+itial SEC filing doesn=E2=80=99t include an investor presentation, but ther=
+e is a =E2=80=9CCompany Overview=E2=80=9D deck on Trump Thing=E2=80=99s web=
+site, and, fun fact, there is not a single dollar sign in the whole deck. T=
+here is no financial analysis, no sources and uses of funds for the deal, n=
+o capital structure, and=C2=A0certainly=C2=A0no projections of future reven=
+ue. It does have a mock-up of the app with Donald Trump tweeting (TRUTHing?=
+) =E2=80=9Clorem ipsum=E2=80=9D text:Here=E2=80=99s a slide with Donald Tru=
+mp presenting a trophy to a sumo wrestler:Here=E2=80=99s a slide about=C2=
+=A0=E2=80=9CTech Monopoly Censorship Threatens Free Speech=E2=80=9D:That so=
+rt of thing. You are not buying this stock because you have faith in its op=
+timistic cash-flow forecasts; it has not bothered with cash-flow forecasts.=
+ You are buying this stock because you like Donald Trump and think that Tec=
+h Monopoly Censorship Threatens Free Speech. Cash flows, valuation, etc., a=
+re all irrelevant.=C2=A0It is just vibes.It does feel a little bit like all=
+ of recent financial history has been leading up to this moment? Like, Dona=
+ld Trump, sure; obviously part of the Donald Trump thing is =E2=80=9CI coul=
+d stand in the middle of Fifth Avenue and shoot somebody, and I wouldn't lo=
+se any voters.=E2=80=9D Similarly, he can=C2=A0launch a company with no pro=
+duct, business plan or capital structure and the stock will double.=C2=A0Bu=
+t also the SPAC boom has made it viable for pre-product, pre-revenue compan=
+ies to go public at multibillion-dollar valuations if they can get enough h=
+ype. But also meme stocks have prepared everyone for the notion that the va=
+lue of a stock is based on the fervor of its community of online fans, not =
+its projected cash flows. But also the cryptocurrency boom seeded that noti=
+on, and paired it with libertarianism and resistance to tech-company domina=
+nce. But also=C2=A0the=C2=A0boom in non-fungible tokens further proved the =
+idea that membership in an online community has a value that can be capture=
+d and financialized and traded and turned into a bubble.Or I talk sometimes=
+ about the =E2=80=9CElon Markets Hypothesis,=E2=80=9D the notion that stock=
+s (or cryptocurrencies) go up because Elon Musk tweets about them. Musk=E2=
+=80=99s online cult of personality is enough to create financial value. I j=
+oke  sometimes that he should=C2=A0use that=C2=A0to extract some of that va=
+lue for himself, but honestly Musk is super-rich and has a lot of weird hob=
+bies and just isn=E2=80=99t that interested in pumping Dogecoin to make a l=
+ittle day-trading profit.[4]=C2=A0But if anyone=C2=A0else=C2=A0has their ow=
+n large devoted online cult, they can use it to pump a stock and extract so=
+me value for themselves. Donald Trump has a Musk-level online cult and is c=
+learly not above extracting value for himself.=C2=A0What is the long-term v=
+alue of Trump Thing? Well I suppose you could make an optimistic case that =
+it will eventually displace Twitter and Facebook and CNN and =E2=80=A6=C2=
+=A0Netflix? and =E2=80=A6=C2=A0Amazon? and =E2=80=A6=C2=A0Stripe? ... and b=
+ecome a dominant multi-trillion-dollar tech giant. Again the investor prese=
+ntation doesn=E2=80=99t=C2=A0make=C2=A0that case but it does have a slide w=
+ith Stripe=E2=80=99s logo:And then you=E2=80=99d feel pretty good about get=
+ting in at $1.7 billion. Or you could make a more normal case that Donald T=
+rump is a big media personality and you can sell a certain number of pillow=
+ ads against him and this will end up being a viable, profitable business a=
+nd $1.7 billion is roughly the right price for it.=C2=A0But I think that a =
+more realistic valuation method here is not to worry about cash flows at al=
+l =E2=80=94=C2=A0as Trump SPAC clearly does not=C2=A0=E2=80=94=C2=A0and tre=
+at the stock simply as a token of public interest in Donald Trump. My guess=
+ is that the price of Trump SPAC stock will not, for instance, be much affe=
+cted by its earnings announcements, unless Trump himself does the earnings =
+calls in which case it will go up no matter what he says. My guess is that =
+the stock will not be particularly correlated with the stocks of other medi=
+a or technology companies. My guess is that the stock will go up when Trump=
+ is on television, or if he announces that he=E2=80=99s running for preside=
+nt again. My guess is that if something=C2=A0bad happens to Trump =E2=80=94=
+=C2=A0if he=E2=80=99s sued or arrested or banned by a new tech company or=
+=C2=A0some new scandal comes out =E2=80=94=C2=A0then=C2=A0that will also ma=
+ke the stock go up, to own the libs or whatever. My guess is that each day =
+that goes by without Trump news, the stock will go down a bit.=C2=A0My gues=
+s is that the stock is essentially a bet on Trump=E2=80=99s personal newsin=
+ess, on Trump-news volatility.[5]To be clear I have absolutely no=C2=A0corp=
+orate finance=C2=A0basis for these guesses; I don=E2=80=99t think that, lik=
+e, getting sued for attacking protesters=C2=A0will be good for Trump Thing=
+=E2=80=99s ad revenue or whatever. I don=E2=80=99t have some story of =E2=
+=80=9Cpublic interest in Trump increases the expected value of Trump Thing'=
+s cash flows so the stock will go up.=E2=80=9D I just think that the stock =
+price will have nothing to do with the ad revenue; it will be based entirel=
+y on how much attention Trump=E2=80=99s fans are paying to Trump.At the beg=
+inning of February, when GameStop Corp.=E2=80=99s stock price became unmoor=
+ed from anyone's expectations about future cash flows,  I wrote a paragraph=
+ that people still tweet at me from time to time:But I tell you what, if we=
+ are still here in a month I will absolutely freak out. Stock prices can ge=
+t totally disconnected from fundamental value for a while, it=E2=80=99s fin=
+e, we all have a good laugh. But if they stay that way forever, if everyone=
+ decides that cash flows are irrelevant and that the important factor in an=
+y stock is how much fun it is to trade, then =E2=80=A6 what are we all doin=
+g here?=C2=A0When people tweet this at me it is because GameStop=E2=80=99s =
+price is still pretty much where it was in February (though arguably a bit =
+more justified by actual changes to the business!), and they say =E2=80=9Cs=
+o are you freaked out yet?=E2=80=9D And, I don=E2=80=99t know, yes? Doesn=
+=E2=80=99t it feel like there has been a paradigm shift, a regime change? D=
+oesn=E2=80=99t it feel like for the last=C2=A080 or so years=C2=A0there has=
+ been a dominant view of investing, a first-page-of-the-textbook given, tha=
+t investments are worth the present value of their expected future cash flo=
+ws? Doesn=E2=80=99t it feel like that world has ended and a new one has beg=
+un? I should go buy some Dogecoin.Oh, also. One other thing that I like to =
+say around here is that =E2=80=9Ceverything is securities fraud=E2=80=9D: E=
+very bad thing that a public company, or a public-company executive, does c=
+an be recast as securities fraud and lead to securities lawsuits. There wil=
+l be like 200 securities-fraud lawsuits against Donald Trump by Christmas, =
+enjoy!
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Usury
+   =20
+ =20
+Typically if a company borrows money, the cost of its=C2=A0borrowing is pre=
+tty much the interest rate on the loan. If you borrow $1,000 at 6% for five=
+ years, you pay back $60 a year and then $1,000 at the end. The lender gets=
+ a 6% annual return on its money; the money costs you 6% per year.Sometimes=
+ companies, for various reasons, issue convertible debt. The way this works=
+ is typically that the lender gives the company $1,000 and the company pays=
+ back, say, $20 per year and then $1,000 at the end of five years. But at a=
+ny time during those five years, the lender can, at its option, trade in th=
+e debt for shares of stock in the company. When it converts, it no longer g=
+ets any interest, and it doesn=E2=80=99t get its $1,000 back at the end. In=
+stead it just gets stock.In regular public-company convertible bonds, the l=
+ender=C2=A0gets a fixed amount of stock. If a public company issues a conve=
+rtible bond when its stock is at $20, it might do it at a conversion price =
+of, say, $25, a 25% premium to the current stock price. So a $1,000 bond wi=
+ll convert into 40 shares of stock. This ratio will be fixed at the time th=
+e bond is issued and stays the same no matter what the stock does. If the s=
+tock stays at $20, the bondholders won=E2=80=99t convert; they=E2=80=99d ra=
+ther get their $1,000 back than convert into $800 worth of stock. If the st=
+ock goes up to $50, the bondholders will (eventually) convert; they=E2=80=
+=99d rather get $2,000 worth of stock than just get their $1,000 back.Other=
+ convertible debt arrangements will sometimes give the lender a=C2=A0floati=
+ng=C2=A0amount of stock. The lender can convert $1,000 of debt into, essent=
+ially, $1,000 worth of stock, at whatever the price is at the time it conve=
+rts. Or some variation of that. Maybe $1,000 of debt converts into $1,000 w=
+orth of stock, measured at the average trading price of the stock over the =
+10 trading days prior to conversion. Maybe there will be a discount: $1,000=
+ of debt converts into $1,200 worth of stock. You sometimes see versions of=
+ this in convertible debt of startups (if the company goes public, $1,000 o=
+f debt=C2=A0converts=C2=A0into $1,200 worth of stock at the price in the co=
+mpany=E2=80=99s initial public offering). But you also see versions of this=
+ from smaller distressed public companies. In that context, it=C2=A0is some=
+times called a =E2=80=9Cdeath spiral convertible.=E2=80=9D It is not a grea=
+t financing choice![6] But companies sometimes don=E2=80=99t have a lot of =
+great choices.Let=E2=80=99s go back to the fixed-price convertibles for a m=
+inute. What is the cost, to a company, of issuing a convertible bond? What =
+is the return, to the lender, of buying that bond? The answer is, I think, =
+=E2=80=9Cit depends on the stock price.=E2=80=9D In my example, if the stoc=
+k stays flat, the lender gets its money back and 2% interest a year. So tha=
+t=E2=80=99s a 2% annual return to the lender and a 2% annual cost to the bo=
+rrower. If the stock goes to $50, the lender converts and gets a 100% retur=
+n on its money, or call it 16% per year.[7] The convertible cost the compan=
+y 16% per year. If the stock goes to $100, that's 33% a year, etc.With a fl=
+oating-price convertible I guess it depends on the discount and the=C2=A0ti=
+ming? If the debt converts to stock at a 20% discount =E2=80=94=C2=A0$1,000=
+ of debt converts into $1,250 worth of stock[8] =E2=80=94=C2=A0and the lend=
+er converts in one year, then it gets a return of about 25%, and the debt c=
+osts the company 25%. If it converts in three months I suppose the annualiz=
+ed rate is higher. If the debt converts to stock at no discount then I supp=
+ose the cost of the convertible is whatever the stated interest rate is, mo=
+re or less, and there=E2=80=99s no extra value from the conversion option, =
+though you could probably find ways to get a little=C2=A0juice out of it.[9=
+]In New York state it is a=C2=A0crime=C2=A0=E2=80=94=C2=A0usury =E2=80=94=
+=C2=A0to charge someone more than 25% interest. If you do that, I suppose y=
+ou can go to jail. Also, and perhaps more realistically, if you do that=C2=
+=A0they don=E2=80=99t have to pay you back. Not like =E2=80=9Cthey can just=
+ pay you 25% interest instead=E2=80=9D: They can just keep your money and p=
+ay you nothing. =E2=80=9CIf the borrower establishes the defense of usury i=
+n a=C2=A0civil action, the usurious loan transaction is deemed void and une=
+nforceable, resulting in the uncollectability of both principal and interes=
+t,=E2=80=9D says the New York Court of Appeals.=C2=A0What about convertible=
+ debt? If you lend someone money and take back convertible debt, and your r=
+eturn on that debt is more than 25%, is that usury? Does the conversion opt=
+ion count as interest under New York usury laws? I would have guessed that =
+the answer was =E2=80=9Cno, a conversion option is a conversion option, tha=
+t=E2=80=99s not interest.=E2=80=9D But it turns out the answer is yes! Here=
+=E2=80=99s a decision from the New York Court of Appeals last week:We concl=
+ude that, in assessing whether the interest on a given loan has exceeded th=
+e statutory usury cap, the value of the floating-price convertible options =
+should be included in the determination of interest. New York law requires =
+that the value of the conversion option, like all other property exchanged =
+in consideration for the loan, should be included in determining the loan=
+=E2=80=99s interest rate for purposes of the usury statutes, to the extent =
+such=C2=A0value, when measured at the time of contracting, can be reasonabl=
+y determined. The hypothetical possibility that a future exercise of a floa=
+ting-price conversion option may result in a return exceeding 25% does not =
+render a loan usurious on its face. Rather, the value of such an option is =
+a question of fact, and the burden to prove that value is on the borrower.T=
+he court concluded that a=C2=A0floating-price convertible option counts as =
+interest, and could be usurious, because that=E2=80=99s the question that i=
+t was asked.[10] It wasn't asked about fixed-price conversion options but =
+=E2=80=A6=C2=A0it does sort of suggest they count as interest too? But it s=
+ays, correctly, that =E2=80=9Cfloating-price options may be considerably mo=
+re simple to value than fixed-price conversion options, which are more depe=
+ndent on changing market values=E2=80=9D; an option to pay $1,000 to get ex=
+actly $1,250 worth of stock is always going to be worth about $250. A fixed=
+-price conversion option has, ex ante, some value based on a Black-Scholes-=
+like model of option value. Ex post, if the stock goes up a lot, the option=
+ was worth a lot and the lender's rate of return is really high, but that d=
+oesn=E2=80=99t make it usurious. =E2=80=9CThe mere fact that a fixed-price =
+future conversion option may be exercised at a future usurious rate does no=
+t render the loan usurious on its face,=E2=80=9D says the court. =E2=80=9CR=
+ather, [previous cases] require us to assess the overall value of the conve=
+rsion option at the time of the bargain.=E2=80=9DBut in this particular cas=
+e, the conversion feature was at a floating price and was, yeah, maybe a li=
+ttle usurious?GeneSYS ID, Inc. (=E2=80=9CGeneSYS=E2=80=9D) is a publicly he=
+ld corporation that produces various types of medical supplies. Adar Bays, =
+LLC is a limited liability company based in Florida. On May 24, 2016, Adar =
+Bays loaned GeneSYS $35,000. In exchange, GeneSYS gave Adar Bays a note wit=
+h eight percent interest that would mature in one year. The note included a=
+n option for Adar Bays to convert some or all of the debt into shares of Ge=
+neSYS stock at=C2=A0a discount of 35% from the lowest trading price for Gen=
+eSYS stock over the 20 days prior to the date on which Adar Bays requested =
+a conversion. Adar Bays could exercise its option starting 180 days after t=
+he note was issued and could do so all at once or in separate partial conve=
+rsions.=C2=A0That is the kind of money that you get when you really=C2=A0ne=
+ed money. This is very distressed lending. GeneSYS was not in great financi=
+al shape in 2016, and it is in basically no shape at all by now; here is a =
+2018 Securities and Exchange Commission action to deregister its stock for =
+failure to file financial reports. When it wanted to borrow $35,000 in 2016=
+, it had to do so on pretty rough terms; there was no reason for the lender=
+ to be confident that it would get paid back, or that, if it converted into=
+ GeneSYS stock, the stock would be worth much. So it demanded a lot of cush=
+ion: If it converted into stock, it wanted at least $54,000 worth of stock.=
+[11]But I guess the point of usury law is that, even when a company is desp=
+erate for money and can only get it on terrible terms, there are limits to =
+how terrible the terms can be. (This is a weird point! Arguably companies w=
+ill be better off getting money at terrible terms than not getting it at al=
+l!)=C2=A0If you lend $35,000 and in return you can get back $54,000 worth o=
+f stock in six months, yes, sure, that's much higher than a 25% annual retu=
+rn. And if it counts as interest, it=E2=80=99s usurious. And apparently it =
+does.I imagine that this is=C2=A0not the only case in history of a distress=
+ed lender lending a troubled company money with an expected rate of return =
+of more than 25%? If you are a distressed lender and good at your job, be c=
+areful not to be=C2=A0too=C2=A0good at it.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Deals
+   =20
+ =20
+Yeah okay I kind of like this:At Partners Group Holding AG, =E2=80=9Cdeal=
+=E2=80=9D is a four-letter word.David Layton, the Swiss firm=E2=80=99s chie=
+f executive, banned the term at a global town hall meeting in early June.Ne=
+ver mind that as a private-equity firm with $119 billion in assets,=C2=A0Pa=
+rtners Group=C2=A0exists to do=E2=80=A6deals.=E2=80=A6Mr. Layton, 40 years =
+old, says he banned the word because he is trying to get his colleagues to =
+shift from a transactional mind-set to one he calls =E2=80=9Cindustrial.=E2=
+=80=9DTwo decades ago, Mr. Layton says, the buyout business was a $700 bill=
+ion industry in which firms made big money with a simple formula: buy compa=
+nies using a large amount of debt, make some cosmetic changes and sell them=
+ off. These days, it=E2=80=99s an $8 trillion industry, and if firms want t=
+o make the double-digit returns their investors expect, they have to think =
+like entrepreneurs, he says.=E2=80=9CWe want to act like founders, not fina=
+nciers,=E2=80=9D Mr. Layton says. =E2=80=9CDo our customers love us? Is our=
+ product resonating?=E2=80=9DHe says the word =E2=80=9Cdeal=E2=80=9D reduce=
+s the ownership of a company=E2=80=94which has executives, employees, a str=
+ategy and a mission=E2=80=94to a one-time event. He wants the employees of =
+his firm to act like they are owners of businesses, not merely the doers of=
+ deals.Preferred vocabulary includes =E2=80=9Cstewardship, governance, stra=
+tegy, culture, entrepreneurship, operational excellence and sustainability,=
+=E2=80=9D he says. Some employees have resorted to using the word =E2=80=9C=
+investment=E2=80=9D as a substitute for the banned word.If you say the d-wo=
+rd you get fined. I assume that this is partly a cutesy marketing gimmick b=
+ut you know what, it=E2=80=99s a competitive world, a little cutesy marketi=
+ng doesn=E2=80=99t hurt.But, also, I used to be an investment banker. Inves=
+tment bankers do deals. Fine. But I was in a weird derivatives banking grou=
+p that sort of put on airs, and we didn=E2=80=99t like to say =E2=80=9Cdeal=
+,=E2=80=9D we said =E2=80=9Ctrade.=E2=80=9D=C2=A0We=E2=80=99d go meet with =
+a company and our regular banking colleagues would pitch a deal and then we=
+=E2=80=99d pitch a trade. A =E2=80=9Cdeal=E2=80=9D is more short-term and t=
+ransactional than, uh, =E2=80=9Cstewardship,=E2=80=9D but a =E2=80=9Ctrade=
+=E2=80=9D is even more short-term and transactional and arm=E2=80=99s-lengt=
+h and zero-sum and adversarial. Honestly I think it warped me for life? Eve=
+n now I read about mergers with some weird financial structuring and think =
+=E2=80=9Cthat=E2=80=99s=C2=A0a good trade.=E2=80=9D It=E2=80=99s not a good=
+ trade! It=E2=80=99s a perpetual commitment to bind together two companies =
+with all sorts of social and operational issues involved in integrating the=
+m. But, also, tax structuring. I have become a person who appreciates finan=
+cial structuring and a certain amount of =E2=80=A6=C2=A0trickery? gimmickry=
+? =E2=80=A6=C2=A0and I suspect that the vocabulary may have had something t=
+o do with it.
+ =20
+   =20
+      Compass
+   =20
+ =20
+Speaking of the sort of person I am, I was not able to do the Compass puzzl=
+e hunt last weekend but I was very sorry to miss it. Here is a New York Pos=
+t article about it:Wall Street=E2=80=99s brightest minds battled it out on =
+Saturday by hitting multiple locations around NYC to solve intricate, immer=
+sive puzzles, while raising more than $1 million for charity Good Shepherd =
+ServicesGoldman Sachs, JP Morgan, Bridgewater Capital, Element Capital (whi=
+ch sponsored the event), PDT Partners, Barclays, BNP Paribas, and more offe=
+red up brainy employees, paying $30,000 a team, for the event called Compas=
+s.Running for over 14 hours and ending at 4 a.m., analysts, quants, and mat=
+h savants ran around to locations including Papillion restaurant, RPM Under=
+ground karaoke bar, and the Museum of Art and Design to decode and decipher=
+ elaborate clues in a murder mystery. ...Puzzle gods Colin Teichholtz and B=
+en Hoffstein, both on the board of the charity, co-organized and helped des=
+ign the large-scale event with help from production company Gotham Immersiv=
+e Labs.=E2=80=9CI think sometimes Wall Street people are completely misunde=
+rstood,=E2=80=9D Teicholtz tells us. =E2=80=9CMost of the people I know who=
+ have been really successful love what they do, love solving the puzzles th=
+at always come up in markets. It=E2=80=99s no surprise to me that those sam=
+e people love solving the crazy complicated puzzles we create for them in C=
+ompass. And of course Wall Street people are very competitive and love to p=
+rove that they can outsmart each other and also the puzzle creators.=E2=80=
+=9D
+ =20
+   =20
+      Things happen
+   =20
+ =20
+WeWork Shares Rise on First Day of Trading, Two Years After Failed IPO. Pay=
+Pal Is Exploring a  Purchase of Pinterest. Ransomware Gang Masquerades as R=
+eal Company to Recruit Tech Talent.  Evergrande Shares Plunge as Deal Talks=
+ End, Sales Sink 97%. ECB pushes banks to boost their post-Brexit operation=
+s. The Hidden Ways the Ultrarich  Pass Wealth to Their Heirs Tax-Free. Face=
+book Is Rebuked by Oversight Board Over Transparency on Treatment of Promin=
+ent Users. 69,469=C2=A0contracts on the Bitcoin ETF traded on the first day=
+ of options trading. FTX Trading Ltd. raised a $420,690,000 Series B-1.If y=
+ou'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in y=
+our inbox, please=C2=A0subscribe at this link. Or you can subscribe to Mone=
+y Stuff and other great Bloomberg newsletters here. Thanks![1]=C2=A0From se=
+lling the stock that he owns, or from issuing new stock from the company, p=
+utting the proceeds into the corporate treasury, and then paying himself a =
+huge consulting fee or whatever.[2] Again there is no financial information=
+ available yet so I do not know the components of that $875 million stated =
+enterprise value at $10 per share, but assuming that enterprise value here =
+equals equity value then at $19.38 per share it=E2=80=99s worth about $1.7 =
+billion.[3] If you think Trump Thing is worth, you know, $8, or $0, you als=
+o are not going to withdraw your cash and get your $10 back: You=E2=80=99re=
+ going to sell your stock to someone else for $19.38. I suppose if you thin=
+k it is worth $8, or $0, you might *short* the stock to drive down the pric=
+e. No you wouldn=E2=80=99t, come on, have you learned nothing from GameStop=
+?[4] To be clear, he *is* apparently interested in pumping Dogecoin just to=
+ troll people. I just=C2=A0highly doubt that he=E2=80=99s doing it for prof=
+it.[5] In options terms, if you buy it you profit from Trump vega and you l=
+ose money from Trump theta. As with an option, a bet on the volatility of a=
+n=C2=A0elderly human being has, uh, an expiration. What do you think Trump =
+Thing would be worth without Trump?[6] In a fixed-price convertible, the bo=
+ndholder will only convert when the stock price goes *up*. That=E2=80=99s g=
+ood. In a floating-price convertible, the bondholder might convert when the=
+ price is *down*, which means that the borrower might have to issue an infi=
+nite amount of stock. Like: Your stock is at $10, you issue $1,000 of conve=
+rtible debt convertible into $1,000 of stock at a floating price. You figur=
+e the debt will convert into about 100 shares. Then your stock falls to $5.=
+=C2=A0Now the convertible holder converts $100 worth of its debt and gets b=
+ack 20 shares, which it sells, flooding the market and driving down the sto=
+ck to $2. Now the convertible holder converts $100 more and gets back 50 sh=
+ares, which it sells, driving the stock down to $0.50. Now it converts $100=
+ more and gets back 200 shares, which it sells, etc. Eventually you have is=
+sued like 99% of your total stock to this convertible holder and your stock=
+ is at $0.01. =E2=80=9CDeath spiral.=E2=80=9D[7] I=E2=80=99m assuming it co=
+nverts at the end of the five years and collects 2% interest along the way.=
+ Like, =3DRATE(5,2,-100,200) =3D 16.42%.[8] Like, $1,250 worth of stock tim=
+es (1 - 20%) equals $1,000.[9] You know, if it converts into $1,000 of stoc=
+k at some average price, you can trade around that average a bit, etc.[10] =
+Technically this is not a case that was before the New York state courts: I=
+t was in federal court, but under New York law, and the federal appeals cou=
+rt (the Second Circuit) certified a question to the New York Court of Appea=
+ls (the highest New York court) asking it, in essence, =E2=80=9Cwhat *is* N=
+ew York law here?=E2=80=9D Previously federal courts =E2=80=94=C2=A0includi=
+ng the district court in this case =E2=80=94=C2=A0had more or less assumed =
+that, under New York law, conversion rights don=E2=80=99t count as interest=
+, but no one had bothered to ask a New York court.[11] That is, $35,000 / (=
+1 -=C2=A035%) =3D $53,846.15.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cf4t55.5qto/1bc72919.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_21652596_1841704695.1634835895357
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTQxODYzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2ODY2Nzcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cB597a29dd" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25418633&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25686677&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMDIxMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwMjEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB7a6bba90"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTQxODYzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2ODY2Nzcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cC8eea47a8" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25418633&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25686677&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"108" style=3D"width: 108px !important; display:block" =
+/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p><table class=3D"header" =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Trump SPAC</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Donald Trump is a very famous person w=
+ho likes to talk and who has a lot of enthusiastic fans. If he started a te=
+levision channel that consisted of=C2=A0him talking about whatever for two =
+hours every afternoon, surrounded by 22 hours of other people talking about=
+ how great he is, it would probably get a lot of viewers and could carry a =
+lot of ads for pillows or whatever. But this would probably involve a certa=
+in amount=C2=A0of work and competence =E2=80=94=C2=A0you=E2=80=99d have to =
+hire people to point the cameras at him and negotiate cable carriage and ad=
+ deals =E2=80=94 and television is expensive; there would be some real fina=
+ncial risk to it.</p><p style=3D"margin: 16px 0;">Or he could start a socia=
+l media company for his fans, where he could send out his thoughts without =
+being banned. I am not going to pretend to make a business case for that on=
+e =E2=80=94=C2=A0there is a long=C2=A0<a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/25418633.268044/aHR0cHM6Ly93d3cud2lyZWQuY29tL3N0b3J5L2d=
+hYi1oYWNrLWRhdGEtYnJlYWNoLWRkb3NlY3JldHMv/607f07ceef4b8524a319a23cB3c212145=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"></a><a href=3D"https://link.mail.bloombergbusiness.com/click/2541=
+8633.268044/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wMS8wOS90ZWNobm9sb2d5L2F=
+wcGxlLWdvb2dsZS1wYXJsZXIuaHRtbA/607f07ceef4b8524a319a23cB79de1985" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+history</a> of=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/25418633.268044/aHR0cHM6Ly93d3cud2lyZWQuY29tL3N0b3J5L2dhYi1oYWNrLWRhdGEtY=
+nJlYWNoLWRkb3NlY3JldHMv/607f07ceef4b8524a319a23cC3c212145" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">hilariou=
+s</a>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2541863=
+3.268044/aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tLzIwMjEvNi8yLzIyNDY0OTMwL2RvbmFsZC=
+10cnVtcC1ibG9nLWZhY2Vib29rLXR3aXR0ZXItc29jaWFsLW1lZGlhLXBsYXRmb3Jt/607f07ce=
+ef4b8524a319a23cB574648d6" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">failure</a> in the =E2=80=9Csocial media=
+ for Trump=E2=80=9D category=C2=A0=E2=80=94=C2=A0but maybe you can. It is n=
+ot a=C2=A0<em>sure thing</em>, in any case. Maybe it would work, maybe it w=
+ouldn=E2=80=99t.=C2=A0When Twitter Inc. went public it had <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/25418633.268044/aHR0cHM6Ly93d3cuc2=
+VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMDk1MDEyMzE0MDAzMDMxL3R3d=
+HItMTBrXzIwMTMxMjMxLmh0bSNJdGVtXzZfU0VMRUNURURfRklOQU5DSUFMX0RBVEE/607f07ce=
+ef4b8524a319a23cBfaf87506" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">never been profitable</a> and it was, yo=
+u know, a real social network that people used. Maybe Twitter But Trump=C2=
+=A0would immediately be profitable but boy I have some doubts.</p><p style=
+=3D"margin: 16px 0;">On the other hand if Donald Trump launched a company t=
+hat was like =E2=80=9CI am going to start a social media platform for Trump=
+ fans,=E2=80=9D could he get people to=C2=A0<em>buy the stock</em>? I think=
+ that two fundamental lessons of the last few years are:</p><ol style=3D"li=
+st-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=
+=3D"margin-bottom: 5px;">You can get people to buy=C2=A0any<em>=C2=A0</em>s=
+tock; and</li>=09<li style=3D"margin-bottom: 5px;">Donald Trump can get peo=
+ple to buy anything.</li></ol><p style=3D"margin: 16px 0;">So if Donald Tru=
+mp announced =E2=80=9Chey I=E2=80=99m gonna do a social media company, buy =
+some stock,=E2=80=9D people would buy some stock. And then he=E2=80=99d get=
+ a lot of money.[1] And then if the social media platform did not end up be=
+ing profitable =E2=80=94=C2=A0as I cannot imagine it would be! =E2=80=94=C2=
+=A0then he would, uh, still have that money? And if the social media platfo=
+rm did not end up being <em>launched</em> =E2=80=94=C2=A0if Trump and his c=
+rack team of technologists just couldn=E2=80=99t actually build a well-func=
+tioning online social network =E2=80=94=C2=A0then he would, uh, still have =
+that money? And if there was no crack team of technologists at all, if nobo=
+dy even=C2=A0<em>tried=C2=A0</em>to build the social media platform =E2=80=
+=94=C2=A0then=C2=A0you see where I am going with this right?</p><p style=3D=
+"margin: 16px 0;">The point is that if you launch a company with the goal o=
+f making it profitable, you have to, like, have a workable business=C2=A0pl=
+an and execute on it and deal with a million different operational complexi=
+ties. If you launch a company with the goal of selling a lot of stock, you =
+have to get people to trust you and give you their money. There is some ove=
+rlap between those things! But they are different things!</p><p style=3D"ma=
+rgin: 16px 0;">Now, there are some difficulties with doing an initial publi=
+c offering that is like =E2=80=9Cwe=E2=80=99re gonna build a beautiful soci=
+al network, trust me.=E2=80=9D But a third important lesson of the last few=
+ years is:</p><p style=3D"margin: 16px 0;">=C2=A0 =C2=A0 =C2=A03. SPACs!</p=
+><p style=3D"margin: 16px 0;">If you go public by merging your private comp=
+any with a special purpose acquisition company, then you can just make up w=
+hatever you want and no one will check. No, I=E2=80=99m kidding, that is ve=
+ry much not the law! But it is <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/25418633.268044/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjEtMDQtMTIvbWF5YmUtc3BhY3MtYXJlLXJlYWxseS1pcG9zP2NtcGlkPUJCR=
+DEwMjEyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVy=
+JnV0bV90ZXJtPTIxMTAyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319=
+a23cBe03248a0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> maybe a little bit the law</a>? In particular, ther=
+e is a view that pre-revenue private companies can go public via SPAC merge=
+r and market themselves to investors using wildly optimistic projections of=
+ their <em>future</em> revenue, and that if those projections do not come t=
+rue they won=E2=80=99t get in trouble. Again, this is not quite true =E2=80=
+=94=C2=A0talk to your lawyer before trying this! =E2=80=94=C2=A0but there i=
+s an element of truth to it.=C2=A0If you are in the business of raising mon=
+ey to fund a social media company that you haven=E2=80=99t built yet and pe=
+rhaps never will, the SPAC format has a real appeal.</p><p style=3D"margin:=
+ 16px 0;">Anyway, anyway, anyway, anyway, anyway, <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/25418633.268044/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+BcmNoaXZlcy9lZGdhci9kYXRhLzE4NDk2MzUvMDAwMTEwNDY1OTIxMTI4MjMyL3RtMjEzMDcyNG=
+QxX2V4OTktMS5odG0/607f07ceef4b8524a319a23cBcf1ba684" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">anyway</a>:</p=
+><blockquote><p style=3D"margin: 16px 0;">PALM BEACH, FL -- October 20, 202=
+1 -- Trump Media &amp; Technology Group and Digital World Acquisition Corp.=
+ (NASDAQ: DWAC) have entered into a definitive merger agreement, providing =
+for a business combination that will result in Trump Media &amp; Technology=
+ Group becoming a publicly listed company, subject to regulatory and stockh=
+older approval. The transaction values Trump Media &amp; Technology Group a=
+t an initial enterprise value of $875 Million, with a potential additional =
+earnout of $825 Million in additional shares (at the valuation they are gra=
+nted) for a cumulative valuation of up to $1.7 Billion depending on the per=
+formance of the stock price post-business combination. Trump Media &amp; Te=
+chnology Group=E2=80=99s growth plans initially will be funded by DWAC=E2=
+=80=99s cash in trust of $293 Million (assuming no redemptions).</p><p styl=
+e=3D"margin: 16px 0;">Trump Media &amp; Technology Group's mission is to cr=
+eate a rival to the liberal media consortium and fight back against the "Bi=
+g Tech=E2=80=9D companies of Silicon Valley, which have used their unilater=
+al power to silence opposing voices in America.</p><p style=3D"margin: 16px=
+ 0;">Trump Media &amp; Technology Group (=E2=80=9CTMTG=E2=80=9D) will soon =
+be launching a social network, named "TRUTH Social." TRUTH Social is now av=
+ailable for Pre-Order in the Apple App store. TRUTH Social plans to begin i=
+ts Beta Launch for invited guests in November 2021. A nationwide rollout is=
+ expected in the first quarter of 2022. Those who are interested in joining=
+ TRUTH Social may now visit www.truthsocial.com to sign up for the invite l=
+ist.</p><p style=3D"margin: 16px 0;">President Donald J. Trump, the Chairma=
+n of TMTG, stated, =E2=80=9CI created TRUTH Social and TMTG to stand up to =
+the tyranny of Big Tech. We live in a world where the Taliban has a huge pr=
+esence on Twitter, yet your favorite American President has been silenced. =
+This is unacceptable. I am excited to send out my first TRUTH on TRUTH Soci=
+al very soon. TMTG was founded with a mission to give a voice to all. I'm e=
+xcited to soon begin sharing my thoughts on TRUTH Social and to fight back =
+against Big Tech. Everyone asks me why doesn=E2=80=99t someone stand up to =
+Big Tech? Well, we will be soon!=E2=80=9D</p></blockquote><p style=3D"margi=
+n: 16px 0;">Well. That's a real press release=C2=A0filed with the real Secu=
+rities and Exchange Commission by Digital World Acquisition Corp., which is=
+ a real SPAC insofar as a SPAC can be real. It has $293 million in its trus=
+t. Traditionally=C2=A0SPAC deals are often <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/25418633.268044/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMjgvd2VsbHMtZmFyZ28tc3dhcHBlZC1zb21lLWRpZ=
+2l0cz9jbXBpZD1CQkQxMDIxMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3Vy=
+Y2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwMjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607=
+f07ceef4b8524a319a23cBc28a7fb6" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> announced with PIPEs</a>, private =
+investments in public equity, in which institutional or strategic investors=
+ commit hundreds of millions of dollars of their own money alongside the SP=
+AC investment. Here, there is no PIPE;=C2=A0no institutional investors seem=
+ to be involved. Trump Very Tech Company Group is raising its money only fr=
+om public investors in the SPAC.</p><p style=3D"margin: 16px 0;">Ordinarily=
+ that would be risky:=C2=A0The SPAC investors have withdrawal rights =E2=80=
+=94=C2=A0they can take back $10 per share in cash instead of leaving it in =
+the pot for the merger =E2=80=94=C2=A0so the company might not get any mone=
+y. Here, it is not risky. The reason it is not risky is that people who lik=
+e Trump will buy the stock. (Also: People who think =E2=80=9Cpeople who lik=
+e Trump will buy the stock=E2=80=9D will buy the stock; the Keynesian beaut=
+y contest applies here too.) Yesterday, before this announcement, DWAC=E2=
+=80=99s stock closed at $9.96, a bit below the $10 per share that it has in=
+ its trust, sort of a standard price for a=C2=A0SPAC with no deal yet. At 1=
+1 a.m.=C2=A0today it was trading at about $19.38, implying=C2=A0a valuation=
+ for Trump Thing=C2=A0of something like $1.7 billion.[2] If you think Trump=
+ Thing is worth $19.38 per share, you are not going to take your $10 back; =
+you=E2=80=99re going to keep the stock and let Trump have your $10.[3] He w=
+ill definitely get all $293 million.</p><p style=3D"margin: 16px 0;">Why wo=
+uld you think Trump Thing, a company with no product and no revenue,=C2=A0i=
+s worth $1.7 billion? Are you looking at the wildly optimistic projections =
+of future revenue in the investor presentation? No you certainly are not!=
+=C2=A0The initial <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+25418633.268044/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4NDk=
+2MzUvMDAwMTEwNDY1OTIxMTI4MjMxLzAwMDExMDQ2NTktMjEtMTI4MjMxLWluZGV4Lmh0bQ/607=
+f07ceef4b8524a319a23cB12eae5f6" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">SEC filing</a> doesn=E2=80=99t incl=
+ude an investor presentation, but there is a <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25418633.268044/aHR0cHM6Ly90bXRnY29ycC5jb20vY29t=
+cGFueS1vdmVydmlldy8/607f07ceef4b8524a319a23cBdfe9b432" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">=E2=80=9CCom=
+pany Overview=E2=80=9D deck</a> on Trump Thing=E2=80=99s website, and, fun =
+fact, there is not a single dollar sign in the whole deck. There is no fina=
+ncial analysis, no sources and uses of funds for the deal, no capital struc=
+ture, and=C2=A0<em>certainly=C2=A0</em>no projections of future revenue. It=
+ does have a mock-up of the app with Donald Trump tweeting (TRUTHing?) =E2=
+=80=9Clorem ipsum=E2=80=9D text:</p><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/izLQlOihSGgo/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/izLQlOihSGgo/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]--><p style=3D"margin: 16px 0;">Here=E2=80=99s a slide with Donald=
+ Trump presenting a trophy to a sumo wrestler:</p><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/ihzZpd9BfuZg/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/ihzZpd9BfuZg/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]--><p style=3D"margin: 16px 0;">Here=E2=80=99s a slide about=C2=A0=
+=E2=80=9CTech Monopoly Censorship Threatens Free Speech=E2=80=9D:</p><!--[i=
+f mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/iiawobKKxoPk/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/iiawobKKxoPk/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]--><p style=3D"margin: 16px 0;">That sort of thing. You are not bu=
+ying this stock because you have faith in its optimistic cash-flow forecast=
+s; it has not bothered with cash-flow forecasts. You are buying this stock =
+because you like Donald Trump and think that Tech Monopoly Censorship Threa=
+tens Free Speech. Cash flows, valuation, etc., are all irrelevant.=C2=A0It =
+is just vibes.</p><p style=3D"margin: 16px 0;">It does feel a little bit li=
+ke all of recent financial history has been leading up to this moment? Like=
+, Donald Trump, sure; obviously part of the Donald Trump thing <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/25418633.268044/aHR0cHM6Ly93d3=
+cubnByLm9yZy9zZWN0aW9ucy90aGV0d28td2F5LzIwMTYvMDEvMjMvNDY0MTI5MDI5L2RvbmFsZ=
+C10cnVtcC1pLWNvdWxkLXNob290LXNvbWVib2R5LWFuZC1pLXdvdWxkbnQtbG9zZS1hbnktdm90=
+ZXJz/607f07ceef4b8524a319a23cB91830944" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">is</a> =E2=80=9CI could sta=
+nd in the middle of Fifth Avenue and shoot somebody, and I wouldn't lose an=
+y voters.=E2=80=9D Similarly, he can=C2=A0launch a company with no product,=
+ business plan or capital structure and the stock will double.=C2=A0</p><p =
+style=3D"margin: 16px 0;">But also the SPAC boom has made it viable for pre=
+-product, pre-revenue companies to go public at multibillion-dollar valuati=
+ons if they can get enough hype. But also meme stocks have prepared everyon=
+e for the notion that the value of a stock is based on the fervor of its co=
+mmunity of online fans, not its projected cash flows. But also the cryptocu=
+rrency boom seeded that notion, and paired it with libertarianism and resis=
+tance to tech-company dominance. But also=C2=A0the=C2=A0boom in non-fungibl=
+e tokens further proved the idea that membership in an online community has=
+ a value that can be captured and financialized and traded and turned into =
+a bubble.</p><p style=3D"margin: 16px 0;">Or I talk sometimes about the =E2=
+=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268=
+044/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMTA=
+vZWxvbi1tdXNrLXR3ZWV0cy1ncmVhdC1uZXdzLWZvci1iaXRjb2luLWJhZC1uZXdzLWZvci1lY2=
+9uLW1ham9ycz9jbXBpZD1CQkQxMDIxMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwMjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cB6c5135aa" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">Elon Markets Hypothesis</a>,=
+=E2=80=9D the notion that stocks (or cryptocurrencies) go up because Elon M=
+usk tweets about them. Musk=E2=80=99s online cult of personality is enough =
+to create financial value. I <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/25418633.268044/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3Ns=
+ZXR0ZXJzLzIwMjEtMDUtMTcvbW9uZXktc3R1ZmYtZWxvbi1tdXNrLXMtYml0Y29pbi1mdW4tY29=
+udGludWVzP2NtcGlkPUJCRDEwMjEyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3=
+NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTAyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZ=
+g/607f07ceef4b8524a319a23cB67d77704" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">joke</a> <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/25418633.268044/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTMvZWxvbi1tdXNrLWdvdC1ib3JlZC=
+1vZi1iaXRjb2luP2NtcGlkPUJCRDEwMjEyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmd=
+XRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTAyMSZ1dG1fY2FtcGFpZ249bW9uZXlz=
+dHVmZg/607f07ceef4b8524a319a23cB44c0f851" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> sometimes</a> that he s=
+hould=C2=A0<em>use that=C2=A0</em>to extract some of that value for himself=
+, but honestly Musk is super-rich and has a lot of weird hobbies and just i=
+sn=E2=80=99t that interested in pumping Dogecoin to make a little day-tradi=
+ng profit.[4]=C2=A0But if anyone=C2=A0<em>else=C2=A0</em>has their own larg=
+e devoted online cult, they can use it to pump a stock and extract some val=
+ue for themselves. Donald Trump has a Musk-level online cult and is clearly=
+ not above extracting value for himself.=C2=A0</p><p style=3D"margin: 16px =
+0;">What is the long-term value of Trump Thing? Well I suppose you could ma=
+ke an optimistic case that it will eventually displace Twitter and Facebook=
+ and CNN and =E2=80=A6=C2=A0Netflix? and =E2=80=A6=C2=A0Amazon? and =E2=80=
+=A6=C2=A0Stripe? ... and become a dominant multi-trillion-dollar tech giant=
+. Again the investor presentation doesn=E2=80=99t=C2=A0<em>make=C2=A0</em>t=
+hat case but it does have a slide with Stripe=E2=80=99s logo:</p><!--[if ms=
+o]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/i_ENbYRF6n1s/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/i_ENbYRF6n1s/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]--><p style=3D"margin: 16px 0;">And then you=E2=80=99d feel pretty=
+ good about getting in at $1.7 billion. Or you could make a more normal cas=
+e that Donald Trump is a big media personality and you can sell a certain n=
+umber of pillow ads against him and this will end up being a viable, profit=
+able business and $1.7 billion is roughly the right price for it.=C2=A0</p>=
+<p style=3D"margin: 16px 0;">But I think that a more realistic valuation me=
+thod here is not to worry about cash flows at all =E2=80=94=C2=A0<em>as Tru=
+mp SPAC clearly does not=C2=A0</em>=E2=80=94=C2=A0and treat the stock simpl=
+y as a token of public interest in Donald Trump. My guess is that the price=
+ of Trump SPAC stock will not, for instance, be much affected by its earnin=
+gs announcements, unless Trump himself does the earnings calls in which cas=
+e it will go up no matter what he says. My guess is that the stock will not=
+ be particularly correlated with the stocks of other media or technology co=
+mpanies. My guess is that the stock will go up when Trump is on television,=
+ or if he announces that he=E2=80=99s running for president again. My guess=
+ is that if something=C2=A0<em>bad </em>happens to Trump =E2=80=94=C2=A0if =
+he=E2=80=99s sued or arrested or banned by a new tech company or=C2=A0some =
+new scandal comes out =E2=80=94=C2=A0then=C2=A0that will <em>also </em>make=
+ the stock go up, to own the libs or whatever. My guess is that each day th=
+at goes by without Trump news, the stock will go down a bit.=C2=A0My guess =
+is that the stock is essentially a bet on Trump=E2=80=99s personal newsines=
+s, on Trump-news volatility.[5]</p><p style=3D"margin: 16px 0;">To be clear=
+ I have absolutely no=C2=A0<em>corporate finance=C2=A0</em>basis for these =
+guesses; I don=E2=80=99t think that, like, <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/25418633.268044/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2=
+xlcy9kb25hbGQtdHJ1bXAtZGVwb3NlZC1pbi1sYXdzdWl0LW92ZXItYWxsZWdlZC1hdHRhY2tzL=
+W9uLXByb3Rlc3RlcnMtMTE2MzQ1OTY1OTE/607f07ceef4b8524a319a23cBd371a74b" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">getting sued for attacking protesters</a>=C2=A0will be good for Trump Th=
+ing=E2=80=99s ad revenue or whatever. I don=E2=80=99t have some story of =
+=E2=80=9Cpublic interest in Trump increases the expected value of Trump Thi=
+ng's cash flows so the stock will go up.=E2=80=9D I just think that the sto=
+ck price will have nothing to do with the ad revenue; it will be based enti=
+rely on how much attention Trump=E2=80=99s fans are paying to Trump.</p><p =
+style=3D"margin: 16px 0;">At the beginning of February, when GameStop Corp.=
+=E2=80=99s stock price became unmoored from <em>anyone's</em> expectations =
+about future cash flows, <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25418633.268044/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMjEtMDItMDEvZ2FtZXN0b3AtZ21lLWlzLW9sZC1uZXdzLWFmdGVyLXJlZGRpdC1kaXN=
+jb3ZlcnMtc2lsdmVyLWZ1dHVyZXM_Y21waWQ9QkJEMTAyMTIxX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMDIxJnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf9f0fdf4" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> I wrote a p=
+aragraph</a> that people still tweet at me from time to time:</p><blockquot=
+e><p style=3D"margin: 16px 0;">But I tell you what, if we are still here in=
+ a month I will absolutely freak out. Stock prices can get totally disconne=
+cted from fundamental value for a while, it=E2=80=99s fine, we all have a g=
+ood laugh. But if they stay that way forever, if everyone decides that cash=
+ flows are irrelevant and that the important factor in any stock is how muc=
+h fun it is to trade, then =E2=80=A6 what are we all doing here?=C2=A0</p><=
+/blockquote><p style=3D"margin: 16px 0;">When people tweet this at me it is=
+ because GameStop=E2=80=99s price is still pretty much where it was in Febr=
+uary (though arguably a bit more justified by actual changes to the busines=
+s!), and they say =E2=80=9Cso are you freaked out yet?=E2=80=9D And, I don=
+=E2=80=99t know, yes? Doesn=E2=80=99t it feel like there has been a paradig=
+m shift, a regime change? Doesn=E2=80=99t it feel like for the last=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aHR0=
+cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvU2VjdXJpdHlfQW5hbHlzaXNfKGJvb2sp/607f07=
+ceef4b8524a319a23cB9200b7fb" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">80 or so years</a>=C2=A0there has been=
+ a dominant view of investing, a first-page-of-the-textbook given, that inv=
+estments are worth the present value of their expected future cash flows? D=
+oesn=E2=80=99t it feel like that world has ended and a new one has begun? I=
+ should go buy some Dogecoin.</p><p style=3D"margin: 16px 0;">Oh, also. One=
+ other thing that I like to say around here is that =E2=80=9C<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/25418633.268044/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1=
+nb2VzLXRvLXN1cHJlbWUtY291cnQtaGVkZ2UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNn=
+dzP2NtcGlkPUJCRDEwMjEyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTAyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cBc961e718" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">everything is securities fraud</a>=E2=
+=80=9D: Every bad thing that a public company, or a public-company executiv=
+e, does can be recast as securities fraud and lead to securities lawsuits. =
+There will be like 200 securities-fraud lawsuits against Donald Trump by Ch=
+ristmas, enjoy!</p><table class=3D"liveintent-sponsored-content" width=3D"a=
+uto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTQxODYzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2ODY2Nzcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cDf7375111" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25418633&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25686677&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTQxODYzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2ODY2Nzcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cEf7375111" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25418633&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25686677&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTQxODYzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2ODY2Nzcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cF8d149afa" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25418633&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25686677&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTQxODYzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2ODY2Nzcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cG8d149afa" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25418633&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25686677&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Usury</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Typically if a company borrows money, =
+the cost of its=C2=A0borrowing is pretty much the interest rate on the loan=
+. If you borrow $1,000 at 6% for five years, you pay back $60 a year and th=
+en $1,000 at the end. The lender gets a 6% annual return on its money; the =
+money costs you 6% per year.</p><p style=3D"margin: 16px 0;">Sometimes comp=
+anies, for various reasons, issue convertible debt. The way this works is t=
+ypically that the lender gives the company $1,000 and the company pays back=
+, say, $20 per year and then $1,000 at the end of five years. But at any ti=
+me during those five years, the lender can, at its option, trade in the deb=
+t for shares of stock in the company. When it converts, it no longer gets a=
+ny interest, and it doesn=E2=80=99t get its $1,000 back at the end. Instead=
+ it just gets stock.</p><p style=3D"margin: 16px 0;">In regular public-comp=
+any convertible bonds, the lender=C2=A0gets a fixed amount of stock. If a p=
+ublic company issues a convertible bond when its stock is at $20, it might =
+do it at a conversion price of, say, $25, a 25% premium to the current stoc=
+k price. So a $1,000 bond will convert into 40 shares of stock. This ratio =
+will be fixed at the time the bond is issued and stays the same no matter w=
+hat the stock does. If the stock stays at $20, the bondholders won=E2=80=99=
+t convert; they=E2=80=99d rather get their $1,000 back than convert into $8=
+00 worth of stock. If the stock goes up to $50, the bondholders will (event=
+ually) convert; they=E2=80=99d rather get $2,000 worth of stock than just g=
+et their $1,000 back.</p><p style=3D"margin: 16px 0;">Other convertible deb=
+t arrangements will sometimes give the lender a=C2=A0<em>floating=C2=A0</em=
+>amount of stock. The lender can convert $1,000 of debt into, essentially, =
+$1,000 worth of stock, at whatever the price is at the time it converts. Or=
+ some variation of that. Maybe $1,000 of debt converts into $1,000 worth of=
+ stock, measured at the average trading price of the stock over the 10 trad=
+ing days prior to conversion. Maybe there will be a discount: $1,000 of deb=
+t converts into $1,200 worth of stock. You sometimes see versions of this i=
+n convertible debt of startups (if the company goes public, $1,000 of debt=
+=C2=A0converts=C2=A0into $1,200 worth of stock at the price in the company=
+=E2=80=99s initial public offering). But you also see versions of this from=
+ smaller distressed public companies. In that context, it=C2=A0is sometimes=
+ called a =E2=80=9Cdeath spiral convertible.=E2=80=9D It is not a great fin=
+ancing choice![6] But companies sometimes don=E2=80=99t have a lot of great=
+ choices.</p><p style=3D"margin: 16px 0;">Let=E2=80=99s go back to the fixe=
+d-price convertibles for a minute. What is the cost, to a company, of issui=
+ng a convertible bond? What is the return, to the lender, of buying that bo=
+nd? The answer is, I think, =E2=80=9Cit depends on the stock price.=E2=80=
+=9D In my example, if the stock stays flat, the lender gets its money back =
+and 2% interest a year. So that=E2=80=99s a 2% annual return to the lender =
+and a 2% annual cost to the borrower. If the stock goes to $50, the lender =
+converts and gets a 100% return on its money, or call it 16% per year.[7] T=
+he convertible cost the company 16% per year. If the stock goes to $100, th=
+at's 33% a year, etc.</p><p style=3D"margin: 16px 0;">With a floating-price=
+ convertible I guess it depends on the discount and the=C2=A0timing? If the=
+ debt converts to stock at a 20% discount =E2=80=94=C2=A0$1,000 of debt con=
+verts into $1,250 worth of stock[8] =E2=80=94=C2=A0and the lender converts =
+in one year, then it gets a return of about 25%, and the debt costs the com=
+pany 25%. If it converts in three months I suppose the annualized rate is h=
+igher. If the debt converts to stock at no discount then I suppose the cost=
+ of the convertible is whatever the stated interest rate is, more or less, =
+and there=E2=80=99s no extra value from the conversion option, though you c=
+ould probably find ways to get a little=C2=A0juice out of it.[9]</p><p styl=
+e=3D"margin: 16px 0;">In New York state it is a=C2=A0<em>crime=C2=A0</em>=
+=E2=80=94=C2=A0usury =E2=80=94=C2=A0to charge someone more than 25% interes=
+t. If you do that, I suppose you can go to jail. Also, and perhaps more rea=
+listically, if you do that=C2=A0<em>they don=E2=80=99t have to pay you back=
+</em>. Not like =E2=80=9Cthey can just pay you 25% interest instead=E2=80=
+=9D: They can just keep your money and pay you nothing. =E2=80=9CIf the bor=
+rower establishes the defense of usury in a=C2=A0civil action, the usurious=
+ loan transaction is deemed void and unenforceable, resulting in the uncoll=
+ectability of both principal and interest,=E2=80=9D says the <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/25418633.268044/aHR0cHM6Ly93d3cu=
+bnljb3VydHMuZ292L0NUQVBQUy9EZWNpc2lvbnMvMjAyMS9PY3QyMS81MW9wbjIxLURlY2lzaW9=
+uLnBkZg/607f07ceef4b8524a319a23cB607f5831" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">New York Court of Appeal=
+s</a>.=C2=A0</p><p style=3D"margin: 16px 0;">What about convertible debt? I=
+f you lend someone money and take back convertible debt, and your return on=
+ that debt is more than 25%, is that usury? Does the conversion option coun=
+t as interest under New York usury laws? I would have guessed that the answ=
+er was =E2=80=9Cno, a conversion option is a conversion option, that=E2=80=
+=99s not interest.=E2=80=9D But it turns out the answer is yes! Here=E2=80=
+=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.2680=
+44/aHR0cHM6Ly93d3cubnljb3VydHMuZ292L0NUQVBQUy9EZWNpc2lvbnMvMjAyMS9PY3QyMS81=
+MW9wbjIxLURlY2lzaW9uLnBkZg/607f07ceef4b8524a319a23cC607f5831" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">a dec=
+ision</a> from the New York Court of Appeals last week:</p><blockquote><p s=
+tyle=3D"margin: 16px 0;">We conclude that, in assessing whether the interes=
+t on a given loan has exceeded the statutory usury cap, the value of the fl=
+oating-price convertible options should be included in the determination of=
+ interest. New York law requires that the value of the conversion option, l=
+ike all other property exchanged in consideration for the loan, should be i=
+ncluded in determining the loan=E2=80=99s interest rate for purposes of the=
+ usury statutes, to the extent such=C2=A0value, when measured at the time o=
+f contracting, can be reasonably determined. The hypothetical possibility t=
+hat a future exercise of a floating-price conversion option may result in a=
+ return exceeding 25% does not render a loan usurious on its face. Rather, =
+the value of such an option is a question of fact, and the burden to prove =
+that value is on the borrower.</p></blockquote><p style=3D"margin: 16px 0;"=
+>The court concluded that a=C2=A0<em>floating</em>-price convertible option=
+ counts as interest, and could be usurious, because that=E2=80=99s the ques=
+tion that it was asked.[10] It wasn't asked about fixed-price conversion op=
+tions but =E2=80=A6=C2=A0it does sort of suggest they count as interest too=
+? But it says, correctly, that =E2=80=9Cfloating-price options may be consi=
+derably more simple to value than fixed-price conversion options, which are=
+ more dependent on changing market values=E2=80=9D; an option to pay $1,000=
+ to get exactly $1,250 worth of stock is always going to be worth about $25=
+0. A fixed-price conversion option has, ex ante, some value based on a Blac=
+k-Scholes-like model of option value. Ex post, if the stock goes up a lot, =
+the option was worth a lot and the lender's rate of return is really high, =
+but that doesn=E2=80=99t make it usurious. =E2=80=9CThe mere fact that a fi=
+xed-price future conversion option may be exercised at a future usurious ra=
+te does not render the loan usurious on its face,=E2=80=9D says the court. =
+=E2=80=9CRather, [previous cases] require us to assess the overall value of=
+ the conversion option at the time of the bargain.=E2=80=9D</p><p style=3D"=
+margin: 16px 0;">But in this particular case, the conversion feature was at=
+ a floating price and was, yeah, maybe a little usurious?</p><blockquote><p=
+ style=3D"margin: 16px 0;">GeneSYS ID, Inc. (=E2=80=9CGeneSYS=E2=80=9D) is =
+a publicly held corporation that produces various types of medical supplies=
+. Adar Bays, LLC is a limited liability company based in Florida. On May 24=
+, 2016, Adar Bays loaned GeneSYS $35,000. In exchange, GeneSYS gave Adar Ba=
+ys a note with eight percent interest that would mature in one year. The no=
+te included an option for Adar Bays to convert some or all of the debt into=
+ shares of GeneSYS stock at=C2=A0a discount of 35% from the lowest trading =
+price for GeneSYS stock over the 20 days prior to the date on which Adar Ba=
+ys requested a conversion. Adar Bays could exercise its option starting 180=
+ days after the note was issued and could do so all at once or in separate =
+partial conversions.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Tha=
+t is the kind of money that you get when you <em>really=C2=A0</em>need mone=
+y. This is very distressed lending. GeneSYS was not in great financial shap=
+e in 2016, and it is in basically no shape at all by now; here is a 2018 <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aHR0=
+cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2FkbWluLzIwMTgvMzQtODQyNDIucGRm/607f07=
+ceef4b8524a319a23cB15ff011d" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Securities and Exchange Commission act=
+ion</a> to deregister its stock for failure to file financial reports. When=
+ it wanted to borrow $35,000 in 2016, it had to do so on pretty rough terms=
+; there was no reason for the lender to be confident that it would get paid=
+ back, or that, if it converted into GeneSYS stock, the stock would be wort=
+h much. So it demanded a lot of cushion: If it converted into stock, it wan=
+ted at least $54,000 worth of stock.[11]</p><p style=3D"margin: 16px 0;">Bu=
+t I guess the point of usury law is that, even when a company is desperate =
+for money and can only get it on terrible terms, there are limits to how te=
+rrible the terms can be. (This is a weird point! Arguably companies will be=
+ better off getting money at terrible terms than not getting it at all!)=C2=
+=A0If you lend $35,000 and in return you can get back $54,000 worth of stoc=
+k in six months, yes, sure, that's much higher than a 25% annual return. An=
+d if it counts as interest, it=E2=80=99s usurious. And apparently it does.<=
+/p><p style=3D"margin: 16px 0;">I imagine that this is=C2=A0not the only ca=
+se in history of a distressed lender lending a troubled company money with =
+an expected rate of return of more than 25%? If you are a distressed lender=
+ and good at your job, be careful not to be=C2=A0<em>too=C2=A0</em>good at =
+it.</p><table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTQxODYzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2ODY2Nzcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cH2cf7e8c2" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25418633&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25686677&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Deals</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Yeah okay I kind of like this:</p><blo=
+ckquote><p style=3D"margin: 16px 0;">At Partners Group Holding AG, =E2=80=
+=9Cdeal=E2=80=9D is a four-letter word.</p><p style=3D"margin: 16px 0;">Dav=
+id Layton, the Swiss firm=E2=80=99s chief executive, banned the term at a g=
+lobal town hall meeting in early June.</p><p style=3D"margin: 16px 0;">Neve=
+r mind that as a private-equity firm with $119 billion in assets,=C2=A0<a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aHR0cH=
+M6Ly93d3cud3NqLmNvbS9tYXJrZXQtZGF0YS9xdW90ZXMvQ0gvWFNXWC9QR0hO/607f07ceef4b=
+8524a319a23cBff059c36" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">Partners Group</a>=C2=A0exists to =
+do=E2=80=A6deals.=E2=80=A6</p><p style=3D"margin: 16px 0;">Mr. Layton, 40 y=
+ears old, says he banned the word because he is trying to get his colleague=
+s to shift from a transactional mind-set to one he calls =E2=80=9Cindustria=
+l.=E2=80=9D</p><p style=3D"margin: 16px 0;">Two decades ago, Mr. Layton say=
+s, the buyout business was a $700 billion industry in which firms made big =
+money with a simple formula: buy companies using a large amount of debt, ma=
+ke some cosmetic changes and sell them off. These days, it=E2=80=99s an $8 =
+trillion industry, and if firms want to make the double-digit returns their=
+ investors expect, they have to think like entrepreneurs, he says.</p><p st=
+yle=3D"margin: 16px 0;">=E2=80=9CWe want to act like founders, not financie=
+rs,=E2=80=9D Mr. Layton says. =E2=80=9CDo our customers love us? Is our pro=
+duct resonating?=E2=80=9D</p><p style=3D"margin: 16px 0;">He says the word =
+=E2=80=9Cdeal=E2=80=9D reduces the ownership of a company=E2=80=94which has=
+ executives, employees, a strategy and a mission=E2=80=94to a one-time even=
+t. He wants the employees of his firm to act like they are owners of busine=
+sses, not merely the doers of deals.</p><p style=3D"margin: 16px 0;">Prefer=
+red vocabulary includes =E2=80=9Cstewardship, governance, strategy, culture=
+, entrepreneurship, operational excellence and sustainability,=E2=80=9D he =
+says. Some employees have resorted to using the word =E2=80=9Cinvestment=E2=
+=80=9D as a substitute for the banned word.</p></blockquote><p style=3D"mar=
+gin: 16px 0;">If you say the d-word you get fined. I assume that this is pa=
+rtly a cutesy marketing gimmick but you know what, it=E2=80=99s a competiti=
+ve world, a little cutesy marketing doesn=E2=80=99t hurt.</p><p style=3D"ma=
+rgin: 16px 0;">But, also, I used to be an investment banker. Investment ban=
+kers do deals. Fine. But I was in a weird derivatives banking group that so=
+rt of put on airs, and we didn=E2=80=99t like to say =E2=80=9Cdeal,=E2=80=
+=9D we said =E2=80=9Ctrade.=E2=80=9D=C2=A0We=E2=80=99d go meet with a compa=
+ny and our regular banking colleagues would pitch a deal and then we=E2=80=
+=99d pitch a trade. A =E2=80=9Cdeal=E2=80=9D is more short-term and transac=
+tional than, uh, =E2=80=9Cstewardship,=E2=80=9D but a =E2=80=9Ctrade=E2=80=
+=9D is even more short-term and transactional and arm=E2=80=99s-length and =
+zero-sum and adversarial. Honestly I think it warped me for life? Even now =
+I read about mergers with some weird financial structuring and think =E2=80=
+=9Cthat=E2=80=99s=C2=A0a good trade.=E2=80=9D It=E2=80=99s not a good trade=
+! It=E2=80=99s a perpetual commitment to bind together two companies with a=
+ll sorts of social and operational issues involved in integrating them. But=
+, also, tax structuring. I have become a person who appreciates financial s=
+tructuring and a certain amount of =E2=80=A6=C2=A0trickery? gimmickry? =E2=
+=80=A6=C2=A0and I suspect that the vocabulary may have had something to do =
+with it.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Compass</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Speaking of the sort of person I am, I=
+ was not able to do the Compass puzzle hunt last weekend but I was very sor=
+ry to miss it. Here is a <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25418633.268044/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjEvMTAvMTkvd2FsbC1zdHJl=
+ZXRzLWNpdHktd2lkZS1wdXp6bGUtY29tcGFzcy1yYWlzZXMtb3Zlci0xbS1mb3ItY2hhcml0eS8=
+/607f07ceef4b8524a319a23cB10aefeff" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">New York Post article</a> about=
+ it:</p><blockquote><p style=3D"margin: 16px 0;">Wall Street=E2=80=99s brig=
+htest minds battled it out on Saturday by hitting multiple locations around=
+ NYC to solve intricate, immersive puzzles, while raising more than $1 mill=
+ion for charity Good Shepherd Services</p><p style=3D"margin: 16px 0;">Gold=
+man Sachs, JP Morgan, Bridgewater Capital, Element Capital (which sponsored=
+ the event), PDT Partners, Barclays, BNP Paribas, and more offered up brain=
+y employees, paying $30,000 a team, for the event called Compass.</p><p sty=
+le=3D"margin: 16px 0;">Running for over 14 hours and ending at 4 a.m., anal=
+ysts, quants, and math savants ran around to locations including Papillion =
+restaurant, RPM Underground karaoke bar, and the Museum of Art and Design t=
+o decode and decipher elaborate clues in a murder mystery. ...</p><p style=
+=3D"margin: 16px 0;">Puzzle gods Colin Teichholtz and Ben Hoffstein, both o=
+n the board of the charity, co-organized and helped design the large-scale =
+event with help from production company Gotham Immersive Labs.</p><p style=
+=3D"margin: 16px 0;">=E2=80=9CI think sometimes Wall Street people are comp=
+letely misunderstood,=E2=80=9D Teicholtz tells us. =E2=80=9CMost of the peo=
+ple I know who have been really successful love what they do, love solving =
+the puzzles that always come up in markets. It=E2=80=99s no surprise to me =
+that those same people love solving the crazy complicated puzzles we create=
+ for them in Compass. And of course Wall Street people are very competitive=
+ and love to prove that they can outsmart each other and also the puzzle cr=
+eators.=E2=80=9D</p></blockquote><table class=3D"header" width=3D"100%" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloomberg=
+business.com/click/25418633.268044/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93=
+ZXdvcmstc2V0LXRvLWdvLXB1YmxpYy12aWEtc3BhYy1kZWFsLXR3by15ZWFycy1hZnRlci1mYWl=
+sZWQtaXBvLTExNjM0ODA4NjAwP21vZD1ocF9sZWFkX3BvczM/607f07ceef4b8524a319a23cB3=
+5eba0b5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">WeWork</a> Shares Rise on First Day of Trading, Two Years =
+After Failed IPO. PayPal Is Exploring a <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/25418633.268044/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjEtMTAtMjAvcGF5cGFsLXNhaWQtdG8tZXhwbG9yZS1wdXJjaGFzZS1v=
+Zi1zb2NpYWwtbWVkaWEtZmlybS1waW50ZXJlc3Q_Y21waWQ9QkJEMTAyMTIxX01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMDIxJn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB73fa8ee6" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Purchase of Pinterest</a>. Ransomware Gang <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/25418633.268044/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY=
+2xlcy9yYW5zb213YXJlLWdhbmctbWFzcXVlcmFkZXMtYXMtcmVhbC1jb21wYW55LXRvLXJlY3J1=
+aXQtdGVjaC10YWxlbnQtMTE2MzQ4MTk0MDA_bW9kPWhwX2xlYWRfcG9zMTA/607f07ceef4b852=
+4a319a23cB8ba8722a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Masquerades as Real Company</a> to Recruit Te=
+ch Talent. <a href=3D"https://link.mail.bloombergbusiness.com/click/2541863=
+3.268044/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMj=
+AvZXZlcmdyYW5kZS1lbmRzLXRhbGtzLW9uLWhvcHNvbi1kZWFsLWFza3MtdG8tcmVzdW1lLXRyY=
+WRpbmc_Y21waWQ9QkJEMTAyMTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291=
+cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMDIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/60=
+7f07ceef4b8524a319a23cB9ebd7e7c" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> Evergrande</a> Shares Plunge as D=
+eal Talks End, Sales Sink 97%. ECB pushes banks to boost their <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/25418633.268044/aHR0cHM6Ly93d3=
+cuZnQuY29tL2NvbnRlbnQvMzk1OTFlYzEtOThjYS00YjQ3LTlhYTctMmNiMTg0MTI3ZDlm/607f=
+07ceef4b8524a319a23cBcc7df44e" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">post-Brexit operations</a>. The Hidd=
+en Ways the Ultrarich <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/25418633.268044/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9mZWF0dXJlcy9ob3ctYml=
+sbGlvbmFpcmVzLXBhc3Mtd2VhbHRoLXRvLWhlaXJzLXRheC1mcmVlLTIwMjEvP2NtcGlkPUJCRD=
+EwMjEyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJ=
+nV0bV90ZXJtPTIxMTAyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a=
+23cB102e44eb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> Pass Wealth to Their Heirs</a> Tax-Free. Facebook Is=
+ Rebuked by <a href=3D"https://link.mail.bloombergbusiness.com/click/254186=
+33.268044/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mYWNlYm9va3Mtb3ZlcnNpZ2h0L=
+WJvYXJkLXNheXMtY29tcGFueS13YXNudC1mdWxseS1mb3J0aGNvbWluZy1vbi10cmVhdG1lbnQt=
+b2YtaGlnaC1wcm9maWxlLXVzZXJzLTExNjM0ODE3NjAxP21vZD1ocF9sZWFkX3BvczE/607f07c=
+eef4b8524a319a23cB1da884e1" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">Oversight Board</a> Over Transparency o=
+n Treatment of Prominent Users. <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/25418633.268044/aHR0cHM6Ly90d2l0dGVyLmNvbS9rZ3JlaWZlbGQvc3Rhd=
+HVzLzE0NTA5MTc4MjEwNjAzNjYzNDg_cz0xMQ/607f07ceef4b8524a319a23cB021ba9ef" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">69,469</a>=C2=A0contracts on the Bitcoin ETF traded on the first day =
+of options trading. FTX Trading Ltd. raised a <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/25418633.268044/aHR0cHM6Ly93d3cucHJuZXdzd2lyZS5=
+jb20vbmV3cy1yZWxlYXNlcy9mdHgtdHJhZGluZy1sdGQtY2xvc2VzLTQyMC1taWxsaW9uLXNlcm=
+llcy1iLTEtZnVuZGluZy1yb3VuZC0zMDE0MDU0NzMuaHRtbA/607f07ceef4b8524a319a23cB9=
+95c2740" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">$420,690,000 Series B-1</a>.</p><p style=3D"margin: 16px 0=
+;"><span class=3D"news-designed-for-consumer-media"><em>If you'd like to ge=
+t=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, plea=
+se=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.2=
+68044/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZ=
+XlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f0=
+7ceef4b8524a319a23cB19a4bd64" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">subscribe=
+ at this link</a>. Or you can subscribe to Money Stuff and other great Bloo=
+mberg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+25418633.268044/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07=
+ceef4b8524a319a23cB5c96ee79" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16p=
+x 0;"><em>[1]=C2=A0From selling the stock that he owns, or from issuing new=
+ stock from the company, putting the proceeds into the corporate treasury, =
+and then paying himself a huge consulting fee or whatever.</em></p><p style=
+=3D"margin: 16px 0;"><em>[2] Again there is no financial information availa=
+ble yet so I do not know the components of that $875 million stated enterpr=
+ise value at $10 per share, but assuming that enterprise value here equals =
+equity value then at $19.38 per share it=E2=80=99s worth about $1.7 billion=
+.</em></p><p style=3D"margin: 16px 0;"><em>[3] If you think Trump Thing is =
+worth, you know, $8, or $0, you also are not going to withdraw your cash an=
+d get your $10 back: You=E2=80=99re going to sell your stock to someone els=
+e for $19.38. I suppose if you think it is worth $8, or $0, you might *shor=
+t* the stock to drive down the price. No you wouldn=E2=80=99t, come on, hav=
+e you learned nothing from GameStop?</em></p><p style=3D"margin: 16px 0;"><=
+em>[4] To be clear, he *is* apparently interested in pumping Dogecoin just =
+to troll people. I just=C2=A0highly doubt that he=E2=80=99s doing it for pr=
+ofit.</em></p><p style=3D"margin: 16px 0;"><em>[5] In options terms, if you=
+ buy it you profit from Trump vega and you lose money from Trump theta. As =
+with an option, a bet on the volatility of an=C2=A0elderly human being has,=
+ uh, an expiration. What do you think Trump Thing would be worth without Tr=
+ump?</em></p><p style=3D"margin: 16px 0;"><em>[6] In a fixed-price converti=
+ble, the bondholder will only convert when the stock price goes *up*. That=
+=E2=80=99s good. In a floating-price convertible, the bondholder might conv=
+ert when the price is *down*, which means that the borrower might have to i=
+ssue an infinite amount of stock. Like: Your stock is at $10, you issue $1,=
+000 of convertible debt convertible into $1,000 of stock at a floating pric=
+e. You figure the debt will convert into about 100 shares. Then your stock =
+falls to $5.=C2=A0Now the convertible holder converts $100 worth of its deb=
+t and gets back 20 shares, which it sells, flooding the market and driving =
+down the stock to $2. Now the convertible holder converts $100 more and get=
+s back 50 shares, which it sells, driving the stock down to $0.50. Now it c=
+onverts $100 more and gets back 200 shares, which it sells, etc. Eventually=
+ you have issued like 99% of your total stock to this convertible holder an=
+d your stock is at $0.01. =E2=80=9CDeath spiral.=E2=80=9D</em></p><p style=
+=3D"margin: 16px 0;"><em>[7] I=E2=80=99m assuming it converts at the end of=
+ the five years and collects 2% interest along the way. Like, =3DRATE(5,2,-=
+100,200) =3D 16.42%.</em></p><p style=3D"margin: 16px 0;"><em>[8] Like, $1,=
+250 worth of stock times (1 - 20%) equals $1,000.</em></p><p style=3D"margi=
+n: 16px 0;"><em>[9] You know, if it converts into $1,000 of stock at some a=
+verage price, you can trade around that average a bit, etc.</em></p><p styl=
+e=3D"margin: 16px 0;"><em>[10] Technically this is not a case that was befo=
+re the New York state courts: It was in federal court, but under New York l=
+aw, and the federal appeals court (the Second Circuit) certified a question=
+ to the New York Court of Appeals (the highest New York court) asking it, i=
+n essence, =E2=80=9Cwhat *is* New York law here?=E2=80=9D Previously federa=
+l courts =E2=80=94=C2=A0including the district court in this case =E2=80=94=
+=C2=A0had more or less assumed that, under New York law, conversion rights =
+don=E2=80=99t count as interest, but no one had bothered to ask a New York =
+court.</em></p><p style=3D"margin: 16px 0;"><em>[11] That is, $35,000 / (1 =
+-=C2=A035%) =3D $53,846.15.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB4065c51d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB4ba942bb" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB7d468e88" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBedc14a3d" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTQxODYzMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2ODY2Nzcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cI56c851f5" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25418633&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25686677&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2541863=
+3.268044/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBa739932b" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25418633.268044/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCb1f1b433" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25418633.268044/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB4c91b4f2" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25418633.268044/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB5b26f5e5" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB3=
+d50f2dc" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25418633.268044/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB7=
+cf54895" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D254186=
+33&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25686677&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D254186=
+33&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25686677&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D254186=
+33&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25686677&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D254186=
+33&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25686677&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D254186=
+33&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25686677&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cf4t55.5qto/1bc72919.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_21652596_1841704695.1634835895357--
+

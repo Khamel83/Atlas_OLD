@@ -1,0 +1,55 @@
+# The Most Clutch Postseason Quarterback Of All Time Is Eli Manning FiveThirtyEight » Features | FiveThirtyEight
+
+**URL:** http://fivethirtyeight.com/features/the-most-clutch-postseason-quarterback-of-all-time-is-eli-manning/
+**Date:** 2015-01-12 19:17:05
+
+---
+
+# The Most Clutch Postseason Quarterback Of All Time Is Eli Manning
+
+Nate Silver, .Wp-Block-Co-Authors-Plus-Coauthors.Is-Layout-Flow, Class, Wp-Block-Co-Authors-Plus, Display Inline, .Wp-Block-Co-Authors-Plus-Avatar, Where Img, Height Auto Max-Width, Vertical-Align Bottom .Wp-Block-Co-Authors-Plus-Coauthors.Is-Layout-Flow .Wp-Block-Co-Authors-Plus-Avatar, Vertical-Align Middle .Wp-Block-Co-Authors-Plus-Avatar Is .Alignleft .Alignright • January 12, 2015 
+
+![The Most Clutch Postseason Quarterback Of All Time Is Eli Manning](https://fivethirtyeight.com/wp-content/uploads/2015/01/ap120205057348.jpg?w=712)
+
+Saturday’s AFC divisional playoff game featured a matchup between two quarterbacks with clutch reputations: the Baltimore Ravens’ Joe Flacco, who entered the game with a 10-4 lifetime postseason record, and the New England Patriots’ Tom Brady, whose first three playoff seasons all yielded Super Bowl championships. The Patriots got the better of the Ravens after a terrific game, but both quarterbacks played well, with Flacco tossing four touchdowns in a losing effort.  
+  
+A day later, the Denver Broncos’ Peyton Manning would produce just 4.6 yards per passing attempt against the Indianapolis Colts, lower than in any of his 16 regular-season starts. While Manning avoided an interception, he threw just one touchdown and Denver lost 24-13. The effort rekindled doubts about Manning’s postseason performance — as you’ll recall, Manning’s most recent postseason appearance did not exactly go well — along with questions about whether he’s past his prime (he’s 38).  
+  
+How you evaluate the postseason records of Manning, Brady and Flacco depends on how you define clutch performance. Is it performance relative to expectations that matters? Or is it performance in an absolute sense?  
+  
+Manning’s postseason record is pretty decent by one standard and pretty terrible by the other. His lifetime postseason record is now 11-13. It’s not easy to win playoff games, and Manning has had the misfortune to play in a fairly deep era for the AFC (one that has included Brady). Nonetheless, Manning’s record is a bit worse than you’d expect based on the performance of his teams during the regular season.  
+  
+In the chart below, I’ve tracked Manning’s postseason record as compared with expectation based on Elo ratings for his teams and his postseason opponents at the time the games were played. As an alternative measure — more about how this is calculated in a moment — I’ve charted how Manning’s teams would expect to do in those games if he had fallen into the Springfield Mystery Spot and a replacement-level quarterback had substituted for him.  
+  
+Manning’s teams have been favored, according to our Elo ratings, in 17 of his 24 postseason games. It’s often been a narrow advantage; viewed probabilistically, you’d set the over line at 13 or 14 wins. Manning has won 11. It’s not a totally disastrous record — Manning has won a Super Bowl, after all, and led his team to two others — but it’s on the lower end for great quarterbacks relative to the lofty expectations they establish.  
+  
+But what if those starts had instead been taken by backups like Jim Sorgi or Curtis Painter or Brock Osweiler (all of whom serve as functional examples of replacement-level quarterbacks)? We have the Broncos and the Colts as underdogs in all 24 of those hypothetical games. No doubt they’d have backed into a few wins despite their underdog status, but Manning’s teams project to an 8-16 record on a probabilistic basis without him. Peyton’s 11-13 record looks pretty good compared to that.  
+  
+We can run the same numbers for all quarterbacks who played in the postseason since the AFL-NFL merger in 1970. Specifically, I’ll look at the records for what I’ll call the principal quarterback, who is the one with the most passing attempts during the game (not necessarily the one who started it). A total of 180 players have served as principal postseason QBs by this definition.  
+  
+Below, I’ve listed the records for the top and bottom quarterbacks, along with those who have been active in this year’s playoffs or who have been a principal quarterback at least 10 times in the postseason. I’ve also listed each quarterback’s projected record based on Elo. Finally, I’ve listed the result of a set of 25,000 simulations of each quarterback’s postseason career where QBs were randomly assigned wins and losses based on the probabilities established by Elo. I counted up how often the simulated quarterback bettered the actual quarterback’s win total, giving half-credit to cases where they finished with the same record.  
+  
+By this measure, the most clutch postseason QB of all time is Manning — Eli Manning. His New York Giants have often been underdogs in the postseason and projected to a record of 4-7 or perhaps 5-6 in his 11 games. Instead, Eli Manning’s teams have gone 8-3. According to the simulations, there’s just a 1 percent chance of achieving such a strong record based on chance alone.  
+  
+This does not, incidentally, serve as evidence that Eli Manning or any other quarterback has some extra gear that kicks in during the postseason. Eli’s been awesome during the postseason, but with 180 QBs in the sample you’d expect to find a few fluky cases based on chance alone. This is also not to say that clutch quarterbacking doesn’t exist. As my colleague Benjamin Morris has repeatedly documented, some quarterbacks — including Peyton Manning — consistently manage the game better in clutch situations, such as during a fourth-quarter comeback drive. Indeed, clutchness is so intrinsic to quarterbacking that it’s hard to distinguish a clutch QB from a good QB. But that clutchness ought to show up in a QB’s regular-season stats and his team’s regular-season win-loss record and Elo rating. It’s not clear that some quarterbacks are clutch in the regular season but unclutch in the postseason.  
+  
+Peyton Manning, of course, is the closest thing to an exception. As compared with the record projected by Elo, his postseason record ranks 161st out of the 180 QBs in our sample. Among quarterbacks with at least 10 games in the database, only Warren Moon and Randall Cunningham rank lower.  
+  
+But this is a somewhat ridiculous list. The top five consists of one great quarterback, Joe Montana, along with two pretty good ones (Eli Manning and Flacco). It also has Trent Dilfer and Jeff Hostetler. Meanwhile, Brady ranks just 43rd by this measure. His postseason record is excellent — 18-8, not counting one game where he was hurt and replaced by Drew Bledsoe. But because the Patriots were favored in most of those games, he doesn’t get much credit for it. You’d have expected them to go about 17-9 based on Elo ratings.  
+  
+Here’s the problem: This way of thinking about quarterbacks forces them to compete against themselves. Sure, the Patriots have often been favored to win their postseason games. But a lot of that is because Brady is their quarterback. How might the Pats have expected to do with a replacement-level QB instead?  
+  
+They might not have been totally hopeless. Brady has usually had a little bit more talent surrounding him than Peyton Manning has. (Matt Cassel, who rates as somewhere between average and replacement-level, led New England to an 11-5 record when Brady was hurt in 2008.) Bill Belichick would probably have snuck them into the playoffs a few times. But they’d also have been playing good opponents. Our method projects them to a 12-14 or 13-13 postseason record rather than Brady’s 18-8.  
+  
+I calculate these estimates based on a quarterback’s adjusted net yards per attempt (ANY/A), a metric that accounts for yardage, attempts, touchdowns, interceptions and sacks — basically it’s a better version of the NFL’s passer rating. A replacement-level quarterback typically posts an ANY/A at about 80 percent of the league average, so a QB gets credit for any performance above and beyond that. I then translate this into points added or subtracted in the regular season and translate points into a team’s Elo rating to evaluate the impact the QB had on his team overall.  
+  
+It’s notoriously difficult, of course, to distinguish the performance of a quarterback from that of his teammates, but this method produces some reasonable-seeming results. This year’s Green Bay Packers project as a slightly below-average team with a replacement-level guy subbed in for Aaron Rodgers , for instance. Instead of having been 59 percent favorites in their Sunday game against the Cowboys, as they were based on Elo ratings, they’d have been roughly 2-to-1 underdogs.  
+  
+The principle is simply that the better the quarterback, the more his team would be harmed by removing him. In the case of Peyton Manning’s teams, I estimate that pulling Manning would hurt them by about a touchdown (7 points) per game. That’s enough to demote them to a projected 8-16 record in the 24 postseason games Manning has played.  
+  
+We can rerun the numbers for all 180 playoff quarterbacks, comparing each QB’s actual record against the simulated one achieved by replacement-level QBs against the same schedule. By this measure, Peyton Manning moves up to 28th on the postseason list; there’s only about a 10 percent chance that a replacement-level QB could have equalled or bettered his 11-13 record.  
+  
+Eli Manning remains No. 1 overall, but this time in a photo finish over Joe Montana and Kurt Warner. Flacco still rates highly, in fourth place. Brady moves up to No. 6, right behind John Elway. Brett Favre advances to 19th from 78th. While there’s still a Dilfer and a Hostetler here and there, it’s a much better list of quarterbacks.  
+  
+This shouldn’t be surprising: Before, we’d essentially been punishing great QBs for having been great during the regular season. Some have been even greater during the playoffs. Others have reverted to being a little closer to average. Peyton Manning falls into the latter group. His career postseason passer rating entering Sunday’s game was 89.2, less than his 97.5 rating during the regular season but still pretty good. But if the Colts and Broncos haven’t quite had the postseason records you’d hope for with Manning at the helm, they’ve been a heck of a lot better off than they would’ve been with Jim Sorgi. 
+

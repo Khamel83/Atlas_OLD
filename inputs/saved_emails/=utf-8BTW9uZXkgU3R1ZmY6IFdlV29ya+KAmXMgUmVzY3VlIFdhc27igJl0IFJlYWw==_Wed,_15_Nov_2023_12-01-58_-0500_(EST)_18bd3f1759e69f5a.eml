@@ -1,0 +1,2009 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:c484:0:b0:677:e251:6ddb with SMTP id u4csp93517qvi;
+        Wed, 15 Nov 2023 09:04:59 -0800 (PST)
+X-Received: by 2002:a5d:670a:0:b0:32f:7b99:2ed with SMTP id o10-20020a5d670a000000b0032f7b9902edmr10502826wru.22.1700067898644;
+        Wed, 15 Nov 2023 09:04:58 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1700067898; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=kDQ8sAgn5H2nt8nlXmtmJIAU3eXJgMdB5crobVqRLnSkmqNag38XaQb6veUFx6OvRC
+         3dq5hT6/VNzS4JLa4WHFrZ29gRk2NxHDNvkoyQwnxFETw/fQAH4JkaIc3Q9ba1U2Xj/E
+         VXg72RZwQ92BDxfjkIlp9WY99isRNNJuX7AaNzkRZ+8AEiw/WbW2I6vIQ3K9VWwLvu08
+         rAzDDmKrLJ5JVRSidQGiqzlEnh8Dp+dlWv+EnhfZ9dclB6vjqWEUfYlqzFqkLFqzki7O
+         uNIY3LcpZ6htVdPcRVJQL2DSqJ8wooX87iTU9ZJQVQam0UKLquRzf+FqiD0EsZq9ZgNS
+         mb8w==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=1dPFhrokyZ9UG1Wefe0rNhwdO5goGrflhR6yAtiOVm4=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=snTAUuPDjsGStMktCH+VPRkzlIR96aDxS249lYRoCXq7GRc+s+f1XjH2HresK7w47S
+         +EkV+Ap0Yk87K0cCV1M6byBiUt0QwE5lT5Gm9cSFQpVRsbes3VdNGgVAme2HPdDVd1Cg
+         DL09uQXM7gNyEUuw6sAcNaU6HOMzQsREF2avog4kdrRUDk7yylBAS7Fk57cM/QwHr957
+         1Bud8+FDVI/bzhr/ZLpLdeFRoDYxzdcBfEvm9aB61Vl9Gr767KISoQMmDGRHDM+WkUKy
+         m8Jo6sw0HkUXczsFuFy8vdm79EdErZ+YZi1YEeCiJtemkc2PNiNYqma0a31aU/xYaVBO
+         FHgQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LQPAH2vw;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id q10-20020adf9dca000000b0032fe1ef54a2sor2398131wre.0.2023.11.15.09.04.58
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 15 Nov 2023 09:04:58 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LQPAH2vw;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1700067898; x=1700672698;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=1dPFhrokyZ9UG1Wefe0rNhwdO5goGrflhR6yAtiOVm4=;
+        b=WmvogpalmqdutSMPgKaC2RM+FZBzeBHskuoZrEkd8YAIl5qtazc4AJDph6vGeoDhcp
+         Qqf3uypaA3LLxCHkzDQ26VUGU94F0Pi9w7xqII8X4iVSxL7McY6KbelQLBkoztmwYosw
+         YiWvpULnk635gqhGcDu0mjRb+TTQY3h3VQs236dIRWbhS9YfNSuP6KMMYvVNreOMRomQ
+         TNwOIxLs1svtuTaxtr8nVl+8Q+yQA23pdN0eQ4TA9uFdW7zVwoRiW4JQAbzUTZbX26rt
+         kytp7ifTpCdlDcBdC67JuJYDWCOrh/PE30syEJN8+DHyEmavM0/HhO/im5ztZZO32Mtn
+         taKw==
+X-Gm-Message-State: AOJu0YxIVuj0jEqOMhjLfwFf6ZlA1NODA35f5JcQ2//uB+dD4TaK82jQ
+	2PLcMUbkvXUcx1phyNPPFKABszOaGPDGsR7jgIEwrvLCPq0kAlkMNA==
+X-Received: by 2002:a05:6000:d:b0:32f:908e:c7e0 with SMTP id h13-20020a056000000d00b0032f908ec7e0mr8884998wrx.28.1700067898107;
+        Wed, 15 Nov 2023 09:04:58 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:6000:1c7:b0:32f:dd4c:ebf8 with SMTP id t7csp2673469wrx;
+        Wed, 15 Nov 2023 09:04:53 -0800 (PST)
+X-Received: by 2002:ad4:4311:0:b0:66d:2d80:800 with SMTP id c17-20020ad44311000000b0066d2d800800mr10490962qvs.7.1700067893396;
+        Wed, 15 Nov 2023 09:04:53 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1700067893; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=s5ecF1kCOpCL61mHUSyuuLVwiogk55322IyfLx8839S8n/PqwUQ2d1nUjCyw1PCbVL
+         DAvF+E4l0jPx7umMiwufjtuVE25aQiLimDTuXxbOL5JJE3nW0zjwahJI2TAsQdOjzPEy
+         lPV7TQKOnUM46n/WUHMOS+noo/gUpFkPASiUISCZM3xaX1bgcEF2fGOfuMLeYy7vK/uU
+         mFtb0YyxiEUT0CyP5LYVTxyolM5q6kWAwCjHTW852KUuiPrKUMsxT2XB3zDFNX6vOCAo
+         N0OTMv1+cqloeX+QDJyb076Zq8WYaqzlG++Nfc/kD1X+SN15mY19UYbH0gRklO2ueZKD
+         bc2A==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=1dPFhrokyZ9UG1Wefe0rNhwdO5goGrflhR6yAtiOVm4=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=jlB5dR1oDi1JFE5/PignWRH1KCpKs21gzewRD8/wnULxLHI6MPdssxvgAvyK/qRE/g
+         OnrWXCg/XfC5caA0xYpSMHAY6UF3aykufkc0akbVu+ScyUfvrbzb3Y5W0O/nRiMSBxpg
+         Tqaso/Mvgy32jXz9k5xPQbOENO0JzS/zK8v8rNPcTSulKqE4wEMPRpW9MgMpbJiQhdou
+         bfZzIddYfIMPh+y7y8TzUYebEKh1N6oeG75ltheUs4r71Rag8ewExjoK6QPfe/cOi/dE
+         Ka1IS6W6dK6BnYIcITO7aJRmoVIMxI+zwnf6597nqI2+yW8xSgvUAPAu53gq4kma9S6E
+         snjQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LQPAH2vw;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231115120158.33377885.258417@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231115120158.33377885.258417@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231115120158.33377885.258417@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id pz15-20020ad4550f000000b0065d0466bb83sor100804qvb.5.2023.11.15.09.04.53
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 15 Nov 2023 09:04:53 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20231115120158.33377885.258417@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IFHvud5ldzmpdflbmbZTQwBuev7qzLfmDz43a+XmOVbTLCvPHIoo/fsz6vQ6vM4qHHA3kpBMFEikLrMh/cGCmUnhrJsnXk=
+X-Received: by 2002:a0c:bf49:0:b0:66d:327:bf8f with SMTP id b9-20020a0cbf49000000b0066d0327bf8fmr8058515qvj.30.1700067892982;
+        Wed, 15 Nov 2023 09:04:52 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1700067892; cv=none;
+        d=google.com; s=arc-20160816;
+        b=hy0+eEeeGLW6e+Gbtp6BhYAkPgCHbo3F45QufgHC3CNXFoTAYZ8YlwQCHQ6J5o8Ckz
+         EI0/r77R1dxpaC8iSOjEaYO5D6fyZut1jh9LchCCzTTXGbm5Z/f1xpPwEjOMyHpiMVjV
+         9B2xdzhKboLP//wS4pagXSa1t3JVyJPTLOGksBcJTCRUI9QejDQ5jjaNn4kcsCxk+QMN
+         oNV/mTYHqefo7o1FW16Fd0WdQzQMi0P3fU6T+B91ju5acv2NLSs+CGvSdgQl1MG4ddoI
+         Q7k9Cqu14dnEcLqMyDxxv1yvj31eI+jXfB1iMiTvXpj4RUszvjC+XHkNCgg6CAHS+Gvt
+         WMtw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=1dPFhrokyZ9UG1Wefe0rNhwdO5goGrflhR6yAtiOVm4=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=ovnaZnp2jxc5oKwPWo+oeHVbgrVHaNYqEaYeuS6v4fqq95nU1REjh1+GE4TTPf92nE
+         pPwjIQzDlbAt6xBeeCzT1cRo8RiL62gUKSrzbHXbfiuVIbB9nh38IeXoM5HYKLY09pFj
+         ff/dFWRD9VLRfN7fZ6fd4OsGONt49z+07+bK1fGMdGnl2pHs+E7Y9t7z6/LEuWElc3qk
+         cJuCdlMWAogcov6xC//cWNyUG9HlTX2MxRp4pmnPj/h4Rur+SYIKPlcQTXhpqcTRZSUA
+         b6ddHI0JsBQuPR8kN1GIkXuAWtZnW7GrL8vNwNJ9kwISA5X2fKL3RLvztoSkMOJddW3b
+         nuEA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LQPAH2vw;
+       spf=pass (google.com: domain of delivery_20231115120158.33377885.258417@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20231115120158.33377885.258417@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231115120158.33377885.258417@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id f20-20020a05620a15b400b007776e0097cdsi764063qkk.0.2023.11.15.09.04.52
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 15 Nov 2023 09:04:52 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20231115120158.33377885.258417@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=enSry/St5tLxjHuQA1/qCYcKjX6H6f/GhEvU4IzUjRU=;
+ b=LQPAH2vwfry18cte4UVdMmOuTgKO/AyOM3teuf1jeQ19zJbpcSAMFYMNDAHbleqIHWBLWIOMtH3X
+   uHl1pl0P6GbBgF78GCNr59S+ZgqNbeCiRXgT0bNg4lehFScL0OiQ9FI742NO22TWUlCNlb9x/fp+
+   HMO4hamJXcZZj5FTkf0=
+Received: from aws1-mta-relay1.sailthru.cloud (10.55.90.180) by bloomberg-b.sailthru.com id hajt3830nu8s for <bloomberg@khamel.com>; Wed, 15 Nov 2023 11:04:45 -0600 (envelope-from <delivery_20231115120158.33377885.258417@mx.sailthru.com>)
+Date: Wed, 15 Nov 2023 12:01:58 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231115120158.33377885.258417@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IFdlV29ya+KAmXMgUmVzY3VlIFdhc27igJl0IFJlYWw=?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_69556261_1347004614.1700067718103"
+Precedence: bulk
+x-job: 6358-33377885-20231115
+X-Feedback-ID: 6358:33377885:campaign:sailthru
+X-TM-ID: 20231115120158.33377885.258417
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-67-241.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjvejh.5je9/b91164b4
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjvejh.5je9/b91164b4>, <mailto:unsubscribe_20231115120158.33377885.258417@mx.sailthru.com>
+X-rpcampaign: stjko33377885
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_69556261_1347004614.1700067718103
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        One way to acquire a public company is, you put out a press release=
+ saying =E2=80=9CI am making a public offer to buy all the shares of this c=
+ompany
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Cole Capital
+   =20
+ =20
+
+One way to acquire a public company is, you put out a press release saying =
+=E2=80=9CI am making a public offer to buy all the shares of this company,=
+=E2=80=9D and that press release starts a complex process in which the comp=
+any=E2=80=99s board feels compelled to negotiate a deal with you, or if the=
+y don=E2=80=99t then you follow through on the press release and launch a h=
+ostile tender offer for the shares. The press release is a key moment in th=
+e campaign, the point where you go public, but it is preceded by lots of pr=
+eparation and followed by lots of tactical maneuvering. The acquisition of =
+a public company is difficult and complex and typically requires many hours=
+ of work from hundreds of people to get everything done.
+The press release is easy, though? You can just type it? Business Wire seem=
+s to  charge several hundred dollars for disseminating a press release, so =
+it=E2=80=99s not=C2=A0free, but if you pay Business Wire=E2=80=99s fees=C2=
+=A0it=E2=80=99ll be picked up pretty broadly and everyone will think that y=
+ou are launching your effort to buy the company. And so if you want to=C2=
+=A0pretend=C2=A0to acquire a public company, you can just do the press rele=
+ase and not all the other parts.
+Why would you want to pretend to acquire a public company? The standard rea=
+son is market manipulation:
+=09You buy some stock in the company at a low price.=09You put out a press =
+release saying =E2=80=9CFake Capital Management LP is buying this company a=
+t a 90% premium.=E2=80=9D=09People and/or algorithms read the press release=
+ and buy the stock to speculate on the takeover.=09You sell the stock at a =
+high price.
+
+We talk about this from  time to  time. I do not think it=E2=80=99s the=C2=
+=A0only=C2=A0reason, though.
+  [1]
+=C2=A0My impression is that there are people who just=C2=A0enjoy pretending=
+ to buy public companies, as a sort of live-action fantasy business game.=
+=C2=A0Elon Musk, for instance, occasionally  pretends that he is going to b=
+uy public companies, without ever profiting from the price action: It is ju=
+st a fun game for him,  like Polytopia, except=C2=A0business conquest inste=
+ad of military conquest. It is=C2=A0incredibly=C2=A0expensive: When he pret=
+ended he was going to buy out Tesla Inc., he was fined $20 million by the U=
+S Securities and Exchange Commission; when he pretended he was going to buy=
+ Twitter Inc., he was=C2=A0forced to buy it=C2=A0for $44 billion. It is pos=
+sible that nobody in human history has ever spent more money on a hobby tha=
+n Elon Musk has spent on his hobby of pretending to buy public companies. H=
+e must really enjoy it!
+I find this very relatable.=C2=A0I remember reading Barbarians at the Gate=
+=C2=A0and thinking =E2=80=9Cthis just seems =E2=80=A6=C2=A0fun?=E2=80=9D an=
+d then, later, becoming a mergers-and-acquisitions lawyer and then an inves=
+tment banker. That is one rather unimaginative=C2=A0approach. Another appro=
+ach would be reading Barbarians at the=C2=A0Gate, thinking it seemed fun, a=
+nd then becoming a guy who puts out fake merger press releases.
+Anyway, a little after 5 p.m. on Friday, Nov. 3, when WeWork Inc. was slidi=
+ng into bankruptcy but not quite bankrupt yet (it filed on Monday, Nov. 6),=
+ a very fun press release came out on Business Wire.
+  [2]
+=C2=A0A sample:
+
+A Proposal by Cole Capital Funds Seeks to Acquire 51% of all minority owner=
+ship shares of WeWork, Inc. for $9.00 per share in Cash
+Cole Capital Funds sent the following letter to the Board of Directors of W=
+eWork, Inc.
+We believe that it is in the best interest of WeWork to support our acquisi=
+tion of 51% of all the outstanding shares owned by minority shareholders at=
+ a price of $9.00 per share and provide Cole with proper representation on =
+the company board.
+We have consulted with God, legal, financial and other advisors to assist u=
+s with this transaction. We stand ready to proceed timely.
+
+See, when I was an M&A lawyer, I wrote a lot of press releases that were a =
+bit like this, but in exactly none of them=C2=A0did I write =E2=80=9CWe hav=
+e consulted with God.=E2=80=9D Not standard in high-stakes public-company M=
+&A. But in fantasy M&A, you can consult with whomever you want! Have fun! T=
+hat=E2=80=99s why you=E2=80=99re doing it, for fun!
+But  Bloomberg=E2=80=99s Patrick Clark reports:
+
+A real estate investor facing scrutiny from lenders and investors is now th=
+e subject of a government inquiry into an offer to buy shares in WeWork Inc=
+.
+The US Securities and Exchange Commission has sent inquiries to Jonathan La=
+rmore, the founder of Arciterra Cos., about a Nov. 3 press release in which=
+ an entity called Cole Capital Funds said it was seeking to buy shares in t=
+he coworking company at a significant premium, according to a person famili=
+ar with the matter who asked not to be named citing private information. Th=
+e inquiry includes Larmore=E2=80=99s trading history in WeWork stock and op=
+tions, the person said.=C2=A0
+A company filing links Larmore to Cole Capital Funds, which was registered =
+in October with the Arizona Corporation Commission. The real estate investo=
+r was already facing an SEC inquiry about Arciterra, which had owned as man=
+y as 80 properties including strip malls, people familiar with the matter s=
+aid.
+In an interview, Larmore said that he planned to make all of the required f=
+ilings related to his purchase of WeWork shares and that he couldn=E2=80=99=
+t comment further on the matter until he had done so. ...
+After the release was issued following the close of markets, the stock rose=
+ briefly.
+
+So, right, they are=C2=A0asking=C2=A0about his WeWork trading, and the pres=
+s release does seem to have moved the stock. On the other hand I don=E2=80=
+=99t know the=C2=A0answers=C2=A0about his trading, and if you were going to=
+ do this to pump the stock, why do it after the market closed on a Friday? =
+Bloomberg tells me that WeWork stock closed at $0.8355 that Friday and, uh,=
+=C2=A0reopened the following Wednesday, after the bankruptcy filing.
+  [3]
+=C2=A0If you want to manipulate the stock and make a profit, do your press =
+release at like 9:31 a.m. on a Monday, so you can trade on it for a bit.
+  [4]
+
+Anyway I hope he didn=E2=80=99t buy much WeWork stock at $9 per share, as h=
+e offered to. That company went bankrupt!
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      XRP ETF
+   =20
+ =20
+
+Similarly, if you want to set up an exchange-traded fund that will offer re=
+tail investors an easy way to invest in some cryptocurrency, there are many=
+ steps, but one of them =E2=80=94=C2=A0one of the first=C2=A0public=C2=A0st=
+eps =E2=80=94=C2=A0is to file paperwork with the Delaware Department of Sta=
+te to set up the trust for the ETF. If you want to pretend to set up a cryp=
+to ETF, you can just do that =E2=80=94=C2=A0again, you probably pay about a=
+ three-digit filing fee =E2=80=94=C2=A0and not do the rest.
+If you file for =E2=80=9CMatt=E2=80=99s Ripple ETF Trust,=E2=80=9D no one w=
+ill care, though. Pretending that you will set up a crypto ETF is worthless=
+. The move is to pretend that=C2=A0BlackRock=C2=A0will set up a crypto ETF.=
+ Bloomberg=E2=80=99s  Vildana Hajric reports:
+
+A filing for a BlackRock Inc. fund based on the cryptocurrency XRP showed u=
+p on the official Delaware website that registers investment trusts incorpo=
+rated in the state, triggering a brief rally in the token. The only problem=
+ is that BlackRock wasn=E2=80=99t the one who submitted it.
+The Delaware Department of State=E2=80=99s Division of Corporations website=
+ =E2=80=94 which lists some other trusts the asset manager has applied for =
+previously =E2=80=94 showed details for something called the =E2=80=9CiShar=
+es XRP Trust=E2=80=9D registered to BlackRock on Monday. A spokesperson for=
+ the asset manager, however, confirmed that it=E2=80=99s false.
+XRP briefly spiked almost 13% as news about the fake filing made its rounds=
+ on X, the social-media platform formerly known as Twitter. It gave back th=
+ose gains to trade lower on the day. The token is one of the largest crypto=
+currencies =E2=80=94 ranking fifth on the CoinGecko website =E2=80=94 thoug=
+h it=E2=80=99s lesser known than Bitcoin and Ether.
+
+Why would you want to pretend that BlackRock is setting up an XRP ETF? I su=
+ppose there is some outside possibility of =E2=80=9Cyou enjoy trolling peop=
+le on Twitter and are willing to pay a bit of money to do that.=E2=80=9D Bu=
+t realistically it=E2=80=99s market manipulation.
+
+ =20
+   =20
+      BTIG vs. StoneX
+   =20
+ =20
+
+The problem is that, if you are stealing trade secrets from your security-c=
+onscious financial services employer, you will either do it carelessly, or =
+you will do it cleverly and secretly. If you do it carelessly, your securit=
+y-conscious financial services employer will probably catch you. If you do =
+it cleverly and secretly, with subtle tradecraft that evades your employer=
+=E2=80=99s detection systems, you will be proud of yourself. =E2=80=9CLook =
+at me,=E2=80=9D you will think, =E2=80=9CI am basically James Bond.=E2=80=
+=9D You will smile, satisfied in the knowledge that you=E2=80=99d be an exc=
+ellent spy. For like two minutes. Then that knowledge will not be satisfyin=
+g enough without telling someone. You will text your friends, accomplices, =
+whoever, to be like =E2=80=9Clook at me, I am basically James Bond, please =
+admire my tradecraft.=E2=80=9D Eventually you will tell enough people about=
+ your brilliant tradecraft that it will get back to your security-conscious=
+ financial services employer and you will get in trouble.
+I suppose that is not=C2=A0always=C2=A0true. Maybe some financial services =
+employees are basically James Bond. But quite a few of them seem to like be=
+ing spies, but only if they can tell everyone. Bloomberg=E2=80=99s=C2=A0Zek=
+e Faux and Robert Burnson report:
+
+Brokerage firm BTIG LLC accused StoneX Group Inc., a rival brokerage and in=
+vestment bank, of stealing its proprietary software code in what its lawyer=
+s describe as =E2=80=9Cone of the greatest financial-industry trade secret =
+frauds in recent history.=E2=80=9D
+BTIG made the claim in a lawsuit filed late Monday in California state cour=
+t and seeks at least $200 million in damages.
+BTIG is an investment bank and trading firm, with expertise in trading stoc=
+ks for institutional clients, including foreign stocks and exchange-traded =
+funds. In 2020, according to the lawsuit, StoneX set out to build its own e=
+quities market-making business. But to do so, the firm recruited several ke=
+y BTIG traders and software developers.
+Some of them stole BTIG=E2=80=99s proprietary computer code and took it wit=
+h them to StoneX, according to the suit. BTIG accused its rival of lying ab=
+out the misconduct even when confronted with evidence.
+
+Here is  the complaint, which is really everything you could hope for in a =
+case like this. (Several pages are entirely blacked out by redactions, for =
+instance.) One BTIG engineer,=C2=A0Evan Pfeuffer, allegedly did some pretty=
+ good tradecraft to extract code secretly:
+Based on a subsequent forensic review, Pfeuffer logged onto BTIG servers to=
+ collect and remove key code. Because BTIG=E2=80=99s servers had sophistica=
+ted defenses against exfiltration of code, Pfeuffer resorted to extraordina=
+ry measures. Pfeuffer took large swathes of code and other proprietary info=
+rmation and encrypted them using NSA-level encryption techniques, rendering=
+ the payload a meaningless string of gobbledygook to anyone without the enc=
+ryption key. Pfeuffer then appended the encrypted code to pdf versions of g=
+eneric documents that were downloaded from the internet; anyone looking at =
+the files would see a generic PDF document that when opened presented itsel=
+f as normal, but in fact had code and other information secretly appended i=
+nside. Pfeuffer then used BTIG=E2=80=99s automated email server for sending=
+ client reports to email the PDFs =E2=80=93 with the encrypted code appende=
+d =E2=80=93 to himself, and then he took the code through various means out=
+side BTIG. Once outside BTIG, Pfeuffer could take out the encrypted code, d=
+ecrypt it, transfer it to StoneX and then use it at StoneX.
+Sure, terrific.
+  [5]
+=C2=A0But he was also texting with a StoneX engineer and couldn=E2=80=99t r=
+esist describing this scheme with a combination of accurate technical detai=
+ls and pop-culture quotes:
+
+Text messages between Pfeuffer and the StoneX software engineer confirm the=
+ scheme. On February 8, 2021 =E2=80=93 days after Pfeuffer resigned from BT=
+IG =E2=80=93 the StoneX engineer asked Pfeuffer, =E2=80=9Cdidn=E2=80=99t yo=
+u append pdf for your stuff,=E2=80=9D to which Pfeuffer responded =E2=80=9C=
+Ah didn=E2=80=99t realize what u were taking (sic) about, yeah, hidden encr=
+ypted payload appended to pdf. I=E2=80=99ve got mine prepared going to test=
+ tomorrow, keep it secret, keep it safe. Like the ring.=E2=80=9D
+  [6]
+
+Two days later, Pfeuffer texted the StoneX engineer, =E2=80=9CThe eagle has=
+ landed, code extracted.=E2=80=9D
+
+If you find yourself saying =E2=80=9Ckeep it secret, keep it safe,=E2=80=9D=
+ about the encrypted trade secrets that you laboriously smuggled out of you=
+r security-conscious employer, in a text message, something has gone wrong.
+A lot of what is going on here is=C2=A0sort of a standard poaching dispute:=
+ A BTIG employee left for StoneX to build a competing business, he naturall=
+y brought over some of his BTIG friends, and so there are arguable violatio=
+ns of their various non-compete and non-solicitation clauses. Also whenever=
+ this happens the jilted employer can say =E2=80=9Cand you brought your kno=
+wledge of our trade secrets and computer code with you,=E2=80=9D and often =
+that is true but hard to prove. And sometimes the jilted employer can say =
+=E2=80=9Calso you brought over this specific repository of code with you,=
+=E2=80=9D and=C2=A0can=C2=A0prove it =E2=80=94=C2=A0by pointing to the docu=
+ments they emailed to themselves, etc. =E2=80=94=C2=A0and then it has a mor=
+e compelling case, though even there the other side can argue things like =
+=E2=80=9Cit is not actually rocket science to build a computer program to q=
+uote equities, and what these guys took was not really a valuable trade sec=
+ret,=E2=80=9D or =E2=80=9Cmaybe they emailed this stuff to themselves but t=
+hey did not actually use it in our systems, which are totally different and=
+ much better.=E2=80=9D
+One other thing that is happening here is that, if you are a firm that argu=
+ably poaches employees=C2=A0and intellectual property from other firms, tha=
+t gives=C2=A0your employees some leverage against you. How did BTIG find ou=
+t all this stuff about what StoneX was doing? Some of it is from its own mo=
+nitoring of its email systems, PDF exfiltration, etc. But some of it is fro=
+m a disgruntled StoneX employee:
+
+In January 2023, in connection with a lawsuit between StoneX and one of its=
+ former employees, a StoneX engineer who worked with both Bhaduri and Pfeuf=
+fer to develop software code for StoneX revealed a scheme by the Disloyal E=
+mployees and StoneX to incorporate BTIG=E2=80=99s=C2=A0proprietary code int=
+o StoneX=E2=80=99s quantitative trading platform that, in the year and a ha=
+lf since it had been implemented, had generated =E2=80=9Cmillions of dollar=
+s using BTIG=E2=80=99s trade secrets.=E2=80=9D
+Specifically, the whistleblower explained that Pfeuffer incorporated BTIG=
+=E2=80=99s proprietary code into StoneX=E2=80=99s =E2=80=9CTampa=E2=80=9D s=
+oftware code, a critical component of StoneX=E2=80=99s marketmaking applica=
+tions system. The software engineer further explained that he =E2=80=9Cdisc=
+overed numerous references to BTIG in the Tampa code itself . . . and had d=
+iscovered a reference to [BTIG=E2=80=99s Managing Director of Technology] i=
+n StoneX=E2=80=99s Tampa code.=E2=80=9D It alleges that, according to elect=
+ronic log records, Pfeuffer checked BTIG=E2=80=99s source code into StoneX=
+=E2=80=99s system and incorporated it into StoneX=E2=80=99s code.
+
+One possibility is=C2=A0that if you are a BTIG engineer and you have techno=
+logy that StoneX wants, the way to monetize that is to take a job at StoneX=
+ and smuggle code out appended to PDFs. And if you are a StoneX engineer an=
+d you have technology that BTIG provided, the way to monetize that is to go=
+ to BTIG and say =E2=80=9Chey I know something interesting, what might=C2=
+=A0it be=C2=A0worth to you.=E2=80=9D
+
+ =20
+   =20
+      Tether vs. USDC
+   =20
+ =20
+
+A stablecoin is a way to hold US dollars (or euros, etc.) in a way that is =
+convenient for crypto. You buy cryptocurrencies on some crypto blockchain a=
+nd hold them in some crypto wallet; a stablecoin is a cryptocurrency on a c=
+rypto blockchain in a crypto wallet, but it is worth a dollar.
+People want this=C2=A0for two main reasons. One is that if you trade a lot =
+of crypto, you will sometimes close positions =E2=80=94=C2=A0you will buy s=
+ome crypto and then, later, sell it =E2=80=94=C2=A0and the natural way to c=
+lose a position is into dollars. You measure your profits and losses in dol=
+lars, you pay your rent in dollars, so you effectively trade between crypto=
+ and dollars. And if you are doing a lot of that, you will find that holdin=
+g dollars in the form of stablecoins is more convenient and efficient than =
+holding dollars in the form of a bank account (or money-market fund, or pil=
+e of $20 bills). Your stablecoin-dollars live on the blockchain and are ins=
+tantly transferable for crypto within the crypto system; your regular dolla=
+rs live in a bank that might be slow or fussy about transferring them to a =
+crypto exchange. The stablecoin is a way to keep all of your trading  withi=
+n the crypto system, but without always being exposed to crypto prices.
+The other, almost unrelated reason is that there are people who find the cr=
+ypto financial system more accessible than the regular US dollar financial =
+system. People in countries with fragile banking systems, people in countri=
+es with high inflation, but also various kinds of criminals,=C2=A0all might=
+ say =E2=80=9CI would rather keep my money in crypto than in a bank.=E2=80=
+=9D These people are not trying to trade frequently or speculate on crypto;=
+ they just want to hold their money somewhere safe, and for whatever reason=
+ that is not, for them, a bank.=C2=A0But cryptocurrencies are volatile, whi=
+le US dollar-linked stablecoins mostly aren=E2=80=99t. So =E2=80=9CI would =
+rather keep my money in crypto than in a bank, but in dollars=E2=80=9D is a=
+ reasonable thing for these people to think.
+Another important thing about stablecoins is that they mostly don=E2=80=99t=
+ pay interest. The main mechanism of a stablecoin is that you deposit dolla=
+rs with a stablecoin issuer, they give you back a stablecoin (a token on th=
+e blockchain), and=C2=A0they=C2=A0put the dollar into a bank account (or Tr=
+easury bills, or Chinese real estate commercial paper, or whatever). And th=
+ey keep the interest and you don=E2=80=99t. In a world of zero interest rat=
+es that was fine. In a world of 5% short-term interest rates it makes being=
+ a stablecoin issuer insanely lucrative. But also the customers notice.
+If you could wave a magic wand and make crypto=C2=A0totally mainstream, wha=
+t would that do to the demand for stablecoins? I don=E2=80=99t know, but my=
+ intuition is:
+=09The people who use stablecoins for trading crypto would stop doing that.=
+ Their banks and brokerages would be happy to send money to crypto exchange=
+s, the rails for converting dollars into crypto would be fast and highly fu=
+nctional, and it would be equally convenient, for a crypto trader, to hold =
+dollars in a bank or in a stablecoin. But the bank pays interest and the st=
+ablecoin does not.
+  [7]
+
+=09The people who use stablecoins because they are unbanked would still ver=
+y much want to do that. Embracing crypto within the regular US financial sy=
+stem would not help them. Perhaps it would hurt them; I don=E2=80=99t know =
+exactly what it means for crypto to be =E2=80=9Ctotally mainstream,=E2=80=
+=9D but if it meant that all of crypto was run out of big regulated financi=
+al institutions then people who are unbanked now would be un-crypto-banked =
+in that world. But if they could still get 0%-yielding stablecoins, but not=
+ bank accounts, they=E2=80=99d still want that.
+
+Two big stablecoin issuers are Circle (whose token is USDC) and Tether (who=
+se token is often called Tether, or else USDT). Circle is a US company that=
+ is sort of a bet on crypto being mainstream and regulated and respectable.=
+ Tether is exactly the opposite of that. Circle  keeps its dollars at US ba=
+nks; Tether keeps them in a mystery (but  it says mostly in US Treasury bil=
+ls).
+Yesterday Bloomberg=E2=80=99s=C2=A0Olga Kharif, Sidhartha Shukla=C2=A0and E=
+mily Nicolle reported on Circle=E2=80=99s problems, of which the main one m=
+ight be that it is too mainstream and, thus, too easily substitutable with =
+bank accounts
+  [8]
+:
+
+Circle=E2=80=99s main product, the crypto stablecoin USDC, is losing ground=
+ to chief competitor Tether=E2=80=99s namesake token, eroding its importanc=
+e in digital-asset markets. ...
+Circle is based in Boston and Tether is registered in the British Virgin Is=
+lands. USDC is widely used in the US through exchanges like Coinbase Global=
+ Inc., which owns a minority stake in Circle. As yields on US Treasuries so=
+ared toward 5%, many USDC holders swapped it for dollars to take advantage =
+of those high returns, said Kyle Samani, co-founder of crypto investor Mult=
+icoin Capital.
+=E2=80=9CMost people who have access to USDC have access to US dollar bank =
+accounts, so they naturally convert USDC to USD to accrue that yield,=E2=80=
+=9D Samani said. =E2=80=9CHowever, most people who are holding USDT do not =
+have access to USD bank accounts, so they don=E2=80=99t care about the fore=
+gone yield.=E2=80=9D
+
+If you can easily move between banks and stablecoins, and banks pay 5% inte=
+rest, you=E2=80=99ll move to a bank. If you can=E2=80=99t do that, then Tet=
+her gets to keep the interest.
+
+ =20
+   =20
+      Mortgage MTM
+   =20
+ =20
+
+Apparently a lot of the readers of this column are Danish? Or I suppose my =
+readers are just very up on international mortgage market structure. Anyway=
+ I  wrote yesterday about the fact that US homeowners have something like $=
+1 trillion of mark-to-market gains on their mortgages, but that you can=E2=
+=80=99t do anything about it. =E2=80=9CReally,=E2=80=9D I wrote, =E2=80=9Ct=
+he tempting product is:=E2=80=9D
+You have a $500,000 mortgage that is now worth $287,000.You go to your bank=
+ and say =E2=80=9CI=E2=80=99ll give you $300,000 for it.=E2=80=9DThe bank i=
+s like =E2=80=9Cfine okay that works.=E2=80=9D
+But, I said, you can=E2=80=99t do that: For one thing, your bank probably s=
+old your mortgage; for another thing, this trade would crystallize a big lo=
+ss for the mortgage owner that it might not yet have booked; for a third th=
+ing, US 30-year mortgages don=E2=80=99t=C2=A0really=C2=A0last 30 years, so =
+no bank would be willing to accept the discounted value of the mortgage cas=
+h flows over 30 years.=C2=A0
+Quite a lot of readers pointed out that, in Denmark, you really can do this=
+. Here=E2=80=99s  a New York Fed report, and here is a=C2=A0Carsted=C2=A0Ro=
+senberg  client briefing:
+
+Borrowers may redeem their mortgage loans at any time without negotiating t=
+he price, as prepayment may always take place at the prevailing market pric=
+es. Danish mortgage borrowers may terminate their loans by buying back the =
+mortgage bonds in the bond market and delivering them to the mortgage bank.=
+ This option is referred to as the delivery option or the buy-back option. =
+The buy-back option applies to all mortgage bonds whether callable or non-c=
+allable.
+=E2=80=8BThe buy-back option is a special feature of the Danish mortgage fi=
+nance system, and borrowers therefore always know the ISIN code(s) of the b=
+onds behind their mortgage loans. The buy-back option constitutes a signifi=
+cant difference between the US and the Danish mortgage finance system. The =
+US system only allows mortgage loan prepayment at par (100).
+
+Well that=E2=80=99s nice. Obviously if you translated this to the US system=
+, and you had a 3% mortgage and rates are now 8%, you=E2=80=99d be buying b=
+ack your mortgage at some market price that is lower than par=C2=A0but high=
+er than the value of your mortgage cash flows over 30 years discounted at 8=
+%, because the US mortgage market assumes that 30-year mortgages have an av=
+erage life that is much shorter than that. Still! You=E2=80=99d get a big d=
+iscount.
+Several other readers emailed me to say some variation on =E2=80=9CI tried =
+this on my bank but it did not work.=E2=80=9D Move to Denmark I guess.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Schonfeld Ends Millennium Partnership Talks, Secures Billions Elsewhere. UB=
+S Warns  IT Migration is Biggest Risk in Credit Suisse Fusion. How  Real-Es=
+tate Brokers Are Reacting to the Historic Commission Verdict. US Federal Pe=
+nsion Fund to  Exclude Hong Kong Investments.=C2=A0FTX Sues Crypto Exchange=
+ Bybit to Recover $953 Million in Cash and Assets. Wall Street Is Tapping  =
+Women, Minority-Owned Banks For Billion-Dollar Bond Deals.=C2=A0 FDIC Chair=
+ =E2=80=98Deeply Troubled=E2=80=99 by Workplace Misconduct Claims.=C2=A0Jan=
+et Yellen=E2=80=99s  In-N-Out order revealed.=C2=A0Hidden Demon Uncovered i=
+n 18th-Century Painting.=C2=A0
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] I still have  absolutely no idea what was going on with Esmark Inc.=
+=E2=80=99s proposal to buy U.S. Steel Corp., which was *written* like a jok=
+e press release and  eventually withdrawn. I don=E2=80=99t think it was man=
+ipulation, though.
+
+
+  [2] It appears to have been  deleted by Business Wire, but press releases=
+ get picked up lots of places, and it is preserved on, e.g.,  Benzinga and =
+ Morningstar.
+
+
+  [3] It reopened *up*, but that=E2=80=99s probably not due to the press re=
+lease, which was long deleted by then. In general these days stocks go up w=
+hen they file for bankruptcy, it=E2=80=99s a thing.
+
+
+  [4] Extremely not any sort of advice at all.
+
+
+  [5] A quibble: Does =E2=80=9CNSA-level encryption techniques=E2=80=9D mea=
+n, like, standard publicly available encryption algorithms?
+
+
+  [6] The =E2=80=9CKeep it secret, keep it safe=E2=80=9D  quote is garbled =
+a bit in the complaint by stray punctuation (which I have cleaned up), pres=
+umably because he texted too fast.
+
+
+  [7] I am eliding the details of what it means for crypto to be =E2=80=9Ct=
+otally mainstream.=E2=80=9D Maybe it means that all dollars are on the bloc=
+kchain, banks issue stablecoins, the Fed issues central bank digital curren=
+cies, etc. The point here is that I think in any variation of that world yo=
+u=E2=80=99re not keeping your dollars at Circle or Tether earning 0%.
+
+
+  [8] The other problem is that keeping the money in regulated US banks was=
+ not, this year, all *that* safe; some of Circle=E2=80=99s money was at Sil=
+icon Valley Bank when it collapsed. Tether avoided that problem by keeping =
+its money in a mystery.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjvejh.5je9/0922b2bc.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_69556261_1347004614.1700067718103
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+One way to acquire a public company is, you put out a press release saying =
+=E2=80=9CI am making a public offer to buy all the shares of this company
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTE1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMTUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB133cce14"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzM3Nzg4NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM2MzYzMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB916d3b2d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33377885&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33636302&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Cole Capital</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One way to acquire a public company is, you pu=
+t out a press release saying =E2=80=9CI am making a public offer to buy all=
+ the shares of this company,=E2=80=9D and that press release starts a compl=
+ex process in which the company=E2=80=99s board feels compelled to negotiat=
+e a deal with you, or if they don=E2=80=99t then you follow through on the =
+press release and launch a hostile tender offer for the shares. The press r=
+elease is a key moment in the campaign, the point where you go public, but =
+it is preceded by lots of preparation and followed by lots of tactical mane=
+uvering. The acquisition of a public company is difficult and complex and t=
+ypically requires many hours of work from hundreds of people to get everyth=
+ing done.</p>
+<p style=3D"margin: 16px 0;">The press release is easy, though? You can jus=
+t type it? Business Wire seems to <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33377885.258417/aHR0cHM6Ly9zZXJ2aWNlcy5idXNpbmVzc3dpcmUuY29=
+tL3ByaWNpbmc/607f07ceef4b8524a319a23cB7ad7abc0" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> charge several hun=
+dred dollars</a> for disseminating a press release, so it=E2=80=99s not=C2=
+=A0<em>free</em>, but if you pay Business Wire=E2=80=99s fees=C2=A0it=E2=80=
+=99ll be picked up pretty broadly and everyone will think that you are laun=
+ching your effort to buy the company. And so if you want to=C2=A0<em>preten=
+d=C2=A0</em>to acquire a public company, you can just do the press release =
+and not all the other parts.</p>
+<p style=3D"margin: 16px 0;">Why would you want to pretend to acquire a pub=
+lic company? The standard reason is market manipulation:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You buy some stock in the company at =
+a low price.</li>=09<li style=3D"margin-bottom: 5px;">You put out a press r=
+elease saying =E2=80=9CFake Capital Management LP is buying this company at=
+ a 90% premium.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">People an=
+d/or algorithms read the press release and buy the stock to speculate on th=
+e takeover.</li>=09<li style=3D"margin-bottom: 5px;">You sell the stock at =
+a high price.</li>
+</ol>
+<p style=3D"margin: 16px 0;">We talk about this from <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/33377885.258417/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDYtMDQvZ3V5LXdoby1kaWQtYXZvbi1ob2F=
+4LXdhcy10ZXJyaWJsZS1hdC1ob2F4ZXM_Y21waWQ9QkJEMTExNTIzX01PTkVZU1RVRkYmdXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTE1JnV0bV9jY=
+W1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6f1fef0f" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> time</a=
+> to <a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.2584=
+17/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMDUtMjIv=
+Zml0Yml0LXF1YW50cy1hbmQtdWJlcj9jbXBpZD1CQkQxMTE1MjNfTU9ORVlTVFVGRiZ1dG1fbWV=
+kaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMTUmdXRtX2NhbX=
+BhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB64a02fdc" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> time</a>.=
+ I do not think it=E2=80=99s the=C2=A0<em>only=C2=A0</em>reason, though.<a =
+class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: none !important; background-color: transpar=
+ent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0My impression is that there are people who just=C2=A0enjoy preten=
+ding to buy public companies, as a sort of live-action fantasy business gam=
+e.=C2=A0Elon Musk, for instance, occasionally <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33377885.258417/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMDkvZWxvbi1zLW91dD9jbXBpZD1CQkQxMTE1Mj=
+NfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fd=
+GVybT0yMzExMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBcf0=
+49715" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> pretends that he is going to buy public companies</a>, with=
+out ever profiting from the price action: It is just a fun game for him, <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/aHR0=
+cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9lbG9uLW11c2stcGxheXMtc3RyYXRlZ3ktdml=
+kZW8tZ2FtZS1iYXR0bGUtb2YtcG9seXRvcGlhLTIwMjMtMQ/607f07ceef4b8524a319a23cB02=
+994855" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> like Polytopia</a>, except=C2=A0business conquest instead =
+of military conquest. It is=C2=A0<em>incredibly=C2=A0</em>expensive: When h=
+e pretended he was going to buy out Tesla Inc., he was fined $20 million by=
+ the US Securities and Exchange Commission; when he pretended he was going =
+to buy Twitter Inc., he was=C2=A0<em>forced to buy it=C2=A0</em>for $44 bil=
+lion. It is possible that nobody in human history has ever spent more money=
+ on a hobby than Elon Musk has spent on his hobby of pretending to buy publ=
+ic companies. He must really enjoy it!</p>
+<p style=3D"margin: 16px 0;">I find this very relatable.=C2=A0I remember re=
+ading <em>Barbarians at the Gate=C2=A0</em>and thinking =E2=80=9Cthis just =
+seems =E2=80=A6=C2=A0fun?=E2=80=9D and then, later, becoming a mergers-and-=
+acquisitions lawyer and then an investment banker. That is one rather unima=
+ginative=C2=A0approach. Another approach would be reading <em>Barbarians at=
+ the=C2=A0Gate</em>, thinking it seemed fun, and then becoming a guy who pu=
+ts out fake merger press releases.</p>
+<p style=3D"margin: 16px 0;">Anyway, a little after 5 p.m. on Friday, Nov. =
+3, when WeWork Inc. was sliding into bankruptcy but not quite bankrupt yet =
+(<a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMDcvd2V3b3Jr=
+LWdvZXMtYmFua3J1cHQtY2FwcGluZy1jby13b3JraW5nLWNvbXBhbnktcy1kb3duZmFsbD9jbXB=
+pZD1CQkQxMTE1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMzExMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cBf5dfbadc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">it filed on Monday, Nov. 6</a>), a very fun p=
+ress release came out on Business Wire.<a class=3D"footnote-index" href=3D"=
+#footnote-2" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: n=
+one !important; background-color: transparent !important; display: inline-b=
+lock;">
+<span>[2]</span>
+</a>=C2=A0A sample:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A Proposal by Cole Capital Funds Seeks to Acqu=
+ire 51% of all minority ownership shares of WeWork, Inc. for $9.00 per shar=
+e in Cash</p>
+<p style=3D"margin: 16px 0;">Cole Capital Funds sent the following letter t=
+o the Board of Directors of WeWork, Inc.</p>
+<p style=3D"margin: 16px 0;">We believe that it is in the best interest of =
+WeWork to support our acquisition of 51% of all the outstanding shares owne=
+d by minority shareholders at a price of $9.00 per share and provide Cole w=
+ith proper representation on the company board.</p>
+<p style=3D"margin: 16px 0;">We have consulted with God, legal, financial a=
+nd other advisors to assist us with this transaction. We stand ready to pro=
+ceed timely.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">See, when I was an M&amp;A lawyer, I wrote a l=
+ot of press releases that were a bit like this, but in exactly none of them=
+=C2=A0did I write =E2=80=9CWe have consulted with God.=E2=80=9D Not standar=
+d in high-stakes public-company M&amp;A. But in fantasy M&amp;A, you can co=
+nsult with whomever you want! Have fun! That=E2=80=99s why you=E2=80=99re d=
+oing it, for fun!</p>
+<p style=3D"margin: 16px 0;">But <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/33377885.258417/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjMtMTEtMTMvcmVhbC1lc3RhdGUtaW52ZXN0b3ItbGFybW9yZS1mYWNlcy1zZWM=
+taW5xdWlyeS1vbi13ZXdvcmstb2ZmZXI_Y21waWQ9QkJEMTExNTIzX01PTkVZU1RVRkYmdXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTE1JnV0bV9jY=
+W1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2fa317d4" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> Bloombe=
+rg=E2=80=99s Patrick Clark reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A real estate investor facing scrutiny from le=
+nders and investors is now the subject of a government inquiry into an offe=
+r to buy shares in WeWork Inc.</p>
+<p style=3D"margin: 16px 0;">The US Securities and Exchange Commission has =
+sent inquiries to Jonathan Larmore, the founder of Arciterra Cos., about a =
+Nov. 3 press release in which an entity called Cole Capital Funds said it w=
+as seeking to buy shares in the coworking company at a significant premium,=
+ according to a person familiar with the matter who asked not to be named c=
+iting private information. The inquiry includes Larmore=E2=80=99s trading h=
+istory in WeWork stock and options, the person said.=C2=A0</p>
+<p style=3D"margin: 16px 0;">A company filing links Larmore to Cole Capital=
+ Funds, which was registered in October with the Arizona Corporation Commis=
+sion. The real estate investor was already facing an SEC inquiry about Arci=
+terra, which had owned as many as 80 properties including strip malls, peop=
+le familiar with the matter said.</p>
+<p style=3D"margin: 16px 0;">In an interview, Larmore said that he planned =
+to make all of the required filings related to his purchase of WeWork share=
+s and that he couldn=E2=80=99t comment further on the matter until he had d=
+one so. ...</p>
+<p style=3D"margin: 16px 0;">After the release was issued following the clo=
+se of markets, the stock rose briefly.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">So, right, they are=C2=A0<em>asking=C2=A0</em>=
+about his WeWork trading, and the press release does seem to have moved the=
+ stock. On the other hand I don=E2=80=99t know the=C2=A0<em>answers=C2=A0</=
+em>about his trading, and if you were going to do this to pump the stock, w=
+hy do it after the market closed on a Friday? Bloomberg tells me that WeWor=
+k stock closed at $0.8355 that Friday and, uh,=C2=A0reopened the following =
+Wednesday, after the bankruptcy filing.<a class=3D"footnote-index" href=3D"=
+#footnote-3" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: n=
+one !important; background-color: transparent !important; display: inline-b=
+lock;">
+<span>[3]</span>
+</a>=C2=A0If you want to manipulate the stock and make a profit, do your pr=
+ess release at like 9:31 a.m. on a Monday, so you can trade on it for a bit=
+.<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: none !important; background-color: tran=
+sparent !important; display: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Anyway I hope he didn=E2=80=99t buy much WeWor=
+k stock at $9 per share, as he offered to. That company went bankrupt!</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzM3Nzg4NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM2MzYzMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC095eb74f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33377885&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33636302&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzM3Nzg4NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM2MzYzMDImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD095eb74f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33377885&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33636302&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">XRP ETF</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Similarly, if you want to set up an exchange-t=
+raded fund that will offer retail investors an easy way to invest in some c=
+ryptocurrency, there are many steps, but one of them =E2=80=94=C2=A0one of =
+the first=C2=A0<em>public=C2=A0</em>steps =E2=80=94=C2=A0is to file paperwo=
+rk with the Delaware Department of State to set up the trust for the ETF. I=
+f you want to pretend to set up a crypto ETF, you can just do that =E2=80=
+=94=C2=A0again, you probably pay about a three-digit filing fee =E2=80=94=
+=C2=A0and not do the rest.</p>
+<p style=3D"margin: 16px 0;">If you file for =E2=80=9CMatt=E2=80=99s Ripple=
+ ETF Trust,=E2=80=9D no one will care, though. Pretending that you will set=
+ up a crypto ETF is worthless. The move is to pretend that=C2=A0<em>BlackRo=
+ck=C2=A0</em>will set up a crypto ETF. Bloomberg=E2=80=99s <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/33377885.258417/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTMvZmFrZS1ibGFja3JvY2stZnVuZ=
+C1maWxpbmctdHJpZ2dlcnMtYnJpZWYtcmFsbHktaW4teHJwLWNyeXB0b2N1cnJlbmN5P2NtcGlk=
+PUJCRDExMTUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTIzMTExNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cB12087ff6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Vildana Hajric reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A filing for a BlackRock Inc. fund based on th=
+e cryptocurrency XRP showed up on the official Delaware website that regist=
+ers investment trusts incorporated in the state, triggering a brief rally i=
+n the token. The only problem is that BlackRock wasn=E2=80=99t the one who =
+submitted it.</p>
+<p style=3D"margin: 16px 0;">The Delaware Department of State=E2=80=99s Div=
+ision of Corporations website =E2=80=94 which lists some other trusts the a=
+sset manager has applied for previously =E2=80=94 showed details for someth=
+ing called the =E2=80=9CiShares XRP Trust=E2=80=9D registered to BlackRock =
+on Monday. A spokesperson for the asset manager, however, confirmed that it=
+=E2=80=99s false.</p>
+<p style=3D"margin: 16px 0;">XRP briefly spiked almost 13% as news about th=
+e fake filing made its rounds on X, the social-media platform formerly know=
+n as Twitter. It gave back those gains to trade lower on the day. The token=
+ is one of the largest cryptocurrencies =E2=80=94 ranking fifth on the Coin=
+Gecko website =E2=80=94 though it=E2=80=99s lesser known than Bitcoin and E=
+ther.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Why would you want to pretend that BlackRock i=
+s setting up an XRP ETF? I suppose there is some outside possibility of =E2=
+=80=9Cyou enjoy trolling people on Twitter and are willing to pay a bit of =
+money to do that.=E2=80=9D But realistically it=E2=80=99s market manipulati=
+on.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">BTIG vs. StoneX</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The problem is that, if you are stealing trade=
+ secrets from your security-conscious financial services employer, you will=
+ either do it carelessly, or you will do it cleverly and secretly. If you d=
+o it carelessly, your security-conscious financial services employer will p=
+robably catch you. If you do it cleverly and secretly, with subtle tradecra=
+ft that evades your employer=E2=80=99s detection systems, you will be proud=
+ of yourself. =E2=80=9CLook at me,=E2=80=9D you will think, =E2=80=9CI am b=
+asically James Bond.=E2=80=9D You will smile, satisfied in the knowledge th=
+at you=E2=80=99d be an excellent spy. For like two minutes. Then that knowl=
+edge will not be satisfying enough without telling someone. You will text y=
+our friends, accomplices, whoever, to be like =E2=80=9Clook at me, I am bas=
+ically James Bond, please admire my tradecraft.=E2=80=9D Eventually you wil=
+l tell enough people about your brilliant tradecraft that it will get back =
+to your security-conscious financial services employer and you will get in =
+trouble.</p>
+<p style=3D"margin: 16px 0;">I suppose that is not=C2=A0<em>always=C2=A0</e=
+m>true. Maybe some financial services employees are basically James Bond. B=
+ut quite a few of them seem to like being spies, but only if they can tell =
+everyone. Bloomberg=E2=80=99s=C2=A0<a href=3D"https://link.mail.bloombergbu=
+siness.com/click/33377885.258417/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjMtMTEtMTQvYnRpZy1hY2N1c2VzLXJpdmFsLWJyb2tlci1zdG9uZXgtb2Ytc=
+3RlYWxpbmctdHJhZGluZy10ZWNobm9sb2d5P2NtcGlkPUJCRDExMTUyM19NT05FWVNUVUZGJnV0=
+bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTExNSZ1dG1=
+fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB38b60afd" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">Zeke=
+ Faux and Robert Burnson report</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Brokerage firm BTIG LLC accused StoneX Group I=
+nc., a rival brokerage and investment bank, of stealing its proprietary sof=
+tware code in what its lawyers describe as =E2=80=9Cone of the greatest fin=
+ancial-industry trade secret frauds in recent history.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">BTIG made the claim in a lawsuit filed late Mo=
+nday in California state court and seeks at least $200 million in damages.<=
+/p>
+<p style=3D"margin: 16px 0;">BTIG is an investment bank and trading firm, w=
+ith expertise in trading stocks for institutional clients, including foreig=
+n stocks and exchange-traded funds. In 2020, according to the lawsuit, Ston=
+eX set out to build its own equities market-making business. But to do so, =
+the firm recruited several key BTIG traders and software developers.</p>
+<p style=3D"margin: 16px 0;">Some of them stole BTIG=E2=80=99s proprietary =
+computer code and took it with them to StoneX, according to the suit. BTIG =
+accused its rival of lying about the misconduct even when confronted with e=
+vidence.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/33377885.258417/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVu=
+dHMvdXNlcnMvaXFqV0hCRmRmeElVL3IucDRiVHBoTnA3ay92MA/607f07ceef4b8524a319a23c=
+B2d09d587" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> the complaint</a>, which is really everything you could=
+ hope for in a case like this. (Several pages are entirely blacked out by r=
+edactions, for instance.) One BTIG engineer,=C2=A0Evan Pfeuffer, allegedly =
+did some pretty good tradecraft to extract code secretly:</p>
+<blockquote><p style=3D"margin: 16px 0;">Based on a subsequent forensic rev=
+iew, Pfeuffer logged onto BTIG servers to collect and remove key code. Beca=
+use BTIG=E2=80=99s servers had sophisticated defenses against exfiltration =
+of code, Pfeuffer resorted to extraordinary measures. Pfeuffer took large s=
+wathes of code and other proprietary information and encrypted them using N=
+SA-level encryption techniques, rendering the payload a meaningless string =
+of gobbledygook to anyone without the encryption key. Pfeuffer then appende=
+d the encrypted code to pdf versions of generic documents that were downloa=
+ded from the internet; anyone looking at the files would see a generic PDF =
+document that when opened presented itself as normal, but in fact had code =
+and other information secretly appended inside. Pfeuffer then used BTIG=E2=
+=80=99s automated email server for sending client reports to email the PDFs=
+ =E2=80=93 with the encrypted code appended =E2=80=93 to himself, and then =
+he took the code through various means outside BTIG. Once outside BTIG, Pfe=
+uffer could take out the encrypted code, decrypt it, transfer it to StoneX =
+and then use it at StoneX.</p></blockquote>
+<p style=3D"margin: 16px 0;">Sure, terrific.<a class=3D"footnote-index" hre=
+f=3D"#footnote-5" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[5]</span>
+</a>=C2=A0But he was also texting with a StoneX engineer and couldn=E2=80=
+=99t resist describing this scheme with a combination of accurate technical=
+ details and pop-culture quotes:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Text messages between Pfeuffer and the StoneX =
+software engineer confirm the scheme. On February 8, 2021 =E2=80=93 days af=
+ter Pfeuffer resigned from BTIG =E2=80=93 the StoneX engineer asked Pfeuffe=
+r, =E2=80=9Cdidn=E2=80=99t you append pdf for your stuff,=E2=80=9D to which=
+ Pfeuffer responded =E2=80=9CAh didn=E2=80=99t realize what u were taking (=
+sic) about, yeah, hidden encrypted payload appended to pdf. I=E2=80=99ve go=
+t mine prepared going to test tomorrow, keep it secret, keep it safe. Like =
+the ring.=E2=80=9D<a class=3D"footnote-index" href=3D"#footnote-6" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: none !important; backg=
+round-color: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Two days later, Pfeuffer texted the StoneX eng=
+ineer, =E2=80=9CThe eagle has landed, code extracted.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If you find yourself saying =E2=80=9Ckeep it s=
+ecret, keep it safe,=E2=80=9D about the encrypted trade secrets that you la=
+boriously smuggled out of your security-conscious employer, <em>in a text m=
+essage</em>, something has gone wrong.</p>
+<p style=3D"margin: 16px 0;">A lot of what is going on here is=C2=A0sort of=
+ a standard poaching dispute: A BTIG employee left for StoneX to build a co=
+mpeting business, he naturally brought over some of his BTIG friends, and s=
+o there are arguable violations of their various non-compete and non-solici=
+tation clauses. Also whenever this happens the jilted employer can say =E2=
+=80=9Cand you brought your knowledge of our trade secrets and computer code=
+ with you,=E2=80=9D and often that is true but hard to prove. And sometimes=
+ the jilted employer can say =E2=80=9Calso you brought over this specific r=
+epository of code with you,=E2=80=9D and=C2=A0<em>can=C2=A0</em>prove it =
+=E2=80=94=C2=A0by pointing to the documents they emailed to themselves, etc=
+. =E2=80=94=C2=A0and then it has a more compelling case, though even there =
+the other side can argue things like =E2=80=9Cit is not actually rocket sci=
+ence to build a computer program to quote equities, and what these guys too=
+k was not really a valuable trade secret,=E2=80=9D or =E2=80=9Cmaybe they e=
+mailed this stuff to themselves but they did not actually use it in our sys=
+tems, which are totally different and much better.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">One other thing that is happening here is that=
+, if you are a firm that arguably poaches employees=C2=A0and intellectual p=
+roperty from other firms, that gives=C2=A0<em>your </em>employees some leve=
+rage against <em>you</em>. How did BTIG find out all this stuff about what =
+StoneX was doing? Some of it is from its own monitoring of its email system=
+s, PDF exfiltration, etc. But some of it is from a disgruntled StoneX emplo=
+yee:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In January 2023, in connection with a lawsuit =
+between StoneX and one of its former employees, a StoneX engineer who worke=
+d with both Bhaduri and Pfeuffer to develop software code for StoneX reveal=
+ed a scheme by the Disloyal Employees and StoneX to incorporate BTIG=E2=80=
+=99s=C2=A0proprietary code into StoneX=E2=80=99s quantitative trading platf=
+orm that, in the year and a half since it had been implemented, had generat=
+ed =E2=80=9Cmillions of dollars using BTIG=E2=80=99s trade secrets.=E2=80=
+=9D</p>
+<p style=3D"margin: 16px 0;">Specifically, the whistleblower explained that=
+ Pfeuffer incorporated BTIG=E2=80=99s proprietary code into StoneX=E2=80=99=
+s =E2=80=9CTampa=E2=80=9D software code, a critical component of StoneX=E2=
+=80=99s marketmaking applications system. The software engineer further exp=
+lained that he =E2=80=9Cdiscovered numerous references to BTIG in the Tampa=
+ code itself . . . and had discovered a reference to [BTIG=E2=80=99s Managi=
+ng Director of Technology] in StoneX=E2=80=99s Tampa code.=E2=80=9D It alle=
+ges that, according to electronic log records, Pfeuffer checked BTIG=E2=80=
+=99s source code into StoneX=E2=80=99s system and incorporated it into Ston=
+eX=E2=80=99s code.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One possibility is=C2=A0that if you are a BTIG=
+ engineer and you have technology that StoneX wants, the way to monetize th=
+at is to take a job at StoneX and smuggle code out appended to PDFs. And if=
+ you are a StoneX engineer and you have technology that BTIG provided, the =
+way to monetize that is to go to BTIG and say =E2=80=9Chey I know something=
+ interesting, what might=C2=A0it be=C2=A0worth to you.=E2=80=9D</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Tether vs. USDC</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A stablecoin is a way to hold US dollars (or e=
+uros, etc.) in a way that is convenient for crypto. You buy cryptocurrencie=
+s on some crypto blockchain and hold them in some crypto wallet; a stableco=
+in is a cryptocurrency on a crypto blockchain in a crypto wallet, but it is=
+ worth a dollar.</p>
+<p style=3D"margin: 16px 0;">People want this=C2=A0for two main reasons. On=
+e is that if you trade a lot of crypto, you will sometimes close positions =
+=E2=80=94=C2=A0you will buy some crypto and then, later, sell it =E2=80=94=
+=C2=A0and the natural way to close a position is into dollars. You measure =
+your profits and losses in dollars, you pay your rent in dollars, so you ef=
+fectively trade between crypto and dollars. And if you are doing a lot of t=
+hat, you will find that holding dollars in the form of stablecoins is more =
+convenient and efficient than holding dollars in the form of a bank account=
+ (or money-market fund, or pile of $20 bills). Your stablecoin-dollars live=
+ on the blockchain and are instantly transferable for crypto within the cry=
+pto system; your regular dollars live in a bank that might be slow or fussy=
+ about transferring them to a crypto exchange. The stablecoin is a way to k=
+eep all of your trading <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/33377885.258417/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS92aWV3L2FydGljbGVzL=
+zIwMTktMDEtMDkvYmxvY2tjaGFpbi1zdG9jay1vZmZlcmluZ3MtYW5kLXN0YWJsZWNvaW5zLXdp=
+bGwtZW5oYW5jZS1jcnlwdG8_Y21waWQ9QkJEMTExNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1=
+lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTE1JnV0bV9jYW1wYWlnbj=
+1tb25leXN0dWZm/607f07ceef4b8524a319a23cB728e7b24" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> within the crypt=
+o system</a>, but without always being exposed to crypto prices.</p>
+<p style=3D"margin: 16px 0;">The other, almost unrelated reason is that the=
+re are people who find the crypto financial system more accessible than the=
+ regular US dollar financial system. People in countries with fragile banki=
+ng systems, people in countries with high inflation, but also various kinds=
+ of criminals,=C2=A0all might say =E2=80=9CI would rather keep my money in =
+crypto than in a bank.=E2=80=9D These people are not trying to trade freque=
+ntly or speculate on crypto; they just want to hold their money somewhere s=
+afe, and for whatever reason that is not, for them, a bank.=C2=A0But crypto=
+currencies are volatile, while US dollar-linked stablecoins mostly aren=E2=
+=80=99t. So =E2=80=9CI would rather keep my money in crypto than in a bank,=
+ but in dollars=E2=80=9D is a reasonable thing for these people to think.</=
+p>
+<p style=3D"margin: 16px 0;">Another important thing about stablecoins is t=
+hat they mostly don=E2=80=99t pay interest. The main mechanism of a stablec=
+oin is that you deposit dollars with a stablecoin issuer, they give you bac=
+k a stablecoin (a token on the blockchain), and=C2=A0<em>they=C2=A0</em>put=
+ the dollar into a bank account (or Treasury bills, or Chinese real estate =
+commercial paper, or whatever). And they keep the interest and you don=E2=
+=80=99t. In a world of zero interest rates that was fine. In a world of 5% =
+short-term interest rates it makes being a stablecoin issuer insanely lucra=
+tive. But also the customers notice.</p>
+<p style=3D"margin: 16px 0;">If you could wave a magic wand and make crypto=
+=C2=A0<em>totally mainstream</em>, what would that do to the demand for sta=
+blecoins? I don=E2=80=99t know, but my intuition is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The people who use stablecoins for tr=
+ading crypto would stop doing that. Their banks and brokerages would be hap=
+py to send money to crypto exchanges, the rails for converting dollars into=
+ crypto would be fast and highly functional, and it would be equally conven=
+ient, for a crypto trader, to hold dollars in a bank or in a stablecoin. Bu=
+t the bank pays interest and the stablecoin does not.<a class=3D"footnote-i=
+ndex" href=3D"#footnote-7" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: none !important; background-color: transparent !important; dis=
+play: inline-block;">
+<span>[7]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">The people who use stablecoins be=
+cause they are unbanked would still very much want to do that. Embracing cr=
+ypto within the regular US financial system would not help them. Perhaps it=
+ would hurt them; I don=E2=80=99t know exactly what it means for crypto to =
+be =E2=80=9Ctotally mainstream,=E2=80=9D but if it meant that all of crypto=
+ was run out of big regulated financial institutions then people who are un=
+banked now would be un-crypto-banked in that world. But if they could still=
+ get 0%-yielding stablecoins, but not bank accounts, they=E2=80=99d still w=
+ant that.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Two big stablecoin issuers are Circle (whose t=
+oken is USDC) and Tether (whose token is often called Tether, or else USDT)=
+. Circle is a US company that is sort of a bet on crypto being mainstream a=
+nd regulated and respectable. Tether is exactly the opposite of that. Circl=
+e <a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/=
+aHR0cHM6Ly93d3cuY2lyY2xlLmNvbS9lbi90cmFuc3BhcmVuY3k/607f07ceef4b8524a319a23=
+cB84d13655" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> keeps its dollars</a> at US banks; Tether keeps them i=
+n a mystery (but <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+3377885.258417/aHR0cHM6Ly90ZXRoZXIudG8vZW4vdHJhbnNwYXJlbmN5LyN1c2R0/607f07c=
+eef4b8524a319a23cBf4d9ade8" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> it says</a> mostly in US Treasury bill=
+s).</p>
+<p style=3D"margin: 16px 0;">Yesterday Bloomberg=E2=80=99s=C2=A0<a href=3D"=
+https://link.mail.bloombergbusiness.com/click/33377885.258417/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTUvY2lyY2xlLWlwby11c2Rj=
+LWxvc3MtdG8tdGV0aGVyLW1heS1jb21wbGljYXRlLWxpc3RpbmctcGxhbnMtdXNkYy11c2R0P2N=
+tcGlkPUJCRDExMTUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTIzMTExNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cB189a04a8" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Olga Kharif, Sidhartha Shukla=C2=A0and Emi=
+ly Nicolle reported</a> on Circle=E2=80=99s problems, of which the main one=
+ might be that it is too mainstream and, thus, too easily substitutable wit=
+h bank accounts<a class=3D"footnote-index" href=3D"#footnote-8" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: none !important; backgrou=
+nd-color: transparent !important; display: inline-block;">
+<span>[8]</span>
+</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Circle=E2=80=99s main product, the crypto stab=
+lecoin USDC, is losing ground to chief competitor Tether=E2=80=99s namesake=
+ token, eroding its importance in digital-asset markets. ...</p>
+<p style=3D"margin: 16px 0;">Circle is based in Boston and Tether is regist=
+ered in the British Virgin Islands. USDC is widely used in the US through e=
+xchanges like Coinbase Global Inc., which owns a minority stake in Circle. =
+As yields on US Treasuries soared toward 5%, many USDC holders swapped it f=
+or dollars to take advantage of those high returns, said Kyle Samani, co-fo=
+under of crypto investor Multicoin Capital.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CMost people who have access to USDC h=
+ave access to US dollar bank accounts, so they naturally convert USDC to US=
+D to accrue that yield,=E2=80=9D Samani said. =E2=80=9CHowever, most people=
+ who are holding USDT do not have access to USD bank accounts, so they don=
+=E2=80=99t care about the foregone yield.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If you can easily move between banks and stabl=
+ecoins, and banks pay 5% interest, you=E2=80=99ll move to a bank. If you ca=
+n=E2=80=99t do that, then Tether gets to keep the interest.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Mortgage MTM</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Apparently a lot of the readers of this column=
+ are Danish? Or I suppose my readers are just very up on international mort=
+gage market structure. Anyway I <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33377885.258417/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMTEtMTQvZ29sZG1hbi1rZWVwcy1nZXR0aW5nLW1vcmUtYm9yaW5nP2Nt=
+cGlkPUJCRDExMTUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIzMTExNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cB8a4dfcf7" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> wrote yesterday</a> about the fact that US=
+ homeowners have something like $1 trillion of mark-to-market gains on thei=
+r mortgages, but that you can=E2=80=99t do anything about it. =E2=80=9CReal=
+ly,=E2=80=9D I wrote, =E2=80=9Cthe tempting product is:=E2=80=9D</p>
+<blockquote><p style=3D"margin: 16px 0;">You have a $500,000 mortgage that =
+is now worth $287,000.<br />You go to your bank and say =E2=80=9CI=E2=80=99=
+ll give you $300,000 for it.=E2=80=9D<br />The bank is like =E2=80=9Cfine o=
+kay that works.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">But, I said, you can=E2=80=99t do that: For on=
+e thing, your bank probably sold your mortgage; for another thing, this tra=
+de would crystallize a big loss for the mortgage owner that it might not ye=
+t have booked; for a third thing, US 30-year mortgages don=E2=80=99t=C2=A0<=
+em>really=C2=A0</em>last 30 years, so no bank would be willing to accept th=
+e discounted value of the mortgage cash flows over 30 years.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Quite a lot of readers pointed out that, in De=
+nmark, you really can do this. Here=E2=80=99s <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33377885.258417/aHR0cHM6Ly93d3cubmV3eW9ya2ZlZC5=
+vcmcvbWVkaWFsaWJyYXJ5L21lZGlhL3Jlc2VhcmNoL2Vwci8yMDE4L2Vwcl8yMDE4X3VzLWRhbm=
+lzaC1tb3J0Z2FnZS1maW5hbmNlX2JlcmcucGRm/607f07ceef4b8524a319a23cB0d3626ab" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> a New York Fed report</a>, and here is a=C2=A0Carsted=C2=A0Rosenber=
+g <a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/=
+aHR0cHM6Ly93d3cuY2Fyc3RlZHJvc2VuYmVyZy5jb20vZGFuaXNoLW1vcnRnYWdlLXN5c3RlbQ/=
+607f07ceef4b8524a319a23cB4884bcc5" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> client briefing</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Borrowers may redeem their mortgage loans at a=
+ny time without negotiating the price, as prepayment may always take place =
+at the prevailing market prices. Danish mortgage borrowers may terminate th=
+eir loans by buying back the mortgage bonds in the bond market and deliveri=
+ng them to the mortgage bank. This option is referred to as the delivery op=
+tion or the buy-back option. The buy-back option applies to all mortgage bo=
+nds whether callable or non-callable.</p>
+<p style=3D"margin: 16px 0;">=E2=80=8BThe buy-back option is a special feat=
+ure of the Danish mortgage finance system, and borrowers therefore always k=
+now the ISIN code(s) of the bonds behind their mortgage loans. The buy-back=
+ option constitutes a significant difference between the US and the Danish =
+mortgage finance system. The US system only allows mortgage loan prepayment=
+ at par (100).</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Well that=E2=80=99s nice. Obviously if you tra=
+nslated this to the US system, and you had a 3% mortgage and rates are now =
+8%, you=E2=80=99d be buying back your mortgage at some market price that is=
+ lower than par=C2=A0but higher than the value of your mortgage cash flows =
+over 30 years discounted at 8%, because the US mortgage market assumes that=
+ 30-year mortgages have an average life that is much shorter than that. Sti=
+ll! You=E2=80=99d get a big discount.</p>
+<p style=3D"margin: 16px 0;">Several other readers emailed me to say some v=
+ariation on =E2=80=9CI tried this on my bank but it did not work.=E2=80=9D =
+Move to Denmark I guess.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/33377885.258417/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMTEtMTQvc2Nob25mZWxkLWVuZHMtbWlsbGVubml1bS1kZWFsLXRhbGtzLXNlY3V=
+yZXMtYmlsbGlvbnMtZWxzZXdoZXJlP2NtcGlkPUJCRDExMTUyM19NT05FWVNUVUZGJnV0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTExNSZ1dG1fY2Ftc=
+GFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb70b3805" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">Schonfeld<=
+/a> Ends Millennium Partnership Talks, Secures Billions Elsewhere. UBS Warn=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTUvdWJzLXN=
+heXMtaXQtbWlncmF0aW9uLWlzLWJpZ2dlc3Qtcmlzay1pbi1jcmVkaXQtc3Vpc3NlLWZ1c2lvbj=
+9jbXBpZD1CQkQxMTE1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMzExMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cB3dcd3cb8" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> IT Migration is Biggest Risk</a> in Cre=
+dit Suisse Fusion. How <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/33377885.258417/aHR0cHM6Ly93d3cud3NqLmNvbS9yZWFsLWVzdGF0ZS9ob3ctcmVhbC=
+1lc3RhdGUtYnJva2Vycy1hcmUtcmVhY3RpbmctdG8tdGhlLWhpc3RvcmljLWNvbW1pc3Npb24td=
+mVyZGljdC04ZTAxNTQ4Nj9tb2Q9aHBfbGVhZF9wb3MxMA/607f07ceef4b8524a319a23cB216a=
+b1c3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Real-Estate Brokers</a> Are Reacting to the Historic Commiss=
+ion Verdict. US Federal Pension Fund to <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/33377885.258417/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjMtMTEtMTUvdXMtZmVkZXJhbC1wZW5zaW9uLWZ1bmQtdG8tZXhjbHVk=
+ZS1ob25nLWtvbmctaW52ZXN0bWVudHM_Y21waWQ9QkJEMTExNTIzX01PTkVZU1RVRkYmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTE1JnV0bV9jYW=
+1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBd999d25f" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Exclude =
+Hong Kong Investments</a>.=C2=A0FTX <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/33377885.258417/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9md=
+Hgtc3Vlcy1jcnlwdG8tZXhjaGFuZ2UtYnliaXQtdG8tcmVjb3Zlci05NTMtbWlsbGlvbi1pbi1j=
+YXNoLWFuZC1hc3NldHMtNzQ4MjJlNmE_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b852=
+4a319a23cB6d1a0299" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Sues Crypto Exchange Bybit</a> to Recover $95=
+3 Million in Cash and Assets. Wall Street Is Tapping <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/33377885.258417/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTUvd2FsbC1zdHJlZXQtd2FudHMtdG8td29=
+yay13aXRoLXdvbWVuLW1pbm9yaXR5LWJhbmstbGVhZGVycy1pbi1kZWktcHVzaD9jbXBpZD1CQk=
+QxMTE1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlc=
+iZ1dG1fdGVybT0yMzExMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319=
+a23cBf1015c67" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> Women, Minority-Owned Banks</a> For Billion-Dollar =
+Bond Deals.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+3377885.258417/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMt=
+MTEtMTQvZmRpYy1jaGFpcm1hbi1kZWVwbHktdHJvdWJsZWQtYnktd29ya3BsYWNlLW1pc2NvbmR=
+1Y3QtY2xhaW1zP2NtcGlkPUJCRDExMTUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdX=
+RtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTExNSZ1dG1fY2FtcGFpZ249bW9uZXlzd=
+HVmZg/607f07ceef4b8524a319a23cB20734603" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> FDIC</a> Chair =E2=80=
+=98Deeply Troubled=E2=80=99 by Workplace Misconduct Claims.=C2=A0Janet Yell=
+en=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/33377=
+885.258417/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9qYW5ldC15ZWxsZW4taW4t=
+bi1vdXQtb3JkZXItcmV2ZWFsZWQtMjAyMy0xMQ/607f07ceef4b8524a319a23cBfd23a86d" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> In-N-Out order</a> revealed.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/33377885.258417/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjA=
+yMy8xMS8xMC9hcnRzL2Rlc2lnbi9oaWRkZW4tZGVtb24tam9zaHVhLXJleW5vbGRzLXBhaW50aW=
+5nLmh0bWw/607f07ceef4b8524a319a23cB49c852e8" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Hidden Demon Uncovered=
+</a> in 18th-Century Painting.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33377885.258417/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB12cd1dea" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33377885.258417/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB664b7ec4" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] I still have <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33377885.258417/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDgtMjMvY291bGQtc2N1bHB0b3ItYmUtYmV0dGVyLW=
+9yLWNoZWFwZXI_Y21waWQ9QkJEMTExNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1d=
+G1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTE1JnV0bV9jYW1wYWlnbj1tb25leXN0=
+dWZm/607f07ceef4b8524a319a23cB4aef0c6d" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> absolutely no idea</a> wha=
+t was going on with Esmark Inc.=E2=80=99s proposal to buy U.S. Steel Corp.,=
+ which was *written* like a joke press release and <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33377885.258417/aHR0cHM6Ly93d3cucmV1dGVycy=
+5jb20vbWFya2V0cy9kZWFscy9lc21hcmstbm90LWJpZC11cy1zdGVlbC0yMDIzLTA4LTIzLw/60=
+7f07ceef4b8524a319a23cB389e1e2b" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> eventually withdrawn</a>. I don=
+=E2=80=99t think it was manipulation, though.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] It appears to have been <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/33377885.258417/aHR0cHM6Ly93d3cubmFz=
+ZGFxLmNvbS9wcmVzcy1yZWxlYXNlL2RlbGV0ZWQ6LWEtcHJvcG9zYWwtYnktY29sZS1jYXBpdGF=
+sLWZ1bmRzLXNlZWtzLXRvLWFjcXVpcmUtNTEtb2YtYWxsLW1pbm9yaXR5/607f07ceef4b8524a=
+319a23cB20411649" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> deleted by Business Wire</a>, but press releases=
+ get picked up lots of places, and it is preserved on, e.g., <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/33377885.258417/aHR0cHM6Ly93d3cu=
+YmVuemluZ2EuY29tL3ByZXNzcmVsZWFzZXMvMjMvMTEvYjM1NjAzMjQ1L2EtcHJvcG9zYWwtYnk=
+tY29sZS1jYXBpdGFsLWZ1bmRzLXNlZWtzLXRvLWFjcXVpcmUtNTEtb2YtYWxsLW1pbm9yaXR5LW=
+93bmVyc2hpcC1zaGFyZXMtb2Ytd2V3b3JrLWlu/607f07ceef4b8524a319a23cB0fbe3754" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> Benzinga</a> and <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33377885.258417/aHR0cHM6Ly93d3cubW9ybmluZ3N0YXIuY29tL25ld3MvYnVzaW5l=
+c3Mtd2lyZS8yMDIzMTEwMzc2Mjg4My9raWxsLWEtcHJvcG9zYWwtYnktY29sZS1jYXBpdGFsLWZ=
+1bmRzLXNlZWtzLXRvLWFjcXVpcmUtNTEtb2YtYWxsLW1pbm9yaXR5LW93bmVyc2hpcC1zaGFyZX=
+Mtb2Ytd2V3b3JrLWluYy1mb3ItOTAwLXBlci1zaGFyZS1pbi1jYXNo/607f07ceef4b8524a319=
+a23cB282f3595" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> Morningstar</a>.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] It reopened *up*, but that=E2=80=99s proba=
+bly not due to the press release, which was long deleted by then. In genera=
+l these days stocks go up when they file for bankruptcy, it=E2=80=99s a thi=
+ng.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Extremely not any sort of advice at all.</=
+p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] A quibble: Does =E2=80=9CNSA-level encrypt=
+ion techniques=E2=80=9D mean, like, <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/33377885.258417/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvU=
+0hBLTI/607f07ceef4b8524a319a23cB2bd8a6e0" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">standard publicly availa=
+ble encryption algorithms</a>?</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] The =E2=80=9CKeep it secret, keep it safe=
+=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/33377885=
+.258417/aHR0cHM6Ly90b2xraWVuZ2F0ZXdheS5uZXQvd2lraS9LZWVwX0l0X1NlY3JldCxfS2V=
+lcF9JdF9TYWZlXyhzY2VuZSk/607f07ceef4b8524a319a23cB91249f29" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> quote<=
+/a> is garbled a bit in the complaint by stray punctuation (which I have cl=
+eaned up), presumably because he texted too fast.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] I am eliding the details of what it means =
+for crypto to be =E2=80=9Ctotally mainstream.=E2=80=9D Maybe it means that =
+all dollars are on the blockchain, banks issue stablecoins, the Fed issues =
+central bank digital currencies, etc. The point here is that I think in any=
+ variation of that world you=E2=80=99re not keeping your dollars at Circle =
+or Tether earning 0%.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] The other problem is that keeping the mone=
+y in regulated US banks was not, this year, all *that* safe; some of Circle=
+=E2=80=99s money was at Silicon Valley Bank when it collapsed. Tether avoid=
+ed that problem by keeping its money in a mystery.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB0f2913db" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBebe56e27" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBfad70b98" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB869b6311" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB973a927b" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.2584=
+17/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB610dc2c4" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33377885.258417/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC62d97db2" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33377885.258417/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBd382bc24" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33377885.258417/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBf51b0bd1" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBa=
+d2e3bf6" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33377885.258417/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB4=
+8e4acec" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjvejh.5je9/0922b2bc.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_69556261_1347004614.1700067718103--
+

@@ -1,0 +1,1833 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:c011:0:b0:191:bcf:3d4e with SMTP id z17csp3166956lko;
+        Thu, 3 Feb 2022 09:59:33 -0800 (PST)
+X-Received: by 2002:a5d:4888:: with SMTP id g8mr30050764wrq.65.1643911173036;
+        Thu, 03 Feb 2022 09:59:33 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1643911173; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=FYV2xK8nOQdTUosE2uCD41JrDUUrXAyqQC0FJZ5B9YxCTWjexYywFhMYxLj4vNjoC7
+         +BDpv3wUIeFfSBGZXAj1um26hshG8t9pFn27EBIc3GeMe9BNiJ0U8xLbuPfVKIFsBuSR
+         mCtSgxegBOB1115kojBcP31+gpFsNC6IBeYLgQg+ubYW1F9fg4IDzGjx+gUZRBpOOSPU
+         o1YShX31/lXzYgT+DLJquDutoJCY/cPb9TKaJCbxkgeZbJSKQ7srr9esw5R+llQ1NOb0
+         9tzmMGnGyuBQS4vpP0EjgSKxxMxslESrhccHtWFq4tkl2PxJGNQb8mGiS+EbI0cBYrCV
+         jk2A==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=B8hOcNCqW6OlC2XMLcl8dVcQQAo0sYBDbz91vCDBQ8Y=;
+        b=kkGraKfDNikCtV6RItl3ahaVu4C471rGbQzqT5D9Td+xsblPOciNSPZ9ZvMVHbnulU
+         qWPwukVaY0zLEhrAyPxJSd2U7E+hqz8Bssc5XTtnVfOio5K/kIAK2BzdewUDn8ZrVPka
+         /xu7HKm72/9vcKYKua7S1ZIAJ5UNKY0pfcKei31ddtgEg+fSs3M/l3byaV0irSLGWKyP
+         3rfVGm95h8QNqpluOOb21zglcqjtW/muKrlty6BDuW6k3RnoyLhTLZaONBHtiCv81cWB
+         57cWadc2TukOnTLMlucHNmzP9UrvN7BP0xyEoZtg/1rF72BSMhY7tB1lmQSJmPe4Xq87
+         NFjA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=in8eIG5B;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n34sor5026915wms.11.2022.02.03.09.59.32
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 03 Feb 2022 09:59:33 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=in8eIG5B;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=B8hOcNCqW6OlC2XMLcl8dVcQQAo0sYBDbz91vCDBQ8Y=;
+        b=embj1e8o0vUe53ND3OOxogvehOXeiZmgFNdI2OIKP2ChpaZjvv94sLFgx4ESXeq8Ik
+         13RF9v2xWtehKW7QivH2T/O2gMUNuAVtgwbcvXMiZDZCYlBOLc3dISK0yoFCNlJXvnKh
+         tyOuhYyd10qKvsEzDXs90kcWhFWxKEaoGmLhcxRdtzNQD5aWs7/FC3vudVNldNuXUzk4
+         jfkRF1sdGYGz+vF2DChqbWW27z1pAWsj2ZJ5KWKan/DDzHt3U9iQ9lIRiHxkPRNGahTl
+         bGQWnGnRTJWk+NZrokWldFGVz8VrihN9P2x9BQsakjDjPk3x7pGYtuxS3MGhEvTIxD4w
+         pwXg==
+X-Gm-Message-State: AOAM531lx+Qo5ENLYh4paxmfN0FsTUyxUSDHthVby0HC0Rx+dNOkv0T3
+	UTffMUpIW/v6piaYrYkZSr/QmGmhPcNGmPg524F8VMPxKs4VXceKdQ==
+X-Received: by 2002:a05:600c:3049:: with SMTP id n9mr11312833wmh.121.1643911172566;
+        Thu, 03 Feb 2022 09:59:32 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f350:0:0:0:0:0 with SMTP id e16csp2196131wrp;
+        Thu, 3 Feb 2022 09:59:29 -0800 (PST)
+X-Received: by 2002:a92:c26c:: with SMTP id h12mr20409098ild.280.1643911169522;
+        Thu, 03 Feb 2022 09:59:29 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1643911169; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Y66/D71KDd3tVuVG/MmIHMEz8c2EtdlxpDF60XLnP7zlM4N3m5yl5nwKhrl9Wc0Yi3
+         qFsOfQSnmEfjRKRqVrtUHH/zKaSqR9cDc7/4Bxi8rfMBQaD1H6rizxKYmUEx/XRfhMjC
+         cLUUStdKum6mBCB9/s9TdxiGmfTdd4ClxhjvEdcgvz8fZ3ENr4+AdJuS3pFVYEpNqQdQ
+         /UMbeJuIx0c6cqo+KpjWzvlZ3IcBkZKbjRDisKgpFy0P59LtI9mmPRmZIDsj7k29frdF
+         Ct8aqGXh3b46NcuhQWmrHbBgGdZIMFY7B/iWERGjpuDfNOd847GL7HBWUGExQJU+RxRk
+         TClg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=B8hOcNCqW6OlC2XMLcl8dVcQQAo0sYBDbz91vCDBQ8Y=;
+        b=i6k12v47nl0bWnQHPHr/uaAtGN0nZOTxGLbcAv4+ThCL9lsqZtbYckXsAp9exY9HgR
+         4sI6//s7lUIdemrk7n7SAAOUyGoyk+mgZZRUaVi857drvWYYT27+JkWT+726HIcbnQlV
+         qf+CMkgzMHhmfonZiLpRVRwjBvgFkFuX41YbyYaDu5YIUfWIkEk/AGJRp1Gf3hgLj3/4
+         elk/BVpkmWmdZCsPFKn98Trpb044UhGfd0EGMJ2i9zDjVvYmZ4B9eQlUDylkxWL45pEZ
+         9wTt8ijBmUWiALgMBhFNmiXnR1q8VvYP1ZnHb81o9obGrTMpgni4yhKr0pJeZ8V7daHh
+         Ydmg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=in8eIG5B;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220203125755.26586412.267618@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220203125755.26586412.267618@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220203125755.26586412.267618@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id y1sor8618475ilv.109.2022.02.03.09.59.29
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 03 Feb 2022 09:59:29 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20220203125755.26586412.267618@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzpld7LlrwGNO7J9/ewAmCKMg0avqrwKNH3Xb+W6IOrctSI6+RKxjf1X9H3ZBfn8BkmRebNkqSANZqiaruNI+CEdZHzEq8=
+X-Received: by 2002:a05:6e02:184e:: with SMTP id b14mr3434784ilv.1.1643911169199;
+        Thu, 03 Feb 2022 09:59:29 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1643911169; cv=none;
+        d=google.com; s=arc-20160816;
+        b=oK1h86sSgxYEoRjRxzZGYJ/KJ7tqyH/PyfhA7JrPtiuraEwOdOl3hTDHhrMjrNRH4U
+         P3yyRq+TjboWeb3+Rom+RmAiOcUtjJ0gNqZJ1hYhuA0eKdQ7S3JhijeDrOvgK7xM3Fs/
+         kz8Qza7v/X64qOycGM/JA3atuu6XABrRU67LRtpiaNyyHQHbjfLkfpOukRMamP8YwsUY
+         0WWAWV5l7qBK25YV42cHJ9VbErPsp2DuNlUlXFotVBKBuHLlBY+3WxZm9r3Oc1Z4IEy3
+         RWUBJJQHV6wFImm4ZPZGXpM2rShtQ8hMJ1o2XPV1HH3oBqGp8zDC3E3fnr6wVl55Tp1u
+         4uYg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=B8hOcNCqW6OlC2XMLcl8dVcQQAo0sYBDbz91vCDBQ8Y=;
+        b=yqwIJ4739z9Oaak36JXAKkP2CQhFUDABVfpYjgJmuMEhL753qC+7LN8bD/zbWbAqaF
+         MhFMXB5aUhElW621Z0FkGakF7iD9A9SyWXlcG+xYKQjg4hjfC3EzfrF1ASDZF3FdgmkD
+         c2NCPaNeiCqbw9h20z6CaozFAhUSP48tBFy6/SC6LZdUkMiXLdonB0zB+/ofz52Ps8NS
+         SikeR3rW6TSkREOgzbPLS/9m4G2m8lh3UA52rgpXKMIV7rRl1UoLGh9hxzrqzL+jSpos
+         GRe07/cXqEdDKqsvJo2yUTBYJBco+xUwecu0FcD82ny0jDqWt1yVCbTGxAXw8nuZz2v7
+         1/1Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=in8eIG5B;
+       spf=pass (google.com: domain of delivery_20220203125755.26586412.267618@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220203125755.26586412.267618@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220203125755.26586412.267618@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id u13si3346850jad.2.2022.02.03.09.59.28
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 03 Feb 2022 09:59:29 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20220203125755.26586412.267618@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=cUoyRPQfGENulQWh6bM6wauKw4Cqq0KMT5zhrJ3cIic=;
+ b=in8eIG5BFrJcVYAGu8i+OreP3K8xqiYBYrImO0fRyr7r5TLnriKDJHy+Ffxk5JC1qI0KYYYDzGOg
+   QgvPT1ePLxg2nnD9u5woGy2xClqccOF/drnruS2RXJcLE3pGmvQ0tNsyfhhKZF6jAQnNBMc522dG
+   TWq74w7sampDdIvxR60=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by pmta29.sailthru.com id hvgc002sd4sp for <bloomberg@khamel.com>; Thu, 3 Feb 2022 12:59:28 -0500 (envelope-from <delivery_20220203125755.26586412.267618@mx.sailthru.com>)
+Date: Thu, 3 Feb 2022 12:57:55 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220203125755.26586412.267618@sailthru.com>
+Subject: Money Stuff: Fear Is a Good Motivation for Fraud
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_12510142_1635969884.1643911075749"
+Precedence: bulk
+X-Feedback-ID: 6358:26586412:campaign:sailthru
+X-TM-ID: 20220203125755.26586412.267618
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-madbrick.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cftu7g.5qhu/f1c4096e
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cftu7g.5qhu/f1c4096e>, <mailto:unsubscribe_20220203125755.26586412.267618@mx.sailthru.com>
+X-rpcampaign: stjko26586412
+
+------=_Part_12510142_1635969884.1643911075749
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+FUDOne way to do fraud when you are pitching an investment is to lie abou
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+ =20
+   =20
+      FUD
+   =20
+ =20
+One way to do fraud when you are pitching an investment is to lie about the=
+ investment. =E2=80=9COur thing has guaranteed 20% monthly returns with no =
+risk,=E2=80=9D you say, and then you steal all the money. This is pretty co=
+mmon.Another=C2=A0way to do fraud when you are pitching an investment is to=
+ lie about the=C2=A0alternatives. =E2=80=9CIf you put money in a bank or th=
+e stock market it will all be stolen from you by vampires; only our thing c=
+an protect you from that.=E2=80=9D (Then you steal all the money.) This is =
+=E2=80=A6 also pretty common? A lot of financial frauds seem to appeal to p=
+eople with a conspiratorial mind-set; they are happy to believe that the re=
+gular system is stacked against them and they need to give their money to a=
+ scammer to protect themselves.=C2=A0It probably will not surprise you much=
+ to learn that an alleged gold-coin-investing scam allegedly did both. Here=
+=E2=80=99s a U.S. Securities and Exchange Commission enforcement action aga=
+inst Safeguard Metals LLC and its owner Jeffrey Santulan; from the complain=
+t:Guided by scripts, some of which were prepared by Santulan, Safeguard sal=
+es agents made false and misleading statements to investors about the purpo=
+rted risks associated with the investors=E2=80=99 existing securities holdi=
+ngs at investment banks and brokerage firms. For example, Safeguard=E2=80=
+=99s sales agents stated that a =E2=80=9CMoney Market Reform Law=E2=80=9D a=
+llowed banks and brokerage firms to freeze retirement accounts in the event=
+ of a market downturn; that top financial experts in the United States were=
+ saying that another recession was coming very soon; and that when that hap=
+pened, the investors=E2=80=99 accounts would be frozen and they would not b=
+e able to get any money out of their 401(k) plans or Individual Retirement =
+Accounts (=E2=80=9CIRAs=E2=80=9D). These statements were misleading because=
+, among other things, the law that Safeguard referenced applied only to mon=
+ey market funds in rare circumstances and could not result in an individual=
+=E2=80=99s entire account being frozen.Honestly if you were susceptible to =
+Safeguard=E2=80=99s pitch this is not very reassuring?Scammer: A new law al=
+lows the government to freeze your retirement accounts! Buy gold!You: Ooh t=
+hat sounds bad.The SEC: Actually that law only applies in rare circumstance=
+s.You:=C2=A0Somehow that sounds worse?Really if all they did was misreprese=
+nt the importance of money-market-fund reform I feel like they=E2=80=99d ha=
+ve a decent defense? That would be a fun trial to do, like, the SEC puts yo=
+u on trial for lying about the safety of the traditional financial system, =
+and you turn around and put the traditional financial system on trial. Also=
+ though:Safeguard and Santulan also allegedly misled investors about Safegu=
+ard=E2=80=99s commissions and markups on the coins, charging average markup=
+s of approximately 64% on its sales of silver coins, instead of the 4% to 3=
+3% markups that they disclosed to investors. According to the complaint, Sa=
+feguard obtained approximately $67 million from the sale of coins to more t=
+han 450 mostly elderly, retail investors, and kept approximately $25.5 mill=
+ion in mark ups.And:Safeguard=E2=80=99s sales agents, in calls to potential=
+ investors, lied about their investment experience and qualifications. For =
+example, in a script provided to safeguard=E2=80=99s sales agents, an =E2=
+=80=9Copener=E2=80=9D sales agent was directed to introduce a =E2=80=9Cclos=
+er=E2=80=9D sales agent to the potential investor as a =E2=80=9Csenior repr=
+esentative [who] has been helping retirees/conservatives protect their weal=
+th for over 17 years now, including back in =E2=80=9908. He actually specia=
+lizes in 401k/IRAs and has far more expertise on your particular situation.=
+=E2=80=9D None of Safeguard=E2=80=99s employees had experience remotely fit=
+ting that description.That=E2=80=99s harder to defend.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Wormhole
+   =20
+ =20
+We have  talked a few  times=C2=A0about the appeal of crypto for traditiona=
+l high-tech trading firms. The appeal is in very important part=C2=A0intell=
+ectual: You have spent years mastering the complexities of market structure=
+ and making invisible incremental improvements, and then one day you get an=
+ entirely blank canvas on which to make up a whole new market structure; if=
+ you=E2=80=99re a person who loves market structure this just has to be mor=
+e fun than the incremental stuff.But of course the appeal is also in very i=
+mportant part financial. So much dumb stuff happens in crypto, and if you a=
+re a smart intermediary that dumb stuff is your profit margin. Crypto marke=
+ts are lightly regulated and brutally Darwinian, and every day the smart fi=
+nd exciting  new ways to take money from the dumb. The returns to smart are=
+ very high.There is a small tension between these points. If you are intell=
+ectually ambitious you will want to build cool new stuff that has never bee=
+n done before; you will want every day to be an adventure of discovery. The=
+ attraction of leaving traditional finance for crypto is that you have lear=
+ned everything worth knowing about your corner of traditional market struct=
+ure and now you want to learn new things. In your corner of traditional mar=
+ket structure you were maximally smart, having learned from long experience=
+ in a competitive business. In crypto you are ... very very smart, yes, wit=
+h lots of relevant technological and markets knowledge that you can apply i=
+n new contexts, but perhaps imperfect. You are doing=C2=A0new ambitious stu=
+ff. You might get a teeny thing wrong here or there. And crypto has built a=
+n incredibly efficient system to punish that! For instance:Wormhole, a comm=
+unication bridge between Solana and other decentralized-finance blockchain =
+networks, said all funds have been restored and the platform is back up aft=
+er hackers stole about $320 million in cryptocurrency.The online thieves ma=
+de away with 120,000 wETH, or so-called wrapped Ether, the project=E2=80=99=
+s team said on Twitter Wednesday. On Thursday morning, the team said =E2=80=
+=9Call funds have been restored,=E2=80=9D without specifying the source of =
+the funding. Earlier, the project pledged to add Ether to ensure the wETH i=
+s backed one-for-one.=C2=A0The vulnerability has been patched, Wormhole man=
+agement said on the project=E2=80=99s Telegram channel on Thursday, reassur=
+ing users that funds are safe. It added an official statement and incident =
+report would be issued in due course. =E2=80=A6Wormhole developers offered =
+the hacker a $10 million bug bounty for exploit details and the return of t=
+he funds.Jump Trading Group announced in August that it bought Certus One, =
+which helped develop Wormhole. Jump has said it is a founding code contribu=
+tor to Wormhole. Certus One offers infrastructure services for proof-of-sta=
+ke blockchains and has been an active participant in decentralized networks=
+ including Cosmos, Terra, Solana and next-generation Ethereum.Jump is a lea=
+ding high-frequency trading firm that has gotten very into crypto. It is no=
+t clear where the money came from to restore the stolen funds, but the obvi=
+ous speculation is that it might have come from Jump. (=E2=80=9CA represent=
+ative for Jump Trading didn=E2=80=99t respond to a request for comment on W=
+ednesday.=E2=80=9D) Here is a Twitter thread explaining the exploit, and he=
+re is a report that the vulnerability was discovered and a =E2=80=9Cfix was=
+ pushed to GitHub a couple weeks ago but not deployed. So the attacker foun=
+d the exploit by scanning the commits to GitHub.=E2=80=9DIncidentally this =
+is sort of a nice metaphor for the fact that an  apparently huge source of =
+alpha in crypto consists of:=09There is a mistake.=09People notice the mist=
+ake and try to correct it.=09Because crypto is all open-source and on the b=
+lockchain, you can=C2=A0see them trying to correct it.=09Because crypto  ef=
+fectively conducts auctions to decide whose transactions go first, you can =
+jump ahead of them in line and exploit the mistake before they can correct =
+it.The attempts to correct the mistake are what tip off the exploiters. The=
+ classic =E2=80=9CEthereum is a Dark Forest=E2=80=9D story is an example of=
+ this: Someone noticed a flaw in a smart contract, but any effort to correc=
+t it would tip off arbitrage bots who would front-run it. We  talked the ot=
+her day about a bug in OpenSea that caused some people to sell their non-fu=
+ngible tokens for less than they were worth under old, un-canceled listings=
+; the obvious fix when this was discovered was to cancel your old listings,=
+ but people who tried to do that also got front-run.Anyway I guess the poin=
+t is that if you get into trading and building market infrastructure in cry=
+pto, some days the money will vanish and you=E2=80=99ll have to stump up $3=
+00 million to cover customer losses and maintain confidence in your market,=
+ and it will be worth it. That=E2=80=99s a good sign for how lucrative it i=
+s on the other days.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      ARK
+   =20
+ =20
+One thing that I  like to  say around here is that=C2=A0the primary job of =
+a hedge fund manager is not picking stocks that go up, but rather continuin=
+g to manage a hedge fund. If you lose a bunch of investor money one year an=
+d the investors don=E2=80=99t take the rest of the money back =E2=80=94=C2=
+=A0due to your personal charm or a reassuring previous history of performan=
+ce or a=C2=A0compelling turnaround thesis or contractual lockups =E2=80=94=
+=C2=A0then you had a pretty good year.This is much=C2=A0more=C2=A0true of a=
+ mutual fund manager, or an exchange-traded fund manager, just due to the c=
+ompensation scheme. If you run a hedge fund you charge fees of something li=
+ke 2% of=C2=A0assets under management and 20% of profits; if you lose money=
+ then your fees are not what you hoped for. If you run a mutual fund or ETF=
+ you collect something like 0.5% of assets under management, and you genera=
+lly don=E2=80=99t get a performance fee. Compensation-wise, the whole game =
+is gathering lots of assets and keeping them them. Of course performance is=
+ helpful in gathering assets, and of course losing money reduces your asset=
+s and thus your fees. But good performance is not the only way to gather as=
+sets, or to keep them.Here=E2=80=99s a story about ARK Investment Managemen=
+t and its celebrity founder and manager Cathie Wood that contains an incred=
+ible accolade (emphasis added):After a stellar 2020 in which it outshone ju=
+st about everyone on Wall Street, ARK=E2=80=99s had a brutal 12 months. Its=
+ flagship fund, the ARK Innovation ETF, has plunged more than 45% because o=
+f its big bets on speculative technology-related companies. The S&P 500 ind=
+ex has returned about 20% over the same period. Manager and ARK founder Cat=
+hie Wood is perhaps best known for her huge commitment to Tesla Inc., and t=
+hat stock is still positive compared with a year ago. But other top holding=
+s including streaming device maker Roku, crypto exchange Coinbase Global, a=
+nd virtual health-care provider Teladoc Health have tumbled.Say what you wi=
+ll about Wood=E2=80=94and in online forums, on message boards, and across s=
+ocial media, they pretty much say it all=E2=80=94few money managers have ev=
+er lost as much cash yet kept so many investors. Although the Innovation fu=
+nd=E2=80=99s assets had dropped by more than $15 billion from their peak in=
+ February 2021 through to the end of January, the largest portion of that r=
+eflects the declining value of its holdings. Less than 10% stemmed from inv=
+estor withdrawals, and the fund ended the month with $13 billion in assets.=
+ With a day=E2=80=99s worth of flow data in January still to come, the ETF =
+had posted net inflows in 2022, even as it slumped about 20%.=E2=80=9CShe l=
+ost so much cash but kept so many investors=E2=80=9D is perhaps not the nic=
+est thing you can say about a=C2=A0stock-picker, but it is=C2=A0the very ni=
+cest thing you could possibly say about a fund manager. Anyone can attract =
+investors by making a lot of money for them; keeping investors after losing=
+ a lot of money for them is the real skill. It is not too hard to explain h=
+ow she has done it =E2=80=94=C2=A0a strong personal brand in an increasingl=
+y dull industry, strongly held and intuitive arguments for why her thesis i=
+s still right, a history of past performance =E2=80=94=C2=A0but that doesn=
+=E2=80=99t make it easy to replicate.=C2=A0Also I will say that in a world =
+of meme stocks it sort of makes sense that an investment manager who=E2=80=
+=99s down 45% would still be a huge draw. The whole story of the 2020s stoc=
+k market is that it=E2=80=99s not about fundamentals anymore; why shouldn=
+=E2=80=99t the ETF market work the same way?
+ =20
+   =20
+      Google split
+   =20
+ =20
+I wrote=C2=A0yesterday about Alphabet Inc.=E2=80=99s stock split, which I c=
+haracterized as a weird aesthetic appeal to retail investors who want to ow=
+n a whole share of Google even though 0.1 shares is about 0.1 times as good=
+. A couple of people pointed out that there are in fact practical benefits =
+to having a low nominal stock price. For instance, while many U.S. retail b=
+rokers are cool with fractional shares, it is perhaps easier to give employ=
+ees share-based compensation in whole shares, and so a lower nominal stock =
+price helps.Another big one is listed options, which ordinarily come in con=
+tracts covering 100 shares. Byrne Hobart notes:But there's another constitu=
+ency that matters: degenerate gamblers who trade options! A single at-the-m=
+oney call contract for March covers 100 shares of Alphabet with a notional =
+value of $296,000, requires a $12,000 cash outlay right now. =E2=80=A6 The =
+average Robinhood account has $4,317, which keeps options on high-priced st=
+ocks far out of reach. A split makes it easier for Robinhood customers to s=
+peculate in options, and options-driven speculation is still growing ($, FT=
+), and has an outsized impact given that options traders must buy the under=
+lying when the stock goes up, while retail options traders have a tendency =
+to respond to gains by buying more options.=C2=A0Two years ago if you had a=
+sked me =E2=80=9Cdo trillion-dollar companies=C2=A0make corporate finance d=
+ecisions to appeal to retail options traders=E2=80=9D I would have been ver=
+y confused but now, I mean, who else would you make corporate finance decis=
+ions for?We have  talked before about Cboe Global Markets Inc.=E2=80=99s =
+=E2=80=9CNanos=E2=80=9D index options, which are scheduled to launch this y=
+ear and will give retail traders a way to gamble cheaply on the S&P 500. I =
+tell you what, whoever launches single-share single-stock options is going =
+to make a fortune.
+ =20
+   =20
+      Gotcha!
+   =20
+ =20
+We have talked recently about  two  lawsuits over=C2=A0Elon Musk=E2=80=99s =
+2018 tweet saying =E2=80=9CAm considering taking Tesla private at $420. Fun=
+ding secured.=E2=80=9D In one lawsuit, JPMorgan Chase & Co. has sued Tesla =
+Inc. claiming that this tweet constituted a formal announcement by Tesla th=
+at it intended to enter into a merger agreement, which would entitle JPMorg=
+an to a nine-digit payout under some Tesla warrants that it owned. In the o=
+ther lawsuit, some Tesla shareholders have sued Musk, claiming that this tw=
+eet constituted securities fraud because Musk was never really going to tak=
+e Tesla private.A couple of readers emailed me yesterday to say: Wait, if M=
+usk wins one case, doesn=E2=80=99t he lose the other? Either the tweet was =
+serious or it wasn=E2=80=99t. If it was serious, then it was a merger annou=
+ncement that triggered an adjustment to JPMorgan=E2=80=99s warrants; if it =
+wasn=E2=80=99t serious it was fraud.I do love this argument and so I am pas=
+sing it along to you, but I do not think it is actually correct. Tesla=E2=
+=80=99s counterargument to JPMorgan is not actually =E2=80=9Ccome on he was=
+ kidding=E2=80=9D; it is that =E2=80=9CMr. Musk=E2=80=99s personal consider=
+ation of a possible transaction to take Tesla private was not tantamount to=
+ a buyout announcement by the company.=E2=80=9D He really was =E2=80=9Ccons=
+idering taking Tesla private,=E2=80=9D maybe he even had funding secured wh=
+y not, but that doesn=E2=80=99t trigger the merger provisions of the warran=
+ts because Tesla had not accepted a deal.[1]Similarly Musk=E2=80=99s counte=
+rargument to the shareholder plaintiffs is not =E2=80=9Cactually I really w=
+as going to take Tesla private,=E2=80=9D it=E2=80=99s that he was actually=
+=C2=A0considering=C2=A0it, and that he actually=C2=A0had funding lined up.[=
+2] It is=C2=A0weird=C2=A0for a corporate chief executive officer to announc=
+e that he is=C2=A0pondering=C2=A0a going-private transaction; normally you =
+wait until the deal is pretty baked before doing a thing like that. But it =
+is not, in itself, fraud, and if the literal words that Musk wrote were tru=
+e then that could be not-fraud but also not-a-merger.
+ =20
+   =20
+      You can=E2=80=99t fondle the cube
+   =20
+ =20
+Sure whatever:This morning, joggers in New York=E2=80=99s Central Park may =
+have come across a curious, rather illustrious sight. A cube composed of 18=
+6 kilograms of pure 24-karat gold, conceived by the German artist Niclas Ca=
+stello who has billed it as a conceptual =E2=80=9Csocle du monde=E2=80=9D (=
+base of the world) sculpture for our time, was wheeled out to the Naumburg =
+Bandshell this morning at around 5 a.m.=C2=A0Although the work is not for s=
+ale, according to the artist=E2=80=99s team, based on the current price of =
+gold at $1,788 per ounce, its material worth is around $11.7 million. Flank=
+ed by a heavy security detail, the 410-pound work is set to be displayed in=
+ the park until the day=E2=80=99s end.Is there an accompanying non-fungible=
+ token? I can=E2=80=99t believe you would even ask that.=E2=80=9CThe cube c=
+an be seen as a sort of communiqu=C3=A9 between an emerging 21st-century cu=
+ltural ecosystem based on crypto and the ancient world where gold reigned s=
+upreme,=E2=80=9D says the Viennese gallerist Lisa Kandlhofer, who was in Ne=
+w York for the artwork=E2=80=99s launch.Disappointingly the cube is hollow?=
+ And comes up to your knee?[3] And here=E2=80=99s some more art guff:In a m=
+essage sent this morning to Artnet News, Castello called the work =E2=80=9C=
+a conceptual work of art in all its facets.=E2=80=9D He said the idea was t=
+o =E2=80=9Ccreate something that is beyond our world=E2=80=94that is intang=
+ible.=E2=80=9D=C2=A0Is it intangible? No, in the sense that a cube of gold =
+is a pretty literal solid physical object that is worth a lot of money just=
+ in materials. Yes, in the sense that the security guards will not let you =
+touch it.Elsewhere in =E2=80=A6=C2=A0art news? =E2=80=A6=C2=A0=E2=80=9CSoth=
+eby=E2=80=99s Is Selling an Immense Black Diamond It Claims Came From Outer=
+ Space.=E2=80=9D
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Meta Faces  Historic Stock Rout After Facebook Growth Stalled. PayPal Stock=
+ Tumbles After Disappointing Earnings Guidance. Joe Biden=E2=80=99s nominee=
+ for top Fed watchdog signals tough stance on banks. Biggest  Texas Bitcoin=
+ Miner Shuts Down Ahead of Cold Blast. Pool of  Negative-Yielding Debt Is N=
+ow the Least in Three Years.=C2=A0France Probes Orpea as =E2=80=98Gravedigg=
+ers=E2=80=99 Book Sparks Outrage. How Miami became the most important city =
+in America.=C2=A0Jeff Bezos=E2=80=99s New Superyacht to Force  Dismantling =
+of Dutch Bridge.=C2=A0Giuliani=E2=80=99s  =E2=80=98Masked Singer=E2=80=99 C=
+ameo Reportedly Prompts Walk Off.If you'd like to get=C2=A0Money=C2=A0Stuff=
+=C2=A0in handy email form, right in your inbox, please=C2=A0subscribe at th=
+is link. Or you can subscribe to Money Stuff and other great Bloomberg news=
+letters here. Thanks![1] For my part I think that this is probably correct =
+but also that Tesla has even more compelling counterarguments, the main one=
+ being that the justification for JPMorgan to adjust the warrants on a merg=
+er event =E2=80=94=C2=A0that a merger event would crush Tesla=E2=80=99s vol=
+atility =E2=80=94=C2=A0was just manifestly untrue here. If=C2=A0JPMorgan ad=
+justed the warrant strikes down for the =E2=80=9Cannouncement=E2=80=9D of a=
+ =E2=80=9Cmerger,=E2=80=9D it had to adjust them back up for the =E2=80=9Ca=
+bandonment=E2=80=9D of that =E2=80=9Cmerger,=E2=80=9D which it did, but in =
+a comically stingy way that Tesla, I think correctly, objects to.[2] For my=
+ part:  No he didn=E2=80=99t come on.[3] =E2=80=9CThe cube measures over a =
+foot and a half on all sides and has a wall thickness of about a quarter in=
+ch.=E2=80=9D My rough math suggests that if it was solid it would weigh mor=
+e than two tons and be worth=C2=A0something like $150=C2=A0million.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cftu7g.5qhu/ce5afff3.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_12510142_1635969884.1643911075749
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.FUDOne w=
+ay to do fraud when you are pitching an investment is to lie abou
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjU4NjQxMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4NTQwMzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBbb32d460" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26586412&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26854030&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMjAzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB7fcf4c20"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjU4NjQxMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4NTQwMzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC61c49a0e" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26586412&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26854030&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note: </strong><em>Money S=
+tuff will be off tomorrow, back on Monday.</em></p><table class=3D"header" =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">FUD</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One way to do fraud when you are pitch=
+ing an investment is to lie about the investment. =E2=80=9COur thing has gu=
+aranteed 20% monthly returns with no risk,=E2=80=9D you say, and then you s=
+teal all the money. This is pretty common.</p><p style=3D"margin: 16px 0;">=
+Another=C2=A0way to do fraud when you are pitching an investment is to lie =
+about the=C2=A0<em>alternatives</em>. =E2=80=9CIf you put money in a bank o=
+r the stock market it will all be stolen from you by vampires; only our thi=
+ng can protect you from that.=E2=80=9D (Then you steal all the money.) This=
+ is =E2=80=A6 also pretty common? A lot of financial frauds seem to appeal =
+to people with a conspiratorial mind-set; they are happy to believe that th=
+e regular system is stacked against them and they need to give their money =
+to a scammer to protect themselves.=C2=A0</p><p style=3D"margin: 16px 0;">I=
+t probably will not surprise you much to learn that an alleged gold-coin-in=
+vesting scam allegedly did both. Here=E2=80=99s a <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMi0xNw/607f07ceef4b8524a319a23cB07f56fa2" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">U.S. Securities and Exchange Commission enforcement action</a> against =
+Safeguard Metals LLC and its owner Jeffrey Santulan; from <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cuc2V=
+jLmdvdi9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMi9jb21wLXByMjAyMi0xNy5wZGY/607f07=
+ceef4b8524a319a23cBa20e9289" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">the complaint</a>:</p><blockquote><p s=
+tyle=3D"margin: 16px 0;">Guided by scripts, some of which were prepared by =
+Santulan, Safeguard sales agents made false and misleading statements to in=
+vestors about the purported risks associated with the investors=E2=80=99 ex=
+isting securities holdings at investment banks and brokerage firms. For exa=
+mple, Safeguard=E2=80=99s sales agents stated that a =E2=80=9CMoney Market =
+Reform Law=E2=80=9D allowed banks and brokerage firms to freeze retirement =
+accounts in the event of a market downturn; that top financial experts in t=
+he United States were saying that another recession was coming very soon; a=
+nd that when that happened, the investors=E2=80=99 accounts would be frozen=
+ and they would not be able to get any money out of their 401(k) plans or I=
+ndividual Retirement Accounts (=E2=80=9CIRAs=E2=80=9D). These statements we=
+re misleading because, among other things, the law that Safeguard reference=
+d applied only to money market funds in rare circumstances and could not re=
+sult in an individual=E2=80=99s entire account being frozen.</p></blockquot=
+e><p style=3D"margin: 16px 0;">Honestly if you were susceptible to Safeguar=
+d=E2=80=99s pitch this is not very reassuring?</p><blockquote><p style=3D"m=
+argin: 16px 0;"><strong>Scammer:</strong> A new law allows the government t=
+o freeze your retirement accounts! Buy gold!</p><p style=3D"margin: 16px 0;=
+"><strong>You:</strong> Ooh that sounds bad.</p><p style=3D"margin: 16px 0;=
+"><strong>The SEC:</strong> Actually that law only applies in rare circumst=
+ances.</p><p style=3D"margin: 16px 0;"><strong>You:</strong>=C2=A0Somehow t=
+hat sounds worse?</p></blockquote><p style=3D"margin: 16px 0;">Really if al=
+l they did was misrepresent the importance of <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly9pbnZlc3Rvci52YW5ndWF=
+yZC5jb20vbXV0dWFsLWZ1bmRzL21vbmV5LW1hcmtldC1yZWZvcm0v/607f07ceef4b8524a319a=
+23cBcce951de" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">money-market-fund reform</a> I feel like they=E2=80=
+=99d have a decent defense? That would be a fun trial to do, like, the SEC =
+puts you on trial for lying about the safety of the traditional financial s=
+ystem, and you turn around and put the traditional financial system on tria=
+l. Also though:</p><blockquote><p style=3D"margin: 16px 0;">Safeguard and S=
+antulan also allegedly misled investors about Safeguard=E2=80=99s commissio=
+ns and markups on the coins, charging average markups of approximately 64% =
+on its sales of silver coins, instead of the 4% to 33% markups that they di=
+sclosed to investors. According to the complaint, Safeguard obtained approx=
+imately $67 million from the sale of coins to more than 450 mostly elderly,=
+ retail investors, and kept approximately $25.5 million in mark ups.</p></b=
+lockquote><p style=3D"margin: 16px 0;">And:</p><blockquote><p style=3D"marg=
+in: 16px 0;">Safeguard=E2=80=99s sales agents, in calls to potential invest=
+ors, lied about their investment experience and qualifications. For example=
+, in a script provided to safeguard=E2=80=99s sales agents, an =E2=80=9Cope=
+ner=E2=80=9D sales agent was directed to introduce a =E2=80=9Ccloser=E2=80=
+=9D sales agent to the potential investor as a =E2=80=9Csenior representati=
+ve [who] has been helping retirees/conservatives protect their wealth for o=
+ver 17 years now, including back in =E2=80=9908. He actually specializes in=
+ 401k/IRAs and has far more expertise on your particular situation.=E2=80=
+=9D None of Safeguard=E2=80=99s employees had experience remotely fitting t=
+hat description.</p></blockquote><p style=3D"margin: 16px 0;">That=E2=80=99=
+s harder to defend.</p><table class=3D"liveintent-sponsored-content" width=
+=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjU4NjQxMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4NTQwMzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD98e7e395" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26586412&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26854030&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjU4NjQxMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4NTQwMzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE98e7e395" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26586412&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26854030&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjU4NjQxMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4NTQwMzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF8b473d53" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26586412&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26854030&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjU4NjQxMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4NTQwMzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG8b473d53" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26586412&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26854030&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Wormhole</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtMTEvd2hvLWNhbi1yZXNpc3QtdGhlLWNyeXB0by1=
+ib29tP2NtcGlkPUJCRDAyMDMyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdX=
+JjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/60=
+7f07ceef4b8524a319a23cB1fdceb23" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> talked</a> a few <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTEvY3J5cHRvLW1hcmtldHMtY=
+XJlLXdoZXJlLXRoZS1mdW4taXM_Y21waWQ9QkJEMDIwMzIyX01PTkVZU1RVRkYmdXRtX21lZGl1=
+bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjAzJnV0bV9jYW1wYWl=
+nbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3ba8ed74" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> times</a>=C2=
+=A0about the appeal of crypto for traditional high-tech trading firms. The =
+appeal is in very important part=C2=A0<em>intellectual</em>: You have spent=
+ years mastering the complexities of market structure and making invisible =
+incremental improvements, and then one day you get an entirely blank canvas=
+ on which to make up a whole new market structure; if you=E2=80=99re a pers=
+on who loves market structure this just has to be more fun than the increme=
+ntal stuff.</p><p style=3D"margin: 16px 0;">But of course the appeal is als=
+o in very important part financial. <em>So much dumb stuff</em> happens in =
+crypto, and if you are a smart intermediary that dumb stuff is your profit =
+margin. Crypto markets are lightly regulated and brutally Darwinian, and ev=
+ery day the smart find exciting <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/26586412.267618/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjItMDEtMjUvdGhlLWFwZXMtaGF2ZS1mYXQtZmluZ2Vycz9jbXBpZD1CQkQw=
+MjAzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMjAyMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cB5721def6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> new ways to take money from the dumb</a>. The returns=
+ to smart are very high.</p><p style=3D"margin: 16px 0;">There is a small t=
+ension between these points. If you are intellectually ambitious you will w=
+ant to build cool new stuff that has never been done before; you will want =
+every day to be an adventure of discovery. The attraction of leaving tradit=
+ional finance for crypto is that you have learned everything worth knowing =
+about your corner of traditional market structure and now you want to learn=
+ new things. In your corner of traditional market structure you were maxima=
+lly smart, having learned from long experience in a competitive business. I=
+n crypto you are ... very very smart, yes, with lots of relevant technologi=
+cal and markets knowledge that you can apply in new contexts, but perhaps <=
+em>imperfect</em>. You are doing=C2=A0new ambitious stuff. You might get a =
+teeny thing wrong here or there. And crypto has built an incredibly efficie=
+nt system to punish that!</p><p style=3D"margin: 16px 0;"><a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDIvYmxvY2tjaGFpbi1icmlkZ2Utd2=
+9ybWhvbGUtaGl0LXdpdGgtcG90ZW50aWFsLTMxNS1taWxsaW9uLWhhY2s_Y21waWQ9QkJEMDIwM=
+zIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjIwMjAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB0=
+9785c31" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> For instance</a>:</p><blockquote><p style=3D"margin: 16px=
+ 0;">Wormhole, a communication bridge between Solana and other decentralize=
+d-finance blockchain networks, said all funds have been restored and the pl=
+atform is back up after hackers stole about $320 million in cryptocurrency.=
+</p><p style=3D"margin: 16px 0;">The online thieves made away with 120,000 =
+wETH, or so-called wrapped Ether, the project=E2=80=99s team said on Twitte=
+r Wednesday. On Thursday morning, the team said =E2=80=9Call funds have bee=
+n restored,=E2=80=9D without specifying the source of the funding. Earlier,=
+ the project pledged to add Ether to ensure the wETH is backed one-for-one.=
+=C2=A0</p><p style=3D"margin: 16px 0;">The vulnerability has been patched, =
+Wormhole management said on the project=E2=80=99s Telegram channel on Thurs=
+day, reassuring users that funds are safe. It added an official statement a=
+nd incident report would be issued in due course. =E2=80=A6</p><p style=3D"=
+margin: 16px 0;">Wormhole developers offered the hacker a $10 million bug b=
+ounty for exploit details and the return of the funds.</p><p style=3D"margi=
+n: 16px 0;">Jump Trading Group announced in August that it bought Certus On=
+e, which helped develop Wormhole. Jump has said it is a founding code contr=
+ibutor to Wormhole. Certus One offers infrastructure services for proof-of-=
+stake blockchains and has been an active participant in decentralized netwo=
+rks including Cosmos, Terra, Solana and next-generation Ethereum.</p></bloc=
+kquote><p style=3D"margin: 16px 0;">Jump is a leading high-frequency tradin=
+g firm that has gotten very into crypto. It is not clear where the money ca=
+me from to restore the stolen funds, but the <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/26586412.267618/aHR0cHM6Ly90d2l0dGVyLmNvbS9LeWxl=
+U2FtYW5pL3N0YXR1cy8xNDg5MjUzMTc5NTQzODYzMjk2/607f07ceef4b8524a319a23cB32a90=
+276" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">obvious speculation</a> is that it might have come from Jump. =
+(=E2=80=9CA representative for Jump Trading didn=E2=80=99t respond to a req=
+uest for comment on Wednesday.=E2=80=9D) Here is a <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly90d2l0dGVyLmNvbS=
+9zYW1jenN1bi9zdGF0dXMvMTQ4OTA0NDkzOTczMjQwNjI3NQ/607f07ceef4b8524a319a23cBd=
+2024e9a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">Twitter thread</a> explaining the exploit, and <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly90d=
+2l0dGVyLmNvbS9EZWRtdW5kRml0emdybGQvc3RhdHVzLzE0ODkwOTI2NjQxNDY0MTU2MjI/607f=
+07ceef4b8524a319a23cB5c889f89" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">here is a report</a> that the vulner=
+ability was discovered and a =E2=80=9Cfix was pushed to GitHub a couple wee=
+ks ago but not deployed. So the attacker found the exploit by scanning the =
+commits to GitHub.=E2=80=9D</p><p style=3D"margin: 16px 0;">Incidentally th=
+is is sort of a nice metaphor for the fact that an <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMTMvdGhlLXRydW1wLXNwYWMtcGlwZS1pc=
+y1mcmVlLW1vbmV5P2NtcGlkPUJCRDAyMDMyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwm=
+dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDIwMyZ1dG1fY2FtcGFpZ249bW9uZXl=
+zdHVmZg/607f07ceef4b8524a319a23cBe4285978" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> apparently huge source =
+of alpha</a> in crypto consists of:</p><ol style=3D"list-style-type: decima=
+l; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;=
+">There is a mistake.</li>=09<li style=3D"margin-bottom: 5px;">People notic=
+e the mistake and try to correct it.</li>=09<li style=3D"margin-bottom: 5px=
+;">Because crypto is all open-source and on the blockchain, you can=C2=A0<e=
+m>see them trying to correct it</em>.</li>=09<li style=3D"margin-bottom: 5p=
+x;">Because crypto <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/26586412.267618/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjEtMTItMTMvdGhlLXRydW1wLXNwYWMtcGlwZS1pcy1mcmVlLW1vbmV5P2NtcGlkPUJCRDAyM=
+DMyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIyMDIwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+Ce4285978" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> effectively conducts auctions</a> to decide whose trans=
+actions go first, you can jump ahead of them in line and exploit the mistak=
+e before they can correct it.</li></ol><p style=3D"margin: 16px 0;">The att=
+empts to correct the mistake are what tip off the exploiters. The classic =
+=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.=
+267618/aHR0cHM6Ly93d3cucGFyYWRpZ20ueHl6LzIwMjAvMDgvZXRoZXJldW0taXMtYS1kYXJr=
+LWZvcmVzdA/607f07ceef4b8524a319a23cBb5b9c04a" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Ethereum is a Dark Fo=
+rest</a>=E2=80=9D story is an example of this: Someone noticed a flaw in a =
+smart contract, but any effort to correct it would tip off arbitrage bots w=
+ho would front-run it. We <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/26586412.267618/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjItMDEtMjUvdGhlLWFwZXMtaGF2ZS1mYXQtZmluZ2Vycz9jbXBpZD1CQkQwMjAzMj=
+JfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fd=
+GVybT0yMjAyMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cC572=
+1def6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> talked the other day</a> about a bug in OpenSea that caused=
+ some people to sell their non-fungible tokens for less than they were wort=
+h under old, un-canceled listings; the obvious fix when this was discovered=
+ was to cancel your old listings, but people who tried to do that <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6L=
+y90d2l0dGVyLmNvbS9kaW5nYWxpbmd0cy9zdGF0dXMvMTQ4NjY1NDQzNzU0ODc3MzM3Ng/607f0=
+7ceef4b8524a319a23cB997b7d67" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">also got front-run</a>.</p><p style=
+=3D"margin: 16px 0;">Anyway I guess the point is that if you get into tradi=
+ng and building market infrastructure in crypto, some days the money will v=
+anish and you=E2=80=99ll have to stump up $300 million to cover customer lo=
+sses and maintain confidence in your market, and <em>it will be worth it.</=
+em> That=E2=80=99s a good sign for how lucrative it is on the other days.</=
+p><table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjU4NjQxMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4NTQwMzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH43c5eb78" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26586412&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26854030&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">ARK</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One thing that I <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDgtMjQvaGVkZ2UtZnVuZHMtd2FudC10by=
+1zdGF5LXBvcHVsYXI_Y21waWQ9QkJEMDIwMzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpb=
+CZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjAzJnV0bV9jYW1wYWlnbj1tb25l=
+eXN0dWZm/607f07ceef4b8524a319a23cBb1f97f42" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> like</a> to <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDItMDEvaGVkZ2UtZnVuZHM=
+tYXJlLWEtam9iLW5vdz9jbXBpZD1CQkQwMjAzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYW=
+lsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDMmdXRtX2NhbXBhaWduPW1vb=
+mV5c3R1ZmY/607f07ceef4b8524a319a23cB1b02b56b" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> say</a> around here =
+is that=C2=A0the primary job of a hedge fund manager is not picking stocks =
+that go up, but rather continuing to manage a hedge fund. If you lose a bun=
+ch of investor money one year and the investors don=E2=80=99t take the rest=
+ of the money back =E2=80=94=C2=A0due to your personal charm or a reassurin=
+g previous history of performance or a=C2=A0compelling turnaround thesis or=
+ contractual lockups =E2=80=94=C2=A0then you had a pretty good year.</p><p =
+style=3D"margin: 16px 0;">This is much=C2=A0<em>more=C2=A0</em>true of a mu=
+tual fund manager, or an exchange-traded fund manager, just due to the comp=
+ensation scheme. If you run a hedge fund you charge fees of something like =
+2% of=C2=A0assets under management and 20% of profits; if you lose money th=
+en your fees are not what you hoped for. If you run a mutual fund or ETF yo=
+u collect something like 0.5% of assets under management, and you generally=
+ don=E2=80=99t get a performance fee. Compensation-wise, the whole game is =
+gathering lots of assets and keeping them them. Of course performance is he=
+lpful in gathering assets, and of course losing money reduces your assets a=
+nd thus your fees. But good performance is not the only way to gather asset=
+s, or to keep them.</p><p style=3D"margin: 16px 0;">Here=E2=80=99s <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDIvY2F0aGllLXdvb2Qt=
+cy10cnVlLWJlbGlldmVycy1hcmUtc3RpY2tpbmctd2l0aC1hcmstZGVzcGl0ZS1zdG9jay1pbnZ=
+lc3RtZW50LXdvZXM_Y21waWQ9QkJEMDIwMzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbC=
+Z1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjAzJnV0bV9jYW1wYWlnbj1tb25le=
+XN0dWZm/607f07ceef4b8524a319a23cB9a3b2629" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">a story about ARK Invest=
+ment Management</a> and its celebrity founder and manager Cathie Wood that =
+contains an incredible accolade (emphasis added):</p><blockquote><p style=
+=3D"margin: 16px 0;">After a stellar 2020 in which it outshone just about e=
+veryone on Wall Street, ARK=E2=80=99s had a brutal 12 months. Its flagship =
+fund, the ARK Innovation ETF, has plunged more than 45% because of its big =
+bets on speculative technology-related companies. The S&amp;P 500 index has=
+ returned about 20% over the same period. Manager and ARK founder Cathie Wo=
+od is perhaps best known for her huge commitment to Tesla Inc., and that st=
+ock is still positive compared with a year ago. But other top holdings incl=
+uding streaming device maker Roku, crypto exchange Coinbase Global, and vir=
+tual health-care provider Teladoc Health have tumbled.</p><p style=3D"margi=
+n: 16px 0;">Say what you will about Wood=E2=80=94and in online forums, on m=
+essage boards, and across social media, they pretty much say it all=E2=80=
+=94<strong>few money managers have ever lost as much cash yet kept so many =
+investors</strong>. Although the Innovation fund=E2=80=99s assets had dropp=
+ed by more than $15 billion from their peak in February 2021 through to the=
+ end of January, the largest portion of that reflects the declining value o=
+f its holdings. Less than 10% stemmed from investor withdrawals, and the fu=
+nd ended the month with $13 billion in assets. With a day=E2=80=99s worth o=
+f flow data in January still to come, the ETF had posted net inflows in 202=
+2, even as it slumped about 20%.</p></blockquote><p style=3D"margin: 16px 0=
+;">=E2=80=9CShe lost so much cash but kept so many investors=E2=80=9D is pe=
+rhaps not the nicest thing you can say about a=C2=A0<em>stock-picker</em>, =
+but it is=C2=A0the very nicest thing you could possibly say about a <em>fun=
+d manager</em>. Anyone can attract investors by making a lot of money for t=
+hem; keeping investors after losing a lot of money for them is the real ski=
+ll. It is not too hard to explain how she has done it =E2=80=94=C2=A0a stro=
+ng personal brand in an increasingly dull industry, strongly held and intui=
+tive arguments for why her thesis is still right, a history of past perform=
+ance =E2=80=94=C2=A0but that doesn=E2=80=99t make it easy to replicate.=C2=
+=A0</p><p style=3D"margin: 16px 0;">Also I will say that in a world of meme=
+ stocks it sort of makes sense that an investment manager who=E2=80=99s dow=
+n 45% would still be a huge draw. The whole story of the 2020s stock market=
+ is that it=E2=80=99s not about fundamentals anymore; why shouldn=E2=80=99t=
+ the ETF market work the same way?</p><table class=3D"header" width=3D"100%=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Google split</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjItMDItMDIvbW9uZXktc3R1ZmYtYmFua2luZy1ib251c2VzLXdlc=
+mUtYmlnLXRoaXMteWVhcj9jbXBpZD1CQkQwMjAzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVt=
+YWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDMmdXRtX2NhbXBhaWduPW1=
+vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBd0327687" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">wrote=C2=A0yesterda=
+y</a> about Alphabet Inc.=E2=80=99s stock split, which I characterized as a=
+ weird aesthetic appeal to retail investors who want to own a whole share o=
+f Google even though 0.1 shares is about 0.1 times as good. A couple of peo=
+ple pointed out that there are in fact practical benefits to having a low n=
+ominal stock price. For instance, while many U.S. retail brokers are cool w=
+ith fractional shares, it is perhaps easier to give employees share-based c=
+ompensation in whole shares, and so a lower nominal stock price helps.</p><=
+p style=3D"margin: 16px 0;">Another big one is listed options, which ordina=
+rily come in contracts covering 100 shares. <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cudGhlZGlmZi5jby9wL=
+3RoZS1zdXJwcmlzaW5nLWR1cmFiaWxpdHktb2YtZ29vZ2xlcw/607f07ceef4b8524a319a23cB=
+89fb47a4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">Byrne Hobart notes</a>:</p><blockquote><p style=3D"margin=
+: 16px 0;">But there's another constituency that matters: degenerate gamble=
+rs who trade options! A single at-the-money call contract for March covers =
+100 shares of Alphabet with a notional value of $296,000, requires a $12,00=
+0 cash outlay right now. =E2=80=A6 The average Robinhood account has $4,317=
+, which keeps options on high-priced stocks far out of reach. A split makes=
+ it easier for Robinhood customers to speculate in options, and options-dri=
+ven speculation is still growing ($, FT), and has an outsized impact given =
+that options traders must buy the underlying when the stock goes up, while =
+retail options traders have a tendency to respond to gains by buying more o=
+ptions.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Two years ago if=
+ you had asked me =E2=80=9Cdo trillion-dollar companies=C2=A0make corporate=
+ finance decisions to appeal to retail options traders=E2=80=9D I would hav=
+e been very confused but now, I mean, who else would you make corporate fin=
+ance decisions for?</p><p style=3D"margin: 16px 0;">We have <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMjgvZGFuLWxvZWItd2FudHMt=
+YS1jbGVhbi1zaGVsbC1hbmQtYS1kaXJ0eS1zaGVsbD9jbXBpZD1CQkQwMjAzMjJfTU9ORVlTVFV=
+GRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMD=
+MmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBfc2d1793" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> talked before</a> about Cboe Global Markets Inc.=E2=80=99s =E2=80=9CNano=
+s=E2=80=9D index options, which are scheduled to launch this year and will =
+give retail traders a way to gamble cheaply on the S&amp;P 500. I tell you =
+what, whoever launches single-share single-stock options is going to make a=
+ fortune.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Gotcha!</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjItMDItMDIvbW9uZXktc3R1ZmYtYmFua2luZy1ib251c2V=
+zLXdlcmUtYmlnLXRoaXMteWVhcj9jbXBpZD1CQkQwMjAzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDMmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cCd0327687" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">talked recent=
+ly</a> about <a href=3D"https://link.mail.bloombergbusiness.com/click/26586=
+412.267618/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEt=
+MTEtMTYvanBtb3JnYW4tZmlnaHRzLXRlc2xhLW92ZXItd2FycmFudHM_Y21waWQ9QkJEMDIwMzI=
+yX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3=
+Rlcm09MjIwMjAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBad3=
+1e9db" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> two</a> <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/26586412.267618/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjItMDEtMjUvdGhlLWFwZXMtaGF2ZS1mYXQtZmluZ2Vycz9jbXBpZD1CQkQwMjAzMjJf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMjAyMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cD5721d=
+ef6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> lawsuits</a> over=C2=A0Elon Musk=E2=80=99s <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly90d2l0dGVy=
+LmNvbS9lbG9ubXVzay9zdGF0dXMvMTAyNjg3MjY1MjI5MDM3OTc3Ng/607f07ceef4b8524a319=
+a23cBf5d82aa1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">2018 tweet</a> saying =E2=80=9CAm considering taking=
+ Tesla private at $420. Funding secured.=E2=80=9D In one lawsuit, JPMorgan =
+Chase &amp; Co. has sued Tesla Inc. claiming that this tweet constituted a =
+formal announcement by Tesla that it intended to enter into a merger agreem=
+ent, which would entitle JPMorgan to a nine-digit payout under some Tesla w=
+arrants that it owned. In the other lawsuit, some Tesla shareholders have s=
+ued Musk, claiming that this tweet constituted securities fraud because Mus=
+k was never really going to take Tesla private.</p><p style=3D"margin: 16px=
+ 0;">A couple of readers emailed me yesterday to say: Wait, if Musk wins on=
+e case, doesn=E2=80=99t he lose the other? Either the tweet was serious or =
+it wasn=E2=80=99t. If it was serious, then it was a merger announcement tha=
+t triggered an adjustment to JPMorgan=E2=80=99s warrants; if it wasn=E2=80=
+=99t serious it was fraud.</p><p style=3D"margin: 16px 0;">I do love this a=
+rgument and so I am passing it along to you, but I do not think it is actua=
+lly correct. Tesla=E2=80=99s counterargument to JPMorgan is not actually =
+=E2=80=9Ccome on he was kidding=E2=80=9D; <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26586412.267618/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N=
+1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3J4RGttZkpYTlB0by92MA/607f07ceef4b8524a31=
+9a23cB133a530b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">it is that</a> =E2=80=9CMr. Musk=E2=80=99s personal=
+ consideration of a possible transaction to take Tesla private was not tant=
+amount to a buyout announcement by the company.=E2=80=9D He really was =E2=
+=80=9Cconsidering taking Tesla private,=E2=80=9D maybe he even had funding =
+secured why not, but that doesn=E2=80=99t trigger the merger provisions of =
+the warrants because <em>Tesla had not accepted a deal</em>.[1]</p><p style=
+=3D"margin: 16px 0;">Similarly Musk=E2=80=99s counterargument to the shareh=
+older plaintiffs is not =E2=80=9Cactually I really was going to take Tesla =
+private,=E2=80=9D it=E2=80=99s that he was actually=C2=A0<em>considering=C2=
+=A0</em>it, and that he actually=C2=A0<em>had funding lined up</em>.[2] It =
+is=C2=A0<em>weird=C2=A0</em>for a corporate chief executive officer to anno=
+unce that he is=C2=A0<em>pondering=C2=A0</em>a going-private transaction; n=
+ormally you wait until the deal is pretty baked before doing a thing like t=
+hat. But it is not, in itself, fraud, and if the literal words that Musk wr=
+ote were true then that could be not-fraud but also not-a-merger.</p><table=
+ class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">You can=E2=80=99t fondle the cube</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Sure <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26586412.267618/aHR0cHM6Ly9uZXdzLmFydG5ldC5jb20vYXJ=
+0LXdvcmxkL3NvbGlkLWdvbGQtY3ViZS1jZW50cmFsLXBhcmstMjA2NzI4MQ/607f07ceef4b852=
+4a319a23cB62a8578f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">whatever</a>:</p><blockquote><p style=3D"marg=
+in: 16px 0;">This morning, joggers in New York=E2=80=99s Central Park may h=
+ave come across a curious, rather illustrious sight. A cube composed of 186=
+ kilograms of pure 24-karat gold, conceived by the German artist Niclas Cas=
+tello who has billed it as a conceptual =E2=80=9Csocle du monde=E2=80=9D (b=
+ase of the world) sculpture for our time, was wheeled out to the Naumburg B=
+andshell this morning at around 5 a.m.=C2=A0</p><p style=3D"margin: 16px 0;=
+">Although the work is not for sale, according to the artist=E2=80=99s team=
+, based on the current price of gold at $1,788 per ounce, its material wort=
+h is around $11.7 million. Flanked by a heavy security detail, the 410-poun=
+d work is set to be displayed in the park until the day=E2=80=99s end.</p><=
+/blockquote><p style=3D"margin: 16px 0;">Is there an accompanying non-fungi=
+ble token? I can=E2=80=99t believe you would even ask that.</p><blockquote>=
+<p style=3D"margin: 16px 0;">=E2=80=9CThe cube can be seen as a sort of com=
+muniqu=C3=A9 between an emerging 21st-century cultural ecosystem based on c=
+rypto and the ancient world where gold reigned supreme,=E2=80=9D says the V=
+iennese gallerist Lisa Kandlhofer, who was in New York for the artwork=E2=
+=80=99s launch.</p></blockquote><p style=3D"margin: 16px 0;">Disappointingl=
+y the cube is hollow? And comes up to your knee?[3] And here=E2=80=99s some=
+ more art guff:</p><blockquote><p style=3D"margin: 16px 0;">In a message se=
+nt this morning to Artnet News, Castello called the work =E2=80=9Ca concept=
+ual work of art in all its facets.=E2=80=9D He said the idea was to =E2=80=
+=9Ccreate something that is beyond our world=E2=80=94that is intangible.=E2=
+=80=9D=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Is it <em>intangi=
+ble</em>? No, in the sense that a cube of gold is a pretty literal solid ph=
+ysical object that is worth a lot of money just in materials. Yes, in the s=
+ense that the security guards will not let you touch it.</p><p style=3D"mar=
+gin: 16px 0;">Elsewhere in =E2=80=A6=C2=A0art news? =E2=80=A6=C2=A0=E2=80=
+=9CSotheby=E2=80=99s Is Selling an Immense Black Diamond It Claims <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6L=
+y9uZXdzLmFydG5ldC5jb20vbWFya2V0L3NvdGhlYnlzLWVuaWdtYS0yMDY1MjMz/607f07ceef4=
+b8524a319a23cBd6e594b1" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">Came From Outer Space</a>.=E2=80=9D</p><tab=
+le class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Meta Faces <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDIvZmFjZWJvb2stc2hhcmVzLXBsdW5nZS1hcy11=
+c2Vycy1zdGFsbC1mb3JlY2FzdC1mYWxscy1zaG9ydD9jbXBpZD1CQkQwMjAzMjJfTU9ORVlTVFV=
+GRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMD=
+MmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB754b9fcf" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Historic Stock Rout</a> After Facebook Growth Stalled. <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cud3N=
+qLmNvbS9hcnRpY2xlcy9wYXlwYWwtc2hhcmVzLXR1bWJsZS1wcmVtYXJrZXQtYWZ0ZXItZGlzYX=
+Bwb2ludGluZy1vdXRsb29rLTExNjQzODAzNTEzP21vZD1ocF9sZWFkX3BvczY/607f07ceef4b8=
+524a319a23cBd816484b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">PayPal</a> Stock Tumbles After Disappointing =
+Earnings Guidance. Joe Biden=E2=80=99s nominee for top Fed watchdog signals=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/a=
+HR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOWM1NGFhOGItZWJkYS00NDBiLWFiYmItYWE0Yjgw=
+OWFjOTg2/607f07ceef4b8524a319a23cB11b1fffb" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">tough stance on banks</=
+a>. Biggest <a href=3D"https://link.mail.bloombergbusiness.com/click/265864=
+12.267618/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItM=
+DIvYmlnZ2VzdC1iaXRjb2luLW1pbmVyLWluLXRleGFzLXdpbGwtc2h1dC1mb3ItY29sZC1ibGFz=
+dC1pZi1hc2tlZD9jbXBpZD1CQkQwMjAzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV=
+0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDMmdXRtX2NhbXBhaWduPW1vbmV5c3=
+R1ZmY/607f07ceef4b8524a319a23cB999acf8c" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Texas Bitcoin Miner</a>=
+ Shuts Down Ahead of Cold Blast. Pool of <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjItMDItMDMvcmF0ZS1oaWtlLWJldHMtcHVzaC1zdWItemVyby1ib25=
+kLXBpbGUtdG8tc21hbGxlc3Qtc2luY2UtMjAxOD9jbXBpZD1CQkQwMjAzMjJfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDMmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB78523b5c" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Negative-Yielding Debt</a> Is Now the Least in Three Years.=C2=A0France Pr=
+obes <a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.2676=
+18/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDEvZnJh=
+bmNlLXRvLWludmVzdGlnYXRlLW9ycGVhLWFmdGVyLWJvb2stYWxsZWdlcy1taXN0cmVhdG1lbnQ=
+_Y21waWQ9QkJEMDIwMzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW=
+5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMjAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ce=
+ef4b8524a319a23cBebd5c453" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">Orpea</a> as =E2=80=98Gravediggers=E2=80=
+=99 Book Sparks Outrage. How <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/26586412.267618/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNzdlZTBkOGQt=
+YmY3NC00Y2MzLWJkZTAtYTA2NGNlMDc0NzI2/607f07ceef4b8524a319a23cB283e8f04" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">Miami</a> became the most important city in America.=C2=A0Jeff Bezos=
+=E2=80=99s New Superyacht to Force <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/26586412.267618/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjItMDItMDIvamVmZi1iZXpvcy1zLW5ldy1zdXBlcnlhY2h0LXRvLWZvcmNlL=
+WRpc21hbnRsaW5nLW9mLWR1dGNoLWJyaWRnZT9jbXBpZD1CQkQwMjAzMjJfTU9ORVlTVFVGRiZ1=
+dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAyMDMmdXR=
+tX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB1dd074e4" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Di=
+smantling of Dutch Bridge</a>.=C2=A0Giuliani=E2=80=99s <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDItMDMvZ2l1bGlhbmktcy1tYXNrZWQtc2luZ=
+2VyLWNhbWVvLXJlcG9ydGVkbHktcHJvbXB0cy13YWxrLW9mZj9jbXBpZD1CQkQwMjAzMjJfTU9O=
+RVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0=
+yMjAyMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB5a2c00fa"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> =E2=80=98Masked Singer=E2=80=99 Cameo</a> Reportedly Prompts Walk=
+ Off.</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-cons=
+umer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy em=
+ail form, right in your inbox, please=C2=A0<a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/26586412.267618/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcm=
+didXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM=
+2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB44881e56" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">subscribe at this link</a>. Or you can subscribe =
+to Money Stuff and other great Bloomberg newsletters <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/26586412.267618/aHR0cHM6Ly9sb2dpbi5ibG9v=
+bWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB4502ee1c" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em=
+></span></p><p style=3D"margin: 16px 0;"><em>[1] For my part I think that t=
+his is probably correct but also that Tesla has even more compelling counte=
+rarguments, the main one being that the justification for JPMorgan to adjus=
+t the warrants on a merger event =E2=80=94=C2=A0that a merger event would c=
+rush Tesla=E2=80=99s volatility =E2=80=94=C2=A0was just manifestly untrue h=
+ere. If=C2=A0JPMorgan adjusted the warrant strikes down for the =E2=80=9Can=
+nouncement=E2=80=9D of a =E2=80=9Cmerger,=E2=80=9D it had to adjust them ba=
+ck up for the =E2=80=9Cabandonment=E2=80=9D of that =E2=80=9Cmerger,=E2=80=
+=9D which it did, but in a comically stingy way that Tesla, I think correct=
+ly, objects to.</em></p><p style=3D"margin: 16px 0;"><em>[2] For my part: <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDgtMTMvZnVuZG=
+luZy1mb3ItZWxvbi1tdXNrLXMtdGVzbGEtYnV5b3V0LXdhc24tdC1zby1zZWN1cmU_Y21waWQ9Q=
+kJEMDIwMzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0=
+ZXImdXRtX3Rlcm09MjIwMjAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a3=
+19a23cB254b9528" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> No he didn=E2=80=99t come on</a>.</em></p><p styl=
+e=3D"margin: 16px 0;"><em>[3] =E2=80=9CThe cube measures over a foot and a =
+half on all sides and has a wall thickness of about a quarter inch.=E2=80=
+=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.26761=
+8/aHR0cHM6Ly90d2l0dGVyLmNvbS9tYXR0X2xldmluZS9zdGF0dXMvMTQ4OTI2NDA0NzMyMTAxM=
+DE3Ng/607f07ceef4b8524a319a23cB76579d27" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">My rough math</a> sugges=
+ts that if it was solid it would weigh more than two tons and be worth=C2=
+=A0something like $150=C2=A0million.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB745b25d0" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB9519a11d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBc0a708cc" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB741c89bb" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjU4NjQxMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4NTQwMzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIaba1567c" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26586412&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26854030&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2658641=
+2.267618/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB2a227af0" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26586412.267618/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC3e5a23fa" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26586412.267618/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB902b1d4b" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26586412.267618/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB08fd078e" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB0=
+afaac69" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26586412.267618/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBb=
+f667b9e" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D265864=
+12&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26854030&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D265864=
+12&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26854030&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D265864=
+12&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26854030&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D265864=
+12&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26854030&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D265864=
+12&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26854030&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cftu7g.5qhu/ce5afff3.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_12510142_1635969884.1643911075749--
+

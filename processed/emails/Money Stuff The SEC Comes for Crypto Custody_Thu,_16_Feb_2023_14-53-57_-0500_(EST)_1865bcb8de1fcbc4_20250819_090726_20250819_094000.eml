@@ -1,0 +1,2452 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:6157:b0:f6:3c16:48e4 with SMTP id 23csp839061rwt;
+        Thu, 16 Feb 2023 11:55:12 -0800 (PST)
+X-Received: by 2002:a05:600c:1605:b0:3e1:fff6:5d37 with SMTP id m5-20020a05600c160500b003e1fff65d37mr5388326wmn.6.1676577311965;
+        Thu, 16 Feb 2023 11:55:11 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1676577311; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=zCKJmvzif6QN/AbsfMp612hr2CDKE/s05/Tpp2VW1LVSX9wzcf9j5MorumKAw9wAr1
+         lvfFoQahuiPvdkauxTrWBARLZ0JLbnr/9ynOmZTQEpLGWtxteFWeNZ5RCWV9OlQ2vL5K
+         YE0cbyGoRDrIoKz/fjdD/FmFl9akgcIDSRRRb/AwRnhS14ROJKJCiq25XA4tiMORP7X2
+         cfXxR+PEybHH7Kb2S09zIahnvnb9DI2ZUA8Oz7vt6JE6KOvc+uE24CL6uclvZkO+VeAY
+         chlYN87ieCe5BMx6yU0W597uTK79lqLX2clmOuc4LexKdn133zr467S0w4NILf2/demn
+         uisQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=F64jRBD2Ng//nXjWOD96UWuNaTra8QSicYF4MneCCfo=;
+        b=ke88hYEnH4Qoigkc6a7KkYBbhsJQCaq1EPt7ZV017qce/qLMDTLlN8VFWv9azs4uLu
+         S4pNJUZi3YbYfuhcCNX7N4ZJnyVGoqjNUPHeohr+0YhUzP/nDECXGYaxOHgOPtn/qPxn
+         hw6RGssVO8gXr/RyFYJbHqW+yXhgLq367/WRXln/cqpRmqY7QBZPTZ7ftAs9bnmhPIz2
+         YQBs6+xzcL6bRli/JqMKXL2abc0Xsa9yffb6r/c88+EaXoD6uBhn6lbNXIOdTaUMmN9y
+         Q9rTiOu4er/b1tgmmyQZIsGWedl022BjJY2MkVRlmxRv7svZAYN5b8v5EtdCY7medroC
+         jgKg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=azJcYvE1;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id v20-20020a05600c215400b003e111bc5836sor1030328wml.38.2023.02.16.11.55.11
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 16 Feb 2023 11:55:11 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=azJcYvE1;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=F64jRBD2Ng//nXjWOD96UWuNaTra8QSicYF4MneCCfo=;
+        b=LyzuOsaNFlIKlwqnVH0goOsFfOYliCF3UNodGhHaHVjW4I75C2bLTbECF4DNOQQVHx
+         MYcYbmNx4bCbT4k7JTKfRXKExzNE6JooU/J3sL2/QEwpcDe6IRMV7nbIm65eZzrFBCDs
+         JNEusxt3QUYbds6gwMu4dVNjhnYvRzpDyHP0B70oQrl7wJVEIquV8pSZYTHUO8cmgESG
+         cS8KJs4RzINWDfMx3VIlo/x350I/9KAcMuZ1LRJZBKQowyPlesc+Jmmit4hcFVE8mKDp
+         rfyAjrCr9w8EJOzFheXuBbY4UfZEGjIo0OYX3Ov8z49GamhCOo11Uj0ki4F341Egcg4r
+         m7JA==
+X-Gm-Message-State: AO0yUKV0gnA+gNPGp24G/QAoN+Rnoe4ER1QIjr4VxKefW7KdqOPnILGO
+	Tu7wpUQAjQXtdox9hJX/xXGpkz3loAP/tB+zFGdcGWd8/uqkDjfgEA==
+X-Received: by 2002:a05:600c:470f:b0:3e0:1e8b:5f6a with SMTP id v15-20020a05600c470f00b003e01e8b5f6amr487327wmo.150.1676577311604;
+        Thu, 16 Feb 2023 11:55:11 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:9bcb:0:0:0:0:0 with SMTP id e11csp571759wrc;
+        Thu, 16 Feb 2023 11:55:09 -0800 (PST)
+X-Received: by 2002:a1c:cc17:0:b0:3df:e549:da54 with SMTP id h23-20020a1ccc17000000b003dfe549da54mr5214563wmb.17.1676577309003;
+        Thu, 16 Feb 2023 11:55:09 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1676577308; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=lo9whZFgH4MEj30wMUxJmnTOHd+xQYd9+YrqYYlKJrZT+ZhEm7KV/KhVpVgnisTJ9f
+         fcRV0UzyWBva0p/KOVk+VshflTPnT5qUyRcaz48okm80858J9zICqfJuPu5ZwnZI8X2s
+         O/HbrQClF8v/d32kLA1SCFfFOHseKW+JKL1bHa1BY02mH+Q/2Ppf/gRXAcxnx0vMlCSr
+         DiGNMVepmp4Mfja741UQd8v/QjCodpImrWF2VyFwkJ40aTNsPFWcX/qDu8Qes/1Qoajl
+         AC2stO8wdMu+UyQCaiVvudmHZhQqiFFOmuxXTaTq3tVSOsWVpfSIgP8Xp4E6u3GvlXOp
+         2JKg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=F64jRBD2Ng//nXjWOD96UWuNaTra8QSicYF4MneCCfo=;
+        b=LTR2OWpnrvm5+2zz6Hg6lj4e6peCvm5Q5qsccPZGLZjxbUqdI7HyHFNXQJcKm/Tqll
+         WGtsAnOqmq7JmqYpJF2FbSQaI4wt5WrjupI0yAWO5+dtJN6kxRo7zZ3AkG6rly5h1Oz+
+         llYhtI9fJk0WRTyFN5PnK21Pf84RMkaddqXi6tNJn1G1jTphELiriaweI4V1y5sDH9+D
+         23JC1Kc77vpcT4wJGwsohXWiwaPy+IykuXiRsz2QljrwUEUsY91Xa1Tx/Q+b+B0vo/KF
+         B3FthX4I3ZIgfvZuZKXXYRTKDfE6R1H+YwFfZu7ybm7gfhFK0OapFwT1zk+wV65Nr/MO
+         v6HQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=azJcYvE1;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230216145357.30575723.282980@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230216145357.30575723.282980@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230216145357.30575723.282980@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id y5-20020a05600c364500b003dc5b59a26csor2360806wmq.44.2023.02.16.11.55.08
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 16 Feb 2023 11:55:08 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230216145357.30575723.282980@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set9hslA4KHlo2dCw4+kM3ZKi29BSIezjz8etQSer7MKcZrN5G5vID435XRN2dpElV2VpwQ+HFVLaabAJjYSusX75K94HSjA=
+X-Received: by 2002:a05:600c:244e:b0:3d0:6a57:66a5 with SMTP id 14-20020a05600c244e00b003d06a5766a5mr5269974wmr.0.1676577308735;
+        Thu, 16 Feb 2023 11:55:08 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1676577308; cv=none;
+        d=google.com; s=arc-20160816;
+        b=wv+m8Uk+RVWs7Qdt2yfe27zDU5RFchHuX7rSuT4a1iZNuFeVqU0peMeTPT3sE+Yf3S
+         tJLTgdnIN+Rzd+ZXPxtO9PE7+SVOsUrFWEW7U1QySxkvAJzQmdr5ce0TqPdbLCuIofrd
+         uEsna4CygkmXBHDuSLOEPIwvCHmr7nrZFX7TcwGGObiQIA+dLKreI24HZJTzLhorYEoj
+         jwMa34wsf4Fp5dQfwmkibtytVCS4hUXtsylKsKij5rMgqyfk5lZ/kGeGIOgu6jpwM2lv
+         tL2TSLOSGE9KGUf+VisraBsYPwvdVXnJK5LqotJW0t3zUjZ0dJCe/Pf0q9YyicZBJ9R2
+         QHEQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=F64jRBD2Ng//nXjWOD96UWuNaTra8QSicYF4MneCCfo=;
+        b=B2onkbYx23bRni1sPeUxRT6OFhaj72nwGItF0imtU9lk/V0n9sOFYyoOPUkZl4e4A4
+         PfWgijGQ2PE6h/RwxthJVXi6CjDmkWtgE2WVWzHtZqRQ2I9GqIwq11jRNuxidILujcGN
+         lT0e/WvQfd85hfH8t4SRr0BWHwIJ2BrX1Ny+mg2rLxZNq3IALJ4Z3Iev3vpHNW5frnFO
+         sdxTa1QCZzv7OEBhMBCcemC01ZKshmh8xXbZ12oTWOtUS1tNDBzMRbwjXhJXdm9XiMdp
+         iLN95Yg8NBymTLAsQFO/lRjfkp2KFtaawufgnGjOg1v4e7wsve3psFNb6MiwbhS24JgA
+         9sMQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=azJcYvE1;
+       spf=pass (google.com: domain of delivery_20230216145357.30575723.282980@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230216145357.30575723.282980@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230216145357.30575723.282980@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id e19-20020a05600c4e5300b003e215309bfcsi99406wmq.4.2023.02.16.11.55.08
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 16 Feb 2023 11:55:08 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230216145357.30575723.282980@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=8QcOCVMB8gfB6bLeGltbEHnD9g1/h/Shtz5x8CkbDak=;
+ b=azJcYvE1EriA38KhHPb7WznhG418IqXAZDdVyLorNKBAip22Qcuk09GT8U/sAXCoPkoStiUhQPuv
+   OoxceHLxqKxQAE7IzlTUm1k1bu2odhZ8ia8AJCdADXYxL8bRk8TwrYe+5RPTcgiINtRHntslLb9B
+   EivlKrdbN6oeKyj5i3s=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by pmta29.sailthru.com id htq51m2sd4sf for <bloomberg@khamel.com>; Thu, 16 Feb 2023 14:55:07 -0500 (envelope-from <delivery_20230216145357.30575723.282980@mx.sailthru.com>)
+Date: Thu, 16 Feb 2023 14:53:57 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230216145357.30575723.282980@sailthru.com>
+Subject: Money Stuff: The SEC Comes for Crypto Custody
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1938989_699454691.1676577237531"
+Precedence: bulk
+X-Feedback-ID: 6358:30575723:campaign:sailthru
+X-TM-ID: 20230216145357.30575723.282980
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wrylilac.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci7cdn.62ck/d6578917
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci7cdn.62ck/d6578917>, <mailto:unsubscribe_20230216145357.30575723.282980@mx.sailthru.com>
+X-rpcampaign: stjko30575723
+
+------=_Part_1938989_699454691.1676577237531
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+Roughly speaking the way the US stock market works is that all of the sto
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+
+ =20
+   =20
+      Crypto custody
+   =20
+ =20
+
+Roughly speaking the way the US stock=C2=A0market works is that all of the =
+stocks are in one place. The place is called DTC, the Depository Trust Comp=
+any, which in some sense owns almost all of the stocks. If you own a stock,=
+ what you own is an entry on a list at your brokerage, saying that you are =
+entitled to some of the stocks that it is holding onto for clients, and wha=
+t your=C2=A0brokerage=C2=A0has is an entry on a list at DTC, saying that it=
+ is entitled to some of the stocks that DTC is holding onto. (And what DTC =
+mostly owns is entries on lists at all the companies, or their transfer age=
+nts, saying that it owns the stocks that those companies issue.)=C2=A0
+One thing this means is that when I buy some stock from you, the way we set=
+tle that transaction =E2=80=94=C2=A0the way you actually deliver the stock =
+to me =E2=80=94=C2=A0is by updating DTC=E2=80=99s list. We tell DTC about t=
+he transaction, it increments the stock in my account (really my broker=E2=
+=80=99s, who increments my account) and decrements the stock in yours. This=
+ is far more efficient than if, for instance, you owned your stock in the f=
+orm of paper stock certificates, and to settle trades you had to courier th=
+ose certificates over to me, which is pretty much how things worked in the =
+olden days.
+Another thing this means is that DTC is an extremely important weird market=
+ utility, highly trusted and so heavily regulated. =E2=80=9CDTC is a member=
+ of the U.S. Federal Reserve System, a limited-purpose trust company under =
+New York State banking law and a registered clearing agency with the U.S. S=
+ecurities and Exchange Commission,=E2=80=9D  says its website, on the same =
+page that also mentions that it holds $87 trillion worth of securities.=C2=
+=A0
+The way the crypto market works is a bit different. One way for crypto to w=
+ork is that there is a blockchain, a decentralized ledger maintained by tho=
+usands of independent nodes, and you can own some Bitcoin on the blockchain=
+, and you and I can agree on a trade in which I send you some dollars (by w=
+ire transfer or Venmo or whatever) and you send me some Bitcoin on the Bitc=
+oin blockchain. How do we meet each other and agree to that trade? You coul=
+d imagine some sort of exchange =E2=80=94=C2=A0like US stock exchanges =E2=
+=80=94=C2=A0that allows us to post orders to buy and sell crypto, and if ou=
+r orders cross =E2=80=94=C2=A0if I want to buy and you want to sell =E2=80=
+=94=C2=A0then we are matched with each other and then settle up using Venmo=
+ and the blockchain. This can work in some sort of informal way (like, a me=
+ssage board for us to meet and negotiate trades), or in modern crypto you c=
+an have decentralized exchanges built on smart contracts where trades and s=
+ettlements all occur on the blockchain.
+  [1]
+
+But practically speaking the way that a=C2=A0lot=C2=A0of crypto works is mo=
+re like the stock market: There is some central intermediary, much like DTC=
+, that holds onto a lot of crypto for a lot of investors; we can call it th=
+e =E2=80=9Cdepository.=E2=80=9D=C2=A0The investors agree on a trade =E2=80=
+=94=C2=A0you agree to sell me some Bitcoin =E2=80=94=C2=A0on an exchange, a=
+nd then we settle that trade by updating our accounts with the depository. =
+There are some differences, though:
+=09The depository is normally=C2=A0also the exchange:=C2=A0If you and I are=
+ trading on Coinbase, Coinbase is holding onto our crypto for us and updati=
+ng its ledger when we agree to a trade on its exchange. This is different f=
+rom the stock market, where the exchanges =E2=80=94=C2=A0NYSE and Nasdaq an=
+d so forth =E2=80=94=C2=A0are separate from DTC.=09There is normally=C2=A0o=
+ne depository per exchange: If you have some Bitcoin on Binance, and you an=
+d I agree on a trade on Coinbase, you can=E2=80=99t just instantly send me =
+your Binance Bitcoins to settle that trade. Each exchange has its own depos=
+itory, unlike in the US stock market, where you and I can agree a trade on =
+NYSE or Nasdaq or wherever and then settle up using DTC.=09The exchange is =
+=E2=80=A6=C2=A0I mean =E2=80=A6=C2=A0less trusted by US regulatory authorit=
+ies than DTC is? To be clear, DTC is very trusted by US regulatory authorit=
+ies; it is a centerpiece of modern securities markets. Crypto exchanges ran=
+ge from, you know, =E2=80=9Cnot=C2=A0quite=C2=A0as trusted as DTC=E2=80=9D =
+to, uh, well, much worse than that.
+
+In the US, the Securities and Exchange Commission regulates =E2=80=9Cinvest=
+ment advisers,=E2=80=9D which means not only people who advise clients abou=
+t their investments, but also people and firms who manage=C2=A0funds; big h=
+edge funds and mutual funds are generally managed by registered investment =
+advisers. There  are rules about an investment adviser=E2=80=99s=C2=A0custo=
+dy=C2=A0of client assets: You can=E2=80=99t just keep your client=E2=80=99s=
+ stock certificates in a pile under your desk; those assets need to be held=
+ by a =E2=80=9Cqualified custodian=E2=80=9D in your client=E2=80=99s name. =
+And there are standard ways to implement this; there are trust companies an=
+d brokerages that are in the business of being custodians for investment ad=
+visers, and that effectively own the advisers=E2=80=99 clients=E2=80=99 sto=
+cks through DTC.
+Historically those rules have applied to =E2=80=9Cclient funds or securitie=
+s=E2=80=9D: The SEC regulates securities trades, and so it focuses mostly o=
+n securities and money. But in the Dodd-Frank Act of 2010, Congress gave th=
+e SEC power to regulate advisers=E2=80=99 custody of client =E2=80=9Cassets=
+,=E2=80=9D which seems to include not just securities and money but also re=
+al estate, derivatives, etc.
+  [2]
+=C2=A0
+And =E2=80=94=C2=A0though probably nobody thought much=C2=A0about it at the=
+ time =E2=80=94=C2=A0crypto. And so yesterday the SEC  proposed new rules f=
+or custody of client assets:
+The proposed rules would exercise Commission authority under section 411 of=
+ the Dodd-Frank Act by broadening the application of the current investment=
+ adviser custody rule beyond client funds and securities to include any cli=
+ent assets in an investment adviser=E2=80=99s possession or when an investm=
+ent adviser has authority to obtain possession of client assets. Like the c=
+urrent rule, the proposed rule would entrust safekeeping of client assets t=
+o qualified custodians, including, for example, certain banks or broker-dea=
+lers.The proposed changes are intended to help ensure that qualified custod=
+ians provide certain standard custodial protections when maintaining an adv=
+isory client=E2=80=99s assets. These protections are designed, among other =
+things, to ensure client assets are properly segregated and held in account=
+s to protect the assets in the event of a qualified custodian bankruptcy or=
+ other insolvency.
+I suppose that this is about lots of things, including the mechanics of the=
+ adviser/custodian relationship, surprise examinations of client assets, et=
+c., but it is especially about crypto. SEC Chair Gary=C2=A0Gensler  said in=
+ a statement:
+
+Make no mistake: Today=E2=80=99s rule, the 2009 rule, covers a significant =
+amount of crypto assets. As the release states, =E2=80=9Cmost crypto assets=
+ are likely to be funds or crypto asset securities covered by the current r=
+ule.=E2=80=9D Further, though some crypto trading and lending platforms may=
+ claim to custody investors=E2=80=99 crypto, that does not mean they are qu=
+alified custodians. Rather than properly segregating investors=E2=80=99 cry=
+pto, these platforms have commingled those assets with their own crypto or =
+other investors=E2=80=99 crypto. When these platforms go bankrupt=E2=80=94s=
+omething we=E2=80=99ve seen time and again recently=E2=80=94investors=E2=80=
+=99 assets often have become property of the failed company, leaving invest=
+ors in line at the bankruptcy court.
+Make no mistake: Based upon how crypto platforms generally operate, investm=
+ent advisers cannot rely on them as qualified custodians.
+Further, today=E2=80=99s proposal, in covering all asset classes, would cov=
+er all crypto assets=E2=80=94including those that currently are covered as =
+funds and securities and those that are not funds or securities. Thus, thro=
+ugh this expanded custody rule, investors working with advisers would recei=
+ve the time-tested protections that they deserve for all of their assets, i=
+ncluding crypto assets, consistent with what Congress envisioned.
+
+A couple of points here. First, the effect of this rule is to ban registere=
+d advisers from=C2=A0trading=C2=A0crypto on=C2=A0most=C2=A0exchanges: To tr=
+ade crypto on most centralized exchanges, you need to deposit the crypto on=
+ the exchange first, which destroys custody. From the proposed rule:
+Importantly, however, to comply with the proposed rule, an adviser with cus=
+tody of client=C2=A0crypto assets would generally need to ensure those asse=
+ts are maintained with a qualified custodian that has possession or control=
+ of the assets at all times in which the adviser has custody. While this is=
+ true for most client assets over which an adviser has custody, it is parti=
+cularly relevant with respect to crypto assets because, as we understand, m=
+uch of the crypto asset trading volume occurs on crypto asset trading platf=
+orms that often directly settle the trades placed on their platforms. As a =
+result, many crypto trading platforms require investors to pre-fund trades,=
+ a process in which investors transfer their crypto assets, including crypt=
+o asset securities, or fiat currency to such an exchange prior to the execu=
+tion of any trade. Because we understand that most crypto assets, including=
+ crypto asset securities, trade on platforms that are not qualified custodi=
+ans, this practice would generally result in an adviser with custody of a c=
+rypto asset security being in violation of the current custody rule because=
+ custody of the crypto asset security would not be maintained by a qualifie=
+d custodian from the time the crypto asset security was moved to the tradin=
+g platform through the settlement of the trade.=C2=A0
+You can trade stocks on the stock exchange because the stocks live at DTC a=
+nd you own them through a qualified custodian, but if you trade crypto on B=
+inance then the crypto lives at Binance and the SEC might have concerns. So=
+me crypto exchanges have custody services that probably qualify =E2=80=94=
+=C2=A0=E2=80=9CPaul Grewal,  Coinbase=E2=80=99s chief legal officer, said t=
+he firm is confident that its New York-chartered trust entity =E2=80=98will=
+ remain a qualified custodian=E2=80=99=E2=80=9D =E2=80=94 but your choices =
+are more limited. SEC Commissioner Mark Uyeda  said in his statement=C2=A0t=
+hat =E2=80=9Cthe proposing release takes great pains to paint a =E2=80=98no=
+-win=E2=80=99=C2=A0scenario for crypto assets,=E2=80=9D and:
+
+The proposing release also explicitly states that =E2=80=93 because crypto =
+assets trade on platforms that are not qualified custodians =E2=80=93 an ad=
+viser that trades crypto assets on a platform would violate the proposed ru=
+le.=C2=A0Hence, the preamble in the proposing release indicates that it is =
+unlikely that crypto assets can be maintained at qualified custodians or tr=
+aded on crypto trading platforms in compliance with the proposed rule. How =
+could an adviser seeking to comply with this rule possibly invest client fu=
+nds in crypto assets after reading this release?
+This approach to custody appears to mask a policy decision to block access =
+to crypto as an asset class.
+
+Another point is, you know, the SEC is not wrong. Crypto exchanges=C2=A0do=
+=C2=A0have a long history of losing customer assets, and of landing in bank=
+ruptcy with customers who are very confused specifically about=C2=A0custody=
+=C2=A0questions. Crypto exchanges mostly create the=C2=A0impression=C2=A0th=
+at they segregate customer assets, and then mostly end up with customers wh=
+o are unsecured creditors in bankruptcy. Even Coinbase, which does seem to =
+  keep its customers=E2=80=99 crypto segregated,  can=E2=80=99t definitivel=
+y=C2=A0promise them that they won=E2=80=99t be unsecured creditors in bankr=
+uptcy: The legal regimes for crypto custody are just less settled than the =
+regimes for securities custody.=C2=A0
+One more point I=E2=80=99d like to make is about the SEC=E2=80=99s creativi=
+ty. The SEC does not =E2=80=9Cregulate crypto.=E2=80=9D In US law, at least=
+ some cryptocurrencies =E2=80=94=C2=A0the big ones, like Bitcoin and Ether=
+=C2=A0=E2=80=94=C2=A0are classified as commodities not subject to SEC juris=
+diction. But the SEC has launched a pretty comprehensive offensive to take =
+over crypto regulation:
+=09The SEC   argues that when a crypto project issues tokens to fund its de=
+velopment, those tokens are almost always securities: Other than a few gran=
+dfathered tokens like Bitcoin and Ether, most tokens are going to be securi=
+ties subject to SEC jurisdiction.=09The SEC argues that interest-bearing cr=
+ypto accounts =E2=80=94=C2=A0lending and   staking products =E2=80=94=C2=A0=
+are always securities; if a crypto exchange holds your Bitcoin for you and =
+pays you interest, that=E2=80=99s a security subject to SEC jurisdiction.=
+=09The SEC here is using its authority to regulate investment advisers to i=
+ndirectly regulate crypto: Investment funds are subject to SEC regulation, =
+so the SEC will tell them what to do with their crypto, even if that crypto=
+ is not a security.
+
+A general theme of financial regulation is that regulators write rules, and=
+ then creative financial-industry lawyers find ways around them. The indust=
+ry lawyers tend to have advantages over the regulators: They are better pai=
+d, for one thing, but also the regulators have to write general public rule=
+s that account for all cases and then the industry lawyers get to poke hole=
+s in them at their leisure. I once   wrote specifically about crypto:
+If you are the SEC, and crypto people say =E2=80=9Cplease write clear trans=
+parent rules so we know what is and isn=E2=80=99t allowed,=E2=80=9D you mig=
+ht hear that as =E2=80=9Cplease write clear transparent rules so that we ca=
+n game them.=E2=80=9D This would be a reasonable lesson for the SEC to take=
+ from (1) the history of crypto=E2=80=99s =E2=80=9Ccode is law=E2=80=9D phi=
+losophy ending in hacks, (2) the history of crypto firms ignoring the US se=
+curities laws, and for that matter (3) the history of traditional finance f=
+irms trying to game the SEC=E2=80=99s rules. Crypto is a wholly new area fo=
+r US securities regulation, and if you try to write all the rules from scra=
+tch in one go you will get things wrong. And then people will ruthlessly ex=
+ploit whatever you get wrong.
+And that is the stereotype: The industry is ruthless and creative about exp=
+loiting the rules, and the regulators are constantly playing catch-up.
+I just want to say that in crypto right now the SEC is being ruthless and c=
+reative about exploiting legal provisions to expand=C2=A0its powers, and th=
+e industry seems to be playing catch-up. Just an unusual situation!
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Soligenix
+   =20
+ =20
+
+We have talked before about the problems of meme-stock corporate governance=
+, and particularly=C2=A0the problem of meme-stock shareholder voting. The p=
+roblem is:
+=09If you=E2=80=99re a weird public company with a very retail investor bas=
+e, you will have a hard time getting your shareholders to vote=C2=A0on anyt=
+hing, since retail shareholders stereotypically do not vote.=09If you=E2=80=
+=99re a weird public company with a very retail investor base, you will pro=
+bably end up=C2=A0needing=C2=A0your shareholders to vote for something or o=
+ther, because you=E2=80=99re weird.
+
+So Digital World Acquisition Corp. wanted to get shareholder approval to ex=
+tend the time on its deal to buy Donald Trump=E2=80=99s social media compan=
+y, but   it couldn=E2=80=99t get it, because the retail shareholders who we=
+re extremely enthusiastic about buying its stock, and about the deal, were =
+not enthusiastic enough to vote. Or AMC Entertainment Holdings Inc. has a l=
+ot of enthusiastic retail shareholders, and it got very good at=C2=A0sellin=
+g them stock, but it eventually ran out of authorized shares to sell, and i=
+t needed holders of a majority of its outstanding shares to vote to authori=
+ze more, and it couldn=E2=80=99t get enough votes.
+AMC   (probably) solved this problem with some clever engineering. It creat=
+ed a new class of preferred stock, gave each preferred share 100 votes, and=
+ distributed 1/100th of a preferred share for each common share, basically =
+a stock split where if you had one common share with one vote now you had o=
+ne common share and 1/100th of a preferred share with a total of two votes.=
+ (The 1/100th of a preferred share is called an APE, an AMC Preferred Equit=
+y Unit.) It=E2=80=99s not obvious that this would change much =E2=80=94=C2=
+=A0you still have to get a majority of the combined APE and common holders =
+to vote to authorize more shares =E2=80=94=C2=A0but AMC added a clever twis=
+t. It issued the preferred shares to a depositary, Computershare Trust Co.,=
+ and had Computershare issue the APE units to AMC=E2=80=99s shareholders. S=
+o now 100% of the preferred shares are owned, not by a bunch of retail shar=
+eholders, but by Computershare. The retail APE holders still get to vote, a=
+nd Computershare still has to vote=C2=A0its=C2=A0shares however the APE hol=
+ders vote, but Computershare has to vote=C2=A0all=C2=A0of the shares: If 20=
+% of the APE holders vote yes, 5% vote no, and 75% don=E2=80=99t vote at al=
+l, then Computershare will vote 80% of the preferred shares for yes and 20%=
+ for no. AMC still needs to=C2=A0win the vote, but it has solved the proble=
+m of=C2=A0retail shareholders not voting at all.
+  [3]
+
+Soligenix Inc. is a micro-cap biotech company listed on the Nasdaq. Nasdaq =
+will delist companies whose stocks trade below $1 per share for an extended=
+ period. Soligenix=E2=80=99s stock traded below $1 for a long time, and Nas=
+daq threatened=C2=A0it with delisting starting in December 2021. By Decembe=
+r 2022 it was still below $1 and  in real danger of delisting. The normal s=
+olution here is a reverse stock split: If your stock trades at $0.70, and y=
+ou do a 1-for-10 reverse stock split, then every 10 shares (each worth $0.7=
+0) become one share, which should be worth $7.00. But you need shareholder =
+approval for the split, and Soligenix was worried about its ability to get =
+a majority of its retail, penny-stock shareholders to vote for anything.
+  [4]
+
+So Soligenix came up with an APE-like solution. Like AMC, it  issued new =
+=E2=80=9Cblank-check preferred stock=E2=80=9D; each share of its new Series=
+ D preferred stock came with=C2=A0one million=C2=A0votes.
+  [5]
+=C2=A0And it distributed the preferred shares to its common shareholders, g=
+iving them each 1/1,000th of a preferred share (with 1,000 votes) for each =
+common share that they own. So effectively all of the voting power of the c=
+ompany is in the Series D preferred, but the voting rights don=E2=80=99t re=
+ally change, because every existing common shareholder owns the same propor=
+tional amount of Series D preferred.
+But the Series D preferred stock is a temporary blip: Soligenix issued it i=
+n December, and it all disappeared last week.
+  [6]
+=C2=A0It never traded, had no cash value, was issued to shareholders for $0=
+ and then redeemed by the company for $0.
+  [7]
+ For a couple of months Soligenix had some extra shares with billions of vo=
+tes, and now it doesn=E2=80=99t.=C2=A0
+Why? Well, here are the mechanics of how the Series D disappeared:
+All shares of Series D Preferred Stock that are not present in person or by=
+ proxy at the meeting of stockholders held to vote on the reverse stock spl=
+it as of immediately prior to the opening of the polls at such meeting will=
+ automatically be redeemed by the Company. Any outstanding shares of Series=
+ D Preferred Stock that have not been so redeemed will be redeemed if such =
+redemption is ordered by the Company=E2=80=99s Board of Directors or automa=
+tically upon the approval by the Company=E2=80=99s stockholders of an amend=
+ment to the Company=E2=80=99s certificate of incorporation effecting the re=
+verse stock split at such meeting.
+Get it? Soligenix  held a shareholder meeting last Wednesday, Feb. 8. If yo=
+u voted at the shareholder meeting =E2=80=94=C2=A0that is, if you filled ou=
+t your proxy to vote your shares =E2=80=94=C2=A0then your preferred stock g=
+ot canceled immediately=C2=A0after=C2=A0the vote. If you didn=E2=80=99t vot=
+e =E2=80=94=C2=A0if you forgot or were unreachable or whatever =E2=80=94=C2=
+=A0then your preferred stock got canceled immediately=C2=A0before=C2=A0the =
+vote. At the moment of the vote, the preferred stock represented roughly 99=
+.9% of the voting power of the company, and only the preferred shares that=
+=C2=A0actually voted=C2=A0were outstanding. They voted overwhelmingly for t=
+he reverse split, and it passed.
+  [8]
+ Soligenix  did a 1-for-15 reverse stock split, and the Series D disappeare=
+d back into the lawyer=E2=80=99s imagination from whence it came.
+Is this legal? I mean, the answer is:
+=09nothing here is ever legal advice;=09it is=C2=A0funny, anyway, and isn=
+=E2=80=99t that the=C2=A0real=C2=A0purpose of securities lawyering; and=09w=
+ho would=C2=A0object?
+
+The large majority of the shareholders who bothered to vote wanted this res=
+ult; Soligenix just found a way to give it to them.=C2=A0
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Designated counsel
+   =20
+ =20
+
+Most of the time, if you are a person and you want to borrow money from a b=
+ank, the bank sends you a contract =E2=80=94 a credit card agreement, say =
+=E2=80=94=C2=A0and you sign it. If you send them back a markup of the agree=
+ment with some suggested changes to make it more friendly to you, they will=
+ not even understand what you are talking about. Nobody at the bank has the=
+ job of negotiating that agreement with you; that is not an agreement that =
+gets negotiated.=C2=A0You just sign the form that they send you, or you don=
+=E2=80=99t get the money.
+At higher levels of finance, things are more equal and=C2=A0the leverage sh=
+ifts.=C2=A0If you are a big corporation and you want to borrow money from a=
+ bank, they bank will send you a credit agreement, your lawyers will mark i=
+t up, your lawyers will negotiate with the bank=E2=80=99s lawyers and event=
+ually you will agree on the terms. The bank wants your business and can be =
+much more flexible with the contract than it would be with a retail custome=
+r.
+There are, however, even higher levels. If you are a big private equity fir=
+m and you want to borrow money from some banks, you send=C2=A0them=C2=A0a c=
+redit agreement. And then you pick the lawyers that they hire to mark it up=
+. Here=E2=80=99s a Bloomberg News story about =E2=80=9Cdesignated counsel=
+=E2=80=9D:
+
+Originally heralded as a way to make the often-fractious buyout process mor=
+e efficient, the widely-used designated counsel arrangement is now viewed b=
+y many, including some of Wall Street=E2=80=99s biggest names, as a potenti=
+al conflict of interest. It allows private equity firms, guided by their la=
+wyers, to appoint and pay for the law firms that represent the lenders fund=
+ing their deals.
+The International Organization of Securities Commissions (IOSCO) has begun =
+looking into the designated counsel arrangement as part of a wider probe in=
+to leveraged debt markets, a spokesperson for the regulator said. Other reg=
+ulators such as the Financial Conduct Authority are involved in IOSCO=E2=80=
+=99s work.=C2=A0
+Since the early 2010s, market pressures =E2=80=94 and access to plentiful c=
+heap money =E2=80=94 meant many lenders lacked the negotiating power to pus=
+h for stronger protections. [Kirkland & Ellis partner Neel] Sachdev and his=
+ buyout clients have used this imbalance to convince lenders, like the cred=
+it units of private equity groups and Wall Street=E2=80=99s largest banks, =
+to agree to lesser safeguards around debt levels and dividend payments on d=
+eals they help finance. =E2=80=A6
+Advocates of designated counsel argue that selecting a single law firm to r=
+epresent all lenders in a deal means negotiations are less likely to get bo=
+gged down with multiple teams of lawyers arguing.
+But the arrangement encouraged some lawyers to develop close relationships =
+with their counterparts acting on behalf of private equity groups. For some=
+ law firms that translated into repeat work and a lucrative stream of busin=
+ess, according to people working at credit funds and law firms, who did not=
+ want to speak publicly to avoid damaging institutional relationships.
+The extent to which some lawyers became dependent, at least partially, on t=
+his designated business has triggered concerns among a number of lenders ab=
+out potential conflicts of interest.
+
+There are sort of two points here:
+=09Big private equity firms push their lenders to hire designated counsel t=
+hat they pick, and the lenders accept the designated counsel because they d=
+on=E2=80=99t have a lot of leverage in the negotiation. And then the design=
+ated counsel might not negotiate the covenants as aggressively as independe=
+nt lawyers would.=09Big private equity firms push their lenders to accept w=
+eak covenants, and the lenders accept the weak covenants because they don=
+=E2=80=99t have a lot of leverage in the negotiation.
+
+That is, the designated counsel are a result=C2=A0of the lenders not having=
+ much negotiating leverage, not (only) a=C2=A0cause. But rates are up, cond=
+itions are tighter, and now =E2=80=9Cdirect lending units at firms such as =
+Blackstone - which declined to comment for this story - are said to be draw=
+ing up lists of preferred law firms to act as designated counsel and active=
+ly pushing back when certain law firms are selected for the role.=E2=80=9D
+
+ =20
+   =20
+      People are worried about CEO narcissism
+   =20
+ =20
+
+Here is a paper called =E2=80=9CThe beguiling behaviour of narcissistic CEO=
+s: Evidence from repurchase announcements,=E2=80=9D by Evans Ofosu Boamah a=
+nd Shantanu Banerjee of Lancaster University, which on=C2=A0one level finds=
+ that companies with narcissistic chief executive officers are more likely =
+to announce large share buybacks, but less likely to actually complete thos=
+e buybacks:
+Using signature characteristics as a measure of narcissism, we find that US=
+ firms with narcissist CEOs are more likely to make repurchase announcement=
+s and announce higher repurchase dollar amounts. However, these firms are l=
+ess likely to follow through. They repurchase less and a small dollar amoun=
+t when they make an actual repurchase in the announcement year. The higher =
+rate and amount of repurchase announcements are more pronounced in poorly-g=
+overned firms with narcissistic CEOs. These results are robust to various s=
+pecifications including a difference-in-difference specification using CEOs=
+=E2=80=99 exogenous turnover, controlling for other CEO traits and using an=
+ alternative measure of narcissism based on pronoun usage in CEO communicat=
+ions. Collectively, the results presented in this study demonstrate that na=
+rcissist CEOs play a critical role in the intensity of share repurchase ann=
+ouncements and their executions, particularly for firms with weaker governa=
+nce structure.
+But at another level it demonstrates that financial academics can spend the=
+ir time analyzing CEO signatures =E2=80=94=C2=A0like, literally, how they s=
+ign their names =E2=80=94 and then trying to correlate those signatures to =
+financial outcomes:
+Psychology literature argues that handwriting styles reflect personality (C=
+haudhari and Thakkar, 2019). In line with this, we measure CEO narcissism u=
+sing the area per character signature size narcissism measure. Using an uno=
+btrusive measure such as signature size reduces the=C2=A0 reactivity, resea=
+rcher expectation and demand characteristics that can weaken the measure=E2=
+=80=99s validity (Chatterjee and Hambrick, 2007). We draw a rectangle that =
+touches the CEO signature=E2=80=99s edges to measure the area per character=
+ signature size. We measure the area by multiplying the length and width of=
+ the rectangle. We measure CEO narcissism by dividing the area by the numbe=
+r of characters in the CEO=E2=80=99s signed name. According to our predicti=
+on, the greater a CEO=E2=80=99s narcissism score, as measured by the signat=
+ure size, the more likely the announcement of repurchases and target a larg=
+er dollar amount.
+I feel like that=E2=80=99s the sort of thing you can do in academia. If you=
+ work at a hedge fund and you go to your boss and say =E2=80=9CI am going t=
+o predict how much stock our portfolio companies will buy back by taking a =
+tape measure to the CEO=E2=80=99s signature in the proxy statement,=E2=80=
+=9D what would your boss say? I actually don=E2=80=99t know? I feel like I =
+am going to get some emails that are like =E2=80=9CI work at a hedge fund a=
+nd we use handwriting analysis all the time to predict short-term stock pri=
+ce moves.=E2=80=9D Really finance is the study of human behavior and I gues=
+s signing your name really big is a human behavior like anything else, appa=
+rently one that correlates with stock buyback announcements.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+The SEC approves  T+1 settlement. =E2=80=9C=E2=80=98It was like working for=
+   Stalin or Hitler or something,=E2=80=99 says Jimmy Watson Jr., [John] Mc=
+Afee=E2=80=99s former bodyguard and business partner.=E2=80=9D=C2=A0Tech st=
+art-ups face dilemma over  expiring staff stock options. From   Math Camp t=
+o Handcuffs: FTX=E2=80=99s Downfall Was an Arc of Brotherhood and Betrayal.=
+ The Rainmakers: Meet the  20 powerhouse bankers who orchestrated the bigge=
+st deals of 2022 and defied a down market. Missed signals: behind Trafigura=
+=E2=80=99s $577mn loss on  non-existent nickel.=C2=A0Credit Suisse=E2=80=99=
+s Klein Says   First Boston Staff Will Own Firm. EU Sanctions Aim to Make B=
+anks   Divulge Frozen Russian Assets. Adani  halts $847mn acquisition of co=
+al-fired power plant in India.=C2=A0Turkey=E2=80=99s Latest   Lira Defense =
+Is More-Costly Forward Contracts. JPMorgan=E2=80=99s Kolanovic Warns of =E2=
+=80=98Volmageddon 2.0=E2=80=99 Risk in Options. Ex-JPMorgan Executive=E2=80=
+=99s   Jeffrey Epstein Emails=C2=A0Revealed in Lawsuit Against Bank.=C2=A0B=
+ing=E2=80=99s A.I. Chat Reveals Its Feelings: =E2=80=98I Want to Be Alive.=
+=E2=80=99
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] These tend to be exchanges where you can trade, like, Ether or Solana=
+ for Ethereum- or Solana-based stablecoins, etc., not exchanges where you c=
+an trade *Bitcoins* for *actual dollars*, just because Venmo or whatever ar=
+en=E2=80=99t on the blockchain.=20
+
+
+  [2] See pages 11-12 of  the SEC=E2=80=99s proposed rule, which are maybe =
+a touch argumentative about how much Congress really *intended* to cover no=
+n-security assets. =E2=80=9CEarlier versions of this bill show that Congres=
+s considered retaining the current rule=E2=80=99s funds and securities form=
+ulation,=E2=80=9D says a footnote; basically the argument is that =E2=80=9C=
+assets=E2=80=9D must mean something more than =E2=80=9Cfunds and securities=
+,=E2=80=9D because an early draft said =E2=80=9Cfunds and securities=E2=80=
+=9D and then was changed to =E2=80=9Cassets.=E2=80=9D
+
+
+  [3] We   discussed this two weeks ago, and there is more to it: AMC also =
+sold a bunch of APEs to a big investor who promised to vote them to authori=
+ze more shares, and the APEs have generally migrated into the hands of arbi=
+trageurs with an incentive to approve the issuance. But the depositary voti=
+ng stuff is the real innovation.
+
+
+  [4] In fact, in September 2022, Soligenix asked its shareholders to autho=
+rize more shares, but the vote failed. Soligenix said in a securities filin=
+g: =E2=80=9CDespite support for Proposal 2 exceeding 80% of the votes cast =
+on the proposal, Proposal 2 did not receive the affirmative vote of holders=
+ of more than 50% of the Company=E2=80=99s issued and outstanding shares of=
+ Common Stock and, therefore, was not approved. A large proportion of the s=
+tockholders holding shares through banks, brokers or other nominees could n=
+ot be identified or were unresponsive to the Company=E2=80=99s outreach in =
+urging them to vote their shares.=E2=80=9D The shareholders who voted wante=
+d to authorize more shares, but most shareholders didn=E2=80=99t vote.
+
+
+  [5] I learned of this because we=20
+talked yesterday about Purple Innovations Inc.=E2=80=99s PRPLS preferred sh=
+ares, each of which had 10,000 votes, and reader Patrick Corn emailed to sa=
+y that he could top that with a million votes per share.
+
+
+  [6] I think? There is no filing reflecting that it disappeared, but the  =
+initial announcement said that it would be redeemed =E2=80=9Cautomatically =
+upon the approval by the Company=E2=80=99s stockholders of an amendment to =
+the Company=E2=80=99s certificate of incorporation effecting the reverse st=
+ock split,=E2=80=9D which  happened last Wednesday.
+
+
+  [7] Technically,  for $0.10 per 100 whole preferred shares (corresponding=
+ to 100,000 common shares) beneficially owned by a holder, but no cash paym=
+ent for any fraction of 100 whole preferred shares. So if you owned 100,000=
+ common shares you could get $0.10 out of this. The biggest shareholder, ac=
+cording to Bloomberg data, seems to be the Vanguard Group, with 1.6 million=
+ shares, so they stand to get $1.60 I guess, and a few executives disclosed=
+ in  the proxy seem to have more than 100,000 shares and so might get a few=
+ cents, but pretty much everyone else gets zero.
+
+
+  [8] Specifically, there were about 43 million common shares and 43,335 pr=
+eferred shares (with 43.3 billion *votes*) outstanding a month before the v=
+ote. There were about 18.6 billion votes for the reverse split, about 3 bil=
+lion votes against, and about 591 million abstentions, meaning that roughly=
+ half of the shares voted one way or the other (or even filled out a proxy =
+to abstain). But the other half were canceled, with the result that the pro=
+posal got 84% of the vote.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci7cdn.62ck/cd7eade6.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_1938989_699454691.1676577237531
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.Roughly =
+speaking the way the US stock market works is that all of the sto
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDU3NTcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NTg3MDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB09d5ea32" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30575723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMjE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMTYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBd31d1fc7"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDU3NTcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NTg3MDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC16e43381" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30575723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Crypto custody</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Roughly speaking the way the US stock=C2=A0mar=
+ket works is that all of the stocks are in one place. The place is called D=
+TC, the Depository Trust Company, which in some sense owns almost all of th=
+e stocks. If you own a stock, what you own is an entry on a list at your br=
+okerage, saying that you are entitled to some of the stocks that it is hold=
+ing onto for clients, and what your=C2=A0brokerage=C2=A0has is an entry on =
+a list at DTC, saying that it is entitled to some of the stocks that DTC is=
+ holding onto. (And what DTC mostly owns is entries on lists at all the com=
+panies, or their transfer agents, saying that it owns the stocks that those=
+ companies issue.)=C2=A0</p>
+<p style=3D"margin: 16px 0;">One thing this means is that when I buy some s=
+tock from you, the way we settle that transaction =E2=80=94=C2=A0the way yo=
+u actually deliver the stock to me =E2=80=94=C2=A0is by updating DTC=E2=80=
+=99s list. We tell DTC about the transaction, it increments the stock in my=
+ account (really my broker=E2=80=99s, who increments my account) and decrem=
+ents the stock in yours. This is far more efficient than if, for instance, =
+you owned your stock in the form of paper stock certificates, and to settle=
+ trades you had to courier those certificates over to me, which is pretty m=
+uch how things worked in the olden days.</p>
+<p style=3D"margin: 16px 0;">Another thing this means is that DTC is an ext=
+remely important weird market utility, highly trusted and so heavily regula=
+ted. =E2=80=9CDTC is a member of the U.S. Federal Reserve System, a limited=
+-purpose trust company under New York State banking law and a registered cl=
+earing agency with the U.S. Securities and Exchange Commission,=E2=80=9D <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aHR0=
+cHM6Ly93d3cuZHRjYy5jb20vYWJvdXQvYnVzaW5lc3Nlcy1hbmQtc3Vic2lkaWFyaWVzL2R0Yw/=
+607f07ceef4b8524a319a23cB8fb9d61d" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> says its website</a>, on the sa=
+me page that also mentions that it holds $87 trillion worth of securities.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">The way the crypto market works is a bit diffe=
+rent. One way for crypto to work is that there is a blockchain, a decentral=
+ized ledger maintained by thousands of independent nodes, and you can own s=
+ome Bitcoin on the blockchain, and you and I can agree on a trade in which =
+I send you some dollars (by wire transfer or Venmo or whatever) and you sen=
+d me some Bitcoin on the Bitcoin blockchain. How do we meet each other and =
+agree to that trade? You could imagine some sort of exchange =E2=80=94=C2=
+=A0like US stock exchanges =E2=80=94=C2=A0that allows us to post orders to =
+buy and sell crypto, and if our orders cross =E2=80=94=C2=A0if I want to bu=
+y and you want to sell =E2=80=94=C2=A0then we are matched with each other a=
+nd then settle up using Venmo and the blockchain. This can work in some sor=
+t of informal way (like, a message board for us to meet and negotiate trade=
+s), or in modern crypto you can have decentralized exchanges built on smart=
+ contracts where trades and settlements all occur on the blockchain.<a clas=
+s=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: none !important; background-color: transparent =
+!important; display: inline-block;">
+<span>[1]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But practically speaking the way that a=C2=A0<=
+em>lot=C2=A0</em>of crypto works is more like the stock market: There is so=
+me central intermediary, much like DTC, that holds onto a lot of crypto for=
+ a lot of investors; we can call it the =E2=80=9Cdepository.=E2=80=9D=C2=A0=
+The investors agree on a trade =E2=80=94=C2=A0you agree to sell me some Bit=
+coin =E2=80=94=C2=A0on an exchange, and then we settle that trade by updati=
+ng our accounts with the depository. There are some differences, though:</p=
+>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The depository is normally=C2=A0<em>a=
+lso the exchange:=C2=A0</em>If you and I are trading on Coinbase, Coinbase =
+is holding onto our crypto for us and updating its ledger when we agree to =
+a trade on its exchange. This is different from the stock market, where the=
+ exchanges =E2=80=94=C2=A0NYSE and Nasdaq and so forth =E2=80=94=C2=A0are s=
+eparate from DTC.</li>=09<li style=3D"margin-bottom: 5px;">There is normall=
+y=C2=A0<em>one depository per exchange: </em>If you have some Bitcoin on Bi=
+nance, and you and I agree on a trade on Coinbase, you can=E2=80=99t just i=
+nstantly send me your Binance Bitcoins to settle that trade. Each exchange =
+has its own depository, unlike in the US stock market, where you and I can =
+agree a trade on NYSE or Nasdaq or wherever and then settle up using DTC.</=
+li>=09<li style=3D"margin-bottom: 5px;">The exchange is =E2=80=A6=C2=A0I me=
+an =E2=80=A6=C2=A0less trusted by US regulatory authorities than DTC is? To=
+ be clear, DTC is very trusted by US regulatory authorities; it is a center=
+piece of modern securities markets. Crypto exchanges range from, you know, =
+=E2=80=9Cnot=C2=A0<em>quite=C2=A0</em>as trusted as DTC=E2=80=9D to, uh, we=
+ll, much worse than that.</li>
+</ol>
+<p style=3D"margin: 16px 0;">In the US, the Securities and Exchange Commiss=
+ion regulates =E2=80=9Cinvestment advisers,=E2=80=9D which means not only p=
+eople who advise clients about their investments, but also people and firms=
+ who manage=C2=A0<em>funds</em>; <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30575723.282980/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90=
+ZXh0LzE3LzI3NS4yMDMobSktMQ/607f07ceef4b8524a319a23cB943e52b6" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">big</=
+a> hedge funds and mutual funds are generally managed by registered investm=
+ent advisers. There <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/30575723.282980/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI3N=
+S4yMDYoNCktMg/607f07ceef4b8524a319a23cBd6e55548" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> are rules</a> abo=
+ut an investment adviser=E2=80=99s=C2=A0<em>custody=C2=A0</em>of client ass=
+ets: You can=E2=80=99t just keep your client=E2=80=99s stock certificates i=
+n a pile under your desk; those assets need to be held by a =E2=80=9Cqualif=
+ied custodian=E2=80=9D in your client=E2=80=99s name. And there are standar=
+d ways to implement this; there are trust companies and brokerages that are=
+ in the business of being custodians for investment advisers, and that effe=
+ctively own the advisers=E2=80=99 clients=E2=80=99 stocks through DTC.</p>
+<p style=3D"margin: 16px 0;">Historically those rules have applied to =E2=
+=80=9Cclient funds or securities=E2=80=9D: The SEC regulates securities tra=
+des, and so it focuses mostly on securities and money. But in the Dodd-Fran=
+k Act of 2010, Congress gave the SEC power to regulate advisers=E2=80=99 cu=
+stody of client =E2=80=9Cassets,=E2=80=9D which seems to include not just s=
+ecurities and money but also real estate, derivatives, etc.<a class=3D"foot=
+note-index" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: none !important; background-color: transparent !importan=
+t; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0</p>
+<p style=3D"margin: 16px 0;">And =E2=80=94=C2=A0though probably nobody thou=
+ght much=C2=A0about it at the time =E2=80=94=C2=A0crypto. And so yesterday =
+the SEC <a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.2=
+82980/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy0zMA/607f07=
+ceef4b8524a319a23cBda39fee6" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> proposed new rules</a> for custody of=
+ client assets:</p>
+<blockquote><p style=3D"margin: 16px 0;">The proposed rules would exercise =
+Commission authority under section 411 of the Dodd-Frank Act by broadening =
+the application of the current investment adviser custody rule beyond clien=
+t funds and securities to include any client assets in an investment advise=
+r=E2=80=99s possession or when an investment adviser has authority to obtai=
+n possession of client assets. Like the current rule, the proposed rule wou=
+ld entrust safekeeping of client assets to qualified custodians, including,=
+ for example, certain banks or broker-dealers.<br /><br />The proposed chan=
+ges are intended to help ensure that qualified custodians provide certain s=
+tandard custodial protections when maintaining an advisory client=E2=80=99s=
+ assets. These protections are designed, among other things, to ensure clie=
+nt assets are properly segregated and held in accounts to protect the asset=
+s in the event of a qualified custodian bankruptcy or other insolvency.</p>=
+</blockquote>
+<p style=3D"margin: 16px 0;">I suppose that this is about lots of things, i=
+ncluding the mechanics of the adviser/custodian relationship, surprise exam=
+inations of client assets, etc., but it is especially about crypto. SEC Cha=
+ir Gary=C2=A0Gensler <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/30575723.282980/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3N0YXRlbWVudC9nZW5zbGVy=
+LXN0YXRlbWVudC1jdXN0b2R5LTAyMTUyMw/607f07ceef4b8524a319a23cB50eda6b9" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> said in a statement</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Make no mistake: Today=E2=80=99s rule, the 200=
+9 rule, covers a significant amount of crypto assets. As the release states=
+, =E2=80=9Cmost crypto assets are likely to be funds or crypto asset securi=
+ties covered by the current rule.=E2=80=9D Further, though some crypto trad=
+ing and lending platforms may claim to custody investors=E2=80=99 crypto, t=
+hat does not mean they are qualified custodians. Rather than properly segre=
+gating investors=E2=80=99 crypto, these platforms have commingled those ass=
+ets with their own crypto or other investors=E2=80=99 crypto. When these pl=
+atforms go bankrupt=E2=80=94something we=E2=80=99ve seen time and again rec=
+ently=E2=80=94investors=E2=80=99 assets often have become property of the f=
+ailed company, leaving investors in line at the bankruptcy court.</p>
+<p style=3D"margin: 16px 0;">Make no mistake: Based upon how crypto platfor=
+ms generally operate, investment advisers cannot rely on them as qualified =
+custodians.</p>
+<p style=3D"margin: 16px 0;">Further, today=E2=80=99s proposal, in covering=
+ all asset classes, would cover all crypto assets=E2=80=94including those t=
+hat currently are covered as funds and securities and those that are not fu=
+nds or securities. Thus, through this expanded custody rule, investors work=
+ing with advisers would receive the time-tested protections that they deser=
+ve for all of their assets, including crypto assets, consistent with what C=
+ongress envisioned.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">A couple of points here. First, the effect of =
+this rule is to ban registered advisers from=C2=A0<em>trading=C2=A0</em>cry=
+pto on=C2=A0<em>most=C2=A0</em>exchanges: To trade crypto on most centraliz=
+ed exchanges, you need to deposit the crypto on the exchange first, which d=
+estroys custody. From the proposed rule:</p>
+<blockquote><p style=3D"margin: 16px 0;">Importantly, however, to comply wi=
+th the proposed rule, an adviser with custody of client=C2=A0crypto assets =
+would generally need to ensure those assets are maintained with a qualified=
+ custodian that has possession or control of the assets at all times in whi=
+ch the adviser has custody. While this is true for most client assets over =
+which an adviser has custody, it is particularly relevant with respect to c=
+rypto assets because, as we understand, much of the crypto asset trading vo=
+lume occurs on crypto asset trading platforms that often directly settle th=
+e trades placed on their platforms. As a result, many crypto trading platfo=
+rms require investors to pre-fund trades, a process in which investors tran=
+sfer their crypto assets, including crypto asset securities, or fiat curren=
+cy to such an exchange prior to the execution of any trade. Because we unde=
+rstand that most crypto assets, including crypto asset securities, trade on=
+ platforms that are not qualified custodians, this practice would generally=
+ result in an adviser with custody of a crypto asset security being in viol=
+ation of the current custody rule because custody of the crypto asset secur=
+ity would not be maintained by a qualified custodian from the time the cryp=
+to asset security was moved to the trading platform through the settlement =
+of the trade.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">You can trade stocks on the stock exchange bec=
+ause the stocks live at DTC and you own them through a qualified custodian,=
+ but if you trade crypto on Binance then the crypto lives at Binance and th=
+e SEC might have concerns. Some crypto exchanges have custody services that=
+ probably qualify =E2=80=94=C2=A0=E2=80=9CPaul Grewal, <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3cud3NqLm=
+NvbS9hcnRpY2xlcy9zZWMtY29uc2lkZXJzLXJ1bGVzLXRoYXQtY291bGQtdGhyZWF0ZW4tY3J5c=
+HRvLWN1c3RvZHktc2VydmljZXMtODliYTRjZDU_bW9kPWl0cF93c2omcnU9eWFob28/607f07ce=
+ef4b8524a319a23cB799bd90e" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> Coinbase=E2=80=99s chief legal officer<=
+/a>, said the firm is confident that its New York-chartered trust entity =
+=E2=80=98will remain a qualified custodian=E2=80=99=E2=80=9D =E2=80=94 but =
+your choices are more limited. SEC Commissioner Mark Uyeda <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3cuc2=
+VjLmdvdi9uZXdzL3N0YXRlbWVudC91eWVkYS1zdGF0ZW1lbnQtY3VzdG9keS0wMjE1MjM/607f0=
+7ceef4b8524a319a23cB0329d706" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> said in his statement</a>=C2=A0that =
+=E2=80=9Cthe proposing release takes great pains to paint a =E2=80=98no-win=
+=E2=80=99=C2=A0scenario for crypto assets,=E2=80=9D and:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The proposing release also explicitly states t=
+hat =E2=80=93 because crypto assets trade on platforms that are not qualifi=
+ed custodians =E2=80=93 an adviser that trades crypto assets on a platform =
+would violate the proposed rule.=C2=A0Hence, the preamble in the proposing =
+release indicates that it is unlikely that crypto assets can be maintained =
+at qualified custodians or traded on crypto trading platforms in compliance=
+ with the proposed rule. How could an adviser seeking to comply with this r=
+ule possibly invest client funds in crypto assets after reading this releas=
+e?</p>
+<p style=3D"margin: 16px 0;">This approach to custody appears to mask a pol=
+icy decision to block access to crypto as an asset class.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Another point is, you know, the SEC is not wro=
+ng. Crypto exchanges=C2=A0<em>do=C2=A0</em>have a long history of losing cu=
+stomer assets, and of landing in bankruptcy with customers who are very con=
+fused specifically about=C2=A0<em>custody=C2=A0</em>questions. Crypto excha=
+nges mostly create the=C2=A0<em>impression=C2=A0</em>that they segregate cu=
+stomer assets, and then mostly end up with customers who are unsecured cred=
+itors in bankruptcy. Even Coinbase, which does seem to <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMDkvYmFua21hbi1mcmllZC1zLWZ0e=
+C1oYWQtYS1kZWF0aC1zcGlyYWwtYmVmb3JlLWJpbmFuY2UtZGVhbD9jbXBpZD1CQkQwMjE2MjNf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMzAyMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB0e7d8=
+cd9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  keep its customers=E2=80=99 crypto segregated</a>, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aHR0cHM6L=
+y93d3cuY29pbmRlc2suY29tL21hcmtldHMvMjAyMi8wNS8xMS9jb2luYmFzZS1oYXMtbm8tcmlz=
+ay1vZi1iYW5rcnVwdGN5LW5ldy0xMC1xLWRpc2Nsb3N1cmUtbGFuZ2F1Z2UtaXMtc2VjLXJlcXV=
+pcmVtZW50LWNlby1hcm1zdHJvbmctc2F5cy8/607f07ceef4b8524a319a23cB30a0e6fe" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> can=E2=80=99t definitively=C2=A0promise</a> them that they won=E2=80=
+=99t be unsecured creditors in bankruptcy: The legal regimes for crypto cus=
+tody are just less settled than the regimes for securities custody.=C2=A0</=
+p>
+<p style=3D"margin: 16px 0;">One more point I=E2=80=99d like to make is abo=
+ut the SEC=E2=80=99s creativity. The SEC does not =E2=80=9Cregulate crypto.=
+=E2=80=9D In US law, at least some cryptocurrencies =E2=80=94=C2=A0the big =
+ones, like Bitcoin and Ether=C2=A0=E2=80=94=C2=A0are classified as commodit=
+ies not subject to SEC jurisdiction. But the SEC has launched a pretty comp=
+rehensive offensive to take over crypto regulation:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">The SEC <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjItMDktMDgvZ2FyeS1nZW5zbGVyLXdhbnRzLXRvLXJlZ3V=
+sYXRlLWNyeXB0bz9jbXBpZD1CQkQwMjE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJn=
+V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMTYmdXRtX2NhbXBhaWduPW1vbmV5c=
+3R1ZmY/607f07ceef4b8524a319a23cB46621259" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  argues</a> that when a=
+ crypto project issues tokens to fund its development, those tokens are alm=
+ost always securities: Other than a few grandfathered tokens like Bitcoin a=
+nd Ether, most tokens are going to be securities subject to SEC jurisdictio=
+n.</li>=09<li style=3D"margin-bottom: 5px;">The SEC argues that interest-be=
+aring crypto accounts =E2=80=94=C2=A0<a href=3D"https://link.mail.bloomberg=
+business.com/click/30575723.282980/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjMtMDEtMTcvc2VjLWNvbWVzLWZvci1nZW1pbmktdG9vLWxhdGU_Y21=
+waWQ9QkJEMDIxNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3=
+NsZXR0ZXImdXRtX3Rlcm09MjMwMjE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b=
+8524a319a23cB3be053e2" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">lending</a> and <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMTMvdGhlLXNlYy1jcmFja3MtZG93bi1vbi1jc=
+nlwdG8_Y21waWQ9QkJEMDIxNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291=
+cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/60=
+7f07ceef4b8524a319a23cB618e8d19" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  staking</a> products =E2=80=94=
+=C2=A0are always securities; if a crypto exchange holds your Bitcoin for yo=
+u and pays you interest, that=E2=80=99s a security subject to SEC jurisdict=
+ion.</li>=09<li style=3D"margin-bottom: 5px;">The SEC here is using its aut=
+hority to regulate investment advisers to indirectly regulate crypto: Inves=
+tment funds are subject to SEC regulation, so the SEC will tell them what t=
+o do with their crypto, even if that crypto is not a security.</li>
+</ul>
+<p style=3D"margin: 16px 0;">A general theme of financial regulation is tha=
+t regulators write rules, and then creative financial-industry lawyers find=
+ ways around them. The industry lawyers tend to have advantages over the re=
+gulators: They are better paid, for one thing, but also the regulators have=
+ to write general public rules that account for all cases and then the indu=
+stry lawyers get to poke holes in them at their leisure. I once <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDktMTMvY3J5cHRvLXdhbnRz=
+LXNvbWUtc2VjLXJ1bGVzP2NtcGlkPUJCRDAyMTYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1=
+haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxNiZ1dG1fY2FtcGFpZ249bW=
+9uZXlzdHVmZg/607f07ceef4b8524a319a23cB29afa0c7" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  wrote specificall=
+y about crypto</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">If you are the SEC, and crypto peo=
+ple say =E2=80=9Cplease write clear transparent rules so we know what is an=
+d isn=E2=80=99t allowed,=E2=80=9D you might hear that as =E2=80=9Cplease wr=
+ite clear transparent rules so that we can game them.=E2=80=9D This would b=
+e a reasonable lesson for the SEC to take from (1) the history of crypto=E2=
+=80=99s =E2=80=9Ccode is law=E2=80=9D philosophy ending in hacks, (2) the h=
+istory of crypto firms ignoring the US securities laws, and for that matter=
+ (3) the history of traditional finance firms trying to game the SEC=E2=80=
+=99s rules. Crypto is a wholly new area for US securities regulation, and i=
+f you try to write all the rules from scratch in one go you will get things=
+ wrong. And then people will ruthlessly exploit whatever you get wrong.</p>=
+</blockquote>
+<p style=3D"margin: 16px 0;">And that is the stereotype: The industry is ru=
+thless and creative about exploiting the rules, and the regulators are cons=
+tantly playing catch-up.</p>
+<p style=3D"margin: 16px 0;">I just want to say that in crypto right now th=
+e SEC is being ruthless and creative about exploiting legal provisions to e=
+xpand=C2=A0its powers, and the industry seems to be playing catch-up. Just =
+an unusual situation!</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDU3NTcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NTg3MDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDa3ad8a30" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30575723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDU3NTcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NTg3MDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEa3ad8a30" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30575723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDU3NTcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NTg3MDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF19139aa0" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30575723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDU3NTcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NTg3MDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG19139aa0" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30575723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDU3NTcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NTg3MDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH77c01446" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30575723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDU3NTcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NTg3MDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI77c01446" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30575723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Soligenix</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We have talked before about the problems of me=
+me-stock corporate governance, and particularly=C2=A0the problem of meme-st=
+ock shareholder voting. The problem is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If you=E2=80=99re a weird public comp=
+any with a very retail investor base, you will have a hard time getting you=
+r shareholders to <em>vote=C2=A0</em>on anything, since retail shareholders=
+ stereotypically do not vote.</li>=09<li style=3D"margin-bottom: 5px;">If y=
+ou=E2=80=99re a weird public company with a very retail investor base, you =
+will probably end up=C2=A0<em>needing=C2=A0</em>your shareholders to vote f=
+or something or other, because you=E2=80=99re weird.</li>
+</ol>
+<p style=3D"margin: 16px 0;">So Digital World Acquisition Corp. wanted to g=
+et shareholder approval to extend the time on its deal to buy Donald Trump=
+=E2=80=99s social media company, but <a href=3D"https://link.mail.bloomberg=
+business.com/click/30575723.282980/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjItMDktMDYvdHJ1bXAtc3BhYy1kb2Vzbi10LWhhdmUtdGhlLXZvdGV=
+zP2NtcGlkPUJCRDAyMTYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cBb6568025" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  it couldn=E2=80=99t get it</a>, beca=
+use the retail shareholders who were extremely enthusiastic about buying it=
+s stock, and about the deal, were not enthusiastic enough to vote. Or AMC E=
+ntertainment Holdings Inc. has a lot of enthusiastic retail shareholders, a=
+nd it got very good at=C2=A0<em>selling them stock</em>, but it eventually =
+ran out of authorized shares to sell, and it needed holders of a majority o=
+f its outstanding shares to vote to authorize more, and it couldn=E2=80=99t=
+ get enough votes.</p>
+<p style=3D"margin: 16px 0;">AMC <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30575723.282980/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjMtMDItMDEvYW1jLWhhcy1zb21lLWNsZXZlci1hcGVzP2NtcGlkPUJCRDA=
+yMTYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJn=
+V0bV90ZXJtPTIzMDIxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a2=
+3cBab1e277a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  (probably) solved this problem</a> with some clever =
+engineering. It created a new class of preferred stock, gave each preferred=
+ share 100 votes, and distributed 1/100th of a preferred share for each com=
+mon share, basically a stock split where if you had one common share with o=
+ne vote now you had one common share and 1/100th of a preferred share with =
+a total of two votes. (The 1/100th of a preferred share is called an APE, a=
+n AMC Preferred Equity Unit.) It=E2=80=99s not obvious that this would chan=
+ge much =E2=80=94=C2=A0you still have to get a majority of the combined APE=
+ and common holders to vote to authorize more shares =E2=80=94=C2=A0but AMC=
+ added a clever twist. It issued the preferred shares to a depositary, Comp=
+utershare Trust Co., and had Computershare issue the APE units to AMC=E2=80=
+=99s shareholders. So now 100% of the preferred shares are owned, not by a =
+bunch of retail shareholders, but by Computershare. The retail APE holders =
+still get to vote, and Computershare still has to vote=C2=A0<em>its=C2=A0</=
+em>shares however the APE holders vote, but Computershare has to vote=C2=A0=
+<em>all=C2=A0</em>of the shares: If 20% of the APE holders vote yes, 5% vot=
+e no, and 75% don=E2=80=99t vote at all, then Computershare will vote 80% o=
+f the preferred shares for yes and 20% for no. AMC still needs to=C2=A0<em>=
+win the vote</em>, but it has solved the problem of=C2=A0<em>retail shareho=
+lders not voting at all</em>.<a class=3D"footnote-index" href=3D"#footnote-=
+3" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: none !impor=
+tant; background-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Soligenix Inc. is a micro-cap biotech company =
+listed on the Nasdaq. Nasdaq will delist companies whose stocks trade below=
+ $1 per share for an extended period. Soligenix=E2=80=99s stock traded belo=
+w $1 for a long time, and Nasdaq <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30575723.282980/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdh=
+ci9kYXRhLzgxMjc5Ni8wMDAxNTU4MzcwMjMwMDAwOTAvdG1iLTIwMjMwMjA4eGRlZjE0YS5odG0=
+/607f07ceef4b8524a319a23cB983f0df4" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">threatened=C2=A0it with delisti=
+ng</a> starting in December 2021. By December 2022 it was still below $1 an=
+d <a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/=
+aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvODEyNzk2LzA=
+wMDE1NTgzNzAyMjAxODk2OC90bWItMjAyMjEyMjB4OGsuaHRt/607f07ceef4b8524a319a23cB=
+81f8a705" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> in real danger of delisting</a>. The normal solution her=
+e is a reverse stock split: If your stock trades at $0.70, and you do a 1-f=
+or-10 reverse stock split, then every 10 shares (each worth $0.70) become o=
+ne share, which should be worth $7.00. But you need shareholder approval fo=
+r the split, and Soligenix was worried about its ability to get a majority =
+of its retail, penny-stock shareholders to vote for anything.<a class=3D"fo=
+otnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: none !important; background-color: transparent !import=
+ant; display: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">So Soligenix came up with an APE-like solution=
+. Like AMC, it <a href=3D"https://link.mail.bloombergbusiness.com/click/305=
+75723.282980/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzgxMjc5Ni=
+8wMDAxNTU4MzcwMjIwMTg5ODcvdG1iLTIwMjIxMjIxeGV4OTlkMS5odG0/607f07ceef4b8524a=
+319a23cB16bee007" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> issued new =E2=80=9Cblank-check preferred stock=
+=E2=80=9D</a>; each share of its new Series D preferred stock came with=C2=
+=A0<em>one million=C2=A0</em>votes.<a class=3D"footnote-index" href=3D"#foo=
+tnote-5" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none =
+!important; background-color: transparent !important; display: inline-block=
+;">
+<span>[5]</span>
+</a>=C2=A0And it distributed the preferred shares to its common shareholder=
+s, giving them each 1/1,000th of a preferred share (with 1,000 votes) for e=
+ach common share that they own. So effectively all of the voting power of t=
+he company is in the Series D preferred, but the voting rights don=E2=80=99=
+t really change, because every existing common shareholder owns the same pr=
+oportional amount of Series D preferred.</p>
+<p style=3D"margin: 16px 0;">But the Series D preferred stock is a temporar=
+y blip: Soligenix issued it in December, and it all disappeared last week.<=
+a class=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: none !important; background-color: transp=
+arent !important; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0It never traded, had no cash value, was issued to shareholders fo=
+r $0 and then redeemed by the company for $0.<a class=3D"footnote-index" hr=
+ef=3D"#footnote-7" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: none !important; background-color: transparent !important; display: in=
+line-block;">
+<span>[7]</span>
+</a> For a couple of months Soligenix had some extra shares with billions o=
+f votes, and now it doesn=E2=80=99t.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Why? Well, here are the mechanics of how the S=
+eries D disappeared:</p>
+<blockquote><p style=3D"margin: 16px 0;">All shares of Series D Preferred S=
+tock that are not present in person or by proxy at the meeting of stockhold=
+ers held to vote on the reverse stock split as of immediately prior to the =
+opening of the polls at such meeting will automatically be redeemed by the =
+Company. Any outstanding shares of Series D Preferred Stock that have not b=
+een so redeemed will be redeemed if such redemption is ordered by the Compa=
+ny=E2=80=99s Board of Directors or automatically upon the approval by the C=
+ompany=E2=80=99s stockholders of an amendment to the Company=E2=80=99s cert=
+ificate of incorporation effecting the reverse stock split at such meeting.=
+</p></blockquote>
+<p style=3D"margin: 16px 0;">Get it? Soligenix <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3cuc2VjLmdvdi9Bcm=
+NoaXZlcy9lZGdhci9kYXRhLzgxMjc5Ni8wMDAxNTU4MzcwMjMwMDAwOTAvdG1iLTIwMjMwMjA4e=
+GRlZjE0YS5odG0/607f07ceef4b8524a319a23cC983f0df4" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> held a sharehold=
+er meeting</a> last Wednesday, Feb. 8. If you voted at the shareholder meet=
+ing =E2=80=94=C2=A0that is, if you filled out your proxy to vote your share=
+s =E2=80=94=C2=A0then your preferred stock got canceled immediately=C2=A0<e=
+m>after=C2=A0</em>the vote. If you didn=E2=80=99t vote =E2=80=94=C2=A0if yo=
+u forgot or were unreachable or whatever =E2=80=94=C2=A0then your preferred=
+ stock got canceled immediately=C2=A0<em>before=C2=A0</em>the vote. At the =
+moment of the vote, the preferred stock represented roughly 99.9% of the vo=
+ting power of the company, and only the preferred shares that=C2=A0<em>actu=
+ally voted=C2=A0</em>were outstanding. They voted overwhelmingly for the re=
+verse split, and it passed.<a class=3D"footnote-index" href=3D"#footnote-8"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: none !importa=
+nt; background-color: transparent !important; display: inline-block;">
+<span>[8]</span>
+</a> Soligenix <a href=3D"https://link.mail.bloombergbusiness.com/click/305=
+75723.282980/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzgxMjc5Ni=
+8wMDAxNTU4MzcwMjMwMDEwNTYvdG1iLTIwMjMwMjA4eGV4OTlkMS5odG0/607f07ceef4b8524a=
+319a23cB3c2ffb5e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> did a 1-for-15 reverse stock split</a>, and the =
+Series D disappeared back into the lawyer=E2=80=99s imagination from whence=
+ it came.</p>
+<p style=3D"margin: 16px 0;">Is this legal? I mean, the answer is:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">nothing here is ever legal advice;</li=
+>=09<li style=3D"margin-bottom: 5px;">it is=C2=A0<em>funny</em>, anyway, an=
+d isn=E2=80=99t that the=C2=A0<em>real=C2=A0</em>purpose of securities lawy=
+ering; and</li>=09<li style=3D"margin-bottom: 5px;">who would=C2=A0<em>obje=
+ct</em>?</li>
+</ul>
+<p style=3D"margin: 16px 0;">The large majority of the shareholders who bot=
+hered to vote wanted this result; Soligenix just found a way to give it to =
+them.=C2=A0</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDU3NTcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NTg3MDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJ048aa15d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30575723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Designated counsel</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Most of the time, if you are a person and you =
+want to borrow money from a bank, the bank sends you a contract =E2=80=94 a=
+ credit card agreement, say =E2=80=94=C2=A0and you sign it. If you send the=
+m back a markup of the agreement with some suggested changes to make it mor=
+e friendly to you, they will not even understand what you are talking about=
+. Nobody at the bank has the job of negotiating that agreement with you; th=
+at is not an agreement that gets negotiated.=C2=A0You just sign the form th=
+at they send you, or you don=E2=80=99t get the money.</p>
+<p style=3D"margin: 16px 0;">At higher levels of finance, things are more e=
+qual and=C2=A0the leverage shifts.=C2=A0If you are a big corporation and yo=
+u want to borrow money from a bank, they bank will send you a credit agreem=
+ent, your lawyers will mark it up, your lawyers will negotiate with the ban=
+k=E2=80=99s lawyers and eventually you will agree on the terms. The bank wa=
+nts your business and can be much more flexible with the contract than it w=
+ould be with a retail customer.</p>
+<p style=3D"margin: 16px 0;">There are, however, even higher levels. If you=
+ are a big private equity firm and you want to borrow money from some banks=
+, <em>you </em>send=C2=A0<em>them=C2=A0</em>a credit agreement. And then yo=
+u <em>pick the lawyers that they hire to mark it up. </em>Here=E2=80=99s a =
+Bloomberg News story about =E2=80=9C<a href=3D"https://link.mail.bloombergb=
+usiness.com/click/30575723.282980/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjMtMDItMTYvdGhlLXBvd2VyZnVsLWNpdHktbGF3eWVyLWF0LXRoZS1jZW50=
+ZXItb2YtYS1wcml2YXRlLWVxdWl0eS1zdG9ybT9jbXBpZD1CQkQwMjE2MjNfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMTYmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB98409ff4" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+designated counsel</a>=E2=80=9D:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Originally heralded as a way to make the often=
+-fractious buyout process more efficient, the widely-used designated counse=
+l arrangement is now viewed by many, including some of Wall Street=E2=80=99=
+s biggest names, as a potential conflict of interest. It allows private equ=
+ity firms, guided by their lawyers, to appoint and pay for the law firms th=
+at represent the lenders funding their deals.</p>
+<p style=3D"margin: 16px 0;">The International Organization of Securities C=
+ommissions (IOSCO) has begun looking into the designated counsel arrangemen=
+t as part of a wider probe into leveraged debt markets, a spokesperson for =
+the regulator said. Other regulators such as the Financial Conduct Authorit=
+y are involved in IOSCO=E2=80=99s work.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Since the early 2010s, market pressures =E2=80=
+=94 and access to plentiful cheap money =E2=80=94 meant many lenders lacked=
+ the negotiating power to push for stronger protections. [Kirkland &amp; El=
+lis partner Neel] Sachdev and his buyout clients have used this imbalance t=
+o convince lenders, like the credit units of private equity groups and Wall=
+ Street=E2=80=99s largest banks, to agree to lesser safeguards around debt =
+levels and dividend payments on deals they help finance. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Advocates of designated counsel argue that sel=
+ecting a single law firm to represent all lenders in a deal means negotiati=
+ons are less likely to get bogged down with multiple teams of lawyers argui=
+ng.</p>
+<p style=3D"margin: 16px 0;">But the arrangement encouraged some lawyers to=
+ develop close relationships with their counterparts acting on behalf of pr=
+ivate equity groups. For some law firms that translated into repeat work an=
+d a lucrative stream of business, according to people working at credit fun=
+ds and law firms, who did not want to speak publicly to avoid damaging inst=
+itutional relationships.</p>
+<p style=3D"margin: 16px 0;">The extent to which some lawyers became depend=
+ent, at least partially, on this designated business has triggered concerns=
+ among a number of lenders about potential conflicts of interest.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There are sort of two points here:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Big private equity firms push their l=
+enders to hire designated counsel that they pick, and the lenders accept th=
+e designated counsel because they don=E2=80=99t have a lot of leverage in t=
+he negotiation. And then the designated counsel might not negotiate the cov=
+enants as aggressively as independent lawyers would.</li>=09<li style=3D"ma=
+rgin-bottom: 5px;">Big private equity firms push their lenders to accept we=
+ak covenants, and the lenders accept the weak covenants because they don=E2=
+=80=99t have a lot of leverage in the negotiation.</li>
+</ol>
+<p style=3D"margin: 16px 0;">That is, the designated counsel are a <em>resu=
+lt=C2=A0</em>of the lenders not having much negotiating leverage, not (only=
+) a=C2=A0<em>cause</em>. But rates are up, conditions are tighter, and now =
+=E2=80=9Cdirect lending units at firms such as Blackstone - which declined =
+to comment for this story - are said to be drawing up lists of preferred la=
+w firms to act as designated counsel and actively pushing back when certain=
+ law firms are selected for the role.=E2=80=9D</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">People are worried about CEO narcissism</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Here is a paper called =E2=80=9C<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly9wYXBl=
+cnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTQzMzMzMTQ/607f07ceef4=
+b8524a319a23cBf6b02346" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">The beguiling behaviour of narcissistic CEO=
+s: Evidence from repurchase announcements</a>,=E2=80=9D by Evans Ofosu Boam=
+ah and Shantanu Banerjee of Lancaster University, which on=C2=A0one level f=
+inds that companies with narcissistic chief executive officers are more lik=
+ely to announce large share buybacks, but less likely to actually complete =
+those buybacks:</p>
+<blockquote><p style=3D"margin: 16px 0;">Using signature characteristics as=
+ a measure of narcissism, we find that US firms with narcissist CEOs are mo=
+re likely to make repurchase announcements and announce higher repurchase d=
+ollar amounts. However, these firms are less likely to follow through. They=
+ repurchase less and a small dollar amount when they make an actual repurch=
+ase in the announcement year. The higher rate and amount of repurchase anno=
+uncements are more pronounced in poorly-governed firms with narcissistic CE=
+Os. These results are robust to various specifications including a differen=
+ce-in-difference specification using CEOs=E2=80=99 exogenous turnover, cont=
+rolling for other CEO traits and using an alternative measure of narcissism=
+ based on pronoun usage in CEO communications. Collectively, the results pr=
+esented in this study demonstrate that narcissist CEOs play a critical role=
+ in the intensity of share repurchase announcements and their executions, p=
+articularly for firms with weaker governance structure.</p></blockquote>
+<p style=3D"margin: 16px 0;">But at another level it demonstrates that fina=
+ncial academics can spend their time analyzing CEO signatures =E2=80=94=C2=
+=A0like, literally, how they sign their names =E2=80=94 and then trying to =
+correlate those signatures to financial outcomes:</p>
+<blockquote><p style=3D"margin: 16px 0;">Psychology literature argues that =
+handwriting styles reflect personality (Chaudhari and Thakkar, 2019). In li=
+ne with this, we measure CEO narcissism using the area per character signat=
+ure size narcissism measure. Using an unobtrusive measure such as signature=
+ size reduces the=C2=A0 reactivity, researcher expectation and demand chara=
+cteristics that can weaken the measure=E2=80=99s validity (Chatterjee and H=
+ambrick, 2007). We draw a rectangle that touches the CEO signature=E2=80=99=
+s edges to measure the area per character signature size. We measure the ar=
+ea by multiplying the length and width of the rectangle. We measure CEO nar=
+cissism by dividing the area by the number of characters in the CEO=E2=80=
+=99s signed name. According to our prediction, the greater a CEO=E2=80=99s =
+narcissism score, as measured by the signature size, the more likely the an=
+nouncement of repurchases and target a larger dollar amount.</p></blockquot=
+e>
+<p style=3D"margin: 16px 0;">I feel like that=E2=80=99s the sort of thing y=
+ou can do in academia. If you work at a hedge fund and you go to your boss =
+and say =E2=80=9CI am going to predict how much stock our portfolio compani=
+es will buy back by taking a tape measure to the CEO=E2=80=99s signature in=
+ the proxy statement,=E2=80=9D what would your boss say? I actually don=E2=
+=80=99t know? I feel like I am going to get some emails that are like =E2=
+=80=9CI work at a hedge fund and we use handwriting analysis all the time t=
+o predict short-term stock price moves.=E2=80=9D Really finance is the stud=
+y of human behavior and I guess signing your name really big is a human beh=
+avior like anything else, apparently one that correlates with stock buyback=
+ announcements.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The SEC approves <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXd=
+zL3ByZXNzLXJlbGVhc2UvMjAyMy0yOQ/607f07ceef4b8524a319a23cB94def5a1" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ T+1 settlement</a>. =E2=80=9C=E2=80=98It was like working for <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMDItMTYvam9obi1tY2FmZWUtaXMtY=
+S1jb250cm92ZXJzaWFsLWZpZ3VyZS1ldmVuLWFmdGVyLWRlYXRoP2NtcGlkPUJCRDAyMTYyM19N=
+T05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJ=
+tPTIzMDIxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB5d6153=
+5d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Stalin or Hitler or something</a>,=E2=80=99 says Jimmy Watso=
+n Jr., [John] McAfee=E2=80=99s former bodyguard and business partner.=E2=80=
+=9D=C2=A0Tech start-ups face dilemma over <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQ=
+vOWI2OTgxY2YtNzQ0NC00MDU3LTk3OTEtYjQwZWYxY2RiNWEw/607f07ceef4b8524a319a23cB=
+27b2f801" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> expiring staff stock options</a>. From <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMDItMTYvc2FtLWJhbmttYW4tZnJpZWQtcy=
+1vbGQtZnJpZW5kLWNvLWZvdW5kZXItZ2FyeS13YW5nLWlzLWtleS10by1jYXNlLWFnYWluc3QtZ=
+nR4P2NtcGlkPUJCRDAyMTYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJj=
+ZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f=
+07ceef4b8524a319a23cB2c9467d2" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  Math Camp to Handcuffs</a>: FTX=E2=
+=80=99s Downfall Was an Arc of Brotherhood and Betrayal. The Rainmakers: Me=
+et the <a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.28=
+2980/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS90b3AtaW52ZXN0bWVudC1iYW5rZX=
+JzLWJpZ2dlc3QtZGVhbHMtZ29sZG1hbi1qcG1vcmdhbi0yMDIzLTI/607f07ceef4b8524a319a=
+23cB5901adee" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> 20 powerhouse bankers</a> who orchestrated the bigge=
+st deals of 2022 and defied a down market. Missed signals: behind Trafigura=
+=E2=80=99s $577mn loss on <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/30575723.282980/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMWRhZmRhNmMtOTc=
+yNi00YTIwLTk0YWQtZTlmN2U3YmJiYzQ0/607f07ceef4b8524a319a23cB0ef2e050" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> non-existent nickel</a>.=C2=A0Credit Suisse=E2=80=99s Klein Says <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMTUvY3JlZGl0LXN1aXNz=
+ZS1zLWtsZWluLXRlbGxzLWZpcnN0LWJvc3Rvbi1zdGFmZi10aGV5LWxsLW93bi1maXJtP2NtcGl=
+kPUJCRDAyMTYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIzMDIxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cBf4d18527" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  First Boston</a> Staff Will Own Firm. EU Sa=
+nctions Aim to Make Banks <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/30575723.282980/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGV=
+zLzIwMjMtMDItMTQvZXUtc2FuY3Rpb25zLXNlZWstdG8tbWFrZS1iYW5rcy1kaXZ1bGdlLWZyb3=
+plbi1ydXNzaWFuLWFzc2V0cz9jbXBpZD1CQkQwMjE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtP=
+WVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMTYmdXRtX2NhbXBhaWdu=
+PW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB52b36d02" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">  Divulge Frozen=
+ Russian Assets</a>. Adani <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30575723.282980/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNjk0NzM2YTUtNW=
+UxYS00MjgxLWI4MGUtZDRhZTdhYmI3YzRj/607f07ceef4b8524a319a23cB608fd844" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> halts $847mn acquisition</a> of coal-fired power plant in India.=C2=A0T=
+urkey=E2=80=99s Latest <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/30575723.282980/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjMtMDItMTYvdHVya2V5LWFza3MtYmFua3MtdG8tY2hhcmdlLWF0LWxlYXN0LTQwLW9uLWN1c=
+nJlbmN5LWZvcndhcmRzP2NtcGlkPUJCRDAyMTYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxNiZ1dG1fY2FtcGFpZ249bW9=
+uZXlzdHVmZg/607f07ceef4b8524a319a23cBe45fee2c" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">  Lira Defense</a> I=
+s More-Costly Forward Contracts. JPMorgan=E2=80=99s Kolanovic Warns of =E2=
+=80=98<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282=
+980/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMTUvanB=
+tb3JnYW4tc3RyYXRlZ2lzdC1rb2xhbm92aWMtd2FybnMtb2Ytdm9sbWFnZWRkb24tMi0wLXJpc2=
+staW4tb3B0aW9ucy1tYXJrZXQ_Y21waWQ9QkJEMDIxNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1b=
+T1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjE2JnV0bV9jYW1wYWln=
+bj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6f00e7cb" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">Volmageddon 2.0=
+</a>=E2=80=99 Risk in Options. Ex-JPMorgan Executive=E2=80=99s <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMTUvamVzLXN0YWxleS1lbWFpb=
+HMtdG8tZXBzdGVpbi1kaXNjbG9zZWQtaW4tdXN2aS1zLWpwbW9yZ2FuLXN1aXQ_Y21waWQ9QkJE=
+MDIxNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXI=
+mdXRtX3Rlcm09MjMwMjE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a=
+23cB48e82e8a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  Jeffrey Epstein Emails</a>=C2=A0Revealed in Lawsuit=
+ Against Bank.=C2=A0Bing=E2=80=99s A.I. Chat Reveals Its Feelings: =E2=80=
+=98<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980=
+/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wMi8xNi90ZWNobm9sb2d5L2JpbmctY2hhdG=
+JvdC10cmFuc2NyaXB0Lmh0bWw/607f07ceef4b8524a319a23cBe16b7b59" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">I Want=
+ to Be Alive</a>.=E2=80=99</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30575723.282980/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB1849fb5b" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30575723.282980/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB89f3bc2b" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] These tend to be exchanges where you can t=
+rade, like, Ether or Solana for Ethereum- or Solana-based stablecoins, etc.=
+, not exchanges where you can trade *Bitcoins* for *actual dollars*, just b=
+ecause Venmo or whatever aren=E2=80=99t on the blockchain. </p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] See pages 11-12 of <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3cuc2VjLmdvd=
+i9ydWxlcy9wcm9wb3NlZC8yMDIzL2lhLTYyNDAucGRm/607f07ceef4b8524a319a23cBc1225d=
+30" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> the SEC=E2=80=99s proposed rule</a>, which are maybe a touch =
+argumentative about how much Congress really *intended* to cover non-securi=
+ty assets. =E2=80=9CEarlier versions of this bill show that Congress consid=
+ered retaining the current rule=E2=80=99s funds and securities formulation,=
+=E2=80=9D says a footnote; basically the argument is that =E2=80=9Cassets=
+=E2=80=9D must mean something more than =E2=80=9Cfunds and securities,=E2=
+=80=9D because an early draft said =E2=80=9Cfunds and securities=E2=80=9D a=
+nd then was changed to =E2=80=9Cassets.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] We <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/30575723.282980/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjMtMDItMDEvYW1jLWhhcy1zb21lLWNsZXZlci1hcGVzP2NtcGlkPUJC=
+RDAyMTYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGV=
+yJnV0bV90ZXJtPTIzMDIxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a31=
+9a23cCab1e277a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  discussed this two weeks ago</a>, and there is mo=
+re to it: AMC also sold a bunch of APEs to a big investor who promised to v=
+ote them to authorize more shares, and the APEs have generally migrated int=
+o the hands of arbitrageurs with an incentive to approve the issuance. But =
+the depositary voting stuff is the real innovation.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] In fact, in September 2022, Soligenix aske=
+d its shareholders to authorize more shares, but the vote failed. Soligenix=
+ said in <a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.=
+282980/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvODEy=
+Nzk2LzAwMDE1NTgzNzAyMjAxNDU3Ny90bWItMjAyMjA5MjJ4OGsuaHRt/607f07ceef4b8524a3=
+19a23cCbe84509b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">a securities filing</a>: =E2=80=9CDespite support =
+for Proposal 2 exceeding 80% of the votes cast on the proposal, Proposal 2 =
+did not receive the affirmative vote of holders of more than 50% of the Com=
+pany=E2=80=99s issued and outstanding shares of Common Stock and, therefore=
+, was not approved. A large proportion of the stockholders holding shares t=
+hrough banks, brokers or other nominees could not be identified or were unr=
+esponsive to the Company=E2=80=99s outreach in urging them to vote their sh=
+ares.=E2=80=9D The shareholders who voted wanted to authorize more shares, =
+but most shareholders didn=E2=80=99t vote.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] I learned of this because we <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMTUvcHVycGxlLWlubm92YX=
+Rpb24tcy1wcnBscy1pbm5vdmF0aW9uP2NtcGlkPUJCRDAyMTYyM19NT05FWVNUVUZGJnV0bV9tZ=
+WRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxNiZ1dG1fY2Ft=
+cGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB4e6971c4" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">
+talked yesterday</a> about Purple Innovations Inc.=E2=80=99s PRPLS preferre=
+d shares, each of which had 10,000 votes, and reader Patrick Corn emailed t=
+o say that he could top that with a million votes per share.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] I think? There is no filing reflecting tha=
+t it disappeared, but the <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/30575723.282980/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXR=
+hLzgxMjc5Ni8wMDAxNTU4MzcwMjIwMTg5ODcvdG1iLTIwMjIxMjIxeGV4OTlkMS5odG0/607f07=
+ceef4b8524a319a23cC16bee007" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> initial announcement</a> said that it=
+ would be redeemed =E2=80=9Cautomatically upon the approval by the Company=
+=E2=80=99s stockholders of an amendment to the Company=E2=80=99s certificat=
+e of incorporation effecting the reverse stock split,=E2=80=9D which <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aHR0cHM6=
+Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvODEyNzk2LzAwMDE1NTg=
+zNzAyMzAwMTA1Ni90bWItMjAyMzAyMDh4OGsuaHRt/607f07ceef4b8524a319a23cDf8fce558=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> happened last Wednesday</a>.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] Technically, <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9=
+kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvODEyNzk2LzAwMDE1NTgzNzAyMjAxODk4Ny90bWItMj=
+AyMjEyMjF4OGsuaHRt/607f07ceef4b8524a319a23cE261f2e64" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> for $0.10 pe=
+r 100 whole preferred shares</a> (corresponding to 100,000 common shares) b=
+eneficially owned by a holder, but no cash payment for any fraction of 100 =
+whole preferred shares. So if you owned 100,000 common shares you could get=
+ $0.10 out of this. The biggest shareholder, according to Bloomberg data, s=
+eems to be the Vanguard Group, with 1.6 million shares, so they stand to ge=
+t $1.60 I guess, and a few executives disclosed in <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3cuc2VjLmdvdi=
+9BcmNoaXZlcy9lZGdhci9kYXRhLzgxMjc5Ni8wMDAxNTU4MzcwMjMwMDAwOTAvdG1iLTIwMjMwM=
+jA4eGRlZjE0YS5odG0/607f07ceef4b8524a319a23cD983f0df4" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> the proxy </=
+a>seem to have more than 100,000 shares and so might get a few cents, but p=
+retty much everyone else gets zero.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] Specifically, <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30575723.282980/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD=
+9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvODEyNzk2LzAwMDE1NTgzNzAyMzAwMTA1Ni90bWItM=
+jAyMzAyMDh4OGsuaHRt/607f07ceef4b8524a319a23cFf8fce558" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">there were</=
+a> about 43 million common shares and 43,335 preferred shares (with 43.3 bi=
+llion *votes*) outstanding a month before the vote. There were about 18.6 b=
+illion votes for the reverse split, about 3 billion votes against, and abou=
+t 591 million abstentions, meaning that roughly half of the shares voted on=
+e way or the other (or even filled out a proxy to abstain). But the other h=
+alf were canceled, with the result that the proposal got 84% of the vote.</=
+p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB332b0cfe" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBb022e40f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB2e3e9b35" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBf681cfb9" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDU3NTcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NTg3MDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cKb5581de4" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30575723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBa61d2a55" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30575723.282980/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC31f937da" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30575723.282980/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB5990ebd3" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30575723.282980/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB5128be5c" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB6=
+b658e09" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30575723.282980/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB9=
+b7fa960" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D305757=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D305757=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D305757=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D305757=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D305757=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30858703&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci7cdn.62ck/cd7eade6.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_1938989_699454691.1676577237531--
+

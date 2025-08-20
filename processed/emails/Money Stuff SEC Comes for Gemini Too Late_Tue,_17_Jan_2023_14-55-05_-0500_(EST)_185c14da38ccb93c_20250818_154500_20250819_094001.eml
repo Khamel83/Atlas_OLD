@@ -1,0 +1,2237 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:a51:b0:e2:9b5b:7c1 with SMTP id 17csp2811734rwb;
+        Tue, 17 Jan 2023 11:56:09 -0800 (PST)
+X-Received: by 2002:a1c:4b09:0:b0:3db:f0a:8726 with SMTP id y9-20020a1c4b09000000b003db0f0a8726mr967426wma.28.1673985368745;
+        Tue, 17 Jan 2023 11:56:08 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1673985368; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=cLE6s9GZ3BMBLhx7CDEMyX6DJnMQNiROYVRiZ2/XsvjSBb49miMk5V61/U59wSdME0
+         bJMIScdSbZuhB1yU2tPsiuqH5n/f5D0ZIsdumzQ659y/G+y1+Atvjj4odoxZPgbGQQdo
+         XCGV14A/PNtKJyKjV3Bf2WQekAWovGpcOiYk13Xnn8XwsMzfEBhrJ4jVomifMe4HBeA8
+         4iyXGNHa9TMWn3vGW/yB8dK+EYMJQPCoH5Q9FcZjr/PK6jTzd26yHmRvzc3UyE/h/peo
+         hgHr+fblUkzkAu9YY5J1/Uc7Cj4/4GvY23xbfpzUlsjSX4zqi2EVOEGS53XgXa+j0vWk
+         T7qA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=05w1w+US0jO1E4BSJECntegIDFNLRaOEa8mNzyIvkwI=;
+        b=e0xIWRUU10IHyh4rgbh3qvtmQNPPiEpjbTag530X86m8ID4pByaZ/3GoxFChjy/emg
+         hTviXvx4l+IyLFcdisVFXbc9mUGz2PJDNTlUd/cSyrARVJLx1ApCJyWfpHn5hhLEjy5d
+         Ns8hxbs+y6Z4boz1/ONR84g39Xy3vBj2Bd2JFe0ZL1M3ThEPdZOz4LHNh3Y8eXD/tDCz
+         y9PlekewcGRtTeMtLJ1knSs8S4GYZDFqaCHceMBOTJfAkMr/lvFIa4Et6n03UiSuOz4J
+         VIDKIT2WMmmJMo8qKJWiKYXhrijvd6Nom2bO9OgI7vUUGrjVjkKiO1WAzW7MPFW2VEt0
+         oaTQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HcF+Fk6I;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id u25-20020a7bcb19000000b003d02adeb5e6sor11461794wmj.24.2023.01.17.11.56.08
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 17 Jan 2023 11:56:08 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HcF+Fk6I;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=05w1w+US0jO1E4BSJECntegIDFNLRaOEa8mNzyIvkwI=;
+        b=SU+g0CzcUuvQrn4U6ClOF9AUL4nmqzobSTI/Eu4BGUhEvOSuzpt6fGQZvAP1xefI4I
+         JwhP3zD5q+ZzbXreMNxIT8vC+KCENtmF3c0r992LDbunbcTZ3k3eX6NpJmrVCRUxhU+3
+         KYhN3DDtdo1R2Kv9n6ybOOa7OdWHcgmCI5zzfYr6IZPSRZyouyS9GmXXdO6H8iTm0Dsl
+         LX5ghY5fTqGrGRdINaJZKHGRAo+i6YRp3AJDoVxyCLX9IWRFNYqlLUblxO3kz8KNl6nM
+         EjuG/W7BS5iU5xGcLno4+hlHIcXEMlrpvWNXlduNn4cnsGU8dAp8yE8iDZIIrhBoVNzN
+         15pQ==
+X-Gm-Message-State: AFqh2kqlQch7hPuaSOdscasQR8HxiBo/Y6TQ5pWuvuYHAHPODo3FBB3M
+	jy+LQIUzrxd5h5OepRFO067UCx7BnGsoGRqX4hK/2ueOhhU3kRZz1A==
+X-Received: by 2002:a05:600c:4385:b0:3c1:aeb9:29b6 with SMTP id e5-20020a05600c438500b003c1aeb929b6mr244916wmn.97.1673985368147;
+        Tue, 17 Jan 2023 11:56:08 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:6000:1c08:0:0:0:0 with SMTP id ba8csp974602wrb;
+        Tue, 17 Jan 2023 11:56:05 -0800 (PST)
+X-Received: by 2002:a17:90a:e413:b0:226:c0ff:20f6 with SMTP id hv19-20020a17090ae41300b00226c0ff20f6mr4714958pjb.16.1673985364935;
+        Tue, 17 Jan 2023 11:56:04 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1673985364; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=MvJxAkW2TjT5/YbzroZIeJRASLxhHujUxM/lfREfRk5Npa0Hytq6kjCCIyU9IxJCXD
+         dPdkmyihv+ZdgsJ4iFeKDvOKcV8+LOFATms2oFm12MRIDKrq/5sPzjSZqnZCMxEhPR2h
+         wa/JbIxfGLX+XT1M+A+XeTADVbbKx29JqrkqTE28Rrskc3GsmIVgWAYCClzPJvSp9mAR
+         18RZZWx7GaaMoSjgxk5shhtRWc1ZP7NOdYGtoUaVDbZFS4U7Ryb6DOoCtF4uTGl5mHxk
+         P2+EpyvyTrTLLaxV1zGwh6W/77MYO3KQYuJIxdgvWtxYYFgvo8F+Ci8d9fuzJWk4shVp
+         60jw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=05w1w+US0jO1E4BSJECntegIDFNLRaOEa8mNzyIvkwI=;
+        b=SOFcMbLlaxp2utAH4SWwWdugsTt5vbRRUTlpljni1dmrAtUAnSAlVzjk/UeUnwX+jr
+         /eKewJ4ZXPPoIry2AaDBaC7tfaJztRpRb6+4z1yJzgeZWEXYs3iSkoNzdB1J+gCYY4vB
+         XA0ZcX0LfJXKDTo19kQdlz8O7MlkmI+xtEhv736L+4WJ9JhlvUCJPbEL/Dh+B69QkBsO
+         CaQ6YW726SH0G/w7536KA/nFMR3LXpkBneaZlk3WpqM76t1jlEifuTZd8o+e0cS6+r8R
+         xHZGPhArzdP135dkDd6FPcixUpPH5Av12TWzOqTn1OIHJjUbaqMSpL2XugBZwwhuErVD
+         e0NA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HcF+Fk6I;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230117145505.30277130.281516@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230117145505.30277130.281516@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230117145505.30277130.281516@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j1-20020a17090a3e0100b0022722f138dfsor11327717pjc.32.2023.01.17.11.56.04
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 17 Jan 2023 11:56:04 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230117145505.30277130.281516@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMrXdXuA0gBUB3WBXkai1OiB8OjHOvbZEkNfzEQjI39fvCN5Zqc+uUUKP4qsZ4/+A60uyboUaOi8iMhsv9lGKa9FWDwSbBrS0lI=
+X-Received: by 2002:a17:90b:3707:b0:229:962d:7d6 with SMTP id mg7-20020a17090b370700b00229962d07d6mr4343731pjb.43.1673985364560;
+        Tue, 17 Jan 2023 11:56:04 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1673985364; cv=none;
+        d=google.com; s=arc-20160816;
+        b=hRAsH69PuoDlF7peWjV9drXQRSwo+7Jn7LmUJAkgABHbUgzNUKFXE8qvzn4ZJ/K1m2
+         2DZ/eo7yvO/C9lTDrxH/hbgoFBrII3Hyk65rQD4X2L1f0bHLfExRt197VvdC11By75Bc
+         6y+W3kesOc0OZDx+weLOTG/jEppwE/dDaKgc1YUHvPZW+NNphTBqB1pWCVjx+itOI4Wb
+         lL1xkOVhwybKfM5GLwqKSmUxLCXYQlGexkT3zUwZU27Aiy7yfoKBOZWKsxEDL2QGQule
+         qDM0no4c5BuVfMm2CQ2SDX6P6RimTgBwWRgJMmqwN4/MRZ5nxWcnl5wvpvxf4UE/or7V
+         PUMg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=05w1w+US0jO1E4BSJECntegIDFNLRaOEa8mNzyIvkwI=;
+        b=R692P7zjCFiRIX2DRH8AOS+oyZsXcdXZcfYkyGqMN22m3HC2rxnDNkTSDkLHImf4Ov
+         LNajCWD2p0xra/fW2M9n8bYs4De6LK6R7cDs2Tbo8EKf7H9z3FBZcSSOVHChaexEPZsW
+         INuxH+HafjHiIPW2NVTocsIq8GszvC5eB8zkTWKzluC1KuFvgHjkYu/9T33M26qUywxP
+         Y47KL4OGXti2ZjT3LIzr1m7Hrzpbvr9AHkiJ4qAd2oxt5JUVWQk7jDLt0Pp92nlDWInC
+         qF4I0Ii51vJy/vrcxzlDwcS+O7UPLyUm517DNuI1EaHc5jkHb3wpjt2imi0aqPRm55cF
+         JiFA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HcF+Fk6I;
+       spf=pass (google.com: domain of delivery_20230117145505.30277130.281516@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230117145505.30277130.281516@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230117145505.30277130.281516@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id ls4-20020a17090b350400b00229b4d7172fsi89318pjb.3.2023.01.17.11.56.03
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 17 Jan 2023 11:56:04 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230117145505.30277130.281516@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=3YVaXQ8g9P44lSKYDD2XDmmTC0OYjzgnM7HUFx3Wvto=;
+ b=HcF+Fk6IxbsNqVOaGaKAQ5dEidp4a/uxwZWRxUk4IXz/LLkgIPVYkBUWZWrkpBSYTA+2EwmANpTn
+   mCUqLrhe8poAbNFKcetLQXBAJiS2k6Ee4qoXem/FDZrn9Os8CyjNAbgZn0h105DUMEahsGJmbPRa
+   XrV6NYLzIERpEAYhBJ4=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by bloomberg-b.sailthru.com id horul430nu8v for <bloomberg@khamel.com>; Tue, 17 Jan 2023 14:56:02 -0500 (envelope-from <delivery_20230117145505.30277130.281516@mx.sailthru.com>)
+Date: Tue, 17 Jan 2023 14:55:05 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230117145505.30277130.281516@sailthru.com>
+Subject: Money Stuff: SEC Comes for Gemini Too Late
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_419871_1085693644.1673985305327"
+Precedence: bulk
+X-Feedback-ID: 6358:30277130:campaign:sailthru
+X-TM-ID: 20230117145505.30277130.281516
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-madbrick.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci0xze.617w/3d86b524
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci0xze.617w/3d86b524>, <mailto:unsubscribe_20230117145505.30277130.281516@mx.sailthru.com>
+X-rpcampaign: stjko30277130
+
+------=_Part_419871_1085693644.1673985305327
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Well, of course: US regulators sued crypto brokerages Genesis Globa=
+l Capital and Gemini Trust Co. for breaking securities rules. The Securit
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Earn
+   =20
+ =20
+
+Well, of course:
+
+US regulators sued crypto brokerages Genesis Global Capital and Gemini Trus=
+t Co. for breaking securities rules.=C2=A0
+The Securities and Exchange Commission said on Thursday that the firms ille=
+gally raised billions of dollars from hundreds of thousands of investors th=
+rough the so-called Gemini Earn program. That product, which let customers =
+loan out their assets in exchange for interest payments, amounted to the of=
+fering of unregistered securities, the SEC said.=C2=A0
+Gemini launched Earn in February of 2021, with the idea of offering users p=
+assive returns on their coins in exchange for the right to lend the tokens =
+out. By August of that year, the program, which offered rates that far exce=
+eded those on traditional bank accounts, crossed $3 billion in assets.=C2=
+=A0
+
+We=C2=A0covered this in 2021, when Coinbase Global Inc.=E2=80=99s similar c=
+rypto lending=C2=A0program was shut down by the SEC before it started.=C2=
+=A0I wrote:
+
+Is lending your Bitcoins a security?
+Oh, sure, yes, absolutely.=C2=A0The rule=C2=A0in the U.S. is that an =E2=80=
+=9Cinvestment contract,=E2=80=9D meaning =E2=80=9Cthe investment of money i=
+n a common enterprise with a reasonable expectation of profits to be derive=
+d from the efforts of others,=E2=80=9D is a security, and generally can=E2=
+=80=99t be sold to the public without registering it with the Securities an=
+d Exchange Commission, delivering a prospectus with audited financial state=
+ments, etc. A Bitcoin lending program =E2=80=94 in which (1) a bunch of peo=
+ple pool their Bitcoins, (2) some manager or smart contract lends those Bit=
+coins to borrowers who pay interest, and (3) some or all of the interest is=
+ paid back to the people in the pool =E2=80=94=C2=A0is pretty straightforwa=
+rdly=C2=A0an investment contract and thus a security.
+
+This is easy stuff. People in crypto don=E2=80=99t=C2=A0like=C2=A0it, but t=
+hat=E2=80=99s because they are wrong. More specifically, they have an intui=
+tion like =E2=80=9Cif a crypto platform pays you interest on your crypto de=
+posits and uses them to make loans, that=C2=A0is like a bank account,=C2=A0=
+and a bank account is not a security.=E2=80=9D
+  [1]
+=C2=A0But that=E2=80=99s because IT=E2=80=99S A BANK ACCOUNT. Like:
+
+Securities regulator: Your Earn product is a security and needs to be regis=
+tered with us.
+Crypto platform operator: That=E2=80=99s ridiculous, Earn is just like a ba=
+nk account, that=E2=80=99s not a security.
+Banking regulator: Hi! I couldn=E2=80=99t help overhearing. Did you just sa=
+y that YOU WOULD LIKE US TO REGULATE YOU AS A BANK?
+Crypto platform operator: [screams, dives out window]
+
+As I wrote in 2021:
+Coinbase=C2=A0obviously=C2=A0does not want to be regulated as a bank; it do=
+es not want to be subject to bank capital requirements (which require=C2=A0=
+essentially 100% equity capital=C2=A0backing Bitcoin positions) or prudenti=
+al regulation by bank regulators who like crypto about as much as the SEC d=
+oes but have even more tools to crack down. You think the SEC is being anno=
+ying about not issuing formal guidance! A bank examiner could just call you=
+ up and say =E2=80=9Cwe don=E2=80=99t think owning Bitcoin is a good idea, =
+get rid of it,=E2=80=9D and then where would Coinbase be?
+So, right. Gemini has an Earn product=C2=A0where it gives its customers int=
+erest on their crypto; it gets that interest by lending their crypto to Gen=
+esis Global Capital LLC, a unit of Barry Silbert=E2=80=99s Digital Currency=
+ Group. Genesis,=C2=A0in turn, lends the crypto to, you know,   Three Arrow=
+s Capital,   Alameda Research, things of that nature. Oops! Last year Genes=
+is lost a bunch of the money and eventually shut down withdrawals, includin=
+g for Gemini Earn customers; Cameron Winklevoss has been sending Silbert so=
+me nasty open letters about it. I don=E2=80=99t really disagree with the na=
+sty letters, but they are kind of absurd coming from Winklevoss: Sure, it w=
+as bad for Genesis to lose Gemini=E2=80=99s customers=E2=80=99 money, but i=
+t was pretty much equally bad for Gemini to let them? Nobody made=C2=A0good=
+=C2=A0decisions here.
+The SEC seems to see it my way, and last week it sued Genesis and Gemini, t=
+ogether, for this mess. Specifically  for doing unregistered securities off=
+erings:
+
+The Securities and Exchange Commission today charged Genesis Global Capital=
+, LLC and Gemini Trust Company, LLC for the unregistered offer and sale of =
+securities to retail investors through the Gemini Earn crypto asset lending=
+ program. Through this unregistered offering, Genesis and Gemini raised bil=
+lions of dollars=E2=80=99 worth of crypto assets from hundreds of thousands=
+ of investors. Investigations into other securities law violations and into=
+ other entities and persons relating to the alleged misconduct are ongoing.
+According to the complaint, in December 2020, Genesis, part of a subsidiary=
+ of Digital Currency Group, entered into an agreement with Gemini to offer =
+Gemini customers, including retail investors in the United States, an oppor=
+tunity to loan their crypto assets to Genesis in exchange for Genesis=E2=80=
+=99 promise to pay interest. Beginning in February 2021, Genesis and Gemini=
+ began offering the Gemini Earn program to retail investors, whereby Gemini=
+ Earn investors tendered their crypto assets to Genesis, with Gemini acting=
+ as the agent to facilitate the transaction. Gemini deducted an agent fee, =
+sometimes as high as 4.29 percent, from the returns Genesis paid to Gemini =
+Earn investors. As alleged in the complaint, Genesis then exercised its dis=
+cretion in how to use investors=E2=80=99 crypto assets to generate revenue =
+and pay interest to Gemini Earn investors.
+The complaint further alleges that, in November 2022, Genesis announced tha=
+t it would not allow its Gemini Earn investors to withdraw their crypto ass=
+ets because Genesis lacked sufficient liquid assets to meet withdrawal requ=
+ests following volatility in the crypto asset market. At the time, Genesis =
+held approximately $900 million in investor assets from 340,000 Gemini Earn=
+ investors. Gemini terminated the Gemini Earn program earlier this month. A=
+s of today, the Gemini Earn retail investors have still not been able to wi=
+thdraw their crypto assets.
+The SEC=E2=80=99s complaint alleges that the Gemini Earn program constitute=
+s an offer and sale of securities under applicable law and should have been=
+ registered with the Commission.
+
+Here is  the SEC=E2=80=99s complaint, which comes to a brisk 22 pages. The =
+main argument that this is a security is on pages 13 to 19. Under the Secur=
+ities Act of 1933, the  definition of =E2=80=9Csecurity=E2=80=9D includes a=
+ bunch of different things, but the two that are relevant here are a =E2=80=
+=9Cnote=E2=80=9D and an =E2=80=9Cinvestment contract.=E2=80=9D There are tw=
+o Supreme Court cases =E2=80=94=C2=A0Reves v. Ernst & Young and SEC v. W.J.=
+ Howey & Co.=C2=A0=E2=80=94=C2=A0that decided what makes an investment a =
+=E2=80=9Cnote=E2=80=9D or an =E2=80=9Cinvestment contract=E2=80=9D under th=
+is law. The SEC summarizes Reves:
+A note is presumed to be a security unless it bears a strong resemblance to=
+ instruments that are not securities, which courts determine by examining f=
+our factors: (1) the motivation of the parties; (2) the plan of distributio=
+n; (3) the expectations of the investing public; and (4) the availability o=
+f an alternative regulatory regime that =E2=80=9Csignificantly reduces the =
+risk of the instrument=E2=80=9D for investors other than the securities law=
+s, =E2=80=9Cthereby rendering application of the Securities Acts unnecessar=
+y.=E2=80=9D
+Here, publicly marketing Gemini Earn as an investment to hundreds of thousa=
+nds of retail investors probably makes it a security. The =E2=80=9Calternat=
+ive regulatory regime=E2=80=9D stuff is basically the point that bank accou=
+nts are not securities: If Gemini Earn were subject to banking regulation, =
+then it might not be a security, but that is not the case. The SEC says:
+
+Although Gemini is registered with [New York State Department of Financial =
+Services]=C2=A0as a New York limited purpose trust company, NYSDFS did not =
+have oversight over Genesis. Gemini publicly stated that Gemini Earn does n=
+ot operate like a traditional bank account, is not protected by a governmen=
+tal program, and is not backed by Gemini itself. In a February 2021 press r=
+elease launching Gemini Earn, Gemini stated that =E2=80=9CGemini Earn is no=
+t a depository account. . . . Loans are not insured by Gemini or any govern=
+mental program or institution.=E2=80=9D Likewise, on its website, Gemini no=
+ted that =E2=80=9CGemini Earn is structured similarly to non-deposit servic=
+es offered by financial institutions and not insured by FDIC, SIPC, any oth=
+er governmental program, or Gemini.=E2=80=9D
+  [2]
+
+Any capital reserve requirements applicable to Gemini did not apply to Gene=
+sis or to the crypto assets tendered to Genesis through Gemini Earn.
+  [3]
+
+
+It=E2=80=99s not a bank account, which makes it probably a security.=C2=A0
+Meanwhile the=C2=A0Howey=C2=A0test of what makes an =E2=80=9Cinvestment con=
+tract=E2=80=9D a security is the one I quoted above; it=E2=80=99s =E2=80=9C=
+the investment of money in a common enterprise with a reasonable expectatio=
+n of profits to be derived from the efforts of others.=E2=80=9D Gemini=E2=
+=80=99s Earn customers invested money (their crypto) in a common enterprise=
+ (Genesis=E2=80=99s lending business) with a reasonable (?) expectation of =
+profits (their promised yield) that would be derived from the efforts of ot=
+hers (Genesis=E2=80=99s lending decisions). The SEC says:
+
+From its inception, Defendants have explicitly marketed the Gemini Earn pro=
+gram as an investment opportunity which led investors to reasonably expect =
+to profit from their efforts. As detailed above, through their websites and=
+ social media channels, both Genesis and Gemini publicly touted the ability=
+ for investors to earn yield or returns via Gemini Earn. Gemini repeatedly =
+itself described Gemini Earn as an investment on its own website; repeatedl=
+y touted that the Gemini Earn interest rates were =E2=80=9Camong the highes=
+t rates on the market=E2=80=9D and that Gemini Earn investors could =E2=80=
+=9Creceive more than 100x the national interest rate=E2=80=9D; and Gemini=
+=E2=80=99s website illustrated how much interest Gemini Earn investors coul=
+d potentially earn by investing their crypto assets for a period between on=
+e and four years.
+Genesis also described itself as the =E2=80=9Cpremier institutional digital=
+ asset financial services firm,=E2=80=9D and =E2=80=9Cthe world=E2=80=99s l=
+argest digital asset lender=E2=80=9D and that =E2=80=9C[h]olders of digital=
+ currencies can earn yield on their assets by lending directly to Genesis, =
+a regulated and trusted counterparty.=E2=80=9D Accordingly, Gemini Earn inv=
+estors were led to expect that Defendants=E2=80=99 efforts to generate the =
+investment returns =E2=80=93 i.e., the promised interest =E2=80=93 would re=
+sult in profit for investors.
+
+It is probably helpful to=C2=A0the SEC, in making this case, that Genesis a=
+nd Gemini seem to have lost the money, or at least, uh, rendered it inacces=
+sible. The SEC=E2=80=99s essential argument here is that Gemini Earn is an =
+investment of money in a risky profit-seeking venture whose success depends=
+ on the efforts of Cameron Winklevoss and Barry Silbert; Gemini=E2=80=99s a=
+nd Genesis=E2=80=99s essential argument is =E2=80=9Cno it isn=E2=80=99t, sh=
+hh, it=E2=80=99s just a nice 8% return on your money.=E2=80=9D The fact tha=
+t the money is gone, or at least temporarily indisposed, strengthens the SE=
+C=E2=80=99s position. Ex post, it was definitely risky.
+Of course it would have been better if the SEC had shut down Gemini Earn =
+=E2=80=94=C2=A0like it did Coinbase Lend =E2=80=94=C2=A0before it lost the =
+money, but that is hardly a defense now.=C2=A0
+The main=20
+remedy for doing an unregistered securities offering is that you have to gi=
+ve the money back: If you raise $900 million from investors for your produc=
+t, and then the product loses money, you have to give them their money back=
+ anyway. Well, that and you probably have to pay a fine to the SEC.
+Elsewhere, Bloomberg News reports on  the Ripple case:
+
+In the wake of the implosion of cryptocurrency exchange FTX, one urgent que=
+stion keeps resurfacing: Who should regulate the industry?
+An upcoming ruling in New York federal court could help determine the answe=
+r, along with the fates of numerous crypto investors and companies. The cas=
+e hinges on whether a prominent digital token should be treated as a securi=
+ty, which would fall under the Securities & Exchange Commission=E2=80=99s j=
+urisdiction.=C2=A0
+The dispute dates back to 2020, when the SEC accused San Francisco-based Ri=
+pple Labs Inc. of selling unregistered digital tokens without adequate disc=
+losure.=C2=A0
+
+The issues in Ripple are not quite the same as the issues in Gemini Earn, b=
+ut they are related; the basic question is whether courts will read the =E2=
+=80=9Cinvestment contract=E2=80=9D rules as broadly as the SEC does. I thin=
+k they will, but if the SEC loses the Ripple case then what I wrote above w=
+ill probably be wrong, or at least, like, too strongly stated. But as that =
+Bloomberg story notes, the broad crypto collapse probably helps the SEC=E2=
+=80=99s position:
+
+The recent turmoil in crypto markets=C2=A0could taint the court=E2=80=99s v=
+iew,=C2=A0said Joseph Hall, a partner at Davis Polk & Wardwell who worked a=
+t the SEC from 2003 to 2005.=C2=A0
+=E2=80=9CYou just have to imagine that the judges will be influenced by the=
+ investor losses they=E2=80=99ve seen,=E2=80=9D Hall said. =E2=80=9CAnd the=
+ SEC will make clear to them that if you rule the other way, we will not ha=
+ve the tools that we need to fight this kind of activity.=E2=80=9D
+
+Right. Ripple=E2=80=99s XRP token has lost a lot of value in the last coupl=
+e of years, though it=E2=80=99s actually up a bit from where it was when th=
+e SEC sued;=C2=A0in any case Ripple does have the vague moral defense of =
+=E2=80=9Cyou say we did an unregistered securities offering, but it=E2=80=
+=99s not like we took a bunch of investor money and=C2=A0lost=C2=A0it.=E2=
+=80=9D Lots of other crypto projects, including Gemini Earn, do not have th=
+at defense.=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Chutzpah
+   =20
+ =20
+
+My   basic view is that the crypto financial system was built by a bunch of=
+ young people who left traditional finance because they really=C2=A0love bu=
+ilding new toy financial systems and crypto offers them a fun sandbox in wh=
+ich to do it. If you went to those people and said =E2=80=9Chey, can you de=
+sign a system for trading claims on bankrupt crypto firms?=E2=80=9D they wo=
+uld be like =E2=80=9Csure that sounds really fun.=E2=80=9D And a lot of the=
+m have a lot of time on their hands right now, what with their crypto firms=
+ having gone bankrupt. So,  so, so:
+
+The founders of a bankrupt crypto hedge-fund firm are seeking to launch an =
+exchange where creditors to insolvent digital-assets firms, including their=
+ own, would be able to buy and sell claims.
+Su Zhu, a co-founder of the bankrupt crypto hedge-fund manager Three Arrows=
+ Capital Ltd., said that he and others are seeking to raise $25 million in =
+seed money for the new platform. A pitch deck to potential investors, seen =
+by The Wall Street Journal, referred to the company as GTX, a poke at the f=
+allen crypto exchange FTX.
+Mr. Zhu said that GTX isn=E2=80=99t the final name of the company. The othe=
+r founders include Kyle Davies, who co-founded Three Arrows, and Mark Lamb =
+and Sudhu Arumugam, the co-founders of crypto exchange CoinFLEX. They are l=
+ikely to finalize a name for the company next week.
+
+Incredible. Also:
+Mr. Zhu said some Three Arrows creditors would have the option to convert t=
+heir claims into equity in the new claim-trading company.
+I just! Absolutely magnificent stuff. =E2=80=9CWe were too good at taking y=
+our money, sorry about that, but to make up for our losses we=E2=80=99ll le=
+t you bet on our ability to take your money again.=E2=80=9D
+The biggest problem
+  [4]
+=C2=A0with the crypto financial system=C2=A0is that it is relatively bad at=
+ trading=C2=A0real stuff:=C2=A0Crypto exchanges are for trading crypto toke=
+ns, and without underlying cash flows or real-world=C2=A0businesses those h=
+ave a distressing tendency to go to zero and bankrupt everybody. But if you=
+ build a crypto exchange whose central product is=C2=A0all the money people=
+ lost on the last crypto exchange, you are solving that problem. The=C2=A0n=
+et amount of money made in crypto fluctuates wildly, but the total supply o=
+f (1) money made in crypto=C2=A0plus=C2=A0(2) money lost in crypto can only=
+ really go up. If you build an exchange to let=C2=A0people trade their cryp=
+to losses, you will have a durable business.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Golf
+   =20
+ =20
+
+One thing that I  think   about  a   lot is how, back when Goldman Sachs Ch=
+ief Executive Officer David Solomon (who is also a DJ) was fairly new on th=
+e job and was doing a lot of press about also being a DJ, he  told Jen Wiec=
+zner at Fortune that other bankers almost thwarted his dream (of being CEO =
+of Goldman Sachs and also a DJ):
+Some advisers told him to hang it up. =E2=80=9CI thought for a minute, Well=
+, can I do this, can I not do this?=E2=80=9D recalls Solomon, who donates t=
+he proceeds from his gigs and Spotify plays to drug-addiction-related phila=
+nthropies. ... Those doubts soon dispersed, especially after his boss at th=
+e time, then-CEO Lloyd Blankfein, and others endorsed it. =E2=80=9CYou know=
+ what, it=E2=80=99s who I am, and nobody would tell me not to play golf,=E2=
+=80=9D Solomon says now.=C2=A0
+One reason I think about this a lot is that, as  Insider reported last Sept=
+ember,=C2=A0=E2=80=9CSolomon has recently been working on his golf game and=
+ has sought out memberships at some of the country=E2=80=99s most prestigio=
+us golf clubs and courses.=E2=80=9D He=E2=80=99s right; nobody told him not=
+ to play golf. The lesson here might be that if you are a high-level invest=
+ment banker you are=C2=A0allowed=C2=A0to be a DJ, but you are=C2=A0required=
+=C2=A0to be a golfer.
+Greg Lemkau, Goldman=E2=80=99s former co-head of investment banking, knows.=
+ Here is eFinancialCareers:
+
+Lemkau spoke on the Capital Allocators podcast with Ted Seides earlier this=
+ week, and explained the career benefits of his favorite game.
+=E2=80=9CIt=E2=80=99s a great way to spend four hours outside,=E2=80=9D Lem=
+kau said of golf, although he admitted that he still isn=E2=80=99t great at=
+ it. He added that it =E2=80=9Camazes=E2=80=9D him how few people understan=
+d golf's value in business.
+=E2=80=9CI don=E2=80=99t care how brilliant I might have been in any meetin=
+g, never once did a client say =E2=80=9CGod, remember that time we flipped =
+through that blue book, and you took me through that DCF? Wasn=E2=80=99t th=
+at magical?=E2=80=9D=E2=80=9D He joked. =E2=80=9CBut the amount of times I=
+=E2=80=99ve heard =E2=80=9Cdo you remember that time we spent four hours on=
+ this golf course or that golf course?=E2=80=9D
+
+One important lesson there is that being a high-level investment banker is =
+primarily a social activity; the job is to befriend important people, not t=
+o be good at discounted cash flow analyses. (This is relevant to, for insta=
+nce, the big banks=E2=80=99   =E2=80=9Cprinceling=E2=80=9D hiring scandals =
+from a few years ago: A shortcut to befriending important people is just be=
+ing their children.) Another lesson is that, when junior investment bankers=
+ work all night formatting pitchbooks, that work is almost certainly wasted=
+, and the deals are being won on the golf course. Friends do not exchange p=
+itchbooks with each other.
+Another lesson is subtly conveyed by =E2=80=9Cthis golf course or that golf=
+ course=E2=80=9D: The course matters.=C2=A0The clients are not like =E2=80=
+=9Cit was so nice spending four hours getting exercise in the open air with=
+ you=E2=80=9D; they are like =E2=80=9Cit was so nice getting access to a pr=
+estigious golf club with you.=E2=80=9D=C2=A0To be a successful banker you d=
+on=E2=80=99t absolutely=C2=A0need=C2=A0to develop a true friendship with th=
+e clients; giving them prestigious and valuable gifts =E2=80=94=C2=A0like a=
+ tee time at Pine Valley =E2=80=94=C2=A0is a reasonable substitute. Around =
+here   I often=C2=A0quote the most important thing I learned at Goldman,=C2=
+=A0John Whitehead=E2=80=99s  commandment to relationship bankers that =E2=
+=80=9CImportant people like to deal with important people. Are you one?=E2=
+=80=9D Important people like to play golf with important people at importan=
+t golf clubs.
+  [5]
+
+Also though how many clients do you think do deals with Goldman and reminis=
+ce with David Solomon =E2=80=9Cdo you remember that time I listened to your=
+   DJ set opening for the Chainsmokers=C2=A0in Water Mill?=E2=80=9D It=E2=
+=80=99s a hobby, and I suppose in its way it might impress clients, but it =
+is distinctly less=C2=A0social=C2=A0than golf. You need golf too.
+
+ =20
+   =20
+      How is Razzlekhan doing?
+   =20
+ =20
+
+ Okay!
+
+The former tech entrepreneur, =E2=80=9CRazzlekhan=E2=80=9D rapper and accus=
+ed cryptocurrency thief Heather Morgan has a new job.
+Morgan, who dubbed herself on social media and in music videos as =E2=80=9C=
+The Crocodile of Wall Street,=E2=80=9D was hired by an unspecified technolo=
+gy company even though she=E2=80=99s under 24-hour house arrest, according =
+to a court filing. She and her husband are accused of trying to launder $4.=
+5 billion of Bitcoin stolen from the Bitfinex currency exchange.
+She asked a judge to modify the terms of her home confinement so she can wo=
+rk three days a week from the employer=E2=80=99s New York office. The gover=
+nment doesn=E2=80=99t object to the proposed modification, her lawyer, Euge=
+ne Gorokhov, said in the filing Tuesday in Washington.
+Morgan, who has denied wrongdoing, was offered a job =E2=80=9Cin the role o=
+f growth marketing and business development specialist,=E2=80=9D Gorokhov s=
+aid in the filing. He told the court that she=E2=80=99s seeking to keep the=
+ name of the employer secret to protect her safety, though the government i=
+s aware of the identity.
+
+I have to say that she is probably the only business rapper whose stage nam=
+e I know? And, no offense, not because she is so great at rapping? But beca=
+use   getting arrested for a multibillion-dollar Bitcoin heist brings a lot=
+ of publicity to your business rapping career? Like, that=E2=80=99s a growt=
+h marketing success right there, sure.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+ Goldman, Morgan Stanley Are Weighed Down by High Costs as M&A Slumps. Citi=
+ Summons   Unproductive Remote Workers to Office for Coaching. Meme stock i=
+nvestor  Ryan Cohen launches activist campaign at Alibaba.=C2=A0Disney Defe=
+nds Board, CEO Robert Iger Against  Nelson Peltz=E2=80=99s Criticisms.=C2=
+=A0Looming  Twitter interest payment leaves Elon Musk with unpalatable opti=
+ons. Elon Musk, Tesla Poised for Trial Over 2018 Tweets Proposing to Take C=
+ar Maker Private. Elon Musk Wins Vote of Support   From Qatar Amid Twitter =
+Turmoil. Big Four accountants in Spain probed over long hours. Western bank=
+s struggle to exit Russia after Putin intervention.=C2=A0Larry Fink Says   =
+ESG Narrative Has Become Ugly, Personal. Vanguard Gets Extra ETF Billions A=
+fter Largely   Shunning ESG. CFPB Weighs Tougher Rules for Overseas  Money =
+Transfers. Texas-born princess Rita Jenrette faces eviction from  $350M Rom=
+an villa.=C2=A0Italy=E2=80=99s   Most-Wanted Mafia Boss Arrested After 30 Y=
+ears.=C2=A0Enron, Madoff and now FTX: New York=E2=80=99s Belfer family  str=
+ike out again.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] A more plausible intuition is that crypto lending products are like *=
+securities lending*: If your broker lends out your shares of stock and give=
+s you some of the interest, that is not generally registered as a security;=
+ isn=E2=80=99t crypto lending like that? I don=E2=80=99t have a great answe=
+r, but my gut is that securities lending is subject to SEC jurisdiction (th=
+e lending program is not a security, but the securities that you=E2=80=99re=
+ lending are!), so the SEC doesn=E2=80=99t worry too much about this techni=
+cality, while crypto lending is subject to SEC jurisdiction only if the len=
+ding program itself is a security, so the SEC cares. That is not a satisfyi=
+ng answer.
+
+
+  [2] Though here is an Axios story this morning titled =E2=80=9CThey thoug=
+ht their money was safe,=E2=80=9D at least hinting that Gemini at least hin=
+ted to customers that these accounts were FDIC-insured. =E2=80=9CAll fiat c=
+urrency held by Gemini to redeem your GUSD is held by our partner financial=
+ institutions in a secure account and is eligible for FDIC insurance,=E2=80=
+=9D a Gemini representative told a customer. Maybe not the best language to=
+ use!
+
+
+  [3] Gemini=E2=80=99s website says: =E2=80=9CNYDFS imposes certain excess =
+capital requirements for all assets held on Gemini. At any given time, Gemi=
+ni is required to hold capital in excess of customer deposits and must repo=
+rt any material changes in this capital to the NYDFS.=E2=80=9D Not quite th=
+e same as being bank accounts though.
+
+
+  [4] I think on balance this is the biggest problem, but certainly another=
+ big problem is all the fraud and theft, and you might reasonably rank that=
+ first.
+
+
+  [5] We could keep going all day. Exercises for the reader: Is it an advan=
+tage or a disadvantage that Lemkau =E2=80=9Cstill isn=E2=80=99t great=E2=80=
+=9D at golf? And: In this context, is it an advantage that he=E2=80=99s mal=
+e?
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci0xze.617w/fef88628.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_419871_1085693644.1673985305327
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Well, of course: US regulators sued crypto brokerages Genesis Global Capita=
+l and Gemini Trust Co. for breaking securities rules. The Securit
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDI3NzEzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTg2NDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBb5b156e8" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30277130&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB27064fcb"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDI3NzEzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTg2NDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC3e4cd541" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30277130&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Earn</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Well, <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjMtMDEtMTIvZ2VtaW5pLWdlbmVzaXMtc3VlZC1ieS1zZWMtZm9yLXJ1bGVzL=
+WJyZWFjaC13aXRoLWVhcm4tcHJvZ3JhbS1sY3RvaDAyZD9jbXBpZD1CQkQwMTE3MjNfTU9ORVlT=
+VFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA=
+xMTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB16793302" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">of course</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">US regulators sued crypto brokerages Genesis G=
+lobal Capital and Gemini Trust Co. for breaking securities rules.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission said on=
+ Thursday that the firms illegally raised billions of dollars from hundreds=
+ of thousands of investors through the so-called Gemini Earn program. That =
+product, which let customers loan out their assets in exchange for interest=
+ payments, amounted to the offering of unregistered securities, the SEC sai=
+d.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Gemini launched Earn in February of 2021, with=
+ the idea of offering users passive returns on their coins in exchange for =
+the right to lend the tokens out. By August of that year, the program, whic=
+h offered rates that far exceeded those on traditional bank accounts, cross=
+ed $3 billion in assets.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">We=C2=A0covered this in 2021, when Coinbase Gl=
+obal Inc.=E2=80=99s similar crypto lending=C2=A0program was shut down by th=
+e SEC before it started.=C2=A0<a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjEtMDktMDgvbGVuZGluZy1iaXRjb2lucy1pcy10cmlja3k_Y21waWQ9QkJEMD=
+ExNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImd=
+XRtX3Rlcm09MjMwMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23=
+cB2c41b34e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">I wrote</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Is lending your Bitcoins a security?</p>
+<p style=3D"margin: 16px 0;">Oh, sure, yes, absolutely.=C2=A0<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDgtMDkvbW9uZXktc3R1ZmYtdGh=
+lLXNlYy1oYXMtc29tZS1jcnlwdG8tY29tcGxhaW50cz9jbXBpZD1CQkQwMTE3MjNfTU9ORVlTVF=
+VGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxM=
+TcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBd7526852" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">The rule</a>=C2=A0in the U.S. is that an =E2=
+=80=9Cinvestment contract,=E2=80=9D meaning =E2=80=9Cthe investment of mone=
+y in a common enterprise with a reasonable expectation of profits to be der=
+ived from the efforts of others,=E2=80=9D is a security, and generally can=
+=E2=80=99t be sold to the public without registering it with the Securities=
+ and Exchange Commission, delivering a prospectus with audited financial st=
+atements, etc. A Bitcoin lending program =E2=80=94 in which (1) a bunch of =
+people pool their Bitcoins, (2) some manager or smart contract lends those =
+Bitcoins to borrowers who pay interest, and (3) some or all of the interest=
+ is paid back to the people in the pool =E2=80=94=C2=A0is pretty straightfo=
+rwardly=C2=A0an investment contract and thus a security.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">This is easy stuff. People in crypto don=E2=80=
+=99t=C2=A0<em>like=C2=A0</em>it, but that=E2=80=99s because they are wrong.=
+ More specifically, they have an intuition like =E2=80=9Cif a crypto platfo=
+rm pays you interest on your crypto deposits and uses them to make loans, t=
+hat=C2=A0is like a bank account,=C2=A0and a bank account is not a security.=
+=E2=80=9D<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: none !important; background-col=
+or: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0But that=E2=80=99s because IT=E2=80=99S A BANK ACCOUNT. Like:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;"><strong>Securities regulator:</strong> Your Ea=
+rn product is a security and needs to be registered with us.</p>
+<p style=3D"margin: 16px 0;"><strong>Crypto platform operator:</strong> Tha=
+t=E2=80=99s ridiculous, Earn is just like a bank account, that=E2=80=99s no=
+t a security.</p>
+<p style=3D"margin: 16px 0;"><strong>Banking regulator:</strong> Hi! I coul=
+dn=E2=80=99t help overhearing. Did you just say that YOU WOULD LIKE US TO R=
+EGULATE YOU AS A BANK?</p>
+<p style=3D"margin: 16px 0;"><strong>Crypto platform operator:</strong> [<e=
+m>screams, dives out window</em>]</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">As I wrote in 2021:</p>
+<blockquote><p style=3D"margin: 16px 0;">Coinbase=C2=A0<em>obviously=C2=A0<=
+/em>does not want to be regulated as a bank; it does not want to be subject=
+ to bank capital requirements (which require=C2=A0<a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMTAvbWF5YmUtZ2FtZXN0b3AtaXMtZ29vZC=
+1ub3c_Y21waWQ9QkJEMDExNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291c=
+mNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607=
+f07ceef4b8524a319a23cBe87fecf5" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">essenti=
+ally 100% equity capital</a>=C2=A0backing Bitcoin positions) or prudential =
+regulation by bank regulators who like crypto about as much as the SEC does=
+ but have even more tools to crack down. You think the SEC is being annoyin=
+g about not issuing formal guidance! A bank examiner could just call you up=
+ and say =E2=80=9Cwe don=E2=80=99t think owning Bitcoin is a good idea, get=
+ rid of it,=E2=80=9D and then where would Coinbase be?</p></blockquote>
+<p style=3D"margin: 16px 0;">So, right. Gemini has an Earn product=C2=A0whe=
+re it gives its customers interest on their crypto; it gets that interest b=
+y lending their crypto to Genesis Global Capital LLC, a unit of Barry Silbe=
+rt=E2=80=99s Digital Currency Group. Genesis,=C2=A0in turn, lends the crypt=
+o to, you know, <a href=3D"https://link.mail.bloombergbusiness.com/click/30=
+277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+jItMTItMDUvY3J5cHRvLWhhZC1hLWNyZWRpdC1idWJibGU_Y21waWQ9QkJEMDExNzIzX01PTkVZ=
+U1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjM=
+wMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe71ad6dc" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  Three Arrows Capital</a>, <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjMtMDEtMTIvanBtb3JnYW4tc2F5cy1mcmFuay13YXMtZnJhdWQ_Y21waW=
+Q9QkJEMDExNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZ=
+XR0ZXImdXRtX3Rlcm09MjMwMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b852=
+4a319a23cBb5384514" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  Alameda Research</a>, things of that nature=
+. Oops! Last year Genesis lost a bunch of the money and eventually shut dow=
+n withdrawals, including for Gemini Earn customers; Cameron Winklevoss has =
+been sending Silbert some <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjMtMDEtMTAvY3J5cHRvLWJhbmtzLW93ZS10aGVtc2VsdmVzLW1vbmV5P2NtcGlkPU=
+JCRDAxMTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIzMDExNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cB01a517bc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">nasty open letters</a> about it. I don=E2=80=99t =
+really disagree with the nasty letters, but they are kind of absurd coming =
+from Winklevoss: Sure, it was bad for Genesis to lose Gemini=E2=80=99s cust=
+omers=E2=80=99 money, but it was pretty much equally bad for Gemini to let =
+them? Nobody made=C2=A0<em>good=C2=A0</em>decisions here.</p>
+<p style=3D"margin: 16px 0;">The SEC seems to see it my way, and last week =
+it sued Genesis and Gemini, together, for this mess. Specifically <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy03/607f07ceef4b8524a319a23=
+cBf562a9b8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> for doing unregistered securities offerings</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission today c=
+harged Genesis Global Capital, LLC and Gemini Trust Company, LLC for the un=
+registered offer and sale of securities to retail investors through the Gem=
+ini Earn crypto asset lending program. Through this unregistered offering, =
+Genesis and Gemini raised billions of dollars=E2=80=99 worth of crypto asse=
+ts from hundreds of thousands of investors. Investigations into other secur=
+ities law violations and into other entities and persons relating to the al=
+leged misconduct are ongoing.</p>
+<p style=3D"margin: 16px 0;">According to the complaint, in December 2020, =
+Genesis, part of a subsidiary of Digital Currency Group, entered into an ag=
+reement with Gemini to offer Gemini customers, including retail investors i=
+n the United States, an opportunity to loan their crypto assets to Genesis =
+in exchange for Genesis=E2=80=99 promise to pay interest. Beginning in Febr=
+uary 2021, Genesis and Gemini began offering the Gemini Earn program to ret=
+ail investors, whereby Gemini Earn investors tendered their crypto assets t=
+o Genesis, with Gemini acting as the agent to facilitate the transaction. G=
+emini deducted an agent fee, sometimes as high as 4.29 percent, from the re=
+turns Genesis paid to Gemini Earn investors. As alleged in the complaint, G=
+enesis then exercised its discretion in how to use investors=E2=80=99 crypt=
+o assets to generate revenue and pay interest to Gemini Earn investors.</p>
+<p style=3D"margin: 16px 0;">The complaint further alleges that, in Novembe=
+r 2022, Genesis announced that it would not allow its Gemini Earn investors=
+ to withdraw their crypto assets because Genesis lacked sufficient liquid a=
+ssets to meet withdrawal requests following volatility in the crypto asset =
+market. At the time, Genesis held approximately $900 million in investor as=
+sets from 340,000 Gemini Earn investors. Gemini terminated the Gemini Earn =
+program earlier this month. As of today, the Gemini Earn retail investors h=
+ave still not been able to withdraw their crypto assets.</p>
+<p style=3D"margin: 16px 0;">The SEC=E2=80=99s complaint alleges that the G=
+emini Earn program constitutes an offer and sale of securities under applic=
+able law and should have been registered with the Commission.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/30277130.281516/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9u=
+L2NvbXBsYWludHMvMjAyMy9jb21wLXByMjAyMy03LnBkZg/607f07ceef4b8524a319a23cB0ca=
+c92e3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> the SEC=E2=80=99s complaint</a>, which comes to a brisk 22 =
+pages. The main argument that this is a security is on pages 13 to 19. Unde=
+r the Securities Act of 1933, the <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjEtMDktMDgvbGVuZGluZy1iaXRjb2lucy1pcy10cmlja3k_Y21waWQ9Qk=
+JEMDExNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjMwMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cC2c41b34e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> definition of =E2=80=9Csecurity=E2=80=9D</a> inclu=
+des a bunch of different things, but the two that are relevant here are a =
+=E2=80=9Cnote=E2=80=9D and an =E2=80=9Cinvestment contract.=E2=80=9D There =
+are two Supreme Court cases =E2=80=94=C2=A0<em>Reves v. Ernst &amp; Young</=
+em> and <em>SEC v. W.J. Howey &amp; Co.</em>=C2=A0=E2=80=94=C2=A0that decid=
+ed what makes an investment a =E2=80=9Cnote=E2=80=9D or an =E2=80=9Cinvestm=
+ent contract=E2=80=9D under this law. The SEC summarizes <em>Reves</em>:</p=
+>
+<blockquote><p style=3D"margin: 16px 0;">A note is presumed to be a securit=
+y unless it bears a strong resemblance to instruments that are not securiti=
+es, which courts determine by examining four factors: (1) the motivation of=
+ the parties; (2) the plan of distribution; (3) the expectations of the inv=
+esting public; and (4) the availability of an alternative regulatory regime=
+ that =E2=80=9Csignificantly reduces the risk of the instrument=E2=80=9D fo=
+r investors other than the securities laws, =E2=80=9Cthereby rendering appl=
+ication of the Securities Acts unnecessary.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">Here, publicly marketing Gemini Earn as an inv=
+estment to hundreds of thousands of retail investors probably makes it a se=
+curity. The =E2=80=9Calternative regulatory regime=E2=80=9D stuff is basica=
+lly the point that bank accounts are not securities: If Gemini Earn were su=
+bject to banking regulation, then it might not be a security, but that is n=
+ot the case. The SEC says:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Although Gemini is registered with [New York S=
+tate Department of Financial Services]=C2=A0as a New York limited purpose t=
+rust company, NYSDFS did not have oversight over Genesis. Gemini publicly s=
+tated that Gemini Earn does not operate like a traditional bank account, is=
+ not protected by a governmental program, and is not backed by Gemini itsel=
+f. In a February 2021 press release launching Gemini Earn, Gemini stated th=
+at =E2=80=9CGemini Earn is not a depository account. . . . Loans are not in=
+sured by Gemini or any governmental program or institution.=E2=80=9D Likewi=
+se, on its website, Gemini noted that =E2=80=9CGemini Earn is structured si=
+milarly to non-deposit services offered by financial institutions and not i=
+nsured by FDIC, SIPC, any other governmental program, or Gemini.=E2=80=9D<a=
+ class=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: none !important; background-color: transpa=
+rent !important; display: inline-block;">
+<span>[2]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Any capital reserve requirements applicable to=
+ Gemini did not apply to Genesis or to the crypto assets tendered to Genesi=
+s through Gemini Earn.<a class=3D"footnote-index" href=3D"#footnote-3" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: none !important; b=
+ackground-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a></p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It=E2=80=99s not a bank account, which makes i=
+t probably a security.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Meanwhile the=C2=A0<em>Howey=C2=A0</em>test of=
+ what makes an =E2=80=9Cinvestment contract=E2=80=9D a security is the one =
+I quoted above; it=E2=80=99s =E2=80=9Cthe investment of money in a common e=
+nterprise with a reasonable expectation of profits to be derived from the e=
+fforts of others.=E2=80=9D Gemini=E2=80=99s Earn customers invested money (=
+their crypto) in a common enterprise (Genesis=E2=80=99s lending business) w=
+ith a reasonable (?) expectation of profits (their promised yield) that wou=
+ld be derived from the efforts of others (Genesis=E2=80=99s lending decisio=
+ns). The SEC says:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">From its inception, Defendants have explicitly=
+ marketed the Gemini Earn program as an investment opportunity which led in=
+vestors to reasonably expect to profit from their efforts. As detailed abov=
+e, through their websites and social media channels, both Genesis and Gemin=
+i publicly touted the ability for investors to earn yield or returns via Ge=
+mini Earn. Gemini repeatedly itself described Gemini Earn as an investment =
+on its own website; repeatedly touted that the Gemini Earn interest rates w=
+ere =E2=80=9Camong the highest rates on the market=E2=80=9D and that Gemini=
+ Earn investors could =E2=80=9Creceive more than 100x the national interest=
+ rate=E2=80=9D; and Gemini=E2=80=99s website illustrated how much interest =
+Gemini Earn investors could potentially earn by investing their crypto asse=
+ts for a period between one and four years.</p>
+<p style=3D"margin: 16px 0;">Genesis also described itself as the =E2=80=9C=
+premier institutional digital asset financial services firm,=E2=80=9D and =
+=E2=80=9Cthe world=E2=80=99s largest digital asset lender=E2=80=9D and that=
+ =E2=80=9C[h]olders of digital currencies can earn yield on their assets by=
+ lending directly to Genesis, a regulated and trusted counterparty.=E2=80=
+=9D Accordingly, Gemini Earn investors were led to expect that Defendants=
+=E2=80=99 efforts to generate the investment returns =E2=80=93 i.e., the pr=
+omised interest =E2=80=93 would result in profit for investors.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It is probably helpful to=C2=A0the SEC, in mak=
+ing this case, that Genesis and Gemini seem to have lost the money, or at l=
+east, uh, rendered it inaccessible. The SEC=E2=80=99s essential argument he=
+re is that Gemini Earn is an investment of money in a risky profit-seeking =
+venture whose success depends on the efforts of Cameron Winklevoss and Barr=
+y Silbert; Gemini=E2=80=99s and Genesis=E2=80=99s essential argument is =E2=
+=80=9Cno it isn=E2=80=99t, shhh, it=E2=80=99s just a nice 8% return on your=
+ money.=E2=80=9D The fact that the money is gone, or at least temporarily i=
+ndisposed, strengthens the SEC=E2=80=99s position. Ex post, it was definite=
+ly risky.</p>
+<p style=3D"margin: 16px 0;">Of course it would have been better if the SEC=
+ had shut down Gemini Earn =E2=80=94=C2=A0like it did Coinbase Lend =E2=80=
+=94=C2=A0<em>before </em>it lost the money, but that is hardly a defense no=
+w.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The main <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjItMTAtMDQvYmFyY2xheXMtbG9zdC10cmFjay1vZi1pdHMtbm90ZX=
+M_Y21waWQ9QkJEMDExNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cB5915e2c0" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">
+remedy for doing an unregistered securities offering</a> is that you have t=
+o give the money back: If you raise $900 million from investors for your pr=
+oduct, and then the product loses money, you have to give them their money =
+back anyway. Well, that and you probably have to pay a fine to the SEC.</p>
+<p style=3D"margin: 16px 0;">Elsewhere, Bloomberg News reports on <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTcvZnR4LWNvbGxhcHNl=
+LXB1dHMtZm9jdXMtb24tcmlwcGxlLWNhc2UtZm9yLXdoby1zaG91bGQtcmVndWxhdGUtY3J5cHR=
+vP2NtcGlkPUJCRDAxMTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cBc3b14460" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> the Ripple case</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In the wake of the implosion of cryptocurrency=
+ exchange FTX, one urgent question keeps resurfacing: Who should regulate t=
+he industry?</p>
+<p style=3D"margin: 16px 0;">An upcoming ruling in New York federal court c=
+ould help determine the answer, along with the fates of numerous crypto inv=
+estors and companies. The case hinges on whether a prominent digital token =
+should be treated as a security, which would fall under the Securities &amp=
+; Exchange Commission=E2=80=99s jurisdiction.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The dispute dates back to 2020, when the SEC a=
+ccused San Francisco-based Ripple Labs Inc. of selling unregistered digital=
+ tokens without adequate disclosure.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The issues in Ripple are not quite the same as=
+ the issues in Gemini Earn, but they are related; the basic question is whe=
+ther courts will read the =E2=80=9Cinvestment contract=E2=80=9D rules as br=
+oadly as the SEC does. I think they will, but if the SEC loses the Ripple c=
+ase then what I wrote above will probably be wrong, or at least, like, too =
+strongly stated. But as that Bloomberg story notes, the broad crypto collap=
+se probably helps the SEC=E2=80=99s position:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The recent turmoil in crypto markets=C2=A0coul=
+d taint the court=E2=80=99s view,=C2=A0said Joseph Hall, a partner at Davis=
+ Polk &amp; Wardwell who worked at the SEC from 2003 to 2005.=C2=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CYou just have to imagine that the jud=
+ges will be influenced by the investor losses they=E2=80=99ve seen,=E2=80=
+=9D Hall said. =E2=80=9CAnd the SEC will make clear to them that if you rul=
+e the other way, we will not have the tools that we need to fight this kind=
+ of activity.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Right. Ripple=E2=80=99s XRP token has lost a l=
+ot of value in the last couple of years, though it=E2=80=99s actually up a =
+bit from where it was <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/30277130.281516/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjA=
+yMC0zMzg/607f07ceef4b8524a319a23cB8c73a2f9" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">when the SEC sued</a>;=
+=C2=A0in any case Ripple does have the vague moral defense of =E2=80=9Cyou =
+say we did an unregistered securities offering, but it=E2=80=99s not like w=
+e took a bunch of investor money and=C2=A0<em>lost=C2=A0</em>it.=E2=80=9D L=
+ots of other crypto projects, including Gemini Earn, do not have that defen=
+se.=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDI3NzEzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTg2NDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDf4a1d978" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30277130&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDI3NzEzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTg2NDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEf4a1d978" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30277130&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDI3NzEzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTg2NDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFcf1a1d8f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30277130&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDI3NzEzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTg2NDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGcf1a1d8f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30277130&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDI3NzEzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTg2NDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH4dfd245c" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30277130&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDI3NzEzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTg2NDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI4dfd245c" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30277130&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Chutzpah</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">My <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9mZWF0dXJlc=
+y8yMDIyLXRoZS1jcnlwdG8tc3RvcnktRlRYLWNvbGxhcHNlLW1hdHQtbGV2aW5lLz9jbXBpZD1C=
+QkQwMTE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHR=
+lciZ1dG1fdGVybT0yMzAxMTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a3=
+19a23cB62ec2dcb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">  basic view</a> is that the crypto financial syst=
+em was built by a bunch of young people who left traditional finance becaus=
+e they really=C2=A0love building new toy financial systems and crypto offer=
+s them a fun sandbox in which to do it. If you went to those people and sai=
+d =E2=80=9Chey, can you design a system for trading claims on bankrupt cryp=
+to firms?=E2=80=9D they would be like =E2=80=9Csure that sounds really fun.=
+=E2=80=9D And a lot of them have a lot of time on their hands right now, wh=
+at with their crypto firms having gone bankrupt. So, <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cud3NqLmNv=
+bS9hcnRpY2xlcy9mb3VuZGVycy1vZi1iYW5rcnVwdC10aHJlZS1hcnJvd3MtY2FwaXRhbC1wbGF=
+uLXRyYWRpbmctcGxhdGZvcm0tZm9yLWRpc3RyZXNzZWQtY3J5cHRvLWRlYnQtMTE2NzM4ODk1ND=
+Y_bW9kPWhwX2xpc3RhX3BvczI/607f07ceef4b8524a319a23cBc520331a" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> so, s=
+o</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The founders of a bankrupt crypto hedge-fund f=
+irm are seeking to launch an exchange where creditors to insolvent digital-=
+assets firms, including their own, would be able to buy and sell claims.</p=
+>
+<p style=3D"margin: 16px 0;">Su Zhu, a co-founder of the bankrupt crypto he=
+dge-fund manager Three Arrows Capital Ltd., said that he and others are see=
+king to raise $25 million in seed money for the new platform. A pitch deck =
+to potential investors, seen by The Wall Street Journal, referred to the co=
+mpany as GTX, a poke at the fallen crypto exchange FTX.</p>
+<p style=3D"margin: 16px 0;">Mr. Zhu said that GTX isn=E2=80=99t the final =
+name of the company. The other founders include Kyle Davies, who co-founded=
+ Three Arrows, and Mark Lamb and Sudhu Arumugam, the co-founders of crypto =
+exchange CoinFLEX. They are likely to finalize a name for the company next =
+week.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Incredible. Also:</p>
+<blockquote><p style=3D"margin: 16px 0;">Mr. Zhu said some Three Arrows cre=
+ditors would have the option to convert their claims into equity in the new=
+ claim-trading company.</p></blockquote>
+<p style=3D"margin: 16px 0;">I just! Absolutely magnificent stuff. =E2=80=
+=9CWe were too good at taking your money, sorry about that, but to make up =
+for our losses we=E2=80=99ll let you bet on our ability to take your money =
+again.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">The biggest problem<a class=3D"footnote-index"=
+ href=3D"#footnote-4" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: none !important; background-color: transparent !important; display:=
+ inline-block;">
+<span>[4]</span>
+</a>=C2=A0with the crypto financial system=C2=A0is that it is relatively ba=
+d at trading=C2=A0<em>real stuff:=C2=A0</em>Crypto exchanges are for tradin=
+g crypto tokens, and without underlying cash flows or real-world=C2=A0busin=
+esses those have a distressing tendency to go to zero and bankrupt everybod=
+y. But if you build a crypto exchange whose central product is=C2=A0<em>all=
+ the money people lost on the last crypto exchange</em>, you are solving th=
+at problem. The=C2=A0net amount of money made in crypto fluctuates wildly, =
+but the total supply of (1) money made in crypto=C2=A0<em>plus=C2=A0</em>(2=
+) money lost in crypto can only really go up. If you build an exchange to l=
+et=C2=A0people trade their crypto losses, you will have a durable business.=
+</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDI3NzEzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTg2NDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJda4accd1" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30277130&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Golf</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One thing that I <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL25ld3NsZXR0ZXJzLzIwMTktMTEtMTQvbW9uZXktc3R1ZmYteW91LWNhbi1idX=
+ktYWxtb3N0LWFsbC10aGUtc3RvY2tzP2NtcGlkPUJCRDAxMTcyM19NT05FWVNUVUZGJnV0bV9tZ=
+WRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExNyZ1dG1fY2Ft=
+cGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB90677809" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> think</a=
+> <a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDEtMzEvZG9=
+uLXQtYmxpdHpzY2FsZS1hZ2FpbnN0LXlvdXJzZWxmP2NtcGlkPUJCRDAxMTcyM19NT05FWVNUVU=
+ZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExN=
+yZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb88f1b7b" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  about</a> <a href=3D"https://link.mail.bloombergbusiness.com/click/3027=
+7130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjA=
+tMDctMjgvbW9uZXktc3R1ZmYteW91LWNhbi1yZWxheC1vbmNlLXlvdS1yZS1pbi10aGUtaW5kZX=
+g_Y21waWQ9QkJEMDExNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cB61bb79dc" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> a</a> <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjItMDktMjgvdGhlLWRlbGktd2FzLWFsbGVnZWRseS1hLWZyY=
+XVkP2NtcGlkPUJCRDAxMTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJj=
+ZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f=
+07ceef4b8524a319a23cB09ee7638" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  lot</a> is how, back when Goldman =
+Sachs Chief Executive Officer David Solomon (who is also a DJ) was fairly n=
+ew on the job and was doing a lot of press about also being a DJ, he <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aHR0cHM6=
+Ly9mb3J0dW5lLmNvbS9sb25nZm9ybS9nb2xkbWFuLXNhY2hzLWNlby1kYXZpZC1zb2xvbW9uLw/=
+607f07ceef4b8524a319a23cBf65882ef" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> told Jen Wieczner at Fortune</a=
+> that other bankers almost thwarted his dream (of being CEO of Goldman Sac=
+hs and also a DJ):</p>
+<blockquote><p style=3D"margin: 16px 0;">Some advisers told him to hang it =
+up. =E2=80=9CI thought for a minute, Well, can I do this, can I not do this=
+?=E2=80=9D recalls Solomon, who donates the proceeds from his gigs and Spot=
+ify plays to drug-addiction-related philanthropies. ... Those doubts soon d=
+ispersed, especially after his boss at the time, then-CEO Lloyd Blankfein, =
+and others endorsed it. =E2=80=9CYou know what, it=E2=80=99s who I am, and =
+nobody would tell me not to play golf,=E2=80=9D Solomon says now.=C2=A0</p>=
+</blockquote>
+<p style=3D"margin: 16px 0;">One reason I think about this a lot is that, a=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/=
+aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9nb2xkbWFuLXNhY2hzLWRhdmlkLXNvbG9=
+tb24tZGotYnJhbmQtcGxhbmUtMjAyMi05/607f07ceef4b8524a319a23cBc8d1776d" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Insider reported</a> last September,=C2=A0=E2=80=9CSolomon has recently =
+been working on his golf game and has sought out memberships at some of the=
+ country=E2=80=99s most prestigious golf clubs and courses.=E2=80=9D He=E2=
+=80=99s right; nobody told him not to play golf. The lesson here might be t=
+hat if you are a high-level investment banker you are=C2=A0<em>allowed=C2=
+=A0</em>to be a DJ, but you are=C2=A0<em>required=C2=A0</em>to be a golfer.=
+</p>
+<p style=3D"margin: 16px 0;">Greg Lemkau, Goldman=E2=80=99s former co-head =
+of investment banking, knows. <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30277130.281516/aHR0cHM6Ly93d3cuZWZpbmFuY2lhbGNhcmVlcnMuY29tL25=
+ld3MvMjAyMy8wMS9nb2xkbWFuLXNhY2hzLWdvbGY/607f07ceef4b8524a319a23cB76a26768"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">Here is eFinancialCareers</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Lemkau spoke on the Capital Allocators podcast=
+ with Ted Seides earlier this week, and explained the career benefits of hi=
+s favorite game.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s a great way to spend fou=
+r hours outside,=E2=80=9D Lemkau said of golf, although he admitted that he=
+ still isn=E2=80=99t great at it. He added that it =E2=80=9Camazes=E2=80=9D=
+ him how few people understand golf's value in business.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CI don=E2=80=99t care how brilliant I =
+might have been in any meeting, never once did a client say =E2=80=9CGod, r=
+emember that time we flipped through that blue book, and you took me throug=
+h that DCF? Wasn=E2=80=99t that magical?=E2=80=9D=E2=80=9D He joked. =E2=80=
+=9CBut the amount of times I=E2=80=99ve heard =E2=80=9Cdo you remember that=
+ time we spent four hours on this golf course or that golf course?=E2=80=9D=
+</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One important lesson there is that being a hig=
+h-level investment banker is primarily a social activity; the job is to bef=
+riend important people, not to be good at discounted cash flow analyses. (T=
+his is relevant to, for instance, the big banks=E2=80=99 <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDctMDYvY3JlZGl0LXN1aXNzZS1hbmF=
+seXN0LXJlYWxseS1icm91Z2h0LWluLWNsaWVudHM_Y21waWQ9QkJEMDExNzIzX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTE3J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3678a128" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  =E2=80=9Cprinceling=E2=80=9D hiring scandals</a> from a few years ago: A =
+shortcut to befriending important people is just being their children.) Ano=
+ther lesson is that, when junior investment bankers work all night formatti=
+ng pitchbooks, that work is almost certainly wasted, and the deals are bein=
+g won on the golf course. Friends do not exchange pitchbooks with each othe=
+r.</p>
+<p style=3D"margin: 16px 0;">Another lesson is subtly conveyed by =E2=80=9C=
+this golf course or that golf course=E2=80=9D: The course matters.=C2=A0The=
+ clients are not like =E2=80=9Cit was so nice spending four hours getting e=
+xercise in the open air with you=E2=80=9D; they are like =E2=80=9Cit was so=
+ nice getting access to a prestigious golf club with you.=E2=80=9D=C2=A0To =
+be a successful banker you don=E2=80=99t absolutely=C2=A0<em>need=C2=A0</em=
+>to develop a true friendship with the clients; giving them prestigious and=
+ valuable gifts =E2=80=94=C2=A0like a tee time at Pine Valley =E2=80=94=C2=
+=A0is a reasonable substitute. Around here <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMTktMDMtMDYvYmUtY2FyZWZ1bC13ZWFyaW5nLWplYW5zLWF0L=
+WdvbGRtYW4_Y21waWQ9QkJEMDExNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cB4c780fc6" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  I often=C2=A0quote</a> the m=
+ost important thing I learned at Goldman,=C2=A0John Whitehead=E2=80=99s <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aHR0c=
+HM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9qb2huLXdoaXRlaGVhZC10ZW4tY29tbWFuZG1l=
+bnRzLTIwMTUtMg/607f07ceef4b8524a319a23cBb951ac40" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> commandment to r=
+elationship bankers</a> that =E2=80=9CImportant people like to deal with im=
+portant people. Are you one?=E2=80=9D Important people like to play golf wi=
+th important people at important golf clubs.<a class=3D"footnote-index" hre=
+f=3D"#footnote-5" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[5]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Also though how many clients do you think do d=
+eals with Goldman and reminisce with David Solomon =E2=80=9Cdo you remember=
+ that time I listened to your <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjAtMDctMjcvZ29sZG1hbi1jZW8tdGFrZXMtdGhlLXN0YWdlLWFzLWhhbXB0b25zLW=
+dldHMtYmFjay10by1wYXJ0eWluZz9jbXBpZD1CQkQwMTE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVka=
+XVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTcmdXRtX2NhbXBh=
+aWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb85778ec" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  DJ set ope=
+ning for the Chainsmokers=C2=A0in Water Mill</a>?=E2=80=9D It=E2=80=99s a h=
+obby, and I suppose in its way it might impress clients, but it is distinct=
+ly less=C2=A0<em>social=C2=A0</em>than golf. You need golf too.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">How is Razzlekhan doing?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30277130.281516/aHR0cHM6Ly9uZXdzLmJsb29tYmVyZ2xhdy5jb20vd2hpdGUt=
+Y29sbGFyLWFuZC1jcmltaW5hbC1sYXcvd2FsbC1zdHJlZXQtcmFwcGVyLWNoYXJnZWQtaW4tY3J=
+5cHRvLWhlaXN0LWxhbmRzLW5ldy10ZWNoLWpvYg/607f07ceef4b8524a319a23cBe8e1ed37" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> Okay</a>!</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The former tech entrepreneur, =E2=80=9CRazzlek=
+han=E2=80=9D rapper and accused cryptocurrency thief Heather Morgan has a n=
+ew job.</p>
+<p style=3D"margin: 16px 0;">Morgan, who dubbed herself on social media and=
+ in music videos as =E2=80=9CThe Crocodile of Wall Street,=E2=80=9D was hir=
+ed by an unspecified technology company even though she=E2=80=99s under 24-=
+hour house arrest, according to a court filing. She and her husband are acc=
+used of trying to launder $4.5 billion of Bitcoin stolen from the Bitfinex =
+currency exchange.</p>
+<p style=3D"margin: 16px 0;">She asked a judge to modify the terms of her h=
+ome confinement so she can work three days a week from the employer=E2=80=
+=99s New York office. The government doesn=E2=80=99t object to the proposed=
+ modification, her lawyer, Eugene Gorokhov, said in the filing Tuesday in W=
+ashington.</p>
+<p style=3D"margin: 16px 0;">Morgan, who has denied wrongdoing, was offered=
+ a job =E2=80=9Cin the role of growth marketing and business development sp=
+ecialist,=E2=80=9D Gorokhov said in the filing. He told the court that she=
+=E2=80=99s seeking to keep the name of the employer secret to protect her s=
+afety, though the government is aware of the identity.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I have to say that she is probably the only bu=
+siness rapper whose stage name I know? And, no offense, not because she is =
+so great at rapping? But because <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjItMDItMDkvYnVzaW5lc3MtcmFwcGVyLXdhcy1iYWQtYXQtYml0Y29pbi1=
+sYXVuZGVyaW5nP2NtcGlkPUJCRDAxMTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdX=
+RtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExNyZ1dG1fY2FtcGFpZ249bW9uZXlzd=
+HVmZg/607f07ceef4b8524a319a23cB3210d5c4" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  getting arrested for a=
+ multibillion-dollar Bitcoin heist</a> brings a lot of publicity to your bu=
+siness rapping career? Like, that=E2=80=99s a growth marketing success righ=
+t there, sure.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDEtMTcvaGlnaC1jb3N0cy1hZmZsaWN0LWdvbGRtYW4tbW9yZ2FuLXN0YW5sZXk=
+tYW1pZC1zbHVtcC1pbi1kZWFscz9jbXBpZD1CQkQwMTE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTcmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBbfcfe123" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Goldman, Mor=
+gan Stanley</a> Are Weighed Down by High Costs as M&amp;A Slumps. Citi Summ=
+ons <a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.28151=
+6/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTcvY2l0a=
+S1zdW1tb25zLXVucHJvZHVjdGl2ZS1yZW1vdGUtd29ya2Vycy10by1vZmZpY2UtZm9yLWNvYWNo=
+aW5nP2NtcGlkPUJCRDAxMTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJ=
+jZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607=
+f07ceef4b8524a319a23cB559e0ce4" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">  Unproductive Remote Workers</a> t=
+o Office for Coaching. Meme stock investor <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbn=
+QvZDVkMmY4YjgtNDBkMS00YTIzLTk5OGMtNzJhNzE3ZWI1NmQx/607f07ceef4b8524a319a23c=
+Bfe7b4db3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> Ryan Cohen</a> launches activist campaign at Alibaba.=
+=C2=A0Disney Defends Board, CEO Robert Iger Against <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cud3NqLmNvb=
+S9hcnRpY2xlcy9kaXNuZXktZGVmZW5kcy1ib2FyZC1jZW8tcm9iZXJ0LWlnZXItYWdhaW5zdC1w=
+ZWx0enMtY3JpdGljaXNtcy0xMTY3Mzk3MTE0OD9tb2Q9aHBfbGVhZF9wb3MxMQ/607f07ceef4b=
+8524a319a23cBe0513842" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> Nelson Peltz=E2=80=99s Criticisms</a>.=C2=
+=A0Looming <a href=3D"https://link.mail.bloombergbusiness.com/click/3027713=
+0.281516/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMjVmNjdkODktMjk0MC00M2I5LTlhND=
+ItYmZjMzRkMjYyNjMx/607f07ceef4b8524a319a23cB90a9ad9f" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Twitter inte=
+rest payment</a> leaves Elon Musk with unpalatable options. Elon Musk, Tesl=
+a Poised for <a href=3D"https://link.mail.bloombergbusiness.com/click/30277=
+130.281516/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9lbG9uLW11c2stdGVzbGEtcG9p=
+c2VkLWZvci10cmlhbC1vdmVyLTIwMTgtdHdlZXRzLXByb3Bvc2luZy10by10YWtlLWNhci1tYWt=
+lci1wcml2YXRlLTExNjczODczNzk5P21vZD1ocF9sZWFkX3BvczQ/607f07ceef4b8524a319a2=
+3cB37d8fdba" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">Trial Over 2018 Tweets</a> Proposing to Take Car Maker=
+ Private. Elon Musk Wins Vote of Support <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjMtMDEtMTYvcWlhLWNlby1zYXlzLXdlYWx0aC1mdW5kLXRydXN0cy1=
+lbG9uLW11c2stcy10d2l0dGVyLWxlYWRlcnNoaXA_Y21waWQ9QkJEMDExNzIzX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTE3J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBb02a231b" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  From Qatar</a> Amid Twitter Turmoil. Big Four accountants in Spain <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aHR0cHM6=
+Ly93d3cuZnQuY29tL2NvbnRlbnQvMDEwMDRhMTMtNmY3ZS00NGRhLTk4MjMtMzg1MWFmNmQ3NmZ=
+l/607f07ceef4b8524a319a23cB231e251b" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">probed over long hours</a>. We=
+stern banks struggle to exit Russia after <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQ=
+vOThmOTE5OTctZGI4My00YTIzLTg0OTctOTM0OGM3ZTcyNDdm/607f07ceef4b8524a319a23cB=
+638ce692" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">Putin intervention</a>.=C2=A0Larry Fink Says <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTcvYmxhY2tyb2NrLXMtZmlua=
+y1zYXlzLWVzZy1uYXJyYXRpdmUtaGFzLWJlY29tZS11Z2x5LXBlcnNvbmFsP2NtcGlkPUJCRDAx=
+MTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV=
+0bV90ZXJtPTIzMDExNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23=
+cB2d84d326" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">  ESG Narrative</a> Has Become Ugly, Personal. Vanguard=
+ Gets Extra ETF Billions After Largely <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZX=
+dzL2FydGljbGVzLzIwMjMtMDEtMTYvdmFuZ3VhcmQtZ2V0cy1leHRyYS1ldGYtYmlsbGlvbnMtY=
+WZ0ZXItZXNnLWxpdGUtYmV0LXBheXMtb2ZmP2NtcGlkPUJCRDAxMTcyM19NT05FWVNUVUZGJnV0=
+bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExNyZ1dG1=
+fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB27b75a61" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Sh=
+unning ESG</a>. CFPB Weighs Tougher Rules for Overseas <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cud3NqLm=
+NvbS9hcnRpY2xlcy9jZnBiLXdlaWdocy10b3VnaGVyLXJ1bGVzLWZvci1vdmVyc2Vhcy1tb25le=
+S10cmFuc2ZlcnMtMTE2NzM4NzU3MDc_bW9kPWhwX2xlYWRfcG9zNQ/607f07ceef4b8524a319a=
+23cB5f31fc70" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> Money Transfers</a>. Texas-born princess Rita Jenret=
+te faces eviction from <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/30277130.281516/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjMvMDEvMTQvcHJpbmNlc3Mtcm=
+l0YS1qZW5yZXR0ZS1mYWNlcy1ldmljdGlvbi1mcm9tLXJvbWUtdmlsbGE/607f07ceef4b8524a=
+319a23cB43d6851a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> $350M Roman villa</a>.=C2=A0Italy=E2=80=99s <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTYvaXRhbHktcy1tb=
+3N0LXdhbnRlZC1tYWZpYS1ib3NzLW1lc3NpbmEtZGVuYXJvLWFycmVzdGVkP2NtcGlkPUJCRDAx=
+MTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV=
+0bV90ZXJtPTIzMDExNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23=
+cB34e9aea6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">  Most-Wanted Mafia Boss</a> Arrested After 30 Years.=
+=C2=A0Enron, Madoff and now FTX: New York=E2=80=99s Belfer family <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvMmM3MDA3NmEtM2M1OS00MTgzLWI0YzYtNzlmYjIwMmE4Yjk4=
+/607f07ceef4b8524a319a23cBd29c0eca" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> strike out again</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30277130.281516/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB182825c2" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30277130.281516/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBe2f1313e" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] A more plausible intuition is that crypto =
+lending products are like *securities lending*: If your broker lends out yo=
+ur shares of stock and gives you some of the interest, that is not generall=
+y registered as a security; isn=E2=80=99t crypto lending like that? I don=
+=E2=80=99t have a great answer, but my gut is that securities lending is su=
+bject to SEC jurisdiction (the lending program is not a security, but the s=
+ecurities that you=E2=80=99re lending are!), so the SEC doesn=E2=80=99t wor=
+ry too much about this technicality, while crypto lending is subject to SEC=
+ jurisdiction only if the lending program itself is a security, so the SEC =
+cares. That is not a satisfying answer.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Though <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cuYXhpb3MuY29tL25ld3NsZ=
+XR0ZXJzL2F4aW9zLW1hcmtldHMtMmYxOGNkOTUtZWQ3Mi00N2U2LWE1NTgtOGIxMjA4N2FlODJh=
+Lmh0bWw/607f07ceef4b8524a319a23cBbe39ac99" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">here is an Axios story</=
+a> this morning titled =E2=80=9CThey thought their money was safe,=E2=80=9D=
+ at least hinting that Gemini at least hinted to customers that these accou=
+nts were FDIC-insured. =E2=80=9CAll fiat currency held by Gemini to redeem =
+your GUSD is held by our partner financial institutions in a secure account=
+ and is eligible for FDIC insurance,=E2=80=9D a Gemini representative told =
+a customer. Maybe not the best language to use!</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Gemini=E2=80=99s website <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/30277130.281516/aHR0cHM6Ly93d3cuZ2V=
+taW5pLmNvbS90cnVzdC1jZW50ZXI/607f07ceef4b8524a319a23cBf9a569ef" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">say=
+s</a>: =E2=80=9CNYDFS imposes certain excess capital requirements for all a=
+ssets held on Gemini. At any given time, Gemini is required to hold capital=
+ in excess of customer deposits and must report any material changes in thi=
+s capital to the NYDFS.=E2=80=9D Not quite the same as being bank accounts =
+though.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] I think on balance this is the biggest pro=
+blem, but certainly another big problem is all the fraud and theft, and you=
+ might reasonably rank that first.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] We could keep going all day. Exercises for=
+ the reader: Is it an advantage or a disadvantage that Lemkau =E2=80=9Cstil=
+l isn=E2=80=99t great=E2=80=9D at golf? And: In this context, is it an adva=
+ntage that he=E2=80=99s male?</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBa82b1f21" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB460f9bab" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB29c85c11" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB5dde0c1a" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDI3NzEzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1NTg2NDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cK5e48010d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30277130&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB2e4acad1" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30277130.281516/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCabf323e2" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30277130.281516/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB32f6e19f" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30277130.281516/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBa5456ddb" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB1=
+4acf5a1" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30277130.281516/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB4=
+ec8b8b9" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D302771=
+30&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D302771=
+30&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D302771=
+30&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D302771=
+30&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D302771=
+30&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30558646&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci0xze.617w/fef88628.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_419871_1085693644.1673985305327--
+

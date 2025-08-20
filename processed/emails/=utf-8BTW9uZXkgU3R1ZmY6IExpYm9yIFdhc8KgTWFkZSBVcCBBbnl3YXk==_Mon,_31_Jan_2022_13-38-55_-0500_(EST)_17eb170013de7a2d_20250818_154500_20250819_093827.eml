@@ -1,0 +1,2241 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:c011:0:b0:191:bcf:3d4e with SMTP id z17csp398200lko;
+        Mon, 31 Jan 2022 10:40:14 -0800 (PST)
+X-Received: by 2002:a5d:6d05:: with SMTP id e5mr18215588wrq.398.1643654414399;
+        Mon, 31 Jan 2022 10:40:14 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1643654414; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=xj6Yed3YjzGYXFHTOwhfdTK5VOIwF0r3pdsF8Eb9yNzerIBxt+mh/SvHyBIahnwqEA
+         IfhLB2XQHwLCQnqnaZGAVSEGi5J2jAUEyvZjRTRJ1p3x/WCe38cRfzXs0niK31K43zgT
+         XOw4B/5TN7FmBw5NkLuwKqBcb3w3odUZmwmbv9lN9F3cXyGcvv2GajoAE8ds8B7kFOrh
+         +S8VHi3uLyFZLjS3CitWda5ARVbnEPK8DlOWVWaJULmdlgk8WE8zZ+9ugey81xwePnEP
+         C3Sps+irI/Y/E7RB+zbm4Vsa73i5+v062TfXRJg5AgGIAD89PDpdS9zbARjnxpXaNJyO
+         ITBg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=eqsI45tWsavNxzlii/sHsvMLfNK1Exz3f60Kp9LgPyo=;
+        b=JGuR+WK+Xv24EKuYeQi8Fhq8bs84RhM6UiKhVnhwR8byPlemtK2tF4Aq37z/wEi91a
+         vhwsVsxCLlzo5bl6ObY4YZpKj5xieZduPAv3L47KxmY/3Q2Jn5IBfJ3mn5phlMn8kFwn
+         YyzDZ5qKuWSMSPRcRS9x1tv9WUvZS0apaFFaGgchaiFtjYoEQgKEZCvtG1fs/4Nae6iR
+         8iiFVesNWLXMVlxHstARrtK8XghNebhvASLACu9CeUfUMkJmHwmsjUgLFbl4pyBNgm6O
+         wblUBFKqpPOwglaqduNvTUcl/zhuy8QdaKPJN0hKaAJX5DmR1kBcEX6qJgQfYhx1wYr6
+         LVzg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=31rZOpjK;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p2sor10007299wre.47.2022.01.31.10.40.14
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 31 Jan 2022 10:40:14 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=31rZOpjK;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=eqsI45tWsavNxzlii/sHsvMLfNK1Exz3f60Kp9LgPyo=;
+        b=GxF4ZCl+vjnND3SSf+Uz0RPjdj7oUMNkKNZTAQ2WLIZrUI0tvxeyv0MaHzHyLqXzzx
+         Q0rtrNOm8R6DJ8wfAWLQGWy8i5oBFSXx1AFBb2qwlarPFouMNaaO2UjK4WH8539kzZ4D
+         Brdzc495ChXozQVwy3ZEsEaPiDqJlCgbcwPWs0SUOK2d01afm59eBWYjfctPANYQsema
+         jv690J5+q/C6BoeplTwvSoP97ZILkituO1H0+EQvP3C1pmbLTP6shfV3Z3EFPj1NIcDb
+         tGBgW2U4/irX2foRy/LRfh8HnrxH1QpiN8t3pmNr3t339ppHlk8ESGU4Q5DoWa3+OA9c
+         pyDw==
+X-Gm-Message-State: AOAM533JKrI6fqO8EbpFKjRDghojwwAbot+a++HPT+jZMxQCUTQ0Yq0d
+	yt/85nkTMlXTThEPZgT0cleerHiL6FIM7HkI2n0f6FahxRCtEfwYXQ==
+X-Received: by 2002:a5d:5549:: with SMTP id g9mr18127312wrw.265.1643654413878;
+        Mon, 31 Jan 2022 10:40:13 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f350:0:0:0:0:0 with SMTP id e16csp267952wrp;
+        Mon, 31 Jan 2022 10:40:11 -0800 (PST)
+X-Received: by 2002:a17:902:ab41:: with SMTP id ij1mr22973041plb.59.1643654410829;
+        Mon, 31 Jan 2022 10:40:10 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1643654410; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=zup//wBjmjtsrzbskEKoATOFJfMlouiq+embh4Yi3k3Ph6QNvTH/ccHUFQ54KYHuMb
+         kjO6yUl1CQyscbAd6AHJlRTzC31umcZ8OH/8xxPSY3d5P0Ffg/iSZ0X1jtk3sViGbtlp
+         rjeWJFvYNqMVnaeFMdwkd8FDE+rh1oUCn45zk0knO+qhlOFuqIzzboaYpMC9tdbAyH90
+         l/CVCU6Yea8GyyYs8JPxX+rNKLp9umTwONj/WT9dIELL1wqgdLOQ04wJP4y1WsDbq4g9
+         avt+GU8sJetFB/1sZZ84JG50kb6vv3S9Zxto9uCR3S6Bj4tHIxZqH6JU0rEA8BMQAbif
+         5SXA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=eqsI45tWsavNxzlii/sHsvMLfNK1Exz3f60Kp9LgPyo=;
+        b=LFfB7M7J153QyL+SJZS0A+wLiwqMtbvab8UzP+IEwJwoa30ZWYcaFStQJA8Hh/sLjO
+         l+8EutkuNil2sRBM49jcu9WDRGQYEygx1EsaLKWRh706nF91ni3+S2iIfCPOeDh+Kf0p
+         LjlU5IjkY48ZcszdO7tqgGG9PlxrK7tO/ofU3MC5YPuzNbSTE7EwNwaaZZeUseyyUf7a
+         TzpBH9yijf0o9j1hgGhIffnpQPiOzPLTuWlTS91jresg/tlr7xcdb7kE3oI4q6gU31pv
+         vpHsLUCpaKWUC2hlF4NjcgTX7QlJ7k0fEMudIfC6clmI4kau6UXDeBhn+ULnacR61qGh
+         lGDg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=31rZOpjK;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220131133855.26548191.257626@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220131133855.26548191.257626@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220131133855.26548191.257626@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id mu16sor71129pjb.0.2022.01.31.10.40.10
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 31 Jan 2022 10:40:10 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20220131133855.26548191.257626@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwSJ33gap9j3+QlY56DG8jOXVqS9LUv+Z9t0x+cHa0gCwZtTG3vrXIaCYUAayxWzKL1FqyOdWVTe+6Gcq7s86Gl6AxkPco=
+X-Received: by 2002:a17:90b:4a4c:: with SMTP id lb12mr25881624pjb.85.1643654410398;
+        Mon, 31 Jan 2022 10:40:10 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1643654410; cv=none;
+        d=google.com; s=arc-20160816;
+        b=DPhprPcJ5aYFC8CbD2ERkb8VyXsiwEwrrhBqaAjZUcVSLIh3C3rsotv3NADBkOmWwF
+         wSaei7Rdhg69OjQHTizfv2KaioJwbf2hmY1uC9BGbEjT9HIs7K7fuHaIkqrw6FAHb7SF
+         76JNBUBDkke1zHsZsAE809a94XnC8fDHf/re1WrQDnkK/sMgmY6f2iSJJKvlTlCwkH2F
+         vhIpqL651xiiv51Fj1vZTEc5VeTSEH/eiOlcoGye6v9SaLGu5EbzQHHhCI/cUDjplxW3
+         f0Sx9vrhmGuB+m5aAmNoQm1OqEaDmEH25BurzoH1tt2yRCroAHO9VZZmcprstekfJZfo
+         1aSg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=eqsI45tWsavNxzlii/sHsvMLfNK1Exz3f60Kp9LgPyo=;
+        b=vCibDKG1R37RGkVNyRPZc0D0qYg/ARUipYapdt/4gqipoDyXdpySBAS/Hoo2xim9e2
+         r3aOuB38ZXOLSITiog6iNq8/k2PwDxYxGqecdsbLJzzGo66EiwdjTVIv1pI2tnQPHWQq
+         UjuhDZ/SmTXbFrwEaAXSP6l3TZwXBG6FnbC8ujrowCUzPuwMfrLqL7JTxDjCb06Uywhp
+         Wgt7PNhiva7UzLjmiZ8cCAoGoGuFdqq8V5I3fjxCuIcSmOOvCcSt9x1xj15CjHtzAQUq
+         73QJ6TAxW4JeRDAt2sh5av+QIIu79aAUKaYS4+P3zSYqxbl2hT+il0Qanzw46i60Zo5A
+         Cmsg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=31rZOpjK;
+       spf=pass (google.com: domain of delivery_20220131133855.26548191.257626@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220131133855.26548191.257626@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220131133855.26548191.257626@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id c6si737967plg.9.2022.01.31.10.39.59
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 31 Jan 2022 10:40:10 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20220131133855.26548191.257626@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=RSg+Xpz424Nuqva/R6vSg2N8bySmyDbmXmEDT5rJ0zA=;
+ b=31rZOpjK7ZtVchfjLMr6bck9P4Tak068kc9KpbudUGvY9e/96lkch6eCo1o8RPjgPGcg6cWaNzuR
+   XlT64Dl9n3HU90TZwLAQcuaCwrBcd9xZefH0Pr46TCWb3hcAW4BU/O6xPXKQ4A2DxFbZQFIgtbDt
+   bN1KH0Gd7N/Jdn0EWbw=
+Received: from nj2mta-17.sailthru.com (204.153.121.17) by bloomberg-b.sailthru.com id hv0mg22tkt0s for <bloomberg@khamel.com>; Mon, 31 Jan 2022 13:39:50 -0500 (envelope-from <delivery_20220131133855.26548191.257626@mx.sailthru.com>)
+Date: Mon, 31 Jan 2022 13:38:55 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220131133855.26548191.257626@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IExpYm9yIFdhc8KgTWFkZSBVcCBBbnl3YXk=?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_124974828_1445364987.1643654335937"
+Precedence: bulk
+X-Feedback-ID: 6358:26548191:campaign:sailthru
+X-TM-ID: 20220131133855.26548191.257626
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illmaroon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cft0pr.5isa/cb974326
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cft0pr.5isa/cb974326>, <mailto:unsubscribe_20220131133855.26548191.257626@mx.sailthru.com>
+X-rpcampaign: stjko26548191
+
+------=_Part_124974828_1445364987.1643654335937
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        LieborThe way that global financial markets worked for decades is t=
+hat trillions of dollars of floating-rate loans and interest-rate derivat
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Liebor
+   =20
+ =20
+The way that global financial markets worked for decades is that trillions =
+of dollars of floating-rate loans and interest-rate derivatives were indexe=
+d to Libor, the London interbank offered rate. And the way Libor worked was=
+ that someone =E2=80=94=C2=A0at the time relevant to our story=C2=A0it was =
+the British Bankers=E2=80=99 Association[1] =E2=80=94=C2=A0would call up a =
+group of big international banks and ask them =E2=80=9Chow much would you h=
+ave to pay right now to borrow dollars for one month,=E2=80=9D and they=E2=
+=80=99d answer, and the BBA would take some trimmed average of their answer=
+s, and that was one-month dollar Libor. And there were other Libors for oth=
+er currencies and tenors, computed in the same way.Most important financial=
+ benchmarks do not work this way. The S&P 500 index is not calculated by ca=
+lling some banks and saying =E2=80=9Chey how=C2=A0much would you pay for th=
+ese 500 stocks=E2=80=9D and averaging their answers. The S&P 500 index is c=
+alculated based on the last trade of each stock on a public stock exchange.=
+ Most indexes are based on actual trades.[2] But Libor was invented because=
+ it was  very useful, for the floating-rate loan business, to have an index=
+ of=C2=A0banks=E2=80=99 unsecured borrowing costs, and unsecured short-term=
+ bank debt did not really trade on a transparent public exchange. It traded=
+=C2=A0in an informal, telephone-based interbank market, and the easiest way=
+ to find out what trades banks were doing was to call them.Also, though, th=
+ey didn=E2=80=99t do trades in every Libor tenor and currency every day. If=
+ you wanted to know how much a bank would pay to borrow Danish kroner for t=
+wo months =E2=80=94=C2=A0which was a real Libor rate =E2=80=94 you could no=
+t compute that every day based on how much each Libor bank actually paid to=
+ borrow kroner for two months that day. Big international banks did not bor=
+row kroner for two months every day.=C2=A0Certainly not every day at exactl=
+y the time the BBA called them to ask. But a bank which had borrowed kroner=
+ for one month an hour ago, and borrowed dollars for three months five minu=
+tes ago, and had a general sense of the curve of its various short-term bor=
+rowing costs, could probably give you a good guess at how much it would hav=
+e to pay to borrow kroner for two months right now. So you could just call =
+it and ask it for that guess. Libor was =E2=80=9Cthe rate at which banks do=
+n't lend to each other,=E2=80=9D people said.The problem is that Libor also=
+ became the rate underpinning trillions of dollars of derivatives contracts=
+, and the banks traded those derivatives and built up large positions. And =
+some days it would be good for the derivatives traders to have a low Libor =
+=E2=80=94=C2=A0they had to pay Libor on a bunch of contracts resetting that=
+ day, so a low Libor would let them pay less =E2=80=94=C2=A0and other days =
+it would be good for the derivatives traders to have a high Libor. And the =
+derivatives traders realized that, if it was worth $1,000,000 to their bank=
+ to have Libor be one basis point lower, then it was worth $200,000 to thei=
+r bonus to have Libor be one basis point lower, which meant that it was wor=
+th calling up their bank=E2=80=99s Libor submitter =E2=80=94=C2=A0the perso=
+n who answered the phone when the BBA called =E2=80=94=C2=A0and saying =E2=
+=80=9Chey mate I=E2=80=99ll buy you a case of Champagne if you submit a low=
+er Libor.=E2=80=9D And then the BBA would call the submitter and say =E2=80=
+=9Cwhere can you borrow yen for three months,=E2=80=9D and the submitter wo=
+uld say =E2=80=9Coh 0.525=E2=80=9D when in his heart of hearts he knew=C2=
+=A0that the real answer was 0.545, and the BBA would average that in, and 3=
+-month yen Libor would be a smidge=C2=A0lower than it would otherwise have =
+been, and the bank would make money on the derivatives, and the derivatives=
+ traders would get their bonuses and the submitter would get his Champagne.=
+This went on for a while and eventually regulators and prosecutors noticed =
+it and it became a huge huge huge scandal[3] and:=09Banks were fined  billi=
+ons and  billions of dollars for rigging Libor;=09Bank regulators decided=
+=C2=A0to  get rid of Libor and replace it with other rates that are harder =
+to rig; and=09Various derivatives traders were arrested and prosecuted for =
+rigging Libor.Point 1 is sort of self-explanatory. In the post-crisis perio=
+d, if banks do shady stuff and get caught, they pay big fines. Point 2 is q=
+uite complicated, because the issues we discussed above =E2=80=94=C2=A0that=
+ banks do not actually borrow unsecured in every tenor and currency every d=
+ay, that the bank funding market is not very transparent, etc. =E2=80=94=C2=
+=A0remain true. The way regulators in the U.S. have addressed these issues =
+is to replace Libor with a benchmark interest=C2=A0rate called=C2=A0SOFR, t=
+he Secured Overnight Financing Rate,=C2=A0which reflects the cost of borrow=
+ing money for one day secured by Treasury securities. That rate can be calc=
+ulated based on actual transactions in a liquid market. I should say, regul=
+ators are in the slow process of replacing Libor with SOFR; I am talking ab=
+out Libor in the past tense but that is a bit misleading and it is still in=
+ wide use despite being phased out. This is partly for reasons of inertia, =
+but also because using an overnight secured rate=C2=A0raises its own issues=
+ for floating-rate lending, etc., which we have talked  about  before but w=
+ill not talk about again here.Here we will talk about Point 3. Some bank tr=
+aders were prosecuted for rigging Libor.[4] In the U.S., they were prosecut=
+ed for =E2=80=9Cwire fraud,=E2=80=9D the crime of lying to people to make m=
+oney.[5]There is something a little bit odd about this, if you think about =
+it too hard. The BBA would call up a bank=E2=80=99s Libor submitter and say=
+ =E2=80=9Cwhere could you borrow yen=C2=A0for three months=E2=80=9D and the=
+ submitter would say =E2=80=9C0.525=E2=80=9D when the correct answer was 0.=
+545. But what does it mean to say that the correct answer was 0.545? It doe=
+s=C2=A0not=C2=A0mean that, as the submitter was saying =E2=80=9C0.525,=E2=
+=80=9D he was simultaneously entering into a three-month unsecured borrowin=
+g agreement to borrow dollars at 0.545%. It means that the submitter=E2=80=
+=99s unbiased best guess about what the bank would pay, right that minute, =
+to borrow a reasonable amount of dollars for three months, was 0.545%, but =
+he said 0.525% due to impure motives.But of course the submitter=E2=80=99s =
+unbiased best guess was just a guess about a hypothetical question, and for=
+ most Libor tenors and currencies on most days that guess would not line up=
+ precisely with a contemporaneous actual transaction. And so you could not =
+prove that that best guess =E2=80=94=C2=A00.545% here =E2=80=94=C2=A0was =
+=E2=80=9Ccorrect,=E2=80=9D that it reflected the true answer to the BBA=E2=
+=80=99s question, which was to submit =E2=80=9Cthe rate at which [the bank]=
+=C2=A0could borrow funds, were it to do so by asking for=C2=A0and then acce=
+pting inter-bank offers in reasonable market size just prior to [11 a.m. Lo=
+ndon time].=E2=80=9D[6]Which means that you=C2=A0also could not prove that =
+the biased, dishonest, Champagne-induced guess =E2=80=94=C2=A00.525% here =
+=E2=80=94=C2=A0was=C2=A0false. Could the bank have borrowed yen for three m=
+onths at 0.525% around the time that the BBA called? I don=E2=80=99t know! =
+Perhaps you could go back and find proof that, right around that time, the =
+bank was looking to borrow yen for three months, and it got a range of offe=
+rs, and they were all in a range of 0.543% to 0.548% and the 0.525% was a l=
+ie. But there is no obvious reason to think that would always be the case; =
+for the most part these were judgment calls and you won=E2=80=99t find a sm=
+oking gun proving that the 0.525% was a lie.More to the point, no one, uh, =
+looked? These cases were brought based mainly on=C2=A0really bad chats. Wha=
+t happened is that prosecutors would investigate a bank=E2=80=99s Libor dea=
+lings and find electronic chats like this:Derivatives trader: Hey what Libo=
+r are you submitting today?Submitter: I think the right number is 0.525%.De=
+rivatives trader: It would help me out a lot, in terms of profiting on my d=
+erivatives, if you would lie and submit a higher number.Submitter: What if =
+I lied and submitted 0.545%, which is not what I think is the right number?=
+Derivatives trader: Perfect, I appreciate it, in exchange for your dishones=
+t criminal conduct I will happily pay you a bribe of one case of Champagne.=
+Submitter: Your bribe is acceptable to me, pleasure doing crime with you.De=
+rivatives trader: Hope we don=E2=80=99t go to jail!Submitter: Lol. We shoul=
+d, though, what with the crimes we=E2=80=99re doing!And then they would cha=
+rge the trader with wire fraud, and the jury would look at the chats and be=
+ like =E2=80=9Cwell yes this sounds like wire fraud=E2=80=9D and convict th=
+em. Seriously the chats are bad!Two former Deutsche Bank AG traders named=
+=C2=A0Matthew Connolly and Gavin Black were convicted in a New York federal=
+ court of wire fraud for manipulating Libor, and they appealed their convic=
+tions,=C2=A0pointing out that=C2=A0there was no proof that the numbers they=
+ submitted were wrong. And last week the U.S. Court of Appeals for the Seco=
+nd Circuit agreed with them and  tossed out their convictions. Maybe the nu=
+mbers were right! Who can say? The numbers were necessarily subjective, and=
+ anyway the prosecutors forgot to prove they were wrong.Here is the Second =
+Circuit=E2=80=99s opinion. Connolly and Black traded interest-rate derivati=
+ves and cash products, and were accused of=C2=A0pressuring Deutsche Bank=E2=
+=80=99s Libor submitters to submit wrong Libors. Two Deutsche Bank Libor su=
+bmitters cooperated with the government and testified against them. These w=
+ere James King and Michael Curtler, who worked on a cash money market tradi=
+ng desk, =E2=80=9Cborrowing money in the interbank=C2=A0market in order to =
+fund DB's cash needs.=E2=80=9DThe way the cash desk worked is that it would=
+ borrow money in the interbank market and then lend it to other Deutsche Ba=
+nk units to fund their operations;=C2=A0the cash desk would show a real, li=
+ve, market-based price to those other units.=C2=A0King and Curtler had litt=
+le spreadsheets (called =E2=80=9Cpricers=E2=80=9D)=C2=A0that they used to d=
+ecide what that price would be, and they would use that price =E2=80=94=C2=
+=A0the price that=C2=A0they=C2=A0charged Deutsche Bank=E2=80=99s other unit=
+s =E2=80=94=C2=A0as the basis for their Libor submission. Though sometimes =
+they=E2=80=99d bump it up or down a bit based on their market judgment. Fro=
+m the opinion (citations omitted):In addition to the above alterations in t=
+he pricer, King each day=C2=A0consulted, inter alia, five interbank cash br=
+okers before settling on DB's LIBOR=C2=A0submissions.=C2=A0He testified tha=
+t it was logical to "change the [LIBOR=C2=A0submission] rates . . . so that=
+ they lined up with what the brokers were predicting" because "the brokers =
+have access to all the banks, they know where we can borrow money or they t=
+hink they know where we can borrow money." But King said that while sometim=
+es the rates the brokers were suggesting were all similar, "there [we]re pe=
+riods when the rates are vastly different"; and then "[we] have to come up =
+with something that we feel is a fair reflection of our rate." Thus, in sub=
+mitting LIBOR rates, "some days [King] went with the pricer, some days [he]=
+ went with the broker, [and] some days [he] went with the middle." King tes=
+tified that he believed that the reference to "reasonable market size" in t=
+he BBA LIBOR Instruction--a term the BBA did not define--"gave [him] flexib=
+ility as to where [he] could actually submit his LIBOR."=C2=A0So he made up=
+ a number based on his feel for the market, his own borrowing activity in t=
+he interbank market, his own=C2=A0lending=C2=A0activity in the=C2=A0intra-b=
+ank market, and calling some interbank brokers and getting their feel for t=
+he market.And then he=E2=80=99d sometimes change that number to benefit the=
+ derivatives traders:King=C2=A0testified that "Gavin Black occasionally ask=
+ed me to manipulate the rates or to put in a submission that was higher or =
+lower than I would have done to benefit his trading position," and that "Ma=
+tthew Connolly on occasion made requests for me to change our LIBOR rates a=
+nd to benefit the trader's position." =E2=80=A6The government also introduc=
+ed other emails and electronic messages to DB's LIBOR submitters requesting=
+ modifications of the LIBOR submissions in order to benefit DB's existing t=
+rading positions. They included one from Black on May 15, 2008, requesting =
+a low 1-month LIBOR rate because he was "paying on 18 [billion]"; another f=
+rom Black on February 21, 2005, requesting a high 6-month LIBOR rate; one f=
+rom Connolly on November 23, 2005, requesting that 3-month LIBOR "be as hig=
+h as possible"; and an August 12, 2007 email from Connolly stating, "[i]f p=
+ossible, we need in NY 1mo libor as low as possible next few days....tons o=
+f pays coming up overall.=E2=80=9D As a result of this last request, King's=
+ DB submission to LIBOR on August 13 was the lowest by any panel bank; and =
+the DB submission on August 15 was four basis points below his estimate of =
+what LIBOR would be.As Libor-manipulation emails go these are not particula=
+rly bad =E2=80=94=C2=A0they don=E2=80=99t mention Champagne, or prison=C2=
+=A0=E2=80=94=C2=A0but they clearly fit the prosecutors=E2=80=99 narrative o=
+f =E2=80=9Cbanks submitted wrong Libors to make money on derivatives.=E2=80=
+=9D Also it sounds bad. Also the Libor submitters said =E2=80=94=C2=A0on th=
+e witness stand, at trial, after signing non-prosecution agreements =E2=80=
+=94=C2=A0that it was bad:All three cooperators testified that they "knew" t=
+he practice of altering DB's LIBOR submissions to benefit DB trader positio=
+ns was "wrong" at the time they engaged in it. King stated that "[i]t's int=
+uitively wrong because we are, you know, as I say, taking advantage of the =
+position. We are benefiting. There was a counterparty on the other side who=
+ doesn't know what we're doing and is being affected negatively by what we'=
+re doing."=C2=A0Parietti testified that "even if [LIBOR is] imprecise, hard=
+ to=C2=A0estimate, or vague, . . . it's still wrong to base your submission=
+ on your bank's position instead of information about the cash market."=C2=
+=A0All three cooperators testified that they never contemporaneously told a=
+nyone that they thought the=C2=A0practice was wrong.But at trial Connolly a=
+nd Black said, well, but you haven=E2=80=99t proven that the=C2=A0actual ra=
+tes they submitted=C2=A0were wrong. Maybe Deutsche Bank could have borrowed=
+ at those rates! It=E2=80=99s all subjective guesswork anyway, why not. The=
+ trial judge didn't buy it:The [trial] court stated that =E2=80=9Cthe quest=
+ion for the jury was whether Defendants made LIBOR submissions that reflect=
+ed something other than honestly held estimates of the rate Deutsche Bank w=
+ould have accepted in order to borrow funds.=E2=80=9D =E2=80=A6The court st=
+ated that =E2=80=9Cwhether Deutsche Bank could have borrowed funds=C2=A0at =
+a submitted rate is not dispositive of the falsity of its LIBOR submissions=
+.=E2=80=9D=C2=A0It ruled that the government was not required to prove "tha=
+t Deutsche Bank could not have borrowed funds at a rate submitted to the BB=
+A" in order "to establish the falsity of its LIBOR submissions," and that "=
+[a]s a factual matter, even if Deutsche Bank could have borrowed funds at a=
+ submitted rate, that would not prevent the submission from being false and=
+ misleading."=C2=A0The court stated that even "evidence that Deutsche Bank =
+could have borrowed funds at a submitted rate would not have rendered the D=
+efendants'=C2=A0statements truthful."If the BBA had called up Deutsche Bank=
+ and said =E2=80=9Chey what is the rate at which you=C2=A0could borrow fund=
+s, were you to do so by asking for and then accepting inter-bank offers in =
+reasonable market size just prior to 11 a.m. London time,=E2=80=9D and Deut=
+sche Bank=C2=A0had said =E2=80=9C0.525%,=E2=80=9D and=C2=A0it could in fact=
+ have borrowed funds at that rate in the interbank market just prior to 11 =
+a.m. London time, but its submitter=C2=A0incorrectly thought=C2=A0that it w=
+ould have had to pay 0.545%, then its Libor submission would be =E2=80=9Cfa=
+lse,=E2=80=9D in the sense that the submitter was=C2=A0trying to be dishone=
+st, even though he gave a factually true answer. In fact it didn=E2=80=99t =
+even matter whether the submitter thought the bank could have borrowed at t=
+hat rate: What matters is that the submitter=E2=80=99s motive=C2=A0was to m=
+ake money on derivatives rather than to answer the hypothetical question in=
+ the usual unbiased way. Or so said the trial judge.The Second Circuit disa=
+greed:The precise hypothetical question to which the LIBOR submitters were =
+responding was=C2=A0at what interest rate "could" DB borrow a typical amoun=
+t of cash if it were to seek interbank offers and were to accept. If the ra=
+te submitted is one that the bank could request, be offered, and accept, th=
+e submission, irrespective of its motivation, would not be false.Defendants=
+, of course, had no burden to produce any evidence. The burden was on the g=
+overnment to provide evidence to show that the LIBOR=C2=A0submissions made =
+by King or Curtler after receiving requests from Connolly or Black=C2=A0wer=
+e untrue. =E2=80=A6=C2=A0Yet none of the witnesses testified that DB could =
+not have=C2=A0borrowed a typical amount of cash at the rate stated in any o=
+f DB's LIBOR=C2=A0submissions.=C2=A0And it noted that actually there were a=
+ lot of different rates at which Deutsche Bank could have borrowed:Most imp=
+ortantly, the one-true-interest-rate theory was also belied by the evidence=
+ that loans may have different rates of interest simply because they involv=
+e different amounts of principal. King testified that the cash desk would "=
+borrow money every single day,=E2=80=9D=C2=A0and that "[t]here were periods=
+ where I need to=C2=A0borrow some $20- to $25 billion a day." He said that =
+"[o]ften it costs you=C2=A0more to borrow more cash than less cash," and th=
+us loans in various principal=C2=A0amounts could be at varying rates of int=
+erest.=C2=A0Similarly, Curtler testified that "there were days where there =
+would have=C2=A0been a wide range of offered rates." He said that "[i]f two=
+ counterparties were willing to lend to you, I believe I would borrow the c=
+heapest=C2=A0money first"; but "[y]ou wouldn't borrow one or the other. You=
+ would borrow both . . . ." And the BBA LIBOR Instruction does not say whic=
+h of those two prices should be submitted.=C2=A0So in theory on any particu=
+lar day there could have been a wide range of answers to the question =E2=
+=80=9Cwhat is the rate at which you could borrow funds in reasonable size,=
+=E2=80=9D and if the submitter pushed his number up or down by a few basis =
+points to favor a derivatives trader=E2=80=99s positions, he might still en=
+d up with a number in that range =E2=80=94=C2=A0a number that was=C2=A0a fa=
+ctually correct answer to the question.[7]What a great opinion. Intuitively=
+ this makes a lot=C2=A0of sense. Libor asked banks to make up a number. The=
+ banks made up numbers. Prosecutors decided in hindsight that some of these=
+ made-up numbers were =E2=80=9Ctrue=E2=80=9D and fulfilled the abstract pur=
+pose of Libor, while others were =E2=80=9Cfalse=E2=80=9D and constituted cr=
+iminal fraud for which=C2=A0people should go to prison.[8] But all the numb=
+ers were made up! They were all guesses, and the distinction between guesse=
+s that were good and guesses that were crimes had nothing to do with their =
+correspondence to objective truth; it was just about which guesses came wit=
+h embarrassing chats and impure motives.In other ways it is a strange resul=
+t. Libor is=C2=A0impossible to manipulate, the opinion suggests, or rather =
+impossible to manipulate criminally. Because it was made up, you could make=
+ up anything with any sort of nefarious purpose and=C2=A0that would be fine=
+. From the Wall Street Journal:=E2=80=9CIn some ways, these reversals under=
+score what a screwed-up benchmark Libor was to begin with, when you are not=
+ being asked to submit actual offers or bids, but just hypotheticals,=E2=80=
+=9D said Aitan Goelman, a former director of enforcement for the Commodity =
+Futures Trading Commission, a civil regulator that fined many banks for Lib=
+or violations. =E2=80=9CIt almost begged to be manipulated.=E2=80=9DBut wha=
+t is most interesting to me is not that it might be impossible ever to prov=
+e that a bank made a false=C2=A0Libor submission on any given day, but that=
+ the prosecutors=C2=A0didn=E2=80=99t try. You can sort of understand where =
+they were coming from. This=C2=A0looked=C2=A0bad. The banks paid billions o=
+f dollars in fines for it. If you stand up in front of a jury of normal peo=
+ple and said =E2=80=9Cthese bank traders made a number higher so that they =
+could make more money=E2=80=9D the jury will jump up and shout =E2=80=9Cgui=
+lty=E2=80=9D before you can finish the sentence. There is a popular=C2=A0na=
+rrative of corrupt bankers secretly conspiring to make money by nefarious m=
+eans, and this story fits that narrative so completely that the prosecutors=
+ didn=E2=80=99t even think they had to prove that the bankers were lying!
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      The MoviePass economy
+   =20
+ =20
+It=E2=80=99s back!A venture capital-backed battle is raging in New York Cit=
+y in the burgeoning field of instant delivery. At least six startups, inclu=
+ding Gorillas Technologies Ltd., Jokr SARL, Getir Perakende Lojistik AS and=
+ Buyk Corp., are vying to win the chance to ferry groceries to customers wi=
+thin 10 to 20 minutes of their order placement on an app.Prices are similar=
+ to grocery stores, discounts are plentiful, and many services don=E2=80=99=
+t have a fee or minimum order, allowing consumers to request a single pint =
+of Ben & Jerry=E2=80=99s delivered to their doorstep. Food-delivery app Doo=
+rDash Inc., based in San Francisco, also recently entered the fray in New Y=
+ork City.While these consumer-friendly offerings have brought surging sales=
+, losses are heavy given the high cost of prolific advertising and paying c=
+ouriers to hand-deliver potato chips, soap and eggs in a short time frame, =
+industry investors and executives said.Some of the companies are averaging =
+a loss of over $20 per order when factoring in costs like advertising, thos=
+e people said. =E2=80=A6Executives and backers of the companies say losses =
+today are investments in a promising prize. Groceries are already an enormo=
+us business, and if one or two of the startups grow to dominate the market =
+for quick groceries, the numbers could eventually turn profitable, they say=
+.=E2=80=9CIn the early minutes of a plane just taking off, it consumes a lo=
+t of gas,=E2=80=9D said Nazim Salur, founder of Istanbul-based Getir, which=
+ raised money last summer at a $7.5 billion valuation. Once Getir grows lar=
+ge enough, the business will become profitable, he said, something he has s=
+een firsthand with early Getir locations in Turkey.Isn=E2=80=99t modern fin=
+ance amazing? The basic model here is that you imagine the world five years=
+ in the future, and you imagine that your company has monopolistic dominanc=
+e of=C2=A0the grocery business in that future, and then you think =E2=80=9C=
+that seems like it would be profitable,=E2=80=9D and you model a stream of =
+profit that is many billions of dollars every year for the rest of time sta=
+rting in five years, and you calculate the net present value of that stream=
+ of income, and it is=C2=A0very large, and so you say =E2=80=9Cwell then it=
+ makes sense to spend a lot of money giving everyone free groceries for a f=
+ew years to get us to that future of monopolistic dominance,=E2=80=9D and y=
+ou go to venture capitalists with that pitch, and they say =E2=80=9Cwell we=
+ do have a ton of money and we love monopolies,=E2=80=9D and they give you =
+the money, and you buy everyone groceries. And then everyone eats the groce=
+ries and is like =E2=80=9Cthanks, venture capitalists!=E2=80=9D And then in=
+ a year or two you flip from giving them free groceries to charging them fo=
+r groceries, and either it works or it doesn=E2=80=99t.We have  talked abou=
+t this model a bunch  before; people make fun of it=C2=A0but it remains pop=
+ular and it=E2=80=99s not at all clear that it's wrong. For the venture cap=
+italists the good outcome here is that you succeed in building a monopoly, =
+jack up prices, squeeze your delivery workers=E2=80=99 pay=C2=A0and make a =
+lot of money. From a societal perspective it is possible that the good outc=
+ome is =E2=80=A6=C2=A0you know =E2=80=A6=C2=A0Saudi sovereign wealth funds =
+just give=C2=A0everyone in New York free groceries for a while? There is an=
+ argument that this business model is a symptom of investors having too muc=
+h money, and buying groceries for people seems like as good a use of=C2=A0t=
+hat money as anything else.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Goldman vs. sugar babying
+   =20
+ =20
+Investment banking is a bit of an unusual job in that it recruits a lot of =
+smart ambitious impressive people who have great career options and really =
+don't like investment banking. There is just widespread acceptance that peo=
+ple who did well at certain universities but don't really know what to do w=
+ith themselves will spend some time as investment-banking analysts, and som=
+e of them will love it and make a career of investment banking, and others =
+will use the training and connections from their analyst program to pursue =
+a career in the broader financial or corporate worlds, and some of them wil=
+l hate it and write essays about how they should have been sex workers inst=
+ead. Here is Wade Osei Pryor in the Root:I quickly realized I had no intere=
+st in watching stock markets or obsessing over company performance metrics,=
+ but I=E2=80=99d never heard of anyone walking away from Goldman. Two summe=
+r internships, one college graduation, and six months of full-time work lat=
+er, and I=E2=80=99ve still never chosen to start my day with the=C2=A0Wall =
+Street Journal. Above all, I struggle with my own complicity in perpetuatin=
+g the inequalities of global capitalism. The simplest and most compelling r=
+eason I have for not wanting to work at Goldman Sachs, however, is that I f=
+eel no sense of passion for finance, which is why, as I write this, I consi=
+dered a markedly different kind of employment offer. It came in the form of=
+ a message from a 50-something on Grindr whom I=E2=80=99ve never met: =E2=
+=80=9CHi Wade. Ken here =E2=80=94 great pic. I=E2=80=99m looking for a boyf=
+riend to spoil with a weekly allowance=E2=80=A6Let me know if you=E2=80=99r=
+e interested xx.=E2=80=9DKen was but the latest in a seemingly endless stri=
+ng of older men to contact me in hopes of exchanging money for romantic att=
+ention. While I=E2=80=99ve never engaged in sex work, I don=E2=80=99t imagi=
+ne it being too huge a departure from working in finance =E2=80=94 both wou=
+ld demand the shelving of my genuine passions in order to exchange large am=
+ounts of emotional, mental, and physical labor for capital. ...I began to w=
+onder why wouldn=E2=80=99t I consider Ken=E2=80=99s offer? From a purely ec=
+onomic point of view, turning him down would be illogical: Goldman demands =
+far more of my time and energy than I imagine Ken would (for context, I wor=
+ked over 110 hours the week he messaged me), yet in return they offer only =
+fractions of his proposed weekly allowance. Goldman may provide opportuniti=
+es for career advancement that being a sugar baby likely wouldn=E2=80=99t, =
+but I might be able to mitigate that concern by taking on multiple Kens and=
+ saving for the future. If I=E2=80=99m going to exploit myself for capital,=
+ then why wouldn=E2=80=99t I do so in a way that maximizes my return and is=
+ least in conflict with my values? ...I know I=E2=80=99m fortunate to have =
+the option of choosing a profession based solely on how passionate I am abo=
+ut the work, and it would be foolish to let money or status or external val=
+idation prevent me taking advantage of that. After my brief six-month stint=
+ in finance, I now spend my days as an architecture apprentice at a family-=
+run studio in Genoa, working under two architects I really admire.=C2=A0He =
+probably could have just gone directly into architecture? But he graduated =
+from Harvard =E2=80=9Chaving not yet identified my own calling=E2=80=9D so =
+he went to Goldman instead. And, like so many Goldman analysts, he stayed u=
+p all night building spreadsheets and wishing he was doing something else.I=
+ have to say that this essay made me sort of bullish on Goldman Sachs Group=
+ Inc.? (Disclosure, I also once worked there.) I suspect that the main thin=
+g that Goldman wants out of its college recruiting is to be the destination=
+ of choice for smart talented ambitious confident well-connected interestin=
+g young people who don=E2=80=99t really know what to do with themselves. If=
+ you get enough of those people, you will be able to turn a few of them (al=
+l you need!) into good bankers and traders, and you will turn a lot more of=
+ them into good private-equity and hedge-fund investors or corporate execut=
+ives who will think fondly of Goldman and be lucrative clients, all of whic=
+h is good. But also some of them will end up leaving the industry entirely =
+and becoming=C2=A0interesting and sort of decorative; some pop star or foot=
+ball player or distinguished architect or renowned=C2=A0sugar baby or maste=
+r criminal or newsletter writer will pop up in the news and you=E2=80=99ll =
+be able to say =E2=80=9Coh I knew him when he was at Goldman.=E2=80=9D That=
+ might be good for business, it=E2=80=99s certainly good for recruiting (=
+=E2=80=9Ctwo years at Goldman will actually=C2=A0help=C2=A0you become a pop=
+ star,=E2=80=9D you tell some kid who=E2=80=99s on the fence), but mostly i=
+t is good for your self-esteem. =E2=80=9CI don't just work at a job that pa=
+ys well,=E2=80=9D you can tell yourself; =E2=80=9CI work at a great general=
+-purpose incubator of talent.=E2=80=9D The interestingness of the alumni po=
+ol rubs off on the people who stay.I have in the past  suggested that Goldm=
+an might be losing that status as a generic elite finishing school, that po=
+st-crisis regulations and the fall in prestige=C2=A0of banking and the rise=
+ of big tech firms has cut into Goldman=E2=80=99s allure. But here=E2=80=99=
+s this guy!=C2=A0The system still works!
+ =20
+   =20
+      Leon Cooperman is not impressed by your Bentley
+   =20
+ =20
+Here is a Washington Post profile of Leon Cooperman puttering around Boca R=
+aton=C2=A0being sad that people don't appreciate billionaires; it contains =
+this little=C2=A0scene:Cooperman walked past an old designer home that was =
+being torn down and rebuilt into a new designer home. He continued up the r=
+oad toward the clay tennis courts, the spa and the terraced clubhouse. A re=
+sident drove by in a new Bentley, and Cooperman waved and then watched the =
+$200,000 car drive on. =E2=80=9CYou get a lot of people who show off their =
+wealth,=E2=80=9D he said, =E2=80=9Cbut I could buy and sell that guy 100 ti=
+mes.=E2=80=9DIf I were a frugal billionaire and a reporter was coming to to=
+wn to profile me, I might buy a Bentley, give it to a friend, and pay him t=
+o drive by and wave just so I could say that line in=C2=A0the profile. That=
+=E2=80=99s just money well spent.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+The curious case of rising stocks in the night-time.=C2=A0 UBS Gets a Dose =
+of Digital Disruption in CEO=E2=80=99s First Major Move. Bill Ackman Scored=
+ on Pandemic Shutdown and Bounceback. Goldman Sachs awards its C.E.O. a rai=
+se to $35 million after a record year. Evergrande Faces Forced Sale of Hong=
+ Kong Land It Pledged for Loan. Elliott and Vista Near Deal to Buy Citrix S=
+ystems. Binance Builds Up $1 Billion  Insurance Fund Amid Crypto Hacks. A R=
+ising  Crypto Star Has the SEC and Volatile Markets in Her Way. Cathie Wood=
+=E2=80=99s ARK Faces Loyalty Test After Tech-Stock Rout. El Salvador=E2=80=
+=99s Chivo wallet keeps breaking, and users are seeking answers. Orcas Are =
+Able to Kill and Eat Blue Whales, Scientists Confirm.If you'd like to get=
+=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, pleas=
+e=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and othe=
+r great Bloomberg newsletters here. Thanks![1] A minor part of the post-sca=
+ndal Libor cleanup is that Libor is now run by=C2=A0ICE Benchmark Administr=
+ation Ltd.[2] Actually there are other poll-based indexes, though usually w=
+ith less riding on them than Libor. One that we have discussed a lot is the=
+ Georgia Dock index of poultry prices, or =E2=80=9CChicken Libor,=E2=80=9D =
+which  had its own manipulation scandal.[3] It is less relevant to our purp=
+oses here, but another important=C2=A0part of the Libor scandal is that, du=
+ring the 2008 financial crisis, banks lied about their borrowing costs not =
+(just) to manipulate derivatives but rather to avoid spooking the market. L=
+ibor panel submissions were public, and if three-month dollar Libor was 3.0=
+0% one day, and the next day the BBA called one big bank and said =E2=80=9C=
+what would you pay to borrow dollars for three months,=E2=80=9D and the ban=
+k said =E2=80=9Cuh, 7%,=E2=80=9D then everyone would know that that bank wa=
+s in distress and having trouble funding itself, and that would lead to a r=
+un on the bank. So at the worst points of the crisis banks understated thei=
+r borrowing rates, leading Libor to be systematically depressed for a while=
+. This was less of a focus of enforcement actions than the derivatives-mani=
+pulation stuff, because (1) it is less obviously evil and greedy and (2) ce=
+ntral bankers and regulators seem to have =E2=80=A6=C2=A0known about and en=
+couraged it? =E2=80=9CNot sparking panic in the bank funding markets=E2=80=
+=9D is an important goal of banks, but also of bank regulators, and lying a=
+ bit about Libor was for a while an acceptable cost for both of them.[4] Mo=
+st notably Tom Hayes, who traded interest rate derivatives for UBS Group AG=
+ and Citigroup Inc., manipulated Libor,=C2=A0was prosecuted in the U.K. and=
+ spent about  six years in prison.[5] The case here involved convictions fo=
+r wire fraud under 18 U.S.C. 1343, which involves =E2=80=9Cany scheme or ar=
+tifice to defraud, or for obtaining money or property by means of false or =
+fraudulent pretenses, representations, or promises.=E2=80=9D It is not tota=
+lly clear that those words require actual lying, which the court discusses =
+on pages 30 to 32 of last week=E2=80=99s opinion.[6] The BBA question is qu=
+oted on page 9 of last week=E2=80=99s Second Circuit opinion.[7]=C2=A0In fa=
+ct the Libor instructions didn=E2=80=99t even tell banks not to consider th=
+eir derivatives positions: =E2=80=9CAlthough the government states that the=
+ BBA's =E2=80=98instructions did not allow a panel bank, when submitting it=
+s honest estimate of its borrowing costs, to consider the submission's effe=
+ct on the profitability of interest rate swaps or other derivatives positio=
+ns held by the bank's traders,=E2=80=99 in fact the BBA LIBOR Instruction c=
+ontained no such prohibition.=C2=A0In contrast, the BBA did evince a concer=
+n about collusion between panel banks. The BBA LIBOR Instruction expressly =
+stated that =E2=80=98Contributor Banks shall input their rate without refer=
+ence to rates contributed by other Contributor=C2=A0Banks.=E2=80=99=C2=A0Bu=
+t there was no similar prohibition against banks' making their LIBOR submis=
+sions with consideration of the=C2=A0bank's own interest-rate-sensitive der=
+ivatives.=E2=80=9D I think you could make an argument that, look, some bank=
+s will pay Libor in their derivatives, and others will receive Libor, and t=
+hey will all have incentives to tweak the rates, and those incentives will =
+roughly balance out and the resulting Libor =E2=80=94=C2=A0influenced by de=
+rivatives positions =E2=80=94=C2=A0will reflect something real and market-d=
+riven, though that real market-driven thing might not literally be banks=E2=
+=80=99 unsecured funding costs.=C2=A0[8] Black and Connolly were actually s=
+entenced to probation, fines and home confinement, and the government appea=
+led their sentences to try to send them to prison.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cft0pr.5isa/e8aaba0a.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_124974828_1445364987.1643654335937
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+LieborThe way that global financial markets worked for decades is that tril=
+lions of dollars of floating-rate loans and interest-rate derivat
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjU0ODE5MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MDU4MTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB487f0c06" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26548191&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26805817&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTMxMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMzEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBb36eb597"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjU0ODE5MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MDU4MTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC7ddfebac" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26548191&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26805817&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Liebor</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The way that global financial markets =
+worked for decades is that trillions of dollars of floating-rate loans and =
+interest-rate derivatives were indexed to Libor, the London interbank offer=
+ed rate. And the way Libor worked was that someone =E2=80=94=C2=A0at the ti=
+me relevant to our story=C2=A0it was the British Bankers=E2=80=99 Associati=
+on[1] =E2=80=94=C2=A0would call up a group of big international banks and a=
+sk them =E2=80=9Chow much would you have to pay right now to borrow dollars=
+ for one month,=E2=80=9D and they=E2=80=99d answer, and the BBA would take =
+some trimmed average of their answers, and that was one-month dollar Libor.=
+ And there were other Libors for other currencies and tenors, computed in t=
+he same way.</p><p style=3D"margin: 16px 0;">Most important financial bench=
+marks do not work this way. The S&amp;P 500 index is not calculated by call=
+ing some banks and saying =E2=80=9Chey how=C2=A0much would you pay for thes=
+e 500 stocks=E2=80=9D and averaging their answers. The S&amp;P 500 index is=
+ calculated based on the last trade of each stock on a public stock exchang=
+e. Most indexes are based on actual trades.[2] But Libor was invented becau=
+se it was <a href=3D"https://link.mail.bloombergbusiness.com/click/26548191=
+.257626/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDQ=
+tMTEvYmFua3Mtd2lsbC1taXNzLWxpYm9yLXdoZW4taXQtcy1nb25lP2NtcGlkPUJCRDAxMzEyMl=
+9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90Z=
+XJtPTIyMDEzMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBcb33=
+a5e1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> very useful</a>, for the floating-rate loan business, to hav=
+e an index of=C2=A0<em>banks=E2=80=99 unsecured borrowing costs</em>, and u=
+nsecured short-term bank debt did not really trade on a transparent public =
+exchange. It traded=C2=A0in an informal, telephone-based interbank market, =
+and the easiest way to find out what trades banks were doing was to call th=
+em.</p><p style=3D"margin: 16px 0;">Also, though, they didn=E2=80=99t do tr=
+ades in every Libor tenor and currency every day. If you wanted to know how=
+ much a bank would pay to borrow Danish kroner for two months =E2=80=94=C2=
+=A0which was <a href=3D"https://link.mail.bloombergbusiness.com/click/26548=
+191.257626/aHR0cHM6Ly9mcmVkLnN0bG91aXNmZWQub3JnL3Nlcmllcy9ES0syTVREMTU2Tg/6=
+07f07ceef4b8524a319a23cB72473f8d" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">a real Libor rate</a> =E2=80=94 y=
+ou could not compute that every day based on how much each Libor bank actua=
+lly paid to borrow kroner for two months that day. Big international banks =
+did not borrow kroner for two months every day.=C2=A0Certainly not every da=
+y at exactly the time the BBA called them to ask. But a bank which had borr=
+owed kroner for one month an hour ago, and borrowed dollars for three month=
+s five minutes ago, and had a general sense of the curve of its various sho=
+rt-term borrowing costs, could probably give you a good guess at how much i=
+t would have to pay to borrow kroner for two months right now. So you could=
+ just call it and ask it for that guess. Libor was =E2=80=9Cthe rate at whi=
+ch banks don't lend to each other,=E2=80=9D <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cudGVsZWdyYXBoLmNvL=
+nVrL2ZpbmFuY2UvZWNvbm9taWNzLzI3OTU5NjIvRm9ybWVyLU1QQy1tYW4tY2FsbHMtZm9yLUxp=
+Ym9yLXRvLWJlLXJlcGxhY2VkLmh0bWw/607f07ceef4b8524a319a23cBbf4d16f0" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+people said</a>.</p><p style=3D"margin: 16px 0;">The problem is that Libor =
+also became the rate underpinning trillions of dollars of derivatives contr=
+acts, and the banks traded those derivatives and built up large positions. =
+And some days it would be good for the derivatives traders to have a low Li=
+bor =E2=80=94=C2=A0they had to pay Libor on a bunch of contracts resetting =
+that day, so a low Libor would let them pay less =E2=80=94=C2=A0and other d=
+ays it would be good for the derivatives traders to have a high Libor. And =
+the derivatives traders realized that, if it was worth $1,000,000 to their =
+bank to have Libor be one basis point lower, then it was worth $200,000 to =
+their bonus to have Libor be one basis point lower, which meant that it was=
+ worth calling up their bank=E2=80=99s Libor submitter =E2=80=94=C2=A0the p=
+erson who answered the phone when the BBA called =E2=80=94=C2=A0and saying =
+=E2=80=9Chey mate I=E2=80=99ll buy you a case of Champagne if you submit a =
+lower Libor.=E2=80=9D And then the BBA would call the submitter and say =E2=
+=80=9Cwhere can you borrow yen for three months,=E2=80=9D and the submitter=
+ would say =E2=80=9Coh 0.525=E2=80=9D when in his heart of hearts he knew=
+=C2=A0that the real answer was 0.545, and the BBA would average that in, an=
+d 3-month yen Libor would be a smidge=C2=A0lower than it would otherwise ha=
+ve been, and the bank would make money on the derivatives, and the derivati=
+ves traders would get their bonuses and the submitter would get <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d=
+3cucmV1dGVycy5jb20vYXJ0aWNsZS91cy1iYXJjbGF5cy1saWJvci1lbWFpbHMvZG9uZS1mb3It=
+eW91LWJpZy1ib3ktaG93LWVtYWlscy1uYWlsZWQtYmFyY2xheXMtaWRVU0JSRTg1UTFKWTIwMTI=
+wNjI3/607f07ceef4b8524a319a23cB52f2e8b9" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">his Champagne</a>.</p><p=
+ style=3D"margin: 16px 0;">This went on for a while and eventually regulato=
+rs and prosecutors noticed it and it became a huge huge huge scandal[3] and=
+:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16p=
+x 0;">=09<li style=3D"margin-bottom: 5px;">Banks were fined <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cud=
+GhlZ3VhcmRpYW4uY29tL2J1c2luZXNzLzIwMTUvYXByLzIzL2xpYm9yLXJpZ2dpbmctZmluZXMt=
+YS10aW1lbGluZQ/607f07ceef4b8524a319a23cBad84529a" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> billions</a> and=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/a=
+HR0cHM6Ly93d3cuY2ZyLm9yZy9iYWNrZ3JvdW5kZXIvdW5kZXJzdGFuZGluZy1saWJvci1zY2Fu=
+ZGFsIzp-OnRleHQ9UmVndWxhdG9ycyUyMGluJTIwdGhlJTIwVW5pdGVkJTIwU3RhdGVzLHRyaWx=
+saW9uJTIwd29ydGglMjBvZiUyMGxvYW5zJTIwd29ybGR3aWRlLg/607f07ceef4b8524a319a23=
+cB701c1764" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> billions</a> of dollars for rigging Libor;</li>=09<li =
+style=3D"margin-bottom: 5px;">Bank regulators decided=C2=A0to <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3c=
+ubnl0aW1lcy5jb20vMjAyMi8wMS8xMi9idXNpbmVzcy9saWJvci1maW5hbmNlLmh0bWw/607f07=
+ceef4b8524a319a23cB1910473a" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> get rid of Libor</a> and replace it w=
+ith other rates that are harder to rig; and</li>=09<li style=3D"margin-bott=
+om: 5px;">Various derivatives traders were arrested and prosecuted for rigg=
+ing Libor.</li></ol><p style=3D"margin: 16px 0;">Point 1 is sort of self-ex=
+planatory. In the post-crisis period, if banks do shady stuff and get caugh=
+t, they pay big fines. Point 2 is quite complicated, because the issues we =
+discussed above =E2=80=94=C2=A0that banks do not actually borrow unsecured =
+in every tenor and currency every day, that the bank funding market is not =
+very transparent, etc. =E2=80=94=C2=A0remain true. The way regulators in th=
+e U.S. have addressed these issues is to replace Libor with a benchmark int=
+erest=C2=A0rate called=C2=A0<a href=3D"https://link.mail.bloombergbusiness.=
+com/click/26548191.257626/aHR0cHM6Ly93d3cubmV3eW9ya2ZlZC5vcmcvbWFya2V0cy9yZ=
+WZlcmVuY2UtcmF0ZXMvc29mcg/607f07ceef4b8524a319a23cBf8c0ed59" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">SOFR</=
+a>, the Secured Overnight Financing Rate,=C2=A0which reflects the cost of b=
+orrowing money for one day secured by Treasury securities. That rate can be=
+ calculated based on actual transactions in a liquid market. I should say, =
+regulators are in the slow process of replacing Libor with SOFR; I am talki=
+ng about Libor in the past tense but that is a bit misleading and it is sti=
+ll in wide use despite being phased out. This is partly for reasons of iner=
+tia, but also because using an overnight secured rate=C2=A0raises its own i=
+ssues for floating-rate lending, etc., which we have <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDItMTMvbGlib3Itcy1yZXBsYWNlbWVudC1=
+zb2ZyLWlzLWEtbGl0dGxlLXRvby1yZWFsP2NtcGlkPUJCRDAxMzEyMl9NT05FWVNUVUZGJnV0bV=
+9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEzMSZ1dG1fY=
+2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB52830579" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">talked=
+</a> <a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.2576=
+26/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDQtMTEv=
+YmFua3Mtd2lsbC1taXNzLWxpYm9yLXdoZW4taXQtcy1nb25lP2NtcGlkPUJCRDAxMzEyMl9NT05=
+FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPT=
+IyMDEzMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cCcb33a5e1"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> about</a> <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/26548191.257626/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMTktMTItMDUvYmFua3MtYXJlLXN0YXJ0aW5nLXRvLW1pc3MtbGlib3I_Y21waWQ9QkJEMDEz=
+MTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXR=
+tX3Rlcm09MjIwMTMxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB=
+a2267cf1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> before</a> but will not talk about again here.</p><p sty=
+le=3D"margin: 16px 0;">Here we will talk about Point 3. Some bank traders w=
+ere prosecuted for rigging Libor.[4] In the U.S., they were prosecuted for =
+=E2=80=9Cwire fraud,=E2=80=9D the crime of lying to people to make money.[5=
+]</p><p style=3D"margin: 16px 0;">There is something a little bit odd about=
+ this, if you think about it too hard. The BBA would call up a bank=E2=80=
+=99s Libor submitter and say =E2=80=9Cwhere could you borrow yen=C2=A0for t=
+hree months=E2=80=9D and the submitter would say =E2=80=9C0.525=E2=80=9D wh=
+en the correct answer was 0.545. But what does it mean to say that the corr=
+ect answer was 0.545? It does=C2=A0<em>not=C2=A0</em>mean that, as the subm=
+itter was saying =E2=80=9C0.525,=E2=80=9D he was simultaneously entering in=
+to a three-month unsecured borrowing agreement to borrow dollars at 0.545%.=
+ It means that the submitter=E2=80=99s unbiased best guess about what the b=
+ank would pay, right that minute, to borrow a reasonable amount of dollars =
+for three months, was 0.545%, but he said 0.525% due to impure motives.</p>=
+<p style=3D"margin: 16px 0;">But of course the submitter=E2=80=99s unbiased=
+ best guess was just a guess about a hypothetical question, and for most Li=
+bor tenors and currencies on most days that guess would not line up precise=
+ly with a contemporaneous actual transaction. And so you could not prove th=
+at that best guess =E2=80=94=C2=A00.545% here =E2=80=94=C2=A0was =E2=80=9Cc=
+orrect,=E2=80=9D that it reflected the true answer to the BBA=E2=80=99s que=
+stion, which was to submit =E2=80=9Cthe rate at which [the bank]=C2=A0could=
+ borrow funds, were it to do so by asking for=C2=A0and then accepting inter=
+-bank offers in reasonable market size just prior to [11 a.m. London time].=
+=E2=80=9D[6]</p><p style=3D"margin: 16px 0;">Which means that you=C2=A0<em>=
+also </em>could not prove that the biased, dishonest, Champagne-induced gue=
+ss =E2=80=94=C2=A00.525% here =E2=80=94=C2=A0was=C2=A0<em>false</em>. Could=
+ the bank have borrowed yen for three months at 0.525% around the time that=
+ the BBA called? I don=E2=80=99t know! Perhaps you could go back and find p=
+roof that, right around that time, the bank was looking to borrow yen for t=
+hree months, and it got a range of offers, and they were all in a range of =
+0.543% to 0.548% and the 0.525% was a lie. But there is no obvious reason t=
+o think that would always be the case; for the most part these were judgmen=
+t calls and you won=E2=80=99t find a smoking gun proving that the 0.525% wa=
+s a lie.</p><p style=3D"margin: 16px 0;">More to the point, no one, uh, loo=
+ked? These cases were brought based mainly on=C2=A0<em>really bad chats</em=
+>. What happened is that prosecutors would investigate a bank=E2=80=99s Lib=
+or dealings and find electronic chats like this:</p><blockquote><p style=3D=
+"margin: 16px 0;"><strong>Derivatives trader:</strong> Hey what Libor are y=
+ou submitting today?</p><p style=3D"margin: 16px 0;"><strong>Submitter:</st=
+rong> I think the right number is 0.525%.</p><p style=3D"margin: 16px 0;"><=
+strong>Derivatives trader:</strong> It would help me out a lot, in terms of=
+ profiting on my derivatives, if you would lie and submit a higher number.<=
+/p><p style=3D"margin: 16px 0;"><strong>Submitter:</strong> What if I lied =
+and submitted 0.545%, which is not what I think is the right number?</p><p =
+style=3D"margin: 16px 0;"><strong>Derivatives trader:</strong> Perfect, I a=
+ppreciate it, in exchange for your dishonest criminal conduct I will happil=
+y pay you a bribe of one case of Champagne.</p><p style=3D"margin: 16px 0;"=
+><strong>Submitter:</strong> Your bribe is acceptable to me, pleasure doing=
+ crime with you.</p><p style=3D"margin: 16px 0;"><strong>Derivatives trader=
+:</strong> Hope we don=E2=80=99t go to jail!</p><p style=3D"margin: 16px 0;=
+"><strong>Submitter:</strong> Lol. We should, though, what with the crimes =
+we=E2=80=99re doing!</p></blockquote><p style=3D"margin: 16px 0;">And then =
+they would charge the trader with wire fraud, and the jury would look at th=
+e chats and be like =E2=80=9Cwell yes this sounds like wire fraud=E2=80=9D =
+and convict them. Seriously the <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/26548191.257626/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZWFjNjM3Y=
+WUtZmVmYi0xMWU0LTg0YjItMDAxNDRmZWFiZGMw/607f07ceef4b8524a319a23cB712d2081" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">chats</a> are <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/26548191.257626/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vYXJ0aWNsZS91cy1iYXJjbGF=
+5cy1saWJvci1lbWFpbHMvZG9uZS1mb3IteW91LWJpZy1ib3ktaG93LWVtYWlscy1uYWlsZWQtYm=
+FyY2xheXMtaWRVU0JSRTg1UTFKWTIwMTIwNjI3/607f07ceef4b8524a319a23cC52f2e8b9" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">bad</a>!</p><p style=3D"margin: 16px 0;">Two former Deutsche Bank AG=
+ traders named=C2=A0Matthew Connolly and Gavin Black were convicted in a Ne=
+w York federal court of wire fraud for manipulating Libor, and they appeale=
+d their convictions,=C2=A0pointing out that=C2=A0<em>there was no proof tha=
+t the numbers they submitted were wrong</em>. And last week the U.S. Court =
+of Appeals for the Second Circuit agreed with them and <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMjcvZXgtZGV1dHNjaGUtYmFuay10cmFkZ=
+XJzLWdldC1saWJvci1yaWdnaW5nLWNvbnZpY3Rpb25zLXRvc3NlZD9jbXBpZD1CQkQwMTMxMjJf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMjAxMzEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBaf91a=
+a8f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> tossed out their convictions</a>. Maybe the numbers were righ=
+t! Who can say? The numbers were necessarily subjective, and anyway the pro=
+secutors forgot to prove they were wrong.</p><p style=3D"margin: 16px 0;">H=
+ere is <a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.25=
+7626/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3=
+JiQUc2Q1FOTmJtTS92MA/607f07ceef4b8524a319a23cB8849029e" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">the Second =
+Circuit=E2=80=99s opinion</a>. Connolly and Black traded interest-rate deri=
+vatives and cash products, and were accused of=C2=A0pressuring Deutsche Ban=
+k=E2=80=99s Libor submitters to submit wrong Libors. Two Deutsche Bank Libo=
+r submitters cooperated with the government and testified against them. The=
+se were James King and Michael Curtler, who worked on a cash money market t=
+rading desk, =E2=80=9Cborrowing money in the interbank=C2=A0market in order=
+ to fund DB's cash needs.=E2=80=9D</p><p style=3D"margin: 16px 0;">The way =
+the cash desk worked is that it would borrow money in the interbank market =
+and then lend it to other Deutsche Bank units to fund their operations;=C2=
+=A0the cash desk would show a real, live, market-based price to those other=
+ units.=C2=A0King and Curtler had little spreadsheets (called =E2=80=9Cpric=
+ers=E2=80=9D)=C2=A0that they used to decide what that price would be, and t=
+hey would use that price =E2=80=94=C2=A0the price that=C2=A0<em>they=C2=A0<=
+/em>charged Deutsche Bank=E2=80=99s other units =E2=80=94=C2=A0as the basis=
+ for their Libor submission. Though sometimes they=E2=80=99d bump it up or =
+down a bit based on their market judgment. From the opinion (citations omit=
+ted):</p><blockquote><p style=3D"margin: 16px 0;">In addition to the above =
+alterations in the pricer, King each day=C2=A0consulted, inter alia, five i=
+nterbank cash brokers before settling on DB's LIBOR=C2=A0submissions.=C2=A0=
+He testified that it was logical to "change the [LIBOR=C2=A0submission] rat=
+es . . . so that they lined up with what the brokers were predicting" becau=
+se "the brokers have access to all the banks, they know where we can borrow=
+ money or they think they know where we can borrow money." But King said th=
+at while sometimes the rates the brokers were suggesting were all similar, =
+"there [we]re periods when the rates are vastly different"; and then "[we] =
+have to come up with something that we feel is a fair reflection of our rat=
+e." Thus, in submitting LIBOR rates, "some days [King] went with the pricer=
+, some days [he] went with the broker, [and] some days [he] went with the m=
+iddle." King testified that he believed that the reference to "reasonable m=
+arket size" in the BBA LIBOR Instruction--a term the BBA did not define--"g=
+ave [him] flexibility as to where [he] could actually submit his LIBOR."=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">So he made up a number bas=
+ed on his feel for the market, his own borrowing activity in the interbank =
+market, his own=C2=A0<em>lending=C2=A0</em>activity in the=C2=A0<em>intra</=
+em>-bank market, and calling some interbank brokers and getting their feel =
+for the market.</p><p style=3D"margin: 16px 0;">And then he=E2=80=99d somet=
+imes change that number to benefit the derivatives traders:</p><blockquote>=
+<p style=3D"margin: 16px 0;">King=C2=A0testified that "Gavin Black occasion=
+ally asked me to manipulate the rates or to put in a submission that was hi=
+gher or lower than I would have done to benefit his trading position," and =
+that "Matthew Connolly on occasion made requests for me to change our LIBOR=
+ rates and to benefit the trader's position." =E2=80=A6</p><p style=3D"marg=
+in: 16px 0;">The government also introduced other emails and electronic mes=
+sages to DB's LIBOR submitters requesting modifications of the LIBOR submis=
+sions in order to benefit DB's existing trading positions. They included on=
+e from Black on May 15, 2008, requesting a low 1-month LIBOR rate because h=
+e was "paying on 18 [billion]"; another from Black on February 21, 2005, re=
+questing a high 6-month LIBOR rate; one from Connolly on November 23, 2005,=
+ requesting that 3-month LIBOR "be as high as possible"; and an August 12, =
+2007 email from Connolly stating, "[i]f possible, we need in NY 1mo libor a=
+s low as possible next few days....tons of pays coming up overall.=E2=80=9D=
+ As a result of this last request, King's DB submission to LIBOR on August =
+13 was the lowest by any panel bank; and the DB submission on August 15 was=
+ four basis points below his estimate of what LIBOR would be.</p></blockquo=
+te><p style=3D"margin: 16px 0;">As Libor-manipulation emails go these are n=
+ot particularly bad =E2=80=94=C2=A0they don=E2=80=99t mention Champagne, or=
+ prison=C2=A0=E2=80=94=C2=A0but they clearly fit the prosecutors=E2=80=99 n=
+arrative of =E2=80=9Cbanks submitted wrong Libors to make money on derivati=
+ves.=E2=80=9D Also it sounds bad. Also the Libor submitters said =E2=80=94=
+=C2=A0on the witness stand, at trial, after signing non-prosecution agreeme=
+nts =E2=80=94=C2=A0that it was bad:</p><blockquote><p style=3D"margin: 16px=
+ 0;">All three cooperators testified that they "knew" the practice of alter=
+ing DB's LIBOR submissions to benefit DB trader positions was "wrong" at th=
+e time they engaged in it. King stated that "[i]t's intuitively wrong becau=
+se we are, you know, as I say, taking advantage of the position. We are ben=
+efiting. There was a counterparty on the other side who doesn't know what w=
+e're doing and is being affected negatively by what we're doing."=C2=A0Pari=
+etti testified that "even if [LIBOR is] imprecise, hard to=C2=A0estimate, o=
+r vague, . . . it's still wrong to base your submission on your bank's posi=
+tion instead of information about the cash market."=C2=A0All three cooperat=
+ors testified that they never contemporaneously told anyone that they thoug=
+ht the=C2=A0practice was wrong.</p></blockquote><p style=3D"margin: 16px 0;=
+">But at trial Connolly and Black said, well, but you haven=E2=80=99t prove=
+n that the=C2=A0<em>actual rates they submitted=C2=A0</em>were wrong. Maybe=
+ Deutsche Bank could have borrowed at those rates! It=E2=80=99s all subject=
+ive guesswork anyway, why not. The trial judge didn't buy it:</p><blockquot=
+e><p style=3D"margin: 16px 0;">The [trial] court stated that =E2=80=9Cthe q=
+uestion for the jury was whether Defendants made LIBOR submissions that ref=
+lected something other than honestly held estimates of the rate Deutsche Ba=
+nk <em>would</em> have accepted in order to borrow funds.=E2=80=9D =E2=80=
+=A6</p><p style=3D"margin: 16px 0;">The court stated that =E2=80=9Cwhether =
+Deutsche Bank <em>could </em>have borrowed funds=C2=A0at a submitted rate i=
+s not dispositive of the falsity of its LIBOR submissions.=E2=80=9D=C2=A0It=
+ ruled that the government was not required to prove "that Deutsche Bank co=
+uld not have borrowed funds at a rate submitted to the BBA" in order "to es=
+tablish the falsity of its LIBOR submissions," and that "[a]s a factual mat=
+ter, even if Deutsche Bank could have borrowed funds at a submitted rate, t=
+hat would not prevent the submission from being false and misleading."=C2=
+=A0The court stated that even "evidence that Deutsche Bank could have borro=
+wed funds at a submitted rate would not have rendered the Defendants'=C2=A0=
+statements truthful."</p></blockquote><p style=3D"margin: 16px 0;">If the B=
+BA had called up Deutsche Bank and said =E2=80=9Chey what is the rate at wh=
+ich you=C2=A0could borrow funds, were you to do so by asking for and then a=
+ccepting inter-bank offers in reasonable market size just prior to 11 a.m. =
+London time,=E2=80=9D and Deutsche Bank=C2=A0had said =E2=80=9C0.525%,=E2=
+=80=9D and=C2=A0<em>it could in fact have borrowed funds at that rate in th=
+e interbank market just prior to 11 a.m. London time</em>, but its submitte=
+r=C2=A0<em>incorrectly thought=C2=A0</em>that it would have had to pay 0.54=
+5%, then its Libor submission would be =E2=80=9Cfalse,=E2=80=9D in the sens=
+e that the submitter was=C2=A0<em>trying to be dishonest</em>, even though =
+he gave a factually true answer. In fact it didn=E2=80=99t even matter whet=
+her the submitter thought the bank could have borrowed at that rate: What m=
+atters is that the submitter=E2=80=99s <em>motive=C2=A0</em>was to make mon=
+ey on derivatives rather than to answer the hypothetical question in the us=
+ual unbiased way. Or so said the trial judge.</p><p style=3D"margin: 16px 0=
+;">The Second Circuit disagreed:</p><blockquote><p style=3D"margin: 16px 0;=
+">The precise hypothetical question to which the LIBOR submitters were resp=
+onding was=C2=A0at what interest rate "could" DB borrow a typical amount of=
+ cash if it were to seek interbank offers and were to accept. If the rate s=
+ubmitted is one that the bank could request, be offered, and accept, the su=
+bmission, irrespective of its motivation, would not be false.</p><p style=
+=3D"margin: 16px 0;">Defendants, of course, had no burden to produce any ev=
+idence. The burden was on the government to provide evidence to show that t=
+he LIBOR=C2=A0submissions made by King or Curtler after receiving requests =
+from Connolly or Black=C2=A0were untrue. =E2=80=A6=C2=A0Yet none of the wit=
+nesses testified that DB could not have=C2=A0borrowed a typical amount of c=
+ash at the rate stated in any of DB's LIBOR=C2=A0submissions.=C2=A0</p></bl=
+ockquote><p style=3D"margin: 16px 0;">And it noted that actually there were=
+ a lot of different rates at which Deutsche Bank could have borrowed:</p><b=
+lockquote><p style=3D"margin: 16px 0;">Most importantly, the one-true-inter=
+est-rate theory was also belied by the evidence that loans may have differe=
+nt rates of interest simply because they involve different amounts of princ=
+ipal. King testified that the cash desk would "borrow money every single da=
+y,=E2=80=9D=C2=A0and that "[t]here were periods where I need to=C2=A0borrow=
+ some $20- to $25 billion a day." He said that "[o]ften it costs you=C2=A0m=
+ore to borrow more cash than less cash," and thus loans in various principa=
+l=C2=A0amounts could be at varying rates of interest.=C2=A0</p><p style=3D"=
+margin: 16px 0;">Similarly, Curtler testified that "there were days where t=
+here would have=C2=A0been a wide range of offered rates." He said that "[i]=
+f two counterparties were willing to lend to you, I believe I would borrow =
+the cheapest=C2=A0money first"; but "[y]ou wouldn't borrow one or the other=
+. You would borrow both . . . ." And the BBA LIBOR Instruction does not say=
+ which of those two prices should be submitted.=C2=A0</p></blockquote><p st=
+yle=3D"margin: 16px 0;">So in theory on any particular day there could have=
+ been a wide range of answers to the question =E2=80=9Cwhat is the rate at =
+which you could borrow funds in reasonable size,=E2=80=9D and if the submit=
+ter pushed his number up or down by a few basis points to favor a derivativ=
+es trader=E2=80=99s positions, he might still end up with a number in that =
+range =E2=80=94=C2=A0a number that was=C2=A0a factually correct answer to t=
+he question.[7]</p><p style=3D"margin: 16px 0;">What a great opinion. Intui=
+tively this makes a lot=C2=A0of sense. Libor asked banks to make up a numbe=
+r. The banks made up numbers. Prosecutors decided in hindsight that some of=
+ these made-up numbers were =E2=80=9Ctrue=E2=80=9D and fulfilled the abstra=
+ct purpose of Libor, while others were =E2=80=9Cfalse=E2=80=9D and constitu=
+ted criminal fraud for which=C2=A0people should go to prison.[8] But all th=
+e numbers were made up! They were all guesses, and the distinction between =
+guesses that were good and guesses that were crimes had nothing to do with =
+their correspondence to objective truth; it was just about which guesses ca=
+me with embarrassing chats and impure motives.</p><p style=3D"margin: 16px =
+0;">In other ways it is a strange result. Libor is=C2=A0<em>impossible to m=
+anipulate</em>, the opinion suggests, or rather impossible to manipulate cr=
+iminally. Because it was made up, you could make up anything with any sort =
+of nefarious purpose and=C2=A0that would be fine. From <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cud3NqLm=
+NvbS9hcnRpY2xlcy9hbGwtdS1zLXRyaWFsLWNvbnZpY3Rpb25zLWluLWNyaXNpcy1lcmEtbGlib=
+3ItcmlnZ2luZy1oYXZlLW5vdy1iZWVuLW92ZXJ0dXJuZWQtMTE2NDMzMTAxNzg_bW9kPWl0cF93=
+c2omcnU9eWFob28/607f07ceef4b8524a319a23cBb9f3e0d2" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">the Wall Street =
+Journal</a>:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CIn some w=
+ays, these reversals underscore what a screwed-up benchmark Libor was to be=
+gin with, when you are not being asked to submit actual offers or bids, but=
+ just hypotheticals,=E2=80=9D said Aitan Goelman, a former director of enfo=
+rcement for the Commodity Futures Trading Commission, a civil regulator tha=
+t fined many banks for Libor violations. =E2=80=9CIt almost begged to be ma=
+nipulated.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">But what i=
+s most interesting to me is not that it might be impossible ever to prove t=
+hat a bank made a false=C2=A0Libor submission on any given day, but that th=
+e prosecutors=C2=A0<em>didn=E2=80=99t try</em>. You can sort of understand =
+where they were coming from. This=C2=A0<em>looked=C2=A0</em>bad. The banks =
+paid billions of dollars in fines for it. If you stand up in front of a jur=
+y of normal people and said =E2=80=9Cthese bank traders made a number highe=
+r so that they could make more money=E2=80=9D the jury will jump up and sho=
+ut =E2=80=9Cguilty=E2=80=9D before you can finish the sentence. There is a =
+popular=C2=A0narrative of corrupt bankers secretly conspiring to make money=
+ by nefarious means, and this story fits that narrative so completely that =
+the prosecutors didn=E2=80=99t even think they had to prove that the banker=
+s were lying!</p><table class=3D"liveintent-sponsored-content" width=3D"aut=
+o" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjU0ODE5MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MDU4MTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD7f874b95" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26548191&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26805817&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjU0ODE5MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MDU4MTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE7f874b95" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26548191&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26805817&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjU0ODE5MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MDU4MTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF0b640a62" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26548191&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26805817&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjU0ODE5MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MDU4MTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG0b640a62" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26548191&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26805817&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The MoviePass economy</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">It=E2=80=99s <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+hcnRpY2xlcy9sb3NzZXMtbW91bnQtZm9yLXN0YXJ0dXBzLXJhY2luZy10by1kZWxpdmVyLWdyb2=
+Nlcmllcy1mYXN0LWFuZC1jaGVhcC0xMTY0MzU0NDAwNA/607f07ceef4b8524a319a23cB0d411=
+4f5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">back</a>!</p><blockquote><p style=3D"margin: 16px 0;">A ventur=
+e capital-backed battle is raging in New York City in the burgeoning field =
+of instant delivery. At least six startups, including Gorillas Technologies=
+ Ltd., Jokr SARL, Getir Perakende Lojistik AS and Buyk Corp., are vying to =
+win the chance to ferry groceries to customers within 10 to 20 minutes of t=
+heir order placement on an app.</p><p style=3D"margin: 16px 0;">Prices are =
+similar to grocery stores, discounts are plentiful, and many services don=
+=E2=80=99t have a fee or minimum order, allowing consumers to request a sin=
+gle pint of Ben &amp; Jerry=E2=80=99s delivered to their doorstep. Food-del=
+ivery app DoorDash Inc., based in San Francisco, also recently entered the =
+fray in New York City.</p><p style=3D"margin: 16px 0;">While these consumer=
+-friendly offerings have brought surging sales, losses are heavy given the =
+high cost of prolific advertising and paying couriers to hand-deliver potat=
+o chips, soap and eggs in a short time frame, industry investors and execut=
+ives said.</p><p style=3D"margin: 16px 0;">Some of the companies are averag=
+ing a loss of over $20 per order when factoring in costs like advertising, =
+those people said. =E2=80=A6</p><p style=3D"margin: 16px 0;">Executives and=
+ backers of the companies say losses today are investments in a promising p=
+rize. Groceries are already an enormous business, and if one or two of the =
+startups grow to dominate the market for quick groceries, the numbers could=
+ eventually turn profitable, they say.</p><p style=3D"margin: 16px 0;">=E2=
+=80=9CIn the early minutes of a plane just taking off, it consumes a lot of=
+ gas,=E2=80=9D said Nazim Salur, founder of Istanbul-based Getir, which rai=
+sed money last summer at a $7.5 billion valuation. Once Getir grows large e=
+nough, the business will become profitable, he said, something he has seen =
+firsthand with early Getir locations in Turkey.</p></blockquote><p style=3D=
+"margin: 16px 0;">Isn=E2=80=99t modern finance amazing? The basic model her=
+e is that you imagine the world five years in the future, and you imagine t=
+hat your company has monopolistic dominance of=C2=A0the grocery business in=
+ that future, and then you think =E2=80=9Cthat seems like it would be profi=
+table,=E2=80=9D and you model a stream of profit that is many billions of d=
+ollars every year for the rest of time starting in five years, and you calc=
+ulate the net present value of that stream of income, and it is=C2=A0very l=
+arge, and so you say =E2=80=9Cwell then it makes sense to spend a lot of mo=
+ney giving everyone free groceries for a few years to get us to that future=
+ of monopolistic dominance,=E2=80=9D and you go to venture capitalists with=
+ that pitch, and they say =E2=80=9Cwell we do have a ton of money and we lo=
+ve monopolies,=E2=80=9D and they give you the money, and you buy everyone g=
+roceries. And then everyone eats the groceries and is like =E2=80=9Cthanks,=
+ venture capitalists!=E2=80=9D And then in a year or two you flip from givi=
+ng them free groceries to charging them for groceries, and either it works =
+or it doesn=E2=80=99t.</p><p style=3D"margin: 16px 0;">We have <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtMTkvd2FzaGluZy13ZWIzP=
+2NtcGlkPUJCRDAxMzEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEzMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cBcc420cc4" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> talked</a> about this <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDUtMTgvc2lsaWNvbi12YWxsZXktcy=
+1zdWJzY3JpcHRpb24tZnJlZS1mb3ItYWxsP2NtcGlkPUJCRDAxMzEyMl9NT05FWVNUVUZGJnV0b=
+V9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEzMSZ1dG1f=
+Y2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB01677600" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">model=
+</a> a bunch <a href=3D"https://link.mail.bloombergbusiness.com/click/26548=
+191.257626/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAt=
+MDEtMzEvZG9uLXQtYmxpdHpzY2FsZS1hZ2FpbnN0LXlvdXJzZWxmP2NtcGlkPUJCRDAxMzEyMl9=
+NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZX=
+JtPTIyMDEzMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB221b1=
+65a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> before</a>; people make fun of it=C2=A0but it remains popular=
+ and it=E2=80=99s not at all clear that it's wrong. For the venture capital=
+ists the good outcome here is that you succeed in building a monopoly, jack=
+ up prices, squeeze your delivery workers=E2=80=99 pay=C2=A0and make a lot =
+of money. From a societal perspective it is possible that the good outcome =
+is =E2=80=A6=C2=A0you know =E2=80=A6=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjAtMDEtMzEvZG9uLXQtYmxpdHpzY2FsZS1hZ2FpbnN0LXlvdX=
+JzZWxmP2NtcGlkPUJCRDAxMzEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nvd=
+XJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEzMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/6=
+07f07ceef4b8524a319a23cC221b165a" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">Saudi sovereign wealth funds</a> =
+just give=C2=A0everyone in New York free groceries for a while? There is an=
+ argument that this business model is a symptom of investors having too muc=
+h money, and buying groceries for people seems like as good a use of=C2=A0t=
+hat money as anything else.</p><table class=3D"liveintent-flex-ad" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjU0ODE5MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MDU4MTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH895c518d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26548191&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26805817&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Goldman vs. sugar babying</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Investment banking is a bit of an unus=
+ual job in that it recruits a lot of smart ambitious impressive people who =
+have great career options and <em>really don't like investment banking</em>=
+. There is just widespread acceptance that people who did well at certain u=
+niversities but don't really know what to do with themselves will spend som=
+e time as investment-banking analysts, and some of them will love it and ma=
+ke a career of investment banking, and others will use the training and con=
+nections from their analyst program to pursue a career in the broader finan=
+cial or corporate worlds, and some of them will hate it and write essays ab=
+out how they should have been sex workers instead. Here is <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cudG=
+hlcm9vdC5jb20vbXktdHdvLWpvYi1vZmZlcnMtZ29sZG1hbi1zYWNocy12cy1ncmluZHItMTg0O=
+DQxNjUyOQ/607f07ceef4b8524a319a23cB0c0b3212" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Wade Osei Pryor in the=
+ Root</a>:</p><blockquote><p style=3D"margin: 16px 0;">I quickly realized I=
+ had no interest in watching stock markets or obsessing over company perfor=
+mance metrics, but I=E2=80=99d never heard of anyone walking away from Gold=
+man. Two summer internships, one college graduation, and six months of full=
+-time work later, and I=E2=80=99ve still never chosen to start my day with =
+the=C2=A0<em>Wall Street Journal</em>. Above all, I struggle with my own co=
+mplicity in perpetuating the inequalities of global capitalism. The simples=
+t and most compelling reason I have for not wanting to work at Goldman Sach=
+s, however, is that I feel no sense of passion for finance, which is why, a=
+s I write this, I considered a markedly different kind of employment offer.=
+ It came in the form of a message from a 50-something on Grindr whom I=E2=
+=80=99ve never met: =E2=80=9CHi Wade. Ken here =E2=80=94 great pic. I=E2=80=
+=99m looking for a boyfriend to spoil with a weekly allowance=E2=80=A6Let m=
+e know if you=E2=80=99re interested xx.=E2=80=9D</p><p style=3D"margin: 16p=
+x 0;">Ken was but the latest in a seemingly endless string of older men to =
+contact me in hopes of exchanging money for romantic attention. While I=E2=
+=80=99ve never engaged in sex work, I don=E2=80=99t imagine it being too hu=
+ge a departure from working in finance =E2=80=94 both would demand the shel=
+ving of my genuine passions in order to exchange large amounts of emotional=
+, mental, and physical labor for capital. ...</p><p style=3D"margin: 16px 0=
+;">I began to wonder why wouldn=E2=80=99t I consider Ken=E2=80=99s offer? F=
+rom a purely economic point of view, turning him down would be illogical: G=
+oldman demands far more of my time and energy than I imagine Ken would (for=
+ context, I worked over 110 hours the week he messaged me), yet in return t=
+hey offer only fractions of his proposed weekly allowance. Goldman may prov=
+ide opportunities for career advancement that being a sugar baby likely wou=
+ldn=E2=80=99t, but I might be able to mitigate that concern by taking on mu=
+ltiple Kens and saving for the future. If I=E2=80=99m going to exploit myse=
+lf for capital, then why wouldn=E2=80=99t I do so in a way that maximizes m=
+y return and is least in conflict with my values? ...</p><p style=3D"margin=
+: 16px 0;">I know I=E2=80=99m fortunate to have the option of choosing a pr=
+ofession based solely on how passionate I am about the work, and it would b=
+e foolish to let money or status or external validation prevent me taking a=
+dvantage of that. After my brief six-month stint in finance, I now spend my=
+ days as an architecture apprentice at a family-run studio in Genoa, workin=
+g under two architects I really admire.=C2=A0</p></blockquote><p style=3D"m=
+argin: 16px 0;">He probably could have just gone directly into architecture=
+? But he graduated from Harvard =E2=80=9Chaving not yet identified my own c=
+alling=E2=80=9D so he went to Goldman instead. And, like so many Goldman an=
+alysts, he stayed up all night building spreadsheets and wishing he was doi=
+ng something else.</p><p style=3D"margin: 16px 0;">I have to say that this =
+essay made me sort of bullish on Goldman Sachs Group Inc.? (Disclosure, I a=
+lso once worked there.) I suspect that the main thing that Goldman wants ou=
+t of its college recruiting is to be the destination of choice for smart ta=
+lented ambitious confident well-connected interesting young people who don=
+=E2=80=99t really know what to do with themselves. If you get enough of tho=
+se people, you will be able to turn a few of them (all you need!) into good=
+ bankers and traders, and you will turn a lot more of them into good privat=
+e-equity and hedge-fund investors or corporate executives who will think fo=
+ndly of Goldman and be lucrative clients, all of which is good. But also so=
+me of them will end up leaving the industry entirely and becoming=C2=A0inte=
+resting and sort of decorative; some pop star or football player or disting=
+uished architect or renowned=C2=A0sugar baby or master criminal or newslett=
+er writer will pop up in the news and you=E2=80=99ll be able to say =E2=80=
+=9Coh I knew him when he was at Goldman.=E2=80=9D That might be good for bu=
+siness, it=E2=80=99s certainly good for recruiting (=E2=80=9Ctwo years at G=
+oldman will actually=C2=A0<em>help=C2=A0</em>you become a pop star,=E2=80=
+=9D you tell some kid who=E2=80=99s on the fence), but mostly it is good fo=
+r your self-esteem. =E2=80=9CI don't just work at a job that pays well,=E2=
+=80=9D you can tell yourself; =E2=80=9CI work at a great general-purpose in=
+cubator of talent.=E2=80=9D The interestingness of the alumni pool rubs off=
+ on the people who stay.</p><p style=3D"margin: 16px 0;">I have in the past=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMTIvZ29s=
+ZG1hbi1kb2Vzbi10LXdhbnQtbWVyY2VuYXJpZXM_Y21waWQ9QkJEMDEzMTIyX01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTMxJn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5dc2acad" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ suggested</a> that Goldman might be losing that status as a generic elite =
+finishing school, that post-crisis regulations and the fall in prestige=C2=
+=A0of banking and the rise of big tech firms has cut into Goldman=E2=80=99s=
+ allure. But here=E2=80=99s this guy!=C2=A0The system still works!</p><tabl=
+e class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Leon Cooperman is not impressed by your Bentley</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is a Washington Post <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3=
+cud2FzaGluZ3RvbnBvc3QuY29tL25hdGlvbi8yMDIyLzAxLzMwL21vcmFsLWNhbGN1bGF0aW9uc=
+y1iaWxsaW9uYWlyZS8/607f07ceef4b8524a319a23cB1010646a" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">profile of Le=
+on Cooperman</a> puttering around Boca Raton=C2=A0being sad that people don=
+'t appreciate billionaires; it contains this little=C2=A0scene:</p><blockqu=
+ote><p style=3D"margin: 16px 0;">Cooperman walked past an old designer home=
+ that was being torn down and rebuilt into a new designer home. He continue=
+d up the road toward the clay tennis courts, the spa and the terraced clubh=
+ouse. A resident drove by in a new Bentley, and Cooperman waved and then wa=
+tched the $200,000 car drive on. =E2=80=9CYou get a lot of people who show =
+off their wealth,=E2=80=9D he said, =E2=80=9Cbut I could buy and sell that =
+guy 100 times.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">If I w=
+ere a frugal billionaire and a reporter was coming to town to profile me, I=
+ might buy a Bentley, give it to a friend, and pay him to drive by and wave=
+ just so I could say that line in=C2=A0the profile. That=E2=80=99s just mon=
+ey well spent.</p><table class=3D"header" width=3D"100%" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The curious case of <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cuZnQu=
+Y29tL2NvbnRlbnQvMWNjMTc4MjQtMzA3Ny00ZTM5LTlhOTktY2JjY2M4M2EyMjUx/607f07ceef=
+4b8524a319a23cB07c0cfb8" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">rising stocks in the night-time</a>.=C2=A0=
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMzEvdWJzLWdld=
+HMtYS1kb3NlLW9mLWRpZ2l0YWwtZGlzcnVwdGlvbi1pbi1jZW8tcy1maXJzdC1tYWpvci1tb3Zl=
+P2NtcGlkPUJCRDAxMzEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1=
+uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEzMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07c=
+eef4b8524a319a23cBde9bee91" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> UBS</a> Gets a Dose of Digital Disrupt=
+ion in CEO=E2=80=99s First Major Move. <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy=
+9iaWxsLWFja21hbi1zY29yZWQtb24tcGFuZGVtaWMtc2h1dGRvd24tYW5kLWJvdW5jZWJhY2stM=
+TE2NDM2MzQwMDQ_c3Q9c2RpbzJlYTM3b2p5dm4yJnJlZmxpbms9ZGVza3RvcHdlYnNoYXJlX3R3=
+aXR0ZXI/607f07ceef4b8524a319a23cB65c85f6c" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Bill Ackman</a> Scored o=
+n Pandemic Shutdown and Bounceback. Goldman Sachs awards its C.E.O. a raise=
+ to <a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.25762=
+6/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wMS8yOC9idXNpbmVzcy9kYXZpZC1zb2xvb=
+W9uLWdvbGRtYW4tc2FjaHMtcGF5Lmh0bWw_Y2FtcGFpZ25faWQ9NCZlbWM9ZWRpdF9ka18yMDIy=
+MDEzMSZpbnN0YW5jZV9pZD01MTc2NCZubD1kZWFsYm9vayZyZWdpX2lkPTEyNTMyNzc1JnNlZ21=
+lbnRfaWQ9ODEyMTgmdGU9MSZ1c2VyX2lkPTNjNWMyNTc5OTQwYjQyYWNiZDk1ZDliYTIwNjMxZD=
+gz/607f07ceef4b8524a319a23cBcb8efda6" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">$35 million</a> after a recor=
+d year. Evergrande Faces <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26548191.257626/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ldmVyZ3JhbmRl=
+LWZhY2VzLWZvcmNlZC1zYWxlLW9mLWhvbmcta29uZy1sYW5kLWl0LXBsZWRnZWQtZm9yLWxvYW4=
+tMTE2NDM2MTU1Njg_Y2FtcGFpZ25faWQ9NCZlbWM9ZWRpdF9ka18yMDIyMDEzMSZpbnN0YW5jZV=
+9pZD01MTc2NCZubD1kZWFsYm9vayZyZWdpX2lkPTEyNTMyNzc1JnNlZ21lbnRfaWQ9ODEyMTgmd=
+GU9MSZ1c2VyX2lkPTNjNWMyNTc5OTQwYjQyYWNiZDk1ZDliYTIwNjMxZDgz/607f07ceef4b852=
+4a319a23cBe27be542" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Forced Sale</a> of Hong Kong Land It Pledged =
+for Loan. Elliott and Vista Near Deal to Buy <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRp=
+Y2xlcy9lbGxpb3R0LWFuZC12aXN0YS1uZWFyLWRlYWwtdG8tYnV5LWNpdHJpeC1zeXN0ZW1zLTE=
+xNjQzNTY3MDQzP21vZD1ocF9sZWFkX3BvczI/607f07ceef4b8524a319a23cB59ac9ff2" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">Citrix Systems</a>. Binance Builds Up $1 Billion <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMzEvYmluYW5jZS1idWlsZHMtdXAtMS1iaW=
+xsaW9uLWluc3VyYW5jZS1mdW5kLWFtaWQtY3J5cHRvLWhhY2tzP2NtcGlkPUJCRDAxMzEyMl9NT=
+05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJt=
+PTIyMDEzMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB1445800=
+9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Insurance Fund</a> Amid Crypto Hacks. A Rising <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMjkvLTItNWItY3J5cHRvLXN0YXI=
+tam9pbmluZy1jYXRoaWUtd29vZC10by1zdGFydC11cy1iaXRjb2luLWV0Zi1mYWNlcy1zZWMtaH=
+VyZGxlP2NtcGlkPUJCRDAxMzEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nvd=
+XJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEzMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/6=
+07f07ceef4b8524a319a23cB0182e0fd" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Crypto Star</a> Has the SEC and =
+Volatile Markets in Her Way. Cathie Wood=E2=80=99s <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cud3NqLmNvbS=
+9hcnRpY2xlcy9jYXRoaWUtd29vZHMtYXJrLWZhY2VzLWxveWFsdHktdGVzdC1hZnRlci10ZWNoL=
+XN0b2NrLXJvdXQtMTE2NDM1Mzg2MDI_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524=
+a319a23cB1a962a2e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">ARK</a> Faces Loyalty Test After Tech-Stock Rout=
+. El Salvador=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/26548191.257626/aHR0cHM6Ly93d3cudGhlYmxvY2tjcnlwdG8uY29tL3Bvc3QvMTMxN=
+DUyL2VsLXNhbHZhZG9ycy1jaGl2by13YWxsZXQta2VlcHMtYnJlYWtpbmctYW5kLXVzZXJzLWFy=
+ZS1zZWVraW5nLWFuc3dlcnM/607f07ceef4b8524a319a23cB067f60ed" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">Chivo wa=
+llet</a> keeps breaking, and users are seeking answers. Orcas Are Able to K=
+ill and Eat <a href=3D"https://link.mail.bloombergbusiness.com/click/265481=
+91.257626/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wMS8yOS9zY2llbmNlL29yY2FzL=
+WJsdWUtd2hhbGVzLmh0bWw_c21pZD10dy1zaGFyZQ/607f07ceef4b8524a319a23cB7cb2cfe5=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">Blue Whales</a>, Scientists Confirm.</p><p style=3D"margin: 16px =
+0;"><span class=3D"news-designed-for-consumer-media"><em>If you'd like to g=
+et=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, ple=
+ase=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.=
+257626/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9u=
+ZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f=
+07ceef4b8524a319a23cBf2df9ccb" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">subscrib=
+e at this link</a>. Or you can subscribe to Money Stuff and other great Blo=
+omberg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/26548191.257626/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f0=
+7ceef4b8524a319a23cBcc98babb" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16=
+px 0;"><em>[1] A minor part of the post-scandal Libor cleanup is that <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM=
+6Ly93d3cudGhlaWNlLmNvbS9pYmEvbGlib3I/607f07ceef4b8524a319a23cB2db48026" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">Libor is now run by</a>=C2=A0ICE Benchmark Administration Ltd.</em></p=
+><p style=3D"margin: 16px 0;"><em>[2] Actually there are other poll-based i=
+ndexes, though usually with less riding on them than Libor. One that we hav=
+e discussed a lot is the Georgia Dock index of poultry prices, or =E2=80=9C=
+Chicken Libor,=E2=80=9D which <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26548191.257626/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMTgtMDItMDEvd2FzLWNoaWNrZW4tbGlib3ItbWFuaXB1bGF0ZWQtdG9vP2NtcG=
+lkPUJCRDAxMzEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzb=
+GV0dGVyJnV0bV90ZXJtPTIyMDEzMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8=
+524a319a23cB4ebc7d53" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> had its own manipulation scandal</a>.</em></=
+p><p style=3D"margin: 16px 0;"><em>[3] It is less relevant to our purposes =
+here, but another important=C2=A0part of the Libor scandal is that, during =
+the 2008 financial crisis, banks lied about their borrowing costs not (just=
+) to manipulate derivatives but rather to avoid spooking the market. Libor =
+panel submissions were public, and if three-month dollar Libor was 3.00% on=
+e day, and the next day the BBA called one big bank and said =E2=80=9Cwhat =
+would you pay to borrow dollars for three months,=E2=80=9D and the bank sai=
+d =E2=80=9Cuh, 7%,=E2=80=9D then everyone would know that that bank was in =
+distress and having trouble funding itself, and that would lead to a run on=
+ the bank. So at the worst points of the crisis banks understated their bor=
+rowing rates, leading Libor to be systematically depressed for a while. Thi=
+s was less of a focus of enforcement actions than the derivatives-manipulat=
+ion stuff, because (1) it is less obviously evil and greedy and (2) central=
+ bankers and regulators seem to have =E2=80=A6=C2=A0<a href=3D"https://link=
+.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6Ly93d3cubWFya2V0d=
+2F0Y2guY29tL3N0b3J5L2Jhbmstb2YtZW5nbGFuZC1wcmVzc3VyZWQtYmFua3MtdG8tcmlnLWxp=
+Ym9yLXNlY3JldC1iYmMtdGFwZS1yZXZlYWxzLTIwMTctMDQtMTA/607f07ceef4b8524a319a23=
+cBfb3597e6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">known about and encouraged it</a>? =E2=80=9CNot sparkin=
+g panic in the bank funding markets=E2=80=9D is an important goal of banks,=
+ but also of bank regulators, and lying a bit about Libor was for a while a=
+n acceptable cost for both of them.</em></p><p style=3D"margin: 16px 0;"><e=
+m>[4] Most notably Tom Hayes, who traded interest rate derivatives for UBS =
+Group AG and Citigroup Inc., manipulated Libor,=C2=A0was prosecuted in the =
+U.K. and spent about <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/26548191.257626/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIw=
+MjEtMDEtMjkvbGlib3ItdHJhZGVyLXRvbS1oYXllcy1zZXQtZm9yLXJlbGVhc2UtYWZ0ZXItbmV=
+hcmx5LXNpeC15ZWFycz9jbXBpZD1CQkQwMTMxMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYW=
+lsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMzEmdXRtX2NhbXBhaWduPW1vb=
+mV5c3R1ZmY/607f07ceef4b8524a319a23cBcf717404" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> six years in prison<=
+/a>.</em></p><p style=3D"margin: 16px 0;"><em>[5] The case here involved co=
+nvictions for wire fraud under <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/26548191.257626/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS=
+90ZXh0LzE4LzEzNDM/607f07ceef4b8524a319a23cB8abe7dc9" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">18 U.S.C. 1343=
+</a>, which involves =E2=80=9Cany scheme or artifice to defraud, or for obt=
+aining money or property by means of false or fraudulent pretenses, represe=
+ntations, or promises.=E2=80=9D It is not totally clear that those words re=
+quire actual lying, which the court discusses on pages 30 to 32 of <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aHR0cHM6L=
+y9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JiQUc2Q1FOTmJt=
+TS92MA/607f07ceef4b8524a319a23cC8849029e" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">last week=E2=80=99s opin=
+ion</a>.</em></p><p style=3D"margin: 16px 0;"><em>[6] The BBA question is q=
+uoted on page 9 of last week=E2=80=99s <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/26548191.257626/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bW=
+VudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JiQUc2Q1FOTmJtTS92MA/607f07ceef4b8524a319a2=
+3cD8849029e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">Second Circuit opinion</a>.</em></p><p style=3D"margin=
+: 16px 0;"><em>[7]=C2=A0In fact the Libor instructions didn=E2=80=99t even =
+tell banks not to consider their derivatives positions: =E2=80=9CAlthough t=
+he government states that the BBA's =E2=80=98instructions did not allow a p=
+anel bank, when submitting its honest estimate of its borrowing costs, to c=
+onsider the submission's effect on the profitability of interest rate swaps=
+ or other derivatives positions held by the bank's traders,=E2=80=99 in fac=
+t the BBA LIBOR Instruction contained no such prohibition.=C2=A0In contrast=
+, the BBA did evince a concern about collusion between panel banks. The BBA=
+ LIBOR Instruction expressly stated that =E2=80=98Contributor Banks shall i=
+nput their rate without reference to rates contributed by other Contributor=
+=C2=A0Banks.=E2=80=99=C2=A0But there was no similar prohibition against ban=
+ks' making their LIBOR submissions with consideration of the=C2=A0bank's ow=
+n interest-rate-sensitive derivatives.=E2=80=9D I think you could make an a=
+rgument that, look, some banks will pay Libor in their derivatives, and oth=
+ers will receive Libor, and they will all have incentives to tweak the rate=
+s, and those incentives will roughly balance out and the resulting Libor =
+=E2=80=94=C2=A0influenced by derivatives positions =E2=80=94=C2=A0will refl=
+ect something real and market-driven, though that real market-driven thing =
+might not literally be banks=E2=80=99 unsecured funding costs.=C2=A0</em></=
+p><p style=3D"margin: 16px 0;"><em>[8] Black and Connolly were actually sen=
+tenced to probation, fines and home confinement, and the government appeale=
+d their sentences to try to send them to prison.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB663f09b6" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB5a84c995" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBe45e1af4" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB07e60628" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjU0ODE5MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY4MDU4MTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIc5a848b2" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26548191&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26805817&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2654819=
+1.257626/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB58426e92" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26548191.257626/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC61ee50ef" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26548191.257626/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB03a01377" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26548191.257626/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBc4c07528" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB8=
+3225aa1" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26548191.257626/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB3=
+25eae76" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D265481=
+91&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26805817&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D265481=
+91&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26805817&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D265481=
+91&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26805817&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D265481=
+91&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26805817&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D265481=
+91&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26805817&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cft0pr.5isa/e8aaba0a.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_124974828_1445364987.1643654335937--
+

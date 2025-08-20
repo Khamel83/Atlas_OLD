@@ -42,6 +42,8 @@ class SearchConfig:
             "source",
             "author",
             "description",
+            "podcast_name",
+            "episode_title",
         ],
         "filterableAttributes": [
             "content_type",
@@ -51,8 +53,19 @@ class SearchConfig:
             "created_at",
             "updated_at",
             "processing_status",
+            "podcast_name",
+            "podcast_slug",
+            "duration",
+            "publish_date",
         ],
-        "sortableAttributes": ["created_at", "updated_at", "title", "relevance_score"],
+        "sortableAttributes": [
+            "created_at",
+            "updated_at",
+            "title",
+            "relevance_score",
+            "publish_date",
+            "duration",
+        ],
         "rankingRules": [
             "words",
             "typo",
@@ -92,6 +105,8 @@ class SearchConfig:
             "python": ["py"],
             "artificial intelligence": ["ai", "machine learning", "ml"],
             "tutorial": ["guide", "howto", "walkthrough"],
+            "podcast": ["episode", "show", "interview"],
+            "transcript": ["transcription", "text", "dialogue"],
             "documentation": ["docs", "reference", "manual"],
         },
         "typoTolerance": {
@@ -315,7 +330,21 @@ class AtlasSearchEngine:
             search_doc["duration"] = metadata.get("duration", "")
             search_doc["channel"] = metadata.get("channel", "")
         elif content_type_str == "podcast":
-            search_doc["podcast_title"] = metadata.get("podcast_title", "")
+            # Handle both legacy and new podcast metadata formats
+            type_specific = metadata.get("type_specific", {})
+            search_doc["podcast_name"] = type_specific.get(
+                "podcast_name", metadata.get("podcast_title", "")
+            )
+            search_doc["podcast_slug"] = type_specific.get("podcast_slug", "")
+            search_doc["episode_title"] = type_specific.get(
+                "episode_title", metadata.get("title", "")
+            )
+            search_doc["duration"] = type_specific.get(
+                "duration", metadata.get("duration", "")
+            )
+            search_doc["publish_date"] = type_specific.get(
+                "publish_date", metadata.get("publish_date", "")
+            )
             search_doc["episode_number"] = metadata.get("episode_number", "")
 
         return search_doc

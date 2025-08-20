@@ -1,0 +1,2100 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:c011:0:b0:191:bcf:3d4e with SMTP id z17csp2025159lko;
+        Wed, 19 Jan 2022 10:15:04 -0800 (PST)
+X-Received: by 2002:a5d:620b:: with SMTP id y11mr1628836wru.445.1642616104730;
+        Wed, 19 Jan 2022 10:15:04 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1642616104; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=o+wB5spt67SB5HDnavvYPsn3LFFR2C3eqWYIDX0s1s6jCrkLcU8xJ4LXtVgt5mU4Ap
+         FppfEkbSnMl9MIH5+MRq/dNE3DHIDDgqcURJaiOd+0qyg8l7NtvUnS/u2rzPfGLWgB8p
+         F1cPL5sXOEUm+5wx/CWPe0tuHlK8AvTGU9apkAoR2ZvdXEAPg6F/Pr7kgI0P2Oy1bQ76
+         pI+tO0meV+cVJnQU+gR7jyxJx8vaTGI092dEzmqrCD3r/Yd0XWubZezYPJLvLmHFU3T2
+         TsHj5pEOcUbiSEdKjyNB1n7NTU9xpC+vKzvt+chJOVn15wQw7lor3RYYOd0nubHH23Qh
+         D1aQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=qTN71yRNI0XkUiFI57+mIM5nR0EdQelVKoHYPGopwX0=;
+        b=Pnaa7ptv5RzvIyotd+bif9bAHRhU0wqyvtmB5beu4cRiBB3gRbnuAE/YAN2PqPaEKA
+         jgfabWKr7KCqV7FTTsYPqjXyafYpojInNDUT6cFkFhQ2W2K72pvc1gnQ5z4mEGSQNoyb
+         FSbQDFt90RhFnJhxpyOamXRzT9/ytLuV13r+0+CUwZyLeIHKCZTdR3vTmuE+6hL6XflL
+         zF0ioIykUAclDs7IGZ0x0w9djNVQIfPkKtFh8y+pwWHAiKG0KeeeT4nSChzq+2GMO5Rc
+         D8zE8kJCQi3qLR2kxcFx/pQdtE/Nc4WRQJKF79PYQS4ZbDdeW54IN5yR2fLV2hOmF9GB
+         yg8g==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=roybprOB;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id z1sor334679wru.3.2022.01.19.10.15.04
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 19 Jan 2022 10:15:04 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=roybprOB;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=qTN71yRNI0XkUiFI57+mIM5nR0EdQelVKoHYPGopwX0=;
+        b=27RMfU9lPdbw1uwFrE9xrcFe26U+XpzFerV3AxQ/FIKWifS7bvuYhuGIgvsqoUKE7k
+         UVMLBIojE2RqMLCriQ7pQBMWPYV7jWh6mAdlnbBgzJxrVl3CowtttnQJRhILbatPRk70
+         yPnJYnubAbFbRSuFuMD9b++dd29rwvC4dGob7jdIKwFjQXbt2hAOt7sPM2WEiZZLJHGe
+         e20Kn5FAYALXSf4/HO9g+UT2cJZ+ow43jJTP3UNnE7q9FixqyzuqEQ+CiOJ5r1n5Q6fu
+         a+tKhrJZpfijXRYU6DB7K9QnjoLSJD3dkC/G5c5dkC66SbN2d+OgSu4xpDPzoryjfeeL
+         ldzw==
+X-Gm-Message-State: AOAM530d4co+YsGGxn9pMrQ+VF/wdlEyBCYkxMjxgMEb+IQH8Jot27VW
+	XarQ2AXXOZ1wt6k0/ceeOBvjljAYriKoiu4aZLDLTbc1uMGJZ2FtvA==
+X-Received: by 2002:a5d:64e8:: with SMTP id g8mr26898468wri.286.1642616104440;
+        Wed, 19 Jan 2022 10:15:04 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:a457:0:0:0:0:0 with SMTP id e23csp2009985wra;
+        Wed, 19 Jan 2022 10:15:01 -0800 (PST)
+X-Received: by 2002:a05:6830:2816:: with SMTP id w22mr20389769otu.74.1642616100628;
+        Wed, 19 Jan 2022 10:15:00 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1642616100; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=XPejf9KM9MMvsPtssUZJQn6m8KmlZ+9B/tYbQGNiUMHmZAIWe/B4ZvSDAOuQD9nKM9
+         YqmDDNcjIVd6eo4q9loKn2gpyB3Lma78GaWDvXB3kSaogNGAMERT8USek+BIMwIMAc8+
+         qV7+ETGQyv+O9ah72tzy4Gzjxl+tnveORLcLDvMwpZbU8HO5bS3YEuUGm6tD+rjcpmw9
+         o+yvGgSN2qKBylyq3AM4+SiJxyG5u60YmegzilU8JG8RB4KQJgz2+W2V7w4ypNaT7fW9
+         0F2TD+AkYgW5/TK9qWJSDETlSnL/SsyhBTxwY3CAAFOF3xfxm1DM04T+e4OCc8If6+MV
+         JJMg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=qTN71yRNI0XkUiFI57+mIM5nR0EdQelVKoHYPGopwX0=;
+        b=vUrfAcgRKliHrA8/ZuK6in+8UmZQa+GatgriW0Z9pYZDwqRrFplZR06KItkcfyHmzR
+         XR4a4WKfHRoYwQSMRHzuGU2pGGtfwrjaFKDFhL1fIo/fN8vghK55KTUHr0zPHKAFaykS
+         wuPTCtsVYFb4h5jUuJrs4mx9dj/vM6SQ9VtUTu7SZe1/+x9Wq172n165WKNmJNicvALH
+         i+C4w3ohHNv0e6LU/vf56iACLLnMQCzDpEGTr9IQYHTp4/zsqmNiFgBk4Nem+8JVtKLg
+         5+iUhTDD2xGeI/ecoSkqwGF8f/7q76Xc7Sa3IN38UivJ55HzoI/qPvZL1kSmTSKRsbmF
+         xtLQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=roybprOB;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220119131356.26417155.266630@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220119131356.26417155.266630@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220119131356.26417155.266630@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x25sor49621otp.76.2022.01.19.10.15.00
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 19 Jan 2022 10:15:00 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20220119131356.26417155.266630@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxqX+1hJ102T4RGbPGnhf56lFMXxh5Fu9d/18JMncQaVfNS6IDMnX9+9kh6XJ5ZIoJyVKQranhvnDSD9RynpPs0AK99Pi8=
+X-Received: by 2002:a9d:61da:: with SMTP id h26mr10765882otk.140.1642616100244;
+        Wed, 19 Jan 2022 10:15:00 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1642616100; cv=none;
+        d=google.com; s=arc-20160816;
+        b=crBgmRzTAW8DcaNHf3wNQeik8pao6c0acgHxsNkPi9LfetW8PjrNpXJRzhW2W4EbiB
+         bPfb1fXOoOLCTBjP9WSe981m5XX34N3Y46G+gcBnHqlS9T+uiTGea1VV7R19+hM6UI1H
+         iCJrcX+Pz92zshzP6gjOxABUN2Iwae9f/JfzTviHXbN/4Jx8j8k62tHV2KQFzeMOeRuu
+         5xdDwKauAx6RJu/BXjRto7PcPkRxV3+ygRXt5Kjhu2yQ9YuH0omV66630Qo15xxvt90b
+         J0GecDQBfV1BoOAeaGr2c3SH/bnkzEidDIduAbLqG7YtE5RN3P/0TwMt8ADA1BtUIxH7
+         0RjA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=qTN71yRNI0XkUiFI57+mIM5nR0EdQelVKoHYPGopwX0=;
+        b=BEdSSsbRlXRGbNYrIzyE/gP2S7TFBLGx0g7RBh4jj641P4Qh1qd3izoQMdlptqPEY7
+         tAZnluhuoEYoisBlRdp3CQhodqwPFzId91DddgiBZ8KcLCA5fVYSNY3woUoJvg9WPz/L
+         cEkCnfPB2K6F4liAo2nDei+k7Pz3ufczcr4aL3PdeG9PRS4bZEbkXcnoIjDn8t/xiOzf
+         GnY2M9nXs20BY4Av8mFmwOzpNbqp/7rMWQPovGTHtKyeemh+79uZUrIeQrS33DC3RpHT
+         165kvstji4SBtNXLj/70wew25Xo+SDYeRTPOYggJ0SZW4xKzX1p7NPg2j89ttKbslifc
+         DXJg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=roybprOB;
+       spf=pass (google.com: domain of delivery_20220119131356.26417155.266630@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220119131356.26417155.266630@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220119131356.26417155.266630@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id p19si42965oto.4.2022.01.19.10.14.48
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 19 Jan 2022 10:15:00 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20220119131356.26417155.266630@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=ZEK/AqHsUvUONg6qDmn7jvM+0uFKJl9k0ov837591c0=;
+ b=roybprOBB7w7fSG0Fbuq19mMyGavUWA/UVjO6rdefEntdmkNwr+NDWS3u4/Y/iDtNT1Kg7VqShLZ
+   4BLu/GuE2yhm2FG5LOpuAfAzEhRltcvSa8JiR3PtAcajp9NeAbgAtGVW5PggXDoh93N9yEVBneWS
+   /heef7l8g3AbH4iVGjs=
+Received: from mtast-04.sailthru.com (204.153.121.10) by bloomberg-b.sailthru.com id ht1ahk2tkt0k for <bloomberg@khamel.com>; Wed, 19 Jan 2022 13:14:38 -0500 (envelope-from <delivery_20220119131356.26417155.266630@mx.sailthru.com>)
+Received: from nj1-oddturquoise.flt (172.18.48.8) by mtast-04.sailthru.com id ht1ags1s6j03 for <bloomberg@khamel.com>; Wed, 19 Jan 2022 13:13:56 -0500 (envelope-from <delivery_20220119131356.26417155.266630@mx.sailthru.com>)
+Date: Wed, 19 Jan 2022 13:13:56 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220119131356.26417155.266630@sailthru.com>
+Subject: Money Stuff: Washing Web3
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_71629654_1150707316.1642616036098"
+Precedence: bulk
+X-Feedback-ID: 6358:26417155:campaign:sailthru
+X-TM-ID: 20220119131356.26417155.266630
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddturquoise.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfq7lv.5pqe/3a75a7f9
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfq7lv.5pqe/3a75a7f9>, <mailto:unsubscribe_20220119131356.26417155.266630@mx.sailthru.com>
+X-rpcampaign: stjko26417155
+
+------=_Part_71629654_1150707316.1642616036098
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Web3 economicsHere=E2=80=99s a trade. You start a business. Let=E2=
+=80=99s say it=E2=80=99s a platform business, where you connect buyers and =
+sellers of something.[1
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Web3 economics
+   =20
+ =20
+Here=E2=80=99s a trade.=09You start a business. Let=E2=80=99s say it=E2=80=
+=99s a platform business, where you connect buyers and sellers of something=
+.[1] You connect people who want to rent out their cars or their houses and=
+ people who want to use them, or you run an exchange to connect buyers and =
+sellers of stock or art or Beanie Babies.=C2=A0=09Your platform charges a f=
+ee. Say you charge 2% of the value of each transaction for yourself.=C2=A0=
+=09You start doing some transactions with yourself. You list your house on =
+the platform and then rent it from yourself, you sell some Beanie Babies to=
+ yourself, whatever. You set up different accounts under different names (o=
+r enlist your friends) to conceal this. You charge yourself a fee; you do $=
+1,000 worth of transactions and pay yourself $20. Your net cost here is pre=
+tty much zero, since you=E2=80=99re just sending money to yourself, though =
+there may be some frictional costs.[2]=09The next month, you do it again, b=
+ut more so. You do $2,000 of transactions with yourself and pay yourself $4=
+0.=09The next month, you go to a venture capitalist. =E2=80=9CLook at this =
+business,=E2=80=9D you say. =E2=80=9CWe are doing gross transactions of $2,=
+000 a month, our revenue is $40 a month, we are already profitable and we=
+=E2=80=99re growing at 100% per month.=E2=80=9D=C2=A0=09The venture capital=
+ist is like =E2=80=9Cooh this business looks amazing, I=C2=A0love a fast-gr=
+owing platform business, I will invest at 20x revenue.=E2=80=9D By =E2=80=
+=9Crevenue=E2=80=9D she means $480 a year (your current annualized run rate=
+) so she values your business at $9,600. She buys 10% of your company for $=
+960.=09You stop trading with yourself, the platform=E2=80=99s revenue goes =
+to zero, the venture capitalist is out $960 and you keep the money. A year =
+later you run this trade again with a different business and a different, o=
+r the same, venture capitalist. =E2=80=9CI have learned so much from my fai=
+led startup,=E2=80=9D you tell VCs.=09Or! Even better! You put out a press =
+release saying =E2=80=9CProminent Venture Capitalist Invests In Awesome Fas=
+t-Growing Platform,=E2=80=9D you get a lot of attention, and people start t=
+rading on your platform for real. You start to get real revenue, you become=
+ a real business, you stop trading with yourself, revenue keeps going up, a=
+nd you and the venture capitalist both become rich.The main point of this t=
+rade is that, in a frothy market for fast-growing companies, you can sell $=
+1 of the right kind of revenue for much more than $1, and so it is worth yo=
+ur while to=C2=A0create=C2=A0some revenue, dress it up to=C2=A0look like th=
+e right kind of revenue and then sell it to someone.But another=C2=A0point =
+of this trade (the one in Step=C2=A08) is that in network-effects businesse=
+s these things can be self-fulfilling, and a fake business can turn into a =
+real one.[3] If someone is looking to rent a house in an app, she=E2=80=99s=
+ going to go to the app she=E2=80=99s heard of; if yours is getting a lot o=
+f press for growing quickly and raising lots of money, she=E2=80=99ll go to=
+ your app.=C2=A0This trade, as I described it, is basically fraud,[4] and s=
+ometimes people do it and  get in trouble for it. But there are subtler and=
+ far more interesting versions of the trade. Here is a very important one; =
+let=E2=80=99s call it the =E2=80=9CWeb2 version=E2=80=9D:=09You start a pla=
+tform business.=09You charge a fee of $2 per transaction.=09You go to ventu=
+re capitalists and raise some money.=09You use the money to pay people, say=
+, $3 per transaction to use your service. You pay them $3 per transaction a=
+nd they pay you back $2 in fees. They keep $1. Free money!=09You get a lot =
+of users, because everyone wants to use a service that pays them to use it.=
+=09Now you have the good things: Lots of (real) users, lots of revenue, fas=
+t growth.=09You do have one bad thing, which is that you lose money on ever=
+y transaction.=09That=E2=80=99s fine! =E2=80=9CCustomer acquisition costs a=
+re high right now,=E2=80=9D you (and your investors!) say, =E2=80=9Cbut the=
+y will come down as the platform matures and achieves scale.=E2=80=9D=09You=
+ go to some more venture capitalists and raise a=C2=A0ton=C2=A0of money on =
+that premise. Or you go public on that premise.=C2=A0=09You stop paying peo=
+ple to use the service.=09Maybe Step 8 was right! Maybe by this time your u=
+sers=C2=A0are so dependent on the service, and the service is so good, and =
+the network effects are so powerful, that they keep using it once you start=
+ charging them to use it instead of paying them to use it. And then your se=
+rvice is a huge success and you=E2=80=99re a billionaire.=09Or maybe it was=
+ wrong, the service dies, the venture capitalists lose their investment and=
+ you get to keep whatever cash you took out and do this again in a year as =
+a battle-hardened=C2=A0repeat founder.The Web2 version of the trade is cent=
+ral to the story of the last decade in the U.S. tech industry. We sometimes=
+ called it the =E2=80=9CMoviePass economy,=E2=80=9D the idea that venture c=
+apitalists would subsidize consumers=E2=80=99 lifestyles because they value=
+d customer growth=C2=A0above everything else (including profitability). Or =
+there=E2=80=99s the term =E2=80=9Cblitzscaling,=E2=80=9D the idea that by t=
+hrowing enormous quantities of money at a company in a network-effects busi=
+ness you can make it the dominant player and then pivot to profitability.=
+=C2=A0There is no single outcome to these stories, no simple lesson to take=
+ from them. Sometimes it=E2=80=99s the outcome in Step 11 above: User acqui=
+sition costs decline with scale and network effects, you jack up the price,=
+ and the unprofitable fast-growing subsidized service becomes profitable. O=
+ther times it=E2=80=99s the outcome in Step 12. MoviePass  went hilariously=
+ bankrupt.=C2=A0One way to characterize the Web2 version is that instead of=
+=C2=A0trading with yourself, you=C2=A0got your investors to trade with you.=
+ You generated volume on your platform=C2=A0from your investors, indirectly=
+, by taking their money (the investment in Step 3) and turning it into reve=
+nue (the customer subsidy in Step 4). A dollar of investment=C2=A0capital c=
+an be turned into revenue, and then sold to new investors at a multiple of =
+that revenue. This is arguably=C2=A0good=C2=A0for your (early) investors. T=
+hey=C2=A0want=C2=A0a higher valuation. They are happy for you to turn their=
+ money into revenue. They hope that you will turn it into long-term stable =
+recurring revenue (Step 11). But if you just turn it into fake revenue, the=
+n maybe they can still sell their shares to the next sucker before it colla=
+pses.We talked last month about the economics of Web3, the popular current =
+term for crypto platform businesses.  I wrote:A basic premise of Web3 is th=
+at every product is simultaneously an investment opportunity. If you sign u=
+p for a Web3 social network or chat room or trading venue or let=E2=80=99s-=
+buy-the-Constitution lark, you will get some of that project=E2=80=99s toke=
+ns, which will entitle you to use the project=E2=80=99s app or exchange or =
+Constitution, and which will give you some notional say in the decentralize=
+d governance of the project. Also the tokens will appreciate in value if th=
+e project takes off and more people want to use it. It=E2=80=99s as if bein=
+g an early user of Facebook or Uber also automatically made you a sharehold=
+er of Facebook or Uber, and when those services got huge you got rich.The m=
+ove is to combine (1) Web3 economics (every product is an investment) with =
+(2) the basic=C2=A0trade I have sketched out here (turn investment capital =
+into revenue). Here is how that move might work:=09You start a platform bus=
+iness on Web3, crypto, blockchains, etc. It has a =E2=80=9Cgovernance token=
+,=E2=80=9D which is a little bit like a share of stock but you get to say i=
+t=E2=80=99s not a security.=09You charge a fee of 2% for people who use the=
+ platform. Holders of the governance token might have some undefined, it=E2=
+=80=99s-definitely-not-a-security future economic right to those fees.=C2=
+=A0=09You give people governance tokens for using your platform. These are =
+rewards to incentivize early adopters, and they decline over time on an exp=
+licit schedule: People who use the platform a lot on the first week get a l=
+ot of governance tokens, people who use it a lot the second week get fewer,=
+ people who use it in the sixth month get even fewer, etc.=09There is an ex=
+change of money for tokens, but indirectly. People use your platform, they =
+pay you (in dollars, Ether, etc.) to use the platform, and you pay them (in=
+ governance tokens) for using the platform. Also, though, they get to do wh=
+atever it is they do on the platform. In theory this could be renting out h=
+ouses or cars or whatever, though in practice most crypto platform business=
+es are about trading crypto. Let=E2=80=99s say your business is an exchange=
+ for trading non-fungible tokens. People trade NFTs on your platform, they =
+pay you a fee for each trade, and (early on) you give them governance token=
+s for each trade.=09So each early user of the platform is also an investor,=
+ and the more they use it the more they are investing.=09They can sell the =
+governance tokens freely because all of this stuff is effectively unregulat=
+ed.=09How much are the governance tokens worth? It is hard to say, but they=
+ are sort of like shares of stock. Their value is some increasing function =
+of the expected future fee revenues of your platform, plus they have some i=
+ntangible meme-y value based on how much hype your platform is getting.=09T=
+he more trading there is on your platform, the more fees you collect and th=
+e more successful your business looks, and the more your governance token i=
+s worth, both because its expected cash flows are higher and because it get=
+s more hype and attention.=09So people rush to your platform to trade as mu=
+ch as possible, which pumps up the value of the governance token, and they =
+cheerfully pay=C2=A0you the 2% fee to get governance tokens that they can s=
+ell at an immediate profit.=09These people do not necessarily want the NFTs=
+ that are being sold on your platform, so=C2=A0they=C2=A0trade with themsel=
+ves. They set up two crypto wallets and sell NFTs from one to the other, cr=
+eating fake volume, =E2=80=9Cwash trades.=E2=80=9D The trades aren=E2=80=99=
+t real, the trades are just (1) an excuse to pay you a 2% fee on a large no=
+tional in exchange for a lot of valuable governance tokens and (2) a way to=
+ make your platform look popular so that the governance tokens become valua=
+ble and they can sell them at a profit.=09And people buy the governance tok=
+ens because (1) your platform is popular, (2) it is growing fast,=C2=A0(3) =
+it is making money, and (4) it is getting a lot of hype =E2=80=94=C2=A0exac=
+tly the reasons a venture capitalist would have invested in your platform i=
+n the Web2 version.=09Eventually you stop handing out so many governance to=
+kens=C2=A0(the rewards decline on a set schedule, see Step 3), and people s=
+top doing huge wash trades with themselves to build hype and collect govern=
+ance tokens.=09Maybe then your thing collapses, the early wash traders made=
+ a fortune, and the people who bought their governance tokens are holding t=
+he bag.=09Or maybe not! Maybe all the fake trading created enough hype for =
+your platform to attract real trading, and your platform becomes good and p=
+eople keep using it even after you stop paying them to use it.The Web3 vers=
+ion effectively combines the user incentives and the venture capitalist inc=
+entives from the Web2 version. Whereas the Web2 version of this trade=C2=A0=
+indirectly=C2=A0takes money from venture capitalists and turns it into reve=
+nue, so that you can sell more shares to venture capitalists at a high mult=
+iple of revenue, the Web3 version=C2=A0directly=C2=A0takes money from user-=
+investors and turns it into revenue, so that you (and they) can sell more g=
+overnance tokens to more user-investors at an even higher Web3-hype-driven =
+multiple of revenue.=C2=A0Web3 has refined and perfected this trade,=C2=A0i=
+n a way that makes it just about plausibly sustainable.=E2=80=9CThis is, es=
+sentially, a pyramid scheme,=E2=80=9D said Dror Poleg in an infamous post a=
+bout Web3 that  I quoted the last time we discussed this.=C2=A0=E2=80=9CA P=
+onzi. But it makes sense. It will be the dominant marketing method of the n=
+ext decade and beyond.=E2=80=9D I don=E2=80=99t like it! But I am=C2=A0not =
+confident that he=E2=80=99s wrong.Anyway here=E2=80=99s a story from last w=
+eek from Andrew Hayward at Decrypt:The NFT market got a jolt this week when=
+ surprise new entrant LooksRare started piling up massive Ethereum trading =
+volume numbers. But as trading rises on the OpenSea rival, it has become cl=
+ear that some traders are manipulating LooksRare=E2=80=99s token-based rewa=
+rds system via a form of wash trading=E2=80=94and the platform doesn=E2=80=
+=99t appear to mind.LooksRare is built around the LOOKS token, which the pl=
+atform is airdropping to 185,000 wallets of eligible OpenSea users to try a=
+nd lure them over to the platform. The platform also pays out its daily ama=
+ssed transaction fees to all users who stake the LOOKS token in the form of=
+ Wrapped Ethereum (WETH).On top of that, LooksRare also has a stash of LOOK=
+S tokens that it will distribute daily to users who trade NFTs in select, v=
+erified collections=E2=80=94including the Bored Ape Yacht Club and Doodles.=
+ At a current price of $4.23 per token, the marketplace is giving away more=
+ than $12.1 million worth of LOOKS tokens each day, although the tally will=
+ shrink over the course of the next year.For now, however, some traders app=
+ear eager to manipulate the rewards model. Over the course of the last day,=
+ LooksRare has seen numerous NFT trades that go back and forth between the =
+same two wallets, including a Meebits NFT that sold for about $50 million w=
+orth of WETH each time. That=E2=80=99s $100 million worth of trading volume=
+ in two transactions.Dozens of other Loot and Meebits NFTs have sold for ab=
+out $3 million worth of WETH apiece in numerous back-and-forth transactions=
+, as seen on the top NFT sales list at CryptoSlam. By contrast, the average=
+ sale price of a Meebits NFT on leading marketplace OpenSea over the last w=
+eek was about 4.1 ETH ($13,800 at today=E2=80=99s value), while Loot NFTs s=
+old for an average of under 2.2 ETH ($7,400) each.It=E2=80=99s a form of wa=
+sh trading=E2=80=94that is, manipulating the market by making it look like =
+there=E2=80=99s more activity than there would be organically. Wash trading=
+ can be used to boost demand for a financial asset or to hide ill-gotten ga=
+ins from illicit activities, for example. Critics often accuse the NFT mark=
+et of harboring widespread wash trading and money laundering.In this case, =
+the wash trading is apparently being done to significantly boost the potent=
+ial share of trading rewards that users receive for buying and selling NFTs=
+ on the site. Traders still have to pay the 2% transaction fee, as well as =
+standard Ethereum gas fees (network transaction costs), but Meebits and Loo=
+t are both collections that do not charge creator royalties on top of those=
+ fees.In other words, traders aiming to manipulate LooksRare=E2=80=99s rewa=
+rds system are betting that the rewards they receive in LOOKS tokens and WE=
+TH will be more valuable than the LooksRare transaction fees and Ethereum g=
+as fees they=E2=80=99re spending in the process.And here is a related=C2=A0=
+Twitter thread.=C2=A0The Web3 version of the trade will probably be=C2=A0ce=
+ntral to the story of the next decade in the=C2=A0tech industry, so that=E2=
+=80=99ll be fun I guess.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Oh by the way
+   =20
+ =20
+One potential frictional cost in the story above is: If you buy a Meebit fo=
+r $13,800, and then you sell it to yourself for $50 million, and then you s=
+ell it back to yourself for $50 million, do you, uh, do you have $49,986,20=
+0 of taxable income? That seems inconvenient! Here=E2=80=99s a  Bloomberg N=
+ews story from last week:Investors and creators of nonfungible tokens -- a =
+market that has ballooned to $44 billion, Chainalysis data show, and attrac=
+ted fans from Justin Bieber to Melania Trump -- face billions of dollars in=
+ taxes and rates as high as 37%, according to tax experts. Internal Revenue=
+ Service officials who deal with tax evaders say they are gearing up for a =
+crackdown.=C2=A0The surprises looming for NFT enthusiasts when tax filing s=
+eason begins this month are crypto=E2=80=99s latest wake-up call from Washi=
+ngton as officials across the U.S. government set their sights on the burge=
+oning industry. The rules about taxing tokens aren=E2=80=99t clear, leaving=
+ NFT collectors scrambling to calculate how much they owe. Investors may no=
+t realize they need to pay any taxes at all or that they should file more t=
+han once a year, increasing the odds they=E2=80=99ll face future penalties.=
+By like 2040 the entire U.S. government will be funded by taxing NFT wash t=
+raders.Incidentally! There are a lot of people in the world and almost all =
+of them would prefer to pay lower taxes rather than higher taxes. But there=
+ is a small category of people who are intensely interested in paying highe=
+r taxes. There are people who will walk into a casino with a sack of cash, =
+buy $1 million of chips at a table, carry them directly to a cashier, cash =
+the chips out for $1 million, declare $1 million of gambling income to the =
+IRS and pay taxes on it.[5]=C2=A0Of course they don=E2=80=99t have $1 milli=
+on of gambling income in this scenario: They walked in with $1 million and =
+walked out with $1 million, their gambling income is zero.=C2=A0Why call it=
+ gambling income? Because once you declare $1 million of gambling income an=
+d pay taxes on it, you can use what=E2=80=99s left over=C2=A0to buy houses =
+and cars and college tuition and stuff. Whereas=C2=A0before=C2=A0they decla=
+red it as gambling income, when it was just cash in a sack, it was =E2=80=
+=A6=C2=A0probably it was the proceeds of selling illegal drugs, though ther=
+e are other ways to end up with $1 million of questionable cash in a sack. =
+If you buy a house with=C2=A0cash in a sack it is going to raise questions.=
+This is called =E2=80=9Cmoney laundering,=E2=80=9D and the essential compon=
+ent of money laundering is=C2=A0generating fake taxable income. If you take=
+ $13,800 out of=C2=A0your (legitimate, previously taxed) bank account, and =
+you use it to buy cryptocurrency in a wallet that you tell your accountant =
+and the IRS about, and you then use that cryptocurrency to buy a Meebit, an=
+d then you take $50 million out of your sack of illegal money, and you use =
+it to buy cryptocurrency in a wallet that you=C2=A0don=E2=80=99t=C2=A0tell =
+your accountant about, and then you use=C2=A0that cryptocurrency to buy the=
+ Meebit from your declared wallet, and then you take the $50 million of=C2=
+=A0cryptocurrency out of the declared wallet and put it back in your (legit=
+imate) bank account, and then you write the IRS a check for $20 million say=
+ing =E2=80=9Cah I=E2=80=99ve been selling NFTs, what fun I have had, but I =
+have to pay the IRS my fair share,=E2=80=9D then =E2=80=A6=C2=A0I am obviou=
+sly not going to give you advice on crime but it=E2=80=99s possible you=E2=
+=80=99ve got something there?=C2=A0Like, nobody has any idea what a Meebit =
+is worth, so this string of outlandish numbers is somewhat plausible? It=E2=
+=80=99s possible that some number of NFT wash trades have a purpose other t=
+han pumping up volume on NFT platforms?=C2=A0
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Reverse pitches
+   =20
+ =20
+I actually don=E2=80=99t understand why any company would want to go public=
+?=C2=A0For Daniel Perez, a co-founder of Hinge Health, a provider of online=
+ physical therapy programs, the unsolicited emails from investors started i=
+n late 2020. They contained pitch decks packed with the elaborate research =
+that the investment firms had done on Hinge, including interviews with doze=
+ns of its customers and data on its competitors.These =E2=80=9Creverse pitc=
+hes,=E2=80=9D which numbered in the 20s, were meant to persuade Mr. Perez t=
+o take money from the investment firms. He also got several term sheets, or=
+ investment contracts, from investors he had never met before.=E2=80=9COfte=
+n when we=E2=80=99re speaking to investors, they=E2=80=99d cut me off and s=
+ay, =E2=80=98Let me show you what I already know about you,=E2=80=99=E2=80=
+=9D Mr. Perez said. The reverse pitch from Tiger Global, the firm that Hing=
+e picked to help lead a $300 million funding round alongside the investment=
+ firm Coatue Management last January, was 90 pages.A few months after Hinge=
+ announced that funding, the reverse pitches started rolling in again. Thre=
+e different investors sent Mr. Perez videos from celebrities they had hired=
+ on Cameo to make their case. One was from Andrei Kirilenko, a former Utah =
+Jazz player whom Mr. Perez was a fan of.BlackRock does not send public comp=
+anies reverse pitches. Vanguard does not hire celebrities to make videos ab=
+out why public companies should accept its money.[6] They just go to the st=
+ock exchange and buy stock if they like the company, or sell it if they don=
+=E2=80=99t. =E2=80=9CAccess to capital is not a right,=E2=80=9D BlackRock s=
+aid in a letter to public-company chief executives this week, =E2=80=9Cit i=
+s a privilege.=E2=80=9D Tiger Global does not go around saying rude stuff l=
+ike that!That anecdote is from Erin Griffith=E2=80=99s New York Times story=
+ about how crazy startup financing is right now:It=E2=80=99s so crazy that =
+more than 900 tech start-ups are each worth more than $1 billion. In 2015, =
+80 seemed like a lot.It=E2=80=99s so crazy that hot start-ups no longer hav=
+e to pitch investors for money. The investors are the ones pitching them.It=
+=E2=80=99s so crazy that founders can start raising money on a Friday after=
+noon and have a deal closed by Sunday night.You can tell this as a story of=
+ irrational exuberance, too much money floating around etc., or you can tel=
+l it as a story of=C2=A0rational=C2=A0exuberance, too much change happening=
+ too quickly:Investors and founders have adopted a seize-the-day mentality,=
+ believing the pandemic created a once-in-a-lifetime opportunity to shake t=
+hings up. Phil Libin, an entrepreneur and investor, said the pandemic had c=
+hanged every aspect of society so much that start-ups were accomplishing fi=
+ve years of progress in one year.=E2=80=9CThe basic fabric of the world is =
+up for grabs,=E2=80=9D he said, calling this time =E2=80=9Cthe changiest th=
+e world has ever been.=E2=80=9D=C2=A0He makes videoconferencing software. I=
+ suppose the point is that in 2022 there are relatively few people =E2=80=
+=94=C2=A0more than there have been in the past, let=E2=80=99s stipulate, bu=
+t still not that many =E2=80=94=C2=A0who are realistically able to change t=
+he basic fabric of the world, and relatively many people =E2=80=94=C2=A0sur=
+ely more than there have ever been in the past =E2=80=94=C2=A0who can write=
+ them nine-figure checks after a weekend of due diligence. The power dynami=
+c is lopsided, which shows up in lots of ways: billion-dollar valuations ev=
+erywhere, investors pleading to get into deals, founder-friendly governance=
+ terms, some amount of tolerance for fraud, etc.Meanwhile in public markets=
+ there is a lot of exuberance, sure, but there's a bit less of this. Public=
+ investors really don=E2=80=99t have to court companies much, and in fact g=
+oing public, even now, requires a company to put together a prospectus and =
+a pitch deck and go out and market itself to investors, an uncomfortable re=
+versal. Due diligence is tougher, and tolerance for fraud is lower, just in=
+ the sense that public companies are required to make timely public disclos=
+ures of material facts and publish audited financial statements and general=
+ly give investors more information than =E2=80=9Chere=E2=80=99s where to se=
+nd the check.=E2=80=9D But if you stay private, the unsolicited checks keep=
+ arriving every day. Why bother trying to go public?
+ =20
+   =20
+      Activision
+   =20
+ =20
+Yesterday Microsoft Corp. announced that it will buy Activision Blizzard In=
+c. for about $69 billion, a price that reflects more or less:=09The value o=
+f Activision=E2=80=99s business to public shareholders,=C2=A0plus=09A contr=
+ol premium that Microsoft is paying to acquire the whole thing, plus=09Some=
+ share of the synergies Microsoft can get from, like, saying the word =E2=
+=80=9Cmetaverse=E2=80=9D a lot on conference calls,=C2=A0minus=09The expect=
+ed value of government and private lawsuits and other risks having to do wi=
+th a sexual misconduct scandal at Activision.I am not going to attempt to q=
+uantify any of those elements except that=C2=A0Activision was trading at ab=
+out $90 to $99=C2=A0per share last summer,=C2=A0before the allegations came=
+ out, and it closed last week (before the merger news) at $65.39. Roughly $=
+20 billion of market capitalization went away due, at least in part, to Act=
+ivision=E2=80=99s sexual misconduct scandal. Microsoft will pay $95 per sha=
+re, a substantial premium to Activision=E2=80=99s recent price, but below w=
+here it was trading last June.=C2=A0And the consensus is that Microsoft saw=
+ an opportunity to buy Activision=C2=A0specifically=C2=A0because its scanda=
+ls depressed its stock price. =E2=80=9CActivision Blizzard=E2=80=99s Workpl=
+ace Problems Spurred $75 Billion Microsoft Deal=E2=80=9D is the Wall Street=
+ Journal=E2=80=99s headline; =E2=80=9C Activision Sexual Misconduct Fallout=
+ Prompted Microsoft to Pursue Deal=E2=80=9D is Bloomberg=E2=80=99s. And Act=
+ivision=E2=80=99s board, faced with a scandal that was a potentially existe=
+ntial risk, decided to cut off that risk by cashing out. =E2=80=9CSome dire=
+ctors didn=E2=80=99t believe shareholders and employees would be comfortabl=
+e without a major change but weren=E2=80=99t willing to try to oust Mr. Kot=
+ick,=E2=80=9D reports the Journal, and either option =E2=80=94=C2=A0firing =
+the CEO or keeping him =E2=80=94=C2=A0had serious risks. Ninety-five dollar=
+s in cash has much less risk.A couple of points here. One is that, for Micr=
+osoft, Activision=E2=80=99s scandals represent a source of synergy. Right n=
+ow the value of Activision is reduced because there is controversy about it=
+s chief executive officer=E2=80=99s=C2=A0involvement in the scandal, a cont=
+roversy that has drawn lawsuits and regulatory action and might cost Activi=
+sion customers and relationships. But when the deal closes, Activision will=
+ be run by Microsoft, whose CEO is not connected to this scandal and is not=
+ especially=C2=A0scandalous in general. (It seems like the plan is for Acti=
+vision=E2=80=99s current, scandalous CEO to depart when the deal closes, th=
+ough that is not entirely clear.) Activision will go from being a company r=
+un by a scandal-plagued CEO, which is bad, to being a division of Microsoft=
+, which is neutral. This is an improvement! Microsoft will=C2=A0add value=
+=C2=A0to Activision by being boring.=C2=A0Some number of valuable relations=
+hips that independent Activision would have lost will be preserved by Micro=
+soft-Activision. Ben Thompson writes:Microsoft does, of course, inherit the=
+ lawsuit and associated issues that led to this decline, but that almost se=
+ems like an opportunity in its own right: whereas acquisitions usually pres=
+ent concerns about integrating different cultures and management teams =E2=
+=80=94 after all, you don=E2=80=99t want to destroy whatever it is you boug=
+ht =E2=80=94 Microsoft actually has full license to completely wipe out Act=
+ivision Blizzard=E2=80=99s management team and culture and instill its own =
+way of doing things.Second, I write a lot around here about the idea that =
+=E2=80=9Ceverything is securities fraud.=E2=80=9D Anything bad that happens=
+ at a public company can become the basis for a securities-fraud lawsuit al=
+leging that the company deceived investors about the bad thing and they los=
+t money when the stock dropped. And of course Activision=E2=80=99s stock dr=
+opped=C2=A0and there are=C2=A0a bunch of securities-fraud lawsuits=C2=A0(an=
+d a=C2=A0 Securities and Exchange Commission inquiry). A culture of sexual =
+harassment at a public company is pretty much a core form of securities fra=
+ud these days.One point that I often make is that it is strange =E2=80=94=
+=C2=A0not wrong necessarily, but certainly strange =E2=80=94=C2=A0to concei=
+ve of the shareholders as victims of Activision=E2=80=99s alleged culture o=
+f sexual harassment. But here it seems, still strange, but definitively tru=
+e. Activision was worth $103.81 per share last February; now shareholders w=
+ill get cashed out at $95, largely because the sexual-harassment allegation=
+s drove down the price and created the opportunity for Microsoft to buy. In=
+stead of selling at a premium, they will sell at a discount, because an und=
+isclosed culture of sexual harassment sunk Activision=E2=80=99s prospects t=
+o remain an independent public company. I guess they should sue!
+ =20
+   =20
+      Things happen
+   =20
+ =20
+JPMorgan=C2=A0Raises Salaries for Junior Bankers for Second Time.  Morgan S=
+tanley Ekes Out Stock-Trading Gain as Fixed-Income Slumps. Revolut Becomes =
+Latest  App-Based Broker Courting U.S. Investors. Exxon Pledges to Reduce C=
+arbon Emissions From Operations to =E2=80=98Net Zero=E2=80=99. Denmark to D=
+iscover Its Greenium=E2=80=99 With First Green Bond Sale.=C2=A0Tencent purs=
+ues quieter investment strategy amid China=E2=80=99s Big Tech crackdown.=C2=
+=A0Cincinnati Agency Buys Nearly 200 Rental Homes, Thwarting Private Invest=
+ors.=C2=A0Trump Fraud Backed by =E2=80=98Significant=E2=80=99 Evidence, N.Y=
+. AG Says.  CFA Pass Rate Ticks Up to 46% Following Lows for the Level II E=
+xam. Tesla Rumor Mill Misfires in Ways That Exasperate  Even Elon Musk.=C2=
+=A0Milo Launches First U.S. Crypto Mortgage. WeWork movie. Oyster vodka.If =
+you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in =
+your inbox, please=C2=A0subscribe at this link. Or you can subscribe to Mon=
+ey Stuff and other great Bloomberg newsletters here. Thanks![1] This is not=
+ strictly necessary to the trade. Famously, you can do this with a  mayo co=
+mpany.[2] For instance, that $20 is a payment from your personal=C2=A0accou=
+nt to the account of a business entity that, later on in this scheme, will =
+have outside shareholders, so that $20 isn=E2=80=99t exactly yours anymore.=
+ Also there might be taxable income along the way.[3] I am being too schema=
+tic here. In almost any actual case you would try to build a real business =
+*and also* do some fake trading with yourself to inflate your numbers. It=
+=E2=80=99s not =E2=80=9Ca fake business becomes a real one,=E2=80=9D but ra=
+ther =E2=80=9Ca mixed real-and-fake business can become entirely real over =
+time.=E2=80=9D[4] Dan Davies=E2=80=99s terrific book about fraud, =E2=80=9C=
+Lying for Money,=E2=80=9D covers this version of the trade entertainingly a=
+nd more rigorously than I have here.[5] This=C2=A0is a historic classic, bu=
+t it is now=C2=A0a very well-known money laundering mechanism and casinos t=
+ry hard to stop it.[6] Well, there is a certain amount of buy-side reverse =
+pitching in the public markets, in the form of private equity firms (and st=
+rategic buyers for that matter) proposing to acquire companies (or occasion=
+ally to do private investments in public equity). But those rarely have the=
+ same competitive unsolicited dynamic, and anyway a company tends to get ac=
+quired at most once, while private fundraisings happen =E2=80=9Cmultiple ti=
+mes a year.=E2=80=9D
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfq7lv.5pqe/3b61788c.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_71629654_1150707316.1642616036098
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Web3 economicsHere=E2=80=99s a trade. You start a business. Let=E2=80=99s s=
+ay it=E2=80=99s a platform business, where you connect buyers and sellers o=
+f something.[1
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjQxNzE1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2ODM3ODUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB89622085" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26417155&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26683785&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTE5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMTkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBeee7582b"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjQxNzE1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2ODM3ODUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC8c006f8e" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26417155&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26683785&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Web3 economics</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here=E2=80=99s a trade.</p><ol style=
+=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li s=
+tyle=3D"margin-bottom: 5px;">You start a business. Let=E2=80=99s say it=E2=
+=80=99s a platform business, where you connect buyers and sellers of someth=
+ing.[1] You connect people who want to rent out their cars or their houses =
+and people who want to use them, or you run an exchange to connect buyers a=
+nd sellers of stock or art or Beanie Babies.=C2=A0</li>=09<li style=3D"marg=
+in-bottom: 5px;">Your platform charges a fee. Say you charge 2% of the valu=
+e of each transaction for yourself.=C2=A0</li>=09<li style=3D"margin-bottom=
+: 5px;">You start doing some transactions with yourself. You list your hous=
+e on the platform and then rent it from yourself, you sell some Beanie Babi=
+es to yourself, whatever. You set up different accounts under different nam=
+es (or enlist your friends) to conceal this. You charge yourself a fee; you=
+ do $1,000 worth of transactions and pay yourself $20. Your net cost here i=
+s pretty much zero, since you=E2=80=99re just sending money to yourself, th=
+ough there may be some frictional costs.[2]</li>=09<li style=3D"margin-bott=
+om: 5px;">The next month, you do it again, but more so. You do $2,000 of tr=
+ansactions with yourself and pay yourself $40.</li>=09<li style=3D"margin-b=
+ottom: 5px;">The next month, you go to a venture capitalist. =E2=80=9CLook =
+at this business,=E2=80=9D you say. =E2=80=9CWe are doing gross transaction=
+s of $2,000 a month, our revenue is $40 a month, we are already profitable =
+and we=E2=80=99re growing at 100% per month.=E2=80=9D=C2=A0</li>=09<li styl=
+e=3D"margin-bottom: 5px;">The venture capitalist is like =E2=80=9Cooh this =
+business looks amazing, I=C2=A0love a fast-growing platform business, I wil=
+l invest at 20x revenue.=E2=80=9D By =E2=80=9Crevenue=E2=80=9D she means $4=
+80 a year (your current annualized run rate) so she values your business at=
+ $9,600. She buys 10% of your company for $960.</li>=09<li style=3D"margin-=
+bottom: 5px;">You stop trading with yourself, the platform=E2=80=99s revenu=
+e goes to zero, the venture capitalist is out $960 and you keep the money. =
+A year later you run this trade again with a different business and a diffe=
+rent, or the same, venture capitalist. =E2=80=9CI have learned so much from=
+ my failed startup,=E2=80=9D you tell VCs.</li>=09<li style=3D"margin-botto=
+m: 5px;">Or! Even better! You put out a press release saying =E2=80=9CPromi=
+nent Venture Capitalist Invests In Awesome Fast-Growing Platform,=E2=80=9D =
+you get a lot of attention, and people start trading on your platform for r=
+eal. You start to get real revenue, you become a real business, you stop tr=
+ading with yourself, revenue keeps going up, and you and the venture capita=
+list both become rich.</li></ol><p style=3D"margin: 16px 0;">The main point=
+ of this trade is that, in a frothy market for fast-growing companies, you =
+can sell $1 of the right kind of revenue for much more than $1, and so it i=
+s worth your while to=C2=A0<em>create=C2=A0</em>some revenue, dress it up t=
+o=C2=A0look like the right kind of revenue and then sell it to someone.</p>=
+<p style=3D"margin: 16px 0;">But another=C2=A0point of this trade (the one =
+in Step=C2=A08) is that in network-effects businesses these things can be s=
+elf-fulfilling, and a fake business can turn into a real one.[3] If someone=
+ is looking to rent a house in an app, she=E2=80=99s going to go to the app=
+ she=E2=80=99s heard of; if yours is getting a lot of press for growing qui=
+ckly and raising lots of money, she=E2=80=99ll go to your app.=C2=A0</p><p =
+style=3D"margin: 16px 0;">This trade, as I described it, is basically fraud=
+,[4] and sometimes people do it and <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/26417155.266630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMTgtMTEtMTkvcGF5aW5nLWZvci1wb3B1bGFyaXR5LWNhbi1iZS1mcmF1=
+ZD9jbXBpZD1CQkQwMTE5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U=
+9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07=
+ceef4b8524a319a23cB0195b79c" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> get in trouble for it</a>. But there =
+are subtler and far more interesting versions of the trade. Here is a very =
+important one; let=E2=80=99s call it the =E2=80=9CWeb2 version=E2=80=9D:</p=
+><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;=
+">=09<li style=3D"margin-bottom: 5px;">You start a platform business.</li>=
+=09<li style=3D"margin-bottom: 5px;">You charge a fee of $2 per transaction=
+.</li>=09<li style=3D"margin-bottom: 5px;">You go to venture capitalists an=
+d raise some money.</li>=09<li style=3D"margin-bottom: 5px;">You use the mo=
+ney to pay people, say, $3 per transaction to use your service. You pay the=
+m $3 per transaction and they pay you back $2 in fees. They keep $1. Free m=
+oney!</li>=09<li style=3D"margin-bottom: 5px;">You get a lot of users, beca=
+use everyone wants to use a service that pays them to use it.</li>=09<li st=
+yle=3D"margin-bottom: 5px;">Now you have the good things: Lots of (real) us=
+ers, lots of revenue, fast growth.</li>=09<li style=3D"margin-bottom: 5px;"=
+>You do have one bad thing, which is that you lose money on every transacti=
+on.</li>=09<li style=3D"margin-bottom: 5px;">That=E2=80=99s fine! =E2=80=9C=
+Customer acquisition costs are high right now,=E2=80=9D you (and your inves=
+tors!) say, =E2=80=9Cbut they will come down as the platform matures and ac=
+hieves scale.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">You go to s=
+ome more venture capitalists and raise a=C2=A0<em>ton=C2=A0</em>of money on=
+ that premise. Or you go public on that premise.=C2=A0</li>=09<li style=3D"=
+margin-bottom: 5px;">You stop paying people to use the service.</li>=09<li =
+style=3D"margin-bottom: 5px;">Maybe Step 8 was right! Maybe by this time yo=
+ur users=C2=A0are so dependent on the service, and the service is so good, =
+and the network effects are so powerful, that they keep using it once you s=
+tart charging them to use it instead of paying them to use it. And then you=
+r service is a huge success and you=E2=80=99re a billionaire.</li>=09<li st=
+yle=3D"margin-bottom: 5px;">Or maybe it was wrong, the service dies, the ve=
+nture capitalists lose their investment and you get to keep whatever cash y=
+ou took out and do this again in a year as a battle-hardened=C2=A0repeat fo=
+under.</li></ol><p style=3D"margin: 16px 0;">The Web2 version of the trade =
+is central to the story of the last decade in the U.S. tech industry. We so=
+metimes called it the =E2=80=9C<a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/26417155.266630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMTgtMDUtMTgvc2lsaWNvbi12YWxsZXktcy1zdWJzY3JpcHRpb24tZnJlZS1mb=
+3ItYWxsP2NtcGlkPUJCRDAxMTkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nv=
+dXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDExOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/=
+607f07ceef4b8524a319a23cB36bda10c" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">MoviePass economy</a>,=E2=80=9D =
+the idea that venture capitalists would subsidize consumers=E2=80=99 lifest=
+yles because they valued customer growth=C2=A0above everything else (includ=
+ing profitability). Or there=E2=80=99s the term =E2=80=9C<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDEtMzEvZG9uLXQtYmxpdHpzY2FsZS1=
+hZ2FpbnN0LXlvdXJzZWxmP2NtcGlkPUJCRDAxMTkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDExOSZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cB3dd1597a" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">blitzscaling</a>,=
+=E2=80=9D the idea that by throwing enormous quantities of money at a compa=
+ny in a network-effects business you can make it the dominant player and th=
+en pivot to profitability.=C2=A0There is no single outcome to these stories=
+, no simple lesson to take from them. Sometimes it=E2=80=99s the outcome in=
+ Step 11 above: User acquisition costs decline with scale and network effec=
+ts, you jack up the price, and the unprofitable fast-growing subsidized ser=
+vice becomes profitable. Other times it=E2=80=99s the outcome in Step 12. M=
+oviePass <a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.=
+266630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDgt=
+MDcvbW92aWVwYXNzLXdvcmtlZC1vdXQtZ3JlYXQ_Y21waWQ9QkJEMDExOTIyX01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTE5Jn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB54f44d73" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ went hilariously bankrupt</a>.=C2=A0</p><p style=3D"margin: 16px 0;">One w=
+ay to characterize the Web2 version is that instead of=C2=A0<em>trading wit=
+h yourself</em>, you=C2=A0<em>got your investors to trade with you</em>. Yo=
+u generated volume on your platform=C2=A0<em>from your investors</em>, indi=
+rectly, by taking their money (the investment in Step 3) and turning it int=
+o revenue (the customer subsidy in Step 4). A dollar of investment=C2=A0cap=
+ital can be turned into revenue, and then sold to new investors at a multip=
+le of that revenue. This is arguably=C2=A0<em>good=C2=A0</em>for your (earl=
+y) investors. They=C2=A0<em>want=C2=A0</em>a higher valuation. They are hap=
+py for you to turn their money into revenue. They hope that you will turn i=
+t into long-term stable recurring revenue (Step 11). But if you just turn i=
+t into fake revenue, then maybe they can still sell their shares to the nex=
+t sucker before it collapses.</p><p style=3D"margin: 16px 0;">We talked las=
+t month about the economics of Web3, the popular current term for crypto pl=
+atform businesses. <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/26417155.266630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjEtMTItMjEvdGhlcmUtcy1pbnNpZGUtaW5mb3JtYXRpb24taW4tc2VjLWZpbGluZ3M_Y21wa=
+WQ9QkJEMDExOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3Ns=
+ZXR0ZXImdXRtX3Rlcm09MjIwMTE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b85=
+24a319a23cB0686d8df" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> I wrote</a>:</p><blockquote><p style=3D"marg=
+in: 16px 0;">A basic premise of Web3 is that every product is simultaneousl=
+y an investment opportunity. If you sign up for a Web3 social network or ch=
+at room or trading venue or let=E2=80=99s-buy-the-Constitution lark, you wi=
+ll get some of that project=E2=80=99s tokens, which will entitle you to use=
+ the project=E2=80=99s app or exchange or Constitution, and which will give=
+ you some notional say in the decentralized governance of the project. Also=
+ the tokens will appreciate in value if the project takes off and more peop=
+le want to use it. It=E2=80=99s as if being an early user of Facebook or Ub=
+er also automatically made you a shareholder of Facebook or Uber, and when =
+those services got huge you got rich.</p></blockquote><p style=3D"margin: 1=
+6px 0;">The move is to combine (1) Web3 economics (every product is an inve=
+stment) with (2) the basic=C2=A0trade I have sketched out here (turn invest=
+ment capital into revenue). Here is how that move might work:</p><ol style=
+=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li s=
+tyle=3D"margin-bottom: 5px;">You start a platform business on Web3, crypto,=
+ blockchains, etc. It has a =E2=80=9Cgovernance token,=E2=80=9D which is a =
+little bit like a share of stock but you get to say it=E2=80=99s not a secu=
+rity.</li>=09<li style=3D"margin-bottom: 5px;">You charge a fee of 2% for p=
+eople who use the platform. Holders of the governance token might have some=
+ undefined, it=E2=80=99s-definitely-not-a-security future economic right to=
+ those fees.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">You give people=
+ governance tokens for using your platform. These are rewards to incentiviz=
+e early adopters, and they decline over time on an explicit schedule: Peopl=
+e who use the platform a lot on the first week get a lot of governance toke=
+ns, people who use it a lot the second week get fewer, people who use it in=
+ the sixth month get even fewer, etc.</li>=09<li style=3D"margin-bottom: 5p=
+x;">There is an exchange of money for tokens, but indirectly. People use yo=
+ur platform, they pay you (in dollars, Ether, etc.) to use the platform, an=
+d you pay them (in governance tokens) for using the platform. Also, though,=
+ they get to do whatever it is they do on the platform. In theory this coul=
+d be renting out houses or cars or whatever, though in practice most crypto=
+ platform businesses are about trading crypto. Let=E2=80=99s say your busin=
+ess is an exchange for trading non-fungible tokens. People trade NFTs on yo=
+ur platform, they pay you a fee for each trade, and (early on) you give the=
+m governance tokens for each trade.</li>=09<li style=3D"margin-bottom: 5px;=
+">So each early user of the platform is also an investor, and the more they=
+ use it the more they are investing.</li>=09<li style=3D"margin-bottom: 5px=
+;">They can sell the governance tokens freely because all of this stuff is =
+effectively unregulated.</li>=09<li style=3D"margin-bottom: 5px;">How much =
+are the governance tokens worth? It is hard to say, but they are sort of li=
+ke shares of stock. Their value is some increasing function of the expected=
+ future fee revenues of your platform, plus they have some intangible meme-=
+y value based on how much hype your platform is getting.</li>=09<li style=
+=3D"margin-bottom: 5px;">The more trading there is on your platform, the mo=
+re fees you collect and the more successful your business looks, and the mo=
+re your governance token is worth, both because its expected cash flows are=
+ higher and because it gets more hype and attention.</li>=09<li style=3D"ma=
+rgin-bottom: 5px;">So people rush to your platform to trade as much as poss=
+ible, which pumps up the value of the governance token, and they cheerfully=
+ pay=C2=A0you the 2% fee to get governance tokens that they can sell at an =
+immediate profit.</li>=09<li style=3D"margin-bottom: 5px;">These people do =
+not necessarily want the NFTs that are being sold on your platform, so=C2=
+=A0<em>they=C2=A0</em>trade with themselves. They set up two crypto wallets=
+ and sell NFTs from one to the other, creating fake volume, =E2=80=9Cwash t=
+rades.=E2=80=9D The trades aren=E2=80=99t real, the trades are just (1) an =
+excuse to pay you a 2% fee on a large notional in exchange for a lot of val=
+uable governance tokens and (2) a way to make your platform look popular so=
+ that the governance tokens become valuable and they can sell them at a pro=
+fit.</li>=09<li style=3D"margin-bottom: 5px;">And people buy the governance=
+ tokens because (1) your platform is popular, (2) it is growing fast,=C2=A0=
+(3) it is making money, and (4) it is getting a lot of hype =E2=80=94=C2=A0=
+exactly the reasons a venture capitalist would have invested in your platfo=
+rm in the Web2 version.</li>=09<li style=3D"margin-bottom: 5px;">Eventually=
+ you stop handing out so many governance tokens=C2=A0(the rewards decline o=
+n a set schedule, see Step 3), and people stop doing huge wash trades with =
+themselves to build hype and collect governance tokens.</li>=09<li style=3D=
+"margin-bottom: 5px;">Maybe then your thing collapses, the early wash trade=
+rs made a fortune, and the people who bought their governance tokens are ho=
+lding the bag.</li>=09<li style=3D"margin-bottom: 5px;">Or maybe not! Maybe=
+ all the fake trading created enough hype for your platform to attract real=
+ trading, and your platform becomes good and people keep using it even afte=
+r you stop paying them to use it.</li></ol><p style=3D"margin: 16px 0;">The=
+ Web3 version effectively combines the user incentives and the venture capi=
+talist incentives from the Web2 version. Whereas the Web2 version of this t=
+rade=C2=A0<em>indirectly=C2=A0</em>takes money from venture capitalists and=
+ turns it into revenue, so that you can sell more shares to venture capital=
+ists at a high multiple of revenue, the Web3 version=C2=A0<em>directly=C2=
+=A0</em>takes money from user-investors and turns it into revenue, so that =
+you (and they) can sell more governance tokens to more user-investors at an=
+ even higher Web3-hype-driven multiple of revenue.=C2=A0<em>Web3 has refine=
+d and perfected this trade,</em>=C2=A0in a way that makes it just about pla=
+usibly sustainable.</p><p style=3D"margin: 16px 0;">=E2=80=9CThis is, essen=
+tially, a pyramid scheme,=E2=80=9D said Dror Poleg in an <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6Ly93d3cuZHJv=
+cnBvbGVnLmNvbS9pbi1wcmFpc2Utb2YtcG9uemlzLw/607f07ceef4b8524a319a23cBd2151c1=
+c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">infamous post</a> about Web3 that <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/26417155.266630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMjEvdGhlcmUtcy1pbnNpZGUtaW5mb3JtYXRpb=
+24taW4tc2VjLWZpbGluZ3M_Y21waWQ9QkJEMDExOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1l=
+bWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTE5JnV0bV9jYW1wYWlnbj1=
+tb25leXN0dWZm/607f07ceef4b8524a319a23cC0686d8df" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> I quoted</a> the =
+last time we discussed this.=C2=A0=E2=80=9CA Ponzi. But it makes sense. It =
+will be the dominant marketing method of the next decade and beyond.=E2=80=
+=9D I don=E2=80=99t like it! But I am=C2=A0not confident that he=E2=80=99s =
+wrong.</p><p style=3D"margin: 16px 0;">Anyway here=E2=80=99s <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6Ly9kZWNy=
+eXB0LmNvLzkwMzE3L2V0aGVyZXVtLW5mdC1tYXJrZXQtbG9va3NyYXJlLXdhc2gtdHJhZGluZw/=
+607f07ceef4b8524a319a23cBed0a939e" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">a story from last week from Andr=
+ew Hayward at Decrypt</a>:</p><blockquote><p style=3D"margin: 16px 0;">The =
+NFT market got a jolt this week when surprise new entrant LooksRare started=
+ piling up massive Ethereum trading volume numbers. But as trading rises on=
+ the OpenSea rival, it has become clear that some traders are manipulating =
+LooksRare=E2=80=99s token-based rewards system via a form of wash trading=
+=E2=80=94and the platform doesn=E2=80=99t appear to mind.</p><p style=3D"ma=
+rgin: 16px 0;">LooksRare is built around the LOOKS token, which the platfor=
+m is airdropping to 185,000 wallets of eligible OpenSea users to try and lu=
+re them over to the platform. The platform also pays out its daily amassed =
+transaction fees to all users who stake the LOOKS token in the form of Wrap=
+ped Ethereum (WETH).</p><p style=3D"margin: 16px 0;">On top of that, LooksR=
+are also has a stash of LOOKS tokens that it will distribute daily to users=
+ who trade NFTs in select, verified collections=E2=80=94including the Bored=
+ Ape Yacht Club and Doodles. At a current price of $4.23 per token, the mar=
+ketplace is giving away more than $12.1 million worth of LOOKS tokens each =
+day, although the tally will shrink over the course of the next year.</p><p=
+ style=3D"margin: 16px 0;">For now, however, some traders appear eager to m=
+anipulate the rewards model. Over the course of the last day, LooksRare has=
+ seen numerous NFT trades that go back and forth between the same two walle=
+ts, including a Meebits NFT that sold for about $50 million worth of WETH e=
+ach time. That=E2=80=99s $100 million worth of trading volume in two transa=
+ctions.</p><p style=3D"margin: 16px 0;">Dozens of other Loot and Meebits NF=
+Ts have sold for about $3 million worth of WETH apiece in numerous back-and=
+-forth transactions, as seen on the top NFT sales list at CryptoSlam. By co=
+ntrast, the average sale price of a Meebits NFT on leading marketplace Open=
+Sea over the last week was about 4.1 ETH ($13,800 at today=E2=80=99s value)=
+, while Loot NFTs sold for an average of under 2.2 ETH ($7,400) each.</p><p=
+ style=3D"margin: 16px 0;">It=E2=80=99s a form of wash trading=E2=80=94that=
+ is, manipulating the market by making it look like there=E2=80=99s more ac=
+tivity than there would be organically. Wash trading can be used to boost d=
+emand for a financial asset or to hide ill-gotten gains from illicit activi=
+ties, for example. Critics often accuse the NFT market of harboring widespr=
+ead wash trading and money laundering.</p><p style=3D"margin: 16px 0;">In t=
+his case, the wash trading is apparently being done to significantly boost =
+the potential share of trading rewards that users receive for buying and se=
+lling NFTs on the site. Traders still have to pay the 2% transaction fee, a=
+s well as standard Ethereum gas fees (network transaction costs), but Meebi=
+ts and Loot are both collections that do not charge creator royalties on to=
+p of those fees.</p><p style=3D"margin: 16px 0;">In other words, traders ai=
+ming to manipulate LooksRare=E2=80=99s rewards system are betting that the =
+rewards they receive in LOOKS tokens and WETH will be more valuable than th=
+e LooksRare transaction fees and Ethereum gas fees they=E2=80=99re spending=
+ in the process.</p></blockquote><p style=3D"margin: 16px 0;">And here is a=
+ related=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2641=
+7155.266630/aHR0cHM6Ly90d2l0dGVyLmNvbS9kaW5nYWxpbmd0cy9zdGF0dXMvMTQ4MTEzNTQ=
+3OTk0MDg3NDI0MQ/607f07ceef4b8524a319a23cBffd20d9b" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">Twitter thread</=
+a>.=C2=A0The Web3 version of the trade will probably be=C2=A0central to the=
+ story of the next decade in the=C2=A0tech industry, so that=E2=80=99ll be =
+fun I guess.</p><table class=3D"liveintent-sponsored-content" width=3D"auto=
+" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjQxNzE1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2ODM3ODUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDeb846715" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26417155&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26683785&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjQxNzE1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2ODM3ODUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEeb846715" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26417155&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26683785&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjQxNzE1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2ODM3ODUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFbff42e37" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26417155&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26683785&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjQxNzE1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2ODM3ODUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGbff42e37" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26417155&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26683785&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh by the way</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One potential frictional cost in the s=
+tory above is: If you buy a Meebit for $13,800, and then you sell it to you=
+rself for $50 million, and then you sell it back to yourself for $50 millio=
+n, do you, uh, do you have $49,986,200 of taxable income? That seems inconv=
+enient! Here=E2=80=99s a <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26417155.266630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjItMDEtMTQvbmZ0LWludmVzdG9ycy1vd2UtYmlsbGlvbnMtaW4tdGF4ZXMtYXMtdS1zLW9=
+mZmljaWFscy1jcmFjay1kb3duP2NtcGlkPUJCRDAxMTkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW=
+09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDExOSZ1dG1fY2FtcGFpZ=
+249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBe1d10b0b" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> Bloomberg New=
+s story</a> from last week:</p><blockquote><p style=3D"margin: 16px 0;">Inv=
+estors and creators of nonfungible tokens -- a market that has ballooned to=
+ $44 billion, Chainalysis data show, and attracted fans from Justin Bieber =
+to Melania Trump -- face billions of dollars in taxes and rates as high as =
+37%, according to tax experts. Internal Revenue Service officials who deal =
+with tax evaders say they are gearing up for a crackdown.=C2=A0</p><p style=
+=3D"margin: 16px 0;">The surprises looming for NFT enthusiasts when tax fil=
+ing season begins this month are crypto=E2=80=99s latest wake-up call from =
+Washington as officials across the U.S. government set their sights on the =
+burgeoning industry. The rules about taxing tokens aren=E2=80=99t clear, le=
+aving NFT collectors scrambling to calculate how much they owe. Investors m=
+ay not realize they need to pay any taxes at all or that they should file m=
+ore than once a year, increasing the odds they=E2=80=99ll face future penal=
+ties.</p></blockquote><p style=3D"margin: 16px 0;">By like 2040 the entire =
+U.S. government will be funded by taxing NFT wash traders.</p><p style=3D"m=
+argin: 16px 0;">Incidentally! There are a lot of people in the world and al=
+most all of them would prefer to pay lower taxes rather than higher taxes. =
+But there is a small category of people who are intensely interested in pay=
+ing higher taxes. There are people who will walk into a casino with a sack =
+of cash, buy $1 million of chips at a table, carry them directly to a cashi=
+er, cash the chips out for $1 million, declare $1 million of gambling incom=
+e to the IRS and pay taxes on it.[5]=C2=A0Of course they don=E2=80=99t have=
+ $1 million of gambling income in this scenario: They walked in with $1 mil=
+lion and walked out with $1 million, their gambling income is zero.=C2=A0Wh=
+y call it gambling income? Because once you declare $1 million of gambling =
+income and pay taxes on it, you can use what=E2=80=99s left over=C2=A0to bu=
+y houses and cars and college tuition and stuff. Whereas=C2=A0<em>before=C2=
+=A0</em>they declared it as gambling income, when it was just cash in a sac=
+k, it was =E2=80=A6=C2=A0probably it was the proceeds of selling illegal dr=
+ugs, though there are other ways to end up with $1 million of questionable =
+cash in a sack. If you buy a house with=C2=A0cash in a sack it is going to =
+raise questions.</p><p style=3D"margin: 16px 0;">This is called =E2=80=9Cmo=
+ney laundering,=E2=80=9D and the essential component of money laundering is=
+=C2=A0<em>generating fake taxable income</em>. If you take $13,800 out of=
+=C2=A0your (legitimate, previously taxed) bank account, and you use it to b=
+uy cryptocurrency in a wallet that you tell your accountant and the IRS abo=
+ut, and you then use that cryptocurrency to buy a Meebit, and then you take=
+ $50 million out of your sack of illegal money, and you use it to buy crypt=
+ocurrency in a wallet that you=C2=A0<em>don=E2=80=99t=C2=A0</em>tell your a=
+ccountant about, and then you use=C2=A0<em>that </em>cryptocurrency to buy =
+the Meebit from your declared wallet, and then you take the $50 million of=
+=C2=A0cryptocurrency out of the declared wallet and put it back in your (le=
+gitimate) bank account, and then you write the IRS a check for $20 million =
+saying =E2=80=9Cah I=E2=80=99ve been selling NFTs, what fun I have had, but=
+ I have to pay the IRS my fair share,=E2=80=9D then =E2=80=A6=C2=A0I am obv=
+iously not going to give you advice on crime but it=E2=80=99s possible you=
+=E2=80=99ve got something there?=C2=A0Like, nobody has any idea what a Meeb=
+it is worth, so this string of outlandish numbers is somewhat plausible? It=
+=E2=80=99s possible that some number of NFT wash trades have a purpose othe=
+r than pumping up volume on NFT platforms?=C2=A0</p><table class=3D"liveint=
+ent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"cent=
+er">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjQxNzE1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2ODM3ODUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH1fe6c5f4" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26417155&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26683785&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Reverse pitches</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I actually don=E2=80=99t understand wh=
+y any company would want to go public?=C2=A0</p><blockquote><p style=3D"mar=
+gin: 16px 0;">For Daniel Perez, a co-founder of Hinge Health, a provider of=
+ online physical therapy programs, the unsolicited emails from investors st=
+arted in late 2020. They contained pitch decks packed with the elaborate re=
+search that the investment firms had done on Hinge, including interviews wi=
+th dozens of its customers and data on its competitors.</p><p style=3D"marg=
+in: 16px 0;">These =E2=80=9Creverse pitches,=E2=80=9D which numbered in the=
+ 20s, were meant to persuade Mr. Perez to take money from the investment fi=
+rms. He also got several term sheets, or investment contracts, from investo=
+rs he had never met before.</p><p style=3D"margin: 16px 0;">=E2=80=9COften =
+when we=E2=80=99re speaking to investors, they=E2=80=99d cut me off and say=
+, =E2=80=98Let me show you what I already know about you,=E2=80=99=E2=80=9D=
+ Mr. Perez said. The reverse pitch from Tiger Global, the firm that Hinge p=
+icked to help lead a $300 million funding round alongside the investment fi=
+rm Coatue Management last January, was 90 pages.</p><p style=3D"margin: 16p=
+x 0;">A few months after Hinge announced that funding, the reverse pitches =
+started rolling in again. Three different investors sent Mr. Perez videos f=
+rom celebrities they had hired on Cameo to make their case. One was from An=
+drei Kirilenko, a former Utah Jazz player whom Mr. Perez was a fan of.</p><=
+/blockquote><p style=3D"margin: 16px 0;">BlackRock does not send public com=
+panies reverse pitches. Vanguard does not hire celebrities to make videos a=
+bout why public companies should accept its money.[6] They just go to the s=
+tock exchange and buy stock if they like the company, or sell it if they do=
+n=E2=80=99t. =E2=80=9CAccess to capital is not a right,=E2=80=9D <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtMTgvYmxhY2tyb2NrLXN=
+0aWxsLWxpa2VzLWNhcGl0YWxpc20_Y21waWQ9QkJEMDExOTIyX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTE5JnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8d8a832f" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">BlackRock sa=
+id</a> in a letter to public-company chief executives this week, =E2=80=9Ci=
+t is a privilege.=E2=80=9D Tiger Global does not go around saying rude stuf=
+f like that!</p><p style=3D"margin: 16px 0;">That anecdote is from <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6L=
+y93d3cubnl0aW1lcy5jb20vMjAyMi8wMS8xOS90ZWNobm9sb2d5L3RlY2gtc3RhcnR1cC1mdW5k=
+aW5nLmh0bWw/607f07ceef4b8524a319a23cB9f05cbb0" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">Erin Griffith=E2=80=
+=99s New York Times story</a> about how crazy startup financing is right no=
+w:</p><blockquote><p style=3D"margin: 16px 0;">It=E2=80=99s so crazy that m=
+ore than 900 tech start-ups are each worth more than $1 billion. In 2015, 8=
+0 seemed like a lot.</p><p style=3D"margin: 16px 0;">It=E2=80=99s so crazy =
+that hot start-ups no longer have to pitch investors for money. The investo=
+rs are the ones pitching them.</p><p style=3D"margin: 16px 0;">It=E2=80=99s=
+ so crazy that founders can start raising money on a Friday afternoon and h=
+ave a deal closed by Sunday night.</p></blockquote><p style=3D"margin: 16px=
+ 0;">You can tell this as a story of irrational exuberance, too much money =
+floating around etc., or you can tell it as a story of=C2=A0<em>rational=C2=
+=A0</em>exuberance, too much change happening too quickly:</p><blockquote><=
+p style=3D"margin: 16px 0;">Investors and founders have adopted a seize-the=
+-day mentality, believing the pandemic created a once-in-a-lifetime opportu=
+nity to shake things up. Phil Libin, an entrepreneur and investor, said the=
+ pandemic had changed every aspect of society so much that start-ups were a=
+ccomplishing five years of progress in one year.</p><p style=3D"margin: 16p=
+x 0;">=E2=80=9CThe basic fabric of the world is up for grabs,=E2=80=9D he s=
+aid, calling this time =E2=80=9Cthe changiest the world has ever been.=E2=
+=80=9D=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">He makes videocon=
+ferencing software. I suppose the point is that in 2022 there are relativel=
+y few people =E2=80=94=C2=A0more than there have been in the past, let=E2=
+=80=99s stipulate, but still not that many =E2=80=94=C2=A0who are realistic=
+ally able to change the basic fabric of the world, and relatively many peop=
+le =E2=80=94=C2=A0surely more than there have ever been in the past =E2=80=
+=94=C2=A0who can write them nine-figure checks after a weekend of due dilig=
+ence. The power dynamic is lopsided, which shows up in lots of ways: billio=
+n-dollar valuations everywhere, investors pleading to get into deals, found=
+er-friendly governance terms, some amount of tolerance for fraud, etc.</p><=
+p style=3D"margin: 16px 0;">Meanwhile in public markets there is a lot of e=
+xuberance, sure, but there's a bit less of <em>this</em>. Public investors =
+really don=E2=80=99t have to court companies much, and in fact going public=
+, even now, requires a company to put together a prospectus and a pitch dec=
+k and go out and market <em>itself</em> to investors, an uncomfortable reve=
+rsal. Due diligence is tougher, and tolerance for fraud is lower, just in t=
+he sense that public companies are required to make timely public disclosur=
+es of material facts and publish audited financial statements and generally=
+ give investors more information than =E2=80=9Chere=E2=80=99s where to send=
+ the check.=E2=80=9D But if you stay private, the unsolicited checks keep a=
+rriving every day. Why bother trying to go public?</p><table class=3D"heade=
+r" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Activision</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Yesterday Microsoft Corp. <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6Ly93d3=
+cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzcxODg3Ny8wMDAxMTA0NjU5MjIwMDQ3Mjkvd=
+G0yMjMyMTJkMV9leDk5LTEuaHRt/607f07ceef4b8524a319a23cB08583bbd" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">anno=
+unced</a> that it will buy Activision Blizzard Inc. for about $69 billion, =
+a price that reflects more or less:</p><ol style=3D"list-style-type: decima=
+l; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;=
+">The value of Activision=E2=80=99s business to public shareholders,=C2=A0<=
+em>plus</em></li>=09<li style=3D"margin-bottom: 5px;">A control premium tha=
+t Microsoft is paying to acquire the whole thing, <em>plus</em></li>=09<li =
+style=3D"margin-bottom: 5px;">Some share of the synergies Microsoft can get=
+ from, like, saying the word =E2=80=9Cmetaverse=E2=80=9D a lot on conferenc=
+e calls,=C2=A0<em>minus</em></li>=09<li style=3D"margin-bottom: 5px;">The e=
+xpected value of government and private lawsuits and other risks having to =
+do with a sexual misconduct scandal at Activision.</li></ol><p style=3D"mar=
+gin: 16px 0;">I am not going to attempt to quantify any of those elements e=
+xcept that=C2=A0Activision was trading at about $90 to $99=C2=A0per share l=
+ast summer,=C2=A0before <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/26417155.266630/aHR0cHM6Ly9zLndzai5uZXQvcHVibGljL3Jlc291cmNlcy9kb2N1b=
+WVudHMvYWN0aXZpc29uc3VpdC5wZGY/607f07ceef4b8524a319a23cB5028b6a1" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+the allegations came out</a>, and it closed last week (before the merger ne=
+ws) at $65.39. Roughly $20 billion of market capitalization went away due, =
+at least in part, to Activision=E2=80=99s sexual misconduct scandal. Micros=
+oft will pay $95 per share, a substantial premium to Activision=E2=80=99s r=
+ecent price, but below where it was trading last June.=C2=A0</p><p style=3D=
+"margin: 16px 0;">And the consensus is that Microsoft saw an opportunity to=
+ buy Activision=C2=A0specifically=C2=A0<em>because </em>its scandals depres=
+sed its stock price. =E2=80=9C<a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26417155.266630/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hY3Rpdml=
+zaW9uLWJsaXp6YXJkLW1pY3Jvc29mdC1kZWFsLTExNjQyNTU3OTIyP21vZD1ocF9sZWFkX3Bvcz=
+I/607f07ceef4b8524a319a23cB887576b6" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">Activision Blizzard=E2=80=99s =
+Workplace Problems Spurred $75 Billion Microsoft Deal</a>=E2=80=9D is the W=
+all Street Journal=E2=80=99s headline; =E2=80=9C<a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/26417155.266630/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMTkvbWljcm9zb2Z0LWVmZm9ydC10by1idXktYWN0=
+aXZpc2lvbi1zcHVycmVkLWJ5LW1pc2NvbmR1Y3QtZmFsbG91dC1hdC1nYW1lbWFrZXI_Y21waWQ=
+9QkJEMDExOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZX=
+R0ZXImdXRtX3Rlcm09MjIwMTE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524=
+a319a23cBd9ea10fd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Activision Sexual Misconduct Fallout Prompted M=
+icrosoft to Pursue Deal</a>=E2=80=9D is Bloomberg=E2=80=99s. And Activision=
+=E2=80=99s board, faced with a scandal that was a potentially existential r=
+isk, decided to cut off that risk by cashing out. =E2=80=9CSome directors d=
+idn=E2=80=99t believe shareholders and employees would be comfortable witho=
+ut a major change but weren=E2=80=99t willing to try to oust Mr. Kotick,=E2=
+=80=9D reports the Journal, and either option =E2=80=94=C2=A0firing the CEO=
+ or keeping him =E2=80=94=C2=A0had serious risks. Ninety-five dollars in ca=
+sh has much less risk.</p><p style=3D"margin: 16px 0;">A couple of points h=
+ere. One is that, <em>for Microsoft</em>, Activision=E2=80=99s scandals rep=
+resent a source of synergy. Right now the value of Activision is reduced be=
+cause there is controversy about its chief executive officer=E2=80=99s=C2=
+=A0involvement in the scandal, a controversy that has drawn lawsuits and re=
+gulatory action and might cost Activision customers and relationships. But =
+when the deal closes, Activision will be run by Microsoft, whose CEO is not=
+ connected to this scandal and is not especially=C2=A0scandalous in general=
+. (It seems like the plan is for Activision=E2=80=99s current, scandalous C=
+EO to depart when the deal closes, though that is not entirely clear.) Acti=
+vision will go from being a company run by a scandal-plagued CEO, which is =
+bad, to being a division of Microsoft, which is neutral. This is an improve=
+ment! Microsoft will=C2=A0<em>add value=C2=A0</em>to Activision by being bo=
+ring.=C2=A0Some number of valuable relationships that independent Activisio=
+n would have lost will be preserved by Microsoft-Activision. <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6Ly9zdHJh=
+dGVjaGVyeS5jb20vMjAyMi9taWNyb3NvZnQtYWNxdWlyZXMtYWN0aXZpc2lvbi1ibGl6emFyZC1=
+ub3Rlcy1vbi10aGUtYWNxdWlzaXRpb24tYW4taW50ZXJ2aWV3LXdpdGgtbWljcm9zb2Z0LWdhbW=
+luZy1jZW8tcGhpbC1zcGVuY2VyLw/607f07ceef4b8524a319a23cBe7ae4cc9" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">Ben=
+ Thompson writes</a>:</p><blockquote><p style=3D"margin: 16px 0;">Microsoft=
+ does, of course, inherit the lawsuit and associated issues that led to thi=
+s decline, but that almost seems like an opportunity in its own right: wher=
+eas acquisitions usually present concerns about integrating different cultu=
+res and management teams =E2=80=94 after all, you don=E2=80=99t want to des=
+troy whatever it is you bought =E2=80=94 Microsoft actually has full licens=
+e to completely wipe out Activision Blizzard=E2=80=99s management team and =
+culture and instill its own way of doing things.</p></blockquote><p style=
+=3D"margin: 16px 0;">Second, I write a lot around here about the idea that =
+=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.=
+266630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDIt=
+MDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlbWUtY291cnQtaGVkZ2UtZnVuZHMtd29uLW9=
+uLWdhbWVzdG9wLWtrcG9lNndzP2NtcGlkPUJCRDAxMTkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW=
+09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDExOSZ1dG1fY2FtcGFpZ=
+249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8dcf415a" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">everything is =
+securities fraud</a>.=E2=80=9D Anything bad that happens at a public compan=
+y can become the basis for a securities-fraud lawsuit alleging that the com=
+pany deceived investors about the bad thing and they lost money when the st=
+ock dropped. And of course Activision=E2=80=99s stock dropped=C2=A0and ther=
+e are=C2=A0a bunch of <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/26417155.266630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJ=
+zLzIwMjEtMDgtMDUvbW9uZXktc3R1ZmYtcm9iaW5ob29kLWlzLW1vcmUtZnVuLXdpdGgtb3B0aW=
+9ucz9jbXBpZD1CQkQwMTE5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY=
+2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f=
+07ceef4b8524a319a23cB3a00bc4b" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">securities-fraud lawsuits</a>=C2=A0(=
+and a=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2641715=
+5.266630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMD=
+ktMjEvZXZlcmdyYW5kZS1ib3Jyb3dlZC1mcm9tLWV2ZXJ5b25lP2NtcGlkPUJCRDAxMTkyMl9NT=
+05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJt=
+PTIyMDExOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB91911e9=
+b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Securities and Exchange Commission inquiry</a>). A culture of=
+ sexual harassment at a public company is pretty much a core form of securi=
+ties fraud these days.</p><p style=3D"margin: 16px 0;">One point that I oft=
+en make is that it is strange =E2=80=94=C2=A0not wrong necessarily, but cer=
+tainly strange =E2=80=94=C2=A0to conceive of the shareholders as victims of=
+ Activision=E2=80=99s alleged culture of sexual harassment. But here it see=
+ms, still strange, but definitively true. Activision was worth $103.81 per =
+share last February; now shareholders will get cashed out at $95, largely b=
+ecause the sexual-harassment allegations drove down the price and created t=
+he opportunity for Microsoft to buy. Instead of selling at a premium, they =
+will sell at a discount, because an undisclosed culture of sexual harassmen=
+t sunk Activision=E2=80=99s prospects to remain an independent public compa=
+ny. I guess they should sue!</p><table class=3D"header" width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">JPMorgan=C2=A0<a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMTkvanBtb3JnYW4tc2FpZC10by11cC1zYWxhc=
+mllcy1mb3ItanVuaW9yLWJhbmtlcnMtZm9yLXNlY29uZC10aW1lP2NtcGlkPUJCRDAxMTkyMl9N=
+T05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJ=
+tPTIyMDExOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8c7bdc=
+22" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Raises Salaries</a> for Junior Bankers for Second Time. <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMTkvbW9yZ2FuLXN0YW5=
+sZXktZWtlcy1vdXQtc3RvY2stdHJhZGluZy1nYWluLWFzLWZpeGVkLWluY29tZS1mYWxscz9jbX=
+BpZD1CQkQwMTE5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c=
+2xldHRlciZ1dG1fdGVybT0yMjAxMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b=
+8524a319a23cB28940be1" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> Morgan Stanley</a> Ekes Out Stock-Trading G=
+ain as Fixed-Income Slumps. Revolut Becomes Latest <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMTkvcmV2b2x1dC1iZWNvbWVzLWxhdGVzdC1hc=
+HAtYmFzZWQtYnJva2VyLWNvdXJ0aW5nLXUtcy1pbnZlc3RvcnM_Y21waWQ9QkJEMDExOTIyX01P=
+TkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm0=
+9MjIwMTE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2106a34b=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> App-Based Broker</a> Courting U.S. Investors. <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS9hcnRpY2xlcy9leHhvbi1wbGVkZ2VzLXRvLXJlZHVjZS1jYXJib24tZW1pc3Npb25zLWZ=
+yb20tb3BlcmF0aW9ucy10by1uZXQtemVyby0xMTY0MjUwOTAwMT9tb2Q9aXRwX3dzaiZydT15YW=
+hvbw/607f07ceef4b8524a319a23cBba9ecd04" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">Exxon</a> Pledges to Reduce=
+ Carbon Emissions From Operations to =E2=80=98Net Zero=E2=80=99. Denmark to=
+ Discover Its <a href=3D"https://link.mail.bloombergbusiness.com/click/2641=
+7155.266630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDE=
+tMTgvZGVubWFyay10by1kaXNjb3Zlci1pdHMtZ3JlZW5pdW0td2l0aC1maXJzdC1ncmVlbi1ib2=
+5kLXNhbGU_Y21waWQ9QkJEMDExOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc=
+291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm=
+/607f07ceef4b8524a319a23cB9ac30b8f" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">Greenium</a>=E2=80=99 With Firs=
+t Green Bond Sale.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/=
+click/26417155.266630/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZGNmYjI0ODEtMjljM=
+y00ZTUwLTlhNzItYzI4YmJkYmE2OTZk/607f07ceef4b8524a319a23cB1cc66501" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Tencent</a> pursues quieter investment strategy amid China=E2=80=99s Big Te=
+ch crackdown.=C2=A0Cincinnati Agency Buys Nearly 200 Rental Homes, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy9jaW5jaW5uYXRpLWFnZW5jeS1idXlzLW5lYXJseS0yMDAt=
+cmVudGFsLWhvbWVzLXRod2FydGluZy1wcml2YXRlLWludmVzdG9ycy0xMTY0MjUxMDgwMz9tb2Q=
+9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cBd7d9c0d4" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">Thwartin=
+g Private Investors</a>.=C2=A0<a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26417155.266630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjItMDEtMTkvdHJ1bXAtbGlrZWx5LXVzZWQtZnJhdWR1bGVudC1hc3NldC12YWx1YX=
+Rpb25zLW4teS1hZy1zYXlzP2NtcGlkPUJCRDAxMTkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09Z=
+W1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDExOSZ1dG1fY2FtcGFpZ249=
+bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB91cfa609" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">Trump Fraud</a> B=
+acked by =E2=80=98Significant=E2=80=99 Evidence, N.Y. AG Says. <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMTkvY2ZhLXBhc3MtcmF0ZS10a=
+WNrcy11cC10by00Ni1mb2xsb3dpbmctbG93cy1mb3ItbGV2ZWwtaWktZXhhbT9jbXBpZD1CQkQw=
+MTE5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMjAxMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cBc2b479af" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> CFA Pass Rate</a> Ticks Up to 46% Following Lows for =
+the Level II Exam. Tesla Rumor Mill Misfires in Ways That Exasperate <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMTkvdGVzbGEtcnVtb3I=
+tbWlsbC1taXNmaXJlcy1pbi13YXlzLXRoYXQtZXhhc3BlcmF0ZS1ldmVuLWVsb24tbXVzaz9jbX=
+BpZD1CQkQwMTE5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c=
+2xldHRlciZ1dG1fdGVybT0yMjAxMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b=
+8524a319a23cB1f4361e3" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> Even Elon Musk</a>.=C2=A0Milo Launches Firs=
+t U.S. <a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.26=
+6630/aHR0cHM6Ly9tYXJrZXRzLmJ1c2luZXNzaW5zaWRlci5jb20vbmV3cy9zdG9ja3MvbWlsby=
+1sYXVuY2hlcy1maXJzdC11LXMtY3J5cHRvLW1vcnRnYWdlLTEwMzExMDg0NzY/607f07ceef4b8=
+524a319a23cB03e261f1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Crypto Mortgage</a>. WeWork <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6Ly93d3cueW9=
+1dHViZS5jb20vd2F0Y2g_dj1WQXVoVDUyNDFoOA/607f07ceef4b8524a319a23cBb4125732" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">movie</a>. Oyster <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/26417155.266630/aHR0cHM6Ly93d3cuYm9zdG9uZ2xvYmUuY29tLzIwMjIvMDEvMTk=
+vbWV0cm8vaGVyZXMtaG93LWJvdXRpcXVlLWRpc3RpbGxlcnktcmhvZGUtaXNsYW5kLWlzLW1ha2=
+luZy1jb3VudHJ5cy1maXJzdC1veXN0ZXItZGlzdGlsbGVkLXZvZGthLw/607f07ceef4b8524a3=
+19a23cB7acf6a7b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">vodka</a>.</p><p style=3D"margin: 16px 0;"><span c=
+lass=3D"news-designed-for-consumer-media"><em>If you'd like to get=C2=A0Mon=
+ey=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aHR0=
+cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1=
+zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b852=
+4a319a23cB557ada64" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">subscribe at this l=
+ink</a>. Or you can subscribe to Money Stuff and other great Bloomberg news=
+letters <a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.2=
+66630/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524=
+a319a23cBad5387ae" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>=
+[1] This is not strictly necessary to the trade. Famously, you can do this =
+with a <a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.26=
+6630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTYtMDgtMD=
+UvbWF5by1zcG9vZmluZy1hbmQtZWFybmluZ3MtaGludHM_Y21waWQ9QkJEMDExOTIyX01PTkVZU=
+1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIw=
+MTE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBc0481c9d" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> mayo company</a>.</em></p><p style=3D"margin: 16px 0;"><em>[2] For in=
+stance, that $20 is a payment from your personal=C2=A0account to the accoun=
+t of a business entity that, later on in this scheme, will have outside sha=
+reholders, so that $20 isn=E2=80=99t exactly yours anymore. Also there migh=
+t be taxable income along the way.</em></p><p style=3D"margin: 16px 0;"><em=
+>[3] I am being too schematic here. In almost any actual case you would try=
+ to build a real business *and also* do some fake trading with yourself to =
+inflate your numbers. It=E2=80=99s not =E2=80=9Ca fake business becomes a r=
+eal one,=E2=80=9D but rather =E2=80=9Ca mixed real-and-fake business can be=
+come entirely real over time.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"=
+><em>[4] Dan Davies=E2=80=99s terrific book about fraud, =E2=80=9C<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6L=
+y93d3cuYW1hem9uLmNvbS9MeWluZy1Nb25leS1MZWdlbmRhcnktRnJhdWRzLVdvcmtpbmctZWJv=
+b2svZHAvQjA3UDVINlBNMi9yZWY9c3JfMV8xP2tleXdvcmRzPWx5aW5nK2Zvcittb25leSZxaWQ=
+9MTY0MjEwMTE4OSZzcj04LTE/607f07ceef4b8524a319a23cB5f673223" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">Lying f=
+or Money</a>,=E2=80=9D covers this version of the trade entertainingly and =
+more rigorously than I have here.</em></p><p style=3D"margin: 16px 0;"><em>=
+[5] This=C2=A0is a historic classic, but it is now=C2=A0a very well-known m=
+oney laundering mechanism and casinos try hard to stop it.</em></p><p style=
+=3D"margin: 16px 0;"><em>[6] Well, there is a certain amount of buy-side re=
+verse pitching in the public markets, in the form of private equity firms (=
+and strategic buyers for that matter) proposing to acquire companies (or oc=
+casionally to do private investments in public equity). But those rarely ha=
+ve the same competitive unsolicited dynamic, and anyway a company tends to =
+get acquired at most once, while private fundraisings <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/26417155.266630/aHR0cHM6Ly93d3cubnl0aW1=
+lcy5jb20vMjAyMi8wMS8xOS90ZWNobm9sb2d5L3RlY2gtc3RhcnR1cC1mdW5kaW5nLmh0bWw/60=
+7f07ceef4b8524a319a23cC9f05cbb0" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">happen</a> =E2=80=9Cmultiple times=
+ a year.=E2=80=9D</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB84ea94f5" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB3e5a1220" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB26180335" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB0406b11e" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjQxNzE1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2ODM3ODUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIdfd2e596" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26417155&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26683785&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2641715=
+5.266630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB93d4b208" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26417155.266630/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCaef38dc7" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26417155.266630/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBc008c8ce" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26417155.266630/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBd67f1fb0" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBa=
+2e6eedd" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26417155.266630/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBa=
+3c67621" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D264171=
+55&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26683785&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D264171=
+55&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26683785&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D264171=
+55&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26683785&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D264171=
+55&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26683785&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D264171=
+55&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26683785&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfq7lv.5pqe/3b61788c.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_71629654_1150707316.1642616036098--
+

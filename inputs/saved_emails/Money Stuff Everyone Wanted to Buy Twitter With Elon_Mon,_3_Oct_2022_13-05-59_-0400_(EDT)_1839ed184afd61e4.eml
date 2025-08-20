@@ -1,0 +1,2307 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:7290:b0:c5:6d1d:3c13 with SMTP id w16csp1641860rwf;
+        Mon, 3 Oct 2022 10:07:55 -0700 (PDT)
+X-Received: by 2002:a63:e52:0:b0:438:ebec:363e with SMTP id 18-20020a630e52000000b00438ebec363emr19835712pgo.437.1664816875016;
+        Mon, 03 Oct 2022 10:07:55 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1664816875; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=wMI09p1HDrMm8u7jikfnghoATzIVD7Qql5XHrtVQcQ8ADBemLm6BHGh0BBZpTHz7Nj
+         aVny6JZdWFcvTFYQfwGtOgEZe/LTFaYv5WHSJB5Wbxbl812wygxbtMcsxoGyWLAeyaJm
+         F+k22xH19ylBm9R5BsNR/YSK+r2iSqXAil/EePoU0JpBDkiuzO2VV6D9nOfiU6Lplalf
+         YuOln1qSikQIU3MTadzOLgqBakujtolgqUJ5/9Bh5qPs0BxkZ7ob4F9os3SX5vHc+Cf0
+         TQJSDt3JHpxf0o+J1yysFOb2HoLhViCPXJ5TVg/3CpoEaffrl05+cKiTmb8hUjAyb3BJ
+         kV5A==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=frVTW06dzItdwH3AdgeTI0g6LBe6srcYf3pdT1uNGGk=;
+        b=sBYb9LqQ0vWqNcdQQRxG2ij2VxBxwP/b90U/au+ufVXISTgcrcxGh8m0bzIwOBWchl
+         0J0d/NVtOp4T46XengjfsMvNDyvL9TWKLRIX0pyuanhcLmwPCqvYZHs/6TAtqG0PucPy
+         C5mlTPpBb3lnFlLZ3rwxh3CwUTv66eN/aGJdaxnjU2xPuupIKlFprkBwhYNNQNB0Qa1x
+         vUtczKvsdxCA0UaV5zvtzpGjQSltVeDvRLDrhRAXujA3ynj/VH45YibQjDTdQ6l+bUBC
+         vmORzV23IEGywYXflFzZ/EdCuuaJv63oWvPdgXFtwUFeRjZUlwK+Ldspl0c61CGWw8WL
+         SKvQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Xb2oNCYK;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x5-20020a654145000000b0043aeaf8db10sor4521759pgp.79.2022.10.03.10.07.54
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 03 Oct 2022 10:07:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Xb2oNCYK;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date;
+        bh=frVTW06dzItdwH3AdgeTI0g6LBe6srcYf3pdT1uNGGk=;
+        b=WD88FngiVLoc+Uoh/UvigCCdh/oW+uA66QcQhljwXj7jdWINk2jPSt/wuc1UNI9CPe
+         qCoz4mx9zRF4APCBiiND7guXscRRuCt2pz4b5pbIGRfxRfw/ix2J3tlujmBYu2gMFUt7
+         BMBI2ZfAONAZPmoRxvPHOtllb6ZRJSyxUevPVOvue/aEPOO5IrLNgzoiVARsb70vqq2u
+         ZmkRrs1tgAAjAc8MDUbfctQxfVsJ9wwVlSJA6SksCGfDdPoTp6q679GMQan1vKN+kPZz
+         lWFtyWisJlgIV8CbHBFQ40S/pEmZ1kk7AOjDufT6wNJTDZsHZMZtzq0OEoTVyN992o2h
+         vQrA==
+X-Gm-Message-State: ACrzQf1UxJ9BkYCnmQavrjzKJwOQw7DiGbGccsRHOXuoW9vr0pOuOmrc
+	pfbtkKNVWAsD9KmTp0Bxvu/68p+v/h9+cB9JTSGRMnIC1Lj+XW43XQ==
+X-Received: by 2002:a63:83c6:0:b0:44c:1f0b:c00a with SMTP id h189-20020a6383c6000000b0044c1f0bc00amr7553849pge.266.1664816874529;
+        Mon, 03 Oct 2022 10:07:54 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a17:90a:7289:0:0:0:0 with SMTP id e9csp750868pjg;
+        Mon, 3 Oct 2022 10:07:51 -0700 (PDT)
+X-Received: by 2002:a65:44c5:0:b0:439:4697:ead0 with SMTP id g5-20020a6544c5000000b004394697ead0mr19186237pgs.45.1664816870922;
+        Mon, 03 Oct 2022 10:07:50 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1664816870; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=KAXRpGkzuegTgd3pIC1SuHnobeynEOMsARGC7M4WZBLKG1zTz6AEPrAvl2jQVI7ET5
+         PcAfMJCgj4ZxSZ8/MmTyxz41Ecs+6LocqL3Tmqiweb+OcQzv21IBXBmafb2giUL3Rbhz
+         bWWvgjnEHXHM7Z+91ftkzgfUNGB6n3gw4D8n/s3zXqnBkzPTN6Swt4LdxxY98ZU0wmlS
+         Phja0G2+TVnJ7eV6BuWqtqt+r6Kw95nGMvxA4awItDpzhhUYd/vKof5OxM5pdG9a3CGO
+         cTw8RW+K/zweyplJi57mfUeU5b0cPs8ryFB8rDBLb+lvowgygL+Z9NAMH6x5IBEYwRWa
+         DfdQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=frVTW06dzItdwH3AdgeTI0g6LBe6srcYf3pdT1uNGGk=;
+        b=cWDjABzsGWfqtH1aL7LKjj7kIDvF3MoBYshs6y0/BWTBmxtu5dw8TGqp90LGkFZcC1
+         qbi9o+eebuuVCJlVq0M0M5O/5pfsT7LrVmHj6pxlWLJ4bcnsdHTKEdnFFJozaUpvl9lP
+         PwhrhlXCmSpFdc6eW9ctLoTnPVJJ2fWTA08wcJoEn4CawSbbUx+Zc05LdX42+WTnHs5O
+         A80nVX9Vd8VGZFMMFTs4EhDPuv1mvPaPeniLjNXL5XtlPSXijo+HB13oJAwLMN4xllnf
+         653UjplGBel7xaGPtr9GW6/ROoa8gezM1GFKsOi6i9AaVuvTdSlE32kbnj+SDnEkPzcq
+         O9Fw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Xb2oNCYK;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20221003130559.29250431.285527@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20221003130559.29250431.285527@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221003130559.29250431.285527@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h190-20020a636cc7000000b004394c11b997sor4619209pgc.1.2022.10.03.10.07.50
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 03 Oct 2022 10:07:50 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20221003130559.29250431.285527@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMsMyM4iC/vIWhsTDk0EHG++/qDrkNLWZKxr8B6rDe8o0wka40f0Fpm1GVioRGTNfgsOUThkEhGTpKP86qIbjD7vPcOSMx8P+y4=
+X-Received: by 2002:a63:8543:0:b0:44c:be7c:78a9 with SMTP id u64-20020a638543000000b0044cbe7c78a9mr6906778pgd.221.1664816870608;
+        Mon, 03 Oct 2022 10:07:50 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1664816870; cv=none;
+        d=google.com; s=arc-20160816;
+        b=vJtwQaINF2W9hlwjhOGpxZ7egD6duKhsa4qDMTGvDAcRStIsq3NuzDU6ZC6JsXbJr7
+         R7kZpdXBWNrY26cwYg/LvpLQYpwFNSidW2BepwjXrtkoXyGSyZlgnCz63vy0TKoDmtd4
+         Bz7VTjnRBHaOYtMDRfuykfdws24KPA7r7hpXcf5M3duxyx9HGby3cbJd4duDRbM1Y5rG
+         OS/OBZpvxcQTDxjrQ7Zc2/1gbp1cZOK0CMFO/y1L5AHXn/4SZL6f6kBkP0m08zSrBYaU
+         RgZvan7qHzwUSMKQfeMbSvGzJHwLQjYyxF4PVfcns3y4M41V0OeF80ZjCjye4opfkw2T
+         N5+w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=frVTW06dzItdwH3AdgeTI0g6LBe6srcYf3pdT1uNGGk=;
+        b=TP3tpPCA5nGY5YhtKhu0Pn4qGsZKsALYlpMv5m6ZudSDIrIky11MsPSfpyVT4fX3dS
+         +0JDXBRaXmgbLjirJKae50Bw6HH+a6svzkqZTrNGtx8miyUIrZcbPbRzL2xBhI97nEgp
+         owPoP0tb2JCX1gb/pOY87/6a72Swxzcn7N8n6GQu+w6uxY7kUErbK4aA+s6I16xNiLqT
+         MW9A7W8lKD+a6nGC4hNcc7YhOrRsFRturp/EmXcAAWqfDUGVvUxPtjedU8U0/dIpTQtB
+         8QuW2wCrMb7vxVmyDgtt7vATgbxNPfP63nm8VjakMz6qDgXhRKEnN8cCR40wsvx9VDxi
+         D5BA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Xb2oNCYK;
+       spf=pass (google.com: domain of delivery_20221003130559.29250431.285527@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20221003130559.29250431.285527@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221003130559.29250431.285527@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id i69-20020a639d48000000b004350f53ef49si421754pgd.0.2022.10.03.10.07.49
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 03 Oct 2022 10:07:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20221003130559.29250431.285527@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=smn3DW3vQeSmln4wEMbZPpC16s39VRvvbkDKbkMTI2U=;
+ b=Xb2oNCYK0Cq0JSdo2SD8GaU6yPz9eITvjFHFy3WSP/uGHK7Q+KFeihhIskW9U053NA10ZCL4akEC
+   skKpaN8AIFXXXgsS7vEUcDzI4/AEoRr4lPI7WHa7XMKNfBEPWBwL4t/X/uC9X+pS1qnNNfQ3Toi8
+   /v+k5OLnUTXGhAB2NRQ=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by pmta29.sailthru.com id h7cbea2sd4su for <bloomberg@khamel.com>; Mon, 3 Oct 2022 13:07:48 -0400 (envelope-from <delivery_20221003130559.29250431.285527@mx.sailthru.com>)
+Date: Mon, 3 Oct 2022 13:05:59 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20221003130559.29250431.285527@sailthru.com>
+Subject: Money Stuff: Everyone Wanted to Buy Twitter With Elon
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_30139295_167808094.1664816759192"
+Precedence: bulk
+X-Feedback-ID: 6358:29250431:campaign:sailthru
+X-TM-ID: 20221003130559.29250431.285527
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddturquoise.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chexrz.64bb/678402dd
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chexrz.64bb/678402dd>, <mailto:unsubscribe_20221003130559.29250431.285527@mx.sailthru.com>
+X-rpcampaign: stjko29250431
+
+------=_Part_30139295_167808094.1664816759192
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        A good starting point for thinking about Elon Musk=E2=80=99s decisi=
+on to buy Twitter Inc., back in April, is that it did not involve any sprea=
+dsheet
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      The Elon texts
+   =20
+ =20
+
+A good starting point for thinking about Elon Musk=E2=80=99s decision to bu=
+y Twitter Inc., back in April, is that it did not involve any spreadsheets.=
+ Like, when Musk decided to offer $54.20 per share to buy Twitter, that was=
+ not based on any detailed financial modeling; Musk=E2=80=99s offers to buy=
+ companies are generally pretty whimsical, and 420 is a weed joke. Eventual=
+ly, as the deal started to go bad,   Musk demanded that Twitter send him=C2=
+=A0its=C2=A0bankers=E2=80=99 working financial model, which is pretty unusu=
+al in big public mergers and acquisitions,=C2=A0and suggests that Musk migh=
+t not have had a working model of his own.
+  [1]
+=C2=A0Why would he?
+Similarly, after Musk announced that he wanted to buy Twitter, he went look=
+ing for financing, including equity financing: He wanted other people to in=
+vest in the deal alongside him. Last week,  an assortment of text messages =
+from Musk=E2=80=99s phone became public as part of the preparation for the =
+trial, later this month, about whether Musk can get out of the deal he sign=
+ed in April. Some of these texts are Musk=E2=80=99s friends, acquaintances =
+and strangers texting him to say =E2=80=9Chey can I invest with you=E2=80=
+=9D and Musk saying =E2=80=9CI would love that=E2=80=9D or =E2=80=9Csure wh=
+atever=E2=80=9D or =E2=80=9Cno, not you,=E2=80=9D as the case may be. The g=
+eneral approach is refreshingly casual. Here are=C2=A0Musk and Larry Elliso=
+n on April 20 (the day that Musk delivered  his financing commitments to Tw=
+itter):
+
+Musk: Roughly what dollar size? Not holding you to anything, but the deal i=
+s oversubscribed,=C2=A0so I have to reduce or kick out some participants.
+Ellison: A billion =E2=80=A6=C2=A0or whatever you recommend
+Musk: Whatever works for you. I=E2=80=99d recommend maybe $2B or more. This=
+ has very high potential and I=E2=80=99d rather have you than anyone else.
+Ellison: I agree that it has huge potential =E2=80=A6=C2=A0and it would be =
+lots of fun.
+Musk: Absolutely :)
+
+Ellison  came in for $1 billion. =E2=80=9CThe deal is oversubscribed=E2=80=
+=9D is just sort of a figure of speech.=C2=A0Obviously the deal was not ove=
+rsubscribed, and in fact a month later Musk was still openly  hunting for m=
+ore equity investors. But it would be weird not=C2=A0to say =E2=80=9Cthe de=
+al is oversubscribed=E2=80=9D =E2=80=94=C2=A0it would sound desperate=C2=A0=
+=E2=80=94=C2=A0so Musk did.
+Or here is Michael Grimes, Musk=E2=80=99s lead banker at Morgan Stanley, pi=
+tching him on crypto mogul Sam Bankman-Fried on April 25 (the day he signed=
+ the deal to buy Twitter):
+
+Grimes: Sam Bankman-Fried is why I=E2=80=99m calling. =E2=80=A6
+Musk: ???
+Musk: I=E2=80=99m backlogged with a mountain of critical work matters. Is t=
+his urgent?
+Grimes: Wants 1-5b. Serious about partner w/you. Same security you own. =E2=
+=80=A6
+Grimes: Could do 5bn if everything vision lock. Would do the engineering fo=
+r social media blockchain integration. Founded FTX crypto exchange. Believe=
+s in your mission. Major Democratic donor. So thought it was potentially wo=
+rth an hour tomorrow a la the Orlando meeting and he said he could shake ha=
+nds on 5 if you like him and I think you will. Can talk when you have more =
+time not urgent but if tomorrow works out it could get us 5bn equity in an =
+hour.
+
+Musk replied by hitting the =E2=80=9Cdislike=E2=80=9D tapback button. (To b=
+e fair, he also replied that =E2=80=9CBlockchain twitter isn=E2=80=99t poss=
+ible,=E2=80=9D agreed to meet =E2=80=9Cso long as I don=E2=80=99t have to h=
+ave a laborious blockchain debate,=E2=80=9D and asked if Bankman-Fried actu=
+ally had $3 billion liquid. Ultimately Bankman-Fried and FTX never signed c=
+ommitments to invest in Twitter, though Binance, another crypto exchange, w=
+as in for $500 million.) The point I want to make here is that Elon Musk ha=
+s attained=C2=A0a level of wealth and power where sometimes he gets text me=
+ssages offering him $5 billion and he=C2=A0replies with a thumbs-down and m=
+oves on with his day.
+People got mad about these texts?  Charlie Warzel:
+In no time, the texts were the central subject of discussion among tech wor=
+kers and watchers. =E2=80=9CThe dominant reaction from all the threads I=E2=
+=80=99m in is Everyone looks ... dumb,=E2=80=9D one former social-media exe=
+cutive, whom I=E2=80=99ve granted anonymity because they have relationships=
+ with many of the people in Musk=E2=80=99s texts, told me. =E2=80=9CIt=E2=
+=80=99s been a general Is this really how business is done? There=E2=80=99s=
+ no real strategic thought or analysis. It=E2=80=99s just emotional and don=
+e without any real care for consequence.=E2=80=9D
+I dunno. How=C2=A0should=C2=A0people be doing business over text messaging?=
+ On April 17, as Musk was publicly pressuring Twitter=E2=80=99s board with =
+a semi-hostile takeover bid, the chairman of the board, Bret Taylor, reache=
+d out to him by text to say =E2=80=9CElon, I am just checking in to reitera=
+te that the board is seriously reviewing the proposal in your letter. We ar=
+e working on a formal response as quickly as we can consistent with our fid=
+uciary duties. Feel free to reach out anytime.=E2=80=9D Formal, serious, fu=
+ll sentences, reviewed by a lawyer: very much Business Texting. Musk replie=
+d with the =E2=80=9Clike=E2=80=9D tapback. How else should he have replied?=
+ Yes, right, fiduciary duties, gotcha, thumbs up. He is doing big business,=
+ but he=E2=80=99s also texting. The thumbs-up button is right there.
+These texts make sense to me. There is a popular sense about=C2=A0Twitter t=
+hat it is:
+=09Tremendously important to society, the place where memes are made, an ar=
+biter of political fortunes, =E2=80=9Cthe public square,=E2=80=9D an addict=
+ion for rich and powerful people, and in many ways the most important websi=
+te in the world; and also=09just a disorganized unmanaged mess.
+
+=E2=80=9CA clown car that fell into a gold mine,=E2=80=9D is  Mark Zuckerbe=
+rg=E2=80=99s famous phrase, but these days no one would emphasize the gold =
+mine. This is a website that the world=E2=80=99s richest person, Elon Musk,=
+ and the former president of the US, Donald Trump, are obsessed with, a web=
+site with immense geopolitical power, and it makes money by serving not par=
+ticularly well-targeted text ads and dithers for years about questions like=
+ whether you should be able to edit tweets.=C2=A0
+It is very common in the circles I run in =E2=80=94=C2=A0people who write a=
+bout business and finance and technology =E2=80=94=C2=A0for people to think=
+ =E2=80=9Cman, if I ran Twitter, I could do a much better job.=E2=80=9D It =
+is I think even more common in, like, venture-capitalist and tech-investor =
+circles for people to think =E2=80=9Cman, if=C2=A0Elon Musk=C2=A0ran Twitte=
+r,=C2=A0he=C2=A0could do a much better job.=E2=80=9D This is not the sort o=
+f belief that starts with a detailed financial model. It starts with the ba=
+sic popular intuition that Twitter is very valuable and important, and very=
+ poorly run and poorly monetized, and with another popular intuition that t=
+he world=E2=80=99s richest person, who builds electric cars and sends rocke=
+ts into space, is unusually talented at running disparate businesses. =E2=
+=80=9CIf you gave this very popular important product to a guy who is world=
+-historically good at business, he could make it a good business,=E2=80=9D =
+is the general idea. It seems reasonable! Is running a=C2=A0website harder =
+than sending rockets to space and building electric cars? Very possibly! Do=
+ some of Elon Musk=E2=80=99s ideas for running Twitter seem, to me,=C2=A0ba=
+d? Oh sure! But the basic thesis =E2=80=94=C2=A0that Musk could do a signif=
+icantly better job of making money out of Twitter than Twitter can =E2=80=
+=94=C2=A0seems quite plausible, though not of course free from risk.
+If this is your starting thesis then of course you could update it in vario=
+us ways. Like, for instance, if you had Elon Musk=E2=80=99s phone number yo=
+u could text him and be like =E2=80=9Chow would you make money if you ran T=
+witter?=E2=80=9D and if he texted you back a detailed business plan that yo=
+u found compelling, your estimate of the value of Twitter-owned-by-Musk=C2=
+=A0would go up, and if he texted you back =E2=80=9Clol idk blockchain?=E2=
+=80=9D =E2=80=94=C2=A0or =E2=80=9CI do not plan to make money, I plan to lo=
+se money, this is a commitment to free speech,=E2=80=9D for that matter =E2=
+=80=94=C2=A0then your estimate would go down. But:
+=09Even if your estimate went down, it still might be higher than your esti=
+mate for freestanding Twitter. You might think that Twitter would make more=
+ money under Elon Musk,=C2=A0if he were trying not to make money, than it d=
+oes under current management, which is trying to make money. =E2=80=9CElon =
+Musk makes more money when he=E2=80=99s not trying to make money than most =
+other people will make when they try their hardest to make money=E2=80=9D i=
+s just=C2=A0obviously empirically true, so it is not crazy to apply it here=
+.=09If your starting estimate is high enough, and if your connections to Mu=
+sk are tenuous enough, is that really the text that you want to send him? T=
+he richest man in the world? Who is getting into a (by your initial estimat=
+es) probably hugely lucrative deal, and who wants co-investors? You really =
+want your text to be, like, =E2=80=9Cyo Elon, long time no talk, I was wond=
+ering if you could answer a few questions I had about your financial modeli=
+ng?=E2=80=9D No, come on, you text him =E2=80=9Cyo Elon, love what you=E2=
+=80=99re doing, I want to support you, I=E2=80=99m in for any amount you wa=
+nt.=E2=80=9D And then if he texts you back =E2=80=9Cthanks man it=E2=80=99s=
+ pretty tightly allocated but I appreciate your support so I=E2=80=99ll let=
+ you put in $100 million,=E2=80=9D you leap at the chance. And if he texts =
+you back =E2=80=9Cthanks that=E2=80=99s great how=E2=80=99s $2 billion=E2=
+=80=9D then =E2=80=A6=C2=A0that=E2=80=99s much worse!
+  [2]
+=C2=A0=E2=80=A6=C2=A0but you scrounge up the $2 billion=C2=A0anyway. (If yo=
+u are not a person who can raise $2 billion on short notice to co-invest wi=
+th Elon Musk then you probably don=E2=80=99t have his phone number.)
+
+Also, I have spent the last few years promoting the   Elon Markets Hypothes=
+is, which says that =E2=80=9Cthe way finance works now is that things are v=
+aluable not based on their cash flows but on their proximity to Elon Musk.=
+=E2=80=9D If you believe that, and I suppose I do, then any due diligence, =
+beyond making sure that you have the correct phone number for Musk, is supe=
+rfluous.
+Anyway Musk=E2=80=99s tweets are great. The best analysis I have read of th=
+em is from Katie Notopolous, who  tweeted that =E2=80=9CElon Musk's text me=
+ssaging style is very efficient and also makes everyone who texts him look =
+like an absolute dillweed.=E2=80=9D This is true, though I think it is larg=
+ely a function of being the richest person in the world. If I were the rich=
+est person in the world I assume a lot of people would send me a lot of lon=
+g fawning texts and I=E2=80=99d send a lot of replies like=C2=A0=E2=80=9Clo=
+l=E2=80=9D or =E2=80=9Ctx=E2=80=9D or just=C2=A0a thumbs-up tapback. I assu=
+me that would feel very cool, to me, though it is hard to untangle =E2=80=
+=9Csending tapback replies to fawning texts would feel cool=E2=80=9D from =
+=E2=80=9Cbeing the richest person in the world would feel cool.=E2=80=9D Bu=
+t it is reassuring to see that Elon Musk, who is the richest person in the =
+world, seems to get pleasure from the same simple things that I imagine I w=
+ould enjoy in his situation.=C2=A0
+One other exchange just because it=E2=80=99s so funny, with venture capital=
+ist Jason Calacanis on May 12, when it  was reported that Calacanis was =E2=
+=80=9Cseeking to raise tens of millions of dollars for a stake in Twitter=
+=E2=80=9D in a special purpose vehicle from=C2=A0=E2=80=9Chis network of hi=
+gh net worth individuals=E2=80=9D with a minimum investment of $250,000 and=
+ a 10% slice of the carry for himself:
+
+Musk: What=E2=80=99s going on with you marketing an SPV=C2=A0to randos? Thi=
+s is not ok.
+Calacanis: Not randos, I have the largest angel syndicate and that=E2=80=99=
+s how I invest. We=E2=80=99ve done 250+ deals like this and we know all the=
+ folks. I thought that was how folks were doing it.
+Calacanis: $100m+ on commitments, but if that=E2=80=99s not ok it=E2=80=99s=
+ fine. Just wanted to support the effort.
+Calacanis: ~300 [qualified purchasers] and 200 accredited investors said th=
+ey would do it. It=E2=80=99s not an open process obviously, only folks alre=
+ady in our syndicate.
+Calacanis: There is *massive* demand to support your effort btw =E2=80=A6=
+=C2=A0people really want to see you win.
+Musk: Morgan Stanley and Jared [Birchall, the head of Musk=E2=80=99s family=
+ office] think you are using our friendship not in a good way
+Musk: This makes it seem like I=E2=80=99m desperate
+Musk: Please stop
+...
+Calacanis: Just trying to support you =E2=80=A6=C2=A0obviously. I reached o=
+ut to Jared and sort it out.
+Musk: [hits =E2=80=9Clike=E2=80=9D tapback]
+=E2=80=A6=C2=A0
+Calacanis: And you know I=E2=80=99m ride or die brother =E2=80=94=C2=A0I=E2=
+=80=99d jump on a grande for you.
+Musk: [hits =E2=80=9Clove=E2=80=9D tapback]
+
+Look if you called up an investment bank they could put together a slide de=
+ck for you on the pros and cons of syndicating your leveraged buyout equity=
+ to a special purpose vehicle of mass-affluent investors, and it would look=
+ like Fancy Business, but this exchange covers all the essentials and is mu=
+ch clearer and more insightful. =E2=80=9CNot randos=E2=80=9D!
+Like I said, these texts came out in preparation for a trial this month abo=
+ut whether Musk will still have to buy Twitter. Musk=E2=80=99s basic argume=
+nt in that trial is that he was misled about what he was buying:   Original=
+ly he claimed that Twitter was lying to him about how many spam bots it has=
+, but there was never any evidence for that =E2=80=94 it turns out that eve=
+n Musk=E2=80=99s own data scientists=C2=A0basically agreed with Twitter=E2=
+=80=99s numbers =E2=80=94=C2=A0and now he has moved on to more baroque theo=
+ries of how   Twitter is defrauding the public with bad information-securit=
+y practices. One obvious conclusion that you can draw from these texts is t=
+hat Musk did not care about any of these things=C2=A0before=C2=A0he signed =
+the deal; he was not having detailed text chats with his advisers about how=
+ he could optimize growth of monetizable daily active users. (Perhaps he wa=
+s keeping those conversations on=C2=A0email?)=C2=A0
+But all of these texts happened against a background of Twitter being a pub=
+lic company; broadly speaking, Musk and Ellison and Bankman-Friend and Cala=
+canis and everyone else would have been more or less justified in assuming =
+=E2=80=9Cwell, Twitter=E2=80=99s public filings are accurate, and its stock=
+ price reflects what the market thinks it is worth, and if Elon Musk=E2=80=
+=99s magic is worth a 50% premium then buying it at a 25% premium is a good=
+ deal.=E2=80=9D You don=E2=80=99t need a detailed financial model; the effi=
+cient markets hypothesis tells you that the current price of the stock is t=
+he best estimate of its fundamental value, as long as it is not successfull=
+y concealing a huge fraud. Musk=E2=80=99s argument is that it was concealin=
+g a huge fraud, and that its public filings were full of lies about bots, o=
+r about information security, or whatever.   This seems like a stretch to m=
+e, but if he=E2=80=99s=C2=A0right=C2=A0that the filings are misleading then=
+ it is not really a defense to say =E2=80=9Cbut you didn=E2=80=99t read the=
+m.=E2=80=9D Of course he didn=E2=80=99t read them! He was relying on everyo=
+ne else to read them and come up with a fair price; that=E2=80=99s the effi=
+cient markets hypothesis. And then he was going to pay more than that fair =
+price and still make money; that=E2=80=99s the Elon Markets Hypothesis.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Credit Suisse
+   =20
+ =20
+
+An oversimplified but useful description of a credit default swap is that i=
+t is a bet that some company will default on its debt. We make this bet for=
+ some period of time, say five years, and I pay you $X per year, which is c=
+alled the =E2=80=9Cpremium=E2=80=9D or more often the =E2=80=9CCDS spread.=
+=E2=80=9D And then if the company defaults during the five years, you pay m=
+e back $100. And if it doesn=E2=80=99t, you pay me nothing and keep the spr=
+ead.
+This is wrong in lots of important ways that I am simply not going to discu=
+ss here, and I will ignore your emails pointing them out, but it is=C2=A0ro=
+ughly=C2=A0right.
+  [3]
+=C2=A0It is right to within, you know,  a factor of two,=C2=A0maybe a facto=
+r of four. One thing that this crude model is useful for is getting=C2=A0a=
+=C2=A0rough but immediate intuition for what CDS spreads mean about the pro=
+bability of default. If you promise to pay me $100 if a company defaults, a=
+nd in exchange you charge me $X per year, X/100 is=C2=A0in the ballpark=C2=
+=A0of your expected probability that the company will default this year. Oh=
+ it=E2=80=99s not really a good probability estimate, don=E2=80=99t go trad=
+ing CDS on this intuition, and don=E2=80=99t email me to point out the nuan=
+ces that it misses.
+  [4]
+=C2=A0But it=E2=80=99s the right order of magnitude. If you think that a co=
+mpany is basically a coin flip to default this year, you will not sell me $=
+100 of CDS for $5: Half the time, you will have to pay out $100, and the $5=
+ premium does not cover that. If you think that a company is vanishingly un=
+likely to default this year, you might sell me $100 of CDS for $1, or $0.50=
+, or even less. Apple Inc. five-year CDS will run you about 30 basis points=
+, or $0.30 per year for $100 of coverage. The people selling that CDS do no=
+t think that Apple will default. The people buying that CDS don=E2=80=99t t=
+hink that either; they have other reasons for making this bet, which they f=
+ully expect to lose.
+As of 9 a.m. New York time today, five-year CDS on Credit Suisse Group AG w=
+as trading at about 350=C2=A0basis points, meaning roughly =E2=80=94=C2=A0r=
+oughly! =E2=80=94=C2=A0that I would have to pay you $3.50=C2=A0per year for=
+ this bet, and you=E2=80=99d pay me $100 if Credit Suisse defaults. What do=
+es this tell you about the market-implied probability that Credit Suisse wi=
+ll default on its debt? Well, Credit Suisse CDS was trading at about 250 ba=
+sis points on Friday,=C2=A0 about 135 in June, about 57 at the start of the=
+ year. So it tells you that the market-implied probability of default has g=
+one=C2=A0up=C2=A0a lot. But it is still absolutely=C2=A0low. You would not =
+charge me $3.50 per year for $100 of insurance against Credit Suisse defaul=
+ting unless you thought the chances of that happening were slim.
+Of course markets can be wrong, and sometimes companies bop along with quit=
+e low CDS spreads and then one day default on their debts. (This is particu=
+larly a risk for financial companies, which tend to default because of sudd=
+en bank runs=C2=A0rather than long slow business deterioration.) But a weir=
+d thing happened this weekend where people looked at the chart of Credit Su=
+isse CDS prices, saw them going up a lot,  and said =E2=80=9CAha! This prov=
+es that Credit Suisse is in distress!=E2=80=9D But, no. It proves that a=C2=
+=A0number went up a lot, but remains, in the scheme of things, low.
+On the other hand the problem with stuff like this is that then Credit Suis=
+se has to put out a statement saying that everything is fine, and nothing i=
+s worse for a bank than putting out a statement saying that everything is f=
+ine. (Bagehot:=C2=A0=E2=80=9CEvery banker knows that if he has to prove tha=
+t he is worthy of credit, however good may be his arguments, in fact his cr=
+edit is gone.=E2=80=9D)   Anyway:
+
+Credit Suisse Group AG was plunged into fresh market turmoil after Chief Ex=
+ecutive Officer Ulrich Koerner=E2=80=99s attempts to reassure employees and=
+ investors backfired, adding to uncertainty surrounding the bank.
+The stock, which had already more than halved this year before Monday=E2=80=
+=99s sell-off, fell as much as 12% in Zurich trading to a record low that v=
+alues the firm at less than $10 billion. That was accompanied by a spike in=
+ the cost to insure the bank=E2=80=99s debt against default, which jumped t=
+o its highest ever.
+Koerner, for the second time in as many weeks, had sought to calm employees=
+ and the markets with a memo late Friday stressing the bank=E2=80=99s liqui=
+dity and capital strength. Instead, it focused attention on the dramatic re=
+cent moves in the firm=E2=80=99s stock price and credit spreads, and invest=
+ors rushed for the exit when trading reopened after the weekend.=C2=A0
+While acknowledging that the bank was at a =E2=80=9Ccritical moment,=E2=80=
+=9D he pledged to send employees regular updates until the firm announces i=
+ts new strategic plan on Oct. 27. At the same time, Credit Suisse again sen=
+t around talking points to executives dealing with clients who brought up t=
+he credit default swap, according to people with knowledge of the matter.
+While those are still far from distressed -- and also part of a broad marke=
+t selloff -- they signify deteriorating perceptions of creditworthiness for=
+ the scandal-hit bank in the current environment.=C2=A0 ...
+Still, some prominent figures took to Twitter over the weekend to dismiss s=
+ome of the rumors circulating on social media prompted by the widened CDS s=
+pread as =E2=80=9Cscaremongering.=E2=80=9D Saba Capital Management=E2=80=99=
+s Boaz Weinstein tweeted =E2=80=9Ctake a deep breath=E2=80=9D and compared =
+the situation to when Morgan Stanley=E2=80=99s CDS was twice as wide in 201=
+1 and 2012.
+
+And the Wall Street Journal  notes:
+The beleaguered lender=E2=80=99s share price fell around 8% in early tradin=
+g on Monday. The apparent trigger for the latest selloff was nothing more t=
+han its bankers calling customers and investors this weekend to reassure th=
+em that all is in hand despite a jump in its credit-default swaps on Friday=
+.
+Yeah, no, high on the list of calls that you never want to get is =E2=80=9C=
+hi, this is your bank, we just wanted to tell you that everything is fine h=
+ere, how are you?=E2=80=9D
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Kim Kardashian
+   =20
+ =20
+
+I suppose there are some people =E2=80=94 there might be one person =E2=80=
+=94=C2=A0maybe there isn=E2=80=99t, I don=E2=80=99t know =E2=80=94=C2=A0who=
+se social media consumption is mainly:
+=09Kim Kardashian=E2=80=99s Instagram, and=09US Securities and Exchange Com=
+mission Chair Gary Gensler=E2=80=99s YouTube channel.
+
+Like, sure, why not. You like Kim Kardashian, but you also want to keep up =
+on the latest trends in securities enforcement. If this is you, then last J=
+une you will have gotten Kim Kardashian=E2=80=99s Instagram story promoting=
+ EthereumMax, a piece of absolute crypto nonsense that is  now trading at=
+=C2=A0$0.000000004229. And then today you will have seen  Gensler's YouTube=
+ video that =E2=80=9Ccautions=C2=A0investors not to make investment decisio=
+ns based solely on the recommendations of a celebrity or influencer.=E2=80=
+=9D =E2=80=9CAh well,=E2=80=9D you will say to yourself, =E2=80=9Cshame I p=
+ut my life savings into EthereumMax on Kim Kardashian=E2=80=99s recommendat=
+ion, but at least now I know not to do it again.=E2=80=9D The system worked=
+, for you, though with a delay that turned out to be pretty material. (The =
+time to warn you not to buy crypto based on Kim Kardashian=E2=80=99s toutin=
+g was=C2=A0before=C2=A0she touted crypto.)
+But you=E2=80=99re an unusual case. Kardashian has  331 million Instagram f=
+ollowers. As of 9:30 a.m. today that Gensler video had fewer than=C2=A01,00=
+0 views. There is a reason that she can get paid $250,000 per post to promo=
+te the purest possible crypto nonsense, despite the SEC=E2=80=99s counter-p=
+rogramming.
+Anyway:
+
+The Securities and Exchange Commission today announced charges against Kim =
+Kardashian for touting on social media a crypto asset security offered and =
+sold by EthereumMax without disclosing the payment she received for the pro=
+motion. Kardashian agreed to settle the charges, pay $1.26 million in penal=
+ties, disgorgement, and interest, and cooperate with the Commission=E2=80=
+=99s ongoing investigation.
+The SEC=E2=80=99s order finds that Kardashian failed to disclose that she w=
+as paid $250,000 to publish a post on her Instagram account about EMAX toke=
+ns, the crypto asset security being offered by EthereumMax. Kardashian=E2=
+=80=99s post contained a link to the EthereumMax website, which provided in=
+structions for potential investors to purchase EMAX tokens.
+"This case is a reminder that, when celebrities or influencers endorse inve=
+stment opportunities, including crypto asset securities, it doesn=E2=80=99t=
+ mean that those investment products are right for all investors," said SEC=
+ Chair Gary Gensler. "We encourage investors to consider an investment=E2=
+=80=99s potential risks and opportunities in light of their own financial g=
+oals."
+
+I would have been stronger there? I do not give investing advice around her=
+e, but a reasonable rule of thumb is =E2=80=9Cwhen celebrities or influence=
+rs endorse investment opportunities, especially crypto asset securities, th=
+at definitely means that those investment products are wrong for all invest=
+ors=E2=80=9D? Like, who was=C2=A0EthereumMax right for? Also, when celebrit=
+ies and influencers endorse a crypto thing you=E2=80=99ve never heard of, i=
+t definitely=C2=A0means=C2=A0they got paid to do it? Honestly if you get an=
+ Instagram post from an influencer promoting a crypto thing and=C2=A0not=C2=
+=A0disclosing that she was paid for it, the investment opportunity is to se=
+nd a whistleblower letter to the SEC. Maybe they=E2=80=99ll pay you for poi=
+nting it out.=C2=A0
+
+ =20
+   =20
+      McKinsey
+   =20
+ =20
+
+I suppose that if you work at McKinsey & Co. and you go to do on-campus rec=
+ruiting, you will meet a lot of idealistic students, and you will talk to t=
+hem about McKinsey=E2=80=99s commitment to pro bono work and the value of i=
+ts consulting on behalf of, you know, governments and nonprofits and nice c=
+ompanies. And then some of them will say =E2=80=9Cwell I keep reading  all =
+these  stories about how you use the power of consulting for  evil,=E2=80=
+=9D and then I am sure you have some sort of canned response to assuage the=
+m and redirect them to the things you want to talk about. (As a former lawy=
+er, I feel like I have a sense of what the canned responses sound=C2=A0like=
+ =E2=80=94=C2=A0=E2=80=9Cthe most important thing is client loyalty,=E2=80=
+=9D =E2=80=9Ceveryone is entitled to consultants,=E2=80=9D =E2=80=9Cwe help=
+ the evil clients be 17% less evil,=E2=80=9D etc.)
+But do you ever meet with a college senior who is like =E2=80=9CI read abou=
+t your work  advising opioid makers to pay pharmacies bounties when patient=
+s overdosed, and that is the sort of innovative outside-the-box thinking th=
+at I want to be involved in=E2=80=9D? Do you ever get recruits who self-sel=
+ect into the Evil Department? Having worked at (and done on-campus recruiti=
+ng for) an investment bank, I=E2=80=99m gonna bet the answer is yes. What d=
+o you do with those recruits? Do your eyes light up? Are you like =E2=80=9C=
+yes,=C2=A0you=C2=A0we can put to work=E2=80=9D? Or are you like =E2=80=9Cuh=
+ look we regretfully do some evil stuff, sure, but we=E2=80=99re gonna get =
+in trouble if we start hiring people who are too excited about it=E2=80=9D?=
+ I don=E2=80=99t know.
+Anyway here=E2=80=99s another  New York Times story about McKinsey, this on=
+e about its work for tobacco and vaping companies:
+
+As recently as 2016, more than 50 years after the surgeon general confirmed=
+ the link between smoking and cancer, McKinsey still saw merit =E2=80=94 an=
+d profits =E2=80=94 in continuing to help companies sell more cigarettes.
+In a slide deck prepared for Altria, formerly Philip Morris, McKinsey offer=
+ed ideas for how the tobacco company could keep customers and lure new smok=
+ers. It presented a mock-up of what a Marlboro smartphone app would look li=
+ke, complete with a way for loyal smokers to win points redeemable for smal=
+l prizes.
+
+Imagine starting smoking, or smoking more, because of an app. =E2=80=9CJust=
+ need to smoke one more pack to win a small prize in my smartphone app.=E2=
+=80=9D I feel like if Altria hired me for advice on how to keep people smok=
+ing cigarettes I would  say things like =E2=80=9Cwhat you do is you put nic=
+otine in the cigarettes, nicotine is highly addictive and then people won=
+=E2=80=99t be able to stop smoking.=E2=80=9D I guess that=E2=80=99s the adv=
+ice you=E2=80=99d get from the people who are too enthusiastic about joinin=
+g the Evil Department? But then what were the app people thinking?
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Liz Truss  backs down on 45%=C2=A0tax rate cut in major U-turn.=C2=A0Demand=
+ for   Aluminum Slows in Another Sign of Troubled Economy.=C2=A0Boaz Weinst=
+ein Reveals the Secret Trade That Helped Make Him Famous.=C2=A0A broken  in=
+surance market threatens Florida and its star governor. Celsius Network fou=
+nder withdrew $10mn  ahead of bankruptcy. London Gold Dealer   Runs Out of =
+Bullion as Truss Budget Shocks. Texas=E2=80=99   ESG Attack Sweeps Up Some =
+Funds That Aren=E2=80=99t Really ESG. Employees Who Shift to 4-Day Week Dev=
+ote New Free Time to   Sleep. Australians petition to put  Steve Irwin on n=
+ew currency, replacing Queen Elizabeth.=C2=A0Backing Lindt, Swiss Court Ord=
+ers Lidl to =E2=80=98Destroy=E2=80=99 Its  Chocolate Bunnies.=C2=A0Chipotle=
+=E2=80=99s =E2=80=98  Proof of Steak=E2=80=99 Crypto Promo Sells Out Early.=
+=C2=A0
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] I kid: The point of that request was to be annoying, not to get a wor=
+king model. Surely Musk=E2=80=99s bankers at Morgan Stanley had their own f=
+inancial models that they could have shared with him (and probably tried to=
+!), not least because they committed for a lot of debt financing, and *bank=
+s* don't do that without a financial model.
+
+
+  [2] =E2=80=9CYou=E2=80=99re never happy with the amount you traded,=E2=80=
+=9D is Agustin Lebron=E2=80=99s  second law of trading. If you say =E2=80=
+=9CElon I=E2=80=99m in for any size=E2=80=9D and he cuts you in for a small=
+ slice, then you wish it was bigger, but at least you can expect to make a =
+large return on your small slice, because lots of people are clamoring to i=
+nvest with him and (1) probably they=E2=80=99re right and (2) in any case i=
+f they=E2=80=99re wrong you can probably flip your slice to one of them for=
+ a profit. If he cuts you in for a very very large slice then that means th=
+at no one else is clamoring to invest with him, which probably means you=E2=
+=80=99re missing something.
+
+
+  [3] Most importantly, it ignores recovery value. in real CDS, if there is=
+ a default, you pay me the $100, but I give you back $100 face amount of th=
+e issuer=E2=80=99s bonds. (Because traditionally CDS was about insuring bon=
+ds against default risk; I own bonds and want to hedge against the risk of =
+default, and when there is a default I give you the bonds and you give me t=
+he money.) Those bonds are not going to be worth $100, because the issuer i=
+s in default, but they probably won=E2=80=99t be worth $0 either: You=E2=80=
+=99ll be able to get some money out of the bankrupt issuer. It is a convent=
+ion to assume that the =E2=80=9Crecovery=E2=80=9D on default will be about =
+40 cents on the dollar (so $40 here), though in reality it will vary widely=
+. There are other important things missing from this simple model. Modern C=
+DS pays standardized running spreads and points up front, so in practice I =
+will pay more of the premium to you at the beginning and less as a running =
+spread over time; this is an important difference if you think that the pro=
+bability of default is not evenly spaced over the five-year term. And in pr=
+actice CDS will generally cash settle based on an auction of bonds that det=
+ermines the recovery price, and there are shenanigans possible there. And o=
+f course most CDS bets make or lose money based on changes in spread rather=
+ than on actual realized defaults; you can reasonably buy CDS to bet =E2=80=
+=9CI think the market=E2=80=99s view of this company=E2=80=99s creditworthi=
+ness will deteriorate=E2=80=9D rather than =E2=80=9CI think this company wi=
+ll go bankrupt.=E2=80=9D What I say in the text is the broad general intuit=
+ion for what CDS *is*, but if you actually trade CDS based only on this int=
+uition you=E2=80=99ll get your face ripped off a lot. If you actually trade=
+ CDS you need to know the real mechanics.
+
+
+  [4] Bloomberg=E2=80=99s CDSW page will give you a more standard-model cal=
+culation of implied probability of default from CDS prices, though you will=
+ need to put in a recovery assumption to have this probability be meaningfu=
+l. (And it will be the implied probability over the CDS term, not per year.=
+)
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chexrz.64bb/77e439ef.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_30139295_167808094.1664816759192
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+A good starting point for thinking about Elon Musk=E2=80=99s decision to bu=
+y Twitter Inc., back in April, is that it did not involve any spreadsheet
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yOTI1MDQzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1MzU5NTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB7ebc1fa9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D29250431&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29535958&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMDAzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEwMDMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB4aee0947"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yOTI1MDQzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1MzU5NTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC207ee19a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D29250431&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29535958&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The Elon texts</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A good starting point for thinking about Elon =
+Musk=E2=80=99s decision to buy Twitter Inc., back in April, is that it did =
+not involve any spreadsheets. Like, when Musk decided to offer $54.20 per s=
+hare to buy Twitter, that was not based on any detailed financial modeling;=
+ Musk=E2=80=99s offers to buy companies are generally pretty whimsical, and=
+ 420 is a weed joke. Eventually, as the deal started to go bad, <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/29250431.285527/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMDkvZWxvbi1zLW91dD9j=
+bXBpZD1CQkQxMDAzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV=
+3c2xldHRlciZ1dG1fdGVybT0yMjEwMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef=
+4b8524a319a23cB5bd9aaf7" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  Musk demanded</a> that Twitter send him=
+=C2=A0<em>its=C2=A0</em>bankers=E2=80=99 working financial model, which is =
+pretty unusual in big public mergers and acquisitions,=C2=A0and suggests th=
+at Musk might not have had a working model of his own.<a class=3D"footnote-=
+index" href=3D"#footnote-1" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: none !important; background-color: transparent !important; di=
+splay: inline-block;">
+<span>[1]</span>
+</a>=C2=A0Why would he?</p>
+<p style=3D"margin: 16px 0;">Similarly, after Musk announced that he wanted=
+ to buy Twitter, he went looking for financing, including equity financing:=
+ He wanted other people to invest in the deal alongside him. Last week, <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aHR0c=
+HM6Ly9zMy5kb2N1bWVudGNsb3VkLm9yZy9kb2N1bWVudHMvMjMxMDgzNTcvcmVkYWN0ZWQtdmVy=
+c2lvbi1vZi1leGhpYml0cy1hLWotdG8tbGV0dGVyLXRvLXRoZS1ob25vcmFibGUta2F0aGFsZWV=
+uLXN0LWotbWNjb3JtaWNrLWZyb20tZWR3YXJkLWIucGRm/607f07ceef4b8524a319a23cB1627=
+5a47" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> an assortment of text messages</a> from Musk=E2=80=99s phone=
+ became public as part of the preparation for the trial, later this month, =
+about whether Musk can get out of the deal he signed in April. Some of thes=
+e texts are Musk=E2=80=99s friends, acquaintances and strangers texting him=
+ to say =E2=80=9Chey can I invest with you=E2=80=9D and Musk saying =E2=80=
+=9CI would love that=E2=80=9D or =E2=80=9Csure whatever=E2=80=9D or =E2=80=
+=9Cno, not you,=E2=80=9D as the case may be. The general approach is refres=
+hingly casual. Here are=C2=A0Musk and Larry Ellison on April 20 (the day th=
+at Musk delivered <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+29250431.285527/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTg=
+wOTEvMDAwMTEwNDY1OTIyMDQ4MTI4L3RtMjIxMzIyOWQxX3NjMTNkYS5odG0/607f07ceef4b85=
+24a319a23cB1491df2f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> his financing commitments</a> to Twitter):</=
+p>
+<blockquote>
+<p style=3D"margin: 16px 0;"><strong>Musk: </strong>Roughly what dollar siz=
+e? Not holding you to anything, but the deal is oversubscribed,=C2=A0so I h=
+ave to reduce or kick out some participants.</p>
+<p style=3D"margin: 16px 0;"><strong>Ellison:</strong> A billion =E2=80=A6=
+=C2=A0or whatever you recommend</p>
+<p style=3D"margin: 16px 0;"><strong>Musk:</strong> Whatever works for you.=
+ I=E2=80=99d recommend maybe $2B or more. This has very high potential and =
+I=E2=80=99d rather have you than anyone else.</p>
+<p style=3D"margin: 16px 0;"><strong>Ellison:</strong> I agree that it has =
+huge potential =E2=80=A6=C2=A0and it would be lots of fun.</p>
+<p style=3D"margin: 16px 0;"><strong>Musk:</strong> Absolutely :)</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Ellison <a href=3D"https://link.mail.bloomberg=
+business.com/click/29250431.285527/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9l=
+ZGdhci9kYXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIyMDU2MDU1L3RtMjIxNDYwOC0xX3NjMTNkYS5=
+odG0/607f07ceef4b8524a319a23cBdb340ff7" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> came in for $1 billion</a>=
+. =E2=80=9CThe deal is oversubscribed=E2=80=9D is just sort of a figure of =
+speech.=C2=A0Obviously the deal was not oversubscribed, and in fact a month=
+ later Musk was still openly <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/29250431.285527/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9k=
+YXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIyMDY0NjU1L3RtMjIxNjkzMWQxX3NjMTNkYS5odG0/607=
+f07ceef4b8524a319a23cB213c38de" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> hunting for more equity investors<=
+/a>. But it would be weird <em>not=C2=A0</em>to say =E2=80=9Cthe deal is ov=
+ersubscribed=E2=80=9D =E2=80=94=C2=A0it would sound desperate=C2=A0=E2=80=
+=94=C2=A0so Musk did.</p>
+<p style=3D"margin: 16px 0;">Or here is Michael Grimes, Musk=E2=80=99s lead=
+ banker at Morgan Stanley, pitching him on crypto mogul Sam Bankman-Fried o=
+n April 25 (the day he <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/29250431.285527/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLz=
+E0MTgwOTEvMDAwMTE5MzEyNTIyMTE3NzIwL2QzMTkxOTBkZXg5OTEuaHRt/607f07ceef4b8524=
+a319a23cBeb71618f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">signed the deal to buy Twitter</a>):</p>
+<blockquote>
+<p style=3D"margin: 16px 0;"><strong>Grimes:</strong> Sam Bankman-Fried is =
+why I=E2=80=99m calling. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;"><strong>Musk:</strong> ???</p>
+<p style=3D"margin: 16px 0;"><strong>Musk:</strong> I=E2=80=99m backlogged =
+with a mountain of critical work matters. Is this urgent?</p>
+<p style=3D"margin: 16px 0;"><strong>Grimes:</strong> Wants 1-5b. Serious a=
+bout partner w/you. Same security you own. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;"><strong>Grimes:</strong> Could do 5bn if every=
+thing vision lock. Would do the engineering for social media blockchain int=
+egration. Founded FTX crypto exchange. Believes in your mission. Major Demo=
+cratic donor. So thought it was potentially worth an hour tomorrow a la the=
+ Orlando meeting and he said he could shake hands on 5 if you like him and =
+I think you will. Can talk when you have more time not urgent but if tomorr=
+ow works out it could get us 5bn equity in an hour.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Musk replied by <em>hitting the =E2=80=9Cdisli=
+ke=E2=80=9D tapback button</em>. (To be fair, he also replied that =E2=80=
+=9CBlockchain twitter isn=E2=80=99t possible,=E2=80=9D agreed to meet =E2=
+=80=9Cso long as I don=E2=80=99t have to have a laborious blockchain debate=
+,=E2=80=9D and asked if Bankman-Fried actually had $3 billion liquid. Ultim=
+ately Bankman-Fried and FTX never signed commitments to invest in Twitter, =
+though Binance, another crypto exchange, was in for $500 million.) The poin=
+t I want to make here is that Elon Musk has attained=C2=A0a level of wealth=
+ and power where sometimes he gets text messages offering him $5 billion an=
+d he=C2=A0<em>replies with a thumbs-down and moves on with his day</em>.</p=
+>
+<p style=3D"margin: 16px 0;">People got mad about these texts? <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/29250431.285527/aHR0cHM6Ly93d3=
+cudGhlYXRsYW50aWMuY29tL3RlY2hub2xvZ3kvYXJjaGl2ZS8yMDIyLzA5L2Vsb24tbXVzay10Z=
+Xh0cy10d2l0dGVyLXRyaWFsLWphY2stZG9yc2V5LzY3MTYxOS8/607f07ceef4b8524a319a23c=
+B917aa779" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> Charlie Warzel</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">In no time, the texts were the cen=
+tral subject of discussion among tech workers and watchers. =E2=80=9CThe do=
+minant reaction from all the threads I=E2=80=99m in is <em>Everyone looks .=
+.. dumb</em>,=E2=80=9D one former social-media executive, whom I=E2=80=99ve=
+ granted anonymity because they have relationships with many of the people =
+in Musk=E2=80=99s texts, told me. =E2=80=9CIt=E2=80=99s been a general <em>=
+Is this really how business is done?</em> There=E2=80=99s no real strategic=
+ thought or analysis. It=E2=80=99s just emotional and done without any real=
+ care for consequence.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">I dunno. How=C2=A0<em>should=C2=A0</em>people =
+be doing business over text messaging? On April 17, as Musk was publicly pr=
+essuring Twitter=E2=80=99s board with a semi-hostile takeover bid, the chai=
+rman of the board, Bret Taylor, reached out to him by text to say =E2=80=9C=
+Elon, I am just checking in to reiterate that the board is seriously review=
+ing the proposal in your letter. We are working on a formal response as qui=
+ckly as we can consistent with our fiduciary duties. Feel free to reach out=
+ anytime.=E2=80=9D Formal, serious, full sentences, reviewed by a lawyer: v=
+ery much Business Texting. Musk replied with the =E2=80=9Clike=E2=80=9D tap=
+back. How else should he have replied? Yes, right, fiduciary duties, gotcha=
+, thumbs up. He is doing big business, but he=E2=80=99s also texting. The t=
+humbs-up button is right there.</p>
+<p style=3D"margin: 16px 0;">These texts make sense to me. There is a popul=
+ar sense about=C2=A0Twitter that it is:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Tremendously important to society, the=
+ place where memes are made, an arbiter of political fortunes, =E2=80=9Cthe=
+ public square,=E2=80=9D an addiction for rich and powerful people, and in =
+many ways the most important website in the world; and also</li>=09<li styl=
+e=3D"margin-bottom: 5px;">just a disorganized unmanaged mess.</li>
+</ul>
+<p style=3D"margin: 16px 0;">=E2=80=9CA clown car that fell into a gold min=
+e,=E2=80=9D is <a href=3D"https://link.mail.bloombergbusiness.com/click/292=
+50431.285527/aHR0cHM6Ly9hbGx0aGluZ3NkLmNvbS8yMDEzMTEwNC9pbi1oYXRjaGluZy10d2=
+l0dGVyLWEtYmlsbGlvbi1kb2xsYXItY29tcGFueS10aGF0LWFsbW9zdC13YXNudC8/607f07cee=
+f4b8524a319a23cB3b2aa64d" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> Mark Zuckerberg=E2=80=99s famous phrase<=
+/a>, but these days no one would emphasize the gold mine. This is a website=
+ that the world=E2=80=99s richest person, Elon Musk, and the former preside=
+nt of the US, Donald Trump, are obsessed with, a website with immense geopo=
+litical power, and it makes money by serving not particularly well-targeted=
+ text ads and dithers for years about questions like whether you should be =
+able to edit tweets.=C2=A0</p>
+<p style=3D"margin: 16px 0;">It is very common in the circles I run in =E2=
+=80=94=C2=A0people who write about business and finance and technology =E2=
+=80=94=C2=A0for people to think =E2=80=9Cman, if I ran Twitter, I could do =
+a much better job.=E2=80=9D It is I think even more common in, like, ventur=
+e-capitalist and tech-investor circles for people to think =E2=80=9Cman, if=
+=C2=A0<em>Elon Musk=C2=A0</em>ran Twitter,=C2=A0<em>he=C2=A0</em>could do a=
+ much better job.=E2=80=9D This is not the sort of belief that starts with =
+a detailed financial model. It starts with the basic popular intuition that=
+ Twitter is very valuable and important, and very poorly run and poorly mon=
+etized, and with another popular intuition that the world=E2=80=99s richest=
+ person, who builds electric cars and sends rockets into space, is unusuall=
+y talented at running disparate businesses. =E2=80=9CIf you gave this very =
+popular important product to a guy who is world-historically good at busine=
+ss, he could make it a good business,=E2=80=9D is the general idea. It seem=
+s reasonable! Is running a=C2=A0website harder than sending rockets to spac=
+e and building electric cars? Very possibly! Do some of Elon Musk=E2=80=99s=
+ ideas for running Twitter seem, to me,=C2=A0bad? Oh sure! But the basic th=
+esis =E2=80=94=C2=A0that Musk could do a significantly better job of making=
+ money out of Twitter than Twitter can =E2=80=94=C2=A0seems quite <em>plaus=
+ible</em>, though not of course free from risk.</p>
+<p style=3D"margin: 16px 0;">If this is your starting thesis then of course=
+ you could update it in various ways. Like, for instance, if you had Elon M=
+usk=E2=80=99s phone number you could text him and be like =E2=80=9Chow woul=
+d you make money if you ran Twitter?=E2=80=9D and if he texted you back a d=
+etailed business plan that you found compelling, your estimate of the value=
+ of Twitter-owned-by-Musk=C2=A0would go up, and if he texted you back =E2=
+=80=9Clol idk blockchain?=E2=80=9D =E2=80=94=C2=A0or =E2=80=9CI do not plan=
+ to make money, I plan to lose money, this is a commitment to free speech,=
+=E2=80=9D for that matter =E2=80=94=C2=A0then your estimate would go down. =
+But:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Even if your estimate went down, it s=
+till might be higher than your estimate for freestanding Twitter. You might=
+ think that Twitter would make more money under Elon Musk,=C2=A0<em>if he w=
+ere trying not to make money</em>, than it does under current management, w=
+hich is trying to make money. =E2=80=9CElon Musk makes more money when he=
+=E2=80=99s not trying to make money than most other people will make when t=
+hey try their hardest to make money=E2=80=9D is just=C2=A0<em>obviously emp=
+irically true</em>, so it is not crazy to apply it here.</li>=09<li style=
+=3D"margin-bottom: 5px;">If your starting estimate is high enough, and if y=
+our connections to Musk are tenuous enough, is that really the text that yo=
+u want to send him? The richest man in the world? Who is getting into a (by=
+ your initial estimates) probably hugely lucrative deal, and who wants co-i=
+nvestors? You really want your text to be, like, =E2=80=9Cyo Elon, long tim=
+e no talk, I was wondering if you could answer a few questions I had about =
+your financial modeling?=E2=80=9D No, come on, you text him =E2=80=9Cyo Elo=
+n, love what you=E2=80=99re doing, I want to support you, I=E2=80=99m in fo=
+r any amount you want.=E2=80=9D And then if he texts you back =E2=80=9Cthan=
+ks man it=E2=80=99s pretty tightly allocated but I appreciate your support =
+so I=E2=80=99ll let you put in $100 million,=E2=80=9D you leap at the chanc=
+e. And if he texts you back =E2=80=9Cthanks that=E2=80=99s great how=E2=80=
+=99s $2 billion=E2=80=9D then =E2=80=A6=C2=A0that=E2=80=99s much worse!<a c=
+lass=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: none !important; background-color: transpare=
+nt !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0=E2=80=A6=C2=A0but you scrounge up the $2 billion=C2=A0anyway. (I=
+f you are not a person who can raise $2 billion on short notice to co-inves=
+t with Elon Musk then you probably don=E2=80=99t have his phone number.)</l=
+i>
+</ol>
+<p style=3D"margin: 16px 0;">Also, I have spent the last few years promotin=
+g the <a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285=
+527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMTA=
+vZWxvbi1tdXNrLXR3ZWV0cy1ncmVhdC1uZXdzLWZvci1iaXRjb2luLWJhZC1uZXdzLWZvci1lY2=
+9uLW1ham9ycz9jbXBpZD1CQkQxMDAzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEwMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cB7bf66634" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  Elon Markets Hypothesis</a=
+>, which says that =E2=80=9Cthe way finance works now is that things are va=
+luable not based on their cash flows but on their proximity to Elon Musk.=
+=E2=80=9D If you believe that, and I suppose I do, then any due diligence, =
+beyond making sure that you have the correct phone number for Musk, is supe=
+rfluous.</p>
+<p style=3D"margin: 16px 0;">Anyway Musk=E2=80=99s tweets are great. The be=
+st analysis I have read of them is from Katie Notopolous, who <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/29250431.285527/aHR0cHM6Ly90d2l=
+0dGVyLmNvbS9rYXRpZW5vdG9wb3Vsb3Mvc3RhdHVzLzE1NzU2MzM1NjI3MTU3MTM1Mzc/607f07=
+ceef4b8524a319a23cB78a53aae" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> tweeted that</a> =E2=80=9CElon Musk's=
+ text messaging style is very efficient and also makes everyone who texts h=
+im look like an absolute dillweed.=E2=80=9D This is true, though I think it=
+ is largely a function of being the richest person in the world. If I were =
+the richest person in the world I assume a lot of people would send me a lo=
+t of long fawning texts and I=E2=80=99d send a lot of replies like=C2=A0=E2=
+=80=9Clol=E2=80=9D or =E2=80=9Ctx=E2=80=9D or just=C2=A0a thumbs-up tapback=
+. I assume that would feel very cool, to me, though it is hard to untangle =
+=E2=80=9Csending tapback replies to fawning texts would feel cool=E2=80=9D =
+from =E2=80=9Cbeing the richest person in the world would feel cool.=E2=80=
+=9D But it is reassuring to see that Elon Musk, who <em>is</em> the richest=
+ person in the world, seems to get pleasure from the same simple things tha=
+t I imagine I would enjoy in his situation.=C2=A0</p>
+<p style=3D"margin: 16px 0;">One other exchange just because it=E2=80=99s s=
+o funny, with venture capitalist Jason Calacanis on May 12, when it <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aHR0cHM6L=
+y93d3cuY25iYy5jb20vMjAyMi8wNS8xMi9zdGFydC11cC1pbnZlc3Rvci1qYXNvbi1jYWxhY2Fu=
+aXMtcmFpc2luZy1taWxsaW9ucy1mb3ItdHdpdHRlci1zdGFrZS5odG1s/607f07ceef4b8524a3=
+19a23cB4e0a014d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> was reported</a> that Calacanis was =E2=80=9Cseek=
+ing to raise tens of millions of dollars for a stake in Twitter=E2=80=9D in=
+ a special purpose vehicle from=C2=A0=E2=80=9Chis network of high net worth=
+ individuals=E2=80=9D with a minimum investment of $250,000 and a 10% slice=
+ of the carry for himself:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;"><strong>Musk:</strong> What=E2=80=99s going on=
+ with you marketing an SPV=C2=A0to randos? This is not ok.</p>
+<p style=3D"margin: 16px 0;"><strong>Calacanis:</strong> Not randos, I have=
+ the largest angel syndicate and that=E2=80=99s how I invest. We=E2=80=99ve=
+ done 250+ deals like this and we know all the folks. I thought that was ho=
+w folks were doing it.</p>
+<p style=3D"margin: 16px 0;"><strong>Calacanis:</strong> $100m+ on commitme=
+nts, but if that=E2=80=99s not ok it=E2=80=99s fine. Just wanted to support=
+ the effort.</p>
+<p style=3D"margin: 16px 0;"><strong>Calacanis:</strong> ~300 [qualified pu=
+rchasers] and 200 accredited investors said they would do it. It=E2=80=99s =
+not an open process obviously, only folks already in our syndicate.</p>
+<p style=3D"margin: 16px 0;"><strong>Calacanis:</strong> There is *massive*=
+ demand to support your effort btw =E2=80=A6=C2=A0people really want to see=
+ you win.</p>
+<p style=3D"margin: 16px 0;"><strong>Musk:</strong> Morgan Stanley and Jare=
+d [Birchall, the head of Musk=E2=80=99s family office] think you are using =
+our friendship not in a good way</p>
+<p style=3D"margin: 16px 0;"><strong>Musk:</strong> This makes it seem like=
+ I=E2=80=99m desperate</p>
+<p style=3D"margin: 16px 0;"><strong>Musk:</strong> Please stop</p>
+<p style=3D"margin: 16px 0;">...</p>
+<p style=3D"margin: 16px 0;"><strong>Calacanis:</strong> Just trying to sup=
+port you =E2=80=A6=C2=A0obviously. I reached out to Jared and sort it out.<=
+/p>
+<p style=3D"margin: 16px 0;"><strong>Musk:</strong> [hits =E2=80=9Clike=E2=
+=80=9D tapback]</p>
+<p style=3D"margin: 16px 0;">=E2=80=A6=C2=A0</p>
+<p style=3D"margin: 16px 0;"><strong>Calacanis:</strong> And you know I=E2=
+=80=99m ride or die brother =E2=80=94=C2=A0I=E2=80=99d jump on a grande for=
+ you.</p>
+<p style=3D"margin: 16px 0;"><strong>Musk:</strong> [hits =E2=80=9Clove=E2=
+=80=9D tapback]</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Look if you called up an investment bank they =
+could put together a slide deck for you on the pros and cons of syndicating=
+ your leveraged buyout equity to a special purpose vehicle of mass-affluent=
+ investors, and it would look like Fancy Business, but this exchange covers=
+ all the essentials and is much clearer and more insightful. =E2=80=9CNot r=
+andos=E2=80=9D!</p>
+<p style=3D"margin: 16px 0;">Like I said, these texts came out in preparati=
+on for a trial this month about whether Musk will still have to buy Twitter=
+. Musk=E2=80=99s basic argument in that trial is that he was misled about w=
+hat he was buying: <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/29250431.285527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjItMDctMDkvZWxvbi1zLW91dD9jbXBpZD1CQkQxMDAzMjJfTU9ORVlTVFVGRiZ1dG1fbWVka=
+XVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEwMDMmdXRtX2NhbXBh=
+aWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cC5bd9aaf7" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  Originally=
+ he claimed</a> that Twitter was lying to him about how many spam bots it h=
+as, but there was never any evidence for that =E2=80=94 it turns out that e=
+ven Musk=E2=80=99s own data scientists=C2=A0<a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/29250431.285527/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlb=
+nQvM2NhMmU1NzctMDExNS00MGQ3LWI0YWUtOTZlODAwZThjMGViP3V0bV9zb3VyY2U9c3Vic3Rh=
+Y2smdXRtX21lZGl1bT1lbWFpbA/607f07ceef4b8524a319a23cBab42542d" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">basic=
+ally agreed with Twitter=E2=80=99s numbers</a> =E2=80=94=C2=A0and now he ha=
+s moved on to more baroque theories of how <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/29250431.285527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjItMDgtMjkvbXVzay10cmllcy1hLW5ldy13YXktb3V0LW9mL=
+XR3aXR0ZXI_Y21waWQ9QkJEMTAwMzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMDAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cBacfd24ba" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  Twitter is defrauding the pu=
+blic</a> with bad information-security practices. One obvious conclusion th=
+at you can draw from these texts is that Musk did not care about any of the=
+se things=C2=A0<em>before=C2=A0</em>he signed the deal; he was not having d=
+etailed text chats with his advisers about how he could optimize growth of =
+monetizable daily active users. (Perhaps he was keeping those conversations=
+ on=C2=A0email?)=C2=A0</p>
+<p style=3D"margin: 16px 0;">But all of these texts happened against a back=
+ground of Twitter being a public company; broadly speaking, Musk and Elliso=
+n and Bankman-Friend and Calacanis and everyone else would have been more o=
+r less justified in assuming =E2=80=9Cwell, Twitter=E2=80=99s public filing=
+s are accurate, and its stock price reflects what the market thinks it is w=
+orth, and if Elon Musk=E2=80=99s magic is worth a 50% premium then buying i=
+t at a 25% premium is a good deal.=E2=80=9D You don=E2=80=99t need a detail=
+ed financial model; the efficient markets hypothesis tells you that the cur=
+rent price of the stock is the best estimate of its fundamental value, as l=
+ong as it is not successfully concealing a huge fraud. Musk=E2=80=99s argum=
+ent is that it was concealing a huge fraud, and that its public filings wer=
+e full of lies about bots, or about information security, or whatever. <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDktMTkvbWFya2V0L=
+W1ha2luZy1pcy1oYXJkLWZvci1ob3VzZXM_Y21waWQ9QkJEMTAwMzIyX01PTkVZU1RVRkYmdXRt=
+X21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMDAzJnV0bV9=
+jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe9ab47d1" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  This=
+ seems like a stretch to me</a>, but if he=E2=80=99s=C2=A0right=C2=A0that t=
+he filings are misleading then it is not really a defense to say =E2=80=9Cb=
+ut you didn=E2=80=99t read them.=E2=80=9D Of course he didn=E2=80=99t read =
+them! He was relying on everyone else to read them and come up with a fair =
+price; that=E2=80=99s the efficient markets hypothesis. And then he was goi=
+ng to pay more than that fair price and still make money; that=E2=80=99s th=
+e Elon Markets Hypothesis.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yOTI1MDQzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1MzU5NTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDc0d11f29" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D29250431&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29535958&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yOTI1MDQzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1MzU5NTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEc0d11f29" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D29250431&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29535958&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yOTI1MDQzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1MzU5NTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFfb74d2be" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D29250431&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29535958&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yOTI1MDQzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1MzU5NTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGfb74d2be" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D29250431&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29535958&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Credit Suisse</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">An oversimplified but useful description of a =
+credit default swap is that it is a bet that some company will default on i=
+ts debt. We make this bet for some period of time, say five years, and I pa=
+y you $X per year, which is called the =E2=80=9Cpremium=E2=80=9D or more of=
+ten the =E2=80=9CCDS spread.=E2=80=9D And then if the company defaults duri=
+ng the five years, you pay me back $100. And if it doesn=E2=80=99t, you pay=
+ me nothing and keep the spread.</p>
+<p style=3D"margin: 16px 0;">This is wrong in lots of important ways that I=
+ am simply not going to discuss here, and I will ignore your emails pointin=
+g them out, but it is=C2=A0<em>roughly=C2=A0</em>right.<a class=3D"footnote=
+-index" href=3D"#footnote-3" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: none !important; background-color: transparent !important; d=
+isplay: inline-block;">
+<span>[3]</span>
+</a>=C2=A0It is right to within, you know, <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/29250431.285527/aHR0cHM6Ly9vbmxpbmVsaWJyYXJ5LndpbG=
+V5LmNvbS9kb2kvZnVsbC8xMC4xMTExL2ouMTU0MC02MjYxLjE5ODYudGIwNDUxMy54/607f07ce=
+ef4b8524a319a23cB2fde65ea" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> a factor of two</a>,=C2=A0maybe a facto=
+r of four. One thing that this crude model is useful for is getting=C2=A0a=
+=C2=A0rough but immediate intuition for what CDS spreads mean about the pro=
+bability of default. If you promise to pay me $100 if a company defaults, a=
+nd in exchange you charge me $X per year, X/100 is=C2=A0<em>in the ballpark=
+=C2=A0</em>of your expected probability that the company will default this =
+year. Oh it=E2=80=99s not really a good probability estimate, don=E2=80=99t=
+ go trading CDS on this intuition, and don=E2=80=99t email me to point out =
+the nuances that it misses.<a class=3D"footnote-index" href=3D"#footnote-4"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: none !importa=
+nt; background-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0But it=E2=80=99s the right order of magnitude. If you think that =
+a company is basically a coin flip to default this year, you will not sell =
+me $100 of CDS for $5: Half the time, you will have to pay out $100, and th=
+e $5 premium does not cover that. If you think that a company is vanishingl=
+y unlikely to default this year, you might sell me $100 of CDS for $1, or $=
+0.50, or even less. Apple Inc. five-year CDS will run you about 30 basis po=
+ints, or $0.30 per year for $100 of coverage. The people selling that CDS d=
+o not think that Apple will default. The people buying that CDS don=E2=80=
+=99t think that either; they have other reasons for making this bet, which =
+they fully expect to lose.</p>
+<p style=3D"margin: 16px 0;">As of 9 a.m. New York time today, five-year CD=
+S on Credit Suisse Group AG was trading at about 350=C2=A0basis points, mea=
+ning roughly =E2=80=94=C2=A0roughly! =E2=80=94=C2=A0that I would have to pa=
+y you $3.50=C2=A0per year for this bet, and you=E2=80=99d pay me $100 if Cr=
+edit Suisse defaults. What does this tell you about the market-implied prob=
+ability that Credit Suisse will default on its debt? Well, Credit Suisse CD=
+S was trading at about 250 basis points on Friday,=C2=A0 about 135 in June,=
+ about 57 at the start of the year. So it tells you that the market-implied=
+ probability of default has gone=C2=A0<em>up=C2=A0</em>a lot. But it is sti=
+ll absolutely=C2=A0<em>low</em>. You would not charge me $3.50 per year for=
+ $100 of insurance against Credit Suisse defaulting unless you thought the =
+chances of that happening were slim.</p>
+<p style=3D"margin: 16px 0;">Of course markets can be wrong, and sometimes =
+companies bop along with quite low CDS spreads and then one day default on =
+their debts. (This is particularly a risk for financial companies, which te=
+nd to default because of sudden bank runs=C2=A0rather than long slow busine=
+ss deterioration.) But a weird thing happened this weekend where people loo=
+ked at the chart of Credit Suisse CDS prices, saw them going up a lot, <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aHR0cH=
+M6Ly93d3cuZnQuY29tL2NvbnRlbnQvNjEwNGE2OTktZmE3Zi00YTgxLTljMzUtYTlhMmY4ZmY5M=
+mQy/607f07ceef4b8524a319a23cB19f67dc6" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> and said</a> =E2=80=9CAha! =
+This proves that Credit Suisse is in distress!=E2=80=9D But, no. It proves =
+that a=C2=A0number went up a lot, but remains, in the scheme of things, low=
+.</p>
+<p style=3D"margin: 16px 0;">On the other hand the problem with stuff like =
+this is that then Credit Suisse has to put out a statement saying that ever=
+ything is fine, and nothing is worse for a bank than putting out a statemen=
+t saying that everything is fine. (<a href=3D"https://link.mail.bloombergbu=
+siness.com/click/29250431.285527/aHR0cHM6Ly93d3cuZWNvbmxpYi5vcmcvbGlicmFyeS=
+9CYWdlaG90L2JhZ0xvbS5odG1sP2NoYXB0ZXJfbnVtPTUjYm9vay1yZWFkZXI/607f07ceef4b8=
+524a319a23cB23b0e579" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Bagehot</a>:=C2=A0=E2=80=9CEvery banker knows=
+ that if he has to prove that he is worthy of credit, however good may be h=
+is arguments, in fact his credit is gone.=E2=80=9D) <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/29250431.285527/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTAtMDMvY3JlZGl0LXN1aXNzZS1tYXJrZXQtdHVy=
+bW9pbC1kZWVwZW5zLWFmdGVyLWNlby1tZW1vLWJhY2tmaXJlcz9jbXBpZD1CQkQxMDAzMjJfTU9=
+ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT=
+0yMjEwMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBdbd62820=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">  Anyway</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Credit Suisse Group AG was plunged into fresh =
+market turmoil after Chief Executive Officer Ulrich Koerner=E2=80=99s attem=
+pts to reassure employees and investors backfired, adding to uncertainty su=
+rrounding the bank.</p>
+<p style=3D"margin: 16px 0;">The stock, which had already more than halved =
+this year before Monday=E2=80=99s sell-off, fell as much as 12% in Zurich t=
+rading to a record low that values the firm at less than $10 billion. That =
+was accompanied by a spike in the cost to insure the bank=E2=80=99s debt ag=
+ainst default, which jumped to its highest ever.</p>
+<p style=3D"margin: 16px 0;">Koerner, for the second time in as many weeks,=
+ had sought to calm employees and the markets with a memo late Friday stres=
+sing the bank=E2=80=99s liquidity and capital strength. Instead, it focused=
+ attention on the dramatic recent moves in the firm=E2=80=99s stock price a=
+nd credit spreads, and investors rushed for the exit when trading reopened =
+after the weekend.=C2=A0</p>
+<p style=3D"margin: 16px 0;">While acknowledging that the bank was at a =E2=
+=80=9Ccritical moment,=E2=80=9D he pledged to send employees regular update=
+s until the firm announces its new strategic plan on Oct. 27. At the same t=
+ime, Credit Suisse again sent around talking points to executives dealing w=
+ith clients who brought up the credit default swap, according to people wit=
+h knowledge of the matter.</p>
+<p style=3D"margin: 16px 0;">While those are still far from distressed -- a=
+nd also part of a broad market selloff -- they signify deteriorating percep=
+tions of creditworthiness for the scandal-hit bank in the current environme=
+nt.=C2=A0 ...</p>
+<p style=3D"margin: 16px 0;">Still, some prominent figures took to Twitter =
+over the weekend to dismiss some of the rumors circulating on social media =
+prompted by the widened CDS spread as =E2=80=9Cscaremongering.=E2=80=9D Sab=
+a Capital Management=E2=80=99s Boaz Weinstein tweeted =E2=80=9Ctake a deep =
+breath=E2=80=9D and compared the situation to when Morgan Stanley=E2=80=99s=
+ CDS was twice as wide in 2011 and 2012.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And the Wall Street Journal <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/29250431.285527/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS9hcnRpY2xlcy9jcmVkaXQtc3Vpc3NlLWhhcy1uby10aW1lLXRvLWxvc2UtMTE2NjQ4MDA=
+1NzI/607f07ceef4b8524a319a23cB3bdbd719" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> notes</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">The beleaguered lender=E2=80=99s s=
+hare price fell around 8% in early trading on Monday. The apparent trigger =
+for the latest selloff was nothing more than its bankers calling customers =
+and investors this weekend to reassure them that all is in hand despite a j=
+ump in its credit-default swaps on Friday.</p></blockquote>
+<p style=3D"margin: 16px 0;">Yeah, no, high on the list of calls that you n=
+ever want to get is =E2=80=9Chi, this is your bank, we just wanted to tell =
+you that everything is fine here, how are you?=E2=80=9D</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yOTI1MDQzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1MzU5NTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH6be371dd" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D29250431&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29535958&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Kim Kardashian</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I suppose there are some people =E2=80=94 ther=
+e might be one person =E2=80=94=C2=A0maybe there isn=E2=80=99t, I don=E2=80=
+=99t know =E2=80=94=C2=A0whose social media consumption is mainly:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Kim Kardashian=E2=80=99s Instagram, a=
+nd</li>=09<li style=3D"margin-bottom: 5px;">US Securities and Exchange Comm=
+ission Chair Gary Gensler=E2=80=99s YouTube channel.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Like, sure, why not. You like Kim Kardashian, =
+but you also want to keep up on the latest trends in securities enforcement=
+. If this is you, then last June you will have gotten Kim Kardashian=E2=80=
+=99s Instagram story promoting EthereumMax, a piece of absolute crypto nons=
+ense that is <a href=3D"https://link.mail.bloombergbusiness.com/click/29250=
+431.285527/aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL2V0aGVyZXVtbWF4=
+Lw/607f07ceef4b8524a319a23cB0c7a0309" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> now trading at=C2=A0$0.00000=
+0004229</a>. And then today you will have seen <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/29250431.285527/aHR0cHM6Ly93d3cueW91dHViZS5jb2=
+0vd2F0Y2g_dj12YlpTNnRZUUtJTQ/607f07ceef4b8524a319a23cB3829af3f" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Ge=
+nsler's YouTube video</a> that =E2=80=9Ccautions=C2=A0investors not to make=
+ investment decisions based solely on the recommendations of a celebrity or=
+ influencer.=E2=80=9D =E2=80=9CAh well,=E2=80=9D you will say to yourself, =
+=E2=80=9Cshame I put my life savings into EthereumMax on Kim Kardashian=E2=
+=80=99s recommendation, but at least now I know not to do it again.=E2=80=
+=9D The system worked, for you, though with a delay that turned out to be p=
+retty material. (The time to warn you not to buy crypto based on Kim Kardas=
+hian=E2=80=99s touting was=C2=A0<em>before=C2=A0</em>she touted crypto.)</p=
+>
+<p style=3D"margin: 16px 0;">But you=E2=80=99re an unusual case. Kardashian=
+ has <a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.2855=
+27/aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9raW1rYXJkYXNoaWFuLz9obD1lbg/607f07cee=
+f4b8524a319a23cBc2128896" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> 331 million Instagram followers</a>. As =
+of 9:30 a.m. today that Gensler video had fewer than=C2=A01,000 views. Ther=
+e is a reason that she can get paid $250,000 per post to promote the purest=
+ possible crypto nonsense, despite the SEC=E2=80=99s counter-programming.</=
+p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/29250431.285527/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVh=
+c2UvMjAyMi0xODM/607f07ceef4b8524a319a23cB97cfb52b" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">Anyway</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission today a=
+nnounced charges against Kim Kardashian for touting on social media a crypt=
+o asset security offered and sold by EthereumMax without disclosing the pay=
+ment she received for the promotion. Kardashian agreed to settle the charge=
+s, pay $1.26 million in penalties, disgorgement, and interest, and cooperat=
+e with the Commission=E2=80=99s ongoing investigation.</p>
+<p style=3D"margin: 16px 0;">The SEC=E2=80=99s order finds that Kardashian =
+failed to disclose that she was paid $250,000 to publish a post on her Inst=
+agram account about EMAX tokens, the crypto asset security being offered by=
+ EthereumMax. Kardashian=E2=80=99s post contained a link to the EthereumMax=
+ website, which provided instructions for potential investors to purchase E=
+MAX tokens.</p>
+<p style=3D"margin: 16px 0;">"This case is a reminder that, when celebritie=
+s or influencers endorse investment opportunities, including crypto asset s=
+ecurities, it doesn=E2=80=99t mean that those investment products are right=
+ for all investors," said SEC Chair Gary Gensler. "We encourage investors t=
+o consider an investment=E2=80=99s potential risks and opportunities in lig=
+ht of their own financial goals."</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I would have been stronger there? I do not giv=
+e investing advice around here, but a reasonable rule of thumb is =E2=80=9C=
+when celebrities or influencers endorse investment opportunities, especiall=
+y crypto asset securities, that definitely means that those investment prod=
+ucts are wrong for all investors=E2=80=9D? Like, who <em>was=C2=A0</em>Ethe=
+reumMax right for? Also, when celebrities and influencers endorse a crypto =
+thing you=E2=80=99ve never heard of, it <em>definitely=C2=A0</em>means=C2=
+=A0they got paid to do it? Honestly if you get an Instagram post from an in=
+fluencer promoting a crypto thing and=C2=A0<em>not=C2=A0</em>disclosing tha=
+t she was paid for it, the investment opportunity is to send a whistleblowe=
+r letter to the SEC. Maybe they=E2=80=99ll pay you for pointing it out.=C2=
+=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">McKinsey</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I suppose that if you work at McKinsey &amp; C=
+o. and you go to do on-campus recruiting, you will meet a lot of idealistic=
+ students, and you will talk to them about McKinsey=E2=80=99s commitment to=
+ pro bono work and the value of its consulting on behalf of, you know, gove=
+rnments and nonprofits and nice companies. And then some of them will say =
+=E2=80=9Cwell I keep reading <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/29250431.285527/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wOS8yOS9i=
+b29rcy9yZXZpZXcvd2hlbi1tY2tpbnNleS1jb21lcy10by10b3duLXdhbHQtYm9nZGFuaWNoLW1=
+pY2hhZWwtZm9yc3l0aGUuaHRtbA/607f07ceef4b8524a319a23cBdf0aab8c" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> all=
+</a> these <a href=3D"https://link.mail.bloombergbusiness.com/click/2925043=
+1.285527/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8xMC8yNy9idXNpbmVzcy9tY2tpbn=
+NleS1jbGltYXRlLWNoYW5nZS5odG1s/607f07ceef4b8524a319a23cB4b44791f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ stories</a> about how you use the power of consulting for <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/29250431.285527/aHR0cHM6Ly93d3cubn=
+l0aW1lcy5jb20vMjAyMC8xMS8yNy9idXNpbmVzcy9tY2tpbnNleS1wdXJkdWUtb3h5Y29udGluL=
+W9waW9pZHMuaHRtbA/607f07ceef4b8524a319a23cB2751212e" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> evil</a>,=E2=
+=80=9D and then I am sure you have some sort of canned response to assuage =
+them and redirect them to the things you want to talk about. (As a former l=
+awyer, I feel like I have a sense of what the canned responses sound=C2=A0l=
+ike =E2=80=94=C2=A0=E2=80=9Cthe most important thing is client loyalty,=E2=
+=80=9D =E2=80=9Ceveryone is entitled to consultants,=E2=80=9D =E2=80=9Cwe h=
+elp the evil clients be 17% less evil,=E2=80=9D etc.)</p>
+<p style=3D"margin: 16px 0;">But do you ever meet with a college senior who=
+ is like =E2=80=9CI read about your work <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/29250431.285527/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAy=
+MC8xMS8yNy9idXNpbmVzcy9tY2tpbnNleS1wdXJkdWUtb3h5Y29udGluLW9waW9pZHMuaHRtbA/=
+607f07ceef4b8524a319a23cC2751212e" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> advising opioid makers to pay p=
+harmacies bounties when patients overdosed</a>, and that is the sort of inn=
+ovative outside-the-box thinking that I want to be involved in=E2=80=9D? Do=
+ you ever get recruits who self-select into the Evil Department? Having wor=
+ked at (and done on-campus recruiting for) an investment bank, I=E2=80=99m =
+gonna bet the answer is yes. What do you do with those recruits? Do your ey=
+es light up? Are you like =E2=80=9Cyes,=C2=A0<em>you=C2=A0</em>we can put t=
+o work=E2=80=9D? Or are you like =E2=80=9Cuh look we regretfully do some ev=
+il stuff, sure, but we=E2=80=99re gonna get in trouble if we start hiring p=
+eople who are too excited about it=E2=80=9D? I don=E2=80=99t know.</p>
+<p style=3D"margin: 16px 0;">Anyway here=E2=80=99s another <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/29250431.285527/aHR0cHM6Ly93d3cubn=
+l0aW1lcy5jb20vMjAyMi8wOS8yOS9idXNpbmVzcy9tY2tpbnNleS10b2JhY2NvLWp1dWwtb3Bpb=
+2lkcy5odG1sP3NtaWQ9dHctZGVhbGJvb2smc210eXA9Y3Vy/607f07ceef4b8524a319a23cB13=
+1ce41e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> New York Times story</a> about McKinsey, this one about it=
+s work for tobacco and vaping companies:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">As recently as 2016, more than 50 years after =
+the surgeon general confirmed the link between smoking and cancer, McKinsey=
+ still saw merit =E2=80=94 and profits =E2=80=94 in continuing to help comp=
+anies sell more cigarettes.</p>
+<p style=3D"margin: 16px 0;">In a slide deck prepared for Altria, formerly =
+Philip Morris, McKinsey offered ideas for how the tobacco company could kee=
+p customers and lure new smokers. It presented a mock-up of what a Marlboro=
+ smartphone app would look like, complete with a way for loyal smokers to w=
+in points redeemable for small prizes.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Imagine starting smoking, or smoking more, bec=
+ause of an app. =E2=80=9CJust need to smoke one more pack to win a small pr=
+ize in my smartphone app.=E2=80=9D I feel like if Altria hired me for advic=
+e on how to keep people smoking cigarettes I would <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/29250431.285527/aHR0cHM6Ly90d2l0dGVyLmNvbS=
+9xdWFudGlhbjEvc3RhdHVzLzE1NzU1MjI5MjA4OTM0ODA5NjA/607f07ceef4b8524a319a23cB=
+110105bc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> say things like</a> =E2=80=9Cwhat you do is you put nico=
+tine in the cigarettes, nicotine is highly addictive and then people won=E2=
+=80=99t be able to stop smoking.=E2=80=9D I guess that=E2=80=99s the advice=
+ you=E2=80=99d get from the people who are too enthusiastic about joining t=
+he Evil Department? But then what were the app people thinking?</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Liz Truss <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/29250431.285527/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMj=
+llYmRkOTQtOGMxMy00OGZhLTg3MTgtNGM4NmNjZTkwMmE4/607f07ceef4b8524a319a23cBcf9=
+df3d6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> backs down</a> on 45%=C2=A0tax rate cut in major U-turn.=C2=
+=A0Demand for <a href=3D"https://link.mail.bloombergbusiness.com/click/2925=
+0431.285527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTA=
+tMDEvZGVtYW5kLWZvci1hbHVtaW51bS1zbG93cy1pbi1hbm90aGVyLXNpZ24tb2YtdHJvdWJsZW=
+QtZWNvbm9teT9jbXBpZD1CQkQxMDAzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEwMDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cB3d75ea94" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  Aluminum</a> Slows in Anot=
+her Sign of Troubled Economy.=C2=A0<a href=3D"https://link.mail.bloombergbu=
+siness.com/click/29250431.285527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+ZlYXR1cmVzLzIwMjItMDktMjkvYm9hei13ZWluc3RlaW4tcmV2ZWFscy13aGF0LWxlZC1oaW0td=
+G8tanBtb3JnYW4tcy1sb25kb24td2hhbGU_Y21waWQ9QkJEMTAwMzIyX01PTkVZU1RVRkYmdXRt=
+X21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMDAzJnV0bV9=
+jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB96296e25" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">Boaz W=
+einstein</a> Reveals the Secret Trade That Helped Make Him Famous.=C2=A0A b=
+roken <a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285=
+527/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNmQxZDA1ZWMtMDMyZC00OTJiLThmMDgtNjk=
+4ZjU1MTUwMjlm/607f07ceef4b8524a319a23cBc7150e91" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> insurance market<=
+/a> threatens Florida and its star governor. Celsius Network founder withdr=
+ew $10mn <a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.=
+285527/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNWY3YzllYWItY2E1Zi00NDI1LTkxYmUt=
+NTc4MTMxM2M5NzIz/607f07ceef4b8524a319a23cB12d5a71d" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> ahead of bankr=
+uptcy</a>. London Gold Dealer <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/29250431.285527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjItMTAtMDEvbG9uZG9uLWdvbGQtZGVhbGVyLXJ1bnMtb3V0LW9mLWJhcnMtYXMtdH=
+J1c3MtYnVkZ2V0LXNob2Nrcz9jbXBpZD1CQkQxMDAzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtP=
+WVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEwMDMmdXRtX2NhbXBhaWdu=
+PW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB41b669a9" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">  Runs Out of Bu=
+llion</a> as Truss Budget Shocks. Texas=E2=80=99 <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/29250431.285527/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDktMzAvdGV4YXMtZXNnLWF0dGFjay1zd2VlcHMtdXA=
+tc29tZS1mdW5kcy10aGF0LWFyZW4tdC1yZWFsbHktZXNnP2NtcGlkPUJCRDEwMDMyMl9NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyM=
+TAwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB83d74e0d" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  ESG Attack</a> Sweeps Up Some Funds That Aren=E2=80=99t Really ESG.=
+ Employees Who Shift to 4-Day Week Devote New Free Time to <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/29250431.285527/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDktMjgvd2h5LTQtZGF5LXdvcmt3ZWVrc=
+y1tYXktYmUtYmV0dGVyLWZvci15b3VyLWNhcmVlci1hbmQtaGVhbHRoP2NtcGlkPUJCRDEwMDMy=
+Ml9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIyMTAwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB38=
+5bcf5d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  Sleep</a>. Australians petition to put <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/29250431.285527/aHR0cHM6Ly9ueXBvc3Qu=
+Y29tLzIwMjIvMTAvMDIvYXVzdHJhbGlhbnMtcGV0aXRpb24tdG8tZmVhdHVyZS1zdGV2ZS1pcnd=
+pbi1vbi1uZXctNS8/607f07ceef4b8524a319a23cBac4b1ddd" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> Steve Irwin</a=
+> on new currency, replacing Queen Elizabeth.=C2=A0Backing Lindt, Swiss Cou=
+rt Orders Lidl to =E2=80=98Destroy=E2=80=99 Its <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/29250431.285527/aHR0cHM6Ly93d3cubnl0aW1lcy5jb=
+20vMjAyMi8xMC8wMS9idXNpbmVzcy9saW5kdC1saWRsLWNob2NvbGF0ZS1idW5uaWVzLmh0bWw/=
+607f07ceef4b8524a319a23cB569c173b" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> Chocolate Bunnies</a>.=C2=A0Chi=
+potle=E2=80=99s =E2=80=98<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/29250431.285527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjItMDktMzAvY2hpcG90bGUtcHJvb2Ytb2Ytc3RlYWstcHJvbW8td2lucy1hdHRlbnRpb24=
+tb2YtY3J5cHRvLW5hdGl2ZXM_Y21waWQ9QkJEMTAwMzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT=
+1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMDAzJnV0bV9jYW1wYWlnb=
+j1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6f71ee63" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">  Proof of Steak=
+</a>=E2=80=99 Crypto Promo Sells Out Early.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/29250431.285527/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBce9aac55" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/29250431.285527/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB61f0224d" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] I kid: The point of that request was to be=
+ annoying, not to get a working model. Surely Musk=E2=80=99s bankers at Mor=
+gan Stanley had their own financial models that they could have shared with=
+ him (and probably tried to!), not least because they committed for a lot o=
+f debt financing, and *banks* don't do that without a financial model.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] =E2=80=9CYou=E2=80=99re never happy with t=
+he amount you traded,=E2=80=9D is Agustin Lebron=E2=80=99s <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/29250431.285527/aHR0cHM6Ly93d3cubG=
+F3c29mdHJhZGluZy5jb20v/607f07ceef4b8524a319a23cB9ce7499f" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> second l=
+aw of trading</a>. If you say =E2=80=9CElon I=E2=80=99m in for any size=E2=
+=80=9D and he cuts you in for a small slice, then you wish it was bigger, b=
+ut at least you can expect to make a large return on your small slice, beca=
+use lots of people are clamoring to invest with him and (1) probably they=
+=E2=80=99re right and (2) in any case if they=E2=80=99re wrong you can prob=
+ably flip your slice to one of them for a profit. If he cuts you in for a v=
+ery very large slice then that means that no one else is clamoring to inves=
+t with him, which probably means you=E2=80=99re missing something.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Most importantly, it ignores recovery valu=
+e. in real CDS, if there is a default, you pay me the $100, but I give you =
+back $100 face amount of the issuer=E2=80=99s bonds. (Because traditionally=
+ CDS was about insuring bonds against default risk; I own bonds and want to=
+ hedge against the risk of default, and when there is a default I give you =
+the bonds and you give me the money.) Those bonds are not going to be worth=
+ $100, because the issuer is in default, but they probably won=E2=80=99t be=
+ worth $0 either: You=E2=80=99ll be able to get some money out of the bankr=
+upt issuer. It is a convention to assume that the =E2=80=9Crecovery=E2=80=
+=9D on default will be about 40 cents on the dollar (so $40 here), though i=
+n reality it will vary widely. There are other important things missing fro=
+m this simple model. Modern CDS pays standardized running spreads and point=
+s up front, so in practice I will pay more of the premium to you at the beg=
+inning and less as a running spread over time; this is an important differe=
+nce if you think that the probability of default is not evenly spaced over =
+the five-year term. And in practice CDS will generally cash settle based on=
+ an auction of bonds that determines the recovery price, and there are shen=
+anigans possible there. And of course most CDS bets make or lose money base=
+d on changes in spread rather than on actual realized defaults; you can rea=
+sonably buy CDS to bet =E2=80=9CI think the market=E2=80=99s view of this c=
+ompany=E2=80=99s creditworthiness will deteriorate=E2=80=9D rather than =E2=
+=80=9CI think this company will go bankrupt.=E2=80=9D What I say in the tex=
+t is the broad general intuition for what CDS *is*, but if you actually tra=
+de CDS based only on this intuition you=E2=80=99ll get your face ripped off=
+ a lot. If you actually trade CDS you need to know the real mechanics.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Bloomberg=E2=80=99s CDSW page will give yo=
+u a more standard-model calculation of implied probability of default from =
+CDS prices, though you will need to put in a recovery assumption to have th=
+is probability be meaningful. (And it will be the implied probability over =
+the CDS term, not per year.)</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB79e5f164" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB587264d5" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBda2ff5f5" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBd4d0dd45" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yOTI1MDQzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1MzU5NTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI83cc6fda" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D29250431&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29535958&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBcd390728" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/29250431.285527/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCecc39476" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/29250431.285527/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB5c1d2478" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/29250431.285527/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBcaaada2c" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBc=
+5227e9e" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29250431.285527/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB2=
+12737d1" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D292504=
+31&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29535958&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D292504=
+31&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29535958&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D292504=
+31&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29535958&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D292504=
+31&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29535958&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D292504=
+31&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29535958&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chexrz.64bb/77e439ef.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_30139295_167808094.1664816759192--
+

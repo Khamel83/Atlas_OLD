@@ -1,0 +1,2342 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a17:902:9a01:b0:16a:54e8:a1d8 with SMTP id v1csp1502565plp;
+        Sat, 9 Jul 2022 07:43:30 -0700 (PDT)
+X-Received: by 2002:adf:c64c:0:b0:21a:7a3:54a4 with SMTP id u12-20020adfc64c000000b0021a07a354a4mr8227494wrg.163.1657377809827;
+        Sat, 09 Jul 2022 07:43:29 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1657377809; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=g/ByqdJJ05QNNi6LPDtdz2NloZyn9LKfxqxNYyJkwlBRgTn87hyoP5zhSV6IDJ01tC
+         5QQ/OnJu3w+B/eWiUsQJM66nGt24GGQHtspvVGQLfWmKiFubmO0bizSmos1LMBjEjMsn
+         64lkYuxHZU0g+0wdtGfaQ/ULZqjTFA+ugcL2/RCN+nXSh+8uDjaDSCG8ltZg3fXlqsW0
+         z+a/k+Jl0tWfnnqfFf1/Bp7h7oiYYnTZaNkBZQY3o9rqvzNF3jeng3kRKN8yHnLQe+bi
+         rmH12LRT5nRyhOEWoLuUmasPKqrUkdGYWcRmPGCnXQoOoLHR/HTxUKsKFs2SVeGS9mON
+         YIwA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=gN+QeWS5/tBi9DMADz4NAO5zVaeCsWd6oLDqXmc5yc0=;
+        b=Gy+3B1oKfdpXCi2v83UfJbD5T1iUdmQ3uHUVJOHTdkrKtnMlp10q58mqLWutjGk/AA
+         GtDMMoD2LAhpTkMaCo5mRD84vwe0Q7mufQ3KUGW1p2W6592O/a9aGmTVQ12AdFtC9iip
+         6yiFe1dYFoqQ8vYHNbZ/xHD8Lg4NLvr4Le+rVZ7Hnqul2z2snxd1gQwJwdWuLc8blVHx
+         VKYstDhvP2OL0qdVMB/xvZxw61DrGdIygznnl5cY9/BFDAVwkHUGhRWnkDODUPSZt1c2
+         7aR64I06OzTnpzSX7QCCsC36uotzQjCArGrHVsGBdWokvnORLr/1GjqJeNY3YxqKzsSy
+         Hcjw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=v8fdAGlp;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l4-20020a5d6d84000000b0021d7b3aaca7sor545613wrs.78.2022.07.09.07.43.29
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Sat, 09 Jul 2022 07:43:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=v8fdAGlp;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=gN+QeWS5/tBi9DMADz4NAO5zVaeCsWd6oLDqXmc5yc0=;
+        b=a7BlpKiG3V3cqTY+E6lcfmz3jH0KXsa137I3P/YRYDPxtHIBVw7QvzKMUEVsAu8ppb
+         TiBhlqET6mBEvnULRG15qTIMoOnmd+em79pSHlPmOuDiZ5MSc6pO+Hn+1v9TCvGK7Rm5
+         fjpY2VDqbSaosmm9ikYJQj5sW+kc+hnodSKq/A0oZtdCKtJyLAlKqaypjsILx2FtnbSd
+         icKlJBKTt5N829VZf5gapPLtvu+XjCdg/i0Tlb8vL39vKj7ZTkxwrCK0/J5THtblBgL1
+         xx77Y0SMY4QuXb+J/YFFa3088DUXY6lcTKI3JI8Q+T2Ecm23Zyr6RZkkC+1UkgD+l0n/
+         iZCg==
+X-Gm-Message-State: AJIora/4IqcypJRy/o1FUi7cfyZAgflj4iAKxccemcQdIp39j4QeTeOA
+	myDEb94X8jismcY36e/V5pg33pjwDzUQNnu/ADkx8JNyZdurl5u4Yg==
+X-Received: by 2002:a5d:4602:0:b0:21d:6784:cdcb with SMTP id t2-20020a5d4602000000b0021d6784cdcbmr8183663wrq.470.1657377809062;
+        Sat, 09 Jul 2022 07:43:29 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:fb8e:0:0:0:0:0 with SMTP id a14csp1256428wrr;
+        Sat, 9 Jul 2022 07:43:26 -0700 (PDT)
+X-Received: by 2002:a05:6870:c101:b0:101:45fd:6ff9 with SMTP id f1-20020a056870c10100b0010145fd6ff9mr2842628oad.107.1657377806054;
+        Sat, 09 Jul 2022 07:43:26 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1657377806; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ZWSUKuB3ZBive1OHFaE+yR2fp28rHcl5wn4pAW2sz6nPmQ8nQC/ulJN4vZMSPC6DE2
+         wWrOOPdtZ6d8JhGj6YSkkKVX3buzt5mhCaTj7EkEkxUdHYnQmogJ0IisG/xBiofFPjTu
+         VDxEsn2VGr3ufo5su/224XAEgLUH/tG0lA8BtdT0ZfVezBUDAJBJP1vXJVgTvvwyshy9
+         /g3j2oqPS7wcrcCqKZwJLbN5Q8SUf/MDvjKItkJfg/JOvs72qbTxFp27OXP2uIQIXJHM
+         2Db7mQex1KHwjc+MNM3IjRnzVo6NpWtf6Z3SzpsAmXM8nf2LjRBUu0UE0VUd6Uf8Xqre
+         oAMQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=gN+QeWS5/tBi9DMADz4NAO5zVaeCsWd6oLDqXmc5yc0=;
+        b=pAvh9XtgbE8qR6lzoziPyepWo8Vg3Wa8fEZOLa64uKu2lythg90Qb7e6k9cfVmoAMY
+         Si+YtLPze6tlOZhbZSoaSjRiyKiy+TIt+FyQZeW2XM7XkcwZK5DkA9E9I9IqFbD9a9nQ
+         HIS1HOWSURvkqRcRgBkTXgFG7D3VcaAOEGKjE0+SzMoaM59itgbdZnxnk39drPJbUOjA
+         wC8uvcou+REyM+bREybS11+2FEvItllmhXfnGqMHoYyRTWopG4sFyGdr3GxFKBChgBF5
+         sk3jYAVNQwx6mdq+4wDmdJeQjWCYFvBWrvF9Nc8XUvcOjmHOzoCMcf053R/YfbnZvFde
+         bdrw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=v8fdAGlp;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220709104253.28323083.276576@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220709104253.28323083.276576@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220709104253.28323083.276576@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id t82-20020aca5f55000000b00335c73eb686sor350123oib.63.2022.07.09.07.43.25
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Sat, 09 Jul 2022 07:43:26 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220709104253.28323083.276576@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGRyM1tnGeX/PkQlRDPKOOXiHD0jxJYHgC6ITqaH/7DWWnq/lfpmHaSKlWeq4+lQaryhoZy2ILK6HraNGhR377TD/HZzAPV+Gms=
+X-Received: by 2002:a05:6808:11c3:b0:32e:b9ef:4cc9 with SMTP id p3-20020a05680811c300b0032eb9ef4cc9mr2647387oiv.125.1657377805428;
+        Sat, 09 Jul 2022 07:43:25 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1657377805; cv=none;
+        d=google.com; s=arc-20160816;
+        b=wXdF+WsdfeSmu1gmQI2o1+MvvpJstwnJ9KUZnbB9acmk3jaXG0QwT8WsnLgoYm/Aew
+         Ds6HDqMz3uVsjSiC3O3oGgHaZLgStTrhcBC0MzV9OYa/NBB7KT5A1+TLaCKzg7HNkJy2
+         K3WeWA/4iJyeVmtIJpnjggMbcsM0N7Xv+/RitUxzbU7iM16XgI/0qTutgd+t6fqVNYnc
+         BO/gWQGOhH14vlHRZA4bcfB0MwhBueeo4+7BvcG2OQGLQn/pF3QsyN/ymPaIx6D1r9Z9
+         xNEIP9e/s0L5Dp36wapl0glo7HY/drVPo4ZF7mml7rdZz2QOckkFtjkyj3Q19uRzHK/E
+         BkMw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=gN+QeWS5/tBi9DMADz4NAO5zVaeCsWd6oLDqXmc5yc0=;
+        b=nybKhRklgExkoxf1b856oXDHmr66nPOmgZlQJ4snaPhIw+tibKxr6alP+CNOsi6y6z
+         cy8zIStBvqSI5KgJQ+U/WEnVskiPPKmg5dMYrGiOJPrnOgo+YpHkciehDcX6PDXGeGpP
+         3r3L3oOHTEc2N3Nk/0CznVz5YzFbhkxIEhWl9PtZgDEt5+0FRxHg6nI+WhBPmCv/Twjs
+         DmnSl4bneeIAUd8z4MqM5K/FGJmDV+k45aNP9OcGQjWU24dHB/Lz/1Du8BSt0aseBJ1R
+         QiGL1/0gPVFC1wu39jc20kMLynDY3JNJV63Vq4CdPQj1KE2Qabjaw48NRTAboZbWkm46
+         Zzeg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=v8fdAGlp;
+       spf=pass (google.com: domain of delivery_20220709104253.28323083.276576@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220709104253.28323083.276576@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220709104253.28323083.276576@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id h4-20020a056870170400b0010c5005e1c8si77683oae.3.2022.07.09.07.43.16
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 09 Jul 2022 07:43:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220709104253.28323083.276576@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=PgNWWpm/b4OiEgJIjNvdliJIJ5Ya3LKQAj5hzjHb4D4=;
+ b=v8fdAGlpGJj8PZdn3FhP2sS/u4M7M3ywWwr2YkFwvOqEt+GB1AjkCcabqBC3cve5vDEzveek+KV8
+   YTQ+Opi4311cmqXeGWQlSt/Ptmoojk2e4LGHSwrxoBqQ/skzc7KcJgIufukMn0k808cY2PmROvmk
+   Uq43vHwx2BHLS3aPeXQ=
+Received: from njmta-53.sailthru.com (173.228.155.53) by bloomberg-b.sailthru.com id hp6a0a2tkt0o for <bloomberg@khamel.com>; Sat, 9 Jul 2022 10:43:08 -0400 (envelope-from <delivery_20220709104253.28323083.276576@mx.sailthru.com>)
+Received: from nj1-farmidnight.flt (172.18.20.38) by njmta-53.sailthru.com id hp69vo1qqbsm for <bloomberg@khamel.com>; Sat, 9 Jul 2022 10:42:53 -0400 (envelope-from <delivery_20220709104253.28323083.276576@mx.sailthru.com>)
+Date: Sat, 9 Jul 2022 10:42:53 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220709104253.28323083.276576@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEVsb27igJlzIE91dA==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_45461975_1572622530.1657377773675"
+Precedence: bulk
+X-Feedback-ID: 6358:28323083:campaign:sailthru
+X-TM-ID: 20220709104253.28323083.276576
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-farmidnight.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgv28b.5xeo/ec554b36
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgv28b.5xeo/ec554b36>, <mailto:unsubscribe_20220709104253.28323083.276576@mx.sailthru.com>
+X-rpcampaign: stjko28323083
+
+------=_Part_45461975_1572622530.1657377773675
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Ugh, here we are again, huh?Oh ElonI think it is =
+helpful to start with the big picture. Elon Musk is the richest person in
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Ugh, here we are again, huh?
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+
+I think it is helpful to start with the big picture. Elon Musk is the riche=
+st person in the world, and, like many other rich people, he has some unusu=
+al and expensive hobbies. One of his hobbies is that he sometimes likes to=
+=C2=A0pretend=C2=A0that he will acquire public companies.
+  [1]
+=C2=A0He seems to find this fun, and why not?=C2=A0When he pretends that he=
+=E2=80=99ll buy a public company, it creates a big drama with him at the ce=
+nter of it. He gets to boss people around, mobilize legions of bankers and =
+lawyers and financing sources and random hangers-on
+  [2]
+=C2=A0hoping to get the deal done, and then when he gets bored he can tell =
+all those people to go home. =E2=80=9CHaha got you,=E2=80=9D he can say, an=
+d they can all have a good laugh, or he can anyway.
+This is an expensive hobby! When Musk=C2=A0pretended=C2=A0in 2018=C2=A0that=
+ he was going to  take Tesla Inc. private, he had to pay the US Securities =
+and Exchange Commission=C2=A0a $20 million fine=C2=A0and stop being the cha=
+irman of Tesla=E2=80=99s board. You=E2=80=99re not really supposed to go ar=
+ound pretending that you will buy a public company; the SEC sometimes consi=
+ders that securities fraud. But Musk is very rich and he can easily afford =
+to pay $20 million for his little joke. His appetite for pretending to buy =
+public companies was, apparently, undiminished.
+So this April, Musk announced that he wanted to buy Twitter Inc. Why not? M=
+usk seems to get a lot of joy out of using Twitter, and pretending to buy T=
+witter is a good way to create=C2=A0drama on Twitter. At the time, I assume=
+d that, as with Tesla, he was doing a bit. =E2=80=9COrdinarily,=E2=80=9D  I=
+ wrote, =E2=80=9Cif a billionaire chief executive officer of a public compa=
+ny offers to buy a company, the odds that he is kidding are quite low. When=
+ it=E2=80=99s Elon Musk, the historical odds are, like, 50/50.=E2=80=9D=C2=
+=A0
+But he surprised me by quickly=C2=A0lining up financing (paying millions of=
+ dollars of fees to banks for commitment letters)=C2=A0and  signing a merge=
+r agreement with Twitter. If he=C2=A0was=C2=A0pretending he was going to bu=
+y Twitter, those were pretty elaborate lengths to go to? But he frequently =
+goes to elaborate (and expensive) lengths for a joke =E2=80=94=C2=A0he sold=
+ 20,000 branded=C2=A0flamethrowers to make a joke about flamethrowers, and =
+also=C2=A0founded=C2=A0Boring Co. to make a joke (???) about tunnels=C2=A0=
+=E2=80=94 so who knows. Would he line up billions of dollars of financing a=
+nd sign a binding merger agreement with a specific-performance clause and a=
+ $1 billion breakup fee as a joke? I mean! Nobody else would! But he might!
+In any case, shortly after he signed the deal, the market went down. Twitte=
+r=E2=80=99s stock closed at $44.48 on April 12, the day before Musk=C2=A0an=
+nounced his offer; he agreed to pay $54.20 per share (420 is a weed joke).=
+=C2=A0Since then=C2=A0Twitter has surely lost value: The stock closed at $3=
+6.81 on Friday, and other social-media stocks are down significantly since =
+April. (Snap Inc. is down about 57% since April 13; even Meta Platforms=C2=
+=A0Inc. =E2=80=94=C2=A0Facebook =E2=80=94=C2=A0is down more than 20%.) Mean=
+while Tesla Inc. stock, the main source of Musk=E2=80=99s wealth, is down a=
+lmost 27% since he announced his offer for Twitter. Twitter is worth less t=
+han Musk agreed to pay for it, and Musk is less rich than he was when he ag=
+reed to buy it. These are not valid reasons for Musk to get out of the deal=
+: The legally binding merger agreement that Musk signed with Twitter does n=
+ot allow him to terminate the deal due to changes in the stock market or hi=
+s own wealth. But they are reasons that Musk might=C2=A0want=C2=A0to get ou=
+t of the deal, even if he wasn=E2=80=99t kidding when he first signed it.
+Still, one should remain open to the possibility that he=C2=A0was=C2=A0kidd=
+ing when he first signed the deal. =E2=80=9CElon Musk had a well-thought-ou=
+t business and financial plan for Twitter that worked in the economic condi=
+tions of early April 2022, but conditions have changed and the model no lon=
+ger works=E2=80=9D does not strike me as the most plausible description of =
+what is going on here. =E2=80=9CElon Musk whimsically thought it might be f=
+un to own Twitter, so he signed a merger agreement without taking it too se=
+riously and then lost interest a week later=E2=80=9D feels more true to the=
+ situation. My first reaction to his proposal to buy Twitter,=C2=A0that it =
+was a joke, may have been the correct one. He was just a lot more committed=
+ to the bit than I expected.
+Anyway:
+
+Elon Musk said he=E2=80=99s terminating his $44 billion agreement to acquir=
+e Twitter Inc. and take it private, triggering a legal fight with the compa=
+ny.
+Twitter has made =E2=80=9Cmisleading representations=E2=80=9D over the numb=
+er of spam bots on the social network, and hasn=E2=80=99t =E2=80=9Ccomplied=
+ with its contractual obligations=E2=80=9D to provide information about how=
+ to assess how prevalent the bots are, Musk=E2=80=99s representatives said =
+Friday in a letter to Twitter as part of a regulatory filing.
+Twitter said it will fight back in court.
+
+Here is the letter, signed by Mike Ringler of Skadden, Arps, Slate, Meagher=
+ & Flom LLP, Musk=E2=80=99s lawyer. It =E2=80=A6=C2=A0ehhhhhhh. Ehhhhhhhhhh=
+hhhhh. Do we have to talk about this? Fine. Ringler offers three pretexts f=
+or why Musk should be allowed out of the deal.
+The first pretext is: Twitter has been lying about bots. For at least eight=
+ years, Twitter has said in its SEC filings that it estimates that fewer th=
+an 5% of its monetizable daily active users are =E2=80=9Cfalse or spam acco=
+unts,=E2=80=9D and in the merger agreement it represents that its SEC filin=
+gs are accurate. Ringler says that =E2=80=9Cit appears that Twitter is dram=
+atically understating the proportion of spam and false accounts represented=
+ in its mDAU count.=E2=80=9D There is not a whisper of evidence for this cl=
+aim, no=C2=A0hint that there might be evidence, no acknowledgement that a r=
+easonable reader of this letter might want to see evidence. The only basis =
+for the claim is that =E2=80=9Cpreliminary analysis by Mr. Musk=E2=80=99s a=
+dvisors of the information provided by Twitter to date causes Mr. Musk to s=
+trongly believe that the proportion of false and spam accounts included in =
+the reported mDAU count is wildly higher than 5%.=E2=80=9D Notice that Ring=
+ler does not say that the analysis=C2=A0shows=C2=A0that the bots are =E2=80=
+=9Cwildly higher than 5%=E2=80=9D of mDAUs: That would be a factual claim t=
+hat, I suspect, Musk=E2=80=99s advisers know is false. They make only the s=
+ubjective claim=C2=A0that Musk =E2=80=9Cstrongly believes=E2=80=9D it. I do=
+n=E2=80=99t even believe that he believes it! But that=E2=80=99s harder to =
+disprove.
+The bots thing, man, I don=E2=80=99t know. We have talked about this before=
+. Back before the market crashed, back when he was pretending to want to bu=
+y Twitter, Musk was pretending that he wanted to buy Twitter=C2=A0in order =
+to clean up the bot problem. Now he is pretending to want to get out of the=
+ deal because of the bot problem. It is tiresome to pretend to take this se=
+riously, so let=E2=80=99s not.
+Still, as a legal matter =E2=80=94=C2=A0and here I should emphasize that no=
+thing in this column is legal or investing advice; if you are Twitter or El=
+on Musk you should consult your very expensive lawyers, and if you are read=
+ing this column to make bets on Twitter=E2=80=99s stock, cut it out =E2=80=
+=94=C2=A0but as a legal matter: Is this pretext good enough to get him out =
+of the deal? Well, look. If Musk can prove that in fact Twitter has been ru=
+nning a years-long fraud on its shareholders and advertisers =E2=80=94=C2=
+=A0that it has knowingly=C2=A0been massively understating the number of bot=
+ accounts in order to trick companies into buying Twitter ads and sharehold=
+ers into buying Twitter stock =E2=80=94=C2=A0then, sure,=C2=A0maybe=C2=A0th=
+at will get him out of the deal. Twitter does represent in the merger agree=
+ment that its SEC filings are correct, and the SEC filings do say=C2=A0that=
+ Twitter estimates that bots are under 5% of mDAUs, though they caveat that=
+ =E2=80=9Cthis estimate is based on an internal review of a sample of accou=
+nts and we apply significant judgment in making this determination.=E2=80=
+=9D If Twitter were simply lying =E2=80=94=C2=A0if it knew that bots were r=
+eally 75% of mDAUs =E2=80=94=C2=A0then I suppose the rep would be false. Ag=
+ain there is absolutely no evidence for this, Ringler=E2=80=99s letter make=
+s it fairly clear that Musk is never going to offer evidence for it, Twitte=
+r has publicly and persuasively defended its methodology, and third-party a=
+nalyses that are sympathetic to Musk=C2=A0nonetheless seem to support=C2=A0=
+Twitter=E2=80=99s numbers.=C2=A0But if you just pretend that Musk can someh=
+ow prove that Twitter is lying then, sure, fine, the representation would b=
+e false.
+Even so, though, Musk cannot get out of the deal just because one of Twitte=
+r=E2=80=99s representations is false. He still has to close the deal unless=
+ the representation is false=C2=A0and it would have a =E2=80=9Cmaterial adv=
+erse effect=E2=80=9D on Twitter. This is a famously under-defined term but =
+it generally needs to be a pretty catastrophic effect. If the bots are 6% o=
+f mDAUs, whatever. If the bots are 75% of mDAUs and Twitter has been knowin=
+gly misleading its advertisers, and Musk can expose that scam and advertise=
+rs flee and Twitter faces legal trouble for its fraud, then, sure, material=
+ adverse effect.
+  [3]
+=C2=A0There is no evidence for this at all despite Musk=E2=80=99s months of=
+ looking for it. Also it is obviously untrue! Companies advertise on Twitte=
+r because it sells products! People use Twitter because other, non-bot peop=
+le also use Twitter, so it is a useful and enjoyable social network! Elon M=
+usk =E2=80=94=C2=A0who=C2=A0has far more interactions with bots than most=
+=C2=A0Twitter users =E2=80=94=C2=A0is addicted to Twitter because it is ful=
+l of real people! It=E2=80=99s how he met the mother of some of his childre=
+n! The pretense that Elon Musk has somehow exposed the secret truth=C2=A0th=
+at nobody uses Twitter except himself and some spam bots is just absurd! Bu=
+t we have to keep talking about it! It=E2=80=99s so stupid!
+The second pretext is: Twitter is not giving Musk enough information about =
+the bot problem. This is a better pretext, for technical legal reasons, whi=
+ch we have also discussed previously. In the closing conditions to the merg=
+er, representations are qualified by =E2=80=9Cmaterial adverse effect=E2=80=
+=9D; just finding that a representation is=C2=A0false would not give Musk t=
+he right to terminate the deal unless it caused an MAE. But=C2=A0covenants=
+=C2=A0are qualified by =E2=80=9Call material respects=E2=80=9D: In the merg=
+er agreement, Twitter promised to do certain things between signing and clo=
+sing, and it has to do those things, whether or not there would be a materi=
+al adverse effect from not doing them. So if Musk can prove that Twitter ha=
+sn=E2=80=99t complied with its obligations, he can get out of the deal.
+The covenant=C2=A0at issue here is Section 6.4(a) of the merger agreement=
+=C2=A0(important part bolded):
+Upon reasonable notice, the Company [i.e. Twitter] shall (and shall cause e=
+ach of its Subsidiaries to) afford to the representatives, officers, direct=
+ors, employees, agents, attorneys, accountants and financial advisors (=E2=
+=80=9CRepresentatives=E2=80=9D) of Parent [i.e. Musk]=C2=A0reasonable acces=
+s (at Parent=E2=80=99s sole cost and expense), in a manner not disruptive i=
+n any material respect to the operations of the business of the Company and=
+ its Subsidiaries, during normal business hours and upon reasonable written=
+ notice throughout the period commencing on the date of this Agreement unti=
+l the earlier of the Effective Time and the termination of this Agreement p=
+ursuant to Article VIII, to the properties, books and records of the Compan=
+y and its Subsidiaries and, during such period, shall (and shall cause each=
+ of its Subsidiaries to) furnish promptly to such Representatives all infor=
+mation concerning the business, properties and personnel of the Company and=
+ its Subsidiaries as may reasonably be requested in writing, in each case, =
+for any reasonable business purpose related to the consummation of the tran=
+sactions contemplated by this Agreement; provided, however, that nothing he=
+rein shall require the Company or any of its Subsidiaries to disclose any i=
+nformation to Parent or Acquisition Sub if such disclosure would, in the re=
+asonable judgment of the Company, (i) cause significant competitive harm to=
+ the Company or its Subsidiaries if the transactions contemplated by this A=
+greement are not consummated, (ii) violate applicable Law or the provisions=
+ of any agreement to which the Company or any of its Subsidiaries is a part=
+y, or (iii) jeopardize any attorney-client or other legal privilege. =E2=80=
+=A6=C2=A0Prior to any disclosure, the Company and Parent shall enter into a=
+ customary confidentiality agreement with=C2=A0respect to any information o=
+btained pursuant to this Section 6.4 (or otherwise pursuant to this Agreeme=
+nt).
+Ringler says that Musk has reasonably demanded a bunch of information about=
+ bots, and Twitter hasn=E2=80=99t given him enough:
+
+Mr. Musk and his financial advisors at Morgan Stanley have been requesting =
+critical information from Twitter as far back as May 9, 2022=E2=80=94and re=
+peatedly since then=E2=80=94on the relationship between Twitter=E2=80=99s d=
+isclosed mDAU figures and the prevalence of false or spam accounts on the p=
+latform. If there were ever any doubt as to the nature of these information=
+ requests, the May 25 Letter made clear that Mr. Musk=E2=80=99s goal was to=
+ understand how many of Twitter=E2=80=99s claimed mDAUs were, in fact, fake=
+ or spam accounts. That letter noted that =E2=80=9CItems 1.03 to 1.13 of th=
+e diligence request list contain high-priority requests for enterprise data=
+ and other information intended to enable Mr. Musk and his advisors to make=
+ an independent assessment of the prevalence of fake or spam accounts on Tw=
+itter=E2=80=99s platform=E2=80=A6=E2=80=9D The letter then provided Twitter=
+ with a detailed list of requests to this effect.
+Since then, Mr. Musk has provided numerous additional follow-up requests, a=
+ll aimed at filling the gaps in the incomplete information that Twitter pro=
+vided in response to his broad requests for information relating to Twitter=
+=E2=80=99s reported mDAU counts and reported estimates of false and spam ac=
+counts.
+
+When we last discussed this, I wrote:
+Musk can ask Twitter, like, =E2=80=9Cgive me the cell phone numbers of ever=
+y one of your monetizable daily active users so I can call them and see if =
+they=E2=80=99re bots,=E2=80=9D and Twitter will have to decide if that is r=
+easonable, if it violates any laws, etc. If they say no, Musk can disagree,=
+ and it might end up in court, with Musk having the ability to walk away if=
+ he wins. If they say yes, Musk can just keep asking for more things. =E2=
+=80=9CTell us what all of your users were thinking about last Thursday,=E2=
+=80=9D why not.
+And in fact Ringler=E2=80=99s letter makes it pretty clear that that=E2=80=
+=99s what Musk was up to: He=E2=80=99d ask for information about bots, and =
+they=E2=80=99d give it to him, and he=E2=80=99d ask for more, and he=E2=80=
+=99d keep trying to get information that he could use to undermine Twitter=
+=E2=80=99s SEC reports. He buried Twitter in an avalanche of demands for da=
+ta:
+On June 17, 2022 (the =E2=80=9CJune 17 Letter=E2=80=9D) Mr. Musk reiterated=
+ his request for =E2=80=9Caccess to the sample set used and calculations pe=
+rformed, as well as any related reports or analysis, to support Twitter=E2=
+=80=99s representation that fewer than 5% of its mDAUs are false or spam ac=
+count.=E2=80=9D To that end, Mr. Musk requested that Twitter provide =E2=80=
+=9Cdaily measures of mDAU for the previous eight quarters, and through the =
+present.=E2=80=9D This information is derivative of the information Mr. Mus=
+k first sought in Sections 1.01-1.03 of the May 19 diligence request list. =
+Although Twitter has provided certain summary data regarding the mDAU calcu=
+lations, Twitter has not provided the complete daily measures as requested.
+Musk has also asked for a random assortment of other information from Twitt=
+er including, hilariously, its investment bankers=E2=80=99 financial model =
+for their fairness opinion:
+To that end, Mr. Musk requested on June 17 a variety of board materials, in=
+cluding a working, bottoms-up financial model for 2022, a budget for 2022, =
+an updated draft plan or budget, and a working copy of Goldman Sachs=E2=80=
+=99 valuation model underlying its fairness opinion. Twitter has provided o=
+nly a pdf copy of Goldman Sachs=E2=80=99 final Board presentation.
+What a weird ask. It is so in keeping with this deal. Musk, of course, did =
+not do any financial modeling before whimsically offering to buy Twitter at=
+ $54.20 per share. But Goldman did some modeling before recommending to Twi=
+tter=E2=80=99s board that they accept the offer.
+  [4]
+=C2=A0So now Musk wants Goldman=E2=80=99s Excel spreadsheets (which Twitter=
+ surely doesn=E2=80=99t have), and for some reason thinks that the merger a=
+greement requires Twitter to give them to him.=C2=A0
+Will this pretext work? Well, like I said, it=E2=80=99s better than the one=
+ about the bots. It still strikes me as pretty implausible. Just from readi=
+ng Ringler=E2=80=99s own letter you can tell that Twitter has done a lot to=
+ give Musk the information he reasonably requires, and that Musk keeps comi=
+ng up with increasingly baroque requests. It is hard to imagine a judge sym=
+pathizing with Musk here.
+Also, though,=C2=A0the covenant does not actually say =E2=80=9Cyou have to =
+give Musk any information he asks for.=E2=80=9D It says that Twitter has to=
+ give Musk information that he needs =E2=80=9Cfor any reasonable business p=
+urpose related to the consummation of the transactions contemplated by this=
+ Agreement.=E2=80=9D Since he has=C2=A0made it clear for months that he wan=
+ts all of this information to avoid consummating the merger, Twitter has a =
+decent argument that they don=E2=80=99t have to give it to him. Nothing tha=
+t Musk is doing has any purpose related to the consummation of the merger! =
+It has the opposite purpose! As he keeps saying!
+Similarly, Twitter doesn=E2=80=99t have to give Musk any information that w=
+ould =E2=80=9Ccause significant competitive harm to the Company or its Subs=
+idiaries if the transactions contemplated by this Agreement are not consumm=
+ated,=E2=80=9D and it seems pretty clear that Musk plans to use any informa=
+tion that he gets from Twitter to undermine its business by saying that it =
+is running a massive fraud on its advertisers, because that is what he is d=
+oing already. So Twitter has a pretty reasonable case not to give him any m=
+ore information.
+Still this seems like uncharted territory. I am not aware of any merger agr=
+eement that has ever been terminated for a breach of an information covenan=
+t. It is generally pretty easy to comply with an information covenant =E2=
+=80=94=C2=A0just give the buyer the information they want! =E2=80=94=C2=A0a=
+nd buyers don=E2=80=99t generally use it as a way to harass sellers and cre=
+ate an excuse for walking away. But if Musk gets away with it then I guess =
+this will become a more common tactic.
+The third pretext is another covenant. In Section 6.1 of the merger agreeme=
+nt, Twitter promises to=C2=A0=E2=80=9Cuse its commercially reasonable effor=
+ts to conduct the business of the Company and its Subsidiaries in the ordin=
+ary course of business=E2=80=9D between signing and closing. Ringler=E2=80=
+=99s letter argues that Twitter has not been running its business in the or=
+dinary course:
+Twitter=E2=80=99s conduct in firing two key, high-ranking employees, its Re=
+venue Product Lead and the General Manager of Consumer, as well as announci=
+ng on July 7 that it was laying off a third of its talent acquisition team,=
+ implicates the ordinary course provision. Twitter has also instituted a ge=
+neral hiring freeze which extends even to reconsideration of outstanding jo=
+b offers. Moreover, three executives have resigned from Twitter since the M=
+erger Agreement was signed: the Head of Data Science, the Vice President of=
+ Twitter Service, and a Vice President of Product Management for Health, Co=
+nversation, and Growth. The Company has not received Parent=E2=80=99s conse=
+nt for changes in the conduct of its business, including for the specific c=
+hanges listed above.=C2=A0
+This is tossed in at the end, and I doubt that a court would really let Mus=
+k out of the deal because Twitter fired two employees. (It=C2=A0certainly=
+=C2=A0wouldn=E2=80=99t let him out of the deal because other employees=C2=
+=A0quit, which is not something that Twitter can control; also most of them=
+ probably quit because of Musk.) Firing employees and reducing hiring are p=
+retty ordinary-course things to do, especially in=C2=A0response to an econo=
+mic downturn. (Obviously Tesla=C2=A0has instituted a hiring freeze, because=
+ Musk has a =E2=80=9Csuper bad feeling=E2=80=9D about the economy.)
+Still it is weird that they didn=E2=80=99t send Musk a little courtesy noti=
+fication before firing those people? Buyers have gotten out of merger agree=
+ments for breaches of the ordinary-course covenant, and it always seems avo=
+idable by just over-communicating. If Twitter=E2=80=99s CEO had shot Musk a=
+n email saying =E2=80=9Chey I=E2=80=99m gonna fire some guys, you cool with=
+ that,=E2=80=9D Musk would absolutely have said yes! He wants to fire every=
+one at Twitter! Why not just run it by him=C2=A0first?
+What will happen? Ugh, I don=E2=80=99t know.=C2=A0Twitter =E2=80=9Cplans to=
+ pursue legal action to enforce the merger agreement,=E2=80=9D tweeted the =
+chairman of its board, and is =E2=80=9Cconfident we will prevail in the Del=
+aware Court of Chancery.=E2=80=9D I don=E2=80=99t really disagree.=C2=A0The=
+ pretexts in this letter are pretty laughable, and I doubt a court would si=
+de with Musk on any of this. He has been too=C2=A0open=C2=A0about the fact =
+that he=E2=80=99s messing around; it=E2=80=99s impossible to take any of th=
+is bot stuff seriously.
+But the question really is the remedy. If a court finds for Twitter =E2=80=
+=94=C2=A0that is, if a judge concludes that Musk=E2=80=99s pretexts are not=
+ good enough to get him out of the deal =E2=80=94=C2=A0then=C2=A0there are =
+two possible outcomes, and they are very different:
+=09Musk might have to pay a $1 billion reverse termination fee for unjustif=
+iably walking away from the deal; or=09The court might order =E2=80=9Cspeci=
+fic performance,=E2=80=9D meaning that Musk would have to fund his entire $=
+33.5 billion equity commitment and buy Twitter.
+  [5]
+
+
+
+Musk=E2=80=99s goal here is presumably to walk away from Twitter and pay on=
+ly $1 billion in damages. That would make this whole lark of pretending to =
+buy Twitter an expensive joke, but definitely one he can afford. Paying $33=
+.5 billion and having to own and run Twitter would sort of spoil the fun.=
+=C2=A0
+(To be clear: Musk=E2=80=99s goal here might actually be to renegotiate the=
+ deal at a lower price. I actually kind of think it isn=E2=80=99t, and he r=
+eally wants out of the deal =E2=80=94=C2=A0because he was kidding in the fi=
+rst place, or has gotten bored by now. But the conventional wisdom is that =
+the goal of Musk=E2=80=99s letter is to get a lower price, and that does ma=
+ke sense and would be more typical. His bargaining leverage for that depend=
+s on whether a court would likely order only a $1 billion breakup fee =E2=
+=80=94=C2=A0in which case he has a ton of leverage to get a much lower pric=
+e =E2=80=94=C2=A0or specific performance =E2=80=94=C2=A0in which case he ha=
+s very little leverage. When we talk, below, about what a court might do, w=
+e are also=C2=A0talking about=C2=A0what Musk=E2=80=99s and Twitter's lawyer=
+s will think a court will do, which will inform their negotiating posture.)
+In order for the court to order specific performance, two things have to ha=
+ppen. First, the court has to want to. It is a drastic remedy, forcing a pe=
+rson to spend $33.5 billion to buy a company he doesn=E2=80=99t want, and y=
+ou could imagine a Delaware chancellor blinking and just=C2=A0making him pa=
+y the $1 billion breakup fee. Do you=C2=A0want an aggrieved=C2=A0Musk in ch=
+arge of Twitter? Twitter is, to some extent, a public utility, =E2=80=9Cthe=
+ town square,=E2=80=9D as Musk has called it; what if he shuts it down out =
+of spite?
+The fact that Musk is working in such bad faith here =E2=80=94=C2=A0that he=
+ seems so unconcerned with law and the contract he signed =E2=80=94=C2=A0cu=
+ts both ways. On the one hand, it will certainly annoy a Delaware chancello=
+r; Delaware likes to think of itself as a stable place for corporate deals,=
+=C2=A0with predictable law and binding contracts, and Musk=E2=80=99s antics=
+ undermine that. On the other hand it might=C2=A0intimidate=C2=A0a Delaware=
+ chancellor: What if the court orders Musk to close the deal and he says no=
+? They=E2=80=99re not gonna put him in Chancery jail.
+  [6]
+=C2=A0The guy is pretty contemptuous of legal authority; he thinks he is ab=
+ove the law and he might be right. A showdown between Musk and a judge migh=
+t undermine Delaware corporate law more than letting him weasel out of the =
+deal would.
+But the other thing that has to happen, for Twitter to get specific perform=
+ance, is that =E2=80=9Cthe Debt Financing ... has been funded or will be fu=
+nded at the Closing.=E2=80=9D Musk agreed to buy Twitter with $33.5 billion=
+ of his own money and $13 billion of debt financing from his banks,
+  [7]
+ and if the banks don=E2=80=99t put up their $13 billion then he doesn=E2=
+=80=99t have to put up his $33.5 billion: In that case, he can pay the $1 b=
+illion to walk away.
+Now, the banks have signed commitment letters obligating them to put up the=
+ money, and those commitment letters do not give the banks a ton of outs. (=
+The outs are in Exhibit E here.) Still:
+=09The banks surely want=C2=A0to get out of this deal, because the market f=
+or buyout loans has soured=C2=A0since they signed their commitment letters,=
+ and they will probably lose a lot of money if they have to fund their comm=
+itments. (Also because Musk is their client, and=C2=A0he wants out.)=09If M=
+usk purports to terminate the merger agreement, that gives the banks an exc=
+use to avoid funding the financing, which at least makes it=C2=A0arguable=
+=C2=A0that the financing is not available, which makes it arguable that Mus=
+k should not be ordered to close the deal and should instead pay only $1 bi=
+llion.
+
+So Ringler=E2=80=99s letter could be=C2=A0part of an effort by Musk to blow=
+ up his financing to avoid specific performance.
+This is not a perfect out: In theory, Twitter could ask a court to order Mu=
+sk (to specifically perform his covenant) not to blow up his financing. The=
+re is some history of Delaware courts doing that, and of not being fooled b=
+y merger buyers who try to blow up their own financing. The banks=E2=80=99 =
+commitment letters do not give them an out for anything that=C2=A0Musk=C2=
+=A0does or doesn=E2=80=99t do; if Twitter cooperates=C2=A0with the financin=
+g banks and a court finds that there=E2=80=99s no cause to terminate the me=
+rger agreement, then in theory the banks should have to fund, so specific p=
+erformance should still be available. But it=E2=80=99s messy, and you can s=
+ort of see a path to =E2=80=9CMusk says the deal is off, so his banks walk =
+away, so his financing isn=E2=80=99t available, so he doesn=E2=80=99t have =
+to close the deal and can get away with just paying $1 billion.=E2=80=9D
+I like Twitter=E2=80=99s odds =E2=80=94=C2=A0its odds of getting specific p=
+erformance and making Musk close the deal =E2=80=94=C2=A0in court, but I do=
+n=E2=80=99t think anything is a certainty at this point. And obviously Musk=
+ will make this fight as unpleasant as possible; already the attorney gener=
+al of Texas has opened an investigation of Twitter=E2=80=99s bot numbers in=
+ order to harass Twitter and capitalize on Musk=E2=80=99s popularity with R=
+epublican voters. I have suggested in the past that Twitter=E2=80=99s best =
+weapon in this dispute would be=C2=A0banning Musk from Twitter, because he =
+is such an addict, but in fact he recently stayed off Twitter voluntarily f=
+or nine days, which I assume he did just to prove to Twitter the company th=
+at he can survive without Twitter the product. It is all going to be pretty=
+ awful and stupid.
+Is it fun for him? If he manages to walk away having spent only millions in=
+ financing fees, millions in legal fees and say $1 billion in termination f=
+ees, was it worth it? What did he get out of this? The guy really seems to =
+like being on Twitter, and he did make himself the main character in Twitte=
+r's drama for months on end. That=E2=80=99s nice for him I guess. Also he m=
+ade the lives of Twitter=E2=80=99s executives and employees pretty miserabl=
+e; as a fellow Twitter addict I can kind of see the appeal of that? I alway=
+s assume that =E2=80=9Ceveryone who works at Twitter hates the product and =
+its users,=E2=80=9D=C2=A0and I suppose this is a case of the richest and we=
+irdest user getting some revenge on the employees. He also=C2=A0gave himsel=
+f an excuse to sell a bunch of Tesla stock near the highs. He=C2=A0maybe go=
+t an edit button too? Maybe that=E2=80=99s worth a billion dollars to him?
+I tell you what though. I have learned my lesson. The next time Elon Musk a=
+nnounces that he is going to buy a public company =E2=80=94=C2=A0and he wil=
+l=C2=A0do it again! =E2=80=94=C2=A0I will know not to believe him. I will d=
+efinitely know not to write about it.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] This is an *unusual* rich-person hobby, but by no means an *unprecede=
+nted* one. Famously Donald Trump spent some time in the 1980s pretending he=
+ was going to buy public companies. But he did this as a way to make money =
+=E2=80=94 by extracting greenmail out of the companies =E2=80=94 while Musk=
+ seems to do it mostly for fun.
+
+
+  [2] And, let=E2=80=99s face it, writers of financial newsletters.
+
+
+  [3] The letter says: =E2=80=9CTwitter=E2=80=99s representation in the Mer=
+ger Agreement regarding the accuracy of its SEC disclosures relating to fal=
+se and spam accounts may have also caused, or is reasonably likely to resul=
+t in, a Company Material Adverse Effect, which may form an additional basis=
+ for terminating the Merger Agreement. While Mr. Musk and his advisors cont=
+inue to investigate the exact nature and extent of this event, Mr. Musk has=
+ reason to believe that the true number of false or spam accounts on Twitte=
+r=E2=80=99s platform is substantially higher than the amount of less than 5=
+% represented by Twitter in its SEC filings. Twitter=E2=80=99s true mDAU co=
+unt is a key component of the company=E2=80=99s business, given that approx=
+imately 90% of its revenue comes from advertisements. For this reason, to t=
+he extent that Twitter has underrepresented the number of false or spam acc=
+ounts on its platform, that may constitute a Company Material Adverse Effec=
+t under Section 7.2(b)(i) of the Merger Agreement. Mr. Musk is also examini=
+ng the company=E2=80=99s recent financial performance and revised outlook, =
+and is considering whether the company=E2=80=99s declining business prospec=
+ts and financial outlook constitute a Company Material Adverse Effect givin=
+g Mr. Musk a separate and distinct basis for terminating the Merger Agreeme=
+nt.=E2=80=9D
+
+
+  [4] One factor here is that Goldman, in doing a fairness opinion, is gene=
+rally in the position of telling Twitter=E2=80=99s board that the company i=
+s worth *less* than $54.20 per share: The fairness opinion says to the boar=
+d =E2=80=9Cgo ahead and accept this deal, you=E2=80=99re not worth more as =
+a stand-alone company.=E2=80=9D So if Musk is trying to find arguments that=
+ Twitter is bad, the fairness model might be a decent place to start snoopi=
+ng around.
+
+
+  [5] Some of that equity commitment =E2=80=94 about $7 billion =E2=80=94 h=
+as been syndicated to co-investors, so really we=E2=80=99re talking about $=
+26 billion or so of his own money, though one could imagine the co-investor=
+s worming their way out, in which case Musk is on the hook for their money.
+
+
+  [6] I made this joke before, and a reader pointed out that a Delaware cha=
+ncellor did once order someone arrested, though not over a merger.
+
+
+  [7] Originally some of the $33.5 billion came from margin loans from his =
+banks against his Tesla stock, but those have gone away and been replaced b=
+y equity.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgv28b.5xeo/4f021489.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_45461975_1572622530.1657377773675
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Ugh, here we are again, huh?Oh ElonI think it is helpful =
+to start with the big picture. Elon Musk is the richest person in
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yODMyMzA4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1OTk2NTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBf9aa6d40/email" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D28323083&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28599659&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNzA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA3MDkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB50a3f89d/email"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yODMyMzA4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1OTk2NTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC6a6804f6/email" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D28323083&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28599659&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong> <em>Ugh, he=
+re we are again, huh?</em></p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODMyMzA4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1OTk2NTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD2bb53a52/email" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28323083&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28599659&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODMyMzA4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1OTk2NTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE2bb53a52/email" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28323083&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28599659&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODMyMzA4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1OTk2NTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF3deb3a40/email" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28323083&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28599659&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODMyMzA4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1OTk2NTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG3deb3a40/email" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28323083&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28599659&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I think it is helpful to start with the big pi=
+cture. Elon Musk is the richest person in the world, and, like many other r=
+ich people, he has some unusual and expensive hobbies. One of his hobbies i=
+s that he sometimes likes to=C2=A0pretend=C2=A0that he will acquire public =
+companies.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: none !important; background-co=
+lor: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0He seems to find this fun, and why not?=C2=A0When he pretends tha=
+t he=E2=80=99ll buy a public company, it creates a big drama with him at th=
+e center of it. He gets to boss people around, mobilize legions of bankers =
+and lawyers and financing sources and random hangers-on<a class=3D"footnote=
+-index" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: none !important; background-color: transparent !important; d=
+isplay: inline-block;">
+<span>[2]</span>
+</a>=C2=A0hoping to get the deal done, and then when he gets bored he can t=
+ell all those people to go home. =E2=80=9CHaha got you,=E2=80=9D he can say=
+, and they can all have a good laugh, or he can anyway.</p>
+<p style=3D"margin: 16px 0;">This is an expensive hobby! When Musk=C2=A0<a =
+href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDgtMTMvZnVuZGlu=
+Zy1mb3ItZWxvbi1tdXNrLXMtdGVzbGEtYnV5b3V0LXdhc24tdC1zby1zZWN1cmU_Y21waWQ9QkJ=
+EMDcwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjIwNzA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cB811099df/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">pretended</a>=C2=A0in 2018=C2=A0that he was g=
+oing to <a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.2=
+76576/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDgtM=
+DgvZWxvbi1tdXNrLWhhcy1zb21lLWZ1bi13aXRoLXRlc2xhP2NtcGlkPUJCRDA3MDkyMl9NT05F=
+WVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI=
+yMDcwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB0dd644a1/e=
+mail" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> take Tesla Inc. private</a>, he had to pay the US Securities=
+ and Exchange Commission=C2=A0<a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28323083.276576/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMTgtMTAtMDEvdGVzbGEtd2lsbC10cnktdG8tYmUtbW9yZS1ub3JtYWw_Y21waW=
+Q9QkJEMDcwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZ=
+XR0ZXImdXRtX3Rlcm09MjIwNzA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b852=
+4a319a23cB84fdea62/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">a $20 million fine</a>=C2=A0and stop bein=
+g the chairman of Tesla=E2=80=99s board. You=E2=80=99re not really supposed=
+ to go around pretending that you will buy a public company; the SEC someti=
+mes considers that securities fraud. But Musk is very rich and he can easil=
+y afford to pay $20 million for his little joke. His appetite for pretendin=
+g to buy public companies was, apparently, undiminished.</p>
+<p style=3D"margin: 16px 0;">So this April, Musk <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/28323083.276576/aHR0cHM6Ly93d3cuc2VjLmdvdi9B=
+cmNoaXZlcy9lZGdhci9kYXRhLzAwMDE0MTgwOTEvMDAwMTEwNDY1OTIyMDQ1NjQxL3RtMjIxMjc=
+0OGQxX3NjMTNkYS5odG0/607f07ceef4b8524a319a23cBbf9ee4c1/email" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">annou=
+nced</a> that he wanted to buy Twitter Inc. Why not? Musk seems to <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMDQvZWxvbi1tdXNr=
+LWJvdWdodC1zb21lLXR3aXR0ZXI_Y21waWQ9QkJEMDcwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNzA5JnV0bV9jYW1wYW=
+lnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3a9c1025/email" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">get a l=
+ot of joy out of using Twitter</a>, and pretending to buy Twitter is a good=
+ way to create=C2=A0drama <em>on Twitter</em>. At the time, I assumed that,=
+ as with Tesla, he was doing a bit. =E2=80=9COrdinarily,=E2=80=9D <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMTUvc3VyZS1lbG9u=
+LW11c2stbWlnaHQtYnV5LXR3aXR0ZXI_Y21waWQ9QkJEMDcwOTIyX01PTkVZU1RVRkYmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNzA5JnV0bV9jYW=
+1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBcbfdea87/email" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> I =
+wrote</a>, =E2=80=9Cif a billionaire chief executive officer of a public co=
+mpany offers to buy a company, the odds that he is <em>kidding</em> are qui=
+te low. When it=E2=80=99s Elon Musk, the historical odds are, like, 50/50.=
+=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">But he surprised me by quickly=C2=A0<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/28323083.276576/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMjEvZWxvbi1nb3QtaGl=
+zLW1vbmV5P2NtcGlkPUJCRDA3MDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3=
+NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDcwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZ=
+g/607f07ceef4b8524a319a23cB7425fa81/email" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">lining up financing</a> =
+(paying millions of dollars of fees to banks for commitment letters)=C2=A0a=
+nd <a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMjYvZW=
+xvbi1nb3QtaGlzLWRlYWw_Y21waWQ9QkJEMDcwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lb=
+WFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNzA5JnV0bV9jYW1wYWlnbj1t=
+b25leXN0dWZm/607f07ceef4b8524a319a23cB4b1158a0/email" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> signing a me=
+rger agreement with Twitter</a>. If he=C2=A0<em>was=C2=A0</em>pretending he=
+ was going to buy Twitter, those were pretty elaborate lengths to go to? Bu=
+t he frequently goes to elaborate (and expensive) lengths for a joke =E2=80=
+=94=C2=A0he sold 20,000 <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/28323083.276576/aHR0cHM6Ly93d3cuYm9yaW5nY29tcGFueS5jb20vbm90LWEtZmxhb=
+WV0aHJvd2Vy/607f07ceef4b8524a319a23cBffe69935/email" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">branded=C2=A0f=
+lamethrowers</a> to make a joke about flamethrowers, and also=C2=A0founded=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276=
+576/aHR0cHM6Ly93d3cuYm9yaW5nY29tcGFueS5jb20v/607f07ceef4b8524a319a23cB2ab90=
+1df/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">Boring Co.</a> to make a joke (???) about tunnels=C2=A0=
+=E2=80=94 so who knows. Would he line up billions of dollars of financing a=
+nd sign a binding merger agreement with a specific-performance clause and a=
+ $1 billion breakup fee as a joke? I mean! Nobody else would! But he might!=
+</p>
+<p style=3D"margin: 16px 0;">In any case, shortly after he signed the deal,=
+ the market went down. Twitter=E2=80=99s stock closed at $44.48 on April 12=
+, the day before Musk=C2=A0<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/28323083.276576/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYX=
+RhLzAwMDE0MTgwOTEvMDAwMTEwNDY1OTIyMDQ1NjQxL3RtMjIxMjc0OGQxX3NjMTNkYS5odG0/6=
+07f07ceef4b8524a319a23cCbf9ee4c1/email" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">announced his offer</a>; he=
+ agreed to pay $54.20 per share (420 is a weed joke).=C2=A0Since then=C2=A0=
+Twitter has surely lost value: The stock closed at $36.81 on Friday, and ot=
+her social-media stocks are down significantly since April. (Snap Inc. is d=
+own about 57% since April 13; even Meta Platforms=C2=A0Inc. =E2=80=94=C2=A0=
+Facebook =E2=80=94=C2=A0is down more than 20%.) Meanwhile Tesla Inc. stock,=
+ the main source of Musk=E2=80=99s wealth, is down almost 27% since he anno=
+unced his offer for Twitter. Twitter is worth less than Musk agreed to pay =
+for it, and Musk is less rich than he was when he agreed to buy it. These a=
+re not valid reasons for Musk to get out of the deal: The legally binding <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aHR=
+0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNT=
+IyMTc2NzUzL2QyODMxMTlkcHJlcjE0YS5odG0jdG9jMjgzMTE5Xzk0/607f07ceef4b8524a319=
+a23cB4db06358/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">merger agreement</a> that Musk signed with Tw=
+itter does not allow him to terminate the deal due to changes in the stock =
+market or his own wealth. But they are reasons that Musk might=C2=A0<em>wan=
+t=C2=A0</em>to get out of the deal, even if he <em>wasn=E2=80=99t</em> kidd=
+ing when he first signed it.</p>
+<p style=3D"margin: 16px 0;">Still, one should remain open to the possibili=
+ty that he=C2=A0<em>was=C2=A0</em>kidding when he first signed the deal. =
+=E2=80=9CElon Musk had a well-thought-out business and financial plan for T=
+witter that worked in the economic conditions of early April 2022, but cond=
+itions have changed and the model no longer works=E2=80=9D does not strike =
+me as the most plausible description of what is going on here. =E2=80=9CElo=
+n Musk whimsically thought it might be fun to own Twitter, so he signed a m=
+erger agreement without taking it too seriously and then lost interest a we=
+ek later=E2=80=9D feels more true to the situation. My first reaction to hi=
+s proposal to buy Twitter,=C2=A0that it was a joke, may have been the corre=
+ct one. He was just a lot more committed to the bit than I expected.</p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/28323083.276576/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjItMDctMDgvbXVzay1zYXlzLWhlLXMtdGVybWluYXRpbmctNDQtYmlsbGlvbi1kZWF=
+sLXRvLWJ1eS10d2l0dGVyP2NtcGlkPUJCRDA3MDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDcwOSZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cB278cd44a/email" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">Anyway</a>:<=
+/p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Elon Musk said he=E2=80=99s terminating his $4=
+4 billion agreement to acquire Twitter Inc. and take it private, triggering=
+ a legal fight with the company.</p>
+<p style=3D"margin: 16px 0;">Twitter has made =E2=80=9Cmisleading represent=
+ations=E2=80=9D over the number of spam bots on the social network, and has=
+n=E2=80=99t =E2=80=9Ccomplied with its contractual obligations=E2=80=9D to =
+provide information about how to assess how prevalent the bots are, Musk=E2=
+=80=99s representatives said Friday in a letter to Twitter as part of a reg=
+ulatory filing.</p>
+<p style=3D"margin: 16px 0;">Twitter said it will fight back in court.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/28323083.276576/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9l=
+ZGdhci9kYXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIyMDc4NDEzL3RtMjIyMDU5OWQxX2V4OTktcC5=
+odG0/607f07ceef4b8524a319a23cB1b213c6b/email" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">the letter</a>, signe=
+d by Mike Ringler of Skadden, Arps, Slate, Meagher &amp; Flom LLP, Musk=E2=
+=80=99s lawyer. It =E2=80=A6=C2=A0ehhhhhhh. Ehhhhhhhhhhhhhhh. Do we have to=
+ talk about this? Fine. Ringler offers three pretexts for why Musk should b=
+e allowed out of the deal.</p>
+<p style=3D"margin: 16px 0;">The first pretext is: Twitter has been lying a=
+bout bots. For at least eight years, Twitter has said in its SEC filings th=
+at it estimates that fewer than 5% of its monetizable daily active users ar=
+e =E2=80=9Cfalse or spam accounts,=E2=80=9D and in the merger agreement it =
+represents that its SEC filings are accurate. Ringler says that =E2=80=9Cit=
+ appears that Twitter is dramatically understating the proportion of spam a=
+nd false accounts represented in its mDAU count.=E2=80=9D There is not a wh=
+isper of evidence for this claim, no=C2=A0hint that there might be evidence=
+, no acknowledgement that a reasonable reader of this letter might want to =
+see evidence. The only basis for the claim is that =E2=80=9Cpreliminary ana=
+lysis by Mr. Musk=E2=80=99s advisors of the information provided by Twitter=
+ to date causes Mr. Musk to strongly believe that the proportion of false a=
+nd spam accounts included in the reported mDAU count is wildly higher than =
+5%.=E2=80=9D Notice that Ringler does not say that the analysis=C2=A0<em>sh=
+ows=C2=A0</em>that the bots are =E2=80=9Cwildly higher than 5%=E2=80=9D of =
+mDAUs: That would be a factual claim that, I suspect, Musk=E2=80=99s advise=
+rs know is false. They make only the subjective claim=C2=A0that Musk =E2=80=
+=9Cstrongly believes=E2=80=9D it. I don=E2=80=99t even believe that he beli=
+eves it! But that=E2=80=99s harder to disprove.</p>
+<p style=3D"margin: 16px 0;">The bots thing, man, I don=E2=80=99t know. We =
+have <a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.2765=
+76/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTcv=
+ZWxvbi1tdXNrLWRvZXMtbm90LWNhcmUtYWJvdXQtc3BhbS1ib3RzP2NtcGlkPUJCRDA3MDkyMl9=
+NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZX=
+JtPTIyMDcwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB861cd=
+778/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">talked about this before</a>. Back before the market cra=
+shed, back when he was pretending to want to buy Twitter, Musk was pretendi=
+ng that he wanted to buy Twitter=C2=A0<em>in order to clean up the bot prob=
+lem</em>. Now he is pretending to want to get out of the deal because of th=
+e bot problem. It is tiresome to pretend to take this seriously, so let=E2=
+=80=99s not.</p>
+<p style=3D"margin: 16px 0;">Still, as a legal matter =E2=80=94=C2=A0and he=
+re I should emphasize that nothing in this column is legal or investing adv=
+ice; if you are Twitter or Elon Musk you should consult your very expensive=
+ lawyers, and if you are reading this column to make bets on Twitter=E2=80=
+=99s stock, cut it out =E2=80=94=C2=A0but as a legal matter: Is this pretex=
+t good enough to get him out of the deal? Well, look. If Musk can prove tha=
+t in fact Twitter has been running a years-long fraud on its shareholders a=
+nd advertisers =E2=80=94=C2=A0that it has knowingly=C2=A0been massively und=
+erstating the number of bot accounts in order to trick companies into buyin=
+g Twitter ads and shareholders into buying Twitter stock =E2=80=94=C2=A0the=
+n, sure,=C2=A0<em>maybe=C2=A0</em>that will get him out of the deal. Twitte=
+r does <a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.27=
+6576/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMT=
+E5MzEyNTIyMTc2NzUzL2QyODMxMTlkcHJlcjE0YS5odG0jYW54YXRvYzI4MzExOV8yMw/607f07=
+ceef4b8524a319a23cBa38da663/email" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">represent in the merger agreemen=
+t</a> that its SEC filings are correct, and the SEC filings <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/28323083.276576/aHR0cHM6Ly93d3cuc=
+2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTQxODA5MS8wMDAxNDE4MDkxMjIw=
+MDAwNzUvdHd0ci0yMDIyMDMzMS5odG0jaWJkZjU2MmY0OTRlOTRiMTM5M2RlNDE4NTU5YzMxNWQ=
+5XzEzMA/607f07ceef4b8524a319a23cB3ef3b354/email" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">do say</a>=C2=A0th=
+at Twitter estimates that bots are under 5% of mDAUs, though they caveat th=
+at =E2=80=9Cthis estimate is based on an internal review of a sample of acc=
+ounts and we apply significant judgment in making this determination.=E2=80=
+=9D If Twitter were simply lying =E2=80=94=C2=A0if it knew that bots were r=
+eally 75% of mDAUs =E2=80=94=C2=A0then I suppose the rep would be false. Ag=
+ain there is absolutely no evidence for this, Ringler=E2=80=99s letter make=
+s it fairly clear that Musk is never going to offer evidence for it, Twitte=
+r has publicly and persuasively <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/28323083.276576/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90d2l0d=
+GVyLWRlZmVuZHMtc3BhbS1hY2NvdW50aW5nLWFtaWQtZWxvbi1tdXNrLXRha2VvdmVyLTExNjU3=
+MjIyNzg5/607f07ceef4b8524a319a23cB20e58ee3/email" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">defended its meth=
+odology</a>, and third-party analyses that are <em><a href=3D"https://link.=
+mail.bloombergbusiness.com/click/28323083.276576/aHR0cHM6Ly9zcGFya3Rvcm8uY2=
+9tL2Jsb2cvc3Bhcmt0b3JvLWZvbGxvd2Vyd29uay1qb2ludC10d2l0dGVyLWFuYWx5c2lzLTE5L=
+TQyLW9mLWFjdGl2ZS1hY2NvdW50cy1hcmUtZmFrZS1vci1zcGFtLw/607f07ceef4b8524a319a=
+23cB45ee3302/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">sympathetic to Musk</a>=C2=A0</em>nonetheless=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/a=
+HR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9tdXNrLXR3aXR0ZXItYW5kLWJvdHMtYm90LWV4=
+cGVyaWVuY2UtYm90LXNjaWVuY2Uv/607f07ceef4b8524a319a23cBcd15049f/email" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">seem to support</a>=C2=A0Twitter=E2=80=99s numbers.=C2=A0But if you just=
+ pretend that Musk can somehow prove that Twitter is lying then, sure, fine=
+, the representation would be false.</p>
+<p style=3D"margin: 16px 0;">Even so, though, Musk cannot get out of the de=
+al just because one of Twitter=E2=80=99s representations is false. He still=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/a=
+HR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEy=
+NTIyMTc2NzUzL2QyODMxMTlkcHJlcjE0YS5odG0jYW54YXRvYzI4MzExOV83Mg/607f07ceef4b=
+8524a319a23cBddfef092/email" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">has to close the deal</a> unless the r=
+epresentation is false=C2=A0<em>and </em>it would have a =E2=80=9Cmaterial =
+adverse effect=E2=80=9D on Twitter. This is a famously under-defined term b=
+ut it generally needs to be a pretty catastrophic effect. If the bots are 6=
+% of mDAUs, whatever. If the bots are 75% of mDAUs and Twitter has been kno=
+wingly misleading its advertisers, and Musk can expose that scam and advert=
+isers flee and Twitter faces legal trouble for its fraud, then, sure, mater=
+ial adverse effect.<a class=3D"footnote-index" href=3D"#footnote-3" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0There is no evidence for this at all despite Musk=E2=80=99s month=
+s of looking for it. Also it is obviously untrue! Companies advertise on Tw=
+itter because it sells products! People use Twitter because other, non-bot =
+people also use Twitter, so it is a useful and enjoyable social network! El=
+on Musk =E2=80=94=C2=A0who=C2=A0has <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/28323083.276576/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9lb=
+G9uLW11c2tzLWJvdC1wcm9ibGVtLW9uLXR3aXR0ZXItaXMtZXh0cmFvcmRpbmFyeS0xMTY1NDQy=
+NjgwMA/607f07ceef4b8524a319a23cB47502af2/email" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">far more interactio=
+ns with bots</a> than most=C2=A0Twitter users =E2=80=94=C2=A0is addicted to=
+ Twitter because it is full of real people! It=E2=80=99s <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/28323083.276576/aHR0cHM6Ly9wYWdlc2l4=
+LmNvbS8yMDE4LzA1LzA3L2Vsb24tbXVzay1xdWlldGx5LWRhdGluZy1tdXNpY2lhbi1ncmltZXM=
+v/607f07ceef4b8524a319a23cB7a2c0173/email" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">how he met</a> the <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aHR0cHM=
+6Ly93d3cudmFuaXR5ZmFpci5jb20vc3R5bGUvMjAyMi8wMy9ncmltZXMtY292ZXItc3Rvcnktb2=
+4tbXVzaWMtYW5kLW1hcnM/607f07ceef4b8524a319a23cB8156e4ef/email" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">moth=
+er of some of his children</a>! The pretense that Elon Musk has somehow exp=
+osed the secret truth=C2=A0that nobody uses Twitter except himself and some=
+ spam bots is just absurd! But we have to keep talking about it! It=E2=80=
+=99s so stupid!</p>
+<p style=3D"margin: 16px 0;">The second pretext is: Twitter is not giving M=
+usk enough information about the bot problem. This is a better pretext, for=
+ technical legal reasons, which <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/28323083.276576/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjItMDYtMDYvZWxvbi1oYXMtYS1uZXctYm90LWV4Y3VzZT9jbXBpZD1CQkQw=
+NzA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMjA3MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cB543c0145/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">we have also discussed previously</a>. In the cl=
+osing conditions to the merger, representations are qualified by =E2=80=9Cm=
+aterial adverse effect=E2=80=9D; just finding that a representation is=C2=
+=A0<em>false </em>would not give Musk the right to terminate the deal unles=
+s it caused an MAE. But=C2=A0<em>covenants=C2=A0</em>are qualified by =E2=
+=80=9Call material respects=E2=80=9D: In the merger agreement, Twitter prom=
+ised to do certain things between signing and closing, and it has to do tho=
+se things, whether or not there would be a material adverse effect from not=
+ doing them. So if Musk can prove that Twitter hasn=E2=80=99t complied with=
+ its obligations, he can get out of the deal.</p>
+<p style=3D"margin: 16px 0;">The covenant=C2=A0at issue here is <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/28323083.276576/aHR0cHM6Ly93d=
+3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyMTc2NzUz=
+L2QyODMxMTlkcHJlcjE0YS5odG0jYW54YXRvYzI4MzExOV81OQ/607f07ceef4b8524a319a23c=
+B3d6b7cb8/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">Section 6.4(a) of the merger agreement</a>=C2=A0(i=
+mportant part bolded):</p>
+<blockquote><p style=3D"margin: 16px 0;">Upon reasonable notice, the Compan=
+y [<em>i.e. Twitter</em>] shall (and shall cause each of its Subsidiaries t=
+o) afford to the representatives, officers, directors, employees, agents, a=
+ttorneys, accountants and financial advisors (=E2=80=9CRepresentatives=E2=
+=80=9D) of Parent [<em>i.e. Musk</em>]=C2=A0reasonable access (at Parent=E2=
+=80=99s sole cost and expense), in a manner not disruptive in any material =
+respect to the operations of the business of the Company and its Subsidiari=
+es, during normal business hours and upon reasonable written notice through=
+out the period commencing on the date of this Agreement until the earlier o=
+f the Effective Time and the termination of this Agreement pursuant to Arti=
+cle VIII, to the properties, books and records of the Company and its Subsi=
+diaries and, during such period, <strong>shall (and shall cause each of its=
+ Subsidiaries to) furnish promptly to such Representatives all information =
+concerning the business, properties and personnel of the Company and its Su=
+bsidiaries as may reasonably be requested in writing, in each case, for any=
+ reasonable business purpose related to the consummation of the transaction=
+s contemplated by this Agreement</strong>; provided, however, that nothing =
+herein shall require the Company or any of its Subsidiaries to disclose any=
+ information to Parent or Acquisition Sub if such disclosure would, in the =
+reasonable judgment of the Company, (i) cause significant competitive harm =
+to the Company or its Subsidiaries if the transactions contemplated by this=
+ Agreement are not consummated, (ii) violate applicable Law or the provisio=
+ns of any agreement to which the Company or any of its Subsidiaries is a pa=
+rty, or (iii) jeopardize any attorney-client or other legal privilege. =E2=
+=80=A6=C2=A0Prior to any disclosure, the Company and Parent shall enter int=
+o a customary confidentiality agreement with=C2=A0respect to any informatio=
+n obtained pursuant to this Section 6.4 (or otherwise pursuant to this Agre=
+ement).</p></blockquote>
+<p style=3D"margin: 16px 0;">Ringler says that Musk has reasonably demanded=
+ a bunch of information about bots, and Twitter hasn=E2=80=99t given him en=
+ough:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Mr. Musk and his financial advisors at Morgan =
+Stanley have been requesting critical information from Twitter as far back =
+as May 9, 2022=E2=80=94and repeatedly since then=E2=80=94on the relationshi=
+p between Twitter=E2=80=99s disclosed mDAU figures and the prevalence of fa=
+lse or spam accounts on the platform. If there were ever any doubt as to th=
+e nature of these information requests, the May 25 Letter made clear that M=
+r. Musk=E2=80=99s goal was to understand how many of Twitter=E2=80=99s clai=
+med mDAUs were, in fact, fake or spam accounts. That letter noted that =E2=
+=80=9CItems 1.03 to 1.13 of the diligence request list contain high-priorit=
+y requests for enterprise data and other information intended to enable Mr.=
+ Musk and his advisors to make an independent assessment of the prevalence =
+of fake or spam accounts on Twitter=E2=80=99s platform=E2=80=A6=E2=80=9D Th=
+e letter then provided Twitter with a detailed list of requests to this eff=
+ect.</p>
+<p style=3D"margin: 16px 0;">Since then, Mr. Musk has provided numerous add=
+itional follow-up requests, all aimed at filling the gaps in the incomplete=
+ information that Twitter provided in response to his broad requests for in=
+formation relating to Twitter=E2=80=99s reported mDAU counts and reported e=
+stimates of false and spam accounts.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">When we last discussed this, <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/28323083.276576/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMDYvZWxvbi1oYXMtYS1uZXctYm=
+90LWV4Y3VzZT9jbXBpZD1CQkQwNzA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA3MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cC543c0145/email" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">I wrote</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Musk can ask Twitter, like, =E2=80=
+=9Cgive me the cell phone numbers of every one of your monetizable daily ac=
+tive users so I can call them and see if they=E2=80=99re bots,=E2=80=9D and=
+ Twitter will have to decide if that is reasonable, if it violates any laws=
+, etc. If they say no, Musk can disagree, and it might end up in court, wit=
+h Musk having the ability to walk away if he wins. If they say yes, Musk ca=
+n just keep asking for more things. =E2=80=9CTell us what all of your users=
+ were thinking about last Thursday,=E2=80=9D why not.</p></blockquote>
+<p style=3D"margin: 16px 0;">And in fact Ringler=E2=80=99s letter makes it =
+pretty clear that that=E2=80=99s what Musk was up to: He=E2=80=99d ask for =
+information about bots, and they=E2=80=99d give it to him, and he=E2=80=99d=
+ ask for more, and he=E2=80=99d keep trying to get information that he coul=
+d use to undermine Twitter=E2=80=99s SEC reports. He buried Twitter in an a=
+valanche of demands for data:</p>
+<blockquote><p style=3D"margin: 16px 0;">On June 17, 2022 (the =E2=80=9CJun=
+e 17 Letter=E2=80=9D) Mr. Musk reiterated his request for =E2=80=9Caccess t=
+o the sample set used and calculations performed, as well as any related re=
+ports or analysis, to support Twitter=E2=80=99s representation that fewer t=
+han 5% of its mDAUs are false or spam account.=E2=80=9D To that end, Mr. Mu=
+sk requested that Twitter provide =E2=80=9Cdaily measures of mDAU for the p=
+revious eight quarters, and through the present.=E2=80=9D This information =
+is derivative of the information Mr. Musk first sought in Sections 1.01-1.0=
+3 of the May 19 diligence request list. Although Twitter has provided certa=
+in summary data regarding the mDAU calculations, Twitter has not provided t=
+he complete daily measures as requested.</p></blockquote>
+<p style=3D"margin: 16px 0;">Musk has also asked for a random assortment of=
+ other information from Twitter including, hilariously, its investment bank=
+ers=E2=80=99 financial model for their fairness opinion:</p>
+<blockquote><p style=3D"margin: 16px 0;">To that end, Mr. Musk requested on=
+ June 17 a variety of board materials, including a working, bottoms-up fina=
+ncial model for 2022, a budget for 2022, an updated draft plan or budget, a=
+nd a working copy of Goldman Sachs=E2=80=99 valuation model underlying its =
+fairness opinion. Twitter has provided only a pdf copy of Goldman Sachs=E2=
+=80=99 final Board presentation.</p></blockquote>
+<p style=3D"margin: 16px 0;">What a weird ask. It is so in keeping with thi=
+s deal. Musk, of course, did not do any financial modeling before whimsical=
+ly offering to buy Twitter at $54.20 per share. But Goldman did some modeli=
+ng before recommending to Twitter=E2=80=99s board that they accept the offe=
+r.<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: none !important; background-color: tra=
+nsparent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0So now Musk wants Goldman=E2=80=99s Excel spreadsheets (which Twi=
+tter surely doesn=E2=80=99t have), and for some reason thinks that the merg=
+er agreement requires Twitter to give them to him.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Will this pretext work? Well, like I said, it=
+=E2=80=99s better than the one about the bots. It still strikes me as prett=
+y implausible. Just from reading Ringler=E2=80=99s own letter you can tell =
+that Twitter has done a lot to give Musk the information he <em>reasonably<=
+/em> requires, and that Musk keeps coming up with increasingly baroque requ=
+ests. It is hard to imagine a judge sympathizing with Musk here.</p>
+<p style=3D"margin: 16px 0;">Also, though,=C2=A0the covenant does not actua=
+lly say =E2=80=9Cyou have to give Musk any information he asks for.=E2=80=
+=9D It says that Twitter has to give Musk information that he needs =E2=80=
+=9Cfor any reasonable business purpose related to the consummation of the t=
+ransactions contemplated by this Agreement.=E2=80=9D Since he has=C2=A0made=
+ it clear for months that he wants all of this information to<em> avoid</em=
+> consummating the merger, Twitter has a decent argument that they don=E2=
+=80=99t have to give it to him. Nothing that Musk is doing has any purpose =
+related to the consummation of the merger! It has the opposite purpose! As =
+he keeps saying!</p>
+<p style=3D"margin: 16px 0;">Similarly, Twitter doesn=E2=80=99t have to giv=
+e Musk any information that would =E2=80=9Ccause significant competitive ha=
+rm to the Company or its Subsidiaries if the transactions contemplated by t=
+his Agreement are not consummated,=E2=80=9D and it seems pretty clear that =
+Musk plans to use any information that he gets from Twitter to undermine it=
+s business by saying that it is running a massive fraud on its advertisers,=
+<em> because that is what he is doing already</em>. So Twitter has a pretty=
+ reasonable case not to give him any more information.</p>
+<p style=3D"margin: 16px 0;">Still this seems like uncharted territory. I a=
+m not aware of any merger agreement that has ever been terminated for a bre=
+ach of an information covenant. It is generally pretty easy to comply with =
+an information covenant =E2=80=94=C2=A0just give the buyer the information =
+they want! =E2=80=94=C2=A0and buyers don=E2=80=99t generally use it as a wa=
+y to harass sellers and create an excuse for walking away. But if Musk gets=
+ away with it then I guess this will become a more common tactic.</p>
+<p style=3D"margin: 16px 0;">The third pretext is another covenant. In <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aHR0cH=
+M6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyM=
+Tc2NzUzL2QyODMxMTlkcHJlcjE0YS5odG0jYW54YXRvYzI4MzExOV81Ng/607f07ceef4b8524a=
+319a23cBcbca1e06/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">Section 6.1 of the merger agreement</a>, Tw=
+itter promises to=C2=A0=E2=80=9Cuse its commercially reasonable efforts to =
+conduct the business of the Company and its Subsidiaries in the ordinary co=
+urse of business=E2=80=9D between signing and closing. Ringler=E2=80=99s le=
+tter argues that Twitter has not been running its business in the ordinary =
+course:</p>
+<blockquote><p style=3D"margin: 16px 0;">Twitter=E2=80=99s conduct in firin=
+g two key, high-ranking employees, its Revenue Product Lead and the General=
+ Manager of Consumer, as well as announcing on July 7 that it was laying of=
+f a third of its talent acquisition team, implicates the ordinary course pr=
+ovision. Twitter has also instituted a general hiring freeze which extends =
+even to reconsideration of outstanding job offers. Moreover, three executiv=
+es have resigned from Twitter since the Merger Agreement was signed: the He=
+ad of Data Science, the Vice President of Twitter Service, and a Vice Presi=
+dent of Product Management for Health, Conversation, and Growth. The Compan=
+y has not received Parent=E2=80=99s consent for changes in the conduct of i=
+ts business, including for the specific changes listed above.=C2=A0</p></bl=
+ockquote>
+<p style=3D"margin: 16px 0;">This is tossed in at the end, and I doubt that=
+ a court would really let Musk out of the deal because Twitter fired two em=
+ployees. (It=C2=A0<em>certainly=C2=A0</em>wouldn=E2=80=99t let him out of t=
+he deal because other employees=C2=A0<em>quit</em>, which is not something =
+that Twitter can control; also most of them probably quit <em>because of Mu=
+sk</em>.) Firing employees and reducing hiring are pretty ordinary-course t=
+hings to do, especially in=C2=A0response to an economic downturn. (Obviousl=
+y <a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDYtMDMvdGVzbGE=
+tcGF1c2VzLWhpcmluZy1tdXNrLXNheXMtbmVlZC10by1jdXQtc3RhZmYtYnktMTAtcmV1dGVycy=
+1sM3k0bmIzNj9jbXBpZD1CQkQwNzA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA3MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cBb0f6da59/email" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"><em>Tesla=C2=A0</em>ha=
+s instituted a hiring freeze</a>, because Musk has a =E2=80=9Csuper bad fee=
+ling=E2=80=9D about the economy.)</p>
+<p style=3D"margin: 16px 0;">Still it is weird that they didn=E2=80=99t sen=
+d Musk a little courtesy notification before firing those people? Buyers <e=
+m>have</em> <a href=3D"https://link.mail.bloombergbusiness.com/click/283230=
+83.276576/aHR0cHM6Ly9jb3JwZ292Lmxhdy5oYXJ2YXJkLmVkdS8yMDIyLzAyLzEzL2RlbGF3Y=
+XJlLXN1cHJlbWUtY291cnQtYWZmaXJtcy10ZXJtaW5hdGlvbi1vZi01LTgtYmlsbGlvbi10cmFu=
+c2FjdGlvbi8/607f07ceef4b8524a319a23cBcbd245e4/email" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">gotten out of =
+merger</a> agreements for breaches of the ordinary-course covenant, and it =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDQtMjQvaW52Z=
+XN0b3JzLXdhbnQtYS1jdXJlLW5vdC1hLXdpbm5lcj9jbXBpZD1CQkQwNzA5MjJfTU9ORVlTVFVG=
+RiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA3MDk=
+mdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb839ffa4/email" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">always seems avoidable</a> by just over-communicating. If Twitter=E2=
+=80=99s CEO had shot Musk an email saying =E2=80=9Chey I=E2=80=99m gonna fi=
+re some guys, you cool with that,=E2=80=9D Musk would absolutely have said =
+yes! He wants to fire everyone at Twitter! Why not just run it by him=C2=A0=
+first?</p>
+<p style=3D"margin: 16px 0;">What will happen? Ugh, I don=E2=80=99t know.=
+=C2=A0Twitter =E2=80=9Cplans to pursue legal action to enforce the merger a=
+greement,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/28323083.276576/aHR0cHM6Ly90d2l0dGVyLmNvbS9idGF5bG9yL3N0YXR1cy8xNTQ1NTI2MD=
+g3MDg5Njk2NzY4/607f07ceef4b8524a319a23cB4b1da6a8/email" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">tweeted the=
+ chairman of its board</a>, and is =E2=80=9Cconfident we will prevail in th=
+e Delaware Court of Chancery.=E2=80=9D I don=E2=80=99t really disagree.=C2=
+=A0The pretexts in this letter are pretty laughable, and I doubt a court wo=
+uld side with Musk on any of this. He has been too=C2=A0<em>open=C2=A0</em>=
+about the fact that he=E2=80=99s messing around; it=E2=80=99s impossible to=
+ take any of this bot stuff seriously.</p>
+<p style=3D"margin: 16px 0;">But the question really is the remedy. If a co=
+urt finds for Twitter =E2=80=94=C2=A0that is, if a judge concludes that Mus=
+k=E2=80=99s pretexts are not good enough to get him out of the deal =E2=80=
+=94=C2=A0then=C2=A0there are two possible outcomes, and they are very diffe=
+rent:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Musk might have to pay a $1 billion <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aHR=
+0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNT=
+IyMTc2NzUzL2QyODMxMTlkcHJlcjE0YS5odG0jYW54YXRvYzI4MzExOV83Nw/607f07ceef4b85=
+24a319a23cB20a3d0e3/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">reverse termination fee</a> for unjustif=
+iably walking away from the deal; or</li>=09<li style=3D"margin-bottom: 5px=
+;">The court might order =E2=80=9C<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/28323083.276576/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGd=
+hci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyMTc2NzUzL2QyODMxMTlkcHJlcjE0YS5odG0jYW=
+54YXRvYzI4MzExOV85MA/607f07ceef4b8524a319a23cBa23d6bd7/email" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">speci=
+fic performance</a>,=E2=80=9D meaning that Musk would have to fund his enti=
+re <a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576=
+/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTEwND=
+Y1OTIyMDY0NjU1L3RtMjIxNjkzMWQxX2V4LW4uaHRt/607f07ceef4b8524a319a23cB7f9bf59=
+a/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">$33.5 billion equity commitment</a> and buy Twitter.<a cla=
+ss=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: none !important; background-color: transparent=
+ !important; display: inline-block;">
+<span>[5]</span>
+</a>
+</li>
+</ol>
+<p style=3D"margin: 16px 0;">Musk=E2=80=99s goal here is presumably to walk=
+ away from Twitter and pay only $1 billion in damages. That would make this=
+ whole lark of pretending to buy Twitter an expensive joke, but definitely =
+one he can afford. Paying $33.5 billion and having to own and run Twitter w=
+ould sort of spoil the fun.=C2=A0</p>
+<p style=3D"margin: 16px 0;">(To be clear: Musk=E2=80=99s goal here might a=
+ctually be to renegotiate the deal at a lower price. I actually kind of thi=
+nk it isn=E2=80=99t, and he really wants out of the deal =E2=80=94=C2=A0bec=
+ause he was kidding in the first place, or has gotten bored by now. But the=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDctMDgvbXVzay10=
+d2l0dGVyLWJ1eW91dC1maWdodC1wb3Nlcy1xdWVzdGlvbi1vZi13aG8tbWlnaHQtc3VlLWZpcnN=
+0P2NtcGlkPUJCRDA3MDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDcwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cB750b15c0/email" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">conventional wisdom</a> is that =
+the goal of Musk=E2=80=99s letter is to get a lower price, and that does ma=
+ke sense and <a href=3D"https://link.mail.bloombergbusiness.com/click/28323=
+083.276576/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjIt=
+MDYtMTMvbWVyZ2VyLWJ1eWVyLXMtcmVtb3JzZS1zb21ldGltZXMtd29ya3M_Y21waWQ9QkJEMDc=
+wOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdX=
+RtX3Rlcm09MjIwNzA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23c=
+B40ebbf30/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">would be more typical</a>. His bargaining leverage=
+ for that depends on whether a court would likely order only a $1 billion b=
+reakup fee =E2=80=94=C2=A0in which case he has a ton of leverage to get a m=
+uch lower price =E2=80=94=C2=A0or specific performance =E2=80=94=C2=A0in wh=
+ich case he has very little leverage. When we talk, below, about what a cou=
+rt might do, we are also=C2=A0talking about=C2=A0what Musk=E2=80=99s and Tw=
+itter's lawyers will think a court will do, which will inform their negotia=
+ting posture.)</p>
+<p style=3D"margin: 16px 0;">In order for the court to order specific perfo=
+rmance, two things have to happen. First, the court has to want to. It is a=
+ drastic remedy, forcing a person to spend $33.5 billion to buy a company h=
+e doesn=E2=80=99t want, and you could imagine a Delaware chancellor blinkin=
+g and just=C2=A0making him pay the $1 billion breakup fee. Do you=C2=A0<em>=
+want </em>an aggrieved=C2=A0Musk in charge of Twitter? Twitter is, to some =
+extent, <a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.2=
+76576/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtM=
+DIvdHdpdHRlci1zLWJvYXJkLWdhdmUtdXA_Y21waWQ9QkJEMDcwOTIyX01PTkVZU1RVRkYmdXRt=
+X21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNzA5JnV0bV9=
+jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB9e1b4a1c/email" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+a public utility</a>, =E2=80=9Cthe town square,=E2=80=9D as <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/28323083.276576/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMTUvc3VyZS1lbG9uLW11c2st=
+bWlnaHQtYnV5LXR3aXR0ZXI_Y21waWQ9QkJEMDcwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1=
+lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNzA5JnV0bV9jYW1wYWlnbj=
+1tb25leXN0dWZm/607f07ceef4b8524a319a23cCcbfdea87/email" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">Musk has ca=
+lled it</a>; what if he shuts it down out of spite?</p>
+<p style=3D"margin: 16px 0;">The fact that Musk is working in such bad fait=
+h here =E2=80=94=C2=A0that he seems so unconcerned with law and the contrac=
+t he signed =E2=80=94=C2=A0<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/28323083.276576/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjItMDUtMTcvZWxvbi1tdXNrLWRvZXMtbm90LWNhcmUtYWJvdXQtc3BhbS1ib3RzP=
+2NtcGlkPUJCRDA3MDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDcwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZiNmb290bm9=
+0ZS0x/607f07ceef4b8524a319a23cB5b729b83/email" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">cuts both ways</a>. =
+On the one hand, it will certainly annoy a Delaware chancellor; Delaware li=
+kes to think of itself as a stable place for corporate deals,=C2=A0with pre=
+dictable law and binding contracts, and Musk=E2=80=99s antics undermine tha=
+t. On the other hand it might=C2=A0<em>intimidate=C2=A0</em>a Delaware chan=
+cellor: What if the court orders Musk to close the deal and he says no? The=
+y=E2=80=99re not gonna put him in Chancery jail.<a class=3D"footnote-index"=
+ href=3D"#footnote-6" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: none !important; background-color: transparent !important; display:=
+ inline-block;">
+<span>[6]</span>
+</a>=C2=A0The guy is <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/28323083.276576/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMTktMDItMjYvZWxvbi1tdXNrLWtlZXBzLXR3ZWV0aW5nP2NtcGlkPUJCRDA3MDkyMl9NT05=
+FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPT=
+IyMDcwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBa1bf9ffe/=
+email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">pretty contemptuous</a> of legal authority; he thinks he is =
+above the law and <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+28323083.276576/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMjItMDUtMTMvZWxvbi1tdXNrLXRyb2xscy10d2l0dGVyP2NtcGlkPUJCRDA3MDkyMl9NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyM=
+DcwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB16b1b13d/ema=
+il" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">he might be right</a>. A showdown between Musk and a judge mig=
+ht undermine Delaware corporate law more than letting him weasel out of the=
+ deal would.</p>
+<p style=3D"margin: 16px 0;">But the other thing that has to happen, for Tw=
+itter to get specific performance, <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/28323083.276576/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZG=
+dhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyMTc2NzUzL2QyODMxMTlkcHJlcjE0YS5odG0jY=
+W54YXRvYzI4MzExOV85MA/607f07ceef4b8524a319a23cCa23d6bd7/email" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">is t=
+hat</a> =E2=80=9Cthe Debt Financing ... has been funded or will be funded a=
+t the Closing.=E2=80=9D Musk agreed to buy Twitter with $33.5 billion of hi=
+s own money and $13 billion of debt financing from his banks,<a class=3D"fo=
+otnote-index" href=3D"#footnote-7" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: none !important; background-color: transparent !import=
+ant; display: inline-block;">
+<span>[7]</span>
+</a> and if the banks don=E2=80=99t put up their $13 billion then he doesn=
+=E2=80=99t have to put up his $33.5 billion: In that case, he can pay the $=
+1 billion to walk away.</p>
+<p style=3D"margin: 16px 0;">Now, the banks have signed commitment letters =
+obligating them to put up the money, and those commitment letters do not gi=
+ve the banks a ton of outs. (The outs are in <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/28323083.276576/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNo=
+aXZlcy9lZGdhci9kYXRhLzAwMDE0MTgwOTEvMDAwMTEwNDY1OTIyMDQ5ODQ0L3RtMjIxMzE4OWQ=
+4X2V4OTktaC5odG0/607f07ceef4b8524a319a23cB2cdd7cdb/email" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">Exhibit E=
+ here</a>.) Still:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">The banks surely <em>want=C2=A0</em>to=
+ get out of this deal, because <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/28323083.276576/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydG=
+ljbGVzLzIwMjItMDYtMjMvd2FsbC1zdHJlZXQtZmFjZXMtYmlsbGlvbi1kb2xsYXItbG9zc2VzL=
+W9uLXNpbmtpbmctYnV5b3V0LWRlYnQ_Y21waWQ9QkJEMDcwOTIyX01PTkVZU1RVRkYmdXRtX21l=
+ZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNzA5JnV0bV9jYW1=
+wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2cfa9659/email" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">the =
+market for buyout loans</a> has soured=C2=A0since they signed their commitm=
+ent letters, and they will probably lose a lot of money if they have to fun=
+d their commitments. (Also because Musk is their client, and=C2=A0<em>he</e=
+m> wants out.)</li>=09<li style=3D"margin-bottom: 5px;">If Musk purports to=
+ terminate the merger agreement, that gives the banks an excuse to avoid fu=
+nding the financing, which at least makes it=C2=A0<em>arguable=C2=A0</em>th=
+at the financing is not available, which makes it arguable that Musk should=
+ not be ordered to close the deal and should instead pay only $1 billion.</=
+li>
+</ul>
+<p style=3D"margin: 16px 0;">So Ringler=E2=80=99s letter could be=C2=A0part=
+ of an effort by Musk to blow up his financing to avoid specific performanc=
+e.</p>
+<p style=3D"margin: 16px 0;">This is not a perfect out: In theory, Twitter =
+could ask a court to order Musk (to <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/28323083.276576/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZ=
+Gdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyMTc2NzUzL2QyODMxMTlkcHJlcjE0YS5odG0j=
+YW54YXRvYzI4MzExOV85MA/607f07ceef4b8524a319a23cDa23d6bd7/email" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">spe=
+cifically perform</a> his <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/28323083.276576/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXR=
+hLzE0MTgwOTEvMDAwMTE5MzEyNTIyMTc2NzUzL2QyODMxMTlkcHJlcjE0YS5odG0jYW54YXRvYz=
+I4MzExOV82NQ/607f07ceef4b8524a319a23cB1b8162b6/email" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">covenant</a>)=
+ not to blow up his financing. There is some history of <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/28323083.276576/aHR0cHM6Ly9jb3VydHMuZ=
+GVsYXdhcmUuZ292L09waW5pb25zL0Rvd25sb2FkLmFzcHg_aWQ9MTEyNTAw/607f07ceef4b852=
+4a319a23cB81a7f1a3/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Delaware courts doing that</a>, and of no=
+t being fooled by merger buyers who try to blow up their own financing. The=
+ banks=E2=80=99 commitment letters do not give them an out for anything tha=
+t=C2=A0<em>Musk=C2=A0</em>does or doesn=E2=80=99t do; if <em>Twitter</em> c=
+ooperates=C2=A0with the financing banks and a court finds that there=E2=80=
+=99s no cause to terminate the merger agreement, then in theory the banks s=
+hould have to fund, so specific performance should still be available. But =
+it=E2=80=99s messy, and you can sort of see a path to =E2=80=9CMusk says th=
+e deal is off, so his banks walk away, so his financing isn=E2=80=99t avail=
+able, so he doesn=E2=80=99t have to close the deal and can get away with ju=
+st paying $1 billion.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">I like Twitter=E2=80=99s odds =E2=80=94=C2=A0i=
+ts odds of getting specific performance and making Musk close the deal =E2=
+=80=94=C2=A0in court, but I don=E2=80=99t think anything is a certainty at =
+this point. And obviously Musk will make this fight as unpleasant as possib=
+le; already the attorney general of Texas has <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/28323083.276576/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMDcvcmV0YWlsLXRyYWRpbmctaXMtYWJvdXQtdG=
+8tY2hhbmdlP2NtcGlkPUJCRDA3MDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDcwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVm=
+Zg/607f07ceef4b8524a319a23cB952bd252/email" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">opened an investigation=
+</a> of Twitter=E2=80=99s bot numbers in order to harass Twitter and capita=
+lize on Musk=E2=80=99s popularity with Republican voters. I have <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/28323083.276576/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTYvdGhlLXRydW1wLXN=
+wYWMtaXMtaW4tYnVzaW5lc3M_Y21waWQ9QkJEMDcwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT=
+1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNzA5JnV0bV9jYW1wYWlnb=
+j1tb25leXN0dWZm/607f07ceef4b8524a319a23cBbb254644/email" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">suggested =
+in the past</a> that Twitter=E2=80=99s best weapon in this dispute would be=
+=C2=A0<em>banning Musk from Twitter</em>, because he is such an addict, but=
+ in fact he recently <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/28323083.276576/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vdGVjaG5vbG9neS9tdXNrLWJy=
+ZWFrcy1zaWxlbmNlLXR3aXR0ZXItcG9zdHMtcGljdHVyZS13aXRoLXBvcGUtMjAyMi0wNy0wMi8=
+/607f07ceef4b8524a319a23cB91ba4884/email" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">stayed off Twitter volun=
+tarily for nine days</a>, which I assume he did just to prove to Twitter th=
+e company that he can survive without Twitter the product. It is all going =
+to be pretty awful and stupid.</p>
+<p style=3D"margin: 16px 0;">Is it fun for him? If he manages to walk away =
+having spent only millions in financing fees, millions in legal fees and sa=
+y $1 billion in termination fees, was it worth it? What did he get out of t=
+his? The guy really seems to like being on Twitter, and he did make himself=
+ the main character in Twitter's drama for months on end. That=E2=80=99s ni=
+ce for him I guess. Also he made the lives of Twitter=E2=80=99s executives =
+and employees pretty miserable; as a fellow Twitter addict I can kind of se=
+e the appeal of that? I <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/28323083.276576/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjItMDQtMDUvZWxvbi1tdXNrLWdvdC1hLXR3aXR0ZXItYm9hcmQtc2VhdD9jbXBpZD1C=
+QkQwNzA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHR=
+lciZ1dG1fdGVybT0yMjA3MDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a3=
+19a23cB25db3270/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">always assume</a> that =E2=80=9Ceveryone who=
+ works at Twitter hates the product and its users,=E2=80=9D=C2=A0and I supp=
+ose this is a case of the richest and weirdest user getting some revenge on=
+ the employees. He also=C2=A0<a href=3D"https://link.mail.bloombergbusiness=
+.com/click/28323083.276576/aHR0cHM6Ly9tZWRpdW0uY29tL0BzcXVhcmVseXJvb3RlZC9v=
+bi1iZWNvbWluZy1hLXRyaWxsaW9uYWlyZS1pbi0yMDIyLTk2Mjc5MWQzMWEx/607f07ceef4b85=
+24a319a23cB9676cbef/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">gave himself an excuse</a> to sell a bun=
+ch of Tesla stock near the highs. He=C2=A0maybe <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/28323083.276576/aHR0cHM6Ly93d3cudGhldmVyZ2UuY=
+29tLzIwMjIvNS8yLzIzMDU0MTkzL3R3aXR0ZXItZWRpdC1idXR0b24taG93LWl0LXdvcmtzLWxv=
+b2tzLWxpa2U/607f07ceef4b8524a319a23cBc4c20a3e/email" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">got an edit bu=
+tton too</a>? Maybe that=E2=80=99s worth a billion dollars to him?</p>
+<p style=3D"margin: 16px 0;">I tell you what though. <em>I </em>have learne=
+d my lesson. The next time Elon Musk announces that he is going to buy a pu=
+blic company =E2=80=94=C2=A0and he will=C2=A0do it again! =E2=80=94=C2=A0I =
+will know not to believe him. I will definitely know not to write about it.=
+</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/28323083.276576/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB41335cb5/email" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">subscribe at this link</a>. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/28323083.276576/aHR0cHM6Ly9sb2dpbi5ibG9vbWJ=
+lcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB563e4ec1/email" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">here</a>. Thanks!<=
+/em></span></p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] This is an *unusual* rich-person hobby, bu=
+t by no means an *unprecedented* one. Famously Donald Trump spent some time=
+ in the 1980s <a href=3D"https://link.mail.bloombergbusiness.com/click/2832=
+3083.276576/aHR0cHM6Ly93d3cuY25uLmNvbS8yMDE2LzA4LzIyL3BvbGl0aWNzL2RvbmFsZC1=
+0cnVtcC1hY3RpdmlzdC1pbnZlc3Rvci9pbmRleC5odG1s/607f07ceef4b8524a319a23cB7200=
+668d/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">pretending he was going to buy public companies</a>. Bu=
+t he did this as a way to make money =E2=80=94 by extracting greenmail out =
+of the companies =E2=80=94 while Musk seems to do it mostly for fun.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] And, let=E2=80=99s face it, writers of fin=
+ancial newsletters.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] The letter says: =E2=80=9CTwitter=E2=80=99=
+s representation in the Merger Agreement regarding the accuracy of its SEC =
+disclosures relating to false and spam accounts may have also caused, or is=
+ reasonably likely to result in, a Company Material Adverse Effect, which m=
+ay form an additional basis for terminating the Merger Agreement. While Mr.=
+ Musk and his advisors continue to investigate the exact nature and extent =
+of this event, Mr. Musk has reason to believe that the true number of false=
+ or spam accounts on Twitter=E2=80=99s platform is substantially higher tha=
+n the amount of less than 5% represented by Twitter in its SEC filings. Twi=
+tter=E2=80=99s true mDAU count is a key component of the company=E2=80=99s =
+business, given that approximately 90% of its revenue comes from advertisem=
+ents. For this reason, to the extent that Twitter has underrepresented the =
+number of false or spam accounts on its platform, that may constitute a Com=
+pany Material Adverse Effect under Section 7.2(b)(i) of the Merger Agreemen=
+t. Mr. Musk is also examining the company=E2=80=99s recent financial perfor=
+mance and revised outlook, and is considering whether the company=E2=80=99s=
+ declining business prospects and financial outlook constitute a Company Ma=
+terial Adverse Effect giving Mr. Musk a separate and distinct basis for ter=
+minating the Merger Agreement.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] One factor here is that Goldman, in doing =
+a fairness opinion, is generally in the position of telling Twitter=E2=80=
+=99s board that the company is worth *less* than $54.20 per share: The fair=
+ness opinion says to the board =E2=80=9Cgo ahead and accept this deal, you=
+=E2=80=99re not worth more as a stand-alone company.=E2=80=9D So if Musk is=
+ trying to find arguments that Twitter is bad, the fairness model might be =
+a decent place to start snooping around.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Some of that equity commitment =E2=80=94 a=
+bout $7 billion =E2=80=94 has been <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/28323083.276576/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMjItMDUtMDkvbXVzay10d2l0dGVyLWhhcy1uZXctb3duZXJzP2NtcGlkP=
+UJCRDA3MDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0=
+dGVyJnV0bV90ZXJtPTIyMDcwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524=
+a319a23cB3c8bf8dc/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">syndicated to co-investors</a>, so really =
+we=E2=80=99re talking about $26 billion or so of his own money, though one =
+could imagine the co-investors worming their way out, in which case Musk is=
+ on the hook for their money.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] I <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/28323083.276576/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMjItMDUtMTkvaXMtdGhlLXNlYy11bmNvbnN0aXR1dGlvbmFsP2NtcGlkP=
+UJCRDA3MDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0=
+dGVyJnV0bV90ZXJtPTIyMDcwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524=
+a319a23cBd6ed48ea/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">made this joke before</a>, and a reader po=
+inted out that a Delaware chancellor did once <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/28323083.276576/aHR0cHM6Ly93d3cuZGVsYXdhcmVvbmx=
+pbmUuY29tL3N0b3J5L25ld3MvbG9jYWwvMjAxNC8wNC8wOS9jaGFuY2VyeS1jb3VydC1pc3N1ZX=
+MtdW5wcmVjZWRlbnRlZC1hcnJlc3Qtd2FycmFudC83NTE0NjA5Lw/607f07ceef4b8524a319a2=
+3cB550f826d/email" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">order someone arrested</a>, though not over a me=
+rger.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] Originally some of the $33.5 billion came =
+from margin loans from his banks against his Tesla stock, but those have <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMjYvZWxvbi1=
+jYWxsZWQtb2ZmLWhpcy1tYXJnaW4tbG9hbj9jbXBpZD1CQkQwNzA5MjJfTU9ORVlTVFVGRiZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA3MDkmdXRtX=
+2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBfa893247/email" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>gone away and been replaced by equity</a>.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB783c628d/email" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB1c896ab9/email" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB4dc83e65/emai=
+l" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB29093953/email" style=3D"text-=
+decoration: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yODMyMzA4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1OTk2NTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHf2032548/email" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D28323083&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28599659&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB3871175b/em=
+ail" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28323083.276576/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCdd403a19/email" style=3D"color: #666666; text-decoration: none;" alias=
+=3D"Unsubscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/28323083.276576/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b85=
+24a319a23cBf9eb9ca8/email" style=3D"color: #666666; text-decoration: none;"=
+ target=3D"_blank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/28323083.276576/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZW=
+RiYWNrP2FsY21waWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB5bf6bb9c/email" style=
+=3D"color: #666666; text-decoration: none;" target=3D"_blank">Contact Us</a=
+></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBa=
+d3c5cae/email" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28323083.276576/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBd=
+5a046d6/email" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D283230=
+83&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28599659&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D283230=
+83&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28599659&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D283230=
+83&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28599659&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D283230=
+83&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28599659&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D283230=
+83&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28599659&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgv28b.5xeo/4f021489.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_45461975_1572622530.1657377773675--
+

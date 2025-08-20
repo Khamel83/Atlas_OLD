@@ -1,0 +1,2133 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6214:2b51:b0:674:5b3b:6c43 with SMTP id jy17csp172636qvb;
+        Mon, 30 Oct 2023 11:44:12 -0700 (PDT)
+X-Received: by 2002:a05:6000:1445:b0:32f:7a07:be07 with SMTP id v5-20020a056000144500b0032f7a07be07mr7572279wrx.17.1698691452158;
+        Mon, 30 Oct 2023 11:44:12 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1698691452; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=itXku9jiucdI3iRLo1xulDD+ijKZj7G2hVApYqpdrgavZ9frskNW38+8Zk9p6YW9q1
+         Kx3XniJQPhGQRMwCoL7B34JCxcMc4NadKCD9jsKtLtGAewOw89Ri6KL6WRBGzMUd7zIm
+         ScAspRw2kS4OSp6yjRIFG/Kbn2zqGx1h3Iu7y1VhSLq9jdBMutlqI3x630B/lCQYuSsH
+         puwOwwmgYvDzAaaW/xS/G5/dJZUfcr+qqrREKL4uGZYzsSBnJnbWWdLE0ZDYoUaXLSw0
+         660No3DydEehkApqWqUr/cH6Q5W0hYuY3ST0DSHwQLYD+Dl/OpIDYHJ/ZRc54PXBjC8x
+         TR0Q==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=aZ8m972kd1F061gF3kY7W3uk0dBOrDX6OTB9kDYUhBk=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=C+RN3AZIuFRuyXbSVen4nGO/0uyQVGB8TyZSDfZRW9KLZ3VTzSEGFUcZmhrKphop5J
+         A6/7ueLocAJSamem1uZTWlMMWQQKrEy/qkEvvQ4XxdGd0Sa5EsLyuTtT9E3RN2y9/8eh
+         Ui/VxerpQwqdkV9B4/WakAYBfme12eaHQNvqHub22uyjvxo3iuMJsanFB51vWSXvBgS4
+         GH4wv++MhEBo2WveOCI/gFRS5Xp29sFvONnx1LJdZtBaBtmhdHGox464EwHbPzE7F4XT
+         BkT5unvr9F6mNNDXLoArEEAQNxdDuhErRRjYWQHzISKNNvf93clYRwXtlQPqCD5GMuRG
+         OMvg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ajSsg4Yn;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l26-20020adfb11a000000b0032dc8c06326sor1445922wra.3.2023.10.30.11.44.11
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 30 Oct 2023 11:44:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ajSsg4Yn;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1698691451; x=1699296251;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=aZ8m972kd1F061gF3kY7W3uk0dBOrDX6OTB9kDYUhBk=;
+        b=YDEhNLShb/gzRDmbRE7FX8bA6yVtmmXKosc8+sny9Xkm2T3VMhSM/E2cCmfL97DRqB
+         QLSWhB2k1k0wegYtBByEy3/kz3oHXfjwDf8dx3O8Q93pC5cXneWZT1OsEppw0Kmp46rj
+         hxz273nDZbjBgAOLrkW3qYp5tgw+chje5FYrzIni2Er6IElMX4cGxAncYtUTS61Fcvmp
+         Bh5PhtY8hhfPNEfgg0xIfEaB2s4gKwBmMPkYfr//XewCz6MnGxgcScwAUIGRQOn+If4W
+         cX+oUx4awa5geHThdweMkqKTK56boc6uQCp9rFIhi8qZRaKvReLZreAYyhvMbI6Wwq7/
+         inLQ==
+X-Gm-Message-State: AOJu0Yxeq8wLRMa+pnseyHLYv3CtTZmBQ5LrUYxoLLrxmfKSMxySZVuW
+	jZKafKBYzo+boh59Rc0epP7BsWB1MuoLPYtWf+V8q1XdUp4nsbAnbA==
+X-Received: by 2002:a05:6000:1882:b0:32f:7ee7:1f6c with SMTP id a2-20020a056000188200b0032f7ee71f6cmr4327575wri.35.1698691451019;
+        Mon, 30 Oct 2023 11:44:11 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:58cc:0:b0:314:13a5:30c2 with SMTP id o12csp1221328wrf;
+        Mon, 30 Oct 2023 11:44:07 -0700 (PDT)
+X-Received: by 2002:a05:6602:2f09:b0:795:13ea:477a with SMTP id q9-20020a0566022f0900b0079513ea477amr14811807iow.8.1698691447265;
+        Mon, 30 Oct 2023 11:44:07 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1698691447; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ZBsQvPN0mMn8Doo/4j2cJGcDQKX5eUrlgR7TdV7imCBBiedDMyp0X+RhUT4kY8J78K
+         HnPrTdjlLw8IoB5W+WVP9/yhbur80rNpokPyQblJ2mQl+dkerftXBWNfrFreAFmWmfmS
+         YU4OXyrD4enHTlLPGCuHgnd8wz9zoTpUGqdvve0oqPfBnBucLKKgDYNXMusV0hOQ0GwY
+         ghW9h1p4f1kJuNKZ+GNDEGCfHzhY8gAQjkQvc5n0AKdzZ4+PvIsQ7M/NtC8s7jjhA62D
+         /pRap9q1xlOVE4q1iy4p/4SpbHHIPZ8Cw0KU1vz5sg5D0vDnKmvlykCPiuowSQDoUGpT
+         nxkw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=aZ8m972kd1F061gF3kY7W3uk0dBOrDX6OTB9kDYUhBk=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=D5GGE16ovDhPnPy8ApWmc1r9t0iRcQwyOvXCXzrcclVH5bm+YnmLlCqMQiqj9PAQEe
+         WmZLsihbOw/hYD49uElKBdJ6E2RvRt03f8b5H4PLACTxJHDwhGypecVAT4ojSZyv5HwX
+         S3riLJD8/TFp6Ze2BL2ftBoiHePtYtLoHDh+on6LiqNS7Rki87IXca7wh6fIUQhTG4rc
+         OHUutFCUw+Kjp186kLsaEjBYJL3KKI7kBackyMyr9Yev1Qlm3bZ6OCTF/+ApBtaC4DlI
+         taoCUrJa5McqM3Ra3Sk2kx4ZfAju+uhI1njhc+wstRqTsp7SXxqHwp1BprqEkyMyliqq
+         Zqjg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ajSsg4Yn;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231030144406.33194519.283415@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231030144406.33194519.283415@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231030144406.33194519.283415@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id y12-20020a5e920c000000b007909b115ec3sor3103170iop.7.2023.10.30.11.44.07
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 30 Oct 2023 11:44:07 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20231030144406.33194519.283415@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IGOkW66zZp2rwYd3NI9KEM5TgZX8vFPq/H8pki17nV902QoJZStty8i3lqG62QKgLnHqxg/G+X4PtOGbrZYrfyojfNwmAo=
+X-Received: by 2002:a05:6602:29cf:b0:78b:d0a9:34fb with SMTP id z15-20020a05660229cf00b0078bd0a934fbmr13097423ioq.20.1698691446875;
+        Mon, 30 Oct 2023 11:44:06 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1698691446; cv=none;
+        d=google.com; s=arc-20160816;
+        b=XXn98IvuI9GQMdJwN6+PFrJkItZx/tkmIVgLrCe1hb5v/dktRtqJX4WHwAKaaeNS+k
+         JyJmPfImGGS0xuN1e+H2QBpI/S8L47EhwlFx4pgGi5EiaUN40W/SUd5TbyfyByeD95/d
+         JpnRKs7HhAnpXw5cBfHg3zv/4d/ngIbqZlkVaxKETM3GDrw857UwAQIyAnYmHMoGcp6/
+         zL7iI/4VCBd7CXdJRcdNMS/LHf3sfxUe8sCS3QqhT3ckadGFtS2gME00nktLD6eu1kMU
+         3dF7o7WEW9IPQwJC62FF/Iq6k48v5SRi0PcpSzZodYsyRMHbDFO/ere/zZ2BF1bVctC5
+         BXLQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=aZ8m972kd1F061gF3kY7W3uk0dBOrDX6OTB9kDYUhBk=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=tPR63gMavJlVbHjmQfI1hUKmb8etD1jWExXONi19zRoPkB3MRPDRtju4zIoemnXAQP
+         2++j9seS13z+0N/7oRy1fUQt9wGcdQ/bl4o7zhRxm6k0opdMeWV6Oelhu6viNJ2OKLQ0
+         A+AY0DIFBDw4pWPFAQCeGLSQgO98cXZ5IHRY76XDlwMUCuR0qJf1k0e1WPfPKJfQQ+8a
+         Qedazau5gU24JWDQq7lUpXDAv0fIuCmWsru7PAmS4+qBgbEynQ0PQGk1JtCf9eIKBLU2
+         uQ4z45nmgs++o4g1LBhV+/HxUd19NznARL7ZyvoT5IQWqeFNoCbMhsCEZqVV2cYT9/3j
+         V3rQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ajSsg4Yn;
+       spf=pass (google.com: domain of delivery_20231030144406.33194519.283415@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20231030144406.33194519.283415@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231030144406.33194519.283415@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id y24-20020a02a398000000b00437bda7a9c2si495181jak.2.2023.10.30.11.44.06
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 30 Oct 2023 11:44:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20231030144406.33194519.283415@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=JrXE/Lb8PIyxFLNC3NM31usH7FbZPT/TPsVxqJnX41E=;
+ b=ajSsg4YnWiHDfQ8/2TQmn2g7btdb02orWoo8xCVOqSSYnUQQ2rSdBfRcpj5VsrSzhAU+gW+L9iL4
+   QmlSs+h/KL7KXy5fNYtlav0+ymU2xRpf1dHlBs6lFEKidonsjA00CwNH9EwtJ5UU26DF1t73TCpt
+   acd6oTKWnvjuw1xJSiY=
+Received: from aws1-mta-relay1.sailthru.cloud (10.55.90.180) by bloomberg-b.sailthru.com id h7vsnc30nu8c for <bloomberg@khamel.com>; Mon, 30 Oct 2023 13:44:06 -0500 (envelope-from <delivery_20231030144406.33194519.283415@mx.sailthru.com>)
+Date: Mon, 30 Oct 2023 14:44:06 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231030144406.33194519.283415@sailthru.com>
+Subject: Money Stuff: Two Sigma Had a Rogue Calibrator
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_736040_221215718.1698691446102"
+Precedence: bulk
+x-job: 6358-33194519-20231030
+X-Feedback-ID: 6358:33194519:campaign:sailthru
+X-TM-ID: 20231030144406.33194519.283415
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-61-119.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjrh1z.62on/26c8dde9
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjrh1z.62on/26c8dde9>, <mailto:unsubscribe_20231030144406.33194519.283415@mx.sailthru.com>
+X-rpcampaign: stjko33194519
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_736040_221215718.1698691446102
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        One possibly relevant fact here is that $450 million is more than $=
+170 million? A researcher at Two Sigma Investments adjusted the hedge fun
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Two Sigma
+   =20
+ =20
+
+One possibly relevant fact here is that $450 million is more than $170 mill=
+ion?
+
+A researcher at Two Sigma Investments adjusted the hedge fund=E2=80=99s inv=
+esting models without authorization, the firm has told clients, leading to =
+losses in some funds, big gains in others and fresh regulatory scrutiny.
+The researcher, Jian Wu, a senior vice president at New York-based Two Sigm=
+a, was trying to boost his compensation, Two Sigma has told clients, withou=
+t identifying Wu. He made changes over the past year that resulted in a tot=
+al of $620 million in unexpected gains and losses, according to people clos=
+e to the matter and investor letters. Two Sigma has placed Wu on administra=
+tive leave.
+The Securities and Exchange Commission is examining the matter. =E2=80=A6
+Wu=E2=80=99s changes led to gains of $450 million in total for some Two Sig=
+ma funds=E2=80=94including those in which the firm=E2=80=99s own executives=
+ and employees invest, as well as those available to clients. But they also=
+ led to a total of $170 million in losses for other funds compared with how=
+ they otherwise would have fared=E2=80=94losses largely borne by clients. T=
+wo Sigma has made them whole.
+People familiar with the situation said Wu was trying to improve the firm=
+=E2=80=99s performance, which would have benefited his career and potential=
+ pay.
+
+I mean: Presumably everyone at Two Sigma is trying to improve the firm=E2=
+=80=99s performance, because that would benefit their careers and potential=
+ pay? Like, what else are they coming to work for? If you find a tweak to t=
+he model that causes some of your funds to reliably make an extra $450 mill=
+ion, while causing some other funds to reliably lose $170 million, then tha=
+t=E2=80=99s=C2=A0good. Like:
+=09Ideally, you go and=C2=A0make the tweak to the model for the funds it wo=
+uld help, and leave the model for the other funds alone.=09Or if you can=E2=
+=80=99t do that for some reason, then I guess=C2=A0you make the tweak to th=
+e model for everyone, and have the benefited funds write a $171 million che=
+ck to the harmed funds, leaving everyone better off.
+
+I just think that if you tweak the model in such a way that clients make an=
+ extra $280 million, net, then that is broadly speaking=C2=A0good=C2=A0work=
+ and you might reasonably expect your bonus to go up.
+I am kidding, I guess. It=E2=80=99s not that simple. Presumably whatever th=
+e guy did did not=C2=A0reliably=C2=A0improve performance; presumably it imp=
+roved performance over some period but at the cost of higher risk. That Wal=
+l Street Journal story adds:
+Two Sigma=E2=80=99s top executives this summer became aware of Wu=E2=80=99s=
+ changes because they resulted in higher than expected correlations between=
+ some of the firm=E2=80=99s trading models. The trail pointed to Wu, who ma=
+de the changes in two stages over the past year.
+If you are in the business of maximizing risk-adjusted returns =E2=80=94=C2=
+=A0or uncorrelated returns =E2=80=94 then sometimes higher returns are a le=
+ading indicator=C2=A0of trouble.
+More generally, there are a lot of stories in finance about rogue traders. =
+Often the story is:
+=09Some trader would like a bigger bonus.=09She does some trades that she i=
+s not supposed to do, trades with higher risk (but also higher upside) than=
+ her firm wants.=09The trades work, she makes money, everyone is pleased.=
+=09Eventually the risks come true, she loses more money than she made, ever=
+yone is mad and she gets in trouble.
+
+There are variations. One surprisingly popular variation omits Step 3: Some=
+=C2=A0rogue traders lose money pretty much from the beginning,=C2=A0so they=
+=C2=A0keep doubling down. It is widely believed that another popular variat=
+ion omits Step 4, but you rarely hear about those: A rogue trader who consi=
+stently makes money=C2=A0stops being a =E2=80=9Crogue=E2=80=9D trader and b=
+ecomes a star trader. (=E2=80=9CSorry I did some trades I wasn=E2=80=99t su=
+pposed to, but they all made money,=E2=80=9D she eventually tells her bosse=
+s, and they say =E2=80=9Cthat=E2=80=99s okay you lovable scamp, here=E2=80=
+=99s a big bonus.=E2=80=9D) It is possible that in a modern age of strict r=
+isk controls, heavy regulation and careful performance attribution, that ap=
+proach no longer works the way it used to. But you still don=E2=80=99t=C2=
+=A0hear=C2=A0about a ton of rogue traders who uniformly make money.
+Anyway this story (a version of which was  previously reported by Bloomberg=
+ News) isn=E2=80=99t that. It=E2=80=99s an alleged rogue-model-updater, or =
+I guess rogue-model-calibrator:
+
+In a letter to clients, Two Sigma described the activity as =E2=80=9Cintent=
+ional misconduct=E2=80=9D that violated the firm=E2=80=99s internal procedu=
+res. One person close to the situation disputed the firm=E2=80=99s characte=
+rization, saying Wu adjusted how Two Sigma=E2=80=99s models were calibrated=
+ but didn=E2=80=99t alter the models themselves. Calibration changes can be=
+ seen as more routine than a major change to the models.
+Big firms such as Two Sigma usually closely monitor and are fully aware of =
+all important changes to its trading models. =E2=80=9CIn well-run firms, al=
+l changes=E2=80=94calibrations or model changes=E2=80=94are governed by pro=
+cedures so that they must be disclosed and approved by the proper people,=
+=E2=80=9D said Aaron Brown, a veteran quant who wasn=E2=80=99t aware of Two=
+ Sigma=E2=80=99s situation.
+
+I suppose this is the modern form of rogue trading: If you work at a system=
+atic quantitative firm like Two Sigma, and you go off and do some unauthori=
+zed trades, they are going to catch you pretty quick because you=E2=80=99re=
+ not supposed to go off and do=C2=A0any=C2=A0trades. The computer tells you=
+ what trades to do; only trades blessed by the computer can get done. If yo=
+u want to be a rogue trader, you have to be a systemic quantitative rogue t=
+rader; you have to put rogue signals into the model instead of trading on t=
+hem yourself.=C2=A0If you want to do rogue trades, you have to rogue calibr=
+ate the model so that the computer can tell you to do the trades you want t=
+o do.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      VMWare
+   =20
+ =20
+
+Ages ago, in May 2022, VMware Inc.  signed a deal to be acquired by Broadco=
+m Inc. The deal was for half cash, half stock, and=C2=A0VMware shareholders=
+  could choose to take either $142.50 in cash or 0.2520 shares of Broadcom =
+per VMware share. The day before the announcement, Broadcom=E2=80=99s stock=
+ closed at $531.63, making the stock consideration worth about $133.97 and =
+the cash a better deal. Last week, Broadcom closed at $838.36, making the s=
+tock consideration worth about $211.27 and a=C2=A0much=C2=A0better deal.
+But Broadcom only agreed to pay half the consideration in cash: If everyone=
+ chooses stock (as you=E2=80=99d expect), then they all get prorated and en=
+d up with=C2=A0half cash and half stock. (That is, roughly, $71.25 in cash =
+and $105.63 worth of stock.) Or if almost everyone chooses stock, but some =
+people choose cash, then the cash people get all cash and the stock people =
+get a little bit more than half stock. And if you don=E2=80=99t choose at a=
+ll, you get whatever nobody else wants (here, cash).
+The merger was supposed to close today, but it didn=E2=80=99t. Broadcom and=
+ VMware  put out an announcement today:
+
+Broadcom Inc. (NASDAQ: AVGO) and VMware, Inc. (NYSE: VMW) today announced t=
+heir expectation that Broadcom=E2=80=99s acquisition of VMware (the =E2=80=
+=9CTransaction=E2=80=9D) will close soon, but in any event prior to the exp=
+iration of their merger agreement.
+The parties have received legal merger clearance in Australia, Brazil, Cana=
+da, the European Union, Israel, Japan, South Africa, South Korea, Taiwan, t=
+he United Kingdom, and foreign investment control clearance in all necessar=
+y jurisdictions. There is no legal impediment to closing under U.S. merger =
+regulations.
+
+The missing name there is =E2=80=9CChina=E2=80=9D:   Chinese regulators sti=
+ll have not approved the deal, and it=E2=80=99s not clear if or when they w=
+ill.
+Meanwhile  the deadline for choosing cash or stock was a week ago, and once=
+ you chose you were not supposed to sell your stock: =E2=80=9CNote that you=
+ will not be able to sell or otherwise transfer your shares of VMware commo=
+n stock after making your election,=E2=80=9D  VMware explained. This is, I =
+suppose, for VMware=E2=80=99s and Broadcom=E2=80=99s convenience; they can =
+know in advance how many shares to issue, and to whom. And in fact  their a=
+nnouncement today has the results:
+
+VMware stockholders of record of approximately 96% of the outstanding share=
+s of VMware common stock elected to receive the stock consideration and in =
+accordance with the proration procedures in the parties=E2=80=99 merger agr=
+eement, (i) approximately 52.1% of such outstanding shares of VMware common=
+ stock will be converted into the right to receive 0.2520 of a share of Bro=
+adcom common stock per share of VMware common stock and (ii) approximately =
+47.9% of such outstanding shares of VMware common stock will be converted i=
+nto the right to receive $142.50 in cash per share of VMware common stock; =
+and
+VMware stockholders of record of approximately 4% of the outstanding shares=
+ of VMware common stock elected to receive the cash consideration or did no=
+t make a valid election or did not deliver a valid election form prior to t=
+he Election Deadline. Each such VMware stockholder will be entitled to rece=
+ive $142.50 in cash per share of VMware common stock.
+
+That suggests that, if you chose stock, you will get about $110.07 worth of=
+ stock (at Friday=E2=80=99s closing price) and $68.26 worth of cash, worth =
+about $178.33 total; if you chose cash (or forgot to fill out the form) you=
+ will get $142.50 of cash.=C2=A0But now those shares are locked up in limbo=
+: You can=E2=80=99t sell them, and if you=C2=A0buy=C2=A0any VMware shares t=
+hey presumably did not make an election and are probably only the $142.50. =
+(If the deal closes.) VMware=E2=80=99s=C2=A0stock price was $155.87 last Mo=
+nday, before the deadline; it=E2=80=99s $142.03 today.
+The risky fun trade was to bet that (1) the deal would be delayed by China =
+and (2) Broadcom and VMware would feel bad about locking up the stock, so t=
+hey would extend the election deadline. Barron's  reported last week:
+
+There was some curious trading in shares of VMware=C2=A0Tuesday as the stoc=
+k declined but changed hands above the cash value of the Broadcom offer for=
+ the software company.
+Investors apparently are betting on the possibility that the stock election=
+ period for VMware investors that ended Monday could be extended.=C2=A0
+
+And the stock traded about 3.4 million shares on Friday, well after the dea=
+dline: If you bought at $142.20 on Friday and then got another shot at choo=
+sing Broadcom stock, you=E2=80=99d make a quick $36, give or take, if the d=
+eal closed. But it seems like neither end of that worked out: The deal has =
+not closed, but it does not look like investors will get another chance to =
+elect stock.
+
+ =20
+   =20
+      Sculptor=E2=80=99s over
+   =20
+ =20
+
+I think? The  situation as of a week ago was that Sculptor Capital Manageme=
+nt Inc. had a deal to sell itself to Rithm Capital Corp. for $12 per share,=
+ but it had a competing offer from Boaz Weinstein and some of his friends t=
+o buy Sculptor for $13.50 per share. Sculptor=E2=80=99s board wanted to sti=
+ck with Rithm, so it had two options:
+=09Convince shareholders =E2=80=94=C2=A0and particularly its estranged foun=
+der, Dan Och, who still owns a bunch of shares =E2=80=94=C2=A0that Weinstei=
+n=E2=80=99s offer is too risky, and that a deal with Weinstein would fall a=
+part because Sculptor=E2=80=99s clients would flee.=09Get Rithm to raise it=
+s price to $13.51, to outbid Weinstein.
+
+In the event, it split the difference. Last week Sculptor put out its most =
+vehement case that Weinstein=E2=80=99s deal is too risky, with a presentati=
+on and additional disclosure arguing that Weinstein would not really close.=
+ Sculptor has argued all along that Weinstein=E2=80=99s deal is too risky b=
+ecause it would require consent from Sculptor=E2=80=99s hedge fund clients,=
+ and because those clients might say no to Weinstein. Weinstein eventually=
+=C2=A0dropped=C2=A0the consent requirement (for the hedge fund clients), bu=
+t even so Sculptor worried. =E2=80=9CThe Consortium was not yet prepared to=
+ accept and acknowledge the Consortium-Specific Transaction Risks,=E2=80=9D=
+ says Sculptor: Essentially, Sculptor wanted Weinstein=E2=80=99s group to s=
+ign a merger agreement saying =E2=80=9Ceven if all the clients and employee=
+s leave and there=E2=80=99s nothing left for you to buy, you have to buy it=
+ anyway,=E2=80=9D and Weinstein said no. I don=E2=80=99t know how reasonabl=
+e an ask that is =E2=80=94=C2=A0surely, in general, if you sign a merger ag=
+reement to sell your company, you have some obligation to=C2=A0try=C2=A0to =
+keep your business together until closing? =E2=80=94=C2=A0but it was the st=
+icking point in the negotiations.
+  [1]
+
+And then last Friday Sculptor announced a new revised deal with Rithm, whic=
+h agreed to pay $12.70 per share. The combination was  enough to win over O=
+ch:
+
+Sculptor Capital Management Inc. said major shareholder and founder Dan Och=
+ and his group agreed to a sweetened deal from Rithm Capital Corp., in what=
+ may be the deciding bid for the struggling hedge fund.
+Rithm=E2=80=99s amended offer increased the bid to $12.70 a share from $12.=
+00, Sculptor said in a statement Friday. It values Sculptor at about $720 m=
+illion. ...
+Och and his group of former Sculptor executives will throw in their votes =
+=E2=80=94 15% of the outstanding shares =E2=80=94 behind the Rithm deal and=
+ drop a suit tied to the transaction.
+
+The result is basically that the Rithm deal can probably close by Nov. 17, =
+the day after the scheduled shareholder vote: Och dropped his lawsuit, and =
+between Och, Rithm, and Sculptor=E2=80=99s current managers, almost half of=
+ the outstanding shares are committed to vote in favor of the deal. Meanwhi=
+le  Sculptor argues that, even if it signed with Weinstein today, =E2=80=9C=
+re-starting the clock on regulatory approvals would require up to 6 months,=
+=E2=80=9D for a =E2=80=9Ccontingent closing in 2024 following receipt of st=
+ockholder, client and regulatory approvals.=E2=80=9D It=E2=80=99s plausible=
+ that a fairly locked-up $12.70 now is better than a riskier $13.50 in six =
+months. Sculptor=E2=80=99s stock had traded above Rithm=E2=80=99s deal pric=
+e since Weinstein arrived on the scene, but that ended on Friday, when the =
+stock closed at $12.65, suggesting that shareholders expect the Rithm deal =
+to get done.=C2=A0
+Still it=E2=80=99s not 100%; Bloomberg=E2=80=99s  Katherine Burton and Hema=
+ Parmar report:
+
+Weinstein still has a narrow path to victory, if he decides to take it. He =
+could go back to Sculptor with yet another bid, and if the board deems it s=
+uperior, Och could throw his votes behind the Saba founder.
+Alternatively, if a Delaware judge sides with a Sculptor shareholder in a h=
+earing slated for Nov. 9, then Weinstein could stage a tender offer for the=
+ hedge fund firm.
+
+But I suspect a lot of people are ready for this to end.
+
+
+ =20
+   =20
+      Taylor Swift
+   =20
+ =20
+
+I have   written in the past about the oddly discontinuous math of celebrit=
+y wealth. There are two ways to measure anyone=E2=80=99s wealth:
+=09Your wealth is based on your=C2=A0past=C2=A0earnings. Your wealth is the=
+ money that you have. You have worked for however many years at your job, y=
+ou got paid some money each year, you spent some of it on expenses, and wha=
+t=E2=80=99s left over is your wealth. This is how most people measure their=
+ wealth. It=E2=80=99s how I measure my wealth, for instance. I look at my b=
+ank account and my investments and add them all up and subtract my debts an=
+d that=E2=80=99s my net worth.=09Your wealth is based on your=C2=A0future=
+=C2=A0earnings. You have some expected stream of future income, and you can=
+ estimate the present value of that income (by doing a discounted cash flow=
+ analysis, or just by multiplying it by some reasonable multiple), and that=
+ is your wealth today. This is, classically, how=C2=A0startup founders=C2=
+=A0measure their wealth. If you start a company, and you give 75% of the st=
+ock to cofounders and investors and employees and keep 25% for yourself, an=
+d the expected future earnings of the company are worth $20 billion today, =
+then your net worth is $5 billion. Even if the company has not made a penny=
+ yet,=C2=A0even if it loses money every year, even if you take no salary. Y=
+our net worth comes from people=E2=80=99s expectations of your future earni=
+ngs.
+
+Most people use Method 1, and=C2=A0it would be weird=C2=A0for them to try t=
+o use Method 2. If you are 22 years old, just out of college, in $200,000 o=
+f debt, and=C2=A0starting your first job at an investment bank, you could s=
+ay =E2=80=9Cwell I will probably go into private equity and make at least $=
+2 million a year for most of the next 40 years, and at a reasonable discoun=
+t rate, adjusting for the risk of it not working out, that contingent strea=
+m of income probably has a present value of about $10 million today; subtra=
+ct my $200,000 of debt and add the $700 in my bank account and you get a ne=
+t worth of $9.8007 million, so I am a millionaire.=E2=80=9D And you would n=
+ot really be wrong! And in certain circles you will get a sympathetic ear; =
+some people will say =E2=80=9Cyes that is an appropriate way to account for=
+ your human capital.=E2=80=9D But most people will look at you funny.
+But   there are ways to switch between methods.
+  [2]
+ Let=E2=80=99s say you are a doctor in private practice, you make $500,000 =
+per year, and you have $800,000 in the bank. You probably use Method 1, mea=
+ning that your wealth is $800,000. But if you=C2=A0sell=C2=A010% of your pr=
+actice to a private equity firm, then (1) they will pay you 10% of the pres=
+ent value of your future earnings and (2) you=C2=A0own=C2=A0the other 90%, =
+which now has a market value. If=C2=A0the private equity firm values your p=
+ractice at 10 times earnings, then (1) they pay you $500,000 for 10% and (2=
+) the remaining 90% is=C2=A0worth=C2=A0$4.5 million, making you a millionai=
+re. Your net worth increased dramatically =E2=80=94=C2=A0from $800,000 to $=
+5.8 million
+  [3]
+=C2=A0=E2=80=94=C2=A0just because someone put a price on your future earnin=
+gs.
+If you are a doctor in private practice and you=C2=A0don=E2=80=99t=C2=A0sel=
+l 10% of your practice to a private equity firm, or even go out and get a b=
+id, can you do this same math and say =E2=80=9Cmy practice is worth $5 mill=
+ion so my net worth is $5.8 million=E2=80=9D? I mean,=C2=A0I=E2=80=99m=C2=
+=A0not gonna stop you.=C2=A0
+Similarly if you are a working musician and you put your songs on Spotify a=
+nd you earn $50, you have $50. If you earn $50,000, you have $50,000. But i=
+f you earn $50 million, the math changes: Now=C2=A0you have a catalogue of =
+songs worth hundreds of millions of dollars, which is the present value of =
+your expected future earnings. Some music investment firm would probably pa=
+y you hundreds of millions of dollars for that catalogue, if you want. Even=
+ if you don=E2=80=99t want, Bloomberg will do the math for you and   declar=
+e you a billionaire:
+
+Taylor Swift=E2=80=99s Eras tour has generated as much money as the economi=
+es of small countries. The movie version is ruling the box office. Her new =
+recording of a nine-year-old album, 1989, is expected to be one of the hott=
+est-selling records of the year. ...
+The success of the Eras tour=E2=80=94a Super Bowl-sized event spanning nume=
+rous cities that has shattered records, sparked ticket frenzies and even ca=
+used the equivalent of a small earthquake=E2=80=94has propelled the pop sta=
+r=E2=80=99s net worth past $1 billion, according to a Bloomberg News analys=
+is. She=E2=80=99s one of the few entertainers to reach that status based on=
+ music and performing alone, the result of work and talent, but also canny =
+marketing and timing.
+
+A lot of the accounting is realized cash earnings (from concerts, streaming=
+, etc.), but $400 million of it is =E2=80=9Cthe estimated value of her musi=
+c catalog,=E2=80=9D based on =E2=80=9Ca conservative multiple of future roy=
+alties.=E2=80=9D Also based on comparisons to other artists who have sold t=
+heir catalogues for nine-digit sums. Swift has=C2=A0not sold her catalogue,=
+ but that doesn=E2=80=99t change how the math works. The math is that she h=
+as a few hundred million dollars, so she=E2=80=99s a billionaire.
+
+ =20
+   =20
+      SBF Stuff
+   =20
+ =20
+
+Sam Bankman-Fried  testified at his trial on Friday, explaining that the $8=
+ billion of customer money that his crypto exchange FTX Trading lost was al=
+l an understandable oopsie. The reviews are =E2=80=A6=C2=A0pretty good?=C2=
+=A0Obviously they are all prefaced by =E2=80=9Cthis guy is guilty, but,=E2=
+=80=9D but still. =E2=80=9CBankman-Fried=E2=80=99s first full day of testim=
+ony probably went as well as could be expected given the weight of the evid=
+ence in the prosecution=E2=80=99s case,=E2=80=9D says the New York Times. =
+=E2=80=9CIt was an admirable effort by him and his defense team to present =
+some alternative explanations for some of the more damning incidents that h=
+ad been raised during the prosecution=E2=80=99s case,=E2=80=9D  writes Moll=
+y White. Bloomberg News   reports:
+
+Greg Cawthorne, a crypto software engineer traveling from London, arrived a=
+round 2:05 a.m. to get a seat in the main courtroom.
+=E2=80=9CAfter seeing two days of the trial, I am definitely maybe a little=
+ less fully against him,=E2=80=9D Cawthorne said. =E2=80=9CNow I gotta thin=
+k maybe there were some more doubts than I thought.=E2=80=9D
+=E2=80=9CToday he seemed almost charismatic - almost, not quite,=E2=80=9D C=
+awthorne said.
+
+It seems like=C2=A0he did a nice job of explaining=C2=A0the bad facts in a =
+way that (1) made him look relatively good but (2) was not too combative. L=
+ike he managed to declare his innocence, without quite saying that his form=
+er colleagues =E2=80=94=C2=A0who all said he was doing tons of crime =E2=80=
+=94=C2=A0were liars. Just a good-faith difference of opinion. That is not e=
+asy! My view is that, just one year ago,=C2=A0Bankman-Fried really was good=
+ at getting attention and investors, and in a way that=C2=A0could=C2=A0play=
+ well in court: He was not obviously slick and outgoing and charming, but r=
+ather had a sort of nebbishy charm that came across as being candid and awk=
+ward. No version of charm is going to work=C2=A0that=C2=A0well when you are=
+ the defendant in a giant fraud trial, but if your defense is =E2=80=9Coops=
+ I made a series of bad accidents=E2=80=9D then nebbishy awkward oversharin=
+g charm is going to come across better than slick charm.
+Still, I mean. All those glowing reviews are like =E2=80=9CI thought he was=
+ 10,000% guilty, but now I only think he=E2=80=99s 99.99% guilty.=E2=80=9D =
+And today he is  being cross-examined. I don=E2=80=99t think his efforts=C2=
+=A0will move the betting odds that much. On the other hand, I have always f=
+igured that testifying was, for him, basically a zero-risk proposition: If =
+he did not testify he would absolutely be convicted of everything and sente=
+nced to a billion years in prison, whereas if he does testify he has, like,=
+ a tiny chance of persuading a juror or two of his innocence.=C2=A0
+The counter-argument to that was that if he testifies, and is obviously lyi=
+ng, and=C2=A0angers=C2=A0the judge, that=E2=80=99s bad: The judge has a lot=
+ of discretion in sentencing him, and if he thinks he is lying the sentence=
+ will be worse. My view is (1) he was=C2=A0getting a billion years anyway a=
+nd (2) the apologetic self-effacing defense, and the almost-charisma that i=
+mpressed Greg Cawthorne, are at least as likely to work with the judge as t=
+o offend him.
+Elsewhere: =E2=80=9CInside the Vaping, Gambling, and Jeering Wildness of th=
+e  SBF Overflow Rooms.=E2=80=9D=C2=A0
+
+ =20
+   =20
+      X Stuff
+   =20
+ =20
+
+Apparently Elon Musk bought Twitter Inc. in 2022 to turn it into =E2=80=A6=
+=C2=A0PayPal in 2000?
+
+Elon Musk wants X to be the center of your financial world, handling anythi=
+ng in your life that deals with money. He expects those features to launch =
+by the end of 2024, he told X employees during an all-hands call on Thursda=
+y, saying that people will be surprised with =E2=80=9Cjust how powerful it =
+is.=E2=80=9D
+=E2=80=9CWhen I say payments, I actually mean someone=E2=80=99s entire fina=
+ncial life,=E2=80=9D Musk said, according to audio of the meeting obtained =
+by The Verge. =E2=80=9CIf it involves money. It=E2=80=99ll be on our platfo=
+rm. Money or securities or whatever. So, it=E2=80=99s not just like send $2=
+0 to my friend. I=E2=80=99m talking about, like, you won=E2=80=99t need a b=
+ank account.=E2=80=9D =E2=80=A6
+The original plan for X.com is clearly on Musk=E2=80=99s mind. =E2=80=9CThe=
+ X/PayPal product roadmap was written by myself and David Sacks actually in=
+ July of 2000,=E2=80=9D Musk said on Thursday=E2=80=99s internal X call. =
+=E2=80=9CAnd for some reason PayPal, once it became eBay, not only did they=
+ not implement the rest of the list, but they actually rolled back a bunch =
+of key features, which is crazy. So PayPal is actually a less complete prod=
+uct than what we came up with in July of 2000, so 23 years ago.=E2=80=9D
+
+Imagine if Twitter/X becomes the center of the financial world by the end o=
+f next year. The joke will really be on me.=C2=A0
+Also I still do not understand why Elon Musk spent $44 billion to buy Twitt=
+er to turn it into Vintage Paypal? Why not buy =E2=80=A6=C2=A0I mean litera=
+lly PayPal Holdings Inc. has an equity market capitalization of about $56 b=
+illion today; that=E2=80=99s more than $44 billion, but it also has earning=
+s before interest, taxes depreciation and amortization of more than $5 bill=
+ion a year, so he could probably have gotten some banks to lend him more of=
+ the money. Robinhood Markets Inc. has an $8 billion market capitalization =
+and a meme-y audience of people who already trust it with their money, whic=
+h is just extremely not true of Twitter. There are financial technology sta=
+rtups that are positively cheap! Or you can start one! Buying Twitter to (1=
+) get rid of its employees, (2) get rid of its name and branding and (3) pi=
+vot to payments seems bizarrely profligate.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+The Hunt for Crypto=E2=80=99s  Most Famous Fugitive. People are worried abo=
+ut   Bitcoin market liquidity. The Big Bond Market Event   Wednesday Is at =
+Treasury, Not the Fed.=C2=A0=E2=80=98 Buy the Dip=E2=80=99 Investing Mantra=
+ Lives On=E2=80=94in the Bond Market at Least. Inside the War Between  Squa=
+re and Cash App at Dorsey=E2=80=99s Block.  Peltz=E2=80=99s Push for Disney=
+ Board Seats Boosted by Perlmutter=E2=80=99s Shares. Middle-Class Americans=
+ Are   Rattled by Fed=E2=80=99s Fight Against Inflation.=C2=A0BlackRock war=
+ns investor  disdain for mining threatens green transition. The Mortgage Ma=
+rket Is So Bad Lenders Want Ex-Employees to  Give Back Their Bonuses. How S=
+audi Arabia=E2=80=99s   Wealth Fund and MBS Aim to Build a Post-Oil Future.=
+ Nigeria Plans   New FX Rules in Hopes of Naira Reaching =E2=80=98Fair Pric=
+e=E2=80=99 by End of 2023.=C2=A0Law firms under pressure to make more women=
+ partners.   Rolex Trolls Omega With Deal to Buy Home of Arch-Rival's Flags=
+hip Store. =E2=80=9CWhen managers  use humor on an earnings call, stock mar=
+ket returns and analyst forecast revisions following the call are more posi=
+tive, primarily because of a muted response to negative earnings news.=E2=
+=80=9D=C2=A0Naked Professional Baritone Opera Singer Tasered In Lytham. Hap=
+py birthday to=C2=A0dogs.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] The new disclosure also explains why Sculptor   never let Weinstein s=
+peak to its clients to *ask* if they would consent: =E2=80=9CMeetings betwe=
+en the Consortium and the Company=E2=80=99s clients could be highly disrupt=
+ive and potentially cause clients to redeem their investments even prior to=
+ the Consortium executing a definitive agreement with the Company, causing =
+damage that would reduce the likelihood of closing the Transactions with Ri=
+thm,=E2=80=9D and =E2=80=9CNo other bidder involved in the sale process (in=
+cluding Rithm) had been permitted to speak with any of the Company=E2=80=99=
+s clients,=E2=80=9D and =E2=80=9CCertain members of the Consortium operate =
+businesses that are competitive with elements of the Company=E2=80=99s busi=
+ness, and allowing the Consortium to speak to the Company=E2=80=99s clients=
+ could cause competitive harm if a deal were not ultimately reached with th=
+e Consortium.=E2=80=9D
+
+
+  [2] Overwhelmingly, people would rather be richer, so the normal move is =
+to try to switch from Method 1 to Method 2. But we did   talk last year abo=
+ut Yvon Chouinard, the owner of Patagonia, who tried to switch from Method =
+2 to Method 1. He didn=E2=80=99t like being called a billionaire (=E2=80=9C=
+I was in Forbes magazine listed as a billionaire, which really, really piss=
+ed me off. =E2=80=A6 I don=E2=80=99t have $1 billion in the bank. I don=E2=
+=80=99t drive Lexuses.=E2=80=9D), so he gave away his Patagonia ownership.
+
+
+  [3] I am ignoring taxes here. In fact Method 2 is generally more tax-effi=
+cient than Method 1: For taxes, it=E2=80=99s generally better to own a busi=
+ness than to get paid for labor.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjrh1z.62on/c8e5bd8f.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_736040_221215718.1698691446102
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+One possibly relevant fact here is that $450 million is more than $170 mill=
+ion? A researcher at Two Sigma Investments adjusted the hedge fun
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMDMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMzAmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBfc18adfd"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzE5NDUxOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM0Nzc5MzQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB3df06bb2" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33194519&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33477934&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Two Sigma</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One possibly relevant fact <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cud3NqL=
+mNvbS9maW5hbmNlL2ludmVzdGluZy9oZWRnZS1mdW5kLXR3by1zaWdtYS1pcy1oaXQtYnktdHJh=
+ZGluZy1zY2FuZGFsLTUwMTkxM2NiP21vZD1ocF9sZWFkX3BvczU/607f07ceef4b8524a319a23=
+cB5e04bc22" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">here</a> is that $450 million is more than $170 million=
+?</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A researcher at Two Sigma Investments adjusted=
+ the hedge fund=E2=80=99s investing models without authorization, the firm =
+has told clients, leading to losses in some funds, big gains in others and =
+fresh regulatory scrutiny.</p>
+<p style=3D"margin: 16px 0;">The researcher, Jian Wu, a senior vice preside=
+nt at New York-based Two Sigma, was trying to boost his compensation, Two S=
+igma has told clients, without identifying Wu. He made changes over the pas=
+t year that resulted in a total of $620 million in unexpected gains and los=
+ses, according to people close to the matter and investor letters. Two Sigm=
+a has placed Wu on administrative leave.</p>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission is exam=
+ining the matter. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Wu=E2=80=99s changes led to gains of $450 mill=
+ion in total for some Two Sigma funds=E2=80=94including those in which the =
+firm=E2=80=99s own executives and employees invest, as well as those availa=
+ble to clients. But they also led to a total of $170 million in losses for =
+other funds compared with how they otherwise would have fared=E2=80=94losse=
+s largely borne by clients. Two Sigma has made them whole.</p>
+<p style=3D"margin: 16px 0;">People familiar with the situation said Wu was=
+ trying to improve the firm=E2=80=99s performance, which would have benefit=
+ed his career and potential pay.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I mean: Presumably everyone at Two Sigma is tr=
+ying to improve the firm=E2=80=99s performance, because that would benefit =
+their careers and potential pay? Like, what else are they coming to work fo=
+r? If you find a tweak to the model that causes some of your funds to relia=
+bly make an extra $450 million, while causing some other funds to reliably =
+lose $170 million, then that=E2=80=99s=C2=A0<em>good</em>. Like:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Ideally, you go and=C2=A0make the twe=
+ak to the model for the funds it would help, and leave the model for the ot=
+her funds alone.</li>=09<li style=3D"margin-bottom: 5px;">Or if you can=E2=
+=80=99t do that for some reason, then I guess=C2=A0you make the tweak to th=
+e model for everyone, and have the benefited funds write a $171 million che=
+ck to the harmed funds, leaving everyone better off.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I just think that if you tweak the model in su=
+ch a way that clients make an extra $280 million, net, then that is broadly=
+ speaking=C2=A0<em>good=C2=A0</em>work and you might reasonably expect your=
+ bonus to go up.</p>
+<p style=3D"margin: 16px 0;">I am kidding, I guess. It=E2=80=99s not that s=
+imple. Presumably whatever the guy did did not=C2=A0<em>reliably=C2=A0</em>=
+improve performance; presumably it improved performance over some period bu=
+t at the cost of higher risk. That Wall Street Journal story adds:</p>
+<blockquote><p style=3D"margin: 16px 0;">Two Sigma=E2=80=99s top executives=
+ this summer became aware of Wu=E2=80=99s changes because they resulted in =
+higher than expected correlations between some of the firm=E2=80=99s tradin=
+g models. The trail pointed to Wu, who made the changes in two stages over =
+the past year.</p></blockquote>
+<p style=3D"margin: 16px 0;">If you are in the business of maximizing risk-=
+adjusted returns =E2=80=94=C2=A0or uncorrelated returns =E2=80=94 then some=
+times higher returns are a leading indicator=C2=A0of trouble.</p>
+<p style=3D"margin: 16px 0;">More generally, there are a lot of stories in =
+finance about rogue traders. Often the story is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Some trader would like a bigger bonus=
+.</li>=09<li style=3D"margin-bottom: 5px;">She does some trades that she is=
+ not supposed to do, trades with higher risk (but also higher upside) than =
+her firm wants.</li>=09<li style=3D"margin-bottom: 5px;">The trades work, s=
+he makes money, everyone is pleased.</li>=09<li style=3D"margin-bottom: 5px=
+;">Eventually the risks come true, she loses more money than she made, ever=
+yone is mad and she gets in trouble.</li>
+</ol>
+<p style=3D"margin: 16px 0;">There are variations. One surprisingly popular=
+ variation omits Step 3: Some=C2=A0rogue traders lose money pretty much fro=
+m the beginning,=C2=A0so they=C2=A0keep doubling down. It is widely believe=
+d that another popular variation omits Step 4, but you rarely hear about th=
+ose: A rogue trader who consistently makes money=C2=A0stops being a =E2=80=
+=9Crogue=E2=80=9D trader and becomes a star trader. (=E2=80=9CSorry I did s=
+ome trades I wasn=E2=80=99t supposed to, but they all made money,=E2=80=9D =
+she eventually tells her bosses, and they say =E2=80=9Cthat=E2=80=99s okay =
+you lovable scamp, here=E2=80=99s a big bonus.=E2=80=9D) It is possible tha=
+t in a modern age of strict risk controls, heavy regulation and careful per=
+formance attribution, that approach no longer works the way it used to. But=
+ you still don=E2=80=99t=C2=A0<em>hear=C2=A0</em>about a ton of rogue trade=
+rs who uniformly make money.</p>
+<p style=3D"margin: 16px 0;">Anyway this story (a version of which was <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMDYvdHdvLXNpZ21hL=
+WFjY3VzZXMtZW1wbG95ZWUtb2YtbWlzY29uZHVjdC10aGF0LWNvc3QtY2xpZW50cy1tb25leT9j=
+bXBpZD1CQkQxMDMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV=
+3c2xldHRlciZ1dG1fdGVybT0yMzEwMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef=
+4b8524a319a23cB8659dae6" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> previously reported by Bloomberg News</a>=
+) isn=E2=80=99t that. It=E2=80=99s an alleged rogue-model-updater, or I gue=
+ss rogue-model-calibrator:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In a letter to clients, Two Sigma described th=
+e activity as =E2=80=9Cintentional misconduct=E2=80=9D that violated the fi=
+rm=E2=80=99s internal procedures. One person close to the situation dispute=
+d the firm=E2=80=99s characterization, saying Wu adjusted how Two Sigma=E2=
+=80=99s models were calibrated but didn=E2=80=99t alter the models themselv=
+es. Calibration changes can be seen as more routine than a major change to =
+the models.</p>
+<p style=3D"margin: 16px 0;">Big firms such as Two Sigma usually closely mo=
+nitor and are fully aware of all important changes to its trading models. =
+=E2=80=9CIn well-run firms, all changes=E2=80=94calibrations or model chang=
+es=E2=80=94are governed by procedures so that they must be disclosed and ap=
+proved by the proper people,=E2=80=9D said Aaron Brown, a veteran quant who=
+ wasn=E2=80=99t aware of Two Sigma=E2=80=99s situation.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I suppose this is the modern form of rogue tra=
+ding: If you work at a systematic quantitative firm like Two Sigma, and you=
+ go off and do some unauthorized trades, they are going to catch you pretty=
+ quick because you=E2=80=99re not supposed to go off and do=C2=A0<em>any=C2=
+=A0</em>trades. The computer tells you what trades to do; only trades bless=
+ed by the computer can get done. If you want to be a rogue trader, you have=
+ to be a systemic quantitative rogue trader; you have to put rogue signals =
+into the model instead of trading on them yourself.=C2=A0If you want to do =
+rogue trades, you have to rogue calibrate the model so that the computer ca=
+n tell you to do the trades you want to do.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzE5NDUxOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM0Nzc5MzQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC9408d05f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33194519&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33477934&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzE5NDUxOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM0Nzc5MzQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD9408d05f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33194519&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33477934&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">VMWare</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Ages ago, in May 2022, VMware Inc. <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d=
+3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzExMjQ2MTAvMDAwMTE5MzEyNTIyMTYxMTY4=
+L2QzNjIyNTZkZXg5OTEuaHRt/607f07ceef4b8524a319a23cB811eb754" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> signed=
+ a deal</a> to be acquired by Broadcom Inc. The deal was for half cash, hal=
+f stock, and=C2=A0VMware shareholders <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9=
+lZGdhci9kYXRhLzExMjQ2MTAvMDAwMTE0MDM2MTIyMDM1ODMzL255MjAwMDU0NTR4MV9kZWZtMT=
+RhLmh0bQ/607f07ceef4b8524a319a23cBa0d1fe01" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> could choose</a> to ta=
+ke either $142.50 in cash or 0.2520 shares of Broadcom per VMware share. Th=
+e day before the announcement, Broadcom=E2=80=99s stock closed at $531.63, =
+making the stock consideration worth about $133.97 and the cash a better de=
+al. Last week, Broadcom closed at $838.36, making the stock consideration w=
+orth about $211.27 and a=C2=A0<em>much=C2=A0</em>better deal.</p>
+<p style=3D"margin: 16px 0;">But Broadcom only agreed to pay half the consi=
+deration in cash: If everyone chooses stock (as you=E2=80=99d expect), then=
+ they all get prorated and end up with=C2=A0half cash and half stock. (That=
+ is, roughly, $71.25 in cash and $105.63 worth of stock.) Or if almost ever=
+yone chooses stock, but some people choose cash, then the cash people get a=
+ll cash and the stock people get a little bit more than half stock. And if =
+you don=E2=80=99t choose at all, you get whatever nobody else wants (here, =
+cash).</p>
+<p style=3D"margin: 16px 0;">The merger was supposed to close today, but it=
+ didn=E2=80=99t. Broadcom and VMware <a href=3D"https://link.mail.bloomberg=
+business.com/click/33194519.283415/aHR0cHM6Ly9pci52bXdhcmUuY29tL3dlYnNpdGVz=
+L3Ztd2FyZS9FbmdsaXNoLzIxMjAvdXMtcHJlc3MtcmVsZWFzZS5odG1sP2FpcnBvcnROZXdzSUQ=
+9NDg0NzY4YTUtNzY5OC00YjE4LThhMjktODhkOTE1ODIwN2Fh/607f07ceef4b8524a319a23cB=
+b5f49066" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> put out an announcement</a> today:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Broadcom Inc. (NASDAQ: AVGO) and VMware, Inc. =
+(NYSE: VMW) today announced their expectation that Broadcom=E2=80=99s acqui=
+sition of VMware (the =E2=80=9CTransaction=E2=80=9D) will close soon, but i=
+n any event prior to the expiration of their merger agreement.</p>
+<p style=3D"margin: 16px 0;">The parties have received legal merger clearan=
+ce in Australia, Brazil, Canada, the European Union, Israel, Japan, South A=
+frica, South Korea, Taiwan, the United Kingdom, and foreign investment cont=
+rol clearance in all necessary jurisdictions. There is no legal impediment =
+to closing under U.S. merger regulations.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The missing name there is =E2=80=9CChina=E2=80=
+=9D: <a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.2834=
+15/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMzAvYnJv=
+YWRjb20tYW5kLXZtd2FyZS1zYXktNjEtYmlsbGlvbi1kZWFsLXdpbGwtY2xvc2Utc29vbj9jbXB=
+pZD1CQkQxMDMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMzEwMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cB23f52dc9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  Chinese regulators still have not approved =
+the deal</a>, and it=E2=80=99s not clear if or when they will.</p>
+<p style=3D"margin: 16px 0;">Meanwhile <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/33194519.283415/aHR0cHM6Ly92bWJsb2cuY29tL2FyY2hpdmUvMj=
+AyMy8xMC8xOC9icm9hZGNvbS1hbmQtdm13YXJlLWFubm91bmNlLWVsZWN0aW9uLWRlYWRsaW5lL=
+WZvci12bXdhcmUtc3RvY2tob2xkZXJzLXRvLWVsZWN0LW1lcmdlci1jb25zaWRlcmF0aW9uLmFz=
+cHgjOn46dGV4dD1hbm5vdW5jZWQlMjB0aGF0JTIwdGhlJTIwZGVhZGxpbmUlMjBmb3IsdGhlJTI=
+wJTIyRWxlY3Rpb24lMjBEZWFkbGluZSUyMiku/607f07ceef4b8524a319a23cB1d139291" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> the deadline for choosing cash or stock</a> was a week ago, and once=
+ you chose you were not supposed to sell your stock: =E2=80=9CNote that you=
+ will not be able to sell or otherwise transfer your shares of VMware commo=
+n stock after making your election,=E2=80=9D <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/33194519.283415/aHR0cHM6Ly9pci52bXdhcmUuY29tL2Rv=
+d25sb2FkL2NvbXBhbmllcy92bXdhcmUvUHJlc2VudGF0aW9ucy9FbGVjdGlvbiUyMEluZm9ybWF=
+0aW9uJTIwQm9va2xldCUyMCYlMjBGQVEucGRm/607f07ceef4b8524a319a23cB87931ab6" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> VMware explained</a>. This is, I suppose, for VMware=E2=80=99s and B=
+roadcom=E2=80=99s convenience; they can know in advance how many shares to =
+issue, and to whom. And in fact <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33194519.283415/aHR0cHM6Ly9pci52bXdhcmUuY29tL3dlYnNpdGVzL3Ztd=
+2FyZS9FbmdsaXNoLzIxMjAvdXMtcHJlc3MtcmVsZWFzZS5odG1sP2FpcnBvcnROZXdzSUQ9NDg0=
+NzY4YTUtNzY5OC00YjE4LThhMjktODhkOTE1ODIwN2Fh/607f07ceef4b8524a319a23cCb5f49=
+066" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> their announcement today</a> has the results:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">VMware stockholders of record of approximately=
+ 96% of the outstanding shares of VMware common stock elected to receive th=
+e stock consideration and in accordance with the proration procedures in th=
+e parties=E2=80=99 merger agreement, (i) approximately 52.1% of such outsta=
+nding shares of VMware common stock will be converted into the right to rec=
+eive 0.2520 of a share of Broadcom common stock per share of VMware common =
+stock and (ii) approximately 47.9% of such outstanding shares of VMware com=
+mon stock will be converted into the right to receive $142.50 in cash per s=
+hare of VMware common stock; and</p>
+<p style=3D"margin: 16px 0;">VMware stockholders of record of approximately=
+ 4% of the outstanding shares of VMware common stock elected to receive the=
+ cash consideration or did not make a valid election or did not deliver a v=
+alid election form prior to the Election Deadline. Each such VMware stockho=
+lder will be entitled to receive $142.50 in cash per share of VMware common=
+ stock.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That suggests that, if you chose stock, you wi=
+ll get about $110.07 worth of stock (at Friday=E2=80=99s closing price) and=
+ $68.26 worth of cash, worth about $178.33 total; if you chose cash (or for=
+got to fill out the form) you will get $142.50 of cash.=C2=A0But now those =
+shares are locked up in limbo: You can=E2=80=99t sell them, and if you=C2=
+=A0<em>buy=C2=A0</em>any VMware shares they presumably did not make an elec=
+tion and are probably only the $142.50. (If the deal closes.) VMware=E2=80=
+=99s=C2=A0stock price was $155.87 last Monday, before the deadline; it=E2=
+=80=99s $142.03 today.</p>
+<p style=3D"margin: 16px 0;">The risky fun trade was to bet that (1) the de=
+al would be delayed by China and (2) Broadcom and VMware would feel bad abo=
+ut locking up the stock, so they would extend the election deadline. Barron=
+'s <a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415=
+/aHR0cHM6Ly93d3cuYmFycm9ucy5jb20vYXJ0aWNsZXMvYnJvYWRjb20tdm13YXJlLWhvbGRlcn=
+MtbWVyZ2VyLWNiNGUzZTEx/607f07ceef4b8524a319a23cBc3a170ec" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> reported=
+ last week</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">There was some curious trading in shares of VM=
+ware=C2=A0Tuesday as the stock declined but changed hands above the cash va=
+lue of the Broadcom offer for the software company.</p>
+<p style=3D"margin: 16px 0;">Investors apparently are betting on the possib=
+ility that the stock election period for VMware investors that ended Monday=
+ could be extended.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And the stock traded about 3.4 million shares =
+on Friday, well after the deadline: If you bought at $142.20 on Friday and =
+then got another shot at choosing Broadcom stock, you=E2=80=99d make a quic=
+k $36, give or take, if the deal closed. But it seems like neither end of t=
+hat worked out: The deal has not closed, but it does not look like investor=
+s will get another chance to elect stock.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Sculptor=E2=80=99s over</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I think? The <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjMtMTAtMTgvb2YtY291cnNlLXNjdWxwdG9yLWdvdC1zdWVkP2=
+NtcGlkPUJCRDEwMzAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZ=
+XdzbGV0dGVyJnV0bV90ZXJtPTIzMTAzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07cee=
+f4b8524a319a23cBec5fac57" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> situation</a> as of a week ago was that =
+Sculptor Capital Management Inc. had a deal to sell itself to Rithm Capital=
+ Corp. for $12 per share, but it had a competing offer from Boaz Weinstein =
+and some of his friends to buy Sculptor for $13.50 per share. Sculptor=E2=
+=80=99s board wanted to stick with Rithm, so it had two options:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Convince shareholders =E2=80=94=C2=A0=
+and particularly its estranged founder, Dan Och, who still owns a bunch of =
+shares =E2=80=94=C2=A0that Weinstein=E2=80=99s offer is too risky, and that=
+ a deal with Weinstein would fall apart because Sculptor=E2=80=99s clients =
+would flee.</li>=09<li style=3D"margin-bottom: 5px;">Get Rithm to raise its=
+ price to $13.51, to outbid Weinstein.</li>
+</ol>
+<p style=3D"margin: 16px 0;">In the event, it split the difference. Last we=
+ek Sculptor put out its most vehement case that Weinstein=E2=80=99s deal is=
+ too risky, with a <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/33194519.283415/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MD=
+MyNTYvMDAwMTE0MDM2MTIzMDQ5NDEzL255MjAwMTI5ODB4M19leDk5LTEuaHRt/607f07ceef4b=
+8524a319a23cB62cfcca2" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">presentation</a> and <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cuc2VjLmdvd=
+i9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MDMyNTYvMDAwMTE0MDM2MTIzMDQ5Mzg2L255MjAwMTI5=
+ODB4MV9kZWZhMTRhLmh0bQ/607f07ceef4b8524a319a23cBd53019fa" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">additiona=
+l disclosure</a> arguing that Weinstein would not really close. Sculptor ha=
+s argued all along that Weinstein=E2=80=99s deal is too risky because it wo=
+uld require consent from Sculptor=E2=80=99s hedge fund clients, and because=
+ those clients might say no to Weinstein. Weinstein eventually=C2=A0<em>dro=
+pped=C2=A0</em>the consent requirement (for the hedge fund clients), but ev=
+en so Sculptor worried. =E2=80=9CThe Consortium was not yet prepared to acc=
+ept and acknowledge the Consortium-Specific Transaction Risks,=E2=80=9D say=
+s Sculptor: Essentially, Sculptor wanted Weinstein=E2=80=99s group to sign =
+a merger agreement saying =E2=80=9Ceven if all the clients and employees le=
+ave and there=E2=80=99s nothing left for you to buy, you have to buy it any=
+way,=E2=80=9D and Weinstein said no. I don=E2=80=99t know how reasonable an=
+ ask that is =E2=80=94=C2=A0surely, in general, if you sign a merger agreem=
+ent to sell your company, you have some obligation to=C2=A0<em>try=C2=A0</e=
+m>to keep your business together until closing? =E2=80=94=C2=A0but it was t=
+he sticking point in the negotiations.<a class=3D"footnote-index" href=3D"#=
+footnote-1" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: no=
+ne !important; background-color: transparent !important; display: inline-bl=
+ock;">
+<span>[1]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">And then last Friday Sculptor <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cuc2=
+VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MDMyNTYvMDAwMTE0MDM2MTIzMDQ5ODMyL255M=
+jAwMTM1MTh4MV9leDk5LTEuaHRt/607f07ceef4b8524a319a23cBe33d5d41" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">anno=
+unced a new revised deal with Rithm</a>, which agreed to pay $12.70 per sha=
+re. The combination was <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/33194519.283415/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzL=
+zIwMjMtMTAtMjcvcml0aG0tYm9vc3RzLWJpZC1mb3Itc2N1bHB0b3ItdG8tMTItNzAtd2lucy1k=
+YW4tb2NoLXMtc3VwcG9ydD9jbXBpZD1CQkQxMDMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWV=
+tYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMzAmdXRtX2NhbXBhaWduPW=
+1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB67b0b809" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> enough to win ove=
+r Och</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Sculptor Capital Management Inc. said major sh=
+areholder and founder Dan Och and his group agreed to a sweetened deal from=
+ Rithm Capital Corp., in what may be the deciding bid for the struggling he=
+dge fund.</p>
+<p style=3D"margin: 16px 0;">Rithm=E2=80=99s amended offer increased the bi=
+d to $12.70 a share from $12.00, Sculptor said in a statement Friday. It va=
+lues Sculptor at about $720 million. ...</p>
+<p style=3D"margin: 16px 0;">Och and his group of former Sculptor executive=
+s will throw in their votes =E2=80=94 15% of the outstanding shares =E2=80=
+=94 behind the Rithm deal and drop a suit tied to the transaction.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The result is basically that the Rithm deal ca=
+n probably close by Nov. 17, the day after the scheduled shareholder vote: =
+Och dropped his lawsuit, and between Och, Rithm, and Sculptor=E2=80=99s cur=
+rent managers, almost half of the outstanding shares are committed to vote =
+in favor of the deal. Meanwhile <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33194519.283415/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhc=
+i9kYXRhLzE0MDMyNTYvMDAwMTE0MDM2MTIzMDQ5NDEzL255MjAwMTI5ODB4M19leDk5LTEuaHRt=
+/607f07ceef4b8524a319a23cC62cfcca2" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> Sculptor argues</a> that, even=
+ if it signed with Weinstein today, =E2=80=9Cre-starting the clock on regul=
+atory approvals would require up to 6 months,=E2=80=9D for a =E2=80=9Cconti=
+ngent closing in 2024 following receipt of stockholder, client and regulato=
+ry approvals.=E2=80=9D It=E2=80=99s plausible that a fairly locked-up $12.7=
+0 now is better than a riskier $13.50 in six months. Sculptor=E2=80=99s sto=
+ck had traded above Rithm=E2=80=99s deal price since Weinstein arrived on t=
+he scene, but that ended on Friday, when the stock closed at $12.65, sugges=
+ting that shareholders expect the Rithm deal to get done.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Still it=E2=80=99s not 100%; Bloomberg=E2=80=
+=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.2834=
+15/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMjcvcml0=
+aG0tYm9vc3RzLWJpZC1mb3Itc2N1bHB0b3ItdG8tMTItNzAtd2lucy1kYW4tb2NoLXMtc3VwcG9=
+ydD9jbXBpZD1CQkQxMDMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f0=
+7ceef4b8524a319a23cC67b0b809" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> Katherine Burton and Hema Parmar rep=
+ort</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Weinstein still has a narrow path to victory, =
+if he decides to take it. He could go back to Sculptor with yet another bid=
+, and if the board deems it superior, Och could throw his votes behind the =
+Saba founder.</p>
+<p style=3D"margin: 16px 0;">Alternatively, if a Delaware judge sides with =
+a Sculptor shareholder in a hearing slated for Nov. 9, then Weinstein could=
+ stage a tender offer for the hedge fund firm.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But I suspect a lot of people are ready for th=
+is to end.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Taylor Swift</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I have <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/33194519.283415/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjItMTAtMjYvbXVzay13aWxsLWJ1eS10d2l0dGVyLWF0LXRoZS1sYXN0=
+LW1pbnV0ZT9jbXBpZD1CQkQxMDMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9=
+zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1Zm=
+Y/607f07ceef4b8524a319a23cBf66fb1ef" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  written in the past</a> abou=
+t the oddly discontinuous math of celebrity wealth. There are two ways to m=
+easure anyone=E2=80=99s wealth:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Your wealth is based on your=C2=A0<em=
+>past=C2=A0</em>earnings. Your wealth is the money that you have. You have =
+worked for however many years at your job, you got paid some money each yea=
+r, you spent some of it on expenses, and what=E2=80=99s left over is your w=
+ealth. This is how most people measure their wealth. It=E2=80=99s how I mea=
+sure my wealth, for instance. I look at my bank account and my investments =
+and add them all up and subtract my debts and that=E2=80=99s my net worth.<=
+/li>=09<li style=3D"margin-bottom: 5px;">Your wealth is based on your=C2=A0=
+<em>future=C2=A0</em>earnings. You have some expected stream of future inco=
+me, and you can estimate the present value of that income (by doing a disco=
+unted cash flow analysis, or just by multiplying it by some reasonable mult=
+iple), and that is your wealth today. This is, classically, how=C2=A0<em>st=
+artup founders=C2=A0</em>measure their wealth. If you start a company, and =
+you give 75% of the stock to cofounders and investors and employees and kee=
+p 25% for yourself, and the expected future earnings of the company are wor=
+th $20 billion today, then your net worth is $5 billion. Even if the compan=
+y has not made a penny yet,=C2=A0even if it loses money every year, even if=
+ you take no salary. Your net worth comes from people=E2=80=99s expectation=
+s of your future earnings.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Most people use Method 1, and=C2=A0<em>it woul=
+d be weird=C2=A0</em>for them to try to use Method 2. If you are 22 years o=
+ld, just out of college, in $200,000 of debt, and=C2=A0starting your first =
+job at an investment bank, you could say =E2=80=9Cwell I will probably go i=
+nto private equity and make at least $2 million a year for most of the next=
+ 40 years, and at a reasonable discount rate, adjusting for the risk of it =
+not working out, that contingent stream of income probably has a present va=
+lue of about $10 million today; subtract my $200,000 of debt and add the $7=
+00 in my bank account and you get a net worth of $9.8007 million, so I am a=
+ millionaire.=E2=80=9D And you would not really be wrong! And in certain ci=
+rcles you will get a sympathetic ear; some people will say =E2=80=9Cyes tha=
+t is an appropriate way to account for your human capital.=E2=80=9D But mos=
+t people will look at you funny.</p>
+<p style=3D"margin: 16px 0;">But <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/33194519.283415/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjEtMDctMjIvcHJpdmF0ZS1lcXVpdHktZmlybS1nb3QtcmljaC1tYWtpbmc=
+tcHJpdmF0ZS1lcXVpdHktZmlybXMtcmljaD9jbXBpZD1CQkQxMDMwMjNfTU9ORVlTVFVGRiZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMzAmdXRtX=
+2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBa614769a" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  the=
+re are ways</a> to switch between methods.<a class=3D"footnote-index" href=
+=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[2]</span>
+</a> Let=E2=80=99s say you are a doctor in private practice, you make $500,=
+000 per year, and you have $800,000 in the bank. You probably use Method 1,=
+ meaning that your wealth is $800,000. But if you=C2=A0<em>sell=C2=A0</em>1=
+0% of your practice to a private equity firm, then (1) they will pay you 10=
+% of the present value of your future earnings and (2) you=C2=A0<em>own=C2=
+=A0</em>the other 90%, which now has a market value. If=C2=A0the private eq=
+uity firm values your practice at 10 times earnings, then (1) they pay you =
+$500,000 for 10% and (2) the remaining 90% is=C2=A0<em>worth=C2=A0</em>$4.5=
+ million, making you a millionaire. Your net worth increased dramatically =
+=E2=80=94=C2=A0from $800,000 to $5.8 million<a class=3D"footnote-index" hre=
+f=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[3]</span>
+</a>=C2=A0=E2=80=94=C2=A0just because someone put a price on your future ea=
+rnings.</p>
+<p style=3D"margin: 16px 0;">If you are a doctor in private practice and yo=
+u=C2=A0<em>don=E2=80=99t=C2=A0</em>sell 10% of your practice to a private e=
+quity firm, or even go out and get a bid, can you do this same math and say=
+ =E2=80=9Cmy practice is worth $5 million so my net worth is $5.8 million=
+=E2=80=9D? I mean,=C2=A0<em>I=E2=80=99m=C2=A0</em>not gonna stop you.=C2=A0=
+</p>
+<p style=3D"margin: 16px 0;">Similarly if you are a working musician and yo=
+u put your songs on Spotify and you earn $50, you have $50. If you earn $50=
+,000, you have $50,000. But if you earn $50 million, the math changes: Now=
+=C2=A0you have a catalogue of songs worth hundreds of millions of dollars, =
+which is the present value of your expected future earnings. Some music inv=
+estment firm would probably pay you hundreds of millions of dollars for tha=
+t catalogue, if you want. Even if you don=E2=80=99t want, Bloomberg will do=
+ the math for you and <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/33194519.283415/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9ncmFwaGljcy8yMDIzLXR=
+heWxvci1zd2lmdC1uZXQtd29ydGgtYmlsbGlvbmFpcmUvP2NtcGlkPUJCRDEwMzAyM19NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzM=
+TAzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBdd5f2ae4" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  declare you a billionaire</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Taylor Swift=E2=80=99s Eras tour has generated=
+ as much money as the economies of small countries. The movie version is ru=
+ling the box office. Her new recording of a nine-year-old album, 1989, is e=
+xpected to be one of the hottest-selling records of the year. ...</p>
+<p style=3D"margin: 16px 0;">The success of the Eras tour=E2=80=94a Super B=
+owl-sized event spanning numerous cities that has shattered records, sparke=
+d ticket frenzies and even caused the equivalent of a small earthquake=E2=
+=80=94has propelled the pop star=E2=80=99s net worth past $1 billion, accor=
+ding to a Bloomberg News analysis. She=E2=80=99s one of the few entertainer=
+s to reach that status based on music and performing alone, the result of w=
+ork and talent, but also canny marketing and timing.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">A lot of the accounting is realized cash earni=
+ngs (from concerts, streaming, etc.), but $400 million of it is =E2=80=9Cth=
+e estimated value of her music catalog,=E2=80=9D based on =E2=80=9Ca conser=
+vative multiple of future royalties.=E2=80=9D Also based on comparisons to =
+other artists who have sold their catalogues for nine-digit sums. Swift has=
+=C2=A0<em>not </em>sold her catalogue, but that doesn=E2=80=99t change how =
+the math works. The math is that she has a few hundred million dollars, so =
+she=E2=80=99s a billionaire.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SBF Stuff</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Sam Bankman-Fried <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2xpdmUtYmxvZy8yMDIzLTEwLTI2L3NhbS1iYW5rbWFuLWZyaWVkLXRlc3RpZmllc=
+y1hdC1mcmF1ZC10cmlhbD9jbXBpZD1CQkQxMDMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVt=
+YWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMzAmdXRtX2NhbXBhaWduPW1=
+vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBd4d4d8a1" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> testified at his t=
+rial on Friday</a>, explaining that the $8 billion of customer money that h=
+is crypto exchange FTX Trading lost was all an understandable oopsie. The r=
+eviews are =E2=80=A6=C2=A0pretty good?=C2=A0Obviously they are all prefaced=
+ by =E2=80=9Cthis guy is guilty, but,=E2=80=9D but still. =E2=80=9CBankman-=
+Fried=E2=80=99s first full day of testimony probably went as well as could =
+be expected given the weight of the evidence in the prosecution=E2=80=99s c=
+ase,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/3319=
+4519.283415/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vbGl2ZS8yMDIzLzEwLzI3L2J1c2luZXN=
+zL3NhbS1iYW5rbWFuLWZyaWVkLXRyaWFs/607f07ceef4b8524a319a23cBafcb1aff" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">says the New York Times</a>. =E2=80=9CIt was an admirable effort by him a=
+nd his defense team to present some alternative explanations for some of th=
+e more damning incidents that had been raised during the prosecution=E2=80=
+=99s case,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/33194519.283415/aHR0cHM6Ly9uZXdzbGV0dGVyLm1vbGx5d2hpdGUubmV0L3AvdGhlLWZ0e=
+C10cmlhbC1kYXktZm91cnRlZW4/607f07ceef4b8524a319a23cBbcb1ce58" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> writ=
+es Molly White</a>. Bloomberg News <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/33194519.283415/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjMtMTAtMjcvYmFua21hbi1mcmllZC10ZXN0aWZpZXMtbm8taS1kaWQtbm90L=
+WRlZnJhdWQtZnR4LWN1c3RvbWVycz9jbXBpZD1CQkQxMDMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMzAmdXRtX2NhbXB=
+haWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB71fabc4a" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  reports</=
+a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Greg Cawthorne, a crypto software engineer tra=
+veling from London, arrived around 2:05 a.m. to get a seat in the main cour=
+troom.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CAfter seeing two days of the trial, I=
+ am definitely maybe a little less fully against him,=E2=80=9D Cawthorne sa=
+id. =E2=80=9CNow I gotta think maybe there were some more doubts than I tho=
+ught.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CToday he seemed almost charismatic - =
+almost, not quite,=E2=80=9D Cawthorne said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It seems like=C2=A0he did a nice job of explai=
+ning=C2=A0the bad facts in a way that (1) made him look relatively good but=
+ (2) was not too combative. Like he managed to declare his innocence, witho=
+ut quite saying that his former colleagues =E2=80=94=C2=A0who all said he w=
+as doing tons of crime =E2=80=94=C2=A0were liars. Just a good-faith differe=
+nce of opinion. That is not easy! My view is that, just one year ago,=C2=A0=
+Bankman-Fried <em>really was good at getting attention and investors</em>, =
+and in a way that=C2=A0<em>could=C2=A0</em>play well in court: He was not o=
+bviously slick and outgoing and charming, but rather had a sort of nebbishy=
+ charm that came across as being candid and awkward. No version of charm is=
+ going to work=C2=A0<em>that=C2=A0</em>well when you are the defendant in a=
+ giant fraud trial, but if your defense is =E2=80=9Coops I made a series of=
+ bad accidents=E2=80=9D then nebbishy awkward oversharing charm is going to=
+ come across better than slick charm.</p>
+<p style=3D"margin: 16px 0;">Still, I mean. All those glowing reviews are l=
+ike =E2=80=9CI thought he was 10,000% guilty, but now I only think he=E2=80=
+=99s 99.99% guilty.=E2=80=9D And today he is <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cud3NqLmNvbS9saXZl=
+Y292ZXJhZ2Uvc2FtLWJhbmttYW4tZnJpZWQtdHJpYWwtdGVzdGltb255LWZ0eD9tb2Q9aHBfbGl=
+zdGFfcG9zMQ/607f07ceef4b8524a319a23cB45dff2f9" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> being cross-examine=
+d</a>. I don=E2=80=99t think his efforts=C2=A0will move the betting odds th=
+at much. On the other hand, I have always figured that testifying was, for =
+him, basically a zero-risk proposition: If he did not testify he would abso=
+lutely be convicted of everything and sentenced to a billion years in priso=
+n, whereas if he does testify he has, like, a tiny chance of persuading a j=
+uror or two of his innocence.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The counter-argument to that was that if he te=
+stifies, and is obviously lying, and=C2=A0<em>angers=C2=A0</em>the <em>judg=
+e</em>, that=E2=80=99s bad: The judge has a lot of discretion in sentencing=
+ him, and if he thinks he is lying the sentence will be worse. My view is (=
+1) he was=C2=A0getting a billion years anyway and (2) the apologetic self-e=
+ffacing defense, and the almost-charisma that impressed Greg Cawthorne, are=
+ at least as likely to work with the judge as to offend him.</p>
+<p style=3D"margin: 16px 0;">Elsewhere: =E2=80=9CInside the Vaping, Gamblin=
+g, and Jeering Wildness of the <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/33194519.283415/aHR0cHM6Ly9ueW1hZy5jb20vaW50ZWxsaWdlbmNlci8yMD=
+IzLzEwL3RoZS1qZWVyaW5nLXdpbGRuZXNzLW9mLXRoZS1zYmYtdHJpYWwtb3ZlcmZsb3ctcm9vb=
+XMuaHRtbA/607f07ceef4b8524a319a23cB80d55e06" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> SBF Overflow Rooms</a=
+>.=E2=80=9D=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">X Stuff</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Apparently Elon Musk bought Twitter Inc. in 20=
+22 to turn it into =E2=80=A6=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33194519.283415/aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tLzIwMjMvMTA=
+vMjYvMjM5MzQyMTYveC10d2l0dGVyLWJhbmstZWxvbi1tdXNrLTIwMjQ/607f07ceef4b8524a3=
+19a23cBb2f4fad8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">PayPal in 2000</a>?</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Elon Musk wants X to be the center of your fin=
+ancial world, handling anything in your life that deals with money. He expe=
+cts those features to launch by the end of 2024, he told X employees during=
+ an all-hands call on Thursday, saying that people will be surprised with =
+=E2=80=9Cjust how powerful it is.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWhen I say payments, I actually mean =
+someone=E2=80=99s entire financial life,=E2=80=9D Musk said, according to a=
+udio of the meeting obtained by The Verge. =E2=80=9CIf it involves money. I=
+t=E2=80=99ll be on our platform. Money or securities or whatever. So, it=E2=
+=80=99s not just like send $20 to my friend. I=E2=80=99m talking about, lik=
+e, you won=E2=80=99t need a bank account.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The original plan for X.com is clearly on Musk=
+=E2=80=99s mind. =E2=80=9CThe X/PayPal product roadmap was written by mysel=
+f and David Sacks actually in July of 2000,=E2=80=9D Musk said on Thursday=
+=E2=80=99s internal X call. =E2=80=9CAnd for some reason PayPal, once it be=
+came eBay, not only did they not implement the rest of the list, but they a=
+ctually rolled back a bunch of key features, which is crazy. So PayPal is a=
+ctually a less complete product than what we came up with in July of 2000, =
+so 23 years ago.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Imagine if Twitter/X becomes the center of the=
+ financial world by the end of next year. The joke will really be on me.=C2=
+=A0</p>
+<p style=3D"margin: 16px 0;">Also I still do not understand why Elon Musk s=
+pent $44 billion to buy Twitter to turn it into Vintage Paypal? Why not buy=
+ =E2=80=A6=C2=A0I mean literally PayPal Holdings Inc. has an equity market =
+capitalization of about $56 billion today; that=E2=80=99s more than $44 bil=
+lion, but it also has earnings before interest, taxes depreciation and amor=
+tization of more than $5 billion a year, so he could probably have gotten s=
+ome banks to lend him more of the money. Robinhood Markets Inc. has an $8 b=
+illion market capitalization and a meme-y audience of people who already tr=
+ust it with their money, which is just extremely not true of Twitter. There=
+ are financial technology startups that are positively cheap! Or you can st=
+art one! Buying Twitter to (1) get rid of its employees, (2) get rid of its=
+ name and branding and (3) pivot to payments seems bizarrely profligate.</p=
+>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The Hunt for Crypto=E2=80=99s <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cud3=
+NqLmNvbS9maW5hbmNlL2RvLWt3b24tY3J5cHRvLWNyYXNoLTBkMGRjNTBi/607f07ceef4b8524=
+a319a23cBf0e0d5d7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Most Famous Fugitive</a>. People are worried ab=
+out <a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.28341=
+5/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMzAvYml0Y=
+29pbi1zLWJ0Yy1iaWctbW92ZXMtYXJlLWJlaW5nLW1hZ25pZmllZC1ieS1wcm90cmFjdGVkLWRl=
+YXJ0aC1vZi1saXF1aWRpdHk_Y21waWQ9QkJEMTAzMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1=
+lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMDMwJnV0bV9jYW1wYWlnbj=
+1tb25leXN0dWZm/607f07ceef4b8524a319a23cB32340152" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  Bitcoin market =
+liquidity</a>. The Big Bond Market Event <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjMtMTAtMjkvdGhlLWJpZy1ib25kLW1hcmtldC1ldmVudC13ZWRuZXN=
+kYXktaXMtYXQtdHJlYXN1cnktbm90LXRoZS1mZWQ_Y21waWQ9QkJEMTAzMDIzX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMDMwJ=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf05607a7" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Wednesday</a> Is at Treasury, Not the Fed.=C2=A0=E2=80=98<a href=3D"https=
+://link.mail.bloombergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cud3=
+NqLmNvbS9maW5hbmNlL2ludmVzdGluZy9idXktdGhlLWRpcC1pbnZlc3RpbmctbWFudHJhLWxpd=
+mVzLW9uaW4tdGhlLWJvbmQtbWFya2V0LWF0LWxlYXN0LWI1ZDI5OTZmP21vZD1pdHBfd3Nq/607=
+f07ceef4b8524a319a23cB1210db9b" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> Buy the Dip</a>=E2=80=99 Investing=
+ Mantra Lives On=E2=80=94in the Bond Market at Least. Inside the War Betwee=
+n <a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415/=
+aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL2luc2lkZS10aGUtd2FyLWJ=
+ldHdlZW4tc3F1YXJlLWFuZC1jYXNoLWFwcC1hdC1kb3JzZXlzLWJsb2NrP29mZmVyPXJ0c3UtZW=
+5nYWdlbWVudC1zZXB0LTIzJnV0bV9jYW1wYWlnbj1SVFNVKy0rQmxvY2srQ29uZmxpYyZ1dG1fY=
+29udGVudD0yMDk0JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1jaW8mdXRtX3Rlcm09MTUx=
+OSZyYz0xYmRpNWg/607f07ceef4b8524a319a23cBe11d4df1" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> Square and Cash=
+ App</a> at Dorsey=E2=80=99s Block. <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/33194519.283415/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9tZ=
+WRpYS9wZWx0enMtcHVzaC1mb3ItZGlzbmV5LWJvYXJkLXNlYXRzLWJvb3N0ZWQtYnktcGVybG11=
+dHRlcnMtc2hhcmVzLWE5MWYxMjFlP21vZD1ocF9sZWFkX3BvczI/607f07ceef4b8524a319a23=
+cBc10617bd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> Peltz=E2=80=99s Push</a> for Disney Board Seats Booste=
+d by Perlmutter=E2=80=99s Shares. Middle-Class Americans Are <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMzAvbWlkZGxlLWNsYXNzLWFtZXJ=
+pY2Fucy1hcmUtcmF0dGxlZC1ieS1mZWQtcy1maWdodC1hZ2FpbnN0LWluZmxhdGlvbj9jbXBpZD=
+1CQkQxMDMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xld=
+HRlciZ1dG1fdGVybT0yMzEwMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524=
+a319a23cB00748f91" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">  Rattled</a> by Fed=E2=80=99s Fight Against Inf=
+lation.=C2=A0BlackRock warns investor <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMTJ=
+iM2E3MTctOGQ1NC00NTQyLThkNWUtODEyNDU2OGY2OTc0/607f07ceef4b8524a319a23cBf0b4=
+2205" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> disdain for mining</a> threatens green transition. The Mortg=
+age Market Is So Bad Lenders Want Ex-Employees to <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+maW5hbmNlL2JhbmtpbmcvdGhlLW1vcnRnYWdlLW1hcmtldC1pcy1zby1iYWQtbGVuZGVycy13YW=
+50LWV4LWVtcGxveWVlcy10by1naXZlLWJhY2stdGhlaXItYm9udXNlcy01MmU5NjA4MD9tb2Q9a=
+XRwX3dzag/607f07ceef4b8524a319a23cB81278d0f" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> Give Back Their Bonus=
+es</a>. How Saudi Arabia=E2=80=99s <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/33194519.283415/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjMtMTAtMzAvaG93LXNhdWRpLWFyYWJpYS1zLXdlYWx0aC1mdW5kLWFuZC1tY=
+nMtYWltLXRvLWJ1aWxkLWEtcG9zdC1vaWwtZnV0dXJlP2NtcGlkPUJCRDEwMzAyM19NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTA=
+zMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBa66ce04d" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  Wealth Fund</a> and MBS Aim to Build a Post-Oil Future. Nigeria Plans=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMzAvbmlnZXJp=
+YS1wbGFucy1uZXctZngtcnVsZXMtdG8taW1wcm92ZS1uZ24tdXNkLWxpcXVpZGl0eT9jbXBpZD1=
+CQkQxMDMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMzEwMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cBdb6e96b4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  New FX Rules</a> in Hopes of Naira Reaching =E2=
+=80=98Fair Price=E2=80=99 by End of 2023.=C2=A0<a href=3D"https://link.mail=
+.bloombergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cuZnQuY29tL2Nvbn=
+RlbnQvNzQ1NDk5YmUtM2FkNi00YzliLWFiNjItYjhjYzY4MzBjMzE1/607f07ceef4b8524a319=
+a23cBd32aa853" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">Law firms</a> under pressure to make more women part=
+ners. <a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283=
+415/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMzAvcm9=
+sZXgtYnV5cy1nZW5ldmEtYnVpbGRpbmctdGhhdC1zLWhvbWUtdG8tYXJjaC1yaXZhbC1vbWVnYT=
+9jbXBpZD1CQkQxMDMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMzEwMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cB69c15760" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  Rolex Trolls Omega</a> With Deal to Bu=
+y Home of Arch-Rival's Flagship Store. =E2=80=9CWhen managers <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3c=
+uZnQuY29tL2NvbnRlbnQvOTM4MWM0ZWQtYmE2Ni00YjU3LTk4ZjgtNTQ2ZjcxMjQ1ZDJk/607f0=
+7ceef4b8524a319a23cB6f8b44c0" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> use humor on an earnings call</a>, s=
+tock market returns and analyst forecast revisions following the call are m=
+ore positive, primarily because of a muted response to negative earnings ne=
+ws.=E2=80=9D=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/=
+33194519.283415/aHR0cHM6Ly93d3cubHl0aGFtc3Rhbm5lcy5uZXdzL25ld3MvbmFrZWQtcHJ=
+vZmVzc2lvbmFsLWJhcml0b25lLW9wZXJhLXNpbmdlci10YXNlcmVkLWluLWx5dGhhbS8/607f07=
+ceef4b8524a319a23cB1a13a8f5" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Naked Professional Baritone Opera Sing=
+er</a> Tasered In Lytham. Happy birthday to=C2=A0<a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/33194519.283415/aHR0cHM6Ly93d3cud3NqLmNvbS9s=
+aWZlc3R5bGUvZG9nLWJpcnRoZGF5LWFkb3B0aW9uLXBhcnRpZXMtY2FrZXMtNTFiOGFhZDA_bW9=
+kPWl0cF93c2o/607f07ceef4b8524a319a23cBf2752887" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">dogs</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33194519.283415/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB5142d74e" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33194519.283415/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB032510ed" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] The new disclosure also explains why Sculp=
+tor <a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.28341=
+5/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDktMTgvc=
+2N1bHB0b3Itc3RpY2tzLXdpdGgtdGhlLWRlYWwtaXQta25vd3M_Y21waWQ9QkJEMTAzMDIzX01P=
+TkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm0=
+9MjMxMDMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB49781e7b=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">  never let Weinstein speak to its clients</a> to *ask* if they w=
+ould consent: =E2=80=9CMeetings between the Consortium and the Company=E2=
+=80=99s clients could be highly disruptive and potentially cause clients to=
+ redeem their investments even prior to the Consortium executing a definiti=
+ve agreement with the Company, causing damage that would reduce the likelih=
+ood of closing the Transactions with Rithm,=E2=80=9D and =E2=80=9CNo other =
+bidder involved in the sale process (including Rithm) had been permitted to=
+ speak with any of the Company=E2=80=99s clients,=E2=80=9D and =E2=80=9CCer=
+tain members of the Consortium operate businesses that are competitive with=
+ elements of the Company=E2=80=99s business, and allowing the Consortium to=
+ speak to the Company=E2=80=99s clients could cause competitive harm if a d=
+eal were not ultimately reached with the Consortium.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Overwhelmingly, people would rather be ric=
+her, so the normal move is to try to switch from Method 1 to Method 2. But =
+we did <a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.28=
+3415/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDktMT=
+UvcGF0YWdvbmlhLWhhcy1uby1tb3JlLW93bmVycz9jbXBpZD1CQkQxMDMwMjNfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMzAm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBf6823829" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  talk last year</a> about Yvon Chouinard, the owner of Patagonia, who trie=
+d to switch from Method 2 to Method 1. He didn=E2=80=99t like being called =
+a billionaire (=E2=80=9CI was in Forbes magazine listed as a billionaire, w=
+hich really, really pissed me off. =E2=80=A6 I don=E2=80=99t have $1 billio=
+n in the bank. I don=E2=80=99t drive Lexuses.=E2=80=9D), so he gave away hi=
+s Patagonia ownership.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] I am ignoring taxes here. In fact Method 2=
+ is generally more tax-efficient than Method 1: For taxes, it=E2=80=99s gen=
+erally better to own a business than to get paid for labor.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBe1efe20f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB1f88aa1d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB52153ff0" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBd4c3d504" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB478c2a40" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.2834=
+15/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBa5ec6676" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33194519.283415/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCa3b9cae9" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33194519.283415/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBc3ac6d2f" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33194519.283415/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBfe658778" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBc=
+13df6b0" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33194519.283415/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB9=
+e101b10" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjrh1z.62on/c8e5bd8f.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_736040_221215718.1698691446102--
+

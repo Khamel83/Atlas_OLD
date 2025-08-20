@@ -1,0 +1,2292 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:6157:b0:f6:3c16:48e4 with SMTP id 23csp696042rwt;
+        Wed, 15 Feb 2023 10:48:59 -0800 (PST)
+X-Received: by 2002:adf:f190:0:b0:2c5:6ad7:f024 with SMTP id h16-20020adff190000000b002c56ad7f024mr2722699wro.58.1676486939559;
+        Wed, 15 Feb 2023 10:48:59 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1676486939; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=aw9xwAIMBfhDS6SKWUm73JtsvXvj0pzKGzv5cswSUB5BG1ebkF1UXuVwpVONGO8F4D
+         UnOp3al79hfL9DKu1wqf/lWzcGGkfQsGVGWBWuBBvrmZpMKOxCfzFR7gbNJ1+wk886/V
+         ztNk2gHV8YyCL9UohB+2L1jH8cp1meWsE4oyKdaVlH3iwhNwqRxXW3mq2Gcd0pb3u/Gk
+         8iWZPGL012jaO0kuxPn0J3pXYS6Swk3lBxnQV/vRLr6K2BSuO39zgwwmRO5SwRETqD6g
+         vVQ/fg8bIJjVwE8aL5AAO0X4CpV9I9VZSyPhSS1v7mLjWVjx6ofPw4GjocfUlvf4A0mJ
+         IgeA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=Idt8+LGeF2VP3uDRB8gxwJV5hU2X6uo03raDil1Ig9c=;
+        b=gBbLJl7MvcQJmm9AjL9/3AEe/wxc2uWeOmzd5dw+p9qwiHS0zD3z5miLMojsO6bII3
+         Yk9pbTqmBmEXfj50DRp7sVFo6Cy+8rr2Q3lIMm8dhEr45FvDtQRjwNydZHlHFCJpzapC
+         9WBYfYIxTqiQ0Lwo455+fMcb9JN4LuY1rZOpZ0vCr9zJRVpHvhXIrQ9c4W4bPlcuLrHQ
+         kcXBScS1uSIAs3kUVODnsJRmtQhieCWkhMUNiqwyZOd+YoKaDwyyQu7ArUE4qVzSiDXG
+         3mUqSmGg65+iXsgF6RYlvlE8jfOkBRy2tkROpmivwo9w0Fj9aUIGU63HLubN4mR3hHP4
+         iulg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=d9ioG3py;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a13-20020adfdd0d000000b002c557e00b9fsor4657810wrm.72.2023.02.15.10.48.59
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 15 Feb 2023 10:48:59 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=d9ioG3py;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=Idt8+LGeF2VP3uDRB8gxwJV5hU2X6uo03raDil1Ig9c=;
+        b=0AbZiKIaI+g+1YmJMt6TlHQ3dcJKTT177cIGqAbFVZevABxJ3FZl9fB1S+MJhWpKa8
+         ostBnbw5F9MrPWtNEJwkvqkonwLe9fFvkiLWPvAEkkwmHqX0hZeIGRQqbBtl4jNRrgKT
+         fuz16uyiyhEPHF7lNWybsFxMIe6qygQH3AquNovE5rsow7KCCRHU1N8QvzC7/Mfc4aX9
+         QiSJP+HzXVQ0kA86gssHZkri0yM7J+NUr0c/9ajrgBL8JfP9XXHhRIq2fk1mnSVAzgjS
+         t4TlwpaYQcOQT22MoYvPoyvk1XuudpPfTrgs+xsFi/e22JCqAIMIqeo9L55/B2cfuuMf
+         pnQw==
+X-Gm-Message-State: AO0yUKWMD1k6KZRcKMvF4K+fi0I6vW5+9kz0+eSu15zLFHLlXo3o7X1S
+	B4m74H4rqqLplMJguATxQjdcmcwEHn+ofiqN25QlBAGCVB9uA36rFA==
+X-Received: by 2002:adf:ecc7:0:b0:2c5:51f0:2735 with SMTP id s7-20020adfecc7000000b002c551f02735mr137842wro.612.1676486939198;
+        Wed, 15 Feb 2023 10:48:59 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:9bcb:0:0:0:0:0 with SMTP id e11csp548357wrc;
+        Wed, 15 Feb 2023 10:48:56 -0800 (PST)
+X-Received: by 2002:a05:600c:3290:b0:3df:e54a:4ac5 with SMTP id t16-20020a05600c329000b003dfe54a4ac5mr2717805wmp.27.1676486936654;
+        Wed, 15 Feb 2023 10:48:56 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1676486936; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=YYEQMQv8H93HlmSIExDSk2wmjXQPsgx3KMNXtZmea7V731avrcrydmiEekbYxeBgie
+         ltuVzeW0n2cZ1fwz8wwH/h+3DB0KsQ/tlib8lRUGZ+T2xXuJinXJaSpZ3UNRe+X6QsSb
+         eisUoA60yOK5wGzbuMqN0Y+bRMCX5+aL32885J6VpjkuQwlQoEkRSsplUEmyX2tI8SGq
+         RuHdC+88FXDxxKbmpeUt3IX73+Qds0FRCQ5rT1KWawh5yLuOSE1Qnq/Dm4QcqkDo0s85
+         LLJ5l9MoU0XeUFn+NxOFgpdLW3OdVJA5KgnSvVZFATecoAbYbTCRNCwAx5xqyxQZzSe9
+         UjVg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Idt8+LGeF2VP3uDRB8gxwJV5hU2X6uo03raDil1Ig9c=;
+        b=XlqRovgDeehQHqnWchNBtLXO05b/6u2DYyUndg6QlsdvN9UnpOmG4Lzrho+AdDUz5Q
+         0iBTSK2Qf2U69EmlI94P93vXXDk0Xn2YU77rG/6az6eZdQ0IDwRCx0S/TK2OFXg2nuyF
+         q/BHEv0DXJWdtAHR6VwVE0ADj8jqX9Z1u+CyNTP25EOyIr3fw3sA9DeVW8e/HIlMCOIO
+         U/xhfRbOV/B+Sls0Qe2stL1I7pteAyWNkKX7lVLL5MQWCal/UbWaALNvwJW0Sn25BmNz
+         iO0ksps3qvlKQBMdBf24i0mhclj4xgdDEjaK7CAxODEtyMHdK2hfKTKq8Oh3r+uI1NDa
+         OU+w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=d9ioG3py;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230215134854.30562430.279853@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230215134854.30562430.279853@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230215134854.30562430.279853@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id z2-20020a1cf402000000b003d9f04ee80dsor1101947wma.23.2023.02.15.10.48.56
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 15 Feb 2023 10:48:56 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230215134854.30562430.279853@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set9KNi1VSNQ8EJo0lL4oV2TJyCJZURM5OOCxPUZhtgLBvp++E/A4HVmW+44RskfAkzjz5rz6htyp84nKpbnlNnnU0Fr2q18=
+X-Received: by 2002:a05:600c:810:b0:3e2:9b5:c2b2 with SMTP id k16-20020a05600c081000b003e209b5c2b2mr56363wmp.25.1676486936472;
+        Wed, 15 Feb 2023 10:48:56 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1676486936; cv=none;
+        d=google.com; s=arc-20160816;
+        b=F3UXKjW39A5QBT6RQuhGXYYqxEk8fB0TzuuRBW0EEqIebLHO6L4uqVpX1MooQp8Do2
+         UHnPqBEDwRDija0N1vsrhwnrQkNOz/iyQw1jtIwMlUSu6gmqMGjTSLT7M7FJyD/cA5Ch
+         W9ZnKq/k+aH820ShxT8UHW/KC+hMSGQT7Mf1twLBuHyluF1P/m/xAZXKKOSpe5v4HEjf
+         Va8ZUHRR6u7iBjjaZ6Hoild9YPfvClfKdonU9JvsbLABym3/kloGWZdahgypYWzRR/VK
+         0d70U+Ksg6MdYoPOn5k8zAtcr9oGZDYHYXTvJ3RwCARb1nnLbEDwbCxxfUPLycHzuRiV
+         kXcQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Idt8+LGeF2VP3uDRB8gxwJV5hU2X6uo03raDil1Ig9c=;
+        b=uN0TttFwqSSYZiNYbdib6gR9CNLRCR2hv7huZETJy2xXG72ROc6kThCrFWkuFsxUJ6
+         ELeP71kRy0ACOrux9svbXsiqBnIMQ3uVI573Bi50bEndfjepEnevWBWaZevtv/UHCBkR
+         FgYe0xoCLmEYO3koa5Msp0jwrHGdBc0Vxxuf+YOL5Bt7wGI6pE8IfXe85nlOF+XmUCC2
+         U5zB/dqrnLEIO4gDbxmC5bYYotSm3SABkbwmBIu4uvqnBpbrrgA0x0a4R9OHU4jho4Um
+         FSigfz31M619hG7HiFrKrLal/Dzo29wvPyaF6AfQGtdYJiqddlexPX7GCaUvo5BtomFF
+         ondw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=d9ioG3py;
+       spf=pass (google.com: domain of delivery_20230215134854.30562430.279853@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230215134854.30562430.279853@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230215134854.30562430.279853@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id ay29-20020a05600c1e1d00b003e2066b4ce7si81981wmb.0.2023.02.15.10.48.55
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 15 Feb 2023 10:48:56 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230215134854.30562430.279853@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=Z2CH2PzZhCbvp7qqDuIo2gO5p/TZO1avWpAAJFWCqXk=;
+ b=d9ioG3pyqNgptt8En+iKOMh82Ay9gC+1DujVX3gaFYIHFSS5AYsdGIcqccHefif8/c9bDQ8+ihzQ
+   g7UyleTDJciJo0IXLBKEumiFDddiufbxkJ01KMR0zwtJ4ghf7hAMOw+r1VP397dqDB4xCg2hXpDK
+   L4X1tCJTuOaEtVZEqSU=
+Received: from nj1-mta30.sailthru.com (204.153.120.165) by bloomberg-b.sailthru.com id htkkhc30nu8j for <bloomberg@khamel.com>; Wed, 15 Feb 2023 13:48:54 -0500 (envelope-from <delivery_20230215134854.30562430.279853@mx.sailthru.com>)
+Date: Wed, 15 Feb 2023 13:48:54 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230215134854.30562430.279853@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IFB1cnBsZSBJbm5v?=
+ =?utf-8?B?dmF0aW9u4oCZcyBQUlBMUyBJbm5vdmF0aW9u?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_23360243_1283098747.1676486934408"
+Precedence: bulk
+X-Feedback-ID: 6358:30562430:campaign:sailthru
+X-TM-ID: 20230215134854.30562430.279853
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illcherry.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci724e.5zxp/87079049
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci724e.5zxp/87079049>, <mailto:unsubscribe_20230215134854.30562430.279853@mx.sailthru.com>
+X-rpcampaign: stjko30562430
+
+------=_Part_23360243_1283098747.1676486934408
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        There are two ways for companies to hold elections for their boards=
+ of directors. The normal way is that the company has, say, seven board s
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      PRPLS
+   =20
+ =20
+
+There are two ways for companies to hold elections for their boards of dire=
+ctors. The normal way is that the company has, say, seven board seats, and =
+each shareholder gets to vote for up to seven directors, and each share=C2=
+=A0voted=C2=A0for a candidate counts as one vote,=C2=A0and whichever seven =
+candidates get the most votes win. Most of the time, the company nominates =
+seven people, they are the only choices, and the shareholders just vote for=
+ them.=C2=A0But sometimes there will be a contested election: An activist s=
+hareholder will nominate candidates (perhaps seven, perhaps fewer) and run =
+a proxy fight to try to get shareholders to vote for her candidates, and th=
+e shareholders will end up electing either the company=E2=80=99s candidates=
+ or the activist=E2=80=99s or, occasionally, a mix of the two slates.
+The other way =E2=80=94=C2=A0it is called =E2=80=9Ccumulative=E2=80=9D voti=
+ng =E2=80=94=C2=A0is that each shareholder gets seven votes per share, but =
+can assign them to whichever candidate or candidates she wants. She can vot=
+e all seven votes for one candidate, if she wants, or four for one and thre=
+e for another, or one each for seven candidates, or whatever. And then whic=
+hever candidate gets the most total votes wins.
+This is, generally, good for activists.=C2=A0=E2=80=9CCumulative voting is =
+a type of voting system that helps strengthen the ability of minority share=
+holders to elect a director,=E2=80=9D  says the US Securities and Exchange =
+Commission. With normal voting, if the company and an activist each nominat=
+e seven candidates, and if 30% of shareholders vote with the activist and 7=
+0% vote with management, then all of management=E2=80=99s directors will be=
+ elected. With cumulative voting, though, if 30% of shareholders split thei=
+r seven votes among just two of the activist=E2=80=99s candidates, then bot=
+h of those candidates will be elected (each with 15% of the vote), and they=
+ will join the board (along with five of the management nominees).
+Companies=E2=80=99 boards and managers mostly do not want this, for obvious=
+ reasons: Companies want to be able to pick a full board of people who are =
+on the same page and want to work together, rather than having a couple of =
+interlopers in the boardroom who were chosen by a disgruntled minority of s=
+hareholders.=C2=A0Delaware law says that a company=E2=80=99s certificate of=
+ incorporation may provide for cumulative voting, but it is not the default=
+, and in fact it is quite rare among US public companies.
+Purple Innovation Inc. is a publicly traded mattress company that went publ=
+ic through a special purpose acquisition company in 2018. One=C2=A0big shar=
+eholder, Coliseum Capital Management LLC,=C2=A0owns about 45% of its stock.=
+ Last September, Coliseum  offered to acquire the rest of Purple for $4.35 =
+per share; the stock had been trading at around $3. A special committee of =
+Purple=E2=80=99s board of directors  declined the  offer; the stock closed =
+yesterday at $4.63.
+On Monday,=C2=A0Coliseum announced that it was nominating five candidates t=
+o Purple=E2=80=99s seven-member board of directors. (One of them is Coliseu=
+m=E2=80=99s managing partner, who is already on Purple=E2=80=99s board.)=C2=
+=A0With 45% of the stock, Coliseum can probably elect all the directors it =
+likes.
+  [1]
+ Once it controls the board =E2=80=A6=C2=A0I guess it could=C2=A0try to for=
+ce through an acquisition, though that is hard and it has said it won=E2=80=
+=99t. In its announcement, Coliseum =E2=80=9Cconfirmed that it is no longer=
+ pursuing its September 2022 proposal to acquire the remaining shares not o=
+wned by Coliseum=E2=80=9D and =E2=80=9Ccommitted that if it does make a sim=
+ilar proposal in the future, it will be conditioned on the same terms as th=
+e September 2022 proposal: it must be approved by a special committee of Pu=
+rple=E2=80=99s board and by the holders of a majority of the stock not then=
+ owned by Coliseum.=E2=80=9D=C2=A0
+Purple=E2=80=99s management was not thrilled, and=C2=A0its special committe=
+e  put out a statement:
+
+We are extremely disappointed that Coliseum has launched a proxy fight seek=
+ing to replace a majority of Purple=E2=80=99s Board, which currently compri=
+ses seven members.
+Coliseum=E2=80=99s Managing Partner Adam Gray has served on Purple=E2=80=99=
+s Board of Directors since the time the Company went public in 2018. He has=
+ been the Chairman of the Board=E2=80=99s Nomination & Governance Committee=
+ (N&G Committee) since its formation. During this time, Mr. Gray has been a=
+ fully engaged director, regularly contributing to Board composition and ma=
+nagement succession planning, developing long-term growth strategies, and d=
+etermining the appropriate capital structure to support the Company=E2=80=
+=99s promising future.
+At no time did Mr. Gray express his discontent with the way the business is=
+ being managed or the Company=E2=80=99s strategic direction. He appears con=
+tent with management, and he has been the director most responsible for the=
+ Board=E2=80=99s composition, given his role as Chairman of the N&G Committ=
+ee. Mr. Gray=E2=80=99s posture only changed in January when the Company rej=
+ected Coliseum Capital=E2=80=99s undervalued buyout proposal of $4.35 per s=
+hare.=C2=A0
+
+But there is not a whole=C2=A0ton=C2=A0that the board can do, given that Co=
+liseum owns 45% of the stock.=C2=A0
+One thing that you might think, if you were Purple=E2=80=99s current direct=
+ors, is something like =E2=80=9Cboy, I wish we had cumulative voting.=E2=80=
+=9D If Purple had cumulative voting, then the non-Coliseum shareholders who=
+ don=E2=80=99t want Coliseum to take over the board could band together and=
+ elect, you know, two or three or even possibly four directors. (Non-Colise=
+um holders have 55% of the votes, though they are more dispersed than Colis=
+eum and so less likely to vote all together even if they mostly=C2=A0do=C2=
+=A0agree with management.) But  Purple=E2=80=99s corporate charter does=C2=
+=A0not provide for cumulative voting; changing that would require a shareho=
+lder vote, which doesn=E2=80=99t really work.=C2=A0
+But Purple=E2=80=99s charter does allow for what is called =E2=80=9Cblank-c=
+heck preferred stock=E2=80=9D: The board can issue shares of preferred stoc=
+k with any terms that it wants, including any=C2=A0voting=C2=A0rights that =
+it wants. We have   talked about this sort of thing recently in the context=
+ of AMC Entertainment Holdings Inc.: AMC was having trouble getting shareho=
+lder approval to issue more stock, so it issued a new class of preferred st=
+ock (called APEs) that had voting rights, and placed that stock in friendly=
+ hands to make shareholder approval more likely. Issuing new common stock w=
+ould have required shareholder approval that AMC couldn=E2=80=99t get, but =
+issuing new preferred stock that=C2=A0looked=C2=A0and=C2=A0voted=C2=A0like =
+common stock was easy.
+Purple had a similar idea, and yesterday it issued  this press release:
+
+Purple Innovation, Inc. (NASDAQ: PRPL) ("Purple" or the =E2=80=9CCompany=E2=
+=80=9D), a comfort innovation company known for creating the "World's First=
+ No Pressure=C2=AE Mattress," today announced that the Special Committee of=
+ its Board of Directors (the =E2=80=9CBoard=E2=80=9D) has declared a divide=
+nd of one new Proportional Representation Preferred Linked Stock (=E2=80=9C=
+PRPLS=E2=80=9D) for each 100 shares of Purple common stock (=E2=80=9CCommon=
+ Stock=E2=80=9D) owned by Purple=E2=80=99s shareholders. Each PRPLS will vo=
+te together with the Common Stock in the election of directors, and related=
+ matters, and carry 10,000 votes each.
+Holders of PRPLS will be entitled to allocate their votes among the nominee=
+s in director elections on a cumulative basis. PRPLS holders can allocate a=
+ll, none, or a portion of their votes to each director nominee up for elect=
+ion at the Company=E2=80=99s meetings of shareholders. As an example, share=
+holders who collectively own 30% of Purple=E2=80=99s Common Stock will be a=
+ble to use the voting rights associated with their PRPLS to effectively ele=
+ct approximately 30% of the members of the Board.
+=E2=80=9CThe purpose of the PRPLS is to protect all shareholders and treat =
+them equally,=E2=80=9D said Paul J. Zepf, Purple Innovation=E2=80=99s Chair=
+man of the Board. =E2=80=9CPurple shareholders will have the opportunity fo=
+r proportional representation on the Purple Board of Directors. By cumulati=
+ng their PRPLS votes for certain director nominees, public shareholders can=
+ support the election of directors they believe will act independently to r=
+epresent the interests of all shareholders in the boardroom, roughly in pro=
+portion to their collective ownership in the Company.=E2=80=9D ...
+Prior to the issuance of the PRPLS, Coliseum might have been able to single=
+-handedly nominate and elect all of the directors on the Board, including t=
+he five nominees Coliseum has selected.
+With the issuance of PRPLS, all shareholders, including those not affiliate=
+d with Coliseum, will be able to cumulate their PRPLS votes on director can=
+didates they feel will best represent the interests of all shareholders. Th=
+is will help ensure that all shareholders receive ongoing independent repre=
+sentation on the Board. The PRPLS enable shareholders who are not affiliate=
+d with Coliseum to choose and elect as many as 55% of the directors on the =
+Purple Board.
+The Company is issuing one-one hundredth PRPLS for each share of Common Sto=
+ck held as of the close of business on February 24, 2023. The PRPLS will tr=
+ade with the Common Stock and any new issuance of Common Stock will automat=
+ically include a proportionate number of PRPLS. The PRPLS are redeemable at=
+ any time by an affirmative vote of two-thirds of the members of the Board.
+
+Ten thousand votes per PRPLS! I mean, each common share gets 1/100th of a P=
+RPLS,
+  [2]
+ so each common share gets 100 extra votes. The one normal vote per common =
+share is not cumulative, but the 100 PRPLS votes are, so Purple has effecti=
+vely switched to cumulative voting.
+I dunno, seems fine? A lot of the time, when companies try to fight off a b=
+ig shareholder, they do it with things that=C2=A0discriminate=C2=A0against =
+that shareholder: most classically a   poison pill (basically threatening t=
+o give a ton of new stock to every shareholder except the one you don=E2=80=
+=99t like), though there is also the time that CBS Corp.=E2=80=99s board of=
+ directors tried to   issue a bunch of new stock to take away the super-vot=
+ing rights of Shari Redstone, its controlling shareholder. Here, every shar=
+eholder =E2=80=94=C2=A0Coliseum and otherwise =E2=80=94=C2=A0gets the same =
+PRPLS and the same voting rights, but the board has changed how the votes g=
+et counted.
+Mostly we just live in a golden age of blank-check preferred stock with wei=
+rd voting rights and fun acronyms. I don=E2=80=99t think that a lot of comp=
+anies will=C2=A0copy=C2=A0this idea, just because you need a really specifi=
+c set of circumstances (pretty much: a single shareholder with more than ab=
+out 35% of the stock and less than 50%, whom the board doesn=E2=80=99t=C2=
+=A0like) for this to make any sense. But if anyone does, will they use Purp=
+le=E2=80=99s PRPLS name? As a little tribute? Or will they have to come up =
+with their own acronym?
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Distress
+   =20
+ =20
+
+My   general theory of   distressed-debt investing is:
+=09There is a company that does not have enough money to pay back its debts=
+.=09So 51% of its creditors go to the company and say =E2=80=9Cpay us back =
+100 cents on the dollar, and in exchange we will approve an amendment to yo=
+ur debt documents that allows you to pay the other 49% zero cents on the do=
+llar.=E2=80=9D=09The company does this, to buy time and avoid bankruptcy.=
+=09Eventually it goes bankrupt anyway, the 51% holders are in a relatively =
+good position, and the 49% holders are not.
+
+This oversimplifies things a lot; 51% of creditors can=E2=80=99t literally =
+vote to zero the other 49%. But the basic idea is pretty common in modern d=
+istressed investing: You get some majority group of creditors who agree to =
+give the company some extra time in exchange for putting themselves first i=
+n line for any recovery, and some minority group of creditors who are mad a=
+bout it and probably sue. The exact mechanics will vary from deal to deal, =
+depending on what sorts of shenanigans are and are not allowed by the compa=
+ny=E2=80=99s debt documents, but in general the documents are complicated a=
+nd you=E2=80=99ll probably be able to find=C2=A0some=C2=A0shenanigans that =
+are at least arguably allowed. And if you=E2=80=99re on the losing side, yo=
+u=E2=80=99ll also probably be able to find an argument that they are not al=
+lowed, and then you end up   fighting over it in court.
+The thing about this general theory is that there is nothing principled=C2=
+=A0about it. The general rule is =E2=80=9Cyou should try to be in the 51% o=
+f creditors who get paid rather than the 49% who don=E2=80=99t.=E2=80=9D If=
+ you are in the 51% who get paid, you will think that the machinations that=
+ got you paid were good; if you are in the 49% who didn=E2=80=99t, you will=
+ think that the machinations that got you hosed were bad. There are a lot o=
+f deals like this, and sometimes big distressed investors will end up getti=
+ng paid in some deals and getting hosed in others. And then, in the deals w=
+here they were hosed, they will get mad and probably sue. It seems somehow =
+to miss the point to accuse them of=C2=A0hypocrisy. Their views are perfect=
+ly consistent: They want to get paid, in each deal, and will sue if they do=
+n=E2=80=99t.
+At the Financial Times,  Sujeet Indap reports:
+
+Angelo Gordon, one of the world=E2=80=99s savviest corporate credit investo=
+rs, has found itself on both sides of a contentious divide roiling Wall Str=
+eet.
+The $50bn fund manager is a longtime lender to Revlon, the cosmetics compan=
+y, and to Serta Simmons Bedding, the mattress group. Each company is in US =
+Chapter 11 bankruptcy proceedings after falling behind on debts.
+But Angelo Gordon=E2=80=99s status as a creditor is starkly different in th=
+e two cases. At Revlon it is poised to seize control after joining a slim m=
+ajority of lenders that offered rescue financing in May 2020, a deal that l=
+eft other creditors behind.
+At Serta, however, it was among the creditors excluded from a similar emerg=
+ency financing assembled in June 2020. Now at risk of recovering pennies on=
+ the dollar from its investment, Angelo Gordon and other stranded creditors=
+ will try to convince another bankruptcy court that the majority group viol=
+ated their rights.
+The stances strike some observers as inconsistent.
+=E2=80=9CIt is definitely a bad look to try to propose an amendment [to a l=
+oan contract] that may have left minority lenders behind, and then complain=
+ about lack of good faith when they=E2=80=99re on the receiving end,=E2=80=
+=9D said Randall Klein, a lawyer at Goldberg Kohn who specialises in corpor=
+ate debt.
+
+I mean, compared to what? It would also be a bad look not to try to get pai=
+d as much as they can.=C2=A0=E2=80=9CAngelo Gordon believes that the techni=
+cal differences between Revlon and Serta transactions leave it on the corre=
+ct side of both, according to court filings and people familiar with their =
+thinking,=E2=80=9D and, sure, the technical differences. The correct side o=
+f every deal is the side that gets paid.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Disney
+   =20
+ =20
+
+I think it would be fun to work in some sort of middle management role=C2=
+=A0at a big public company and also be friends with a big scary activist in=
+vestor. Everyone would have to walk=C2=A0on eggshells around you just a bit=
+, and if you ever=C2=A0disagreed with your boss, or if your boss tried to d=
+emote you or fire you for something that you did, you could call up your ac=
+tivist buddy to run a proxy fight to get the whole board and=C2=A0managemen=
+t team replaced. =E2=80=9CI was not happy with my bonus this year so I had =
+my friend take over the company and fire everyone.=E2=80=9D Just a weird dy=
+namic.=C2=A0
+We  talk sometimes about the odd governance dynamics of corporate chief exe=
+cutive officers who are also controlling shareholders: Technically the CEO =
+works for the board, and the board can fire the CEO, but the board works fo=
+r the shareholders, and the shareholder-CEO can fire the board. There is a =
+standoff; the corporate hierarchy circles back on itself. This would be lik=
+e that but weirder. You work for your boss who works for the CEO who works =
+for the board who works for the shareholders who work for you.
+You don=E2=80=99t see a ton of it,=C2=A0but here is a Wall Street Journal s=
+tory that is a little like that:
+
+Longtime friends Isaac =E2=80=9CIke=E2=80=9D Perlmutter and activist invest=
+or Nelson Peltz shared a similar opinion: Walt Disney Co. was spending too =
+much money.
+Mr. Perlmutter, chairman of Disney=E2=80=99s Marvel Entertainment unit, was=
+ known to be passionate about cost-cutting and once demanded that an action=
+ sequence in the 2008 movie =E2=80=9CIron Man=E2=80=9D be shot with only th=
+ree Humvees, instead of the 10 called for in the script. His feuds with Rob=
+ert Iger during the chief executive=E2=80=99s first tenure over how to run =
+Marvel=E2=80=99s movie studio caused a rift that remains.
+Meanwhile, Mr. Perlmutter supported Mr. Peltz and his campaign to get onto =
+Disney=E2=80=99s board and push for significant changes to Disney=E2=80=99s=
+ governance and operations, including cost cuts. Mr. Peltz ended that campa=
+ign Thursday after Mr. Iger announced plans to remove 7,000 jobs and reduce=
+ spending by $5.5 billion as part of a reorganization plan.
+Though Disney didn=E2=80=99t respond to all of Mr. Peltz=E2=80=99s demands,=
+ the commitment to austerity pleased both him and Mr. Perlmutter. =E2=80=A6
+Messrs. Iger and Perlmutter have had a tense relationship since 2015, when =
+Mr. Perlmutter=E2=80=99s quarrels with current Marvel Studios chief Kevin F=
+eige over budgets and movie slates grew so intense that Mr. Iger, then in h=
+is first stint as Disney=E2=80=99s CEO, intervened and removed Mr. Perlmutt=
+er as CEO of Marvel=E2=80=99s movie studio, according to people familiar wi=
+th the matter. Mr. Iger later stripped Mr. Perlmutter of further responsibi=
+lities, including control over Marvel=E2=80=99s television shows, heighteni=
+ng the acrimony between them, these people said.
+
+Is the story here that Iger, the CEO, demoted Perlmutter, the head of a div=
+ision, so Perlmutter called in an activist shareholder to cut Iger down to =
+size? I mean, no, but a little bit? Disney=E2=80=99s  proxy statement for t=
+he Peltz proxy fight, filed last week, does=C2=A0begin=C2=A0the story with =
+Perlmutter, =E2=80=9Can employee and shareholder of the Company,=E2=80=9D b=
+ringing in Peltz to support Disney=E2=80=99s previous CEO, Bob Chapek.=C2=
+=A0Actually the paragraph is worth quoting in full:
+Early in the summer of 2022, Isaac Perlmutter, an employee and shareholder =
+of the Company, who currently serves as Chairman of Marvel Entertainment, a=
+nd previously served as Chief Executive Officer of Marvel, called Bob Chape=
+k, then the Chief Executive Officer of the Company, to urge Mr. Chapek to m=
+eet with Nelson Peltz, the Chief Executive Officer of Trian Management. Mr.=
+ Chapek noted that he had business travel coming up in Paris, France, and t=
+hus his schedule near term would not work. Mr. Perlmutter responded that Mr=
+. Peltz was vacationing on his yacht somewhere off the coast of France and =
+so geography would not be an impediment. Mr. Perlmutter told Mr. Chapek he =
+should have a =E2=80=9Cfriendly lunch=E2=80=9D with Mr. Peltz in France and=
+ it would be a good investment of his time. Mr. Perlmutter=E2=80=99s assist=
+ant worked with Mr. Chapek=E2=80=99s office and Mr. Peltz=E2=80=99s office =
+to organize the meeting over a lunch.
+=E2=80=9CHey Bob would you like to meet with a famous activist investor?=E2=
+=80=9D =E2=80=9COooh I=E2=80=99d love to, really I would,=C2=A0but I=E2=80=
+=99m gonna be in France, sorry, quel dommage.=E2=80=9D =E2=80=9CThat=E2=80=
+=99s okay, he=E2=80=99s on a yacht somewhere off France, he can come to you=
+.=E2=80=9D Imagine being the law firm associate writing that paragraph at m=
+idnight in your office. Sounds nice!
+
+ =20
+   =20
+      Crypto taxes
+   =20
+ =20
+
+The basic proposition of crypto shadow banks like Celsius Network Ltd. was:
+=09You deposit your crypto with Celsius.=09Celsius pays you some very high =
+interest rate on your crypto,   as much as 18%, and uses your crypto to mak=
+e risky bets.=09Celsius loses the money, can=E2=80=99t give you back your c=
+rypto, and goes bankrupt.
+
+I mean, that is not literally the proposition that Celsius advertised, but =
+(1) it=E2=80=99s what happened and (2) it's=C2=A0kind of=C2=A0what it adver=
+tised? Like, if you are financially literate, an 18% interest rate on a dem=
+and deposit account does=C2=A0mean=C2=A0that they=E2=80=99re going to lose =
+your money?=C2=A0=E2=80=9CEither the bank is lying or Celsius is lying,=E2=
+=80=9D Celsius promoter Alex Mashinsky   famously said, so you had a 50/50 =
+shot of getting it right.
+Anyway, there is an obvious problem with this proposition, which is that Ce=
+lsius loses your money and you don=E2=80=99t get it back. But there is also=
+ another, slightly less obvious problem, which is that Celsius pays you 18%=
+ interest. The problem is that=C2=A0you owe taxes on that interest, which y=
+ou can=E2=80=99t pay, because Celsius lost your money. Bloomberg=E2=80=99s =
+  Claire Ballentine reports:
+
+Interest earned on bank accounts, certificates of deposit and corporate bon=
+ds is subject to income tax in the year it=E2=80=99s generated, according t=
+o the Internal Revenue Service. Typically, that=E2=80=99s a fairly straight=
+forward process: Banks and other institutions send out 1099 forms listing t=
+he taxpayer=E2=80=99s interest income, which is then used when determining =
+overall obligations for tax season. =C2=A0
+But in a quirk of last year=E2=80=99s crypto collapse, investors are now re=
+ceiving tax bills for money locked up on platforms like Celsius and Voyager=
+ Digital, which have frozen customer withdrawals as they undergo bankruptcy=
+ proceedings.
+It could hardly come at a worse time for crypto investors. Not only have di=
+gital asset prices plunged in the wake of FTX=E2=80=99s collapse, but infla=
+tion, high housing costs and rising interest rates are also making it more =
+difficult for everyday people to afford regular expenses =E2=80=94 let alon=
+e taxes on investments they=E2=80=99ve likely lost.=C2=A0
+
+Paying 18% interest into your account, and then not letting you withdraw th=
+e money from the account, ends up giving you negative cash flow; you=E2=80=
+=99d have been better off without the interest.=C2=A0In=20
+other Celsius news:
+
+Celsius Network Ltd=C2=A0has proposed a plan that calls for most users to r=
+ecover the majority of their assets and allows=C2=A0NovaWulf Digital Manage=
+ment=C2=A0to manage a restructured version of the bankrupt crypto lender.
+The proposal calls for Celsius users with less than $5,000 of crypto tied u=
+p in interest-bearing accounts to receive a 70% recovery in the form of liq=
+uid digital assets like Bitcoin and Ethereum,=C2=A0court papers=C2=A0show. =
+Those smaller accounts make up most of Celsius=E2=80=99s interest-bearing a=
+ccount holders.=C2=A0
+Bigger account holders will receive tokenized shares of post-bankruptcy Cel=
+sius and an unspecified amount of crypto, court papers show. The reborn com=
+pany =E2=80=94 which will hold its crypto mining and illiquid assets =E2=80=
+=94 =C2=A0will be managed by NovaWulf. =C2=A0
+NovaWulf would inject as much as $55 million into the new company under the=
+ plan, according to court papers. Its incentives will be =E2=80=9Cclosely a=
+ligned=E2=80=9D with shareholders because of a profit-sharing arrangement, =
+Celsius advisers said in a slide deck. =E2=80=A6
+The plan also calls for Celsius users to reap any benefits of a trust that =
+will sue former Celsius insiders, according to court papers.
+
+Huge   growth area in crypto, really, tokenizing the right to sue the peopl=
+e who made money in the last crypto boom.
+
+ =20
+   =20
+      Bonus caps
+   =20
+ =20
+
+One of the weirdest cases of unintended consequences in financial regulatio=
+n is that, after the 2008 financial crisis, European Union regulators passe=
+d rules requiring banks to give their senior employees enormous raises. I m=
+ean, technically, the rules were designed to=C2=A0cap bonuses:=C2=A0The the=
+ory was that banks took on excessive risks because their employees were try=
+ing to maximize their bonuses, so the solution was to cap bonuses at, essen=
+tially, two times the bankers=E2=80=99 salary. But the very very very very =
+very obvious, yet somehow apparently unintended,=C2=A0effect of this rule w=
+as to push banks to=C2=A0raise salaries=C2=A0(or offer other sorts of quasi=
+-fixed pay, like =E2=80=9Crole-based allowances,=E2=80=9D that don=E2=80=99=
+t count as bonuses), so that senior employees could still get large paychec=
+ks. But now the paychecks are more guaranteed than they used to be: Instead=
+ of getting most of their pay from a once-a-year bonus that could be zeroed=
+ if things go poorly, senior European bankers now get a bigger chunk of the=
+ir pay in regular monthly installments. This is very nice for them! Thanks,=
+ regulators!
+The UK, having left the EU, is no longer required to follow those rules, an=
+d is  considering getting rid of them. At FT Alphaville, Craig Coben points=
+ out that  this will be bad for UK bankers:
+
+Contrary to popular belief, most senior dealmakers are risk-averse; they ha=
+ve worked in investment banks for 15, 20 or more years. They praise entrepr=
+eneurialism more than they practice it. Their priority is to earn enough to=
+ maintain the (expensive) standard of living associated with a certain segm=
+ent of the London professional class. ...
+That=E2=80=99s why these bankers appreciate a lifeboat of role-based allowa=
+nces in case business hits rough seas or a few deals just don=E2=80=99t go =
+their way. Removing the role-based allowances plunges London bankers into t=
+he icy waters of performance accountability.
+
+I suppose at the margin that will cause the more risk-averse people to leav=
+e the banks, and more risk-loving people to join? Hmm.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Yes, Elon Musk created a special system for  showing you all his tweets fir=
+st. Tesla Investor Gerber Tells EV Maker He=E2=80=99s  Pursuing Board Seat.=
+ Elon Musk Nears   World=E2=80=99s Richest Title Again. Elon Musk Gave $1.9=
+ Billion of Tesla Shares to Charity Last Year. Morgan Stanley  Doubles Down=
+ on ESG Despite the Politics. Influential local US banks fight back against=
+ Republicans=E2=80=99 ESG attacks.=C2=A0Credit Suisse Pays Double to Lure I=
+nvestors to Its Bond Offering. Goldman Sachs  scraps idea for direct-to-con=
+sumer credit card after strategy shift. Central Bankers in Bunkers Keep   U=
+kraine=E2=80=99s War Economy Afloat. Investors Pour Into  Chinese Stock Fun=
+ds in Reopening Bet. China Stock Slide Puts Hedge Funds=E2=80=99   Crowded =
+Trade at Risk.   Adani Group Touts Cash Reserves in Bid to Calm Investors.=
+=C2=A0 Subway Confirms It Is Seeking Buyers.  Vice Media Gets $30 Million-P=
+lus Lifeline From Fortress as Bills Pile Up.=C2=A0Swiss Say   Confiscating =
+Russian Assets Would Undermine Law. Albanian gangs set up hundreds of  spy =
+cameras to keep ahead of police. America's Priciest Neighborhoods Are Chang=
+ing as the Ultra-Rich   Move to Florida. James Van Der Beek:=C2=A0=E2=80=9C=
+I enjoy working with brands and  I love adding value.=E2=80=9D
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Mostly because not all shareholders vote in all elections; if you sta=
+rt with 45% of the vote then it=E2=80=99s not like anyone else is going to =
+get 46%. In last year=E2=80=99s (uncontested) director elections at Purple,=
+ about  67 million shares were eligible to vote, and only about  56 million=
+ did; getting 45% of the total shares would have been enough to win the vot=
+e.
+
+
+  [2] For preferred-share-cap reasons similar to those we   discussed in AM=
+C.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci724e.5zxp/20e2ec3a.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_23360243_1283098747.1676486934408
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+There are two ways for companies to hold elections for their boards of dire=
+ctors. The normal way is that the company has, say, seven board s
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDU2MjQzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NDIyODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBda9e5469" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30562430&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMjE1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMTUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB9ba49989"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDU2MjQzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NDIyODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC111a1a6e" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30562430&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">PRPLS</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">There are two ways for companies to hold elect=
+ions for their boards of directors. The normal way is that the company has,=
+ say, seven board seats, and each shareholder gets to vote for up to seven =
+directors, and each share=C2=A0voted=C2=A0for a candidate counts as one vot=
+e,=C2=A0and whichever seven candidates get the most votes win. Most of the =
+time, the company nominates seven people, they are the only choices, and th=
+e shareholders just vote for them.=C2=A0But sometimes there will be a conte=
+sted election: An activist shareholder will nominate candidates (perhaps se=
+ven, perhaps fewer) and run a proxy fight to try to get shareholders to vot=
+e for her candidates, and the shareholders will end up electing either the =
+company=E2=80=99s candidates or the activist=E2=80=99s or, occasionally, a =
+mix of the two slates.</p>
+<p style=3D"margin: 16px 0;">The other way =E2=80=94=C2=A0it is called =E2=
+=80=9Ccumulative=E2=80=9D voting =E2=80=94=C2=A0is that each shareholder ge=
+ts seven votes per share, but can assign them to whichever candidate or can=
+didates she wants. She can vote all seven votes for one candidate, if she w=
+ants, or four for one and three for another, or one each for seven candidat=
+es, or whatever. And then whichever candidate gets the most total votes win=
+s.</p>
+<p style=3D"margin: 16px 0;">This is, generally, good for activists.=C2=A0=
+=E2=80=9CCumulative voting is a type of voting system that helps strengthen=
+ the ability of minority shareholders to elect a director,=E2=80=9D <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aHR0cHM6L=
+y93d3cuaW52ZXN0b3IuZ292L2ludHJvZHVjdGlvbi1pbnZlc3RpbmcvaW52ZXN0aW5nLWJhc2lj=
+cy9nbG9zc2FyeS9jdW11bGF0aXZlLXZvdGluZw/607f07ceef4b8524a319a23cB62d12f30" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> says the US Securities and Exchange Commission</a>. With normal vot=
+ing, if the company and an activist each nominate seven candidates, and if =
+30% of shareholders vote with the activist and 70% vote with management, th=
+en all of management=E2=80=99s directors will be elected. With cumulative v=
+oting, though, if 30% of shareholders split their seven votes among just tw=
+o of the activist=E2=80=99s candidates, then both of those candidates will =
+be elected (each with 15% of the vote), and they will join the board (along=
+ with five of the management nominees).</p>
+<p style=3D"margin: 16px 0;">Companies=E2=80=99 boards and managers mostly =
+do not want this, for obvious reasons: Companies want to be able to pick a =
+full board of people who are on the same page and want to work together, ra=
+ther than having a couple of interlopers in the boardroom who were chosen b=
+y a disgruntled minority of shareholders.=C2=A0<a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30562430.279853/aHR0cHM6Ly9kZWxjb2RlLmRlbGF3YX=
+JlLmdvdi90aXRsZTgvYzAwMS9zYzA3L2luZGV4Lmh0bWw/607f07ceef4b8524a319a23cB2214=
+2e9b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">Delaware law</a> says that a company=E2=80=99s certificate of=
+ incorporation may provide for cumulative voting, but it is not the default=
+, and in fact it is quite rare among US public companies.</p>
+<p style=3D"margin: 16px 0;">Purple Innovation Inc. is a publicly traded ma=
+ttress company that went public through a special purpose acquisition compa=
+ny in 2018. One=C2=A0big shareholder, Coliseum Capital Management LLC,=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853=
+/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MDk3NTEvMDAwMTE5Mz=
+EyNTIzMDM3Mzk4L2Q0MzI5NjJkc2MxM2RhLmh0bQ/607f07ceef4b8524a319a23cB3fa53ef0"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">owns about 45%</a> of its stock. Last September, Coliseum <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MDk3NTEvMDAwMTE5MzEyNTIyMjQ2=
+Njk2L2Q0MDQ0NTRkZXg5OTEuaHRt/607f07ceef4b8524a319a23cB2225c1b0" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> of=
+fered to acquire</a> the rest of Purple for $4.35 per share; the stock had =
+been trading at around $3. A special committee of Purple=E2=80=99s board of=
+ directors <a href=3D"https://link.mail.bloombergbusiness.com/click/3056243=
+0.279853/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE2NDM5NTMvMD=
+AwMTIxMzkwMDIzMDAzNTk4L2VhMTcxODk5ZXg5OS0xX3B1cnBsZWlubm92Lmh0bQ/607f07ceef=
+4b8524a319a23cBcc8f5c2e" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> declined</a> the <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30562430.279853/aHR0cHM6Ly93d3cuc2VjLmdvdi=
+9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MDk3NTEvMDAwMTE5MzEyNTIzMDA5NTYxL2Q0MzI0MThkZ=
+Xg5OTEuaHRt/607f07ceef4b8524a319a23cB20780d91" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> offer</a>; the stoc=
+k closed yesterday at $4.63.</p>
+<p style=3D"margin: 16px 0;">On Monday,=C2=A0<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/30562430.279853/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNo=
+aXZlcy9lZGdhci9kYXRhLzE0MDk3NTEvMDAwMTE5MzEyNTIzMDM0NDUwL2Q0MjAxNTVkZXg5OTE=
+uaHRt/607f07ceef4b8524a319a23cB60f29a19" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Coliseum announced</a> t=
+hat it was nominating five candidates to Purple=E2=80=99s seven-member boar=
+d of directors. (One of them is Coliseum=E2=80=99s managing partner, who is=
+ already on Purple=E2=80=99s board.)=C2=A0With 45% of the stock, Coliseum c=
+an probably elect all the directors it likes.<a class=3D"footnote-index" hr=
+ef=3D"#footnote-1" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: none !important; background-color: transparent !important; display: in=
+line-block;">
+<span>[1]</span>
+</a> Once it controls the board =E2=80=A6=C2=A0I guess it <em>could=C2=A0</=
+em>try to force through an acquisition, though that is hard and it has said=
+ it won=E2=80=99t. In its announcement, Coliseum =E2=80=9Cconfirmed that it=
+ is no longer pursuing its September 2022 proposal to acquire the remaining=
+ shares not owned by Coliseum=E2=80=9D and =E2=80=9Ccommitted that if it do=
+es make a similar proposal in the future, it will be conditioned on the sam=
+e terms as the September 2022 proposal: it must be approved by a special co=
+mmittee of Purple=E2=80=99s board and by the holders of a majority of the s=
+tock not then owned by Coliseum.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">Purple=E2=80=99s management was not thrilled, =
+and=C2=A0its special committee <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/30562430.279853/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci=
+9kYXRhLzE2NDM5NTMvMDAwMTIxMzkwMDIzMDEwOTc1L2VhMTczNDQ5LWRlZmExNGFfcHVycGxlL=
+mh0bQ/607f07ceef4b8524a319a23cBf601e26c" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> put out a statement</a>=
+:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">We are extremely disappointed that Coliseum ha=
+s launched a proxy fight seeking to replace a majority of Purple=E2=80=99s =
+Board, which currently comprises seven members.</p>
+<p style=3D"margin: 16px 0;">Coliseum=E2=80=99s Managing Partner Adam Gray =
+has served on Purple=E2=80=99s Board of Directors since the time the Compan=
+y went public in 2018. He has been the Chairman of the Board=E2=80=99s Nomi=
+nation &amp; Governance Committee (N&amp;G Committee) since its formation. =
+During this time, Mr. Gray has been a fully engaged director, regularly con=
+tributing to Board composition and management succession planning, developi=
+ng long-term growth strategies, and determining the appropriate capital str=
+ucture to support the Company=E2=80=99s promising future.</p>
+<p style=3D"margin: 16px 0;">At no time did Mr. Gray express his discontent=
+ with the way the business is being managed or the Company=E2=80=99s strate=
+gic direction. He appears content with management, and he has been the dire=
+ctor most responsible for the Board=E2=80=99s composition, given his role a=
+s Chairman of the N&amp;G Committee. Mr. Gray=E2=80=99s posture only change=
+d in January when the Company rejected Coliseum Capital=E2=80=99s undervalu=
+ed buyout proposal of $4.35 per share.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But there is not a whole=C2=A0<em>ton=C2=A0</e=
+m>that the board can do, given that Coliseum owns 45% of the stock.=C2=A0</=
+p>
+<p style=3D"margin: 16px 0;">One thing that you might think, if you were Pu=
+rple=E2=80=99s current directors, is something like =E2=80=9Cboy, I wish we=
+ had cumulative voting.=E2=80=9D If Purple had cumulative voting, then the =
+non-Coliseum shareholders who don=E2=80=99t want Coliseum to take over the =
+board could band together and elect, you know, two or three or even possibl=
+y four directors. (Non-Coliseum holders have 55% of the votes, though they =
+are more dispersed than Coliseum and so less likely to vote all together ev=
+en if they mostly=C2=A0<em>do=C2=A0</em>agree with management.) But <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE2NDM5NTMvMDAwMTIxMzkwMDE5MDIy=
+MTM4L2YxMHEwOTE5ZXgzLTFfcHVycGxlLmh0bQ/607f07ceef4b8524a319a23cBd5c462dc" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> Purple=E2=80=99s corporate charter</a> does=C2=A0<em>not </em>provi=
+de for cumulative voting; changing that would require a shareholder vote, w=
+hich doesn=E2=80=99t really work.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But Purple=E2=80=99s charter does allow for wh=
+at is called =E2=80=9Cblank-check preferred stock=E2=80=9D: The board can i=
+ssue shares of preferred stock with any terms that it wants, including any=
+=C2=A0<em>voting=C2=A0</em>rights that it wants. We have <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/30562430.279853/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMDEvYW1jLWhhcy1zb21lLWNsZXZ=
+lci1hcGVzP2NtcGlkPUJCRDAyMTUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3=
+NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZ=
+g/607f07ceef4b8524a319a23cB6513909f" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  talked about this sort of th=
+ing</a> recently in the context of AMC Entertainment Holdings Inc.: AMC was=
+ having trouble getting shareholder approval to issue more stock, so it iss=
+ued a new class of preferred stock (called APEs) that had voting rights, an=
+d placed that stock in friendly hands to make shareholder approval more lik=
+ely. Issuing new common stock would have required shareholder approval that=
+ AMC couldn=E2=80=99t get, but issuing new preferred stock that=C2=A0<em>lo=
+oked=C2=A0</em>and=C2=A0<em>voted=C2=A0</em>like common stock was easy.</p>
+<p style=3D"margin: 16px 0;">Purple had a similar idea, and yesterday it is=
+sued <a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.2798=
+53/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE2NDM5NTMvMDAwMTIx=
+MzkwMDIzMDExMTM2L2VhMTczNTA5ZXg5OS0xX3B1cnBsZWlubi5odG0/607f07ceef4b8524a31=
+9a23cB575623b5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> this press release</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Purple Innovation, Inc. (NASDAQ: PRPL) ("Purpl=
+e" or the =E2=80=9CCompany=E2=80=9D), a comfort innovation company known fo=
+r creating the "World's First No Pressure=C2=AE Mattress," today announced =
+that the Special Committee of its Board of Directors (the =E2=80=9CBoard=E2=
+=80=9D) has declared a dividend of one new Proportional Representation Pref=
+erred Linked Stock (=E2=80=9CPRPLS=E2=80=9D) for each 100 shares of Purple =
+common stock (=E2=80=9CCommon Stock=E2=80=9D) owned by Purple=E2=80=99s sha=
+reholders. Each PRPLS will vote together with the Common Stock in the elect=
+ion of directors, and related matters, and carry 10,000 votes each.</p>
+<p style=3D"margin: 16px 0;">Holders of PRPLS will be entitled to allocate =
+their votes among the nominees in director elections on a cumulative basis.=
+ PRPLS holders can allocate all, none, or a portion of their votes to each =
+director nominee up for election at the Company=E2=80=99s meetings of share=
+holders. As an example, shareholders who collectively own 30% of Purple=E2=
+=80=99s Common Stock will be able to use the voting rights associated with =
+their PRPLS to effectively elect approximately 30% of the members of the Bo=
+ard.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe purpose of the PRPLS is to protec=
+t all shareholders and treat them equally,=E2=80=9D said Paul J. Zepf, Purp=
+le Innovation=E2=80=99s Chairman of the Board. =E2=80=9CPurple shareholders=
+ will have the opportunity for proportional representation on the Purple Bo=
+ard of Directors. By cumulating their PRPLS votes for certain director nomi=
+nees, public shareholders can support the election of directors they believ=
+e will act independently to represent the interests of all shareholders in =
+the boardroom, roughly in proportion to their collective ownership in the C=
+ompany.=E2=80=9D ...</p>
+<p style=3D"margin: 16px 0;">Prior to the issuance of the PRPLS, Coliseum m=
+ight have been able to single-handedly nominate and elect all of the direct=
+ors on the Board, including the five nominees Coliseum has selected.</p>
+<p style=3D"margin: 16px 0;">With the issuance of PRPLS, all shareholders, =
+including those not affiliated with Coliseum, will be able to cumulate thei=
+r PRPLS votes on director candidates they feel will best represent the inte=
+rests of all shareholders. This will help ensure that all shareholders rece=
+ive ongoing independent representation on the Board. The PRPLS enable share=
+holders who are not affiliated with Coliseum to choose and elect as many as=
+ 55% of the directors on the Purple Board.</p>
+<p style=3D"margin: 16px 0;">The Company is issuing one-one hundredth PRPLS=
+ for each share of Common Stock held as of the close of business on Februar=
+y 24, 2023. The PRPLS will trade with the Common Stock and any new issuance=
+ of Common Stock will automatically include a proportionate number of PRPLS=
+. The PRPLS are redeemable at any time by an affirmative vote of two-thirds=
+ of the members of the Board.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Ten thousand votes per PRPLS! I mean, each com=
+mon share gets 1/100th of a PRPLS,<a class=3D"footnote-index" href=3D"#foot=
+note-2" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !=
+important; background-color: transparent !important; display: inline-block;=
+">
+<span>[2]</span>
+</a> so each common share gets 100 extra votes. The one normal vote per com=
+mon share is not cumulative, but the 100 PRPLS votes are, so Purple has eff=
+ectively switched to cumulative voting.</p>
+<p style=3D"margin: 16px 0;">I dunno, seems fine? A lot of the time, when c=
+ompanies try to fight off a big shareholder, they do it with things that=C2=
+=A0<em>discriminate=C2=A0</em>against that shareholder: most classically a =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMTgvdHdpd=
+HRlci1oYXMtYS1wb2lzb24tcGlsbC1ub3c_Y21waWQ9QkJEMDIxNTIzX01PTkVZU1RVRkYmdXRt=
+X21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjE1JnV0bV9=
+jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe95d1c2f" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  pois=
+on pill</a> (basically threatening to give a ton of new stock to every shar=
+eholder except the one you don=E2=80=99t like), though there is also the ti=
+me that CBS Corp.=E2=80=99s board of directors tried to <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/30562430.279853/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDUtMTUvY2JzLXdhbnRzLXRvLWdldC1y=
+aWQtb2YtYS1zaGFyZWhvbGRlcj9jbXBpZD1CQkQwMjE1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXV=
+tPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMTUmdXRtX2NhbXBhaW=
+duPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBa364648a" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  issue a bunc=
+h of new stock</a> to take away the super-voting rights of Shari Redstone, =
+its controlling shareholder. Here, every shareholder =E2=80=94=C2=A0Coliseu=
+m and otherwise =E2=80=94=C2=A0gets the same PRPLS and the same voting righ=
+ts, but the board has changed how the votes get counted.</p>
+<p style=3D"margin: 16px 0;">Mostly we just live in a golden age of blank-c=
+heck preferred stock with weird voting rights and fun acronyms. I don=E2=80=
+=99t think that a lot of companies will=C2=A0<em>copy=C2=A0</em>this idea, =
+just because you need a really specific set of circumstances (pretty much: =
+a single shareholder with more than about 35% of the stock and less than 50=
+%, whom the board doesn=E2=80=99t=C2=A0<em>like</em>) for this to make any =
+sense. But if anyone does, will they use Purple=E2=80=99s PRPLS name? As a =
+little tribute? Or will they have to come up with their own acronym?</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDU2MjQzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NDIyODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD900a058a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30562430&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDU2MjQzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NDIyODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE900a058a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30562430&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDU2MjQzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NDIyODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFa5a0e8ef" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30562430&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDU2MjQzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NDIyODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGa5a0e8ef" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30562430&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDU2MjQzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NDIyODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH46ef9910" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30562430&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDU2MjQzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NDIyODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI46ef9910" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30562430&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Distress</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">My <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30562430.279853/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjItMDQtMDcvZGlzdHJlc3NlZC1kZWJ0LWRlYWwtbWFrZXMtcGVvcGxlLW1h=
+ZD9jbXBpZD1CQkQwMjE1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U=
+9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07=
+ceef4b8524a319a23cB9d3d6bdd" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  general theory</a> of <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/30562430.279853/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTAtMjYvbXVzay13aWxsLWJ1eS1=
+0d2l0dGVyLWF0LXRoZS1sYXN0LW1pbnV0ZT9jbXBpZD1CQkQwMjE1MjNfTU9ORVlTVFVGRiZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMTUmdXRtX=
+2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB4b5a8791" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  dis=
+tressed-debt investing</a> is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">There is a company that does not have=
+ enough money to pay back its debts.</li>=09<li style=3D"margin-bottom: 5px=
+;">So 51% of its creditors go to the company and say =E2=80=9Cpay us back 1=
+00 cents on the dollar, and in exchange we will approve an amendment to you=
+r debt documents that allows you to pay the other 49% zero cents on the dol=
+lar.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">The company does thi=
+s, to buy time and avoid bankruptcy.</li>=09<li style=3D"margin-bottom: 5px=
+;">Eventually it goes bankrupt anyway, the 51% holders are in a relatively =
+good position, and the 49% holders are not.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This oversimplifies things a lot; 51% of credi=
+tors can=E2=80=99t literally vote to zero the other 49%. But the basic idea=
+ is pretty common in modern distressed investing: You get some majority gro=
+up of creditors who agree to give the company some extra time in exchange f=
+or putting themselves first in line for any recovery, and some minority gro=
+up of creditors who are mad about it and probably sue. The exact mechanics =
+will vary from deal to deal, depending on what sorts of shenanigans are and=
+ are not allowed by the company=E2=80=99s debt documents, but in general th=
+e documents are complicated and you=E2=80=99ll probably be able to find=C2=
+=A0<em>some=C2=A0</em>shenanigans that are at least arguably allowed. And i=
+f you=E2=80=99re on the losing side, you=E2=80=99ll also probably be able t=
+o find an argument that they are not allowed, and then you end up <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMDIvbWVyZ2Vycy1h=
+cmVuLXQtYWx3YXlzLWZhaXI_Y21waWQ9QkJEMDIxNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1=
+lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjE1JnV0bV9jYW1wYWlnbj=
+1tb25leXN0dWZm/607f07ceef4b8524a319a23cBc1b27f17" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  fighting over i=
+t in court</a>.</p>
+<p style=3D"margin: 16px 0;">The thing about this general theory is that th=
+ere is nothing <em>principled=C2=A0</em>about it. The general rule is =E2=
+=80=9Cyou should try to be in the 51% of creditors who get paid rather than=
+ the 49% who don=E2=80=99t.=E2=80=9D If you are in the 51% who get paid, yo=
+u will think that the machinations that got you paid were good; if you are =
+in the 49% who didn=E2=80=99t, you will think that the machinations that go=
+t you hosed were bad. There are a lot of deals like this, and sometimes big=
+ distressed investors will end up getting paid in some deals and getting ho=
+sed in others. And then, in the deals where they were hosed, they will get =
+mad and probably sue. It seems somehow to miss the point to accuse them of=
+=C2=A0<em>hypocrisy</em>. Their views are perfectly consistent: They want t=
+o get paid, in each deal, and will sue if they don=E2=80=99t.</p>
+<p style=3D"margin: 16px 0;">At the Financial Times, <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/30562430.279853/aHR0cHM6Ly93d3cuZnQuY29t=
+L2NvbnRlbnQvODYwNDFmOGYtYjZhZC00MmQ4LTk2YzctOTM0ODEzNGU1ZTEx/607f07ceef4b85=
+24a319a23cB37503e83" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Sujeet Indap reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Angelo Gordon, one of the world=E2=80=99s savv=
+iest corporate credit investors, has found itself on both sides of a conten=
+tious divide roiling Wall Street.</p>
+<p style=3D"margin: 16px 0;">The $50bn fund manager is a longtime lender to=
+ Revlon, the cosmetics company, and to Serta Simmons Bedding, the mattress =
+group. Each company is in US Chapter 11 bankruptcy proceedings after fallin=
+g behind on debts.</p>
+<p style=3D"margin: 16px 0;">But Angelo Gordon=E2=80=99s status as a credit=
+or is starkly different in the two cases. At Revlon it is poised to seize c=
+ontrol after joining a slim majority of lenders that offered rescue financi=
+ng in May 2020, a deal that left other creditors behind.</p>
+<p style=3D"margin: 16px 0;">At Serta, however, it was among the creditors =
+excluded from a similar emergency financing assembled in June 2020. Now at =
+risk of recovering pennies on the dollar from its investment, Angelo Gordon=
+ and other stranded creditors will try to convince another bankruptcy court=
+ that the majority group violated their rights.</p>
+<p style=3D"margin: 16px 0;">The stances strike some observers as inconsist=
+ent.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt is definitely a bad look to try to=
+ propose an amendment [to a loan contract] that may have left minority lend=
+ers behind, and then complain about lack of good faith when they=E2=80=99re=
+ on the receiving end,=E2=80=9D said Randall Klein, a lawyer at Goldberg Ko=
+hn who specialises in corporate debt.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I mean, compared to what? It would also be a b=
+ad look not to try to get paid as much as they can.=C2=A0=E2=80=9CAngelo Go=
+rdon believes that the technical differences between Revlon and Serta trans=
+actions leave it on the correct side of both, according to court filings an=
+d people familiar with their thinking,=E2=80=9D and, sure, the technical di=
+fferences. The correct side of every deal is the side that gets paid.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDU2MjQzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NDIyODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJ2239f613" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30562430&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Disney</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I think it would be fun to work in some sort o=
+f middle management role=C2=A0at a big public company and also be friends w=
+ith a big scary activist investor. Everyone would have to walk=C2=A0on eggs=
+hells around you just a bit, and if you ever=C2=A0disagreed with your boss,=
+ or if your boss tried to demote you or fire you for something that you did=
+, you could call up your activist buddy to run a proxy fight to get the who=
+le board and=C2=A0management team replaced. =E2=80=9CI was not happy with m=
+y bonus this year so I had my friend take over the company and fire everyon=
+e.=E2=80=9D Just a weird dynamic.=C2=A0</p>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30562430.279853/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDEtMTAvY3J5cHRvLWJhbmtzLW93ZS10aGVtc2VsdmVzLW1vbmV5P2Nt=
+cGlkPUJCRDAyMTUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIzMDIxNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cB4f526ec1" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> talk sometimes</a> about the odd governanc=
+e dynamics of corporate chief executive officers who are also controlling s=
+hareholders: Technically the CEO works for the board, and the board can fir=
+e the CEO, but the board works for the shareholders, and the shareholder-CE=
+O can fire the board. There is a standoff; the corporate hierarchy circles =
+back on itself. This would be like that but weirder. You work for your boss=
+ who works for the CEO who works for the board who works for the shareholde=
+rs who work for you.</p>
+<p style=3D"margin: 16px 0;">You don=E2=80=99t see a ton of it,=C2=A0but he=
+re is <a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279=
+853/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ob3ctbmVsc29uLXBlbHR6LWFuZC1kaXN=
+uZXlzLW1hcnZlbC1jaGllZi10ZWFtZWQtdXAtaW4tcHJveHktZmlnaHQtZmNiMTYwMmY_bW9kPW=
+hwX2xpc3RhX3BvczM/607f07ceef4b8524a319a23cB6687d236" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">a Wall Street =
+Journal story</a> that is a little like that:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Longtime friends Isaac =E2=80=9CIke=E2=80=9D P=
+erlmutter and activist investor Nelson Peltz shared a similar opinion: Walt=
+ Disney Co. was spending too much money.</p>
+<p style=3D"margin: 16px 0;">Mr. Perlmutter, chairman of Disney=E2=80=99s M=
+arvel Entertainment unit, was known to be passionate about cost-cutting and=
+ once demanded that an action sequence in the 2008 movie =E2=80=9CIron Man=
+=E2=80=9D be shot with only three Humvees, instead of the 10 called for in =
+the script. His feuds with Robert Iger during the chief executive=E2=80=99s=
+ first tenure over how to run Marvel=E2=80=99s movie studio caused a rift t=
+hat remains.</p>
+<p style=3D"margin: 16px 0;">Meanwhile, Mr. Perlmutter supported Mr. Peltz =
+and his campaign to get onto Disney=E2=80=99s board and push for significan=
+t changes to Disney=E2=80=99s governance and operations, including cost cut=
+s. Mr. Peltz ended that campaign Thursday after Mr. Iger announced plans to=
+ remove 7,000 jobs and reduce spending by $5.5 billion as part of a reorgan=
+ization plan.</p>
+<p style=3D"margin: 16px 0;">Though Disney didn=E2=80=99t respond to all of=
+ Mr. Peltz=E2=80=99s demands, the commitment to austerity pleased both him =
+and Mr. Perlmutter. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Messrs. Iger and Perlmutter have had a tense r=
+elationship since 2015, when Mr. Perlmutter=E2=80=99s quarrels with current=
+ Marvel Studios chief Kevin Feige over budgets and movie slates grew so int=
+ense that Mr. Iger, then in his first stint as Disney=E2=80=99s CEO, interv=
+ened and removed Mr. Perlmutter as CEO of Marvel=E2=80=99s movie studio, ac=
+cording to people familiar with the matter. Mr. Iger later stripped Mr. Per=
+lmutter of further responsibilities, including control over Marvel=E2=80=99=
+s television shows, heightening the acrimony between them, these people sai=
+d.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Is the story here that Iger, the CEO, demoted =
+Perlmutter, the head of a division, so Perlmutter called in an activist sha=
+reholder to cut Iger down to size? I mean, no, but a little bit? Disney=E2=
+=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.2=
+79853/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE3NDQ0ODkvMDAwM=
+TE5MzEyNTIzMDI1NzY2L2QzNTQ1NjVkZGVmYzE0YS5odG0jdG9jMzU0NTY1Xzg/607f07ceef4b=
+8524a319a23cBd42257f7" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> proxy statement for the Peltz proxy fight</=
+a>, filed last week, does=C2=A0<em>begin=C2=A0</em>the story with Perlmutte=
+r, =E2=80=9Can employee and shareholder of the Company,=E2=80=9D bringing i=
+n Peltz to support Disney=E2=80=99s previous CEO, Bob Chapek.=C2=A0Actually=
+ the paragraph is worth quoting in full:</p>
+<blockquote><p style=3D"margin: 16px 0;">Early in the summer of 2022, Isaac=
+ Perlmutter, an employee and shareholder of the Company, who currently serv=
+es as Chairman of Marvel Entertainment, and previously served as Chief Exec=
+utive Officer of Marvel, called Bob Chapek, then the Chief Executive Office=
+r of the Company, to urge Mr. Chapek to meet with Nelson Peltz, the Chief E=
+xecutive Officer of Trian Management. Mr. Chapek noted that he had business=
+ travel coming up in Paris, France, and thus his schedule near term would n=
+ot work. Mr. Perlmutter responded that Mr. Peltz was vacationing on his yac=
+ht somewhere off the coast of France and so geography would not be an imped=
+iment. Mr. Perlmutter told Mr. Chapek he should have a =E2=80=9Cfriendly lu=
+nch=E2=80=9D with Mr. Peltz in France and it would be a good investment of =
+his time. Mr. Perlmutter=E2=80=99s assistant worked with Mr. Chapek=E2=80=
+=99s office and Mr. Peltz=E2=80=99s office to organize the meeting over a l=
+unch.</p></blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CHey Bob would you like to meet with a=
+ famous activist investor?=E2=80=9D =E2=80=9COooh I=E2=80=99d love to, real=
+ly I would,=C2=A0but I=E2=80=99m gonna be in France, sorry, <em>quel dommag=
+e</em>.=E2=80=9D =E2=80=9CThat=E2=80=99s okay, he=E2=80=99s on a yacht some=
+where off France, he can come to you.=E2=80=9D Imagine being the law firm a=
+ssociate writing that paragraph at midnight in your office. Sounds nice!</p=
+>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Crypto taxes</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The basic proposition of crypto shadow banks l=
+ike Celsius Network Ltd. was:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">You deposit your crypto with Celsius.<=
+/li>=09<li style=3D"margin-bottom: 5px;">Celsius pays you some very high in=
+terest rate on your crypto, <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/30562430.279853/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjItMDEtMjcvY2Vsc2l1cy1zLTE4LXlpZWxkcy1vbi1jcnlwdG8tYXJlLXRlbXB0aW5n=
+LWFuZC1kcmF3aW5nLXNjcnV0aW55P2NtcGlkPUJCRDAyMTUyM19NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxNSZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7ce249f3" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  as much a=
+s 18%</a>, and uses your crypto to make risky bets.</li>=09<li style=3D"mar=
+gin-bottom: 5px;">Celsius loses the money, can=E2=80=99t give you back your=
+ crypto, and goes bankrupt.</li>
+</ul>
+<p style=3D"margin: 16px 0;">I mean, that is not literally the proposition =
+that Celsius <em>advertised</em>, but (1) it=E2=80=99s what happened and (2=
+) it's=C2=A0<em>kind of=C2=A0</em>what it advertised? Like, if you are fina=
+ncially literate, an 18% interest rate on a demand deposit account does=C2=
+=A0<em>mean=C2=A0</em>that they=E2=80=99re going to lose your money?=C2=A0=
+=E2=80=9CEither the bank is lying or Celsius is lying,=E2=80=9D Celsius pro=
+moter Alex Mashinsky <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/30562430.279853/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIw=
+MjItMDEtMjcvY2Vsc2l1cy1zLTE4LXlpZWxkcy1vbi1jcnlwdG8tYXJlLXRlbXB0aW5nLWFuZC1=
+kcmF3aW5nLXNjcnV0aW55P2NtcGlkPUJCRDAyMTUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxNSZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cC7ce249f3" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  famously said</a=
+>, so you had a 50/50 shot of getting it right.</p>
+<p style=3D"margin: 16px 0;">Anyway, there is an obvious problem with this =
+proposition, which is that Celsius loses your money and you don=E2=80=99t g=
+et it back. But there is also another, slightly less obvious problem, which=
+ is that Celsius pays you 18% interest. The problem is that=C2=A0you owe ta=
+xes on that interest, which you can=E2=80=99t pay, because Celsius lost you=
+r money. Bloomberg=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30562430.279853/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDItMTUvYmFua3J1cHQtY3J5cHRvLWxlbmRlcnMtaGl0LWludmVzdG9ycy13aXR=
+oLXRheC1iaWxscy1mb3ItZnJvemVuLWZ1bmRzP2NtcGlkPUJCRDAyMTUyM19NT05FWVNUVUZGJn=
+V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxNSZ1d=
+G1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB3e72ed0f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Claire Ballentine reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Interest earned on bank accounts, certificates=
+ of deposit and corporate bonds is subject to income tax in the year it=E2=
+=80=99s generated, according to the Internal Revenue Service. Typically, th=
+at=E2=80=99s a fairly straightforward process: Banks and other institutions=
+ send out 1099 forms listing the taxpayer=E2=80=99s interest income, which =
+is then used when determining overall obligations for tax season. =C2=A0</p=
+>
+<p style=3D"margin: 16px 0;">But in a quirk of last year=E2=80=99s crypto c=
+ollapse, investors are now receiving tax bills for money locked up on platf=
+orms like Celsius and Voyager Digital, which have frozen customer withdrawa=
+ls as they undergo bankruptcy proceedings.</p>
+<p style=3D"margin: 16px 0;">It could hardly come at a worse time for crypt=
+o investors. Not only have digital asset prices plunged in the wake of FTX=
+=E2=80=99s collapse, but inflation, high housing costs and rising interest =
+rates are also making it more difficult for everyday people to afford regul=
+ar expenses =E2=80=94 let alone taxes on investments they=E2=80=99ve likely=
+ lost.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Paying 18% interest into your account, and the=
+n not letting you withdraw the money from the account, ends up giving you n=
+egative cash flow; you=E2=80=99d have been better off without the interest.=
+=C2=A0In <a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.=
+279853/aHR0cHM6Ly9uZXdzLmJsb29tYmVyZ2xhdy5jb20vYmFua3J1cHRjeS1sYXcvQ2Vsc2l1=
+cy1EZWJ0b3JzLVByb3Bvc2UtTm92YVd1bGYtYXMtQnV5ZXItaW4tU2FsZS1QbGFu/607f07ceef=
+4b8524a319a23cB08365544" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">
+other Celsius news</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Celsius Network Ltd=C2=A0has proposed a plan t=
+hat calls for most users to recover the majority of their assets and allows=
+=C2=A0NovaWulf Digital Management=C2=A0to manage a restructured version of =
+the bankrupt crypto lender.</p>
+<p style=3D"margin: 16px 0;">The proposal calls for Celsius users with less=
+ than $5,000 of crypto tied up in interest-bearing accounts to receive a 70=
+% recovery in the form of liquid digital assets like Bitcoin and Ethereum,=
+=C2=A0court papers=C2=A0show. Those smaller accounts make up most of Celsiu=
+s=E2=80=99s interest-bearing account holders.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Bigger account holders will receive tokenized =
+shares of post-bankruptcy Celsius and an unspecified amount of crypto, cour=
+t papers show. The reborn company =E2=80=94 which will hold its crypto mini=
+ng and illiquid assets =E2=80=94 =C2=A0will be managed by NovaWulf. =C2=A0<=
+/p>
+<p style=3D"margin: 16px 0;">NovaWulf would inject as much as $55 million i=
+nto the new company under the plan, according to court papers. Its incentiv=
+es will be =E2=80=9Cclosely aligned=E2=80=9D with shareholders because of a=
+ profit-sharing arrangement, Celsius advisers said in a slide deck. =E2=80=
+=A6</p>
+<p style=3D"margin: 16px 0;">The plan also calls for Celsius users to reap =
+any benefits of a trust that will sue former Celsius insiders, according to=
+ court papers.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Huge <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30562430.279853/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjMtMDItMTQvdGhyZWUtYXJyb3dzLWdpdmVzLWNyeXB0by1hbm90aGVyLX=
+RyeT9jbXBpZD1CQkQwMjE1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY=
+2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f=
+07ceef4b8524a319a23cBdd4e0a6a" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  growth area</a> in crypto, really,=
+ tokenizing the right to sue the people who made money in the last crypto b=
+oom.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bonus caps</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One of the weirdest cases of unintended conseq=
+uences in financial regulation is that, after the 2008 financial crisis, Eu=
+ropean Union regulators passed rules requiring banks to give their senior e=
+mployees enormous raises. I mean, technically, the rules were designed to=
+=C2=A0<em>cap bonuses:=C2=A0</em>The theory was that banks took on excessiv=
+e risks because their employees were trying to maximize their bonuses, so t=
+he solution was to cap bonuses at, essentially, two times the bankers=E2=80=
+=99 salary. But the very very very very very obvious, yet somehow apparentl=
+y unintended,=C2=A0effect of this rule was to push banks to=C2=A0<em>raise =
+salaries=C2=A0</em>(or offer other sorts of quasi-fixed pay, like =E2=80=9C=
+role-based allowances,=E2=80=9D that don=E2=80=99t count as bonuses), so th=
+at senior employees could still get large paychecks. But now the paychecks =
+are more guaranteed than they used to be: Instead of getting most of their =
+pay from a once-a-year bonus that could be zeroed if things go poorly, seni=
+or European bankers now get a bigger chunk of their pay in regular monthly =
+installments. This is very nice for them! Thanks, regulators!</p>
+<p style=3D"margin: 16px 0;">The UK, having left the EU, is no longer requi=
+red to follow those rules, and is <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30562430.279853/aHR0cHM6Ly93d3cuYmFua29mZW5nbGFuZC5jby51ay9=
+wcnVkZW50aWFsLXJlZ3VsYXRpb24vcHVibGljYXRpb24vMjAyMi9kZWNlbWJlci9yZW11bmVyYX=
+Rpb24/607f07ceef4b8524a319a23cB2a5595dc" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> considering getting rid=
+ of them</a>. At FT Alphaville, Craig Coben points out that <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30562430.279853/aHR0cHM6Ly93d3cuZ=
+nQuY29tL2NvbnRlbnQvMjNjNjJjOWYtYTBjNy00YjU5LWE4MWMtNzVjMDcwZjMxMTQz/607f07c=
+eef4b8524a319a23cB0c5d65f0" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> this will be bad for UK bankers</a>:</=
+p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Contrary to popular belief, most senior dealma=
+kers are risk-averse; they have worked in investment banks for 15, 20 or mo=
+re years. They praise entrepreneurialism more than they practice it. Their =
+priority is to earn enough to maintain the (expensive) standard of living a=
+ssociated with a certain segment of the London professional class. ...</p>
+<p style=3D"margin: 16px 0;">That=E2=80=99s why these bankers appreciate a =
+lifeboat of role-based allowances in case business hits rough seas or a few=
+ deals just don=E2=80=99t go their way. Removing the role-based allowances =
+plunges London bankers into the icy waters of performance accountability.</=
+p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I suppose at the margin that will cause the mo=
+re risk-averse people to leave the banks, and more risk-loving people to jo=
+in? Hmm.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Yes, Elon Musk created a special system for <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aHR0=
+cHM6Ly93d3cucGxhdGZvcm1lci5uZXdzL3AveWVzLWVsb24tbXVzay1jcmVhdGVkLWEtc3BlY2l=
+hbC1zeXN0ZW0/607f07ceef4b8524a319a23cBb20562ae" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> showing you all hi=
+s tweets first</a>. Tesla Investor Gerber Tells EV Maker He=E2=80=99s <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMTQvdGVzbGEtaW52ZX=
+N0b3ItZ2VyYmVyLXRlbGxzLWV2LW1ha2VyLW9mLXBsYW4tdG8tc2Vlay1ib2FyZC1zZWF0P2Ntc=
+GlkPUJCRDAyMTUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdz=
+bGV0dGVyJnV0bV90ZXJtPTIzMDIxNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b=
+8524a319a23cBfbcab7ca" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> Pursuing Board Seat</a>. Elon Musk Nears <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMTUvbXVzay1uZWF=
+ycy13b3JsZC1zLXJpY2hlc3QtdGl0bGUtYWdhaW4tZXZlbi13aXRoLTItYmlsbGlvbi1naWZ0P2=
+NtcGlkPUJCRDAyMTUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZ=
+XdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07cee=
+f4b8524a319a23cBb47146d3" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  World=E2=80=99s Richest</a> Title Again=
+. Elon Musk Gave <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+0562430.279853/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9lbG9uLW11c2stZ2F2ZS0x=
+LTktYmlsbGlvbi1vZi10ZXNsYS1zaGFyZXMtdG8tY2hhcml0eS1sYXN0LXllYXItYWMyYjM0Mzg=
+_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB7c237394" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">$1.=
+9 Billion of Tesla Shares</a> to Charity Last Year. Morgan Stanley <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMTUvbW9yZ2FuLXN0YW5s=
+ZXktcGlja3MtdHJpY2t5LW1vbWVudC10by1ib2xzdGVyLWVzZy1saW5ldXA_Y21waWQ9QkJEMDI=
+xNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdX=
+RtX3Rlcm09MjMwMjE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23c=
+B37daf47e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> Doubles Down on ESG</a> Despite the Politics. Influenti=
+al local US banks fight back against <a href=3D"https://link.mail.bloomberg=
+business.com/click/30562430.279853/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvN2Qz=
+MDU3NTItZTJlZS00MjBkLTg4ODMtNmE5YTI0NjExMGY3/607f07ceef4b8524a319a23cBaf4f8=
+9be" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Republicans=E2=80=99 ESG attacks</a>.=C2=A0<a href=3D"https://=
+link.mail.bloombergbusiness.com/click/30562430.279853/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMTUvY3JlZGl0LXN1aXNzZS1vZmZlcnMt=
+Ym9uZHMtYXQtbW9yZS10aGFuLWRvdWJsZS10aGUtY29zdC1vZi1wZWVycz9jbXBpZD1CQkQwMjE=
+1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG=
+1fdGVybT0yMzAyMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB=
+8c1c9622" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">Credit Suisse</a> Pays Double to Lure Investors to Its Bo=
+nd Offering. Goldman Sachs <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30562430.279853/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMy8wMi8xNS9nb2xkbW=
+FuLXNhY2hzLXNjcmFwcy1pZGVhLWZvci1kaXJlY3QtdG8tY29uc3VtZXItY3JlZGl0LWNhcmQua=
+HRtbA/607f07ceef4b8524a319a23cB5f3ebe81" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> scraps idea</a> for dir=
+ect-to-consumer credit card after strategy shift. Central Bankers in Bunker=
+s Keep <a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.27=
+9853/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMTUvb2=
+5lLXllYXItb2Ytd2FyLWluLXVrcmFpbmUtaG93LWNlbnRyYWwtYmFuay1rZXB0LWZpbmFuY2lhb=
+C1zeXN0ZW0tcnVubmluZz9jbXBpZD1CQkQwMjE1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVt=
+YWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMTUmdXRtX2NhbXBhaWduPW1=
+vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe8a3de06" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  Ukraine=E2=80=99s=
+ War Economy</a> Afloat. Investors Pour Into <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/30562430.279853/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRp=
+Y2xlcy9pbnZlc3RvcnMtcG91ci1pbnRvLWNoaW5lc2Utc3RvY2stZnVuZHMtaW4tcmVvcGVuaW5=
+nLWJldC05NmM4YmM4NT9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cBff=
+03ace0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> Chinese Stock Funds</a> in Reopening Bet. China Stock Slid=
+e Puts Hedge Funds=E2=80=99 <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/30562430.279853/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjMtMDItMTUvY2hpbmEtc3RvY2tzLWluLWhvbmcta29uZy1oZWFkLWZvci1jb3JyZWN0=
+aW9uLWFzLXNlbGxvZmYtZXh0ZW5kcz9jbXBpZD1CQkQwMjE1MjNfTU9ORVlTVFVGRiZ1dG1fbWV=
+kaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMTUmdXRtX2NhbX=
+BhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB947aa65a" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">  Crowded =
+Trade</a> at Risk. <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/30562430.279853/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMj=
+MtMDItMTQvYWRhbmktZ3JvdXAtc2Vlcy1uby1tYXRlcmlhbC1yZWZpbmFuY2luZy1yaXNrLWZvc=
+i1pdHMtY29tcGFuaWVzP2NtcGlkPUJCRDAyMTUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxNSZ1dG1fY2FtcGFpZ249bW9=
+uZXlzdHVmZg/607f07ceef4b8524a319a23cB3619525f" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">  Adani Group</a> To=
+uts Cash Reserves in Bid to Calm Investors.=C2=A0<a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/30562430.279853/aHR0cHM6Ly93d3cud3NqLmNvbS9h=
+cnRpY2xlcy9zdWJ3YXktY29uZmlybXMtaXQtaXMtc2Vla2luZy1idXllcnMtNDE5ZGM5NzQ_bW9=
+kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB1ef38518" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> Subway=
+</a> Confirms It Is Seeking Buyers. <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/30562430.279853/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy92a=
+WNlLW1lZGlhLWdldHMtMzAtbWlsbGlvbi1wbHVzLWxpZmVsaW5lLWZyb20tZm9ydHJlc3MtYXMt=
+YmlsbHMtcGlsZS11cC1hMWJjYjFlZT9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524=
+a319a23cBc60b682e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Vice Media</a> Gets $30 Million-Plus Lifeline F=
+rom Fortress as Bills Pile Up.=C2=A0Swiss Say <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/30562430.279853/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMTUvc3dpc3Mtc2F5LWNvbmZpc2NhdGluZy1ydXNzaW=
+FuLWFzc2V0cy13b3VsZC11bmRlcm1pbmUtbGF3P2NtcGlkPUJCRDAyMTUyM19NT05FWVNUVUZGJ=
+nV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxNSZ1=
+dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB1098a03d" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Confiscating Russian Assets</a> Would Undermine Law. Albanian gangs set u=
+p hundreds of <a href=3D"https://link.mail.bloombergbusiness.com/click/3056=
+2430.279853/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYzFkMTQwODAtOWFlZC00ZjgwLWI=
+2NDItZDgxNTU0ZDJkMGY4/607f07ceef4b8524a319a23cBd604011f" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> spy camer=
+as</a> to keep ahead of police. America's Priciest Neighborhoods Are Changi=
+ng as the Ultra-Rich <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/30562430.279853/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIw=
+MjMtMDItMTQvdGhlLW1vc3QtZXhwZW5zaXZlLW5laWdoYm9yaG9vZHMtaW4tdGhlLXVzLWZyb20=
+tZmxvcmlkYS10by1uZXcteW9yaz9jbXBpZD1CQkQwMjE1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMTUmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB192b3422" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  Move to Flo=
+rida</a>. James Van Der Beek:=C2=A0=E2=80=9CI enjoy working with brands and=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/a=
+HR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wMi8xNS9hcnRzL3BvZGNhc3QtaW5kdXN0cnkt=
+c3BvdGlmeS5odG1sPw/607f07ceef4b8524a319a23cB678956ab" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> I love addin=
+g value</a>.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30562430.279853/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBa70eb7f3" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30562430.279853/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBfc56c89e" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Mostly because not all shareholders vote i=
+n all elections; if you start with 45% of the vote then it=E2=80=99s not li=
+ke anyone else is going to get 46%. In last year=E2=80=99s (uncontested) di=
+rector elections at Purple, about <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30562430.279853/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGd=
+hci9kYXRhLzE2NDM5NTMvMDAwMTIxMzkwMDIyMDE3MTc1L2RlZjE0YTAzMjJfcHVycGxlaW5ub3=
+YuaHRtI1Q5OTUz/607f07ceef4b8524a319a23cBdcc64d4a" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> 67 million share=
+s</a> were eligible to vote, and only about <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30562430.279853/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb=
+2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTY0Mzk1My8wMDAxMjEzOTAwMjIwMjc4MjYvZWExNjAx=
+OTQtOGtfcHVycGxlLmh0bQ/607f07ceef4b8524a319a23cB2a78be77" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> 56 milli=
+on did</a>; getting 45% of the total shares would have been enough to win t=
+he vote.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] For preferred-share-cap reasons similar to=
+ those we <a href=3D"https://link.mail.bloombergbusiness.com/click/30562430=
+.279853/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDI=
+tMDEvYW1jLWhhcy1zb21lLWNsZXZlci1hcGVzP2NtcGlkPUJCRDAyMTUyM19NT05FWVNUVUZGJn=
+V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxNSZ1d=
+G1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cC6513909f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  discussed in AMC</a>.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBe8c02a2e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB2ad0f9fd" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBe3efb76e" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB8fcb872b" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDU2MjQzMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4NDIyODMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cK2de58256" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30562430&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB75c1c1b8" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30562430.279853/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC05050aa5" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30562430.279853/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBc625253b" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30562430.279853/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB01b06380" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB7=
+33255be" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30562430.279853/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB6=
+d24eba8" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D305624=
+30&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D305624=
+30&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D305624=
+30&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D305624=
+30&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D305624=
+30&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30842283&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci724e.5zxp/20e2ec3a.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_23360243_1283098747.1676486934408--
+

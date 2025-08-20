@@ -1,0 +1,23 @@
+# Simple rules for healthy eating kottke.org
+
+**URL:** http://kottke.org/15/04/simple-rules-for-healthy-eating
+**Date:** 2015-04-20 19:54:44
+
+---
+
+# Simple rules for healthy eating
+
+Unknown author • Unknown date 
+
+![Simple rules for healthy eating](http://kottke.org/images/2024/icons/57x57.png)
+
+Simple rules for healthy eating  
+  
+From pediatrics professor Aaron Carroll, a list of guidelines for sensible & healthy eating.  
+  
+1\. Get as much of your nutrition as possible from a variety of completely unprocessed foods. These include fruits and vegetables. But they also include meat, fish, poultry and eggs that haven’t been processed. In other words, try to buy food that hasn’t been cooked, prepared or altered in any way. Brown rice over white rice. Whole grains over refined grains. You’re far better off eating two apples than drinking the same 27 grams of sugar in an eight-ounce glass of apple juice.  
+  
+What’s more interesting than the guidelines is the admission up front that they’re not supported by rigorous science…and neither is nutrition in general. In the absence of science, “everything in moderation” seems to be the recommended course. (via @jimray)  
+  
+Update: Julia Belluz recently interviewed Surgeon General1 Vivek Murthy for Vox and within, Murthy shares his four basic rules for health: 
+

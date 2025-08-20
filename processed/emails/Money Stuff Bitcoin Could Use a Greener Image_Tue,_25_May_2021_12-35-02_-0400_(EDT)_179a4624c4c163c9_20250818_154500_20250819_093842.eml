@@ -1,0 +1,1650 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:ca10:0:b029:f7:875:abe8 with SMTP id z16csp3944983lkq;
+        Tue, 25 May 2021 09:36:16 -0700 (PDT)
+X-Received: by 2002:a17:906:2e82:: with SMTP id o2mr30371126eji.388.1621960576419;
+        Tue, 25 May 2021 09:36:16 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1621960576; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=jSTNLVTvJFDfuhPfyFpQTrk7Jjf19Ool/tJOLQWJTGHk/HfjuLudthdF05qXXU6stH
+         XFQyLaYRfcSdnxxMylnXL3WmAkNc9GiTsd50rlos+YHHmFY7/zsQBLTJHSrvwLJb2+6G
+         OKKcA9ARRlVUBlyExRuzwzOcs/AV7Me7NhZXnZ2vKdSHfOWbZIDvpsbUd3ScNqNXBYtd
+         zuETYXxI9lR8HtDcbsijUjp3+Wux+Y+n+lj87B9LZjRwdIQojfTEm6fCXKl/zSg5E1Ta
+         VqNqvYLK6ttj9wk8jH1gCmw6KdGOJCOTmAeT+qkgY/MkriRO6L7DoR/GasspyAT3MWOD
+         YZ/g==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=LwRE6wQ7L3M0s38hjIF3VZgIBf//6LXfY24i1UvE3AM=;
+        b=D0Wobjk+mFCRV/j4h3J8GbZEXL5DCdkA/h9YYh75AQtOzFmoSHQM/EggsXp84XLXx4
+         CdyP9mQJU2Fu9u1N7IGh678khAsE7HE68f7huyFsUcHmaX83a5q4DdXsq41YIncNV7x/
+         CvgHXOFq3zk+gzjDv1xq4bC4DegnKpfCRZrceW0ovX3z7vItDdNRjeZbY0oCcHB1TeO2
+         fmBOxA1ObpiO1POCSETYjwMMpLiGML9yLX4WcTyHPio6iYED0IWCXdCSDKS9m6eZDNAf
+         fRMANaSW403NiXVDU/QkgRFxvi/G4pN9K0o6tDuaxMYuwcpdvEo65JjaczRZfUFMGNLz
+         2Teg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HbyqHNfD;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id ky5sor10547622ejc.47.2021.05.25.09.36.16
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 25 May 2021 09:36:16 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HbyqHNfD;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=LwRE6wQ7L3M0s38hjIF3VZgIBf//6LXfY24i1UvE3AM=;
+        b=KO8og2ik2af861XdnbxepQNY2By52zMcLs+W7bzk/8vpozyEeWOeIttbwq0m9Xi58m
+         QpaGXqbcuRXEVkGL/pUVAtjOCU9zC3OfMgTd0vwotPPh6UrVMu1EArPL4bTHoFIMnZxN
+         c2Ng7t5G/J/cX3EkItDUpHNBIZii41WMP9mqRekHx+aaaVmSuS1Z70yCAcGuLrs66UwP
+         QTR2PLlbhA2nQfy55OHC+9LDx00NKKUyFkOXB8tczGqGA6YJybsrNsphHmizVnkoXFtQ
+         MYbBR3whyh0noCEfaovquwc7vC/AWZLCHCIV0qd84T8/XqDf5DwH83Sxar+amEYyUoGG
+         oGlQ==
+X-Gm-Message-State: AOAM5306gehSa9sHsyQYtLf4L/sDbNpej88bdCgE8DbcQaQIna76MQ+E
+	uVy9Vve5/cxjkbDnGmjJlf9TR0t5EKFHFAe682fakxHfGrQwmuMUvQ==
+X-Received: by 2002:a17:906:26db:: with SMTP id u27mr4789850ejc.532.1621960576163;
+        Tue, 25 May 2021 09:36:16 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:238d:0:0:0:0:0 with SMTP id g13csp805908eco;
+        Tue, 25 May 2021 09:36:13 -0700 (PDT)
+X-Received: by 2002:a6b:fb0f:: with SMTP id h15mr20648588iog.24.1621960572720;
+        Tue, 25 May 2021 09:36:12 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1621960572; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=FsGXIsdvSZz8yd1UGq+qtgGepOqpBTRTD8jevQUTtjeY8yJjKTy+eZ8nh2EuQF2UYe
+         YbdDWblf2tRgav02PNgFMaKvYH3uS7XfeW/UlpyvASU4QRzQytVxpdKDKelYyGo5TOvX
+         gAE9+Kv3SmGmMM33/vBabLZgvlRyG0TtFbr0BGHhS4dv9E2VOertiPBZKJFZHfcdueAs
+         KluxhrXJvswY9r1MZ+8gPcZt0XCMFP0D8hf3hlYx0S0i/ChXVvKgGg2qVO1417c8pwek
+         HwF2BuE6okScMgxafNvKEsej0PC/cpqhb4zzuZz2o22LdqMb4hzqnyVEsdh4UqlzBxcM
+         oogQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=LwRE6wQ7L3M0s38hjIF3VZgIBf//6LXfY24i1UvE3AM=;
+        b=ehLFxH/OR3nYqvtY9Y3i1dhfBllXwrHh5nMQHTCgWTpvdCqRsx043OlarC+pdwBJ6o
+         o3kaFKbTeoxH3RITE8M1LRs/KeuJFR/bS2EvmkNJDaccsfc6PD13E4q5s362l9LsR5Jb
+         M38CaiZKSQ1RlBf4Rnyxn9NudC65klabCzA6a+EEUR5mXH6mc2Y2RumtHzG48TwKHILw
+         kP5KE0fK97FS2D3GhAuotnPNytHulBJ3qn32VYzMiApWLp1F1tqd2vgGOVfIv7DXcWue
+         DDrZaRR6SaWgRvRtekf/+J7KviNqMhevpW+vP3mtAq+1zG1u5+vkYgm9NLgjyOuFiDw4
+         kBRA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HbyqHNfD;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210525123502.23957730.264950@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210525123502.23957730.264950@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210525123502.23957730.264950@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m10sor19040284ilj.97.2021.05.25.09.36.12
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 25 May 2021 09:36:12 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210525123502.23957730.264950@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxkFaaUk9vVVEYuFRsP4TrLDZ+LamrE5QsxPSAm7Pd8fxsuVBohHYBHQvpwsbMGG+mNJY0UrYK3Hc9kgb2Y3VZ+ig4EByI=
+X-Received: by 2002:a05:6e02:ed2:: with SMTP id i18mr22187122ilk.22.1621960572289;
+        Tue, 25 May 2021 09:36:12 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1621960572; cv=none;
+        d=google.com; s=arc-20160816;
+        b=FIVc8jV7/HN+MkzVyFs+6XWO6kCBQze55VIUPQDqovHvQsxMCfmI0PqajHPrwNyNlD
+         7mGuTyQURJ0X9OwPyTVFjxbPW2A1+EKjrOnwLSWOCb4fs9PDVLmL7o0meuxa8TEaDMRR
+         MIZFWmkZVi+pMO/+iBy7ES6e9xFS0oicz1h3pwMu56cib+ej50HacyIwFBdS+Y3fTmJq
+         Jej4r/tMOgJ7ot4sp5JMM6pkHvTor+tm1t76JIDgHBPWBwiApJ7NpFkzFW1M4v1TKrAl
+         EHLQM88G78SvXNVupP9Gu7H8efZJ/V+H+tn3Vv0f92txgsaTHwmiA6Jqvd48r59gi090
+         mx7w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=LwRE6wQ7L3M0s38hjIF3VZgIBf//6LXfY24i1UvE3AM=;
+        b=eRLm7NegH4wPtgfZt97y4BjB7N97GUb07/i0oLZgkTzPABmfQpTeT4xzEoOaegLV3v
+         XaR3o6kDVBIzX8HgNfijpyi2xsoBDOo0RwbbxL8tFMTgVoIFjqKG8WXmQkFHrLOyyy/S
+         Q3NmNodbEZxahZ4FAWCyN9JrOmq+i0VslzqCONaUKFxeRqTWrapTaBFmlpRF4tKubTW2
+         mTbHT6kduHfw+vwORYnyNKB8hY3RSwzqsYXoRC7coAL7o570mtLF0aNxvHO3SnWMvVB5
+         3+vMviqzYgksffN24agcPZsQ4b5cbHNC9dsOUUR3bV32aYJO5prrLzVjBlzB72AAe8ro
+         +r+A==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HbyqHNfD;
+       spf=pass (google.com: domain of delivery_20210525123502.23957730.264950@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210525123502.23957730.264950@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210525123502.23957730.264950@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id r20si2788910ilj.3.2021.05.25.09.36.12
+        for <khamel83@gmail.com>;
+        Tue, 25 May 2021 09:36:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210525123502.23957730.264950@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=In89Irqj8+je98nthIbNmjz/ibU=;
+ b=HbyqHNfDkeYeV47MzDiSjn/tyOxJaRhV5P/NmiKr85nLeMu767Jc9SwWTTxdl7ZUp+75TGJjTXXf
+   Jh+l5H5E1/ghJFFAuDjuSIdjySfXLepKu/hTLY8joAapRDxFv6FJWLi6iDsQa2ODkuJYwsDEu+R7
+   lidBofkEX9D6jQaSFFk=
+Received: from njmta-90.sailthru.com (173.228.155.90) by bloomberg-b.sailthru.com id hlkjno1qqbsq for <bloomberg@khamel.com>; Tue, 25 May 2021 12:36:11 -0400 (envelope-from <delivery_20210525123502.23957730.264950@mx.sailthru.com>)
+Received: from nj1-heypurple.flt (172.18.20.12) by njmta-90.sailthru.com id hlkjnm1qqbsk for <bloomberg@khamel.com>; Tue, 25 May 2021 12:35:02 -0400 (envelope-from <delivery_20210525123502.23957730.264950@mx.sailthru.com>)
+Date: Tue, 25 May 2021 12:35:02 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210525123502.23957730.264950@sailthru.com>
+Subject: Money Stuff: Bitcoin Could Use a Greener Image
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_85547248_1471515031.1621960502055"
+Precedence: bulk
+X-TM-ID: 20210525123502.23957730.264950
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-heypurple.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce9hwi.5ofq/63ae7960
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce9hwi.5ofq/63ae7960>, <mailto:unsubscribe_20210525123502.23957730.264950@mx.sailthru.com>
+X-rpcampaign: stjko23957730
+
+------=_Part_85547248_1471515031.1621960502055
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+ =20
+ =20
+  Money Stuff
+ =20
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+     =20
+     =20
+ =20
+   =20
+      The magical Elon money machineSo obviously  this is a story about  El=
+on Musk=E2=80=99s=C2=A0magic lamp that makes the price of Bitcoin go up and=
+ down:Bitcoin traded lower on Tuesday as prices pulled back from a double-d=
+igit percentage rally, stoked in part by Elon Musk=E2=80=99s effort to bols=
+ter the token=E2=80=99s green credentials on Twitter.The largest digital cu=
+rrency slipped as much as 6.5% to $36,494 in New York, following a 16% jump=
+ on Monday. The wider Bloomberg Galaxy Crypto Index and tokens including Et=
+her also dropped.The Tesla Inc. CEO has roiled the token=E2=80=99s price th=
+is month, triggering a selloff by criticizing its energy profile and suspen=
+ding Bitcoin payments. Heightened regulatory rhetoric on cryptocurrencies f=
+rom China also pressured the sector.=E2=80=9CIf the market continues to see=
+ wild swings based on Elon Musk tweets, it=E2=80=99s going to be a big set =
+back for this asset class,=E2=80=9D said Matt Maley, chief market strategis=
+t for=C2=A0Miller Tabak + Co.=C2=A0=E2=80=9CThe fact that it sees such wild=
+ swings to the tweets from one person takes away the legitimacy of the asse=
+t class.=E2=80=9DFine, yes, in 2021 the main fact about Bitcoin is that Elo=
+n Musk decides whether its price goes up or down. Does that =E2=80=9Ctake a=
+way the legitimacy of the asset class=E2=80=9D? Man, look around; =E2=80=9C=
+legitimacy=E2=80=9D is a weird thing to be worried about. I would say that =
+it=E2=80=99s=C2=A0interesting=C2=A0to have a trillion-dollar asset class th=
+at is like =E2=80=9Cone guy will think of a number and your asset will be w=
+orth that number.=E2=80=9D That really is a novel experiment in finance! I =
+feel like we should give it some more time and see how it goes.=C2=A0But it=
+ strikes me that this is also a story about how environmental, social and g=
+overnance (ESG) investing often works. In 2021 the other important fact abo=
+ut Bitcoin is that  miners use a lot of electricity to keep its ledger secu=
+re, and this fact has formed the pretext for a number of Musk=E2=80=99s rec=
+ent tweets telling the price to go up or down:Pledges to make the industry =
+more green have picked up since Musk=E2=80=99s criticisms. Several miners j=
+oined the Crypto Climate Accord, a private-sector initiative to decarbonize=
+ the crypto industry by 2030.Musk and Michael Saylor, another long-time Bit=
+coin booster, tweeted Monday that they had held a call with major North Ame=
+rican miners, including Michael Novogratz=E2=80=99s Galaxy Digital and publ=
+icly traded Hut 8 Mining Corp., to discuss =E2=80=9Cenergy usage transparen=
+cy.=E2=80=9DSaylor said the group agreed to form the Bitcoin Mining Council=
+ =E2=80=9Cto standardize energy reporting.=E2=80=9DMusk and Saylor=E2=80=99=
+s initiative to make Bitcoin =E2=80=9C=E2=80=98greener=E2=80=99 bodes well =
+for ESG narrative and institutional adoption,=E2=80=9D David Grider, strate=
+gist at Fundstrat Global Advisors LLC, wrote in a note.At the same time, it=
+ will take years for many of the largest miners to recalibrate where they s=
+ource their energy.What does that mean? Well, consider that many=C2=A0big E=
+SG funds invest in oil and gas companies. If you are interested in reducing=
+ the climate impact of your investments and investing only in environmental=
+ly sound companies, you can buy an ESG fund that buys=C2=A0the most environ=
+mentally friendly oil companies.[1] And then your clients will say =E2=80=
+=9Cwait doesn=E2=80=99t drilling for oil contribute to climate change=E2=80=
+=9D and you will say =E2=80=9Cthat=E2=80=99s not the point, the point is th=
+at the way these companies drill for oil is slightly better than the way th=
+ose other companies drill for oil, and they have committed to become carbon=
+-neutral=C2=A0in the far future.=E2=80=9D=C2=A0That is important, because, =
+for various reasons (particularly: to track broad indexes with minimum erro=
+r), big ESG-focused investors often want to buy oil companies. If you can f=
+ind a way to buy oil companies and call it ESG, there=E2=80=99s a good busi=
+ness there. And people have, and the way is:=09Make the environmental impac=
+t of each oil company somehow legible and quantifiable.=09Focus on the oil =
+companies that are relatively=C2=A0better on these legible metrics: They co=
+ntribute less to climate change than their peers, or at least they are=C2=
+=A0reducing=C2=A0their climate impact over time.=09Categorize oil companies=
+ as=C2=A0a sector that every investor needs exposure to, so that ESG funds =
+ can say =E2=80=9Cwe offer investors similar risk and returns that they wou=
+ld achieve in broad market indexes while including the highest ESG-rated co=
+mpanies in each sector.=E2=80=9DSimilarly here the trade is to make Bitcoin=
+=E2=80=99s energy consumption and sources, and its climate impact, legible,=
+ by =E2=80=9Cstandardizing energy reporting.=E2=80=9D Then you (Tesla, inst=
+itutional investors, etc.) buy Bitcoin. And then when people complain about=
+ Bitcoin=E2=80=99s environmental impact, now you have tools to reply. You c=
+an say things like =E2=80=9Cyes but we enforce rigorous energy usage transp=
+arency standards=C2=A0and only buy Bitcoins artisanally=C2=A0sourced from h=
+ydroelectric plants,=E2=80=9D[2] or =E2=80=9Csure Bitcoin uses a lot of ene=
+rgy but so does the S&P 500, and Bitcoin has reduced its use of coal power =
+2.7% this year,=E2=80=9D[3] or whatever. You have transformed a vague and o=
+minous problem =E2=80=94=C2=A0=E2=80=9Cit seems like Bitcoin maybe uses a l=
+ot of dirty electricity to make an abstract asset?=E2=80=9D =E2=80=94=C2=A0=
+into a peppy solution =E2=80=94=C2=A0=E2=80=9Cour investment in Bitcoin is =
+helping make it cleaner.=E2=80=9D The absolute problem persists =E2=80=94=
+=C2=A0miners use a lot of electricity to mine Bitcoin =E2=80=94=C2=A0but yo=
+u have turned the=C2=A0conversation to relative improvements in the problem=
+.[4]Of course this only works=C2=A0if you accept the premise that Bitcoin i=
+s an important asset class, that an investor should be finding the cleanest=
+ way to buy Bitcoin rather than avoiding it altogether.[5] (=E2=80=9CYou al=
+most never hear anyone complaining about how much electricity refrigerators=
+ use,=E2=80=9D Joe Weisenthal wrote the=C2=A0other day, because everyone ac=
+cepts that refrigeration is important.) If your policy is =E2=80=9Cwe inves=
+t in every asset class in the most environmentally sensible way,=E2=80=9D a=
+nd someone comes to you and says =E2=80=9Chey we have invented a new asset =
+class, it is burning a ton of coal and keeping track of how much coal we=E2=
+=80=99ve burned and paying each other for it,=E2=80=9D your initial inclina=
+tion might be to say =E2=80=9Cwait that's not an asset class, that=E2=80=99=
+s just burning coal, we don=E2=80=99t want any of that at all.=E2=80=9D But=
+ once it=E2=80=99s worth a trillion dollars, sure, you have to figure out t=
+he most environmentally friendly way to buy some.Bitcoin ETF-of-ETFsOne sim=
+ple model of exchange-traded funds is that they are a way to invest without=
+ paying taxes until you=E2=80=99re done investing. Here=E2=80=99s how regul=
+ar traditional=C2=A0investing works:=09You have money that you don=E2=80=99=
+t need now but will need in 20 years to pay for your kids=E2=80=99 college =
+or whatever.=09You buy some assets.=09You change the assets from time to ti=
+me: Some things go up and you sell them, or buy more; other things go down =
+and you sell them, or buy more. You have a target allocation of X% to Thing=
+ A and Y% to Thing B and Z% to Thing C, but=C2=A0if Thing A goes up a lot c=
+ompared to Things B and C then you will have more than X% of it and you=E2=
+=80=99ll have to sell some. Also over time your target allocations might ch=
+ange, etc.=09Every time you sell an asset for a profit, you pay taxes on th=
+e gains.=09In 20 years you sell all of the assets, pay taxes on whatever ga=
+ins you haven=E2=80=99t already paid taxes on, and use the money to pay for=
+=C2=A0college or whatever.Step 4 is the bummer here: You keep paying taxes =
+along the way, because you have taxable gains. It might=C2=A0feel, to you, =
+like you don=E2=80=99t: From your perspective, you put in money in=C2=A0Ste=
+p 1 and take it out in Step 5, and you only get to enjoy the gains in Step =
+5; any gains in Steps 3 and 4 are just part of the investing process, not i=
+ncome that you were planning to spend. But the tax law says that if you sel=
+l an asset for a gain you pay taxes on it, even if you are planning to rein=
+vest and aren=E2=80=99t ready to pay for college or whatever yet.If you inv=
+est via mutual funds, instead of by buying stocks and bonds directly, the p=
+rocess is the same. In fact in some ways mutual funds are worse because=C2=
+=A0they=C2=A0buy=C2=A0and sell=C2=A0stocks and bonds over time, not just to=
+ rebalance their portfolios but also to deal with redemptions by other inve=
+stors, and their sales can incur taxes that you have to pay.=C2=A0If you in=
+vest via ETFs, though, it=E2=80=99s different.=C2=A0U.S. tax law=C2=A0allow=
+s ETFs to adjust their holdings without incurring any taxes. (This oversimp=
+lifies. We talked more about the mechanisms in the  =E2=80=9CHeartbeats=E2=
+=80=9D section here; they involve =E2=80=9Cauthorized participants=E2=80=9D=
+ doing in-kind trades where they exchange the underlying assets for shares =
+of the ETF in tax-exempt transactions.) So the way an ETF works is roughly:=
+=09You have money that you don=E2=80=99t need now but will need in 20 years=
+ to pay for your kids=E2=80=99 college or whatever.=09You buy shares in an=
+=C2=A0ETF, which holds some underlying assets.=09The ETF changes the assets=
+ that it holds from time to time.=09But you don=E2=80=99t pay taxes when th=
+at happens.=09In 20 years you sell your ETF shares, pay taxes on any gains =
+(what your ETF shares are worth minus what you paid for them), and use the =
+money to pay for college or whatever.This is much neater. You pay taxes onl=
+y at the end, when you have gains you can enjoy. I am somewhat exaggerating=
+ the benefits here, because most ETFs are specific to some asset class or s=
+ector. So you might buy a Stocks ETF and a Bonds ETF, and as stocks go up y=
+ou will sell some of the Stocks ETF and buy more of the Bonds ETF, and that=
+ will incur taxes just as if you=E2=80=99d sold some stocks and bought some=
+ bonds. (On the other hand the Stocks ETF can get rid of some stocks and ad=
+d other stocks=C2=A0without=C2=A0incurring taxes.)But in principle you coul=
+d have an ETF that is like the=C2=A0Everything You=E2=80=99ll Ever Need ETF=
+, and it does all of the rebalancing for you, without you ever paying taxes=
+ until you sell. In practice, you probably won=E2=80=99t find exactly the E=
+verything You Specifically Will Ever Need to Pay for College in 20 Years ET=
+F, but there are Giving You Some Target Allocation to Stocks and Bonds and =
+Rebalancing Periodically ETFs that sort of gesture in this direction.It is =
+kind of a weird feature of the ETF industry and the U.S. tax code that this=
+ works, but it does. I  once wrote:My view of the situation is not only tha=
+t =E2=80=9Can ETF is a mutual fund that doesn=E2=80=99t pay taxes,=E2=80=9D=
+ but also that everyone accepts that. There just seems to be broad agreemen=
+t among investors and regulators and policymakers that an ETF is supposed t=
+o be tax-efficient, that ETF investors get to defer capital gains until the=
+y sell their shares.Anyway. People want a Bitcoin ETF, a pot of investor mo=
+ney that will go out and buy Bitcoins. Why do they want this?=C2=A0Not=C2=
+=A0for the tax efficiency; a Bitcoin ETF =E2=80=94=C2=A0a pot that buys Bit=
+coins =E2=80=94=C2=A0is not especially tax-efficient for its holders. (If y=
+ou buy Bitcoin directly and it goes up, you pay taxes when you sell; the sa=
+me is true if you buy shares of=C2=A0a Bitcoin ETF.) They want a Bitcoin ET=
+F because, for a lot of investors, holding Bitcoins in the form of an ETF i=
+s nicer and safer and easier than  holding Bitcoins in the form of Bitcoins=
+. You might trust the traditional financial system =E2=80=94=C2=A0your brok=
+er and the ETF provider and its custodian =E2=80=94 to hang onto your Bitco=
+ins=C2=A0more than you trust a Bitcoin exchange or your own ability to  rem=
+ember your private key. You might prefer to trade on the stock exchange rat=
+her than on a Bitcoin exchange. Other people might disagree, of course, but=
+ it seems clear there is a lot of institutional and retail demand for this =
+sort of thing.So people keep applying to list Bitcoin ETFs, and the U.S. Se=
+curities and Exchange Commission keeps saying =E2=80=9Chmmm I dunno about t=
+hat.=E2=80=9D The SEC is skeptical of Bitcoin ETFs for reasons having to do=
+ with volatility and liquidity and transparency in the underlying markets. =
+Meanwhile there is a U.S. exchange-listed thing that provides Bitcoin expos=
+ure, the Grayscale Bitcoin Trust, a closed-end fund that owns Bitcoin but d=
+oes not have a standard ETF arbitrage mechanism and so often trades at a pr=
+emium or discount to its net asset value. If you want to buy Bitcoin on a U=
+.S. stock exchange, Grayscale is an approximate way to do it, and people do=
+; it now has about $23.8 billion of assets under management.But what if you=
+ wanted a Bitcoin ETF specifically for tax efficiency? You might want to al=
+locate 10% of your portfolio to Bitcoin. So you might go out and buy $100 o=
+f Bitcoin and $900 of stocks, or whatever. Then the next day Bitcoin double=
+s and stocks go up a bit and you have $200 of Bitcoin and $901 of stocks. G=
+reat news! But to get back to 10% you have to sell $90 of Bitcoin, at a pro=
+fit, giving you a taxable gain. Now you have, say, $991 of stocks, $110 of =
+Bitcoin, and a $30 tax bill. The next day Bitcoin falls by 50% and stocks g=
+o up a bit and you have $55 of Bitcoin and $992 of stocks. Now you have to =
+sell some stocks (at a tiny gain) to buy more Bitcoin, and your tax bill go=
+es up. Every wild swing of Bitcoin=E2=80=99s price =E2=80=94=C2=A0of which =
+there are a lot =E2=80=94=C2=A0is a tax event for you if you are trying to =
+remain balanced.Obviously lots of investors will=C2=A0not=C2=A0want to rema=
+in balanced, and if Bitcoin keeps going up they will be perfectly happy to =
+have a growing allocation to Bitcoin until they cash out to buy Lamborghini=
+s (and pay taxes). But part of the mainstream adoption and normalization of=
+ Bitcoin will be fitting it into the balanced-portfolio strategies of borin=
+g traditional investors.=C2=A0Plop the strategy into an ETF and the problem=
+ should=C2=A0go=C2=A0away.[6] Here is the proposed Simplify U.S. Equity PLU=
+S GBTC ETF, and here is a description from Simplify=E2=80=99s chief strateg=
+ist:By offering an exposure equal to 100% of U.S. Equities plus a 10% addit=
+ional allocation to the underlying asset in the Grayscale Bitcoin Trust (GB=
+TC), an advisor can select an allocation that matches the desired risk tole=
+rance of clients while eliminating the need for the [advisor] to buy and se=
+ll the exposures to maintain a stable allocation to GBTC. Simplify manages =
+the portfolio by rebalancing quarterly to maintain a more consistent risk p=
+rofile in the client account; by doing so within an ETF structure, issues o=
+f tax calculation, withholding, and reporting are radically simplified for =
+US investors. Given the much higher volatility of the Grayscale Bitcoin Tru=
+st versus the S&P500, this is not a trivial benefit =E2=80=A6.It=E2=80=99s =
+an S&P 500 index ETF plus some Grayscale, rebalanced quarterly. If you hear=
+ =E2=80=9CBitcoin ETF=E2=80=9D and think =E2=80=9Ca way to buy Bitcoin on t=
+he stock exchange without the annoyance of direct Bitcoin investing or the =
+tracking error of Grayscale,=E2=80=9D this is not what you want: This thing=
+ is mostly=C2=A0not Bitcoin=C2=A0(it=E2=80=99s mostly an S&P 500 index fund=
+), and to the extent it is Bitcoin it=C2=A0incorporates Grayscale=E2=80=99s=
+ tracking error.[7] On the other hand if you hear =E2=80=9CBitcoin ETF=E2=
+=80=9D and think =E2=80=9Ca way to invest in Bitcoin but without paying tax=
+es along the way=E2=80=9D then this is closer to what you want, because dee=
+p down that=E2=80=99s often what ETFs are.=C2=A0TaxisWe talk a surprising a=
+mount around here about the fact that, when investors and analysts talk to =
+the managers of companies, their investment decisions=C2=A0and analyses are=
+ better. When a mutual fund manager meets with a company and then buys its =
+stock,=C2=A0the stock is  more likely to go up than if she bought it withou=
+t meeting with the company. Or, when a sell-side research analyst meets wit=
+h a company and then issues an earnings forecast, that forecast is more lik=
+ely to be right than if she issued it without meeting with the company.=C2=
+=A0On the one hand, how could it not work this way? These people are busy p=
+rofessionals; they would not bother meeting with companies if it did not he=
+lp with their work.[8] Companies are complicated;=C2=A0having a nuanced fac=
+e-to-face discussion and being able to ask questions will add insight that =
+you can=E2=80=99t get from public information. Both investing and corporate=
+ management are mostly about the future; you can learn more about the compa=
+ny=E2=80=99s future from talking to its managers about their plans than you=
+ can from its backward-looking financial statements and heavily lawyered pu=
+blic filings.On the other hand, how can it=C2=A0work this way? In the U.S.,=
+ Regulation FD says that companies are not supposed to share material nonpu=
+blic information with analysts or investors unless they simultaneously disc=
+lose it publicly. Regulators pay a lot of lip service to the idea of a leve=
+l playing field for investors, in which everyone has access to the same inf=
+ormation at the same time. But some investors and analysts get to meet with=
+ the executives of public companies, and others don=E2=80=99t, and if those=
+ meetings are helpful then the playing field is not level. Also if those me=
+etings are helpful then they are arguably illegal: =E2=80=9CHelpful=E2=80=
+=9D arguably means the same thing as =E2=80=9Cmaterial,=E2=80=9D=C2=A0and i=
+f companies are giving out material information in these meetings then they=
+=E2=80=99re breaking the rules.We  talked in March about a U.S. Securities =
+and Exchange Commission enforcement action against AT&T Inc. for allegedly =
+calling up sell-side research analysts and getting them to update their ear=
+nings forecasts. Talking to AT&T helped those analysts make better forecast=
+s, exactly as you=E2=80=99d expect, but the SEC concluded it was illegal, a=
+s you might also expect.=C2=A0(AT&T disagreed.) Or I have  frequently  quot=
+ed=C2=A0Justice Sonia Sotomayor, during a Supreme Court argument about insi=
+der trading, saying =E2=80=9Cthere=E2=80=99s regulations to stop that, talk=
+ing to analysts.=E2=80=9DSo while it=E2=80=99s the most obvious thing in th=
+e world, hardly worthy of comment, that investors and analysts talk to comp=
+anies and learn things, it is also a scandal,=C2=A0an awkward thing to say =
+in polite company, something that the U.S. legal establishment can=E2=80=99=
+t quite believe. So I=E2=80=99m always happy to mention empirical confirmat=
+ions of this obvious fact.Here=E2=80=99s a fun one:This study constructs a =
+novel measure that aims to capture face-to-face private communications betw=
+een firm managers and sell-side analysts by mapping detailed, large-volume =
+taxi trip records from New York City to the GPS coordinates of companies an=
+d brokerages. Consistent with earnings releases prompting needs for private=
+ communications, we observe that daily taxi ride volumes between companies =
+and brokerages increase significantly around earnings announcement dates (E=
+AD) and reach their peak on EAD. After controlling for an extensive set of =
+fixed effects (firm-quarter, analyst, and year) and other potential confoun=
+ding factors, we find that taxi rides undertaken around EAD are negatively =
+associated with analysts=E2=80=99 earnings forecast errors in periods after=
+ EAD. Analysts having more taxi trips around EAD also issue more profitable=
+ recommendations after EAD (but these effects dissipate over longer horizon=
+s). Our results suggest that analysts may obtain a private source of inform=
+ation orthogonal to their pre-existing information from these in-person mee=
+tings, which may help them better understand the implications of current ea=
+rnings signals for future earnings.That=E2=80=99s the abstract to =E2=80=9C=
+Inside the Black Box of Private Communications: Evidence From Taxi Ride Pat=
+terns Between Managers and Analysts in New York City,=E2=80=9D by Stacey Ch=
+oy and Ole-Kristian Hope of the University of Toronto=E2=80=99s Rotman Scho=
+ol of Management. The New York Taxi and Limousine Commission releases data =
+on taxi trips with a six-month lag. You can map where in New York sell-side=
+ research analysts work, and you can map the headquarters of the New York-b=
+ased public companies that their brokerages cover, and you can count the ta=
+xi rides between the brokerages and the companies. The taxi rides increase =
+around earnings:Consistent with earnings releases prompting a need for priv=
+ate communications, we find that ride volumes increase significantly around=
+ EAD and reach their peak on the day of the earnings announcement. The incr=
+ease is economically meaningful; the weekly mean of ride volumes around EAD=
+ increases by 7.2% compared to four weeks before EAD. Moreover, consistent =
+with taxi rides capturing sell-side analysts=E2=80=99 activities, we find t=
+hat the magnitude of increases in ride volumes between a company and broker=
+ is significantly greater for brokers having analyst coverage of companies =
+than for those without such coverage.And they are correlated with better ea=
+rnings forecasts:Consistent with our prediction, we find that private meeti=
+ngs around EAD are significantly negatively associated with analysts=E2=80=
+=99 earnings forecast errors issued in the post-EAD period. These findings =
+are based on multivariate regressions that control for an extensive set of =
+fixed effects, including firm-quarter, analyst, and year fixed effects, as =
+well as a number of time-varying controls, making the possibility of correl=
+ated omitted variables less likely. The decreases are also economically mea=
+ningful; a one standard deviation increase in taxi ride volumes is associat=
+ed with a 10% decrease in forecast errors for an average analyst. ...The in=
+ferences hold after controlling for information events around EAD, such as =
+earnings surprises, earnings guidance, and 8-K filings, as well as analysts=
+=E2=80=99 existing information set proxied by their prior forecast errors. =
+Thus, taxi trips allow analysts to access a private source of information o=
+rthogonal to their pre-existing set of private and public information.=C2=
+=A0I am not sure how=C2=A0many=C2=A0taxi rides you=E2=80=99d really need to=
+ talk to a company about its earnings release =E2=80=94=C2=A0I suspect the =
+median and mode are zero, though I guess two is also possible =E2=80=94=C2=
+=A0but the intuition checks out.=C2=A0And here is a gesture at Regulation F=
+D:While managers have limited ability to convey material non-public informa=
+tion to analysts in private settings under Regulation Fair Disclosure (Reg =
+FD), the unclear definition of materiality allows managers considerable lee=
+way in helping analysts fill in their =E2=80=9Cmosaic view=E2=80=9D of the =
+companies (SEC 2000; Soltes 2018).=C2=A0Thus, private communications may im=
+prove the=C2=A0accuracy of analysts=E2=80=99 earnings forecasts and enhance=
+ the quality of their stock recommendations by providing analysts with like=
+ly non-material pieces of information that can become material, when taken =
+together, within the context of other public and private information that t=
+hey already have. For example, private communications around EAD could prov=
+ide analysts with additional details and contexts into firm news and future=
+ developments, enabling them to better understand the implications of curre=
+nt earnings signals for future earnings.I don=E2=80=99t know what it could =
+possibly mean to give analysts =E2=80=9Clikely non-material pieces of infor=
+mation that can become material, when taken together,=C2=A0within the conte=
+xt of other public and private information,=E2=80=9D but a lot of securitie=
+s lawyers think they know what it means so that=E2=80=99s good enough I gue=
+ss.Congrats Deutsche Bank!Here=E2=80=99s  a Bloomberg story about how Deuts=
+che Bank AG provided a lot of margin financing to a risky client, but deman=
+ded a reasonable amount of collateral, monitored the position closely and, =
+when the client blew up, was able to get out of its positions without losin=
+g any money. There were a few scary days but ultimately it worked out.I thi=
+nk that this is a good story: If you don=E2=80=99t occasionally blow a clie=
+nt out and=C2=A0almost=C2=A0lose money on your margin financing, you are pr=
+obably turning away business unnecessarily; if you=C2=A0almost=C2=A0lose mo=
+ney but=C2=A0don=E2=80=99t, that means that your risk management is well ca=
+librated and your trading is smart. Good good. But you could imagine someon=
+e telling it as a bad story: Deutsche Bank almost lost a lot of money, it w=
+as taking a lot of risks, it had some scary days, if things had gone a litt=
+le differently it would have lost money,=C2=A0etc. etc.But everything is re=
+lative. This is a good story, in Bloomberg=E2=80=99s telling, because:=C2=
+=A0=09The Deutsche Bank of not all that long ago would have actually lost a=
+ bunch of money in embarrassing fashion, and=09Several other banks=C2=A0did=
+=C2=A0lose money in an embarrassing fashion on this same trade,   the blowu=
+p of Archegos Capital Management.So Deutsche Bank looks great compared to C=
+redit Suisse Group AG, or compared to the old Deutsche Bank:So as Archegos=
+=E2=80=99s collapse slammed rivals with more than $10 billion of losses, De=
+utsche Bank walked away without a scratch, reporting its highest profit in =
+seven years. It was enough to stun longtime observers of the firm, which ha=
+s spent the past decade-and-a-half stumbling from one crisis to the next. T=
+he escape added to a growing sense that [Chief Executive Officer Christian]=
+ Sewing may finally be moving Germany=E2=80=99s largest bank past its dysfu=
+nction of the last decade. =E2=80=A6Deutsche Bank had run up an exposure wo=
+rth several billions of dollars, according to people familiar with the matt=
+er. But it hadn=E2=80=99t lent as aggressively and its arrangement with Arc=
+hegos allowed it to ask for more collateral to back up what looked like an =
+increasingly imbalanced house of cards.The German bank had decided two year=
+s earlier to exit the business with hedge funds and family offices =E2=80=
+=94 known as prime brokerage =E2=80=94 and was in the process of transferri=
+ng its relationships to BNP Paribas SA. That gave Ashley Wilson, the head o=
+f the unit, and risk chief Stuart Lewis even more reason to keep things in =
+check. The bank, which was conducting daily analyses of Archegos=E2=80=99s =
+holdings, had noticed already in February that concentration risk was risin=
+g. In early March, it started to request more collateral, the people said, =
+asking for anonymity discussing internal information. ...When it became cle=
+ar on Friday that rivals were cutting their lifelines and getting out, Lewi=
+s got on a 20-minute call with his team, and the bank decided to liquidate.=
+ The firm=E2=80=99s traders sold most of the positions that Friday to multi=
+ple buyers including Marshall Wace, one of Europe=E2=80=99s largest hedge f=
+und managers. The bank used direct sales, aiming to avoid spooking the mark=
+ets. Within a few days, it recovered all of its money and even had some col=
+lateral left.It is so rare that a bank can take a victory lap for =E2=80=9C=
+we did not get blown up on a margin loan.=E2=80=9D You are not supposed to =
+get blown up on a margin loan! But when you have a history of getting blown=
+ up, and your competitors get blown up, and you don=E2=80=99t, then everyon=
+e will call to congratulate you and you=E2=80=99ll get a nice profile like =
+=E2=80=9CDeutsche Bank: Not Blown Up This Week.=E2=80=9DEven better, Deutsc=
+he Bank is apparently taking a victory lap for not wiring $900 million to h=
+edge funds by accident:Inside the bank, many still worry that the next acci=
+dent is just around the corner. Last month, a lawyer representing Citigroup=
+ Inc. in a case related to its mistaken transfer of $900 million revealed t=
+hat another unnamed bank had recently made a similar mistake. Only three ye=
+ars earlier, Deutsche Bank had erroneously transferred a much bigger sum to=
+ an outside account. Now, the first thought for many at the German lender, =
+according to one executive, was: =E2=80=9CWas it us?=E2=80=9D =C2=A0It was =
+not! Nice work.Honestly it is good work. A basic problem in finance is that=
+ it is just as good to avoid a $1 billion loss as it is to make a $1 billio=
+n gain, but the rewards are so asymmetric. If you make a $1 billion gain, e=
+veryone will notice, you will have a $1 billion P&L,=C2=A0you will be a her=
+o and you=E2=80=99ll get a big bonus. If you avoid a $1 billion loss, no on=
+e will notice because=C2=A0there won=E2=80=99t be a $1 billion loss.=C2=A0 =
+Your P&L will be flat, you will be criticized for doing nothing (if you run=
+ a business that didn=E2=80=99t do the thing that would have caused the los=
+s) or for getting in the way (if you are a risk manager who stopped the bus=
+iness from doing the thing that would have caused the loss), you will be sc=
+orned as uncommercial and you won=E2=80=99t get a bonus. It is rare for the=
+re to be a highly public counterfactual, a clear case of =E2=80=9Cthis bank=
+ could have lost a billion dollars but did smart things and didn=E2=80=99t.=
+=E2=80=9D=C2=A0And it=E2=80=99s nice,=C2=A0for a bank, to pat itself =E2=80=
+=94=C2=A0and its risk managers =E2=80=94=C2=A0on the back when that happens=
+.Things happenIssuance of Bundles of Risky Loans Jumps to 16-Year High. Oil=
+ Majors Look to Fill Businesses=E2=80=99 Growing Appetite for Green Power. =
+Fast-Cash  House Flippers Flood Poor Neighborhoods in U.S.=C2=A0Lordstown M=
+otors Says It Needs to Raise Cash, Lowers Production Forecast. Goldman wins=
+ approval for wealth management deal in China. =E2=80=9CThe last thing Adri=
+an wants to do is party.=E2=80=9DIf you'd like to get=C2=A0Money=C2=A0Stuff=
+=C2=A0in handy email form, right in your inbox, please=C2=A0subscribe at th=
+is link. Or you can subscribe to Money Stuff and other great Bloomberg news=
+letters here. Thanks![1] Technically many of these funds buy the highest-*E=
+SG*-rated oil companies, and those companies might get their high ESG ratin=
+gs primarily from social and governance factors, but you get the idea.[2] I=
+ realize that this sort of Bitcoin provenance tracing doesn=E2=80=99t make =
+a ton of sense, but part of my point is it doesn=E2=80=99t have to![3] I ma=
+de up that number; the point is that you need some legibility about power u=
+sage and sources before you can even say things like this.[4] With Bitcoin=
+=C2=A0there is another important move, which is to claim that Bitcoin actua=
+lly moves the electric grid in the direction of cleaner energy. To some ext=
+ent this is a version of the move I describe in the text, shifting from a b=
+ad conversation about absolute values to a good conversation about rates of=
+ change. It is also, though, a bolder factual claim, and it might be easier=
+ to say =E2=80=9Cwell Bitcoin is getting a bit greener=E2=80=9D than =E2=80=
+=9Cwell Bitcoin is making the world greener.=E2=80=9D[5] If your =E2=80=9Ca=
+sset class=E2=80=9D definition is =E2=80=9Ccrypto=E2=80=9D you might try to=
+ invest in cryptocurrencies that use less energy than Bitcoin (proof-of-sta=
+ke, etc.), but in practice you have the problem that Bitcoin is very big an=
+d popular, so finding a way to invest in Bitcoin and call it clean is more =
+desirable.=C2=A0[6] The mechanism is not literally =E2=80=9Can ETF is a mut=
+ual fund that doesn=E2=80=99t pay taxes=E2=80=9D; you need to find authoriz=
+ed participants to do the correct creation and redemption trades to avoid t=
+axable events on rebalancing. One assumes that Simplify can.[7] =E2=80=9CAs=
+ Grayscale is a closed-end fund, if it is trading at a premium or a discoun=
+t to NAV, Simplify will purchase a target exposure to the underlying crypto=
+currency asset that matches the target allocation of the portfolio,=E2=80=
+=9D notes Simplify=E2=80=99s chief strategist.=C2=A0=E2=80=9CThis means tha=
+t if Grayscale is trading at a discount to NAV, as it currently is, clients=
+ will purchase additional Bitcoin; if trading at a premium, exposure will b=
+e lower.=E2=80=9D[8] You could have contrary theories. Sell-side analysts m=
+ight meet with companies solely to befriend them so they can introduce inve=
+stors to them (though you still need a theory for why the investors want to=
+ meet them). Investors might meet with companies solely because it=E2=80=99=
+s more fun for them than sitting at a desk looking at spreadsheets, or beca=
+use it helps them explain their investment process to their clients, or bec=
+ause it seems like it should help and they are deluded about how much it ac=
+tually does. These are all essentially behavioral theories about *someone* =
+acting irrationally, and you might expect them to be arbitraged away. And o=
+f course there are plenty of quanty investment firms that conclude that mee=
+ting with companies is a waste of time, at least for them.
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce9hwi.5ofq/47e4c466.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_85547248_1471515031.1621960502055
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23957730.264950/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBd00=
+38730"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">The magical Elon money machine</h2><p style=3D"m=
+argin: 16px 0;">So obviously <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23957730.264950/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjEtMDUtMjQvYml0Y29pbi1ib3VuY2VzLWJhY2stYWJvdmUtMzctMDAwLWFmdGVyLXd=
+lZWtlbmQtc2VsbG9mZg/607f07ceef4b8524a319a23cBe2fef1e7" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> this</a> is a story about <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/23957730.264950/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTcvZWxvbi1t=
+dXNrLWNvbnRyb2xzLWJpdGNvaW4tYW5kLWRvZ2Vjb2luLXByaWNlcy13aXRoLXB1cmUtbWFnaWM=
+/607f07ceef4b8524a319a23cB36b4c174" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Elon Musk=E2=80=99s=C2=A0magic lamp</a> that mak=
+es the price of Bitcoin go up and down:</p><blockquote><p style=3D"margin: =
+16px 0;">Bitcoin traded lower on Tuesday as prices pulled back from a doubl=
+e-digit percentage rally, stoked in part by Elon Musk=E2=80=99s effort to b=
+olster the token=E2=80=99s green credentials on Twitter.</p><p style=3D"mar=
+gin: 16px 0;">The largest digital currency slipped as much as 6.5% to $36,4=
+94 in New York, following a 16% jump on Monday. The wider Bloomberg Galaxy =
+Crypto Index and tokens including Ether also dropped.</p><p style=3D"margin=
+: 16px 0;">The Tesla Inc. CEO has roiled the token=E2=80=99s price this mon=
+th, triggering a selloff by criticizing its energy profile and suspending B=
+itcoin payments. Heightened regulatory rhetoric on cryptocurrencies from Ch=
+ina also pressured the sector.</p><p style=3D"margin: 16px 0;">=E2=80=9CIf =
+the market continues to see wild swings based on Elon Musk tweets, it=E2=80=
+=99s going to be a big set back for this asset class,=E2=80=9D said Matt Ma=
+ley, chief market strategist for=C2=A0Miller Tabak + Co.=C2=A0=E2=80=9CThe =
+fact that it sees such wild swings to the tweets from one person takes away=
+ the legitimacy of the asset class.=E2=80=9D</p></blockquote><p style=3D"ma=
+rgin: 16px 0;">Fine, yes, in 2021 the main fact about Bitcoin is that Elon =
+Musk decides whether its price goes up or down. Does that =E2=80=9Ctake awa=
+y the legitimacy of the asset class=E2=80=9D? Man, look around; =E2=80=9Cle=
+gitimacy=E2=80=9D is a weird thing to be worried about. I would say that it=
+=E2=80=99s=C2=A0<em>interesting=C2=A0</em>to have a trillion-dollar asset c=
+lass that is like =E2=80=9Cone guy will think of a number and your asset wi=
+ll be worth that number.=E2=80=9D That really is a novel experiment in fina=
+nce! I feel like we should give it some more time and see how it goes.=C2=
+=A0</p><p style=3D"margin: 16px 0;">But it strikes me that this is also a s=
+tory about how environmental, social and governance (ESG) investing often w=
+orks. In 2021 the other important fact about Bitcoin is that <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/23957730.264950/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjUvYml0Y29pbi1zLWJ0Yy1=
+jb3N0LXRvLXNvY2lldHktaXMtaW1wb3NzaWJsZS10by1pZ25vcmU/607f07ceef4b8524a319a2=
+3cB769e82a1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> miners use a lot of electricity to keep its ledger secure</a>, and this=
+ fact has formed the pretext for a number of Musk=E2=80=99s recent tweets t=
+elling the price to go up or down:</p><blockquote><p style=3D"margin: 16px =
+0;">Pledges to make the industry more green have picked up since Musk=E2=80=
+=99s criticisms. Several miners joined the Crypto Climate Accord, a private=
+-sector initiative to decarbonize the crypto industry by 2030.</p><p style=
+=3D"margin: 16px 0;">Musk and Michael Saylor, another long-time Bitcoin boo=
+ster, tweeted Monday that they had held a call with major North American mi=
+ners, including Michael Novogratz=E2=80=99s Galaxy Digital and publicly tra=
+ded Hut 8 Mining Corp., to discuss =E2=80=9Cenergy usage transparency.=E2=
+=80=9D</p><p style=3D"margin: 16px 0;">Saylor said the group agreed to form=
+ the Bitcoin Mining Council =E2=80=9Cto standardize energy reporting.=E2=80=
+=9D</p><p style=3D"margin: 16px 0;">Musk and Saylor=E2=80=99s initiative to=
+ make Bitcoin =E2=80=9C=E2=80=98greener=E2=80=99 bodes well for ESG narrati=
+ve and institutional adoption,=E2=80=9D David Grider, strategist at Fundstr=
+at Global Advisors LLC, wrote in a note.</p><p style=3D"margin: 16px 0;">At=
+ the same time, it will take years for many of the largest miners to recali=
+brate where they source their energy.</p></blockquote><p style=3D"margin: 1=
+6px 0;">What does that mean? Well, consider that <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/23957730.264950/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMTEtMTEvZXNnLXN0b2Nrcy1hcmUtZ3JhZGVkLW9=
+uLWEtY3VydmU/607f07ceef4b8524a319a23cB41d455ca" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">many=C2=A0big ESG funds invest in oil=
+ and gas companies</a>. If you are interested in reducing the climate impac=
+t of your investments and investing only in environmentally sound companies=
+, you can buy an ESG fund that buys=C2=A0<em>the most environmentally frien=
+dly oil companies</em>.[1] And then your clients will say =E2=80=9Cwait doe=
+sn=E2=80=99t drilling for oil contribute to climate change=E2=80=9D and you=
+ will say =E2=80=9Cthat=E2=80=99s not the point, the point is that the way =
+these companies drill for oil is slightly better than the way those other c=
+ompanies drill for oil, and they have committed to become carbon-neutral=C2=
+=A0in the far future.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;">That i=
+s important, because, for various reasons (particularly: to track broad ind=
+exes with minimum error), big ESG-focused investors often want to buy oil c=
+ompanies. If you can find a way to buy oil companies and call it ESG, there=
+=E2=80=99s a good business there. And people have, and the way is:</p><ol s=
+tyle=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<=
+li style=3D"margin-bottom: 5px;">Make the environmental impact of each oil =
+company somehow legible and quantifiable.</li>=09<li style=3D"margin-bottom=
+: 5px;">Focus on the oil companies that are <em>relatively=C2=A0</em>better=
+ on these legible metrics: They contribute less to climate change than thei=
+r peers, or at least they are=C2=A0<em>reducing=C2=A0</em>their climate imp=
+act over time.</li>=09<li style=3D"margin-bottom: 5px;">Categorize oil comp=
+anies as=C2=A0a sector that every investor needs exposure to, so that ESG f=
+unds <a href=3D"https://link.mail.bloombergbusiness.com/click/23957730.2649=
+50/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90b3AtZXNnLWZ1bmRzLWFyZS1hbGwtc3Rp=
+bGwtaW52ZXN0ZWQtaW4tb2lsLWFuZC1nYXMtY29tcGFuaWVzLTExNTczNDY4MjAwP21vZD1ocF9=
+sZWFkX3BvczE/607f07ceef4b8524a319a23cBa51b2194" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> can say</a> =E2=80=9Cwe offer invest=
+ors similar risk and returns that they would achieve in broad market indexe=
+s while including the highest ESG-rated companies in each sector.=E2=80=9D<=
+/li></ol><p style=3D"margin: 16px 0;">Similarly here the trade is to make B=
+itcoin=E2=80=99s energy consumption and sources, and its climate impact, le=
+gible, by =E2=80=9Cstandardizing energy reporting.=E2=80=9D Then you (Tesla=
+, institutional investors, etc.) buy Bitcoin. And then when people complain=
+ about Bitcoin=E2=80=99s environmental impact, now you have tools to reply.=
+ You can say things like =E2=80=9Cyes but we enforce rigorous energy usage =
+transparency standards=C2=A0and only buy Bitcoins artisanally=C2=A0sourced =
+from hydroelectric plants,=E2=80=9D[2] or =E2=80=9Csure Bitcoin uses a lot =
+of energy but so does the S&amp;P 500, and Bitcoin has reduced its use of c=
+oal power 2.7% this year,=E2=80=9D[3] or whatever. You have transformed a v=
+ague and ominous problem =E2=80=94=C2=A0=E2=80=9Cit seems like Bitcoin mayb=
+e uses a lot of dirty electricity to make an abstract asset?=E2=80=9D =E2=
+=80=94=C2=A0into a peppy solution =E2=80=94=C2=A0=E2=80=9Cour investment in=
+ Bitcoin is helping make it cleaner.=E2=80=9D The absolute problem persists=
+ =E2=80=94=C2=A0miners use a lot of electricity to mine Bitcoin =E2=80=94=
+=C2=A0but you have turned the=C2=A0<em>conversation </em>to relative improv=
+ements in the problem.[4]</p><p style=3D"margin: 16px 0;">Of course this on=
+ly works=C2=A0if you accept the premise that Bitcoin is an important asset =
+class, that an investor should be finding the cleanest way to buy Bitcoin r=
+ather than avoiding it altogether.[5] (=E2=80=9CYou almost never hear anyon=
+e complaining about how much electricity refrigerators use,=E2=80=9D Joe We=
+isenthal <a href=3D"https://link.mail.bloombergbusiness.com/click/23957730.=
+264950/aHR0cHM6Ly90d2l0dGVyLmNvbS9UaGVTdGFsd2FydC9zdGF0dXMvMTM5Njc4MTQ3NjQ2=
+MTU1OTgxMQ/607f07ceef4b8524a319a23cBbb3a41ad" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">wrote the=C2=A0other day</a>, because e=
+veryone accepts that refrigeration is important.) If your policy is =E2=80=
+=9Cwe invest in every asset class in the most environmentally sensible way,=
+=E2=80=9D and someone comes to you and says =E2=80=9Chey we have invented a=
+ new asset class, it is burning a ton of coal and keeping track of how much=
+ coal we=E2=80=99ve burned and paying each other for it,=E2=80=9D your init=
+ial inclination might be to say =E2=80=9Cwait that's not an asset class, th=
+at=E2=80=99s just burning coal, we don=E2=80=99t want any of that at all.=
+=E2=80=9D But once it=E2=80=99s worth a trillion dollars, sure, you have to=
+ figure out the most environmentally friendly way to buy some.</p><h2 style=
+=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helveti=
+ca, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-width:=
+ 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; m=
+argin-bottom: 0;">Bitcoin ETF-of-ETFs</h2><p style=3D"margin: 16px 0;">One =
+simple model of exchange-traded funds is that they are a way to invest with=
+out paying taxes until you=E2=80=99re done investing. Here=E2=80=99s how re=
+gular traditional=C2=A0investing works:</p><ol style=3D"list-style-type: de=
+cimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: =
+5px;">You have money that you don=E2=80=99t need now but will need in 20 ye=
+ars to pay for your kids=E2=80=99 college or whatever.</li>=09<li style=3D"=
+margin-bottom: 5px;">You buy some assets.</li>=09<li style=3D"margin-bottom=
+: 5px;">You change the assets from time to time: Some things go up and you =
+sell them, or buy more; other things go down and you sell them, or buy more=
+. You have a target allocation of X% to Thing A and Y% to Thing B and Z% to=
+ Thing C, but=C2=A0if Thing A goes up a lot compared to Things B and C then=
+ you will have more than X% of it and you=E2=80=99ll have to sell some. Als=
+o over time your target allocations might change, etc.</li>=09<li style=3D"=
+margin-bottom: 5px;">Every time you sell an asset for a profit, you pay tax=
+es on the gains.</li>=09<li style=3D"margin-bottom: 5px;">In 20 years you s=
+ell all of the assets, pay taxes on whatever gains you haven=E2=80=99t alre=
+ady paid taxes on, and use the money to pay for=C2=A0college or whatever.</=
+li></ol><p style=3D"margin: 16px 0;">Step 4 is the bummer here: You keep pa=
+ying taxes along the way, because you have taxable gains. It might=C2=A0<em=
+>feel</em>, to you, like you don=E2=80=99t: From your perspective, you put =
+in money in=C2=A0Step 1 and take it out in Step 5, and you only get to enjo=
+y the gains in Step 5; any gains in Steps 3 and 4 are just part of the inve=
+sting process, not income that you were planning to spend. But the tax law =
+says that if you sell an asset for a gain you pay taxes on it, even if you =
+are planning to reinvest and aren=E2=80=99t ready to pay for college or wha=
+tever yet.</p><p style=3D"margin: 16px 0;">If you invest via mutual funds, =
+instead of by buying stocks and bonds directly, the process is the same. In=
+ fact in some ways mutual funds are worse because=C2=A0they=C2=A0buy=C2=A0a=
+nd sell=C2=A0stocks and bonds over time, not just to rebalance their portfo=
+lios but also to deal with redemptions by other investors, and their sales =
+can incur taxes that you have to pay.=C2=A0</p><p style=3D"margin: 16px 0;"=
+>If you invest via ETFs, though, it=E2=80=99s different.=C2=A0U.S. tax law=
+=C2=A0allows ETFs to adjust their holdings without incurring any taxes. (Th=
+is oversimplifies. We talked more about the mechanisms in the <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/23957730.264950/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDMtMjkvZGVhbHMtb24tdGhlLX=
+RyYWluLWFyZS1ldmVyeW9uZS1zLWJ1c2luZXNz/607f07ceef4b8524a319a23cB95be55db" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> =E2=80=9CH=
+eartbeats=E2=80=9D section here</a>; they involve =E2=80=9Cauthorized parti=
+cipants=E2=80=9D doing in-kind trades where they exchange the underlying as=
+sets for shares of the ETF in tax-exempt transactions.) So the way an ETF w=
+orks is roughly:</p><ol style=3D"list-style-type: decimal; padding-left: 40=
+px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">You have money th=
+at you don=E2=80=99t need now but will need in 20 years to pay for your kid=
+s=E2=80=99 college or whatever.</li>=09<li style=3D"margin-bottom: 5px;">Yo=
+u buy shares in an=C2=A0ETF, which holds some underlying assets.</li>=09<li=
+ style=3D"margin-bottom: 5px;">The ETF changes the assets that it holds fro=
+m time to time.</li>=09<li style=3D"margin-bottom: 5px;">But you don=E2=80=
+=99t pay taxes when that happens.</li>=09<li style=3D"margin-bottom: 5px;">=
+In 20 years you sell your ETF shares, pay taxes on any gains (what your ETF=
+ shares are worth minus what you paid for them), and use the money to pay f=
+or college or whatever.</li></ol><p style=3D"margin: 16px 0;">This is much =
+neater. You pay taxes only at the end, when you have gains you can enjoy. I=
+ am somewhat exaggerating the benefits here, because most ETFs are specific=
+ to some asset class or sector. So you might buy a Stocks ETF and a Bonds E=
+TF, and as stocks go up you will sell some of the Stocks ETF and buy more o=
+f the Bonds ETF, and that will incur taxes just as if you=E2=80=99d sold so=
+me stocks and bought some bonds. (On the other hand the Stocks ETF can get =
+rid of some stocks and add other stocks=C2=A0<em>without=C2=A0</em>incurrin=
+g taxes.)</p><p style=3D"margin: 16px 0;">But in principle you could have a=
+n ETF that is like the=C2=A0Everything You=E2=80=99ll Ever Need ETF, and it=
+ does all of the rebalancing for you, without you ever paying taxes until y=
+ou sell. In practice, you probably won=E2=80=99t find exactly the Everythin=
+g You Specifically Will Ever Need to Pay for College in 20 Years ETF, but t=
+here are Giving You Some Target Allocation to Stocks and Bonds and Rebalanc=
+ing Periodically ETFs that <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23957730.264950/aHR0cHM6Ly93d3cud2VhbHRobWFuYWdlbWVudC5jb20vZXRmcy=
+90YXJnZXQtZGF0ZS1ldGZzLWFyZS1kZWFkLWxvbmctbGl2ZS10YXJnZXQtcmlzaw/607f07ceef=
+4b8524a319a23cB7a87669c" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">sort of gesture in this direction</a>.</p><p style=3D"margin=
+: 16px 0;">It is kind of a weird feature of the ETF industry and the U.S. t=
+ax code that this works, but it does. I <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/23957730.264950/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMTktMDMtMjkvZGVhbHMtb24tdGhlLXRyYWluLWFyZS1ldmVyeW9u=
+ZS1zLWJ1c2luZXNz/607f07ceef4b8524a319a23cC95be55db" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> once wrote</a>:</p><blockquote><=
+p style=3D"margin: 16px 0;">My view of the situation is not only that =E2=
+=80=9Can ETF is a mutual fund that doesn=E2=80=99t pay taxes,=E2=80=9D but =
+also that everyone accepts that. There just seems to be broad agreement amo=
+ng investors and regulators and policymakers that an ETF is supposed to be =
+tax-efficient, that ETF investors get to defer capital gains until they sel=
+l their shares.</p></blockquote><p style=3D"margin: 16px 0;">Anyway. People=
+ want a Bitcoin ETF, a pot of investor money that will go out and buy Bitco=
+ins. Why do they want this?=C2=A0<em>Not</em>=C2=A0for the tax efficiency; =
+a Bitcoin ETF =E2=80=94=C2=A0a pot that buys Bitcoins =E2=80=94=C2=A0is not=
+ especially tax-efficient for its holders. (If you buy Bitcoin directly and=
+ it goes up, you pay taxes when you sell; the same is true if you buy share=
+s of=C2=A0a Bitcoin ETF.) They want a Bitcoin ETF because, for a lot of inv=
+estors, holding Bitcoins in the form of an ETF is nicer and safer and easie=
+r than <a href=3D"https://link.mail.bloombergbusiness.com/click/23957730.26=
+4950/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMTItMT=
+kvYml0Y29pbi1mdXR1cmVzLWFyZS1hLWdyZWF0LXdheS10by1ub3Qtb3duLWJpdGNvaW4/607f0=
+7ceef4b8524a319a23cB62c7386d" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> holding Bitcoins in the form of Bitcoins</a>. You migh=
+t trust the traditional financial system =E2=80=94=C2=A0your broker and the=
+ ETF provider and its custodian =E2=80=94 to hang onto your Bitcoins=C2=A0m=
+ore than you trust a Bitcoin exchange or your own ability to <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/23957730.264950/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMTIvZG9uLXQtZm9yZ2V0LXl=
+vdXItYml0Y29pbnM/607f07ceef4b8524a319a23cB17eadf0b" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> remember your private key</a>. Y=
+ou might prefer to trade on the stock exchange rather than on a Bitcoin exc=
+hange. Other people might disagree, of course, but it seems clear there is =
+a lot of institutional and retail demand for this sort of thing.</p><p styl=
+e=3D"margin: 16px 0;">So people keep applying to list Bitcoin ETFs, and the=
+ U.S. Securities and Exchange Commission <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/23957730.264950/aHR0cHM6Ly93d3cuYmFycm9ucy5jb20vYXJ0=
+aWNsZXMvd2h5LXNvbWUtZXhwZXJ0cy10aGluay1hLWJpdGNvaW4tZXRmLXdpbGwtYmUtZGVsYXl=
+lZC01MTYyMDg1Mzc0OQ/607f07ceef4b8524a319a23cB1e01b865" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">keeps saying</a> =E2=80=9Chmmm=
+ I dunno about that.=E2=80=9D The SEC is skeptical of Bitcoin ETFs for reas=
+ons having to do with volatility and liquidity and transparency in the unde=
+rlying markets. Meanwhile there is a U.S. exchange-listed thing that provid=
+es Bitcoin exposure, the Grayscale Bitcoin Trust, a closed-end fund that ow=
+ns Bitcoin but does not have a standard ETF arbitrage mechanism and so ofte=
+n trades at a <a href=3D"https://link.mail.bloombergbusiness.com/click/2395=
+7730.264950/aHR0cHM6Ly95Y2hhcnRzLmNvbS9jb21wYW5pZXMvR0JUQy9kaXNjb3VudF9vcl9=
+wcmVtaXVtX3RvX25hdg/607f07ceef4b8524a319a23cBcb6ec43d" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">premium or discount to its net=
+ asset value</a>. If you want to buy Bitcoin on a U.S. stock exchange, Gray=
+scale is an approximate way to do it, and people do; it now has <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/23957730.264950/aHR0cHM6Ly9nc=
+mF5c2NhbGUuY29tL3Byb2R1Y3RzL2dyYXlzY2FsZS1iaXRjb2luLXRydXN0Lz9nY2xpZD1DajBL=
+Q1Fqd3dMS0ZCaERQQVJJc0FQelBpLUlNdmJFbVFnbVNKSjhCVFVaVnlRSXhFdzlnQ2FvcmtxSC1=
+rSHM3dkVoRHZIVFJ2TC1tYkpNYUFqejRFQUx3X3djQg/607f07ceef4b8524a319a23cB2e2b55=
+2f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">about =
+$23.8 billion</a> of assets under management.</p><p style=3D"margin: 16px 0=
+;">But what if you wanted a Bitcoin ETF specifically for tax efficiency? Yo=
+u might want to allocate 10% of your portfolio to Bitcoin. So you might go =
+out and buy $100 of Bitcoin and $900 of stocks, or whatever. Then the next =
+day Bitcoin doubles and stocks go up a bit and you have $200 of Bitcoin and=
+ $901 of stocks. Great news! But to get back to 10% you have to sell $90 of=
+ Bitcoin, at a profit, giving you a taxable gain. Now you have, say, $991 o=
+f stocks, $110 of Bitcoin, and a $30 tax bill. The next day Bitcoin falls b=
+y 50% and stocks go up a bit and you have $55 of Bitcoin and $992 of stocks=
+. Now you have to sell some stocks (at a tiny gain) to buy more Bitcoin, an=
+d your tax bill goes up. Every wild swing of Bitcoin=E2=80=99s price =E2=80=
+=94=C2=A0of which there are a lot =E2=80=94=C2=A0is a tax event for you if =
+you are trying to remain balanced.</p><p style=3D"margin: 16px 0;">Obviousl=
+y lots of investors will=C2=A0<em>not=C2=A0</em>want to remain balanced, an=
+d if Bitcoin keeps going up they will be perfectly happy to have a growing =
+allocation to Bitcoin until they cash out to buy Lamborghinis (and pay taxe=
+s). But part of the mainstream adoption and normalization of Bitcoin will b=
+e fitting it into the balanced-portfolio strategies of boring traditional i=
+nvestors.=C2=A0</p><p style=3D"margin: 16px 0;">Plop the strategy into an E=
+TF and the problem should=C2=A0go=C2=A0away.[6] Here is the proposed <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/23957730.264950/aHR0cHM6=
+Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4MTA3NDcvMDAwMTgyOTEyNjIxMDA=
+0MjQyL3NpbXBsaWZ5ZXhjaGFuZ2VfNDk3Lmh0bQ/607f07ceef4b8524a319a23cB92e5d0e2" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">Simplify U=
+.S. Equity PLUS GBTC ETF</a>, and here is <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/23957730.264950/aHR0cHM6Ly9wcm9mcGx1bTk5Lm1lZGl1bS5=
+jb20vZG8tbm90LWJ1eS10aGlzLWV0Zi0xZTgwYWQwZDI0MDE/607f07ceef4b8524a319a23cB0=
+0e608da" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">a=
+ description from Simplify=E2=80=99s chief strategist</a>:</p><blockquote><=
+p style=3D"margin: 16px 0;">By offering an exposure equal to 100% of U.S. E=
+quities plus a 10% additional allocation to the underlying asset in the Gra=
+yscale Bitcoin Trust (GBTC), an advisor can select an allocation that match=
+es the desired risk tolerance of clients while eliminating the need for the=
+ [advisor] to buy and sell the exposures to maintain a stable allocation to=
+ GBTC. Simplify manages the portfolio by rebalancing quarterly to maintain =
+a more consistent risk profile in the client account; by doing so within an=
+ ETF structure, issues of tax calculation, withholding, and reporting are r=
+adically simplified for US investors. Given the much higher volatility of t=
+he Grayscale Bitcoin Trust versus the S&amp;P500, this is not a trivial ben=
+efit =E2=80=A6.</p></blockquote><p style=3D"margin: 16px 0;">It=E2=80=99s a=
+n S&amp;P 500 index ETF plus some Grayscale, rebalanced quarterly. If you h=
+ear =E2=80=9CBitcoin ETF=E2=80=9D and think =E2=80=9Ca way to buy Bitcoin o=
+n the stock exchange without the annoyance of direct Bitcoin investing or t=
+he tracking error of Grayscale,=E2=80=9D this is not what you want: This th=
+ing is mostly=C2=A0<em>not Bitcoin=C2=A0</em>(it=E2=80=99s mostly an S&amp;=
+P 500 index fund), and to the extent it is Bitcoin it=C2=A0incorporates Gra=
+yscale=E2=80=99s tracking error.[7] On the other hand if you hear =E2=80=9C=
+Bitcoin ETF=E2=80=9D and think =E2=80=9Ca way to invest in Bitcoin but with=
+out paying taxes along the way=E2=80=9D then this is closer to what you wan=
+t, because deep down that=E2=80=99s often what ETFs are.=C2=A0</p><h2 style=
+=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helveti=
+ca, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-width:=
+ 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; m=
+argin-bottom: 0;">Taxis</h2><p style=3D"margin: 16px 0;">We talk a surprisi=
+ng amount around here about the fact that, when investors and analysts talk=
+ to the managers of companies, their investment decisions=C2=A0and analyses=
+ are better. When a mutual fund manager meets with a company and then buys =
+its stock,=C2=A0the stock is <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23957730.264950/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fy=
+dGljbGVzLzIwMjEtMDQtMTkvZXZlcnlvbmUtbG92ZXMtdGhlLTEwMC1taWxsaW9uLW5ldy1qZXJ=
+zZXktZGVsaS1leGNlcHQtZGF2aWQtZWluaG9ybi1rbm90dHJtYg/607f07ceef4b8524a319a23=
+cB681169fe" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> more likely to go up</a> than if she bought it without meeting with the =
+company. Or, when a sell-side research analyst meets with a company and the=
+n issues an earnings forecast, that forecast is more likely to be right tha=
+n if she issued it without meeting with the company.=C2=A0</p><p style=3D"m=
+argin: 16px 0;">On the one hand, how could it not work this way? These peop=
+le are busy professionals; they would not bother meeting with companies if =
+it did not help with their work.[8] Companies are complicated;=C2=A0having =
+a nuanced face-to-face discussion and being able to ask questions will add =
+insight that you can=E2=80=99t get from public information. Both investing =
+and corporate management are mostly about the future; you can learn more ab=
+out the company=E2=80=99s future from talking to its managers about their p=
+lans than you can from its backward-looking financial statements and heavil=
+y lawyered public filings.</p><p style=3D"margin: 16px 0;">On the other han=
+d, how can it=C2=A0work this way? In the U.S., <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/23957730.264950/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydW=
+xlcy9maW5hbC8zMy03ODgxLmh0bQ/607f07ceef4b8524a319a23cBa8e7091b" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Regulation FD</a> say=
+s that companies are not supposed to share material nonpublic information w=
+ith analysts or investors unless they simultaneously disclose it publicly. =
+Regulators pay a lot of lip service to the idea of a level playing field fo=
+r investors, in which everyone has access to the same information at the sa=
+me time. But some investors and analysts get to meet with the executives of=
+ public companies, and others don=E2=80=99t, and if those meetings are help=
+ful then the playing field is not level. Also if those meetings are helpful=
+ then they are arguably <em>illegal: </em>=E2=80=9CHelpful=E2=80=9D arguabl=
+y means the same thing as =E2=80=9Cmaterial,=E2=80=9D=C2=A0and if companies=
+ are giving out material information in these meetings then they=E2=80=99re=
+ breaking the rules.</p><p style=3D"margin: 16px 0;">We <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/23957730.264950/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDMtMDkvc2VjLWdvZXMtYWZ0ZXItYW5h=
+bHlzdC1mb3Jlc2hhZG93aW5n/607f07ceef4b8524a319a23cBa54d96e0" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;"> talked in March</a> abou=
+t a U.S. Securities and Exchange Commission enforcement action against AT&a=
+mp;T Inc. for allegedly calling up sell-side research analysts and getting =
+them to update their earnings forecasts. Talking to AT&amp;T helped those a=
+nalysts make better forecasts, exactly as you=E2=80=99d expect, but the SEC=
+ concluded it was illegal, as you might also expect.=C2=A0(AT&amp;T disagre=
+ed.) Or I have <a href=3D"https://link.mail.bloombergbusiness.com/click/239=
+57730.264950/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMT=
+YtMTItMDYvc3VwcmVtZS1jb3VydC1sZWF2ZXMtaW5zaWRlci10cmFkaW5nLWxhdy1hbG9uZQ/60=
+7f07ceef4b8524a319a23cB929f5edf" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> frequently</a> <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/23957730.264950/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMTgtMDEtMDgvd2hhdC1kby1pbnZlc3RvcnMtYW5kLWNvbXBhbmllc=
+y10YWxrLWFib3V0/607f07ceef4b8524a319a23cB00e421db" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> quoted</a>=C2=A0Justice Sonia Sot=
+omayor, during a Supreme Court argument about insider trading, saying =E2=
+=80=9Cthere=E2=80=99s regulations to stop that, talking to analysts.=E2=80=
+=9D</p><p style=3D"margin: 16px 0;">So while it=E2=80=99s the most obvious =
+thing in the world, hardly worthy of comment, that investors and analysts t=
+alk to companies and learn things, it is also a scandal,=C2=A0an awkward th=
+ing to say in polite company, something that the U.S. legal establishment c=
+an=E2=80=99t quite believe. So I=E2=80=99m always happy to mention empirica=
+l confirmations of this obvious fact.</p><p style=3D"margin: 16px 0;">Here=
+=E2=80=99s a fun one:</p><blockquote><p style=3D"margin: 16px 0;">This stud=
+y constructs a novel measure that aims to capture face-to-face private comm=
+unications between firm managers and sell-side analysts by mapping detailed=
+, large-volume taxi trip records from New York City to the GPS coordinates =
+of companies and brokerages. Consistent with earnings releases prompting ne=
+eds for private communications, we observe that daily taxi ride volumes bet=
+ween companies and brokerages increase significantly around earnings announ=
+cement dates (EAD) and reach their peak on EAD. After controlling for an ex=
+tensive set of fixed effects (firm-quarter, analyst, and year) and other po=
+tential confounding factors, we find that taxi rides undertaken around EAD =
+are negatively associated with analysts=E2=80=99 earnings forecast errors i=
+n periods after EAD. Analysts having more taxi trips around EAD also issue =
+more profitable recommendations after EAD (but these effects dissipate over=
+ longer horizons). Our results suggest that analysts may obtain a private s=
+ource of information orthogonal to their pre-existing information from thes=
+e in-person meetings, which may help them better understand the implication=
+s of current earnings signals for future earnings.</p></blockquote><p style=
+=3D"margin: 16px 0;">That=E2=80=99s the abstract to =E2=80=9C<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/23957730.264950/aHR0cHM6Ly93d3cu=
+bWNnaWxsLmNhL2Rlc2F1dGVscy9maWxlcy9kZXNhdXRlbHMvbWFyY19maWZ0aF9zZXNzaW9uX3B=
+hcGVyLnBkZg/607f07ceef4b8524a319a23cBb62ccf02" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Inside the Black Box of Private Commun=
+ications: Evidence From Taxi Ride Patterns Between Managers and Analysts in=
+ New York City</a>,=E2=80=9D by Stacey Choy and Ole-Kristian Hope of the Un=
+iversity of Toronto=E2=80=99s Rotman School of Management. The New York Tax=
+i and Limousine Commission releases data on taxi trips with a six-month lag=
+. You can map where in New York sell-side research analysts work, and you c=
+an map the headquarters of the New York-based public companies that their b=
+rokerages cover, and you can count the taxi rides between the brokerages an=
+d the companies. The taxi rides increase around earnings:</p><blockquote><p=
+ style=3D"margin: 16px 0;">Consistent with earnings releases prompting a ne=
+ed for private communications, we find that ride volumes increase significa=
+ntly around EAD and reach their peak on the day of the earnings announcemen=
+t. The increase is economically meaningful; the weekly mean of ride volumes=
+ around EAD increases by 7.2% compared to four weeks before EAD. Moreover, =
+consistent with taxi rides capturing <em>sell-side analysts=E2=80=99</em> a=
+ctivities, we find that the magnitude of increases in ride volumes between =
+a company and broker is significantly greater for brokers having analyst co=
+verage of companies than for those without such coverage.</p></blockquote><=
+p style=3D"margin: 16px 0;">And they are correlated with better earnings fo=
+recasts:</p><blockquote><p style=3D"margin: 16px 0;">Consistent with our pr=
+ediction, we find that private meetings around EAD are significantly negati=
+vely associated with analysts=E2=80=99 earnings forecast errors issued in t=
+he post-EAD period. These findings are based on multivariate regressions th=
+at control for an extensive set of fixed effects, including <em>firm-quarte=
+r</em>, <em>analyst</em>, and <em>year fixed effects</em>, as well as a num=
+ber of time-varying controls, making the possibility of correlated omitted =
+variables less likely. The decreases are also economically meaningful; a on=
+e standard deviation increase in taxi ride volumes is associated with a 10%=
+ decrease in forecast errors for an average analyst. ...</p><p style=3D"mar=
+gin: 16px 0;">The inferences hold after controlling for information events =
+around EAD, such as earnings surprises, earnings guidance, and 8-K filings,=
+ as well as analysts=E2=80=99 existing information set proxied by their pri=
+or forecast errors. Thus, taxi trips allow analysts to access a private sou=
+rce of information orthogonal to their pre-existing set of private and publ=
+ic information.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">I am not=
+ sure how=C2=A0<em>many=C2=A0</em>taxi rides you=E2=80=99d really need to t=
+alk to a company about its earnings release =E2=80=94=C2=A0I suspect the me=
+dian and mode are zero, though I guess two is also possible =E2=80=94=C2=A0=
+but the intuition checks out.=C2=A0And here is a gesture at Regulation FD:<=
+/p><blockquote><p style=3D"margin: 16px 0;">While managers have limited abi=
+lity to convey material non-public information to analysts in private setti=
+ngs under Regulation Fair Disclosure (Reg FD), the unclear definition of ma=
+teriality allows managers considerable leeway in helping analysts fill in t=
+heir =E2=80=9Cmosaic view=E2=80=9D of the companies (SEC 2000; Soltes 2018)=
+.=C2=A0Thus, private communications may improve the=C2=A0accuracy of analys=
+ts=E2=80=99 earnings forecasts and enhance the quality of their stock recom=
+mendations by providing analysts with likely non-material pieces of informa=
+tion that can become material, when taken together, within the context of o=
+ther public and private information that they already have. For example, pr=
+ivate communications around EAD could provide analysts with additional deta=
+ils and contexts into firm news and future developments, enabling them to b=
+etter understand the implications of current earnings signals for future ea=
+rnings.</p></blockquote><p style=3D"margin: 16px 0;">I don=E2=80=99t know w=
+hat it could possibly mean to give analysts =E2=80=9Clikely non-material pi=
+eces of information that can become material, when taken together,=C2=A0wit=
+hin the context of other public and private information,=E2=80=9D but a lot=
+ of securities lawyers think they know what it means so that=E2=80=99s good=
+ enough I guess.</p><h2 style=3D"font-weight: bold; font-family: &quot;Aria=
+l Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-siz=
+e: 20px; border-bottom-width: 1px; border-bottom-style: dotted; padding-bot=
+tom: 5px; margin-top: 30px; margin-bottom: 0;">Congrats Deutsche Bank!</h2>=
+<p style=3D"margin: 16px 0;">Here=E2=80=99s <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/23957730.264950/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjEtMDUtMjUvaG93LWRldXRzY2hlLWJhbmstYXZvaWRlZC1iaWxs=
+LWh3YW5nLXMtYXJjaGVnb3Mtcmlzay11bmRlci1jZW8tY2hyaXN0aWFuLXNld2luZw/607f07ce=
+ef4b8524a319a23cB424ed93c" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> a Bloomberg story</a> about how Deutsche Bank AG provided=
+ a lot of margin financing to a risky client, but demanded a reasonable amo=
+unt of collateral, monitored the position closely and, when the client blew=
+ up, was able to get out of its positions without losing any money. There w=
+ere a few scary days but ultimately it worked out.</p><p style=3D"margin: 1=
+6px 0;">I think that this is a good story: If you don=E2=80=99t occasionall=
+y blow a client out and=C2=A0<em>almost=C2=A0</em>lose money on your margin=
+ financing, you are probably turning away business unnecessarily; if you=C2=
+=A0<em>almost=C2=A0</em>lose money but=C2=A0<em>don=E2=80=99t</em>, that me=
+ans that your risk management is well calibrated and your trading is smart.=
+ Good good. But you could imagine someone telling it as a bad story: Deutsc=
+he Bank almost lost a lot of money, it was taking a lot of risks, it had so=
+me scary days, if things had gone a little differently it would have lost m=
+oney,=C2=A0etc. etc.</p><p style=3D"margin: 16px 0;">But everything is rela=
+tive. This is a good story, in Bloomberg=E2=80=99s telling, because:=C2=A0<=
+/p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px =
+0;">=09<li style=3D"margin-bottom: 5px;">The Deutsche Bank of not all that =
+long ago would have actually lost a bunch of money in embarrassing fashion,=
+ and</li>=09<li style=3D"margin-bottom: 5px;">Several other banks=C2=A0<em>=
+did=C2=A0</em>lose money in an embarrassing fashion on this same trade, <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/23957730.264950/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMDUvYmlsbC1o=
+d2FuZy1zLWFyY2hlZ29zLXN3YXAtYWZ0ZXJtYXRoLWlzLWF3a3dhcmQtZm9yLWJhbmtz/607f07=
+ceef4b8524a319a23cBce244830" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">  the blowup of Archegos Capital Management</a>.</li></o=
+l><p style=3D"margin: 16px 0;">So Deutsche Bank looks great compared to Cre=
+dit Suisse Group AG, or compared to the old Deutsche Bank:</p><blockquote><=
+p style=3D"margin: 16px 0;">So as Archegos=E2=80=99s collapse slammed rival=
+s with more than $10 billion of losses, Deutsche Bank walked away without a=
+ scratch, reporting its highest profit in seven years. It was enough to stu=
+n longtime observers of the firm, which has spent the past decade-and-a-hal=
+f stumbling from one crisis to the next. The escape added to a growing sens=
+e that [Chief Executive Officer Christian] Sewing may finally be moving Ger=
+many=E2=80=99s largest bank past its dysfunction of the last decade. =E2=80=
+=A6</p><p style=3D"margin: 16px 0;">Deutsche Bank had run up an exposure wo=
+rth several billions of dollars, according to people familiar with the matt=
+er. But it hadn=E2=80=99t lent as aggressively and its arrangement with Arc=
+hegos allowed it to ask for more collateral to back up what looked like an =
+increasingly imbalanced house of cards.</p><p style=3D"margin: 16px 0;">The=
+ German bank had decided two years earlier to exit the business with hedge =
+funds and family offices =E2=80=94 known as prime brokerage =E2=80=94 and w=
+as in the process of transferring its relationships to BNP Paribas SA. That=
+ gave Ashley Wilson, the head of the unit, and risk chief Stuart Lewis even=
+ more reason to keep things in check. The bank, which was conducting daily =
+analyses of Archegos=E2=80=99s holdings, had noticed already in February th=
+at concentration risk was rising. In early March, it started to request mor=
+e collateral, the people said, asking for anonymity discussing internal inf=
+ormation. ...</p><p style=3D"margin: 16px 0;">When it became clear on Frida=
+y that rivals were cutting their lifelines and getting out, Lewis got on a =
+20-minute call with his team, and the bank decided to liquidate. The firm=
+=E2=80=99s traders sold most of the positions that Friday to multiple buyer=
+s including Marshall Wace, one of Europe=E2=80=99s largest hedge fund manag=
+ers. The bank used direct sales, aiming to avoid spooking the markets. With=
+in a few days, it recovered all of its money and even had some collateral l=
+eft.</p></blockquote><p style=3D"margin: 16px 0;">It is so rare that a bank=
+ can take a victory lap for =E2=80=9Cwe did not get blown up on a margin lo=
+an.=E2=80=9D You are not supposed to get blown up on a margin loan! But whe=
+n you have a history of getting blown up, and your competitors get blown up=
+, and you don=E2=80=99t, then everyone will call to congratulate you and yo=
+u=E2=80=99ll get a nice profile like =E2=80=9CDeutsche Bank: Not Blown Up T=
+his Week.=E2=80=9D</p><p style=3D"margin: 16px 0;">Even better, Deutsche Ba=
+nk is apparently taking a victory lap for not wiring $900 million to hedge =
+funds by accident:</p><blockquote><p style=3D"margin: 16px 0;">Inside the b=
+ank, many still worry that the next accident is just around the corner. Las=
+t month, a lawyer representing Citigroup Inc. in a case related to its mist=
+aken transfer of $900 million revealed that another unnamed bank had recent=
+ly made a similar mistake. Only three years earlier, Deutsche Bank had erro=
+neously transferred a much bigger sum to an outside account. Now, the first=
+ thought for many at the German lender, according to one executive, was: =
+=E2=80=9CWas it us?=E2=80=9D =C2=A0</p></blockquote><p style=3D"margin: 16p=
+x 0;">It was not! Nice work.</p><p style=3D"margin: 16px 0;">Honestly it is=
+ good work. A basic problem in finance is that it is just as good to avoid =
+a $1 billion loss as it is to make a $1 billion gain, but the rewards are s=
+o asymmetric. If you make a $1 billion gain, everyone will notice, you will=
+ have a $1 billion P&amp;L,=C2=A0you will be a hero and you=E2=80=99ll get =
+a big bonus. If you avoid a $1 billion loss, no one will notice because=C2=
+=A0<em>there won=E2=80=99t be a $1 billion loss</em>.=C2=A0 Your P&amp;L wi=
+ll be flat, you will be criticized for doing nothing (if you run a business=
+ that didn=E2=80=99t do the thing that would have caused the loss) or for g=
+etting in the way (if you are a risk manager who stopped the business from =
+doing the thing that would have caused the loss), you will be scorned as un=
+commercial and you won=E2=80=99t get a bonus. It is rare for there to be a =
+highly public counterfactual, a clear case of =E2=80=9Cthis bank could have=
+ lost a billion dollars but did smart things and didn=E2=80=99t.=E2=80=9D=
+=C2=A0And it=E2=80=99s nice,=C2=A0for a bank, to pat itself =E2=80=94=C2=A0=
+and its risk managers =E2=80=94=C2=A0on the back when that happens.</p><h2 =
+style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, He=
+lvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-w=
+idth: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top: 30=
+px; margin-bottom: 0;">Things happen</h2><p style=3D"margin: 16px 0;">Issua=
+nce of <a href=3D"https://link.mail.bloombergbusiness.com/click/23957730.26=
+4950/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9pc3N1YW5jZS1vZi1idW5kbGVzLW9mLX=
+Jpc2t5LWxvYW5zLWp1bXBzLXRvLTE2LXllYXItaGlnaC0xMTYyMTg0OTc4Mj9tb2Q9aXRwX3dza=
+iZydT15YWhvbw/607f07ceef4b8524a319a23cBfbb52873" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Bundles of Risky Loans</a> Jumps to =
+16-Year High. Oil Majors Look to Fill Businesses=E2=80=99 Growing Appetite =
+for <a href=3D"https://link.mail.bloombergbusiness.com/click/23957730.26495=
+0/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9vaWwtbWFqb3JzLWxvb2stdG8tZmlsbC1id=
+XNpbmVzc2VzLWdyb3dpbmctYXBwZXRpdGUtZm9yLWdyZWVuLXBvd2VyLTExNjIxODU0MDAxP21v=
+ZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cBcb998d69" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">Green Power</a>. Fast-Cas=
+h <a href=3D"https://link.mail.bloombergbusiness.com/click/23957730.264950/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMjUvdS1zLXN=
+0YXRlcy10YWtlLWFpbS1hcy1ob3VzZS13aG9sZXNhbGVycy1mbG9vZC1wb29yLWFyZWFz/607f0=
+7ceef4b8524a319a23cBeee750f0" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> House Flippers</a> Flood Poor Neighborhoods in U.S.=C2=
+=A0Lordstown Motors Says It <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/23957730.264950/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9sb3Jkc3Rvd=
+24tbW90b3JzLXNheXMtaXQtbmVlZHMtdG8tcmFpc2UtY2FzaC1sb3dlcnMtcHJvZHVjdGlvbi1m=
+b3JlY2FzdC0xMTYyMTg5NTQ1ND9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319=
+a23cB058b7db3" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">Needs to Raise Cash</a>, Lowers Production Forecast. Goldman wins appr=
+oval for <a href=3D"https://link.mail.bloombergbusiness.com/click/23957730.=
+264950/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMjYzYzViNGEtOGMyOS00ODVhLThiMjUt=
+MjBmNzRjMDRhZTdk/607f07ceef4b8524a319a23cB5afc31a8" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">wealth management deal in China</=
+a>. =E2=80=9CThe last thing Adrian wants to do <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/23957730.264950/aHR0cHM6Ly93d3cubnl0aW1lcy5jb2=
+0vMjAyMS8wNS8yNC9zdHlsZS9hZHJpYW5zLWtpY2tiYWNrLmh0bWw/607f07ceef4b8524a319a=
+23cBaa3b8d6c" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">is party</a>.=E2=80=9D</p><p style=3D"margin: 16px 0;"><span class=3D"n=
+ews-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0S=
+tuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"=
+https://link.mail.bloombergbusiness.com/click/23957730.264950/aHR0cDovL2xpb=
+msubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAm=
+aGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23c=
+B830b3bf2" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">subscribe at this link</a>. =
+Or you can subscribe to Money Stuff and other great Bloomberg newsletters <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/23957730.264950/aHR=
+0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB=
+4f1ebff2" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] Techn=
+ically many of these funds buy the highest-*ESG*-rated oil companies, and t=
+hose companies might get their high ESG ratings primarily from social and g=
+overnance factors, but you get the idea.</em></p><p style=3D"margin: 16px 0=
+;"><em>[2] I realize that this sort of Bitcoin provenance tracing doesn=E2=
+=80=99t make a ton of sense, but part of my point is it doesn=E2=80=99t hav=
+e to!</em></p><p style=3D"margin: 16px 0;"><em>[3] I made up that number; t=
+he point is that you need some legibility about power usage and sources bef=
+ore you can even say things like this.</em></p><p style=3D"margin: 16px 0;"=
+><em>[4] With Bitcoin=C2=A0there is another important move, which is to cla=
+im that Bitcoin <a href=3D"https://link.mail.bloombergbusiness.com/click/23=
+957730.264950/aHR0cHM6Ly9hc3NldHMuY3RmYXNzZXRzLm5ldC8yZDVxMXRkNmN5eHEvNW1Sa=
+mM5WDVMVFhGRmloSWxUdDdRSy9lN2JjYmE0NzIxN2I2MDQyM2EwMWEzNTdlMDM2MTA1ZS9CQ0VJ=
+X1doaXRlX1BhcGVyLnBkZg/607f07ceef4b8524a319a23cB0b931ffb" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">actually moves the electric=
+ grid in the direction of cleaner energy</a>. To some extent this is a vers=
+ion of the move I describe in the text, shifting from a bad conversation ab=
+out absolute values to a good conversation about rates of change. It is als=
+o, though, a bolder factual claim, and it might be easier to say =E2=80=9Cw=
+ell Bitcoin is getting a bit greener=E2=80=9D than =E2=80=9Cwell Bitcoin is=
+ making the world greener.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"><e=
+m>[5] If your =E2=80=9Casset class=E2=80=9D definition is =E2=80=9Ccrypto=
+=E2=80=9D you might try to invest in cryptocurrencies that use less energy =
+than Bitcoin (proof-of-stake, etc.), but in practice you have the problem t=
+hat Bitcoin is very big and popular, so finding a way to invest in Bitcoin =
+and call it clean is more desirable.=C2=A0</em></p><p style=3D"margin: 16px=
+ 0;"><em>[6] The mechanism is not literally =E2=80=9Can ETF is a mutual fun=
+d that doesn=E2=80=99t pay taxes=E2=80=9D; you need to find authorized part=
+icipants to do the correct creation and redemption trades to avoid taxable =
+events on rebalancing. One assumes that Simplify can.</em></p><p style=3D"m=
+argin: 16px 0;"><em>[7] =E2=80=9CAs Grayscale is a closed-end fund, if it i=
+s trading at a premium or a discount to NAV, Simplify will purchase a targe=
+t exposure to the underlying cryptocurrency asset that matches the target a=
+llocation of the portfolio,=E2=80=9D <a href=3D"https://link.mail.bloomberg=
+business.com/click/23957730.264950/aHR0cHM6Ly9wcm9mcGx1bTk5Lm1lZGl1bS5jb20v=
+ZG8tbm90LWJ1eS10aGlzLWV0Zi0xZTgwYWQwZDI0MDE/607f07ceef4b8524a319a23cC00e608=
+da" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">notes =
+Simplify=E2=80=99s chief strategist</a>.=C2=A0=E2=80=9CThis means that if G=
+rayscale is trading at a discount to NAV, as it currently is, clients will =
+purchase additional Bitcoin; if trading at a premium, exposure will be lowe=
+r.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"><em>[8] You could have con=
+trary theories. Sell-side analysts might meet with companies solely to befr=
+iend them so they can introduce investors to them (though you still need a =
+theory for why the investors want to meet them). Investors might meet with =
+companies solely because it=E2=80=99s more fun for them than sitting at a d=
+esk looking at spreadsheets, or because it helps them explain their investm=
+ent process to their clients, or because it seems like it should help and t=
+hey are deluded about how much it actually does. These are all essentially =
+behavioral theories about *someone* acting irrationally, and you might expe=
+ct them to be arbitraged away. And of course there are plenty of quanty inv=
+estment firms that conclude that meeting with companies is a waste of time,=
+ at least for them.</em></p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23957730.264950/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBf4b42753" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23957730.264950/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB485e3e12" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23957730.264950/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBfdf02ec2" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23957730.264950/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB8f9504a0" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2395=
+7730.264950/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cBd3ab5091" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23957730.264950/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCd984fd60" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23957730.264950/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB99aa8b9f" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23957730.264950/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB515342ad" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce9hwi.5ofq/47e4c466.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_85547248_1471515031.1621960502055--
+

@@ -1,0 +1,2257 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:791:b0:dc:4011:408e with SMTP id n17csp536502rwj;
+        Fri, 4 Nov 2022 05:49:53 -0700 (PDT)
+X-Received: by 2002:adf:f94b:0:b0:236:c825:e2d with SMTP id q11-20020adff94b000000b00236c8250e2dmr17815142wrr.307.1667566192979;
+        Fri, 04 Nov 2022 05:49:52 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1667566192; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=MzDq7nGM7IS8oF3J4ytSOxI+QfZgFRhU1e1JIZ419mQz0qHp4+R9NtePbGbACml2sx
+         BOJl6lb4WDPsYgCpFnithKhuQrsAuISoaB9fmIoga1QrKoRYVvk7WDUqPZaFv9ajCEom
+         HilUf30vQa6dhk+GiWRJEVW/rXfFI8s1AS78oK+VpFtqh3t2vWu5jFql3OAp6GtOngqd
+         2tP5OI8LcdXFWY2TDbSTfgWDmtgn+B7UQ4Zvg+P3cPXq/8/5T6miyaeX69Ckbl9JSNlm
+         vs+wtAzbUrjekYL/rxnmYga2dv6TG6AUhTyUmSaAfqIW5yk3HKO1prZIYpu5LP2fdt5C
+         L1TQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-unsubscribe-post:message-id:in-reply-to:date:list-id
+         :list-unsubscribe:list-owner:list-archive:reply-to:references
+         :list-url:sender:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=sm1oCvqdCS8fg6GKjPpbhxPa2LfYmJxuiKDw3XJTlh8=;
+        b=O87Ck4VNvrJoFgRzB0ggQ35lWRcMt6me+2Lyk11vimpU210TVjc1ZVA5PfZOOzFAMK
+         /w94zAjU5I8Fx48bSMWFSMTVEue4Zhdpvd8HAdtPSBVHLuxQsKhOVZYPrNdrx53oovse
+         iQCMw/xJhsri/w8pgowzjlrjYty3l4LmW8u0m9ssEemIeZzSeQ3bUZy1JwO6w4Rro//h
+         6ddJmdAPeRtIBAdXsR03QFiZmk2xNCFXfJpq4QwNI4b0GUuOdNjvpLjk4vijgcI8Tywv
+         grCkbcfItrNMSUiB5yMrtcLxDv7VflyD8nYs3CYbPCW5+mbknXngKUw9LfHsAZLnRzXO
+         KLMQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=U3KRErKF;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g18-20020a7bc4d2000000b003c6c323879dsor825858wmk.43.2022.11.04.05.49.52
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Fri, 04 Nov 2022 05:49:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=U3KRErKF;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-post:list-unsubscribe-post:message-id:in-reply-to:date:list-id
+         :list-unsubscribe:list-owner:list-archive:reply-to:references
+         :list-url:sender:to:from:subject:mime-version:dkim-signature
+         :delivered-to:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=sm1oCvqdCS8fg6GKjPpbhxPa2LfYmJxuiKDw3XJTlh8=;
+        b=6o+II2dOdOPpTdv+M1N14gO3gbeqSFIddNohVefbC/tE3ZwAtspuoYwmtGy0fU55Hn
+         47Ews46SZkZ99Q5hMj4gxHcZhZqWNBHAJcp8Rd6gV0uFDw+qMIDcSmLC1ey4bcG4sma0
+         9YKEaa+u4HFmWgrBdQV8OLyle5KvbnSj78pMCokrCaazm910XmkKaLsHhKuNk0N73bFX
+         bZD2+Q1XesOI2bvmPPRP5n04NyKMarbCRKM0W79efBWG0s+le4qrOLi9z5znBLmKGom+
+         gaFjXeXO+3+JEVh/qu4u6Q/XcAwR9gSQwRK/A0kF2Iq1CCwVzZO4kjeOK1mQ27mn+u9a
+         W7DA==
+X-Gm-Message-State: ACrzQf2ouvC+/kpaRo9ltk/5kXNbUGh+gMaGQxyW/o9M/DYWNjPKFSNy
+	rI+uI0dTF6bgEaNVsL2r4rrkrYLNPaRNJLJgw3vTKgNgqF1nqjLAUQ==
+X-Received: by 2002:a05:600c:6d3:b0:3cf:9b42:b5f5 with SMTP id b19-20020a05600c06d300b003cf9b42b5f5mr1526102wmn.196.1667566192612;
+        Fri, 04 Nov 2022 05:49:52 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f647:0:0:0:0:0 with SMTP id x7csp387068wrp;
+        Fri, 4 Nov 2022 05:49:49 -0700 (PDT)
+X-Received: by 2002:a25:2554:0:b0:6d2:e46b:cb5a with SMTP id l81-20020a252554000000b006d2e46bcb5amr3912721ybl.411.1667566189571;
+        Fri, 04 Nov 2022 05:49:49 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1667566189; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=krNea5KFqcS7owmRgrEtEivN+RhjmsKVdOVTDxZm/xGqpsVyuFq7nwgDu0kJKt2mBr
+         0a2BXymcFBmVdcsa5/fh8ScDF8f32NStGkxV3ImOlx/4o8szS4/92ccwaM82It2PV1rk
+         /9v+ke/hBBxkZTpbINLv0k8gPjJbXuOCSZx+Boe1kvW/V9r49DeWKSe30B6Y3Dog1nnV
+         AgpBMD/5ZKCqkHHihJ5wMr1PP71XRlADTcuZaMwjw8uDDraTBOSwC2GKoT3qZ4z3QzvA
+         gLWQMebvOKPNcyhT49lWm8NKW6dlLHzUB+qUfeTkcfm/ur3ct8HAGyggbRXzgbMoxRR3
+         vWWw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-unsubscribe-post:message-id:in-reply-to:date:list-id
+         :list-unsubscribe:list-owner:list-archive:reply-to:references
+         :list-url:sender:to:from:subject:mime-version:dkim-signature;
+        bh=sm1oCvqdCS8fg6GKjPpbhxPa2LfYmJxuiKDw3XJTlh8=;
+        b=ClWuN8aS8Fnw7+EpMOYmpReY4MEs7IxI5PkffgQmiuCw9cAQzN3utOBj5TUXdByBN5
+         DklN1bhMTEXas4u1oqpfndWD1PnMjwgk+r7Cemn8mY27lLps9HbJXH5Dd0395J/EVtOV
+         Hj57VcCW5hV2VQ3sZEEAxho27AfKcqFDY++d3GNaNDlK4PNLS7vjqoO73Cs/2L/j/Fx0
+         GByaTFU7fX54a6dfSRHGNFAy8k0beXY/RWizNNNaV9rhCZ/kPebcM0R6QkX+SFefvLEQ
+         War5II9N7JKz50pVdk7im81FSZq+nPfD8uUckx+m44LX7Jb3P+Sc1IcBt7YOTn76gi0w
+         1FVQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=U3KRErKF;
+       arc=pass (i=1 spf=pass spfdomain=mg-d1.substack.com dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n5-20020a257205000000b006cfe3511b85sor1627492ybc.38.2022.11.04.05.49.49
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Fri, 04 Nov 2022 05:49:49 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMsMyM4a7OuQJPwAzhM5PIKjh7/XLNkNgb7+TGsFA0QcloVV5f++/aRsGVdn/gcpifbJ3iq7PwlMuYdGfUHFQgBz4yo4yyQuyqI=
+X-Received: by 2002:a25:b8c9:0:b0:6cf:ec48:cd3a with SMTP id g9-20020a25b8c9000000b006cfec48cd3amr13422199ybm.129.1667566189259;
+        Fri, 04 Nov 2022 05:49:49 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1667566189; cv=none;
+        d=google.com; s=arc-20160816;
+        b=KNMClVqbtZOQ+hF1TVt+eqmxZWaMqUboy6e1NX/TGsA7g6hAUP0C2IZKzjNXMVu7Et
+         CzNTGH28nlqF1oQk1ROMSz8/gvLmuD2gun6L9jIuKwPYLYjkw+M4NQR0KpqDp36lPpNu
+         9WqLrwsIQ25P4j7/TP+jIE1tRNZwuoM1Va5Ykj17XvWIj/SDfufix8oT8TJmzwSDdX4E
+         duG9icx7AT5vt0/RZm0ldnl+0Os+W5osqQwPHUTVAqAosHF3J90FqxGXGwn/OpFQGChr
+         1UJUby8yJhX0UM+HNOQJgGqbeq/m/zZ9lOBxXm//geYDu2kwf+ra3Op3v1j1xNoKG9U8
+         NeVg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-unsubscribe-post:message-id:in-reply-to:date:list-id
+         :list-unsubscribe:list-owner:list-archive:reply-to:references
+         :list-url:sender:to:from:subject:mime-version:dkim-signature;
+        bh=sm1oCvqdCS8fg6GKjPpbhxPa2LfYmJxuiKDw3XJTlh8=;
+        b=C0396BjVzYbegbc9llb52M9IvxXfrnqR5R9zyvwNw1JsDs5r3onM5zzQJ2Jj0Htm65
+         WrwxH7U6+Jaa0G2kwnI6uAlGMoKyCpQR/uiiq5vT+UooCA9AE7vULGs0JtJVxP5AyQKP
+         pNJDyTn5jD3zcTRyC5tRd0sF8N/71sj82kV2/bvPVKNOf9v54NPiAoN/CtLbugF0LYFZ
+         1lXHj8Y+UVjjYwyoIZE7xvyFzbuF+uD7JhCPQ42xRiVvJoNHRsNqDY/J28+DNWwBweCy
+         Tby90YLZ5f08k2s1C3cXlEHTtJEH3oLuXGRna1QST+mREb8mDlk+36RqsoiCJi2ibaQy
+         kEKA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=U3KRErKF;
+       spf=pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 161.38.195.184 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from mg-195-184.substack.com (mg-195-184.substack.com. [161.38.195.184])
+        by gmr-mx.google.com with UTF8SMTPS id w2-20020a257b02000000b006cfe797b938si216147ybc.2.2022.11.04.05.49.46
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 04 Nov 2022 05:49:49 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 161.38.195.184 as permitted sender) client-ip=161.38.195.184;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d1.substack.com; q=dns/txt;
+ s=k1; t=1667566185; x=1667652585; h=List-Post: Message-Id: In-Reply-To:
+ Date: List-Id: List-Unsubscribe: List-Owner: List-Archive: Reply-To:
+ References: Sender: Sender: To: To: From: From: Subject: Subject:
+ Content-Type: Mime-Version;
+ bh=sm1oCvqdCS8fg6GKjPpbhxPa2LfYmJxuiKDw3XJTlh8=; b=U3KRErKFtFny6M7OL0zymmMwiWjyIfKl90nROtlWfnSwxaNdn/+9DW1XDOBBeBVj3j8NsIpj
+ DJCkOODexcmvuh31/l0PKtUtsFB6iPc1Sy3ON1EwTMwJYmRmoa33TE2h23dHaUcZkOau9JLu
+ 8/2M5G0O8I9rG1dfiuIkvZIKnSc=
+X-Mailgun-Sending-Ip: 161.38.195.184
+X-Mailgun-Sid: WyI1OTU0MCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiMzliMDhjNiJd
+Received: from <unknown> (<unknown> []) by ce7560e7bea8 with HTTP id
+ 63650a69a127c09ba4ae0774; Fri, 04 Nov 2022 12:49:43 GMT
+X-Mailgun-Batch-Id: 63650a68e1457c40396f505d
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="457ba0081c5aafbe8fa9bd3ee185d6d1f7d8af5d5b8d960e9789a211445f"
+Subject: Weekly Dose of Optimism #19
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+Sender: Not Boring <notboring@substack.com>
+List-Url: <https://www.notboring.co/>
+References: <post-82318539@substack.com>
+Reply-To: Not Boring
+ <reply+1d0de3&9p0gt&&3d1c269b9b3c1560148e155476c774643335f78f7e8d5327897e7044a26b8c4d@mg1.substack.com>
+List-Archive: <https://www.notboring.co/archive>
+List-Owner: <mailto:notboring@substack.com>
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk9ESXpNVGcxTXprc0ltbGhkQ0k2TVRZMk56VTJOakU0TVN3aVpYaHdJam94Tmpjd01UVTRNVGd4TENKcGMzTWlPaUp3ZFdJdE1UQXdNalVpTENKemRXSWlPaUprYVhOaFlteGxYMlZ0WVdsc0luMC5DZFV0ckMwVTMwUzdJOEFPVF8wN1ByMUdYUVVJSk1jeXEzUkhIUkdyRzZZIiwicCI6ODIzMTg1MzksInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjY3NTY2MTgxLCJleHAiOjE2NzAxNTgxODEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.jOX7aqZtCbCm_sjnsqWg_X1pGrs4EssgoI10oXxkSII?>
+List-Id: <notboring.substack.com>
+Date: Fri, 4 Nov 2022 12:49:15 +0000
+In-Reply-To: <post-82318539@substack.com>
+Message-Id: <20221104124915.3.9864b66d7fc71bce@mg-d1.substack.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Post: <https://www.notboring.co/p/weekly-dose-of-optimism-19>
+X-Mailgun-Variables: {"category": "post", "comment_id": "",
+ "email_generated_at": "1667566182337", "is_freemail": "true",
+ "post_audience": "everyone", "post_id": "82318539", "post_type":
+ "newsletter", "pub_community_enabled": "true", "publication_id": "10025",
+ "subdomain": "notboring", "user_id": "16283549"}
+
+--457ba0081c5aafbe8fa9bd3ee185d6d1f7d8af5d5b8d960e9789a211445f
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/weekly-dose-of-opti=
+mism-19
+
+Hi friends =F0=9F=91=8B,
+Happy Friday and welcome to our 19th Weekly Dose of Optimism. Once again: g=
+o Phils.
+The Weekly Dose is brought to you by=E2=80=A6 Composer [ https://substack.c=
+om/redirect/7078ae51-424d-4156-a78e-215b92834bce?r=3D9p0gt ]
+Luck isn=E2=80=99t an investment strategy. If you=E2=80=99ve read Not Borin=
+g for a while, you=E2=80=99re familiar with Composer [ https://substack.com=
+/redirect/7078ae51-424d-4156-a78e-215b92834bce?r=3D9p0gt ] =E2=80=94 the in=
+vestment app that let=E2=80=99s you easily build sophisticated trading stra=
+tegies. Since founding its algorithmic trading platform in 2020, Composer h=
+as helped over 20,000 customers trade=C2=A0100s of millions of dollars. I=
+=E2=80=99m one of them =E2=80=94 after finally admitting I=E2=80=99m a terr=
+ible trader, I=E2=80=99ve moved my public markets investing to Composer=E2=
+=80=99s automated strategies.
+Composer has synthesized all of this data, sifting through what works (and,=
+ importantly, what=C2=A0doesn=E2=80=99t) to create its most powerful invest=
+ing solution yet:=C2=A0Opus [ https://substack.com/redirect/7078ae51-424d-4=
+156-a78e-215b92834bce?r=3D9p0gt ]. Put simply, Opus is a quantitative tool =
+built on Composer=E2=80=99s vast pool of data with just one goal in mind: m=
+aximize risk-adjusted returns.=C2=A0Opus by Composer=C2=A0can help you, as =
+a retail investor, close the gap.=20
+It=E2=80=99s easy to get started.=C2=A0Just choose your volatility level an=
+d start investing in Opus.
+(1) AlphaFold=E2=80=99s new rival? Meta AI predicts shape of 600 million pr=
+oteins [ https://substack.com/redirect/650b030b-ac4f-4f45-a00a-c578071c88be=
+?r=3D9p0gt ]
+Ewen Callaway [ https://substack.com/redirect/53b727c1-1cd6-43d9-a2b1-9882d=
+792f961?r=3D9p0gt ] for Nature
+Researchers at Meta (formerly Facebook, headquartered in Menlo Park, Califo=
+rnia) have used artificial intelligence (AI) to predict the structures of s=
+ome 600 million proteins from bacteria, viruses and other microbes that hav=
+en=E2=80=99t been characterized.
+It=E2=80=99s been a tough few weeks (months? quarters? years?) for Meta. Ne=
+gative headlines, whistleblowing, stock volatility =E2=80=94 you name it. S=
+o it can be easy to forget that the social media giant is also one of the w=
+orld=E2=80=99s largest long-term investors in AI research. Sure, most of th=
+at AI will be used to fine tune Reels recommendations or target ads or make=
+ the Metaverse more performant =E2=80=94 but the underlying research can al=
+so be applied to deep scientific research.=20
+Zuck has been one of the larger patrons of science over the last decade and=
+ his foundation, The Chan Zuckerberg Initiative, has the goal of =E2=80=9Cm=
+anaging all diseases=E2=80=9D by the end of the 21st century. To do so, the=
+y=E2=80=99ll inevitably need major advancements in how we understand the bo=
+dy at the molecular level. AI can be really useful here.=20
+Meta=E2=80=99s model predicts the shape of ~600 million proteins, nearly th=
+ree times as many as the ~220 million protein structures DeepMind unveiled =
+earlier this year. The delta was driven by Meta=E2=80=99s model identifying=
+ proteins from bacteria, viruses, and other microbes that hadn=E2=80=99t ye=
+t been characterized. While Meta=E2=80=99s model is not at as accurate as D=
+eepMind=E2=80=99s, it=E2=80=99s about 60x faster, which enables it to run o=
+n much larger databases. =E2=80=9CMove fast and break things with stable in=
+frastructure.=E2=80=9D =20
+This is the type of Big Tech competition we can get behind.
+(2) Why America Must Develop Space, and How We=E2=80=99ll Do It [ https://s=
+ubstack.com/redirect/ad7c9638-bd88-45cc-ab2c-915c7217dd59?r=3D9p0gt ]
+Ryan McEntush [ https://substack.com/redirect/1a06c1ec-6410-4960-8e87-9fbfc=
+fc0ab0f?r=3D9p0gt ] for a16z.com
+Space is far too important to simply cede development to others. Control of=
+ this new sea and development of the space industrial base are paramount to=
+ward the continued strength of the United States, and the prolonging of a w=
+orld of free markets and liberal democracies. At the end of the day, this s=
+eismic effort requires the might of a strong, skillful, and, most of all, d=
+etermined population. As a nation, we can accomplish this task ahead of us.=
+ That one small step might spawn another, then cast us forward into a strid=
+e =E2=80=94 expanding our civilization into the pantheon of the heavens.
+a16z (where I=E2=80=99m an advisor on the Crypto team) is making a big push=
+ into space as part of its American Dynamism practice. At Not Boring, we pa=
+rtnered with Payload Space [ https://substack.com/redirect/cfd836bc-5c08-4b=
+b8-8e34-0b5a82658a7d?r=3D9p0gt ] to publish a full breakdown of The Space E=
+conomy [ https://substack.com/redirect/39ba984d-0e47-4292-9cc8-6fd3f6898bf8=
+?r=3D9p0gt ] which chronicles the development of the space industry, analyz=
+es its value chain, and highlights some of the major players in the ecosyst=
+em. Our analysis put a spotlight on growing competition between the U.S. an=
+d the Sino-Russian space alliance, but this piece goes a few important step=
+s further. It plants a flag in the investment world that:
+Space is an important battleground of the New Cold War,=20
+We need public, private, and public-private investment into space to compet=
+e on that battleground, and=20
+Now is a good time to invest in that future.=20
+a16z has a history of publishing these paradigm shifting pieces, including:=
+ Why Software is Eating the World [ https://substack.com/redirect/276d4bbd-=
+4a24-4101-b5cb-4a66029bc2c4?r=3D9p0gt ] (2011), Why Bitcoin Matters [ https=
+://substack.com/redirect/e10dd75b-bac3-4226-a31e-fbaddb21a036?r=3D9p0gt ] (=
+2014), It=E2=80=99s Time to Build [ https://substack.com/redirect/2cc2fa20-=
+eaa8-44b4-99f2-3fdc099d3050?r=3D9p0gt ] (2020), Building American Dynamism =
+[ https://substack.com/redirect/e14cc7cd-e187-4f0b-818e-41eb03cea6c8?r=3D9p=
+0gt ] (2022). If the aftermath of those pieces is any indication, IT=E2=80=
+=99S TIME TO INVEST IN SPACE.
+(3) Nuclear energy: past, present and future [ https://substack.com/redirec=
+t/9201f988-c80f-4091-ae59-59ea833b3e65?r=3D9p0gt ]
+By Julia DeWahl [ https://substack.com/redirect/c9dacce4-f94a-4d4c-84c1-430=
+6108befc3?r=3D9p0gt ]=20
+Despite these challenges, nuclear energy=E2=80=99s carbon-free, 24/7 qualit=
+ies make it undeniably attractive to meet the demands of clean, firm power,=
+ where both fossil fuels and renewables fall short. There have been a numbe=
+r of promising developments for nuclear energy this year and the =E2=80=98w=
+hy now=E2=80=99 for nuclear is strong.
+This nuclear energy deep dive from Julia DeWahl [ https://substack.com/redi=
+rect/c2344d09-a3c0-42e7-b27b-f81a913ab274?r=3D9p0gt ] is the most digestibl=
+e breakdown of nuclear energy=E2=80=99s past, present, and future we=E2=80=
+=99ve come across.
+Past: It=E2=80=99s actually quite frustrating to see how flimsy the anti-nu=
+clear argument is. Flimsy in that the anti-nuclear movement gained momentum=
+ due to some combination of poor word association, over-blown media reactio=
+ns (exactly zero (0) people died at Three Mile Island), and NIMBYism. Frust=
+rating in that the nuclear stigma prevented ~50 years of the world fully us=
+ing and innovating on a high-potential clean energy source.
+Present: The U.S. relies on nuclear more than you=E2=80=99d imagine =E2=80=
+=94 over 20% of the electricity and over 50% of carbon-free electricity we =
+use comes from nuclear. The case for nuclear can be made in three points: i=
+t=E2=80=99s clean, safe, and efficient. But nuclear also faces some challen=
+ges, namely: regulation, pervasive stigma, and rising infrastructure costs.
+Future: We need to both combat climate change and generate more energy; nuc=
+lear is well-positioned to establish itself as a long-term smart choice for=
+ clean energy. It=E2=80=99ll need to overcome some regulatory issues, conti=
+nue its PR campaign, and decrease costs (small modular reactors, which we m=
+entioned here [ https://substack.com/redirect/95da1450-37ab-4d7b-a3fd-40357=
+1b40972?r=3D9p0gt ], are making headway on this front).=20
+Abundant clean, cheap energy is one of the biggest unlocks available to hum=
+anity. We want all the solar, wind, geothermal, hydro, and nuclear we can g=
+et our hands on.
+(4) After promising trial results for maternal RSV vaccine, Pfizer says it =
+will seek FDA approval this year [ https://substack.com/redirect/45ba1f4b-2=
+369-49b3-aff3-48ceadf10609?r=3D9p0gt ]
+Brenda Goodman [ https://substack.com/redirect/d4d7af1b-bf16-441d-b013-e29e=
+ecf33e98?r=3D9p0gt ] for CNN
+=E2=80=9CThe [study data monitoring committee] recommended, based on the da=
+ta that we have, that we should go ahead and file, that this offers the pot=
+ential for a safe and effective vaccine that could really dramatically help=
+ to prevent RSV during the winter season,=E2=80=9D Dr. William Gruber, Pfiz=
+er=E2=80=99s senior vice president of vaccine clinical research and develop=
+ment, told CNN.
+This one hits close to home. Dev just got over RSV. Maya has it. Pretty muc=
+h everyone we know with kids is going through the same thing right now. And=
+ we=E2=80=99re not alone, there is a surge in RSV [ https://substack.com/re=
+direct/1a87de82-e300-4bda-8670-d839022aad56?r=3D9p0gt ] cases in the US.
+So the news that Pfizer=E2=80=99s RSV vaccine trials were successful enough=
+ to prompt the company to apply to for FDA approval is more than welcomed. =
+The vaccine=E2=80=99s trial results were impressive: reducing serious RSV i=
+n a baby=E2=80=99s first 3 months by 80% and reducing the likelihood of a b=
+aby needing to see a doctor by 50%. Depending on FDA timelines, the vaccine=
+ could be out in the wild before next winter.
+(5) CEO Patrick Collison's email to Stripe employees [ https://substack.com=
+/redirect/b12efa4e-5220-407e-8448-e3f4d91c6053?r=3D9p0gt ]
+Patrick Collison [ https://substack.com/redirect/0b45fff3-ff1c-4961-b982-d5=
+127156064a?r=3D9p0gt ] for Stripe
+While the changes today are painful, we feel very good about the prospects =
+for innovative businesses and about Stripe=E2=80=99s position in the intern=
+et economy. The data we see is consistent with this encouraging picture: we=
+ signed a remarkable 75% more new customers in Q3 2022 than Q3 2021, our co=
+mpetitive win rates are getting even better, our growth rates remain very s=
+trong, and on Tuesday we set a new record for total daily transaction volum=
+e processed. Our smaller users (many of whom are just =E2=80=9Cbig customer=
+s that aren=E2=80=99t yet big=E2=80=9D) are, in aggregate, growing extremel=
+y quickly, showing that plenty of technology S curves remain in the early i=
+nnings and that our customers remain impressively resilient in the face of =
+the broader global challenges.
+As we=E2=80=99ve discussed previously [ https://substack.com/redirect/c7d74=
+79d-becc-4dc0-a072-9d81da231e71?r=3D9p0gt ], layoffs are never a cause for =
+celebration. They suck. Aside from the obvious fact that people getting fir=
+ed en masse is not pleasant, much of the ickiness is the result of how comp=
+any managers handle the process. Some CEOs handle it like this [ https://su=
+bstack.com/redirect/046fd38e-ee8a-421e-a04a-8a926f822e99?r=3D9p0gt ]. Other=
+s, like Patrick Collison, handle it with a bit more tact and generosity.
+But layoffs can also be positive in the longer-term, for the companies, the=
+ people laid off, and the wider ecosystem. Aside from the thoughtful execut=
+ive comms and plush exit packages, I think there are two optimistic takes t=
+o be harvested from this otherwise gloomy note:
+Internet Commerce Growth: Despite massive macroeconomic challenges, Stripe =
+grew new customers 75% YoY in Q3 and recently set a record for daily transa=
+ction volume. Commerce on the internet breeds opportunity, and that opportu=
+nity is still growing quickly.
+Schumpeter=E2=80=99s Gale: In addition to one of the more generous severanc=
+e packages I=E2=80=99ve ever seen (14 weeks, unpaid PTO, bonuses, accelerat=
+ed vesting cliffs, healthcare, career support), all 1,000 of the former emp=
+loyees now have Stripe on their resumes (and an alumni.stripe.com email add=
+ress). That=E2=80=99s 1,000 ex-Stripes looking to bring their skills, netwo=
+rks, and pedigree to the next wave of startups. Some will start new compani=
+es, many will join younger startups and bring with them experience in scali=
+ng thoughtfully. The Stripes=E2=80=99 surface area will increase.=20
+Plus, layoffs are generally just the beginning =E2=80=94 going forward, Str=
+ipe will slow down hiring after nearly 4x=E2=80=99ing staff in the last few=
+ years. Stripe probably didn=E2=80=99t lay off its 10x engineers, but it wi=
+ll be less aggressive in competing for the next batch of them. Without Big =
+Tech, Stripe included, aggressively recruiting to fill massive hiring quota=
+s, startups may have the opportunity to compete for the very best talent.=20
+BONUS: Portrait by Vana [ https://substack.com/redirect/57e2f42e-02de-490d-=
+88b4-cb763f5ee057?r=3D9p0gt ]
+Not Boring Capital portfolio company, Vana [ https://substack.com/redirect/=
+3671fe64-6d10-41c5-8f37-339d814bdbc8?r=3D9p0gt ], is getting in on the Gene=
+rative AI action with the release of Portrait [ https://substack.com/redire=
+ct/57e2f42e-02de-490d-88b4-cb763f5ee057?r=3D9p0gt ]. Very simple to use and=
+ and impressive end-product: just upload 8 images of your face, Vana develo=
+ps a generative art model for you, and voila: a few hours later, you have a=
+ gallery of AI-generated portraits emailed to you. Here=E2=80=99s one of mi=
+ne:
+Give it a try and tweet your favorite result @notboringco. We=E2=80=99ll re=
+tweet a few of our favorites and share some in next week=E2=80=99s Weekly D=
+ose.
+That=E2=80=99s all for this week. Next Friday will be our 20th straight Wee=
+kly Dose of Optimism. Ahead of that, if you enjoyed this edition, we=E2=80=
+=99d really appreciate if you shared it with a friend, family member or col=
+league.=20
+We=E2=80=99ll be back in your inbox 9am EST on Monday morning. Enjoy the we=
+ekend.
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZPREl6TVRnMU16a3NJbWxoZENJNk1UWTJOelUyTmpFNE1Td2laW=
+Gh3SWpveE5qY3dNVFU0TVRneExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FY=
+TmhZbXhsWDJWdFlXbHNJbjAuQ2RVdHJDMFUzMFM3SThBT1RfMDdQcjFHWFFVSUpNY3lxM1JISFJ=
+Hckc2WSIsInAiOjgyMzE4NTM5LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdC=
+I6MTY2NzU2NjE4MSwiZXhwIjoxNjcwMTU4MTgxLCJpc3MiOiJwdWItMCIsInN1YiI6Imxpbmstc=
+mVkaXJlY3QifQ.fL9Xb9jSHI06ksO1zs8GCdEqRCjZZWqKA0t7POdkFFo?
+--457ba0081c5aafbe8fa9bd3ee185d6d1f7d8af5d5b8d960e9789a211445f
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D""><head><title>Weekly Dose of Optimism #19</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.youtube-inner div.youtube-screen,
+  .typography.editor .markup div.youtube-inner div.youtube-screen,
+  .typography .markup div.vimeo-inner div.youtube-screen,
+  .typography.editor .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet,
+  .typography.editor .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-text,
+  .typography.editor .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-photos-container.two,
+  .typography.editor .markup .tweet .tweet-photos-container.two,
+  .typography .markup .tweet .tweet-photos-container.three,
+  .typography.editor .markup .tweet .tweet-photos-container.three,
+  .typography .markup .tweet .tweet-photos-container.four,
+  .typography.editor .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-img,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-description,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-descript=
+ion {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget,
+  .header-anchor-container .header-anchor-widget {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .post-label {
+    margin-top: 8px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.youtube-inner div.youtube-screen,
+  body .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  body .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-sub=
+scribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-photos-container.two,
+  body .markup .tweet .tweet-photos-container.three,
+  body .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed img.install-substack-app-embed-i=
+mg {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-link=
+ {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .footer {
+    outline: 8px solid #eeeeee !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIxMTA0MTI0OTE1LjMuOTg2NGI2NmQ3ZmM3MWJjZUBtZy1kMS5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFja=
+y5jb20iLCJwIjo4MjMxODUzOSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjox=
+MDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTY2NzU2NjE=
+4MiwiZXhwIjoxNjcwMTU4MTgyLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.broE8wzC77BtOt=
+-UsR_pvSeiscZdGxbVfXxA4Mvzps8" alt=3D"" width=3D"1" height=3D"1" border=3D"=
+0" style=3D"height:1px !important;width:1px !important;border-width:0 !impo=
+rtant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !im=
+portant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 =
+!important;padding-right:0 !important;padding-left:0 !important;"/><div sty=
+le=3D"display:none;font-size:1px;color:#333333;line-height:1px;max-height:0=
+px;max-width:0px;opacity:0;overflow:hidden;" class=3D"preview">Meta's Prote=
+in, It's Time to Space, Nuclear Brief, RSV Vaccine, Stripe Layoffs, AI Port=
+raits &#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;</div><table role=
+=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" class=3D"email-body-container"><tr><td></td><td width=3D"550" class=
+=3D"content"></td><td></td></tr><tr><td></td><td align=3D"left" width=3D"55=
+0" class=3D"content"><div style=3D"font-size: 16px; line-height: 26px; marg=
+in: 0 auto; max-width: 550px; overflow-wrap: break-word; width: 100%;"><tab=
+le role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0"><tr><td align=3D"right" style=3D"height: 20px;"><table role=
+=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td style=3D"vertical-align: middle;"><span class=3D"tw-font-bod=
+y tw-text-ssm tw-text-substack-secondary" style=3D"color: #808080 !importan=
+t; font-family: SF Pro Text, -apple-system, BlinkMacSystemFont, Inter, Sego=
+e UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emo=
+ji, Segoe UI Symbol !important; font-size: 13px !important;"><a href=3D"htt=
+ps://open.substack.com/pub/notboring/p/weekly-dose-of-optimism-19?utm_sourc=
+e=3Demail&redirect=3Dapp-store" class=3D"tw-text-substack-secondary tw-unde=
+rline" style=3D"-webkit-text-decoration-line: underline !important; color: =
+#808080 !important; text-decoration-line: underline !important;">Open in ap=
+p</a> or <a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3c=
+ubm90Ym9yaW5nLmNvL3Avd2Vla2x5LWRvc2Utb2Ytb3B0aW1pc20tMTk_dG9rZW49ZXlKMWMyVn=
+lYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk9ESXpNVGcxTXprc0ltbGhkQ0k2TVRZM=
+k56VTJOakU0TVN3aVpYaHdJam94Tmpjd01UVTRNVGd4TENKcGMzTWlPaUp3ZFdJdE1UQXdNalVp=
+TENKemRXSWlPaUp3YjNOMExYSmxZV04wYVc5dUluMC5KTXVmcjRyTGlLY1NURTRaUjdDZ0V2OVp=
+UWTNoNlViREd3NUNkcjd1RlZJIiwicCI6ODIzMTg1MzksInMiOjEwMDI1LCJmIjp0cnVlLCJ1Ij=
+oxNjI4MzU0OSwiaWF0IjoxNjY3NTY2MTgxLCJleHAiOjE2NzAxNTgxODEsImlzcyI6InB1Yi0wI=
+iwic3ViIjoibGluay1yZWRpcmVjdCJ9.QayhudXZo4-9gQm0fFIAaqDd-DB9RDUyihlkR1W8YrE=
+?" class=3D"tw-text-substack-secondary tw-underline" style=3D"-webkit-text-=
+decoration-line: underline !important; color: #808080 !important; text-deco=
+ration-line: underline !important;">online</a></span></td></tr></table></td=
+></tr></table><div dir=3D"auto" class=3D"post typography" style=3D"font-siz=
+e: 16px; line-height: 26px; padding: 16px 0 0 0;"><div class=3D"post-header=
+" style=3D"font-size: 16px; line-height: 26px;"><h1 class=3D"post-title pub=
+lished" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothi=
+ng: antialiased; color: #404040; font-family: 'SF Compact Display', -apple-=
+system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-seri=
+f, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 32p=
+x; font-weight: bold; line-height: 36px; margin: 0;"><a href=3D"https://sub=
+stack.com/app-link/post?publication_id=3D10025&post_id=3D82318539&utm_sourc=
+e=3Dpost-email-title&isFreemail=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwi=
+cG9zdF9pZCI6ODIzMTg1MzksImlhdCI6MTY2NzU2NjE4MSwiZXhwIjoxNjcwMTU4MTgxLCJpc3M=
+iOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.JMufr4rLiKcSTE4ZR7CgEv9ZTY=
+3h6UbDGw5Cdr7uFVI" style=3D"color: #404040; text-decoration: none;">Weekly =
+Dose of Optimism #19</a></h1><h3 class=3D"subtitle" style=3D"-moz-osx-font-=
+smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #808080=
+; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Se=
+goe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe =
+UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-weight: normal; line-he=
+ight: 24px; margin: 4px 0 0; margin-top: 12px;">Meta's Protein, It's Time t=
+o Space, Nuclear Brief, RSV Vaccine, Stripe Layoffs, AI Portraits</h3><tabl=
+e cellpadding=3D"0" cellspacing=3D"0" class=3D"post-meta custom" style=3D"a=
+lign-items: center; height: 20px; margin: 1em 0;"><tr><td title=3D"2022-11-=
+04T12:49:32.191Z" class=3D"post-meta-item post-date" style=3D"color: #80808=
+0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helv=
+etica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol'; font-size: 14px; font-weight: 400; height: 14px; margin-right: 0; =
+padding: 0px 12px 0px 0; padding-bottom: 0; padding-right: 0; padding-top: =
+0; position: relative; text-decoration: none; white-space: nowrap;"><div cl=
+ass=3D"frontend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-m=
+odule__size-12--2onFT frontend-pencraft-Text-module__line-height-20--1soeQ =
+frontend-pencraft-Text-module__weight-medium--aTbx5 frontend-pencraft-Text-=
+module__font-meta--2i-cR frontend-pencraft-Text-module__color-secondary--Xj=
+VGl frontend-pencraft-Text-module__meta--3RRSj" style=3D"color: #808080; fo=
+nt-family: 'SF Compact Text', 'SF Pro Text', -apple-system, BlinkMacSystemF=
+ont, 'Inter', 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; font-size: 12px; font-weight: 500; letter-spacing: 0.2px; =
+line-height: 20px; margin: 0; text-decoration: unset; text-transform: upper=
+case;"><time dateTime=3D"2022-11-04T12:49:32.191Z">Nov 4</time></div></td><=
+/tr></table><table role=3D"presentation" width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" class=3D"email-ufi-2-top" style=3D"border-bot=
+tom: 1px solid #e0e0e0; border-top: 1px solid #e0e0e0; min-width: 100%;"><t=
+r height=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;"=
+>&#160;</td></tr><tr><td><table role=3D"presentation" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><table role=3D"presentat=
+ion" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><t=
+d style=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"3=
+8" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center=
+"><a href=3D"https://substack.com/app-link/post?publication_id=3D10025&post=
+_id=3D82318539&utm_source=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtrue&to=
+ken=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6ODIzMTg1MzksInJlYWN0aW9uIjoi4=
+p2kIiwiaWF0IjoxNjY3NTY2MTgxLCJleHAiOjE2NzAxNTgxODEsImlzcyI6InB1Yi0xMDAyNSIs=
+InN1YiI6InJlYWN0aW9uIn0.z0e3zQLZLZtOvub5vAw3DL-ci0tgdVButZu7C_cZZ9E&utm_med=
+ium=3Demail" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; b=
+ox-sizing: border-box; color: #808080; display: inline-block; font-family: =
+'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 1; m=
+in-width: 38px; padding: 9px 0; text-decoration: none; text-transform: uppe=
+rcase; width: 38px;" class=3D"email-icon-button"><img src=3D"https://substa=
+ckcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/h=
+ttps%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill=
+%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18=
+" style=3D"border: none !important; max-width: 18px; vertical-align: middle=
+;" alt=3D"" class=3D"icon"></a></td></tr></table></td><td width=3D"8" style=
+=3D"min-width: 8px"></td><td style=3D"vertical-align: middle;"><table role=
+=3D"presentation" width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/app-link/po=
+st?publication_id=3D10025&post_id=3D82318539&utm_source=3Dsubstack&utm_medi=
+um=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4Mz=
+U0OSwicG9zdF9pZCI6ODIzMTg1MzksImlhdCI6MTY2NzU2NjE4MSwiZXhwIjoxNjcwMTU4MTgxL=
+CJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.JMufr4rLiKcSTE4ZR7Cg=
+Ev9ZTY3h6UbDGw5Cdr7uFVI&utm_source=3Dsubstack&utm_medium=3Demail" style=3D"=
+border: 1px solid #e0e0e0; border-radius: 100000px; box-sizing: border-box;=
+ color: #808080; display: inline-block; font-family: 'SF Pro Text', -apple-=
+system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, A=
+rial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';=
+ font-size: 12px; font-weight: 500; line-height: 1; min-width: 38px; paddin=
+g: 9px 0; text-decoration: none; text-transform: uppercase; width: 38px;" c=
+lass=3D"email-icon-button"><img src=3D"https://substackcdn.com/image/fetch/=
+w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.=
+com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D=
+%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: =
+none !important; max-width: 18px; vertical-align: middle;" alt=3D"" class=
+=3D"icon"></a></td></tr></table></td><td width=3D"8" style=3D"min-width: 8p=
+x"></td><td style=3D"vertical-align: middle;"><table role=3D"presentation" =
+width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=
+=3D"center"><a href=3D"https://substack.com/app-link/post?publication_id=3D=
+10025&post_id=3D82318539&utm_source=3Dsubstack&utm_medium=3Demail&utm_conte=
+nt=3Dshare&action=3Dshare&triggerShare=3Dtrue&isFreemail=3Dtrue&token=3DeyJ=
+1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6ODIzMTg1MzksImlhdCI6MTY2NzU2NjE4MSwiZX=
+hwIjoxNjcwMTU4MTgxLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.J=
+Mufr4rLiKcSTE4ZR7CgEv9ZTY3h6UbDGw5Cdr7uFVI" style=3D"border: 1px solid #e0e=
+0e0; border-radius: 100000px; box-sizing: border-box; color: #808080; displ=
+ay: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-serif,=
+ BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'App=
+le Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font=
+-weight: 500; line-height: 1; min-width: 38px; padding: 9px 0; text-decorat=
+ion: none; text-transform: uppercase; width: 38px;" class=3D"email-icon-but=
+ton"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_a=
+uto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideSha=
+re%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth=
+%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; max-widt=
+h: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"></a></td></tr></t=
+able></td></tr></table></td><td align=3D"right"><table role=3D"presentation=
+" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td s=
+tyle=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"auto=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"=
+><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL3Avd2Vla2x5LWRvc2Utb2Ytb3B0aW1pc20tMTk_dXRtX3NvdXJjZT1zdWJzdGFjay=
+Z1dG1fbWVkaXVtPWVtYWlsJnRva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6Z=
+EY5cFpDSTZPREl6TVRnMU16a3NJbWxoZENJNk1UWTJOelUyTmpFNE1Td2laWGh3SWpveE5qY3dN=
+VFU0TVRneExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKellYWmxMWEJ2YzNRaWZ=
+RLlA3c05fRlVsWlZEakh5RTJkYm5PR2s1b2hmck53c05fdk1GZXdxbmFoSlUmYWN0aW9uPXNhdm=
+UiLCJwIjo4MjMxODUzOSwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2N=
+jc1NjYxODEsImV4cCI6MTY3MDE1ODE4MSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGly=
+ZWN0In0.kTcm_lJIF2hPuQOoCDHZp-D7l0nLzazjHcmC8meh5gM?" class=3D"email-button=
+-outline" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; colo=
+r: #808080; display: inline-block; font-family: 'SF Pro Text', -apple-syste=
+m, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,=
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font=
+-size: 12px; font-weight: 500; line-height: 12px; padding: 9px 14px; text-d=
+ecoration: none; text-transform: uppercase;"><div class=3D"email-button-spa=
+cer" style=3D"display: inline-block; font-size: 16px; line-height: 26px; ma=
+x-width: 0; min-height: 18px; vertical-align: middle;"></div><span class=3D=
+"email-button-text" style=3D"vertical-align: middle;">Save</span></a></td><=
+/tr></table></td><td width=3D"8" style=3D"min-width: 8px"></td><td style=3D=
+"vertical-align: middle;"><table role=3D"presentation" width=3D"auto" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a hre=
+f=3D"https://open.substack.com/pub/notboring/p/weekly-dose-of-optimism-19?u=
+tm_source=3Demail-ufi&play_audio=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSw=
+icG9zdF9pZCI6ODIzMTg1MzksImlhdCI6MTY2NzU2NjE4MSwiZXhwIjoxNjcwMTU4MTgxLCJpc3=
+MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.JMufr4rLiKcSTE4ZR7CgEv9ZT=
+Y3h6UbDGw5Cdr7uFVI" class=3D"email-button-outline" style=3D"border: 1px sol=
+id #e0e0e0; border-radius: 100000px; color: #808080; display: inline-block;=
+ font-family: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFo=
+nt, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; lin=
+e-height: 12px; padding: 9px 14px; text-decoration: none; text-transform: u=
+ppercase;"><div class=3D"email-button-spacer" style=3D"display: inline-bloc=
+k; font-size: 16px; line-height: 26px; max-width: 0; min-height: 18px; vert=
+ical-align: middle;"></div><span class=3D"email-button-text" style=3D"verti=
+cal-align: middle;">&#9655;&#160;&#160;Listen</span></a></td></tr></table><=
+/td></tr></table></td></tr></table></td></tr><tr height=3D"16"><td height=
+=3D"16" style=3D"font-size: 0px; line-height: 0;">&#160;</td></tr></table><=
+/div></div><div dir=3D"auto" class=3D"post typography" style=3D"font-size: =
+16px; line-height: 26px; padding: 16px 0 0 0;"><div dir=3D"auto" class=3D"b=
+ody markup" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16p=
+x; text-align: initial; width: 100%; word-break: break-word;"><div class=3D=
+"captioned-image-container-static" style=3D"font-size: 16px; line-height: 2=
+6px; margin: 32px auto; margin-top: 0;"><figure style=3D"margin: 0 auto; wi=
+dth: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tb=
+ody><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"=
+content" width=3D"1200" style=3D"text-align: center;"><a class=3D"image-lin=
+k" target=3D"_blank" href=3D"https://substack.com/redirect/26c35c99-2af6-44=
+3c-bf15-4e4b5c80a538?r=3D9p0gt" rel=3D"" style=3D"align-items: center; bord=
+er: none; display: block; flex-direction: column; height: auto; margin: 0; =
+margin-bottom: 0; margin-top: 0; padding: 0; position: relative; text-decor=
+ation: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https:=
+//bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/im=
+ages/4758d5f0-8a98-4c01-8058-04960109a961_1200x600.png&quot;,&quot;fullscre=
+en&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:600,&quot;width=
+&quot;:1200,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:31584,&quot;alt&=
+quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&q=
+uot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;internalRedirect&q=
+uot;:null}" alt=3D"" width=3D"550" height=3D"275" class=3D"wide-image" src=
+=3D"https://substackcdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be=
+77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4758d5f0-8a98-4c01-8058-04960109=
+a961_1200x600.png" style=3D"-ms-interpolation-mode: bicubic; border: none !=
+important; display: block; height: auto; margin: 0 auto; margin-bottom: 0; =
+max-width: 100% !important; vertical-align: middle; width: auto !important;=
+"></a></td><td style=3D"text-align: center;"></td></tr></tbody></table></fi=
+gure></div><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"=
+background: #e0e0e0; border: none; height: 1px; margin: 32px 0; padding: 0;=
+"></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;">Hi friends &#128075;,</p><p style=3D"color: #404040; font=
+-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Happy Friday and welco=
+me to our 19th Weekly Dose of Optimism. Once again: go Phils.</p><div class=
+=3D"subscribe-widget is-signed-up is-fully-subscribed" style=3D"direction: =
+ltr; font-size: 16px; line-height: 26px; margin: 0 0 1em;"><p class=3D"butt=
+on-wrapper" style=3D"color: #404040; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 20px 0; text-align: center;"><a href=3D"https://substack.com/redi=
+rect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjY291bnQiLCJwIjo4MjMxODUz=
+OSwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2Njc1NjYxODEsImV4cCI=
+6MTY3MDE1ODE4MSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.putJrbZDZ5=
+sdprFOFe9ywf3XwAuE0418zv9Y7LCre4E?" class=3D"button subscribe-btn outline" =
+style=3D"background: transparent; background-color: transparent; border: 1p=
+x solid #67bdfc; border-radius: 4px; box-sizing: border-box; color: #67bdfc=
+; cursor: pointer; display: inline-block; font-family: -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weigh=
+t: 600; height: auto; line-height: 20px; margin: 0 auto; opacity: 1; outlin=
+e: none; padding: 12px 20px; text-align: center; text-decoration: none !imp=
+ortant; white-space: nowrap;"><img src=3D"https://substackcdn.com/image/fet=
+ch/w_40,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubsta=
+ck.com%2Ficon%2FLucideCheck%3Fv%3D4%26height%3D40%26fill%3Dtransparent%26st=
+roke%3D%252367bdfc%26strokeWidth%3D2" width=3D"20" height=3D"20" style=3D"-=
+ms-interpolation-mode: bicubic; border: none !important; display: inline-bl=
+ock; height: auto; margin: 0 auto; margin-right: 0.5rem; max-width: 20px; v=
+ertical-align: middle;" alt=3D"" class=3D"check-icon static"><span style=3D=
+"text-decoration: none;">Subscribe</span></a></p></div><div style=3D"font-s=
+ize: 16px; line-height: 26px;"><hr style=3D"background: #e0e0e0; border: no=
+ne; height: 1px; margin: 32px 0; padding: 0;"></div><p style=3D"color: #404=
+040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><strong><span=
+>The Weekly Dose is brought to you by&#8230; </span><a href=3D"https://subs=
+tack.com/redirect/7078ae51-424d-4156-a78e-215b92834bce?r=3D9p0gt" rel=3D"" =
+style=3D"color: #404040; text-decoration: underline;">Composer</a></strong>=
+</p><div class=3D"captioned-image-container-static" style=3D"font-size: 16p=
+x; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; =
+width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><=
+tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=
+=3D"content" width=3D"528" style=3D"text-align: center;"><a class=3D"image-=
+link" target=3D"_blank" href=3D"https://substack.com/redirect/03309191-f01f=
+-4d99-a943-299a96675a3d?r=3D9p0gt" rel=3D"" style=3D"align-items: center; b=
+order: none; display: block; flex-direction: column; height: auto; margin: =
+0; padding: 0; position: relative; text-decoration: none; width: auto;"><im=
+g data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e=
+-9518-adb32be77984.s3.amazonaws.com/public/images/ef683764-308b-465e-8c7d-c=
+dc4fe6a134b_800x400.jpeg&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&=
+quot;:null,&quot;height&quot;:400,&quot;width&quot;:800,&quot;resizeWidth&q=
+uot;:528,&quot;bytes&quot;:215813,&quot;alt&quot;:null,&quot;title&quot;:nu=
+ll,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belo=
+wTheFold&quot;:false,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"=
+528" height=3D"264" class=3D"" src=3D"https://substackcdn.com/image/fetch/w=
+_528,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketee=
+r-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2=
+Fef683764-308b-465e-8c7d-cdc4fe6a134b_800x400.jpeg" style=3D"-ms-interpolat=
+ion-mode: bicubic; border: none !important; display: block; height: auto; m=
+argin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-align=
+: middle; width: auto !important;"></a></td><td style=3D"text-align: center=
+;"></td></tr></tbody></table></figure></div><p style=3D"color: #404040; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><em><strong>Luck isn&=
+#8217;t an investment strategy.</strong><span> If you&#8217;ve read Not Bor=
+ing for a while, you&#8217;re familiar with </span><a href=3D"https://subst=
+ack.com/redirect/7078ae51-424d-4156-a78e-215b92834bce?r=3D9p0gt" rel=3D"" s=
+tyle=3D"color: #404040; text-decoration: underline;">Composer</a><span> &#8=
+212; the investment app that let&#8217;s you easily build sophisticated tra=
+ding strategies. Since founding its algorithmic trading platform in 2020, C=
+omposer has helped over </span><strong>20,000 customers</strong><span> trad=
+e&#160;</span><strong>100s of millions of dollars</strong><span>. I&#8217;m=
+ one of them &#8212; after finally admitting I&#8217;m a terrible trader, I=
+&#8217;ve moved my public markets investing to Composer&#8217;s automated s=
+trategies.</span></em></p><p style=3D"color: #404040; font-size: 16px; line=
+-height: 26px; margin: 0 0 20px 0;"><em><span>Composer has synthesized all =
+of this data, sifting through what works (and, importantly, what&#160;doesn=
+&#8217;t) to create its most powerful investing solution yet:&#160;</span><=
+strong><a href=3D"https://substack.com/redirect/7078ae51-424d-4156-a78e-215=
+b92834bce?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decoration: und=
+erline;">Opus</a></strong><span>. Put simply, Opus is a quantitative tool b=
+uilt on Composer&#8217;s vast pool of data with just one goal in mind: maxi=
+mize risk-adjusted returns.&#160;Opus by Composer&#160;can help you, as a r=
+etail investor, close the gap. </span></em></p><p style=3D"color: #404040; =
+font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><em>It&#8217;s eas=
+y to get started.&#160;Just choose your volatility level and start investin=
+g in Opus.</em></p><p class=3D"button-wrapper" data-attrs=3D"{&quot;url&quo=
+t;:&quot;https://www.composer.trade/opus?utm_source=3Dnotboring&amp;utm_med=
+ium=3Dnewsletter&amp;utm_campaign=3D11-4-22&amp;utm_content=3Dopus&quot;,&q=
+uot;text&quot;:&quot;Try Opus by Composer&quot;,&quot;action&quot;:null,&qu=
+ot;class&quot;:null}" style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0; text-align: center;"><a class=3D"button primary=
+" href=3D"https://substack.com/redirect/7078ae51-424d-4156-a78e-215b92834bc=
+e?r=3D9p0gt" rel=3D"" style=3D"background-color: #67bdfc; border: none; bor=
+der-radius: 4px; box-sizing: border-box; color: #ffffff !important; cursor:=
+ pointer; display: inline-block; font-family: -apple-system, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; h=
+eight: auto; line-height: 20px; margin: 0; opacity: 1; outline: none; paddi=
+ng: 12px 20px; text-align: center; text-decoration: none !important; white-=
+space: nowrap;"><span style=3D"color: #ffffff; text-decoration: none;">Try =
+Opus by Composer</span></a></p><div style=3D"font-size: 16px; line-height: =
+26px;"><hr style=3D"background: #e0e0e0; border: none; height: 1px; margin:=
+ 32px 0; padding: 0;"></div><p style=3D"color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;"><span>(1) </span><strong><a href=3D"h=
+ttps://substack.com/redirect/650b030b-ac4f-4f45-a00a-c578071c88be?r=3D9p0gt=
+" rel=3D"" style=3D"color: #404040; text-decoration: underline;">AlphaFold&=
+#8217;s new rival? Meta AI predicts shape of 600 million proteins</a></stro=
+ng></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; marg=
+in: 0 0 20px 0;"><em><a href=3D"https://substack.com/redirect/53b727c1-1cd6=
+-43d9-a2b1-9882d792f961?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-d=
+ecoration: underline;">Ewen Callaway</a><span> for Nature</span></em></p><b=
+lockquote style=3D"border-left: 4px solid #67bdfc; margin: 20px 0;"><p styl=
+e=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0=
+; margin-left: 20px;"><em>Researchers at Meta (formerly Facebook, headquart=
+ered in Menlo Park, California) have used artificial intelligence (AI) to p=
+redict the structures of some 600 million proteins from bacteria, viruses a=
+nd other microbes that haven&#8217;t been characterized.</em></p></blockquo=
+te><div class=3D"captioned-image-container-static" style=3D"font-size: 16px=
+; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; w=
+idth: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><t=
+body><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=3D=
+"content" width=3D"767" style=3D"text-align: center;"><a class=3D"image-lin=
+k" target=3D"_blank" href=3D"https://substack.com/redirect/fd8e5707-8520-40=
+9b-93f1-3d491a9b60d8?r=3D9p0gt" rel=3D"" style=3D"align-items: center; bord=
+er: none; display: block; flex-direction: column; height: auto; margin: 0; =
+padding: 0; position: relative; text-decoration: none; width: auto;"><img d=
+ata-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-95=
+18-adb32be77984.s3.amazonaws.com/public/images/1f094fbb-4da2-4e41-9b84-4bd1=
+9f18cac4_767x547.jpeg&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quo=
+t;:null,&quot;height&quot;:547,&quot;width&quot;:767,&quot;resizeWidth&quot=
+;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;Exploring 1 million out=
+ of 617M proteins on the ESM Metagenomic Atlas website.&quot;,&quot;title&q=
+uot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&qu=
+ot;:true,&quot;internalRedirect&quot;:null}" alt=3D"Exploring 1 million out=
+ of 617M proteins on the ESM Metagenomic Atlas website." title=3D"Exploring=
+ 1 million out of 617M proteins on the ESM Metagenomic Atlas website." widt=
+h=3D"550" height=3D"392.2425032594524" class=3D"wide-image" src=3D"https://=
+substackcdn.com/image/fetch/w_1534,c_limit,f_auto,q_auto:good,fl_progressiv=
+e:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.ama=
+zonaws.com%2Fpublic%2Fimages%2F1f094fbb-4da2-4e41-9b84-4bd19f18cac4_767x547=
+=2Ejpeg" style=3D"-ms-interpolation-mode:=
+ bicubic; border: none !important; d=
+isplay: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 1=
+00% !important; vertical-align: middle; width: auto !important;"></a></td><=
+td style=3D"text-align: center;"></td></tr></tbody></table><figcaption clas=
+s=3D"image-caption" style=3D"color: #808080; font-size: 14px; font-weight: =
+400; letter-spacing: -0.15px; line-height: 20px; margin-top: 8px; padding-l=
+eft: 15%; padding-right: 15%; text-align: center; width: 70%;">The ESM Meta=
+genomic Atlas database contains structure predictions for 617 million prote=
+ins. Credit: ESM Metagenomic Atlas (CC BY 4.0)</figcaption></figure></div><=
+p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 =
+20px 0;">It&#8217;s been a tough few weeks (months? quarters? years?) for M=
+eta. Negative headlines, whistleblowing, stock volatility &#8212; you name =
+it. So it can be easy to forget that the social media giant is also one of =
+the world&#8217;s largest long-term investors in AI research. Sure, most of=
+ that AI will be used to fine tune Reels recommendations or target ads or m=
+ake the Metaverse more performant &#8212; but the underlying research can a=
+lso be applied to deep scientific research. </p><p style=3D"color: #404040;=
+ font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Zuck has been one=
+ of the larger patrons of science over the last decade and his foundation, =
+The Chan Zuckerberg Initiative, has the goal of &#8220;managing all disease=
+s&#8221; by the end of the 21st century. To do so, they&#8217;ll inevitably=
+ need major advancements in how we understand the body at the molecular lev=
+el. AI can be really useful here. </p><p style=3D"color: #404040; font-size=
+: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Meta&#8217;s model pr=
+edicts the shape of ~600 million proteins, nearly three times as many as th=
+e ~220 million protein structures DeepMind unveiled earlier this year. The =
+delta was driven by Meta&#8217;s model identifying proteins from bacteria, =
+viruses, and other microbes that hadn&#8217;t yet been characterized. While=
+ Meta&#8217;s model is not at as accurate as DeepMind&#8217;s, it&#8217;s a=
+bout 60x faster, which enables it to run on much larger databases. &#8220;M=
+ove fast </span><s>and break things</s><span> with stable infrastructure.&#=
+8221;  </span></p><p style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;">This is the type of Big Tech competition we can=
+ get behind.</p><p style=3D"color: #404040; font-size: 16px; line-height: 2=
+6px; margin: 0 0 20px 0;"><strong><span>(2) </span><a href=3D"https://subst=
+ack.com/redirect/ad7c9638-bd88-45cc-ab2c-915c7217dd59?r=3D9p0gt" rel=3D"" s=
+tyle=3D"color: #404040; text-decoration: underline;">Why America Must Devel=
+op Space, and How We&#8217;ll Do It</a></strong></p><p style=3D"color: #404=
+040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><em><a href=
+=3D"https://substack.com/redirect/1a06c1ec-6410-4960-8e87-9fbfcfc0ab0f?r=3D=
+9p0gt" rel=3D"" style=3D"color: #404040; text-decoration: underline;">Ryan =
+McEntush</a><span> for a16z.com</span></em></p><blockquote style=3D"border-=
+left: 4px solid #67bdfc; margin: 20px 0;"><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0; margin-left: 20px;"><em>=
+Space is far too important to simply cede development to others. Control of=
+ this new sea and development of the space industrial base are paramount to=
+ward the continued strength of the United States, and the prolonging of a w=
+orld of free markets and liberal democracies. At the end of the day, this s=
+eismic effort requires the might of a strong, skillful, and, most of all, d=
+etermined population. As a nation, we can accomplish this task ahead of us.=
+ That one small step might spawn another, then cast us forward into a strid=
+e &#8212; expanding our civilization into the pantheon of the heavens.</em>=
+</p></blockquote><div class=3D"captioned-image-container-static" style=3D"f=
+ont-size: 16px; line-height: 26px; margin: 32px auto;"><figure style=3D"mar=
+gin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1e=
+m 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"=
+left" class=3D"content" width=3D"512" style=3D"text-align: center;"><a clas=
+s=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/c4=
+42180c-7d9a-4e37-8794-e5678dd175c9?r=3D9p0gt" rel=3D"" style=3D"align-items=
+: center; border: none; display: block; flex-direction: column; height: aut=
+o; margin: 0; padding: 0; position: relative; text-decoration: none; width:=
+ auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc8=
+4-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/f96907e6-32ae-=
+4b5a-8fa2-7410bb2e8044_512x512.jpeg&quot;,&quot;fullscreen&quot;:null,&quot=
+;imageSize&quot;:null,&quot;height&quot;:512,&quot;width&quot;:512,&quot;re=
+sizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;titl=
+e&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold=
+&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"512" heig=
+ht=3D"512" class=3D"" src=3D"https://substackcdn.com/image/fetch/w_512,c_li=
+mit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc8=
+4-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff96907e6=
+-32ae-4b5a-8fa2-7410bb2e8044_512x512.jpeg" style=3D"-ms-interpolation-mode:=
+ bicubic; border: none !important; display: block; height: auto; margin: 0 =
+auto; margin-bottom: 0; max-width: 100% !important; vertical-align: middle;=
+ width: auto !important;"></a></td><td style=3D"text-align: center;"></td><=
+/tr></tbody></table><figcaption class=3D"image-caption" style=3D"color: #80=
+8080; font-size: 14px; font-weight: 400; letter-spacing: -0.15px; line-heig=
+ht: 20px; margin-top: 8px; padding-left: 15%; padding-right: 15%; text-alig=
+n: center; width: 70%;">Source: Stability.ai</figcaption></figure></div><p =
+style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20=
+px 0;"><span>a16z (where I&#8217;m an advisor on the Crypto team) is making=
+ a big push into </span><em><strong>space</strong></em><span> as part of it=
+s American Dynamism practice. At Not Boring, we partnered with </span><a hr=
+ef=3D"https://substack.com/redirect/cfd836bc-5c08-4bb8-8e34-0b5a82658a7d?r=
+=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decoration: underline;">Pa=
+yload Space</a><span> to publish a full breakdown of </span><a href=3D"http=
+s://substack.com/redirect/39ba984d-0e47-4292-9cc8-6fd3f6898bf8?r=3D9p0gt" r=
+el=3D"" style=3D"color: #404040; text-decoration: underline;">The Space Eco=
+nomy</a><span> which chronicles the development of the space industry, anal=
+yzes its value chain, and highlights some of the major players in the ecosy=
+stem. Our analysis put a spotlight on growing competition between the U.S. =
+and the Sino-Russian space alliance, but this piece goes a few important st=
+eps further. It plants a flag in the investment world that:</span></p><ul s=
+tyle=3D"margin-top: 0; padding: 0;"><li style=3D"margin: 8px 0 0 32px; mso-=
+special-format: bullet;"><p style=3D"box-sizing: border-box; color: #404040=
+; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-=
+left: 4px;">Space is an important battleground of the New Cold War, </p></l=
+i><li style=3D"margin: 8px 0 0 32px; mso-special-format: bullet;"><p style=
+=3D"box-sizing: border-box; color: #404040; font-size: 16px; line-height: 2=
+6px; margin: 0; margin-bottom: 0; padding-left: 4px;">We need public, priva=
+te, and public-private investment into space to compete on that battlegroun=
+d, and </p></li><li style=3D"margin: 8px 0 0 32px; mso-special-format: bull=
+et;"><p style=3D"box-sizing: border-box; color: #404040; font-size: 16px; l=
+ine-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;">Now is a=
+ good time to invest in that future. </p></li></ul><p style=3D"color: #4040=
+40; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>a16z has=
+ a history of publishing these paradigm shifting pieces, including: </span>=
+<a href=3D"https://substack.com/redirect/276d4bbd-4a24-4101-b5cb-4a66029bc2=
+c4?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decoration: underline;=
+">Why Software is Eating the World</a><span> (2011), </span><a href=3D"http=
+s://substack.com/redirect/e10dd75b-bac3-4226-a31e-fbaddb21a036?r=3D9p0gt" r=
+el=3D"" style=3D"color: #404040; text-decoration: underline;">Why Bitcoin M=
+atters</a><span> (2014), </span><a href=3D"https://substack.com/redirect/2c=
+c2fa20-eaa8-44b4-99f2-3fdc099d3050?r=3D9p0gt" rel=3D"" style=3D"color: #404=
+040; text-decoration: underline;">It&#8217;s Time to Build</a><span> (2020)=
+, </span><a href=3D"https://substack.com/redirect/e14cc7cd-e187-4f0b-818e-4=
+1eb03cea6c8?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decoration: u=
+nderline;">Building American Dynamism</a><span> (2022). If the aftermath of=
+ those pieces is any indication, IT&#8217;S TIME TO INVEST IN SPACE.</span>=
+</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin:=
+ 0 0 20px 0;"><strong><span>(3) </span><a href=3D"https://substack.com/redi=
+rect/9201f988-c80f-4091-ae59-59ea833b3e65?r=3D9p0gt" rel=3D"" style=3D"colo=
+r: #404040; text-decoration: underline;">Nuclear energy: past, present and =
+future</a></strong></p><p style=3D"color: #404040; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 20px 0;"><em><span>By </span><a href=3D"https://sub=
+stack.com/redirect/c9dacce4-f94a-4d4c-84c1-4306108befc3?r=3D9p0gt" rel=3D""=
+ style=3D"color: #404040; text-decoration: underline;">Julia DeWahl</a></em=
+><span> </span></p><blockquote style=3D"border-left: 4px solid #67bdfc; mar=
+gin: 20px 0;"><p style=3D"color: #404040; font-size: 16px; line-height: 26p=
+x; margin: 0 0 20px 0; margin-left: 20px;"><em>Despite these challenges, nu=
+clear energy&#8217;s carbon-free, 24/7 qualities make it undeniably attract=
+ive to meet the demands of clean, firm power, where both fossil fuels and r=
+enewables fall short. There have been a number of promising developments fo=
+r nuclear energy this year and the &#8216;why now&#8217; for nuclear is str=
+ong</em><span>.</span></p></blockquote><div class=3D"captioned-image-contai=
+ner-static" style=3D"font-size: 16px; line-height: 26px; margin: 32px auto;=
+"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrap=
+per" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: cent=
+er;"></td><td align=3D"left" class=3D"content" width=3D"700" style=3D"text-=
+align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://s=
+ubstack.com/redirect/cb9bb002-2ecd-42c9-af9a-f193bc875753?r=3D9p0gt" rel=3D=
+"" style=3D"align-items: center; border: none; display: block; flex-directi=
+on: column; height: auto; margin: 0; padding: 0; position: relative; text-d=
+ecoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;ht=
+tps://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/publi=
+c/images/eb585bff-1b30-469f-b254-4256e4864bc2_700x350.png&quot;,&quot;fulls=
+creen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:350,&quot;wi=
+dth&quot;:700,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt=
+&quot;:&quot;dalle rendering&quot;,&quot;title&quot;:null,&quot;type&quot;:=
+null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedi=
+rect&quot;:null}" alt=3D"dalle rendering" title=3D"dalle rendering" width=
+=3D"550" height=3D"275" class=3D"wide-image" src=3D"https://substackcdn.com=
+/image/fetch/w_1400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3=
+A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpu=
+blic%2Fimages%2Feb585bff-1b30-469f-b254-4256e4864bc2_700x350.png" style=3D"=
+-ms-interpolation-mode: bicubic; border: none !important; display: block; h=
+eight: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; =
+vertical-align: middle; width: auto !important;"></a></td><td style=3D"text=
+-align: center;"></td></tr></tbody></table><figcaption class=3D"image-capti=
+on" style=3D"color: #808080; font-size: 14px; font-weight: 400; letter-spac=
+ing: -0.15px; line-height: 20px; margin-top: 8px; padding-left: 15%; paddin=
+g-right: 15%; text-align: center; width: 70%;">Source: DALL-E</figcaption><=
+/figure></div><p style=3D"color: #404040; font-size: 16px; line-height: 26p=
+x; margin: 0 0 20px 0;"><span>This nuclear energy deep dive from </span><a =
+href=3D"https://substack.com/redirect/c2344d09-a3c0-42e7-b27b-f81a913ab274?=
+r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decoration: underline;">J=
+ulia DeWahl</a><span> is the most digestible breakdown of nuclear energy&#8=
+217;s past, present, and future we&#8217;ve come across.</span></p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+"><strong>Past: </strong><span>It&#8217;s actually quite frustrating to see=
+ how flimsy the anti-nuclear argument is. Flimsy in that the anti-nuclear m=
+ovement gained momentum due to some combination of poor word association, o=
+ver-blown media reactions (exactly zero (0) people died at Three Mile Islan=
+d), and NIMBYism. Frustrating in that the nuclear stigma prevented ~50 year=
+s of the world fully using and innovating on a high-potential clean energy =
+source.</span></p><p style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;"><strong>Present: </strong><span>The U.S. relies=
+ on nuclear more than you&#8217;d imagine &#8212; over 20% of the electrici=
+ty and over 50% of carbon-free electricity we use comes from nuclear. The c=
+ase for nuclear can be made in three points: it&#8217;s </span><strong>clea=
+n</strong><span>, </span><strong>safe</strong><span>, and </span><strong>ef=
+ficient</strong><span>. But nuclear also faces some challenges, namely: </s=
+pan><strong>regulation</strong><span>, </span><strong>pervasive stigma</str=
+ong><span>, and </span><strong>rising infrastructure costs</strong><span>.<=
+/span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; m=
+argin: 0 0 20px 0;"><strong>Future: </strong><span>We need to both combat c=
+limate change and generate more energy; nuclear is well-positioned to estab=
+lish itself as a long-term smart choice for clean energy. It&#8217;ll need =
+to overcome some regulatory issues, continue its PR campaign, and decrease =
+costs (small modular reactors, which we mentioned </span><a href=3D"https:/=
+/substack.com/redirect/95da1450-37ab-4d7b-a3fd-403571b40972?r=3D9p0gt" rel=
+=3D"" style=3D"color: #404040; text-decoration: underline;">here</a><span>,=
+ are making headway on this front). </span></p><p style=3D"color: #404040; =
+font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Abundant clean, ch=
+eap energy is one of the biggest unlocks available to humanity. We want all=
+ the solar, wind, geothermal, hydro, and nuclear we can get our hands on.</=
+p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0=
+ 0 20px 0;"><span>(4) </span><strong><a href=3D"https://substack.com/redire=
+ct/45ba1f4b-2369-49b3-aff3-48ceadf10609?r=3D9p0gt" rel=3D"" style=3D"color:=
+ #404040; text-decoration: underline;">After promising trial results for ma=
+ternal RSV vaccine, Pfizer says it will seek FDA approval this year</a></st=
+rong></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 20px 0;"><em><a href=3D"https://substack.com/redirect/d4d7af1b-bf=
+16-441d-b013-e29eecf33e98?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text=
+-decoration: underline;">Brenda Goodman</a><span> for CNN</span></em></p><b=
+lockquote style=3D"border-left: 4px solid #67bdfc; margin: 20px 0;"><p styl=
+e=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0=
+; margin-left: 20px;"><em>&#8220;The [study data monitoring committee] reco=
+mmended, based on the data that we have, that we should go ahead and file, =
+that this offers the potential for a safe and effective vaccine that could =
+really dramatically help to prevent RSV during the winter season,&#8221; Dr=
+=2E William Gruber, Pfizer&#8217;s senior=
+ vice president of vaccine clinical =
+research and development, told CNN.</em></p></blockquote><p style=3D"color:=
+ #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Th=
+is one hits close to home. Dev just got over RSV. Maya has it. Pretty much =
+everyone we know with kids is going through the same thing right now. And w=
+e&#8217;re not alone, </span><a href=3D"https://substack.com/redirect/1a87d=
+e82-e300-4bda-8670-d839022aad56?r=3D9p0gt" rel=3D"" style=3D"color: #404040=
+; text-decoration: underline;">there is a surge in RSV</a><span> cases in t=
+he US.</span></p><p style=3D"color: #404040; font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0;">So the news that Pfizer&#8217;s RSV vaccine tria=
+ls were successful enough to prompt the company to apply to for FDA approva=
+l is more than welcomed. The vaccine&#8217;s trial results were impressive:=
+ reducing serious RSV in a baby&#8217;s first 3 months by 80% and reducing =
+the likelihood of a baby needing to see a doctor by 50%. Depending on FDA t=
+imelines, the vaccine could be out in the wild before next winter.</p><p st=
+yle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px=
+ 0;"><strong><span>(5) </span><a href=3D"https://substack.com/redirect/b12e=
+fa4e-5220-407e-8448-e3f4d91c6053?r=3D9p0gt" rel=3D"" style=3D"color: #40404=
+0; text-decoration: underline;">CEO Patrick Collison's email to Stripe empl=
+oyees</a></strong></p><p style=3D"color: #404040; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 20px 0;"><em><a href=3D"https://substack.com/redirec=
+t/0b45fff3-ff1c-4961-b982-d5127156064a?r=3D9p0gt" rel=3D"" style=3D"color: =
+#404040; text-decoration: underline;">Patrick Collison</a><span> for Stripe=
+</span></em></p><blockquote style=3D"border-left: 4px solid #67bdfc; margin=
+: 20px 0;"><p style=3D"color: #404040; font-size: 16px; line-height: 26px; =
+margin: 0 0 20px 0; margin-left: 20px;"><em>While the changes today are pai=
+nful, we feel very good about the prospects for innovative businesses and a=
+bout Stripe&#8217;s position in the internet economy. The data we see is co=
+nsistent with this encouraging picture: we signed a remarkable 75% more new=
+ customers in Q3 2022 than Q3 2021, our competitive win rates are getting e=
+ven better, our growth rates remain very strong, and on Tuesday we set a ne=
+w record for total daily transaction volume processed. Our smaller users (m=
+any of whom are just &#8220;big customers that aren&#8217;t yet big&#8221;)=
+ are, in aggregate, growing extremely quickly, showing that plenty of techn=
+ology S curves remain in the early innings and that our customers remain im=
+pressively resilient in the face of the broader global challenges.</em></p>=
+</blockquote><p style=3D"color: #404040; font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;"><span>As we&#8217;ve </span><a href=3D"https://subst=
+ack.com/redirect/c7d7479d-becc-4dc0-a072-9d81da231e71?r=3D9p0gt" rel=3D"" s=
+tyle=3D"color: #404040; text-decoration: underline;">discussed previously</=
+a><span>, layoffs are never a cause for celebration. They suck. Aside from =
+the obvious fact that people getting fired en masse is not pleasant, much o=
+f the ickiness is the result of how company managers handle the process. So=
+me CEOs handle it like </span><a href=3D"https://substack.com/redirect/046f=
+d38e-ee8a-421e-a04a-8a926f822e99?r=3D9p0gt" rel=3D"" style=3D"color: #40404=
+0; text-decoration: underline;">this</a><span>. Others, like Patrick Collis=
+on, handle it with a bit more tact and generosity.</span></p><p style=3D"co=
+lor: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">But =
+layoffs can also be positive in the longer-term, for the companies, the peo=
+ple laid off, and the wider ecosystem. Aside from the thoughtful executive =
+comms and plush exit packages, I think there are two optimistic takes to be=
+ harvested from this otherwise gloomy note:</p><ol style=3D"margin-top: 0; =
+padding: 0;"><li style=3D"margin: 8px 0 0 32px;"><p style=3D"box-sizing: bo=
+rder-box; color: #404040; font-size: 16px; line-height: 26px; margin: 0; ma=
+rgin-bottom: 0; padding-left: 4px;"><strong>Internet Commerce Growth: </str=
+ong><span>Despite massive macroeconomic challenges, Stripe grew new custome=
+rs 75% YoY in Q3 and recently set a record for daily transaction volume. Co=
+mmerce on the internet breeds opportunity, and that opportunity is still gr=
+owing quickly.</span></p></li><li style=3D"margin: 8px 0 0 32px;"><p style=
+=3D"box-sizing: border-box; color: #404040; font-size: 16px; line-height: 2=
+6px; margin: 0; margin-bottom: 0; padding-left: 4px;"><strong>Schumpeter&#8=
+217;s Gale: </strong><span>In addition to one of the more generous severanc=
+e packages I&#8217;ve ever seen (14 weeks, unpaid PTO, bonuses, accelerated=
+ vesting cliffs, healthcare, career support), all 1,000 of the former emplo=
+yees now have Stripe on their resumes (and an alumni.stripe.com email addre=
+ss). That&#8217;s 1,000 ex-Stripes looking to bring their skills, networks,=
+ and pedigree to the next wave of startups. Some will start new companies, =
+many will join younger startups and bring with them experience in scaling t=
+houghtfully. The Stripes&#8217; surface area will increase. </span></p></li=
+></ol><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margi=
+n: 0 0 20px 0;">Plus, layoffs are generally just the beginning &#8212; goin=
+g forward, Stripe will slow down hiring after nearly 4x&#8217;ing staff in =
+the last few years. Stripe probably didn&#8217;t lay off its 10x engineers,=
+ but it will be less aggressive in competing for the next batch of them. Wi=
+thout Big Tech, Stripe included, aggressively recruiting to fill massive hi=
+ring quotas, startups may have the opportunity to compete for the very best=
+ talent. </p><p style=3D"color: #404040; font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;"><strong>BONUS:</strong><span> </span><strong><a href=
+=3D"https://substack.com/redirect/57e2f42e-02de-490d-88b4-cb763f5ee057?r=3D=
+9p0gt" rel=3D"" style=3D"color: #404040; text-decoration: underline;">Portr=
+ait by Vana</a></strong></p><p style=3D"color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;"><span>Not Boring Capital portfolio co=
+mpany, </span><a href=3D"https://substack.com/redirect/3671fe64-6d10-41c5-8=
+f37-339d814bdbc8?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decorati=
+on: underline;">Vana</a><span>, is getting in on the Generative AI action w=
+ith the release of </span><a href=3D"https://substack.com/redirect/57e2f42e=
+-02de-490d-88b4-cb763f5ee057?r=3D9p0gt" rel=3D"" style=3D"color: #404040; t=
+ext-decoration: underline;">Portrait</a><span>. Very simple to use and and =
+impressive end-product: just upload 8 images of your face, Vana develops a =
+generative art model for you, and voila: a few hours later, you have a gall=
+ery of AI-generated portraits emailed to you. Here&#8217;s one of mine:</sp=
+an></p><div class=3D"captioned-image-container-static" style=3D"font-size: =
+16px; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 aut=
+o; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;=
+"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" clas=
+s=3D"content" width=3D"512" style=3D"text-align: center;"><a class=3D"image=
+-link" target=3D"_blank" href=3D"https://substack.com/redirect/2ae29960-d5f=
+a-415b-b84a-e1cc11ef429c?r=3D9p0gt" rel=3D"" style=3D"align-items: center; =
+border: none; display: block; flex-direction: column; height: auto; margin:=
+ 0; padding: 0; position: relative; text-decoration: none; width: auto;"><i=
+mg data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437=
+e-9518-adb32be77984.s3.amazonaws.com/public/images/4f232385-552b-4b2d-9de4-=
+e21a89aeda36_512x512.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&=
+quot;:null,&quot;height&quot;:512,&quot;width&quot;:512,&quot;resizeWidth&q=
+uot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;Image&quot;,&quot;ti=
+tle&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFo=
+ld&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"Image" title=3D"Im=
+age" width=3D"512" height=3D"512" class=3D"" src=3D"https://substackcdn.com=
+/image/fetch/w_512,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A=
+%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpub=
+lic%2Fimages%2F4f232385-552b-4b2d-9de4-e21a89aeda36_512x512.png" style=3D"-=
+ms-interpolation-mode: bicubic; border: none !important; display: block; he=
+ight: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; v=
+ertical-align: middle; width: auto !important;"></a></td><td style=3D"text-=
+align: center;"></td></tr></tbody></table><figcaption class=3D"image-captio=
+n" style=3D"color: #808080; font-size: 14px; font-weight: 400; letter-spaci=
+ng: -0.15px; line-height: 20px; margin-top: 8px; padding-left: 15%; padding=
+-right: 15%; text-align: center; width: 70%;">Ready Player Vana</figcaption=
+></figure></div><p style=3D"color: #404040; font-size: 16px; line-height: 2=
+6px; margin: 0 0 20px 0;">Give it a try and tweet your favorite result @not=
+boringco. We&#8217;ll retweet a few of our favorites and share some in next=
+ week&#8217;s Weekly Dose.</p><div style=3D"font-size: 16px; line-height: 2=
+6px;"><hr style=3D"background: #e0e0e0; border: none; height: 1px; margin: =
+32px 0; padding: 0;"></div><p style=3D"color: #404040; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 20px 0;">That&#8217;s all for this week. Next F=
+riday will be our 20th straight Weekly Dose of Optimism. Ahead of that, if =
+you enjoyed this edition, we&#8217;d really appreciate if you shared it wit=
+h a friend, family member or colleague. </p><p class=3D"button-wrapper" dat=
+a-attrs=3D"{&quot;url&quot;:&quot;https://www.notboring.co/p/weekly-dose-of=
+-optimism-18?utm_source=3Dsubstack&amp;utm_medium=3Demail&amp;utm_content=
+=3Dshare&amp;action=3Dshare&amp;token=3DeyJ1c2VyX2lkIjo3NjExMjA4MSwicG9zdF9=
+pZCI6ODA4MjQyOTksImlhdCI6MTY2NzQ5NDA2MSwiZXhwIjoxNjcwMDg2MDYxLCJpc3MiOiJwdW=
+ItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.l6LzcZTqJytZakq4GYT_ksIA18yqNEJgT=
+sEs1lg9Iwk&quot;,&quot;text&quot;:&quot;Share&quot;,&quot;action&quot;:null=
+,&quot;class&quot;:&quot;button-wrapper&quot;}" style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0; text-align: center;">=
+<a class=3D"button primary button-wrapper" href=3D"https://substack.com/red=
+irect/5419882d-f969-4e27-9d25-4a2243048100?r=3D9p0gt" rel=3D"" style=3D"bac=
+kground-color: #67bdfc; border: none; border-radius: 4px; box-sizing: borde=
+r-box; color: #ffffff !important; cursor: pointer; display: inline-block; f=
+ont-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetic=
+a, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symb=
+ol'; font-size: 14px; font-weight: 600; height: auto; line-height: 20px; ma=
+rgin: 0; opacity: 1; outline: none; padding: 12px 20px; text-align: center;=
+ text-decoration: none !important; white-space: nowrap;"><span style=3D"col=
+or: #ffffff; text-decoration: none;">Share</span></a></p><p style=3D"color:=
+ #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">We&#8217=
+;ll be back in your inbox 9am EST on Monday morning. Enjoy the weekend.</p>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;">Packy</p><div class=3D"subscription-widget-wrap" style=3D"font-si=
+ze: 16px; line-height: 26px; margin-bottom: 0;"><div class=3D"subscription-=
+widget show-subscribe" style=3D"align-items: flex-start; color: #404040; di=
+rection: ltr !important; display: block; font-family: -apple-system, BlinkM=
+acSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Colo=
+r Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight=
+: 400; line-height: 1.5; margin: 24px auto; max-width: 560px; padding: 32px=
+; text-align: center; text-decoration: none;"><div class=3D"preamble" style=
+=3D"align-items: center; display: flex; font-family: -apple-system, BlinkMa=
+cSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color=
+ Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-weight:=
+ 400; line-height: 22px; margin-left: auto; margin-right: auto; margin-top:=
+ 16px; max-width: 384px; text-align: center; width: fit-content;"><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+"></p></div><div class=3D"subscribe-widget is-signed-up is-fully-subscribed=
+" style=3D"direction: ltr; font-size: 16px; line-height: 26px; margin: 0 0 =
+1em;"><p class=3D"button-wrapper" style=3D"color: #404040; font-size: 16px;=
+ line-height: 26px; margin: 0 0 20px 0; text-align: center;"><a href=3D"htt=
+ps://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjY2=
+91bnQiLCJwIjo4MjMxODUzOSwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiO=
+jE2Njc1NjYxODEsImV4cCI6MTY3MDE1ODE4MSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJl=
+ZGlyZWN0In0.putJrbZDZ5sdprFOFe9ywf3XwAuE0418zv9Y7LCre4E?" class=3D"button s=
+ubscribe-btn outline" style=3D"background: transparent; background-color: t=
+ransparent; border: 1px solid #67bdfc; border-radius: 4px; box-sizing: bord=
+er-box; color: #67bdfc; cursor: pointer; display: inline-block; font-family=
+: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, =
+sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-=
+size: 14px; font-weight: 600; height: auto; line-height: 20px; margin: 0 au=
+to; opacity: 1; outline: none; padding: 12px 20px; text-align: center; text=
+-decoration: none !important; white-space: nowrap;"><img src=3D"https://sub=
+stackcdn.com/image/fetch/w_40,c_scale,f_png,q_auto:good,fl_progressive:stee=
+p/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideCheck%3Fv%3D4%26height%3D40%26f=
+ill%3Dtransparent%26stroke%3D%252367bdfc%26strokeWidth%3D2" width=3D"20" he=
+ight=3D"20" style=3D"-ms-interpolation-mode: bicubic; border: none !importa=
+nt; display: inline-block; height: auto; margin: 0 auto; margin-right: 0.5r=
+em; max-width: 20px; vertical-align: middle;" alt=3D"" class=3D"check-icon =
+static"><span style=3D"text-decoration: none;">Subscribe</span></a></p></di=
+v></div></div></div></div><div class=3D"container-border" style=3D"border-t=
+op: 1px solid #e0e0e0; box-sizing: border-box; font-size: 16px; line-height=
+: 26px; margin: 32px 0 0; width: 100%;"></div><div class=3D"post-cta" style=
+=3D"font-size: 16px; line-height: 26px; margin: 24px 0 40px;"><p style=3D"c=
+olor: #404040; font-size: 16px; font-style: italic; line-height: 26px; marg=
+in: 24px 0 0; margin-top: 0;"><span>If you liked this post from <a href=3D"=
+https://substack.com/redirect/0c918dcb-2113-4a7d-865e-8da127189b85?r=3D9p0g=
+t" style=3D"color: #404040; text-decoration: underline;">Not Boring by Pack=
+y McCormick</a>, why not share it?</span></p><p class=3D"cta-box" style=3D"=
+color: #404040; font-size: 16px; font-style: italic; line-height: 26px; mar=
+gin: 24px 0 0; text-align: center;"><a role=3D"button" href=3D"https://subs=
+tack.com/redirect/d24d10e6-5b80-4d41-99ee-dbfaa15fc2bb?r=3D9p0gt" class=3D"=
+button primary twitter-link" style=3D"background-color: #67bdfc; border: 0p=
+x solid #67bdfc; border-radius: 4px; border-width: 13px 20px 13px 18px; box=
+-sizing: content-box; color: #ffffff !important; cursor: pointer; display: =
+inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', R=
+oboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol'; font-size: 17px; font-style: normal; font-weight: 300; =
+height: 24px; line-height: 24px; margin: 0; opacity: 1; outline: none; padd=
+ing: 0; text-align: center; text-decoration: none !important; vertical-alig=
+n: middle; white-space: nowrap;"><span style=3D"color: #ffffff; text-decora=
+tion: none;">Share</span></a></p></div><table role=3D"presentation" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-u=
+fi-2-bottom" style=3D"border-top: 1px solid #e0e0e0; min-width: 100%;"><tr =
+height=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;">&=
+#160;</td></tr><tr><td><table role=3D"presentation" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><table role=3D"presentat=
+ion" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"margin: 0 auto;"><tr><td style=3D"vertical-align: middle;"><table role=
+=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/app-link/po=
+st?publication_id=3D10025&post_id=3D82318539&utm_source=3Dsubstack&isFreema=
+il=3Dtrue&submitLike=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI=
+6ODIzMTg1MzksInJlYWN0aW9uIjoi4p2kIiwiaWF0IjoxNjY3NTY2MTgxLCJleHAiOjE2NzAxNT=
+gxODEsImlzcyI6InB1Yi0xMDAyNSIsInN1YiI6InJlYWN0aW9uIn0.z0e3zQLZLZtOvub5vAw3D=
+L-ci0tgdVButZu7C_cZZ9E&utm_medium=3Demail" class=3D"email-button-outline" s=
+tyle=3D"border: 1px solid #e0e0e0; border-radius: 100000px; color: #808080;=
+ display: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-=
+serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px=
+; font-weight: 500; line-height: 12px; padding: 9px 14px; text-decoration: =
+none; text-transform: uppercase;"><img src=3D"https://substackcdn.com/image=
+/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsu=
+bstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dnone%26strok=
+e%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"bord=
+er: none !important; margin-right: 8px; max-width: 18px; min-height: 18px; =
+min-width: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"><span cla=
+ss=3D"email-button-text" style=3D"vertical-align: middle;">Like</span></a><=
+/td></tr></table></td><td width=3D"8" style=3D"min-width: 8px"></td><td sty=
+le=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"auto" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><=
+a href=3D"https://substack.com/app-link/post?publication_id=3D10025&post_id=
+=3D82318539&utm_source=3Dsubstack&utm_medium=3Demail&isFreemail=3Dtrue&comm=
+ents=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6ODIzMTg1MzksIml=
+hdCI6MTY2NzU2NjE4MSwiZXhwIjoxNjcwMTU4MTgxLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOi=
+Jwb3N0LXJlYWN0aW9uIn0.JMufr4rLiKcSTE4ZR7CgEv9ZTY3h6UbDGw5Cdr7uFVI&utm_sourc=
+e=3Dsubstack&utm_medium=3Demail" class=3D"email-button-outline" style=3D"bo=
+rder: 1px solid #e0e0e0; border-radius: 100000px; color: #808080; display: =
+inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, Bli=
+nkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple C=
+olor Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-wei=
+ght: 500; line-height: 12px; padding: 9px 14px; text-decoration: none; text=
+-transform: uppercase;"><img src=3D"https://substackcdn.com/image/fetch/w_3=
+6,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com=
+%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%25=
+23808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: non=
+e !important; margin-right: 8px; max-width: 18px; min-height: 18px; min-wid=
+th: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"><span class=3D"e=
+mail-button-text" style=3D"vertical-align: middle;">Comment</span></a></td>=
+</tr></table></td><td width=3D"8" style=3D"min-width: 8px"></td><td style=
+=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"auto" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a =
+href=3D"https://substack.com/app-link/post?publication_id=3D10025&post_id=
+=3D82318539&utm_source=3Dsubstack&utm_medium=3Demail&utm_content=3Dshare&ac=
+tion=3Dshare&triggerShare=3Dtrue&isFreemail=3Dtrue&token=3DeyJ1c2VyX2lkIjox=
+NjI4MzU0OSwicG9zdF9pZCI6ODIzMTg1MzksImlhdCI6MTY2NzU2NjE4MSwiZXhwIjoxNjcwMTU=
+4MTgxLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.JMufr4rLiKcSTE=
+4ZR7CgEv9ZTY3h6UbDGw5Cdr7uFVI" class=3D"email-button-outline" style=3D"bord=
+er: 1px solid #e0e0e0; border-radius: 100000px; color: #808080; display: in=
+line-block; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weigh=
+t: 500; line-height: 12px; padding: 9px 14px; text-decoration: none; text-t=
+ransform: uppercase;"><img src=3D"https://substackcdn.com/image/fetch/w_36,=
+c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2=
+Ficon%2FLucideShare%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808=
+080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !im=
+portant; margin-right: 8px; max-width: 18px; min-height: 18px; min-width: 1=
+8px; vertical-align: middle;" alt=3D"" class=3D"icon"><span class=3D"email-=
+button-text" style=3D"vertical-align: middle;">Share</span></a></td></tr></=
+table></td></tr></table></td><td align=3D"right"><table role=3D"presentatio=
+n" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr></tr=
+></table></td></tr></table></td></tr><tr height=3D"16"><td height=3D"16" st=
+yle=3D"font-size: 0px; line-height: 0;">&#160;</td></tr></table><div class=
+=3D"footer" style=3D"background: #eeeeee !important; border-radius: 4px; co=
+lor: #808080; font-size: 16px; line-height: 26px; padding: 16px; text-align=
+: center;"><p class=3D"small" style=3D"color: #808080; font-family: -apple-=
+system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-seri=
+f, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12p=
+x; line-height: 20px; margin: 0; padding-bottom: 16px;">&#169; 2022 <span>P=
+acky McCormick</span><br>10 City Point, Brooklyn, NY 11201 <br><a href=3D"h=
+ttps://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2Fj=
+dGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl=
+6ZEY5cFpDSTZPREl6TVRnMU16a3NJbWxoZENJNk1UWTJOelUyTmpFNE1Td2laWGh3SWpveE5qY3=
+dNVFU0TVRneExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWd=
+FlXbHNJbjAuQ2RVdHJDMFUzMFM3SThBT1RfMDdQcjFHWFFVSUpNY3lxM1JISFJHckc2WSIsInAi=
+OjgyMzE4NTM5LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2NzU2NjE=
+4MSwiZXhwIjoxNjcwMTU4MTgxLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ=
+=2EfL9Xb9jSHI06ksO1zs8GCdEqRCjZZWqKA0t7PO=
+dkFFo?" style=3D"color: #808080; tex=
+t-decoration: underline;"><span style=3D"color: #808080; text-decoration: u=
+nderline;">Unsubscribe</span></a></p><p class=3D"small powered-by-substack"=
+ style=3D"color: #808080; font-family: -apple-system, BlinkMacSystemFont, '=
+Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Sego=
+e UI Emoji', 'Segoe UI Symbol'; font-size: 12px; line-height: 20px; margin:=
+ 0; margin-top: 0; padding-bottom: 0;"><a href=3D"https://substack.com/redi=
+rect/11734672-47cf-4ad5-97b0-a1ca174bf121?r=3D9p0gt" style=3D"color: #80808=
+0; display: inline-block; margin: 0 4px; text-decoration: none;"><img src=
+=3D"https://substackcdn.com/image/fetch/w_260,c_limit,f_auto,q_auto:good,fl=
+_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-b=
+utton%402x.png" srcset=3D"https://substackcdn.com/image/fetch/w_130,c_limit=
+,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2=
+Femail%2Fgeneric-app-button.png, https://substackcdn.com/image/fetch/w_260,=
+c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%=
+2Fimg%2Femail%2Fgeneric-app-button%402x.png 2x, https://substackcdn.com/ima=
+ge/fetch/w_390,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%=
+2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button%403x.png 3x" width=3D"130=
+" alt=3D"Get the app" height=3D"40" style=3D"border: none !important; max-w=
+idth: 550px; vertical-align: middle;"></a><a href=3D"https://substack.com/r=
+edirect/3d211912-b91c-4b20-b5b1-4dab8136550c?r=3D9p0gt" style=3D"color: #80=
+8080; display: inline-block; margin: 0 4px; text-decoration: none;"><img sr=
+c=3D"https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-butt=
+on%402x.png" srcset=3D"https://substackcdn.com/image/fetch/w_135,c_limit,f_=
+auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fem=
+ail%2Fpublish-button.png, https://substackcdn.com/image/fetch/w_270,c_limit=
+,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2=
+Femail%2Fpublish-button%402x.png 2x, https://substackcdn.com/image/fetch/w_=
+405,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.=
+com%2Fimg%2Femail%2Fpublish-button%403x.png 3x" width=3D"135" alt=3D"Start =
+writing" height=3D"40" style=3D"border: none !important; max-width: 550px; =
+vertical-align: middle;"></a></p></div></div></td><td></td></tr></table><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIxMTA0MTI0OTE1LjMuOTg2NGI2NmQ3ZmM3MWJjZUBtZy1kMS5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFja=
+y5jb20iLCJwIjo4MjMxODUzOSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjox=
+MDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6ImJvdHRvbSIsImlhdCI6MTY2NzU=
+2NjE4MiwiZXhwIjoxNjcwMTU4MTgyLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.ZMW_3x1Kkh=
+Sp1K1YNx3DK7idD6FvnPTd8FAtiO9Ce6s" alt=3D"" width=3D"1" height=3D"1" border=
+=3D"0" style=3D"height:1px !important;width:1px !important;border-width:0 !=
+important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0=
+ !important;margin-left:0 !important;padding-top:0 !important;padding-botto=
+m:0 !important;padding-right:0 !important;padding-left:0 !important;"/><img=
+ width=3D"1px" height=3D"1px" alt=3D"" src=3D"https://email.mg-d1.substack.=
+com/o/eJxFUEluxCAQfE24xWIxYB94C2Ipe1BsGGGcyL8PMz7MrdVdXVtwDWupl3mWoxHsLm12R=
+Ubt-2hdM0wpLZViExdCk2jE7OkUFEmHXSreD6bVE-R5-i0F11LJNkXDKOWSPExcmFyCExILX0Yv=
+NAQm77jQVGqKSF7C1p0xIQcY_KJeJYOEsu_I7UV1Q_rQPbBJipkkwynnjNGR8XFmchDDPKnRKxX=
+1EjTzAV8j3dfvyIbj9Edz4WfojKSaXJovNeW1A34ebsf2PnT39iV55tQui-z8hngHa3c354H6Dq=
+b4JOQ4367a9YTJ-Ds2tIZKulosvZT8ESL4lCj_AUp2e5c"></body></html>
+--457ba0081c5aafbe8fa9bd3ee185d6d1f7d8af5d5b8d960e9789a211445f--

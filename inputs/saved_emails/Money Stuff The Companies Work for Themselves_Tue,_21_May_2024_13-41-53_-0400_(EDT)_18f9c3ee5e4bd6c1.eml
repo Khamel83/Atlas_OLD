@@ -1,0 +1,1849 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:e6a4:0:b0:6a3:58d6:a1ad with SMTP id j4csp4102719qvn;
+        Tue, 21 May 2024 10:41:59 -0700 (PDT)
+X-Forwarded-Encrypted: i=5; AJvYcCXyi41lmMrffWZ5W24Tjf8ls0Fi/A0q3Z7tNiaJG2KWXvFcYKOgF0l5qCAg9mG+6oqWnu57PdmA7zAKdTNNWVfN
+X-Received: by 2002:adf:f8c4:0:b0:34a:80ed:9930 with SMTP id ffacd0b85a97d-3504a633241mr21440853f8f.8.1716313318492;
+        Tue, 21 May 2024 10:41:58 -0700 (PDT)
+ARC-Seal: i=4; a=rsa-sha256; t=1716313318; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=jdE/D8OyKwNXl8ZKvAbduiDHCdq+1m6KJx6GR/Dp4xqYz3fSRaR+2fR9swsIuMqHkb
+         ekVbJ/MPtRpC8RDbjW5j2DK2PHaXfKuZSO0NH7UD+tr7akZHGuSh120O5pQY8zgHtgVw
+         yyg+7i1kRgr0MijHc5iQWciAHgWQ7y3wwIVmkdsVhqAK4HAhQ9u9s9sEBwDfj9vCzWVe
+         OqwuS4GbpoDnJG4DAl4mnM1qEMotVuYTuxcvnSc0YjKItt7HbauVue+1oFYgKYg6gv5A
+         zfzaU7yWda0oDUhdmjFur5EILEFTnSws0V9WWf9qnnEAPFTV6Zjhi31JepagCIPZtKV6
+         1NXw==
+ARC-Message-Signature: i=4; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:dkim-signature:delivered-to;
+        bh=MYYUlCi/df62SHFlTKF0d+yuxhcxlJEbr68DLiwbLxo=;
+        fh=wNMnAZgSrZep8R1JBkt5umybDq7UvFU1tS9SpTd3x3k=;
+        b=V/8h4no0uDPmoRzlQyrGqUwCVK+YGgPE0QaVMu8iu8S1mIM7KUx3zBpvQVnun1qq9P
+         VPZbzGIm4BrGwFXYFXXcwZ73XJD6hYjPscot2p70fwUih2QMGw2+F13qZf+k8p2B3Qy0
+         0eVjqdG7iLs/OnzxV/schvCH32bGxK2mcIQSRfBvY7cr7fIK/S2QruCZm7XjuFB+PIc4
+         pZMYqcy75rKD0H88TSPbQwkcA3w4o3aHJUOpUGZqiZoH9BjyTv5vA2uV9ti90bEy7IF/
+         k7RxpIVFq39o/oSXi+lBGQKKc6kUAapofEhRiKyyBsKmz0wjz2Z/iVssVBgir9P2ew1s
+         TU+w==;
+        dara=google.com
+ARC-Authentication-Results: i=4; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=16Vgk9Y0;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=YpNNhIWN;
+       arc=pass (i=3 spf=pass spfdomain=khamel.com dkim=pass dkdomain=khamel.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id ffacd0b85a97d-351cba975cbsor4168050f8f.0.2024.05.21.10.41.58
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 21 May 2024 10:41:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=16Vgk9Y0;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=YpNNhIWN;
+       arc=pass (i=3 spf=pass spfdomain=khamel.com dkim=pass dkdomain=khamel.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+ARC-Seal: i=3; a=rsa-sha256; t=1716313318; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=L8USpXhYGoV9lJYVut2bSYCzGxgX4MoEAs9XIv0v6xxMCzjwrZorD9zPHHUHIhO+1F
+         K8Gv8uMnvRVnl9w2iaI7svuHlmNbV7l4XyVgpFRFbYczyV1p+YzUXdrc7Nr++OkCDcU1
+         6P0K1Gn4CLxVcsr20zqjmzWLIChweFQPpiCa8fLDJV/Ec9RoXJAeBNOHNj3OEGbB5Cnm
+         ykZmsHQeDHgIqFdDtUCUPX0ZE7eCUMrq798aWzQX5HqYzJOZtvRgUwyjMEa+Ot05z0Z8
+         TjJAqc2sXhBx96k4jwa8j/9f9HVAbdq1ejbNBnOR5HGkZ31p280m4tjvLOPZgmuVkmFq
+         OJnA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:dkim-signature:delivered-to;
+        bh=MYYUlCi/df62SHFlTKF0d+yuxhcxlJEbr68DLiwbLxo=;
+        fh=wNMnAZgSrZep8R1JBkt5umybDq7UvFU1tS9SpTd3x3k=;
+        b=i4stFyR2zv3Fz1arnB/mEmngtXF76bSH2MSKaeFG1ZKgH23Q4rgk2BXmEpe58kCm1i
+         hpj+cj6MK9DiOKSCd5pe/rKatBuzaFAbNsQsp4CRfQ9dPxb5MdwAn/eKaLZQ27q01jsM
+         k8irN01FJs6AUZ0vEVvAkDWHhaT9JNoScuZQV0WZM92VHAwVFE4e+IaDN0K1Jh94+bV7
+         gJ0tbXV/YwyaXiYNGRpZLBAJOrTAbvxomjuCQbeC60klMaLHfRg9is/KWN5NznfFsqHH
+         NwbG6pqW/fk7k/iq2wUN8NcE6Ot7Jz6IX+VWwZjx/YZl/iVJ4aiLi0LiWn/ldFieI69n
+         voxA==;
+        dara=google.com
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=16Vgk9Y0;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=YpNNhIWN;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 104.130.122.25 as permitted sender) smtp.mailfrom="bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1716313318; x=1716918118;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:dkim-signature:delivered-to:x-forwarded-for
+         :x-forwarded-to:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=MYYUlCi/df62SHFlTKF0d+yuxhcxlJEbr68DLiwbLxo=;
+        b=YwFfRTJYc9zzMFyAKhYBn6jUhRXlXTTHNr/djeycymTJ6JV4yCnaLfWoxNqXbig/Ho
+         yF7i7bdISsP+ja5OWTMkGHbFiCdIU+1862/B+eeHOIMet/Rr5cLDw2p8fnPxBQZb67I5
+         j1DeFQ3PoAYs1Jna5dw89o9XFORENwX+L2JLSYRNBkxZ0O25dEdlNwh3SO+fEhITWkXA
+         S0E3bpUaPu8GjnEGAzSSZasmSrtnVKCpQ3Ak//04ZSjGkynXtoL+7Di7PDl4dsXKfeEz
+         +1/AkS/qtygBR6bu1kQDqZd1F+yWryCLvRXi7rq2VnOvR0NjHF7bOJVkd7C/L96tHbvJ
+         rLvQ==
+X-Forwarded-Encrypted: i=3; AJvYcCVlaFVsAWRQQzx9NEBPm6krkKMDYrDNex+qYlQU3RKKMNL7oZ155kYoI+8MLYepnyYfeklGOzWCZAaoezF4iiHz
+X-Gm-Message-State: AOJu0YwqEDecVscXb57vh6PsJnNRUN7FvRWbi9+L5biTAeG+A4uK4YuF
+	16Em2FUCfQ908tQ2xiHHYe7NWoRs77zjr0zN6D2ZVohJYxPnwZgEDDk7J3Kb2iyIpYHC7QG2baS
+	KsU1EkDxw3MwoZAwUAw5IT6bpFg6KiAdnDuRToYwFpVhfQTLJ2X9QIRYCodtv
+X-Received: by 2002:adf:faca:0:b0:349:8ba8:e26d with SMTP id ffacd0b85a97d-3504a632d98mr23681914f8f.13.1716313317928;
+        Tue, 21 May 2024 10:41:57 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f003:0:b0:354:c4e3:9ffa with SMTP id j3csp93604wro;
+        Tue, 21 May 2024 10:41:54 -0700 (PDT)
+X-Forwarded-Encrypted: i=3; AJvYcCXWBqP/HGM0PzneDU8ms6uYKd1jcxn2DtLWSVOCdyEZv82omFMjrtrgEEOMFZ3HIul3i3NU5EqcQFhAakfk2zv4CI8=
+X-Google-Smtp-Source: AGHT+IGUuzOjUjWxEeefVNeCFpb1NiwtBZ5W3r3YxgxG98XV0xAiM1qDlr2rnNTYsOkdgiqWXEzP
+X-Received: by 2002:ad4:5ccf:0:b0:6ab:7016:100f with SMTP id 6a1803df08f44-6ab70161a9emr60781876d6.20.1716313314012;
+        Tue, 21 May 2024 10:41:54 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1716313313; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Co+KdT9BQZDJZ+hYTdomd9vqfiErzdbx9OoPs0DHrj2vJLJ/1nrDdoUj+k3YMF9x6e
+         +NiYy6c1p/xHidLhUdym3E0RZTbttC72s4jfsrcWNcaX4ngCBo/BrSG/Vy7OTVlkHErr
+         /HuGyJ+cvw2Phdc+0A2tvjdj7vvkNKZrEpEozsjXUgO/D6J4rg6z/oi6u+uY+JV3+WM+
+         fzJecM/XYzRkGGWaL02f3MVi/uC9aUURvbpZP2zJfplcwduvGRmmwsCw1ZXXo5xra7ra
+         IUrMaaWa9QUBouS3kqogjHRiDdeIV11YYGjzC0mqSKD0z2FQtYbLbsa5XEu2sB3F7ybk
+         01BA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:dkim-signature;
+        bh=MYYUlCi/df62SHFlTKF0d+yuxhcxlJEbr68DLiwbLxo=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=cz0U1+GwQcDCYyMxtdnEgcCJ44dqo0MWoOx8x7Dl3aiup38MX5Re+yqTAVzlVXmXze
+         DP8UnZmo/5ownwJZhmqkEUhuON7+z69vZZ20Ui8Xv+iqukRXqsXl5DjNQ93ulp4vvX4F
+         /81YffM8/Anhhnv9NPRAqVWqypLJoBw9p+opezX7GY/hxo7lRiZ+UxaqFoBCcpLup0LR
+         MH5T+R+iy8Q/sETEo/Prb1YXYmrnIPxERQHyQ5Aa2F9+a/bm4bPKHyObC0WDnYmi7yAX
+         24OZhJrcBPwDQVQNzv6E2gjL9qEZWEHKdN2QOTnt8Wr9aFQ/kW6MYcQ22f/JVhS93chs
+         d+cA==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=16Vgk9Y0;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=YpNNhIWN;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 104.130.122.25 as permitted sender) smtp.mailfrom="bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com>
+Received: from mail25.static.mailgun.info (mail25.static.mailgun.info. [104.130.122.25])
+        by mx.google.com with UTF8SMTPS id 6a1803df08f44-6a15f1d6eb3si295068856d6.75.2024.05.21.10.41.53
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 21 May 2024 10:41:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 104.130.122.25 as permitted sender) client-ip=104.130.122.25;
+ARC-Seal: i=1; cv=none; a=rsa-sha256; d=mailgun.org; s=mg; t=1716313313;
+ b=mXe+jf/stqrLUjdbG1NhcBIUIgBZQCTeZvzTWpyBFXnShAS+P8F/J5HXG9gikK4SmH9ZjZKp8v2xdcxLkAbTqz5Z/LFwVLgTKQWTVN4K8mBuqwux+DKshURO5dxiHtntuTA+yY3NrGEK585lGs5WD9XNrkvJo1KGljjmHhbpEHM=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=mailgun.org; s=mg; t=1716313313;
+ h=List-Unsubscribe: X-Feedback-ID: Content-Type: MIME-Version: Subject: Subject: Message-ID: To: To: From: From: Date: X-Feedback-Id: Sender: DKIM-Signature: DKIM-Signature;
+ bh=MYYUlCi/df62SHFlTKF0d+yuxhcxlJEbr68DLiwbLxo=;
+ b=DhtXWsXn80T6WoghSKp5gDWJBfx7uP9cHZ0CFKF4RcClfsMvifPXsvJ6sKT9kRCcjnJuS68O1V6+yPUrp+7VdwE+EpyExu+GBaqh0N479kExjMjRVwmhHnpk7dbAFVEArsld1MyarD96gwzRnStguKW+yFGDuYDcmGj04vWtvGQ=
+ARC-Authentication-Results: i=1; mailgun.org;
+ dkim=pass header.d=mail.bloombergview.com header.s=sailthru header.b=YpNNhIWN;
+ spf=pass (domain mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom="delivery_20240521134153.35453198.258338@mx.sailthru.com";
+ dmarc=pass (dkim=pass domain=mail.bloombergview.com) header.from=mail.bloombergview.com;
+ arc=none
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=khamel.com; q=dns/txt; s=pic; t=1716313313; x=1716320513;
+ h=List-Unsubscribe: X-Feedback-ID: Content-Type: MIME-Version: Subject: Subject: Message-ID: To: To: From: From: Date: X-Feedback-Id: Sender;
+ bh=MYYUlCi/df62SHFlTKF0d+yuxhcxlJEbr68DLiwbLxo=;
+ b=16Vgk9Y0zFuF5VKrIipfWD3oI58SyzK9kfzsrd4G2pf0PJ7qBJnS5vYei83LCxLyEOYAbTe1WyYpyKfcrdgreuyWiCca9xwctttjNB/kd/4cYvZrqVYTQbVon0LRyfwKAgtp5UuepBBtNkjsyoWbb0kdDKtOIcGB/55ZSh3p1+8=
+X-Feedback-Id: delivery_20240521134153.35453198.258338@mx.sailthru.com::663d69d519aae0348c93b932:mailgun
+X-Mailgun-Sending-Ip: 104.130.122.25
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com [192.64.236.13]) by
+ 08c8fb9145b8 with SMTP id 664cdce1e8434a5ad7b51740 (version=TLS1.3,
+ cipher=TLS_AES_128_GCM_SHA256); Tue, 21 May 2024 17:41:53 GMT
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com [192.64.236.13]) by
+ 08c8fb9145b8 with SMTP id <undefined> (version=TLS1.3,
+ cipher=TLS_AES_128_GCM_SHA256); Tue, 21 May 2024 17:41:53 GMT
+X-Envelope-From: delivery_20240521134153.35453198.258338@mx.sailthru.com
+X-Mailgun-Incoming: Yes
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=VdPuy8AP5KxAOIQoC5qS4q1nYjPdoHGvE0QqkcyNYrc=;
+ b=YpNNhIWNnqFJVIifDrVoff5bnXDv6VLGzOafpyR7p1Hv+CFXrjoUhQqmE6ZRNOnhcKgS+i63Ws26
+   FLh1IfTQhXy83SO1eGdEceH42PxCdK0s6F3QEYzKnVOS3qXrk9dWvcQoY8vUH7ucNCIIGLNQaF1D
+   e5VO7Z97ObGItXQ9mL8=
+Received: from aws1-mta-relay7.sailthru.cloud (10.55.90.61) by bloomberg-b.sailthru.com id h9jee23791sp for <bloomberg@khamel.com>; Tue, 21 May 2024 12:41:53 -0500 (envelope-from <delivery_20240521134153.35453198.258338@mx.sailthru.com>)
+Date: Tue, 21 May 2024 13:41:53 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20240521134153.35453198.258338@sailthru.com>
+Subject: Money Stuff: The Companies Work for Themselves
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_18297973_1941806881.1716313313367"
+Precedence: bulk
+x-job: 6358-35453198-20240521
+X-Feedback-ID: 6358:35453198:campaign:sailthru
+X-TM-ID: 20240521134153.35453198.258338
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: aws-campaign-mailer-14.sailthru.cloud
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cl3vv2.5jc2/3997a0e9
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cl3vv2.5jc2/3997a0e9>,<mailto:unsubscribe_20240521134153.35453198.258338@mx.sailthru.com>
+X-rpcampaign: stjko35453198
+
+------=_Part_18297973_1941806881.1716313313367
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        One theory is that, because most of the shareholders of most US pub=
+lic companies are diversified investors in lots of companies, each compan
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      McRitchie
+   =20
+ =20
+
+One theory is that, because most of the shareholders of most US public comp=
+anies are diversified investors in lots of companies, each company=E2=80=99=
+s managers should work, not to maximize the value of=C2=A0their=C2=A0compan=
+y, but to maximize the value of=C2=A0all=C2=A0the companies. If the chief e=
+xecutive officer of a company can do a thing that reduces the value of her =
+company by $1, but increases the value of her competitors (or suppliers, or=
+ customers, or neighbors, or any other publicly traded companies) by $2, th=
+en she should do that. Her shareholders will lose money on her stock but ma=
+ke money on their other stocks, and they will be happy and grateful to her.=
+ Maximizing the value of her company=E2=80=99s stock, at the expense of the=
+ other companies,=C2=A0harms her shareholders. She has fiduciary duties to =
+those shareholders, and the way to fulfill those duties is by maximizing th=
+e value of their overall portfolio, which is, roughly speaking, the stock m=
+arket.
+This theory:
+=09makes a certain amount of sense (the shareholders really are largely div=
+ersified), and=09is quite=C2=A0fruitful. It gives you lots of interesting i=
+deas about the world. Much of ESG (environmental, social and governance) in=
+vesting can be thought of in these terms: Big diversified investors might c=
+are more about the=C2=A0systemic=C2=A0effects of their companies (whether t=
+hey cause climate change, etc.) than they do about their individual perform=
+ance. Or there is a popular worry that common ownership of all the companie=
+s causes antitrust problems, because =E2=80=94=C2=A0if you believe this the=
+ory =E2=80=94 companies won=E2=80=99t want to compete on price in a way tha=
+t harms their collective bottom line. Or I have half-seriously proposed wei=
+rd theories about Covid vaccines and Ozempic.
+
+On the other hand this theory is, you know,=C2=A0wrong. It just isn=E2=80=
+=99t the case that directors and managers of each public company =E2=80=9Cr=
+eally=E2=80=9D work for the collective set of all public companies, and hav=
+e duties to that collective.=C2=A0They work for their individual companies.=
+ There are a few ways to tell:
+=09All the laws and cases and stuff are about duties to the company, not ab=
+out duties to shareholders=E2=80=99 overall portfolios.=09=E2=80=9CCorporat=
+e managers should maximize the overall value of their shareholders=E2=80=99=
+ portfolios=E2=80=9D is not a very good guide to behavior. The effects of a=
+ CEO=E2=80=99s decisions on her competitors and customers and suppliers and=
+ complementary businesses and potential future entrants and every other com=
+pany will be mixed and complex, and a CEO can find a way to justify more or=
+ less any action by saying =E2=80=9Cwell this will be good for the market a=
+s a whole.=E2=80=9D Whereas it is relatively easy to measure if a company=
+=E2=80=99s own business is doing well.=09Relatedly, the=C2=A0way=C2=A0to ma=
+ximize overall value might be through competition among companies. Over the=
+ long term, what increases the overall value of the stock market is probabl=
+y innovation, rather than careful slicing of existing entitlements, and=C2=
+=A0competition is a good motivator of innovation.=09The executives are gene=
+rally=C2=A0paid based on their company=E2=80=99s performance. In particular=
+, they are often paid in=C2=A0stock=C2=A0=E2=80=94=C2=A0stock of their comp=
+any, not index funds. The outside investors of a typical company will be br=
+oadly diversified, but the=C2=A0executives=C2=A0of that company will have a=
+ disproportionate amount of their net worth in that company=E2=80=99s stock=
+. If the executives were supposed to work on behalf of the market as a whol=
+e, they=E2=80=99d get paid in index funds.
+
+There is probably something to the theory, both as a descriptive matter (do=
+ corporate executives sometimes act in the best interests of all of the com=
+panies rather than just their company?) and as a normative one (should=C2=
+=A0they?). But it captures an interesting weird tension in how the world wo=
+rks; it does not simply=C2=A0describe=C2=A0how the world works.
+Still the theory is such fun that (1) I can=E2=80=99t resist writing about =
+it and (2) some people really believe it and try to make it true. We talked=
+ last year about a guy named James McRitchie, who sued Mark Zuckerberg and =
+other directors of Meta Platforms Inc.=C2=A0for caring too much about Meta =
+and not enough about their shareholders=E2=80=99 diversified portfolios. Th=
+e theory was that Zuckerberg owns a huge undiversified slug of Meta stock (=
+because he is its founder!), and the directors work to maximize Meta=E2=80=
+=99s value, and they shouldn=E2=80=99t. Instead, they should be better corp=
+orate citizens and consider the effects of Meta=E2=80=99s actions on =E2=80=
+=9Cthe global economy,=E2=80=9D not just its own profits.
+I was never clear on exactly what this would mean. (=E2=80=9CMedia reports =
+make it clear that there are opportunities for the Company to improve its e=
+conomic impact (and thus the financial position of its diversified stockhol=
+ders) by investing some of its cash flows in greater security or by changin=
+g certain practices in a manner that would reduce those cash flows,=E2=80=
+=9D said the complaint, meaning, like, being more worried about the effects=
+ of Instagram on teens=E2=80=99 mental health.) But the point was probably =
+not so much to get Meta to change how it operates. The point was to try to =
+get a Delaware court to declare a new theory of corporate governance, one w=
+here founder-CEOs who own a lot of stock have a=C2=A0conflict=C2=A0of inter=
+est with their other shareholders, because the founder-CEOs are concentrate=
+d but the other shareholders are diversified.
+This was never likely to happen. I wrote at the time:
+The lawsuit is not so much a real lawsuit as it is a piece of performance a=
+rt, or a philosophy paper. It doesn=E2=80=99t really provide a guide for co=
+rporate action; it is just an abstract inquiry into what the corporation is=
+ for. I love it so much.=C2=A0
+As it happens, the judge in the case, Delaware Vice Chancellor Travis Laste=
+r, seems to agree with me on both of those points: It=E2=80=99s not a real =
+lawsuit, but he loved it so much. Here is his=C2=A0April 30 opinion, which =
+(1) dismissed the case but (2) spent 102 pages engaged in the arguments:
+
+The =E2=80=9Cdeep architecture=E2=80=9D of Delaware corporate law reveals t=
+hat directors owe firm-specific fiduciary duties. Numerous Delaware Supreme=
+ Court authorities rest on that implicit proposition. So does American corp=
+orate law generally, which has taken a firm-specific approach since courts =
+first treated directors as fiduciaries during the first half of the ninetee=
+nth century.
+The plaintiff has not made a persuasive case for change. At most, he has sh=
+own that some academics=E2=80=94primarily from the law and economics school=
+=E2=80=94have assumed that a diversified-investor model is the norm. He has=
+ also shown that some investor advocacy organizations would prefer that mod=
+el.
+
+One important point in the opinion is that a lot of Delaware corporate law =
+is about director duties in mergers and acquisitions, and basically none of=
+ the M&A cases even mention the idea that directors of the target company s=
+hould consider the acquiring company=E2=80=99s shareholders:
+
+If sell-side directors had a duty to consider the interests of diversified =
+stockholders, then one might expect the decisions to evaluate whether the d=
+irectors properly considered factors relevant to diversified investors. If =
+the acquirer (or topping bidder) were publicly traded, and if the sell-side=
+ board had a duty to consider the interests of diversified stockholders, th=
+en one would expect courts to consider the extent to which the sell-side di=
+rectors considered whether the deal would create a positive surplus, regard=
+less of the allocation between the two firms. The takeover premium would no=
+t be relevant, because diversified sell-side stockholders could be expected=
+ to own shares on the buy side as well. Assuming proportionate ownership, t=
+he cost of the premium to the buyer=E2=80=99s stockholders would offset the=
+ value of the premium to the target stockholders. Courts would ask whether =
+directors considered how successful the combination would be, because diver=
+sified stockholders would benefit from productive combinations and suffer h=
+arm from unsuccessful ones.
+Judicial analysis would change to a similar degree for cash deals, with cou=
+rts expecting directors to consider the value of the combination to diversi=
+fied investors. Under the plaintiff=E2=80=99s formulation, that would mean =
+considering the value of the combination to the economy. Courts might expec=
+t sell-side directors to consider whether the acquirer planned to take on c=
+onsiderable debt to fund the acquisition, because a bankruptcy could cause =
+economic dislocation. Or courts might expect sellside directors to resist o=
+r reject combinations resulting in excessive market concentration that coul=
+d harm the economy by enabling the post-combination entity to extract monop=
+oly rents. =E2=80=A6
+Yet there are no indications that courts expect directors to take those or =
+similar factors into account. No cases suggest directors should consider wh=
+ether a particular outcome would be harmful or beneficial to the economy. N=
+or do any cases suggest that sell-side directors should consider the transa=
+ction from the perspectives of both sellside and buy-side stockholders. Qui=
+te the opposite.
+
+Still there is some hope:
+Still, there is a way to achieve the plaintiff=E2=80=99s desired result. De=
+laware=E2=80=99s governance model is flexible enough to accommodate corpora=
+tions where directors=C2=A0pursue the interests of diversified investors. T=
+he Delaware General Corporation Law (the =E2=80=9CDGCL=E2=80=9D) authorizes=
+ private ordering and empowers corporate planners to tailor director duties=
+ through provisions in the certificate of incorporation. Using that authori=
+ty, corporate planners who find the plaintiff=E2=80=99s arguments convincin=
+g can reorient director duties toward diversified stockholders.
+So I guess the next campaign is to try to get companies to write into their=
+ charters that they will work on behalf of diversified shareholders.=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Endless shrimp
+   =20
+ =20
+
+We talked yesterday about the corporate finance angle on Red Lobster=E2=80=
+=99s Ultimate Endless Shrimp promotion, but at Slate, Luke Winkie addresses=
+ the labor-relations and nutritional angles:
+
+=E2=80=9CI had a guy come in with his family. It was a family of five. And =
+he did 16 rounds of shrimp scampi,=E2=80=9D said James Berke, a 23-year-old=
+ in New Jersey, who until very recently worked at a Red Lobster. =E2=80=9CH=
+e was there for over two hours on a busy Friday night. They had one of my b=
+iggest tables. I just had to watch this man eat plates upon plates of the s=
+campi, which isn=E2=80=99t even served over pasta. It=E2=80=99s shrimp in a=
+ garlic-wine butter. It was so gross.=E2=80=9D ...
+Berke=E2=80=99s experience serving a man who put away 16 servings over the =
+course of two hours was actually mild compared with some of the other stori=
+es I=E2=80=99ve heard. Josie, 19, who also asked to be anonymous, worked at=
+ a (now-shuttered) Kansas City Red Lobster, where she watched a solo diner =
+take down 30 orders of fried shrimp within four hours. According to the nut=
+ritional information on Red Lobster=E2=80=99s website, that=E2=80=99s somet=
+hing like 14,000 calories.
+=E2=80=9CHe was a skinny guy too,=E2=80=9D Josie said. =E2=80=9CI was like,=
+ Where is it all going?=E2=80=9D
+But the top thing employees will not miss about Red Lobster are the argumen=
+ts and confrontations they=E2=80=99d frequently endure when informing custo=
+mers about the rules that come buoyed to the Endless Shrimp deal. For insta=
+nce, guests cannot request a box to take their Endless Shrimp home, nor can=
+ they share their servings with the rest of the table. (In other words, onl=
+y one phantasmagoric shrimp binge per person.)
+=E2=80=9CYou had groups coming in expecting to feed their whole family with=
+ one order of endless shrimp,=E2=80=9D Josie said. =E2=80=9CI would get scr=
+eamed at.=E2=80=9D She already had her share of Cheddar Bay Biscuit battle =
+stories, but the shrimp was something else: =E2=80=9CIt tops any customer s=
+ervice experience I=E2=80=99ve had. Some people are just a different type o=
+f stupid, and they all wander into Red Lobster.=E2=80=9D
+
+What we discussed yesterday was the possibility =E2=80=94=C2=A0hinted at in=
+ Red Lobster=E2=80=99s bankruptcy papers =E2=80=94=C2=A0that the endless sh=
+rimp promotion was a way to funnel money from the failing Red Lobster to it=
+s controlling shareholder Thai Union Group Pcl, which was also a big suppli=
+er. The theory is roughly that, as Red Lobster slid into bankruptcy,=C2=A0T=
+hai Union could not expect to get any value back=C2=A0as a shareholder; in =
+fact, it valued its Red Lobster investment at zero by February.=C2=A0But it=
+ could salvage a lot of value=C2=A0as a supplier, by selling Red Lobster a =
+lot of shrimp. If Red Lobster paid full price for all those shrimp, that wo=
+uld be profitable for Thai Union as a supplier. And if Red Lobster lost mon=
+ey on every shrimp it bought, that would in theory be bad for Thai Union as=
+ a shareholder,=C2=A0but if Thai Union=E2=80=99s shares were worthless anyw=
+ay, it couldn=E2=80=99t get any worse. Instead, the money came out of the p=
+ocket of Red Lobster=E2=80=99s creditors, who are now looking into whether =
+there was anything amiss in the endless shrimp decision-making.
+In some ways the dynamics are reminiscent of what we used to talk about as =
+=E2=80=9Cthe MoviePass economy.=E2=80=9D There, the theory was that venture=
+ capitalists wanted to fund businesses that were growing quickly and signin=
+g up lots of enthusiastic customers, without particularly caring whether th=
+ose businesses made money. Startups adapted to those incentives: It is easi=
+er to grow quickly and impress your customers if you price your products wa=
+y below cost, and so startups did. Sometimes this worked, and=C2=A0the star=
+tups quickly built big networks of dedicated customers and could rationaliz=
+e their economics, and sometimes it didn=E2=80=99t.
+But the point was that, for a while, ordinary people=E2=80=99s lifestyles w=
+ere subsidized by venture capitalists=E2=80=99 bets=C2=A0on growth. I once =
+wrote, about competing=C2=A0SoftBank-backed food-delivery services:
+In these situations it is instructive to remove a few layers of abstraction=
+ and just think about what is actually happening here. At one end, the sove=
+reign wealth fund of Saudi Arabia plows gigantic piles of money into SoftBa=
+nk=E2=80=99s Vision Fund. At the other end, Mexico City=E2=80=99s =E2=80=9C=
+legendary late-night snack spot El Moro=E2=80=9D can have someone =E2=80=9C=
+deliver its churros and hot cocoa to takeout customers across the capital=
+=E2=80=9D well below cost, subsidized by the Vision Fund. The King of Saudi=
+ Arabia is sending hot chocolate to everyone in Mexico City. Here, have thi=
+s nice hot chocolate, on the King of Saudi Arabia. Modern capitalism is alw=
+ays so much stranger than you expect.
+Same here but with shrimp. Here, too, arguably Thai Union was very interest=
+ed in volume=C2=A0and indifferent to unit economics. Here arguably the trad=
+e was that Thai Union was gifting shrimp to Red Lobster overeaters. Thai Un=
+ion got paid well for the shrimp, and the customers underpaid for them, and=
+ the whole transaction was subsidized =E2=80=94=C2=A0unwillingly =E2=80=94=
+=C2=A0by Red Lobster=E2=80=99s creditors.=C2=A0
+
+ =20
+   =20
+      Her
+   =20
+ =20
+
+One thing that I sometimes think is that worries about runaway artificial i=
+ntelligence are metaphors for worries about (1)=C2=A0corporate capitalism, =
+generally, (2) the corporate governance of OpenAI, specifically, or (3)=C2=
+=A0Sam Altman, personally. Like Sam Altman is not, as far as I now, a super=
+intelligent evil robot, but some of the fears that people have about superi=
+ntelligent evil robots seem weirdly similar to their fears about him. We ha=
+ve talked about how the board of directors of OpenAI felt that Altman was l=
+ying to them, but he =E2=80=9Chad been so deft they couldn=E2=80=99t even g=
+ive a specific example.=E2=80=9D His intelligence is too subtle for ordinar=
+y humans to understand, and he uses it to overpower them!
+Or a lot of people worry about the effect that AI will have on creative wor=
+k: If computers can become perfect imitators of human writing and speech, i=
+f they can generate convincing images and videos, then what will that do to=
+ the value of writers and artists and actors and directors? Won=E2=80=99t t=
+he computers just imitate and displace actors? Well, maybe, but in any case=
+ Sam Altman will:
+
+Days before OpenAI demonstrated its new, flirty voice assistant last week, =
+the actress Scarlett Johansson said, Sam Altman, the company=E2=80=99s chie=
+f executive, called her agent and asked that she consider licensing her voi=
+ce for a virtual assistant.
+It was his second request to the actress in the past year, [Ms. Johansson] =
+said in a statement on Monday, adding that the reply both times was no.
+Despite those refusals, Ms. Johansson said, OpenAI used a voice that sounde=
+d =E2=80=9Ceerily similar to mine.=E2=80=9D She has hired a lawyer and aske=
+d OpenAI to stop using a voice it called =E2=80=9CSky.=E2=80=9D
+OpenAI suspended its release of =E2=80=9CSky=E2=80=9D over the weekend. The=
+ company said in a blog post on Sunday that =E2=80=9CAI voices should not d=
+eliberately mimic a celebrity=E2=80=99s distinctive voice =E2=80=94 Sky=E2=
+=80=99s voice is not an imitation of Scarlett Johansson but belongs to a di=
+fferent professional actress using her own natural speaking voice.=E2=80=9D=
+=C2=A0
+For Ms. Johansson, the episode has been a surreal case of life-imitating ar=
+t. In 2013, she provided the voice for an A.I. system in the Spike Jonze mo=
+vie =E2=80=9CHer.=E2=80=9D ...
+Last week, Mr. Altman appeared to nod to the similarity between OpenAI=E2=
+=80=99s virtual assistant and the film in a post on X with the single word =
+=E2=80=9Cher.=E2=80=9D
+
+Here=E2=80=99s a long OpenAI blog post about how they cast voice actors, lo=
+oking for things like =E2=80=9Ca voice that feels timeless,=E2=80=9D =E2=80=
+=9Can approachable voice that inspires trust,=E2=80=9D but certainly not =
+=E2=80=9Csounds like Scarlett Johansson,=E2=80=9D what ever gave you that i=
+dea, that=E2=80=99s crazy.
+
+ =20
+   =20
+      Donations
+   =20
+ =20
+
+Here=E2=80=99s a trade:
+=09Start a company to, you know, invent teleportation or whatever.=09Write =
+some financial projections about how much money you will make if you succee=
+d, discount them by an optimistic estimate of your likelihood of success, a=
+nd decide that your company is worth $1 billion.=09Donate 10% of the stock =
+of your company to a nonprofit.=09Deduct the $100 million value of the dona=
+tion on your taxes.=09Good work, now you never pay taxes again.
+  [1]
+
+
+
+To be clear, this is extremely not legal or tax advice. They are looking fo=
+r this sort of thing! Anyway here=E2=80=99s=C2=A0a great story about a guy =
+named Gregory Gerami, who came to Florida A&M University =E2=80=9Cto presen=
+t a check for more than $237 million during the university=E2=80=99s May 4 =
+graduation ceremony.=E2=80=9D I mean, a novelty check. Not a check. =E2=80=
+=9CThe donation to FAMU was revealed to be private stocks in Gerami=E2=80=
+=99s company, Batterson Farms Corp.=E2=80=9D And:
+
+He=E2=80=99s maintained that his gift is worth around $237 million, though =
+he admits no external valuation of the stocks has been conducted yet. =E2=
+=80=A6=C2=A0
+Officials have since admitted the stocks may be worthless. ...
+Gerami told The Sun News Thursday he didn=E2=80=99t watch the meeting, and =
+he feels all the criticism directed toward him is premature since there has=
+n=E2=80=99t been any third-party valuation of the stock. His company is in =
+the process of hiring a qualified appraiser, he said.
+=E2=80=9CIf the valuation supports (the value we reported) of the gift, wha=
+t will [critics] say?=E2=80=9D he asked.
+
+Probably they=E2=80=99ll say =E2=80=9Cwhy doesn=E2=80=99t the school=C2=A0s=
+ell the stock for $237 million then,=E2=80=9D would be my guess, but who kn=
+ows.=C2=A0
+Incidentally a reader once emailed me to suggest that Donald Trump could mo=
+netize=C2=A0his Trump Media & Technology Group stock by donating it to his =
+charitable foundation. At first I was skeptical, but he walked me through t=
+he math and I was enlightened. The math is: What loan-to-value ratio=C2=A0w=
+ould a bank give you in a non-recourse loan against a volatile meme stock y=
+ou control? Because the IRS will give you 37%.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Craig Wright is apparently not Satoshi Nakamoto. Jamie Dimon Says Successio=
+n at JPMorgan Is =E2=80=98Well on the Way.=E2=80=99 FDIC Chairman Martin Gr=
+uenberg to Resign Following Report Detailing Sexual Harassment at Agency. N=
+ew York lawmakers push to block funds=E2=80=99 sovereign bond litigation. E=
+ven a Fraud Conviction Won=E2=80=99t Keep Nikola=E2=80=99s Founder Away Fro=
+m the Company. A=C2=A0$10 Billion Real-Estate Fund Is Bleeding Cash and Run=
+ning Out of Options. Banks Are Now Targeting Some of=20
+Private Credit=E2=80=99s Riskiest Debt. Shell Investors Back Weaker Emissio=
+ns Targets at Annual Meeting.=C2=A0Activist investor builds stake in Reckit=
+t after baby formula verdict.=C2=A0States Push Back Against Guaranteed Inco=
+me With New Bans.=C2=A0How the $17 Desk Salad Won. France Issues Scratch-an=
+d-Sniff Baguette Postage Stamps.=C2=A0=E2=80=98Gathering of Kyles=E2=80=99 =
+fails to earn Guinness World Record in Texas.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Oh, kidding, charitable deductions are limited to 50% of gross income=
+ and can only be carried forward for five years, this is very much not tax =
+advice.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cl3vv2.5jc2/eb83378d.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_18297973_1941806881.1716313313367
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+One theory is that, because most of the shareholders of most US public comp=
+anies are diversified investors in lots of companies, each compan
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.258338/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNTIxMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA1MjEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB429280ad"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.258338/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zNTQ1MzE5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzU3MTE1MzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB901d014a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D35453198&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D35711536&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">McRitchie</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One theory is that, because most of the shareh=
+olders of most US public companies are diversified investors in lots of com=
+panies, each company=E2=80=99s managers should work, not to maximize the va=
+lue of=C2=A0<em>their=C2=A0</em>company, but to maximize the value of=C2=A0=
+<em>all=C2=A0</em>the companies. If the chief executive officer of a compan=
+y can do a thing that reduces the value of her company by $1, but increases=
+ the value of her competitors (or suppliers, or customers, or neighbors, or=
+ any other publicly traded companies) by $2, then she should do that. Her s=
+hareholders will lose money on her stock but make money on their other stoc=
+ks, and they will be happy and grateful to her. Maximizing the value of her=
+ company=E2=80=99s stock, at the expense of the other companies,=C2=A0<em>h=
+arms her shareholders</em>. She has fiduciary duties to those shareholders,=
+ and the way to fulfill those duties is by maximizing the value of their ov=
+erall portfolio, which is, roughly speaking, the stock market.</p>
+<p style=3D"margin: 16px 0;">This theory:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">makes a certain amount of sense (the s=
+hareholders really are largely diversified), and</li>=09<li style=3D"margin=
+-bottom: 5px;">is <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+35453198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMjQtMDEtMjIvc2hhcmVob2xkZXJzLWFyZS1wZW9wbGUtdG9vP2NtcGlkPUJCRDA1MjEyNF9NT0=
+5FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtP=
+TI0MDUyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB1d1c1178=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">quite=C2=A0<em>fruitful</em></a>. It gives you lots of <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/35453198.258338/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDItMjEvdGhlLWNvbXBhbml=
+lcy1hcmUtb24tdGhlLXNhbWUtdGVhbT9jbXBpZD1CQkQwNTIxMjRfTU9ORVlTVFVGRiZ1dG1fbW=
+VkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA1MjEmdXRtX2Nhb=
+XBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb818fc26" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">interesti=
+ng ideas</a> about the world. Much of ESG (environmental, social and govern=
+ance) investing can be <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/35453198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjEtMDktMTQvZG9uLXQtc3BlbmQteW91ci1saXRlY29pbnMtYXQtd2FsbWFydD9jbXBpZ=
+D1CQkQwNTIxMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xl=
+dHRlciZ1dG1fdGVybT0yNDA1MjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b852=
+4a319a23cB523c16f7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">thought of</a> in <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/35453198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMDQvZmFjZWJvb2std2hpc3RsZWJsb3dlci1z=
+aG93cy1hLXNoaWZ0LWluLXNoYXJlaG9sZGVyLXZhbHVlcy1hd2F5LWZyb20tcHJvZml0cz9jbXB=
+pZD1CQkQwNTIxMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yNDA1MjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cBfa10550f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">these terms</a>: Big diversified investors mi=
+ght care more about the=C2=A0<em>systemic=C2=A0</em>effects of their compan=
+ies (whether they cause climate change, etc.) than they do about their indi=
+vidual performance. Or there is a popular worry that common ownership of al=
+l the companies causes <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/35453198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL25ld3NsZX=
+R0ZXJzLzIwMTgtMTItMDcvbW9uZXktc3R1ZmYtcmVndWxhdG9ycy1hc2staWYtaW5kZXgtZnVuZ=
+HMtYXJlLWJhZD9jbXBpZD1CQkQwNTIxMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0=
+bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA1MjEmdXRtX2NhbXBhaWduPW1vbmV5c3R=
+1ZmY/607f07ceef4b8524a319a23cB79de2025" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">antitrust problems</a>, bec=
+ause =E2=80=94=C2=A0if you believe this theory =E2=80=94 companies won=E2=
+=80=99t want to compete on price in a way that harms their collective botto=
+m line. Or I have half-seriously proposed weird theories about <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/35453198.258338/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjAtMDctMjMvbW9uZXktc3R1ZmYte=
+W91LWRvbi10LW5lZWQtcHJvZml0cy1hbnltb3JlP2NtcGlkPUJCRDA1MjEyNF9NT05FWVNUVUZG=
+JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDUyMSZ=
+1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB92d59d58" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Covid</a> <a href=3D"https://link.mail.bloombergbusiness.com/click/35453198=
+.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDI=
+tMjQvdGhlLXZhY2NpbmUtaXMtbm90LWEtY29tcGV0aXRpb24_Y21waWQ9QkJEMDUyMTI0X01PTk=
+VZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09M=
+jQwNTIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBcc2fa276" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">vaccines</a> and <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/35453198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMjMtMTAtMDkvb3plbXBpYy1pcy1iYWQtZm9yLWJ1c2luZXNzP2NtcGlkPUJCRDA1MjE=
+yNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV=
+90ZXJtPTI0MDUyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6=
+892bdd2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">Ozempic</a>.</li>
+</ul>
+<p style=3D"margin: 16px 0;">On the other hand this theory is, you know,=C2=
+=A0<em>wrong</em>. It just isn=E2=80=99t the case that directors and manage=
+rs of each public company =E2=80=9Creally=E2=80=9D work for the collective =
+set of all public companies, and have duties to that collective.=C2=A0They =
+work for their individual companies. There are a few ways to tell:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">All the laws and cases and stuff are =
+about duties to the company, not about duties to shareholders=E2=80=99 over=
+all portfolios.</li>=09<li style=3D"margin-bottom: 5px;">=E2=80=9CCorporate=
+ managers should maximize the overall value of their shareholders=E2=80=99 =
+portfolios=E2=80=9D is not a very good guide to behavior. The effects of a =
+CEO=E2=80=99s decisions on her competitors and customers and suppliers and =
+complementary businesses and potential future entrants and every other comp=
+any will be mixed and complex, and a CEO can find a way to justify more or =
+less any action by saying =E2=80=9Cwell this will be good for the market as=
+ a whole.=E2=80=9D Whereas it is relatively easy to measure if a company=E2=
+=80=99s own business is doing well.</li>=09<li style=3D"margin-bottom: 5px;=
+">Relatedly, the=C2=A0<em>way=C2=A0</em>to maximize overall value might be =
+through competition among companies. Over the long term, what increases the=
+ overall value of the stock market is probably innovation, rather than care=
+ful slicing of existing entitlements, and=C2=A0competition is a good motiva=
+tor of innovation.</li>=09<li style=3D"margin-bottom: 5px;">The executives =
+are generally=C2=A0<em>paid </em>based on <em>their </em>company=E2=80=99s =
+performance. In particular, they are often paid in=C2=A0<em>stock</em>=C2=
+=A0=E2=80=94=C2=A0stock of their company, not index funds. The outside inve=
+stors of a typical company will be broadly diversified, but the=C2=A0<em>ex=
+ecutives=C2=A0</em>of that company will have a disproportionate amount of t=
+heir net worth in that company=E2=80=99s stock. If the executives were supp=
+osed to work on behalf of the market as a whole, they=E2=80=99d get paid in=
+ index funds.</li>
+</ol>
+<p style=3D"margin: 16px 0;">There is probably something to the theory, bot=
+h as a descriptive matter (do corporate executives sometimes act in the bes=
+t interests of all of the companies rather than just their company?) and as=
+ a normative one (<em>should=C2=A0</em>they?). But it captures an interesti=
+ng weird tension in how the world works; it does not simply=C2=A0<em>descri=
+be=C2=A0</em>how the world works.</p>
+<p style=3D"margin: 16px 0;">Still the theory is such fun that (1) I can=E2=
+=80=99t resist writing about it and (2) some people really believe it and t=
+ry to make it true. We <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/35453198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjMtMDYtMjIvZG9lcy1tYXJrLXp1Y2tlcmJlcmctb3duLXRvby1tdWNoLW1ldGE_Y21wa=
+WQ9QkJEMDUyMTI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3Ns=
+ZXR0ZXImdXRtX3Rlcm09MjQwNTIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b85=
+24a319a23cBb31c9ebd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">talked last year</a> about a guy named James =
+McRitchie, who sued Mark Zuckerberg and other directors of Meta Platforms I=
+nc.=C2=A0for caring too much about Meta and not enough about their sharehol=
+ders=E2=80=99 diversified portfolios. The theory was that Zuckerberg owns a=
+ huge undiversified slug of Meta stock (because he is its founder!), and th=
+e directors work to maximize Meta=E2=80=99s value, and they <em>shouldn=E2=
+=80=99t</em>. Instead, they should be better corporate citizens and conside=
+r the effects of Meta=E2=80=99s actions on =E2=80=9Cthe global economy,=E2=
+=80=9D not just its own profits.</p>
+<p style=3D"margin: 16px 0;">I was never clear on exactly what this would m=
+ean. (=E2=80=9CMedia reports make it clear that there are opportunities for=
+ the Company to improve its economic impact (and thus the financial positio=
+n of its diversified stockholders) by investing some of its cash flows in g=
+reater security or by changing certain practices in a manner that would red=
+uce those cash flows,=E2=80=9D <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/35453198.258338/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdX=
+NlcnMvaXFqV0hCRmRmeElVL3J0bFozZ0c2VFJYWS92MA/607f07ceef4b8524a319a23cBc84fc=
+e91" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">said the complaint</a>, meaning, like, being more worried abou=
+t the effects of Instagram on teens=E2=80=99 mental health.) But the point =
+was probably not so much to get Meta to change how it operates. The point w=
+as to try to get a Delaware court to declare a new theory of corporate gove=
+rnance, one where founder-CEOs who own a lot of stock have a=C2=A0<em>confl=
+ict=C2=A0</em>of interest with their other shareholders, because the founde=
+r-CEOs are concentrated but the other shareholders are diversified.</p>
+<p style=3D"margin: 16px 0;">This was never likely to happen. I <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/35453198.258338/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMjIvZG9lcy1tYXJrLXp1=
+Y2tlcmJlcmctb3duLXRvby1tdWNoLW1ldGE_Y21waWQ9QkJEMDUyMTI0X01PTkVZU1RVRkYmdXR=
+tX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNTIxJnV0bV=
+9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cCb31c9ebd" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">wrote=
+ at the time</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">The lawsuit is not so much a real =
+lawsuit as it is a piece of performance art, or a philosophy paper. It does=
+n=E2=80=99t really provide a guide for corporate action; it is just an abst=
+ract inquiry into what the corporation is for. I love it so much.=C2=A0</p>=
+</blockquote>
+<p style=3D"margin: 16px 0;">As it happens, the judge in the case, Delaware=
+ Vice Chancellor Travis Laster, seems to agree with me on both of those poi=
+nts: It=E2=80=99s not a real lawsuit, but he loved it so much. Here is his=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.258=
+338/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3I=
+yYURzOVJMSS5oYy92MA/607f07ceef4b8524a319a23cBd50208c5" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">April 30 opi=
+nion</a>, which (1) dismissed the case but (2) spent 102 pages engaged in t=
+he arguments:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The =E2=80=9Cdeep architecture=E2=80=9D of Del=
+aware corporate law reveals that directors owe firm-specific fiduciary duti=
+es. Numerous Delaware Supreme Court authorities rest on that implicit propo=
+sition. So does American corporate law generally, which has taken a firm-sp=
+ecific approach since courts first treated directors as fiduciaries during =
+the first half of the nineteenth century.</p>
+<p style=3D"margin: 16px 0;">The plaintiff has not made a persuasive case f=
+or change. At most, he has shown that some academics=E2=80=94primarily from=
+ the law and economics school=E2=80=94have assumed that a diversified-inves=
+tor model is the norm. He has also shown that some investor advocacy organi=
+zations would prefer that model.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One important point in the opinion is that a l=
+ot of Delaware corporate law is about director duties in mergers and acquis=
+itions, and basically none of the M&amp;A cases even mention the idea that =
+directors of the target company should consider the acquiring company=E2=80=
+=99s shareholders:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">If sell-side directors had a duty to consider =
+the interests of diversified stockholders, then one might expect the decisi=
+ons to evaluate whether the directors properly considered factors relevant =
+to diversified investors. If the acquirer (or topping bidder) were publicly=
+ traded, and if the sell-side board had a duty to consider the interests of=
+ diversified stockholders, then one would expect courts to consider the ext=
+ent to which the sell-side directors considered whether the deal would crea=
+te a positive surplus, regardless of the allocation between the two firms. =
+The takeover premium would not be relevant, because diversified sell-side s=
+tockholders could be expected to own shares on the buy side as well. Assumi=
+ng proportionate ownership, the cost of the premium to the buyer=E2=80=99s =
+stockholders would offset the value of the premium to the target stockholde=
+rs. Courts would ask whether directors considered how successful the combin=
+ation would be, because diversified stockholders would benefit from product=
+ive combinations and suffer harm from unsuccessful ones.</p>
+<p style=3D"margin: 16px 0;">Judicial analysis would change to a similar de=
+gree for cash deals, with courts expecting directors to consider the value =
+of the combination to diversified investors. Under the plaintiff=E2=80=99s =
+formulation, that would mean considering the value of the combination to th=
+e economy. Courts might expect sell-side directors to consider whether the =
+acquirer planned to take on considerable debt to fund the acquisition, beca=
+use a bankruptcy could cause economic dislocation. Or courts might expect s=
+ellside directors to resist or reject combinations resulting in excessive m=
+arket concentration that could harm the economy by enabling the post-combin=
+ation entity to extract monopoly rents. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Yet there are no indications that courts expec=
+t directors to take those or similar factors into account. No cases suggest=
+ directors should consider whether a particular outcome would be harmful or=
+ beneficial to the economy. Nor do any cases suggest that sell-side directo=
+rs should consider the transaction from the perspectives of both sellside a=
+nd buy-side stockholders. Quite the opposite.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Still there is some hope:</p>
+<blockquote><p style=3D"margin: 16px 0;">Still, there is a way to achieve t=
+he plaintiff=E2=80=99s desired result. Delaware=E2=80=99s governance model =
+is flexible enough to accommodate corporations where directors=C2=A0pursue =
+the interests of diversified investors. The Delaware General Corporation La=
+w (the =E2=80=9CDGCL=E2=80=9D) authorizes private ordering and empowers cor=
+porate planners to tailor director duties through provisions in the certifi=
+cate of incorporation. Using that authority, corporate planners who find th=
+e plaintiff=E2=80=99s arguments convincing can reorient director duties tow=
+ard diversified stockholders.</p></blockquote>
+<p style=3D"margin: 16px 0;">So I guess the next campaign is to try to get =
+companies to write into their charters that they will work on behalf of div=
+ersified shareholders.=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.258338/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zNTQ1MzE5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzU3MTE1MzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC14c6050a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D35453198&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D35711536&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.258338/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zNTQ1MzE5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzU3MTE1MzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD14c6050a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D35453198&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D35711536&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Endless shrimp</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/35453198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjQtMDUtMjAvdGhlLWVuZGxlc3Mtc2hyaW1wLWludmVzdGlnYXRpb24_Y21w=
+aWQ9QkJEMDUyMTI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3N=
+sZXR0ZXImdXRtX3Rlcm09MjQwNTIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8=
+524a319a23cB36009278" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">talked yesterday</a> about the corporate fina=
+nce angle on Red Lobster=E2=80=99s Ultimate Endless Shrimp promotion, but a=
+t Slate, Luke Winkie addresses <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/35453198.258338/aHR0cHM6Ly9zbGF0ZS5jb20vbGlmZS8yMDI0LzA1L3JlZC=
+1sb2JzdGVyLXJlc3RhdXJhbnQtY2xvc2luZy1iYW5rcnVwdC1lbmRsZXNzLXNocmltcC5odG1sP=
+3ZpYT1yc3M/607f07ceef4b8524a319a23cB9a6aa41b" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">the labor-relations a=
+nd nutritional angles</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CI had a guy come in with his family. =
+It was a family of five. And he did 16 rounds of shrimp scampi,=E2=80=9D sa=
+id James Berke, a 23-year-old in New Jersey, who until very recently worked=
+ at a Red Lobster. =E2=80=9CHe was there for over two hours on a busy Frida=
+y night. They had one of my biggest tables. I just had to watch this man ea=
+t plates upon plates of the scampi, which isn=E2=80=99t even served over pa=
+sta. It=E2=80=99s shrimp in a garlic-wine butter. It was so gross.=E2=80=9D=
+ ...</p>
+<p style=3D"margin: 16px 0;">Berke=E2=80=99s experience serving a man who p=
+ut away 16 servings over the course of two hours was actually mild compared=
+ with some of the other stories I=E2=80=99ve heard. Josie, 19, who also ask=
+ed to be anonymous, worked at a (now-shuttered) Kansas City Red Lobster, wh=
+ere she watched a solo diner take down 30 orders of fried shrimp within fou=
+r hours. According to the nutritional information on Red Lobster=E2=80=99s =
+website, that=E2=80=99s something like 14,000 calories.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CHe was a skinny guy too,=E2=80=9D Jos=
+ie said. =E2=80=9CI was like, <em>Where is it all going?</em>=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">But the top thing employees will not miss abou=
+t Red Lobster are the arguments and confrontations they=E2=80=99d frequentl=
+y endure when informing customers about the rules that come buoyed to the E=
+ndless Shrimp deal. For instance, guests cannot request a box to take their=
+ Endless Shrimp home, nor can they share their servings with the rest of th=
+e table. (In other words, only one phantasmagoric shrimp binge per person.)=
+</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CYou had groups coming in expecting to=
+ feed their whole family with one order of endless shrimp,=E2=80=9D Josie s=
+aid. =E2=80=9CI would get screamed at.=E2=80=9D She already had her share o=
+f Cheddar Bay Biscuit battle stories, but the shrimp was something else: =
+=E2=80=9CIt tops any customer service experience I=E2=80=99ve had. Some peo=
+ple are just a different type of stupid, and they all wander into Red Lobst=
+er.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">What we discussed yesterday was the possibilit=
+y =E2=80=94=C2=A0hinted at in Red Lobster=E2=80=99s bankruptcy papers =E2=
+=80=94=C2=A0that the endless shrimp promotion was a way to funnel money fro=
+m the failing Red Lobster to its controlling shareholder Thai Union Group P=
+cl, which was also a big supplier. The theory is roughly that, as Red Lobst=
+er slid into bankruptcy,=C2=A0Thai Union could not expect to get any value =
+back=C2=A0<em>as a shareholder</em>; in fact, it <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/35453198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDUtMjEvcmVkLWxvYnN0ZXItcy1zaHJpbXAtZGViYWN=
+sZS1zcG90bGlnaHRzLTEtMi1iaWxsaW9uLXRoYWktZmFtaWx5P2NtcGlkPUJCRDA1MjEyNF9NT0=
+5FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtP=
+TI0MDUyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB5f74a140=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">valued its Red Lobster investment at zero</a> by February.=C2=A0B=
+ut it could salvage a lot of value=C2=A0<em>as a supplier</em>, by selling =
+Red Lobster a lot of shrimp. If Red Lobster paid full price for all those s=
+hrimp, that would be profitable for Thai Union as a supplier. And if Red Lo=
+bster lost money on every shrimp it bought, that would in theory be bad for=
+ Thai Union as a shareholder,=C2=A0but if Thai Union=E2=80=99s shares were =
+worthless anyway, it couldn=E2=80=99t get any worse. Instead, the money cam=
+e out of the pocket of Red Lobster=E2=80=99s <em>creditors</em>, who are no=
+w looking into whether there was anything amiss in the endless shrimp decis=
+ion-making.</p>
+<p style=3D"margin: 16px 0;">In some ways the dynamics are reminiscent of w=
+hat we used to talk about as =E2=80=9C<a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/35453198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjItMTEtMDcvbW92aWVwYXNzLXdhcy1ub3QtYS1nb29kLWJ1c2luZX=
+NzP2NtcGlkPUJCRDA1MjEyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDUyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cB971b0b35" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">the MoviePass economy</a>.=E2=80=9D T=
+here, the theory was that venture capitalists wanted to fund businesses tha=
+t were growing quickly and signing up lots of enthusiastic customers, witho=
+ut particularly caring whether those businesses made money. Startups adapte=
+d to those incentives: It is easier to grow quickly and impress your custom=
+ers if you price your products way below cost, and so startups did. Sometim=
+es this worked, and=C2=A0the startups quickly built big networks of dedicat=
+ed customers and could rationalize their economics, and sometimes it didn=
+=E2=80=99t.</p>
+<p style=3D"margin: 16px 0;">But the point was that, for a while, ordinary =
+people=E2=80=99s lifestyles were <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/35453198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25l=
+d3NsZXR0ZXJzLzIwMjEtMDYtMDgvbW9uZXktc3R1ZmYtbW92aWVwYXNzLWNoYW5nZWQtc29tZS1=
+wYXNzd29yZHM_Y21waWQ9QkJEMDUyMTI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNTIxJnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cB1ebcc413" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">subsidized by venture capita=
+lists=E2=80=99 bets</a>=C2=A0on growth. <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/35453198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjAtMDEtMzEvZG9uLXQtYmxpdHpzY2FsZS1hZ2FpbnN0LXlvdXJz=
+ZWxmP2NtcGlkPUJCRDA1MjEyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJ=
+jZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDUyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607=
+f07ceef4b8524a319a23cB88945941" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">I once wrote</a>, about competing=
+=C2=A0SoftBank-backed food-delivery services:</p>
+<blockquote><p style=3D"margin: 16px 0;">In these situations it is instruct=
+ive to remove a few layers of abstraction and just think about what is actu=
+ally happening here. At one end, the sovereign wealth fund of Saudi Arabia =
+plows gigantic piles of money into SoftBank=E2=80=99s Vision Fund. At the o=
+ther end, Mexico City=E2=80=99s =E2=80=9Clegendary late-night snack spot El=
+ Moro=E2=80=9D can have someone =E2=80=9Cdeliver its churros and hot cocoa =
+to takeout customers across the capital=E2=80=9D well below cost, subsidize=
+d by the Vision Fund. The King of Saudi Arabia is sending hot chocolate to =
+everyone in Mexico City. Here, have this nice hot chocolate, on the King of=
+ Saudi Arabia. Modern capitalism is always so much stranger than you expect=
+.</p></blockquote>
+<p style=3D"margin: 16px 0;">Same here but with shrimp. Here, too, arguably=
+ Thai Union was very interested in <em>volume=C2=A0</em>and indifferent to =
+<em>unit economics</em>. Here arguably the trade was that Thai Union was gi=
+fting shrimp to Red Lobster overeaters. Thai Union got paid well for the sh=
+rimp, and the customers underpaid for them, and the whole transaction was s=
+ubsidized =E2=80=94=C2=A0unwillingly =E2=80=94=C2=A0by Red Lobster=E2=80=99=
+s creditors.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Her</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One thing that I sometimes think is that worri=
+es about runaway artificial intelligence are metaphors for worries about (1=
+)=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.25=
+8338/aHR0cHM6Ly93d3cuYnV6emZlZWRuZXdzLmNvbS9hcnRpY2xlL3RlZGNoaWFuZy90aGUtcm=
+VhbC1kYW5nZXItdG8tY2l2aWxpemF0aW9uLWlzbnQtYWktaXRzLXJ1bmF3YXkjLnZwMXlsRFJEU=
+g/607f07ceef4b8524a319a23cBbf072ba1" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">corporate capitalism</a>, gene=
+rally, (2) the <a href=3D"https://link.mail.bloombergbusiness.com/click/354=
+53198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+MtMTEtMjAvd2hvLWNvbnRyb2xzLW9wZW5haT9jbXBpZD1CQkQwNTIxMjRfTU9ORVlTVFVGRiZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA1MjEmdXRt=
+X2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBdaed7665" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">corp=
+orate governance of OpenAI</a>, specifically, or (3)=C2=A0Sam Altman, perso=
+nally. Like Sam Altman is not, as far as I now, a superintelligent evil rob=
+ot, but some of the fears that people have about superintelligent evil robo=
+ts seem weirdly similar to their fears about him. We have <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/35453198.258338/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTEtMjcvb3BlbmFpLWlzLXN0aWxsLW=
+FuLTg2LWJpbGxpb24tbm9ucHJvZml0P2NtcGlkPUJCRDA1MjEyNF9NT05FWVNUVUZGJnV0bV9tZ=
+WRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDUyMSZ1dG1fY2Ft=
+cGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB009350a8" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">talked ab=
+out</a> how the board of directors of OpenAI felt that Altman was lying to =
+them, but he =E2=80=9Chad been so deft they couldn=E2=80=99t even give a sp=
+ecific example.=E2=80=9D His intelligence is too subtle for ordinary humans=
+ to understand, and he uses it to overpower them!</p>
+<p style=3D"margin: 16px 0;">Or a lot of people worry about the effect that=
+ AI will have on creative work: If computers can become perfect imitators o=
+f human writing and speech, if they can generate convincing images and vide=
+os, then what will that do to the value of writers and artists and actors a=
+nd directors? Won=E2=80=99t the computers just imitate and displace actors?=
+ Well, maybe, but in any case <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/35453198.258338/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyNC8wNS8yMC9=
+0ZWNobm9sb2d5L3NjYXJsZXR0LWpvaGFubnNvbi1vcGVuYWktdm9pY2UuaHRtbA/607f07ceef4=
+b8524a319a23cBe8e7b1a3" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">Sam Altman will</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Days before OpenAI demonstrated its new, flirt=
+y voice assistant last week, the actress Scarlett Johansson said, Sam Altma=
+n, the company=E2=80=99s chief executive, called her agent and asked that s=
+he consider licensing her voice for a virtual assistant.</p>
+<p style=3D"margin: 16px 0;">It was his second request to the actress in th=
+e past year, [Ms. Johansson] said in a statement on Monday, adding that the=
+ reply both times was no.</p>
+<p style=3D"margin: 16px 0;">Despite those refusals, Ms. Johansson said, Op=
+enAI used a voice that sounded =E2=80=9Ceerily similar to mine.=E2=80=9D Sh=
+e has hired a lawyer and asked OpenAI to stop using a voice it called =E2=
+=80=9CSky.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">OpenAI suspended its release of =E2=80=9CSky=
+=E2=80=9D over the weekend. The company said in a blog post on Sunday that =
+=E2=80=9CAI voices should not deliberately mimic a celebrity=E2=80=99s dist=
+inctive voice =E2=80=94 Sky=E2=80=99s voice is not an imitation of Scarlett=
+ Johansson but belongs to a different professional actress using her own na=
+tural speaking voice.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">For Ms. Johansson, the episode has been a surr=
+eal case of life-imitating art. In 2013, she provided the voice for an A.I.=
+ system in the Spike Jonze movie =E2=80=9CHer.=E2=80=9D ...</p>
+<p style=3D"margin: 16px 0;">Last week, Mr. Altman appeared to nod to the s=
+imilarity between OpenAI=E2=80=99s virtual assistant and the film in a post=
+ on X with the single word =E2=80=9Cher.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s a long <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/35453198.258338/aHR0cHM6Ly9vcGVuYWkuY29tL2=
+luZGV4L2hvdy10aGUtdm9pY2VzLWZvci1jaGF0Z3B0LXdlcmUtY2hvc2VuLw/607f07ceef4b85=
+24a319a23cB63d2ba48" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">OpenAI blog post</a> about how they cast voic=
+e actors, looking for things like =E2=80=9Ca voice that feels timeless,=E2=
+=80=9D =E2=80=9Can approachable voice that inspires trust,=E2=80=9D but cer=
+tainly not =E2=80=9Csounds like Scarlett Johansson,=E2=80=9D what ever gave=
+ you that idea, that=E2=80=99s crazy.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Donations</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s a trade:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Start a company to, you know, invent =
+teleportation or whatever.</li>=09<li style=3D"margin-bottom: 5px;">Write s=
+ome financial projections about how much money you will make if you succeed=
+, discount them by an optimistic estimate of your likelihood of success, an=
+d decide that your company is worth $1 billion.</li>=09<li style=3D"margin-=
+bottom: 5px;">Donate 10% of the stock of your company to a nonprofit.</li>=
+=09<li style=3D"margin-bottom: 5px;">Deduct the $100 million value of the d=
+onation on your taxes.</li>=09<li style=3D"margin-bottom: 5px;">Good work, =
+now you never pay taxes again.<a class=3D"footnote-index" href=3D"#footnote=
+-1" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: none !impo=
+rtant; background-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>
+</li>
+</ol>
+<p style=3D"margin: 16px 0;">To be clear, this is extremely not legal or ta=
+x advice. They are <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/35453198.258338/aHR0cHM6Ly93d3cuZG9uYWxkd2F0a2lucy5jb20vcG9zdC9ob3ctZmxvcm=
+lkYS1hLW0tdW5pdmVyc2l0eS1nb3Qtc2NhbW1lZC1vbi1hLWxpa2VseS0yMzctbWlsbGlvbi10Y=
+XgtZnJhdWQtc2NoZW1l/607f07ceef4b8524a319a23cB7ce5c96f" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">looking for =
+this sort of thing</a>! Anyway <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/35453198.258338/aHR0cHM6Ly93d3cubWlhbWloZXJhbGQuY29tL25ld3MvbG=
+9jYWwvZWR1Y2F0aW9uL2FydGljbGUyODg1ODc1NjEuaHRtbA/607f07ceef4b8524a319a23cBd=
+94f8008" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">here=E2=80=99s=C2=A0a great story</a> about a guy named Gr=
+egory Gerami, who came to Florida A&amp;M University =E2=80=9Cto present a =
+check for more than $237 million during the university=E2=80=99s May 4 grad=
+uation ceremony.=E2=80=9D I mean, a novelty check. Not a check. =E2=80=9CTh=
+e donation to FAMU was revealed to be private stocks in Gerami=E2=80=99s co=
+mpany, Batterson Farms Corp.=E2=80=9D And:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">He=E2=80=99s maintained that his gift is worth=
+ around $237 million, though he admits no external valuation of the stocks =
+has been conducted yet. =E2=80=A6=C2=A0</p>
+<p style=3D"margin: 16px 0;">Officials have since admitted the stocks may b=
+e worthless. ...</p>
+<p style=3D"margin: 16px 0;">Gerami told The Sun News Thursday he didn=E2=
+=80=99t watch the meeting, and he feels all the criticism directed toward h=
+im is premature since there hasn=E2=80=99t been any third-party valuation o=
+f the stock. His company is in the process of hiring a qualified appraiser,=
+ he said.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIf the valuation supports (the value =
+we reported) of the gift, what will [critics] say?=E2=80=9D he asked.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Probably they=E2=80=99ll say =E2=80=9Cwhy does=
+n=E2=80=99t the school=C2=A0<a href=3D"https://link.mail.bloombergbusiness.=
+com/click/35453198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMjMtMTItMTMvdGF4LXRyYWRlcy1mb3ItaGFydmFyZC1kb25vcnM_Y21waWQ9QkJE=
+MDUyMTI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXI=
+mdXRtX3Rlcm09MjQwNTIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a=
+23cB3ab77da5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">sell the stock</a> for $237 million then,=E2=80=9D wo=
+uld be my guess, but who knows.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Incidentally a reader once emailed me to sugge=
+st that Donald Trump could <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/35453198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjQtMDMtMTkvYmFua3MtY2FuLWdldC1lbWlzc2lvbnMtb2ZmLXRoZS1ib29rcz9jb=
+XBpZD1CQkQwNTIxMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3=
+c2xldHRlciZ1dG1fdGVybT0yNDA1MjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4=
+b8524a319a23cB037cd79c" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">monetize=C2=A0his Trump Media &amp; Technol=
+ogy Group stock</a> by donating it to his charitable foundation. At first I=
+ was skeptical, but he walked me through the math and I was enlightened. Th=
+e math is: What loan-to-value ratio=C2=A0would a bank give you in a <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/35453198.258338/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjQtMDQtMDQvcGVsdHotcy1k=
+aXNuZXktbG9zcy13b3JrZWQtb3V0LWZpbmU_Y21waWQ9QkJEMDUyMTI0X01PTkVZU1RVRkYmdXR=
+tX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNTIxJnV0bV=
+9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB0a1c6d47" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">non-r=
+ecourse loan</a> against a volatile meme stock you control? Because the IRS=
+ will give you 37%.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Craig Wright is <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/35453198.258338/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20v=
+MjAyNC8wNS8yMS9idXNpbmVzcy9iaXRjb2luLXNhdG9zaGktY3JhaWctc3RldmVuLXdyaWdodC5=
+odG1s/607f07ceef4b8524a319a23cB0fbb007a" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">apparently</a> not <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/35453198.258338/aHR0cHM=
+6Ly93d3cuZnQuY29tL2NvbnRlbnQvODNkYzI0NmUtOTljYS00YWYzLWJkMDctYTgxNWZkYWZhN2=
+Mw/607f07ceef4b8524a319a23cB3f7ac2fe" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">Satoshi Nakamoto</a>. Jamie D=
+imon Says <a href=3D"https://link.mail.bloombergbusiness.com/click/35453198=
+.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDUtMjA=
+vanBtb3JnYW4tcy1kaW1vbi1zYXlzLXN1Y2Nlc3Npb24tYXQtYmFuay1pcy13ZWxsLW9uLXRoZS=
+13YXk_Y21waWQ9QkJEMDUyMTI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291c=
+mNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNTIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607=
+f07ceef4b8524a319a23cB35184673" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">Succession at JPMorgan</a> Is =E2=
+=80=98Well on the Way.=E2=80=99 FDIC Chairman <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/35453198.258338/aHR0cHM6Ly93d3cud3NqLmNvbS9wb2x=
+pdGljcy9wb2xpY3kvZmRpYy1jaGFpcm1hbi1tYXJ0aW4tZ3J1ZW5iZXJnLXJlc2lnbmF0aW9uLW=
+FiN2ZlZDVmP21vZD1ocF9sZWFkX3BvczU/607f07ceef4b8524a319a23cBd44daa2a" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">Martin Gruenberg to Resign</a> Following Report Detailing Sexual Harassme=
+nt at Agency. New York lawmakers push to block funds=E2=80=99 <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/35453198.258338/aHR0cHM6Ly93d3c=
+uZnQuY29tL2NvbnRlbnQvZmJhMzE1MTEtZDY4NC00ZWZiLTg3MmUtMDU2MzUxOTZmMmI4/607f0=
+7ceef4b8524a319a23cBf951d6d3" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">sovereign bond litigation</a>. Even a=
+ Fraud Conviction Won=E2=80=99t Keep <a href=3D"https://link.mail.bloomberg=
+business.com/click/35453198.258338/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9u=
+aWtvbGEtZm91bmRlci10cmV2b3ItbWlsdG9uLW93bmVyc2hpcC03MTI0YjFjZD9tb2Q9aXRwX3d=
+zag/607f07ceef4b8524a319a23cB821fc70f" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">Nikola=E2=80=99s Founder</a>=
+ Away From the Company. A=C2=A0$10 Billion Real-Estate Fund Is Bleeding Cas=
+h and <a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.258=
+338/aHR0cHM6Ly93d3cud3NqLmNvbS9yZWFsLWVzdGF0ZS9jb21tZXJjaWFsL3N0YXJ3b29kLWN=
+hcGl0YWwtZ3JvdXAtcmVhbC1lc3RhdGUtZnVuZC1jYXNoLWNydW5jaC00MDlmNTZkNT9tb2Q9aX=
+RwX3dzag/607f07ceef4b8524a319a23cB02562152" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">Running Out of Options<=
+/a>. Banks Are Now Targeting Some of <a href=3D"https://link.mail.bloomberg=
+business.com/click/35453198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjQtMDUtMjEvYmFua3MtYXJlLW5vdy10YXJnZXRpbmctc29tZS1vZi1wcml=
+2YXRlLWNyZWRpdC1zLXJpc2tpZXN0LWRlYnQ_Y21waWQ9QkJEMDUyMTI0X01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNTIxJnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB484ea0f1" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">
+Private Credit=E2=80=99s Riskiest Debt</a>. Shell Investors Back <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/35453198.258338/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDUtMjEvc2hlbGwtaW52ZXN0b3J=
+zLWJhY2std2Vha2VyLWVtaXNzaW9ucy10YXJnZXRzLWF0LWFubnVhbC1tZWV0aW5nP2NtcGlkPU=
+JCRDA1MjEyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTI0MDUyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cB0d4c996f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">Weaker Emissions Targets</a> at Annual Meeting.=
+=C2=A0Activist investor builds stake in Reckitt after <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/35453198.258338/aHR0cHM6Ly93d3cuZnQuY29=
+tL2NvbnRlbnQvY2QwMzlkYTAtOThjYi00NDcyLWJjZWUtYjhmN2Y0MmFjMmQ1/607f07ceef4b8=
+524a319a23cBfd58c0cc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">baby formula verdict</a>.=C2=A0States <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/35453198.258338/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDUtMTcvc291dGgtZGFrb3Rh=
+LXRleGFzLWJsb2NrLWxvY2FsLXVuaXZlcnNhbC1iYXNpYy1pbmNvbWUtbGF3cz9jbXBpZD1CQkQ=
+wNTIxMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlci=
+Z1dG1fdGVybT0yNDA1MjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a=
+23cB02cc389c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">Push Back Against Guaranteed Income</a> With New Bans=
+.=C2=A0How the <a href=3D"https://link.mail.bloombergbusiness.com/click/354=
+53198.258338/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMD=
+UtMjEvaG93LWx1bmNoLWF0LWNoaXBvdGxlLWJlY2FtZS1hLWJldHRlci1kZWFsLXRoYW4tbWNkb=
+25hbGQtcz9jbXBpZD1CQkQwNTIxMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9z=
+b3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA1MjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY=
+/607f07ceef4b8524a319a23cBbe37c2db" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">$17 Desk Salad</a> Won. France =
+Issues <a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.25=
+8338/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyNC8wNS8xOC93b3JsZC9ldXJvcGUvZnJhbm=
+NlLWJhZ3VldHRlLXN0YW1wLXNjcmF0Y2gtYW5kLXNuaWZmLmh0bWw/607f07ceef4b8524a319a=
+23cB58b0050b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">Scratch-and-Sniff Baguette Postage Stamps</a>.=C2=A0=
+=E2=80=98Gathering of Kyles=E2=80=99 <a href=3D"https://link.mail.bloomberg=
+business.com/click/35453198.258338/aHR0cHM6Ly93d3cudXBpLmNvbS9PZGRfTmV3cy8y=
+MDI0LzA1LzIwL0d1aW5uZXNzLVdvcmxkLVJlY29yZHMtR2F0aGVyaW5nLW9mLUt5bGVzLzc1MDE=
+3MTYyMzAwODgv/607f07ceef4b8524a319a23cB4970a737" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">fails</a> to earn =
+Guinness World Record in Texas.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/35453198.258338/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBed3f89b3" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/35453198.258338/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB9d54b117" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Oh, kidding, charitable deductions are lim=
+ited to <a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.2=
+58338/aHR0cHM6Ly93d3cuaXJzLmdvdi9jaGFyaXRpZXMtbm9uLXByb2ZpdHMvY2hhcml0YWJsZ=
+S1vcmdhbml6YXRpb25zL2NoYXJpdGFibGUtY29udHJpYnV0aW9uLWRlZHVjdGlvbnM/607f07ce=
+ef4b8524a319a23cBa78a7c31" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">50% of gross income</a> and can only be =
+carried forward for <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/35453198.258338/aHR0cHM6Ly9zdXBwb3J0LnRheHNsYXllci5jb20vaGMvZW4tdXMvYXJ0a=
+WNsZXMvMzYwMDE1OTAyMDUxLVdoYXQtaXMtYS1jaGFyaXRhYmxlLWNvbnRyaWJ1dGlvbi1jYXJy=
+eW92ZXI/607f07ceef4b8524a319a23cB81b11668" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">five years</a>, this is =
+very much not tax advice.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.258338/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB61cb55d0" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.258338/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBec7ab560" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.258338/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB58974c3f" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.258338/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB9b91f24a" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.258338/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBbb301f41" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.2583=
+38/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBf1dd61e4" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/35453198.258338/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCae72627f" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/35453198.258338/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBb6314ddb" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/35453198.258338/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB4910e034" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.258338/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB3=
+3d1ab91" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35453198.258338/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB3=
+3e6fcca" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cl3vv2.5jc2/eb83378d.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_18297973_1941806881.1716313313367--

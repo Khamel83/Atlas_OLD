@@ -12,17 +12,27 @@ from datetime import datetime
 from typing import Any, Dict, List, Optional, Tuple
 
 from helpers.dedupe import link_uid
-from helpers.error_handler import (ErrorCategory,
-                                   ErrorContext, ErrorSeverity,
-                                   create_error_handler)
+from helpers.error_handler import (
+    ErrorCategory,
+    ErrorContext,
+    ErrorSeverity,
+    create_error_handler,
+)
 from helpers.evaluation_utils import EvaluationFile
-from helpers.metadata_manager import (ContentMetadata, ContentType,
-                                      ProcessingStatus,
-                                      create_metadata_manager)
+from helpers.metadata_manager import (
+    ContentMetadata,
+    ContentType,
+    ProcessingStatus,
+    create_metadata_manager,
+)
 from helpers.path_manager import PathType, create_path_manager
 from helpers.utils import log_error, log_info
-from process.evaluate import (classify_content, diarize_speakers,
-                              extract_entities, summarize_text)
+from process.evaluate import (
+    classify_content,
+    diarize_speakers,
+    extract_entities,
+    summarize_content,
+)
 
 
 class IngestorResult:
@@ -44,7 +54,9 @@ class IngestorResult:
 class BaseIngestor(ABC):
     """Abstract base class for all Atlas ingestors."""
 
-    def __init__(self, config: Dict[str, Any], content_type: ContentType, module_name: str):
+    def __init__(
+        self, config: Dict[str, Any], content_type: ContentType, module_name: str
+    ):
         self.config = config
         self.metadata_manager = create_metadata_manager(config)
         self.path_manager = create_path_manager(config)
@@ -62,8 +74,6 @@ class BaseIngestor(ABC):
         if self.content_type:
             self.log_path = self.path_manager.get_log_path(self.content_type)
             self.path_manager.ensure_directories(self.content_type)
-
-    
 
     @abstractmethod
     def fetch_content(
@@ -111,8 +121,10 @@ class BaseIngestor(ABC):
     def save_metadata(self, metadata: ContentMetadata) -> bool:
         """Save metadata to file."""
         return self.metadata_manager.save_metadata(metadata)
-    
-    def save_raw_data(self, raw_data: Any, metadata: ContentMetadata, suffix: str = "raw") -> bool:
+
+    def save_raw_data(
+        self, raw_data: Any, metadata: ContentMetadata, suffix: str = "raw"
+    ) -> bool:
         """
         Save raw source data for preservation.
         CORE PRINCIPLE: Never lose original data!
@@ -122,7 +134,7 @@ class BaseIngestor(ABC):
             # Create a raw data file path
             base_path = paths.base_path
             raw_path = f"{base_path}_{suffix}.json"
-            
+
             # Convert raw data to JSON if needed
             if isinstance(raw_data, str):
                 data_to_save = {"raw_text": raw_data, "type": "text"}
@@ -130,21 +142,23 @@ class BaseIngestor(ABC):
                 data_to_save = {"raw_data": raw_data, "type": "structured"}
             else:
                 data_to_save = {"raw_data": str(raw_data), "type": "converted"}
-            
+
             # Add preservation metadata
-            data_to_save.update({
-                "preserved_at": datetime.now().isoformat(),
-                "content_type": self.content_type.value,
-                "source": metadata.source,
-                "uid": metadata.uid
-            })
-            
-            with open(raw_path, 'w', encoding='utf-8') as f:
+            data_to_save.update(
+                {
+                    "preserved_at": datetime.now().isoformat(),
+                    "content_type": self.content_type.value,
+                    "source": metadata.source,
+                    "uid": metadata.uid,
+                }
+            )
+
+            with open(raw_path, "w", encoding="utf-8") as f:
                 json.dump(data_to_save, f, indent=2, ensure_ascii=False, default=str)
-            
+
             log_info(self.log_path, f"Raw data preserved: {raw_path}")
             return True
-            
+
         except Exception as e:
             log_error(self.log_path, f"Failed to save raw data: {e}")
             return False
@@ -258,7 +272,9 @@ class BaseIngestor(ABC):
         """Run content-type specific evaluations. Override in subclasses."""
         pass
 
-    def ingest_single(self, source: str, title: Optional[str] = None, **kwargs) -> IngestorResult:
+    def ingest_single(
+        self, source: str, title: Optional[str] = None, **kwargs
+    ) -> IngestorResult:
         """Ingest a single content item."""
         try:
             # Check if should skip
@@ -294,7 +310,9 @@ class BaseIngestor(ABC):
                     metadata.set_error(error_msg)
                     self.save_metadata(metadata)
                     self.handle_error(error_msg, source)
-                    return IngestorResult(success=False, metadata=metadata, error=error_msg)
+                    return IngestorResult(
+                        success=False, metadata=metadata, error=error_msg
+                    )
 
                 # Run evaluations
                 self.run_evaluations(content_or_error, metadata)

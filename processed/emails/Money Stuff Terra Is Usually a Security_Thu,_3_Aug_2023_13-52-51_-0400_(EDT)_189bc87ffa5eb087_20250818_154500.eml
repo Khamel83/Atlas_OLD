@@ -1,0 +1,2363 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:c689:b0:130:da8c:7dd9 with SMTP id fe9csp1273701rwb;
+        Thu, 3 Aug 2023 10:52:57 -0700 (PDT)
+X-Received: by 2002:adf:e90a:0:b0:317:6ea5:ab71 with SMTP id f10-20020adfe90a000000b003176ea5ab71mr8169483wrm.30.1691085176696;
+        Thu, 03 Aug 2023 10:52:56 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1691085176; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Jj9GK6LOBUbug8zeoWFb7kMOmYwaGr9uSkxpjrlCAqPe4GvzeDmmtgYQtmXMRz8W74
+         SyYh20WaDQEY48pDhbuUmtsEitCez0djSvH4BwMcXAgKtMoC1Akj9BNHFH/U4UmXk1cg
+         FPcZrK9jOivz9DqhwZufd8oKMsFWtdMZxDz7jptL98D/JcBkWyMR51XLYIawRVBY+UlJ
+         Iikr1kBVV+NjseM/siJiCyDQheThQg/5uKvFXiaPw6Hy7xox6i3I8kyixt172ORayFcJ
+         DIvDLml82bWlAzmKORA4qn9pegxDfhEyXf2E9cZv2U3OW6CU4kSF8MYTJyMx/w1gx8HB
+         BKoA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=qGxrPoKrEXWOQZL3bSjyPdZu+vYvRj1qt/QmYfXDRdo=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=dy+9nKsnXbII2gnD35Ku33Cxe4hzw4Oc1zOpsztuoPtlw4o1PjmmgwZR7fbOPjouBv
+         wv/lT05TCpIS1jlKzso8J8XSQZAG6R1KI1Z3oevi1XQXgNiS3ogjAUuRCOumxfRPtv4v
+         YRCMsZ9Iu9TxQBz5MaNgGc/vRPPq1z9p6PFROFDifwqesRxyySI0x5wi21KFJrVpqG1q
+         Bdn1XLHoQ0qGcwjYrL9Va7tNvnzR71QZ+pVurEZGuyQ70c81OMF472cJnwRpwHCObZFK
+         dwIdeEiIeR1fEH4h6Hi/ZG6JwEY4cDYMeRdB0lGAsPjhUKb26fufD+fOTsaXrAT1ClEk
+         PMFA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Ufwo2rSY;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id q5-20020adfab05000000b00317695bccbdsor156868wrc.5.2023.08.03.10.52.56
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 03 Aug 2023 10:52:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Ufwo2rSY;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1691085176; x=1691689976;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=qGxrPoKrEXWOQZL3bSjyPdZu+vYvRj1qt/QmYfXDRdo=;
+        b=ChbHq3xirx+XDURpPXQ7ta+XiLpwmwFEbhvUQzCxQhJFZZv/bUD4XANwocPd/dFR/A
+         zLiltSStmE0Zk2vBqYBxCRvqxNthzh2D0mSl/nhGSV8WTQz1U2FE2ke2rz4/yPvzhIvq
+         Tddc2F8j43jPnL4zcLM4dPaRb9c9d7kL0ZEC0i9ev9lojjBYjyh8f9cU9eRa0RqfkzX4
+         K9SzTPKD3JorR49teqZ7EKaq6zUYtEsGLIzZFW+D/2qixcYAzqTGJghbVAo1/2jO4dIP
+         8rd2CGvrrmxYG/RHpxLnsdS9UTI6WndKwWOBGEEe6LYuqinUJ9FhjxS7cYD04NEYCmFP
+         ICbg==
+X-Gm-Message-State: ABy/qLY78IMLr8oOVjwe+MyHb6by9ByriZVhocv0Eo9fKA26GWMZ/xOi
+	+T+5FI4jrmzVm2A4kASHH8vGiBVzcS9oiZSsJ8AAtq+sGvEIOfoLIQ==
+X-Received: by 2002:adf:f590:0:b0:314:36f0:2214 with SMTP id f16-20020adff590000000b0031436f02214mr7216418wro.6.1691085176125;
+        Thu, 03 Aug 2023 10:52:56 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:6043:0:b0:317:6ac3:4e22 with SMTP id j3csp21410wrt;
+        Thu, 3 Aug 2023 10:52:52 -0700 (PDT)
+X-Received: by 2002:a05:620a:2697:b0:76c:6f89:fea7 with SMTP id c23-20020a05620a269700b0076c6f89fea7mr24056505qkp.23.1691085172214;
+        Thu, 03 Aug 2023 10:52:52 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1691085172; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=sN/01JGKEDmJJRnR0/dD2H4pyIlcVhs+pdmKnCRYcvUN+DmVk7YGGtQiw7e3PqLEp1
+         /xRUHhYZ7nnTTwJ94YQYsaWkmf6KGrrojN6rYbltiM995uRQJgPnlLYfev4NSepZR0Nc
+         O9yA8B2DZzKbtrmGX84CiSD2JSg1ec2OqUoY6Q3WX8Paoo92N78QlkNrC4S5pOWJzwwp
+         t80K9Yc0sjoN4YU8MQRDESHEU/IzS6ZzjZzZ/VjwwmLQBIq01vg8I32FJdEP63IpLbCk
+         lb4DxHA543k+AtBQKV4oBLtUloecqEx5FnkF7rezOVOcGHPCkdDEp8Ew+eHNWs/1Re03
+         p4oQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=qGxrPoKrEXWOQZL3bSjyPdZu+vYvRj1qt/QmYfXDRdo=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=El93IvdFQW0+9fLIX0P3x6FQBdsp1oNA+EHqW6IucsOgWrVCCQxe6OrgvJhIJL5PoT
+         m5rgbITGnmw2dilvAoT4FlEqydXg5iSV4UgAbWmKeykXo2pfEeS90C3+gYyUzLTNVSGb
+         H/Poz5a3IbTUn1oTTROivSOFjM5X9um+H4l4pBDxj1PC/84CDWHCryKj84LmVtCDkQ+f
+         E8ON5PZxBM3pH7fOrNPlOm2qgLy9AWGzhM02//NomYktnrmv/5Vj1tndAJbK22KZZm/K
+         AncoTe4C4VmRsoXrxvhY3MYW0tbAXBDPo8guNi9esBvs5TvRZIWrcBIvbZFtoIyNZX9H
+         dMqg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Ufwo2rSY;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230803135251.32287636.260410@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230803135251.32287636.260410@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230803135251.32287636.260410@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id q14-20020a05620a0c8e00b00765ada8c055sor101728qki.10.2023.08.03.10.52.52
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 03 Aug 2023 10:52:52 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230803135251.32287636.260410@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: APBJJlEqzeGak9k7E8wK0fBvH+wG6/ZQEr1NfQHcPu7peGRyeMm2yt3NdyUoBa4P365HCKPZw/s2BPit89vWlkp+uIRttbsK5Tg=
+X-Received: by 2002:a05:620a:f0d:b0:769:87c8:28bb with SMTP id v13-20020a05620a0f0d00b0076987c828bbmr25430930qkl.13.1691085171809;
+        Thu, 03 Aug 2023 10:52:51 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1691085171; cv=none;
+        d=google.com; s=arc-20160816;
+        b=nq1ez503MmLXYzoML0zPRdJPyRv8Z+tl7bcr2wXKPz1rY012xogddudF5hlfIiqXIE
+         s+9xwWoV/qKMeJfIArAmWR/L4q6f6p5fMg5vyjtPGNpICJja4YuE7cZk6mwHxulMSq0V
+         LV+1k46bpRwXEjhlCy1/cA36Etc/ruf4vQot4l2RLoMTU/U+mHMEJkuXJLOX4TmCKgiy
+         Pb8pMZr5+kYoq4kr/yfozGBFjnR0zsheIrNJdQ4AnfD38PQwNsH7BtDKDWnJlx8hcIzb
+         0piESEXnpbAcxYnWfORDvudNxvsiCn4IXDGsFly/TOK+BJMPafEgYSMYAihPuYy5SVM6
+         AtXw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=qGxrPoKrEXWOQZL3bSjyPdZu+vYvRj1qt/QmYfXDRdo=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=wyVo3u91XaNjJgih50on3TP5ZnTtf/JtieCw7x8BbOzL4wTocwptifrtX2ZiEiHhTQ
+         +6v8560JqlSzmXnFDkmjoNkM0xHm3tffDeWos2ATY0tYgLmMBcpMOxwsFSTIPRpDL2Gf
+         DPTgDGJAOA4del61XrBmpMUbNDUpfpdQ3GBGsr5rskroaxqeFvONXbzAsdvkUJD/amI5
+         OrluixYbtHyHkCYz4KJ4RsW9qUtOnLxH0QLZJIePo4TLm/y9W3pLK3kQ49R/q2Osd0FW
+         t8wg1yQYVHXUK/rIr91BvY4jgN/rjyQt4zplCu4orn14hhXCrrxOrriFgT09r0qsYlKC
+         2wgg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Ufwo2rSY;
+       spf=pass (google.com: domain of delivery_20230803135251.32287636.260410@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230803135251.32287636.260410@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230803135251.32287636.260410@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id ra22-20020a05620a8c9600b0076ce9b9b6a6si11727qkn.7.2023.08.03.10.52.51
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 03 Aug 2023 10:52:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230803135251.32287636.260410@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=o9UkPagWR2kzcw2xws7ocilQzAyqd27D7iPFpFzhUtI=;
+ b=Ufwo2rSYiiTvOJpuWbYuADYB4tFyVSFfC/CWAvzmNPuFYUukWjOfgsU1rb8gYtuyOJhW58qRlNd4
+   cPLwa3G6vqjkh+wuUAulu+a6iLo7SrjNhGfmqiB2r4Yys5TcryctEOrOtXC+X3IVi82AEpx/0xTR
+   AhtBjOx3CMZp/Ksukgk=
+Received: from ip-10-55-95-21.ec2.internal (10.55.95.21) by aws1-mta-relay6.sailthru.cloud id hpfkn61qqbsk for <bloomberg@khamel.com>; Thu, 3 Aug 2023 12:52:51 -0500 (envelope-from <delivery_20230803135251.32287636.260410@mx.sailthru.com>)
+Date: Thu, 3 Aug 2023 13:52:51 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230803135251.32287636.260410@sailthru.com>
+Subject: Money Stuff: Terra Is Usually a Security
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8983518_1725499352.1691085171485"
+Precedence: bulk
+x-job: 6358-32287636-20230803
+X-Feedback-ID: 6358:32287636:campaign:sailthru
+X-TM-ID: 20230803135251.32287636.260410
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-95-21.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj81as.5kxm/07fb78d2
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj81as.5kxm/07fb78d2>, <mailto:unsubscribe_20230803135251.32287636.260410@mx.sailthru.com>
+X-rpcampaign: stjko32287636
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_8983518_1725499352.1691085171485
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+We have talked a few times recently about the US Securities and Exchange=20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+
+ =20
+   =20
+      When are tokens securities?
+   =20
+ =20
+
+We have  talked a few  times recently about the US Securities and Exchange =
+Commission=E2=80=99s lawsuit against Ripple Labs Inc. Ripple is a company t=
+hat is building a blockchain ecosystem; it created and sold a bunch of cryp=
+to tokens called XRP to fund that development. The SEC argued that this was=
+ a securities offering =E2=80=94=C2=A0Ripple sold quasi-stock in its projec=
+t, for money, to build that project =E2=80=94=C2=A0while Ripple argued that=
+ it wasn=E2=80=99t. Last month, a federal judge in New York issued a split =
+decision:
+=09XRP=C2=A0itself is not a security: It is just a token, =E2=80=9Clittle m=
+ore than an=C2=A0alphanumeric cryptographic sequence.=E2=80=9D=09When Rippl=
+e=C2=A0sold=C2=A0XRP to institutional investors, directly, in negotiated tr=
+ansactions, that=C2=A0was=C2=A0a securities offering, because the instituti=
+onal investors understood that they were investing money in Ripple=E2=80=99=
+s project and hoped to profit from its efforts to increase the value of XRP=
+.=09When Ripple sold XRP to retail investors, in anonymous transactions on =
+crypto exchanges, that was=C2=A0not=C2=A0a securities offering, because the=
+ retail investors didn=E2=80=99t know that they were buying directly from R=
+ipple and might not have even read Ripple=E2=80=99s various public advertis=
+ements about how they would make the price of XRP go up.
+
+I found this decision pretty incoherent, for reasons we have discussed at  =
+length and which I won=E2=80=99t repeat here.=C2=A0Earlier this week, anoth=
+er federal judge in New York  declined to follow it:
+
+A federal judge in New York split with another judge who earlier this month=
+ ruled that a Ripple Labs token was not a security when sold to the public =
+on secondary markets, adding to uncertainty over cryptocurrency regulation.
+US District Judge Jed Rakoff on Monday allowed the Securities and Exchange =
+Commission to go forward with its case against Terraform Labs Pte and found=
+er Do Kwon. In doing so, Rakoff said he rejected the distinction made in th=
+e Ripple case between public and institutional sales. =E2=80=A6
+=E2=80=9CThe court declines to draw a distinction between these coins based=
+ on their manner of sale, such that coins sold directly to institutional in=
+vestors are considered securities and those sold through secondary market t=
+ransactions to retail investors are not,=E2=80=9D Rakoff said in the Terra =
+decision. =E2=80=9CIn doing so, the court rejects the approach recently ado=
+pted by another judge of this district in a similar case.=E2=80=9D
+
+Here is Judge Rakoff=E2=80=99s opinion. He goes on (citations omitted):
+
+[In Ripple], that court found that,=C2=A0=E2=80=9C[w]hereas ... [i]nstituti=
+onal [b]uyers reasonably expected that [the defendant crypto-asset company]=
+ would use the capital it received from its sales to improve the [crypto-as=
+set] ecosystem and thereby increase the price of [the crypto-asset],=E2=80=
+=9D those who purchased their coins through secondary transactions had no r=
+easonable basis to expect the same. According to that court, this was becau=
+se the re-sale purchasers could not have known if their payments went to th=
+e defendant, as opposed to the third-party entity who sold them the coin. W=
+hatever expectation of profit they had could not, according to that court, =
+be ascribed to defendants=E2=80=99 efforts.
+But Howey makes no such distinction between purchasers. And it makes good s=
+ense that it did not. That a purchaser bought the coins directly from the d=
+efendants or, instead, in a secondary resale transaction has no impact on w=
+hether a reasonable individual would objectively view the defendants=E2=80=
+=99 actions and statements as evincing a promise of profits based on their =
+efforts. Indeed, if the Amended Complaint=E2=80=99s allegations are taken a=
+s true -- as, again, they must be at this stage -- the defendants=E2=80=99 =
+embarked on a public campaign to encourage both retail and institutional in=
+vestors to buy their crypto-assets by touting the profitability of the cryp=
+toassets and the managerial and technical skills that would allow the defen=
+dants to maximize returns on the investors=E2=80=99 coins.
+
+Yeah, look, this is correct. As I  wrote about Ripple, it would be very wei=
+rd if the securities laws allowed companies to sell investment opportunitie=
+s to the general public by advertising widely that they were good investmen=
+t opportunities, as long as no one could prove that any individual buyer ha=
+d seen those advertisements. The question is =E2=80=9Cwhether a reasonable =
+individual would objectively view the defendants=E2=80=99 actions and state=
+ments as evincing a promise of profits based on their efforts.=E2=80=9D
+Still, one important point about Judge Rakoff=E2=80=99s opinion is that he =
+agrees with Ripple, Terraform, most of the crypto industry and Judge Analis=
+a Torres (the Ripple judge), and disagrees with the SEC, about whether toke=
+ns are=C2=A0themselves=C2=A0securities:
+XRP, as a digital token, is not in and of itself a =E2=80=9Ccontract, trans=
+action[,] or scheme=E2=80=9D that embodies the Howey requirements of an inv=
+estment contract.=C2=A0Rather, the Court examines the totality of circumsta=
+nces surrounding Defendants=E2=80=99 different transactions and schemes inv=
+olving the sale and distribution of XRP.=C2=A0
+He just concludes that all of those sales were securities offerings.=C2=A0
+I don=E2=80=99t know what to make of that. Judge Rakoff was deciding a moti=
+on to dismiss in a particular case, not trying to make broad crypto law for=
+ every case. But what if this is the law?
+=09Crypto tokens are not securities.=09Crypto issuers who sell those tokens=
+ to fund their projects are doing securities offerings.
+
+What would that mean for=C2=A0crypto exchanges? The  action right now in SE=
+C crypto enforcement is largely against exchanges, arguing that they are ru=
+nning illegal securities exchanges and should stop. But if the tokens thems=
+elves are not securities, does that mean that the exchanges are entirely of=
+f the hook? Or, if the issuances of =E2=80=9Ctoken plus totality of circums=
+tances=E2=80=9D are securities offerings, does that mean that when the toke=
+ns start trading they are trading along with the totality of their circumst=
+ances, and are thus securities? If you buy an XRP or a Luna (Terra=E2=80=99=
+s token), are you just buying a digital token, or are you expecting =E2=80=
+=9Cthe profitability of the cryptoassets=E2=80=9D from=C2=A0=E2=80=9Cthe ma=
+nagerial and technical skills that would allow the [issuers] to maximize re=
+turns on the investors=E2=80=99 coins=E2=80=9D?=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Bad trade
+   =20
+ =20
+
+Here=E2=80=99s a trade:
+=09I am a widget producer, you are a widget user, and widgets trade in a li=
+quid daily=C2=A0market with lots of buyers and sellers and pretty volatile =
+prices.=09We sign a contract saying that I can sell you anywhere between 0 =
+and 100 widgets each day for a year, at my option:=C2=A0Each day, I pick a =
+number between 0 and 100, and that=E2=80=99s how many widgets you buy from =
+me that day.=09The price you pay is $20 per widget, regardless of the marke=
+t price that day.
+
+Questions:
+=09The market price of widgets on Monday is $15. How many widgets do I sell=
+ you on Monday?=09The market price of widgets on Wednesday is $25. How many=
+ widgets do I sell you on Wednesday?
+
+I suppose you can imagine some real-world situations in which the answers a=
+re not =E2=80=9C100=E2=80=9D and =E2=80=9Czero,=E2=80=9D respectively, but,=
+ come on, the answers are =E2=80=9C100=E2=80=9D and =E2=80=9Czero,=E2=80=9D=
+ respectively. And if you entered into this contract, and Wednesday comes a=
+long and you are like =E2=80=9Cah, sweet, now to pay $20 for my discounted =
+widgets,=E2=80=9D you will be disappointed.
+Bloomberg=E2=80=99s=C2=A0Todd Gillespie, Gavin Finch, Will Mathis and Jason=
+ Grotto have a story about  UK electric producer Drax Group Plc=E2=80=99s g=
+reen energy subsidies:
+
+Since December 2016, a generator at the firm=E2=80=99s giant power plant ha=
+d received =C2=A31.4 billion ($1.8 billion) in green-energy subsidies from =
+consumers =E2=80=94 payments above the market rate for electricity. The goa=
+l of this public aid was to make it profitable for Drax to fuel the unit wi=
+th =E2=80=9Cbiomass,=E2=80=9D pellets made from wood that are considered a =
+renewable energy source.
+This expensive method for weaning Britain=E2=80=99s power grid off fossil f=
+uels contained a consumer safeguard: If electricity prices ever increased e=
+nough that Drax=E2=80=99s =E2=80=9CUnit 1=E2=80=9D generator could comforta=
+bly make money without subsidies, its earnings would be capped, and the com=
+pany would have to send any extra cash back to bill payers.
+
+Here is specifically how the subsidy works:
+
+This particular opportunity stemmed from a type of subsidy agreement called=
+ =E2=80=9Ccontracts for difference,=E2=80=9D or =E2=80=9CCfDs=E2=80=9D for =
+short. The CfD for Drax=E2=80=99s Unit 1 follows a straightforward logic.
+First, negotiators agree on how much it will cost Drax to produce electrici=
+ty from biomass. They add some extra to ensure a reasonable profit. This to=
+tal is called the =E2=80=9Cstrike price.=E2=80=9D
+Then they figure out how much the firm can sell its electricity for on the =
+wholesale market. If that =E2=80=9Cmarket reference price=E2=80=9D is lower=
+ than the strike price, consumers have to send Drax the rest of the money =
+=E2=80=94 the =E2=80=9Cdifference=E2=80=9D =E2=80=94 via charges added to t=
+heir energy bills.
+But if the market reference price rises above the strike price, the arrange=
+ment flips. The contract holds that Drax, now assured of turning a profit, =
+must send the difference back to energy suppliers, who by law then reduce w=
+hat they charge consumers.
+
+Ah! If the market price is below $20, they get paid $20.
+  [1]
+=C2=A0If the market price is above $20, they get paid $20. How much should =
+they sell if the market price is below $20? As much as they can. How much s=
+hould they sell if the market price is above $20? Zero
+  [2]
+:
+
+As household energy bills began more than doubling, the company slashed pro=
+duction at Unit 1. Idling the generator for weeks at a time =E2=80=94 and i=
+nstead using others that weren=E2=80=99t required to cap their earnings =E2=
+=80=94 has let Drax avoid sending consumers an estimated =C2=A3639 million =
+as of July, according to a Bloomberg News analysis of thousands of power ma=
+rket records.
+Meanwhile, the company sold some of its biomass pellets at high prices on t=
+he open market, according to its public statements and to five people with =
+direct knowledge of the biomass market. Drax posted a record =C2=A3731 mill=
+ion in earnings last year, almost double its 2021 income.
+The company didn=E2=80=99t break any rules. But =E2=80=9Cit looks like they=
+ are acting in bad faith,=E2=80=9D said Ed Davey, who was the UK government=
+=E2=80=99s energy secretary when it negotiated the firm=E2=80=99s subsidy d=
+eal, and is now leader of the opposition Liberal Democrats. =E2=80=9CIt=E2=
+=80=99s against the national interest.=E2=80=9D
+
+I am sorry but you should have done a better job negotiating the subsidy de=
+al! Put a line in the contract like =E2=80=9Cin any event you=E2=80=99ll al=
+ways supply at least X megawatt-hours per day under this deal.=E2=80=9D Or =
+just have the contract be on a fixed notional amount rather than the amount=
+ actually supplied. But if you base the contract on how much electricity th=
+ey actually supply, and let them decide how much to supply, then they will =
+supply a lot when the contract is favorable to them and nothing when it is =
+favorable to you.
+
+ =20
+   =20
+      US AA+
+   =20
+ =20
+
+We  talked yesterday about Fitch Ratings=E2=80=99=C2=A0decision to downgrad=
+e the US sovereign credit rating from AAA to AA+, joining Standard & Poor=
+=E2=80=99s (which cut the US to AA+ in 2011) and breaking from Moody=E2=80=
+=99s (which still has it at Aaa). My main reaction was, meh, whatever. Fitc=
+h=E2=80=99s downgrade does not add a lot of=C2=A0information=C2=A0to the ma=
+rket; perhaps someone bought Treasuries thinking they were a safe investmen=
+t but changed her mind after seeing Fitch=E2=80=99s downgrade, but that wou=
+ld be pretty weird.
+And while there are some contexts in which investors are=C2=A0forced=C2=A0t=
+o sell bonds when they are downgraded =E2=80=94=C2=A0if you are an investme=
+nt-grade manager and a bond goes from BBB- to BB+, it is no longer investme=
+nt-grade and you might have to get rid of it
+  [3]
+=C2=A0=E2=80=94=C2=A0it seems unlikely that there are any investors like th=
+at=C2=A0in Treasuries. =E2=80=9CBecause Treasury securities are such an imp=
+ortant asset class, most investment mandates and regulatory regimes refer t=
+o them specifically, rather than AAA-rated government debt,=E2=80=9D a Gold=
+man Sachs Group Inc. research note pointed out, so nobody should care much =
+about the downgrade.=C2=A0
+Still one reader pointed out to me that the interesting consequences are fo=
+r US non-government debt, or rather not-quite-government debt. If you are a=
+n AAA-rated US company, this downgrade is fine: Fitch left the US=E2=80=99s=
+ =E2=80=9Ccountry ceiling=E2=80=9D at AAA, meaning that AAA-rated corporate=
+s are not affected by the downgrade.
+  [4]
+=C2=A0Bloomberg=E2=80=99s=C2=A0Josyana Joshua=C2=A0and Sonali Basak  note:
+
+There is likely to be a silver lining in Fitch=E2=80=99s downgrade of the U=
+S, at least for two companies =E2=80=94 Microsoft Corp. and Johnson & Johns=
+on.
+Citigroup Inc.=E2=80=99s head of global debt capital markets, Richard Zoghe=
+b, said the downgrade may actually benefit the small group of companies tha=
+t have a credit rating as high or higher than the US. Investors could begin=
+ replacing sovereign bonds in their portfolios with the highly rated compan=
+ies, as some did a few years ago during the European sovereign crisis, he s=
+aid.
+Moreover, the few companies that are rated on-par with the US could see the=
+ir spreads tighten in line with US Treasury bonds.
+=E2=80=9CThe bad news is it is a very small group of companies that have ra=
+tings at or above the current sovereign rate for the US government,=E2=80=
+=9D Zogheb said on Bloomberg Television Wednesday. =E2=80=9CThere is only s=
+o much of your portfolio that you can replace of sovereigns into these mult=
+inational, highly-rated areas.=E2=80=9D
+
+But that=E2=80=99s not true of every AAA-rated US company. Fitch=C2=A0did=
+=C2=A0downgrade two big US companies yesterday:
+
+Fitch Ratings downgraded the credit scores of Fannie Mae and Freddie Mac to=
+ AA+ from AAA, a day after it cut the US sovereign credit rating.
+The downgrades of the two government-sponsored enterprises are consistent w=
+ith its downgrade of US government debt, Fitch said in a press release on W=
+ednesday. The move was =E2=80=9Cnot being driven by fundamental credit, cap=
+ital or liquidity deterioration at the firms,=E2=80=9D it said.
+Fannie Mae and Freddie Mac benefit from implicit government support, Fitch =
+said. The two enterprises help to backstop the multi-trillion dollar market=
+ for US home mortgages.
+
+And there are enormous categories of asset-backed securities that also bene=
+fit from implicit or explicit US government backing, backing that used to b=
+e AAA-rated and is now only AA+: agency mortgage-backed securities, for ins=
+tance, and also student loans. Fitch put a bunch of AAA-rated student loan =
+pools on =E2=80=9Cratings watch negative=E2=80=9D in June, after putting th=
+e US government on ratings watch in May, because those pools are largely gu=
+aranteed by the US Department of Education. That guarantee is now, to Fitch=
+, worth a bit less than it used to be.
+I am not sure how much this matters either, but it is a bit=C2=A0more=C2=A0=
+likely to matter. Somebody somewhere could be posting these securities as c=
+ollateral in some trade that requires collateral rated AAA by two agencies,=
+ and might now have to substitute other collateral because of the downgrade=
+. Treasuries are Treasuries; =E2=80=9Cmost investment mandates and regulato=
+ry regimes refer to them specifically, rather than AAA-rated government deb=
+t.=E2=80=9D But AAA-rated quasi-government-supported asset-backed-securitie=
+s are, maybe, in some contexts, just AAA bonds. Or=C2=A0rather they were, a=
+nd=C2=A0now they are not.
+
+ =20
+   =20
+      Short selling
+   =20
+ =20
+
+We have talked from   time to   time around here about a corporate financin=
+g model that I first heard from  Joe Weisenthal: If you have found a way to=
+ make some product more cheaply than a big publicly traded incumbent manufa=
+cturer,
+  [5]
+ you could monetize that not by selling the product at a profit, but by=C2=
+=A0shorting the incumbent=E2=80=99s stock=C2=A0and giving the product away =
+for free. You lose money on every product, but you take away a lot of marke=
+t share from the incumbent, whose stock will go down, giving you enough pro=
+fit to more than cover your expenses.
+We talk about this idea because it exists as an amusing theoretical possibi=
+lity =E2=80=94=C2=A0=E2=80=9Ca strange and ghostly form of capitalism,=E2=
+=80=9D   I once called it, where =E2=80=9Cyou make money through the abstra=
+ct workings of the financial system=E2=80=9D =E2=80=94=C2=A0but there are a=
+ ton of practical problems and I cannot think of any examples of anyone rea=
+lly doing it.
+  [6]
+=C2=A0It combines all the problems of short selling =E2=80=94=C2=A0it=E2=80=
+=99s risky, your thesis might be right but the stock might surge for other =
+reasons, it=E2=80=99s unpopular, you=E2=80=99ll get a lot of regulatory scr=
+utiny, etc. =E2=80=94=C2=A0with all the problems of building a real busines=
+s, and adds some extra problems from the combination. (If you are shorting =
+a stock based on your own business=E2=80=99s information, is that illegal =
+=E2=80=9Cshadow trading=E2=80=9D?
+  [7]
+)
+But at the American Prospect today, Maureen Tkacik reports on  someone who =
+actually tried it?=C2=A0
+
+About a decade ago, a hedge fund manager (who asked to remain nameless) got=
+ a call from a young short seller about a pharma company whose stock price =
+they were both betting would fall. The company, Questcor, had been a 50-cen=
+t stock just a few years earlier, but a new CEO had raised the price of its=
+ flagship product by 1,300 percent, and now the stock was approaching 50 do=
+llars. =E2=80=A6
+The flagship drug, HP Acthar, positively reeked. =E2=80=A6 And yet prescrip=
+tions for the $28,000 vials kept rolling in, the stock kept going up, and a=
+ll the bearish bets were now bleeding red ink.
+But the kid had a plan. He=E2=80=99d recently founded a biotech company of =
+his own, which was in the final stage of negotiations to acquire the domest=
+ic distribution rights to a European drug that was almost a precise synthet=
+ic equivalent to Acthar, minus a few amino acids=E2=80=94so it wouldn=E2=80=
+=99t be covered by any exclusivity deal. EU data suggested the drug, Synact=
+hen, would work exactly the same as Acthar, but its owner had never applied=
+ for FDA approval. The neurological disorder was rare enough that clinical =
+trials would be fast and cheap, thanks to federal policies that strongly pr=
+ivilege so-called =E2=80=9Corphan drugs=E2=80=9D and make them exponentiall=
+y cheaper to bring to market than drugs affecting a wider population. ...
+Acthar was so crazily priced, he could undercut it by a factor of ten and s=
+till profit handsomely. But he=E2=80=99d do more damage to Questcor=E2=80=
+=94and make more money on the short=E2=80=94if he gave it away for free.
+It sounded like a pharma version of The Big Short, only instead of getting =
+rich speaking truth about a tidal wave of foreclosures that was about to wi=
+pe out the global banking system, they=E2=80=99d get rich saving babies=E2=
+=80=99 lives while immiserating a bunch of sketchy corporate executives. It=
+ was a perfect plan, with one little flaw: There were these things called s=
+ecurities laws. =E2=80=9CSTOP TALKING NOW,=E2=80=9D the hedge fund manager =
+interrupted. =E2=80=9CYou can=E2=80=99t be telling me any of this!=E2=80=9D
+
+In the event this plan was ruined not by securities laws but by Questcor bu=
+ying the competitor drug out from under him:
+A few months later, the day before the kid was scheduled to wire over his $=
+16 million and assume the distribution rights to Synacthen, Questcor swoope=
+d in and bid $135 million, plus a handful of potential bonuses the kid figu=
+red would more than double the sticker price. =E2=80=A6=C2=A0[The kid=E2=80=
+=99s] short position in Questcor, coupled with a host of other shorts in su=
+spect drug companies that refused to shrivel promptly, was likely killing h=
+im.=C2=A0
+Yeah just seems like a risky way to make a living. Anyway the kid in this a=
+necdote was Martin Shkreli, which seems exactly right.
+
+ =20
+   =20
+      Is Binance too big to jail?
+   =20
+ =20
+
+This is weird!
+
+U.S. Department of Justice officials are considering fraud charges against =
+crypto exchange Binance, but are concerned about the cost to consumers, acc=
+ording to people familiar with the matter.
+Federal prosecutors worry that if they indict Binance, it could cause a run=
+ on the exchange similar to the one that befell now bankrupt platform FTX, =
+causing consumers to lose their money and potentially spurring a panic in t=
+he crypto markets, the people said.
+Prosecutors are considering other options, such as fines and deferred or no=
+n-prosecution agreements, according to the people. That outcome would be a =
+compromise, holding Binance responsible for alleged criminal behavior while=
+ reducing consumer harm.
+
+That=E2=80=99s a report from Reed Albergotti at Semafor, and there is a=C2=
+=A0lot going on there!=C2=A0For one thing, the US  Securities and Exchange =
+Commission and  Commodity Futures Trading Commission=C2=A0have already brou=
+ght cases against Binance, and have said pretty rude things about it;=C2=A0=
+they=C2=A0weren=E2=80=99t worried about sparking a run, and it doesn=E2=80=
+=99t really seem like they did.
+For another thing, =E2=80=9Cwe can=E2=80=99t indict leveraged financial ser=
+vices businesses because everyone will flee and they will collapse=E2=80=9D=
+ was a big worry like a decade ago, and then the DOJ was just like =E2=80=
+=9Cehh let=E2=80=99s just indict them=E2=80=9D and it  turned out fine.=C2=
+=A0I=E2=80=99m not sure that would be true in crypto but, what, crypto cust=
+omers are=C2=A0more=C2=A0worried about legal compliance than bank customers=
+? I have my doubts.
+Also though what does this report say about Binance? One thing it says is, =
+I think, that the DOJ might think Binance did=C2=A0actual fraud. My read of=
+ the SEC and CFTC cases against Binance is that they are=C2=A0primarily=C2=
+=A0about technical failures to comply with US securities and commodities ru=
+les, not, like, stealing customer money. =E2=80=9CYou allowed US customers =
+to trade on your international commodity derivatives exchange without regis=
+tering it with the CFTC,=E2=80=9D =E2=80=9Cyou listed security tokens on yo=
+ur exchange without registering it with the SEC,=E2=80=9D that sort of thin=
+g, not =E2=80=9Cyou defrauded customers and stole their money.=E2=80=9D The=
+re are=C2=A0some=C2=A0allegations about wash trading and failing to safegua=
+rd customer money, but they are not the main thrust of those cases, and the=
+re are no real claims about customer losses. If the DOJ is planning a fraud=
+ case, does that mean it has something more serious?=C2=A0
+Another thing it says about Binance, though, is that the DOJ thinks that Bi=
+nance is susceptible to run risk. There are  two sorts of crypto exchanges:
+=09You can have an exchange where customers give you money, and you use the=
+ir money to buy crypto, and then you hold their crypto for them and give it=
+ back to them when they ask.=09You can have an exchange where customers mak=
+e=C2=A0levered=C2=A0bets on crypto, using margin trading or derivatives, an=
+d put down only a fraction of the amount that they bet as collateral.
+
+The first sort of exchange =E2=80=94=C2=A0this roughly fits Coinbase Global=
+ Inc. =E2=80=94=C2=A0is not really vulnerable to a bank run; if everyone as=
+ks for their money back at once you just give it to them. The second sort =
+=E2=80=94=C2=A0 this clearly fits FTX =E2=80=94=C2=A0is=C2=A0vulnerable to =
+a bank run; if everyone asks for their winnings back at once, you have to c=
+ollect that money from the losers, and in a run situation you might not be =
+able to do that.
+  [8]
+
+Binance is=C2=A0obviously=C2=A0in the second category, in that it is a big =
+derivatives exchange that lets customers make leveraged bets, but sometimes=
+ people seem confused about=C2=A0that risk. (=E2=80=9CDon=E2=80=99t borrow =
+if you run a crypto business. Don't use capital =E2=80=98efficiently.=E2=80=
+=99 Have a large reserve,=E2=80=9D tweeted Binance Chief Executive Officer =
+Changpeng Zhao after the FTX collapse, adding =E2=80=9Cwe have never taken =
+on debt.=E2=80=9D) The DOJ, though, seems concerned about it.
+
+ =20
+   =20
+      VC interns
+   =20
+ =20
+
+Broadly speaking, a lot of financial-services businesses involve some mix o=
+f (1)=C2=A0sourcing=C2=A0deals, (2)=C2=A0evaluating=C2=A0deals=C2=A0and (3)=
+ executing deals. In Step 1, you build up a network of potential clients (c=
+ounterparties investors, targets, whatever), cold-call them, meet with them=
+, build a public profile so they call you, whatever. In Step 2, you look at=
+ the deals that are available to you, do the ones that you think will make =
+you money and avoid the ones that will lose you money. In Step 3=C2=A0 you =
+structure the investment and negotiate the contract and get the funding and=
+ the regulatory approvals and so forth.
+If you are a senior person at any sort of financial-services business you a=
+re probably good at all three of these elements of the job.
+  [9]
+ If you are on your first day out of college at any sort of financial-servi=
+ces business, you are probably bad at all of them, but you have to start so=
+mewhere. Where do you start? If you are a very junior=C2=A0investment banke=
+r, you start mostly by learning evaluation skills (you build financial mode=
+ls to see which deals are good) and execution skills (you populate the data=
+ room). (This is also roughly how you start out in private equity.
+  [10]
+) You make pitchbooks to try to win business, sure, but that is support wor=
+k; you are not going out alone to pitch clients on deals in your first week=
+. The classic Wall Street career path begins with financial=C2=A0analysis; =
+once you are good enough at analysis they will let you out of the building =
+to impress clients with your charm and, also, your analytical abilities. Ev=
+entually you build up enough credibility that you can spend most of your ti=
+me flying around meeting with potential clients to pitch them on your talen=
+ts, but at the beginning you are mostly modeling and executing deals that m=
+ore senior people bring in.
+  [11]
+
+It is interesting that in venture capital the path is somewhat reversed, an=
+d you start out as a VC intern by cold-calling to find potential deals? Lik=
+e you walk in and they hand you a phone and you dial up tech companies and =
+say =E2=80=9Chello would you be interested in a venture capital investment=
+=E2=80=9D until someone says yes? What if they say yes? You can=E2=80=99t j=
+ust give them money! You don=E2=80=99t know what you=E2=80=99re doing! Some=
+one more senior has to figure out if the company is good, how much to pay f=
+or it=C2=A0and how to structure the deal. You are just there to network.
+I suppose that part of the reason for this is that estimating the value of =
+an investment in a public company is reasonably=C2=A0susceptible to standar=
+dized methods =E2=80=94=C2=A0there are textbooks, you can learn how to buil=
+d a discounted cash flow or leveraged buyout model and then practice doing =
+it a lot =E2=80=94=C2=A0while estimating the value of a pre-revenue tech st=
+artup requires more guesswork and gut feel. Also I suppose the founders of =
+tech startups are in their 20s while the VC partners are in their 50s, so t=
+he 20-something VC interns might be better suited to network with the found=
+ers.
+Anyway Bloomberg=E2=80=99s Magdalena Del Valle has   a funny story on VC in=
+terns:
+
+The summer interns at=C2=A0Insight Partners=C2=A0are learning the firm=E2=
+=80=99s=C2=A0number one value=C2=A0=E2=80=94 =E2=80=9Chunger to win=E2=80=
+=9D =E2=80=94 the hard way.
+The New York-based company, known for taking early stakes in ventures like=
+=C2=A0DocuSign Inc.=C2=A0and=C2=A0Shopify Inc., publicly ranks its investin=
+g interns using metrics like their phone calls, emails, and meetings, accor=
+ding to people with knowledge of the matter. The rankings are displayed on =
+a so-called leaderboard for the firm, said the people, who asked not to be =
+identified because they aren=E2=80=99t authorized to speak about it. Some f=
+ull-time employees are also ranked, they said.
+The ranking isn=E2=80=99t an automatic ticket to getting a job. It=E2=80=99=
+s one of many data points taken into consideration, including participation=
+ in meetings and attendance at =E2=80=9Clunch and learns,=E2=80=9D accordin=
+g to a person familiar with Insight=E2=80=99s hiring practices, who said in=
+terns are told not to worry about their ranking.=C2=A0
+
+They get ranked on how many cold calls they make! Also I love the idea of g=
+iving your interns a public ranking and telling them not to worry about it,=
+ what a great management technique, that=E2=80=99s how you keep them on the=
+ir toes.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+ Private Credit Funds Move From Mergers to Timeshares and Car Loans.  Goldm=
+an Sachs hit by senior departures as lower pay and overhaul take toll.=C2=
+=A0Private Equity   Deal Drought Spurs Firms to Raise Cash Creatively.=C2=
+=A0  SocGen CEO Krupa Hints He May Shrink Some Businesses in Revamp. How an=
+ Ex-Goldman Banker   Fought US Sanctions Over Russia =E2=80=94 and Won. =E2=
+=80=9CWhen a legal claim against a  well-heeled defendant trades in single =
+digits, it=E2=80=99s often worth taking a second look.=E2=80=9D =E2=80=9CHo=
+w do we reorganise society and management in a world where skimming for con=
+tent is something  everyone just does with their phone?=E2=80=9D =E2=80=9CO=
+n the bus, we sometimes have branch managers and loan officers and small bu=
+siness tellers, and we ask them, what can we do better. We give them  immun=
+ity and beer.=E2=80=9D=C2=A0A  Stairway to Nowhere Sells for $32,000 in Lon=
+don.  Rejected underage drinker hires protesters to smear luxury NYC hotel =
+with wild signs: suit.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] To be clear this is a made-up illustrative number.
+
+
+  [2] I=E2=80=99m being a little cute because in fact it=E2=80=99s not like=
+ they can go sell this electricity elsewhere at market prices. But they can=
+ sell the *inputs* at market prices, which comes to a roughly similar place=
+. (=E2=80=9CBiomass pellets =E2=80=94 unlike wind, the other main renewable=
+ energy source awarded CfDs =E2=80=94 can be sold easily in a global market=
+.=E2=80=9D) And in fact that should make you more sympathetic to Drax: If t=
+he market price of widgets is $25 because the price of raw materials has go=
+ne up to $21, obviously they don=E2=80=99t want to keep selling you widgets=
+ at the $20 contract price. Though Drax=E2=80=99s situation is better than =
+that: =E2=80=9CFor years, Drax had imported pellets from the US using its o=
+wn production facilities and long-term contracts with other suppliers, lock=
+ing in a cost of about $181 per ton for much of its fuel. In April 2022, th=
+e company could sell such pellets for an almost 70% markup, according to da=
+ta provided by the market research firm Argus Media Ltd. Profits from those=
+ sales would not be capped.=E2=80=9D Also: =E2=80=9CThe government took a l=
+imited approach to using CfDs for biomass; it approved only one of Drax=E2=
+=80=99s available generators, Unit 1, for a deal to begin in December 2016.=
+ Drax also converted three other units, which continued collecting subsidie=
+s from the earlier initiative, which is limited to about =C2=A3650 million =
+per year. Last year, Drax increased output at those three generators, which=
+ aren=E2=80=99t required to send money to consumers.=E2=80=9D Basically the=
+y can shift production between the capped-and-floored CfD generator (subsid=
+ized when prices are low) and the uncapped non-CfD generators (lucrative wh=
+en prices are high).
+
+
+  [3] Most actual mandates are more nuanced than this and don=E2=80=99t for=
+ce you to dump stuff instantly, but you get the idea.
+
+
+  [4] The intuition here is that if a country=E2=80=99s sovereign debt is r=
+ated BB, there is enough shakiness in its economy and institutions that non=
+e of its companies can really be AAA, so a country ceiling will tend to tra=
+ck the sovereign rating. But it doesn=E2=80=99t have to match exactly.
+
+
+  [5] I am not sure that this is strictly necessary; in the right condition=
+s I suppose you could make the product as expensively as the incumbent, or =
+more so, but just underprice it. Ideally you would be building a sustainabl=
+e long-term business and use the short sales as sort of early-ish-stage cap=
+ital, but I guess you could go in other directions.
+
+
+  [6] There is  this story of a funeral-services-price-comparison company s=
+horting a big funeral-services firm in small size, but that=E2=80=99s not r=
+eally the same thing.
+
+
+  [7] I think in the abstract the answer is no: If this is your business mo=
+del, you are not violating any obligations to anyone. But in the real world=
+ there might be complications around misappropriating, like, customer data =
+to inform your short.
+
+
+  [8] Particularly not if the biggest loser is your affiliated trading firm=
+, as was the case at FTX.
+
+
+  [9] If you are bad at one it is execution, which is probably the easiest =
+to specialize and outsource.
+
+
+  [10] In the sense that the first-day-out-of-college job for most private =
+equity professionals is being an investment banking analyst. Still even whe=
+n you do start in PE you are probably doing a fair amount of modeling and e=
+xecution.
+
+
+  [11] Sometimes banks partially reverse this by   hiring the young adult c=
+hildren of important clients as junior bankers, not because they are good a=
+t financial modeling but because they are (presumably) good at bringing in =
+their parents=E2=80=99 business. But people get mad about this; it=E2=80=99=
+s not how it=E2=80=99s supposed to work.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj81as.5kxm/bacbdc17.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8983518_1725499352.1691085171485
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.We have =
+talked a few times recently about the US Securities and Exchange=20
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwODAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB3b7faa05"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjI4NzYzNiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI1NDgwNDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB2598f309" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32287636&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32548046&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">When are tokens securities?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bloomberg=
+business.com/click/32287636.260410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjMtMDctMTQvcmlwcGxlLWlzLWEtc2VjdXJpdHktYW5kLWl0LWlzbi1=
+0P2NtcGlkPUJCRDA4MDMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cBb268d2cc" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> talked</a> a few <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32287636.260410/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDctMTcvYnJhbmNoZXMtbWFrZS1iYW5rL=
+XJ1bnMtaGFyZGVyP2NtcGlkPUJCRDA4MDMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwm=
+dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMyZ1dG1fY2FtcGFpZ249bW9uZXl=
+zdHVmZg/607f07ceef4b8524a319a23cB10042842" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> times</a> recently abou=
+t the US Securities and Exchange Commission=E2=80=99s lawsuit against Rippl=
+e Labs Inc. Ripple is a company that is building a blockchain ecosystem; it=
+ created and sold a bunch of crypto tokens called XRP to fund that developm=
+ent. The SEC argued that this was a securities offering =E2=80=94=C2=A0Ripp=
+le sold quasi-stock in its project, for money, to build that project =E2=80=
+=94=C2=A0while Ripple argued that it wasn=E2=80=99t. Last month, a federal =
+judge in New York issued <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32287636.260410/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMv=
+aXFqV0hCRmRmeElVL3JWcXlMRnlFWm56OC92MA/607f07ceef4b8524a319a23cB956690e0" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">a split decision</a>:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">XRP=C2=A0<em>itself </em>is not a sec=
+urity: It is just a token, =E2=80=9Clittle more than an=C2=A0alphanumeric c=
+ryptographic sequence.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">Wh=
+en Ripple=C2=A0<em>sold=C2=A0</em>XRP to institutional investors, directly,=
+ in negotiated transactions, that=C2=A0<em>was=C2=A0</em>a securities offer=
+ing, because the institutional investors understood that they were investin=
+g money in Ripple=E2=80=99s project and hoped to profit from its efforts to=
+ increase the value of XRP.</li>=09<li style=3D"margin-bottom: 5px;">When R=
+ipple sold XRP to retail investors, in anonymous transactions on crypto exc=
+hanges, that was=C2=A0<em>not=C2=A0</em>a securities offering, because the =
+retail investors didn=E2=80=99t know that they were buying directly from Ri=
+pple and might not have even read Ripple=E2=80=99s various public advertise=
+ments about how they would make the price of XRP go up.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I found this decision pretty incoherent, for r=
+easons we have <a href=3D"https://link.mail.bloombergbusiness.com/click/322=
+87636.260410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+MtMDctMTQvcmlwcGxlLWlzLWEtc2VjdXJpdHktYW5kLWl0LWlzbi10P2NtcGlkPUJCRDA4MDMyM=
+19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTIzMDgwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cCb26=
+8d2cc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">discussed</a> at <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/32287636.260410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDctMTcvYnJhbmNoZXMtbWFrZS1iYW5rLXJ1bnMtaGFyZGVyP2NtcGlk=
+PUJCRDA4MDMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTIzMDgwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cC10042842" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> length</a> and which I won=E2=80=99t repeat =
+here.=C2=A0Earlier this week, another federal judge in New York <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/32287636.260410/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMzEvcmlwcGxlLXJ1bGluZy1v=
+bi1jcnlwdG8tcmVqZWN0ZWQtYnktZmVkZXJhbC1qdWRnZS1pbi10ZXJyYS1jYXNlP2NtcGlkPUJ=
+CRDA4MDMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dG=
+VyJnV0bV90ZXJtPTIzMDgwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a3=
+19a23cBf3e42805" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> declined to follow it</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A federal judge in New York split with another=
+ judge who earlier this month ruled that a Ripple Labs token was not a secu=
+rity when sold to the public on secondary markets, adding to uncertainty ov=
+er cryptocurrency regulation.</p>
+<p style=3D"margin: 16px 0;">US District Judge Jed Rakoff on Monday allowed=
+ the Securities and Exchange Commission to go forward with its case against=
+ Terraform Labs Pte and founder Do Kwon. In doing so, Rakoff said he reject=
+ed the distinction made in the Ripple case between public and institutional=
+ sales. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe court declines to draw a distinct=
+ion between these coins based on their manner of sale, such that coins sold=
+ directly to institutional investors are considered securities and those so=
+ld through secondary market transactions to retail investors are not,=E2=80=
+=9D Rakoff said in the Terra decision. =E2=80=9CIn doing so, the court reje=
+cts the approach recently adopted by another judge of this district in a si=
+milar case.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/32287636.260410/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVu=
+dHMvdXNlcnMvaXFqV0hCRmRmeElVL3JfaWtyRXphckhPUS92MA/607f07ceef4b8524a319a23c=
+B2a711b07" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">Judge Rakoff=E2=80=99s opinion</a>. He goes on (citation=
+s omitted):</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">[In Ripple], that court found that,=C2=A0=E2=
+=80=9C[w]hereas ... [i]nstitutional [b]uyers reasonably expected that [the =
+defendant crypto-asset company] would use the capital it received from its =
+sales to improve the [crypto-asset] ecosystem and thereby increase the pric=
+e of [the crypto-asset],=E2=80=9D those who purchased their coins through s=
+econdary transactions had no reasonable basis to expect the same. According=
+ to that court, this was because the re-sale purchasers could not have know=
+n if their payments went to the defendant, as opposed to the third-party en=
+tity who sold them the coin. Whatever expectation of profit they had could =
+not, according to that court, be ascribed to defendants=E2=80=99 efforts.</=
+p>
+<p style=3D"margin: 16px 0;">But <em>Howey </em>makes no such distinction b=
+etween purchasers. And it makes good sense that it did not. That a purchase=
+r bought the coins directly from the defendants or, instead, in a secondary=
+ resale transaction has no impact on whether a reasonable individual would =
+objectively view the defendants=E2=80=99 actions and statements as evincing=
+ a promise of profits based on their efforts. Indeed, if the Amended Compla=
+int=E2=80=99s allegations are taken as true -- as, again, they must be at t=
+his stage -- the defendants=E2=80=99 embarked on a public campaign to encou=
+rage both retail and institutional investors to buy their crypto-assets by =
+touting the profitability of the cryptoassets and the managerial and techni=
+cal skills that would allow the defendants to maximize returns on the inves=
+tors=E2=80=99 coins.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yeah, look, this is correct. As I <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/32287636.260410/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDctMTcvYnJhbmNoZXMtbWFrZ=
+S1iYW5rLXJ1bnMtaGFyZGVyP2NtcGlkPUJCRDA4MDMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09=
+ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMyZ1dG1fY2FtcGFpZ24=
+9bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cD10042842" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> wrote about Rip=
+ple</a>, it would be very weird if the securities laws allowed companies to=
+ sell investment opportunities to the general public by advertising widely =
+that they were good investment opportunities, as long as no one could prove=
+ that any individual buyer had seen those advertisements. The question is =
+=E2=80=9Cwhether a reasonable individual would objectively view the defenda=
+nts=E2=80=99 actions and statements as evincing a promise of profits based =
+on their efforts.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Still, one important point about Judge Rakoff=
+=E2=80=99s opinion is that he agrees with Ripple, Terraform, most of the cr=
+ypto industry and Judge Analisa Torres (the Ripple judge), and disagrees wi=
+th the SEC, about whether tokens are=C2=A0<em>themselves=C2=A0</em>securiti=
+es:</p>
+<blockquote><p style=3D"margin: 16px 0;">XRP, as a digital token, is not in=
+ and of itself a =E2=80=9Ccontract, transaction[,] or scheme=E2=80=9D that =
+embodies the Howey requirements of an investment contract.=C2=A0Rather, the=
+ Court examines the totality of circumstances surrounding Defendants=E2=80=
+=99 different transactions and schemes involving the sale and distribution =
+of XRP.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">He just concludes that all of those sales were=
+ securities offerings.=C2=A0</p>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know what to make of that. Jud=
+ge Rakoff was deciding a motion to dismiss in a particular case, not trying=
+ to make broad crypto law for every case. But what if this is the law?</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Crypto tokens are not securities.</li=
+>=09<li style=3D"margin-bottom: 5px;">Crypto issuers who sell those tokens =
+to fund their projects are doing securities offerings.</li>
+</ol>
+<p style=3D"margin: 16px 0;">What would that mean for=C2=A0<em>crypto excha=
+nges</em>? The <a href=3D"https://link.mail.bloombergbusiness.com/click/322=
+87636.260410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+MtMDYtMDcvd2hlbi1pcy1hLXRva2VuLW5vdC1hLXNlY3VyaXR5P2NtcGlkPUJCRDA4MDMyM19NT=
+05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJt=
+PTIzMDgwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB5aa8889=
+2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> action right now</a> in SEC crypto enforcement is largely aga=
+inst exchanges, arguing that they are running illegal securities exchanges =
+and should stop. But if the tokens themselves are not securities, does that=
+ mean that the exchanges are entirely off the hook? Or, if the issuances of=
+ =E2=80=9Ctoken plus totality of circumstances=E2=80=9D are securities offe=
+rings, does that mean that when the tokens start trading they are trading a=
+long with the totality of their circumstances, and are thus securities? If =
+you buy an XRP or a Luna (Terra=E2=80=99s token), are you just buying a dig=
+ital token, or are you expecting =E2=80=9Cthe profitability of the cryptoas=
+sets=E2=80=9D from=C2=A0=E2=80=9Cthe managerial and technical skills that w=
+ould allow the [issuers] to maximize returns on the investors=E2=80=99 coin=
+s=E2=80=9D?=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjI4NzYzNiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI1NDgwNDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC45ca47f9" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32287636&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32548046&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjI4NzYzNiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI1NDgwNDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD45ca47f9" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32287636&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32548046&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bad trade</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s a trade:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">I am a widget producer, you are a widg=
+et user, and widgets trade in a liquid daily=C2=A0market with lots of buyer=
+s and sellers and pretty volatile prices.</li>=09<li style=3D"margin-bottom=
+: 5px;">We sign a contract saying that I can sell you anywhere between 0 an=
+d 100 widgets each day for a year, at my option:=C2=A0Each day, I pick a nu=
+mber between 0 and 100, and that=E2=80=99s how many widgets you buy from me=
+ that day.</li>=09<li style=3D"margin-bottom: 5px;">The price you pay is $2=
+0 per widget, regardless of the market price that day.</li>
+</ul>
+<p style=3D"margin: 16px 0;">Questions:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The market price of widgets on Monday=
+ is $15. How many widgets do I sell you on Monday?</li>=09<li style=3D"marg=
+in-bottom: 5px;">The market price of widgets on Wednesday is $25. How many =
+widgets do I sell you on Wednesday?</li>
+</ol>
+<p style=3D"margin: 16px 0;">I suppose you can imagine some real-world situ=
+ations in which the answers are not =E2=80=9C100=E2=80=9D and =E2=80=9Czero=
+,=E2=80=9D respectively, but, come on, the answers are =E2=80=9C100=E2=80=
+=9D and =E2=80=9Czero,=E2=80=9D respectively. And if you entered into this =
+contract, and Wednesday comes along and you are like =E2=80=9Cah, sweet, no=
+w to pay $20 for my discounted widgets,=E2=80=9D you will be disappointed.<=
+/p>
+<p style=3D"margin: 16px 0;">Bloomberg=E2=80=99s=C2=A0Todd Gillespie, Gavin=
+ Finch, Will Mathis and Jason Grotto have a story about <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/32287636.260410/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9ncmFwaGljcy8yMDIzLXVrLXBvd2VyLXN0YXRpb25zLWF2b2lkZWQtcGF5aW5n=
+LWJhY2stY29uc3VtZXJzLz9jbXBpZD1CQkQwODAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWV=
+tYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDMmdXRtX2NhbXBhaWduPW=
+1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7bf3816d" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> UK electric produ=
+cer Drax Group Plc=E2=80=99s green energy subsidies</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Since December 2016, a generator at the firm=
+=E2=80=99s giant power plant had received =C2=A31.4 billion ($1.8 billion) =
+in green-energy subsidies from consumers =E2=80=94 payments above the marke=
+t rate for electricity. The goal of this public aid was to make it profitab=
+le for Drax to fuel the unit with =E2=80=9Cbiomass,=E2=80=9D pellets made f=
+rom wood that are considered a renewable energy source.</p>
+<p style=3D"margin: 16px 0;">This expensive method for weaning Britain=E2=
+=80=99s power grid off fossil fuels contained a consumer safeguard: If elec=
+tricity prices ever increased enough that Drax=E2=80=99s =E2=80=9CUnit 1=E2=
+=80=9D generator could comfortably make money without subsidies, its earnin=
+gs would be capped, and the company would have to send any extra cash back =
+to bill payers.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is specifically how the subsidy works:</p=
+>
+<blockquote>
+<p style=3D"margin: 16px 0;">This particular opportunity stemmed from a typ=
+e of subsidy agreement called =E2=80=9Ccontracts for difference,=E2=80=9D o=
+r =E2=80=9CCfDs=E2=80=9D for short. The CfD for Drax=E2=80=99s Unit 1 follo=
+ws a straightforward logic.</p>
+<p style=3D"margin: 16px 0;">First, negotiators agree on how much it will c=
+ost Drax to produce electricity from biomass. They add some extra to ensure=
+ a reasonable profit. This total is called the =E2=80=9Cstrike price.=E2=80=
+=9D</p>
+<p style=3D"margin: 16px 0;">Then they figure out how much the firm can sel=
+l its electricity for on the wholesale market. If that =E2=80=9Cmarket refe=
+rence price=E2=80=9D is lower than the strike price, consumers have to send=
+ Drax the rest of the money =E2=80=94 the =E2=80=9Cdifference=E2=80=9D =E2=
+=80=94 via charges added to their energy bills.</p>
+<p style=3D"margin: 16px 0;">But if the market reference price rises above =
+the strike price, the arrangement flips. The contract holds that Drax, now =
+assured of turning a profit, must send the difference back to energy suppli=
+ers, who by law then reduce what they charge consumers.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Ah! If the market price is below $20, they get=
+ paid $20.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: none !important; background-co=
+lor: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0If the market price is above $20, they get paid $20. How much sho=
+uld they sell if the market price is below $20? As much as they can. How mu=
+ch should they sell if the market price is above $20? Zero<a class=3D"footn=
+ote-index" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: none !important; background-color: transparent !important=
+; display: inline-block;">
+<span>[2]</span>
+</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">As household energy bills began more than doub=
+ling, the company slashed production at Unit 1. Idling the generator for we=
+eks at a time =E2=80=94 and instead using others that weren=E2=80=99t requi=
+red to cap their earnings =E2=80=94 has let Drax avoid sending consumers an=
+ estimated =C2=A3639 million as of July, according to a Bloomberg News anal=
+ysis of thousands of power market records.</p>
+<p style=3D"margin: 16px 0;">Meanwhile, the company sold some of its biomas=
+s pellets at high prices on the open market, according to its public statem=
+ents and to five people with direct knowledge of the biomass market. Drax p=
+osted a record =C2=A3731 million in earnings last year, almost double its 2=
+021 income.</p>
+<p style=3D"margin: 16px 0;">The company didn=E2=80=99t break any rules. Bu=
+t =E2=80=9Cit looks like they are acting in bad faith,=E2=80=9D said Ed Dav=
+ey, who was the UK government=E2=80=99s energy secretary when it negotiated=
+ the firm=E2=80=99s subsidy deal, and is now leader of the opposition Liber=
+al Democrats. =E2=80=9CIt=E2=80=99s against the national interest.=E2=80=9D=
+</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I am sorry but you should have done a better j=
+ob negotiating the subsidy deal! Put a line in the contract like =E2=80=9Ci=
+n any event you=E2=80=99ll always supply at least X megawatt-hours per day =
+under this deal.=E2=80=9D Or just have the contract be on a fixed notional =
+amount rather than the amount actually supplied. But if you base the contra=
+ct on how much electricity they actually supply, and let them decide how mu=
+ch to supply, then they will supply a lot when the contract is favorable to=
+ them and nothing when it is favorable to you.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">US AA+</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/32287636.260410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDgtMDIvdGhlLXVzLWlzLW1vcmUtYWEtbm93P2NtcGlkPUJCRDA4MDMy=
+M19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIzMDgwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7a=
+32b21b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> talked yesterday</a> about Fitch Ratings=E2=80=99=C2=A0dec=
+ision to downgrade the US sovereign credit rating from AAA to AA+, joining =
+Standard &amp; Poor=E2=80=99s (which cut the US to AA+ in 2011) and breakin=
+g from Moody=E2=80=99s (which still has it at Aaa). My main reaction was, m=
+eh, whatever. Fitch=E2=80=99s downgrade does not add a lot of=C2=A0<em>info=
+rmation=C2=A0</em>to the market; perhaps someone bought Treasuries thinking=
+ they were a safe investment but changed her mind after seeing Fitch=E2=80=
+=99s downgrade, but that would be pretty weird.</p>
+<p style=3D"margin: 16px 0;">And while there are some contexts in which inv=
+estors are=C2=A0<em>forced=C2=A0</em>to sell bonds when they are downgraded=
+ =E2=80=94=C2=A0if you are an investment-grade manager and a bond goes from=
+ BBB- to BB+, it is no longer investment-grade and you might have to get ri=
+d of it<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: none !important; background-color=
+: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0=E2=80=94=C2=A0it seems unlikely that there are any investors lik=
+e that=C2=A0<em>in Treasuries</em>. =E2=80=9CBecause Treasury securities ar=
+e such an important asset class, most investment mandates and regulatory re=
+gimes refer to them specifically, rather than AAA-rated government debt,=E2=
+=80=9D a Goldman Sachs Group Inc. research note pointed out, so nobody shou=
+ld care much about the downgrade.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Still one reader pointed out to me that the in=
+teresting consequences are for US non-government debt, or rather not-quite-=
+government debt. If you are an AAA-rated US <em>company</em>, this downgrad=
+e is fine: Fitch left the US=E2=80=99s =E2=80=9Ccountry ceiling=E2=80=9D at=
+ AAA, meaning that AAA-rated corporates are not affected by the downgrade.<=
+a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: none !important; background-color: transp=
+arent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0Bloomberg=E2=80=99s=C2=A0Josyana Joshua=C2=A0and Sonali Basak <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMDIvY2l0aS1zLXpv=
+Z2hlYi1zYXlzLWFhYS1jb21wYW5pZXMtbWF5LWJlbmVmaXQtZnJvbS11cy1kb3duZ3JhZGU_Y21=
+waWQ9QkJEMDgwMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3=
+NsZXR0ZXImdXRtX3Rlcm09MjMwODAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b=
+8524a319a23cB99adad6b" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> note</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">There is likely to be a silver lining in Fitch=
+=E2=80=99s downgrade of the US, at least for two companies =E2=80=94 Micros=
+oft Corp. and Johnson &amp; Johnson.</p>
+<p style=3D"margin: 16px 0;">Citigroup Inc.=E2=80=99s head of global debt c=
+apital markets, Richard Zogheb, said the downgrade may actually benefit the=
+ small group of companies that have a credit rating as high or higher than =
+the US. Investors could begin replacing sovereign bonds in their portfolios=
+ with the highly rated companies, as some did a few years ago during the Eu=
+ropean sovereign crisis, he said.</p>
+<p style=3D"margin: 16px 0;">Moreover, the few companies that are rated on-=
+par with the US could see their spreads tighten in line with US Treasury bo=
+nds.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe bad news is it is a very small gr=
+oup of companies that have ratings at or above the current sovereign rate f=
+or the US government,=E2=80=9D Zogheb said on Bloomberg Television Wednesda=
+y. =E2=80=9CThere is only so much of your portfolio that you can replace of=
+ sovereigns into these multinational, highly-rated areas.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But that=E2=80=99s not true of every AAA-rated=
+ US company. Fitch=C2=A0<em>did=C2=A0</em>downgrade <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/32287636.260410/aHR0cHM6Ly93d3cuZml0Y2hyY=
+XRpbmdzLmNvbS9yZXNlYXJjaC9ub24tYmFuay1maW5hbmNpYWwtaW5zdGl0dXRpb25zL2ZpdGNo=
+LWRvd25ncmFkZXMtZmFubmllLW1hZS1mcmVkZGllLW1hYy10by1hYS1mb2xsb3dpbmctc292ZXJ=
+laWduLWFjdGlvbi1vdXRsb29rLXN0YWJsZS0wMi0wOC0yMDIzIzp-OnRleHQ9Rml0Y2glMjBSYX=
+RpbmdzJTIwJTJEJTIwQ2hpY2FnbyUyMCUyRCUyMDAyJTIwQXVnLGFhJTJCJyUyMGZyb20lMjAnY=
+WFhJy4/607f07ceef4b8524a319a23cBf0a5bc8b" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">two big US companies yes=
+terday</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Fitch Ratings downgraded the credit scores of =
+Fannie Mae and Freddie Mac to AA+ from AAA, a day after it cut the US sover=
+eign credit rating.</p>
+<p style=3D"margin: 16px 0;">The downgrades of the two government-sponsored=
+ enterprises are consistent with its downgrade of US government debt, Fitch=
+ said in a press release on Wednesday. The move was =E2=80=9Cnot being driv=
+en by fundamental credit, capital or liquidity deterioration at the firms,=
+=E2=80=9D it said.</p>
+<p style=3D"margin: 16px 0;">Fannie Mae and Freddie Mac benefit from implic=
+it government support, Fitch said. The two enterprises help to backstop the=
+ multi-trillion dollar market for US home mortgages.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And there are enormous categories of asset-bac=
+ked securities that also benefit from implicit or explicit US government ba=
+cking, backing that used to be AAA-rated and is now only AA+: agency mortga=
+ge-backed securities, for instance, and also student loans. Fitch put a bun=
+ch of AAA-rated student loan pools on =E2=80=9C<a href=3D"https://link.mail=
+.bloombergbusiness.com/click/32287636.260410/aHR0cHM6Ly93d3cuZml0Y2hyYXRpbm=
+dzLmNvbS9yZXNlYXJjaC9zdHJ1Y3R1cmVkLWZpbmFuY2UvZml0Y2gtdGFrZXMtdmFyaW91cy1yY=
+XRpbmctYWN0aW9ucy1vbi03My1mZmVscC1zbGFicy0yMy0wNi0yMDIz/607f07ceef4b8524a31=
+9a23cBec335c5a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">ratings watch negative</a>=E2=80=9D in June, after =
+putting the US government on ratings watch in May, because those pools are =
+largely guaranteed by the US Department of Education. That guarantee is now=
+, to Fitch, worth a bit less than it used to be.</p>
+<p style=3D"margin: 16px 0;">I am not sure how much this matters either, bu=
+t it is a bit=C2=A0<em>more=C2=A0</em>likely to matter. Somebody somewhere =
+could be posting these securities as collateral in some trade that requires=
+ collateral rated AAA by two agencies, and might now have to substitute oth=
+er collateral because of the downgrade. Treasuries are Treasuries; =E2=80=
+=9Cmost investment mandates and regulatory regimes refer to them specifical=
+ly, rather than AAA-rated government debt.=E2=80=9D But AAA-rated quasi-gov=
+ernment-supported asset-backed-securities are, maybe, in some contexts, jus=
+t AAA bonds. Or=C2=A0rather they were, and=C2=A0now they are not.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Short selling</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We have talked from <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32287636.260410/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS92aWV3L2FydGljbGVzLzIwMTgtMDQtMTYvc2hvcnQtc2VsbGluZy1hcy1hLWJ1c2luZXN=
+zLW1vZGVsP2NtcGlkPUJCRDA4MDMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3=
+NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZ=
+g/607f07ceef4b8524a319a23cB64970017" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  time</a> to <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/32287636.260410/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDMtMTkvY3VyaW5nLWEtcGFuZGVta=
+WMtY291bGQtbWFrZS15b3UtcmljaD9jbXBpZD1CQkQwODAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDMmdXRtX2NhbXB=
+haWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBa25d3793" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  time</a> =
+around here about a corporate financing model that I first heard from <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/aHR0cHM=
+6Ly90d2l0dGVyLmNvbS9UaGVTdGFsd2FydC9zdGF0dXMvOTg0Nzk4ODUwMjI4Njc0NTYw/607f0=
+7ceef4b8524a319a23cB798758dc" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> Joe Weisenthal</a>: If you have foun=
+d a way to make some product more cheaply than a big publicly traded incumb=
+ent manufacturer,<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: none !important; backgr=
+ound-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a> you could monetize that not by selling the product at a profit, but by=
+=C2=A0<em>shorting the incumbent=E2=80=99s stock=C2=A0</em>and giving the p=
+roduct away for free. You lose money on every product, but you take away a =
+lot of market share from the incumbent, whose stock will go down, giving yo=
+u enough profit to more than cover your expenses.</p>
+<p style=3D"margin: 16px 0;">We talk about this idea because it exists as a=
+n amusing theoretical possibility =E2=80=94=C2=A0=E2=80=9Ca strange and gho=
+stly form of capitalism,=E2=80=9D <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32287636.260410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjAtMDMtMTkvY3VyaW5nLWEtcGFuZGVtaWMtY291bGQtbWFrZS15b3Utcm=
+ljaD9jbXBpZD1CQkQwODAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY=
+2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f=
+07ceef4b8524a319a23cCa25d3793" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  I once called it</a>, where =E2=80=
+=9Cyou make money through the abstract workings of the financial system=E2=
+=80=9D =E2=80=94=C2=A0but there are a ton of practical problems and I canno=
+t think of any examples of anyone really doing it.<a class=3D"footnote-inde=
+x" href=3D"#footnote-6" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: none !important; background-color: transparent !important; displa=
+y: inline-block;">
+<span>[6]</span>
+</a>=C2=A0It combines all the problems of short selling =E2=80=94=C2=A0it=
+=E2=80=99s risky, your thesis might be right but the stock might surge for =
+other reasons, it=E2=80=99s unpopular, you=E2=80=99ll get a lot of regulato=
+ry scrutiny, etc. =E2=80=94=C2=A0with all the problems of building a real b=
+usiness, and adds some extra problems from the combination. (If you are sho=
+rting a stock based on your own business=E2=80=99s information, is that ill=
+egal =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/3228=
+7636.260410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjI=
+tMDEtMjYvd2F0Y2gtb3V0LWZvci1zaGFkb3ctdHJhZGluZz9jbXBpZD1CQkQwODAzMjNfTU9ORV=
+lTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yM=
+zA4MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB14b7c2d3" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">shadow trading</a>=E2=80=9D?<a class=3D"footnote-index" href=3D"#foo=
+tnote-7" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none =
+!important; background-color: transparent !important; display: inline-block=
+;">
+<span>[7]</span>
+</a>)</p>
+<p style=3D"margin: 16px 0;">But at the American Prospect today, Maureen Tk=
+acik reports on <a href=3D"https://link.mail.bloombergbusiness.com/click/32=
+287636.260410/aHR0cHM6Ly9wcm9zcGVjdC5vcmcvaGVhbHRoLzIwMjMtMDgtMDMtb2xpdmVyL=
+XR3aXN0LW9ycGhhbi1kcnVncy8/607f07ceef4b8524a319a23cBe4d147a6" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> some=
+one who actually tried it</a>?=C2=A0</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">About a decade ago, a hedge fund manager (who =
+asked to remain nameless) got a call from a young short seller about a phar=
+ma company whose stock price they were both betting would fall. The company=
+, Questcor, had been a 50-cent stock just a few years earlier, but a new CE=
+O had raised the price of its flagship product by 1,300 percent, and now th=
+e stock was approaching 50 dollars. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The flagship drug, HP Acthar, positively reeke=
+d. =E2=80=A6 And yet prescriptions for the $28,000 vials kept rolling in, t=
+he stock kept going up, and all the bearish bets were now bleeding red ink.=
+</p>
+<p style=3D"margin: 16px 0;">But the kid had a plan. He=E2=80=99d recently =
+founded a biotech company of his own, which was in the final stage of negot=
+iations to acquire the domestic distribution rights to a European drug that=
+ was almost a precise synthetic equivalent to Acthar, minus a few amino aci=
+ds=E2=80=94so it wouldn=E2=80=99t be covered by any exclusivity deal. EU da=
+ta suggested the drug, Synacthen, would work exactly the same as Acthar, bu=
+t its owner had never applied for FDA approval. The neurological disorder w=
+as rare enough that clinical trials would be fast and cheap, thanks to fede=
+ral policies that strongly privilege so-called =E2=80=9Corphan drugs=E2=80=
+=9D and make them exponentially cheaper to bring to market than drugs affec=
+ting a wider population. ...</p>
+<p style=3D"margin: 16px 0;">Acthar was so crazily priced, he could undercu=
+t it by a factor of ten and still profit handsomely. But he=E2=80=99d do mo=
+re damage to Questcor=E2=80=94and make more money on the short=E2=80=94if h=
+e gave it away for free.</p>
+<p style=3D"margin: 16px 0;">It sounded like a pharma version of The Big Sh=
+ort, only instead of getting rich speaking truth about a tidal wave of fore=
+closures that was about to wipe out the global banking system, they=E2=80=
+=99d get rich saving babies=E2=80=99 lives while immiserating a bunch of sk=
+etchy corporate executives. It was a perfect plan, with one little flaw: Th=
+ere were these things called securities laws. =E2=80=9CSTOP TALKING NOW,=E2=
+=80=9D the hedge fund manager interrupted. =E2=80=9CYou can=E2=80=99t be te=
+lling me any of this!=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">In the event this plan was ruined not by secur=
+ities laws but by Questcor buying the competitor drug out from under him:</=
+p>
+<blockquote><p style=3D"margin: 16px 0;">A few months later, the day before=
+ the kid was scheduled to wire over his $16 million and assume the distribu=
+tion rights to Synacthen, Questcor swooped in and bid $135 million, plus a =
+handful of potential bonuses the kid figured would more than double the sti=
+cker price. =E2=80=A6=C2=A0[The kid=E2=80=99s] short position in Questcor, =
+coupled with a host of other shorts in suspect drug companies that refused =
+to shrivel promptly, was likely killing him.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">Yeah just seems like a risky way to make a liv=
+ing. Anyway the kid in this anecdote was Martin Shkreli, which seems exactl=
+y right.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Is Binance too big to jail?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">This <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32287636.260410/aHR0cHM6Ly93d3cuc2VtYWZvci5jb20vbmV3c2xldHR=
+lci8wOC8wMi8yMDIzL3VzLWp1c3RpY2UtZGVwdC13b3JyaWVzLWFib3V0LWJpbmFuY2UtY3VzdG=
+9tZXJzLXdlaWdoLW9uLXByb2Jl/607f07ceef4b8524a319a23cB81c7daf2" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">is we=
+ird</a>!</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">U.S. Department of Justice officials are consi=
+dering fraud charges against crypto exchange Binance, but are concerned abo=
+ut the cost to consumers, according to people familiar with the matter.</p>
+<p style=3D"margin: 16px 0;">Federal prosecutors worry that if they indict =
+Binance, it could cause a run on the exchange similar to the one that befel=
+l now bankrupt platform FTX, causing consumers to lose their money and pote=
+ntially spurring a panic in the crypto markets, the people said.</p>
+<p style=3D"margin: 16px 0;">Prosecutors are considering other options, suc=
+h as fines and deferred or non-prosecution agreements, according to the peo=
+ple. That outcome would be a compromise, holding Binance responsible for al=
+leged criminal behavior while reducing consumer harm.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That=E2=80=99s a report from Reed Albergotti a=
+t Semafor, and there is a=C2=A0lot going on there!=C2=A0For one thing, the =
+US <a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMDYvdG=
+hlLXNlYy1jb21lcy1mb3ItY3J5cHRvP2NtcGlkPUJCRDA4MDMyM19NT05FWVNUVUZGJnV0bV9tZ=
+WRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMyZ1dG1fY2Ft=
+cGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBfd43fa05" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Securiti=
+es and Exchange Commission</a> and <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/32287636.260410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMjMtMDMtMjcvdGhlLWNmdGMtY29tZXMtZm9yLWJpbmFuY2U_Y21waWQ9Q=
+kJEMDgwMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0=
+ZXImdXRtX3Rlcm09MjMwODAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a3=
+19a23cB98653b90" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> Commodity Futures Trading Commission</a>=C2=A0hav=
+e already brought cases against Binance, and have said pretty rude things a=
+bout it;=C2=A0<em>they=C2=A0</em>weren=E2=80=99t worried about sparking a r=
+un, and it doesn=E2=80=99t really seem like they did.</p>
+<p style=3D"margin: 16px 0;">For another thing, =E2=80=9Cwe can=E2=80=99t i=
+ndict leveraged financial services businesses because everyone will flee an=
+d they will collapse=E2=80=9D was a big worry like a decade ago, and then t=
+he DOJ was just like =E2=80=9Cehh let=E2=80=99s just indict them=E2=80=9D a=
+nd it <a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260=
+410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDUtMTE=
+vbm9ib2R5LXMtd29ycmllZC1hYm91dC10b28tYmlnLXRvLWphaWwtYW55LW1vcmU_Y21waWQ9Qk=
+JEMDgwMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjMwODAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cB073f3355" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> turned out fine</a>.=C2=A0I=E2=80=99m not sure tha=
+t would be true in crypto but, what, crypto customers are=C2=A0<em>more=C2=
+=A0</em>worried about legal compliance than bank customers? I have my doubt=
+s.</p>
+<p style=3D"margin: 16px 0;">Also though what does this report say about Bi=
+nance? One thing it says is, I think, that the DOJ might think Binance did=
+=C2=A0<em>actual fraud</em>. My read of the SEC and CFTC cases against Bina=
+nce is that they are=C2=A0<em>primarily=C2=A0</em>about technical failures =
+to comply with US securities and commodities rules, not, like, stealing cus=
+tomer money. =E2=80=9CYou allowed US customers to trade on your internation=
+al commodity derivatives exchange without registering it with the CFTC,=E2=
+=80=9D =E2=80=9Cyou listed security tokens on your exchange without registe=
+ring it with the SEC,=E2=80=9D that sort of thing, not =E2=80=9Cyou defraud=
+ed customers and stole their money.=E2=80=9D There are=C2=A0<em>some=C2=A0<=
+/em>allegations about wash trading and failing to safeguard customer money,=
+ but they are not the main thrust of those cases, and there are no real cla=
+ims about customer losses. If the DOJ is planning a fraud case, does that m=
+ean it has something more serious?=C2=A0</p>
+<p style=3D"margin: 16px 0;">Another thing it says about Binance, though, i=
+s that the DOJ thinks that Binance is susceptible to run risk. There are <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMDkvYmFua21=
+hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyYWwtYmVmb3JlLWJpbmFuY2UtZGVhbD9jbX=
+BpZD1CQkQwODAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c=
+2xldHRlciZ1dG1fdGVybT0yMzA4MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b=
+8524a319a23cBea1c95f1" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> two sorts of crypto exchanges</a>:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You can have an exchange where custom=
+ers give you money, and you use their money to buy crypto, and then you hol=
+d their crypto for them and give it back to them when they ask.</li>=09<li =
+style=3D"margin-bottom: 5px;">You can have an exchange where customers make=
+=C2=A0<em>levered=C2=A0</em>bets on crypto, using margin trading or derivat=
+ives, and put down only a fraction of the amount that they bet as collatera=
+l.</li>
+</ol>
+<p style=3D"margin: 16px 0;">The first sort of exchange =E2=80=94=C2=A0this=
+ roughly fits Coinbase Global Inc. =E2=80=94=C2=A0is not really vulnerable =
+to a bank run; if everyone asks for their money back at once you just give =
+it to them. The second sort =E2=80=94=C2=A0<a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/32287636.260410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjItMTItMTMvaG93LXRvLWRvLWZyYXVkLWF0LWEtZnV0dXJlc=
+y1leGNoYW5nZT9jbXBpZD1CQkQwODAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0=
+bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R=
+1ZmY/607f07ceef4b8524a319a23cB690178cd" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> this clearly fits FTX</a> =
+=E2=80=94=C2=A0<em>is=C2=A0</em>vulnerable to a bank run; if everyone asks =
+for their winnings back at once, you have to collect that money from the lo=
+sers, and in a run situation you might not be able to do that.<a class=3D"f=
+ootnote-index" href=3D"#footnote-8" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: none !important; background-color: transparent !impor=
+tant; display: inline-block;">
+<span>[8]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Binance is=C2=A0<em>obviously=C2=A0</em>in the=
+ second category, in that it is a big derivatives exchange that lets custom=
+ers make leveraged bets, but sometimes people seem confused about=C2=A0that=
+ risk. (=E2=80=9CDon=E2=80=99t borrow if you run a crypto business. Don't u=
+se capital =E2=80=98efficiently.=E2=80=99 Have a large reserve,=E2=80=9D <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/aHR0=
+cHM6Ly9jb2ludGVsZWdyYXBoLmNvbS9uZXdzL2JpbmFuY2UtY2VvLXNoYXJlcy10d28tYmlnLWx=
+lc3NvbnMtYWZ0ZXItZnR4LXMtbGlxdWlkaXR5LWNydW5jaA/607f07ceef4b8524a319a23cB77=
+15364e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">tweeted</a> Binance Chief Executive Officer Changpeng Zhao =
+after the FTX collapse, adding =E2=80=9Cwe have never taken on debt.=E2=80=
+=9D) The DOJ, though, seems concerned about it.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">VC interns</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Broadly speaking, a lot of financial-services =
+businesses involve some mix of (1)=C2=A0<em>sourcing=C2=A0</em>deals, (2)=
+=C2=A0<em>evaluating=C2=A0</em>deals=C2=A0and (3) <em>executing </em>deals.=
+ In Step 1, you build up a network of potential clients (counterparties inv=
+estors, targets, whatever), cold-call them, meet with them, build a public =
+profile so they call you, whatever. In Step 2, you look at the deals that a=
+re available to you, do the ones that you think will make you money and avo=
+id the ones that will lose you money. In Step 3=C2=A0 you structure the inv=
+estment and negotiate the contract and get the funding and the regulatory a=
+pprovals and so forth.</p>
+<p style=3D"margin: 16px 0;">If you are a senior person at any sort of fina=
+ncial-services business you are probably good at all three of these element=
+s of the job.<a class=3D"footnote-index" href=3D"#footnote-9" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: none !important; background=
+-color: transparent !important; display: inline-block;">
+<span>[9]</span>
+</a> If you are on your first day out of college at any sort of financial-s=
+ervices business, you are probably bad at all of them, but you have to star=
+t somewhere. Where do you start? If you are a very junior=C2=A0investment b=
+anker, you start mostly by learning evaluation skills (you build financial =
+models to see which deals are good) and execution skills (you populate the =
+data room). (This is also roughly how you start out in private equity.<a cl=
+ass=3D"footnote-index" href=3D"#footnote-10" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: none !important; background-color: transpare=
+nt !important; display: inline-block;">
+<span>[10]</span>
+</a>) You make pitchbooks to try to win business, sure, but that is support=
+ work; you are not going out alone to pitch clients on deals in your first =
+week. The classic Wall Street career path begins with financial=C2=A0<em>an=
+alysis</em>; once you are good enough at analysis they will let you out of =
+the building to impress clients with your charm and, also, your analytical =
+abilities. Eventually you build up enough credibility that you can spend mo=
+st of your time flying around meeting with potential clients to pitch them =
+on your talents, but at the beginning you are mostly modeling and executing=
+ deals that more senior people bring in.<a class=3D"footnote-index" href=3D=
+"#footnote-11" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ none !important; background-color: transparent !important; display: inline=
+-block;">
+<span>[11]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">It is interesting that in venture capital the =
+path is somewhat reversed, and you start out as a VC intern by cold-calling=
+ to find potential deals? Like you walk in and they hand you a phone and yo=
+u dial up tech companies and say =E2=80=9Chello would you be interested in =
+a venture capital investment=E2=80=9D until someone says yes? What if they =
+say yes? You can=E2=80=99t just give them money! You don=E2=80=99t know wha=
+t you=E2=80=99re doing! Someone more senior has to figure out if the compan=
+y is good, how much to pay for it=C2=A0and how to structure the deal. You a=
+re just there to network.</p>
+<p style=3D"margin: 16px 0;">I suppose that part of the reason for this is =
+that estimating the value of an investment in a public company is <em>reaso=
+nably=C2=A0</em>susceptible to standardized methods =E2=80=94=C2=A0there ar=
+e textbooks, you can learn how to build a discounted cash flow or leveraged=
+ buyout model and then practice doing it a lot =E2=80=94=C2=A0while estimat=
+ing the value of a pre-revenue tech startup requires more guesswork and gut=
+ feel. Also I suppose the founders of tech startups are in their 20s while =
+the VC partners are in their 50s, so the 20-something VC interns might be b=
+etter suited to network with the founders.</p>
+<p style=3D"margin: 16px 0;">Anyway Bloomberg=E2=80=99s Magdalena Del Valle=
+ has <a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.2604=
+10/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMDMvaW50=
+ZXJuLWh1bmdlci1nYW1lcy1pbi1mdWxsLXN3aW5nLXdpdGgtdmMtc2hvcC1zLXB1YmxpYy1yYW5=
+raW5ncz9jbXBpZD1CQkQwODAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cB4b05cdcd" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  a funny story on VC interns</a>=
+:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The summer interns at=C2=A0Insight Partners=C2=
+=A0are learning the firm=E2=80=99s=C2=A0number one value=C2=A0=E2=80=94 =E2=
+=80=9Chunger to win=E2=80=9D =E2=80=94 the hard way.</p>
+<p style=3D"margin: 16px 0;">The New York-based company, known for taking e=
+arly stakes in ventures like=C2=A0DocuSign Inc.=C2=A0and=C2=A0Shopify Inc.,=
+ publicly ranks its investing interns using metrics like their phone calls,=
+ emails, and meetings, according to people with knowledge of the matter. Th=
+e rankings are displayed on a so-called leaderboard for the firm, said the =
+people, who asked not to be identified because they aren=E2=80=99t authoriz=
+ed to speak about it. Some full-time employees are also ranked, they said.<=
+/p>
+<p style=3D"margin: 16px 0;">The ranking isn=E2=80=99t an automatic ticket =
+to getting a job. It=E2=80=99s one of many data points taken into considera=
+tion, including participation in meetings and attendance at =E2=80=9Clunch =
+and learns,=E2=80=9D according to a person familiar with Insight=E2=80=99s =
+hiring practices, who said interns are told not to worry about their rankin=
+g.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">They get ranked on how many cold calls they ma=
+ke! Also I love the idea of giving your interns a public ranking and tellin=
+g them not to worry about it, what a great management technique, that=E2=80=
+=99s how you keep them on their toes.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32287636.260410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDgtMDMvcmVnaW9uYWwtYmFuay1pc3N1ZXMtY3JlYXRlLW9wZW5pbmctZm9yLXB=
+yaXZhdGUtY3JlZGl0LWZ1bmRzP2NtcGlkPUJCRDA4MDMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW=
+09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMyZ1dG1fY2FtcGFpZ=
+249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB66344c86" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> Private Credi=
+t</a> Funds Move From Mergers to Timeshares and Car Loans. <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/32287636.260410/aHR0cHM6Ly93d3cuZn=
+QuY29tL2NvbnRlbnQvZmMzNmRjMDEtMjI5OS00MGY4LWEwMGMtMzI4OGZhYzFkMzdj/607f07ce=
+ef4b8524a319a23cBfc7a993d" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> Goldman Sachs</a> hit by senior departu=
+res as lower pay and overhaul take toll.=C2=A0Private Equity <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/32287636.260410/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMDMvcHJpdmF0ZS1lcXVpdHktZGV=
+hbC1kcm91Z2h0LXNwdXJzLWZpcm1zLXRvLXJhaXNlLWNhc2gtY3JlYXRpdmVseT9jbXBpZD1CQk=
+QwODAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlc=
+iZ1dG1fdGVybT0yMzA4MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319=
+a23cB1f793f13" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  Deal Drought</a> Spurs Firms to Raise Cash Creativ=
+ely.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/32287636=
+.260410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMDM=
+vc29jaWV0ZS1nZW5lcmFsZS1jZW8tc2xhd29taXIta3J1cGEtaGludHMtaGUtbWF5LXNocmluay=
+1idXNpbmVzc2VzLWluLXJldmFtcD9jbXBpZD1CQkQwODAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVka=
+XVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDMmdXRtX2NhbXBh=
+aWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB47ea7eef" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  SocGen</a>=
+ CEO Krupa Hints He May Shrink Some Businesses in Revamp. How an Ex-Goldman=
+ Banker <a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.2=
+60410/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMDMvc=
+nVzc2lhLXVrcmFpbmUtd2FyLWV4LWdvbGRtYW4tYmFua2VyLWZvdWdodC11cy1zYW5jdGlvbnMt=
+YW5kLXdvbj9jbXBpZD1CQkQwODAzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9=
+zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDMmdXRtX2NhbXBhaWduPW1vbmV5c3R1Zm=
+Y/607f07ceef4b8524a319a23cBa48d8db8" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  Fought US Sanctions</a> Over=
+ Russia =E2=80=94 and Won. =E2=80=9CWhen a legal claim against a <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/32287636.260410/aHR0cHM6Ly93=
+d3cuZnQuY29tL2NvbnRlbnQvN2Y4NWMxMDItYTZkOS00ZjRmLTk3MGEtN2VjYjljNTI0NjVh/60=
+7f07ceef4b8524a319a23cBc70d8fc9" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> well-heeled defendant</a> trades =
+in single digits, it=E2=80=99s often worth taking a second look.=E2=80=9D =
+=E2=80=9CHow do we reorganise society and management in a world where skimm=
+ing for content is something <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32287636.260410/aHR0cHM6Ly9iYWNrb2ZtaW5kLnN1YnN0YWNrLmNvbS9wL2Nv=
+cmV5LWFuZC10aGUtcm9ib3Rz/607f07ceef4b8524a319a23cB37d37385" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> everyo=
+ne just does with their phone</a>?=E2=80=9D =E2=80=9COn the bus, we sometim=
+es have branch managers and loan officers and small business tellers, and w=
+e ask them, what can we do better. We give them <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/32287636.260410/aHR0cHM6Ly93d3cuY25iYy5jb20vM=
+jAyMy8wOC8wMi9jbmJjLWV4Y2x1c2l2ZS1jbmJjLXRyYW5zY3JpcHQtanBtb3JnYW4tY2hhc2Ut=
+Y2hhaXJtYW4tY2VvLWphbWllLWRpbW9uLXNwZWFrcy13aXRoLWNuYmNzLWxlc2xpZS1waWNrZXI=
+tb24tcG93ZXItbHVuY2gtdG9kYXkuaHRtbA/607f07ceef4b8524a319a23cB2b201e2e" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> immunity and beer</a>.=E2=80=9D=C2=A0A <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32287636.260410/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vM=
+jAyMy8wOC8wMS93b3JsZC9ldXJvcGUvc3RhaXJ3ZWxsLWF1Y3Rpb24tMjVrLXBvdW5kcy5odG1s=
+/607f07ceef4b8524a319a23cBe78b12cd" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> Stairway to Nowhere</a> Sells =
+for $32,000 in London. <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/32287636.260410/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjMvMDgvMDMvcmVqZWN0ZWQtdW=
+5kZXJhZ2UtZHJpbmtlci1oaXJlcy1wcm90ZXN0ZXJzLXRvLXNtZWFyLXRoZS1tYXJrLWhvdGVsL=
+XdpdGgtd2lsZC1zaWducy1zdWl0Lw/607f07ceef4b8524a319a23cB7dff2302" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Rejected underage drinker</a> hires protesters to smear luxury NYC hotel w=
+ith wild signs: suit.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32287636.260410/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB82a876f0" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32287636.260410/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBa333d8f9" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] To be clear this is a made-up illustrative=
+ number.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] I=E2=80=99m being a little cute because in=
+ fact it=E2=80=99s not like they can go sell this electricity elsewhere at =
+market prices. But they can sell the *inputs* at market prices, which comes=
+ to a roughly similar place. (=E2=80=9CBiomass pellets =E2=80=94 unlike win=
+d, the other main renewable energy source awarded CfDs =E2=80=94 can be sol=
+d easily in a global market.=E2=80=9D) And in fact that should make you mor=
+e sympathetic to Drax: If the market price of widgets is $25 because the pr=
+ice of raw materials has gone up to $21, obviously they don=E2=80=99t want =
+to keep selling you widgets at the $20 contract price. Though Drax=E2=80=99=
+s situation is better than that: =E2=80=9CFor years, Drax had imported pell=
+ets from the US using its own production facilities and long-term contracts=
+ with other suppliers, locking in a cost of about $181 per ton for much of =
+its fuel. In April 2022, the company could sell such pellets for an almost =
+70% markup, according to data provided by the market research firm Argus Me=
+dia Ltd. Profits from those sales would not be capped.=E2=80=9D Also: =E2=
+=80=9CThe government took a limited approach to using CfDs for biomass; it =
+approved only one of Drax=E2=80=99s available generators, Unit 1, for a dea=
+l to begin in December 2016. Drax also converted three other units, which c=
+ontinued collecting subsidies from the earlier initiative, which is limited=
+ to about =C2=A3650 million per year. Last year, Drax increased output at t=
+hose three generators, which aren=E2=80=99t required to send money to consu=
+mers.=E2=80=9D Basically they can shift production between the capped-and-f=
+loored CfD generator (subsidized when prices are low) and the uncapped non-=
+CfD generators (lucrative when prices are high).</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Most actual mandates are more nuanced than=
+ this and don=E2=80=99t force you to dump stuff instantly, but you get the =
+idea.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] The intuition here is that if a country=E2=
+=80=99s sovereign debt is rated BB, there is enough shakiness in its econom=
+y and institutions that none of its companies can really be AAA, so a count=
+ry ceiling will tend to track the sovereign rating. But it doesn=E2=80=99t =
+have to match exactly.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] I am not sure that this is strictly necess=
+ary; in the right conditions I suppose you could make the product as expens=
+ively as the incumbent, or more so, but just underprice it. Ideally you wou=
+ld be building a sustainable long-term business and use the short sales as =
+sort of early-ish-stage capital, but I guess you could go in other directio=
+ns.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] There is <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/32287636.260410/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQ=
+vYjBiZWI4MDMtMTFjZC0zZTQ4LTgxNzUtMTg4MWVkOTkzYzJk/607f07ceef4b8524a319a23cB=
+9f541b6e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> this story</a> of a funeral-services-price-comparison co=
+mpany shorting a big funeral-services firm in small size, but that=E2=80=99=
+s not really the same thing.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] I think in the abstract the answer is no: =
+If this is your business model, you are not violating any obligations to an=
+yone. But in the real world there might be complications around misappropri=
+ating, like, customer data to inform your short.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] Particularly not if the biggest loser is y=
+our affiliated trading firm, as was the case at FTX.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] If you are bad at one it is execution, whi=
+ch is probably the easiest to specialize and outsource.</p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] In the sense that the first-day-out-of-co=
+llege job for most private equity professionals is being an investment bank=
+ing analyst. Still even when you do start in PE you are probably doing a fa=
+ir amount of modeling and execution.</p>
+</div>
+<div id=3D"footnote-11" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[11] Sometimes banks partially reverse this by=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDctMDYvY3Jl=
+ZGl0LXN1aXNzZS1hbmFseXN0LXJlYWxseS1icm91Z2h0LWluLWNsaWVudHM_Y21waWQ9QkJEMDg=
+wMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdX=
+RtX3Rlcm09MjMwODAzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23c=
+B777e9f0f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">  hiring the young adult children of important clients a=
+s junior bankers</a>, not because they are good at financial modeling but b=
+ecause they are (presumably) good at bringing in their parents=E2=80=99 bus=
+iness. But people get mad about this; it=E2=80=99s not how it=E2=80=99s sup=
+posed to work.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB8545a555" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB059040e6" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB5188fa15" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB27734ff6" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBa81240dd" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.2604=
+10/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBdf63a2a2" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32287636.260410/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCb55e5d62" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32287636.260410/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB6e694227" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32287636.260410/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB0586adaa" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBb=
+b699354" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32287636.260410/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB0=
+3b3f55e" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj81as.5kxm/bacbdc17.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8983518_1725499352.1691085171485--
+

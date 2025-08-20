@@ -1,0 +1,2377 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4e10:0:b0:1f2:501d:c564 with SMTP id q16csp1955881lko;
+        Mon, 13 Jun 2022 10:53:37 -0700 (PDT)
+X-Received: by 2002:a05:600c:354c:b0:39c:7e86:6ff5 with SMTP id i12-20020a05600c354c00b0039c7e866ff5mr16154726wmq.145.1655142817324;
+        Mon, 13 Jun 2022 10:53:37 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1655142817; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=jh8gTwL2kGWds8EuXVMRnUfadkX25FblPBWHmWxxrFRqZWL1o/Blhbutc0owTExkT7
+         aeYU/UxakHjQbwYcuF59we+p13NJeVxd/S1v2K5rm7x9GNAVdL7luuleYg9a0jMu/cRh
+         YzMBXWYc2IuPF6YkuiA7XZJ7EkmDOjHgTCRQBdnHwJMum9oNqyFYcPpl3qEwcJzSV3uc
+         UVqCtM6c4llx3CTy4V/vDfu5YDyo8hZoqpmGUkYmEWsubFbtj1EwXjow+vmwL/7sbTyr
+         YqoKCmm/hAIKj9nHp16+3CXj2g+ffE43uhVTyJRcsxh/0aEllwmtu7GmOfREfbAiW56z
+         niXg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=PXjMAfnd6vXo+tPXw70sp3yFIsM3SXR+uPZls/wDJeU=;
+        b=psFyJDnJis9PSHmRadaFlXZb2g4gr1DAQFEYu2otsRKAQlLdRSk0D2kJnkxTD6VqWU
+         It1X5y9XVB6LWk+ExV0NL4ag/qfqFsKMSP1ZLi/77qtXk8eEu9MME+UvJORwluEjMjmi
+         r1rGWCdowYh2iwYT1Xi74NKfqOanSTlTOMJntQ2k81cu/kIqFKwh0qVwFh0UT9wd/zYH
+         GZA1IU44FuhtHErGC3owkQWu8a31d3FLquRb4WtQfmJ+xvn/DJ7yLrnf/ijFP+IXrjA7
+         t9EPgDbYwebSFCHaR0f7WMUHvdXY/tKMUFEmlfYdbQ4NATMiJS0Bg+a3qtQk4CBrFlKf
+         LygA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=RHL3FweY;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id o17-20020adfe811000000b00210233d7149sor2970554wrm.16.2022.06.13.10.53.37
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 13 Jun 2022 10:53:37 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=RHL3FweY;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=PXjMAfnd6vXo+tPXw70sp3yFIsM3SXR+uPZls/wDJeU=;
+        b=cE2rrfXxpp8XFOd80u0zIAUbqLfz0h6dBf7r0WmzWYS6ksz8+d6tROMn8Ypbhqiaid
+         b7ce+INmbgXaos3L9gVq+wmgnPZJOU2ls9lQiBGrmx5M7qJFendI5LDOquAq9g0IA5j/
+         njS/mF8EETIMwZIIEIOuseP0gbn+lj4YfRxBlJhwy78wg8b1JdkxULBfv7/kTN2xJ4pg
+         vl6IXX0gyfvL54ZT15YYdRSmpJmvKcMmCvlNzgDlprNgkYOaUMbuOQ5E51JXmBQHG66O
+         i7KN3O0J0kMImZXgcKC6BITwRA9JgMeW03sMyiZ4/zheUGj8FkSIAk0PRxxSZFZN8JN/
+         LYOg==
+X-Gm-Message-State: AJIora/i5U5s4dKLof07HMkQg2eoYzrl1VcG/MazD+dljwmtV+ocvfMG
+	kTtHgSwUqN6Q5tUSQW9qWd6bJqNk9AzsFUHqxB4G2mBcb1afc7shEQ==
+X-Received: by 2002:a05:6000:1888:b0:218:3fab:c510 with SMTP id a8-20020a056000188800b002183fabc510mr941590wri.473.1655142816856;
+        Mon, 13 Jun 2022 10:53:36 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:470d:0:0:0:0:0 with SMTP id y13csp1017094wrq;
+        Mon, 13 Jun 2022 10:53:33 -0700 (PDT)
+X-Received: by 2002:a67:ec4b:0:b0:349:f018:892b with SMTP id z11-20020a67ec4b000000b00349f018892bmr348817vso.20.1655142812934;
+        Mon, 13 Jun 2022 10:53:32 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1655142812; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=SIMvOPQr18PzNAZQU2D3qINoHHxEJRkV1przoavDFgIXj569TPxVlq1ERzI9nASs5k
+         ArfG4xAXl1SqGh6PkD8ILZRf1mU0tIfdGxaTjtBMOYLj9VQwA8RMCHnM5mAVsXFdzChl
+         XWuoQoheBIvUmCxoNa0PwFzpyFAwl+u26UgvFhAMihEC1+w3Dr2cCJDkZyLpp7/9pA//
+         2gqeEYq3JbLd13XvlO1urwuk6fOVNz3cP25xOdkZdDpurXgruL/wN5wlyoo/1LgkEzaD
+         ZSrFz2ZYptgFzwruYX5OLblSDs2W6swKCeJjzerdKAlS9tThng+jSjrdLrJY70qKphcJ
+         ZMow==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=PXjMAfnd6vXo+tPXw70sp3yFIsM3SXR+uPZls/wDJeU=;
+        b=ivtLcFcYewP228w6ST0SE1yAC/mjzpp6UeTcK9vOy2dHsscZsht419IvRP2j5nCouZ
+         kXFXxWT/OkTYbCqcDQvSzEKnUU62B7UTQbj8J85ANcd+AtjiDwkA8lq7jQ5rmVfbX5u5
+         N6CwB63ly2UkaSXD5yiy9QuqfGbYg8pR//vIzLUEBjis5CrGQt+2eJugShn/yv4cTSUy
+         oKG1Qv0/zMiCkXYSxvhIxFG2C/caHgSXUamfkWKHmwrLl5Lmpb2b9yL1dLWMCY3XbK57
+         LN5U3alpQWmBOhzrpxTKJCkzFSpn2rwGw2oQ/9w8cIn8Hhc/xOR9enj6VA5hn9LVdsGv
+         33oQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=RHL3FweY;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220613135151.28041567.268603@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220613135151.28041567.268603@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220613135151.28041567.268603@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x16-20020a67fc90000000b003378b079d43sor1893352vsp.5.2022.06.13.10.53.32
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 13 Jun 2022 10:53:32 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220613135151.28041567.268603@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGRyM1vmU1Chr/WWRXlF5/J0ttYbb+84XrHS/qBOGt8mmyq3D8mbWb02LFrehJ8xhsQKAIiIfseMKxlLIPQlOcbh+4JrebGDAek=
+X-Received: by 2002:a05:6102:30ab:b0:349:eab0:fda1 with SMTP id y11-20020a05610230ab00b00349eab0fda1mr172511vsd.14.1655142812568;
+        Mon, 13 Jun 2022 10:53:32 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1655142812; cv=none;
+        d=google.com; s=arc-20160816;
+        b=J/xfj+m2oedGc6Elnwl62whZ9nYZTgqDJDzogMVXCMg8ZOGOivi/DcAsV2VMD40C69
+         qwvWEril7q7zJikqLpbxaZSVrFzvXtP2LrQRzNUKel/iEXdhU4cbjF8q8vH537gF4bnK
+         fWo4a8PraZGlXNDezz0sRjHlvJ4BBvIKuGYHakxmdcgBojTbmklLtThknKAM8jiZjlA6
+         pzLH5UG0OOYMtRyGSHR/s48pnCT7VsIGpIxuqPk8J+0IN7fM3Y+eR//O3jZCgczeUZ/Q
+         FgdfMP1Kp+YDsGcV+us0FsEPHYffqf9GdlRL8M54OYRXLao1TqlqJR+hupypfF/jHIAl
+         jsIA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=PXjMAfnd6vXo+tPXw70sp3yFIsM3SXR+uPZls/wDJeU=;
+        b=y0tyHlbMFHYjyKam5dB7AZ+Wfvafa2fOhkTkKamVCtqy6uQHUSOnJ/xQC0aJdJyQVx
+         uGMNIQl7EyYJIRefOik3tJ8FGgaX1hyGEJoRFKiAsUrFKLYyf1wbQWmh8QAgw6yxJRNH
+         08p87Jc3mKSUrK/x/27U+UYj/rbxGvzhFbbz6luDYX/+XCth97ZRtNQGb7mbj6KJ5AlD
+         e7P/VV5NZ/rPTtnjIKniPVMTEq6uxXMuIfy9LsJaafWfKnvfaasbPCMxNbJiEF8IcPXq
+         38yot46ChhOiwLeXo45EBgK7MZy2esLZrlwCB8wSdvTuOGIRfZ7gDbHj5SbRVNJSo+jl
+         VOgQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=RHL3FweY;
+       spf=pass (google.com: domain of delivery_20220613135151.28041567.268603@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220613135151.28041567.268603@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220613135151.28041567.268603@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id l42-20020a056122202a00b0032cd88afa9asi533397vkd.3.2022.06.13.10.53.17
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 13 Jun 2022 10:53:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220613135151.28041567.268603@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=R9Qi1fR1xOqDW3Ob+6cyZ8XQQDK7/yKmR7ZuTwgHcJ0=;
+ b=RHL3FweY2Wse0bDuoVo+i/chE6SJCJhC5qUw2KPCQb9ZrGTaQBV7uoybo+u8HTdFIIvXpS1BdVYD
+   H1MmsUMlS8PfPg6ZGWZdEqWy9nUm5mQlw0lmPwxAUSMLFDfVcN3A65uyd+5Wtml0EvRuX1k9y/lb
+   vh+htHk02K723n32G9Q=
+Received: from njmta-180.sailthru.com (173.228.155.180) by bloomberg-b.sailthru.com id hktsos2tkt0m for <bloomberg@khamel.com>; Mon, 13 Jun 2022 13:53:11 -0400 (envelope-from <delivery_20220613135151.28041567.268603@mx.sailthru.com>)
+Received: from nj1-oldjam.flt (172.18.20.35) by njmta-180.sailthru.com id hktsoc1qqbs6 for <bloomberg@khamel.com>; Mon, 13 Jun 2022 13:51:51 -0400 (envelope-from <delivery_20220613135151.28041567.268603@mx.sailthru.com>)
+Date: Mon, 13 Jun 2022 13:51:51 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220613135151.28041567.268603@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IE1lcmdlciBCdXllcg==?=
+ =?utf-8?B?4oCZcyBSZW1vcnNlIFNvbWV0aW1lcyBXb3Jrcw==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_68074820_1576920287.1655142711572"
+Precedence: bulk
+X-Feedback-ID: 6358:28041567:campaign:sailthru
+X-TM-ID: 20220613135151.28041567.268603
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oldjam.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgp10f.5r97/ce5deaf7
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgp10f.5r97/ce5deaf7>, <mailto:unsubscribe_20220613135151.28041567.268603@mx.sailthru.com>
+X-rpcampaign: stjko28041567
+
+------=_Part_68074820_1576920287.1655142711572
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        AnaplanThe way public-company mergers and acquisitions generally wo=
+rk is that you sign a merger agreement, where the buyer promises to pay s
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Anaplan
+   =20
+ =20
+The way public-company mergers and acquisitions generally work is that you =
+sign a merger agreement, where the buyer promises to pay some agreed price =
+for the target company, and then you have to wait months before the deal cl=
+oses and the buyer delivers the money. During this waiting period, the buye=
+r and target are doing things like getting a shareholder vote, getting anti=
+trust and other regulatory approvals, and finalizing the buyer=E2=80=99s fi=
+nancing. Most of the time, mergers are happy events: Everyone is excited fo=
+r the deal when they sign the deal, and they remain excited for the deal du=
+ring the waiting period, and they are excited to close the deal at the end.=
+=C2=A0Sometimes not though. Sometimes the world changes between signing and=
+ closing. In particular, sometimes the market crashes between signing and c=
+losing, due to inflation or war or bubbles popping or=C2=A0deadly pandemics=
+ or what have you. Before the crash, it seemed like a good idea to the buye=
+r to pay $100 per share for the target, and it seemed like a good idea for =
+the target to accept. After the crash, $100 seems a bit rich. The buyer wou=
+ld prefer not to pay that much, and the target =E2=80=94=C2=A0while perhaps=
+ sympathetic, in the abstract, to the buyer=E2=80=99s regret =E2=80=94=C2=
+=A0will really want that $100. After all, it signed a deal to sell before t=
+he crash! Its timing was good! It should get the benefit of that deal.[1]Pu=
+blic-company merger agreements are very clear about the allocation of risk =
+here, and generally this risk is allocated to the buyer.[2] The buyer has n=
+o right to get out of the deal because markets went down. Generally the buy=
+er can get out of the deal if there is a =E2=80=9Cmaterial adverse effect=
+=E2=80=9D on the target, but that term is always defined to=C2=A0exclude ef=
+fects resulting from =E2=80=9Cgeneral economic, regulatory or political con=
+ditions=E2=80=9D or conditions =E2=80=9Cin the financial, credit or securit=
+ies markets.=E2=80=9D[3] The risk of the market going down is on the buyer.=
+Still if you are the buyer, and the market goes down, you will=C2=A0want to=
+ get out of the deal. Or you might still like the=C2=A0deal=C2=A0=E2=80=94=
+=C2=A0you might still want to own the target company =E2=80=94=C2=A0but=C2=
+=A0regret the price. And you might crack open the merger agreement and ask:=
+ Well, okay, we can=E2=80=99t get out of the deal for a market crash, but c=
+an we get out for some=C2=A0other=C2=A0reason?We have, for reasons,  talked=
+ a  lot  about this question recently. You might naively think that you cou=
+ld comb through the =E2=80=9Crepresentations and warranties=E2=80=9D in the=
+ merger agreement =E2=80=94=C2=A0factual statements about the target=E2=80=
+=99s business that it promises are true =E2=80=94=C2=A0to find one that is =
+wrong, and use that as a way out of the deal. After all, if the company tol=
+d you that it sold 10,000 widgets last year, and it only sold 9,998, then y=
+ou are not getting what you agreed to and you should be able to get out of =
+the deal.But in practice merger agreements are not set up that way. If a re=
+presentation is wrong, the buyer can generally only get out of the deal if =
+it would have a =E2=80=9Cmaterial adverse effect,=E2=80=9D a very high stan=
+dard. Rampant fraud might count; the business being half as valuable as you=
+ thought might count; 9,998 widgets instead of 10,000 would not. Merger agr=
+eements are designed to=C2=A0prevent=C2=A0a buyer from walking away over so=
+me trivial misrepresentation.The=C2=A0more promising approach is to comb th=
+rough the =E2=80=9Ccovenants=E2=80=9D in the merger agreement, things that =
+the target promises to do between signing and closing. If the target breach=
+es a=C2=A0covenant, you can get out of the deal=C2=A0without=C2=A0a materia=
+l adverse effect: The company has to live up to its promises. =E2=80=9CAs c=
+losing conditions for the merger, representations are qualified by MAE, but=
+ covenants by =E2=80=98in all material respects,=E2=80=99=E2=80=9D  I had o=
+ccasion to write last week.There are two main kinds of covenant:=09The targ=
+et promises to do things to get the deal done: solicit the shareholder vote=
+, seek regulatory approvals, help out with marketing any buyout debt, give =
+the buyer information so it can get ready to run the business, etc.=09The t=
+arget promises=C2=A0not=C2=A0to do anything crazy: It has to run its busine=
+ss =E2=80=9Cin the ordinary course consistent with past practice,=E2=80=9D[=
+4] and it generally agrees to limits on things like new business lines, hir=
+ing,=C2=A0executive bonuses, stock issuance, etc. The target has agreed to =
+sell itself, so its lame-duck managers are=C2=A0basically in the business o=
+f acting as=C2=A0caretakers for its future owners; they can=E2=80=99t make =
+any big changes before the new owners show up.In theory you could claim a b=
+reach of=C2=A0either one, and nervous buyers=C2=A0do.=C2=A0Back in the spri=
+ng of 2020, the Covid-19 pandemic made some buyers regret the deals they ha=
+d struck: If you agreed to buy a mall retailer in late 2019, and before the=
+ deal closed every mall was shut down for an unknown period of time due to =
+a deadly pandemic, you might want to get out of your deal. But =E2=80=9Ca d=
+eadly pandemic has ruined the target=E2=80=99s business=E2=80=9D is very, v=
+ery, very much the sort of general risk that is allocated to the buyer in a=
+ public-company merger, so you can=E2=80=99t. But buyers got creative and r=
+ealized that the pandemic could create a=C2=A0covenant breach:=C2=A0The tar=
+get certainly could not run its business =E2=80=9Cin the ordinary course co=
+nsistent with past practice=E2=80=9D if it was closing all of its stores du=
+e to a pandemic, so=C2=A0that could be a way out of the deal. And in fact  =
+this happened in Sycamore Partners=E2=80=99 deal to buy Victoria=E2=80=99s =
+Secret, and it (somewhat shockingly) worked: The seller let Sycamore out of=
+ the deal to avoid going to court over this.It's been a tough few months fo=
+r tech stocks, and some number of buyers=C2=A0are regretting their choice t=
+o buy tech companies at pre-April-2022 prices. For instance, Sujeet Indap a=
+t the Financial Times reports:Thoma Bravo has successfully pressured softwa=
+re company Anaplan to cut the $10.7bn price at which it is selling itself t=
+o the private equity firm, in one of the largest buyout deals to be renegot=
+iated since this year=E2=80=99s market turmoil began.California-based Anapl=
+an disclosed on Friday that Thoma Bravo had asserted that the company had v=
+iolated its merger agreement by overpaying new workers, leading the enterpr=
+ise software group to agree to a 3 per cent reduction in the price of the b=
+uyout.The buyer and seller had already announced four days earlier that the=
+ deal price of $66 per share, first announced in March, had been reduced to=
+ $63.75, to resolve a condition of closing the deal that may not have been =
+satisfied.But Friday=E2=80=99s filing offered fuller details of a dispute t=
+hat erupted privately in May between Anaplan and Thoma Bravo, which has eme=
+rged as one of the dominant buyout groups that focus on technology.=C2=A0He=
+re is that filing, with an amended =E2=80=9CBackground of the Merger=E2=80=
+=9D section that spells out exactly how Thoma Bravo retraded its deal with =
+Anaplan Inc. One assumes that Anaplan=E2=80=99s lawyers took the lead in dr=
+afting this, and were not too interested in Thoma Bravo=E2=80=99s input; th=
+e result is a section that is blunt and somewhat sulky about Thoma Bravo=E2=
+=80=99s excuses. Basically Anaplan thought it had a deal to continue operat=
+ing in the ordinary course of business, which included hiring people and pa=
+ying them; Thoma Bravo got a list of new equity awards, balked, threatened =
+to walk away and asked for a price cut. The difference was small =E2=80=94 =
+the original merger agreement provided for $105 million of awards; Anaplan =
+wanted to pay out $137 million =E2=80=94=C2=A0but it was enough for Thoma B=
+ravo to cause trouble[5]:Later on June 3, 2022, [Anaplan Chief Executive Of=
+ficer Frank]=C2=A0Calderoni and a representative from Thoma Bravo held a te=
+leconference to discuss the concerns raised by Thoma Bravo. Mr. Calderoni e=
+xplained that the Anaplan Board determined that there was no basis for Thom=
+a Bravo to reprice or refuse to close the Merger, and that the Anaplan Boar=
+d had rejected any openness to engaging on a discussion of repricing the tr=
+ansaction. The representative from Thoma Bravo thereafter stated that its p=
+roposed equity and debt financing sources for the Merger remained concerned=
+ about the Disputed Matters and the resulting effects on Anaplan following =
+the closing, particularly in light of the deterioration in the financial ma=
+rkets, and that for those financing sources to be willing to fund the Merge=
+r and to compensate Thoma Bravo for the Disputed Matters, the price per sha=
+re would need to be reduced to $61.00. Mr. Calderoni noted that the Origina=
+l Merger Agreement is not subject to any debt financing closing condition, =
+and Mr. Calderoni reiterated the Anaplan Board=E2=80=99s position that that=
+ there was no basis for Thoma Bravo to refuse to close the Merger or reques=
+t a price reduction.=C2=A0=E2=80=9CMr. Calderoni noted that the Original Me=
+rger Agreement is not subject to any debt financing closing condition=E2=80=
+=9D: Thoma Bravo has no contractual=C2=A0right=C2=A0to walk away if its deb=
+t financing disappears, but that would be a mess, so it=E2=80=99s a useful =
+threat.[6]Anaplan=E2=80=99s board was annoyed, but also intimidated: The ma=
+rket=C2=A0had=C2=A0dropped, and fighting this would be risky:On the morning=
+ of June 4, 2022, members of Anaplan management held a teleconference with =
+representatives of Goldman Sachs and Qatalyst Partners to discuss the Dispu=
+ted Matters. Anaplan management informed the representatives of the reduced=
+ $61.00 per share price proposed by Thoma Bravo. Representatives of Goldman=
+ Sachs and Qatalyst Partners provided their views that the conditions in th=
+e financial markets had deteriorated since the time of the signing of the O=
+riginal Merger Agreement, and that the trading prices of peer companies of =
+Anaplan had recently declined substantially in the public equity markets. R=
+epresentatives of Goldman Sachs and Qatalyst Partners discussed their preli=
+minary views of Thoma Bravo=E2=80=99s proposed per share price change and d=
+iscussed their views that if the dispute was not resolved in Anaplan=E2=80=
+=99s favor, the potential termination of the Original Merger Agreement coul=
+d have a significant negative impact on the trading price of the Anaplan co=
+mmon stock. Anaplan management discussed with representatives of Goldman Sa=
+chs and Qatalyst Partners that, should these conditions in the financial ma=
+rkets continue to exist, the potential for a transaction with another prosp=
+ective bidder at a price near $66.00 per share in such situation would be u=
+nlikely.So they agreed to the retrade, though they managed to negotiate Tho=
+ma Bravo up to $63.75, a price cut of $2.25 per share, or 3.4%,=C2=A0or abo=
+ut $400 million total. They also expressed their annoyance, to Thoma Bravo =
+and in the proxy statement:Mr.=C2=A0Calderoni repeated the determination by=
+ the Anaplan Board there was no basis for Thoma Bravo to refuse to close th=
+e Merger, and as a result Thoma Bravo had no basis to request a price reduc=
+tion. Mr.=C2=A0Calderoni noted that Thoma Bravo or its financing sources ap=
+pear to now have buyer=E2=80=99s remorse in light of the deterioration of t=
+he financial markets, and that Thoma Bravo had been seeking information fro=
+m Anaplan to seek a basis to assert violations of the Original Merger Agree=
+ment in order to seek to=C2=A0re-negotiate=C2=A0the purchase price. Mr.=C2=
+=A0Calderoni also asked the representative [of Thoma Bravo] to justify the =
+magnitude of the proposed price reduction in relation to the economic impac=
+t of the Disputed Matters. Mr.=C2=A0Calderoni noted that the risk of protra=
+cted litigation could be damaging to both Thoma Bravo and Anaplan, and as a=
+ result, the Anaplan Board indicated it would consider, at most, a modest p=
+rice decrease and only if Thoma Bravo provided substantially enhanced commi=
+tments relating to the certainty and timing of the closing of the Merger.Ar=
+guably the interesting takeaway here is what Anaplan got in exchange for th=
+e price cut, those =E2=80=9Csubstantially enhanced commitments relating to =
+the certainty and timing of the closing.=E2=80=9D Basically Anaplan said: O=
+kay, you got us, you have found some arguable excuse for repricing this dea=
+l, and we are going to give you some money for it. But you can never do it =
+again: If we renegotiate down to $63.75, you have to really close at $63.75=
+.Throughout the night of June 5, 2022, representatives of Anaplan managemen=
+t, Thoma Bravo, Gunderson, Skadden, Kirkland and Cadwalader reached an agre=
+ement upon the terms of a proposed Amendment, subject to the approval of th=
+e Anaplan Board. The proposed Amendment provided for (i) the reduction of t=
+he purchase price from $66.00 per share to $63.75 per share, (ii) limitatio=
+n of closing conditionality related to compliance with Anaplan=E2=80=99s co=
+venants to apply only to Anaplan=E2=80=99s willful breach of its covenants =
+occurring after the date of the Amendment that are material to the proposed=
+ transactions, taken as a whole, (iii) limitation of the closing condition =
+regarding absence of a material adverse effect on Anaplan only to events oc=
+curring following the date of the Amendment, (iv) a waiver of the closing c=
+onditions relating to Anaplan=E2=80=99s representations and warranties, (v)=
+ waivers with respect to all outstanding claims prior to the signing of the=
+ Amendment, including the Disputed Matters, that Thoma Bravo might have, wh=
+ether known or unknown, and (vi) an increase in the termination fee payable=
+ by Parent if it fails to timely close the transaction following approval o=
+f Anaplan=E2=80=99s stockholders from $586,245,000 to $1,000,000,000.That i=
+s: Anaplan agreed to reprice the deal, but in exchange Thoma Bravo agreed t=
+hat it can=E2=80=99t get out of the deal for any reason =E2=80=94 a false r=
+epresentation, a breached covenant, a material adverse effect =E2=80=94=C2=
+=A0that occurred=C2=A0before last week=E2=80=99s repricing, and even a=C2=
+=A0future=C2=A0covenant breach is only an excuse if it is =E2=80=9Cwillful=
+=E2=80=9D=C2=A0and =E2=80=9Cmaterial to the proposed transactions, taken as=
+ a whole.=E2=80=9D=C2=A0Just paying some extra bonuses would no longer be a=
+n excuse. Also it almost doubled the breakup fee that Thoma Bravo will have=
+ to pay if somehow it does slip away.Anyway I am telling you all this becau=
+se =E2=80=A6=C2=A0it is interesting? Because I used to be a mergers-and-acq=
+uisitions lawyer, and miss it? Because there has been a certain uptick in p=
+ublic interest in merger-agreement remedies in recent weeks? Because a long=
+-running theme of this column is that smart repeat players in the financial=
+ industry can extract value from their counterparties by clever and aggress=
+ive reading of contracts, and while =E2=80=9Cuse a small covenant breach as=
+ a wedge to renegotiate a deal after the market has crashed and you have bu=
+yer=E2=80=99s remorse=E2=80=9D isn=E2=80=99t the cleverest=C2=A0bit of cont=
+ract reading, it is within the rules of the game, and one can grudgingly re=
+spect Thoma Bravo for finding a way to save $400 million for its investors =
+in a softening market. (Though Thoma Bravo=C2=A0is=C2=A0a repeat player, an=
+d if I were a software company considering selling myself to them, I would =
+be a lot more careful after this deal.)But, yes, also I am telling you all =
+this because of Elon Musk=E2=80=99s deal to buy Twitter Inc. for $54.20 per=
+ share. Musk is also trying to wriggle out of that deal =E2=80=94=C2=A0or a=
+t least reprice it =E2=80=94=C2=A0because the market has gone down and he t=
+hinks he=E2=80=99s overpaying; he is also  flailing around for  transparent=
+ly silly excuses to get out of it. And it might work! I mean, I think Twitt=
+er=E2=80=99s legal position is pretty solid, but the market seems to be wit=
+h Musk: Twitter=E2=80=99s stock closed last week at $38.98, which does not =
+reflect much optimism that Musk is going to close at $54.20, despite his co=
+ntractual obligation to do so.One problem with renegotiating the deal is, y=
+ou are left with a renegotiated deal with Elon Musk, who changes his mind a=
+ lot. I  wrote last month:Or Twitter can do what he actually wants, which i=
+s renegotiate the deal at a lower price.=C2=A0But what good will=C2=A0that=
+=C2=A0do? What does Twitter get from signing a new merger agreement with hi=
+m at, say, $42 per share?=C2=A0He has not lived up to any of his agreements=
+ with Twitter =E2=80=94=C2=A0the standstill, the=C2=A0non-disparagement cla=
+use=C2=A0of the merger agreement, apparently=C2=A0a=C2=A0nondisclosure agre=
+ement, the merger agreement itself=C2=A0=E2=80=94=C2=A0and he=E2=80=99s not=
+ going to live up to a repriced merger agreement unless he feels like it. A=
+n agreement with Elon Musk is worthless, as Twitter has learned over and ov=
+er again.=C2=A0But that was a bit hyperbolic, and Anaplan points to a plaus=
+ible=C2=A0path forward:=09Give Elon a lower price. (Preferably not $42: Ana=
+plan agreed to a 3.4% discount, big enough for the buyer to feel like it go=
+t something, but small enough not to be a disaster for the board.)=09More o=
+r less waive all other closing conditions =E2=80=94=C2=A0you get one renego=
+tiation, but then you have to close no matter what.[7]=09Increase the break=
+up fee to, like, $20 billion.[8]That said this is a very annoying outcome! =
+Thoma Bravo basically charged Anaplan $400 million for something =E2=80=94=
+=C2=A0closing certainty =E2=80=94=C2=A0that it was already legally obligate=
+d to provide. You can see why the board agreed to do this, to reduce risk a=
+nd headaches, but they can=E2=80=99t have been happy about it. It is not so=
+mething that any other companies will=C2=A0want=C2=A0to emulate. But some m=
+ight have to.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Celsius
+   =20
+ =20
+Last year Ryan Selkis, the founder of crypto research firm Messari, tweeted=
+ that =E2=80=9Ccrypto is Occupy Wall Street but with money and solutions.=
+=E2=80=9D Bloomberg=E2=80=99s Joe Weisenthal replied to ask =E2=80=9Cwhat a=
+re the solutions,=E2=80=9D and I jumped in to make some jokes. =E2=80=9CAt =
+a high enough level,=E2=80=9D I tweeted, =E2=80=9Cthe problem was =E2=80=98=
+banks stole my money=E2=80=99 and the solution is =E2=80=98hackers will ste=
+al your money instead.=E2=80=99=E2=80=9DWeirdly, I think about this exchang=
+e a lot. I agree with Selkis=C2=A0that some of the appeal of crypto comes f=
+rom deep suspicion of the traditional banking system in the aftermath of th=
+e 2008 financial crisis. Banks were meant to be safe places where people co=
+uld put their money, and it turned out that the banks were doing weird risk=
+y stuff with that money. The weird risky stuff incurred losses, and those l=
+osses were socialized =E2=80=94=C2=A0the government stepped in to bail out =
+the banks =E2=80=94=C2=A0in ways that people found surprising and upsetting=
+=C2=A0and unfair. One popular reaction to the crisis was to call for banks =
+to take fewer risks with depositors=E2=80=99 money, to be safer and less le=
+veraged and more transparent. Another popular reaction=C2=A0was to become s=
+uspicious of the banking system entirely, and crypto =E2=80=94=C2=A0a finan=
+cial system that does not rely on banks and that is philosophically less le=
+vered than the traditional financial system =E2=80=94=C2=A0helped meet the =
+demand for something else.But I also think that often the way crypto works =
+in practice is to take the problems of the banking system and=C2=A0make the=
+m much=C2=A0worse. If you don=E2=80=99t like the financial system making le=
+veraged speculative bets with your deposits, you might find yourself puttin=
+g your money in some entirely unregulated crypto bank whose=C2=A0entire pur=
+pose=C2=A0is to make leveraged speculative bets with your money. Maybe that=
+ will work out great for you? I guess the good news is that if it works out=
+ poorly, the losses won=E2=80=99t be socialized in quite the same way they =
+were in 2008. The Federal Reserve and the US government are not going to ba=
+il out some crypto lending project. You=E2=80=99ll just lose your money.=C2=
+=A0Here is Alex Mashinsky, the founder of=C2=A0crypto banking thingy Celsiu=
+s Networks LLC, quoted in a  Bloomberg Businessweek article from this Janua=
+ry:Mashinsky told Bloomberg Businessweek that Celsius is able to pay such h=
+igh yields because it passes along most of its earnings to its users. He sa=
+id it=E2=80=99s the traditional financial system that=E2=80=99s ripping peo=
+ple off by taking their deposits, using them to make money, and then claimi=
+ng it can only pay tiny interest rates. =E2=80=9CSomebody is lying,=E2=80=
+=9D Mashinsky said. =E2=80=9CEither the bank is lying or Celsius is lying.=
+=E2=80=9DThis schtick works:In testimonials posted last year on Twitter as =
+part of a contest in which customers shared their =E2=80=9CCelsius Story,=
+=E2=80=9D many said they had entrusted Celsius with their life savings. One=
+ said he took out home equity and cashed in his work pension and his saving=
+s for his kids=E2=80=99 education to put the money into the company=E2=80=
+=99s accounts. Another said it let him quit his job to move closer to his k=
+id. One entry read: =E2=80=9CI don=E2=80=99t trust the banking system, but =
+I trust #Celsius.=E2=80=9DAs that article explains, the basic idea of Celsi=
+us is that you can deposit your cryptocurrencies with Celsius =E2=80=94=C2=
+=A0essentially, lend them to Celsius =E2=80=94=C2=A0and it will pay you a p=
+retty high interest rate, or an even higher interest rate if you=E2=80=99ll=
+ accept payment in its own CEL token. Or you can borrow cryptocurrencies fr=
+om Celsius and pay it interest.=C2=A0Think about possible explanations for =
+how=C2=A0Celsius could offer a higher interest rate on deposits than your l=
+ocal bank:=09The bank is lying.=C2=A0=09Celsius is lying.=09Celsius is maki=
+ng=C2=A0riskier loans=C2=A0than your bank, which carry higher interest rate=
+s. Functionally, if Celsius is lending out cryptocurrencies, it is lending =
+them to crypto speculators who want to make leveraged bets on those currenc=
+ies. In particular, if it is lending out Bitcoins or other volatile cryptoc=
+urrencies, it is lending them to people who want to short those cryptocurre=
+ncies; if it is lending out stablecoins, it is lending them to people who w=
+ant to get leveraged=C2=A0long=C2=A0volatile cryptocurrencies. Making lever=
+aged speculative bets on volatile assets with limited trading histories=C2=
+=A0is=C2=A0riskier=C2=A0than, you know, lending people money to buy houses,=
+ and so it carries a higher interest rate, which Celsius can pass on to its=
+ depositors. But it also means that those deposits are riskier: If Celsius =
+doesn=E2=80=99t get paid back, you are in trouble.=09Much of banking regula=
+tion reduces the interest that banks can pass on to its depositors. If a ba=
+nk has $100 of deposits and can lend out money at 5%, it can=E2=80=99t just=
+ lend out=C2=A0$100 at 5%, collect 0.1% for its trouble and pass on 4.9% to=
+ depositors. A bank has=C2=A0capital requirements,=C2=A0meaning that if it =
+has $100 of loans it will need to have, say, $10 of equity capital that req=
+uires some economic return, reducing the amount that can be passed on to de=
+positors. It has=C2=A0liquidity requirements, meaning that if it has $100 o=
+f deposits it can=E2=80=99t put them all into long-term loans; it has to ke=
+ep some of the money in=C2=A0cash in case any depositors want their money b=
+ack. It pays fees to the government for deposit insurance. Prudential regul=
+ators examine the bank and make sure its mix of business isn=E2=80=99t too =
+risky, which makes it less lucrative.As we know from 2008, there are strong=
+ incentives, at a bank,=C2=A0(1) to fund as much of your business as possib=
+le with cheap deposits (that is: to be very levered), (2) to put as much mo=
+ney as possible into lucrative business rather than keeping it in the cash =
+drawer, and (3) to choose risky lucrative businesses over safe boring busin=
+esses. But there are=C2=A0constraints=C2=A0on banks=C2=A0to stop them from =
+going too far in that direction. One important set of constraints comes fro=
+m regulation: Capital and liquidity and prudential regulation prevent banks=
+ from gambling too much with depositors=E2=80=99 money. Another important s=
+et of constraints comes from transparency and reputation: Banks have to pro=
+duce audited financial statements explaining, in some detail, what they are=
+ doing with their money; if the stuff they are doing is too weird then they=
+=E2=80=99ll have a hard time raising more money. Those constraints are impe=
+rfect! 2008 happened! People get mad at banks a lot! Still, the constraints=
+ exist.In crypto, oh, you know. Here=E2=80=99s  an update on Celsius today:=
+Celsius Network Ltd., one of the biggest lenders in crypto and a key player=
+ in the world of decentralized finance, said late Sunday that it was pausin=
+g withdrawals, swaps and transfers following weeks of speculation over its =
+ability to make good on the outsize returns it offered on certain of its pr=
+oducts, including yields as high as 17%. The move effectively halted a plat=
+form with registered entities across the globe and billions of dollars wort=
+h of digital coins under management, accelerating a selloff in the broader =
+market that was already in progress on concern over prospects for tightenin=
+g monetary policy ahead of a Federal Reserve meeting this week. ...A little=
+ over a day before Celsius announced its the halt, Chief Executive Officer =
+Alex Mashinsky appeared to counter speculation about a freeze on withdrawal=
+s, tweeting, =E2=80=9CDo you even know one person who has a problem withdra=
+wing from Celsius?=E2=80=9D=C2=A0Here is Celsius=E2=80=99s announcement fro=
+m yesterday:Due to extreme market conditions, today we are announcing that =
+Celsius is pausing all withdrawals, Swap, and transfers between accounts. W=
+e are taking this action today to put Celsius in a better position to honor=
+, over time, its withdrawal obligations. =E2=80=A6We are working with a sin=
+gular focus: to protect and preserve assets to meet our obligations to cust=
+omers. Our ultimate objective is stabilizing liquidity and restoring withdr=
+awals, Swap, and transfers between accounts as quickly as possible. There i=
+s a lot of work ahead as we consider various options, this process will tak=
+e time, and there may be delays.Here is Celsius=E2=80=99s awkward-with-six-=
+days-of-hindsight Medium post from last Tuesday, titled =E2=80=9CDamn the T=
+orpoedoes, Full Speed Ahead=E2=80=9D:We at Celsius are online 24=E2=80=937.=
+ We=E2=80=99re working around the clock to continue to serve our community.=
+ Celsius has one of the best risk management teams in the world. Our securi=
+ty team and infrastructure is second to none. We have made it through crypt=
+o downturns before (this is our fourth!). Celsius is prepared.At this alrea=
+dy challenging time, it=E2=80=99s unfortunate that vocal actors are spreadi=
+ng misinformation and confusion. =E2=80=A6Let us be clear: ...Celsius conti=
+nues to process withdrawals without delay. We have not had any issues meeti=
+ng withdrawal requests. Celsius honors all withdrawals as quickly as possib=
+le and works hard to support customers if and when there are delays.Celsius=
+ has the reserves (and more than enough ETH) to meet obligations, as dictat=
+ed by our comprehensive liquidity risk management framework.See, I genuinel=
+y think that there are some people who would sneer at a bank saying =E2=80=
+=9Cwe have a fortress balance sheet and exceed out regulatory requirements =
+for capital and liquidity, as you can tell from our quarterly financial sta=
+tements=E2=80=9D: =E2=80=9CSure,=E2=80=9D these people would scoff, =E2=80=
+=9Cwe=E2=80=99ve heard that before.=E2=80=9D And then they=E2=80=99ll read =
+a Medium post from a crypto project that claims to have, but does not descr=
+ibe, a =E2=80=9Ccomprehensive liquidity risk management framework=E2=80=9D =
+and put all their money in it.Oh by the way, another important problem in 2=
+008 was the=C2=A0interconnectedness=C2=A0of banks: One financial institutio=
+n would run into trouble, and it would turn out that a bunch of other impor=
+tant institutions depended on it. In that vein, here is the Verge today:Bec=
+ause of its size, Celsius touches a lot of other parts of cryptocurrency ma=
+rkets. For instance,=C2=A0Celsius Network borrowed $500 million from Tether=
+, the dollar-pegged stablecoin. (The loan was originally $1 billion,=C2=A0B=
+loomberg reported.) The loan is collateralized in Bitcoin. =E2=80=9CIf Bitc=
+oin drops, they give us a margin call [and then] we have to give them more =
+Bitcoin,=E2=80=9D Celsius CEO Alex Mashinsky=C2=A0told=C2=A0The Financial T=
+imes=C2=A0last year.Tether, like Celsius, is roughly speaking a crypto bank=
+: It is a stablecoin project that takes people=E2=80=99s dollars and invest=
+s them in dollar-denominated assets. Unlike a regular bank, Tether has no c=
+apital requirements: Its assets (commercial paper, etc.) more or less exact=
+ly match its liabilities (stablecoins issued), and if the assets lose a bit=
+ of value then the loss will fall on its depositors. Tether's latest reserv=
+es report, as of March 31, 2022, states that its =E2=80=9Cconsolidated tota=
+l assets amount to at least US$82,424,821,101,=E2=80=9D while its=C2=A0=E2=
+=80=9Cconsolidated total liabilities amount to US$82,262,430,079, of which =
+US$82,188,190,8131 relates to digital tokens issued.=E2=80=9D That represen=
+ts equity capital of about $162.4 million on a balance sheet of $82 billion=
+, or a capital ratio of about 0.20%. Banks have risk-weighted capital requi=
+rements of at least 8%. Banks also publish audited financial statements and=
+ have prudential requirements limiting what they can do with their money; T=
+ether does not. If, say, one $500 million loan to Celsius =E2=80=94=C2=A0or=
+ one similar-sized margin loan to some other crypto firm during a crypto ma=
+rket meltdown =E2=80=94 went bad, Tether=E2=80=99s entire capital would be =
+vaporized and its stablecoin would be undercollateralized.=C2=A0
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Stablegains
+   =20
+ =20
+People talk a lot about =E2=80=9Cfinancial literacy,=E2=80=9D which mostly =
+means looking very impressed about compound interest. I think sometimes abo=
+ut what real financial literacy education=C2=A0might look like. Here is a s=
+imple lesson:=09Often, risk and reward are correlated: Something with a low=
+ risk probably has a low expected return, while something that could plausi=
+bly make you a ton of money could also lose you a ton of money.=09Not alway=
+s! Lots of finance is about finding the exceptions, or at least about findi=
+ng optimal points on the risk/reward trade-off. If you are taking a financi=
+al literacy class you shouldn=E2=80=99t be=C2=A0too=C2=A0optimistic about y=
+our chances of being good at this, but you should be alive to the possibili=
+ty.=09That said, any investment that is=C2=A0advertised=C2=A0as having a hi=
+gh return with low risk is very likely to be a scam.=09IF IT=E2=80=99S IN T=
+HE NAME IT=E2=80=99S DEFINITELY A SCAM.Here=E2=80=99s a Marketplace story a=
+bout =E2=80=9CStablegains,=E2=80=9D and that name tells you absolutely ever=
+ything you need to know about Stablegains. Absolutely everything! You=E2=80=
+=99d know not to invest in Stablegains after the first 10 minutes of my fin=
+ancial literacy class! It is =E2=80=9Cstable,=E2=80=9D but=C2=A0it is also =
+=E2=80=9Cgains,=E2=80=9D which means that it will incinerate your money wit=
+h 100% probability. It did.Since you are reading this column you are probab=
+ly a bit more advanced, so I=E2=80=99ll tell you that the particular method=
+ Stablegains chose to incinerate its customers=E2=80=99 money was by puttin=
+g it in  TerraUSD stablecoins. Also it managed to lose its money so efficie=
+ntly that there=E2=80=99s no one left to sue:After being contacted by sever=
+al Stablegains users, Kevin Osborne at the class-action law firm EKO Law ex=
+plored the possibility of a lawsuit.But for now, any plans for litigation a=
+re on hold. =E2=80=9CIf a defendant has very little in the way of liquid as=
+sets, has no insurance, then you=E2=80=99re not going to be doing anything =
+for the people that you represent,=E2=80=9D Osborne said.And to go after St=
+ablegains=E2=80=99 venture capital backers, plaintiffs have to meet a high =
+legal threshold, he added.On the other hand, anyone with money who got with=
+in a million miles of the TerraUSD implosion will get sued, as they probabl=
+y should; here's one:In a class action lawsuit filed on Monday in North Cal=
+ifornia, cryptocurrency exchange Binance.US has been accused of misleading =
+investors surrounding the Terra blockchain ecosystem. ...The lawsuit also a=
+lleges that Binance.US is not registered as a broker-deal or an exchange, w=
+hich may be in violation of securities law after it listed what might be an=
+ unregistered security in UST.Was TerraUSD an unregistered security that wa=
+s illegally sold to US investors? I dunno; I think  there=E2=80=99s a decen=
+t case for that. And it vaporized enough money that there are a lot of lawy=
+ers with incentives to make that case.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Elon Musk=E2=80=99s bankers have a dilemma: do they help him kill the Twitt=
+er deal? Tesla Files to  Split Shares 3-for-1 as Investors Bail on Stock. M=
+eta Scrutinizing Sheryl Sandberg=E2=80=99s Use of Facebook Resources Over S=
+everal Years. =E2=80=9CAll in all, the top six global banks made roughly $4=
+2 million in China last year.=E2=80=9D Apollo, Carlyle See  Buyout Fundrais=
+ing Slow With Markets on Edge. More BlackRock Investors Opt to Vote Their O=
+wn Shares. Bank of England Will Drop Pandemic Capital Buffer Requirement. C=
+ipriani to Get New Lifeline With Money From Hedge Fund. Sriracha Hot-Sauce =
+Maker Warns of Summer Shortage. Amazon is being sued by Prime members for g=
+etting rid of free Whole Foods delivery. A Silicon Valley Summer Camp Wants=
+ Kids to Ditch the Canoes for Holographic Coding. =E2=80=9CSome 17% of ads =
+shown on televisions connected through a streaming device =E2=80=A6 are pla=
+ying while the TV is off.=E2=80=9D Geico ordered to pay Missouri woman $5.2=
+ million after she contracted STD in a car.=C2=A0Seth Green pays $260,000 r=
+ansom for a stolen Bored Ape Ethereum NFT meant to feature in his new TV sh=
+ow: report.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email f=
+orm, right in your inbox, please=C2=A0subscribe at this link. Or you can su=
+bscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![=
+1] Conversely, what if the market soars and the target regrets signing the =
+deal at $100 because it is now worth $150? This is a less pressing problem,=
+ for various reasons. For one thing, markets =E2=80=9Ctake the stairs up an=
+d the elevator down,=E2=80=9D so a rapid market melt-up seems less probable=
+ than a rapid meltdown. For another thing, buyouts are generally agreed at =
+a premium, so the merger price probably looks good even relative to a risin=
+g stock price. But, yes, sometimes it happens that the target thinks =E2=80=
+=9Cif we were selling ourselves now we would get $150,=E2=80=9D and the way=
+ merger agreements generally handle that is with a negotiated provision abo=
+ut when and how the target can accept a =E2=80=9Csuperior offer.=E2=80=9D I=
+n most deals, there is a =E2=80=9Cno-shop=E2=80=9D clause prohibiting the t=
+arget from *seeking* a better offer, but for fiduciary-duty reasons the tar=
+get is generally allowed to *accept* a better offer, if it comes in unsolic=
+ited, as long as it gives the buyer a matching right and a breakup fee if i=
+t takes the other deal. Also, generally, the target=E2=80=99s shareholders =
+can vote down the deal =E2=80=94=C2=A0if, for instance, they decide that th=
+e target is now worth $150. So in some rough sense the buyer takes at least=
+ some of the risk of the stock market going *up*: If things get vastly bett=
+er for the target between signing and closing, the target maybe *can* get o=
+ut of the agreed deal.[2] There is an approximate=C2=A0exception in many pr=
+ivate-equity-type buyouts where there will be a financing condition where t=
+he buyer can get out of the deal if it can=E2=80=99t get financing, but gen=
+erally in big modern deals the financing is pretty committed and there is n=
+o explicit financing condition.[3] I am quoting from the definition of =E2=
+=80=9CCompany Material Adverse Effect=E2=80=9D in the Twitter Inc. merger a=
+greement (page A-4 here). The definition of =E2=80=9CMaterial Adverse Effec=
+t=E2=80=9D in the Anaplan Inc. merger agreement (page A-6 here) excludes th=
+e results of =E2=80=9Cgeneral changes in the economy or securities, credit,=
+ financial or other capital markets of the U.S. or any other region outside=
+ of the U.S.=E2=80=9D=C2=A0[4] Here I am quoting Section 5.1(a) of the Anap=
+lan merger agreement. In Section 6.1 of the Twitter merger agreement, Twitt=
+er promises to =E2=80=9Cuse its commercially reasonable efforts to conduct =
+the business of the Company and its Subsidiaries in the ordinary course of =
+business.=E2=80=9D[5] Indap notes: =E2=80=9CWhile the Anaplan chief later o=
+ffered to reduce pay grants to himself and other senior executives, Thoma B=
+ravo was unmoved and the firm feared that attempts to =E2=80=98remediate th=
+e actions would risk damaging employee morale=E2=80=99.=E2=80=9D That is, i=
+f you=E2=80=99re trying to get out of the deal, you have to be able to argu=
+e that the covenant breach is somehow unfixable. =E2=80=9CYou told employee=
+s you would pay them too much, so we can walk, but if you don=E2=80=99t pay=
+ them that much we can also walk.=E2=80=9D[6]=C2=A0Elon Musk has  made simi=
+lar threats to Twitter, about how really his=C2=A0banks=C2=A0need more info=
+rmation about Twitter=E2=80=99s supposed bot problem.[7] When I say =E2=80=
+=9Cmore or less waive,=E2=80=9D I guess I mean what Anaplan got: No conditi=
+ons for reps and warranties, and only =E2=80=9Cwillful breach after the ame=
+ndment that is material to the transaction=E2=80=9D for covenants. Maybe ev=
+en stronger than that; it=E2=80=99s Elon Musk we=E2=80=99re talking about. =
+Also I would remove the financing condition to Musk=E2=80=99s specific-perf=
+ormance obligation, so that he is just on the hook to fund the whole merger=
+ whether or not his banks fund, so he can=E2=80=99t use his banks as an exc=
+use.[8]=C2=A0This is kind of a joke, and M&A lawyers tend to believe that t=
+here are good reasons for breakup fees to typically be single-digit percent=
+ages of deal value. But I actually think that $20 billion is a reasonable e=
+stimate of the damages that Twitter would suffer from Musk walking away? I=
+=E2=80=99d ask for $20 billion. The point is that you never want the breaku=
+p fee, Musk should be required to close the deal in all circumstances, but =
+he fights everything so you want your backup to be an enormous fee.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgp10f.5r97/41dcfda9.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_68074820_1576920287.1655142711572
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+AnaplanThe way public-company mergers and acquisitions generally work is th=
+at you sign a merger agreement, where the buyer promises to pay s
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yODA0MTU2NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzMTAxNzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB0527465b" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D28041567&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28310170&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjEzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MTMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBbda7b42e"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yODA0MTU2NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzMTAxNzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCcb97590a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D28041567&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28310170&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Anaplan</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The way public-company mergers and acq=
+uisitions generally work is that you sign a merger agreement, where the buy=
+er promises to pay some agreed price for the target company, and then you h=
+ave to wait months before the deal closes and the buyer delivers the money.=
+ During this waiting period, the buyer and target are doing things like get=
+ting a shareholder vote, getting antitrust and other regulatory approvals, =
+and finalizing the buyer=E2=80=99s financing. Most of the time, mergers are=
+ happy events: Everyone is excited for the deal when they sign the deal, an=
+d they remain excited for the deal during the waiting period, and they are =
+excited to close the deal at the end.=C2=A0</p><p style=3D"margin: 16px 0;"=
+>Sometimes not though. Sometimes the world changes between signing and clos=
+ing. In particular, sometimes the market crashes between signing and closin=
+g, due to inflation or war or bubbles popping or=C2=A0deadly pandemics or w=
+hat have you. Before the crash, it seemed like a good idea to the buyer to =
+pay $100 per share for the target, and it seemed like a good idea for the t=
+arget to accept. After the crash, $100 seems a bit rich. The buyer would pr=
+efer not to pay that much, and the target =E2=80=94=C2=A0while perhaps symp=
+athetic, in the abstract, to the buyer=E2=80=99s regret =E2=80=94=C2=A0will=
+ really want that $100. After all, it signed a deal to sell before the cras=
+h! Its timing was good! It should get the benefit of that deal.[1]</p><p st=
+yle=3D"margin: 16px 0;">Public-company merger agreements are very clear abo=
+ut the allocation of risk here, and generally this risk is allocated to the=
+ buyer.[2] The buyer has no right to get out of the deal because markets we=
+nt down. Generally the buyer can get out of the deal if there is a =E2=80=
+=9Cmaterial adverse effect=E2=80=9D on the target, but that term is always =
+defined to=C2=A0<em>exclude</em> effects resulting from =E2=80=9Cgeneral ec=
+onomic, regulatory or political conditions=E2=80=9D or conditions =E2=80=9C=
+in the financial, credit or securities markets.=E2=80=9D[3] The risk of the=
+ market going down is on the buyer.</p><p style=3D"margin: 16px 0;">Still i=
+f you are the buyer, and the market goes down, you will=C2=A0<em>want </em>=
+to get out of the deal. Or you might still like the=C2=A0<em>deal=C2=A0</em=
+>=E2=80=94=C2=A0you might still want to own the target company =E2=80=94=C2=
+=A0but=C2=A0regret the <em>price</em>. And you might crack open the merger =
+agreement and ask: Well, okay, we can=E2=80=99t get out of the deal for a m=
+arket crash, but can we get out for some=C2=A0<em>other=C2=A0</em>reason?</=
+p><p style=3D"margin: 16px 0;">We have, for reasons, <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTMvZWxvbi1tdXNrLXRyb2xscy10d2l=
+0dGVyP2NtcGlkPUJCRDA2MTMyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdX=
+JjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYxMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/60=
+7f07ceef4b8524a319a23cBb1e06cbe" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> talked</a> a <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTcvZWxvbi1tdXNrLWRvZXMtbm90L=
+WNhcmUtYWJvdXQtc3BhbS1ib3RzP2NtcGlkPUJCRDA2MTMyMl9NT05FWVNUVUZGJnV0bV9tZWRp=
+dW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYxMyZ1dG1fY2FtcGF=
+pZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB81e48498" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> lot</a> <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMDYvZWxvbi1o=
+YXMtYS1uZXctYm90LWV4Y3VzZT9jbXBpZD1CQkQwNjEzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXV=
+tPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MTMmdXRtX2NhbXBhaW=
+duPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe3dd6f22" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> about</a> thi=
+s question recently. You might naively think that you could comb through th=
+e =E2=80=9Crepresentations and warranties=E2=80=9D in the merger agreement =
+=E2=80=94=C2=A0factual statements about the target=E2=80=99s business that =
+it promises are true =E2=80=94=C2=A0to find one that is wrong, and use that=
+ as a way out of the deal. After all, if the company told you that it sold =
+10,000 widgets last year, and it only sold 9,998, then you are not getting =
+what you agreed to and you should be able to get out of the deal.</p><p sty=
+le=3D"margin: 16px 0;">But in practice merger agreements are not set up tha=
+t way. If a representation is wrong, the buyer can generally only get out o=
+f the deal if it would have a =E2=80=9Cmaterial adverse effect,=E2=80=9D a =
+very high standard. Rampant fraud might count; the business being half as v=
+aluable as you thought might count; 9,998 widgets instead of 10,000 would n=
+ot. Merger agreements <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/28041567.268603/aHR0cHM6Ly90d2l0dGVyLmNvbS9Bbm5NTGlwdG9uL3N0YXR1cy8xNTI=
+3MjAzNjMzNTk4NzAxNTY5/607f07ceef4b8524a319a23cBde8fe97a" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">are design=
+ed</a> to=C2=A0<em>prevent=C2=A0</em>a buyer from walking away over some tr=
+ivial misrepresentation.</p><p style=3D"margin: 16px 0;">The=C2=A0more prom=
+ising approach is to comb through the =E2=80=9Ccovenants=E2=80=9D in the me=
+rger agreement, things that the target promises to do between signing and c=
+losing. If the target breaches a=C2=A0<em>covenant</em>, you can get out of=
+ the deal=C2=A0<em>without=C2=A0</em>a material adverse effect: The company=
+ has to live up to its promises. =E2=80=9CAs closing conditions for the mer=
+ger, representations are qualified by MAE, but covenants by =E2=80=98in all=
+ material respects,=E2=80=99=E2=80=9D <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjItMDYtMDYvZWxvbi1oYXMtYS1uZXctYm90LWV4Y3VzZT9jbXBpZD=
+1CQkQwNjEzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xld=
+HRlciZ1dG1fdGVybT0yMjA2MTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524=
+a319a23cCe3dd6f22" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> I had occasion to write last week</a>.</p><p st=
+yle=3D"margin: 16px 0;">There are two main kinds of covenant:</p><ol style=
+=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li s=
+tyle=3D"margin-bottom: 5px;">The target promises to do things to get the de=
+al done: solicit the shareholder vote, seek regulatory approvals, help out =
+with marketing any buyout debt, give the buyer information so it can get re=
+ady to run the business, etc.</li>=09<li style=3D"margin-bottom: 5px;">The =
+target promises=C2=A0<em>not=C2=A0</em>to do anything crazy: It has to run =
+its business =E2=80=9Cin the ordinary course consistent with past practice,=
+=E2=80=9D[4] and it generally agrees to limits on things like new business =
+lines, hiring,=C2=A0executive bonuses, stock issuance, etc. The target has =
+agreed to sell itself, so its lame-duck managers are=C2=A0basically in the =
+business of acting as=C2=A0caretakers for its future owners; they can=E2=80=
+=99t make any big changes before the new owners show up.</li></ol><p style=
+=3D"margin: 16px 0;">In theory you could claim a breach of=C2=A0either one,=
+ and nervous buyers=C2=A0do.=C2=A0Back in the spring of 2020, the Covid-19 =
+pandemic made some buyers regret the deals they had struck: If you agreed t=
+o buy a mall retailer in late 2019, and before the deal closed every mall w=
+as shut down for an unknown period of time due to a deadly pandemic, you mi=
+ght want to get out of your deal. But =E2=80=9Ca deadly pandemic has ruined=
+ the target=E2=80=99s business=E2=80=9D is very, very, very much the sort o=
+f general risk that is allocated to the buyer in a public-company merger, s=
+o you can=E2=80=99t. But buyers got creative and realized that the pandemic=
+ could create a=C2=A0<em>covenant breach:=C2=A0</em>The target certainly co=
+uld not run its business =E2=80=9Cin the ordinary course consistent with pa=
+st practice=E2=80=9D if it was closing all of its stores due to a pandemic,=
+ so=C2=A0<em>that could be a way out of the deal. </em>And in fact <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDQtMjMvYS1wYW5kZW1p=
+Yy1pcy1iYWQtZm9yLWRlYWxzP2NtcGlkPUJCRDA2MTMyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW0=
+9ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYxMyZ1dG1fY2FtcGFpZ2=
+49bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7673f642" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> this happened<=
+/a> in Sycamore Partners=E2=80=99 deal to buy Victoria=E2=80=99s Secret, an=
+d it (somewhat shockingly) worked: The seller <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20=
+vMjAyMC8wNS8wNC9idXNpbmVzcy9jb3JvbmF2aXJ1cy12aWN0b3JpYXMtc2VjcmV0LXNhbGUtZm=
+FsbHMtYXBhcnQuaHRtbA/607f07ceef4b8524a319a23cB11da8440" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">let Sycamor=
+e out of the deal</a> to avoid going to court over this.</p><p style=3D"mar=
+gin: 16px 0;">It's been a tough few months for tech stocks, and some number=
+ of buyers=C2=A0are regretting their choice to buy tech companies at pre-Ap=
+ril-2022 prices. For instance, Sujeet Indap at the Financial Times <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvMTE3ZWJmZGQtNWQ5NC00Y2QwLTlkYzMtMDFkZTNjNWMxNGMx=
+/607f07ceef4b8524a319a23cBdb4587f9" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">reports</a>:</p><blockquote><p =
+style=3D"margin: 16px 0;">Thoma Bravo has successfully pressured software c=
+ompany Anaplan to cut the $10.7bn price at which it is selling itself to th=
+e private equity firm, in one of the largest buyout deals to be renegotiate=
+d since this year=E2=80=99s market turmoil began.</p><p style=3D"margin: 16=
+px 0;">California-based Anaplan disclosed on Friday that Thoma Bravo had as=
+serted that the company had violated its merger agreement by overpaying new=
+ workers, leading the enterprise software group to agree to a 3 per cent re=
+duction in the price of the buyout.</p><p style=3D"margin: 16px 0;">The buy=
+er and seller had already announced four days earlier that the deal price o=
+f $66 per share, first announced in March, had been reduced to $63.75, to r=
+esolve a condition of closing the deal that may not have been satisfied.</p=
+><p style=3D"margin: 16px 0;">But Friday=E2=80=99s filing offered fuller de=
+tails of a dispute that erupted privately in May between Anaplan and Thoma =
+Bravo, which has emerged as one of the dominant buyout groups that focus on=
+ technology.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Here is <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aHR0c=
+HM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE1NDA3NTUvMDAwMTE5MzEyNTIy=
+MTcxNjc3L2QzMzc1NzVkZGVmYTE0YS5odG0/607f07ceef4b8524a319a23cB51ba8e65" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">that filing</a>, with an amended =E2=80=9C<a href=3D"https://link.mail.=
+bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmN=
+oaXZlcy9lZGdhci9kYXRhLzE1NDA3NTUvMDAwMTE5MzEyNTIyMTcxNjc3L2QzMzc1NzVkZGVmYT=
+E0YS5odG0jdG9jMzM3NTc1Xzc/607f07ceef4b8524a319a23cB849d7b64" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">Backgr=
+ound of the Merger</a>=E2=80=9D section that spells out exactly how Thoma B=
+ravo retraded its deal with Anaplan Inc. One assumes that Anaplan=E2=80=99s=
+ lawyers took the lead in drafting this, and were not too interested in Tho=
+ma Bravo=E2=80=99s input; the result is a section that is blunt and somewha=
+t sulky about Thoma Bravo=E2=80=99s excuses. Basically Anaplan thought it h=
+ad a deal to continue operating in the ordinary course of business, which i=
+ncluded hiring people and paying them; Thoma Bravo got a list of new equity=
+ awards, balked, threatened to walk away and asked for a price cut. The dif=
+ference was small =E2=80=94 the original merger agreement provided for $105=
+ million of awards; Anaplan wanted to pay out $137 million =E2=80=94=C2=A0b=
+ut it was enough for Thoma Bravo to cause trouble[5]:</p><blockquote><p sty=
+le=3D"margin: 16px 0;">Later on June 3, 2022, [Anaplan Chief Executive Offi=
+cer Frank]=C2=A0Calderoni and a representative from Thoma Bravo held a tele=
+conference to discuss the concerns raised by Thoma Bravo. Mr. Calderoni exp=
+lained that the Anaplan Board determined that there was no basis for Thoma =
+Bravo to reprice or refuse to close the Merger, and that the Anaplan Board =
+had rejected any openness to engaging on a discussion of repricing the tran=
+saction. The representative from Thoma Bravo thereafter stated that its pro=
+posed equity and debt financing sources for the Merger remained concerned a=
+bout the Disputed Matters and the resulting effects on Anaplan following th=
+e closing, particularly in light of the deterioration in the financial mark=
+ets, and that for those financing sources to be willing to fund the Merger =
+and to compensate Thoma Bravo for the Disputed Matters, the price per share=
+ would need to be reduced to $61.00. Mr. Calderoni noted that the Original =
+Merger Agreement is not subject to any debt financing closing condition, an=
+d Mr. Calderoni reiterated the Anaplan Board=E2=80=99s position that that t=
+here was no basis for Thoma Bravo to refuse to close the Merger or request =
+a price reduction.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">=E2=
+=80=9CMr. Calderoni noted that the Original Merger Agreement is not subject=
+ to any debt financing closing condition=E2=80=9D: Thoma Bravo has no contr=
+actual=C2=A0<em>right=C2=A0</em>to walk away if its debt financing disappea=
+rs, but that would be a mess, so it=E2=80=99s a useful threat.[6]</p><p sty=
+le=3D"margin: 16px 0;">Anaplan=E2=80=99s board was annoyed, but also intimi=
+dated: The market=C2=A0<em>had=C2=A0</em>dropped, and fighting this would b=
+e risky:</p><blockquote><p style=3D"margin: 16px 0;">On the morning of June=
+ 4, 2022, members of Anaplan management held a teleconference with represen=
+tatives of Goldman Sachs and Qatalyst Partners to discuss the Disputed Matt=
+ers. Anaplan management informed the representatives of the reduced $61.00 =
+per share price proposed by Thoma Bravo. Representatives of Goldman Sachs a=
+nd Qatalyst Partners provided their views that the conditions in the financ=
+ial markets had deteriorated since the time of the signing of the Original =
+Merger Agreement, and that the trading prices of peer companies of Anaplan =
+had recently declined substantially in the public equity markets. Represent=
+atives of Goldman Sachs and Qatalyst Partners discussed their preliminary v=
+iews of Thoma Bravo=E2=80=99s proposed per share price change and discussed=
+ their views that if the dispute was not resolved in Anaplan=E2=80=99s favo=
+r, the potential termination of the Original Merger Agreement could have a =
+significant negative impact on the trading price of the Anaplan common stoc=
+k. Anaplan management discussed with representatives of Goldman Sachs and Q=
+atalyst Partners that, should these conditions in the financial markets con=
+tinue to exist, the potential for a transaction with another prospective bi=
+dder at a price near $66.00 per share in such situation would be unlikely.<=
+/p></blockquote><p style=3D"margin: 16px 0;">So they agreed to the retrade,=
+ though they managed to negotiate Thoma Bravo up to $63.75, a price cut of =
+$2.25 per share, or 3.4%,=C2=A0or about $400 million total. They also expre=
+ssed their annoyance, to Thoma Bravo and in the proxy statement:</p><blockq=
+uote><p style=3D"margin: 16px 0;"><span>Mr.=C2=A0Calderoni repeated the det=
+ermination by the Anaplan Board there was no basis for Thoma Bravo to refus=
+e to close the Merger, and as a result Thoma Bravo had no basis to request =
+a price reduction. Mr.=C2=A0Calderoni noted that Thoma Bravo or its financi=
+ng sources appear to now have buyer=E2=80=99s remorse in light of the deter=
+ioration of the financial markets, and that Thoma Bravo had been seeking in=
+formation from Anaplan to seek a basis to assert violations of the Original=
+ Merger Agreement in order to seek to<span>=C2=A0</span></span>re-negotiate=
+<span><span>=C2=A0</span>the purchase price. Mr.=C2=A0Calderoni also asked =
+the representative [of Thoma Bravo] to justify the magnitude of the propose=
+d price reduction in relation to the economic impact of the Disputed Matter=
+s. Mr.=C2=A0Calderoni noted that the risk of protracted litigation could be=
+ damaging to both Thoma Bravo and Anaplan, and as a result, the Anaplan Boa=
+rd indicated it would consider, at most, a modest price decrease and only i=
+f Thoma Bravo provided substantially enhanced commitments relating to the c=
+ertainty and timing of the closing of the Merger.</span></p></blockquote><p=
+ style=3D"margin: 16px 0;">Arguably the interesting takeaway here is what A=
+naplan got in exchange for the price cut, those =E2=80=9Csubstantially enha=
+nced commitments relating to the certainty and timing of the closing.=E2=80=
+=9D Basically Anaplan said: Okay, you got us, you have found some arguable =
+excuse for repricing this deal, and we are going to give you some money for=
+ it. But you can never do it again: If we renegotiate down to $63.75, you h=
+ave to really close at $63.75.</p><blockquote><p style=3D"margin: 16px 0;">=
+Throughout the night of June 5, 2022, representatives of Anaplan management=
+, Thoma Bravo, Gunderson, Skadden, Kirkland and Cadwalader reached an agree=
+ment upon the terms of a proposed Amendment, subject to the approval of the=
+ Anaplan Board. The proposed Amendment provided for (i) the reduction of th=
+e purchase price from $66.00 per share to $63.75 per share, (ii) limitation=
+ of closing conditionality related to compliance with Anaplan=E2=80=99s cov=
+enants to apply only to Anaplan=E2=80=99s willful breach of its covenants o=
+ccurring after the date of the Amendment that are material to the proposed =
+transactions, taken as a whole, (iii) limitation of the closing condition r=
+egarding absence of a material adverse effect on Anaplan only to events occ=
+urring following the date of the Amendment, (iv) a waiver of the closing co=
+nditions relating to Anaplan=E2=80=99s representations and warranties, (v) =
+waivers with respect to all outstanding claims prior to the signing of the =
+Amendment, including the Disputed Matters, that Thoma Bravo might have, whe=
+ther known or unknown, and (vi) an increase in the termination fee payable =
+by Parent if it fails to timely close the transaction following approval of=
+ Anaplan=E2=80=99s stockholders from $586,245,000 to $1,000,000,000.</p></b=
+lockquote><p style=3D"margin: 16px 0;">That is: Anaplan agreed to reprice t=
+he deal, but in exchange Thoma Bravo agreed that it can=E2=80=99t get out o=
+f the deal for any reason =E2=80=94 a false representation, a breached cove=
+nant, a material adverse effect =E2=80=94=C2=A0that occurred=C2=A0<em>befor=
+e </em>last week=E2=80=99s repricing, and even a=C2=A0<em>future=C2=A0</em>=
+covenant breach is only an excuse if it is =E2=80=9Cwillful=E2=80=9D=C2=A0a=
+nd =E2=80=9Cmaterial to the proposed transactions, taken as a whole.=E2=80=
+=9D=C2=A0Just paying some extra bonuses would no longer be an excuse. Also =
+it almost doubled the breakup fee that Thoma Bravo will have to pay if some=
+how it does slip away.</p><p style=3D"margin: 16px 0;">Anyway I am telling =
+you all this because =E2=80=A6=C2=A0it is interesting? Because I used to be=
+ a mergers-and-acquisitions lawyer, and miss it? Because there has been a c=
+ertain uptick in public interest in merger-agreement remedies in recent wee=
+ks? Because a long-running theme of this column is that smart repeat player=
+s in the financial industry can extract value from their counterparties by =
+clever and aggressive reading of contracts, and while =E2=80=9Cuse a small =
+covenant breach as a wedge to renegotiate a deal after the market has crash=
+ed and you have buyer=E2=80=99s remorse=E2=80=9D isn=E2=80=99t the <em>clev=
+erest=C2=A0</em>bit of contract reading, it is within the rules of the game=
+, and one can grudgingly respect Thoma Bravo for finding a way to save $400=
+ million for its investors in a softening market. (Though Thoma Bravo=C2=A0=
+<em>is=C2=A0</em>a repeat player, and if I were a software company consider=
+ing selling myself to them, I would be a lot more careful after this deal.)=
+</p><p style=3D"margin: 16px 0;">But, yes, also I am telling you all this b=
+ecause of Elon Musk=E2=80=99s <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28041567.268603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjItMDQtMjYvZWxvbi1nb3QtaGlzLWRlYWw_Y21waWQ9QkJEMDYxMzIyX01PTk=
+VZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09M=
+jIwNjEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB400a0059" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">deal to buy Twitter Inc.</a> for $54.20 per share. Musk is also try=
+ing to wriggle out of that deal =E2=80=94=C2=A0or at least reprice it =E2=
+=80=94=C2=A0because the market has gone down and he thinks he=E2=80=99s ove=
+rpaying; he is also <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/28041567.268603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMjItMDUtMTcvZWxvbi1tdXNrLWRvZXMtbm90LWNhcmUtYWJvdXQtc3BhbS1ib3RzP2NtcGlk=
+PUJCRDA2MTMyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTIyMDYxMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cC81e48498" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> flailing around</a> for <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMDYvZWxvbi1oYXMtYS1uZXctYm90L=
+WV4Y3VzZT9jbXBpZD1CQkQwNjEzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9z=
+b3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY=
+/607f07ceef4b8524a319a23cDe3dd6f22" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> transparently silly</a> excuse=
+s to get out of it. And it might work! I mean, I think Twitter=E2=80=99s le=
+gal position is pretty solid, but the market seems to be with Musk: Twitter=
+=E2=80=99s stock closed last week at $38.98, which does not reflect much op=
+timism that Musk is going to close at $54.20, despite his contractual oblig=
+ation to do so.</p><p style=3D"margin: 16px 0;">One problem with renegotiat=
+ing the deal is, you are left with a renegotiated deal <em>with Elon Musk</=
+em>, who changes his mind a lot. I <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/28041567.268603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMjItMDUtMTcvZWxvbi1tdXNrLWRvZXMtbm90LWNhcmUtYWJvdXQtc3Bhb=
+S1ib3RzP2NtcGlkPUJCRDA2MTMyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nv=
+dXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYxMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/=
+607f07ceef4b8524a319a23cD81e48498" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> wrote last month</a>:</p><block=
+quote><p style=3D"margin: 16px 0;">Or Twitter can do what he actually wants=
+, which is renegotiate the deal at a lower price.=C2=A0But what good will=
+=C2=A0<em>that=C2=A0</em>do? What does Twitter get from signing a new merge=
+r agreement with him at, say, $42 per share?=C2=A0He has not lived up to an=
+y of his agreements with Twitter =E2=80=94=C2=A0the standstill, the=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMjcvYmlsbC1=
+od2FuZy1hcnJlc3QtaW5zaWRlLXRoZS12aWNpb3VzLWN5Y2xlLW9mLWFyY2hlZ29zLWNvbGxhcH=
+NlP2NtcGlkPUJCRDA2MTMyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYxMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cB1618e3a4" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">non-dispa=
+ragement clause</a>=C2=A0of the merger agreement, apparently=C2=A0a=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aHR0=
+cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTUyNTYxNTg0OTE2NzU4OTM4MD9zPTE=
+xJnQ9QWtKWDl3UFFCeVlWWnR5ZjB2eF90Zw/607f07ceef4b8524a319a23cBcd4ce0ae" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">nondisclosure agreement</a>, the merger agr=
+eement itself=C2=A0=E2=80=94=C2=A0and he=E2=80=99s not going to live up to =
+a repriced merger agreement unless he feels like it. An agreement with Elon=
+ Musk is worthless, as Twitter has learned over and over again.=C2=A0</p></=
+blockquote><p style=3D"margin: 16px 0;">But that was a bit hyperbolic, and =
+Anaplan points to a plausible=C2=A0path forward:</p><ol style=3D"list-style=
+-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin=
+-bottom: 5px;">Give Elon a lower price. (Preferably not $42: Anaplan agreed=
+ to a 3.4% discount, big enough for the buyer to feel like it got something=
+, but small enough not to be a disaster for the board.)</li>=09<li style=3D=
+"margin-bottom: 5px;">More or less waive all other closing conditions =E2=
+=80=94=C2=A0you get one renegotiation, but then you have to close no matter=
+ what.[7]</li>=09<li style=3D"margin-bottom: 5px;">Increase the breakup fee=
+ to, like, $20 billion.[8]</li></ol><p style=3D"margin: 16px 0;">That said =
+this is a very annoying outcome! Thoma Bravo basically charged Anaplan $400=
+ million for something =E2=80=94=C2=A0closing certainty =E2=80=94=C2=A0that=
+ it was already legally obligated to provide. You can see why the board agr=
+eed to do this, to reduce risk and headaches, but they can=E2=80=99t have b=
+een happy about it. It is not something that any other companies will=C2=A0=
+<em>want=C2=A0</em>to emulate. But some might have to.</p><table class=3D"l=
+iveintent-sponsored-content" width=3D"auto" cellpadding=3D"0" cellspacing=
+=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODA0MTU2NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzMTAxNzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDbb8b6152" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28041567&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28310170&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODA0MTU2NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzMTAxNzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEbb8b6152" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28041567&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28310170&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODA0MTU2NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzMTAxNzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF7f3d74cc" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28041567&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28310170&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODA0MTU2NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzMTAxNzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG7f3d74cc" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28041567&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28310170&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Celsius</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Last year Ryan Selkis, the founder of =
+crypto research firm Messari, <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28041567.268603/aHR0cHM6Ly90d2l0dGVyLmNvbS90d29iaXRpZGlvdC9zdGF=
+0dXMvMTQ0MjUxNjI0MjQzNTM4NzM5NQ/607f07ceef4b8524a319a23cB461c57fb" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+tweeted</a> that =E2=80=9Ccrypto is Occupy Wall Street but with money and s=
+olutions.=E2=80=9D Bloomberg=E2=80=99s Joe Weisenthal <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly90d2l0dGVyLmN=
+vbS9UaGVTdGFsd2FydC9zdGF0dXMvMTQ0MjUxOTgyNDQ5MjQ3MDI3OQ/607f07ceef4b8524a31=
+9a23cBa692fa67" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">replied</a> to ask =E2=80=9Cwhat are the solutions,=
+=E2=80=9D and I jumped in to <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/28041567.268603/aHR0cHM6Ly90d2l0dGVyLmNvbS9tYXR0X2xldmluZS9zdGF0=
+dXMvMTQ0MjUzMjQxNjkzODI1MDI0Mw/607f07ceef4b8524a319a23cBc3706acd" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+make</a> some <a href=3D"https://link.mail.bloombergbusiness.com/click/2804=
+1567.268603/aHR0cHM6Ly90d2l0dGVyLmNvbS9tYXR0X2xldmluZS9zdGF0dXMvMTQ0MjUzMjY=
+1NzcwMzkzMTkwNw/607f07ceef4b8524a319a23cB6b17572f" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">jokes</a>. =E2=
+=80=9CAt a high enough level,=E2=80=9D I tweeted, =E2=80=9Cthe problem was =
+=E2=80=98banks stole my money=E2=80=99 and the solution is =E2=80=98hackers=
+ will steal your money instead.=E2=80=99=E2=80=9D</p><p style=3D"margin: 16=
+px 0;">Weirdly, I think about this exchange a lot. I agree with Selkis=C2=
+=A0that some of the appeal of crypto comes from deep suspicion of the tradi=
+tional banking system in the aftermath of the 2008 financial crisis. Banks =
+were meant to be safe places where people could put their money, and it tur=
+ned out that the banks were doing weird risky stuff with that money. The we=
+ird risky stuff incurred losses, and those losses were socialized =E2=80=94=
+=C2=A0the government stepped in to bail out the banks =E2=80=94=C2=A0in way=
+s that people found surprising and upsetting=C2=A0and unfair. One popular r=
+eaction to the crisis was to call for banks to take fewer risks with deposi=
+tors=E2=80=99 money, to be safer and less leveraged and more transparent. A=
+nother popular reaction=C2=A0was to become suspicious of the banking system=
+ entirely, and crypto =E2=80=94=C2=A0a financial system that does not rely =
+on banks and that is <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/28041567.268603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMjItMDYtMDEvY3J5cHRvLWNsZWFyaW5nLWFuZC1jcmVkaXQ_Y21waWQ9QkJEMDYxMzIyX01=
+PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm=
+09MjIwNjEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf18a535=
+e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">philosophically less levered</a> than the traditional financia=
+l system =E2=80=94=C2=A0helped meet the demand for something else.</p><p st=
+yle=3D"margin: 16px 0;">But I also think that often the way crypto works in=
+ practice is to take the problems of the banking system and=C2=A0<em>make t=
+hem much</em><em>=C2=A0worse</em>. If you don=E2=80=99t like the financial =
+system making leveraged speculative bets with your deposits, you might find=
+ yourself putting your money in some entirely unregulated crypto bank whose=
+=C2=A0<em>entire purpose=C2=A0</em>is to make leveraged speculative bets wi=
+th your money. Maybe that will work out great for you? I guess the good new=
+s is that if it works out poorly, the losses won=E2=80=99t be socialized in=
+ quite the same way they were in 2008. The Federal Reserve and the US gover=
+nment are not going to bail out some crypto lending project. You=E2=80=99ll=
+ just lose your money.=C2=A0</p><p style=3D"margin: 16px 0;">Here is Alex M=
+ashinsky, the founder of=C2=A0crypto banking thingy Celsius Networks LLC, q=
+uoted in a <a href=3D"https://link.mail.bloombergbusiness.com/click/2804156=
+7.268603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMj=
+cvY2Vsc2l1cy1zLTE4LXlpZWxkcy1vbi1jcnlwdG8tYXJlLXRlbXB0aW5nLWFuZC1kcmF3aW5nL=
+XNjcnV0aW55P2NtcGlkPUJCRDA2MTMyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRt=
+X3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYxMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHV=
+mZiN4ajR5N3Z6a2c_c3JlZj0xa0pWTnFuVQ/607f07ceef4b8524a319a23cB68faaac7" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> Bloomberg Businessweek article</a> from this January:</p><blockquote><=
+p style=3D"margin: 16px 0;">Mashinsky told Bloomberg Businessweek that Cels=
+ius is able to pay such high yields because it passes along most of its ear=
+nings to its users. He said it=E2=80=99s the traditional financial system t=
+hat=E2=80=99s ripping people off by taking their deposits, using them to ma=
+ke money, and then claiming it can only pay tiny interest rates. =E2=80=9CS=
+omebody is lying,=E2=80=9D Mashinsky said. =E2=80=9CEither the bank is lyin=
+g or Celsius is lying.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;=
+">This schtick works:</p><blockquote><p style=3D"margin: 16px 0;">In testim=
+onials posted last year on Twitter as part of a contest in which customers =
+shared their =E2=80=9CCelsius Story,=E2=80=9D many said they had entrusted =
+Celsius with their life savings. One said he took out home equity and cashe=
+d in his work pension and his savings for his kids=E2=80=99 education to pu=
+t the money into the company=E2=80=99s accounts. Another said it let him qu=
+it his job to move closer to his kid. One entry read: =E2=80=9CI don=E2=80=
+=99t trust the banking system, but I trust #Celsius.=E2=80=9D</p></blockquo=
+te><p style=3D"margin: 16px 0;">As that article explains, the basic idea of=
+ Celsius is that you can deposit your cryptocurrencies with Celsius =E2=80=
+=94=C2=A0essentially, lend them to Celsius =E2=80=94=C2=A0and it will pay y=
+ou a pretty high interest rate, or an even higher interest rate if you=E2=
+=80=99ll accept payment in its own CEL token. Or you can borrow cryptocurre=
+ncies from Celsius and pay it interest.=C2=A0Think about possible explanati=
+ons for how=C2=A0Celsius could offer a higher interest rate on deposits tha=
+n your local bank:</p><ol style=3D"list-style-type: decimal; padding-left: =
+40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">The bank is lyi=
+ng.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">Celsius is lying.</li>=
+=09<li style=3D"margin-bottom: 5px;">Celsius is making=C2=A0<em>riskier loa=
+ns=C2=A0</em>than your bank, which carry higher interest rates. Functionall=
+y, if Celsius is lending out cryptocurrencies, it is lending them to crypto=
+ speculators who want to make leveraged bets on those currencies. In partic=
+ular, if it is lending out Bitcoins or other volatile cryptocurrencies, it =
+is lending them to people who want to short those cryptocurrencies; if it i=
+s lending out stablecoins, it is lending them to people who want to get lev=
+eraged=C2=A0long<em>=C2=A0</em>volatile cryptocurrencies. Making leveraged =
+speculative bets on volatile assets with limited trading histories=C2=A0is=
+=C2=A0<em>riskier=C2=A0</em>than, you know, lending people money to buy hou=
+ses, and so it carries a higher interest rate, which Celsius can pass on to=
+ its depositors. But it also means that those deposits are riskier: If Cels=
+ius doesn=E2=80=99t get paid back, you are in trouble.</li>=09<li style=3D"=
+margin-bottom: 5px;">Much of banking regulation reduces the interest that b=
+anks can pass on to its depositors. If a bank has $100 of deposits and can =
+lend out money at 5%, it can=E2=80=99t just lend out=C2=A0$100 at 5%, colle=
+ct 0.1% for its trouble and pass on 4.9% to depositors. A bank has=C2=A0<em=
+>capital requirements,=C2=A0</em>meaning that if it has $100 of loans it wi=
+ll need to have, say, $10 of equity capital that requires some economic ret=
+urn, reducing the amount that can be passed on to depositors. It has=C2=A0<=
+em>liquidity requirements</em>, meaning that if it has $100 of deposits it =
+can=E2=80=99t put them all into long-term loans; it has to keep some of the=
+ money in=C2=A0cash in case any depositors want their money back. It pays f=
+ees to the government for deposit insurance. Prudential regulators examine =
+the bank and make sure its mix of business isn=E2=80=99t too risky, which m=
+akes it less lucrative.</li></ol><p style=3D"margin: 16px 0;">As we know fr=
+om 2008, there are strong incentives, at a bank,=C2=A0(1) to fund as much o=
+f your business as possible with cheap deposits (that is: to be very levere=
+d), (2) to put as much money as possible into lucrative business rather tha=
+n keeping it in the cash drawer, and (3) to choose risky lucrative business=
+es over safe boring businesses. But there are=C2=A0<em>constraints=C2=A0</e=
+m>on banks=C2=A0to stop them from going too far in that direction. One impo=
+rtant set of constraints comes from regulation: Capital and liquidity and p=
+rudential regulation prevent banks from gambling too much with depositors=
+=E2=80=99 money. Another important set of constraints comes from transparen=
+cy and reputation: Banks have to produce audited financial statements expla=
+ining, in some detail, what they are doing with their money; if the stuff t=
+hey are doing is too weird then they=E2=80=99ll have a hard time raising mo=
+re money. Those constraints are imperfect! 2008 happened! People get mad at=
+ banks a lot! Still, the constraints exist.</p><p style=3D"margin: 16px 0;"=
+>In crypto, oh, you know. Here=E2=80=99s <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjItMDYtMTMvY3J5cHRvLWxlbmRlci1jZWxzaXVzLWZyZWV6ZXMtd2l=
+0aGRyYXdhbHMtZnVlbGluZy1tYXJrZXQtcm91dD9jbXBpZD1CQkQwNjEzMjJfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MTMmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBdc6490a1" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ an update on Celsius today</a>:</p><blockquote><p style=3D"margin: 16px 0;=
+">Celsius Network Ltd., one of the biggest lenders in crypto and a key play=
+er in the world of decentralized finance, said late Sunday that it was paus=
+ing withdrawals, swaps and transfers following weeks of speculation over it=
+s ability to make good on the outsize returns it offered on certain of its =
+products, including yields as high as 17%. The move effectively halted a pl=
+atform with registered entities across the globe and billions of dollars wo=
+rth of digital coins under management, accelerating a selloff in the broade=
+r market that was already in progress on concern over prospects for tighten=
+ing monetary policy ahead of a Federal Reserve meeting this week. ...</p><p=
+ style=3D"margin: 16px 0;">A little over a day before Celsius announced its=
+ the halt, Chief Executive Officer Alex Mashinsky appeared to counter specu=
+lation about a freeze on withdrawals, tweeting, =E2=80=9CDo you even know o=
+ne person who has a problem withdrawing from Celsius?=E2=80=9D=C2=A0</p></b=
+lockquote><p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly9ibG9nLmNlbHNpdXMubm=
+V0d29yay9hLW1lbW8tdG8tdGhlLWNlbHNpdXMtY29tbXVuaXR5LTU5NTMyYTA2ZWNjNg/607f07=
+ceef4b8524a319a23cB4f5a92d5" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Celsius=E2=80=99s announcement</a> fro=
+m yesterday:</p><blockquote><p style=3D"margin: 16px 0;">Due to extreme mar=
+ket conditions, today we are announcing that Celsius is pausing all withdra=
+wals, Swap, and transfers between accounts. We are taking this action today=
+ to put Celsius in a better position to honor, over time, its withdrawal ob=
+ligations. =E2=80=A6</p><p style=3D"margin: 16px 0;">We are working with a =
+singular focus: to protect and preserve assets to meet our obligations to c=
+ustomers. Our ultimate objective is stabilizing liquidity and restoring wit=
+hdrawals, Swap, and transfers between accounts as quickly as possible. Ther=
+e is a lot of work ahead as we consider various options, this process will =
+take time, and there may be delays.</p></blockquote><p style=3D"margin: 16p=
+x 0;">Here is Celsius=E2=80=99s awkward-with-six-days-of-hindsight Medium p=
+ost from last Tuesday, titled =E2=80=9C<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/28041567.268603/aHR0cHM6Ly9ibG9nLmNlbHNpdXMubmV0d29yay=
+9kYW1uLXRoZS10b3JwZWRvZXMtZnVsbC1zcGVlZC1haGVhZC00MTIzODQ3ODMyYWY/607f07cee=
+f4b8524a319a23cB38fcbab6" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Damn the Torpoedoes, Full Speed Ahead</a>=
+=E2=80=9D:</p><blockquote><p style=3D"margin: 16px 0;">We at Celsius are on=
+line 24=E2=80=937. We=E2=80=99re working around the clock to continue to se=
+rve our community. Celsius has one of the best risk management teams in the=
+ world. Our security team and infrastructure is second to none. We have mad=
+e it through crypto downturns before (this is our fourth!). Celsius is prep=
+ared.</p><p style=3D"margin: 16px 0;">At this already challenging time, it=
+=E2=80=99s unfortunate that vocal actors are spreading misinformation and c=
+onfusion. =E2=80=A6</p><p style=3D"margin: 16px 0;">Let us be clear: ...</p=
+><p style=3D"margin: 16px 0;"><strong>Celsius continues to process withdraw=
+als without delay.</strong> We have not had any issues meeting withdrawal r=
+equests. Celsius honors all withdrawals as quickly as possible and works ha=
+rd to support customers if and when there are delays.</p><p style=3D"margin=
+: 16px 0;"><strong>Celsius has the reserves (and more than enough ETH) to m=
+eet obligations,</strong> as dictated by our comprehensive liquidity risk m=
+anagement framework.</p></blockquote><p style=3D"margin: 16px 0;">See, I ge=
+nuinely think that there are some people who would sneer at a bank saying =
+=E2=80=9Cwe have a fortress balance sheet and exceed out regulatory require=
+ments for capital and liquidity, as you can tell from our quarterly financi=
+al statements=E2=80=9D: =E2=80=9CSure,=E2=80=9D these people would scoff, =
+=E2=80=9Cwe=E2=80=99ve heard that before.=E2=80=9D And then they=E2=80=99ll=
+ read a Medium post from a crypto project that claims to have, but does not=
+ describe, a =E2=80=9Ccomprehensive liquidity risk management framework=E2=
+=80=9D and put all their money in it.</p><p style=3D"margin: 16px 0;">Oh by=
+ the way, another important problem in 2008 was the=C2=A0<em>interconnected=
+ness=C2=A0</em>of banks: One financial institution would run into trouble, =
+and it would turn out that a bunch of other important institutions depended=
+ on it. In that vein, here is <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28041567.268603/aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tLzIwMjIvNi8xMy8=
+yMzE2NTQwMS9kZWZpLWNyeXB0b2N1cnJlbmN5LWNlbHNpdXMtbmV0d29yay1wYXVzZS13aXRoZH=
+Jhd2Fscw/607f07ceef4b8524a319a23cBd75d9ff6" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">the Verge today</a>:</p=
+><blockquote><p style=3D"margin: 16px 0;">Because of its size, Celsius touc=
+hes a lot of other parts of cryptocurrency markets. For instance,=C2=A0<a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aHR0cH=
+M6Ly93d3cuZnQuY29tL2NvbnRlbnQvNWVmZjZjMzgtOTQxMC00NWFmLTk0ZjctMjQ4OGIzYTg3Y=
+2Fk/607f07ceef4b8524a319a23cBfa38e4aa" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Celsius Network bo=
+rrowed $500 million from Tether</a>, the dollar-pegged stablecoin. (The loa=
+n was originally $1 billion,=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/28041567.268603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Z=
+lYXR1cmVzLzIwMjEtMTAtMDcvY3J5cHRvLW15c3Rlcnktd2hlcmUtcy10aGUtNjktYmlsbGlvbi=
+1iYWNraW5nLXRoZS1zdGFibGVjb2luLXRldGhlcj9jbXBpZD1CQkQwNjEzMjJfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MTMm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9e67041e" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">Bloomberg reported</a>.) The loan is collateralized in Bitcoin. =
+=E2=80=9CIf Bitcoin drops, they give us a margin call [and then] we have to=
+ give them more Bitcoin,=E2=80=9D Celsius CEO Alex Mashinsky=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvMDAzNTAxNmMtMjlhZC00ZTZmLTkxNjMtMmExN2RmNDkwYWE1=
+/607f07ceef4b8524a319a23cB5ab7c2f7" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">told=C2=A0<em>The Fin=
+ancial Times</em></a><em>=C2=A0</em>last year<em>.</em></p></blockquote><p =
+style=3D"margin: 16px 0;">Tether, like Celsius, is roughly speaking a crypt=
+o bank: It is a stablecoin project that takes people=E2=80=99s dollars and =
+invests them in dollar-denominated assets. Unlike a regular bank, Tether ha=
+s no capital requirements: Its assets (commercial paper, etc.) more or less=
+ exactly match its liabilities (stablecoins issued), and if the assets lose=
+ a bit of value then the loss will fall on its depositors. Tether's latest =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly9hc3NldHMuY3RmYXNzZXRzLm5ldC92eXNlODhjZ3dmYmwvMW5wNWRwY3d1SHJXSjRBZ=
+1VnSTNWbi9lMGRhYzcyMmRlM2NlYTA3NzY2ZTA1YzUyNzczNzQ4Yi9UZXRoZXJfQXNzdXJhbmNl=
+X0NvbnNvbGlkYXRlZF9SZXNlcnZlc19SZXBvcnRfMjAyMi0wMy0zMV9fM18ucGRm/607f07ceef=
+4b8524a319a23cB51824ee6" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">reserves report</a>, as of March 31, 2022,=
+ states that its =E2=80=9Cconsolidated total assets amount to at least US$8=
+2,424,821,101,=E2=80=9D while its=C2=A0=E2=80=9Cconsolidated total liabilit=
+ies amount to US$82,262,430,079, of which US$82,188,190,8131 relates to dig=
+ital tokens issued.=E2=80=9D That represents equity capital of about $162.4=
+ million on a balance sheet of $82 billion, or a capital ratio of about 0.2=
+0%. Banks have <a href=3D"https://link.mail.bloombergbusiness.com/click/280=
+41567.268603/aHR0cHM6Ly93d3cuYmlzLm9yZy9iYXNlbF9mcmFtZXdvcmsvY2hhcHRlci9SQk=
+MvMjAuaHRtP2luZm9yY2U9MjAyMzAxMDEmcHVibGlzaGVkPTIwMjAxMTI2/607f07ceef4b8524=
+a319a23cBd02b34f2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">risk-weighted capital requirements</a> of at lea=
+st 8%. Banks also publish audited financial statements and have prudential =
+requirements limiting what they can do with their money; Tether does not. I=
+f, say, one $500 million loan to Celsius =E2=80=94=C2=A0or one similar-size=
+d margin loan to some other crypto firm during a crypto market meltdown =E2=
+=80=94 went bad, Tether=E2=80=99s entire capital would be vaporized and its=
+ stablecoin would be undercollateralized.=C2=A0</p><table class=3D"liveinte=
+nt-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"cente=
+r">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yODA0MTU2NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzMTAxNzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH040dd20d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D28041567&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28310170&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Stablegains</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">People talk a lot about =E2=80=9C<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDktMTcvbW9uZXktc3=
+R1ZmYtYmUtY2FyZWZ1bC13aXRoLXlvdXItZmluYW5jaWFsLWluZmx1ZW5jZT9jbXBpZD1CQkQwN=
+jEzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1=
+dG1fdGVybT0yMjA2MTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23=
+cB4e44bc55" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">financial literacy</a>,=E2=80=9D which mostly means loo=
+king very impressed about compound interest. I think sometimes about what r=
+eal financial literacy education=C2=A0might look like. Here is a simple les=
+son:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: =
+16px 0;">=09<li style=3D"margin-bottom: 5px;">Often, risk and reward are co=
+rrelated: Something with a low risk probably has a low expected return, whi=
+le something that could plausibly make you a ton of money could also lose y=
+ou a ton of money.</li>=09<li style=3D"margin-bottom: 5px;">Not always! Lot=
+s of finance is about finding the exceptions, or at least about finding opt=
+imal points on the risk/reward trade-off. If you are taking a financial lit=
+eracy class you shouldn=E2=80=99t be=C2=A0<em>too=C2=A0</em>optimistic abou=
+t your chances of being good at this, but you should be alive to the possib=
+ility.</li>=09<li style=3D"margin-bottom: 5px;">That said, any investment t=
+hat is=C2=A0<em>advertised=C2=A0</em>as having a high return with low risk =
+is very likely to be a scam.</li>=09<li style=3D"margin-bottom: 5px;">IF IT=
+=E2=80=99S IN THE NAME IT=E2=80=99S DEFINITELY A SCAM.</li></ol><p style=3D=
+"margin: 16px 0;">Here=E2=80=99s <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/28041567.268603/aHR0cHM6Ly93d3cubWFya2V0cGxhY2Uub3JnLzIwMjIv=
+MDYvMDkvd2hlbi1hLWNyeXB0b2N1cnJlbmN5LXlvdS1uZXZlci1oZWFyZC1vZi1kcmFpbnMteW9=
+1ci1saWZlLXNhdmluZ3Mv/607f07ceef4b8524a319a23cB30a0789f" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">a Marketpl=
+ace story about =E2=80=9CStablegains,=E2=80=9D</a> and that name tells you =
+absolutely everything you need to know about Stablegains. Absolutely everyt=
+hing! You=E2=80=99d know not to invest in Stablegains after the first 10 mi=
+nutes of my financial literacy class! It is =E2=80=9Cstable,=E2=80=9D but=
+=C2=A0it is also =E2=80=9Cgains,=E2=80=9D which means that it will incinera=
+te your money with 100% probability. It did.</p><p style=3D"margin: 16px 0;=
+">Since you are reading this column you are probably a bit more advanced, s=
+o I=E2=80=99ll tell you that the particular method Stablegains chose to inc=
+inerate its customers=E2=80=99 money was by putting it in <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTEvdGVycmEtZmxvcHM_Y21waW=
+Q9QkJEMDYxMzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZ=
+XR0ZXImdXRtX3Rlcm09MjIwNjEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b852=
+4a319a23cB65f4eaaa" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> TerraUSD stablecoins</a>. Also it managed to=
+ lose its money so efficiently that there=E2=80=99s no one left to sue:</p>=
+<blockquote><p style=3D"margin: 16px 0;">After being contacted by several S=
+tablegains users, Kevin Osborne at the class-action law firm EKO Law explor=
+ed the possibility of a lawsuit.</p><p style=3D"margin: 16px 0;">But for no=
+w, any plans for litigation are on hold. =E2=80=9CIf a defendant has very l=
+ittle in the way of liquid assets, has no insurance, then you=E2=80=99re no=
+t going to be doing anything for the people that you represent,=E2=80=9D Os=
+borne said.</p><p style=3D"margin: 16px 0;">And to go after Stablegains=E2=
+=80=99 venture capital backers, plaintiffs have to meet a high legal thresh=
+old, he added.</p></blockquote><p style=3D"margin: 16px 0;">On the other ha=
+nd, anyone with money who got within a million miles of the TerraUSD implos=
+ion will get sued, as they probably should; here's one:</p><blockquote><p s=
+tyle=3D"margin: 16px 0;">In a class action lawsuit filed on Monday in North=
+ California, cryptocurrency exchange Binance.US has been accused of mislead=
+ing investors surrounding the Terra blockchain ecosystem. ...</p><p style=
+=3D"margin: 16px 0;">The lawsuit also alleges that Binance.US is not regist=
+ered as a broker-deal or an exchange, which may be in violation of securiti=
+es law after it listed what might be an unregistered security in UST.</p></=
+blockquote><p style=3D"margin: 16px 0;">Was TerraUSD an unregistered securi=
+ty that was illegally sold to US investors? I dunno; I think <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMjUvdGVycmEtaXMtYmFjay1=
+mcm9tLWJhbmtydXB0Y3k_Y21waWQ9QkJEMDYxMzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbW=
+FpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjEzJnV0bV9jYW1wYWlnbj1tb=
+25leXN0dWZm/607f07ceef4b8524a319a23cB3c6c7436" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> there=E2=80=99s a d=
+ecent case for that</a>. And it vaporized enough money that there are a lot=
+ of lawyers with incentives to make that case.</p><table class=3D"header" w=
+idth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Elon Musk=E2=80=99s <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cuZnQu=
+Y29tL2NvbnRlbnQvMDAwMTVmYjMtMDNlNC00OTJmLTlmOGItNDQ4MTcyYWI0YWVl/607f07ceef=
+4b8524a319a23cBf7bfe1c5" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">bankers have a dilemma</a>: do they help h=
+im kill the Twitter deal? Tesla Files to <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjItMDYtMTAvdGVzbGEtZmlsZXMtdG8tc3BsaXQtc2hhcmVzLTMtZm9=
+yLTEtYXMtc3RvY2stcGx1bmdlcz9jbXBpZD1CQkQwNjEzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MTMmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB79e84128" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Split Shares=
+ 3-for-1</a> as Investors Bail on Stock. Meta Scrutinizing Sheryl Sandberg=
+=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/2804156=
+7.268603/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9tZXRhLXNjcnV0aW5pemluZy1zaG=
+VyeWwtc2FuZGJlcmdzLXVzZS1vZi1mYWNlYm9vay1yZXNvdXJjZXMtb3Zlci1zZXZlcmFsLXllY=
+XJzLTExNjU0ODgyODI5P21vZD1ocF9sZWFkX3BvczY/607f07ceef4b8524a319a23cB35b8a3d=
+9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Use of Facebook Resources</a> Over Several Years. =E2=80=9CAll=
+ in all, the top six global banks made roughly <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2ZlYXR1cmVzLzIwMjItMDYtMTIvaG93LW11Y2gtZG8td2FsbC1zdHJlZXQtYmFua=
+3MtbnlzZS1ncy1zaXgtY3Nnbi1wYXktaW4tY2hpbmEtY29tbXVuaXN0cy1hc2s_Y21waWQ9QkJE=
+MDYxMzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXI=
+mdXRtX3Rlcm09MjIwNjEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a=
+23cB50670e46" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">$42 million</a> in China last year.=E2=80=9D Apollo, =
+Carlyle See <a href=3D"https://link.mail.bloombergbusiness.com/click/280415=
+67.268603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDYtM=
+TAvYXBvbGxvLWNhcmx5bGUtc2VlLWJ1eW91dC1mdW5kcmFpc2luZy1zbG93LXdpdGgtbWFya2V0=
+cy1vbi1lZGdlP2NtcGlkPUJCRDA2MTMyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXR=
+tX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYxMyZ1dG1fY2FtcGFpZ249bW9uZXlzdH=
+VmZg/607f07ceef4b8524a319a23cBf5720ac8" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> Buyout Fundraising Slow</a=
+> With Markets on Edge. More BlackRock Investors Opt to <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cud3NqL=
+mNvbS9hcnRpY2xlcy9tb3JlLWJsYWNrcm9jay1pbnZlc3RvcnMtb3B0LXRvLXZvdGUtdGhlaXIt=
+b3duLXNoYXJlcy0xMTY1NTA0NTM1OT9tb2Q9aHBfbGVhZF9wb3M3/607f07ceef4b8524a319a2=
+3cB292015a9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">Vote Their Own Shares</a>. Bank of England Will Drop P=
+andemic <a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.2=
+68603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDYtMTMvY=
+mFuay1vZi1lbmdsYW5kLXdpbGwtZHJvcC1wYW5kZW1pYy1jYXBpdGFsLWJ1ZmZlci1yZXF1aXJl=
+bWVudD9jbXBpZD1CQkQwNjEzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/60=
+7f07ceef4b8524a319a23cB67f0f9b6" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">Capital Buffer</a> Requirement. <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aHR0=
+cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jaXByaWFuaS10by1nZXQtbmV3LWxpZmVsaW5lLXd=
+pdGgtbW9uZXktZnJvbS1oZWRnZS1mdW5kLTExNjU0NjAzMjAx/607f07ceef4b8524a319a23cB=
+b5d47ab1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">Cipriani</a> to Get New Lifeline With Money From Hedge Fu=
+nd. Sriracha Hot-Sauce Maker Warns of <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9=
+zcmlyYWNoYS1ob3Qtc2F1Y2UtbWFrZXItd2FybnMtb2Ytc3VtbWVyLXNob3J0YWdlLTExNjU0OT=
+E1Njcx/607f07ceef4b8524a319a23cB1a4b03f7" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Summer Shortage</a>. Ama=
+zon is being sued by Prime members for getting rid of <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cuYnVzaW5=
+lc3NpbnNpZGVyLmNvbS9hbWF6b24tcHJpbWUtbWVtYmVycy1zdWUtZm9yLWVuZGluZy1mcmVlLX=
+dob2xlLWZvb2RzLWRlbGl2ZXJ5LTIwMjItNg/607f07ceef4b8524a319a23cB60461954" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">free Whole Foods delivery</a>. A <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29=
+tL2FydGljbGVzL2Etc2lsaWNvbi12YWxsZXktc3VtbWVyLWNhbXAtd2FudHMta2lkcy10by1kaX=
+RjaC10aGUtY2Fub2VzLWZvci1ob2xvZ3JhcGhpYy1jb2Rpbmc/607f07ceef4b8524a319a23cB=
+c6020cec" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">Silicon Valley Summer Camp</a> Wants Kids to Ditch the Ca=
+noes for Holographic Coding. =E2=80=9CSome 17% of ads shown on televisions =
+connected through a streaming device =E2=80=A6 are playing <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cud3=
+NqLmNvbS9hcnRpY2xlcy9zb21lLWFkcy1wbGF5LW9uLXN0cmVhbWluZy1zZXJ2aWNlcy1ldmVuL=
+XdoZW4tdGhlLXR2LWlzLW9mZi1zdHVkeS1maW5kcy0xMTY1NTA0MjQwMT9tb2Q9aXRwX3dzaiZy=
+dT15YWhvbw/607f07ceef4b8524a319a23cB211bbfb8" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">while the TV is off</=
+a>.=E2=80=9D Geico ordered to pay Missouri woman $5.2 million after she <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aHR0c=
+HM6Ly93d3cuY25uLmNvbS8yMDIyLzA2LzA5L3VzL2dlaWNvLWluc3VyYW5jZS1zdGQtc2V0dGxl=
+bWVudC1taXNzb3VyaS9pbmRleC5odG1s/607f07ceef4b8524a319a23cBf1fe4f6a" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>contracted STD in a car</a>.=C2=A0Seth Green <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnN=
+pZGVyLmNvbS9zZXRoLWdyZWVuLXBheXMtMjYwMDAwLXJldHVybi1zdG9sZW4tYm9yZWQtYXBlLW=
+V0aGVyZXVtLW5mdC0yMDIyLTY_YW1w/607f07ceef4b8524a319a23cBdc4ebe7a" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+pays $260,000 ransom</a> for a stolen Bored Ape Ethereum NFT meant to featu=
+re in his new TV show: report.</p><p style=3D"margin: 16px 0;"><span class=
+=3D"news-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=
+=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aHR0cD=
+ovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1za=
+WdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a=
+319a23cB7bafc55f" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">subscribe at this lin=
+k</a>. Or you can subscribe to Money Stuff and other great Bloomberg newsle=
+tters <a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268=
+603/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a3=
+19a23cBc732b6f8" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1=
+] Conversely, what if the market soars and the target regrets signing the d=
+eal at $100 because it is now worth $150? This is a less pressing problem, =
+for various reasons. For one thing, markets =E2=80=9Ctake the stairs up and=
+ the elevator down,=E2=80=9D so a rapid market melt-up seems less probable =
+than a rapid meltdown. For another thing, buyouts are generally agreed at a=
+ premium, so the merger price probably looks good even relative to a rising=
+ stock price. But, yes, sometimes it happens that the target thinks =E2=80=
+=9Cif we were selling ourselves now we would get $150,=E2=80=9D and the way=
+ merger agreements generally handle that is with a negotiated provision abo=
+ut when and how the target can accept a =E2=80=9Csuperior offer.=E2=80=9D I=
+n most deals, there is a =E2=80=9Cno-shop=E2=80=9D clause prohibiting the t=
+arget from *seeking* a better offer, but for fiduciary-duty reasons the tar=
+get is generally allowed to *accept* a better offer, if it comes in unsolic=
+ited, as long as it gives the buyer a matching right and a breakup fee if i=
+t takes the other deal. Also, generally, the target=E2=80=99s shareholders =
+can vote down the deal =E2=80=94=C2=A0if, for instance, they decide that th=
+e target is now worth $150. So in some rough sense the buyer takes at least=
+ some of the risk of the stock market going *up*: If things get vastly bett=
+er for the target between signing and closing, the target maybe *can* get o=
+ut of the agreed deal.</em></p><p style=3D"margin: 16px 0;"><em>[2] There i=
+s an approximate=C2=A0exception in many private-equity-type buyouts where t=
+here will be a financing condition where the buyer can get out of the deal =
+if it can=E2=80=99t get financing, but generally in big modern deals the fi=
+nancing is pretty committed and there is no explicit financing condition.</=
+em></p><p style=3D"margin: 16px 0;"><em>[3] I am quoting from the definitio=
+n of =E2=80=9CCompany Material Adverse Effect=E2=80=9D in the Twitter Inc. =
+merger agreement (<a href=3D"https://link.mail.bloombergbusiness.com/click/=
+28041567.268603/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTg=
+wOTEvMDAwMTE5MzEyNTIyMTUyMjUwL2QyODMxMTlkcHJlbTE0YS5odG0jYW54YXRvYzI4MzExOV=
+8x/607f07ceef4b8524a319a23cBd95416ef" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">page A-4 here</a>). The defin=
+ition of =E2=80=9CMaterial Adverse Effect=E2=80=9D in the Anaplan Inc. merg=
+er agreement (<a href=3D"https://link.mail.bloombergbusiness.com/click/2804=
+1567.268603/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE1NDA3NTU=
+vMDAwMTE5MzEyNTIyMTM3MDIzL2QzMDk1NDVkZGVmbTE0YS5odG0jYW54YXRvYzMwOTU0NV8y/6=
+07f07ceef4b8524a319a23cB844caba4" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">page A-6 here</a>) excludes the r=
+esults of =E2=80=9Cgeneral changes in the economy or securities, credit, fi=
+nancial or other capital markets of the U.S. or any other region outside of=
+ the U.S.=E2=80=9D=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[4] Here =
+I am quoting Section 5.1(a) of the Anaplan merger agreement. In Section 6.1=
+ of the Twitter merger agreement, Twitter promises to =E2=80=9Cuse its comm=
+ercially reasonable efforts to conduct the business of the Company and its =
+Subsidiaries in the ordinary course of business.=E2=80=9D</em></p><p style=
+=3D"margin: 16px 0;"><em>[5] Indap notes: =E2=80=9C</em><em>While the Anapl=
+an chief later offered to reduce pay grants to himself and other senior exe=
+cutives, Thoma Bravo was unmoved and the firm feared that attempts to =E2=
+=80=98remediate the actions would risk damaging employee morale=E2=80=99.=
+=E2=80=9D That is, if you=E2=80=99re trying to get out of the deal, you hav=
+e to be able to argue that the covenant breach is somehow unfixable. =E2=80=
+=9CYou told employees you would pay them too much, so we can walk, but if y=
+ou don=E2=80=99t pay them that much we can also walk.=E2=80=9D</em></p><p s=
+tyle=3D"margin: 16px 0;"><em>[6]=C2=A0Elon Musk has <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/28041567.268603/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMDYvZWxvbi1oYXMtYS1uZXctYm90LWV4=
+Y3VzZT9jbXBpZD1CQkQwNjEzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/60=
+7f07ceef4b8524a319a23cEe3dd6f22" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> made similar threats</a> to Twitt=
+er, about how really his=C2=A0banks=C2=A0need more information about Twitte=
+r=E2=80=99s supposed bot problem.</em></p><p style=3D"margin: 16px 0;"><em>=
+[7] When I say =E2=80=9Cmore or less waive,=E2=80=9D I guess I mean what An=
+aplan got: No conditions for reps and warranties, and only =E2=80=9Cwillful=
+ breach after the amendment that is material to the transaction=E2=80=9D fo=
+r covenants. Maybe even stronger than that; it=E2=80=99s Elon Musk we=E2=80=
+=99re talking about. Also I would remove the financing condition to Musk=E2=
+=80=99s specific-performance obligation, so that he is just on the hook to =
+fund the whole merger whether or not his banks fund, so he can=E2=80=99t us=
+e his banks as an excuse.</em></p><p style=3D"margin: 16px 0;"><em>[8]=C2=
+=A0This is kind of a joke, and M&amp;A lawyers tend to believe that there a=
+re good reasons for breakup fees to typically be single-digit percentages o=
+f deal value. But I actually think that $20 billion is a reasonable estimat=
+e of the damages that Twitter would suffer from Musk walking away? I=E2=80=
+=99d ask for $20 billion. The point is that you never want the breakup fee,=
+ Musk should be required to close the deal in all circumstances, but he fig=
+hts everything so you want your backup to be an enormous fee.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB168ccb99" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBd14a6208" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB53cac5b2" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBf6e8ef1d" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yODA0MTU2NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzMTAxNzAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI99379d3d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D28041567&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28310170&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB036e5592" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28041567.268603/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC12cb7dbb" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/28041567.268603/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBf56cbfe2" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/28041567.268603/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBa76977db" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBc=
+a3d4075" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28041567.268603/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB0=
+f0426b9" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D280415=
+67&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28310170&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D280415=
+67&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28310170&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D280415=
+67&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28310170&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D280415=
+67&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28310170&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D280415=
+67&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28310170&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgp10f.5r97/41dcfda9.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_68074820_1576920287.1655142711572--
+

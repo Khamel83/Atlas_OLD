@@ -1,0 +1,2589 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a17:902:b410:b0:16d:2c4f:9dc9 with SMTP id x16csp976164plr;
+        Thu, 21 Jul 2022 05:56:27 -0700 (PDT)
+X-Received: by 2002:a05:600c:3ba3:b0:3a3:5dd:f10f with SMTP id n35-20020a05600c3ba300b003a305ddf10fmr8179688wms.185.1658408187354;
+        Thu, 21 Jul 2022 05:56:27 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1658408187; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=cdzBnlt5+82XfsGpnvZjrBz6iEr+oe6jdoYjoGQedXXwAoYZ/RK93+03Afc1eJeX00
+         yldxHjT+72YoZyrWMYrL5WdK/9tRj0Zu06ZbzZqM7CMaIChq0sCOPTGj1gPzcqAHStOL
+         109GJelEUt81QtaSD+p4m3VuaZwuVifzui7wD93TIbyd3bwQB/yKSapD2+XBqBO4JzXE
+         wVWaN5ncKIEKEQUFBxmJ7NnmVBGDjioZR8R+P2fQkwDYFEXg9QycPhhCnwueVyUuaG5H
+         e1ws8195YWmIYx/BWMnK6ON4eOFE8mfKkQvIPT07QAGsYfJPt3lNLdSfxQCIwsY66Ra0
+         0snA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-owner:list-post:sender:list-unsubscribe-post:list-archive
+         :list-url:list-id:reply-to:message-id:in-reply-to:references:date
+         :list-unsubscribe:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=lWw403IHootLOrUEr2ncpMIVmOZU5f1+Hl98USQd/n8=;
+        b=b4HK4EDlDhb2I+rSY/kyAGmMElJ7xZQEncaDIj3wFRiZ56Dv9MbKOMz7tMBIPk1cBw
+         78N+i3weuURs6Xqc3Ft3o6/hAfyBd3y3W9JPeiWQJjg3jy9klgn2XFMIcaYX/wUgKjmy
+         QB19DMwMWIXz3eEBk944EbkB1chBdQs+IZQfVuvciOXn7c+TjRvYWJ0Wcnwz64cqUPId
+         7dx31ekGIxNH8VQkUCymBCebHOrwoIXlTQ5CMNvU0906MXNgUy2jvhkUF1E6QGxLSiLE
+         0sVkYwV+LfBOpfKVIrlYmFD8x1CuaeY71A1uwD+Z+7HP9VYeGqqB1rm4irID3+OQT52a
+         lF6Q==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=nOqV7PV3;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p4-20020a05600c204400b003a31d6fb45bsor1362741wmg.12.2022.07.21.05.56.27
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 21 Jul 2022 05:56:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=nOqV7PV3;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:mime-version:subject
+         :from:to:list-unsubscribe:date:references:in-reply-to:message-id
+         :reply-to:list-id:list-url:list-archive:list-unsubscribe-post:sender
+         :list-post:list-owner;
+        bh=lWw403IHootLOrUEr2ncpMIVmOZU5f1+Hl98USQd/n8=;
+        b=PycdmpwzK/Q05KXju1CnM17HXQcRhmBCLZIDbzhGaRBxsVE39tPC0IyVbo1bdUmz8M
+         Ja0uCjDn1MpQHM+OyJAs4fgvENIsd0rHnzbF5F2V0galbr/tJle8Zy6DeF04GwU3vENK
+         EjE0lf2k5YMSkX9hJyt7XBSWuCKjeGb3Bc2Iqva4UFjzx0Hr6z3fbDAMmqAfIKSKNHj8
+         lMnRglMGI80NOWY0tjYhOYAqPhlCGMHGD/4nngqy7+pIOHBpN/KrCxHi2soKZkcbTmgd
+         c1XfkrTeWn/itTt6EKeZkPHrw14rUv6U5kuBTTQNjh8r/aSbUn5WxoMmWj8ZosUjZPTq
+         +9FA==
+X-Gm-Message-State: AJIora/0Z4D0Vs6qDVzoEhzOllkXD59Asmphiw1K8qnbYc4snENyroUf
+	4jtznfxZQFgjFxD9LKKPTRIN18Y0Bvg9gy/d4QeWFlFRvbm235VFdA==
+X-Received: by 2002:a7b:cbd4:0:b0:3a3:20eb:2b80 with SMTP id n20-20020a7bcbd4000000b003a320eb2b80mr7818453wmi.175.1658408186470;
+        Thu, 21 Jul 2022 05:56:26 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f4c3:0:0:0:0:0 with SMTP id h3csp4258686wrp;
+        Thu, 21 Jul 2022 05:56:24 -0700 (PDT)
+X-Received: by 2002:ac8:7d88:0:b0:31e:e445:ab23 with SMTP id c8-20020ac87d88000000b0031ee445ab23mr19159463qtd.649.1658408183816;
+        Thu, 21 Jul 2022 05:56:23 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1658408183; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=r62dZ3X3iE2SnDOE2UL/N76XTEYBbn/fgC3rGrxGLjB2WI6GxhC7OTHQBSgr6ZHOlJ
+         CW0hwUe6MG49gNaPiFm03HVytJ9y5ohV98VxVM+YuBGodWeFv3vDNMYcymfTxAROzRGF
+         UfFD34PKTslvV/WlC3ensJ/DRFgx+7m7MLw6hgc4DCYvkFh7EAkehKncJC2VIlv3t4NE
+         AqkANcMln/5VheVlQGTbJ9fsUUTSBEC6B6B0YtUQhjI0YaliNMxhbTc85Ns13LgYXVHj
+         PXbiKGw2hDMB8bjM9g3Vdw5UlhuM8wTlWtiXrBFH42b+8Z6ZFFV+yxmFpRUSAW8gu+D3
+         6tkA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-owner:list-post:sender:list-unsubscribe-post:list-archive
+         :list-url:list-id:reply-to:message-id:in-reply-to:references:date
+         :list-unsubscribe:to:from:subject:mime-version:dkim-signature;
+        bh=lWw403IHootLOrUEr2ncpMIVmOZU5f1+Hl98USQd/n8=;
+        b=BNJzDejJ4LQW/VOlNMAbnWB0HqwXWfq2UHMpTTrHPVNoFnZkW0KsQgAQLdXEh9pJy+
+         juItjk5Uw28E+VL1LHLS9vREIkBO6J+ho1yKRzL5B5jZK0rYGZqU3CJmHBknFvEY1Qb2
+         DuRxTEPfFGI3vojmPZuV35mMpKTcHKNPYT1blebZZYw4SGLv4WT06W39kwMRVS7MLd0w
+         7BDP2qaVKoQIfbtYWzBN+g+EJSBZG5liOuNuJRKW+LuF3gDAQicX4h04vfTXxXKrN0MM
+         xrIz/kcySRP750HcUFixSrN1JL8P5LtXtKdI9VXWJRwceBeT2oDor8y+8nizEAg0EdPi
+         sp2A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=nOqV7PV3;
+       arc=pass (i=1 spf=pass spfdomain=mg-d1.substack.com dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id z13-20020ac8454d000000b0031ef366c9b2sor1449247qtn.68.2022.07.21.05.56.23
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 21 Jul 2022 05:56:23 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGRyM1tDFLia5kCbZN5DJ+BY5FQTDQYUnSrFvXUFxHFMqVaR/yc4KtSpaHzVnJ8QNQHLwiuiiOv1i5/KcPrg7nh63nNqJyB8PFo=
+X-Received: by 2002:a05:622a:1d3:b0:31e:ab8e:ae0c with SMTP id t19-20020a05622a01d300b0031eab8eae0cmr33005300qtw.325.1658408183488;
+        Thu, 21 Jul 2022 05:56:23 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1658408183; cv=none;
+        d=google.com; s=arc-20160816;
+        b=fbEtee+uh7muBk40WcN14PMoodVf7TIT2cxsxto9u437VZP1efoaV35M/IBgirSp6l
+         B+8lUtjhT+F5PCq2+OEsw0bq2+8AFYC5Z7QCLFe/IlIp1EwmR2ElWmm1KWTtDhXQ9zUC
+         WsXTazBAGTdGAI4aYSUoYh5LjTR7qF1JWU3q73uYooJogY/QJr1EGCgdfZasH5je/qFV
+         y/i/y0OlbyUuNtbFqurv+TPAyNBS3V5kmyvytyo3s61MTmyvT22p0Gbmq+Nu1gsxhnV7
+         MZN9u8RX4d0FrzIACstox+B1gHZ3rvI/80rDqe2rXBbTr3WYFkf6KGTJbRFF0a0V9rHP
+         BsvQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-owner:list-post:sender:list-unsubscribe-post:list-archive
+         :list-url:list-id:reply-to:message-id:in-reply-to:references:date
+         :list-unsubscribe:to:from:subject:mime-version:dkim-signature;
+        bh=lWw403IHootLOrUEr2ncpMIVmOZU5f1+Hl98USQd/n8=;
+        b=R2ZyO2by6AvmF3/tIKnpcxcRLx5sIlRHhtmXDz3oizRok2zda9ZDkajUmZHbAkx9ws
+         sbV7lmPJIGG5obR0De5IT4b/6HH2/76Sd/tbAS5fCSXeC/qgU4IE/8xHnXHprPmOH9/a
+         TVVVrb+GO0Q5YoZfqTy0y9HAvancBBMyELshgPv6Fn3nMsGYH1y9n0ik4UhCuA0V+WD0
+         d0io0wEtdMsD/qkP/VKEduJ20IW1+mzZc6VLtzPFGIi1b7YtRGTgQiq43OwEpKhBH3ky
+         +JYBLuiKtTX+ocNqj/F82BvEdeXcQO2Y9kCPYzmweR/fvlKO7sYM9SI4sCfempPorye4
+         hYIQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=nOqV7PV3;
+       spf=pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 69.72.32.112 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from mg-32-112.substack.com (mg-32-112.substack.com. [69.72.32.112])
+        by gmr-mx.google.com with UTF8SMTPS id q11-20020a05620a038b00b006b5e6d01ba4si51633qkm.4.2022.07.21.05.56.16
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 21 Jul 2022 05:56:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 69.72.32.112 as permitted sender) client-ip=69.72.32.112;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d1.substack.com; q=dns/txt;
+ s=k1; t=1658408183; x=1658616983; h=List-Owner: List-Post: Sender:
+ Sender: List-Archive: List-Id: Reply-To: Message-Id: In-Reply-To:
+ References: Date: List-Unsubscribe: To: To: From: From: Subject:
+ Subject: Content-Type: Mime-Version;
+ bh=lWw403IHootLOrUEr2ncpMIVmOZU5f1+Hl98USQd/n8=; b=nOqV7PV3JyEeeTwQkP0vC7Zf2V5KRrtQkj7iipc5Rz8W9RJ/Sn8dyjl9nD5XQR2jMSqKeav7
+ 9mVFozsEG9fWxDuII6Zi4YL5OGOenfhz7aTB6keT+tdhsJYZ8Jx4G4D7I8SGdAdx5rDausv+
+ om2zc5hr5xx7L2xRQVAJouacszY=
+X-Mailgun-Sending-Ip: 69.72.32.112
+X-Mailgun-Sid: WyI1OTU0MCIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICIzOWIwOGM2Il0=
+Received: from <unknown> (<unknown> []) by
+ api-n11.prod.us-east-1.postgun.com with HTTP id 62d94cc77d6c66c5efde7830;
+ Thu, 21 Jul 2022 12:55:32 GMT
+X-Mailgun-Batch-Id: 62d94cc533a9262bdd4fd8a1
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="27f953f86fb3faa3daa40c980d2cbb775adeb46febd15f066668018aaae4"
+Subject: Circle & USDC: Building a Stable Platform
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk5qUTVOekl6T0RRc0ltbGhkQ0k2TVRZMU9EUXdPREV6TVN3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuQWhRZUlDZ0hYMTgtUUpDblp3Q2FaZENVZXVtMkViQW1FUmRGZjB3T0lDZyIsInAiOjY0OTcyMzg0LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY1ODQwODEzMSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.P8Apbx4kJ7mOMm9rGeebMgpLpKcRB6BwCn54sIJCdfA?>
+Date: Thu, 21 Jul 2022 12:55:21 +0000
+References: <post-64972384@substack.com>
+In-Reply-To: <post-64972384@substack.com>
+Message-Id: <20220721125521.3.123d291bfe0c0291@mg-d1.substack.com>
+Reply-To: Not Boring
+ <reply+12ol0g&9p0gt&&8c4be0d3b50232c9b2dda9e7c010becf3d2987f5c91bb3504312d2cf13b52b8d@mg1.substack.com>
+List-Id: <notboring.substack.com>
+List-Url: <https://www.notboring.co/>
+List-Archive: <https://www.notboring.co/archive>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Sender: Not Boring <notboring@substack.com>
+List-Post: <https://www.notboring.co/p/circle-and-usdc-building-a-stable>
+List-Owner: <mailto:notboring@substack.com>
+X-Mailgun-Variables: {"category":"post", "comment_id":"",
+ "email_generated_at":"1658408132126", "is_freemail":"true",
+ "post_audience":"everyone", "post_id":"64972384", "post_type":"newsletter",
+ "pub_community_enabled":"true", "publication_id":"10025",
+ "subdomain":"notboring", "user_id":"16283549"}
+
+--27f953f86fb3faa3daa40c980d2cbb775adeb46febd15f066668018aaae4
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/circle-and-usdc-bui=
+lding-a-stable
+
+Welcome to the=C2=A0778=C2=A0newly Not Boring people=C2=A0who have joined u=
+s since Monday! If you haven=E2=80=99t subscribed, join=C2=A0140,394 smart,=
+ curious folks by subscribing here:=20
+=F0=9F=8E=A7 This is a long one! To listen to me read it instead, head over=
+ to Spotify [https://substack.com/redirect/44ca79c0-d72f-44b3-a043-2cd9ce73=
+daab?u=3D16283549] or=C2=A0Apple Podcasts [https://substack.com/redirect/ed=
+dff8f8-e9ce-4109-861d-7d3c88bf5396?u=3D16283549].
+Hi friends =E2=80=8B=E2=80=8B=F0=9F=91=8B,=C2=A0
+Happy Thursday!=C2=A0
+As the dust has begun to (hopefully) settle on the crypto crash, people hav=
+e begun sorting through the rubble to figure out which products from this l=
+ast cycle were useful and real, and which were hypes and ponzis. I=E2=80=99=
+ve thrown my hat into this ring too many times, including two pieces on web=
+3 use cases: Today [https://substack.com/redirect/e1597c7a-aec6-4caa-beef-5=
+95bbce3cf1b?u=3D16283549] and in the Future [https://substack.com/redirect/=
+37697cb5-10c7-48f0-82e0-c15f0fca3faf?u=3D16283549].=C2=A0
+One category that seems to be unanimously viewed as useful, outside of the =
+most skeptical skeptics, is stablecoins. It=E2=80=99s one of the use cases =
+I highlighted a month ago. And among the stablecoins, the consensus seems t=
+o be that USDC is the stablest of them all.=C2=A0
+Stablecoins are sneakily fascinating because they=E2=80=99re both a digital=
+ currency and a sort of platform on top of which new applications can be bu=
+ilt, or old ones improved. But to achieve that promise, they need to actual=
+ly be stable. A dollar-denominated stablecoin, like USDC, needs to be redee=
+mable for a good ol=E2=80=99 fashioned US Dollar, every time, everywhere.=
+=C2=A0
+If a stablecoin can be trusted to perform that foundational obligation, the=
+n developers can begin to build financial products on modern digital rails.=
+ Sometimes, they=E2=80=99ll build entirely new applications, like DeFi prot=
+ocols. Others, they=E2=80=99ll rip out pieces of old, creaky financial infr=
+astructure and replace them with newer rails.=C2=A0
+The revolution does not need to be total to be impactful. Circle is a case =
+study in compromise. It=E2=80=99s a centralized company facilitating the gr=
+owth of a decentralized financial system. It=E2=80=99s used by web2, web3, =
+and web2.5 companies alike. It=E2=80=99s happy to sit in the background, fa=
+cilitating fast, cheap, global payments and loans while others build shiny =
+interfaces and sturdy guardrails on top.=C2=A0
+After seeing USDC=E2=80=99s outperformance during the bear market =E2=80=93=
+ its market cap has grown as the overall market has shrunk =E2=80=93 and se=
+eing a lot of people I respect point to USDC as a gold standard, I decided =
+to team up with Circle to tell the story via a Sponsored Deep Dive. You can=
+ read more about how I choose which companies to work with on Sponsored Dee=
+p Dives here [https://substack.com/redirect/dc4c2e81-fb4a-464f-bd4f-7f4a4d6=
+314fd?u=3D16283549]. In this case, I realized that I didn=E2=80=99t know ne=
+arly as much about stablecoins as I should, and I was pumped that they were=
+ willing to work with me to help understand and then explain.=C2=A0
+As always: this is not financial or investment advice. I=E2=80=99m an idiot=
+, and I=E2=80=99m learning as I go =E2=80=93 you would be foolish to alloca=
+te your cash based on anything I write. Do your own research. But I hope th=
+at it=E2=80=99s an entertaining and informative look into one of crypto=E2=
+=80=99s key building blocks.=C2=A0
+Let=E2=80=99s get to it.=C2=A0
+Circle & USDC: Building a Stable Platform [ https://substack.com/redirect/2=
+/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvY2lyY2xlLWFuZC11c2RjLWJ1aWxkaW=
+5nLWEtc3RhYmxlP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDS=
+TZOalE1TnpJek9EUXNJbWxoZENJNk1UWTFPRFF3T0RFek1Td2lhWE56SWpvaWNIVmlMVEV3TURJ=
+MUlpd2ljM1ZpSWpvaWNHOXpkQzF5WldGamRHbHZiaUo5LnBQYkdVaHF4bEVQdk5KeFBOd0NwQjg=
+3UndqUmZ1WFFhMGJWZjZTWmtUejgiLCJwIjo2NDk3MjM4NCwicyI6MTAwMjUsImYiOnRydWUsIn=
+UiOjE2MjgzNTQ5LCJpYXQiOjE2NTg0MDgxMzEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZ=
+WRpcmVjdCJ9.rlY_bpfMnd7Ud3u167HFPXeFvmyQoqSwrLu_M8BWoaA? ]
+(Click the link to read the full thing online)
+Yes, I know. This newsletter is called Not Boring. But I=E2=80=99m going to=
+ start this essay off by showing you the Most Boring Chart in All of Crypto=
+=2E=C2=A0
+That=E2=80=99s the 1 year price chart of USD Coin (=E2=80=9CUSDC=E2=80=9D),=
+ the fiat-backed, fully-collateralized, dollar-denominated stablecoin issue=
+d by Circle [https://substack.com/redirect/b7e2eca5-4083-4114-aa26-3f0d0fa1=
+8c3b?u=3D16283549]. I dare you to find me a more boring chart.=C2=A0
+For the entire past year, as prices of other crypto assets rollercoastered =
+up and down and up and very down, USDC hugged the $1 line tightly. =F0=9F=
+=A5=B1
+For stablecoins, boring is good. Boring is the goal. And being the most bor=
+ing stablecoin results in a chart that isn=E2=80=99t very boring at all:=C2=
+=A0
+That=E2=80=99s USDC=E2=80=99s market cap since its inception in October 201=
+8, which represents the total USDC in circulation. At the time of writing, =
+July 20th, 2022, that number stands at $54.8 billion. Circulating USDC has =
+more than doubled in the past year, after growing 25x between July 2020 and=
+ July 2021. Since its price is pegged to $1, increases in market cap mean t=
+hat there=E2=80=99s more usage of USDC (the inverse is also true =E2=80=93 =
+the market cap declines when people redeem their USDC for Dollars).
+Boring is a feature, not a bug. It=E2=80=99s key to Circle=E2=80=99s first =
+product value proposition =E2=80=93 digital dollars =E2=80=93 and it=E2=80=
+=99s key to Circle=E2=80=99s mission: To raise global economic prosperity t=
+hrough the frictionless exchange of financial value.=C2=A0
+If you=E2=80=99ve heard of Circle, it=E2=80=99s likely because of USDC. Tha=
+t=E2=80=99s the company=E2=80=99s first killer product. Recently, it announ=
+ced that it=E2=80=99s launching a second, Euro Coin (EUROC).
+But thinking about USDC and EUROC as just stablecoins misses the company=E2=
+=80=99s ambitions to become:
+The platform on top of which developers build a new financial system
+The digital currency of choice institutional investors leverage for trading=
+ and settlement
+A tool that enables the frictionless, borderless exchange of value
+It=E2=80=99s an ambitious bet in a competitive space, and one dogged by bot=
+h valid and invalid concerns, many of which we=E2=80=99ll cover in this pie=
+ce. Circle is trying to differentiate on trust, the necessary foundation fo=
+r its ambitions. Increasingly, it seems to be working.
+I didn=E2=80=99t give much thought to stablecoins until Luna=E2=80=99s UST =
+blew up a couple of months ago. But as I=E2=80=99ve dug in, I=E2=80=99ve re=
+alized that they=E2=80=99re one of the most solid use cases in web3 today, =
+and a fundamental building block in the much bigger visions entrepreneurs i=
+n the space are building towards. Once the idea of programmable, permission=
+less money worms into your brain, it=E2=80=99s hard to see where stablecoin=
+s wouldn=E2=80=99t provide an improvement over the status quo.=C2=A0
+But let=E2=80=99s start with the basics and build up from there:=C2=A0
+What are stablecoins?=C2=A0
+How do stablecoin issuers generate revenue?=C2=A0
+Why are stablecoins a valuable primitive?=C2=A0
+How are USDC and Circle a platform?=C2=A0
+What is Circle=E2=80=99s competitive advantage?=C2=A0
+What would a new financial system built on Circle=E2=80=99s rails look like=
+?=C2=A0
+What Are Stablecoins?
+If you=E2=80=99ve followed the crypto markets recently, you might=E2=80=99v=
+e heard the word =E2=80=9Cstablecoin=E2=80=9D and chuckled. =E2=80=9CStable=
+coin, huh?=E2=80=9D you=E2=80=99d quip, =E2=80=9CNot very =E2=80=A6 stable =
+=F0=9F=98=82.=E2=80=9D It=E2=80=99s a funny joke.=C2=A0
+In May, UST (Terra=E2=80=99s stablecoin) lost its peg to the dollar (transl=
+ation: it became worth less than $1). It flushed hard, bringing the entire =
+Luna ecosystem down with it. Ultimately, it brought down crypto hedge fund =
+Three Arrows Capital (=E2=80=9C3AC=E2=80=9D) which contributed to the downf=
+all of Celsius, BlockFi, Voyager, and other Centralized Finance (=E2=80=9CC=
+eFi=E2=80=9D) lenders. Friend of the newsletter Jon Wu [https://substack.co=
+m/redirect/5a83ed11-c78c-4e51-986f-4c7db438c748?u=3D16283549] wrote a great=
+ thread [https://substack.com/redirect/610d6f60-208c-4c6a-95fd-1093f6e28eec=
+?u=3D16283549] / Not Boring essay [https://substack.com/redirect/27aa3296-9=
+e76-49e2-91e9-7affe9f9292a?u=3D16283549] on Terra-Luna and UST, and Arthur =
+Hayes [https://substack.com/redirect/2699b9c3-a750-4668-b0d9-2fe127eefe19?u=
+=3D16283549] wrote the definitive piece on the 3AC collapse [https://substa=
+ck.com/redirect/cd6e3f71-ee18-4a30-9726-d55785b4e5a4?u=3D16283549] in case =
+you want to read more gory details.=C2=A0
+The UST situation brought to light something that was apparent to anyone wh=
+o dug into the math or simply walked through the logic: not all stablecoins=
+ are created equal. Not all stablecoins are =E2=80=A6 stable.=C2=A0
+The goal of a stablecoin is to stay pegged to its reference asset. For most=
+ stablecoins, that=E2=80=99s the US Dollar. So one (1) USD stablecoin =E2=
+=80=93 like USDC =E2=80=93 should be worth $1. As Alex Danco wrote in 2018 =
+[https://substack.com/redirect/5bf2c64c-6260-4287-aa86-000061fa6623?u=3D162=
+83549]:=C2=A0
+The crucial test that any stablecoin must pass for the market to actually t=
+rust it is: if a user wants to redeem their stablecoins for genuine dollars=
+, under any reasonable circumstance, can they do so?
+=E2=80=9CReasonable=E2=80=9D is doing a lot of work here. People should alw=
+ays be able to redeem their stablecoins for genuine dollars. There are thre=
+e main models stablecoin issuers pursue to make that happen:=C2=A0
+Fiat-Backed
+Cryptocurrency-Backed
+Algorithmic
+We=E2=80=99ll start last, first. Algorithmic stablecoins, like UST, aren=E2=
+=80=99t backed by dollars, a basket of cryptos, commodities, or anything, r=
+eally, outside of what they create themselves.=C2=A0
+Instead of explaining this insanity myself, I=E2=80=99ll turn it over to th=
+e inimitable Matt Levine [https://substack.com/redirect/927ea9bc-18bc-4178-=
+a797-8ddc6f36d0cb?u=3D16283549]:
+Here is how an algorithmic stablecoin works:
+You wake up one morning and invent two crypto tokens.
+One of them is the stablecoin, which I will call =E2=80=9CTerra,=E2=80=9D f=
+or reasons that will become apparent.
+The other one is not the stablecoin. I will call it =E2=80=9CLuna.=E2=80=9D
+To be clear, they are both just things you made up, just numbers on a ledge=
+r. (Probably the ledger is maintained on a decentralized blockchain, though=
+ in theory you could do this on your computer in Excel.)=C2=A0
+You try to find people to buy them.
+Luna will trade at some price determined by supply and demand. If you make =
+it up on your computer and keep the list in Excel and smirk when you tell p=
+eople about this, that price will be zero, and none of this will work.
+But if you do a good job of marketing Luna, that price will not be zero. If=
+ the price is not zero then you=E2=80=99re in business.
+You promise that people can always exchange one Terra for $1 worth of Luna.=
+ If Luna trades at $0.10, then one Terra will get you 10 Luna. If Luna trad=
+es at $20, then one Terra will get you 0.05 Luna. Doesn=E2=80=99t matter. T=
+he price of Luna is arbitrary, but one Terra always gets you $1 worth of Lu=
+na. (And vice versa: People can always exchange $1 worth of Luna for one Te=
+rra.)
+You set up an automated smart contract =E2=80=94 the =E2=80=9Calgorithm=E2=
+=80=9D in =E2=80=9Calgorithmic stablecoin=E2=80=9D =E2=80=94 to let people =
+exchange their Terras for Lunas and Lunas for Terras.=C2=A0
+Terra should trade at $1. If it trades above $1, people =E2=80=94 arbitrage=
+urs =E2=80=94 can buy $1 worth of Luna for $1 and exchange them for one Ter=
+ra worth more than a dollar, for an instant profit. If it trades below $1, =
+people can buy one Terra for less than a dollar and exchange it for $1 wort=
+h of Luna, for an instant profit. These arbitrage trades push the price of =
+Terra back to $1 if it ever goes higher or lower.
+The price of Luna will fluctuate. Over time, as trust in this ecosystem gro=
+ws, it will probably mostly go up. But that is not essential to the stablec=
+oin concept. As long as Luna robustly has a non-zero value, you can exchang=
+e one Terra for some quantity of Luna that is worth $1, which means Terra s=
+hould be worth $1, which means that its value should be stable.
+=E2=80=9CAll of this is,=E2=80=9D Levine writes, =E2=80=9Cquite straightfor=
+ward and correct, except for Point 7, which is insane.=E2=80=9D $UST and $L=
+UNA rose in tandem, and they fell in tandem.=C2=A0
+After UST=E2=80=99s collapse, the market for algorithmic stablecoins will l=
+ikely be muted for a long time, so we don=E2=80=99t need to spend more time=
+ here.=C2=A0
+Cryptocurrency-backed stablecoins are backed by a basket of cryptocurrencie=
+s and are typically overcollateralized, meaning that the dollar value of cr=
+yptocurrencies in the reserve exceeds the dollar value of stablecoins outst=
+anding. They achieve this by requiring each user to deposit more in another=
+ token, like ETH or BTC, than they pull out in stablecoin.=C2=A0
+The leading example here is MakerDAO=E2=80=99s stablecoin, DAI, with a $7.2=
+ billion market cap.
+Here=E2=80=99s how it works:=C2=A0
+A user who wants to take out a loan opens a Vault by sending ERC-20 tokens =
+like ETH, Wrapped BTC, and USDC to the smart contract and receives DAI in r=
+eturn.=C2=A0
+DAI borrowing is overcollateralized, meaning that you need to put in a high=
+er dollar value in your ERC-20 token of choice than you take out in DAI, wi=
+th higher collateral ratios depending on the volatility and liquidity of th=
+e token you deposit. Currently, ETH has a minimum collateral ratio of 170%,=
+ Wrapped BTC of 175%, and Staked ETH of 185%.=C2=A0
+At any time, you can deposit your DAI back in and unlock the ERC-20 you=E2=
+=80=99d locked up.=C2=A0
+If, however, the price of your ERC-20 of choice drops to a point that break=
+s the minimum collateral ratio, Maker will liquidate you, or sell your toke=
+ns.=C2=A0
+The disadvantage of borrowing DAI is that you need to put up a lot of colla=
+teral =E2=80=93 currently, to borrow DAI with ETH requires a minimum collat=
+eral ratio of 170%, meaning I=E2=80=99d need to put in at least $17,000 wor=
+th of ETH to get 10,000 DAI. I also have to pay a Variable Annual Fee, curr=
+ently at 0.50% for ETH deposits.=C2=A0
+Plus, if the price of ETH drops to a point that breaks that ratio =E2=80=93=
+ in this case, if it drops even one cent =E2=80=93 the smart contract liqui=
+dates me by selling the ETH. That could mean that you might be forced to se=
+ll at an inopportune time.
+The advantage of DAI to the borrower is that it=E2=80=99s completely on-cha=
+in, without the need for a centralized intermediary, and works well with yo=
+ur existing crypto holdings. If you want to hold onto your ETH but take out=
+ a little walking around money, you can just lock up the ETH, get DAI, and =
+use it for any of the things you might use stablecoins for.=C2=A0
+The advantage of DAI as a protocol is that, by being overcollateralized and=
+ liquidating below certain thresholds, it can maintain stability and keep t=
+he promise that users can redeem their DAI for their ERC-20 tokens in any r=
+easonable scenario.=C2=A0
+As a result, even during the recent turmoil, DAI has held up well. DAI=E2=
+=80=99s chart isn=E2=80=99t quite as boring as USDC=E2=80=99s, but it=E2=80=
+=99s pretty boring:=C2=A0
+At the time of writing, it=E2=80=99s trading at around $1.00, as designed.=
+=C2=A0
+There are other crypto-backed stablecoins that are pegged to the dollar, wi=
+th more launching regularly, others pegged to assets besides the US Dollar,=
+ and others still that aren=E2=80=99t pegged to anything at all. Some just =
+want to be reserve currencies themselves. OlympusDAO [https://substack.com/=
+redirect/f2bb906e-f160-49af-949e-3c59b0d0df34?u=3D16283549], for example, h=
+as a mix of tokens in its reserve, backing its =E2=80=9CFuture Decentralize=
+d Reserve Currency,=E2=80=9D Ohm. If you=E2=80=99ve seen the (3,3) or (some=
+thing, something) meme on Twitter, that comes from the game theory behind O=
+hm, that it=E2=80=99s better for everyone if everyone just stakes their Ohm=
+ and holds. Ohm has had a bumpy ride, falling from a peak of $420 to a curr=
+ent price of $52.=C2=A0
+There are other promising crypto reserve currency projects, all vying to bu=
+ild an internet-native reserve that isn=E2=80=99t tied to the value of any =
+fiat currency, but they=E2=80=99re different than stablecoins and outside t=
+he scope of this piece.=C2=A0
+That brings us to fiat-backed stablecoins, like USDC.=C2=A0
+Circle=E2=80=99s USDC stablecoin is the most straightforward of the major s=
+tablecoins: for every dollar of USDC in circulation, Circle holds $1 worth =
+of straight cash and US Treasury Bills, for which there is the deepest and =
+most liquid market of any asset in the world.
+If you want to redeem 1 USDC for $1, no magic needs to happen. The dollar i=
+s sitting there, either right in the USDC reserve bank accounts at BNY Mell=
+on and other large banks, or invested in short-term Treasuries that are eas=
+ier than anything else in the world to exchange into dollars. Circle posts =
+weekly reporting and monthly attestations on its website [https://substack.=
+com/redirect/85fb1612-203c-4dce-8636-48780aeaccc4?u=3D16283549].
+To learn so much more about stablecoins, Circle, and USDC=E2=80=A6=20
+Thanks to Jesse [https://substack.com/redirect/46f9e653-258f-4bf6-a3a6-ca3d=
+06d6a345?u=3D16283549], Peter [https://substack.com/redirect/6fce0499-3ab6-=
+4592-8da8-a9200eb4d22d?u=3D16283549], and the Circle team for working with =
+me on this piece, and to Dan [https://substack.com/redirect/e486b91c-9eac-4=
+80d-a38d-2bf13414e098?u=3D16283549] for editing!
+That=E2=80=99s all for today! See you back here tomorrow for some Weekly Op=
+timism.=20
+Thanks for Reading, Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZOalE1TnpJek9EUXNJbWxoZENJNk1UWTFPRFF3T0RFek1Td2lhW=
+E56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LkFoUWVJ=
+Q2dIWDE4LVFKQ25ad0NhWmRDVWV1bTJFYkFtRVJkRmYwd09JQ2ciLCJwIjo2NDk3MjM4NCwicyI=
+6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTg0MDgxMzEsImlzcyI6InB1Yi=
+0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.Qlo2ZScpn70VLpizVf_awePbWz0kSFZD5mRSIN97=
+mOA?
+--27f953f86fb3faa3daa40c980d2cbb775adeb46febd15f066668018aaae4
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D"--border-radius: 4px; --border-radius-4: 4px; --border-radiu=
+s-8: 8px; --color-bg-primary: white; --color-dark-detail: #333333; --color-=
+dark-primary: #e0e0e0; --color-primary: #404040; --color-secondary: #808080=
+; --color-substack-accent: #ff6719; --color-substack-accent-bg: #fff7f3; --=
+color-substack-bg: #ffffff; --color-substack-secondary: #808080; --color-su=
+bstack-wash: #f5f5f5; --color-tertiary: #a7a7a7; --color-text-dark-pencraft=
+: #404040; --color-text-dark-wash: #252525; --color-utility-detail: #e0e0e0=
+; --font-family-text: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMac=
+SystemFont,
+    'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol'; --font-family-title: 'SF Pro Display',=
+ -apple-system-headline, var(--font-family-text); --font-size-14: 14px; --f=
+ont-weight-600: 600; --letter-spacing-small: -0.15px; --padder: 16px;"><hea=
+d><title>Circle &amp; USDC: Building a Stable Platform</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media (max-width: 470px) {
+  .subscribe-dialog.subscribe-dialog-modal {
+    max-width: calc(100% - 30px);
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .subscribe-dialog.subscribe-dialog-floater-center.collapsed {
+    display: none;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .collapse-button {
+    display: none;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-header {
+    margin-top: 32px;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-header .close-button {
+    display: flex;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-input {
+    margin-bottom: 32px;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-description.description-mobile {
+    display: block;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-description.description-desktop {
+    display: none;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .subscribe-dialog.subscribe-dialog-floater-side {
+    right: 15px;
+    max-width: calc(100% - 30px);
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media print {
+  @page {
+    margin: 16mm;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media print {
+  .post .post-footer {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media print {
+  .post .post-end-cta-full {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media print {
+  .use-theme-bg .post p,
+  .use-theme-bg .post h1,
+  .use-theme-bg .post h2,
+  .use-theme-bg .post h3,
+  .use-theme-bg .post h4,
+  .use-theme-bg .post h5,
+  .use-theme-bg .post h6 {
+    color: #000;
+  }
+  .use-theme-bg .post p a,
+  .use-theme-bg .post h1 a,
+  .use-theme-bg .post h2 a,
+  .use-theme-bg .post h3 a,
+  .use-theme-bg .post h4 a,
+  .use-theme-bg .post h5 a,
+  .use-theme-bg .post h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .use-theme-bg .post a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget .header-anchor-widget-bu=
+tton-container {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f5f5f5 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media print {
+  .comments-page .container .thread-head p,
+  .comments-page .container .thread-head h1,
+  .comments-page .container .thread-head h2,
+  .comments-page .container .thread-head h3,
+  .comments-page .container .thread-head h4,
+  .comments-page .container .thread-head h5,
+  .comments-page .container .thread-head h6 {
+    color: #000;
+  }
+  .comments-page .container .thread-head p a,
+  .comments-page .container .thread-head h1 a,
+  .comments-page .container .thread-head h2 a,
+  .comments-page .container .thread-head h3 a,
+  .comments-page .container .thread-head h4 a,
+  .comments-page .container .thread-head h5 a,
+  .comments-page .container .thread-head h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .comments-page .container .thread-head a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media print {
+  .use-theme-bg table.thread-head p,
+  .use-theme-bg table.thread-head h1,
+  .use-theme-bg table.thread-head h2,
+  .use-theme-bg table.thread-head h3,
+  .use-theme-bg table.thread-head h4,
+  .use-theme-bg table.thread-head h5,
+  .use-theme-bg table.thread-head h6 {
+    color: #000;
+  }
+  .use-theme-bg table.thread-head p a,
+  .use-theme-bg table.thread-head h1 a,
+  .use-theme-bg table.thread-head h2 a,
+  .use-theme-bg table.thread-head h3 a,
+  .use-theme-bg table.thread-head h4 a,
+  .use-theme-bg table.thread-head h5 a,
+  .use-theme-bg table.thread-head h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .use-theme-bg table.thread-head a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media print {
+  .mobile-footer-ufi {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 620px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+
+
+@media (min-width: 631px) {
+  .sm\:tw-left-1 {
+    left: 0.25rem !important;
+  }
+  .sm\:tw-my-8 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .sm\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .sm\:tw-mt-0 {
+    margin-top: 0px !important;
+  }
+  .sm\:tw-ml-3 {
+    margin-left: 0.75rem !important;
+  }
+  .sm\:tw-mb-0 {
+    margin-bottom: 0px !important;
+  }
+  .sm\:tw-mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .sm\:tw-block {
+    display: block !important;
+  }
+  .sm\:tw-inline-block {
+    display: inline-block !important;
+  }
+  .sm\:tw-flex {
+    display: flex !important;
+  }
+  .sm\:tw-hidden {
+    display: none !important;
+  }
+  .sm\:tw-h-7 {
+    height: 1.75rem !important;
+  }
+  .sm\:tw-h-screen {
+    height: 100vh !important;
+  }
+  .sm\:tw-h-56 {
+    height: 14rem !important;
+  }
+  .sm\:tw-w-auto {
+    width: auto !important;
+  }
+  .sm\:tw-w-7 {
+    width: 1.75rem !important;
+  }
+  .sm\:tw-w-full {
+    width: 100% !important;
+  }
+  .sm\:tw-w-56 {
+    width: 14rem !important;
+  }
+  .sm\:tw-max-w-lg {
+    max-width: 32rem !important;
+  }
+  .sm\:tw-max-w-none {
+    max-width: none !important;
+  }
+  .sm\:tw-translate-y-0 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-95 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-100 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .sm\:tw-items-start {
+    align-items: flex-start !important;
+  }
+  .sm\:tw-gap-4 {
+    gap: 1rem !important;
+  }
+  .sm\:tw-gap-5 {
+    gap: 1.25rem !important;
+  }
+  .sm\:tw-gap-1 {
+    gap: 0.25rem !important;
+  }
+  .sm\:tw-gap-2 {
+    gap: 0.5rem !important;
+  }
+  .sm\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
+  }
+  .sm\:tw-border {
+    border-width: 1px !important;
+  }
+  .sm\:tw-p-0 {
+    padding: 0px !important;
+  }
+  .sm\:tw-p-6 {
+    padding: 1.5rem !important;
+  }
+  .sm\:tw-py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .sm\:tw-px-6 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .sm\:tw-pb-4 {
+    padding-bottom: 1rem !important;
+  }
+  .sm\:tw-pb-16 {
+    padding-bottom: 4rem !important;
+  }
+  .sm\:tw-text-left {
+    text-align: left !important;
+  }
+  .sm\:tw-align-middle {
+    vertical-align: middle !important;
+  }
+  .sm\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .sm\:tw-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .sm\:tw-font-medium {
+    font-weight: 500 !important;
+  }
+  .sm\:tw-text-pub-secondary-text {
+    color: #767676 !important;
+  }
+  .sm\:tw-opacity-70 {
+    opacity: 0.7 !important;
+  }
+  .sm\:hover\:tw-opacity-100:hover {
+    opacity: 1 !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .md\:tw-left-auto {
+    left: auto !important;
+  }
+  .md\:tw-bottom-4 {
+    bottom: 1rem !important;
+  }
+  .md\:tw-right-4 {
+    right: 1rem !important;
+  }
+  .md\:tw-w-3\/4 {
+    width: 75% !important;
+  }
+  .md\:tw-pl-4 {
+    padding-left: 1rem !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-components-prompts-WriterShareModal-module__toast--wc1bo {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-lib-ProfileSetupToast-module__headerRow--17w27 {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  .frontend-reader2-ManageSubscriptionPage-module__highlightRow--1lIkl.fron=
+tend-reader2-ManageSubscriptionPage-module__withPlans--3KhSk {
+    align-items: start;
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-publish-stats-pages-reader_referrals_stats-reader_referrals_sta=
+ts-module__popoverWrapper--3Gh5i {
+    display: none;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwNzIxMTI1NTIxLjMuMTIzZDI5MWJmZTBjMDI5MUBtZy1kMS5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFja=
+y5jb20iLCJwIjo2NDk3MjM4NCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjox=
+MDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTY1ODQwODE=
+zMiwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.L5Vz79g8Gz_dFEa1gGqT9C1F0pVXwGsmCPotw=
+_C5mkk" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px =
+!important;width:1px !important;border-width:0 !important;margin-top:0 !imp=
+ortant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !=
+important;padding-top:0 !important;padding-bottom:0 !important;padding-righ=
+t:0 !important;padding-left:0 !important;"/><div style=3D"display:none;font=
+-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacit=
+y:0;overflow:hidden;" class=3D"preview">A Very Deep Dive on Stablecoins, US=
+DC, and a Platform for a New Financial System &#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;</div><table role=3D"presentation" width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-body-container"=
+><tr><td></td><td width=3D"550" class=3D"content"></td><td></td></tr><tr><t=
+d></td><td align=3D"left" width=3D"550" class=3D"content"><div style=3D"fon=
+t-size: 16px; line-height: 26px; margin: 0 auto; max-width: 550px; overflow=
+-wrap: break-word; width: 100%;"><div markup=3D"" style=3D"font-size: 16px;=
+ line-height: 40px; margin-bottom: 8px; text-align: right;"><a href=3D"http=
+s://substack.com/app-link/post?publication_id=3D10025&post_id=3D64972384&ut=
+m_source=3Demail" class=3D"tw-font-body tw-text-ssm tw-text-substack-second=
+ary" style=3D"color: rgb(128,128,128) !important; font-family: SF Pro Text,=
+ -apple-system, BlinkMacSystemFont, Inter, Segoe UI, Roboto, Helvetica, Ari=
+al, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !importa=
+nt; font-size: 13px !important;">Open in browser</a></div><div dir=3D"auto"=
+ class=3D"post typography" style=3D"font-size: 16px; line-height: 26px; pad=
+ding: 16px 0 0 0;"><div class=3D"post-header" style=3D"font-size: 16px; lin=
+e-height: 26px;"><h1 class=3D"post-title short published" style=3D"-moz-osx=
+-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #=
+1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFon=
+t, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', '=
+Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 40px; font-weight: bold; lin=
+e-height: 130%; margin: 0.378em 0 0 0;"><a href=3D"https://substack.com/red=
+irect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvY2lyY2xlLWFuZC11c2RjLWJ=
+1aWxkaW5nLWEtc3RhYmxlP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZE=
+Y5cFpDSTZOalE1TnpJek9EUXNJbWxoZENJNk1UWTFPRFF3T0RFek1Td2lhWE56SWpvaWNIVmlMV=
+EV3TURJMUlpd2ljM1ZpSWpvaWNHOXpkQzF5WldGamRHbHZiaUo5LnBQYkdVaHF4bEVQdk5KeFBO=
+d0NwQjg3UndqUmZ1WFFhMGJWZjZTWmtUejgiLCJwIjo2NDk3MjM4NCwicyI6MTAwMjUsImYiOnR=
+ydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTg0MDgxMzEsImlzcyI6InB1Yi0wIiwic3ViIjoibG=
+luay1yZWRpcmVjdCJ9.rlY_bpfMnd7Ud3u167HFPXeFvmyQoqSwrLu_M8BWoaA?" style=3D"c=
+olor: #1a1a1a; text-decoration: none;">Circle &amp; USDC: Building a Stable=
+ Platform</a></h1><h3 class=3D"subtitle" style=3D"-moz-osx-font-smoothing: =
+antialiased; -webkit-font-smoothing: antialiased; color: #767676; font-fami=
+ly: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Ro=
+boto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', =
+'Segoe UI Symbol'; font-size: 20px; font-weight: normal; line-height: 1.16e=
+m; margin: 4px 0 8px; margin-top: 8px;">A Very Deep Dive on Stablecoins, US=
+DC, and a Platform for a New Financial System</h3><table cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"post-meta custom" style=3D"align-items: center; =
+height: 20px; margin: 1em 0;"><tr><td title=3D"2022-07-21T12:55:24.912Z" cl=
+ass=3D"post-meta-item post-date" style=3D"color: #767676; font-family: -app=
+le-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: =
+14px; font-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bott=
+om: 0; padding-top: 0; position: relative; text-decoration: none; white-spa=
+ce: nowrap;"><time dateTime=3D"2022-07-21T12:55:24.912Z">Jul 21</time></td>=
+<td class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -ap=
+ple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-=
+serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size:=
+ 14px; font-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bot=
+tom: 0; padding-top: 0; position: relative; text-decoration: none; text-ind=
+ent: 3px; white-space: nowrap;"><span class=3D"post-meta-icon like-reaction=
+-button"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3c=
+ubm90Ym9yaW5nLmNvL2FwaS92MS9wb3N0L2VtYWlsLXJlYWN0aW9uP3V0bV9zb3VyY2U9c3Vic3=
+RhY2smdXRtX21lZGl1bT1lbWFpbCZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY=
+0c5emRGOXBaQ0k2TmpRNU56SXpPRFFzSW5KbFlXTjBhVzl1SWpvaTRwMmtJaXdpYVdGMElqb3hO=
+alU0TkRBNE1UTXhMQ0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSnlaV0ZqZEdsdmJ=
+pSjkuTmZiTmN2NktuZUhuZV8wbEszRHhDWV8tZlBHbk1ndEFUeVNMd3g2UjZBcyIsInAiOjY0OT=
+cyMzg0LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY1ODQwODEzMSwia=
+XNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.Y9XC1GHD3oLxVvxQXdhQz8u8nJT0=
+daVE9MNonWgslWc?" class=3D"like-button" style=3D"color: #767676; display: b=
+lock; text-decoration: none;"><img src=3D"https://substackcdn.com/image/fet=
+ch/w_32,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubsta=
+ck.com%2Ficon%2FLucideHeart%3Fv%3D2%26height%3D32%26fill%3Dtransparent%26st=
+roke%3D%2523757575%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"b=
+order: none !important; display: inline-block; float: left; height: 14px; m=
+ax-width: 16px; vertical-align: top; width: auto;" alt=3D""></a></span></td=
+><td class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -a=
+pple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans=
+-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size=
+: 14px; font-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bo=
+ttom: 0; padding-top: 0; position: relative; text-decoration: none; text-in=
+dent: 3px; white-space: nowrap;"><a class=3D"" href=3D"https://substack.com=
+/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvY2lyY2xlLWFuZC11c2R=
+jLWJ1aWxkaW5nLWEtc3RhYmxlL2NvbW1lbnRzP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZOalE1TnpJek9EUXNJbWxoZENJNk1UWTFPRFF3T0RFek1Td2lhW=
+E56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaWNHOXpkQzF5WldGamRHbHZiaUo5LnBQYkdV=
+aHF4bEVQdk5KeFBOd0NwQjg3UndqUmZ1WFFhMGJWZjZTWmtUejgiLCJwIjo2NDk3MjM4NCwicyI=
+6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTg0MDgxMzEsImlzcyI6InB1Yi=
+0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.bwLxb4UmlwKzAAd7IuzaAPO_eE5b9djj8nWtcZG7=
+1Sw?&amp;utm_source=3Dsubstack&amp;utm_medium=3Demail" style=3D"color: #767=
+676; display: block; text-decoration: none;"><img src=3D"https://substackcd=
+n.com/image/fetch/w_32,c_scale,f_png,q_auto:good,fl_progressive:steep/https=
+%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D2%26height%3D32%26fill%=
+3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"16" height=
+=3D"16" style=3D"border: none !important; display: inline-block; float: lef=
+t; height: 14px; max-width: 16px; vertical-align: top; width: auto;" alt=3D=
+"Comment" class=3D"comment-icon post-meta-icon"></a></td><td class=3D"post-=
+meta-item icon" style=3D"color: #767676; font-family: -apple-system, BlinkM=
+acSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Colo=
+r Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight=
+: 400; height: 14px; margin-right: 0; padding: 0px 12px 0px 0; padding-bott=
+om: 0; padding-right: 0; padding-top: 0; position: relative; text-decoratio=
+n: none; text-indent: 3px; white-space: nowrap;"><span><a href=3D"https://s=
+ubstack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvY2lyY2xl=
+LWFuZC11c2RjLWJ1aWxkaW5nLWEtc3RhYmxlP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fY29udGVudD1zaGFyZSZhY3Rpb249c2hhcmUmdG9rZW49ZXlKMWMyVnlYMm=
+xrSWpveE5qSTRNelUwT1N3aWFXRjBJam94TmpVNE5EQTRNVE14TENKcGMzTWlPaUp3ZFdJdE1UQ=
+XdNalVpTENKemRXSWlPaUp3YjNOMExYSmxZV04wYVc5dUluMC5IYjlHeE5OT1BuSzVaV1F5Q0ZG=
+cHo2UDV5bEg2NW5qQmNlNi0ySGRnUnJjIiwicCI6NjQ5NzIzODQsInMiOjEwMDI1LCJmIjp0cnV=
+lLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjU4NDA4MTMxLCJpc3MiOiJwdWItMCIsInN1YiI6Imxpbm=
+stcmVkaXJlY3QifQ.Wa6nycMD8QtTcnjVCtKNgRY_pJxsKQvSwQkPevgtrys?" style=3D"col=
+or: #767676; display: block; text-decoration: none;"><img src=3D"https://su=
+bstackcdn.com/image/fetch/w_32,c_scale,f_png,q_auto:good,fl_progressive:ste=
+ep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3Fv%3D2%26height%3D32%26=
+fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"16" h=
+eight=3D"16" style=3D"border: none !important; display: inline-block; float=
+: left; height: 14px; max-width: 16px; vertical-align: top; width: auto;" a=
+lt=3D"Share" class=3D"recommend-icon post-meta-icon"></a></span></td></tr><=
+/table></div></div><div dir=3D"auto" class=3D"post typography" style=3D"fon=
+t-size: 16px; line-height: 26px; padding: 16px 0 0 0;"><div dir=3D"auto" cl=
+ass=3D"body markup" style=3D"font-size: 16px; line-height: 26px; margin-bot=
+tom: 12px; text-align: initial; width: 100%; word-break: break-word;"><p st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em =
+0; margin-top: 0;"><em><span>Welcome to the&#160;</span><strong>778&#160;ne=
+wly Not Boring people&#160;</strong><span>who have joined us since Monday! =
+If you haven&#8217;t subscribed, join&#160;</span><strong>140,394 </strong>=
+<span>smart, curious folks by subscribing here: </span></em></p><div class=
+=3D"subscribe-widget is-signed-up" style=3D"direction: ltr; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em;"><p class=3D"button-wrapper" style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; tex=
+t-align: center;"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cH=
+M6Ly93d3cubm90Ym9yaW5nLmNvL3N1YnNjcmliZT91dG1fc291cmNlPXBvc3QiLCJwIjo2NDk3M=
+jM4NCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTg0MDgxMzEsImlz=
+cyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.SMQUnYPw6aACpd_apAVAZx9yL0YbB0=
+gKPols6DHIYo8?&amp;utm_medium=3Demail&amp;utm_source=3Dsubscribe-widget&amp=
+;utm_content=3D64972384" class=3D"button primary subscribe-btn" style=3D"ba=
+ckground-color: #67bdfc; border: none; border-radius: 4px; box-sizing: bord=
+er-box; color: #ffffff !important; cursor: pointer; display: inline-block; =
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helveti=
+ca, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 16px; font-weight: normal; height: auto; line-height: 20px=
+; margin: 0; opacity: 1; outline: none; padding: 12px 20px; text-align: cen=
+ter; text-decoration: none !important; white-space: nowrap;"><span style=3D=
+"color: #ffffff; text-decoration: none;">Subscribe now</span></a></p></div>=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0=
+ 1em 0;"><span>&#127911; </span><em>This is a long one! To listen to me rea=
+d it instead,</em><span> </span><em><span>head over to </span><strong><a hr=
+ef=3D"https://substack.com/redirect/44ca79c0-d72f-44b3-a043-2cd9ce73daab?u=
+=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;"=
+>Spotify</a><span> </span></strong><span>or&#160;</span><strong><a href=3D"=
+https://substack.com/redirect/eddff8f8-e9ce-4109-861d-7d3c88bf5396?u=3D1628=
+3549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Apple =
+Podcasts</a><span>.</span></strong></em></p><div style=3D"font-size: 16px; =
+line-height: 26px;"><hr style=3D"background: #ebebeb; border: none; height:=
+ 1px; margin: 48px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0;">Hi friends &#8203;&#8203;=
+&#128075;,&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;">Happy Thursday!&#160;</p><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>As the=
+ dust has begun to (hopefully) settle on the crypto crash, people have begu=
+n sorting through the rubble to figure out which products from this last cy=
+cle were useful and real, and which were hypes and ponzis. I&#8217;ve throw=
+n my hat into this ring too many times, including two pieces on web3 use ca=
+ses: </span><a href=3D"https://substack.com/redirect/e1597c7a-aec6-4caa-bee=
+f-595bbce3cf1b?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decorat=
+ion: underline;">Today</a><span> and in the </span><a href=3D"https://subst=
+ack.com/redirect/37697cb5-10c7-48f0-82e0-c15f0fca3faf?u=3D16283549" rel=3D"=
+" style=3D"color: #1a1a1a; text-decoration: underline;">Future</a><span>.&#=
+160;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0 0 1em 0;"><span>One category that seems to be unanimously vie=
+wed as useful, outside of the most skeptical skeptics, is </span><strong>st=
+ablecoins</strong><span>. It&#8217;s one of the use cases I highlighted a m=
+onth ago. And among the stablecoins, the consensus seems to be that </span>=
+<strong>USDC</strong><span> is the stablest of them all.&#160;</span></p><p=
+ style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1=
+em 0;"><span>Stablecoins are sneakily fascinating because they&#8217;re bot=
+h a digital currency and a sort of platform on top of which new application=
+s can be built, or old ones improved. But to achieve that promise, they nee=
+d to actually be </span><strong>stable. </strong><span>A dollar-denominated=
+ stablecoin, like USDC, needs to be redeemable for a good ol&#8217; fashion=
+ed US Dollar, every time, everywhere.&#160;</span></p><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">If a stablec=
+oin can be trusted to perform that foundational obligation, then developers=
+ can begin to build financial products on modern digital rails. Sometimes, =
+they&#8217;ll build entirely new applications, like DeFi protocols. Others,=
+ they&#8217;ll rip out pieces of old, creaky financial infrastructure and r=
+eplace them with newer rails.&#160;</p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">The revolution does not nee=
+d to be total to be impactful. Circle is a case study in compromise. It&#82=
+17;s a centralized company facilitating the growth of a decentralized finan=
+cial system. It&#8217;s used by web2, web3, and web2.5 companies alike. It&=
+#8217;s happy to sit in the background, facilitating fast, cheap, global pa=
+yments and loans while others build shiny interfaces and sturdy guardrails =
+on top.&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;"><span>After seeing USDC&#8217;s outperformance du=
+ring the bear market &#8211; its market cap has grown as the overall market=
+ has shrunk &#8211; and seeing a lot of people I respect point to USDC as a=
+ gold standard, I decided to team up with Circle to tell the story via a Sp=
+onsored Deep Dive. You can read more about how I choose which companies to =
+work with on </span><a href=3D"https://substack.com/redirect/dc4c2e81-fb4a-=
+464f-bd4f-7f4a4d6314fd?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text=
+-decoration: underline;">Sponsored Deep Dives here</a><span>. In this case,=
+ I realized that I didn&#8217;t know nearly as much about stablecoins as I =
+should, and I was pumped that they were willing to work with me to help und=
+erstand and then explain.&#160;</span></p><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>As always: </span>=
+<strong>this is not financial or investment advice</strong><span>. I&#8217;=
+m an idiot, and I&#8217;m learning as I go &#8211; you would be foolish to =
+allocate your cash based on anything I write. Do your own research. But I h=
+ope that it&#8217;s an entertaining and informative look into one of crypto=
+&#8217;s key building blocks.&#160;</span></p><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Let&#8217;s get to i=
+t.&#160;</p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D=
+"background: #ebebeb; border: none; height: 1px; margin: 48px 0; padding: 0=
+;"></div><h2 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-sm=
+oothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -a=
+pple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans=
+-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size=
+: 1.625em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;=
+"><strong><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3=
+cubm90Ym9yaW5nLmNvL3AvY2lyY2xlLWFuZC11c2RjLWJ1aWxkaW5nLWEtc3RhYmxlP3Rva2VuP=
+WV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOalE1TnpJek9EUXNJbWxo=
+ZENJNk1UWTFPRFF3T0RFek1Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaWNHOXp=
+kQzF5WldGamRHbHZiaUo5LnBQYkdVaHF4bEVQdk5KeFBOd0NwQjg3UndqUmZ1WFFhMGJWZjZTWm=
+tUejgiLCJwIjo2NDk3MjM4NCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiO=
+jE2NTg0MDgxMzEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.rlY_bpfMnd7=
+Ud3u167HFPXeFvmyQoqSwrLu_M8BWoaA?" rel=3D"" style=3D"color: #1a1a1a; text-d=
+ecoration: underline;">Circle &amp; USDC: Building a Stable Platform</a></s=
+trong></h2><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0 0 1em 0;"><em>(Click the link to read the full thing online)</em>=
+</p><div class=3D"captioned-image-container-static" style=3D"font-size: 16p=
+x; line-height: 26px; margin-bottom: 16px; text-align: center;"><figure sty=
+le=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=3D"=
+image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><t=
+d style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" w=
+idth=3D"1208" style=3D"text-align: center;"><a class=3D"image-link" target=
+=3D"_blank" href=3D"https://substack.com/redirect/5f631e5b-7298-4836-a758-2=
+aa3a57cdfd4?u=3D16283549" rel=3D"" style=3D"align-items: center; border: no=
+ne; display: block; flex-direction: column; height: auto; margin: 0; paddin=
+g: 0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&qu=
+ot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazona=
+ws.com/public/images/ea17e395-ed98-45d1-89ee-0e9ef36d2ff5_1208x608.png&quot=
+;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;=
+:608,&quot;width&quot;:1208,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:=
+null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:n=
+ull,&quot;href&quot;:null,&quot;belowTheFold&quot;:true}" alt=3D"" title=3D=
+"" width=3D"550" height=3D"276.8211920529801" class=3D"wide-image" src=3D"h=
+ttps://substackcdn.com/image/fetch/w_2416,c_limit,f_auto,q_auto:good,fl_pro=
+gressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984=
+=2Es3.amazonaws.com%2Fpublic%2Fimages%2Fe=
+a17e395-ed98-45d1-89ee-0e9ef36d2ff5_=
+1208x608.png" style=3D"-ms-interpolation-mode: bicubic; border: none !impor=
+tant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-w=
+idth: 100% !important; vertical-align: middle; width: auto !important;"></a=
+></td><td style=3D"text-align: center;"></td></tr></tbody></table></figure>=
+</div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0;"><span>Yes, I know. This newsletter is called Not Boring. But=
+ I&#8217;m going to start this essay off by showing you the </span><strong>=
+Most Boring Chart in All of Crypto</strong><span>.&#160;</span></p><div cla=
+ss=3D"captioned-image-container-static" style=3D"font-size: 16px; line-heig=
+ht: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"displa=
+y: inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrappe=
+r" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D=
+"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"t=
+ext-align: center;"></td><td align=3D"left" class=3D"content" width=3D"908"=
+ style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" hr=
+ef=3D"https://substack.com/redirect/0bbdcad0-ff50-4d52-ba2d-98fbbb76e858?u=
+=3D16283549" rel=3D"" style=3D"align-items: center; border: none; display: =
+block; flex-direction: column; height: auto; margin: 0; padding: 0; text-de=
+coration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;htt=
+ps://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public=
+/images/ebee8d65-a4cc-4304-bd62-5195d2ddccb1_908x483.png&quot;,&quot;fullsc=
+reen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:483,&quot;wid=
+th&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&=
+quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&=
+quot;:null,&quot;belowTheFold&quot;:true}" alt=3D"" title=3D"" width=3D"550=
+" height=3D"292.56607929515417" class=3D"wide-image" src=3D"https://substac=
+kcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep=
+/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.=
+com%2Fpublic%2Fimages%2Febee8d65-a4cc-4304-bd62-5195d2ddccb1_908x483.png" s=
+tyle=3D"-ms-interpolation-mode: bicubic; border: none !important; display: =
+block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !imp=
+ortant; vertical-align: middle; width: auto !important;"></a></td><td style=
+=3D"text-align: center;"></td></tr></tbody></table><figcaption class=3D"ima=
+ge-caption" style=3D"color: #767676; font-family: sans-serif; font-size: 14=
+px; font-weight: 300; line-height: 1.4em; text-align: center;"><em><a href=
+=3D"https://substack.com/redirect/19ac1cf3-8b0b-459f-8274-c87963b64ba9?u=3D=
+16283549" rel=3D"">CoinMarketCap</a></em></figcaption></figure></div><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;"><span>That&#8217;s the 1 year price chart of </span><strong>USD Coin (&#=
+8220;USDC&#8221;)</strong><span>, the fiat-backed, fully-collateralized, do=
+llar-denominated stablecoin issued by </span><strong><a href=3D"https://sub=
+stack.com/redirect/85295a5e-1142-423a-a37b-8be36dfdf954?u=3D16283549" rel=
+=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Circle</a></str=
+ong><span>. I dare you to find me a more boring chart.&#160;</span></p><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em=
+ 0;">For the entire past year, as prices of other crypto assets rollercoast=
+ered up and down and up and very down, USDC hugged the $1 line tightly. &#1=
+29393;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0;"><span>For stablecoins, boring is good. Boring is the goa=
+l. And being the </span><em>most</em><span> boring stablecoin results in a =
+chart that isn&#8217;t very boring at all:&#160;</span></p><div class=3D"ca=
+ptioned-image-container-static" style=3D"font-size: 16px; line-height: 26px=
+; margin-bottom: 16px; text-align: center;"><figure style=3D"display: inlin=
+e-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin:=
+ 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-alig=
+n: center;"></td><td align=3D"left" class=3D"content" width=3D"908" style=
+=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"=
+https://substack.com/redirect/4d29fe3f-c4f7-48a6-a2b6-a98faec1df51?u=3D1628=
+3549" rel=3D"" style=3D"align-items: center; border: none; display: block; =
+flex-direction: column; height: auto; margin: 0; padding: 0; text-decoratio=
+n: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bu=
+cketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images=
+/1263e115-f497-44a1-a95f-91b1662e7a32_908x476.png&quot;,&quot;fullscreen&qu=
+ot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:476,&quot;width&quot=
+;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&=
+quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:n=
+ull,&quot;belowTheFold&quot;:true}" alt=3D"" title=3D"" width=3D"550" heigh=
+t=3D"288.3259911894273" class=3D"wide-image" src=3D"https://substackcdn.com=
+/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3=
+A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpu=
+blic%2Fimages%2F1263e115-f497-44a1-a95f-91b1662e7a32_908x476.png" style=3D"=
+-ms-interpolation-mode: bicubic; border: none !important; display: block; h=
+eight: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; =
+vertical-align: middle; width: auto !important;"></a></td><td style=3D"text=
+-align: center;"></td></tr></tbody></table><figcaption class=3D"image-capti=
+on" style=3D"color: #767676; font-family: sans-serif; font-size: 14px; font=
+-weight: 300; line-height: 1.4em; text-align: center;"><em><a href=3D"https=
+://substack.com/redirect/19ac1cf3-8b0b-459f-8274-c87963b64ba9?u=3D16283549"=
+ rel=3D"">CoinMarketCap</a><span> (Click &#8220;Market Cap&#8221; on the Ch=
+art)</span></em></figcaption></figure></div><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>That&#8217;s USD=
+C&#8217;s market cap since its inception in October 2018, which represents =
+the total USDC in circulation. At the time of writing, July 20th, 2022, tha=
+t number stands at </span><strong>$54.8 billion</strong><span>. Circulating=
+ USDC has more than doubled in the past year, after </span><strong>growing =
+25x between July 2020 and July 2021</strong><span>. Since its price is pegg=
+ed to $1, increases in market cap mean that there&#8217;s more usage of USD=
+C (the inverse is also true &#8211; the market cap declines when people red=
+eem their USDC for Dollars).</span></p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>Boring is a feature, =
+not a bug. It&#8217;s key to Circle&#8217;s first product value proposition=
+ &#8211; digital dollars &#8211; and it&#8217;s key to Circle&#8217;s missi=
+on: </span><strong>To raise global economic prosperity through the friction=
+less exchange of financial value.&#160;</strong></p><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>If you&#=
+8217;ve heard of Circle, it&#8217;s likely because of USDC. That&#8217;s th=
+e company&#8217;s first killer product. Recently, it announced that it&#821=
+7;s launching a second, </span><strong>Euro Coin (EUROC)</strong><span>.</s=
+pan></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 1em 0;">But thinking about USDC and EUROC as just stablecoins miss=
+es the company&#8217;s ambitions to become:</p><ul style=3D"margin-top: 0;"=
+><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin=
+-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><span>The </span=
+><strong>platform</strong><span> on top of which developers build a new fin=
+ancial system</span></p></li><li style=3D"margin-bottom: 4px; margin-left: =
+8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-=
+bottom: 0;"><span>The </span><strong>digital currency</strong><span> of cho=
+ice institutional investors leverage for trading and settlement</span></p><=
+/li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; mar=
+gin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><span>A </spa=
+n><strong>tool</strong><span> that enables the frictionless, borderless exc=
+hange of value</span></p></li></ul><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0 0 1em 0;"><span>It&#8217;s an ambitious b=
+et in a competitive space, and one dogged by both valid and invalid concern=
+s, many of which we&#8217;ll cover in this piece. Circle is trying to diffe=
+rentiate on </span><strong>trust</strong><span>, the necessary foundation f=
+or its ambitions. Increasingly, it seems to be working.</span></p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+><span>I didn&#8217;t give much thought to stablecoins until Luna&#8217;s U=
+ST blew up a couple of months ago. But as I&#8217;ve dug in, I&#8217;ve rea=
+lized that they&#8217;re one of the most solid use cases in web3 today, and=
+ a fundamental building block in the much bigger visions entrepreneurs in t=
+he space are building towards. Once the idea of programmable, permissionles=
+s money worms into your brain, it&#8217;s hard to see where stablecoins </s=
+pan><em>wouldn&#8217;t</em><span> provide an improvement over the status qu=
+o.&#160;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height=
+: 26px; margin: 0 0 1em 0;">But let&#8217;s start with the basics and build=
+ up from there:&#160;</p><ul style=3D"margin-top: 0;"><li style=3D"margin-b=
+ottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special=
+-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0; margin-bottom: 0;">What are stablecoins?&#160;</p></li><l=
+i style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-to=
+p: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0; margin-bottom: 0;">How do stablecoin i=
+ssuers generate revenue?&#160;</p></li><li style=3D"margin-bottom: 4px; mar=
+gin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet=
+;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: =
+0; margin-bottom: 0;">Why are stablecoins a valuable primitive?&#160;</p></=
+li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; marg=
+in-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">How are USDC a=
+nd Circle a platform?&#160;</p></li><li style=3D"margin-bottom: 4px; margin=
+-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;">=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; =
+margin-bottom: 0;">What is Circle&#8217;s competitive advantage?&#160;</p><=
+/li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; mar=
+gin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">What would a =
+new financial system built on Circle&#8217;s rails look like?&#160;</p></li=
+></ul><h3 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoot=
+hing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-se=
+rif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1=
+=2E375em; font-weight: bold; line-height:=
+ 1.16em; margin: 1em 0 0.625em 0;"><=
+strong>What Are Stablecoins?</strong></h3><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;">If you&#8217;ve followed=
+ the crypto markets recently, you might&#8217;ve heard the word &#8220;stab=
+lecoin&#8221; and chuckled. &#8220;Stablecoin, huh?&#8221; you&#8217;d quip=
+, &#8220;Not very &#8230; stable &#128514;.&#8221; It&#8217;s a funny joke.=
+&#160;</p><div class=3D"captioned-image-container-static" style=3D"font-siz=
+e: 16px; line-height: 26px; margin-bottom: 16px; text-align: center;"><figu=
+re style=3D"display: inline-block; margin: 0 auto; width: 100%;"><table cla=
+ss=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody>=
+<tr><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"cont=
+ent" width=3D"908" style=3D"text-align: center;"><a class=3D"image-link" ta=
+rget=3D"_blank" href=3D"https://substack.com/redirect/f56f2852-b875-4f1d-b2=
+9c-0d7573917684?u=3D16283549" rel=3D"" style=3D"align-items: center; border=
+: none; display: block; flex-direction: column; height: auto; margin: 0; pa=
+dding: 0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;sr=
+c&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.ama=
+zonaws.com/public/images/55e00fc7-55a5-4eca-93cf-74a99b3d3b1a_908x396.png&q=
+uot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&qu=
+ot;:396,&quot;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot=
+;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;=
+:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true}" alt=3D"" title=
+=3D"" width=3D"550" height=3D"239.86784140969164" class=3D"wide-image" src=
+=3D"https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be=
+77984.s3.amazonaws.com%2Fpublic%2Fimages%2F55e00fc7-55a5-4eca-93cf-74a99b3d=
+3b1a_908x396.png" style=3D"-ms-interpolation-mode: bicubic; border: none !i=
+mportant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; m=
+ax-width: 100% !important; vertical-align: middle; width: auto !important;"=
+></a></td><td style=3D"text-align: center;"></td></tr></tbody></table><figc=
+aption class=3D"image-caption" style=3D"color: #767676; font-family: sans-s=
+erif; font-size: 14px; font-weight: 300; line-height: 1.4em; text-align: ce=
+nter;"><em>CoinMarketCap</em></figcaption></figure></div><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>In =
+May, UST (Terra&#8217;s stablecoin) lost its peg to the dollar (translation=
+: it became worth less than $1). It flushed hard, bringing the entire Luna =
+ecosystem down with it. Ultimately, it brought down crypto hedge fund Three=
+ Arrows Capital (&#8220;3AC&#8221;) which contributed to the downfall of Ce=
+lsius, BlockFi, Voyager, and other Centralized Finance (&#8220;CeFi&#8221;)=
+ lenders. Friend of the newsletter </span><a href=3D"https://substack.com/r=
+edirect/5a83ed11-c78c-4e51-986f-4c7db438c748?u=3D16283549" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">Jon Wu</a><span> wrote a g=
+reat </span><a href=3D"https://substack.com/redirect/610d6f60-208c-4c6a-95f=
+d-1093f6e28eec?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decorat=
+ion: underline;">thread</a><span> / </span><a href=3D"https://substack.com/=
+redirect/27aa3296-9e76-49e2-91e9-7affe9f9292a?u=3D16283549" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">Not Boring essay</a><span>=
+ on Terra-Luna and UST, and </span><a href=3D"https://substack.com/redirect=
+/2699b9c3-a750-4668-b0d9-2fe127eefe19?u=3D16283549" rel=3D"" style=3D"color=
+: #1a1a1a; text-decoration: underline;">Arthur Hayes</a><span> wrote the </=
+span><a href=3D"https://substack.com/redirect/cd6e3f71-ee18-4a30-9726-d5578=
+5b4e5a4?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: un=
+derline;">definitive piece on the 3AC collapse</a><span> in case you want t=
+o read more gory details.&#160;</span></p><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>The UST situation =
+brought to light something that was apparent to anyone who dug into the mat=
+h or simply walked through the logic: </span><strong>not all stablecoins ar=
+e created equal</strong><span>. Not all stablecoins are &#8230; stable.&#16=
+0;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px=
+; margin: 0 0 1em 0;"><span>The goal of a stablecoin is to stay pegged to i=
+ts reference asset. For most stablecoins, that&#8217;s the US Dollar. So on=
+e (1) USD stablecoin &#8211; like USDC &#8211; should be worth $1. As Alex =
+Danco </span><a href=3D"https://substack.com/redirect/5bf2c64c-6260-4287-aa=
+86-000061fa6623?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decora=
+tion: underline;">wrote in 2018</a><span>:&#160;</span></p><blockquote styl=
+e=3D"border-left: 4px solid #67bdfc; margin: 1em 0;"><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-left: 1=
+em;"><em><span>The </span><strong>crucial test</strong><span> that any stab=
+lecoin must pass for the market to actually trust it is: </span><strong>if =
+a user wants to redeem their stablecoins for genuine dollars, under any rea=
+sonable circumstance, can they do so?</strong></em></p></blockquote><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;=
+"><span>&#8220;Reasonable&#8221; is doing a lot of work here. People should=
+ </span><em>always</em><span> be able to redeem their stablecoins for genui=
+ne dollars. There are three main models stablecoin issuers pursue to make t=
+hat happen:&#160;</span></p><ol style=3D"margin-top: 0;"><li style=3D"margi=
+n-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-=
+bottom: 0;"><strong>Fiat-Backed</strong></p></li><li style=3D"margin-bottom=
+: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: =
+0;"><strong>Cryptocurrency-Backed</strong></p></li><li style=3D"margin-bott=
+om: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom=
+: 0;"><strong>Algorithmic</strong></p></li></ol><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>We&#8217;ll =
+start last, first.</span><strong> Algorithmic stablecoins</strong><span>, l=
+ike UST, aren&#8217;t backed by dollars, a basket of cryptos, commodities, =
+or anything, really, outside of what they create themselves.&#160;</span></=
+p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+ 0 1em 0;"><span>Instead of explaining this insanity myself, I&#8217;ll tur=
+n it over to the </span><a href=3D"https://substack.com/redirect/927ea9bc-1=
+8bc-4178-a797-8ddc6f36d0cb?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; =
+text-decoration: underline;">inimitable Matt Levine</a><span>:</span></p><p=
+ style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1=
+em 0;"><em>Here is how an algorithmic stablecoin works:</em></p><ol style=
+=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; marg=
+in-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px;=
+ line-height: 26px; margin: 0; margin-bottom: 0;"><em>You wake up one morni=
+ng and invent two crypto tokens.</em></p></li><li style=3D"margin-bottom: 4=
+px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"=
+><em>One of them is the stablecoin, which I will call &#8220;Terra,&#8221; =
+for reasons that will become apparent.</em></p></li><li style=3D"margin-bot=
+tom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-botto=
+m: 0;"><em>The other one is not the stablecoin. I will call it &#8220;Luna.=
+&#8221;</em></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; mar=
+gin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0; margin-bottom: 0;"><em>To be clear, they ar=
+e both just things you made up, just numbers on a ledger. (Probably the led=
+ger is maintained on a decentralized blockchain, though in theory you could=
+ do this on your computer in Excel.)&#160;</em></p></li><li style=3D"margin=
+-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-b=
+ottom: 0;"><em>You try to find people to buy them.</em></p></li><li style=
+=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;=
+"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+; margin-bottom: 0;"><em>Luna will trade at some price determined by supply=
+ and demand. If you make it up on your computer and keep the list in Excel =
+and smirk when you tell people about this, that price will be zero, and non=
+e of this will work.</em></p></li><li style=3D"margin-bottom: 4px; margin-l=
+eft: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><em>But if =
+you do a good job of marketing Luna, that price will not be zero. If the pr=
+ice is not zero then you&#8217;re in business.</em></p></li><li style=3D"ma=
+rgin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; marg=
+in-bottom: 0;"><em>You promise that people can always exchange one Terra fo=
+r $1 worth of Luna. If Luna trades at $0.10, then one Terra will get you 10=
+ Luna. If Luna trades at $20, then one Terra will get you 0.05 Luna. Doesn&=
+#8217;t matter. The price of Luna is arbitrary, but one Terra always gets y=
+ou $1 worth of Luna. (And vice versa: People can always exchange $1 worth o=
+f Luna for one Terra.)</em></p></li><li style=3D"margin-bottom: 4px; margin=
+-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; =
+font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><em>You s=
+et up an automated smart contract &#8212; the &#8220;algorithm&#8221; in &#=
+8220;algorithmic stablecoin&#8221; &#8212; to let people exchange their Ter=
+ras for Lunas and Lunas for Terras.&#160;</em></p></li><li style=3D"margin-=
+bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-b=
+ottom: 0;"><em>Terra should trade at $1. If it trades above $1, people &#82=
+12; arbitrageurs &#8212; can buy $1 worth of Luna for $1 and exchange them =
+for one Terra worth more than a dollar, for an instant profit. If it trades=
+ below $1, people can buy one Terra for less than a dollar and exchange it =
+for $1 worth of Luna, for an instant profit. These arbitrage trades push th=
+e price of Terra back to $1 if it ever goes higher or lower.</em></p></li><=
+li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-t=
+op: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0; margin-bottom: 0;"><em>The price of Luna will fluctuate. Over tim=
+e, as trust in this ecosystem grows, it will probably mostly go up. But tha=
+t is not essential to the stablecoin concept. As long as Luna robustly has =
+a non-zero value, you can exchange one Terra for some quantity of Luna that=
+ is worth $1, which means Terra should be worth $1, which means that its va=
+lue should be stable.</em></p></li></ol><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>&#8220;All of this i=
+s,&#8221; Levine writes, &#8220;quite straightforward and correct, except f=
+or Point 7, </span><strong>which is insane</strong><span>.&#8221; $UST and =
+$LUNA rose in tandem, and they fell in tandem.&#160;</span></p><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Aft=
+er UST&#8217;s collapse, the market for algorithmic stablecoins will likely=
+ be muted for a long time, so we don&#8217;t need to spend more time here.&=
+#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0;"><strong>Cryptocurrency-backed stablecoins</strong><span> =
+are backed by a basket of cryptocurrencies and are typically </span><strong=
+>overcollateralized</strong><span>, meaning that the dollar value of crypto=
+currencies in the reserve exceeds the dollar value of stablecoins outstandi=
+ng. They achieve this by requiring each user to deposit more in another tok=
+en, like ETH or BTC, than they pull out in stablecoin.&#160;</span></p><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em=
+ 0;"><span>The leading example here is MakerDAO&#8217;s stablecoin, </span>=
+<strong>DAI</strong><span>, with a </span><strong>$7.2 billion market cap</=
+strong><span>.</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-=
+height: 26px; margin: 0 0 1em 0;">Here&#8217;s how it works:&#160;</p><ol s=
+tyle=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; =
+margin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0; margin-bottom: 0;">A user who wants to t=
+ake out a loan opens a Vault by sending ERC-20 tokens like ETH, Wrapped BTC=
+, and USDC to the smart contract and receives DAI in return.&#160;</p></li>=
+<li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-=
+top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0; margin-bottom: 0;">DAI borrowing is overcollateralized, meaning =
+that you need to put in a higher dollar value in your ERC-20 token of choic=
+e than you take out in DAI, with higher collateral ratios depending on the =
+volatility and liquidity of the token you deposit. Currently, ETH has a min=
+imum collateral ratio of 170%, Wrapped BTC of 175%, and Staked ETH of 185%.=
+&#160;</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-ri=
+ght: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0; margin-bottom: 0;">At any time, you can deposit y=
+our DAI back in and unlock the ERC-20 you&#8217;d locked up.&#160;</p></li>=
+<li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-=
+top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0; margin-bottom: 0;">If, however, the price of your ERC-20 of choi=
+ce drops to a point that breaks the minimum collateral ratio, Maker will li=
+quidate you, or sell your tokens.&#160;</p></li></ol><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">The disadvant=
+age of borrowing DAI is that you need to put up a lot of collateral &#8211;=
+ currently, to borrow DAI with ETH requires a minimum collateral ratio of 1=
+70%, meaning I&#8217;d need to put in at least $17,000 worth of ETH to get =
+10,000 DAI. I also have to pay a Variable Annual Fee, currently at 0.50% fo=
+r ETH deposits.&#160;</p><div class=3D"captioned-image-container-static" st=
+yle=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align:=
+ center;"><figure style=3D"display: inline-block; margin: 0 auto; width: 10=
+0%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 =
+1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left=
+" class=3D"content" width=3D"908" style=3D"text-align: center;"><a class=3D=
+"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/3afdca=
+63-8d4c-425f-a076-07023d5c9914?u=3D16283549" rel=3D"" style=3D"align-items:=
+ center; border: none; display: block; flex-direction: column; height: auto=
+; margin: 0; padding: 0; text-decoration: none; width: auto;"><img data-att=
+rs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb3=
+2be77984.s3.amazonaws.com/public/images/43f37984-e23a-4142-8fbc-3d8bb45354f=
+b_908x470.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,=
+&quot;height&quot;:470,&quot;width&quot;:908,&quot;resizeWidth&quot;:null,&=
+quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&=
+quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true}" =
+alt=3D"" title=3D"" width=3D"550" height=3D"284.6916299559471" class=3D"wid=
+e-image" src=3D"https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q=
+_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-=
+9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F43f37984-e23a-4142-8=
+fbc-3d8bb45354fb_908x470.png" style=3D"-ms-interpolation-mode: bicubic; bor=
+der: none !important; display: block; height: auto; margin: 0 auto; margin-=
+bottom: 0; max-width: 100% !important; vertical-align: middle; width: auto =
+!important;"></a></td><td style=3D"text-align: center;"></td></tr></tbody><=
+/table><figcaption class=3D"image-caption" style=3D"color: #767676; font-fa=
+mily: sans-serif; font-size: 14px; font-weight: 300; line-height: 1.4em; te=
+xt-align: center;"><em>Oasis App</em></figcaption></figure></div><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Plus, if the price of ETH drops to a point that breaks that ratio &#8211; =
+in this case, if it drops even one cent &#8211; the smart contract liquidat=
+es me by selling the ETH. That could mean that you might be forced to sell =
+at an inopportune time.</p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">The advantage of DAI to the borrower is=
+ that it&#8217;s completely on-chain, without the need for a centralized in=
+termediary, and works well with your existing crypto holdings. If you want =
+to hold onto your ETH but take out a little walking around money, you can j=
+ust lock up the ETH, get DAI, and use it for any of the things you might us=
+e stablecoins for.&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 1em 0;">The advantage of DAI as a protocol is =
+that, by being overcollateralized and liquidating below certain thresholds,=
+ it can maintain stability and keep the promise that users can redeem their=
+ DAI for their ERC-20 tokens in any reasonable scenario.&#160;</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+><span>As a result, even during the recent turmoil, DAI has held up well. D=
+AI&#8217;s chart isn&#8217;t </span><em>quite </em><span>as boring as USDC&=
+#8217;s, but it&#8217;s pretty boring:&#160;</span></p><div class=3D"captio=
+ned-image-container-static" style=3D"font-size: 16px; line-height: 26px; ma=
+rgin-bottom: 16px; text-align: center;"><figure style=3D"display: inline-bl=
+ock; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"=
+100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px=
+ auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: c=
+enter;"></td><td align=3D"left" class=3D"content" width=3D"908" style=3D"te=
+xt-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https:=
+//substack.com/redirect/eccedf97-d733-4d44-9c10-f60b8cd1a354?u=3D16283549" =
+rel=3D"" style=3D"align-items: center; border: none; display: block; flex-d=
+irection: column; height: auto; margin: 0; padding: 0; text-decoration: non=
+e; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketee=
+r-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/98f38=
+1ef-08e7-4aff-93a5-aa52a80d6dea_908x495.png&quot;,&quot;fullscreen&quot;:nu=
+ll,&quot;imageSize&quot;:null,&quot;height&quot;:495,&quot;width&quot;:908,=
+&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&=
+quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&q=
+uot;belowTheFold&quot;:true}" alt=3D"" title=3D"" width=3D"550" height=3D"2=
+99.8348017621145" class=3D"wide-image" src=3D"https://substackcdn.com/image=
+/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2=
+Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2=
+Fimages%2F98f381ef-08e7-4aff-93a5-aa52a80d6dea_908x495.png" style=3D"-ms-in=
+terpolation-mode: bicubic; border: none !important; display: block; height:=
+ auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertic=
+al-align: middle; width: auto !important;"></a></td><td style=3D"text-align=
+: center;"></td></tr></tbody></table><figcaption class=3D"image-caption" st=
+yle=3D"color: #767676; font-family: sans-serif; font-size: 14px; font-weigh=
+t: 300; line-height: 1.4em; text-align: center;"><em>CoinMarketCap</em></fi=
+gcaption></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;">At the time of writing, it&#8217;s trading=
+ at around $1.00, as designed.&#160;</p><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>There are other cryp=
+to-backed stablecoins that are pegged to the dollar, with more launching re=
+gularly, others pegged to assets besides the US Dollar, and others still th=
+at aren&#8217;t pegged to anything at all. Some just want to be reserve cur=
+rencies themselves. </span><a href=3D"https://substack.com/redirect/f2bb906=
+e-f160-49af-949e-3c59b0d0df34?u=3D16283549" rel=3D"" style=3D"color: #1a1a1=
+a; text-decoration: underline;">OlympusDAO</a><span>, for example, has a mi=
+x of tokens in its reserve, backing its &#8220;Future Decentralized Reserve=
+ Currency,&#8221; Ohm. If you&#8217;ve seen the (3,3) or (something, someth=
+ing) meme on Twitter, that comes from the game theory behind Ohm, that it&#=
+8217;s better for everyone if everyone just stakes their Ohm and holds. Ohm=
+ has had a bumpy ride, falling from a peak of $420 to a current price of $5=
+2.&#160;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height=
+: 26px; margin: 0 0 1em 0;">There are other promising crypto reserve curren=
+cy projects, all vying to build an internet-native reserve that isn&#8217;t=
+ tied to the value of any fiat currency, but they&#8217;re different than s=
+tablecoins and outside the scope of this piece.&#160;</p><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>Tha=
+t brings us to </span><strong>fiat-backed stablecoins</strong><span>, like =
+USDC.&#160;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;"><span>Circle&#8217;s USDC stablecoin is the =
+most straightforward of the major stablecoins: </span><strong>for every dol=
+lar of USDC in circulation, Circle holds $1 worth of straight cash and US T=
+reasury Bills</strong><span>, for which there is the deepest and most liqui=
+d market of any asset in the world.</span></p><div class=3D"tweet" style=3D=
+"background: #fff; border: 1px solid #e1e8ed; border-radius: 4px; direction=
+: ltr; display: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Seg=
+oe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1e=
+m auto; max-width: 520px; padding: 20px 20px 11.6px 20px;"><a href=3D"https=
+://substack.com/redirect/a7160cc2-94d5-4d42-a546-3c8777e2e0fd?u=3D16283549"=
+ target=3D"_blank" rel=3D"" style=3D"color: black; display: block; text-dec=
+oration: none; white-space: pre-wrap;"><div class=3D"tweet-header" style=3D=
+"display: block; font-size: 16px; line-height: 1.2; margin-bottom: 14px; te=
+xt-decoration: none;"><img class=3D"tweet-user-avatar" src=3D"https://subst=
+ackcdn.com/image/twitter_name/w_36/WatcherGuru.jpg" alt=3D"Twitter avatar f=
+or @WatcherGuru" loading=3D"lazy" style=3D"-ms-interpolation-mode: bicubic;=
+ border: none !important; border-radius: 50%; display: block; float: left; =
+height: 36px; margin: 0 8px 0 0; max-width: 100%; vertical-align: middle; w=
+idth: 36px;"><span class=3D"tweet-author-name" style=3D"color: #1c2022; dis=
+play: block; font-weight: 700;">Watcher.Guru </span><span class=3D"tweet-au=
+thor" style=3D"color: #697882; display: block; font-size: 14px;">@WatcherGu=
+ru</span></div><span>JUST IN: Circle says they hold 80% of their $USDC rese=
+rves in US Treasury bills and 20% in cash within the US banking system.</sp=
+an></a><a href=3D"https://substack.com/redirect/a7160cc2-94d5-4d42-a546-3c8=
+777e2e0fd?u=3D16283549" target=3D"_blank" rel=3D"" style=3D"color: black; d=
+isplay: block; text-decoration: none; white-space: pre-wrap;"><div class=3D=
+"tweet-footer" style=3D"color: #697882; display: block; font-size: 14px; li=
+ne-height: 26px; margin-top: 10px; text-decoration: none;"><p class=3D"twee=
+t-date" style=3D"border-bottom: 1px solid #e1e8ed; color: #697882; display:=
+ block; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; =
+padding-bottom: 10px;">July 5th 2022</p><span class=3D"retweets" style=3D"d=
+isplay: inline-block; margin-right: 8px;"><span class=3D"rt-count" style=3D=
+"color: #1c2022; font-weight: bold;">453</span><span> Retweets</span></span=
+><span class=3D"likes" style=3D"display: inline-block; margin-right: 8px;">=
+<span class=3D"like-count" style=3D"color: #1c2022; font-weight: bold;">3,5=
+05</span><span> Likes</span></span></div></a></div><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>If you wa=
+nt to redeem 1 USDC for $1, no magic needs to happen. The dollar is sitting=
+ there, either right in the USDC reserve bank accounts at BNY Mellon and ot=
+her large banks, or invested in short-term Treasuries that are easier than =
+anything else in the world to exchange into dollars. Circle posts weekly re=
+porting and monthly attestations </span><a href=3D"https://substack.com/red=
+irect/2e415dda-cba9-471d-8522-fdf5ce3adb4e?u=3D16283549" rel=3D"" style=3D"=
+color: #1a1a1a; text-decoration: underline;">on its website</a><span>.</spa=
+n></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"backg=
+round: #ebebeb; border: none; height: 1px; margin: 48px 0; padding: 0;"></d=
+iv><h4 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothin=
+g: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-s=
+ystem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.12=
+5em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">To l=
+earn so much more about stablecoins, Circle, and USDC&#8230; </h4><p class=
+=3D"button-wrapper" data-attrs=3D"{&quot;url&quot;:&quot;https://substack.c=
+om/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvY2lyY2xlLWFuZC11c=
+2RjLWJ1aWxkaW5nLWEtc3RhYmxlP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2lj=
+Rzl6ZEY5cFpDSTZOalE1TnpJek9EUXNJbWxoZENJNk1UWTFPRFF3T0RFek1Td2lhWE56SWpvaWN=
+IVmlMVEV3TURJMUlpd2ljM1ZpSWpvaWNHOXpkQzF5WldGamRHbHZiaUo5LnBQYkdVaHF4bEVQdk=
+5KeFBOd0NwQjg3UndqUmZ1WFFhMGJWZjZTWmtUejgiLCJwIjo2NDk3MjM4NCwicyI6MTAwMjUsI=
+mYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTg0MDgxMzEsImlzcyI6InB1Yi0wIiwic3Vi=
+IjoibGluay1yZWRpcmVjdCJ9.rlY_bpfMnd7Ud3u167HFPXeFvmyQoqSwrLu_M8BWoaA?&quot;=
+,&quot;text&quot;:&quot;Continue Reading Online&quot;,&quot;action&quot;:nu=
+ll,&quot;class&quot;:null}" style=3D"color: #1a1a1a; font-size: 16px; line-=
+height: 26px; margin: 0 0 1em 0; text-align: center;"><a class=3D"button pr=
+imary" href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90=
+Ym9yaW5nLmNvL3AvY2lyY2xlLWFuZC11c2RjLWJ1aWxkaW5nLWEtc3RhYmxlP3Rva2VuPWV5SjF=
+jMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOalE1TnpJek9EUXNJbWxoZENJNk=
+1UWTFPRFF3T0RFek1Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaWNHOXpkQzF5W=
+ldGamRHbHZiaUo5LnBQYkdVaHF4bEVQdk5KeFBOd0NwQjg3UndqUmZ1WFFhMGJWZjZTWmtUejgi=
+LCJwIjo2NDk3MjM4NCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTg=
+0MDgxMzEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.rlY_bpfMnd7Ud3u16=
+7HFPXeFvmyQoqSwrLu_M8BWoaA?" rel=3D"" style=3D"background-color: #67bdfc; b=
+order: none; border-radius: 4px; box-sizing: border-box; color: #ffffff !im=
+portant; cursor: pointer; display: inline-block; font-family: -apple-system=
+, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Ap=
+ple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; fon=
+t-weight: normal; height: auto; line-height: 20px; margin: 0; opacity: 1; o=
+utline: none; padding: 12px 20px; text-align: center; text-decoration: none=
+ !important; white-space: nowrap;"><span style=3D"color: #ffffff; text-deco=
+ration: none;">Continue Reading Online</span></a></p><div style=3D"font-siz=
+e: 16px; line-height: 26px;"><hr style=3D"background: #ebebeb; border: none=
+; height: 1px; margin: 48px 0; padding: 0;"></div><p style=3D"color: #1a1a1=
+a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em><span>Thanks=
+ to </span><a href=3D"https://substack.com/redirect/46f9e653-258f-4bf6-a3a6=
+-ca3d06d6a345?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decorati=
+on: underline;">Jesse</a><span>, </span><a href=3D"https://substack.com/red=
+irect/6fce0499-3ab6-4592-8da8-a9200eb4d22d?u=3D16283549" rel=3D"" style=3D"=
+color: #1a1a1a; text-decoration: underline;">Peter</a><span>, and the Circl=
+e team for working with me on this piece, and to </span><a href=3D"https://=
+substack.com/redirect/e486b91c-9eac-480d-a38d-2bf13414e098?u=3D16283549" re=
+l=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Dan</a><span> =
+for editing!</span></em></p><div style=3D"font-size: 16px; line-height: 26p=
+x;"><hr style=3D"background: #ebebeb; border: none; height: 1px; margin: 48=
+px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-=
+height: 26px; margin: 0 0 1em 0;">That&#8217;s all for today! See you back =
+here tomorrow for some Weekly Optimism. </p><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-bottom: 0;">Than=
+ks for Reading, Packy</p></div></div><table cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"post-meta custom big alternative-meta centered" style=3D"ma=
+rgin: 0 auto;"><tr style=3D"align-items: center; display: flex;"><td class=
+=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; he=
+ight: 100%; line-height: 18px; padding: 0px 12px 0px 0; padding-right: 24px=
+; position: relative; text-decoration: none; text-indent: 3px; white-space:=
+ nowrap;"><span class=3D"post-meta-icon like-reaction-button"><a href=3D"ht=
+tps://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2Fwa=
+S92MS9wb3N0L2VtYWlsLXJlYWN0aW9uP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1l=
+bWFpbCZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2TmpRNU5=
+6SXpPRFFzSW5KbFlXTjBhVzl1SWpvaTRwMmtJaXdpYVdGMElqb3hOalU0TkRBNE1UTXhMQ0pwYz=
+NNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSnlaV0ZqZEdsdmJpSjkuTmZiTmN2NktuZUhuZ=
+V8wbEszRHhDWV8tZlBHbk1ndEFUeVNMd3g2UjZBcyIsInAiOjY0OTcyMzg0LCJzIjoxMDAyNSwi=
+ZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY1ODQwODEzMSwiaXNzIjoicHViLTAiLCJzdWI=
+iOiJsaW5rLXJlZGlyZWN0In0.Y9XC1GHD3oLxVvxQXdhQz8u8nJT0daVE9MNonWgslWc?" clas=
+s=3D"like-button button post-meta-button" style=3D"align-items: center; bac=
+kground-color: transparent; border: 1px solid #ebebeb; border-radius: 4px; =
+box-sizing: border-box; color: #1a1a1a; cursor: pointer; display: flex; fon=
+t-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,=
+ Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol=
+'; font-size: 16px; font-weight: normal; height: auto; line-height: 15px; m=
+argin: 0; opacity: 1; outline: none; padding: 10px 16px; text-align: center=
+; text-decoration: none; text-indent: 0px; white-space: nowrap;"><img src=
+=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_p=
+rogressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D2%26=
+height%3D36%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" =
+width=3D"18" height=3D"18" style=3D"border: none !important; display: inlin=
+e-block; float: left; height: 14px; margin-right: 4px; max-width: 18px; ver=
+tical-align: top; width: auto;" alt=3D""><span class=3D"like-count" style=
+=3D"color: #1a1a1a; margin-left: 7px;">Like</span></a></span></td><td class=
+=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; he=
+ight: 100%; line-height: 18px; padding: 0px 12px 0px 0; padding-right: 24px=
+; position: relative; text-decoration: none; text-indent: 3px; white-space:=
+ nowrap;"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3=
+cubm90Ym9yaW5nLmNvL3AvY2lyY2xlLWFuZC11c2RjLWJ1aWxkaW5nLWEtc3RhYmxlL2NvbW1lb=
+nRzP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOalE1TnpJ=
+ek9EUXNJbWxoZENJNk1UWTFPRFF3T0RFek1Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1Z=
+pSWpvaWNHOXpkQzF5WldGamRHbHZiaUo5LnBQYkdVaHF4bEVQdk5KeFBOd0NwQjg3UndqUmZ1WF=
+FhMGJWZjZTWmtUejgiLCJwIjo2NDk3MjM4NCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzN=
+TQ5LCJpYXQiOjE2NTg0MDgxMzEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9=
+=2EbwLxb4UmlwKzAAd7IuzaAPO_eE5b9djj8nWtcZ=
+G71Sw?&amp;utm_source=3Dsubstack&amp=
+;utm_medium=3Demail" class=3D"post-meta-button button" style=3D"align-items=
+: center; background-color: transparent; border: 1px solid #ebebeb; border-=
+radius: 4px; box-sizing: border-box; color: #1a1a1a; cursor: pointer; displ=
+ay: flex; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Robot=
+o, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Se=
+goe UI Symbol'; font-size: 16px; font-weight: normal; height: auto; line-he=
+ight: 15px; margin: 0; opacity: 1; outline: none; padding: 10px 16px; text-=
+align: center; text-decoration: none; white-space: nowrap;"><img src=3D"htt=
+ps://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progress=
+ive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D2%26heig=
+ht%3D36%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" widt=
+h=3D"18" height=3D"18" style=3D"border: none !important; display: inline-bl=
+ock; float: left; height: 14px; margin-right: 4px; max-width: 18px; vertica=
+l-align: top; width: auto;" alt=3D"Comment" class=3D"comment-icon post-meta=
+-icon"><span class=3D"meta-button-label">Comment</span></a></td><td class=
+=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; he=
+ight: 100%; line-height: 18px; margin-right: 0; padding: 0px 12px 0px 0; pa=
+dding-right: 0; position: relative; text-decoration: none; text-indent: 3px=
+; white-space: nowrap;"><span><a href=3D"https://substack.com/redirect/2/ey=
+JlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvY2lyY2xlLWFuZC11c2RjLWJ1aWxkaW5nL=
+WEtc3RhYmxlP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ1dG1fY29udGVu=
+dD1zaGFyZSZhY3Rpb249c2hhcmUmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWF=
+XRjBJam94TmpVNE5EQTRNVE14TENKcGMzTWlPaUp3ZFdJdE1UQXdNalVpTENKemRXSWlPaUp3Yj=
+NOMExYSmxZV04wYVc5dUluMC5IYjlHeE5OT1BuSzVaV1F5Q0ZGcHo2UDV5bEg2NW5qQmNlNi0yS=
+GRnUnJjIiwicCI6NjQ5NzIzODQsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0=
+IjoxNjU4NDA4MTMxLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.Wa6nycMD=
+8QtTcnjVCtKNgRY_pJxsKQvSwQkPevgtrys?" class=3D"button post-meta-button" sty=
+le=3D"align-items: center; background-color: transparent; border: 1px solid=
+ #ebebeb; border-radius: 4px; box-sizing: border-box; color: #1a1a1a; curso=
+r: pointer; display: flex; font-family: -apple-system, BlinkMacSystemFont, =
+'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Seg=
+oe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; heig=
+ht: auto; line-height: 15px; margin: 0; opacity: 1; outline: none; padding:=
+ 10px 16px; text-align: center; text-decoration: none; white-space: nowrap;=
+"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto=
+:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%=
+3Fv%3D2%26height%3D36%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeW=
+idth%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; disp=
+lay: inline-block; float: left; height: 14px; margin-right: 4px; max-width:=
+ 18px; vertical-align: top; width: auto;" alt=3D"Share" class=3D"recommend-=
+icon post-meta-icon"><span class=3D"meta-button-label">Share</span></a></sp=
+an></td></tr></table><div class=3D"container-border" style=3D"border-top: 1=
+px solid rgba(204, 204, 204, 0.5); box-sizing: border-box; font-size: 16px;=
+ line-height: 26px; margin: 32px 0 0; width: 100%;"></div><div class=3D"pos=
+t-cta" style=3D"font-size: 16px; line-height: 26px; margin: 24px 0 40px;"><=
+p style=3D"font-size: 16px; font-style: italic; line-height: 26px; margin: =
+24px 0 0; margin-top: 0;"><span>If you liked this post from <a href=3D"http=
+s://substack.com/redirect/04d40d2c-8e65-49f6-8de4-eea51a7deeb8?u=3D16283549=
+">Not Boring by Packy McCormick</a>, why not share it?</span></p><p class=
+=3D"cta-box" style=3D"font-size: 16px; font-style: italic; line-height: 26p=
+x; margin: 24px 0 0; text-align: center;"><a role=3D"button" href=3D"https:=
+//substack.com/redirect/ae1fda33-a3fd-445b-8150-41394c772efb?u=3D16283549" =
+class=3D"button primary twitter-link" style=3D"background-color: #67bdfc; b=
+order: 0px solid #67bdfc; border-radius: 4px; border-width: 13px 20px 13px =
+18px; box-sizing: content-box; color: #ffffff !important; cursor: pointer; =
+display: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Seg=
+oe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Symbol'; font-size: 17px; font-style: normal; font-weig=
+ht: 300; height: 24px; line-height: 24px; margin: 0; opacity: 1; outline: n=
+one; padding: 0; text-align: center; text-decoration: none !important; vert=
+ical-align: middle; white-space: nowrap;"><img src=3D"https://substackcdn.c=
+om/image/fetch/w_23.1,c_scale,f_png,q_auto:good,fl_progressive:steep/https%=
+3A%2F%2Fsubstack.com%2Ficon%2FShareIcon%3Fv%3D2%26height%3D42%26stroke%3D%2=
+523FFF%26strokeWidth%3D2" width=3D"11.55" height=3D"21" style=3D"border: no=
+ne !important; display: inline-block; height: 21px; margin-right: 8px; max-=
+width: 11.55px; vertical-align: middle; width: 21px;" alt=3D""><span style=
+=3D"color: #ffffff; text-decoration: none;">Share</span></a></p></div><div =
+class=3D"footer hasMargin" style=3D"background: #f5f5f5 !important; color: =
+#808080; font-size: 16px; line-height: 26px; margin-top: 24px; padding: 24p=
+x; text-align: center;"><p class=3D"small" style=3D"color: #808080; font-fa=
+mily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Ari=
+al, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; f=
+ont-size: 14px; line-height: 22px; margin: 0; padding-bottom: 16px;">&#169;=
+ 2022 <span>Packy McCormick</span><br>10 City Point, Brooklyn, NY 11201 <br=
+><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZOalE1TnpJek9EUXNJbWxoZENJNk1UWTFPRFF3T0RFek1Td2lhW=
+E56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LkFoUWVJ=
+Q2dIWDE4LVFKQ25ad0NhWmRDVWV1bTJFYkFtRVJkRmYwd09JQ2ciLCJwIjo2NDk3MjM4NCwicyI=
+6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTg0MDgxMzEsImlzcyI6InB1Yi=
+0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.Qlo2ZScpn70VLpizVf_awePbWz0kSFZD5mRSIN97=
+mOA?" style=3D"color: #808080;"><span style=3D"color: #808080; text-decorat=
+ion: underline;">Unsubscribe</span></a></p><p class=3D"small powered-by-sub=
+stack" style=3D"color: #808080; font-family: -apple-system, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; line-height: 22px; m=
+argin: 0; margin-top: 0; padding-bottom: 0;"><a href=3D"https://substack.co=
+m/redirect/e6f6ee88-fd05-4515-8abf-09939aeb1ebd?u=3D16283549" style=3D"colo=
+r: #808080; display: inline-block; margin: 8px 4px 0; text-decoration: none=
+;"><img src=3D"https://substackcdn.com/image/fetch/w_260,c_limit,f_auto,q_a=
+uto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fap=
+p-button%402x.png" srcset=3D"https://substackcdn.com/image/fetch/w_130,c_li=
+mit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fim=
+g%2Femail%2Fapp-button.png, https://substackcdn.com/image/fetch/w_260,c_lim=
+it,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg=
+%2Femail%2Fapp-button%402x.png 2x, https://substackcdn.com/image/fetch/w_39=
+0,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.co=
+m%2Fimg%2Femail%2Fapp-button%403x.png 3x" width=3D"130" alt=3D"Get the app"=
+ height=3D"40" style=3D"border: none !important; max-width: 550px; vertical=
+-align: middle;"></a><a href=3D"https://substack.com/redirect/55232fb8-2a62=
+-4613-b49f-2516f9dd4922?u=3D16283549" style=3D"color: #808080; display: inl=
+ine-block; margin: 8px 4px 0; text-decoration: none;"><img src=3D"https://s=
+ubstackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:=
+steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png" s=
+rcset=3D"https://substackcdn.com/image/fetch/w_135,c_limit,f_auto,q_auto:go=
+od,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-=
+button.png, https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto=
+:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpubli=
+sh-button%402x.png 2x, https://substackcdn.com/image/fetch/w_405,c_limit,f_=
+auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fem=
+ail%2Fpublish-button%403x.png 3x" width=3D"135" alt=3D"Start writing" heigh=
+t=3D"40" style=3D"border: none !important; max-width: 550px; vertical-align=
+: middle;"></a></p></div></div></td><td></td></tr></table><img src=3D"https=
+://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDIwMjIwNzIxMTI1N=
+TIxLjMuMTIzZDI5MWJmZTBjMDI5MUBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1NDks=
+InIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjo=
+2NDk3MjM4NCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDAyNSwiYyI6In=
+Bvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6ImJvdHRvbSIsImlhdCI6MTY1ODQwODEzMiwiaXNzI=
+joicHViLTAiLCJzdWIiOiJlbyJ9.UDru0V_HwanRmLbhYgTX1Y8UVoPqIFma2CpPDPRHTug" al=
+t=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important=
+;width:1px !important;border-width:0 !important;margin-top:0 !important;mar=
+gin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;=
+padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !impor=
+tant;padding-left:0 !important;"/><img width=3D"1px" height=3D"1px" alt=3D"=
+" src=3D"https://email.mg-d1.substack.com/o/eJxFUEuShSAMPM2wGwuCqCw4C8Un-qi=
+n8ArjTHn7QV3MrivpdHc6OMKl1NN8yk4MN5dWu2DG2ubROjJiUFPPJyFBwMCikdrzKQws7XaueB=
+8Yqgeyz-HXFBylkm2KRnAOir3MHCEAH2YvcdS6j7MUArhH5UF6rTy7jK07YsIc0OAP1rNkZKFsG=
+2a6pB5KA0OvR5BTz5IBDsBHaFpKgehkJ0BG0MLPyANv4Kvn2_IdRbcfficX3l1TZNXkQr7UlJdG=
+eL_chuu9aOntZXnkRKfF7PyK8XmMnm6OHev92ACTVL1-UtH5QZPxd1-RCCtrbrG0UvK_0R9d43f=
+P"></body></html>
+--27f953f86fb3faa3daa40c980d2cbb775adeb46febd15f066668018aaae4--

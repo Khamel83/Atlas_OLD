@@ -1,0 +1,3085 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:24a2:b0:f4:1691:fe1 with SMTP id m34csp1730806rwc;
+        Tue, 7 Feb 2023 05:49:01 -0800 (PST)
+X-Received: by 2002:a5d:488b:0:b0:2bf:dcdc:afb8 with SMTP id g11-20020a5d488b000000b002bfdcdcafb8mr2563193wrq.64.1675777741268;
+        Tue, 07 Feb 2023 05:49:01 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1675777741; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Mys8LK3PJ+b9mgAff8beG5gbl6hzhCOSCdpLRq/DwNDfrFc39ZGtzzE2L7sASixIM4
+         aosMcsFEQl81tZfU2t21HbncvCElgOmON1yjjHt97q93+i9oDLKxgBA37i+ta4wYpKFU
+         UWP9XZQEs4Sxr2Ml1c8rNTgpcyNDYAZv6+AI0cgkYCgaWkaNeHJPesoDw3BsWxkrrxe4
+         4VTj6nHXtDIIFM4TR9U6FSEi88MJcprJJNTPq3LpwYLv+e8WAmk1/PGkQKrbIi4HGR7e
+         id4V+J6hxSeoD/8nW8TurDa3WfDoxED0hLtcCOcGPc5a7+YfhVPAL4Q4pGrajOpq3iUg
+         Yn2Q==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=message-id:list-post:list-archive:references:date:sender
+         :in-reply-to:reply-to:list-unsubscribe-post:list-owner
+         :list-unsubscribe:list-url:list-id:to:from:subject:mime-version
+         :dkim-signature:delivered-to;
+        bh=73lFB8dQZ/OwzYS/2sAzN27tEViWbnk3ZtyauUpQrFc=;
+        b=Vt2aAEpTHRcG+pQQ7LZl6d2Cgd92Ng3MPcq+f9Fdmh0jp3STzbqe9JR+docsaqtMq0
+         bVZxx6MY49+hXmsIS8zsLZrAJuwqxGV6qzV2qWSrlxoxZiiHCYnmKicdYiwDotJelq3a
+         Il702wGX6O6R33Ya8KsxYHWoDDC3HQ8cbDFa89ITNoTQEC5oqrthbUKqAVnj4sd1rluV
+         cyClTEaPV22bvLUvu1qoN3hkyVYrH16ytVGQU7tdwG1c9H5XD4ACtBI4QE7ZFOHdvoNF
+         ycJaVCOyzDWbzIM27JWMuq9U9aEXu2tZwR83h8fBO8MkKuVfFXEn+68p1N0hC5IDOls7
+         Pm+w==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=e+vaOuDb;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p10-20020a5d458a000000b002c3e29987a9sor3006903wrq.14.2023.02.07.05.49.01
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 07 Feb 2023 05:49:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=e+vaOuDb;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=message-id:list-post:list-archive:references:date:sender
+         :in-reply-to:reply-to:list-unsubscribe-post:list-owner
+         :list-unsubscribe:list-url:list-id:to:from:subject:mime-version
+         :dkim-signature:delivered-to:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=73lFB8dQZ/OwzYS/2sAzN27tEViWbnk3ZtyauUpQrFc=;
+        b=lAtvv7oKRGNNk47E4Y3eBx4r50z5i8fzMu6nLZa8POtig9vraMI5IdrpojuE2rHGeN
+         oNv4ls797M1AOEMKZSx0VNDf01AqSfBG3NFTJKys2vu/4nbhI/Rv67MZ3pcnBLww3XIG
+         NEaC4Ab9VjeO38NTfTIAh3axXhVQ9kmvdpAT+gczPymszziiqeyTv40T8psdM/ThvG2B
+         vgy/QqR5FQTgHseSySpFjuV8JbPyQRl1wR/3dxMKisBeyPkOEmJ5ZQp5HUm+6Y+TSsMB
+         +ym6qc1MWfKcz9kadDeIwmCF7h7thTFSoe2pmNPG+utp8qRMPnDeXYYalsh/x4kLQDHU
+         ls6A==
+X-Gm-Message-State: AO0yUKXDHqcgUHSlkxSVYyuU3c9WDaig4wqliR6+9B5J2E1+CKgVvCPG
+	Zn5wkXzLwwBCSHY/9lski/MdVNo+Unm833zFaF0wZK8tBPlA2CNo8g==
+X-Received: by 2002:adf:f649:0:b0:2c3:e542:9304 with SMTP id x9-20020adff649000000b002c3e5429304mr105540wrp.696.1675777740827;
+        Tue, 07 Feb 2023 05:49:00 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:638c:0:0:0:0:0 with SMTP id p12csp846090wru;
+        Tue, 7 Feb 2023 05:48:56 -0800 (PST)
+X-Received: by 2002:a81:140f:0:b0:527:969d:90e7 with SMTP id 15-20020a81140f000000b00527969d90e7mr1684926ywu.41.1675777736631;
+        Tue, 07 Feb 2023 05:48:56 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1675777736; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=U7jkCLuxjSkypbOOaPDRMfThmIxjsPw1/5ulB+yXnrzp/67OkP5Mf0FpF6aI7y8Qm8
+         kkb0bWp2b+YnjLFFjynFzbpHiJkGsw7ulEVeaBjV9D+29GK2NQxh1hNtHULc/Yr+G9dY
+         eP4U5WBgcYJt0OLoJbjw8yWPRVxxL4V3osOeSmeAW/8L3CmRxW7lRKv2DzC6nGD0R6Oq
+         uPk8X+hBO7X4EZzpyIeh/xjMyTmgpXe2fgJJxJxUCsZQpQ4ed4f8o0ExZgJ2DR0v/eEJ
+         t2mxTtOLGUIazcNwBanU0zvAj6AQvROlsGAkLxzCmVgyWs5RHDd9Mxnj9NRJhEzFIsEq
+         kV4g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=message-id:list-post:list-archive:references:date:sender
+         :in-reply-to:reply-to:list-unsubscribe-post:list-owner
+         :list-unsubscribe:list-url:list-id:to:from:subject:mime-version
+         :dkim-signature;
+        bh=73lFB8dQZ/OwzYS/2sAzN27tEViWbnk3ZtyauUpQrFc=;
+        b=ccjY7USTbb4/tlZG3YLSqhRVEeXiMA2g93ovFHvEGQsKrkHBWwtzzieboS6744MqxR
+         yRK4iCfGv6gnxUcm8NgY0nPxaARPDn1UCKsyjHiite2dNSPihieD5RTy5+vd4IInme50
+         hr3Tu+o3/V1EiLc+vx1rxoxCWq3mJ7CoaHNnmmiQzU6pR/ifsSiuPp7A1kCQN0x43d2z
+         PjbtvFhQVoWjObtnC49AYPWSkND2Oy2gOSkFw/NSRy/RINbtaZMSN6QUt/phRcb2zSLV
+         Zy4xrmkfbFXLlAceDeMrXTb8BGwMRaztW3oHwuB1PJl4tVJBuLE33RhpogrHY3l16NC9
+         gaoA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=e+vaOuDb;
+       arc=pass (i=1 spf=pass spfdomain=mg-d0.substack.com dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id f3-20020a814143000000b0052450991b75sor4788350ywk.117.2023.02.07.05.48.56
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 07 Feb 2023 05:48:56 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set9SrS/NtHJA7ztPoyIo1HJ+/EsqXFpUKb9HpN6yaxUYCIoDAKWbq2vPp0LsbEe9fyf1rel8prIvY0ARUYXh3c60rY0txew=
+X-Received: by 2002:a81:b713:0:b0:506:3ac9:11ed with SMTP id v19-20020a81b713000000b005063ac911edmr1680340ywh.34.1675777736169;
+        Tue, 07 Feb 2023 05:48:56 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1675777736; cv=none;
+        d=google.com; s=arc-20160816;
+        b=BSJrtHGMtrCykZHkSM/e2c7kIlbGXH5T9ULw1wa1429gHGLDUBPZY+egviLkWw/gMR
+         ad8jfyfJVyTe7zKY32yDo2KE4vCVmJCUIvaSf79HbFMvECBQGU/MlAU1v3LqnlqDLmeY
+         +afMlMgtH1bGMriLJwquCBLwDhKMmApLZ48cdUvr8ESPQB85je6sb/TiFYEbFcAurkTw
+         4onOrVerW2SY6RxKk1yo3AZc998Z3ztkd9DE58eZs0ZfDOCSuHOeu+T/bpC6pYuE+AUL
+         RI3jVU73Aatyg+6ZajczJXLvoMcV/Pf9phZSU9hkH+CpYjrQe3K96SZrU+EEfOvAvjb1
+         AtwQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=message-id:list-post:list-archive:references:date:sender
+         :in-reply-to:reply-to:list-unsubscribe-post:list-owner
+         :list-unsubscribe:list-url:list-id:to:from:subject:mime-version
+         :dkim-signature;
+        bh=73lFB8dQZ/OwzYS/2sAzN27tEViWbnk3ZtyauUpQrFc=;
+        b=YYgXe0KyNKv1yfbw1olqk86dl/Dh/2hjZmcj182yhfa4rjwn9I/Z2HePlgT9c1lJwe
+         q8m7/G7AW+8rYw7dvxzvL8n4DDd5iMsdWTfbxSpjfqWnckzDVgzMLI6oOE+Ae/sCrPlt
+         BiwDAYZbdJTU2aVIf1MO166ApxWCLExySBdBnYQPAh2wjyWgIgPmQdzzDyaqY3J0hTCI
+         KYwMAas5WxPTbjua2+fEBm4k2YHuByUt4fHkFa5ZVdpMTuNwCRYCA74lj41+SmEXNSkQ
+         /+sukGVpnRPlabKgToa+DUeGk3MSlDhCmE49lfBzJiVZ0KNHM4POeIwqPZohsPm/etzy
+         qb7Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=e+vaOuDb;
+       spf=pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 159.112.244.7 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from m244-7.mailgun.net (m244-7.mailgun.net. [159.112.244.7])
+        by gmr-mx.google.com with UTF8SMTPS id d6-20020a0ddb06000000b0050646ae9a2fsi1232990ywe.4.2023.02.07.05.48.46
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 07 Feb 2023 05:48:56 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 159.112.244.7 as permitted sender) client-ip=159.112.244.7;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d0.substack.com; q=dns/txt;
+ s=mailo; t=1675777716; x=1675784916; h=Message-Id: List-Post:
+ List-Archive: References: Date: Sender: Sender: In-Reply-To: Reply-To:
+ List-Owner: List-Unsubscribe: List-Id: To: To: From: From: Subject:
+ Subject: Content-Type: Mime-Version;
+ bh=73lFB8dQZ/OwzYS/2sAzN27tEViWbnk3ZtyauUpQrFc=; b=e+vaOuDbBvU9Cvbapk95cIYiKqLJyzTtH3x7zdzjanUBSoPzOuQ5lcuCDuIxLbI1uovFhYP2
+ vT8p+Vj8oW/W/Z39+Hn/ZQF2kBZKALMAGaC3znIyBa04+/R896fXbpEOf9hrRRh+T0+o/LK2
+ Bo7CmjlKZMorY2wygtQ3aKg8jZk=
+X-Mailgun-Sending-Ip: 159.112.244.7
+X-Mailgun-Sid: WyJhNzc2ZCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiNjNhZjVkIl0=
+Received: from <unknown> (<unknown> []) by d8e18ebc824b with HTTP id
+ 63e2569512f50e9cf158d939; Tue, 07 Feb 2023 13:48:04 GMT
+X-Mailgun-Batch-Id: 63e2569412f50e9cf158d32b
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="de0c52fd2c64bc7c835b2518b6432c48ad73a499233edbde6262ffcc9c4d"
+Subject: Startup Prophecies
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+List-Id: <notboring.substack.com>
+List-Url: <https://www.notboring.co/>
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk1UQXhNamt4TnpnMExDSnBZWFFpT2pFMk56VTNOemMyT0RBc0ltVjRjQ0k2TVRZM09ETTJPVFk0TUN3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuTVl5RF9NLUh3MmV0ZkQtMk13bzN1aGhJajZ3QzlxN3RFdmhqU1dwWlk4WSIsInAiOjEwMTI5MTc4NCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NzU3Nzc2ODAsImV4cCI6MTY3ODM2OTY4MCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.GfZ1CYmo_IjpppYU3un5463rdxWTGxOd1c0VFVEWApA?>
+List-Owner: <mailto:notboring@substack.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Reply-To: Not Boring
+ <reply+1ob18o&9p0gt&&b848c8900844d42d1ad77a8b61fdde4b704f7eaab8926b7aeac1d556bccce4e1@mg1.substack.com>
+In-Reply-To: <post-101291784@substack.com>
+Sender: Not Boring <notboring@substack.com>
+Date: Tue, 7 Feb 2023 13:47:45 +0000
+References: <post-101291784@substack.com>
+List-Archive: <https://www.notboring.co/archive>
+List-Post: <https://www.notboring.co/p/startup-prophecies>
+Message-Id: <20230207134745.3.96e7aa60b0d148bc@mg-d0.substack.com>
+X-Mailgun-Variables: {"category": "post", "comment_id": "",
+ "email_generated_at": "1675777681188", "is_freemail": "true",
+ "post_audience": "everyone", "post_id": "101291784", "post_type":
+ "newsletter", "pub_community_enabled": "true", "publication_id": "10025",
+ "subdomain": "notboring", "user_id": "16283549"}
+
+--de0c52fd2c64bc7c835b2518b6432c48ad73a499233edbde6262ffcc9c4d
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/startup-prophecies
+
+Welcome to the=C2=A0746=C2=A0newly Not Boring people=C2=A0who have joined u=
+s since last Tuesday! If you haven=E2=80=99t subscribed, join=C2=A0184,867 =
+smart, curious folks by subscribing here:=20
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 Wander [ https://s=
+ubstack.com/redirect/62f0053a-3fa1-488d-ba3f-12f134e69d33?j=3DeyJ1IjoiOXAwZ=
+3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Last week, I wrote about Wander [ https://substack.com/redirect/2754c8d4-2a=
+80-4983-b6bc-c7d512b2c4c0?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepK=
+bqOsa8-6m8ExkRNpU ]. It=E2=80=99s already one of our most popular deep dive=
+s ever. Here=E2=80=99s a quick refresher:
+Wander [ https://substack.com/redirect/5ddd0d69-6025-45e8-8eb8-64e3fd89359d=
+?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is a =
+network of smart vacation homes that come with inspiring views, modern work=
+stations, restful beds, hotel-grade cleaning and 24/7 concierge service =E2=
+=80=93=E2=80=93 combining the quality of a luxury hotel with the space and =
+comfort of a vacation home, only better. Don=E2=80=99t take my word for it.=
+ Use promo code notboring for $250 off your next trip. (Expires Thursday at=
+ 11:59pm ET). Explore now. [ https://substack.com/redirect/5ddd0d69-6025-45=
+e8-8eb8-64e3fd89359d?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa=
+8-6m8ExkRNpU ]
+But that=E2=80=99s only part of the story. Wander recently launched Atlas [=
+ https://substack.com/redirect/4be983d9-5e48-4d36-878c-b29086e7780a?j=3DeyJ=
+1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] =E2=80=93=E2=
+=80=93 a first-of-its-kind vacation rental REIT that gives you the chance t=
+o own a piece of their magical portfolio of homes. With Atlas, accredited i=
+nvestors have the opportunity to earn income and diversify their portfolio =
+without the headache and hassle of buying a property, renting it out, or ma=
+intaining it.
+Plus, right now new Atlas investors may get the chance to invest in Wander=
+=E2=80=99s next round of funding. You can learn more on their website:
+Hi friends =F0=9F=91=8B,
+Happy Tuesday! Let=E2=80=99s have a little fun today, shall we?=C2=A0
+Let=E2=80=99s get to it.
+Startup Prophecies
+I have a few core beliefs that animate Not Boring:=C2=A0
+Startups are key to solving really big challenges.=C2=A0
+More people should be able to invest in, and support, startups.=C2=A0=C2=A0
+We need more optimistic stories about technology.=C2=A0
+I also have a few less-core-but-relevant-here beliefs, which I=E2=80=99ve w=
+ritten about:=C2=A0
+Business is the New Sports [ https://substack.com/redirect/6465ce49-b9f7-47=
+d7-8d96-47dc99fd2045?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa=
+8-6m8ExkRNpU ].
+Bottoms-up narratives are a powerful way to build worlds. (Story Time [ htt=
+ps://substack.com/redirect/e50ee1e2-d39a-4a99-a689-40917d3d6157?j=3DeyJ1Ijo=
+iOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ])
+In Story Time, I wrote that =E2=80=9CIn a world of abundance, attention is =
+the scarcest resource, and people=E2=80=99s attention is hard to earn.=E2=
+=80=9D I suggested that startups should shift from top-down storytelling to=
+ bottoms-up narrative building, in partnership with their fans and communit=
+ies, and that they could take lessons from NFT projects, which create world=
+s and then largely turn narrative-building over to the people who own the N=
+FTs.=C2=A0
+The connection between NFTs and startups in Story Time was loose, just a so=
+urce of inspiration for the progressive decentralization of narrative. I wa=
+sn=E2=80=99t suggesting that startups should actually create NFTs or encour=
+age their fans to do the same.=C2=A0
+Then, in October, I read Jacob Horne=E2=80=99s Prophecy Markets [ https://s=
+ubstack.com/redirect/2a8a63f6-67b3-47f2-ae6a-e230f434e7da?j=3DeyJ1IjoiOXAwZ=
+3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], and my brain blew up. =
+Horne proposed a structure for positive sum prediction markets in which any=
+one can make a prediction, mint the prediction as an NFT, and let it trade =
+freely. If a bold prediction paired with beautiful art comes true, might th=
+at NFT be worth more than it was when it was created? What other benefits c=
+ome from giving people shared ownership in the prediction? Horne asks:
+Even more interestingly, what does it mean when predictions become positive=
+ sum with that level of granularity? Do more people start working together =
+to make something a reality? Or stop something from happening? Who knows.
+In the spirit of cc0 [ https://substack.com/redirect/b64fba99-f1e3-4282-8bd=
+b-40672aa51479?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8E=
+xkRNpU ], I=E2=80=99ve been remixing this idea in my head ever since I read=
+ the piece four months ago, and can=E2=80=99t stop thinking about how beaut=
+ifully it applies to startups.
+Swirl all of that together, and here=E2=80=99s the idea: Startup Prophecy M=
+arkets.=C2=A0
+Startup Prophecy Markets let anyone timestamp predictions about the startup=
+s they believe in most by creating art, videos, stories, analysis, and more=
+ about the companies=E2=80=99 futures and minting them. Theoretically, if t=
+he predictions are bold enough, the content is good enough, and the startup=
+s they=E2=80=99re attached to are ambitious enough, those NFTs might be wor=
+th more in the future than they are today. A quick scan of eBay reveals a b=
+ooming market for early memorabilia from today=E2=80=99s great tech compani=
+es.=C2=A0
+Even more interestingly, what does it mean to create a rich positive sum ec=
+osystem around startups? Do more people start working together to help them=
+ succeed? Do NFTs associated with startups tackling the most important prob=
+lems become more than those associated with startups that merely become val=
+uable? Does it encourage founders to make bolder bets, and provide them wit=
+h an army of supporters when they do?
+That=E2=80=99s what we=E2=80=99ll explore today. To start, let=E2=80=99s di=
+ve into the details of Prophecy Markets.
+Prophecy Markets
+Prophecy Markets. [ https://substack.com/redirect/2a8a63f6-67b3-47f2-ae6a-e=
+230f434e7da?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkR=
+NpU ] brainwormed me like nothing I=E2=80=99ve read in a while.=C2=A0
+The core idea in Horne=E2=80=99s October essay is that it might be possible=
+ to create positive sum prediction markets by using NFTs to capture =E2=80=
+=9Cequity in a moment.=E2=80=9D=C2=A0
+Traditional prediction markets are zero sum. A prediction market ends in a =
+binary outcome - $0 or $1. Right now on Kalshi [ https://substack.com/redir=
+ect/a7d3c4b9-f7f8-4ab7-8eb6-ed86c567e52a?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_=
+ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], you can go long Everything Everywhere A=
+ll at Once winning Best Picture at the 2023 Oscars for $0.70. If it wins, y=
+ou get back $1. If it loses, you get nothing.=C2=A0
+Equities, on the other hand, are positive sum. You don=E2=80=99t need someo=
+ne to take the other side to invest in a startup, for example, and the upsi=
+de is uncapped.=C2=A0
+Sequoia made $3 billion from its $60 million investment in WhatsApp. Accel=
+=E2=80=99s 15% Series A stake in Thefacebook was worth roughly $9 billion w=
+hen Facebook IPO=E2=80=99d in 2012. Masa Son=E2=80=99s $20 million investme=
+nt in Alibaba was worth an eye-popping $60 billion when the Chinese ecommer=
+ce giant went public in 2014.=C2=A0
+No one lost money when those companies succeeded (although the outcomes mus=
+t have been painful for investors who passed), but early believers were rew=
+arded enormously. Of course, many venture investments go to $0; the differe=
+nce is that they=E2=80=99re not capped when they succeed.=C2=A0
+What would it look like to design prediction markets that behave more like =
+equities?=C2=A0
+Horne proposes minting predictions as NFTs. But he starts the thought exerc=
+ise crypto-free.
+He gives an example of an artist who predicts that an alien spacecraft will=
+ visit humanity for the first time on December 1, 2025 by hovering over the=
+ Eiffel Tower. The artist paints 10 pictures of the spacecraft floating abo=
+ve the Eiffel Tower, asks a journalist to timestamp in print, sells two cop=
+ies for $100 each (one to the journalist and one to an amused reader), and =
+locks the rest in storage.
+Lo and behold, against all odds, on December 1, 2025, there it is: an alien=
+ spacecraft hovering over the Eiffel Tower. What would those original paint=
+ings be worth?=C2=A0
+Are these paintings worth $100? Perhaps $10,000 each? Maybe more? It=E2=80=
+=99s hard to imagine a case where they are the same price or cheaper=E2=80=
+=94but admittedly it is hard to say how much they would be worth. If they a=
+re selling for more, then the artist has effectively created an object that=
+ represents ownership over that prediction, and has been able to capture va=
+lue as a result without having to find a counterparty. They have created eq=
+uity in a moment=E2=80=94aka positive sum prediction market.
+So now let's imagine instead of the artist painting physical works, they si=
+mply minted it as an NFT=E2=80=94
+=E2=80=9CNFTs?!=E2=80=9D you might be asking yourself. =E2=80=9CAren=E2=80=
+=99t those dead? JPow gets a little dovish and we=E2=80=99re back to talkin=
+g about NFTs?=E2=80=9D=C2=A0
+Horne anticipates your pushback (emphasis mine):=C2=A0
+=E2=80=94not because we like NFTs (we may or may not), but because we get a=
+ll of the functionality that the artist had at lower cost and effort. By mi=
+nting as an NFT this means that they get the time stamping functionality ou=
+t of the box (impossible to fake), visible to the entire public (by nature =
+of being on the blockchain) and also happens to be tradable before and afte=
+r the fact.
+The Official Not Boring Take=E2=84=A2=EF=B8=8F on NFTs has always been that=
+ they=E2=80=99re an incredibly useful primitive that will get more useful w=
+ith time. As I wrote in Web3 Use Cases: Today [ https://substack.com/redire=
+ct/b72a022f-3dc6-45ce-bcb4-40795a70eb97?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_Z=
+lNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]:
+Simply, NFTs give physical properties to digital items, making them unique,=
+ ownable, and tradeable, in addition to digital properties like programmabi=
+lity and composability. Over time, NFTs will represent things that are more=
+ useful than the things they represent today, but even today, the collectib=
+les use case is a real one.
+Even now, the NFT market is coming back to life, seen more clearly in the n=
+umber of trades than in the dollar volume:
+And it=E2=80=99s evolving. Checks [ https://substack.com/redirect/78a623ce-=
+9879-4361-b9b9-f653993fc16b?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXe=
+pKbqOsa8-6m8ExkRNpU ] by Jack Butcher [ https://substack.com/redirect/e82ca=
+24a-a69d-4492-b3ee-ffac204f5f5f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjm=
+lXXepKbqOsa8-6m8ExkRNpU ] is one of the most fun projects I=E2=80=99ve seen=
+ in a while. Visible [ https://substack.com/redirect/c68bc73a-dc8b-4df3-928=
+8-8aa842e8020f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8E=
+xkRNpU ] is using NFTs as digital titles to homes. DIMO [ https://substack.=
+com/redirect/5446e3fb-d154-4d04-b603-c9cfc6914206?j=3DeyJ1IjoiOXAwZ3QifQ.gb=
+8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is using NFTs to store your car=
+=E2=80=99s data. And Prophecy Markets feels like a truly native and novel s=
+tructure that could only exist in its fullness with NFTs.=C2=A0
+Prophecy Markets is one of those =E2=80=9Cstart out looking like a toy [ ht=
+tps://substack.com/redirect/f6866cfb-b6fd-401b-a59d-0fdd130f0c3c?j=3DeyJ1Ij=
+oiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]=E2=80=9D ideas t=
+hat could become really powerful. It takes advantage of all of the things t=
+hat NFTs are uniquely good at to create a new market structure designed for=
+ a world of abundance. After I read it, I became more convinced that NFTs a=
+re going to become an increasingly important piece of our digital lives.=C2=
+=A0
+Because the real value isn=E2=80=99t in the price of the predictions, but i=
+n the rich worlds that can develop around them.=C2=A0
+What would happen to the startup ecosystem if we introduced Startup Prophec=
+ies?=C2=A0
+Startup Prophecies
+Startup Prophecies are a derivative of Prophecy Markets that let anyone per=
+missionlessly create and mint predictions, art, analysis, code, videos, sto=
+ries, and more around startups. These Startup Prophecy NFTs can be traded, =
+creating a 3D market on top of the more linear venture funding market. =C2=
+=A0
+The thing that excites me about this idea is that, unlike alien landings, p=
+eople can actually influence startup outcomes. They can tell stories, sprea=
+d awareness, call their Senators, make customer introductions, and build a =
+richer world around the missions they believe in. This is decentralized sto=
+rytelling or web3 media that is company-centric but not company-directed:
+Here=E2=80=99s how it works, at its most basic:=C2=A0
+Create. Anyone can create predictions, art, stories, music, code, spreadshe=
+ets, whatever related to a startup that they think will be more valuable or=
+ important in the future than it is today.=C2=A0
+Mint. They can mint those items as NFTs, and give or sell editions to other=
+ people who believe that those startups will be more valuable or important =
+in the future than they are today, or to those who just want to support the=
+ company=E2=80=99s mission.=C2=A0
+Trade. Between now and the prediction, there=E2=80=99s a liquid market for =
+the NFTs that roughly tracks sentiment around those companies.=C2=A0
+Appreciate. If those startups end up being more valuable or important than =
+they are today, maybe those NFTs will be more valuable than they are today.=
+=C2=A0
+I don=E2=80=99t think that the value of the assets will tightly track the v=
+alue of companies, and I don=E2=80=99t think that there will be a market fo=
+r every company=E2=80=99s NFTs. Companies can become valuable without becom=
+ing important, and my guess is that NFTs associated with the ones that beco=
+me important will be worth more than those for the ones that simply become =
+valuable. Which, in my opinion, is a feature.=C2=A0
+Startup Prophecy NFTs are not shares in the company. They=E2=80=99re loosel=
+y connected not by legal documents, but by memes. People will naturally be =
+more attracted to the stories attached to companies that can take us to Mar=
+s, cure cancer, or birth AGI =E2=80=93 Hard Startups that do new and import=
+ant things =E2=80=93 than they are to those about yet another CRM or an ite=
+rative workflow product. Startup Prophecies will reward Good Quests [ https=
+://substack.com/redirect/56ef1384-d220-4b0f-ad87-8f26da1554e8?j=3DeyJ1IjoiO=
+XAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].=C2=A0
+A few hypothetical historical examples might paint the picture.=C2=A0
+Imagine that a digital artist created an image of a SpaceX rocketship landi=
+ng on Mars in 2040 way back in 2003, when the company was founded, minted t=
+en of them, and sold them for $100. It=E2=80=99s hard to imagine those woul=
+dn=E2=80=99t be worth more than $100 today, and harder to imagine they woul=
+dn=E2=80=99t be much more valuable if SpaceX actually lands on Mars in 2040=
+=2E=C2=A0
+Imagine that way back in 1976, Apple minted 100 editions of its original lo=
+go and gave them to its first 100 customers. Those would be worth something=
+ today.=C2=A0
+Imagine that a sci-fi writer wrote an optimistic short story about a world =
+in which OpenAI figures out AGI when the company launched in 2015, minted i=
+t, and sold 1,000 copies at a market clearing price. The proceeds might hav=
+e allowed her to keep writing full-time. NFTs of the short stories would li=
+kely have increased in value with each breakthrough the company made over t=
+he past few years, and exploded with the launch of ChatGPT. They=E2=80=99d =
+probably be worth even more if OpenAI ultimately achieves its mission.=C2=
+=A0
+Forget the NFT piece for a second. As you read this, there are multiple fir=
+st edition Isaac Asimov books for auction on eBay [ https://substack.com/re=
+direct/c99413ad-cbeb-4a3e-bb73-91b77dbbfcf0?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7G=
+nA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] at over $1,000, with a signed First E=
+dition Trilogy as high as $32,000.=C2=A0
+There are dozens of old school Apple t-shirts [ https://substack.com/redire=
+ct/241b2b33-5158-43dd-870a-5171df7df3b4?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_Z=
+lNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] on offer for hundreds of dollars, and thi=
+s signed Steve Jobs Time Magazine cover is up for $124,995.=C2=A0
+Maybe a CyberTruck Hot Wheels signed by Elon Musk himself is more your spee=
+d? Good news. It can be yours for only $49,999.99 (or Best Offer).
+By contrast, the most expensive Salesforce t-shirt [ https://substack.com/r=
+edirect/31a9f623-f9d5-41cb-be59-685452c602c6?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7=
+GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] on offer is $39.99 and there=E2=80=
+=99s practically no market for TikTok company swag despite the product=E2=
+=80=99s popularity, adding credence to the idea that Startup Prophecies rel=
+ated to companies that become both important and valuable will be worth mor=
+e than those related to companies that merely become valuable.=C2=A0
+Of course, one way to bet on the success of a younger company like Stripe o=
+r Replit or OpenAI would be to find something autographed by Patrick Collis=
+on or Amjad Masad or Sam Altman, put it in a protective case, and wait. And=
+ given that we=E2=80=99ve focused on the monetary value of the hypothetical=
+ NFTs or real collectibles thus far, I wouldn=E2=80=99t blame you for going=
+ that route.
+But the value of the assets is probably the least interesting piece of the =
+Startup Prophecies idea. The greater benefits would come in the form of the=
+ impact on the companies, the NFTs=E2=80=99 creators, their holders, and th=
+e communities and products that form on top of them.=C2=A0
+To understand what those might be, it=E2=80=99s helpful to go into the attr=
+ibutes that make NFTs uniquely suited for this purpose. Why NFTs?=C2=A0
+Timestamped. Every time an NFT is created or traded, it creates a timestamp=
+ associated with the NFT. Timestamps are useful for proving that you predic=
+ted something early.=C2=A0A 2023 prediction should be worth more than the s=
+ame prediction made in 2025.
+Permissionless. Anyone can create a piece related to their favorite company=
+ and mint it. Once minted, anyone in the world can buy or sell.=C2=A0Narrat=
+ives and worlds can build up without the company=E2=80=99s direct involveme=
+nt.
+Attributed. It=E2=80=99s easy for the public to verify who each NFT was min=
+ted by =E2=80=93 the digital equivalent of a signature =E2=80=93 and who ow=
+ns them at any given time.=C2=A0
+Composable. The real magic of NFTs is that they=E2=80=99re essentially a fi=
+le format that can be plugged into a number of different applications over =
+time. Ownership today unlocks access to an evolving ecosystem in the future=
+=2E=C2=A0
+That last piece =E2=80=93 composability =E2=80=93 is especially important. =
+Key to Startup Prophecies is the fact that anyone can build experiences for=
+ NFT holders. In the simplest form, that might mean access to a company=E2=
+=80=99s community-run Fan Club Discord. The companies themselves may choose=
+ to give holders tokengated [ https://substack.com/redirect/5fccebe9-0464-4=
+388-87b1-c5345151f6d8?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOs=
+a8-6m8ExkRNpU ] access to events, discounts, or limited edition swag. Peopl=
+e can show off their NFTs passively in their wallets or actively in galleri=
+es like OnCyber [ https://substack.com/redirect/4aa79b52-014f-4417-ac6f-d27=
+360e47071?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNp=
+U ] and build up a richer picture of themselves online. Creators can create=
+ derivative works to expand and reinforce the ecosystem, as is happening wi=
+th Checks [ https://substack.com/redirect/78a623ce-9879-4361-b9b9-f653993fc=
+16b?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] an=
+d Nouns [ https://substack.com/redirect/f67e9572-7949-4f0b-bf46-da64790346d=
+0?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. DAO=
+s can form to coordinate holders=E2=80=99 activities and provide grants to =
+projects that support the company (see this grant-funded Nouns video [ http=
+s://substack.com/redirect/346c033e-c37c-45f7-a7cb-418eb5445f7b?j=3DeyJ1Ijoi=
+OXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]). Developers could=
+ build apps =E2=80=93 as simple as Startup Prophecy-specific NFT marketplac=
+es or as rich as games and virtual worlds =E2=80=93 that incorporate the NF=
+Ts. All of this can be done bottoms-up, without any involvement from the co=
+mpanies themselves. It=E2=80=99s already happening with digital art.=C2=A0
+By creating a new layer, Startup Prophecies adds a whole new dimension to t=
+he startup ecosystem and turns supporting companies into a big, open game [=
+ https://substack.com/redirect/30d97353-9c01-4368-9230-40ed8c939cfd?j=3DeyJ=
+1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].=C2=A0
+The fun thing about open, permissionless systems is that they=E2=80=99ll ev=
+olve and grow in unpredictable ways. I can=E2=80=99t know all of the differ=
+ent ways that people might run with the idea, but there are a few categorie=
+s of things I can see happening that have little to do with the price of th=
+e NFTs themselves. Here are a few.=C2=A0
+Broaden the Community of Supporters
+Would Startup Prophecies broaden the community of supporters around the mos=
+t ambitious companies? Would artists and videographers and writers find ric=
+h new source material in companies aligned with their beliefs? Would compan=
+ies themselves create tokengated [ https://substack.com/redirect/5fccebe9-0=
+464-4388-87b1-c5345151f6d8?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXep=
+KbqOsa8-6m8ExkRNpU ] experiences for people who hold their NFTs? Would fan =
+clubs spring up? Might a DAO of NFT holders even take a board seat one day?=
+=C2=A0
+Anchor NFTs to =E2=80=9CReal World Assets=E2=80=9D Without Legal Hoops
+Would conceptually tying NFTs to real companies create a 3D side-market on =
+those companies=E2=80=99 performance? Would company-related NFTs be more va=
+luable than a random NFT project by association with something real and imp=
+ortant? Could Startup Prophecies be an informal, web3-native bridge between=
+ traditional and crypto markets without the legal headaches? Would Startup =
+Prophecy NFTs provide a crowdsourced way to assess the value and cultural r=
+elevance of companies in between funding rounds?=C2=A0
+Showcase Missions You Believe In
+Just like art collectors hang their pieces in galleries, Punk owners use th=
+eir Punks as PFPs, or angel investors list their best companies in their Tw=
+itter bios, might people create wallets and galleries filled with NFTs rela=
+ted to companies and missions they believe in? Would the ability to show su=
+pport for space exploration or cell therapies expand the universe of people=
+ who hold digital assets? Would community members with expertise curate the=
+ most exciting companies working in Climate, Biotech, Space, web3, and a nu=
+mber of different categories? What would the internet look like if people c=
+ould more easily show what they=E2=80=99re for than shout what they=E2=80=
+=99re against?=C2=A0
+Build a Fantasy Startup Portfolio=C2=A0
+Might aspiring VCs use timestamped collections of Startup Prophecies to bui=
+ld up a track record? Could a company build a Startup Prophecy Fantasy App =
+to rank collectors across a number of metrics and give visibility to people=
+ who might not otherwise get noticed by top funds or be able to launch thei=
+r own? Would the popularity of certain NFTs even inform VCs=E2=80=99 decisi=
+ons about which companies to invest in?=C2=A0
+Encourage Optimistic Visions of the Future
+If there were a market for Startup Prophecies, would more people use their =
+skills =E2=80=93 as artists, writers, videographers, musicians, analysts =
+=E2=80=93 to create more optimistic visions of the future? What would the w=
+orld look like if the incentives for expressing optimism on the internet ou=
+tweighed those for expressing pessimism? Might the market=E2=80=99s desire =
+to own assets that represent grand but possible futures push creators towar=
+ds definite optimism and sharp analysis instead of pie-in-the-sky guesses?=
+=C2=A0
+Incentivize Good Quests
+If my intuition that NFTs related to companies that become valuable and imp=
+ortant will be worth more than companies that simply become valuable, will =
+the existence of Startup Prophecies create incentives for more people to Ch=
+oose Good Quests [ https://substack.com/redirect/56ef1384-d220-4b0f-ad87-8f=
+26da1554e8?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRN=
+pU ]? Would the knowledge that free marketing and support will exist for th=
+e most ambitious companies tackling the biggest challenges tip skilled foun=
+ders towards doing something harder than they otherwise might have? Would t=
+hat same knowledge give investors more confidence to back those Hard Startu=
+ps? Would iterative or copycat ideas fall out of favor?=C2=A0
+Accelerate Positive Outcomes
+Most importantly, could a positive sum market of Startup Prophecies be self=
+-fulfilling? =E2=80=9CDo more people start working together to make somethi=
+ng a reality?=E2=80=9D If they do, would it tip the scales enough that a bo=
+ld company might succeed where they otherwise might have failed? Would owne=
+rship and community involvement provide enough activation energy to turn pe=
+ople into advocates?=C2=A0
+I framed all of these as open questions because I have no idea how it might=
+ play out.=C2=A0
+It=E2=80=99s very possible that the vast majority of Startup Prophecy NFTs =
+don=E2=80=99t find an audience and fizzle into obscurity. Some might attrac=
+t buyers for a while, but fade after the predicted event even if it comes t=
+o pass. Interest in projects might wane between funding rounds or big annou=
+ncements, creating falsely volatile swings. This being the internet, there =
+might very well be a market for negative predictions about companies, and t=
+he associated efforts to bring those to life. There=E2=80=99s a good chance=
+ that the value of the NFTs never quite connects with the value of the comp=
+anies they represent. There=E2=80=99s no way to predict how a complex, dyna=
+mic market like this would evolve, or that it would even take off in the fi=
+rst place.
+But I think there=E2=80=99s something magical here. Instead of trying to sh=
+oe-horn everything into becoming a Crypto Thing, it lets the core asset (in=
+ this case, a startup, but it could be a movie, or a team, or a game, or wh=
+atever) focus on what it does best while a loosely-tethered community of lo=
+osely-incentivized supporters forms around it. If nothing else, it=E2=80=99=
+s a new form of company merch and memorabilia.=C2=A0
+There=E2=80=99s only one way to find out.=C2=A0
+I want to experiment with this idea. The easiest way would be to mint deep =
+dives I=E2=80=99ve written about companies, and I might do that, but there =
+are more native ways to do it. I want to write optimistic short stories abo=
+ut the world in which they succeed. I =E2=80=A6 just need to learn how to w=
+rite short stories first, so I=E2=80=99m timestamping the idea here in the =
+meantime.=C2=A0
+If this idea takes off, I want Not Boring Capital=E2=80=99s Portfolio page =
+to be an OnCyber gallery full of the NFTs related to the companies we=E2=80=
+=99ve invested in.
+For now, I=E2=80=99ll start by minting this post on Mirror. If this version=
+ of events comes to be, if a rich ecosystem of Startup Prophecies develops,=
+ maybe this post will be worth something one day. Who knows. The point here=
+ isn=E2=80=99t to make money now =E2=80=93 I=E2=80=99ll donate the proceeds=
+ to charity =E2=80=93 but to watch what happens when more people are aligne=
+d behind missions they believe in and the people bringing those missions to=
+ life.=C2=A0
+Let=E2=80=99s see what happens.=C2=A0
+P.S. Startup Prophecies is just one riff on Prophecy Markets. There are man=
+y riffs left to explore.=C2=A0=F0=9F=91=80=C2=A0
+Thanks to Dan, Jacob, and Puja for your feedback!=20
+That=E2=80=99s all for today! We=E2=80=99ll be in your podcast feeds this w=
+eek and in your inbox with a Weekly Dose on Friday.=20
+Thanks for reading,=20
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZNVEF4TWpreE56ZzBMQ0pwWVhRaU9qRTJOelUzTnpjMk9EQXNJb=
+VY0Y0NJNk1UWTNPRE0yT1RZNE1Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpH=
+bHpZV0pzWlY5bGJXRnBiQ0o5Lk1ZeURfTS1IdzJldGZELTJNd28zdWhoSWo2d0M5cTd0RXZoalN=
+XcFpZOFkiLCJwIjoxMDEyOTE3ODQsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaW=
+F0IjoxNjc1Nzc3NjgwLCJleHAiOjE2NzgzNjk2ODAsImlzcyI6InB1Yi0wIiwic3ViIjoibGlua=
+y1yZWRpcmVjdCJ9.y1EDaNsJ1N4xv8PokoSAzfXyX_oNID82oCV2ImqAIAc?
+--de0c52fd2c64bc7c835b2518b6432c48ad73a499233edbde6262ffcc9c4d
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D""><head><title>Startup Prophecies</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.youtube-inner div.youtube-screen,
+  .typography.editor .markup div.youtube-inner div.youtube-screen,
+  .typography .markup div.vimeo-inner div.youtube-screen,
+  .typography.editor .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet,
+  .typography.editor .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-text,
+  .typography.editor .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-photos-container.two,
+  .typography.editor .markup .tweet .tweet-photos-container.two,
+  .typography .markup .tweet .tweet-photos-container.three,
+  .typography.editor .markup .tweet .tweet-photos-container.three,
+  .typography .markup .tweet .tweet-photos-container.four,
+  .typography.editor .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-img,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-description,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-descript=
+ion {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget,
+  .header-anchor-container .header-anchor-widget {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .post-label {
+    margin-top: 8px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .footer-facepile-container {
+    height: 64px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.youtube-inner div.youtube-screen,
+  body .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  body .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-sub=
+scribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-photos-container.two,
+  body .markup .tweet .tweet-photos-container.three,
+  body .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed img.install-substack-app-embed-i=
+mg {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-link=
+ {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper {
+    width: 100%;
+    padding: 0 16px;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper:empty {
+    display: none;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button {
+    width: 100%;
+    margin: 16px 0;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjMwMjA3MTM0NzQ1LjMuOTZlN2FhNjBiMGQxNDhiY0BtZy1kMC5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFja=
+y5jb20iLCJwIjoxMDEyOTE3ODQsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6=
+MTAwMjUsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE2NzU3Nzc=
+2ODEsImV4cCI6MTY3ODM2OTY4MSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.MOLUisJT1q1BR=
+gQ8O3D62SGgzH7AZWD9wh_vhQSorms" alt=3D"" width=3D"1" height=3D"1" border=3D=
+"0" style=3D"height:1px !important;width:1px !important;border-width:0 !imp=
+ortant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !i=
+mportant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0=
+ !important;padding-right:0 !important;padding-left:0 !important;"/><div st=
+yle=3D"display:none;font-size:1px;color:#333333;line-height:1px;max-height:=
+0px;max-width:0px;opacity:0;overflow:hidden;" class=3D"preview">Building Ri=
+ch Worlds Around Bold Startups, a Riff on Prophecy Markets &#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;</div><table role=3D"presentation" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-b=
+ody-container"><tr><td></td><td width=3D"550" class=3D"content"></td><td></=
+td></tr><tr><td></td><td align=3D"left" width=3D"550" class=3D"content"><di=
+v style=3D"font-size: 16px; line-height: 26px; margin: 0 auto; max-width: 5=
+50px; overflow-wrap: break-word; width: 100%;"><table role=3D"presentation"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td al=
+ign=3D"right" style=3D"height: 20px;"><table role=3D"presentation" width=3D=
+"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"ve=
+rtical-align: middle;"><span class=3D"tw-font-body tw-text-ssm tw-text-subs=
+tack-secondary" style=3D"color: #808080 !important; font-family: SF Pro Tex=
+t, -apple-system, BlinkMacSystemFont, Inter, Segoe UI, Roboto, Helvetica, A=
+rial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !impor=
+tant; font-size: 13px !important;"><a href=3D"https://open.substack.com/pub=
+/notboring/p/startup-prophecies?utm_source=3Demail&redirect=3Dapp-store" cl=
+ass=3D"tw-text-substack-secondary tw-underline" style=3D"-webkit-text-decor=
+ation-line: underline !important; color: #808080 !important; text-decoratio=
+n-line: underline !important;">Open in app</a> or <a href=3D"https://substa=
+ck.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3Avc3RhcnR1cC1wc=
+m9waGVjaWVzP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZN=
+VEF4TWpreE56ZzBMQ0pwWVhRaU9qRTJOelUzTnpjMk9EQXNJbVY0Y0NJNk1UWTNPRE0yT1RZNE1=
+Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaWNHOXpkQzF5WldGamRHbHZiaUo5Ln=
+Q1eUx6b3A0eHJxQ192bndaSXlYUlc3Zmh2WTFZOERnYi1GbHRtVDktSDAiLCJwIjoxMDEyOTE3O=
+DQsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjc1Nzc3NjgwLCJleHAi=
+OjE2NzgzNjk2ODAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.Joso0ERQBO=
+GkNoJWoWxygoHGfogPzlYMVGs7ql1DwJc?" class=3D"tw-text-substack-secondary tw-=
+underline" style=3D"-webkit-text-decoration-line: underline !important; col=
+or: #808080 !important; text-decoration-line: underline !important;">online=
+</a></span></td></tr></table></td></tr></table><div dir=3D"auto" class=3D"p=
+ost typography" style=3D"font-size: 16px; line-height: 26px; padding: 16px =
+0 0 0;"><div class=3D"post-header" style=3D"font-size: 16px; line-height: 2=
+6px;"><h1 class=3D"post-title published" style=3D"-moz-osx-font-smoothing: =
+subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; color: =
+#404040; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFo=
+nt, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 32px; font-weight: bold; li=
+ne-height: 36px; margin: 0;"><a href=3D"https://substack.com/app-link/post?=
+publication_id=3D10025&post_id=3D101291784&utm_source=3Dpost-email-title&is=
+Freemail=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTAxMjkxNzg=
+0LCJpYXQiOjE2NzU3Nzc2ODAsImV4cCI6MTY3ODM2OTY4MCwiaXNzIjoicHViLTEwMDI1Iiwic3=
+ViIjoicG9zdC1yZWFjdGlvbiJ9.t5yLzop4xrqC_vnwZIyXRW7fhvY1Y8Dgb-FltmT9-H0" sty=
+le=3D"color: #404040; text-decoration: none;">Startup Prophecies</a></h1><h=
+3 class=3D"subtitle" style=3D"-moz-osx-font-smoothing: subpixel-antialiased=
+; -webkit-font-smoothing: subpixel-antialiased; color: #808080; font-family=
+: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Robo=
+to, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; font-size: 18px; font-weight: normal; line-height: 24px; m=
+argin: 4px 0 0; margin-top: 12px;">Building Rich Worlds Around Bold Startup=
+s, a Riff on Prophecy Markets</h3><table cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"post-meta custom" style=3D"align-items: center; height: 20px; ma=
+rgin: 1em 0;"><tr><td title=3D"2023-02-07T13:47:50.524Z" class=3D"post-meta=
+-item post-date" style=3D"color: #808080; font-family: -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weigh=
+t: 400; height: 14px; margin-right: 0; padding: 0px 12px 0px 0; padding-bot=
+tom: 0; padding-right: 0; padding-top: 0; position: relative; text-decorati=
+on: none; white-space: nowrap;"><div class=3D"frontend-pencraft-Text-module=
+__reset--20JLV frontend-pencraft-Text-module__size-12--2onFT frontend-pencr=
+aft-Text-module__line-height-20--1soeQ frontend-pencraft-Text-module__weigh=
+t-medium--aTbx5 frontend-pencraft-Text-module__font-meta--2i-cR frontend-pe=
+ncraft-Text-module__color-secondary--XjVGl frontend-pencraft-Text-module__m=
+eta--3RRSj" style=3D"color: #808080; font-family: 'SF Compact Text', 'SF Pr=
+o Text', -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; font-size: 12px; font-weight: 500; letter-spacing: 0.2px; =
+line-height: 20px; margin: 0; text-decoration: unset; text-transform: upper=
+case;"><time dateTime=3D"2023-02-07T13:47:50.524Z">Feb 7</time></div></td><=
+/tr></table><table role=3D"presentation" width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" class=3D"email-ufi-2-top" style=3D"border-bot=
+tom: 1px solid #e0e0e0; border-top: 1px solid #e0e0e0; min-width: 100%;"><t=
+r height=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;"=
+>&#160;</td></tr><tr><td><table role=3D"presentation" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><table role=3D"presentat=
+ion" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><t=
+d style=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"3=
+8" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center=
+"><a href=3D"https://substack.com/app-link/post?publication_id=3D10025&post=
+_id=3D101291784&utm_source=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtrue&t=
+oken=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTAxMjkxNzg0LCJyZWFjdGlvbiI6=
+IuKdpCIsImlhdCI6MTY3NTc3NzY4MCwiZXhwIjoxNjc4MzY5NjgwLCJpc3MiOiJwdWItMTAwMjU=
+iLCJzdWIiOiJyZWFjdGlvbiJ9.Y18tCHQngPZeCeCTP6Evg3lciQeSkpRCfQeyfLVYoZw&utm_m=
+edium=3Demail" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px;=
+ box-sizing: border-box; color: #808080; display: inline-block; font-family=
+: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe U=
+I', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Em=
+oji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 1;=
+ min-width: 38px; padding: 9px 0; text-decoration: none; text-transform: up=
+percase; width: 38px;" class=3D"email-icon-button"><img src=3D"https://subs=
+tackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep=
+/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fi=
+ll%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"=
+18" style=3D"border: none !important; max-width: 18px; vertical-align: midd=
+le;" alt=3D"" class=3D"icon"></a></td></tr></table></td><td width=3D"8" sty=
+le=3D"min-width: 8px"></td><td style=3D"vertical-align: middle;"><table rol=
+e=3D"presentation" width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/app-link/po=
+st?publication_id=3D10025&post_id=3D101291784&utm_source=3Dsubstack&utm_med=
+ium=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4M=
+zU0OSwicG9zdF9pZCI6MTAxMjkxNzg0LCJpYXQiOjE2NzU3Nzc2ODAsImV4cCI6MTY3ODM2OTY4=
+MCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.t5yLzop4xrqC_vnwZI=
+yXRW7fhvY1Y8Dgb-FltmT9-H0&utm_source=3Dsubstack&utm_medium=3Demail" style=
+=3D"border: 1px solid #e0e0e0; border-radius: 100000px; box-sizing: border-=
+box; color: #808080; display: inline-block; font-family: 'SF Pro Text', -ap=
+ple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetic=
+a, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symb=
+ol'; font-size: 12px; font-weight: 500; line-height: 1; min-width: 38px; pa=
+dding: 9px 0; text-decoration: none; text-transform: uppercase; width: 38px=
+;" class=3D"email-icon-button"><img src=3D"https://substackcdn.com/image/fe=
+tch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubst=
+ack.com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26strok=
+e%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"bord=
+er: none !important; max-width: 18px; vertical-align: middle;" alt=3D"" cla=
+ss=3D"icon"></a></td></tr></table></td><td width=3D"8" style=3D"min-width: =
+8px"></td><td style=3D"vertical-align: middle;"><table role=3D"presentation=
+" width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td ali=
+gn=3D"center"><a href=3D"https://substack.com/app-link/post?publication_id=
+=3D10025&post_id=3D101291784&utm_source=3Dsubstack&utm_medium=3Demail&utm_c=
+ontent=3Dshare&action=3Dshare&triggerShare=3Dtrue&isFreemail=3Dtrue&token=
+=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTAxMjkxNzg0LCJpYXQiOjE2NzU3Nzc2=
+ODAsImV4cCI6MTY3ODM2OTY4MCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGl=
+vbiJ9.t5yLzop4xrqC_vnwZIyXRW7fhvY1Y8Dgb-FltmT9-H0" style=3D"border: 1px sol=
+id #e0e0e0; border-radius: 100000px; box-sizing: border-box; color: #808080=
+; display: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans=
+-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-seri=
+f, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12p=
+x; font-weight: 500; line-height: 1; min-width: 38px; padding: 9px 0; text-=
+decoration: none; text-transform: uppercase; width: 38px;" class=3D"email-i=
+con-button"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_=
+png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLu=
+cideShare%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26stro=
+keWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; m=
+ax-width: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"></a></td><=
+/tr></table></td></tr></table></td><td align=3D"right"><table role=3D"prese=
+ntation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><t=
+r><td style=3D"vertical-align: middle;"><table role=3D"presentation" width=
+=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D=
+"center"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3c=
+ubm90Ym9yaW5nLmNvL3Avc3RhcnR1cC1wcm9waGVjaWVzP3V0bV9zb3VyY2U9c3Vic3RhY2smdX=
+RtX21lZGl1bT1lbWFpbCZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGO=
+XBaQ0k2TVRBeE1qa3hOemcwTENKcFlYUWlPakUyTnpVM056YzJPREFzSW1WNGNDSTZNVFkzT0RN=
+Mk9UWTRNQ3dpYVhOeklqb2ljSFZpTFRFd01ESTFJaXdpYzNWaUlqb2ljMkYyWlMxd2IzTjBJbjA=
+uWU9Lb1N0ZzlfRU5kcFdxMU1HYXhFbzZKdGlvbWMxb1hMaGwzOTgweWxDTSZhY3Rpb249c2F2ZS=
+IsInAiOjEwMTI5MTc4NCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2N=
+zU3Nzc2ODAsImV4cCI6MTY3ODM2OTY4MCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGly=
+ZWN0In0.LAkBHyDWBRBBhOfprB__s-y8oytMIv0aJJ8-7Vpyx04?" class=3D"email-button=
+-outline" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; colo=
+r: #808080; display: inline-block; font-family: 'SF Pro Text', -apple-syste=
+m, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,=
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font=
+-size: 12px; font-weight: 500; line-height: 12px; padding: 9px 14px; text-d=
+ecoration: none; text-transform: uppercase;"><div class=3D"email-button-spa=
+cer" style=3D"display: inline-block; font-size: 16px; line-height: 26px; ma=
+x-width: 0; min-height: 18px; vertical-align: middle;"></div><span class=3D=
+"email-button-text" style=3D"vertical-align: middle;">Save</span></a></td><=
+/tr></table></td><td width=3D"8" style=3D"min-width: 8px"></td><td style=3D=
+"vertical-align: middle;"><table role=3D"presentation" width=3D"auto" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a hre=
+f=3D"https://open.substack.com/pub/notboring/p/startup-prophecies?utm_sourc=
+e=3Demail-ufi&play_audio=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9=
+pZCI6MTAxMjkxNzg0LCJpYXQiOjE2NzU3Nzc2ODAsImV4cCI6MTY3ODM2OTY4MCwiaXNzIjoicH=
+ViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.t5yLzop4xrqC_vnwZIyXRW7fhvY1Y8Dg=
+b-FltmT9-H0" class=3D"email-button-outline" style=3D"border: 1px solid #e0e=
+0e0; border-radius: 100000px; color: #808080; display: inline-block; font-f=
+amily: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Se=
+goe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe =
+UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-heigh=
+t: 12px; padding: 9px 14px; text-decoration: none; text-transform: uppercas=
+e;"><div class=3D"email-button-spacer" style=3D"display: inline-block; font=
+-size: 16px; line-height: 26px; max-width: 0; min-height: 18px; vertical-al=
+ign: middle;"></div><span class=3D"email-button-text" style=3D"vertical-ali=
+gn: middle;">&#9655;&#160;&#160;Listen</span></a></td></tr></table></td></t=
+r></table></td></tr></table></td></tr><tr height=3D"16"><td height=3D"16" s=
+tyle=3D"font-size: 0px; line-height: 0;">&#160;</td></tr></table></div></di=
+v><div dir=3D"auto" class=3D"post typography" style=3D"font-size: 16px; lin=
+e-height: 26px; padding: 16px 0 0 0;"><div dir=3D"auto" class=3D"body marku=
+p" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-a=
+lign: initial; width: 100%; word-break: break-word;"><p style=3D"color: #40=
+4040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; margin-top: 0=
+;"><em><span>Welcome to the&#160;</span><strong>746&#160;newly Not Boring p=
+eople&#160;</strong><span>who have joined us since last Tuesday! If you hav=
+en&#8217;t subscribed, join&#160;</span><strong>184,867 </strong><span>smar=
+t, curious folks by subscribing here: </span></em></p><div class=3D"subscri=
+be-widget is-signed-up" style=3D"direction: ltr; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 1em;"><p class=3D"button-wrapper" style=3D"color: #40=
+4040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; text-align: c=
+enter;"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cu=
+bm90Ym9yaW5nLmNvL3N1YnNjcmliZT91dG1fc291cmNlPXBvc3QiLCJwIjoxMDEyOTE3ODQsInM=
+iOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjc1Nzc3NjgwLCJleHAiOjE2Nz=
+gzNjk2ODAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.qB6shE4_p2TiluiE=
+7ChSoFqInHXme_-ioLY6nS0YcjQ?&utm_medium=3Demail&utm_source=3Dsubscribe-widg=
+et&utm_content=3D101291784" class=3D"button subscribe-btn primary" style=3D=
+"background-color: #67bdfc; border: none; border-radius: 4px; box-sizing: b=
+order-box; color: #ffffff !important; cursor: pointer; display: inline-bloc=
+k; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helv=
+etica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol'; font-size: 14px; font-weight: 600; height: auto; line-height: 20px=
+; margin: 0 auto; opacity: 1; outline: none; padding: 12px 20px; text-align=
+: center; text-decoration: none !important; white-space: nowrap;"><span sty=
+le=3D"color: #ffffff; text-decoration: none;">Pledge your support</span></a=
+></p></div><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"=
+background: #e0e0e0; border: none; height: 1px; margin: 32px 0; padding: 0;=
+"></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;"><strong><span>Today&#8217;s Not Boring is brought to you =
+by&#8230; </span><a href=3D"https://substack.com/redirect/62f0053a-3fa1-488=
+d-ba3f-12f134e69d33?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8=
+-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: underline;"=
+>Wander</a></strong></p><div class=3D"captioned-image-container-static" sty=
+le=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><figure style=
+=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"1=
+00%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-=
+alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td al=
+ign=3D"left" class=3D"content" width=3D"456" style=3D"text-align: center;">=
+<a class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redi=
+rect/b9aaa8fe-2101-49a3-8a19-cd8dd996bce6?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA=
+_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; b=
+order: none; display: block; flex-direction: column; height: auto; margin: =
+0; padding: 0; position: relative; text-decoration: none; width: auto;"><im=
+g data-attrs=3D"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazo=
+naws.com/public/images/4408b8ae-9bc1-40aa-9585-c72c808c08de_1600x1175.jpeg&=
+quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&q=
+uot;:1069,&quot;width&quot;:1456,&quot;resizeWidth&quot;:456,&quot;bytes&qu=
+ot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,=
+&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;internalRedirect=
+&quot;:null}" alt=3D"" width=3D"456" height=3D"334.7967032967033" class=3D"=
+" src=3D"https://substackcdn.com/image/fetch/w_456,c_limit,f_auto,q_auto:go=
+od,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%=
+2Fpublic%2Fimages%2F4408b8ae-9bc1-40aa-9585-c72c808c08de_1600x1175.jpeg" st=
+yle=3D"-ms-interpolation-mode: bicubic; border: none !important; display: b=
+lock; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !impo=
+rtant; vertical-align: middle; width: auto !important;"></a></td><td style=
+=3D"text-align: center;"></td></tr></tbody></table></figure></div><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+"><em><span>Last week, I wrote about </span><strong><a href=3D"https://subs=
+tack.com/redirect/2754c8d4-2a80-4983-b6bc-c7d512b2c4c0?j=3DeyJ1IjoiOXAwZ3Qi=
+fQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #4=
+04040; text-decoration: underline;">Wander</a></strong><span>. It&#8217;s a=
+lready one of our most popular deep dives ever. Here&#8217;s a quick refres=
+her:</span></em></p><p style=3D"color: #404040; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 20px 0;"><em><strong><a href=3D"https://substack.com/r=
+edirect/5ddd0d69-6025-45e8-8eb8-64e3fd89359d?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7=
+GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; tex=
+t-decoration: underline;">Wander</a></strong><span> is a network of smart v=
+acation homes that come with inspiring views, modern workstations, restful =
+beds, hotel-grade cleaning and 24/7 concierge service &#8211;&#8211; combin=
+ing the quality of a luxury hotel with the space and comfort of a vacation =
+home, only better. Don&#8217;t take my word for it. Use promo code </span><=
+strong>notboring</strong><span> for $250 off your next trip. (Expires Thurs=
+day at 11:59pm ET). </span><strong><a href=3D"https://substack.com/redirect=
+/5ddd0d69-6025-45e8-8eb8-64e3fd89359d?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlN=
+uaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decor=
+ation: underline;">Explore now.</a></strong></em></p><p style=3D"color: #40=
+4040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><em><span>Bu=
+t that&#8217;s only part of the story. Wander recently launched </span><str=
+ong><a href=3D"https://substack.com/redirect/4be983d9-5e48-4d36-878c-b29086=
+e7780a?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" =
+rel=3D"" style=3D"color: #404040; text-decoration: underline;">Atlas</a></s=
+trong><span> &#8211;&#8211; a first-of-its-kind vacation rental REIT that g=
+ives you the chance to own a piece of their magical portfolio of homes. Wit=
+h Atlas, accredited investors have the opportunity to earn income and diver=
+sify their portfolio without the headache and hassle of buying a property, =
+renting it out, or maintaining it.</span></em></p><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><em><span>Plus,=
+ right now new Atlas investors may get the chance to invest in Wander&#8217=
+;s next round of funding</span><span class=3D"footnote-anchor-email" style=
+=3D"font-size: 20px;">&#185;</span><span>. You can learn more on their webs=
+ite:</span></em></p><p class=3D"button-wrapper" data-attrs=3D"{&quot;url&qu=
+ot;:&quot;https://www.wander.com/atlas&quot;,&quot;text&quot;:&quot;Explore=
+ Atlas&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" style=3D"colo=
+r: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; text-al=
+ign: center;"><a class=3D"button primary" href=3D"https://substack.com/redi=
+rect/4be983d9-5e48-4d36-878c-b29086e7780a?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA=
+_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"background-color: #67b=
+dfc; border: none; border-radius: 4px; box-sizing: border-box; color: #ffff=
+ff !important; cursor: pointer; display: inline-block; font-family: -apple-=
+system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-seri=
+f, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14p=
+x; font-weight: 600; height: auto; line-height: 20px; margin: 0; opacity: 1=
+; outline: none; padding: 12px 20px; text-align: center; text-decoration: n=
+one !important; white-space: nowrap;"><span style=3D"color: #ffffff; text-d=
+ecoration: none;">Explore Atlas</span></a></p><div style=3D"font-size: 16px=
+; line-height: 26px;"><hr style=3D"background: #e0e0e0; border: none; heigh=
+t: 1px; margin: 32px 0; padding: 0;"></div><p style=3D"color: #404040; font=
+-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Hi friends &#128075;,<=
+/p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: =
+0 0 20px 0;">Happy Tuesday! Let&#8217;s have a little fun today, shall we?&=
+#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 20px 0;">Let&#8217;s get to it.</p><div style=3D"font-size: 16px;=
+ line-height: 26px;"><hr style=3D"background: #e0e0e0; border: none; height=
+: 1px; margin: 32px 0; padding: 0;"></div><h1 class=3D"header-with-anchor-w=
+idget" style=3D"-moz-osx-font-smoothing: subpixel-antialiased; -webkit-font=
+-smoothing: subpixel-antialiased; color: #404040; font-family: 'SF Compact =
+Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,=
+ Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol=
+'; font-size: 2em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.=
+625em 0; position: relative;">Startup Prophecies</h1><div class=3D"captione=
+d-image-container-static" style=3D"font-size: 16px; line-height: 26px; marg=
+in: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=
+=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"tex=
+t-align: center;"></td><td align=3D"left" class=3D"content" width=3D"1200" =
+style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" hre=
+f=3D"https://substack.com/redirect/9618a22b-e90d-44d0-82ef-c844d52e7492?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"align-items: center; border: none; display: block; flex-direction=
+: column; height: auto; margin: 0; padding: 0; position: relative; text-dec=
+oration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;http=
+s://substack-post-media.s3.amazonaws.com/public/images/0a316eef-9b9d-45b7-8=
+28e-b71feb9f51ea_1200x600.png&quot;,&quot;fullscreen&quot;:null,&quot;image=
+Size&quot;:null,&quot;height&quot;:600,&quot;width&quot;:1200,&quot;resizeW=
+idth&quot;:null,&quot;bytes&quot;:787358,&quot;alt&quot;:null,&quot;title&q=
+uot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quo=
+t;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" widt=
+h=3D"550" height=3D"275" class=3D"wide-image" src=3D"https://substackcdn.co=
+m/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%=
+3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a316eef-9=
+b9d-45b7-828e-b71feb9f51ea_1200x600.png" style=3D"-ms-interpolation-mode: b=
+icubic; border: none !important; display: block; height: auto; margin: 0 au=
+to; margin-bottom: 0; max-width: 100% !important; vertical-align: middle; w=
+idth: auto !important;"></a></td><td style=3D"text-align: center;"></td></t=
+r></tbody></table></figure></div><p style=3D"color: #404040; font-size: 16p=
+x; line-height: 26px; margin: 0 0 20px 0;">I have a few core beliefs that a=
+nimate Not Boring:&#160;</p><ol style=3D"margin-top: 0; padding: 0;"><li st=
+yle=3D"margin: 8px 0 0 32px;"><p style=3D"box-sizing: border-box; color: #4=
+04040; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; pad=
+ding-left: 4px;">Startups are key to solving really big challenges.&#160;</=
+p></li><li style=3D"margin: 8px 0 0 32px;"><p style=3D"box-sizing: border-b=
+ox; color: #404040; font-size: 16px; line-height: 26px; margin: 0; margin-b=
+ottom: 0; padding-left: 4px;">More people should be able to invest in, and =
+support, startups.&#160;&#160;</p></li><li style=3D"margin: 8px 0 0 32px;">=
+<p style=3D"box-sizing: border-box; color: #404040; font-size: 16px; line-h=
+eight: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;">We need more =
+optimistic stories about technology.&#160;</p></li></ol><p style=3D"color: =
+#404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">I also ha=
+ve a few less-core-but-relevant-here beliefs, which I&#8217;ve written abou=
+t:&#160;</p><ol style=3D"margin-top: 0; padding: 0;"><li style=3D"margin: 8=
+px 0 0 32px;"><p style=3D"box-sizing: border-box; color: #404040; font-size=
+: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;"=
+><em><a href=3D"https://substack.com/redirect/6465ce49-b9f7-47d7-8d96-47dc9=
+9fd2045?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU"=
+ rel=3D"" style=3D"color: #404040; text-decoration: underline;">Business is=
+ the New Sports</a></em><span>.</span></p></li><li style=3D"margin: 8px 0 0=
+ 32px;"><p style=3D"box-sizing: border-box; color: #404040; font-size: 16px=
+; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;"><span=
+>Bottoms-up narratives are a powerful way to build worlds. (</span><em><a h=
+ref=3D"https://substack.com/redirect/e50ee1e2-d39a-4a99-a689-40917d3d6157?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"color: #404040; text-decoration: underline;">Story Time</a></em><=
+span>)</span></p></li></ol><p style=3D"color: #404040; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 20px 0;"><span>In </span><em>Story Time, </em><=
+span>I wrote that &#8220;In a world of abundance, </span><strong>attention =
+is the scarcest resource</strong><span>, and people&#8217;s attention is ha=
+rd to earn.&#8221; I suggested that startups should shift from top-down sto=
+rytelling to bottoms-up narrative building, in partnership with their fans =
+and communities, and that they could take lessons from NFT projects, which =
+create worlds and then largely turn narrative-building over to the people w=
+ho own the NFTs.&#160;</span></p><p style=3D"color: #404040; font-size: 16p=
+x; line-height: 26px; margin: 0 0 20px 0;"><span>The connection between NFT=
+s and startups in </span><em>Story Time </em><span>was loose, just a source=
+ of inspiration for the progressive decentralization of narrative. I wasn&#=
+8217;t suggesting that startups should actually create NFTs or encourage th=
+eir fans to do the same.&#160;</span></p><p style=3D"color: #404040; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Then, in October, =
+I read Jacob Horne&#8217;s </span><em><a href=3D"https://substack.com/redir=
+ect/2a8a63f6-67b3-47f2-ae6a-e230f434e7da?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_=
+ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-de=
+coration: underline;">Prophecy Markets</a></em><span>, and my brain blew up=
+=2E Horne proposed a structure for positi=
+ve sum prediction markets in which a=
+nyone can make a prediction, mint the prediction as an NFT, and let it trad=
+e freely. If a bold prediction paired with beautiful art comes true, might =
+that NFT be worth more than it was when it was created? What other benefits=
+ come from giving people shared ownership in the prediction? Horne asks:</s=
+pan></p><blockquote style=3D"border-left: 4px solid #67bdfc; margin: 20px 0=
+; padding: 0;"><p style=3D"color: #404040; font-size: 16px; line-height: 26=
+px; margin: 0 0 20px 0; margin-left: 20px;"><em><span>Even more interesting=
+ly, what does it mean when predictions become positive sum with that level =
+of granularity? </span><strong>Do more people start working together to mak=
+e something a reality?</strong><span> Or stop something from happening? Who=
+ knows.</span></em></p></blockquote><p style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 0 20px 0;"><span>In the spirit of </span=
+><a href=3D"https://substack.com/redirect/b64fba99-f1e3-4282-8bdb-40672aa51=
+479?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=
+=3D"" style=3D"color: #404040; text-decoration: underline;">cc0</a><span>, =
+I&#8217;ve been remixing this idea in my head ever since I read the piece f=
+our months ago, and can&#8217;t stop thinking about how beautifully it appl=
+ies to startups.</span></p><p style=3D"color: #404040; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 20px 0;"><span>Swirl all of that together, and =
+here&#8217;s the idea: </span><strong>Startup Prophecy Markets</strong><spa=
+n>.&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 20px 0;">Startup Prophecy Markets let anyone timestamp=
+ predictions about the startups they believe in most by creating art, video=
+s, stories, analysis, and more about the companies&#8217; futures and minti=
+ng them. Theoretically, if the predictions are bold enough, the content is =
+good enough, and the startups they&#8217;re attached to are ambitious enoug=
+h, those NFTs might be worth more in the future than they are today. A quic=
+k scan of eBay reveals a booming market for early memorabilia from today&#8=
+217;s great tech companies.&#160;</p><p style=3D"color: #404040; font-size:=
+ 16px; line-height: 26px; margin: 0 0 20px 0;">Even more interestingly, wha=
+t does it mean to create a rich positive sum ecosystem around startups? Do =
+more people start working together to help them succeed? Do NFTs associated=
+ with startups tackling the most important problems become more than those =
+associated with startups that merely become valuable? Does it encourage fou=
+nders to make bolder bets, and provide them with an army of supporters when=
+ they do?</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;"><span>That&#8217;s what we&#8217;ll explore today. T=
+o start, let&#8217;s dive into the details of </span><strong>Prophecy Marke=
+ts</strong><span>.</span></p><h3 class=3D"header-with-anchor-widget" style=
+=3D"-moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: =
+subpixel-antialiased; color: #404040; font-family: 'SF Compact Display', -a=
+pple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans=
+-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size=
+: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;=
+ position: relative;"><strong>Prophecy Markets</strong></h3><p style=3D"col=
+or: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><em><=
+a href=3D"https://substack.com/redirect/2a8a63f6-67b3-47f2-ae6a-e230f434e7d=
+a?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=
+=3D"" style=3D"color: #404040; text-decoration: underline;">Prophecy Market=
+s.</a></em><span> brainwormed me like nothing I&#8217;ve read in a while.&#=
+160;</span></p><div class=3D"captioned-image-container-static" style=3D"fon=
+t-size: 16px; line-height: 26px; margin: 32px auto;"><figure style=3D"margi=
+n: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em =
+0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"le=
+ft" class=3D"content" width=3D"908" style=3D"text-align: center;"><a class=
+=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/d1b=
+d7cf4-c0f9-4c2d-a912-2dfff061018b?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZ=
+jmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; border: n=
+one; display: block; flex-direction: column; height: auto; margin: 0; paddi=
+ng: 0; position: relative; text-decoration: none; width: auto;"><img data-a=
+ttrs=3D"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com=
+/public/images/a3cd7763-1122-470b-97c6-f6b2669dc7b3_908x515.png&quot;,&quot=
+;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:515,&q=
+uot;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&qu=
+ot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&q=
+uot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}"=
+ alt=3D"" width=3D"550" height=3D"311.94933920704847" class=3D"wide-image" =
+src=3D"https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:goo=
+d,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2=
+Fpublic%2Fimages%2Fa3cd7763-1122-470b-97c6-f6b2669dc7b3_908x515.png" style=
+=3D"-ms-interpolation-mode: bicubic; border: none !important; display: bloc=
+k; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !importa=
+nt; vertical-align: middle; width: auto !important;"></a></td><td style=3D"=
+text-align: center;"></td></tr></tbody></table></figure></div><p style=3D"c=
+olor: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><sp=
+an>The core idea in Horne&#8217;s October essay is that it might be possibl=
+e to </span><strong>create positive sum prediction markets by using NFTs</s=
+trong><span> to capture &#8220;equity in a moment.&#8221;&#160;</span></p><=
+p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 =
+20px 0;"><span>Traditional prediction markets are zero sum. A prediction ma=
+rket ends in a binary outcome - $0 or $1. Right now on </span><a href=3D"ht=
+tps://substack.com/redirect/a7d3c4b9-f7f8-4ab7-8eb6-ed86c567e52a?j=3DeyJ1Ij=
+oiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D=
+"color: #404040; text-decoration: underline;">Kalshi</a><span>, you can go =
+long </span><em>Everything Everywhere All at Once</em><span> winning Best P=
+icture at the 2023 Oscars for $0.70. If it wins, you get back $1. If it los=
+es, you get nothing.&#160;</span></p><div class=3D"captioned-image-containe=
+r-static" style=3D"font-size: 16px; line-height: 26px; margin: 32px auto;">=
+<figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrappe=
+r" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D=
+"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;=
+"></td><td align=3D"left" class=3D"content" width=3D"596" style=3D"text-ali=
+gn: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://subs=
+tack.com/redirect/4e1e74ba-797f-4d5c-8f34-66dda9483a58?j=3DeyJ1IjoiOXAwZ3Qi=
+fQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-ite=
+ms: center; border: none; display: block; flex-direction: column; height: a=
+uto; margin: 0; padding: 0; position: relative; text-decoration: none; widt=
+h: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://substack-post-m=
+edia.s3.amazonaws.com/public/images/b049d4d6-87bc-4a92-9b44-f0642cf971a6_59=
+6x150.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quo=
+t;height&quot;:150,&quot;width&quot;:596,&quot;resizeWidth&quot;:null,&quot=
+;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&qu=
+ot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;internal=
+Redirect&quot;:null}" alt=3D"" width=3D"550" height=3D"138.4228187919463" c=
+lass=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1192,c_lim=
+it,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-medi=
+a.s3.amazonaws.com%2Fpublic%2Fimages%2Fb049d4d6-87bc-4a92-9b44-f0642cf971a6=
+_596x150.png" style=3D"-ms-interpolation-mode: bicubic; border: none !impor=
+tant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-w=
+idth: 100% !important; vertical-align: middle; width: auto !important;"></a=
+></td><td style=3D"text-align: center;"></td></tr></tbody></table><figcapti=
+on class=3D"image-caption" style=3D"color: #808080; font-size: 14px; font-w=
+eight: 400; letter-spacing: -0.15px; line-height: 20px; margin-top: 8px; pa=
+dding-left: 15%; padding-right: 15%; text-align: center; width: 70%;"><em>O=
+scars Best Picture Market on Kalshi</em></figcaption></figure></div><p styl=
+e=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0=
+;">Equities, on the other hand, are positive sum. You don&#8217;t need some=
+one to take the other side to invest in a startup, for example, and the ups=
+ide is uncapped.&#160;</p><p style=3D"color: #404040; font-size: 16px; line=
+-height: 26px; margin: 0 0 20px 0;">Sequoia made $3 billion from its $60 mi=
+llion investment in WhatsApp. Accel&#8217;s 15% Series A stake in Thefacebo=
+ok was worth roughly $9 billion when Facebook IPO&#8217;d in 2012. Masa Son=
+&#8217;s $20 million investment in Alibaba was worth an eye-popping $60 bil=
+lion when the Chinese ecommerce giant went public in 2014.&#160;</p><p styl=
+e=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0=
+;">No one lost money when those companies succeeded (although the outcomes =
+must have been painful for investors who passed), but early believers were =
+rewarded enormously. Of course, many venture investments go to $0; the diff=
+erence is that they&#8217;re not capped when they succeed.&#160;</p><p styl=
+e=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0=
+;">What would it look like to design prediction markets that behave more li=
+ke equities?&#160;</p><p style=3D"color: #404040; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 20px 0;"><span>Horne proposes </span><strong>minting=
+ predictions as NFTs</strong><span>. But he starts the thought exercise cry=
+pto-free.</span></p><p style=3D"color: #404040; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 20px 0;">He gives an example of an artist who predicts=
+ that an alien spacecraft will visit humanity for the first time on Decembe=
+r 1, 2025 by hovering over the Eiffel Tower. The artist paints 10 pictures =
+of the spacecraft floating above the Eiffel Tower, asks a journalist to tim=
+estamp in print, sells two copies for $100 each (one to the journalist and =
+one to an amused reader), and locks the rest in storage.</p><div class=3D"c=
+aptioned-image-container-static" style=3D"font-size: 16px; line-height: 26p=
+x; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><tabl=
+e class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=
+=3D"text-align: center;"></td><td align=3D"left" class=3D"content" width=3D=
+"520" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blan=
+k" href=3D"https://substack.com/redirect/77e4f66d-5dc0-46dd-9360-43a8b74ec4=
+ab?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=
+=3D"" style=3D"align-items: center; border: none; display: block; flex-dire=
+ction: column; height: auto; margin: 0; padding: 0; position: relative; tex=
+t-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot=
+;https://substack-post-media.s3.amazonaws.com/public/images/8929ba16-735e-4=
+b3a-bd8f-0cd7cc529586_520x520.png&quot;,&quot;fullscreen&quot;:null,&quot;i=
+mageSize&quot;:null,&quot;height&quot;:520,&quot;width&quot;:520,&quot;resi=
+zeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&=
+quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&q=
+uot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"520" height=
+=3D"520" class=3D"" src=3D"https://substackcdn.com/image/fetch/w_520,c_limi=
+t,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media=
+=2Es3.amazonaws.com%2Fpublic%2Fimages%2F8=
+929ba16-735e-4b3a-bd8f-0cd7cc529586_=
+520x520.png" style=3D"-ms-interpolation-mode: bicubic; border: none !import=
+ant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-wi=
+dth: 100% !important; vertical-align: middle; width: auto !important;"></a>=
+</td><td style=3D"text-align: center;"></td></tr></tbody></table><figcaptio=
+n class=3D"image-caption" style=3D"color: #808080; font-size: 14px; font-we=
+ight: 400; letter-spacing: -0.15px; line-height: 20px; margin-top: 8px; pad=
+ding-left: 15%; padding-right: 15%; text-align: center; width: 70%;"><em><s=
+pan>Oumuamua over Paris at Midnight, by </span><a href=3D"https://substack.=
+com/redirect/9bcce577-ea33-4068-9a50-f879b872c60b?j=3DeyJ1IjoiOXAwZ3QifQ.gb=
+8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"text-decoratio=
+n: underline;">Mat Dryhurst</a><span>, via Jacob Horne</span></em></figcapt=
+ion></figure></div><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;">Lo and behold, against all odds, on December 1=
+, 2025, there it is: an alien spacecraft hovering over the Eiffel Tower. Wh=
+at would those original paintings be worth?&#160;</p><blockquote style=3D"b=
+order-left: 4px solid #67bdfc; margin: 20px 0; padding: 0;"><p style=3D"col=
+or: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; margin=
+-left: 20px;"><em><span>Are these paintings worth $100? Perhaps $10,000 eac=
+h? Maybe more? It&#8217;s hard to imagine a case where they are the same pr=
+ice or cheaper&#8212;but admittedly it is hard to say how much they would b=
+e worth. If they are selling for more, then the artist has effectively crea=
+ted an object that represents ownership over that prediction, and has been =
+able to capture value as a result without having to find a counterparty. </=
+span><strong>They have created equity in a moment&#8212;aka positive sum pr=
+ediction market.</strong></em></p><p style=3D"color: #404040; font-size: 16=
+px; line-height: 26px; margin: 0 0 20px 0; margin-left: 20px;"><em><span>So=
+ now let's imagine instead of the artist painting physical works, they simp=
+ly </span><strong>minted it as an NFT</strong><span>&#8212;</span></em></p>=
+</blockquote><div class=3D"captioned-image-container-static" style=3D"font-=
+size: 16px; line-height: 26px; margin: 32px auto;"><figure style=3D"margin:=
+ 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 =
+1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left=
+" class=3D"content" width=3D"518" style=3D"text-align: center;"><a class=3D=
+"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/8bfc34=
+b1-f226-45df-b491-181e774d8eb1?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjml=
+XXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; border: none=
+; display: block; flex-direction: column; height: auto; margin: 0; padding:=
+ 0; position: relative; text-decoration: none; width: auto;"><img data-attr=
+s=3D"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/pu=
+blic/images/d351be4d-7711-44b1-b5b2-31f7d4a65cf2_518x336.gif&quot;,&quot;fu=
+llscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:336,&quot=
+;width&quot;:518,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;=
+alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot=
+;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" al=
+t=3D"" width=3D"518" height=3D"336" class=3D"" src=3D"https://substackcdn.c=
+om/image/fetch/w_518,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubs=
+tack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd351be4d-7711-44b1-b5b=
+2-31f7d4a65cf2_518x336.gif" style=3D"-ms-interpolation-mode: bicubic; borde=
+r: none !important; display: block; height: auto; margin: 0 auto; margin-bo=
+ttom: 0; max-width: 100% !important; vertical-align: middle; width: auto !i=
+mportant;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></t=
+able></figure></div><p style=3D"color: #404040; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 20px 0;">&#8220;NFTs?!&#8221; you might be asking your=
+self. &#8220;Aren&#8217;t those dead? JPow gets a little dovish and we&#821=
+7;re back to talking about NFTs?&#8221;&#160;</p><p style=3D"color: #404040=
+; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Horne anticipate=
+s your pushback (emphasis mine):&#160;</p><blockquote style=3D"border-left:=
+ 4px solid #67bdfc; margin: 20px 0; padding: 0;"><p style=3D"color: #404040=
+; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; margin-left: 20px=
+;"><em><span>&#8212;not because we like NFTs (we may or may not), but becau=
+se </span><strong>we get all of the functionality that the artist had at lo=
+wer cost and effort</strong><span>. By minting as an NFT this means that th=
+ey get the </span><strong>time stamping functionality</strong><span> out of=
+ the box (impossible to fake), </span><strong>visible to the entire public<=
+/strong><span> (by nature of being on the blockchain) and also happens to b=
+e </span><strong>tradable before and after the fact</strong><span>.</span><=
+/em></p></blockquote><p style=3D"color: #404040; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 20px 0;"><span>The Official Not Boring Take&#8482;&#6=
+5039; on NFTs has always been that they&#8217;re an incredibly useful primi=
+tive that will get more useful with time. As I wrote in </span><em><a href=
+=3D"https://substack.com/redirect/b72a022f-3dc6-45ce-bcb4-40795a70eb97?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" st=
+yle=3D"color: #404040; text-decoration: underline;">Web3 Use Cases: Today</=
+a></em><span>:</span></p><blockquote style=3D"border-left: 4px solid #67bdf=
+c; margin: 20px 0; padding: 0;"><p style=3D"color: #404040; font-size: 16px=
+; line-height: 26px; margin: 0 0 20px 0; margin-left: 20px;"><em>Simply, NF=
+Ts give physical properties to digital items, making them unique, ownable, =
+and tradeable, in addition to digital properties like programmability and c=
+omposability. Over time, NFTs will represent things that are more useful th=
+an the things they represent today, but even today, the collectibles use ca=
+se is a real one.</em></p></blockquote><p style=3D"color: #404040; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 20px 0;">Even now, the NFT market i=
+s coming back to life, seen more clearly in the number of trades than in th=
+e dollar volume:</p><div class=3D"captioned-image-container-static" style=
+=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><figure style=
+=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"1=
+00%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-=
+alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td al=
+ign=3D"left" class=3D"content" width=3D"896" style=3D"text-align: center;">=
+<a class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redi=
+rect/6aa3aceb-3a2a-4466-b732-2f0f1f0997ce?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA=
+_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; b=
+order: none; display: block; flex-direction: column; height: auto; margin: =
+0; padding: 0; position: relative; text-decoration: none; width: auto;"><im=
+g data-attrs=3D"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazo=
+naws.com/public/images/bdc2fdfa-91e6-4dc3-80a5-c4cccbda7f27_896x240.png&quo=
+t;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot=
+;:240,&quot;width&quot;:896,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:=
+null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quo=
+t;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot=
+;:null}" alt=3D"" width=3D"550" height=3D"147.32142857142858" class=3D"wide=
+-image" src=3D"https://substackcdn.com/image/fetch/w_1792,c_limit,f_auto,q_=
+auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazona=
+ws.com%2Fpublic%2Fimages%2Fbdc2fdfa-91e6-4dc3-80a5-c4cccbda7f27_896x240.png=
+" style=3D"-ms-interpolation-mode: bicubic; border: none !important; displa=
+y: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !=
+important; vertical-align: middle; width: auto !important;"></a></td><td st=
+yle=3D"text-align: center;"></td></tr></tbody></table><figcaption class=3D"=
+image-caption" style=3D"color: #808080; font-size: 14px; font-weight: 400; =
+letter-spacing: -0.15px; line-height: 20px; margin-top: 8px; padding-left: =
+15%; padding-right: 15%; text-align: center; width: 70%;"><em><a href=3D"ht=
+tps://substack.com/redirect/d01ec127-0c84-441e-922b-ce706918a275?j=3DeyJ1Ij=
+oiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D=
+"text-decoration: underline;">Ethereum NFT Market Overview by @hildobby on =
+Dune</a></em></figcaption></figure></div><p style=3D"color: #404040; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>And it&#8217;s evo=
+lving. </span><a href=3D"https://substack.com/redirect/78a623ce-9879-4361-b=
+9b9-f653993fc16b?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m=
+8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: underline;">Ch=
+ecks</a><span> by </span><a href=3D"https://substack.com/redirect/e82ca24a-=
+a69d-4492-b3ee-ffac204f5f5f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXe=
+pKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: und=
+erline;">Jack Butcher</a><span> is one of the most fun projects I&#8217;ve =
+seen in a while. </span><a href=3D"https://substack.com/redirect/c68bc73a-d=
+c8b-4df3-9288-8aa842e8020f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXep=
+KbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: unde=
+rline;">Visible</a><span> is using NFTs as digital titles to homes. </span>=
+<a href=3D"https://substack.com/redirect/5446e3fb-d154-4d04-b603-c9cfc69142=
+06?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=
+=3D"" style=3D"color: #404040; text-decoration: underline;">DIMO</a><span> =
+is using NFTs to store your car&#8217;s data. And Prophecy Markets feels li=
+ke a truly native and novel structure that could only exist in its fullness=
+ with NFTs.&#160;</span></p><p style=3D"color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;"><span>Prophecy Markets is one of thos=
+e &#8220;</span><a href=3D"https://substack.com/redirect/f6866cfb-b6fd-401b=
+-a59d-0fdd130f0c3c?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-=
+6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: underline;">=
+start out looking like a toy</a><span>&#8221; ideas that could become reall=
+y powerful. It takes advantage of all of the things that NFTs are uniquely =
+good at to create a new market structure designed for a world of abundance.=
+ After I read it, I became more convinced that NFTs are going to become an =
+increasingly important piece of our digital lives.&#160;</span></p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">Because the real value isn&#8217;t in the price of the predictions, but i=
+n the rich worlds that can develop around them.&#160;</p><p style=3D"color:=
+ #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Wh=
+at would happen to the startup ecosystem if we introduced </span><strong>St=
+artup Prophecies</strong><span>?&#160;</span></p><h3 class=3D"header-with-a=
+nchor-widget" style=3D"-moz-osx-font-smoothing: subpixel-antialiased; -webk=
+it-font-smoothing: subpixel-antialiased; color: #404040; font-family: 'SF C=
+ompact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Hel=
+vetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI=
+ Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margi=
+n: 1em 0 0.625em 0; position: relative;"><strong>Startup Prophecies</strong=
+></h3><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margi=
+n: 0 0 20px 0;">Startup Prophecies are a derivative of Prophecy Markets tha=
+t let anyone permissionlessly create and mint predictions, art, analysis, c=
+ode, videos, stories, and more around startups. These Startup Prophecy NFTs=
+ can be traded, creating a 3D market on top of the more linear venture fund=
+ing market. &#160;</p><p style=3D"color: #404040; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 20px 0;"><span>The thing that excites me about this =
+idea is that, unlike alien landings, people can actually influence startup =
+outcomes. They can tell stories, spread awareness, call their Senators, mak=
+e customer introductions, and build a richer world around the missions they=
+ believe in. This is decentralized storytelling or web3 media that </span><=
+em>is </em><span>company-centric but not company-directed:</span></p><div c=
+lass=3D"tweet static" style=3D"-webkit-font-smoothing: subpixel-antialiased=
+; background: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; box-s=
+izing: border-box; color: #404040; direction: ltr; display: block; flex-dir=
+ection: column; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, B=
+linkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 14px; font-weight: 400; gap: 12px; line-height: 20px; marg=
+in: 32px auto; max-width: 550px; padding: 16px 16px 12px; transition: color=
+ 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+    filter 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+    stroke 0.25s cubic-bezier(0.16, 1, 0.3, 1);"><a class=3D"tweet-link-top=
+" href=3D"https://substack.com/redirect/04119825-5c4f-41f7-b098-71d02af1ac1=
+9?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" targe=
+t=3D"_blank" rel=3D"" style=3D"color: #404040; display: block; flex-directi=
+on: column; gap: 12px; text-decoration: none; white-space: pre-wrap;"><div =
+class=3D"tweet-header" style=3D"align-items: center; display: block; flex-d=
+irection: row; font-size: 16px; gap: 12px; height: 48px; line-height: 26px;=
+ margin-bottom: 12px;"><img class=3D"tweet-header-avatar" src=3D"https://su=
+bstackcdn.com/image/twitter_name/w_96/balajis.jpg" alt=3D"Twitter avatar fo=
+r @balajis" loading=3D"lazy" style=3D"-ms-interpolation-mode: bicubic; bord=
+er: none !important; border-radius: 50%; display: block; float: left; heigh=
+t: 48px; margin: 0; margin-right: 12px; max-width: 100%; vertical-align: mi=
+ddle; width: 48px;"><div class=3D"tweet-header-text" style=3D"display: bloc=
+k; flex-direction: column; font-size: 14px; line-height: 20px; padding-top:=
+ 4px;"><span class=3D"tweet-author-name" style=3D"display: block; font-weig=
+ht: 600;">Balaji </span><span class=3D"tweet-author-handle" style=3D"color:=
+ #808080; display: block;">@balajis</span></div></div><div class=3D"tweet-t=
+ext" style=3D"font-size: 20px; line-height: 24px; margin-bottom: 16px;">Wha=
+t does Web3 media look like?
+Community-centric, not company-centric.
+A group of people organized around a common cause, which creates content th=
+at advances that cause.</div></a><a class=3D"tweet-link-bottom" href=3D"htt=
+ps://substack.com/redirect/04119825-5c4f-41f7-b098-71d02af1ac19?j=3DeyJ1Ijo=
+iOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" target=3D"_blank" =
+rel=3D"" style=3D"color: #404040; display: block; flex-direction: column; g=
+ap: 12px; text-decoration: none; white-space: pre-wrap;"><div class=3D"twee=
+t-footer" style=3D"align-items: flex-start; display: block; flex-direction:=
+ column; font-size: 14px; gap: 8px; line-height: 20px; margin-top: 12px;"><=
+span class=3D"tweet-date" style=3D"color: #808080; flex: 1;">6:46 AM &#8729=
+; Feb 7, 2023</span><hr style=3D"background: #e0e0e0; border: none; height:=
+ 1px; margin: 12px 0; padding: 0; width: 100%;"><div class=3D"tweet-ufi" st=
+yle=3D"align-items: center; display: block; font-size: 16px; gap: 24px; hei=
+ght: 20px; line-height: 26px;"><span href=3D"https://twitter.com/balajis/st=
+atus/1622849289327345666?s=3D20/likes" class=3D"likes" style=3D"color: #808=
+080; display: block; float: left; font-size: 14px; gap: 4px; line-height: 2=
+0px; margin-right: 24px; text-decoration: none;"><span class=3D"like-count"=
+ style=3D"color: #404040; font-weight: 600; margin-right: 4px;">428</span><=
+span>Likes</span></span><span href=3D"https://twitter.com/balajis/status/16=
+22849289327345666?s=3D20/retweets" class=3D"retweets" style=3D"color: #8080=
+80; display: block; float: left; font-size: 14px; gap: 4px; line-height: 20=
+px; margin-right: 24px; text-decoration: none;"><span class=3D"rt-count" st=
+yle=3D"color: #404040; font-weight: 600; margin-right: 4px;">55</span><span=
+>Retweets</span></span></div></div></a></div><p style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Here&#8217;s how it =
+works, at its most basic:&#160;</p><ol style=3D"margin-top: 0; padding: 0;"=
+><li style=3D"margin: 8px 0 0 32px;"><p style=3D"box-sizing: border-box; co=
+lor: #404040; font-size: 16px; line-height: 26px; margin: 0; margin-bottom:=
+ 0; padding-left: 4px;"><strong>Create.</strong><span> Anyone can create pr=
+edictions, art, stories, music, code, spreadsheets, whatever related to a s=
+tartup that they think will be more valuable or important in the future tha=
+n it is today.&#160;</span></p></li><li style=3D"margin: 8px 0 0 32px;"><p =
+style=3D"box-sizing: border-box; color: #404040; font-size: 16px; line-heig=
+ht: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;"><strong>Mint.</s=
+trong><span> They can mint those items as NFTs, and give or sell editions t=
+o other people who believe that those startups will be more valuable or imp=
+ortant in the future than they are today, or to those who just want to supp=
+ort the company&#8217;s mission.&#160;</span></p></li><li style=3D"margin: =
+8px 0 0 32px;"><p style=3D"box-sizing: border-box; color: #404040; font-siz=
+e: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;=
+"><strong>Trade.</strong><span> Between now and the prediction, there&#8217=
+;s a liquid market for the NFTs that roughly tracks sentiment around those =
+companies.&#160;</span></p></li><li style=3D"margin: 8px 0 0 32px;"><p styl=
+e=3D"box-sizing: border-box; color: #404040; font-size: 16px; line-height: =
+26px; margin: 0; margin-bottom: 0; padding-left: 4px;"><strong>Appreciate.<=
+/strong><span> If those startups end up being more valuable or important th=
+an they are today, maybe those NFTs will be more valuable than they are tod=
+ay.&#160;</span></p></li></ol><p style=3D"color: #404040; font-size: 16px; =
+line-height: 26px; margin: 0 0 20px 0;"></p><p style=3D"color: #404040; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>I don&#8217;t t=
+hink that the value of the assets will tightly track the value of companies=
+, and I don&#8217;t think that there will be a market for every company&#82=
+17;s NFTs. Companies can become valuable without becoming important, and my=
+ guess is that </span><strong>NFTs associated with the ones that become imp=
+ortant will be worth more than those for the ones that simply become valuab=
+le</strong><span>. Which, in my opinion, is a feature.&#160;</span></p><p s=
+tyle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20p=
+x 0;"><span>Startup Prophecy NFTs are not shares in the company. They&#8217=
+;re loosely connected not by legal documents, but by memes. People will nat=
+urally be more attracted to the stories attached to companies that can take=
+ us to Mars, cure cancer, or birth AGI &#8211; Hard Startups that do new an=
+d important things &#8211; than they are to those about yet another CRM or =
+an iterative workflow product. Startup Prophecies will reward </span><a hre=
+f=3D"https://substack.com/redirect/56ef1384-d220-4b0f-ad87-8f26da1554e8?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"color: #404040; text-decoration: underline;">Good Quests</a><span=
+>.&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;">A few hypothetical historical examples might p=
+aint the picture.&#160;</p><p style=3D"color: #404040; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 20px 0;"><span>Imagine that a digital artist cr=
+eated an image of a </span><strong>SpaceX</strong><span> rocketship landing=
+ on Mars in 2040 way back in 2003, when the company was founded, minted ten=
+ of them, and sold them for $100. It&#8217;s hard to imagine those wouldn&#=
+8217;t be worth more than $100 today, and harder to imagine they wouldn&#82=
+17;t be much more valuable if SpaceX actually lands on Mars in 2040.&#160;<=
+/span></p><div class=3D"captioned-image-container-static" style=3D"font-siz=
+e: 16px; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 =
+auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6=
+em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" c=
+lass=3D"content" width=3D"520" style=3D"text-align: center;"><a class=3D"im=
+age-link" target=3D"_blank" href=3D"https://substack.com/redirect/ca4ff0cf-=
+14c2-4649-b269-61d1c5375d04?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXe=
+pKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; border: none; d=
+isplay: block; flex-direction: column; height: auto; margin: 0; padding: 0;=
+ position: relative; text-decoration: none; width: auto;"><img data-attrs=
+=3D"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/pub=
+lic/images/5d894fcc-45f7-4fc4-baea-a651446e8e54_520x520.png&quot;,&quot;ful=
+lscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:520,&quot;=
+width&quot;:520,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;a=
+lt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;=
+:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=
+=3D"" width=3D"520" height=3D"520" class=3D"" src=3D"https://substackcdn.co=
+m/image/fetch/w_520,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3=
+A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d894fcc-45=
+f7-4fc4-baea-a651446e8e54_520x520.png" style=3D"-ms-interpolation-mode: bic=
+ubic; border: none !important; display: block; height: auto; margin: 0 auto=
+; margin-bottom: 0; max-width: 100% !important; vertical-align: middle; wid=
+th: auto !important;"></a></td><td style=3D"text-align: center;"></td></tr>=
+</tbody></table><figcaption class=3D"image-caption" style=3D"color: #808080=
+; font-size: 14px; font-weight: 400; letter-spacing: -0.15px; line-height: =
+20px; margin-top: 8px; padding-left: 15%; padding-right: 15%; text-align: c=
+enter; width: 70%;"><em>Made with Stable Diffusion</em></figcaption></figur=
+e></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;"><span>Imagine that way back in 1976, </span><strong>Apple=
+</strong><span> minted 100 editions of its original logo and gave them to i=
+ts first 100 customers. Those would be worth something today.&#160;</span><=
+/p><div class=3D"captioned-image-container-static" style=3D"font-size: 16px=
+; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; w=
+idth: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><t=
+body><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=3D=
+"content" width=3D"578" style=3D"text-align: center;"><a class=3D"image-lin=
+k" target=3D"_blank" href=3D"https://substack.com/redirect/1bd190fe-b8a4-45=
+7c-a9e1-7750f2b1a0a8?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa=
+8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; border: none; display:=
+ block; flex-direction: column; height: auto; margin: 0; padding: 0; positi=
+on: relative; text-decoration: none; width: auto;"><img data-attrs=3D"{&quo=
+t;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/image=
+s/798567c5-1a92-4cb2-9bf8-3ef3721a93df_578x498.png&quot;,&quot;fullscreen&q=
+uot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:498,&quot;width&quo=
+t;:578,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:=
+null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&qu=
+ot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" wid=
+th=3D"550" height=3D"473.87543252595157" class=3D"wide-image" src=3D"https:=
+//substackcdn.com/image/fetch/w_1156,c_limit,f_auto,q_auto:good,fl_progress=
+ive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fima=
+ges%2F798567c5-1a92-4cb2-9bf8-3ef3721a93df_578x498.png" style=3D"-ms-interp=
+olation-mode: bicubic; border: none !important; display: block; height: aut=
+o; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-a=
+lign: middle; width: auto !important;"></a></td><td style=3D"text-align: ce=
+nter;"></td></tr></tbody></table><figcaption class=3D"image-caption" style=
+=3D"color: #808080; font-size: 14px; font-weight: 400; letter-spacing: -0.1=
+5px; line-height: 20px; margin-top: 8px; padding-left: 15%; padding-right: =
+15%; text-align: center; width: 70%;"><em>Original Apple Logo</em></figcapt=
+ion></figure></div><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;"><span>Imagine that a sci-fi writer wrote an op=
+timistic short story about a world in which </span><strong>OpenAI</strong><=
+span> figures out AGI when the company launched in 2015, minted it, and sol=
+d 1,000 copies at a market clearing price. The proceeds might have allowed =
+her to keep writing full-time. NFTs of the short stories would likely have =
+increased in value with each breakthrough the company made over the past fe=
+w years, and exploded with the launch of ChatGPT. They&#8217;d probably be =
+worth even more if OpenAI ultimately achieves its mission.&#160;</span></p>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;"><span>Forget the NFT piece for a second. As you read this, there =
+are multiple first edition Isaac Asimov books for </span><a href=3D"https:/=
+/substack.com/redirect/c99413ad-cbeb-4a3e-bb73-91b77dbbfcf0?j=3DeyJ1IjoiOXA=
+wZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"colo=
+r: #404040; text-decoration: underline;">auction on eBay</a><span> at over =
+$1,000, with a signed First Edition Trilogy as high as $32,000.&#160;</span=
+></p><div class=3D"captioned-image-container-static" style=3D"font-size: 16=
+px; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto;=
+ width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;">=
+<tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=
+=3D"content" width=3D"508" style=3D"text-align: center;"><a class=3D"image-=
+link" target=3D"_blank" href=3D"https://substack.com/redirect/a9e3771e-796c=
+-41d0-90d2-80f0fbfcf6dd?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbq=
+Osa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; border: none; displ=
+ay: block; flex-direction: column; height: auto; margin: 0; padding: 0; pos=
+ition: relative; text-decoration: none; width: auto;"><img data-attrs=3D"{&=
+quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/im=
+ages/34c979fb-3c0c-4919-8906-01f978fe58df_508x423.png&quot;,&quot;fullscree=
+n&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:423,&quot;width&=
+quot;:508,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quo=
+t;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,=
+&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" =
+width=3D"508" height=3D"423" class=3D"" src=3D"https://substackcdn.com/imag=
+e/fetch/w_508,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2=
+Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34c979fb-3c0c-491=
+9-8906-01f978fe58df_508x423.png" style=3D"-ms-interpolation-mode: bicubic; =
+border: none !important; display: block; height: auto; margin: 0 auto; marg=
+in-bottom: 0; max-width: 100% !important; vertical-align: middle; width: au=
+to !important;"></a></td><td style=3D"text-align: center;"></td></tr></tbod=
+y></table><figcaption class=3D"image-caption" style=3D"color: #808080; font=
+-size: 14px; font-weight: 400; letter-spacing: -0.15px; line-height: 20px; =
+margin-top: 8px; padding-left: 15%; padding-right: 15%; text-align: center;=
+ width: 70%;"><em>eBay</em></figcaption></figure></div><p style=3D"color: #=
+404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Ther=
+e are </span><a href=3D"https://substack.com/redirect/241b2b33-5158-43dd-87=
+0a-5171df7df3b4?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8=
+ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: underline;">doz=
+ens of old school Apple t-shirts</a><span> on offer for hundreds of dollars=
+, and this signed Steve Jobs </span><em>Time Magazine</em><span> cover is u=
+p for $124,995.&#160;</span></p><div class=3D"captioned-image-container-sta=
+tic" style=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><figu=
+re style=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" wi=
+dth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-=
+padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></t=
+d><td align=3D"left" class=3D"content" width=3D"508" style=3D"text-align: c=
+enter;"><a class=3D"image-link" target=3D"_blank" href=3D"https://substack.=
+com/redirect/63973676-2994-499a-ab20-90064baa2b51?j=3DeyJ1IjoiOXAwZ3QifQ.gb=
+8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: c=
+enter; border: none; display: block; flex-direction: column; height: auto; =
+margin: 0; padding: 0; position: relative; text-decoration: none; width: au=
+to;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://substack-post-media.=
+s3.amazonaws.com/public/images/854ca6e0-37f1-4435-96b9-bc11fd1375cf_508x679=
+=2Epng&quot;,&quot;fullscreen&quot;:null,=
+&quot;imageSize&quot;:null,&quot;hei=
+ght&quot;:679,&quot;width&quot;:508,&quot;resizeWidth&quot;:null,&quot;byte=
+s&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:n=
+ull,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedir=
+ect&quot;:null}" alt=3D"" width=3D"508" height=3D"679" class=3D"" src=3D"ht=
+tps://substackcdn.com/image/fetch/w_508,c_limit,f_auto,q_auto:good,fl_progr=
+essive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2F=
+images%2F854ca6e0-37f1-4435-96b9-bc11fd1375cf_508x679.png" style=3D"-ms-int=
+erpolation-mode: bicubic; border: none !important; display: block; height: =
+auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertica=
+l-align: middle; width: auto !important;"></a></td><td style=3D"text-align:=
+ center;"></td></tr></tbody></table><figcaption class=3D"image-caption" sty=
+le=3D"color: #808080; font-size: 14px; font-weight: 400; letter-spacing: -0=
+=2E15px; line-height: 20px; margin-top: 8=
+px; padding-left: 15%; padding-right=
+: 15%; text-align: center; width: 70%;"><em>eBay</em></figcaption></figure>=
+</div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margi=
+n: 0 0 20px 0;">Maybe a CyberTruck Hot Wheels signed by Elon Musk himself i=
+s more your speed? Good news. It can be yours for only $49,999.99 (or Best =
+Offer).</p><div class=3D"captioned-image-container-static" style=3D"font-si=
+ze: 16px; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0=
+ auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 =
+1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left=
+" class=3D"content" width=3D"508" style=3D"text-align: center;"><a class=3D=
+"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/af259d=
+e8-e710-4521-b8ff-2f0d6c9ee7ee?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjml=
+XXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; border: none=
+; display: block; flex-direction: column; height: auto; margin: 0; padding:=
+ 0; position: relative; text-decoration: none; width: auto;"><img data-attr=
+s=3D"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/pu=
+blic/images/00a9e389-ba80-4c9e-adab-53fd2eb0bfa4_508x478.png&quot;,&quot;fu=
+llscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:478,&quot=
+;width&quot;:508,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;=
+alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot=
+;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" al=
+t=3D"" width=3D"508" height=3D"478" class=3D"" src=3D"https://substackcdn.c=
+om/image/fetch/w_508,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%=
+3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F00a9e389-b=
+a80-4c9e-adab-53fd2eb0bfa4_508x478.png" style=3D"-ms-interpolation-mode: bi=
+cubic; border: none !important; display: block; height: auto; margin: 0 aut=
+o; margin-bottom: 0; max-width: 100% !important; vertical-align: middle; wi=
+dth: auto !important;"></a></td><td style=3D"text-align: center;"></td></tr=
+></tbody></table><figcaption class=3D"image-caption" style=3D"color: #80808=
+0; font-size: 14px; font-weight: 400; letter-spacing: -0.15px; line-height:=
+ 20px; margin-top: 8px; padding-left: 15%; padding-right: 15%; text-align: =
+center; width: 70%;"><em>eBay</em></figcaption></figure></div><p style=3D"c=
+olor: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><sp=
+an>By contrast, the most expensive </span><a href=3D"https://substack.com/r=
+edirect/31a9f623-f9d5-41cb-be59-685452c602c6?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7=
+GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; tex=
+t-decoration: underline;">Salesforce t-shirt</a><span> on offer is $39.99 a=
+nd there&#8217;s practically no market for TikTok company swag despite the =
+product&#8217;s popularity, adding credence to the idea that Startup Prophe=
+cies related to companies that become both important </span><em>and </em><s=
+pan>valuable will be worth more than those related to companies that merely=
+ become valuable.&#160;</span></p><p style=3D"color: #404040; font-size: 16=
+px; line-height: 26px; margin: 0 0 20px 0;">Of course, one way to bet on th=
+e success of a younger company like Stripe or Replit or OpenAI would be to =
+find something autographed by Patrick Collison or Amjad Masad or Sam Altman=
+, put it in a protective case, and wait. And given that we&#8217;ve focused=
+ on the monetary value of the hypothetical NFTs or real collectibles thus f=
+ar, I wouldn&#8217;t blame you for going that route.</p><p style=3D"color: =
+#404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>But=
+ the value of the assets is probably the </span><em>least</em><span> intere=
+sting piece of the Startup Prophecies idea. The greater benefits would come=
+ in the form of the impact on the companies, the NFTs&#8217; creators, thei=
+r holders, and the communities and products that form on top of them.&#160;=
+</span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; =
+margin: 0 0 20px 0;">To understand what those might be, it&#8217;s helpful =
+to go into the attributes that make NFTs uniquely suited for this purpose. =
+Why NFTs?&#160;</p><ul style=3D"margin-top: 0; padding: 0;"><li style=3D"ma=
+rgin: 8px 0 0 32px; mso-special-format: bullet;"><p style=3D"box-sizing: bo=
+rder-box; color: #404040; font-size: 16px; line-height: 26px; margin: 0; ma=
+rgin-bottom: 0; padding-left: 4px;"><strong>Timestamped</strong><span>. Eve=
+ry time an NFT is created or traded, it creates a timestamp associated with=
+ the NFT. Timestamps are useful for proving that you predicted something ea=
+rly.&#160;A 2023 prediction should be worth more than the same prediction m=
+ade in 2025.</span></p></li><li style=3D"margin: 8px 0 0 32px; mso-special-=
+format: bullet;"><p style=3D"box-sizing: border-box; color: #404040; font-s=
+ize: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4p=
+x;"><strong>Permissionless</strong><span>. Anyone can create a piece relate=
+d to their favorite company and mint it. Once minted, anyone in the world c=
+an buy or sell.&#160;Narratives and worlds can build up without the company=
+&#8217;s direct involvement.</span></p></li><li style=3D"margin: 8px 0 0 32=
+px; mso-special-format: bullet;"><p style=3D"box-sizing: border-box; color:=
+ #404040; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; =
+padding-left: 4px;"><strong>Attributed</strong><span>. It&#8217;s easy for =
+the public to verify who each NFT was minted by &#8211; the digital equival=
+ent of a signature &#8211; and who owns them at any given time.&#160;</span=
+></p></li><li style=3D"margin: 8px 0 0 32px; mso-special-format: bullet;"><=
+p style=3D"box-sizing: border-box; color: #404040; font-size: 16px; line-he=
+ight: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;"><strong>Compos=
+able</strong><span>. The real magic of NFTs is that they&#8217;re essential=
+ly a file format that can be plugged into a number of different application=
+s over time. Ownership today unlocks access to an evolving ecosystem in the=
+ future.&#160;</span></p></li></ul><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;"><span>That last piece &#8211; =
+composability &#8211; is especially important. Key to Startup Prophecies is=
+ the fact that anyone can build experiences for NFT holders. In the simples=
+t form, that might mean access to a company&#8217;s community-run Fan Club =
+Discord. The companies themselves may choose to give holders </span><a href=
+=3D"https://substack.com/redirect/5fccebe9-0464-4388-87b1-c5345151f6d8?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" st=
+yle=3D"color: #404040; text-decoration: underline;">tokengated</a><span> ac=
+cess to events, discounts, or limited edition swag. People can show off the=
+ir NFTs passively in their wallets or actively in galleries like </span><a =
+href=3D"https://substack.com/redirect/4aa79b52-014f-4417-ac6f-d27360e47071?=
+j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"=
+" style=3D"color: #404040; text-decoration: underline;">OnCyber</a><span> a=
+nd build up a richer picture of themselves online. Creators can create deri=
+vative works to expand and reinforce the ecosystem, as is happening with </=
+span><a href=3D"https://substack.com/redirect/78a623ce-9879-4361-b9b9-f6539=
+93fc16b?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU"=
+ rel=3D"" style=3D"color: #404040; text-decoration: underline;">Checks</a><=
+span> and </span><a href=3D"https://substack.com/redirect/f67e9572-7949-4f0=
+b-bf46-da64790346d0?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8=
+-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: underline;"=
+>Nouns</a><span>. DAOs can form to coordinate holders&#8217; activities and=
+ provide grants to projects that support the company (see this grant-funded=
+ </span><a href=3D"https://substack.com/redirect/346c033e-c37c-45f7-a7cb-41=
+8eb5445f7b?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRN=
+pU" rel=3D"" style=3D"color: #404040; text-decoration: underline;">Nouns vi=
+deo</a><span>). Developers could build apps &#8211; as simple as Startup Pr=
+ophecy-specific NFT marketplaces or as rich as games and virtual worlds &#8=
+211; that incorporate the NFTs. All of this can be done bottoms-up, without=
+ any involvement from the companies themselves. It&#8217;s already happenin=
+g with digital art.&#160;</span></p><p style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 0 20px 0;"><span>By creating a new layer=
+, Startup Prophecies adds a whole new dimension to the startup ecosystem an=
+d turns supporting companies into a big, open </span><a href=3D"https://sub=
+stack.com/redirect/30d97353-9c01-4368-9230-40ed8c939cfd?j=3DeyJ1IjoiOXAwZ3Q=
+ifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #=
+404040; text-decoration: underline;">game</a><span>.&#160;</span></p><div c=
+lass=3D"captioned-image-container-static" style=3D"font-size: 16px; line-he=
+ight: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100=
+%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr=
+><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"content=
+" width=3D"908" style=3D"text-align: center;"><a class=3D"image-link" targe=
+t=3D"_blank" href=3D"https://substack.com/redirect/5a6effb4-c39b-4173-bee4-=
+a725d26d4552?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Exk=
+RNpU" rel=3D"" style=3D"align-items: center; border: none; display: block; =
+flex-direction: column; height: auto; margin: 0; padding: 0; position: rela=
+tive; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&qu=
+ot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fd0eb0=
+c9-d4a1-41d3-b602-685730403168_908x908.png&quot;,&quot;fullscreen&quot;:nul=
+l,&quot;imageSize&quot;:null,&quot;height&quot;:908,&quot;width&quot;:908,&=
+quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&qu=
+ot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;below=
+TheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D"55=
+0" height=3D"550" class=3D"wide-image" src=3D"https://substackcdn.com/image=
+/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2=
+Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd0eb0c9-d4a1-41d=
+3-b602-685730403168_908x908.png" style=3D"-ms-interpolation-mode: bicubic; =
+border: none !important; display: block; height: auto; margin: 0 auto; marg=
+in-bottom: 0; max-width: 100% !important; vertical-align: middle; width: au=
+to !important;"></a></td><td style=3D"text-align: center;"></td></tr></tbod=
+y></table><figcaption class=3D"image-caption" style=3D"color: #808080; font=
+-size: 14px; font-weight: 400; letter-spacing: -0.15px; line-height: 20px; =
+margin-top: 8px; padding-left: 15%; padding-right: 15%; text-align: center;=
+ width: 70%;"><em>A 2D Universe Expanding Into a 3D Universe, Midjourney</e=
+m></figcaption></figure></div><p style=3D"color: #404040; font-size: 16px; =
+line-height: 26px; margin: 0 0 20px 0;">The fun thing about open, permissio=
+nless systems is that they&#8217;ll evolve and grow in unpredictable ways. =
+I can&#8217;t know all of the different ways that people might run with the=
+ idea, but there are a few categories of things I can see happening that ha=
+ve little to do with the price of the NFTs themselves. Here are a few.&#160=
+;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin=
+: 0 0 20px 0;"><strong>Broaden the Community of Supporters</strong></p><p s=
+tyle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20p=
+x 0;"><span>Would Startup Prophecies broaden the community of supporters ar=
+ound the most ambitious companies? Would artists and videographers and writ=
+ers find rich new source material in companies aligned with their beliefs? =
+Would companies themselves create </span><a href=3D"https://substack.com/re=
+direct/5fccebe9-0464-4388-87b1-c5345151f6d8?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7G=
+nA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text=
+-decoration: underline;">tokengated</a><span> experiences for people who ho=
+ld their NFTs? Would fan clubs spring up? Might a DAO of NFT holders even t=
+ake a board seat one day?&#160;</span></p><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;"><strong>Anchor NFTs to =
+&#8220;Real World Assets&#8221; Without Legal Hoops</strong></p><p style=3D=
+"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">W=
+ould conceptually tying NFTs to real companies create a 3D side-market on t=
+hose companies&#8217; performance? Would company-related NFTs be more valua=
+ble than a random NFT project by association with something real and import=
+ant? Could Startup Prophecies be an informal, web3-native bridge between tr=
+aditional and crypto markets without the legal headaches? Would Startup Pro=
+phecy NFTs provide a crowdsourced way to assess the value and cultural rele=
+vance of companies in between funding rounds?&#160;</p><p style=3D"color: #=
+404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><strong>Sh=
+owcase Missions You Believe In</strong></p><p style=3D"color: #404040; font=
+-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Just like art co=
+llectors hang their pieces in galleries, Punk owners use their Punks as PFP=
+s, or angel investors list their best companies in their Twitter bios, migh=
+t people create wallets and galleries filled with NFTs related to companies=
+ and missions they believe in? Would the ability to show support for space =
+exploration or cell therapies expand the universe of people who hold digita=
+l assets? Would community members with expertise curate the most exciting c=
+ompanies working in Climate, Biotech, Space, web3, and a number of differen=
+t categories? What would the internet look like if people could more easily=
+ show what they&#8217;re </span><em>for</em><span> than shout what they&#82=
+17;re </span><em>against</em><span>?&#160;</span></p><p style=3D"color: #40=
+4040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><strong>Buil=
+d a Fantasy Startup Portfolio&#160;</strong></p><p style=3D"color: #404040;=
+ font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Might aspiring VC=
+s use timestamped collections of Startup Prophecies to build up a track rec=
+ord? Could a company build a Startup Prophecy Fantasy App to rank collector=
+s across a number of metrics and give visibility to people who might not ot=
+herwise get noticed by top funds or be able to launch their own? Would the =
+popularity of certain NFTs even inform VCs&#8217; decisions about which com=
+panies to invest in?&#160;</p><p style=3D"color: #404040; font-size: 16px; =
+line-height: 26px; margin: 0 0 20px 0;"><strong>Encourage Optimistic Vision=
+s of the Future</strong></p><p style=3D"color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;">If there were a market for Startup Pr=
+ophecies, would more people use their skills &#8211; as artists, writers, v=
+ideographers, musicians, analysts &#8211; to create more optimistic visions=
+ of the future? What would the world look like if the incentives for expres=
+sing optimism on the internet outweighed those for expressing pessimism? Mi=
+ght the market&#8217;s desire to own assets that represent grand but possib=
+le futures push creators towards definite optimism and sharp analysis inste=
+ad of pie-in-the-sky guesses?&#160;</p><p style=3D"color: #404040; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 20px 0;"><strong>Incentivize Good Q=
+uests</strong></p><p style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;"><span>If my intuition that NFTs related to comp=
+anies that become valuable </span><em>and</em><span> important will be wort=
+h more than companies that simply become valuable, will the existence of St=
+artup Prophecies create incentives for more people to </span><a href=3D"htt=
+ps://substack.com/redirect/56ef1384-d220-4b0f-ad87-8f26da1554e8?j=3DeyJ1Ijo=
+iOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"=
+color: #404040; text-decoration: underline;">Choose Good Quests</a><span>? =
+Would the knowledge that free marketing and support will exist for the most=
+ ambitious companies tackling the biggest challenges tip skilled founders t=
+owards doing something harder than they otherwise might have? Would that sa=
+me knowledge give investors more confidence to back those Hard Startups? Wo=
+uld iterative or copycat ideas fall out of favor?&#160;</span></p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+"><strong>Accelerate Positive Outcomes</strong></p><p style=3D"color: #4040=
+40; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Most important=
+ly, could a positive sum market of Startup Prophecies be self-fulfilling? &=
+#8220;Do more people start working together to make something a reality?&#8=
+221; If they do, would it tip the scales enough that a bold company might s=
+ucceed where they otherwise might have failed? Would ownership and communit=
+y involvement provide enough activation energy to turn people into advocate=
+s?&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px;=
+ margin: 0 0 20px 0;">I framed all of these as open questions because I hav=
+e no idea how it might play out.&#160;</p><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>It&#8217;s very p=
+ossible that the vast majority of Startup Prophecy NFTs don&#8217;t find an=
+ audience and fizzle into obscurity. Some might attract buyers for a while,=
+ but fade after the predicted event even if it comes to pass. Interest in p=
+rojects might wane between funding rounds or big announcements, creating fa=
+lsely volatile swings. This being the internet, there might very well be a =
+market for </span><em>negative</em><span> predictions about companies, and =
+the associated efforts to bring those to life. There&#8217;s a good chance =
+that the value of the NFTs never quite connects with the value of the compa=
+nies they represent. There&#8217;s no way to predict how a complex, dynamic=
+ market like this would evolve, or that it would even take off in the first=
+ place.</span></p><p style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;">But I think there&#8217;s something magical her=
+e. Instead of trying to shoe-horn everything into becoming a Crypto Thing, =
+it lets the core asset (in this case, a startup, but it could be a movie, o=
+r a team, or a game, or whatever) focus on what it does best while a loosel=
+y-tethered community of loosely-incentivized supporters forms around it. If=
+ nothing else, it&#8217;s a new form of company merch and memorabilia.&#160=
+;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin=
+: 0 0 20px 0;">There&#8217;s only one way to find out.&#160;</p><p style=3D=
+"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">I=
+ want to experiment with this idea. The easiest way would be to mint deep d=
+ives I&#8217;ve written about companies, and I might do that, but there are=
+ more native ways to do it. I want to write optimistic short stories about =
+the world in which they succeed. I &#8230; just need to learn how to write =
+short stories first, so I&#8217;m timestamping the idea here in the meantim=
+e.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px;=
+ margin: 0 0 20px 0;">If this idea takes off, I want Not Boring Capital&#82=
+17;s Portfolio page to be an OnCyber gallery full of the NFTs related to th=
+e companies we&#8217;ve invested in.</p><div class=3D"captioned-image-conta=
+iner-static" style=3D"font-size: 16px; line-height: 26px; margin: 32px auto=
+;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wra=
+pper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: cent=
+er;"></td><td align=3D"left" class=3D"content" width=3D"908" style=3D"text-=
+align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://s=
+ubstack.com/redirect/24b85c7c-8683-49b5-af67-cf1795ca8148?j=3DeyJ1IjoiOXAwZ=
+3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-=
+items: center; border: none; display: block; flex-direction: column; height=
+: auto; margin: 0; padding: 0; position: relative; text-decoration: none; w=
+idth: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://substack-pos=
+t-media.s3.amazonaws.com/public/images/5f77b844-f492-4771-9b27-b2514ec48e45=
+_908x397.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&=
+quot;height&quot;:397,&quot;width&quot;:908,&quot;resizeWidth&quot;:null,&q=
+uot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type=
+&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;inter=
+nalRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D"240.4735682819383=
+3" class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1816,c=
+_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-=
+media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f77b844-f492-4771-9b27-b2514ec4=
+8e45_908x397.png" style=3D"-ms-interpolation-mode: bicubic; border: none !i=
+mportant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; m=
+ax-width: 100% !important; vertical-align: middle; width: auto !important;"=
+></a></td><td style=3D"text-align: center;"></td></tr></tbody></table></fig=
+ure></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; m=
+argin: 0 0 20px 0;">For now, I&#8217;ll start by minting this post on Mirro=
+r. If this version of events comes to be, if a rich ecosystem of Startup Pr=
+ophecies develops, maybe this post will be worth something one day. Who kno=
+ws. The point here isn&#8217;t to make money now &#8211; I&#8217;ll donate =
+the proceeds to charity &#8211; but to watch what happens when more people =
+are aligned behind missions they believe in and the people bringing those m=
+issions to life.&#160;</p><p style=3D"color: #404040; font-size: 16px; line=
+-height: 26px; margin: 0 0 20px 0;">Let&#8217;s see what happens.&#160;</p>=
+<p class=3D"button-wrapper" data-attrs=3D"{&quot;url&quot;:&quot;https://no=
+tboring.mirror.xyz/fQPyuXi1g-PbG20tCaQU_AfhWFBVFqfkLS0Y8w3P-eY&quot;,&quot;=
+text&quot;:&quot;Collect Startup Prophecies&quot;,&quot;action&quot;:null,&=
+quot;class&quot;:null}" style=3D"color: #404040; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 20px 0; text-align: center;"><a class=3D"button prima=
+ry" href=3D"https://substack.com/redirect/5ec3e80e-c17b-483e-8512-72c177028=
+b2d?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=
+=3D"" style=3D"background-color: #67bdfc; border: none; border-radius: 4px;=
+ box-sizing: border-box; color: #ffffff !important; cursor: pointer; displa=
+y: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; height: auto; lin=
+e-height: 20px; margin: 0; opacity: 1; outline: none; padding: 12px 20px; t=
+ext-align: center; text-decoration: none !important; white-space: nowrap;">=
+<span style=3D"color: #ffffff; text-decoration: none;">Collect Startup Prop=
+hecies</span></a></p><p style=3D"color: #404040; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 20px 0;"><em>P.S. Startup Prophecies is just one riff=
+ on Prophecy Markets. There are many riffs left to explore.&#160;</em><span=
+>&#128064;&#160;</span></p><div style=3D"font-size: 16px; line-height: 26px=
+;"><hr style=3D"background: #e0e0e0; border: none; height: 1px; margin: 32p=
+x 0; padding: 0;"></div><p style=3D"color: #404040; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 20px 0;"><em>Thanks to Dan, Jacob, and Puja for yo=
+ur feedback!</em><span> </span></p><div style=3D"font-size: 16px; line-heig=
+ht: 26px;"><hr style=3D"background: #e0e0e0; border: none; height: 1px; mar=
+gin: 32px 0; padding: 0;"></div><p style=3D"color: #404040; font-size: 16px=
+; line-height: 26px; margin: 0 0 20px 0;">That&#8217;s all for today! We&#8=
+217;ll be in your podcast feeds this week and in your inbox with a Weekly D=
+ose on Friday. </p><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;">Thanks for reading, </p><p style=3D"color: #40=
+4040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Packy</p><di=
+v class=3D"footnote" style=3D"align-items: baseline; border-top: solid 1px =
+rgba(204, 204, 204, 0.5); display: flex; flex-direction: row; font-size: 90=
+%; line-height: 26px; margin-bottom: 0; padding-top: 1.5em;"><span class=3D=
+"footnote-number" style=3D"display: block; margin-right: 6px; min-width: 24=
+px;">1</span><div class=3D"footnote-content" style=3D"display: block; font-=
+size: 16px; line-height: 26px;"><p style=3D"color: #404040; font-size: 16px=
+; line-height: 26px; margin: 0 0 20px 0;"><em>Wander hopes to provide certa=
+in investors in Atlas the opportunity to invest in a future Wander financin=
+g round. Notwithstanding the foregoing, neither Wander nor Atlas can guaran=
+tee any Atlas investor will be provided such opportunity. Wander reserves t=
+he right to deny, in its sole discretion, any and all Atlas investors the o=
+pportunity to participate in any future financing rounds. Wander&#8217;s ab=
+ility to allow investors to participate in future financing rounds depends =
+on a number of factors, including, but not limited to, the terms of the fin=
+ancing round and applicable securities laws and regulations. Before partici=
+pating in any future Wander financing rounds, each prospective Wander inves=
+tor will have to qualify for the offering under applicable securities laws =
+and will be required to provide supporting documentation to verify their qu=
+alifications at the time of the offering.</em></p><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"></p></div></div=
+></div></div><div class=3D"container-border" style=3D"border-top: 1px solid=
+ #e0e0e0; box-sizing: border-box; font-size: 16px; line-height: 26px; margi=
+n: 32px 0 0; width: 100%;"></div><div class=3D"post-cta typography markup" =
+style=3D"font-size: 16px; line-height: 26px; margin: 32px 0; margin-bottom:=
+ 32px; text-align: initial; word-break: break-word;"><p style=3D"color: #40=
+4040; font-size: 16px; line-height: 26px; margin: 0 auto 20px; margin-top: =
+0; text-align: center; width: 90%;"><span>Not Boring by Packy McCormick is =
+free today. But if you enjoyed this post, you can tell Not Boring by Packy =
+McCormick that their writing is valuable by pledging a future subscription.=
+ You won't be charged unless they enable payments.</span></p><p class=3D"ct=
+a-box" style=3D"color: #404040; font-size: 16px; line-height: 26px; margin:=
+ 0 auto 20px; margin-bottom: 0; margin-left: auto; margin-right: auto; text=
+-align: center; width: 90%;"><a role=3D"button" href=3D"https://substack.co=
+m/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3N1YnNjcmliZT91dG1fc2=
+91cmNlPXBvc3QiLCJwIjoxMDEyOTE3ODQsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0O=
+SwiaWF0IjoxNjc1Nzc3NjgwLCJleHAiOjE2NzgzNjk2ODAsImlzcyI6InB1Yi0wIiwic3ViIjoi=
+bGluay1yZWRpcmVjdCJ9.qB6shE4_p2TiluiE7ChSoFqInHXme_-ioLY6nS0YcjQ?&utm_sourc=
+e=3Dsubstack&utm_medium=3Demail&utm_content=3Dpostcta" class=3D"button prim=
+ary" style=3D"background-color: #67bdfc; border: none; border-radius: 4px; =
+box-sizing: border-box; color: #ffffff !important; cursor: pointer; display=
+: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; height: 40px; line=
+-height: 20px; margin: 0; opacity: 1; outline: none; padding: 10px 20px; te=
+xt-align: center; text-decoration: none !important; white-space: nowrap;">P=
+ledge your support</a></p></div><table role=3D"presentation" width=3D"100%"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-ufi-2-bott=
+om" style=3D"border-bottom: 1px solid #e0e0e0; border-top: 1px solid #e0e0e=
+0; min-width: 100%;"><tr height=3D"16"><td height=3D"16" style=3D"font-size=
+: 0px; line-height: 0;">&#160;</td></tr><tr><td><table role=3D"presentation=
+" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><=
+table role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" style=3D"margin: 0 auto;"><tr><td style=3D"vertical-align:=
+ middle;"><table role=3D"presentation" width=3D"auto" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://sub=
+stack.com/app-link/post?publication_id=3D10025&post_id=3D101291784&utm_sour=
+ce=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtrue&token=3DeyJ1c2VyX2lkIjoxN=
+jI4MzU0OSwicG9zdF9pZCI6MTAxMjkxNzg0LCJyZWFjdGlvbiI6IuKdpCIsImlhdCI6MTY3NTc3=
+NzY4MCwiZXhwIjoxNjc4MzY5NjgwLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJyZWFjdGlvbiJ=
+9.Y18tCHQngPZeCeCTP6Evg3lciQeSkpRCfQeyfLVYoZw&utm_medium=3Demail" class=3D"=
+email-button-outline" style=3D"border: 1px solid #e0e0e0; border-radius: 10=
+0000px; color: #808080; display: inline-block; font-family: 'SF Pro Text', =
+-apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helve=
+tica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI S=
+ymbol'; font-size: 12px; font-weight: 500; line-height: 12px; padding: 9px =
+14px; text-decoration: none; text-transform: uppercase;"><img src=3D"https:=
+//substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive=
+:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D3=
+6%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" heig=
+ht=3D"18" style=3D"border: none !important; margin-right: 8px; max-width: 1=
+8px; min-height: 18px; min-width: 18px; vertical-align: middle;" alt=3D"" c=
+lass=3D"icon"><span class=3D"email-button-text" style=3D"vertical-align: mi=
+ddle;">Like</span></a></td></tr></table></td><td width=3D"8" style=3D"min-w=
+idth: 8px"></td><td style=3D"vertical-align: middle;"><table role=3D"presen=
+tation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr=
+><td align=3D"center"><a href=3D"https://substack.com/app-link/post?publica=
+tion_id=3D10025&post_id=3D101291784&utm_source=3Dsubstack&utm_medium=3Demai=
+l&isFreemail=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9=
+zdF9pZCI6MTAxMjkxNzg0LCJpYXQiOjE2NzU3Nzc2ODAsImV4cCI6MTY3ODM2OTY4MCwiaXNzIj=
+oicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.t5yLzop4xrqC_vnwZIyXRW7fhvY1=
+Y8Dgb-FltmT9-H0&utm_source=3Dsubstack&utm_medium=3Demail" class=3D"email-bu=
+tton-outline" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; =
+color: #808080; display: inline-block; font-family: 'SF Pro Text', -apple-s=
+ystem, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Ar=
+ial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; =
+font-size: 12px; font-weight: 500; line-height: 12px; padding: 9px 14px; te=
+xt-decoration: none; text-transform: uppercase;"><img src=3D"https://substa=
+ckcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/h=
+ttps%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26f=
+ill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D=
+"18" style=3D"border: none !important; margin-right: 8px; max-width: 18px; =
+min-height: 18px; min-width: 18px; vertical-align: middle;" alt=3D"" class=
+=3D"icon"><span class=3D"email-button-text" style=3D"vertical-align: middle=
+;">Comment</span></a></td></tr></table></td><td width=3D"8" style=3D"min-wi=
+dth: 8px"></td><td style=3D"vertical-align: middle;"><table role=3D"present=
+ation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr>=
+<td align=3D"center"><a href=3D"https://substack.com/app-link/post?publicat=
+ion_id=3D10025&post_id=3D101291784&utm_source=3Dsubstack&utm_medium=3Demail=
+&utm_content=3Dshare&action=3Dshare&triggerShare=3Dtrue&isFreemail=3Dtrue&t=
+oken=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTAxMjkxNzg0LCJpYXQiOjE2NzU3=
+Nzc2ODAsImV4cCI6MTY3ODM2OTY4MCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWF=
+jdGlvbiJ9.t5yLzop4xrqC_vnwZIyXRW7fhvY1Y8Dgb-FltmT9-H0" class=3D"email-butto=
+n-outline" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; col=
+or: #808080; display: inline-block; font-family: 'SF Pro Text', -apple-syst=
+em, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial=
+, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fon=
+t-size: 12px; font-weight: 500; line-height: 12px; padding: 9px 14px; text-=
+decoration: none; text-transform: uppercase;"><img src=3D"https://substackc=
+dn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/http=
+s%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3Fv%3D4%26height%3D36%26fill%3D=
+none%26stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" s=
+tyle=3D"border: none !important; margin-right: 8px; max-width: 18px; min-he=
+ight: 18px; min-width: 18px; vertical-align: middle;" alt=3D"" class=3D"ico=
+n"><span class=3D"email-button-text" style=3D"vertical-align: middle;">Shar=
+e</span></a></td></tr></table></td></tr></table></td><td align=3D"right"><t=
+able role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0"><tr></tr></table></td></tr></table></td></tr><tr height=3D"=
+16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;">&#160;</td>=
+</tr></table><div class=3D"footer frontend-email-shared-typed-module__foote=
+r--WmMp1" style=3D"color: #808080; font-size: 16px; line-height: 26px; padd=
+ing: 24px 0; text-align: center;"><div class=3D"frontend-email-shared-typed=
+-module__footerSection--9vwqp" style=3D"font-size: 16px; line-height: 26px;=
+ padding: 0 24px;"><div style=3D"color: #404040; font-family: 'SF Pro Displ=
+ay', -apple-system-headline, 'SF Pro Text', -apple-system, ui-sans-serif, B=
+linkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 16px; font-weight: 700; letter-spacing: -0.31px; line-heig=
+ht: 20px; margin: 0; margin-bottom: 4px; text-decoration: unset;" class=3D"=
+frontend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__=
+size-16--yeezN frontend-pencraft-Text-module__line-height-20--1soeQ fronten=
+d-pencraft-Text-module__weight-bold--VnIZR frontend-pencraft-Text-module__f=
+ont-display--v0e_A frontend-pencraft-Text-module__color-primary--2I-sF">Rea=
+d Not Boring by Packy McCormick in the app</div><div style=3D"color: #80808=
+0; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 14px; font-weight: 400; letter-spacing: -0.15px; line-heig=
+ht: 20px; margin: 0; margin-bottom: 16px; text-decoration: unset;" class=3D=
+"frontend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module_=
+_size-14--1PYz8 frontend-pencraft-Text-module__weight-normal--mEmBf fronten=
+d-pencraft-Text-module__font-text--hJYwu frontend-pencraft-Text-module__col=
+or-secondary--XjVGl frontend-pencraft-Text-module__body4--flxpT">Listen to =
+posts, join subscriber chats, and never miss an update from Packy McCormick=
+=2E</div><div style=3D"font-size: 16px; l=
+ine-height: 26px;"><a href=3D"https:=
+//substack.com/redirect/c87b3e9c-1b00-4a83-b6e5-f4e3be8885e7?j=3DeyJ1IjoiOX=
+AwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" class=3D"email-footer=
+-button" style=3D"border-radius: 8px; display: inline-block; margin: 0 4px;=
+ overflow: hidden; text-decoration: none;"><img alt=3D"Get the iOS app" src=
+=3D"https://substackcdn.com/image/fetch/w_246,c_limit,f_auto,q_auto:good,fl=
+_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fapp_page%2Fapp-store.=
+png" width=3D"123" height=3D"40" style=3D"border: none !important; max-widt=
+h: 550px; vertical-align: middle;"></a><a href=3D"https://substack.com/redi=
+rect/c63e944e-bbff-413d-9aa2-b9a7e925d845?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA=
+_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" class=3D"email-footer-button" style=3D"b=
+order-radius: 8px; display: inline-block; margin: 0 4px; overflow: hidden; =
+text-decoration: none;"><img alt=3D"Get the Android app" src=3D"https://sub=
+stackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:st=
+eep/https%3A%2F%2Fsubstack.com%2Fimg%2Fapp_page%2Fgoogle-play.png%3Fv%3D1" =
+width=3D"135" height=3D"40" style=3D"border: none !important; max-width: 55=
+0px; vertical-align: middle;"></a></div></div><div class=3D"frontend-email-=
+shared-typed-module__divider--1oKOZ" style=3D"border-top: 1px solid #e0e0e0=
+; font-size: 16px; line-height: 26px; margin: 24px 0;"></div><div style=3D"=
+font-size: 16px; line-height: 26px; padding-bottom: 24px;"><p class=3D"fron=
+tend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__size=
+-12--2onFT frontend-pencraft-Text-module__color-secondary--XjVGl small fron=
+tend-email-shared-typed-module__meta--AAyPr" style=3D"color: #808080; font-=
+family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, A=
+rial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';=
+ font-size: 12px; letter-spacing: 0; line-height: 16px; margin: 0; padding-=
+bottom: 0; text-decoration: unset;">&#169; 2023 <span>Packy McCormick</span=
+><br>10 City Point, Brooklyn, NY 11201 <br><a href=3D"https://substack.com/=
+redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2Vt=
+YWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEF4TWp=
+reE56ZzBMQ0pwWVhRaU9qRTJOelUzTnpjMk9EQXNJbVY0Y0NJNk1UWTNPRE0yT1RZNE1Dd2lhWE=
+56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5Lk1ZeURfT=
+S1IdzJldGZELTJNd28zdWhoSWo2d0M5cTd0RXZoalNXcFpZOFkiLCJwIjoxMDEyOTE3ODQsInMi=
+OjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjc1Nzc3NjgwLCJleHAiOjE2Nzg=
+zNjk2ODAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.y1EDaNsJ1N4xv8Pok=
+oSAzfXyX_oNID82oCV2ImqAIAc?" style=3D"color: #808080; text-decoration: unde=
+rline;"><span style=3D"color: #808080; text-decoration: underline;">Unsubsc=
+ribe</span></a></p></div><p class=3D"frontend-email-shared-typed-module__fo=
+oterSection--9vwqp small powered-by-substack" style=3D"color: #808080; font=
+-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, =
+Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+; font-size: 12px; line-height: 20px; margin: 0; margin-top: 0; padding: 0 =
+24px; padding-bottom: 0;"><a href=3D"https://substack.com/redirect/2/eyJlIj=
+oiaHR0cHM6Ly9zdWJzdGFjay5jb20vc2lnbnVwP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZ=
+Gl1bT1lbWFpbCZ1dG1fY29udGVudD1mb290ZXImdXRtX2NhbXBhaWduPWF1dG9maWxsZWQtZm9v=
+dGVyJmZyZWVTaWdudXBFbWFpbD1ub3Rib3JpbmdAa2hhbWVsLmNvbSIsInAiOjEwMTI5MTc4NCw=
+icyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NzU3Nzc2ODAsImV4cCI6MT=
+Y3ODM2OTY4MCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.4wM_iGV-JK9da=
+br3p6hI70CeYMBfa1f5s4LqggJlIRI?" style=3D"color: #808080; display: inline-b=
+lock; margin: 0 4px; text-decoration: none;"><img src=3D"https://substackcd=
+n.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:steep/htt=
+ps%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png" srcset=3D"=
+https://substackcdn.com/image/fetch/w_135,c_limit,f_auto,q_auto:good,fl_pro=
+gressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button.pn=
+g, https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_=
+progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button=
+%402x.png 2x, https://substackcdn.com/image/fetch/w_405,c_limit,f_auto,q_au=
+to:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpub=
+lish-button%403x.png 3x" width=3D"135" alt=3D"Start writing" height=3D"40" =
+style=3D"border: none !important; max-width: 550px; vertical-align: middle;=
+"></a></p></div></div></td><td></td></tr></table><img src=3D"https://mailgu=
+n.substack.com/api/v1/email/open?token=3DeyJtIjoiPDIwMjMwMjA3MTM0NzQ1LjMuOT=
+ZlN2FhNjBiMGQxNDhiY0BtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1NDksInIiOiJub=
+3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxMDEyOTE3=
+ODQsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTAwMjUsImMiOiJwb3N0Iiw=
+iZiI6dHJ1ZSwicG9zaXRpb24iOiJib3R0b20iLCJpYXQiOjE2NzU3Nzc2ODEsImV4cCI6MTY3OD=
+M2OTY4MSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.R0iTcBMA8HewPJElMmdtmzXCluWXupYI=
+gDcnzn4mDmI" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height=
+:1px !important;width:1px !important;border-width:0 !important;margin-top:0=
+ !important;margin-bottom:0 !important;margin-right:0 !important;margin-lef=
+t:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding=
+-right:0 !important;padding-left:0 !important;"/><img width=3D"1px" height=
+=3D"1px" alt=3D"" src=3D"https://email.mg-d0.substack.com/o/eJxFkEtuxCAQRE8=
+TdrHAfL3gLKiBHg8aG0YYT-TbB9uKsqVL7xUVoOFc6mHfZWsEV0iLmzFj7e_RQbNMaam1VoYxY0=
+i0isNDRpI296h45W2rO5L37pcUoKWSXYqWUTpK8rSCsglikEAFmwzlJojImfGAGiTDBzm9DvaYM=
+Ae0-MF6lIwklHXF3E7UHbmYbJyYNoIkO9KR05FqxoUWcuDDpDoRFPU0MmF8-BJ0nb8jHbbdbw3C=
+a-hIUm0uzZea8twDryesuFyHXt-dzj2ndjjM4BeM98_avc2-Yb1aqNFwKaa7VjveaDP-bAu2hpV=
+0Wyx9lfwvIvg3ombqF-6VeyE"></body></html>
+--de0c52fd2c64bc7c835b2518b6432c48ad73a499233edbde6262ffcc9c4d--

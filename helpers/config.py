@@ -60,6 +60,7 @@ def load_config() -> dict:
         "INSTAPAPER_LOGIN": os.environ.get("INSTAPAPER_LOGIN")
         or os.environ.get("INSTAPAPER_USERNAME"),
         "INSTAPAPER_PASSWORD": os.environ.get("INSTAPAPER_PASSWORD"),
+        "FIRECRAWL_API_KEY": os.environ.get("FIRECRAWL_API_KEY"),
         # AI Configuration
         "llm_provider": os.environ.get("LLM_PROVIDER", "openrouter"),
         "llm_model": os.environ.get("LLM_MODEL")
@@ -118,14 +119,18 @@ def load_config() -> dict:
         "transcribe_enabled": os.environ.get("TRANSCRIBE_ENABLED", "false").lower()
         == "true",
         "run_transcription": os.environ.get("RUN_TRANSCRIPTION", "false").lower()
-        == "true" or os.environ.get("TRANSCRIBE_ENABLED", "false").lower() == "true",
+        == "true"
+        or os.environ.get("TRANSCRIBE_ENABLED", "false").lower() == "true",
         "whisper_model": os.environ.get("WHISPER_MODEL", "base"),
         "transcribe_backend": os.environ.get("TRANSCRIBE_BACKEND", "local"),
         "log_level": os.environ.get("LOG_LEVEL", "INFO"),
         # Skyvern/AI Enhancement Configuration
         "SKYVERN_ENABLED": os.environ.get("SKYVERN_ENABLED", "false").lower() == "true",
         "SKYVERN_MAX_RETRIES": int(os.environ.get("SKYVERN_MAX_RETRIES", "2")),
-        "USE_TRADITIONAL_SCRAPING": os.environ.get("USE_TRADITIONAL_SCRAPING", "true").lower() == "true",
+        "USE_TRADITIONAL_SCRAPING": os.environ.get(
+            "USE_TRADITIONAL_SCRAPING", "true"
+        ).lower()
+        == "true",
         # Categorization
         "categories": load_categories(),
         # --- DeepSeek API Key ---
@@ -151,7 +156,7 @@ def load_config() -> dict:
         openai_key = os.environ.get("OPENAI_API_KEY")
         if (
             openai_key
-            and openai_key.startswith("sk-or-v1-")
+            and openai_key.startswith("sk-or-v1-")  # pragma: allowlist secret
             and not config["OPENROUTER_API_KEY"]
         ):
             print(

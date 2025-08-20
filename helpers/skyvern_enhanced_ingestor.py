@@ -15,6 +15,7 @@ from urllib.parse import urlparse
 
 try:
     import requests
+
     OPENROUTER_AVAILABLE = True
 except ImportError:
     OPENROUTER_AVAILABLE = False
@@ -33,9 +34,9 @@ class SkyvernEnhancedIngestor(BaseIngestor):
 
         # OpenRouter AI configuration for content extraction
         self.ai_enabled = (
-            config.get("SKYVERN_ENABLED", False) and 
-            config.get("OPENROUTER_API_KEY") and 
-            OPENROUTER_AVAILABLE
+            config.get("SKYVERN_ENABLED", False)
+            and config.get("OPENROUTER_API_KEY")
+            and OPENROUTER_AVAILABLE
         )
         if self.ai_enabled:
             self.openrouter_api_key = config.get("OPENROUTER_API_KEY")
@@ -146,8 +147,10 @@ class SkyvernEnhancedIngestor(BaseIngestor):
 
             # Use AI to extract and clean the content
             extraction_prompt = self._generate_extraction_prompt(source, metadata)
-            enhanced_content = self._extract_content_with_ai(raw_html, extraction_prompt)
-            
+            enhanced_content = self._extract_content_with_ai(
+                raw_html, extraction_prompt
+            )
+
             if enhanced_content and len(enhanced_content) > 500:
                 return True, enhanced_content
             else:
@@ -163,22 +166,26 @@ class SkyvernEnhancedIngestor(BaseIngestor):
         # Delegate to existing PaywallAuthenticatedStrategy from article_strategies
         try:
             from helpers.article_strategies import PaywallAuthenticatedStrategy
-            
+
             paywall_strategy = PaywallAuthenticatedStrategy(self.config)
             result = paywall_strategy.fetch(source)
             success = result.success
             content = result.content
-            
+
             if success and content:
                 # Enhance with AI if content is raw HTML
                 if "<html" in content.lower():
-                    extraction_prompt = self._generate_extraction_prompt(source, metadata)
-                    enhanced_content = self._extract_content_with_ai(content, extraction_prompt)
+                    extraction_prompt = self._generate_extraction_prompt(
+                        source, metadata
+                    )
+                    enhanced_content = self._extract_content_with_ai(
+                        content, extraction_prompt
+                    )
                     return True, enhanced_content if enhanced_content else content
                 return True, content
             else:
                 return False, "Paywall authentication failed"
-                
+
         except Exception as e:
             return False, f"Paywall handling error: {str(e)}"
 
@@ -223,7 +230,9 @@ class SkyvernEnhancedIngestor(BaseIngestor):
             6. Ignore navigation, ads, and sidebar content
             """
 
-    def _extract_content_with_ai(self, html_content: str, extraction_prompt: str) -> Optional[str]:
+    def _extract_content_with_ai(
+        self, html_content: str, extraction_prompt: str
+    ) -> Optional[str]:
         """Use OpenRouter AI to extract clean content from HTML."""
         try:
             # Prepare the AI prompt for content extraction
@@ -239,30 +248,35 @@ Focus on:
 Return only the clean article content in markdown format."""
 
             # Truncate HTML to avoid token limits (keep first 50000 chars)
-            truncated_html = html_content[:50000] if len(html_content) > 50000 else html_content
-            
+            truncated_html = (
+                html_content[:50000] if len(html_content) > 50000 else html_content
+            )
+
             headers = {
                 "Authorization": f"Bearer {self.openrouter_api_key}",
                 "Content-Type": "application/json",
             }
-            
+
             data = {
                 "model": self.model,
                 "messages": [
                     {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": f"Extract content from this HTML:\n\n{truncated_html}"}
+                    {
+                        "role": "user",
+                        "content": f"Extract content from this HTML:\n\n{truncated_html}",
+                    },
                 ],
                 "max_tokens": 4000,
                 "temperature": 0.1,
             }
-            
+
             response = requests.post(
                 f"{self.openrouter_base_url}/chat/completions",
                 headers=headers,
                 json=data,
-                timeout=60
+                timeout=60,
             )
-            
+
             if response.status_code == 200:
                 result = response.json()
                 extracted_content = result["choices"][0]["message"]["content"]
@@ -270,7 +284,7 @@ Return only the clean article content in markdown format."""
             else:
                 print(f"OpenRouter API error: {response.status_code} - {response.text}")
                 return None
-                
+
         except Exception as e:
             print(f"AI extraction error: {e}")
             return None
@@ -339,9 +353,9 @@ Return only the clean article content in markdown format."""
             # Generate summary if content is substantial
             if len(markdown_content) > 500:
                 try:
-                    from process.evaluate import summarize_text
+                    from process.evaluate import summarize_content
 
-                    metadata.type_specific["summary"] = summarize_text(
+                    metadata.type_specific["summary"] = summarize_content(
                         markdown_content[:4000]
                     )
                 except Exception as e:
@@ -366,9 +380,9 @@ class AIInstapaperEnhancer:
     def __init__(self, config: Dict[str, Any]):
         self.config = config
         self.ai_enabled = (
-            config.get("SKYVERN_ENABLED", False) and 
-            config.get("OPENROUTER_API_KEY") and 
-            OPENROUTER_AVAILABLE
+            config.get("SKYVERN_ENABLED", False)
+            and config.get("OPENROUTER_API_KEY")
+            and OPENROUTER_AVAILABLE
         )
         if self.ai_enabled:
             self.openrouter_api_key = config.get("OPENROUTER_API_KEY")
@@ -382,26 +396,11 @@ class AIInstapaperEnhancer:
         if not self.ai_enabled:
             raise RuntimeError("AI enhancement not available for Instapaper scraping")
 
-        instapaper_prompt = f"""
-        1. Navigate to https://www.instapaper.com/user/login
-        2. Fill in the username field with: {login}
-        3. Fill in the password field with: {password}
-        4. Click the login button
-        5. Wait for the main reading list page to load
-        6. Scroll down to load all articles in the reading list
-        7. For each article, extract:
-           - Article title
-           - Original URL
-           - Date added (if visible)
-           - Any tags or categories
-        8. Continue scrolling until no new articles appear
-        9. Return the complete list of articles with their metadata
-        """
-
         # For now, delegate to existing Instapaper strategies
         # Future enhancement could use browser automation with AI guidance
         try:
             from helpers.instapaper_ingestor import InstapaperIngestor
+
             ingestor = InstapaperIngestor(self.config)
             # Use existing scraping with AI enhancement for content extraction
             articles = ingestor.fetch_reading_list()

@@ -1,0 +1,1861 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6214:424f:b0:68c:4f37:2ebb with SMTP id ne15csp707605qvb;
+        Mon, 29 Jan 2024 11:35:54 -0800 (PST)
+X-Received: by 2002:adf:ed83:0:b0:33a:ed59:c137 with SMTP id c3-20020adfed83000000b0033aed59c137mr3244404wro.40.1706556953915;
+        Mon, 29 Jan 2024 11:35:53 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1706556953; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=AFayZSRJ1zF0vWKIjLRo4mQ1MHbGSOVljsxEWLbgGxpkBPl2pgrrtHOJ078vscTAMj
+         vs5u1inCGb/b497nMcADlk1TyhKkG+vdZSZu/A9a9pCsqfclyv+m3DaHqTNg54bBgr+Y
+         I2q9qiveiQwmfF1tMc75XlW8/t0FM0POriA+ZqFHo2lacrmUwRi2HCrKK7dPfs31UGEq
+         psYyj9ks7Pi8xJSsgmXwPx3nQGC/h2mXqRkaSKZTBB1kw2RpbD4t0UbZbrdvs3dZ+UIk
+         fiJjFkIAR9UmowOHtCzu4/nqkStUvVJU4AI+6BFkS5FfjAr3TW+oj2Z2Q9PJCFu5Zp62
+         UdtQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=fRdGiSM2DPMgOP5eYh5veNhw7HeIanYNhJyFscKt7T8=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=icX5aeQ/6pHW0PCHdTYci5ZPfvaLG7QVGipRBKlItCtWSvE0wNBN68fOLRgR6oIrtr
+         Qk2pbeRd2SfmH5+VMsLubuRujDDqzpeo0L5EfH+gfHYm64ra4vGFeWdsfkCtCiFByhfk
+         zgErgj/GcLQ62XsZh7q2nOOGj/cQJoVkGuh0sOGZMUmwOeMxV4a9AqS6p4BzzX7QihYk
+         4CXM6YYTWsk2dGmXdubo2Tkcs+TKYAJ/OF4AQJn5VnJZKx96R9rvFWJFhRd2lBLmlQBU
+         4ZoPq1t7CtimXcDNFr7QkN8Pr+It7m1BVaWWyTM4oDSneByWFNPrGlsD/xHkuN18JB87
+         Bncw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=10qauq5f;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h21-20020adfa4d5000000b0033ae460070dsor1766683wrb.10.2024.01.29.11.35.53
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 29 Jan 2024 11:35:53 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=10qauq5f;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1706556953; x=1707161753;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=fRdGiSM2DPMgOP5eYh5veNhw7HeIanYNhJyFscKt7T8=;
+        b=rBtNbE2IbtahiYeUVCI8lxae9XP45ikG3+3QWcKwmFmflgYvEBV7qh44hl3h8NrXVO
+         nuAJNJn6L2iTNtlX893fz+E0oN9SQvuY9I/gveKOFztgmRNjP+NIugsddXfJQB0i89tZ
+         o/jTgYOMRtR6hM9DeDe6e+l3W4eFTOqP2AxwtbRsK1VkPtPBP1ulXHuxySFj5A5PEYKb
+         sbRMti7RkrBY7OAA3kyX5RGfgK9WCPjDg2Xx2aFe3OdM7PeCYI04ERmookR/GZnHtRqu
+         6fQZLyobWooUlqcAY1jDLeOqZZ89AFABNV+4NwuPMcnvMWzjsskhI9tneVdxKA4n5MyU
+         e58w==
+X-Gm-Message-State: AOJu0YzLD0y5+SwVXc8YFasBR6BkBTOK4xsw2DcrqEj9DAnR4FQ4Ftan
+	64pDwI8MbN1oUvuWjQwCyJs+PJAcAb1YPsGzj/lVazodyLPC19n6bsy9Y+2M6+CyX/RU1Osx5aH
+	WWP1M+g4ThvgZ/pwoxUR1ExFxlkeI/00Dw1NpRrUJsV/5ymO08yLN1W/YSyQj
+X-Received: by 2002:a5d:6d81:0:b0:33a:ec37:500e with SMTP id l1-20020a5d6d81000000b0033aec37500emr4024495wrs.0.1706556953406;
+        Mon, 29 Jan 2024 11:35:53 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:ca04:0:b0:33a:dfde:36b8 with SMTP id o4csp1206125wrh;
+        Mon, 29 Jan 2024 11:35:49 -0800 (PST)
+X-Received: by 2002:a05:6602:1817:b0:7bf:d9a4:6d0d with SMTP id t23-20020a056602181700b007bfd9a46d0dmr8169369ioh.10.1706556949742;
+        Mon, 29 Jan 2024 11:35:49 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1706556949; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=OKANILrOm4jWLhn0ugeaXgVxYnefrKzu/7GR9qGZwI1aDF2BfCLbDWTkPV7KGQAsNf
+         sV+584iV+OCLb5tlR3bWUfyZC4sbeuZyFcdEQFV+VzJB3FUbzRDNKK/+mtXWcgUXIO03
+         DJ0NQarQFS4wTqetNADTqcuMjOOqmTN2n8MyMrP+1Vkr4+ouKq5LvGsapLHlVspyR9Cn
+         8NB+5FDyWY3AgEYjdwUKUJ+L16WTc4I3Y1c1kyWZzHahj+BykTaTcB3a7rJLUe7JqS1G
+         mizC8gMJ55MpAfWbZwbTscoqg/+Xpw+hCQ83g0kMTvQu/leYYntAA8/MICn/XYlSWAmp
+         sEGQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=fRdGiSM2DPMgOP5eYh5veNhw7HeIanYNhJyFscKt7T8=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=m185QONlQNML81nUdJS21LL2MUiHOZuXAsgRQaue+UvmLteGOEJxQ5IO07owo8Nwld
+         F4MUhxobwU90if2VDnUIghHF/mOo9QDm80+ilXcLIoVW8kO/kTegCOfS4xLQlTYcf+t4
+         5A075FaGCH8qhZCSOPnfxwMwylbUayPKxbOniGKfw4psP13CQxdWprinfy4skq9ok4tc
+         Fl12UgIWhae6h2DkJMuYf4V9/S3Ul+Yi0cNP3zTsX/WI0nGGUzzxvxZNAWV3QQs5O7sC
+         GqGNRFMLbherVE7Io+2VGswdvAOWhEds7QmQMDBOn3bxNTjNlJXuTGu53O46SyCApyCn
+         HmVg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=10qauq5f;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20240129143548.34162107.258396@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20240129143548.34162107.258396@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20240129143548.34162107.258396@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l2-20020a6b3e02000000b007beda389d85sor2068865ioa.1.2024.01.29.11.35.49
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 29 Jan 2024 11:35:49 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20240129143548.34162107.258396@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IHr7ukOmvI6gcYW4NH5pxg+nP0Yz7N1QKhwPym1u1HrYheMbLAJy4h8CR4F1KNKPTXEmwP88diIWdj3XRImwYSog74prlY=
+X-Received: by 2002:a6b:7102:0:b0:7bf:8a66:5aed with SMTP id q2-20020a6b7102000000b007bf8a665aedmr474092iog.2.1706556949384;
+        Mon, 29 Jan 2024 11:35:49 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1706556949; cv=none;
+        d=google.com; s=arc-20160816;
+        b=IFv07/9uvMbKlzvDNAD5V+jFY5/7yBuQuAixeL0ddq24BH5GYOZiYKiATxtKnxp2Nz
+         x3WHZAg9EU9tVmd7uH+a6yB40HyBe37xWn+NV/L+XQcs3rTGfDB3960edlrJ3GCmHfDY
+         Fx5pUo90eibcgoDZzxETKGDQhWSPvfETgE4WbIZv6rOnTSuezz31gdXMfxbOyUHetKEX
+         KjrvPm7TVdMu0dH+4HC0PyP8SG6HW7RoclIM0GICb4IjF5JECFcv7rvRQxQ+xtwpPokk
+         gelE5dfJ4Vw+iTA1jLMLERpRkJR/fxxMO6o2MF1ucmItYL2Ot7yuerbYweQ+tfmVI6Vb
+         4hAw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=fRdGiSM2DPMgOP5eYh5veNhw7HeIanYNhJyFscKt7T8=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=yS1x6x6/rBqElWvw7V7sKTIr8oTTT56vn2sPTZszsuGXNK0YaoF8BzYHvrbuFINZGp
+         6+47a0h936sLSHakchkrUGVU0X/DuCVXvwJ2gWo6HM+GODbgkDnnmVjMYnkBCsaJF419
+         PzuxXmjytPA/tGeieB/B4UqgtyFIVZjNnvAh8qGM+30HImVQwybq+T/nsaAEVuPpUvgL
+         mTYXVjbsI3F5kh6AQVWV/fy4N8txkV6UbdpfcZUIBG9vNq2bJlMwGk9ITEfN7xzgWC/d
+         pfXkwyjmYGMMtJnqmv0sY51WAyclTOjkD6ZY7c1GAHg6oLkiM/SjIxO1P5oTpR2sgm/a
+         0wfg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=10qauq5f;
+       spf=pass (google.com: domain of delivery_20240129143548.34162107.258396@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20240129143548.34162107.258396@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20240129143548.34162107.258396@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id y188-20020a6bc8c5000000b007bfe33dc988si626714iof.0.2024.01.29.11.35.49
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 29 Jan 2024 11:35:49 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20240129143548.34162107.258396@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=hgIV7+8ftGiAwtEm0Xcm/cw17zx8JAj7zLFq508Bigc=;
+ b=10qauq5fsZkyzRmcsoLnmUS4vaWe25J3Xk81XS6oREiuj9v2D6aWxZ3lBCDFR5iIXeqtRpmqycdK
+   PPQUfbHxe404sMP8n32vqPHD6orTYxYcma2D24ijkMaaQBrs7wSVjOSW4FyFwMHcWWKEg5DjvUEs
+   G3/lsW8D3Wbix5th2Ns=
+Received: from aws1-mta-relay4.sailthru.cloud (10.55.93.134) by bloomberg-b.sailthru.com id hmvv1a30nu8e for <bloomberg@khamel.com>; Mon, 29 Jan 2024 13:35:48 -0600 (envelope-from <delivery_20240129143548.34162107.258396@mx.sailthru.com>)
+Date: Mon, 29 Jan 2024 14:35:48 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20240129143548.34162107.258396@sailthru.com>
+Subject: Money Stuff: Financial Engineering for Green Energy
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1278517_939652532.1706556948907"
+Precedence: bulk
+x-job: 6358-34162107-20240129
+X-Feedback-ID: 6358:34162107:campaign:sailthru
+X-TM-ID: 20240129143548.34162107.258396
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-63-215.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ckc7nf.5jdo/c9016388
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ckc7nf.5jdo/c9016388>,<mailto:unsubscribe_20240129143548.34162107.258396@mx.sailthru.com>
+X-rpcampaign: stjko34162107
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_1278517_939652532.1706556948907
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        The way that the US government encourages a lot of green energy pro=
+jects is by giving them tax credits. If you build a power plant that runs
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Basel endgame vs. green equity
+   =20
+ =20
+
+The way that the US government encourages a lot of green energy projects is=
+ by giving them tax credits. If you build a power plant that runs on certai=
+n sorts of renewable resources, the Internal Revenue Service will give you =
+some money=C2=A0=E2=80=94=C2=A0call it 0.3 cents per killowatt-hour
+  [1]
+=C2=A0=E2=80=94 for generating that power, which you can use to reduce your=
+ taxes.=C2=A0
+That is a reasonably safe stream of cash flows. Not totally safe =E2=80=94=
+=C2=A0your plant could burn down, prices could collapse or costs could rise=
+ so much that it is no longer economical to run it, the tax code could chan=
+ge =E2=80=94=C2=A0but broadly speaking you can estimate how much power the =
+plant will produce=C2=A0 per year and then multiply that by 0.3 cents to ge=
+t a fairly predictable=C2=A0annual tax credit.=C2=A0
+Finance being what it is, if you are building a green energy project, you w=
+ill probably sell that tax credit. If your project will generate a quasi-gu=
+aranteed stream of cash flows of $X per year for the next Y years, then you=
+ can compute the present value of those cash flows=C2=A0and sell them, toda=
+y, for that amount. This is good because you probably need a lot of cash, t=
+oday,=C2=A0to build the green energy project.=C2=A0The government wants to =
+encourage you to build the project, but the government doesn=E2=80=99t just=
+ hand you the money to do it. Instead the government promises to pay you $X=
+ per year if you succeed in building the project, and you need to take that=
+ promise and exchange it for cash today in order to actually build the proj=
+ect.
+  [2]
+
+The person giving you the cash =E2=80=94=C2=A0the person paying you money u=
+p front today in exchange for a promise of the future tax credit =E2=80=94=
+=C2=A0is probably a big US bank, for a few reasons. For one thing, banks ar=
+e where the money is, and this sort of thing =E2=80=94=C2=A0providing finan=
+cing today in exchange for a reasonably safe=C2=A0promise of future steady =
+cash flows =E2=80=94=C2=A0is what banks do. And=C2=A0financial engineering=
+=C2=A0=E2=80=94 looking at a provision of the tax code and being like =E2=
+=80=9Cyeah we can wring some profits out of that" =E2=80=94=C2=A0is also wh=
+at banks do.
+Also, in the 2020s, a big part of what banks do is (1) promise to finance=
+=C2=A0renewable energy projects and (2) deflect criticism for financing fos=
+sil-fuel projects. (And, in the US,  vice versa.) So buying these tax credi=
+ts =E2=80=94 paying=C2=A0the upfront costs of green energy projects in exch=
+ange for the future green-energy tax credits =E2=80=94=C2=A0is a good way f=
+or the banks to make money, do financial engineering, and show their shareh=
+olders and critics that they are financing green energy projects.=C2=A0
+I have suggested that the banks are=C2=A0buying=C2=A0the credits, and that =
+the people building the projects =E2=80=94 the =E2=80=9Csponsors=E2=80=9D =
+=E2=80=94=C2=A0are=C2=A0selling=C2=A0them, but that is not the correct term=
+inology. You don=E2=80=99t go around selling tax credits, and your tax lawy=
+ers will get mad if you say that. (Nothing here, of course, is tax advice.)=
+ The tax credit is not your property; it is an artifact of US tax law. The =
+only way for the bank to get the tax credit is by qualifying for the tax cr=
+edit, and  the way to qualify for the tax credit is by=C2=A0owning=C2=A0the=
+ renewable energy project.=C2=A0
+And so the way this actually works is that the renewable energy project is =
+set up as some sort of partnership or limited liability company or joint ve=
+nture, and the sponsor is a co-owner and the bank is another co-owner. And =
+the partnership agreement says that the sponsor gets most of the profits (a=
+nd risk) from running the business and finding customers and selling electr=
+icity at market rates and so forth, and the bank gets the tax credit. They =
+are not=C2=A0exactly=C2=A0joint owners, but they are joint owners=C2=A0enou=
+gh=C2=A0for the bank to take the tax credit. They have murmured the proper =
+incantations to call themselves co-owners and take the tax credit.
+The IRS actually gives instructions on what sorts of incantations you have =
+to say. The IRS is in sort of a weird position here. On the one hand, it wa=
+nts to prevent abusive tax shelters and generally uphold the aesthetic cohe=
+rence of the tax code, so it does not want to allow people to just go aroun=
+d selling tax credits.=C2=A0
+On the other hand, the IRS=C2=A0does=C2=A0want to encourage these projects =
+to get built, which does, practically, requiring selling the tax credit. So=
+ it  provides=C2=A0guidance=C2=A0on, like, what is the least you can do to =
+qualify. The bank does need to take some risk, to share in the downside of =
+the project; the sponsor can=E2=80=99t guarantee the tax credits. But the u=
+sual way it works, according to the  American Council on Renewable Energy, =
+is that the bank and the sponsor form a project partnership, the bank =E2=
+=80=9Cprovides between one-third to two-thirds of the total capital,=E2=80=
+=9D and the bank gets back =E2=80=9C99% of the tax attributes and a minorit=
+y share of the cash, typically between 5% and 30%,=E2=80=9D for a while. Th=
+is ends either when the bank reaches its target return (a =E2=80=9Cyield-ba=
+sed flip=E2=80=9D) or after an agreed amount of time (a =E2=80=9Ctime-based=
+ flip=E2=80=9D), after which the bank=E2=80=99s share of the tax credit goe=
+s down (=E2=80=9Cusually to about 5%=E2=80=9D) and the sponsor can buy it o=
+ut.
+This is called =E2=80=9Ctax equity financing,=E2=80=9D because for tax-law-=
+incantation purposes, the bank is an=C2=A0equity owner=C2=A0of the partners=
+hip. But for practical purposes, people kind of think of it as=C2=A0debt=C2=
+=A0financing, because the bank is=C2=A0providing upfront money in exchange =
+for a reasonably certain, reasonably fixed, reasonably time-limited=C2=A0re=
+turn. It does not really share in the upside and the downside of the projec=
+t; it=E2=80=99s just putting up money to buy the tax credit.
+That=E2=80=99s how financial engineering works: You build a thing that look=
+s like debt to the sponsor, and that looks like debt to the bank (so it=E2=
+=80=99s happy to =E2=80=9Clend=E2=80=9D the money), but that looks like equ=
+ity to the IRS (so the bank can get the tax credit).
+But nothing is that simple. Banks are doing a lot of financial engineering =
+behind the scenes, too, particularly for their capital requirements. A bank=
+ funds itself with a mix of cheap debt (deposits, etc.) and expensive capit=
+al (shareholder equity), and capital regulation determines how much capital=
+ it needs. The capital regulation is focused largely on the=C2=A0riskiness=
+=C2=A0of the bank=E2=80=99s assets: A bank that holds mostly Treasury bills=
+ needs very little capital, while a bank that holds mostly Bitcoin needs a =
+ton. This is called =E2=80=9Crisk-based capital,=E2=80=9D and it is express=
+ed in terms of =E2=80=9Crisk weights=E2=80=9D: Treasury bills have a risk w=
+eight of 0%, because they are safe, while   Bitcoin has a risk weight of 1,=
+250%, because it is risky. Standard corporate loans usually have a risk wei=
+ght of 100%, which is in some sense the =E2=80=9Cnormal=E2=80=9D risk weigh=
+t.=C2=A0The crude rule of thumb =E2=80=94=C2=A0not particularly accurate, b=
+ut a useful shorthand =E2=80=94=C2=A0is that banks need to have capital of =
+8% of their risk-weighted assets. So a bank with $100 of corporate loans ne=
+eds at least $8 of equity capital; it can borrow the other $92. A bank with=
+ $100 of Bitcoin needs $100 of equity capital; it can=E2=80=99t use any dep=
+osits at all to buy those Bitcoins.
+These risk weights are set by regulation and are necessarily somewhat arbit=
+rary; the regulators try to estimate the riskiness of various classes of th=
+ings, and to assign higher risk weights to riskier things, but there=E2=80=
+=99s only so much nuance they can manage. Some corporate loans are riskier =
+than others, but will be lumped in with the same risk weight.
+And so a big part of the bank=E2=80=99s financial engineering operation is =
+optimizing risk-based capital. For instance: If a bank has $100 of stuff th=
+at gets a 100% risk weight, and can somehow split it into $80 of stuff with=
+ a 0% risk weight and $20 of stuff with a 300% risk weight, then that=E2=80=
+=99s good, that=E2=80=99s what it wants, that reduces its risk-weighted ass=
+ets from $100 to $60, which reduces its capital requirements, which increas=
+es its ability to return money to shareholders. And this is the explanation=
+ for  capital relief trades, and also in some loose sense the explanation f=
+or  the 2008 financial crisis: If you slice your risky thing exactly right,=
+ you will end up with a collection of new things that look less risky, to c=
+apital regulators, than the original thing.=C2=A0
+If you are a bank with a big tax equity financing business, a natural quest=
+ion to ask is, well, how risky is this? Specifically:
+=09Is it like a=C2=A0corporate loan, since it=E2=80=99s an investment in a =
+series of predictable cash flows, at some agreed yield, from a business?=09=
+Or is it like=C2=A0equity=C2=A0in a private company, since, technically, th=
+at=E2=80=99s what it is?
+
+There is no particularly correct answer to that; the answer is just =E2=80=
+=9Cwhatever you can convince the capital regulators it is.=E2=80=9D But obv=
+iously the answer that you=C2=A0want, as a bank, is that it=E2=80=99s a loa=
+n. And in fact that seems to be the answer in US capital regulation: Tax eq=
+uity financing normally  gets a 100% risk weight.=C2=A0In fact, the Office =
+of the Comptroller of the Currency, which regulates banks, allows these dea=
+ls=C2=A0=E2=80=9Conly if the transaction is the functional equivalent of a =
+loan,=E2=80=9D and it does allow them: From the bank capital regulators=E2=
+=80=99 perspective, tax equity financing is a loan.
+That=E2=80=99s=C2=A0really=C2=A0how financial engineering works: You build =
+a thing that looks like equity to the IRS (so the bank can get the tax cred=
+it), but that looks like debt to the capital regulators (so it gets a lower=
+ risk weight). You check the equity boxes for the IRS and the debt boxes fo=
+r the OCC.=C2=A0You thread the needle so that it looks like different thing=
+s to different regulators, looking like debt when debt is better and like e=
+quity when equity is better.
+But US capital regulators have launched a big revision of capital requireme=
+nts, so the answer might change. Bloomberg=E2=80=99s=C2=A0Natasha White and=
+ Alastair Marsh report:
+
+Senior Wall Street bankers are warning that a plan by US regulators to rewr=
+ite the rules of tax-equity investing will deliver a major blow to a market=
+ dominated by JPMorgan Chase & Co. and Bank of America Corp.
+At issue is the perceived risk of tax-equity investments, which are a form =
+of financing in which banks provide capital to green projects in exchange f=
+or tax credits. It=E2=80=99s a market in which JPMorgan and BofA have been =
+estimated to do more than 50% of the roughly $20 billion worth of annual tr=
+ansactions.=C2=A0
+Last July, the three agencies that decide bank capital requirements in the =
+US (the Federal Reserve, Federal Deposit Insurance Corp. and Office of the =
+Comptroller of the Currency) unveiled what=E2=80=99s come to be known as th=
+e Basel 3 Endgame. =E2=80=A6.
+A part of that broader proposal is a requirement that banks quadruple the r=
+isk weights they assign to tax-equity investments, forcing them to signific=
+antly raise the amount of capital they set aside for renewable energy proje=
+cts. ...
+Law firm Clifford Chance has warned that the risk-weight proposal would mak=
+e it =E2=80=9Cprohibitively expensive=E2=80=9D for banks to continue doing =
+certain tax-equity investments, which is =E2=80=9Ccertain to have a harmful=
+=E2=80=9D impact on green finance. ACORE, a trade group that represents ren=
+ewable project developers, has said the plan threatens to =E2=80=9Cderail t=
+he clean energy transition.=E2=80=9D
+
+Here are=C2=A0the Clifford Chance memo=C2=A0and the  ACORE report. The poin=
+t is that =E2=80=9Cnon-publicly traded equity exposures,=E2=80=9D like co-o=
+wning a green energy joint venture, normally get a 400% risk weight. Tax eq=
+uity financing somewhat accidentally got loopholed into the 100% risk-weigh=
+t category before, but the new rules will close that loophole=C2=A0and it w=
+ill get a 400% weight.
+  [3]
+
+Unless the banks complain loudly enough that the regulators hear them and p=
+ut back a loophole for tax equity financing. And why not? None of this is r=
+eal; none of it has any objective truth; tax equity financing isn=E2=80=99t=
+ =E2=80=9Creally=E2=80=9D equity or =E2=80=9Creally=E2=80=9D debt. If you w=
+ant more tax revenue, you make it harder to sell the tax credit; if you wan=
+t more green energy=C2=A0financing, you make it easier to sell the tax cred=
+it. If you want better capitalized banks, you raise the capital requirement=
+s for tax equity financing; if you want more green energy financing, you lo=
+wer the requirements. Banks obviously know what they want, and they enginee=
+red a product to get it; now the question is what policymakers prefer.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      FTC vs. AI
+   =20
+ =20
+
+One way to think about the artificial intelligence business is:
+=09Everybody, by now,=C2=A0has an intuitive understanding of how new softwa=
+re products are created in the US. New ideas in software come from visionar=
+y entrepreneurs who can work pretty cheap. You need a couple of engineers, =
+some desks at a WeWork, some laptops, some energy drinks,=C2=A0a modest=C2=
+=A0cloud-computing budget. You build the thing, you try to find product-mar=
+ket fit, and if it works you scale rapidly. The marginal cost of distributi=
+ng one more copy of your app, or serving one more instance of your social m=
+edia website, is basically zero. If your thing takes off, it can take off q=
+uickly, and it=E2=80=99s all profit.=09Everything in US tech finance is ori=
+ented around that understanding. Talented tech workers want to be founders,=
+ because founding your own company is the way to fame and riches in tech. V=
+enture capital firms invest in risky early-stage software companies, becaus=
+e (1) those companies don=E2=80=99t need=C2=A0that=C2=A0much capital to fig=
+ure out if their idea works, and (2) if the idea=C2=A0does=C2=A0work it wil=
+l return many times the investment.=09Generative AI =E2=80=A6=C2=A0maybe do=
+es not work like that? It is extremely capital-intensive, by which I mean t=
+hat you need a very=C2=A0large=C2=A0cloud computing budget to build and tra=
+in an AI model that will do anything at all. And then scaling it is also qu=
+ite expensive; you need a ton more computing power to serve each new custom=
+er. Building an AI model is more like building a car than it is like buildi=
+ng Facebook.
+
+If I asked you in the abstract =E2=80=9CI have a potentially lucrative and =
+important business idea, but it requires like $10 billion of startup capita=
+l and does not scale cheaply like software, how should I finance it,=E2=80=
+=9D your first answer might not be =E2=80=9Cventure capital.=E2=80=9D You=
+=C2=A0might say something like =E2=80=9Cwell this sounds like a big industr=
+ial project, what you should do is go get a job at a big industrial company=
+ with a ton of money, and start a division there that will do this project.=
+=E2=80=9D And if I said =E2=80=9Cwell it=E2=80=99s a tech idea,=E2=80=9D yo=
+u=E2=80=99d say =E2=80=9Cah, even better, get a job at Google or Amazon or =
+Alphabet, they have absolutely tons of money, more than they know what to d=
+o with, they can totally fund your $10 billion project, no problem. Is it a=
+ virtual reality headset by any chance?=E2=80=9D=C2=A0
+But the problem with AI is that it=C2=A0is, mostly, made in the Bay Area by=
+ tech-industry types, so it does default to the startup mode, so you do hav=
+e startups running around building AI. But to fund their billions of dollar=
+s of cloud computing costs, they=C2=A0
+=09take billions of dollars of investment from cloud computing companies (M=
+icrosoft, Amazon, Alphabet),=C2=A0=09take a lot of that investment in the f=
+orm of cloud computing capacity rather than money, and=C2=A0=09probably hav=
+e=C2=A0some=C2=A0sort of understanding with those companies that there will=
+ be some commercial relationship between them, so that for instance Microso=
+ft has rights to include OpenAI models in its software.
+
+It is a Silicon Valley-style compromise between =E2=80=9Call new software m=
+ust be built by startups=E2=80=9D and =E2=80=9Cactually giant companies wit=
+h tons of money and smart employees=C2=A0and complementary capabilities pro=
+bably do have some advantage in building this particular expensive thing.=
+=E2=80=9D
+We   talked about this dynamic last week, in part because Silicon Valley ve=
+nture capitalists have been complaining about it: =E2=80=9CMANG=E2=80=9D (M=
+icrosoft, Amazon, Nvidia, and Google/Alphabet) have been some of the bigges=
+t investors in AI startups, and have advantages over traditional VCs in mak=
+ing these investments (mainly that they get to make them in the form of com=
+puting power), and the traditional VCs feel a bit priced out.=C2=A0
+Others also have complaints. If Microsoft had just announced one day =E2=80=
+=9Cwe are going to build large language models to incorporate into our sear=
+ch engine and Office suite, we hired a bunch of people, we gave them a lot =
+of computing power, away we go,=E2=80=9D well =E2=80=A6 I don=E2=80=99t wan=
+t to say that would be no problem=C2=A0from an antitrust perspective, and i=
+n fact tech companies (including Microsoft) do sometimes get in antitrust t=
+rouble for bundling their own products together. But in general it is not a=
+n antitrust problem for a big company to launch a new product.
+But since Microsoft instead pumped billions of dollars into OpenAI, a nomin=
+ally independent sort-of-nonprofit startup, antitrust regulators can go aro=
+und raising their eyebrows and questioning whether Microsoft and OpenAI are=
+ colluding with each other in a way that is bad for competition. (We   talk=
+ed about=C2=A0this=C2=A0last month, when UK competition regulators were ask=
+ing about it, and when Microsoft was arguing that, due to the weird corpora=
+te structure,=C2=A0in fact it doesn=E2=80=99t own any OpenAI shares at all.=
+) Doing stuff with=C2=A0two companies always raises more antitrust risk tha=
+n doing the same stuff   within one company, and the AI business seems to l=
+end itself to two-company situations.
+Similarly:
+
+The Federal Trade Commission opened an inquiry on Thursday into the multibi=
+llion-dollar investments by Microsoft, Amazon and Google in the artificial =
+intelligence start-ups OpenAI and Anthropic, broadening the regulator=E2=80=
+=99s efforts to corral the power the tech giants can have over A.I.
+These deals have allowed the big companies to form deep ties with their sma=
+ller rivals while dodging most government scrutiny. Microsoft has invested =
+billions of dollars in OpenAI, the maker of ChatGPT, while Amazon and Googl=
+e have each committed billions of dollars to Anthropic, another leading A.I=
+. start-up. ...
+The F.T.C. said it would ask Microsoft, OpenAI, Amazon, Google and Anthropi=
+c to describe their influence over their partners and how they worked toget=
+her to make decisions. The agency also said it would demand that they provi=
+de any internal documents that could shed light on the deals and their pote=
+ntial impact on competition.
+
+Here is  the FTC=E2=80=99s announcement. I think we=E2=80=99ll all be inter=
+ested in Microsoft=E2=80=99s influence over OpenAI and how it makes decisio=
+ns =E2=80=94=C2=A0that has, uh,   come up a lot lately =E2=80=94=C2=A0but t=
+he point is that if these companies were just building AI in-house, none of=
+ this would really come up.
+
+ =20
+   =20
+      Byju=E2=80=99s
+   =20
+ =20
+
+Some incredible numbers here:
+
+Byju=E2=80=99s, the world=E2=80=99s most valuable edtech startup, has cut i=
+ts valuation ask by 99% in a rights issue it launched Monday as the Indian =
+firm works to address its working capital needs. The startup is looking to =
+raise $200 million in the rights issue, capital it said was =E2=80=9Cessent=
+ial to prevent any further value impairment.=E2=80=9D
+The startup, once India=E2=80=99s most valuable, is resetting its valuation=
+ to =E2=80=9Cnext to nothing=E2=80=9D in the rights issue, where all existi=
+ng investors have an opportunity to participate, according to a source fami=
+liar with the matter. If Byju=E2=80=99s succeeds in raising $200 million, t=
+he post-money valuation of the startup will be in the range of $220 million=
+ to $225 million, a 99% drop from the $22 billion value that the startup ha=
+d attained in 2022, according to the source, who requested anonymity sharin=
+g nonpublic information.
+Byju=E2=80=99s founder Byju Raveendran told shareholders in a letter Monday=
+ that he and other founders of the edtech group have invested $1.1 billion =
+into the Bengaluru-headquartered startup in the last 18 months and seek con=
+tinued support from the investors to keep the business afloat. =E2=80=9CWe =
+have made immense personal sacrifices for the sake of the company. We have =
+spent our lives building this company and are fervent believers in its miss=
+ion,=E2=80=9D Raveendran wrote in the letter, seen by TechCrunch. =E2=80=A6
+The rights issue comes as Byju=E2=80=99s looks to secure capital amid a sev=
+ere funding crunch. The startup, which spent $2.5 billion acquiring more th=
+an a dozen firm in 2021 and 2022, has raised more than $5 billion in equity=
+ and debt from backers including Peak XV, Lightspeed, Chan Zuckerberg Initi=
+ative, BlackRock, UBS, Prosus Ventures and B Capital. Byju=E2=80=99s said i=
+n a statement that it expects the rights issue to close in 30 days.
+
+Last week Bloomberg  reported a 90% cut =E2=80=94=C2=A0=E2=80=9Ca price tha=
+t values the firm at less than $2 billion, =E2=80=A6 down from $22 billion =
+at its previous round in late 2022=E2=80=9D =E2=80=94=C2=A0but I guess thin=
+gs are moving fast, and in the wrong direction? On these numbers, the peopl=
+e who put in $5 billion back in the good times will own less than 10% of th=
+e company, while the people who put in $200 million in the bad times will o=
+wn 90%.=C2=A0
+The point of a rights offering is to be coercive: Existing investors have t=
+he right to put more money in at the rights price, which here is basically =
+zero, and if they don=E2=80=99t put more money in then they get diluted by =
+the people who do. Here, if you put up $1 billion for 5% of the company bac=
+k when it was worth $20 billion, Byju=E2=80=99s will come to you and ask yo=
+u to put in $10 million more to keep your 5% stake; if you say no, you=E2=
+=80=99ll be diluted down to about 0.5%. If you=E2=80=99ve already thrown aw=
+ay $1 billion, what=E2=80=99s $10 million more? On the other hand, if Byju=
+=E2=80=99s has already reduced your $1 billion investment to zero, why woul=
+d you give them any more money? Getting diluted doesn=E2=80=99t matter if t=
+he stock is going to zero; owning 5% of a company worth zero is no better t=
+han owning 0.5% of it. The main questions in the rights offering are: Do yo=
+u trust that the company has a plan to turn things around, and that this on=
+e last contribution is enough to see it through? And also: How mad are you =
+about what happened to the rest of your money?
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Evergrande Will Be Dismantled, a =E2=80=98Big Bang=E2=80=99 End to Years of=
+ Stumbles. Evergrande   Liquidation Is a Big Test for International Credito=
+rs. Banker Bonuses Are Down Again=E2=80=94but It Stings This Time. US  regi=
+onal banks hope for profit revival as pain from SVB fallout eases. Credit S=
+uisse=E2=80=99s Restructuring Deal With   Sanjeev Gupta's GFG In Doubt. Ama=
+zon Drops $1.4 Billion   iRobot Deal After EU Veto Threat.=C2=A0Reddit Advi=
+sed to Target at Least $5 Billion Valuation in IPO. Chinese regulators  cur=
+b short selling as market downturn deepens. Traders Line Up for =E2=80=98On=
+ce-in-a-Generation=E2=80=99   Emerging Markets Bet.=C2=A0 Sotheby=E2=80=99s=
+ trial provides a peek behind the curtain of private art sales.=C2=A0Unhapp=
+y Workers Cost US Firms $1.9 Trillion.=C2=A0The Jujitsu Champ Who Got Nearl=
+y $500 Million From  Sam Bankman-Fried. Why Elon Musk Is Comparing Index Fu=
+nd Consultants to  ISIS.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] That=E2=80=99s the statutory number in Internal Revenue Code  section=
+ 45, though it can increase with inflation, there are other factors, and in=
+ fact the  IRS provides yearly guidance with different amounts for differen=
+t types of renewables, etc.
+
+
+  [2] This is oversimplified, and in fact there will probably be a construc=
+tion loan for the construction, etc., but the tax equity financing will gen=
+erally be early in time and not exactly at the bottom of the capital struct=
+ure.
+
+
+  [3] Clifford Chance  points out that the regulators could put in an inten=
+tional loophole for green energy, which in fact they do for other sorts of =
+debt-like equity financing: =E2=80=9CThe change is made more troublesome by=
+ the fact that the Agencies proposed to retain the 100% risk weight for com=
+munity development investments (including LIHTC Investments) and investment=
+s in small business investment companies under ESRWA on the basis that such=
+ investments =E2=80=98generally receive favourable tax treatment and/or inv=
+estment subsidies that make their risk and return characteristics different=
+ than equity investments in general.=E2=80=99 In maintaining this treatment=
+ for such investments, the Agencies also =E2=80=98recogniz[e]=E2=80=A6 the =
+importance of these investments to promoting important public welfare goals=
+=E2=80=A6.=E2=80=99 Such rationale would appear to apply equally to clean e=
+nergy and infrastructure tax equity investments.=E2=80=9D
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ckc7nf.5jdo/c844b226.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_1278517_939652532.1706556948907
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+The way that the US government encourages a lot of green energy projects is=
+ by giving them tax credits. If you build a power plant that runs
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTI5MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMjkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB84efbbee"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zNDE2MjEwNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQ0MjA1MDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBd544f81f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D34162107&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34420503&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Basel endgame vs. green equity</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The way that the US government encourages a lo=
+t of green energy projects is by giving them tax credits. If you build a po=
+wer plant that runs on certain sorts of renewable resources, the Internal R=
+evenue Service will give you some money=C2=A0=E2=80=94=C2=A0call it 0.3 cen=
+ts per killowatt-hour<a class=3D"footnote-index" href=3D"#footnote-1" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0=E2=80=94 for generating that power, which you can use to reduce =
+your taxes.=C2=A0</p>
+<p style=3D"margin: 16px 0;">That is a reasonably safe stream of cash flows=
+. Not totally safe =E2=80=94=C2=A0your plant could burn down, prices could =
+collapse or costs could rise so much that it is no longer economical to run=
+ it, the tax code could change =E2=80=94=C2=A0but broadly speaking you can =
+estimate how much power the plant will produce=C2=A0 per year and then mult=
+iply that by 0.3 cents to get a fairly predictable=C2=A0annual tax credit.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">Finance being what it is, if you are building =
+a green energy project, you will probably sell that tax credit. If your pro=
+ject will generate a quasi-guaranteed stream of cash flows of $X per year f=
+or the next Y years, then you can compute the present value of those cash f=
+lows=C2=A0and sell them, today, for that amount. This is good because you p=
+robably need a lot of cash, today,=C2=A0to build the green energy project.=
+=C2=A0The government wants to encourage you to build the project, but the g=
+overnment doesn=E2=80=99t just hand you the money to do it. Instead the gov=
+ernment promises to pay you $X per year if you succeed in building the proj=
+ect, and you need to take that promise and exchange it for cash today in or=
+der to actually build the project.<a class=3D"footnote-index" href=3D"#foot=
+note-2" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !=
+important; background-color: transparent !important; display: inline-block;=
+">
+<span>[2]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">The person giving you the cash =E2=80=94=C2=A0=
+the person paying you money up front today in exchange for a promise of the=
+ future tax credit =E2=80=94=C2=A0is probably a big US bank, for a few reas=
+ons. For one thing, banks are where the money is, and this sort of thing =
+=E2=80=94=C2=A0providing financing today in exchange for a reasonably safe=
+=C2=A0promise of future steady cash flows =E2=80=94=C2=A0is what banks do. =
+And=C2=A0<em>financial engineering=C2=A0</em>=E2=80=94 looking at a provisi=
+on of the tax code and being like =E2=80=9Cyeah we can wring some profits o=
+ut of that" =E2=80=94=C2=A0is also what banks do.</p>
+<p style=3D"margin: 16px 0;">Also, in the 2020s, a big part of what banks d=
+o is (1) promise to finance=C2=A0renewable energy projects and (2) deflect =
+criticism for financing fossil-fuel projects. (And, in the US, <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/34162107.258396/aHR0cHM6Ly93d3=
+cudGV4YXN0cmlidW5lLm9yZy8yMDIyLzA4LzI0L3RleGFzLWJveWNvdHQtY29tcGFuaWVzLWZvc=
+3NpbC1mdWVscy8/607f07ceef4b8524a319a23cBc27b9334" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> vice versa</a>.)=
+ So buying these tax credits =E2=80=94 paying=C2=A0the upfront costs of gre=
+en energy projects in exchange for the future green-energy tax credits =E2=
+=80=94=C2=A0is a good way for the banks to make money, do financial enginee=
+ring, and show their shareholders and critics that they are financing green=
+ energy projects.=C2=A0</p>
+<p style=3D"margin: 16px 0;">I have suggested that the banks are=C2=A0<em>b=
+uying=C2=A0</em>the credits, and that the people building the projects =E2=
+=80=94 the =E2=80=9Csponsors=E2=80=9D =E2=80=94=C2=A0are=C2=A0<em>selling=
+=C2=A0</em>them, but that is not the correct terminology. You don=E2=80=99t=
+ go around selling tax credits, and your tax lawyers will get mad if you sa=
+y that. (Nothing here, of course, is tax advice.) The tax credit is not you=
+r property; it is an artifact of US tax law. The only way for the bank to g=
+et the tax credit is by qualifying for the tax credit, and <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/34162107.258396/aHR0cHM6Ly9jYXNldG=
+V4dC5jb20vY2FzZS9oaXN0b3JpYy1ib2FyZHdhbGstaGFsbC1sbGMtdi1jb21tci1vZi1pbnRlc=
+m5hbC1yZXZlbnVl/607f07ceef4b8524a319a23cB72e7a957" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> the way to qual=
+ify for the tax credit</a> is by=C2=A0<em>owning=C2=A0</em>the renewable en=
+ergy project.=C2=A0</p>
+<p style=3D"margin: 16px 0;">And so the way this actually works is that the=
+ renewable energy project is set up as some sort of partnership or limited =
+liability company or joint venture, and the sponsor is a co-owner and the b=
+ank is another co-owner. And the partnership agreement says that the sponso=
+r gets most of the profits (and risk) from running the business and finding=
+ customers and selling electricity at market rates and so forth, and the ba=
+nk gets the tax credit. They are not=C2=A0<em>exactly=C2=A0</em>joint owner=
+s, but they are joint owners=C2=A0<em>enough=C2=A0</em>for the bank to take=
+ the tax credit. They have murmured the proper incantations to call themsel=
+ves co-owners and take the tax credit.</p>
+<p style=3D"margin: 16px 0;">The IRS actually gives instructions on what so=
+rts of incantations you have to say. The IRS is in sort of a weird position=
+ here. On the one hand, it wants to prevent abusive tax shelters and genera=
+lly uphold the aesthetic coherence of the tax code, so it does not want to =
+allow people to just go around selling tax credits.=C2=A0</p>
+<p style=3D"margin: 16px 0;">On the other hand, the IRS=C2=A0<em>does=C2=A0=
+</em>want to encourage these projects to get built, which does, practically=
+, requiring selling the tax credit. So it <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/34162107.258396/aHR0cHM6Ly93d3cuaXJzLmdvdi9wdWIvaXJ=
+zLWRyb3AvcnAtMDctNjUucGRm/607f07ceef4b8524a319a23cB37565768" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> provi=
+des</a>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/34162=
+107.258396/aHR0cHM6Ly93d3cuaXJzLmdvdi9wdWIvaXJzLWRyb3AvcnAtMTQtMTIucGRm/607=
+f07ceef4b8524a319a23cB7b02c896" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">guidance</a>=C2=A0on, like, what is=
+ the least you can do to qualify. The bank does need to take some risk, to =
+share in the downside of the project; the sponsor can=E2=80=99t guarantee t=
+he tax credits. But the usual way it works, according to the <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/34162107.258396/aHR0cHM6Ly9hY29y=
+ZS5vcmcvcmVzb3VyY2VzL3RoZS1yaXNrLXByb2ZpbGUtb2YtcmVuZXdhYmxlLWVuZXJneS10YXg=
+tZXF1aXR5LWludmVzdG1lbnRzLw/607f07ceef4b8524a319a23cB22173b05" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Ame=
+rican Council on Renewable Energy</a>, is that the bank and the sponsor for=
+m a project partnership, the bank =E2=80=9Cprovides between one-third to tw=
+o-thirds of the total capital,=E2=80=9D and the bank gets back =E2=80=9C99%=
+ of the tax attributes and a minority share of the cash, typically between =
+5% and 30%,=E2=80=9D for a while. This ends either when the bank reaches it=
+s target return (a =E2=80=9Cyield-based flip=E2=80=9D) or after an agreed a=
+mount of time (a =E2=80=9Ctime-based flip=E2=80=9D), after which the bank=
+=E2=80=99s share of the tax credit goes down (=E2=80=9Cusually to about 5%=
+=E2=80=9D) and the sponsor can buy it out.</p>
+<p style=3D"margin: 16px 0;">This is called =E2=80=9Ctax equity financing,=
+=E2=80=9D because for tax-law-incantation purposes, the bank is an=C2=A0<em=
+>equity owner=C2=A0</em>of the partnership. But for practical purposes, peo=
+ple kind of think of it as=C2=A0<em>debt=C2=A0</em>financing, because the b=
+ank is=C2=A0providing upfront money in exchange for a reasonably certain, r=
+easonably fixed, reasonably time-limited=C2=A0return. It does not really sh=
+are in the upside and the downside of the project; it=E2=80=99s just puttin=
+g up money to buy the tax credit.</p>
+<p style=3D"margin: 16px 0;">That=E2=80=99s how financial engineering works=
+: You build a thing that looks like debt to the sponsor, and that looks lik=
+e debt to the bank (so it=E2=80=99s happy to =E2=80=9Clend=E2=80=9D the mon=
+ey), but that looks like equity to the IRS (so the bank can get the tax cre=
+dit).</p>
+<p style=3D"margin: 16px 0;">But nothing is that simple. Banks are doing a =
+lot of financial engineering behind the scenes, too, particularly for their=
+ capital requirements. A bank funds itself with a mix of cheap debt (deposi=
+ts, etc.) and expensive capital (shareholder equity), and capital regulatio=
+n determines how much capital it needs. The capital regulation is focused l=
+argely on the=C2=A0<em>riskiness=C2=A0</em>of the bank=E2=80=99s assets: A =
+bank that holds mostly Treasury bills needs very little capital, while a ba=
+nk that holds mostly Bitcoin needs a ton. This is called =E2=80=9Crisk-base=
+d capital,=E2=80=9D and it is expressed in terms of =E2=80=9Crisk weights=
+=E2=80=9D: Treasury bills have a risk weight of 0%, because they are safe, =
+while <a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258=
+396/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMTA=
+vbWF5YmUtZ2FtZXN0b3AtaXMtZ29vZC1ub3c_Y21waWQ9QkJEMDEyOTI0X01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTI5JnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB779e1ebc" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Bi=
+tcoin has a risk weight of 1,250%</a>, because it is risky. Standard corpor=
+ate loans usually have a risk weight of 100%, which is in some sense the =
+=E2=80=9Cnormal=E2=80=9D risk weight.=C2=A0The crude rule of thumb =E2=80=
+=94=C2=A0not particularly accurate, but a useful shorthand =E2=80=94=C2=A0i=
+s that banks need to have capital of 8% of their risk-weighted assets. So a=
+ bank with $100 of corporate loans needs at least $8 of equity capital; it =
+can borrow the other $92. A bank with $100 of Bitcoin needs $100 of equity =
+capital; it can=E2=80=99t use any deposits at all to buy those Bitcoins.</p=
+>
+<p style=3D"margin: 16px 0;">These risk weights are set by regulation and a=
+re necessarily somewhat arbitrary; the regulators try to estimate the riski=
+ness of various classes of things, and to assign higher risk weights to ris=
+kier things, but there=E2=80=99s only so much nuance they can manage. Some =
+corporate loans are riskier than others, but will be lumped in with the sam=
+e risk weight.</p>
+<p style=3D"margin: 16px 0;">And so a big part of the bank=E2=80=99s financ=
+ial engineering operation is optimizing risk-based capital. For instance: I=
+f a bank has $100 of stuff that gets a 100% risk weight, and can somehow sp=
+lit it into $80 of stuff with a 0% risk weight and $20 of stuff with a 300%=
+ risk weight, then that=E2=80=99s good, that=E2=80=99s what it wants, that =
+reduces its risk-weighted assets from $100 to $60, which reduces its capita=
+l requirements, which increases its ability to return money to shareholders=
+. And this is the explanation for <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/34162107.258396/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS92aWV3L2F=
+ydGljbGVzLzIwMTgtMDUtMjUvZXVyb3BlYW4tYmFua3MtZ2V0LWNyZWF0aXZlLXdpdGgtY2FwaX=
+RhbC1yZWxpZWY_Y21waWQ9QkJEMDEyOTI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1d=
+G1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTI5JnV0bV9jYW1wYWlnbj1tb25leXN0=
+dWZm/607f07ceef4b8524a319a23cB8c06884d" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> capital relief trades</a>,=
+ and also in some loose sense the explanation for <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/34162107.258396/aHR0cHM6Ly93d3cucGVubnByZXN=
+zLm9yZy85NzgwODEyMjQzNTc0L2VuZ2luZWVyaW5nLXRoZS1maW5hbmNpYWwtY3Jpc2lzLw/607=
+f07ceef4b8524a319a23cB0943ba9d" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> the 2008 financial crisis</a>: If =
+you slice your risky thing exactly right, you will end up with a collection=
+ of new things that look less risky, to capital regulators, than the origin=
+al thing.=C2=A0</p>
+<p style=3D"margin: 16px 0;">If you are a bank with a big tax equity financ=
+ing business, a natural question to ask is, well, how risky is this? Specif=
+ically:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Is it like a=C2=A0<em>corporate loan<=
+/em>, since it=E2=80=99s an investment in a series of predictable cash flow=
+s, at some agreed yield, from a business?</li>=09<li style=3D"margin-bottom=
+: 5px;">Or is it like=C2=A0<em>equity=C2=A0in a private company</em>, since=
+, technically, that=E2=80=99s what it is?</li>
+</ol>
+<p style=3D"margin: 16px 0;">There is no particularly correct answer to tha=
+t; the answer is just =E2=80=9Cwhatever you can convince the capital regula=
+tors it is.=E2=80=9D But obviously the answer that you=C2=A0<em>want</em>, =
+as a bank, is that it=E2=80=99s a loan. And in fact that seems to be the an=
+swer in US capital regulation: Tax equity financing normally <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/34162107.258396/aHR0cHM6Ly93d3cu=
+Y2xpZmZvcmRjaGFuY2UuY29tL2NvbnRlbnQvZGFtL2NsaWZmb3JkY2hhbmNlL2JyaWVmaW5ncy8=
+yMDIzLzEwL0Jhc2VsJTIwSUlJJTIwRW5kZ2FtZSUyMFByb3Bvc2FsJTIwKElJKS5wZGY/607f07=
+ceef4b8524a319a23cB3b79cf14" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> gets a 100% risk weight</a>.=C2=A0In =
+fact, the Office of the Comptroller of the Currency, which regulates banks,=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/a=
+HR0cHM6Ly93d3cub2NjLmdvdi9uZXdzLWlzc3VhbmNlcy9idWxsZXRpbnMvMjAyMS9idWxsZXRp=
+bi0yMDIxLTE1Lmh0bWw/607f07ceef4b8524a319a23cBea1cbf78" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">allows these=
+ deals</a>=C2=A0=E2=80=9Conly if the transaction is the functional equivale=
+nt of a loan,=E2=80=9D and it does allow them: From the bank capital regula=
+tors=E2=80=99 perspective, tax equity financing is a loan.</p>
+<p style=3D"margin: 16px 0;">That=E2=80=99s=C2=A0<em>really</em>=C2=A0how f=
+inancial engineering works: You build a thing that looks like equity to the=
+ IRS (so the bank can get the tax credit), but that looks like debt to the =
+capital regulators (so it gets a lower risk weight). You check the equity b=
+oxes for the IRS and the debt boxes for the OCC.=C2=A0You thread the needle=
+ so that it looks like different things to different regulators, looking li=
+ke debt when debt is better and like equity when equity is better.</p>
+<p style=3D"margin: 16px 0;">But US capital regulators have launched a big =
+revision of capital requirements, so the answer might change. Bloomberg=E2=
+=80=99s=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/34162=
+107.258396/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEt=
+Mjgvd2FsbC1zdHJlZXQtc2F5cy1iYXNlbC0zLWVuZGdhbWUtcHV0cy1ncmVlbi1pbnZlc3RtZW5=
+0cy1hdC1yaXNrP2NtcGlkPUJCRDAxMjkyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdX=
+RtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEyOSZ1dG1fY2FtcGFpZ249bW9uZXlzd=
+HVmZg/607f07ceef4b8524a319a23cBaf318ddd" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Natasha White and Alasta=
+ir Marsh report</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Senior Wall Street bankers are warning that a =
+plan by US regulators to rewrite the rules of tax-equity investing will del=
+iver a major blow to a market dominated by JPMorgan Chase &amp; Co. and Ban=
+k of America Corp.</p>
+<p style=3D"margin: 16px 0;">At issue is the perceived risk of tax-equity i=
+nvestments, which are a form of financing in which banks provide capital to=
+ green projects in exchange for tax credits. It=E2=80=99s a market in which=
+ JPMorgan and BofA have been estimated to do more than 50% of the roughly $=
+20 billion worth of annual transactions.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Last July, the three agencies that decide bank=
+ capital requirements in the US (the Federal Reserve, Federal Deposit Insur=
+ance Corp. and Office of the Comptroller of the Currency) unveiled what=E2=
+=80=99s come to be known as the Basel 3 Endgame. =E2=80=A6.</p>
+<p style=3D"margin: 16px 0;">A part of that broader proposal is a requireme=
+nt that banks quadruple the risk weights they assign to tax-equity investme=
+nts, forcing them to significantly raise the amount of capital they set asi=
+de for renewable energy projects. ...</p>
+<p style=3D"margin: 16px 0;">Law firm Clifford Chance has warned that the r=
+isk-weight proposal would make it =E2=80=9Cprohibitively expensive=E2=80=9D=
+ for banks to continue doing certain tax-equity investments, which is =E2=
+=80=9Ccertain to have a harmful=E2=80=9D impact on green finance. ACORE, a =
+trade group that represents renewable project developers, has said the plan=
+ threatens to =E2=80=9Cderail the clean energy transition.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here are=C2=A0<a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/34162107.258396/aHR0cHM6Ly93d3cuY2xpZmZvcmRjaGFuY2=
+UuY29tL2NvbnRlbnQvZGFtL2NsaWZmb3JkY2hhbmNlL2JyaWVmaW5ncy8yMDIzLzEwL0Jhc2VsJ=
+TIwSUlJJTIwRW5kZ2FtZSUyMFByb3Bvc2FsJTIwKElJKS5wZGY/607f07ceef4b8524a319a23c=
+C3b79cf14" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">the Clifford Chance memo</a>=C2=A0and the <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/34162107.258396/aHR0cHM6Ly9hY29y=
+ZS5vcmcvcmVzb3VyY2VzL3RoZS1yaXNrLXByb2ZpbGUtb2YtcmVuZXdhYmxlLWVuZXJneS10YXg=
+tZXF1aXR5LWludmVzdG1lbnRzLw/607f07ceef4b8524a319a23cC22173b05" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> ACO=
+RE report</a>. The point is that =E2=80=9Cnon-publicly traded equity exposu=
+res,=E2=80=9D like co-owning a green energy joint venture, normally get a 4=
+00% risk weight. Tax equity financing somewhat accidentally got loopholed i=
+nto the 100% risk-weight category before, but the new rules will close that=
+ loophole=C2=A0and it will get a 400% weight.<a class=3D"footnote-index" hr=
+ef=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: none !important; background-color: transparent !important; display: in=
+line-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Unless the banks complain loudly enough that t=
+he regulators hear them and put back a loophole for tax equity financing. A=
+nd why not? None of this is real; none of it has any objective truth; tax e=
+quity financing isn=E2=80=99t =E2=80=9Creally=E2=80=9D equity or =E2=80=9Cr=
+eally=E2=80=9D debt. If you want more tax revenue, you make it harder to se=
+ll the tax credit; if you want more green energy=C2=A0financing, you make i=
+t easier to sell the tax credit. If you want better capitalized banks, you =
+raise the capital requirements for tax equity financing; if you want more g=
+reen energy financing, you lower the requirements. Banks obviously know wha=
+t they want, and they engineered a product to get it; now the question is w=
+hat policymakers prefer.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zNDE2MjEwNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQ0MjA1MDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCa6893a03" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D34162107&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34420503&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zNDE2MjEwNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQ0MjA1MDMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDa6893a03" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D34162107&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34420503&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">FTC vs. AI</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One way to think about the artificial intellig=
+ence business is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Everybody, by now,=C2=A0has an intuit=
+ive understanding of how new software products are created in the US. New i=
+deas in software come from visionary entrepreneurs who can work pretty chea=
+p. You need a couple of engineers, some desks at a WeWork, some laptops, so=
+me energy drinks,=C2=A0a modest=C2=A0cloud-computing budget. You build the =
+thing, you try to find product-market fit, and if it works you scale rapidl=
+y. The marginal cost of distributing one more copy of your app, or serving =
+one more instance of your social media website, is basically zero. If your =
+thing takes off, it can take off quickly, and it=E2=80=99s all profit.</li>=
+=09<li style=3D"margin-bottom: 5px;">Everything in US tech finance is orien=
+ted around that understanding. Talented tech workers want to be founders, b=
+ecause founding your own company is the way to fame and riches in tech. Ven=
+ture capital firms invest in risky early-stage software companies, because =
+(1) those companies don=E2=80=99t need=C2=A0<em>that=C2=A0</em>much capital=
+ to figure out if their idea works, and (2) if the idea=C2=A0<em>does=C2=A0=
+</em>work it will return many times the investment.</li>=09<li style=3D"mar=
+gin-bottom: 5px;">Generative AI =E2=80=A6=C2=A0maybe does not work like tha=
+t? It is extremely capital-intensive, by which I mean that you need a very=
+=C2=A0<em>large=C2=A0</em>cloud computing budget to build and train an AI m=
+odel that will do anything at all. And then scaling it is also quite expens=
+ive; you need a ton more computing power to serve each new customer. Buildi=
+ng an AI model is more like building a car than it is like building Faceboo=
+k.</li>
+</ol>
+<p style=3D"margin: 16px 0;">If I asked you in the abstract =E2=80=9CI have=
+ a potentially lucrative and important business idea, but it requires like =
+$10 billion of startup capital and does not scale cheaply like software, ho=
+w should I finance it,=E2=80=9D your first answer might not be =E2=80=9Cven=
+ture capital.=E2=80=9D You=C2=A0might say something like =E2=80=9Cwell this=
+ sounds like a big industrial project, what you should do is go get a job a=
+t a big industrial company with a ton of money, and start a division there =
+that will do this project.=E2=80=9D And if I said =E2=80=9Cwell it=E2=80=99=
+s a tech idea,=E2=80=9D you=E2=80=99d say =E2=80=9Cah, even better, get a j=
+ob at Google or Amazon or Alphabet, they have absolutely tons of money, mor=
+e than they know what to do with, they can totally fund your $10 billion pr=
+oject, no problem. Is it a virtual reality headset by any chance?=E2=80=9D=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">But the problem with AI is that it=C2=A0<em>is=
+</em>, mostly, made in the Bay Area by tech-industry types, so it does defa=
+ult to the startup mode, so you do have startups running around building AI=
+. But to fund their billions of dollars of cloud computing costs, they=C2=
+=A0</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">take billions of dollars of investmen=
+t from cloud computing companies (Microsoft, Amazon, Alphabet),=C2=A0</li>=
+=09<li style=3D"margin-bottom: 5px;">take a lot of that investment in the f=
+orm of cloud computing capacity rather than money, and=C2=A0</li>=09<li sty=
+le=3D"margin-bottom: 5px;">probably have=C2=A0<em>some=C2=A0</em>sort of un=
+derstanding with those companies that there will be some commercial relatio=
+nship between them, so that for instance Microsoft has rights to include Op=
+enAI models in its software.</li>
+</ol>
+<p style=3D"margin: 16px 0;">It is a Silicon Valley-style compromise betwee=
+n =E2=80=9Call new software must be built by startups=E2=80=9D and =E2=80=
+=9Cactually giant companies with tons of money and smart employees=C2=A0and=
+ complementary capabilities probably do have some advantage in building thi=
+s particular expensive thing.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/34162107.258396/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjQtMDEtMjIvc2hhcmVob2xkZXJzLWFyZS1wZW9wbGUtdG9vP2NtcGlkPUJC=
+RDAxMjkyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGV=
+yJnV0bV90ZXJtPTI0MDEyOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a31=
+9a23cB7ec77490" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  talked about this dynamic last week</a>, in part =
+because Silicon Valley venture capitalists have been complaining about it: =
+=E2=80=9CMANG=E2=80=9D (Microsoft, Amazon, Nvidia, and Google/Alphabet) hav=
+e been some of the biggest investors in AI startups, and have advantages ov=
+er traditional VCs in making these investments (mainly that they get to mak=
+e them in the form of computing power), and the traditional VCs feel a bit =
+priced out.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Others also have complaints. If Microsoft had =
+just announced one day =E2=80=9Cwe are going to build large language models=
+ to incorporate into our search engine and Office suite, we hired a bunch o=
+f people, we gave them a lot of computing power, away we go,=E2=80=9D well =
+=E2=80=A6 I don=E2=80=99t want to say that would be <em>no problem=C2=A0</e=
+m>from an antitrust perspective, and in fact tech companies (<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/34162107.258396/aHR0cHM6Ly9lbi53=
+aWtpcGVkaWEub3JnL3dpa2kvVW5pdGVkX1N0YXRlc192Ll9NaWNyb3NvZnRfQ29ycC4/607f07c=
+eef4b8524a319a23cB52a33ea9" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">including Microsoft</a>) do sometimes g=
+et in antitrust trouble for bundling their own products together. But in ge=
+neral it is not an antitrust problem for a big company to launch a new prod=
+uct.</p>
+<p style=3D"margin: 16px 0;">But since Microsoft instead pumped billions of=
+ dollars into OpenAI, a nominally independent sort-of-nonprofit startup, an=
+titrust regulators can go around raising their eyebrows and questioning whe=
+ther Microsoft and OpenAI are colluding with each other in a way that is ba=
+d for competition. (We <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/34162107.258396/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjMtMTItMTEvb3BlbmFpLXMtaW52ZXN0b3JzLWRvbi10LW93bi1pdD9jbXBpZD1CQkQwM=
+TI5MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1=
+dG1fdGVybT0yNDAxMjkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23=
+cB4f1bd512" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">  talked about=C2=A0<em>this=C2=A0</em>last month</a>, =
+when UK competition regulators were asking about it, and when Microsoft was=
+ arguing that, due to the weird corporate structure,=C2=A0in fact it doesn=
+=E2=80=99t own any OpenAI shares at all.) Doing stuff with=C2=A0<em>two </e=
+m>companies always raises more antitrust risk than doing the same stuff <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDItMjgvYmFuay1z=
+ZWxscy12b3Rlcy1vbi1hbm90aGVyLWJhbms_Y21waWQ9QkJEMDEyOTI0X01PTkVZU1RVRkYmdXR=
+tX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTI5JnV0bV=
+9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB11581476" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  wit=
+hin one company</a>, and the AI business seems to lend itself to two-compan=
+y situations.</p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/34162107.258396/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyNC8wMS8yNS90=
+ZWNobm9sb2d5L2Z0Yy1haS1taWNyb3NvZnQtYW1hem9uLWdvb2dsZS5odG1s/607f07ceef4b85=
+24a319a23cB6c491dc7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Similarly</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Federal Trade Commission opened an inquiry=
+ on Thursday into the multibillion-dollar investments by Microsoft, Amazon =
+and Google in the artificial intelligence start-ups OpenAI and Anthropic, b=
+roadening the regulator=E2=80=99s efforts to corral the power the tech gian=
+ts can have over A.I.</p>
+<p style=3D"margin: 16px 0;">These deals have allowed the big companies to =
+form deep ties with their smaller rivals while dodging most government scru=
+tiny. Microsoft has invested billions of dollars in OpenAI, the maker of Ch=
+atGPT, while Amazon and Google have each committed billions of dollars to A=
+nthropic, another leading A.I. start-up. ...</p>
+<p style=3D"margin: 16px 0;">The F.T.C. said it would ask Microsoft, OpenAI=
+, Amazon, Google and Anthropic to describe their influence over their partn=
+ers and how they worked together to make decisions. The agency also said it=
+ would demand that they provide any internal documents that could shed ligh=
+t on the deals and their potential impact on competition.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/34162107.258396/aHR0cHM6Ly93d3cuZnRjLmdvdi9uZXdzLWV2ZW50=
+cy9uZXdzL3ByZXNzLXJlbGVhc2VzLzIwMjQvMDEvZnRjLWxhdW5jaGVzLWlucXVpcnktZ2VuZXJ=
+hdGl2ZS1haS1pbnZlc3RtZW50cy1wYXJ0bmVyc2hpcHM/607f07ceef4b8524a319a23cB832ce=
+fed" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> the FTC=E2=80=99s announcement</a>. I think we=E2=80=99ll all=
+ be interested in Microsoft=E2=80=99s influence over OpenAI and how it make=
+s decisions =E2=80=94=C2=A0that has, uh, <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/34162107.258396/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjMtMTEtMjAvd2hvLWNvbnRyb2xzLW9wZW5haT9jbXBpZD1CQkQ=
+wMTI5MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlci=
+Z1dG1fdGVybT0yNDAxMjkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a=
+23cBaf0dc43e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  come up a lot lately</a> =E2=80=94=C2=A0but the poi=
+nt is that if these companies were just building AI in-house, none of this =
+would really come up.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Byju=E2=80=99s</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Some <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/34162107.258396/aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI0LzAxLzI=
+5L2J5anVzLXNlZWtzLXRvLXJhaXNlLTIwMC1taWxsaW9uLWluLXJpZ2h0cy1pc3N1ZS8/607f07=
+ceef4b8524a319a23cBd85d2892" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">incredible numbers here</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Byju=E2=80=99s, the world=E2=80=99s most valua=
+ble edtech startup, has cut its valuation ask by 99% in a rights issue it l=
+aunched Monday as the Indian firm works to address its working capital need=
+s. The startup is looking to raise $200 million in the rights issue, capita=
+l it said was =E2=80=9Cessential to prevent any further value impairment.=
+=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">The startup, once India=E2=80=99s most valuabl=
+e, is resetting its valuation to =E2=80=9Cnext to nothing=E2=80=9D in the r=
+ights issue, where all existing investors have an opportunity to participat=
+e, according to a source familiar with the matter. If Byju=E2=80=99s succee=
+ds in raising $200 million, the post-money valuation of the startup will be=
+ in the range of $220 million to $225 million, a 99% drop from the $22 bill=
+ion value that the startup had attained in 2022, according to the source, w=
+ho requested anonymity sharing nonpublic information.</p>
+<p style=3D"margin: 16px 0;">Byju=E2=80=99s founder Byju Raveendran told sh=
+areholders in a letter Monday that he and other founders of the edtech grou=
+p have invested $1.1 billion into the Bengaluru-headquartered startup in th=
+e last 18 months and seek continued support from the investors to keep the =
+business afloat. =E2=80=9CWe have made immense personal sacrifices for the =
+sake of the company. We have spent our lives building this company and are =
+fervent believers in its mission,=E2=80=9D Raveendran wrote in the letter, =
+seen by TechCrunch. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The rights issue comes as Byju=E2=80=99s looks=
+ to secure capital amid a severe funding crunch. The startup, which spent $=
+2.5 billion acquiring more than a dozen firm in 2021 and 2022, has raised m=
+ore than $5 billion in equity and debt from backers including Peak XV, Ligh=
+tspeed, Chan Zuckerberg Initiative, BlackRock, UBS, Prosus Ventures and B C=
+apital. Byju=E2=80=99s said in a statement that it expects the rights issue=
+ to close in 30 days.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Last week Bloomberg <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/34162107.258396/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMjMvYnlqdS1zLXRvLXNsYXNoLTIyLWJpbGxpb24=
+tdmFsdWF0aW9uLWJ5LTkwLXRvLXJhaXNlLWZyZXNoLWZ1bmRzP2NtcGlkPUJCRDAxMjkyNF9NT0=
+5FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtP=
+TI0MDEyOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB88a99447=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> reported</a> a 90% cut =E2=80=94=C2=A0=E2=80=9Ca price that valu=
+es the firm at less than $2 billion, =E2=80=A6 down from $22 billion at its=
+ previous round in late 2022=E2=80=9D =E2=80=94=C2=A0but I guess things are=
+ moving fast, and in the wrong direction? On these numbers, the people who =
+put in $5 billion back in the good times will own less than 10% of the comp=
+any, while the people who put in $200 million in the bad times will own 90%=
+.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The point of a rights offering is to be coerci=
+ve: Existing investors have the right to put more money in at the rights pr=
+ice, which here is basically zero, and if they don=E2=80=99t put more money=
+ in then they get diluted by the people who do. Here, if you put up $1 bill=
+ion for 5% of the company back when it was worth $20 billion, Byju=E2=80=99=
+s will come to you and ask you to put in $10 million more to keep your 5% s=
+take; if you say no, you=E2=80=99ll be diluted down to about 0.5%. If you=
+=E2=80=99ve already thrown away $1 billion, what=E2=80=99s $10 million more=
+? On the other hand, if Byju=E2=80=99s has already reduced your $1 billion =
+investment to zero, why would you give them any more money? Getting diluted=
+ doesn=E2=80=99t matter if the stock is going to zero; owning 5% of a compa=
+ny worth zero is no better than owning 0.5% of it. The main questions in th=
+e rights offering are: Do you trust that the company has a plan to turn thi=
+ngs around, and that this one last contribution is enough to see it through=
+? And also: How mad are you about what happened to the rest of your money?<=
+/p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/34162107.258396/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyNC8wMS8yOC9i=
+dXNpbmVzcy9jaGluYS1ldmVyZ3JhbmRlLmh0bWw/607f07ceef4b8524a319a23cBf33e9b15" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">Evergrande</a> Will Be Dismantled, a =E2=80=98Big Bang=E2=80=99 End=
+ to Years of Stumbles. Evergrande <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/34162107.258396/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjQtMDEtMjkvZXZlcmdyYW5kZS1saXF1aWRhdGlvbi1pcy1hLWJpZy10ZXN0LW=
+Zvci1pbnRlcm5hdGlvbmFsLWNyZWRpdG9ycz9jbXBpZD1CQkQwMTI5MjRfTU9ORVlTVFVGRiZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMjkmdXRt=
+X2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB181717f4" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Li=
+quidation</a> Is a Big Test for International Creditors. Banker <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/34162107.258396/aHR0cHM6Ly93d=
+3cud3NqLmNvbS9maW5hbmNlL2JhbmtpbmcvZmxhdC1pcy10aGUtbmV3LXVwLWZvci1iYW5rZXIt=
+Ym9udXNlcy01YTY0YzMzMz9tb2Q9aHBfbGVhZF9wb3M0/607f07ceef4b8524a319a23cB381a8=
+1d7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Bonuses Are Down Again</a>=E2=80=94but It Stings This Time. US=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/a=
+HR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMTNlMTVkYjYtZjQyNC00ODY1LWJlOGYtYWI2YjJl=
+Mjk5ZDRk/607f07ceef4b8524a319a23cB5019c3c8" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> regional banks</a> hop=
+e for profit revival as pain from SVB fallout eases. Credit Suisse=E2=80=99=
+s Restructuring Deal With <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/34162107.258396/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGV=
+zLzIwMjQtMDEtMjkvY3JlZGl0LXN1aXNzZS1zLWdmZy1yZXN0cnVjdHVyaW5nLWluLWRvdWJ0LW=
+FmdGVyLW1pc3NlZC1wYXltZW50P2NtcGlkPUJCRDAxMjkyNF9NT05FWVNUVUZGJnV0bV9tZWRpd=
+W09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEyOSZ1dG1fY2FtcGFp=
+Z249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB252b87b6" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  Sanjeev Gup=
+ta's GFG</a> In Doubt. Amazon Drops $1.4 Billion <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/34162107.258396/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMjkvYW1hem9uLWRyb3BzLWlyb2JvdC1hY3F1aXN=
+pdGlvbi1hZnRlci1ldS12ZXRvLXRocmVhdD9jbXBpZD1CQkQwMTI5MjRfTU9ORVlTVFVGRiZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMjkmdXRtX=
+2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB6ac78265" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  iRo=
+bot Deal</a> After EU Veto Threat.=C2=A0<a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/34162107.258396/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjQtMDEtMjgvcmVkZGl0LWFkdmlzZWQtdG8tdGFyZ2V0LWF0LWxlYXN0=
+LTUtYmlsbGlvbi12YWx1YXRpb24taW4taXBvP2NtcGlkPUJCRDAxMjkyNF9NT05FWVNUVUZGJnV=
+0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDEyOSZ1dG=
+1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB06958d0c" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">Red=
+dit</a> Advised to Target at Least $5 Billion Valuation in IPO. Chinese reg=
+ulators <a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.2=
+58396/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMWY5Nzc1YTgtMWRjOS00OGMxLWFhNzQtY=
+zYzM2NhOTUzOTBm/607f07ceef4b8524a319a23cB754c39cf" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> curb short sell=
+ing</a> as market downturn deepens. Traders Line Up for =E2=80=98Once-in-a-=
+Generation=E2=80=99 <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/34162107.258396/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwM=
+jQtMDEtMjgvdHJhZGVycy1saW5lLXVwLWZvci1vbmNlLWluLWEtZ2VuZXJhdGlvbi1lbWVyZ2lu=
+Zy1tYXJrZXRzLWJldD9jbXBpZD1CQkQwMTI5MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWl=
+sJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMjkmdXRtX2NhbXBhaWduPW1vbm=
+V5c3R1ZmY/607f07ceef4b8524a319a23cB7895e446" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  Emerging Markets Bet=
+</a>.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/3416210=
+7.258396/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMjU0MTBjMzYtMjMxMi00ZmZjLTk3N2=
+EtM2JkNGY1MzkyYjdl/607f07ceef4b8524a319a23cB1f9fa6ab" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Sotheby=E2=
+=80=99s</a> trial provides a peek behind the curtain of private art sales.=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258=
+396/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMjMvdW5=
+oYXBweS1hdC13b3JrLXF1aXQtcXVpdHRpbmctY29zdHMtdXMtMS05LXRyaWxsaW9uLWluLXByb2=
+R1Y3Rpdml0eT9jbXBpZD1CQkQwMTI5MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMjkmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cBd5db383b" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">Unhappy Workers</a> Cost US =
+Firms $1.9 Trillion.=C2=A0The Jujitsu Champ Who Got Nearly $500 Million Fro=
+m <a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/=
+aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2N1cnJlbmNpZXMvdGhlLWp1aml0c3UtY2hhbXA=
+td2hvLWdvdC1uZWFybHktNTAwLW1pbGxpb24tZnJvbS1zYW0tYmFua21hbi1mcmllZC1kYmI0Yz=
+lmZj9tb2Q9aXRwX3dzag/607f07ceef4b8524a319a23cB92dbcb91" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> Sam Bankma=
+n-Fried</a>. Why Elon Musk Is Comparing Index Fund Consultants to <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/aHR0cHM6L=
+y93d3cud3NqLmNvbS90ZWNoL3doeS1lbG9uLW11c2staXMtY29tcGFyaW5nLWluZGV4LWZ1bmQt=
+Y29uc3VsdGFudHMtdG8taXNpcy1kZDhiOWE5MD9tb2Q9d3NqaHBfY29sdW1uaXN0c19wb3Mz/60=
+7f07ceef4b8524a319a23cBff182cb0" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> ISIS</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/34162107.258396/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB0ce1f07a" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/34162107.258396/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBd5a73282" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] That=E2=80=99s the statutory number in Int=
+ernal Revenue Code <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/34162107.258396/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzI2Lz=
+Q1/607f07ceef4b8524a319a23cBc56299fb" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> section 45</a>, though it ca=
+n increase with inflation, there are other factors, and in fact the <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/aHR0cHM6L=
+y93d3cuaGtsYXcuY29tL2VuL2luc2lnaHRzL3B1YmxpY2F0aW9ucy8yMDIzLzA2L2lycy1yZWxl=
+YXNlcy0yMDIzLXNlY3Rpb24tNDUtcHJvZHVjdGlvbi10YXgtY3JlZGl0LWFtb3VudHM/607f07c=
+eef4b8524a319a23cB09be1845" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> IRS provides yearly guidance</a> with =
+different amounts for different types of renewables, etc.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] This is oversimplified, and in fact there =
+will probably be a construction loan for the construction, etc., but the ta=
+x equity financing will generally be early in time and not exactly at the b=
+ottom of the capital structure.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Clifford Chance <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/34162107.258396/aHR0cHM6Ly93d3cuY2xpZmZvcmRj=
+aGFuY2UuY29tL2NvbnRlbnQvZGFtL2NsaWZmb3JkY2hhbmNlL2JyaWVmaW5ncy8yMDIzLzEwL0J=
+hc2VsJTIwSUlJJTIwRW5kZ2FtZSUyMFByb3Bvc2FsJTIwKElJKS5wZGY/607f07ceef4b8524a3=
+19a23cD3b79cf14" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> points out</a> that the regulators could put in a=
+n intentional loophole for green energy, which in fact they do for other so=
+rts of debt-like equity financing: =E2=80=9CThe change is made more trouble=
+some by the fact that the Agencies proposed to retain the 100% risk weight =
+for community development investments (including LIHTC Investments) and inv=
+estments in small business investment companies under ESRWA on the basis th=
+at such investments =E2=80=98generally receive favourable tax treatment and=
+/or investment subsidies that make their risk and return characteristics di=
+fferent than equity investments in general.=E2=80=99 In maintaining this tr=
+eatment for such investments, the Agencies also =E2=80=98recogniz[e]=E2=80=
+=A6 the importance of these investments to promoting important public welfa=
+re goals=E2=80=A6.=E2=80=99 Such rationale would appear to apply equally to=
+ clean energy and infrastructure tax equity investments.=E2=80=9D</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBa27e0c32" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB78d183f1" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB249e43c0" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB85b16c28" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB5b4e0fec" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.2583=
+96/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBafdcda39" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/34162107.258396/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCf41782a1" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/34162107.258396/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBd2cdbe0e" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/34162107.258396/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB871888c3" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBe=
+8140be0" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34162107.258396/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB3=
+9dbff68" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ckc7nf.5jdo/c844b226.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_1278517_939652532.1706556948907--
+

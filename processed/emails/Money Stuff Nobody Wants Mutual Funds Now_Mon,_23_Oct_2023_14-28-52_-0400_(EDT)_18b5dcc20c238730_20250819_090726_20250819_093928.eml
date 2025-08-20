@@ -1,0 +1,1976 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6214:1fd5:b0:66d:158:b35e with SMTP id jh21csp94547qvb;
+        Mon, 23 Oct 2023 11:29:01 -0700 (PDT)
+X-Received: by 2002:a5d:5b1c:0:b0:32d:a61a:85cc with SMTP id bx28-20020a5d5b1c000000b0032da61a85ccmr12204917wrb.8.1698085741010;
+        Mon, 23 Oct 2023 11:29:01 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1698085740; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Ldj9r1CahM5W2EO9a5BMlfiA0JnWUFOqY9T/xmJEI9sdq3rmEUsDv2FzNxK9kWBLJ4
+         RcyB+uwzNWv2LMVW7y5YCAd5X8xA7aok0565bFcBog9zRkDNsQYQHfiFeNULFFpyMJZq
+         IycYl8C5mOhoy8BsUAb3FQkZoENBYjTOgiSYxHjIDOtidcD2C9y050o+CBNL+5FA4HBB
+         rBTwCC9fWZUz97jPoa8W5AZHJo59S9C1IF+Z8csprjzyP+8CRMF8qsAS+95aFjzNMnAd
+         bWVsrjn1H4ow5ktWWPWR4xjm9JY7lcMQp5ah76xfGBSb3yI8Dfr0JHZ7J11uLv3WGZ+N
+         wZTA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=BTyj2iaMuAUKr2eh8D9Pqsx8J3POElmK67xDRdF2esk=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=AH4B58ovKKKZZwsJWN3adaDAJCcY5A13XoJzR+bD49yvkmVFhlULYmTGn83m36xKPR
+         kVyQZMjpRnGIPouDbwm3+KRfHuMLTyOWCQeYFxjXW907XY6MqYuQ7f7kag/tzI6fg3So
+         RiOfVkJG+SwMDO9WAlX/N0y9prGQifi+z14KXC6ZbBBxLfrkktlV6jVQh2ts98PpwqyP
+         fLTTYBzwk3612soCBQBbZkeabvFbtNI1r1rKPNfuXPku4JI1MQn89fQR7KxA3g4i1HIt
+         KEjhjV6EHyCFOAH8K3fzcem2MuYeB/QVP+e71G3CymMqiS7fPAlvNilKZnnulSckCrlW
+         JG4A==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HjIizZ27;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id v28-20020adfa1dc000000b003232f711431sor1254851wrv.2.2023.10.23.11.29.00
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 23 Oct 2023 11:29:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HjIizZ27;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1698085740; x=1698690540;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=BTyj2iaMuAUKr2eh8D9Pqsx8J3POElmK67xDRdF2esk=;
+        b=Py+jncYp3H6XPTVV3+hgR7a58uBU67zaUPHKXCMbO1my19jd85oOyuiGjI8tBBwioZ
+         OJUPBYahYF1E9/fS1jrioLpQIlW4RwCw2TLePq3lYKHL2pIxpD/RbnSPuO03NLFwA/x5
+         b8pPD2blw/gwC7N527L051I1PYvmcwZnoIph22yLjVFOoZO7/ONo61Ju/98yTzS0yQlG
+         cWgBzvEqzCeeDEmOv1GQ7M6P6shoEGmO6onI3KZD5drzXlYZDGky5rZ3HzbMdCt9YMZr
+         bF2cqr7jt6LzBZVgSTuUch3w5xJ2V84gDx4MbixBGa+mn02IyvGLONn327iBVF2/Kcb6
+         uH7Q==
+X-Gm-Message-State: AOJu0YwVvAe52tYi2sxqUDwxPLFK8wLDXhRnBHS5IGroE5iSe7CjNLO2
+	3sxZPIUCTpsKfynzudnms3AmMqhgFeXnfmwDhaBKaKQ02fRqwT+LRQ==
+X-Received: by 2002:a5d:53cf:0:b0:32d:9e72:659d with SMTP id a15-20020a5d53cf000000b0032d9e72659dmr6451825wrw.63.1698085740399;
+        Mon, 23 Oct 2023 11:29:00 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:67c9:0:b0:314:13a5:30c2 with SMTP id n9csp1641362wrw;
+        Mon, 23 Oct 2023 11:28:55 -0700 (PDT)
+X-Received: by 2002:a17:90a:a091:b0:274:9409:bbca with SMTP id r17-20020a17090aa09100b002749409bbcamr6834514pjp.3.1698085734868;
+        Mon, 23 Oct 2023 11:28:54 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1698085734; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=DWS4ZryC9I4tiUNBN2kQgz4lTHnMPg03gK4qsEeslzyaH63xSkwXuk7BqE/ExiIHWs
+         LoTdR1m8H3wZcZXVWdaf+Ge5mPagVlokJ0/x9QME+i+4VusZASz2b7JMLodHSh6PrcCL
+         AxBd73x1efam39O2ZBQdcRw0sWoVzRNDiQL7urY+0sKg/ISeUq+mjZ4fyl5xLlj+ZE5p
+         ZUUTzvoxJSFAmeTO/ZitzlM9nuq6Ja3du0SH3Hmo+Nwa0vuIS3qFySviGRkqMPLad5la
+         tzK20HoahVivcbW0AnUjBN7HUOb1uXhmk/IywJ6tkyOjVwA+0Zm7O0G8VIZvQ/y3F77d
+         e7/Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=BTyj2iaMuAUKr2eh8D9Pqsx8J3POElmK67xDRdF2esk=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=iatCIipycNDCUTP5BErwssZ4+BXVt5JRSRuFai5Kv8oId+rvAG/oJtWlQHX7/DIyS7
+         QvmuzRAawDdArcxHhFhbsOoANOXpcghIM3KidK8AUNshZzCsTjr9aEANXYtnJ7a2Wkc7
+         UQaaho7LryRLarDfmWJFOGxagiCyhN5MVYRcGWGKwd6ig42j4KrRCTnb8Sss6YoJQQ7t
+         KPJbYDTsjvDomhOie8SWvTmluFODx82gdDhRB7MBjTGmGAWys9hdZ+WWtmdvSvLX86Ge
+         pdc7GVxWs3kQDZ7L/a33uZjOaY6nBVA53lAW1b62HDf8UXt1nUdTvqo+JuUVZzTwjzUl
+         SyTw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HjIizZ27;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231023142852.33116434.256422@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231023142852.33116434.256422@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231023142852.33116434.256422@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x24-20020a17090a8a9800b002746436ccd4sor2903119pjn.0.2023.10.23.11.28.54
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 23 Oct 2023 11:28:54 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20231023142852.33116434.256422@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IHwAAMcyR2Rz0VkVyk9DlmFvJ18WFZjRGuaz9ap02Wjuff3mjarwPgHCnPusxn1kHHH6zS9K/KC553qdq5yqKHjbEYu4pk=
+X-Received: by 2002:a17:90b:2311:b0:27e:3ae3:eae0 with SMTP id mt17-20020a17090b231100b0027e3ae3eae0mr3514564pjb.16.1698085734202;
+        Mon, 23 Oct 2023 11:28:54 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1698085734; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ZKYzfhuVpkfrvflI4YFPtQVyVegKNb679XwjpZ7iT3uTyouC04zTd3+NqnHWW8hQ+y
+         K9S3GdfBKCjw8prYCLzyiQ2CmrnjF18QSKHYvwksu+7UjwyhunOkInkS//zylVFYvzbm
+         ScuimiBp50YF9ReB90JUaqkmYc8ru0DsvD/ZGrSafJ1+WgYMYe60bIyki+KY0KFnkCfO
+         nI0PV2n5X5vXwJSWwt05NFlj9AKq2/E8W6/y+RC+Xf0sH7PWiKw3gLyeb9F3KgbDO+uy
+         zp/WlpgDuuHodxlF+/lbhxj9RKAqLU2EMbZknn61c+ow4zWZQYkBFERRdFRmt75Am1Dr
+         rQEA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=BTyj2iaMuAUKr2eh8D9Pqsx8J3POElmK67xDRdF2esk=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=rZcaSLHJnPOPhi7TWqpX7ZkfMlPH2Z3+56J5z+OIRROo5xBMQ/Vq1tdG4xVC8linwy
+         WU5BdoQlXy7Cy6CeLFu/pO2n6GwvYWyaKOhyum0O8qrG83Aw6Jb3fRfsEdXruQnaQvSM
+         lA/Q9A5lAk55RvCJpvc7X+E71m5MYNMAjEDY1xkBONsQTtlvoADaTiQpnxnI0pRqvoGD
+         5NYQQg600co2QRCODUybwAuM2AsyXs8aeZPiMYOEkWAnaXyPmJGq6X6VRDjucsx74ceg
+         M17sKD+2XyYy/VNpy1wZAr2QpBLaYgiIfrV1CWwJD3IEloheta14yYqvEA837OqmyK06
+         hjVA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HjIizZ27;
+       spf=pass (google.com: domain of delivery_20231023142852.33116434.256422@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20231023142852.33116434.256422@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231023142852.33116434.256422@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id pb6-20020a17090b3c0600b0026d54cdea99si338680pjb.0.2023.10.23.11.28.53
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 23 Oct 2023 11:28:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20231023142852.33116434.256422@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=KUlyT12yp6XD8gqD+FfZX5RHwL9N1xprGi/7CKVUe1I=;
+ b=HjIizZ27weiEnXlEwFF0ZW6q6dU+a6uivb+1KSfbweAgiFVNFsOmtMK5VUtL29ifVU4/d5eqXOJm
+   K88DzJWTHaSoT0AW6W9ngCWJKs/AEkt8n8e4lBrzuNxwZbL37DeIiwBrbJll396qt7S94+UJ8YCO
+   CTeBQx4ezaJCy1K4Smc=
+Received: from aws1-mta-relay5.sailthru.cloud (10.55.76.97) by pmta29.sailthru.com id h6qtma2sd4s7 for <bloomberg@khamel.com>; Mon, 23 Oct 2023 13:28:52 -0500 (envelope-from <delivery_20231023142852.33116434.256422@mx.sailthru.com>)
+Date: Mon, 23 Oct 2023 14:28:52 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231023142852.33116434.256422@sailthru.com>
+Subject: Money Stuff: Nobody Wants Mutual Funds Now
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1689688_458570863.1698085732814"
+Precedence: bulk
+x-job: 6358-33116434-20231023
+X-Feedback-ID: 6358:33116434:campaign:sailthru
+X-TM-ID: 20231023142852.33116434.256422
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-81-111.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjpssy.5huu/e9507f5a
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjpssy.5huu/e9507f5a>, <mailto:unsubscribe_20231023142852.33116434.256422@mx.sailthru.com>
+X-rpcampaign: stjko33116434
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_1689688_458570863.1698085732814
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        It feels like there are two dominant retail investment strategies: =
+Buy and hold index funds, or Actively trade individual stocks and, while=20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Barbell strategy
+   =20
+ =20
+
+It feels like there are two dominant retail investment strategies:
+=09Buy and hold index funds, or=09Actively trade individual stocks and, whi=
+le you=E2=80=99re at it, maybe options or crypto.
+
+Many ordinary people=C2=A0do not want to think about their investments much=
+, and modern finance has designed a product that is ideally suited for them=
+. It is the index fund (or index exchange-traded fund), whose essential the=
+sis is that thinking about investments is unnecessary and in fact bad, and =
+you should just buy the market and save on costs.=C2=A0
+Other people, though, do want to think about their investments, and they wa=
+nt to think about investments that are fun to think about: stocks (or optio=
+ns or crypto) that are volatile, stocks of companies that do fun or interes=
+ting or world-changing things, stocks of companies with charismatic and ent=
+ertaining chief executive officers, meme stocks.
+There is not=C2=A0much=C2=A0in between. In particular, the whole industry o=
+f active mutual fund management is built on the idea that, if you don=E2=80=
+=99t want to manage your investments, you can pay someone else to do it for=
+ you. But that idea feels pass=C3=A9 in 2023. These days, if you don=E2=80=
+=99t want to manage your investments, the accepted approach is to pay someo=
+ne else almost nothing to almost not manage them for you: An index fund wil=
+l do almost no managing and charge almost no fees, and that is widely consi=
+dered the=C2=A0optimal=C2=A0approach. And if you want to manage your invest=
+ments, you want to manage your investments; you want to pick fun stocks, no=
+t hire a star mutual fund manager to do the stock picking for=C2=A0you.
+  [1]
+
+Where does that leave the active mutual fund managers? Bloomberg=E2=80=99s =
+Silla Brush and Loukia Gyftopoulou report that   things are bad for them:
+
+Across the $100 trillion asset-management industry, money managers have con=
+fronted a tectonic shift in investor appetite for cheaper, passive strategi=
+es over the past decade. Now they=E2=80=99re facing something even more dir=
+e: The unprecedented run of bull markets that buoyed their investments and =
+masked life-threatening vulnerabilities may be a thing of the past.
+About 90% of additional revenue taken in by money managers since 2006 is si=
+mply from rising markets, and not from any ability to attract new client mo=
+ney, according to Boston Consulting Group. Many senior executives and consu=
+ltants now warn that it won=E2=80=99t take much to turn the industry's slow=
+ decline into a cliff-edge moment: One more bear market, and many of these =
+firms will find themselves beyond repair. =E2=80=A6
+More than $600 billion of client cash has headed for the exits since 2018 f=
+rom investment funds at T. Rowe, Franklin, Abrdn, Janus Henderson Group Plc=
+ and Invesco Ltd. That=E2=80=99s more than all the money overseen by Abrdn,=
+ one of the UK=E2=80=99s largest standalone asset managers. Take these five=
+ firms as a proxy for the vast middle of the industry, which, after hemorrh=
+aging client cash for the past decade, is trying to justify itself in a wor=
+ld that=E2=80=99s no longer buying what it=E2=80=99s selling. =E2=80=A6
+=E2=80=9CIt=E2=80=99s a slow but surely declining trajectory,=E2=80=9D said=
+ Markus Habbel, head of Bain & Co.=E2=80=99s global wealth- and asset-manag=
+ement practice. =E2=80=9CThere is a scenario for many of these players to s=
+urvive for a few years while their assets and revenues decline until they d=
+ie. This is the trend in the majority of the industry.=E2=80=9D
+
+Cheery!=C2=A0What do you do about this? One approach is to get into some ad=
+jacent=C2=A0business that does not rely on stock-picking; Abrdn =E2=80=9Ccu=
+t the business into three parts: a mutual fund business, a wealth unit that=
+ also serves retail investors and a platform for financial advisers =E2=80=
+=94 a strategy that has yet to prove it=E2=80=99s working.=E2=80=9D=C2=A0
+The other approach is for active managers to get out of liquid easily index=
+ed public markets and into something else. Abrdn has also =E2=80=9Clargely =
+abandoned competing in large-cap equity funds, choosing instead to emphasiz=
+e small-cap and emerging-market strategies.=E2=80=9D And of course there is=
+ private credit:
+
+For many other firms, private markets =E2=80=94 and, specifically, the priv=
+ate-credit craze =E2=80=94 are now the latest perceived savior. Almost ever=
+yone, from small to giant stock-and-bond houses, is piling into the asset c=
+lass, often for the first time. In the past year and a half, a surge in M&A=
+ in the space has been driven by such houses, including Franklin, that are =
+eager to offer clients the increasingly popular strategies, which typically=
+ charge higher fees. Others have been poaching teams or announcing plans to=
+ enter the space.
+=E2=80=9CI think that=E2=80=99s a big driver for many of these firms =E2=80=
+=94 they look at their own financials and think about what=E2=80=99s going =
+to keep us afloat over the next few years,=E2=80=9D Amanda Nelson, principa=
+l at Casey Quirk asset-management consultancy at Deloitte, said in an inter=
+view.
+
+=E2=80=9CJust buy all the stocks=E2=80=9D is a cheap and easy investing str=
+ategy that is also endorsed by academic research, but =E2=80=9Cjust make pr=
+ivate loans to all the buyouts=E2=80=9D sort of obviously doesn=E2=80=99t w=
+ork. So there is room for investment selection, and fees, there.
+Meanwhile at the Wall Street Journal,  Hannah Miao reports that actually re=
+tail stock-picking works great:
+
+Wall Street has long derided amateur investors as unsophisticated market pa=
+rticipants, prone to buying high and selling low. But the typical individua=
+l investor=E2=80=99s long-term mindset and penchant for risk-taking has pro=
+ved fruitful in the technology-driven market of the past decade, defying th=
+e =E2=80=9Cdumb money=E2=80=9D caricature.
+The average individual-investor stock portfolio has risen about 150% since =
+the beginning of 2014, according to investment research firm Vanda Research=
+, which began tracking the data nine years ago. That beats the S&P 500=E2=
+=80=99s roughly 140% during the same period.=C2=A0
+
+Some of this is about stock selection: Recent years have been good for the =
+stocks that retail investors tend to like.
+The typical small investor holds an outsize position in megacap tech compan=
+ies. Apple, Tesla and Nvidia alone make up about 40% of the average individ=
+ual=E2=80=99s stock portfolio, according to Vanda. Although big tech stocks=
+ plunged last year, those investments have dominated the market for most of=
+ the past decade and have helped fuel the S&P 500=E2=80=99s 10% advance thi=
+s year.
+But some of it is apparently behavioral: Individual investors can be more c=
+ontrarian than professionals can.
+
+One advantage small investors have over professionals: They don=E2=80=99t h=
+ave to worry about reporting performance to clients. That helps some indivi=
+duals feel comfortable riding out market downturns. =E2=80=A6
+Everyday investors are known to buy the dip, piling into markets during wea=
+k periods. Many jumped into stocks in March 2020 when the market plunged at=
+ the onset of the Covid-19 pandemic, and rode the high as shares rebounded.
+
+Crudely speaking, if index funds offer market performance, and retail inves=
+tors on average outperform the market, then professional investors on avera=
+ge will underperform the market: =E2=80=9COver the past decade, about 86% o=
+f all large-cap U.S. equity funds have underperformed the S&P 500, accordin=
+g to S&P Dow Jones Indices.=E2=80=9D
+This seems bad for the big asset managers? They are squeezed from both side=
+s: There is the rise of indexing, but there=E2=80=99s also the pretty good =
+performance of individual investors who pick their own stocks. For a long t=
+ime now, one argument for active management has been along the lines of =E2=
+=80=9Csure index funds look good in a rising market, but wait until the mar=
+ket goes down; then people will see the value of active stock selection.=E2=
+=80=9D But in fact people have seen the value of owning a lot of Apple and =
+Tesla, which they can just do on their own. The real argument for active ma=
+nagement surely has to be something like =E2=80=9Csure index funds=C2=A0and=
+ also individual stock trading look good in a market dominated by the bigge=
+st names, but wait until Tesla and Apple underperform and the way to make m=
+oney is by buying stocks that retail investors have never heard of.=E2=80=
+=9D Which is a harder pitch.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Brightline redline
+   =20
+ =20
+
+When I was a young mergers-and-acquisitions lawyer in New York, someone tol=
+d me that, when you do a merger in=C2=A0Germany, everyone has to get togeth=
+er and=C2=A0read the entire contract out loud=C2=A0before signing it. This =
+struck me as wild.
+  [2]
+=C2=A0Our=C2=A0merger agreements were so long and boring, and I could not i=
+magine reading them out loud.
+On the other hand the actual practice of corporate lawyering in New York is=
+ a little rickety too, in a way that might benefit from spending four hours=
+ reading the contract out loud to each other. Here is roughly how a corpora=
+te contract is negotiated:
+=09One side=E2=80=99s lawyers write=C2=A0the contract in Microsoft Word and=
+ email=C2=A0it to the other side=E2=80=99s lawyers as an attachment.=09Thos=
+e lawyers summarize it for their clients, get feedback, and =E2=80=9Cturn=
+=E2=80=9D the contract, writing in all of their proposals in Word and email=
+ing it back to the first side with a redline.=09The first side=E2=80=99s la=
+wyers get the contract back, summarize the changes for their clients, and t=
+urn it back with their counter-proposals.=09This continues for a while, wit=
+h each redline being a bit less red.=09Eventually the contract is close eno=
+ugh that each side=E2=80=99s lawyers print out a signature page =E2=80=94=
+=C2=A0just the last page of the contract, with page number 71 or whatever p=
+rinted on it, with a signature block for the client to sign =E2=80=94=C2=A0=
+and hand it to their client. The client signs it and scans it and sends the=
+ PDF back to the lawyers.=09At like 3:47 a.m., one side=E2=80=99s lawyers e=
+mail the draft contract in Word to the other side=E2=80=99s lawyers saying =
+=E2=80=9CI think this is final,=E2=80=9D and the other side=E2=80=99s lawye=
+rs email back =E2=80=9Clooks good, here are our signature pages,=E2=80=9D a=
+ttaching the PDF, and the first side=E2=80=99s lawyers email back =E2=80=9C=
+here are our signature pages, congratulations.=E2=80=9D=09The most junior a=
+ssociate uses Acrobat to make a PDF of the final contract and combine it wi=
+th the signature pages, so there is one PDF containing the official signed =
+contract. Then she sends it out to everyone else, though they are all in be=
+d by this point.=09Probably nobody ever reads that final PDF.
+
+This always troubled me. In law school you think that there is =E2=80=9Ca c=
+ontract,=E2=80=9D that it is a piece of=C2=A0literal paper=C2=A0signed in i=
+nk by two human beings sitting in a room with each other, and that if there=
+ is a dispute about what the contract says you can just get it and open it.=
+ But in actual high-stakes corporate contracts, there are like 40 different=
+ Word versions that exist only as attachments to emails between junior law =
+firm associates, attachments that probably even they didn=E2=80=99t read. T=
+he=C2=A0signature=C2=A0means nothing; it=E2=80=99s a blank page that someon=
+e signed and handed to the lawyers before the contract was agreed. If there=
+ is a dispute about what the contract says, you have to go back through the=
+ email chain to pick out which attachment everyone thought they were signin=
+g off on.=C2=A0The dispute will likely take the form =E2=80=9Cwe signed off=
+ on the 2:12 a.m. version and did not realize that you made changes to the =
+3:47 a.m. version that you did not flag to us.=E2=80=9D=C2=A0
+If the final step of this process was for the lawyers to say =E2=80=9Clooks=
+ good, let=E2=80=99s get some sleep and then meet up in the morning to read=
+ the whole thing out loud,=E2=80=9D some misunderstandings might be avoided=
+.
+Last=C2=A0month a group of credit funds (Certares Management and Knighthead=
+ Capital Management LLC)  sued Morgan Stanley and Brightline Holdings LLC (=
+a train company owned by Fortress Investment Group) for, I am going to say,=
+ fairly standard debt-restructuring shenanigans. Here is  the complaint. Br=
+ightline has a term loan, Morgan Stanley is the administrative agent and al=
+so a lender in the term loan, and it sold some of the loan to Certares/Knig=
+hthead funds. (Morgan Stanley is the Tranche A lender; Certares/Knighthead =
+are in the Tranche B.)=C2=A0Certares and Knighthead think that Brightline i=
+s looking to borrow more money elsewhere, which, they say, would trigger pr=
+epayment of the term loan with a big makewhole payment to them. But Brightl=
+ine has reshuffled its corporate structure to move some of its subsidiaries=
+ out of the borrower group, so that they can borrow more money without repa=
+ying Certares/Knighthead. Certares/Knighthead argue that this reshuffling w=
+as not allowed under the terms of the credit agreement.=C2=A0
+Again this is the  standard form of  debt restructuring fight: A borrower h=
+as a loan, it wants to borrow more money cheaply, it finds a way to take aw=
+ay some of its existing lenders=E2=80=99 collateral and give it to new lend=
+ers so it can borrow more money, the existing lenders say =E2=80=9Cthat=E2=
+=80=99s not allowed by the terms of the credit agreement,=E2=80=9D the borr=
+ower says =E2=80=9Csure it is,=E2=80=9D and they argue about what the terms=
+ of the credit agreement=C2=A0mean.
+Usually, though, they agree about what the credit agreement=C2=A0says. Here=
+, Certares and Knighthead claim that Brightline/Morgan Stanley trickily sla=
+pped their signature pages onto the wrong contract. From the complaint:
+
+On or about December 15, 2022, Morgan Stanley=E2=80=99s outside counsel sen=
+t Knighthead a draft amendment to the Credit Agreement, which included a dr=
+aft =E2=80=9CAmendment No. 5,=E2=80=9D and an amended version of the Credit=
+ Agreement (the =E2=80=9CDraft Fifth Amended Credit Agreement=E2=80=9D). ..=
+.
+The Draft Fifth Amended Credit Agreement included the following new languag=
+e, added as proposed section 2.11(h), in the section relating to mandatory =
+prepayments:
+=E2=80=9CSale of Preferred Equity. On or prior to December [22], 2022, the =
+Borrower shall prepay Tranche A Term loans in an aggregate amount of $25,00=
+0,000. For the avoidance of doubt, the Borrower shall make such prepayment =
+regardless of the ability of the Borrower to directly apply any applicable =
+proceeds from the sale of Capital Stock of the Borrower or any of its Subsi=
+diaries to prepay Tranche A Term Loans.=E2=80=9D ...
+After Knighthead and Certares reviewed the Draft Fifth Amended Credit Agree=
+ment and provided it to outside counsel for review, Knighthead emailed Morg=
+an Stanley and its outside counsel, attaching a signature page for CK Oppor=
+tunities Fund.
+Yet when Morgan Stanley=E2=80=99s outside counsel returned a purportedly =
+=E2=80=9Cfully executed=E2=80=9D version of the amendment (copying Morgan S=
+tanley personnel) on December 16, 2022, the supposedly fully executed versi=
+on included important language in the new section 2.11(h) that Knighthead a=
+nd Certares had not before seen and had not agreed to.
+Section 2.11(h) of the purportedly =E2=80=9Cfully executed=E2=80=9D version=
+ of the fifth amended credit agreement stated (relevant new language in bol=
+d):
+=E2=80=9CSale of Preferred Equity. Notwithstanding any other provision of t=
+his Section 2.11, in connection with the sale or issuance of Capital Stock =
+of BL West Holdings LLC on or about December 15, 2022, the Borrower shall p=
+repay Tranche A Term Loans in an aggregate amount of $25,000,000 on or prio=
+r to December 22, 2022. For the avoidance of doubt, the Borrower shall make=
+ such prepayment regardless of the ability of the Borrower to directly appl=
+y any applicable proceeds from the sale of Capital Stock of the Borrower or=
+ any of its Subsidiaries to prepay Tranche A Term Loans.=E2=80=9D
+
+The details are not particularly important.
+  [3]
+ What=E2=80=99s important is the email chain. A contract exists,=C2=A0in th=
+e form of a PDF with the Certares/Knighthead fund=E2=80=99s signature, but =
+the two sides disagree about=C2=A0what it says.
+
+ =20
+   =20
+      Bail-in
+   =20
+ =20
+
+A general problem in banking crises is:
+=09If a bank is in trouble, the best way to fix that trouble is ordinarily =
+for the bank to issue equity, but=09If the bank tells potential investors h=
+ow much trouble it is in, they might not want to buy that equity.
+
+This problem can create a tension between regulators. Financial stability r=
+egulators will want banks that are in trouble to be able to raise equity qu=
+ickly and reliably; they will mostly be concerned about getting a deal done=
+. Meanwhile securities regulators care about disclosure and securities frau=
+d, and will want to make sure that banks that are in trouble fully disclose=
+ their trouble to potential investors.
+This spring, Silicon Valley Bank  actually had a deal to raise equity by se=
+lling new stock to investors, but as it was lining up the deal it also cont=
+inued to lose deposits. Its=C2=A0lawyers =E2=80=9Csaid the deal couldn=E2=
+=80=99t go forward without a disclosure about the deposit losses,=E2=80=9D =
+and its bankers decided that that disclosure would kill the deal; they canc=
+eled it instead, and the bank failed. Had it just=C2=A0not told investors t=
+he extent of the problem, it might have raised enough money to fix it. If S=
+VB had called up the US Securities and Exchange Commission and said =E2=80=
+=9Chey can we do this deal without disclosing our huge deposit outflows,=E2=
+=80=9D the SEC would probably have said =E2=80=9Cnah sounds like fraud.=E2=
+=80=9D But if it had called up the=C2=A0Federal Reserve and asked that ques=
+tion, the Fed might have been tempted to say yes.
+One bizarre place that this has come up is in =E2=80=9Cbail-in bonds.=E2=80=
+=9D European banking regulators have a financial stability tool called the =
+=E2=80=9Cbail-in,=E2=80=9D in which the regulator can decide that a bank is=
+ in trouble and replace some of its bonds =E2=80=94=C2=A0the bonds that mak=
+e up part of its =E2=80=9Ctotal loss absorbing capital,=E2=80=9D or TLAC
+  [4]
+ =E2=80=94 with equity. This improves the bank=E2=80=99s financial situatio=
+n: It no longer owes as much money, and it has more equity. It also neatly =
+resolves the general problem we started with: The bank raises more equity, =
+not by lying to investors to convince them to invest, and also not by telli=
+ng them the truth and hoping they will invest anyway, but by=C2=A0forcing t=
+hem to invest. Holders of the bail-in bonds just=C2=A0become=C2=A0equity in=
+vestors whether they want to or not, and of course they don=E2=80=99t.=C2=
+=A0By automatically converting the bonds, the financial stability regulator=
+ avoids the tension between the need for full disclosure and the need to ge=
+t equity fast.
+Or does it? Earlier this month the Financial Stability Board released a rep=
+ort on =E2=80=9C2023 Bank Failures: Preliminary lessons learnt for resoluti=
+on.=E2=80=9D
+  [5]
+=C2=A0The  report=C2=A0discusses bail-ins as a way to fix struggling banks,=
+ but includes this worry that a bail-in might be blocked by the US Securiti=
+es and Exchange Commission:
+
+According to the SEC staff, there would have been legal challenges relating=
+ to US securities laws in executing a bail-in; they noted that banks need t=
+o prepare sufficiently to comply with US securities laws after an open bank=
+ bail-in. US investors held bail-in bonds issued by Credit Suisse represent=
+ing a significant portion of the firm=E2=80=99s TLAC. US securities laws ap=
+ply to any TLAC instruments held by US investors, irrespective of the curre=
+ncy or governing law of that TLAC instrument.=C2=A0
+Under US law, all offers and sales of securities need to be either register=
+ed=C2=A0or exempt=C2=A0from registration. The conversion of Credit Suisse=
+=E2=80=99s bail-in-bonds to equity would have constituted a sale, thus requ=
+iring registration or an exemption.
+In the view of the SEC staff, among the challenges involved in executing op=
+en-bank bail-in in compliance with US federal securities laws is that it wo=
+uld require detailed preparation, including possibly adapting the bank=E2=
+=80=99s systems to enable prompt provision to the market of current and acc=
+urate (pro-forma) financial statements. In an open-bank bail-in, the SEC st=
+aff considered that it would be difficult for an issuer to compile the disc=
+losures required by securities regulations and anti-fraud laws over a resol=
+ution weekend and that ex ante preparations would be necessary to mitigate =
+these challenges. In order to ensure confidence in the execution of bail-in=
+, it is essential for authorities to cooperate among themselves and work to=
+gether with the firms, as part of resolution planning, to reduce legal unce=
+rtainties. Further work will be planned with the SEC to explain potential l=
+egal challenges to effective bail-in of TLAC instruments and to describe ho=
+w firms can undertake actions to comply with the US federal securities laws=
+ and thereby enhance the legal certainty of bail-in.
+
+This seems like a very strange thing for the SEC to think? Investors in bai=
+l-in bonds don=E2=80=99t get any choice in the matter, so you don=E2=80=99t=
+=C2=A0really=C2=A0need to provide them with disclosure before converting th=
+eir bonds. And in fact the US securities laws do contain an exemption from =
+registration (Section 3(a)(9)) for =E2=80=9Cany security exchanged by the i=
+ssuer with its existing security holders exclusively where no commission or=
+ other remuneration is paid or given directly or indirectly for soliciting =
+such exchange,=E2=80=9D which would seem to cover a bail-in. Here is a  cli=
+ent memo from the law firm Cleary Gottlieb Steen & Hamilton LLP, who share =
+my=C2=A0puzzlement at the problem:
+
+In this memo, we explain that while there are U.S. securities laws that wou=
+ld be implicated in the event of a bail-in of a UK or European bank, these =
+would not constitute an impediment to bail-in. =E2=80=A6.
+Given the speed at which a bail-in may need to be exercised, it will likely=
+ not be feasible to register the exchange of bail-in bonds for new shares, =
+as the registration process is lengthy and typically requires several month=
+s of review and comment by the SEC. In most cases, however, the exemption f=
+rom registration under Section 3(a)(9) of the Securities Act should apply t=
+o the exchange of bail-in bonds.
+
+Of course the SEC is right that the bank really ought to =E2=80=9Cenable pr=
+ompt provision to the market of current and accurate (pro-forma) financial =
+statements=E2=80=9D: Presumably its stock will continue to trade after the =
+bail-in (that=E2=80=99s the point of the bail-in!), and stock investors wil=
+l want accurate disclosure if they are buying and selling the stock. But=C2=
+=A0that=E2=80=99s true without the bail-in too: Any bank crisis is going to=
+ be complicated and fast-moving, and a bank will have to figure out the fre=
+quency and details of its public disclosures to keep shareholders informed.=
+ Vaporizing some debt into stock adds some complication =E2=80=94=C2=A0you =
+might want =E2=80=9Ccurrent and accurate (pro-forma) financial statements=
+=E2=80=9D to reflect the vaporization =E2=80=94=C2=A0but honestly it seems =
+like=C2=A0less=C2=A0of a big deal than, you know, huge deposit flight.
+
+ =20
+   =20
+      Carbon accounting
+   =20
+ =20
+
+Carbon credits are largely a matter of baselines. We talk about this a lot =
+with trees. One classic way to get carbon credits is by  not chopping down =
+a forest. But the amount of credit you can claim for this is necessarily bo=
+und up with the question of whether the forest would have been chopped down=
+ without your intervention. This creates oddities.=C2=A0We  talked last wee=
+k about a carbon-offset project in Zimbabwe that ran into trouble because=
+=C2=A0too few trees were chopped down:=C2=A0Sure the trees that the project=
+ protected weren=E2=80=99t chopped down, but neither were trees in a nearby=
+ =E2=80=9Creference=E2=80=9D=C2=A0forest, so the=C2=A0impact=C2=A0of the ca=
+rbon-offset project was limited. =E2=80=9CThat seems good,=E2=80=9D I wrote=
+. =E2=80=9CFor the climate? But bad for the people hawking carbon credits.=
+=E2=80=9D
+Direct carbon capture technology =E2=80=94=C2=A0where you  build a big mach=
+ine to =E2=80=9Csuck carbon dioxide out of the atmosphere and bury it deep =
+underground=E2=80=9D =E2=80=94=C2=A0has=C2=A0less=C2=A0of this baseline pro=
+blem. But not none!
+For instance: If you have a natural gas processing plant, it will produce n=
+atural gas, which creates carbon dioxide emissions, which are bad for the c=
+limate. If you build a carbon capture plant at the gas=C2=A0processing=C2=
+=A0plant to capture and store carbon dioxide from the gas it processes, tha=
+t will reduce the carbon dioxide that the plant produces, which is good for=
+ the climate.=C2=A0On net, the plant will be bad for the climate =E2=80=94=
+=C2=A0it will produce more carbon dioxide than it captures =E2=80=94=C2=A0b=
+ut people need energy and this might be better than the alternative.
+What if you shut down the plant? No gas, no carbon capture. Is that good or=
+ bad? Well, if the plant was on net producing carbon dioxide, then shutting=
+ it down will produce no carbon dioxide, which seems good. On the other han=
+d, the accounting for natural gas emissions and carbon capture are separate=
+. There are lots of natural gas plants, and only so many carbon capture pla=
+nts. If you shut down the whole thing, some other plant will pick up the na=
+tural-gas-processing slack, but nobody else will pick up the carbon-capture=
+ slack. People need energy, and=C2=A0if your plant =E2=80=94=C2=A0your natu=
+ral-gas-plus-carbon-capture plant =E2=80=94=C2=A0was better than the altern=
+ative, and you shut it down, then the world will get the worse alternative =
+instead.
+Here is  a Bloomberg Green story about how Occidental Petroleum Corp. built=
+ =E2=80=9Ca mega-plant for carbon capture and storage =E2=80=A6=C2=A0into a=
+ natural gas processing plant=E2=80=9D; the project was called Century. But=
+:
+
+A=C2=A0Bloomberg Green=C2=A0investigation has revealed that Century never o=
+perated at more than a third of its capacity in the 13 years it=E2=80=99s b=
+een running. The technology worked but the economics didn=E2=80=99t hold up=
+ because of limited gas supplied from a nearby field, leading to disuse and=
+ eventual divestment. Oxy quietly sold off the project last year for a frac=
+tion of the build cost. =E2=80=A6
+It might seem, from a climate perspective, like a boon that Century never r=
+eached its full potential since its performance was inextricably linked to =
+natural gas production. But picking the wrong location for an expensive car=
+bon capture project carried real climate costs. Cheaper shale gas elsewhere=
+ met the same demand, without the benefit of carbon capture. As a result, t=
+otal emissions likely ended up higher.
+
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+ Chevron to Buy Hess for $53 Billion in Latest Oil Megadeal. Treasury 10-Ye=
+ar Yield Breaches   5% for First Time Since 2007.=C2=A0Qatar=E2=80=99s Hama=
+s Ties Could Thwart $475 Billion Investing Ambition.=C2=A0Private-Equity Pr=
+ofessionals Remain  Upbeat on Pay Despite Industry Slump. Investors Find Va=
+lue in Seemingly Valueless   Convertible Bonds. Pimco Is Selling   Hung Deb=
+t It Bought From Banks for a Premium. There=E2=80=99s Never Been a Worse Ti=
+me to  Buy Instead of Rent. Car Owners Fall   Behind on Payments at Highest=
+ Rate on Record. Business Schools Grapple With How To   Teach Artificial In=
+telligence. The  fake hitman, the crypto king and a wild revenge plan gone =
+bad.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] One important element here is that mutual funds were once a way to di=
+versify your stock portfolio in a world where the normal way to buy individ=
+ual stocks was in round lots of 100 shares. If you had $10,000 to invest, t=
+hat might get you 100 shares of one or two stocks, whereas a mutual fund co=
+uld buy dozens of stocks for you and give you fractional ownership of each =
+of them. But now you can trade individual stocks for free and buy fractiona=
+l shares directly from your broker, so that benefit of mutual funds is much=
+ less important.
+
+
+  [2] Casual Googling suggests that  this is true, but oh man is this not G=
+erman legal advice.
+
+
+  [3] Basically Brightline=E2=80=99s position appears to be that if subsidi=
+aries sell new stock, then they stop being guarantor subsidiaries and so ca=
+n go borrow new money without repaying Certares/Knighthead. Certares/Knight=
+head disagree with this position. But if the credit agreement was amended t=
+o specifically acknowledge the sale of stock by a subsidiary, and Certares/=
+Knighthead signed off on it, then Brightline would have an easier time argu=
+ing =E2=80=9Cyou agreed to let us do this trade so it must be fine.=E2=80=
+=9D=20
+
+
+  [4] This is distinct from banks=E2=80=99   additional tier 1 capital secu=
+rities, hybrid instruments that by their terms convert into equity (or are =
+written down) in some bad scenarios. But it is conceptually similar.
+
+
+  [5] Robin Wigglesworth at  FT Alphaville discussed it at the time.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjpssy.5huu/35a4a8e2.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_1689688_458570863.1698085732814
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+It feels like there are two dominant retail investment strategies: Buy and =
+hold index funds, or Actively trade individual stocks and, while=20
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMDIzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMjMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBab83f8df"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzExNjQzNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMzNzI4NTYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB74bace8e" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33116434&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33372856&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Barbell strategy</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">It feels like there are two dominant retail in=
+vestment strategies:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Buy and hold index funds, or</li>=09<=
+li style=3D"margin-bottom: 5px;">Actively trade individual stocks and, whil=
+e you=E2=80=99re at it, maybe options or crypto.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Many ordinary people=C2=A0do not want to think=
+ about their investments much, and modern finance has designed a product th=
+at is ideally suited for them. It is the index fund (or index exchange-trad=
+ed fund), whose essential thesis is that thinking about investments is unne=
+cessary and in fact bad, and you should just buy the market and save on cos=
+ts.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Other people, though, do want to think about t=
+heir investments, and they want to think about investments that are fun to =
+think about: stocks (or options or crypto) that are volatile, stocks of com=
+panies that do fun or interesting or world-changing things, stocks of compa=
+nies with charismatic and entertaining chief executive officers, meme stock=
+s.</p>
+<p style=3D"margin: 16px 0;">There is not=C2=A0<em>much=C2=A0</em>in betwee=
+n. In particular, the whole industry of active mutual fund management is bu=
+ilt on the idea that, if you don=E2=80=99t want to manage your investments,=
+ you can pay someone else to do it for you. But that idea feels pass=C3=A9 =
+in 2023. These days, if you don=E2=80=99t want to manage your investments, =
+the accepted approach is to pay someone else almost nothing to almost not m=
+anage them for you: An index fund will do almost no managing and charge alm=
+ost no fees, and that is widely considered the=C2=A0<em>optimal=C2=A0</em>a=
+pproach. And if you want to manage your investments, you want to manage you=
+r investments; you want to pick fun stocks, not hire a star mutual fund man=
+ager to do the stock picking for=C2=A0you.<a class=3D"footnote-index" href=
+=3D"#footnote-1" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[1]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Where does that leave the active mutual fund m=
+anagers? Bloomberg=E2=80=99s Silla Brush and Loukia Gyftopoulou report that=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMTAtMjIvYWN0aXZl=
+LXZzLXBhc3NpdmUtaW52ZXN0aW5nLW1vbmV5LW1hbmFnZXJzLWNvbmZyb250LWVuZC1vZi1idWx=
+sLW1hcmtldD9jbXBpZD1CQkQxMDIzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV=
+9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMjMmdXRtX2NhbXBhaWduPW1vbmV5c3R1Z=
+mY/607f07ceef4b8524a319a23cB8b7fc51c" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  things are bad for them</a>=
+:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Across the $100 trillion asset-management indu=
+stry, money managers have confronted a tectonic shift in investor appetite =
+for cheaper, passive strategies over the past decade. Now they=E2=80=99re f=
+acing something even more dire: The unprecedented run of bull markets that =
+buoyed their investments and masked life-threatening vulnerabilities may be=
+ a thing of the past.</p>
+<p style=3D"margin: 16px 0;">About 90% of additional revenue taken in by mo=
+ney managers since 2006 is simply from rising markets, and not from any abi=
+lity to attract new client money, according to Boston Consulting Group. Man=
+y senior executives and consultants now warn that it won=E2=80=99t take muc=
+h to turn the industry's slow decline into a cliff-edge moment: One more be=
+ar market, and many of these firms will find themselves beyond repair. =E2=
+=80=A6</p>
+<p style=3D"margin: 16px 0;">More than $600 billion of client cash has head=
+ed for the exits since 2018 from investment funds at T. Rowe, Franklin, Abr=
+dn, Janus Henderson Group Plc and Invesco Ltd. That=E2=80=99s more than all=
+ the money overseen by Abrdn, one of the UK=E2=80=99s largest standalone as=
+set managers. Take these five firms as a proxy for the vast middle of the i=
+ndustry, which, after hemorrhaging client cash for the past decade, is tryi=
+ng to justify itself in a world that=E2=80=99s no longer buying what it=E2=
+=80=99s selling. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s a slow but surely declin=
+ing trajectory,=E2=80=9D said Markus Habbel, head of Bain &amp; Co.=E2=80=
+=99s global wealth- and asset-management practice. =E2=80=9CThere is a scen=
+ario for many of these players to survive for a few years while their asset=
+s and revenues decline until they die. This is the trend in the majority of=
+ the industry.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Cheery!=C2=A0What do you do about this? One ap=
+proach is to get into some adjacent=C2=A0business that does not rely on sto=
+ck-picking; Abrdn =E2=80=9Ccut the business into three parts: a mutual fund=
+ business, a wealth unit that also serves retail investors and a platform f=
+or financial advisers =E2=80=94 a strategy that has yet to prove it=E2=80=
+=99s working.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">The other approach is for active managers to g=
+et out of liquid easily indexed public markets and into something else. Abr=
+dn has also =E2=80=9Clargely abandoned competing in large-cap equity funds,=
+ choosing instead to emphasize small-cap and emerging-market strategies.=E2=
+=80=9D And of course there is private credit:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">For many other firms, private markets =E2=80=
+=94 and, specifically, the private-credit craze =E2=80=94 are now the lates=
+t perceived savior. Almost everyone, from small to giant stock-and-bond hou=
+ses, is piling into the asset class, often for the first time. In the past =
+year and a half, a surge in M&amp;A in the space has been driven by such ho=
+uses, including Franklin, that are eager to offer clients the increasingly =
+popular strategies, which typically charge higher fees. Others have been po=
+aching teams or announcing plans to enter the space.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CI think that=E2=80=99s a big driver f=
+or many of these firms =E2=80=94 they look at their own financials and thin=
+k about what=E2=80=99s going to keep us afloat over the next few years,=E2=
+=80=9D Amanda Nelson, principal at Casey Quirk asset-management consultancy=
+ at Deloitte, said in an interview.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CJust buy all the stocks=E2=80=9D is a=
+ cheap and easy investing strategy that is also endorsed by academic resear=
+ch, but =E2=80=9Cjust make private loans to all the buyouts=E2=80=9D sort o=
+f obviously doesn=E2=80=99t work. So there is room for investment selection=
+, and fees, there.</p>
+<p style=3D"margin: 16px 0;">Meanwhile at the Wall Street Journal, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aHR0cHM6L=
+y93d3cud3NqLmNvbS9maW5hbmNlL3N0b2Nrcy93aG8teW91LWNhbGxpbmctZHVtYi1tb25leS1l=
+dmVyeWRheS1pbnZlc3RvcnMtZG8tanVzdC1maW5lLTlkZDYzODkyP21vZD1ocF9sZWFkX3Bvczg=
+/607f07ceef4b8524a319a23cB2b0d870a" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> Hannah Miao reports</a> that a=
+ctually retail stock-picking works great:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Wall Street has long derided amateur investors=
+ as unsophisticated market participants, prone to buying high and selling l=
+ow. But the typical individual investor=E2=80=99s long-term mindset and pen=
+chant for risk-taking has proved fruitful in the technology-driven market o=
+f the past decade, defying the =E2=80=9Cdumb money=E2=80=9D caricature.</p>
+<p style=3D"margin: 16px 0;">The average individual-investor stock portfoli=
+o has risen about 150% since the beginning of 2014, according to investment=
+ research firm Vanda Research, which began tracking the data nine years ago=
+. That beats the S&amp;P 500=E2=80=99s roughly 140% during the same period.=
+=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Some of this is about stock selection: Recent =
+years have been good for the stocks that retail investors tend to like.</p>
+<blockquote><p style=3D"margin: 16px 0;">The typical small investor holds a=
+n outsize position in megacap tech companies. Apple, Tesla and Nvidia alone=
+ make up about 40% of the average individual=E2=80=99s stock portfolio, acc=
+ording to Vanda. Although big tech stocks plunged last year, those investme=
+nts have dominated the market for most of the past decade and have helped f=
+uel the S&amp;P 500=E2=80=99s 10% advance this year.</p></blockquote>
+<p style=3D"margin: 16px 0;">But some of it is apparently behavioral: Indiv=
+idual investors can be more contrarian than professionals can.</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">One advantage small investors have over profes=
+sionals: They don=E2=80=99t have to worry about reporting performance to cl=
+ients. That helps some individuals feel comfortable riding out market downt=
+urns. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Everyday investors are known to buy the dip, p=
+iling into markets during weak periods. Many jumped into stocks in March 20=
+20 when the market plunged at the onset of the Covid-19 pandemic, and rode =
+the high as shares rebounded.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Crudely speaking, if index funds offer market =
+performance, and retail investors on average outperform the market, then pr=
+ofessional investors on average will underperform the market: =E2=80=9COver=
+ the past decade, about 86% of all large-cap U.S. equity funds have underpe=
+rformed the S&amp;P 500, according to S&amp;P Dow Jones Indices.=E2=80=9D</=
+p>
+<p style=3D"margin: 16px 0;">This seems bad for the big asset managers? The=
+y are squeezed from both sides: There is the rise of indexing, but there=E2=
+=80=99s also the pretty good performance of individual investors who pick t=
+heir own stocks. For a long time now, one argument for active management ha=
+s been along the lines of =E2=80=9Csure index funds look good in a rising m=
+arket, but wait until the market goes down; then people will see the value =
+of active stock selection.=E2=80=9D But in fact people have seen the value =
+of owning a lot of Apple and Tesla, which they can just do on their own. Th=
+e real argument for active management surely has to be something like =E2=
+=80=9Csure index funds=C2=A0and also individual stock trading look good in =
+a market dominated by the biggest names, but wait until Tesla and Apple und=
+erperform and the way to make money is by buying stocks that retail investo=
+rs have never heard of.=E2=80=9D Which is a harder pitch.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzExNjQzNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMzNzI4NTYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC482a93cd" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33116434&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33372856&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzExNjQzNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMzNzI4NTYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD482a93cd" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33116434&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33372856&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Brightline redline</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">When I was a young mergers-and-acquisitions la=
+wyer in New York, someone told me that, when you do a merger in=C2=A0German=
+y, everyone has to get together and=C2=A0<em>read the entire contract out l=
+oud=C2=A0</em>before signing it. This struck me as wild.<a class=3D"footnot=
+e-index" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: none !important; background-color: transparent !important; =
+display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0<em>Our=C2=A0</em>merger agreements were so long and boring, and =
+I could not imagine reading them out loud.</p>
+<p style=3D"margin: 16px 0;">On the other hand the actual practice of corpo=
+rate lawyering in New York is a little rickety too, in a way that might ben=
+efit from spending four hours reading the contract out loud to each other. =
+Here is roughly how a corporate contract is negotiated:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">One side=E2=80=99s lawyers write=C2=
+=A0the contract in Microsoft Word and email=C2=A0it to the other side=E2=80=
+=99s lawyers as an attachment.</li>=09<li style=3D"margin-bottom: 5px;">Tho=
+se lawyers summarize it for their clients, get feedback, and =E2=80=9Cturn=
+=E2=80=9D the contract, writing in all of their proposals in Word and email=
+ing it back to the first side with a redline.</li>=09<li style=3D"margin-bo=
+ttom: 5px;">The first side=E2=80=99s lawyers get the contract back, summari=
+ze the changes for their clients, and turn it back with their counter-propo=
+sals.</li>=09<li style=3D"margin-bottom: 5px;">This continues for a while, =
+with each redline being a bit less red.</li>=09<li style=3D"margin-bottom: =
+5px;">Eventually the contract is close enough that each side=E2=80=99s lawy=
+ers print out a signature page =E2=80=94=C2=A0just the last page of the con=
+tract, with page number 71 or whatever printed on it, with a signature bloc=
+k for the client to sign =E2=80=94=C2=A0and hand it to their client. The cl=
+ient signs it and scans it and sends the PDF back to the lawyers.</li>=09<l=
+i style=3D"margin-bottom: 5px;">At like 3:47 a.m., one side=E2=80=99s lawye=
+rs email the draft contract in Word to the other side=E2=80=99s lawyers say=
+ing =E2=80=9CI think this is final,=E2=80=9D and the other side=E2=80=99s l=
+awyers email back =E2=80=9Clooks good, here are our signature pages,=E2=80=
+=9D attaching the PDF, and the first side=E2=80=99s lawyers email back =E2=
+=80=9Chere are our signature pages, congratulations.=E2=80=9D</li>=09<li st=
+yle=3D"margin-bottom: 5px;">The most junior associate uses Acrobat to make =
+a PDF of the final contract and combine it with the signature pages, so the=
+re is one PDF containing the official signed contract. Then she sends it ou=
+t to everyone else, though they are all in bed by this point.</li>=09<li st=
+yle=3D"margin-bottom: 5px;">Probably nobody ever reads that final PDF.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This always troubled me. In law school you thi=
+nk that there is =E2=80=9Ca contract,=E2=80=9D that it is a piece of=C2=A0<=
+em>literal paper</em>=C2=A0signed in ink by two human beings sitting in a r=
+oom with each other, and that if there is a dispute about what the contract=
+ says you can just get it and open it. But in actual high-stakes corporate =
+contracts, there are like 40 different Word versions that exist only as att=
+achments to emails between junior law firm associates, attachments that pro=
+bably even they didn=E2=80=99t read. The=C2=A0<em>signature=C2=A0</em>means=
+ nothing; it=E2=80=99s a blank page that someone signed and handed to the l=
+awyers before the contract was agreed. If there is a dispute about what the=
+ contract says, you have to go back through the email chain to pick out whi=
+ch attachment everyone thought they were signing off on.=C2=A0The dispute w=
+ill likely take the form =E2=80=9Cwe signed off on the 2:12 a.m. version an=
+d did not realize that you made changes to the 3:47 a.m. version that you d=
+id not flag to us.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">If the final step of this process was for the =
+lawyers to say =E2=80=9Clooks good, let=E2=80=99s get some sleep and then m=
+eet up in the morning to read the whole thing out loud,=E2=80=9D some misun=
+derstandings might be avoided.</p>
+<p style=3D"margin: 16px 0;">Last=C2=A0month a group of credit funds (Certa=
+res Management and Knighthead Capital Management LLC) <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/33116434.256422/aHR0cHM6Ly9uZXdzLmJsb29=
+tYmVyZ2xhdy5jb20vcHJpdmF0ZS1lcXVpdHkvbW9yZ2FuLXN0YW5sZXktc3VlZC1mb3ItNzUwLW=
+1pbGxpb24tYnktcGUtZmlybXMtY2xhaW1pbmctZnJhdWQ/607f07ceef4b8524a319a23cBd051=
+243a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> sued Morgan Stanley and Brightline Holdings LLC</a> (a train=
+ company owned by Fortress Investment Group) for, I am going to say, fairly=
+ standard debt-restructuring shenanigans. Here is <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/33116434.256422/aHR0cHM6Ly9hc3NldHMuYndieC5=
+pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JJUU40SF9MbVdUay92MA/607f07ceef4=
+b8524a319a23cB7b43323b" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> the complaint</a>. Brightline has a term l=
+oan, Morgan Stanley is the administrative agent and also a lender in the te=
+rm loan, and it sold some of the loan to Certares/Knighthead funds. (Morgan=
+ Stanley is the Tranche A lender; Certares/Knighthead are in the Tranche B.=
+)=C2=A0Certares and Knighthead think that Brightline is looking to borrow m=
+ore money elsewhere, which, they say, would trigger prepayment of the term =
+loan with a big makewhole payment to them. But Brightline has reshuffled it=
+s corporate structure to move some of its subsidiaries out of the borrower =
+group, so that they can borrow more money without repaying Certares/Knighth=
+ead. Certares/Knighthead argue that this reshuffling was not allowed under =
+the terms of the credit agreement.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Again this is the <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/33116434.256422/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMjQvZGVidC1pcy10cmlja2llci10aGFuLWVxd=
+Wl0eT9jbXBpZD1CQkQxMDIzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3Vy=
+Y2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMjMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607=
+f07ceef4b8524a319a23cB3d40bb7e" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> standard form</a> of <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/33116434.256422/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMDcvZGlzdHJlc3NlZC1kZW=
+J0LWRlYWwtbWFrZXMtcGVvcGxlLW1hZD9jbXBpZD1CQkQxMDIzMjNfTU9ORVlTVFVGRiZ1dG1fb=
+WVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMjMmdXRtX2Nh=
+bXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBfef494da" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> debt re=
+structuring fight</a>: A borrower has a loan, it wants to borrow more money=
+ cheaply, it finds a way to take away some of its existing lenders=E2=80=99=
+ collateral and give it to new lenders so it can borrow more money, the exi=
+sting lenders say =E2=80=9Cthat=E2=80=99s not allowed by the terms of the c=
+redit agreement,=E2=80=9D the borrower says =E2=80=9Csure it is,=E2=80=9D a=
+nd they argue about what the terms of the credit agreement=C2=A0<em>mean</e=
+m>.</p>
+<p style=3D"margin: 16px 0;">Usually, though, they agree about what the cre=
+dit agreement=C2=A0<em>say</em><em>s</em>. Here, Certares and Knighthead cl=
+aim that Brightline/Morgan Stanley trickily slapped their signature pages o=
+nto the wrong contract. From the complaint:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On or about December 15, 2022, Morgan Stanley=
+=E2=80=99s outside counsel sent Knighthead a draft amendment to the Credit =
+Agreement, which included a draft =E2=80=9CAmendment No. 5,=E2=80=9D and an=
+ amended version of the Credit Agreement (the =E2=80=9CDraft Fifth Amended =
+Credit Agreement=E2=80=9D). ...</p>
+<p style=3D"margin: 16px 0;">The Draft Fifth Amended Credit Agreement inclu=
+ded the following new language, added as proposed section 2.11(h), in the s=
+ection relating to mandatory prepayments:</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CSale of Preferred Equity. On or prior=
+ to December [22], 2022, the Borrower shall prepay Tranche A Term loans in =
+an aggregate amount of $25,000,000. For the avoidance of doubt, the Borrowe=
+r shall make such prepayment regardless of the ability of the Borrower to d=
+irectly apply any applicable proceeds from the sale of Capital Stock of the=
+ Borrower or any of its Subsidiaries to prepay Tranche A Term Loans.=E2=80=
+=9D ...</p>
+<p style=3D"margin: 16px 0;">After Knighthead and Certares reviewed the Dra=
+ft Fifth Amended Credit Agreement and provided it to outside counsel for re=
+view, Knighthead emailed Morgan Stanley and its outside counsel, attaching =
+a signature page for CK Opportunities Fund.</p>
+<p style=3D"margin: 16px 0;">Yet when Morgan Stanley=E2=80=99s outside coun=
+sel returned a purportedly =E2=80=9Cfully executed=E2=80=9D version of the =
+amendment (copying Morgan Stanley personnel) on December 16, 2022, the supp=
+osedly fully executed version included important language in the new sectio=
+n 2.11(h) that Knighthead and Certares had not before seen and had not agre=
+ed to.</p>
+<p style=3D"margin: 16px 0;">Section 2.11(h) of the purportedly =E2=80=9Cfu=
+lly executed=E2=80=9D version of the fifth amended credit agreement stated =
+(relevant new language in bold):</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CSale of Preferred Equity. <strong>Not=
+withstanding any other provision of this Section 2.11, in connection with t=
+he sale or issuance of Capital Stock of BL West Holdings LLC on or about De=
+cember 15, 2022</strong>, the Borrower shall prepay Tranche A Term Loans in=
+ an aggregate amount of $25,000,000 on or prior to December 22, 2022. For t=
+he avoidance of doubt, the Borrower shall make such prepayment regardless o=
+f the ability of the Borrower to directly apply any applicable proceeds fro=
+m the sale of Capital Stock of the Borrower or any of its Subsidiaries to p=
+repay Tranche A Term Loans.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The details are not particularly important.<a =
+class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: none !important; background-color: transpar=
+ent !important; display: inline-block;">
+<span>[3]</span>
+</a> What=E2=80=99s important is the email chain. A contract exists,=C2=A0i=
+n the form of a PDF with the Certares/Knighthead fund=E2=80=99s signature, =
+but the two sides disagree about=C2=A0what it says.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bail-in</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A general problem in banking crises is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If a bank is in trouble, the best way=
+ to fix that trouble is ordinarily for the bank to issue equity, but</li>=
+=09<li style=3D"margin-bottom: 5px;">If the bank tells potential investors =
+how much trouble it is in, they might not want to buy that equity.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This problem can create a tension between regu=
+lators. Financial stability regulators will want banks that are in trouble =
+to be able to raise equity quickly and reliably; they will mostly be concer=
+ned about getting a deal done. Meanwhile securities regulators care about d=
+isclosure and securities fraud, and will want to make sure that banks that =
+are in trouble fully disclose their trouble to potential investors.</p>
+<p style=3D"margin: 16px 0;">This spring, Silicon Valley Bank <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/33116434.256422/aHR0cHM6Ly93d3c=
+ud3NqLmNvbS9hcnRpY2xlcy9ob3ctZ29sZG1hbnMtcGxhbi10by1zaG9yZS11cC1zaWxpY29uLX=
+ZhbGxleS1iYW5rLWNydW1ibGVkLTk2YmI0NGJi/607f07ceef4b8524a319a23cB7a46750d" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> actually had a deal</a> to raise equity by selling new stock to inv=
+estors, but as it was lining up the deal it also continued to lose deposits=
+. Its=C2=A0lawyers =E2=80=9Csaid the deal couldn=E2=80=99t go forward witho=
+ut a disclosure about the deposit losses,=E2=80=9D and its bankers decided =
+that that disclosure would kill the deal; they canceled it instead, and the=
+ bank failed. Had it just=C2=A0<em>not told investors the extent of the pro=
+blem</em>, it might have raised enough money to fix it. If SVB had called u=
+p the US Securities and Exchange Commission and said =E2=80=9Chey can we do=
+ this deal without disclosing our huge deposit outflows,=E2=80=9D the SEC w=
+ould probably have said =E2=80=9Cnah sounds like fraud.=E2=80=9D But if it =
+had called up the=C2=A0<em>Federal Reserve </em>and asked that question, th=
+e Fed might have been tempted to say yes.</p>
+<p style=3D"margin: 16px 0;">One bizarre place that this has come up is in =
+=E2=80=9Cbail-in bonds.=E2=80=9D European banking regulators have a financi=
+al stability tool called the =E2=80=9Cbail-in,=E2=80=9D in which the regula=
+tor can decide that a bank is in trouble and replace some of its bonds =E2=
+=80=94=C2=A0the bonds that make up part of its =E2=80=9Ctotal loss absorbin=
+g capital,=E2=80=9D or TLAC<a class=3D"footnote-index" href=3D"#footnote-4"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: none !importa=
+nt; background-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a> =E2=80=94 with equity. This improves the bank=E2=80=99s financial situ=
+ation: It no longer owes as much money, and it has more equity. It also nea=
+tly resolves the general problem we started with: The bank raises more equi=
+ty, not by lying to investors to convince them to invest, and also not by t=
+elling them the truth and hoping they will invest anyway, but by=C2=A0<em>f=
+orcing </em>them to invest. Holders of the bail-in bonds just=C2=A0<em>beco=
+me=C2=A0</em>equity investors whether they want to or not, and of course th=
+ey don=E2=80=99t.=C2=A0By automatically converting the bonds, the financial=
+ stability regulator avoids the tension between the need for full disclosur=
+e and the need to get equity fast.</p>
+<p style=3D"margin: 16px 0;">Or does it? Earlier this month the Financial S=
+tability Board released a report on =E2=80=9C<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/33116434.256422/aHR0cHM6Ly93d3cuZnNiLm9yZy8yMDIz=
+LzEwLzIwMjMtYmFuay1mYWlsdXJlcy1wcmVsaW1pbmFyeS1sZXNzb25zLWxlYXJudC1mb3ItcmV=
+zb2x1dGlvbi8/607f07ceef4b8524a319a23cB5b4f00bc" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">2023 Bank Failures:=
+ Preliminary lessons learnt for resolution</a>.=E2=80=9D<a class=3D"footnot=
+e-index" href=3D"#footnote-5" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: none !important; background-color: transparent !important; =
+display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0The <a href=3D"https://link.mail.bloombergbusiness.com/click/3311=
+6434.256422/aHR0cHM6Ly93d3cuZnNiLm9yZy8yMDIzLzEwLzIwMjMtYmFuay1mYWlsdXJlcy1=
+wcmVsaW1pbmFyeS1sZXNzb25zLWxlYXJudC1mb3ItcmVzb2x1dGlvbi8/607f07ceef4b8524a3=
+19a23cC5b4f00bc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> report</a>=C2=A0discusses bail-ins as a way to fi=
+x struggling banks, but includes this worry that a bail-in might be blocked=
+ by the US Securities and Exchange Commission:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">According to the SEC staff, there would have b=
+een legal challenges relating to US securities laws in executing a bail-in;=
+ they noted that banks need to prepare sufficiently to comply with US secur=
+ities laws after an open bank bail-in. US investors held bail-in bonds issu=
+ed by Credit Suisse representing a significant portion of the firm=E2=80=99=
+s TLAC. US securities laws apply to any TLAC instruments held by US investo=
+rs, irrespective of the currency or governing law of that TLAC instrument.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">Under US law, all offers and sales of securiti=
+es need to be either registered=C2=A0or exempt=C2=A0from registration. The =
+conversion of Credit Suisse=E2=80=99s bail-in-bonds to equity would have co=
+nstituted a sale, thus requiring registration or an exemption.</p>
+<p style=3D"margin: 16px 0;">In the view of the SEC staff, among the challe=
+nges involved in executing open-bank bail-in in compliance with US federal =
+securities laws is that it would require detailed preparation, including po=
+ssibly adapting the bank=E2=80=99s systems to enable prompt provision to th=
+e market of current and accurate (pro-forma) financial statements. In an op=
+en-bank bail-in, the SEC staff considered that it would be difficult for an=
+ issuer to compile the disclosures required by securities regulations and a=
+nti-fraud laws over a resolution weekend and that ex ante preparations woul=
+d be necessary to mitigate these challenges. In order to ensure confidence =
+in the execution of bail-in, it is essential for authorities to cooperate a=
+mong themselves and work together with the firms, as part of resolution pla=
+nning, to reduce legal uncertainties. Further work will be planned with the=
+ SEC to explain potential legal challenges to effective bail-in of TLAC ins=
+truments and to describe how firms can undertake actions to comply with the=
+ US federal securities laws and thereby enhance the legal certainty of bail=
+-in.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">This seems like a very strange thing for the S=
+EC to think? Investors in bail-in bonds don=E2=80=99t get any choice in the=
+ matter, so you don=E2=80=99t=C2=A0<em>really=C2=A0</em>need to provide the=
+m with disclosure before converting their bonds. And in fact the US securit=
+ies laws do contain an exemption from registration (<a href=3D"https://link=
+.mail.bloombergbusiness.com/click/33116434.256422/aHR0cHM6Ly93d3cubGF3LmNvc=
+m5lbGwuZWR1L3VzY29kZS90ZXh0LzE1Lzc3Yw/607f07ceef4b8524a319a23cB53aa05c5" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">Section 3(a)(9)</a>) for =E2=80=9Cany security exchanged by the issue=
+r with its existing security holders exclusively where no commission or oth=
+er remuneration is paid or given directly or indirectly for soliciting such=
+ exchange,=E2=80=9D which would seem to cover a bail-in. Here is a <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aHR0cHM6L=
+y9jbGllbnQuY2xlYXJ5Z290dGxpZWIuY29tLzYzLzMwNTUvdXBsb2Fkcy8yMDIzLTEwLTIwLWJh=
+aWwtaW4tYW5kLXRoZS11LnMuLXNlY3VyaXRpZXMtbGF3cy5wZGY/607f07ceef4b8524a319a23=
+cBc8165c50" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> client memo</a> from the law firm Cleary Gottlieb Stee=
+n &amp; Hamilton LLP, who share my=C2=A0puzzlement at the problem:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In this memo, we explain that while there are =
+U.S. securities laws that would be implicated in the event of a bail-in of =
+a UK or European bank, these would not constitute an impediment to bail-in.=
+ =E2=80=A6.</p>
+<p style=3D"margin: 16px 0;">Given the speed at which a bail-in may need to=
+ be exercised, it will likely not be feasible to register the exchange of b=
+ail-in bonds for new shares, as the registration process is lengthy and typ=
+ically requires several months of review and comment by the SEC. In most ca=
+ses, however, the exemption from registration under Section 3(a)(9) of the =
+Securities Act should apply to the exchange of bail-in bonds.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Of course the SEC is right that the bank reall=
+y ought to =E2=80=9Cenable prompt provision to the market of current and ac=
+curate (pro-forma) financial statements=E2=80=9D: Presumably its stock will=
+ continue to trade after the bail-in (that=E2=80=99s the point of the bail-=
+in!), and stock investors will want accurate disclosure if they are buying =
+and selling the stock. But=C2=A0that=E2=80=99s true without the bail-in too=
+: Any bank crisis is going to be complicated and fast-moving, and a bank wi=
+ll have to figure out the frequency and details of its public disclosures t=
+o keep shareholders informed. Vaporizing some debt into stock adds some com=
+plication =E2=80=94=C2=A0you might want =E2=80=9Ccurrent and accurate (pro-=
+forma) financial statements=E2=80=9D to reflect the vaporization =E2=80=94=
+=C2=A0but honestly it seems like=C2=A0<em>less=C2=A0</em>of a big deal than=
+, you know, huge deposit flight.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Carbon accounting</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Carbon credits are largely a matter of baselin=
+es. We talk about this a lot with trees. One classic way to get carbon cred=
+its is by <a href=3D"https://link.mail.bloombergbusiness.com/click/33116434=
+.256422/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQ=
+tMjEveW91LWNhbi1zZWxsLXRoZS10cmVlcy15b3UtZG9uLXQtY3V0P2NtcGlkPUJCRDEwMjMyM1=
+9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90Z=
+XJtPTIzMTAyMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8ebe=
+5175" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> not chopping down a forest</a>. But the amount of credit you=
+ can claim for this is necessarily bound up with the question of whether th=
+e forest <em>would</em> have been chopped down without your intervention. T=
+his creates oddities.=C2=A0We <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33116434.256422/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjMtMTAtMTcveW91LWNhbi10LXNlbGwtdHJlZXMtbm8tb25lLWN1dHMtZG93bj=
+9jbXBpZD1CQkQxMDIzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMzEwMjMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cB032da435" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> talked last week</a> about a carbon-off=
+set project in Zimbabwe that ran into trouble because=C2=A0<em>too few tree=
+s were chopped down:=C2=A0</em>Sure the trees that the project protected we=
+ren=E2=80=99t chopped down, but neither were trees in a nearby =E2=80=9Cref=
+erence=E2=80=9D=C2=A0forest, so the=C2=A0<em>impact=C2=A0</em>of the carbon=
+-offset project was limited. =E2=80=9CThat seems good,=E2=80=9D I wrote. =
+=E2=80=9CFor the climate? But bad for the people hawking carbon credits.=E2=
+=80=9D</p>
+<p style=3D"margin: 16px 0;">Direct carbon capture technology =E2=80=94=C2=
+=A0where you <a href=3D"https://link.mail.bloombergbusiness.com/click/33116=
+434.256422/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMTAt=
+MjMvb2NjaWRlbnRhbC1xdWlldGx5LWRpdGNoZWQtd29ybGQtcy1iaWdnZXN0LWNhcmJvbi1jYXB=
+0dXJlLXBsYW50P2NtcGlkPUJCRDEwMjMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdX=
+RtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTAyMyZ1dG1fY2FtcGFpZ249bW9uZXlzd=
+HVmZg/607f07ceef4b8524a319a23cBc2839d51" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> build a big machine</a>=
+ to =E2=80=9Csuck carbon dioxide out of the atmosphere and bury it deep und=
+erground=E2=80=9D =E2=80=94=C2=A0has=C2=A0<em>less=C2=A0</em>of this baseli=
+ne problem. But not none!</p>
+<p style=3D"margin: 16px 0;">For instance: If you have a natural gas proces=
+sing plant, it will produce natural gas, which creates carbon dioxide emiss=
+ions, which are bad for the climate. If you build a carbon capture plant at=
+ the gas=C2=A0processing=C2=A0plant to capture and store carbon dioxide fro=
+m the gas it processes, that will reduce the carbon dioxide that the plant =
+produces, which is good for the climate.=C2=A0<em>On net</em>, the plant wi=
+ll be bad for the climate =E2=80=94=C2=A0it will produce more carbon dioxid=
+e than it captures =E2=80=94=C2=A0but people need energy and this might be =
+better than the alternative.</p>
+<p style=3D"margin: 16px 0;">What if you shut down the plant? No gas, no ca=
+rbon capture. Is that good or bad? Well, if the plant was on net producing =
+carbon dioxide, then shutting it down will produce no carbon dioxide, which=
+ seems good. On the other hand, the accounting for natural gas emissions an=
+d carbon capture are separate. There are lots of natural gas plants, and on=
+ly so many carbon capture plants. If you shut down the whole thing, some ot=
+her plant will pick up the natural-gas-processing slack, but nobody else wi=
+ll pick up the carbon-capture slack. People need energy, and=C2=A0if your p=
+lant =E2=80=94=C2=A0your natural-gas-plus-carbon-capture plant =E2=80=94=C2=
+=A0was better than the alternative, and you shut it down, then the world wi=
+ll get the worse alternative instead.</p>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/33116434.256422/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2ZlYXR1cmVzLzIwMjMtMTAtMjMvb2NjaWRlbnRhbC1xdWlldGx5LWRpdGNoZWQtd29ybGQtcy1=
+iaWdnZXN0LWNhcmJvbi1jYXB0dXJlLXBsYW50P2NtcGlkPUJCRDEwMjMyM19NT05FWVNUVUZGJn=
+V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTAyMyZ1d=
+G1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cCc2839d51" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ a <em>Bloomberg Green</em> story</a> about how Occidental Petroleum Corp. =
+built =E2=80=9Ca mega-plant for carbon capture and storage =E2=80=A6=C2=A0i=
+nto a natural gas processing plant=E2=80=9D; the project was called Century=
+. But:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A=C2=A0<em>Bloomberg Green</em>=C2=A0investiga=
+tion has revealed that Century never operated at more than a third of its c=
+apacity in the 13 years it=E2=80=99s been running. The technology worked bu=
+t the economics didn=E2=80=99t hold up because of limited gas supplied from=
+ a nearby field, leading to disuse and eventual divestment. Oxy quietly sol=
+d off the project last year for a fraction of the build cost. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">It might seem, from a climate perspective, lik=
+e a boon that Century never reached its full potential since its performanc=
+e was inextricably linked to natural gas production. But picking the wrong =
+location for an expensive carbon capture project carried real climate costs=
+. Cheaper shale gas elsewhere met the same demand, without the benefit of c=
+arbon capture. As a result, total emissions likely ended up higher.</p>
+</blockquote>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/33116434.256422/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMTAtMjMvY2hldnJvbi10by1idXktaGVzcy1mb3ItNTMtYmlsbGlvbi1pbi1sYXR=
+lc3Qtb2lsLW1lZ2FkZWFsP2NtcGlkPUJCRDEwMjMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTAyMyZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cB9b956a28" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Chevron to Buy He=
+ss</a> for $53 Billion in Latest Oil Megadeal. Treasury 10-Year Yield Breac=
+hes <a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.25642=
+2/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMjMvdHJlY=
+XN1cnktYm9uZHMtbWFya2V0LTEwLXllYXIteWllbGQtdG9wcy01LWZvci1maXJzdC10aW1lLXNp=
+bmNlLTIwMDc_Y21waWQ9QkJEMTAyMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMDIzJnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cBc3d13a4a" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  5%</a> for First Time Since=
+ 2007.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/331164=
+34.256422/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL3FhdGFycy1oY=
+W1hcy10aWVzLWNvdWxkLXRod2FydC00NzUtYmlsbGlvbi1pbnZlc3RpbmctYW1iaXRpb24/607f=
+07ceef4b8524a319a23cB21fa8f87" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Qatar=E2=80=99s</a> Hamas Ties Could=
+ Thwart $475 Billion Investing Ambition.=C2=A0Private-Equity Professionals =
+Remain <a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.25=
+6422/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9wcml2YXRlLWVxdWl0eS1zdGF5cy1idW=
+xsaXNoLW9uLXBheS1hcy1ib251cy1zZWFzb24tbmVhcnMtMjliMTI0ZDE_bW9kPWl0cF93c2omc=
+nU9eWFob28/607f07ceef4b8524a319a23cB34068b80" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> Upbeat on Pay</a> De=
+spite Industry Slump. Investors Find Value in Seemingly Valueless <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMjMvaW52ZXN0b3JzLWZp=
+bmQtdmFsdWUtaW4tc2VlbWluZ2x5LXZhbHVlbGVzcy1jb252ZXJ0aWJsZS1ib25kcz9jbXBpZD1=
+CQkQxMDIzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMzEwMjMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cB8da3fd9a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  Convertible Bonds</a>. Pimco Is Selling <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMjAvcGltY28taXMtc2Vs=
+bGluZy1odW5nLWRlYnQtaXQtYm91Z2h0LWZyb20tYmFua3MtZm9yLWEtcHJlbWl1bT9jbXBpZD1=
+CQkQxMDIzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMzEwMjMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cB61a5050d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  Hung Debt</a> It Bought From Banks for a Premiu=
+m. There=E2=80=99s Never Been a Worse Time to <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33116434.256422/aHR0cHM6Ly93d3cud3NqLmNvbS9lY29=
+ub215L2hvdXNpbmcvdGhlcmVzLW5ldmVyLWJlZW4tYS13b3JzZS10aW1lLXRvLWJ1eS1pbnN0ZW=
+FkLW9mLXJlbnQtYmQzZTgwZDk_bW9kPWhwX2xlYWRfcG9zNw/607f07ceef4b8524a319a23cB7=
+0772310" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Buy Instead of Rent</a>. Car Owners Fall <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/33116434.256422/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMjEvaGlnaC1jYXItbG9hbi1pbnRlc=
+mVzdC1yYXRlLXBheW1lbnRzLWFtZXJpY2Fucy1zdHJ1Z2dsZS13aXRoLW1vbnRobHktYmlsbHM_=
+Y21waWQ9QkJEMTAyMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5=
+ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMDIzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07cee=
+f4b8524a319a23cB1d8afd16" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  Behind on Payments</a> at Highest Rate =
+on Record. Business Schools Grapple With How To <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/33116434.256422/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMTkvYnVzaW5lc3Mtc2Nob29scy1hcmUtZ3JhcHBs=
+aW5nLXdpdGgtaG93LXRvLXRlYWNoLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlP2NtcGlkPUJCRDE=
+wMjMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJn=
+V0bV90ZXJtPTIzMTAyMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a2=
+3cB672bb3f3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  Teach Artificial Intelligence</a>. The <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/33116434.256422/aHR0cHM6Ly93d3c=
+uZnQuY29tL2NvbnRlbnQvOGQzYzgxMjEtNTk2My00NjZjLTk2ZDgtN2RkYTdlOWNlZTkwP3NoYX=
+JlVHlwZT1ub25naWZ0/607f07ceef4b8524a319a23cB2b6f48da" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> fake hitman<=
+/a>, the crypto king and a wild revenge plan gone bad.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33116434.256422/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBe144f024" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33116434.256422/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBb79d75b4" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] One important element here is that mutual =
+funds were once a way to diversify your stock portfolio in a world where th=
+e normal way to buy individual stocks was in round lots of 100 shares. If y=
+ou had $10,000 to invest, that might get you 100 shares of one or two stock=
+s, whereas a mutual fund could buy dozens of stocks for you and give you fr=
+actional ownership of each of them. But now you can trade individual stocks=
+ for free and buy fractional shares directly from your broker, so that bene=
+fit of mutual funds is much less important.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Casual Googling suggests that <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/33116434.256422/aHR0cHM6Ly93d3=
+cuaWJhbmV0Lm9yZy9kb2N1bWVudD9pZD1OTUFHZXJtYW55/607f07ceef4b8524a319a23cBd95=
+0d30a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> this is true</a>, but oh man is this not German legal advic=
+e.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Basically Brightline=E2=80=99s position ap=
+pears to be that if subsidiaries sell new stock, then they stop being guara=
+ntor subsidiaries and so can go borrow new money without repaying Certares/=
+Knighthead. Certares/Knighthead disagree with this position. But if the cre=
+dit agreement was amended to specifically acknowledge the sale of stock by =
+a subsidiary, and Certares/Knighthead signed off on it, then Brightline wou=
+ld have an easier time arguing =E2=80=9Cyou agreed to let us do this trade =
+so it must be fine.=E2=80=9D </p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] This is distinct from banks=E2=80=99 <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMjAvdWJzLWdvdC=
+1jcmVkaXQtc3Vpc3NlLWZvci1hbG1vc3Qtbm90aGluZz9jbXBpZD1CQkQxMDIzMjNfTU9ORVlTV=
+FVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEw=
+MjMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB811cd9e9" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  additional tier 1 capital securities</a>, hybrid instruments that by =
+their terms convert into equity (or are written down) in some bad scenarios=
+. But it is conceptually similar.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Robin Wigglesworth at <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/33116434.256422/aHR0cHM6Ly93d3cuZnQuY2=
+9tL2NvbnRlbnQvY2RiMzM2YjYtMDdmZi00Nzc1LWIyMWUtNDU5OThjYjUzOWE0/607f07ceef4b=
+8524a319a23cBd85821e4" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> FT Alphaville</a> discussed it at the time.=
+</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBecd0ab76" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB06df8796" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB08c3983c" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB9e5471df" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB83b852b1" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.2564=
+22/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBccceb4ab" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33116434.256422/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC5a06762f" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33116434.256422/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB17e2a8c3" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33116434.256422/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB9614a750" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+0623473" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33116434.256422/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBf=
+4359be5" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjpssy.5huu/35a4a8e2.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_1689688_458570863.1698085732814--
+

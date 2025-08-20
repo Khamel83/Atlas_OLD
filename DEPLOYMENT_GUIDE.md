@@ -1,8 +1,8 @@
-# Atlas OCI Production Deployment Guide
+# Atlas Docker & OCI Deployment Guide
 
 ## 🎯 Overview
 
-Atlas is now production-ready with comprehensive metadata capture, optimized transcription, and bulletproof data preservation. This guide covers deploying to Oracle Cloud Infrastructure (OCI).
+Atlas is now production-ready with comprehensive containerization, Docker deployment, and Oracle Cloud Infrastructure (OCI) support. This guide covers both local Docker deployment and cloud deployment options.
 
 ## ✅ What's Ready for Production
 

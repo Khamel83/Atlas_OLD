@@ -1,0 +1,2805 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6359:4288:b0:b2:d5bc:fd0 with SMTP id kp8csp435181rwb;
+        Mon, 8 Aug 2022 05:58:32 -0700 (PDT)
+X-Received: by 2002:a17:903:40cb:b0:16f:196a:2bb4 with SMTP id t11-20020a17090340cb00b0016f196a2bb4mr18702438pld.104.1659963511802;
+        Mon, 08 Aug 2022 05:58:31 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1659963511; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=e5gDKuSx8S4C7cERIfOk4Ycgq/M35+iWpAyIyWWsgbfN5JuDwqiL0Dvm3QMpr/WaUt
+         zAB7QT+gR11XR7cEgG81KfvhD34xqrOX/gObjqGrpUgSi1ePbVzUxFKbwks3EG5FPx10
+         aR2RL0qbM32DpO25gimf/zkrNGfDezHSF/4Idn9WpFZ87NwldqhvXuU76/rAUMR6mdVy
+         jIfL/ubXIxug9NDjtDWSXs6BOEq/yLq2+E0AB+nYS4+oabbb6DgYnfrziS5IPsDv0eek
+         4CySaLGPSJlUMnH8Im2saDudPYglKwuHYPtwN0EpTIj1BFpcGicM4f6qnbB/+KYeevm5
+         ZMgg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=date:list-unsubscribe-post:list-url:reply-to:message-id
+         :list-archive:references:in-reply-to:list-owner:list-post:sender
+         :list-id:list-unsubscribe:to:from:subject:mime-version
+         :dkim-signature:delivered-to;
+        bh=M1mksCTYeptJVstpdMNLhLRSzRPXUMqS0nppSsL0tHI=;
+        b=JKeRuIQIXIz2pNlBlU7fYvPbNV18V2CWzexHJjhdmgn+h6L3qK5hpM0PXoOSlYPkZI
+         vK5XyPGYICCxWA95j7tyNSLQlE8+9L6wwExuC3Jk3rnTwkDv2uSbmkSBYJYeLDe4UI1S
+         iBbWawFyHbzliErbvkSyeW/IE7DjraoDIevouJfpLFJNzR+QdRryNSwloELYfPNNwpIp
+         82jfG4A3nxpKKXNol4fgCUsGnqEB+mlw9wvOR5snYvUj99LtYAoBQGXaOiUXaEzLB8KI
+         +gWbBLfdr+u1peIDB8/U+8XLjPjJJX8mtH5r+VWsjTM5fLRCuOiqPkE/IfNqVWEXnDPO
+         KpXQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b="V0EPwC/I";
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id k4-20020a170902c40400b0016c483d7c3asor5213402plk.39.2022.08.08.05.58.31
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 08 Aug 2022 05:58:31 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b="V0EPwC/I";
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=date:list-unsubscribe-post:list-url:reply-to:message-id
+         :list-archive:references:in-reply-to:list-owner:list-post:sender
+         :list-id:list-unsubscribe:to:from:subject:mime-version
+         :dkim-signature:delivered-to:x-gm-message-state:from:to:cc;
+        bh=M1mksCTYeptJVstpdMNLhLRSzRPXUMqS0nppSsL0tHI=;
+        b=AD2kxOPyJDIq4919d9qTXbZHdjaxsscvfZmSRSE44sppxMf3rMY5GCREjE17JYhy01
+         NjF1IjxgX/860k8UJpi4n50F8o3uIaK4WOq0o+gARzXW7huk/R/I/1Qty3Tz7IP/3FUS
+         +kzpoYchrMG4ra5c4pW+t/ZzZDzivo3nJ1cUfNewSep1Ls6JWXNpY/mhSxtHqoQz7/vq
+         /kHxKcJLZAPMS0bbn/JnsQ3OrQZHdQxmRWxRbaCgrAfLNbX5f6M750qJyoov2OnPVWgw
+         7++B3CvpgnzWvkWiXVwXMxhmYS+BFbMoE4o7nFHtIOKHqLJp10rm9a4c4NuP18R3PC1i
+         W1+g==
+X-Gm-Message-State: ACgBeo1fWrtMqx2LeiU5q0Mg++G/nshql2R/YIasnRVlZP0/N9dq0EpF
+	D3fF12JQpTm3Bt/m8HgtPeMnY3myIyAOJ5MzFmNRaoJ+3ruGfkIsdg==
+X-Received: by 2002:a17:90b:390c:b0:1f5:8859:ac76 with SMTP id ob12-20020a17090b390c00b001f58859ac76mr16251905pjb.137.1659963511327;
+        Mon, 08 Aug 2022 05:58:31 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a17:90a:c081:0:0:0:0 with SMTP id o1csp936001pjs;
+        Mon, 8 Aug 2022 05:58:28 -0700 (PDT)
+X-Received: by 2002:a17:90b:4acd:b0:1f4:cf0c:7a68 with SMTP id mh13-20020a17090b4acd00b001f4cf0c7a68mr20486255pjb.178.1659963508080;
+        Mon, 08 Aug 2022 05:58:28 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1659963508; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=luf5pQENa4Zi3d8d8Fi7s0yZ+hYoJh03hiv0oWNBVm3TyLfebXBsKfB3aKsubvNRVR
+         iG/0OL3/KCGOpqj0nRncErLcNO4aSlUr8rVoVFmN7/yo3oJPUY8B2Fq5BAvvFCrQzkiU
+         t2fD0bBXzPdvC1YxlssBtY6JErmgB60+TkKis0i3BY5i3mUc1m0aKmWStoflqzKaeiGW
+         z8Xrm2ydUsSUWr9DIk4pi/yE24si/C3HvSR7/+vuYS39RB/ZYCx5HA64Sbf8tASteJNu
+         kgMIowu4z09jS5Zyng2eBDYrJ0GqUV4njmlcpj6zQVjtFEU+QC50ZGBonq2jVqAWrune
+         YX/w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=date:list-unsubscribe-post:list-url:reply-to:message-id
+         :list-archive:references:in-reply-to:list-owner:list-post:sender
+         :list-id:list-unsubscribe:to:from:subject:mime-version
+         :dkim-signature;
+        bh=M1mksCTYeptJVstpdMNLhLRSzRPXUMqS0nppSsL0tHI=;
+        b=Cw4EeQTh+hqPsBA0Kr9gCiBM/rNEzNMxdRNSf9w/2kN+Mu7QicaFIaqg7dIyD3349c
+         Of1UmycB3C0IaeareqesSamyFbc+lgImJ6r7j6GCmtT2wLlwYBKHoY53FpyHofSOsUII
+         eTnioHOBE8YKmKsD6NL0cg4cMbfFuNWub3y0dwaQC5VUuJ7kNIId0xezCb30PN2SzIoN
+         q7cx+Eyy8cgLRok5xFpFggeqlIvAaStaGloDl3NYK6zwj/Y00woJelNnbQIkQQ9fFK8W
+         GUyUQ7yw17XjnTOp7QSeP/YLvxPFHVXdiv8rM8+VREGoJWrVFt6Wkuo0TIFBzclQzv62
+         Wjhg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b="V0EPwC/I";
+       arc=pass (i=1 spf=pass spfdomain=mg-d0.substack.com dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j6-20020a17090a31c600b001efa33329b5sor6032665pjf.16.2022.08.08.05.58.27
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 08 Aug 2022 05:58:28 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AA6agR6ObD6kCpj775penmYu0M3GSRVD7aTf7HfvlbM+L0fMcWMwD9Xi2efkHawB1CubCK52A7+lRMm/Cr/Nytii+tT8ltoAvLQ=
+X-Received: by 2002:a17:90b:4a07:b0:1f5:1aff:4af with SMTP id kk7-20020a17090b4a0700b001f51aff04afmr20618442pjb.124.1659963507742;
+        Mon, 08 Aug 2022 05:58:27 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1659963507; cv=none;
+        d=google.com; s=arc-20160816;
+        b=sh46c7hW2uzL2fnw55u94Hjvp5FUTdIkXcrY9B9vLzDlt0REM/y5usSWXswDXQPitT
+         TMFGoLkgISOuINxJMVYPYNXFkBJpyIB03GWZ/eu1xl+d8VEtCr8C8G0JT1ze/K8MV67v
+         AWH1xxoaWRAT3UDZMrAoqY7eXGKQQ1YYqyv8O9cnJvSIFYV5n86J6ciltjmjWj0FTvVC
+         +zfCfJYM7PRn7qmLX3SstZwZb94HWw4gFTHa5NCr/pPwowyeXdNsCxhbGREYeJzrAPqt
+         lkKZBNQHeZ1Z9/ehZiUw+0eUW/ImJBbZPtDuYSGiXjkzKb9jahENxoLVoVNGGhWisdEJ
+         A/HQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=date:list-unsubscribe-post:list-url:reply-to:message-id
+         :list-archive:references:in-reply-to:list-owner:list-post:sender
+         :list-id:list-unsubscribe:to:from:subject:mime-version
+         :dkim-signature;
+        bh=M1mksCTYeptJVstpdMNLhLRSzRPXUMqS0nppSsL0tHI=;
+        b=K738ZES3381jEEe6snhT5nlf4z5cWhC2ocCJAed+D5esG6XUbsBBqAB6SAC+Wtf4MP
+         fgOXX36hRMQ4wuWspyWrIpKlwwBNy065N6N8SymIhESSnMsfDGSAPqovmoyEi1ZNctV+
+         w7y2nNHr/z6a+NUs1XCZLsbgtL8Ezl6V4h7CUcF3Eg0m2PopuZwFswSk+DwZ/HgUPIhF
+         gjdVzdQj4DtbshugM51ZOA2cgpqAE2wufLAy4w3BP4BCuUavFdx9hKnS0D0oq4HeTk+c
+         qa67q+U62yLx+M1EwUoNIYBRA7rWe2ApmcWc4smNvLMtBUiZOkwKQh3FMCQ5+lulsoDJ
+         ltYA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b="V0EPwC/I";
+       spf=pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 159.112.244.8 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from m244-8.mailgun.net (m244-8.mailgun.net. [159.112.244.8])
+        by gmr-mx.google.com with UTF8SMTPS id o13-20020a170902d4cd00b0016f0d85617fsi413153plg.11.2022.08.08.05.58.23
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 08 Aug 2022 05:58:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 159.112.244.8 as permitted sender) client-ip=159.112.244.8;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d0.substack.com; q=dns/txt;
+ s=mailo; t=1659963507; x=1660172307; h=Date: Reply-To: Message-Id:
+ List-Archive: References: In-Reply-To: List-Owner: List-Post: Sender:
+ Sender: List-Id: List-Unsubscribe: To: To: From: From: Subject:
+ Subject: Content-Type: Mime-Version;
+ bh=M1mksCTYeptJVstpdMNLhLRSzRPXUMqS0nppSsL0tHI=; b=V0EPwC/IDWrL3Zk+h79TfLP3Pg9euhw9Jk7mgQay92l2l9kcbIBEw8FeaafJur/V4102j0aN
+ /U8QRIO8H4kkGWIvjFihijfj00/RCKbbMSXAnYjfa1XQ1VR/Ewj9SyZQPk+HJOa65semPS3+
+ mTJk5k53F/NlciBD7U943SnbbM8=
+X-Mailgun-Sending-Ip: 159.112.244.8
+X-Mailgun-Sid: WyJhNzc2ZCIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICI2M2FmNWQiXQ==
+Received: from <unknown> (<unknown> []) by bc2403e93584 with HTTP id
+ 62f1086e2b0fcf7efd3043b1; Mon, 08 Aug 2022 12:58:21 GMT
+X-Mailgun-Batch-Id: 62f1086db9aa14ab2fd1a87c
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="b4e6669183b6660decdd119f47c353d55897d8a464fa1114a19334e8863c"
+Subject: Everything is Broken
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk5qYzJNelV3TVRBc0ltbGhkQ0k2TVRZMU9UazJNelE1T1N3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuZkh0c2NrMm5YQnNGR0h4ZmZjTFNQc040WHREMm5aeVVzY0FGNGFoM0J1RSIsInAiOjY3NjM1MDEwLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY1OTk2MzQ5OSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.t6fkTg06Lf4Ag8zf2NfTAjb1cmEfBn3Mu6q1BDQYuFA?>
+List-Id: <notboring.substack.com>
+Sender: Not Boring <notboring@substack.com>
+List-Post: <https://www.notboring.co/p/everything-is-broken>
+List-Owner: <mailto:notboring@substack.com>
+In-Reply-To: <post-67635010@substack.com>
+References: <post-67635010@substack.com>
+List-Archive: <https://www.notboring.co/archive>
+Message-Id: <20220808125800.3.1b3d411d8b3ce55c@mg-d0.substack.com>
+Reply-To: Not Boring
+ <reply+149nia&9p0gt&&ba33b9dccffe1a5713ba4b89e434d7a0849bdedaac8f78309c3f2da3bdcd5020@mg1.substack.com>
+List-Url: <https://www.notboring.co/>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Date: Mon, 8 Aug 2022 12:58:00 +0000
+X-Mailgun-Variables: {"category":"post", "comment_id":"",
+ "email_generated_at":"1659963500148", "is_freemail":"true",
+ "post_audience":"everyone", "post_id":"67635010", "post_type":"newsletter",
+ "pub_community_enabled":"true", "publication_id":"10025",
+ "subdomain":"notboring", "user_id":"16283549"}
+
+--b4e6669183b6660decdd119f47c353d55897d8a464fa1114a19334e8863c
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/everything-is-broke=
+n
+
+Welcome to the=C2=A01,483=C2=A0newly Not Boring people=C2=A0who have joined=
+ us since last Monday! If you haven=E2=80=99t subscribed, join=C2=A0143,885=
+ smart, curious folks by subscribing here:=20
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 Stacker [ https://=
+substack.com/redirect/af14ec66-3e7b-4f35-ad06-6879b0f83ceb?r=3D9p0gt ]
+Stacker [ https://substack.com/redirect/af14ec66-3e7b-4f35-ad06-6879b0f83ce=
+b?r=3D9p0gt ] is one of Not Boring=E2=80=99s longest-standing sponsors. The=
+y are a game changer for companies that want to scale beyond paid acquisiti=
+on channels.
+They=E2=80=99ve worked with 100+ brands =E2=80=94 including Angi, GoHenry, =
+Experian, Vivid Seats, Sidecar Health, and Extra Space Storage =E2=80=94 to=
+ accelerate their organic and earned media strategies.
+How it works: Stacker Studio [ https://substack.com/redirect/af14ec66-3e7b-=
+4f35-ad06-6879b0f83ceb?r=3D9p0gt ] produces newsworthy content for brands a=
+nd then distributes the stories through their proprietary newswire to hundr=
+eds of news outlets, including SFGate, Chicago Tribune, MSN, Houston Chroni=
+cle, and 3,000+ other newsrooms.=C2=A0
+The results? Hundreds of high quality/SEO-friendly pickups and invaluable b=
+rand awareness and authority.
+If SEO is on your roadmap, Stacker [ https://substack.com/redirect/af14ec66=
+-3e7b-4f35-ad06-6879b0f83ceb?r=3D9p0gt ] is a no-brainer. Campaigns start a=
+t $6-8k/month, but they guarantee a minimum of 50 high authority pickups fo=
+r each story and average 150-200 pickups per campaign! That means higher si=
+te authority, better search rankings, and the improvement in organic traffi=
+c you=E2=80=99ve been looking for. As a Not Boring reader, you get 20% off =
+your first story.
+Hi friends ,=C2=A0
+Happy Monday! Past Packy here (I wrote this before I took off).=C2=A0
+A couple of months ago, I got myself in a bit of internet trouble when I su=
+ggested on Cartoon Avatars that one of the use cases for crypto might be br=
+inging mortgages on-chain. Since then, one of the questions I=E2=80=99ve as=
+ked myself is what the problem with my answer was:=C2=A0
+Is it impossible to improve real-world financial markets by bringing real-w=
+orld assets (RWA) on-chain?=C2=A0
+Or am I an idiot?=C2=A0
+I=E2=80=99m happy to report that it=E2=80=99s the latter: I=E2=80=99m an id=
+iot. After the podcast dropped, my friend Kevin Miao [ https://substack.com=
+/redirect/9f5514d8-5f5c-49f5-94da-57e8722dde9a?r=3D9p0gt ] reached out to s=
+ay that he was actually working on investing in non-crypto credit assets an=
+d securitizing them on-chain. Kevin, unlike me, knows what he=E2=80=99s tal=
+king about in this area. He spent seven years in TradFi credit at Citi, whe=
+re he was most recently running a structured credit trading desk, before le=
+aving to run operations at Capchase with a focus on risk, underwriting, and=
+ portfolio management. After leaving Capchase, he matriculated at Harvard B=
+usiness School before dropping out to go full-time on crypto as Head of Cre=
+dit at BlockTower [ https://substack.com/redirect/1d908aef-fd8d-4e43-b67c-a=
+831ccbe8a5a?r=3D9p0gt ].
+A couple weeks ago, we hopped on a call to discuss what he was up to. He be=
+gan by illuminating how credit securitization impacts our daily lives - buy=
+ing houses, cars, even cell phones [ https://substack.com/redirect/fd0810ae=
+-e9da-4ee9-9a77-38a5559c1158?r=3D9p0gt ] - and launched into an impassioned=
+ and detailed 30-minute summary of why lending across trillions of dollars =
+worth of assets was inefficient. The inability to tolerate this inefficienc=
+y, along with the clear business case for modernizing our financial infrast=
+ructure, informed his life=E2=80=99s mission of removing wasteful basis poi=
+nts from the loans and securitizations that make the economy go =E2=80=98ro=
+und.=C2=A0
+Originally a crypto skeptic, Kevin became convinced that blockchains offere=
+d a credibly neutral way for lenders to work together more directly and eff=
+iciently, and decided to dive in. Over the course of our call, what struck =
+me was that Kevin wasn=E2=80=99t speaking in ideological language at all. H=
+e was talking about very specific and unsexy ways that bringing RWA lending=
+ on-chain could bring down borrowing costs and increase velocity. At the en=
+d of the call, I asked him, =E2=80=9CCould you just write down everything t=
+hat you just told me for Not Boring?=E2=80=9D=C2=A0
+Luckily, he agreed. This post is a deep and technical dive into why bringin=
+g RWA lending on-chain is an improvement over the current model. If Kevin i=
+s right, this is an enormous unlock and one that will expand crypto=E2=80=
+=99s opportunity and impact.=C2=A0
+My exchange with Kevin is a proof of Cunningham=E2=80=99s=C2=A0 Law: The be=
+st way to get the right answer on the Internet is not to ask a question; it=
+'s to post the wrong answer. By being an idiot online, I was able to get to=
+ someone who actually knows what they=E2=80=99re talking about. I hope you =
+learn as much as I did, and I hope that some of the skeptics read this and =
+engage productively.=C2=A0
+The revolution doesn=E2=80=99t need to be sexy to be impactful. Removing wa=
+steful bps is a big win.
+Let=E2=80=99s get to it.=C2=A0
+Everything is Broken [ https://substack.com/redirect/892ea4db-365e-4fe5-b8a=
+6-1032a9cc31a3?r=3D9p0gt ]
+(Click the link to read the full thing online)
+Welcome to the clown show
+=E2=80=9COh boy, another crypto guy. Here we go again!=E2=80=9D Let me star=
+t with an overdue acknowledgement to the haters.
+From an outsider=E2=80=99s perspective, I understand why crypto seems like =
+an absolute circus. Among the many mass delusions that the crypto community=
+ has hoisted upon itself over the last 12 months, my favorites include:
+DeFi created $OHM, a financial perpetual motion machine, rendering millenia=
+ of economic teachings obsolete
+People would be able to earn ever larger sums by simply walking or even sle=
+eping
+WAGMI because our shitcoins had inherent value (and certainly not because o=
+f an incestuous daisy chain of leverage)
+The crazy thing is this truly does not even scratch the surface of the madn=
+ess. @DrNickA offers a hilarious and cringeworthy recap here for those inte=
+rested:
+That said, despite being a skeptic of some recent crypto =E2=80=9Cinnovatio=
+n,=E2=80=9D I was so compelled by the vision of a more efficient financial =
+system that I dropped out of Harvard Business School to join BlockTower, a =
+stalwart digital asset investment manager, in February. Founded in 2017 by =
+Matthew Goetz and Ari Paul, BlockTower gave me a window into what was reall=
+y happening beneath the surface of crypto.
+And I have never had more conviction that I am in the right place, at the r=
+ight time, and in the right industry.=C2=A0
+To explain, I=E2=80=99ll frame the opportunity I see in the following way:
+The goal: engineering cheaper cost of capital to borrowers
+The problem: our anachronistic securitization infrastructure today sucks an=
+d extracts a tax on us all
+The solution: the pursuit of efficiencies and new possibilities through blo=
+ckchain=C2=A0
+But first, some acknowledgements. Collaborators on this article include: Ke=
+vin Chan, Jack Carlisle, Anant Matai, the BlockTower Team, and Not Boring (=
+of course).
+The Case for Real-World Lending On-Chain
+We know the future
+One of my all-time favorite insights is the following from Jeff Bezos:
+=E2=80=A6'What's not going to change in the next 10 years?=E2=80=99=E2=80=
+=A6 It's impossible to imagine a future 10 years from now where a customer =
+comes up and says, 'Jeff I love Amazon; I just wish the prices were a littl=
+e higher,' or 'I love Amazon; I just wish you'd deliver a little more slowl=
+y.' Impossible=E2=80=A6 When you have something that you know is true, even=
+ over the long term, you can afford to put a lot of energy into it.
+To paraphrase, the man knows the damn future. Bezos knew that customers wou=
+ld continue to want lower prices, more selection, and faster delivery, and =
+thus devoted tremendous energy to pursue those goals through Amazon. When t=
+he path forward is uncertain, it=E2=80=99s helpful to have a north star.
+So, what do we, BlockTower=E2=80=99s credit geeks, know about the future? W=
+hat are we certain will never change? To us, that=E2=80=99s easy.=C2=A0
+Why do we know this? The core objective of every lender is to borrow money =
+at X% and loan money at X+Y%, capturing a spread in the form of ongoing net=
+ interest margin (Y%) or through a one-time =E2=80=9Cgain on sale=E2=80=9D =
+of the underlying loan (roughly Y% * the effective duration of the loan). T=
+he cheaper the cost of borrowing (X%), the more profit you stand to make (u=
+ntil efficient markets drive down Y%). With that incentive, who would ever =
+ask for a higher X%?=C2=A0
+From the first modern clearinghouses in Liverpool, to the emergence of frac=
+tional reserve banking, to the proliferation of AI/ML in modern credit unde=
+rwriting, driving down the cost of capital has long been the financial mark=
+et=E2=80=99s north star. To this end, it=E2=80=99s hard to think of a more =
+successful (or notorious) innovation than securitizations. Securitizations,=
+ archetypically mortgage-backed securities, are instruments which pool fina=
+ncial assets (loans) into tranches of debt that is subsequently purchased b=
+y investors.=C2=A0
+Wait - what does the =E2=80=98Big Short=E2=80=99 have to do with this?
+Securitizations are not sexy. You know that, I know that, and the people wh=
+o asked me =E2=80=9Cso what do you do?=E2=80=9D in Brooklyn circa 2017 cert=
+ainly knew that. But, for better or for worse, securitizations have played =
+a critical role in making the provision of credit more efficient. To unders=
+tand how, let=E2=80=99s use the example of a typical mortgage-backed securi=
+ty (MBS).
+Any mortgage-backed security can be thought of as a traditional company. Un=
+like traditional companies, however, where assets are factories, IP, or hum=
+an capital; here, the =E2=80=9Ccompany=E2=80=99s=E2=80=9D assets are mortga=
+ges, whose value derives from the contractual obligation of the underlying =
+borrowers to make payments according to a fixed schedule. The company, in t=
+he form of a bankruptcy remote SPV, purchases these assets through a sale o=
+f liabilities to investors. These liabilities, or the tranches of the MBS, =
+exhibit similar characteristics to any corporate capital structure: there a=
+re senior claims (tranches), junior tranches, equity claims (residuals), an=
+d so on.=C2=A0
+Thus, a basic capital structure of a MBS could look like this:
+What=E2=80=99s the point of all this financial engineering? At a high level=
+, securitizations ratchet down the cost of credit through 3 main principles=
+:=C2=A0
+Law of Large Numbers
+If you had to bet $1,000 dollars on coin flips, would you feel more comfort=
+able betting $1,000 on one coin flip or $1 per coin flip repeated a thousan=
+d times? For risk-averse investors (i.e., debt investors), the latter is cl=
+early preferred because one would expect the realized results to trend towa=
+rds the true odds, or 50/50.=C2=A0
+The same is true in lending. Even if I knew the probability that a loan wou=
+ld default, the idiosyncratic risks associated with a single loan are impos=
+sible to price. What if the borrower loses their job? What if an asteroid h=
+it the town? Pooling these loans into a securitization dulls the impact of =
+these exogenous, binary risks and increases an investor=E2=80=99s confidenc=
+e that they will, in aggregate, perform according to the underwritten expec=
+tations. As a rule of thumb, the higher an investor=E2=80=99s degree of con=
+fidence in the outcome, the lower the returns one will demand.=C2=A0
+Standardization (=E2=80=9CNarrow Waist=E2=80=9D)
+If you want many, many things to be able to interoperate with many, many ot=
+her things, there needs to be a narrow waist that is as constrained as poss=
+ible between them.
+-Alex Danco
+Securitization is a form of standardization that enables very distinct form=
+s of debt, ranging from 1-month credit card receivables to 30-year mortgage=
+s, to be purchased by and traded amongst investors. The =E2=80=9Cnarrow wai=
+st=E2=80=9D in securitizations is a 9-character identifier (CUSIP), a unit =
+of ownership somewhat analogous to a unit of stock ownership in the equity =
+markets.=C2=A0
+Imagine if you could only trade shares of Tesla for other auto manufacturer=
+s; rational investors would require a greater discount to purchase that ass=
+et due to the relative illiquidity. Tranches of securitizations, standardiz=
+ed as CUSIPs (with consensus around cashflow waterfalls, legal structures, =
+etc.), allow investors to trade very different forms of debt for each other=
+, increasing the liquidity of their investments and lowering the rate of re=
+turn they demand.
+Product-Market Fit
+People are different, and so are investors. Conservative investors, like ba=
+nks or insurance companies, optimize for principal preservation. Others, li=
+ke hedge funds, seek higher risk-adjusted returns. By creating senior and j=
+unior tranches, whereby higher-yielding junior tranches incur losses before=
+ lower-yielding senior tranches, you can cut up an asset into the distinct =
+profiles that investors want. More competition, for both tranches, decrease=
+s investor leverage and often results in a lower aggregate cost of financin=
+g.
+Pooling, standardizing, and tranching a pool of loans via securitization al=
+lows lenders to borrow at a lower-rate (X%). Say a lender has originated 10=
+0 $1 million loans, each yielding 10%. In securitized form, the senior debt=
+ may be a $70 million tranche yielding 4% and the junior debt a $30 million=
+ tranche yielding 15% (the standard target for hedge funds). As discussed a=
+bove, investors are happy to pay this because they get a diversified pool o=
+f assets, with greater liquidity, and a better match for their preferences.=
+ But those pools of assets are now financed, by banks and hedge funds, at a=
+ weighted average cost-of-capital of 7.3%. This is the lower X%!=C2=A0
+The question is, though, who gets the 2.7% (or Y%)? Part of this is fair co=
+mpensation for lenders, but make no mistake: a significant portion of this =
+spread is a symptom of our archaic securitization infrastructure and third-=
+party fee extraction.
+Too many hands in the cookie jar
+Our modern securitization infrastructure=C2=A0 is held together by a patchw=
+ork of PDFs, Excel spreadsheets, and an absurd network of third parties tha=
+t don=E2=80=99t need, or even want, to be involved. To give you a sense, PW=
+C provides a great visual on the typical assortment of external parties and=
+ service providers in a typical securitization:
+Orange boxes above the dotted line represent the key parties =E2=80=93 obli=
+gors (the mortgage borrower), the originator (the lender that created the m=
+ortgage), and the investor (the buyer of the pooled mortgages). The core fu=
+nction of the securitization is to aggregate cash from the underlying oblig=
+ors, divvy them up, and distribute the cash to investors.
+Why do we need 14 service providers to do that? Let=E2=80=99s dig into the =
+typical monthly flow of funds for a securitization:
+Borrower pays: Mortgage borrowers send loan payments to an originator or se=
+rvicer
+Servicer remits the payment: Payments are sent to the securitization=E2=80=
+=99s bank account
+Custodial agents track loan performance: The custodial agent, which =E2=80=
+=9Cowns=E2=80=9D the loan (PDF loan documents) on behalf of the securitizat=
+ion, allocates each dollar to the underlying loan to document ongoing loan =
+performance
+Calculation agents determine payouts: The calculation agent calculates the =
+principal and interest due to each tranche of the securitization
+Paying agents pays: The paying agent debits the securitization=E2=80=99s ba=
+nk account and wires the dollars due to each tranche to DTCC (a central cle=
+aring system that custodies most public U.S. securitization tranches on beh=
+alf of investors)
+DTCC distributes the payments: The dollars are sent to custodial agents, wh=
+ich are often prime brokers
+Prime brokers pays investors : Prime brokers remit the cash due to investor=
+s in each tranche, depending on their pro-rata ownership share=C2=A0
+Auditors review everything: All transactions are documented by the reportin=
+g agent for auditors
+Trustees aggregate a report: Trustees generate a monthly =E2=80=9Ctrustee r=
+eport,=E2=80=9D which allow investors to track performance and verify payme=
+nts were made correctly
+Costs are accumulated each step of the way, adding an estimated 1% over the=
+ life of a securitization [ https://substack.com/redirect/dd17dec6-c989-456=
+3-9275-6f077d3c6fd4?r=3D9p0gt ]. This might seem small, but even a 0.50% in=
+terest rate reduction on a $500,000 mortgage saves $2,500 per year of post-=
+tax salary, which is a meaningful difference in most people=E2=80=99s lives=
+! That is a staggering cost for performing simple arithmetic, distributing =
+cash according to a series of =E2=80=9Cif/then=E2=80=9D statements, and pro=
+viding an accurate report of transactions.
+Assuming I haven=E2=80=99t lost you yet, here=E2=80=99s another example. Wh=
+at if I=E2=80=99m an investor and I want to buy a particular tranche of sec=
+uritized debt? Today, the process looks something like this:
+Instigation: I call up John, my favorite bond trader on Wall Street, and sa=
+y =E2=80=9Chey, I=E2=80=99m looking for this particular tranche and willing=
+ to pay $Z.=E2=80=9D
+Sourcing: John calls up a few hedge funds, but no one knows who owns the tr=
+anche I=E2=80=99m looking for. One ventures a guess that it=E2=80=99s Tim, =
+over at Fund A. Luckily, John took Tim out to Lavo last week, so he gives h=
+im a call.
+Getting an offer: After some posturing, Tim finally acknowledges he=E2=80=
+=99s the owner. John asks him what price he=E2=80=99s willing to sell his b=
+onds. Tim says =E2=80=9CI=E2=80=99d sell for $Z.=E2=80=9D
+Negotiating the broker=E2=80=99s spread: =E2=80=9CJust my luck=E2=80=9D say=
+s John. There=E2=80=99s no money in it for him, buying and selling at $Z, s=
+o he tries to negotiate a spread for himself in the middle.
+Final price: Ultimately, I decide I=E2=80=99m willing to pay no more than $=
+Z and Tim (whose identity John has kept from me) would accept no less than =
+$ZX. But whatever, right? There=E2=80=99s a buyer and a seller at price $Z,=
+ so there=E2=80=99s a trade to do.
+F**k it: Wrong! John decides he=E2=80=99d rather wait for one of us to budg=
+e and refuses to broker the trade for no commission. Because Tim has only e=
+xposed his position to John, I have no way of completing a trade that *shou=
+ld* happen.
+While this seems so obviously stupid, I know this is how it works because I=
+ was John in a past life. And while stupid can be harmless, I believe the c=
+ompounding inefficiencies that plague our financial industry are more nefar=
+ious than they appear. In the second example, the inability to sell one=E2=
+=80=99s position without going through an oligopoly of Wall Street brokers =
+contributes to an =E2=80=9Cilliquidity premium=E2=80=9D on this debt. That =
+means that, all things equal, investors demand a higher yield on their mort=
+gage-backed securities. This increases X%, or an originator=E2=80=99s cost =
+of borrowing, which is transmitted to consumers in the form of higher mortg=
+age rates.=C2=A0
+It may be controversial to say that we=E2=80=99ve reached the theoretical l=
+imits of our existing system. But it=E2=80=99s not controversial to say tha=
+t our existing system is like Windows XP; I=E2=80=99m pretty sure that a go=
+od portion of the =E2=80=9Ctech stack=E2=80=9D on Wall Street is still a ma=
+cro-enabled 1997 Excel Workbook. So what would a new operating system for s=
+ecuritized credit look like? One in which the core first principles - large=
+r scale, more liquidity, and better targeting - were enhanced through new t=
+echnologies and removing intermediaries?
+Can you feel it? You know what=E2=80=99s coming, right? Wait for it=E2=80=
+=A6
+Crypto fixes this=E2=80=A6
+To read how crypto can help make the securitization market more efficient a=
+nd save borrowers tens of billions of dollars=E2=80=A6=20
+Thanks to Kevin and the BlockTower team for writing this piece, and to Dan =
+[ https://substack.com/redirect/bf51019c-206d-49db-bf52-f62ca3efd747?r=3D9p=
+0gt ] for editing!
+That=E2=80=99s all for today, we=E2=80=99ll see you Friday morning for a We=
+ekly Dose of Optimism!
+Thanks for reading,=20
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZOamMyTXpVd01UQXNJbWxoZENJNk1UWTFPVGsyTXpRNU9Td2lhW=
+E56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LmZIdHNj=
+azJuWEJzRkdIeGZmY0xTUHNONFh0RDJuWnlVc2NBRjRhaDNCdUUiLCJwIjo2NzYzNTAxMCwicyI=
+6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTk5NjM0OTksImlzcyI6InB1Yi=
+0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.FVrg7-VJFr7dj6eDor4ObgeuCV_5-sZlH9tr0Fio=
+MBM?
+--b4e6669183b6660decdd119f47c353d55897d8a464fa1114a19334e8863c
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D"--border-radius: 4px; --border-radius-4: 4px; --border-radiu=
+s-8: 8px; --color-bg-primary: white; --color-dark-detail: #333333; --color-=
+dark-primary: #e0e0e0; --color-primary: #404040; --color-secondary: #808080=
+; --color-substack-accent: #ff6719; --color-substack-accent-bg: #fff7f3; --=
+color-substack-bg: #ffffff; --color-substack-secondary: #808080; --color-su=
+bstack-wash: #f5f5f5; --color-tertiary: #a7a7a7; --color-text-dark-pencraft=
+: #404040; --color-text-dark-wash: #252525; --color-utility-detail: #e0e0e0=
+; --font-family-text: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMac=
+SystemFont,
+    'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol'; --font-family-title: 'SF Pro Display',=
+ -apple-system-headline, var(--font-family-text); --font-size-14: 14px; --f=
+ont-weight-600: 600; --letter-spacing-small: -0.15px; --padder: 16px;"><hea=
+d><title>Everything is Broken</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media (max-width: 470px) {
+  .subscribe-dialog.subscribe-dialog-modal {
+    max-width: calc(100% - 30px);
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .subscribe-dialog.subscribe-dialog-floater-center.collapsed {
+    display: none;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .collapse-button {
+    display: none;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-header {
+    margin-top: 32px;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-header .close-button {
+    display: flex;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-input {
+    margin-bottom: 32px;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-description.description-mobile {
+    display: block;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-description.description-desktop {
+    display: none;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .subscribe-dialog.subscribe-dialog-floater-side {
+    right: 15px;
+    max-width: calc(100% - 30px);
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media print {
+  @page {
+    margin: 16mm;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media print {
+  .post .post-footer {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media print {
+  .post .post-end-cta-full {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media print {
+  .use-theme-bg .post p,
+  .use-theme-bg .post h1,
+  .use-theme-bg .post h2,
+  .use-theme-bg .post h3,
+  .use-theme-bg .post h4,
+  .use-theme-bg .post h5,
+  .use-theme-bg .post h6 {
+    color: #000;
+  }
+  .use-theme-bg .post p a,
+  .use-theme-bg .post h1 a,
+  .use-theme-bg .post h2 a,
+  .use-theme-bg .post h3 a,
+  .use-theme-bg .post h4 a,
+  .use-theme-bg .post h5 a,
+  .use-theme-bg .post h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .use-theme-bg .post a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget .header-anchor-widget-bu=
+tton-container {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f5f5f5 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media print {
+  .comments-page .container .thread-head p,
+  .comments-page .container .thread-head h1,
+  .comments-page .container .thread-head h2,
+  .comments-page .container .thread-head h3,
+  .comments-page .container .thread-head h4,
+  .comments-page .container .thread-head h5,
+  .comments-page .container .thread-head h6 {
+    color: #000;
+  }
+  .comments-page .container .thread-head p a,
+  .comments-page .container .thread-head h1 a,
+  .comments-page .container .thread-head h2 a,
+  .comments-page .container .thread-head h3 a,
+  .comments-page .container .thread-head h4 a,
+  .comments-page .container .thread-head h5 a,
+  .comments-page .container .thread-head h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .comments-page .container .thread-head a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media print {
+  .use-theme-bg table.thread-head p,
+  .use-theme-bg table.thread-head h1,
+  .use-theme-bg table.thread-head h2,
+  .use-theme-bg table.thread-head h3,
+  .use-theme-bg table.thread-head h4,
+  .use-theme-bg table.thread-head h5,
+  .use-theme-bg table.thread-head h6 {
+    color: #000;
+  }
+  .use-theme-bg table.thread-head p a,
+  .use-theme-bg table.thread-head h1 a,
+  .use-theme-bg table.thread-head h2 a,
+  .use-theme-bg table.thread-head h3 a,
+  .use-theme-bg table.thread-head h4 a,
+  .use-theme-bg table.thread-head h5 a,
+  .use-theme-bg table.thread-head h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .use-theme-bg table.thread-head a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media print {
+  .mobile-footer-ufi {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 620px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+
+
+@media (min-width: 631px) {
+  .sm\:tw-relative {
+    position: relative !important;
+  }
+  .sm\:tw-left-1 {
+    left: 0.25rem !important;
+  }
+  .sm\:tw-my-8 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .sm\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .sm\:tw-mt-0 {
+    margin-top: 0px !important;
+  }
+  .sm\:tw-ml-3 {
+    margin-left: 0.75rem !important;
+  }
+  .sm\:tw-mb-0 {
+    margin-bottom: 0px !important;
+  }
+  .sm\:tw-mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .sm\:tw-block {
+    display: block !important;
+  }
+  .sm\:tw-inline-block {
+    display: inline-block !important;
+  }
+  .sm\:tw-flex {
+    display: flex !important;
+  }
+  .sm\:tw-hidden {
+    display: none !important;
+  }
+  .sm\:tw-h-7 {
+    height: 1.75rem !important;
+  }
+  .sm\:tw-h-screen {
+    height: 100vh !important;
+  }
+  .sm\:tw-h-56 {
+    height: 14rem !important;
+  }
+  .sm\:tw-max-h-\[60vh\] {
+    max-height: 60vh !important;
+  }
+  .sm\:tw-w-auto {
+    width: auto !important;
+  }
+  .sm\:tw-w-7 {
+    width: 1.75rem !important;
+  }
+  .sm\:tw-w-full {
+    width: 100% !important;
+  }
+  .sm\:tw-w-56 {
+    width: 14rem !important;
+  }
+  .sm\:tw-w-\[500px\] {
+    width: 500px !important;
+  }
+  .sm\:tw-max-w-lg {
+    max-width: 32rem !important;
+  }
+  .sm\:tw-max-w-none {
+    max-width: none !important;
+  }
+  .sm\:tw-translate-y-0 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-95 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-100 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .sm\:tw-items-start {
+    align-items: flex-start !important;
+  }
+  .sm\:tw-gap-4 {
+    gap: 1rem !important;
+  }
+  .sm\:tw-gap-5 {
+    gap: 1.25rem !important;
+  }
+  .sm\:tw-gap-1 {
+    gap: 0.25rem !important;
+  }
+  .sm\:tw-gap-2 {
+    gap: 0.5rem !important;
+  }
+  .sm\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
+  }
+  .sm\:tw-border {
+    border-width: 1px !important;
+  }
+  .sm\:tw-p-0 {
+    padding: 0px !important;
+  }
+  .sm\:tw-p-6 {
+    padding: 1.5rem !important;
+  }
+  .sm\:tw-py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .sm\:tw-px-6 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .sm\:tw-pb-4 {
+    padding-bottom: 1rem !important;
+  }
+  .sm\:tw-pb-16 {
+    padding-bottom: 4rem !important;
+  }
+  .sm\:tw-text-left {
+    text-align: left !important;
+  }
+  .sm\:tw-align-middle {
+    vertical-align: middle !important;
+  }
+  .sm\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .sm\:tw-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .sm\:tw-font-medium {
+    font-weight: 500 !important;
+  }
+  .sm\:tw-text-pub-secondary-text {
+    color: #767676 !important;
+  }
+  .sm\:tw-opacity-70 {
+    opacity: 0.7 !important;
+  }
+  .sm\:hover\:tw-opacity-100:hover {
+    opacity: 1 !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .md\:tw-left-auto {
+    left: auto !important;
+  }
+  .md\:tw-bottom-4 {
+    bottom: 1rem !important;
+  }
+  .md\:tw-right-4 {
+    right: 1rem !important;
+  }
+  .md\:tw-w-3\/4 {
+    width: 75% !important;
+  }
+  .md\:tw-pl-4 {
+    padding-left: 1rem !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-components-prompts-WriterShareModal-module__toast--wc1bo {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-lib-ProfileSetupToast-module__headerRow--17w27 {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .frontend-reader2-ManageSubscriptionPage-module__highlightRow--1lIkl.fron=
+tend-reader2-ManageSubscriptionPage-module__withPlans--3KhSk {
+    align-items: start;
+    flex-direction: column;
+  }
+  .frontend-reader2-ManageSubscriptionPage-module__highlightButtons--1lIV5 =
+{
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+  .frontend-editor-post-AudioEducationModal-module__modalContainer--3-T0R {
+    height: 600px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-publish-stats-pages-reader_referrals_stats-reader_referrals_sta=
+ts-module__popoverWrapper--3Gh5i {
+    display: none;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwODA4MTI1ODAwLjMuMWIzZDQxMWQ4YjNjZTU1Y0BtZy1kMC5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFja=
+y5jb20iLCJwIjo2NzYzNTAxMCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjox=
+MDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTY1OTk2MzU=
+wMCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.aBEWFB6N19eohRN0ZKXbUaE7hdbAtS5DJsvoD=
+nXfIC4" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px =
+!important;width:1px !important;border-width:0 !important;margin-top:0 !imp=
+ortant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !=
+important;padding-top:0 !important;padding-bottom:0 !important;padding-righ=
+t:0 !important;padding-left:0 !important;"/><div style=3D"display:none;font=
+-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacit=
+y:0;overflow:hidden;" class=3D"preview">Kevin Miao explains a very real cry=
+pto use case: fixing the $14T securitization market &#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;</div><table role=3D"presentation" width=3D"100%=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-body-cont=
+ainer"><tr><td></td><td width=3D"550" class=3D"content"></td><td></td></tr>=
+<tr><td></td><td align=3D"left" width=3D"550" class=3D"content"><div style=
+=3D"font-size: 16px; line-height: 26px; margin: 0 auto; max-width: 550px; o=
+verflow-wrap: break-word; width: 100%;"><table role=3D"presentation" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D=
+"right" style=3D"height: 40px;"><table role=3D"presentation" width=3D"auto"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><a href=3D"https:=
+//substack.com/app-link/post?publication_id=3D10025&post_id=3D67635010&utm_=
+source=3Demail" class=3D"tw-font-body tw-text-ssm tw-text-substack-secondar=
+y" style=3D"color: rgb(128,128,128) !important; font-family: SF Pro Text, -=
+apple-system, BlinkMacSystemFont, Inter, Segoe UI, Roboto, Helvetica, Arial=
+, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important=
+; font-size: 13px !important;">Open in browser</a></td></tr></table></td></=
+tr></table><div dir=3D"auto" class=3D"post typography" style=3D"font-size: =
+16px; line-height: 26px; padding: 16px 0 0 0;"><div class=3D"post-header" s=
+tyle=3D"font-size: 16px; line-height: 26px;"><h1 class=3D"post-title short =
+published" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoo=
+thing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -app=
+le-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: =
+40px; font-weight: bold; line-height: 130%; margin: 0.378em 0 0 0;"><a href=
+=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmN=
+vL3AvZXZlcnl0aGluZy1pcy1icm9rZW4_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1=
+N3aWNHOXpkRjlwWkNJNk5qYzJNelV3TVRBc0ltbGhkQ0k2TVRZMU9UazJNelE1T1N3aWFYTnpJa=
+m9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pY0c5emRDMXlaV0ZqZEdsdmJpSjkuTjBlb0VDckxa=
+eS14aGpOZll5VHYwSDU5blM1OTBsT05xX3hlOXBZNGxfayIsInAiOjY3NjM1MDEwLCJzIjoxMDA=
+yNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY1OTk2MzQ5OSwiaXNzIjoicHViLTAiLC=
+JzdWIiOiJsaW5rLXJlZGlyZWN0In0.Rx39gsWC_GHRgAxX-eM6N4-iLCcWL3D2icy0zEeJZm0?"=
+ style=3D"color: #1a1a1a; text-decoration: none;">Everything is Broken</a><=
+/h1><h3 class=3D"subtitle" style=3D"-moz-osx-font-smoothing: antialiased; -=
+webkit-font-smoothing: antialiased; color: #767676; font-family: 'SF Compac=
+t Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetic=
+a, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symb=
+ol'; font-size: 20px; font-weight: normal; line-height: 1.16em; margin: 4px=
+ 0 8px; margin-top: 8px;">Kevin Miao explains a very real crypto use case: =
+fixing the $14T securitization market</h3><table cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"post-meta custom" style=3D"align-items: center; height: =
+20px; margin: 1em 0;"><tr><td title=3D"2022-08-08T12:58:11.672Z" class=3D"p=
+ost-meta-item post-date" style=3D"color: #767676; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; fo=
+nt-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bottom: 0; p=
+adding-top: 0; position: relative; text-decoration: none; white-space: nowr=
+ap;"><time dateTime=3D"2022-08-08T12:58:11.672Z">Aug 8</time></td><td class=
+=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; fo=
+nt-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bottom: 0; p=
+adding-top: 0; position: relative; text-decoration: none; text-indent: 3px;=
+ white-space: nowrap;"><span class=3D"post-meta-icon like-reaction-button">=
+<a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9y=
+aW5nLmNvL2FwaS92MS9wb3N0L2VtYWlsLXJlYWN0aW9uP3V0bV9zb3VyY2U9c3Vic3RhY2smdXR=
+tX21lZGl1bT1lbWFpbCZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOX=
+BaQ0k2TmpjMk16VXdNVEFzSW5KbFlXTjBhVzl1SWpvaTRwMmtJaXdpYVdGMElqb3hOalU1T1RZe=
+k5EazVMQ0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSnlaV0ZqZEdsdmJpSjkuM1Bx=
+MzNjck5oaXBvZnhoMnFyVHA5YURzNkN1YTU0T3h6Y3FYVU9aQjRZYyIsInAiOjY3NjM1MDEwLCJ=
+zIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY1OTk2MzQ5OSwiaXNzIjoicH=
+ViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.l4KLt-q1o353H7R7jBsdkJmAwq7BfQ9yJQeWZ=
+0lTDI8?" class=3D"like-button" style=3D"color: #767676; display: block; tex=
+t-decoration: none;"><img src=3D"https://substackcdn.com/image/fetch/w_32,c=
+_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2F=
+icon%2FLucideHeart%3Fv%3D4%26height%3D32%26fill%3Dtransparent%26stroke%3D%2=
+523757575%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"border: no=
+ne !important; display: inline-block; float: left; height: 14px; max-width:=
+ 16px; vertical-align: top; width: auto;" alt=3D""></a></span></td><td clas=
+s=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; f=
+ont-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bottom: 0; =
+padding-top: 0; position: relative; text-decoration: none; text-indent: 3px=
+; white-space: nowrap;"><a class=3D"" href=3D"https://substack.com/redirect=
+/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvZXZlcnl0aGluZy1pcy1icm9rZW4v=
+Y29tbWVudHM_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk5=
+qYzJNelV3TVRBc0ltbGhkQ0k2TVRZMU9UazJNelE1T1N3aWFYTnpJam9pY0hWaUxURXdNREkxSW=
+l3aWMzVmlJam9pY0c5emRDMXlaV0ZqZEdsdmJpSjkuTjBlb0VDckxaeS14aGpOZll5VHYwSDU5b=
+lM1OTBsT05xX3hlOXBZNGxfayIsInAiOjY3NjM1MDEwLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6=
+MTYyODM1NDksImlhdCI6MTY1OTk2MzQ5OSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGl=
+yZWN0In0.q8ZdXQsr66RsOOPir5a6RH_mP5sUZBaLNnl_zBT25bQ?&utm_source=3Dsubstack=
+&utm_medium=3Demail" style=3D"color: #767676; display: block; text-decorati=
+on: none;"><img src=3D"https://substackcdn.com/image/fetch/w_32,c_scale,f_p=
+ng,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLuc=
+ideComments%3Fv%3D4%26height%3D32%26fill%3Dtransparent%26stroke%3D%25237575=
+75%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"border: none !imp=
+ortant; display: inline-block; float: left; height: 14px; max-width: 16px; =
+vertical-align: top; width: auto;" alt=3D"Comment" class=3D"comment-icon po=
+st-meta-icon"></a></td><td class=3D"post-meta-item icon" style=3D"color: #7=
+67676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, =
+Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe=
+ UI Symbol'; font-size: 14px; font-weight: 400; height: 14px; margin-right:=
+ 0; padding: 0px 12px 0px 0; padding-bottom: 0; padding-right: 0; padding-t=
+op: 0; position: relative; text-decoration: none; text-indent: 3px; white-s=
+pace: nowrap;"><span><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR=
+0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvZXZlcnl0aGluZy1pcy1icm9rZW4_dXRtX3NvdXJjZT=
+1zdWJzdGFjayZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jb250ZW50PXNoYXJlJmFjdGlvbj1zaGFyZ=
+SZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpYVdGMElqb3hOalU1T1RZek5EazVM=
+Q0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSndiM04wTFhKbFlXTjBhVzl1SW4wLmN=
+kVlJZMUJrVnB6QkNnalUxOHRJTlVlcHUxNl96bFRfbGVHSWdkTUFab3ciLCJwIjo2NzYzNTAxMC=
+wicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTk5NjM0OTksImlzcyI6I=
+nB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.7IFNa8_KHPHnouDNCM1XY45lztYto6n9TrC=
+OqkQid1s?" style=3D"color: #767676; display: block; text-decoration: none;"=
+><img src=3D"https://substackcdn.com/image/fetch/w_32,c_scale,f_png,q_auto:=
+good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3=
+Fv%3D4%26height%3D32%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWi=
+dth%3D2" width=3D"16" height=3D"16" style=3D"border: none !important; displ=
+ay: inline-block; float: left; height: 14px; max-width: 16px; vertical-alig=
+n: top; width: auto;" alt=3D"Share" class=3D"recommend-icon post-meta-icon"=
+></a></span></td></tr></table></div></div><div dir=3D"auto" class=3D"post t=
+ypography" style=3D"font-size: 16px; line-height: 26px; padding: 16px 0 0 0=
+;"><div dir=3D"auto" class=3D"body markup" style=3D"font-size: 16px; line-h=
+eight: 26px; margin-bottom: 12px; text-align: initial; width: 100%; word-br=
+eak: break-word;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0; margin-top: 0;"><em><span>Welcome to the&#160;</s=
+pan><strong>1,483&#160;newly Not Boring people&#160;</strong><span>who have=
+ joined us since last Monday! If you haven&#8217;t subscribed, join&#160;</=
+span><strong>143,885 </strong><span>smart, curious folks by subscribing her=
+e: </span></em></p><div class=3D"subscribe-widget is-signed-up" style=3D"di=
+rection: ltr; font-size: 16px; line-height: 26px; margin: 0 0 1em;"><p clas=
+s=3D"button-wrapper" style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0; text-align: center;"><a href=3D"https://substack.=
+com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3N1YnNjcmliZT91dG1f=
+c291cmNlPXBvc3QiLCJwIjo2NzYzNTAxMCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ=
+5LCJpYXQiOjE2NTk5NjM0OTksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.R=
+3Ar2lR5wza0nnasFe30HGfsrF24NKJi1d9QmRzaRs0?&utm_medium=3Demail&utm_source=
+=3Dsubscribe-widget&utm_content=3D67635010" class=3D"button primary subscri=
+be-btn" style=3D"background-color: #67bdfc; border: none; border-radius: 4p=
+x; box-sizing: border-box; color: #ffffff !important; cursor: pointer; disp=
+lay: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe U=
+I', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Em=
+oji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height: auto=
+; line-height: 20px; margin: 0; opacity: 1; outline: none; padding: 12px 20=
+px; text-align: center; text-decoration: none !important; white-space: nowr=
+ap;"><span style=3D"color: #ffffff; text-decoration: none;">Subscribe now</=
+span></a></p></div><div style=3D"font-size: 16px; line-height: 26px;"><hr s=
+tyle=3D"background: #ebebeb; border: none; height: 1px; margin: 48px 0; pad=
+ding: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0 0 1em 0;"><strong><span>Today&#8217;s Not Boring is brought =
+to you by&#8230; </span><a href=3D"https://substack.com/redirect/af14ec66-3=
+e7b-4f35-ad06-6879b0f83ceb?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; tex=
+t-decoration: underline;">Stacker</a></strong></p><p style=3D"color: #1a1a1=
+a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em><a href=3D"h=
+ttps://substack.com/redirect/af14ec66-3e7b-4f35-ad06-6879b0f83ceb?r=3D9p0gt=
+" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Stacker</a=
+><span> is one of Not Boring&#8217;s longest-standing sponsors. They are a =
+game changer for companies that want to </span><strong>scale beyond paid ac=
+quisition channels.</strong></em></p><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0 0 1em 0;"><em>They&#8217;ve worked with=
+ 100+ brands &#8212; including Angi, GoHenry, Experian, Vivid Seats, Sideca=
+r Health, and Extra Space Storage &#8212; to accelerate their organic and e=
+arned media strategies.</em></p><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em 0;"><em><strong>How it works:</strong>=
+<span> </span><strong><a href=3D"https://substack.com/redirect/af14ec66-3e7=
+b-4f35-ad06-6879b0f83ceb?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-=
+decoration: underline;">Stacker Studio</a></strong><span> produces newswort=
+hy content for brands and then distributes the stories through their propri=
+etary newswire to hundreds of news outlets, including SFGate, Chicago Tribu=
+ne, MSN, Houston Chronicle, and 3,000+ other newsrooms.&#160;</span></em></=
+p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+ 0 1em 0;"><em><strong>The results?</strong><span> Hundreds of high quality=
+/SEO-friendly pickups and invaluable brand awareness and authority.</span><=
+/em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 1em 0;"><em><span>If SEO is on your roadmap, </span><strong><a hre=
+f=3D"https://substack.com/redirect/af14ec66-3e7b-4f35-ad06-6879b0f83ceb?r=
+=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">St=
+acker</a></strong><span> is a no-brainer. Campaigns start at $6-8k/month, b=
+ut they guarantee a minimum of 50 high authority pickups for each story and=
+ average 150-200 pickups per campaign! That means higher site authority, be=
+tter search rankings, and the improvement in organic traffic you&#8217;ve b=
+een looking for. </span><strong>As a Not Boring reader, you get 20% off you=
+r first story.</strong></em></p><p class=3D"button-wrapper" data-attrs=3D"{=
+&quot;url&quot;:&quot;https://studio.stacker.com/?utm_medium=3Dnewsletter&a=
+mp;utm_source=3DNotBoring&amp;utm_campaign=3Daugust&quot;,&quot;text&quot;:=
+&quot;Checkout Stacker&quot;,&quot;action&quot;:null,&quot;class&quot;:&quo=
+t;button-wrapper&quot;}" style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0; text-align: center;"><a class=3D"button prima=
+ry button-wrapper" href=3D"https://substack.com/redirect/af14ec66-3e7b-4f35=
+-ad06-6879b0f83ceb?r=3D9p0gt" rel=3D"" style=3D"background-color: #67bdfc; =
+border: none; border-radius: 4px; box-sizing: border-box; color: #ffffff !i=
+mportant; cursor: pointer; display: inline-block; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; fo=
+nt-weight: normal; height: auto; line-height: 20px; margin: 0; opacity: 1; =
+outline: none; padding: 12px 20px; text-align: center; text-decoration: non=
+e !important; white-space: nowrap;"><span style=3D"color: #ffffff; text-dec=
+oration: none;">Checkout Stacker</span></a></p><div style=3D"font-size: 16p=
+x; line-height: 26px;"><hr style=3D"background: #ebebeb; border: none; heig=
+ht: 1px; margin: 48px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Hi friends ,&#160;</p>=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0=
+ 1em 0;">Happy Monday! Past Packy here (I wrote this before I took off).&#1=
+60;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0;">A couple of months ago, I got myself in a bit of internet t=
+rouble when I suggested on Cartoon Avatars that one of the use cases for cr=
+ypto might be bringing mortgages on-chain. Since then, one of the questions=
+ I&#8217;ve asked myself is what the problem with my answer was:&#160;</p><=
+ul style=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8=
+px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-b=
+ottom: 0;">Is it impossible to improve real-world financial markets by brin=
+ging real-world assets (RWA) on-chain?&#160;</p></li><li style=3D"margin-bo=
+ttom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-=
+format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0; margin-bottom: 0;">Or am I an idiot?&#160;</p></li></ul><p=
+ style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1=
+em 0;"><span>I&#8217;m happy to report that it&#8217;s the latter: </span><=
+strong>I&#8217;m an idiot</strong><span>. After the podcast dropped, my fri=
+end </span><a href=3D"https://substack.com/redirect/9f5514d8-5f5c-49f5-94da=
+-57e8722dde9a?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration:=
+ underline;">Kevin Miao</a><span> reached out to say that he was actually w=
+orking on investing in non-crypto credit assets and securitizing them on-ch=
+ain. Kevin, unlike me, knows what he&#8217;s talking about in this area. He=
+ spent seven years in TradFi credit at Citi, where he was most recently run=
+ning a structured credit trading desk, before leaving to run operations at =
+Capchase with a focus on risk, underwriting, and portfolio management. Afte=
+r leaving Capchase, he matriculated at Harvard Business School before dropp=
+ing out to go full-time on crypto as Head of Credit at </span><a href=3D"ht=
+tps://substack.com/redirect/1d908aef-fd8d-4e43-b67c-a831ccbe8a5a?r=3D9p0gt"=
+ rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">BlockTower<=
+/a><span>.</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 1em 0;"><span>A couple weeks ago, we hopped on a call=
+ to discuss what he was up to. He began by illuminating how credit securiti=
+zation impacts our daily lives - buying houses, cars, even </span><a href=
+=3D"https://substack.com/redirect/fd0810ae-e9da-4ee9-9a77-38a5559c1158?r=3D=
+9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">cell =
+phones</a><span> - and launched into an impassioned and detailed 30-minute =
+summary of why lending across trillions of dollars worth of assets was inef=
+ficient. The inability to tolerate this inefficiency, along with the clear =
+business case for modernizing our financial infrastructure, informed his li=
+fe&#8217;s mission of removing wasteful basis points from the loans and sec=
+uritizations that make the economy go &#8216;round.&#160;</span></p><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;=
+">Originally a crypto skeptic, Kevin became convinced that blockchains offe=
+red a credibly neutral way for lenders to work together more directly and e=
+fficiently, and decided to dive in. Over the course of our call, what struc=
+k me was that Kevin wasn&#8217;t speaking in ideological language at all. H=
+e was talking about very specific and unsexy ways that bringing RWA lending=
+ on-chain could bring down borrowing costs and increase velocity. At the en=
+d of the call, I asked him, &#8220;Could you just write down everything tha=
+t you just told me for Not Boring?&#8221;&#160;</p><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Luckily, he agr=
+eed. This post is a deep and technical dive into why bringing RWA lending o=
+n-chain is an improvement over the current model. If Kevin is right, this i=
+s an enormous unlock and one that will expand crypto&#8217;s opportunity an=
+d impact.&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height=
+: 26px; margin: 0 0 1em 0;"><span>My exchange with Kevin is a proof of </sp=
+an><strong>Cunningham&#8217;s&#160; Law</strong><span>: The best way to get=
+ the right answer on the Internet is not to ask a question; it's to post th=
+e wrong answer. By being an idiot online, I was able to get to someone who =
+actually knows what they&#8217;re talking about. I hope you learn as much a=
+s I did, and I hope that some of the skeptics read this and engage producti=
+vely.&#160;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;">The revolution doesn&#8217;t need to be sexy=
+ to be impactful. Removing wasteful bps is a big win.</p><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Let&#8217=
+;s get to it.&#160;</p><h3 class=3D"header-with-anchor-widget" style=3D"-mo=
+z-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; col=
+or: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSyst=
+emFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoj=
+i', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: b=
+old; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relative;"><st=
+rong><a href=3D"https://substack.com/redirect/892ea4db-365e-4fe5-b8a6-1032a=
+9cc31a3?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: under=
+line;">Everything is Broken</a></strong><div id=3D"&#167;everything-is-brok=
+en" class=3D"header-anchor-widget" style=3D"font-size: 16px; height: 100%; =
+left: -56px; line-height: 26px; position: absolute; top: -72px; width: 56px=
+;"><div class=3D"header-anchor-widget-button-container" style=3D"align-item=
+s: center; display: flex; font-size: 16px; height: 1.2em; left: 0; line-hei=
+ght: 26px; position: absolute; top: 72px; width: 40px;"><a class=3D"header-=
+anchor-widget-button" href=3D"https://substack.com/redirect/433f76e4-e660-4=
+712-9581-c7ee529c2f49?r=3D9p0gt" style=3D"align-items: center; border-radiu=
+s: 50%; color: #1a1a1a; display: none; height: 40px; justify-content: cente=
+r; text-decoration: underline; width: 40px;"><svg xmlns=3D"http://www.w3.or=
+g/2000/svg" width=3D"20" height=3D"20" viewBox=3D"0 0 24 24" fill=3D"none" =
+stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-=
+linejoin=3D"round" class=3D"header-anchor-widget-icon" style=3D"height: 20p=
+x; stroke: #9a9a9a; width: 20px;"><path d=3D"M10 13a5 5 0 007.54.54l3-3a5 5=
+ 0 00-7.07-7.07l-1.72 1.71"/><path d=3D"M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0=
+ 007.07 7.07l1.71-1.71"/></svg></a></div></div></h3><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>(Click the=
+ link to read the full thing online)</em></p><div class=3D"captioned-image-=
+container-static" style=3D"font-size: 16px; line-height: 26px; margin-botto=
+m: 16px; text-align: center;"><figure style=3D"display: inline-block; margi=
+n: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso=
+-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></=
+td><td align=3D"left" class=3D"content" width=3D"1200" style=3D"text-align:=
+ center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://substac=
+k.com/redirect/fc92b1e6-fa79-4045-aa9a-4c28ff919d30?r=3D9p0gt" rel=3D"" sty=
+le=3D"align-items: center; border: none; display: block; flex-direction: co=
+lumn; height: auto; margin: 0; padding: 0; text-decoration: none; width: au=
+to;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-b=
+aa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ed9878e6-c1a6-476=
+8-8a65-e434fb3bd3b1_1200x600.png&quot;,&quot;fullscreen&quot;:null,&quot;im=
+ageSize&quot;:null,&quot;height&quot;:600,&quot;width&quot;:1200,&quot;resi=
+zeWidth&quot;:null,&quot;bytes&quot;:1382939,&quot;alt&quot;:null,&quot;tit=
+le&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,=
+&quot;belowTheFold&quot;:true}" alt=3D"" width=3D"550" height=3D"275" class=
+=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_2400,c_limit,f=
+_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa=
+3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fed9878e6-c1a6=
+-4768-8a65-e434fb3bd3b1_1200x600.png" style=3D"-ms-interpolation-mode: bicu=
+bic; border: none !important; display: block; height: auto; margin: 0 auto;=
+ margin-bottom: 0; max-width: 100% !important; vertical-align: middle; widt=
+h: auto !important;"></a></td><td style=3D"text-align: center;"></td></tr><=
+/tbody></table></figure></div><h3 class=3D"header-with-anchor-widget" style=
+=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialias=
+ed; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-we=
+ight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relativ=
+e;"><strong>Welcome to the clown show</strong><div id=3D"&#167;welcome-to-t=
+he-clown-show" class=3D"header-anchor-widget" style=3D"font-size: 16px; hei=
+ght: 100%; left: -56px; line-height: 26px; position: absolute; top: -72px; =
+width: 56px;"><div class=3D"header-anchor-widget-button-container" style=3D=
+"align-items: center; display: flex; font-size: 16px; height: 1.2em; left: =
+0; line-height: 26px; position: absolute; top: 72px; width: 40px;"><a class=
+=3D"header-anchor-widget-button" href=3D"https://substack.com/redirect/b01f=
+a6fa-91d9-4447-bfb6-c6d0e4fb4748?r=3D9p0gt" style=3D"align-items: center; b=
+order-radius: 50%; color: #1a1a1a; display: none; height: 40px; justify-con=
+tent: center; text-decoration: underline; width: 40px;"><svg xmlns=3D"http:=
+//www.w3.org/2000/svg" width=3D"20" height=3D"20" viewBox=3D"0 0 24 24" fil=
+l=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"rou=
+nd" stroke-linejoin=3D"round" class=3D"header-anchor-widget-icon" style=3D"=
+height: 20px; stroke: #9a9a9a; width: 20px;"><path d=3D"M10 13a5 5 0 007.54=
+=2E54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/=
+><path d=3D"M14 11a5 5 0 00-7.54-.54=
+l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg></a></div></div></h3><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">&#8=
+220;Oh boy, another crypto guy. Here we go again!&#8221; Let me start with =
+an overdue acknowledgement to the haters.</p><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;">From an outsider&#821=
+7;s perspective, I understand why crypto seems like an absolute circus. Amo=
+ng the many mass delusions that the crypto community has hoisted upon itsel=
+f over the last 12 months, my favorites include:</p><ol style=3D"margin-top=
+: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; m=
+argin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0; margin-bottom: 0;">DeFi created $OHM, a financial perpetua=
+l motion machine, rendering millenia of economic teachings obsolete</p></li=
+><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin=
+-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px;=
+ margin: 0; margin-bottom: 0;">People would be able to earn ever larger sum=
+s by simply walking or even sleeping</p></li><li style=3D"margin-bottom: 4p=
+x; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"color: =
+#1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">=
+WAGMI because our shitcoins had inherent value (and certainly not because o=
+f an incestuous daisy chain of leverage)</p></li></ol><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">The crazy th=
+ing is this truly does not even scratch the surface of the madness. @DrNick=
+A offers a hilarious and cringeworthy recap here for those interested:</p><=
+div class=3D"tweet" style=3D"background: #fff; border: 1px solid #e1e8ed; b=
+order-radius: 4px; direction: ltr; display: block; font: normal normal 16px=
+/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; l=
+ine-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11=
+=2E6px 20px;"><a href=3D"https://substack=
+=2Ecom/redirect/b188fb14-ccff-43e5-abf=
+b-d4db02f621f1?r=3D9p0gt" target=3D"_blank" rel=3D"" style=3D"color: black;=
+ display: block; text-decoration: none; white-space: pre-wrap;"><div class=
+=3D"tweet-header" style=3D"display: block; font-size: 16px; line-height: 1.=
+2; margin-bottom: 14px; text-decoration: none;"><img class=3D"tweet-user-av=
+atar" src=3D"https://substackcdn.com/image/twitter_name/w_36/DrNickA.jpg" a=
+lt=3D"Twitter avatar for @DrNickA" loading=3D"lazy" style=3D"-ms-interpolat=
+ion-mode: bicubic; border: none !important; border-radius: 50%; display: bl=
+ock; float: left; height: 36px; margin: 0 8px 0 0; max-width: 100%; vertica=
+l-align: middle; width: 36px;"><span class=3D"tweet-author-name" style=3D"c=
+olor: #1c2022; display: block; font-weight: 700;">drnick &#128499;&#65039;&=
+#178; </span><span class=3D"tweet-author" style=3D"color: #697882; display:=
+ block; font-size: 14px;">@DrNickA</span></div><span>This crypto cycle was =
+even weirder than the ICO frenzy of 2017/18.
+
+Here&#8217;s my pick of the most ridiculous moments of this cycle.=20
+
+TL;DR We deserve everything we got. &#128071;</span></a><a href=3D"https://=
+substack.com/redirect/b188fb14-ccff-43e5-abfb-d4db02f621f1?r=3D9p0gt" targe=
+t=3D"_blank" rel=3D"" style=3D"color: black; display: block; text-decoratio=
+n: none; white-space: pre-wrap;"><div class=3D"tweet-footer" style=3D"color=
+: #697882; display: block; font-size: 14px; line-height: 26px; margin-top: =
+10px; text-decoration: none;"><p class=3D"tweet-date" style=3D"border-botto=
+m: 1px solid #e1e8ed; color: #697882; display: block; font-size: 14px; line=
+-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">June 1=
+9th 2022</p><span class=3D"retweets" style=3D"display: inline-block; margin=
+-right: 8px;"><span class=3D"rt-count" style=3D"color: #1c2022; font-weight=
+: bold;">3,561</span><span> Retweets</span></span><span class=3D"likes" sty=
+le=3D"display: inline-block; margin-right: 8px;"><span class=3D"like-count"=
+ style=3D"color: #1c2022; font-weight: bold;">11,671</span><span> Likes</sp=
+an></span></div></a></div><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;">That said, despite being a skeptic of so=
+me recent crypto &#8220;innovation,&#8221; I was so compelled by the vision=
+ of a more efficient financial system that I dropped out of Harvard Busines=
+s School to join BlockTower, a stalwart digital asset investment manager, i=
+n February. Founded in 2017 by Matthew Goetz and Ari Paul, BlockTower gave =
+me a window into what was really happening beneath the surface of crypto.</=
+p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+ 0 1em 0;">And I have never had more conviction that I am in the right plac=
+e, at the right time, and in the right industry.&#160;</p><p style=3D"color=
+: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">To expla=
+in, I&#8217;ll frame the opportunity I see in the following way:</p><ol sty=
+le=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; ma=
+rgin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>The goal</stron=
+g><span>: engineering cheaper cost of capital to borrowers</span></p></li><=
+li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-t=
+op: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0; margin-bottom: 0;"><strong>The problem:</strong><span> our anachr=
+onistic securitization infrastructure today sucks and extracts a tax on us =
+all</span></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margi=
+n-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0; margin-bottom: 0;"><strong>The solution:</str=
+ong><span> the pursuit of efficiencies and new possibilities through blockc=
+hain&#160;</span></p></li></ol><p style=3D"color: #1a1a1a; font-size: 16px;=
+ line-height: 26px; margin: 0 0 1em 0;">But first, some acknowledgements. C=
+ollaborators on this article include: Kevin Chan, Jack Carlisle, Anant Mata=
+i, the BlockTower Team, and Not Boring (of course).</p><h2 class=3D"header-=
+with-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-=
+font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Displ=
+ay', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Aria=
+l, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fo=
+nt-size: 1.625em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.6=
+25em 0; position: relative;"><strong>The Case for Real-World Lending On-Cha=
+in</strong><div id=3D"&#167;the-case-for-real-world-lending-on-chain" class=
+=3D"header-anchor-widget" style=3D"font-size: 16px; height: 100%; left: -56=
+px; line-height: 26px; position: absolute; top: -72px; width: 56px;"><div c=
+lass=3D"header-anchor-widget-button-container" style=3D"align-items: center=
+; display: flex; font-size: 16px; height: 1.2em; left: 0; line-height: 26px=
+; position: absolute; top: 72px; width: 40px;"><a class=3D"header-anchor-wi=
+dget-button" href=3D"https://substack.com/redirect/dc6a748c-f966-4117-bca7-=
+71cc9f332d6f?r=3D9p0gt" style=3D"align-items: center; border-radius: 50%; c=
+olor: #1a1a1a; display: none; height: 40px; justify-content: center; text-d=
+ecoration: underline; width: 40px;"><svg xmlns=3D"http://www.w3.org/2000/sv=
+g" width=3D"20" height=3D"20" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D=
+"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=
+=3D"round" class=3D"header-anchor-widget-icon" style=3D"height: 20px; strok=
+e: #9a9a9a; width: 20px;"><path d=3D"M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.=
+07-7.07l-1.72 1.71"/><path d=3D"M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 =
+7.07l1.71-1.71"/></svg></a></div></div></h2><h3 class=3D"header-with-anchor=
+-widget" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smooth=
+ing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple=
+-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-ser=
+if, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.=
+375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; pos=
+ition: relative;"><strong>We know the future</strong><div id=3D"&#167;we-kn=
+ow-the-future" class=3D"header-anchor-widget" style=3D"font-size: 16px; hei=
+ght: 100%; left: -56px; line-height: 26px; position: absolute; top: -72px; =
+width: 56px;"><div class=3D"header-anchor-widget-button-container" style=3D=
+"align-items: center; display: flex; font-size: 16px; height: 1.2em; left: =
+0; line-height: 26px; position: absolute; top: 72px; width: 40px;"><a class=
+=3D"header-anchor-widget-button" href=3D"https://substack.com/redirect/528e=
+51ad-1062-4b0c-86bf-9c2f7eac5956?r=3D9p0gt" style=3D"align-items: center; b=
+order-radius: 50%; color: #1a1a1a; display: none; height: 40px; justify-con=
+tent: center; text-decoration: underline; width: 40px;"><svg xmlns=3D"http:=
+//www.w3.org/2000/svg" width=3D"20" height=3D"20" viewBox=3D"0 0 24 24" fil=
+l=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"rou=
+nd" stroke-linejoin=3D"round" class=3D"header-anchor-widget-icon" style=3D"=
+height: 20px; stroke: #9a9a9a; width: 20px;"><path d=3D"M10 13a5 5 0 007.54=
+=2E54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/=
+><path d=3D"M14 11a5 5 0 00-7.54-.54=
+l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg></a></div></div></h3><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">One=
+ of my all-time favorite insights is the following from Jeff Bezos:</p><blo=
+ckquote style=3D"border-left: 4px solid #67bdfc; margin: 1em 0;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; =
+margin-left: 1em;"><em><span>&#8230;'</span><strong>What's not going to cha=
+nge in the next 10 years?</strong><span>&#8217;&#8230; It's impossible to i=
+magine a future 10 years from now where a customer comes up and says, 'Jeff=
+ I love Amazon; I just wish the prices were a little higher,' or 'I love Am=
+azon; I just wish you'd deliver a little more slowly.' Impossible&#8230; </=
+span><strong>When you have something that you know is true, even over the l=
+ong term, you can afford to put a lot of energy into it.</strong></em></p><=
+/blockquote><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px;=
+ margin: 0 0 1em 0;">To paraphrase, the man knows the damn future. Bezos kn=
+ew that customers would continue to want lower prices, more selection, and =
+faster delivery, and thus devoted tremendous energy to pursue those goals t=
+hrough Amazon. When the path forward is uncertain, it&#8217;s helpful to ha=
+ve a north star.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;">So, what do we, BlockTower&#8217;s credit geek=
+s, know about the future? What are we certain will never change? To us, tha=
+t&#8217;s easy.&#160;</p><div class=3D"captioned-image-container-static" st=
+yle=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align:=
+ center;"><figure style=3D"display: inline-block; margin: 0 auto; width: 10=
+0%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 =
+1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left=
+" class=3D"content" width=3D"324" style=3D"text-align: center;"><a class=3D=
+"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/afce00=
+87-97aa-4073-8b2c-1fb8f35fddeb?r=3D9p0gt" rel=3D"" style=3D"align-items: ce=
+nter; border: none; display: block; flex-direction: column; height: auto; m=
+argin: 0; padding: 0; text-decoration: none; width: auto;"><img data-attrs=
+=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32b=
+e77984.s3.amazonaws.com/public/images/4b12c16d-896b-464a-8424-b11791cc0402_=
+324x57.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&qu=
+ot;height&quot;:57,&quot;width&quot;:324,&quot;resizeWidth&quot;:null,&quot=
+;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot=
+;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true}" alt=
+=3D"" title=3D"" width=3D"324" height=3D"57" class=3D"" src=3D"https://subs=
+tackcdn.com/image/fetch/w_324,c_limit,f_auto,q_auto:good,fl_progressive:ste=
+ep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaw=
+s.com%2Fpublic%2Fimages%2F4b12c16d-896b-464a-8424-b11791cc0402_324x57.png" =
+style=3D"-ms-interpolation-mode: bicubic; border: none !important; display:=
+ block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !im=
+portant; vertical-align: middle; width: auto !important;"></a></td><td styl=
+e=3D"text-align: center;"></td></tr></tbody></table></figure></div><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Why do we know this? The core objective of every lender is to borrow money=
+ at X% and loan money at X+Y%, capturing a spread in the form of ongoing ne=
+t interest margin (Y%) or through a one-time &#8220;gain on sale&#8221; of =
+the underlying loan (roughly Y% * the effective duration of the loan). The =
+cheaper the cost of borrowing (X%), the more profit you stand to make (unti=
+l efficient markets drive down Y%). With that incentive, who would ever ask=
+ for a higher X%?&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;"><span>From the first modern clearinghou=
+ses in Liverpool, to the emergence of fractional reserve banking, to the pr=
+oliferation of AI/ML in modern credit underwriting, </span><strong>driving =
+down the cost of capital has long been the financial market&#8217;s north s=
+tar.</strong><span> To this end, it&#8217;s hard to think of a more success=
+ful (or notorious) innovation than securitizations. Securitizations, archet=
+ypically mortgage-backed securities, are instruments which pool financial a=
+ssets (loans) into tranches of debt that is subsequently purchased by inves=
+tors.&#160;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;">Wait - what does the &#8216;Big Short&#8217;=
+ have to do with this?</p><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;">Securitizations are not sexy. You know t=
+hat, I know that, and the people who asked me &#8220;so what do you do?&#82=
+21; in Brooklyn circa 2017 certainly knew that. But, for better or for wors=
+e, securitizations have played a critical role in making the provision of c=
+redit more efficient. To understand how, let&#8217;s use the example of a t=
+ypical mortgage-backed security (MBS).</p><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;">Any mortgage-backed secu=
+rity can be thought of as a traditional company. Unlike traditional compani=
+es, however, where assets are factories, IP, or human capital; here, the &#=
+8220;company&#8217;s&#8221; assets are mortgages, whose value derives from =
+the contractual obligation of the underlying borrowers to make payments acc=
+ording to a fixed schedule. The company, in the form of a bankruptcy remote=
+ SPV, purchases these assets through a sale of liabilities to investors. Th=
+ese liabilities, or the tranches of the MBS, exhibit similar characteristic=
+s to any corporate capital structure: there are senior claims (tranches), j=
+unior tranches, equity claims (residuals), and so on.&#160;</p><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Thu=
+s, a basic capital structure of a MBS could look like this:</p><div class=
+=3D"captioned-image-container-static" style=3D"font-size: 16px; line-height=
+: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"display:=
+ inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"m=
+argin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"tex=
+t-align: center;"></td><td align=3D"left" class=3D"content" width=3D"468" s=
+tyle=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=
+=3D"https://substack.com/redirect/ec2991f7-5c4f-4157-a496-8e282d136d1c?r=3D=
+9p0gt" rel=3D"" style=3D"align-items: center; border: none; display: block;=
+ flex-direction: column; height: auto; margin: 0; padding: 0; text-decorati=
+on: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://b=
+ucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/image=
+s/2cd8e2c5-905e-435e-a237-474ec41f5120_468x206.png&quot;,&quot;fullscreen&q=
+uot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:206,&quot;width&quo=
+t;:468,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:=
+&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:=
+null,&quot;belowTheFold&quot;:true}" alt=3D"" title=3D"" width=3D"468" heig=
+ht=3D"206" class=3D"" src=3D"https://substackcdn.com/image/fetch/w_468,c_li=
+mit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc8=
+4-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2cd8e2c5=
+-905e-435e-a237-474ec41f5120_468x206.png" style=3D"-ms-interpolation-mode: =
+bicubic; border: none !important; display: block; height: auto; margin: 0 a=
+uto; margin-bottom: 0; max-width: 100% !important; vertical-align: middle; =
+width: auto !important;"></a></td><td style=3D"text-align: center;"></td></=
+tr></tbody></table><figcaption class=3D"image-caption" style=3D"color: #767=
+676; font-family: sans-serif; font-size: 14px; font-weight: 300; line-heigh=
+t: 1.4em; text-align: center;"><em>Kevin Chan, BlockTower Capital</em></fig=
+caption></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;">What&#8217;s the point of all this financia=
+l engineering? At a high level, securitizations ratchet down the cost of cr=
+edit through 3 main principles:&#160;</p><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>Law of Large Numb=
+ers</strong></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0 0 1em 0;">If you had to bet $1,000 dollars on coin flips, wo=
+uld you feel more comfortable betting $1,000 on one coin flip or $1 per coi=
+n flip repeated a thousand times? For risk-averse investors (i.e., debt inv=
+estors), the latter is clearly preferred because one would expect the reali=
+zed results to trend towards the true odds, or 50/50.&#160;</p><div class=
+=3D"captioned-image-container-static" style=3D"font-size: 16px; line-height=
+: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"display:=
+ inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"m=
+argin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"tex=
+t-align: center;"></td><td align=3D"left" class=3D"content" width=3D"608" s=
+tyle=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=
+=3D"https://substack.com/redirect/a7060f59-0524-4e16-9a97-6a7d81f76a97?r=3D=
+9p0gt" rel=3D"" style=3D"align-items: center; border: none; display: block;=
+ flex-direction: column; height: auto; margin: 0; padding: 0; text-decorati=
+on: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://b=
+ucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/image=
+s/b530afe4-96bf-42df-bb66-10f1d003887b_608x395.png&quot;,&quot;fullscreen&q=
+uot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:395,&quot;width&quo=
+t;:608,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:=
+&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:=
+null,&quot;belowTheFold&quot;:true}" alt=3D"" title=3D"" width=3D"550" heig=
+ht=3D"357.31907894736844" class=3D"wide-image" src=3D"https://substackcdn.c=
+om/image/fetch/w_1216,c_limit,f_auto,q_auto:good,fl_progressive:steep/https=
+%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2F=
+public%2Fimages%2Fb530afe4-96bf-42df-bb66-10f1d003887b_608x395.png" style=
+=3D"-ms-interpolation-mode: bicubic; border: none !important; display: bloc=
+k; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !importa=
+nt; vertical-align: middle; width: auto !important;"></a></td><td style=3D"=
+text-align: center;"></td></tr></tbody></table><figcaption class=3D"image-c=
+aption" style=3D"color: #767676; font-family: sans-serif; font-size: 14px; =
+font-weight: 300; line-height: 1.4em; text-align: center;"><em>University o=
+f Washington, Department of Statistics</em></figcaption></figure></div><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em=
+ 0;"><span>The same is true in lending. Even if I knew the probability that=
+ a loan would default, the idiosyncratic risks associated with a single loa=
+n are impossible to price. What if the borrower loses their job? What if an=
+ asteroid hit the town? Pooling these loans into a securitization dulls the=
+ impact of these exogenous, binary risks and increases an investor&#8217;s =
+confidence that they will, in aggregate, perform according to the underwrit=
+ten expectations. As a rule of thumb, </span><strong>the higher an investor=
+&#8217;s degree of confidence in the outcome, the lower the returns one wil=
+l demand</strong><span>.&#160;</span></p><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>Standardization (=
+&#8220;Narrow Waist&#8221;)</strong></p><blockquote style=3D"border-left: 4=
+px solid #67bdfc; margin: 1em 0;"><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0; margin-left: 1em;"><em>If you wan=
+t many, many things to be able to interoperate with many, many other things=
+, there needs to be a narrow waist that is as constrained as possible betwe=
+en them.</em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0; margin-left: 1em;"><em><span>-</span><strong>Alex =
+Danco</strong></em></p></blockquote><p style=3D"color: #1a1a1a; font-size: =
+16px; line-height: 26px; margin: 0 0 1em 0;"><span>Securitization is a form=
+ of standardization that enables very distinct forms of debt, ranging from =
+1-month credit card receivables to 30-year mortgages, to be purchased by an=
+d traded amongst investors. </span><strong>The &#8220;narrow waist&#8221; i=
+n securitizations is a 9-character identifier (CUSIP)</strong><span>, a uni=
+t of ownership somewhat analogous to a unit of stock ownership in the equit=
+y markets.&#160;</span></p><div class=3D"captioned-image-container-static" =
+style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-alig=
+n: center;"><figure style=3D"display: inline-block; margin: 0 auto; width: =
+100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em =
+0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"le=
+ft" class=3D"content" width=3D"250" style=3D"text-align: center;"><a class=
+=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/fdd=
+49095-bd08-4484-ba04-c977fa215937?r=3D9p0gt" rel=3D"" style=3D"align-items:=
+ center; border: none; display: block; flex-direction: column; height: auto=
+; margin: 0; padding: 0; text-decoration: none; width: auto;"><img data-att=
+rs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb3=
+2be77984.s3.amazonaws.com/public/images/70127f1a-095c-4551-b0e3-01d46b85037=
+d_250x239.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,=
+&quot;height&quot;:239,&quot;width&quot;:250,&quot;resizeWidth&quot;:null,&=
+quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&=
+quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true}" =
+alt=3D"" title=3D"" width=3D"250" height=3D"239" class=3D"" src=3D"https://=
+substackcdn.com/image/fetch/w_250,c_limit,f_auto,q_auto:good,fl_progressive=
+:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amaz=
+onaws.com%2Fpublic%2Fimages%2F70127f1a-095c-4551-b0e3-01d46b85037d_250x239.=
+png" style=3D"-ms-interpolation-mode: bicubic; border: none !important; dis=
+play: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100=
+% !important; vertical-align: middle; width: auto !important;"></a></td><td=
+ style=3D"text-align: center;"></td></tr></tbody></table><figcaption class=
+=3D"image-caption" style=3D"color: #767676; font-family: sans-serif; font-s=
+ize: 14px; font-weight: 300; line-height: 1.4em; text-align: center;"><em>K=
+evin Chan, BlockTower Capital</em></figcaption></figure></div><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Imag=
+ine if you could only trade shares of Tesla for other auto manufacturers; r=
+ational investors would require a greater discount to purchase that asset d=
+ue to the relative illiquidity. Tranches of securitizations, standardized a=
+s CUSIPs (with consensus around cashflow waterfalls, legal structures, etc.=
+), allow investors to trade very different forms of debt for each other, in=
+creasing the liquidity of their investments and lowering the rate of return=
+ they demand.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;"><strong>Product-Market Fit</strong></p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+><span>People are different, and so are investors. Conservative investors, =
+like banks or insurance companies, optimize for principal preservation. Oth=
+ers, like hedge funds, seek higher risk-adjusted returns. By creating senio=
+r and junior tranches, whereby higher-yielding junior tranches incur losses=
+ before lower-yielding senior tranches, you can cut up an asset into the di=
+stinct profiles that investors want. </span><strong>More competition, for b=
+oth tranches, decreases investor leverage and often results in a lower aggr=
+egate cost of financing.</strong></p><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0 0 1em 0;"><span>Pooling, standardizing,=
+ and tranching a pool of loans via securitization allows lenders to borrow =
+at a lower-rate (X%). Say a lender has originated 100 $1 million loans, eac=
+h yielding 10%. In securitized form, the senior debt may be a $70 million t=
+ranche yielding 4% and the junior debt a $30 million tranche yielding 15% (=
+the standard target for hedge funds). As discussed above, investors are hap=
+py to pay this because they get a diversified pool of assets, with greater =
+liquidity, and a better match for their preferences. But those pools of ass=
+ets are now financed, by banks and hedge funds, at a weighted average cost-=
+of-capital of 7.3%. </span><strong>This is the lower X%!&#160;</strong></p>=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0=
+ 1em 0;">The question is, though, who gets the 2.7% (or Y%)? Part of this i=
+s fair compensation for lenders, but make no mistake: a significant portion=
+ of this spread is a symptom of our archaic securitization infrastructure a=
+nd third-party fee extraction.</p><h3 class=3D"header-with-anchor-widget" s=
+tyle=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antia=
+liased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, B=
+linkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple=
+ Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; fon=
+t-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: rel=
+ative;"><strong>Too many hands in the cookie jar</strong><div id=3D"&#167;t=
+oo-many-hands-in-the-cookie-jar" class=3D"header-anchor-widget" style=3D"fo=
+nt-size: 16px; height: 100%; left: -56px; line-height: 26px; position: abso=
+lute; top: -72px; width: 56px;"><div class=3D"header-anchor-widget-button-c=
+ontainer" style=3D"align-items: center; display: flex; font-size: 16px; hei=
+ght: 1.2em; left: 0; line-height: 26px; position: absolute; top: 72px; widt=
+h: 40px;"><a class=3D"header-anchor-widget-button" href=3D"https://substack=
+=2Ecom/redirect/a71dcbdb-7262-4b6f-9847-9=
+f070891cb1f?r=3D9p0gt" style=3D"alig=
+n-items: center; border-radius: 50%; color: #1a1a1a; display: none; height:=
+ 40px; justify-content: center; text-decoration: underline; width: 40px;"><=
+svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"20" height=3D"20" viewBox=
+=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" str=
+oke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"header-anchor-widg=
+et-icon" style=3D"height: 20px; stroke: #9a9a9a; width: 20px;"><path d=3D"M=
+10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d=3D"M14 11=
+a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg></a></div></div=
+></h3><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0;">Our modern securitization infrastructure&#160; is held toget=
+her by a patchwork of PDFs, Excel spreadsheets, and an absurd network of th=
+ird parties that don&#8217;t need, or even want, to be involved. To give yo=
+u a sense, PWC provides a great visual on the typical assortment of externa=
+l parties and service providers in a typical securitization:</p><div class=
+=3D"captioned-image-container-static" style=3D"font-size: 16px; line-height=
+: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"display:=
+ inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"m=
+argin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"tex=
+t-align: center;"></td><td align=3D"left" class=3D"content" width=3D"820" s=
+tyle=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=
+=3D"https://substack.com/redirect/98b4d8cf-4227-43c8-b90d-51309853dac6?r=3D=
+9p0gt" rel=3D"" style=3D"align-items: center; border: none; display: block;=
+ flex-direction: column; height: auto; margin: 0; padding: 0; text-decorati=
+on: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://b=
+ucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/image=
+s/d6ce5ed0-5e04-4a92-8c0d-25ee6fc35212_820x644.png&quot;,&quot;fullscreen&q=
+uot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:644,&quot;width&quo=
+t;:820,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:=
+&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:=
+null,&quot;belowTheFold&quot;:true}" alt=3D"" title=3D"" width=3D"550" heig=
+ht=3D"431.9512195121951" class=3D"wide-image" src=3D"https://substackcdn.co=
+m/image/fetch/w_1640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%=
+3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fp=
+ublic%2Fimages%2Fd6ce5ed0-5e04-4a92-8c0d-25ee6fc35212_820x644.png" style=3D=
+"-ms-interpolation-mode: bicubic; border: none !important; display: block; =
+height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important;=
+ vertical-align: middle; width: auto !important;"></a></td><td style=3D"tex=
+t-align: center;"></td></tr></tbody></table><figcaption class=3D"image-capt=
+ion" style=3D"color: #767676; font-family: sans-serif; font-size: 14px; fon=
+t-weight: 300; line-height: 1.4em; text-align: center;"><em><span>Parties i=
+nvolved in securitization transaction, per </span><a href=3D"https://substa=
+ck.com/redirect/a273d0f6-8a85-4c6f-bf04-06a49af3bcde?r=3D9p0gt" rel=3D"">PW=
+C</a></em></figcaption></figure></div><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>Orange boxes above the=
+ dotted line represent the key parties &#8211; obligors (the mortgage borro=
+wer), the originator (the lender that created the mortgage), and the invest=
+or (the buyer of the pooled mortgages). </span><strong>The core function of=
+ the securitization is to aggregate cash from the underlying obligors, divv=
+y them up, and distribute the cash to investors.</strong></p><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Why d=
+o we need 14 service providers to do that? Let&#8217;s dig into the typical=
+ monthly flow of funds for a securitization:</p><ol style=3D"margin-top: 0;=
+"><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margi=
+n-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px=
+; margin: 0; margin-bottom: 0;"><strong>Borrower pays:</strong><span> Mortg=
+age borrowers send loan payments to an originator or servicer</span></p></l=
+i><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margi=
+n-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px=
+; margin: 0; margin-bottom: 0;"><strong>Servicer remits the payment: </stro=
+ng><span>Payments are sent to the securitization&#8217;s bank account</span=
+></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: =
+0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-heig=
+ht: 26px; margin: 0; margin-bottom: 0;"><strong>Custodial agents track loan=
+ performance: </strong><span>The custodial agent, which &#8220;owns&#8221; =
+the loan (PDF loan documents) on behalf of the securitization, allocates ea=
+ch dollar to the underlying loan to document ongoing loan performance</span=
+></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: =
+0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-heig=
+ht: 26px; margin: 0; margin-bottom: 0;"><strong>Calculation agents determin=
+e payouts:</strong><span> The calculation agent calculates the principal an=
+d interest due to each tranche of the securitization</span></p></li><li sty=
+le=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4p=
+x;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0; margin-bottom: 0;"><strong>Paying agents pays:</strong><span> The payin=
+g agent debits the securitization&#8217;s bank account and wires the dollar=
+s due to each tranche to DTCC (a central clearing system that custodies mos=
+t public U.S. securitization tranches on behalf of investors)</span></p></l=
+i><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margi=
+n-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px=
+; margin: 0; margin-bottom: 0;"><strong>DTCC distributes the payments: </st=
+rong><span>The dollars are sent to custodial agents, which are often prime =
+brokers</span></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; m=
+argin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Prime brokers =
+pays investors :</strong><span> Prime brokers remit the cash due to investo=
+rs in each tranche, depending on their pro-rata ownership share&#160;</span=
+></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: =
+0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-heig=
+ht: 26px; margin: 0; margin-bottom: 0;"><strong>Auditors review everything:=
+</strong><span> All transactions are documented by the reporting agent for =
+auditors</span></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; =
+margin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Trustees aggr=
+egate a report:</strong><span> Trustees generate a monthly &#8220;trustee r=
+eport,&#8221; which allow investors to track performance and verify payment=
+s were made correctly</span></p></li></ol><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>Costs are accumula=
+ted each step of the way, </span><strong><a href=3D"https://substack.com/re=
+direct/dd17dec6-c989-4563-9275-6f077d3c6fd4?r=3D9p0gt" rel=3D"" style=3D"co=
+lor: #1a1a1a; text-decoration: underline;">adding an estimated 1% over the =
+life of a securitization</a></strong><span>. This might seem small, but </s=
+pan><strong>even a 0.50% interest rate reduction on a $500,000 mortgage sav=
+es $2,500 per year of post-tax salary</strong><span>, which is a meaningful=
+ difference in most people&#8217;s lives! That is a staggering cost for per=
+forming simple arithmetic, distributing cash according to a series of &#822=
+0;if/then&#8221; statements, and providing an accurate report of transactio=
+ns.</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;">Assuming I haven&#8217;t lost you yet, here&#8217;s =
+another example. What if I&#8217;m an investor and I want to buy a particul=
+ar tranche of securitized debt? Today, the process looks something like thi=
+s:</p><ol style=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-=
+left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>In=
+stigation:</strong><span> I call up John, my favorite bond trader on Wall S=
+treet, and say &#8220;hey, I&#8217;m looking for this particular tranche an=
+d willing to pay $Z.&#8221;</span></p></li><li style=3D"margin-bottom: 4px;=
+ margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><s=
+trong>Sourcing: </strong><span>John calls up a few hedge funds, but no one =
+knows who owns the tranche I&#8217;m looking for. One ventures a guess that=
+ it&#8217;s Tim, over at Fund A. Luckily, John took Tim out to Lavo last we=
+ek, so he gives him a call.</span></p></li><li style=3D"margin-bottom: 4px;=
+ margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><s=
+trong>Getting an offer: </strong><span>After some posturing, Tim finally ac=
+knowledges he&#8217;s the owner. John asks him what price he&#8217;s willin=
+g to sell his bonds. Tim says &#8220;I&#8217;d sell for $Z.&#8221;</span></=
+p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; =
+margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0; margin-bottom: 0;"><strong>Negotiating the broker&#8217;s=
+ spread:</strong><span> &#8220;Just my luck&#8221; says John. There&#8217;s=
+ no money in it for him, buying and selling at $Z, so he tries to negotiate=
+ a spread for himself in the middle.</span></p></li><li style=3D"margin-bot=
+tom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-botto=
+m: 0;"><strong>Final price:</strong><span> Ultimately, I decide I&#8217;m w=
+illing to pay no more than $Z and Tim (whose identity John has kept from me=
+) would accept no less than $ZX. But whatever, right? There&#8217;s a buyer=
+ and a seller at price $Z, so there&#8217;s a trade to do.</span></p></li><=
+li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-t=
+op: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0; margin-bottom: 0;"><strong>F**k it:</strong><span> Wrong! John de=
+cides he&#8217;d rather wait for one of us to budge and refuses to broker t=
+he trade for no commission. Because Tim has only exposed his position to Jo=
+hn, I have no way of completing a trade that *should* happen.</span></p></l=
+i></ol><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0;"><span>While this seems so obviously stupid, I know this is =
+how it works because I was John in a past life. And while stupid can be har=
+mless, I believe the compounding inefficiencies that plague our financial i=
+ndustry are more nefarious than they appear. In the second example, the ina=
+bility to sell one&#8217;s position without going through an oligopoly of W=
+all Street brokers contributes to an &#8220;illiquidity premium&#8221; on t=
+his debt. That means that, all things equal, investors demand a higher yiel=
+d on their mortgage-backed securities. </span><strong>This increases X%, or=
+ an originator&#8217;s cost of borrowing, which is transmitted to consumers=
+ in the form of higher mortgage rates.&#160;</strong></p><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">It may be=
+ controversial to say that we&#8217;ve reached the theoretical limits of ou=
+r existing system. But it&#8217;s not controversial to say that our existin=
+g system is like Windows XP; I&#8217;m pretty sure that a good portion of t=
+he &#8220;tech stack&#8221; on Wall Street is still a macro-enabled 1997 Ex=
+cel Workbook. So what would a new operating system for securitized credit l=
+ook like? One in which the core first principles - larger scale, more liqui=
+dity, and better targeting - were enhanced through new technologies and rem=
+oving intermediaries?</p><p style=3D"color: #1a1a1a; font-size: 16px; line-=
+height: 26px; margin: 0 0 1em 0;">Can you feel it? You know what&#8217;s co=
+ming, right? Wait for it&#8230;</p><h3 class=3D"header-with-anchor-widget" =
+style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: anti=
+aliased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, =
+BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Appl=
+e Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; fo=
+nt-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: re=
+lative;"><strong>Crypto fixes this&#8230;</strong><div id=3D"&#167;crypto-f=
+ixes-this" class=3D"header-anchor-widget" style=3D"font-size: 16px; height:=
+ 100%; left: -56px; line-height: 26px; position: absolute; top: -72px; widt=
+h: 56px;"><div class=3D"header-anchor-widget-button-container" style=3D"ali=
+gn-items: center; display: flex; font-size: 16px; height: 1.2em; left: 0; l=
+ine-height: 26px; position: absolute; top: 72px; width: 40px;"><a class=3D"=
+header-anchor-widget-button" href=3D"https://substack.com/redirect/33036c37=
+-a0de-4cd7-9066-d995ebec8f56?r=3D9p0gt" style=3D"align-items: center; borde=
+r-radius: 50%; color: #1a1a1a; display: none; height: 40px; justify-content=
+: center; text-decoration: underline; width: 40px;"><svg xmlns=3D"http://ww=
+w.w3.org/2000/svg" width=3D"20" height=3D"20" viewBox=3D"0 0 24 24" fill=3D=
+"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" =
+stroke-linejoin=3D"round" class=3D"header-anchor-widget-icon" style=3D"heig=
+ht: 20px; stroke: #9a9a9a; width: 20px;"><path d=3D"M10 13a5 5 0 007.54.54l=
+3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d=3D"M14 11a5 5 0 00-7.54-.54l-3 =
+3a5 5 0 007.07 7.07l1.71-1.71"/></svg></a></div></div></h3><h4 class=3D"hea=
+der-with-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -web=
+kit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact D=
+isplay', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, =
+Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+; font-size: 1.125em; font-weight: bold; line-height: 1.16em; margin: 1em 0=
+ 0.625em 0; position: relative;">To read how crypto can help make the secur=
+itization market more efficient and save borrowers tens of billions of doll=
+ars&#8230; <div id=3D"&#167;to-read-how-crypto-can-help-make-the-securitiza=
+tion-market-more-efficient-and-save-borrowers-tens-of-billions-of-dollars" =
+class=3D"header-anchor-widget" style=3D"font-size: 16px; height: 100%; left=
+: -56px; line-height: 26px; position: absolute; top: -72px; width: 56px;"><=
+div class=3D"header-anchor-widget-button-container" style=3D"align-items: c=
+enter; display: flex; font-size: 16px; height: 1.2em; left: 0; line-height:=
+ 26px; position: absolute; top: 72px; width: 40px;"><a class=3D"header-anch=
+or-widget-button" href=3D"https://substack.com/redirect/d1ed8c9a-5fee-4430-=
+9931-b4b4c558b5b6?r=3D9p0gt" style=3D"align-items: center; border-radius: 5=
+0%; color: #1a1a1a; display: none; height: 40px; justify-content: center; t=
+ext-decoration: underline; width: 40px;"><svg xmlns=3D"http://www.w3.org/20=
+00/svg" width=3D"20" height=3D"20" viewBox=3D"0 0 24 24" fill=3D"none" stro=
+ke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-line=
+join=3D"round" class=3D"header-anchor-widget-icon" style=3D"height: 20px; s=
+troke: #9a9a9a; width: 20px;"><path d=3D"M10 13a5 5 0 007.54.54l3-3a5 5 0 0=
+0-7.07-7.07l-1.72 1.71"/><path d=3D"M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007=
+=2E07 7.07l1.71-1.71"/></svg></a></div></=
+div></h4><p class=3D"button-wrapper"=
+ data-attrs=3D"{&quot;url&quot;:&quot;https://www.notboring.co/p/7028eab8-7=
+969-4570-b188-967c293185c3&quot;,&quot;text&quot;:&quot;Continue Reading On=
+line&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; text-align=
+: center;"><a class=3D"button primary" href=3D"https://substack.com/redirec=
+t/b92ddc5b-265c-4a9e-a536-69a0f71fff50?r=3D9p0gt" rel=3D"" style=3D"backgro=
+und-color: #67bdfc; border: none; border-radius: 4px; box-sizing: border-bo=
+x; color: #ffffff !important; cursor: pointer; display: inline-block; font-=
+family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, A=
+rial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';=
+ font-size: 16px; font-weight: normal; height: auto; line-height: 20px; mar=
+gin: 0; opacity: 1; outline: none; padding: 12px 20px; text-align: center; =
+text-decoration: none !important; white-space: nowrap;"><span style=3D"colo=
+r: #ffffff; text-decoration: none;">Continue Reading Online</span></a></p><=
+div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: =
+#ebebeb; border: none; height: 1px; margin: 48px 0; padding: 0;"></div><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em=
+ 0;"><em><span>Thanks to Kevin and the BlockTower team for writing this pie=
+ce, and to </span><a href=3D"https://substack.com/redirect/bf51019c-206d-49=
+db-bf52-f62ca3efd747?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-deco=
+ration: underline;">Dan</a><span> for editing!</span></em></p><div style=3D=
+"font-size: 16px; line-height: 26px;"><hr style=3D"background: #ebebeb; bor=
+der: none; height: 1px; margin: 48px 0; padding: 0;"></div><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">That&#8=
+217;s all for today, we&#8217;ll see you Friday morning for a Weekly Dose o=
+f Optimism!</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0 0 1em 0;">Thanks for reading, </p><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-bottom: 0;">=
+Packy</p></div></div><table cellpadding=3D"0" cellspacing=3D"0" class=3D"po=
+st-meta custom big alternative-meta centered" style=3D"margin: 0 auto;"><tr=
+ style=3D"align-items: center; display: flex;"><td class=3D"post-meta-item =
+icon" style=3D"color: #767676; font-family: -apple-system, BlinkMacSystemFo=
+nt, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 100%; line-he=
+ight: 18px; padding: 0px 12px 0px 0; padding-right: 24px; position: relativ=
+e; text-decoration: none; text-indent: 3px; white-space: nowrap;"><span cla=
+ss=3D"post-meta-icon like-reaction-button"><a href=3D"https://substack.com/=
+redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FwaS92MS9wb3N0L2VtYWls=
+LXJlYWN0aW9uP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ0b2tlbj1leUo=
+xYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2TmpjMk16VXdNVEFzSW5KbFlXTj=
+BhVzl1SWpvaTRwMmtJaXdpYVdGMElqb3hOalU1T1RZek5EazVMQ0pwYzNNaU9pSndkV0l0TVRBd=
+01qVWlMQ0p6ZFdJaU9pSnlaV0ZqZEdsdmJpSjkuM1BxMzNjck5oaXBvZnhoMnFyVHA5YURzNkN1=
+YTU0T3h6Y3FYVU9aQjRZYyIsInAiOjY3NjM1MDEwLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTY=
+yODM1NDksImlhdCI6MTY1OTk2MzQ5OSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZW=
+N0In0.l4KLt-q1o353H7R7jBsdkJmAwq7BfQ9yJQeWZ0lTDI8?" class=3D"like-button bu=
+tton post-meta-button" style=3D"align-items: center; background-color: tran=
+sparent; border: 1px solid #ebebeb; border-radius: 4px; box-sizing: border-=
+box; color: #1a1a1a; cursor: pointer; display: flex; font-family: -apple-sy=
+stem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px;=
+ font-weight: normal; height: auto; line-height: 15px; margin: 0; opacity: =
+1; outline: none; padding: 10px 16px; text-align: center; text-decoration: =
+none; text-indent: 0px; white-space: nowrap;"><img src=3D"https://substackc=
+dn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/http=
+s%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3D=
+transparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"18" height=
+=3D"18" style=3D"border: none !important; display: inline-block; float: lef=
+t; height: 14px; margin-right: 4px; max-width: 18px; vertical-align: top; w=
+idth: auto;" alt=3D""><span class=3D"like-count" style=3D"color: #1a1a1a; m=
+argin-left: 7px;">Like</span></a></span></td><td class=3D"post-meta-item ic=
+on" style=3D"color: #767676; font-family: -apple-system, BlinkMacSystemFont=
+, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'S=
+egoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 100%; line-heig=
+ht: 18px; padding: 0px 12px 0px 0; padding-right: 24px; position: relative;=
+ text-decoration: none; text-indent: 3px; white-space: nowrap;"><a href=3D"=
+https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3A=
+vZXZlcnl0aGluZy1pcy1icm9rZW4vY29tbWVudHM_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qST=
+RNelUwT1N3aWNHOXpkRjlwWkNJNk5qYzJNelV3TVRBc0ltbGhkQ0k2TVRZMU9UazJNelE1T1N3a=
+WFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pY0c5emRDMXlaV0ZqZEdsdmJpSjkuTjBl=
+b0VDckxaeS14aGpOZll5VHYwSDU5blM1OTBsT05xX3hlOXBZNGxfayIsInAiOjY3NjM1MDEwLCJ=
+zIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY1OTk2MzQ5OSwiaXNzIjoicH=
+ViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.q8ZdXQsr66RsOOPir5a6RH_mP5sUZBaLNnl_z=
+BT25bQ?&utm_source=3Dsubstack&utm_medium=3Demail" class=3D"post-meta-button=
+ button" style=3D"align-items: center; background-color: transparent; borde=
+r: 1px solid #ebebeb; border-radius: 4px; box-sizing: border-box; color: #1=
+a1a1a; cursor: pointer; display: flex; font-family: -apple-system, BlinkMac=
+SystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color =
+Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: =
+normal; height: auto; line-height: 15px; margin: 0; opacity: 1; outline: no=
+ne; padding: 10px 16px; text-align: center; text-decoration: none; white-sp=
+ace: nowrap;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,=
+f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2F=
+LucideComments%3Fv%3D4%26height%3D36%26fill%3Dtransparent%26stroke%3D%25237=
+57575%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !=
+important; display: inline-block; float: left; height: 14px; margin-right: =
+4px; max-width: 18px; vertical-align: top; width: auto;" alt=3D"Comment" cl=
+ass=3D"comment-icon post-meta-icon"><span class=3D"meta-button-label">Comme=
+nt</span></a></td><td class=3D"post-meta-item icon" style=3D"color: #767676=
+; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helve=
+tica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI S=
+ymbol'; font-size: 14px; height: 100%; line-height: 18px; margin-right: 0; =
+padding: 0px 12px 0px 0; padding-right: 0; position: relative; text-decorat=
+ion: none; text-indent: 3px; white-space: nowrap;"><span><a href=3D"https:/=
+/substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvZXZlcn=
+l0aGluZy1pcy1icm9rZW4_dXRtX3NvdXJjZT1zdWJzdGFjayZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9jb250ZW50PXNoYXJlJmFjdGlvbj1zaGFyZSZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16=
+VTBPU3dpYVdGMElqb3hOalU1T1RZek5EazVMQ0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFd=
+JaU9pSndiM04wTFhKbFlXTjBhVzl1SW4wLmNkVlJZMUJrVnB6QkNnalUxOHRJTlVlcHUxNl96bF=
+RfbGVHSWdkTUFab3ciLCJwIjo2NzYzNTAxMCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzN=
+TQ5LCJpYXQiOjE2NTk5NjM0OTksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9=
+=2E7IFNa8_KHPHnouDNCM1XY45lztYto6n9TrCOqk=
+Qid1s?" class=3D"button post-meta-bu=
+tton" style=3D"align-items: center; background-color: transparent; border: =
+1px solid #ebebeb; border-radius: 4px; box-sizing: border-box; color: #1a1a=
+1a; cursor: pointer; display: flex; font-family: -apple-system, BlinkMacSys=
+temFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: nor=
+mal; height: auto; line-height: 15px; margin: 0; opacity: 1; outline: none;=
+ padding: 10px 16px; text-align: center; text-decoration: none; white-space=
+: nowrap;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_p=
+ng,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLuc=
+ideShare%3Fv%3D4%26height%3D36%26fill%3Dtransparent%26stroke%3D%2523757575%=
+26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !import=
+ant; display: inline-block; float: left; height: 14px; margin-right: 4px; m=
+ax-width: 18px; vertical-align: top; width: auto;" alt=3D"Share" class=3D"r=
+ecommend-icon post-meta-icon"><span class=3D"meta-button-label">Share</span=
+></a></span></td></tr></table><div class=3D"container-border" style=3D"bord=
+er-top: 1px solid rgba(204, 204, 204, 0.5); box-sizing: border-box; font-si=
+ze: 16px; line-height: 26px; margin: 32px 0 0; width: 100%;"></div><div cla=
+ss=3D"post-cta" style=3D"font-size: 16px; line-height: 26px; margin: 24px 0=
+ 40px;"><p style=3D"font-size: 16px; font-style: italic; line-height: 26px;=
+ margin: 24px 0 0; margin-top: 0;"><span>If you liked this post from <a hre=
+f=3D"https://substack.com/redirect/37b3553e-bcb8-4f7d-9fb0-f0f852d6597a?r=
+=3D9p0gt">Not Boring by Packy McCormick</a>, why not share it?</span></p><p=
+ class=3D"cta-box" style=3D"font-size: 16px; font-style: italic; line-heigh=
+t: 26px; margin: 24px 0 0; text-align: center;"><a role=3D"button" href=3D"=
+https://substack.com/redirect/948d74eb-070c-43ba-8407-b625a4c8291c?r=3D9p0g=
+t" class=3D"button primary twitter-link" style=3D"background-color: #67bdfc=
+; border: 0px solid #67bdfc; border-radius: 4px; border-width: 13px 20px 13=
+px 18px; box-sizing: content-box; color: #ffffff !important; cursor: pointe=
+r; display: inline-block; font-family: -apple-system, BlinkMacSystemFont, '=
+Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Sego=
+e UI Emoji', 'Segoe UI Symbol'; font-size: 17px; font-style: normal; font-w=
+eight: 300; height: 24px; line-height: 24px; margin: 0; opacity: 1; outline=
+: none; padding: 0; text-align: center; text-decoration: none !important; v=
+ertical-align: middle; white-space: nowrap;"><img src=3D"https://substackcd=
+n.com/image/fetch/w_23.1,c_scale,f_png,q_auto:good,fl_progressive:steep/htt=
+ps%3A%2F%2Fsubstack.com%2Ficon%2FShareIcon%3Fv%3D4%26height%3D42%26stroke%3=
+D%2523FFF%26strokeWidth%3D2" width=3D"11.55" height=3D"21" style=3D"border:=
+ none !important; display: inline-block; height: 21px; margin-right: 8px; m=
+ax-width: 11.55px; vertical-align: middle; width: 21px;" alt=3D""><span sty=
+le=3D"color: #ffffff; text-decoration: none;">Share</span></a></p></div><di=
+v class=3D"footer hasMargin" style=3D"background: #f5f5f5 !important; color=
+: #808080; font-size: 16px; line-height: 26px; margin-top: 24px; padding: 2=
+4px; text-align: center;"><p class=3D"small" style=3D"color: #808080; font-=
+family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, A=
+rial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';=
+ font-size: 14px; line-height: 22px; margin: 0; padding-bottom: 16px;">&#16=
+9; 2022 <span>Packy McCormick</span><br>10 City Point, Brooklyn, NY 11201 <=
+br><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Y=
+m9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0=
+TXpVME9Td2ljRzl6ZEY5cFpDSTZOamMyTXpVd01UQXNJbWxoZENJNk1UWTFPVGsyTXpRNU9Td2l=
+hWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LmZIdH=
+NjazJuWEJzRkdIeGZmY0xTUHNONFh0RDJuWnlVc2NBRjRhaDNCdUUiLCJwIjo2NzYzNTAxMCwic=
+yI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTk5NjM0OTksImlzcyI6InB1=
+Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.FVrg7-VJFr7dj6eDor4ObgeuCV_5-sZlH9tr0F=
+ioMBM?" style=3D"color: #808080;"><span style=3D"color: #808080; text-decor=
+ation: underline;">Unsubscribe</span></a></p><p class=3D"small powered-by-s=
+ubstack" style=3D"color: #808080; font-family: -apple-system, BlinkMacSyste=
+mFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji=
+', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; line-height: 22px;=
+ margin: 0; margin-top: 0; padding-bottom: 0;"><a href=3D"https://substack.=
+com/redirect/5bca0493-952e-4bd3-86dd-d88d49b38cd9?r=3D9p0gt" style=3D"color=
+: #808080; display: inline-block; margin: 8px 4px 0; text-decoration: none;=
+"><img src=3D"https://substackcdn.com/image/fetch/w_260,c_limit,f_auto,q_au=
+to:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fapp=
+-button%402x.png" srcset=3D"https://substackcdn.com/image/fetch/w_130,c_lim=
+it,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg=
+%2Femail%2Fapp-button.png, https://substackcdn.com/image/fetch/w_260,c_limi=
+t,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%=
+2Femail%2Fapp-button%402x.png 2x, https://substackcdn.com/image/fetch/w_390=
+,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com=
+%2Fimg%2Femail%2Fapp-button%403x.png 3x" width=3D"130" alt=3D"Get the app" =
+height=3D"40" style=3D"border: none !important; max-width: 550px; vertical-=
+align: middle;"></a><a href=3D"https://substack.com/redirect/b8c02f8b-684b-=
+422a-8ff2-82f5b466d391?r=3D9p0gt" style=3D"color: #808080; display: inline-=
+block; margin: 8px 4px 0; text-decoration: none;"><img src=3D"https://subst=
+ackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:stee=
+p/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png" srcse=
+t=3D"https://substackcdn.com/image/fetch/w_135,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-butt=
+on.png, https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:goo=
+d,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-b=
+utton%402x.png 2x, https://substackcdn.com/image/fetch/w_405,c_limit,f_auto=
+,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%=
+2Fpublish-button%403x.png 3x" width=3D"135" alt=3D"Start writing" height=3D=
+"40" style=3D"border: none !important; max-width: 550px; vertical-align: mi=
+ddle;"></a></p></div></div></td><td></td></tr></table><img src=3D"https://m=
+ailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDIwMjIwODA4MTI1ODAwL=
+jMuMWIzZDQxMWQ4YjNjZTU1Y0BtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1NDksInIi=
+OiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjo2NzY=
+zNTAxMCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDAyNSwiYyI6InBvc3=
+QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6ImJvdHRvbSIsImlhdCI6MTY1OTk2MzUwMCwiaXNzIjoic=
+HViLTAiLCJzdWIiOiJlbyJ9._QelgEGfwHZoFS-PjyDXBYBqU0BuE6QQ-dfdVB-gHHk" alt=3D=
+"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;wid=
+th:1px !important;border-width:0 !important;margin-top:0 !important;margin-=
+bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padd=
+ing-top:0 !important;padding-bottom:0 !important;padding-right:0 !important=
+;padding-left:0 !important;"/><img width=3D"1px" height=3D"1px" alt=3D"" sr=
+c=3D"https://email.mg-d0.substack.com/o/eJxFkMmOhDAMRL9mchvkbCyHfEuUxU1HDUk=
+rmB7x9xPg0DfLLvlVVXCEc6mHeZeNGK4uLXbGjLXto3VkeK-nqZcagKuRRdNL99CRpc0-Kl56Q3=
+VH9t79koKjVLJN0XAAodnT6Gl46IEHDb2M3IPjUjk1hUEqLgICO7nW7TFhDmjwg_UoGVko64qZz=
+le3pA39cPrgwJIRIASMMHKhR4BOdtzLqDiPo5cBtQ4_Ctb5N0K37X4jF15d-8iqyYV8qSnPTfB6=
+uhWX69Dc2xO550SHxez8gvEORnc1-4b1CtaLUWo13a7oeKPJ-LctSISVNVosrZT8BTH8djj8A-b=
+uekE"></body></html>
+--b4e6669183b6660decdd119f47c353d55897d8a464fa1114a19334e8863c--

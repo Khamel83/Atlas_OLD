@@ -1,0 +1,1983 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a17:902:9a01:b0:16a:54e8:a1d8 with SMTP id v1csp668806plp;
+        Thu, 30 Jun 2022 10:26:52 -0700 (PDT)
+X-Received: by 2002:adf:dbc1:0:b0:219:e994:6ba7 with SMTP id e1-20020adfdbc1000000b00219e9946ba7mr9417378wrj.229.1656610012235;
+        Thu, 30 Jun 2022 10:26:52 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1656610012; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=DkJS+YL/OEcNcWlc2KpPYkRoN69407muEKW3FV3DXAp20TrRWBXiB1IoUtA6P8xdNp
+         KWSbotFPOI3QgGQKyi/3tdUitqKLnE2bP6/ESWjilTYBhIFlj7sXYS/qsOmy+y0f8aaw
+         gBcIDppStB20HbnjpTxdttO881G4/UJJYcmkv1ipSjPV5ycRL+/1sBHHJHGVfKfTcNrN
+         N5klpdTW7ELl1gomx/hG+PpF0k9JEZJwSNJer2kis34i/3HIj8xrpM2VP/P3+/Ho+SWY
+         XW230o1TB2vsreeEQ2+1ak5SXPQZ9sL7fRIZeecVWqSdq18SL4qMha6t5hj2a5ZA3wKL
+         TS0w==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=LAwl7JuJ5yfjYiH3gLCatUBkNY6I55cqjSDWxNgnoyw=;
+        b=gmGaP10MbMKfWmNmirR2F1nZmhAg2pl61oe8oL0dbX+zVI1wvFlhg3TubkSyHQwHTl
+         kReny3I1D4MleXf/icgMosdpl8OGaQoyAmX8xYH3M7BRMji7Vv6Z1kokCxl5Vf36qqqI
+         DGN6fz+8JMKfc2sLTHpBxPLzEdG3I7/knzIFU+EuBMwp7U61BR+HPkbPnYUHYUaXuUfw
+         5M6hoYf0dyKo5ybvml5NRnaE1KdvJ0w3L1y5mTz6rggaY5iA5vil3AynYktzNfnW0bxc
+         uVdZzL+ErycjDeOlVzUxh+BpeMpDM95k697/g5+CH3e6dHrmh02VHXVf5qHIHJyeYAeT
+         WOyQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kinfIHbc;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m2-20020adffa02000000b0021b88b8018fsor9972189wrr.43.2022.06.30.10.26.51
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 30 Jun 2022 10:26:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kinfIHbc;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=LAwl7JuJ5yfjYiH3gLCatUBkNY6I55cqjSDWxNgnoyw=;
+        b=5sGgTzgChC31pNkRA0HJz8LJfGouFMIBZJpeymMYteMyhwPF7obGk5MhbCsIMjcRIn
+         76hmVBUDInpFswAQrD1SsmuZPyVxN8sS7UCunfMijAebvGGdbgYtqMhB2Z4fN6R7UC6m
+         Z7OsT78AiJAXgjmmEQK9+NvI73mIRLXfj/QDbQjLWzDlF6ax6xrr6Cu8fKjYUwhwM/IB
+         JCbxppWflhmO9tY4Oucp9G2mbBkUZDKaBqszvUplPNvk4tgX/yan1sEBQNLZ/uPUW93n
+         yP7wIAwVR+dkhfXY/07+BNUlYEzMwHD4L0ZzZ04DDpahz81awFBnjNGK7H+87nZl0KxT
+         kp8w==
+X-Gm-Message-State: AJIora/6InISX06XF3rQGzHpa7u9Jj7rKwd9kYUrG8bG+76cqyJ3DJO+
+	CAgTs47ABFMtypMvwZBVAxkgzSOug4ChvgY6YO8LXF041FthhUNfmQ==
+X-Received: by 2002:a5d:6843:0:b0:21b:898a:6703 with SMTP id o3-20020a5d6843000000b0021b898a6703mr9869481wrw.110.1656610011826;
+        Thu, 30 Jun 2022 10:26:51 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f1c9:0:0:0:0:0 with SMTP id z9csp660542wro;
+        Thu, 30 Jun 2022 10:26:49 -0700 (PDT)
+X-Received: by 2002:a17:90b:895:b0:1ec:827c:ef0f with SMTP id bj21-20020a17090b089500b001ec827cef0fmr13135000pjb.10.1656610008843;
+        Thu, 30 Jun 2022 10:26:48 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1656610008; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=TNJEVLFrf1Wb4zgtd8s7D0VsKWzCV0hRy2PtObPSAIFkg7kfU40mLVbZGJVFvLbjbU
+         dOkT6jZVIpbTib/XQ44GO5v9k/yCBusSwewNUNAmk2WHqUZ/oe+EB9+TfBVYKmzliyZV
+         8mloOEACUvRR7JH2cEgNNUMib6Ifh2/tIUX9uT2NEjlnDZTZVA+3qu3AtY+8S6ZqE2lP
+         lsp3imfDuZBYmZidr0jK69zZAbGoieRfDtEV9g6CKkmJMSfczQTFWkoTNfg4N05w0FKY
+         OCDIHtl/6GbxRLBCEMvaXIIdrOmTWP80G111fuN5HSv/jjytGY5vDk2KwYSvNxg93xaC
+         3mBQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=LAwl7JuJ5yfjYiH3gLCatUBkNY6I55cqjSDWxNgnoyw=;
+        b=mm0GinBKAA5yOsny+N1i/cRIx+bsWiskrsSvvgDRSN5cHnIA/JtwMKFKPlOmAvuXXP
+         GycNMxbfCBHZtgQQr4QTcc1evVGZQ3SVqHe6MNHsK3ddWWSNl+okLexDg3UIPeqEPseY
+         qeMOmPWF0l7OWqd/9h7wgKoUsecAYk+4G0UiFIBj4GCCM0iLfx9t6Yi2wTn4+scKq79F
+         hLuOZ8QZLZpcGtz45cA3vh+xUK6Cqir7rw6hMa0bCJBuFU5F2zxvOgnmo8hWQHCdBF9H
+         KRqgUgH9j/IjeFHFbM75eBTEluqSq52AXY+EhXll5nq/r3lD/MkyucylkU5KLw1tD8Yy
+         GMlg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kinfIHbc;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220630132352.28231054.277586@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220630132352.28231054.277586@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220630132352.28231054.277586@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id z2-20020a17090a66c200b001ecdb50b380sor1150854pjl.36.2022.06.30.10.26.48
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 30 Jun 2022 10:26:48 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220630132352.28231054.277586@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGRyM1uH2ekJwFrIKnjEJMn6CquKMrT29G0YfJrYTqVLZ9zOmNOYyyQTqRo87/wXvrOSaI3RFsN1X1LpRjiS9nqqIglGkOxQX7I=
+X-Received: by 2002:a17:90a:1b46:b0:1ef:2dfb:7153 with SMTP id q64-20020a17090a1b4600b001ef2dfb7153mr8104566pjq.132.1656610008445;
+        Thu, 30 Jun 2022 10:26:48 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1656610008; cv=none;
+        d=google.com; s=arc-20160816;
+        b=XfXDKeHPvjigTCT/sfduDa6/+Ca2sI9epc67G2TPBZVf7AoZOK1SpB2wmEQvFqMH9v
+         y1kFobcomZ+USE6tovHj5WBHDmaKEQI6SIEUl8KzOScU2ZKjiJS82o5YTUShrFB5jNoy
+         8tbsUCWYPiTl9ikRdTPr1ENvlqJGLNU9IDrNq9ThOTQ/WSmeOOL3ZGysLTh0u4JNDxaK
+         cBG5t83kKEin8Laeni33NuzkWAfYdmOq31MOnT5xaZ6l6V5LtfZskKS63w1UWxfrZIfW
+         gtedOhIEJZG/hklkPVG++Cldc9EOr7q+4V7aFopmuwiJ7uP6JHVoVICftkOKKQTwhrAX
+         NpXw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=LAwl7JuJ5yfjYiH3gLCatUBkNY6I55cqjSDWxNgnoyw=;
+        b=MaP0eRzOB9wLtGMdeLCw44dozgpbcqfl9xRThHehEk/GJe4xkCk6qG/EEY4zskdNGu
+         uYmuQ+hY5HCnT6QadF9YBUV2MkCZt20sPeiUZDIVE41cn5juGDq1qzRSEdL3nV8vaNg5
+         hvZwby1/az4m5MPT0XsdF9XrnxVBwg9KTZHk8Ovhu9NF2cYfyFZD3l7CPlTQyNA9uohp
+         J17R1OEBnarB4ANe+NI2BTKSls1xECmfX6sTXrq3Wg3feT/GbAJdr3q1jCFNWvahvtn0
+         BCEG1T4suFrrsaokatvnGNaz9nG1SNirTwQwDDA6rG1HyiIIam9v92NvDNsb1eKW9YPw
+         we+A==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kinfIHbc;
+       spf=pass (google.com: domain of delivery_20220630132352.28231054.277586@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220630132352.28231054.277586@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220630132352.28231054.277586@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id p14-20020a170902780e00b00168f5a4563esi543095pll.13.2022.06.30.10.26.35
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Jun 2022 10:26:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220630132352.28231054.277586@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=h/OTWsweGSjor2pGMAZ2LAAhGNeIvYE9zHdiH1gdkUw=;
+ b=kinfIHbcnAzBNqHleXfjo0qGbBO2RQxiadeEsMiu0tMqNNX/Zu6VrQGK9XgFpiAAsQU8G570x08h
+   c0bZ/ZjCXGx2FeZatfkZDzVG925nfR41im9W7+bUWaUZT5Yj8qT8pRUvuXgzol/LrWIGaUNMPl5X
+   2XrRWrxF7aNpIb73igo=
+Received: from nj2mta-15.sailthru.com (204.153.121.15) by bloomberg-b.sailthru.com id hnnecu2tkt0r for <bloomberg@khamel.com>; Thu, 30 Jun 2022 13:23:53 -0400 (envelope-from <delivery_20220630132352.28231054.277586@mx.sailthru.com>)
+Date: Thu, 30 Jun 2022 13:23:52 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220630132352.28231054.277586@sailthru.com>
+Subject: Money Stuff: Say No to YES
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_16096141_299766252.1656609832972"
+Precedence: bulk
+X-Feedback-ID: 6358:28231054:campaign:sailthru
+X-TM-ID: 20220630132352.28231054.277586
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-farmidnight.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgt37y.5y6q/1e433328
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgt37y.5y6q/1e433328>, <mailto:unsubscribe_20220630132352.28231054.277586@mx.sailthru.com>
+X-rpcampaign: stjko28231054
+
+------=_Part_16096141_299766252.1656609832972
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow and Monday, back=
+ on Tuesday.YES!Here is a common pattern at a big investment bank. Some n
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow and Monday, ba=
+ck on Tuesday.
+
+ =20
+   =20
+      YES!
+   =20
+ =20
+
+Here is a common pattern at a big investment bank.=C2=A0Some nerds in the d=
+erivatives lab cook up a derivative. To make it out of the lab and into pro=
+duction, the derivative will generally have a few attractive characteristic=
+s:
+=09It comes with a good intuitive story. =E2=80=9CYou are worried about X, =
+and this derivative will protect you from X.=E2=80=9D =E2=80=9CYou expect t=
+he market to do Y, and if the market does Y this derivative will make a lot=
+ of money.=E2=80=9D =E2=80=9CIt would be extremely surprising if the market=
+ did Z, and this derivative will make money for you unless the market does =
+Z.=E2=80=9D=09It has a pretty backtest. =E2=80=9CLook at this chart: This d=
+erivative would never have lost money during your lifetime!=E2=80=9D (Or on=
+ly rarely, or not very much, or only in conditions you don=E2=80=99t expect=
+ to see again, etc.)=09It has a good name. =E2=80=9CWould you like to buy a=
+ YES? That is the name of our product, YES, it is an acronym, would you lik=
+e to buy it?=E2=80=9D The question suggests the answer, doesn=E2=80=99t it?=
+=09It builds in a lot of edge, so the bank can make a lot of money selling =
+it.
+
+And then the nerds go out and tell the bank=E2=80=99s salespeople =E2=80=9C=
+hey, we=E2=80=99ve got this product, it is called a YES, you should sell it=
+ because it makes us a lot of money=E2=80=9D (Point 4). And they give the s=
+ales force a memo that contains a summary of the product=E2=80=99s intuitiv=
+e story (Point 1), and the pretty backtest (Point 2), and the name of cours=
+e (Point 3), and also probably a longer explanation of how the product work=
+s and what the risks are.=C2=A0And, ideally, the salespeople read the expla=
+nation and look at the backtest and figure out the moving pieces and talk t=
+o the derivatives nerds and get a good understanding of the product and sen=
+sibly advise clients on how to use the product to achieve their particular =
+goals.=C2=A0
+But, in practice, some of the salespeople glance at the backtest and say =
+=E2=80=9Caha! This is a product that can never lose money,=E2=80=9D and the=
+y=C2=A0like the name,=C2=A0and they go out and tell their clients =E2=80=9C=
+do you want a YES, it can never lose money,=E2=80=9D and the clients believ=
+e them,=C2=A0and, uh:
+
+The Securities and Exchange Commission [yesterday] announced that UBS Finan=
+cial Services Inc. has agreed to pay approximately $25 million to settle fr=
+aud charges relating to a complex investment strategy referred to as YES, o=
+r Yield Enhancement Strategy.
+According to the SEC=E2=80=99s order, UBS marketed and sold YES to approxim=
+ately 600 investors through its platform of domestic financial advisors fro=
+m February 2016 through February 2017. The order finds that, during this ti=
+me, UBS did not provide its financial advisors with adequate training and o=
+versight in the strategy, and although UBS recognized and documented the po=
+ssibility of significant risk in YES investments, it failed to share this d=
+ata with advisors or clients. As a result, the order finds, some of UBS=E2=
+=80=99s advisors did not understand the risks and were unable to form a rea=
+sonable belief that the advice they provided was in the best interest of th=
+eir clients. When investors suffered losses, many of them, along with their=
+ financial advisors, expressed surprise and closed their YES accounts.
+
+The strategy is not=C2=A0that=C2=A0complex, but it is complex=C2=A0enough.=
+=C2=A0It is an iron-condor-selling strategy: You sell some out-of-the-money=
+ puts and calls on a stock index, and then buy back further-out-of-the-mone=
+y puts and calls. The result if that the market doesn=E2=80=99t move much, =
+you collect some premium; if the market moves, you have some losses, though=
+ they are capped at around 10% to 20% of your position.
+  [1]
+
+This was cooked up by some nerds in the lab at=C2=A0Credit Suisse Group AG,=
+ and worked well enough at Credit Suisse that UBS hired the whole lab in 20=
+15, =E2=80=9Cpaying them upfront awards of approximately $50 million.=E2=80=
+=9D Then they pitched it to UBS=E2=80=99s financial advisers, who went out =
+and sold it to clients:
+UBS opened YES to new clients in February 2016. The YES Team conducted road=
+shows at UBS=E2=80=99s offices in California, Texas, and New York, among ot=
+hers, and pitched the strategy over the phone to financial advisors located=
+ across the country. The YES Team marketed the strategy as a way to enhance=
+ returns on an existing portfolio of securities. The YES Team generally exp=
+lained to financial advisors and clients that historically the strategy had=
+ generated gains of approximately 3%-to-5% per year with worst-case histori=
+cal losses of approximately 1% per year. The YES Team acknowledged that the=
+ strategy had experienced losses up to 11% in a single month but explained =
+that this created a potential profit opportunity because they could try=C2=
+=A0to sell options at premium prices, sometimes analogizing the program to =
+writing =E2=80=9Churricane insurance.=E2=80=9D As a result of these efforts=
+, the number of client accounts increased by approximately 600 and the amou=
+nt invested in YES increased by approximately $2 billion during the Relevan=
+t Period.
+But, says the SEC, the advisers didn=E2=80=99t really know what they were s=
+elling:
+
+Because there was no registration statement or other formal offering docume=
+nt associated with YES, financial advisors and clients were dependent on wr=
+itten materials prepared by UBS and documents associated with the account o=
+pening process. The first was a blast email prepared by the YES Team highli=
+ghting, among other things, that the strategy=E2=80=99s =E2=80=9Cworst year=
+ was down 1.02%.=E2=80=9D The second was a 17-page slide deck. Beyond stand=
+ard language along the lines of =E2=80=9C[s]ignificant market moves either =
+up or down may result in losses=E2=80=9D and =E2=80=9C[s]elling options inv=
+olves a high degree of risk,=E2=80=9D none of the written materials provide=
+d further explanation of the downside risk of YES. ...
+Certain financial advisors and clients did not understand the significant d=
+ownside risks of YES during the Relevant Period. Certain financial advisors=
+ understood from communications with the YES Team that the strategy could e=
+xperience significant losses but believed that this created a profit opport=
+unity under a hurricane insurance analogy. Certain clients who invested in =
+YES during the Relevant Period would not have invested in YES had they know=
+n the significant downside risk, and believed their financial advisors woul=
+d not have recommended YES had they appreciated those risks.
+
+We have  talked about this product before; allegedly one broker told his cl=
+ient that =E2=80=9Cif the world came to an end tomorrow, you=E2=80=99d be t=
+he only one with any money left.=E2=80=9D From selling S&P iron condors! Co=
+me on. Nobody in the derivatives lab would say anything like that. But some=
+thing got lost in translation.
+It=E2=80=99s hard. On the one hand, if you are a financial adviser, you wan=
+t to give your clients good financial advice, which means understanding the=
+ nuances of the products you are selling them. On the other hand, if you ar=
+e a financial adviser at a big brokerage, you want to give them=C2=A0a lot=
+=C2=A0of financial advice, both because you will endear yourself to (some)=
+=C2=A0clients=C2=A0by selling them lots of whizz-bang stuff that they can=
+=E2=80=99t get anywhere else, and because you will endear yourself to=C2=A0=
+your employer=C2=A0by selling stuff that makes a lot of money for your empl=
+oyer. And doing=C2=A0that=C2=A0tends to be easier if you=C2=A0don=E2=80=99t=
+=C2=A0understand the nuances of the product. If your understanding of a pro=
+duct is limited to =E2=80=9Cthis thing is called YES and it never goes down=
+,=E2=80=9D then you will be excited to sell it.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      10b5-1s
+   =20
+ =20
+
+One thing that I believe is that chief executive officers of public compani=
+es know more about their companies than outsiders do. I think this is obvio=
+usly true: The CEO spends all day working at the company, everyone at the c=
+ompany reports to her, she sets the company=E2=80=99s strategy, she can get=
+ all the information she wants about the company, etc.; she is just clearly=
+ going to be more informed about the company than some random person, or ev=
+en some hedge-fund analyst who covers the company closely.
+But this=C2=A0is also a somewhat controversial thing to say in polite compa=
+ny. There is in US securities law a sort of polite fiction that the CEO of =
+a public company only sometimes has =E2=80=9Cmaterial nonpublic information=
+=E2=80=9D about the company. Right before the company releases earnings, wh=
+en the CEO has seen the draft earnings release but it isn=E2=80=99t public =
+yet, she has MNPI, but midway through the quarter she does not. If she is a=
+ctively negotiating a merger with a competitor, she has MNPI, but if she ju=
+st has occasional hypothetical chats with the competitor=E2=80=99s CEO then=
+ she does not. If the company just suffered a devastating hack that it hasn=
+=E2=80=99t yet disclosed, she has MNPI, but if she is just reviewing weekly=
+ cybersecurity threat assessments she does not. Etc. (Not legal advice!)=C2=
+=A0
+This polite fiction is important because it is what allows corporate execut=
+ives to trade stock. If you said =E2=80=9Cwell, yes, obviously CEOs always =
+have inside information about their companies, after all they run those com=
+panies,=E2=80=9D then any time a CEO traded her company=E2=80=99s stock she=
+ would be doing a crime. (It is illegal, in the US, for corporate insiders =
+to trade while in possession of material nonpublic information.) So you say=
+ =E2=80=9Coh no CEOs never have any material information about their compan=
+y except at the end of the quarter, or when they=E2=80=99re doing a merger,=
+ or when they get hacked.=E2=80=9D And then when things are normal =E2=80=
+=94=C2=A0when the CEO just knows all sorts of inside information about her =
+company, but none of it is big enough to rise to the level of =E2=80=9Cmate=
+rial nonpublic information=E2=80=9D=C2=A0=E2=80=94=C2=A0then the CEO can tr=
+ade.=C2=A0
+The way that this typically works is somewhat convoluted. Instead of just d=
+eciding to trade stock and then doing it, CEOs frequently set up Rule 10b5-=
+1 trading plans. In a 10b5-1 plan, the CEO arranges with her broker to sell=
+ some prearranged number of shares of stock over some prearranged period. (=
+Or to=C2=A0buy=C2=A0stock, though executives tend to do more selling than b=
+uying, since they are often paid largely in stock and need to turn it into =
+money.) It could be =E2=80=9C1,000 shares a day starting next month,=E2=80=
+=9D or some more complicated formula based on the price of the shares. But =
+the idea is that you set up the Rule 10b5-1 plan in =E2=80=9Cnormal=E2=80=
+=9D times =E2=80=94=C2=A0when the polite fiction says that you don=E2=80=99=
+t have any MNPI =E2=80=94=C2=A0and then the plan operates automatically. So=
+ if you later=C2=A0get=C2=A0MNPI (because the quarter ends, or you start ne=
+gotiating a merger), your broker keeps automatically selling stock for you,=
+ and you can say =E2=80=9Cwhat, I=E2=80=99m not insider trading, this is ju=
+st the plan operating automatically.=E2=80=9D
+But the polite fiction isn=E2=80=99t=C2=A0true, so you can always get artic=
+les like this:
+
+A Wall Street Journal analysis of 75,000 prearranged stock sales by corpora=
+te insiders, using a comprehensive compilation of the data, shows that abou=
+t a fifth of them occurred within 60 trading days of a plan=E2=80=99s adopt=
+ion. The timing in aggregate made the trades more profitable: On average, t=
+hose trades preceded a downturn in share price more often than when insider=
+s waited longer to trade, the analysis found.
+Collectively, insiders who sold within 60 days reaped $500 million more in =
+profits than they would have if they sold three months later, according to =
+the analysis, which examined trades from 2016 through 2021 and adjusted ret=
+urns to remove the effect of sector-wide moves in the market.
+For those who waited 120 days or more after adopting a plan, roughly half s=
+old before a downturn and half before a stock upturn, suggesting that the s=
+ellers reaped no unusual gains after more time had passed.
+
+One way to read this is that corporate executives know more about what will=
+ happen at their companies in the next 60 days than the market does, though=
+ their informational advantage erodes after 120 days. Really it is a bit mo=
+re complicated than that. For one thing, executives probably sell stock mor=
+e to buy houses or pay tuition than to make tactical bets on market prices,=
+ so you might=C2=A0not=C2=A0expect their sales to be informative even if th=
+ey do know more than everyone else. Some research has found that insider=C2=
+=A0buying=C2=A0is informative (CEOs buy their own stock because they think,=
+ with reason, that it will go up), but insider=C2=A0selling=C2=A0is not inf=
+ormative (CEOs sell their own stock for liquidity reasons, not because they=
+ think it will go down). Still, if you are a corporate executive and you de=
+cide you need to sell stock this month, that does seem to increase the like=
+lihood that next month will be bad.
+Anyway there is an obvious solution to this problem, if it=E2=80=99s a prob=
+lem. You can abandon the polite fiction that CEOs don=E2=80=99t have materi=
+al nonpublic information, and replace it with a time delay. A CEO who decid=
+es to sell stock today, or next week, knows something that the market doesn=
+=E2=80=99t. A CEO who decides today =E2=80=9CI am going to sell stock in fo=
+ur months=E2=80=9D does not. The stock price might be higher or lower in fo=
+ur months; she doesn=E2=80=99t know. After she sells, the stock might go up=
+ or down; she doesn=E2=80=99t know that either.=C2=A0In four months=C2=A0sh=
+e=E2=80=99ll know stuff that the market doesn=E2=80=99t, but if she makes t=
+he decision today it is probably an uninformed decision. That is both intui=
+tive, and what the Journal=E2=80=99s analysis shows.
+Also this is exactly what the US Securities and Exchange Commission wants t=
+o do. Late last year, the SEC proposed amendments to Rule 10b5-1 to =E2=80=
+=9Crequire a Rule 10b5-1 trading arrangement entered into by officers or di=
+rectors to include a 120-day mandatory cooling-off period before any tradin=
+g can commence under the trading arrangement after its adoption.=E2=80=9D (=
+We  talked about the proposal=C2=A0in December.) You sign up a plan today, =
+but it can=E2=80=99t start trading for four months. You know stuff now that=
+ the market doesn=E2=80=99t know, but four months from now the market will =
+know it, so you aren=E2=80=99t insider trading.=C2=A0
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Bailouts
+   =20
+ =20
+
+One thing that sometimes happens in financial markets is that a firm runs i=
+nto a liquidity crisis. It has borrowed a lot of money short-term to fund l=
+ong-term investments, but its short-term lenders have gotten spooked and ha=
+ve pulled their financing, and it can=E2=80=99t sell its long-term investme=
+nts fast enough or at a high enough price to pay them back. When that happe=
+ns, a classic=C2=A0solution is for some bigger and better-capitalized firm =
+with an appropriately long-term horizon to buy the troubled firm or its ass=
+ets. =E2=80=9CWe know that these assets are good,=E2=80=9D the bigger firm =
+might think, =E2=80=9Cso we will buy them at a discount, solve the liquidit=
+y crisis and get rich.=E2=80=9D That is sort of the=C2=A0point=C2=A0of bein=
+g a big and well-capitalized firm: You are a bit boring in the boom times, =
+but then in the bust you can go around scooping up lots of good assets chea=
+p.
+But this is all pretty schematic, and in real life it is not always the cas=
+e that a liquidity crisis is=C2=A0just, or=C2=A0primarily, a liquidity cris=
+is. If some firm runs into a liquidity crisis and can=E2=80=99t pay back it=
+s short-term debt and calls up a big well-capitalized firm for help, the bi=
+g well-capitalized firm has to go look at its assets and see what=E2=80=99s=
+ going on. Sometimes the big firm will crack open the books and conclude =
+=E2=80=9Cyes, these assets are great,=C2=A0your lenders are spooked for no =
+reason, it=E2=80=99s an amazing buying opportunity for us=E2=80=9D and buy =
+them. Other times the big firm will crack open the books and find a crayon =
+drawing of a billion-dollar bill and say =E2=80=9Cah, yes, that=E2=80=99s y=
+our problem right there=E2=80=9D and walk away. Sometimes the liquidity cri=
+sis is well deserved.
+Anyway!
+
+Crypto exchange operator FTX looked at making a deal with troubled crypto l=
+ender Celsius but ultimately walked away, two people with knowledge of the =
+matter told The Block.
+FTX began talks with Celsius about providing financial support or making an=
+ acquisition but decided against proceeding after looking at Celsius's fina=
+nces, the sources said.=C2=A0Celsius had a $2 billion hole in its balance s=
+heet and FTX found the company difficult to deal with, one of the sources s=
+aid.
+Celsius did not respond to The Block's request for comment.
+Celsius has been fighting for survival since freezing all withdrawals on Ju=
+ne 12, citing "extreme market conditions." Clients' funds have remained stu=
+ck ever since.
+
+See if I was looking for a bailout I would want to be=C2=A0easy=C2=A0to dea=
+l with but that is just me.
+
+ =20
+   =20
+      Tether
+   =20
+ =20
+
+Ahahaha come on:
+
+The public face of crypto=E2=80=99s biggest stablecoin, Tether chief techno=
+logy officer Paolo Ardoino, laid down the gauntlet this week to hedge funds=
+ who are shorting the $66bn market cap token.
+Over 12 tweets on Monday, he decried =E2=80=9CFUD, troll armies, clowns etc=
+=E2=80=9D and said that Tether was =E2=80=9Cthe only stablecoin that is pro=
+ven with fire under extreme pressure=E2=80=9D, referring to the $17bn in re=
+demptions it has processed in May and June.
+=E2=80=9CEventually these hedge funds, that borrowed and shorted billions o=
+f USDt will need to buy them back. What will happen then?,=E2=80=9D he warn=
+ed.
+
+I mean =E2=80=A6=C2=A0they=E2=80=99ll =E2=80=A6=C2=A0buy them back =E2=80=
+=A6=C2=A0at $1? Like that=E2=80=99s the point? Of Tether? What are we doing=
+ here? Like if you see a stock go from $10 to $100 and think =E2=80=9Chahah=
+a this is a great short=E2=80=9D and short it at $100, one thing that might=
+ happen is that there might be a short squeeze and the stock might go to $4=
+00 and stay there. If that happens, (1) you will have to buy it back at $40=
+0 and lose tons of money, and (2) the people who own the stock will say thi=
+ngs like =E2=80=9Cyes!=E2=80=9D and =E2=80=9Chaha gotcha=E2=80=9D and =E2=
+=80=9Cthis is exactly what we wanted.=E2=80=9D But if you see Tether tradin=
+g at $0.9988 and you think =E2=80=9Chahaha this is a great short=E2=80=9D a=
+nd short it at $0.9988, it seems implausible that there will be a short squ=
+eeze and Tether will go to, like, $2. The point of a stablecoin is to be wo=
+rth $1! If Tether goes to $2, the people who own it will say things like =
+=E2=80=9Cwhat?=E2=80=9D and =E2=80=9Coh dear=E2=80=9D and =E2=80=9Cthis is =
+not supposed to happen.=E2=80=9D It=E2=80=99s not a useful stablecoin if it=
+ trades very far from $1. If you are short Tether and it stays near $1, you=
+ will lose money, because you are paying money to borrow Tether and short i=
+t. But you=E2=80=99re losing a little money every day; the problem is not, =
+like, you sold it at $0.9988 and now you have to buy it back at $1.00. That=
+ costs you $0.0012!
+
+ =20
+   =20
+      MicroStrategy
+   =20
+ =20
+
+If you are MicroStrategy Inc., and you were a small software company, and t=
+hen you pivoted to become a giant leveraged=C2=A0sack of Bitcoins with a sm=
+all software company hanging off of it, and then the price of Bitcoin went =
+way down, what are you going to do about it? Like if you run a hedge fund, =
+or Tesla Inc., and you buy some Bitcoins and the trade moves against you, y=
+ou can say =E2=80=9Coops, our bad, sorry we burned some of your money, movi=
+ng on.=E2=80=9D But if you run a company that was a regular company but tha=
+t has now=C2=A0turned Bitcoin into its whole identity, that is a trickier m=
+ove. Your shareholders are all Bitcoiners, your debts are all secured by Bi=
+tcoin, you are a Bitcoin company now, and there is no face-saving way out o=
+f the trade.=C2=A0This also applies to El Salvador.=C2=A0Anyway:
+On June 29, 2022, MicroStrategy Incorporated (=E2=80=9CMicroStrategy=E2=80=
+=9D) announced that, during the period between May 3, 2022 and June 28, 202=
+2, MicroStrategy acquired approximately 480 bitcoins for approximately $10.=
+0 million in cash, at an average price of approximately $20,817 per bitcoin=
+, inclusive of fees and expenses. As of June 28, 2022, MicroStrategy, toget=
+her with its subsidiaries, held an aggregate of approximately 129,699 bitco=
+ins, which were acquired at an aggregate purchase price of approximately $3=
+.98 billion and an average purchase price of approximately $30,664 per bitc=
+oin, inclusive of fees and expenses.
+The good news is that, if it keeps going down and they keep buying, that av=
+erage price will keep getting lower.
+
+ =20
+   =20
+      Ethics
+   =20
+ =20
+
+We  talked the other day about how, to become a=C2=A0certified public accou=
+ntant, you=C2=A0have to take an ethics exam. You take this take-home open-b=
+ook online multiple-choice ethics exam after passing four other grueling ex=
+ams about accounting, and it seems to be taken less seriously than some of =
+the other elements of becoming an accountant. To the extent that a bunch of=
+ accountants at Ernst & Young cheated on it, and the US Securities and Exch=
+ange Commission caught them and fined E&Y=C2=A0$100 million for not turning=
+ in the cheaters.
+I suggested that a regulatorily imposed multiple-choice ethics exam is mayb=
+e not the best way to instill a sense of ethics in a profession.
+A reader pointed me to this paper, by Margaret Forster, Tim Loughran and Bi=
+ll McDonald at Notre Dame, about =E2=80=9CCommonality in Codes of Ethics.=
+=E2=80=9D From the abstract:
+We create a database of company codes of ethics from firms listed on the St=
+andard & Poor=E2=80=99s 500 Index and, separately, a sample of small firms.=
+ The SEC believes that =E2=80=9Cethics codes do, and should, vary from comp=
+any to company.=E2=80=9D Using textual analysis techniques, we measure the =
+extent of commonality across the documents. We find substantial levels of c=
+ommon sentences used by the firms, including a few cases where the codes of=
+ ethics are essentially identical. We consider these results in the context=
+ of legal statements versus value statements. While legal writing often man=
+dates duplication, we argue that value-based statements should be held to a=
+ higher standard of originality. Our evidence is consistent with isomorphic=
+ pressures on smaller firms to conform.
+The examples are fun; popular sentences include =E2=80=9CTheft, carelessnes=
+s, and waste have a direct impact on the company=E2=80=99s profitability,=
+=E2=80=9D=C2=A0=E2=80=9CWe seek competitive advantages through superior per=
+formance, never through unethical or illegal business practices,=E2=80=9D =
+=E2=80=9CRemember that it is your supervisor=E2=80=99s responsibility to he=
+lp solve problems,=E2=80=9D =E2=80=9CStealing proprietary information, poss=
+essing trade secret information that was obtained without the owner=E2=80=
+=99s consent, or inducing such disclosures by past or present employees of =
+other companies is prohibited,=E2=80=9D and =E2=80=9CIt may help to get oth=
+ers involved and discuss the problem.=E2=80=9D
+It turns out that when the US Securities and Exchange Commission=C2=A0manda=
+ted a code of ethics for public companies, they =E2=80=A6=C2=A0copied each =
+others=E2=80=99 answers. Just like the accountants did! I feel like there i=
+s a deep lesson here about ethics mandates.=C2=A0
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Grayscale Suing SEC After Its  Bitcoin ETF Is Rejected. Did  Razzlekhan and=
+ Dutch Pull Off History=E2=80=99s Biggest Crypto Heist? Spirit Air Board Pu=
+shes Shareholders Meeting on Frontier Bid for Second Time. Treasury market =
+reforms draw flak from funds and high-speed traders. Private Lenders Are Of=
+fering  Cheaper Debt Than Wall Street Banks.=C2=A0Megadeals buoy global M&A=
+ despite pullback from record 2021.=C2=A0 Romance Scams Explode, Leaving Br=
+oken Hearts and Millions Lost.=C2=A0Hedge Fund Viking Global Seeks to Raise=
+ $1 Billion to Back=20
+Cash-Hungry Startups. Putin: Western leaders would look =E2=80=98disgusting=
+=E2=80=99 topless.=C2=A0Beer Made From Recycled Toilet Water  Wins Admirers=
+ in Singapore.=C2=A0Anchovies are reportedly raining from the sky across Sa=
+n Francisco.=C2=A0
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] The SEC explains: =E2=80=9CYES is an options overlay strategy designe=
+d to generate income from an existing portfolio of securities and is manage=
+d on a discretionary basis. YES generally sells short term out-of-the-money=
+ European style put and call options on the S&P 500 and hedges those positi=
+ons by purchasing below-market puts and above-market calls with the same du=
+ration =E2=80=93 an options trading strategy known as an =E2=80=98Iron Cond=
+or.=E2=80=99 Clients participate in YES by pledging as collateral for those=
+ options trades a portfolio of existing securities held at UBS with a view =
+towards enhancing returns on their existing portfolio. YES is a short volat=
+ility strategy and thus has the potential to generate modest returns during=
+ periods of low market volatility; however, unbeknownst to certain clients =
+who opened YES accounts during the Relevant Period and certain UBS financia=
+l advisors who recommended YES during the Relevant Period, the strategy cou=
+ld -- and eventually did =E2=80=93 suffer losses during periods of high mar=
+ket volatility.=E2=80=9D
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgt37y.5y6q/b356b0d4.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_16096141_299766252.1656609832972
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow and Monday, back on Tues=
+day.YES!Here is a common pattern at a big investment bank. Some n
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yODIzMTA1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1MDg2NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB4072a39f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D28231054&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28508640&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjMwMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MzAmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB46a459a9"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yODIzMTA1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1MDg2NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCa0ad1916" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D28231054&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28508640&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow and Monday, back on Tuesday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">YES!</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Here is a common pattern at a big investment b=
+ank.=C2=A0Some nerds in the derivatives lab cook up a derivative. To make i=
+t out of the lab and into production, the derivative will generally have a =
+few attractive characteristics:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">It comes with a good intuitive story.=
+ =E2=80=9CYou are worried about X, and this derivative will protect you fro=
+m X.=E2=80=9D =E2=80=9CYou expect the market to do Y, and if the market doe=
+s Y this derivative will make a lot of money.=E2=80=9D =E2=80=9CIt would be=
+ extremely surprising if the market did Z, and this derivative will make mo=
+ney for you unless the market does Z.=E2=80=9D</li>=09<li style=3D"margin-b=
+ottom: 5px;">It has a pretty backtest. =E2=80=9CLook at this chart: This de=
+rivative would never have lost money during your lifetime!=E2=80=9D (Or onl=
+y rarely, or not very much, or only in conditions you don=E2=80=99t expect =
+to see again, etc.)</li>=09<li style=3D"margin-bottom: 5px;">It has a good =
+name. =E2=80=9CWould you like to buy a YES? That is the name of our product=
+, YES, it is an acronym, would you like to buy it?=E2=80=9D The question su=
+ggests the answer, doesn=E2=80=99t it?</li>=09<li style=3D"margin-bottom: 5=
+px;">It builds in a lot of edge, so the bank can make a lot of money sellin=
+g it.</li>
+</ol>
+<p style=3D"margin: 16px 0;">And then the nerds go out and tell the bank=E2=
+=80=99s salespeople =E2=80=9Chey, we=E2=80=99ve got this product, it is cal=
+led a YES, you should sell it because it makes us a lot of money=E2=80=9D (=
+Point 4). And they give the sales force a memo that contains a summary of t=
+he product=E2=80=99s intuitive story (Point 1), and the pretty backtest (Po=
+int 2), and the name of course (Point 3), and also probably a longer explan=
+ation of how the product works and what the risks are.=C2=A0And, ideally, t=
+he salespeople read the explanation and look at the backtest and figure out=
+ the moving pieces and talk to the derivatives nerds and get a good underst=
+anding of the product and sensibly advise clients on how to use the product=
+ to achieve their particular goals.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But, in practice, some of the salespeople glan=
+ce at the backtest and say =E2=80=9Caha! This is a product that can never l=
+ose money,=E2=80=9D and they=C2=A0like the name,=C2=A0and they go out and t=
+ell their clients =E2=80=9Cdo you want a YES, it can never lose money,=E2=
+=80=9D and the clients believe them,=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/28231054.277586/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3B=
+yZXNzLXJlbGVhc2UvMjAyMi0xMTc/607f07ceef4b8524a319a23cB17e5cd1e" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">and=
+, uh</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission [yester=
+day] announced that UBS Financial Services Inc. has agreed to pay approxima=
+tely $25 million to settle fraud charges relating to a complex investment s=
+trategy referred to as YES, or Yield Enhancement Strategy.</p>
+<p style=3D"margin: 16px 0;">According to the SEC=E2=80=99s order, UBS mark=
+eted and sold YES to approximately 600 investors through its platform of do=
+mestic financial advisors from February 2016 through February 2017. The ord=
+er finds that, during this time, UBS did not provide its financial advisors=
+ with adequate training and oversight in the strategy, and although UBS rec=
+ognized and documented the possibility of significant risk in YES investmen=
+ts, it failed to share this data with advisors or clients. As a result, the=
+ order finds, some of UBS=E2=80=99s advisors did not understand the risks a=
+nd were unable to form a reasonable belief that the advice they provided wa=
+s in the best interest of their clients. When investors suffered losses, ma=
+ny of them, along with their financial advisors, expressed surprise and clo=
+sed their YES accounts.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The strategy is not=C2=A0<em>that=C2=A0</em>co=
+mplex, but it is complex=C2=A0<em>enough.=C2=A0</em>It is an iron-condor-se=
+lling strategy: You sell some out-of-the-money puts and calls on a stock in=
+dex, and then buy back further-out-of-the-money puts and calls. The result =
+if that the market doesn=E2=80=99t move much, you collect some premium; if =
+the market moves, you have some losses, though they are capped at around 10=
+% to 20% of your position.<a class=3D"footnote-index" href=3D"#footnote-1" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: none !importan=
+t; background-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">This was cooked up by some nerds in the lab at=
+=C2=A0Credit Suisse Group AG, and worked well enough at Credit Suisse that =
+UBS hired the whole lab in 2015, =E2=80=9Cpaying them upfront awards of app=
+roximately $50 million.=E2=80=9D Then they pitched it to UBS=E2=80=99s fina=
+ncial advisers, <a href=3D"https://link.mail.bloombergbusiness.com/click/28=
+231054.277586/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2FkbWluLzIwMjIvMzQtO=
+TUxNjgucGRm/607f07ceef4b8524a319a23cB07bb47b3" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">who went out and sol=
+d it to clients</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">UBS opened YES to new clients in F=
+ebruary 2016. The YES Team conducted roadshows at UBS=E2=80=99s offices in =
+California, Texas, and New York, among others, and pitched the strategy ove=
+r the phone to financial advisors located across the country. The YES Team =
+marketed the strategy as a way to enhance returns on an existing portfolio =
+of securities. The YES Team generally explained to financial advisors and c=
+lients that historically the strategy had generated gains of approximately =
+3%-to-5% per year with worst-case historical losses of approximately 1% per=
+ year. The YES Team acknowledged that the strategy had experienced losses u=
+p to 11% in a single month but explained that this created a potential prof=
+it opportunity because they could try=C2=A0to sell options at premium price=
+s, sometimes analogizing the program to writing =E2=80=9Churricane insuranc=
+e.=E2=80=9D As a result of these efforts, the number of client accounts inc=
+reased by approximately 600 and the amount invested in YES increased by app=
+roximately $2 billion during the Relevant Period.</p></blockquote>
+<p style=3D"margin: 16px 0;">But, says the SEC, the advisers didn=E2=80=99t=
+ really know what they were selling:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Because there was no registration statement or=
+ other formal offering document associated with YES, financial advisors and=
+ clients were dependent on written materials prepared by UBS and documents =
+associated with the account opening process. The first was a blast email pr=
+epared by the YES Team highlighting, among other things, that the strategy=
+=E2=80=99s =E2=80=9Cworst year was down 1.02%.=E2=80=9D The second was a 17=
+-page slide deck. Beyond standard language along the lines of =E2=80=9C[s]i=
+gnificant market moves either up or down may result in losses=E2=80=9D and =
+=E2=80=9C[s]elling options involves a high degree of risk,=E2=80=9D none of=
+ the written materials provided further explanation of the downside risk of=
+ YES. ...</p>
+<p style=3D"margin: 16px 0;">Certain financial advisors and clients did not=
+ understand the significant downside risks of YES during the Relevant Perio=
+d. Certain financial advisors understood from communications with the YES T=
+eam that the strategy could experience significant losses but believed that=
+ this created a profit opportunity under a hurricane insurance analogy. Cer=
+tain clients who invested in YES during the Relevant Period would not have =
+invested in YES had they known the significant downside risk, and believed =
+their financial advisors would not have recommended YES had they appreciate=
+d those risks.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bloomberg=
+business.com/click/28231054.277586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMTktMDgtMjYvYmFua3MtY2FuLXQtZG8taXQtYWxsLWFueW1vcmU_Y21=
+waWQ9QkJEMDYzMDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3=
+NsZXR0ZXImdXRtX3Rlcm09MjIwNjMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b=
+8524a319a23cB4680b371" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> talked about</a> this product before; alleg=
+edly one broker <a href=3D"https://link.mail.bloombergbusiness.com/click/28=
+231054.277586/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy91YnMtZmFjZXMtY2xpZW50L=
+WJhY2tsYXNoLW92ZXItb3B0aW9ucy1zdHJhdGVneS0xMTU2NjU1MjYwMA/607f07ceef4b8524a=
+319a23cB9281f7f1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">told his client</a> that =E2=80=9Cif the world ca=
+me to an end tomorrow, you=E2=80=99d be the only one with any money left.=
+=E2=80=9D From selling S&amp;P iron condors! Come on. Nobody in the derivat=
+ives lab would say anything like that. But something got lost in translatio=
+n.</p>
+<p style=3D"margin: 16px 0;">It=E2=80=99s hard. On the one hand, if you are=
+ a financial adviser, you want to give your clients good financial advice, =
+which means understanding the nuances of the products you are selling them.=
+ On the other hand, if you are a financial adviser at a big brokerage, you =
+want to give them=C2=A0<em>a lot=C2=A0</em>of financial advice, both becaus=
+e you will endear yourself to (some)=C2=A0<em>clients=C2=A0</em>by selling =
+them lots of whizz-bang stuff that they can=E2=80=99t get anywhere else, an=
+d because you will endear yourself to=C2=A0<em>your employer=C2=A0</em>by s=
+elling stuff that makes a lot of money for your employer. And doing=C2=A0<e=
+m>that=C2=A0</em>tends to be easier if you=C2=A0<em>don=E2=80=99t=C2=A0</em=
+>understand the nuances of the product. If your understanding of a product =
+is limited to =E2=80=9Cthis thing is called YES and it never goes down,=E2=
+=80=9D then you will be excited to sell it.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODIzMTA1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1MDg2NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDea8acb9b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28231054&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28508640&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODIzMTA1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1MDg2NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEea8acb9b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28231054&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28508640&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODIzMTA1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1MDg2NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF0446b4f4" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28231054&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28508640&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODIzMTA1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1MDg2NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG0446b4f4" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28231054&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28508640&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">10b5-1s</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One thing that I believe is that chief executi=
+ve officers of public companies know more about their companies than outsid=
+ers do. I think this is obviously true: The CEO spends all day working at t=
+he company, everyone at the company reports to her, she sets the company=E2=
+=80=99s strategy, she can get all the information she wants about the compa=
+ny, etc.; she is just clearly going to be more informed about the company t=
+han some random person, or even some hedge-fund analyst who covers the comp=
+any closely.</p>
+<p style=3D"margin: 16px 0;">But this=C2=A0is also a somewhat controversial=
+ thing to say in polite company. There is in US securities law a sort of po=
+lite fiction that the CEO of a public company only sometimes has =E2=80=9Cm=
+aterial nonpublic information=E2=80=9D about the company. Right before the =
+company releases earnings, when the CEO has seen the draft earnings release=
+ but it isn=E2=80=99t public yet, she has MNPI, but midway through the quar=
+ter she does not. If she is actively negotiating a merger with a competitor=
+, she has MNPI, but if she just has occasional hypothetical chats with the =
+competitor=E2=80=99s CEO then she does not. If the company just suffered a =
+devastating hack that it hasn=E2=80=99t yet disclosed, she has MNPI, but if=
+ she is just reviewing weekly cybersecurity threat assessments she does not=
+. Etc. (Not legal advice!)=C2=A0</p>
+<p style=3D"margin: 16px 0;">This polite fiction is important because it is=
+ what allows corporate executives to trade stock. If you said =E2=80=9Cwell=
+, yes, obviously CEOs always have inside information about their companies,=
+ after all they run those companies,=E2=80=9D then any time a CEO traded he=
+r company=E2=80=99s stock she would be doing a crime. (It is illegal, in th=
+e US, for corporate insiders to trade while in possession of material nonpu=
+blic information.) So you say =E2=80=9Coh no CEOs never have any material i=
+nformation about their company except at the end of the quarter, or when th=
+ey=E2=80=99re doing a merger, or when they get hacked.=E2=80=9D And then wh=
+en things are normal =E2=80=94=C2=A0when the CEO just knows all sorts of in=
+side information about her company, but none of it is big enough to rise to=
+ the level of =E2=80=9Cmaterial nonpublic information=E2=80=9D=C2=A0=E2=80=
+=94=C2=A0then the CEO can trade.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The way that this typically works is somewhat =
+convoluted. Instead of just deciding to trade stock and then doing it, CEOs=
+ frequently set up <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/28231054.277586/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0MC=
+4xMGI1LTE/607f07ceef4b8524a319a23cBf21765d7" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Rule 10b5-1 trading pl=
+ans</a>. In a 10b5-1 plan, the CEO arranges with her broker to sell some pr=
+earranged number of shares of stock over some prearranged period. (Or to=C2=
+=A0<em>buy=C2=A0</em>stock, though executives tend to <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/28231054.277586/aHR0cHM6Ly9wYXBlcnMuc3N=
+ybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTY4NzU4NA/607f07ceef4b8524a31=
+9a23cBd02a49a5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">do more selling than buying</a>, since they are oft=
+en paid largely in stock and need to turn it into money.) It could be =E2=
+=80=9C1,000 shares a day starting next month,=E2=80=9D or some more complic=
+ated formula based on the price of the shares. But the idea is that you set=
+ up the Rule 10b5-1 plan in =E2=80=9Cnormal=E2=80=9D times =E2=80=94=C2=A0w=
+hen the polite fiction says that you don=E2=80=99t have any MNPI =E2=80=94=
+=C2=A0and then the plan operates automatically. So if you later=C2=A0<em>ge=
+t=C2=A0</em>MNPI (because the quarter ends, or you start negotiating a merg=
+er), your broker keeps automatically selling stock for you, and you can say=
+ =E2=80=9Cwhat, I=E2=80=99m not insider trading, this is just the plan oper=
+ating automatically.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">But the polite fiction isn=E2=80=99t=C2=A0<em>=
+true</em>, so you can always get <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/28231054.277586/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9leGVj=
+dXRpdmUtc3RvY2stc2FsZXMtcXVlc3Rpb25zLWluc2lkZXItdHJhZGluZy0xMTY1NjUxNDU1MT9=
+tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cBf7ec2ea5" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">arti=
+cles like this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A Wall Street Journal analysis of 75,000 prear=
+ranged stock sales by corporate insiders, using a comprehensive compilation=
+ of the data, shows that about a fifth of them occurred within 60 trading d=
+ays of a plan=E2=80=99s adoption. The timing in aggregate made the trades m=
+ore profitable: On average, those trades preceded a downturn in share price=
+ more often than when insiders waited longer to trade, the analysis found.<=
+/p>
+<p style=3D"margin: 16px 0;">Collectively, insiders who sold within 60 days=
+ reaped $500 million more in profits than they would have if they sold thre=
+e months later, according to the analysis, which examined trades from 2016 =
+through 2021 and adjusted returns to remove the effect of sector-wide moves=
+ in the market.</p>
+<p style=3D"margin: 16px 0;">For those who waited 120 days or more after ad=
+opting a plan, roughly half sold before a downturn and half before a stock =
+upturn, suggesting that the sellers reaped no unusual gains after more time=
+ had passed.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One way to read this is that corporate executi=
+ves know more about what will happen at their companies in the next 60 days=
+ than the market does, though their informational advantage erodes after 12=
+0 days. Really it is a bit more complicated than that. For one thing, execu=
+tives probably sell stock more to buy houses or pay tuition than to make ta=
+ctical bets on market prices, so you might=C2=A0<em>not=C2=A0</em>expect th=
+eir sales to be informative even if they do know more than everyone else. S=
+ome <a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.27758=
+6/aHR0cHM6Ly93d3cuanN0b3Iub3JnL3N0YWJsZS8yNjk2NzU3/607f07ceef4b8524a319a23c=
+Ba5a21423" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">research has found</a> that insider=C2=A0<em>buying=C2=
+=A0</em>is informative (CEOs buy their own stock because they think, with r=
+eason, that it will go up), but insider=C2=A0<em>selling=C2=A0</em>is not i=
+nformative (CEOs sell their own stock for liquidity reasons, not because th=
+ey think it will go down). Still, if you are a corporate executive and you =
+decide you need to sell stock this month, that does seem to increase the li=
+kelihood that next month will be bad.</p>
+<p style=3D"margin: 16px 0;">Anyway there is an obvious solution to this pr=
+oblem, if it=E2=80=99s a problem. You can abandon the polite fiction that C=
+EOs don=E2=80=99t have material nonpublic information, and replace it with =
+a time delay. A CEO who decides to sell stock today, or next week, knows so=
+mething that the market doesn=E2=80=99t. A CEO who decides today =E2=80=9CI=
+ am going to sell stock in four months=E2=80=9D does not. The stock price m=
+ight be higher or lower in four months; she doesn=E2=80=99t know. After she=
+ sells, the stock might go up or down; she doesn=E2=80=99t know that either=
+.=C2=A0<em>In four months=C2=A0</em>she=E2=80=99ll know stuff that the mark=
+et doesn=E2=80=99t, but if she makes the decision today it is probably an u=
+ninformed decision. That is both intuitive, and what the Journal=E2=80=99s =
+analysis shows.</p>
+<p style=3D"margin: 16px 0;">Also this is exactly what the US Securities an=
+d Exchange Commission wants to do. Late last year, the SEC <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/28231054.277586/aHR0cHM6Ly93d3cuc2=
+VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMS0yNTY/607f07ceef4b8524a319a23cB0255=
+ba3d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">proposed amendments</a> to Rule 10b5-1 to =E2=80=9Crequire a =
+Rule 10b5-1 trading arrangement entered into by officers or directors to in=
+clude a 120-day mandatory cooling-off period before any trading can commenc=
+e under the trading arrangement after its adoption.=E2=80=9D (We <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/28231054.277586/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMTYvdGhlLXNlYy1oYXM=
+tYmlnLXBsYW5zP2NtcGlkPUJCRDA2MzAyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdX=
+RtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYzMCZ1dG1fY2FtcGFpZ249bW9uZXlzd=
+HVmZg/607f07ceef4b8524a319a23cB2dc7db06" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> talked about the propos=
+al=C2=A0in December</a>.) You sign up a plan today, but it can=E2=80=99t st=
+art trading for four months. You know stuff now that the market doesn=E2=80=
+=99t know, but four months from now the market will know it, so you aren=E2=
+=80=99t insider trading.=C2=A0</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yODIzMTA1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1MDg2NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH843d4127" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D28231054&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28508640&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bailouts</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One thing that sometimes happens in financial =
+markets is that a firm runs into a liquidity crisis. It has borrowed a lot =
+of money short-term to fund long-term investments, but its short-term lende=
+rs have gotten spooked and have pulled their financing, and it can=E2=80=99=
+t sell its long-term investments fast enough or at a high enough price to p=
+ay them back. When that happens, a classic=C2=A0solution is for some bigger=
+ and better-capitalized firm with an appropriately long-term horizon to buy=
+ the troubled firm or its assets. =E2=80=9CWe know that these assets are go=
+od,=E2=80=9D the bigger firm might think, =E2=80=9Cso we will buy them at a=
+ discount, solve the liquidity crisis and get rich.=E2=80=9D That is sort o=
+f the=C2=A0<em>point=C2=A0</em>of being a big and well-capitalized firm: Yo=
+u are a bit boring in the boom times, but then in the bust you can go aroun=
+d scooping up lots of good assets cheap.</p>
+<p style=3D"margin: 16px 0;">But this is all pretty schematic, and in real =
+life it is not always the case that a liquidity crisis is=C2=A0<em>just</em=
+>, or=C2=A0<em>primarily</em>, a liquidity crisis. If some firm runs into a=
+ liquidity crisis and can=E2=80=99t pay back its short-term debt and calls =
+up a big well-capitalized firm for help, the big well-capitalized firm has =
+to go look at its assets and see what=E2=80=99s going on. Sometimes the big=
+ firm will crack open the books and conclude =E2=80=9Cyes, these assets are=
+ great,=C2=A0your lenders are spooked for no reason, it=E2=80=99s an amazin=
+g buying opportunity for us=E2=80=9D and buy them. Other times the big firm=
+ will crack open the books and find a crayon drawing of a billion-dollar bi=
+ll and say =E2=80=9Cah, yes, that=E2=80=99s your problem right there=E2=80=
+=9D and walk away. Sometimes the liquidity crisis is well deserved.</p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/28231054.277586/aHR0cHM6Ly93d3cudGhlYmxvY2suY28vcG9zdC8xNTUwNjkv=
+ZnR4LXdhbGtlZC1hd2F5LWZyb20tY2Vsc2l1cy1kZWFs/607f07ceef4b8524a319a23cBb1a80=
+788" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Anyway</a>!</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Crypto exchange operator FTX looked at making =
+a deal with troubled crypto lender Celsius but ultimately walked away, two =
+people with knowledge of the matter told The Block.</p>
+<p style=3D"margin: 16px 0;">FTX began talks with Celsius about providing f=
+inancial support or making an acquisition but decided against proceeding af=
+ter looking at Celsius's finances, the sources said.=C2=A0Celsius had a $2 =
+billion hole in its balance sheet and FTX found the company difficult to de=
+al with, one of the sources said.</p>
+<p style=3D"margin: 16px 0;">Celsius did not respond to The Block's request=
+ for comment.</p>
+<p style=3D"margin: 16px 0;">Celsius has been fighting for survival since f=
+reezing all withdrawals on June 12, citing "extreme market conditions." Cli=
+ents' funds have remained stuck ever since.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">See if I was looking for a bailout I would wan=
+t to be=C2=A0<em>easy=C2=A0</em>to deal with but that is just me.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Tether</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Ahahaha <a href=3D"https://link.mail.bloomberg=
+business.com/click/28231054.277586/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNTk4=
+NDk3NDMtODUwYS00ZjY3LThlNzgtZmRjNjg2NTFkMmQ0/607f07ceef4b8524a319a23cB8c321=
+645" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">come on</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The public face of crypto=E2=80=99s biggest st=
+ablecoin, Tether chief technology officer Paolo Ardoino, laid down the gaun=
+tlet this week to hedge funds who are shorting the $66bn market cap token.<=
+/p>
+<p style=3D"margin: 16px 0;">Over 12 tweets on Monday, he decried =E2=80=9C=
+FUD, troll armies, clowns etc=E2=80=9D and said that Tether was =E2=80=9Cth=
+e only stablecoin that is proven with fire under extreme pressure=E2=80=9D,=
+ referring to the $17bn in redemptions it has processed in May and June.</p=
+>
+<p style=3D"margin: 16px 0;">=E2=80=9CEventually these hedge funds, that bo=
+rrowed and shorted billions of USDt will need to buy them back. What will h=
+appen then?,=E2=80=9D he warned.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I mean =E2=80=A6=C2=A0they=E2=80=99ll =E2=80=
+=A6=C2=A0buy them back =E2=80=A6=C2=A0at $1? Like that=E2=80=99s the point?=
+ Of Tether? What are we doing here? Like if you see a stock go from $10 to =
+$100 and think =E2=80=9Chahaha this is a great short=E2=80=9D and short it =
+at $100, one thing that might happen is that there might be a short squeeze=
+ and the stock might go to $400 and stay there. If that happens, (1) you wi=
+ll have to buy it back at $400 and lose tons of money, and (2) the people w=
+ho own the stock will say things like =E2=80=9Cyes!=E2=80=9D and =E2=80=9Ch=
+aha gotcha=E2=80=9D and =E2=80=9Cthis is exactly what we wanted.=E2=80=9D B=
+ut if you see Tether trading at $0.9988 and you think =E2=80=9Chahaha this =
+is a great short=E2=80=9D and short it at $0.9988, it seems implausible tha=
+t there will be a short squeeze and Tether will go to, like, $2. The point =
+of a stablecoin is to be worth $1! If Tether goes to $2, the people who own=
+ it will say things like =E2=80=9Cwhat?=E2=80=9D and =E2=80=9Coh dear=E2=80=
+=9D and =E2=80=9Cthis is not supposed to happen.=E2=80=9D It=E2=80=99s not =
+a useful stablecoin if it trades very far from $1. If you are short Tether =
+and it stays near $1, you will lose money, because you are paying money to =
+borrow Tether and short it. But you=E2=80=99re losing a little money every =
+day; the problem is not, like, you sold it at $0.9988 and now you have to b=
+uy it back at $1.00. That costs you $0.0012!</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">MicroStrategy</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you are MicroStrategy Inc., and you were a =
+small software company, and then you pivoted to become a giant leveraged=C2=
+=A0sack of Bitcoins with a small software company hanging off of it, and th=
+en the price of Bitcoin went way down, what are you going to do about it? L=
+ike if you run a hedge fund, or Tesla Inc., and you buy some Bitcoins and t=
+he trade moves against you, you can say =E2=80=9Coops, our bad, sorry we bu=
+rned some of your money, moving on.=E2=80=9D But if you run a company that =
+was a regular company but that has now=C2=A0turned Bitcoin into its whole i=
+dentity, that is a trickier move. Your shareholders are all Bitcoiners, you=
+r debts are all secured by Bitcoin, you are a Bitcoin company now, and ther=
+e is no face-saving way out of the trade.=C2=A0This also applies to El Salv=
+ador.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2823105=
+4.277586/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMT=
+A1MDQ0Ni8wMDAxMTkzMTI1MjIxODQ0MjMvZDM3NDQwMWQ4ay5odG0/607f07ceef4b8524a319a=
+23cB499b9a03" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">Anyway</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">On June 29, 2022, MicroStrategy In=
+corporated (=E2=80=9CMicroStrategy=E2=80=9D) announced that, during the per=
+iod between May 3, 2022 and June 28, 2022, MicroStrategy acquired approxima=
+tely 480 bitcoins for approximately $10.0 million in cash, at an average pr=
+ice of approximately $20,817 per bitcoin, inclusive of fees and expenses. A=
+s of June 28, 2022, MicroStrategy, together with its subsidiaries, held an =
+aggregate of approximately 129,699 bitcoins, which were acquired at an aggr=
+egate purchase price of approximately $3.98 billion and an average purchase=
+ price of approximately $30,664 per bitcoin, inclusive of fees and expenses=
+.</p></blockquote>
+<p style=3D"margin: 16px 0;">The good news is that, if it keeps going down =
+and they keep buying, that average price will keep getting lower.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Ethics</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/28231054.277586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjItMDYtMjgvZG9uLXQtY2hlYXQtb24tdGhlLWV0aGljcy1leGFtP2NtcGlk=
+PUJCRDA2MzAyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTIyMDYzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cB3bcd9d2e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> talked the other day</a> about how, to becom=
+e a=C2=A0certified public accountant, you=C2=A0have to take an ethics exam.=
+ You take this take-home open-book online multiple-choice ethics exam after=
+ passing four other grueling exams about accounting, and it seems to be tak=
+en less seriously than some of the other elements of becoming an accountant=
+. To the extent that a bunch of accountants at Ernst &amp; Young cheated on=
+ it, and the US Securities and Exchange Commission caught them and fined E&=
+amp;Y=C2=A0$100 million for not turning in the cheaters.</p>
+<p style=3D"margin: 16px 0;">I suggested that a regulatorily imposed multip=
+le-choice ethics exam is maybe not the best way to instill a sense of ethic=
+s in a profession.</p>
+<p style=3D"margin: 16px 0;">A reader pointed me to this paper, by Margaret=
+ Forster, Tim Loughran and Bill McDonald at Notre Dame, about =E2=80=9C<a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aHR0cH=
+M6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTEyNTE0ODI/6=
+07f07ceef4b8524a319a23cC449e06a0" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">Commonality in Codes of Ethics</a=
+>.=E2=80=9D From the abstract:</p>
+<blockquote><p style=3D"margin: 16px 0;">We create a database of company co=
+des of ethics from firms listed on the Standard &amp; Poor=E2=80=99s 500 In=
+dex and, separately, a sample of small firms. The SEC believes that =E2=80=
+=9Cethics codes do, and should, vary from company to company.=E2=80=9D Usin=
+g textual analysis techniques, we measure the extent of commonality across =
+the documents. We find substantial levels of common sentences used by the f=
+irms, including a few cases where the codes of ethics are essentially ident=
+ical. We consider these results in the context of legal statements versus v=
+alue statements. While legal writing often mandates duplication, we argue t=
+hat value-based statements should be held to a higher standard of originali=
+ty. Our evidence is consistent with isomorphic pressures on smaller firms t=
+o conform.</p></blockquote>
+<p style=3D"margin: 16px 0;">The examples are fun; popular sentences includ=
+e =E2=80=9CTheft, carelessness, and waste have a direct impact on the compa=
+ny=E2=80=99s profitability,=E2=80=9D=C2=A0=E2=80=9CWe seek competitive adva=
+ntages through superior performance, never through unethical or illegal bus=
+iness practices,=E2=80=9D =E2=80=9CRemember that it is your supervisor=E2=
+=80=99s responsibility to help solve problems,=E2=80=9D =E2=80=9CStealing p=
+roprietary information, possessing trade secret information that was obtain=
+ed without the owner=E2=80=99s consent, or inducing such disclosures by pas=
+t or present employees of other companies is prohibited,=E2=80=9D and =E2=
+=80=9CIt may help to get others involved and discuss the problem.=E2=80=9D<=
+/p>
+<p style=3D"margin: 16px 0;">It turns out that when the US Securities and E=
+xchange Commission=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/=
+click/28231054.277586/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9maW5hbC8zMy04MTc3L=
+mh0bQ/607f07ceef4b8524a319a23cB2e97a9cb" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">mandated a code of ethic=
+s</a> for public companies, they =E2=80=A6=C2=A0copied each others=E2=80=99=
+ answers. Just like the accountants did! I feel like there is a deep lesson=
+ here about ethics mandates.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Grayscale Suing SEC After Its <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/28231054.277586/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDYtMzAvc2VjLXJlamVjdHMtZ3JheXNjY=
+WxlLWJpZC10by10dXJuLWJpZ2dlc3QtYml0Y29pbi1mdW5kLWludG8tZXRmP2NtcGlkPUJCRDA2=
+MzAyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV=
+0bV90ZXJtPTIyMDYzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23=
+cB8712e412" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> Bitcoin ETF</a> Is Rejected. Did <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/28231054.277586/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjItMDYtMzAvaG93LXRoZS13b3JsZC1zLWJpZ2dlc3=
+QtYml0Y29pbi1idGMtaGFjay1hdC1iaXRmaW5leC1nb3QtYm90Y2hlZD9jbXBpZD1CQkQwNjMwM=
+jJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1f=
+dGVybT0yMjA2MzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB84=
+f46ff1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> Razzlekhan and Dutch</a> Pull Off History=E2=80=99s Bigges=
+t Crypto Heist? Spirit Air Board <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/28231054.277586/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zcGly=
+aXQtYWlyLWJvYXJkLXB1c2hlcy1zaGFyZWhvbGRlcnMtbWVldGluZy1vbi1mcm9udGllci1qZXR=
+ibHVlLWJpZHMtdG8tanVseS04LTExNjU2NTQ2MjA4P21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f0=
+7ceef4b8524a319a23cBbd77075c" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">Pushes Shareholders Meeting</a> on Fr=
+ontier Bid for Second Time. <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/28231054.277586/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNGNjODRiODAtY=
+2FjYS00ZWQ3LTk5OGMtMmZiMTk1NmVjOTMw/607f07ceef4b8524a319a23cBdd5f6174" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">Treasury market reforms</a> draw flak from funds and high-speed traders=
+. Private Lenders Are Offering <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/28231054.277586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydG=
+ljbGVzLzIwMjItMDYtMjkvcHJpdmF0ZS1sZW5kZXJzLWFyZS1vZmZlcmluZy1jaGVhcGVyLWRlY=
+nQtdGhhbi13YWxsLXN0cmVldC1iYW5rcz9jbXBpZD1CQkQwNjMwMjJfTU9ORVlTVFVGRiZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MzAmdXRtX2N=
+hbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB56ed6fc7" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> Cheape=
+r Debt</a> Than Wall Street Banks.=C2=A0Megadeals buoy <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/28231054.277586/aHR0cHM6Ly93d3cuZnQuY2=
+9tL2NvbnRlbnQvNTllN2UzMmItNjZiNS00ZmU4LThhN2ItMWRhNTdhZGZkNTU2/607f07ceef4b=
+8524a319a23cB6a44e3f7" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">global M&amp;A</a> despite pullback from rec=
+ord 2021.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/282=
+31054.277586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMD=
+YtMjkvb25saW5lLWZyYXVkLWlzLXNvYXJpbmctd2l0aC10aW5kZXItc3dpbmRsZXItcm9tYW5jZ=
+S1zY2Ftcy1jb3N0aW5nLW1pbGxpb25zP2NtcGlkPUJCRDA2MzAyMl9NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYzMCZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBce6d5c08" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> Romance=
+ Scams</a> Explode, Leaving Broken Hearts and Millions Lost.=C2=A0Hedge Fun=
+d Viking Global Seeks to Raise $1 Billion to Back <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/28231054.277586/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDYtMjkvdmlraW5nLWdsb2JhbC1yYWlzaW5nLXN0cn=
+VjdHVyZWQtZXF1aXR5LWZ1bmQtdG8tYmFjay1zdGFydHVwcz9jbXBpZD1CQkQwNjMwMjJfTU9OR=
+VlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0y=
+MjA2MzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB2c20baea" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">
+Cash-Hungry Startups</a>. Putin: Western leaders would <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/28231054.277586/aHR0cHM6Ly9hcG5ld3MuY2=
+9tL2FydGljbGUvZy03LXN1bW1pdC1ydXNzaWEtdWtyYWluZS1wdXRpbi1ib3Jpcy1qb2huc29uL=
+Wp1c3Rpbi10cnVkZWF1LTZmOTAwYmIxYzE4NmNiNjk5NzRiN2QwNGYyZTc2Yzgz/607f07ceef4=
+b8524a319a23cB679fe7bd" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">look =E2=80=98disgusting=E2=80=99 topless</=
+a>.=C2=A0Beer Made From Recycled Toilet Water <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/28231054.277586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjItMDYtMzAvc2luZ2Fwb3JlLXV0aWxpdHktdXNlcy1iZWVyLW=
+1hZGUtZnJvbS1zZXdhZ2UtdG8tZWR1Y2F0ZS1wZW9wbGUtYWJvdXQtcmVjeWNsaW5nP2NtcGlkP=
+UJCRDA2MzAyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0=
+dGVyJnV0bV90ZXJtPTIyMDYzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524=
+a319a23cB7c54bb9b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Wins Admirers</a> in Singapore.=C2=A0<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/28231054.277586/aHR0cHM6Ly93=
+d3cuc2ZnYXRlLmNvbS9iYXlhcmVhL2FydGljbGUvcmFpbmluZy1maXNoLWluLXNhbi1mcmFuY2l=
+zY28tMTcyNzI3MTcucGhw/607f07ceef4b8524a319a23cB2350772d" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">Anchovies<=
+/a> are reportedly raining from the sky across San Francisco.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/28231054.277586/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBc66c0193" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/28231054.277586/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB8896ccea" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] The <a href=3D"https://link.mail.bloomberg=
+business.com/click/28231054.277586/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9u=
+L2FkbWluLzIwMjIvMzQtOTUxNjgucGRm/607f07ceef4b8524a319a23cC07bb47b3" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>SEC explains</a>: =E2=80=9CYES is an options overlay strategy designed to =
+generate income from an existing portfolio of securities and is managed on =
+a discretionary basis. YES generally sells short term out-of-the-money Euro=
+pean style put and call options on the S&amp;P 500 and hedges those positio=
+ns by purchasing below-market puts and above-market calls with the same dur=
+ation =E2=80=93 an options trading strategy known as an =E2=80=98Iron Condo=
+r.=E2=80=99 Clients participate in YES by pledging as collateral for those =
+options trades a portfolio of existing securities held at UBS with a view t=
+owards enhancing returns on their existing portfolio. YES is a short volati=
+lity strategy and thus has the potential to generate modest returns during =
+periods of low market volatility; however, unbeknownst to certain clients w=
+ho opened YES accounts during the Relevant Period and certain UBS financial=
+ advisors who recommended YES during the Relevant Period, the strategy coul=
+d -- and eventually did =E2=80=93 suffer losses during periods of high mark=
+et volatility.=E2=80=9D</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBedabfe31" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBf8f3e9a6" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB7f99aace" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBf6b5fdf0" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yODIzMTA1NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg1MDg2NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIc983621f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D28231054&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28508640&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB6aa2bf4a" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28231054.277586/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC256784dc" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/28231054.277586/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB92189d42" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/28231054.277586/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB71c7491f" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB8=
+1b4fc97" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28231054.277586/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB4=
+290ea00" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D282310=
+54&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28508640&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D282310=
+54&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28508640&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D282310=
+54&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28508640&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D282310=
+54&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28508640&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D282310=
+54&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28508640&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgt37y.5y6q/b356b0d4.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_16096141_299766252.1656609832972--
+

@@ -1,0 +1,2491 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a17:902:9a01:b0:16a:54e8:a1d8 with SMTP id v1csp3057962plp;
+        Mon, 27 Jun 2022 06:06:30 -0700 (PDT)
+X-Received: by 2002:a5d:47a7:0:b0:21d:12fe:6203 with SMTP id 7-20020a5d47a7000000b0021d12fe6203mr2646111wrb.638.1656335190629;
+        Mon, 27 Jun 2022 06:06:30 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1656335190; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=qA3JxihWI8ED7ZcDMkMgN6XOu9YN39wS6Tqbc0KRKV8wpA5LOmkBCbE9Lb5VWuzcuX
+         H71tyVe4crCkBdFurFFVGGdBdnKiQioYr75ScJnjYQ8kYJbzuT84eta0n7BSi3gx+oLF
+         0en19AASZKZF7HsbrfWtfDHDGQJZl3EaDS6Ku/VkQGTf6/c8WSCbvdyJn76hPa2YESYH
+         ZlhoZ6wj2hw2QCLOgBl8w5sEYoalIVnQ+F9PxlcFheynIfFWyhkmFCYMoJKSg/BEXigl
+         lMJUWii28sxQyB2ZgwqjTmFVpT90jn2Ds/FXlQRQKb96bxj/qBBJUZ3uYiii9i4sWK99
+         d+/A==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-id:references:reply-to:list-url:list-post
+         :list-unsubscribe-post:sender:list-archive:message-id:in-reply-to
+         :date:list-unsubscribe:list-owner:to:from:subject:mime-version
+         :dkim-signature:delivered-to;
+        bh=wVT3dTBK9jBeJ9ZDY3A+gW3yeXpG5X0uuyBSvk+CxX4=;
+        b=rCaOMC0+c60jP8XxQrwTV3exXhwK9LpnVtr3bxONJxyWZXvWTesLm2CPwIJzbx0TKH
+         +xSucUV/JdyNmR0TNBQsVuEwtoTySKr9clbTJ6Zbao5Tb/VZXZU6gIMMV+CvrZ9gWpUi
+         MCdHNukWqtEevR65h//PySAQB53Tg/F9DR9VgyecxSshq/Cp5P3MjXOYEwWLEyLX5+5Q
+         cWrDTTfD6e4yq+TAmsxeN6hxAGeQ2Kdj+yBpBtoFg8x9H7NQFhNVOXkOmP5oK/p+zTyf
+         gMC1m7PLbBtdYwqHIoTqZnxjCmWJMszEYWJSN5ieNyRuiTLAeID9A0aXBcugyGhjf8hl
+         r1AQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=RjHExX+Z;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id ca1-20020a056000088100b002130f1dfe10sor4245156wrb.73.2022.06.27.06.06.30
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 27 Jun 2022 06:06:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=RjHExX+Z;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:mime-version:subject
+         :from:to:list-owner:list-unsubscribe:date:in-reply-to:message-id
+         :list-archive:sender:list-unsubscribe-post:list-post:list-url
+         :reply-to:references:list-id;
+        bh=wVT3dTBK9jBeJ9ZDY3A+gW3yeXpG5X0uuyBSvk+CxX4=;
+        b=W+gYBpl/FT8uP4KXqpUugi6TT+xfeFXIDGxFji2w2MeJ+ndNZobplWflUAM4Z9ygDq
+         lmzFQY2V2hTssmmEu2nnPbIf2OmGIyBeIeP1+g778al8He2zJxid3bLMKF/lz5Z9Cshz
+         SGBbXGzgAxzOh8SOczgaxNUw+bxKAlFkkr7ryh3a5EwggpI6kfqS3TtX35PI/7lkmtbf
+         DnI2MbGw2k2OC7WzZSxBKEZOx/QRu+CEQ7cOnymEOGzVXomgK5jAo0E52QABMKLmqV1o
+         lQ9wX1lw1sXe1TAiE9LoiZU3hGBsxy8Lst2annDiDD0qa9u83QfhWdiXXuLS9+23r0cR
+         NmoQ==
+X-Gm-Message-State: AJIora/sralI0O9jycsjSQ70DJIvtWCK/wEqv2Fz8Q6HJhnaDTUUdCF7
+	vHJu7ydnaTiyw6IxDnMj6wK0vCyyZYc6ICTm+B0VpNdgvmciaeTG4Q==
+X-Received: by 2002:a05:6000:71e:b0:21b:adf2:c9ab with SMTP id bs30-20020a056000071e00b0021badf2c9abmr12502417wrb.153.1656335190255;
+        Mon, 27 Jun 2022 06:06:30 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f1c9:0:0:0:0:0 with SMTP id z9csp2299231wro;
+        Mon, 27 Jun 2022 06:06:27 -0700 (PDT)
+X-Received: by 2002:a17:903:41c3:b0:16a:55e0:6c6c with SMTP id u3-20020a17090341c300b0016a55e06c6cmr14440146ple.49.1656335187277;
+        Mon, 27 Jun 2022 06:06:27 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1656335187; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Wi6VN+UOsa0GXyM8t/oGohcwC4Z42aecpBsiGSJaJVs2PDDAExVcWXUOq1MvhyMLar
+         SDy6o1vNgDQL7bDKPxPW/Xo4JnRAd2lhBfi3bqDXpFudJaBzirCQg0W2tDUHqH9H1vd+
+         L+f+3AmZa/vMnixhE6WbtWPBJr+kc+VpdWEb4d27YDhpLoqQQwZO14dxBU8M+Czvseof
+         RUhxfyWtDvvreP3TZuszT8WnLswbIBnJeumUxl/StJvKd4m7stR3QUZBaksaT52PBi/A
+         cNBrORf4ZjdSFpvAqUKJPIlNhS917jpUJ3AjmlfWXhfdpDcMvqvK5wTOhlGBIhCtA0n6
+         24+Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-id:references:reply-to:list-url:list-post
+         :list-unsubscribe-post:sender:list-archive:message-id:in-reply-to
+         :date:list-unsubscribe:list-owner:to:from:subject:mime-version
+         :dkim-signature;
+        bh=wVT3dTBK9jBeJ9ZDY3A+gW3yeXpG5X0uuyBSvk+CxX4=;
+        b=aOuvuEB1vrLRFJ4mqQyNuIWRE4+seBkI8mNR6erXddnsdb2/QFvFfz2eWBhVHFQzrj
+         Mi7OYSdVc/L6sBNWtm0YLGDDjDrLFrk4yCydIHTN45+NT0gOcrp3sY8svtRfRO0uatmz
+         FJIxZ0Yfg0xSQ7ER3151M+mbHeuV81KQgwWqZ44JIFVC0JGt5YBEPxnnHgsQBxm+tWRQ
+         xMDX8KwgfqjZCZ9u/toct5kzccbT0YH2wlLwcHC4eIcHxcumg0yc5J4ctztV8nmkZ3ec
+         CoTQEEOd/CzcqTSTcsOJMplEEj7m5p+KP0Fvip2gBPPn9/i0y/USOKiW8laZQ+Q5FwlG
+         BJHA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=RjHExX+Z;
+       arc=pass (i=1 spf=pass spfdomain=mg-d0.substack.com dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g28-20020a63201c000000b003fc85ee1302sor3899641pgg.69.2022.06.27.06.06.27
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 27 Jun 2022 06:06:27 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGRyM1vC/g1QZB71GnwaQJbgRJ/bHLnBExlQ1wuciZdjGQ3JghXzsFa+v6rKBY1IEop/+8Xz/X0quDqecrxRy1NbOZDuPEOoBrI=
+X-Received: by 2002:a63:c5:0:b0:40c:a799:ad29 with SMTP id 188-20020a6300c5000000b0040ca799ad29mr13010993pga.305.1656335186870;
+        Mon, 27 Jun 2022 06:06:26 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1656335186; cv=none;
+        d=google.com; s=arc-20160816;
+        b=r4YbSfwcbg5bVtTf/M1DwqvNqmqsRkWCA84QUbepChA8E0YbiJxLSxUL4+dZbTV4sP
+         V/Pmp83HdmFqEZO+dWqrEEA8xysDifaMgAmhnZ0598EB4tfaxHrhzHqgGsvyzdRJITd7
+         6Z4CHcH5dwZlIUmBNJ4jeWzrsLPjB0OG4QSaVDSsylnB6VA2UesKltFWsfoX0eTlmojv
+         ZLPtn2MGG+i/D9bm3F70D/newv+hn/5PZEiS0BBDTo19oU3yyHNKLcDGr6lYTVfawpbO
+         gNky7M2uZ1Lv09aBTMVS9+ZuQ54wm+03NdbAjbH+PQxv7nceNfoQQ4Ab+2yT6wAfMBgB
+         k0dw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-id:references:reply-to:list-url:list-post
+         :list-unsubscribe-post:sender:list-archive:message-id:in-reply-to
+         :date:list-unsubscribe:list-owner:to:from:subject:mime-version
+         :dkim-signature;
+        bh=wVT3dTBK9jBeJ9ZDY3A+gW3yeXpG5X0uuyBSvk+CxX4=;
+        b=kqdk9C6pLIvc6FbVOGGxQPvXwjpslprfbLDM+pDgvS7Bd2zIX3oKeOmHC5LsvvKVVf
+         TTjAHC+n6uPL8/SLLY5gd8qz2isr22+GO3qYZGRZByfNNbuxRVmIYt8fxShHkcbT2E1w
+         OcjY0zn4TdRfCNdnrSUT9Li9pEWL3fzO6rHYOUOcaQF9PbMdgxOPan5u6uq3YWlZADl4
+         jMvFg9QAJz4CklJdP/zLNrb4aruDEZDE3VJ2PCJPGSVBiq2fFMZ4GYG444v2Q7ghXMmN
+         KKzJbm5Tu67NdZTRZ6xg6yT1YCGDi4EDxDEoL+AQhFC9WZube1UZwrKdRBaSFBAdOuZb
+         jXzA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=RjHExX+Z;
+       spf=pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 159.112.244.12 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from m244-12.mailgun.net (m244-12.mailgun.net. [159.112.244.12])
+        by gmr-mx.google.com with UTF8SMTPS id d12-20020a170902654c00b0016a085d4ae6si393802pln.12.2022.06.27.06.05.24
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 27 Jun 2022 06:06:26 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 159.112.244.12 as permitted sender) client-ip=159.112.244.12;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d0.substack.com; q=dns/txt;
+ s=mailo; t=1656335186; x=1656543986; h=List-Id: References: Reply-To:
+ List-Post: Sender: Sender: List-Archive: Message-Id: In-Reply-To: Date:
+ List-Unsubscribe: List-Owner: To: To: From: From: Subject: Subject:
+ Content-Type: Mime-Version;
+ bh=wVT3dTBK9jBeJ9ZDY3A+gW3yeXpG5X0uuyBSvk+CxX4=; b=RjHExX+ZCXSIzwU3Jf1P0uMjAUzyvlm+/49e0UyFVjN54/OxOvywgZBtIjeuPc4jGRhfQ45R
+ KdCGWy6pnujBYMFRTxQidb3FO5bUq94IaW9C7oK3IxYlyXIXPvncVnmhFXJQqDjQDOgFPd1h
+ 5/QqYjrL6OPcavLlbfTgFdERZm4=
+X-Mailgun-Sending-Ip: 159.112.244.12
+X-Mailgun-Sid: WyJhNzc2ZCIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICI2M2FmNWQiXQ==
+Received: from <unknown> (<unknown> []) by
+ api-n11.prod.us-west-2.postgun.com with HTTP id 62b9aa8830c5009e763cc6b1;
+ Mon, 27 Jun 2022 13:03:03 GMT
+X-Mailgun-Batch-Id: 62b9aa87a19353517e65f474
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="c3cbc6e8cc47ff53b2223520e8dba4e56af78e19653c24042d04a48068f6"
+Subject: Web3 Use Cases: The Future
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+List-Owner: <mailto:notboring@substack.com>
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk5qRXpNekkyTXpnc0ltbGhkQ0k2TVRZMU5qTXpORGs0TUN3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuOTZKaHcxX1JPVVp1UEZfOC14RE81NGpCNTRhX1Utbmk1dW1iUGVGUTVKSSIsInAiOjYxMzMyNjM4LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY1NjMzNDk4MCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.IhCPBIIQQCf_REvDKMz0yrWrJa1zlDfVsfQBJJLBXjM?>
+Date: Mon, 27 Jun 2022 13:02:36 +0000
+In-Reply-To: <post-61332638@substack.com>
+Message-Id: <20220627130236.3.fe17b837eb094862@mg-d0.substack.com>
+List-Archive: <https://www.notboring.co/archive>
+Sender: Not Boring <notboring@substack.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Post: <https://www.notboring.co/p/web3-use-cases-the-future>
+List-Url: <https://www.notboring.co/>
+Reply-To: Not Boring
+ <reply+10ikke&9p0gt&&66a1fba7a9d98482bc98e888c236a5f37e0a2ca954c79f86b2b1508bc1c1ad1f@mg1.substack.com>
+References: <post-61332638@substack.com>
+List-Id: <notboring.substack.com>
+X-Mailgun-Variables: {"category":"post", "comment_id":"",
+ "email_generated_at":"1656334981510", "is_freemail":"true",
+ "post_audience":"everyone", "post_id":"61332638", "post_type":"newsletter",
+ "pub_community_enabled":"true", "publication_id":"10025",
+ "subdomain":"notboring", "user_id":"16283549"}
+
+--c3cbc6e8cc47ff53b2223520e8dba4e56af78e19653c24042d04a48068f6
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/web3-use-cases-the-=
+future
+
+Welcome to the=C2=A0929=C2=A0newly Not Boring people=C2=A0who have joined u=
+s since Thursday! If you haven=E2=80=99t subscribed, join=C2=A0134,453 smar=
+t, curious folks by subscribing here:=20
+=F0=9F=8E=A7 Audio version will be released a little later =E2=80=94 I was =
+writing down to the wire!
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 Mighty Networks [h=
+ttps://substack.com/redirect/0af7580e-eba3-4b93-b0d2-b588f4d45f47?u=3D16283=
+549]
+There=E2=80=99s never been a better time to be great at building community =
+online. The biggest challenge is the tools. Discord and Slack are great for=
+ some things, but not for building large communities that feel alive and in=
+timate. Luckily, there=E2=80=99s a better way, one custom-built for communi=
+ties: Mighty Networks [https://substack.com/redirect/0af7580e-eba3-4b93-b0d=
+2-b588f4d45f47?u=3D16283549].
+A Mighty Network is the best way to create communities, sell memberships, i=
+ncorporate web3 tools, and grow online courses, all under one roof, all und=
+er your brand.
+Mighty's mission is to unlock the community dynamics that turn strangers in=
+to collaborators and friends.=C2=A0They originated the term Community Desig=
+n=E2=84=A2, have taught their unique framework for building a thriving comm=
+unity or membership to over 9,000 people, and are obsessed about what goes =
+into making a community successful.=C2=A0=C2=A0
+So go launch that community, or move yours to a better home, with a free Mi=
+ghty trial.
+Hi friends =F0=9F=91=8B ,
+Happy Monday!=20
+On Thursday, I sent out Part I of a two-part series on web3 use cases, toda=
+y and in the future. In today=E2=80=99s essay, we=E2=80=99ll focus on the f=
+uture and discuss whether web3 will be worth the hype.=20
+I=E2=80=99m having a blast with this debate, and it=E2=80=99s making more g=
+roundedly excited.=20
+Let=E2=80=99s get to it.=20
+Web3 Use Cases: The Future
+What=E2=80=99s the point of all of this? If web3 ends up becoming a big thi=
+ng with a lot of users and new, valuable business models, so what?=C2=A0
+On Thursday, I wrote about the web3 use cases that exist today [https://sub=
+stack.com/redirect/d1c78ad9-308e-448f-be39-d39f08efde1f?u=3D16283549] to se=
+t a baseline:
+NFTs: $31.3 billion of volume in the past year on OpenSea alone
+Decentralized Exchanges: the leading DEX, Uniswap, has handled over $1T in =
+volume
+DeFi Protocols: Compound, Maker, Aave, and other DeFi lending protocols hav=
+e held up well during the sell-off while centralized DeFi lenders have stru=
+ggled
+Real-World Lending: Goldfinch and Jia help close the credit gap in developi=
+ng countries.
+User-Owned Marketplaces: Braintrust has doubled Gross Service Volume to $74=
+ million in the past five months while keeping its take rate at an industry=
+-low 10%.
+Connected Device Networks: Helium and DIMO facilitate networks built by use=
+rs and ecosystems of applications built on top of user-owned data.
+Stablecoins: USDC, DAI, and other fully/overcollateralized stablecoins faci=
+litate payments, especially internationally. There are $155 billion of stab=
+lecoins in circulation.
+Evan Conrad Use Cases: In a blog post [https://substack.com/redirect/6eeda2=
+43-3be6-492f-9026-5c0cfc307ed6?u=3D16283549], Evan Conrad highlighted non-g=
+overnment money, cheap loans, Filecoin, Lab DAO, Radicle, Helium, Toucan, a=
+nd Golden.
+Today, real people are spending real money to use real products, even if so=
+me seem silly or circular.=C2=A0
+But the real question isn=E2=80=99t whether there are any use cases, but wh=
+ether there will be use cases that, collectively, are worth the hype.=C2=A0
+In other words, will web3 produce use cases that justify all of the venture=
+ dollars, investment, and talent dedicated to the space? I think it will. T=
+hat=E2=80=99s what today=E2=80=99s essay is about.=C2=A0
+There are two time-scales on which I=E2=80=99m excited about web3=E2=80=99s=
+ potential: the next few years and the next few decades.
+If there is another bull cycle in the next few years, I think it will happe=
+n on the backs of real products that people use at scale, not speculation. =
+When those hit, speculation will follow, but that will look more like a tra=
+ditional tech bull run than pure speculation. These products are on the way=
+ =E2=80=93 the applications are coming and the infrastructure continues to =
+improve.=C2=A0
+In the next few decades, I believe that web3 infrastrastructure will become=
+ the fabric of much of what we do online and in our financial lives. I also=
+ believe that the experiments web3 protocols are running in economic design=
+, incentive alignment, and governance will jump out of the internet and imp=
+act =E2=80=9Creal-world=E2=80=9D institutions.=C2=A0
+Today, I=E2=80=99ll dive into some of the future use cases and potential be=
+nefits I=E2=80=99m excited about.=C2=A0
+The Next Few Decades=C2=A0
+So let=E2=80=99s begin with the future. If all of this pans out, so what?=
+=C2=A0
+Personally, I=E2=80=99m excited to see more rapid iteration, more ownership=
+ and upside for users, new governance and economic models, more liquid, eff=
+icient, and global capital markets, and a more fun world.=C2=A0
+While it=E2=80=99s hard, in the midst of a bear market, to see a path throu=
+gh all of the short-term technical, financial, and social challenges, it=E2=
+=80=99s actually equally difficult to imagine a future world a few decades =
+out in which web3 doesn=E2=80=99t play a big role.=C2=A0
+When I think about where all of this is heading, I have a graph that looks =
+something like this in my head:=C2=A0
+When people say that web3 is speedrunning the history of financial markets,=
+ or speedrunning the history of governance, what they mean is that we=E2=80=
+=99re making a whole lot of mistakes that have already been made before, at=
+ a much faster rate than we=E2=80=99ve made them before.=C2=A0
+In the earlier stages of that process, it looks incredibly stupid. =E2=80=
+=9CThat=E2=80=99s a ponzi!=E2=80=9D =E2=80=9COf course direct democracy doe=
+sn=E2=80=99t work for DAOs, there=E2=80=99s a reason the US is a representa=
+tive democracy. And at that point, are you really decentralized?=E2=80=9D =
+=E2=80=9CHave these people learned nothing from 200,000 years of human hist=
+ory?=E2=80=9D=C2=A0
+But I think that there=E2=80=99s a logical fork, and that you have to belie=
+ve that one or the other is true:=C2=A0
+That existing economic and governance models are as good as they=E2=80=99re=
+ ever going to get.=C2=A0
+That they=E2=80=99re not, and whatever allows for the most rapid iteration =
+on new models will ultimately produce superior models.=C2=A0
+If I had to describe why I=E2=80=99m excited about web3 in one idea, it wou=
+ld be that: web3 allows for the most rapid iteration on new economic and go=
+vernance models of any system humans have built.=C2=A0
+Every new app, game, and protocol is simultaneously a mini-experiment in ec=
+onomic design [https://substack.com/redirect/3baed597-cb08-4101-b06c-2b35a7=
+0ceaf0?u=3D16283549]. Every DAO and even some NFT projects, like Nouns [htt=
+ps://substack.com/redirect/4f80ce65-f6cb-4588-9ce6-a72f6bce0809?u=3D1628354=
+9], is simultaneously a mini-experiment in governance. In the early days, t=
+hat means that web3 entrepreneurs face even more complexity than a traditio=
+nal entrepreneur might =E2=80=93 they need to build a great product, a thri=
+ving economy, and an attack-resistant and productive governance system. Som=
+e skeptics believe that the trifecta represents too much complexity to buil=
+d things users understand and love. Centralized products can move more quic=
+kly on their own. But I think web3 startups will experiment, learn, and evo=
+lve quickly as a hive, that each successive startup will build on the previ=
+ous startups=E2=80=99 software and Idea Legos [https://substack.com/redirec=
+t/3b68ab41-caa7-48f4-b4ce-3c78fedcc478?u=3D16283549] until they accelerate =
+past current institutions=E2=80=99 pace.
+Some of that experimentation will be micro: for example, a web3 version of =
+Twitter with an open protocol on top of which anyone can build clients will=
+ power more innovation in web3 Twitter client design. Other experimentation=
+ is macro: for example, how large groups of token holders can govern lendin=
+g protocols that control billions of dollars fairly. In both cases, there w=
+ill be more failures than breakthroughs.=C2=A0
+But the breakthroughs might be very important. They might influence how we =
+design traditional economies and institutions, and even the economic and go=
+vernance models we create when we get to build them from scratch, on Mars, =
+asteroids, and beyond.=C2=A0
+At the core of web3=E2=80=99s rapid iteration is the concept of Hyperstruct=
+ures. Jacob Horne=E2=80=99s essay on Hyperstructures [https://substack.com/=
+redirect/525326df-c82e-4759-a336-ba3a5a59c491?u=3D16283549], which I shared=
+ on Thursday, is foundational reading, literally. Hyperstructures are =E2=
+=80=9CCrypto protocols that can run for free and forever, without maintenan=
+ce, interruption or intermediaries.=E2=80=9D They =E2=80=9Care entirely onc=
+hain, and are public goods which create a positive-sum ecosystem for any pa=
+rticipants.=E2=80=9D=C2=A0
+Hyperstructures are like the open protocols like http, IP, DNS, SMTP, and t=
+he others that underpin the internet we know and love, with additional feat=
+ures, as laid out by Horne:=C2=A0
+Unstoppable: the protocol cannot be stopped by anyone. It runs for as long =
+as the underlying blockchain exists.
+Free: there is a 0% protocol wide fee and runs exactly at gas cost.
+Valuable: accrues value which is accessible and exitable by the owners.
+Expansive: there are built-in incentives for participants in the protocol.
+Permissionless: universally accessible and censorship resistant. Builders a=
+nd users cannot be deplatformed.
+Positive sum: it creates a win-win environment for participants to utilize =
+the same infrastrastructure.
+Credibly neutral: the protocol is user-agnostic.
+The concept shares ideas with Chris Burniske=E2=80=99s Protocols as Minimal=
+ly Extractive Coordinators [https://substack.com/redirect/ea1cf683-0ee5-4db=
+2-be50-ffa06a30f7dd?u=3D16283549], a classic that I=E2=80=99ve quoted a bun=
+ch.=C2=A0
+The important thing to take away from both pieces is that web3 introduces t=
+he opportunity to create software infrastructure that is free to use foreve=
+r, and that anyone can build on top of, but that rewards =E2=80=9Cthe build=
+ers and participants for creating and contributing to these invaluable syst=
+ems that serve society at large for many years to come.=E2=80=9D=C2=A0
+The most successful example to date, which I highlighted last week, is Unis=
+wap [https://substack.com/redirect/36a63411-cbed-4b93-85b9-feecfb84427c?u=
+=3D16283549]. Despite not charging its users a fee, Uniswap has a $4.1 bill=
+ion market cap (fully diluted: $5.6 billion). Horne believes that there sho=
+uld be a single hyperstructure for each financial and non-financial utility=
+: exchanges (Uniswap), marketplaces, lending pools, options, domain names, =
+registries, identity, curation, tags, reputation, emojis, read receipts, an=
+d more.=C2=A0
+Each would be a piece of free infrastructure, composable with other pieces =
+of free infrastructure, that each successive generation of entrepreneurs ca=
+n build with, enabling them to focus on the thing that differentiates them,=
+ thus increasing the rate of innovation and abundance of creativity. Hypers=
+tructures excite me for the same reason that APIs excite me [https://substa=
+ck.com/redirect/d9bac660-84f6-4e68-8c7d-f7386404a5ae?u=3D16283549], with th=
+e added benefits of being free, permanent, expansive, and permissionless.=
+=C2=A0
+Hyperstructures will underpin a global, liquid market for both digital and =
+physical items.=C2=A0
+As Zach Weinberg highlighted in our debate on DeFi and housing, there=E2=80=
+=99s a lot to figure out to bring real world assets (RWA) online. For one, =
+what happens in the case of default? While defaults are a rare occurrence t=
+hat happen on less than 2% of loans, they will still need to be settled on =
+paper, in courts. There will need to be hybrid solutions that mirror some a=
+nalog workflows. But dealing with legacy processes for a small minority of =
+cases in order to make the majority of cases faster, cheaper, more efficien=
+t, and more composable is a feature, not a bug.=C2=A0
+Personally, I think it=E2=80=99s inevitable, and I=E2=80=99m going to quote=
+ our friend Jeff Bezos [https://substack.com/redirect/b81f37f0-4c74-4940-a3=
+57-a57dad33a5b7?u=3D16283549] to explain why:=C2=A0
+'What's not going to change in the next 10 years?' =E2=80=A6 [I]n our retai=
+l business, we know that customers want low prices, and I know that's going=
+ to be true 10 years from now. They want fast delivery; they want vast sele=
+ction. It's impossible to imagine a future 10 years from now where a custom=
+er comes up and says, 'Jeff I love Amazon; I just wish the prices were a li=
+ttle higher,' [or] 'I love Amazon; I just wish you'd deliver a little more =
+slowly.' Impossible.
+Customers want low prices, fast delivery, and vast selection. Web3 has the =
+potential to bring all three to financial markets. Whether in ten years, tw=
+enty, or thirty, I expect that most large financial assets and transactions=
+ touch web3 =E2=80=93 whether that=E2=80=99s houses, cars, project finance,=
+ or company ownership. Bringing those assets on-chain will connect them to =
+global pools of capital and liquidity, and to all of the money legos being =
+created in DeFi.=C2=A0
+As Sam Lessin put it [https://substack.com/redirect/02355787-f555-407b-ad47=
+-786280f05faf?u=3D16283549], =E2=80=9CMost things people own, real estate, =
+small businesses, etc. have shit access to liquidity, leverage, etc.=E2=80=
+=9D The prize for solving that pain point is enormous =E2=80=93 the tokeniz=
+ation of everything =E2=80=93 and will attract waves of talent, capital, an=
+d creative approaches. Obviously, this will need to be done hand-in-hand wi=
+th smart regulation. When crypto touches RWA =E2=80=93 when small business =
+owners can source cheaper capital, when homeowners can get more competitive=
+ home equity loans, and when users can seamlessly own a piece of the produc=
+ts they use =E2=80=93 regulators will be motivated to find solutions that p=
+rotect people without restricting access.=C2=A0
+With Hyperstructures, tokenized everything, and rapid iteration on economic=
+ and governance models, web3 will be a big piece of the puzzle in solving s=
+ome of humanity=E2=80=99s most complex challenges.
+Physical=C2=A0
+The first essay I wrote this year was called The Laboratory for Complex Pro=
+blems [https://substack.com/redirect/4bb9688a-fa7b-452d-b740-3ac5d6da1866?u=
+=3D16283549]. It was about web3=E2=80=99s opportunity to be a simulator for=
+ solutions to complex problems that require large-scale human coordination,=
+ like climate change.
+The theory is simple. All of the tokens, voting, and even NFTs are in a gol=
+dilocks zone: contained enough that the stakes are low for most people, but=
+ with bigger financial consequences than the $20 students play with when th=
+ey participate in academic economics studies. Plus, web3 ecosystems are dyn=
+amic and interconnected, more like the simulations that complexity scientis=
+ts run than formulae and theories, with real people instead of =E2=80=9Ceco=
+nomic man.=E2=80=9D Read that piece for the full argument; for now, I=E2=80=
+=99ll quickly go over two complex problem areas that web3 is starting to ta=
+ckle via regenerative finance and decentralized science.
+Regenerative Finance. Among the challenges with our current financial syste=
+m is that it=E2=80=99s too easy to get away with producing negative externa=
+lities and letting the commons foot the bill. Regenerative Finance (ReFi), =
+is a bold attempt to rethink the system. As I wrote in Celo: Building a Reg=
+enerative Economy [https://substack.com/redirect/eabf462e-d761-4310-95e8-05=
+3747116434?u=3D16283549]:
+ReFi is a beautiful idea =E2=80=93 a re-imagining of the financial system u=
+sing the tools humanity now has at its disposal to better account for the n=
+eeds of all stakeholders, current and future. It puts a price on externalit=
+ies, charging those who create negative externalities and rewarding those w=
+ho create positive externalities.=C2=A0
+Specific ideas in ReFi include UBI, lending, data ownership, community comm=
+erce, and many web3 x climate projects that Not Boring Capital has backed, =
+including:=C2=A0
+Toucan [https://substack.com/redirect/eb286afe-2180-4d74-a8df-cd00dbcb40b2?=
+u=3D16283549]: The web3 Carbon Stack, including tokenized carbon credits, w=
+ith over 21.9 million tonnes of CO2 bridged to date.=C2=A0=C2=A0
+Loam [https://substack.com/redirect/92c4beef-b232-4dac-b0ba-071ad175274b?u=
+=3D16283549]: Creating a marketplace for farming data, a fast, easy, and tr=
+ansparent platform to incentivize farmers to engage in regenerative practic=
+es.
+Do you need a blockchain for these use cases? Maybe, maybe not. Carbon cred=
+its exist already. It might be possible to create a web2 marketplace for fa=
+rming data and an exchange for credits based on the carbon farmers put back=
+ into the ground. Web3 just makes both more efficient, transparent, and com=
+posable =E2=80=93 imagine a pool of Loam Credits tapping into global capita=
+l markets on Toucan. On a recent episode of Bankless, Mark Cuban talked abo=
+ut how much easier it was to buy and burn BCT (Base Carbon Tonnes) on Touca=
+n to offset his carbon footprint than it was to buy carbon offsets from a b=
+roker.=C2=A0
+(To be fair, he also said he hasn=E2=80=99t seen a killer app like streamin=
+g yet, which I agree with.)
+By simply making it easier to access carbon credits and providing a liquid,=
+ global market, ReFi has the potential to increase the demand for offsets (=
+Toucan, Flow Carbon), which should spur more supply of carbon offsetting pr=
+ojects (Loam, Open Forest Protocol).
+There=E2=80=99s been an explosion in ReFi projects over the past year, but =
+I=E2=80=99m keeping this in the future bucket, because it will be decades b=
+efore we see how much of an impact they=E2=80=99ve made.=C2=A0
+Read more about ReFi here:
+Decentralized Science. Another web3 category with physical world impact is =
+Decentralized Science (DeSci). As Phas3 founder Sarah Hamburg wrote [https:=
+//substack.com/redirect/c2abf3ae-bf4d-42b9-954e-ef778ff3dc8d?u=3D16283549]:=
+=C2=A0
+Still in its infancy, DeSci lies at the intersection of two broader trends:=
+ 1) efforts within the scientific community to change how research is funde=
+d and knowledge is shared, and 2) efforts within the crypto-focused movemen=
+t to shift ownership and value away from industry intermediaries.
+To learn more about the next few decades, next few years, challenges, and o=
+pportunities for web3=E2=80=A6=20
+Thanks to Dan [https://substack.com/redirect/0fb227e2-ac29-45d9-8d7a-439398=
+674174?u=3D16283549] for editing!
+That=E2=80=99s all for today. We=E2=80=99ll be back on Thursday with our se=
+cond installment of The Founder=E2=80=99s Letter.
+Thanks for reading,=20
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZOakV6TXpJMk16Z3NJbWxoZENJNk1UWTFOak16TkRrNE1Dd2lhW=
+E56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5Ljk2Smh3=
+MV9ST1VadVBGXzgteERPNTRqQjU0YV9VLW5pNXVtYlBlRlE1SkkiLCJwIjo2MTMzMjYzOCwicyI=
+6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTYzMzQ5ODAsImlzcyI6InB1Yi=
+0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.oe4sHGDFXS2wfOsctPFkXCa9gO2rYSx4bMO1-7KS=
+fwA?
+--c3cbc6e8cc47ff53b2223520e8dba4e56af78e19653c24042d04a48068f6
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D"--border-radius: 4px; --border-radius-4: 4px; --color-bg-pri=
+mary: white; --color-dark-detail: #333333; --color-dark-primary: #e0e0e0; -=
+-color-primary: #404040; --color-secondary: #808080; --color-substack-accen=
+t: #ff6719; --color-substack-bg: #ffffff; --color-substack-secondary: #8080=
+80; --color-substack-wash: #f5f5f5; --color-text-dark-pencraft: #404040; --=
+color-text-dark-wash: #252525; --font-family-title: 'SF Pro Display', -appl=
+e-system-headline, -apple-system, ui-sans-serif, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol';"><head><title>Web3 Use Cases: The Futu=
+re</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin-bottom: 16px;
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .subscribe-dialog .modal-table .modal-row .modal-content > .container {
+    width: 552px;
+    padding: 37px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .subscribe-dialog .modal-table .modal-row .modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .subscribe-dialog .modal-row .modal-cell .modal-exit-btn {
+    margin-right: -20px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget .header-anchor-widget-bu=
+tton-container {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f5f5f5 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+
+
+@media (min-width: 631px) {
+  .sm\:tw-left-1 {
+    left: 0.25rem !important;
+  }
+  .sm\:tw-my-8 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .sm\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .sm\:tw-mt-0 {
+    margin-top: 0px !important;
+  }
+  .sm\:tw-ml-3 {
+    margin-left: 0.75rem !important;
+  }
+  .sm\:tw-mb-0 {
+    margin-bottom: 0px !important;
+  }
+  .sm\:tw-mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .sm\:tw-block {
+    display: block !important;
+  }
+  .sm\:tw-inline-block {
+    display: inline-block !important;
+  }
+  .sm\:tw-flex {
+    display: flex !important;
+  }
+  .sm\:tw-hidden {
+    display: none !important;
+  }
+  .sm\:tw-h-7 {
+    height: 1.75rem !important;
+  }
+  .sm\:tw-h-screen {
+    height: 100vh !important;
+  }
+  .sm\:tw-h-64 {
+    height: 16rem !important;
+  }
+  .sm\:tw-w-7 {
+    width: 1.75rem !important;
+  }
+  .sm\:tw-w-full {
+    width: 100% !important;
+  }
+  .sm\:tw-w-auto {
+    width: auto !important;
+  }
+  .sm\:tw-w-64 {
+    width: 16rem !important;
+  }
+  .sm\:tw-max-w-lg {
+    max-width: 32rem !important;
+  }
+  .sm\:tw-max-w-none {
+    max-width: none !important;
+  }
+  .sm\:tw-translate-y-0 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-95 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-100 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .sm\:tw-items-start {
+    align-items: flex-start !important;
+  }
+  .sm\:tw-gap-5 {
+    gap: 1.25rem !important;
+  }
+  .sm\:tw-gap-4 {
+    gap: 1rem !important;
+  }
+  .sm\:tw-gap-1 {
+    gap: 0.25rem !important;
+  }
+  .sm\:tw-gap-2 {
+    gap: 0.5rem !important;
+  }
+  .sm\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
+  }
+  .sm\:tw-border {
+    border-width: 1px !important;
+  }
+  .sm\:tw-p-0 {
+    padding: 0px !important;
+  }
+  .sm\:tw-p-6 {
+    padding: 1.5rem !important;
+  }
+  .sm\:tw-px-6 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .sm\:tw-py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .sm\:tw-py-16 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+  .sm\:tw-pb-4 {
+    padding-bottom: 1rem !important;
+  }
+  .sm\:tw-text-left {
+    text-align: left !important;
+  }
+  .sm\:tw-align-middle {
+    vertical-align: middle !important;
+  }
+  .sm\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .sm\:tw-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .sm\:tw-font-medium {
+    font-weight: 500 !important;
+  }
+  .sm\:tw-text-pub-secondary-text {
+    color: #767676 !important;
+  }
+  .sm\:tw-opacity-70 {
+    opacity: 0.7 !important;
+  }
+  .sm\:hover\:tw-opacity-100:hover {
+    opacity: 1 !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .md\:tw-left-auto {
+    left: auto !important;
+  }
+  .md\:tw-bottom-4 {
+    bottom: 1rem !important;
+  }
+  .md\:tw-right-4 {
+    right: 1rem !important;
+  }
+  .md\:tw-w-3\/4 {
+    width: 75% !important;
+  }
+  .md\:tw-pl-4 {
+    padding-left: 1rem !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-components-prompts-WriterShareModal-module__toast--wc1bo {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-lib-ProfileSetupToast-module__headerRow--17w27 {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-publish-stats-pages-reader_referrals_stats-reader_referrals_sta=
+ts-module__popoverWrapper--3Gh5i {
+    display: none;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwNjI3MTMwMjM2LjMuZmUxN2I4MzdlYjA5NDg2MkBtZy1kMC5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFja=
+y5jb20iLCJwIjo2MTMzMjYzOCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjox=
+MDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTY1NjMzNDk=
+4MSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.waLQ8rKLree6SNhDUlDyGVujiSUqON3M9YWfY=
+dINpgk" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px =
+!important;width:1px !important;border-width:0 !important;margin-top:0 !imp=
+ortant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !=
+important;padding-top:0 !important;padding-bottom:0 !important;padding-righ=
+t:0 !important;padding-left:0 !important;"/><div style=3D"display:none;font=
+-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacit=
+y:0;overflow:hidden;" class=3D"preview">Will web3 justify the hype? &#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;</div><table role=3D"presentatio=
+n" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D=
+"email-body-container"><tr><td></td><td width=3D"550" class=3D"content"></t=
+d><td></td></tr><tr><td></td><td align=3D"left" width=3D"550" class=3D"cont=
+ent"><div style=3D"font-size: 16px; line-height: 26px; margin: 0 auto; max-=
+width: 550px; overflow-wrap: break-word; width: 100%;"><div markup=3D"" sty=
+le=3D"font-size: 16px; line-height: 40px; margin-bottom: 8px; text-align: r=
+ight;"><a href=3D"https://substack.com/app-link/post?publication_id=3D10025=
+&post_id=3D61332638&utm_source=3Demail" class=3D"tw-font-body tw-text-ssm t=
+w-text-substack-secondary" style=3D"color: rgb(128,128,128) !important; fon=
+t-family: SF Pro Text, -apple-system, BlinkMacSystemFont, Inter, Segoe UI, =
+Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Se=
+goe UI Symbol !important; font-size: 13px !important;">Open in browser</a><=
+/div><div dir=3D"auto" class=3D"post typography" style=3D"font-size: 16px; =
+line-height: 26px; padding: 16px 0 0 0;"><div class=3D"post-header" style=
+=3D"font-size: 16px; line-height: 26px;"><h1 class=3D"post-title short publ=
+ished" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothin=
+g: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-s=
+ystem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 40px=
+; font-weight: bold; line-height: 130%; margin: 0.378em 0 0 0;"><a href=3D"=
+https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3A=
+vd2ViMy11c2UtY2FzZXMtdGhlLWZ1dHVyZT90b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VT=
+BPU3dpY0c5emRGOXBaQ0k2TmpFek16STJNemdzSW1saGRDSTZNVFkxTmpNek5EazRNQ3dpYVhOe=
+klqb2ljSFZpTFRFd01ESTFJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS5RcnB5Vy1U=
+c0VQbTBFdlctUzJVN2NSVVZqTXBWNlZ3V0t1RUhLVUE2ZUp3IiwicCI6NjEzMzI2MzgsInMiOjE=
+wMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjU2MzM0OTgwLCJpc3MiOiJwdWItMC=
+IsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.mytK0mG9FB_FfViajY6BknMKd5D6ULgoTHBjHNstsd=
+s?" style=3D"color: #1a1a1a; text-decoration: none;">Web3 Use Cases: The Fu=
+ture</a></h1><h3 class=3D"subtitle" style=3D"-moz-osx-font-smoothing: antia=
+liased; -webkit-font-smoothing: antialiased; color: #767676; font-family: '=
+SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,=
+ Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Sego=
+e UI Symbol'; font-size: 20px; font-weight: normal; line-height: 1.16em; ma=
+rgin: 4px 0 8px; margin-top: 8px;">Will web3 justify the hype? </h3><table =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"post-meta custom" style=3D"ali=
+gn-items: center; height: 20px; margin: 1em 0;"><tr><td title=3D"2022-06-27=
+T13:02:55.497Z" class=3D"post-meta-item post-date" style=3D"color: #767676;=
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvet=
+ica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sy=
+mbol'; font-size: 14px; font-weight: 400; height: 14px; padding: 0px 12px 0=
+px 0; padding-bottom: 0; padding-top: 0; position: relative; text-decoratio=
+n: none; white-space: nowrap;"><time dateTime=3D"2022-06-27T13:02:55.497Z">=
+Jun 27</time></td><td class=3D"post-meta-item icon" style=3D"color: #767676=
+; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helve=
+tica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI S=
+ymbol'; font-size: 14px; font-weight: 400; height: 14px; padding: 0px 12px =
+0px 0; padding-bottom: 0; padding-top: 0; position: relative; text-decorati=
+on: none; text-indent: 3px; white-space: nowrap;"><span class=3D"post-meta-=
+icon like-reaction-button"><a href=3D"https://substack.com/redirect/2/eyJlI=
+joiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FwaS92MS9wb3N0L2VtYWlsLXJlYWN0aW9uP3V0=
+bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ0b2tlbj1leUoxYzJWeVgybGtJam9=
+4TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2TmpFek16STJNemdzSW5KbFlXTjBhVzl1SWpvaTRwMm=
+tJaXdpYVdGMElqb3hOalUyTXpNME9UZ3dMQ0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJa=
+U9pSnlaV0ZqZEdsdmJpSjkuTE0yM0dLeVNGMEd3NHpXWXl6NFVUMDJwU0lwUkpPWTVPOUtMdEY4=
+dXotTSIsInAiOjYxMzMyNjM4LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI=
+6MTY1NjMzNDk4MCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.S-kxFIdl1d=
+OoESltcHT_HxMuNMHRUYQSbEfmde9_DiM?" class=3D"like-button" style=3D"color: #=
+767676; display: block; text-decoration: none;"><img src=3D"https://substac=
+kcdn.com/image/fetch/w_32,c_scale,f_png,q_auto:good,fl_progressive:steep/ht=
+tps%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D2%26height%3D32%26fill%=
+3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"16" height=
+=3D"16" style=3D"border: none !important; display: inline-block; float: lef=
+t; height: 14px; max-width: 16px; vertical-align: top; width: auto;" alt=3D=
+""></a></span></td><td class=3D"post-meta-item icon" style=3D"color: #76767=
+6; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helv=
+etica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol'; font-size: 14px; font-weight: 400; height: 14px; padding: 0px 12px=
+ 0px 0; padding-bottom: 0; padding-top: 0; position: relative; text-decorat=
+ion: none; text-indent: 3px; white-space: nowrap;"><a class=3D"" href=3D"ht=
+tps://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3Avd=
+2ViMy11c2UtY2FzZXMtdGhlLWZ1dHVyZS9jb21tZW50cz90b2tlbj1leUoxYzJWeVgybGtJam94=
+TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2TmpFek16STJNemdzSW1saGRDSTZNVFkxTmpNek5EazR=
+NQ3dpYVhOeklqb2ljSFZpTFRFd01ESTFJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS=
+5RcnB5Vy1Uc0VQbTBFdlctUzJVN2NSVVZqTXBWNlZ3V0t1RUhLVUE2ZUp3IiwicCI6NjEzMzI2M=
+zgsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjU2MzM0OTgwLCJpc3Mi=
+OiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.SUDw3V0AQ3lvq4bk87fRnH6FUgoYSr4Y=
+2_xpIaatY-0?&amp;utm_source=3Dsubstack&amp;utm_medium=3Demail" style=3D"col=
+or: #767676; display: block; text-decoration: none;"><img src=3D"https://su=
+bstackcdn.com/image/fetch/w_32,c_scale,f_png,q_auto:good,fl_progressive:ste=
+ep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D2%26height%3D32=
+%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"16=
+" height=3D"16" style=3D"border: none !important; display: inline-block; fl=
+oat: left; height: 14px; max-width: 16px; vertical-align: top; width: auto;=
+" alt=3D"Comment" class=3D"comment-icon post-meta-icon"></a></td><td class=
+=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; fo=
+nt-weight: 400; height: 14px; margin-right: 0; padding: 0px 12px 0px 0; pad=
+ding-bottom: 0; padding-right: 0; padding-top: 0; position: relative; text-=
+decoration: none; text-indent: 3px; white-space: nowrap;"><span><a href=3D"=
+https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3A=
+vd2ViMy11c2UtY2FzZXMtdGhlLWZ1dHVyZT91dG1fc291cmNlPXN1YnN0YWNrJnV0bV9tZWRpdW=
+09ZW1haWwmdXRtX2NvbnRlbnQ9c2hhcmUmYWN0aW9uPXNoYXJlJnRva2VuPWV5SjFjMlZ5WDJsa=
+0lqb3hOakk0TXpVME9Td2lhV0YwSWpveE5qVTJNek0wT1Rnd0xDSnBjM01pT2lKd2RXSXRNVEF3=
+TWpVaUxDSnpkV0lpT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAuSWNZQUQ5dnk0S1h5aVVJdU1Lb1R=
+pT2dqeHhjNjVkbVFRR3QwZnFNZWdEOCIsInAiOjYxMzMyNjM4LCJzIjoxMDAyNSwiZiI6dHJ1ZS=
+widSI6MTYyODM1NDksImlhdCI6MTY1NjMzNDk4MCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rL=
+XJlZGlyZWN0In0._wTjFfaLc2E-l1dMrZtavuky-35Q1rGNqtwFNs8ylyo?" style=3D"color=
+: #767676; display: block; text-decoration: none;"><img src=3D"https://subs=
+tackcdn.com/image/fetch/w_32,c_scale,f_png,q_auto:good,fl_progressive:steep=
+/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3Fv%3D2%26height%3D32%26fi=
+ll%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"16" hei=
+ght=3D"16" style=3D"border: none !important; display: inline-block; float: =
+left; height: 14px; max-width: 16px; vertical-align: top; width: auto;" alt=
+=3D"Share" class=3D"recommend-icon post-meta-icon"></a></span></td></tr></t=
+able></div></div><div dir=3D"auto" class=3D"post typography" style=3D"font-=
+size: 16px; line-height: 26px; padding: 16px 0 0 0;"><div dir=3D"auto" clas=
+s=3D"body markup" style=3D"font-size: 16px; line-height: 26px; margin-botto=
+m: 12px; text-align: initial; width: 100%; word-break: break-word;"><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;=
+ margin-top: 0;"><em><span>Welcome to the&#160;</span><strong>929&#160;newl=
+y Not Boring people&#160;</strong><span>who have joined us since Thursday! =
+If you haven&#8217;t subscribed, join&#160;</span><strong>134,453 </strong>=
+<span>smart, curious folks by subscribing here: </span></em></p><div class=
+=3D"subscribe-widget is-signed-up" style=3D"direction: ltr; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em;"><p class=3D"button-wrapper" style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; tex=
+t-align: center;"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cH=
+M6Ly93d3cubm90Ym9yaW5nLmNvL3N1YnNjcmliZT91dG1fc291cmNlPXBvc3QiLCJwIjo2MTMzM=
+jYzOCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTYzMzQ5ODAsImlz=
+cyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.wzrZoi3Wompa1iqj0VZvZ3VZDfZ365=
+vQH0PNAujVdQk?&amp;utm_medium=3Demail&amp;utm_source=3Dsubscribe-widget&amp=
+;utm_content=3D61332638" class=3D"button primary subscribe-btn" style=3D"ba=
+ckground-color: #67bdfc; border: none; border-radius: 4px; box-sizing: bord=
+er-box; color: #ffffff !important; cursor: pointer; display: inline-block; =
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helveti=
+ca, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 16px; font-weight: normal; height: auto; line-height: 20px=
+; margin: 0; opacity: 1; outline: none; padding: 12px 20px; text-align: cen=
+ter; text-decoration: none !important; white-space: nowrap;"><span style=3D=
+"color: #ffffff; text-decoration: none;">Subscribe now</span></a></p></div>=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0=
+ 1em 0;">&#127911; Audio version will be released a little later &#8212; I =
+was writing down to the wire!</p><div style=3D"font-size: 16px; line-height=
+: 26px;"><hr style=3D"background: #ebebeb; border: none; height: 1px; margi=
+n: 48px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0 0 1em 0;"><strong><span>Today&#8217;s Not Bori=
+ng is brought to you by&#8230; </span><a href=3D"https://substack.com/redir=
+ect/fd51858d-b05b-48a3-a7aa-44a90c6bdb62?u=3D16283549" rel=3D"" style=3D"co=
+lor: #1a1a1a; text-decoration: underline;">Mighty Networks</a></strong></p>=
+<div class=3D"captioned-image-container-static" style=3D"font-size: 16px; l=
+ine-height: 26px; margin-bottom: 16px; text-align: center;"><figure style=
+=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=3D"im=
+age-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td =
+style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" wid=
+th=3D"968" style=3D"text-align: center;"><a class=3D"image-link" target=3D"=
+_blank" href=3D"https://substack.com/redirect/fd51858d-b05b-48a3-a7aa-44a90=
+c6bdb62?u=3D16283549" rel=3D"" style=3D"align-items: center; border: none; =
+display: block; flex-direction: column; height: auto; margin: 0; padding: 0=
+; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:=
+&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.c=
+om/public/images/2f91ba86-063c-43d6-9d79-87bed4d8983a_968x128.png&quot;,&qu=
+ot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:128,=
+&quot;width&quot;:968,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:13372,=
+&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot=
+;:&quot;image/png&quot;,&quot;href&quot;:&quot;https://www.mightynetworks.c=
+om/?utm_source=3Dpartnership&amp;utm_medium=3Demail&amp;utm_campaign=3Dnotb=
+oring&amp;utm_content=3Dfirst&quot;}" alt=3D"" title=3D"" width=3D"550" hei=
+ght=3D"72.72727272727273" class=3D"wide-image" src=3D"https://substackcdn.c=
+om/image/fetch/w_1936,c_limit,f_auto,q_auto:good,fl_progressive:steep/https=
+%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2F=
+public%2Fimages%2F2f91ba86-063c-43d6-9d79-87bed4d8983a_968x128.png" style=
+=3D"-ms-interpolation-mode: bicubic; border: none !important; display: bloc=
+k; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !importa=
+nt; vertical-align: middle; width: auto !important;"></a></td><td style=3D"=
+text-align: center;"></td></tr></tbody></table></figure></div><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>=
+<span>There&#8217;s never been a better time to be great at building commun=
+ity online. The biggest challenge is the tools. Discord and Slack are great=
+ for some things, but not for building large communities that feel alive an=
+d intimate. Luckily, there&#8217;s a better way, one custom-built for commu=
+nities: </span><a href=3D"https://substack.com/redirect/fd51858d-b05b-48a3-=
+a7aa-44a90c6bdb62?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-deco=
+ration: underline;">Mighty Networks</a><span>.</span></em></p><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>=
+A Mighty Network is the best way to create communities, sell memberships, i=
+ncorporate web3 tools, and grow online courses, all under one roof, all und=
+er your brand.</em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;"><em>Mighty's mission is to unlock the commu=
+nity dynamics that turn strangers into collaborators and friends.</em><span=
+>&#160;</span><em>They originated the term Community Design&#8482;, have ta=
+ught their unique framework for building a thriving community or membership=
+ to over 9,000 people, and are obsessed about what goes into making a commu=
+nity successful.</em><span>&#160;&#160;</span></p><p style=3D"color: #1a1a1=
+a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>So go launch=
+ that community, or move yours to a better home, with a free Mighty trial.<=
+/em></p><p class=3D"button-wrapper" data-attrs=3D"{&quot;url&quot;:&quot;ht=
+tps://www.mightynetworks.com/?utm_source=3Dpartnership&amp;utm_medium=3Dema=
+il&amp;utm_campaign=3Dnotboring&amp;utm_content=3Dfirst&quot;,&quot;text&qu=
+ot;:&quot;Try Mighty Networks for Free&quot;,&quot;action&quot;:null,&quot;=
+class&quot;:null}" style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0 0 1em 0; text-align: center;"><a class=3D"button primary" hr=
+ef=3D"https://substack.com/redirect/fd51858d-b05b-48a3-a7aa-44a90c6bdb62?u=
+=3D16283549" rel=3D"" style=3D"background-color: #67bdfc; border: none; bor=
+der-radius: 4px; box-sizing: border-box; color: #ffffff !important; cursor:=
+ pointer; display: inline-block; font-family: -apple-system, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal=
+; height: auto; line-height: 20px; margin: 0; opacity: 1; outline: none; pa=
+dding: 12px 20px; text-align: center; text-decoration: none !important; whi=
+te-space: nowrap;"><span style=3D"color: #ffffff; text-decoration: none;">T=
+ry Mighty Networks for Free</span></a></p><div style=3D"font-size: 16px; li=
+ne-height: 26px;"><hr style=3D"background: #ebebeb; border: none; height: 1=
+px; margin: 48px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">Hi friends &#128075; ,</p><=
+p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 =
+1em 0;">Happy Monday! </p><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;">On Thursday, I sent out Part I of a two-=
+part series on web3 use cases, today and in the future. In today&#8217;s es=
+say, we&#8217;ll focus on the future and discuss whether web3 will be worth=
+ the hype. </p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0 0 1em 0;">I&#8217;m having a blast with this debate, and it&#=
+8217;s making more groundedly excited. </p><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Let&#8217;s get to it. =
+</p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"backgro=
+und: #ebebeb; border: none; height: 1px; margin: 48px 0; padding: 0;"></div=
+><h1 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing:=
+ antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-sys=
+tem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, =
+'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2em; f=
+ont-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">Web3 Use C=
+ases: The Future</h1><div class=3D"captioned-image-container-static" style=
+=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: ce=
+nter;"><figure style=3D"display: inline-block; margin: 0 auto; width: 100%;=
+"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6=
+em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" c=
+lass=3D"content" width=3D"1200" style=3D"text-align: center;"><a class=3D"i=
+mage-link" target=3D"_blank" href=3D"https://substack.com/redirect/55e0f044=
+-e134-4b8c-bb30-8677da886c34?u=3D16283549" rel=3D"" style=3D"align-items: c=
+enter; border: none; display: block; flex-direction: column; height: auto; =
+margin: 0; padding: 0; text-decoration: none; width: auto;"><img data-attrs=
+=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32b=
+e77984.s3.amazonaws.com/public/images/4c2e18eb-ceba-4db1-8b4e-d9d4474132b3_=
+1200x600.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&=
+quot;height&quot;:600,&quot;width&quot;:1200,&quot;resizeWidth&quot;:null,&=
+quot;bytes&quot;:1107252,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:nul=
+l,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null}" alt=3D"" t=
+itle=3D"" width=3D"550" height=3D"275" class=3D"wide-image" src=3D"https://=
+substackcdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressiv=
+e:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.ama=
+zonaws.com%2Fpublic%2Fimages%2F4c2e18eb-ceba-4db1-8b4e-d9d4474132b3_1200x60=
+0.png" style=3D"-ms-interpolation-mode: bicubic; border: none !important; d=
+isplay: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 1=
+00% !important; vertical-align: middle; width: auto !important;"></a></td><=
+td style=3D"text-align: center;"></td></tr></tbody></table></figure></div><=
+p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 =
+1em 0;">What&#8217;s the point of all of this? If web3 ends up becoming a b=
+ig thing with a lot of users and new, valuable business models, so what?&#1=
+60;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0;"><span>On Thursday, I wrote about the </span><a href=3D"http=
+s://substack.com/redirect/d1c78ad9-308e-448f-be39-d39f08efde1f?u=3D16283549=
+" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">web3 use c=
+ases that exist today</a><span> to set a baseline:</span></p><ul style=3D"m=
+argin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-ri=
+ght: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><s=
+trong>NFTs</strong><span>: $31.3 billion of volume in the past year on Open=
+Sea alone</span></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px;=
+ margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bott=
+om: 0;"><strong>Decentralized Exchanges</strong><span>: the leading DEX, Un=
+iswap, has handled over $1T in volume</span></p></li><li style=3D"margin-bo=
+ttom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-=
+format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0; margin-bottom: 0;"><strong>DeFi Protocols: Compound, Maker=
+, Aave, and other DeFi lending protocols have held up well during the sell-=
+off while centralized DeFi lenders have struggled</strong></p></li><li styl=
+e=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px=
+; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px;=
+ line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Real-World Lendin=
+g</strong><span>: Goldfinch and Jia help close the credit gap in developing=
+ countries.</span></p></li><li style=3D"margin-bottom: 4px; margin-left: 8p=
+x; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-b=
+ottom: 0;"><strong>User-Owned Marketplaces</strong><span>: Braintrust has d=
+oubled Gross Service Volume to $74 million in the past five months while ke=
+eping its take rate at an industry-low 10%.</span></p></li><li style=3D"mar=
+gin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-sp=
+ecial-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0; margin-bottom: 0;"><strong>Connected Device Networks=
+</strong><span>: Helium and DIMO facilitate networks built by users and eco=
+systems of applications built on top of user-owned data.</span></p></li><li=
+ style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top=
+: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: =
+16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Stablecoins<=
+/strong><span>: USDC, DAI, and other fully/overcollateralized stablecoins f=
+acilitate payments, especially internationally. There are $155 billion of s=
+tablecoins in circulation.</span></p></li><li style=3D"margin-bottom: 4px; =
+margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bul=
+let;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0; margin-bottom: 0;"><strong>Evan Conrad Use Cases</strong><span>: In a=
+ </span><a href=3D"https://substack.com/redirect/6eeda243-3be6-492f-9026-5c=
+0cfc307ed6?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration:=
+ underline;">blog post</a><span>, Evan Conrad highlighted non-government mo=
+ney, cheap loans, Filecoin, Lab DAO, Radicle, Helium, Toucan, and Golden.</=
+span></p></li></ul><p style=3D"color: #1a1a1a; font-size: 16px; line-height=
+: 26px; margin: 0 0 1em 0;">Today, real people are spending real money to u=
+se real products, even if some seem silly or circular.&#160;</p><p style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><s=
+pan>But the real question isn&#8217;t whether there </span><em>are </em><sp=
+an>any use cases, but whether there will be use cases that, collectively, a=
+re worth the hype.&#160;</span></p><div class=3D"tweet" style=3D"background=
+: #fff; border: 1px solid #e1e8ed; border-radius: 5px; direction: ltr; disp=
+lay: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Cal=
+ibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; max=
+-width: 520px; padding: 20px 20px 11.6px 20px;"><a href=3D"https://substack=
+=2Ecom/redirect/1c5097d4-1502-40e7-ac8b-7=
+2330be8b958?u=3D16283549" target=3D"=
+_blank" rel=3D"" style=3D"color: black; display: block; text-decoration: no=
+ne; white-space: pre-wrap;"><div class=3D"tweet-header" style=3D"display: b=
+lock; font-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decorati=
+on: none;"><img class=3D"tweet-user-avatar" src=3D"https://substackcdn.com/=
+image/twitter_name/w_36/levie.jpg" alt=3D"Twitter avatar for @levie" style=
+=3D"-ms-interpolation-mode: bicubic; border: none !important; border-radius=
+: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; max-wi=
+dth: 100%; vertical-align: middle; width: 36px;"><span class=3D"tweet-autho=
+r-name" style=3D"color: #1c2022; display: block; font-weight: 700;">Aaron L=
+evie </span><span class=3D"tweet-author" style=3D"color: #697882; display: =
+block; font-size: 14px;">@levie</span></div><span class=3D"tweet-fake-link"=
+ style=3D"color: #1ca1f2; text-decoration: none;">@theodorexli</span><span>=
+ </span><span class=3D"tweet-fake-link" style=3D"color: #1ca1f2; text-decor=
+ation: none;">@packyM</span><span> </span><span class=3D"tweet-fake-link" s=
+tyle=3D"color: #1ca1f2; text-decoration: none;">@zachweinberg</span><span> =
+Correct. The issue is not are there use cases in general. The issue is are =
+there enough use cases (that aren&#8217;t driven by speculation) that are s=
+uperior to the regular web in such a way that consumers adopt at scale.</sp=
+an></a><a href=3D"https://substack.com/redirect/1c5097d4-1502-40e7-ac8b-723=
+30be8b958?u=3D16283549" target=3D"_blank" rel=3D"" style=3D"color: black; d=
+isplay: block; text-decoration: none; white-space: pre-wrap;"><div class=3D=
+"tweet-footer" style=3D"color: #697882; display: block; font-size: 14px; li=
+ne-height: 26px; margin-top: 10px; text-decoration: none;"><p class=3D"twee=
+t-date" style=3D"border-bottom: 1px solid #e1e8ed; color: #697882; display:=
+ block; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; =
+padding-bottom: 10px;">June 23rd 2022</p><span class=3D"retweets" style=3D"=
+display: inline-block; margin-right: 8px;"><span class=3D"rt-count" style=
+=3D"color: #1c2022; font-weight: bold;">4</span><span> Retweets</span></spa=
+n><span class=3D"likes" style=3D"display: inline-block; margin-right: 8px;"=
+><span class=3D"like-count" style=3D"color: #1c2022; font-weight: bold;">37=
+</span><span> Likes</span></span></div></a></div><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">In other words, w=
+ill web3 produce use cases that justify all of the venture dollars, investm=
+ent, and talent dedicated to the space? I think it will. That&#8217;s what =
+today&#8217;s essay is about.&#160;</p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>There are two time-sc=
+ales on which I&#8217;m excited about web3&#8217;s potential: the </span><s=
+trong>next few years</strong><span> and the </span><strong>next few decades=
+</strong><span>.</span></p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">If there is another bull cycle in the n=
+ext few years, I think it will happen on the backs of real products that pe=
+ople use at scale, not speculation. When those hit, speculation will follow=
+, but that will look more like a traditional tech bull run than pure specul=
+ation. These products are on the way &#8211; the applications are coming an=
+d the infrastructure continues to improve.&#160;</p><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">In the next fe=
+w decades, I believe that web3 infrastrastructure will become the fabric of=
+ much of what we do online and in our financial lives. I also believe that =
+the experiments web3 protocols are running in economic design, incentive al=
+ignment, and governance will jump out of the internet and impact &#8220;rea=
+l-world&#8221; institutions.&#160;</p><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;">Today, I&#8217;ll dive into =
+some of the future use cases and potential benefits I&#8217;m excited about=
+=2E&#160;</p><h3 style=3D"-moz-osx-font-s=
+moothing: antialiased; -webkit-font-=
+smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', =
+-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sa=
+ns-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-si=
+ze: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em =
+0;"><strong>The Next Few Decades</strong><span>&#160;</span></h3><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>So let&#8217;s begin with the future. If all of this pans out, so what?&#1=
+60;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0;">Personally, I&#8217;m excited to see more rapid iteration, =
+more ownership and upside for users, new governance and economic models, mo=
+re liquid, efficient, and global capital markets, and a more fun world.&#16=
+0;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0;"><span>While it&#8217;s hard, in the midst of a bear market, =
+to see a path through all of the short-term technical, financial, and socia=
+l challenges, it&#8217;s actually equally difficult to imagine a future wor=
+ld a few decades out in which web3 </span><em>doesn&#8217;t</em><span> play=
+ a big role.&#160;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;">When I think about where all of this =
+is heading, I have a graph that looks something like this in my head:&#160;=
+</p><div class=3D"captioned-image-container-static" style=3D"font-size: 16p=
+x; line-height: 26px; margin-bottom: 16px; text-align: center;"><figure sty=
+le=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=3D"=
+image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><t=
+d style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" w=
+idth=3D"908" style=3D"text-align: center;"><a class=3D"image-link" target=
+=3D"_blank" href=3D"https://substack.com/redirect/84754424-1ad1-4eb1-ac87-e=
+8269a496ade?u=3D16283549" rel=3D"" style=3D"align-items: center; border: no=
+ne; display: block; flex-direction: column; height: auto; margin: 0; paddin=
+g: 0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&qu=
+ot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazona=
+ws.com/public/images/96f7549b-194c-42a4-88f3-73f5a01b5379_908x651.png&quot;=
+,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:=
+651,&quot;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:nu=
+ll,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:nul=
+l,&quot;href&quot;:null}" alt=3D"" title=3D"" width=3D"550" height=3D"394.3=
+2819383259914" class=3D"wide-image" src=3D"https://substackcdn.com/image/fe=
+tch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbu=
+cketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fim=
+ages%2F96f7549b-194c-42a4-88f3-73f5a01b5379_908x651.png" style=3D"-ms-inter=
+polation-mode: bicubic; border: none !important; display: block; height: au=
+to; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-=
+align: middle; width: auto !important;"></a></td><td style=3D"text-align: c=
+enter;"></td></tr></tbody></table></figure></div><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">When people say t=
+hat web3 is speedrunning the history of financial markets, or speedrunning =
+the history of governance, what they mean is that we&#8217;re making a whol=
+e lot of mistakes that have already been made before, at a much faster rate=
+ than we&#8217;ve made them before.&#160;</p><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>In the earlier =
+stages of that process, it looks </span><em>incredibly stupid.</em><span> &=
+#8220;That&#8217;s a ponzi!&#8221; &#8220;Of course direct democracy doesn&=
+#8217;t work for DAOs, there&#8217;s a reason the US is a representative de=
+mocracy. And at that point, are you really decentralized?&#8221; &#8220;Hav=
+e these people learned nothing from 200,000 years of human history?&#8221;&=
+#160;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0 0 1em 0;">But I think that there&#8217;s a logical fork, and=
+ that you have to believe that one or the other is true:&#160;</p><ol style=
+=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; marg=
+in-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px;=
+ line-height: 26px; margin: 0; margin-bottom: 0;">That existing economic an=
+d governance models are as good as they&#8217;re ever going to get.&#160;</=
+p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; =
+margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0; margin-bottom: 0;">That they&#8217;re not, and whatever a=
+llows for the most rapid iteration on new models will ultimately produce su=
+perior models.&#160;</p></li></ol><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;"><span>If I had to describe why I=
+&#8217;m excited about web3 in one idea, it would be that: </span><strong>w=
+eb3 allows for the most rapid iteration on new economic and governance mode=
+ls of any system humans have built.&#160;</strong></p><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>Every =
+new app, game, and protocol is simultaneously a mini-experiment in </span><=
+a href=3D"https://substack.com/redirect/3baed597-cb08-4101-b06c-2b35a70ceaf=
+0?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underlin=
+e;">economic design</a><span>. Every DAO and even some NFT projects, like <=
+/span><a href=3D"https://substack.com/redirect/4f80ce65-f6cb-4588-9ce6-a72f=
+6bce0809?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: u=
+nderline;">Nouns</a><span>, is simultaneously a mini-experiment in governan=
+ce. In the early days, that means that web3 entrepreneurs face even more co=
+mplexity than a traditional entrepreneur might &#8211; they need to build a=
+ great product, a thriving economy, and an attack-resistant and productive =
+governance system. Some skeptics believe that the trifecta represents too m=
+uch complexity to build things users understand and love. Centralized produ=
+cts can move more quickly on their own. But I think web3 startups will expe=
+riment, learn, and evolve quickly as a hive, that each successive startup w=
+ill build on the previous startups&#8217; software and </span><a href=3D"ht=
+tps://substack.com/redirect/3b68ab41-caa7-48f4-b4ce-3c78fedcc478?u=3D162835=
+49" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Idea Leg=
+os</a><span> until they accelerate past current institutions&#8217; pace.</=
+span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0;">Some of that experimentation will be micro: for example, =
+a web3 version of Twitter with an open protocol on top of which anyone can =
+build clients will power more innovation in web3 Twitter client design. Oth=
+er experimentation is macro: for example, how large groups of token holders=
+ can govern lending protocols that control billions of dollars fairly. In b=
+oth cases, there will be more failures than breakthroughs.&#160;</p><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;=
+">But the breakthroughs might be very important. They might influence how w=
+e design traditional economies and institutions, and even the economic and =
+governance models we create when we get to build them from scratch, on Mars=
+, asteroids, and beyond.&#160;</p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;"><span>At the core of web3&#8217;=
+s rapid iteration is the concept of </span><strong>Hyperstructures. </stron=
+g><span>Jacob Horne&#8217;s essay on </span><em><a href=3D"https://substack=
+=2Ecom/redirect/525326df-c82e-4759-a336-b=
+a3a5a59c491?u=3D16283549" rel=3D"" s=
+tyle=3D"color: #1a1a1a; text-decoration: underline;">Hyperstructures</a></e=
+m><span>, which I shared on Thursday, is foundational reading, literally. H=
+yperstructures are &#8220;Crypto protocols that can run for free and foreve=
+r, without maintenance, interruption or intermediaries.&#8221; They &#8220;=
+are entirely onchain, and are public goods which create a positive-sum ecos=
+ystem for any participants.&#8221;&#160;</span></p><div class=3D"captioned-=
+image-container-static" style=3D"font-size: 16px; line-height: 26px; margin=
+-bottom: 16px; text-align: center;"><figure style=3D"display: inline-block;=
+ margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px aut=
+o; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: cente=
+r;"></td><td align=3D"left" class=3D"content" width=3D"731" style=3D"text-a=
+lign: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://su=
+bstack.com/redirect/812c9313-6603-4efc-a30c-67168ae89d96?u=3D16283549" rel=
+=3D"" style=3D"align-items: center; border: none; display: block; flex-dire=
+ction: column; height: auto; margin: 0; padding: 0; text-decoration: none; =
+width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e=
+05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8b40a149=
+-d47b-4647-81cf-ec410a65e7b3_731x402.png&quot;,&quot;fullscreen&quot;:null,=
+&quot;imageSize&quot;:null,&quot;height&quot;:402,&quot;width&quot;:731,&qu=
+ot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quo=
+t;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=
+=3D"" title=3D"" width=3D"550" height=3D"302.4623803009576" class=3D"wide-i=
+mage" src=3D"https://substackcdn.com/image/fetch/w_1462,c_limit,f_auto,q_au=
+to:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-951=
+8-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8b40a149-d47b-4647-81cf=
+-ec410a65e7b3_731x402.png" style=3D"-ms-interpolation-mode: bicubic; border=
+: none !important; display: block; height: auto; margin: 0 auto; margin-bot=
+tom: 0; max-width: 100% !important; vertical-align: middle; width: auto !im=
+portant;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></ta=
+ble><figcaption class=3D"image-caption" style=3D"color: #767676; font-famil=
+y: sans-serif; font-size: 14px; font-weight: 300; line-height: 1.4em; text-=
+align: center;"><em>Paolo Soleri's &quot;hyperstructure&quot; in ground-lev=
+el view from </em><span>Hyperstructures</span></figcaption></figure></div><=
+p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 =
+1em 0;">Hyperstructures are like the open protocols like http, IP, DNS, SMT=
+P, and the others that underpin the internet we know and love, with additio=
+nal features, as laid out by Horne:&#160;</p><ul style=3D"margin-top: 0;"><=
+li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-t=
+op: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><em><strong>Unstop=
+pable</strong><span>: the protocol cannot be stopped by anyone. It runs for=
+ as long as the underlying blockchain exists.</span></em></p></li><li style=
+=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;=
+ mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0; margin-bottom: 0;"><em><strong>Free</strong><=
+span>: there is a 0% protocol wide fee and runs exactly at gas cost.</span>=
+</em></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-rig=
+ht: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><em=
+><strong>Valuable</strong><span>: accrues value which is accessible and exi=
+table by the owners.</span></em></p></li><li style=3D"margin-bottom: 4px; m=
+argin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bull=
+et;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin=
+: 0; margin-bottom: 0;"><em><strong>Expansive</strong><span>: there are bui=
+lt-in incentives for participants in the protocol.</span></em></p></li><li =
+style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top:=
+ 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0; margin-bottom: 0;"><em><strong>Permissio=
+nless</strong><span>: universally accessible and censorship resistant. Buil=
+ders and users cannot be deplatformed.</span></em></p></li><li style=3D"mar=
+gin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-sp=
+ecial-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0; margin-bottom: 0;"><em><strong>Positive sum</strong>=
+<span>: it creates a win-win environment for participants to utilize the sa=
+me infrastrastructure.</span></em></p></li><li style=3D"margin-bottom: 4px;=
+ margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bu=
+llet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0; margin-bottom: 0;"><em><strong>Credibly neutral</strong><span>: the =
+protocol is user-agnostic.</span></em></p></li></ul><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>The conc=
+ept shares ideas with Chris Burniske&#8217;s </span><em><a href=3D"https://=
+substack.com/redirect/ea1cf683-0ee5-4db2-be50-ffa06a30f7dd?u=3D16283549" re=
+l=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Protocols as M=
+inimally Extractive Coordinators</a></em><span>, a classic that I&#8217;ve =
+quoted a bunch.&#160;</span></p><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em 0;">The important thing to take away f=
+rom both pieces is that web3 introduces the opportunity to create software =
+infrastructure that is free to use forever, and that anyone can build on to=
+p of, but that rewards &#8220;the builders and participants for creating an=
+d contributing to these invaluable systems that serve society at large for =
+many years to come.&#8221;&#160;</p><p style=3D"color: #1a1a1a; font-size: =
+16px; line-height: 26px; margin: 0 0 1em 0;"><span>The most successful exam=
+ple to date, which I highlighted last week, is </span><a href=3D"https://su=
+bstack.com/redirect/36a63411-cbed-4b93-85b9-feecfb84427c?u=3D16283549" rel=
+=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Uniswap</a><spa=
+n>. Despite not charging its users a fee, Uniswap has a $4.1 billion market=
+ cap (fully diluted: $5.6 billion). Horne believes that there should be a s=
+ingle hyperstructure for each financial and non-financial utility: exchange=
+s (Uniswap), marketplaces, lending pools, options, domain names, registries=
+, identity, curation, tags, reputation, emojis, read receipts, and more.&#1=
+60;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;"><span>Each would be a piece of free infrastructure, =
+composable with other pieces of free infrastructure, that each successive g=
+eneration of entrepreneurs can build with, enabling them to focus on the th=
+ing that differentiates them, thus increasing the rate of innovation and ab=
+undance of creativity. Hyperstructures excite me for the same reason that <=
+/span><a href=3D"https://substack.com/redirect/d9bac660-84f6-4e68-8c7d-f738=
+6404a5ae?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: u=
+nderline;">APIs excite me</a><span>, with the added benefits of being free,=
+ permanent, expansive, and permissionless.&#160;</span></p><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Hyperst=
+ructures will underpin a global, liquid market for both digital and physica=
+l items.&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0;">As Zach Weinberg highlighted in our debate on De=
+Fi and housing, there&#8217;s a lot to figure out to bring real world asset=
+s (RWA) online. For one, what happens in the case of default? While default=
+s are a rare occurrence that happen on less than 2% of loans, they will sti=
+ll need to be settled on paper, in courts. There will need to be hybrid sol=
+utions that mirror some analog workflows. But dealing with legacy processes=
+ for a small minority of cases in order to make the majority of cases faste=
+r, cheaper, more efficient, and more composable is a feature, not a bug.&#1=
+60;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0;"><span>Personally, I think it&#8217;s inevitable, and I&#821=
+7;m going to quote our friend </span><a href=3D"https://substack.com/redire=
+ct/b81f37f0-4c74-4940-a357-a57dad33a5b7?u=3D16283549" rel=3D"" style=3D"col=
+or: #1a1a1a; text-decoration: underline;">Jeff Bezos</a><span> to explain w=
+hy:&#160;</span></p><blockquote style=3D"border-left: 4px solid #67bdfc; ma=
+rgin: 1em 0;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0; margin-left: 1em;"><em><strong>'What's not going to c=
+hange in the next 10 years?'</strong><span> &#8230; [I]n our retail busines=
+s, we know that customers want low prices, and I know that's going to be tr=
+ue 10 years from now. They want fast delivery; they want vast selection. It=
+'s impossible to imagine a future 10 years from now where a customer comes =
+up and says, 'Jeff I love Amazon; I just wish the prices were a little high=
+er,' [or] 'I love Amazon; I just wish you'd deliver a little more slowly.' =
+Impossible.</span></em></p></blockquote><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>Customers want </spa=
+n><strong>low prices, fast delivery, and vast selection</strong><span>. Web=
+3 has the potential to bring all three to financial markets. Whether in ten=
+ years, twenty, or thirty, I expect that most large financial assets and tr=
+ansactions touch web3 &#8211; whether that&#8217;s houses, cars, project fi=
+nance, or company ownership. Bringing those assets on-chain will connect th=
+em to global pools of capital and liquidity, and to all of the money legos =
+being created in DeFi.&#160;</span></p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>As </span><a href=3D"=
+https://substack.com/redirect/02355787-f555-407b-ad47-786280f05faf?u=3D1628=
+3549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Sam Le=
+ssin put it</a><span>, &#8220;Most things people own, real estate, small bu=
+sinesses, etc. have shit access to liquidity, leverage, etc.&#8221; The pri=
+ze for solving that pain point is enormous &#8211; the </span><strong>token=
+ization of everything</strong><span> &#8211; and will attract waves of tale=
+nt, capital, and creative approaches. Obviously, this will need to be done =
+hand-in-hand with smart regulation. When crypto touches RWA &#8211; when sm=
+all business owners can source cheaper capital, when homeowners can get mor=
+e competitive home equity loans, and when users can seamlessly own a piece =
+of the products they use &#8211; regulators will be motivated to find solut=
+ions that protect people without restricting access.&#160;</span></p><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;">With Hyperstructures, tokenized everything, and rapid iteration on econo=
+mic and governance models, web3 will be a big piece of the puzzle in solvin=
+g some of humanity&#8217;s most complex challenges.</p><p style=3D"color: #=
+1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>Phy=
+sical&#160;</strong></p><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;"><span>The first essay I wrote this year wa=
+s called </span><em><a href=3D"https://substack.com/redirect/4bb9688a-fa7b-=
+452d-b740-3ac5d6da1866?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text=
+-decoration: underline;">The Laboratory for Complex Problems</a><span>. </s=
+pan></em><span>It was about web3&#8217;s opportunity to be a simulator for =
+solutions to complex problems that require large-scale human coordination, =
+like climate change.</span></p><p style=3D"color: #1a1a1a; font-size: 16px;=
+ line-height: 26px; margin: 0 0 1em 0;"><span>The theory is simple. All of =
+the tokens, voting, and even NFTs are in a </span><strong>goldilocks zone</=
+strong><span>: contained enough that the stakes are low for most people, bu=
+t with bigger financial consequences than the $20 students play with when t=
+hey participate in academic economics studies. Plus, web3 ecosystems are dy=
+namic and interconnected, more like the simulations that complexity scienti=
+sts run than formulae and theories, with real people instead of &#8220;econ=
+omic man.&#8221; Read that piece for the full argument; for now, I&#8217;ll=
+ quickly go over two complex problem areas that web3 is starting to tackle =
+via </span><strong>regenerative finance</strong><span> and </span><strong>d=
+ecentralized science</strong><span>.</span></p><p style=3D"color: #1a1a1a; =
+font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>Regenerativ=
+e Finance. </strong><span>Among the challenges with our current financial s=
+ystem is that it&#8217;s too easy to get away with producing negative exter=
+nalities and letting the commons foot the bill. Regenerative Finance (ReFi)=
+, is a bold attempt to rethink the system. As I wrote in </span><em><a href=
+=3D"https://substack.com/redirect/eabf462e-d761-4310-95e8-053747116434?u=3D=
+16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Ce=
+lo: Building a Regenerative Economy</a></em><span>:</span></p><blockquote s=
+tyle=3D"border-left: 4px solid #67bdfc; margin: 1em 0;"><p style=3D"color: =
+#1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-left=
+: 1em;"><em><span>ReFi is a beautiful idea &#8211; a re-imagining of the fi=
+nancial system using the tools humanity now has at its disposal to better a=
+ccount for the needs of all stakeholders, current and future. It </span><st=
+rong>puts a price on externalities</strong><span>, </span><strong>charging =
+those who create negative externalities</strong><span> and </span><strong>r=
+ewarding those who create positive externalities</strong><span>.&#160;</spa=
+n></em></p></blockquote><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;">Specific ideas in ReFi include UBI, lendin=
+g, data ownership, community commerce, and many web3 x climate projects tha=
+t Not Boring Capital has backed, including:&#160;</p><ul style=3D"margin-to=
+p: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; =
+margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong><a=
+ href=3D"https://substack.com/redirect/eb286afe-2180-4d74-a8df-cd00dbcb40b2=
+?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline=
+;">Toucan</a></strong><span>: The web3 Carbon Stack, including tokenized ca=
+rbon credits, with over 21.9 million tonnes of CO2 bridged to date.&#160;&#=
+160;</span></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; marg=
+in-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0=
+;"><strong><a href=3D"https://substack.com/redirect/92c4beef-b232-4dac-b0ba=
+-071ad175274b?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decorati=
+on: underline;">Loam</a></strong><span>: Creating a marketplace for farming=
+ data, a fast, easy, and transparent platform to incentivize farmers to eng=
+age in regenerative practices.</span></p></li></ul><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Do you need a b=
+lockchain for these use cases? Maybe, maybe not. Carbon credits exist alrea=
+dy. It might be possible to create a web2 marketplace for farming data and =
+an exchange for credits based on the carbon farmers put back into the groun=
+d. Web3 just makes both more efficient, transparent, and composable &#8211;=
+ imagine a pool of Loam Credits tapping into global capital markets on Touc=
+an. On a recent episode of Bankless, Mark Cuban talked about how much easie=
+r it was to buy and burn BCT (Base Carbon Tonnes) on Toucan to offset his c=
+arbon footprint than it was to buy carbon offsets from a broker.&#160;</p><=
+div class=3D"tweet" style=3D"background: #fff; border: 1px solid #e1e8ed; b=
+order-radius: 5px; direction: ltr; display: block; font: normal normal 16px=
+/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; l=
+ine-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11=
+=2E6px 20px;"><a href=3D"https://substack=
+=2Ecom/redirect/9adb75b4-79c2-46e7-b5f=
+d-9c458416523f?u=3D16283549" target=3D"_blank" rel=3D"" style=3D"color: bla=
+ck; display: block; text-decoration: none; white-space: pre-wrap;"><div cla=
+ss=3D"tweet-header" style=3D"display: block; font-size: 16px; line-height: =
+1.2; margin-bottom: 14px; text-decoration: none;"><img class=3D"tweet-user-=
+avatar" src=3D"https://substackcdn.com/image/twitter_name/w_36/BanklessHQ.j=
+pg" alt=3D"Twitter avatar for @BanklessHQ" style=3D"-ms-interpolation-mode:=
+ bicubic; border: none !important; border-radius: 50%; display: block; floa=
+t: left; height: 36px; margin: 0 8px 0 0; max-width: 100%; vertical-align: =
+middle; width: 36px;"><span class=3D"tweet-author-name" style=3D"color: #1c=
+2022; display: block; font-weight: 700;">Bankless &#127988; </span><span cl=
+ass=3D"tweet-author" style=3D"color: #697882; display: block; font-size: 14=
+px;">@BanklessHQ</span></div><span>This is what </span><span class=3D"tweet=
+-fake-link" style=3D"color: #1ca1f2; text-decoration: none;">@mcuban</span>=
+<span> is bullish on in crypto lately, and it may surprise you. </span><div=
+ class=3D"tweet-photos-container" style=3D"display: flex; font-size: 16px; =
+height: 350px; line-height: 26px;"><div class=3D"tweet-photo-wrapper " styl=
+e=3D"-moz-box-sizing: border-box; -webkit-box-sizing: border-box; border: 1=
+px solid #e1e8ed; border-radius: 5px; box-sizing: border-box; font-size: 16=
+px; height: 100%; line-height: 26px; width: 100%;"><img class=3D"tweet-phot=
+o" src=3D"https://substackcdn.com/image/upload/w_728,c_limit/l_twitter_play=
+_button_rvaygk,w_120/tshlp0ftoxsnltw9poky" alt=3D"Image" style=3D"-ms-inter=
+polation-mode: bicubic; border: none !important; border-radius: 5px; displa=
+y: block; height: 100%; margin: 0 auto; max-width: 100%; object-fit: cover;=
+ vertical-align: middle; width: 100%;"></div></div></a><a href=3D"https://s=
+ubstack.com/redirect/9adb75b4-79c2-46e7-b5fd-9c458416523f?u=3D16283549" tar=
+get=3D"_blank" rel=3D"" style=3D"color: black; display: block; text-decorat=
+ion: none; white-space: pre-wrap;"><div class=3D"tweet-footer" style=3D"col=
+or: #697882; display: block; font-size: 14px; line-height: 26px; margin-top=
+: 10px; text-decoration: none;"><p class=3D"tweet-date" style=3D"border-bot=
+tom: 1px solid #e1e8ed; color: #697882; display: block; font-size: 14px; li=
+ne-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">June=
+ 24th 2022</p><span class=3D"retweets" style=3D"display: inline-block; marg=
+in-right: 8px;"><span class=3D"rt-count" style=3D"color: #1c2022; font-weig=
+ht: bold;">36</span><span> Retweets</span></span><span class=3D"likes" styl=
+e=3D"display: inline-block; margin-right: 8px;"><span class=3D"like-count" =
+style=3D"color: #1c2022; font-weight: bold;">201</span><span> Likes</span><=
+/span></div></a></div><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;">(To be fair, he also said he hasn&#8217;t se=
+en a killer app like streaming yet, which I agree with.)</p><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">By sim=
+ply making it easier to access carbon credits and providing a liquid, globa=
+l market, ReFi has the potential to increase the demand for offsets (Toucan=
+, Flow Carbon), which should spur more supply of carbon offsetting projects=
+ (Loam, Open Forest Protocol).</p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;">There&#8217;s been an explosion =
+in ReFi projects over the past year, but I&#8217;m keeping this in the futu=
+re bucket, because it will be decades before we see how much of an impact t=
+hey&#8217;ve made.&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 1em 0;">Read more about ReFi here:</p><div cla=
+ss=3D"embedded-post-wrap" style=3D"direction: ltr; font-size: 16px; line-he=
+ight: 26px; text-align: center;"><div class=3D"embedded-post" style=3D"bord=
+er: 1px solid rgba(204, 204, 204, 0.5); border-radius: 8px; color: #1a1a1a;=
+ display: block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 16px; line-height: 1.5; margin: 36px auto=
+; max-width: 560px; padding: 20px; text-align: left; text-decoration: none;=
+"><div class=3D"embedded-post-header" style=3D"align-items: center; border-=
+bottom: 1px solid rgba(204, 204, 204, 0.5); display: flex; font-size: 16px;=
+ height: 28px; justify-content: flex-start; line-height: 26px; margin-botto=
+m: 20px; padding-bottom: 20px;"><img class=3D"embedded-post-publication-log=
+o" src=3D"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazona=
+ws.com/public/images/62784289-29bb-4fdf-9ada-642905c5a28b_400x400.png" widt=
+h=3D"28" height=3D"28" style=3D"-ms-interpolation-mode: bicubic; border: no=
+ne !important; border-radius: 3px; display: block; height: 28px; margin: 0 =
+12px 0 0; max-width: 100%; vertical-align: middle; width: 28px;"><span clas=
+s=3D"embedded-post-publication-name" style=3D"-moz-osx-font-smoothing: anti=
+aliased; -webkit-font-smoothing: antialiased; font-family: 'SF Compact Disp=
+lay', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Ari=
+al, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; f=
+ont-size: 16px; font-weight: 500; line-height: 28px;">Not Boring by Packy M=
+cCormick</span></div><a class=3D"embedded-post-title" href=3D"https://subst=
+ack.com/redirect/86418bc1-eea5-4c36-add0-861c3a1293ef?u=3D16283549" rel=3D"=
+" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: an=
+tialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system=
+, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Ap=
+ple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; fon=
+t-weight: 700; margin-bottom: 6px; text-decoration: none;">Celo: Building a=
+ Regenerative Economy</a><div class=3D"embedded-post-body" style=3D"color: =
+#767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto=
+, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Seg=
+oe UI Symbol'; font-size: 16px; line-height: 1.6; margin-bottom: 16px; marg=
+in-top: 4px;">Welcome to the 1,493 newly Not Boring people who have joined =
+us since last Monday! If you haven&#8217;t subscribed, join 116,440 smart, =
+curious folks by subscribing here: &#127911; If you&#8217;d rather listen t=
+o this essay, head to Spotify or Apple Podcasts (soon&#8230;</div><a class=
+=3D"embedded-post-read-more" href=3D"https://substack.com/redirect/86418bc1=
+-eea5-4c36-add0-861c3a1293ef?u=3D16283549" rel=3D"" style=3D"border: 1px so=
+lid rgba(204, 204, 204, 0.5); border-radius: 4px; box-sizing: border-box; c=
+olor: #1a1a1a; display: inline-block; font-size: 15px; font-weight: 500; li=
+ne-height: 16px; margin-bottom: 16px; padding: 10px 16px; text-decoration: =
+none;">Read more</a><div class=3D"embedded-post-meta" style=3D"color: #7676=
+76; font-size: 14px; line-height: 26px;">2 months ago &#183; 77 likes &#183=
+; 9 comments &#183; Packy McCormick</div></div></div><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>Decen=
+tralized Science.</strong><span> Another web3 category with physical world =
+impact is Decentralized Science (DeSci). As Phas3 founder Sarah Hamburg </s=
+pan><a href=3D"https://substack.com/redirect/c2abf3ae-bf4d-42b9-954e-ef778f=
+f3dc8d?u=3D16283549" rel=3D"" style=3D"color: #1a1a1a; text-decoration: und=
+erline;">wrote</a><span>:&#160;</span></p><blockquote style=3D"border-left:=
+ 4px solid #67bdfc; margin: 1em 0;"><p style=3D"color: #1a1a1a; font-size: =
+16px; line-height: 26px; margin: 0 0 1em 0; margin-left: 1em;"><em>Still in=
+ its infancy, DeSci lies at the intersection of two broader trends: 1) effo=
+rts within the scientific community to change how research is funded and kn=
+owledge is shared, and 2) efforts within the crypto-focused movement to shi=
+ft ownership and value away from industry intermediaries.</em></p></blockqu=
+ote><h4 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothi=
+ng: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-=
+system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-seri=
+f, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.1=
+25em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">To =
+learn more about the next few decades, next few years, challenges, and oppo=
+rtunities for web3&#8230; </h4><p class=3D"button-wrapper" data-attrs=3D"{&=
+quot;url&quot;:&quot;https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3=
+cubm90Ym9yaW5nLmNvL3Avd2ViMy11c2UtY2FzZXMtdGhlLWZ1dHVyZT90b2tlbj1leUoxYzJWe=
+VgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2TmpFek16STJNemdzSW1saGRDSTZNVFkx=
+TmpNek5EazRNQ3dpYVhOeklqb2ljSFZpTFRFd01ESTFJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmp=
+kR2x2YmlKOS5RcnB5Vy1Uc0VQbTBFdlctUzJVN2NSVVZqTXBWNlZ3V0t1RUhLVUE2ZUp3IiwicC=
+I6NjEzMzI2MzgsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjU2MzM0O=
+TgwLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.mytK0mG9FB_FfViajY6Bk=
+nMKd5D6ULgoTHBjHNstsds?&quot;,&quot;text&quot;:&quot;Continue Reading Onlin=
+e&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; text-align: c=
+enter;"><a class=3D"button primary" href=3D"https://substack.com/redirect/2=
+/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3Avd2ViMy11c2UtY2FzZXMtdGhlLWZ1dH=
+VyZT90b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2TmpFek16S=
+TJNemdzSW1saGRDSTZNVFkxTmpNek5EazRNQ3dpYVhOeklqb2ljSFZpTFRFd01ESTFJaXdpYzNW=
+aUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS5RcnB5Vy1Uc0VQbTBFdlctUzJVN2NSVVZqTXBWNlZ=
+3V0t1RUhLVUE2ZUp3IiwicCI6NjEzMzI2MzgsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4Mz=
+U0OSwiaWF0IjoxNjU2MzM0OTgwLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3Qif=
+Q.mytK0mG9FB_FfViajY6BknMKd5D6ULgoTHBjHNstsds?" rel=3D"" style=3D"backgroun=
+d-color: #67bdfc; border: none; border-radius: 4px; box-sizing: border-box;=
+ color: #ffffff !important; cursor: pointer; display: inline-block; font-fa=
+mily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Ari=
+al, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; f=
+ont-size: 16px; font-weight: normal; height: auto; line-height: 20px; margi=
+n: 0; opacity: 1; outline: none; padding: 12px 20px; text-align: center; te=
+xt-decoration: none !important; white-space: nowrap;"><span style=3D"color:=
+ #ffffff; text-decoration: none;">Continue Reading Online</span></a></p><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;"></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"b=
+ackground: #ebebeb; border: none; height: 1px; margin: 48px 0; padding: 0;"=
+></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0;"><em><span>Thanks to </span><a href=3D"https://substack.com/=
+redirect/0fb227e2-ac29-45d9-8d7a-439398674174?u=3D16283549" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">Dan</a><span> for editing!=
+</span></em></p><div style=3D"font-size: 16px; line-height: 26px;"><hr styl=
+e=3D"background: #ebebeb; border: none; height: 1px; margin: 48px 0; paddin=
+g: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px=
+; margin: 0 0 1em 0;">That&#8217;s all for today. We&#8217;ll be back on Th=
+ursday with our second installment of The Founder&#8217;s Letter.</p><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;">Thanks for reading, </p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0; margin-bottom: 0;">Packy</p></div></div>=
+<table cellpadding=3D"0" cellspacing=3D"0" class=3D"post-meta custom big al=
+ternative-meta centered" style=3D"margin: 0 auto;"><tr style=3D"align-items=
+: center; display: flex;"><td class=3D"post-meta-item icon" style=3D"color:=
+ #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Robot=
+o, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Se=
+goe UI Symbol'; font-size: 14px; height: 100%; line-height: 18px; padding: =
+0px 12px 0px 0; padding-right: 24px; position: relative; text-decoration: n=
+one; text-indent: 3px; white-space: nowrap;"><span class=3D"post-meta-icon =
+like-reaction-button"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaH=
+R0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FwaS92MS9wb3N0L2VtYWlsLXJlYWN0aW9uP3V0bV9zb=
+3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJ=
+NE16VTBPU3dpY0c5emRGOXBaQ0k2TmpFek16STJNemdzSW5KbFlXTjBhVzl1SWpvaTRwMmtJaXd=
+pYVdGMElqb3hOalUyTXpNME9UZ3dMQ0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSn=
+laV0ZqZEdsdmJpSjkuTE0yM0dLeVNGMEd3NHpXWXl6NFVUMDJwU0lwUkpPWTVPOUtMdEY4dXotT=
+SIsInAiOjYxMzMyNjM4LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY1=
+NjMzNDk4MCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.S-kxFIdl1dOoESl=
+tcHT_HxMuNMHRUYQSbEfmde9_DiM?" class=3D"like-button button post-meta-button=
+" style=3D"align-items: center; background-color: transparent; border: 1px =
+solid #ebebeb; border-radius: 4px; box-sizing: border-box; color: #1a1a1a; =
+cursor: pointer; display: flex; font-family: -apple-system, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal;=
+ height: auto; line-height: 15px; margin: 0; opacity: 1; outline: none; pad=
+ding: 10px 16px; text-align: center; text-decoration: none; text-indent: 0p=
+x; white-space: nowrap;"><img src=3D"https://substackcdn.com/image/fetch/w_=
+36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.co=
+m%2Ficon%2FLucideHeart%3Fv%3D2%26height%3D36%26fill%3Dtransparent%26stroke%=
+3D%2523757575%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border=
+: none !important; display: inline-block; float: left; height: 14px; margin=
+-right: 4px; max-width: 18px; vertical-align: top; width: auto;" alt=3D""><=
+span class=3D"like-count" style=3D"color: #1a1a1a; margin-left: 7px;">Like<=
+/span></a></span></td><td class=3D"post-meta-item icon" style=3D"color: #76=
+7676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, H=
+elvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol'; font-size: 14px; height: 100%; line-height: 18px; padding: 0px =
+12px 0px 0; padding-right: 24px; position: relative; text-decoration: none;=
+ text-indent: 3px; white-space: nowrap;"><a href=3D"https://substack.com/re=
+direct/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3Avd2ViMy11c2UtY2FzZXMtdG=
+hlLWZ1dHVyZS9jb21tZW50cz90b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5e=
+mRGOXBaQ0k2TmpFek16STJNemdzSW1saGRDSTZNVFkxTmpNek5EazRNQ3dpYVhOeklqb2ljSFZp=
+TFRFd01ESTFJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS5RcnB5Vy1Uc0VQbTBFdlc=
+tUzJVN2NSVVZqTXBWNlZ3V0t1RUhLVUE2ZUp3IiwicCI6NjEzMzI2MzgsInMiOjEwMDI1LCJmIj=
+p0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjU2MzM0OTgwLCJpc3MiOiJwdWItMCIsInN1YiI6I=
+mxpbmstcmVkaXJlY3QifQ.SUDw3V0AQ3lvq4bk87fRnH6FUgoYSr4Y2_xpIaatY-0?&amp;utm_=
+source=3Dsubstack&amp;utm_medium=3Demail" class=3D"post-meta-button button"=
+ style=3D"align-items: center; background-color: transparent; border: 1px s=
+olid #ebebeb; border-radius: 4px; box-sizing: border-box; color: #1a1a1a; c=
+ursor: pointer; display: flex; font-family: -apple-system, BlinkMacSystemFo=
+nt, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; =
+height: auto; line-height: 15px; margin: 0; opacity: 1; outline: none; padd=
+ing: 10px 16px; text-align: center; text-decoration: none; white-space: now=
+rap;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_=
+auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideCo=
+mments%3Fv%3D2%26height%3D36%26fill%3Dtransparent%26stroke%3D%2523757575%26=
+strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !importan=
+t; display: inline-block; float: left; height: 14px; margin-right: 4px; max=
+-width: 18px; vertical-align: top; width: auto;" alt=3D"Comment" class=3D"c=
+omment-icon post-meta-icon"><span class=3D"meta-button-label">Comment</span=
+></a></td><td class=3D"post-meta-item icon" style=3D"color: #767676; font-f=
+amily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Ar=
+ial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; =
+font-size: 14px; height: 100%; line-height: 18px; margin-right: 0; padding:=
+ 0px 12px 0px 0; padding-right: 0; position: relative; text-decoration: non=
+e; text-indent: 3px; white-space: nowrap;"><span><a href=3D"https://substac=
+k.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3Avd2ViMy11c2UtY2=
+FzZXMtdGhlLWZ1dHVyZT91dG1fc291cmNlPXN1YnN0YWNrJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+2NvbnRlbnQ9c2hhcmUmYWN0aW9uPXNoYXJlJnRva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpV=
+ME9Td2lhV0YwSWpveE5qVTJNek0wT1Rnd0xDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0l=
+pT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAuSWNZQUQ5dnk0S1h5aVVJdU1Lb1RpT2dqeHhjNjVkbV=
+FRR3QwZnFNZWdEOCIsInAiOjYxMzMyNjM4LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1N=
+DksImlhdCI6MTY1NjMzNDk4MCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.=
+_wTjFfaLc2E-l1dMrZtavuky-35Q1rGNqtwFNs8ylyo?" class=3D"button post-meta-but=
+ton" style=3D"align-items: center; background-color: transparent; border: 1=
+px solid #ebebeb; border-radius: 4px; box-sizing: border-box; color: #1a1a1=
+a; cursor: pointer; display: flex; font-family: -apple-system, BlinkMacSyst=
+emFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoj=
+i', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: norm=
+al; height: auto; line-height: 15px; margin: 0; opacity: 1; outline: none; =
+padding: 10px 16px; text-align: center; text-decoration: none; white-space:=
+ nowrap;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_pn=
+g,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLuci=
+deShare%3Fv%3D2%26height%3D36%26fill%3Dtransparent%26stroke%3D%2523757575%2=
+6strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !importa=
+nt; display: inline-block; float: left; height: 14px; margin-right: 4px; ma=
+x-width: 18px; vertical-align: top; width: auto;" alt=3D"Share" class=3D"re=
+commend-icon post-meta-icon"><span class=3D"meta-button-label">Share</span>=
+</a></span></td></tr></table><div class=3D"container-border" style=3D"borde=
+r-top: 1px solid rgba(204, 204, 204, 0.5); box-sizing: border-box; font-siz=
+e: 16px; line-height: 26px; margin: 32px 0 0; width: 100%;"></div><div clas=
+s=3D"post-cta" style=3D"font-size: 16px; line-height: 26px; margin: 24px 0 =
+40px;"><p style=3D"font-size: 16px; font-style: italic; line-height: 26px; =
+margin: 24px 0 0; margin-top: 0;"><span>If you liked this post from <a href=
+=3D"https://substack.com/redirect/63206496-6d07-4ebe-b1ec-99b607585069?u=3D=
+16283549">Not Boring by Packy McCormick</a>, why not share it?</span></p><p=
+ class=3D"cta-box" style=3D"font-size: 16px; font-style: italic; line-heigh=
+t: 26px; margin: 24px 0 0; text-align: center;"><a role=3D"button" href=3D"=
+https://substack.com/redirect/d2e671a6-78e2-4676-a757-831fdc522fac?u=3D1628=
+3549" class=3D"button primary twitter-link" style=3D"background-color: #67b=
+dfc; border: 0px solid #67bdfc; border-radius: 4px; border-width: 13px 20px=
+ 13px 18px; box-sizing: content-box; color: #ffffff !important; cursor: poi=
+nter; display: inline-block; font-family: -apple-system, BlinkMacSystemFont=
+, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'S=
+egoe UI Emoji', 'Segoe UI Symbol'; font-size: 17px; font-style: normal; fon=
+t-weight: 300; height: 24px; line-height: 24px; margin: 0; opacity: 1; outl=
+ine: none; padding: 0; text-align: center; text-decoration: none !important=
+; vertical-align: middle; white-space: nowrap;"><img src=3D"https://substac=
+kcdn.com/image/fetch/w_23.1,c_scale,f_png,q_auto:good,fl_progressive:steep/=
+https%3A%2F%2Fsubstack.com%2Ficon%2FShareIcon%3Fv%3D2%26height%3D42%26strok=
+e%3D%2523FFF%26strokeWidth%3D2" width=3D"11.55" height=3D"21" style=3D"bord=
+er: none !important; display: inline-block; height: 21px; margin-right: 8px=
+; max-width: 11.55px; vertical-align: middle; width: 21px;" alt=3D""><span =
+style=3D"color: #ffffff; text-decoration: none;">Share</span></a></p></div>=
+<div class=3D"footer hasMargin" style=3D"background: #f5f5f5 !important; co=
+lor: #808080; font-size: 16px; line-height: 26px; margin-top: 24px; padding=
+: 24px; text-align: center;"><p class=3D"small" style=3D"color: #808080; fo=
+nt-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica=
+, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbo=
+l'; font-size: 14px; line-height: 22px; margin: 0; padding-bottom: 16px;">&=
+#169; 2022 <span>Packy McCormick</span><br>10 City Point, Brooklyn, NY 1120=
+1 <br><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm=
+90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOa=
+kk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOakV6TXpJMk16Z3NJbWxoZENJNk1UWTFOak16TkRrNE1D=
+d2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5Ljk=
+2Smh3MV9ST1VadVBGXzgteERPNTRqQjU0YV9VLW5pNXVtYlBlRlE1SkkiLCJwIjo2MTMzMjYzOC=
+wicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTYzMzQ5ODAsImlzcyI6I=
+nB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.oe4sHGDFXS2wfOsctPFkXCa9gO2rYSx4bMO=
+1-7KSfwA?" style=3D"color: #808080;"><span style=3D"color: #808080; text-de=
+coration: underline;">Unsubscribe</span></a></p><p class=3D"small powered-b=
+y-substack" style=3D"color: #808080; font-family: -apple-system, BlinkMacSy=
+stemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Em=
+oji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; line-height: 22=
+px; margin: 0; margin-top: 0; padding-bottom: 0;"><a href=3D"https://substa=
+ck.com/redirect/0a0b6678-679a-488a-8e92-64012f35aa07?u=3D16283549" style=3D=
+"color: #808080; display: inline-block; margin: 8px 4px 0; text-decoration:=
+ none;"><img src=3D"https://substackcdn.com/image/fetch/w_260,c_limit,f_aut=
+o,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail=
+%2Fapp-button%402x.png" srcset=3D"https://substackcdn.com/image/fetch/w_130=
+,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com=
+%2Fimg%2Femail%2Fapp-button.png, https://substackcdn.com/image/fetch/w_260,=
+c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%=
+2Fimg%2Femail%2Fapp-button%402x.png 2x, https://substackcdn.com/image/fetch=
+/w_390,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubsta=
+ck.com%2Fimg%2Femail%2Fapp-button%403x.png 3x" width=3D"130" alt=3D"Get the=
+ app" height=3D"40" style=3D"border: none !important; max-width: 550px; ver=
+tical-align: middle;"></a><a href=3D"https://substack.com/redirect/e3c85009=
+-8115-4e08-9f20-6d4bb4b0811b?u=3D16283549" style=3D"color: #808080; display=
+: inline-block; margin: 8px 4px 0; text-decoration: none;"><img src=3D"http=
+s://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progres=
+sive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.p=
+ng" srcset=3D"https://substackcdn.com/image/fetch/w_135,c_limit,f_auto,q_au=
+to:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpub=
+lish-button.png, https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q=
+_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2F=
+publish-button%402x.png 2x, https://substackcdn.com/image/fetch/w_405,c_lim=
+it,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg=
+%2Femail%2Fpublish-button%403x.png 3x" width=3D"135" alt=3D"Start writing" =
+height=3D"40" style=3D"border: none !important; max-width: 550px; vertical-=
+align: middle;"></a></p></div></div></td><td></td></tr></table><img src=3D"=
+https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDIwMjIwNjI3=
+MTMwMjM2LjMuZmUxN2I4MzdlYjA5NDg2MkBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MTYyODM=
+1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLC=
+JwIjo2MTMzMjYzOCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDAyNSwiY=
+yI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6ImJvdHRvbSIsImlhdCI6MTY1NjMzNDk4MSwi=
+aXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.pC59OzN4NGq4YPr1UjATR-cY3zC14YoG7qAqqQOSlw=
+I" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !impo=
+rtant;width:1px !important;border-width:0 !important;margin-top:0 !importan=
+t;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !impor=
+tant;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !=
+important;padding-left:0 !important;"/><img width=3D"1px" height=3D"1px" al=
+t=3D"" src=3D"https://email.mg-d0.substack.com/o/eJxFkEluhTAQRE8T74I84IGFz2=
+J5aPjWB_vLNIm4fQwssmt1l-pVV_QIS22n_dQdCWw-r26BAq3vk_NomZJKiHEyTDJKklXCzzKRv=
+Lu5wa232A4gnyOsOXrMtbicLKOUS_Ky4ANlk5wgaj2yRLWe5RyiGQ1orSUjF9f5I2UoESz8QDtr=
+ARLrtkHBy-qR9EExIbgShmTLKedUcc0E5UINYpiB6WCEhkCn0Sj-NdJt-U502I-wo4_voTuSZkv=
+FUFsuSxe8X36D9T709O5CHiXj6aD4sEJ6HsOnmmOHdj-muBFynJ5UeH7AFvjdV0CERjot1V5K-Q=
+f9ARmxd5w"></body></html>
+--c3cbc6e8cc47ff53b2223520e8dba4e56af78e19653c24042d04a48068f6--

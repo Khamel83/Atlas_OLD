@@ -1,0 +1,2284 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp809203rwb;
+        Thu, 23 Feb 2023 10:43:57 -0800 (PST)
+X-Received: by 2002:a5d:50c4:0:b0:2c5:5ef8:fa3c with SMTP id f4-20020a5d50c4000000b002c55ef8fa3cmr12051486wrt.52.1677177836798;
+        Thu, 23 Feb 2023 10:43:56 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1677177836; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=HPPeRX/UOJV1gi0rgXDNsxC1I/q7hG7X36oV3KsZ0pGTQfK9IHC4eZ/BhlMUo+o2eH
+         SxzrULmaQyQkE8pCU6+exkr4FmlksUTD12zbSvKbpiqMb/8KTSdlnsy+YaJfVdLt5Bsr
+         O/J2RHBXQiwxSMem1W+bxXKpNKoqSDwrAi6lelorceVxZ/p6Z7Fegz23roGz3xQHoNlk
+         7sGotMdiJVqtPPM3sV7AOI0sytfrOPX9LcUpezNTGkfKwxpLKhaI92KVSI2u02MwJAm3
+         HC4mZOmVzCxk2WxHs9C1H/vI6KncE4WEf/DyYoa8stPZIyluvgFoXhb1pSd/UyuwS8+5
+         pbEw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=CJjWyNg7NrJyzVpOFJlEIa/KEWookGYbPN1nRoeTtc4=;
+        b=IpLjjq7hUvRVg/5gC43jWoGVo98MZi1dcH7VNB1kK6FIaGi7dvENqYMGBBPtdmfNZE
+         aV2jpKiVZfO/c9jGW0/EHJJjNMnh2gTEBTbwqX1eLnA1HSmgAGox7WCRdYprpSQius57
+         K21/Bk1p+NByB4XAlgnXpqQIcsDo26pcjwhpLraYQU1GlnekTJpMXL0Av+zKcU9HBx1N
+         5KR3NkeK0bph8eQf52x1R7rHQkWGeJZIgBnVp97V6NrexOxP5GkIsUWl1I0ATGoWzkNA
+         rEnRlJaZUB6s4v30QPcVGreGMNM0G7hBNjUSPMKMVodUG6xHBuYGV9TPT8VvqLzKG6ls
+         xAbA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vYysEGwx;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id u10-20020adff88a000000b002c5a49ddd39sor3492080wrp.48.2023.02.23.10.43.56
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 23 Feb 2023 10:43:56 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vYysEGwx;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=CJjWyNg7NrJyzVpOFJlEIa/KEWookGYbPN1nRoeTtc4=;
+        b=6GLtJqYgr15xD/mJpLBY65j7LRuyXyZbgi+NS8ZoKnGWYJTDqo6KuDi4qiKGmDjU98
+         I/jKhv9JcS+O7rfhzlAuhGSh5VVuek6lRGwp20m2aLi0xraUHsth8kfkqvNqtV76wJh2
+         NCDxW/N3p5B8N0HvGA2Jy78GWCcDY4Vj75xKPFosKyctXbwqACWMrcTu0v45uctZsGtF
+         LcU3zfCefsCPfUwKzx07nbWfu3Q2uIvtmsXfl5IjW7C04s4MBAzuOA1jbum4KUrP02oh
+         HBARkTVjfhFX16IKhXXwemWSuRA3IBqBALm4hpqRsu1fYbKLj4uRRodBtxlGGkcNITnQ
+         TkUQ==
+X-Gm-Message-State: AO0yUKXEJOzIAInXSwl6fMl5S2ZithQ9Epog2ykWahAIgg9d5793O80J
+	79j8mTfOfYKKy7E0AAC8QM7HZEHWcsVb2PjFjF2rNuUu9NPuj8SxRg==
+X-Received: by 2002:a05:6000:144e:b0:2c3:f972:cef with SMTP id v14-20020a056000144e00b002c3f9720cefmr1064070wrx.0.1677177836272;
+        Thu, 23 Feb 2023 10:43:56 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:fa90:0:0:0:0:0 with SMTP id h16csp527131wrr;
+        Thu, 23 Feb 2023 10:43:53 -0800 (PST)
+X-Received: by 2002:ac2:4c2c:0:b0:4db:194b:5a58 with SMTP id u12-20020ac24c2c000000b004db194b5a58mr4682380lfq.67.1677177833656;
+        Thu, 23 Feb 2023 10:43:53 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1677177833; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=pSa/QPAj2AkUGKKIDCCTZO5BxXqVQYEOE7TXOomo6ThEKgzDHWEdPx8F03nNBfQ0k/
+         X0rANdR4E6DQgu2MvhqJ9hYBqpW/7s64OK90ZuzGJVIs8Sb9fUFyEMeHeMRg5qRehF9S
+         3wOdhNipX/R/BEZ8TkPAnG9ukW4xPXWOOxQb5M6udkmZSkGdkiHAna/wr9RIOPbeF7H6
+         GO2ttvzwvtC0HTCf9wRmPHMi7Iqv3ubKY/NnZ8yXc1tY2cwbYX7FytZ0ZeCFO8BDrDS/
+         Lp4EoEWSN3LXVzd1C+WMMkcBTk19swb/DEKEYsPvxrvxYKgyItgwZ9rwP6NH1lhMI4uh
+         I5sw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=CJjWyNg7NrJyzVpOFJlEIa/KEWookGYbPN1nRoeTtc4=;
+        b=LRQPtAOOxZmfE7ZomEtBEbG4SkKW0Hk43Sue4Cf4ikvGBAPiUtFbZ7DnUPojD/vhGK
+         vqGZWmHr2G59BCI63X6iv8jqJbRr2axUaofxcTlUYzZbECLiRhnuKcyDPt46r6MHspsF
+         ECgm5RRk22bc4KDcR2fNTOWy0oFPM16TkVbHy8Bu6tGIE4voMvgbpmfSVsY9QN1MNCom
+         xvZt4fwZLeUrda/k6PHsvQhWFj6TKKttCq1O/r86mGzIAzeq4Coe9mg8QPM6NGYf/WME
+         5iDUd3hC/oYgMEjgbpi9A4qqN8tvC8dJifzcMylUjMWELGpO29mHk/34QdJC6DuEukzl
+         73Wg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vYysEGwx;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230223134351.30640231.258438@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230223134351.30640231.258438@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230223134351.30640231.258438@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g9-20020a19ac09000000b004cafb4ded24sor2116894lfc.68.2023.02.23.10.43.53
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 23 Feb 2023 10:43:53 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230223134351.30640231.258438@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set9JS9KxcGDeey4X9S9RdMy5COkTBOv9cFJcHcEg+VSQjN7IAYELB49egIsp/A6e52XomG8zgGopgZQFLBdf0+cCzFIAvt0=
+X-Received: by 2002:a05:6512:968:b0:4dd:a5ac:f0a2 with SMTP id v8-20020a056512096800b004dda5acf0a2mr1059897lft.39.1677177833386;
+        Thu, 23 Feb 2023 10:43:53 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1677177833; cv=none;
+        d=google.com; s=arc-20160816;
+        b=TDHweNrf2IfuadXVYrZ1i4B/Eo4HOuEPRKH4iZXarXdtQVTmc3vDDEHEvagu/QvEDE
+         rMK4IRPnHcdHdBsQGaqxHsq328uJh5KjBm7Hf9IDXny4ooB4lxZspCFlyuTqko/4wLZi
+         kZx7J6jwnYjMqEs2fxwKoPkbZe13bxuCE7iYGy9Od34VKLi5OlaiI2Du9Yx9XBD//dNd
+         mkDKp3JIUlwP87PE5WtRaEhiAL9103MdMDZQv4vWQtdsd0R6h5ae/K7MfCnkt2fJXJYw
+         ygJPAGQQgZYP8cAJFUeNVyNOHP8WLEQabGVJkqXC7DEeYZqyeo2eJI55V0IUpblCjo4B
+         ogPg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=CJjWyNg7NrJyzVpOFJlEIa/KEWookGYbPN1nRoeTtc4=;
+        b=T0I4sdQ9gVUOz5rc9fOh/pMLDs/BGg//K4kIp2t/10E9DeO7Rtmp+TVpAxRk+uRRR0
+         hzVJddq2YsYUGDW8cNq8SCDvnwi/jkZwklBOZq+k26XiZK1YUZLz8px4FYyyh2E7lRoP
+         oEGBVwRdyTey3qLk0CARrGZrfGogCeh1l9yLjGTD+jzIJWAasUZbYJUrkEI8ghihYsT9
+         R0XIGxXf8hv7cxX3ez8+7Tu3704EfgzSbSAiXiEx9r1Vi5zdMYZV3R6TjFyoLw2yePw+
+         97rkM7yopQ3k5uRkHDayHTVvWkgQDzLbpaM9ZjB/Mu4JuPK2zYUmfExsoE39u1Y2ZPcC
+         rpnQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vYysEGwx;
+       spf=pass (google.com: domain of delivery_20230223134351.30640231.258438@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230223134351.30640231.258438@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230223134351.30640231.258438@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id bp16-20020a056512159000b004dc4c1e0df8si442937lfb.11.2023.02.23.10.43.52
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 23 Feb 2023 10:43:53 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230223134351.30640231.258438@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=MCKlQ2quo3w6bhg+RUOSUlvgjKRw/9vnceDb/FyAkxs=;
+ b=vYysEGwx29RXao6S6TdqqEdRQqWyRQzQZCwkx0TZf1aMJ4RGam3W4U1+vkuOVA9xD3grwr+sVfcw
+   2JJR1rpwJDQIggdAOKQlu58Gj3Uj9iyAjdKFRJ8k2kiU2MRkCbHMaMZ9oFuDmNglF6KFQLsTqwch
+   NF8UQI04iBG39stwX2w=
+Received: from nj1-mta32.sailthru.com (204.153.120.167) by pmta29.sailthru.com id huupue2sd4sj for <bloomberg@khamel.com>; Thu, 23 Feb 2023 13:43:51 -0500 (envelope-from <delivery_20230223134351.30640231.258438@mx.sailthru.com>)
+Date: Thu, 23 Feb 2023 13:43:51 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230223134351.30640231.258438@sailthru.com>
+Subject: Money Stuff: Slam Dunks Might Be Securities
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_22317483_825436781.1677177831501"
+Precedence: bulk
+X-Feedback-ID: 6358:30640231:campaign:sailthru
+X-TM-ID: 20230223134351.30640231.258438
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-hotheart.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci8q5j.5jeu/d5d0fc20
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci8q5j.5jeu/d5d0fc20>, <mailto:unsubscribe_20230223134351.30640231.258438@mx.sailthru.com>
+X-rpcampaign: stjko30640231
+
+------=_Part_22317483_825436781.1677177831501
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Imagine a video game. There=E2=80=99s an online multiplayer video g=
+ame, MattQuest, made and run by a video-game company, QuestCo. In the game =
+you pl
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Are NFTs securities?
+   =20
+ =20
+
+Imagine a video game. There=E2=80=99s an online multiplayer video game, Mat=
+tQuest, made and run by a video-game company, QuestCo. In the game you play=
+ a character, and the character can wear a hat. QuestCo periodically releas=
+es exciting new limited-edition hats for characters, which you can buy, fro=
+m the company, with real money. You give them your credit card and they bil=
+l you $10 and now your character has a purple hat or whatever. Some hats ar=
+e common and cheap; others are rare and expensive.
+There is an active secondary market for hats, in which players can sell the=
+ hats they own or buy hats from others, for real money. This market is admi=
+nistered by QuestCo, and QuestCo does not allow trading outside of its own =
+platform. So someone who has a rare teal hat might list it for sale for $1,=
+000, and if you covet that hat for your character you can pay $1,000 for it=
+. You use your credit card or a bank transfer to put $1,000 into your accou=
+nt at QuestCo, and then you click to buy the hat, and QuestCo=C2=A0takes th=
+e $1,000 out of your account and transfers it to the seller=E2=80=99s accou=
+nt. Actually QuestCo collects a 5% fee on the trade, so the seller gets $95=
+0. She gets $950 in her QuestCo account, that is. If she wants to take that=
+ money out =E2=80=94=C2=A0to put it in her bank account =E2=80=94=C2=A0Ques=
+tCo will send her a bank transfer, but it will take another fee for cashing=
+ her out. Also maybe there will be a delay of a few weeks between when she =
+asks to withdraw the money and when she gets it. QuestCo is a video-game co=
+mpany, not a=C2=A0bank, and it might not be super-efficient at processing w=
+ithdrawals.
+The more popular the game is, and the more active and successful the compan=
+y is at promoting the value of having a cool hat for your character, the mo=
+re valuable the hats will be. If you buy a burgundy hat on the secondary ma=
+rket for $20, and then MattQuest becomes vastly more popular and lots of ce=
+lebrities go on talk shows to talk about how they covet a burgundy=C2=A0hat=
+ for their MattQuest characters, then you might be able to resell your hat =
+for $10,000. And then of course this will be self-reinforcing:=C2=A0You=C2=
+=A0can go on talk shows, or at least YouTube,=C2=A0and talk about how you g=
+ot rich trading MattQuest hats, and other people will see you and say =E2=
+=80=9Chey I want that=E2=80=9D and buy=C2=A0hats and push the price still h=
+igher.
+Are the hats =E2=80=9Csecurities,=E2=80=9D under US law? The  relevant defi=
+nition is the Howey test, which says that something is a security if =E2=80=
+=9Cthere is the investment of money in a common enterprise with a reasonabl=
+e expectation of profits to be derived from the efforts of others.=E2=80=9D=
+ Here I think the analysis would go like:
+=09You invested money, by putting money into your account to buy hats.=09Th=
+ere is a common enterprise, in the sense that you and everyone else=C2=A0ar=
+e=C2=A0giving the money to QuestCo, playing=C2=A0MattQuest and trading hats=
+ on the QuestCo-controlled market.=09There is=C2=A0possibly=C2=A0an expecta=
+tion of profit, in the sense that you might be buying the hats because you =
+think the price will go up. This one is fuzzy, I think: Maybe you buy a hat=
+ because you think that it looks nice on your character. But=C2=A0if QuestC=
+o is going around=C2=A0telling=C2=A0everyone, like, =E2=80=9Cbuying MattQue=
+st hats is a great way to fund your retirement, they have gone up by 18% ev=
+ery quarter=E2=80=9D or whatever, then that sounds like an expectation of p=
+rofit.
+  [1]
+
+=09The profits are derived from the efforts of others, in the sense that Qu=
+estCo is in charge of developing and promoting the game, and the hats.
+
+So, I mean, I dunno, maybe. If the hats are securities, then QuestCo has to=
+ register them with the US Securities and Exchange Commission =E2=80=94=C2=
+=A0meaning that it has to provide a lot of public disclosure, including ris=
+k factors, audited financial statements, and management discussion of its b=
+usiness =E2=80=94=C2=A0if it wants to sell them to the public in the US.
+  [2]
+ You might be interested in that disclosure! For instance, if you are about=
+ to transfer a million dollars into your QuestCo account to fund a hat-buyi=
+ng spree, you might want to take a look at QuestCo=E2=80=99s audited balanc=
+e sheet and see how much money it has. If the balance sheet is like =E2=80=
+=9CLIABILITIES: $100 million in customer hat accounts; ASSETS: some imagina=
+ry hats,=E2=80=9D you might worry. You might think thoughts like: =E2=80=9C=
+Wait, if they owe customers $100 million, do they actually have $100 millio=
+n in cash?=E2=80=9D Or=C2=A0like: =E2=80=9CWait, if I put my $1 million int=
+o QuestCo, and then do some profitable hat trading and end up with $3 milli=
+on, will I actually be able to cash it out?=E2=80=9D
+  [3]
+=C2=A0The hats=C2=A0are=C2=A0an investment in QuestCo in the sense that you=
+ give QuestCo money, and then you wait, and then you=C2=A0hope it will give=
+ you back your money, so having some disclosure about its financial circums=
+tances would be useful.
+I am not particularly a gamer, and I am also not actually a securities lawy=
+er,=C2=A0but my vague sense is that (1) there are games that work kind of l=
+ike this, (2) they do not register their in-game items as securities and (3=
+) no one gets particularly worked up about that. You can see the argument t=
+hat the hats are securities, but, you know. They are hats in a video game. =
+They don=E2=80=99t really feel=C2=A0like securities.
+On the other hand if you call the hats=C2=A0=E2=80=9Cnon-fungible tokens=E2=
+=80=9D and replace the words =E2=80=9C$1,000 in your account at QuestCo=E2=
+=80=9D with the words =E2=80=9C$1,000 worth of tokens on the Quest blockcha=
+in,=E2=80=9D then:
+=09For like 15 minutes in 2021 you could have sparked a speculative frenzy =
+where the hats were selling for millions of dollars; and=09When the prices =
+inevitably crashed, people would inevitably sue you for securities fraud.
+
+Those things are linked: The speculative frenzy is what made you all the mo=
+ney, but the speculative frenzy is also what convinced everyone that the ha=
+ts were securities. NFTs were a new thing =E2=80=94=C2=A0though they were a=
+lso kind of like hats in video games =E2=80=94=C2=A0which made people open =
+to believing that they might be worth millions of dollars, but which=C2=A0a=
+lso=C2=A0made people open to believing that they might be securities. And t=
+he main problem with securities is that, if you sell them to the general pu=
+blic and you=C2=A0don=E2=80=99t=C2=A0register those sales, the buyers can d=
+emand their money back. If you sold millions of dollars=E2=80=99 worth of u=
+nregistered securities during a huge bubble, and then the bubble popped, th=
+at=E2=80=99s bad.
+Anyway, not hats, but   highlights of basketball games:
+
+The creator of the National Basketball Association=E2=80=99s Top Shot NFTs =
+must face a lawsuit accusing it of selling unregistered securities, marking=
+ a new development in a broader fight over how to classify cryptoassets lik=
+e nonfungible tokens.
+In the suit, filed in 2021, purchasers of Top Shot Moments =E2=80=94 digita=
+l video clips of highlights from NBA games =E2=80=94 allege that Dapper Lab=
+s violated US securities law by offering the items without registering them=
+ with regulators and that Dapper improperly used its control over the popul=
+ar collectibles.
+US District Judge Victor Marrero on Wednesday denied a request by Dapper to=
+ throw out the suit before trial, finding that the plaintiffs had adequatel=
+y alleged that Moments are securities for the case to go forward. Marrero s=
+aid that the trading of Moments is limited to the company=E2=80=99s Flow bl=
+ockchain and that purchasers therefore rely on Dapper=E2=80=99s expertise a=
+nd management =E2=80=9Cas well as its continued existence.=E2=80=9D
+=E2=80=9CHypothetically, if Upper Deck or Topps, two longtime producers of =
+physical sports trading cards, were to go out of business, the value of the=
+ cards they sold would be wholly unaffected, and may even increase, much li=
+ke posthumously discovered art,=E2=80=9D the judge wrote.=C2=A0
+He continued: =E2=80=9CThat is not true here, where plaintiffs allege that =
+the pooling of capital generated from the sale of Moments propped up the Fl=
+ow Blockchain and where the value of Moments is intertwined with the succes=
+s of that blockchain and Dapper Labs.=E2=80=9D
+
+Here is  the opinion, and I think it is worth noting how involved Dapper is=
+ in every part of the investment. Top Shot Moments are not non-fungible tok=
+ens on some public third-party blockchain like Ethereum or Solana; instead,=
+ they exist on Dapper=E2=80=99s =E2=80=9Cown private blockchain, Flow,=E2=
+=80=9D=20
+  [4]
+though I suppose that characterization is debatable and  Dapper says that F=
+low is now decentralized. But the way you transfer money onto the Flow bloc=
+kchain to buy Top Shot Moments does seem to run through Dapper. Specificall=
+y (citations omitted):
+
+Dapper Labs, which maintains a digital wallet, called a =E2=80=9CDapper Wal=
+let,=E2=80=9D for all users to facilitate payments, also takes a =E2=80=9Cc=
+ash-out fee=E2=80=9D when purchasers transfer their balance from the Dapper=
+ Wallet to their bank account.=C2=A0
+Moments purchasers who sought to withdraw their cash off of the NBA Top Sho=
+t application have not always been able to do so, nor has it been quick. On=
+ March 26, 2021, Dapper Labs published on the NBA Top Shot website that wit=
+hdrawals would first be enabled in six to eight weeks. Once=C2=A0enabled, D=
+apper Labs stated that withdrawals would be =E2=80=9Cprocessed within 21 da=
+ys but others may take 40 days or more.=E2=80=9D=C2=A0Not all persons on th=
+e NBA Top Shot platform had withdrawal capabilities enabled by Dapper Labs,=
+ and Plaintiffs allege that, even once Dapper Labs enabled the functionalit=
+y, many were not able to withdraw their funds. =E2=80=A6
+Plaintiffs also allege that purchasers=E2=80=99 capital is then held by Dap=
+per Labs in Dapper-controlled wallets. Further, they contend that Dapper La=
+bs has been retaining purchasers=E2=80=99 cash on its books for months afte=
+r withdrawals are requested to help =E2=80=9Craise money at a high valuatio=
+n,=E2=80=9D to =E2=80=9Cprop up the value of the [FLOW] token,=E2=80=9D bec=
+ause, without capital on the platform, =E2=80=9Cthe platform will collapse.=
+=E2=80=9D=C2=A0
+
+The point is that if you give money to a company and the company says you g=
+ot some return on your investment and you ask for your money back and the c=
+ompany keeps your money for as long as it feels like, then that does feel m=
+ore like an investment=C2=A0in the company=C2=A0than like a decentralized p=
+ermissionless whatever. It is like my MattQuest hats. You=E2=80=99d want to=
+ know things like, does Dapper have the money?
+The rest of the opinion is fairly straightforward and along the lines we di=
+scussed for the hats: investment, common enterprise, expectation of profits=
+, efforts of others. The =E2=80=9Cexpectation of profits=E2=80=9D prong is,=
+ I think, the weakest: What if you were just buying these Moments because y=
+ou love watching basketball highlights and you want to =E2=80=9Cown,=E2=80=
+=9D in some abstract sense, copies of limited editions of some of those hig=
+hlights? But as with everything in crypto, there are awkward tweets where N=
+BA Top Shot=E2=80=99s Twitter account promoted=C2=A0not the coolness of the=
+ highlight videos, but the amounts of money involved in Top Shots trading. =
+The opinion quotes some of them, and adds:
+Each Tweet promotes a recent sale or statistics of recent sales of Moments =
+on the Marketplace. And although the literal word =E2=80=9Cprofit=E2=80=9D =
+is not included in any of the Tweets, the =E2=80=9Crocket ship=E2=80=9D emo=
+ji, =E2=80=9Cstock chart=E2=80=9D emoji, and =E2=80=9Cmoney bags=E2=80=9D e=
+moji objectively mean one thing: a financial return on investment.
+Well, there you go, a court ruling that the =E2=80=9Crocket ship=E2=80=9D e=
+moji =E2=80=9Cobjectively mean[s] one thing: a financial return on investme=
+nt.=E2=80=9D=C2=A0
+This is not a definitive ruling that these NFTs are securities =E2=80=94=C2=
+=A0it is just a preliminary stage of the case =E2=80=94=C2=A0and it is cert=
+ainly not a ruling that all NFTs are securities; the control that Dapper ha=
+s over the investment here seems important. Also this is a case brought by =
+private plaintiffs who bought Top Shot Moments during the bubble, not the S=
+EC; the SEC   tends to think that everything is a security, but has not rea=
+lly=C2=A0gone around claiming that NFTs are securities.
+  [5]
+
+But the main fact of crypto regulation in the US in 2023 is that the SEC is=
+ cracking down by saying that everything is a security, and some crypto bus=
+inesses are pushing back, arguing in court that in fact=C2=A0not everything=
+ in crypto is a security. My assumption is that, especially after the crypt=
+o collapse last year, courts are going to be very sympathetic to the SEC=E2=
+=80=99s arguments, and very inclined to believe that everything is a securi=
+ty. This decision=C2=A0is another sign of that.
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Ozy
+   =20
+ =20
+
+I guess  this was inevitable:
+
+Ozy Media Chief Executive Carlos Watson was arrested Thursday morning after=
+ a former executive with whom he founded the embattled startup pleaded guil=
+ty to fraud charges in a secretive federal court proceeding.
+Mr. Watson was taken into custody and is expected to be arraigned in a Broo=
+klyn, N.Y., federal court on charges of conspiring to commit securities fra=
+ud and conspiring to commit wire fraud, according to a law-enforcement offi=
+cial. Ozy came under federal scrutiny for its business practices after the =
+New York Times reported in 2021 that its then-chief operating officer, Sami=
+r Rao, impersonated an executive of Alphabet Inc.=E2=80=99s YouTube during =
+a fundraising call with Goldman Sachs Group Inc.=C2=A0
+=E2=80=9CWe are really disappointed,=E2=80=9D Lanny Breuer, Mr. Watson=E2=
+=80=99s lawyer, said of his client=E2=80=99s arrest. =E2=80=9CWe have been =
+acting in good faith and believe we had a constructive dialogue with the go=
+vernment and are shocked by the actions this morning.=E2=80=9D=C2=A0
+Mr. Rao pleaded guilty Tuesday in Brooklyn federal court to fraud and ident=
+ity theft charges, under a court-approved John Doe pseudonym. He admitted t=
+o a U.S. magistrate judge that between 2018 and 2021 he made misleading sta=
+tements to investors and inflated the company=E2=80=99s financial performan=
+ce. He also said he falsely used the identity of another person without the=
+ authority to do so between February 2020 and February 2021.=C2=A0
+
+We   talked in 2021 about the time that Rao impersonated a YouTube executiv=
+e on a due diligence call with Goldman. =E2=80=9COrdinarily if I were telli=
+ng you this story,=E2=80=9D I wrote,=C2=A0=E2=80=9CI=E2=80=99d be quoting f=
+rom a federal criminal complaint, or at least a Securities and Exchange Com=
+mission enforcement action, but nope everything is fine!=E2=80=9D Well, now=
+ there is  a federal criminal case, and also an SEC enforcement action.=C2=
+=A0From the  prosecutors=E2=80=99 announcement:
+
+An indictment was unsealed this morning in federal court in Brooklyn chargi=
+ng OZY Media Inc. (Ozy), a media and entertainment company headquartered in=
+ Mountain View, California, and its founder and Chief Executive Officer, Ca=
+rlos Watson, with conspiracy to commit securities fraud and conspiracy to c=
+ommit wire fraud in connection with a scheme to defraud Ozy=E2=80=99s inves=
+tors and lenders by making material misrepresentations about Ozy=E2=80=99s =
+financial and business assets. =C2=A0Watson is also charged with aggravated=
+ identity theft for his role in the impersonation of multiple media company=
+ executives in communications with Ozy=E2=80=99s lenders and prospective in=
+vestors in furtherance of the fraud schemes.=C2=A0 =E2=80=A6
+=E2=80=9CAs alleged, Carlos Watson is a con man whose business strategy was=
+ based on outright deceit and fraud =E2=80=93 he ran Ozy as a criminal orga=
+nization rather than as a reputable media company,=E2=80=9D stated United S=
+tates Attorney Peace. =C2=A0=E2=80=9CInvestment fraud undermines confidence=
+ in our nation=E2=80=99s markets and investors and makes it harder for hone=
+st businesses to compete. =C2=A0Our Office and the Department of Justice ha=
+ve made it clear that prosecuting corporations and their corrupt executives=
+ who flagrantly violate the law are top priorities.=E2=80=9D
+=E2=80=9CAs the indictment today alleges, Watson repeatedly attempted to en=
+tice both investors and lenders through a series of deliberate deceptions a=
+nd fabrications. =C2=A0The FBI and our partners in law enforcement will hol=
+d any individual willing to defraud investors and financial institutions ac=
+countable in the criminal justice system,=E2=80=9D stated Assistant Directo=
+r-in-Charge Driscoll.
+
+=E2=80=9CHis role in the impersonation of multiple media company executives=
+=E2=80=9D!? Multiple? What? Here=E2=80=99s the other one:
+In December 2019, Watson and his co-conspirators attempted to induce a bank=
+ to lend Ozy money based on misrepresentations and omissions about Ozy=E2=
+=80=99s business. =C2=A0Watson and his co-conspirators sought to secure the=
+ loan with anticipated revenues from a second season of an Ozy television s=
+how. =C2=A0However, the contract between Ozy and the show=E2=80=99s cable n=
+etwork for the second season of the show was still under negotiation. =C2=
+=A0To induce the bank to make the loan sooner, Watson directed Ozy=E2=80=99=
+s then-Chief Financial Officer (CFO) to send the bank a fake signed contrac=
+t between Ozy and the cable network purporting to be for the second season.=
+ =C2=A0When the then-CFO refused, Rao, with Watson=E2=80=99s approval, sent=
+ the fake contract =E2=80=94 which contained terms favorable to Ozy and a f=
+orged signature =E2=80=94 to the bank, copying the then-CFO. =C2=A0Later th=
+at day, the then-CFO emailed Watson and Rao to say that she was resigning e=
+ffective immediately. =C2=A0She explained, =E2=80=9Cthis . . . is illegal. =
+=C2=A0This is fraud. =C2=A0This is forging someone=E2=80=99s signature with=
+ the intent of getting an advance from a publicly traded bank.=E2=80=9D =C2=
+=A0She continued, =E2=80=9CTo be crystal clear, what you see as a measured =
+risk =E2=80=94 I see as a felony.=E2=80=9D
+I mean, yes, but I am a little confused that she sent that email in 2019 an=
+d the charges are only coming in 2023? Like if you send that email to your =
+boss on the way out the door, isn=E2=80=99t your next stop at the SEC to ge=
+t a whistleblower deal? Also here is this about the YouTube call:
+On or about February 2, 2021, Rao had a call with employees of the financia=
+l institution during which he impersonated a media executive from the onlin=
+e video service using a voice alteration application that he downloaded ont=
+o his cellular telephone to mask his voice during the call. =C2=A0During th=
+e call, Watson was in the same room as Rao, and texted Rao instructions abo=
+ut what to say and what not to say on the call. =C2=A0Shortly after the cal=
+l, one of the employees of the financial institution contacted the actual m=
+edia executive of the online video service, who confirmed that he had not b=
+een on the call and that the online video service had no role in the produc=
+tion of The Carlos Watson Show. =C2=A0When members of the financial institu=
+tion later spoke with Watson, he falsely claimed that Rao had acted alone a=
+nd as a result of a mental breakdown.
+The indictment  describes the text messages:
+Throughout the call, the defendant CARLOS WATSON sent a series of text mess=
+ages to Rao, which included instructions of what to say and not say. For ex=
+ample, at approximately 11:19 a.m. (EST), WATSON texted Rao, 'i am a big fa=
+n of Carlos, Samir and the show." At approximately 11:21 a.m. (EST), WATSON=
+ texted Rao, "Use the right pronouns ... You are NOT OZY." At approximately=
+ 11:26 a.m. (EST), after Rao had repeatedly used the first name of one of t=
+he employees of Financial Institution 1 who was on the call, WATSON texted =
+Rao, "Stop using her name."
+I guess Rao kept saying =E2=80=9Cwe=E2=80=9D when he meant =E2=80=9COzy=E2=
+=80=9D? Which an actual YouTube executive would not say? And he kept addres=
+sing the Goldman employee by name, because he is a salesperson (and a forme=
+r Goldman employee himself), but of course an actual YouTube executive hopp=
+ing on a random diligence call probably wouldn=E2=80=99t even know her name=
+? Not so easy to impersonate people, is it?
+Those are just the=C2=A0impersonation=C2=A0charges, but there are various m=
+ore normal sorts of alleged fraud too. Watson  allegedly told a broker =E2=
+=80=9Cthat a well-known hedge fund manager =E2=80=A6=C2=A0had already commi=
+tted a $5 million investment=E2=80=9D to Ozy=E2=80=99s Series C round; the =
+manager was actually in the round but for just under $1 million. A pitch de=
+ck allegedly =E2=80=9Cstated that Ozy=E2=80=99s 2018 revenue was $22 millio=
+n when, in fact, it was about $10 million, and that certain well-known inve=
+stors were =E2=80=98leading=E2=80=99 the Series C round, when they were not=
+.=E2=80=9D In the Series D round, Watson and Rao allegedly told the broker =
+=E2=80=9Cthat a television star=E2=80=99s company and a famous live enterta=
+inment company would be leading the round,=E2=80=9D when they were not inve=
+stors at all.=C2=A0In the pitch to Goldman, they sent a deck that allegedly=
+ =E2=80=9Cinflated Ozy=E2=80=99s earnings before interest, taxes, depreciat=
+ion, and amortization (=E2=80=98EBITDA=E2=80=99) numbers by over 70% for 20=
+18 and approximately 80% for 2019.=E2=80=9D=C2=A0
+One thing that we   talk about=C2=A0sometimes=C2=A0around here is that ther=
+e is probably a certain leeway for private companies to, uh, exaggerate sli=
+ghtly in their fundraising pitches. Not legal advice or anything! But the i=
+nvestors kind of expect it: They=C2=A0want=C2=A0visionary, envelope-pushing=
+, see-the-world-not-as-it-is-but-as-it-could-be founders, so they are willi=
+ng to tolerate some founders who are not constrained by reality, and to wri=
+te off fraud losses as =E2=80=9Cwell, lots of startups fail.=E2=80=9D Plus =
+the audience for startup pitches is smaller than that for public companies,=
+ and the investors don=E2=80=99t want to be embarrassed: If you got hoodwin=
+ked by a startup, it doesn=E2=80=99t really do much for your reputation to =
+go around complaining about it loudly.
+Is Ozy the first private company to send an investor a pitch deck that infl=
+ated its Ebitda by 70% or 80%? Probably not, no. But in recent years there =
+does seem to have been a bit of a crackdown on private-company securities f=
+raud. Some of that is due to   the influence of Theranos, I think, and some=
+ of it is just that private markets are bigger and more important than they=
+ used to be. =E2=80=9CPrivate markets are the new public markets,=E2=80=9D =
+I sometimes say, and if you can raise billions of dollars from big institut=
+ions in private markets then you probably will get treated more like a publ=
+ic company.
+Also the main thing is probably just that if you do a fraud that is so egre=
+gious and hilarious that it becomes national news, you will get in trouble.=
+ If you are marking up your Ebitda a bit in pitches to private investors, p=
+rosecutors and the SEC might never hear about it, but if you are doing mult=
+iple elaborate impersonations to raise money you are eventually going to at=
+tract attention.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Young VCs are sad
+   =20
+ =20
+
+If you left investment banking or consulting a year ago to become a junior =
+investor at a venture capital firm, I guess your timing was bad: VC fundrai=
+sing has dried up, investment opportunities are thinner, the crypto thing d=
+ied down and nobody is getting instantly rich the way they were not so long=
+ ago. Here is a fun  Business Insider article about how the young VCs are s=
+ad:
+
+"I feel like I got catfished," one growth-stage investor said.
+Young VCs who were formerly investment bankers or consultants told Insider =
+that faltering deal flow and cost-cutting within firms have led to increase=
+d competition and stress among their peers. ...
+One young investor told Insider that, while VCs might have spent 70% to 80%=
+ of their time doing diligence for deals in 2021, they now divide up their =
+time equally between sourcing, deal diligence, and portfolio-company adviso=
+ry.
+"Before you were window shopping, and all the opportunities were in the win=
+dow," the investor said. "Now you have to go into the stores and rummage th=
+rough the racks."
+
+Yes, right, this is a general feature of financial markets, and of life rea=
+lly:
+=09When a market is going up consistently, it is easy to make money.=09New =
+entrants flock to markets where it is easy to make money.=09Then the bubble=
+ pops and it turns out to be=C2=A0hard for all the new entrants to make mon=
+ey.
+
+The article gets pretty grim. One way for young VCs to add value in a down =
+market is to do a lot of cold emailing:
+Two investors said that their firms release weekly leaderboards for the num=
+ber of calls and emails employees send to startups =E2=80=94 one said that =
+the number of emails they're expected to send weekly can break into the tri=
+ple digits.
+But there are other, even grimmer ways for young VCs to add value. They cou=
+ld be making educational content about venture capital on TikTok:
+
+Others said that the tough times may encourage young investors to try new a=
+pproaches to winning deals and making names for themselves in the VC commun=
+ity, like brand-building or organically growing a following on social-media=
+ platforms such as Twitter, YouTube, and TikTok.
+Some young investors like Nicole DeTommaso, who left investment banking to =
+intern at Harlem Capital in 2020, started posting regular detailed Twitter =
+threads on how to break into venture capital in the second half of 2021. Sh=
+e's since been promoted to senior associate and has grown her audience to o=
+ver 40,000 followers, some of whom even help her with certain due-diligence=
+ processes, she told Insider. "If someone has a deal they recently looked a=
+t that fits my or Harlem Capital's thesis and then they see my name pop up =
+on their feed, they're more likely to remember to share it with me," she sa=
+id.=C2=A0
+Sam Loui, a former Techstars global startup-pipeline coordinator, told Insi=
+der that her educational startup and VC TikTok channel actually helped with=
+ "sourcing and nurturing potential startups" for Techstars by "demonstratin=
+g helpfulness," which inspired startups to apply to the firm's many acceler=
+ator programs.=C2=A0
+
+There is something very venture-capital-y about this: In tough times, VCs g=
+et back to basics, but the basics are creating online content about about h=
+ow to get a job in VC.
+
+ =20
+   =20
+      MoviePass
+   =20
+ =20
+
+MoviePass was a company that sold its customers=C2=A0unlimited $12 movie ti=
+ckets for $10 a month, bought the tickets at full price, and lost hundreds =
+of millions of dollars. In order to cut down its losses, it would sometimes=
+   change customers=E2=80=99 passwords so they couldn=E2=80=99t log into th=
+eir accounts and get movie tickets (but still had to pay their $10 monthly =
+fee). Eventually its top executives   were indicted, accused of securities =
+fraud. This was not a well-run company, nor one that was committed to the h=
+ighest ethical standards, nor one that was all that careful with money. If =
+you worked there and wanted to submit $260,000 of fake invoices to pay for =
+a party at Coachella, would anyone stop you? No, it turns out,   the pretty=
+ unsurprising answer is no:
+
+A former MoviePass Inc. executive embezzled $260,000 to repay a loan he too=
+k out for a party he organized months earlier at the Coachella music festiv=
+al in California, federal prosecutors allege.
+Khalid Itum, 42, was arrested Tuesday and charged with two counts of wire f=
+raud and two counts of money laundering, the US Department of Justice said =
+in a statement. Itum, a Jordanian citizen who lives in Los Angeles, pleaded=
+ not guilty and was released on a $75,000 bond.
+In 2017, before joining MoviePass, Itum created Kaleidoscope Productions LL=
+C and borrowed money from two individuals to put on the party during the Ap=
+ril music festival in Indio, east of Los Angeles, according to the indictme=
+nt. In November 2017, he became an executive at MoviePass, which had been a=
+cquired by Helios & Matheson Analytics a few months earlier.=C2=A0
+To repay the money he owed for the Coachella party, Itum submitted sham inv=
+oices to Helios & Matheson for services he claimed were rendered by Kaleido=
+scope and a different company he owned, prosecutors said. Helios & Matheson=
+ paid the invoices, even though neither it nor MoviePass were involved in t=
+he Coachella event, prosecutors said.=C2=A0
+
+Yeah no that makes a lot of sense.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Third Point to Launch Proxy Fight at  Bath & Body Works. Home Lenders Hunt =
+for Ways to Make  6% Mortgages More Attractive.=C2=A0After Multibillion-Dol=
+lar   Fintech Binge, Wall Street Has a Writedown Hangover. Apollo Mulls $75=
+0 Million   First Boston Leveraged-Finance Bet. World Bank Touts an ESG Bon=
+d It Says Is   =E2=80=98Immune=E2=80=99 to Greenwashing. More States Push B=
+ack Against GOP=E2=80=99s   Anti-ESG Campaign.  Stablecoins Attract Scrutin=
+y in SEC=E2=80=99s Drive to Control Crypto.   Space Billionaire=E2=80=99s F=
+ortune Surges on Ambition to Beat China to Moon. Hundreds of  Energy Depart=
+ment Officials Hold Stocks Related to Agency=E2=80=99s Work Despite Warning=
+s. Police warn 'do not engage'  man in Cookie Monster costume terrorising c=
+ity.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] I think that there is a reasonable argument that the =E2=80=9Cexpecta=
+tion of profits=E2=80=9D prong of the Howey test ought to mean, like, =E2=
+=80=9Cexpectation of cash flow from the underlying enterprise=E2=80=9D rath=
+er than =E2=80=9Cgetting a thing with no cash-flow rights and expecting to =
+sell it at a higher price due to an irrational frenzy kicked up by the unde=
+rlying enterprise.=E2=80=9D But this is a somewhat metaphysical point, I am=
+ sure that the US Securities and Exchange Commission does not believe it, a=
+nd I suspect that courts don=E2=80=99t either.
+
+
+  [2] Or it can not sell them in the US, or sell them only to wealthy accre=
+dited investors, both options that somewhat detract from the *game*.
+
+
+  [3] Obviously this generalizes to any company that runs an exchange and h=
+olds your money for you.   FTX, for instance!
+
+
+  [4] Also: =E2=80=9COwnership of the Moments, the price paid for the Momen=
+ts, and the transfer and sale of the Moments in the Marketplace are all rec=
+orded on only the Flow Blockchain. Dapper Labs does not recognize and does =
+not endorse Moments being sold or traded outside of the Marketplace.=E2=80=
+=9D
+
+
+  [5] And so, when an employee of an NFT trading platform was   arrested fo=
+r insider trading its NFTs, he was arrested for *wire* fraud and *not* char=
+ged by the SEC.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci8q5j.5jeu/2f4481bf.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_22317483_825436781.1677177831501
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Imagine a video game. There=E2=80=99s an online multiplayer video game, Mat=
+tQuest, made and run by a video-game company, QuestCo. In the game you pl
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDY0MDIzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4OTg2Njkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBa464c875" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30640231&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMjIzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMjMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB4ee9c630"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDY0MDIzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4OTg2Njkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC93ba933e" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30640231&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Are NFTs securities?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Imagine a video game. There=E2=80=99s an onlin=
+e multiplayer video game, MattQuest, made and run by a video-game company, =
+QuestCo. In the game you play a character, and the character can wear a hat=
+. QuestCo periodically releases exciting new limited-edition hats for chara=
+cters, which you can buy, from the company, with real money. You give them =
+your credit card and they bill you $10 and now your character has a purple =
+hat or whatever. Some hats are common and cheap; others are rare and expens=
+ive.</p>
+<p style=3D"margin: 16px 0;">There is an active secondary market for hats, =
+in which players can sell the hats they own or buy hats from others, for re=
+al money. This market is administered by QuestCo, and QuestCo does not allo=
+w trading outside of its own platform. So someone who has a rare teal hat m=
+ight list it for sale for $1,000, and if you covet that hat for your charac=
+ter you can pay $1,000 for it. You use your credit card or a bank transfer =
+to put $1,000 into your account at QuestCo, and then you click to buy the h=
+at, and QuestCo=C2=A0takes the $1,000 out of your account and transfers it =
+to the seller=E2=80=99s account. Actually QuestCo collects a 5% fee on the =
+trade, so the seller gets $950. She gets $950 in her QuestCo account, that =
+is. If she wants to take that money out =E2=80=94=C2=A0to put it in her ban=
+k account =E2=80=94=C2=A0QuestCo will send her a bank transfer, but it will=
+ take another fee for cashing her out. Also maybe there will be a delay of =
+a few weeks between when she asks to withdraw the money and when she gets i=
+t. QuestCo is a video-game company, not a=C2=A0bank, and it might not be su=
+per-efficient at processing withdrawals.</p>
+<p style=3D"margin: 16px 0;">The more popular the game is, and the more act=
+ive and successful the company is at promoting the value of having a cool h=
+at for your character, the more valuable the hats will be. If you buy a bur=
+gundy hat on the secondary market for $20, and then MattQuest becomes vastl=
+y more popular and lots of celebrities go on talk shows to talk about how t=
+hey covet a burgundy=C2=A0hat for their MattQuest characters, then you migh=
+t be able to resell your hat for $10,000. And then of course this will be s=
+elf-reinforcing:=C2=A0<em>You=C2=A0</em>can go on talk shows, or at least Y=
+ouTube,=C2=A0and talk about how you got rich trading MattQuest hats, and ot=
+her people will see you and say =E2=80=9Chey I want that=E2=80=9D and buy=
+=C2=A0hats and push the price still higher.</p>
+<p style=3D"margin: 16px 0;">Are the hats =E2=80=9Csecurities,=E2=80=9D und=
+er US law? The <a href=3D"https://link.mail.bloombergbusiness.com/click/306=
+40231.258438/aHR0cHM6Ly93d3cuc2VjLmdvdi9jb3JwZmluL2ZyYW1ld29yay1pbnZlc3RtZW=
+50LWNvbnRyYWN0LWFuYWx5c2lzLWRpZ2l0YWwtYXNzZXRz/607f07ceef4b8524a319a23cB8eb=
+2301f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> relevant definition</a> is the Howey test, which says that =
+something is a security if =E2=80=9Cthere is the investment of money in a c=
+ommon enterprise with a reasonable expectation of profits to be derived fro=
+m the efforts of others.=E2=80=9D Here I think the analysis would go like:<=
+/p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You invested money, by putting money =
+into your account to buy hats.</li>=09<li style=3D"margin-bottom: 5px;">The=
+re is a common enterprise, in the sense that you and everyone else=C2=A0are=
+=C2=A0giving the money to QuestCo, playing=C2=A0MattQuest and trading hats =
+on the QuestCo-controlled market.</li>=09<li style=3D"margin-bottom: 5px;">=
+There is=C2=A0<em>possibly=C2=A0</em>an expectation of profit, in the sense=
+ that you might be buying the hats because you think the price will go up. =
+This one is fuzzy, I think: Maybe you buy a hat because you think that it l=
+ooks nice on your character. But=C2=A0if QuestCo is going around=C2=A0<em>t=
+elling=C2=A0</em>everyone, like, =E2=80=9Cbuying MattQuest hats is a great =
+way to fund your retirement, they have gone up by 18% every quarter=E2=80=
+=9D or whatever, then that sounds like an expectation of profit.<a class=3D=
+"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: none !important; background-color: transparent !imp=
+ortant; display: inline-block;">
+<span>[1]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">The profits are derived from the =
+efforts of others, in the sense that QuestCo is in charge of developing and=
+ promoting the game, and the hats.</li>
+</ol>
+<p style=3D"margin: 16px 0;">So, I mean, I dunno, maybe. If the hats are se=
+curities, then QuestCo has to register them with the US Securities and Exch=
+ange Commission =E2=80=94=C2=A0meaning that it has to provide a lot of publ=
+ic disclosure, including risk factors, audited financial statements, and ma=
+nagement discussion of its business =E2=80=94=C2=A0if it wants to sell them=
+ to the public in the US.<a class=3D"footnote-index" href=3D"#footnote-2" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: none !important=
+; background-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a> You might be interested in that disclosure! For instance, if you are a=
+bout to transfer a million dollars into your QuestCo account to fund a hat-=
+buying spree, you might want to take a look at QuestCo=E2=80=99s audited ba=
+lance sheet and see how much money it has. If the balance sheet is like =E2=
+=80=9CLIABILITIES: $100 million in customer hat accounts; ASSETS: some imag=
+inary hats,=E2=80=9D you might worry. You might think thoughts like: =E2=80=
+=9CWait, if they owe customers $100 million, do they actually have $100 mil=
+lion in cash?=E2=80=9D Or=C2=A0like: =E2=80=9CWait, if I put my $1 million =
+into QuestCo, and then do some profitable hat trading and end up with $3 mi=
+llion, will I actually be able to cash it out?=E2=80=9D<a class=3D"footnote=
+-index" href=3D"#footnote-3" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: none !important; background-color: transparent !important; d=
+isplay: inline-block;">
+<span>[3]</span>
+</a>=C2=A0The hats=C2=A0<em>are=C2=A0</em>an investment in QuestCo in the s=
+ense that you give QuestCo money, and then you wait, and then you=C2=A0hope=
+ it will give you back your money, so having some disclosure about its fina=
+ncial circumstances would be useful.</p>
+<p style=3D"margin: 16px 0;">I am not particularly a gamer, and I am also n=
+ot actually a securities lawyer,=C2=A0but my vague sense is that (1) there =
+are games that work kind of like this, (2) they do not register their in-ga=
+me items as securities and (3) no one gets particularly worked up about tha=
+t. You can see the argument that the hats are securities, but, you know. Th=
+ey are hats in a video game. They don=E2=80=99t really <em>feel=C2=A0</em>l=
+ike securities.</p>
+<p style=3D"margin: 16px 0;">On the other hand if you call the hats=C2=A0=
+=E2=80=9Cnon-fungible tokens=E2=80=9D and replace the words =E2=80=9C$1,000=
+ in your account at QuestCo=E2=80=9D with the words =E2=80=9C$1,000 worth o=
+f tokens on the Quest blockchain,=E2=80=9D then:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">For like 15 minutes in 2021 you could=
+ have sparked a speculative frenzy where the hats were selling for millions=
+ of dollars; and</li>=09<li style=3D"margin-bottom: 5px;">When the prices i=
+nevitably crashed, people would inevitably sue you for securities fraud.</l=
+i>
+</ol>
+<p style=3D"margin: 16px 0;">Those things are linked: The speculative frenz=
+y is what made you all the money, but the speculative frenzy is also what c=
+onvinced everyone that the hats were securities. NFTs were a new thing =E2=
+=80=94=C2=A0though they were also kind of like hats in video games =E2=80=
+=94=C2=A0which made people open to believing that they might be worth milli=
+ons of dollars, but which=C2=A0<em>also=C2=A0</em>made people open to belie=
+ving that they might be securities. And the main problem with securities is=
+ that, if you sell them to the general public and you=C2=A0<em>don=E2=80=99=
+t=C2=A0</em>register those sales, the buyers can demand their money back. I=
+f you sold millions of dollars=E2=80=99 worth of unregistered securities du=
+ring a huge bubble, and then the bubble popped, that=E2=80=99s bad.</p>
+<p style=3D"margin: 16px 0;">Anyway, not hats, but <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30640231.258438/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMjIvbmJhLXRvcC1zaG90LW5mdHMtYXJlLXNlY=
+3VyaXRpZXMtanVkZ2Utc2F5cy1pbi1sYW5kbWFyay1jYXNlP2NtcGlkPUJCRDAyMjMyM19NT05F=
+WVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI=
+zMDIyMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb579683f" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  highlights of basketball games</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The creator of the National Basketball Associa=
+tion=E2=80=99s Top Shot NFTs must face a lawsuit accusing it of selling unr=
+egistered securities, marking a new development in a broader fight over how=
+ to classify cryptoassets like nonfungible tokens.</p>
+<p style=3D"margin: 16px 0;">In the suit, filed in 2021, purchasers of Top =
+Shot Moments =E2=80=94 digital video clips of highlights from NBA games =E2=
+=80=94 allege that Dapper Labs violated US securities law by offering the i=
+tems without registering them with regulators and that Dapper improperly us=
+ed its control over the popular collectibles.</p>
+<p style=3D"margin: 16px 0;">US District Judge Victor Marrero on Wednesday =
+denied a request by Dapper to throw out the suit before trial, finding that=
+ the plaintiffs had adequately alleged that Moments are securities for the =
+case to go forward. Marrero said that the trading of Moments is limited to =
+the company=E2=80=99s Flow blockchain and that purchasers therefore rely on=
+ Dapper=E2=80=99s expertise and management =E2=80=9Cas well as its continue=
+d existence.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CHypothetically, if Upper Deck or Topp=
+s, two longtime producers of physical sports trading cards, were to go out =
+of business, the value of the cards they sold would be wholly unaffected, a=
+nd may even increase, much like posthumously discovered art,=E2=80=9D the j=
+udge wrote.=C2=A0</p>
+<p style=3D"margin: 16px 0;">He continued: =E2=80=9CThat is not true here, =
+where plaintiffs allege that the pooling of capital generated from the sale=
+ of Moments propped up the Flow Blockchain and where the value of Moments i=
+s intertwined with the success of that blockchain and Dapper Labs.=E2=80=9D=
+</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/30640231.258438/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVu=
+dHMvdXNlcnMvaXFqV0hCRmRmeElVL3JOTDlTT1M5MVhnby92MA/607f07ceef4b8524a319a23c=
+B71963d0e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> the opinion</a>, and I think it is worth noting how inv=
+olved Dapper is in every part of the investment. Top Shot Moments are not n=
+on-fungible tokens on some public third-party blockchain like Ethereum or S=
+olana; instead, they exist on Dapper=E2=80=99s =E2=80=9Cown private blockch=
+ain, Flow,=E2=80=9D <a class=3D"footnote-index" href=3D"#footnote-4" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a>though I suppose that characterization is debatable and <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30640231.258438/aHR0cHM6Ly9kZWNye=
+XB0LmNvLzgzOTU3L2Zsb3ctYmxvY2tjaGFpbi1jb250cm9sbGVkLWNvbW11bml0eS1kYXBwZXIt=
+bGFicw/607f07ceef4b8524a319a23cB8bbd7d3b" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Dapper says that Flow i=
+s now decentralized</a>. But the way you transfer money onto the Flow block=
+chain to buy Top Shot Moments does seem to run through Dapper. Specifically=
+ (citations omitted):</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Dapper Labs, which maintains a digital wallet,=
+ called a =E2=80=9CDapper Wallet,=E2=80=9D for all users to facilitate paym=
+ents, also takes a =E2=80=9Ccash-out fee=E2=80=9D when purchasers transfer =
+their balance from the Dapper Wallet to their bank account.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Moments purchasers who sought to withdraw thei=
+r cash off of the NBA Top Shot application have not always been able to do =
+so, nor has it been quick. On March 26, 2021, Dapper Labs published on the =
+NBA Top Shot website that withdrawals would first be enabled in six to eigh=
+t weeks. Once=C2=A0enabled, Dapper Labs stated that withdrawals would be =
+=E2=80=9Cprocessed within 21 days but others may take 40 days or more.=E2=
+=80=9D=C2=A0Not all persons on the NBA Top Shot platform had withdrawal cap=
+abilities enabled by Dapper Labs, and Plaintiffs allege that, even once Dap=
+per Labs enabled the functionality, many were not able to withdraw their fu=
+nds. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Plaintiffs also allege that purchasers=E2=80=
+=99 capital is then held by Dapper Labs in Dapper-controlled wallets. Furth=
+er, they contend that Dapper Labs has been retaining purchasers=E2=80=99 ca=
+sh on its books for months after withdrawals are requested to help =E2=80=
+=9Craise money at a high valuation,=E2=80=9D to =E2=80=9Cprop up the value =
+of the [FLOW] token,=E2=80=9D because, without capital on the platform, =E2=
+=80=9Cthe platform will collapse.=E2=80=9D=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The point is that if you give money to a compa=
+ny and the company says you got some return on your investment and you ask =
+for your money back and the company keeps your money for as long as it feel=
+s like, then that does feel more like an investment=C2=A0<em>in the company=
+=C2=A0</em>than like a decentralized permissionless whatever. It is like my=
+ MattQuest hats. You=E2=80=99d want to know things like, does Dapper have t=
+he money?</p>
+<p style=3D"margin: 16px 0;">The rest of the opinion is fairly straightforw=
+ard and along the lines we discussed for the hats: investment, common enter=
+prise, expectation of profits, efforts of others. The =E2=80=9Cexpectation =
+of profits=E2=80=9D prong is, I think, the weakest: What if you were just b=
+uying these Moments because you love watching basketball highlights and you=
+ want to =E2=80=9Cown,=E2=80=9D in some abstract sense, copies of limited e=
+ditions of some of those highlights? But as with everything in crypto, ther=
+e are awkward tweets where NBA Top Shot=E2=80=99s Twitter account promoted=
+=C2=A0not the coolness of the highlight videos, but the amounts of money in=
+volved in Top Shots trading. The opinion quotes some of them, and adds:</p>
+<blockquote><p style=3D"margin: 16px 0;">Each Tweet promotes a recent sale =
+or statistics of recent sales of Moments on the Marketplace. And although t=
+he literal word =E2=80=9Cprofit=E2=80=9D is not included in any of the Twee=
+ts, the =E2=80=9Crocket ship=E2=80=9D emoji, =E2=80=9Cstock chart=E2=80=9D =
+emoji, and =E2=80=9Cmoney bags=E2=80=9D emoji objectively mean one thing: a=
+ financial return on investment.</p></blockquote>
+<p style=3D"margin: 16px 0;">Well, there you go, a court ruling that the =
+=E2=80=9Crocket ship=E2=80=9D emoji =E2=80=9Cobjectively mean[s] one thing:=
+ a financial return on investment.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">This is not a definitive ruling that these NFT=
+s are securities =E2=80=94=C2=A0it is just a preliminary stage of the case =
+=E2=80=94=C2=A0and it is certainly not a ruling that <em>all</em> NFTs are =
+securities; the control that Dapper has over the investment here seems impo=
+rtant. Also this is a case brought by private plaintiffs who bought Top Sho=
+t Moments during the bubble, not the SEC; the SEC <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/30640231.258438/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMTMvdGhlLXNlYy1jcmFja3MtZG93bi1vbi=
+1jcnlwdG8_Y21waWQ9QkJEMDIyMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc=
+291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjIzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm=
+/607f07ceef4b8524a319a23cB6019a712" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">  tends to think</a> that every=
+thing is a security, but has <em>not </em>really=C2=A0gone around claiming =
+that NFTs are securities.<a class=3D"footnote-index" href=3D"#footnote-5" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: none !important=
+; background-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But the main fact of crypto regulation in the =
+US in 2023 is that the SEC is cracking down by saying that everything is a =
+security, and some crypto businesses are pushing back, arguing in court tha=
+t in fact=C2=A0<em>not </em>everything in crypto is a security. My assumpti=
+on is that, especially after the crypto collapse last year, courts are goin=
+g to be very sympathetic to the SEC=E2=80=99s arguments, and very inclined =
+to believe that everything is a security. This decision=C2=A0is another sig=
+n of that.</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+></ol>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDY0MDIzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4OTg2Njkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD392ae868" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30640231&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDY0MDIzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4OTg2Njkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE392ae868" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30640231&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDY0MDIzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4OTg2Njkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFb9741b94" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30640231&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDY0MDIzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4OTg2Njkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGb9741b94" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30640231&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDY0MDIzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4OTg2Njkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHa11f5a8a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30640231&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDY0MDIzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4OTg2Njkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIa11f5a8a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30640231&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Ozy</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I guess <a href=3D"https://link.mail.bloomberg=
+business.com/click/30640231.258438/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9v=
+enktbWVkaWEtY2VvLWNhcmxvcy13YXRzb24tYXJyZXN0ZWQtYWZ0ZXItYS1mb3JtZXItZXhlY3V=
+0aXZlLXBsZWFkcy1ndWlsdHktdG8tZnJhdWQtMzU1ZTlmODk_bW9kPWhwX2xlYWRfcG9zMw/607=
+f07ceef4b8524a319a23cB4a479bb8" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> this was inevitable</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Ozy Media Chief Executive Carlos Watson was ar=
+rested Thursday morning after a former executive with whom he founded the e=
+mbattled startup pleaded guilty to fraud charges in a secretive federal cou=
+rt proceeding.</p>
+<p style=3D"margin: 16px 0;">Mr. Watson was taken into custody and is expec=
+ted to be arraigned in a Brooklyn, N.Y., federal court on charges of conspi=
+ring to commit securities fraud and conspiring to commit wire fraud, accord=
+ing to a law-enforcement official. Ozy came under federal scrutiny for its =
+business practices after the New York Times reported in 2021 that its then-=
+chief operating officer, Samir Rao, impersonated an executive of Alphabet I=
+nc.=E2=80=99s YouTube during a fundraising call with Goldman Sachs Group In=
+c.=C2=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe are really disappointed,=E2=80=9D =
+Lanny Breuer, Mr. Watson=E2=80=99s lawyer, said of his client=E2=80=99s arr=
+est. =E2=80=9CWe have been acting in good faith and believe we had a constr=
+uctive dialogue with the government and are shocked by the actions this mor=
+ning.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">Mr. Rao pleaded guilty Tuesday in Brooklyn fed=
+eral court to fraud and identity theft charges, under a court-approved John=
+ Doe pseudonym. He admitted to a U.S. magistrate judge that between 2018 an=
+d 2021 he made misleading statements to investors and inflated the company=
+=E2=80=99s financial performance. He also said he falsely used the identity=
+ of another person without the authority to do so between February 2020 and=
+ February 2021.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30640231.258438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjEtMDktMjcvaW1wb3N0b3JzLW9uLXRoZS1kdWUtZGlsaWdlbmNlLWNhbGw_=
+Y21waWQ9QkJEMDIyMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5=
+ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjIzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07cee=
+f4b8524a319a23cB64e133cd" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  talked in 2021</a> about the time that =
+Rao impersonated a YouTube executive on a due diligence call with Goldman. =
+=E2=80=9COrdinarily if I were telling you this story,=E2=80=9D I wrote,=C2=
+=A0=E2=80=9CI=E2=80=99d be quoting from a federal criminal complaint, or at=
+ least a Securities and Exchange Commission enforcement action, but nope ev=
+erything is fine!=E2=80=9D Well, now there is <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/30640231.258438/aHR0cHM6Ly93d3cuanVzdGljZS5nb3Y=
+vdXNhby1lZG55L3ByL296eS1tZWRpYS1hbmQtaXRzLWZvdW5kZXItY2FybG9zLXdhdHNvbi1pbm=
+RpY3RlZC15ZWFycy1sb25nLW11bHRpLW1pbGxpb24tZG9sbGFyLWZyYXVk/607f07ceef4b8524=
+a319a23cB04ab2f30" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> a federal criminal case</a>, and also an <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aHR0cHM6=
+Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy0zNw/607f07ceef4b8524a319=
+a23cBf7b93a48" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">SEC enforcement action</a>.=C2=A0From the <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/30640231.258438/aHR0cHM6Ly93=
+d3cuanVzdGljZS5nb3YvdXNhby1lZG55L3ByL296eS1tZWRpYS1hbmQtaXRzLWZvdW5kZXItY2F=
+ybG9zLXdhdHNvbi1pbmRpY3RlZC15ZWFycy1sb25nLW11bHRpLW1pbGxpb24tZG9sbGFyLWZyYX=
+Vk/607f07ceef4b8524a319a23cC04ab2f30" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> prosecutors=E2=80=99 announc=
+ement</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">An indictment was unsealed this morning in fed=
+eral court in Brooklyn charging OZY Media Inc. (Ozy), a media and entertain=
+ment company headquartered in Mountain View, California, and its founder an=
+d Chief Executive Officer, Carlos Watson, with conspiracy to commit securit=
+ies fraud and conspiracy to commit wire fraud in connection with a scheme t=
+o defraud Ozy=E2=80=99s investors and lenders by making material misreprese=
+ntations about Ozy=E2=80=99s financial and business assets. =C2=A0Watson is=
+ also charged with aggravated identity theft for his role in the impersonat=
+ion of multiple media company executives in communications with Ozy=E2=80=
+=99s lenders and prospective investors in furtherance of the fraud schemes.=
+=C2=A0 =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CAs alleged, Carlos Watson is a con ma=
+n whose business strategy was based on outright deceit and fraud =E2=80=93 =
+he ran Ozy as a criminal organization rather than as a reputable media comp=
+any,=E2=80=9D stated United States Attorney Peace. =C2=A0=E2=80=9CInvestmen=
+t fraud undermines confidence in our nation=E2=80=99s markets and investors=
+ and makes it harder for honest businesses to compete. =C2=A0Our Office and=
+ the Department of Justice have made it clear that prosecuting corporations=
+ and their corrupt executives who flagrantly violate the law are top priori=
+ties.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CAs the indictment today alleges, Wats=
+on repeatedly attempted to entice both investors and lenders through a seri=
+es of deliberate deceptions and fabrications. =C2=A0The FBI and our partner=
+s in law enforcement will hold any individual willing to defraud investors =
+and financial institutions accountable in the criminal justice system,=E2=
+=80=9D stated Assistant Director-in-Charge Driscoll.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CHis role in the impersonation of mult=
+iple media company executives=E2=80=9D!? Multiple? What? Here=E2=80=99s the=
+ other one:</p>
+<blockquote><p style=3D"margin: 16px 0;">In December 2019, Watson and his c=
+o-conspirators attempted to induce a bank to lend Ozy money based on misrep=
+resentations and omissions about Ozy=E2=80=99s business. =C2=A0Watson and h=
+is co-conspirators sought to secure the loan with anticipated revenues from=
+ a second season of an Ozy television show. =C2=A0However, the contract bet=
+ween Ozy and the show=E2=80=99s cable network for the second season of the =
+show was still under negotiation. =C2=A0To induce the bank to make the loan=
+ sooner, Watson directed Ozy=E2=80=99s then-Chief Financial Officer (CFO) t=
+o send the bank a fake signed contract between Ozy and the cable network pu=
+rporting to be for the second season. =C2=A0When the then-CFO refused, Rao,=
+ with Watson=E2=80=99s approval, sent the fake contract =E2=80=94 which con=
+tained terms favorable to Ozy and a forged signature =E2=80=94 to the bank,=
+ copying the then-CFO. =C2=A0Later that day, the then-CFO emailed Watson an=
+d Rao to say that she was resigning effective immediately. =C2=A0She explai=
+ned, =E2=80=9Cthis . . . is illegal. =C2=A0This is fraud. =C2=A0This is for=
+ging someone=E2=80=99s signature with the intent of getting an advance from=
+ a publicly traded bank.=E2=80=9D =C2=A0She continued, =E2=80=9CTo be cryst=
+al clear, what you see as a measured risk =E2=80=94 I see as a felony.=E2=
+=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">I mean, yes, but I am a little confused that s=
+he sent that email in 2019 and the charges are only coming in 2023? Like if=
+ you send that email to your boss on the way out the door, isn=E2=80=99t yo=
+ur next stop at the SEC to get a whistleblower deal? Also here is this abou=
+t the YouTube call:</p>
+<blockquote><p style=3D"margin: 16px 0;">On or about February 2, 2021, Rao =
+had a call with employees of the financial institution during which he impe=
+rsonated a media executive from the online video service using a voice alte=
+ration application that he downloaded onto his cellular telephone to mask h=
+is voice during the call. =C2=A0During the call, Watson was in the same roo=
+m as Rao, and texted Rao instructions about what to say and what not to say=
+ on the call. =C2=A0Shortly after the call, one of the employees of the fin=
+ancial institution contacted the actual media executive of the online video=
+ service, who confirmed that he had not been on the call and that the onlin=
+e video service had no role in the production of The Carlos Watson Show. =
+=C2=A0When members of the financial institution later spoke with Watson, he=
+ falsely claimed that Rao had acted alone and as a result of a mental break=
+down.</p></blockquote>
+<p style=3D"margin: 16px 0;">The indictment <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30640231.258438/aHR0cHM6Ly93d3cuanVzdGljZS5nb3Yvd=
+XNhby1lZG55L3ByZXNzLXJlbGVhc2UvZmlsZS8xNTY5NjMxL2Rvd25sb2Fk/607f07ceef4b852=
+4a319a23cBa49aa5bd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> describes the text messages</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Throughout the call, the defendant=
+ CARLOS WATSON sent a series of text messages to Rao, which included instru=
+ctions of what to say and not say. For example, at approximately 11:19 a.m.=
+ (EST), WATSON texted Rao, 'i am a big fan of Carlos, Samir and the show." =
+At approximately 11:21 a.m. (EST), WATSON texted Rao, "Use the right pronou=
+ns ... You are NOT OZY." At approximately 11:26 a.m. (EST), after Rao had r=
+epeatedly used the first name of one of the employees of Financial Institut=
+ion 1 who was on the call, WATSON texted Rao, "Stop using her name."</p></b=
+lockquote>
+<p style=3D"margin: 16px 0;">I guess Rao kept saying =E2=80=9Cwe=E2=80=9D w=
+hen he meant =E2=80=9COzy=E2=80=9D? Which an actual YouTube executive would=
+ not say? And he kept addressing the Goldman employee by name, because he i=
+s a salesperson (and a former Goldman employee himself), but of course an a=
+ctual YouTube executive hopping on a random diligence call probably wouldn=
+=E2=80=99t even know her name? Not so easy to impersonate people, is it?</p=
+>
+<p style=3D"margin: 16px 0;">Those are just the=C2=A0<em>impersonation=C2=
+=A0</em>charges, but there are various more normal sorts of alleged fraud t=
+oo. Watson <a href=3D"https://link.mail.bloombergbusiness.com/click/3064023=
+1.258438/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMy9jb2=
+1wLXByMjAyMy0zNy5wZGY/607f07ceef4b8524a319a23cB41697ebe" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> allegedly=
+ told a broker</a> =E2=80=9Cthat a well-known hedge fund manager =E2=80=A6=
+=C2=A0had already committed a $5 million investment=E2=80=9D to Ozy=E2=80=
+=99s Series C round; the manager was actually in the round but for just und=
+er $1 million. A pitch deck allegedly =E2=80=9Cstated that Ozy=E2=80=99s 20=
+18 revenue was $22 million when, in fact, it was about $10 million, and tha=
+t certain well-known investors were =E2=80=98leading=E2=80=99 the Series C =
+round, when they were not.=E2=80=9D In the Series D round, Watson and Rao a=
+llegedly told the broker =E2=80=9Cthat a television star=E2=80=99s company =
+and a famous live entertainment company would be leading the round,=E2=80=
+=9D when they were not investors at all.=C2=A0In the pitch to Goldman, they=
+ sent a deck that allegedly =E2=80=9Cinflated Ozy=E2=80=99s earnings before=
+ interest, taxes, depreciation, and amortization (=E2=80=98EBITDA=E2=80=99)=
+ numbers by over 70% for 2018 and approximately 80% for 2019.=E2=80=9D=C2=
+=A0</p>
+<p style=3D"margin: 16px 0;">One thing that we <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30640231.258438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMDYvZG9nZWNvaW4taXMtdXAtYmVjYXVzZS1pd=
+C1zLWZ1bm55P2NtcGlkPUJCRDAyMjMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRt=
+X3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIyMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHV=
+mZg/607f07ceef4b8524a319a23cBed8fca87" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  talk about</a>=C2=A0someti=
+mes=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.=
+258438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDIt=
+MjYvc3RhcnR1cHMtc29tZXRpbWVzLXN0cmV0Y2gtdGhlLXRydXRoP2NtcGlkPUJCRDAyMjMyM19=
+NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZX=
+JtPTIzMDIyMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB89221=
+fdb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">around here</a> is that there is probably a certain leeway for=
+ private companies to, uh, exaggerate slightly in their fundraising pitches=
+. Not legal advice or anything! But the investors kind of expect it: They=
+=C2=A0<em>want=C2=A0</em>visionary, envelope-pushing, see-the-world-not-as-=
+it-is-but-as-it-could-be founders, so they are willing to tolerate some fou=
+nders who are not constrained by reality, and to write off fraud losses as =
+=E2=80=9Cwell, lots of startups fail.=E2=80=9D Plus the audience for startu=
+p pitches is smaller than that for public companies, and the investors don=
+=E2=80=99t want to be embarrassed: If you got hoodwinked by a startup, it d=
+oesn=E2=80=99t really do much for your reputation to go around complaining =
+about it loudly.</p>
+<p style=3D"margin: 16px 0;">Is Ozy the first private company to send an in=
+vestor a pitch deck that inflated its Ebitda by 70% or 80%? Probably not, n=
+o. But in recent years there does seem to have been a bit of a crackdown on=
+ private-company securities fraud. Some of that is due to <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/30640231.258438/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtMDQvc2xheWluZy10aGUtYmxvb2=
+QtdW5pY29ybj9jbXBpZD1CQkQwMjIzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMjMmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cB334ad31b" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  the influence of Theranos<=
+/a>, I think, and some of it is just that private markets are bigger and mo=
+re important than they used to be. =E2=80=9CPrivate markets are the new pub=
+lic markets,=E2=80=9D I sometimes say, and if you can raise billions of dol=
+lars from big institutions in private markets then you probably will get tr=
+eated more like a public company.</p>
+<p style=3D"margin: 16px 0;">Also the main thing is probably just that if y=
+ou do a fraud that is so egregious and hilarious that it becomes national n=
+ews, you will get in trouble. If you are marking up your Ebitda a bit in pi=
+tches to private investors, prosecutors and the SEC might never hear about =
+it, but if you are doing multiple elaborate impersonations to raise money y=
+ou are eventually going to attract attention.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDY0MDIzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4OTg2Njkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJf94f0a24" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30640231&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Young VCs are sad</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you left investment banking or consulting a=
+ year ago to become a junior investor at a venture capital firm, I guess yo=
+ur timing was bad: VC fundraising has dried up, investment opportunities ar=
+e thinner, the crypto thing died down and nobody is getting instantly rich =
+the way they were not so long ago. Here is a fun <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/30640231.258438/aHR0cHM6Ly93d3cuYnVzaW5lc3Np=
+bnNpZGVyLmNvbS95b3VuZy12Y3MtcmVncmV0cy1pbnZlc3RtZW50LWJhbmtpbmctc3RhcnR1cHM=
+tZG93bnR1cm4tMjAyMy0y/607f07ceef4b8524a319a23cB5919e845" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> Business =
+Insider article</a> about how the young VCs are sad:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">"I feel like I got catfished," one growth-stag=
+e investor said.</p>
+<p style=3D"margin: 16px 0;">Young VCs who were formerly investment bankers=
+ or consultants told Insider that faltering deal flow and cost-cutting with=
+in firms have led to increased competition and stress among their peers. ..=
+.</p>
+<p style=3D"margin: 16px 0;">One young investor told Insider that, while VC=
+s might have spent 70% to 80% of their time doing diligence for deals in 20=
+21, they now divide up their time equally between sourcing, deal diligence,=
+ and portfolio-company advisory.</p>
+<p style=3D"margin: 16px 0;">"Before you were window shopping, and all the =
+opportunities were in the window," the investor said. "Now you have to go i=
+nto the stores and rummage through the racks."</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yes, right, this is a general feature of finan=
+cial markets, and of life really:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">When a market is going up consistentl=
+y, it is easy to make money.</li>=09<li style=3D"margin-bottom: 5px;">New e=
+ntrants flock to markets where it is easy to make money.</li>=09<li style=
+=3D"margin-bottom: 5px;">Then the bubble pops and it turns out to be=C2=A0h=
+ard for all the new entrants to make money.</li>
+</ol>
+<p style=3D"margin: 16px 0;">The article gets pretty grim. One way for youn=
+g VCs to add value in a down market is to do a lot of cold emailing:</p>
+<blockquote><p style=3D"margin: 16px 0;">Two investors said that their firm=
+s release weekly leaderboards for the number of calls and emails employees =
+send to startups =E2=80=94 one said that the number of emails they're expec=
+ted to send weekly can break into the triple digits.</p></blockquote>
+<p style=3D"margin: 16px 0;">But there are other, even grimmer ways for you=
+ng VCs to add value. They could be making educational content about venture=
+ capital on TikTok:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Others said that the tough times may encourage=
+ young investors to try new approaches to winning deals and making names fo=
+r themselves in the VC community, like brand-building or organically growin=
+g a following on social-media platforms such as Twitter, YouTube, and TikTo=
+k.</p>
+<p style=3D"margin: 16px 0;">Some young investors like Nicole DeTommaso, wh=
+o left investment banking to intern at Harlem Capital in 2020, started post=
+ing regular detailed Twitter threads on how to break into venture capital i=
+n the second half of 2021. She's since been promoted to senior associate an=
+d has grown her audience to over 40,000 followers, some of whom even help h=
+er with certain due-diligence processes, she told Insider. "If someone has =
+a deal they recently looked at that fits my or Harlem Capital's thesis and =
+then they see my name pop up on their feed, they're more likely to remember=
+ to share it with me," she said.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Sam Loui, a former Techstars global startup-pi=
+peline coordinator, told Insider that her educational startup and VC TikTok=
+ channel actually helped with "sourcing and nurturing potential startups" f=
+or Techstars by "demonstrating helpfulness," which inspired startups to app=
+ly to the firm's many accelerator programs.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There is something very venture-capital-y abou=
+t this: In tough times, VCs get back to basics, but the basics are creating=
+ online content about about how to get a job in VC.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">MoviePass</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">MoviePass was a company that sold its customer=
+s=C2=A0unlimited $12 movie tickets for $10 a month, bought the tickets at f=
+ull price, and lost hundreds of millions of dollars. In order to cut down i=
+ts losses, it would sometimes <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30640231.258438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjEtMDYtMDgvbW92aWVwYXNzLWNoYW5nZWQtc29tZS1wYXNzd29yZHM_Y21waW=
+Q9QkJEMDIyMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZ=
+XR0ZXImdXRtX3Rlcm09MjMwMjIzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b852=
+4a319a23cB6cda67db" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  change customers=E2=80=99 passwords</a> so =
+they couldn=E2=80=99t log into their accounts and get movie tickets (but st=
+ill had to pay their $10 monthly fee). Eventually its top executives <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMDcvbW92aWVwYXN=
+zLXdhcy1ub3QtYS1nb29kLWJ1c2luZXNzP2NtcGlkPUJCRDAyMjMyM19NT05FWVNUVUZGJnV0bV=
+9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIyMyZ1dG1fY=
+2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB5383a246" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  were=
+ indicted</a>, accused of securities fraud. This was not a well-run company=
+, nor one that was committed to the highest ethical standards, nor one that=
+ was all that careful with money. If you worked there and wanted to submit =
+$260,000 of fake invoices to pay for a party at Coachella, would anyone sto=
+p you? No, it turns out, <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30640231.258438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjMtMDItMjIvbW92aWVwYXNzLWV4ZWMtYWxsZWdlZGx5LWVtYmV6emxlZC10by1wYXktZm9=
+yLWNvYWNoZWxsYS1wYXJ0eT9jbXBpZD1CQkQwMjIzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPW=
+VtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMjMmdXRtX2NhbXBhaWduP=
+W1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBdfe17b4d" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  the pretty unsu=
+rprising answer is no</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A former MoviePass Inc. executive embezzled $2=
+60,000 to repay a loan he took out for a party he organized months earlier =
+at the Coachella music festival in California, federal prosecutors allege.<=
+/p>
+<p style=3D"margin: 16px 0;">Khalid Itum, 42, was arrested Tuesday and char=
+ged with two counts of wire fraud and two counts of money laundering, the U=
+S Department of Justice said in a statement. Itum, a Jordanian citizen who =
+lives in Los Angeles, pleaded not guilty and was released on a $75,000 bond=
+.</p>
+<p style=3D"margin: 16px 0;">In 2017, before joining MoviePass, Itum create=
+d Kaleidoscope Productions LLC and borrowed money from two individuals to p=
+ut on the party during the April music festival in Indio, east of Los Angel=
+es, according to the indictment. In November 2017, he became an executive a=
+t MoviePass, which had been acquired by Helios &amp; Matheson Analytics a f=
+ew months earlier.=C2=A0</p>
+<p style=3D"margin: 16px 0;">To repay the money he owed for the Coachella p=
+arty, Itum submitted sham invoices to Helios &amp; Matheson for services he=
+ claimed were rendered by Kaleidoscope and a different company he owned, pr=
+osecutors said. Helios &amp; Matheson paid the invoices, even though neithe=
+r it nor MoviePass were involved in the Coachella event, prosecutors said.=
+=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yeah no that makes a lot of sense.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Third Point to Launch Proxy Fight at <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy90aGlyZC1wb2ludC10by1sYXVuY2gtcHJveHktZmlnaHQt=
+YXQtYmF0aC1ib2R5LXdvcmtzLWM3MzNhMDE1P21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef=
+4b8524a319a23cB88612f88" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> Bath &amp; Body Works</a>. Home Lenders H=
+unt for Ways to Make <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/30640231.258438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIw=
+MjMtMDItMjMvbW9ydGdhZ2UtcmF0ZXMtdG9wcGluZy02LWhhdmUtbGVuZGVycy1vZmZlcmluZy1=
+mcmVlLWhvbWUtcmVmaW5hbmNpbmc_Y21waWQ9QkJEMDIyMzIzX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjIzJnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBbe1282da" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> 6% Mortgage=
+s</a> More Attractive.=C2=A0After Multibillion-Dollar <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/30640231.258438/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMjMvd2FsbC1zdHJlZXQtcy1maW50ZWNoLW=
+JpbmdlLXR1cm5zLWludG8tYS13cml0ZWRvd24taGFuZ292ZXI_Y21waWQ9QkJEMDIyMzIzX01PT=
+kVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09=
+MjMwMjIzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB51e07b24"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">  Fintech Binge</a>, Wall Street Has a Writedown Hangover. Apollo =
+Mulls $750 Million <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/30640231.258438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMj=
+MtMDItMjIvYXBvbGxvLWRpc2N1c3Nlcy03NTAtbWlsbGlvbi1maXJzdC1ib3N0b24tbGV2ZXJhZ=
+2VkLWZpbmFuY2UtYmV0P2NtcGlkPUJCRDAyMjMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIyMyZ1dG1fY2FtcGFpZ249bW9=
+uZXlzdHVmZg/607f07ceef4b8524a319a23cB5dd64f6f" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">  First Boston Lever=
+aged-Finance Bet</a>. World Bank Touts an ESG Bond It Says Is <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/30640231.258438/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMjIvd29ybGQtYmFuay10b3V0cy=
+1hbi1lc2ctYm9uZC1pdC1zYXlzLWlzLWltbXVuZS10by1ncmVlbndhc2hpbmc_Y21waWQ9QkJEM=
+DIyMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXIm=
+dXRtX3Rlcm09MjMwMjIzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a2=
+3cB801ac0fb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  =E2=80=98Immune=E2=80=99 to Greenwashing</a>. More S=
+tates Push Back Against GOP=E2=80=99s <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/30640231.258438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL2FydGljbGVzLzIwMjMtMDItMjIvbW9yZS1zdGF0ZXMtcHVzaC1iYWNrLW9uLWdvcC1zLWFudG=
+ktZXNnLWNhbXBhaWduLWdyZWVuLWluc2lnaHQ_Y21waWQ9QkJEMDIyMzIzX01PTkVZU1RVRkYmd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjIzJnV0=
+bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBdae87263" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">  A=
+nti-ESG Campaign</a>. <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/30640231.258438/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zdGFibGVjb2lucy1=
+hdHRyYWN0LXNjcnV0aW55LWluLXNlY3MtZHJpdmUtdG8tY29udHJvbC1jcnlwdG8tMTIxNzllMD=
+Q_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB924e83af" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Stablecoins</a> Attract Scrutiny in SEC=E2=80=99s Drive to Control Crypto.=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMjMvc3BhY2Ut=
+YmlsbGlvbmFpcmUtcy1mb3J0dW5lLXN1cmdlcy1vbi1hbWJpdGlvbi10by1iZWF0LWNoaW5hLXR=
+vLW1vb24_Y21waWQ9QkJEMDIyMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc2=
+91cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjIzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/=
+607f07ceef4b8524a319a23cB64413ec9" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  Space Billionaire=E2=80=99s</a=
+> Fortune Surges on Ambition to Beat China to Moon. Hundreds of <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/30640231.258438/aHR0cHM6Ly93d=
+3cud3NqLmNvbS9hcnRpY2xlcy9odW5kcmVkcy1vZi1lbmVyZ3ktZGVwYXJ0bWVudC1vZmZpY2lh=
+bHMtaG9sZC1zdG9ja3MtcmVsYXRlZC10by1hZ2VuY3lzLXdvcmstZGVzcGl0ZS13YXJuaW5ncy0=
+3MzE5ODkwOA/607f07ceef4b8524a319a23cBb043e044" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> Energy Department</=
+a> Officials Hold Stocks Related to Agency=E2=80=99s Work Despite Warnings.=
+ Police warn 'do not engage' <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30640231.258438/aHR0cHM6Ly93d3cubWlycm9yLmNvLnVrL25ld3MvdXMtbmV3=
+cy9wb2xpY2Utd2Fybi1kby1ub3QtZW5nYWdlLTI5Mjg1MTgw/607f07ceef4b8524a319a23cBd=
+35f8aba" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> man in Cookie Monster costume terrorising city</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30640231.258438/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB6efd2d45" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30640231.258438/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB319e35f1" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] I think that there is a reasonable argumen=
+t that the =E2=80=9Cexpectation of profits=E2=80=9D prong of the Howey test=
+ ought to mean, like, =E2=80=9Cexpectation of cash flow from the underlying=
+ enterprise=E2=80=9D rather than =E2=80=9Cgetting a thing with no cash-flow=
+ rights and expecting to sell it at a higher price due to an irrational fre=
+nzy kicked up by the underlying enterprise.=E2=80=9D But this is a somewhat=
+ metaphysical point, I am sure that the US Securities and Exchange Commissi=
+on does not believe it, and I suspect that courts don=E2=80=99t either.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Or it can not sell them in the US, or sell=
+ them only to wealthy accredited investors, both options that somewhat detr=
+act from the *game*.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Obviously this generalizes to any company =
+that runs an exchange and holds your money for you. <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30640231.258438/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LXMtYmFsYW5jZS1zaGVldC13=
+YXMtYmFkP2NtcGlkPUJCRDAyMjMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3N=
+vdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIyMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg=
+/607f07ceef4b8524a319a23cBd22a3c56" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">  FTX, for instance</a>!</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Also: =E2=80=9COwnership of the Moments, t=
+he price paid for the Moments, and the transfer and sale of the Moments in =
+the Marketplace are all recorded on only the Flow Blockchain. Dapper Labs d=
+oes not recognize and does not endorse Moments being sold or traded outside=
+ of the Marketplace.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] And so, when an employee of an NFT trading=
+ platform was <a href=3D"https://link.mail.bloombergbusiness.com/click/3064=
+0231.258438/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjI=
+tMDYtMDIvZG9uLXQtaW5zaWRlci10cmFkZS1uZnRzP2NtcGlkPUJCRDAyMjMyM19NT05FWVNUVU=
+ZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIyM=
+yZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf677f5ff" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  arrested for insider trading its NFTs</a>, he was arrested for *wire* f=
+raud and *not* charged by the SEC.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBca3ec7ef" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB3d7f794f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB9da0ee21" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBe4541e6b" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDY0MDIzMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4OTg2Njkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cK3617686b" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30640231&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB5dc91303" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30640231.258438/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC204819ce" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30640231.258438/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBa457f8c9" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30640231.258438/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBb5d0b7dd" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBe=
+b168367" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30640231.258438/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBe=
+35f5564" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D306402=
+31&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D306402=
+31&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D306402=
+31&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D306402=
+31&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D306402=
+31&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30898669&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci8q5j.5jeu/2f4481bf.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_22317483_825436781.1677177831501--
+

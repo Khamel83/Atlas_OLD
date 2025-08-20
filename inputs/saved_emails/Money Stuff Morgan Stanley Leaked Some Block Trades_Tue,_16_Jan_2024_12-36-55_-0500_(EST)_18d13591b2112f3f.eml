@@ -1,0 +1,2287 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:ab04:0:b0:680:b191:1941 with SMTP id h4csp4366106qvb;
+        Tue, 16 Jan 2024 09:37:03 -0800 (PST)
+X-Received: by 2002:a7b:ca50:0:b0:40e:42c9:25a4 with SMTP id m16-20020a7bca50000000b0040e42c925a4mr3855601wml.59.1705426623117;
+        Tue, 16 Jan 2024 09:37:03 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1705426623; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=M9QFZT2TVpXWp7BpN2Jutcf6Sw4oCt6VAyzErhZameqT+AjQL1b04ElMUPdsHa/NQv
+         dVNE5IRcPNa/ffaaSoPp4ruZYKbZ+GnW9yNi4YOoSZQkIUD/wm1v8K5A3QkWuGyUcQUQ
+         +LNlfLyDmxX/+s2ZHobreo3QWGLvUG0v4IAif+zZeCXIfT8BZUYGVQXC8jGNYn12kIll
+         e9x1XmvNtbTHMgrD/H5dU3zx8tCaePrdS8DRDNexpzKfihf1cvBgf+eUskfeMlpxOE7S
+         9LRgKG5Fwg0KqBhb6sPifS0R7fPIZ8u83V4lzrbfZ9wFoJvbw99lHmuZQh8dFW46o+aW
+         vi0w==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=ClZkkjYd4+1Iv+6oM11ye/n8JpUZ8nLvnCuSdDvhYrI=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=ubXuepPPx40HBPDpsW2HIMJ6mwKQ3pwALS1H9OApqEUOdgOZ8GhmqADcI4bByre9Qc
+         XcGZf9rKnxquI8Dgsah/KqLXl+Q3WE/3MC19MLxIctwK75b+XKd4DSjOf9f6+aT1ZWaG
+         eD8j2Wa9KzloLF0VQOGnilIkIWZwG9Wzy9knUpWkf+sVxvg+ZFEzU/3zfamka/gQg5Dq
+         /84tHggQ/s/+RReLATrARPrtET01Fg75XZA/xgydWWptjkYm8yFsmJ3O9bfLIkqEoSe1
+         qzLPzDAleq3kifhW/y6+n6WVQnV9kmZEyrMg/ruDBl0E06CDGfJmqdkJUIA0lXF5Nyhw
+         JGZw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=uKOf43+d;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j15-20020a05600c1c0f00b0040c69a269fdsor1595884wms.4.2024.01.16.09.37.02
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 16 Jan 2024 09:37:03 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=uKOf43+d;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705426622; x=1706031422;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=ClZkkjYd4+1Iv+6oM11ye/n8JpUZ8nLvnCuSdDvhYrI=;
+        b=MS76gCNjvGjY40/bozTwLuhrknMhURaQFiALY+pgLSFLKXoRaJH75Tz1x1mVTicBHs
+         cyJ9A1rjwZHptyWXt///W7zjnbmbtK7RU4Q9RxEYFpJn0prCSvyX5g+I+DUSkqW9QksA
+         1hTlPxuodMt+qinVuSuMiTGytdiGvUtSBc9Zx0pAsdKeO4nTzd4jq5e2z8b37DEieS7k
+         HJdOvtfcJzHZiBttZ/SgWMqo5KhLBDwWH/gS9m+HRqLbjjwoTd3PdG/cOljQpnUBlhqi
+         xFWK4woD8s62vrTaSbxp5ATxJyVj8YytI6pi1dVaBGMA9Em/l/4bU80f8Brg3N1RETxa
+         lSMg==
+X-Gm-Message-State: AOJu0Yy8STuSyz+9DIDoA1BgAaNU85+2LO+nhyBslhbcyAOJkBvK6iLR
+	Gbi6KpXkIciOxYJNtjSmdDWrEadcSlVJeO3QVTxmKX1UehBlLf9ZbA==
+X-Received: by 2002:a1c:7503:0:b0:40e:6281:a157 with SMTP id o3-20020a1c7503000000b0040e6281a157mr4045165wmc.80.1705426622595;
+        Tue, 16 Jan 2024 09:37:02 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:ead0:0:b0:333:384e:c9a6 with SMTP id o16csp22408wrn;
+        Tue, 16 Jan 2024 09:36:57 -0800 (PST)
+X-Received: by 2002:a9d:67d2:0:b0:6dc:4fcf:4859 with SMTP id c18-20020a9d67d2000000b006dc4fcf4859mr8025638otn.75.1705426616814;
+        Tue, 16 Jan 2024 09:36:56 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1705426616; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Ams20/MRbzeD3430IL9FU+HzLfpKoitqdXfynR59fJCt15mt/3yxOvmAfTLbmcT/Qy
+         Ot5LfVU998ZUOF8tuYQ+l5rvgGyO/lDcZ1vqpaJLmBWMiZP/llMLKT9B7iQBcSVOW6R6
+         Ca02auXdzCUnJdfRbIMHETTust08uJraQFBsDMw3WIRy1lXMNJfHYN8VDsnHngl/nOFs
+         SkxkoE91VA5xyeXpsKpP+B7YvPL7K8Iz0/JuUfSnhamQ9eDzYfoqvOSkPWdhvxYb8vVL
+         A26xPGmeHLMT4VBI5AJ/hZoDbMCuNEgroQOb8HIXP25MW04nM93CXl1ESlGdm9+g4MEe
+         WjEw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=ClZkkjYd4+1Iv+6oM11ye/n8JpUZ8nLvnCuSdDvhYrI=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=ibvpPZzPEEJyzDi5eIRvyZsN3VVesEKQL1dyKrwhR/xMqKQM/cGIw6qfAZavuINtW4
+         sBhbcArECkryy0up8NG1YcuY3l7SMZnPhgjve0Q1gGlI+novoXgcZD/OfisjcpMZKXwi
+         4QIBY8tu8pY346gkk60U5YnByrKn+JnN3l+yUJDN+qdpXQZiX3+ffpt+Y9+0rn/J85zH
+         n8QnKfAzZnuYEYX006epvGaFhPzkQ7ZOVwLm8rI9I+MDVsRgv33Tb10xW1rLzJFx5BWi
+         4SiDQia80Xrji8S/rTADjLrDltZpqC2H0PRVCd7fHFOa5vcLFTT3e0lPEx1vLpxGi/7G
+         p8rw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=uKOf43+d;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20240116123655.34017514.287406@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20240116123655.34017514.287406@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20240116123655.34017514.287406@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g21-20020a9d6495000000b006d8a8e02f72sor5027240otl.4.2024.01.16.09.36.56
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 16 Jan 2024 09:36:56 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20240116123655.34017514.287406@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IEwhs1sOJSSnQwXgwcVEe8b1szqMfuXAmGEYkSpRg19S4wh8Cl1Fglubwo/HNHYi7D1aeb5QrwRltsBupCydA+SZ9wKuZc=
+X-Received: by 2002:a05:6871:646:b0:206:8039:5c95 with SMTP id x6-20020a056871064600b0020680395c95mr10519341oan.88.1705426616438;
+        Tue, 16 Jan 2024 09:36:56 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1705426616; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ipWw4oFXB6iezjPJuxQiPmfq4ET0OLmYMg7nol/MKp9Z/Jp175xVjJxdbhr40TU68q
+         EtuLgyMz+ilszMKSKVbd1BRr5L3zHemOUZK6P5DzKKlkNSwj7lgLZ9bUTn6itcHUVmYG
+         q7ulBHbH2Eki6TunwrMNfU1Fqd9FtL0keSStxR6eBPJPZryWMhZyVnNBaUMCRx/J7nxy
+         KvVDdSiyIGw/pJXFw/1hDpv4AeLu6YhpRz9MRoqWOUMxs/YgdJ2f4V61+Ob1xqG7d/kS
+         KATRrkywlD0nxToW6s6fbZPb+rLHaQQn+PcmzAmIlvebCtAXPPCIxJw6aiv/Vf1T7zxB
+         6y9Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=ClZkkjYd4+1Iv+6oM11ye/n8JpUZ8nLvnCuSdDvhYrI=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=O8x3ZpIISE+3w/flq/4GrDWyR3wFuZKjwMa50ofJONyStGzn8F+1IzGLS9CT7NL0Id
+         pmIk8WPyt8/kshuOdX4OiRwe/eJdmMROISLazR6ADbLGyRoF21aCJQsw/eiEu5T2BoZ7
+         cFrBaTeRxEhRXq61bfE991pg2XOFuOzTMk1lpMpyvPBmzqmNGkkZXFrIssImXfqjo8/s
+         2MqlgXWARrOGxpVxOXYEnihmGWaxWrDudUc5ykw581SfoUbQllAtHN8W1glLkDL+HXRf
+         eSCN1RaZsaHipCe/TCxfqZ7hAgjlLuHy7HK/Gn6z4b0yJelcqEhjboAp+0tDQWU7s8EJ
+         TfKQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=uKOf43+d;
+       spf=pass (google.com: domain of delivery_20240116123655.34017514.287406@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20240116123655.34017514.287406@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20240116123655.34017514.287406@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id fu16-20020a0568705d9000b00204853d91eesi1803770oab.4.2024.01.16.09.36.56
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 16 Jan 2024 09:36:56 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20240116123655.34017514.287406@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=gvH7vk4vq3da8TfnwzvcVGcONM4QmLPI4y6ruJR0FVk=;
+ b=uKOf43+dFuidbbsPQEG9pvsevCnPv9RDi190DCrcPOQ13xWbXTwiYN2VIqKngA9N+6ZqQsHjwVxG
+   1NYvzX+whD0uiRQG2bxJ7uYA9jJhXZn8/dEjBDcg328KFqJfWM5LCNfr8NYeOH2f3sg43wyNh8xl
+   sY3es2TLcd4ug9K7pMs=
+Received: from aws1-mta-relay2.sailthru.cloud (10.55.73.49) by pmta29.sailthru.com id hkqvbe2sd4se for <bloomberg@khamel.com>; Tue, 16 Jan 2024 11:36:55 -0600 (envelope-from <delivery_20240116123655.34017514.287406@mx.sailthru.com>)
+Date: Tue, 16 Jan 2024 12:36:55 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20240116123655.34017514.287406@sailthru.com>
+Subject: Money Stuff: Morgan Stanley Leaked Some Block Trades
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6589986_1303225658.1705426615744"
+Precedence: bulk
+x-job: 6358-34017514-20240116
+X-Feedback-ID: 6358:34017514:campaign:sailthru
+X-TM-ID: 20240116123655.34017514.287406
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-91-133.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck942y.65ri/b7e58fea
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck942y.65ri/b7e58fea>,<mailto:unsubscribe_20240116123655.34017514.287406@mx.sailthru.com>
+X-rpcampaign: stjko34017514
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_6589986_1303225658.1705426615744
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Here=E2=80=99s a simple model of a block trade. There=E2=80=99s a p=
+ublic company, its stock trades on the exchange, its current price is $100.=
+ A big shareho
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Block trades
+   =20
+ =20
+
+Here=E2=80=99s a simple model of a block trade. There=E2=80=99s a public co=
+mpany, its stock trades on the exchange, its current price is $100. A big s=
+hareholder wants to sell a block of a million shares. This will drive down =
+the price: supply and demand, more sellers than buyers, etc. Let=E2=80=99s =
+say that fully selling all of the shares will drive the price down by $3.
+You=E2=80=99re a bank, and the seller comes to you and says: =E2=80=9CI wan=
+t to do a block trade. I want you to buy all this stock at a firm price and=
+ resell it at your own risk. You have to buy it after the market closes in =
+two hours; I=E2=80=99ll call you for your bid then.=E2=80=9D How much shoul=
+d you bid? Well, on my numbers in the previous paragraph, the stock is at $=
+100, selling all the shares will take $3 off the price, and you=E2=80=99ll =
+be able to resell it at $97. So you should bid, like, $96, to add a little =
+cushion (in case that $3 estimate of the price impact is wrong)=C2=A0and so=
+me profit for you.
+But in fact the stock will move around over the next two hours. Maybe in tw=
+o hours it=E2=80=99ll be $99, or $101. And=C2=A0reselling the stock will dr=
+ive it down by $3. So really your bid should be (1) whatever the closing pr=
+ice is in two hours minus (2) say,=C2=A0$4 (the $3 effect of the sale, plus=
+ $1 for your profits). And in fact the seller will probably ask you for a b=
+id that is not a dollar price but a discount (percentage or dollars) to the=
+ last sale price. If the stock closes at $99.73 and your bid is =E2=80=9Cdo=
+wn $4=E2=80=9D then your bid is $95.73.
+You have two hours to come up with your bid. You have two goals:
+=09
+Accuracy:=C2=A0You want your bid to accurately reflect the price at which y=
+ou can resell the stock (plus a little profit for you); you don=E2=80=99t w=
+ant to pay $98 if you=E2=80=99ll have to resell the stock at $95.=09
+Competitiveness: The seller is probably calling a bunch of banks, and will =
+take the highest price (the lowest discount to the last sale). So you want =
+to offer the highest price.
+
+Here is a good trick: You spend those two hours=C2=A0selling all the stock.=
+ You pre-sell the million shares that the seller is offering; you sell them=
+ short.=C2=A0As you do this, naturally, the price declines, from $100 to $9=
+7, to reflect all of that selling. (Also maybe other stuff happens =E2=80=
+=94=C2=A0maybe there=E2=80=99s economic news or other big buyers or sellers=
+ or whatever =E2=80=94=C2=A0so the stock ends up at $96 or $98 or whatever,=
+ but the $3 effect of all the selling is fully incorporated into the price.=
+) And then at the end of that process you go to the seller and bid =E2=80=
+=9Cdown $1=E2=80=9D: That is, you=E2=80=99ll pay $1 less than the last pric=
+e; if the last price was $97 you=E2=80=99ll pay $96.
+Now, two things are true:
+=09Your bid is more accurate. You already know the price you can get for al=
+l that stock, because you=E2=80=99ve already sold it. If you sold it at $97=
+ and bid $96, you have $1 of profit that is totally safe.
+  [1]
+
+=09Your bid is=C2=A0tighter, more competitive. Instead of bidding =E2=80=9C=
+down $4,=E2=80=9D as you would have in the naive case, you bid =E2=80=9Cdow=
+n $1,=E2=80=9D because the $3 impact of selling the stock is already reflec=
+ted=C2=A0into the price.
+
+Notice that your bid is not=C2=A0actually better:=C2=A0In the naive case, t=
+he stock is at $100 and you bid down $4 ($96) to reflect the likely impact =
+on the price of reselling all the stock. In the pre-selling case, the stock=
+ is at $97 and you bid down $1 ($96) because you=E2=80=99ve already resold =
+all the stock. Either way the seller gets $96.
+But if you are in competition, your competitors don=E2=80=99t know that you=
+=E2=80=99ve pre-sold the stock. They see the closing price of $97 and think=
+ that that reflects the market=E2=80=99s valuation of the stock; they think=
+ that reselling the million-share block will require=C2=A0another=C2=A0$3 p=
+rice drop. So they bid =E2=80=9Cdown $4=E2=80=9D =E2=80=94=C2=A0the naive b=
+id =E2=80=94=C2=A0which works out to $93. And you bid $96, you win, you get=
+ the stock, and you make an easy $1 profit.
+There are some problems with this trick. One is, if you do it and=C2=A0don=
+=E2=80=99t=C2=A0win, you=E2=80=99ve pre-sold all this stock and don=E2=80=
+=99t get to buy it at a discount; you have to go and cover your short in th=
+e market and might lose money. What if another bank does the same trick? Th=
+en, between you, you=E2=80=99ve sold two=C2=A0million shares, the price has=
+ gone down=C2=A0too=C2=A0far, and whoever loses the auction will have to bu=
+y back the million shares at higher prices. What if five banks do this tric=
+k?
+There are ways to mitigate this risk. A simple one is, instead of actually=
+=C2=A0pre-selling the stock yourself, you just call up the likely buyers =
+=E2=80=94=C2=A0the big hedge funds that tend to buy block trades =E2=80=94=
+=C2=A0and say =E2=80=9Chey, got one coming for Amalgamated Widgets, you in?=
+=E2=80=9D And then the hedge funds give you an order, and they short the st=
+ock, and it goes down to $97, and you proceed as above,=C2=A0bidding $96 an=
+d winning the auction, and you sell=C2=A0them the stock at $96.50 and they =
+make money and you make money. This moves the risk from=C2=A0you to the hed=
+ge funds.
+  [2]
+
+Another problem with this trick is that it is pretty bad customer service.=
+=C2=A0It=C2=A0looks=C2=A0like good customer=C2=A0service: You can give the =
+seller a tight bid on the block, and then resell it quickly and efficiently=
+. But it is=C2=A0actually=C2=A0bad customer service, because you drive down=
+ the price ahead of the block trade and make the auction for the seller=E2=
+=80=99s shares less competitive.
+  [3]
+ Ordinarily sellers will swear you to secrecy; they will call you up and sa=
+y =E2=80=9CI want you to bid on this block, but don=E2=80=99t tell anyone t=
+hat it=E2=80=99s coming.=E2=80=9D=C2=A0If the seller finds out that you did=
+ pre-sell the shares, or that you leaked the news to hedge funds to pre-sel=
+l the shares, they will be mad at you.
+  [4]
+
+A third problem with this trick is that it is =E2=80=A6=C2=A0I was about to=
+ say =E2=80=9Cvery illegal,=E2=80=9D but apparently it is only, like, the r=
+egular amount of illegal. Possibly less. It is mildly illegal? (Not=C2=A0le=
+gal advice!) It is a form of=C2=A0insider trading, or rather front-running:=
+=C2=A0Your client (the big shareholder) called you and said =E2=80=9CI want=
+ to sell stock after the close today,=E2=80=9D and probably swore you to se=
+crecy, and then you went and traded on it, or told hedge funds to trade on =
+it, so you could make more money for yourself with less risk. You had=C2=A0=
+nonpublic information about a big shareholder=E2=80=99s plans to sell, that=
+ information was material, you had a duty to keep it confidential, and inst=
+ead you used it to tip off some hedge funds (or trade yourself) to make mon=
+ey for yourself.
+A certain amount of illegal. On Friday, the  US Securities and Exchange Com=
+mission=C2=A0and  US federal prosecutors in Manhattan=C2=A0settled a case=
+=C2=A0against Morgan Stanley and Pawan Passi, its former head of US equity =
+syndicate. =E2=80=9CEquity syndicate=E2=80=9D is the desk that does this st=
+uff; specifically:
+=09When big shareholders ask for a price on a block trade, equity syndicate=
+ is the desk that gives them the price.=09When Morgan Stanley wins a block =
+trade, equity syndicate is the desk that coordinates selling the shares out=
+ to investors.=09When big shareholders ask for a price on a block trade, eq=
+uity syndicate is=C2=A0the desk that calls potential investors and say =E2=
+=80=9Chey what price would you pay for this block?=E2=80=9D to formulate it=
+s bid.
+
+
+Oh, I mean, not really;=C2=A0No. 3 is illegal. But kind of. Certainly Pawan=
+ Passi did that, though now he is the former head of equity syndicate.  The=
+ SEC says:
+
+Selling shareholders or their agents then typically send a bid-wanted-in-co=
+mpetition (=E2=80=9CBWIC=E2=80=9D) email to the investment banking firms th=
+at had expressed an interest on the initial outreach calls. BWICs are typic=
+ally sent to firms two to three hours before the market close. They reitera=
+te the information provided on the outreach call (the seller=E2=80=99s iden=
+tity, the stock, and size of the block), request bids by 4:05 pm ET that da=
+y, and set forth the confidential auction process. BWICs typically pre-cond=
+ition a firm=E2=80=99s participation in the auction process on the firm agr=
+eeing to keep information about the potential block trade confidential. Sel=
+ling shareholders or their agents require the select group of auction parti=
+cipants to keep such information confidential because if the market becomes=
+ aware of an imminent block trade, as stated above, the price of the stock =
+might decline, and the seller might receive a worse price from the auction.=
+ =E2=80=A6
+During the Relevant Period, Passi disclosed non-public, potentially market-=
+moving information received from selling shareholders or their agents about=
+ block trades to certain potential purchasers of the block, including a por=
+tfolio manager (=E2=80=9CPortfolio Manager A=E2=80=9D) in the London, Engla=
+nd office of a Hong-Kong-based hedge fund (=E2=80=9CHedge Fund A=E2=80=9D) =
+while the auction process was ongoing. ...
+Passi provided this information to Portfolio Manager A with the understandi=
+ng that he would take large short positions in the stock in anticipation, a=
+nd prior to the execution, of the block trade, and that, if Morgan Stanley =
+won the auction, Portfolio Manager A would request and receive allocations =
+from the block trade to cover those short positions.=C2=A0
+Passi knew that providing information about block trades to buy-side invest=
+ors, such as Portfolio Manager A, could cause the stock price to decline if=
+ those investors sold significant amounts of stock in advance of the block =
+trade.
+Portfolio Manager A=E2=80=99s pre-positioning activities benefitted Morgan =
+Stanley as they ensured that there would be a large buyer for at least a po=
+rtion of the block trade, thereby lowering Morgan Stanley=E2=80=99s risk on=
+ the transaction, and giving the firm comfort to offer a tighter and more c=
+ompetitive bid.
+
+It seems that Passi called=C2=A0several investors to place a bunch of the s=
+tock (and thus largely de-risk Morgan Stanley=E2=80=99s bid), but it=E2=80=
+=99s not clear how methodical he was; it=E2=80=99s possible that he just ca=
+lled a few of his favorites. For instance this guy, from the  criminal stat=
+ement of facts:
+Hedge fund investors who received confidential information from the Head of=
+ the Desk [Passi] and Employee-1 about upcoming blocks recognized that this=
+ information allowed them to profit in ways they otherwise would not have. =
+For example, an investor working at a Nevada- based hedge fund (=E2=80=9CIn=
+vestor-3=E2=80=9D) told the Head of the Desk in an August 2021 call, =E2=80=
+=9CI know who my daddy is,=E2=80=9D referring to the assistance that the He=
+ad of the Desk had provided Investor-3 in profiting from block trades. Inve=
+stor-3 stated in the same call, again referring to block trades, that the H=
+ead of the Desk had =E2=80=9Cput [Investor-3] in the ... game,=E2=80=9D and=
+ that Investor-3 =E2=80=9Cwould be at the kiddie table if it wasn=E2=80=99t=
+ for=E2=80=9D the Head of the Desk.
+Because, yes, if you do this right, it is nearly risk-free profit for the h=
+edge fund (who shorts the stock during the day and then gets it back at the=
+ close at a discount to the trading price) and for Morgan Stanley (who lock=
+s in buyers a higher price than it agrees to pay the seller). You don=E2=80=
+=99t need to be a big or good hedge fund to get the call for this trade; yo=
+u just need to be a loyal friend of Passi=E2=80=99s.
+Anyway, two related points. One is that this is=C2=A0illegal, but it=E2=80=
+=99s on a continuum. As a general matter, when you want to sell a large blo=
+ck of stock, you have to balance your desires to (1) tell everyone, to drum=
+ up buyers and (2)=C2=A0tell no one, to avoid anyone front-running you. In =
+different circumstances, you might strike that balance in different ways. S=
+ometimes, it is=C2=A0good=C2=A0customer service for Morgan Stanley to =E2=
+=80=9Csocialize=E2=80=9D a block trade before bidding, to pre-market it bef=
+ore actually doing the trade. Ordinarily to do that you=E2=80=99d wall-cros=
+s the investors first: You=E2=80=99d call them up to ask =E2=80=9Chey would=
+ you buy this block,=E2=80=9D but only if they first promise not to short t=
+he stock ahead of the trade.=C2=A0In fact Morgan Stanley marketed that serv=
+ice; from the statement of facts:
+When Morgan Stanley=E2=80=99s marketing materials referenced investor outre=
+ach, the materials suggested that such outreach would be done only to inves=
+tors that had been wall-crossed. Sellers were told that while block trades =
+were one option for selling their shares, another option was an =E2=80=9Cov=
+ernight with wall-cross and backstop,=E2=80=9D which was described as a reg=
+istered sale that would =E2=80=9Claunch[] publicly after wall-crossing seve=
+ral investors capable of acting as anchor investors.=E2=80=9D The stated ad=
+vantage of this =E2=80=9Covernight with a wall-cross=E2=80=9D was that =E2=
+=80=9Canchor investor feedback helps provide early pricing insight ahead of=
+ public launch.=E2=80=9D In other slides shown to potential sellers, the po=
+ssibility of wall-crossing a select number of investors =E2=80=9Cahead of l=
+aunch to maximize demand visibility/pricing=E2=80=9D was offered as a possi=
+ble way to execute a registered block trade.=C2=A0
+It=E2=80=99s just that, when sellers instead chose to do block trades witho=
+ut pre-marketing, Passi pre-marketed the shares anyway =E2=80=94=C2=A0not t=
+o benefit the client but to benefit Morgan Stanley. (Also Passi =E2=80=9Cdi=
+d not wall cross any investors before sharing confidential information abou=
+t the Relevant Blocks with them.=E2=80=9D)
+Even without wall-crossing, though, there are some gray areas about what so=
+rt of information-gathering a syndicate desk can do before putting in a bid=
+. Like:
+=09Calling up some hedge funds at 2 p.m. and saying =E2=80=9Chey we got a b=
+lock of Amalgamated Widgets coming after the close today, are you in? If so=
+ you should=C2=A0short the stock now=E2=80=9D:=C2=A0pretty illegal.=09Calli=
+ng up some hedge funds at 2 p.m. and saying =E2=80=9Cjust hypothetically, h=
+ow are you feeling about the widget sector these days,=E2=80=9D to get a se=
+nse of investor demand: maybe okay?
+
+You can get some deniability on these calls. Though some sellers know to lo=
+ok out for this; the SEC notes that one selling shareholder=E2=80=99s agent=
+ sent Morgan Stanley a bid-wanted-in-competition request that said:
+Prior to the purchaser being selected, please do not engage in any discussi=
+on with potential investors or purchasers, even hypothetical ones, includin=
+g discussions in which several names are mentioned in order to solicit gene=
+ral interest.
+The other point is that this is illegal, but apparently not that illegal. M=
+organ Stanley paid a total of $249 million of penalties to the SEC and $153=
+ million to the Justice Department, though there is overlap in those number=
+s. (And some=C2=A0of the payment is for restitution to the block sellers wh=
+o got ripped off.) Meanwhile Passi will pay $250,000 to the SEC and agreed =
+to a deferred prosecution agreement in the criminal case: He  has to =E2=80=
+=9Cdemonstrate good behavior and fulfill the terms of the DPA, in which cas=
+e PASSI will not be further prosecuted criminally.=E2=80=9D So it=E2=80=99s=
+ not quite=C2=A0real=C2=A0insider trading: If you do this stuff they don=E2=
+=80=99t send you to jail; you get a warning first.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+
+The most normal way to be a tech entrepreneur goes something like this:
+=09You take your best idea and found a company to do it.=09If you need more=
+ money to do the idea, you raise capital from outside investors, lowering y=
+our ownership of the company from 100% to 50% or 20% or 10% or whatever, de=
+pending on how much money you need and what valuation the investors are wil=
+ling to give your idea.=09If you have some additional ideas, well, you=E2=
+=80=99ve already got this company, it=E2=80=99s already got capital, it=E2=
+=80=99s probably making money, so you might as well have the company do the=
+ other ideas too.
+
+So Mark Zuckerberg had an idea for putting Harvard=E2=80=99s facebook on th=
+e internet,=C2=A0and this turned out to be a gajillion-dollar idea, though =
+it did require enough outside capital and cofounders and so forth that he n=
+ow only owns about 14% of the company that did it.
+  [5]
+=C2=A0But now that company generates oceans of cash, which Zuckerberg has u=
+sed to   get into things like artificial intelligence and =E2=80=9Cthe meta=
+verse.=E2=80=9D To the point that the company he founded to put Harvard=E2=
+=80=99s facebook on the internet, Facebook, is now called Meta Platforms In=
+c., because it=E2=80=99s not just a facebook anymore. Zuckerberg keeps havi=
+ng ideas, and Meta keeps reflecting these ideas.
+This is not the only way to do things, and it is in some corporate finance =
+sense not the optimal=C2=A0way to do things. Consider an entrepreneur who h=
+as two ideas. One is a simple consumer-facing app that she could code herse=
+lf in an afternoon and that she thinks will be wildly popular, lucrative, a=
+nd cheap to scale. The other is, like, =E2=80=9Cbuild rocket ships,=E2=80=
+=9D and will be incredibly capital-intensive.=C2=A0
+Clearly=C2=A0she should start=C2=A0two=C2=A0companies. For one thing, there=
+ are no special synergies between her two projects: Maybe the consumer-app =
+project and the rocket-ship project could share, like, an accountant, but t=
+here=E2=80=99s no reason to think that the equipment and tools and engineer=
+s and salespeople for one project would do much good on the other project.
+Also, though, as a matter of her personal economic interests, the rocket-sh=
+ip company is going to require a ton of outside capital, so she won=E2=80=
+=99t own all that much of it =E2=80=94=C2=A0she=E2=80=99ll own 20% or whate=
+ver of the company, with the rest going to the outside investors who give h=
+er money to build the rockets. Whereas the consumer-app company she can jus=
+t build herself for free and own 100% of the profits. There is no reason fo=
+r her to build those two projects in one company=C2=A0and give 80% of the p=
+rofits of the consumer app to the rocket-ship investors. She can raise outs=
+ide capital for the capital-intensive projects, giving up some ownership of=
+ those projects, but=C2=A0keep the capital-light projects for herself.
+Similarly, an entrepreneur with, like, 20 ideas should arguably start 20 di=
+fferent companies to do them: Why share any of the profits of any of the id=
+eas with the outside investors in any of the others? Give up only as much o=
+wnership of each idea as you need to fund that idea.
+Though at that level things get trickier. You might be able to raise money =
+at a higher valuation for =E2=80=9Chere=E2=80=99s a slew of good ideas=E2=
+=80=9D than you would for each individual idea, though maybe not. In any ca=
+se,=C2=A0you will probably be able to raise money at a higher valuation if =
+you tell your investors =E2=80=9Cthis company has my full attention and I w=
+ill devote myself night and day to its success, since it represents substan=
+tially all of my net worth,=E2=80=9D than if you tell them =E2=80=9Cmeh I g=
+ot a lot of irons in the fire but I promise to work on this company from 9 =
+a.m. to 11 a.m. most Tuesdays.=E2=80=9D Tech investors like to think that t=
+hey are backing an entrepreneur, not just an idea: If they look you in the =
+eye and shake your hand and believe in your talent and drive, they will hap=
+pily give you money for whatever your current idea is, and be happy to let =
+you pivot to another idea if the first one doesn=E2=80=99t work. If you onl=
+y sell them one idea and keep the other 19 for yourself, then they are not =
+really getting the deal they want.
+Elon Musk does not have literally 20 companies, but he does have a lot. And=
+ his investors do seem   unusually content to back=C2=A0him, as a person, a=
+s a visionary tech entrepreneur, while only getting a small portion of his =
+attention. And now he=E2=80=99s using that for leverage?   Bloomberg=E2=80=
+=99s Edwin Chan and Linda Lew report:
+
+Elon Musk leaned on Tesla Inc.=E2=80=99s board to arrange another massive p=
+erformance award for him after he sold a significant chunk of his stake in =
+the company to acquire Twitter.
+In one of several posts on the topic, Musk wrote that unless he has roughly=
+ 25% voting control at Tesla, he=E2=80=99d prefer to build artificial intel=
+ligence and robotics products elsewhere. While he remains the carmaker=E2=
+=80=99s biggest shareholder with an almost 13% stake, he cashed in almost $=
+40 billion worth of shares in 2022 to help fund the Twitter deal.=C2=A0
+Musk, 52, praised Tesla=E2=80=99s board in other posts and said directors w=
+ere waiting for a Delaware Chancery Court ruling before preparing another c=
+ompensation plan. Judge Kathaleen St. J. McCormick =E2=80=94 who also presi=
+ded over Musk=E2=80=99s ill-fated attempt to get out of the Twitter deal =
+=E2=80=94 will decide a case brought by a Tesla shareholder who alleges Tes=
+la=E2=80=99s board failed to exercise independence from Musk as it drew up =
+his $55 billion performance award in 2018. ...
+Musk=E2=80=99s claim that he=E2=80=99s =E2=80=9Cuncomfortable growing Tesla=
+ to be a leader in AI & robotics=E2=80=9D follows repeated boasts over the =
+years that the company was a leader in the fields. Tesla markets products i=
+t calls Autopilot and Full Self-Driving =E2=80=94 both of which are driver-=
+support features =E2=80=94 and has been developing a humanoid robot called =
+Optimus. ...
+In July of last year, Musk announced the formation of xAI, a startup that a=
+ims to rival Microsoft Corp.-backed OpenAI and Google=E2=80=99s Deepmind. A=
+ week later, an analyst asked him during a Tesla earnings call whether the =
+new AI company would overlap with, compete with or enhance the value of the=
+ carmaker=E2=80=99s AI efforts. He said the latter.
+
+I laid out the=C2=A0theoretical corporate finance considerations above and,=
+ sure, Tesla=E2=80=99s car factories are capital-intensive while some of Mu=
+sk=E2=80=99s software projects are maybe=C2=A0less so. But that=E2=80=99s n=
+ot really what=E2=80=99s going on here. What's going on here is:
+=09Musk started Tesla,
+  [6]
+ raised outside money, and still owned about 20% of it.=09He then=C2=A0sold=
+=C2=A0a big chunk of that stake to raise cash, for himself, to buy another =
+company (Twitter)=C2=A0in his personal account (not=C2=A0for Tesla).=09Now =
+he=E2=80=99s going back to Tesla to be like =E2=80=9Cwell, I own a lot of c=
+ompanies, and I can=E2=80=99t really give Tesla my full attention while onl=
+y owning 13% of it, so you=E2=80=99d better double my stake, for free, if y=
+ou want me to keep doing good ideas at Tesla instead of at all my other com=
+panies.=E2=80=9D
+
+Honestly it=E2=80=99s a good threat! If you=E2=80=99re Tesla=E2=80=99s boar=
+d, and you know that Elon Musk=E2=80=99s top priority now is building AI, w=
+ouldn=E2=80=99t you rather have him do it at Tesla than elsewhere? Presumab=
+ly you want him paying attention to Tesla =E2=80=94=C2=A0that=E2=80=99s why=
+ you=E2=80=99ve paid him billions of dollars to be Tesla=E2=80=99s CEO! =E2=
+=80=94=C2=A0so you=E2=80=99d be sad if he turned all of his attention elsew=
+here.
+And yet there is something pretty obnoxious=C2=A0about it. He can keep doin=
+g this! What if you give him 25% of Tesla, he sells that stake for billions=
+ of dollars, he uses the billions of dollars to fund some new distracting h=
+obby, and he comes back to you in a year saying =E2=80=9Cyeah, I don=E2=80=
+=99t know, my heart isn=E2=80=99t really in Tesla anymore, maybe if you gav=
+e me another 25% it would motivate me.=E2=80=9D The $55 billion pay package=
+ in 2018 =E2=80=94=C2=A0the one that the board is currently getting sued fo=
+r =E2=80=94=C2=A0was supposed to motivate him to focus on Tesla, and it ver=
+y clearly had the opposite effect! It gave him too much money, which he spe=
+nt on distractions. And now he needs more money to turn back to Tesla from =
+those distractions.
+In general, with normal workers, the tension is that you want to pay them e=
+nough to motivate them, but not so much that they =E2=80=9Ccall in rich=E2=
+=80=9D and stop working. With Elon Musk, who is on some days the richest ma=
+n in the world, you might think this would not be a huge problem. You might=
+ think =E2=80=9Cwell, whatever motivated him to work night and day to incre=
+ase his wealth from tens of billions to=C2=A0hundreds of billions of dollar=
+s, it probably wasn't his=C2=A0paycheck, so we can rely on his intrinsic mo=
+tivation to solve big problems and get glory for himself.=E2=80=9D
+But that is wrong: Musk has plenty of intrinsic motivation, sure, but no pa=
+rticular reason to solve big problems=C2=A0for Tesla, as opposed to the man=
+y other companies that he has started or could start. It turns out that the=
+ problem of motivation is=C2=A0much worse=C2=A0for him. He=E2=80=99s got to=
+o much going on, and too much money; his companies need to compete for his =
+attention, and that competition is expensive.
+
+ =20
+   =20
+      GIP
+   =20
+ =20
+
+When I was an investment banker, I sometimes had to fly to the middle of th=
+e country to pitch potential deals. On the one hand, this was good, this wa=
+s the point,=C2=A0my whole goal as an investment banker was after all to ge=
+t mandated on large lucrative deals, and the way to do that was to fly arou=
+nd meeting with important clients and impressing them. On the other hand, i=
+t was bad, because I did not like flying off to places, or meeting with imp=
+ortant clients, or trying to impress them. I did not like, and was not good=
+ at,=C2=A0the travel and social elements of the job. So eventually I quit t=
+o become a blogger.
+In this, I am very much like Adebayo Ogunlesi, except (1) he was a much bet=
+ter investment banker, (2) he did it for longer and (3) he quit to become a=
+ billionaire instead?  The Financial Times reports:
+
+In 2005, Ogunlesi, then a top banker at Credit Suisse, was summoned to Omah=
+a, Nebraska, by the energy arm of Warren Buffett=E2=80=99s Berkshire Hathaw=
+ay to study a large takeover. It was the kind of call most financiers dream=
+ of, but Ogunlesi complained to his wife: =E2=80=9CI really don=E2=80=99t w=
+ant to go.=E2=80=9D
+In an interview with the Financial Times, he said his wife offered an ultim=
+atum: =E2=80=9CEither you decide you like your job and you want to keep doi=
+ng it. Or, if you decide you don=E2=80=99t, go find something else. But ple=
+ase don=E2=80=99t think you can spend the next five years moaning.=E2=80=9D
+
+I mean, completely fair, and basically why I left. But =E2=80=9Cafter that =
+=E2=80=98kick in the behind,=E2=80=99 Ogunlesi quit banking and at the age =
+of 52, decided to try his hand as an investor,=E2=80=9D got into infrastruc=
+ture, built Global Infrastructure Partners, and sold it last week to BlackR=
+ock Inc. for $12.5 billion. I cannot believe that this involved=C2=A0less=
+=C2=A0travel, or more glamorous travel. (He bought airports, which presumab=
+ly involved flying around just to look at airports?)=C2=A0Also this is fun:
+Though Ogunlesi will have his first boss in 18 years, he said [BlackRock CE=
+O Larry] Fink, a friend since both worked at First Boston, has downplayed t=
+he potential for conflict: =E2=80=9CLarry said to me: =E2=80=98You will be =
+on the board of directors, you will be my boss=E2=80=99. I think we have mu=
+tually assured destruction.=E2=80=9D
+All the best friendships are premised on mutually assured destruction.
+
+ =20
+   =20
+      Grayscale
+   =20
+ =20
+
+We   talked last week about the long-awaited approval of spot Bitcoin excha=
+nge-traded funds in the US. It has been widely assumed that these ETFs woul=
+d be good for the price of Bitcoin: Spot Bitcoin ETFs are a convenient and =
+easy way for normal people (and traditional institutions) to own Bitcoin, a=
+nd now that they are here, perhaps more people (and institutions) will buy =
+Bitcoin through the ETFs. Demand for the ETFs will drive demand for Bitcoin=
+, because each dollar that flows into the ETFs will ultimately, through arb=
+itrage, go to buying Bitcoins.
+But there is another, minimalist view you could take of the ETF approvals:
+=09The biggest pot of publicly traded Bitcoins is the Grayscale Bitcoin Tru=
+st (GBTC), which we have also   talked about a   number of   times.=09GBTC=
+=E2=80=99s  distinguishing feature, for most of its recent history, has bee=
+n that you could put Bitcoins=C2=A0in, but  you couldn=E2=80=99t take them=
+=C2=A0out. When we   talked about it last week, there was about $29 billion=
+ worth of Bitcoin in GBTC, and GBTC shareholders could not exchange their s=
+hares for Bitcoin.=09GBTC led the charge for spot Bitcoin ETF approval, sue=
+d the SEC to get it done, won, applied to convert into an ETF, succeeded, a=
+nd last week did in fact convert into an ETF.=09Now you can take your Bitco=
+ins out of GBTC. That is in a sense the=C2=A0point=C2=A0of the ETF structur=
+e.=C2=A0Now GBTC shareholders can sell their shares on the stock exchange, =
+and if there are more sellers than buyers then arbitrageurs and =E2=80=9Cau=
+thorized participants=E2=80=9D can deliver GBTC shares to Grayscale and get=
+ back Bitcoins.
+  [7]
+
+=09It is=C2=A0possible=C2=A0that the main effect of the launch of spot Bitc=
+oin ETFs would be people taking money=C2=A0out=C2=A0of GBTC =E2=80=94=C2=A0=
+which they have never been able to do before =E2=80=94=C2=A0rather than put=
+ting money=C2=A0into=C2=A0GBTC or the other ETFs.
+
+That is, the launch of spot Bitcoin ETFs might be=C2=A0not a way to attract=
+ normal people into Bitcoin, but a way to let trapped GBTC investors out.
+I=E2=80=99m not sure I=E2=80=99d bet on that as the main story or anything,=
+ but Bitcoin prices=C2=A0did=C2=A0fall since the ETFs launched, and GBTC ha=
+s seen some redemptions,
+  [8]
+=C2=A0and it would be a very=C2=A0funny=C2=A0story. What if GBTC has just t=
+rapped some demand for Bitcoin since 2017, and ETF approval finally release=
+d it? Here=E2=80=99s Bloomberg News with, I=E2=80=99m sorry,   Anthony Scar=
+amucci:
+
+Bitcoin=E2=80=99s decline since the start of trading of exchange-traded fun=
+ds that hold the cryptocurrency was driven in part by sales of Grayscale Bi=
+tcoin Trust shares, according to SkyBridge Capital founder Anthony Scaramuc=
+ci.
+=E2=80=9CThere seems to be of lot of selling of Grayscale,=E2=80=9D Scaramu=
+cci said during a Bloomberg Television interview on Friday.
+The hedge fund manager said that his trading desk noted that holders of the=
+ shares, which were converted from a trust this week when the US Securities=
+ and Exchange Commission signed off on the ETFs, were selling to book losse=
+s and shifting to lower fee alternatives.
+
+=E2=80=9CShifting to lower-fee=C2=A0alternatives=E2=80=9D should be neutral=
+ for Bitcoin =E2=80=94=C2=A0=E2=80=9CSelling one Bitcoin product to buy ano=
+ther should not impact Bitcoin=E2=80=99s price, said Zach Pandl, Grayscale=
+=E2=80=99s managing director or research=E2=80=9D =E2=80=94=C2=A0but just g=
+etting out=C2=A0entirely would lower the price, and GBTC holders haven=E2=
+=80=99t been able to do that for years.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+ Goldman Tops Estimates as Stock Trading Surges Past Expectations.=C2=A0Mor=
+gan Stanley Wealth Unit Beats Forecasts as Traders Fall Short.=C2=A0Morgan =
+Stanley CEO Ted Pick Inherits a Bank That=E2=80=99s Never Been   More Borin=
+g. The Last Man Standing in  Crypto. China Weighs   More Stimulus With $139=
+ Billion of Special Bonds.=C2=A0Argentina, Turkey Lure Investors Seeking Hi=
+gh-Yield Bond Returns. South Korea Alleges   Naked Short Selling by Two Mor=
+e Global Banks. The Green Investor Calling Out Biden=E2=80=99s Climate Law =
+for   Enriching Bankers and Consultants.=C2=A0Got $60 Million? Goldman Sach=
+s Wants to Lend You More.=C2=A0Evercore Grows Real Estate Arm as Clients Lo=
+ok to Private Credit. Large Backers of  Private Equity Are Asking For Their=
+ Money Back. Bill Ackman Is Bringing Activist Playbook to America=E2=80=99s=
+   Culture Wars. Bill Ackman escalates Business Insider  plagiarism feud wi=
+th legal threat. The M.B.A.s Who  Can=E2=80=99t Find Jobs. The $65 Million =
+Perk for CEOs: Personal Use of the  Corporate Jet Has Soared. Trump-Tied   =
+SPAC Jumps After Former President=E2=80=99s Decisive Iowa Win.=C2=A0Crash P=
+arties, Escape Dull Chitchat and Make Powerful Friends: What  Davos Elites =
+Know. Bitcoin is a  special-interest group. =E2=80=9CThey flew business cla=
+ss for the  extra luggage allowances, and moved =C2=A31 million or more by =
+checking-in three or four suitcases.=E2=80=9D
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] In this simple model you=E2=80=99re selling all the stock at $97, but=
+ realistically you are probably averaging down =E2=80=94 selling some at $1=
+00, some at $99, some at $98, etc., so that you actually sell for an averag=
+e price of $98.50 or whatever. Whereas once the block trade is announced, t=
+he price might jump down, and you=E2=80=99d have to resell all of it at a l=
+ower price. I am keeping things simple in the text but this is a potentiall=
+y important advantage: Your bid is a discount to the last sale, but if you =
+sell into the bid your average selling price could be quite a bit higher th=
+an the last sale.
+
+
+  [2] It also lowers the absolute amount of risk: If all the banks would se=
+ll to the same hedge funds, then even if multiple banks do this trick, all =
+that will happen is that the same hedge funds will get multiple calls about=
+ the same block, and they will just short the stock once.
+
+
+  [3] In my simple model, your bid is the same with or without the trick. B=
+ut the point of the trick is that you end up with better information in the=
+ auction than the other banks, so the other banks=E2=80=99 bids are less co=
+mpetitive, so you win the auction with a fat safe profit margin. Without th=
+is trick, every bank would be bidding its best guess at the clearing price,=
+ and the most overconfident bank would win. If some bank thought =E2=80=9Cw=
+e can sell this down $2 and only need $0.25 of profit,=E2=80=9D they=E2=80=
+=99d bid $97.75 and win the auction; but if you pre-sell the stock down to =
+$97 they=E2=80=99ll bid $94.75 and lose to your bid of $96.
+
+
+  [4] "Blackstone, Oaktree Burned by Morgan Stanley=E2=80=99s Block-Trade L=
+eaks,"=20
+reports Bloomberg News about the Morgan Stanley block-trade leaks, and pres=
+umably they're annoyed.
+
+
+  [5] That is, 13.7% of the economic interests,  though 61.1% of the voting=
+ rights.
+
+
+  [6] This is not technically true but it is true in important senses. Like=
+, he's the guy who ran the company when it raised a lot of the outside capi=
+tal.
+
+
+  [7] Technically they get back cash, and GBTC sells the Bitcoins to raise =
+the cash, because the SEC did not approve spot Bitcoin ETFs with in-kind cr=
+eation and redemption, as we   discussed Thursday. But same effect.
+
+
+  [8] Bloomberg data shows 692.4 million shares of GBTC outstanding on Wedn=
+esday, before the ETF approval, 690.1 million on Thursday and 677.7 million=
+ on Friday.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck942y.65ri/d2fc7992.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_6589986_1303225658.1705426615744
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Here=E2=80=99s a simple model of a block trade. There=E2=80=99s a public co=
+mpany, its stock trades on the exchange, its current price is $100. A big s=
+hareho
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTE2MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB63da3363"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zNDAxNzUxNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQzMDQ5MjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB65cd7779" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D34017514&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34304920&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Block trades</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s a simple model of a block trade=
+. There=E2=80=99s a public company, its stock trades on the exchange, its c=
+urrent price is $100. A big shareholder wants to sell a block of a million =
+shares. This will drive down the price: supply and demand, more sellers tha=
+n buyers, etc. Let=E2=80=99s say that fully selling all of the shares will =
+drive the price down by $3.</p>
+<p style=3D"margin: 16px 0;">You=E2=80=99re a bank, and the seller comes to=
+ you and says: =E2=80=9CI want to do a block trade. I want you to buy all t=
+his stock at a firm price and resell it at your own risk. You have to buy i=
+t after the market closes in two hours; I=E2=80=99ll call you for your bid =
+then.=E2=80=9D How much should you bid? Well, on my numbers in the previous=
+ paragraph, the stock is at $100, selling all the shares will take $3 off t=
+he price, and you=E2=80=99ll be able to resell it at $97. So you should bid=
+, like, $96, to add a little cushion (in case that $3 estimate of the price=
+ impact is wrong)=C2=A0and some profit for you.</p>
+<p style=3D"margin: 16px 0;">But in fact the stock will move around over th=
+e next two hours. Maybe in two hours it=E2=80=99ll be $99, or $101. And=C2=
+=A0reselling the stock will drive it down by $3. So really your bid should =
+be (1) whatever the closing price is in two hours minus (2) say,=C2=A0$4 (t=
+he $3 effect of the sale, plus $1 for your profits). And in fact the seller=
+ will probably ask you for a bid that is not a dollar price but a discount =
+(percentage or dollars) to the last sale price. If the stock closes at $99.=
+73 and your bid is =E2=80=9Cdown $4=E2=80=9D then your bid is $95.73.</p>
+<p style=3D"margin: 16px 0;">You have two hours to come up with your bid. Y=
+ou have two goals:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">
+<em>Accuracy:=C2=A0</em>You want your bid to accurately reflect the price a=
+t which you can resell the stock (plus a little profit for you); you don=E2=
+=80=99t want to pay $98 if you=E2=80=99ll have to resell the stock at $95.<=
+/li>=09<li style=3D"margin-bottom: 5px;">
+<em>Competitiveness:</em> The seller is probably calling a bunch of banks, =
+and will take the highest price (the lowest discount to the last sale). So =
+you want to offer the highest price.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Here is a good trick: You spend those two hour=
+s=C2=A0<em>selling all the stock</em>. You pre-sell the million shares that=
+ the seller is offering; you sell them short.=C2=A0As you do this, naturall=
+y, the price declines, from $100 to $97, to reflect all of that selling. (A=
+lso maybe other stuff happens =E2=80=94=C2=A0maybe there=E2=80=99s economic=
+ news or other big buyers or sellers or whatever =E2=80=94=C2=A0so the stoc=
+k ends up at $96 or $98 or whatever, but the $3 effect of all the selling i=
+s fully incorporated into the price.) And then at the end of that process y=
+ou go to the seller and bid =E2=80=9Cdown $1=E2=80=9D: That is, you=E2=80=
+=99ll pay $1 less than the last price; if the last price was $97 you=E2=80=
+=99ll pay $96.</p>
+<p style=3D"margin: 16px 0;">Now, two things are true:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Your bid is more accurate. You alread=
+y know the price you can get for all that stock, because you=E2=80=99ve alr=
+eady sold it. If you sold it at $97 and bid $96, you have $1 of profit that=
+ is totally safe.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: none !important; backgr=
+ound-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">Your bid is=C2=A0<em>tighter</em>=
+, more competitive. Instead of bidding =E2=80=9Cdown $4,=E2=80=9D as you wo=
+uld have in the naive case, you bid =E2=80=9Cdown $1,=E2=80=9D because the =
+$3 impact of selling the stock is already reflected=C2=A0into the price.</l=
+i>
+</ol>
+<p style=3D"margin: 16px 0;">Notice that your bid is not=C2=A0<em>actually =
+better:=C2=A0</em>In the naive case, the stock is at $100 and you bid down =
+$4 ($96) to reflect the likely impact on the price of reselling all the sto=
+ck. In the pre-selling case, the stock is at $97 and you bid down $1 ($96) =
+because you=E2=80=99ve already resold all the stock. Either way the seller =
+gets $96.</p>
+<p style=3D"margin: 16px 0;">But if you are in competition, your competitor=
+s don=E2=80=99t know that you=E2=80=99ve pre-sold the stock. They see the c=
+losing price of $97 and think that that reflects the market=E2=80=99s valua=
+tion of the stock; they think that reselling the million-share block will r=
+equire=C2=A0<em>another=C2=A0</em>$3 price drop. So they bid =E2=80=9Cdown =
+$4=E2=80=9D =E2=80=94=C2=A0the naive bid =E2=80=94=C2=A0which works out to =
+$93. And you bid $96, you win, you get the stock, and you make an easy $1 p=
+rofit.</p>
+<p style=3D"margin: 16px 0;">There are some problems with this trick. One i=
+s, if you do it and=C2=A0<em>don=E2=80=99t=C2=A0</em>win, you=E2=80=99ve pr=
+e-sold all this stock and don=E2=80=99t get to buy it at a discount; you ha=
+ve to go and cover your short in the market and might lose money. What if a=
+nother bank does the same trick? Then, between you, you=E2=80=99ve sold <em=
+>two=C2=A0</em>million shares, the price has gone down=C2=A0<em>too=C2=A0</=
+em>far, and whoever loses the auction will have to buy back the million sha=
+res at higher prices. What if five banks do this trick?</p>
+<p style=3D"margin: 16px 0;">There are ways to mitigate this risk. A simple=
+ one is, instead of actually<em>=C2=A0</em>pre-selling the stock yourself, =
+you just call up the likely buyers =E2=80=94=C2=A0the big hedge funds that =
+tend to buy block trades =E2=80=94=C2=A0and say =E2=80=9Chey, got one comin=
+g for Amalgamated Widgets, you in?=E2=80=9D And then the hedge funds give y=
+ou an order, and <em>they </em>short the stock, and it goes down to $97, an=
+d you proceed as above,=C2=A0bidding $96 and winning the auction, and you s=
+ell=C2=A0them the stock at $96.50 and they make money and you make money. T=
+his moves the risk from=C2=A0you to the hedge funds.<a class=3D"footnote-in=
+dex" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: none !important; background-color: transparent !important; disp=
+lay: inline-block;">
+<span>[2]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Another problem with this trick is that it is =
+pretty bad customer service.=C2=A0It=C2=A0<em>looks=C2=A0</em>like good cus=
+tomer=C2=A0service: You can give the seller a tight bid on the block, and t=
+hen resell it quickly and efficiently. But it is=C2=A0<em>actually=C2=A0</e=
+m>bad customer service, because you drive down the price ahead of the block=
+ trade and make the auction for the seller=E2=80=99s shares less competitiv=
+e.<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: none !important; background-color: tra=
+nsparent !important; display: inline-block;">
+<span>[3]</span>
+</a> Ordinarily sellers will swear you to secrecy; they will call you up an=
+d say =E2=80=9CI want you to bid on this block, but don=E2=80=99t tell anyo=
+ne that it=E2=80=99s coming.=E2=80=9D=C2=A0If the seller finds out that you=
+ did pre-sell the shares, or that you leaked the news to hedge funds to pre=
+-sell the shares, they will be mad at you.<a class=3D"footnote-index" href=
+=3D"#footnote-4" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">A third problem with this trick is that it is =
+=E2=80=A6=C2=A0I was about to say =E2=80=9Cvery illegal,=E2=80=9D but appar=
+ently it is only, like, the regular amount of illegal. Possibly less. It is=
+ mildly illegal? (Not=C2=A0legal advice!) It is a form of=C2=A0<em>insider =
+trading</em>, or rather front-running:=C2=A0Your client (the big shareholde=
+r) called you and said =E2=80=9CI want to sell stock after the close today,=
+=E2=80=9D and probably swore you to secrecy, and then you went and traded o=
+n it, or told hedge funds to trade on it, so you could make more money for =
+yourself with less risk. You had=C2=A0nonpublic information about a big sha=
+reholder=E2=80=99s plans to sell, that information was material, you had a =
+duty to keep it confidential, and instead you used it to tip off some hedge=
+ funds (or trade yourself) to make money for yourself.</p>
+<p style=3D"margin: 16px 0;">A certain amount of illegal. On Friday, the <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aHR0=
+cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyNC02/607f07ceef4b8524a3=
+19a23cB41103980" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> US Securities and Exchange Commission</a>=C2=A0an=
+d <a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/=
+aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvdXNhby1zZG55L3ByL3VzLWF0dG9ybmV5LWFubm91bmN=
+lcy1hZ3JlZW1lbnRzLW1vcmdhbi1zdGFubGV5LWFuZC1mb3JtZXItc2VuaW9yLWVtcGxveWVlLX=
+Bhd2FuLXBhc3Np/607f07ceef4b8524a319a23cBedce6002" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> US federal prose=
+cutors in Manhattan</a>=C2=A0settled a case=C2=A0against Morgan Stanley and=
+ Pawan Passi, its former head of US equity syndicate. =E2=80=9CEquity syndi=
+cate=E2=80=9D is the desk that does this stuff; specifically:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">When big shareholders ask for a price=
+ on a block trade, equity syndicate is the desk that gives them the price.<=
+/li>=09<li style=3D"margin-bottom: 5px;">When Morgan Stanley wins a block t=
+rade, equity syndicate is the desk that coordinates selling the shares out =
+to investors.</li>=09<li style=3D"margin-bottom: 5px;">When big shareholder=
+s ask for a price on a block trade, equity syndicate is=C2=A0<em>the desk t=
+hat calls potential investors and say =E2=80=9Chey what price would you pay=
+ for this block?=E2=80=9D to formulate its bid.</em>
+</li>
+</ol>
+<p style=3D"margin: 16px 0;">Oh, I mean, not really;=C2=A0No. 3 is illegal.=
+ But kind of. Certainly Pawan Passi did that, though now he is the <em>form=
+er</em> head of equity syndicate. <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/34017514.287406/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9saXRpZ2F=
+0aW9uL2FkbWluLzIwMjQvMzQtOTkzMzcucGRm/607f07ceef4b8524a319a23cB5fafaaa5" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> The SEC says</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Selling shareholders or their agents then typi=
+cally send a bid-wanted-in-competition (=E2=80=9CBWIC=E2=80=9D) email to th=
+e investment banking firms that had expressed an interest on the initial ou=
+treach calls. BWICs are typically sent to firms two to three hours before t=
+he market close. They reiterate the information provided on the outreach ca=
+ll (the seller=E2=80=99s identity, the stock, and size of the block), reque=
+st bids by 4:05 pm ET that day, and set forth the confidential auction proc=
+ess. BWICs typically pre-condition a firm=E2=80=99s participation in the au=
+ction process on the firm agreeing to keep information about the potential =
+block trade confidential. Selling shareholders or their agents require the =
+select group of auction participants to keep such information confidential =
+because if the market becomes aware of an imminent block trade, as stated a=
+bove, the price of the stock might decline, and the seller might receive a =
+worse price from the auction. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">During the Relevant Period, Passi disclosed no=
+n-public, potentially market-moving information received from selling share=
+holders or their agents about block trades to certain potential purchasers =
+of the block, including a portfolio manager (=E2=80=9CPortfolio Manager A=
+=E2=80=9D) in the London, England office of a Hong-Kong-based hedge fund (=
+=E2=80=9CHedge Fund A=E2=80=9D) while the auction process was ongoing. ...<=
+/p>
+<p style=3D"margin: 16px 0;">Passi provided this information to Portfolio M=
+anager A with the understanding that he would take large short positions in=
+ the stock in anticipation, and prior to the execution, of the block trade,=
+ and that, if Morgan Stanley won the auction, Portfolio Manager A would req=
+uest and receive allocations from the block trade to cover those short posi=
+tions.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Passi knew that providing information about bl=
+ock trades to buy-side investors, such as Portfolio Manager A, could cause =
+the stock price to decline if those investors sold significant amounts of s=
+tock in advance of the block trade.</p>
+<p style=3D"margin: 16px 0;">Portfolio Manager A=E2=80=99s pre-positioning =
+activities benefitted Morgan Stanley as they ensured that there would be a =
+large buyer for at least a portion of the block trade, thereby lowering Mor=
+gan Stanley=E2=80=99s risk on the transaction, and giving the firm comfort =
+to offer a tighter and more competitive bid.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It seems that Passi called=C2=A0several invest=
+ors to place a bunch of the stock (and thus largely de-risk Morgan Stanley=
+=E2=80=99s bid), but it=E2=80=99s not clear how methodical he was; it=E2=80=
+=99s possible that he just called a few of his favorites. For instance this=
+ guy, from the <a href=3D"https://link.mail.bloombergbusiness.com/click/340=
+17514.287406/aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvbWVkaWEvMTMzMzIwNi9kbA/607f07c=
+eef4b8524a319a23cB904ed903" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> criminal statement of facts</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Hedge fund investors who received =
+confidential information from the Head of the Desk [Passi] and Employee-1 a=
+bout upcoming blocks recognized that this information allowed them to profi=
+t in ways they otherwise would not have. For example, an investor working a=
+t a Nevada- based hedge fund (=E2=80=9CInvestor-3=E2=80=9D) told the Head o=
+f the Desk in an August 2021 call, =E2=80=9CI know who my daddy is,=E2=80=
+=9D referring to the assistance that the Head of the Desk had provided Inve=
+stor-3 in profiting from block trades. Investor-3 stated in the same call, =
+again referring to block trades, that the Head of the Desk had =E2=80=9Cput=
+ [Investor-3] in the ... game,=E2=80=9D and that Investor-3 =E2=80=9Cwould =
+be at the kiddie table if it wasn=E2=80=99t for=E2=80=9D the Head of the De=
+sk.</p></blockquote>
+<p style=3D"margin: 16px 0;">Because, yes, if you do this right, it is near=
+ly risk-free profit for the hedge fund (who shorts the stock during the day=
+ and then gets it back at the close at a discount to the trading price) and=
+ for Morgan Stanley (who locks in buyers a higher price than it agrees to p=
+ay the seller). You don=E2=80=99t need to be a big or good hedge fund to ge=
+t the call for this trade; you just need to be a loyal friend of Passi=E2=
+=80=99s.</p>
+<p style=3D"margin: 16px 0;">Anyway, two related points. One is that this i=
+s=C2=A0<em>illegal</em>, but it=E2=80=99s on a continuum. As a general matt=
+er, when you want to sell a large block of stock, you have to balance your =
+desires to (1) tell everyone, to drum up buyers and (2)=C2=A0tell no one, t=
+o avoid anyone front-running you. In different circumstances, you might str=
+ike that balance in different ways. <em>Sometimes</em>, it is=C2=A0<em>good=
+=C2=A0</em>customer service for Morgan Stanley to =E2=80=9Csocialize=E2=80=
+=9D a block trade before bidding, to pre-market it before actually doing th=
+e trade. Ordinarily to do that you=E2=80=99d wall-cross the investors first=
+: You=E2=80=99d call them up to ask =E2=80=9Chey would you buy this block,=
+=E2=80=9D but only if they first promise not to short the stock ahead of th=
+e trade.=C2=A0In fact Morgan Stanley marketed that service; from the statem=
+ent of facts:</p>
+<blockquote><p style=3D"margin: 16px 0;">When Morgan Stanley=E2=80=99s mark=
+eting materials referenced investor outreach, the materials suggested that =
+such outreach would be done only to investors that had been wall-crossed. S=
+ellers were told that while block trades were one option for selling their =
+shares, another option was an =E2=80=9Covernight with wall-cross and backst=
+op,=E2=80=9D which was described as a registered sale that would =E2=80=9Cl=
+aunch[] publicly after wall-crossing several investors capable of acting as=
+ anchor investors.=E2=80=9D The stated advantage of this =E2=80=9Covernight=
+ with a wall-cross=E2=80=9D was that =E2=80=9Canchor investor feedback help=
+s provide early pricing insight ahead of public launch.=E2=80=9D In other s=
+lides shown to potential sellers, the possibility of wall-crossing a select=
+ number of investors =E2=80=9Cahead of launch to maximize demand visibility=
+/pricing=E2=80=9D was offered as a possible way to execute a registered blo=
+ck trade.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">It=E2=80=99s just that, when sellers instead c=
+hose to do block trades without pre-marketing, Passi pre-marketed the share=
+s anyway =E2=80=94=C2=A0not to benefit the client but to benefit Morgan Sta=
+nley. (Also Passi =E2=80=9Cdid not wall cross any investors before sharing =
+confidential information about the Relevant Blocks with them.=E2=80=9D)</p>
+<p style=3D"margin: 16px 0;">Even without wall-crossing, though, there are =
+some gray areas about what sort of information-gathering a syndicate desk c=
+an do before putting in a bid. Like:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Calling up some hedge funds at 2 p.m. =
+and saying =E2=80=9Chey we got a block of Amalgamated Widgets coming after =
+the close today, are you in? If so you should=C2=A0short the stock now=E2=
+=80=9D:=C2=A0pretty illegal.</li>=09<li style=3D"margin-bottom: 5px;">Calli=
+ng up some hedge funds at 2 p.m. and saying =E2=80=9Cjust hypothetically, h=
+ow are you feeling about the widget sector these days,=E2=80=9D to get a se=
+nse of investor demand: maybe okay?</li>
+</ul>
+<p style=3D"margin: 16px 0;">You can get some deniability on these calls. T=
+hough some sellers know to look out for this; the SEC notes that one sellin=
+g shareholder=E2=80=99s agent sent Morgan Stanley a bid-wanted-in-competiti=
+on request that said:</p>
+<blockquote><p style=3D"margin: 16px 0;">Prior to the purchaser being selec=
+ted, please do not engage in any discussion with potential investors or pur=
+chasers, even hypothetical ones, including discussions in which several nam=
+es are mentioned in order to solicit general interest.</p></blockquote>
+<p style=3D"margin: 16px 0;">The other point is that this is illegal, but a=
+pparently not <em>that</em> illegal. Morgan Stanley paid a total of $249 mi=
+llion of penalties to the SEC and $153 million to the Justice Department, t=
+hough there is overlap in those numbers. (And some=C2=A0of the payment is f=
+or restitution to the block sellers who got ripped off.) Meanwhile Passi wi=
+ll pay $250,000 to the SEC and agreed to a deferred prosecution agreement i=
+n the criminal case: He <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/34017514.287406/aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvdXNhby1zZG55L3ByL3VzL=
+WF0dG9ybmV5LWFubm91bmNlcy1hZ3JlZW1lbnRzLW1vcmdhbi1zdGFubGV5LWFuZC1mb3JtZXIt=
+c2VuaW9yLWVtcGxveWVlLXBhd2FuLXBhc3Np/607f07ceef4b8524a319a23cCedce6002" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> has to</a> =E2=80=9Cdemonstrate good behavior and fulfill the terms o=
+f the DPA, in which case PASSI will not be further prosecuted criminally.=
+=E2=80=9D So it=E2=80=99s not quite=C2=A0<em>real=C2=A0</em>insider trading=
+: If you do this stuff they don=E2=80=99t send you to jail; you get a warni=
+ng first.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zNDAxNzUxNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQzMDQ5MjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC7cfa78c6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D34017514&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34304920&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zNDAxNzUxNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQzMDQ5MjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD7cfa78c6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D34017514&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34304920&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The most normal way to be a tech entrepreneur =
+goes something like this:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You take your best idea and found a c=
+ompany to do it.</li>=09<li style=3D"margin-bottom: 5px;">If you need more =
+money to do the idea, you raise capital from outside investors, lowering yo=
+ur ownership of the company from 100% to 50% or 20% or 10% or whatever, dep=
+ending on how much money you need and what valuation the investors are will=
+ing to give your idea.</li>=09<li style=3D"margin-bottom: 5px;">If you have=
+ some additional ideas, well, you=E2=80=99ve already got this company, it=
+=E2=80=99s already got capital, it=E2=80=99s probably making money, so you =
+might as well have the company do the other ideas too.</li>
+</ol>
+<p style=3D"margin: 16px 0;">So Mark Zuckerberg had an idea for putting Har=
+vard=E2=80=99s facebook on the internet,=C2=A0and this turned out to be a g=
+ajillion-dollar idea, though it did require enough outside capital and cofo=
+unders and so forth that he now only owns about 14% of the company that did=
+ it.<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: none !important; background-color: t=
+ransparent !important; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0But now that company generates oceans of cash, which Zuckerberg h=
+as used to <a href=3D"https://link.mail.bloombergbusiness.com/click/3401751=
+4.287406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjQtMDEtMT=
+EvbWFyay16dWNrZXJiZXJnLXBpdm90cy10by1haS1mcm9tLW1ldGF2ZXJzZS10by1mdXJ0aGVyL=
+Whpcy1sZWdhY3k_Y21waWQ9QkJEMDExNjI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1=
+dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTE2JnV0bV9jYW1wYWlnbj1tb25leXN=
+0dWZm/607f07ceef4b8524a319a23cBdf2f1a1d" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  get into things</a> li=
+ke artificial intelligence and =E2=80=9Cthe metaverse.=E2=80=9D To the poin=
+t that the company he founded to put Harvard=E2=80=99s facebook on the inte=
+rnet, Facebook, is now called Meta Platforms Inc., because it=E2=80=99s not=
+ just a facebook anymore. Zuckerberg keeps having ideas, and Meta keeps ref=
+lecting these ideas.</p>
+<p style=3D"margin: 16px 0;">This is not the only way to do things, and it =
+is in some corporate finance sense not the <em>optimal=C2=A0</em>way to do =
+things. Consider an entrepreneur who has <em>two</em> ideas. One is a simpl=
+e consumer-facing app that she could code herself in an afternoon and that =
+she thinks will be wildly popular, lucrative, and cheap to scale. The other=
+ is, like, =E2=80=9Cbuild rocket ships,=E2=80=9D and will be incredibly cap=
+ital-intensive.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><em>Clearly=C2=A0</em>she should start=C2=A0<e=
+m>two=C2=A0</em>companies. For one thing, there are no special synergies be=
+tween her two projects: Maybe the consumer-app project and the rocket-ship =
+project could share, like, an accountant, but there=E2=80=99s no reason to =
+think that the equipment and tools and engineers and salespeople for one pr=
+oject would do much good on the other project.</p>
+<p style=3D"margin: 16px 0;">Also, though, as a matter of her personal econ=
+omic interests, the rocket-ship company is going to require a ton of outsid=
+e capital, so she won=E2=80=99t own all that much of it =E2=80=94=C2=A0she=
+=E2=80=99ll own 20% or whatever of the company, with the rest going to the =
+outside investors who give her money to build the rockets. Whereas the cons=
+umer-app company she can just build herself for free and own 100% of the pr=
+ofits. There is no reason for her to build those two projects in one compan=
+y=C2=A0and give 80% of the profits of the consumer app to the rocket-ship i=
+nvestors. She can raise outside capital for the capital-intensive projects,=
+ giving up some ownership of those projects, but=C2=A0keep the capital-ligh=
+t projects for herself.</p>
+<p style=3D"margin: 16px 0;">Similarly, an entrepreneur with, like, 20 idea=
+s should arguably start 20 different companies to do them: Why share any of=
+ the profits of any of the ideas with the outside investors in any of the o=
+thers? Give up only as much ownership of each idea as you need to fund that=
+ idea.</p>
+<p style=3D"margin: 16px 0;">Though at that level things get trickier. You =
+might be able to raise money at a higher valuation for =E2=80=9Chere=E2=80=
+=99s a slew of good ideas=E2=80=9D than you would for each individual idea,=
+ though maybe not. In any case,=C2=A0you will probably be able to raise mon=
+ey at a higher valuation if you tell your investors =E2=80=9Cthis company h=
+as my full attention and I will devote myself night and day to its success,=
+ since it represents substantially all of my net worth,=E2=80=9D than if yo=
+u tell them =E2=80=9Cmeh I got a lot of irons in the fire but I promise to =
+work on this company from 9 a.m. to 11 a.m. most Tuesdays.=E2=80=9D Tech in=
+vestors like to think that they are backing an entrepreneur, not just an id=
+ea: If they look you in the eye and shake your hand and believe in your tal=
+ent and drive, they will happily give you money for whatever your current i=
+dea is, and be happy to let you pivot to another idea if the first one does=
+n=E2=80=99t work. If you only sell them one idea and keep the other 19 for =
+yourself, then they are not really getting the deal they want.</p>
+<p style=3D"margin: 16px 0;">Elon Musk does not have literally 20 companies=
+, but he does have a lot. And his investors do seem <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/34017514.287406/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTAtMDMvZXZlcnlvbmUtd2FudGVkLXRvLWJ1=
+eS10d2l0dGVyLXdpdGgtZWxvbj9jbXBpZD1CQkQwMTE2MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXV=
+tPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTYmdXRtX2NhbXBhaW=
+duPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB656ea1f9" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  unusually co=
+ntent to back=C2=A0<em>him</em></a>, as a person, as a visionary tech entre=
+preneur, while only getting a small portion of his attention. And now he=E2=
+=80=99s using that for leverage? <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/34017514.287406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjQtMDEtMTUvZWxvbi1tdXNrLXdhbnRzLWdyZWF0ZXItY29udHJvbC1vZi10ZXN=
+sYS1iZWZvcmUtYnVpbGRpbmctaXRzLWFpP2NtcGlkPUJCRDAxMTYyNF9NT05FWVNUVUZGJnV0bV=
+9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNiZ1dG1fY=
+2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7c6c6ef7" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  Bloo=
+mberg=E2=80=99s Edwin Chan and Linda Lew report</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Elon Musk leaned on Tesla Inc.=E2=80=99s board=
+ to arrange another massive performance award for him after he sold a signi=
+ficant chunk of his stake in the company to acquire Twitter.</p>
+<p style=3D"margin: 16px 0;">In one of several posts on the topic, Musk wro=
+te that unless he has roughly 25% voting control at Tesla, he=E2=80=99d pre=
+fer to build artificial intelligence and robotics products elsewhere. While=
+ he remains the carmaker=E2=80=99s biggest shareholder with an almost 13% s=
+take, he cashed in almost $40 billion worth of shares in 2022 to help fund =
+the Twitter deal.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Musk, 52, praised Tesla=E2=80=99s board in oth=
+er posts and said directors were waiting for a Delaware Chancery Court ruli=
+ng before preparing another compensation plan. Judge Kathaleen St. J. McCor=
+mick =E2=80=94 who also presided over Musk=E2=80=99s ill-fated attempt to g=
+et out of the Twitter deal =E2=80=94 will decide a case brought by a Tesla =
+shareholder who alleges Tesla=E2=80=99s board failed to exercise independen=
+ce from Musk as it drew up his $55 billion performance award in 2018. ...</=
+p>
+<p style=3D"margin: 16px 0;">Musk=E2=80=99s claim that he=E2=80=99s =E2=80=
+=9Cuncomfortable growing Tesla to be a leader in AI &amp; robotics=E2=80=9D=
+ follows repeated boasts over the years that the company was a leader in th=
+e fields. Tesla markets products it calls Autopilot and Full Self-Driving =
+=E2=80=94 both of which are driver-support features =E2=80=94 and has been =
+developing a humanoid robot called Optimus. ...</p>
+<p style=3D"margin: 16px 0;">In July of last year, Musk announced the forma=
+tion of xAI, a startup that aims to rival Microsoft Corp.-backed OpenAI and=
+ Google=E2=80=99s Deepmind. A week later, an analyst asked him during a Tes=
+la earnings call whether the new AI company would overlap with, compete wit=
+h or enhance the value of the carmaker=E2=80=99s AI efforts. He said the la=
+tter.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I laid out the=C2=A0theoretical corporate fina=
+nce considerations above and, sure, Tesla=E2=80=99s car factories are capit=
+al-intensive while some of Musk=E2=80=99s software projects are maybe=C2=A0=
+less so. But that=E2=80=99s not really what=E2=80=99s going on here. What's=
+ going on here is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Musk started Tesla,<a class=3D"footno=
+te-index" href=3D"#footnote-6" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: none !important; background-color: transparent !important;=
+ display: inline-block;">
+<span>[6]</span>
+</a> raised outside money, and still owned about 20% of it.</li>=09<li styl=
+e=3D"margin-bottom: 5px;">He then=C2=A0<em>sold=C2=A0</em>a big chunk of th=
+at stake to raise cash, for himself, to buy another company (Twitter)=C2=A0=
+in his personal account (<em>not=C2=A0</em>for Tesla).</li>=09<li style=3D"=
+margin-bottom: 5px;">Now he=E2=80=99s going back to Tesla to be like =E2=80=
+=9Cwell, I own a lot of companies, and I can=E2=80=99t really give Tesla my=
+ full attention while only owning 13% of it, so you=E2=80=99d better double=
+ my stake, for free, if you want me to keep doing good ideas at Tesla inste=
+ad of at all my other companies.=E2=80=9D</li>
+</ol>
+<p style=3D"margin: 16px 0;">Honestly it=E2=80=99s a good threat! If you=E2=
+=80=99re Tesla=E2=80=99s board, and you know that Elon Musk=E2=80=99s top p=
+riority now is building AI, wouldn=E2=80=99t you rather have him do it at T=
+esla than elsewhere? Presumably you want him paying attention to Tesla =E2=
+=80=94=C2=A0that=E2=80=99s why you=E2=80=99ve paid him billions of dollars =
+to be Tesla=E2=80=99s CEO! =E2=80=94=C2=A0so you=E2=80=99d be sad if he tur=
+ned all of his attention elsewhere.</p>
+<p style=3D"margin: 16px 0;">And yet there is something pretty obnoxious=C2=
+=A0about it. He can keep doing this! What if you give him 25% of Tesla, he =
+sells <em>that</em> stake for billions of dollars, he uses the billions of =
+dollars to fund some new distracting hobby, and he comes back to you in a y=
+ear saying =E2=80=9Cyeah, I don=E2=80=99t know, my heart isn=E2=80=99t real=
+ly in Tesla anymore, maybe if you gave me another 25% it would motivate me.=
+=E2=80=9D The $55 billion pay package in 2018 =E2=80=94=C2=A0the one that t=
+he board is currently getting sued for =E2=80=94=C2=A0was supposed to motiv=
+ate him to focus on Tesla, and it very clearly had the opposite effect! It =
+gave him too much money, which he spent on distractions. And now he needs m=
+ore money to turn back to Tesla from those distractions.</p>
+<p style=3D"margin: 16px 0;">In general, with normal workers, the tension i=
+s that you want to pay them enough to motivate them, but not so much that t=
+hey =E2=80=9Ccall in rich=E2=80=9D and stop working. With Elon Musk, who is=
+ on some days the richest man in the world, you might think this would not =
+be a huge problem. You might think =E2=80=9Cwell, whatever motivated him to=
+ work night and day to increase his wealth from tens of billions to=C2=A0hu=
+ndreds of billions of dollars, it probably wasn't his=C2=A0<em>paycheck</em=
+>, so we can rely on his intrinsic motivation to solve big problems and get=
+ glory for himself.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">But that is wrong: Musk has plenty of intrinsi=
+c motivation, sure, but no particular reason to solve big problems=C2=A0<em=
+>for Tesla</em>, as opposed to the many other companies that he has started=
+ or could start. It turns out that the problem of motivation is=C2=A0<em>mu=
+ch worse=C2=A0</em>for him. He=E2=80=99s got too much going on, and too muc=
+h money; his companies need to compete for his attention, and that competit=
+ion is expensive.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">GIP</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">When I was an investment banker, I sometimes h=
+ad to fly to the middle of the country to pitch potential deals. On the one=
+ hand, this was good, this was the point,=C2=A0my whole goal as an investme=
+nt banker was after all to get mandated on large lucrative deals, and the w=
+ay to do that was to fly around meeting with important clients and impressi=
+ng them. On the other hand, it was bad, because I did not like flying off t=
+o places, or meeting with important clients, or trying to impress them. I d=
+id not like, and was not good at,=C2=A0the travel and social elements of th=
+e job. So eventually I quit to become a blogger.</p>
+<p style=3D"margin: 16px 0;">In this, I am very much like Adebayo Ogunlesi,=
+ except (1) he was a much better investment banker, (2) he did it for longe=
+r and (3) he quit to become a billionaire instead? <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/34017514.287406/aHR0cHM6Ly93d3cuZnQuY29tL2=
+NvbnRlbnQvZDFjNjUzMzUtOGU5YS00NGEwLWIxMjItMjIwYTE4ZGNjOTM3/607f07ceef4b8524=
+a319a23cB5460124f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> The Financial Times reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In 2005, Ogunlesi, then a top banker at Credit=
+ Suisse, was summoned to Omaha, Nebraska, by the energy arm of Warren Buffe=
+tt=E2=80=99s Berkshire Hathaway to study a large takeover. It was the kind =
+of call most financiers dream of, but Ogunlesi complained to his wife: =E2=
+=80=9CI really don=E2=80=99t want to go.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">In an interview with the Financial Times, he s=
+aid his wife offered an ultimatum: =E2=80=9CEither you decide you like your=
+ job and you want to keep doing it. Or, if you decide you don=E2=80=99t, go=
+ find something else. But please don=E2=80=99t think you can spend the next=
+ five years moaning.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I mean, completely fair, and basically why I l=
+eft. But =E2=80=9Cafter that =E2=80=98kick in the behind,=E2=80=99 Ogunlesi=
+ quit banking and at the age of 52, decided to try his hand as an investor,=
+=E2=80=9D got into infrastructure, built Global Infrastructure Partners, an=
+d sold it last week to BlackRock Inc. for $12.5 billion. I cannot believe t=
+hat this involved=C2=A0<em>less=C2=A0</em>travel, or more glamorous travel.=
+ (He bought <em>airports</em>, which presumably involved flying around just=
+ to look at airports?)=C2=A0Also this is fun:</p>
+<blockquote><p style=3D"margin: 16px 0;">Though Ogunlesi will have his firs=
+t boss in 18 years, he said [BlackRock CEO Larry] Fink, a friend since both=
+ worked at First Boston, has downplayed the potential for conflict: =E2=80=
+=9CLarry said to me: =E2=80=98You will be on the board of directors, you wi=
+ll be my boss=E2=80=99. I think we have mutually assured destruction.=E2=80=
+=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">All the best friendships are premised on mutua=
+lly assured destruction.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Grayscale</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/34017514.287406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjQtMDEtMTEvYml0Y29pbi1ldGZzLWFyZS1oZXJlLWZvci1yZWFsP2NtcGlk=
+PUJCRDAxMTYyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTI0MDExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cB80e978ec" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  talked last week</a> about the long-awaited=
+ approval of spot Bitcoin exchange-traded funds in the US. It has been wide=
+ly assumed that these ETFs would be good for the price of Bitcoin: Spot Bit=
+coin ETFs are a convenient and easy way for normal people (and traditional =
+institutions) to own Bitcoin, and now that they are here, perhaps more peop=
+le (and institutions) will buy Bitcoin through the ETFs. Demand for the ETF=
+s will drive demand for Bitcoin, because each dollar that flows into the ET=
+Fs will ultimately, through arbitrage, go to buying Bitcoins.</p>
+<p style=3D"margin: 16px 0;">But there is another, minimalist view you coul=
+d take of the ETF approvals:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The biggest pot of publicly traded Bi=
+tcoins is the Grayscale Bitcoin Trust (GBTC), which we have also <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/34017514.287406/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjQtMDEtMTAvdGhlLXNlYy1nb3Q=
+tdHJvbGxlZC1vbi1iaXRjb2luLWV0ZnM_Y21waWQ9QkJEMDExNjI0X01PTkVZU1RVRkYmdXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTE2JnV0bV9jY=
+W1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa4ee68cd" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  talked=
+</a> about a <a href=3D"https://link.mail.bloombergbusiness.com/click/34017=
+514.287406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMt=
+MDMtMDcvZnR4LXdhbnRzLWl0cy1iaXRjb2lucy1iYWNrLWZyb20tZ3JheXNjYWxlP2NtcGlkPUJ=
+CRDAxMTYyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dG=
+VyJnV0bV90ZXJtPTI0MDExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a3=
+19a23cB5a97ef9c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">  number</a> of <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/34017514.287406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjMtMDgtMjkvZ3JheXNjYWxlLWNhbi1iZS1hLWJpdGNvaW4tZXR=
+mP2NtcGlkPUJCRDAxMTYyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cBd8588653" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  times</a>.</li>=09<li style=3D"margi=
+n-bottom: 5px;">GBTC=E2=80=99s <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/34017514.287406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjMtMDMtMDcvZnR4LXdhbnRzLWl0cy1iaXRjb2lucy1iYWNrLWZyb20tZ3Jhe=
+XNjYWxlP2NtcGlkPUJCRDAxMTYyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nv=
+dXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/=
+607f07ceef4b8524a319a23cC5a97ef9c" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> distinguishing feature</a>, for=
+ most of its recent history, has been that you could put Bitcoins=C2=A0<em>=
+in</em>, but  you couldn=E2=80=99t take them=C2=A0<em>out</em>. When we <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjQtMDEtMTAvdGhlLXNl=
+Yy1nb3QtdHJvbGxlZC1vbi1iaXRjb2luLWV0ZnM_Y21waWQ9QkJEMDExNjI0X01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTE2Jn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cCa4ee68cd" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  talked about it last week</a>, there was about $29 billion worth of Bitco=
+in in GBTC, and GBTC shareholders could not exchange their shares for Bitco=
+in.</li>=09<li style=3D"margin-bottom: 5px;">GBTC led the charge for spot B=
+itcoin ETF approval, sued the SEC to get it done, won, applied to convert i=
+nto an ETF, succeeded, and last week did in fact convert into an ETF.</li>=
+=09<li style=3D"margin-bottom: 5px;">Now you <em>can</em> take your Bitcoin=
+s out of GBTC. That is in a sense the=C2=A0<em>point=C2=A0</em>of the ETF s=
+tructure.=C2=A0Now GBTC shareholders can sell their shares on the stock exc=
+hange, and if there are more sellers than buyers then arbitrageurs and =E2=
+=80=9Cauthorized participants=E2=80=9D can deliver GBTC shares to Grayscale=
+ and get back Bitcoins.<a class=3D"footnote-index" href=3D"#footnote-7" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: none !important; =
+background-color: transparent !important; display: inline-block;">
+<span>[7]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">It is=C2=A0<em>possible=C2=A0</em=
+>that the <em>main</em> effect of the launch of spot Bitcoin ETFs would be =
+people taking money=C2=A0<em>out=C2=A0</em>of GBTC =E2=80=94=C2=A0which the=
+y have never been able to do before =E2=80=94=C2=A0rather than putting mone=
+y=C2=A0<em>into=C2=A0</em>GBTC or the other ETFs.</li>
+</ol>
+<p style=3D"margin: 16px 0;">That is, the launch of spot Bitcoin ETFs might=
+ be=C2=A0not a way to attract normal people into Bitcoin, but a way to let =
+trapped GBTC investors out.</p>
+<p style=3D"margin: 16px 0;">I=E2=80=99m not sure I=E2=80=99d bet on that a=
+s the main story or anything, but Bitcoin prices=C2=A0<em>did=C2=A0</em>fal=
+l since the ETFs launched, and GBTC <em>has</em> seen some redemptions,<a c=
+lass=3D"footnote-index" href=3D"#footnote-8" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: none !important; background-color: transpare=
+nt !important; display: inline-block;">
+<span>[8]</span>
+</a>=C2=A0and it would be a very=C2=A0<em>funny=C2=A0</em>story. What if GB=
+TC has just trapped some demand for Bitcoin since 2017, and ETF approval fi=
+nally released it? Here=E2=80=99s Bloomberg News with, I=E2=80=99m sorry, <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTIvc2NhcmFtdW=
+NjaS1zYXlzLWdyYXlzY2FsZS1ldGYtc2FsZXMtaGVscGVkLWZ1ZWwtYml0Y29pbi1kZWNsaW5lP=
+2NtcGlkPUJCRDAxMTYyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cB08db59e9" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  Anthony Scaramucci</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Bitcoin=E2=80=99s decline since the start of t=
+rading of exchange-traded funds that hold the cryptocurrency was driven in =
+part by sales of Grayscale Bitcoin Trust shares, according to SkyBridge Cap=
+ital founder Anthony Scaramucci.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThere seems to be of lot of selling o=
+f Grayscale,=E2=80=9D Scaramucci said during a Bloomberg Television intervi=
+ew on Friday.</p>
+<p style=3D"margin: 16px 0;">The hedge fund manager said that his trading d=
+esk noted that holders of the shares, which were converted from a trust thi=
+s week when the US Securities and Exchange Commission signed off on the ETF=
+s, were selling to book losses and shifting to lower fee alternatives.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CShifting to lower-fee=C2=A0alternativ=
+es=E2=80=9D should be neutral for Bitcoin =E2=80=94=C2=A0=E2=80=9CSelling o=
+ne Bitcoin product to buy another should not impact Bitcoin=E2=80=99s price=
+, said Zach Pandl, Grayscale=E2=80=99s managing director or research=E2=80=
+=9D =E2=80=94=C2=A0but just getting out=C2=A0entirely would lower the price=
+, and GBTC holders haven=E2=80=99t been able to do that for years.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/34017514.287406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjQtMDEtMTYvZ29sZG1hbi10b3BzLWVzdGltYXRlcy1hcy1zdG9jay10cmFkaW5nLXN=
+1cmdlcy1wYXN0LWV4cGVjdGF0aW9ucz9jbXBpZD1CQkQwMTE2MjRfTU9ORVlTVFVGRiZ1dG1fbW=
+VkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTYmdXRtX2Nhb=
+XBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBd6e16a37" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Goldman<=
+/a> Tops Estimates as Stock Trading Surges Past Expectations.=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTYvbW9yZ2FuLXN0YW5s=
+ZXktd2VhbHRoLXVuaXQtYmVhdHMtZm9yZWNhc3RzLWFzLXRyYWRlcnMtZmFsbC1zaG9ydD9jbXB=
+pZD1CQkQwMTE2MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yNDAxMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cB9aa9679f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Morgan Stanley</a> Wealth Unit Beats Forecast=
+s as Traders Fall Short.=C2=A0Morgan Stanley CEO Ted Pick Inherits a Bank T=
+hat=E2=80=99s Never Been <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/34017514.287406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjQtMDEtMTYvdGVkLXBpY2staW5oZXJpdHMtYS1tb3JnYW4tc3RhbmxleS10aGF0LXMtbmV=
+2ZXItYmVlbi1tb3JlLWJvcmluZz9jbXBpZD1CQkQwMTE2MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTYmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBebf90965" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  More Boring=
+</a>. The Last Man Standing in <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/34017514.287406/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2N1cnJlbm=
+NpZXMvY29pbmJhc2UtY28tZm91bmRlci1icmlhbi1hcm1zdHJvbmctY2UxNjE3Y2U_bW9kPWhwX=
+2xlYWRfcG9zOQ/607f07ceef4b8524a319a23cB2fb9effb" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Crypto</a>. China=
+ Weighs <a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.2=
+87406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTYvY=
+2hpbmEtd2VpZ2hzLW1vcmUtc3RpbXVsdXMtd2l0aC0xMzktYmlsbGlvbi1vZi1zcGVjaWFsLWJv=
+bmRzP2NtcGlkPUJCRDAxMTYyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJ=
+jZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607=
+f07ceef4b8524a319a23cBa154ea5a" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">  More Stimulus</a> With $139 Billi=
+on of Special Bonds.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/34017514.287406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGV=
+zLzIwMjQtMDEtMTQvYXJnZW50aW5hLXR1cmtleS1sdXJlLWludmVzdG9ycy1zZWVraW5nLWhpZ2=
+gteWllbGQtYm9uZC1yZXR1cm5zP2NtcGlkPUJCRDAxMTYyNF9NT05FWVNUVUZGJnV0bV9tZWRpd=
+W09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNiZ1dG1fY2FtcGFp=
+Z249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB9ea68974" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">Argentina, Tu=
+rkey</a> Lure Investors Seeking High-Yield Bond Returns. South Korea Allege=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTQvc291dGg=
+ta29yZWEtc2F5cy10d28tbW9yZS1nbG9iYWwtYmFua3MtZW5nYWdlZC1pbi1uYWtlZC1zaG9ydC=
+1zZWxsaW5nP2NtcGlkPUJCRDAxMTYyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVm=
+Zg/607f07ceef4b8524a319a23cB928027c8" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  Naked Short Selling</a> by =
+Two More Global Banks. The Green Investor Calling Out Biden=E2=80=99s Clima=
+te Law for <a href=3D"https://link.mail.bloombergbusiness.com/click/3401751=
+4.287406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMT=
+QvYmlkZW4tcy1jbGltYXRlLWxhdy1pcy1tYWtpbmctYmFua2Vycy1hbmQtY29uc3VsdGFudHMtc=
+mljaC1pbXBheC1zYXlzP2NtcGlkPUJCRDAxMTYyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNiZ1dG1fY2FtcGFpZ249bW9=
+uZXlzdHVmZg/607f07ceef4b8524a319a23cBe92605ee" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">  Enriching Bankers =
+and Consultants</a>.=C2=A0Got $60 Million? Goldman Sachs Wants to <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aHR0cHM6L=
+y93d3cud3NqLmNvbS9maW5hbmNlL2dvbGRtYW4tc2FjaHMtbGVuZGluZy13ZWFsdGh5LWNsaWVu=
+dHMtZTVkYWI0MzY_bW9kPWhwX2xlYWRfcG9zNA/607f07ceef4b8524a319a23cB4b2d3539" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">Lend You More</a>.=C2=A0<a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/34017514.287406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydG=
+ljbGVzLzIwMjQtMDEtMTYvZXZlcmNvcmUtZ3Jvd3MtcmVhbC1lc3RhdGUtYXJtLWFzLWNsaWVud=
+HMtbG9vay10by1wcml2YXRlLWNyZWRpdD9jbXBpZD1CQkQwMTE2MjRfTU9ORVlTVFVGRiZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTYmdXRtX2N=
+hbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB0e1e0f8a" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">Evercor=
+e</a> Grows Real Estate Arm as Clients Look to Private Credit. Large Backer=
+s of <a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.2874=
+06/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTIvYmxh=
+Y2tzdG9uZS1hcG9sbG8tYW5kLXByaXZhdGUtZXF1aXR5LXJpdmFscy1mYWNlLWNhbGxzLWZvci1=
+iZXR0ZXItdGVybXM_Y21waWQ9QkJEMDExNjI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbC=
+Z1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTE2JnV0bV9jYW1wYWlnbj1tb25le=
+XN0dWZm/607f07ceef4b8524a319a23cB45bee9e5" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Private Equity</a> Are =
+Asking For Their Money Back. Bill Ackman Is Bringing Activist Playbook to A=
+merica=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+4017514.287406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQt=
+MDEtMTMvYmlsbC1hY2ttYW4tcy1oYXJ2YXJkLWJ1c2luZXNzLWluc2lkZXItZmV1ZHMtYnJpbmc=
+taGlzLWFjdGl2aXNtLXRvLWN1bHR1cmUtd2Fycz9jbXBpZD1CQkQwMTE2MjRfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTYmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB42d613fc" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Culture Wars</a>. Bill Ackman escalates Business Insider <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/34017514.287406/aHR0cHM6Ly93d3cuZn=
+QuY29tL2NvbnRlbnQvZjIyODI1ZTQtNTRiOS00ZTliLWJhYmQtMDBiZjU1ODVlM2I4/607f07ce=
+ef4b8524a319a23cB8faf8e78" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> plagiarism feud</a> with legal threat. =
+The M.B.A.s Who <a href=3D"https://link.mail.bloombergbusiness.com/click/34=
+017514.287406/aHR0cHM6Ly93d3cud3NqLmNvbS9saWZlc3R5bGUvY2FyZWVycy90aGUtbS1iL=
+WEtcy13aG8tY2FudC1maW5kLWpvYnMtNjY5Y2MxZmE_bW9kPWhwX2xlYWRfcG9zNw/607f07cee=
+f4b8524a319a23cB15020c5d" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> Can=E2=80=99t Find Jobs</a>. The $65 Mil=
+lion Perk for CEOs: Personal Use of the <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/34017514.287406/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzc=
+y90aGUtNjUtbWlsbGlvbi1wZXJrLWZvci1jZW9zLXBlcnNvbmFsLXVzZS1vZi10aGUtY29ycG9y=
+YXRlLWpldC1oYXMtc29hcmVkLWJjMjBhOTg4P21vZD1ocF9sZWFkX3BvczQ/607f07ceef4b852=
+4a319a23cB8292b296" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Corporate Jet</a> Has Soared. Trump-Tied <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTYvdHJ1bXAtdGll=
+ZC1zcGFjLWR3YWMtanVtcHMtYWZ0ZXItZm9ybWVyLXByZXNpZGVudC1zLWRlY2lzaXZlLWlvd2E=
+td2luP2NtcGlkPUJCRDAxMTYyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdX=
+JjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/60=
+7f07ceef4b8524a319a23cBb2a8e859" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  SPAC</a> Jumps After Former Pres=
+ident=E2=80=99s Decisive Iowa Win.=C2=A0Crash Parties, Escape Dull Chitchat=
+ and Make Powerful Friends: What <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/34017514.287406/aHR0cHM6Ly93d3cud3NqLmNvbS9saWZlc3R5bGUvY2Fy=
+ZWVycy9jcmFzaC1wYXJ0aWVzLWVzY2FwZS1kdWxsLWNoaXRjaGF0LWFuZC1tYWtlLXBvd2VyZnV=
+sLWZyaWVuZHMtd2hhdC1kYXZvcy1lbGl0ZXMta25vdy02OGFkMDQ0ND9tb2Q9aHBfbGVhZF9wb3=
+M4/607f07ceef4b8524a319a23cBce00f134" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> Davos Elites</a> Know. Bitco=
+in is a <a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.2=
+87406/aHR0cHM6Ly93d3cubm9haHBpbmlvbi5ibG9nL3AvYml0Y29pbi1pcy1hLXNwZWNpYWwta=
+W50ZXJlc3QtZ3JvdXA/607f07ceef4b8524a319a23cB85bf99e4" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> special-inte=
+rest group</a>. =E2=80=9CThey flew business class for the <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/34017514.287406/aHR0cHM6Ly93d3cud3N=
+qLmNvbS93b3JsZC91ay93aGF0cy1pbi10aG9zZS1odWdlLXN1aXRjYXNlcy0xMjUtbWlsbGlvbi=
+1pbi1jYXNoLTdjZDk3YmExP21vZD1ocF9mZWF0c3RfcG9zNA/607f07ceef4b8524a319a23cBb=
+c1a8d2b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> extra luggage allowances</a>, and moved =C2=A31 million o=
+r more by checking-in three or four suitcases.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/34017514.287406/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBf413b542" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/34017514.287406/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBfc5a4dbf" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] In this simple model you=E2=80=99re sellin=
+g all the stock at $97, but realistically you are probably averaging down =
+=E2=80=94 selling some at $100, some at $99, some at $98, etc., so that you=
+ actually sell for an average price of $98.50 or whatever. Whereas once the=
+ block trade is announced, the price might jump down, and you=E2=80=99d hav=
+e to resell all of it at a lower price. I am keeping things simple in the t=
+ext but this is a potentially important advantage: Your bid is a discount t=
+o the last sale, but if you sell into the bid your average selling price co=
+uld be quite a bit higher than the last sale.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] It also lowers the absolute amount of risk=
+: If all the banks would sell to the same hedge funds, then even if multipl=
+e banks do this trick, all that will happen is that the same hedge funds wi=
+ll get multiple calls about the same block, and they will just short the st=
+ock once.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] In my simple model, your bid is the same w=
+ith or without the trick. But the point of the trick is that you end up wit=
+h better information in the auction than the other banks, so the other bank=
+s=E2=80=99 bids are less competitive, so you win the auction with a fat saf=
+e profit margin. Without this trick, every bank would be bidding its best g=
+uess at the clearing price, and the most overconfident bank would win. If s=
+ome bank thought =E2=80=9Cwe can sell this down $2 and only need $0.25 of p=
+rofit,=E2=80=9D they=E2=80=99d bid $97.75 and win the auction; but if you p=
+re-sell the stock down to $97 they=E2=80=99ll bid $94.75 and lose to your b=
+id of $96.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] "Blackstone, Oaktree Burned by Morgan Stan=
+ley=E2=80=99s Block-Trade Leaks," <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/34017514.287406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjQtMDEtMTYvYmxhY2tzdG9uZS1vYWt0cmVlLWJ1cm5lZC1ieS1tb3JnYW4tc3=
+RhbmxleS1zLWJsb2NrLXRyYWRlLWxlYWtzP2NtcGlkPUJCRDAxMTYyNF9NT05FWVNUVUZGJnV0b=
+V9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNiZ1dG1f=
+Y2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBcbc5d635" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">
+reports Bloomberg News</a> about the Morgan Stanley block-trade leaks, and =
+presumably they're annoyed.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] That is, 13.7% of the economic interests, =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aH=
+R0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTMyNjgwMS8wM=
+DAxMzI2ODAxMjMwMDAwNTAvbWV0YS0yMDIzMDQxNC5odG0jaWQ4YWZmNjQ5ODRjNjQwMzViM2U5=
+MzUwMWFmNDcyYjE0XzUy/607f07ceef4b8524a319a23cB5b718b85" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> though 61.=
+1% of the voting rights</a>.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] This is <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/34017514.287406/aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tLzIz=
+ODE1NjM0L3Rlc2xhLWVsb24tbXVzay1vcmlnaW4tZm91bmRlci10d2l0dGVyLWxhbmQtb2YtdGh=
+lLWdpYW50cw/607f07ceef4b8524a319a23cBe5d9b86e" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">not technically true=
+</a> but it is true in important senses. Like, he's the guy who ran the com=
+pany when it raised a lot of the outside capital.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] Technically they get back cash, and GBTC s=
+ells the Bitcoins to raise the cash, because the SEC did not approve spot B=
+itcoin ETFs with in-kind creation and redemption, as we <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/34017514.287406/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjQtMDEtMTEvYml0Y29pbi1ldGZzLWFyZS1o=
+ZXJlLWZvci1yZWFsP2NtcGlkPUJCRDAxMTYyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNiZ1dG1fY2FtcGFpZ249bW9uZX=
+lzdHVmZg/607f07ceef4b8524a319a23cC80e978ec" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  discussed Thursday</a=
+>. But same effect.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] Bloomberg data shows 692.4 million shares =
+of GBTC outstanding on Wednesday, before the ETF approval, 690.1 million on=
+ Thursday and 677.7 million on Friday.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB2e98fea5" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB1bfbdb7b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBa79b3ee7" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB359498dc" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB0affa203" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.2874=
+06/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB529bfc4e" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/34017514.287406/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC0d216e76" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/34017514.287406/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB9ff3e61b" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/34017514.287406/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB84819b48" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB6=
+d50147b" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34017514.287406/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBf=
+0b5fce4" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck942y.65ri/d2fc7992.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_6589986_1303225658.1705426615744--
+

@@ -1,0 +1,2851 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:ce16:b0:b3:b917:3860 with SMTP id gt22csp434680rwb;
+        Mon, 15 Aug 2022 05:57:10 -0700 (PDT)
+X-Received: by 2002:a63:1e5c:0:b0:41d:b225:9ee1 with SMTP id p28-20020a631e5c000000b0041db2259ee1mr13376067pgm.245.1660568230537;
+        Mon, 15 Aug 2022 05:57:10 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1660568230; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=XDQFBYsQj84fJIAqS4KTf9JXCQgy7IRNT4CrdQCyca8m0M0kfBppcKTexEyVKYVKgE
+         WSG9gTeh3ULGyGPdCP50vj9h6etmOG7pCl+UlCKm0GvooAzOfx9X87uAJzTxhVxzNuYI
+         Orj0fzLzOKjw1XFbO0oUf9RZtDfT9cLr06LI1Li1TGISDGzeg7wHryasBTeFUBFkC7SN
+         v4sOwz2YcYTyv+aEQnd3nfKEhirIOne/3I9j43C+mBAaPROEcsKlR2NK94MLu31hiYib
+         WWIrVTfSS+AtiEuhbtq9tf2tRcke4ccsytvyP6i3MQJrGeHmIffjCwkhsPaQUNs0vhMR
+         /Y6g==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-id:message-id:sender:list-post:list-unsubscribe-post:date
+         :in-reply-to:reply-to:list-archive:list-owner:list-unsubscribe
+         :references:list-url:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=SFFg49UjuiN4gP1cTh1CN4HZJ9EKzDRAwvmc5RqbnbY=;
+        b=JwcJzv1CTFqK7nYaixHFJ51DHlYq09hwWptF4NBiQTpVty7jYW2m0jhFLHsNc8VSH7
+         AL6bMUzzk+dnGV5lwUqvPY03f8D4estwl5+ZrqdN4zffy2/vvaIl4Km5pfF31bjJmlUq
+         rjXnJClxga3q8yQJEpARqxjdFfnvSydxWtXeoPs/7B/HkjZ/LIo6YfgARd0Kyx6mcC3b
+         MR4vwiXp7sc6/VmQhWxQg8d0G5PkO1ZhzronqoELunLutTVXeybvuQr9dfl91k4Ol/D2
+         WJwvXvWGGxIuN6FJAz54t5CD0a7XFQHvXMNz+m8sTv95IvM1qWXIsjRXdwexG9MNOP09
+         +FMQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=eRf4ry5k;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id z198-20020a6333cf000000b0041c6c43bfbbsor3777440pgz.84.2022.08.15.05.57.10
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 15 Aug 2022 05:57:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=eRf4ry5k;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-id:message-id:sender:list-post:list-unsubscribe-post:date
+         :in-reply-to:reply-to:list-archive:list-owner:list-unsubscribe
+         :references:list-url:to:from:subject:mime-version:dkim-signature
+         :delivered-to:x-gm-message-state:from:to:cc;
+        bh=SFFg49UjuiN4gP1cTh1CN4HZJ9EKzDRAwvmc5RqbnbY=;
+        b=xx6PLHWtk+rQr/ngDi7XEo8xOqJlNil4XQ2xRorKlK5lzDhH/uGJjqEeOkwFcpEBjP
+         ghJsNk2Sew5JxuUZlt7JCAgcLFaWOIDftvWY3jHiqS27z+eWlk9JF/R3Yyizk4oL0K+X
+         yBvtteIEe+vuXiIJGxEjEEX1tDQ3Rb4rJNoHlE8HkQdTOioJNkz4zI7GsIRuTlVufvKJ
+         rc+r9Kd2ztZxX1e4agOAad+gy+43kvqokA9yCBPA43Rs+HDN4SGPsrY4T7/p6Qp5jyPC
+         xCi1Fko5Pkzdp4/uQfKroTv7/mK9w+8WJnDTz/GIrLsIxg6Unhl7lfno9aJrrCExKluo
+         E1eg==
+X-Gm-Message-State: ACgBeo0KZ68iJTsnSB8Iv8mMvIRsH0vxQydnGfZlJGh5rZJ+fJQsWlVk
+	JQnkgcigtXC7URJlMx0nW+DLak5E7Hcu9C7qGI8T6QF0RD/1w0tpfQ==
+X-Received: by 2002:a63:d84f:0:b0:428:ee87:3769 with SMTP id k15-20020a63d84f000000b00428ee873769mr4580946pgj.212.1660568230242;
+        Mon, 15 Aug 2022 05:57:10 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a17:90a:c081:0:0:0:0 with SMTP id o1csp1162788pjs;
+        Mon, 15 Aug 2022 05:57:06 -0700 (PDT)
+X-Received: by 2002:a05:620a:410d:b0:6b5:f952:6399 with SMTP id j13-20020a05620a410d00b006b5f9526399mr10983339qko.591.1660568226317;
+        Mon, 15 Aug 2022 05:57:06 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1660568226; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=U9PUnmpQQ11l06GmqTeYqcEX5t2pxEONk8NiBRFLmyafTFO4726snGjdDDPtftKHsl
+         97jXuOmD4yNl71GRHt0ChMSVEh07gb4zjNTh2VAiLOM+yHw4XDb3sJrmDniNNxN66TWI
+         EQhuEQIl6YuHTgCFtbfiTED9dLPDDk5mOfcDgWEiJsM/S3GdxNqUB7O80RKyAV5KZKrF
+         yZsYxLwXxkzbgya9f4gCKZyU5+wz2oonh91oH384K6OYea0jwkJwiPnOTxl6Muyywl6D
+         adMKbWXiM7ik84A4Ij0SPE5UXqhMXXD2Sd99URXE52MKBA0v0lIqO/LinAxfEg3TY22y
+         Z34A==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-id:message-id:sender:list-post:list-unsubscribe-post:date
+         :in-reply-to:reply-to:list-archive:list-owner:list-unsubscribe
+         :references:list-url:to:from:subject:mime-version:dkim-signature;
+        bh=SFFg49UjuiN4gP1cTh1CN4HZJ9EKzDRAwvmc5RqbnbY=;
+        b=OBdlPnsrIKL4o1JWp3bjqKsrvg0gm2r7e8/XAmmvw1ylxoPijolqxhv1jXsK/MBeks
+         JLHZJZuCksh6pp02zxcQkLpHtyVbdCUitf6yIfHPYefXZ0mJey+A09DvEDww1YQN7+7Q
+         OXsza5eH7S4RCV24VnJFsKY/Hd+qEMTxOuitKe35lsdnPNVAKt4w/d2PqOnNt13yEOkf
+         ETGevg/p6BSm/X6SEbRg7AMgmWq7qHSwSYF/jI7lUxXZENVfMnSZqXwyhpps6wtwR23o
+         rcLm2zWdeheX+vjtYwj8e5vN7BzV3TA6OZndCw0FdCGln8DTeTQJCTlciVB99wsMOqol
+         /NDw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=eRf4ry5k;
+       arc=pass (i=1 spf=pass spfdomain=mg-d1.substack.com dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id iy10-20020a0562140f6a00b0047306af33aasor6019082qvb.25.2022.08.15.05.57.05
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 15 Aug 2022 05:57:06 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AA6agR7Df7kPg1hTKbtn6sJ48DG3H9twKqjLPh7Pv/+GT47qYfV1QT5eYf9CPPZoudABePHTLQqagWOxs+7uRS7Rjyj3+6q395Y=
+X-Received: by 2002:a05:6214:4118:b0:476:aa1c:bbfe with SMTP id kc24-20020a056214411800b00476aa1cbbfemr12955926qvb.93.1660568225733;
+        Mon, 15 Aug 2022 05:57:05 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1660568225; cv=none;
+        d=google.com; s=arc-20160816;
+        b=LwVI+5eds/thxu0kEV9hCNPtcDpG8o1NbNpodiTUI2wmcDfpc7a8VIE9EphkufFMp9
+         M/hrpsQu19rtUAZiGV7ArZqdMhocv0Z6MmlcsViba0OcCYbwsK4TgGp+385sfdCW/1K5
+         qfQcOYrU0IUYa+mBcUCx5c6LXjtA93qCJxoeZ+Jf8tdOGLakrbVmTJipLgnn4jcesw6E
+         zXR7EQ3rSGmFEFVBbIcrQBnJ935UbP66bTgNBMxHceoiObWyIa/4Ihukd+1gMt6zC5my
+         FRUaZt+18lM5ZCwbaQI/I5vQYJAN/Ljng+1LvS+CBK9I3Kg/ljYxHiWwNA2/k6BrOZr9
+         iCSw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-id:message-id:sender:list-post:list-unsubscribe-post:date
+         :in-reply-to:reply-to:list-archive:list-owner:list-unsubscribe
+         :references:list-url:to:from:subject:mime-version:dkim-signature;
+        bh=SFFg49UjuiN4gP1cTh1CN4HZJ9EKzDRAwvmc5RqbnbY=;
+        b=BBBWG6OSSln9Mw5LkYNiGrGsYbNJqBWSp7U07b4UscLjG3DRlZLxbSEnW0F1LrJn4a
+         17MDQDStBqG/jkauGBOvdSStSz9bATChLASkXpM24BEyBtudLkZBkTkqmPIPJ3pCsTLf
+         hySWIXJUS0dkDIn1HSFW4bJsqht53MBkNmGfWbe+VHT1QGQXkip8UVov6HJMYVpQoQVN
+         L4dLlaNPdBwS694i4hjDU/ObvqeRClhIFNAjTEi0m5C2dYm+NYA/uQd7XlP4bZ3la5e0
+         GXSe6J0MXH+yQQrAQo2GIxNHIddOR2OxwlNq+0rsaiBWPZuXVSZ7Ewm2ZSRNZ0l96sjL
+         WZ6Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=eRf4ry5k;
+       spf=pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 159.112.244.3 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from m244-3.mailgun.net (m244-3.mailgun.net. [159.112.244.3])
+        by gmr-mx.google.com with UTF8SMTPS id 23-20020ac85657000000b00341a027f09fsi536403qtt.4.2022.08.15.05.57.01
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 15 Aug 2022 05:57:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 159.112.244.3 as permitted sender) client-ip=159.112.244.3;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d1.substack.com; q=dns/txt;
+ s=k1; t=1660568225; x=1660777025; h=List-Id: Message-Id: Sender:
+ Sender: List-Post: Date: In-Reply-To: Reply-To: List-Archive:
+ List-Owner: List-Unsubscribe: References: To: To: From: From: Subject:
+ Subject: Content-Type: Mime-Version;
+ bh=SFFg49UjuiN4gP1cTh1CN4HZJ9EKzDRAwvmc5RqbnbY=; b=eRf4ry5koa1qOSiIGDbgINHsN/coFi4wW/OIlc1dZihRc36YCya450EnGDyXgVzw8AMk+aZD
+ TQcKgq6uOlHADolM5WOEVCQKuo2j0QY0yfkz+qK0qfLuk/KLnBomuDdx9XPlFUOhKAJXXLZX
+ L9A8CHkVUIWc8nHX9OdH5kElOz8=
+X-Mailgun-Sending-Ip: 159.112.244.3
+X-Mailgun-Sid: WyI1OTU0MCIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICIzOWIwOGM2Il0=
+Received: from <unknown> (<unknown> []) by b0a035eca253 with HTTP id
+ 62fa428e72d1060241735891; Mon, 15 Aug 2022 12:56:42 GMT
+X-Mailgun-Batch-Id: 62fa428a72d106024173479b
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="946551676d5c99c04c3b1c43d6b6d72c478e09f6be3d16024bcbed5c171b"
+Subject: The Space Economy
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+List-Url: <https://www.notboring.co/>
+References: <post-68642914@substack.com>
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk5qZzJOREk1TVRRc0ltbGhkQ0k2TVRZMk1EVTJPREl3TUN3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuNG8tMWZvZmR0cVVPS0YxeUFqZlZ2dzB2ZHRmYnpVdWRNSElXTldvTUhVdyIsInAiOjY4NjQyOTE0LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2MDU2ODIwMCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.IugfrBQQoAQcA7AINSmuEAoVP6DySSXk_vLFYFIDksA?>
+List-Owner: <mailto:notboring@substack.com>
+List-Archive: <https://www.notboring.co/archive>
+Reply-To: Not Boring
+ <reply+14v97m&9p0gt&&0566ea1258ba55850788846abb5a60c5e0c02d34da50a963e60bf139bc28b359@mg1.substack.com>
+In-Reply-To: <post-68642914@substack.com>
+Date: Mon, 15 Aug 2022 12:54:36 +0000
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Post: <https://www.notboring.co/p/the-space-economy>
+Sender: Not Boring <notboring@substack.com>
+Message-Id: <20220815125436.3.ff6839d5ef68ec31@mg-d1.substack.com>
+List-Id: <notboring.substack.com>
+X-Mailgun-Variables: {"category":"post", "comment_id":"",
+ "email_generated_at":"1660568201375", "is_freemail":"true",
+ "post_audience":"everyone", "post_id":"68642914", "post_type":"newsletter",
+ "pub_community_enabled":"true", "publication_id":"10025",
+ "subdomain":"notboring", "user_id":"16283549"}
+
+--946551676d5c99c04c3b1c43d6b6d72c478e09f6be3d16024bcbed5c171b
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/the-space-economy
+
+Welcome to the=C2=A01,582=C2=A0newly Not Boring people=C2=A0who have joined=
+ us since last Monday! If you haven=E2=80=99t subscribed, join=C2=A0145,467=
+ smart, curious folks by subscribing here:
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 WorkOS [ https://s=
+ubstack.com/redirect/c845acbb-17c7-458f-a18f-5a75d13b0f28?r=3D9p0gt ]
+Building for the enterprise is typically complex, time-consuming, and distr=
+acting. Deals sometimes slip away due to strict requirements and technologi=
+cal demands from IT admins.=C2=A0
+With WorkOS [ https://substack.com/redirect/c845acbb-17c7-458f-a18f-5a75d13=
+b0f28?r=3D9p0gt ], startups can sell to large enterprise customers from day=
+ one. It=E2=80=99s a set of building blocks for quickly adding features lik=
+e Single Sign-On (SAML), Directory Sync (SCIM), and Multi-Factor Authentica=
+tion (MFA) with just a few lines of code.
+Fast-growing B2B SaaS companies like Loom, PlanetScale, Airbase, and many o=
+thers use WorkOS to abstract the integrations between dozens of identity pr=
+oviders. Webflow uses WorkOS to serve customers like Zendesk. Vercel levera=
+ges WorkOS to land enterprise customers like The Washington Post.
+WorkOS [ https://substack.com/redirect/c845acbb-17c7-458f-a18f-5a75d13b0f28=
+?r=3D9p0gt ] is an API that increases your TAM. It=E2=80=99s free to get st=
+arted and scales with you as you grow.
+Hi friends =F0=9F=91=8B,=20
+Happy Monday! Big news over here at Not Boring HQ: our daughter, Maya [ htt=
+ps://substack.com/redirect/67707a1d-82d6-4698-b026-e3f5ad5c5f8f?r=3D9p0gt ]=
+, was born last weekend! =F0=9F=A5=B3 Mom and baby are healthy and happy, a=
+nd we=E2=80=99re enjoying the time together as a family.
+The plan for my month of paternity leave is to bring in guest writers each =
+week who are experts in areas that I think are going to be deeply important=
+=2E Last week, we had Kevin Miao join to=20=
+talk about securitization on the blo=
+ckchain [ https://substack.com/redirect/6a16bce9-80d4-445b-80d6-63480950ff7=
+1?r=3D9p0gt ]. Today, we=E2=80=99re bringing in the space cadets from Paylo=
+ad Space [ https://substack.com/redirect/01d7992f-c79a-4f45-8e59-0208fb3b66=
+a1?r=3D9p0gt ] for an incredibly deep dive on the space economy, in the for=
+m of an S-1 for the industry.=20
+They nailed it. I was giddy reading the draft that Mo Islam [ https://subst=
+ack.com/redirect/ca0c11a4-3dfc-4a9d-b346-3f6c365467d1?r=3D9p0gt ] and Ryan =
+Duffy [ https://substack.com/redirect/c1cba6b2-2aa8-446f-84df-ecad9fafea7f?=
+r=3D9p0gt ] sent over this week. We=E2=80=99ve touched on space a little bi=
+t in Not Boring, and we=E2=80=99ve invested in space companies like Varda [=
+ https://substack.com/redirect/077082b7-2cd6-4be3-8b07-3ae6650ef8ac?r=3D9p0=
+gt ] and Hadrian [ https://substack.com/redirect/5c27faa0-eac5-44a7-b523-32=
+101f860c15?r=3D9p0gt ] (see deep dive [ https://substack.com/redirect/e3eaa=
+ece-9e98-4586-9d86-9b8fd1e99490?r=3D9p0gt ]), but I don=E2=80=99t know near=
+ly as much as I want to about all of the progress going on in the industry.=
+ Space sounds like futuristic sci-fi, and if you=E2=80=99re not familiar, i=
+t=E2=80=99s hard to believe how vibrant and multi-faceted the space economy=
+ is today.=20
+Plus, one of the things I=E2=80=99m most jealous of Dev and Maya about is t=
+hat they=E2=80=99re almost certainly going to get to travel to space in the=
+ir lifetimes. As a responsible parent, I want to know what they=E2=80=99re =
+getting into. =20
+There=E2=80=99s no one better at covering space than the Payload team. It=
+=E2=80=99s what industry insiders read, and how I=E2=80=99m trying to get u=
+p to speed myself, and I=E2=80=99m pumped that they agreed to write a Not B=
+oring-style deep dive for us. If you=E2=80=99re at all interested in the =
+=E2=80=A6 space =E2=80=A6 and want to stay up-to-date, you need to subscrib=
+e to Payload [ https://substack.com/redirect/01d7992f-c79a-4f45-8e59-0208fb=
+3b66a1?r=3D9p0gt ].=20
+5=E2=80=A64=E2=80=A63=E2=80=A62=E2=80=A61=E2=80=A6 Let=E2=80=99s get to it.=
+=20
+The Space Economy
+(Read Full Breakdown Online [ https://substack.com/redirect/ad68fc29-f6a4-4=
+ca4-8143-caeda653b753?r=3D9p0gt ])
+TABLE OF CONTENTS
+Prospectus Summary
+Market, Industry and Other Data=C2=A0
+Use of Proceeds=C2=A0
+Dilution=C2=A0
+Business (Models)
+Principal Stockholders=C2=A0
+Underwriting=C2=A0
+Legal Matters=C2=A0
+Risk Factors=C2=A0
+Final Remarks
+PROSPECTUS SUMMARY
+Here at Payload [ https://substack.com/redirect/01d7992f-c79a-4f45-8e59-020=
+8fb3b66a1?r=3D9p0gt ], we try to be very judicious and sparing with our use=
+ of space clich=C3=A9s. We=E2=80=99re a B2B and B2G publisher writing for t=
+he shot-callers of space. They do not want to read a half-baked joke that =
+=E2=80=9Cactually, this is rocket science.=E2=80=9D They=E2=80=99ve heard i=
+t before. It doesn=E2=80=99t fly.
+But today, dear readers, Payload is temporarily parting with our time-worn =
+tradition in this prospectus summary and we=E2=80=99re going to let the cli=
+ch=C3=A9s rip.=C2=A0
+A new space age is upon us, characterized by fierce competition between sup=
+erpowers and startups alike. Dozens of space unicorns are hitting escape ve=
+locity. Finally, unlike crypto, we actually are going to the Moon. Very soo=
+n.=C2=A0
+We=E2=80=99re living through an age of historic firsts and massive developm=
+ents, good and bad, that are happening daily in space. Just in the last few=
+ weeks, we=E2=80=99ve tracked the following in our daily newsletter:=C2=A0
+On July 30, a massive Chinese Long March rocket made an uncontrolled reentr=
+y (aka tumbled back from orbit to Earth), with debris falling on Malaysia a=
+nd Indonesia.=C2=A0
+On Aug. 4, five separate launchers flew orbital missions in one day. Four o=
+f the launches were conducted by American companies, one was China=E2=80=99=
+s state-owned aerospace corporation.=C2=A0
+That same day, Blue Origin launched six people to suborbital space, includi=
+ng YouTuber and Dude Perfect cofounder Coby Cotton (his ticket was crowdfun=
+ded by a DAO).=C2=A0=C2=A0
+SpaceX is launching its Falcon 9 at a less than weekly rate in 2022 and has=
+ refurbished and reflown some of the first-stage boosters in under a month.=
+ The company also just conducted its first static fire test of the gargantu=
+an Super Heavy booster at its Starbase in south Texas.=C2=A0=C2=A0
+Three separate launch unicorns=E2=80=93ABL Space Systems, Firefly, and Rela=
+tivity=E2=80=93are poised to attempt to reach orbit for the first time in t=
+he coming weeks and months.=C2=A0
+A wave of multibillion-dollar mergers is sweeping over the legacy satellite=
+ sector, with details emerging about two blockbuster deals that are likely =
+to move forward.=C2=A0
+All the while, the James Webb Space Telescope has been sending back unreal =
+photos of our galaxy and literally letting us travel back billions of years=
+ in time.=C2=A0
+There=E2=80=99s plenty more where that came from. In this essay, we=E2=80=
+=99ll tell you everything you need to know about how we got here and where =
+we=E2=80=99re headed.
+Payload was founded on the premise that the space industry is at an inflect=
+ion point. What was once monopolized by superpowers is now being privatized=
+, with companies taking greater share of low-Earth orbit, rocket launches, =
+and more. So, because we passionately believe in this inflection point thes=
+is, we=E2=80=99ve packaged this new space primer as an S-1. It=E2=80=99s an=
+ intellectual exercise unpacking what taking the space industry, broadly sp=
+eaking, public. Is it tech-growth stage? Yes. Is it profitable? Ehhhhh. Wha=
+t else do you need to know? Well, let=E2=80=99s dive in=E2=80=A6
+MARKET, INDUSTRY AND OTHER DATA
+Space: A brief history=C2=A0
+On Oct. 4, 1957, the Soviets launched the first artificial satellite into s=
+pace. The soccer ball-sized spacecraft was named Sputnik. That word, we thi=
+nk, went to become one of the most famous Russian words in non-Russian tong=
+ues and English-language history books. The =E2=80=9CSputnik crisis=E2=80=
+=9D caught the West completely by surprise, clearly dividing history and th=
+e Cold War into two separate eras: =E2=80=9Cpre-Sputnik=E2=80=9D and =E2=80=
+=9Cpost-Sputnik.=E2=80=9D
+Perceptions are everything. The New York Times had a rare three-fold headli=
+ner story on the Soviets=E2=80=99 successful launch. Paranoia set in among =
+American policymakers and the general public awakened to the space age. Pos=
+t-Sputnik, the perception of a Pax Americana and pacing Soviet Union gave w=
+ay to a public view that the Soviets had achieved a step change not just in=
+ space. The Soviets were running up a =E2=80=9Ctechnology gap=E2=80=9D over=
+ the Americans.=C2=A0
+The race was on, with the two superpowers=E2=80=99 space programs kicking o=
+ff a new front in the Cold War and one of the greatest technological showdo=
+wns of modern history.=C2=A0
+Less than one month after Sputnik 1, the Soviets sent a ~1,120 lb. satellit=
+e into Earth orbit with radio transmitters, a thermal control unit, sealed =
+cabin, and a husky-spitz mut named Laika. The Soviets hadn=E2=80=99t build =
+any Earth return capabilities into Sputnik 2, so sadly, Laika didn=E2=80=99=
+t make it =F0=9F=98=93.
+The pressure was on the Eisenhower administration: do something! The US del=
+ivered with Explorer 1, the Americans=E2=80=99 first satellite, successfull=
+y launched into space on Jan. 31, 1958, a full 119 days after the Soviets. =
+Explorer 1 was the size of a beach ball (note: Payload only uses Earth spor=
+ts balls as a metric unit for spacecraft management).=C2=A0
+Still, congressional leaders felt that space deserved more of a federal foc=
+us=E2=80=93and Eisenhower established NASA in 1958 and abolished NACA (the =
+agency=E2=80=99s predecessor, started in 1915). NASA=E2=80=99s charter was =
+to exercise =E2=80=9Ccontrol over aeronautical and space activities sponsor=
+ed by the United States.=E2=80=9D NASA was to handle civilian space efforts=
+, but the Pentagon still had authority over military space programs.=C2=A0
+Over the next three years, the Soviets and Americans worked on their space =
+programs, but on April 12, 1961, it was the Soviets who sent the first pers=
+on to space: Russian Lt. Yuri Gagarin. Mercury-era astronaut Alan Shepard b=
+ecame the first American to reach space (sub-orbitally) less than a month l=
+ater, on May 5, 1961.=C2=A0
+That same year, JFK set forth a national goal: =E2=80=9CLanding a man on th=
+e moon and returning him safely to Earth within a decade.=E2=80=9D The Amer=
+icans, it should come as no surprise, were able to meet this ambitious call=
+ less than a decade later, with Neil Armstrong taking =E2=80=9Cone small st=
+ep=E2=80=9D but a =E2=80=9Cgiant leap for mankind=E2=80=9D on July 20, 1969=
+ (nice).=C2=A0
+As Tom Wolfe expertly chronicled in The Right Stuff, Air Force test pilots =
+who were flying planes with rockets strapped on them in the desert would be=
+come the US=E2=80=99s first astronauts (part of the Mercury program). The A=
+pollo era, though, was a high watermark for the US space program, no matter=
+ how you slice it. Astronauts were living legends and international celebri=
+ties. They drove (or, more accurately, raced) Corvettes across town in Hous=
+ton. Life magazine struck a deal with the astronauts and their families to =
+tell their stories (albeit carefully overseen by NASA handlers).=C2=A0
+After the historic Apollo 11, the US would go on to send an additional five=
+ manned missions =E2=80=93Apollos 12, 14, 15, 16, and 17=E2=80=93 and 11 me=
+n to the moon and back. Since December 19, 1972, no humans have been back t=
+o the lunar surface.=C2=A0
+Winning the race to the Moon and inventing countless technologies out of th=
+in air=E2=80=93all while using less processing power for the whole mission =
+than an iPhone uses today=E2=80=93came at astronomical expense. Going to th=
+e Moon cost $283B, according to one tally. In relative terms, NASA's budget=
+ peaked from 1964 to 1966, when it consumed ~4% of all US federal governmen=
+t spend. That number now sits an order of magnitude lower at 0.4%.=C2=A0
+That=E2=80=99s not to say that space activity dropped in the =E2=80=9870s. =
+Companies began to launch [ https://substack.com/redirect/203ff82d-7f7c-41c=
+e-bb1a-b654a2087356?r=3D9p0gt ] communications satellites to carry voice, d=
+ata, and eventually, TV. In 1973, the Pentagon kicked off the Global Positi=
+oning System (GPS) project. The project would take two decades to complete,=
+ with a prototype GPS bird going up 22,000+ miles above Earth in 1978 and t=
+he full constellation coming online in the mid =E2=80=9890s.=C2=A0
+All the while, interstellar robotic probes pushed further out into the cosm=
+os. In 1971, an American spacecraft became the first to orbit another plane=
+t (Mars). The next year, the Soviets made history by landing a spacecraft o=
+n Mars (the soft landing wasn=E2=80=99t so soft, as video transmission ceas=
+ed from the craft after 20 seconds). They later landed not-so-softly on Ven=
+us, too. By the end of the 1970s, the US=E2=80=99s Voyager 1 and 2 spacecra=
+ft had sent back stunning photos of Jupiter and Saturn. The Voyagers journe=
+yed to Neptune and Uranus (no really).=C2=A0
+SPACE STATION
+The Soviets launched the world=E2=80=99s first space station=E2=80=93Salyut=
+ 1=E2=80=93into low-Earth orbit (LEO) in 1971. The Soyuz 11 crew stayed abo=
+ard Salyut 1, but were killed by asphyxia due to valve failure right before=
+ reentering Earth=E2=80=99s atmosphere. The Salyut program would see a tota=
+l of six stations launched=E2=80=93four for scientific research and two for=
+ military reconnaissance.=C2=A0
+The US launched its first space station=E2=80=93Skylab=E2=80=93between 1973=
+ and 1974. Three crews occupied Skylab for ~24 weeks, and though the microg=
+ravity lab and Earth-observing workshop was meant to last nine years, it qu=
+ickly lost altitude and ultimately ended as a failure. Skylab reentered Ear=
+th=E2=80=99s atmosphere, and as it disintegrated, cast debris across rural =
+regions of western Australia and into the Indian Ocean. At least nobody die=
+d?
+Skylab and Salyut walked so that the International Space Station (ISS) coul=
+d run.=C2=A0
+Jointly operated by the US, Russia, Europe, Canada, and Japan, the ISS is o=
+ne of the top engineering feats of the modern age. It=E2=80=99s been contin=
+uously occupied since 1998, longer than tens of thousands of you reading th=
+is have been alive. Right now, as you=E2=80=99re reading this, there are se=
+ven people on the ISS: three Russian cosmonauts, three NASA astronauts, and=
+ one European Space Agency astronaut.=C2=A0
+The ISS is also one of the most expensive things humans have ever built, at=
+ a cost of $150 billion (the $50 billion shuttle program is typically inclu=
+ded in the cost of the ISS as it is here). The US footed most of the bill, =
+and NASA shells out ~$3.1 billion a year to keep things running. All good t=
+hings must come to an end, and the ISS is showing its age. The station is e=
+xpected to be decommissioned and deorbited into a spacecraft graveyard in t=
+he South Pacific Ocean Uninhabited Area at the end of this decade.=C2=A0
+SPACE SHUTTLE=C2=A0
+Reusability is all the rage in rocket jock circles these days, but the conc=
+ept is not new.=C2=A0
+You may very well have grown up watching Space Shuttle flights. The iconic =
+vehicle was envisioned as a revolutionary transportation system that would =
+usher in reliable, =E2=80=9Ccheap=E2=80=9D (or cost-effective) transit to a=
+nd from LEO. The spacecraft was reusable (though the boosters that launched=
+ it were not). Reusability was a key selling point.=C2=A0
+The shuttle became the American space program=E2=80=99s workhorse, and acro=
+ss three decades, the fleet of Columbia, Challenger, Discovery, Atlantis, a=
+nd Endeavour flew 135 missions and 355 humans to space.
+But the Shuttle never lived up to its dreams, and by one estimate, cost ~$1=
+B per head to transport astronauts to the International Space Station and b=
+ack. Tragically, two crews and 14 lives were also lost on the Shuttle.=C2=
+=A0
+The Obama administration pulled the plug on the government-run program and =
+the Shuttle flew its final flight in June 2011. Despite the program=E2=80=
+=99s budget overruns and abject dangers, the Shuttle=E2=80=99s final missio=
+n was an emotional moment for the nation, NASA=E2=80=99s rank-and-file, spa=
+ce buffs, and astronauts alike.=C2=A0
+After that, Washington paid Roscosmos, Russia=E2=80=99s space agency, to ta=
+ke its crews to the space station aboard Soyuz rockets.=C2=A0
+Keep Reading Online for a full breakdown of the space industry today:
+Thanks to Ryan [ https://substack.com/redirect/fc7ccf10-901f-4710-88d7-b3b7=
+40bc731e?r=3D9p0gt ] and Mo [ https://substack.com/redirect/ca0c11a4-3dfc-4=
+a9d-b346-3f6c365467d1?r=3D9p0gt ] for the deep dive into space, Rahul [ htt=
+ps://substack.com/redirect/9727f6cb-e33c-4dc1-9322-f171b05940ee?r=3D9p0gt ]=
+ for making it happen, and Dan [ https://substack.com/redirect/a8f6b03a-1a7=
+b-4f9c-a619-c90f0565984b?r=3D9p0gt ] for editing! Subscribe to Payload Spac=
+e [ https://substack.com/redirect/01d7992f-c79a-4f45-8e59-0208fb3b66a1?r=3D=
+9p0gt ] to get the latest insights on the space industry.
+That=E2=80=99s all for today, we=E2=80=99ll see you Friday morning for a We=
+ekly Dose of Optimism!
+Thanks for reading,
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZOamcyTkRJNU1UUXNJbWxoZENJNk1UWTJNRFUyT0RJd01Dd2lhW=
+E56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LjRvLTFm=
+b2ZkdHFVT0tGMXlBamZWdncwdmR0ZmJ6VXVkTUhJV05Xb01IVXciLCJwIjo2ODY0MjkxNCwicyI=
+6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NjA1NjgyMDAsImlzcyI6InB1Yi=
+0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.KdZ_U6h7QUA7hyezsLEchhegMvh6qqd8_YunV-jn=
+m7c?
+--946551676d5c99c04c3b1c43d6b6d72c478e09f6be3d16024bcbed5c171b
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D"--animation-smoothing: cubic-bezier(0.16, 1, 0.3, 1); --anim=
+ation-timing-fast: 0.2s; --animation-timing-slow: 0.5s; --border-radius: 4p=
+x; --border-radius-4: 4px; --border-radius-8: 8px; --color-bg-primary: whit=
+e; --color-bg-secondary: #f5f5f5; --color-dark-detail: #333333; --color-dar=
+k-primary: #e0e0e0; --color-error: #EB5757; --color-primary: #404040; --col=
+or-secondary: #808080; --color-substack-accent: #ff6719; --color-substack-a=
+ccent-bg: #fff7f3; --color-substack-bg: #ffffff; --color-substack-secondary=
+: #808080; --color-substack-wash: #f5f5f5; --color-tertiary: #a7a7a7; --col=
+or-text-dark-pencraft: #404040; --color-text-dark-wash: #252525; --color-ut=
+ility-detail: #e0e0e0; --font-family-meta: 'SF Compact Rounded', 'SF Pro Ro=
+unded', ui-rounded, 'SF Pro Text', -apple-system, BlinkMacSystemFont,
+  'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color E=
+moji', 'Segoe UI Emoji', 'Segoe UI Symbol'; --font-family-text: 'SF Pro Tex=
+t', -apple-system, ui-sans-serif, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol'; --font-family-title: 'SF Pro Display',=
+ -apple-system-headline, var(--font-family-text); --font-size-14: 14px; --f=
+ont-weight-600: 600; --img-transition: background-color var(--animation-tim=
+ing-fast) var(--animation-smoothing); --letter-spacing-small: -0.15px; --pa=
+dder: 16px; --shadow-lg: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px=
+ -2px rgba(0, 0, 0, 0.05); --shadow-md: 0px 4px 6px -1px rgba(0, 0, 0, 0.1)=
+, 0px 2px 4px -1px rgba(0, 0, 0, 0.06); --shadow-sm: 0px 1px 3px rgba(0, 0,=
+ 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06); --shadow-xl: 0px 20px 25px -5px =
+rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04);"><head><title>T=
+he Space Economy</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media (max-width: 470px) {
+  .subscribe-dialog.subscribe-dialog-modal {
+    max-width: calc(100% - 30px);
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .subscribe-dialog.subscribe-dialog-floater-center.collapsed {
+    display: none;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .collapse-button {
+    display: none;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-header {
+    margin-top: 32px;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-header .close-button {
+    display: flex;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-input {
+    margin-bottom: 32px;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-description.description-mobile {
+    display: block;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-description.description-desktop {
+    display: none;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .subscribe-dialog.subscribe-dialog-floater-side {
+    right: 15px;
+    max-width: calc(100% - 30px);
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media print {
+  @page {
+    margin: 16mm;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media print {
+  .post .post-footer {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media print {
+  .post .post-end-cta-full {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media print {
+  .use-theme-bg .post p,
+  .use-theme-bg .post h1,
+  .use-theme-bg .post h2,
+  .use-theme-bg .post h3,
+  .use-theme-bg .post h4,
+  .use-theme-bg .post h5,
+  .use-theme-bg .post h6 {
+    color: #000;
+  }
+  .use-theme-bg .post p a,
+  .use-theme-bg .post h1 a,
+  .use-theme-bg .post h2 a,
+  .use-theme-bg .post h3 a,
+  .use-theme-bg .post h4 a,
+  .use-theme-bg .post h5 a,
+  .use-theme-bg .post h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .use-theme-bg .post a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget .header-anchor-widget-bu=
+tton-container {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f5f5f5 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media print {
+  .comments-page .container .thread-head p,
+  .comments-page .container .thread-head h1,
+  .comments-page .container .thread-head h2,
+  .comments-page .container .thread-head h3,
+  .comments-page .container .thread-head h4,
+  .comments-page .container .thread-head h5,
+  .comments-page .container .thread-head h6 {
+    color: #000;
+  }
+  .comments-page .container .thread-head p a,
+  .comments-page .container .thread-head h1 a,
+  .comments-page .container .thread-head h2 a,
+  .comments-page .container .thread-head h3 a,
+  .comments-page .container .thread-head h4 a,
+  .comments-page .container .thread-head h5 a,
+  .comments-page .container .thread-head h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .comments-page .container .thread-head a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media print {
+  .use-theme-bg table.thread-head p,
+  .use-theme-bg table.thread-head h1,
+  .use-theme-bg table.thread-head h2,
+  .use-theme-bg table.thread-head h3,
+  .use-theme-bg table.thread-head h4,
+  .use-theme-bg table.thread-head h5,
+  .use-theme-bg table.thread-head h6 {
+    color: #000;
+  }
+  .use-theme-bg table.thread-head p a,
+  .use-theme-bg table.thread-head h1 a,
+  .use-theme-bg table.thread-head h2 a,
+  .use-theme-bg table.thread-head h3 a,
+  .use-theme-bg table.thread-head h4 a,
+  .use-theme-bg table.thread-head h5 a,
+  .use-theme-bg table.thread-head h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .use-theme-bg table.thread-head a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media print {
+  .mobile-footer-ufi {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 620px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+
+
+@media (min-width: 631px) {
+  .sm\:tw-relative {
+    position: relative !important;
+  }
+  .sm\:tw-left-1 {
+    left: 0.25rem !important;
+  }
+  .sm\:tw-my-8 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .sm\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .sm\:tw-mt-0 {
+    margin-top: 0px !important;
+  }
+  .sm\:tw-ml-3 {
+    margin-left: 0.75rem !important;
+  }
+  .sm\:tw-mb-0 {
+    margin-bottom: 0px !important;
+  }
+  .sm\:tw-mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .sm\:tw-block {
+    display: block !important;
+  }
+  .sm\:tw-inline-block {
+    display: inline-block !important;
+  }
+  .sm\:tw-flex {
+    display: flex !important;
+  }
+  .sm\:tw-hidden {
+    display: none !important;
+  }
+  .sm\:tw-h-7 {
+    height: 1.75rem !important;
+  }
+  .sm\:tw-h-screen {
+    height: 100vh !important;
+  }
+  .sm\:tw-h-56 {
+    height: 14rem !important;
+  }
+  .sm\:tw-max-h-\[60vh\] {
+    max-height: 60vh !important;
+  }
+  .sm\:tw-w-auto {
+    width: auto !important;
+  }
+  .sm\:tw-w-7 {
+    width: 1.75rem !important;
+  }
+  .sm\:tw-w-full {
+    width: 100% !important;
+  }
+  .sm\:tw-w-56 {
+    width: 14rem !important;
+  }
+  .sm\:tw-w-\[500px\] {
+    width: 500px !important;
+  }
+  .sm\:tw-max-w-lg {
+    max-width: 32rem !important;
+  }
+  .sm\:tw-max-w-none {
+    max-width: none !important;
+  }
+  .sm\:tw-translate-y-0 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-95 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-100 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .sm\:tw-items-start {
+    align-items: flex-start !important;
+  }
+  .sm\:tw-gap-4 {
+    gap: 1rem !important;
+  }
+  .sm\:tw-gap-5 {
+    gap: 1.25rem !important;
+  }
+  .sm\:tw-gap-1 {
+    gap: 0.25rem !important;
+  }
+  .sm\:tw-gap-2 {
+    gap: 0.5rem !important;
+  }
+  .sm\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
+  }
+  .sm\:tw-border {
+    border-width: 1px !important;
+  }
+  .sm\:tw-p-0 {
+    padding: 0px !important;
+  }
+  .sm\:tw-p-6 {
+    padding: 1.5rem !important;
+  }
+  .sm\:tw-px-6 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .sm\:tw-py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .sm\:tw-pb-4 {
+    padding-bottom: 1rem !important;
+  }
+  .sm\:tw-pb-16 {
+    padding-bottom: 4rem !important;
+  }
+  .sm\:tw-text-left {
+    text-align: left !important;
+  }
+  .sm\:tw-align-middle {
+    vertical-align: middle !important;
+  }
+  .sm\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .sm\:tw-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .sm\:tw-font-medium {
+    font-weight: 500 !important;
+  }
+  .sm\:tw-text-pub-secondary-text {
+    color: #767676 !important;
+  }
+  .sm\:tw-opacity-70 {
+    opacity: 0.7 !important;
+  }
+  .sm\:hover\:tw-opacity-100:hover {
+    opacity: 1 !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .md\:tw-left-auto {
+    left: auto !important;
+  }
+  .md\:tw-bottom-4 {
+    bottom: 1rem !important;
+  }
+  .md\:tw-right-4 {
+    right: 1rem !important;
+  }
+  .md\:tw-w-3\/4 {
+    width: 75% !important;
+  }
+  .md\:tw-pl-4 {
+    padding-left: 1rem !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-components-prompts-WriterShareModal-module__toast--wc1bo {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-lib-ProfileSetupToast-module__headerRow--17w27 {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-substack-home_page-module__hero--24Zq7 {
+    padding-top: 164px;
+    padding-bottom: 80px;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frontend-substack-home_page-module__heroInnerRow--2ULAC {
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+  .frontend-substack-home_page-module__heroButtonWrap--3V7jR {
+    flex-direction: column;
+  }
+  .frontend-substack-home_page-module__heroImg--1E7-g {
+    max-width: 342px;
+  }
+  .frontend-substack-home_page-module__hero--24Zq7 h1 {
+    font-size: 44px;
+    line-height: 54.56px;
+    margin: 0;
+  }
+  .frontend-substack-home_page-module__home--28JuV section h2 {
+    margin-top: 80px;
+    font-size: 44px;
+    line-height: 54.56px;
+  }
+  .frontend-substack-home_page-module__writerList--1rikY {
+    padding: 0 24px 80px 24px;
+    gap: 80px;
+  }
+  .frontend-substack-home_page-module__writerList--1rikY h3 {
+    font-size: 28px;
+    line-height: 34.72px;
+  }
+  .frontend-substack-home_page-module__writerList--1rikY > div {
+    flex-direction: column;
+    margin-top: 0px;
+    gap: 80px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .frontend-substack-home_page-module__benefits--VLGOQ {
+    gap: 80px;
+    padding: 0 24px 80px 24px;
+  }
+  .frontend-substack-home_page-module__benefit--PpUoA {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+  }
+  .frontend-substack-home_page-module__benefitItems--emU-2 {
+    gap: 80px;
+  }
+  .frontend-substack-home_page-module__benefit--PpUoA img {
+    max-width: 320px;
+    min-width: 200px;
+  }
+  .frontend-substack-home_page-module__benefit--PpUoA h3 {
+    font-family: Cahuenga, serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 33.79px;
+    margin: 0;
+    color: var(--color-primary);
+  }
+  .frontend-substack-home_page-module__readingExperiences--1gQwI {
+    padding: 0 24px 80px 24px;
+  }
+  .frontend-substack-home_page-module__readingExperiences--1gQwI > div {
+    gap: 80px;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .frontend-substack-home_page-module__readingExperience--3sCWK h3 {
+    font-family: Cahuenga, serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 33.79px;
+    margin: 0;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+  }
+  .frontend-substack-home_page-module__expandCollapseButton--3UjfI {
+    top: 34px;
+  }
+  .frontend-substack-home_page-module__centerAlignedSection--z-lIj h4 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .frontend-substack-home_page-module__faqs--2JSzX {
+    justify-content: flex-start;
+    gap: 80px;
+    padding: 0 24px 80px 24px;
+  }
+  .frontend-substack-home_page-module__faq--2A0bm {
+    gap: 12px;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .frontend-substack-home_page-module__faq--2A0bm h3 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-substack-PublicationThreadAppLinkPage-module__threadsLinkContai=
+ner--3JR5W {
+    width: calc(100vw - 80px);
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .frontend-reader2-ManageSubscriptionPage-module__highlightRow--1lIkl.fron=
+tend-reader2-ManageSubscriptionPage-module__withPlans--3KhSk {
+    align-items: start;
+    flex-direction: column;
+  }
+  .frontend-reader2-ManageSubscriptionPage-module__highlightButtons--1lIV5 =
+{
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+  .frontend-editor-post-AudioEducationModal-module__modalContainer--3-T0R {
+    height: 524px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-publish-stats-pages-reader_referrals_stats-reader_referrals_sta=
+ts-module__popoverWrapper--3Gh5i {
+    display: none;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwODE1MTI1NDM2LjMuZmY2ODM5ZDVlZjY4ZWMzMUBtZy1kMS5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFja=
+y5jb20iLCJwIjo2ODY0MjkxNCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjox=
+MDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTY2MDU2ODI=
+wMSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.7I_YF58OWcB-D2fh8XyUDFzmzJ-2W3uGAAKZe=
+kXkmkE" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px =
+!important;width:1px !important;border-width:0 !important;margin-top:0 !imp=
+ortant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !=
+important;padding-top:0 !important;padding-bottom:0 !important;padding-righ=
+t:0 !important;padding-left:0 !important;"/><div style=3D"display:none;font=
+-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacit=
+y:0;overflow:hidden;" class=3D"preview">Payload Space joins us to drop an i=
+n-depth S-1 for space &#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;</d=
+iv><table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" class=3D"email-body-container"><tr><td></td><td width=
+=3D"550" class=3D"content"></td><td></td></tr><tr><td></td><td align=3D"lef=
+t" width=3D"550" class=3D"content"><div style=3D"font-size: 16px; line-heig=
+ht: 26px; margin: 0 auto; max-width: 550px; overflow-wrap: break-word; widt=
+h: 100%;"><table role=3D"presentation" width=3D"100%" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0"><tr><td align=3D"right" style=3D"height: 40px;"=
+><table role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0"><tr><td><a href=3D"https://substack.com/app-link/post?pu=
+blication_id=3D10025&post_id=3D68642914&utm_source=3Demail" class=3D"tw-fon=
+t-body tw-text-ssm tw-text-substack-secondary" style=3D"color: rgb(128,128,=
+128) !important; font-family: SF Pro Text, -apple-system, BlinkMacSystemFon=
+t, Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji=
+, Segoe UI Emoji, Segoe UI Symbol !important; font-size: 13px !important;">=
+Open in browser</a></td></tr></table></td></tr></table><div dir=3D"auto" cl=
+ass=3D"post typography" style=3D"font-size: 16px; line-height: 26px; paddin=
+g: 16px 0 0 0;"><div class=3D"post-header" style=3D"font-size: 16px; line-h=
+eight: 26px;"><h1 class=3D"post-title short published" style=3D"-moz-osx-fo=
+nt-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1=
+a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, =
+'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Seg=
+oe UI Emoji', 'Segoe UI Symbol'; font-size: 40px; font-weight: bold; line-h=
+eight: 130%; margin: 0.378em 0 0 0;"><a href=3D"https://substack.com/redire=
+ct/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGhlLXNwYWNlLWVjb25vbXk_dG=
+9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk5qZzJOREk1TVRRc=
+0ltbGhkQ0k2TVRZMk1EVTJPREl3TUN3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9p=
+Y0c5emRDMXlaV0ZqZEdsdmJpSjkuOVBEaGFpalRuejByWG9UdEJDS0ZmcmU5X3FGd2ZxbmJUWnZ=
+NZlFvcFJtcyIsInAiOjY4NjQyOTE0LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksIm=
+lhdCI6MTY2MDU2ODIwMCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.3h3DF=
+2NhJnVHHCaOPRQ7TRp_GqYK_SIm7s5BcIi-Bqw?" style=3D"color: #1a1a1a; text-deco=
+ration: none;">The Space Economy</a></h1><h3 class=3D"subtitle" style=3D"-m=
+oz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; co=
+lor: #767676; font-family: 'SF Compact Display', -apple-system, BlinkMacSys=
+temFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 20px; font-weight: nor=
+mal; line-height: 1.16em; margin: 4px 0 8px; margin-top: 8px;">Payload Spac=
+e joins us to drop an in-depth S-1 for space</h3><table cellpadding=3D"0" c=
+ellspacing=3D"0" class=3D"post-meta custom" style=3D"align-items: center; h=
+eight: 20px; margin: 1em 0;"><tr><td title=3D"2022-08-15T12:54:41.239Z" cla=
+ss=3D"post-meta-item post-date" style=3D"color: #767676; font-family: -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-se=
+rif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1=
+4px; font-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-botto=
+m: 0; padding-top: 0; position: relative; text-decoration: none; white-spac=
+e: nowrap;"><time dateTime=3D"2022-08-15T12:54:41.239Z">Aug 15</time></td><=
+td class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -app=
+le-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: =
+14px; font-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bott=
+om: 0; padding-top: 0; position: relative; text-decoration: none; text-inde=
+nt: 3px; white-space: nowrap;"><span class=3D"post-meta-icon like-reaction-=
+button"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cu=
+bm90Ym9yaW5nLmNvL2FwaS92MS9wb3N0L2VtYWlsLXJlYWN0aW9uP3V0bV9zb3VyY2U9c3Vic3R=
+hY2smdXRtX21lZGl1bT1lbWFpbCZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0=
+c5emRGOXBaQ0k2TmpnMk5ESTVNVFFzSW5KbFlXTjBhVzl1SWpvaTRwMmtJaXdpYVdGMElqb3hOa=
+ll3TlRZNE1qQXdMQ0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSnlaV0ZqZEdsdmJp=
+SjkueVd0akgtTm9WNGJHczZuazJxYzVyeHFhenQtQnZKNHRTSlBiMTY1aUsyUSIsInAiOjY4NjQ=
+yOTE0LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2MDU2ODIwMCwiaX=
+NzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.0_lbZnjah79-XP290Zffp9PU_wWYW=
+fe3RhdyuxhGrpo?" class=3D"like-button" style=3D"color: #767676; display: bl=
+ock; text-decoration: none;"><img src=3D"https://substackcdn.com/image/fetc=
+h/w_32,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstac=
+k.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D32%26fill%3Dtransparent%26str=
+oke%3D%2523757575%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"bo=
+rder: none !important; display: inline-block; float: left; height: 14px; ma=
+x-width: 16px; vertical-align: top; width: auto;" alt=3D""></a></span></td>=
+<td class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -ap=
+ple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-=
+serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size:=
+ 14px; font-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bot=
+tom: 0; padding-top: 0; position: relative; text-decoration: none; text-ind=
+ent: 3px; white-space: nowrap;"><a class=3D"" href=3D"https://substack.com/=
+redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGhlLXNwYWNlLWVjb25v=
+bXkvY29tbWVudHM_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkN=
+JNk5qZzJOREk1TVRRc0ltbGhkQ0k2TVRZMk1EVTJPREl3TUN3aWFYTnpJam9pY0hWaUxURXdNRE=
+kxSWl3aWMzVmlJam9pY0c5emRDMXlaV0ZqZEdsdmJpSjkuOVBEaGFpalRuejByWG9UdEJDS0Zmc=
+mU5X3FGd2ZxbmJUWnZNZlFvcFJtcyIsInAiOjY4NjQyOTE0LCJzIjoxMDAyNSwiZiI6dHJ1ZSwi=
+dSI6MTYyODM1NDksImlhdCI6MTY2MDU2ODIwMCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJ=
+lZGlyZWN0In0.TvdVQEuvp6NbEKS6VveczkCKxw3PlpTXm2tTNs43IVg?&utm_source=3Dsubs=
+tack&utm_medium=3Demail" style=3D"color: #767676; display: block; text-deco=
+ration: none;"><img src=3D"https://substackcdn.com/image/fetch/w_32,c_scale=
+,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2=
+FLucideComments%3Fv%3D4%26height%3D32%26fill%3Dtransparent%26stroke%3D%2523=
+757575%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"border: none =
+!important; display: inline-block; float: left; height: 14px; max-width: 16=
+px; vertical-align: top; width: auto;" alt=3D"Comment" class=3D"comment-ico=
+n post-meta-icon"></a></td><td class=3D"post-meta-item icon" style=3D"color=
+: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Robo=
+to, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; font-size: 14px; font-weight: 400; height: 14px; margin-ri=
+ght: 0; padding: 0px 12px 0px 0; padding-bottom: 0; padding-right: 0; paddi=
+ng-top: 0; position: relative; text-decoration: none; text-indent: 3px; whi=
+te-space: nowrap;"><span><a href=3D"https://substack.com/redirect/2/eyJlIjo=
+iaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGhlLXNwYWNlLWVjb25vbXk_dXRtX3NvdXJjZT=
+1zdWJzdGFjayZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jb250ZW50PXNoYXJlJmFjdGlvbj1zaGFyZ=
+SZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpYVdGMElqb3hOall3TlRZNE1qQXdM=
+Q0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSndiM04wTFhKbFlXTjBhVzl1SW4wLmR=
+5d0NvcGt5UzNKaWNTb3R2eTBQQ2o1SXAxRi1zLXNYc3V4d2VnYXpXT0EiLCJwIjo2ODY0MjkxNC=
+wicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NjA1NjgyMDAsImlzcyI6I=
+nB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.MK6yd3dSttlURVUIf61W0ZeIHdg4_WSLs17=
+buapERr0?" style=3D"color: #767676; display: block; text-decoration: none;"=
+><img src=3D"https://substackcdn.com/image/fetch/w_32,c_scale,f_png,q_auto:=
+good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3=
+Fv%3D4%26height%3D32%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWi=
+dth%3D2" width=3D"16" height=3D"16" style=3D"border: none !important; displ=
+ay: inline-block; float: left; height: 14px; max-width: 16px; vertical-alig=
+n: top; width: auto;" alt=3D"Share" class=3D"recommend-icon post-meta-icon"=
+></a></span></td></tr></table></div></div><div dir=3D"auto" class=3D"post t=
+ypography" style=3D"font-size: 16px; line-height: 26px; padding: 16px 0 0 0=
+;"><div dir=3D"auto" class=3D"body markup" style=3D"font-size: 16px; line-h=
+eight: 26px; margin-bottom: 12px; text-align: initial; width: 100%; word-br=
+eak: break-word;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0; margin-top: 0;"><em><span>Welcome to the&#160;</s=
+pan><strong>1,582&#160;newly Not Boring people&#160;</strong><span>who have=
+ joined us since last Monday! If you haven&#8217;t subscribed, join&#160;</=
+span><strong>145,467 </strong><span>smart, curious folks by subscribing her=
+e:</span></em></p><div class=3D"subscribe-widget" style=3D"direction: ltr; =
+font-size: 16px; line-height: 26px; margin: 0 0 1em;"><p class=3D"button-wr=
+apper" style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0; text-align: center;"><a href=3D"https://substack.com/redirect/2=
+/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3N1YnNjcmliZT91dG1fc291cmNlPXBvc3=
+QiLCJwIjo2ODY0MjkxNCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2N=
+jA1NjgyMDAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.R0tfTqE_PSafYgP=
+xbMhkS0AFeU0LVHNMhAqGNcT4Acs?&utm_medium=3Demail&utm_source=3Dsubscribe-wid=
+get&utm_content=3D68642914" class=3D"button subscribe-btn primary" style=3D=
+"background-color: #67bdfc; border: none; border-radius: 4px; box-sizing: b=
+order-box; color: #ffffff !important; cursor: pointer; display: inline-bloc=
+k; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helv=
+etica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol'; font-size: 16px; font-weight: normal; height: auto; line-height: 2=
+0px; margin: 0 auto; opacity: 1; outline: none; padding: 12px 20px; text-al=
+ign: center; text-decoration: none !important; white-space: nowrap;"><span =
+style=3D"color: #ffffff; text-decoration: none;">Subscribe now</span></a></=
+p></div><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"bac=
+kground: #ebebeb; border: none; height: 1px; margin: 48px 0; padding: 0;"><=
+/div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin=
+: 0 0 1em 0;"><strong><span>Today&#8217;s Not Boring is brought to you by&#=
+8230; </span><a href=3D"https://substack.com/redirect/c845acbb-17c7-458f-a1=
+8f-5a75d13b0f28?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoratio=
+n: underline;">WorkOS</a></strong></p><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>Building for the enterpr=
+ise is typically complex, time-consuming, and distracting. Deals sometimes =
+slip away due to strict requirements and technological demands from IT admi=
+ns.&#160;</em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0;"><em><span>With </span><strong><a href=3D"https:/=
+/substack.com/redirect/c845acbb-17c7-458f-a18f-5a75d13b0f28?r=3D9p0gt" rel=
+=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">WorkOS</a></str=
+ong><span>, startups can sell to large enterprise customers from day one. I=
+t&#8217;s a set of building blocks for quickly adding features like Single =
+Sign-On (SAML), Directory Sync (SCIM), and Multi-Factor Authentication (MFA=
+) with just a few lines of code.</span></em></p><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>Fast-growing B=
+2B SaaS companies like Loom, PlanetScale, Airbase, and many others use Work=
+OS to abstract the integrations between dozens of identity providers. Webfl=
+ow uses WorkOS to serve customers like Zendesk. Vercel leverages WorkOS to =
+land enterprise customers like The Washington Post.</em></p><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em><s=
+trong><a href=3D"https://substack.com/redirect/c845acbb-17c7-458f-a18f-5a75=
+d13b0f28?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: unde=
+rline;">WorkOS</a><span> is an API that increases your TAM. It&#8217;s free=
+ to get started</span></strong><span> and scales with you as you grow.</spa=
+n></em></p><p class=3D"button-wrapper" data-attrs=3D"{&quot;url&quot;:&quot=
+;https://workos.com/?utm_source=3Dnewsletter&amp;utm_medium=3Dbanner&amp;ut=
+m_campaign=3Dnotboring-august22&quot;,&quot;text&quot;:&quot;Check Out Work=
+OS&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" style=3D"color: #=
+1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; text-align: =
+center;"><a class=3D"button primary" href=3D"https://substack.com/redirect/=
+c845acbb-17c7-458f-a18f-5a75d13b0f28?r=3D9p0gt" rel=3D"" style=3D"backgroun=
+d-color: #67bdfc; border: none; border-radius: 4px; box-sizing: border-box;=
+ color: #ffffff !important; cursor: pointer; display: inline-block; font-fa=
+mily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Ari=
+al, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; f=
+ont-size: 16px; font-weight: normal; height: auto; line-height: 20px; margi=
+n: 0; opacity: 1; outline: none; padding: 12px 20px; text-align: center; te=
+xt-decoration: none !important; white-space: nowrap;"><span style=3D"color:=
+ #ffffff; text-decoration: none;">Check Out WorkOS</span></a></p><div style=
+=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: #ebebeb; =
+border: none; height: 1px; margin: 48px 0; padding: 0;"></div><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Hi f=
+riends &#128075;, </p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;"><span>Happy Monday! Big news over here at No=
+t Boring HQ: our daughter, </span><a href=3D"https://substack.com/redirect/=
+67707a1d-82d6-4698-b026-e3f5ad5c5f8f?r=3D9p0gt" rel=3D"" style=3D"color: #1=
+a1a1a; text-decoration: underline;">Maya</a><span>, was born last weekend! =
+&#129395; Mom and baby are healthy and happy, and we&#8217;re enjoying the =
+time together as a family.</span></p><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0 0 1em 0;"><span>The plan for my month o=
+f paternity leave is to bring in guest writers each week who are experts in=
+ areas that I think are going to be deeply important. Last week, we had Kev=
+in Miao join to talk about </span><a href=3D"https://substack.com/redirect/=
+6a16bce9-80d4-445b-80d6-63480950ff71?r=3D9p0gt" rel=3D"" style=3D"color: #1=
+a1a1a; text-decoration: underline;">securitization on the blockchain</a><sp=
+an>. Today, we&#8217;re bringing in the space cadets from </span><a href=3D=
+"https://substack.com/redirect/01d7992f-c79a-4f45-8e59-0208fb3b66a1?r=3D9p0=
+gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Payload =
+Space</a><span> for an incredibly deep dive on the space economy, in the fo=
+rm of an S-1 for the industry. </span></p><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>They nailed it. I =
+was giddy reading the draft that </span><a href=3D"https://substack.com/red=
+irect/ca0c11a4-3dfc-4a9d-b346-3f6c365467d1?r=3D9p0gt" rel=3D"" style=3D"col=
+or: #1a1a1a; text-decoration: underline;">Mo Islam</a><span> and </span><a =
+href=3D"https://substack.com/redirect/c1cba6b2-2aa8-446f-84df-ecad9fafea7f?=
+r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">R=
+yan Duffy</a><span> sent over this week. We&#8217;ve touched on space a lit=
+tle bit in Not Boring, and we&#8217;ve invested in space companies like </s=
+pan><a href=3D"https://substack.com/redirect/077082b7-2cd6-4be3-8b07-3ae665=
+0ef8ac?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underl=
+ine;">Varda</a><span> and </span><a href=3D"https://substack.com/redirect/5=
+c27faa0-eac5-44a7-b523-32101f860c15?r=3D9p0gt" rel=3D"" style=3D"color: #1a=
+1a1a; text-decoration: underline;">Hadrian</a><span> (see </span><a href=3D=
+"https://substack.com/redirect/e3eaaece-9e98-4586-9d86-9b8fd1e99490?r=3D9p0=
+gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">deep div=
+e</a><span>), but I don&#8217;t know nearly as much as I want to about all =
+of the progress going on in the industry. Space sounds like futuristic sci-=
+fi, and if you&#8217;re not familiar, it&#8217;s hard to believe how vibran=
+t and multi-faceted the space economy is today. </span></p><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Plus, o=
+ne of the things I&#8217;m most jealous of Dev and Maya about is that they&=
+#8217;re almost certainly going to get to travel to space in their lifetime=
+s. As a responsible parent, I want to know what they&#8217;re getting into.=
+  </p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0;"><span>There&#8217;s no one better at covering space than the=
+ Payload team. It&#8217;s what industry insiders read, and how I&#8217;m tr=
+ying to get up to speed myself, and I&#8217;m pumped that they agreed to wr=
+ite a Not Boring-style deep dive for us. If you&#8217;re at all interested =
+in the &#8230; space &#8230; and want to stay up-to-date, you need to </spa=
+n><a href=3D"https://substack.com/redirect/01d7992f-c79a-4f45-8e59-0208fb3b=
+66a1?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underlin=
+e;">subscribe to Payload</a><span>. </span></p><p style=3D"color: #1a1a1a; =
+font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">5&#8230;4&#8230;3&#=
+8230;2&#8230;1&#8230; Let&#8217;s get to it. </p><div style=3D"font-size: 1=
+6px; line-height: 26px;"><hr style=3D"background: #ebebeb; border: none; he=
+ight: 1px; margin: 48px 0; padding: 0;"></div><h1 class=3D"header-with-anch=
+or-widget" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoo=
+thing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -app=
+le-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: =
+2em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; posit=
+ion: relative;"><strong>The Space Economy</strong><div id=3D"&#167;the-spac=
+e-economy" class=3D"header-anchor-widget" style=3D"font-size: 16px; height:=
+ 100%; left: -56px; line-height: 26px; position: absolute; top: -72px; widt=
+h: 56px;"><div class=3D"header-anchor-widget-button-container" style=3D"ali=
+gn-items: center; display: flex; font-size: 16px; height: 1.2em; left: 0; l=
+ine-height: 26px; position: absolute; top: 72px; width: 40px;"><a class=3D"=
+header-anchor-widget-button" href=3D"https://substack.com/redirect/c09ff53a=
+-a26a-4f7e-aa97-f28a99fc1789?r=3D9p0gt" style=3D"align-items: center; borde=
+r-radius: 50%; color: #1a1a1a; display: none; height: 40px; justify-content=
+: center; text-decoration: underline; width: 40px;"><svg xmlns=3D"http://ww=
+w.w3.org/2000/svg" width=3D"20" height=3D"20" viewBox=3D"0 0 24 24" fill=3D=
+"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" =
+stroke-linejoin=3D"round" class=3D"header-anchor-widget-icon" style=3D"heig=
+ht: 20px; stroke: #9a9a9a; width: 20px;"><path d=3D"M10 13a5 5 0 007.54.54l=
+3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d=3D"M14 11a5 5 0 00-7.54-.54l-3 =
+3a5 5 0 007.07 7.07l1.71-1.71"/></svg></a></div></div></h1><h4 class=3D"hea=
+der-with-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -web=
+kit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact D=
+isplay', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, =
+Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+; font-size: 1.125em; font-weight: bold; line-height: 1.16em; margin: 1em 0=
+ 0.625em 0; position: relative;"><span>(</span><em><a href=3D"https://subst=
+ack.com/redirect/ad68fc29-f6a4-4ca4-8143-caeda653b753?r=3D9p0gt" rel=3D"" s=
+tyle=3D"color: #1a1a1a; text-decoration: underline;">Read Full Breakdown On=
+line</a></em><span>)</span><div id=3D"&#167;read-full-breakdown-online" cla=
+ss=3D"header-anchor-widget" style=3D"font-size: 16px; height: 100%; left: -=
+56px; line-height: 26px; position: absolute; top: -72px; width: 56px;"><div=
+ class=3D"header-anchor-widget-button-container" style=3D"align-items: cent=
+er; display: flex; font-size: 16px; height: 1.2em; left: 0; line-height: 26=
+px; position: absolute; top: 72px; width: 40px;"><a class=3D"header-anchor-=
+widget-button" href=3D"https://substack.com/redirect/2076bf68-9dce-415f-aa4=
+1-abf0a16d34a6?r=3D9p0gt" style=3D"align-items: center; border-radius: 50%;=
+ color: #1a1a1a; display: none; height: 40px; justify-content: center; text=
+-decoration: underline; width: 40px;"><svg xmlns=3D"http://www.w3.org/2000/=
+svg" width=3D"20" height=3D"20" viewBox=3D"0 0 24 24" fill=3D"none" stroke=
+=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejo=
+in=3D"round" class=3D"header-anchor-widget-icon" style=3D"height: 20px; str=
+oke: #9a9a9a; width: 20px;"><path d=3D"M10 13a5 5 0 007.54.54l3-3a5 5 0 00-=
+7.07-7.07l-1.72 1.71"/><path d=3D"M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.0=
+7 7.07l1.71-1.71"/></svg></a></div></div></h4><div class=3D"captioned-image=
+-container-static" style=3D"font-size: 16px; line-height: 26px; margin-bott=
+om: 16px; text-align: center;"><figure style=3D"display: inline-block; marg=
+in: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; ms=
+o-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"><=
+/td><td align=3D"left" class=3D"content" width=3D"908" style=3D"text-align:=
+ center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://substac=
+k.com/redirect/c6b85216-6aa3-4177-819a-775314923113?r=3D9p0gt" rel=3D"" sty=
+le=3D"align-items: center; border: none; display: block; flex-direction: co=
+lumn; height: auto; margin: 0; padding: 0; position: relative; text-decorat=
+ion: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://=
+bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/imag=
+es/9a6ecdc5-d2c8-4b98-b9ba-09e9acaf3512_908x824.png&quot;,&quot;fullscreen&=
+quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:824,&quot;width&qu=
+ot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:117252,&quot;alt&quo=
+t;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot=
+;href&quot;:null,&quot;belowTheFold&quot;:true}" alt=3D"" width=3D"550" hei=
+ght=3D"499.1189427312775" class=3D"wide-image" src=3D"https://substackcdn.c=
+om/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https=
+%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2F=
+public%2Fimages%2F9a6ecdc5-d2c8-4b98-b9ba-09e9acaf3512_908x824.png" style=
+=3D"-ms-interpolation-mode: bicubic; border: none !important; display: bloc=
+k; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !importa=
+nt; vertical-align: middle; width: auto !important;"></a></td><td style=3D"=
+text-align: center;"></td></tr></tbody></table></figure></div><h3 class=3D"=
+header-with-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -=
+webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compac=
+t Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetic=
+a, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symb=
+ol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1e=
+m 0 0.625em 0; position: relative;"><strong>TABLE OF CONTENTS</strong><div =
+id=3D"&#167;table-of-contents" class=3D"header-anchor-widget" style=3D"font=
+-size: 16px; height: 100%; left: -56px; line-height: 26px; position: absolu=
+te; top: -72px; width: 56px;"><div class=3D"header-anchor-widget-button-con=
+tainer" style=3D"align-items: center; display: flex; font-size: 16px; heigh=
+t: 1.2em; left: 0; line-height: 26px; position: absolute; top: 72px; width:=
+ 40px;"><a class=3D"header-anchor-widget-button" href=3D"https://substack.c=
+om/redirect/f4dfe36f-923e-41ab-82f3-6e66e39c12f1?r=3D9p0gt" style=3D"align-=
+items: center; border-radius: 50%; color: #1a1a1a; display: none; height: 4=
+0px; justify-content: center; text-decoration: underline; width: 40px;"><sv=
+g xmlns=3D"http://www.w3.org/2000/svg" width=3D"20" height=3D"20" viewBox=
+=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" str=
+oke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"header-anchor-widg=
+et-icon" style=3D"height: 20px; stroke: #9a9a9a; width: 20px;"><path d=3D"M=
+10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d=3D"M14 11=
+a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg></a></div></div=
+></h3><ol style=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-=
+left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Pr=
+ospectus Summary</strong></p></li><li style=3D"margin-bottom: 4px; margin-l=
+eft: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Mar=
+ket, Industry and Other Data&#160;</strong></p></li><li style=3D"margin-bot=
+tom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-botto=
+m: 0;"><strong>Use of Proceeds&#160;</strong></p></li><li style=3D"margin-b=
+ottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-b=
+ottom: 0;"><strong>Dilution&#160;</strong></p></li><li style=3D"margin-bott=
+om: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom=
+: 0;"><strong>Business (Models)</strong></p></li><li style=3D"margin-bottom=
+: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: =
+0;"><strong>Principal Stockholders&#160;</strong></p></li><li style=3D"marg=
+in-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin=
+-bottom: 0;"><strong>Underwriting&#160;</strong></p></li><li style=3D"margi=
+n-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-=
+bottom: 0;"><strong>Legal Matters&#160;</strong></p></li><li style=3D"margi=
+n-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-=
+bottom: 0;"><strong>Risk Factors&#160;</strong></p></li><li style=3D"margin=
+-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-b=
+ottom: 0;"><strong>Final Remarks</strong></p></li></ol><h3 class=3D"header-=
+with-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-=
+font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Displ=
+ay', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Aria=
+l, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fo=
+nt-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.6=
+25em 0; position: relative;"><strong>PROSPECTUS SUMMARY</strong><div id=3D"=
+&#167;prospectus-summary" class=3D"header-anchor-widget" style=3D"font-size=
+: 16px; height: 100%; left: -56px; line-height: 26px; position: absolute; t=
+op: -72px; width: 56px;"><div class=3D"header-anchor-widget-button-containe=
+r" style=3D"align-items: center; display: flex; font-size: 16px; height: 1.=
+2em; left: 0; line-height: 26px; position: absolute; top: 72px; width: 40px=
+;"><a class=3D"header-anchor-widget-button" href=3D"https://substack.com/re=
+direct/d8fc283f-6744-4dbe-b525-aa1997f167d5?r=3D9p0gt" style=3D"align-items=
+: center; border-radius: 50%; color: #1a1a1a; display: none; height: 40px; =
+justify-content: center; text-decoration: underline; width: 40px;"><svg xml=
+ns=3D"http://www.w3.org/2000/svg" width=3D"20" height=3D"20" viewBox=3D"0 0=
+ 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-lin=
+ecap=3D"round" stroke-linejoin=3D"round" class=3D"header-anchor-widget-icon=
+" style=3D"height: 20px; stroke: #9a9a9a; width: 20px;"><path d=3D"M10 13a5=
+ 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d=3D"M14 11a5 5 0 =
+00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg></a></div></div></h3><=
+p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 =
+1em 0;"><span>Here at </span><a href=3D"https://substack.com/redirect/01d79=
+92f-c79a-4f45-8e59-0208fb3b66a1?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a=
+; text-decoration: underline;">Payload</a><span>, we try to be very judicio=
+us and sparing with our use of space clich&#233;s. We&#8217;re a B2B and B2=
+G publisher writing for the shot-callers of space. They do not want to read=
+ a half-baked joke that &#8220;actually, this </span><em>is </em><span>rock=
+et science.&#8221; They&#8217;ve heard it before. It doesn&#8217;t fly.</sp=
+an></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0;">But today, dear readers, Payload is temporarily parting wit=
+h our time-worn tradition in this prospectus summary and we&#8217;re going =
+to let the clich&#233;s rip.&#160;</p><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>A new space age is upo=
+n us, characterized by fierce competition between superpowers and startups =
+alike. Dozens of space unicorns are hitting escape velocity. Finally, unlik=
+e crypto, we actually are going </span><em>to the Moon. </em><span>Very soo=
+n.&#160;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height=
+: 26px; margin: 0 0 1em 0;"><span>We&#8217;re living through an age of hist=
+oric firsts and massive developments, good and bad, that are happening dail=
+y in space. Just in the last </span><em>few weeks</em><span>, we&#8217;ve t=
+racked the following in our daily newsletter:&#160;</span></p><ul style=3D"=
+margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-r=
+ight: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #=
+1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">O=
+n July 30, a massive Chinese Long March rocket made an uncontrolled reentry=
+ (aka tumbled back from orbit to Earth), with debris falling on Malaysia an=
+d Indonesia.&#160;</p></li><li style=3D"margin-bottom: 4px; margin-left: 8p=
+x; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-b=
+ottom: 0;">On Aug. 4, five separate launchers flew orbital missions in one =
+day. Four of the launches were conducted by American companies, one was Chi=
+na&#8217;s state-owned aerospace corporation.&#160;</p></li><li style=3D"ma=
+rgin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-s=
+pecial-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0; margin-bottom: 0;">That same day, Blue Origin launc=
+hed six people to suborbital space, including YouTuber and Dude Perfect cof=
+ounder Coby Cotton (his ticket was crowdfunded by a DAO).&#160;&#160;</p></=
+li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; marg=
+in-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">SpaceX is laun=
+ching its Falcon 9 at a less than weekly rate in 2022 and has refurbished a=
+nd reflown some of the first-stage boosters in under a month. The company a=
+lso just conducted its first static fire test of the gargantuan Super Heavy=
+ booster at its Starbase in south Texas.&#160;&#160;</p></li><li style=3D"m=
+argin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-=
+special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-=
+height: 26px; margin: 0; margin-bottom: 0;">Three separate launch unicorns&=
+#8211;ABL Space Systems, Firefly, and Relativity&#8211;are poised to attemp=
+t to reach orbit for the first time in the coming weeks and months.&#160;</=
+p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; =
+margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">A wave of =
+multibillion-dollar mergers is sweeping over the legacy satellite sector, w=
+ith details emerging about two blockbuster deals that are likely to move fo=
+rward.&#160;</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; mar=
+gin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: =
+0;">All the while, the James Webb Space Telescope has been sending back unr=
+eal photos of our galaxy and literally letting us travel back billions of y=
+ears in time.&#160;</p></li></ul><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;">There&#8217;s plenty more where t=
+hat came from. In this essay, we&#8217;ll tell you everything you need to k=
+now about how we got here and where we&#8217;re headed.</p><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Payload=
+ was founded on the premise that the space industry is at an inflection poi=
+nt. What was once monopolized by superpowers is now being privatized, with =
+companies taking greater share of low-Earth orbit, rocket launches, and mor=
+e. So, because we passionately believe in this inflection point thesis, we&=
+#8217;ve packaged this new space primer as an S-1. It&#8217;s an intellectu=
+al exercise unpacking what taking the space industry, broadly speaking, pub=
+lic. Is it tech-growth stage? Yes. Is it profitable? Ehhhhh. What else do y=
+ou need to know? Well, let&#8217;s dive in&#8230;</p><h3 class=3D"header-wi=
+th-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-fo=
+nt-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display=
+', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,=
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font=
+-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625=
+em 0; position: relative;"><strong>MARKET, INDUSTRY AND OTHER DATA</strong>=
+<div id=3D"&#167;market-industry-and-other-data" class=3D"header-anchor-wid=
+get" style=3D"font-size: 16px; height: 100%; left: -56px; line-height: 26px=
+; position: absolute; top: -72px; width: 56px;"><div class=3D"header-anchor=
+-widget-button-container" style=3D"align-items: center; display: flex; font=
+-size: 16px; height: 1.2em; left: 0; line-height: 26px; position: absolute;=
+ top: 72px; width: 40px;"><a class=3D"header-anchor-widget-button" href=3D"=
+https://substack.com/redirect/b4632fb1-1dd9-4208-a62e-caef998ed619?r=3D9p0g=
+t" style=3D"align-items: center; border-radius: 50%; color: #1a1a1a; displa=
+y: none; height: 40px; justify-content: center; text-decoration: underline;=
+ width: 40px;"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"20" heigh=
+t=3D"20" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke=
+-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"he=
+ader-anchor-widget-icon" style=3D"height: 20px; stroke: #9a9a9a; width: 20p=
+x;"><path d=3D"M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><=
+path d=3D"M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg=
+></a></div></div></h3><h4 class=3D"header-with-anchor-widget" style=3D"-moz=
+-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; colo=
+r: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSyste=
+mFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji=
+', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.125em; font-weight: bo=
+ld; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relative;"><str=
+ong>Space: A brief history&#160;</strong><div id=3D"&#167;space-a-brief-his=
+tory" class=3D"header-anchor-widget" style=3D"font-size: 16px; height: 100%=
+; left: -56px; line-height: 26px; position: absolute; top: -72px; width: 56=
+px;"><div class=3D"header-anchor-widget-button-container" style=3D"align-it=
+ems: center; display: flex; font-size: 16px; height: 1.2em; left: 0; line-h=
+eight: 26px; position: absolute; top: 72px; width: 40px;"><a class=3D"heade=
+r-anchor-widget-button" href=3D"https://substack.com/redirect/e77dcdd9-c1c0=
+-467a-be3c-d868866f2817?r=3D9p0gt" style=3D"align-items: center; border-rad=
+ius: 50%; color: #1a1a1a; display: none; height: 40px; justify-content: cen=
+ter; text-decoration: underline; width: 40px;"><svg xmlns=3D"http://www.w3.=
+org/2000/svg" width=3D"20" height=3D"20" viewBox=3D"0 0 24 24" fill=3D"none=
+" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" strok=
+e-linejoin=3D"round" class=3D"header-anchor-widget-icon" style=3D"height: 2=
+0px; stroke: #9a9a9a; width: 20px;"><path d=3D"M10 13a5 5 0 007.54.54l3-3a5=
+ 5 0 00-7.07-7.07l-1.72 1.71"/><path d=3D"M14 11a5 5 0 00-7.54-.54l-3 3a5 5=
+ 0 007.07 7.07l1.71-1.71"/></svg></a></div></div></h4><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">On Oct. 4, 1=
+957, the Soviets launched the first artificial satellite into space. The so=
+ccer ball-sized spacecraft was named Sputnik. That word, we think, went to =
+become one of the most famous Russian words in non-Russian tongues and Engl=
+ish-language history books. The &#8220;Sputnik crisis&#8221; caught the Wes=
+t completely by surprise, clearly dividing history and the Cold War into tw=
+o separate eras: &#8220;pre-Sputnik&#8221; and &#8220;post-Sputnik.&#8221;<=
+/p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: =
+0 0 1em 0;">Perceptions are everything. The New York Times had a rare three=
+-fold headliner story on the Soviets&#8217; successful launch. Paranoia set=
+ in among American policymakers and the general public awakened to the spac=
+e age. Post-Sputnik, the perception of a Pax Americana and pacing Soviet Un=
+ion gave way to a public view that the Soviets had achieved a step change n=
+ot just in space. The Soviets were running up a &#8220;technology gap&#8221=
+; over the Americans.&#160;</p><div class=3D"captioned-image-container-stat=
+ic" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-=
+align: center;"><figure style=3D"display: inline-block; margin: 0 auto; wid=
+th: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: =
+1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=
+=3D"left" class=3D"content" width=3D"980" style=3D"text-align: center;"><a =
+class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redirec=
+t/60a3b7fa-1477-44c7-8dc2-f044aa096082?r=3D9p0gt" rel=3D"" style=3D"align-i=
+tems: center; border: none; display: block; flex-direction: column; height:=
+ auto; margin: 0; padding: 0; position: relative; text-decoration: none; wi=
+dth: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05=
+bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e7e37401-c=
+9dc-4e79-92ba-5dc95c1db0e4_980x653.jpeg&quot;,&quot;fullscreen&quot;:null,&=
+quot;imageSize&quot;:null,&quot;height&quot;:653,&quot;width&quot;:980,&quo=
+t;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot=
+;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;=
+belowTheFold&quot;:true}" alt=3D"" title=3D"" width=3D"550" height=3D"366.4=
+795918367347" class=3D"wide-image" src=3D"https://substackcdn.com/image/fet=
+ch/w_1960,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbuc=
+keteer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fima=
+ges%2Fe7e37401-c9dc-4e79-92ba-5dc95c1db0e4_980x653.jpeg" style=3D"-ms-inter=
+polation-mode: bicubic; border: none !important; display: block; height: au=
+to; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-=
+align: middle; width: auto !important;"></a></td><td style=3D"text-align: c=
+enter;"></td></tr></tbody></table></figure></div><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">The race was on, =
+with the two superpowers&#8217; space programs kicking off a new front in t=
+he Cold War and one of the greatest technological showdowns of modern histo=
+ry.&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px=
+; margin: 0 0 1em 0;">Less than one month after Sputnik 1, the Soviets sent=
+ a ~1,120 lb. satellite into Earth orbit with radio transmitters, a thermal=
+ control unit, sealed cabin, and a husky-spitz mut named Laika. The Soviets=
+ hadn&#8217;t build any Earth return capabilities into Sputnik 2, so sadly,=
+ Laika didn&#8217;t make it &#128531;.</p><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;">The pressure was on the =
+Eisenhower administration: do something! The US delivered with Explorer 1, =
+the Americans&#8217; first satellite, successfully launched into space on J=
+an. 31, 1958, a full 119 days after the Soviets. Explorer 1 was the size of=
+ a beach ball (note: Payload only uses Earth sports balls as a metric unit =
+for spacecraft management).&#160;</p><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0 0 1em 0;">Still, congressional leaders =
+felt that space deserved more of a federal focus&#8211;and Eisenhower estab=
+lished NASA in 1958 and abolished NACA (the agency&#8217;s predecessor, sta=
+rted in 1915). NASA&#8217;s charter was to exercise &#8220;control over aer=
+onautical and space activities sponsored by the United States.&#8221; NASA =
+was to handle civilian space efforts, but the Pentagon still had authority =
+over military space programs.&#160;</p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">Over the next three years, =
+the Soviets and Americans worked on their space programs, but on April 12, =
+1961, it was the Soviets who sent the first person to space: Russian Lt. Yu=
+ri Gagarin. Mercury-era astronaut Alan Shepard became the first American to=
+ reach space (sub-orbitally) less than a month later, on May 5, 1961.&#160;=
+</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0;">That same year, JFK set forth a national goal: &#8220;Landing =
+a man on the moon and returning him safely to Earth within a decade.&#8221;=
+ The Americans, it should come as no surprise, were able to meet this ambit=
+ious call less than a decade later, with Neil Armstrong taking &#8220;one s=
+mall step&#8221; but a &#8220;giant leap for mankind&#8221; on July 20, 196=
+9 (nice).&#160;</p><div class=3D"captioned-image-container-static" style=3D=
+"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: cente=
+r;"><figure style=3D"display: inline-block; margin: 0 auto; width: 100%;"><=
+table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;=
+"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" clas=
+s=3D"content" width=3D"1456" style=3D"text-align: center;"><a class=3D"imag=
+e-link" target=3D"_blank" href=3D"https://substack.com/redirect/070bc278-5a=
+0d-4ffc-817b-28eee5ada877?r=3D9p0gt" rel=3D"" style=3D"align-items: center;=
+ border: none; display: block; flex-direction: column; height: auto; margin=
+: 0; padding: 0; position: relative; text-decoration: none; width: auto;"><=
+img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-43=
+7e-9518-adb32be77984.s3.amazonaws.com/public/images/5eb5c10e-f98c-4dc8-addf=
+-5286b5ad14d1_1600x753.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSiz=
+e&quot;:null,&quot;height&quot;:685,&quot;width&quot;:1456,&quot;resizeWidt=
+h&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;titl=
+e&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold=
+&quot;:true}" alt=3D"" title=3D"" width=3D"550" height=3D"258.7568681318681=
+5" class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_2912,c=
+_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05b=
+bc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5eb5c=
+10e-f98c-4dc8-addf-5286b5ad14d1_1600x753.png" style=3D"-ms-interpolation-mo=
+de: bicubic; border: none !important; display: block; height: auto; margin:=
+ 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-align: midd=
+le; width: auto !important;"></a></td><td style=3D"text-align: center;"></t=
+d></tr></tbody></table><figcaption class=3D"image-caption" style=3D"color: =
+#767676; font-family: sans-serif; font-size: 14px; font-weight: 300; line-h=
+eight: 1.4em; text-align: center;"><em>Soviet cosmonaut Yuri Gagarin (left)=
+ and American astronaut Alan Shepard (right)</em><span>&#160;</span></figca=
+ption></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 1em 0;"><span>As Tom Wolfe expertly chronicled in </s=
+pan><em>The Right Stuff</em><span>, Air Force test pilots who were flying p=
+lanes with rockets strapped on them in the desert would become the US&#8217=
+;s first astronauts (part of the Mercury program). The Apollo era, though, =
+was a high watermark for the US space program, no matter how you slice it. =
+Astronauts were living legends and international celebrities. They drove (o=
+r, more accurately, raced) Corvettes across town in Houston. Life magazine =
+struck a deal with the astronauts and their families to tell their stories =
+(albeit carefully overseen by NASA handlers).&#160;</span></p><div class=3D=
+"captioned-image-container-static" style=3D"font-size: 16px; line-height: 2=
+6px; margin-bottom: 16px; text-align: center;"><figure style=3D"display: in=
+line-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" wi=
+dth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"marg=
+in: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-a=
+lign: center;"></td><td align=3D"left" class=3D"content" width=3D"1456" sty=
+le=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=
+=3D"https://substack.com/redirect/a754a875-cae3-4725-bf4f-15ad1c96dd70?r=3D=
+9p0gt" rel=3D"" style=3D"align-items: center; border: none; display: block;=
+ flex-direction: column; height: auto; margin: 0; padding: 0; position: rel=
+ative; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&q=
+uot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazon=
+aws.com/public/images/dd720540-289c-49a4-864c-d3b30718c09f_1600x891.png&quo=
+t;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot=
+;:811,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;=
+:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:=
+null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true}" alt=3D"" title=
+=3D"" width=3D"550" height=3D"306.35302197802196" class=3D"wide-image" src=
+=3D"https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be=
+77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd720540-289c-49a4-864c-d3b30718=
+c09f_1600x891.png" style=3D"-ms-interpolation-mode: bicubic; border: none !=
+important; display: block; height: auto; margin: 0 auto; margin-bottom: 0; =
+max-width: 100% !important; vertical-align: middle; width: auto !important;=
+"></a></td><td style=3D"text-align: center;"></td></tr></tbody></table><fig=
+caption class=3D"image-caption" style=3D"color: #767676; font-family: sans-=
+serif; font-size: 14px; font-weight: 300; line-height: 1.4em; text-align: c=
+enter;"><em>Walter Cronkite (left) with astronaut Walter Schirra (right) du=
+ring coverage of Apollo 11 on CBS on July 20, 1969. Source: CBS Photo Archi=
+ve</em></figcaption></figure></div><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0 0 1em 0;"><span>After the historic Apollo=
+ 11, the US would go on to send an additional five manned missions &#8211;A=
+pollos 12, 14, 15, 16, and 17&#8211; and 11 men to the moon and back. </spa=
+n><strong>Since December 19, 1972, no humans have been back to the lunar su=
+rface.&#160;</strong></p><div class=3D"captioned-image-container-static" st=
+yle=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align:=
+ center;"><figure style=3D"display: inline-block; margin: 0 auto; width: 10=
+0%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 =
+1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left=
+" class=3D"content" width=3D"1456" style=3D"text-align: center;"><a class=
+=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/4dc=
+91096-e9bc-488a-9ecb-71e42c3144f6?r=3D9p0gt" rel=3D"" style=3D"align-items:=
+ center; border: none; display: block; flex-direction: column; height: auto=
+; margin: 0; padding: 0; position: relative; text-decoration: none; width: =
+auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84=
+-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8be7d006-d18b-4=
+904-b956-7fd73679f0d6_1600x898.png&quot;,&quot;fullscreen&quot;:null,&quot;=
+imageSize&quot;:null,&quot;height&quot;:817,&quot;width&quot;:1456,&quot;re=
+sizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&q=
+uot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belo=
+wTheFold&quot;:true}" alt=3D"" title=3D"" width=3D"550" height=3D"308.61950=
+54945055" class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w=
+_2912,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbuckete=
+er-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%=
+2F8be7d006-d18b-4904-b956-7fd73679f0d6_1600x898.png" style=3D"-ms-interpola=
+tion-mode: bicubic; border: none !important; display: block; height: auto; =
+margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-alig=
+n: middle; width: auto !important;"></a></td><td style=3D"text-align: cente=
+r;"></td></tr></tbody></table><figcaption class=3D"image-caption" style=3D"=
+color: #767676; font-family: sans-serif; font-size: 14px; font-weight: 300;=
+ line-height: 1.4em; text-align: center;"><em>600 million people watched Ne=
+il Armstrong walk on the moon. 94% of Americans watching television on July=
+ 20 watched the landing. Source: NYTimes</em></figcaption></figure></div><p=
+ style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1=
+em 0;"><span>Winning the race to the Moon and inventing countless technolog=
+ies out of thin air&#8211;all while using less processing power for the who=
+le mission than an iPhone uses today&#8211;came at astronomical expense. </=
+span><strong>Going to the Moon cost $283B</strong><span>, according to one =
+tally. In relative terms, NASA's budget peaked from 1964 to 1966, when it c=
+onsumed ~4% of all US federal government spend. That number now sits an ord=
+er of magnitude lower at 0.4%.&#160;</span></p><p style=3D"color: #1a1a1a; =
+font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>That&#8217;s =
+not to say that space activity dropped in the &#8216;70s. Companies </span>=
+<a href=3D"https://substack.com/redirect/203ff82d-7f7c-41ce-bb1a-b654a20873=
+56?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;=
+">began to launch</a><span> communications satellites to carry voice, data,=
+ and eventually, TV. In 1973, the Pentagon kicked off the Global Positionin=
+g System (GPS) project. The project would take two decades to complete, wit=
+h a prototype GPS bird going up 22,000+ miles above Earth in 1978 and the f=
+ull constellation coming online in the mid &#8216;90s.&#160;</span></p><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em=
+ 0;">All the while, interstellar robotic probes pushed further out into the=
+ cosmos. In 1971, an American spacecraft became the first to orbit another =
+planet (Mars). The next year, the Soviets made history by landing a spacecr=
+aft on Mars (the soft landing wasn&#8217;t so soft, as video transmission c=
+eased from the craft after 20 seconds). They later landed not-so-softly on =
+Venus, too. By the end of the 1970s, the US&#8217;s Voyager 1 and 2 spacecr=
+aft had sent back stunning photos of Jupiter and Saturn. The Voyagers journ=
+eyed to Neptune and Uranus (no really).&#160;</p><h4 class=3D"header-with-a=
+nchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-s=
+moothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -=
+apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, san=
+s-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-siz=
+e: 1.125em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0=
+; position: relative;"><strong>SPACE STATION</strong><div id=3D"&#167;space=
+-station" class=3D"header-anchor-widget" style=3D"font-size: 16px; height: =
+100%; left: -56px; line-height: 26px; position: absolute; top: -72px; width=
+: 56px;"><div class=3D"header-anchor-widget-button-container" style=3D"alig=
+n-items: center; display: flex; font-size: 16px; height: 1.2em; left: 0; li=
+ne-height: 26px; position: absolute; top: 72px; width: 40px;"><a class=3D"h=
+eader-anchor-widget-button" href=3D"https://substack.com/redirect/15e03ac3-=
+7157-4cbc-9ee2-69dc8c126700?r=3D9p0gt" style=3D"align-items: center; border=
+-radius: 50%; color: #1a1a1a; display: none; height: 40px; justify-content:=
+ center; text-decoration: underline; width: 40px;"><svg xmlns=3D"http://www=
+=2Ew3.org/2000/svg" width=3D"20" height=3D=
+"20" viewBox=3D"0 0 24 24" fill=3D"=
+none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" s=
+troke-linejoin=3D"round" class=3D"header-anchor-widget-icon" style=3D"heigh=
+t: 20px; stroke: #9a9a9a; width: 20px;"><path d=3D"M10 13a5 5 0 007.54.54l3=
+-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d=3D"M14 11a5 5 0 00-7.54-.54l-3 3=
+a5 5 0 007.07 7.07l1.71-1.71"/></svg></a></div></div></h4><p style=3D"color=
+: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">The Sovi=
+ets launched the world&#8217;s first space station&#8211;Salyut 1&#8211;int=
+o low-Earth orbit (LEO) in 1971. The Soyuz 11 crew stayed aboard Salyut 1, =
+but were killed by asphyxia due to valve failure right before reentering Ea=
+rth&#8217;s atmosphere. The Salyut program would see a total of six station=
+s launched&#8211;four for scientific research and two for military reconnai=
+ssance.&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">The US launched its first space station&#8211;Sky=
+lab&#8211;between 1973 and 1974. Three crews occupied Skylab for ~24 weeks,=
+ and though the microgravity lab and Earth-observing workshop was meant to =
+last nine years, it quickly lost altitude and ultimately ended as a failure=
+=2E Skylab reentered Earth&#8217;s atmosp=
+here, and as it disintegrated, cast =
+debris across rural regions of western Australia and into the Indian Ocean.=
+ At least nobody died?</p><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;">Skylab and Salyut walked so that the Int=
+ernational Space Station (ISS) could run.&#160;</p><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Jointly operate=
+d by the US, Russia, Europe, Canada, and Japan, the ISS is one of the top e=
+ngineering feats of the modern age. It&#8217;s been continuously occupied s=
+ince 1998, longer than tens of thousands of you reading this have been aliv=
+e. Right now, as you&#8217;re reading this, there are seven people on the I=
+SS: three Russian cosmonauts, three NASA astronauts, and one European Space=
+ Agency astronaut.&#160;</p><div class=3D"captioned-image-container-static"=
+ style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-ali=
+gn: center;"><figure style=3D"display: inline-block; margin: 0 auto; width:=
+ 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em=
+ 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"l=
+eft" class=3D"content" width=3D"1100" style=3D"text-align: center;"><a clas=
+s=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/10=
+948e7c-eab1-4f19-9ee2-a9144c5518e8?r=3D9p0gt" rel=3D"" style=3D"align-items=
+: center; border: none; display: block; flex-direction: column; height: aut=
+o; margin: 0; padding: 0; position: relative; text-decoration: none; width:=
+ auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc8=
+4-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/06ce1df4-555e-=
+4777-9aa5-fe54eb19af59_1100x731.jpeg&quot;,&quot;fullscreen&quot;:null,&quo=
+t;imageSize&quot;:null,&quot;height&quot;:731,&quot;width&quot;:1100,&quot;=
+resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,=
+&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;be=
+lowTheFold&quot;:true}" alt=3D"" title=3D"" width=3D"550" height=3D"365.5" =
+class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_2200,c_li=
+mit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc8=
+4-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06ce1df4=
+-555e-4777-9aa5-fe54eb19af59_1100x731.jpeg" style=3D"-ms-interpolation-mode=
+: bicubic; border: none !important; display: block; height: auto; margin: 0=
+ auto; margin-bottom: 0; max-width: 100% !important; vertical-align: middle=
+; width: auto !important;"></a></td><td style=3D"text-align: center;"></td>=
+</tr></tbody></table><figcaption class=3D"image-caption" style=3D"color: #7=
+67676; font-family: sans-serif; font-size: 14px; font-weight: 300; line-hei=
+ght: 1.4em; text-align: center;"><em>The International Space Station. Sourc=
+e: NASA</em></figcaption></figure></div><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>The ISS is </span><e=
+m>also </em><span>one of the most expensive things humans have ever built, =
+at a cost of $150 </span><em>billion </em><span>(the $50 billion shuttle pr=
+ogram is typically included in the cost of the ISS as it is here). The US f=
+ooted most of the bill, and NASA shells out ~$3.1 billion a year to keep th=
+ings running. All good things must come to an end, and the ISS is showing i=
+ts age. The station is expected to be decommissioned and deorbited into a s=
+pacecraft graveyard in the South Pacific Ocean Uninhabited Area at the end =
+of this decade.&#160;</span></p><h4 class=3D"header-with-anchor-widget" sty=
+le=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antiali=
+ased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, Bli=
+nkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple C=
+olor Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.125em; font-=
+weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relat=
+ive;"><strong>SPACE SHUTTLE&#160;</strong><div id=3D"&#167;space-shuttle" c=
+lass=3D"header-anchor-widget" style=3D"font-size: 16px; height: 100%; left:=
+ -56px; line-height: 26px; position: absolute; top: -72px; width: 56px;"><d=
+iv class=3D"header-anchor-widget-button-container" style=3D"align-items: ce=
+nter; display: flex; font-size: 16px; height: 1.2em; left: 0; line-height: =
+26px; position: absolute; top: 72px; width: 40px;"><a class=3D"header-ancho=
+r-widget-button" href=3D"https://substack.com/redirect/59d19269-3411-4a4c-8=
+2b9-838d0e3fe1f8?r=3D9p0gt" style=3D"align-items: center; border-radius: 50=
+%; color: #1a1a1a; display: none; height: 40px; justify-content: center; te=
+xt-decoration: underline; width: 40px;"><svg xmlns=3D"http://www.w3.org/200=
+0/svg" width=3D"20" height=3D"20" viewBox=3D"0 0 24 24" fill=3D"none" strok=
+e=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linej=
+oin=3D"round" class=3D"header-anchor-widget-icon" style=3D"height: 20px; st=
+roke: #9a9a9a; width: 20px;"><path d=3D"M10 13a5 5 0 007.54.54l3-3a5 5 0 00=
+-7.07-7.07l-1.72 1.71"/><path d=3D"M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.=
+07 7.07l1.71-1.71"/></svg></a></div></div></h4><p style=3D"color: #1a1a1a; =
+font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Reusability is all =
+the rage in rocket jock circles these days, but the concept is not new.&#16=
+0;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0;">You may very well have grown up watching Space Shuttle fligh=
+ts. The iconic vehicle was envisioned as a revolutionary transportation sys=
+tem that would usher in reliable, &#8220;cheap&#8221; (or cost-effective) t=
+ransit to and from LEO. The spacecraft was reusable (though the boosters th=
+at launched it were not). Reusability was a key selling point.&#160;</p><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;">The shuttle became the American space program&#8217;s workhorse, and =
+across three decades, the fleet of Columbia, Challenger, Discovery, Atlanti=
+s, and Endeavour flew 135 missions and 355 humans to space.</p><div class=
+=3D"captioned-image-container-static" style=3D"font-size: 16px; line-height=
+: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"display:=
+ inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"m=
+argin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"tex=
+t-align: center;"></td><td align=3D"left" class=3D"content" width=3D"1456" =
+style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" hre=
+f=3D"https://substack.com/redirect/b6f1aba7-844c-4dd3-a7e6-18c8adfe902c?r=
+=3D9p0gt" rel=3D"" style=3D"align-items: center; border: none; display: blo=
+ck; flex-direction: column; height: auto; margin: 0; padding: 0; position: =
+relative; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;sr=
+c&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.ama=
+zonaws.com/public/images/aa1de43c-43ab-4f48-8397-55afca32c9ee_1600x1000.png=
+&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&=
+quot;:910,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&q=
+uot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&qu=
+ot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true}" alt=3D"" tit=
+le=3D"" width=3D"550" height=3D"343.75" class=3D"wide-image" src=3D"https:/=
+/substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:good,fl_progressi=
+ve:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.am=
+azonaws.com%2Fpublic%2Fimages%2Faa1de43c-43ab-4f48-8397-55afca32c9ee_1600x1=
+000.png" style=3D"-ms-interpolation-mode: bicubic; border: none !important;=
+ display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width:=
+ 100% !important; vertical-align: middle; width: auto !important;"></a></td=
+><td style=3D"text-align: center;"></td></tr></tbody></table><figcaption cl=
+ass=3D"image-caption" style=3D"color: #767676; font-family: sans-serif; fon=
+t-size: 14px; font-weight: 300; line-height: 1.4em; text-align: center;"><e=
+m>Space Shuttle launches from Kennedy Space Center. Source: NASA</em></figc=
+aption></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;">But the Shuttle never lived up to its dreams=
+, and by one estimate, cost ~$1B per head to transport astronauts to the In=
+ternational Space Station and back. Tragically, two crews and 14 lives were=
+ also lost on the Shuttle.&#160;</p><p style=3D"color: #1a1a1a; font-size: =
+16px; line-height: 26px; margin: 0 0 1em 0;">The Obama administration pulle=
+d the plug on the government-run program and the Shuttle flew its final fli=
+ght in June 2011. Despite the program&#8217;s budget overruns and abject da=
+ngers, the Shuttle&#8217;s final mission was an emotional moment for the na=
+tion, NASA&#8217;s rank-and-file, space buffs, and astronauts alike.&#160;<=
+/p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: =
+0 0 1em 0;">After that, Washington paid Roscosmos, Russia&#8217;s space age=
+ncy, to take its crews to the space station aboard Soyuz rockets.&#160;</p>=
+<h4 class=3D"header-with-anchor-widget" style=3D"-moz-osx-font-smoothing: a=
+ntialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-famil=
+y: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Rob=
+oto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', '=
+Segoe UI Symbol'; font-size: 1.125em; font-weight: bold; line-height: 1.16e=
+m; margin: 1em 0 0.625em 0; position: relative;">Keep Reading Online for a =
+full breakdown of the space industry today:<div id=3D"&#167;keep-reading-on=
+line-for-a-full-breakdown-of-the-space-industry-today" class=3D"header-anch=
+or-widget" style=3D"font-size: 16px; height: 100%; left: -56px; line-height=
+: 26px; position: absolute; top: -72px; width: 56px;"><div class=3D"header-=
+anchor-widget-button-container" style=3D"align-items: center; display: flex=
+; font-size: 16px; height: 1.2em; left: 0; line-height: 26px; position: abs=
+olute; top: 72px; width: 40px;"><a class=3D"header-anchor-widget-button" hr=
+ef=3D"https://substack.com/redirect/61069d9c-621a-4774-bf0e-a30c4fb5d90d?r=
+=3D9p0gt" style=3D"align-items: center; border-radius: 50%; color: #1a1a1a;=
+ display: none; height: 40px; justify-content: center; text-decoration: und=
+erline; width: 40px;"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"20=
+" height=3D"20" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor"=
+ stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" clas=
+s=3D"header-anchor-widget-icon" style=3D"height: 20px; stroke: #9a9a9a; wid=
+th: 20px;"><path d=3D"M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1=
+=2E71"/><path d=3D"M14 11a5 5 0 00-7.54-.=
+54l-3 3a5 5 0 007.07 7.07l1.71-1.71"=
+/></svg></a></div></div></h4><p class=3D"button-wrapper" data-attrs=3D"{&qu=
+ot;url&quot;:&quot;https://www.notboring.co/p/c2e68e2e-22c4-4413-96da-60569=
+5cc52e3&quot;,&quot;text&quot;:&quot;Continue Reading Online&quot;,&quot;ac=
+tion&quot;:null,&quot;class&quot;:null}" style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0; text-align: center;"><a class=
+=3D"button primary" href=3D"https://substack.com/redirect/34d9a7d8-c4ad-479=
+0-bb77-6b905d345ae5?r=3D9p0gt" rel=3D"" style=3D"background-color: #67bdfc;=
+ border: none; border-radius: 4px; box-sizing: border-box; color: #ffffff !=
+important; cursor: pointer; display: inline-block; font-family: -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; f=
+ont-weight: normal; height: auto; line-height: 20px; margin: 0; opacity: 1;=
+ outline: none; padding: 12px 20px; text-align: center; text-decoration: no=
+ne !important; white-space: nowrap;"><span style=3D"color: #ffffff; text-de=
+coration: none;">Continue Reading Online</span></a></p><div style=3D"font-s=
+ize: 16px; line-height: 26px;"><hr style=3D"background: #ebebeb; border: no=
+ne; height: 1px; margin: 48px 0; padding: 0;"></div><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em><span>Than=
+ks to </span><a href=3D"https://substack.com/redirect/fc7ccf10-901f-4710-88=
+d7-b3b740bc731e?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoratio=
+n: underline;">Ryan</a><span> and </span><a href=3D"https://substack.com/re=
+direct/ca0c11a4-3dfc-4a9d-b346-3f6c365467d1?r=3D9p0gt" rel=3D"" style=3D"co=
+lor: #1a1a1a; text-decoration: underline;">Mo</a><span> for the deep dive i=
+nto space, </span><a href=3D"https://substack.com/redirect/9727f6cb-e33c-4d=
+c1-9322-f171b05940ee?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-deco=
+ration: underline;">Rahul</a><span> for making it happen, and </span><a hre=
+f=3D"https://substack.com/redirect/a8f6b03a-1a7b-4f9c-a619-c90f0565984b?r=
+=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Da=
+n</a><span> for editing!</span></em><span> </span><em><span>Subscribe to </=
+span><a href=3D"https://substack.com/redirect/01d7992f-c79a-4f45-8e59-0208f=
+b3b66a1?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: under=
+line;">Payload Space</a><span> to get the latest insights on the space indu=
+stry.</span></em></p><div style=3D"font-size: 16px; line-height: 26px;"><hr=
+ style=3D"background: #ebebeb; border: none; height: 1px; margin: 48px 0; p=
+adding: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0;">That&#8217;s all for today, we&#8217;ll see you =
+Friday morning for a Weekly Dose of Optimism!</p><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Thanks for readin=
+g,</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0; margin-bottom: 0;">Packy</p></div></div><table cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"post-meta custom big alternative-meta center=
+ed" style=3D"margin: 0 auto;"><tr style=3D"align-items: center; display: fl=
+ex;"><td class=3D"post-meta-item icon" style=3D"color: #767676; font-family=
+: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, =
+sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-=
+size: 14px; height: 100%; line-height: 18px; padding: 0px 12px 0px 0; paddi=
+ng-right: 16px; position: relative; text-decoration: none; text-indent: 3px=
+; white-space: nowrap;"><span class=3D"post-meta-icon like-reaction-button"=
+><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FwaS92MS9wb3N0L2VtYWlsLXJlYWN0aW9uP3V0bV9zb3VyY2U9c3Vic3RhY2smdX=
+RtX21lZGl1bT1lbWFpbCZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGO=
+XBaQ0k2TmpnMk5ESTVNVFFzSW5KbFlXTjBhVzl1SWpvaTRwMmtJaXdpYVdGMElqb3hOall3TlRZ=
+NE1qQXdMQ0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSnlaV0ZqZEdsdmJpSjkueVd=
+0akgtTm9WNGJHczZuazJxYzVyeHFhenQtQnZKNHRTSlBiMTY1aUsyUSIsInAiOjY4NjQyOTE0LC=
+JzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2MDU2ODIwMCwiaXNzIjoic=
+HViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.0_lbZnjah79-XP290Zffp9PU_wWYWfe3Rhdy=
+uxhGrpo?" class=3D"like-button button post-meta-button" style=3D"align-item=
+s: center; background-color: transparent; border: 1px solid #ebebeb; border=
+-radius: 4px; box-sizing: border-box; color: #1a1a1a; cursor: pointer; disp=
+lay: flex; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Robo=
+to, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; font-size: 16px; font-weight: normal; height: auto; line-h=
+eight: 15px; margin: 0; opacity: 1; outline: none; padding: 10px 16px; text=
+-align: center; text-decoration: none; text-indent: 0px; white-space: nowra=
+p;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_au=
+to:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHear=
+t%3Fv%3D4%26height%3D36%26fill%3Dtransparent%26stroke%3D%2523757575%26strok=
+eWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; di=
+splay: inline-block; float: left; height: 14px; margin-right: 4px; max-widt=
+h: 18px; vertical-align: top; width: auto;" alt=3D""><span class=3D"like-co=
+unt" style=3D"color: #1a1a1a; margin-left: 7px;">Like</span></a></span></td=
+><td class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -a=
+pple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans=
+-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size=
+: 14px; height: 100%; line-height: 18px; padding: 0px 12px 0px 0; padding-r=
+ight: 16px; position: relative; text-decoration: none; text-indent: 3px; wh=
+ite-space: nowrap;"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0=
+cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGhlLXNwYWNlLWVjb25vbXkvY29tbWVudHM_dG9rZW4=
+9ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk5qZzJOREk1TVRRc0ltbG=
+hkQ0k2TVRZMk1EVTJPREl3TUN3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pY0c5e=
+mRDMXlaV0ZqZEdsdmJpSjkuOVBEaGFpalRuejByWG9UdEJDS0ZmcmU5X3FGd2ZxbmJUWnZNZlFv=
+cFJtcyIsInAiOjY4NjQyOTE0LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI=
+6MTY2MDU2ODIwMCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.TvdVQEuvp6=
+NbEKS6VveczkCKxw3PlpTXm2tTNs43IVg?&utm_source=3Dsubstack&utm_medium=3Demail=
+" class=3D"post-meta-button button" style=3D"align-items: center; backgroun=
+d-color: transparent; border: 1px solid #ebebeb; border-radius: 4px; box-si=
+zing: border-box; color: #1a1a1a; cursor: pointer; display: flex; font-fami=
+ly: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial=
+, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fon=
+t-size: 16px; font-weight: normal; height: auto; line-height: 15px; margin:=
+ 0; opacity: 1; outline: none; padding: 10px 16px; text-align: center; text=
+-decoration: none; white-space: nowrap;"><img src=3D"https://substackcdn.co=
+m/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%=
+2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dtr=
+ansparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"18" height=3D"=
+18" style=3D"border: none !important; display: inline-block; float: left; h=
+eight: 14px; margin-right: 4px; max-width: 18px; vertical-align: top; width=
+: auto;" alt=3D"Comment" class=3D"comment-icon post-meta-icon"><span class=
+=3D"meta-button-label">Comment</span></a></td><td class=3D"post-meta-item i=
+con" style=3D"color: #767676; font-family: -apple-system, BlinkMacSystemFon=
+t, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', '=
+Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 100%; line-hei=
+ght: 18px; margin-right: 0; padding: 0px 12px 0px 0; padding-right: 0; posi=
+tion: relative; text-decoration: none; text-indent: 3px; white-space: nowra=
+p;"><span><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3=
+cubm90Ym9yaW5nLmNvL3AvdGhlLXNwYWNlLWVjb25vbXk_dXRtX3NvdXJjZT1zdWJzdGFjayZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9jb250ZW50PXNoYXJlJmFjdGlvbj1zaGFyZSZ0b2tlbj1leUox=
+YzJWeVgybGtJam94TmpJNE16VTBPU3dpYVdGMElqb3hOall3TlRZNE1qQXdMQ0pwYzNNaU9pSnd=
+kV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSndiM04wTFhKbFlXTjBhVzl1SW4wLmR5d0NvcGt5UzNKaW=
+NTb3R2eTBQQ2o1SXAxRi1zLXNYc3V4d2VnYXpXT0EiLCJwIjo2ODY0MjkxNCwicyI6MTAwMjUsI=
+mYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NjA1NjgyMDAsImlzcyI6InB1Yi0wIiwic3Vi=
+IjoibGluay1yZWRpcmVjdCJ9.MK6yd3dSttlURVUIf61W0ZeIHdg4_WSLs17buapERr0?" clas=
+s=3D"button post-meta-button" style=3D"align-items: center; background-colo=
+r: transparent; border: 1px solid #ebebeb; border-radius: 4px; box-sizing: =
+border-box; color: #1a1a1a; cursor: pointer; display: flex; font-family: -a=
+pple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans=
+-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size=
+: 16px; font-weight: normal; height: auto; line-height: 15px; margin: 0; op=
+acity: 1; outline: none; padding: 10px 16px; text-align: center; text-decor=
+ation: none; white-space: nowrap;"><img src=3D"https://substackcdn.com/imag=
+e/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fs=
+ubstack.com%2Ficon%2FLucideShare%3Fv%3D4%26height%3D36%26fill%3Dtransparent=
+%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"18" height=3D"18" style=
+=3D"border: none !important; display: inline-block; float: left; height: 14=
+px; margin-right: 4px; max-width: 18px; vertical-align: top; width: auto;" =
+alt=3D"Share" class=3D"recommend-icon post-meta-icon"><span class=3D"meta-b=
+utton-label">Share</span></a></span></td></tr></table><div class=3D"contain=
+er-border" style=3D"border-top: 1px solid rgba(204, 204, 204, 0.5); box-siz=
+ing: border-box; font-size: 16px; line-height: 26px; margin: 32px 0 0; widt=
+h: 100%;"></div><div class=3D"post-cta" style=3D"font-size: 16px; line-heig=
+ht: 26px; margin: 24px 0 40px;"><p style=3D"font-size: 16px; font-style: it=
+alic; line-height: 26px; margin: 24px 0 0; margin-top: 0;"><span>If you lik=
+ed this post from <a href=3D"https://substack.com/redirect/a6117e68-819b-42=
+2f-9c79-5188e35cbd02?r=3D9p0gt">Not Boring by Packy McCormick</a>, why not =
+share it?</span></p><p class=3D"cta-box" style=3D"font-size: 16px; font-sty=
+le: italic; line-height: 26px; margin: 24px 0 0; text-align: center;"><a ro=
+le=3D"button" href=3D"https://substack.com/redirect/babfa288-e1d3-4976-9d2d=
+-0d777ec038cf?r=3D9p0gt" class=3D"button primary twitter-link" style=3D"bac=
+kground-color: #67bdfc; border: 0px solid #67bdfc; border-radius: 4px; bord=
+er-width: 13px 20px 13px 18px; box-sizing: content-box; color: #ffffff !imp=
+ortant; cursor: pointer; display: inline-block; font-family: -apple-system,=
+ BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'App=
+le Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 17px; font=
+-style: normal; font-weight: 300; height: 24px; line-height: 24px; margin: =
+0; opacity: 1; outline: none; padding: 0; text-align: center; text-decorati=
+on: none !important; vertical-align: middle; white-space: nowrap;"><img src=
+=3D"https://substackcdn.com/image/fetch/w_23.1,c_scale,f_png,q_auto:good,fl=
+_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FShareIcon%3Fv%3D4%26=
+height%3D42%26stroke%3D%2523FFF%26strokeWidth%3D2" width=3D"11.55" height=
+=3D"21" style=3D"border: none !important; display: inline-block; height: 21=
+px; margin-right: 8px; max-width: 11.55px; vertical-align: middle; width: 2=
+1px;" alt=3D""><span style=3D"color: #ffffff; text-decoration: none;">Share=
+</span></a></p></div><div class=3D"footer hasMargin" style=3D"background: #=
+f5f5f5 !important; color: #808080; font-size: 16px; line-height: 26px; marg=
+in-top: 24px; padding: 24px; text-align: center;"><p class=3D"small" style=
+=3D"color: #808080; font-family: -apple-system, BlinkMacSystemFont, 'Segoe =
+UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol'; font-size: 14px; line-height: 22px; margin: 0; pa=
+dding-bottom: 16px;">&#169; 2022 <span>Packy McCormick</span><br>10 City Po=
+int, Brooklyn, NY 11201 <br><a href=3D"https://substack.com/redirect/2/eyJl=
+IjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV=
+5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOamcyTkRJNU1UUXNJbWxoZE=
+NJNk1UWTJNRFUyT0RJd01Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV=
+0pzWlY5bGJXRnBiQ0o5LjRvLTFmb2ZkdHFVT0tGMXlBamZWdncwdmR0ZmJ6VXVkTUhJV05Xb01I=
+VXciLCJwIjo2ODY0MjkxNCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE=
+2NjA1NjgyMDAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.KdZ_U6h7QUA7h=
+yezsLEchhegMvh6qqd8_YunV-jnm7c?" style=3D"color: #808080;"><span style=3D"c=
+olor: #808080; text-decoration: underline;">Unsubscribe</span></a></p><p cl=
+ass=3D"small powered-by-substack" style=3D"color: #808080; font-family: -ap=
+ple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-=
+serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size:=
+ 14px; line-height: 22px; margin: 0; margin-top: 0; padding-bottom: 0;"><a =
+href=3D"https://substack.com/redirect/4f281731-8574-42f0-ac9d-0b8cd9aa86f2?=
+r=3D9p0gt" style=3D"color: #808080; display: inline-block; margin: 8px 4px =
+0; text-decoration: none;"><img src=3D"https://substackcdn.com/image/fetch/=
+w_260,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstac=
+k.com%2Fimg%2Femail%2Fapp-button%402x.png" srcset=3D"https://substackcdn.co=
+m/image/fetch/w_130,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3=
+A%2F%2Fsubstack.com%2Fimg%2Femail%2Fapp-button.png, https://substackcdn.com=
+/image/fetch/w_260,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A=
+%2F%2Fsubstack.com%2Fimg%2Femail%2Fapp-button%402x.png 2x, https://substack=
+cdn.com/image/fetch/w_390,c_limit,f_auto,q_auto:good,fl_progressive:steep/h=
+ttps%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fapp-button%403x.png 3x" width=3D"=
+130" alt=3D"Get the app" height=3D"40" style=3D"border: none !important; ma=
+x-width: 550px; vertical-align: middle;"></a><a href=3D"https://substack.co=
+m/redirect/f678f0e4-dddd-44e0-aad0-a6dff45c49ac?r=3D9p0gt" style=3D"color: =
+#808080; display: inline-block; margin: 8px 4px 0; text-decoration: none;">=
+<img src=3D"https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto=
+:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpubli=
+sh-button%402x.png" srcset=3D"https://substackcdn.com/image/fetch/w_135,c_l=
+imit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fi=
+mg%2Femail%2Fpublish-button.png, https://substackcdn.com/image/fetch/w_270,=
+c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%=
+2Fimg%2Femail%2Fpublish-button%402x.png 2x, https://substackcdn.com/image/f=
+etch/w_405,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsu=
+bstack.com%2Fimg%2Femail%2Fpublish-button%403x.png 3x" width=3D"135" alt=3D=
+"Start writing" height=3D"40" style=3D"border: none !important; max-width: =
+550px; vertical-align: middle;"></a></p></div></div></td><td></td></tr></ta=
+ble><img src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJt=
+IjoiPDIwMjIwODE1MTI1NDM2LjMuZmY2ODM5ZDVlZjY4ZWMzMUBtZy1kMS5zdWJzdGFjay5jb20=
+-IiwidSI6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdW=
+JzdGFjay5jb20iLCJwIjo2ODY0MjkxNCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiL=
+CJzIjoxMDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6ImJvdHRvbSIsImlhdCI6=
+MTY2MDU2ODIwMSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.6JMh1Z3CukI5TIBifa1wRPeiwb=
+-jqKSS7zpsxuzbrjI" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"=
+height:1px !important;width:1px !important;border-width:0 !important;margin=
+-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;marg=
+in-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;p=
+adding-right:0 !important;padding-left:0 !important;"/><img width=3D"1px" h=
+eight=3D"1px" alt=3D"" src=3D"https://email.mg-d1.substack.com/o/eJxFUMuOwy=
+AQ-5rlthHvkgPfggg4KWoCFSFd5e-XNtLuaUYzHnvs4BuWUk_7LHsj2Hxa3YKM2ufR-WaZ1lRpw=
+ykTN0WiFeNETdAk7W6u-BzYVg-Q5zGtKfiWSnYpWkYpV-RuJUc0niujAAoZ5Qgxy5tkikk1i5m8=
+hZ0_YkIOsHihniWDhLJtyO1NdUF6o42WfGSSJMsp59R0Eq6k0IMY5lkbMUaFXhEE-5J0W74jG_Z=
+j2psPj6EzkmpzaVOpKS8d8Lj7Detn0b93b8kjp3Y6ZD-tiJexdmVz7KgfY5oboeR4fdXOJ2zGz7=
+6iNVTS1WLpoeR_IYK_ELn6BZPyet0"></body></html>
+--946551676d5c99c04c3b1c43d6b6d72c478e09f6be3d16024bcbed5c171b--

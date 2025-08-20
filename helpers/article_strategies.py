@@ -15,6 +15,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
+
 # No need for stealth when using legitimate credentials
 from readability import Document
 
@@ -23,10 +24,13 @@ from helpers.utils import log_error, log_info
 # --- Constants ---
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 
+
 def respectful_delay(min_seconds=2, max_seconds=8):
     """Add respectful delay to be a good citizen and avoid rate limiting"""
     delay = random.uniform(min_seconds, max_seconds)
     sleep(delay)
+
+
 GOOGLEBOT_USER_AGENT = (
     "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
 )
@@ -264,7 +268,7 @@ class PaywallBypassStrategy(ArticleFetchStrategy):
             ("paywall.vip", "https://paywall.vip/{url}"),
             ("outline.com", "https://outline.com/{url}"),
         ]
-        
+
         for service_name, url_template in bypass_services:
             try:
                 log_info(log_path, f"Attempting {service_name} bypass for {url}")
@@ -287,14 +291,21 @@ class PaywallBypassStrategy(ArticleFetchStrategy):
                         },
                     )
                 else:
-                    log_info(log_path, f"{service_name} returned minimal content, trying next service...")
-                    
+                    log_info(
+                        log_path,
+                        f"{service_name} returned minimal content, trying next service...",
+                    )
+
             except requests.exceptions.RequestException as e:
                 log_error(log_path, f"{service_name} bypass failed for {url}: {e}")
                 continue  # Try next service
-        
+
         # If all services failed
-        return FetchResult(success=False, error="All paywall bypass services failed", method="paywall_bypass")
+        return FetchResult(
+            success=False,
+            error="All paywall bypass services failed",
+            method="paywall_bypass",
+        )
 
     def get_strategy_name(self) -> str:
         return "paywall_bypass"
@@ -307,12 +318,12 @@ class ArchiveTodayStrategy(ArticleFetchStrategy):
         # Archive.today mirror domains (research from 2025)
         archive_mirrors = [
             "archive.today",
-            "archive.is", 
+            "archive.is",
             "archive.li",
             "archive.fo",
-            "archive.ph"
+            "archive.ph",
         ]
-        
+
         for mirror in archive_mirrors:
             try:
                 log_info(log_path, f"Attempting {mirror} for {url}")
@@ -334,11 +345,16 @@ class ArchiveTodayStrategy(ArticleFetchStrategy):
 
                 # If no existing archive, try to create one (only on first mirror to avoid spam)
                 if mirror == archive_mirrors[0]:
-                    log_info(log_path, f"No existing archive found, creating new archive for {url}")
+                    log_info(
+                        log_path,
+                        f"No existing archive found, creating new archive for {url}",
+                    )
                     submit_url = f"https://{mirror}/submit/"
                     submit_data = {"url": url}
 
-                    response = requests.post(submit_url, data=submit_data, headers=headers, timeout=30)
+                    response = requests.post(
+                        submit_url, data=submit_data, headers=headers, timeout=30
+                    )
 
                     if response.status_code in [200, 302]:
                         # Archive creation initiated, wait and try to access
@@ -351,20 +367,32 @@ class ArchiveTodayStrategy(ArticleFetchStrategy):
                                 success=True,
                                 content=response.text,
                                 method=f"archive_today_new_{mirror}",
-                                metadata={"archive_url": response.url, "mirror": mirror},
+                                metadata={
+                                    "archive_url": response.url,
+                                    "mirror": mirror,
+                                },
                             )
                     elif response.status_code == 429:
-                        log_info(log_path, f"Rate limited on {mirror}, trying next mirror...")
+                        log_info(
+                            log_path, f"Rate limited on {mirror}, trying next mirror..."
+                        )
                         continue
                     else:
-                        log_info(log_path, f"Archive creation failed on {mirror} with status {response.status_code}")
+                        log_info(
+                            log_path,
+                            f"Archive creation failed on {mirror} with status {response.status_code}",
+                        )
 
             except requests.exceptions.RequestException as e:
                 log_error(log_path, f"{mirror} failed for {url}: {e}")
                 continue  # Try next mirror
-                
+
         # If all mirrors failed
-        return FetchResult(success=False, error="All archive.today mirrors failed or returned low-quality content", method="archive_today")
+        return FetchResult(
+            success=False,
+            error="All archive.today mirrors failed or returned low-quality content",
+            method="archive_today",
+        )
 
     def get_strategy_name(self) -> str:
         return "archive_today"
@@ -424,188 +452,246 @@ class PlaywrightStrategy(ArticleFetchStrategy):
 
 class PaywallAuthenticatedStrategy(ArticleFetchStrategy):
     """Authenticated fetch strategy for paywall sites (NYTimes, WSJ, etc)."""
-    
+
     def __init__(self, config=None):
         self.config = config or {}
-        self.nyt_username = self.config.get('NYTIMES_USERNAME')
-        self.nyt_password = self.config.get('NYTIMES_PASSWORD')
-        self.wsj_username = self.config.get('WSJ_USERNAME')
-        self.wsj_password = self.config.get('WSJ_PASSWORD')
+        self.nyt_username = self.config.get("NYTIMES_USERNAME")
+        self.nyt_password = self.config.get("NYTIMES_PASSWORD")
+        self.wsj_username = self.config.get("WSJ_USERNAME")
+        self.wsj_password = self.config.get("WSJ_PASSWORD")
         self.last_request_time = 0
-    
+
     def _add_rate_limiting(self):
         """Add random delay to avoid being banned"""
         current_time = time.time()
         time_since_last = current_time - self.last_request_time
-        
+
         # Wait 3-17 seconds between requests
         min_delay = 3
         max_delay = 17
         required_delay = random.uniform(min_delay, max_delay)
-        
+
         if time_since_last < required_delay:
             sleep_time = required_delay - time_since_last
-            log_info("", f"Rate limiting: sleeping for {sleep_time:.1f} seconds to avoid bans")
+            log_info(
+                "",
+                f"Rate limiting: sleeping for {sleep_time:.1f} seconds to avoid bans",
+            )
             time.sleep(sleep_time)
-        
+
         self.last_request_time = time.time()
-    
+
     def fetch(self, url: str, log_path: str = "") -> FetchResult:
         site_type = self._get_site_type(url)
         if not site_type:
-            return FetchResult(success=False, error="Not a supported paywall site", method="paywall_auth")
-        
+            return FetchResult(
+                success=False,
+                error="Not a supported paywall site",
+                method="paywall_auth",
+            )
+
         credentials = self._get_credentials(site_type)
         if not credentials:
-            return FetchResult(success=False, error=f"{site_type.upper()} credentials not configured", method="paywall_auth")
-        
+            return FetchResult(
+                success=False,
+                error=f"{site_type.upper()} credentials not configured",
+                method="paywall_auth",
+            )
+
         username, password = credentials
-        
+
         try:
-            log_info(log_path, f"Attempting {site_type.upper()} authenticated fetch for {url}")
-            
+            log_info(
+                log_path,
+                f"Attempting {site_type.upper()} authenticated fetch for {url}",
+            )
+
             # Rate limiting to avoid bans
             self._add_rate_limiting()
-            
+
             with sync_playwright() as p:
                 browser = p.chromium.launch(
                     headless=True,
                     args=[
-                        '--no-sandbox',
-                        '--disable-blink-features=AutomationControlled',
-                        '--disable-web-security'
-                    ]
+                        "--no-sandbox",
+                        "--disable-blink-features=AutomationControlled",
+                        "--disable-web-security",
+                    ],
                 )
                 context = browser.new_context(
                     user_agent=USER_AGENT,
-                    viewport={'width': 1920, 'height': 1080},
+                    viewport={"width": 1920, "height": 1080},
                     java_script_enabled=True,
-                    accept_downloads=False
+                    accept_downloads=False,
                 )
                 page = context.new_page()
-                
+
                 # Login based on site type
                 if site_type == "nytimes":
                     log_info(log_path, "Trying NYTimes login approach...")
-                    
+
                     # Try different NYTimes login URLs and approaches
                     login_attempts = [
                         "https://www.nytimes.com/subscription/multiproduct/lp8KQUS.html",
                         "https://myaccount.nytimes.com/auth/login",
-                        "https://www.nytimes.com/section/todayspaper"  # Try going to subscriber page
+                        "https://www.nytimes.com/section/todayspaper",  # Try going to subscriber page
                     ]
-                    
+
                     for login_url in login_attempts:
                         try:
                             log_info(log_path, f"Trying login URL: {login_url}")
-                            page.goto(login_url, wait_until="domcontentloaded", timeout=20000)
+                            page.goto(
+                                login_url, wait_until="domcontentloaded", timeout=20000
+                            )
                             time.sleep(3)
-                            
+
                             # Look for login form with various selectors
                             login_selectors = [
-                                ('input[data-testid="email"], input[name="email"]', 'input[data-testid="password"], input[name="password"]'),
+                                (
+                                    'input[data-testid="email"], input[name="email"]',
+                                    'input[data-testid="password"], input[name="password"]',
+                                ),
                                 ('input[type="email"]', 'input[type="password"]'),
-                                ('#email', '#password'),
-                                ('.email-input', '.password-input')
+                                ("#email", "#password"),
+                                (".email-input", ".password-input"),
                             ]
-                            
+
                             for email_sel, pass_sel in login_selectors:
                                 try:
                                     if page.is_visible(email_sel):
-                                        log_info(log_path, f"Found login form with selector: {email_sel}")
+                                        log_info(
+                                            log_path,
+                                            f"Found login form with selector: {email_sel}",
+                                        )
                                         page.fill(email_sel, username)
                                         page.fill(pass_sel, password)
-                                        
+
                                         # Try to submit
                                         submit_selectors = [
                                             'button[data-testid="login-button"]',
                                             'button[type="submit"]',
                                             'input[type="submit"]',
                                             'button:has-text("Log in")',
-                                            'button:has-text("Sign in")'
+                                            'button:has-text("Sign in")',
                                         ]
-                                        
+
                                         for submit_sel in submit_selectors:
                                             if page.is_visible(submit_sel):
                                                 page.click(submit_sel)
                                                 break
-                                        
+
                                         # Wait and check if login worked
-                                        page.wait_for_load_state("networkidle", timeout=10000)
+                                        page.wait_for_load_state(
+                                            "networkidle", timeout=10000
+                                        )
                                         time.sleep(2)
-                                        
+
                                         # If we're logged in, break out of all loops
                                         current_url = page.url
-                                        if "myaccount" in current_url or "subscriber" in current_url:
-                                            log_info(log_path, "NYTimes login appears successful")
+                                        if (
+                                            "myaccount" in current_url
+                                            or "subscriber" in current_url
+                                        ):
+                                            log_info(
+                                                log_path,
+                                                "NYTimes login appears successful",
+                                            )
                                             break
-                                        
+
                                 except Exception as sel_error:
-                                    log_info(log_path, f"Selector {email_sel} failed: {sel_error}")
+                                    log_info(
+                                        log_path,
+                                        f"Selector {email_sel} failed: {sel_error}",
+                                    )
                                     continue
                             else:
                                 continue
                             break  # If we got here, login worked
                         except Exception as url_error:
-                            log_info(log_path, f"Login URL {login_url} failed: {url_error}")
+                            log_info(
+                                log_path, f"Login URL {login_url} failed: {url_error}"
+                            )
                             continue
-                    
+
                 elif site_type == "wsj":
                     log_info(log_path, "Trying WSJ login...")
-                    page.goto("https://accounts.wsj.com/login", wait_until="domcontentloaded", timeout=20000)
+                    page.goto(
+                        "https://accounts.wsj.com/login",
+                        wait_until="domcontentloaded",
+                        timeout=20000,
+                    )
                     time.sleep(3)
-                    
+
                     # Try various WSJ selectors
                     try:
                         # Look for username/email field
-                        username_selectors = ['input[name="username"]', 'input[type="email"]', '#username']
-                        password_selectors = ['input[name="password"]', 'input[type="password"]', '#password']
-                        
+                        username_selectors = [
+                            'input[name="username"]',
+                            'input[type="email"]',
+                            "#username",
+                        ]
+                        password_selectors = [
+                            'input[name="password"]',
+                            'input[type="password"]',
+                            "#password",
+                        ]
+
                         for user_sel in username_selectors:
                             if page.is_visible(user_sel):
                                 page.fill(user_sel, username)
                                 break
-                        
+
                         for pass_sel in password_selectors:
                             if page.is_visible(pass_sel):
                                 page.fill(pass_sel, password)
                                 break
-                        
+
                         # Submit
-                        submit_selectors = ['button[type="submit"]', 'input[type="submit"]', 'button:has-text("Sign In")']
+                        submit_selectors = [
+                            'button[type="submit"]',
+                            'input[type="submit"]',
+                            'button:has-text("Sign In")',
+                        ]
                         for submit_sel in submit_selectors:
                             if page.is_visible(submit_sel):
                                 page.click(submit_sel)
                                 break
-                        
+
                         page.wait_for_load_state("networkidle", timeout=10000)
                         time.sleep(2)
-                        
+
                     except Exception as wsj_error:
                         log_info(log_path, f"WSJ login form error: {wsj_error}")
-                
+
                 # Give login time to complete
                 time.sleep(random.uniform(3, 6))
-                
+
                 # Navigate to the article
                 log_info(log_path, f"Navigating to article: {url}")
                 page.goto(url, wait_until="domcontentloaded", timeout=30000)
                 time.sleep(random.uniform(2, 4))  # Let article load
-                
+
                 content = page.content()
                 browser.close()
-                
+
                 return FetchResult(
                     success=True,
                     content=content,
                     method=f"{site_type}_auth",
-                    metadata={"authenticated": True, "site": site_type, "login_used": True}
+                    metadata={
+                        "authenticated": True,
+                        "site": site_type,
+                        "login_used": True,
+                    },
                 )
-                
+
         except Exception as e:
-            log_error(log_path, f"{site_type.upper()} authenticated fetch failed for {url}: {e}")
+            log_error(
+                log_path,
+                f"{site_type.upper()} authenticated fetch failed for {url}: {e}",
+            )
             return FetchResult(success=False, error=str(e), method=f"{site_type}_auth")
-    
+
     def _get_site_type(self, url: str) -> str:
         url_lower = url.lower()
         if "nytimes.com" in url_lower:
@@ -613,16 +699,17 @@ class PaywallAuthenticatedStrategy(ArticleFetchStrategy):
         elif "wsj.com" in url_lower:
             return "wsj"
         return None
-    
+
     def _get_credentials(self, site_type: str):
         if site_type == "nytimes" and self.nyt_username and self.nyt_password:
             return (self.nyt_username, self.nyt_password)
         elif site_type == "wsj" and self.wsj_username and self.wsj_password:
             return (self.wsj_username, self.wsj_password)
         return None
-    
+
     def get_strategy_name(self) -> str:
         return "12ft"
+
 
 class TwelveFtStrategy(ArticleFetchStrategy):
     """12ft.io strategy for paywall bypass"""
@@ -638,14 +725,21 @@ class TwelveFtStrategy(ArticleFetchStrategy):
             headers = {"User-Agent": USER_AGENT}
             response = requests.get(twelve_ft_url, headers=headers, timeout=15)
             response.raise_for_status()
-            soup = BeautifulSoup(response.text, 'html.parser')
+            soup = BeautifulSoup(response.text, "html.parser")
             content = soup.get_text()
             if len(content.strip()) > 500:
                 log_info(log_path, f"12ft.io SUCCESS for: {url}")
-                return FetchResult(success=True, content=content.strip(), strategy=self.name)
+                return FetchResult(
+                    success=True, content=content.strip(), strategy=self.name
+                )
             else:
                 log_info(log_path, f"12ft.io content too short for: {url}")
-                return FetchResult(success=False, content="", error="Content too short", strategy=self.name)
+                return FetchResult(
+                    success=False,
+                    content="",
+                    error="Content too short",
+                    strategy=self.name,
+                )
         except Exception as e:
             log_error(log_path, f"12ft.io fetch failed for {url}: {e}")
             return FetchResult(success=False, error=str(e), strategy=self.name)
@@ -676,14 +770,14 @@ class EnhancedWaybackMachineStrategy(ArticleFetchStrategy):
             ]
 
             headers = {"User-Agent": USER_AGENT}
-            
+
             for timeframe in timeframes:
                 try:
                     if timeframe:
                         api_url = f"https://archive.org/wayback/available?url={url}&timestamp={timeframe}"
                     else:
                         api_url = f"https://archive.org/wayback/available?url={url}"
-                    
+
                     response = requests.get(api_url, headers=headers, timeout=15)
                     response.raise_for_status()
 
@@ -693,13 +787,16 @@ class EnhancedWaybackMachineStrategy(ArticleFetchStrategy):
 
                     snapshot_url = data["archived_snapshots"]["closest"]["url"]
                     timestamp = data["archived_snapshots"]["closest"]["timestamp"]
-                    
-                    log_info(log_path, f"Found Wayback snapshot from {timestamp}: {snapshot_url}")
+
+                    log_info(
+                        log_path,
+                        f"Found Wayback snapshot from {timestamp}: {snapshot_url}",
+                    )
 
                     # Fetch the archived content
                     response = requests.get(snapshot_url, headers=headers, timeout=25)
                     response.raise_for_status()
-                    
+
                     # Check if content looks good
                     if len(response.text) > 1000:  # Basic quality check
                         return FetchResult(
@@ -712,16 +809,20 @@ class EnhancedWaybackMachineStrategy(ArticleFetchStrategy):
                                 "timeframe_used": timeframe or "latest",
                             },
                         )
-                        
+
                 except Exception as timeframe_error:
-                    log_info(log_path, f"Timeframe {timeframe} failed: {timeframe_error}")
+                    log_info(
+                        log_path, f"Timeframe {timeframe} failed: {timeframe_error}"
+                    )
                     continue
 
             raise Exception("No archived snapshots found in any timeframe")
-            
+
         except Exception as e:
             log_error(log_path, f"Enhanced Wayback Machine failed for {url}: {e}")
-            return FetchResult(success=False, error=str(e), method="wayback_machine_enhanced")
+            return FetchResult(
+                success=False, error=str(e), method="wayback_machine_enhanced"
+            )
 
     def get_strategy_name(self) -> str:
         return "wayback_machine_enhanced"
@@ -767,29 +868,50 @@ class WaybackMachineStrategy(ArticleFetchStrategy):
     def get_strategy_name(self) -> str:
         return "12ft"
 
+
 class ArticleFetcher:
     """Main article fetcher that orchestrates different strategies."""
 
     def __init__(self, config=None):
         self.config = config or {}
+
+        # Import SimpleAuthStrategy (avoiding Playwright async conflicts)
+        try:
+            from helpers.simple_auth_strategy import SimpleAuthStrategy
+
+            auth_strategy = SimpleAuthStrategy(config)
+        except ImportError:
+            # Fallback to original if import fails
+            auth_strategy = PaywallAuthenticatedStrategy(config)
+
+        # Import Firecrawl as final fallback (with usage limits)
+        try:
+            from helpers.firecrawl_strategy import FirecrawlStrategy
+
+            firecrawl = FirecrawlStrategy(config)
+        except ImportError:
+            firecrawl = None
+
         self.strategies = [
             DirectFetchStrategy(),
-            PaywallAuthenticatedStrategy(config),  # Try authenticated fetch for paywall sites
+            auth_strategy,  # Simple authentication for paywall sites (no Playwright conflicts)
             PaywallBypassStrategy(),
             ArchiveTodayStrategy(),
             GooglebotStrategy(),
-            PlaywrightStrategy(),
+            # PlaywrightStrategy(),  # Disabled due to async conflicts
             EnhancedWaybackMachineStrategy(),  # Enhanced multi-date Wayback
-            WaybackMachineStrategy(),  # Original Wayback as final fallback
+            WaybackMachineStrategy(),  # Original Wayback fallback
         ]
+
+        # Add Firecrawl as final fallback if available and has usage remaining
+        if firecrawl and firecrawl._check_usage_limit():
+            self.strategies.append(firecrawl)  # Last resort - 500/month limit
 
     def fetch_with_fallbacks(self, url: str, log_path: str) -> FetchResult:
         """
         Attempt to fetch content using multiple strategies in order.
         Returns the first successful result with good content quality.
         """
-        last_result = None
-
         for strategy in self.strategies:
             result = strategy.fetch(url, log_path)
 
@@ -803,7 +925,6 @@ class ArticleFetcher:
                         f"{strategy.get_strategy_name()} succeeded but content appears truncated/low quality, trying next strategy...",
                     )
                     result.is_truncated = True
-                    last_result = result
                     continue
 
                 log_info(
@@ -812,86 +933,11 @@ class ArticleFetcher:
                 )
                 return result
 
-            last_result = result
-
         # All strategies failed or returned low-quality content
         log_error(
             log_path,
             f"All fetch strategies failed or returned low-quality content for {url}",
         )
-        return FetchResult(success=False, error="All strategies failed or returned low-quality content"
+        return FetchResult(
+            success=False, error="All strategies failed or returned low-quality content"
         )
-
-
-class TwelveFtStrategy(ArticleFetchStrategy):
-    """12ft.io strategy for paywall bypass"""
-
-    def __init__(self):
-        self.name = "12ft"
-        self.priority = 7
-
-    def fetch(self, url: str, log_path: str = "") -> FetchResult:
-        """
-        Fetch article using 12ft.io to bypass paywalls
-        """
-        try:
-            log_info(log_path, f"12ft.io strategy attempting: {url}")
-
-            twelve_ft_url = f"https://12ft.io/proxy?q={url}"
-            response = requests.get(twelve_ft_url, headers={"User-Agent": USER_AGENT}, timeout=15)
-            response.raise_for_status()
-
-            soup = BeautifulSoup(response.text, 'html.parser')
-            content = soup.get_text()
-
-            # Check if content is substantial
-            if len(content.strip()) > 500:
-                log_info(log_path, f"12ft.io SUCCESS for: {url}")
-                return FetchResult(success=True, content=content.strip(), strategy=self.name)
-            else:
-                log_info(log_path, f"12ft.io content too short for: {url}")
-                return FetchResult(success=False, content="", error="Content too short", strategy=self.name)
-
-        except Exception as e:
-            log_error(log_path, f"12ft.io fetch failed for {url}: {e}")
-            return FetchResult(success=False, content="", error=str(e), strategy=self.name)
-
-    def get_strategy_name(self) -> str:
-        return "12ft"
-
-
-class TwelveFtStrategy(ArticleFetchStrategy):
-    """12ft.io strategy for paywall bypass"""
-    
-    def __init__(self):
-        self.name = "12ft"
-        self.priority = 7
-    
-    def fetch(self, url: str, log_path: str = "") -> FetchResult:
-        """
-        Fetch article using 12ft.io to bypass paywalls
-        """
-        try:
-            log_info(log_path, f"12ft.io strategy attempting: {url}")
-            
-            twelve_ft_url = f"https://12ft.io/proxy?q={url}"
-            response = requests.get(twelve_ft_url, headers={"User-Agent": USER_AGENT}, timeout=15)
-            response.raise_for_status()
-            
-            soup = BeautifulSoup(response.text, 'html.parser')
-            content = soup.get_text()
-            
-            # Check if content is substantial
-            if len(content.strip()) > 500:
-                log_info(log_path, f"12ft.io SUCCESS for: {url}")
-                return FetchResult(success=True, content=content.strip(), method="12ft")
-            else:
-                log_info(log_path, f"12ft.io content too short for: {url}")
-                return FetchResult(success=False, error="Content too short", method="12ft")
-                
-        except Exception as e:
-            log_error(log_path, f"12ft.io fetch failed for {url}: {e}")
-            return FetchResult(success=False, error=str(e), method="12ft")
-    
-    def get_strategy_name(self) -> str:
-        return "12ft"

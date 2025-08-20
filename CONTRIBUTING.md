@@ -6,6 +6,17 @@ We follow a set of guidelines to ensure the `main` branch is always stable and t
 
 The `main` branch is protected by a GitHub Actions workflow that will automatically reject any direct push. This is intentional.
 
+## Configuration Management Rule
+
+**ALL user-configurable values MUST be in `.env`** - Never hardcode:
+- File paths, directories, URLs
+- API keys, credentials, tokens  
+- Timeouts, retry counts, limits
+- Feature flags, toggles
+- Any value that might need adjustment
+
+Always use `os.environ.get()` with sensible defaults and update `env.template` for new options.
+
 ## The Correct Workflow
 
 1.  **Create a New Branch:** Before you start any work, pull the latest changes from `main` and create a new, descriptively named branch.

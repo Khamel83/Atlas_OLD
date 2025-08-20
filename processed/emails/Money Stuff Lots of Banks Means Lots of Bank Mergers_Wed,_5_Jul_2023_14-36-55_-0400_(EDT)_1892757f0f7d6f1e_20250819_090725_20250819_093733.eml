@@ -1,0 +1,1979 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:284:b0:135:3cb0:b790 with SMTP id w4csp127783rwj;
+        Wed, 5 Jul 2023 11:37:02 -0700 (PDT)
+X-Received: by 2002:a5d:6e56:0:b0:313:f505:8211 with SMTP id j22-20020a5d6e56000000b00313f5058211mr13998664wrz.46.1688582221987;
+        Wed, 05 Jul 2023 11:37:01 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1688582221; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=q21J0l5rH8C6nCP2rUNCxyluAZYjRB8couOm0TK0ynNQjhnKdYShBkNg0kAkbAEUsq
+         R71URQodXHVJ9O/zVgjNbHNgE7yL7yJsXyhYs0E/gGBpyXwKoAM1CxiWYxuQHgma/FPB
+         Fw2/9myex4nWdAHhal6fewXxr7mIA31DS1Oo7rNY/eq9QC9mkZcNx7l9x5Z1y4xa1w/j
+         kUeTsDGd/u9NE3WHaIEPQ6saaujrLFXBnZDp1cAv6FkWD5ewAXTx9un2UfHAfF7AtG8y
+         +q5OkPz5djgWWMmlz18do9UKY7q4AdrC67SmKnvdfXmVBlTmxjflJ+pqtAbj7Gx1bmDI
+         skXw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=63FDtpny3Tn0RqkLBjh6O12Dj68wvsOF1wkf2Cs5EKk=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=i7yLrHxgMCaCIQm2JiEph/z2J8prQ06cNRh4wVTjVwfUfSzV9V1NyeQYxvB8nXkW9X
+         vc/MBGqDHWqYbT7iZRwlTrJI6+x5GxTWWGXyKtoJ32UUlJFAkcdTN65TILu2OyGsYV1r
+         Tb4MmgGoktj/973mYgFaQWru57bIshxjW+tfbF+EY21l/+C2xbyaiCR8QWJHToNrlZdj
+         +6N1D7xEidBf4VcuC/LyhaLRF0dBkYIVN4DYERA8JDZbudH0HkillTQHbVixtgu7cpTy
+         p/6jip9VvMLKDtYTzVGjmGG83lf0LaKoWHwowSJs3KFDIf/iO2mILl6E2cb6UcQ/AlRq
+         4RfA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LmeBnMNN;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l29-20020adfa39d000000b0031109d78240sor4696932wrb.4.2023.07.05.11.37.01
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 05 Jul 2023 11:37:01 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LmeBnMNN;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1688582221; x=1691174221;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=63FDtpny3Tn0RqkLBjh6O12Dj68wvsOF1wkf2Cs5EKk=;
+        b=GqF9wq6p33f8mr8yBCBzUdhdzyrIJS+WpRSIhbFlfS3vF2NU15jH/TWYEQ8pmWhUO1
+         rKjMEaV2lJk5zsZnr589dyX8mVHBMFfNm9XVswSf75SMN3gfTmdZLZTBlngXcfHE9L4g
+         xLhruZcsa3djyPaF2pArMIsXqWz+sCX5OHbTWMXMK9AWmGw7C5/Mz4sVUMpDp0KsJoYz
+         0D+tXFx+MnnwB2hHJEx5hkXYEAKZclvOYt7iIIcgLxVjLpwITcp839R2JiwAH59a6Ltw
+         HfMQsKA5az937gqumkVH16Ah8rIDcfXdZLTgoG11uKO2sWk3tzb1CIJwuph7Pw5AlnYo
+         PHbw==
+X-Gm-Message-State: ABy/qLZ2MLAttMm0Qrv++kOv4VxUoByqqICjAh4P3YXaUiUVIeHapIji
+	U8qpdPOxdhzAfAAS2+14hEW5woXeGgp9Ds6vIZYZC8FkITsGNz9N+Q==
+X-Received: by 2002:a5d:6743:0:b0:314:1d77:55a1 with SMTP id l3-20020a5d6743000000b003141d7755a1mr15076929wrw.4.1688582221130;
+        Wed, 05 Jul 2023 11:37:01 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:4ec4:0:0:0:0:0 with SMTP id s4csp1583442wrv;
+        Wed, 5 Jul 2023 11:36:57 -0700 (PDT)
+X-Received: by 2002:a5e:851a:0:b0:783:72d4:8c38 with SMTP id i26-20020a5e851a000000b0078372d48c38mr17872012ioj.13.1688582217272;
+        Wed, 05 Jul 2023 11:36:57 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1688582217; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=hOfb8D/3tcnFJXDnl8NdmMGOivjaCfaIYiJ37sExfcm+E6JI/lc4pHt/0cmrTksQOb
+         7DHvDXq0YB17d+XzcZ62+cIolntPEO5haSTyvftjf+oJnWXCsqtbqT//KJLBpl7g8GCJ
+         hxZomZ7ujKxZFquKPetAsZUM8hwJ/N2nJTza1EvH73BSjM0RgQBmOdvXek3VAlcWhZZM
+         eFxTN0BtdrF+J1mmpNIVdf0ALztaT4LoNA7mGS6dRlsh5MTQl8v8r9rNaDBKSIj4EYF7
+         eOGlTec3iHlCG1YHppRNfvd12kPBCrkkMopLD0usAKRO8+C+Exvpi7M2jIwDcjIMP+uY
+         3LcQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=63FDtpny3Tn0RqkLBjh6O12Dj68wvsOF1wkf2Cs5EKk=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=usEIjPwIhdIS8lxv1itvFg07VKOuZ5T2PprxD5AlUlA61ZhivrTGr3dcygQK08n5TY
+         oK2WVQ52N9IxcpS/AdrEQGpWFboI7ydjRsaqEAujUFTmvpJ0D9wjyIe68vyRiMTmjjzY
+         pBD94k7ICQsKtWSI13YFPXQCzPqRajio+qe57Zqa3klwlEx4YLkoJcCC+ctW9vNXhFRi
+         m96ntCRMcVVOROU+Mxfg9xrPCenBBotMme6M35kUCZJq1CQ85f9Q0OOT/9SOr0Md8MPM
+         hiWPGg2ulHe0R4Be11c914vfIknqOYTfF7B8xjXo1FUq/t9ThQiBNxKKVQjMbhx6jlFn
+         q51g==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LmeBnMNN;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230705143655.31994559.257406@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230705143655.31994559.257406@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230705143655.31994559.257406@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j15-20020a02a68f000000b0042b5cfbc2aesor415447jam.2.2023.07.05.11.36.57
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 05 Jul 2023 11:36:57 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230705143655.31994559.257406@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: APBJJlEOaAdTIwDTqsYIR7II+J7wnqz4kJZIpHfxwqRbyQv1G2WMB/MDwC0HQXHZLZt9Tu8DnW42rB9MvzoRcGmwulPhZkzkZ2w=
+X-Received: by 2002:a92:d7cc:0:b0:345:c1cb:864d with SMTP id g12-20020a92d7cc000000b00345c1cb864dmr16663594ilq.23.1688582216908;
+        Wed, 05 Jul 2023 11:36:56 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1688582216; cv=none;
+        d=google.com; s=arc-20160816;
+        b=M/F8GRIhqs441X1j5Z4XyhaM4Hx9Gq+iyHYmjjx1dPuh1qqHgbZJaaxcxx5NnM22gd
+         0EDlW5g3fGBgYuyR+8w+k6rtXDCHZVvQdJJnTweJys1WMrqNRxXGnNZzw4JiMcPbzrWG
+         cXYM7NVA8DHL/yT0pjckzmxj1+7/Q8E7KbAhjNNeosxic3uMB0HcKkNcoFbZBQGwcAXR
+         Jn2UvR1XuinFErG9pc34Fey6Com9VngAeR7bHmVf0y4S/HPiHciSbW4gEBBd7ZQQX77A
+         rKuvxXJYoFu6vuvtVRefqUhBfz/2Hvy27fzMKwqO6/+djPHdR8Ao2Ii8cC+mgQWTL/LZ
+         otKA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=63FDtpny3Tn0RqkLBjh6O12Dj68wvsOF1wkf2Cs5EKk=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=tMX7cl1aIl3X1hJPKwh3Hp0s9zQVfPvpdBUvLsbNU3IWmWL86dVQ1Ty9bLV4z5FsTb
+         2mvDztPkzdq++OqXNLFO6gFQnArKQBPq/AdNWb0hzehXPtuPu7Fy/oPHM9Br2WXobYBo
+         zQSKeDawVD985BX/wxuz6nB9BOpvlbIIQe2AuqfvLWF8eYTXI7HchIxVzqIauFwqQPDJ
+         DW/F2PsgP25Jy/yB8M9ymLbXFrMl6X/+b9XnsXeJUdktVbnUyXVJww4qkJjEBlrblnDe
+         RtHwZYbMVyZk/bxkRjLD9B0YagwxaJhA/u4ucj/+Y84PbI6kbheEMJaspM/FSPBVg5uF
+         05+Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=LmeBnMNN;
+       spf=pass (google.com: domain of delivery_20230705143655.31994559.257406@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230705143655.31994559.257406@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230705143655.31994559.257406@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id h3-20020a056e020d4300b0034201149242si1980664ilj.4.2023.07.05.11.36.56
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 05 Jul 2023 11:36:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230705143655.31994559.257406@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=uxyY+L11NP6PnDNKpn+okrWlU++9oIA+SNbbT087b3I=;
+ b=LmeBnMNNITc67lssznL0hrKimwWuz5sj0xI2PvCa+04LbIHgbVsviAa986O7RMM56QubXX+fhen3
+   TH+lFFnxzGAas+RQsCPsOrdypBCu+3gEvliXDLotTMaT58KsM+MecZTWRhUCRMihnpE3Icn23Mnm
+   h9NFpwg20cSN8UN5PP4=
+Received: from nj2mta-17.sailthru.com (204.153.121.17) by pmta29.sailthru.com id hkms4g2sd4sg for <bloomberg@khamel.com>; Wed, 5 Jul 2023 13:36:56 -0500 (envelope-from <delivery_20230705143655.31994559.257406@mx.sailthru.com>)
+Date: Wed, 5 Jul 2023 14:36:55 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230705143655.31994559.257406@sailthru.com>
+Subject: Money Stuff: Lots of Banks Means Lots of Bank Mergers
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3280545_1823098562.1688582215557"
+Precedence: bulk
+x-job: 6358-31994559-20230705
+X-Feedback-ID: 6358:31994559:campaign:sailthru
+X-TM-ID: 20230705143655.31994559.257406
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wryforest.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj1r5r.5im6/14a65c25
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj1r5r.5im6/14a65c25>, <mailto:unsubscribe_20230705143655.31994559.257406@mx.sailthru.com>
+X-rpcampaign: stjko31994559
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_3280545_1823098562.1688582215557
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        One conclusion that a lot of people have drawn from the 2023 crisis=
+ of US regional banks is that the US has way too many regional banks. The
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Bank M&A
+   =20
+ =20
+One conclusion that a lot of people have drawn from the 2023 crisis of US r=
+egional banks is that the US has way too many regional banks. There are mor=
+e than 4,000 banks, which creates a lot of work for bank supervisors, and w=
+hich means that it=E2=80=99s hard for depositors to be sure that their bank=
+ is safe. When depositors get nervous, they run to household-name too-big-t=
+o-fail banks, leaving the other, you know, 3,990 banks vulnerable.One obvio=
+us solution to this problem is to turn those 4,000 banks into, say, 2,000 b=
+anks, or maybe 20 banks. That would make life easier for regulators and sup=
+ervisors =E2=80=94=C2=A0fewer banks to keep track of =E2=80=94=C2=A0and als=
+o make each individual bank a bit bigger and more diversified and hopefully=
+ more robust.One thing that means is that it=E2=80=99s a great time to be a=
+ financial-institutions mergers-and-acquisitions banker? The Wall Street Jo=
+urnal reports:The industry is poised to consolidate at a pace unseen in yea=
+rs. If July=E2=80=99s earning announcements revive fears of fleeing deposit=
+ors, the push to merge may turn urgent. Treasury Secretary Janet Yellen pre=
+dicted that higher rates may lead to more deals; and bank regulators are si=
+gnaling they are open to them.=E2=80=9CWe certainly don=E2=80=99t want over=
+concentration and we=E2=80=99re pro-competition, but that doesn=E2=80=99t m=
+ean no,=E2=80=9D Yellen said about mergers.=C2=A0Peter Orszag, the former O=
+bama administration official and incoming CEO of Lazard has privately urged=
+ Yellen and her staff to pave the way for more bank deals, people familiar =
+with the matter said.There are more than 4,000 U.S. banks, and many are sta=
+ring at eye-watering technology and regulatory costs. Those expenses, along=
+ with today=E2=80=99s headaches such as fickle depositors and shaky real-es=
+tate loans, threaten to squeeze the industry=E2=80=99s profits.=C2=A0=E2=80=
+=A6Regulators have privately expressed a general willingness to include mer=
+gers as part of the solution to instability in the banking system, people f=
+amiliar with the matter said.=C2=A0If the 4,000 banks should be 2,000 banks=
+, that means there need to be about 2,000 bank mergers? I suspect that if J=
+anet Yellen could snap her fingers and reduce the 4,000 US banks to 2,000, =
+she=E2=80=99d do it. And if Peter Orszag could get mandated on a small frac=
+tion of those 2,000 bank deals that=E2=80=99s a nice year for his financial=
+ institutions group.I suppose a lot of those deals will be pretty small and=
+ not that lucrative for their advisers, but on the other hand my impression=
+ is that bank M&A is =E2=80=A6=C2=A0I don=E2=80=99t want to say that it=E2=
+=80=99s easy, exactly, but bank mergers have a tendency to happen over the =
+course of a weekend, so you can do a lot of them pretty efficiently. It=E2=
+=80=99s not so much a long courtship and a quest for cultural fit, it=E2=80=
+=99s more like opening a data room on Friday and saying =E2=80=9Chey we got=
+ta announce a deal before the open Monday.=E2=80=9D You invite in 20 bidder=
+s, you pick the top bid, you tell the other 19 =E2=80=9Csorry it didn=E2=80=
+=99t work out but we=E2=80=99ll have three more of these next Friday.=E2=80=
+=9D If there are 2,000 bank deals coming, you can kind of set up an assembl=
+y line.=C2=A0The other nice thing about this business, for an investment ba=
+nk, is that it is sort of countercyclical. Higher interest rates are bad fo=
+r, say, private-equity leveraged buyouts, but they are good for making regi=
+onal banks nervous. As rates go up, M&A will be quiet in a lot of sectors, =
+but it might get busier in banking.By the way, one way to tell this story g=
+oes something like this:=09Traditionally, when the Fed raised interest rate=
+s, banks did not really raise the rates they paid on deposits all that much=
+. The =E2=80=9Cdeposit beta=E2=80=9D was low, because for various reasons (=
+relationship strength, local monopolies, regulation) banks did not really n=
+eed to compete with each other on rates to attract depositors.=09In the cur=
+rent hiking cycle, however, regional banks=C2=A0do=C2=A0need to pay competi=
+tive interest rates to keep deposits, and as rates go up they have to pay u=
+p a lot and don=E2=80=99t make any money.=09The solution is to merge banks =
+to reduce competition so they don=E2=80=99t have to pay competitive interes=
+t rates so they can keep making money.I don=E2=80=99t think anyone would pu=
+t the story quite that way, and you can understand why. (=E2=80=9CWe=E2=80=
+=99re pro-competition,=E2=80=9D says Yellen, and no banking or antitrust re=
+gulator is going to go around saying =E2=80=9Cthere needs to be less bankin=
+g competition so depositors don=E2=80=99t get paid market interest rates so=
+ banks can keep making money.=E2=80=9D) But I think it=E2=80=99s true? The =
+basic problem in banking is that competition is good but financial stabilit=
+y is also good, and they are kind of at odds with each other.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Weird CEO pay
+   =20
+ =20
+=E2=80=9CMeet the CEOs Who Pull In More Than $100 Million a Year,=E2=80=9D =
+says  this Wall Street Journal headline, but that=E2=80=99s not quite right=
+:The chief executives of Hertz, Peloton and Pinterest all earned more than =
+$100 million in 2022, topping almost every CEO in the S&P 500 including App=
+le=E2=80=99s Tim Cook, who made $99 million. Also on that list: The man who=
+ runs CS Disco, a cloud-services provider that caters to attorneys and has =
+a market capitalization of about $500 million.=C2=A0Sure okay the CS Disco =
+guy =E2=80=9Creceived $500,000 in salary plus stock options valued at $109 =
+million=E2=80=9D in 2022, but he =E2=80=9Cearned just under $1 million tota=
+l in 2021, the year the company went public in late July.=E2=80=9D So he pu=
+lls in $55 million a year, on average, over the last two years, not =E2=80=
+=9Cmore than $100 million a year.=E2=80=9D But that $109 million 2022 optio=
+ns grant is not an annual occurrence; that=E2=80=99s meant to tide him over=
+ for a while. =E2=80=9CWe believe that an up-front, long-term option grant =
+with performance-based vesting would be most motivating to Mr. Camara and w=
+ould have a greater impact than an annual long-term incentive award,=E2=80=
+=9D  said the company in 2022, when it asked shareholders to approve the gr=
+ant. Getting a $109 million one-time equity award is not the same as earnin=
+g $100 million a year.Also it=E2=80=99s not real money: The $109 million is=
+ the calculated fair value of the options grant at the time it was awarded,=
+ but it consists of a bunch of options to buy stock at a strike price of $3=
+2 per share, and they only vest in tranches if the stock reaches a series o=
+f milestone prices starting at $150 per share and going up to $900. The sto=
+ck closed Monday at $8.40 per share. If he gets the stock to $900 per share=
+, then the package will be worth something like $3.8 billion to him, but on=
+ the other hand at $900 per share this will be a $50 billion company and he=
+=E2=80=99ll be worth it. But the most likely value of this $109 million pay=
+ package is zero dollars.=C2=A0Not all of the examples are like this, but a=
+ lot are:At Hertz, Stephen Scherr=E2=80=99s total pay of $182 million inclu=
+ded $3.4 million in salary and bonus. A further $178 million in restricted =
+stock is structured to vest through 2026, much of it only if the company=E2=
+=80=99s shares reach 90-day average price targets ranging up to nearly doub=
+le its current share price.In its annual proxy statement, Hertz said two pr=
+ice targets had already been met, meaning about $50 million in shares at re=
+cent prices stand to vest if Scherr stays employed through 2026, in additio=
+n to roughly $20 million that vested on Dec. 31. =E2=80=A6Peloton=E2=80=99s=
+ Barry McCarthy started as CEO in February 2022, after stints as chief fina=
+ncial officer at Spotify and Netflix. His $168 million pay package at Pelot=
+on was almost entirely in stock options, which vest monthly over four years=
+.=C2=A0If you=E2=80=99re the new CEO of a smallish company, your board migh=
+t want to give you a pay package like this: At the beginning of your tenure=
+, they give you a huge upfront package of options that only vest if you mak=
+e the company a big company. These options have a high theoretical value no=
+w, but you can=E2=80=99t cash them in: They only turn into real value if yo=
+u succeed over the next few years. The board gives you a big long-term ince=
+ntive up front, and then lets you get to work to achieve it. If it works yo=
+u get rich; if it doesn=E2=80=99t work then you don=E2=80=99t. But the conv=
+entions of accounting and reporting transform this into =E2=80=9C$100 milli=
+on annual pay,=E2=80=9D and so you make the list of best-paid CEOs.And so e=
+very year there are stories like =E2=80=9Chere are some surprising CEOs who=
+ make the most money,=E2=80=9D but those surprising CEOs are rarely on the =
+list=C2=A0twice. One big exception though:Stephen Schwarzman of private-equ=
+ity giant Blackstone earned the biggest pay package overall, at $253 millio=
+n. Blackstone, larger than many S&P 500 companies at a market capitalizatio=
+n of more than $100 billion, has a corporate structure similar to dual shar=
+e-class setups that until recently have kept other companies out of the ind=
+ex.=C2=A0Yeah I mean he gets paid a lot.
+ =20
+   =20
+      APEs
+   =20
+ =20
+We have talked a lot=C2=A0about AMC Entertainment Holdings Inc.=E2=80=99s A=
+PEs. Briefly, AMC was a meme stock, and it took advantage of this status by=
+ selling as much stock as it could to retail investors. Eventually it ran o=
+ut of stock: It only had about 524 million authorized shares, and it sold a=
+lmost all of them. So it asked shareholders to authorize more shares, but i=
+t ran into a problem: To authorize more shares, it would need a majority of=
+ all its outstanding shares to vote yes, and most of its (largely retail) s=
+hareholders didn=E2=80=99t vote at all. So it couldn=E2=80=99t get more sha=
+res, so it couldn=E2=80=99t sell more shares at irrational meme-stock price=
+s.So it created   a new class of preferred stock, AMC Preferred Equity Unit=
+s, or APEs. It did a quasi-stock-split, giving out one APE for each common =
+share, and then sold a bunch of new APE units for cash, both in market offe=
+rings and directly to a friendly hedge fund called Antara Capital. The APEs=
+ had a   clever voting mechanism: They voted alongside the common stock on =
+all corporate matters, and (unlike the common stock) they couldn=E2=80=99t =
+just=C2=A0not vote. (APEs whose holders didn=E2=80=99t vote their shares we=
+re treated as voting proportionally to how the APEs who did vote voted.) So=
+, after issuing a bunch of APEs, AMC went to its shareholders again, asking=
+ them to (1) authorize new shares and (2) convert the APEs into common stoc=
+k. And because of the APEs=E2=80=99 voting mechanics, this time it worked.C=
+ommon shareholders   sued,   though, arguing that this was too tricky, that=
+ it was a way for the board to get around shareholder voting rights. After =
+AMC, I should say, there was a brief vogue for these sorts of tricky prefer=
+red-stock voting schemes, and they seem to have been   shut down pretty qui=
+ckly, so I suppose the shareholders might have won. On the other hand, it s=
+eemed to me that AMC was using the APEs to solve a genuine corporate proble=
+m (it needed money, had a good opportunity to sell stock, and had retail sh=
+areholders who didn=E2=80=99t vote), and it was hard to imagine a court kee=
+ping the APEs in limbo forever. I kind of figured AMC would win in court. B=
+ut it   cut a settlement with the shareholders, in which essentially the AP=
+Es would convert into common stock at a bit less than a 1-for-1 ratio: Each=
+ APE would become one share of new common stock, while each share of old co=
+mmon stock will become about 1.13 shares. This seemed like rough justice to=
+ me: AMC got most of what it wanted, but the common shareholders got a bit =
+more of the company than the APEs did.But a few shareholders objected to th=
+e settlement, and the Delaware judge in the case took them seriously. She c=
+ommissioned a special master to look into the settlement; the special maste=
+r  filed her report last month. And there was a hearing last week. It was i=
+ntense. Basically AMC and the lawyers who sued it came in to defend the set=
+tlement, and meme-stock investors came to object.   Bloomberg News reports:=
+The proposed settlement would force investors to give up too much in exchan=
+ge for too little, Ted Kittila of Halloran Farkas & Kittila LLP, an attorne=
+y representing settlement objector Rose Izzo, told Delaware=E2=80=99s Chanc=
+ery Court.The =E2=80=9Cgrossly unfair=E2=80=9D agreement gives AMC=E2=80=99=
+s board a free pass for its bad behavior and sends the message that compani=
+es can engage in illegal corporate engineering, then =E2=80=9Cjust kick out=
+ additional shares to people and pay them off,=E2=80=9D according to Kittil=
+a.=E2=80=9CWhy are people loud? Why are people upset? Why are people angry =
+right now? Because they=E2=80=99re feeling like they=E2=80=99re not being h=
+eard,=E2=80=9D he told Vice Chancellor Morgan T. Zurn. =E2=80=9CA group of =
+stockholders saved a company that they believed was being destroyed by Wall=
+ Street insiders. They were ultimately stabbed in the back by the very peop=
+le they saved.=E2=80=9D =E2=80=A6Zurn acknowledged the =E2=80=9Cfervent and=
+ inspired AMC stockholders=E2=80=9D as she opened the hearing. =E2=80=9CI h=
+ave heard what you have to say,=E2=80=9D she told the two who came to court=
+ Thursday.And the  Wall Street Journal reports:John Barton, an Air Force ve=
+teran who owns AMC shares, said during the first day of the hearing on Thur=
+sday, =E2=80=9CI speak to you today hoping to represent the 3.8 million ind=
+ividual investors that are about to find themselves at a loss, saving AMC a=
+nd its theaters.=E2=80=9D=E2=80=9CMy fear is that the individual investors =
+are going to be caught holding the bag, not making the money that the short=
+s and AMC will during this conversion event,=E2=80=9D Barton said.=C2=A0Mea=
+nwhile, part of the special master=E2=80=99s report is a legal analysis of =
+the strength of the case against AMC. She is skeptical of the APEs, writing=
+ that there is =E2=80=9Cevidence that Defendants [i.e., AMC] forced the Cer=
+tificate Amendments through, with the APEs=E2=80=99 voting power and the An=
+tara Transaction, to subvert the will of the common stockholders,=E2=80=9D =
+and that =E2=80=9Cit appears possible, although far from certain, that Plai=
+ntiffs could have prevailed because Defendants failed to prove a compelling=
+ justification.=E2=80=9D But the lawsuit was risky and the settlement is re=
+asonable.=C2=A0But another part of the report is just an account of the sha=
+reholder objections:Most stockholders who objected to the Settlement, and w=
+ho are listed on Appendix A, did so without substantive legal argument. =E2=
+=80=A6=C2=A0Many stockholders voiced concerns about the supposed existence =
+of synthetic AMC shares, Wall Street corruption, or dark pool trading.I don=
+=E2=80=99t know! This seems like sort of the sad endgame of the meme-stock =
+craze: Some people thought that by buying meme stocks they were fighting ba=
+ck against Wall Street corruption and dealing a blow to naked short sellers=
+. Meanwhile though AMC was looking at the people buying its meme stock and =
+saying =E2=80=9Cwell okay if they want to buy this stock we=E2=80=99re gonn=
+a do everything we can to sell as much of it as we can.=E2=80=9D If you thi=
+nk that a shadowy cabal of Wall Street insiders are   naked short selling  =
+ phantom shares in dark pools in order to destroy companies, you can persua=
+de yourself that buying shares of those companies at irrational prices will=
+ both strike a blow for justice and make you rich when the short sellers ar=
+e exposed. But mostly what happens when you buy shares at irrational prices=
+ is that then they go down.In  related news:Investors have spent almost $20=
+0mn trading theoretically worthless shares in Bed Bath & Beyond since the h=
+omewares retailer went bankrupt at the start of May, in the latest manifest=
+ation of the meme stock craze. =E2=80=A6An average of 18mn of the company=
+=E2=80=99s shares have changed hands each day on over-the-counter markets s=
+ince then, according to Bloomberg data. Users of the Reddit website have be=
+en sharing highly speculative theories about possible turnround plans for t=
+he retailer. =E2=80=A6The original meme stock surge in January 2021 was roo=
+ted in anti-establishment angst, with retail traders looking to destabilise=
+ hedge funds betting against fan-favourite stocks. Sudden increases in dema=
+nd caused =E2=80=9Cshort squeezes=E2=80=9D that turbocharged the share pric=
+e rally as hedge funds scrambled to cover their positions, with Melvin Capi=
+tal becoming the highest-profile casualty.Now, however, retail punters are =
+betting against each other. =E2=80=9CThere are no institutions shorting Bed=
+ Bath at 25 cents,=E2=80=9D Chukumba, at Loop Capital, said. =E2=80=9CThere=
+=E2=80=99s no =E2=80=98man=E2=80=99 to stick it to any more.=E2=80=9D
+ =20
+   =20
+      Elsewhere in authorized shares
+   =20
+ =20
+WANdisco Plc is a UK software company that traded on the London Stock Excha=
+nge until its shares were suspended in March for =E2=80=9Cpotentially fraud=
+ulent irregularities,=E2=80=9D oops. It sought to raise=C2=A0 $30 million i=
+n new equity in the hopes of fixing the irregularities and returning to tra=
+ding, and  yesterday it announced that the fundraising was a success. Today=
+ it announced a small hiccup, or rather an =E2=80=9CUpdate to Fundraise Tim=
+etable=E2=80=9D:In working to complete the fundraise process, the Company h=
+as encountered the requirement under Jersey law to seek further shareholder=
+ approval to increase its authorised share capital in order to issue the Of=
+fer Shares pursuant to the Fundraise. =C2=A0Completion of this step, as exp=
+lained below, means settlement of the Fundraise and Admission are now expec=
+ted to take place on 25 July 2023, subject to the passing of the necessary =
+resolution by shareholders.Under the Company's Memorandum and pursuant to t=
+he Companies (Jersey) Law 1991 as amended, the authorised share capital of =
+the company is =C2=A310,000,000 divided into 100,000,000 Ordinary Shares of=
+ =C2=A30.10 each. Following the Fundraise the Company's enlarged issued ord=
+inary share capital would amount to 114,725,069 Ordinary Shares. If all Off=
+er Shares were issued, this would exceed the Company's authorised share cap=
+ital by 14,725,069 Ordinary Shares, rendering those excess Ordinary Shares =
+invalid.Consequently, the Company proposes to increase its authorised share=
+ capital limit set out in its Memorandum from =C2=A310,000,000 divided into=
+ 100,000,000 Ordinary Shares of =C2=A30.10 each to =C2=A330,000,000 divided=
+ into 300,000,000 Ordinary Shares of =C2=A30.10 each. =C2=A0The Company wil=
+l convene a general meeting for 10.00 a.m. on 24 July 2023 ("General Meetin=
+g") at which a special resolution to effect the required increase to the Co=
+mpany's authorised share capital and amend its Memorandum will be proposed =
+(the "Resolution"). =C2=A0The Company's existing shareholder authorities do=
+ not provide the directors of the Company with sufficient power to allot an=
+d issue all the newly authorised Ordinary Shares. A Notice of General Meeti=
+ng will be posted to shareholders later today.Oops! We talked above about t=
+he complex machinations that AMC used to try to raise money by selling more=
+ shares than it had authorized. But AMC only did all that because it=C2=A0n=
+oticed=C2=A0that it had run out of authorized shares. WANdisco apparently f=
+orgot.
+ =20
+   =20
+      Robot analysts
+   =20
+ =20
+Here is Greg Jensen, the co-chief investment officer of Bridgewater Associa=
+tes, on   large-language-model artificial intelligence:He sees Bridgewater =
+building an ecosystem where the firm has a de facto army of high-quality AI=
+ =E2=80=9Canalysts,=E2=80=9D all thinking about the economy and markets and=
+ then testing these ideas. At the current cutting-edge of LLM tech, he says=
+, the bots can ace certain internal Bridgewater tests better than most firs=
+t-year investment analysts.And so, =E2=80=9Call of a sudden if you have an =
+80th percentile investment associate, technologically, you have millions of=
+ them at once,=E2=80=9D he said.I am dying to know which=C2=A0internal Brid=
+gewater tests they were. I have mentioned   my model of Bridgewater before:=
+=C2=A0One stylized model for thinking about Bridgewater is that it is run b=
+y the computer with absolute logic and=C2=A0efficiency; in this model, the =
+computer's main problem is keeping the 1,500 human employees busy so that t=
+hey don't interfere with its perfect rationality.=C2=A0This model might pre=
+dict that the computer would create=C2=A0a series of distractions for the h=
+umans; the=C2=A0distractions would keep the humans busy,=C2=A0but if you ex=
+amined them closely, there would be=C2=A0telltale signs that the intelligen=
+ce that designed them was not completely human. "In an iPad app called 'Dot=
+ Collector,' employees weigh in on the direction of conversations while the=
+y are happening." "Any meeting of at least three people is expected to hold=
+ at least one poll." "One former Bridgewater employee recalls debating with=
+ other employees for as long as an hour whether a misused apostrophe in one=
+ of Mr. Dalio=E2=80=99s research reports was intentional or not."=C2=A0Good=
+ ones, computer!If you were a Bridgewater employee, which parts of your job=
+ would you want to hand off to a large language model? The =E2=80=9Cthinkin=
+g about the economy and markets=E2=80=9D parts, or the holding-a-poll-after=
+-each-meeting and reading-Ray-Dalio-memos-as-holy-scripture parts? Possibly=
+ in the future Bridgewater=E2=80=99s AI models will  ruthlessly critique ea=
+ch others=E2=80=99 performance in meetings, freeing up the human investment=
+ analysts to=C2=A0not=C2=A0do that.
+ =20
+   =20
+      Robot lawyers
+   =20
+ =20
+What percentile junior lawyer is   a large language model?Law firms are adv=
+ertising for experts in artificial intelligence =E2=80=9Cmore than ever bef=
+ore,=E2=80=9D says Chris Tart-Roberts, head of the legal technology practic=
+e at Macfarlanes, describing a trend he says began about six months ago. =
+=E2=80=A6The revolution in generative AI, machine learning that can make pr=
+edictions, has accelerated the legal industry=E2=80=99s search for more eff=
+ective technology. Many firms are now putting together teams to figure out =
+how to use generative AI across all their practice areas even as ChatGPT, t=
+he chatbot owned by OpenAI, becomes something to be feared as well as embra=
+ced.=C2=A0Legal services are the most vulnerable to ChatGPT-style software,=
+ according to a recent University of Pennsylvania study. That=E2=80=99s fue=
+ling concerns AI could replace a significant chunk of junior lawyer drudger=
+y. The widely-accessible technology is particularly suited to time-consumin=
+g legal work, because of its ability to instantly analyze large documents, =
+predict successful arguments based on past cases or create questions based =
+on pre-defined criteria for a deposition.=C2=A0Really much of the work of a=
+ lawyer is =E2=80=9Cpredict how a judge will rule in a future case by patte=
+rn-matching how judges ruled in a bunch of previous cases=E2=80=9D; it does=
+ seem very LLM-y.=C2=A0
+ =20
+   =20
+      Insider trading opportunities
+   =20
+ =20
+We   talked on Monday about insider trading and working from home, and I wr=
+ote:That said, there is one classic form of financial crime that I=C2=A0thi=
+nk=C2=A0would have to be increased by work-from-home? That form of financia=
+l crime is =E2=80=9Clooking at your girlfriend=E2=80=99s computer to see wh=
+at high-stakes deals she is working on,=C2=A0and then insider trading on th=
+em.=E2=80=9D=C2=A0The counterpoint=C2=A0is that if you work from home you c=
+an really only overhear inside information from the people who live with yo=
+u: your spouse, your live-in partner, your=C2=A0roommates, your adult child=
+ren who moved back in to save money while working in their first investment=
+ banking job, etc. Whereas if you work from the office you have many more o=
+pportunities. Aaron Brown emailed me:The biggest difference for me personal=
+ly is not riding the express Metro North to Greenwich and back has cut me o=
+ff from the constant opportunity to overhear actionable non-public informat=
+ion. There are similar opportunities in elevators in investment banks and l=
+aw firms.He clarified that he never actually traded on this information, th=
+ough   my view is that trading on inside information that you overhear on a=
+ train is probably=C2=A0legal, in the US. (Not in Europe.) Now that a lot o=
+f people are back in the office in New York and Greenwich, this suggests a =
+money-making idea, which I will not spell out further. Hoo boy is this not =
+legal advice.
+ =20
+   =20
+      NFT Stuff
+   =20
+ =20
+Apparently Justin Bieber was  not the world=E2=80=99s most discerning colle=
+ctor of nonfungible tokens:As of this writing, the floor price for the Bore=
+d Ape Yacht Club=E2=80=94that is, the price of the cheapest-available NFT l=
+isted on a marketplace=E2=80=94is about 58.2 ETH, per data from NFT Price F=
+loor, or about $69,800. On Monday, the floor price dipped below $60,000 for=
+ the second time this month, but it ticked back upwards throughout the day =
+on Tuesday. =E2=80=A6The price drop has also made some of the seven-figure =
+Bored Ape purchases stand out even more in hindsight. One notable example i=
+s musician Justin Bieber=E2=80=99s January purchase of an Ape for $1.3 mill=
+ion (500 ETH)=E2=80=94a pickup that was deemed questionable at the time by =
+crypto influencers who said that he overpaid for an Ape with very common tr=
+aits.Honestly this is good, if you have to have collected Bored Apes this i=
+s the way to have done it:=09Bieber has tons of money, from doing stuff tha=
+t people find valuable in the real world, and he could blow $1.3 million of=
+ it on an impulse purchase without feeling bad about it.=09He did=C2=A0not=
+=C2=A0put a ton of research into which Bored Apes are =E2=80=9Cgood,=E2=80=
+=9D to Bored Ape collectors; he just bought one. Imagine if he had, like, t=
+aken a two-hour meeting with an NFT adviser who schooled him on the fine po=
+ints of Bored Ape trait rarity! Surely avoiding that meeting was worth $1.3=
+ million to Justin Bieber.=09Nobody stole his ape, suggesting that Bieber i=
+s more careful and less gullible than   all other NFT-collecting celebritie=
+s.=09Now it is down 95% and he, I am pretty sure, does not care.Every other=
+ possible story of collecting Bored Apes is more embarrassing!
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Exxon=E2=80=99s Meager Bonuses Make   Attracting More Traders Difficult. Od=
+ey=E2=80=99s Hedge Fund Empire Is Disintegrating Bit by Bit. Hedge Fund   K=
+ing Street Raising Funds for =E2=80=98Slow-Motion Car Crash=E2=80=99 in Cre=
+dit. Utility Companies  Sell Wind, Solar Farms to Shore Up U.S. Power Grid.=
+  Binance.US Crypto Market Share Dives.=C2=A0Crypto Giant  Binance Struggle=
+s in Europe.=C2=A0Crypto Trading by Saxo Bank Gets Quashed by Danish Regula=
+tor. Instagram Launch of   Twitter Rival =E2=80=98Threads=E2=80=99 Expected=
+ on Thursday. Twitter to Make   TweetDeck Available Only to Paid, Verified =
+Users.=C2=A0U.S. Looks to Restrict China=E2=80=99s Access to Cloud Computin=
+g to Protect Advanced Technology.=C2=A0Saudi Arabia set to launch multibill=
+ion-dollar  sports investment group. Diamond Giant  De Beers to Let Botswan=
+a Keep Half of Production. US  audit fees that lag inflation squeeze accoun=
+tants. Lazard Fires Senior Banker for   Inappropriate Behavior at Party.=C2=
+=A0Secret Service Examining How Suspected  Cocaine Ended Up at the White Ho=
+use.=C2=A0This Airline Will   Rent Out Clothes So You Can Travel Baggage-Fr=
+ee.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, rig=
+ht in your inbox, please=C2=A0subscribe at this link. Or you can subscribe =
+to Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj1r5r.5im6/8c474dbd.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_3280545_1823098562.1688582215557
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+One conclusion that a lot of people have drawn from the 2023 crisis of US r=
+egional banks is that the US has way too many regional banks. The
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNzA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MDUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB5b77a7fe"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTk5NDU1OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIyNTE5NjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBcb496610" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31994559&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32251965&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bank M&amp;A</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One conclusion that a lot of people ha=
+ve drawn from the 2023 crisis of US regional banks is that the US has <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMTQvcmVnaW9uYW=
+wtYmFua3MtZG9uLXQtZmVlbC1sb3ZlZD9jbXBpZD1CQkQwNzA1MjNfTU9ORVlTVFVGRiZ1dG1fb=
+WVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MDUmdXRtX2Nh=
+bXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB18b5ac1f" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">way too =
+many</a> regional banks. There are more than 4,000 banks, which creates a l=
+ot of work for bank supervisors, and which means that it=E2=80=99s hard for=
+ depositors to be sure that their bank is safe. When depositors get nervous=
+, they run to household-name too-big-to-fail banks, leaving the other, you =
+know, 3,990 banks vulnerable.</p><p style=3D"margin: 16px 0;">One obvious s=
+olution to this problem is to turn those 4,000 banks into, say, 2,000 banks=
+, or maybe 20 banks. That would make life easier for regulators and supervi=
+sors =E2=80=94=C2=A0fewer banks to keep track of =E2=80=94=C2=A0and also ma=
+ke each individual bank a bit bigger and more diversified and hopefully mor=
+e robust.</p><p style=3D"margin: 16px 0;">One thing that means is that it=
+=E2=80=99s a great time to be a financial-institutions mergers-and-acquisit=
+ions banker? The <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+1994559.257406/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9iYW5rLWRlYWxzLWFyZS1i=
+YWNrLW9uLXRoZS10YWJsZS1nZXR0aW5nLW9uZS1kb25lLWNvdWxkLWJlLW1lc3N5LTNkNzdhMmI=
+yP21vZD1ocF9sZWFkX3BvczU/607f07ceef4b8524a319a23cB621d01a4" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">Wall St=
+reet Journal reports</a>:</p><blockquote><p style=3D"margin: 16px 0;">The i=
+ndustry is poised to consolidate at a pace unseen in years. If July=E2=80=
+=99s earning announcements revive fears of fleeing depositors, the push to =
+merge may turn urgent. Treasury Secretary Janet Yellen predicted that highe=
+r rates may lead to more deals; and bank regulators are signaling they are =
+open to them.</p><p style=3D"margin: 16px 0;">=E2=80=9CWe certainly don=E2=
+=80=99t want overconcentration and we=E2=80=99re pro-competition, but that =
+doesn=E2=80=99t mean no,=E2=80=9D Yellen said about mergers.=C2=A0</p><p st=
+yle=3D"margin: 16px 0;">Peter Orszag, the former Obama administration offic=
+ial and incoming CEO of Lazard has privately urged Yellen and her staff to =
+pave the way for more bank deals, people familiar with the matter said.</p>=
+<p style=3D"margin: 16px 0;">There are more than 4,000 U.S. banks, and many=
+ are staring at eye-watering technology and regulatory costs. Those expense=
+s, along with today=E2=80=99s headaches such as fickle depositors and shaky=
+ real-estate loans, threaten to squeeze the industry=E2=80=99s profits.=C2=
+=A0=E2=80=A6</p><p style=3D"margin: 16px 0;">Regulators have privately expr=
+essed a general willingness to include mergers as part of the solution to i=
+nstability in the banking system, people familiar with the matter said.=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">If the 4,000 banks should =
+be 2,000 banks, that means there need to be about 2,000 bank mergers? I sus=
+pect that if Janet Yellen could snap her fingers and reduce the 4,000 US ba=
+nks to 2,000, she=E2=80=99d do it. And if Peter Orszag could get mandated o=
+n a small fraction of those 2,000 bank deals that=E2=80=99s a nice year for=
+ his financial institutions group.</p><p style=3D"margin: 16px 0;">I suppos=
+e a lot of those deals will be pretty small and not that lucrative for thei=
+r advisers, but on the other hand my impression is that bank M&amp;A is =E2=
+=80=A6=C2=A0I don=E2=80=99t want to say that it=E2=80=99s easy, exactly, bu=
+t bank mergers have a tendency to happen over the course of a weekend, so y=
+ou can do a lot of them pretty efficiently. It=E2=80=99s not so much a long=
+ courtship and a quest for cultural fit, it=E2=80=99s more like opening a d=
+ata room on Friday and saying =E2=80=9Chey we gotta announce a deal before =
+the open Monday.=E2=80=9D You invite in 20 bidders, you pick the top bid, y=
+ou tell the other 19 =E2=80=9Csorry it didn=E2=80=99t work out but we=E2=80=
+=99ll have three more of these next Friday.=E2=80=9D If there are 2,000 ban=
+k deals coming, you can kind of set up an assembly line.=C2=A0</p><p style=
+=3D"margin: 16px 0;">The other nice thing about this business, for an inves=
+tment bank, is that it is sort of countercyclical. Higher interest rates ar=
+e bad for, say, private-equity leveraged buyouts, but they are good for <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aHR0c=
+HM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9yZWJvdW5kLWluLXJhdGVzLXB1dHMtcHJlc3N1cmUt=
+b24tYmFua3MtYWZmZjBjMDA_bW9kPWhwX2xlYWRfcG9zMg/607f07ceef4b8524a319a23cB370=
+857fc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">making regional banks nervous</a>. As rates go up, M&amp;A w=
+ill be quiet in a lot of sectors, but it might get busier in banking.</p><p=
+ style=3D"margin: 16px 0;">By the way, one way to tell this story goes some=
+thing like this:</p><ol style=3D"list-style-type: decimal; padding-left: 40=
+px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Traditionally, wh=
+en the Fed raised interest rates, banks did not really raise the rates they=
+ paid on deposits all that much. The =E2=80=9C<a href=3D"https://link.mail.=
+bloombergbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMDkvaXQtcy1uZXZlci10b28tbGF0ZS1mb3ItYm=
+Fua3MtdG8taGVkZ2U_Y21waWQ9QkJEMDcwNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpb=
+CZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzA1JnV0bV9jYW1wYWlnbj1tb25l=
+eXN0dWZm/607f07ceef4b8524a319a23cBbc5e17f8" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">deposit beta</a>=E2=80=
+=9D was low, because for various reasons (relationship strength, local mono=
+polies, regulation) banks did not really need to compete with each other on=
+ rates to attract depositors.</li>=09<li style=3D"margin-bottom: 5px;">In t=
+he current hiking cycle, however, regional banks=C2=A0<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMDQvbm9ib2R5LXRydXN0cy10aGUtYm=
+Fua3Mtbm93P2NtcGlkPUJCRDA3MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVm=
+Zg/607f07ceef4b8524a319a23cB93bce82b" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"><em>do=C2=A0</em>need to pay =
+competitive interest rates</a> to keep deposits, and as rates go up they ha=
+ve to pay up a lot and don=E2=80=99t make any money.</li>=09<li style=3D"ma=
+rgin-bottom: 5px;">The solution is to merge banks to reduce competition so =
+they don=E2=80=99t have to pay competitive interest rates so they can keep =
+making money.</li></ol><p style=3D"margin: 16px 0;">I don=E2=80=99t think a=
+nyone would put the story quite that way, and you can understand why. (=E2=
+=80=9CWe=E2=80=99re pro-competition,=E2=80=9D says Yellen, and no banking o=
+r antitrust regulator is going to go around saying =E2=80=9Cthere needs to =
+be less banking competition so depositors don=E2=80=99t get paid market int=
+erest rates so banks can keep making money.=E2=80=9D) But I think it=E2=80=
+=99s true? The basic problem in banking is that competition is good but fin=
+ancial stability is also good, and they are kind of at odds with each other=
+.</p><table class=3D"liveintent-sponsored-content" width=3D"auto" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTk5NDU1OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIyNTE5NjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCc5de0874" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31994559&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32251965&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTk5NDU1OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIyNTE5NjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDc5de0874" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31994559&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32251965&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Weird CEO pay</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">=E2=80=9CMeet the CEOs Who Pull In Mor=
+e Than $100 Million a Year,=E2=80=9D says <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2x=
+lcy9tZWV0LXRoZS1jZW9zLXdoby1wdWxsLWluLW1vcmUtdGhhbi0xMDAtbWlsbGlvbi1hLXllYX=
+ItODQwOWFmZTA_bW9kPWhwX2xpc3RiX3BvczU/607f07ceef4b8524a319a23cB36ab06f4" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> this Wall Street Journal headline</a>, but that=E2=80=99s not quite =
+right:</p><blockquote><p style=3D"margin: 16px 0;">The chief executives of =
+Hertz, Peloton and Pinterest all earned more than $100 million in 2022, top=
+ping almost every CEO in the S&amp;P 500 including Apple=E2=80=99s Tim Cook=
+, who made $99 million. Also on that list: The man who runs CS Disco, a clo=
+ud-services provider that caters to attorneys and has a market capitalizati=
+on of about $500 million.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;=
+">Sure okay the CS Disco guy =E2=80=9Creceived $500,000 in salary plus stoc=
+k options valued at $109 million=E2=80=9D in 2022, but he =E2=80=9Cearned j=
+ust under $1 million total in 2021, the year the company went public in lat=
+e July.=E2=80=9D So he pulls in $55 million a year, on average, over the la=
+st two years, not =E2=80=9Cmore than $100 million a year.=E2=80=9D But that=
+ $109 million 2022 options grant is not an annual occurrence; that=E2=80=99=
+s meant to tide him over for a while. =E2=80=9CWe believe that an up-front,=
+ long-term option grant with performance-based vesting would be most motiva=
+ting to Mr. Camara and would have a greater impact than an annual long-term=
+ incentive award,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31994559.257406/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYX=
+RhLzE2MjU2NDEvMDAwMTE5MzEyNTIyMTY0MDczL2Q2NjMwNzdkZGVmMTRhLmh0bSN0eDY2MzA3N=
+182/607f07ceef4b8524a319a23cB5181e3b9" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> said the company</a> in 202=
+2, when it asked shareholders to approve the grant. Getting a $109 million =
+one-time equity award is not the same as earning $100 million a year.</p><p=
+ style=3D"margin: 16px 0;">Also it=E2=80=99s not real money: The $109 milli=
+on is the calculated fair value of the options grant at the time it was awa=
+rded, but it consists of a bunch of options to buy stock at a strike price =
+of $32 per share, and they only vest in tranches if the stock reaches a ser=
+ies of milestone prices starting at $150 per share and going up to $900. Th=
+e stock closed Monday at $8.40 per share. If he gets the stock to $900 per =
+share, then the package will be worth something like $3.8 billion to him, b=
+ut on the other hand at $900 per share this will be a $50 billion company a=
+nd he=E2=80=99ll be worth it. But the <em>most likely </em>value of this $1=
+09 million pay package is zero dollars.=C2=A0</p><p style=3D"margin: 16px 0=
+;">Not all of the examples are like this, but a lot are:</p><blockquote><p =
+style=3D"margin: 16px 0;">At Hertz, Stephen Scherr=E2=80=99s total pay of $=
+182 million included $3.4 million in salary and bonus. A further $178 milli=
+on in restricted stock is structured to vest through 2026, much of it only =
+if the company=E2=80=99s shares reach 90-day average price targets ranging =
+up to nearly double its current share price.</p><p style=3D"margin: 16px 0;=
+">In its annual proxy statement, Hertz said two price targets had already b=
+een met, meaning about $50 million in shares at recent prices stand to vest=
+ if Scherr stays employed through 2026, in addition to roughly $20 million =
+that vested on Dec. 31. =E2=80=A6</p><p style=3D"margin: 16px 0;">Peloton=
+=E2=80=99s Barry McCarthy started as CEO in February 2022, after stints as =
+chief financial officer at Spotify and Netflix. His $168 million pay packag=
+e at Peloton was almost entirely in stock options, which vest monthly over =
+four years.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">If you=E2=80=
+=99re the new CEO of a smallish company, your board might want to give you =
+a pay package like this: At the beginning of your tenure, they give you a h=
+uge upfront package of options that only vest if you make the company a big=
+ company. These options have a high theoretical value now, but you can=E2=
+=80=99t cash them in: They only turn into real value if you succeed over th=
+e next few years. The board gives you a big long-term incentive up front, a=
+nd then lets you get to work to achieve it. If it works you get rich; if it=
+ doesn=E2=80=99t work then you don=E2=80=99t. But the conventions of accoun=
+ting and reporting transform this into =E2=80=9C$100 million annual pay,=E2=
+=80=9D and so you make the list of best-paid CEOs.</p><p style=3D"margin: 1=
+6px 0;">And so every year there are stories like =E2=80=9Chere are some sur=
+prising CEOs who make the most money,=E2=80=9D but those surprising CEOs ar=
+e rarely on the list=C2=A0<em>twice</em>. One big exception though:</p><blo=
+ckquote><p style=3D"margin: 16px 0;">Stephen Schwarzman of private-equity g=
+iant Blackstone earned the biggest pay package overall, at $253 million. Bl=
+ackstone, larger than many S&amp;P 500 companies at a market capitalization=
+ of more than $100 billion, has a corporate structure similar to dual share=
+-class setups that until recently have kept other companies out of the inde=
+x.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Yeah I mean he gets p=
+aid a lot.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">APEs</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We have talked a lot=C2=A0about AMC En=
+tertainment Holdings Inc.=E2=80=99s APEs. Briefly, AMC was a meme stock, an=
+d it took advantage of this status by selling as much stock as it could to =
+retail investors. Eventually it ran out of stock: It only had about 524 mil=
+lion authorized shares, and it sold almost all of them. So it asked shareho=
+lders to authorize more shares, but it ran into a problem: To authorize mor=
+e shares, it would need a majority of all its outstanding shares to vote ye=
+s, and most of its (largely retail) shareholders didn=E2=80=99t vote at all=
+. So it couldn=E2=80=99t get more shares, so it couldn=E2=80=99t sell more =
+shares at irrational meme-stock prices.</p><p style=3D"margin: 16px 0;">So =
+it created <a href=3D"https://link.mail.bloombergbusiness.com/click/3199455=
+9.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMD=
+gtMjMvYW1jLWdvZXMtYXBlP2NtcGlkPUJCRDA3MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09Z=
+W1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcwNSZ1dG1fY2FtcGFpZ249=
+bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB2d813ca8" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  a new class of =
+preferred stock</a>, AMC Preferred Equity Units, or APEs. It did a quasi-st=
+ock-split, giving out one APE for each common share, and then sold a bunch =
+of new APE units for cash, both in market offerings and directly to a frien=
+dly hedge fund called Antara Capital. The APEs had a <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMDEvYW1jLWhhcy1zb21lLWNsZXZlci1=
+hcGVzP2NtcGlkPUJCRDA3MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdX=
+JjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/60=
+7f07ceef4b8524a319a23cB187cfb35" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  clever voting mechanism</a>: The=
+y voted alongside the common stock on all corporate matters, and (unlike th=
+e common stock) they couldn=E2=80=99t just=C2=A0<em>not vote</em>. (APEs wh=
+ose holders didn=E2=80=99t vote their shares were treated as voting proport=
+ionally to how the APEs who did vote voted.) So, after issuing a bunch of A=
+PEs, AMC went to its shareholders again, asking them to (1) authorize new s=
+hares and (2) convert the APEs into common stock. And because of the APEs=
+=E2=80=99 voting mechanics, this time it worked.</p><p style=3D"margin: 16p=
+x 0;">Common shareholders <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/31994559.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjMtMDItMjEvYW1jLWFwZXMtaGF0ZS1hbWMtcy1hcGVzP2NtcGlkPUJCRDA3MDUyM1=
+9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90Z=
+XJtPTIzMDcwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8765=
+b103" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  sued</a>, <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/31994559.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjMtMDItMjgvYW1jLXMtYXBlcy1oYXZlLXRvLXdhaXQ_Y21waWQ9QkJEMDcwNTIzX0=
+1PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlc=
+m09MjMwNzA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB765290=
+bd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  though</a>, arguing that this was too tricky, that it was a =
+way for the board to get around shareholder voting rights. After AMC, I sho=
+uld say, there was a brief vogue for these sorts of tricky preferred-stock =
+voting schemes, and they seem to have been <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjMtMDQtMTgvcHVycGxlLWR1bXBzLWl0cy1wcnBscz9jbXBpZ=
+D1CQkQwNzA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xl=
+dHRlciZ1dG1fdGVybT0yMzA3MDUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b852=
+4a319a23cB5753c791" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  shut down pretty quickly</a>, so I suppose =
+the shareholders might have won. On the other hand, it seemed to me that AM=
+C was using the APEs to solve a genuine corporate problem (it needed money,=
+ had a good opportunity to sell stock, and had retail shareholders who didn=
+=E2=80=99t vote), and it was hard to imagine a court keeping the APEs in li=
+mbo forever. I kind of figured AMC would win in court. But it <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDQtMTAvZnR4LWxvc3QtdHJhY2=
+stb2YtaXRzLW1vbmV5P2NtcGlkPUJCRDA3MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1ha=
+WwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcwNSZ1dG1fY2FtcGFpZ249bW9u=
+ZXlzdHVmZg/607f07ceef4b8524a319a23cBeb7cfd81" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">  cut a settlement</a=
+> with the shareholders, in which essentially the APEs would convert into c=
+ommon stock at a bit less than a 1-for-1 ratio: Each APE would become one s=
+hare of new common stock, while each share of old common stock will become =
+about 1.13 shares. This seemed like rough justice to me: AMC got most of wh=
+at it wanted, but the common shareholders got a bit more of the company tha=
+n the APEs did.</p><p style=3D"margin: 16px 0;">But a few shareholders obje=
+cted to the settlement, and the Delaware judge in the case took them seriou=
+sly. She commissioned a special master to look into the settlement; the spe=
+cial master <a href=3D"https://link.mail.bloombergbusiness.com/click/319945=
+59.257406/aHR0cHM6Ly9zMjUucTRjZG4uY29tLzQ3MjY0MzYwOC9maWxlcy9kb2NfZG93bmxvY=
+WRzL3NoYXJlaG9sZGVyLW1lZXRpbmcvMjAyMy8wNi9SZXBvcnQtYW5kLVJlY29tbWVuZGF0aW9u=
+LW9mLVNwZWNpYWwtTWFzdGVyLVJlZ2FyZGluZy1PYmplY3Rpb25zLXRvLVByb3Bvc2VkLVNldHR=
+sZW1lbnQtd2l0aC1FeGhpYml0cy1hbmQtQXBwZW5kaWNlcy5wZGY/607f07ceef4b8524a319a2=
+3cBacbb4bd0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> filed her report</a> last month. And there was a hear=
+ing last week. It was intense. Basically AMC and the lawyers who sued it ca=
+me in to defend the settlement, and meme-stock investors came to object. <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aHR0=
+cHM6Ly9uZXdzLmJsb29tYmVyZ2xhdy5jb20vdXMtbGF3LXdlZWsvYW1jLWludmVzdG9ycy11cmd=
+lLWp1ZGdlLXRvLWFwcHJvdmUtZmllcmNlbHktY29udGVzdGVkLWFwZS1kZWFs/607f07ceef4b8=
+524a319a23cB72ac5e36" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  Bloomberg News reports</a>:</p><blockquote>=
+<p style=3D"margin: 16px 0;">The proposed settlement would force investors =
+to give up too much in exchange for too little, Ted Kittila of Halloran Far=
+kas &amp; Kittila LLP, an attorney representing settlement objector Rose Iz=
+zo, told Delaware=E2=80=99s Chancery Court.</p><p style=3D"margin: 16px 0;"=
+>The =E2=80=9Cgrossly unfair=E2=80=9D agreement gives AMC=E2=80=99s board a=
+ free pass for its bad behavior and sends the message that companies can en=
+gage in illegal corporate engineering, then =E2=80=9Cjust kick out addition=
+al shares to people and pay them off,=E2=80=9D according to Kittila.</p><p =
+style=3D"margin: 16px 0;">=E2=80=9CWhy are people loud? Why are people upse=
+t? Why are people angry right now? Because they=E2=80=99re feeling like the=
+y=E2=80=99re not being heard,=E2=80=9D he told Vice Chancellor Morgan T. Zu=
+rn. =E2=80=9CA group of stockholders saved a company that they believed was=
+ being destroyed by Wall Street insiders. They were ultimately stabbed in t=
+he back by the very people they saved.=E2=80=9D =E2=80=A6</p><p style=3D"ma=
+rgin: 16px 0;">Zurn acknowledged the =E2=80=9Cfervent and inspired AMC stoc=
+kholders=E2=80=9D as she opened the hearing. =E2=80=9CI have heard what you=
+ have to say,=E2=80=9D she told the two who came to court Thursday.</p></bl=
+ockquote><p style=3D"margin: 16px 0;">And the <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnR=
+pY2xlcy9hbWMtZmlnaHRzLW1lbWUtc3RvY2staW52ZXN0b3JzLWluLWNvdXJ0LWYwMzFmZjY2/6=
+07f07ceef4b8524a319a23cBcb14edf9" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Wall Street Journal reports</a>:=
+</p><blockquote><p style=3D"margin: 16px 0;">John Barton, an Air Force vete=
+ran who owns AMC shares, said during the first day of the hearing on Thursd=
+ay, =E2=80=9CI speak to you today hoping to represent the 3.8 million indiv=
+idual investors that are about to find themselves at a loss, saving AMC and=
+ its theaters.=E2=80=9D</p><p style=3D"margin: 16px 0;">=E2=80=9CMy fear is=
+ that the individual investors are going to be caught holding the bag, not =
+making the money that the shorts and AMC will during this conversion event,=
+=E2=80=9D Barton said.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">M=
+eanwhile, part of the special master=E2=80=99s report is a legal analysis o=
+f the strength of the case against AMC. She is skeptical of the APEs, writi=
+ng that there is =E2=80=9Cevidence that Defendants [i.e., AMC] forced the C=
+ertificate Amendments through, with the APEs=E2=80=99 voting power and the =
+Antara Transaction, to subvert the will of the common stockholders,=E2=80=
+=9D and that =E2=80=9Cit appears possible, although far from certain, that =
+Plaintiffs could have prevailed because Defendants failed to prove a compel=
+ling justification.=E2=80=9D But the lawsuit was risky and the settlement i=
+s reasonable.=C2=A0</p><p style=3D"margin: 16px 0;">But another part of the=
+ report is just an account of the shareholder objections:</p><blockquote><p=
+ style=3D"margin: 16px 0;">Most stockholders who objected to the Settlement=
+, and who are listed on Appendix A, did so without substantive legal argume=
+nt. =E2=80=A6=C2=A0Many stockholders voiced concerns about the supposed exi=
+stence of synthetic AMC shares, Wall Street corruption, or dark pool tradin=
+g.</p></blockquote><p style=3D"margin: 16px 0;">I don=E2=80=99t know! This =
+seems like sort of the sad endgame of the meme-stock craze: Some people tho=
+ught that by buying meme stocks they were fighting back against Wall Street=
+ corruption and dealing a blow to naked short sellers. Meanwhile though AMC=
+ was looking at the people buying its meme stock and saying =E2=80=9Cwell o=
+kay if they want to buy this stock we=E2=80=99re gonna do everything we can=
+ to sell as much of it as we can.=E2=80=9D If you think that a shadowy caba=
+l of Wall Street insiders are <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31994559.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjMtMDYtMTMvbmFrZWQtc2hvcnQtc2VsbGVyLWdldHMtaW4tdHJvdWJsZT9jbX=
+BpZD1CQkQwNzA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c=
+2xldHRlciZ1dG1fdGVybT0yMzA3MDUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b=
+8524a319a23cB4b468ff0" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">  naked short selling</a> <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMDgvZG9uLXQtc3F1ZWV6ZS10aGU=
+tc2hvcnRzP2NtcGlkPUJCRDA3MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3=
+NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZ=
+g/607f07ceef4b8524a319a23cB8d87c8c0" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  phantom shares</a> in dark p=
+ools in order to destroy companies, you can persuade yourself that buying s=
+hares of those companies at irrational prices will both strike a blow for j=
+ustice and make you rich when the short sellers are exposed. But mostly wha=
+t happens when you buy shares at irrational prices is that then they go dow=
+n.</p><p style=3D"margin: 16px 0;">In <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMmY=
+zY2ZhYWMtNjY0MS00ZDY2LWIxNDMtYTVhZTFiMWU0ZTUw/607f07ceef4b8524a319a23cB845d=
+ff0e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> related news</a>:</p><blockquote><p style=3D"margin: 16px 0;=
+">Investors have spent almost $200mn trading theoretically worthless shares=
+ in Bed Bath &amp; Beyond since the homewares retailer went bankrupt at the=
+ start of May, in the latest manifestation of the meme stock craze. =E2=80=
+=A6</p><p style=3D"margin: 16px 0;">An average of 18mn of the company=E2=80=
+=99s shares have changed hands each day on over-the-counter markets since t=
+hen, according to Bloomberg data. Users of the Reddit website have been sha=
+ring highly speculative theories about possible turnround plans for the ret=
+ailer. =E2=80=A6</p><p style=3D"margin: 16px 0;">The original meme stock su=
+rge in January 2021 was rooted in anti-establishment angst, with retail tra=
+ders looking to destabilise hedge funds betting against fan-favourite stock=
+s. Sudden increases in demand caused =E2=80=9Cshort squeezes=E2=80=9D that =
+turbocharged the share price rally as hedge funds scrambled to cover their =
+positions, with Melvin Capital becoming the highest-profile casualty.</p><p=
+ style=3D"margin: 16px 0;">Now, however, retail punters are betting against=
+ each other. =E2=80=9CThere are no institutions shorting Bed Bath at 25 cen=
+ts,=E2=80=9D Chukumba, at Loop Capital, said. =E2=80=9CThere=E2=80=99s no =
+=E2=80=98man=E2=80=99 to stick it to any more.=E2=80=9D</p></blockquote><ta=
+ble class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in authorized shares</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">WANdisco Plc is a UK software company =
+that traded on the London Stock Exchange until its shares were suspended in=
+ March for =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/31994559.257406/aHR0cHM6Ly93d3cudGhlZ3VhcmRpYW4uY29tL2J1c2luZXNzLzIwMjMvb=
+WFyLzA5L3NvZnR3YXJlLWZpcm0td2FuZGlzY28tc3VzcGVuZHMtc2hhcmVzLWFtaWQtZnJhdWR1=
+bGVudC1pcnJlZ3VsYXJpdGllcw/607f07ceef4b8524a319a23cB2fe4d867" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">poten=
+tially fraudulent irregularities</a>,=E2=80=9D oops. It sought to raise=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406=
+/aHR0cHM6Ly93d3cuaW5zaWRlcm1lZGlhLmNvbS9uZXdzL3lvcmtzaGlyZS93YW5kaXNjby1sYX=
+VuY2hlcy0zMG0tZnVuZHJhaXNl/607f07ceef4b8524a319a23cB8fe96eef" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> $30 =
+million in new equity</a> in the hopes of fixing the irregularities and ret=
+urning to trading, and <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/31994559.257406/aHR0cHM6Ly9wb2xhcmlzLmJyaWdodGVyaXIuY29tL3B1YmxpYy93YW=
+5kaXNjby9uZXdzL3Juc193aWRnZXQvc3RvcnkveGxrbTBqdw/607f07ceef4b8524a319a23cBa=
+9b8f59a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> yesterday it announced</a> that the fundraising was a suc=
+cess. Today it announced a small hiccup, or rather an =E2=80=9C<a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/31994559.257406/aHR0cHM6Ly9wb2=
+xhcmlzLmJyaWdodGVyaXIuY29tL3B1YmxpYy93YW5kaXNjby9uZXdzL3Juc193aWRnZXQvc3Rvc=
+nkveDhtbnFwdw/607f07ceef4b8524a319a23cB451f9867" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Update to Fundrais=
+e Timetable</a>=E2=80=9D:</p><blockquote><p style=3D"margin: 16px 0;">In wo=
+rking to complete the fundraise process, the Company has encountered the re=
+quirement under Jersey law to seek further shareholder approval to increase=
+ its authorised share capital in order to issue the Offer Shares pursuant t=
+o the Fundraise. =C2=A0Completion of this step, as explained below, means s=
+ettlement of the Fundraise and Admission are now expected to take place on =
+25 July 2023, subject to the passing of the necessary resolution by shareho=
+lders.</p><p style=3D"margin: 16px 0;">Under the Company's Memorandum and p=
+ursuant to the Companies (Jersey) Law 1991 as amended, the authorised share=
+ capital of the company is =C2=A310,000,000 divided into 100,000,000 Ordina=
+ry Shares of =C2=A30.10 each. Following the Fundraise the Company's enlarge=
+d issued ordinary share capital would amount to 114,725,069 Ordinary Shares=
+. If all Offer Shares were issued, this would exceed the Company's authoris=
+ed share capital by 14,725,069 Ordinary Shares, rendering those excess Ordi=
+nary Shares invalid.</p><p style=3D"margin: 16px 0;">Consequently, the Comp=
+any proposes to increase its authorised share capital limit set out in its =
+Memorandum from =C2=A310,000,000 divided into 100,000,000 Ordinary Shares o=
+f =C2=A30.10 each to =C2=A330,000,000 divided into 300,000,000 Ordinary Sha=
+res of =C2=A30.10 each. =C2=A0The Company will convene a general meeting fo=
+r 10.00 a.m. on 24 July 2023 ("General Meeting") at which a special resolut=
+ion to effect the required increase to the Company's authorised share capit=
+al and amend its Memorandum will be proposed (the "Resolution"). =C2=A0The =
+Company's existing shareholder authorities do not provide the directors of =
+the Company with sufficient power to allot and issue all the newly authoris=
+ed Ordinary Shares. A Notice of General Meeting will be posted to sharehold=
+ers later today.</p></blockquote><p style=3D"margin: 16px 0;">Oops! We talk=
+ed above about the complex machinations that AMC used to try to raise money=
+ by selling more shares than it had authorized. But AMC only did all that b=
+ecause it=C2=A0<em>noticed=C2=A0</em>that it had run out of authorized shar=
+es. WANdisco apparently forgot.</p><table class=3D"header" width=3D"100%" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Robot analysts</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is Greg Jensen, the co-chief inve=
+stment officer of Bridgewater Associates, on <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDMvYnJpZGdld2F0ZXItY28tY2lvLWdyZWctamVuc2V=
+uLXNlZXMtYmFkLW91dGxvb2stZm9yLWJvbmRzLWFuZC1zdG9ja3M_Y21waWQ9QkJEMDcwNTIzX0=
+1PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlc=
+m09MjMwNzA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8ca32f=
+07" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  large-language-model artificial intelligence</a>:</p><blockq=
+uote><p style=3D"margin: 16px 0;">He sees Bridgewater building an ecosystem=
+ where the firm has a de facto army of high-quality AI =E2=80=9Canalysts,=
+=E2=80=9D all thinking about the economy and markets and then testing these=
+ ideas. At the current cutting-edge of LLM tech, he says, the bots can ace =
+certain internal Bridgewater tests better than most first-year investment a=
+nalysts.</p><p style=3D"margin: 16px 0;">And so, =E2=80=9Call of a sudden i=
+f you have an 80th percentile investment associate, technologically, you ha=
+ve millions of them at once,=E2=80=9D he said.</p></blockquote><p style=3D"=
+margin: 16px 0;">I am dying to know <em>which=C2=A0</em>internal Bridgewate=
+r tests they were. I have mentioned <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31994559.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMTYtMDItMDUvYnJpZGdld2F0ZXItcy1ib3NzZXMtYXJlLWZpZ2h0aW5n=
+LW92ZXItc29tZXRoaW5nP2NtcGlkPUJCRDA3MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1=
+haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcwNSZ1dG1fY2FtcGFpZ249bW=
+9uZXlzdHVmZg/607f07ceef4b8524a319a23cB16655b47" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  my model of Bridg=
+ewater</a> before:</p><blockquote><p style=3D"margin: 16px 0;">=C2=A0One st=
+ylized model for thinking about Bridgewater is that it is run by the comput=
+er with absolute logic and=C2=A0efficiency; in this model, the computer's m=
+ain problem is keeping the 1,500 human employees busy so that they don't in=
+terfere with its perfect rationality.=C2=A0This model might predict that th=
+e computer would create=C2=A0a series of distractions for the humans; the=
+=C2=A0distractions would keep the humans busy,=C2=A0but if you examined the=
+m closely, there would be=C2=A0telltale signs that the intelligence that de=
+signed them was not completely human. "In an iPad app called 'Dot Collector=
+,' employees weigh in on the direction of conversations while they are happ=
+ening." "Any meeting of at least three people is expected to hold at least =
+one poll." "One former Bridgewater employee recalls debating with other emp=
+loyees for as long as an hour whether a misused apostrophe in one of Mr. Da=
+lio=E2=80=99s research reports was intentional or not."=C2=A0Good ones, com=
+puter!</p></blockquote><p style=3D"margin: 16px 0;">If you were a Bridgewat=
+er employee, which parts of your job would you want to hand off to a large =
+language model? The =E2=80=9Cthinking about the economy and markets=E2=80=
+=9D parts, or the holding-a-poll-after-each-meeting and reading-Ray-Dalio-m=
+emos-as-holy-scripture parts? Possibly in the future Bridgewater=E2=80=99s =
+AI models will <a href=3D"https://link.mail.bloombergbusiness.com/click/319=
+94559.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMT=
+ktMDItMDEvYnJpZGdld2F0ZXItYXNzb2NpYXRlcy1wcm92ZXMtc2VsZi1vYnNlc3Npb24tYWN0d=
+WFsbHktd29ya3M_Y21waWQ9QkJEMDcwNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1=
+dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzA1JnV0bV9jYW1wYWlnbj1tb25leXN=
+0dWZm/607f07ceef4b8524a319a23cB82fbaf14" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> ruthlessly critique eac=
+h others=E2=80=99 performance</a> in meetings, freeing up the human investm=
+ent analysts to=C2=A0not=C2=A0do that.</p><table class=3D"header" width=3D"=
+100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Robot lawyers</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">What percentile junior lawyer is <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDUvbGF3LWZpcm1zLW=
+FyZS1yZWNydWl0aW5nLW1vcmUtYWktZXhwZXJ0cy1hcy10aGVpci1jbGllbnRzLWRlbWFuZC1tb=
+3JlLWZvci1sZXNzP2NtcGlkPUJCRDA3MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwm=
+dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcwNSZ1dG1fY2FtcGFpZ249bW9uZXl=
+zdHVmZg/607f07ceef4b8524a319a23cB24f269bc" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  a large language model=
+</a>?</p><blockquote><p style=3D"margin: 16px 0;">Law firms are advertising=
+ for experts in artificial intelligence =E2=80=9Cmore than ever before,=E2=
+=80=9D says Chris Tart-Roberts, head of the legal technology practice at Ma=
+cfarlanes, describing a trend he says began about six months ago. =E2=80=A6=
+</p><p style=3D"margin: 16px 0;">The revolution in generative AI, machine l=
+earning that can make predictions, has accelerated the legal industry=E2=80=
+=99s search for more effective technology. Many firms are now putting toget=
+her teams to figure out how to use generative AI across all their practice =
+areas even as ChatGPT, the chatbot owned by OpenAI, becomes something to be=
+ feared as well as embraced.=C2=A0</p><p style=3D"margin: 16px 0;">Legal se=
+rvices are the most vulnerable to ChatGPT-style software, according to a re=
+cent University of Pennsylvania study. That=E2=80=99s fueling concerns AI c=
+ould replace a significant chunk of junior lawyer drudgery. The widely-acce=
+ssible technology is particularly suited to time-consuming legal work, beca=
+use of its ability to instantly analyze large documents, predict successful=
+ arguments based on past cases or create questions based on pre-defined cri=
+teria for a deposition.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">=
+Really much of the work of a lawyer is =E2=80=9Cpredict how a judge will ru=
+le in a future case by pattern-matching how judges ruled in a bunch of prev=
+ious cases=E2=80=9D; it does seem very LLM-y.=C2=A0</p><table class=3D"head=
+er" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Insider trading opportunities</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjMtMDctMDMvaW5zaWRlci10cmFkaW5nLWlzLWJldHRlci1mcm9t=
+LWhvbWU_Y21waWQ9QkJEMDcwNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB4e72b8f0" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  talked on Monday</a> about insi=
+der trading and working from home, and I wrote:</p><blockquote><p style=3D"=
+margin: 16px 0;">That said, there is one classic form of financial crime th=
+at I=C2=A0<em>think=C2=A0</em>would have to be increased by work-from-home?=
+ That form of financial crime is =E2=80=9Clooking at your girlfriend=E2=80=
+=99s computer to see what high-stakes deals she is working on,=C2=A0and the=
+n insider trading on them.=E2=80=9D=C2=A0</p></blockquote><p style=3D"margi=
+n: 16px 0;">The counterpoint=C2=A0is that if you work from home you can rea=
+lly only overhear inside information from the people who live with you: you=
+r spouse, your live-in partner, your=C2=A0roommates, your adult children wh=
+o moved back in to save money while working in their first investment banki=
+ng job, etc. Whereas if you work from the office you have many more opportu=
+nities. Aaron Brown emailed me:</p><blockquote><p style=3D"margin: 16px 0;"=
+>The biggest difference for me personally is not riding the express Metro N=
+orth to Greenwich and back has cut me off from the constant opportunity to =
+overhear actionable non-public information. There are similar opportunities=
+ in elevators in investment banks and law firms.</p></blockquote><p style=
+=3D"margin: 16px 0;">He clarified that he never actually traded on this inf=
+ormation, though <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+1994559.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MTgtMTItMDMvaW5zaWRlci10cmFkaW5nLWluLXRoZS1wb3RhdG8tdHJhZGU_Y21waWQ9QkJEMDc=
+wNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdX=
+RtX3Rlcm09MjMwNzA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23c=
+Bdbd8c055" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">  my view</a> is that trading on inside information that=
+ you overhear on a train is probably=C2=A0<em>legal</em>, in the US. (<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDMtMjkvZGVhbHMtb2=
+4tdGhlLXRyYWluLWFyZS1ldmVyeW9uZS1zLWJ1c2luZXNzP2NtcGlkPUJCRDA3MDUyM19NT05FW=
+VNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIz=
+MDcwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb05f15cd" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">Not in Europe</a>.) Now that a lot of people are back in the office =
+in New York and Greenwich, this suggests a money-making idea, which I will =
+not spell out further. Hoo boy is this not legal advice.</p><table class=3D=
+"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT Stuff</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Apparently Justin Bieber was <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aHR0cHM6L=
+y9kZWNyeXB0LmNvLzExNDcxOC9qdXN0aW4tYmllYmVyLWJvcmVkLWFwZS1uZnQtbm93LTY5aw/6=
+07f07ceef4b8524a319a23cB15bed422" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> not the world=E2=80=99s most dis=
+cerning collector</a> of nonfungible tokens:</p><blockquote><p style=3D"mar=
+gin: 16px 0;">As of this writing, the floor price for the Bored Ape Yacht C=
+lub=E2=80=94that is, the price of the cheapest-available NFT listed on a ma=
+rketplace=E2=80=94is about 58.2 ETH, per data from NFT Price Floor, or abou=
+t $69,800. On Monday, the floor price dipped below $60,000 for the second t=
+ime this month, but it ticked back upwards throughout the day on Tuesday. =
+=E2=80=A6</p><p style=3D"margin: 16px 0;">The price drop has also made some=
+ of the seven-figure Bored Ape purchases stand out even more in hindsight. =
+One notable example is musician Justin Bieber=E2=80=99s January purchase of=
+ an Ape for $1.3 million (500 ETH)=E2=80=94a pickup that was deemed questio=
+nable at the time by crypto influencers who said that he overpaid for an Ap=
+e with very common traits.</p></blockquote><p style=3D"margin: 16px 0;">Hon=
+estly this is good, if you have to have collected Bored Apes this is the wa=
+y to have done it:</p><ul style=3D"list-style-type: disc; padding-left: 40p=
+x; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Bieber has tons of=
+ money, from doing stuff that people find valuable in the real world, and h=
+e could blow $1.3 million of it on an impulse purchase without feeling bad =
+about it.</li>=09<li style=3D"margin-bottom: 5px;">He did=C2=A0<em>not=C2=
+=A0</em>put a ton of research into which Bored Apes are =E2=80=9Cgood,=E2=
+=80=9D to Bored Ape collectors; he just bought one. Imagine if he had, like=
+, taken a two-hour meeting with an NFT adviser who schooled him on the fine=
+ points of Bored Ape trait rarity! Surely avoiding that meeting was worth $=
+1.3 million to Justin Bieber.</li>=09<li style=3D"margin-bottom: 5px;">Nobo=
+dy stole his ape, suggesting that Bieber is more careful and less gullible =
+than <a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.2574=
+06/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMjUv=
+dGVycmEtaXMtYmFjay1mcm9tLWJhbmtydXB0Y3k_Y21waWQ9QkJEMDcwNTIzX01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzA1Jn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3aaa1286" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  all other NFT-collecting celebrities</a>.</li>=09<li style=3D"margin-bott=
+om: 5px;">Now it is down 95% and he, I am pretty sure, does not care.</li><=
+/ul><p style=3D"margin: 16px 0;">Every other possible story of collecting B=
+ored Apes is more embarrassing!</p><table class=3D"header" width=3D"100%" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Exxon=E2=80=99s Meager Bonuses Make <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDUvZXh4b24tcy1=
+tZWFnZXItYm9udXNlcy1tYWtlLWF0dHJhY3RpbmctbW9yZS10cmFkZXJzLWRpZmZpY3VsdD9jbX=
+BpZD1CQkQwNzA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c=
+2xldHRlciZ1dG1fdGVybT0yMzA3MDUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b=
+8524a319a23cBf7980342" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">  Attracting More Traders</a> Difficult. <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDQvY3Jpc3Bpbi1v=
+ZGV5LXMtaGVkZ2UtZnVuZC1lbXBpcmUtaXMtZGlzaW50ZWdyYXRpbmctYml0LWJ5LWJpdD9jbXB=
+pZD1CQkQwNzA1MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMzA3MDUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cB8f54ee25" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Odey=E2=80=99s</a> Hedge Fund Empire Is Disin=
+tegrating Bit by Bit. Hedge Fund <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31994559.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjMtMDctMDUvaGVkZ2UtZnVuZC1raW5nLXN0cmVldC1yYWlzaW5nLWZ1bmRzLWZ=
+vci1zbG93LW1vdGlvbi1jYXItY3Jhc2gtaW4tY3JlZGl0P2NtcGlkPUJCRDA3MDUyM19NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzM=
+DcwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB3ed38472" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  King Street</a> Raising Funds for =E2=80=98Slow-Motion Car Crash=E2=
+=80=99 in Credit. Utility Companies <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31994559.257406/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy91d=
+GlsaXR5LWNvbXBhbmllcy1zZWxsLXdpbmQtc29sYXItZmFybXMtdG8tc2hvcmUtdXAtdS1zLXBv=
+d2VyLWdyaWQtNzU1YmYwNmM_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23=
+cBad023f7e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> Sell Wind, Solar Farms</a> to Shore Up U.S. Power Grid=
+. <a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/=
+aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9iaW5hbmNlLXVzLWNyeXB0by1tYXJrZXQtc2h=
+hcmUtZGl2ZXMtZTQyYWViND9tb2Q9aHBfbGlzdGJfcG9zMQ/607f07ceef4b8524a319a23cBe7=
+b874eb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> Binance.US</a> Crypto Market Share Dives.=C2=A0Crypto Gian=
+t <a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/=
+aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jcnlwdG8tZ2lhbnQtYmluYW5jZS1zdHJ1Z2d=
+sZXMtaW4tZXVyb3BlLTgyMTU0YjEzP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a=
+319a23cB208ed85a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Binance</a> Struggles in Europe.=C2=A0<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/31994559.257406/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDUvZGFuaXNoLXJlZ3VsYXR=
+vci1vcmRlcnMtc2F4by1iYW5rLXRvLXN0b3Atb3duLXRyYWRpbmctaW4tY3J5cHRvP2NtcGlkPU=
+JCRDA3MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIzMDcwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cB9bd94655" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">Crypto Trading</a> by Saxo Bank Gets Quashed by D=
+anish Regulator. Instagram Launch of <a href=3D"https://link.mail.bloomberg=
+business.com/click/31994559.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjMtMDctMDMvaW5zdGFncmFtLWxhdW5jaC1vZi10d2l0dGVyLXJpdmFsLXR=
+ocmVhZHMtZXhwZWN0ZWQtb24tdGh1cnNkYXk_Y21waWQ9QkJEMDcwNTIzX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzA1JnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe78380a1" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Tw=
+itter Rival</a> =E2=80=98Threads=E2=80=99 Expected on Thursday. Twitter to =
+Make <a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.2574=
+06/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDQvdHdp=
+dHRlci10by1tYWtlLXR3ZWV0ZGVjay1hdmFpbGFibGUtb25seS10by1wYWlkLXZlcmlmaWVkLXV=
+zZXJzP2NtcGlkPUJCRDA3MDUyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdX=
+JjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcwNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/60=
+7f07ceef4b8524a319a23cB9f0c42f0" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  TweetDeck</a> Available Only to =
+Paid, Verified Users.=C2=A0U.S. Looks to Restrict China=E2=80=99s Access to=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/a=
+HR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy91LXMtbG9va3MtdG8tcmVzdHJpY3QtY2hpbmFz=
+LWFjY2Vzcy10by1jbG91ZC1jb21wdXRpbmctdG8tcHJvdGVjdC1hZHZhbmNlZC10ZWNobm9sb2d=
+5LWY3NzE2MTM_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB0dc37381"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">Cloud Computing</a> to Protect Advanced Technology.=C2=A0Saudi Ara=
+bia set to launch multibillion-dollar <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvM2E=
+wNTE3NTItZjAyNC00YTYzLWIzMTQtYzQwN2NmMWJjZTE1/607f07ceef4b8524a319a23cB23a8=
+2112" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> sports investment group</a>. Diamond Giant <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3cud3N=
+qLmNvbS9hcnRpY2xlcy9kaWFtb25kLWdpYW50LWRlLWJlZXJzLXRvLWxldC1ib3Rzd2FuYS1rZW=
+VwLWhhbGYtb2YtcHJvZHVjdGlvbi0xMTBkMzU3MD9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07=
+ceef4b8524a319a23cBc504a404" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> De Beers</a> to Let Botswana Keep Hal=
+f of Production. US <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/31994559.257406/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNDUwYmVkMmEtZGNiNC00Y=
+zdiLTljZGQtZmM3NzRkMTE2NTZh/607f07ceef4b8524a319a23cBcce554fa" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> aud=
+it fees</a> that lag inflation squeeze accountants. Lazard Fires Senior Ban=
+ker for <a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.2=
+57406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDMvb=
+GF6YXJkLWZpcmVzLXNlbmlvci1iYW5rZXItZm9yLWluYXBwcm9wcmlhdGUtYmVoYXZpb3ItYXQt=
+cGFydHk_Y21waWQ9QkJEMDcwNTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzA1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cBae88b600" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  Inappropriate Behavior at Party=
+</a>.=C2=A0Secret Service Examining How Suspected <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3cubnl0aW1lcy5=
+jb20vMjAyMy8wNy8wNC91cy9wb2xpdGljcy93aGl0ZS1ob3VzZS1jb2NhaW5lLXdoaXRlLXN1Yn=
+N0YW5jZS5odG1s/607f07ceef4b8524a319a23cBd4ea3f7e" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> Cocaine Ended Up=
+ at the White House</a>.=C2=A0This Airline Will <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/31994559.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDUvYWlybGluZS10by1yZW50LWNsb3RoaW5nLXRv=
+LXBhc3NlbmdlcnMtZm9yLXZhY2F0aW9ucy1idXNpbmVzcy10cmlwcz9jbXBpZD1CQkQwNzA1MjN=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yMzA3MDUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB3199=
+4f89" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  Rent Out Clothes</a> So You Can Travel Baggage-Free.</p><p =
+style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media">=
+<em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, ri=
+ght in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/31994559.257406/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy=
+5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyN=
+jI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBc3430418" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money Stu=
+ff and other great Bloomberg newsletters <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/31994559.257406/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29t=
+L25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBe83c7ba1" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB3eff07e3" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB7fb7038e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBb662bd34" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB927fb871" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBb77d6eae" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.2574=
+06/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB6c6eae9e" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31994559.257406/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC2d5f7b85" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31994559.257406/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB61a83cf8" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31994559.257406/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB075cf841" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBe=
+ea7e3bf" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31994559.257406/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBb=
+5feb16f" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj1r5r.5im6/8c474dbd.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_3280545_1823098562.1688582215557--
+

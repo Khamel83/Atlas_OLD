@@ -1,0 +1,1905 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:3ec8:0:b029:f4:4708:ac4 with SMTP id s8csp4231519lkd;
+        Tue, 4 May 2021 09:43:15 -0700 (PDT)
+X-Received: by 2002:a17:907:3f06:: with SMTP id hq6mr21492504ejc.46.1620146594062;
+        Tue, 04 May 2021 09:43:14 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1620146594; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=JTEjpFC5M3by9PwsCYBpiObuAnb57lE8HWk6A0yk8JukqMYyy9vY7QOsLVfw8XyxCZ
+         PXhKJanqKZ+VgjDGHxXIgJlHKcEs+MAlb8MBgCfsy0Vyg3iHOJzBl9AndrmNS9HKwint
+         qy0XaZYbmk+UgI1cYa9r0YsVkTg3tiuGQibveaCRKDnnzNn3WWZDiBVqVdKWKbXI5ui2
+         rNOxB8DHsO4iLWwebPsVC4IdyRkT68mzfADUQmv+72CmHVobLaEiP1YFaaxgX9CmR32b
+         OL8WOgZFSw9QeNRZEaqHOqAJQfCbYCuJ0OTUflaB6Q3tOLlVrd/CIzLM7iBNSihIyHx8
+         QCwQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=2LAyvGWsZ+jZhpU5xWwZo0WnflzychfhTnnNQ0Yqqa4=;
+        b=uTEFkc4O1cyxJdLgdLK/fGD+5/NVFoXxNX4Xkn8lji5pnAxriVy6rYgRkmfcxfHtXG
+         kSxHQaJImziRwX5xnAWey3+LEx+mT3B/5E14LfB0AoPeRYUA5g2dYxqRLdQ6NAm3ev1A
+         Ojs4h4O4BSIZQDln8R+IqS1ad52vLtSCwUltBSpqO4Vac83lB9A4sya5gicO24zJr9ab
+         1O3nwdzDwXf59riKhwUr66MZd+2KGuNo4zKE2JgddQfK5q7HArGsjuz0TmjuoCJKG3iF
+         vOzJVZnjsUY44cfs/LDEny+q06sI9saFPok7GZLuZJGM64UGhFxZXZWQ80z57EtYOIM8
+         zHaQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1SlNheUd;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id v1sor9841270ejw.83.2021.05.04.09.43.13
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 04 May 2021 09:43:14 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1SlNheUd;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=2LAyvGWsZ+jZhpU5xWwZo0WnflzychfhTnnNQ0Yqqa4=;
+        b=SdmJ5P23tUdWZtRtsHEbxB34bRr3ewR9Kx02SXy+As/KflhZlAKgoiMU15VFEEnHZk
+         3Z/pmeRFoOfpmUcmvqByJRnzhup4JVhPXxCw8YDDYCM/fFtav28t4AX5BTYI/fzcKgcC
+         ZalZt6vgJIkhLsX00v1dQlYk/d9VEMu/QOjlzEBBGZWHdRYzhIYihM/16dORyziC8svs
+         f+BuQbheqrP2xFG1pjOynOdDJg66o3r7fJYdKRFx9bjyVCvhTm96ZpE7Hhv3rwx7oXC2
+         kpyLU+gFwNY5q7XeYLK293XN8rNJgnFJGCM+jfLj8EMol2ShUT10KstpJitWE1OzhGlF
+         jMcg==
+X-Gm-Message-State: AOAM533R9NZj06ol2fz9BsPHNDmP1A947hfiIFod1jbbX86GZPD1YbcI
+	HSzWXTk8OthVDhJE5uwTXU+lLZN4yYNb+hEP0YdM1lL7dyF/xSoMEA==
+X-Received: by 2002:a17:906:edcf:: with SMTP id sb15mr22740746ejb.202.1620146593581;
+        Tue, 04 May 2021 09:43:13 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3b92:0:0:0:0:0 with SMTP id h18csp4120275ecn;
+        Tue, 4 May 2021 09:43:10 -0700 (PDT)
+X-Received: by 2002:ac8:5f48:: with SMTP id y8mr23292664qta.69.1620146590066;
+        Tue, 04 May 2021 09:43:10 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1620146590; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=tZaBYDEIL64cTNpj4MIjmqVVOb/yf2c5kZcAcTHoq9tPOcizi4jbyCgkKIkqjjEsds
+         XsWbJKqY6NmJ8W7cFMl9RY0A4CGVp1OjK8wJvX9eyFjxs0azmTSnaLair6hi7jiko05B
+         pZyCOgUY9NcXCdeYYC3KPc1twtsGWKiE7QpfPQWlCDG91TbetSRzRNWjo2QdxD9spdr4
+         ssx52OASgOVbUm+v9bhNtO9rMw7Q5ehl9HLStg05N7fQz1p/LpxNXTx8oX6U74zieJtT
+         ujypa3pJ1qomt5hSs05FVszlLHsUySU5QX65yIOaNEMEvRPCmoYAUGiEVqhNd+MK65LH
+         qARQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=2LAyvGWsZ+jZhpU5xWwZo0WnflzychfhTnnNQ0Yqqa4=;
+        b=LCgygO0JS6iv2yuPExg5iQsCOVScJbGAcG6a+ivtMlXDf0mckrA+7lGReDvXrDEp6Q
+         2Ws83ASW/obwZ4UT0VrYa82PaBuU7JnbBo7AhJrMjnxFPV3BlB7b4MXCRWHx2xmp/cmE
+         JfIG4denkgvJ4GVa+UfazmPf0o1EDW2UgsKnHJTjEiZW7Lg7La2bsPTp9UBTvA0h2rou
+         TVncx7hQqg9G0C9h/0C+M5eAWmFumRpGqzokdC70AUqGsz8sCl0gDQHIgqq+89BKIB94
+         mQV0qGm7jHL2dAq22zT/xMligO6N5TBHgC3rQD+9jy+s0HEhti3W8ZSnYvseZl2X/2KP
+         uZ2Q==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1SlNheUd;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210504124156.23739257.287527@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210504124156.23739257.287527@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210504124156.23739257.287527@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id f14sor7385833qkg.128.2021.05.04.09.43.09
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 04 May 2021 09:43:10 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210504124156.23739257.287527@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyHlK+Dc5ENWpqBA8AjKRzSYOur916Y6uFhUDiJp4gU5EubHFI6aN0AyuPgQMoL/8+uqQ9kmRzUgEtPjlAjDenYiw4evAU=
+X-Received: by 2002:a37:5603:: with SMTP id k3mr26247458qkb.404.1620146589331;
+        Tue, 04 May 2021 09:43:09 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1620146589; cv=none;
+        d=google.com; s=arc-20160816;
+        b=XN6Fp8aTdKDvslvntcOemDN5jNcGt01m6rGKDlMlbGe3v/oAXIWdat1HOPbf6TcbGL
+         4dc3SJ/CMM51+ayyinJEdGtMa120nJ6wSNYN/GP2fE0OvdaGxQ8OD0Z6OiKfY4P8mEkv
+         mrbIsE106jY4a8YHLDbppaHWRizOfoXpcMaABTX6nzyh79YZvZCi7tkYhOuehOK0ngkx
+         TH4LXDSMZxtiwyDbIV/RCMuFwFMBrtuJCK8VxIeBW42qXlVrmxSOhAqwZubbTcM3lG+l
+         35f5rmMH8HR9RvlItWENZTfqxdGjnWf8LNIrt0wUd2rA0LaIu1pYKl9fU4yho62dpLEV
+         5iVw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=2LAyvGWsZ+jZhpU5xWwZo0WnflzychfhTnnNQ0Yqqa4=;
+        b=Opo4dZEO1iI120f8FjzaCccGG+srKJhv/Wv0hAD77KMuBGHDTOiscNM/tsd026Qtat
+         LIdN6OI1YH7bc+pf77xHa6yuH+tLM90fgo1xYPf/mF6MgJ2DrYkzdRpcCiF3q1B8A44w
+         MqZOdGozcLU6TQw2cI7J9XauUvLH0OCvc+imJTw/TL551H3yv7vqkRtk+tDWBpOrZp/j
+         E1u9K03UdSInNHUFlRzT8cADR5N9WtV5MEVc7qAr9FW0yrajt6nS77V6wpkFxggo9fBO
+         OD1U79wkbUXgXgfTskMQK3xir0YsavjOUzdsKQDbCxFlULNwQLWLrjy0wEbnlPb1wDdC
+         veNw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=1SlNheUd;
+       spf=pass (google.com: domain of delivery_20210504124156.23739257.287527@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20210504124156.23739257.287527@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210504124156.23739257.287527@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTP id t65si225491qke.7.2021.05.04.09.43.09
+        for <khamel83@gmail.com>;
+        Tue, 04 May 2021 09:43:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210504124156.23739257.287527@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=qaP1mcnsz1//dNoaYb0+nwAknxo=;
+ b=1SlNheUdXCoBHzRa9ZS5JAufAM2BRVQDmikTs5d7NIYihR/2UV8cyV4J8p1rhGlUj15mWwRFCzvb
+   aVQfRclpCDvKoqM/6y+3ICQSPrC6ME2N3BJYZi92jXm5IOy7JX47abaUVzdhhSHRdLyPgR2g5H8a
+   QAAS2r0e9AhBwgs3nig=
+Received: from njmta-90.sailthru.com (173.228.155.90) by pmta29.sailthru.com id hi5spq1qqbsf for <bloomberg@khamel.com>; Tue, 4 May 2021 12:43:08 -0400 (envelope-from <delivery_20210504124156.23739257.287527@mx.sailthru.com>)
+Received: from nj1-heypurple.flt (172.18.20.12) by njmta-90.sailthru.com id hi5spo1qqbsd for <bloomberg@khamel.com>; Tue, 4 May 2021 12:41:56 -0400 (envelope-from <delivery_20210504124156.23739257.287527@mx.sailthru.com>)
+Date: Tue, 4 May 2021 12:41:56 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210504124156.23739257.287527@sailthru.com>
+Subject: Money Stuff: Under Armour Sold Some Clothes Early
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6680255_1078041579.1620146516828"
+Precedence: bulk
+X-TM-ID: 20210504124156.23739257.287527
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-heypurple.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce4tbt.65uv/555b026a
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce4tbt.65uv/555b026a>, <mailto:unsubscribe_20210504124156.23739257.287527@mx.sailthru.com>
+X-rpcampaign: stjko23739257
+
+------=_Part_6680255_1078041579.1620146516828
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+  @media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+
+ =20
+ =20
+  Money Stuff
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+   =20
+       =20
+           =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+
+     =20
+     =20
+ =20
+   =20
+      Programming note: Despite yesterday=E2=80=99s programming note, here =
+Money Stuff is today. But it will be off tomorrow, back on Thursday. Sorry =
+for the confusion.Short-termismOne theory is that the price of a share of s=
+tock reflects the present value of its future cash flows in=C2=A0perpetuity=
+. People buy stock today not because they expect high profits tomorrow, but=
+ because they expect high profits over the long run. Investment decisions t=
+hat cost money today, but that will bring in much more money in five years,=
+ increase the net present value of the stock, so the shareholders should su=
+pport them.=C2=A0Another theory is that public markets are myopically focus=
+ed on the short term. Investors care only about this quarter=E2=80=99s earn=
+ings; they buy stocks whose earnings go up each quarter and sell stocks who=
+se earnings go down. A decision that reduces earnings today, in exchange fo=
+r higher earnings in the future, is bad, and shareholders will punish a com=
+pany that makes those decisions.These theories obviously conflict, and I am=
+ mostly inclined to believe the first one.=C2=A0The number of zero-revenue =
+electric-vehicle companies that go public at multibillion-dollar valuations=
+ seems to me like proof that public stock markets can look past this quarte=
+r and consider future profits. Still, for most regular companies, this quar=
+ter=E2=80=99s earnings probably are the best evidence of what future earnin=
+gs will look like, so investors do tend to care. And public-company executi=
+ves =E2=80=94=C2=A0not all of them, but some of them =E2=80=94 do sometimes=
+ get locked into a myopic obsession with each quarter=E2=80=99s numbers.Oft=
+en this debate is sort of vague and abstract, and it=E2=80=99s hard to tell=
+ if a company is really trading off long-term profitability against short-t=
+erm earnings. But=C2=A0here=E2=80=99s a sad little U.S. Securities and Exch=
+ange Commission enforcement action against Under Armour Inc. for =E2=80=9Cp=
+ulling forward=E2=80=9D revenue. Under Armour had a long history of growing=
+ revenue at a 20% year-over-year rate every quarter. It was proud of this h=
+istory, it mentioned it in earnings releases and on earnings calls, and inv=
+estors and analysts came to expect consistent 20% growth rates.Having consi=
+stent 20% growth rates is good! If you keep growing revenue at 20% a year, =
+your future revenue will be really high! If investors can project 20% reven=
+ue growth rates forever =E2=80=94=C2=A0not forever, obviously, but for a lo=
+ng time =E2=80=94=C2=A0then they will put a very high value on your stream =
+of future cash flows, and so they will pay a lot for your stock. Having a 2=
+0% growth rate every quarter is good evidence that your future growth rates=
+ will be high. Having your growth rate decline below 20% is good evidence t=
+hat your future growth rates will be lower. Not proof, in either case, but =
+evidence.In the third quarter of 2015, Under Armour realized its sales were=
+ not going to be what analysts expected. So it said, well, we already have =
+some sales planned for the fourth quarter, why not just move those into the=
+ third quarter? So it called up customers and asked them to take their orde=
+rs early, so they could be booked into the third quarter:To close the emerg=
+ing revenue gap, Under Armour=E2=80=99s senior management directed the FP&A=
+ [Financial Planning & Analysis] group and senior sales personnel, among ot=
+her things, to identify existing orders that customers had requested be shi=
+pped in the next quarter that could instead be shipped in the current quart=
+er. =E2=80=A6Ultimately, Under Armour pulled forward approximately $45 mill=
+ion in orders from the fourth quarter of 2015 into the third quarter of 201=
+5. On October 22, 2015, Under Armour announced revenue of $1.204 billion fo=
+r the third quarter of 2015, beating analyst consensus by $29 million. =E2=
+=80=A6Under Armour did not disclose that it used pull forwards, despite the=
+ fact that nearly 4% of its total revenue for the third quarter of 2015 (ap=
+proximately $45 million) resulted from the practice. Without the pull forwa=
+rds from the fourth quarter of 2015, Under Armour=E2=80=99s growth rate for=
+ the third quarter of 2015 would have been below analysts=E2=80=99 revenue =
+estimates and the lowest quarterly growth rate in more than two years.But t=
+his created a problem in the fourth quarter: Under Armour moved $45 million=
+ of fourth-quarter revenue into the third quarter, which meant that it star=
+ted $45 million behind in the fourth quarter. So it pulled $99 million of r=
+evenue forward in the fourth quarter. This created a problem in the first q=
+uarter of 2016:By February 2016, the gap between internal forecasts and ext=
+ernal revenue guidance was so significant that Under Armour considered revi=
+sing its public revenue guidance for the quarter =E2=80=93 something the co=
+mpany had never done before. An Under Armour senior executive acknowledged =
+the challenges caused by the 2015 pull forwards by stating in an email: =E2=
+=80=9CLet=E2=80=99s see how of [sic] this goes and if we can get enough pul=
+l-forwards or extra business to close the Q1 gap. The issue is that we pull=
+ed forward a lot in Q4 and there is not as much room in Q2 but we will see.=
+=E2=80=9D=C2=A0Etc. This kept going=C2=A0until the fourth quarter of 2016, =
+when Under Armour pulled forward $172 million of revenue but then decided i=
+t was all getting to be too much:Because Under Armour could not meet analys=
+ts=E2=80=99 revenue estimates even with the $170 million in pull forward sa=
+les, a senior Under Armour executive made the decision to limit additional =
+pull forwards from 2017 into 2016. Notes from a December 15, 2016 meeting o=
+f the company=E2=80=99s top executives reflect that, while discussing his d=
+ecision, the senior executive stated that the company had =E2=80=9Cbeen liv=
+ing in this bubble for a while,=E2=80=9D that pulling forward revenue in ea=
+ch quarter was not healthy, and that the company was =E2=80=9Cnot going to =
+compromise 2017 . . . we=E2=80=99re not going to take from next year.=E2=80=
+=9DA couple of points. First, this problem really does get worse over time:=
+The impact of these shifting sales was especially pronounced for Under Armo=
+ur because prior reported revenue, particularly in the third and fourth qua=
+rters of 2015, included a significant amount of pull forwards. Therefore, t=
+o meet analysts=E2=80=99 revenue estimates for 2016,=C2=A0Under Armour had =
+to replace the sales it had previously taken from 2016 through additional c=
+ustomer demand and new products, but also demonstrate the same percentage r=
+evenue growth when compared to the 2015 revenue totals (which in turn had b=
+een enhanced with pull forwards). In internal emails, Under Armour acknowle=
+dged this =E2=80=9Cdouble impact on the growth rate=E2=80=9D resulting from=
+ pull forwards because they =E2=80=9Ctake the base up=E2=80=9D in the earli=
+er year and down in the later year.Second, you can=E2=80=99t just unilatera=
+lly pull forward revenue; you have to call up customers and ask them to tak=
+e products early.[1] This is awkward, both in the sense that the customers =
+will be annoyed, but also in the sense that you will create an unfortunate =
+record for the SEC to look at later:For example, in September 2016, Under A=
+rmour requested additional pull forwards from a key customer, after already=
+ having asked to move more than $30 million in sales from the fourth quarte=
+r of 2016 to the third quarter of 2016. The customer responded by saying: =
+=E2=80=9CWe just brought a bunch of your goods in early to help out your qu=
+arter. . . Now you want more. . . More..More..more..30% [price discount] pl=
+ease.=E2=80=9D Under Armour ultimately agreed to a 25% price discount and a=
+n extra 30 days to pay to secure an additional $6.7 million of pull forward=
+s.Under Armour was willing to take 75 cents this quarter instead of 100 cen=
+ts the next quarter, because it needed to beat analyst estimates this quart=
+er. That is not economically rational, and shareholders discounting all fut=
+ure cash flows would not want their company to pay up so much to accelerate=
+ cash flows by a month. Nevertheless it happened. Under Armour strictly pre=
+ferred beating quarterly analyst expectations to maximizing the net present=
+ value of its cash flows.Third, the SEC charged Under Armour with securitie=
+s fraud, and Under Armour settled by paying $9 million without admitting or=
+ denying the charges. But the SEC conceded that Under Armour=E2=80=99s=C2=
+=A0accounting=C2=A0was correct.[2] All the pulled-forward sales really happ=
+ened, and were booked into the quarters when they happened; Under Armour=E2=
+=80=99s income statements accurately reflected its revenue each quarter.The=
+ problem is that Under Armour created a misleading impression of=C2=A0how=
+=C2=A0it got those earnings: In its earnings releases and calls and securit=
+ies filings, Under Armour said the usual things about how it kept growing, =
+and how the growth=C2=A0was due to things like =E2=80=9Cgrowing interest in=
+ performance products, the strength of the Under Armour brand in the market=
+place, and increased sales and new offerings in footwear and apparel.=E2=80=
+=9D Instead of saying =E2=80=9Cwell we keep growing because we pester custo=
+mers to take next quarter=E2=80=99s deliveries this quarter, which is unsus=
+tainable.=E2=80=9D If it had said that, investors would have understood the=
+ real story; they would not have interpreted consistent quarterly revenue g=
+rowth as evidence of future revenue growth.=C2=A0Fourth, this sort of lite =
+fraud =E2=80=94=C2=A0not accounting fraud, just fraud in the explanation if=
+ you will =E2=80=94=C2=A0is=C2=A0in the abstract hard to prove. Calling a c=
+ustomer and saying =E2=80=9Chey you should buy more of our products and soo=
+ner rather than later=E2=80=9D could be gimmickry to meet quarterly numbers=
+, but it could also be good aggressive sales tactics.=C2=A0The way you know=
+ it=E2=80=99s gimmickry is mostly that Under Armour executives kept emailin=
+g each other to say it was:An Under Armour senior executive acknowledged th=
+at the desire to ship the product early was being driven by pressure to mee=
+t analysts=E2=80=99 revenue estimates, saying that the customer =E2=80=9Cis=
+n=E2=80=99t setting [Under Armour product in its stores] until February, so=
+ whether we thought it was $20 or $53 [million] or whatever, really [the cu=
+stomer] doesn=E2=80=99t want any of that product in December but we are shi=
+pping it and they are absolutely taking it from us as a favor. If we were a=
+ privately held company, we would not ship that product to them in December=
+.=E2=80=9D =E2=80=A6Internally, Under Armour knew that the company relied h=
+eavily on pull forwards to meet analysts=E2=80=99 revenue estimates, and th=
+e company=E2=80=99s senior management implicitly admitted the unsustainabil=
+ity of this practice by describing pull forward revenue as =E2=80=9Cbad,=E2=
+=80=9D =E2=80=9Cunnatural,=E2=80=9D and =E2=80=9Cunhealthy.=E2=80=9DYes, if=
+ you just email your salespeople and say =E2=80=9Csell more! Faster!=E2=80=
+=9D the SEC will have a hard time making a case for fraud. If you email the=
+m saying =E2=80=9Csell more! Faster!=E2=80=9D and then email your colleague=
+s saying =E2=80=9Cwe would not be selling so fast if we were making economi=
+cally rational decisions, but we need to sell faster to trick shareholders,=
+=E2=80=9D the SEC will object.XIV=C2=A0Credit Suisse Group AG used to have =
+a product called XIV, which was pronounced not =E2=80=9Cfourteen=E2=80=9D b=
+ut rather =E2=80=9CVelocityShares Daily Inverse VIX Short-Term ETN.=E2=80=
+=9D XIV was an exchange-traded note linked to the inverse of the VIX, the C=
+BOE Volatility Index, which is a measure of volatility in the stock market.=
+ If you wanted to bet that volatility would go=C2=A0down, you could buy XIV=
+, which went up in value when the VIX went down and vice versa. XIV was an =
+exchange-traded note, meaning that you could buy it on the stock exchange (=
+like an exchange-traded fund) but ultimately it was an obligation of Credit=
+ Suisse, which would calculate the value of the note and pay you that value=
+. If volatility went down, Credit Suisse owed you more money; if it went up=
+, Credit Suisse owed you less.You could imagine structuring a product like =
+that by basing it directly on the VIX, like, =E2=80=9Cthese notes are $100 =
+when the VIX is at 15, $10 more for every point below that, and $10 less fo=
+r every point above that; at a VIX of 25 the notes go to zero.=E2=80=9D (Or=
+ whatever you think the numbers should be.) But that is not how XIV was str=
+uctured. Instead, the way XIV worked was that it was indexed to a couple of=
+ near-term VIX=C2=A0futures=C2=A0contracts. There is a traded market for fu=
+tures contracts, bets on the future price of the VIX; the way XIV worked is=
+ that, each=C2=A0day, you=E2=80=99d measure how much those futures contract=
+s were up (or down) over the day before, and the value of XIV would decline=
+ (or increase) by that percentage amount.[3]=C2=A0There=E2=80=99s a reason =
+for this, which is that Credit Suisse had to hedge its XIV exposure, and th=
+e way to hedge an inverse VIX exposure is to sell VIX futures contracts. (V=
+IX itself is not a tradable security, just an index, so you can=E2=80=99t h=
+edge inverse VIX exposure by selling VIX itself.[4]) By selling the XIV not=
+es to investors, Credit Suisse effectively got long volatility: The investo=
+rs were betting that volatility would go down, Credit Suisse took the other=
+ side of the bet, so Credit Suisse was betting that volatility would go up.=
+ It didn=E2=80=99t really want to make that bet =E2=80=94=C2=A0it just want=
+ed to collect a fee for providing a bet to customers =E2=80=94=C2=A0so it h=
+edged it by getting short VIX futures contracts, betting that volatility wo=
+uld go down.I say that Credit Suisse =E2=80=9Cused to=E2=80=9D have a produ=
+ct called XIV, because in 2018  XIV  blew  up. Basically the VIX doubled in=
+ one day =E2=80=94 Monday, Feb. 5, 2018 =E2=80=94 which caused the XIV note=
+s to go roughly to zero. A feature of the notes provided that, if the value=
+ fell by more than 80% in one day, Credit Suisse could call them and pay th=
+em off at their final value. It  did that. People who bought XIV notes lost=
+ almost all=C2=A0of their money: XIV closed at $115.55 on Friday, Feb. 2, t=
+he last trading day before the collapse; it was redeemed on Feb. 21 at $5.9=
+9. Investors lost about $1.8 billion.We  talked  about it  at the  time; it=
+ was pretty awkward for Credit Suisse. The key awkwardness has to do with h=
+ow Credit Suisse hedged its XIV exposure=C2=A0by selling VIX futures. If yo=
+u sell an exchange-traded note that is linked directly to VIX futures =E2=
+=80=94=C2=A0that goes up when the VIX goes up =E2=80=94=C2=A0you can hedge =
+it by buying VIX futures and holding them: If the futures go up 1%, the val=
+ue of the note goes up 1%; your gain on the futures will exactly offset you=
+r loss on the notes.[5]But if you sell an exchange-traded note that is link=
+ed=C2=A0inversely=C2=A0to VIX futures, that doesn=E2=80=99t quite work; you=
+ can=E2=80=99t just sell VIX futures and wait. Let=E2=80=99s say you sell a=
+ $100 inverse VIX note and hedge by selling $100 of futures. If the futures=
+ go down by 1%, you have a gain on your short futures position and an offse=
+tting loss on the note, great. But now you are short $99 of futures, and th=
+e note is worth $101. You are no longer correctly hedged; you=C2=A0need to =
+rebalance by selling $2 more worth of=C2=A0futures, so that you=E2=80=99re =
+short $101 of futures. And vice versa: If VIX futures go up (and the note g=
+oes down), you have to buy back some of the futures you sold to remain bala=
+nced.The problem with XIV is that one day volatility spiked, the VIX went u=
+p a lot, and VIX futures went up a lot. Credit Suisse had a big gain on XIV=
+ (because the amount it owed on the XIV notes went down), but a big loss on=
+ its short-VIX-futures position (because VIX futures went up). This require=
+d it to adjust its hedge by=C2=A0buying=C2=A0back a ton of VIX futures. It =
+did this at the end of the trading day, because the XIV value was calculate=
+d based on the end-of-day prices of VIX futures, so the most accurate way t=
+o hedge was to buy futures at the end of the day.One thing that happens whe=
+n you buy a ton of VIX futures over a few minutes at the end of the trading=
+ day is that the prices of those futures go up a lot. You are a huge forced=
+ buyer, there are no huge forced sellers, so you push up the price. The res=
+ult is that Credit Suisse=C2=A0pushed down the value of XIV, through its ow=
+n trading.Another thing that might happen is =E2=80=A6=C2=A0you make a ton =
+of money? Schematically, imagine that VIX futures closed the previous day a=
+t 30, open the day at 30, and by 4 p.m. they are trading at 45.[6] Imagine =
+also that there are $2 billion of XIV notes outstanding, and Credit Suisse =
+is short $2 billion of futures as a hedge. Credit Suisse knows that it need=
+s to buy a ton of VIX futures. It does this in 15 minutes, from 4 p.m. to 4=
+:15 p.m. The first trade it does, at 4 p.m., is at (say) 45.=C2=A0This push=
+es up the price to 48. It buys more at 48, which pushes up the price to 51.=
+ It keeps going, until it does its last trade at 58. The closing price of t=
+he VIX futures =E2=80=94=C2=A0the price used to calculate its XIV obligatio=
+n =E2=80=94=C2=A0is 58, up 93% from the day before. XIV has lost 93% of its=
+ value; Credit Suisse went from owing $2 billion to owing about $140 millio=
+n, for a gain of $1.86 billion on the notes. Meanwhile Credit Suisse=E2=80=
+=99s average=C2=A0buying=C2=A0price for its futures is not 58 (the closing =
+price), but rather some average between 45 (where it starts) and 58 (where =
+it finishes). Say its average price is 52, and it bought back all $2 billio=
+n worth of futures. It paid about $3.46 billion for them, losing $1.46 bill=
+ion on the hedge, for a net gain (gain on XIV minus loss on hedge) of $400 =
+million.[7] If it=C2=A0didn=E2=80=99t=C2=A0buy back all of its futures that=
+ day, it did even better: The futures fell again the next day, and Credit S=
+uisse could have bought them back cheaper.I should emphasize that this is s=
+chematic, made-up math, and you should not put any stock in that $400 milli=
+on number, but directionally the idea is about right.[8] If Credit Suisse w=
+as dynamically hedging XIV, it did very well that day. It is actually a lit=
+tle unclear if it was: There are some indications that Credit Suisse laid o=
+ff some or all of its XIV risk to a counterparty, some other bank that hedg=
+ed the risk by trading the futures contracts.[9] In essence, then, Credit S=
+uisse would have been just a middleman, with a flat position, and would not=
+ have made much or any money that day. But the descriptions above =E2=80=94=
+=C2=A0about Credit Suisse pushing up the price of VIX futures (and pushing =
+down the price of XIV), and about Credit Suisse making a boatload of money =
+doing so =E2=80=94=C2=A0would still be mostly accurate; they would just des=
+cribe Credit Suisse=E2=80=99s hedge counterparty rather than Credit Suisse =
+itself.Some people who owned XIV notes sued Credit Suisse over this. The la=
+wsuit almost writes itself:=09You sold notes that would go down when VIX fu=
+tures went up.=09Then you bought a ton of VIX futures, pushing their prices=
+ up.=09Investors in the notes lost everything.=09You made a bunch of money.=
+It=E2=80=99s intuitive! I  do not like this theory, because I do think that=
+, in general, banks should be able to sell derivatives and hedge them, and =
+sometimes the hedging will influence the price of the derivative. And this =
+is generally reasonably clearly disclosed, and a product like this can=E2=
+=80=99t really work otherwise, and investors roughly know what they=E2=80=
+=99re getting into. But I concede that this theory is intuitive, particular=
+ly in this case. Credit Suisse sold a product, and then tanked it itself; t=
+he buyers lost all their money and Credit Suisse apparently did great. It d=
+oes=C2=A0seem=C2=A0wrong.So the lawsuit made the intuitive argument, and Cr=
+edit Suisse defended itself in a straightforward way (by saying that its he=
+dging was legitimate and fully disclosed in the prospectus), and a judge ag=
+reed with Credit Suisse and dismissed the case. The XIV holders appealed, a=
+nd last week they won a round: The U.S. Court of Appeals for the Second Cir=
+cuit let them go forward with a case arguing=C2=A0that Credit Suisse did ma=
+rket manipulation in the last days of XIV. Here is the opinion.=C2=A0It is =
+a bit of a strange result, a strange opinion. The court acknowledges that C=
+redit Suisse had a right to hedge its XIV risk, but doesn=E2=80=99t find th=
+at dispositive:To be sure, it is generally true that short selling or other=
+ hedging activity is not, by itself, manipulative=E2=80=94even when it occu=
+rs in high volumes and even when it impacts the market price for a security=
+. But here, the complaint alleges more than routine hedging activity: It al=
+leges that Credit Suisse flooded the market with millions of additional XIV=
+ Notes for the very purpose of=C2=A0enhancing the impact of its hedging tra=
+des and collapsing the market for the notes.The claim is not just that Cred=
+it Suisse bought a bunch of futures at the close on Feb. 5, 2018, pushing a=
+round the market; it=E2=80=99s that Credit Suisse=C2=A0sold too many XIV no=
+tes precisely so that its futures trading would push around the market.=C2=
+=A0There had been three volatility spikes before Feb. 5, 2018, and each tim=
+e Credit Suisse=E2=80=99s hedging seemed to affect the market for VIX futur=
+es. =E2=80=9CPursuant to Credit Suisse=E2=80=99s internal risk protocols, a=
+ll three of these liquidity incidents were promptly reported to Credit Suis=
+se=E2=80=99s Capital Allocation and Risk Management Committee (CARMC),=E2=
+=80=9D and afterwards =E2=80=9CCredit Suisse=C2=A0sought alternative ways t=
+o hedge its own exposure to XIV Notes,=E2=80=9D besides trading futures, th=
+ough it=E2=80=99s unclear if it found them.=C2=A0But then it also started s=
+elling a bunch more XIV notes.=C2=A0The complaint plausibly alleges that Cr=
+edit Suisse knowingly or recklessly exacerbated the liquidity squeeze it ha=
+d already observed in the VIX futures market by increasing the number of XI=
+V Notes outstanding through its offerings of June 30, 2017 and January 29, =
+2018. When Credit Suisse offered 16,275,000 XIV Notes on the latter date, i=
+t knew that the scale of its hedging strategy would have to increase to acc=
+ount for its additional sales even though the liquidity in the VIX futures =
+market would remain roughly the same. From these facts, a reasonable juror =
+could conclude that Credit Suisse and the Individual Defendants sold millio=
+ns of these notes either knowing or recklessly disregarding a substantial r=
+isk that, when the next volatility event occurred, Credit Suisse=E2=80=99s =
+hedging trades would have an even greater negative impact on the value of X=
+IV Notes than they had before. Moreover, the complaint specifically alleges=
+ that the Individual Defendants were aware of this risk, as Credit Suisse=
+=E2=80=99s expansion of XIV Notes breached internal risk limits and thus re=
+quired approval by CARMC. Accepting these allegations as true, the complain=
+t invites a reasonable inference that Credit Suisse increased the volume of=
+ XIV Notes for a manipulative purpose=E2=80=94specifically, to ensure that =
+Credit Suisse=E2=80=99s hedging trades would destroy the value of XIV Notes=
+ during the next volatility spike so that Credit Suisse could profit by dec=
+laring an Acceleration Event.Similarly, Credit Suisse defends itself by say=
+ing, look, we disclosed in the prospectus that we would hedge by trading fu=
+tures, and that that might affect the value of the notes. The court is unim=
+pressed:As we explained in Wilson v. Merrill Lynch & Co., Inc., =E2=80=9Cth=
+e law is well settled that so-called =E2=80=98half-truths=E2=80=99=E2=80=94=
+literally true statements that create a materially misleading impression=E2=
+=80=94will support claims for securities fraud.=E2=80=9D In a similar vein,=
+ cautionary words about future risk cannot insulate from liability an issue=
+r=E2=80=99s failure to disclose that the risk has, in fact, materialized in=
+ the past and is virtually certain to materialize again. As the D.C. Circui=
+t explained in Dolphin & Bradbury, Inc. v. SEC, there is a =E2=80=9Ccritica=
+l distinction between disclosing the risk a future event might occur and di=
+sclosing actual knowledge that the event will occur=E2=80=9D=E2=80=94partic=
+ularly where that distinction holds =E2=80=9Cenormous significance=E2=80=9D=
+ for investors.Here, the complaint alleges that, following three prior vola=
+tility spikes, Credit Suisse and the Individual Defendants knew with virtua=
+l certainty that, upon the next volatility spike, their hedging activity wo=
+uld significantly depress the value of XIV Notes. It further alleges that C=
+redit Suisse issued millions of additional XIV Notes without disclosing its=
+ intent to capitalize on this dynamic and trigger an Acceleration Event. Ac=
+cepting these well pleaded allegations as true, the Offering Documents misr=
+epresented Credit Suisse=E2=80=99s knowledge and intent when they warned th=
+at Credit Suisse=E2=80=99s hedging activity =E2=80=9Ccould=E2=80=9D or =E2=
+=80=9Cmay=E2=80=9D impact prices of XIV Notes but affirmed that Credit Suis=
+se had =E2=80=9Cno reason to believe=E2=80=9D that it would. While these wa=
+rnings could have possibly sufficed when Credit Suisse first issued XIV Not=
+es, the bank conceded in its briefing below that the warnings remained unch=
+anged for nearly a decade despite three episodes of market volatility putti=
+ng to rest any uncertainty as to the price-impact of Credit Suisse=E2=80=99=
+s hedging.=C2=A0Likewise, the Offering Documents omitted material facts whe=
+n they stated that Credit Suisse=E2=80=99s hedging trades =E2=80=9Cmay pres=
+ent=E2=80=9D a conflict of interest. As alleged in the complaint, Credit Su=
+isse had already structured the market for XIV Notes to ensure that the nex=
+t volatility spike would allow it to profit at its own investors=E2=80=99 e=
+xpense.=C2=A0The basic conclusion seems to be that doing normal hedging and=
+ properly disclosing it can still be fraud and manipulation, if you knowing=
+ly make the trade so big that your hedging will =E2=80=94=C2=A0in extreme e=
+vents =E2=80=94=C2=A0move the market.This is not a final verdict, just an o=
+pinion letting the lawsuit go forward. The investors suing Credit Suisse ha=
+ve claimed that it intentionally manipulated the market; now they get to tr=
+y to convince a jury of that. Ordinarily the way that, say, prosecutors and=
+ regulators do this is by finding emails and chats from traders saying =E2=
+=80=9Clol let=E2=80=99s pound this price=E2=80=9D: In general, the distinct=
+ion between legitimate hedging and illegitimate manipulation is intent, and=
+ the usual way to prove intent is by finding unfortunate written messages. =
+My gut is that you won=E2=80=99t find a lot of messages like that here: Eve=
+n assuming that the investors=E2=80=99 claims are true, it seems like Credi=
+t Suisse hedged in a fairly textbook way, and I can=E2=80=99t really imagin=
+e that there are emails at Credit Suisse saying =E2=80=9Clet=E2=80=99s sell=
+ more XIV notes so that, when volatility spikes, our hedging can destroy th=
+e value of the notes.=E2=80=9D It seems unlikely that Credit Suisse=C2=A0wa=
+nted=C2=A0this result; it was clearly embarrassed that its XIV product blew=
+ up, and also embarrassed that it made money on the blowup. It strikes me a=
+s very far-fetched to think that Credit Suisse=C2=A0plotted to blow up XIV.=
+=C2=A0But it is unlikely that I=E2=80=99ll be on the jury. To a normal pers=
+on, the schematic argument =E2=80=94 =E2=80=9Cyou pushed down the price of =
+XIV, we lost everything, you made money=E2=80=9D =E2=80=94=C2=A0is pretty c=
+ompelling! Even without bad chats proving intent, the schematic argument al=
+most sounds=C2=A0like it proves intent. And now the investors get to make i=
+t.
+
+
+   =20
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                                Paid Post
+                               =20
+86% of wealth managers recommend investing in art. It=E2=80=99s no surprise=
+, contemporary art prices outperformed the S&P by 174% from 1995-2000.
+
+If you=E2=80=99re looking to diversify into a real asset to hedge against i=
+nflation, explore Masterworks today. Money Stuff subscribers can  skip the =
+17,500 person waitlist today.*
+
+*
+See=C2=A0
+important information
+
+                                Masterworks
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+The essential conundrum of venture capitalHonestly  this is a pretty good s=
+ummary:=E2=80=9CIn the early days, they=E2=80=99re looking for weird,=E2=80=
+=9D Zhu, 31, says now about venture capital investors. He=E2=80=99d taken I=
+terable from an idea to a company valued at about $2 billion, a stunning su=
+ccess by most measures. But when a company reaches that stage, he says, the=
+ new mantra becomes: Reduce the risk.=C2=A0For instance, when you fund a co=
+mpany in its early stages, you might want a founder who will microdose LSD =
+at work, because that=E2=80=99s just the sort of imaginative, aggressive, i=
+ndependent thinking that might change the world or whatever. (=E2=80=9CNarr=
+ative violation: This CEO drops acid,=E2=80=9D etc.) But when you are looki=
+ng to take that company public, you want a CEO who would=C2=A0never=C2=A0mi=
+crodose LSD at work, because that=E2=80=99s the sort of thing that stodgy i=
+nstitutional investors and regulators will find unsettling. If the founder-=
+CEO has been microdosing acid all along, and you have been encouraging him =
+to do so, there will be an awkward transition when you tell him to stop.=C2=
+=A0In the particular case of Iterable Inc. and its founder and chief execut=
+ive officer Justin Zhu, the transition involved the board firing Zhu for ta=
+king too much acid (by accident, the first time he tried it):When he attend=
+ed the 2019 wedding of one of his investors in Lebanon, Zhu met an entrepre=
+neur who suggested he take small quantities of LSD to improve his concentra=
+tion and overall well-being. Zhu researched the idea and found studies that=
+ linked microdosing with improved focus and lower stress.Back in San Franci=
+sco, Zhu was preparing for an important meeting with a prominent investor g=
+roup. Believing that limited quantities of LSD would improve his pitch, Zhu=
+, who had never before used the drug, decided to try the microdosing plan. =
+He took what he thought was a small amount of LSD shortly before the meetin=
+g.=C2=A0It didn=E2=80=99t go as expected. When he tried to walk the potenti=
+al investors through a series of financial projections, Zhu looked at the s=
+creen and saw numbers and images swelling and shrinking, making them imposs=
+ible to discern. His body felt as if it were melting away, he says. After a=
+n awkward pause, a colleague stepped in. Zhu took a swig of his tea, decide=
+d to speak from memory, and pressed ahead. The pitch did not lead to an inv=
+estment.=C2=A0Ah, well. This particular case is unusual but Zhu correctly i=
+dentifies the=C2=A0general principle. I  wrote the other day:For a venture =
+capital fund, the optimal amount of securities-fraud exposure is significan=
+tly higher than zero. If all the founders of all the companies that you fun=
+d are telling you the complete truth, without even a little bit of lying ab=
+out how far along their technology is or how good their financial results a=
+re looking, then you are not funding enough aggressive and optimistic found=
+ers. For a venture capital fund, you want high-variance strategies; you wan=
+t to make as many bets as possible that succeed spectacularly (and give you=
+ unlimited upside) or fail spectacularly (and you lose your modest investme=
+nt).=C2=A0Early on,  a founder who lies to you because she is just so enthu=
+siastic about her idea=E2=80=99s potential that she cannot distinguish trut=
+h from fiction is a=C2=A0good thing; you want that level of commitment and =
+single-mindedness and belief. When you are writing the initial public offer=
+ing prospectus, that is no longer a good characteristic in a CEO. The same =
+goes for a whole lot of risk factors: You want a portfolio of weird, risky,=
+ high-upside-high-downside, out-of-consensus founders of=C2=A0early-stage s=
+tartups, but by the time those startups go public you want them run by expe=
+rienced, polished and responsible managers. Some of those weird founders wi=
+ll transition seamlessly to being responsible CEOs; others won=E2=80=99t.=
+=C2=A0The deliSomehow it is not a =E2=80=9CTables for Two,=E2=80=9D but the=
+ New Yorker reviewed the sandwiches at Your Hometown Deli, the $2 billion d=
+eli.[10] Or rather, the New Yorker got the manager of a New Jersey Italian =
+specialty store to review the sandwiches. They were not bad! It=E2=80=99s a=
+ real deli! Still:Ferreira judged the sandwiches to be Wawa-level quality=
+=E2=80=94pretty good. But there were red flags. =E2=80=9CThose pickles are =
+cheap pickles, first of all,=E2=80=9D he said. =E2=80=9CIf you=E2=80=99re a=
+ deli, get a ... pickle guy.=E2=80=9D Then there were the supply-chain issu=
+es. =E2=80=9CFor them not to have chicken on a weekend? I don=E2=80=99t kno=
+w, it doesn=E2=80=99t equate,=E2=80=9D he said. =E2=80=9CAnd they=E2=80=99r=
+e cooking the roast beef, and it=E2=80=99ll be ready tomorrow?=E2=80=9D He =
+went on, =E2=80=9CIt doesn=E2=80=99t sound kosher to me.=E2=80=9D Asked for=
+ a target valuation for investors, Ferreira did some mental calculation and=
+ declared, =E2=80=9CYou=E2=80=99ve gotta look at the numbers. But it could =
+be a fifty-thousand-dollar business.=E2=80=9DI like the idea that he can va=
+lue a business by tasting the sandwiches.=C2=A0Things happenBill and Melind=
+a Gates to  Divorce With $146 Billion at Stake.=C2=A0TikTok Is the Place To=
+ Go for Financial Advice If You=E2=80=99re a Young Adult. Cash-rich US bank=
+s move to reduce corporate deposits. A reckoning for Spacs: will regulators=
+ deflate the boom? Rental Companies Buy Up Used Cars as  Chip Crisis Get Wo=
+rse. Fund Companies Push Diversity in Bond Trading. Michael Jackson=E2=80=
+=99s Estate Is Winner in Tax Judge=E2=80=99s Ruling. IMDb TV is producing =
+=E2=80=9C=E2=80=98The Fed,=E2=80=99=C2=A0which follows the personal and car=
+eer drama surrounding a group of young finance hopefuls as they begin an el=
+ite fellowship with the Federal Reserve, the nation=E2=80=99s most powerful=
+ financial institution. These young financial geniuses are destined for gre=
+atness =E2=80=94 provided they don=E2=80=99t screw it all up with secrets, =
+lies, sex, and politics.=E2=80=9D=C2=A0To Mars Wrigley, Getting High on  =
+=E2=80=98Medicated=E2=80=99 Skittles Is No Joke.=C2=A0If you'd like to get=
+=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, pleas=
+e=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and othe=
+r great Bloomberg newsletters here. Thanks![1] I think there are cases of c=
+ompanies unilaterally shipping orders a week before they were supposed to a=
+nd then saying =E2=80=9Coops, well, now you have it, no big deal right,=E2=
+=80=9D when the customers call to complain, but it=E2=80=99s probably easie=
+r to get the customers=E2=80=99 permission instead.[2]=C2=A0=E2=80=9CConced=
+ed=E2=80=9D is maybe a strong word; the SEC says in a footnote that it =E2=
+=80=9Cdoes not make any findings that revenue from these sales was not reco=
+rded in accordance with generally accepted accounting principles.=E2=80=9D[=
+3] You can find the actual formula in the prospectus, under =E2=80=9CDaily =
+ETN Performance.=E2=80=9D=C2=A0[4] In theory you can sort of replicate the =
+VIX with options on the S&P 500 index, but it=E2=80=99s a lot harder than r=
+eplicating, say, the S&P 500 by buying all the stocks in the index.[5] Actu=
+ally the futures expire, so you need to roll them, and the underlying index=
+ incorporates a roll. Still, you don=E2=80=99t need to adjust your hedge *m=
+uch*.[6] These numbers are made up. The XIV notes are based on an index cal=
+culated from=C2=A0a couple of short-term VIX futures; the Bloomberg ticker =
+for that index is SPVXSPID. The levels of that index don=E2=80=99t correspo=
+nd intuitively=C2=A0to actual VIX levels, but the basic sense here is rough=
+ly right. On Feb. 5, 2018, that index opened a bit above its previous close=
+ of 49.43; it traded up to about 66 as of 4 p.m. Then it spiked up to 87.5 =
+by 4:15 p.m. Meanwhile VIX spiked from roughly 17 to 33 that day.[7] The ma=
+th here is that if you=E2=80=99re short $2 billion of futures at 30 (the cl=
+osing price the previous day),=C2=A0and then you buy them back at=C2=A0an a=
+verage price of 52, you pay an extra 73% =E2=80=94=C2=A0you sold them for $=
+2 billion and bought them back for $3.46 billion.[8] At the time, I  publis=
+hed a wild guess that Credit Suisse made $100 million, based on the hedging=
+ slippage in a similar exchange-traded fund. According to the Second Circui=
+t opinion we discuss below, the=C2=A0people suing Credit Suisse estimate th=
+at the real number is =E2=80=9Cbetween $475 and $542 million.=E2=80=9D That=
+=E2=80=99s a wide range, and you=E2=80=99d have to see their actual hedging=
+ performance, but the point is that it=E2=80=99s almost certainly a large n=
+umber. At the time, Credit Suisse coyly said =E2=80=9Cthat it has experienc=
+ed no trading losses from VelocityShares=C2=A0Daily Inverse VIX Short Term =
+ETNs (=E2=80=98XIV=E2=80=99),=E2=80=9D because I guess people were confused=
+ and thought it might have lost money hedging, but it did not mention how m=
+uch money it actually *made*.=C2=A0[9] There were  rumors to that effect at=
+ the time, and if you read the Second Circuit opinion you will see some hyp=
+othetical discussion of the theory. For instance on page 24, the court says=
+ that, in Credit Suisse=E2=80=99s view, =E2=80=9Cthe complaint alleges that=
+ Credit Suisse had fully hedged itself by acquiring alternative hedging ins=
+truments after the July 2016 Announcement. Thus, Credit Suisse would have h=
+ad no need to trade VIX futures contracts at all on February 5, 2018 and th=
+erefore could not have manipulated the market for XIV Notes by doing so.=E2=
+=80=9D Credit Suisse is not quite saying =E2=80=9Cwe laid off all the risk,=
+=E2=80=9D but it is saying something like =E2=80=9Cif we had laid off all t=
+he risk that would be fine.=E2=80=9D[10] Your Hometown Deli is the name of =
+the deli; Hometown International Inc. is the name of the public company tha=
+t owns it. It is conventional in the press to refer to it as a $100 million=
+ deli, which is its basic market capitalization, but I have insisted that i=
+t is  actually a $2 billion deli, based on its fully diluted market capital=
+ization. (All of these numbers are somewhat kidding, as the stock barely tr=
+ades, but if you=E2=80=99re going to pick a number the $2 billion one feels=
+ right-ish.) Anyway the New Yorker is with me: =E2=80=9CHometown is current=
+ly valued at two billion dollars.=E2=80=9D
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce4tbt.65uv/8144c4b6.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_6680255_1078041579.1620146516828
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<style>@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+</style><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Du=
+tf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<title>Money Stuff</title>
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23739257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBef0=
+cbbab"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"8">
+<tr>
+<td width=3D"206" align=3D"center">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23739257.287527/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cBfafffc7=
+9">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note: </strong><em>Despite=
+ yesterday=E2=80=99s programming note, here Money Stuff is today. But it wi=
+ll be off tomorrow, back on Thursday. Sorry for the confusion.</em></p><h2 =
+style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, He=
+lvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-w=
+idth: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top: 30=
+px; margin-bottom: 0;">Short-termism</h2><p style=3D"margin: 16px 0;">One t=
+heory is that the price of a share of stock reflects the present value of i=
+ts future cash flows in=C2=A0perpetuity. People buy stock today not because=
+ they expect high profits tomorrow, but because they expect high profits ov=
+er the long run. Investment decisions that cost money today, but that will =
+bring in much more money in five years, increase the net present value of t=
+he stock, so the shareholders should support them.=C2=A0</p><p style=3D"mar=
+gin: 16px 0;">Another theory is that public markets are myopically focused =
+on the short term. Investors care only about this quarter=E2=80=99s earning=
+s; they buy stocks whose earnings go up each quarter and sell stocks whose =
+earnings go down. A decision that reduces earnings today, in exchange for h=
+igher earnings in the future, is bad, and shareholders will punish a compan=
+y that makes those decisions.</p><p style=3D"margin: 16px 0;">These theorie=
+s obviously conflict, and I am mostly inclined to believe the first one.=C2=
+=A0The number of zero-revenue electric-vehicle companies that go public at =
+multibillion-dollar valuations seems to me like proof that public stock mar=
+kets can look past this quarter and consider future profits. Still, for mos=
+t regular companies, this quarter=E2=80=99s earnings probably are the best =
+evidence of what future earnings will look like, so investors do tend to ca=
+re. And public-company executives =E2=80=94=C2=A0not all of them, but some =
+of them =E2=80=94 do sometimes get locked into a myopic obsession with each=
+ quarter=E2=80=99s numbers.</p><p style=3D"margin: 16px 0;">Often this deba=
+te is sort of vague and abstract, and it=E2=80=99s hard to tell if a compan=
+y is really trading off long-term profitability against short-term earnings=
+. But=C2=A0here=E2=80=99s a sad little <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/23739257.287527/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZX=
+NzLXJlbGVhc2UvMjAyMS03OA/607f07ceef4b8524a319a23cBa1c51635" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">U.S. Securities and Excha=
+nge Commission enforcement action</a> against Under Armour Inc. for =E2=80=
+=9Cpulling forward=E2=80=9D revenue. Under Armour had a long history of gro=
+wing revenue at a 20% year-over-year rate every quarter. It was proud of th=
+is history, it mentioned it in earnings releases and on earnings calls, and=
+ investors and analysts came to expect consistent 20% growth rates.</p><p s=
+tyle=3D"margin: 16px 0;">Having consistent 20% growth rates is good! If you=
+ keep growing revenue at 20% a year, your future revenue will be really hig=
+h! If investors can project 20% revenue growth rates forever =E2=80=94=C2=
+=A0not forever, obviously, but for a long time =E2=80=94=C2=A0then they wil=
+l put a very high value on your stream of future cash flows, and so they wi=
+ll pay a lot for your stock. Having a 20% growth rate every quarter is good=
+ evidence that your future growth rates will be high. Having your growth ra=
+te decline below 20% is good evidence that your future growth rates will be=
+ lower. Not proof, in either case, but evidence.</p><p style=3D"margin: 16p=
+x 0;">In the third quarter of 2015, Under Armour realized its sales were no=
+t going to be what analysts expected. So it said, well, we already have som=
+e sales planned for the fourth quarter, why not just move those into the th=
+ird quarter? So it called up customers and asked them to take their orders =
+early, so <a href=3D"https://link.mail.bloombergbusiness.com/click/23739257=
+.287527/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2FkbWluLzIwMjEvMzMtMTA5NDA=
+ucGRm/607f07ceef4b8524a319a23cB9ea28b99" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">they could be booked into the third quarte=
+r</a>:</p><blockquote><p style=3D"margin: 16px 0;">To close the emerging re=
+venue gap, Under Armour=E2=80=99s senior management directed the FP&amp;A [=
+Financial Planning &amp; Analysis] group and senior sales personnel, among =
+other things, to identify existing orders that customers had requested be s=
+hipped in the next quarter that could instead be shipped in the current qua=
+rter. =E2=80=A6</p><p style=3D"margin: 16px 0;">Ultimately, Under Armour pu=
+lled forward approximately $45 million in orders from the fourth quarter of=
+ 2015 into the third quarter of 2015. On October 22, 2015, Under Armour ann=
+ounced revenue of $1.204 billion for the third quarter of 2015, beating ana=
+lyst consensus by $29 million. =E2=80=A6</p><p style=3D"margin: 16px 0;">Un=
+der Armour did not disclose that it used pull forwards, despite the fact th=
+at nearly 4% of its total revenue for the third quarter of 2015 (approximat=
+ely $45 million) resulted from the practice. Without the pull forwards from=
+ the fourth quarter of 2015, Under Armour=E2=80=99s growth rate for the thi=
+rd quarter of 2015 would have been below analysts=E2=80=99 revenue estimate=
+s and the lowest quarterly growth rate in more than two years.</p></blockqu=
+ote><p style=3D"margin: 16px 0;">But this created a problem in the fourth q=
+uarter: Under Armour moved $45 million of fourth-quarter revenue into the t=
+hird quarter, which meant that it started $45 million behind in the fourth =
+quarter. So it pulled $99 million of revenue forward in the fourth quarter.=
+ This created a problem in the first quarter of 2016:</p><blockquote><p sty=
+le=3D"margin: 16px 0;">By February 2016, the gap between internal forecasts=
+ and external revenue guidance was so significant that Under Armour conside=
+red revising its public revenue guidance for the quarter =E2=80=93 somethin=
+g the company had never done before. An Under Armour senior executive ackno=
+wledged the challenges caused by the 2015 pull forwards by stating in an em=
+ail: =E2=80=9CLet=E2=80=99s see how of [sic] this goes and if we can get en=
+ough pull-forwards or extra business to close the Q1 gap. The issue is that=
+ we pulled forward a lot in Q4 and there is not as much room in Q2 but we w=
+ill see.=E2=80=9D=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Etc. T=
+his kept going=C2=A0until the fourth quarter of 2016, when Under Armour pul=
+led forward $172 million of revenue but then decided it was all getting to =
+be too much:</p><blockquote><p style=3D"margin: 16px 0;">Because Under Armo=
+ur could not meet analysts=E2=80=99 revenue estimates even with the $170 mi=
+llion in pull forward sales, a senior Under Armour executive made the decis=
+ion to limit additional pull forwards from 2017 into 2016. Notes from a Dec=
+ember 15, 2016 meeting of the company=E2=80=99s top executives reflect that=
+, while discussing his decision, the senior executive stated that the compa=
+ny had =E2=80=9Cbeen living in this bubble for a while,=E2=80=9D that pulli=
+ng forward revenue in each quarter was not healthy, and that the company wa=
+s =E2=80=9Cnot going to compromise 2017 . . . we=E2=80=99re not going to ta=
+ke from next year.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">A =
+couple of points. First, this problem really does get worse over time:</p><=
+blockquote><p style=3D"margin: 16px 0;">The impact of these shifting sales =
+was especially pronounced for Under Armour because prior reported revenue, =
+particularly in the third and fourth quarters of 2015, included a significa=
+nt amount of pull forwards. Therefore, to meet analysts=E2=80=99 revenue es=
+timates for 2016,=C2=A0Under Armour had to replace the sales it had previou=
+sly taken from 2016 through additional customer demand and new products, bu=
+t also demonstrate the same percentage revenue growth when compared to the =
+2015 revenue totals (which in turn had been enhanced with pull forwards). I=
+n internal emails, Under Armour acknowledged this =E2=80=9Cdouble impact on=
+ the growth rate=E2=80=9D resulting from pull forwards because they =E2=80=
+=9Ctake the base up=E2=80=9D in the earlier year and down in the later year=
+.</p></blockquote><p style=3D"margin: 16px 0;">Second, you can=E2=80=99t ju=
+st unilaterally pull forward revenue; you have to call up customers and ask=
+ them to take products early.[1] This is awkward, both in the sense that th=
+e customers will be annoyed, but also in the sense that you will create an =
+unfortunate record for the SEC to look at later:</p><blockquote><p style=3D=
+"margin: 16px 0;">For example, in September 2016, Under Armour requested ad=
+ditional pull forwards from a key customer, after already having asked to m=
+ove more than $30 million in sales from the fourth quarter of 2016 to the t=
+hird quarter of 2016. The customer responded by saying: =E2=80=9CWe just br=
+ought a bunch of your goods in early to help out your quarter. . . Now you =
+want more. . . More..More..more..30% [price discount] please.=E2=80=9D Unde=
+r Armour ultimately agreed to a 25% price discount and an extra 30 days to =
+pay to secure an additional $6.7 million of pull forwards.</p></blockquote>=
+<p style=3D"margin: 16px 0;">Under Armour was willing to take 75 cents this=
+ quarter instead of 100 cents the next quarter, because it needed to beat a=
+nalyst estimates this quarter. That is not economically rational, and share=
+holders discounting all future cash flows would not want their company to p=
+ay up so much to accelerate cash flows by a month. Nevertheless it happened=
+. Under Armour strictly preferred beating quarterly analyst expectations to=
+ maximizing the net present value of its cash flows.</p><p style=3D"margin:=
+ 16px 0;">Third, the SEC charged Under Armour with securities fraud, and Un=
+der Armour settled by paying $9 million without admitting or denying the ch=
+arges. But the SEC conceded that Under Armour=E2=80=99s=C2=A0<em>accounting=
+=C2=A0</em>was correct.[2] All the pulled-forward sales really happened, an=
+d were booked into the quarters when they happened; Under Armour=E2=80=99s =
+income statements accurately reflected its revenue each quarter.</p><p styl=
+e=3D"margin: 16px 0;">The problem is that Under Armour created a misleading=
+ impression of=C2=A0<em>how=C2=A0</em>it got those earnings: In its earning=
+s releases and calls and securities filings, Under Armour said the usual th=
+ings about how it kept growing, and how the growth=C2=A0was due to things l=
+ike =E2=80=9Cgrowing interest in performance products, the strength of the =
+Under Armour brand in the marketplace, and increased sales and new offering=
+s in footwear and apparel.=E2=80=9D Instead of saying =E2=80=9Cwell we keep=
+ growing because we pester customers to take next quarter=E2=80=99s deliver=
+ies this quarter, which is unsustainable.=E2=80=9D If it had said that, inv=
+estors would have understood the real story; they would not have interprete=
+d consistent quarterly revenue growth as evidence of future revenue growth.=
+=C2=A0</p><p style=3D"margin: 16px 0;">Fourth, this sort of lite fraud =E2=
+=80=94=C2=A0not accounting fraud, just fraud in the explanation if you will=
+ =E2=80=94=C2=A0is=C2=A0in the abstract hard to prove. Calling a customer a=
+nd saying =E2=80=9Chey you should buy more of our products and sooner rathe=
+r than later=E2=80=9D could be gimmickry to meet quarterly numbers, but it =
+could also be good aggressive sales tactics.=C2=A0The way you know it=E2=80=
+=99s gimmickry is mostly that Under Armour executives kept emailing each ot=
+her to say it was:</p><blockquote><p style=3D"margin: 16px 0;">An Under Arm=
+our senior executive acknowledged that the desire to ship the product early=
+ was being driven by pressure to meet analysts=E2=80=99 revenue estimates, =
+saying that the customer =E2=80=9Cisn=E2=80=99t setting [Under Armour produ=
+ct in its stores] until February, so whether we thought it was $20 or $53 [=
+million] or whatever, really [the customer] doesn=E2=80=99t want any of tha=
+t product in December but we are shipping it and they are absolutely taking=
+ it from us as a favor. If we were a privately held company, we would not s=
+hip that product to them in December.=E2=80=9D =E2=80=A6</p><p style=3D"mar=
+gin: 16px 0;">Internally, Under Armour knew that the company relied heavily=
+ on pull forwards to meet analysts=E2=80=99 revenue estimates, and the comp=
+any=E2=80=99s senior management implicitly admitted the unsustainability of=
+ this practice by describing pull forward revenue as =E2=80=9Cbad,=E2=80=9D=
+ =E2=80=9Cunnatural,=E2=80=9D and =E2=80=9Cunhealthy.=E2=80=9D</p></blockqu=
+ote><p style=3D"margin: 16px 0;">Yes, if you just email your salespeople an=
+d say =E2=80=9Csell more! Faster!=E2=80=9D the SEC will have a hard time ma=
+king a case for fraud. If you email them saying =E2=80=9Csell more! Faster!=
+=E2=80=9D and then email your colleagues saying =E2=80=9Cwe would not be se=
+lling so fast if we were making economically rational decisions, but we nee=
+d to sell faster to trick shareholders,=E2=80=9D the SEC will object.</p><h=
+2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, =
+Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom=
+-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top: =
+30px; margin-bottom: 0;">XIV=C2=A0</h2><p style=3D"margin: 16px 0;">Credit =
+Suisse Group AG used to have a product called XIV, which was pronounced not=
+ =E2=80=9Cfourteen=E2=80=9D but rather =E2=80=9CVelocityShares Daily Invers=
+e VIX Short-Term ETN.=E2=80=9D XIV was an exchange-traded note linked to th=
+e inverse of the VIX, the CBOE Volatility Index, which is a measure of vola=
+tility in the stock market. If you wanted to bet that volatility would go=
+=C2=A0<em>down</em>, you could buy XIV, which went up in value when the VIX=
+ went down and vice versa. XIV was an exchange-traded note, meaning that yo=
+u could buy it on the stock exchange (like an exchange-traded fund) but ult=
+imately it was an obligation of Credit Suisse, which would calculate the va=
+lue of the note and pay you that value. If volatility went down, Credit Sui=
+sse owed you more money; if it went up, Credit Suisse owed you less.</p><p =
+style=3D"margin: 16px 0;">You could imagine structuring a product like that=
+ by basing it directly on the VIX, like, =E2=80=9Cthese notes are $100 when=
+ the VIX is at 15, $10 more for every point below that, and $10 less for ev=
+ery point above that; at a VIX of 25 the notes go to zero.=E2=80=9D (Or wha=
+tever you think the numbers should be.) But that is not how XIV was structu=
+red. Instead, the way XIV worked was that it was indexed to a couple of nea=
+r-term VIX=C2=A0<em>futures=C2=A0</em>contracts. There is a traded market f=
+or futures contracts, bets on the future price of the VIX; the way XIV work=
+ed is that, each=C2=A0day, you=E2=80=99d measure how much those futures con=
+tracts were up (or down) over the day before, and the value of XIV would de=
+cline (or increase) by that percentage amount.[3]=C2=A0</p><p style=3D"marg=
+in: 16px 0;">There=E2=80=99s a reason for this, which is that Credit Suisse=
+ had to hedge its XIV exposure, and the way to hedge an inverse VIX exposur=
+e is to sell VIX futures contracts. (VIX itself is not a tradable security,=
+ just an index, so you can=E2=80=99t hedge inverse VIX exposure by selling =
+VIX itself.[4]) By selling the XIV notes to investors, Credit Suisse effect=
+ively got long volatility: The investors were betting that volatility would=
+ go down, Credit Suisse took the other side of the bet, so Credit Suisse wa=
+s betting that volatility would go up. It didn=E2=80=99t really want to mak=
+e that bet =E2=80=94=C2=A0it just wanted to collect a fee for providing a b=
+et to customers =E2=80=94=C2=A0so it hedged it by getting short VIX futures=
+ contracts, betting that volatility would go down.</p><p style=3D"margin: 1=
+6px 0;">I say that Credit Suisse =E2=80=9Cused to=E2=80=9D have a product c=
+alled XIV, because in 2018 <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23739257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMTgtMDItMDYvcGVvcGxlLWFyZS13b3JyaWVkLWFib3V0LXRoZS1zdG9jay1tYXJrZ=
+XQ/607f07ceef4b8524a319a23cBc9971643" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;"> XIV</a> <a href=3D"https://link.mail.bloomberg=
+business.com/click/23739257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMTgtMDItMDcvYXJlLWJhbmtzLXdvcnRobGVzcw/607f07ceef4b8524=
+a319a23cBe11f46d1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> blew</a> <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/23739257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMTgtMDItMDkvaW52ZXJzZS12b2xhdGlsaXR5LXByb2R1Y3RzLWFsbW9zdC13b3JrZWQ/607f0=
+7ceef4b8524a319a23cBbf5f8256" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> up</a>. Basically the VIX doubled in one day =E2=80=94=
+ Monday, Feb. 5, 2018 =E2=80=94 which caused the XIV notes to go roughly to=
+ zero. A feature of the notes provided that, if the value fell by more than=
+ 80% in one day, Credit Suisse could call them and pay them off at their fi=
+nal value. It <a href=3D"https://link.mail.bloombergbusiness.com/click/2373=
+9257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMTgtMDI=
+tMDYvY3JlZGl0LXN1aXNzZS1pcy1zYWlkLXRvLWNvbnNpZGVyLXJlZGVtcHRpb24tb2Ytdm9sYX=
+RpbGl0eS1ub3Rl/607f07ceef4b8524a319a23cB185c54ac" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> did that</a>. People who bought XI=
+V notes lost almost all=C2=A0of their money: XIV closed at $115.55 on Frida=
+y, Feb. 2, the last trading day before the collapse; it was redeemed on Feb=
+. 21 at $5.99. Investors lost about $1.8 billion.</p><p style=3D"margin: 16=
+px 0;">We <a href=3D"https://link.mail.bloombergbusiness.com/click/23739257=
+.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDI=
+tMDYvcGVvcGxlLWFyZS13b3JyaWVkLWFib3V0LXRoZS1zdG9jay1tYXJrZXQ/607f07ceef4b85=
+24a319a23cCc9971643" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> talked</a> <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23739257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMTgtMDItMDcvYXJlLWJhbmtzLXdvcnRobGVzcw/607f07ceef4b8524a319a23cCe11=
+f46d1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> ab=
+out</a> it <a href=3D"https://link.mail.bloombergbusiness.com/click/2373925=
+7.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMD=
+ItMDkvaW52ZXJzZS12b2xhdGlsaXR5LXByb2R1Y3RzLWFsbW9zdC13b3JrZWQ/607f07ceef4b8=
+524a319a23cCbf5f8256" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> at</a> the <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23739257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMTgtMDItMTQvaXMtdml4LW1hbmlwdWxhdGVkLW9yLWhlZGdlZA/607f07ceef4b8524=
+a319a23cBf16d7b44" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> time</a>; it was pretty awkward for Credit Suisse. The key awkwar=
+dness has to do with how Credit Suisse hedged its XIV exposure=C2=A0by sell=
+ing VIX futures. If you sell an exchange-traded note that is linked directl=
+y to VIX futures =E2=80=94=C2=A0that goes up when the VIX goes up =E2=80=94=
+=C2=A0you can hedge it by buying VIX futures and holding them: If the futur=
+es go up 1%, the value of the note goes up 1%; your gain on the futures wil=
+l exactly offset your loss on the notes.[5]</p><p style=3D"margin: 16px 0;"=
+>But if you sell an exchange-traded note that is linked=C2=A0<em>inversely=
+=C2=A0</em>to VIX futures, that doesn=E2=80=99t quite work; you can=E2=80=
+=99t just sell VIX futures and wait. Let=E2=80=99s say you sell a $100 inve=
+rse VIX note and hedge by selling $100 of futures. If the futures go down b=
+y 1%, you have a gain on your short futures position and an offsetting loss=
+ on the note, great. But now you are short $99 of futures, and the note is =
+worth $101. You are no longer correctly hedged; you=C2=A0need to rebalance =
+by selling $2 more worth of=C2=A0futures, so that you=E2=80=99re short $101=
+ of futures. And vice versa: If VIX futures go up (and the note goes down),=
+ you have to buy back some of the futures you sold to remain balanced.</p><=
+p style=3D"margin: 16px 0;">The problem with XIV is that one day volatility=
+ spiked, the VIX went up a lot, and VIX futures went up a lot. Credit Suiss=
+e had a big gain on XIV (because the amount it owed on the XIV notes went d=
+own), but a big loss on its short-VIX-futures position (because VIX futures=
+ went up). This required it to adjust its hedge by=C2=A0<em>buying=C2=A0</e=
+m>back a ton of VIX futures. It did this at the end of the trading day, bec=
+ause the XIV value was calculated based on the end-of-day prices of VIX fut=
+ures, so the most accurate way to hedge was to buy futures at the end of th=
+e day.</p><p style=3D"margin: 16px 0;">One thing that happens when you buy =
+a ton of VIX futures over a few minutes at the end of the trading day is th=
+at the prices of those futures go up a lot. You are a huge forced buyer, th=
+ere are no huge forced sellers, so you push up the price. The result is tha=
+t Credit Suisse=C2=A0<em>pushed down the value of XIV</em>, through its own=
+ trading.</p><p style=3D"margin: 16px 0;">Another thing that might happen i=
+s =E2=80=A6=C2=A0you make a ton of money? Schematically, imagine that VIX f=
+utures closed the previous day at 30, open the day at 30, and by 4 p.m. the=
+y are trading at 45.[6] Imagine also that there are $2 billion of XIV notes=
+ outstanding, and Credit Suisse is short $2 billion of futures as a hedge. =
+Credit Suisse knows that it needs to buy a ton of VIX futures. It does this=
+ in 15 minutes, from 4 p.m. to 4:15 p.m. The first trade it does, at 4 p.m.=
+, is at (say) 45.=C2=A0This pushes up the price to 48. It buys more at 48, =
+which pushes up the price to 51. It keeps going, until it does its last tra=
+de at 58. The closing price of the VIX futures =E2=80=94=C2=A0the price use=
+d to calculate its XIV obligation =E2=80=94=C2=A0is 58, up 93% from the day=
+ before. XIV has lost 93% of its value; Credit Suisse went from owing $2 bi=
+llion to owing about $140 million, for a gain of $1.86 billion on the notes=
+. Meanwhile Credit Suisse=E2=80=99s average=C2=A0<em>buying=C2=A0</em>price=
+ for its futures is not 58 (the closing price), but rather some average bet=
+ween 45 (where it starts) and 58 (where it finishes). Say its average price=
+ is 52, and it bought back all $2 billion worth of futures. It paid about $=
+3.46 billion for them, losing $1.46 billion on the hedge, for a net gain (g=
+ain on XIV minus loss on hedge) of $400 million.[7] If it=C2=A0<em>didn=E2=
+=80=99t=C2=A0</em>buy back all of its futures that day, it did even better:=
+ The futures fell again the next day, and Credit Suisse could have bought t=
+hem back cheaper.</p><p style=3D"margin: 16px 0;">I should emphasize that t=
+his is schematic, made-up math, and you should not put any stock in that $4=
+00 million number, but directionally the idea is about right.[8] If Credit =
+Suisse was dynamically hedging XIV, it did very well that day. It is actual=
+ly a little unclear if it was: There are some indications that Credit Suiss=
+e laid off some or all of its XIV risk to a counterparty, some other bank t=
+hat hedged the risk by trading the futures contracts.[9] In essence, then, =
+Credit Suisse would have been just a middleman, with a flat position, and w=
+ould not have made much or any money that day. But the descriptions above =
+=E2=80=94=C2=A0about Credit Suisse pushing up the price of VIX futures (and=
+ pushing down the price of XIV), and about Credit Suisse making a boatload =
+of money doing so =E2=80=94=C2=A0would still be mostly accurate; they would=
+ just describe Credit Suisse=E2=80=99s hedge counterparty rather than Credi=
+t Suisse itself.</p><p style=3D"margin: 16px 0;">Some people who owned XIV =
+notes sued Credit Suisse over this. The lawsuit almost writes itself:</p><o=
+l style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">You sold notes that would go down when=
+ VIX futures went up.</li>=09<li style=3D"margin-bottom: 5px;">Then you bou=
+ght a ton of VIX futures, pushing their prices up.</li>=09<li style=3D"marg=
+in-bottom: 5px;">Investors in the notes lost everything.</li>=09<li style=
+=3D"margin-bottom: 5px;">You made a bunch of money.</li></ol><p style=3D"ma=
+rgin: 16px 0;">It=E2=80=99s intuitive! I <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/23739257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMTgtMDItMTQvaXMtdml4LW1hbmlwdWxhdGVkLW9yLWhlZGdlZA/=
+607f07ceef4b8524a319a23cCf16d7b44" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> do not like this theory</a>, because I do think t=
+hat, in general, banks should be able to sell derivatives and hedge them, a=
+nd sometimes the hedging will influence the price of the derivative. And th=
+is is generally reasonably clearly disclosed, and a product like this can=
+=E2=80=99t really work otherwise, and investors roughly know what they=E2=
+=80=99re getting into. But I concede that this theory is intuitive, particu=
+larly in this case. Credit Suisse sold a product, and then tanked it itself=
+; the buyers lost all their money and Credit Suisse apparently did great. I=
+t does=C2=A0<em>seem=C2=A0</em>wrong.</p><p style=3D"margin: 16px 0;">So th=
+e lawsuit made the intuitive argument, and Credit Suisse defended itself in=
+ a straightforward way (by saying that its hedging was legitimate and fully=
+ disclosed in the prospectus), and a judge agreed with Credit Suisse and di=
+smissed the case. The XIV holders appealed, and <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/23739257.287527/aHR0cHM6Ly9jYS5maW5hbmNlLnlha=
+G9vLmNvbS9uZXdzL2NyZWRpdC1zdWlzc2UtbXVzdC1mYWNlLWxhd3N1aXQtMTYwMTEwNjU2Lmh0=
+bWw/607f07ceef4b8524a319a23cB1efc2bdc" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;">last week they won a round</a>: The U.S. Court=
+ of Appeals for the Second Circuit let them go forward with a case arguing=
+=C2=A0that Credit Suisse did market manipulation in the last days of XIV. H=
+ere is <a href=3D"https://link.mail.bloombergbusiness.com/click/23739257.28=
+7527/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3=
+IwOHNWLjlQMVBKcy92MA/607f07ceef4b8524a319a23cB88f8aba3" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">the opinion</a>.=C2=A0</p><p =
+style=3D"margin: 16px 0;">It is a bit of a strange result, a strange opinio=
+n. The court acknowledges that Credit Suisse had a right to hedge its XIV r=
+isk, but doesn=E2=80=99t find that dispositive:</p><blockquote><p style=3D"=
+margin: 16px 0;">To be sure, it is generally true that short selling or oth=
+er hedging activity is not, by itself, manipulative=E2=80=94even when it oc=
+curs in high volumes and even when it impacts the market price for a securi=
+ty. But here, the complaint alleges more than routine hedging activity: It =
+alleges that Credit Suisse flooded the market with millions of additional X=
+IV Notes for the very purpose of=C2=A0enhancing the impact of its hedging t=
+rades and collapsing the market for the notes.</p></blockquote><p style=3D"=
+margin: 16px 0;">The claim is not just that Credit Suisse bought a bunch of=
+ futures at the close on Feb. 5, 2018, pushing around the market; it=E2=80=
+=99s that Credit Suisse=C2=A0<em>sold too many XIV notes precisely so that =
+its futures trading would push around the market.=C2=A0</em>There had been =
+three volatility spikes before Feb. 5, 2018, and each time Credit Suisse=E2=
+=80=99s hedging seemed to affect the market for VIX futures. =E2=80=9CPursu=
+ant to Credit Suisse=E2=80=99s internal risk protocols, all three of these =
+liquidity incidents were promptly reported to Credit Suisse=E2=80=99s Capit=
+al Allocation and Risk Management Committee (CARMC),=E2=80=9D and afterward=
+s =E2=80=9CCredit Suisse=C2=A0sought alternative ways to hedge its own expo=
+sure to XIV Notes,=E2=80=9D besides trading futures, though it=E2=80=99s un=
+clear if it found them.=C2=A0But then it also started selling a bunch more =
+XIV notes.=C2=A0</p><blockquote><p style=3D"margin: 16px 0;">The complaint =
+plausibly alleges that Credit Suisse knowingly or recklessly exacerbated th=
+e liquidity squeeze it had already observed in the VIX futures market by in=
+creasing the number of XIV Notes outstanding through its offerings of June =
+30, 2017 and January 29, 2018. When Credit Suisse offered 16,275,000 XIV No=
+tes on the latter date, it knew that the scale of its hedging strategy woul=
+d have to increase to account for its additional sales even though the liqu=
+idity in the VIX futures market would remain roughly the same. From these f=
+acts, a reasonable juror could conclude that Credit Suisse and the Individu=
+al Defendants sold millions of these notes either knowing or recklessly dis=
+regarding a substantial risk that, when the next volatility event occurred,=
+ Credit Suisse=E2=80=99s hedging trades would have an even greater negative=
+ impact on the value of XIV Notes than they had before. Moreover, the compl=
+aint specifically alleges that the Individual Defendants were aware of this=
+ risk, as Credit Suisse=E2=80=99s expansion of XIV Notes breached internal =
+risk limits and thus required approval by CARMC. Accepting these allegation=
+s as true, the complaint invites a reasonable inference that Credit Suisse =
+increased the volume of XIV Notes for a manipulative purpose=E2=80=94specif=
+ically, to ensure that Credit Suisse=E2=80=99s hedging trades would destroy=
+ the value of XIV Notes during the next volatility spike so that Credit Sui=
+sse could profit by declaring an Acceleration Event.</p></blockquote><p sty=
+le=3D"margin: 16px 0;">Similarly, Credit Suisse defends itself by saying, l=
+ook, we disclosed in the prospectus that we would hedge by trading futures,=
+ and that that might affect the value of the notes. The court is unimpresse=
+d:</p><blockquote><p style=3D"margin: 16px 0;">As we explained in <em>Wilso=
+n v. Merrill Lynch &amp; Co., Inc.</em>, =E2=80=9Cthe law is well settled t=
+hat so-called =E2=80=98half-truths=E2=80=99=E2=80=94literally true statemen=
+ts that create a materially misleading impression=E2=80=94will support clai=
+ms for securities fraud.=E2=80=9D In a similar vein, cautionary words about=
+ future risk cannot insulate from liability an issuer=E2=80=99s failure to =
+disclose that the risk has, in fact, materialized in the past and is virtua=
+lly certain to materialize again. As the D.C. Circuit explained in <em>Dolp=
+hin &amp; Bradbury, Inc. v. SEC</em>, there is a =E2=80=9Ccritical distinct=
+ion between disclosing the risk a future event might occur and disclosing a=
+ctual knowledge that the event will occur=E2=80=9D=E2=80=94particularly whe=
+re that distinction holds =E2=80=9Cenormous significance=E2=80=9D for inves=
+tors.</p><p style=3D"margin: 16px 0;">Here, the complaint alleges that, fol=
+lowing three prior volatility spikes, Credit Suisse and the Individual Defe=
+ndants knew with virtual certainty that, upon the next volatility spike, th=
+eir hedging activity would significantly depress the value of XIV Notes. It=
+ further alleges that Credit Suisse issued millions of additional XIV Notes=
+ without disclosing its intent to capitalize on this dynamic and trigger an=
+ Acceleration Event. Accepting these well pleaded allegations as true, the =
+Offering Documents misrepresented Credit Suisse=E2=80=99s knowledge and int=
+ent when they warned that Credit Suisse=E2=80=99s hedging activity =E2=80=
+=9Ccould=E2=80=9D or =E2=80=9Cmay=E2=80=9D impact prices of XIV Notes but a=
+ffirmed that Credit Suisse had =E2=80=9Cno reason to believe=E2=80=9D that =
+it would. While these warnings could have possibly sufficed when Credit Sui=
+sse first issued XIV Notes, the bank conceded in its briefing below that th=
+e warnings remained unchanged for nearly a decade despite three episodes of=
+ market volatility putting to rest any uncertainty as to the price-impact o=
+f Credit Suisse=E2=80=99s hedging.=C2=A0Likewise, the Offering Documents om=
+itted material facts when they stated that Credit Suisse=E2=80=99s hedging =
+trades =E2=80=9Cmay present=E2=80=9D a conflict of interest. As alleged in =
+the complaint, Credit Suisse had already structured the market for XIV Note=
+s to ensure that the next volatility spike would allow it to profit at its =
+own investors=E2=80=99 expense.=C2=A0</p></blockquote><p style=3D"margin: 1=
+6px 0;">The basic conclusion seems to be that doing normal hedging and prop=
+erly disclosing it can still be fraud and manipulation, if you knowingly ma=
+ke the trade so big that your hedging will =E2=80=94=C2=A0in extreme events=
+ =E2=80=94=C2=A0move the market.</p><p style=3D"margin: 16px 0;">This is no=
+t a final verdict, just an opinion letting the lawsuit go forward. The inve=
+stors suing Credit Suisse have claimed that it intentionally manipulated th=
+e market; now they get to try to convince a jury of that. Ordinarily the wa=
+y that, say, prosecutors and regulators do this is by finding emails and ch=
+ats from traders saying =E2=80=9Clol let=E2=80=99s pound this price=E2=80=
+=9D: In general, the distinction between legitimate hedging and illegitimat=
+e manipulation is intent, and the usual way to prove intent is by finding u=
+nfortunate written messages. My gut is that you won=E2=80=99t find a lot of=
+ messages like that here: Even assuming that the investors=E2=80=99 claims =
+are true, it seems like Credit Suisse hedged in a fairly textbook way, and =
+I can=E2=80=99t really imagine that there are emails at Credit Suisse sayin=
+g =E2=80=9Clet=E2=80=99s sell more XIV notes so that, when volatility spike=
+s, our hedging can destroy the value of the notes.=E2=80=9D It seems unlike=
+ly that Credit Suisse=C2=A0<em>wanted=C2=A0</em>this result; it was clearly=
+ embarrassed that its XIV product blew up, and also embarrassed that it mad=
+e money on the blowup. It strikes me as very far-fetched to think that Cred=
+it Suisse=C2=A0<em>plotted to blow up XIV</em>.=C2=A0</p><p style=3D"margin=
+: 16px 0;">But it is unlikely that I=E2=80=99ll be on the jury. To a normal=
+ person, the schematic argument =E2=80=94 =E2=80=9Cyou pushed down the pric=
+e of XIV, we lost everything, you made money=E2=80=9D =E2=80=94=C2=A0is pre=
+tty compelling! Even without bad chats proving intent, the schematic argume=
+nt almost <em>sounds=C2=A0</em>like it proves intent. And now the investors=
+ get to make it.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td style=3D"padding: 14px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Paid Post</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;"><strong>86% of wealth managers recommend inv=
+esting in art. It=E2=80=99s no surprise, contemporary art prices outperform=
+ed the S&amp;P by 174% from 1995-2000.</strong><br />
+<br />
+If you=E2=80=99re looking to diversify into a real asset to hedge against i=
+nflation, explore Masterworks today. Money Stuff subscribers can <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/23739257.287527/aHR0cHM6Ly93=
+d3cubWFzdGVyd29ya3MuaW8vP3V0bV9zb3VyY2U9bW9uZXlzdHVmZiZ1dG1fbWVkaXVtPW5ld3N=
+sZXR0ZXImdXRtX2NhbXBhaWduPTUtMy0yMSZ1dG1fdGVybT1Nb25leSUyMFN0dWZmJTIwU3Vic2=
+NyaWJlcnM/607f07ceef4b8524a319a23cB7f1ffaa4" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: underline;"> skip the 17,500 person waitlist today</a>.*</p>
+<p style=3D"margin: 10px 0px;">*<a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/23739257.287527/aHR0cHM6Ly93d3cubWFzdGVyd29ya3MuaW8vP3V0bV9zb=
+3VyY2U9bW9uZXlzdHVmZiZ1dG1fbWVkaXVtPW5ld3NsZXR0ZXImdXRtX2NhbXBhaWduPTUtMy0y=
+MSZ1dG1fdGVybT1Nb25leSUyMFN0dWZmJTIwU3Vic2NyaWJlcnM/607f07ceef4b8524a319a23=
+cC7f1ffaa4" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: =
+#000000; text-decoration: underline;">
+See=C2=A0
+important information</a></p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Masterworks</p><=
+/div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">The essential conundrum of venture capital</h2><=
+p style=3D"margin: 16px 0;">Honestly <a href=3D"https://link.mail.bloomberg=
+business.com/click/23739257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjEtMDUtMDMvbHNkLWNhcmdvLXNob3J0cy1hbmQtdGhlLWZhbGwtb2YtYS1=
+oaWdoLWZseWluZy10ZWNoLWNlbw/607f07ceef4b8524a319a23cBd793daea" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> this is a pretty good=
+ summary</a>:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CIn the e=
+arly days, they=E2=80=99re looking for weird,=E2=80=9D Zhu, 31, says now ab=
+out venture capital investors. He=E2=80=99d taken Iterable from an idea to =
+a company valued at about $2 billion, a stunning success by most measures. =
+But when a company reaches that stage, he says, the new mantra becomes: Red=
+uce the risk.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">For instan=
+ce, when you fund a company in its early stages, you might want a founder w=
+ho will microdose LSD at work, because that=E2=80=99s just the sort of imag=
+inative, aggressive, independent thinking that might change the world or wh=
+atever. (=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/=
+23739257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMTktMTEtMjcvc29vbi1kaXJlY3QtbGlzdGluZ3Mtd2lsbC1yYWlzZS1tb25leQ/607f07ceef4=
+b8524a319a23cB532c6e2a" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">Narrative violation</a>: This CEO drops acid,=E2=80=9D etc.) =
+But when you are looking to take that company public, you want a CEO who wo=
+uld=C2=A0<em>never=C2=A0</em>microdose LSD at work, because that=E2=80=99s =
+the sort of thing that stodgy institutional investors and regulators will f=
+ind unsettling. If the founder-CEO has been microdosing acid all along, and=
+ you have been encouraging him to do so, there will be an awkward transitio=
+n when you tell him to stop.=C2=A0</p><p style=3D"margin: 16px 0;">In the p=
+articular case of Iterable Inc. and its founder and chief executive officer=
+ Justin Zhu, the transition involved the board firing Zhu for taking too mu=
+ch acid (by accident, the first time he tried it):</p><blockquote><p style=
+=3D"margin: 16px 0;">When he attended the 2019 wedding of one of his invest=
+ors in Lebanon, Zhu met an entrepreneur who suggested he take small quantit=
+ies of LSD to improve his concentration and overall well-being. Zhu researc=
+hed the idea and found studies that linked microdosing with improved focus =
+and lower stress.</p><p style=3D"margin: 16px 0;">Back in San Francisco, Zh=
+u was preparing for an important meeting with a prominent investor group. B=
+elieving that limited quantities of LSD would improve his pitch, Zhu, who h=
+ad never before used the drug, decided to try the microdosing plan. He took=
+ what he thought was a small amount of LSD shortly before the meeting.=C2=
+=A0</p><p style=3D"margin: 16px 0;">It didn=E2=80=99t go as expected. When =
+he tried to walk the potential investors through a series of financial proj=
+ections, Zhu looked at the screen and saw numbers and images swelling and s=
+hrinking, making them impossible to discern. His body felt as if it were me=
+lting away, he says. After an awkward pause, a colleague stepped in. Zhu to=
+ok a swig of his tea, decided to speak from memory, and pressed ahead. The =
+pitch did not lead to an investment.=C2=A0</p></blockquote><p style=3D"marg=
+in: 16px 0;">Ah, well. This particular case is unusual but Zhu correctly id=
+entifies the=C2=A0general principle. I <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/23739257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjEtMDQtMjkvaWdub3JpbmctdGhlLXJ1bGVzLXNvbWV0aW1lcy13b=
+3Jrcy1mb3ItZWxvbi1tdXNr/607f07ceef4b8524a319a23cB4a4d6802" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;"> wrote the other day</a>:<=
+/p><blockquote><p style=3D"margin: 16px 0;">For a venture capital fund, the=
+ optimal amount of securities-fraud exposure is <em>significantly higher th=
+an zero</em>. If all the founders of all the companies that you fund are te=
+lling you the complete truth, without even a little bit of lying about how =
+far along their technology is or how good their financial results are looki=
+ng, then you are not funding enough aggressive and optimistic founders. For=
+ a venture capital fund, you want high-variance strategies; you want to mak=
+e as many bets as possible that succeed spectacularly (and give you unlimit=
+ed upside) or fail spectacularly (and you lose your modest investment).=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">Early on, <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/23739257.287527/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjYvc3RhcnR1cHMtc29tZXRpb=
+WVzLXN0cmV0Y2gtdGhlLXRydXRo/607f07ceef4b8524a319a23cB6f988a81" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> a founder who lies to=
+ you</a> because she is just so enthusiastic about her idea=E2=80=99s poten=
+tial that she cannot distinguish truth from fiction is a=C2=A0<em>good thin=
+g</em>; you want that level of commitment and single-mindedness and belief.=
+ When you are writing the initial public offering prospectus, that is no lo=
+nger a good characteristic in a CEO. The same goes for a whole lot of risk =
+factors: You want a portfolio of weird, risky, high-upside-high-downside, o=
+ut-of-consensus founders of=C2=A0early-stage startups, but by the time thos=
+e startups go public you want them run by experienced, polished and respons=
+ible managers. Some of those weird founders will transition seamlessly to b=
+eing responsible CEOs; others won=E2=80=99t.=C2=A0</p><h2 style=3D"font-wei=
+ght: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-ser=
+if; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border=
+-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom=
+: 0;">The deli</h2><p style=3D"margin: 16px 0;">Somehow it is not a =E2=80=
+=9CTables for Two,=E2=80=9D but <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/23739257.287527/aHR0cHM6Ly93d3cubmV3eW9ya2VyLmNvbS9tYWdhemluZ=
+S8yMDIxLzA1LzEwL2ZpcnN0LWdhbWVzdG9wLW5vdy1hLWplcnNleS1kZWxpY2F0ZXNzZW4/607f=
+07ceef4b8524a319a23cB35abadc0" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">the New Yorker reviewed the sandwiches</a> at Your Hom=
+etown Deli, the $2 billion deli.[10] Or rather, the New Yorker got the mana=
+ger of a New Jersey Italian specialty store to review the sandwiches. They =
+were not bad! It=E2=80=99s a real deli! Still:</p><blockquote><p style=3D"m=
+argin: 16px 0;">Ferreira judged the sandwiches to be Wawa-level quality=E2=
+=80=94pretty good. But there were red flags. =E2=80=9CThose pickles are che=
+ap pickles, first of all,=E2=80=9D he said. =E2=80=9CIf you=E2=80=99re a de=
+li, get a ... pickle guy.=E2=80=9D Then there were the supply-chain issues.=
+ =E2=80=9CFor them not to have chicken on a weekend? I don=E2=80=99t know, =
+it doesn=E2=80=99t equate,=E2=80=9D he said. =E2=80=9CAnd they=E2=80=99re c=
+ooking the roast beef, and it=E2=80=99ll be ready tomorrow?=E2=80=9D He wen=
+t on, =E2=80=9CIt doesn=E2=80=99t sound kosher to me.=E2=80=9D Asked for a =
+target valuation for investors, Ferreira did some mental calculation and de=
+clared, =E2=80=9CYou=E2=80=99ve gotta look at the numbers. But it could be =
+a fifty-thousand-dollar business.=E2=80=9D</p></blockquote><p style=3D"marg=
+in: 16px 0;">I like the idea that he can value a business by tasting the sa=
+ndwiches.=C2=A0</p><h2 style=3D"font-weight: bold; font-family: &quot;Arial=
+ Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-size=
+: 20px; border-bottom-width: 1px; border-bottom-style: dotted; padding-bott=
+om: 5px; margin-top: 30px; margin-bottom: 0;">Things happen</h2><p style=3D=
+"margin: 16px 0;">Bill and Melinda Gates to <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/23739257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjEtMDUtMDMvYmlsbC1hbmQtbWVsaW5kYS1nYXRlcy1zYXktdGhl=
+eS1yZS1lbmRpbmctbWFycmlhZ2U/607f07ceef4b8524a319a23cBd450efc8" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> Divorce</a> With $146=
+ Billion at Stake.=C2=A0TikTok Is the Place To Go for <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/23739257.287527/aHR0cHM6Ly93d3cud3NqLmN=
+vbS9hcnRpY2xlcy90aWt0b2stZmluYW5jaWFsLWFkdmljZS0xMTYxOTgyMjQwOT9tb2Q9aHBfan=
+JfcG9zMQ/607f07ceef4b8524a319a23cBae31c23c" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Financial Advice</a> If You=E2=80=99re a =
+Young Adult. Cash-rich US banks move to <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/23739257.287527/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvY=
+TVlMTY1ZjctYTUyNC00YjViLTk5MzktZGU2ODliNmExNjg3/607f07ceef4b8524a319a23cB5c=
+471b67" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;">re=
+duce corporate deposits</a>. A reckoning for <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/23739257.287527/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRl=
+bnQvOTlkZTIzMzMtZTUzYS00MDg0LTg3ODAtMmJhOTc2NmM3MGI3/607f07ceef4b8524a319a2=
+3cB6837abff" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">Spacs</a>: will regulators deflate the boom? Rental Companies Buy Up Use=
+d Cars as <a href=3D"https://link.mail.bloombergbusiness.com/click/23739257=
+.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMDM=
+vcmVudGFsLWNvbXBhbmllcy1idXktdXAtdXNlZC1jYXJzLWFzLW1pY3JvY2hpcC1jcmlzaXMtZ2=
+V0cy13b3JzZQ/607f07ceef4b8524a319a23cB6e333a8c" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> Chip Crisis</a> Get Worse. Fund Comp=
+anies Push <a href=3D"https://link.mail.bloombergbusiness.com/click/2373925=
+7.287527/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mdW5kLWNvbXBhbmllcy1wdXNoLW=
+RpdmVyc2l0eS1pbi1ib25kLXRyYWRpbmctMTE2MjAwNDY4MTc_bW9kPWl0cF93c2omcnU9eWFob=
+28/607f07ceef4b8524a319a23cBd50d1f6d" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">Diversity in Bond Trading</a>. Michael Jackson=
+=E2=80=99s Estate Is Winner in <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/23739257.287527/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNS8wMy=
+9hcnRzL211c2ljL21pY2hhZWwtamFja3NvbnMtZXN0YXRlLmh0bWw/607f07ceef4b8524a319a=
+23cB6a5a6bbf" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">Tax Judge=E2=80=99s Ruling</a>. IMDb TV is producing =E2=80=9C<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/23739257.287527/aHR0cHM6L=
+y92YXJpZXR5LmNvbS8yMDIxL3R2L25ld3MvaW1kYi10di1vcmlnaW5hbHMtbWlrZS1zY2h1ci1z=
+aGVhLXNlcnJhbm8tY29tZWR5LTEyMzQ5NjQ5ODMv/607f07ceef4b8524a319a23cBf8520c53"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">=E2=80=98=
+The Fed,=E2=80=99</a>=C2=A0which follows the personal and career drama surr=
+ounding a group of young finance hopefuls as they begin an elite fellowship=
+ with the Federal Reserve, the nation=E2=80=99s most powerful financial ins=
+titution. These young financial geniuses are destined for greatness =E2=80=
+=94 provided they don=E2=80=99t screw it all up with secrets, lies, sex, an=
+d politics.=E2=80=9D=C2=A0To Mars Wrigley, Getting High on <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/23739257.287527/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMDQvdG8tbWFycy13cmlnbGV5LWdld=
+HRpbmctaGlnaC1vbi1tZWRpY2F0ZWQtc2tpdHRsZXMtaXMtbm8tam9rZQ/607f07ceef4b8524a=
+319a23cBb888a5e6" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> =E2=80=98Medicated=E2=80=99 Skittles</a> Is No Joke.=C2=A0</p><p s=
+tyle=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media"><=
+em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, rig=
+ht in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23739257.287527/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5=
+jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNj=
+I5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB5dcab0e4" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">subscribe at this link</a>. Or you can subscribe to Money Stuf=
+f and other great Bloomberg newsletters <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/23739257.287527/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL=
+25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB34c05bab" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span></p><=
+p style=3D"margin: 16px 0;"><em>[1] I think there are cases of companies un=
+ilaterally shipping orders a week before they were supposed to and then say=
+ing =E2=80=9Coops, well, now you have it, no big deal right,=E2=80=9D when =
+the customers call to complain, but it=E2=80=99s probably easier to get the=
+ customers=E2=80=99 permission instead.</em></p><p style=3D"margin: 16px 0;=
+"><em>[2]=C2=A0=E2=80=9CConceded=E2=80=9D is maybe a strong word; the SEC s=
+ays in a footnote that it =E2=80=9Cdoes not make any findings that revenue =
+from these sales was not recorded in accordance with generally accepted acc=
+ounting principles.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"><em>[3] Y=
+ou can find the actual formula in <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/23739257.287527/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGd=
+hci9kYXRhLzEwNTMwOTIvMDAwMDk1MDEwMzE3MDA2MzIzL2RwNzc5MjhfNDI0YjItdml4Lmh0bQ=
+/607f07ceef4b8524a319a23cBc4ab2972" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">the prospectus</a>, under =E2=80=9CDaily ETN Perf=
+ormance.=E2=80=9D=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[4] In the=
+ory you can sort of <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/23739257.287527/aHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIxMDIuMDIxMTkucGRm/607f07ce=
+ef4b8524a319a23cB8a309dac" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">replicate the VIX</a> with options on the S&amp;P 500 inde=
+x, but it=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/23739257.287527/aHR0cHM6Ly93d3cudGhlc3RyZWV0LmNvbS9pbnZlc3Rpbmcvb3B0aW9uc=
+y90aGUtaHVyZGxlcy10by1yZXBsaWNhdGluZy12aXgtMTE2NTE0MTU/607f07ceef4b8524a319=
+a23cB9f524950" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">a lot harder</a> than replicating, say, the S&amp;P 500 by buying all =
+the stocks in the index.</em></p><p style=3D"margin: 16px 0;"><em>[5] Actua=
+lly the futures expire, so you need to roll them, and the underlying index =
+incorporates a roll. Still, you don=E2=80=99t need to adjust your hedge *mu=
+ch*.</em></p><p style=3D"margin: 16px 0;"><em>[6] These numbers are made up=
+. The XIV notes are based on an index calculated from=C2=A0a couple of shor=
+t-term VIX futures; the Bloomberg ticker for that index is SPVXSPID. The le=
+vels of that index don=E2=80=99t correspond intuitively=C2=A0to actual VIX =
+levels, but the basic sense here is roughly right. On Feb. 5, 2018, that in=
+dex opened a bit above its previous close of 49.43; it traded up to about 6=
+6 as of 4 p.m. Then it spiked up to 87.5 by 4:15 p.m. Meanwhile VIX spiked =
+from roughly 17 to 33 that day.</em></p><p style=3D"margin: 16px 0;"><em>[7=
+] The math here is that if you=E2=80=99re short $2 billion of futures at 30=
+ (the closing price the previous day),=C2=A0and then you buy them back at=
+=C2=A0an average price of 52, you pay an extra 73% =E2=80=94=C2=A0you sold =
+them for $2 billion and bought them back for $3.46 billion.</em></p><p styl=
+e=3D"margin: 16px 0;"><em>[8] At the time, I <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/23739257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDItMDkvaW52ZXJzZS12b2xhdGlsaXR5LXByb2R1Y3R=
+zLWFsbW9zdC13b3JrZWQjZm9vdG5vdGUtMTUxODExOTI2MjA1Mg/607f07ceef4b8524a319a23=
+cBe278e02e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> published a wild guess</a> that Credit Suisse made $100 million, based o=
+n the hedging slippage in a similar exchange-traded fund. According to <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/23739257.287527/aHR0cH=
+M6Ly93d3cuY2EyLnVzY291cnRzLmdvdi9kZWNpc2lvbnMvaXN5c3F1ZXJ5L2MzNDA4Y2ZiLTFhM=
+TgtNDQzNC04ZmNjLTI2MzZkMTY2MjZlMC81L2RvYy8xOS0zNDY2X29wbi5wZGYjeG1sPWh0dHBz=
+Oi8vd3d3LmNhMi51c2NvdXJ0cy5nb3YvZGVjaXNpb25zL2lzeXNxdWVyeS9jMzQwOGNmYi0xYTE=
+4LTQ0MzQtOGZjYy0yNjM2ZDE2NjI2ZTAvNS9oaWxpdGUv/607f07ceef4b8524a319a23cBa2c7=
+e06c" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">the =
+Second Circuit opinion</a> we discuss below, the=C2=A0people suing Credit S=
+uisse estimate that the real number is =E2=80=9Cbetween $475 and $542 milli=
+on.=E2=80=9D That=E2=80=99s a wide range, and you=E2=80=99d have to see the=
+ir actual hedging performance, but the point is that it=E2=80=99s almost ce=
+rtainly a large number. At the time, Credit Suisse <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/23739257.287527/aHR0cHM6Ly93d3cuY3JlZGl0LX=
+N1aXNzZS5jb20vYWJvdXQtdXMtbmV3cy9lbi9hcnRpY2xlcy9tZWRpYS1yZWxlYXNlcy9tZWRpY=
+S1yZXNwb25zZS12ZWxvY2l0eXNoYXJlcy0yMDE4MDIuaHRtbA/607f07ceef4b8524a319a23cB=
+5fa8e961" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+coyly said</a> =E2=80=9Cthat it has experienced no trading losses from Velo=
+cityShares=C2=A0Daily Inverse VIX Short Term ETNs (=E2=80=98XIV=E2=80=99),=
+=E2=80=9D because I guess people were confused and thought it might have lo=
+st money hedging, but it did not mention how much money it actually *made*.=
+=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[9] There were <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/23739257.287527/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDItMDkvaW52ZXJzZS12b2xhd=
+GlsaXR5LXByb2R1Y3RzLWFsbW9zdC13b3JrZWQjZm9vdG5vdGUtMTUxODExOTM0NzkxOQ/607f0=
+7ceef4b8524a319a23cBf51d54e7" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> rumors to that effect</a> at the time, and if you read=
+ the Second Circuit opinion you will see some hypothetical discussion of th=
+e theory. For instance on page 24, the court says that, in Credit Suisse=E2=
+=80=99s view, =E2=80=9Cthe complaint alleges that Credit Suisse had fully h=
+edged itself by acquiring alternative hedging instruments after the July 20=
+16 Announcement. Thus, Credit Suisse would have had no need to trade VIX fu=
+tures contracts at all on February 5, 2018 and therefore could not have man=
+ipulated the market for XIV Notes by doing so.=E2=80=9D Credit Suisse is no=
+t quite saying =E2=80=9Cwe laid off all the risk,=E2=80=9D but it is saying=
+ something like =E2=80=9Cif we had laid off all the risk that would be fine=
+.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"><em>[10] Your Hometown Deli=
+ is the name of the deli; <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/23739257.287527/aHR0cHM6Ly93d3cuc2VjLmdvdi9jZ2ktYmluL2Jyb3dzZS1lZGd=
+hcj9jb21wYW55PSZDSUs9aHdpbiZmaWxlbnVtPSZTdGF0ZT0mU0lDPSZvd25lcj1leGNsdWRlJm=
+FjdGlvbj1nZXRjb21wYW55/607f07ceef4b8524a319a23cB68d79bbb" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">Hometown International Inc.=
+</a> is the name of the public company that owns it. It is conventional in =
+the press to refer to it as a $100 million deli, which is its basic market =
+capitalization, but I have insisted that it is <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/23739257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMjAvaG9tZXRvd24taW50ZXJuYXRpb25hbC1uZ=
+XctamVyc2V5LWRlbGktaXMtYWN0dWFsbHktd29ydGgtMi1iaWxsaW9u/607f07ceef4b8524a31=
+9a23cB5bf657e7" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> actually a $2 billion deli</a>, based on its fully diluted market ca=
+pitalization. (All of these numbers are somewhat kidding, as the stock bare=
+ly trades, but if you=E2=80=99re going to pick a number the $2 billion one =
+feels right-ish.) Anyway the New Yorker is with me: =E2=80=9CHometown is cu=
+rrently valued at two billion dollars.=E2=80=9D</em></p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; border-right-wi=
+dth: 10px; border-right-color: white; border-right-style: solid; padding: 9=
+px 0;">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23739257.287527/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBb818d961" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iSTidtzUTVno/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23739257.287527/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBf4afc2b5" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ivgKTIiTGA3M/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23739257.287527/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBea2736b1" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iD_P6YIGeql4/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; border-left-wid=
+th: 10px; border-left-color: white; border-left-style: solid; padding: 9px =
+0;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23739257.287527/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB6caafd48" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2373=
+9257.287527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB6f833c50" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23739257.287527/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC3b1337d7" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23739257.287527/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB94383273" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23739257.287527/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB8ca50146" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce4tbt.65uv/8144c4b6.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_6680255_1078041579.1620146516828--
+

@@ -1,0 +1,2262 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:5d4:b0:1a3:fa90:e4b0 with SMTP id r20csp2683518lkr;
+        Mon, 14 Mar 2022 11:21:05 -0700 (PDT)
+X-Received: by 2002:a05:600c:1d15:b0:389:cf43:da5e with SMTP id l21-20020a05600c1d1500b00389cf43da5emr341735wms.200.1647282065320;
+        Mon, 14 Mar 2022 11:21:05 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1647282065; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=IX7aonmUWy1JKl52Ze8PU4fsqMQs9up7qXDP39+52uaLowD390RaqZEfsDVOcICTpa
+         /yJ5DbxjUAqlX+BbU0uM1LgEKXm8xGOHO1ukK4m9J/lpAGM0/ixZdD3oW1oPKQ52WVBZ
+         yzRfTrxVwyP91II0epFn4/VACxBDFy3+ZH7U7ikEXFymbR2Q/fnhQyciSSHT7xhh/g/Q
+         Oxv8DkzVac+pAQrKu1vwtm2aDlhyg9P630HIDtA8zNb0QKjcBsopKHOdEy1b2hr0z6Sw
+         aQwe2D1/i2y7mGeYl/5eRPZct+/JHgeCEaN2UWXKxuCrL3HpAjGEFRf3gaIp2ZoRZb5H
+         CqrQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=FLA/Cs6u1DBstC/lWy0hK4c1lQDG044ju83FnOJv3os=;
+        b=EkWgEnUIEr7PKHrI8pvV6Yx6gMS8AnL0nHEu9r7GD8pfNgnF90qaHKoyZqtc1AWi5A
+         ghxDxxAFaT5MoxH5j6REhfAPxP6RQY8l/9Dm4It2c3JlxM+wnLV3iXCAWtU7mJGCQMrl
+         gZKTQcas1e4//BqM/f6FZKmyJ0pOGj8R3aAS0oQlGW9a8gH0x2gSe0xTb69CBV+E36pn
+         +PPab1L7kSaPs/CjBsV79XZHVHkxJX3eam5L1UE/N60Xddi1fpeAeQUajVYExc9ie1GG
+         reTwdhCBmSe+lKHlG6jgSMqP/5U0so3yNj6SJKjy+XFqtcAuwHXLx9ywOdYuOnz6glWU
+         1HKQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=oPiR91C9;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id v16-20020adfe290000000b001f0001bc4b1sor7388914wri.21.2022.03.14.11.21.05
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 14 Mar 2022 11:21:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=oPiR91C9;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=FLA/Cs6u1DBstC/lWy0hK4c1lQDG044ju83FnOJv3os=;
+        b=ND2hjwSlBxeNDn1Ay3Z/rQzn4Dk9Gm5b1pNxO/8O/hFwuXMeBolb7bTrfRxCFQDFww
+         s637PuKcra55ja0x9aDsNszzEmj8qld8Z+SxtbIU/brN/dYJqvysJtyvLaORd3zdeNi+
+         5CpckLqpRCxqjwEd6sZ0Jkjy6RNG0ESndTfx3eaTgj3BLRfxXYnpBfOyqPyM7ZS2OQGw
+         3wgp7ZzZzbfMf5kAkcTAySpVhaV2FIZNfcPLhP9Fn/6csu2IdxnJjt7bMa/eT/EJOkv8
+         oqYVEkKnIsRMq8qBG9ntY+6t9ofdpWHkbF7GGxpWwjhPXxRlAyZ2vRRQqlJmu22WzimE
+         w1Ug==
+X-Gm-Message-State: AOAM532upBC0UPI7HfdlyARcNKUYdJALM/5bu5jkq6U458C11ZnXi9tc
+	EaWISXj7kw/HvkJGCTrvfBjULNVy3jR5gKcglX1NdtiD9I1GUfYwpQ==
+X-Received: by 2002:a5d:59ac:0:b0:203:9615:31db with SMTP id p12-20020a5d59ac000000b00203961531dbmr12630279wrr.457.1647282064994;
+        Mon, 14 Mar 2022 11:21:04 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:9f4b:0:0:0:0:0 with SMTP id f11csp2271050wrg;
+        Mon, 14 Mar 2022 11:21:01 -0700 (PDT)
+X-Received: by 2002:aca:ef45:0:b0:2cd:7fa2:c0a8 with SMTP id n66-20020acaef45000000b002cd7fa2c0a8mr293395oih.6.1647282060970;
+        Mon, 14 Mar 2022 11:21:00 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1647282060; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=lzNOnalni4aOjwI99TyDskfulizoKpd/OgW9wmUVARSeS9Hi77RyGC4MYsSajMyEgr
+         4hayj8jsSEK5fiUcXdyIROJBYRwiQ3kJypuhtakDfy6XHRbsyph/b9Mu8u4dP7F6xbMC
+         3Ldbes7ulhlX705nuhJOe4XzTI0T9e6aq37n9nqbWMGiiiSprim+cZe4F+M63fPyexWu
+         R1eoUFA8CV3YsuwGaSgVGvT/FT9DN0Lapc+Ttywo11+gSvOqcJlbALg6oMJGsgrj46TP
+         P3hMFARJnTC32eSAWFXu+60Yids6FJBwhmALn61yzZJehwMNLWhj1tsuk27cRDehE81C
+         wlwQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=FLA/Cs6u1DBstC/lWy0hK4c1lQDG044ju83FnOJv3os=;
+        b=b6SwdlV33G7n9f2VcdJu9IUJBQs2W1bkV/EedShjnG64OYL5p+dNzAtoUvE3lIl+7A
+         u33EJFyAIzGYL74NRqfNTOaIst2DD6VKA/14dBU/MtUq6hlHGxsElNLyM2CuH2gduE4E
+         TIeJ6hdiuOAAQeWYOKZeNb7mbwu21tfAM5W92PGTWWOf6oGvnFTsT/PkYcrtre3YzGnj
+         RohB30IA5gkL4tKcwBPLvZqpWU/vvj2KquRD6jSEFnvNlEc2bncv6UTGA2krzYFtjXjm
+         Ch5SmWgHOXGCXzQbUtQfP79TRKvuMdLQSlJztxiBmLnXErg2zB4dYSZ+lbigwcyKB2oA
+         tztg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=oPiR91C9;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220314141851.27021110.261608@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220314141851.27021110.261608@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220314141851.27021110.261608@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id b13-20020a0568301ded00b005b256597976sor1571366otj.169.2022.03.14.11.21.00
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 14 Mar 2022 11:21:00 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220314141851.27021110.261608@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwaxKHtT7YwqIl+IjG8h5dmI6qlCPzc+BBilq/iInDnLRb+sVsDKb1vXyT+W3IeVSJKmezTKA0JqxSg9ri6wY95so+yQMA=
+X-Received: by 2002:a05:6830:25cc:b0:5c9:5fc5:32b1 with SMTP id d12-20020a05683025cc00b005c95fc532b1mr2942461otu.138.1647282060610;
+        Mon, 14 Mar 2022 11:21:00 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1647282060; cv=none;
+        d=google.com; s=arc-20160816;
+        b=y4wmjE0qs+bdYzlIEmMmhm3NonYMTa/l+6kg+aTqVJBFtcOomEyz1YNMYEsiKZtxh3
+         MvLl+AJ1xXNpDe5+1sBfl+AywO/69tuAA4RHp9gqpKmTzxRbEFB9oC7fOWtqFc6BYVvk
+         x8zPgwBezTuQoRvnwBpgbt3YS7m2YFkTnc3wxXjQ3DaI/60Y7TiGRn6fr+4LQIzIfNPC
+         aee3i8wH2kkmJrNxkc+C9Prja8ok7ACVnuo5PUxvF2M4fbrwBbsLpGoIwuXV8wzqcch5
+         NyU/Y8EvYZjvQnb/HfYH1oIXz8hTZtBEBX1icuOP1YeFxYFhyM1It8Veah8sIPKr74PE
+         2O8A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=FLA/Cs6u1DBstC/lWy0hK4c1lQDG044ju83FnOJv3os=;
+        b=TVtaYvN7BgMM12KGCDlRhtDqfw0LyizN2WvjK7syRL4iWDOGMJ1M4SqD7FWBK1N8y4
+         uhgtFhgWpkLVqfxwoRDfLxmjnFmZ74it4k7qmEwXHsi+2aeder8xX6c6IcjVBECSXqtB
+         +667f1iGEUEZ/AJTNOe/vvG96hUHYtf31rlvqnzYPL25g93NvJGnufR7RBcJw+h/hApL
+         RrWjeUr7644h9X5CwRXXJ/EeYzv6LunifvZ8kFyd9dv9kE8PgrPrRjJ1OCAIIpu/dS2/
+         3YEs7oLIuzChhuylbnhpHq5SOloJvC8QKXE/K1zBdB9+o7Ze8sbzYxj5cnTsc5yl26ux
+         5ToQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=oPiR91C9;
+       spf=pass (google.com: domain of delivery_20220314141851.27021110.261608@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220314141851.27021110.261608@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220314141851.27021110.261608@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id e184-20020acab5c1000000b002cf48b6b783si1852303oif.1.2022.03.14.11.20.49
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 14 Mar 2022 11:21:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220314141851.27021110.261608@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=UeC0sfZvs6srtoMjpHpuEuaVStvdKF0DTAgXnBJbgOU=;
+ b=oPiR91C9kzf1W1cnTBJTYLPaxDDLxKq6pxAn2ywqLI+U5hkM8wNnbsfPHNuOMmJF8Io4vkex68gq
+   pYo+HL1JNHYo7/zfTs9fysaNGVQAlWUCZ+Shr9uFJzDvXgHUEjVdt0j3v48I7ZNDdN0aYBTN0K1s
+   b9aLfaLwVQ+UUnFTsq4=
+Received: from nj2mta-17.sailthru.com (204.153.121.17) by bloomberg-b.sailthru.com id h5u3o42tkt03 for <bloomberg@khamel.com>; Mon, 14 Mar 2022 14:19:44 -0400 (envelope-from <delivery_20220314141851.27021110.261608@mx.sailthru.com>)
+Date: Mon, 14 Mar 2022 14:18:51 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220314141851.27021110.261608@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IE5pY2tlbCBCbG93?=
+ =?utf-8?B?dXAgTWFkZSBhIExvdCBvZsKgVHJvdWJsZQ==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10556684_1698251731.1647281931702"
+Precedence: bulk
+X-Feedback-ID: 6358:27021110:campaign:sailthru
+X-TM-ID: 20220314141851.27021110.261608
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-madforest.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg35me.5luw/225f6737
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg35me.5luw/225f6737>, <mailto:unsubscribe_20220314141851.27021110.261608@mx.sailthru.com>
+X-rpcampaign: stjko27021110
+
+------=_Part_10556684_1698251731.1647281931702
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        NickelOne way to have a commodities exchange would be that you get =
+the nickel producers in a room with the industrial users of nickel and th
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Nickel
+   =20
+ =20
+One way to have a commodities exchange would be that you get the nickel pro=
+ducers in a room with the industrial users of nickel and they agree to sell=
+ each other nickel.=C2=A0Each producer would say =E2=80=9CI am going to mak=
+e X tons of nickel this year, who wants it,=E2=80=9D and each user would sa=
+y =E2=80=9CI am going to need Y tons of nickel this year, I=E2=80=99ll take=
+ some,=E2=80=9D and they=E2=80=99d agree on prices and delivery dates. The =
+producers would lock in buyers for their nickel, the users would lock in a =
+supply of nickel for their factories, everyone would be as hedged as they w=
+anted to be. (Or not: A producer might sell all of its production for the n=
+ext three years to lock in prices, or it might sell only this week=E2=80=99=
+s=C2=A0production and take a chance that next week it will get a better pri=
+ce.) And they=E2=80=99d all negotiate credit terms: If I agreed to buy nick=
+el from you next year, we=E2=80=99d agree on=C2=A0how much of a down paymen=
+t I should give you now.Obviously this happens, in the sense that industria=
+l users of commodities do often have=C2=A0contractual agreements with suppl=
+iers=C2=A0of those commodities to take future deliveries. But it is=C2=A0no=
+t particularly how=C2=A0commodities exchanges=C2=A0work. A modern commoditi=
+es exchange is a considerably  more abstract thing, a place for financial b=
+etting rather than a place to arrange delivery of nickel for your particula=
+r factory. Commodities exchanges trade standardized contracts for standardi=
+zed amounts and grades of the commodity, deliverable at standardized locati=
+ons (often warehouses affiliated with the exchange), with standardized cred=
+it terms in which the exchange sits in the middle of every trade. The trade=
+s are for fungible standard contracts, not for delivery of particular cargo=
+es at particular warehouses.Among other things, doing it this way opens up =
+commodities trading to many more participants. If you are a hedge fund, you=
+ can buy or sell nickel futures without, for instance, (1) owning a nickel =
+mine or (2) owning a warehouse to store nickel or (3) owning big trucks to =
+haul nickel or (4) knowing the creditworthiness of every=C2=A0major nickel =
+producer=C2=A0and user and negotiating credit lines with them. All you need=
+ is money, and a credit agreement with a bank or broker who is a member of =
+the exchange and can clear your trades for you.This is generally a good thi=
+ng, for the commodities exchanges, and for industrial producers and users, =
+because it creates liquidity. There are banks and brokerages and hedge fund=
+s and electronic trading firms and individuals trading nickel futures all d=
+ay and trying to keep the price correct. And so if you are a nickel produce=
+r looking=C2=A0to sell some nickel futures there will be a lot of people lo=
+oking to buy =E2=80=94=C2=A0many more than if you were=C2=A0only=C2=A0selli=
+ng to industrial users =E2=80=94=C2=A0and so you will be able to hedge quic=
+kly and efficiently at a fair price.There are some inconveniences. If you a=
+re a nickel producer and you sell your future production=C2=A0on the exchan=
+ge, you might not=C2=A0literally produce nickel, put it on trucks, and deli=
+ver it to whoever bought=C2=A0nickel futures from you.[1] You don't even kn=
+ow who they are, for one thing; as far as you=E2=80=99re concerned your cou=
+nterparty is the exchange. Also you might not produce the right type of nic=
+kel, or be located near the right sorts of warehouses. Instead probably you=
+ will sell your actual nickel production in some other way =E2=80=94=C2=A0w=
+hen you produce the nickel you=E2=80=99ll sell it to a physical metals trad=
+er who=E2=80=99ll pick it up, or you=E2=80=99ll have a supply agreement wit=
+h a manufacturer, or whatever =E2=80=94=C2=A0and you=E2=80=99ll use the fut=
+ures market to=C2=A0hedge.=C2=A0You have a mine, you sell some futures, and=
+ then if the price of nickel goes down (1) you=E2=80=99ll make less money o=
+n the nickel that you mine and deliver to real customers but (2) you=E2=80=
+=99ll get the money back on the futures you sold. The futures are not prima=
+rily sales contracts among industrial users and suppliers; they are primari=
+ly financial instruments that are correlated with the physical price.=C2=A0=
+Last week the nickel market broke. Here is a good  account from Bloomberg N=
+ews of =E2=80=9CThe 18 Minutes of Trading Chaos That Broke the Nickel Marke=
+t,=E2=80=9D early in the morning London time on March 8. The basic story is=
+ that Xiang Guangda, a Chinese nickel tycoon who runs Tsingshan Holding Gro=
+up Co., had a big bet against nickel in the futures market. The price of ni=
+ckel shot up due to Russia=E2=80=99s invasion of Ukraine, and Xiang lost mo=
+ney on his short bet, as did other short sellers. They got margin calls: Th=
+e exchange demanded that Xiang=E2=80=99s brokers put up more money to cover=
+ his losses, and the brokers demanded money from him, which he did not have=
+. Short sellers facing margin calls bought back some of their nickel future=
+s, pushing the price higher and leading to more margin calls:That put Tsing=
+shan=E2=80=99s banks and brokers, which include JPMorgan Chase, BNP Paribas=
+, and Standard Chartered, in a bind. They had offset their deals with Tsing=
+shan by placing their own short positions on the LME. Now they had to pay b=
+ig margin calls on the exchange while receiving no margin from their client=
+. Some started hurrying to buy back nickel contracts, sending the price of =
+nickel spiraling ever higher. It was a classic short squeeze, as the pain f=
+or Tsingshan, its brokers, and other shorts created a self-reinforcing cycl=
+e.Some brokers on the exchange did not have the money to meet margin calls,=
+ and continuing to trade would have bankrupted them. So the London Metal Ex=
+change decided, never mind:By now, Tsingshan wasn=E2=80=99t the only nickel=
+ company that was struggling=E2=80=94just the biggest. Many producers, trad=
+ers, and users of nickel with short positions on the LME were facing margin=
+ calls many times larger than they were prepared for. =E2=80=9CWhen it was =
+flying towards $100,000, you could feel the damage, and you knew companies =
+were fighting for their existence,=E2=80=9D says John Browning, founding pa=
+rtner of brokerage Bands Financial Ltd. and a former LME board member.At th=
+e current price of nickel, the brokers themselves wouldn=E2=80=99t be able =
+to pay their margin calls, they told the LME. Four or five of the brokerage=
+s that are LME members would have failed, a shock that could have devastate=
+d the global metals industry. The price move on March 8 =E2=80=9Ccreated a =
+systemic risk to the market,=E2=80=9D the LME said two days later. The exch=
+ange had =E2=80=9Cserious concerns about the ability of market participants=
+ to meet their resulting margin calls, raising the significant risk of mult=
+iple defaults.=E2=80=9D Despite that, [LME Chief Executive Oficer Matthew] =
+Chamberlain insisted to Bloomberg TV on March 9 that the solvency of the LM=
+E itself was never in doubt.The LME made a near-unprecedented decision. It =
+decided to cancel all the trades that took place on Tuesday morning=E2=80=
+=94$3.9 billion of them, according to a Bloomberg calculation. Exchanges so=
+metimes cancel trades when technology glitches or =E2=80=9Cfat fingers=E2=
+=80=9D cause one-off mistakes. But it=E2=80=99s extremely unusual for an ex=
+change to cancel whole sessions of trading after the fact. Crucially, the d=
+ecision meant traders wouldn=E2=80=99t need to pay margin calls on the basi=
+s of the $80,000 nickel price. Effectively, it rewound the market to the mo=
+ment when prices closed on Monday at $48,078.Traders who were short nickel =
+would have been bankrupted at $80,000, so the LME cut the price back to $48=
+,078 to keep them afloat.One way to look at this is to pretend that the nic=
+kel exchange is just where industrial producers and users of nickel lock in=
+ their prices. If you=E2=80=99re a giant nickel producer and you sell a lot=
+ of nickel forward, and then the price of nickel goes up, (1) you are happy=
+ because you are a nickel producer and your product is worth more, but (2) =
+you are sad because you sold a lot of your product cheap and you could have=
+ made more money if=C2=A0you waited, but (3) it=E2=80=99s fine, whatever, t=
+hat=E2=80=99s what hedging is for. Certainly it is not a=C2=A0catastrophe=
+=C2=A0for you that the price of nickel, which you produce, went up. You wer=
+e making the nickel anyway, and you will deliver it at the agreed price.And=
+ therefore if the market structure=C2=A0turns it into=C2=A0a catastrophe =
+=E2=80=94=C2=A0if your brokers are bankrupted and the price of nickel futur=
+es=C2=A0soars way beyond the price industrial users are paying due to margi=
+n calls driven by short-term liquidity mismatches =E2=80=94=C2=A0then the m=
+arket structure is wrong and the exchange should just wave a wand and rever=
+se that. The exchange is just a convenient fiction, a helpful adjunct to re=
+al-world nickel trading. This is =E2=80=A6=C2=A0kind of what the exchange a=
+nd its defenders said?LME=E2=80=99s Chamberlain defended canceling the trad=
+es. =E2=80=9COur fundamental responsibility is market stability,=E2=80=9D h=
+e told Bloomberg TV. =E2=80=9CThe prices that were being seen during that A=
+sian session were becoming disconnected from, I believe, physical reality.=
+=E2=80=9D ...[Mark] Hansen of Concord Resources argues that financial inves=
+tors who traded nickel last week should have been prepared for the LME to s=
+tep in. =E2=80=A6 =E2=80=9CThe LME at the end of the day is a physical meta=
+l market,=E2=80=9D he says. =E2=80=9CAnyone using the LME needs to understa=
+nd that. It=E2=80=99s not just a casino.=E2=80=9D=C2=A0The Financial Times =
+reports:Cancelling trades had been necessary because the size of the short =
+position that had been racked up in rocketing nickel presented a systemic r=
+isk, said Matt Chamberlain, LME=E2=80=99s chief executive.=E2=80=9COne of o=
+ur key responsibilities is to serve the physical traders,=E2=80=9D he said.=
+ =E2=80=9CIf we allowed the trades to stand, we would have to say that the =
+price of nickel is $80,000-$90,000 and that would not seem rational to the =
+physical market. And we could have placed significant stress on a number of=
+ our core members.=E2=80=9DBut if you were on the other side of the trades =
+that were canceled =E2=80=94=C2=A0if you sold nickel at $80,000 only to fin=
+d out that no you actually hadn=E2=80=99t =E2=80=94=C2=A0you might feel agg=
+rieved. =E2=80=9CPhysical reality=E2=80=9D has nothing to do with it! That =
+was the price! You were trading on the exchange in good faith; there were b=
+uy orders and you were filling them. The fact that the buyers might have be=
+en motivated by margin calls rather than industrial needs for nickel was ir=
+relevant to you: You were there to do financial trading. The LME wanted you=
+ there! The nickel producers and consumers wanted you there! Everyone agree=
+d on the somewhat abstract financialized rules of the nickel market, becaus=
+e those rules=C2=A0attract=C2=A0financial traders and therefore make the ma=
+rket more useful.=C2=A0And when you blow up those rules because the results=
+ =E2=80=9Cwould not seem rational to the physical market,=E2=80=9D the fina=
+ncial traders get mad and the market gets less useful:=E2=80=9CFor the LME =
+to cancel nickel trades between willing buyers and sellers is unforgiveable=
+. UNFORGIVEABLE,=E2=80=9D tweeted Mark Thompson, a former trader at Trafigu=
+ra and Apollo. Cliff Asness, founder of AQR Capital Management, accused the=
+ LME, which was for more than a century owned by its members but in 2012 wa=
+s sold to Hong Kong Exchanges & Clearing, of =E2=80=9Cstealing money from m=
+arket participants trading in good faith and giving it to Chinese nickel pr=
+oducers and their banks.=E2=80=9D ...Some think this could herald the end o=
+f the exchange itself. =E2=80=9CThe LME is now very likely going to die a s=
+low, self-inflicted death through the loss of confidence in it and its prod=
+ucts,=E2=80=9D predicted Thompson in a tweet. ...Some aggrieved traders are=
+ already preparing to take legal action against the exchange. There are als=
+o traders making plans to abandon the LME nickel contract, a move that woul=
+d reduce market liquidity, making it harder for everyone from miners to car=
+ companies to manage their exposure to prices and access financing.Meanwhil=
+e, the LME remains shut and people are working to get things back to physic=
+al reality. As  we have  discussed, Xiang has two basic problems: He produc=
+es a lot of nickel, so his losses on his short position are offset by his g=
+ains on his nickel production, but (1) he needs a lot of ready cash to meet=
+ margin calls on the futures and (2) the nickel he produces is not the sort=
+ of nickel that can be delivered to settle LME futures. He seems to be comi=
+ng to solutions on both issues. On the cash side, you know, he has a lot of=
+ nickel, which is very valuable now, so  surely someone will lend him money=
+:Banks led by JPMorgan Chase & Co. are in advanced talks for a loan facilit=
+y to backstop Xiang Guangda=E2=80=99s short position in nickel, in an attem=
+pt to restore stability to the market after an unprecedented squeeze. ...Un=
+der the deal being discussed, the roughly 10 banks that were Xiang=E2=80=99=
+s counterparts for his nickel bet would extend enough credit to cover his m=
+ark-to-market losses, according to people familiar with the matter. Crucial=
+ly, they would also provide a loan facility to allow Xiang to meet future m=
+argin calls should the nickel price increase further.In exchange, Xiang is =
+offering the banks security over a wide range of assets held by his company=
+ Tsingshan Group Holding Co., the world=E2=80=99s top nickel and stainless =
+steel producer, the people said, asking not to be identified as the discuss=
+ions are private.On the wrong-kind-of-nickel problem, he really has a lot o=
+f nickel, so surely someone with the right kind of nickel could arrange a s=
+wap:Tsingshan Holding Group, the world=E2=80=99s largest nickel producer, h=
+as said that it will be able to tackle a historic short squeeze after gathe=
+ring sufficient nickel inventory for delivery, and with fresh lifelines fro=
+m banks.The company has swapped its nickel matte for domestic nickel plate,=
+ which will let it close its short position against the metal, state media =
+Securities Daily reported on Thursday citing a reply from Tsingshan.In a=C2=
+=A0very general sense, if you are a giant nickel producer who has sold a bu=
+nch of nickel forward and the price of nickel goes up, that is fine and the=
+ market should work itself out. But the specifics matter too! If you just s=
+kip ahead to pretending the market worked itself out, some of the people wh=
+o were trading the actual market will have legitimate complaints.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Russia CDS
+   =20
+ =20
+If you bought dollar-denominated Russian government bonds, you probably wan=
+t to get paid back in dollars. If Russia called you up and said =E2=80=9Che=
+y we are fresh out of dollars, will you take rubles,=E2=80=9D you would not=
+ be happy. In the scenario where that happens =E2=80=94=C2=A0where Russia i=
+s unable or unwilling to pay its international investors back in dollars in=
+ accordance with the terms of their contracts =E2=80=94=C2=A0things will be=
+ bad and you will not want rubles. Getting rubles will be bad for some reas=
+on: The price will be going down, the ruble will not be freely convertible,=
+ Russia will be paying you rubles at an artificial (too low) exchange rate,=
+ some combination of those things, etc. The time when you get rubles will b=
+e the time you don't want rubles.=C2=A0On the other hand, if you bought dol=
+lar-denominated Russian government bonds, you had to recognize that there w=
+as=C2=A0some risk=C2=A0of Russia not paying you back in dollars. Away from =
+the particulars of Russia=E2=80=99s situation =E2=80=94=C2=A0Russia has bee=
+n under some U.S. sanctions since 2014, it has been a menacing neighbor for=
+ some time now, etc. =E2=80=94=C2=A0there is some risk that=C2=A0any=C2=A0c=
+ountry that issues dollar bonds might not have the dollars to pay them back=
+. Of course the country might just not pay=C2=A0anything=C2=A0=E2=80=94=C2=
+=A0instead of giving you rubles it could give you nothing =E2=80=94=C2=A0bu=
+t there is some chance that for face-saving or helping-local-investors reas=
+ons it might give you its local currency instead and say =E2=80=9Chey, we p=
+aid you, what=E2=80=99s the problem.=E2=80=9D=C2=A0If you own dollar-denomi=
+nated Russian bonds and Russia decides to pay you in rubles, you might obje=
+ct: =E2=80=9CNo, see, these bonds are denominated in dollars. It says right=
+ here in the bond contract that you have to pay me in dollars. If you pay m=
+e in rubles you are not honoring the contract and I will sue!=E2=80=9D You =
+could sue!=C2=A0It will not generally do you=C2=A0that=C2=A0much good? Russ=
+ia is a country with sovereign immunity; you might get a court judgment aga=
+inst it, but you will have limited ability to=C2=A0enforce=C2=A0that judgme=
+nt. You can=E2=80=99t foreclose on its embassies, or even on its central ba=
+nk=E2=80=99s foreign-exchange accounts. This is particularly true because i=
+t is =E2=80=A6=C2=A0Russia? It is a nuclear power whose president has a his=
+tory of murdering his opponents abroad with polonium. When Argentina defaul=
+ted on some foreign debt, a hedge fund famously got a court judgment and us=
+ed it to seize=C2=A0an Argentine naval vessel. That's a fun lark for a hedg=
+e fund! Trying to seize a Russian naval vessel is not.[2]Realistically the =
+best you can do, if Russia decides to pay you in rubles, is say =E2=80=9Cth=
+is has been a=C2=A0terrible experience and=C2=A0I am never going to lend mo=
+ney to Russia again!=E2=80=9D To the extent this is true =E2=80=94=C2=A0to =
+the extent it=E2=80=99s a credible threat =E2=80=94 it will deter Russia fr=
+om paying you in rubles; Russia wants to be able to issue international bon=
+ds. But of course countries do default on their sovereign debt from time to=
+ time, because (1) they don=E2=80=99t have much choice and (2) markets tend=
+ to have short memories so the deterrent effect isn=E2=80=99t that strong.=
+=C2=A0(Argentina sold=C2=A0hundred-year=C2=A0bonds five years after that sh=
+ip got seized. They defaulted too.) Also in Russia=E2=80=99s particular cas=
+e the international bond markets are not really open anyway: Investors from=
+ countries sanctioning Russia are not going to lend it any more money anywa=
+y, so there=E2=80=99s not much deterrent to defaulting.Given this situation=
+ you might not care=C2=A0too much about what it says in the fine print of y=
+our bond contract with Russia. The front page of the contract says =E2=80=
+=9Cwe=E2=80=99ll pay you X% in dollars=E2=80=9D and you=E2=80=99ll plan to =
+get paid X% in dollars as long as things go well. If things go poorly, you =
+will not expect to parse the fine print of the contract to find promising l=
+itigation tricks. Russia can do whatever it wants, and your remedy is not t=
+o sue under the terms of the contract; it=E2=80=99s to say =E2=80=9CI will =
+never lend to Russia again.=E2=80=9DSo if the fine print of the contract sa=
+id this,[3] for instance:if, for reasons beyond its control, the Russian Fe=
+deration is unable to make payments of principal or interest (in whole or i=
+n part) in respect of the Bonds in U.S. Dollars (an "Alternative Payment Cu=
+rrency Event"), the Russian Federation shall make such payments (in whole o=
+r in part) in the Alternative Payment Currency on the due date at the Alter=
+native Payment Currency Equivalent of any such U.S. dollar-denominated amou=
+nt. =E2=80=A6=E2=80=9CAlternative Payment Currency" means U.S. Dollars, Pou=
+nd sterling or Swissfrancs or, if for reasons beyond its control the Russia=
+n Federation is unable to make paymentsof principal or interest (in whole o=
+r in part) in respect of the Bonds in any of these currencies,Russian roubl=
+es.You might not care. =E2=80=9CSure, yes,=E2=80=9D you=E2=80=99d think. =
+=E2=80=9CAll that means is that if Russia decides not to pay me in dollars,=
+ it will stuff me with rubles. I=E2=80=99ll hate that, sure, but what can I=
+ do? Russia could decide to do that even if the contract didn=E2=80=99t=C2=
+=A0say that, and what would I do then, sue?=E2=80=9D You might buy those bo=
+nds not because you think the contract is watertight, but because you are b=
+etting on conditions being good enough that Russia won=E2=80=99t want to ex=
+ercise this right and torch its credit.=C2=A0And if=C2=A0other dollar-denom=
+inated Russian government bonds don=E2=80=99t=C2=A0have that provision, you=
+ might not notice or care about the difference. Either Russia will keep pay=
+ing in order to maintain its international creditworthiness, in which case =
+both sorts of bonds will get paid (in dollars), or it won=E2=80=99t, in whi=
+ch case it will do whatever it wants to both sorts of bonds and the contrac=
+tual language won=E2=80=99t really matter. Except!Roughly $13 billion of Ru=
+ssian government debt could be ineligible to be delivered in a credit-defau=
+lt swaps auction, a panel of banks and investors ruled Friday, potentially =
+complicating hedges against a Russia default.After three days of meetings, =
+members of the Credit Derivatives Determinations Committee said that becaus=
+e of a feature in the six bonds allowing the government to make payments in=
+ rubles -- rather than the dollars or euros they were issued in -- they wou=
+ld be ineligible as so-called deliverable obligations.In fact, Russia has s=
+ome dollar- and euro-denominated bonds that contain the language I quoted a=
+bove, and some that don=E2=80=99t. If you own the ones containing that fall=
+back language, and Russia pays you in rubles, you will be very annoyed, but=
+ there is nothing you can do about it, and the bonds will not be in default=
+. If you own the ones=C2=A0not=C2=A0containing the fallback language, and R=
+ussia pays you in rubles, you will be very annoyed, but there is nothing yo=
+u can do about it, but the bonds=C2=A0will=C2=A0be in default.=C2=A0And if =
+you bought CDS as insurance against Russia stiffing you, and you own the bo=
+nds that technically allow Russia to stiff you, then your insurance will no=
+t pay out.[4]=C2=A0Anyway, =E2=80=9CRussia will repay debt in rubles until =
+its cash pile is unfrozen,=E2=80=9D its  finance minister has said, and tha=
+t seems =E2=80=94=C2=A0though it is not quite clear =E2=80=94=C2=A0to inclu=
+de the dollar bonds=C2=A0without=C2=A0the fallback language:Concern over a =
+default intensified after a decree by President Vladimir Putin ordering Rus=
+sian debtors to pay their foreign creditors in rubles in Russian bank accou=
+nts, regardless of the currency in which the debt was issued. =E2=80=A6=C2=
+=A0The government has $117 million worth of coupons on dollar bonds coming =
+due on March 16 that don=E2=80=99t have the embedded ruble option.=C2=A0So =
+CDS against Russian default might not pay out as much as people expected, b=
+ecause technically Russia has the right to stiff some of its bondholders an=
+yway.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Don=E2=80=99t short to zero
+   =20
+ =20
+A theme around  here is that if you bet that a stock will go up, and it goe=
+s up a little, you make a little money; if it goes up a ton you make a ton =
+of money. But if you bet that a stock will go down, and it goes down a litt=
+le, you make a little money; if it goes down a ton you find yourself in a h=
+orrible limbo. If you short a stock because it=E2=80=99s a fraud, and regul=
+ators shut down trading in the stock because it=E2=80=99s=C2=A0such a fraud=
+, how do you cover your short? You just sit around paying stock borrow cost=
+s forever; it=E2=80=99s very unpleasant. The problem with betting on disast=
+er is that when you win  there has been a disaster.Here=E2=80=99s a story a=
+bout people who  bought put options on Russian stocks and exchange-traded f=
+unds. A put option allows you to sell a security at an agreed price any tim=
+e before it expires. It is a way to bet that the thing will go down. The th=
+ings went down! However now it=E2=80=99s more or less illegal to sell them,=
+ so your contractual right to sell them at a fixed price is not as helpful =
+as you hoped:At stake is about $370 million: That=E2=80=99s the value of op=
+en interest on all put options expiring this year for a group of Russia-tie=
+d securities, including the VanEck Russia ETF, Direxion Daily Russia Bull 2=
+X Shares, Yandex NV, Qiwi Plc, Ozon Holdings Plc, Mobile TeleSystems PJSC a=
+nd Mechel PJSC, according to data compiled by Bloomberg.Now brokerages are =
+trying to figure out how to respond. The problem is that individual investo=
+rs like Stockman hold options contracts allowing them to sell shares of Rus=
+sian-linked securities. But with the instruments halted in U.S. trading (an=
+d with the Moscow Exchange closed), it=E2=80=99s unclear whether traders wi=
+ll be able to exercise the contracts at all.The firms have been inundated w=
+ith customer complaints. ...Jeff Porter, a 36-year-old attorney based in Ar=
+izona, owns puts on the VanEck Russia ETF expiring this Friday that were wo=
+rth about $50,000 at the time the fund was halted. He, too, can=E2=80=99t e=
+xercise his options because Fidelity told him there aren=E2=80=99t shares a=
+vailable to borrow to facilitate such a transaction, he said.=E2=80=9CIt fe=
+els like the market doesn=E2=80=99t permit you to be too correct,=E2=80=9D =
+Porter said.=C2=A0Yeah, no, you don't want to be=C2=A0too=C2=A0correct.
+ =20
+   =20
+      Tether short
+   =20
+ =20
+Why is  this hard?Fir Tree Capital Management is making a substantial short=
+ wager on Tether, the stablecoin that=E2=80=99s under intense scrutiny from=
+ regulators.The $4 billion hedge fund, founded by Jeff Tannenbaum, construc=
+ted a way to short Tether in an asymmetric trade, meaning the downside risk=
+ is small and potential to make money is great, according to clients of the=
+ firm. That=E2=80=99s a feat that other firms have struggled to figure out.=
+ =E2=80=A6Fir Tree is betting that its short wager could see a payday withi=
+n 12 months and its thesis against Tether centers around the coin=E2=80=99s=
+ roughly $24 billion in high-yield commercial paper, much of it the firm be=
+lieves is tied to Chinese real estate developers. ...Genesis Global Trading=
+ Inc., a crypto broker, has helped some asset managers put on Tether shorts=
+ by lending the stablecoin itself or structuring put options. The company d=
+oesn=E2=80=99t take a view on Tether and serves clients who are buyers of t=
+he stablecoin.Like, Tether is a digital token that is supposed to be worth =
+a dollar. (It is also=C2=A0the name of the entity, Tether Ltd., that issues=
+ Tethers.)=C2=A0It is in fact worth a dollar: It trades on exchanges for ve=
+ry close to a=C2=A0dollar, with very limited volatility. It is backed by a =
+pool of liquid dollar-denominated assets, or  says it is anyway. Institutio=
+nal customers can redeem Tethers for dollars, from Tether Ltd., one for one=
+.You might believe =E2=80=94=C2=A0lots of people believe! =E2=80=94=C2=A0th=
+at Tether is backed by bad commercial paper and that it will break. A big c=
+ommercial-paper issuer will default, Tether (which keeps its holdings  very=
+ secret) will turn=C2=A0out to own a lot of its paper, and so Tether will h=
+ave fewer dollars than it has issued Tethers. Customers will panic and rede=
+em their Tethers, forcing Tether to sell more bad commercial paper at fire-=
+sale prices and driving down the price of its commercial paper; ultimately =
+each Tether will be worth much less than a dollar.=C2=A0If you do believe t=
+his then in some sense the trade should be easy? Like, if you wanted to bor=
+row=C2=A0dollars, betting that a=C2=A0dollar would somehow turn out to be w=
+orth 40 cents, you could do that pretty cheaply. (I realize this makes no s=
+ense.)=C2=A0Borrow $100 million for a year at, you know, 3%. (The one-year =
+Bloomberg Short Term Bank Yield Index, representing unsecured borrowing cos=
+ts of a big bank,=C2=A0is about 1.46% today.) That costs you $3 million. If=
+ it crashes to 40 cents, you only have to pay back $40 million, so you make=
+ $57 million of profit; if it doesn=E2=80=99t, your loss is capped at $3 mi=
+llion. (It=E2=80=99s never going to be worth more=C2=A0than a dollar.) Asym=
+metric trade!Interest rates to borrow Tether are =E2=80=A6=C2=A0higher? Tet=
+her=C2=A0is in some ways a substitute for the dollar, but not in the sense =
+that you can borrow a ton of it at dollar interest rates to bet that it wil=
+l drop.Or, sure, find someone to sell you puts. How much should someone cha=
+rge to sell you, say, a one-year=C2=A0put on Tether struck at 90 cents? (If=
+ Tether is above 90 cents for the whole year, you get back $0; otherwise, y=
+ou get back the difference between 90 cents and the price of Tether when yo=
+u exercise the put.) Tether has as far as I can tell never traded below 90 =
+cents. Its realized volatility is nearly zero, because it is a stablecoin. =
+Option pricing models suggest that the price of that put is, like, =E2=80=
+=9Cfree.=E2=80=9D But of course the bet, when you buy a put on Tether, is t=
+hat past performance does not reflect future performance, and that when peo=
+ple really understand Tether its stability will disappear.=C2=A0There is a =
+relevant story from Nassim Taleb. Here is how I have  previously summarized=
+ it:In 1992, a trader =E2=80=9Cneeded to buy quantities of out-of-the-money=
+ puts on the sterling, calls on the [Deutsche] mark, struck 10% outside the=
+ official government band. The customer was a conspiracy theorist fund mana=
+ger who believed in the imminent breakup of the [pre-euro European] monetar=
+y order.=E2=80=9D The trader called a few large dealers for quotes and got =
+two answers. One dealer, a former pit trader, =E2=80=9Ctold him that they w=
+ere reluctant to show a price, =E2=80=98because the strike is outside the b=
+and=E2=80=99 and the options were =E2=80=98too risky.=E2=80=99 They would a=
+ccommodate him if necessary, but at very expensive implied volatility and o=
+nly for a moderate amount.=E2=80=9D Another dealer, =E2=80=9Ca graduate of =
+a prestigious European school of engineering,=E2=80=9D =E2=80=9Cliterally l=
+aughed at him. =E2=80=98But Zey are outside the band, if I am not mistaken,=
+=E2=80=99 he was told. =E2=80=98How many do you vant? I can sell you all yo=
+u need. You should give your money to charity instead.=E2=80=99=E2=80=9D=C2=
+=A0The European Monetary System broke up. One of those dealers kept his job=
+.If you want to buy puts on Tether, then:=09Some people will charge you a l=
+ot of money for the puts. If you trade with them, it will be expensive.=09O=
+ther people will charge you very little money for the puts. If you trade wi=
+th them, and Tether in fact crashes, how sure are you that they=E2=80=99ll =
+be around to pay out?=C2=A0The problem with betting on disaster is that whe=
+n you win there has been a disaster.
+ =20
+   =20
+      Everything is securities fraud
+   =20
+ =20
+Is raising the price of your product securities fraud? Everything is securi=
+ties fraud!Rivian, the electric vehicle manufacturer, is being=C2=A0sued=C2=
+=A0(PDF) by a shareholder who alleges that the company's surprise 20 percen=
+t price hike tarnished Rivian's reputation and violated US securities laws.=
+The company made "untrue statements" in its IPO about the pricing of its R1=
+T truck and R1S SUV, the lawsuit says. "Unbeknownst to investors," the suit=
+ says, Rivian's filings for the IPO contained statements that were "materia=
+lly inaccurate, misleading, and/or incomplete because they failed to disclo=
+se, among other things, that the R1T and R1S were underpriced to such a deg=
+ree that Rivian would have to raise prices shortly after the IPO."Now that =
+inflation is back I suppose every company will get a price-increases-are-se=
+curities-fraud lawsuit?
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Russian Stock Market  Trading Halt Extended to March 18. Citi to Expand  Ru=
+ssia Retreat Beyond Its Consumer-Banking Exit. Former Wirecard chief execut=
+ive charged with fraud. Gold Dealers  Swamped by Demand as War Creates Infl=
+ation Scare. Russia=E2=80=99s invasion to have =E2=80=98enormous impact=E2=
+=80=99 on world food supplies. Russian Prosecutors Warn Western Companies o=
+f Arrests, Asset Seizures. The Big Four face a fraught exit from Russia. Cr=
+ypto Aims to Boost Influence With Washington Hires. Steve Cohen=E2=80=99s P=
+oint72 to Redeem $750 Million From Hedge Fund  Melvin.=C2=A0Russian Billion=
+aires Reshape Their Fortunes  While They Can. Tencent Faces Possible Record=
+ Fine for Anti-Money-Laundering Violations. Former Temple Business-School D=
+ean Gets Prison Term in Rankings Scandal. Grimes is dating leaker Chelsea M=
+anning after Elon Musk breakup. Sanctions Ensnare Roman Abramovich Rent Pay=
+ments to Queen Elizabeth.=C2=A0Elon Musk Challenges Vladimir Putin to =E2=
+=80=98Single Combat=E2=80=99 for Ukraine.If you'd like to get=C2=A0Money=C2=
+=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0subscri=
+be at this link. Or you can subscribe to Money Stuff and other great Bloomb=
+erg newsletters here. Thanks![1] You might! Nickel futures are physically s=
+ettled, so you *could* deliver nickel (if you=E2=80=99re short) or take del=
+ivery (if you're long).=C2=A0[2] That hedge fund =E2=80=94 Elliott Manageme=
+nt =E2=80=94=C2=A0actually had more success blocking Argentina=E2=80=99s ex=
+ternal financing by litigating the =E2=80=9Cpari passu=E2=80=9D clause in i=
+ts bonds. Robin Wigglesworth wrote last week about how Russia is theoretica=
+lly open to the same vulnerability. But=C2=A0this still requires hard-nosed=
+ litigation against Vladimir Putin, and Russia can=E2=80=99t really get ext=
+ernal dollar financing now anyway so the pari passu litigation approach has=
+ no real teeth.[3] I=E2=80=99m quoting from the ISDA EMEA DC Meeting Statem=
+ent, paragraph 2, which quotes the bond contractual language. In fact the D=
+C quote says =E2=80=9Cif, for reasons beyond its control, the Russian Feder=
+ation is unable to make payments of principal or interest (in whole or in p=
+art) in respect of the Bonds in [U.S. Dollars/Euro],=E2=80=9D etc., because=
+ it is covering both dollar and euro bonds, but I have omitted the euros fo=
+r clarity.[4] This is not quite right as a technical matter: CDS doesn=E2=
+=80=99t care what bonds you bought it =E2=80=9Cagainst=E2=80=9D; it is an i=
+ndependent instrument not directly linked to the bonds. What matters is (1)=
+ what *triggers* CDS (if Russia pays rubles only on the ruble-option bonds =
+there's no default and so no CDS payout) and (2) what is *deliverable* in t=
+he auction to settle the CDS payout: The ruble-option bonds can=E2=80=99t b=
+e delivered, which means there are fewer bonds available in the auction, wh=
+ich means that the price of the bonds will be higher, which means that the =
+payout on CDS will be lower, for *every* CDS holder, not just the ones who =
+also own ruble-option bonds.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg35me.5luw/b7460ad3.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_10556684_1698251731.1647281931702
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+NickelOne way to have a commodities exchange would be that you get the nick=
+el producers in a room with the industrial users of nickel and th
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNzAyMTExMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyODI3MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB463a7bde" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D27021110&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27282718&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzE0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMTQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB80eee9de"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNzAyMTExMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyODI3MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC8f02f464" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D27021110&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27282718&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Nickel</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One way to have a commodities exchange=
+ would be that you get the nickel producers in a room with the industrial u=
+sers of nickel and they agree to sell each other nickel.=C2=A0Each producer=
+ would say =E2=80=9CI am going to make X tons of nickel this year, who want=
+s it,=E2=80=9D and each user would say =E2=80=9CI am going to need Y tons o=
+f nickel this year, I=E2=80=99ll take some,=E2=80=9D and they=E2=80=99d agr=
+ee on prices and delivery dates. The producers would lock in buyers for the=
+ir nickel, the users would lock in a supply of nickel for their factories, =
+everyone would be as hedged as they wanted to be. (Or not: A producer might=
+ sell all of its production for the next three years to lock in prices, or =
+it might sell only this week=E2=80=99s=C2=A0production and take a chance th=
+at next week it will get a better price.) And they=E2=80=99d all negotiate =
+credit terms: If I agreed to buy nickel from you next year, we=E2=80=99d ag=
+ree on=C2=A0how much of a down payment I should give you now.</p><p style=
+=3D"margin: 16px 0;">Obviously this <em>happens</em>, in the sense that ind=
+ustrial users of commodities do often have=C2=A0contractual agreements with=
+ suppliers=C2=A0of those commodities to take future deliveries. But it is=
+=C2=A0<em>not </em>particularly how=C2=A0<em>commodities exchanges=C2=A0</e=
+m>work. A modern commodities exchange is a considerably <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTQtMDktMDMvdGhlLWdvbGRtYW4tc2FjaHMt=
+YWx1bWludW0tY29uc3BpcmFjeS1sYXdzdWl0LWlzLW92ZXI_Y21waWQ9QkJEMDMxNDIyX01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+IwMzE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB23b4722d" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> more abstract thing</a>, a place for financial betting rather than =
+a place to arrange delivery of nickel for your particular factory. Commodit=
+ies exchanges trade standardized contracts for standardized amounts and gra=
+des of the commodity, deliverable at standardized locations (often warehous=
+es affiliated with the exchange), with standardized credit terms in which t=
+he exchange sits in the middle of every trade. The trades are for fungible =
+standard contracts, not for delivery of particular cargoes at particular wa=
+rehouses.</p><p style=3D"margin: 16px 0;">Among other things, doing it this=
+ way opens up commodities trading to many more participants. If you are a h=
+edge fund, you can buy or sell nickel futures without, for instance, (1) ow=
+ning a nickel mine or (2) owning a warehouse to store nickel or (3) owning =
+big trucks to haul nickel or (4) knowing the creditworthiness of every=C2=
+=A0major nickel producer=C2=A0and user and negotiating credit lines with th=
+em. All you need is money, and a credit agreement with a bank or broker who=
+ is a member of the exchange and can clear your trades for you.</p><p style=
+=3D"margin: 16px 0;">This is generally a good thing, for the commodities ex=
+changes, and for industrial producers and users, because it creates liquidi=
+ty. There are banks and brokerages and hedge funds and electronic trading f=
+irms and individuals trading nickel futures all day and trying to keep the =
+price correct. And so if you are a nickel producer looking=C2=A0to sell som=
+e nickel futures there will be a lot of people looking to buy =E2=80=94=C2=
+=A0many more than if you were=C2=A0<em>only=C2=A0</em>selling to industrial=
+ users =E2=80=94=C2=A0and so you will be able to hedge quickly and efficien=
+tly at a fair price.</p><p style=3D"margin: 16px 0;">There are some inconve=
+niences. If you are a nickel producer and you sell your future production=
+=C2=A0on the exchange, you might not=C2=A0literally produce nickel, put it =
+on trucks, and deliver it to whoever bought=C2=A0nickel futures from you.[1=
+] You don't even know who they are, for one thing; as far as you=E2=80=99re=
+ concerned your counterparty is the exchange. Also you might not produce th=
+e right type of nickel, or be located near the right sorts of warehouses. I=
+nstead probably you will sell your actual nickel production in some other w=
+ay =E2=80=94=C2=A0when you produce the nickel you=E2=80=99ll sell it to a p=
+hysical metals trader who=E2=80=99ll pick it up, or you=E2=80=99ll have a s=
+upply agreement with a manufacturer, or whatever =E2=80=94=C2=A0and you=E2=
+=80=99ll use the futures market to=C2=A0<em>hedge.=C2=A0</em>You have a min=
+e, you sell some futures, and then if the price of nickel goes down (1) you=
+=E2=80=99ll make less money on the nickel that you mine and deliver to real=
+ customers but (2) you=E2=80=99ll get the money back on the futures you sol=
+d. The futures are not primarily sales contracts among industrial users and=
+ suppliers; they are primarily financial instruments that are correlated wi=
+th the physical price.=C2=A0</p><p style=3D"margin: 16px 0;">Last week the =
+nickel market broke. Here is a good <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/27021110.261608/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjItMDMtMTQvaW5zaWRlLW5pY2tlbC1zLXNob3J0LXNxdWVlemUtaG93LXBy=
+aWNlLXN1cmdlcy1oYWx0ZWQtbG1lLXRyYWRpbmc_Y21waWQ9QkJEMDMxNDIyX01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzE0Jn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB44c63dfb" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ account from Bloomberg News</a> of =E2=80=9CThe 18 Minutes of Trading Chao=
+s That Broke the Nickel Market,=E2=80=9D early in the morning London time o=
+n March 8. The basic story is that Xiang Guangda, a Chinese nickel tycoon w=
+ho runs Tsingshan Holding Group Co., had a big bet against nickel in the fu=
+tures market. The price of nickel shot up due to Russia=E2=80=99s invasion =
+of Ukraine, and Xiang lost money on his short bet, as did other short selle=
+rs. They got margin calls: The exchange demanded that Xiang=E2=80=99s broke=
+rs put up more money to cover his losses, and the brokers demanded money fr=
+om him, which he did not have. Short sellers facing margin calls bought bac=
+k some of their nickel futures, pushing the price higher and leading to mor=
+e margin calls:</p><blockquote><p style=3D"margin: 16px 0;">That put Tsings=
+han=E2=80=99s banks and brokers, which include JPMorgan Chase, BNP Paribas,=
+ and Standard Chartered, in a bind. They had offset their deals with Tsings=
+han by placing their own short positions on the LME. Now they had to pay bi=
+g margin calls on the exchange while receiving no margin from their client.=
+ Some started hurrying to buy back nickel contracts, sending the price of n=
+ickel spiraling ever higher. It was a classic short squeeze, as the pain fo=
+r Tsingshan, its brokers, and other shorts created a self-reinforcing cycle=
+.</p></blockquote><p style=3D"margin: 16px 0;">Some brokers on the exchange=
+ did not have the money to meet margin calls, and continuing to trade would=
+ have bankrupted them. So the London Metal Exchange decided, never mind:</p=
+><blockquote><p style=3D"margin: 16px 0;">By now, Tsingshan wasn=E2=80=99t =
+the only nickel company that was struggling=E2=80=94just the biggest. Many =
+producers, traders, and users of nickel with short positions on the LME wer=
+e facing margin calls many times larger than they were prepared for. =E2=80=
+=9CWhen it was flying towards $100,000, you could feel the damage, and you =
+knew companies were fighting for their existence,=E2=80=9D says John Browni=
+ng, founding partner of brokerage Bands Financial Ltd. and a former LME boa=
+rd member.</p><p style=3D"margin: 16px 0;">At the current price of nickel, =
+the brokers themselves wouldn=E2=80=99t be able to pay their margin calls, =
+they told the LME. Four or five of the brokerages that are LME members woul=
+d have failed, a shock that could have devastated the global metals industr=
+y. The price move on March 8 =E2=80=9Ccreated a systemic risk to the market=
+,=E2=80=9D the LME said two days later. The exchange had =E2=80=9Cserious c=
+oncerns about the ability of market participants to meet their resulting ma=
+rgin calls, raising the significant risk of multiple defaults.=E2=80=9D Des=
+pite that, [LME Chief Executive Oficer Matthew] Chamberlain insisted to Blo=
+omberg TV on March 9 that the solvency of the LME itself was never in doubt=
+.</p><p style=3D"margin: 16px 0;">The LME made a near-unprecedented decisio=
+n. It decided to cancel all the trades that took place on Tuesday morning=
+=E2=80=94$3.9 billion of them, according to a Bloomberg calculation. Exchan=
+ges sometimes cancel trades when technology glitches or =E2=80=9Cfat finger=
+s=E2=80=9D cause one-off mistakes. But it=E2=80=99s extremely unusual for a=
+n exchange to cancel whole sessions of trading after the fact. Crucially, t=
+he decision meant traders wouldn=E2=80=99t need to pay margin calls on the =
+basis of the $80,000 nickel price. Effectively, it rewound the market to th=
+e moment when prices closed on Monday at $48,078.</p></blockquote><p style=
+=3D"margin: 16px 0;">Traders who were short nickel would have been bankrupt=
+ed at $80,000, so the LME cut the price back to $48,078 to keep them afloat=
+.</p><p style=3D"margin: 16px 0;">One way to look at this is to pretend tha=
+t the nickel exchange is just where industrial producers and users of nicke=
+l lock in their prices. If you=E2=80=99re a giant nickel producer and you s=
+ell a lot of nickel forward, and then the price of nickel goes up, (1) you =
+are happy because you are a nickel producer and your product is worth more,=
+ but (2) you are sad because you sold a lot of your product cheap and you c=
+ould have made more money if=C2=A0you waited, but (3) it=E2=80=99s fine, wh=
+atever, that=E2=80=99s what hedging is for. Certainly it is not a=C2=A0<em>=
+catastrophe=C2=A0</em>for you that the price of nickel, which you produce, =
+went up. You were making the nickel anyway, and you will deliver it at the =
+agreed price.</p><p style=3D"margin: 16px 0;">And therefore if the market s=
+tructure=C2=A0<em>turns it into=C2=A0</em>a catastrophe =E2=80=94=C2=A0if y=
+our brokers are bankrupted and the price of nickel futures=C2=A0soars way b=
+eyond the price industrial users are paying due to margin calls driven by s=
+hort-term liquidity mismatches =E2=80=94=C2=A0then the market structure is =
+wrong and the exchange should just wave a wand and reverse that. The exchan=
+ge is just a convenient fiction, a helpful adjunct to real-world nickel tra=
+ding. This is =E2=80=A6=C2=A0kind of what the exchange and its defenders sa=
+id?</p><blockquote><p style=3D"margin: 16px 0;">LME=E2=80=99s Chamberlain d=
+efended canceling the trades. =E2=80=9COur fundamental responsibility is ma=
+rket stability,=E2=80=9D he told Bloomberg TV. =E2=80=9CThe prices that wer=
+e being seen during that Asian session were becoming disconnected from, I b=
+elieve, physical reality.=E2=80=9D ...</p><p style=3D"margin: 16px 0;">[Mar=
+k] Hansen of Concord Resources argues that financial investors who traded n=
+ickel last week should have been prepared for the LME to step in. =E2=80=A6=
+ =E2=80=9CThe LME at the end of the day is a physical metal market,=E2=80=
+=9D he says. =E2=80=9CAnyone using the LME needs to understand that. It=E2=
+=80=99s not just a casino.=E2=80=9D=C2=A0</p></blockquote><p style=3D"margi=
+n: 16px 0;">The <a href=3D"https://link.mail.bloombergbusiness.com/click/27=
+021110.261608/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvODk4YjZmMjctZWE3NS00MTllL=
+TllNjAtODllNmQ4YWU0YzJl/607f07ceef4b8524a319a23cB8aba9a14" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">Financia=
+l Times reports</a>:</p><blockquote><p style=3D"margin: 16px 0;">Cancelling=
+ trades had been necessary because the size of the short position that had =
+been racked up in rocketing nickel presented a systemic risk, said Matt Cha=
+mberlain, LME=E2=80=99s chief executive.</p><p style=3D"margin: 16px 0;">=
+=E2=80=9COne of our key responsibilities is to serve the physical traders,=
+=E2=80=9D he said. =E2=80=9CIf we allowed the trades to stand, we would hav=
+e to say that the price of nickel is $80,000-$90,000 and that would not see=
+m rational to the physical market. And we could have placed significant str=
+ess on a number of our core members.=E2=80=9D</p></blockquote><p style=3D"m=
+argin: 16px 0;">But if you were on the other side of the trades that were c=
+anceled =E2=80=94=C2=A0if you sold nickel at $80,000 only to find out that =
+no you actually hadn=E2=80=99t =E2=80=94=C2=A0you might feel aggrieved. =E2=
+=80=9CPhysical reality=E2=80=9D has nothing to do with it! That was the pri=
+ce! You were trading on the exchange in good faith; there were buy orders a=
+nd you were filling them. The fact that the buyers might have been motivate=
+d by margin calls rather than industrial needs for nickel was irrelevant to=
+ you: You were there to do financial trading. The LME wanted you there! The=
+ nickel producers and consumers wanted you there! Everyone agreed on the so=
+mewhat abstract financialized rules of the nickel market, because those rul=
+es=C2=A0<em>attract=C2=A0</em>financial traders and therefore make the mark=
+et more useful.=C2=A0</p><p style=3D"margin: 16px 0;">And when you blow up =
+those rules because the results =E2=80=9Cwould not seem rational to the phy=
+sical market,=E2=80=9D the financial traders get mad and the market gets le=
+ss useful:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CFor the LME=
+ to cancel nickel trades between willing buyers and sellers is unforgiveabl=
+e. UNFORGIVEABLE,=E2=80=9D tweeted Mark Thompson, a former trader at Trafig=
+ura and Apollo. Cliff Asness, founder of AQR Capital Management, accused th=
+e LME, which was for more than a century owned by its members but in 2012 w=
+as sold to Hong Kong Exchanges &amp; Clearing, of =E2=80=9Cstealing money f=
+rom market participants trading in good faith and giving it to Chinese nick=
+el producers and their banks.=E2=80=9D ...</p><p style=3D"margin: 16px 0;">=
+Some think this could herald the end of the exchange itself. =E2=80=9CThe L=
+ME is now very likely going to die a slow, self-inflicted death through the=
+ loss of confidence in it and its products,=E2=80=9D predicted Thompson in =
+a tweet. ...</p><p style=3D"margin: 16px 0;">Some aggrieved traders are alr=
+eady preparing to take legal action against the exchange. There are also tr=
+aders making plans to abandon the LME nickel contract, a move that would re=
+duce market liquidity, making it harder for everyone from miners to car com=
+panies to manage their exposure to prices and access financing.</p></blockq=
+uote><p style=3D"margin: 16px 0;">Meanwhile, the LME remains shut and peopl=
+e are working to get things back to physical reality. As <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMDgvbmlja2VsLWlzLWNhbmNlbGV=
+kP2NtcGlkPUJCRDAzMTQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMxNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cBd936d62a" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> we</a> have <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMTAvc29jY2VyLXRpY2tldHMtYXJlLXNhbm=
+N0aW9uZWQ_Y21waWQ9QkJEMDMxNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc=
+291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm=
+/607f07ceef4b8524a319a23cB59b44804" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> discussed</a>, Xiang has two b=
+asic problems: He produces a lot of nickel, so his losses on his short posi=
+tion are offset by his gains on his nickel production, but (1) he needs a l=
+ot of ready cash to meet margin calls on the futures and (2) the nickel he =
+produces is not the sort of nickel that can be delivered to settle LME futu=
+res. He seems to be coming to solutions on both issues. On the cash side, y=
+ou know, he has a lot of nickel, which is very valuable now, so <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMTQvbmlja2VsLXR5Y29vbi1j=
+bG9zZXMtaW4tb24tanBtb3JnYW4tbGVkLWxvYW4tdG8tYmFja3N0b3Atc2hvcnQ_Y21waWQ9QkJ=
+EMDMxNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjIwMzE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cB68eda769" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> surely someone will lend him money</a>:</p><blockqu=
+ote><p style=3D"margin: 16px 0;">Banks led by JPMorgan Chase &amp; Co. are =
+in advanced talks for a loan facility to backstop Xiang Guangda=E2=80=99s s=
+hort position in nickel, in an attempt to restore stability to the market a=
+fter an unprecedented squeeze. ...</p><p style=3D"margin: 16px 0;">Under th=
+e deal being discussed, the roughly 10 banks that were Xiang=E2=80=99s coun=
+terparts for his nickel bet would extend enough credit to cover his mark-to=
+-market losses, according to people familiar with the matter. Crucially, th=
+ey would also provide a loan facility to allow Xiang to meet future margin =
+calls should the nickel price increase further.</p><p style=3D"margin: 16px=
+ 0;">In exchange, Xiang is offering the banks security over a wide range of=
+ assets held by his company Tsingshan Group Holding Co., the world=E2=80=99=
+s top nickel and stainless steel producer, the people said, asking not to b=
+e identified as the discussions are private.</p></blockquote><p style=3D"ma=
+rgin: 16px 0;">On the wrong-kind-of-nickel problem, he really has a lot of =
+nickel, so surely someone with the right kind of nickel could <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6Ly93d3c=
+uc2NtcC5jb20vYnVzaW5lc3MvY2hpbmEtYnVzaW5lc3MvYXJ0aWNsZS8zMTY5OTIxL2NoaW5lc2=
+Utbmlja2VsLWdpYW50LXRzaW5nc2hhbi1zYWlkLWhhdmUtc3VmZmljaWVudA/607f07ceef4b85=
+24a319a23cB77476a6f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">arrange a swap</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">Tsingshan Holding Group, the world=E2=80=99s largest n=
+ickel producer, has said that it will be able to tackle a historic short sq=
+ueeze after gathering sufficient nickel inventory for delivery, and with fr=
+esh lifelines from banks.</p><p style=3D"margin: 16px 0;">The company has s=
+wapped its nickel matte for domestic nickel plate, which will let it close =
+its short position against the metal, state media Securities Daily reported=
+ on Thursday citing a reply from Tsingshan.</p></blockquote><p style=3D"mar=
+gin: 16px 0;">In a=C2=A0very general sense, if you are a giant nickel produ=
+cer who has sold a bunch of nickel forward and the price of nickel goes up,=
+ that is fine and the market should work itself out. But the specifics matt=
+er too! If you just skip ahead to pretending the market worked itself out, =
+some of the people who were trading the actual market will have legitimate =
+complaints.</p><table class=3D"liveintent-sponsored-content" width=3D"auto"=
+ cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzAyMTExMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyODI3MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD4597b223" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27021110&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27282718&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzAyMTExMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyODI3MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE4597b223" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27021110&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27282718&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzAyMTExMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyODI3MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFb326d2ae" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27021110&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27282718&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzAyMTExMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyODI3MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGb326d2ae" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27021110&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27282718&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Russia CDS</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">If you bought dollar-denominated Russi=
+an government bonds, you probably want to get paid back in dollars. If Russ=
+ia called you up and said =E2=80=9Chey we are fresh out of dollars, will yo=
+u take rubles,=E2=80=9D you would not be happy. In the scenario where that =
+happens =E2=80=94=C2=A0where Russia is unable or unwilling to pay its inter=
+national investors back in dollars in accordance with the terms of their co=
+ntracts =E2=80=94=C2=A0things will be bad and you will not want rubles. Get=
+ting rubles will be bad for some reason: The price will be going down, the =
+ruble will not be freely convertible, Russia will be paying you rubles at a=
+n artificial (too low) exchange rate, some combination of those things, etc=
+. The time when you get rubles will be the time you don't want rubles.=C2=
+=A0</p><p style=3D"margin: 16px 0;">On the other hand, if you bought dollar=
+-denominated Russian government bonds, you had to recognize that there was=
+=C2=A0<em>some risk=C2=A0</em>of Russia not paying you back in dollars. Awa=
+y from the particulars of Russia=E2=80=99s situation =E2=80=94=C2=A0Russia =
+has been under some <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/27021110.261608/aHR0cHM6Ly9vYmFtYXdoaXRlaG91c2UuYXJjaGl2ZXMuZ292L3RoZS1wc=
+mVzcy1vZmZpY2UvMjAxNC8wMy8wNi9leGVjdXRpdmUtb3JkZXItYmxvY2tpbmctcHJvcGVydHkt=
+Y2VydGFpbi1wZXJzb25zLWNvbnRyaWJ1dGluZy1zaXR1YXRpb24/607f07ceef4b8524a319a23=
+cBe34a9a90" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">U.S. sanctions</a> since 2014, it has been a menacing n=
+eighbor for some time now, etc. =E2=80=94=C2=A0there is some risk that=C2=
+=A0<em>any=C2=A0</em>country that issues dollar bonds might not have the do=
+llars to pay them back. Of course the country might just not pay=C2=A0<em>a=
+nything=C2=A0</em>=E2=80=94=C2=A0instead of giving you rubles it could give=
+ you nothing =E2=80=94=C2=A0but there is some chance that for face-saving o=
+r helping-local-investors reasons it might give you its local currency inst=
+ead and say =E2=80=9Chey, we paid you, what=E2=80=99s the problem.=E2=80=9D=
+=C2=A0</p><p style=3D"margin: 16px 0;">If you own dollar-denominated Russia=
+n bonds and Russia decides to pay you in rubles, you might object: =E2=80=
+=9CNo, see, these bonds are denominated in dollars. It says right here in t=
+he bond contract that you have to pay me in dollars. If you pay me in ruble=
+s you are not honoring the contract and I will sue!=E2=80=9D You could sue!=
+=C2=A0It will not generally do you=C2=A0<em>that=C2=A0</em>much good? Russi=
+a is a country with sovereign immunity; you might get a court judgment agai=
+nst it, but you will have limited ability to=C2=A0<em>enforce=C2=A0</em>tha=
+t judgment. You can=E2=80=99t foreclose on its embassies, or even on its ce=
+ntral bank=E2=80=99s foreign-exchange accounts. This is particularly true b=
+ecause it is =E2=80=A6=C2=A0Russia? It is a nuclear power whose president h=
+as a history of <a href=3D"https://link.mail.bloombergbusiness.com/click/27=
+021110.261608/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvUG9pc29uaW5nX29mX0FsZ=
+XhhbmRlcl9MaXR2aW5lbmtv/607f07ceef4b8524a319a23cB6f56bf5c" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">murderin=
+g his opponents abroad</a> with polonium. When Argentina defaulted on some =
+foreign debt, a hedge fund famously got a court judgment and used it to <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aHR0c=
+HM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZWRiMTJhNGUtMGQ5Mi0xMWUyLTk3YTEtMDAxNDRmZWFi=
+ZGMw/607f07ceef4b8524a319a23cBcf38221c" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">seize=C2=A0an Argentine nav=
+al vessel</a>. That's a fun lark for a hedge fund! Trying to seize a Russia=
+n naval vessel is not.[2]</p><p style=3D"margin: 16px 0;">Realistically the=
+ best you can do, if Russia decides to pay you in rubles, is say =E2=80=9Ct=
+his has been a=C2=A0terrible experience and=C2=A0I am never going to lend m=
+oney to Russia again!=E2=80=9D To the extent this is true =E2=80=94=C2=A0to=
+ the extent it=E2=80=99s a credible threat =E2=80=94 it will deter Russia f=
+rom paying you in rubles; Russia wants to be able to issue international bo=
+nds. But of course countries do default on their sovereign debt from time t=
+o time, because (1) they don=E2=80=99t have much choice and (2) markets ten=
+d to have short memories so the deterrent effect isn=E2=80=99t that strong.=
+=C2=A0(Argentina sold=C2=A0<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27021110.261608/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hcmdlbnRpbm=
+FzLXByZXBvc3Rlcm91cy1jZW50dXJ5LWJvbmQtbmV2ZXItZ290LWNoYW5jZS10by1ncm93LW9sZ=
+C0xMTU5ODg3Mzk5MQ/607f07ceef4b8524a319a23cB486b8a2e" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"><em>hundred-ye=
+ar=C2=A0</em>bonds</a> five years after that ship got seized. They defaulte=
+d too.) Also in Russia=E2=80=99s particular case the international bond mar=
+kets are not really open anyway: Investors from countries sanctioning Russi=
+a are not going to lend it any more money anyway, so there=E2=80=99s not mu=
+ch deterrent to defaulting.</p><p style=3D"margin: 16px 0;">Given this situ=
+ation you might not care=C2=A0<em>too </em>much about what it says in the f=
+ine print of your bond contract with Russia. The front page of the contract=
+ says =E2=80=9Cwe=E2=80=99ll pay you X% in dollars=E2=80=9D and you=E2=80=
+=99ll plan to get paid X% in dollars as long as things go well. If things g=
+o poorly, you will not expect to parse the fine print of the contract to fi=
+nd promising litigation tricks. Russia can do whatever it wants, and your r=
+emedy is not to sue under the terms of the contract; it=E2=80=99s to say =
+=E2=80=9CI will never lend to Russia again.=E2=80=9D</p><p style=3D"margin:=
+ 16px 0;">So if the fine print of the contract said this,[3] for instance:<=
+/p><blockquote><p style=3D"margin: 16px 0;">if, for reasons beyond its cont=
+rol, the Russian Federation is unable to make payments of principal or inte=
+rest (in whole or in part) in respect of the Bonds in U.S. Dollars (an "Alt=
+ernative Payment Currency Event"), the Russian Federation shall make such p=
+ayments (in whole or in part) in the Alternative Payment Currency on the du=
+e date at the Alternative Payment Currency Equivalent of any such U.S. doll=
+ar-denominated amount. =E2=80=A6</p><p style=3D"margin: 16px 0;">=E2=80=9CA=
+lternative Payment Currency" means U.S. Dollars, Pound sterling or Swiss<br=
+ />francs or, if for reasons beyond its control the Russian Federation is u=
+nable to make payments<br />of principal or interest (in whole or in part) =
+in respect of the Bonds in any of these currencies,<br />Russian roubles.</=
+p></blockquote><p style=3D"margin: 16px 0;">You might not care. =E2=80=9CSu=
+re, yes,=E2=80=9D you=E2=80=99d think. =E2=80=9CAll that means is that if R=
+ussia decides not to pay me in dollars, it will stuff me with rubles. I=E2=
+=80=99ll hate that, sure, but what can I do? Russia could decide to do that=
+ even if the contract <em>didn=E2=80=99t=C2=A0</em>say that, and what would=
+ I do then, sue?=E2=80=9D You might buy those bonds not because you think t=
+he contract is watertight, but because you are betting on conditions being =
+good enough that Russia won=E2=80=99t want to exercise this right and torch=
+ its credit.=C2=A0</p><p style=3D"margin: 16px 0;">And if=C2=A0<em>other </=
+em>dollar-denominated Russian government bonds <em>don=E2=80=99t=C2=A0</em>=
+have that provision, you might not notice or care about the difference. Eit=
+her Russia will keep paying in order to maintain its international creditwo=
+rthiness, in which case both sorts of bonds will get paid (in dollars), or =
+it won=E2=80=99t, in which case it will do whatever it wants to both sorts =
+of bonds and the contractual language won=E2=80=99t really matter.</p><p st=
+yle=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness.com/=
+click/27021110.261608/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzL=
+zIwMjItMDMtMTEvc3dhcHMtcnVsaW5nLW1heS1jb21wbGljYXRlLWEtcnVzc2lhLWRlZmF1bHQt=
+aW5zdXJhbmNlLXBheW91dD9jbXBpZD1CQkQwMzE0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWV=
+tYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMTQmdXRtX2NhbXBhaWduPW=
+1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB0b2f71cd" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Except</a>!</p><b=
+lockquote><p style=3D"margin: 16px 0;">Roughly $13 billion of Russian gover=
+nment debt could be ineligible to be delivered in a credit-default swaps au=
+ction, a panel of banks and investors ruled Friday, potentially complicatin=
+g hedges against a Russia default.</p><p style=3D"margin: 16px 0;">After th=
+ree days of meetings, members of the Credit Derivatives Determinations Comm=
+ittee said that because of a feature in the six bonds allowing the governme=
+nt to make payments in rubles -- rather than the dollars or euros they were=
+ issued in -- they would be ineligible as so-called deliverable obligations=
+.</p></blockquote><p style=3D"margin: 16px 0;">In fact, Russia has some dol=
+lar- and euro-denominated bonds that contain the language I quoted above, a=
+nd some that don=E2=80=99t. If you own the ones containing that fallback la=
+nguage, and Russia pays you in rubles, you will be very annoyed, but there =
+is nothing you can do about it, and the bonds will not be in default. If yo=
+u own the ones=C2=A0<em>not=C2=A0</em>containing the fallback language, and=
+ Russia pays you in rubles, you will be very annoyed, but there is nothing =
+you can do about it, but the bonds=C2=A0<em>will=C2=A0</em>be in default.=
+=C2=A0And if you bought CDS as insurance against Russia stiffing you, and y=
+ou own the bonds that technically allow Russia to stiff you, then your insu=
+rance will not pay out.[4]=C2=A0</p><p style=3D"margin: 16px 0;">Anyway, =
+=E2=80=9CRussia will repay debt in rubles until its cash pile is unfrozen,=
+=E2=80=9D its <a href=3D"https://link.mail.bloombergbusiness.com/click/2702=
+1110.261608/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDM=
+tMTMvcnVzc2lhLWxvc3QtYWNjZXNzLXRvLWhhbGYtaXRzLXJlc2VydmVzLWZpbmFuY2UtbWluaX=
+N0ZXItc2F5cz9jbXBpZD1CQkQwMzE0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cBce1cd196" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> finance minister has said</=
+a>, and that seems =E2=80=94=C2=A0though it is not quite clear =E2=80=94=C2=
+=A0to include the dollar bonds=C2=A0<a href=3D"https://link.mail.bloombergb=
+usiness.com/click/27021110.261608/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjItMDMtMTEvc3dhcHMtcnVsaW5nLW1heS1jb21wbGljYXRlLWEtcnVzc2lh=
+LWRlZmF1bHQtaW5zdXJhbmNlLXBheW91dD9jbXBpZD1CQkQwMzE0MjJfTU9ORVlTVFVGRiZ1dG1=
+fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMTQmdXRtX2=
+NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cC0b2f71cd" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"><em>wi=
+thout=C2=A0</em>the fallback language</a>:</p><blockquote><p style=3D"margi=
+n: 16px 0;">Concern over a default intensified after a decree by President =
+Vladimir Putin ordering Russian debtors to pay their foreign creditors in r=
+ubles in Russian bank accounts, regardless of the currency in which the deb=
+t was issued. =E2=80=A6=C2=A0The government has $117 million worth of coupo=
+ns on dollar bonds coming due on March 16 that don=E2=80=99t have the embed=
+ded ruble option.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">So CDS=
+ against Russian default might not pay out as much as people expected, beca=
+use technically Russia has the right to stiff some of its bondholders anywa=
+y.</p><table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNzAyMTExMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyODI3MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH5152f8db" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D27021110&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27282718&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Don=E2=80=99t short to zero</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/27021110.261608/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMTgtMDQtMTEvLWdvLXRvLXplcm8taXNuLXQtZ3JlYXQtZm9yLXNob=
+3J0LXNlbGxlcnM_Y21waWQ9QkJEMDMxNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1=
+dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzE0JnV0bV9jYW1wYWlnbj1tb25leXN=
+0dWZm/607f07ceef4b8524a319a23cBa375c414" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">theme</a> around <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMTgvemlsbG93LXRy=
+aWVkLXRvLW1ha2UtbGVzcy1tb25leT9jbXBpZD1CQkQwMzE0MjJfTU9ORVlTVFVGRiZ1dG1fbWV=
+kaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMTQmdXRtX2NhbX=
+BhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe2df7d5a" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> here</a> =
+is that if you bet that a stock will go up, and it goes up a little, you ma=
+ke a little money; if it goes up a ton you make a ton of money. But if you =
+bet that a stock will go down, and it goes down a little, you make a little=
+ money; if it goes down a ton you find yourself in a horrible limbo. If you=
+ short a stock because it=E2=80=99s a fraud, and regulators shut down tradi=
+ng in the stock because it=E2=80=99s=C2=A0such a fraud, how do you cover yo=
+ur short? You just sit around paying stock borrow costs forever; it=E2=80=
+=99s very unpleasant. The problem with betting on disaster is that when you=
+ win <a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.2616=
+08/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMDcv=
+bGVhdmluZy1ydXNzaWEtZm9yLW1vcmFscy1vci1tb25leT9jbXBpZD1CQkQwMzE0MjJfTU9ORVl=
+TVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMj=
+AzMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB71da08da" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> there has been a disaster</a>.</p><p style=3D"margin: 16px 0;">Here=
+=E2=80=99s a story about people who <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/27021110.261608/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjItMDMtMTQvb3B0aW9ucy10cmFkZXJzLXdoby1jb3JyZWN0bHktYmV0LWFn=
+YWluc3QtcnVzc2lhLWNhbi10LWNhc2gtb3V0P2NtcGlkPUJCRDAzMTQyMl9NT05FWVNUVUZGJnV=
+0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMxNCZ1dG=
+1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB0b9c4b99" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> bo=
+ught put options on Russian stocks and exchange-traded funds</a>. A put opt=
+ion allows you to sell a security at an agreed price any time before it exp=
+ires. It is a way to bet that the thing will go down. The things went down!=
+ However now it=E2=80=99s more or less illegal to sell them, so your contra=
+ctual right to sell them at a fixed price is not as helpful as you hoped:</=
+p><blockquote><p style=3D"margin: 16px 0;">At stake is about $370 million: =
+That=E2=80=99s the value of open interest on all put options expiring this =
+year for a group of Russia-tied securities, including the VanEck Russia ETF=
+, Direxion Daily Russia Bull 2X Shares, Yandex NV, Qiwi Plc, Ozon Holdings =
+Plc, Mobile TeleSystems PJSC and Mechel PJSC, according to data compiled by=
+ Bloomberg.</p><p style=3D"margin: 16px 0;">Now brokerages are trying to fi=
+gure out how to respond. The problem is that individual investors like Stoc=
+kman hold options contracts allowing them to sell shares of Russian-linked =
+securities. But with the instruments halted in U.S. trading (and with the M=
+oscow Exchange closed), it=E2=80=99s unclear whether traders will be able t=
+o exercise the contracts at all.</p><p style=3D"margin: 16px 0;">The firms =
+have been inundated with customer complaints. ...</p><p style=3D"margin: 16=
+px 0;">Jeff Porter, a 36-year-old attorney based in Arizona, owns puts on t=
+he VanEck Russia ETF expiring this Friday that were worth about $50,000 at =
+the time the fund was halted. He, too, can=E2=80=99t exercise his options b=
+ecause Fidelity told him there aren=E2=80=99t shares available to borrow to=
+ facilitate such a transaction, he said.</p><p style=3D"margin: 16px 0;">=
+=E2=80=9CIt feels like the market doesn=E2=80=99t permit you to be too corr=
+ect,=E2=80=9D Porter said.=C2=A0</p></blockquote><p style=3D"margin: 16px 0=
+;">Yeah, no, you don't want to be=C2=A0<em>too=C2=A0</em>correct.</p><table=
+ class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Tether short</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Why is <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/27021110.261608/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjItMDMtMTEvaGVkZ2UtZnVuZC1maXItdHJlZS1iZXRzLWJpZy13=
+aXRoLXNob3J0LW9mLXN0YWJsZWNvaW4tdGV0aGVyP2NtcGlkPUJCRDAzMTQyMl9NT05FWVNUVUZ=
+GJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMxNC=
+Z1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBa17ef06f" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> this hard</a>?</p><blockquote><p style=3D"margin: 16px 0;">Fir Tree Capit=
+al Management is making a substantial short wager on Tether, the stablecoin=
+ that=E2=80=99s under intense scrutiny from regulators.</p><p style=3D"marg=
+in: 16px 0;">The $4 billion hedge fund, founded by Jeff Tannenbaum, constru=
+cted a way to short Tether in an asymmetric trade, meaning the downside ris=
+k is small and potential to make money is great, according to clients of th=
+e firm. That=E2=80=99s a feat that other firms have struggled to figure out=
+. =E2=80=A6</p><p style=3D"margin: 16px 0;">Fir Tree is betting that its sh=
+ort wager could see a payday within 12 months and its thesis against Tether=
+ centers around the coin=E2=80=99s roughly $24 billion in high-yield commer=
+cial paper, much of it the firm believes is tied to Chinese real estate dev=
+elopers. ...</p><p style=3D"margin: 16px 0;">Genesis Global Trading Inc., a=
+ crypto broker, has helped some asset managers put on Tether shorts by lend=
+ing the stablecoin itself or structuring put options. The company doesn=E2=
+=80=99t take a view on Tether and serves clients who are buyers of the stab=
+lecoin.</p></blockquote><p style=3D"margin: 16px 0;">Like, Tether is a digi=
+tal token that is supposed to be worth a dollar. (It is also=C2=A0the name =
+of the entity, Tether Ltd., that issues Tethers.)=C2=A0It is in fact worth =
+a dollar: It trades on <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/27021110.261608/aHR0cHM6Ly9mdHgudXMvdHJhZGUvVVNEVC9VU0Q/607f07ceef4b85=
+24a319a23cB78a02696" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">exchanges</a> for very close to a=C2=A0<a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6=
+Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL3RldGhlci8/607f07ceef4b8524a319a23=
+cB1fdcc860" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">dollar</a>, with very limited volatility. It is backed =
+by a pool of liquid dollar-denominated assets, or <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTItMDMvdGV0aGVyLWdpdmVzLW1vcmUtZGV0YWlscy=
+1vbi1hc3NldHMtYmFja2luZy1jcnlwdG8tc3RhYmxlY29pbj9jbXBpZD1CQkQwMzE0MjJfTU9OR=
+VlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0y=
+MjAzMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB25020fb0" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> says it is anyway</a>. Institutional customers can redeem Tethers =
+for dollars, from Tether Ltd., one for one.</p><p style=3D"margin: 16px 0;"=
+>You might believe =E2=80=94=C2=A0lots of people believe! =E2=80=94=C2=A0th=
+at Tether is backed by bad commercial paper and that it will break. A big c=
+ommercial-paper issuer will default, Tether (which keeps its holdings <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMjIvcHJpdmF0ZS=
+1lcXVpdHktZmlybS1nb3QtcmljaC1tYWtpbmctcHJpdmF0ZS1lcXVpdHktZmlybXMtcmljaD9jb=
+XBpZD1CQkQwMzE0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3=
+c2xldHRlciZ1dG1fdGVybT0yMjAzMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4=
+b8524a319a23cB45865c62" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> very secret</a>) will turn=C2=A0out to own=
+ a lot of its paper, and so Tether will have fewer dollars than it has issu=
+ed Tethers. Customers will panic and redeem their Tethers, forcing Tether t=
+o sell more bad commercial paper at fire-sale prices and driving down the p=
+rice of its commercial paper; ultimately each Tether will be worth much les=
+s than a dollar.=C2=A0</p><p style=3D"margin: 16px 0;">If you do believe th=
+is then in some sense the trade should be easy? Like, if you wanted to borr=
+ow=C2=A0<em>dollars</em>, betting that a=C2=A0<em>dollar </em>would somehow=
+ turn out to be worth 40 cents, you could do that pretty cheaply. (I realiz=
+e this makes no sense.)=C2=A0Borrow $100 million for a year at, you know, 3=
+%. (The one-year Bloomberg Short Term Bank Yield Index, representing unsecu=
+red borrowing costs of a big bank,=C2=A0is <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/27021110.261608/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9xdW90ZS9CU0JZMTJNOklORD9zcmVmPTFrSlZOcW5V/607f07ceef4b8524a319a23cB9ce3fdd=
+e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">about 1.46%</a> today.) That costs you $3 million. If it crash=
+es to 40 cents, you only have to pay back $40 million, so you make $57 mill=
+ion of profit; if it doesn=E2=80=99t, your loss is capped at $3 million. (I=
+t=E2=80=99s never going to be worth <em>more=C2=A0</em>than a dollar.) Asym=
+metric trade!</p><p style=3D"margin: 16px 0;">Interest rates to borrow Teth=
+er are =E2=80=A6=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/27021110.261608/aHR0cHM6Ly9jcnlwdG9wcmlqemVuLmNvbS9lbi9jcnlwdG8taW50ZXJ=
+lc3QvY29tcGFyZS10ZXRoZXItaW50ZXJlc3QtcmF0ZXMv/607f07ceef4b8524a319a23cB946a=
+457f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">higher</a>? Tether=C2=A0is in some ways a substitute for the =
+dollar, but not in the sense that you can borrow a ton of it at dollar inte=
+rest rates to bet that it will drop.</p><p style=3D"margin: 16px 0;">Or, su=
+re, find someone to sell you puts. How much should someone charge to sell y=
+ou, say, a one-year=C2=A0put on Tether struck at 90 cents? (If Tether is ab=
+ove 90 cents for the whole year, you get back $0; otherwise, you get back t=
+he difference between 90 cents and the price of Tether when you exercise th=
+e put.) Tether has as far as I can tell never traded below 90 cents. Its re=
+alized volatility <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+27021110.261608/aHR0cHM6Ly9tZXNzYXJpLmlvL2Fzc2V0L3RldGhlci9jaGFydC9kYWlseS1=
+2b2w/607f07ceef4b8524a319a23cB931fb357" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">is nearly zero</a>, because=
+ it is a stablecoin. Option pricing models suggest that the price of that p=
+ut is, like, =E2=80=9Cfree.=E2=80=9D But of course the bet, when you buy a =
+put on Tether, is that past performance does not reflect future performance=
+, and that when people really understand Tether its stability will disappea=
+r.=C2=A0</p><p style=3D"margin: 16px 0;">There is <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6Ly9ib29rcy5nb29nbGU=
+uY29tL2Jvb2tzP2lkPS01LU9sZGFUalZRQyZwZz1QQTIyNyZscGc9UEEyMjcmZHE9JTIydy4rd2=
+FzK2ErZm9ybWVyK3BpdCt0cmFkZXIrc3Vycm91bmRlZCtieStmb3JtZXIrcGl0K3RyYWRlcnMuK=
+0hlK2lzK25vdyUyMiZzb3VyY2U9Ymwmb3RzPUxfN0hUb3hnWWUmc2lnPU1TdGVtdmoxcXdnb1RP=
+dk1MTjZpZ01QZjJjOCZobD1lbiZzYT1YJmVpPWpIVzRWTG4yRXF2bnNBU1B0b0NJQ2cmdmVkPTB=
+DQ0FRNkFFd0FBI3Y9b25lcGFnZSZxJmY9ZmFsc2U/607f07ceef4b8524a319a23cB57cba48c"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">a relevant story from Nassim Taleb</a>. Here is how I have <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMjIvd2FsbC1zdHJl=
+ZXQtaXMtbm8tZnVuLWFueW1vcmU_Y21waWQ9QkJEMDMxNDIyX01PTkVZU1RVRkYmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzE0JnV0bV9jYW1wYW=
+lnbj1tb25leXN0dWZmI2Zvb3Rub3RlLTE/607f07ceef4b8524a319a23cBd9b7f60e" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> previously summarized it</a>:</p><blockquote><p style=3D"margin: 16px 0;=
+">In 1992, a trader =E2=80=9Cneeded to buy quantities of out-of-the-money p=
+uts on the sterling, calls on the [Deutsche] mark, struck 10% outside the o=
+fficial government band. The customer was a conspiracy theorist fund manage=
+r who believed in the imminent breakup of the [pre-euro European] monetary =
+order.=E2=80=9D The trader called a few large dealers for quotes and got tw=
+o answers. One dealer, a former pit trader, =E2=80=9Ctold him that they wer=
+e reluctant to show a price, =E2=80=98because the strike is outside the ban=
+d=E2=80=99 and the options were =E2=80=98too risky.=E2=80=99 They would acc=
+ommodate him if necessary, but at very expensive implied volatility and onl=
+y for a moderate amount.=E2=80=9D Another dealer, =E2=80=9Ca graduate of a =
+prestigious European school of engineering,=E2=80=9D =E2=80=9Cliterally lau=
+ghed at him. =E2=80=98But Zey are outside the band, if I am not mistaken,=
+=E2=80=99 he was told. =E2=80=98How many do you vant? I can sell you all yo=
+u need. You should give your money to charity instead.=E2=80=99=E2=80=9D=C2=
+=A0The European Monetary System broke up. One of those dealers kept his job=
+.</p></blockquote><p style=3D"margin: 16px 0;">If you want to buy puts on T=
+ether, then:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; =
+margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Some people will char=
+ge you a lot of money for the puts. If you trade with them, it will be expe=
+nsive.</li>=09<li style=3D"margin-bottom: 5px;">Other people will charge yo=
+u very little money for the puts. If you trade with them, and Tether in fac=
+t crashes, how sure are you that they=E2=80=99ll be around to pay out?=C2=
+=A0The problem with betting on disaster is that when you win there has been=
+ a disaster.</li></ol><table class=3D"header" width=3D"100%" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Everything is securities fraud</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Is raising the price of your product s=
+ecurities fraud? <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+7021110.261608/aHR0cHM6Ly9hcnN0ZWNobmljYS5jb20vdGVjaC1wb2xpY3kvMjAyMi8wMy9y=
+aXZpYW4taGl0LXdpdGgtc2hhcmVob2xkZXItbGF3c3VpdC1vdmVyLXN1cnByaXNlLWV2LXRydWN=
+rLXByaWNlLWhpa2Uv/607f07ceef4b8524a319a23cB8e842b76" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">Everything is =
+securities fraud</a>!</p><blockquote><p style=3D"margin: 16px 0;">Rivian, t=
+he electric vehicle manufacturer, is being=C2=A0<a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27021110.261608/aHR0cHM6Ly9jZG4uYXJzdGVjaG5pY=
+2EubmV0L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIyLzAzL0NyZXdzLXYtUml2aWFuLWxhd3N1aXQu=
+cGRm/607f07ceef4b8524a319a23cB31c0e32b" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">sued</a>=C2=A0(PD=
+F) by a shareholder who alleges that the company's surprise 20 percent pric=
+e hike tarnished Rivian's reputation and violated US securities laws.</p><p=
+ style=3D"margin: 16px 0;">The company made "untrue statements" in its IPO =
+about the pricing of its R1T truck and R1S SUV, the lawsuit says. "Unbeknow=
+nst to investors," the suit says, Rivian's filings for the IPO contained st=
+atements that were "materially inaccurate, misleading, and/or incomplete be=
+cause they failed to disclose, among other things, that the R1T and R1S wer=
+e underpriced to such a degree that Rivian would have to raise prices short=
+ly after the IPO."</p></blockquote><p style=3D"margin: 16px 0;">Now that in=
+flation is back I suppose every company will get a price-increases-are-secu=
+rities-fraud lawsuit?</p><table class=3D"header" width=3D"100%" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Russian Stock Market <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMTIvcnVzc2lhbi1zdG9jay1tYXJrZX=
+QtdHJhZGluZy1oYWx0LWV4dGVuZGVkLXRvLW1hcmNoLTE4P2NtcGlkPUJCRDAzMTQyMl9NT05FW=
+VNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIy=
+MDMxNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB5cda8751" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> Trading Halt</a> Extended to March 18. Citi to Expand <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMTQvY2l0aS10by1leHBhbmQtcn=
+Vzc2lhLXJldHJlYXQtYmV5b25kLWl0cy1jb25zdW1lci1iYW5raW5nLWV4aXQ_Y21waWQ9QkJEM=
+DMxNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXIm=
+dXRtX3Rlcm09MjIwMzE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a2=
+3cB4faca38b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> Russia Retreat</a> Beyond Its Consumer-Banking Exit. =
+Former <a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.26=
+1608/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYzBiY2FhYWItNTQ2YS00ZTM3LTg2MWUtMm=
+EyOWYyOGUxOTk4/607f07ceef4b8524a319a23cBa8418ff9" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">Wirecard</a> chie=
+f executive charged with fraud. Gold Dealers <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/27021110.261608/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjItMDMtMTMvZ29sZC1kZWFsZXJzLXN3YW1wZWQtYnktZGVtYW5=
+kLWFzLXdhci1jcmVhdGVzLWluZmxhdGlvbi1zY2FyZT9jbXBpZD1CQkQwMzE0MjJfTU9ORVlTVF=
+VGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzM=
+TQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBab05d0a1" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Swamped by Demand</a> as War Creates Inflation Scare. Russia=E2=80=99s =
+invasion to have =E2=80=98enormous impact=E2=80=99 on world <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6Ly93d3cuZ=
+nQuY29tL2NvbnRlbnQvYWQyMjU5MzItNTYwMC00MzJmLWI4YmYtZTMxYjgwNTBjNzNh/607f07c=
+eef4b8524a319a23cB68198324" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">food supplies</a>. Russian Prosecutors =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ydXNzaWFuLXByb3NlY3V0b3JzLXdhcm4td2Vzd=
+GVybi1jb21wYW5pZXMtb2YtYXJyZXN0cy1hc3NldC1zZWl6dXJlcy0xMTY0NzIwNjE5Mw/607f0=
+7ceef4b8524a319a23cBd4eb7965" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">Warn Western Companies</a> of Arrests=
+, Asset Seizures. The <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/27021110.261608/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZTgxYmU1YzYtOGM2Zi0=
+0MmZlLTliZWQtOTIwOTk4ODJhYWFh/607f07ceef4b8524a319a23cBd1832f17" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Big Four</a> face a fraught exit from Russia. Crypto Aims to Boost Influenc=
+e With <a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.26=
+1608/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jcnlwdG8tYWltcy10by1ib29zdC1pbm=
+ZsdWVuY2Utd2l0aC13YXNoaW5ndG9uLWhpcmVzLTExNjQ3MDQyNjA0P21vZD1taHA/607f07cee=
+f4b8524a319a23cB0449a52c" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Washington Hires</a>. Steve Cohen=E2=80=
+=99s Point72 to Redeem $750 Million From Hedge Fund <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMTIvY29oZW4tcy1wb2ludDcyLXRvLXJlZGVl=
+bS03NTAtbWlsbGlvbi1mcm9tLWhlZGdlLWZ1bmQtbWVsdmluP2NtcGlkPUJCRDAzMTQyMl9NT05=
+FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPT=
+IyMDMxNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc5648c93"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Melvin</a>.=C2=A0Russian Billionaires Reshape Their Fortunes <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMTIvcnVzc2lhbi1ia=
+WxsaW9uYWlyZXMtYXJlLXJlc2hhcGluZy10aGVpci1mb3J0dW5lcy13aGlsZS10aGV5LWNhbj9j=
+bXBpZD1CQkQwMzE0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV=
+3c2xldHRlciZ1dG1fdGVybT0yMjAzMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef=
+4b8524a319a23cB73baf0d5" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> While They Can</a>. Tencent Faces Possibl=
+e Record Fine for <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+27021110.261608/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90ZW5jZW50LWZhY2VzLXB=
+vc3NpYmxlLXJlY29yZC1maW5lLWZvci1hbnRpLW1vbmV5LWxhdW5kZXJpbmctdmlvbGF0aW9ucy=
+0xMTY0NzI0MjU2MT9tb2Q9aHBfbGVhZF9wb3My/607f07ceef4b8524a319a23cB76ccea79" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">Anti-Money-Laundering</a> Violations. Former Temple <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6Ly93d3cud3=
+NqLmNvbS9hcnRpY2xlcy9mb3JtZXItdGVtcGxlLWJ1c2luZXNzLXNjaG9vbC1kZWFuLWdldHMtc=
+HJpc29uLXRlcm0taW4tcmFua2luZ3Mtc2NhbmRhbC0xMTY0NzA1MzIxMT9tb2Q9aXRwX3dzaiZy=
+dT15YWhvbw/607f07ceef4b8524a319a23cB9d5cb4a8" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Business-School Dean<=
+/a> Gets Prison Term in Rankings Scandal. Grimes is dating leaker Chelsea M=
+anning <a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.26=
+1608/aHR0cHM6Ly9wYWdlc2l4LmNvbS8yMDIyLzAzLzExL2dyaW1lcy1kYXRpbmctbGVha2VyLW=
+NoZWxzZWEtbWFubmluZy1hZnRlci1lbG9uLW11c2stYnJlYWt1cC8/607f07ceef4b8524a319a=
+23cB8e48acf0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">after Elon Musk breakup</a>. Sanctions Ensnare Roman =
+Abramovich <a href=3D"https://link.mail.bloombergbusiness.com/click/2702111=
+0.261608/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zYW5jdGlvbnMtZW5zbmFyZS1yb2=
+1hbi1hYnJhbW92aWNoLXJlbnQtcGF5bWVudHMtdG8tcXVlZW4tZWxpemFiZXRoLTExNjQ3MDk3O=
+TA3P21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB4e3c7b2d" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Rent Payments to Queen Elizabeth</a>.=C2=A0Elon Musk Challenges Vladimir Pu=
+tin to =E2=80=98<a href=3D"https://link.mail.bloombergbusiness.com/click/27=
+021110.261608/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItM=
+DMtMTQvZWxvbi1tdXNrLWNoYWxsZW5nZXMtdmxhZGltaXItcHV0aW4tdG8tc2luZ2xlLWNvbWJh=
+dC1mb3ItdWtyYWluZT9jbXBpZD1CQkQwMzE0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWl=
+sJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMTQmdXRtX2NhbXBhaWduPW1vbm=
+V5c3R1ZmY/607f07ceef4b8524a319a23cBb921d185" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Single Combat</a>=E2=
+=80=99 for Ukraine.</p><p style=3D"margin: 16px 0;"><span class=3D"news-des=
+igned-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=
+=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cDovL2xpbmsubWFp=
+bC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD0=
+1NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBefdadd=
+76" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">subscribe at this link</a>. Or you =
+can subscribe to Money Stuff and other great Bloomberg newsletters <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6L=
+y9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB51dfd7=
+a2" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">here</=
+a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] You might! =
+Nickel futures are physically settled, so you *could* deliver nickel (if yo=
+u=E2=80=99re short) or take delivery (if you're long).=C2=A0</em></p><p sty=
+le=3D"margin: 16px 0;"><em>[2] That hedge fund =E2=80=94 Elliott Management=
+ =E2=80=94=C2=A0actually had more success blocking Argentina=E2=80=99s exte=
+rnal financing by litigating the =E2=80=9Cpari passu=E2=80=9D clause in its=
+ bonds. Robin Wigglesworth <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27021110.261608/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMmZkMWE3Y2MtMT=
+E4Zi00MjhmLTk2MDctMTBkNzM5NjZlMmY1/607f07ceef4b8524a319a23cBc99661d8" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">wrote last week</a> about how Russia is theoretically open to the same v=
+ulnerability. But=C2=A0this still requires hard-nosed litigation against Vl=
+adimir Putin, and Russia can=E2=80=99t really get external dollar financing=
+ now anyway so the pari passu litigation approach has no real teeth.</em></=
+p><p style=3D"margin: 16px 0;"><em>[3] I=E2=80=99m quoting from the <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aHR0cHM6L=
+y93d3cuY2RzZGV0ZXJtaW5hdGlvbnNjb21taXR0ZWVzLm9yZy9kb2N1bWVudHMvMjAyMi8wMy9l=
+bWVhLWRjLW1lZXRpbmctc3RhdGVtZW50LTExLW1hcmNoLTIwMjIucGRmLw/607f07ceef4b8524=
+a319a23cBc97e11be" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">ISDA EMEA DC Meeting Statement</a>, paragraph 2,=
+ which quotes the bond contractual language. In fact the DC quote says =E2=
+=80=9Cif, for reasons beyond its control, the Russian Federation is unable =
+to make payments of principal or interest (in whole or in part) in respect =
+of the Bonds in [U.S. Dollars/Euro],=E2=80=9D etc., because it is covering =
+both dollar and euro bonds, but I have omitted the euros for clarity.</em><=
+/p><p style=3D"margin: 16px 0;"><em>[4] This is not quite right as a techni=
+cal matter: CDS doesn=E2=80=99t care what bonds you bought it =E2=80=9Cagai=
+nst=E2=80=9D; it is an independent instrument not directly linked to the bo=
+nds. What matters is (1) what *triggers* CDS (if Russia pays rubles only on=
+ the ruble-option bonds there's no default and so no CDS payout) and (2) wh=
+at is *deliverable* in the auction to settle the CDS payout: The ruble-opti=
+on bonds can=E2=80=99t be delivered, which means there are fewer bonds avai=
+lable in the auction, which means that the price of the bonds will be highe=
+r, which means that the payout on CDS will be lower, for *every* CDS holder=
+, not just the ones who also own ruble-option bonds.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBd779d73a" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB88afaa74" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB8e083246" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB242fa7ae" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNzAyMTExMCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyODI3MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIf5267f48" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D27021110&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27282718&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2702111=
+0.261608/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBf3864c6f" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27021110.261608/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC5ddac9c0" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27021110.261608/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB051348d5" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27021110.261608/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB285be18f" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB2=
+55e1eec" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27021110.261608/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBb=
+1b27814" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D270211=
+10&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27282718&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D270211=
+10&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27282718&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D270211=
+10&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27282718&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D270211=
+10&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27282718&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D270211=
+10&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27282718&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg35me.5luw/b7460ad3.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_10556684_1698251731.1647281931702--
+

@@ -1,0 +1,3221 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:791:b0:dc:4011:408e with SMTP id n17csp4372278rwj;
+        Mon, 14 Nov 2022 05:34:23 -0800 (PST)
+X-Received: by 2002:a5d:4f8a:0:b0:230:55fc:5de1 with SMTP id d10-20020a5d4f8a000000b0023055fc5de1mr7339375wru.500.1668432863576;
+        Mon, 14 Nov 2022 05:34:23 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1668432863; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=XdTqFH0WYypdiU42yAMUiBwCRAnc5kvN5YLiOw2veAKcgm+pnMEbtqVkZDB13lzc6l
+         3yiZZmvE3G+Zx7nKFfyADHua/sBommfTabPU20bT72SWvSwxGW80jjc25EvK8CiNb7J8
+         1vpmn9jf9UDwJ8TV8dJz/jKABO3WirD2r1gfvjfIs1lHswqA4RDtJyiUeV84U9NdJUvF
+         tfhULqRYugN0jieGUqkdpKvuBAZb9UjSRIHGKWo/wb4X5NPcb1FK7wZldzA1FhKiU2ZO
+         xqbl6jBIsDh5ssy8mXEXx4ktBO5MIialDbK+og68VYKT/XcjImsSs2WMFts7oEUEMUjr
+         x34Q==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-archive:list-id:list-unsubscribe:sender:list-url:message-id
+         :date:list-unsubscribe-post:references:reply-to:list-post:list-owner
+         :in-reply-to:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=m/jrKYd9VahNBE/VVpPIekNq7L4gcGmBIJ9vQmkV6LE=;
+        b=DRZL3syYeakI+9Jvohe71nBmV1ySPJ8CompHfPW/gyysWPjj/KXL3/WAsfVcirmCwI
+         CGHMykm3aIxT17w6+xMCXrrolSsutzHi5YRELz2PO9mX2Ng0eyhfxiA6A5dEJ0gAE14i
+         M01PQUeBS6JjiR9Zib8mbDp1XPoDTeMppjhXDkxDALnNlSIACg1H8zMEpQEZav2Pdtr8
+         o3CxNFH+4yvsUr75VZOqmEGEo0Mya9Ea+pEcxzZO+aJpT5InKG2vyl8AbgAXYq+mP7IZ
+         dq1ay9BjdVHKAYnL+ojLtikYblPuMq6rz/F5WFKcc4/2sshlvloa3DA68N6rvab2TIWy
+         PfeQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=vmipZWR6;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id e11-20020a5d6d0b000000b00236a6fb69e9sor4666647wrq.42.2022.11.14.05.34.23
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 14 Nov 2022 05:34:23 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=vmipZWR6;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-archive:list-id:list-unsubscribe:sender:list-url:message-id
+         :date:list-unsubscribe-post:references:reply-to:list-post:list-owner
+         :in-reply-to:to:from:subject:mime-version:dkim-signature
+         :delivered-to:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=m/jrKYd9VahNBE/VVpPIekNq7L4gcGmBIJ9vQmkV6LE=;
+        b=oHs7oGvLoXe86iMSRaGZp9f7LCLrt0WvkiTBveotp5f7Zvw/+WW8OJEUO6+S76xdkG
+         SiN0g+djpC2xcQ3uHO67L6ScOYEADKzVM64Fydbj1ALzcYMRBICoP9BHAfCCgAAZ8tPo
+         2Zfn/aGiIYxuPYXOp3k/lwz/zQUyDJ33ArHXVdoo9+d4sj04JdF3P0YeaSMzsp1rDmUi
+         HlDb56kEGySdHRMVCkAtFh1x7HutYiXO0bDxpR/NZHMbtXDM1WMF+p2ykVDnr1NiFplY
+         kXv2cQIpkGwQUXrUixTBLcOO40SXBvSFe3EEbbEKtJIPpe8/aXIGZeEwIhNRD2NAmO2J
+         XP5w==
+X-Gm-Message-State: ANoB5pmwpWFDhWLtCErStv/qgD0xbP9sJmDqGfwDAaW9hEtcJmmEnX+o
+	MCjJB39uJ9RtCS5l0txHC2/WZVjZ1pxNyWc2txubHQxht5CbeTjSLg==
+X-Received: by 2002:a5d:4589:0:b0:236:698d:9c44 with SMTP id p9-20020a5d4589000000b00236698d9c44mr7559172wrq.571.1668432863104;
+        Mon, 14 Nov 2022 05:34:23 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f647:0:0:0:0:0 with SMTP id x7csp2139325wrp;
+        Mon, 14 Nov 2022 05:34:18 -0800 (PST)
+X-Received: by 2002:a05:6870:2b04:b0:13b:6d2f:caa3 with SMTP id ld4-20020a0568702b0400b0013b6d2fcaa3mr6758059oab.147.1668432858406;
+        Mon, 14 Nov 2022 05:34:18 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1668432858; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=yP7Syuxzkj2eygZvOgIF3JrFxSECz3CBbzTg7sIZ+bBqX4TjsSHsOYdDHY09tPxeny
+         e6339CfEMm/H2RUbTQgch5yoJLkokLK1HSmUV9SD7Ro5GiDusd9hJ3jX4azDhfgGrCEa
+         ySBEUfvLbdqQvI8TQa3pMrDYqLoaelESMyXFNt5ZCXSf7O7rPYaRxGnYRH6QFY8OyJQ+
+         V3RwQPCO6WC5RXr0PKF9S6R+vLp+zYJ52T/Df869ZzHGJJ6zyVYXBrpYJD3cKR1UgIgZ
+         F+WyDKMolYYMWU1S8ajA369QYnm0UShXa20XBhHHQojo4doYuHxqSlHlTmIzrVyXJj+8
+         5ytw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-archive:list-id:list-unsubscribe:sender:list-url:message-id
+         :date:list-unsubscribe-post:references:reply-to:list-post:list-owner
+         :in-reply-to:to:from:subject:mime-version:dkim-signature;
+        bh=m/jrKYd9VahNBE/VVpPIekNq7L4gcGmBIJ9vQmkV6LE=;
+        b=aUA3ubFtGRHI7LgBWZ5WKCCk9j+evq5cSnGTjfZjS/zSoD9M1R4OgE2TIPUDstEMTV
+         e4sfTwef9Xu65qIU32RVJ2WkztcnA9LtYVNrYRvO8jYmUP92kReO5khbHizkIjKeZ6cY
+         mrnKc3EPCyUcg9rhQc4tEEaCd/wZwo7LabzhKyswdOyL6k2Ea5Gl7TVAxkEDCQjO7/a8
+         6cUQVR188Si4mY83LDePHKF69yi/tQncIC5ckdSyccCduwsvXfurFW7YfcuY0X8YNUqP
+         VCweMKrMIMwuEHOhe4H4KOUFRO36Kqi+LJptC8xscNoUt3k125OOaHJa6MJDvzjqN4bc
+         ewZQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=vmipZWR6;
+       arc=pass (i=1 spf=pass spfdomain=mg-d0.substack.com dkim=pass dkdomain=mg-d0.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a32-20020a9d2623000000b006621b9e6897sor1283730otb.48.2022.11.14.05.34.18
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 14 Nov 2022 05:34:18 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AA0mqf6WPyh0FH+Eqbv9q4KCf3ey04I2+wN/8lnaVxJ+o+3AafDIEa2OEXX3lUgIM5tU5UoHzEtdzXggmq0wB5Gk+0bYY20JVpk=
+X-Received: by 2002:a9d:6416:0:b0:66c:52cd:cc31 with SMTP id h22-20020a9d6416000000b0066c52cdcc31mr6668948otl.88.1668432858045;
+        Mon, 14 Nov 2022 05:34:18 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1668432858; cv=none;
+        d=google.com; s=arc-20160816;
+        b=KTTaiOhJLtnAVnVhDu81TvvmpFbzwobd6aLtp0kPBU6/z29OPV7LSEdz+epiMu7tnQ
+         K0MY/vXY6/c7E23NyCFFtEJyu3CUNXS8rInI8fwzGnKHzrheWjFZIZrg3QDJV64iJSsB
+         cFBsNbhecIYStPizQ1t+tshZtj8Ndvx3rMObuugA3M5uYHvfhN9Nb9UkB6d94kIX1Qhz
+         5b2yf/DrH/aJJtcxwQ9fxuZuzcQdVNMIXoVmjHGhCp/UxXxkkYHm2xpMGbzypZNQUwuE
+         PfXAPVQFzZXpoaqCQnWKVn1yfNdaythUpCFeP058gwrSMtA091nzohGq45vudmDQdVIv
+         wmfQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-archive:list-id:list-unsubscribe:sender:list-url:message-id
+         :date:list-unsubscribe-post:references:reply-to:list-post:list-owner
+         :in-reply-to:to:from:subject:mime-version:dkim-signature;
+        bh=m/jrKYd9VahNBE/VVpPIekNq7L4gcGmBIJ9vQmkV6LE=;
+        b=tsNMoTzRIrPgQjMjBuliSnL6nf/N/f2w0KyLtEANGhuJ+0qGwWx2+Q9DeaptFhffMQ
+         LzJzYhZbDqG1+yt6K+1GAr4n0dePwKmR6Vp2+gFAinoWrKBmqDIItfg5ZSfQ1dNXwFHw
+         LsvWqDtX9+KhdwlcMfW5zW7/I9vW/Hk/Z+DS4D5QzW5RgHw5mS/lSVpaKQ92TaEgeSnw
+         ioNSHfkDdKAqLH8q5XApcaGw7DDR/gy1uEqjvNTqkhaO4eEGxhB11u/ITri9AlcpfAxc
+         ++JUeiXq2td5Ca9vfLwTcLzTgloDCJzuTWykTLBiIjyJECE8GY/w5+h/XewNvEx8tqBo
+         ivAA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d0.substack.com header.s=mailo header.b=vmipZWR6;
+       spf=pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 161.38.194.182 as permitted sender) smtp.mailfrom="bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com>
+Received: from mg-194-182.static.mg-d0.substack.com (mg-194-182.static.mg-d0.substack.com. [161.38.194.182])
+        by gmr-mx.google.com with UTF8SMTPS id f30-20020a9d03a1000000b0066d3e48f924si511854otf.2.2022.11.14.05.34.08
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 14 Nov 2022 05:34:18 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce+84fd2d.63af5d-notboring=khamel.com@mg-d0.substack.com designates 161.38.194.182 as permitted sender) client-ip=161.38.194.182;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d0.substack.com; q=dns/txt;
+ s=mailo; t=1668432844; x=1668519244; h=List-Archive: List-Id:
+ List-Unsubscribe: Sender: Sender: Message-Id: Date: References:
+ Reply-To: List-Post: List-Owner: In-Reply-To: To: To: From: From:
+ Subject: Subject: Content-Type: Mime-Version;
+ bh=m/jrKYd9VahNBE/VVpPIekNq7L4gcGmBIJ9vQmkV6LE=; b=vmipZWR6U8r8/FfLZy33S+Vx5Qd9NJPEKn6BcuqpM/d9eDj89TwYwC5tm1dS6xT+nMt8rXSE
+ mMExchhUE2YT2zC0414h4SUNupp1hekZ/DsOJlDBFtFhdBJjEIAb7hI8qRXLI3YlA+FRFh7h
+ 7TyzYR+iXM9IaGYWQZLbTUozUkI=
+X-Mailgun-Sending-Ip: 161.38.194.182
+X-Mailgun-Sid: WyJhNzc2ZCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiNjNhZjVkIl0=
+Received: from <unknown> (<unknown> []) by 47032ac4e48e with HTTP id
+ 637243b7070ee69ca8af88b0; Mon, 14 Nov 2022 13:33:41 GMT
+X-Mailgun-Batch-Id: 637243b614d907fe62cd3752
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="c6e685ef735e025cabe2718e14f9f9d42e4151c5a3463260d6d9abfc6007"
+Subject: Discounting Belief
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+In-Reply-To: <post-84358326@substack.com>
+List-Owner: <mailto:notboring@substack.com>
+List-Post: <https://www.notboring.co/p/discounting-belief>
+Reply-To: Not Boring
+ <reply+1e83au&9p0gt&&a41fb6a4fbc33fe866b6f398cd3db204bc4140129f50c742340e8ecd9c2f2920@mg1.substack.com>
+References: <post-84358326@substack.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Date: Mon, 14 Nov 2022 13:31:55 +0000
+Message-Id: <20221114133155.3.63d201907ff55a6a@mg-d0.substack.com>
+List-Url: <https://www.notboring.co/>
+Sender: Not Boring <notboring@substack.com>
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk9EUXpOVGd6TWpZc0ltbGhkQ0k2TVRZMk9EUXpNamd5TUN3aVpYaHdJam94TmpjeE1ESTBPREl3TENKcGMzTWlPaUp3ZFdJdE1UQXdNalVpTENKemRXSWlPaUprYVhOaFlteGxYMlZ0WVdsc0luMC5abS1lSGc5TmNEd0JFS2kwS0FvUmstS0tlRmVUcjNjNEpyNC1LRHgyR0hBIiwicCI6ODQzNTgzMjYsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjY4NDMyODIwLCJleHAiOjE2NzEwMjQ4MjAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.lgfIIuEhv9sd42OK6xKyCvJl0135e5lNVzffn5colw8?>
+List-Id: <notboring.substack.com>
+List-Archive: <https://www.notboring.co/archive>
+X-Mailgun-Variables: {"category": "post", "comment_id": "",
+ "email_generated_at": "1668432820935", "is_freemail": "true",
+ "post_audience": "everyone", "post_id": "84358326", "post_type":
+ "newsletter", "pub_community_enabled": "true", "publication_id": "10025",
+ "subdomain": "notboring", "user_id": "16283549"}
+
+--c6e685ef735e025cabe2718e14f9f9d42e4151c5a3463260d6d9abfc6007
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/discounting-belief
+
+Welcome to the=C2=A02,449=C2=A0newly Not Boring people=C2=A0who have joined=
+ us since last Monday! If you haven=E2=80=99t subscribed, join=C2=A0167,924=
+ smart, curious folks by subscribing here:=20
+Hi friends =F0=9F=91=8B,
+Happy Monday! What a year the past week has been.=C2=A0
+I=E2=80=99m not going to write a piece on FTX today, other than to touch on=
+ it briefly, not because I don=E2=80=99t think it=E2=80=99s an important st=
+ory, but because it=E2=80=99s been written about millions of times over the=
+ past week and I don=E2=80=99t have much new to add.=C2=A0
+FTX US sponsored Not Boring Founders and a couple of newsletter editions. I=
+ would never and will never work with a sponsor whose products I wouldn=E2=
+=80=99t use myself. I just got FTX wrong. I was so comfortable with FTX tha=
+t when they asked to deposit my payment in my FTX US account instead of my =
+bank account, I said yes without a second thought. I never imagined they=E2=
+=80=99d become insolvent, and traded/kept funds in that account for months =
+without a worry. I only avoided getting wiped out because I got lucky: I wa=
+nted to stake the ETH and MATIC I bought there, so I moved everything on-ch=
+ain a couple of weeks ago. The story is ongoing, but it looks like FTX and =
+SBF committed fraud, deceit, theft, and misuse of customer funds, and I hop=
+e that they=E2=80=99re held accountable, and that customer funds can be res=
+tored, to the fullest extent possible.
+Mario Gabriele comes closest to my thoughts and feelings on the whole thing=
+ in his beautifully written The Casino and the Genie [ https://substack.com=
+/redirect/c90b179d-6912-4558-8121-5f807ce33a10?r=3D9p0gt ]. I=E2=80=99m wor=
+king on a bigger piece that in part explains why I think crypto is still va=
+luable and inevitable for next week.=C2=A0
+Indirectly, though, this piece is about FTX, or the impact of its actions o=
+n belief. While it=E2=80=99s hard to measure precisely, belief is one of th=
+e most important inputs to tech and crypto valuations, even though it doesn=
+=E2=80=99t show up in a DCF model.=C2=A0
+Let=E2=80=99s get to it.
+Discounting Belief
+Companies are valued based on the present value of future cash flows. Inves=
+tors guess how much money companies will generate in the future, and then a=
+pply some basic math to figure out what all of that money is worth today.=
+=C2=A0
+As rates have risen, there=E2=80=99s been a lot of talk about the negative =
+impact of higher interest rates on asset prices. There=E2=80=99s been talk =
+about how higher rates and an impending recession will impact future earnin=
+gs. There=E2=80=99s been less talk about what the current environment has d=
+one to belief, and about the impact of belief on asset prices.=C2=A0
+Particularly for the more speculative, future-looking companies that we tal=
+k about in Not Boring, prices are a function of the discount rate of future=
+ cash flows and investors=E2=80=99 belief that those future cash flows will=
+ ever materialize. We=E2=80=99ll call that the Belief Rate.
+Discount rates and Belief Rates are inversely related: higher interest rate=
+s, lower belief in the future. As far as I know, there=E2=80=99s no formula=
+ that ties the two, but you can feel it in the sentiment shift ever since t=
+he Fed started raising rates. Things that looked promising then look stupid=
+ now. Big dreams were as good as gold then; they look like fool=E2=80=99s g=
+old now. The truth is usually somewhere in between.=C2=A0
+The Belief Rate isn=E2=80=99t a real thing. In spreadsheets, belief manifes=
+ts in lower cash flow estimates or higher discount rates. But when you sepa=
+rate the discount rate and the Belief Rate, things start to make more sense=
+, and a more clear path emerges for both investors and entrepreneurs. So we=
+=E2=80=99ll address each separately, and then discuss what to do in a low-b=
+elief environment. Let=E2=80=99s start with the basics: the discount rate.=
+=C2=A0
+The Discount Rate
+Despite a brief, CPI-driven respite last week, 2022 has been a brutal year.=
+ Growth stocks are down bad, crypto is down bad, and startup valuations are=
+ down bad, whether or not that=E2=80=99s reflected in investors=E2=80=99 ma=
+rks yet. Turns out, a lot of the hope that people felt in 2020 and 2021 abo=
+ut these companies=E2=80=99 future prospects was really just the ultra-low =
+discount rates talking.=C2=A0
+=E2=80=9CDiscount rate=E2=80=9D is a financial term for the rate that inves=
+tors expect to receive from an investment, or the company=E2=80=99s cost to=
+ borrow money. Practically, it=E2=80=99s used in net present value (NPV) ca=
+lculations to calculate what a future cash flow is worth today.=C2=A0
+The formula says, =E2=80=9CTake the expected cash flow in some future year =
+(R) and divide it by 1 + the discount rate raised to however many years in =
+the future it is.=E2=80=9D The NPV is essentially compounding in reverse. S=
+o if you expect to make a million dollars in ten years, the discount rate h=
+elps investors figure out what they=E2=80=99d be willing to buy those milli=
+on dollars for today.=C2=A0
+For the first half of this piece, let=E2=80=99s hold that expected future c=
+ash flow constant and look at what happens when you change the discount rat=
+e. A toy model helps explain its impact.=C2=A0
+At a 0% discount rate, your $1 million future cash flow is worth exactly as=
+ much to you today as it would be ten or twenty years in the future: $1 mil=
+lion. If a company promises, =E2=80=9CWe=E2=80=99re going to make $1 millio=
+n dollars in 2042,=E2=80=9D you might say, =E2=80=9CCool, I will pay you $1=
+ million right now if you give me that $1 million when you make it in 2042.=
+=E2=80=9D To be fair, you don=E2=80=99t have much of a choice. You need to =
+put your money somewhere when keeping it in cash yields 0%.
+At a 5% discount rate, though, your $1 million future cash flow is worth le=
+ss today. If it=E2=80=99s ten years in the future, it=E2=80=99s worth $613,=
+913 today. If it=E2=80=99s twenty years in the future, it=E2=80=99s worth $=
+376,889 today. The higher the discount rate goes, and the further out the c=
+ash flow, the more measly that cash flow looks today. At 20%, $1 million tw=
+enty years from now is worth only $26,084 today.
+The logic goes something like this: if I can get 20% on a US Treasury Bond,=
+ and I invest $26,084 in that US Treasury Bond today, it will be worth $1 m=
+illion in twenty years. That money is as guaranteed as any money in the wor=
+ld. So I=E2=80=99m not willing to buy your $1 million for any more than $26=
+,084 today when I have a safer way to get $1 million in 2042 for the same a=
+mount.=C2=A0
+Actually, that=E2=80=99s as rosy a scenario for the company as possible. If=
+ you can get 20% on US Treasuries, the =E2=80=9Crisk-free rate,=E2=80=9D th=
+en the actual discount rate for the company will be higher, because it cost=
+s companies more to borrow than it costs the US Government. The difference =
+is=C2=A0 called the risk premium.
+Let=E2=80=99s say that your company=E2=80=99s risk premium is 5% and 10-yea=
+r US Treasuries are paying 20% (a crazy number, but we came close in the ea=
+rly 1980s). That means that your discount rate is 25%, and your $1 million =
+in 2042 dollars is only worth $11,529 today.
+Still with me? Why was that important?=C2=A0
+Companies are theoretically valued based on the sum of their discounted cas=
+h flows. If the company expects to generate $1 million in cash flow every y=
+ear for the next twenty years, then the company is worth $20 million today =
+at a 0% discount rate, or $3,953,883 at a 25% discount rate. The same exact=
+ business is worth one-fifth as much today if you change nothing about it e=
+xcept for the discount rate.=C2=A0
+Those are oversimplified numbers for illustrative purposes. They=E2=80=99re=
+ extreme, too. But the extremes help paint a picture of what=E2=80=99s goin=
+g on in the markets right now.=C2=A0
+The obvious piece of what=E2=80=99s going on in the markets is that the Fed=
+ is aggressively hiking rates. From a low of 0.52% (or 52 bps in finance-sp=
+eak) in August 2020, the 10 Year US Treasury yield has increased to 4.14%.=
+=C2=A0
+That=E2=80=99s only like 3.5%. How much could it hurt valuations?=C2=A0
+Using the 10 Year UST as the discount rate, $1 million in ten years was wor=
+th $949,457 in August 2020 and is only worth $666,537 today, a 30% decline =
+based on nothing changing except the 10 Year UST yield!=C2=A0
+This is also why stocks and crypto skyrocketed on Thursday when Consumer Pr=
+ice Index (CPI) growth, which measures inflation, came in lower than expect=
+ed. People expect that lower CPI growth will mean the Fed will stop raising=
+ rates as aggressively as inflation comes back to earth. Yields declined, r=
+eflecting that expectation, and with them, discount rates.=C2=A0
+This dynamic hits the types of companies we talk about in Not Boring =E2=80=
+=93 fast-growing technology companies, especially newer ones =E2=80=93 hard=
+er than it hits more boring, predictable, slower-growing businesses. The si=
+mplest explanation, based on the formula we=E2=80=99ve been talking about, =
+is when these companies are expected to generate most of their cash flow: i=
+n the future.=C2=A0
+While there are variations on the theme, the typical tech company model is =
+to raise venture capital, invest a ton of money upfront in technology and c=
+ustomer acquisition, get super big, and then, and only then, pull back on f=
+ixed costs as a percentage of revenue and reap the benefit of low marginal =
+costs and recurring revenue to generate absurd, high-margin cash flows. Tha=
+t means that they expect small or negative cash flows in the short-term, wh=
+ere higher discount rates have the least impact, and big cash flows in the =
+future, where higher discount rates have the highest impact.
+Look at the difference between PPA, an ETF that tracks defense stocks, and =
+the NASDAQ Composite Index, which tracks tech stocks, over the past year as=
+ rates have risen. PPA is up 2%, Nasdaq is down 33%. A lot (but not all) of=
+ this simply has to do with the time distribution of each category=E2=80=99=
+s projected earnings, and the relative impact of rising rates on each.=C2=
+=A0
+There=E2=80=99s some noise in there. For example, there=E2=80=99s a war goi=
+ng on, which is presumably good for defense stocks, and tech companies=E2=
+=80=99 corporate and consumer customers are more sensitive to a recession t=
+han the DoD is. A more clear picture emerges when you look at the response =
+to Thursday=E2=80=99s CPI print:
+The shapes of each index=E2=80=99s charts are nearly identical, but they=E2=
+=80=99re moving on different scales, with the riskiest and growthiest Nasda=
+q Composite Index increasing twice as much as the more conservative, slower=
+-growing Dow Jones Industrial Average. The discount rate impacts growth sto=
+cks more than others, in both directions, because their cash flows are furt=
+her in the future.
+ETH, and crypto more broadly, is even more sensitive to discount rates than=
+ the Nasdaq because its future value is so far out and speculative. Startup=
+s don=E2=80=99t trade in real-time, but if they did, they=E2=80=99d probabl=
+y move somewhere in between the Nasdaq and ETH, because their future cash f=
+lows are further in the future than the average public tech company but mos=
+t do have the ability to produce spreadsheets with numbers that can be used=
+ to run a traditional valuation model, even if it=E2=80=99s a very uncertai=
+n one.=C2=A0
+Crypto, startups, and tech stocks are also more sensitive to a more fickle =
+input: belief.
+Everything we=E2=80=99ve talked about so far is just the math part, and far=
+ smarter people than me have weighed in on the impact of rising interest ra=
+tes on valuations with more nuance. This Invest Like the Best episode on ma=
+cro with Bob Elliott (which I promise I listened to after writing everythin=
+g above) is a good listen on that front:
+The other part of it is hand-wavier, more vibes-based. Let=E2=80=99s call i=
+t the Belief Rate.
+The Belief Rate
+So far, we=E2=80=99ve held the expected future cash flow constant and playe=
+d with the discount rate. But holding that expected future cash flow consta=
+nt is a big assumption, especially for technology and crypto companies whos=
+e histories are shorter and whose promised best days are far in the future.=
+ For the second half of the piece, we=E2=80=99ll focus on the expected futu=
+re cash flows.=C2=A0
+The Belief Rate is something like a conversion rate between a company=E2=80=
+=99s projections and the future cash flow number that shows up in investors=
+=E2=80=99 models.=C2=A0
+In practice, companies don=E2=80=99t provide guidance far into the future. =
+It=E2=80=99s up to analysts to take everything the company has done in the =
+past and said about the future and build models that turn all of that into =
+numbers. And those analysts=E2=80=99 cash flow projections come with their =
+own belief on the company=E2=80=99s future prospects baked in. No one is bu=
+ilding models that calculate Rt*b, they=E2=80=99re just putting in an Rt fo=
+r each future cash flow that implicitly accounts for their own belief and a=
+nalysis. If anything, they=E2=80=99re backing into something similar by adj=
+usting the risk premium reflected in the discount rate. But I think it=E2=
+=80=99s worth breaking out the Belief Rate as a separate thing to understan=
+d what happens when belief, in the market, an industry, or a specific asset=
+, changes.
+(Interestingly, in a 2012 report [ https://substack.com/redirect/ea577b0e-0=
+a99-4988-a0d4-df59da2883bf?r=3D9p0gt ], McKinsey said that project analysts=
+ too often increase the risk premium in their discount rate due to uncertai=
+nty about their cash flow projections, and recommends that they should inst=
+ead keep the discount rate at the actual cost of capital and use a weighted=
+ average multiple cash flow projections instead=E2=80=A6 kind of like an in=
+ternal Belief Rate.)
+The Belief Rate is connected to the discount rate =E2=80=93 when rates are =
+low, people have to put their cash somewhere, and they want to believe =E2=
+=80=93 but it=E2=80=99s also tied to more nebulous general sentiment. That =
+piece is harder to describe, but if you=E2=80=99ve spent time on tech Twitt=
+er, crypto Twitter, or fintwit, or just read tech press, over the past coup=
+le of years, you=E2=80=99ve felt it. The souring market =E2=80=93 plus a wa=
+r, crypto blowups, politics, and a general hangover from the past few years=
+ of excess =E2=80=93 precipitated a Vibe Shift. The Vibe Shift hit the Beli=
+ef Rate hard.=C2=A0
+Just as Treasury yields impact every company=E2=80=99s discount rate, the V=
+ibe hits every company=E2=80=99s Belief Rate. In a bear market, belief in e=
+verything suffers. And just as the discount rates hit companies with a high=
+er percentage of their cash flows further in the future harder, the Belief =
+Rate hits companies making bigger, more speculative future-looking bets har=
+der, too.=C2=A0
+For the past few years, while rates were low and growth was king, the Belie=
+f Rate for bold tech companies was close to 100%. If a company said they we=
+re going to build AI-Operated Space Zoos and planned to generate $100 milli=
+on of cash flow by 2028, investors responded, =E2=80=9COnly $100 million? Y=
+=E2=80=99know, a lot of people undershot Uber=E2=80=99s TAM. Let=E2=80=99s =
+say $200 million, and here=E2=80=99s $50 million to help you get there fast=
+er.=E2=80=9D=C2=A0
+Everyone, me included, was a little drunk on a cocktail of cheap money and =
+easy demand.
+Rising interest rates and a (looming?) recession closed the open bar. Inves=
+tors are sobering up. And when they look at that =E2=80=9C$1 million of cas=
+h flows in ten years=E2=80=9D projection, all of a sudden, they=E2=80=99re =
+going:=C2=A0
+The degree to which investors don=E2=80=99t believe you depends on a bunch =
+of things, like how good a job you=E2=80=99ve done doing what you said you =
+were going to do, how crazy the assumptions baked into your projections are=
+, and how far in the future your projected cash flow is.=C2=A0
+If Lockheed Martin says they=E2=80=99re going to generate $6.5 billion in F=
+ree Cash Flow next year, you can take that to the bank (plus or minus a few=
+ percentage points). The Belief Rate is like 98%.=C2=A0
+If my AI-Operated Space Zoo company, which currently operates zero space zo=
+os, promises to generate $100 million in free cash flow by 2028, investors =
+will apply a very skeptical Belief Rate, somewhere in the 0.5% range. That,=
+ plus the higher discount rate, will give my AI-Operated Space Zoo company =
+so low a valuation that it will be hard for me to find investors willing to=
+ pay anything close to what I think the company=E2=80=99s worth based on co=
+nversations I had in 2021.=C2=A0
+That seems like an extreme example, and it is. My Space Zoo might have a ha=
+rd time getting funded in any market. But Virgin Galactic, which offers 90 =
+minute flights to space for $450,000, went public via a SPAC with Chamath i=
+n 2019, and its chart illustrates the point.
+Virgin Galactic (SPCE) strongly outperformed the Nasdaq Composite for most =
+of its life as a public company, spiking up more than 400% in the summer of=
+ 2021 in the middle of SPAC-mania, but right around the time that the Nasda=
+q peaked, it dipped lower and has dramatically underperformed against the i=
+ndex since. From September 2019 to now, the Nasdaq is up 36% while SPCE is =
+down 47%.=C2=A0
+Part of this underperformance can be explained by the discount rate. Virgin=
+ Galactic is losing a lot of money today (-$235 million in free cash flow i=
+n 2021), and presumably the bulk of its cash flow, if it comes, will come f=
+ar in the future (when it gets to eating that $900 billion commercial aviat=
+ion market). Its SPAC presentation projected $274 million in EBITDA by 2023=
+, with an EBITDA line going practically straight up, leaving the investor t=
+o imagine what that number might look like by 2033. Discounting that far ou=
+t EBITDA by 5% leads to a much different present value than discounting it =
+by 10%.=C2=A0
+Running super super rough back of the envelope math =E2=80=93 growing that =
+$274 million in EBITDA out ten years at the same 87% growth rate from 2022 =
+to 2023 and applying a 5% discount rate =E2=80=93 gets you a $16.4 billion =
+net present value, not far from SPCE=E2=80=99s peak market cap of $15.7 bil=
+lion. Upping that discount rate to 10% takes the NPV down to $10.9 billion,=
+ a big drop but nowhere near the $1.5 billion market cap the company sports=
+ today. You=E2=80=99d have to apply a 39% discount rate to get you to $1.5 =
+billion, and rates haven=E2=80=99t gone up that much. Something else is hap=
+pening.=C2=A0
+Quite clearly, investors are no longer giving Virgin Galactic the benefit o=
+f doubt that it will be able to generate $11.9 billion of EBITDA in 2030. T=
+hey=E2=80=99re applying a much lower Belief Rate.=C2=A0
+If you go with my made up numbers and sloppy toy model (the one with 87% EB=
+ITDA growth), if investors were applying a 5% discount rate and 96% belief =
+rate to get to the $15.7 billion valuation in summer 2021, they=E2=80=99re =
+applying a 10% discount rate and a 14% belief rate to get to a $1.5 billion=
+ valuation today.=C2=A0
+One quick thing to point out here: some of the belief is direct, and some o=
+f it is reflexive. That is, while I can make the numbers tell a certain sto=
+ry, the reality is that in the case of SPCE, and risk assets more generally=
+, a lot of the price action is based on a belief about what other people wi=
+ll believe. I would wager that many SPCE investors weren=E2=80=99t running =
+DCFs and coming up with a fair value for the stock. They were betting that =
+other people would be willing to pay more than they were. When easy money a=
+nd belief exit the market, that reflexive belief unwinds quickly.
+Caveating once again that these numbers are all made up, that I=E2=80=99m n=
+ot running a full DCF model, and that I=E2=80=99m using a Belief Rate on ol=
+d numbers as a catch-all for belief, adjusted projections, and a very real =
+hit to the number of customers willing to pay $450k to fly to space in this=
+ economy, I think it=E2=80=99s a useful way to look at what=E2=80=99s happe=
+ning. Future luxury space travel is a near-perfect vessel for belief =E2=80=
+=93 there=E2=80=99s not much else to go on at this point =E2=80=93 and when=
+ people=E2=80=99s belief falters in a bad market, it=E2=80=99s retrospectiv=
+ely very obvious that future luxury space travel was going to be hit a lot =
+harder than the broader market.=C2=A0
+I say =E2=80=9Cnear-perfect,=E2=80=9D because there is a perfect vessel for=
+ belief: crypto.=C2=A0
+While there=E2=80=99s a growing body of work on how to value various types =
+of tokens, crypto=E2=80=99s valuation methodologies aren=E2=80=99t as stand=
+ardized and broadly accepted as equities=E2=80=99. If you asked ten people =
+how to value bitcoin, for example, you=E2=80=99d get answers ranging from s=
+omething about =E2=80=9Cthe cost of energy required to mine a block=E2=80=
+=9D to =E2=80=9Cthe market cap of gold=E2=80=9D to some log-scale rainbow c=
+hart to =E2=80=9Clol=E2=80=9D to a straight up admission that the price dep=
+ends on how many other people believe in it given its limited supply. Gover=
+nance tokens? Something something ability to direct the use of funds in the=
+ treasury something something. ETH is more clear, but still less clear than=
+ equities: because it generates fees which go to people who=E2=80=99ve stak=
+ed tokens, you can model out something like cash flows. That said, given th=
+e decentralized nature of the ecosystem being built on top, competition fro=
+m other chains, and the potential impact of L2s on volume, anyone who tells=
+ you they have a precise expectation of cash flows is full of shit.=C2=A0
+The more uncertainty there is around cash flows and valuation methodologies=
+, the more sensitive an asset should be to changes in the macro Belief Rate=
+=2E That, I think, is the main reason cry=
+pto prices jumped so high during the=
+ 2020-2021 bull run and why they=E2=80=99ve tanked so hard in this bear mar=
+ket.=C2=A0
+But the micro Belief Rate =E2=80=93 the Belief Rate tied to a particular ca=
+tegory or asset =E2=80=93 can decouple from the macro Belief Rate given goo=
+d reason. The past week provided as clear an example of that as possible. E=
+arlier, we saw that the price of ETH jumped more on the CPI print than the =
+Nasdaq did, largely based on sensitivity to the discount rate. But if you z=
+oom out five days, ETH dramatically underperformed the Nasdaq last week.=C2=
+=A0
+We all know what happened. FTX was one of the largest and most trusted name=
+s in crypto=E2=80=A6 until it wasn=E2=80=99t. When other centralized financ=
+ial (CeFi) institutions crumbled in the spring, there was FTX to bail them =
+out. The company was worth $32 billion, and backed by many of the best vent=
+ure capitalists. SBF was on the cover of magazines. The Miami Heat played i=
+n FTX Arena, and Lewis Hamilton rocked the FTX logo on his Mercedes. While =
+some people were vocally wary of the relationship between Alameda and FTX, =
+I didn=E2=80=99t encounter anyone who thought that FTX could actually fail.=
+ And then it did.=C2=A0
+FTX=E2=80=99s downfall tanked belief in crypto more than any event I=E2=80=
+=99ve experienced. While ETH wasn=E2=80=99t directly impacted =E2=80=93 mea=
+ning, ETH didn=E2=80=99t lose funds in the bankruptcy or something =E2=80=
+=93 the chart above shows the impact of damaged belief in real-time. The pr=
+ice of ETH can roughly be viewed as a bet on the future growth of web3, and=
+ the chart shows that the FTX crash led investors to apply a lower Belief R=
+ate to the whole ecosystem. While the Nasdaq was up over 6% on the week, ET=
+H fell more than 19%. The majority of that 25% delta can be explained by th=
+e lower Belief Rate.
+That=E2=80=99s an extreme example that highlights the point, but there are =
+less extreme examples everywhere you look in tech.=C2=A0
+One of the most obvious is Meta=E2=80=99s bet on the Metaverse.=C2=A0
+The Company Formerly Known as Facebook announced its rebrand and Metaverse =
+plans at a keynote on October 28, 2021 [ https://substack.com/redirect/cd68=
+8898-154e-47aa-8e24-0d19c5aeaf03?r=3D9p0gt ], just three weeks before the N=
+asdaq peaked. Three months later, in February, it announced that Facebook l=
+ost daily users for the first time. After trading roughly in line with, if =
+below, the Nasdaq Composite over the past five years, Meta=E2=80=99s stock =
+tanked and decoupled from the index with that news.=C2=A0
+While the company has other issues =E2=80=93 bloat, Apple kneecapping its a=
+d business, TikTok, slowing user growth =E2=80=93 spending ~$10 billion per=
+ year on VR and AR in an attempt to own the next platform is clearly someth=
+ing that plays better in a low rate, high belief environment. I don=E2=80=
+=99t think we=E2=80=99d be seeing letters like the one that Altimeter=E2=80=
+=99s Brad Gerstner sent Zuck =E2=80=93 Time to Get Fit [ https://substack.c=
+om/redirect/eb355e40-8f0a-4ad3-9437-2cc36141ffcd?r=3D9p0gt ] =E2=80=93 in m=
+id-2021.=C2=A0
+Loss of belief compounds =E2=80=93 there=E2=80=99s less macro belief, then =
+you add on challenges in the core business, and by the time you add somethi=
+ng so speculative and capital intensive to the mix, investors are looking f=
+or reasons to not believe.=C2=A0
+I think that a big part of Meta=E2=80=99s underperformance can be explained=
+ by investors applying a much lower Belief Rate to the company=E2=80=99s Me=
+taverse play than Zuck would have expected when he planned it during the bu=
+ll market. Whether he=E2=80=99s lucratively right or very expensively wrong=
+ remains to be seen many years in the future, but if you think he=E2=80=99s=
+ right, you=E2=80=99re getting a pretty steep Belief Discount right now.=C2=
+=A0
+A related example is Snap, a company whose whole history can be viewed as a=
+ series of crises of belief.=C2=A0
+In June 2020, in the midst of a post-COVID-crash belief rebound (and lower =
+rate environment), I wrote a piece titled Oh Snap! [ https://substack.com/r=
+edirect/09d800f3-b147-41a4-a948-1086f6b91cd7?r=3D9p0gt ] laying out my view=
+ that Snap was building the most compelling Augmented Reality (AR) platform=
+ out there. Combined with the strong growth and engagement of young America=
+n users and an improving ads business, I thought that Snap was undervalued.=
+ For a while, I looked smart.=C2=A0
+Snap was the perfect stock for a low-rate, high-belief environment. Its exp=
+ected cash flows are further out in the future than the average Nasdaq stoc=
+k, it was a comeback story, brand marketers were feeling spendy (in part be=
+cause they could spend brand marketing dollars today for cash flows far in =
+the future), and it had a big, audacious AR bet for people to believe in. A=
+t one point, right before the Nasdaq peaked, it was up over 400% from the b=
+eginning of 2020.=C2=A0
+Then, it crashed. It missed revenue estimates in its October 2021 earnings =
+thanks to Apple=E2=80=99s privacy changes and fell 22% the next day. It=E2=
+=80=99s been pretty much down-only since then. A few weeks ago, it crashed =
+25% when it missed earnings again. Like Meta, there are many factors =E2=80=
+=93 Apple, decimated brand marketing spend, and rising rates chief among th=
+em =E2=80=93 but like Meta, I think that a big factor is Belief Rate compre=
+ssion. =E2=80=9CCool AR thing you have there in 2030,=E2=80=9D investors se=
+em to be saying, =E2=80=9CWe believe that will have a material impact on th=
+e business like 1%.=E2=80=9D If you have a differentiated belief there, you=
+ can pick up SNAP at 2019 prices. If you have a differentiated belief to th=
+e downside on its core business, of course, you can try to short it back to=
+ 2018 levels.=C2=A0
+I hadn=E2=80=99t put it into words until writing this piece, but I think my=
+ biggest lesson from investing =E2=80=93 public, private, and crypto =E2=80=
+=93 over the past couple of years is to be more aware of the Belief Rate th=
+at I, and especially others, are applying to companies. I=E2=80=99m great a=
+t buying when I sense that my Belief Rate is higher than others=E2=80=99, b=
+ut not so good at selling when everyone=E2=80=99s Belief Rates are as high =
+as, or higher than, mine. You need to do both to make money.=C2=A0
+Now, we=E2=80=99re clearly in a low-belief environment. ETH, Meta, and Snap=
+ are just three examples of the many I could choose from the smorgasbord.=
+=C2=A0
+So what=E2=80=99s a company to do in a high-discount rate, low-belief rate =
+environment?=C2=A0
+What to Do When Belief Dries Up
+Writing all of this out has given me a new perspective on all of the cost c=
+utting measures and pivots to profitability in the tech and startup ecosyst=
+em. On the surface, they look like survival tactics =E2=80=93 keep burn low=
+ so you don=E2=80=99t run out of money while funding is harder to come by, =
+get to profitability so you control your own destiny =E2=80=93 and they are=
+, but they=E2=80=99re more than that. They=E2=80=99re the rational moves.=
+=C2=A0
+In this environment, cash flows next year are worth a lot more relative to =
+cash flows in ten years than they were just a year ago. Cutting costs and m=
+aking moves to get profitable sooner, even at the expense of long-term cash=
+ flows, makes sense.=C2=A0
+I said earlier that everyone was drunk on low rates last year, but hiring m=
+ore people to work on moonshot projects that might pay off in five years ma=
+y have actually made sober sense when the Belief Rate was higher and the di=
+scount rate was lower. Now that the Belief Rate is lower, focusing on short=
+er-term wins that don=E2=80=99t require much investor belief can make sense=
+=2E=C2=A0
+Some of the biggest, most impactful ideas just won=E2=80=99t be able to get=
+ profitable in the near future. There=E2=80=99s new tech to develop, supply=
+ chains to set up, and long sales cycles to contend with. If you still have=
+ the urge to go big, and I hope that many of you do, you need to provide as=
+ much concrete evidence that you=E2=80=99re making progress towards your hu=
+ge, crazy vision as possible. Hit milestones, be explicit about every step =
+of the plan, hire brilliantly, be hawkish about unit economics. Make invest=
+ors apply a higher Belief Rate to your company than they=E2=80=99re applyin=
+g to the market through your actions.
+But for the average company, the one with a product in market and customers=
+ paying, it=E2=80=99s rational to tighten your belt in this environment, di=
+lute yourself as little as possible, bank belief, and preserve optionality =
+in order to accelerate when discount rates come back down and Belief Rates =
+shoot up again.=C2=A0
+That said, there are pockets in which the Belief Rate is still high. Genera=
+tive AI is the obvious example here. In October, Stability AI [ https://sub=
+stack.com/redirect/8c23c7d5-e52d-4700-b972-07130779d55c?r=3D9p0gt ], the co=
+mpany behind Stable Diffusion, raised a round at a $1 billion valuation [ h=
+ttps://substack.com/redirect/c65612e0-d99d-41b1-b857-8fb58b49b64d?r=3D9p0gt=
+ ]. The same week, AI content platform Jasper announced a $125 million Seri=
+es A at a $1.5 billion valuation [ https://substack.com/redirect/4d87c926-b=
+9d3-4056-a753-884d38a684e2?r=3D9p0gt ]. Presumably, most of Stability and J=
+aspers=E2=80=99 cash flow will come very far in the future, but investors w=
+ere willing to apply a high Belief Rate to each. Why?=C2=A0
+I=E2=80=99m not exactly sure, but my best guess is that there are a couple =
+of factors. First, this generative AI boom was born in the bear market and =
+wasn=E2=80=99t tainted by overhype in the bull market. It=E2=80=99s shiny a=
+nd new when so much looks beaten down. Second, as belief in incumbents tumb=
+les, it looks like there=E2=80=99s a real opportunity (and appetite) for a =
+new paradigm, and a consensus forming that the next Google and Facebook wil=
+l be built AI-native. Third, the size of the opportunity is so large that i=
+t=E2=80=99s possible to arrive at a billion-dollar valuation even with a lo=
+wer Belief Rate; it=E2=80=99s easy to imagine these valuations would have b=
+een even higher in mid-2021. Fourth, the technology is mind-blowingly cool,=
+ and it makes people want to believe. And finally, even in a bear market, p=
+eople want to believe in something.=C2=A0
+More broadly, while venture funding has cooled significantly, and prices fo=
+r deals that do get done have come down, this isn=E2=80=99t the end of tech=
+=2E Massive companies will very likely be=
+ built during this bear market. With=
+ layoffs and hiring freezes at big tech companies, startups will have the c=
+hance to build all-star teams at affordable prices. Huge categories are bei=
+ng transformed. Cost curves are coming down. Founders are still dreaming bi=
+g.
+And some companies still deserve a high Belief Rate. Some companies will do=
+ exactly what they say they=E2=80=99re going to do. Some companies will eve=
+n exceed their own optimistic projections.=C2=A0
+In 2020 and 2021, high Belief Rates were applied uniformly to anything in t=
+ech with a little growth, and anything that touched web3. In a market like =
+that, it was rational for founders to paint the grandest picture they could=
+ for investors, knowing that investors would give them credit for most of i=
+t. That meant a lot of companies got funded at prices that look silly today=
+, and it means that most companies that got funded then are overvalued.=C2=
+=A0
+In this market, prices have come down uniformly due to a combination of hig=
+her discount rates and lower Belief Rates across the board. That should mea=
+n opportunity for those who can find mispricings in belief. Some companies =
+that get funded today will be deeply undervalued.
+That said: beware. If this bear market has re-taught us anything, it=E2=80=
+=99s that the macro trumps everything. That=E2=80=99s true for the discount=
+ rate, and it=E2=80=99s true for the Belief Rate. Even if you believe in a =
+particular company, the macro Belief Rate can keep it down longer than you =
+can stay solvent. Just like SPACs, startup investing requires more than you=
+r own belief; it requires an educated assessment of the beliefs of the fund=
+s who will need to lead a company=E2=80=99s next round.
+I have no differentiated view on the macro, and if I did, you shouldn=E2=80=
+=99t trust it. People have spent their whole careers thinking about macro a=
+nd still get it wrong, and I have not spent my whole career thinking about =
+macro. I have no idea what the discount rate will be in a week, a year, or =
+a decade. If interest rates continue to rise, higher discount rates will co=
+ntinue to create a drag on valuations across the board, and especially on g=
+rowth assets.=C2=A0
+But there will be opportunities in the micro, in companies that you believe=
+ in more than anyone else does, in ideas that seem crazy to pursue when eve=
+ryone is focusing on the short-term.=C2=A0
+Legends will be made in this downturn. Some of them will be the ones who ta=
+ke the practical advice from a few paragraphs ago, cut costs, get profitabl=
+e, survive, and come out swinging in the next bull market. Others will be t=
+hose who, despite what=E2=80=99s rational, continue to think and act long-t=
+erm, even when long-term trades at a discount.=C2=A0=C2=A0
+Whether in a year or a decade, valuations will rise, big companies will be =
+created, and belief will be restored. For whenever that happens, note to se=
+lf: Don=E2=80=99t Stop Believing is a better song than it is a trading stra=
+tegy.=C2=A0
+Thanks to Dan [ https://substack.com/redirect/f8119f2d-56b7-40d6-825b-b7b0a=
+aeb66aa?r=3D9p0gt ] and Puja [ https://substack.com/redirect/cebb4424-71b7-=
+4f5c-95d4-9d18bfd20042?r=3D9p0gt ] for editing!
+That=E2=80=99s all for today. We=E2=80=99ll see you on Friday for the Weekl=
+y Dose of Optimism, and next Monday for an essay I=E2=80=99m very excited a=
+bout (if I can wrangle it into form).=20
+Thanks for reading,=20
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZPRFF6TlRnek1qWXNJbWxoZENJNk1UWTJPRFF6TWpneU1Dd2laW=
+Gh3SWpveE5qY3hNREkwT0RJd0xDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FY=
+TmhZbXhsWDJWdFlXbHNJbjAuWm0tZUhnOU5jRHdCRUtpMEtBb1JrLUtLZUZlVHIzYzRKcjQtS0R=
+4MkdIQSIsInAiOjg0MzU4MzI2LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdC=
+I6MTY2ODQzMjgyMCwiZXhwIjoxNjcxMDI0ODIwLCJpc3MiOiJwdWItMCIsInN1YiI6Imxpbmstc=
+mVkaXJlY3QifQ.grKJ3zdCxZU-Va-563dSHBEi4zhOlk8VUTd5agML5M4?
+--c6e685ef735e025cabe2718e14f9f9d42e4151c5a3463260d6d9abfc6007
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D""><head><title>Discounting Belief</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.youtube-inner div.youtube-screen,
+  .typography.editor .markup div.youtube-inner div.youtube-screen,
+  .typography .markup div.vimeo-inner div.youtube-screen,
+  .typography.editor .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet,
+  .typography.editor .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-text,
+  .typography.editor .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-photos-container.two,
+  .typography.editor .markup .tweet .tweet-photos-container.two,
+  .typography .markup .tweet .tweet-photos-container.three,
+  .typography.editor .markup .tweet .tweet-photos-container.three,
+  .typography .markup .tweet .tweet-photos-container.four,
+  .typography.editor .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-img,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-description,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-descript=
+ion {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget,
+  .header-anchor-container .header-anchor-widget {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .post-label {
+    margin-top: 8px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .footer-facepile-container {
+    height: 64px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.youtube-inner div.youtube-screen,
+  body .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  body .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-sub=
+scribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-photos-container.two,
+  body .markup .tweet .tweet-photos-container.three,
+  body .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed img.install-substack-app-embed-i=
+mg {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-link=
+ {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper {
+    width: 100%;
+    padding: 0 16px;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper:empty {
+    display: none;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button {
+    width: 100%;
+    margin: 16px 0;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIxMTE0MTMzMTU1LjMuNjNkMjAxOTA3ZmY1NWE2YUBtZy1kMC5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFja=
+y5jb20iLCJwIjo4NDM1ODMyNiwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjox=
+MDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTY2ODQzMjg=
+yMSwiZXhwIjoxNjcxMDI0ODIxLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.Haz_1kgogRq1AW=
+CollPMOIUxNA86YedyzjlkGMaCxq4" alt=3D"" width=3D"1" height=3D"1" border=3D"=
+0" style=3D"height:1px !important;width:1px !important;border-width:0 !impo=
+rtant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !im=
+portant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 =
+!important;padding-right:0 !important;padding-left:0 !important;"/><div sty=
+le=3D"display:none;font-size:1px;color:#333333;line-height:1px;max-height:0=
+px;max-width:0px;opacity:0;overflow:hidden;" class=3D"preview">What to do w=
+hen everyone stops believing &#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;</div><table role=3D"presentation" width=3D"100%" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" class=3D"email-body-container"><tr><td></td><td=
+ width=3D"550" class=3D"content"></td><td></td></tr><tr><td></td><td align=
+=3D"left" width=3D"550" class=3D"content"><div style=3D"font-size: 16px; li=
+ne-height: 26px; margin: 0 auto; max-width: 550px; overflow-wrap: break-wor=
+d; width: 100%;"><table role=3D"presentation" width=3D"100%" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"right" style=3D"height:=
+ 20px;"><table role=3D"presentation" width=3D"auto" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0"><tr><td style=3D"vertical-align: middle;"><span c=
+lass=3D"tw-font-body tw-text-ssm tw-text-substack-secondary" style=3D"color=
+: #808080 !important; font-family: SF Pro Text, -apple-system, BlinkMacSyst=
+emFont, Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color =
+Emoji, Segoe UI Emoji, Segoe UI Symbol !important; font-size: 13px !importa=
+nt;"><a href=3D"https://open.substack.com/pub/notboring/p/discounting-belie=
+f?utm_source=3Demail&redirect=3Dapp-store" class=3D"tw-text-substack-second=
+ary tw-underline" style=3D"-webkit-text-decoration-line: underline !importa=
+nt; color: #808080 !important; text-decoration-line: underline !important;"=
+>Open in app</a> or <a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0=
+cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvZGlzY291bnRpbmctYmVsaWVmP3Rva2VuPWV5SjFjMlZ=
+5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZPRFF6TlRnek1qWXNJbWxoZENJNk1UWT=
+JPRFF6TWpneU1Dd2laWGh3SWpveE5qY3hNREkwT0RJd0xDSnBjM01pT2lKd2RXSXRNVEF3TWpVa=
+UxDSnpkV0lpT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAuS0tKTnRjQnVtRWlGdTNCR0xZVnY2VkRK=
+RDY4TGNMRnhZclplS0dBZXJURSIsInAiOjg0MzU4MzI2LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI=
+6MTYyODM1NDksImlhdCI6MTY2ODQzMjgyMCwiZXhwIjoxNjcxMDI0ODIwLCJpc3MiOiJwdWItMC=
+IsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.lEbGaWU92n-uMESdu2VgxkzbWP5Ktft6LoLevLWkZp=
+o?" class=3D"tw-text-substack-secondary tw-underline" style=3D"-webkit-text=
+-decoration-line: underline !important; color: #808080 !important; text-dec=
+oration-line: underline !important;">online</a></span></td></tr></table></t=
+d></tr></table><div dir=3D"auto" class=3D"post typography" style=3D"font-si=
+ze: 16px; line-height: 26px; padding: 16px 0 0 0;"><div class=3D"post-heade=
+r" style=3D"font-size: 16px; line-height: 26px;"><h1 class=3D"post-title pu=
+blished" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smooth=
+ing: antialiased; color: #404040; font-family: 'SF Compact Display', -apple=
+-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-ser=
+if, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 32=
+px; font-weight: bold; line-height: 36px; margin: 0;"><a href=3D"https://su=
+bstack.com/app-link/post?publication_id=3D10025&post_id=3D84358326&utm_sour=
+ce=3Dpost-email-title&isFreemail=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSw=
+icG9zdF9pZCI6ODQzNTgzMjYsImlhdCI6MTY2ODQzMjgyMCwiZXhwIjoxNjcxMDI0ODIwLCJpc3=
+MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.KKJNtcBumEiFu3BGLYVv6VDJD=
+68LcLFxYrZeKGAerTE" style=3D"color: #404040; text-decoration: none;">Discou=
+nting Belief</a></h1><h3 class=3D"subtitle" style=3D"-moz-osx-font-smoothin=
+g: antialiased; -webkit-font-smoothing: antialiased; color: #808080; font-f=
+amily: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol'; font-size: 18px; font-weight: normal; line-height: 24=
+px; margin: 4px 0 0; margin-top: 12px;">What to do when everyone stops beli=
+eving</h3><table cellpadding=3D"0" cellspacing=3D"0" class=3D"post-meta cus=
+tom" style=3D"align-items: center; height: 20px; margin: 1em 0;"><tr><td ti=
+tle=3D"2022-11-14T13:33:09.394Z" class=3D"post-meta-item post-date" style=
+=3D"color: #808080; font-family: -apple-system, BlinkMacSystemFont, 'Segoe =
+UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 400; height: 14px; =
+margin-right: 0; padding: 0px 12px 0px 0; padding-bottom: 0; padding-right:=
+ 0; padding-top: 0; position: relative; text-decoration: none; white-space:=
+ nowrap;"><div class=3D"frontend-pencraft-Text-module__reset--20JLV fronten=
+d-pencraft-Text-module__size-12--2onFT frontend-pencraft-Text-module__line-=
+height-20--1soeQ frontend-pencraft-Text-module__weight-medium--aTbx5 fronte=
+nd-pencraft-Text-module__font-meta--2i-cR frontend-pencraft-Text-module__co=
+lor-secondary--XjVGl frontend-pencraft-Text-module__meta--3RRSj" style=3D"c=
+olor: #808080; font-family: 'SF Compact Text', 'SF Pro Text', -apple-system=
+, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; font-size: 12px; font-weight: 500; letter-spacing: 0.2px; =
+line-height: 20px; margin: 0; text-decoration: unset; text-transform: upper=
+case;"><time dateTime=3D"2022-11-14T13:33:09.394Z">Nov 14</time></div></td>=
+</tr></table><table role=3D"presentation" width=3D"100%" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" class=3D"email-ufi-2-top" style=3D"border-bo=
+ttom: 1px solid #e0e0e0; border-top: 1px solid #e0e0e0; min-width: 100%;"><=
+tr height=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;=
+">&#160;</td></tr><tr><td><table role=3D"presentation" width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><table role=3D"presenta=
+tion" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><=
+td style=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"=
+38" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"cente=
+r"><a href=3D"https://substack.com/app-link/post?publication_id=3D10025&pos=
+t_id=3D84358326&utm_source=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtrue&t=
+oken=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6ODQzNTgzMjYsInJlYWN0aW9uIjoi=
+4p2kIiwiaWF0IjoxNjY4NDMyODIwLCJleHAiOjE2NzEwMjQ4MjAsImlzcyI6InB1Yi0xMDAyNSI=
+sInN1YiI6InJlYWN0aW9uIn0.zHsanXCdlVyMbw1BkO7TMGpsjd_y-bl5suz7rJiiTwc&utm_me=
+dium=3Demail" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; =
+box-sizing: border-box; color: #808080; display: inline-block; font-family:=
+ 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI=
+', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emo=
+ji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 1; =
+min-width: 38px; padding: 9px 0; text-decoration: none; text-transform: upp=
+ercase; width: 38px;" class=3D"email-icon-button"><img src=3D"https://subst=
+ackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/=
+https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fil=
+l%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"1=
+8" style=3D"border: none !important; max-width: 18px; vertical-align: middl=
+e;" alt=3D"" class=3D"icon"></a></td></tr></table></td><td width=3D"8" styl=
+e=3D"min-width: 8px"></td><td style=3D"vertical-align: middle;"><table role=
+=3D"presentation" width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/app-link/po=
+st?publication_id=3D10025&post_id=3D84358326&utm_source=3Dsubstack&utm_medi=
+um=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4Mz=
+U0OSwicG9zdF9pZCI6ODQzNTgzMjYsImlhdCI6MTY2ODQzMjgyMCwiZXhwIjoxNjcxMDI0ODIwL=
+CJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.KKJNtcBumEiFu3BGLYVv=
+6VDJD68LcLFxYrZeKGAerTE&utm_source=3Dsubstack&utm_medium=3Demail" style=3D"=
+border: 1px solid #e0e0e0; border-radius: 100000px; box-sizing: border-box;=
+ color: #808080; display: inline-block; font-family: 'SF Pro Text', -apple-=
+system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, A=
+rial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';=
+ font-size: 12px; font-weight: 500; line-height: 1; min-width: 38px; paddin=
+g: 9px 0; text-decoration: none; text-transform: uppercase; width: 38px;" c=
+lass=3D"email-icon-button"><img src=3D"https://substackcdn.com/image/fetch/=
+w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.=
+com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D=
+%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: =
+none !important; max-width: 18px; vertical-align: middle;" alt=3D"" class=
+=3D"icon"></a></td></tr></table></td><td width=3D"8" style=3D"min-width: 8p=
+x"></td><td style=3D"vertical-align: middle;"><table role=3D"presentation" =
+width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=
+=3D"center"><a href=3D"https://substack.com/app-link/post?publication_id=3D=
+10025&post_id=3D84358326&utm_source=3Dsubstack&utm_medium=3Demail&utm_conte=
+nt=3Dshare&action=3Dshare&triggerShare=3Dtrue&isFreemail=3Dtrue&token=3DeyJ=
+1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6ODQzNTgzMjYsImlhdCI6MTY2ODQzMjgyMCwiZX=
+hwIjoxNjcxMDI0ODIwLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.K=
+KJNtcBumEiFu3BGLYVv6VDJD68LcLFxYrZeKGAerTE" style=3D"border: 1px solid #e0e=
+0e0; border-radius: 100000px; box-sizing: border-box; color: #808080; displ=
+ay: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-serif,=
+ BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'App=
+le Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font=
+-weight: 500; line-height: 1; min-width: 38px; padding: 9px 0; text-decorat=
+ion: none; text-transform: uppercase; width: 38px;" class=3D"email-icon-but=
+ton"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_a=
+uto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideSha=
+re%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth=
+%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; max-widt=
+h: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"></a></td></tr></t=
+able></td></tr></table></td><td align=3D"right"><table role=3D"presentation=
+" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td s=
+tyle=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"auto=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"=
+><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL3AvZGlzY291bnRpbmctYmVsaWVmP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZG=
+l1bT1lbWFpbCZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2T=
+0RRek5UZ3pNallzSW1saGRDSTZNVFkyT0RRek1qZ3lNQ3dpWlhod0lqb3hOamN4TURJME9ESXdM=
+Q0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSnpZWFpsTFhCdmMzUWlmUS5xa2NqZEl=
+tb2VyUFRaX2J5Z2FINlVlSzNhYjEwMkF0ZjJLNHpJOXc2NlpVJmFjdGlvbj1zYXZlIiwicCI6OD=
+QzNTgzMjYsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjY4NDMyODIwL=
+CJleHAiOjE2NzEwMjQ4MjAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.iZ6=
+eHdcEEq_ero_pNX4YRjL1Bz_RZsRtrh1qd5YG7cE?" class=3D"email-button-outline" s=
+tyle=3D"border: 1px solid #e0e0e0; border-radius: 100000px; color: #808080;=
+ display: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-=
+serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px=
+; font-weight: 500; line-height: 12px; padding: 9px 14px; text-decoration: =
+none; text-transform: uppercase;"><div class=3D"email-button-spacer" style=
+=3D"display: inline-block; font-size: 16px; line-height: 26px; max-width: 0=
+; min-height: 18px; vertical-align: middle;"></div><span class=3D"email-but=
+ton-text" style=3D"vertical-align: middle;">Save</span></a></td></tr></tabl=
+e></td><td width=3D"8" style=3D"min-width: 8px"></td><td style=3D"vertical-=
+align: middle;"><table role=3D"presentation" width=3D"auto" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https=
+://open.substack.com/pub/notboring/p/discounting-belief?utm_source=3Demail-=
+ufi&play_audio=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6ODQzN=
+TgzMjYsImlhdCI6MTY2ODQzMjgyMCwiZXhwIjoxNjcxMDI0ODIwLCJpc3MiOiJwdWItMTAwMjUi=
+LCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.KKJNtcBumEiFu3BGLYVv6VDJD68LcLFxYrZeKGAerTE=
+" class=3D"email-button-outline" style=3D"border: 1px solid #e0e0e0; border=
+-radius: 100000px; color: #808080; display: inline-block; font-family: 'SF =
+Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Ro=
+boto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', =
+'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 12px; pa=
+dding: 9px 14px; text-decoration: none; text-transform: uppercase;"><div cl=
+ass=3D"email-button-spacer" style=3D"display: inline-block; font-size: 16px=
+; line-height: 26px; max-width: 0; min-height: 18px; vertical-align: middle=
+;"></div><span class=3D"email-button-text" style=3D"vertical-align: middle;=
+">&#9655;&#160;&#160;Listen</span></a></td></tr></table></td></tr></table><=
+/td></tr></table></td></tr><tr height=3D"16"><td height=3D"16" style=3D"fon=
+t-size: 0px; line-height: 0;">&#160;</td></tr></table></div></div><div dir=
+=3D"auto" class=3D"post typography" style=3D"font-size: 16px; line-height: =
+26px; padding: 16px 0 0 0;"><div dir=3D"auto" class=3D"body markup" style=
+=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: in=
+itial; width: 100%; word-break: break-word;"><p style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0; margin-top: 0;"><em><=
+span>Welcome to the&#160;</span><strong>2,449&#160;newly Not Boring people&=
+#160;</strong><span>who have joined us since last Monday! If you haven&#821=
+7;t subscribed, join&#160;</span><strong>167,924 </strong><span>smart, curi=
+ous folks by subscribing here: </span></em></p><div class=3D"subscribe-widg=
+et is-signed-up is-fully-subscribed" style=3D"direction: ltr; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em;"><p class=3D"button-wrapper" style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+ text-align: center;"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaH=
+R0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjY291bnQiLCJwIjo4NDM1ODMyNiwicyI6MTAwMjUsI=
+mYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2Njg0MzI4MjAsImV4cCI6MTY3MTAyNDgyMCwi=
+aXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.vMXbCVJFUBDiPe0aZqtBPMA48JU=
+tMYylP3nwh10stSU?" class=3D"button subscribe-btn outline" style=3D"backgrou=
+nd: transparent; background-color: transparent; border: 1px solid #67bdfc; =
+border-radius: 4px; box-sizing: border-box; color: #67bdfc; cursor: pointer=
+; display: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'S=
+egoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; height: a=
+uto; line-height: 20px; margin: 0 auto; opacity: 1; outline: none; padding:=
+ 12px 20px; text-align: center; text-decoration: none !important; white-spa=
+ce: nowrap;"><img src=3D"https://substackcdn.com/image/fetch/w_40,c_scale,f=
+_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FL=
+ucideCheck%3Fv%3D4%26height%3D40%26fill%3Dtransparent%26stroke%3D%252367bdf=
+c%26strokeWidth%3D2" width=3D"20" height=3D"20" style=3D"-ms-interpolation-=
+mode: bicubic; border: none !important; display: inline-block; height: auto=
+; margin: -2px 8px 0 0; max-width: 20px; vertical-align: middle;" alt=3D"" =
+class=3D"check-icon static"><span style=3D"text-decoration: none;">Subscrib=
+e</span></a></p></div><div style=3D"font-size: 16px; line-height: 26px;"><h=
+r style=3D"background: #e0e0e0; border: none; height: 1px; margin: 32px 0; =
+padding: 0;"></div><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;">Hi friends &#128075;,</p><p style=3D"color: #4=
+04040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Happy Monda=
+y! What a year the past week has been.&#160;</p><p style=3D"color: #404040;=
+ font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">I&#8217;m not goi=
+ng to write a piece on FTX today, other than to touch on it briefly, not be=
+cause I don&#8217;t think it&#8217;s an important story, but because it&#82=
+17;s been written about millions of times over the past week and I don&#821=
+7;t have much new to add.&#160;</p><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;">FTX US sponsored Not Boring Fo=
+unders and a couple of newsletter editions. I would never and will never wo=
+rk with a sponsor whose products I wouldn&#8217;t use myself. I just got FT=
+X wrong. I was so comfortable with FTX that when they asked to deposit my p=
+ayment in my FTX US account instead of my bank account, I said yes without =
+a second thought. I never imagined they&#8217;d become insolvent, and trade=
+d/kept funds in that account for months without a worry. I only avoided get=
+ting wiped out because I got lucky: I wanted to stake the ETH and MATIC I b=
+ought there, so I moved everything on-chain a couple of weeks ago. The stor=
+y is ongoing, but it looks like FTX and SBF committed fraud, deceit, theft,=
+ and misuse of customer funds, and I hope that they&#8217;re held accountab=
+le, and that customer funds can be restored, to the fullest extent possible=
+=2E</p><p style=3D"color: #404040; font-s=
+ize: 16px; line-height: 26px; margin=
+: 0 0 20px 0;"><span>Mario Gabriele comes closest to my thoughts and feelin=
+gs on the whole thing in his beautifully written </span><em><a href=3D"http=
+s://substack.com/redirect/c90b179d-6912-4558-8121-5f807ce33a10?r=3D9p0gt" r=
+el=3D"" style=3D"color: #404040; text-decoration: underline;">The Casino an=
+d the Genie</a></em><span>. I&#8217;m working on a bigger piece that in par=
+t explains why I think crypto is still valuable and inevitable for next wee=
+k.&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;">Indirectly, though, this piece is about FTX, o=
+r the impact of its actions on belief. While it&#8217;s hard to measure pre=
+cisely, belief is one of the most important inputs to tech and crypto valua=
+tions, even though it doesn&#8217;t show up in a DCF model.&#160;</p><p sty=
+le=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px =
+0;">Let&#8217;s get to it.</p><div style=3D"font-size: 16px; line-height: 2=
+6px;"><hr style=3D"background: #e0e0e0; border: none; height: 1px; margin: =
+32px 0; padding: 0;"></div><h1 class=3D"header-with-anchor-widget" style=3D=
+"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased;=
+ color: #404040; font-family: 'SF Compact Display', -apple-system, BlinkMac=
+SystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color =
+Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2em; font-weight: b=
+old; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relative;">Dis=
+counting Belief</h1><div class=3D"captioned-image-container-static" style=
+=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><figure style=
+=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"1=
+00%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-=
+alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td al=
+ign=3D"left" class=3D"content" width=3D"1200" style=3D"text-align: center;"=
+><a class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/red=
+irect/87b0614c-1425-406a-8a27-0d36869ceed7?r=3D9p0gt" rel=3D"" style=3D"ali=
+gn-items: center; border: none; display: block; flex-direction: column; hei=
+ght: auto; margin: 0; padding: 0; position: relative; text-decoration: none=
+; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer=
+-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/25a3fd=
+5e-1870-4a38-ac28-e0e712a0db66_1200x600.png&quot;,&quot;fullscreen&quot;:nu=
+ll,&quot;imageSize&quot;:null,&quot;height&quot;:600,&quot;width&quot;:1200=
+,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:98642,&quot;alt&quot;:&quot=
+;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/png&quo=
+t;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedire=
+ct&quot;:null}" alt=3D"" title=3D"" width=3D"550" height=3D"275" class=3D"w=
+ide-image" src=3D"https://substackcdn.com/image/fetch/w_2400,c_limit,f_auto=
+,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437=
+e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F25a3fd5e-1870-4a38=
+-ac28-e0e712a0db66_1200x600.png" style=3D"-ms-interpolation-mode: bicubic; =
+border: none !important; display: block; height: auto; margin: 0 auto; marg=
+in-bottom: 0; max-width: 100% !important; vertical-align: middle; width: au=
+to !important;"></a></td><td style=3D"text-align: center;"></td></tr></tbod=
+y></table></figure></div><p style=3D"color: #404040; font-size: 16px; line-=
+height: 26px; margin: 0 0 20px 0;">Companies are valued based on the presen=
+t value of future cash flows. Investors guess how much money companies will=
+ generate in the future, and then apply some basic math to figure out what =
+all of that money is worth today.&#160;</p><p style=3D"color: #404040; font=
+-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>As rates have ri=
+sen, there&#8217;s been a lot of talk about the negative impact of higher i=
+nterest rates on asset prices. There&#8217;s been talk about how higher rat=
+es and an impending recession will impact future earnings. There&#8217;s be=
+en less talk about what the current environment has done to </span><strong>=
+belief</strong><span>, and about the impact of belief on asset prices.&#160=
+;</span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px;=
+ margin: 0 0 20px 0;"><span>Particularly for the more speculative, future-l=
+ooking companies that we talk about in Not Boring, prices are a function of=
+ the discount rate of future cash flows </span><em>and</em><span> investors=
+&#8217; belief that those future cash flows will ever materialize. We&#8217=
+;ll call that the </span><strong>Belief Rate</strong><span>.</span></p><div=
+ class=3D"captioned-image-container-static" style=3D"font-size: 16px; line-=
+height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 1=
+00%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><t=
+r><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"conten=
+t" width=3D"1032" style=3D"text-align: center;"><a class=3D"image-link" tar=
+get=3D"_blank" href=3D"https://substack.com/redirect/da44594b-a750-4e22-ad7=
+0-72d8a069169b?r=3D9p0gt" rel=3D"" style=3D"align-items: center; border: no=
+ne; display: block; flex-direction: column; height: auto; margin: 0; paddin=
+g: 0; position: relative; text-decoration: none; width: auto;"><img data-at=
+trs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb=
+32be77984.s3.amazonaws.com/public/images/670e6aa0-11fd-4ca7-8438-9aad14065f=
+4a_1032x267.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:nul=
+l,&quot;height&quot;:267,&quot;width&quot;:1032,&quot;resizeWidth&quot;:nul=
+l,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&qu=
+ot;&quot;,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&qu=
+ot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" title=3D"" width=3D"5=
+50" height=3D"142.29651162790697" class=3D"wide-image" src=3D"https://subst=
+ackcdn.com/image/fetch/w_2064,c_limit,f_auto,q_auto:good,fl_progressive:ste=
+ep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaw=
+s.com%2Fpublic%2Fimages%2F670e6aa0-11fd-4ca7-8438-9aad14065f4a_1032x267.png=
+" style=3D"-ms-interpolation-mode: bicubic; border: none !important; displa=
+y: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !=
+important; vertical-align: middle; width: auto !important;"></a></td><td st=
+yle=3D"text-align: center;"></td></tr></tbody></table><figcaption class=3D"=
+image-caption" style=3D"color: #808080; font-size: 14px; font-weight: 400; =
+letter-spacing: -0.15px; line-height: 20px; margin-top: 8px; padding-left: =
+15%; padding-right: 15%; text-align: center; width: 70%;"><em>Discounted Ca=
+sh Flow formula with a made up Belief Rate (b)</em></figcaption></figure></=
+div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin:=
+ 0 0 20px 0;"><strong>Discount rates and Belief Rates are inversely related=
+</strong><span>: higher interest rates, lower belief in the future. As far =
+as I know, there&#8217;s no formula that ties the two, but you can feel it =
+in the sentiment shift ever since the Fed started raising rates. Things tha=
+t looked promising then look stupid now. Big dreams were as good as gold th=
+en; they look like fool&#8217;s gold now. The truth is usually somewhere in=
+ between.&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line=
+-height: 26px; margin: 0 0 20px 0;">The Belief Rate isn&#8217;t a real thin=
+g. In spreadsheets, belief manifests in lower cash flow estimates or higher=
+ discount rates. But when you separate the discount rate and the Belief Rat=
+e, things start to make more sense, and a more clear path emerges for both =
+investors and entrepreneurs. So we&#8217;ll address each separately, and th=
+en discuss what to do in a low-belief environment. Let&#8217;s start with t=
+he basics: the discount rate.&#160;</p><h3 class=3D"header-with-anchor-widg=
+et" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: =
+antialiased; color: #404040; font-family: 'SF Compact Display', -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em=
+; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position=
+: relative;"><strong>The Discount Rate</strong></h3><p style=3D"color: #404=
+040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Despite=
+ a brief, CPI-driven respite last week, 2022 has been a brutal year. Growth=
+ stocks are down bad, crypto is down bad, and startup valuations are down b=
+ad, whether or not that&#8217;s reflected in investors&#8217; marks yet. Tu=
+rns out, a lot of the hope that people felt in 2020 and 2021 about these co=
+mpanies&#8217; future prospects was really just the ultra-low </span><stron=
+g>discount rates </strong><span>talking.&#160;</span></p><p style=3D"color:=
+ #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">&#8220;D=
+iscount rate&#8221; is a financial term for the rate that investors expect =
+to receive from an investment, or the company&#8217;s cost to borrow money.=
+ Practically, it&#8217;s used in net present value (NPV) calculations to ca=
+lculate what a future cash flow is worth today.&#160;</p><div class=3D"capt=
+ioned-image-container-static" style=3D"font-size: 16px; line-height: 26px; =
+margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table c=
+lass=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D=
+"text-align: center;"></td><td align=3D"left" class=3D"content" width=3D"61=
+1" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" =
+href=3D"https://substack.com/redirect/fb71677d-4e3f-4781-a3f7-2ddcbd895e9e?=
+r=3D9p0gt" rel=3D"" style=3D"align-items: center; border: none; display: bl=
+ock; flex-direction: column; height: auto; margin: 0; padding: 0; position:=
+ relative; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;s=
+rc&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.am=
+azonaws.com/public/images/d3b293a7-b38e-4b42-8f91-46cd9fb3b11d_611x236.png&=
+quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&q=
+uot;:236,&quot;width&quot;:611,&quot;resizeWidth&quot;:null,&quot;bytes&quo=
+t;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;t=
+ype&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;in=
+ternalRedirect&quot;:null}" alt=3D"" title=3D"" width=3D"550" height=3D"212=
+=2E43862520458265" class=3D"wide-image" s=
+rc=3D"https://substackcdn.com/image/=
+fetch/w_1222,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2F=
+bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2F=
+images%2Fd3b293a7-b38e-4b42-8f91-46cd9fb3b11d_611x236.png" style=3D"-ms-int=
+erpolation-mode: bicubic; border: none !important; display: block; height: =
+auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertica=
+l-align: middle; width: auto !important;"></a></td><td style=3D"text-align:=
+ center;"></td></tr></tbody></table></figure></div><p style=3D"color: #4040=
+40; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">The formula sa=
+ys, &#8220;Take the expected cash flow in some future year (R) and divide i=
+t by 1 + the discount rate raised to however many years in the future it is=
+=2E&#8221; The NPV is essentially compoun=
+ding in reverse. So if you expect to=
+ make a million dollars in ten years, the discount rate helps investors fig=
+ure out what they&#8217;d be willing to buy those million dollars for today=
+=2E&#160;</p><p style=3D"color: #404040;=20=
+font-size: 16px; line-height: 26px; =
+margin: 0 0 20px 0;">For the first half of this piece, let&#8217;s hold tha=
+t expected future cash flow constant and look at what happens when you chan=
+ge the discount rate. A toy model helps explain its impact.&#160;</p><div c=
+lass=3D"captioned-image-container-static" style=3D"font-size: 16px; line-he=
+ight: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100=
+%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr=
+><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"content=
+" width=3D"947" style=3D"text-align: center;"><a class=3D"image-link" targe=
+t=3D"_blank" href=3D"https://substack.com/redirect/5d6d9ba9-78df-4a95-8619-=
+cefdf763ddc6?r=3D9p0gt" rel=3D"" style=3D"align-items: center; border: none=
+; display: block; flex-direction: column; height: auto; margin: 0; padding:=
+ 0; position: relative; text-decoration: none; width: auto;"><img data-attr=
+s=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32=
+be77984.s3.amazonaws.com/public/images/c8d96f52-68c8-4543-9bd0-b1d30c9dc6cb=
+_947x281.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&=
+quot;height&quot;:281,&quot;width&quot;:947,&quot;resizeWidth&quot;:null,&q=
+uot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&=
+quot;,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:=
+true,&quot;internalRedirect&quot;:null}" alt=3D"" title=3D"" width=3D"550" =
+height=3D"163.19957761351637" class=3D"wide-image" src=3D"https://substackc=
+dn.com/image/fetch/w_1894,c_limit,f_auto,q_auto:good,fl_progressive:steep/h=
+ttps%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.co=
+m%2Fpublic%2Fimages%2Fc8d96f52-68c8-4543-9bd0-b1d30c9dc6cb_947x281.png" sty=
+le=3D"-ms-interpolation-mode: bicubic; border: none !important; display: bl=
+ock; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !impor=
+tant; vertical-align: middle; width: auto !important;"></a></td><td style=
+=3D"text-align: center;"></td></tr></tbody></table></figure></div><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">At a 0% discount rate, your $1 million future cash flow is worth exactly =
+as much to you today as it would be ten or twenty years in the future: $1 m=
+illion. If a company promises, &#8220;We&#8217;re going to make $1 million =
+dollars in 2042,&#8221; you might say, &#8220;Cool, I will pay you $1 milli=
+on right now if you give me that $1 million when you make it in 2042.&#8221=
+; To be fair, you don&#8217;t have much of a choice. You need to put your m=
+oney somewhere when keeping it in cash yields 0%.</p><p style=3D"color: #40=
+4040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>At a 5=
+% discount rate, though, your $1 million future cash flow is worth less tod=
+ay. If it&#8217;s ten years in the future, it&#8217;s worth $613,913 today.=
+ If it&#8217;s twenty years in the future, it&#8217;s worth $376,889 today.=
+ The higher the discount rate goes, and the further out the cash flow, the =
+more measly that cash flow looks today. </span><strong>At 20%, $1 million t=
+wenty years from now is worth only $26,084 today</strong><span>.</span></p>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;">The logic goes something like this: if I can get 20% on a US Trea=
+sury Bond, and I invest $26,084 in that US Treasury Bond today, it will be =
+worth $1 million in twenty years. That money is as guaranteed as any money =
+in the world. So I&#8217;m not willing to buy your $1 million for any more =
+than $26,084 today when I have a safer way to get $1 million in 2042 for th=
+e same amount.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 20px 0;"><span>Actually, that&#8217;s as rosy a sc=
+enario for the company as possible. If you can get 20% on US Treasuries, th=
+e &#8220;risk-free rate,&#8221; then the actual discount rate for the compa=
+ny will be higher, because it costs companies more to borrow than it costs =
+the US Government. The difference is&#160; called the </span><strong>risk p=
+remium</strong><span>.</span></p><p style=3D"color: #404040; font-size: 16p=
+x; line-height: 26px; margin: 0 0 20px 0;"><span>Let&#8217;s say that your =
+company&#8217;s risk premium is 5% and 10-year US Treasuries are paying 20%=
+ (a crazy number, but we came close in the early 1980s). That means that yo=
+ur discount rate is 25%, and </span><strong>your $1 million in 2042 dollars=
+ is only worth $11,529 today</strong><span>.</span></p><p style=3D"color: #=
+404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Still with=
+ me? Why was that important?&#160;</p><p style=3D"color: #404040; font-size=
+: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Companies are theoret=
+ically valued based on the </span><strong>sum of their discounted cash flow=
+s</strong><span>. If the company expects to generate $1 million in cash flo=
+w every year for the next twenty years, then the company is worth $20 milli=
+on today at a 0% discount rate, or $3,953,883 at a 25% discount rate. </spa=
+n><strong>The same exact business is worth one-fifth as much today if you c=
+hange nothing about it except for the discount rate.&#160;</strong></p><p s=
+tyle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20p=
+x 0;">Those are oversimplified numbers for illustrative purposes. They&#821=
+7;re extreme, too. But the extremes help paint a picture of what&#8217;s go=
+ing on in the markets right now.&#160;</p><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;">The obvious piece of wh=
+at&#8217;s going on in the markets is that the Fed is aggressively hiking r=
+ates. From a low of 0.52% (or 52 bps in finance-speak) in August 2020, the =
+10 Year US Treasury yield has increased to 4.14%.&#160;</p><div class=3D"ca=
+ptioned-image-container-static" style=3D"font-size: 16px; line-height: 26px=
+; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table=
+ class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=
+=3D"text-align: center;"></td><td align=3D"left" class=3D"content" width=3D=
+"908" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blan=
+k" href=3D"https://substack.com/redirect/59b608f4-511a-4516-bcc2-7afc84ad7a=
+1c?r=3D9p0gt" rel=3D"" style=3D"align-items: center; border: none; display:=
+ block; flex-direction: column; height: auto; margin: 0; padding: 0; positi=
+on: relative; text-decoration: none; width: auto;"><img data-attrs=3D"{&quo=
+t;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3=
+=2Eamazonaws.com/public/images/24d2ac7b-1=
+707-416f-8eeb-a78ff6a3bd8d_908x302.p=
+ng&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;heigh=
+t&quot;:302,&quot;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&=
+quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quo=
+t;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot=
+;internalRedirect&quot;:null}" alt=3D"" title=3D"" width=3D"550" height=3D"=
+182.9295154185022" class=3D"wide-image" src=3D"https://substackcdn.com/imag=
+e/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%=
+2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%=
+2Fimages%2F24d2ac7b-1707-416f-8eeb-a78ff6a3bd8d_908x302.png" style=3D"-ms-i=
+nterpolation-mode: bicubic; border: none !important; display: block; height=
+: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; verti=
+cal-align: middle; width: auto !important;"></a></td><td style=3D"text-alig=
+n: center;"></td></tr></tbody></table><figcaption class=3D"image-caption" s=
+tyle=3D"color: #808080; font-size: 14px; font-weight: 400; letter-spacing: =
+-0.15px; line-height: 20px; margin-top: 8px; padding-left: 15%; padding-rig=
+ht: 15%; text-align: center; width: 70%;"><em>Source: YCharts</em></figcapt=
+ion></figure></div><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;">That&#8217;s only like 3.5%. How much could it=
+ hurt valuations?&#160;</p><div class=3D"captioned-image-container-static" =
+style=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><figure st=
+yle=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-pad=
+ding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><=
+td align=3D"left" class=3D"content" width=3D"908" style=3D"text-align: cent=
+er;"><a class=3D"image-link" target=3D"_blank" href=3D"https://substack.com=
+/redirect/1ca1f4fc-95c7-4feb-9404-db729621ae48?r=3D9p0gt" rel=3D"" style=3D=
+"align-items: center; border: none; display: block; flex-direction: column;=
+ height: auto; margin: 0; padding: 0; position: relative; text-decoration: =
+none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucke=
+teer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b7=
+8739d6-bc7a-4f9b-acdd-d06bda9990c9_908x514.png&quot;,&quot;fullscreen&quot;=
+:null,&quot;imageSize&quot;:null,&quot;height&quot;:514,&quot;width&quot;:9=
+08,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quo=
+t;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:null,&quot;href&qu=
+ot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" =
+alt=3D"" title=3D"" width=3D"550" height=3D"311.3436123348018" class=3D"wid=
+e-image" src=3D"https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q=
+_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-=
+9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb78739d6-bc7a-4f9b-a=
+cdd-d06bda9990c9_908x514.png" style=3D"-ms-interpolation-mode: bicubic; bor=
+der: none !important; display: block; height: auto; margin: 0 auto; margin-=
+bottom: 0; max-width: 100% !important; vertical-align: middle; width: auto =
+!important;"></a></td><td style=3D"text-align: center;"></td></tr></tbody><=
+/table></figure></div><p style=3D"color: #404040; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 20px 0;"><span>Using the 10 Year UST as the discount=
+ rate, $1 million in ten years was worth $949,457 in August 2020 and is onl=
+y worth $666,537 today, a </span><strong>30% decline based on nothing chang=
+ing except the 10 Year UST yield!</strong><span>&#160;</span></p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">This is also why stocks and crypto skyrocketed on Thursday when Consumer =
+Price Index (CPI) growth, which measures inflation, came in lower than expe=
+cted. People expect that lower CPI growth will mean the Fed will stop raisi=
+ng rates as aggressively as inflation comes back to earth. Yields declined,=
+ reflecting that expectation, and with them, discount rates.&#160;</p><p st=
+yle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px=
+ 0;"><span>This dynamic hits the types of companies we talk about in Not Bo=
+ring &#8211; fast-growing technology companies, especially newer ones &#821=
+1; harder than it hits more boring, predictable, slower-growing businesses.=
+ The simplest explanation, based on the formula we&#8217;ve been talking ab=
+out, is when these companies are expected to generate most of their cash fl=
+ow: in the </span><strong>future</strong><span>.&#160;</span></p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+"><span>While there are variations on the theme, the typical tech company m=
+odel is to raise venture capital, invest a ton of money upfront in technolo=
+gy and customer acquisition, get super big, and then, and only then, pull b=
+ack on fixed costs as a percentage of revenue and reap the benefit of low m=
+arginal costs and recurring revenue to generate absurd, high-margin cash fl=
+ows. </span><strong>That means that they expect small or negative cash flow=
+s in the short-term, where higher discount rates have the least impact, and=
+ big cash flows in the future, where higher discount rates have the highest=
+ impact.</strong></p><p style=3D"color: #404040; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 20px 0;">Look at the difference between PPA, an ETF t=
+hat tracks defense stocks, and the NASDAQ Composite Index, which tracks tec=
+h stocks, over the past year as rates have risen. PPA is up 2%, Nasdaq is d=
+own 33%. A lot (but not all) of this simply has to do with the time distrib=
+ution of each category&#8217;s projected earnings, and the relative impact =
+of rising rates on each.&#160;</p><div class=3D"captioned-image-container-s=
+tatic" style=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><fi=
+gure style=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"ms=
+o-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"><=
+/td><td align=3D"left" class=3D"content" width=3D"908" style=3D"text-align:=
+ center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://substac=
+k.com/redirect/da518d06-100f-47a1-8f79-7fb6b8a669dd?r=3D9p0gt" rel=3D"" sty=
+le=3D"align-items: center; border: none; display: block; flex-direction: co=
+lumn; height: auto; margin: 0; padding: 0; position: relative; text-decorat=
+ion: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://=
+bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/imag=
+es/555978c9-9050-4f78-a0e8-406e0f587d3a_908x403.png&quot;,&quot;fullscreen&=
+quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:403,&quot;width&qu=
+ot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;=
+:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:null,&quot;hr=
+ef&quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:nu=
+ll}" alt=3D"" title=3D"" width=3D"550" height=3D"244.1079295154185" class=
+=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1816,c_limit,f=
+_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa=
+3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F555978c9-9050=
+-4f78-a0e8-406e0f587d3a_908x403.png" style=3D"-ms-interpolation-mode: bicub=
+ic; border: none !important; display: block; height: auto; margin: 0 auto; =
+margin-bottom: 0; max-width: 100% !important; vertical-align: middle; width=
+: auto !important;"></a></td><td style=3D"text-align: center;"></td></tr></=
+tbody></table><figcaption class=3D"image-caption" style=3D"color: #808080; =
+font-size: 14px; font-weight: 400; letter-spacing: -0.15px; line-height: 20=
+px; margin-top: 8px; padding-left: 15%; padding-right: 15%; text-align: cen=
+ter; width: 70%;"><em>Yahoo! Finance as of Thursday, November 10, 2022</em>=
+</figcaption></figure></div><p style=3D"color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;">There&#8217;s some noise in there. Fo=
+r example, there&#8217;s a war going on, which is presumably good for defen=
+se stocks, and tech companies&#8217; corporate and consumer customers are m=
+ore sensitive to a recession than the DoD is. A more clear picture emerges =
+when you look at the response to Thursday&#8217;s CPI print:</p><div class=
+=3D"captioned-image-container-static" style=3D"font-size: 16px; line-height=
+: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;">=
+<table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td =
+style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" wid=
+th=3D"908" style=3D"text-align: center;"><a class=3D"image-link" target=3D"=
+_blank" href=3D"https://substack.com/redirect/ad068fc7-bbae-4e23-8868-5a987=
+96adc67?r=3D9p0gt" rel=3D"" style=3D"align-items: center; border: none; dis=
+play: block; flex-direction: column; height: auto; margin: 0; padding: 0; p=
+osition: relative; text-decoration: none; width: auto;"><img data-attrs=3D"=
+{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be779=
+84.s3.amazonaws.com/public/images/7575d569-a52c-4732-87bd-cd9674407683_908x=
+390.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;=
+height&quot;:390,&quot;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;b=
+ytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;=
+,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,=
+&quot;internalRedirect&quot;:null}" alt=3D"" title=3D"" width=3D"550" heigh=
+t=3D"236.23348017621146" class=3D"wide-image" src=3D"https://substackcdn.co=
+m/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%=
+3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fp=
+ublic%2Fimages%2F7575d569-a52c-4732-87bd-cd9674407683_908x390.png" style=3D=
+"-ms-interpolation-mode: bicubic; border: none !important; display: block; =
+height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important;=
+ vertical-align: middle; width: auto !important;"></a></td><td style=3D"tex=
+t-align: center;"></td></tr></tbody></table><figcaption class=3D"image-capt=
+ion" style=3D"color: #808080; font-size: 14px; font-weight: 400; letter-spa=
+cing: -0.15px; line-height: 20px; margin-top: 8px; padding-left: 15%; paddi=
+ng-right: 15%; text-align: center; width: 70%;"><em>Yahoo! Finance as of 2:=
+50p ET Thursday, November 10, 2022</em></figcaption></figure></div><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+"><span>The shapes of each index&#8217;s charts are nearly identical, but t=
+hey&#8217;re moving on different scales, with the riskiest and growthiest N=
+asdaq Composite Index increasing twice as much as the more conservative, sl=
+ower-growing Dow Jones Industrial Average. </span><strong>The discount rate=
+ impacts growth stocks more than others, in both directions, because their =
+cash flows are further in the future.</strong></p><div class=3D"captioned-i=
+mage-container-static" style=3D"font-size: 16px; line-height: 26px; margin:=
+ 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D=
+"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text=
+-align: center;"></td><td align=3D"left" class=3D"content" width=3D"908" st=
+yle=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=
+=3D"https://substack.com/redirect/1b4f9d9e-4733-4de8-b709-a68354670f99?r=3D=
+9p0gt" rel=3D"" style=3D"align-items: center; border: none; display: block;=
+ flex-direction: column; height: auto; margin: 0; padding: 0; position: rel=
+ative; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&q=
+uot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazon=
+aws.com/public/images/703e5992-e973-4ffa-9fe1-219096e861f8_908x390.png&quot=
+;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;=
+:390,&quot;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:n=
+ull,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&=
+quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;intern=
+alRedirect&quot;:null}" alt=3D"" title=3D"" width=3D"550" height=3D"236.233=
+48017621146" class=3D"wide-image" src=3D"https://substackcdn.com/image/fetc=
+h/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbuck=
+eteer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimag=
+es%2F703e5992-e973-4ffa-9fe1-219096e861f8_908x390.png" style=3D"-ms-interpo=
+lation-mode: bicubic; border: none !important; display: block; height: auto=
+; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-al=
+ign: middle; width: auto !important;"></a></td><td style=3D"text-align: cen=
+ter;"></td></tr></tbody></table><figcaption class=3D"image-caption" style=
+=3D"color: #808080; font-size: 14px; font-weight: 400; letter-spacing: -0.1=
+5px; line-height: 20px; margin-top: 8px; padding-left: 15%; padding-right: =
+15%; text-align: center; width: 70%;"><em>Yahoo! Finance as of 2:50p ET Thu=
+rsday, November 10, 2022</em></figcaption></figure></div><p style=3D"color:=
+ #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">ETH, and=
+ crypto more broadly, is even more sensitive to discount rates than the Nas=
+daq because its future value is so far out and speculative. Startups don&#8=
+217;t trade in real-time, but if they did, they&#8217;d probably move somew=
+here in between the Nasdaq and ETH, because their future cash flows are fur=
+ther in the future than the average public tech company but most do have th=
+e ability to produce spreadsheets with numbers that can be used to run a tr=
+aditional valuation model, even if it&#8217;s a very uncertain one.&#160;</=
+p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0=
+ 0 20px 0;">Crypto, startups, and tech stocks are also more sensitive to a =
+more fickle input: belief.</p><p style=3D"color: #404040; font-size: 16px; =
+line-height: 26px; margin: 0 0 20px 0;"><span>Everything we&#8217;ve talked=
+ about so far is just the math part, and far smarter people than me have we=
+ighed in on the impact of rising interest rates on valuations with more nua=
+nce. This </span><em>Invest Like the Best </em><span>episode on macro with =
+Bob Elliott (which I promise I listened to </span><em>after</em><span> writ=
+ing everything above) is a good listen on that front:</span></p><a class=3D=
+"audio-embed-static-outer" href=3D"https://substack.com/redirect/c418e141-e=
+fc5-4e91-81b5-24e0981b47f2?r=3D9p0gt" target=3D"_blank" style=3D"text-decor=
+ation: none;"><table class=3D"audio-embed-static" cellspacing=3D"12" style=
+=3D"background: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; mar=
+gin: 32px 0; min-height: 96px; min-width: 100%; width: 100%;"><tbody><tr><t=
+d class=3D"thumbnail-container" style=3D"border-radius: 8px; height: 88px; =
+margin: 0; overflow: hidden; padding: 0; vertical-align: top; width: 88px;"=
+><div class=3D"play-container" style=3D"font-size: 16px; line-height: 26px;=
+ max-height: 0; opacity: 0.999; position: relative; z-index: 1;"><img class=
+=3D"play" src=3D"https://substackcdn.com/image/fetch/w_72,c_limit,f_auto,q_=
+auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fthumbnail=
+-play.png" height=3D"36" width=3D"36" style=3D"-ms-interpolation-mode: bicu=
+bic; border: none !important; display: inline-block; height: 40px; margin: =
+24px; max-width: 100%; vertical-align: middle; width: 40px;"></div><img cla=
+ss=3D"thumbnail" src=3D"https://i.scdn.co/image/ab6765630000ba8a291545116e3=
+84ff288abffd6" height=3D"80" width=3D"80" style=3D"-ms-interpolation-mode: =
+bicubic; border: none !important; display: block; height: 88px; margin: 0 a=
+uto; max-width: 100%; vertical-align: middle; width: 88px;"></td><td class=
+=3D"audio-details" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-f=
+ont-smoothing: antialiased; font-family: 'SF Pro Display', -apple-system, B=
+linkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-seri=
+f, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; letter-spacing=
+: -0.012em; text-decoration: none;"><p class=3D"title" style=3D"color: #404=
+040; font-size: 16px; font-weight: 700; line-height: 20px; margin: 0 0 2px;=
+">Bob Elliott - A Macro Tour - [Invest Like the Best, EP.302]</p><p class=
+=3D"subtitle" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-s=
+moothing: antialiased; color: #808080; font-family: 'SF Compact Display', -=
+apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, san=
+s-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-siz=
+e: 14px; font-weight: 400; line-height: 20px; margin: 0 0 2px;">Colossus | =
+Investing &amp; Business Podcasts</p><p class=3D"metadata" style=3D"color: =
+#808080; font-size: 14px; font-weight: 400; line-height: 20px; margin: 0 0 =
+2px;">Episode</p></td></tr></tbody></table></a><p style=3D"color: #404040; =
+font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>The other pa=
+rt of it is hand-wavier, more vibes-based. Let&#8217;s call it the </span><=
+strong>Belief Rate</strong><span>.</span></p><h3 class=3D"header-with-ancho=
+r-widget" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoot=
+hing: antialiased; color: #404040; font-family: 'SF Compact Display', -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-se=
+rif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1=
+=2E375em; font-weight: bold; line-height:=
+ 1.16em; margin: 1em 0 0.625em 0; po=
+sition: relative;"><strong>The Belief Rate</strong></h3><p style=3D"color: =
+#404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">So far, w=
+e&#8217;ve held the expected future cash flow constant and played with the =
+discount rate. But holding that expected future cash flow constant is a big=
+ assumption, especially for technology and crypto companies whose histories=
+ are shorter and whose promised best days are far in the future. For the se=
+cond half of the piece, we&#8217;ll focus on the expected future cash flows=
+=2E&#160;</p><div class=3D"captioned-imag=
+e-container-static" style=3D"font-si=
+ze: 16px; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0=
+ auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 =
+1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left=
+" class=3D"content" width=3D"611" style=3D"text-align: center;"><a class=3D=
+"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/67c700=
+aa-5d68-46a6-a414-753a94dde87a?r=3D9p0gt" rel=3D"" style=3D"align-items: ce=
+nter; border: none; display: block; flex-direction: column; height: auto; m=
+argin: 0; padding: 0; position: relative; text-decoration: none; width: aut=
+o;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-ba=
+a3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/137d52e1-5ff1-4f63=
+-8fd5-a8ce3ee9128c_611x236.png&quot;,&quot;fullscreen&quot;:null,&quot;imag=
+eSize&quot;:null,&quot;height&quot;:236,&quot;width&quot;:611,&quot;resizeW=
+idth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;t=
+itle&quot;:&quot;&quot;,&quot;type&quot;:null,&quot;href&quot;:null,&quot;b=
+elowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" title=
+=3D"" width=3D"550" height=3D"212.43862520458265" class=3D"wide-image" src=
+=3D"https://substackcdn.com/image/fetch/w_1222,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be=
+77984.s3.amazonaws.com%2Fpublic%2Fimages%2F137d52e1-5ff1-4f63-8fd5-a8ce3ee9=
+128c_611x236.png" style=3D"-ms-interpolation-mode: bicubic; border: none !i=
+mportant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; m=
+ax-width: 100% !important; vertical-align: middle; width: auto !important;"=
+></a></td><td style=3D"text-align: center;"></td></tr></tbody></table></fig=
+ure></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; m=
+argin: 0 0 20px 0;">The Belief Rate is something like a conversion rate bet=
+ween a company&#8217;s projections and the future cash flow number that sho=
+ws up in investors&#8217; models.&#160;</p><p style=3D"color: #404040; font=
+-size: 16px; line-height: 26px; margin: 0 0 20px 0;">In practice, companies=
+ don&#8217;t provide guidance far into the future. It&#8217;s up to analyst=
+s to take everything the company has done in the past and said about the fu=
+ture and build models that turn all of that into numbers. And those analyst=
+s&#8217; cash flow projections come with their own belief on the company&#8=
+217;s future prospects baked in. No one is building models that calculate R=
+t*b, they&#8217;re just putting in an Rt for each future cash flow that imp=
+licitly accounts for their own belief and analysis. If anything, they&#8217=
+;re backing into something similar by adjusting the risk premium reflected =
+in the discount rate. But I think it&#8217;s worth breaking out the Belief =
+Rate as a separate thing to understand what happens when belief, in the mar=
+ket, an industry, or a specific asset, changes.</p><p style=3D"color: #4040=
+40; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>(Interes=
+tingly, in a </span><a href=3D"https://substack.com/redirect/ea577b0e-0a99-=
+4988-a0d4-df59da2883bf?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-de=
+coration: underline;">2012 report</a><span>, McKinsey said that project ana=
+lysts too often increase the risk premium in their discount rate due to unc=
+ertainty about their cash flow projections, and recommends that they should=
+ instead keep the discount rate at the actual cost of capital and use a wei=
+ghted average multiple cash flow projections instead&#8230; kind of like an=
+ internal Belief Rate.)</span></p><p style=3D"color: #404040; font-size: 16=
+px; line-height: 26px; margin: 0 0 20px 0;"><span>The Belief Rate is connec=
+ted to the discount rate &#8211; when rates are low, people have to put the=
+ir cash somewhere, and they </span><em>want </em><span>to believe &#8211; b=
+ut it&#8217;s also tied to more nebulous general sentiment. That piece is h=
+arder to describe, but if you&#8217;ve spent time on tech Twitter, crypto T=
+witter, or fintwit, or just read tech press, over the past couple of years,=
+ you&#8217;ve felt it. The souring market &#8211; plus a war, crypto blowup=
+s, politics, and a general hangover from the past few years of excess &#821=
+1; precipitated a </span><strong>Vibe Shift</strong><span>. The Vibe Shift =
+hit the Belief Rate hard.&#160;</span></p><div class=3D"captioned-image-con=
+tainer-static" style=3D"font-size: 16px; line-height: 26px; margin: 32px au=
+to;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"image-w=
+rapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: ce=
+nter;"></td><td align=3D"left" class=3D"content" width=3D"908" style=3D"tex=
+t-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https:/=
+/substack.com/redirect/4a0a7cc4-a9dc-41fe-b6d3-38a825ae3e48?r=3D9p0gt" rel=
+=3D"" style=3D"align-items: center; border: none; display: block; flex-dire=
+ction: column; height: auto; margin: 0; padding: 0; position: relative; tex=
+t-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot=
+;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/pu=
+blic/images/06da98d6-633d-4cdf-92a6-86840f509788_908x577.png&quot;,&quot;fu=
+llscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:577,&quot=
+;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;=
+alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:null=
+,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect=
+&quot;:null}" alt=3D"" title=3D"" width=3D"550" height=3D"349.5044052863436=
+" class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1816,c_=
+limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bb=
+c84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06da98=
+d6-633d-4cdf-92a6-86840f509788_908x577.png" style=3D"-ms-interpolation-mode=
+: bicubic; border: none !important; display: block; height: auto; margin: 0=
+ auto; margin-bottom: 0; max-width: 100% !important; vertical-align: middle=
+; width: auto !important;"></a></td><td style=3D"text-align: center;"></td>=
+</tr></tbody></table></figure></div><p style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 0 20px 0;"><span>Just as Treasury yields=
+ impact every company&#8217;s discount rate, the Vibe hits every company&#8=
+217;s Belief Rate. In a bear market, belief in </span><em>everything</em><s=
+pan> suffers. And just as the discount rates hit companies with a higher pe=
+rcentage of their cash flows further in the future harder, the Belief Rate =
+hits companies making bigger, more speculative future-looking bets harder, =
+too.&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 20px 0;">For the past few years, while rates were low=
+ and growth was king, the Belief Rate for bold tech companies was close to =
+100%. If a company said they were going to build AI-Operated Space Zoos and=
+ planned to generate $100 million of cash flow by 2028, investors responded=
+, &#8220;Only $100 million? Y&#8217;know, a lot of people undershot Uber&#8=
+217;s TAM. Let&#8217;s say $200 million, and here&#8217;s $50 million to he=
+lp you get there faster.&#8221;&#160;</p><div class=3D"captioned-image-cont=
+ainer-static" style=3D"font-size: 16px; line-height: 26px; margin: 32px aut=
+o;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wr=
+apper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: cen=
+ter;"></td><td align=3D"left" class=3D"content" width=3D"835" style=3D"text=
+-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://=
+substack.com/redirect/4c496b2d-519a-4352-9d0a-21ac8054753c?r=3D9p0gt" rel=
+=3D"" style=3D"align-items: center; border: none; display: block; flex-dire=
+ction: column; height: auto; margin: 0; padding: 0; position: relative; tex=
+t-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot=
+;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/pu=
+blic/images/34515d1c-e3c9-4fdf-9368-47ece753ee30_835x835.png&quot;,&quot;fu=
+llscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:835,&quot=
+;width&quot;:835,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;=
+alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:null=
+,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect=
+&quot;:null}" alt=3D"" title=3D"" width=3D"550" height=3D"550" class=3D"wid=
+e-image" src=3D"https://substackcdn.com/image/fetch/w_1670,c_limit,f_auto,q=
+_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-=
+9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F34515d1c-e3c9-4fdf-9=
+368-47ece753ee30_835x835.png" style=3D"-ms-interpolation-mode: bicubic; bor=
+der: none !important; display: block; height: auto; margin: 0 auto; margin-=
+bottom: 0; max-width: 100% !important; vertical-align: middle; width: auto =
+!important;"></a></td><td style=3D"text-align: center;"></td></tr></tbody><=
+/table><figcaption class=3D"image-caption" style=3D"color: #808080; font-si=
+ze: 14px; font-weight: 400; letter-spacing: -0.15px; line-height: 20px; mar=
+gin-top: 8px; padding-left: 15%; padding-right: 15%; text-align: center; wi=
+dth: 70%;"><em>Made with Midjourney</em></figcaption></figure></div><p styl=
+e=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0=
+;">Everyone, me included, was a little drunk on a cocktail of cheap money a=
+nd easy demand.</p><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;">Rising interest rates and a (looming?) recessi=
+on closed the open bar. Investors are sobering up. And when they look at th=
+at &#8220;$1 million of cash flows in ten years&#8221; projection, all of a=
+ sudden, they&#8217;re going:&#160;</p><div class=3D"captioned-image-contai=
+ner-static" style=3D"font-size: 16px; line-height: 26px; margin: 32px auto;=
+"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrap=
+per" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: cent=
+er;"></td><td align=3D"left" class=3D"content" width=3D"525" style=3D"text-=
+align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://s=
+ubstack.com/redirect/0d694eae-7114-4f8e-9dee-a7d3e0ffc498?r=3D9p0gt" rel=3D=
+"" style=3D"align-items: center; border: none; display: block; flex-directi=
+on: column; height: auto; margin: 0; padding: 0; position: relative; text-d=
+ecoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;ht=
+tps://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/publi=
+c/images/b1064942-44e1-46cd-9d12-4a2d25fb4d5e_525x396.png&quot;,&quot;fulls=
+creen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:396,&quot;wi=
+dth&quot;:525,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt=
+&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:null,&q=
+uot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&qu=
+ot;:null}" alt=3D"" title=3D"" width=3D"525" height=3D"396" class=3D"" src=
+=3D"https://substackcdn.com/image/fetch/w_525,c_limit,f_auto,q_auto:good,fl=
+_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be7=
+7984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1064942-44e1-46cd-9d12-4a2d25fb4=
+d5e_525x396.png" style=3D"-ms-interpolation-mode: bicubic; border: none !im=
+portant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; ma=
+x-width: 100% !important; vertical-align: middle; width: auto !important;">=
+</a></td><td style=3D"text-align: center;"></td></tr></tbody></table></figu=
+re></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 20px 0;">The degree to which investors don&#8217;t believe you de=
+pends on a bunch of things, like how good a job you&#8217;ve done doing wha=
+t you said you were going to do, how crazy the assumptions baked into your =
+projections are, and how far in the future your projected cash flow is.&#16=
+0;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margi=
+n: 0 0 20px 0;">If Lockheed Martin says they&#8217;re going to generate $6.=
+5 billion in Free Cash Flow next year, you can take that to the bank (plus =
+or minus a few percentage points). The Belief Rate is like 98%.&#160;</p><p=
+ style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 2=
+0px 0;">If my AI-Operated Space Zoo company, which currently operates zero =
+space zoos, promises to generate $100 million in free cash flow by 2028, in=
+vestors will apply a very skeptical Belief Rate, somewhere in the 0.5% rang=
+e. That, plus the higher discount rate, will give my AI-Operated Space Zoo =
+company so low a valuation that it will be hard for me to find investors wi=
+lling to pay anything close to what I think the company&#8217;s worth based=
+ on conversations I had in 2021.&#160;</p><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;">That seems like an extr=
+eme example, and it is. My Space Zoo might have a hard time getting funded =
+in any market. But Virgin Galactic, which offers 90 minute flights to space=
+ for $450,000, went public via a SPAC with Chamath in 2019, and its chart i=
+llustrates the point.</p><div class=3D"captioned-image-container-static" st=
+yle=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><figure styl=
+e=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"=
+100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding=
+-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td a=
+lign=3D"left" class=3D"content" width=3D"908" style=3D"text-align: center;"=
+><a class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/red=
+irect/9f5d0934-191e-475b-bfd0-864ad1e623e1?r=3D9p0gt" rel=3D"" style=3D"ali=
+gn-items: center; border: none; display: block; flex-direction: column; hei=
+ght: auto; margin: 0; padding: 0; position: relative; text-decoration: none=
+; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer=
+-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b6ba1e=
+cd-6cce-472c-be52-c6fa0bbd0dd2_908x390.png&quot;,&quot;fullscreen&quot;:nul=
+l,&quot;imageSize&quot;:null,&quot;height&quot;:390,&quot;width&quot;:908,&=
+quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&q=
+uot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:null,&quot;href&quot;:=
+null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=
+=3D"" title=3D"" width=3D"550" height=3D"236.23348017621146" class=3D"wide-=
+image" src=3D"https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_a=
+uto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-95=
+18-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb6ba1ecd-6cce-472c-be5=
+2-c6fa0bbd0dd2_908x390.png" style=3D"-ms-interpolation-mode: bicubic; borde=
+r: none !important; display: block; height: auto; margin: 0 auto; margin-bo=
+ttom: 0; max-width: 100% !important; vertical-align: middle; width: auto !i=
+mportant;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></t=
+able><figcaption class=3D"image-caption" style=3D"color: #808080; font-size=
+: 14px; font-weight: 400; letter-spacing: -0.15px; line-height: 20px; margi=
+n-top: 8px; padding-left: 15%; padding-right: 15%; text-align: center; widt=
+h: 70%;"><em>Yahoo! Finance as of market close Friday, November 11, 2022</e=
+m></figcaption></figure></div><p style=3D"color: #404040; font-size: 16px; =
+line-height: 26px; margin: 0 0 20px 0;">Virgin Galactic (SPCE) strongly out=
+performed the Nasdaq Composite for most of its life as a public company, sp=
+iking up more than 400% in the summer of 2021 in the middle of SPAC-mania, =
+but right around the time that the Nasdaq peaked, it dipped lower and has d=
+ramatically underperformed against the index since. From September 2019 to =
+now, the Nasdaq is up 36% while SPCE is down 47%.&#160;</p><p style=3D"colo=
+r: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Part o=
+f this underperformance can be explained by the discount rate. Virgin Galac=
+tic is losing a lot of money today (-$235 million in free cash flow in 2021=
+), and presumably the bulk of its cash flow, if it comes, will come far in =
+the future (when it gets to eating that $900 billion commercial aviation ma=
+rket). Its SPAC presentation projected $274 million in EBITDA by 2023, with=
+ an EBITDA line going practically straight up, leaving the investor to imag=
+ine what that number might look like by 2033. Discounting that far out EBIT=
+DA by 5% leads to a much different present value than discounting it by 10%=
+=2E&#160;</p><div class=3D"captioned-imag=
+e-container-static" style=3D"font-si=
+ze: 16px; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0=
+ auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 =
+1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left=
+" class=3D"content" width=3D"733" style=3D"text-align: center;"><a class=3D=
+"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/aebcf0=
+16-8785-4987-9350-28e764696d25?r=3D9p0gt" rel=3D"" style=3D"align-items: ce=
+nter; border: none; display: block; flex-direction: column; height: auto; m=
+argin: 0; padding: 0; position: relative; text-decoration: none; width: aut=
+o;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-ba=
+a3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/c8ab8245-5da9-4319=
+-9d56-363a2335d582_733x496.png&quot;,&quot;fullscreen&quot;:null,&quot;imag=
+eSize&quot;:null,&quot;height&quot;:496,&quot;width&quot;:733,&quot;resizeW=
+idth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;t=
+itle&quot;:&quot;&quot;,&quot;type&quot;:null,&quot;href&quot;:null,&quot;b=
+elowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" title=
+=3D"" width=3D"550" height=3D"372.16916780354705" class=3D"wide-image" src=
+=3D"https://substackcdn.com/image/fetch/w_1466,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be=
+77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc8ab8245-5da9-4319-9d56-363a2335=
+d582_733x496.png" style=3D"-ms-interpolation-mode: bicubic; border: none !i=
+mportant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; m=
+ax-width: 100% !important; vertical-align: middle; width: auto !important;"=
+></a></td><td style=3D"text-align: center;"></td></tr></tbody></table><figc=
+aption class=3D"image-caption" style=3D"color: #808080; font-size: 14px; fo=
+nt-weight: 400; letter-spacing: -0.15px; line-height: 20px; margin-top: 8px=
+; padding-left: 15%; padding-right: 15%; text-align: center; width: 70%;"><=
+em>Virgin Galactic SPAC Presentation, 2019</em></figcaption></figure></div>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;"><span>Running super super rough back of the envelope math &#8211;=
+ growing that $274 million in EBITDA out ten years at the same 87% growth r=
+ate from 2022 to 2023 and applying a 5% discount rate &#8211; gets you a </=
+span><strong>$16.4 billion net present value, not far from SPCE&#8217;s pea=
+k market cap of $15.7 billion</strong><span>. Upping that discount rate to =
+10% takes the NPV down to $10.9 billion, a big drop but nowhere near the $1=
+=2E5 billion market cap the company sport=
+s today. You&#8217;d have to apply a=
+ 39% discount rate to get you to $1.5 billion, and rates haven&#8217;t gone=
+ up </span><em>that </em><span>much. Something else is happening.&#160;</sp=
+an></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; marg=
+in: 0 0 20px 0;">Quite clearly, investors are no longer giving Virgin Galac=
+tic the benefit of doubt that it will be able to generate $11.9 billion of =
+EBITDA in 2030. They&#8217;re applying a much lower Belief Rate.&#160;</p><=
+p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 =
+20px 0;"><span>If you go with my made up numbers and sloppy toy model (the =
+one with 87% EBITDA growth), if investors were applying a 5% discount rate =
+and 96% belief rate to get to the $15.7 billion valuation in summer 2021, <=
+/span><strong>they&#8217;re applying a 10% discount rate and a 14% belief r=
+ate to get to a $1.5 billion valuation today</strong><span>.&#160;</span></=
+p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0=
+ 0 20px 0;"><span>One quick thing to point out here: some of the belief is =
+direct, and some of it is </span><strong>reflexive</strong><span>. That is,=
+ while I can make the numbers tell a certain story, the reality is that in =
+the case of SPCE, and risk assets more generally, a lot of the price action=
+ is based on a belief about what </span><em>other </em><span>people will be=
+lieve. I would wager that many SPCE investors weren&#8217;t running DCFs an=
+d coming up with a fair value for the stock. They were betting that other p=
+eople would be willing to pay more than they were. When easy money and beli=
+ef exit the market, that reflexive belief unwinds quickly.</span></p><p sty=
+le=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px =
+0;"><span>Caveating once again that these numbers are all made up, that I&#=
+8217;m not running a full DCF model, and that I&#8217;m using a Belief Rate=
+ on old numbers as a catch-all for belief, adjusted projections, and a very=
+ real hit to the number of customers willing to pay $450k to fly to space <=
+/span><em>in this economy</em><span>, I think it&#8217;s a useful way to lo=
+ok at what&#8217;s happening. Future luxury space travel is a </span><stron=
+g>near-perfect vessel for belief</strong><span> &#8211; there&#8217;s not m=
+uch else to go on at this point &#8211; and when people&#8217;s belief falt=
+ers in a bad market, it&#8217;s retrospectively very obvious that future lu=
+xury space travel was going to be hit a lot harder than the broader market.=
+&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0;"><span>I say &#8220;near-perfect,&#8221; because =
+there </span><em>is</em><span> a perfect vessel for belief: </span><strong>=
+crypto</strong><span>.&#160;</span></p><p style=3D"color: #404040; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 20px 0;">While there&#8217;s a grow=
+ing body of work on how to value various types of tokens, crypto&#8217;s va=
+luation methodologies aren&#8217;t as standardized and broadly accepted as =
+equities&#8217;. If you asked ten people how to value bitcoin, for example,=
+ you&#8217;d get answers ranging from something about &#8220;the cost of en=
+ergy required to mine a block&#8221; to &#8220;the market cap of gold&#8221=
+; to some log-scale rainbow chart to &#8220;lol&#8221; to a straight up adm=
+ission that the price depends on how many other people believe in it given =
+its limited supply. Governance tokens? Something something ability to direc=
+t the use of funds in the treasury something something. ETH is more clear, =
+but still less clear than equities: because it generates fees which go to p=
+eople who&#8217;ve staked tokens, you can model out something like cash flo=
+ws. That said, given the decentralized nature of the ecosystem being built =
+on top, competition from other chains, and the potential impact of L2s on v=
+olume, anyone who tells you they have a precise expectation of cash flows i=
+s full of shit.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-=
+height: 26px; margin: 0 0 20px 0;">The more uncertainty there is around cas=
+h flows and valuation methodologies, the more sensitive an asset should be =
+to changes in the macro Belief Rate. That, I think, is the main reason cryp=
+to prices jumped so high during the 2020-2021 bull run and why they&#8217;v=
+e tanked so hard in this bear market.&#160;</p><p style=3D"color: #404040; =
+font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">But the micro Beli=
+ef Rate &#8211; the Belief Rate tied to a particular category or asset &#82=
+11; can decouple from the macro Belief Rate given good reason. The past wee=
+k provided as clear an example of that as possible. Earlier, we saw that th=
+e price of ETH jumped more on the CPI print than the Nasdaq did, largely ba=
+sed on sensitivity to the discount rate. But if you zoom out five days, ETH=
+ dramatically underperformed the Nasdaq last week.&#160;</p><div class=3D"c=
+aptioned-image-container-static" style=3D"font-size: 16px; line-height: 26p=
+x; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><tabl=
+e class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=
+=3D"text-align: center;"></td><td align=3D"left" class=3D"content" width=3D=
+"908" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blan=
+k" href=3D"https://substack.com/redirect/8cd04ffd-cebe-4277-bd61-4fdd0f691c=
+44?r=3D9p0gt" rel=3D"" style=3D"align-items: center; border: none; display:=
+ block; flex-direction: column; height: auto; margin: 0; padding: 0; positi=
+on: relative; text-decoration: none; width: auto;"><img data-attrs=3D"{&quo=
+t;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3=
+=2Eamazonaws.com/public/images/a6c737fd-b=
+164-44fd-a402-376b0bd090e6_908x390.p=
+ng&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;heigh=
+t&quot;:390,&quot;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&=
+quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quo=
+t;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot=
+;internalRedirect&quot;:null}" alt=3D"" title=3D"" width=3D"550" height=3D"=
+236.23348017621146" class=3D"wide-image" src=3D"https://substackcdn.com/ima=
+ge/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F=
+%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic=
+%2Fimages%2Fa6c737fd-b164-44fd-a402-376b0bd090e6_908x390.png" style=3D"-ms-=
+interpolation-mode: bicubic; border: none !important; display: block; heigh=
+t: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vert=
+ical-align: middle; width: auto !important;"></a></td><td style=3D"text-ali=
+gn: center;"></td></tr></tbody></table><figcaption class=3D"image-caption" =
+style=3D"color: #808080; font-size: 14px; font-weight: 400; letter-spacing:=
+ -0.15px; line-height: 20px; margin-top: 8px; padding-left: 15%; padding-ri=
+ght: 15%; text-align: center; width: 70%;"><em>Yahoo! Finance as of 9:55a E=
+T Friday, November 11, 2022</em></figcaption></figure></div><p style=3D"col=
+or: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span=
+>We all know what happened. FTX was one of the largest and most trusted nam=
+es in crypto&#8230; until it wasn&#8217;t. When other centralized financial=
+ (CeFi) institutions crumbled in the spring, there was FTX to bail them out=
+=2E The company was worth $32 billion, an=
+d backed by many of the best venture=
+ capitalists. SBF was on the cover of magazines. The Miami Heat played in F=
+TX Arena, and Lewis Hamilton rocked the FTX logo on his Mercedes. While som=
+e people were vocally wary of the relationship between Alameda and FTX, I d=
+idn&#8217;t encounter anyone who thought that FTX could actually </span><em=
+>fail</em><span>. And then it did.&#160;</span></p><p style=3D"color: #4040=
+40; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>FTX&#821=
+7;s downfall tanked belief in crypto more than any event I&#8217;ve experie=
+nced. While ETH wasn&#8217;t directly impacted &#8211; meaning, ETH didn&#8=
+217;t lose funds in the bankruptcy or something &#8211; the chart above sho=
+ws the impact of damaged belief in real-time. The price of ETH can roughly =
+be viewed as a bet on the future growth of web3, and the chart shows that t=
+he FTX crash led investors to apply a lower Belief Rate to the whole ecosys=
+tem. While the Nasdaq was up over 6% on the week, ETH fell more than 19%. <=
+/span><strong>The majority of that 25% delta can be explained by the lower =
+Belief Rate.</strong></p><p style=3D"color: #404040; font-size: 16px; line-=
+height: 26px; margin: 0 0 20px 0;">That&#8217;s an extreme example that hig=
+hlights the point, but there are less extreme examples everywhere you look =
+in tech.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;"><span>One of the most obvious is </span><strong=
+>Meta</strong><span>&#8217;s bet on the Metaverse.&#160;</span></p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+"><span>The Company Formerly Known as Facebook announced its rebrand and Me=
+taverse plans at a </span><a href=3D"https://substack.com/redirect/cd688898=
+-154e-47aa-8e24-0d19c5aeaf03?r=3D9p0gt" rel=3D"" style=3D"color: #404040; t=
+ext-decoration: underline;">keynote on October 28, 2021</a><span>, just thr=
+ee weeks before the Nasdaq peaked. Three months later, in February, it anno=
+unced that Facebook lost daily users for the first time. After trading roug=
+hly in line with, if below, the Nasdaq Composite over the past five years, =
+Meta&#8217;s stock tanked and decoupled from the index with that news.&#160=
+;</span></p><div class=3D"captioned-image-container-static" style=3D"font-s=
+ize: 16px; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: =
+0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 =
+1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left=
+" class=3D"content" width=3D"908" style=3D"text-align: center;"><a class=3D=
+"image-link" target=3D"_blank" href=3D"https://substack.com/redirect/a64bc1=
+5e-2c84-4985-a849-6f7ddc44096a?r=3D9p0gt" rel=3D"" style=3D"align-items: ce=
+nter; border: none; display: block; flex-direction: column; height: auto; m=
+argin: 0; padding: 0; position: relative; text-decoration: none; width: aut=
+o;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-ba=
+a3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/f96488d7-60ae-408c=
+-b1b2-0393edf0cd91_908x390.png&quot;,&quot;fullscreen&quot;:null,&quot;imag=
+eSize&quot;:null,&quot;height&quot;:390,&quot;width&quot;:908,&quot;resizeW=
+idth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;t=
+itle&quot;:&quot;&quot;,&quot;type&quot;:null,&quot;href&quot;:null,&quot;b=
+elowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" title=
+=3D"" width=3D"550" height=3D"236.23348017621146" class=3D"wide-image" src=
+=3D"https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be=
+77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff96488d7-60ae-408c-b1b2-0393edf0=
+cd91_908x390.png" style=3D"-ms-interpolation-mode: bicubic; border: none !i=
+mportant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; m=
+ax-width: 100% !important; vertical-align: middle; width: auto !important;"=
+></a></td><td style=3D"text-align: center;"></td></tr></tbody></table><figc=
+aption class=3D"image-caption" style=3D"color: #808080; font-size: 14px; fo=
+nt-weight: 400; letter-spacing: -0.15px; line-height: 20px; margin-top: 8px=
+; padding-left: 15%; padding-right: 15%; text-align: center; width: 70%;"><=
+em>Yahoo! Finance as of market close Friday, November 11, 2022</em></figcap=
+tion></figure></div><p style=3D"color: #404040; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 20px 0;"><span>While the company has other issues &#82=
+11; bloat, Apple kneecapping its ad business, TikTok, slowing user growth &=
+#8211; spending ~$10 billion per year on VR and AR in an attempt to own the=
+ next platform is clearly something that plays better in a low rate, high b=
+elief environment. I don&#8217;t think we&#8217;d be seeing letters like th=
+e one that Altimeter&#8217;s Brad Gerstner sent Zuck &#8211; </span><em><a =
+href=3D"https://substack.com/redirect/eb355e40-8f0a-4ad3-9437-2cc36141ffcd?=
+r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decoration: underline;">T=
+ime to Get Fit</a></em><span> &#8211; in mid-2021.&#160;</span></p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+"><span>Loss of belief compounds &#8211; there&#8217;s less macro belief, t=
+hen you add on challenges in the core business, and by the time you add som=
+ething so speculative and capital intensive to the mix, investors are looki=
+ng for reasons to </span><em>not </em><span>believe.&#160;</span></p><p sty=
+le=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px =
+0;">I think that a big part of Meta&#8217;s underperformance can be explain=
+ed by investors applying a much lower Belief Rate to the company&#8217;s Me=
+taverse play than Zuck would have expected when he planned it during the bu=
+ll market. Whether he&#8217;s lucratively right or very expensively wrong r=
+emains to be seen many years in the future, but if you think he&#8217;s rig=
+ht, you&#8217;re getting a pretty steep Belief Discount right now.&#160;</p=
+><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 =
+0 20px 0;"><span>A related example is </span><strong>Snap</strong><span>, a=
+ company whose whole history can be viewed as a series of crises of belief.=
+&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0;"><span>In June 2020, in the midst of a post-COVID=
+-crash belief rebound (and lower rate environment), I wrote a piece titled =
+</span><em><a href=3D"https://substack.com/redirect/09d800f3-b147-41a4-a948=
+-1086f6b91cd7?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decoration:=
+ underline;">Oh Snap!</a></em><span> laying out my view that Snap was build=
+ing the most compelling Augmented Reality (AR) platform out there. Combined=
+ with the strong growth and engagement of young American users and an impro=
+ving ads business, I thought that Snap was undervalued. For a while, I look=
+ed smart.&#160;</span></p><div class=3D"captioned-image-container-static" s=
+tyle=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><figure sty=
+le=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-paddin=
+g-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td =
+align=3D"left" class=3D"content" width=3D"908" style=3D"text-align: center;=
+"><a class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/re=
+direct/a3077ecc-b3c2-46a9-bec7-a506c2d86a0b?r=3D9p0gt" rel=3D"" style=3D"al=
+ign-items: center; border: none; display: block; flex-direction: column; he=
+ight: auto; margin: 0; padding: 0; position: relative; text-decoration: non=
+e; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketee=
+r-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/50ec9=
+d9d-874f-4e33-b425-b2c09c0235b2_908x390.png&quot;,&quot;fullscreen&quot;:nu=
+ll,&quot;imageSize&quot;:null,&quot;height&quot;:390,&quot;width&quot;:908,=
+&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&=
+quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:null,&quot;href&quot;=
+:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=
+=3D"" title=3D"" width=3D"550" height=3D"236.23348017621146" class=3D"wide-=
+image" src=3D"https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_a=
+uto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-95=
+18-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F50ec9d9d-874f-4e33-b42=
+5-b2c09c0235b2_908x390.png" style=3D"-ms-interpolation-mode: bicubic; borde=
+r: none !important; display: block; height: auto; margin: 0 auto; margin-bo=
+ttom: 0; max-width: 100% !important; vertical-align: middle; width: auto !i=
+mportant;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></t=
+able><figcaption class=3D"image-caption" style=3D"color: #808080; font-size=
+: 14px; font-weight: 400; letter-spacing: -0.15px; line-height: 20px; margi=
+n-top: 8px; padding-left: 15%; padding-right: 15%; text-align: center; widt=
+h: 70%;"><em>Yahoo! Finance as of market close Friday, November 11, 2022</e=
+m></figcaption></figure></div><p style=3D"color: #404040; font-size: 16px; =
+line-height: 26px; margin: 0 0 20px 0;"><span>Snap was the perfect stock fo=
+r a low-rate, high-belief environment. Its expected cash flows are further =
+out in the future than the average Nasdaq stock, it was a comeback story, b=
+rand marketers were feeling spendy (in part because they could spend brand =
+marketing dollars today for cash flows far in the future), and it had a big=
+, audacious AR bet for people to believe in. At one point, right before the=
+ Nasdaq peaked, it was </span><strong>up over 400% </strong><span>from the =
+beginning of 2020.&#160;</span></p><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;">Then, it crashed. It missed re=
+venue estimates in its October 2021 earnings thanks to Apple&#8217;s privac=
+y changes and fell 22% the next day. It&#8217;s been pretty much down-only =
+since then. A few weeks ago, it crashed 25% when it missed earnings again. =
+Like Meta, there are many factors &#8211; Apple, decimated brand marketing =
+spend, and rising rates chief among them &#8211; but like Meta, I think tha=
+t a big factor is Belief Rate compression. &#8220;Cool AR thing you have th=
+ere in 2030,&#8221; investors seem to be saying, &#8220;We believe that wil=
+l have a material impact on the business like 1%.&#8221; If you have a diff=
+erentiated belief there, you can pick up SNAP at 2019 prices. If you have a=
+ differentiated belief to the downside on its core business, of course, you=
+ can try to short it back to 2018 levels.&#160;</p><p style=3D"color: #4040=
+40; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">I hadn&#8217;t=
+ put it into words until writing this piece, but I think my biggest lesson =
+from investing &#8211; public, private, and crypto &#8211; over the past co=
+uple of years is to be more aware of the Belief Rate that I, and especially=
+ others, are applying to companies. I&#8217;m great at buying when I sense =
+that my Belief Rate is higher than others&#8217;, but not so good at sellin=
+g when everyone&#8217;s Belief Rates are as high as, or higher than, mine. =
+You need to do both to make money.&#160;</p><p style=3D"color: #404040; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Now, we&#8217;re clea=
+rly in a low-belief environment. ETH, Meta, and Snap are just three example=
+s of the many I could choose from the smorgasbord.&#160;</p><p style=3D"col=
+or: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">So wh=
+at&#8217;s a company to do in a high-discount rate, low-belief rate environ=
+ment?&#160;</p><h3 class=3D"header-with-anchor-widget" style=3D"-moz-osx-fo=
+nt-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #404=
+040; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, =
+'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Seg=
+oe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; lin=
+e-height: 1.16em; margin: 1em 0 0.625em 0; position: relative;"><strong>Wha=
+t to Do When Belief Dries Up</strong></h3><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;">Writing all of this out=
+ has given me a new perspective on all of the cost cutting measures and piv=
+ots to profitability in the tech and startup ecosystem. On the surface, the=
+y look like survival tactics &#8211; keep burn low so you don&#8217;t run o=
+ut of money while funding is harder to come by, get to profitability so you=
+ control your own destiny &#8211; and they are, but they&#8217;re more than=
+ that. They&#8217;re the rational moves.&#160;</p><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>In this e=
+nvironment, cash flows next year are worth a lot more relative to cash flow=
+s in ten years than they were just a year ago. </span><strong>Cutting costs=
+ and making moves to get profitable sooner, even at the expense of long-ter=
+m cash flows, makes sense.</strong><span>&#160;</span></p><p style=3D"color=
+: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>I=
+ said earlier that everyone was drunk on low rates last year, but hiring mo=
+re people to work on moonshot projects that </span><em>might</em><span> pay=
+ off in five years may have actually made sober sense when the Belief Rate =
+was higher and the discount rate was lower. </span><strong>Now that the Bel=
+ief Rate is lower, focusing on shorter-term wins that don&#8217;t require m=
+uch investor belief can make sense.&#160;</strong></p><p style=3D"color: #4=
+04040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Some =
+of the biggest, most impactful ideas just won&#8217;t be able to get profit=
+able in the near future. There&#8217;s new tech to develop, supply chains t=
+o set up, and long sales cycles to contend with. If you still have the urge=
+ to go big, and I hope that many of you do, you need to provide as much con=
+crete evidence that you&#8217;re making progress towards your huge, crazy v=
+ision as possible. </span><strong>Hit milestones, be explicit about every s=
+tep of the plan, hire brilliantly, be hawkish about unit economics. Make in=
+vestors apply a higher Belief Rate to your company than they&#8217;re apply=
+ing to the market through your actions.</strong></p><p style=3D"color: #404=
+040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>But for=
+ the average company, the one with a product in market and customers paying=
+, it&#8217;s rational to tighten your belt in this environment, dilute your=
+self as little as possible, bank belief, and </span><strong>preserve option=
+ality in order to accelerate when discount rates come back down and Belief =
+Rates shoot up again</strong><span>.&#160;</span></p><p style=3D"color: #40=
+4040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>That s=
+aid, there are pockets in which the Belief Rate is still high. Generative A=
+I is the obvious example here. In October, </span><a href=3D"https://substa=
+ck.com/redirect/8c23c7d5-e52d-4700-b972-07130779d55c?r=3D9p0gt" rel=3D"" st=
+yle=3D"color: #404040; text-decoration: underline;">Stability AI</a><span>,=
+ the company behind Stable Diffusion, </span><a href=3D"https://substack.co=
+m/redirect/c65612e0-d99d-41b1-b857-8fb58b49b64d?r=3D9p0gt" rel=3D"" style=
+=3D"color: #404040; text-decoration: underline;">raised a round at a $1 bil=
+lion valuation</a><span>. The same week, AI content platform Jasper announc=
+ed a </span><a href=3D"https://substack.com/redirect/4d87c926-b9d3-4056-a75=
+3-884d38a684e2?r=3D9p0gt" rel=3D"" style=3D"color: #404040; text-decoration=
+: underline;">$125 million Series A at a $1.5 billion valuation</a><span>. =
+Presumably, most of Stability and Jaspers&#8217; cash flow will come very f=
+ar in the future, but investors were willing to apply a high Belief Rate to=
+ each. Why?&#160;</span></p><p style=3D"color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;"><span>I&#8217;m not exactly sure, but=
+ my best guess is that there are a couple of factors. First, this generativ=
+e AI boom was born in the bear market and wasn&#8217;t tainted by overhype =
+in the bull market. It&#8217;s shiny and new when so much looks beaten down=
+=2E Second, as belief in incumbents tumbl=
+es, it looks like there&#8217;s a re=
+al opportunity (and appetite) for a new paradigm, and a consensus forming t=
+hat the next Google and Facebook will be built AI-native. Third, the size o=
+f the opportunity is so large that it&#8217;s possible to arrive at a billi=
+on-dollar valuation even with a lower Belief Rate; it&#8217;s easy to imagi=
+ne these valuations would have been even higher in mid-2021. Fourth, the te=
+chnology is mind-blowingly cool, and it makes people want to believe. And f=
+inally, even in a bear market, people want to believe in </span><em>somethi=
+ng</em><span>.&#160;</span></p><p style=3D"color: #404040; font-size: 16px;=
+ line-height: 26px; margin: 0 0 20px 0;"><span>More broadly, while venture =
+funding has cooled significantly, and prices for deals that do get done hav=
+e come down, </span><strong>this isn&#8217;t the end of tech</strong><span>=
+=2E Massive companies will very likely be=
+ built during this bear market. With=
+ layoffs and hiring freezes at big tech companies, startups will have the c=
+hance to build all-star teams at affordable prices. Huge categories are bei=
+ng transformed. Cost curves are coming down. Founders are still dreaming bi=
+g.</span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;"><strong>And some companies still deserve a high Beli=
+ef Rate</strong><span>. Some companies will do exactly what they say they&#=
+8217;re going to do. Some companies will even exceed their own optimistic p=
+rojections.&#160;</span></p><p style=3D"color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;"><span>In 2020 and 2021, high Belief R=
+ates were applied uniformly to anything in tech with a little growth, and a=
+nything that touched web3. In a market like that, it was rational for found=
+ers to paint the grandest picture they could for investors, knowing that in=
+vestors would give them credit for most of it. That meant a lot of companie=
+s got funded at prices that look silly today, and it means that </span><em>=
+most</em><span> companies that got funded then are overvalued.&#160;</span>=
+</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin:=
+ 0 0 20px 0;"><span>In this market, prices have come down uniformly due to =
+a combination of higher discount rates and lower Belief Rates across the bo=
+ard. That should mean opportunity for those who can find </span><strong>mis=
+pricings in belief</strong><span>. </span><em>Some </em><span>companies tha=
+t get funded today will be deeply undervalued.</span></p><p style=3D"color:=
+ #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Th=
+at said: beware. If this bear market has re-taught us anything, it&#8217;s =
+that the </span><strong>macro trumps everything</strong><span>. That&#8217;=
+s true for the discount rate, and it&#8217;s true for the Belief Rate. Even=
+ if you believe in a particular company, the macro Belief Rate can keep it =
+down longer than you can stay solvent. Just like SPACs, startup investing r=
+equires more than your own belief; it requires an educated assessment of th=
+e beliefs of the funds who will need to lead a company&#8217;s next round.<=
+/span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; m=
+argin: 0 0 20px 0;">I have no differentiated view on the macro, and if I di=
+d, you shouldn&#8217;t trust it. People have spent their whole careers thin=
+king about macro and still get it wrong, and I have not spent my whole care=
+er thinking about macro. I have no idea what the discount rate will be in a=
+ week, a year, or a decade. If interest rates continue to rise, higher disc=
+ount rates will continue to create a drag on valuations across the board, a=
+nd especially on growth assets.&#160;</p><p style=3D"color: #404040; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 20px 0;">But there will be opport=
+unities in the micro, in companies that you believe in more than anyone els=
+e does, in ideas that seem crazy to pursue when everyone is focusing on the=
+ short-term.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 20px 0;">Legends will be made in this downturn. Some=
+ of them will be the ones who take the practical advice from a few paragrap=
+hs ago, cut costs, get profitable, survive, and come out swinging in the ne=
+xt bull market. Others will be those who, despite what&#8217;s rational, co=
+ntinue to think and act long-term, even when long-term trades at a discount=
+=2E&#160;&#160;</p><p style=3D"color: #40=
+4040; font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0;"><span>Whether in a year or a decade, valuations =
+will rise, big companies will be created, and belief will be restored. For =
+whenever that happens, note to self: </span><em>Don&#8217;t Stop Believing<=
+/em><span> is a better song than it is a trading strategy.&#160;</span></p>=
+<div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background:=
+ #e0e0e0; border: none; height: 1px; margin: 32px 0; padding: 0;"></div><p =
+style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20=
+px 0;"><em><span>Thanks to </span><a href=3D"https://substack.com/redirect/=
+f8119f2d-56b7-40d6-825b-b7b0aaeb66aa?r=3D9p0gt" rel=3D"" style=3D"color: #4=
+04040; text-decoration: underline;">Dan</a><span> and </span><a href=3D"htt=
+ps://substack.com/redirect/cebb4424-71b7-4f5c-95d4-9d18bfd20042?r=3D9p0gt" =
+rel=3D"" style=3D"color: #404040; text-decoration: underline;">Puja</a><spa=
+n> for editing!</span></em></p><div style=3D"font-size: 16px; line-height: =
+26px;"><hr style=3D"background: #e0e0e0; border: none; height: 1px; margin:=
+ 32px 0; padding: 0;"></div><p style=3D"color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;">That&#8217;s all for today. We&#8217;=
+ll see you on Friday for the Weekly Dose of Optimism, and next Monday for a=
+n essay I&#8217;m very excited about (if I can wrangle it into form). </p><=
+p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 =
+20px 0;">Thanks for reading, </p><p style=3D"color: #404040; font-size: 16p=
+x; line-height: 26px; margin: 0 0 20px 0; margin-bottom: 0;">Packy </p></di=
+v></div><table role=3D"presentation" width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" class=3D"email-ufi-2-bottom" style=3D"border-bott=
+om: 1px solid #e0e0e0; border-top: 1px solid #e0e0e0; min-width: 100%;"><tr=
+ height=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;">=
+&#160;</td></tr><tr><td><table role=3D"presentation" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><table role=3D"presentat=
+ion" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"margin: 0 auto;"><tr><td style=3D"vertical-align: middle;"><table role=
+=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/app-link/po=
+st?publication_id=3D10025&post_id=3D84358326&utm_source=3Dsubstack&isFreema=
+il=3Dtrue&submitLike=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI=
+6ODQzNTgzMjYsInJlYWN0aW9uIjoi4p2kIiwiaWF0IjoxNjY4NDMyODIwLCJleHAiOjE2NzEwMj=
+Q4MjAsImlzcyI6InB1Yi0xMDAyNSIsInN1YiI6InJlYWN0aW9uIn0.zHsanXCdlVyMbw1BkO7TM=
+Gpsjd_y-bl5suz7rJiiTwc&utm_medium=3Demail" class=3D"email-button-outline" s=
+tyle=3D"border: 1px solid #e0e0e0; border-radius: 100000px; color: #808080;=
+ display: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-=
+serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px=
+; font-weight: 500; line-height: 12px; padding: 9px 14px; text-decoration: =
+none; text-transform: uppercase;"><img src=3D"https://substackcdn.com/image=
+/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsu=
+bstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dnone%26strok=
+e%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"bord=
+er: none !important; margin-right: 8px; max-width: 18px; min-height: 18px; =
+min-width: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"><span cla=
+ss=3D"email-button-text" style=3D"vertical-align: middle;">Like</span></a><=
+/td></tr></table></td><td width=3D"8" style=3D"min-width: 8px"></td><td sty=
+le=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"auto" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><=
+a href=3D"https://substack.com/app-link/post?publication_id=3D10025&post_id=
+=3D84358326&utm_source=3Dsubstack&utm_medium=3Demail&isFreemail=3Dtrue&comm=
+ents=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6ODQzNTgzMjYsIml=
+hdCI6MTY2ODQzMjgyMCwiZXhwIjoxNjcxMDI0ODIwLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOi=
+Jwb3N0LXJlYWN0aW9uIn0.KKJNtcBumEiFu3BGLYVv6VDJD68LcLFxYrZeKGAerTE&utm_sourc=
+e=3Dsubstack&utm_medium=3Demail" class=3D"email-button-outline" style=3D"bo=
+rder: 1px solid #e0e0e0; border-radius: 100000px; color: #808080; display: =
+inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, Bli=
+nkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple C=
+olor Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-wei=
+ght: 500; line-height: 12px; padding: 9px 14px; text-decoration: none; text=
+-transform: uppercase;"><img src=3D"https://substackcdn.com/image/fetch/w_3=
+6,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com=
+%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%25=
+23808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: non=
+e !important; margin-right: 8px; max-width: 18px; min-height: 18px; min-wid=
+th: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"><span class=3D"e=
+mail-button-text" style=3D"vertical-align: middle;">Comment</span></a></td>=
+</tr></table></td><td width=3D"8" style=3D"min-width: 8px"></td><td style=
+=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"auto" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a =
+href=3D"https://substack.com/app-link/post?publication_id=3D10025&post_id=
+=3D84358326&utm_source=3Dsubstack&utm_medium=3Demail&utm_content=3Dshare&ac=
+tion=3Dshare&triggerShare=3Dtrue&isFreemail=3Dtrue&token=3DeyJ1c2VyX2lkIjox=
+NjI4MzU0OSwicG9zdF9pZCI6ODQzNTgzMjYsImlhdCI6MTY2ODQzMjgyMCwiZXhwIjoxNjcxMDI=
+0ODIwLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.KKJNtcBumEiFu3=
+BGLYVv6VDJD68LcLFxYrZeKGAerTE" class=3D"email-button-outline" style=3D"bord=
+er: 1px solid #e0e0e0; border-radius: 100000px; color: #808080; display: in=
+line-block; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weigh=
+t: 500; line-height: 12px; padding: 9px 14px; text-decoration: none; text-t=
+ransform: uppercase;"><img src=3D"https://substackcdn.com/image/fetch/w_36,=
+c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2=
+Ficon%2FLucideShare%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808=
+080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !im=
+portant; margin-right: 8px; max-width: 18px; min-height: 18px; min-width: 1=
+8px; vertical-align: middle;" alt=3D"" class=3D"icon"><span class=3D"email-=
+button-text" style=3D"vertical-align: middle;">Share</span></a></td></tr></=
+table></td></tr></table></td><td align=3D"right"><table role=3D"presentatio=
+n" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr></tr=
+></table></td></tr></table></td></tr><tr height=3D"16"><td height=3D"16" st=
+yle=3D"font-size: 0px; line-height: 0;">&#160;</td></tr></table><div class=
+=3D"footer" style=3D"color: #808080; font-size: 16px; line-height: 26px; pa=
+dding: 32px 16px; text-align: center;"><p class=3D"small" style=3D"color: #=
+808080; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,=
+ Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Sego=
+e UI Symbol'; font-size: 12px; line-height: 20px; margin: 0; padding-bottom=
+: 20px;">&#169; 2022 <span>Packy McCormick</span><br>10 City Point, Brookly=
+n, NY 11201 <br><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6=
+Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJ=
+sa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZPRFF6TlRnek1qWXNJbWxoZENJNk1UWTJPRF=
+F6TWpneU1Dd2laWGh3SWpveE5qY3hNREkwT0RJd0xDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDS=
+npkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAuWm0tZUhnOU5jRHdCRUtpMEtBb1JrLUtLZUZl=
+VHIzYzRKcjQtS0R4MkdIQSIsInAiOjg0MzU4MzI2LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTY=
+yODM1NDksImlhdCI6MTY2ODQzMjgyMCwiZXhwIjoxNjcxMDI0ODIwLCJpc3MiOiJwdWItMCIsIn=
+N1YiI6ImxpbmstcmVkaXJlY3QifQ.grKJ3zdCxZU-Va-563dSHBEi4zhOlk8VUTd5agML5M4?" =
+style=3D"color: #808080; text-decoration: underline;"><span style=3D"color:=
+ #808080; text-decoration: underline;">Unsubscribe</span></a></p><p class=
+=3D"small powered-by-substack" style=3D"color: #808080; font-family: -apple=
+-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-ser=
+if, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12=
+px; line-height: 20px; margin: 0; margin-top: 0; padding-bottom: 0;"><a hre=
+f=3D"https://substack.com/redirect/bd281251-a636-4a27-ba77-671796cf8ba9?r=
+=3D9p0gt" style=3D"color: #808080; display: inline-block; margin: 0 4px; te=
+xt-decoration: none;"><img src=3D"https://substackcdn.com/image/fetch/w_260=
+,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com=
+%2Fimg%2Femail%2Fgeneric-app-button%402x.png" srcset=3D"https://substackcdn=
+=2Ecom/image/fetch/w_130,c_limit,f_auto,q=
+_auto:good,fl_progressive:steep/http=
+s%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button.png, https://subs=
+tackcdn.com/image/fetch/w_260,c_limit,f_auto,q_auto:good,fl_progressive:ste=
+ep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button%402x.png 2=
+x, https://substackcdn.com/image/fetch/w_390,c_limit,f_auto,q_auto:good,fl_=
+progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-bu=
+tton%403x.png 3x" width=3D"130" alt=3D"Get the app" height=3D"40" style=3D"=
+border: none !important; max-width: 550px; vertical-align: middle;"></a><a =
+href=3D"https://substack.com/redirect/cd3f3318-22f8-4a26-9f65-80b3e5d659a0?=
+r=3D9p0gt" style=3D"color: #808080; display: inline-block; margin: 0 4px; t=
+ext-decoration: none;"><img src=3D"https://substackcdn.com/image/fetch/w_27=
+0,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.co=
+m%2Fimg%2Femail%2Fpublish-button%402x.png" srcset=3D"https://substackcdn.co=
+m/image/fetch/w_135,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3=
+A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button.png, https://substackcdn=
+=2Ecom/image/fetch/w_270,c_limit,f_auto,q=
+_auto:good,fl_progressive:steep/http=
+s%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png 2x, https://=
+substackcdn.com/image/fetch/w_405,c_limit,f_auto,q_auto:good,fl_progressive=
+:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%403x.png 3=
+x" width=3D"135" alt=3D"Start writing" height=3D"40" style=3D"border: none =
+!important; max-width: 550px; vertical-align: middle;"></a></p></div></div>=
+</td><td></td></tr></table><img src=3D"https://mailgun.substack.com/api/v1/=
+email/open?token=3DeyJtIjoiPDIwMjIxMTE0MTMzMTU1LjMuNjNkMjAxOTA3ZmY1NWE2YUBt=
+Zy1kMC5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmN=
+vbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjo4NDM1ODMyNiwidCI6Im5ld3NsZXR0ZX=
+IiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvb=
+iI6ImJvdHRvbSIsImlhdCI6MTY2ODQzMjgyMSwiZXhwIjoxNjcxMDI0ODIxLCJpc3MiOiJwdWIt=
+MCIsInN1YiI6ImVvIn0.09QuU0LDId50d3FIpR2iFGdcfu_lhXsKkzXTPAFKQlA" alt=3D"" w=
+idth=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width:1=
+px !important;border-width:0 !important;margin-top:0 !important;margin-bott=
+om:0 !important;margin-right:0 !important;margin-left:0 !important;padding-=
+top:0 !important;padding-bottom:0 !important;padding-right:0 !important;pad=
+ding-left:0 !important;"/><img width=3D"1px" height=3D"1px" alt=3D"" src=3D=
+"https://email.mg-d0.substack.com/o/eJxFkM1uxCAMhJ-m3Bph_pIceBbkgMmiJrAipFX=
+evuxGam-WPZpvPB4braVe9lmOxmjHtLmVMtW-Dw6bBWMmJcUk-Cw1C9ZIjDqwdLhY6a23rZ7Enu=
+eyJY8tlexSsMC50Oxh0XuMc4RRaIigAEa5jKCM1AZGY5C9uA7PkCh7svRN9SqZmC_7Trm9rG5JH=
+3oOPUlhWLKCCwHQ_aQErQc5GBkEh5mPMWqNBj8U39fPwIfjXI6G_mvojqzaXNpSasprF3w9cKft=
+fejp3Qt55tQuRxmXjcL9WLurOQ-q78eMmKRW852qXU-ymX6OjVqjyjotlF5K_gcx-utQqV_HCHn=
+w"></body></html>
+--c6e685ef735e025cabe2718e14f9f9d42e4151c5a3463260d6d9abfc6007--

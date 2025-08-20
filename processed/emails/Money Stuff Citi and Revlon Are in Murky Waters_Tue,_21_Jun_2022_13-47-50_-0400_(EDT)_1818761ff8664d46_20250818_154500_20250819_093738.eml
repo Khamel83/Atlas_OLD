@@ -1,0 +1,2176 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4e10:0:b0:1f2:501d:c564 with SMTP id q16csp3453877lko;
+        Tue, 21 Jun 2022 10:49:15 -0700 (PDT)
+X-Received: by 2002:a05:600c:3555:b0:39c:8aa7:9511 with SMTP id i21-20020a05600c355500b0039c8aa79511mr41734404wmq.58.1655833755613;
+        Tue, 21 Jun 2022 10:49:15 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1655833755; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=02HcEHYmNnPutPmlI7jXPCoV4P4ZLx7ePLAmQZ48yJ17N3/tCPJ+qA6LxCXCGeyMSd
+         KCTs0rur1OhrZ6znZlPkTrbpePllhRg4maMas0oGNCe3UDBo9hb+8ifmmd5STy+ETz9G
+         tPk3u0qb1y5AhPUjjSniw/gCNyJCPJPNvCv1TKdaxr7Kojd6S9pul0xR4yZW7rmXd93X
+         YMx4s3IALBRg3Kw9nO2EtDVNbGJbmCqKppancJEgXwzzCx6vsDjl+X1I4kOWDSl9MV1I
+         ecvqm2/Q1H2RWT11NpLfbriylnTw1dkZCJXQxk2UPlJG7C6ekd3OaUKP+h34mKKWRK1r
+         xEcA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=+uhpHHieuOLQBZU+aZQo3Beo6XPZetnbRpmnaqCTHNQ=;
+        b=aBA68I2vTkgk3VfcHMWO+AdmnTfUuWSWzOJr/SS9dGQmWA4FSxXMKIoPZqhB34+FHd
+         G6VwpS7en7xzy/xlHUipAuNv86xqaDxLAgLMG7r1/qaQOydLFw1zMysaBzWfjrerc8d/
+         UvpvDx2iAHQotj2xRnWb2cYOiy0eicGrVUp67WnN0+VE9C84nXBprAq7wPbOFsH+QV+h
+         0rD4HHUPM5kgvZFZjstZwvoADG6wZhumJfkeRgOUBMeroIM1q1k6VSa7/I2cG6/C/HbL
+         3cDWI5tyRK/aZmn+yj84NQQpsDHiJuB1TIfyEcz7lbMnbLwyA4p/5Iu2s2toAZRxkWlU
+         TtCA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=PWXemQfc;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id e4-20020a05600c108400b003974d3d754esor5056331wmd.15.2022.06.21.10.49.15
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 21 Jun 2022 10:49:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=PWXemQfc;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=+uhpHHieuOLQBZU+aZQo3Beo6XPZetnbRpmnaqCTHNQ=;
+        b=PWpvBEgXVUCDEIbM9NgISjUObfvCenZlMSmlfncds5lxVGG3AGtOtbg3a6b3EkCMKy
+         5nISHOs1qmQjv290hDgFWvpLNcczaqg4o6U/C3QBNDv96b/A1jguvOIvJLoUjlMfOaY5
+         gDNbsIJis0NRwvK3e8TOt6NVg17LOrhTYOwV0n22rhks9kI//yULMnVefXjlrlTtocM5
+         L1+yR3V3l014VJm624v1ejIqXK5PIHTp5CRapNEb80K5CjhwPbf563dvu3ClUysqqrWo
+         zujlzgNcpvGdRQXNewlkivaTHyrWPNcZ6IAK4baZdI5MLCaiBWOqmODshF4E+VspmeER
+         WrSA==
+X-Gm-Message-State: AOAM530wAbMuYT5MRGEnDJkl3c+4W3T/ql8vnybsvV3LECEsZKstrABi
+	fKW2eyTuIeIgmTgtCv0gYmUI1ex+LBCmKWtrPWZ42JLTzVr+RXQMQTFk
+X-Received: by 2002:a05:600c:34c4:b0:39c:9236:4e9e with SMTP id d4-20020a05600c34c400b0039c92364e9emr42653929wmq.67.1655833755068;
+        Tue, 21 Jun 2022 10:49:15 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f1c9:0:0:0:0:0 with SMTP id z9csp3067989wro;
+        Tue, 21 Jun 2022 10:49:11 -0700 (PDT)
+X-Received: by 2002:ac8:5d49:0:b0:304:eb9d:4c49 with SMTP id g9-20020ac85d49000000b00304eb9d4c49mr24750933qtx.153.1655833751252;
+        Tue, 21 Jun 2022 10:49:11 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1655833751; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ZNzky7uyLfwttSLMDP/UH2Yu0OWqiJC3GrTz1muXllXrU8HWgFOO0zlgyWhwf1UqQA
+         h/T1U60myeCD6GS7mHGIzuRIHC/HCDL9hBVeGP+684QgW0dQx0MsEJFZSGMc2KJ1crjd
+         yiDtHshB0c8ERUy4gnP4uGfBiDzGE6OhZnsWj4CgBDPFc/X2nigEcPS81LY5Rdo8ed3b
+         ctBioG9YT/AMhjmOjmueSvM3ELQ047uMNnVgseb8Cd37v3KUY1VKH6xI6BoPfy6nTYrg
+         pkbHi9j9z6TDi+SbQAi+vfOWMJ21y5BFA9KCyRIWtyuKKV4UuQpmGLqM+0CR/bOZ+Y0i
+         5KPg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=+uhpHHieuOLQBZU+aZQo3Beo6XPZetnbRpmnaqCTHNQ=;
+        b=Au8VFFRsnv8eeet+pfN82iY762T+QhIzFxi13I6neg/VhJToNIXa0wTR3lpkAnvNdv
+         Fllk93d/JPWDvRYUikP8gQ7hR4ZkhhlwSXNZ395Zj6vNOmg0XL0un+yITCelMFn97lC1
+         qV6/AC3HOufkywfwWpcwA85kVd68EfkhyBTvRsIdBPpr5brLQmlULCr6ew18BlHeDFFY
+         8yqrpp2TWzDpcUQw7ixjXXyjc/kfYBCl8v0NwL0TvHkDza/bPj1jLJtpRxXPqaG3tAIN
+         wzs9787LrVxA+OZuTD5Iu7PqZOT+8r43jaIFKk4ZNswQE7YzPiSeY7NoHkcLokq0bTt+
+         AMiw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=PWXemQfc;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220621134750.28128683.261603@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220621134750.28128683.261603@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220621134750.28128683.261603@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id u11-20020ac8750b000000b00307cf0a67d1sor7469160qtq.49.2022.06.21.10.49.11
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 21 Jun 2022 10:49:11 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220621134750.28128683.261603@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGRyM1vDUDCs70S8Dv6vYWVWFLjN/4JAiEcZSl0uSNBIu/WeXOHv3ISJwxW63Ve7Sr96MR4W+zfFyJZ60ME8d4ZY2HWt6VUSb3o=
+X-Received: by 2002:a05:622a:180e:b0:305:8aa:a24a with SMTP id t14-20020a05622a180e00b0030508aaa24amr25341487qtc.429.1655833750908;
+        Tue, 21 Jun 2022 10:49:10 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1655833750; cv=none;
+        d=google.com; s=arc-20160816;
+        b=sbHgQ3w1iLj09jDZyknI9MX/+PPm3V7eyYQdQm6JMnLoXGdyXAgzo738RJbqnYnjdx
+         XV9N7qRF76XDlwiNnvrkG8IRTAHMcaba6yYQEpgEoN2vOHdxX7fMsTemNffMaYR1/bPo
+         120oV3JZ4nVfNqNXqc3YlIgG+205QzKLJ+/Izhr90R7LMbFlKCmzVAIAZCIi4o6uLuvT
+         by6rHt3qBKhYzxBi+SMuvEC9sEXedTqNxTYcioI/NKu4am+VFza1i/HTcbvsepP7rQAv
+         JD8/gOsW8yyPVpDMTdVbPTC5oT/h1BKKjybP1udmz2CPNu/gEkzl9VjS6CfiCZIWsbRo
+         m/5A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=+uhpHHieuOLQBZU+aZQo3Beo6XPZetnbRpmnaqCTHNQ=;
+        b=Q7+wz1fQyrXtudVC9tjpJX1yzOKhhXrxidXfnIH3+imlzNODgcTnhwKMXYvWXbhTx7
+         FkvVDIqtKugl68MOjxty8stskgCXz/b/DGvHfC49OQXiBjP9tvXyKUjcwqkGLlrVsWs6
+         0/sgFGIr6b8DhVKz8qCUAzerHRjAj1bk3vyeOPRqEIPbuhs+f6GncXDGeUUesZ0jj9nX
+         DuJQo46xUC0jp1EiKX7r88pRGhLAp66DCtCGoUnH2SH+rlutXxgHaBHcszkg4afReFn3
+         UtncWFkYSJh0l8BqcwUMawN3aM52hnaEnLV1Sf/4zPs9AxVnETu4Y4zVL9lhe9zxvMEf
+         clrQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=PWXemQfc;
+       spf=pass (google.com: domain of delivery_20220621134750.28128683.261603@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220621134750.28128683.261603@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220621134750.28128683.261603@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id s19-20020a05620a081300b006a64e7d994esi645619qks.5.2022.06.21.10.49.10
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 21 Jun 2022 10:49:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220621134750.28128683.261603@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=6pTL2z7oaQHd3/w6QK8WNoBlZMx//Sb+yrkzN6/ol9E=;
+ b=PWXemQfcZAkm9XRJcl8r8GQ+xDHBWspkwOQcp67pTuD67IcvSVHJcNHHwd7mD431VY7uq0EuFWSt
+   DLtAwte3N/dff9DyFTktbrKzOQYdnnGLct78tS9N9FaYKh1fxdYkVrcvtsuFOcWMTyn793rwXCg3
+   nWiY2HsjRzWQrEoGMdo=
+Received: from njmta-180.sailthru.com (173.228.155.180) by pmta29.sailthru.com id hm829c2sd4s3 for <bloomberg@khamel.com>; Tue, 21 Jun 2022 13:49:09 -0400 (envelope-from <delivery_20220621134750.28128683.261603@mx.sailthru.com>)
+Received: from nj1-farmelon.flt (172.18.20.31) by njmta-180.sailthru.com id hm829a1qqbso for <bloomberg@khamel.com>; Tue, 21 Jun 2022 13:47:51 -0400 (envelope-from <delivery_20220621134750.28128683.261603@mx.sailthru.com>)
+Date: Tue, 21 Jun 2022 13:47:50 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220621134750.28128683.261603@sailthru.com>
+Subject: Money Stuff: Citi and Revlon Are in Murky Waters
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_63803608_576717043.1655833670972"
+Precedence: bulk
+X-Feedback-ID: 6358:28128683:campaign:sailthru
+X-TM-ID: 20220621134750.28128683.261603
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-farmelon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgqw8b.5lur/c45b3909
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgqw8b.5lur/c45b3909>, <mailto:unsubscribe_20220621134750.28128683.261603@mx.sailthru.com>
+X-rpcampaign: stjko28128683
+
+------=_Part_63803608_576717043.1655833670972
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        RevlonLet=E2=80=99s see: In 2016, Revlon Inc. borrowed $1.8 billion=
+ from some banks and hedge funds using a seven-year term loan secured by Re=
+vlon=E2=80=99s
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Revlon
+   =20
+ =20
+Let=E2=80=99s see:=09In 2016, Revlon Inc. borrowed $1.8 billion from some b=
+anks and hedge funds using a seven-year  term loan secured by Revlon=E2=80=
+=99s assets. Citibank NA advised on the loan and served as its administrati=
+ve agent.=09In 2019 and 2020, Revlon took some of the collateral for the 20=
+16 term loan and snuck it out, away from the lenders: It put much of its in=
+tellectual property, including brands like American Crew, Elizabeth Arden, =
+Almay and Mitchum, into new subsidiaries (generally called =E2=80=9CBrandCo=
+=E2=80=9D) that did not secure the 2016 loan. It  borrowed some new money=
+=C2=A0secured by those brands, and rolled some of the old term lenders into=
+ the new facility in order to get them to vote to approve it. There were va=
+rious shenanigans involved, including doing a new revolving loan under the =
+2016 credit agreement in order to get just enough votes to approve the new =
+deal. We have discussed   the basic form of this many   times before: If yo=
+u are a company in trouble, you pay off 51% of your lenders to get them to =
+approve hosing the other 49%. That=E2=80=99s what happened here: Revlon gav=
+e some of its lenders a new loan with better security (those brands), makin=
+g the security for the other lenders worse. (This is explained in more deta=
+il  here.)=09The 2016 lenders who didn=E2=80=99t participate in the new Bra=
+ndCo deal were annoyed: Their collateral had disappeared, and now they were=
+ effectively junior to the 2020 lenders. They  sued Revlon, Citibank and va=
+rious other people, claiming that the BrandCo deal violated the 2016 credit=
+ agreement and was invalid. If they won =E2=80=A6=C2=A0I dunno, it would be=
+ a mess if they won, but generally speaking if they won then they would get=
+ those brands back as collateral for their loans.=09The day before they fil=
+ed that lawsuit, Citi paid them off by accident. Oops! This was very funny =
+and we have   talked about it a lot, but the gist is that Citi, as administ=
+rative agent for the loan, was supposed to pass along a small interest paym=
+ent from Revlon and accidentally paid off the whole loan with its own money=
+.=09Citi politely asked the 2016 lenders for the money back, but the lender=
+s were really mad at Citi for helping with the BrandCo transaction, so some=
+ of them =E2=80=94=C2=A0who had gotten about $500 million of Citi=E2=80=99s=
+ money =E2=80=94=C2=A0said no.=09Citi sued them and, somewhat shockingly,  =
+ lost.=C2=A0=09Citi appealed. I assume Citi will win on appeal, but then I =
+assumed they=E2=80=99d win in the trial court so who knows. The appeal is s=
+till pending and could take a while.=09Meanwhile the thing everyone worried=
+ about happened, and Revlon filed for bankruptcy last week.This raises vari=
+ous wild questions. For instance: Who are the creditors on the 2016 term lo=
+an, now? There are three main options:=09Citi: Citi paid off that $500 mill=
+ion on Revlon=E2=80=99s behalf,=C2=A0so it presumably steps into the shoes =
+of those creditors and has a $500 million bankruptcy claim against Revlon. =
+(This is probably not worth $500 million: My Bloomberg screen shows the 201=
+6 term loan trading below 30 cents on the dollar, while the 2020 BrandCo te=
+rm loan looks to be in the 50s.)=09The original lenders: Maybe Citi will wi=
+n on appeal, in which case the lenders=C2=A0will have to give back Citi=E2=
+=80=99s $500 million, in which case Revlon will still owe them the money. =
+=E2=80=9CLawyers for the repaid lenders in the bankruptcy court hearing on =
+Thursday described their clients as only =E2=80=98contingent creditors=E2=
+=80=99 who since they have already been repaid will not need to participate=
+ in the bankruptcy fight unless the appeals court orders them to return the=
+ cash to Citi,=E2=80=9D  reports Sujeet Indap at the Financial Times. But s=
+ince it will presumably take a while to find out, they continue to have som=
+e interest in the case.=09Nobody:=C2=A0Did Citi pay that $500 million on Re=
+vlon=E2=80=99s behalf? Or did it pay the $500 million out of the goodness o=
+f its heart, discharging Revlon=E2=80=99s obligation to the term lenders bu=
+t not creating any new obligation to Citi? That seems ridiculous, but on th=
+e other hand Revlon=C2=A0is=C2=A0in bankruptcy so it has an incentive =E2=
+=80=94=C2=A0an obligation, almost =E2=80=94=C2=A0to minimize its debt load.=
+Bloomberg=E2=80=99s Jeremy Hill and Eliza Ronalds-Hannon   reported last we=
+ek:=C2=A0=E2=80=9CThere isn=E2=80=99t a lot of law on this,=E2=80=9D said E=
+ric Talley, a Columbia University law professor who has studied the Citi-Re=
+vlon debacle. =E2=80=9CRevlon would like nothing better than to wipe this d=
+ebt off its books completely and have it be Citibank=E2=80=99s problem.=E2=
+=80=9DThe so-called subrogation rights that Citigroup claims it has over th=
+e $500 million loan principal are a common concept in insurance law, but ar=
+e relatively untested in the world of finance, according to Talley. The lim=
+ited precedent that exists probably falls in Citigroup=E2=80=99s favor, but=
+ Revlon=E2=80=99s precarious financial position likely makes even a long-sh=
+ot attempt to wipe out the debt worth considering, he said.=C2=A0In its lat=
+est quarterly report, Revlon said it hasn=E2=80=99t taken a stance on Citig=
+roup=E2=80=99s rights as creditor. It went a step further this week, saying=
+ that if Citigroup ultimately loses its battle to reclaim the money, Revlon=
+ =E2=80=9Creserve all rights and defenses with respect to any claim Citiban=
+k may assert against=E2=80=9D the company.=C2=A0A successful challenge of C=
+itigroup=E2=80=99s claim could erase almost 15% of Revlon=E2=80=99s $3.4 bi=
+llion debt load in an instant, easing the company=E2=80=99s path out of ban=
+kruptcy. But the scorched-earth tactic is far from a sure thing, and risks =
+souring the company=E2=80=99s relationship with Citigroup, said Bloomberg I=
+ntelligence analyst Phil Brendel, who believes the odds are against Revlon.=
+I can=E2=80=99t imagine Revlon winning that argument, but I can easily imag=
+ine them trying.But there is another wild question, which is: What about th=
+at lawsuit to set aside the BrandCo deal? If the 2016 term loan lenders win=
+ that argument, then their loan will get a higher recovery (they will have =
+a claim on the BrandCo assets) and the 2020 lenders=C2=A0will get a lower r=
+ecovery (they will have to share the BrandCo assets). But if they win their=
+ Citi appeal, this doesn=E2=80=99t affect them at all: They already got pai=
+d 100 cents on the dollar (by Citi), so they don=E2=80=99t care. They are =
+=E2=80=9Conly =E2=80=98contingent creditors.=E2=80=99=E2=80=9D Still, they=
+=C2=A0are=C2=A0contingent creditors =E2=80=94=C2=A0they might lose on appea=
+l =E2=80=94=C2=A0so they have an interest in arguing in bankruptcy court th=
+at the 2020 BrandCo transaction was invalid and they should get the BrandCo=
+ collateral. (Also, to be fair, some of the objecting 2016 lenders gave Cit=
+i its money back voluntarily, and remain Revlon creditors, so they have a m=
+ore direct interest.)You know who else has that interest? Citi. If Citi los=
+es on appeal, then it (probably?!) steps into the shoes of the 2016 term-lo=
+an creditors, with a $500 million bankruptcy claim against Revlon.[1] It wi=
+ll want that claim to be more valuable rather than less, which means that =
+=E2=80=94=C2=A0if Citi is in fact a Revlon creditor =E2=80=94=C2=A0then it =
+will want the court to set aside the BrandCo transaction. The BrandCo trans=
+action that Citi helped arrange. Here are Hill and=C2=A0Ronalds-Hannon agai=
+n, citing=C2=A0Bloomberg Intelligence analyst Phil Brendel:=C2=A0=E2=80=9CR=
+ecall that Citi was a fantastic financing partner for Revlon in 2020 when i=
+t arranged a new revolver just to gerrymander a lender vote to strip assets=
+ from the 2016 term lenders,=E2=80=9D Brendel said, referencing a controver=
+sial maneuver that benefited a group of senior creditors now key to the com=
+pany=E2=80=99s restructuring.=C2=A0=E2=80=9CNow, through a series of unfort=
+unate mistakes and luck, Citi finds itself potentially the owner of those l=
+oans,=E2=80=9D Brendel said. =E2=80=9CDo Revlon and its likely new owners n=
+ow add insult to injury? I don=E2=80=99t think the answer is obvious.=E2=80=
+=9D=C2=A0Yes but the 2016 term lenders are suing Revlon and Citi for that g=
+errymandering and asset stripping. And also Citi now=C2=A0is=C2=A0the bigge=
+st 2016 term lender. If Citi loses its appeal against the other=C2=A0term l=
+enders, it will want those term lenders to win their case against Revlon (a=
+nd Citi), because that will make the 2016 term loan that it now owns more v=
+aluable.=C2=A0Which means=C2=A0that Citi should be =E2=80=A6=C2=A0suing its=
+elf =E2=80=A6 to invalidate the transaction that it did? Not really? But a =
+little bit?
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Crypto leverage
+   =20
+ =20
+We have  talked a few  times recently about how people borrow money to=C2=
+=A0do leveraged trading in decentralized finance, and how it differs from l=
+everaged trading in traditional finance. One key difference is:=09In tradit=
+ional finance, if you have borrowed money to buy some stocks, and the stock=
+s have gone down, your broker will call you up and say =E2=80=9Chey could y=
+ou post more collateral.=E2=80=9D Ideally you post the collateral and every=
+thing is fine. Sometimes you don=E2=80=99t, and your broker sells the stock=
+s at hopefully a high enough price to pay off your loan. But sometimes you =
+say =E2=80=9Csorry, I can=E2=80=99t post any more collateral today, but I c=
+an try tomorrow,=E2=80=9D and your broker=C2=A0gives you another day.=09In =
+decentralized finance, if you have borrowed money (stablecoins)=C2=A0to buy=
+ some crypto, and the crypto has gone down, a robot sells your crypto at ho=
+pefully a high enough price to pay off your loan, automatically and without=
+ bothering to call you.I have mostly emphasized that the traditional approa=
+ch can be=C2=A0more generous to you, the borrower: Sometimes you don=E2=80=
+=99t=C2=A0pay back your loan, but your broker gives you more time. Why woul=
+d the broker do this? Well, you might be a good customer, and the broker wo=
+n=E2=80=99t want to make you mad. Or you might be a big=C2=A0fund, and the =
+broker will think =E2=80=9Csure this=C2=A0position=C2=A0is undercollaterali=
+zed but all in all they=E2=80=99re good for it.=E2=80=9D Or you might be so=
+ big that the broker will think =E2=80=9Cif I liquidate this position it is=
+ going to crash the market and cause a systemic crisis, whereas if I just g=
+ive them another day to pay maybe everything will be fine.=E2=80=9D[2]=C2=
+=A0Or you might say =E2=80=9Csorry, can=E2=80=99t make a margin call right =
+now, I=E2=80=99m on vacation with limited cell service=E2=80=9D and your br=
+oker might say =E2=80=9Cah we=E2=80=99ve all been there=E2=80=9D and give y=
+ou another week. (True story: Once, when I was a banker, I sent a Brazilian=
+ client a large margin call. They said =E2=80=9Cit=E2=80=99s Carnival, sorr=
+y, try us next week.=E2=80=9D I gulped and waited. It worked out fine!)=C2=
+=A0The crypto robots don=E2=80=99t do any of this sort of thinking. They ju=
+st look at the collateral, look at the position, and if the collateral is t=
+oo low they liquidate. The crypto system is often stricter, which is good (=
+less buildup of systemic risk) and bad (harder to sleep).On the other hand,=
+ the traditional approach can also be stricter. Sometimes your stocks=C2=A0=
+haven=E2=80=99t=C2=A0gone down, and your broker calls you up and says =E2=
+=80=9Chey we are changing our margining requirements and would like you to =
+post more collateral.=E2=80=9D And if you say no, the broker will (eventual=
+ly) liquidate your position.Why would the broker do this? Well, there might=
+ be a new risk manager at your broker, and she might want more collateral. =
+Or volatility might have gone up and your broker=E2=80=99s model now demand=
+s more collateral. Or your stocks might have gone=C2=A0up, and your broker =
+might say =E2=80=9Cthis position is so big that we need to manage the risk =
+more strictly.=E2=80=9D Or your broker might have heard a rumor that you ar=
+e in financial trouble. Or your broker might have heard a rumor that a bunc=
+h of other investors are in trouble, so it is=C2=A0tightening up collateral=
+ across the board. Or something else.Can=C2=A0your broker do this? Does you=
+r contract with your broker allow them to just call you up for more collate=
+ral? The short answer is, sure, probably; brokers are good at protecting th=
+emselves. The longer answer is that you are all embedded in a fuzzy system =
+of repeat players and you cannot ignore your broker=E2=80=99s demands forev=
+er, even if your current contract favors you.=C2=A0If your broker asks you =
+for more collateral then, in the long run, your choices are (1) post more c=
+ollateral or (2) find another broker;=C2=A0either=C2=A0of those approaches =
+accomplishes the broker=E2=80=99s essential goal of reducing its risk expos=
+ure.=C2=A0This is actually an=C2=A0element of  the Archegos Capital Managem=
+ent story: When Credit Suisse Group AG called Archegos for more collateral,=
+ it was=C2=A0not=C2=A0because Archegos=E2=80=99s stocks had gone down; they=
+ had gone up, and Credit Suisse took a closer look at its margin provisions=
+ and realized they were not great, so it called up Archegos and asked to ch=
+ange those provisions. Archegos said =E2=80=9Cwe=E2=80=99ll get back to you=
+=E2=80=9D and then imploded, oops. But the basic story is that Credit Suiss=
+e tried to adjust its margin provisions on the fly to address newly salient=
+ risks, and Archegos was at least in theory willing to work with Credit Sui=
+sse on that.Meanwhile in decentralized finance, if you wake up one morning =
+to realize that a whale has built up a huge position in an increasingly vol=
+atile market, and that your margin provisions are not adequate to protect y=
+ou if you need to close the position, what do you do? I mean =E2=80=A6=C2=
+=A0kind of the same sorts of ad hoc things that you=E2=80=99d do in traditi=
+onal finance, but you get a lot more grief for it.Solend is a DeFi=C2=A0len=
+ding platform on the Solana blockchain. It =E2=80=A6=C2=A0discovered? =E2=
+=80=A6=C2=A0that it has one =E2=80=9Cwhale=E2=80=9D client who has borrowed=
+ a huge amount of stablecoins from Solend to fund a position in Solana=E2=
+=80=99s native SOL token. If the price of SOL falls too far, the Solend sma=
+rt contract will automatically start liquidating the whale=E2=80=99s positi=
+on in a way that will apparently overwhelm market liquidity, crater the pri=
+ce of SOL and cause huge losses for Solend and its own depositors (the peop=
+le who put up the stablecoins that Solend is lending to the whale). CoinDes=
+k reports:The anonymous wallet at the heart of the crisis had deposited 95%=
+ of Solend=E2=80=99s entire SOL pool and represented 88% of USDC borrowing.=
+ But Solend=E2=80=99s single-largest user came dangerously close to a massi=
+ve margin call with SOL=E2=80=99s cratering price. If SOL hit $22.30, the p=
+rotocol would automatically liquidate up to 20% of the whale=E2=80=99s coll=
+ateral.To avoid this, Solend decided to amend the smart contract to let Sol=
+end=E2=80=99s team take over the whale=E2=80=99s position and start liquida=
+ting it in over-the-counter transactions=C2=A0before=C2=A0it hits the margi=
+n trigger. To do this, it put the proposal to a vote of its decentralized a=
+utonomous organization; from Solend=E2=80=99s blog post:Any action we take =
+(including inaction) has a set of trade offs to consider. There is no perfe=
+ct solution. With that in mind, the action we believe would result in the b=
+est outcome is as follows:Enact special margin requirements for large whale=
+s that represent over 20% of borrows. If a user=E2=80=99s borrows amount to=
+ over 20% of all borrows for the Main Pool, a special liquidation threshold=
+ of 35% is required. This policy will go into effect upon approval of the p=
+roposal.Grant emergency power to Solend Labs to temporarily take over the w=
+hale=E2=80=99s account so the liquidation can be executed OTC and avoid pus=
+hing Solana to its limits. This would be done via a smart contract upgrade.=
+ Emergency powers will be revoked once the whale=E2=80=99s account reaches =
+a safe level.The proposal passed, but in a hasty way that led to lots of ob=
+jections, so they walked it back: Solend introduced another proposal to res=
+cind the first one, and then a third to create new position limits to mitig=
+ate this risk in a more mechanical way.=C2=A0I suppose you could conclude s=
+omething along the lines of:=09In traditional finance, this stuff is manage=
+d through a combination of contractual remedies, background legal and equit=
+able principles, and fuzzy relationships and reputations.=09In decentralize=
+d finance, people like to say that =E2=80=9Ccode is law=E2=80=9D:=C2=A0Ever=
+ything is supposed to be transparent and deterministic; smart contracts spe=
+cify exactly what happens in every case.=09Code is not law. Sometimes the s=
+mart contracts do not=C2=A0cover the cases you end up caring about, or they=
+ do, but not in the way anyone wants.=09Nothing else is law either, so you =
+make things up from scratch.Elsewhere in crypto leverage =E2=80=A6=C2=A0uh,=
+ I dunno, there=E2=80=99s a lot of it?=09=E2=80=9CBabel Finance, the distre=
+ssed crypto lender which froze withdrawals on Friday, said it won a repriev=
+e on debt repayments as it battles to survive a tumultuous slump in cryptoc=
+urrency markets.=E2=80=9D=09=E2=80=9CCelsius Network Ltd. will  need more t=
+ime to stabilize its liquidity and operations, the embattled crypto lending=
+ platform said in a blog post after it froze deposits last week.=E2=80=9D=
+=09=E2=80=9CCryptocurrency-focused hedge fund  Three Arrows Capital Ltd. ha=
+s hired legal and financial advisers to help work out a solution for its in=
+vestors and lenders, after suffering heavy losses from a broad market sello=
+ff in digital assets, the firm=E2=80=99s founders said on Friday.=E2=80=9D=
+=09=E2=80=9CCrypto lending platform  BlockFi announced that it has secured =
+a $250 million revolving credit facility from FTX, BlockFi CEO Zac Prince s=
+aid in a tweet on Tuesday, and the company subsequently announced in a pres=
+s release.=E2=80=9DAlso here is=C2=A0a sentence that I love: =E2=80=9CDue t=
+o hostile market conditions, Bancor=E2=80=99s Impermanent Loss Protection i=
+s temporarily paused.=E2=80=9D I don=E2=80=99t know why I find it so funny.=
+ It=E2=80=99s, like, doubly temporary. In the long run everything is fine! =
+In the short run, things are troubling, but only temporarily and also imper=
+manently.=E2=80=9CImpermanent loss=E2=80=9D basically means that if you act=
+ as a market maker in crypto, and the market moves away from you, you lose =
+money. (There is nothing particularly impermanent about this; the name is=
+=C2=A0just a hilarious bit of branding.) Bancor runs an automated market ma=
+ker system that uses customers=E2=80=99 crypto deposits to make markets, an=
+d when its customers have =E2=80=9Cimpermanent loss,=E2=80=9D Bancor prints=
+ more of its own BNT tokens and gives them to the customers to make them wh=
+ole. That is a system that works great as long as crypto is generally going=
+ up: Bancor can keep printing tokens, which keep getting more valuable, whi=
+ch means it can pay everyone who loses money on a trade. When the token goe=
+s down it stops working. From Bancor=E2=80=99s blog post:BNT rewards effect=
+ively have a double-cost:They depreciate the BNT value, resulting in imperm=
+anent loss on the network.This IL is compensated with additional BNT emissi=
+ons, causing further value depreciation.The intuition is that if the price =
+of BNT goes down, Bancor will print more BNT to make the BNT holders whole =
+for the loss. But printing more BNT to give to BNT holders makes the price =
+go down more, etc. This is not the same mechanic as  what happened to Terra=
+USD, but it has a family resemblance. (Actually it has a family resemblance=
+ to a lot of crypto mechanics, in which people are often incentivized to ho=
+ld some token by printing more of that token, and new money flowing into th=
+e system counteracts the inflationary effects of that printing =E2=80=94=C2=
+=A0until the new money stops flowing.) And so now Bancor=E2=80=99s imperman=
+ent loss protection is temporarily paused.=C2=A0
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      A tax trade
+   =20
+ =20
+Here is a schematic tax trade. In=C2=A0US federal income taxation, long-ter=
+m capital gains =E2=80=94=C2=A0net gains on assets held for more than a yea=
+r =E2=80=94=C2=A0are taxed at low rates, while short-term capital gains =E2=
+=80=94=C2=A0less than a year =E2=80=94=C2=A0are taxed at high rates. The tr=
+ade is:=09All year, generate a lot of short-term capital gains, for instanc=
+e by operating a market-making business that turns over an inventory of sto=
+cks and options many times each day.=09On Jan. 1, buy 100 stocks, and short=
+ 100 different but correlated stocks.=09On Dec. 30, close out the losing po=
+sition from Step 2: If the stocks are up, buy back the ones you shorted; if=
+ they=E2=80=99re down, sell the ones you bought. Now you have short-term ca=
+pital losses that offset your short-term capital gains.=09The next Jan. 2, =
+close out the winning position from Step 2: If stocks are up, sell the ones=
+ you bought; if they=E2=80=99re down, buy back the ones you shorted. Now yo=
+u have long-term capital gains that offset your short-term capital losses.=
+=09The net pre-tax result is that=C2=A0your trades from Steps 2 through 4=
+=C2=A0offset each other: Nothing has happened, economically, between Step 2=
+ and Step 4, and you are just left with your trading gains from Step 1.=C2=
+=A0=09The net post-tax result is that you have transformed the short-term c=
+apital gains from Step 1 into the long-term capital gains in Step 4, saving=
+ yourself a lot of taxes.This is a schematic simple version, and in the rea=
+l world various nuances and complications are required. Of course, you=C2=
+=A0could imagine an even simpler version: In Step 2, instead of buying some=
+ stocks and shorting some other stocks, you could just buy a ton of one sto=
+ck and short a ton of=C2=A0the same stock. But this is frowned upon: It is =
+called a =E2=80=9Cstraddle=E2=80=9D in tax law, and you can=E2=80=99t use l=
+osses on a straddle to offset other income.[3] You basically want to do a t=
+rade that is correlated enough to=C2=A0work=C2=A0=E2=80=94=C2=A0to generate=
+ roughly offsetting gains and losses without too much risk of the losses to=
+tally swamping the gains =E2=80=94=C2=A0but uncorrelated enough to get by t=
+he tax authorities.=C2=A0Here is a fun ProPublica story about Jeffrey Yass =
+and the other partners of Susquehanna International Group, which allegedly =
+does this sort of stuff:Since 2011, IRS records show, a partnership called =
+Susquehanna Fundamental Investments has been the source of the majority of =
+long-term gains for Yass and his partners. Every year, it channeled hundred=
+s of millions in long-term gains to them, while also providing hundreds of =
+millions in short-term losses.Year after year, the gains and losses rose an=
+d fell roughly in tandem, as if one were a near reflection of the other. In=
+ 2015, for example, Susquehanna Fundamental produced $774 million in long-t=
+erm gains and $787 million in short-term losses for Yass. In 2017 it was $9=
+40 million in long-term gains and $902 million in short-term losses. =E2=80=
+=A6Susquehanna Fundamental held billions of dollars of individual stocks su=
+ch as Google, Wells Fargo and, as it happens, Coca-Cola. These stocks were =
+among the largest companies in the S&P 500 index.Meanwhile, the fund also h=
+eld a large bet against the S&P 500. In essence, it held a bet against many=
+ of those exact same stocks.On its face, the fund actually lost money for Y=
+ass: Over eight years, it registered $5.4 billion in losses against $5 bill=
+ion in gains =E2=80=94 a net loss before taxes. But by transforming the tax=
+ rate on so much income, it delivered $1.1 billion in tax savings, and Yass=
+ came out way ahead.This is not quite as lovely as  the Renaissance Technol=
+ogies approach of putting all the short-term trades into a basket =E2=80=9C=
+owned=E2=80=9D by an investment bank and then buying an =E2=80=9Coption=E2=
+=80=9D on that basket, but I guess it does the job.
+ =20
+   =20
+      Musk Stuff
+   =20
+ =20
+Bloomberg News Editor-in-Chief John Micklethwait  interviewed Elon Musk, an=
+d of course they touched on his deal to buy Twitter Inc.:Musk:=C2=A0So with=
+ respect to the Twitter transaction, there=E2=80=99s a limit to what I can =
+say publicly given that it is somewhat of a sensitive matter. So I like to =
+be measured in my responses here, such as not to generate incremental lawsu=
+its.Micklethwait: That seems to be a risk you sometimes manage to overcome.=
+Musk:=C2=A0Yes, deposition minimization, I think, is important.Micklethwait=
+: Has Twitter given you enough information?Musk:=C2=A0Well, there are still=
+ a few unresolved matters. You=E2=80=99ve probably read about the question =
+as to whether the number of fake and spam users on the system is less than =
+5% as Twitter claims, which I think is probably not most people=E2=80=99s e=
+xperience when using Twitter. So we=E2=80=99re still awaiting resolution on=
+ that matter, and that is a very significant matter. So we=E2=80=99re await=
+ing resolution on that. And then of course, there is the question of, will =
+the debt portion of the round come together? And then will the shareholders=
+ vote in favor? So I think those are the three things that need to be resol=
+ved before the transaction can complete.Nope! The  bot thing is  completely=
+ fake, and =E2=80=9Cresolving=E2=80=9D it is not in any way a condition to =
+the closing of the transaction. The shareholder vote certainly is, but Twit=
+ter closed on Friday at $37.78 and Musk=E2=80=99s deal is for $54.20 per sh=
+are in cash,=C2=A0so shareholders are definitely going to approve it. =E2=
+=80=9CThe debt portion of the round=E2=80=9D is committed financing from Mu=
+sk=E2=80=99s banks; they have no market out, and there is no financing cond=
+ition to Musk=E2=80=99s obligations, so it is not exactly true that anythin=
+g about the debt would =E2=80=9Cneed to be resolved before the transaction =
+can complete.=E2=80=9D[4] I am not saying that Musk won=E2=80=99t find a wa=
+y out of the deal; I am just saying that none of his excuses=C2=A0make any =
+sense.=C2=A0
+ =20
+   =20
+      Universal owners
+   =20
+ =20
+I  wrote on Thursday about how the interests of universal asset owners =E2=
+=80=94=C2=A0people who own 10% (or whatever) of every public company =E2=80=
+=94=C2=A0differ from the interests of concentrated owners of a single, say,=
+ oil company. In particular, I noted:=09Owners of a single oil company will=
+ want it to drill more oil when prices are high, because it can sell that o=
+il at high prices. Owners of every oil company will want them all to exerci=
+se some capital discipline, since if they=C2=A0all drill more oil prices wi=
+ll go down. Universal ownership, the theory goes, is anti-competitive: Univ=
+ersal owners will want to keep margins high rather than increase production=
+.=09Owners of a single oil company will want it to drill more oil, but univ=
+ersal owners will be more concerned about the effects of climate change on =
+all their other portfolio companies, and so will want to reduce drilling al=
+l around.Several people pointed out an offsetting=C2=A0consideration: Unive=
+rsal owners should want lower oil prices right now, because in the actual w=
+orld high oil prices seem to be driving inflation and economic worry. If oi=
+l prices were lower, then all the other companies that the universal owners=
+ own would be making more money now, though in the long run they=E2=80=99d =
+have to worry about climate change etc.That seems right.=C2=A0Which set of =
+concerns dominates is=C2=A0an empirical question. We were talking about thi=
+s on Thursday because the founder of Continental Resources Inc. wants to ta=
+ke his company private to avoid meddling public investors, and my sense is =
+that in general US oil-company managers feel like their public investors ar=
+e more interested in capital discipline and environmental, social and gover=
+nance concerns than they are in drilling more oil.=C2=A0One point here=C2=
+=A0is that the meaning of =E2=80=9Cenvironmental, social and governance=E2=
+=80=9D investing can change as facts in the world change. In a world where =
+inflation is low, the economy is booming and Russia has not invaded Ukraine=
+, drilling oil can look like a bad-for-ESG business. In a world where infla=
+tion is high, recession is looming and high oil prices fund a Russian invas=
+ion, drilling for oil can look pretty noble.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+ Kellogg Will Split Into Three Companies to Promote Growth. EY=E2=80=99s Br=
+eakup Plan Means Windfalls for Partners.=C2=A0JetBlue Lifts Offer for Spiri=
+t Airlines, Commits to Selling Assets. Have banks fixed their structured pr=
+oducts problem? Europe does not face fresh sovereign debt crisis, says euro=
+group chief. Germany spars with ECB over bond market risks. Long shadow of =
+Russian money raises tricky questions for Swiss bankers. Former Goldman Sac=
+hs MD Is Publishing a Book Alleging  Abuse and Attack.=C2=A0Empty Wall Stre=
+et Offices to Be Revived as Apartments. Machine Learning Can Predict Shooti=
+ng Victimization Well Enough to Help Prevent It. SpaceX  Fires Employees Ov=
+er Letter Critical of CEO Musk. Elon Musk's Boring Co. Is  Feuding With Tex=
+as Over a Driveway. =E2=80=9CIt=E2=80=99s not like I have a catalog and, li=
+ke, now I can release all of my other novelty rap fragments.=E2=80=9DIf you=
+'d like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in you=
+r inbox, please=C2=A0subscribe at this link. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters here. Thanks![1] Actually maybe=
+ more: Citi paid off about $900 million of term loan by accident, but got a=
+bout $400 million back. Some of that was subject to agreements that if Citi=
+ lost in court on the other $500 million, it would have to return that mone=
+y too. I dunno.[2] I am saying =E2=80=9Cbroker=E2=80=9D for simplicity but =
+in fact the issue is often not between brokers and customers but rather bet=
+ween clearinghouses and brokers. Another difference between decentralized f=
+inance and traditional finance is that DeFi tends to be sort of flat =E2=80=
+=94=C2=A0all sorts of customers trade directly with exchanges, etc. =E2=80=
+=94=C2=A0while tradfi tends to be sort of hierarchical, with customers trad=
+ing through brokers who trade through clearing brokers who trade through cl=
+earinghouses, etc.[3] This is oversimplified; the statutory straddle rules =
+are in section 1092 of the Internal Revenue Code, and the general rule is t=
+hat =E2=80=9CAny loss with respect to 1 or more positions shall be taken in=
+to account for any taxable year only to the extent that the amount of such =
+loss exceeds the unrecognized gain (if any) with respect to 1 or more posit=
+ions which were offsetting positions with respect to 1 or more positions fr=
+om which the loss arose.=E2=80=9D[4] This is a bit fuzzy: Musk cannot walk =
+away without penalty if his financing falls through, but he *can* walk away=
+ and pay only a $1 billion breakup fee if his financing falls through. If h=
+is financing does *not* fall through, he has to close the deal, and Twitter=
+ can sue for specific performance. So in a sense there is a financing condi=
+tion. But, again, the financing itself is not particularly conditional: The=
+ banks don=E2=80=99t have to do a bunch of due diligence to get comfortable=
+ lending to Twitter, because that already happened and they have committed =
+to lend.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgqw8b.5lur/7a94d45e.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_63803608_576717043.1655833670972
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+RevlonLet=E2=80=99s see: In 2016, Revlon Inc. borrowed $1.8 billion from so=
+me banks and hedge funds using a seven-year term loan secured by Revlon=E2=
+=80=99s
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yODEyODY4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzOTAyODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBc32b9e9b" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D28128683&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28390286&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjIxMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MjEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBe7c8e60f"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yODEyODY4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzOTAyODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC36fa015c" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D28128683&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28390286&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Revlon</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Let=E2=80=99s see:</p><ul style=3D"lis=
+t-style-type: disc; padding-left: 40px; margin: 16px 0;">=09<li style=3D"ma=
+rgin-bottom: 5px;">In 2016, Revlon Inc. borrowed $1.8 billion from some ban=
+ks and hedge funds using a seven-year <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/28128683.261603/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9=
+lZGdhci9kYXRhLzAwMDA4ODc5MjEvMDAwMTU2NzYxOTE2MDAyOTE5L3MwMDE0MDl4MV84ay5odG=
+0/607f07ceef4b8524a319a23cB8e254d05" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> term loan</a> secured by Revl=
+on=E2=80=99s assets. Citibank NA advised on the loan and served as its admi=
+nistrative agent.</li>=09<li style=3D"margin-bottom: 5px;">In 2019 and 2020=
+, Revlon took some of the collateral for the 2016 term loan and snuck it ou=
+t, away from the lenders: It put much of its intellectual property, includi=
+ng brands like American Crew, Elizabeth Arden, Almay and Mitchum, into new =
+subsidiaries (generally called =E2=80=9CBrandCo=E2=80=9D) that did not secu=
+re the 2016 loan. It <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/28128683.261603/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzAw=
+MDA4ODc5MjEvMDAwMDk1MDE0MjIwMDAxMTA5L2VoMjAwMDYyOV84ay5odG0/607f07ceef4b852=
+4a319a23cB77813dda" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> borrowed some new money</a>=C2=A0secured by =
+those brands, and rolled some of the old term lenders into the new facility=
+ in order to get them to vote to approve it. There were various shenanigans=
+ involved, including doing a new revolving loan under the 2016 credit agree=
+ment in order to get just enough votes to approve the new deal. We have dis=
+cussed <a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.26=
+1603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMD=
+cvZGlzdHJlc3NlZC1kZWJ0LWRlYWwtbWFrZXMtcGVvcGxlLW1hZD9jbXBpZD1CQkQwNjIxMjJfT=
+U9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVy=
+bT0yMjA2MjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB2f1679=
+58" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  the basic form of this</a> many <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/28128683.261603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTEvdGVycmEtZmxvcHM_Y21waWQ9QkJEMDYyM=
+TIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjIwNjIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB7=
+44c8c46" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  times</a> before: If you are a company in trouble, you p=
+ay off 51% of your lenders to get them to approve hosing the other 49%. Tha=
+t=E2=80=99s what happened here: Revlon gave some of its lenders a new loan =
+with better security (those brands), making the security for the other lend=
+ers worse. (This is explained in more detail <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/28128683.261603/aHR0cHM6Ly93d3cua3NsYXcuY29tL2F0=
+dGFjaG1lbnRzLzAwMC8wMDgvMTc4L29yaWdpbmFsL1JldmxvbiVFMiU4MCU5OXNfQnJhbmRDb1N=
+waW4tT2ZmX19vcl9KLl9DcmV3X1JldmlzaXRlZC5wZGY_MTU5OTIzNDY4OA/607f07ceef4b852=
+4a319a23cB483e01f1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> here</a>.)</li>=09<li style=3D"margin-bottom=
+: 5px;">The 2016 lenders who didn=E2=80=99t participate in the new BrandCo =
+deal were annoyed: Their collateral had disappeared, and now they were effe=
+ctively junior to the 2020 lenders. They <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/28128683.261603/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1=
+bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3J2Y0xWcGRBcjRRVS92MA/607f07ceef4b8524a319=
+a23cB0cdac811" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> sued</a> Revlon, Citibank and various other people,=
+ claiming that the BrandCo deal violated the 2016 credit agreement and was =
+invalid. If they won =E2=80=A6=C2=A0I dunno, it would be a mess if they won=
+, but generally speaking if they won then they would get those brands back =
+as collateral for their loans.</li>=09<li style=3D"margin-bottom: 5px;">The=
+ day before they filed that lawsuit, Citi paid them off by accident. Oops! =
+This was very funny and we have <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/28128683.261603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjEtMDItMTcvY2l0aS1jYW4tdC1oYXZlLWl0cy05MDAtbWlsbGlvbi1iYWNr=
+P2NtcGlkPUJCRDA2MjEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1=
+uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07c=
+eef4b8524a319a23cB2611efae" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">  talked about it a lot</a>, but the gi=
+st is that Citi, as administrative agent for the loan, was supposed to pass=
+ along a small interest payment from Revlon and accidentally paid off the w=
+hole loan with its own money.</li>=09<li style=3D"margin-bottom: 5px;">Citi=
+ politely asked the 2016 lenders for the money back, but the lenders were r=
+eally mad at Citi for helping with the BrandCo transaction, so some of them=
+ =E2=80=94=C2=A0who had gotten about $500 million of Citi=E2=80=99s money =
+=E2=80=94=C2=A0said no.</li>=09<li style=3D"margin-bottom: 5px;">Citi sued =
+them and, somewhat shockingly, <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/28128683.261603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjEtMDItMTcvY2l0aS1jYW4tdC1oYXZlLWl0cy05MDAtbWlsbGlvbi1iYWNrP=
+2NtcGlkPUJCRDA2MjEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cC2611efae" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  lost</a>.=C2=A0</li>=09<li style=3D"ma=
+rgin-bottom: 5px;">Citi appealed. I assume Citi will win on appeal, but the=
+n I assumed they=E2=80=99d win in the trial court so who knows. The appeal =
+is still pending and could take a while.</li>=09<li style=3D"margin-bottom:=
+ 5px;">Meanwhile the thing everyone worried about happened, and Revlon file=
+d for bankruptcy last week.</li></ul><p style=3D"margin: 16px 0;">This rais=
+es various wild questions. For instance: Who are the creditors on the 2016 =
+term loan, now? There are three main options:</p><ol style=3D"list-style-ty=
+pe: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bo=
+ttom: 5px;"><em>Citi: </em>Citi paid off that $500 million on Revlon=E2=80=
+=99s behalf,=C2=A0so it presumably steps into the shoes of those creditors =
+and has a $500 million bankruptcy claim against Revlon. (This is probably n=
+ot worth $500 million: My Bloomberg screen shows the 2016 term loan trading=
+ below 30 cents on the dollar, while the 2020 BrandCo term loan looks to be=
+ in the 50s.)</li>=09<li style=3D"margin-bottom: 5px;"><em>The original len=
+ders:</em> Maybe Citi will win on appeal, in which case the lenders=C2=A0wi=
+ll have to give back Citi=E2=80=99s $500 million, in which case Revlon will=
+ still owe them the money. =E2=80=9CLawyers for the repaid lenders in the b=
+ankruptcy court hearing on Thursday described their clients as only =E2=80=
+=98contingent creditors=E2=80=99 who since they have already been repaid wi=
+ll not need to participate in the bankruptcy fight unless the appeals court=
+ orders them to return the cash to Citi,=E2=80=9D <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/28128683.261603/aHR0cHM6Ly93d3cuZnQuY29tL2N=
+vbnRlbnQvOTcxNzVmM2UtMjlhZS00ZGNlLTllYTgtNDFjYmRhY2NkOTQ3P3NoYXJlVHlwZT1ub2=
+5naWZ0/607f07ceef4b8524a319a23cBd0c16b85" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> reports Sujeet Indap</a=
+> at the Financial Times. But since it will presumably take a while to find=
+ out, they continue to have some interest in the case.</li>=09<li style=3D"=
+margin-bottom: 5px;"><em>Nobody:=C2=A0Did</em> Citi pay that $500 million o=
+n Revlon=E2=80=99s behalf? Or did it pay the $500 million out of the goodne=
+ss of its heart, discharging Revlon=E2=80=99s obligation to the term lender=
+s but not creating any new obligation to Citi? That seems ridiculous, but o=
+n the other hand Revlon=C2=A0<em>is=C2=A0</em>in bankruptcy so it has an in=
+centive =E2=80=94=C2=A0an obligation, almost =E2=80=94=C2=A0to minimize its=
+ debt load.</li></ol><p style=3D"margin: 16px 0;">Bloomberg=E2=80=99s Jerem=
+y Hill and Eliza Ronalds-Hannon <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/28128683.261603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fyd=
+GljbGVzLzIwMjItMDYtMTYvY2l0aS1zLTkwMC1taWxsaW9uLXJldmxvbi1nYWZmZS1yaXNrcy1n=
+ZXR0aW5nLWV2ZW4tbW9yZS1wYWluZnVsP2NtcGlkPUJCRDA2MjEyMl9NT05FWVNUVUZGJnV0bV9=
+tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYyMSZ1dG1fY2=
+FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB529772f9" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  repor=
+ted last week</a>:=C2=A0</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=
+=9CThere isn=E2=80=99t a lot of law on this,=E2=80=9D said Eric Talley, a C=
+olumbia University law professor who has studied the Citi-Revlon debacle. =
+=E2=80=9CRevlon would like nothing better than to wipe this debt off its bo=
+oks completely and have it be Citibank=E2=80=99s problem.=E2=80=9D</p><p st=
+yle=3D"margin: 16px 0;">The so-called subrogation rights that Citigroup cla=
+ims it has over the $500 million loan principal are a common concept in ins=
+urance law, but are relatively untested in the world of finance, according =
+to Talley. The limited precedent that exists probably falls in Citigroup=E2=
+=80=99s favor, but Revlon=E2=80=99s precarious financial position likely ma=
+kes even a long-shot attempt to wipe out the debt worth considering, he sai=
+d.=C2=A0</p><p style=3D"margin: 16px 0;">In its latest quarterly report, Re=
+vlon said it hasn=E2=80=99t taken a stance on Citigroup=E2=80=99s rights as=
+ creditor. It went a step further this week, saying that if Citigroup ultim=
+ately loses its battle to reclaim the money, Revlon =E2=80=9Creserve all ri=
+ghts and defenses with respect to any claim Citibank may assert against=E2=
+=80=9D the company.=C2=A0</p><p style=3D"margin: 16px 0;">A successful chal=
+lenge of Citigroup=E2=80=99s claim could erase almost 15% of Revlon=E2=80=
+=99s $3.4 billion debt load in an instant, easing the company=E2=80=99s pat=
+h out of bankruptcy. But the scorched-earth tactic is far from a sure thing=
+, and risks souring the company=E2=80=99s relationship with Citigroup, said=
+ Bloomberg Intelligence analyst Phil Brendel, who believes the odds are aga=
+inst Revlon.</p></blockquote><p style=3D"margin: 16px 0;">I can=E2=80=99t i=
+magine Revlon winning that argument, but I can easily imagine them trying.<=
+/p><p style=3D"margin: 16px 0;">But there is another wild question, which i=
+s: What about that lawsuit to set aside the BrandCo deal? If the 2016 term =
+loan lenders win that argument, then their loan will get a higher recovery =
+(they will have a claim on the BrandCo assets) and the 2020 lenders=C2=A0wi=
+ll get a lower recovery (they will have to share the BrandCo assets). But i=
+f they win their Citi appeal, this doesn=E2=80=99t affect them at all: They=
+ already got paid 100 cents on the dollar (by Citi), so they don=E2=80=99t =
+care. They are =E2=80=9Conly =E2=80=98contingent creditors.=E2=80=99=E2=80=
+=9D Still, they=C2=A0<em>are=C2=A0</em>contingent creditors =E2=80=94=C2=A0=
+they might lose on appeal =E2=80=94=C2=A0so they have an interest in arguin=
+g in bankruptcy court that the 2020 BrandCo transaction was invalid and the=
+y should get the BrandCo collateral. (Also, to be fair, some of the objecti=
+ng 2016 lenders gave Citi its money back voluntarily, and remain Revlon cre=
+ditors, so they have a more direct interest.)</p><p style=3D"margin: 16px 0=
+;">You know who else has that interest? Citi. If Citi loses on appeal, then=
+ it (probably?!) steps into the shoes of the 2016 term-loan creditors, with=
+ a $500 million bankruptcy claim against Revlon.[1] It will want that claim=
+ to be more valuable rather than less, which means that =E2=80=94=C2=A0if C=
+iti is in fact a Revlon creditor =E2=80=94=C2=A0then it will want the court=
+ to set aside the BrandCo transaction. The BrandCo transaction that Citi he=
+lped arrange. Here are Hill and=C2=A0Ronalds-Hannon again, citing=C2=A0Bloo=
+mberg Intelligence analyst Phil Brendel:=C2=A0</p><blockquote><p style=3D"m=
+argin: 16px 0;">=E2=80=9CRecall that Citi was a fantastic financing partner=
+ for Revlon in 2020 when it arranged a new revolver just to gerrymander a l=
+ender vote to strip assets from the 2016 term lenders,=E2=80=9D Brendel sai=
+d, referencing a controversial maneuver that benefited a group of senior cr=
+editors now key to the company=E2=80=99s restructuring.=C2=A0</p><p style=
+=3D"margin: 16px 0;">=E2=80=9CNow, through a series of unfortunate mistakes=
+ and luck, Citi finds itself potentially the owner of those loans,=E2=80=9D=
+ Brendel said. =E2=80=9CDo Revlon and its likely new owners now add insult =
+to injury? I don=E2=80=99t think the answer is obvious.=E2=80=9D=C2=A0</p><=
+/blockquote><p style=3D"margin: 16px 0;">Yes but the 2016 term lenders are =
+suing Revlon and Citi for that gerrymandering and asset stripping. And also=
+ Citi now=C2=A0<em>is=C2=A0</em>the biggest 2016 term lender. If Citi loses=
+ its appeal against the other=C2=A0term lenders, it will want those term le=
+nders to win their case against Revlon (and Citi), because that will make t=
+he 2016 term loan that it now owns more valuable.=C2=A0Which means=C2=A0tha=
+t Citi should be =E2=80=A6=C2=A0suing itself =E2=80=A6 to invalidate the tr=
+ansaction that it did? Not really? But a little bit?</p><table class=3D"liv=
+eintent-sponsored-content" width=3D"auto" cellpadding=3D"0" cellspacing=3D"=
+0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODEyODY4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzOTAyODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD1f235330" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28128683&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28390286&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODEyODY4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzOTAyODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE1f235330" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28128683&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28390286&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODEyODY4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzOTAyODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFd4979300" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28128683&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28390286&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODEyODY4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzOTAyODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGd4979300" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28128683&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28390286&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Crypto leverage</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/28128683.261603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMTUvY3J5cHRvLWRlYnQtY2FuLWJlLXRyb3VibGU=
+_Y21waWQ9QkJEMDYyMTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW=
+5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ce=
+ef4b8524a319a23cBd76e3174" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> talked</a> a few <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/28128683.261603/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMDEvY3J5cHRvLWNsZWFyaW5nLWFuZC1=
+jcmVkaXQ_Y21waWQ9QkJEMDYyMTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc2=
+91cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/=
+607f07ceef4b8524a319a23cBd2362938" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> times</a> recently about how pe=
+ople borrow money to=C2=A0do leveraged trading in decentralized finance, an=
+d how it differs from leveraged trading in traditional finance. One key dif=
+ference is:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; m=
+argin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">In traditional finance=
+, if you have borrowed money to buy some stocks, and the stocks have gone d=
+own, your broker will call you up and say =E2=80=9Chey could you post more =
+collateral.=E2=80=9D Ideally you post the collateral and everything is fine=
+. Sometimes you don=E2=80=99t, and your broker sells the stocks at hopefull=
+y a high enough price to pay off your loan. But sometimes you say =E2=80=9C=
+sorry, I can=E2=80=99t post any more collateral today, but I can try tomorr=
+ow,=E2=80=9D and your broker=C2=A0gives you another day.</li>=09<li style=
+=3D"margin-bottom: 5px;">In decentralized finance, if you have borrowed mon=
+ey (stablecoins)=C2=A0to buy some crypto, and the crypto has gone down, a r=
+obot sells your crypto at hopefully a high enough price to pay off your loa=
+n, automatically and without bothering to call you.</li></ol><p style=3D"ma=
+rgin: 16px 0;">I have mostly emphasized that the traditional approach can b=
+e=C2=A0more generous to you, the borrower: Sometimes you don=E2=80=99t=C2=
+=A0pay back your loan, but your broker gives you more time. Why would the b=
+roker do this? Well, you might be a good customer, and the broker won=E2=80=
+=99t want to make you mad. Or you might be a big=C2=A0fund, and the broker =
+will think =E2=80=9Csure this=C2=A0<em>position=C2=A0</em>is undercollatera=
+lized but all in all they=E2=80=99re good for it.=E2=80=9D Or you might be =
+so big that the broker will think =E2=80=9Cif I liquidate this position it =
+is going to crash the market and cause a systemic crisis, whereas if I just=
+ give them another day to pay maybe everything will be fine.=E2=80=9D[2]=C2=
+=A0</p><p style=3D"margin: 16px 0;">Or you might say =E2=80=9Csorry, can=E2=
+=80=99t make a margin call right now, I=E2=80=99m on vacation with limited =
+cell service=E2=80=9D and your broker might say =E2=80=9Cah we=E2=80=99ve a=
+ll been there=E2=80=9D and give you another week. (True story: Once, when I=
+ was a banker, I sent a Brazilian client a large margin call. They said =E2=
+=80=9Cit=E2=80=99s Carnival, sorry, try us next week.=E2=80=9D I gulped and=
+ waited. It worked out fine!)=C2=A0</p><p style=3D"margin: 16px 0;">The cry=
+pto robots don=E2=80=99t do any of this sort of thinking. They just look at=
+ the collateral, look at the position, and if the collateral is too low the=
+y liquidate. The crypto system is often stricter, which is good (less build=
+up of systemic risk) and bad (harder to sleep).</p><p style=3D"margin: 16px=
+ 0;">On the other hand, the traditional approach can also be stricter. Some=
+times your stocks=C2=A0<em>haven=E2=80=99t=C2=A0</em>gone down, and your br=
+oker calls you up and says =E2=80=9Chey we are changing our margining requi=
+rements and would like you to post more collateral.=E2=80=9D And if you say=
+ no, the broker will (eventually) liquidate your position.</p><p style=3D"m=
+argin: 16px 0;">Why would the broker do this? Well, there might be a new ri=
+sk manager at your broker, and she might want more collateral. Or volatilit=
+y might have gone up and your broker=E2=80=99s model now demands more colla=
+teral. Or your stocks might have gone=C2=A0<em>up</em>, and your broker mig=
+ht say =E2=80=9Cthis position is so big that we need to manage the risk mor=
+e strictly.=E2=80=9D Or your broker might have heard a rumor that you are i=
+n financial trouble. Or your broker might have heard a rumor that a bunch o=
+f other investors are in trouble, so it is=C2=A0tightening up collateral ac=
+ross the board. Or something else.</p><p style=3D"margin: 16px 0;"><em>Can=
+=C2=A0</em>your broker do this? Does your contract with your broker allow t=
+hem to just call you up for more collateral? The short answer is, sure, pro=
+bably; brokers are good at protecting themselves. The longer answer is that=
+ you are all embedded in a fuzzy system of repeat players and you cannot ig=
+nore your broker=E2=80=99s demands forever, even if your current contract f=
+avors you.=C2=A0If your broker asks you for more collateral then, in the lo=
+ng run, your choices are (1) post more collateral or (2) find another broke=
+r;=C2=A0<em>either=C2=A0</em>of those approaches accomplishes the broker=E2=
+=80=99s essential goal of reducing its risk exposure.=C2=A0</p><p style=3D"=
+margin: 16px 0;">This is actually an=C2=A0element of <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/28128683.261603/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMjkvYXJjaGVnb3Mtd2FzLXRvby1idXN=
+5LWZvci1tYXJnaW4tY2FsbHM_Y21waWQ9QkJEMDYyMTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT=
+1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjIxJnV0bV9jYW1wYWlnb=
+j1tb25leXN0dWZm/607f07ceef4b8524a319a23cB1656f570" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> the Archegos Ca=
+pital Management story</a>: When Credit Suisse Group AG called Archegos for=
+ more collateral, it was=C2=A0<em>not=C2=A0</em>because Archegos=E2=80=99s =
+stocks had gone down; they had gone <em>up</em>, and Credit Suisse took a c=
+loser look at its margin provisions and realized they were not great, so it=
+ called up Archegos and asked to change those provisions. Archegos said =E2=
+=80=9Cwe=E2=80=99ll get back to you=E2=80=9D and then imploded, oops. But t=
+he basic story is that Credit Suisse tried to adjust its margin provisions =
+on the fly to address newly salient risks, and Archegos was at least in the=
+ory willing to work with Credit Suisse on that.</p><p style=3D"margin: 16px=
+ 0;">Meanwhile in decentralized finance, if you wake up one morning to real=
+ize that a whale has built up a huge position in an increasingly volatile m=
+arket, and that your margin provisions are not adequate to protect you if y=
+ou need to close the position, what do you do? I mean =E2=80=A6=C2=A0kind o=
+f the same sorts of ad hoc things that you=E2=80=99d do in traditional fina=
+nce, but you get a lot more grief for it.</p><p style=3D"margin: 16px 0;">S=
+olend is a DeFi=C2=A0lending platform on the Solana blockchain. It =E2=80=
+=A6=C2=A0discovered? =E2=80=A6=C2=A0that it has one =E2=80=9Cwhale=E2=80=9D=
+ client who has borrowed a huge amount of stablecoins from Solend to fund a=
+ position in Solana=E2=80=99s native SOL token. If the price of SOL falls t=
+oo far, the Solend smart contract will automatically start liquidating the =
+whale=E2=80=99s position in a way that will apparently overwhelm market liq=
+uidity, crater the price of SOL and cause huge losses for Solend and its ow=
+n depositors (the people who put up the stablecoins that Solend is lending =
+to the whale). <a href=3D"https://link.mail.bloombergbusiness.com/click/281=
+28683.261603/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL2J1c2luZXNzLzIwMjIvMDYvMjAvc2=
+9sZW5kcy13aGFsZS1saXF1aWRhdGlvbi1jcmlzaXMtcHJvbXB0cy1zZWNvbmQtdm90ZS10by1yZ=
+XZlcnNlLWVtZXJnZW5jeS1wb3dlcnMv/607f07ceef4b8524a319a23cB2a992a3f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+CoinDesk reports</a>:</p><blockquote><p style=3D"margin: 16px 0;">The anony=
+mous wallet at the heart of the crisis had deposited 95% of Solend=E2=80=99=
+s entire SOL pool and represented 88% of USDC borrowing. But Solend=E2=80=
+=99s single-largest user came dangerously close to a massive margin call wi=
+th SOL=E2=80=99s cratering price. If SOL hit $22.30, the protocol would aut=
+omatically liquidate up to 20% of the whale=E2=80=99s collateral.</p></bloc=
+kquote><p style=3D"margin: 16px 0;">To avoid this, Solend decided to amend =
+the smart contract to let Solend=E2=80=99s team take over the whale=E2=80=
+=99s position and start liquidating it in over-the-counter transactions=C2=
+=A0<em>before=C2=A0</em>it hits the margin trigger. To do this, it put the =
+proposal to a vote of its decentralized autonomous organization; from <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aHR0cHM=
+6Ly9ibG9nLnNvbGVuZC5maS9zbG5kMS1taXRpZ2F0ZS1yaXNrLWZyb20td2hhbGUtMTUwNDI4NW=
+FiNGQy/607f07ceef4b8524a319a23cB17b34cca" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Solend=E2=80=99s blog po=
+st</a>:</p><blockquote><p style=3D"margin: 16px 0;">Any action we take (inc=
+luding inaction) has a set of trade offs to consider. <strong>There is no p=
+erfect solution.</strong> With that in mind, the action we believe would re=
+sult in the best outcome is as follows:</p><p style=3D"margin: 16px 0;">Ena=
+ct special margin requirements for large whales that represent over 20% of =
+borrows. If a user=E2=80=99s borrows amount to over 20% of all borrows for =
+the Main Pool, a special liquidation threshold of 35% is required. This pol=
+icy will go into effect upon approval of the proposal.</p><p style=3D"margi=
+n: 16px 0;">Grant emergency power to Solend Labs to temporarily take over t=
+he whale=E2=80=99s account so the liquidation can be executed OTC and avoid=
+ pushing Solana to its limits. This would be done via a smart contract upgr=
+ade. Emergency powers will be revoked once the whale=E2=80=99s account reac=
+hes a safe level.</p></blockquote><p style=3D"margin: 16px 0;">The proposal=
+ passed, but in a hasty way that led to lots of objections, so they walked =
+it back: Solend introduced <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/28128683.261603/aHR0cHM6Ly9ibG9nLnNvbGVuZC5maS9zbG5kMi1pbnZhbGlkYX=
+RlLXNsbmQxLWFuZC1pbmNyZWFzZS12b3RpbmctdGltZS1jZGIzZmU1YjMyOTM/607f07ceef4b8=
+524a319a23cB3bb5797a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">another proposal</a> to rescind the first one=
+, and then <a href=3D"https://link.mail.bloombergbusiness.com/click/2812868=
+3.261603/aHR0cHM6Ly9ibG9nLnNvbGVuZC5maS9zbG5kMy1pbnRyb2R1Y2UtYWNjb3VudC1ib3=
+Jyb3ctbGltaXQtMTkwMzA3OTJlYjhj/607f07ceef4b8524a319a23cBc5e14ad0" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+a third</a> to create new position limits to mitigate this risk in a more m=
+echanical way.=C2=A0</p><p style=3D"margin: 16px 0;">I suppose you could co=
+nclude something along the lines of:</p><ol style=3D"list-style-type: decim=
+al; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px=
+;">In traditional finance, this stuff is managed through a combination of c=
+ontractual remedies, background legal and equitable principles, and fuzzy r=
+elationships and reputations.</li>=09<li style=3D"margin-bottom: 5px;">In d=
+ecentralized finance, people like to say that =E2=80=9Ccode is law=E2=80=9D=
+:=C2=A0Everything is supposed to be transparent and deterministic; smart co=
+ntracts specify exactly what happens in every case.</li>=09<li style=3D"mar=
+gin-bottom: 5px;">Code is not law. Sometimes the smart contracts do not=C2=
+=A0cover the cases you end up caring about, or they do, but not in the way =
+anyone wants.</li>=09<li style=3D"margin-bottom: 5px;">Nothing else is law =
+either, so you make things up from scratch.</li></ol><p style=3D"margin: 16=
+px 0;">Elsewhere in crypto leverage =E2=80=A6=C2=A0uh, I dunno, there=E2=80=
+=99s a lot of it?</p><ul style=3D"list-style-type: disc; padding-left: 40px=
+; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">=E2=80=9C<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/28128683.261603/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDYtMjAvZGlzdHJlc3NlZC1jcnl=
+wdG8tbGVuZGVyLWJhYmVsLXdpbnMtcmVwcmlldmUtb24tZGVidC1wYXltZW50cz9jbXBpZD1CQk=
+QwNjIxMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlc=
+iZ1dG1fdGVybT0yMjA2MjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319=
+a23cBf4fcd27c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">Babel Finance</a>, the distressed crypto lender whic=
+h froze withdrawals on Friday, said it won a reprieve on debt repayments as=
+ it battles to survive a tumultuous slump in cryptocurrency markets.=E2=80=
+=9D</li>=09<li style=3D"margin-bottom: 5px;">=E2=80=9C<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/28128683.261603/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDYtMjAvdHJvdWJsZWQtY3J5cHRvLWxlbmRlci=
+1jZWxzaXVzLXNlZWtzLXRpbWUtdG8tc3RhYmlsaXplLWxpcXVpZGl0eT9jbXBpZD1CQkQwNjIxM=
+jJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1f=
+dGVybT0yMjA2MjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBd4=
+29c5a1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">Celsius Network Ltd.</a> will  need more time to stabilize =
+its liquidity and operations, the embattled crypto lending platform said in=
+ a blog post after it froze deposits last week.=E2=80=9D</li>=09<li style=
+=3D"margin-bottom: 5px;">=E2=80=9CCryptocurrency-focused hedge fund <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy9iYXR0ZXJlZC1jcnlwdG8taGVkZ2UtZnVuZC10aHJlZS1h=
+cnJvd3MtY2FwaXRhbC1jb25zaWRlcnMtYXNzZXQtc2FsZXMtYmFpbG91dC0xMTY1NTQ2OTkzMg/=
+607f07ceef4b8524a319a23cB01fec27b" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> Three Arrows Capital Ltd.</a> h=
+as hired legal and financial advisers to help work out a solution for its i=
+nvestors and lenders, after suffering heavy losses from a broad market sell=
+off in digital assets, the firm=E2=80=99s founders said on Friday.=E2=80=9D=
+</li>=09<li style=3D"margin-bottom: 5px;">=E2=80=9CCrypto lending platform =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly93d3cuY29pbmRlc2suY29tL2J1c2luZXNzLzIwMjIvMDYvMjEvYmxvY2tmaS1yZWNla=
+XZlcy0yNTBtLWNyZWRpdC1mYWNpbGl0eS1mcm9tLWZ0eC8/607f07ceef4b8524a319a23cBbe6=
+dac02" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> BlockFi</a> announced that it has secured a $250 million re=
+volving credit facility from FTX, BlockFi CEO Zac Prince said in a tweet on=
+ Tuesday, and the company subsequently announced in a press release.=E2=80=
+=9D</li></ul><p style=3D"margin: 16px 0;">Also here is=C2=A0<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/28128683.261603/aHR0cHM6Ly90d2l0d=
+GVyLmNvbS9iYW5jb3Ivc3RhdHVzLzE1Mzg2NjIyOTc2MzUyODI5NDk_cz0xMSZ0PTdTVnd1OFdL=
+TzZ2SE9UTGRWcU4zaFE/607f07ceef4b8524a319a23cB0e955e41" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">a sentence t=
+hat I love</a>: =E2=80=9CDue to hostile market conditions, Bancor=E2=80=99s=
+ Impermanent Loss Protection is temporarily paused.=E2=80=9D I don=E2=80=99=
+t know why I find it so funny. It=E2=80=99s, like, doubly temporary. In the=
+ long run everything is fine! In the short run, things are troubling, but o=
+nly temporarily and also impermanently.</p><p style=3D"margin: 16px 0;">=E2=
+=80=9CImpermanent loss=E2=80=9D <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/28128683.261603/aHR0cHM6Ly9hY2FkZW15LmJpbmFuY2UuY29tL2VuL2Fyd=
+GljbGVzL2ltcGVybWFuZW50LWxvc3MtZXhwbGFpbmVk/607f07ceef4b8524a319a23cB34264e=
+74" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">basically means</a> that if you act as a market maker in crypt=
+o, and the market moves away from you, you lose money. (There is nothing pa=
+rticularly impermanent about this; the name is=C2=A0just a hilarious bit of=
+ branding.) Bancor runs an automated market maker system that uses customer=
+s=E2=80=99 crypto deposits to make markets, and when its customers have =E2=
+=80=9Cimpermanent loss,=E2=80=9D Bancor prints more of its own BNT tokens a=
+nd gives them to the customers to make them whole. That is a system that wo=
+rks great as long as crypto is generally going up: Bancor can keep printing=
+ tokens, which keep getting more valuable, which means it can pay everyone =
+who loses money on a trade. When the token goes down it stops working. From=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/a=
+HR0cHM6Ly9ibG9nLmJhbmNvci5uZXR3b3JrL21hcmtldC1jb25kaXRpb25zLXVwZGF0ZS1qdW5l=
+LTE5LTIwMjItZTViODU3YjM5MzM2/607f07ceef4b8524a319a23cBc570b3eb" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">Ban=
+cor=E2=80=99s blog post</a>:</p><blockquote><p style=3D"margin: 16px 0;">BN=
+T rewards effectively have a double-cost:</p><p style=3D"margin: 16px 0;">T=
+hey depreciate the BNT value, resulting in impermanent loss on the network.=
+</p><p style=3D"margin: 16px 0;">This IL is compensated with additional BNT=
+ emissions, causing further value depreciation.</p></blockquote><p style=3D=
+"margin: 16px 0;">The intuition is that if the price of BNT goes down, Banc=
+or will print more BNT to make the BNT holders whole for the loss. But prin=
+ting more BNT to give to BNT holders makes the price go down more, etc. Thi=
+s is not the same mechanic as <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28128683.261603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjItMDUtMTEvdGVycmEtZmxvcHM_Y21waWQ9QkJEMDYyMTIyX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjIxJ=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cC744c8c46" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ what happened to TerraUSD</a>, but it has a family resemblance. (Actually =
+it has a family resemblance to a lot of crypto mechanics, in which people a=
+re often incentivized to hold some token by printing more of that token, an=
+d new money flowing into the system counteracts the inflationary effects of=
+ that printing =E2=80=94=C2=A0until the new money stops flowing.) And so no=
+w Bancor=E2=80=99s impermanent loss protection is temporarily paused.=C2=A0=
+</p><table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yODEyODY4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzOTAyODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH3cf00cd6" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D28128683&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28390286&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">A tax trade</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is a schematic tax trade. In=C2=
+=A0US federal income taxation, long-term capital gains =E2=80=94=C2=A0net g=
+ains on assets held for more than a year =E2=80=94=C2=A0are taxed at low ra=
+tes, while short-term capital gains =E2=80=94=C2=A0less than a year =E2=80=
+=94=C2=A0are taxed at high rates. The trade is:</p><ol style=3D"list-style-=
+type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-=
+bottom: 5px;">All year, generate a lot of short-term capital gains, for ins=
+tance by operating a market-making business that turns over an inventory of=
+ stocks and options many times each day.</li>=09<li style=3D"margin-bottom:=
+ 5px;">On Jan. 1, buy 100 stocks, and short 100 different but correlated st=
+ocks.</li>=09<li style=3D"margin-bottom: 5px;">On Dec. 30, close out the lo=
+sing position from Step 2: If the stocks are up, buy back the ones you shor=
+ted; if they=E2=80=99re down, sell the ones you bought. Now you have short-=
+term capital losses that offset your short-term capital gains.</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">The next Jan. 2, close out the winning positio=
+n from Step 2: If stocks are up, sell the ones you bought; if they=E2=80=99=
+re down, buy back the ones you shorted. Now you have long-term capital gain=
+s that offset your short-term capital losses.</li>=09<li style=3D"margin-bo=
+ttom: 5px;">The net <em>pre-tax</em> result is that=C2=A0your trades from S=
+teps 2 through 4=C2=A0offset each other: Nothing has happened, economically=
+, between Step 2 and Step 4, and you are just left with your trading gains =
+from Step 1.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">The net <em>pos=
+t-tax</em> result is that you have transformed the short-term capital gains=
+ from Step 1 into the long-term capital gains in Step 4, saving yourself a =
+lot of taxes.</li></ol><p style=3D"margin: 16px 0;">This is a schematic sim=
+ple version, and in the real world various nuances and complications are re=
+quired. Of course, you=C2=A0could imagine an even simpler version: In Step =
+2, instead of buying some stocks and shorting some other stocks, you could =
+just buy a ton of one stock and short a ton of=C2=A0<em>the same stock</em>=
+. But this is frowned upon: It is called a =E2=80=9Cstraddle=E2=80=9D in ta=
+x law, and you can=E2=80=99t use losses on a straddle to offset other incom=
+e.[3] You basically want to do a trade that is correlated enough to=C2=A0<e=
+m>work=C2=A0</em>=E2=80=94=C2=A0to generate roughly offsetting gains and lo=
+sses without too much risk of the losses totally swamping the gains =E2=80=
+=94=C2=A0but uncorrelated enough to get by the tax authorities.=C2=A0</p><p=
+ style=3D"margin: 16px 0;">Here is a fun <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/28128683.261603/aHR0cHM6Ly93d3cucHJvcHVibGljYS5vcmcv=
+YXJ0aWNsZS9qZWZmLXlhc3Mtc3VzcXVlaGFubmEtdGlrdG9rLXRheC1hdm9pZGFuY2U/607f07c=
+eef4b8524a319a23cB641d9ed9" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">ProPublica story</a> about Jeffrey Yass=
+ and the other partners of Susquehanna International Group, which allegedly=
+ does this sort of stuff:</p><blockquote><p style=3D"margin: 16px 0;">Since=
+ 2011, IRS records show, a partnership called Susquehanna Fundamental Inves=
+tments has been the source of the majority of long-term gains for Yass and =
+his partners. Every year, it channeled hundreds of millions in long-term ga=
+ins to them, while also providing hundreds of millions in short-term losses=
+.</p><p style=3D"margin: 16px 0;">Year after year, the gains and losses ros=
+e and fell roughly in tandem, as if one were a near reflection of the other=
+. In 2015, for example, Susquehanna Fundamental produced $774 million in lo=
+ng-term gains and $787 million in short-term losses for Yass. In 2017 it wa=
+s $940 million in long-term gains and $902 million in short-term losses. =
+=E2=80=A6</p><p style=3D"margin: 16px 0;">Susquehanna Fundamental held bill=
+ions of dollars of individual stocks such as Google, Wells Fargo and, as it=
+ happens, Coca-Cola. These stocks were among the largest companies in the S=
+&amp;P 500 index.</p><p style=3D"margin: 16px 0;">Meanwhile, the fund also =
+held a large bet against the S&amp;P 500. In essence, it held a bet against=
+ many of those exact same stocks.</p><p style=3D"margin: 16px 0;">On its fa=
+ce, the fund actually lost money for Yass: Over eight years, it registered =
+$5.4 billion in losses against $5 billion in gains =E2=80=94 a net loss bef=
+ore taxes. But by transforming the tax rate on so much income, it delivered=
+ $1.1 billion in tax savings, and Yass came out way ahead.</p></blockquote>=
+<p style=3D"margin: 16px 0;">This is not quite as lovely as <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/28128683.261603/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTQtMDctMjIvc2VuYXRlLWxpdGVyYXJ5=
+LWNyaXRpY3MtZG9uLXQtbGlrZS1maWN0aW9uYWwtZGVyaXZhdGl2ZXM_Y21waWQ9QkJEMDYyMTI=
+yX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3=
+Rlcm09MjIwNjIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2eb=
+719dc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> the Renaissance Technologies approach</a> of putting all th=
+e short-term trades into a basket =E2=80=9Cowned=E2=80=9D by an investment =
+bank and then buying an =E2=80=9Coption=E2=80=9D on that basket, but I gues=
+s it does the job.</p><table class=3D"header" width=3D"100%" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Musk Stuff</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Bloomberg News Editor-in-Chief John Mi=
+cklethwait <a href=3D"https://link.mail.bloombergbusiness.com/click/2812868=
+3.261603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDYtMj=
+EvZWxvbi1tdXNrLWludGVydmlldy1pbi1mdWxsLW9uLWRvZ2Vjb2luLXRydW1wLXR3aXR0ZXItd=
+GVzbGEtYW5kLXJlY2Vzc2lvbj9jbXBpZD1CQkQwNjIxMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVt=
+PWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MjEmdXRtX2NhbXBhaWd=
+uPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB4ebe8158" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> interviewed El=
+on Musk</a>, and of course they touched on his deal to buy Twitter Inc.:</p=
+><blockquote><p style=3D"margin: 16px 0;"><strong>Musk:</strong>=C2=A0So wi=
+th respect to the Twitter transaction, there=E2=80=99s a limit to what I ca=
+n say publicly given that it is somewhat of a sensitive matter. So I like t=
+o be measured in my responses here, such as not to generate incremental law=
+suits.</p><p style=3D"margin: 16px 0;"><strong>Micklethwait:</strong> That =
+seems to be a risk you sometimes manage to overcome.</p><p style=3D"margin:=
+ 16px 0;"><strong>Musk:</strong>=C2=A0Yes, deposition minimization, I think=
+, is important.</p><p style=3D"margin: 16px 0;"><strong>Micklethwait:</stro=
+ng> Has Twitter given you enough information?</p><p style=3D"margin: 16px 0=
+;"><strong>Musk:</strong>=C2=A0Well, there are still a few unresolved matte=
+rs. You=E2=80=99ve probably read about the question as to whether the numbe=
+r of fake and spam users on the system is less than 5% as Twitter claims, w=
+hich I think is probably not most people=E2=80=99s experience when using Tw=
+itter. So we=E2=80=99re still awaiting resolution on that matter, and that =
+is a very significant matter. So we=E2=80=99re awaiting resolution on that.=
+ And then of course, there is the question of, will the debt portion of the=
+ round come together? And then will the shareholders vote in favor? So I th=
+ink those are the three things that need to be resolved before the transact=
+ion can complete.</p></blockquote><p style=3D"margin: 16px 0;">Nope! The <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMDYvZWxvbi1=
+oYXMtYS1uZXctYm90LWV4Y3VzZT9jbXBpZD1CQkQwNjIxMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MjEmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB87a2efac" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> bot thing</a=
+> is <a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.2616=
+03/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTcv=
+ZWxvbi1tdXNrLWRvZXMtbm90LWNhcmUtYWJvdXQtc3BhbS1ib3RzP2NtcGlkPUJCRDA2MjEyMl9=
+NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZX=
+JtPTIyMDYyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBe2c51=
+155" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> completely fake</a>, and =E2=80=9Cresolving=E2=80=9D it is no=
+t in any way a condition to the closing of the transaction. The shareholder=
+ vote certainly is, but Twitter closed on Friday at $37.78 and Musk=E2=80=
+=99s deal is for $54.20 per share in cash,=C2=A0so shareholders are definit=
+ely going to approve it. =E2=80=9CThe debt portion of the round=E2=80=9D is=
+ committed financing from Musk=E2=80=99s banks; they have no market out, an=
+d there is no financing condition to Musk=E2=80=99s obligations, so it is n=
+ot exactly true that anything about the debt would =E2=80=9Cneed to be reso=
+lved before the transaction can complete.=E2=80=9D[4] I am not saying that =
+Musk won=E2=80=99t find a way out of the deal; I am just saying that none o=
+f his excuses=C2=A0make any sense.=C2=A0</p><table class=3D"header" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Universal owners</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/28128683.261603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjItMDYtMTYvcHJpdmF0ZS1tYXJrZXRzLXdpbGwtcHVtcC10aGUtb=
+2lsP2NtcGlkPUJCRDA2MjEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJj=
+ZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f=
+07ceef4b8524a319a23cB87e1ddb9" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> wrote on Thursday</a> about how the=
+ interests of universal asset owners =E2=80=94=C2=A0people who own 10% (or =
+whatever) of every public company =E2=80=94=C2=A0differ from the interests =
+of concentrated owners of a single, say, oil company. In particular, I note=
+d:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16=
+px 0;">=09<li style=3D"margin-bottom: 5px;">Owners of a single oil company =
+will want it to drill more oil when prices are high, because it can sell th=
+at oil at high prices. Owners of every oil company will want them all to ex=
+ercise some capital discipline, since if they=C2=A0<em>all </em>drill more =
+oil prices will go down. Universal ownership, the theory goes, is anti-comp=
+etitive: Universal owners will want to keep margins high rather than increa=
+se production.</li>=09<li style=3D"margin-bottom: 5px;">Owners of a single =
+oil company will want it to drill more oil, but universal owners will be mo=
+re concerned about the effects of climate change on all their other portfol=
+io companies, and so will want to reduce drilling all around.</li></ol><p s=
+tyle=3D"margin: 16px 0;">Several people pointed out an offsetting=C2=A0cons=
+ideration: Universal owners should want lower oil prices right now, because=
+ in the actual world high oil prices seem to be driving inflation and econo=
+mic worry. If oil prices were lower, then all the other companies that the =
+universal owners own would be making more money now, though in the long run=
+ they=E2=80=99d have to worry about climate change etc.</p><p style=3D"marg=
+in: 16px 0;">That seems right.=C2=A0Which set of concerns dominates is=C2=
+=A0an empirical question. We were talking about this on Thursday because th=
+e founder of Continental Resources Inc. wants to take his company private t=
+o avoid meddling public investors, and my sense is that in general US oil-c=
+ompany managers feel like their public investors are more interested in cap=
+ital discipline and environmental, social and governance concerns than they=
+ are in drilling more oil.=C2=A0</p><p style=3D"margin: 16px 0;">One point =
+here=C2=A0is that the meaning of =E2=80=9Cenvironmental, social and governa=
+nce=E2=80=9D investing can change as facts in the world change. In a world =
+where inflation is low, the economy is booming and Russia has not invaded U=
+kraine, drilling oil can look like a bad-for-ESG business. In a world where=
+ inflation is high, recession is looming and high oil prices fund a Russian=
+ invasion, drilling for oil can look pretty noble.</p><table class=3D"heade=
+r" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloomberg=
+business.com/click/28128683.261603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjItMDYtMjEva2VsbG9nZy1wbGFucy10by1zcGxpdC1pbnRvLXRocmVlLWJ=
+1c2luZXNzZXMtdG8tcHJvbW90ZS1ncm93dGg_Y21waWQ9QkJEMDYyMTIyX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjIxJnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB85d0ed85" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Kel=
+logg</a> Will Split Into Three Companies to Promote Growth. EY=E2=80=99s <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aHR0=
+cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9leXMtYnJlYWt1cC1wbGFuLW1lYW5zLXdpbmRmYWx=
+scy1mb3ItcGFydG5lcnMtMTE2NTU3MjY4Mzg_bW9kPWhwX2xlYWRfcG9zMQ/607f07ceef4b852=
+4a319a23cB7d51a8a5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Breakup Plan</a> Means Windfalls for Partners=
+.=C2=A0JetBlue <a href=3D"https://link.mail.bloombergbusiness.com/click/281=
+28683.261603/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9qZXRibHVlLWxpZnRzLW9mZm=
+VyLWZvci1zcGlyaXQtYWlybGluZXMtY29tbWl0cy10by1zZWxsaW5nLWFzc2V0cy0xMTY1NTc2M=
+DQwNj9tb2Q9aHBfbGVhZF9wb3M0/607f07ceef4b8524a319a23cB79e9845a" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">Lift=
+s Offer</a> for Spirit Airlines, Commits to Selling Assets. Have banks fixe=
+d their <a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.2=
+61603/aHR0cHM6Ly93d3cuaWZyZS5jb20vc3RvcnkvMzQwOTg0Ny9oYXZlLWJhbmtzLWZpeGVkL=
+XRoZWlyLXN0cnVjdHVyZWQtcHJvZHVjdHMtcHJvYmxlbS0ya3ZuOTdxZG15/607f07ceef4b852=
+4a319a23cBfea89987" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">structured products</a> problem? Europe <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aHR0cHM=
+6Ly93d3cuZnQuY29tL2NvbnRlbnQvZTEzNzk5OTYtMjIzZC00NjNhLTljOTYtYjY2MDc3NmQ5Mj=
+A3/607f07ceef4b8524a319a23cB5681ee77" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">does not face</a> fresh sover=
+eign debt crisis, says eurogroup chief. Germany spars with ECB over <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvYWE2MWM5YTMtYTc2ZS00MTI0LWJiNDctNDE2MDMzYjRlMzg0=
+/607f07ceef4b8524a319a23cB95fdabba" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">bond market risks</a>. Long sha=
+dow of <a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.26=
+1603/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMmM3MTI4ZDAtYjVmYy00ZDFiLWJmOTUtND=
+lhODg2ZTI4ZDE3/607f07ceef4b8524a319a23cB76125483" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">Russian money</a>=
+ raises tricky questions for Swiss bankers. Former Goldman Sachs MD Is Publ=
+ishing a Book Alleging <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/28128683.261603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjItMDYtMTcvZm9ybWVyLWdvbGRtYW4tbWQtdG8tcHVibGlzaC10ZWxsLWFsbC1hbGxlZ2luZ=
+y1hYnVzZS1hbmQtYXR0YWNrP2NtcGlkPUJCRDA2MjEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09=
+ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYyMSZ1dG1fY2FtcGFpZ24=
+9bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBffd412af" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> Abuse and Attac=
+k</a>.=C2=A0Empty Wall Street Offices to Be <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/28128683.261603/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY=
+2xlcy9lbXB0eS13YWxsLXN0cmVldC1vZmZpY2VzLXRvLWJlLXJldml2ZWQtYXMtYXBhcnRtZW50=
+cy0xMTY1NTgxMjgwMT9tb2Q9aHBfbWFqb3JfcG9zMSNjeHJlY3Nfcw/607f07ceef4b8524a319=
+a23cB8a3fc7f7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">Revived as Apartments</a>. Machine Learning Can <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aHR0cH=
+M6Ly93d3cubmJlci5vcmcvcGFwZXJzL3czMDE3MCNmcm9tcnNz/607f07ceef4b8524a319a23c=
+Bac4b54a5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">Predict Shooting Victimization</a> Well Enough to Help P=
+revent It. SpaceX <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+28128683.261603/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjI=
+tMDYtMTcvc3BhY2V4LWZpcmVzLWVtcGxveWVlcy1vdmVyLWxldHRlci1jcml0aWNhbC1vZi1tdX=
+NrLXMtYmVoYXZpb3I_Y21waWQ9QkJEMDYyMTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpb=
+CZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjIxJnV0bV9jYW1wYWlnbj1tb25l=
+eXN0dWZm/607f07ceef4b8524a319a23cB8674da3d" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> Fires Employees</a> Ov=
+er Letter Critical of CEO Musk. Elon Musk's Boring Co. Is <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/28128683.261603/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDYtMTUvZWxvbi1tdXNrLXMtYm9yaW5nLW=
+NvLWlzLWZldWRpbmctd2l0aC10ZXhhcy1vdmVyLWEtZHJpdmV3YXk_Y21waWQ9QkJEMDYyMTIyX=
+01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rl=
+cm09MjIwNjIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB9fc06=
+524" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Feuding With Texas</a> Over a Driveway. =E2=80=9CIt=E2=80=99s=
+ not like I have a catalog and, like, now I can release all of <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/28128683.261603/aHR0cHM6Ly93d3=
+cubnl0aW1lcy5jb20vMjAyMi8wNi8xNy9zdHlsZS9sb3Vpcy10aGVyb3V4LWppZ2dsZS1qaWdnb=
+GUtdGlrdG9rLmh0bWw_c21pZD10dy1zaGFyZQ/607f07ceef4b8524a319a23cBed830234" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">my other novelty rap fragments</a>.=E2=80=9D</p><p style=3D"margin: 1=
+6px 0;"><span class=3D"news-designed-for-consumer-media"><em>If you'd like =
+to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox,=
+ please=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/28128=
+683.261603/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20v=
+bW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/=
+607f07ceef4b8524a319a23cB04dc7d4f" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">subs=
+cribe at this link</a>. Or you can subscribe to Money Stuff and other great=
+ Bloomberg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/28128683.261603/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/6=
+07f07ceef4b8524a319a23cB475286c1" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin=
+: 16px 0;"><em>[1] Actually maybe more: Citi paid off about $900 million of=
+ term loan by accident, but got about $400 million back. Some of that was s=
+ubject to agreements that if Citi lost in court on the other $500 million, =
+it would have to return that money too. I dunno.</em></p><p style=3D"margin=
+: 16px 0;"><em>[2] I am saying =E2=80=9Cbroker=E2=80=9D for simplicity but =
+in fact the issue is often not between brokers and customers but rather bet=
+ween <a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.2616=
+03/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMjkv=
+cmVkZGl0LXRyYWRlcnMtb24tcm9iaW5ob29kLWFyZS1vbi1ib3RoLXNpZGVzLW9mLWdhbWVzdG9=
+wP2NtcGlkPUJCRDA2MjEyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cBaefd7d2b" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">clearinghouses and brokers</a>. Anothe=
+r difference between decentralized finance and traditional finance is that =
+DeFi tends to be sort of flat =E2=80=94=C2=A0all sorts of customers trade d=
+irectly with exchanges, etc. =E2=80=94=C2=A0while tradfi tends to be sort o=
+f hierarchical, with customers trading through brokers who trade through cl=
+earing brokers who trade through clearinghouses, etc.</em></p><p style=3D"m=
+argin: 16px 0;"><em>[3] This is oversimplified; the statutory straddle rule=
+s are in <a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.=
+261603/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzI2LzEwOTI/607f=
+07ceef4b8524a319a23cB61a4c328" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">section 1092</a> of the Internal Rev=
+enue Code, and the general rule is that =E2=80=9CAny loss with respect to 1=
+ or more positions shall be taken into account for any taxable year only to=
+ the extent that the amount of such loss exceeds the unrecognized gain (if =
+any) with respect to 1 or more positions which were offsetting positions wi=
+th respect to 1 or more positions from which the loss arose.=E2=80=9D</em><=
+/p><p style=3D"margin: 16px 0;"><em>[4] This is a bit fuzzy: Musk cannot wa=
+lk away without penalty if his financing falls through, but he *can* walk a=
+way and pay only a $1 billion breakup fee if his financing falls through. I=
+f his financing does *not* fall through, he has to close the deal, and Twit=
+ter can sue for specific performance. So in a sense there is a financing co=
+ndition. But, again, the financing itself is not particularly conditional: =
+The banks don=E2=80=99t have to do a bunch of due diligence to get comforta=
+ble lending to Twitter, because that already happened and they have committ=
+ed to lend.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBe74073d5" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBbaba06dd" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB60fce746" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBfb107d23" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yODEyODY4MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgzOTAyODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI14852b3d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D28128683&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28390286&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB6be407e6" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28128683.261603/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC12b1a3c2" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/28128683.261603/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBe208b77c" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/28128683.261603/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBb4130354" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB9=
+614606a" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28128683.261603/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB7=
+4f76625" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D281286=
+83&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28390286&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D281286=
+83&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28390286&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D281286=
+83&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28390286&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D281286=
+83&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28390286&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D281286=
+83&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28390286&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgqw8b.5lur/7a94d45e.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_63803608_576717043.1655833670972--
+

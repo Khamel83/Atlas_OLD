@@ -1,0 +1,91 @@
+# The Father of the Squid
+
+**URL:** http://www.observer.com/print/134881
+**Date:** 2011-06-16 07:18:34
+
+---
+
+# The Father of the Squid
+
+Max Abelson • Unknown date 
+
+![The Father of the Squid](http://www.observer.com/web/20101025071739im_/http://www.observer.com/sites/all/themes/observer/favicon.ico)
+
+Starting in 1996, Alexa Internet has been donating their crawl data to the Internet Archive. Flowing in every day, these data are added to the Wayback Machine after an embargo period.  
+  
+The Wayback Machine - https://web.archive.org/web/20101025071739/http://www.observer.com:80/print/134881  
+  
+At the climax of this summer's silly Wall Street sequel, Oliver Stone's camera lingers on our young hero's bombshell banking exposé. "The first thing you need to know," it says, "is that it's everywhere." As if it weren't already clear that Matt Taibbi's Rolling Stone Goldman Sachs profile has been the splashiest piece of financial journalism since the financial crisis began, Mr. Stone lifted its opening line verbatim.  
+  
+"I'm not really classifiable, I don't think," Mr. Taibbi said in a downtown diner near Sixth Avenue recently, sipping coffee. His second sentence of the July 2009 article called Goldman a blood-funneled and money-sniffing vampire squid wrapped around the face of humanity. "There are a lot of people who take issue with the whole approach, who feel like if you're going to present this factual case, that it shouldn't be so polemical and so opinionated and have that much narrative in it. I just don't think there are rules about these things."  
+  
+The last time Mr. Taibbi agreed to be profiled, he met a Vanity Fair reporter up the street. Their coffee ended when he threw his cup at the interviewer, stalked out and then, when the interviewer caught up, told him, "Did you bring me here to insult me? Who are you? What have you ever written? Fuck you!"  
+  
+READ AN EXCERPT OF MATT TAIBBI'S LATEST BOOK GRIFTOPIA HERE  
+  
+But that was nearly a year ago. Mr. Taibbi, freshly married and now 40 years old, has a major book, Griftopia, an expansion of the squid profile and its main ideas, out Nov. 2 through Random House. It does not have a chapter on king-hell speed binges, like his first book, or, like his second, anecdotes about gobbling acid before interviewing the former White House Drug Policy head and Kerry aide, in a Viking outfit.  
+  
+In fact, the book has no stunts or gags in it, and barely any mugging for the camera. "I'm worried about it, because it's not a particularly funny topic," he said. When he was writing, he caught himself trying hard to amuse. "Some of those things ended up being so unfunny that we had to actually remove them from the book."  
+  
+Since at least 2008, when he won a National Magazine Award, then began shifting from politics to Wall Street, his name has been a byword for a certain kind of worldview and writing. It is infuriated; inquisitive; indecorous; agog. Except for its lack of psychotropics and costumes, the book is a summation of what his name means to the landscape of financial journalism.  
+  
+But, especially recently, it's also become a schoolyard put-down. "How about that," a New York item on the analyst Meredith Whitney said this month. "Next they'll be finding holes in Matt Taibbi's reporting."  
+  
+MR. TAIBBI GREW up on the south shore of Massachusetts, moved to England around age 7 and came back not very long after, which is when his parents broke up. "I was a bit of a troubled kid growing up, let's put it that way," he said. "I didn't take pleasure in hard work."  
+  
+Still, he liked reading, and got The Collector, the John Fowles novel about a lonely young lepidopterist who kidnaps and tortures a beautiful girl, when he was young. "Eleven or something like that," he said. He also went to Concord Academy, a prep school, and loved it. "It's not a status place," he said, though on a list of notable alumni he is behind Caroline Kennedy and Queen Noor of Jordan (and ahead of Grizzly Bear's Ed Droste).  
+  
+SLIDESHOW>>THE OBSERVER'S MATT TAIBBI PRIMER  
+  
+He did not want to be a reporter. "Everybody I knew, practically, was a journalist when I was a kid--my father, all of his friends. I never wanted to be like those people." For about the last five years, he hasn't talked to his dad, the NBC reporter Mike Taibbi, who did not comment. "The only reason I ended up doing it is by the time I got to be in my early 20s, I wanted to be a novelist," he said.  
+  
+"My idol was Gogol: I went over to Russia, I lived in the neighborhood where he lived and everything." In one of Griftopia's brightest spots, where he calls Alan Greenspan a gnomish party crasher and a gaggle-eyed clarinetist, he drops Nikolai Gogol's name to describe the intensity of Mr. Greenspan's own name-dropping.  
+  
+He returned to America, briefly. "I had some credits to finish up at Bard," he said. He went back, then came home and worked in a private-detective agency called Dataquest International, run by a former Army man named Russ Bubas. "Once we had a job where we were trying to see if someone was stealing from the Stride Rite shoe company," Mr. Taibbi said. "I parked outside their factory, waiting to tail him, and I didn't realize I'd parked next to the company day-care center, where little kids were playing. They thought I was a pedophile. I was sitting in this old Oldsmobile. They alerted the whole company."  
+  
+"Matt has got," said Mr. Bubas, reached through the agency, "a really terrific mind."  
+  
+At Exile, the adored but gaga newspaper he co-edited for years in Moscow, there was a lot of speed. "You get together; everybody gets shit-faced; and everyone assumes nobody has anything going on because who does? Nobody," he told The Observer's George Gurley 10 years ago.  
+  
+By 1998, Mr. Taibbi had a problem with heroin. "I came back to the States and I didn't have a connection," he said last week, "is how I kicked."  
+  
+That was not the end of his drug use. In 2005, well after he'd left Moscow, he wrote a New York Press column called "The 52 Funniest Things about the Upcoming Death of the Pope," which, a week later, he said had been written in a Vicodin haze. "I'm too old for that shit now," he said at the diner.  
+  
+In late 2003, he wrote a Nation cover story on Wesley Clark, in which, as one letter to the editor complained afterward, he "infiltrated a volunteer meeting disguised as an injured adult-film director just to get a rise." In 2004, he began covering politics for Rolling Stone, Hunter S. Thompson and P.J. O'Rourke's old magazine. "People throw that term around, 'gonzo' journalism," he told a reporter who asked him about it in 2007. His book that came out that year used it, too, on its back cover. So does next month's, thanks to an inadvertently flattering line from Lloyd Blankfein, who by "gonzo" meant that Mr. Taibbi's reporting is goofy, not Thompson-tier. "Who the fuck is Matt Taibbi," a line on Wonkette said after a 2006 Rolling Stone cover story, "and what makes him think he is an expert on politics?"  
+  
+"Who the fuck is Matt Taibbi," said a 2009 comment on the Web site of Men's Journal, another Jann Wenner property, where the reporter covers sports on the side, "and what does he know about baseball?"  
+  
+"Who the fuck is Matt Taibbi?" a man wrote on an online gay forum, after somone asked if anyone else found him cute and funny.  
+  
+"I wouldn't take anything I read out of Rolling Stone at face value unless they are talking about pot, cocaine, or music," someone else wrote two Saturdays ago. "Oh and who the fuck is Matt Taibbi?"  
+  
+BY THE 2008 presidential election, Lehman and Bear had been killed off. "It just seemed pretty obvious to us when the crisis hit that he had to get into this," Will Dana, Rolling Stone's managing editor, said. It doesn't bother him that Mr. Taibbi didn't know anything about the American financial system. "He educated himself very quickly. Once he gets into something, he burrows in deep."  
+  
+"It's dark, and grotesque, and funny, so it perfectly matches the writing style I have," Mr. Taibbi said about his beat. "The one thing that I do is take really complicated systems and subjects and make them accessible to regular people." He is also good at outrage--loud, across-the-board, one-hand-on-chest-the-other-clenched, great gasping gall. "Arms flailing," the second sentence of Griftopia goes, "I manage to scribble," which is about taking notes during Sarah Palin's classic convention speech, but it has wider reverberations, too. "I dropped my fork," he writes later, after hearing from a source at a restaurant about the potential sale of the Pennsylvania Turnpike to foreign investors. He is a fork dropper.  
+  
+The Goldman blockbuster, with its majestic and lurid vampire-squid opening, was one of his first Wall Street articles. "I don't know, I was trying to come up with an image," he said about its huge metaphor. "It was originally just a throwaway line, and they put it up at the top."  
+  
+"From tech stocks to high gas prices, Goldman Sachs has engineered every major market manipulation since the Great Depression--and they're about to do it again," the article, called "The Great American Bubble Machine," said in its subhead. "I mean," Mr. Taibbi said later, grinning, during an interview with WNYC, "there was a little bit of hyperbole that went into the headline-making there."  
+  
+Other writers mocked Mr. Taibbi, widely, for suggesting that a single firm could be held responsible for so much over such a long period of time, from Depression-era Ponzi scheming to the tech and housing and oil booms, to the bailouts, to the cap-and-trade plan. "Read the piece more carefully and see if Matt's saying that there's a massive conspiracy," Mr. Dana offered, ruminating on the headlines. "Perhaps we should have said 'had a hand in,' or 'was involved in.'"  
+  
+The article did two things. First, a year before the S.E.C.'s lawsuit, it popularized the idea that Goldman Sachs was a gargantuan, cackling, antisocial villain, typifying a system built on making money from guile and influence, not merit. Mr. Taibbi describes this in his book as an invisible hive of high-class financial burglars and castrato henchmen pillaging the masses.  
+  
+Second, it unleashed waves of fury about its author. "I'm not saying that Matt Taibbi is an impotent little bitch, but ..." said Dealbreaker. The Atlantic's Megan McArdle called him "the Sarah Palin of journalism."  
+  
+Although his other Rolling Stone pieces examine Goldman's rivals--like an infuriating piece about JPMorgan nearly cremating Birmingham, Ala., thanks to brilliantly fraudulent bond swaps and a huge new sewer system, a plot straight out of an early Randy Newman song--the new book doesn't. The only other big villain is Mr. Greenspan, about whom Mr. Taibbi writes that "it sounds facile to pin this all on one guy." Even Morgan Stanley, which, he writes parenthetically, pushed up commodity prices with Goldman, makes only a cameo.  
+  
+"Literarily, in order to sell people on a lot of the subject matter, it just works better when you make a villain, like a James Bond-style villain, out of Goldman Sachs, and you almost use fiction-writing technique to sell the story," he said. "But it's all factual."  
+  
+"I'VE JUST CALMED down a lot," Mr. Taibbi said after the diner. What he called the Vanity Fair incident, even if it's already a while ago, was "an aberration from how I've behaved in the last six or seven years."  
+  
+Unlike three of his other books, Griftopia does not refer to "near nervous breakdowns," "nervous collapses" or a "howling-on-the-bathroom-floor ten-alarm" break.  
+  
+"I think he's in a different place in his life," Mr. Dana said. "Writing about credit default swaps probably doesn't lend itself to wearing Viking suits and taking acid. I don't know if Matt's there in his life, anyway. There's only so far you can take that stuff."  
+  
+Speaking of which, Mr. Taibbi said he has one more Rolling Stone finance piece coming before he takes a recess. "Then I'm going to be doing some different things. I'll come back to it," he said. "Sometimes the best gift you can give to your readers is your absence, and I think I've kind of hit this as hard as I can possibly hit this, for a while."  
+  
+mabelson@observer.com  
+  
+READ AN EXCERPT OF MATT TAIBBI'S LATEST BOOK GRIFTOPIA HERE 
+

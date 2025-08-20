@@ -1,0 +1,1692 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:5c7:b029:fa:486f:dd6a with SMTP id r7csp1729379lkr;
+        Tue, 1 Jun 2021 09:44:56 -0700 (PDT)
+X-Received: by 2002:a05:6402:5249:: with SMTP id t9mr25407180edd.290.1622565896468;
+        Tue, 01 Jun 2021 09:44:56 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1622565896; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=OEOpV05AQ5Oo9kwI20rOWOq9WZUswkTD+lbgxVKwgG09k2s98dU1TEV3at9Fd33p8W
+         fgCPJNs4r6cjWiUsGuBK49jq9KTB2l3KGQC23i1mpdTYxng+mN97TZCBdNPO+w4pO2so
+         jUcfGGYkXpRQEJORcq01lwZkQHE5Um2/0ASavBfkgZiaJeaNzopdPcVWZh6IXZueifuJ
+         IE0hRaHgRK97QZRajQ05+aJNNfUj48R5JUfhU3CprXII25XnFEvxSeCDzSn6OMSfBMZH
+         d8RNKSmbgBsbONLc4rCa6gaLTNNMcysuqIoOWdz3IL4aoOtJVmw4d4gnH7Dd5lElzL1L
+         5Tcg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=Wt6vz8HV1BQOR6hxy6pP2ARiXtmv6L5MP0TwApFt/Y4=;
+        b=sS7ZcWmDfYxXioQkI+p7MBAi+iWhA2rSrwZeFdhZ3dAOO56R6QB21n93u87HnNwQ7Q
+         AznWHX57uH20KC1XQ0QTo7HCeFVb5/4O6ekW7wWkGix/2pXvg5LLuE4IFMfbeEssWAkI
+         DoZA++H5rPO4SOC1VewSoWiv0jFseCmTXBR1PWV5O2Ymk6GgMqlaEFGRBZaRtjZTXHP8
+         ONdKnsI3QpRc2luUbBoM8ADhXvHWwekClqmcZusZjL7tDkvMq2e8GwGI1Kx06pK3EhjC
+         RpuH93KOhm6a5a4Ec6gMPh/ir8OiXwOYWkODRj9BiSX8aO+FjRxPOLY1cCwVtrrfBvLD
+         tBrQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=MERNYHXh;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id ky5sor10013144ejc.47.2021.06.01.09.44.56
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 01 Jun 2021 09:44:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=MERNYHXh;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=Wt6vz8HV1BQOR6hxy6pP2ARiXtmv6L5MP0TwApFt/Y4=;
+        b=N2iQifptC4IWPz+VCYd3BvVGS3sL+c4+1g5OaU5duUOld3jbH466DfAdFjl1Vyx6kJ
+         7e/3NCQ3+UqzjP9gGNC6tt14YfXmQM7hA0LlJvKzPZnoSGIreHQXHBmTzoxner0jFB9M
+         UJkH9G8sjPiZP4IB6XIgZ7UyarBpUS1Gut6FQ6Gdhbjrx2x6aHddQLS1PcD2lGjwSolS
+         l3wzHJH5wwtjQQ+4KHEiLPyJB1NXq4UhN4P+ObrSPgWquzyd5n+73AzG6giBlZTFx4tA
+         nZVVXSbyLhTXs9dzwdQPBFckf8u50jRBQTes+X0qNjqy8uL824u6HZwQyVNoXtmVPXfD
+         uObg==
+X-Gm-Message-State: AOAM5323rlpTKkPdZHq2lyuBZ+3vvSf4dBzNrl49X1hnhZPJN+EzICoC
+	eBMoZHwPML+SrcSYZmtSJJW4BsLeFc7AkAfsVQNRFvaSMj+0f8kt1w==
+X-Received: by 2002:a17:906:d297:: with SMTP id ay23mr22235764ejb.418.1622565896231;
+        Tue, 01 Jun 2021 09:44:56 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:238d:0:0:0:0:0 with SMTP id g13csp4014388eco;
+        Tue, 1 Jun 2021 09:44:53 -0700 (PDT)
+X-Received: by 2002:a65:4c44:: with SMTP id l4mr11696071pgr.328.1622565892887;
+        Tue, 01 Jun 2021 09:44:52 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1622565892; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=eZK/iXEnlEhxkhk2UPJJr2+2eVXYy1PemR4YOK2tAm/2bUN//yCDTm8vSmWfUP0pR2
+         kiM6Z6poa5ttIqYYT+lnYHbf3C9i4oNCUOrZqMQI/jtStqWB2aGWw0RmgH2g4KSsBWwU
+         WZXrjLwssM7G1BDFlBF/8hqADoMRJMEwJEHV7bjHPgHbOhpICQJK85fand998TxFJgzK
+         Ti7q8Ls1UtTUhNmcUEzC4MhWsEpxf+1wOEhXj/6zyf92jP+Ssq0K/JFF+aAZvyLaUDXE
+         4B43XZWNlIMPt7W29KvMzCA/wNy5ff25e/QiXZj4b/djOmWfit1mC9vYhKFs9Xs53Qjf
+         6eMg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Wt6vz8HV1BQOR6hxy6pP2ARiXtmv6L5MP0TwApFt/Y4=;
+        b=SuTQWJHbKAmZngYNehdSK2Ctnq3iFN1trZ9Fhz9iOmMrNl0jtM3EWJDbjqgYyUPb1b
+         VhsFkiOSwe46muGUFZomSnpxyGvFQGdeU9+4o4YF18Eeqy50KtNBKq0Ge2l1PdgWnsiF
+         JF8Ka7QFPPwDTm8A4nq9/Kpt+zwkHxOnoknL7bpd2Rx0DnIgsX8jil8nBEBM6urlgJQr
+         25YaQAz1EhodArHl1n1nsO5uzUX2lh7wewb2JQCzjpqy0a/JLxhLLZcU53wQkyRVQZGx
+         NhrvqO1eMy84BR8T/irfo9NkpzlsDDlzpEtfSJTHpOcT0R21kpZuorXnLUquEeG/JZdK
+         joKw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=MERNYHXh;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210601124356.24023110.269579@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210601124356.24023110.269579@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210601124356.24023110.269579@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id t39sor5130103pfg.101.2021.06.01.09.44.52
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 01 Jun 2021 09:44:52 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210601124356.24023110.269579@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJy3eL6cwQ4E9EZ773tdiKSBfPhNfu1+MiPEoyHEVANaLLygUnHyvUCvEfgx1/actjd01s4697JbNzreNmd2QJi8xsFfc60=
+X-Received: by 2002:a05:6a00:10c2:b029:2de:7333:1343 with SMTP id d2-20020a056a0010c2b02902de73331343mr22928412pfu.42.1622565892173;
+        Tue, 01 Jun 2021 09:44:52 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1622565892; cv=none;
+        d=google.com; s=arc-20160816;
+        b=F7XTlucbbzYJbpyb+UkxNfrdbT09+2bJ7fOGfap9WzyvuU2vPauTM0i789f00vQcQq
+         TGqSMd0J4Pw+kPOCZIrSSpZjzyJcjbFsqkKs7Ffe/K2GI7guPMpJEtpn1ZMcn7XAO2Pw
+         aJosZ9WvmYkozpCCyjEkek8YcSwgaaoL0+nRu4UeHdXXyHM/MsURk/SK17HpkzPcH5sj
+         Xv+N9enNvbXOiK/JlA28PITahVu8jCfneXIhyzgsl/RdYrVNEakamSnobvw+HI8Om1N3
+         PunEvXRiUsJBkTU3u6s+80X+siPgE2dIcYAa9dleLviLk2vj0ZujmWYwXVg0pI5s3FT2
+         bAJQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Wt6vz8HV1BQOR6hxy6pP2ARiXtmv6L5MP0TwApFt/Y4=;
+        b=Za9P61VDLACnaf51iYQzHTsJafW5knqEf6HwiM6Xz532BfEpBdePupc70iESJpakgO
+         UyhfxoKR9BuYG6dasdJ/ht8N8CneC1luWKKchce4NrjS2NogSVeZKzKS9nmHjvfYlaoP
+         l5hOmAkj5iyhIY7/l72rpJA8DyzBxYTmszRIqQnsb84fQrAoQDdeWt8RXxc3P7yFyIlr
+         zsRMQjq5t+6x2DFSRrkB5i7M+e2BUjOEM3UUhh2Bf5cRz3hlFkQ2OKpytNw3cIsJlh1v
+         I1C3/VWVodl8NmorUAeYrHNTYTneX+nzWtnRuxbgNVR0PuM/jTbVBMlApN+v/bcNr6uZ
+         hBMQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=MERNYHXh;
+       spf=pass (google.com: domain of delivery_20210601124356.24023110.269579@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20210601124356.24023110.269579@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210601124356.24023110.269579@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTP id k2si474255pgn.3.2021.06.01.09.44.51
+        for <khamel83@gmail.com>;
+        Tue, 01 Jun 2021 09:44:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210601124356.24023110.269579@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=Dl63B0LN3P7ctzq/R8225xV6PxY=;
+ b=MERNYHXhWGVrmZbYj4iUhffw5OL9+Oh1Lh0k69ybRSOAdIVNktvCDNWx+7tRBHlvMGM8wBP86xT/
+   btcB3328qn/o7AjD3kismY/e04YdXClBXmrDuV3Mjznk3IVgLgZlvIbCEYM0F2KDDcBveipvQxVo
+   zISYVkrD0IexxIYnnks=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by pmta29.sailthru.com id hmpi061qqbss for <bloomberg@khamel.com>; Tue, 1 Jun 2021 12:44:51 -0400 (envelope-from <delivery_20210601124356.24023110.269579@mx.sailthru.com>)
+Date: Tue, 1 Jun 2021 12:43:56 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210601124356.24023110.269579@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEl04oCZcyBHb29kIHRvIFdpbiBhIFByb3h5IEZpZ2h0?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_46819949_1293549728.1622565836293"
+Precedence: bulk
+X-Feedback-ID: 6358:24023110:campaign:sailthru
+X-TM-ID: 20210601124356.24023110.269579
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetcarmine.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ceawcm.5s0b/fc33f015
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ceawcm.5s0b/fc33f015>, <mailto:unsubscribe_20210601124356.24023110.269579@mx.sailthru.com>
+X-rpcampaign: stjko24023110
+
+------=_Part_46819949_1293549728.1622565836293
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+ =20
+ =20
+  Money Stuff
+ =20
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+   =20
+       =20
+           =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+
+     =20
+     =20
+ =20
+   =20
+      Engine No. 1=E2=80=99s economicsWe talked a  couple of  times last we=
+ek about the plucky and successful=C2=A0activist campaign that hedge fund E=
+ngine No. 1 LLC waged against Exxon Mobil Corp. I wrote on Thursday:Actuall=
+y it=E2=80=99s a little mysterious to me what=E2=80=99s in it for Engine No=
+. 1? As we discussed yesterday, it owns 917,400 shares of Exxon stock and s=
+pent about $30 million on the proxy fight. It bought that stock in mid-Nove=
+mber and early December, when Exxon was trading at around $37 or $38 per sh=
+are; it closed yesterday at $58.94. Figure the fund is up about $21 per sha=
+re, and has collected another $1.74 per share in dividends, and you get a g=
+ross profit of maybe $21 million; after proxy-fight expenses that=E2=80=99s=
+ a loss of $9 million. Perhaps now that its nominees are on the board, Exxo=
+n will change strategy and add a lot of long-term value and make Engine No.=
+ 1 rich. Or perhaps there are some other economics that I=E2=80=99m missing=
+. But it=E2=80=99s not obvious to me how this trade =E2=80=94 spend $35 mil=
+lion on stock and $30 million on a proxy fight =E2=80=94 makes a lot of eco=
+nomic sense. Maybe they just did it for the good of the planet.Well! About =
+a hundred of you emailed me to say that it=E2=80=99s obvious what=E2=80=99s=
+ in it for Engine No. 1: publicity. This is a hedge fund that launched six =
+months ago; it runs a small fund and doesn=E2=80=99t have much of a track r=
+ecord. Now it is=C2=A0The Little Engine That Took Down Exxon. It has=C2=A0g=
+one from nothing to being a daring successful activist, and=C2=A0an activis=
+t with a halo of environmental virtue. It can fundraise off of that forever=
+, attract lots of money, collect lots of fees, etc. The $30 million of prox=
+y expenses are an investment to make millions more in management fees.A rel=
+ated benefit is what any activist fund gets from a successful proxy fight: =
+The=C2=A0next=C2=A0company they go after will be intimidated by their Exxon=
+ victory,=C2=A0and will try to settle by giving them board seats. You spend=
+ $30 million on one proxy fight so you don=E2=80=99t have to spend any mone=
+y on five more. You show up at a meeting with the next company=E2=80=99s CE=
+O, you put Exxon=E2=80=99s severed head on the table, you say =E2=80=9Cboar=
+d seats, now,=E2=80=9D and you get them without a fight.=C2=A0Fine! That=E2=
+=80=99s all fair enough. One reader pointed out another, more technical but=
+ also quite important answer: It is customary for activist hedge funds that=
+=C2=A0win=C2=A0their proxy fights to be=C2=A0reimbursed by the company.[1] =
+So, because it won, Engine No. 1 probably spent $30 million of Exxon=E2=80=
+=99s money on the proxy fight, not its own. That probably helps. It took a =
+big=C2=A0risk=C2=A0here: If it had lost the proxy fight, it would be out $3=
+0 million and wouldn=E2=80=99t have all the fundraising benefit of having t=
+aken down Exxon. But because it won, the economics actually look pretty goo=
+d.Elsewhere in the Exxon proxy fight:Asset manager State Street Corp voted =
+for two of the four candidates put forward by activist hedge fund Engine No=
+. 1 for Exxon Mobil's board, a spokesman for the Boston firm said late on T=
+hursday.State Street was Exxon's third-largest investor according to its pr=
+oxy statement. Late on Wednesday Exxon's largest investor Vanguard Group sa=
+id it also backed two dissident nominees, details that fleshed out how Engi=
+ne No. 1 was able to capture at least two board seats at the biggest U.S. o=
+il producer.When we talked about the proxy fight last week, I used BlackRoc=
+k Inc. as an example of a big index-y Exxon shareholder that wants companie=
+s to care more about climate change and supported Engine No. 1=E2=80=99s pu=
+sh for a more renewables-focused Exxon. BlackRock is Exxon=E2=80=99s second=
+-biggest shareholder, loves to  talk=C2=A0about sustainability, and release=
+d a =E2=80=9Cvote bulletin=E2=80=9D last week saying=C2=A0that it would be =
+voting for three of Engine No. 1=E2=80=99s director candidates; it was the =
+most obvious example. But the other two =E2=80=9CBig Three=E2=80=9D index-y=
+ shareholders also voted for change. The lesson here is that if you are a s=
+mall activist looking to run a proxy fight to push a big company in an envi=
+ronmental/social/governance direction, you might be able to pick up some bi=
+g allies. Also:In the hours leading up to this week=E2=80=99s annual shareh=
+olders meeting, Exxon went to extraordinary lengths to head off the threat =
+from a campaign about which it had been largely dismissive months earlier.E=
+xxon telephoned investors the morning of the ballot -- and even during an u=
+nscheduled, hour-long pause during the virtual meeting -- asking them to re=
+consider their votes, according to several of those who received calls. Som=
+e said they found the last-ditch outreach and halt to the meeting unorthodo=
+x and troubling.=E2=80=9CIt was a very unusual annual general meeting,=E2=
+=80=9D said Aeisha Mastagni, a fund manager at the California State Teacher=
+s=E2=80=99 Retirement System, a major Exxon investor that backed the activi=
+st campaign from the beginning. =E2=80=9CIt didn=E2=80=99t feel good as an =
+investor.=E2=80=9DI think the basic reading here is that at a giant public =
+company like Exxon, the managers and board of directors sort of assume that=
+ they get to decide who can be on the board, and that shareholders are not =
+really supposed to interfere. Technically this assumption is wrong, and at =
+Exxon last week it did not work out, but you can see why Exxon found it so =
+surprising.AMCJust  a great trade here:AMC Entertainment Holdings Inc. gain=
+ed Tuesday, extending last week=E2=80=99s rally, after raising $230.5 milli=
+on with a stock sale to Mudrick Capital Management as the movie-theater ope=
+rator pledged to =E2=80=9Cgo on offense=E2=80=9D with acquisitions.The agre=
+ement with New York-based Mudrick is for 8.5 million shares of common stock=
+ at $27.12 apiece, 3.8% more than Friday=E2=80=99s closing price, AMC said =
+Tuesday in a statement. The company, now an icon among retail traders, jump=
+ed as much as 23% to $32 at the open in New York trading. It traded at $29.=
+98 at 9:35 a.m.The latest equity sale with Mudrick =E2=80=9Csounds expensiv=
+e=E2=80=9D with debt and equity indicating an enterprise value of over $16 =
+billion, Michael Pachter of Wedbush said in an email to Bloomberg. If it re=
+turns to pre-Covid levels, AMC could optimistically reach around $1 billion=
+ in earnings after adjustments. The highest attained in the past is $929 mi=
+llion in 2018, he said. =E2=80=9CMudrick must know something I don=E2=80=99=
+t.=E2=80=9DHere=E2=80=99s a thing Mudrick knows:Mudrick=E2=80=99s stock pur=
+chase comes with the caveat that the shares be =E2=80=9Cfreely-tradeable=E2=
+=80=9D, meaning the firm could sell the shares at any point or in any size =
+it chooses. That would provide Mudrick with 8.5 million shares that could b=
+e sold as soon as today.Here are the press release=C2=A0and the prospectus =
+for Mudrick=E2=80=99s potential sales. (Don=E2=80=99t miss the  GameStop-st=
+yle risk factors, which include: =E2=80=9CWithin the last seven business da=
+ys, the market price of our Class A common stock has fluctuated from an int=
+ra-day low of 12.05 on May 21, 2021 to $36.72 on May 28, 2021, and we have =
+made no disclosure regarding a change to our underlying business during tha=
+t period.=E2=80=9D) I have no idea what Mudrick is actually doing; all I am=
+ saying is that this is not a trade that ought to work under traditional th=
+eories, but it=E2=80=99s very much a trade that works now:=09A meme stock c=
+loses on Friday at $26.12 per share, up 116% on the week on no particular n=
+ews (but with   lots of talk about short squeezes).=09You buy stock from th=
+e company over the holiday weekend=C2=A0at a premium.=09You announce it on =
+Tuesday morning.=09Everyone says =E2=80=9Coh wow good news for that meme st=
+ock, guess the wild rally is going to continue.=E2=80=9D=09So it does.=09Yo=
+u sell the stock=C2=A0into the enormous volume and rising prices on Tuesday=
+ morning.Like imagine the negotiations over the price. It is traditional, w=
+hen one investor buys a big chunk of stock from a company, for the investor=
+ to get a bit of a discount. Here, though, the premium helps Mudrick: It ma=
+kes the stock sale less dilutive, signals confidence in the stock, feels li=
+ke a win. So the stock goes up even more and, if Mudrick=C2=A0does=C2=A0wan=
+t to sell immediately, it can do so at a profit.=C2=A0I wonder if banks are=
+ pitching AMC on bought-deal stock offerings. I wonder what price they=E2=
+=80=99re pitching. The traditional answer, for a volatile and meme-y stock,=
+ would be that you=E2=80=99d want a healthy discount to account for all of =
+the risk you take in reselling the stock: =E2=80=9CWe are confident in AMC =
+and so can offer you a bought deal at a tight discount, down just 5% from y=
+esterday=E2=80=99s close.=E2=80=9D But the right answer is actually a healt=
+hy premium.
+
+
+   =20
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                                Paid Post
+                                Meet Axos Bank=E2=80=99s Rewards Checking =
+=E2=80=93 the account that helps you earn more, so you can save more. Earn =
+up to 1.25% Annual Percentage Yield, pay zero fees, and get unlimited domes=
+tic ATM fee reimbursements. And, as a bonus, enjoy a mobile banking app tha=
+t will knock your socks off.=20
+Apply Now
+                                Axos Bank
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+Pennies, steamrollersA well-known fund management strategy is:=09Raise mone=
+y and put it in the bank.=09Sell out-of-the-money puts=C2=A0on the S&P 500 =
+stock index.=09Most of the time, stocks are up or flat or down a little, th=
+e options expire worthless and you keep the premium.=09You show steady perf=
+ormance with no down months, your Sharpe ratio is excellent, you raise a lo=
+t of money from satisfied customers, you=C2=A0charge a lot of management an=
+d performance fees, and you buy big houses and=C2=A0yachts.=09Eventually th=
+e market has a bad day, your bets blow up=C2=A0and your fund loses everythi=
+ng.=09You keep the yachts, etc.We talk about this strategy from  time to  t=
+ime when these funds blow up. One point that I emphasize is that this is a =
+thing that investors look out for. Reasonably sophisticated investors, when=
+ confronted with a volatility-selling hedge fund like this, will ask questi=
+ons of the form =E2=80=9CWait are you just selling puts on the S&P 500? Are=
+ we just paying you hedge-fund fees for betting that the market will be ste=
+ady? Isn=E2=80=99t your strategy much riskier than the historical results s=
+uggest? Isn=E2=80=99t this inevitably going to go to zero, and won=E2=80=99=
+t we be left holding the bag when that happens?=E2=80=9D=C2=A0Here=E2=80=99=
+s a Securities and Exchange Commission enforcement action against LJM Funds=
+ Management Ltd., which did this strategy:[LJM founder and co-portfolio man=
+ager Anthony] Caine created the investment strategy employed by LJM Managem=
+ent and LJM Partners, which involved writing (i.e. selling) short-dated, ou=
+t-of-the money options on S&P 500 futures contracts. The options sold were =
+mostly put options, but also included some call options. =E2=80=A6Like an i=
+nsurance company, LJM Management and LJM Partners made money by collecting =
+premiums (i.e., the market prices of the options) in exchange for assuming =
+a risk =E2=80=93 in this case, the obligation to purchase or sell futures c=
+ontracts at a given strike price if the option holder exercised the option =
+on or before the expiration date.This investment strategy is known as =E2=
+=80=9Cshort options=E2=80=9D or =E2=80=9Cshort volatility=E2=80=9D trading,=
+ and offers the possibility of relatively stable profits from premium incom=
+e, but carries the risk of significant losses during large market swings. T=
+his strategy was the equivalent of selling insurance to other investors pri=
+marily against declines in the S&P 500 futures market.=C2=A0It did this in =
+private funds but also in a retail mutual fund with the classically ironic =
+name =E2=80=9CLJM Preservation & Growth Fund.=E2=80=9D In February 2018, th=
+e S&P 500 fell by more than 6% over two days and volatility increased. Pred=
+ictably,=C2=A0the LJM funds blew up, =E2=80=9Cresulting in catastrophic tra=
+ding losses exceeding $1 billion, or more than 80% of the value of the fund=
+s LJM managed, over two trading days.=E2=80=9D At the time, people said the=
+ usual things:=E2=80=9CShort volatility strategies, selling options and col=
+lecting premium, have been critically described as picking up dimes in fron=
+t of a steamroller,=E2=80=9D wrote Don Steinbrugge, the founder and CEO of =
+Agecroft Partners, a hedge-fund consulting firm, in a blog post. =E2=80=9CT=
+hey generate very good risk adjusted returns until volatility spikes and th=
+en have the potential to lose most of their assets if not properly hedged.=
+=E2=80=9DAgain, all standard stuff, stuff that investors are naturally nerv=
+ous about,=C2=A0well-known issues in short-volatility investing. LJM=E2=80=
+=99s investors knew this stuff and were worried. From the SEC complaint:The=
+ funds=E2=80=99 investors, and the investors=E2=80=99 financial advisers, f=
+requently asked Defendants for their worst-case loss scenarios and estimate=
+s of maximum investment losses during extreme market events in order to bet=
+ter understand the scope of risk in Defendants=E2=80=99 investment strategy=
+.And, uh:In an April 28, 2016 email to the [chief risk officer], Caine admi=
+tted that =E2=80=9C[t]he immediate straight answers to these questions are =
+ugly =E2=80=A6. Real ugly. Hell I would run.=E2=80=9D Nonetheless, Caine di=
+rected the CRO to work with [co-portfolio manager Anish] Parvataneni and cr=
+eate a =E2=80=9Ctool for sales staff to respond to these questions=E2=80=9D=
+ in a more positive light.Yes, right. The SEC alleges the tool consisted mo=
+stly of lying:Defendants claimed that: (a) they stress tested the portfolio=
+s against specific historical scenarios to estimate worst-case daily losses=
+; (b) based on those stress tests, the estimated worst-case daily loss was =
+20% for the P&G Fund and 30 to 35% for the Private Funds; and (c) they mana=
+ged these funds to maintain consistent risk levels.All of these statements =
+were false. Although LJM automatically generated historical scenario stress=
+ tests on every trading day, Defendants did not use those stress tests to e=
+stimate worst-case losses to the portfolios during extreme market events. T=
+o arrive at the 20%=C2=A0estimated worst-case daily loss for the P&G Fund, =
+for example, Defendants simply took the fund=E2=80=99s worst performance on=
+ a single day (approximately 9%), doubled it, and then rounded up.Moreover,=
+ on nearly every trading day from late 2016 through early 2018, the histori=
+cal scenarios stress test LJM purportedly used to estimate =E2=80=9Cworst-c=
+ase=E2=80=9D losses showed potential losses greater than the worst-case dai=
+ly loss estimates disclosed to investors. In fact, on many occasions, Defen=
+dants=E2=80=99 stress testing estimated potential loss exposure approaching=
+ or exceeding 100% of the funds=E2=80=99 value.I feel like =E2=80=9Cour wor=
+st-case future loss is twice our worst-ever actual loss, rounded up=E2=80=
+=9D is often sort of a reasonable rule of thumb and produces a number that =
+sounds about right to an average investor, but is clearly wrong here where =
+the whole point of the strategy is the pennies-in-front-of-a-steamroller th=
+ing. In reality,=C2=A0LJM=E2=80=99s worst-case scenario was exactly what yo=
+u=E2=80=99d expect it to be: an=C2=A080% loss in two days plus an SEC enfor=
+cement action.Everything is securities fraudOn the one hand, an accounting =
+restatement =E2=80=94=C2=A0an admission that a company=E2=80=99s=C2=A0previ=
+ous accounting statements were wrong and that it overstated its income =E2=
+=80=94=C2=A0is a classic form of securities fraud, the sort of thing that s=
+hareholders are always going to sue over. On the other hand,  this isn=E2=
+=80=99t=C2=A0quite=C2=A0that:Virgin Galactic Holdings Inc. was sued by an i=
+nvestor who claims he lost money when the space-tourism company announced t=
+hat it would restate its results due to regulatory guidance about the accou=
+nting treatment of warrants.The Las Cruces, New Mexico-based company said o=
+n April 30 that it would have to restate its 2020 results because of accoun=
+ting guidance of regulators related to special purpose acquisition companie=
+s, or SPACs. The next trading day, its shares fell 9%. The company combined=
+ with Social Capital Hedosophia, run by former Facebook executive Chamath P=
+alihapitiya, and went public in October 2019. =E2=80=A6The Securities and E=
+xchange Commission set forth new guidance in April that warrants, which are=
+ issued to early investors in the deals, might not be considered equity ins=
+truments and may instead be liabilities for accounting purposes. =E2=80=A6 =
+The investor, Shane Lavin, said in the lawsuit filed Friday in federal cour=
+t in Brooklyn, New York, that Virgin Galactic and its executives knew that =
+the results they were reporting were wrong.=C2=A0It=E2=80=99s not like Virg=
+in Galactic was cooking the books by reporting billions of dollars of reven=
+ue for spaceship tickets=C2=A0that it never actually sold. Virgin Galactic =
+doesn=E2=80=99t sell spaceship tickets and has always had minimal revenue; =
+its revenue for the last three years combined was less than $7 million. Mea=
+nwhile its net loss last year was about $685 million after the restatement,=
+ up from $273 million before the restatement, a change that is due entirely=
+ to the weird accounting treatment of SPAC warrants.That is not a cash cost=
+, and it is not actually a surprise: Every Virgin Galactic investor knew ab=
+out the warrants, the fact that the warrants were in-the-money and an econo=
+mic cost to the company was obvious, and the only question was whether or n=
+ot that cost had to be reflected in the company=E2=80=99s income statement.=
+Last month, the SEC  decided that it should be, partly as a matter of techn=
+ical=C2=A0judgment about U.S. generally accepted accounting principles=C2=
+=A0but also, let=E2=80=99s be clear, because the SEC does not like SPACs an=
+d wants to slow them down. So the SEC decided that SPAC accounting should b=
+e a bit more onerous and conservative than everyone had thought, and so a b=
+unch of SPACs, including Virgin Galactic, had to restate their earnings. Th=
+e SEC=E2=80=99s disfavor, and the lower GAAP income (well, higher GAAP loss=
+es), is bad for Virgin Galactic, and every bad thing that happens to a publ=
+ic company is arguably securities fraud.=C2=A0Archegos vs. SPACsThe basic c=
+hannel of financial contagion is deleveraging. Stock X goes down a lot. Hed=
+ge Fund A owns a lot of Stock X on margin; to meet margin calls on Stock X,=
+ it sells a bunch of the better and more liquid Stock Y. So Stock Y goes do=
+wn a lot. Hedge Fund B owns a lot of Stock Y and starts selling Stock Z, et=
+c. Meanwhile brokers get nervous and start calling in loans and increasing =
+margin requirements and, so more hedge funds dump more stocks.The implosion=
+ of  Archegos Capital Management looked like this: Archegos had big levered=
+ stock positions, one of its stocks went down, it had to sell other stocks,=
+ those stocks went down, etc. But because Archegos was so levered, and beca=
+use no one had really heard of it before it tanked the prices of a bunch of=
+ big stocks, it led to a lasting backlash against hedge-fund (and family-of=
+fice) leverage. The result is that, months later, there are still stories a=
+bout big levered hedge-fund trades that had nothing to do with Archegos, or=
+ with the stocks it owned, but that nonetheless got broken by Archegos:The =
+market for special purpose acquisition companies has become an unexpected c=
+asualty of the Archegos Capital Management scandal, as banks rein in lendin=
+g to hedge funds that had invested heavily in blank-cheque companies.Banks =
+across Wall Street have become more wary of how much leverage they can exte=
+nd to their clients following the collapse of Archegos, the investment firm=
+ run by Bill Hwang, forcing hedge funds and family offices to reconsider th=
+eir investments in Spacs, according to several market participants.=E2=80=
+=9CPrime broker terms generally have tightened as a result of Archegos,=E2=
+=80=9D said a senior banker who works on Spac deals. =E2=80=9CA lot of the =
+return profile for hedge funds is derived from the leverage they employ. It=
+ was a gravy train when it was levered.=E2=80=9DFor a hedge fund, a SPAC is=
+ basically  a money-market investment plus some warrants. If you can lever =
+that up a ton, it looks good; if you can=E2=80=99t, it looks like a money-m=
+arket fund. Now you can=E2=80=99t, and=C2=A0the whole SPAC boom is sufferin=
+g.=C2=A0Elsewhere in equity capital marketsThe basic problem with tradition=
+al initial public offerings is that, when a company does an IPO, its stock =
+usually=C2=A0goes up: The stock price on the public exchange moments after =
+it goes public is often much higher than the price that the company gets fo=
+r the stock. If you are the company selling the stock, this might seem bad:=
+ Why shouldn=E2=80=99t=C2=A0you=C2=A0get to sell at the higher price? Simil=
+arly, if you are a person buying the stock on the exchange, it might seem b=
+ad: Why shouldn=E2=80=99t=C2=A0you=C2=A0get to buy at the lower price? SPAC=
+s and direct listings and =E2=80=9C hybrid IPOs=E2=80=9D are attempts to ad=
+dress this central annoyance, to let regular investors  buy at the IPO pric=
+e=C2=A0or to let companies sell at the post-IPO market price or, somehow, b=
+oth.This is the sort of innovation that flourishes in a hot IPO market: For=
+ the most part, it=E2=80=99s only worth doing all this weird stuff if IPOs =
+usually go up. If not, why bother? Anyway:New figures show the IPO market h=
+as cooled substantially since a red-hot first quarter, as shares in recentl=
+y floated companies have drifted lower and some high-profile debuts have fl=
+opped.In January and February, the shares of companies joining the New York=
+ Stock Exchange or Nasdaq rose on average more than 40 per cent from their =
+IPO price on the first day of trading, according to data from Dealogic.In M=
+arch and April, the average pop had dropped closer to 20 per cent, and in M=
+ay it fell further to an average 18 per cent as of the middle of last week.=
+Back at the beginning of the modern SPAC boom, another thing people used to=
+ say about SPACs is that they somehow cut Wall Street=C2=A0banks=C2=A0out o=
+f the gravy train of going public, somehow letting companies deal directly =
+with the public rather than letting=C2=A0Wall Street insiders profit=C2=A0f=
+rom rich IPO fees. I  never really  understood this claim, and people stopp=
+ed making it as it became clear just how comically lucrative SPACs are for =
+investment banks. Not anymore, though; the banks will miss all those SPAC f=
+ees:The fees US banks earn from special purpose acquisition companies=C2=A0=
+have plunged in the past two months, disrupting what had been a main profit=
+ generator on Wall Street.Investment banks made a little over $430m from in=
+itial public offerings of Spacs and mergers between Spacs and private compa=
+nies in April and May, according to data from Refinitiv. That accounted for=
+ 4.5 per cent of overall investment banking fees for the period.By comparis=
+on, in January and February, Spacs accounted for 22.5 per cent of revenues =
+and brought banks almost $3bn in fees =E2=80=94 the two most active months =
+ever for the sector.Crypto mineOkay,  fine:When British police raided a war=
+ehouse, they were expecting to find a cannabis farm. Instead they found ban=
+ks of computers illegally siphoning the electricity needed to mine for Bitc=
+oin.Cops in West Midlands, England seized around 100 computer units that we=
+re working to bypass the local power grid. They discovered the warehouse af=
+ter sending a drone over the site, which detected a considerable heat sourc=
+e. =E2=80=A6=E2=80=9CIt=E2=80=99s certainly not what we were expecting,=E2=
+=80=9D Police Sergeant Jennifer Griffin=C2=A0said in a statement Friday. =
+=E2=80=9CIt had all the hallmarks of a cannabis cultivation set-up.=E2=80=
+=9DThe police said they hadn=E2=80=99t yet made any arrests but believed th=
+ousands of pounds worth of power had been taken from the grid.=E2=80=9CMini=
+ng for cryptocurrency is not itself illegal but clearly abstracting electri=
+city from the mains supply to power it is,=E2=80=9D Griffin said.=C2=A0One =
+neighbor =E2=80=9Ctold MailOnline that they had seen three English men who =
+'looked a bit nerdy and dodgy' arriving at the unit 'on and off' for around=
+ eight months,=E2=80=9D which really should have attracted the crypto polic=
+e. That=E2=80=99s a pretty good name for a crypto hedge fund actually, like=
+, Nerdy and Dodgy Capital Partners.=C2=A0Desk JockeyA couple of years ago w=
+e talked about a =E2=80=A6=C2=A0concept? ... called Music for Business, in =
+which a band, uh, makes music for business? It=E2=80=99s from a =E2=80=A6=
+=C2=A0band? branding agency? =E2=80=A6=C2=A0called Mobile Steam Unit, and i=
+t is fun. =E2=80=9CThere are so many songs about breakups, and so few about=
+ interoffice email, but at this point the latter is as central an aspect of=
+ human existence as the former, and we need an art that reflects and celebr=
+ates and interrogates and recombines it,=E2=80=9D  I said. =E2=80=9CUnlike =
+conventional commercial music created solely to enhance the advertising and=
+ marketing content companies use to sell their products, Mobile Steam Unit =
+creates music for the people who make up the company itself,=E2=80=9D Mobil=
+e Steam Unit says, I guess in its marketing copy.Anyway, here=E2=80=99s the=
+ir new single, =E2=80=9CDesk Jockey + Steakhouse.=E2=80=9D =E2=80=9CI=E2=80=
+=99m a desk jockey, an office jock;=C2=A0I like to Gchat=C2=A0and pick stoc=
+ks,=E2=80=9D it goes. And: =E2=80=9CI follow timelines, complete sales; I b=
+uild portfolios, keep up with emails.=E2=80=9D And: =E2=80=9CI wear a cornf=
+lower blue tie.=E2=80=9D And: =E2=80=9CI=E2=80=99ve got to get out, I=E2=80=
+=99m in the cab to a steakhouse.=E2=80=9D I like it.Things happenA Credit S=
+uisse Unit  Blacklisted Gupta as Another Bankrolled Him. How Swiss asset ma=
+nagers opened their doors to Lex Greensill. West Virginia Gov. Jim Justice =
+Is Personally Liable for $700 Million in Greensill Loans. KKR and CD&R Clos=
+e to $4.7 Billion Deal to Buy Out  Cloudera. Roshun Patel on What Really Dr=
+ove the Crypto Market Crash. Bitcoin ETF applications gather dust as SEC=E2=
+=80=99s Gensler frets over =E2=80=98gaps.=E2=80=99 EY Europe revamp has par=
+tners worried over Wirecard damage. Fed Warned Deutsche Bank Over Anti-Mone=
+y-Laundering Backsliding. EU set to unveil digital wallet fit for post-Covi=
+d life. The Curious World of NFT Real Estate and Design. =E2=80=9CIn honor =
+of the five-year anniversary of Harambe=E2=80=99s death =E2=80=94 which is =
+a VERY weird thing to commemorate =E2=80=94 the photographer behind the mai=
+n Harambe image, Jeff McCurry, is auctioning it off as an NFT.=E2=80=9D=C2=
+=A0If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, rig=
+ht in your inbox, please=C2=A0subscribe at this link. Or you can subscribe =
+to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Engin=
+e No. 1=E2=80=99s proxy statement says: =E2=80=9CIf successful, Engine No. =
+1 may seek reimbursement of these costs from the Company. In the event that=
+ it decides to seek reimbursement of its expenses, Engine No. 1 does not in=
+tend to submit the matter to a vote of the Company=E2=80=99s shareholders. =
+The Board, which will consist of four of the Nominees, if all are elected, =
+and eight of the incumbent Company directors, would be required to evaluate=
+ the requested reimbursement consistent with their fiduciary duties to the =
+Company and its shareholders.=E2=80=9D
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ceawcm.5s0b/0b2a86dc.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_46819949_1293549728.1622565836293
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24023110.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBaea=
+f3208"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"8">
+<tr>
+<td width=3D"206" align=3D"center">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24023110.269579/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cBb6bafb1=
+b">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">Engine No. 1=E2=80=99s economics</h2><p style=3D=
+"margin: 16px 0;">We talked a <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24023110.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjEtMDUtMjYvZXh4b24taGFzLWEtdG91Z2gtZ3JlZW4tYWN0aXZpc3Q/607f07=
+ceef4b8524a319a23cBc6f1b84d" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> couple</a> of <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/24023110.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjEtMDUtMjcvZXh4b24tbG9zdC1hLWNsaW1hdGUtcHJveHktZmlnaHQ/60=
+7f07ceef4b8524a319a23cB1a89aafb" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> times</a> last week about the plucky and successful=
+=C2=A0activist campaign that hedge fund Engine No. 1 LLC waged against Exxo=
+n Mobil Corp. I wrote on Thursday:</p><blockquote><p style=3D"margin: 16px =
+0;">Actually it=E2=80=99s a little mysterious to me what=E2=80=99s in it fo=
+r Engine No. 1? As we discussed yesterday, it owns 917,400 shares of Exxon =
+stock and spent about $30 million on the proxy fight. It bought that stock =
+in mid-November and early December, when Exxon was trading at around $37 or=
+ $38 per share; it closed yesterday at $58.94. Figure the fund is up about =
+$21 per share, and has collected another $1.74 per share in dividends, and =
+you get a gross profit of maybe $21 million; after proxy-fight expenses tha=
+t=E2=80=99s a loss of $9 million. Perhaps now that its nominees are on the =
+board, Exxon will change strategy and add a lot of long-term value and make=
+ Engine No. 1 rich. Or perhaps there are some other economics that I=E2=80=
+=99m missing. But it=E2=80=99s not obvious to me how this trade =E2=80=94 s=
+pend $35 million on stock and $30 million on a proxy fight =E2=80=94 makes =
+a lot of economic sense. Maybe they just did it for the good of the planet.=
+</p></blockquote><p style=3D"margin: 16px 0;">Well! About a hundred of you =
+emailed me to say that it=E2=80=99s obvious what=E2=80=99s in it for Engine=
+ No. 1: publicity. This is a hedge fund that <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cuYnVzaW5lc3N3aXJl=
+LmNvbS9uZXdzL2hvbWUvMjAyMDEyMDEwMDU3MDMvZW4vRW5naW5lLU5vLi0xLUxhdW5jaGVzLXR=
+vLUJyaW5nLUFjdGl2ZS1Pd25lcnNoaXAtYW5kLUltcGFjdC1Ecml2ZW4tU3RyYXRlZ3ktdG8tSW=
+52ZXN0aW5n/607f07ceef4b8524a319a23cBfa530de9" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">launched six months ago</a>; it runs a =
+small fund and doesn=E2=80=99t have much of a track record. Now it is=C2=A0=
+The Little Engine That Took Down Exxon. It has=C2=A0gone from nothing to be=
+ing a daring successful activist, <em>and=C2=A0</em>an activist with a halo=
+ of environmental virtue. It can fundraise off of that forever, attract lot=
+s of money, collect lots of fees, etc. The $30 million of proxy expenses ar=
+e an investment to make millions more in management fees.</p><p style=3D"ma=
+rgin: 16px 0;">A related benefit is what any activist fund gets from a succ=
+essful proxy fight: The=C2=A0<em>next=C2=A0</em>company they go after will =
+be intimidated by their Exxon victory,=C2=A0and will try to settle by givin=
+g them board seats. You spend $30 million on one proxy fight so you don=E2=
+=80=99t have to spend any money on five more. You show up at a meeting with=
+ the next company=E2=80=99s CEO, you put Exxon=E2=80=99s severed head on th=
+e table, you say =E2=80=9Cboard seats, now,=E2=80=9D and you get them witho=
+ut a fight.=C2=A0</p><p style=3D"margin: 16px 0;">Fine! That=E2=80=99s all =
+fair enough. One reader pointed out another, more technical but also quite =
+important answer: It is customary for activist hedge funds that=C2=A0<em>wi=
+n=C2=A0</em>their proxy fights to be=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cuY29tcGxpYW5jZXdlZWs=
+uY29tL2FjdGl2aXN0cy1ub3ctcHVzaC1wcm94eS1maWdodC1wYXliYWNrcy82NjEyLmFydGljbG=
+U/607f07ceef4b8524a319a23cB63fdfbe9" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">reimbursed by the company</a>.[1] So, because it=
+ won, Engine No. 1 probably spent $30 million of Exxon=E2=80=99s money on t=
+he proxy fight, not its own. That probably helps. It took a big=C2=A0<em>ri=
+sk=C2=A0</em>here: If it had lost the proxy fight, it would be out $30 mill=
+ion and wouldn=E2=80=99t have all the fundraising benefit of having taken d=
+own Exxon. But because it won, the economics actually look pretty good.</p>=
+<p style=3D"margin: 16px 0;">Elsewhere in <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vYnV=
+zaW5lc3MvZW5lcmd5L3N0YXRlLXN0cmVldC1iYWNrZWQtdHdvLWFjdGl2aXN0LWhlZGdlLWZ1bm=
+Qtbm9taW5lZXMtZXh4b24tYm9hcmQtMjAyMS0wNS0yNy8/607f07ceef4b8524a319a23cB835d=
+5123" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">the =
+Exxon proxy fight</a>:</p><blockquote><p style=3D"margin: 16px 0;">Asset ma=
+nager State Street Corp voted for two of the four candidates put forward by=
+ activist hedge fund Engine No. 1 for Exxon Mobil's board, a spokesman for =
+the Boston firm said late on Thursday.</p><p style=3D"margin: 16px 0;">Stat=
+e Street was Exxon's third-largest investor according to its proxy statemen=
+t. Late on Wednesday Exxon's largest investor Vanguard Group said it also b=
+acked two dissident nominees, details that fleshed out how Engine No. 1 was=
+ able to capture at least two board seats at the biggest U.S. oil producer.=
+</p></blockquote><p style=3D"margin: 16px 0;">When we talked about the prox=
+y fight last week, I used BlackRock Inc. as an example of a big index-y Exx=
+on shareholder that wants companies to care more about climate change and s=
+upported Engine No. 1=E2=80=99s push for a more renewables-focused Exxon. B=
+lackRock is Exxon=E2=80=99s second-biggest shareholder, loves to <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDEtMTQvYmxhY2tyb2NrLWh=
+hcy1ncmVlbi1wbGFucw/607f07ceef4b8524a319a23cB77a1f130" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> talk=C2=A0about sustainabilit=
+y</a>, and released a =E2=80=9C<a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24023110.269579/aHR0cHM6Ly93d3cuYmxhY2tyb2NrLmNvbS9jb3Jwb3JhdG=
+UvbGl0ZXJhdHVyZS9wcmVzcy1yZWxlYXNlL2Jsay12b3RlLWJ1bGxldGluLWV4eG9uLW1heS0yM=
+DIxLnBkZg/607f07ceef4b8524a319a23cB996bd8f5" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">vote bulletin</a>=E2=80=9D last week say=
+ing=C2=A0that it would be voting for three of Engine No. 1=E2=80=99s direct=
+or candidates; it was the most obvious example. But the other two =E2=80=9C=
+Big Three=E2=80=9D index-y shareholders also voted for change. The lesson h=
+ere is that if you are a small activist looking to run a proxy fight to pus=
+h a big company in an environmental/social/governance direction, you might =
+be able to pick up some big allies.</p><p style=3D"margin: 16px 0;"><a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMjkvZXh4b24tbW9iaWwt=
+cy1sYXN0LWRpdGNoLWF0dGVtcHQtdG8tc3RhdmUtb2ZmLWEtY2xpbWF0ZS1jb3Vw/607f07ceef=
+4b8524a319a23cBd301705f" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Also</a>:</p><blockquote><p style=3D"margin: 16px 0;">In th=
+e hours leading up to this week=E2=80=99s annual shareholders meeting, Exxo=
+n went to extraordinary lengths to head off the threat from a campaign abou=
+t which it had been largely dismissive months earlier.</p><p style=3D"margi=
+n: 16px 0;">Exxon telephoned investors the morning of the ballot -- and eve=
+n during an unscheduled, hour-long pause during the virtual meeting -- aski=
+ng them to reconsider their votes, according to several of those who receiv=
+ed calls. Some said they found the last-ditch outreach and halt to the meet=
+ing unorthodox and troubling.</p><p style=3D"margin: 16px 0;">=E2=80=9CIt w=
+as a very unusual annual general meeting,=E2=80=9D said Aeisha Mastagni, a =
+fund manager at the California State Teachers=E2=80=99 Retirement System, a=
+ major Exxon investor that backed the activist campaign from the beginning.=
+ =E2=80=9CIt didn=E2=80=99t feel good as an investor.=E2=80=9D</p></blockqu=
+ote><p style=3D"margin: 16px 0;">I think the basic reading here is that at =
+a giant public company like Exxon, the managers and board of directors sort=
+ of assume that they get to decide who can be on the board, and that shareh=
+olders are not really supposed to interfere. Technically this assumption is=
+ wrong, and at Exxon last week it did not work out, but you can see why Exx=
+on found it so surprising.</p><h2 style=3D"font-weight: bold; font-family: =
+&quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px=
+; font-size: 20px; border-bottom-width: 1px; border-bottom-style: dotted; p=
+adding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">AMC</h2><p style=
+=3D"margin: 16px 0;">Just <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/24023110.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGV=
+zLzIwMjEtMDYtMDEvYW1jLWV4dGVuZHMtcmFsbHktYWZ0ZXItMjMwLTUtbWlsbGlvbi1zdG9jay=
+1zYWxlLXRvLW11ZHJpY2s/607f07ceef4b8524a319a23cBe59c85e8" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> a great trade here</a>:</p>=
+<blockquote><p style=3D"margin: 16px 0;">AMC Entertainment Holdings Inc. ga=
+ined Tuesday, extending last week=E2=80=99s rally, after raising $230.5 mil=
+lion with a stock sale to Mudrick Capital Management as the movie-theater o=
+perator pledged to =E2=80=9Cgo on offense=E2=80=9D with acquisitions.</p><p=
+ style=3D"margin: 16px 0;">The agreement with New York-based Mudrick is for=
+ 8.5 million shares of common stock at $27.12 apiece, 3.8% more than Friday=
+=E2=80=99s closing price, AMC said Tuesday in a statement. The company, now=
+ an icon among retail traders, jumped as much as 23% to $32 at the open in =
+New York trading. It traded at $29.98 at 9:35 a.m.</p><p style=3D"margin: 1=
+6px 0;">The latest equity sale with Mudrick =E2=80=9Csounds expensive=E2=80=
+=9D with debt and equity indicating an enterprise value of over $16 billion=
+, Michael Pachter of Wedbush said in an email to Bloomberg. If it returns t=
+o pre-Covid levels, AMC could optimistically reach around $1 billion in ear=
+nings after adjustments. The highest attained in the past is $929 million i=
+n 2018, he said. =E2=80=9CMudrick must know something I don=E2=80=99t.=E2=
+=80=9D</p></blockquote><p style=3D"margin: 16px 0;">Here=E2=80=99s a thing =
+Mudrick knows:</p><blockquote><p style=3D"margin: 16px 0;">Mudrick=E2=80=99=
+s stock purchase comes with the caveat that the shares be =E2=80=9Cfreely-t=
+radeable=E2=80=9D, meaning the firm could sell the shares at any point or i=
+n any size it chooses. That would provide Mudrick with 8.5 million shares t=
+hat could be sold as soon as today.</p></blockquote><p style=3D"margin: 16p=
+x 0;">Here are the <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/24023110.269579/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MT=
+E1NzkvMDAwMTEwNDY1OTIxMDc0NTg0L3RtMjExNzk4NmQzX2RlZmExNGEuaHRt/607f07ceef4b=
+8524a319a23cB5c939302" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">press release</a>=C2=A0and <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlc=
+y9lZGdhci9kYXRhLzE0MTE1NzkvMDAwMTEwNDY1OTIxMDc0NTIwL3RtMjExNzk4Ni0xXzQyNGI3=
+Lmh0bQ/607f07ceef4b8524a319a23cB14934b90" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">the prospectus</a> for Mudrick=E2=80=99s p=
+otential sales. (Don=E2=80=99t miss the <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMDMtMjQvbmZsLWZ1dHVyZXMtYmV0dGluZy15b3UtY2FuLXQt=
+dHJhZGUtb24tcHJvLWZvb3RiYWxsLW9kZHM/607f07ceef4b8524a319a23cB4baa4cdd" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> GameStop</a>-=
+style <a href=3D"https://link.mail.bloombergbusiness.com/click/24023110.269=
+579/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTE1NzkvMDAwMTE=
+wNDY1OTIxMDc0NTIwL3RtMjExNzk4Ni0xXzQyNGI3Lmh0bQ/607f07ceef4b8524a319a23cC14=
+934b90" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;">ri=
+sk factors</a>, which include: =E2=80=9CWithin the last seven business days=
+, the market price of our Class A common stock has fluctuated from an intra=
+-day low of 12.05 on May 21, 2021 to $36.72 on May 28, 2021, and we have ma=
+de no disclosure regarding a change to our underlying business during that =
+period.=E2=80=9D) I have no idea what Mudrick is actually doing; all I am s=
+aying is that this is not a trade that ought to work under traditional theo=
+ries, but it=E2=80=99s very much a trade that works now:</p><ol style=3D"li=
+st-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=
+=3D"margin-bottom: 5px;">A meme stock closes on Friday at $26.12 per share,=
+ up 116% on the week on no particular news (but with <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMjcvYW1jLXMtZm91ci1kYXktc3VyZ2Utc2x=
+hcHMtc2hvcnQtc2VsbGVycy13aXRoLTEtMy1iaWxsaW9uLWxvc3M/607f07ceef4b8524a319a2=
+3cB8f9c0ab7" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  lots of talk about short squeezes</a>).</li>=09<li style=3D"margin-bot=
+tom: 5px;">You buy stock from the company over the holiday weekend=C2=A0<em=
+>at a premium</em>.</li>=09<li style=3D"margin-bottom: 5px;">You announce i=
+t on Tuesday morning.</li>=09<li style=3D"margin-bottom: 5px;">Everyone say=
+s =E2=80=9Coh wow good news for that meme stock, guess the wild rally is go=
+ing to continue.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">So it do=
+es.</li>=09<li style=3D"margin-bottom: 5px;">You sell the stock=C2=A0into t=
+he enormous volume and rising prices on Tuesday morning.</li></ol><p style=
+=3D"margin: 16px 0;">Like imagine the negotiations over the price. It is tr=
+aditional, when one investor buys a big chunk of stock from a company, for =
+the investor to get a bit of a discount. Here, though, the premium helps Mu=
+drick: It makes the stock sale less dilutive, signals confidence in the sto=
+ck, feels like a win. So the stock goes up even more and, if Mudrick=C2=A0<=
+em>does=C2=A0</em>want to sell immediately, it can do so at a profit.=C2=A0=
+</p><p style=3D"margin: 16px 0;">I wonder if banks are pitching AMC on boug=
+ht-deal stock offerings. I wonder what price they=E2=80=99re pitching. The =
+traditional answer, for a volatile and meme-y stock, would be that you=E2=
+=80=99d want a healthy discount to account for all of the risk you take in =
+reselling the stock: =E2=80=9CWe are confident in AMC and so can offer you =
+a bought deal at a tight discount, down just 5% from yesterday=E2=80=99s cl=
+ose.=E2=80=9D But the right answer is actually a healthy premium.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 14px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Paid Post</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;"><p style=3D"margin: 10px 0px;">Meet Axos Bank=E2=80=99s Rewards Ch=
+ecking =E2=80=93 the account that helps you earn more, so you can save more=
+. Earn up to 1.25% Annual Percentage Yield, pay zero fees, and get unlimite=
+d domestic ATM fee reimbursements. And, as a bonus, enjoy a mobile banking =
+app that will knock your socks off. <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24023110.269579/aHR0cHM6Ly9iaXQubHkvM2ZiZ1ZnTg/607f07ceef=
+4b8524a319a23cB51d768fb" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" title=3D"Apply Now" style=3D"color: #000000; text-decoration=
+: underline;">
+Apply Now</a></p></div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Axos Bank</p></d=
+iv>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">Pennies, steamrollers</h2><p style=3D"margin: 16=
+px 0;">A well-known fund management strategy is:</p><ol style=3D"list-style=
+-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin=
+-bottom: 5px;">Raise money and put it in the bank.</li>=09<li style=3D"marg=
+in-bottom: 5px;">Sell out-of-the-money puts=C2=A0on the S&amp;P 500 stock i=
+ndex.</li>=09<li style=3D"margin-bottom: 5px;">Most of the time, stocks are=
+ up or flat or down a little, the options expire worthless and you keep the=
+ premium.</li>=09<li style=3D"margin-bottom: 5px;">You show steady performa=
+nce with no down months, your Sharpe ratio is excellent, you raise a lot of=
+ money from satisfied customers, you=C2=A0charge a lot of management and pe=
+rformance fees, and you buy big houses and=C2=A0yachts.</li>=09<li style=3D=
+"margin-bottom: 5px;">Eventually the market has a bad day, your bets blow u=
+p=C2=A0and your fund loses everything.</li>=09<li style=3D"margin-bottom: 5=
+px;">You keep the yachts, etc.</li></ol><p style=3D"margin: 16px 0;">We tal=
+k about this strategy from <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24023110.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjAtMDctMTcvZnJlZS10cmFkZXMtY2FuLXJlYWxseS1jb3N0LXlvdQ/607f07ceef=
+4b8524a319a23cB6ef6ffc8" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> time</a> to <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/24023110.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMjAtMDYtMjUvdGhlLWdvdmVybm1lbnQtd2FudHMtZXNnLW91dC1vZi1wZW5zaW9u=
+cw/607f07ceef4b8524a319a23cB2c84f402" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;"> time</a> when these funds blow up. One point t=
+hat I emphasize is that this is a thing that investors look out for. Reason=
+ably sophisticated investors, when confronted with a volatility-selling hed=
+ge fund like this, will ask questions of the form =E2=80=9CWait are you jus=
+t selling puts on the S&amp;P 500? Are we just paying you hedge-fund fees f=
+or betting that the market will be steady? Isn=E2=80=99t your strategy much=
+ riskier than the historical results suggest? Isn=E2=80=99t this inevitably=
+ going to go to zero, and won=E2=80=99t we be left holding the bag when tha=
+t happens?=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;">Here=E2=80=99s a =
+Securities and Exchange Commission <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/24023110.269579/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLX=
+JlbGVhc2UvMjAyMS04OQ/607f07ceef4b8524a319a23cB42fcc33e" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">enforcement action</a> agains=
+t LJM Funds Management Ltd., which <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/24023110.269579/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2=
+NvbXBsYWludHMvMjAyMS9jb21wLXByMjAyMS04OS5wZGY/607f07ceef4b8524a319a23cB8968=
+458b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">did =
+this strategy</a>:</p><blockquote><p style=3D"margin: 16px 0;">[LJM founder=
+ and co-portfolio manager Anthony] Caine created the investment strategy em=
+ployed by LJM Management and LJM Partners, which involved writing (i.e. sel=
+ling) short-dated, out-of-the money options on S&amp;P 500 futures contract=
+s. The options sold were mostly put options, but also included some call op=
+tions. =E2=80=A6</p><p style=3D"margin: 16px 0;">Like an insurance company,=
+ LJM Management and LJM Partners made money by collecting premiums (i.e., t=
+he market prices of the options) in exchange for assuming a risk =E2=80=93 =
+in this case, the obligation to purchase or sell futures contracts at a giv=
+en strike price if the option holder exercised the option on or before the =
+expiration date.</p><p style=3D"margin: 16px 0;">This investment strategy i=
+s known as =E2=80=9Cshort options=E2=80=9D or =E2=80=9Cshort volatility=E2=
+=80=9D trading, and offers the possibility of relatively stable profits fro=
+m premium income, but carries the risk of significant losses during large m=
+arket swings. This strategy was the equivalent of selling insurance to othe=
+r investors primarily against declines in the S&amp;P 500 futures market.=
+=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">It did this in private =
+funds but also in a retail mutual fund with the classically ironic name =E2=
+=80=9CLJM Preservation &amp; Growth Fund.=E2=80=9D In February 2018, the S&=
+amp;P 500 fell by more than 6% over two days and volatility increased. Pred=
+ictably,=C2=A0the LJM funds blew up, =E2=80=9Cresulting in catastrophic tra=
+ding losses exceeding $1 billion, or more than 80% of the value of the fund=
+s LJM managed, over two trading days.=E2=80=9D At the time, people <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6L=
+y93d3cuY25iYy5jb20vMjAxOC8wMi8wOC9mdW5kLWNyYXNoZXMtYWZ0ZXItd3Jvbmctd2F5LXZv=
+bGF0aWxpdHktdHJhZGUuaHRtbA/607f07ceef4b8524a319a23cB76467d47" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">said the usual things</=
+a>:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CShort volatility s=
+trategies, selling options and collecting premium, have been critically des=
+cribed as picking up dimes in front of a steamroller,=E2=80=9D wrote Don St=
+einbrugge, the founder and CEO of Agecroft Partners, a hedge-fund consultin=
+g firm, in a blog post. =E2=80=9CThey generate very good risk adjusted retu=
+rns until volatility spikes and then have the potential to lose most of the=
+ir assets if not properly hedged.=E2=80=9D</p></blockquote><p style=3D"marg=
+in: 16px 0;">Again, all standard stuff, stuff that investors are naturally =
+nervous about,=C2=A0well-known issues in short-volatility investing. LJM=E2=
+=80=99s investors knew this stuff and were worried. From the <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cu=
+c2VjLmdvdi9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMS9jb21wLXByMjAyMS04OS5wZGY/607=
+f07ceef4b8524a319a23cC8968458b" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">SEC complaint</a>:</p><blockquote><p style=3D"margin:=
+ 16px 0;">The funds=E2=80=99 investors, and the investors=E2=80=99 financia=
+l advisers, frequently asked Defendants for their worst-case loss scenarios=
+ and estimates of maximum investment losses during extreme market events in=
+ order to better understand the scope of risk in Defendants=E2=80=99 invest=
+ment strategy.</p></blockquote><p style=3D"margin: 16px 0;">And, uh:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">In an April 28, 2016 email to the [ch=
+ief risk officer], Caine admitted that =E2=80=9C[t]he immediate straight an=
+swers to these questions are ugly =E2=80=A6. Real ugly. Hell I would run.=
+=E2=80=9D Nonetheless, Caine directed the CRO to work with [co-portfolio ma=
+nager Anish] Parvataneni and create a =E2=80=9Ctool for sales staff to resp=
+ond to these questions=E2=80=9D in a more positive light.</p></blockquote><=
+p style=3D"margin: 16px 0;">Yes, right. The SEC alleges the tool consisted =
+mostly of lying:</p><blockquote><p style=3D"margin: 16px 0;">Defendants cla=
+imed that: (a) they stress tested the portfolios against specific historica=
+l scenarios to estimate worst-case daily losses; (b) based on those stress =
+tests, the estimated worst-case daily loss was 20% for the P&amp;G Fund and=
+ 30 to 35% for the Private Funds; and (c) they managed these funds to maint=
+ain consistent risk levels.</p><p style=3D"margin: 16px 0;">All of these st=
+atements were false. Although LJM automatically generated historical scenar=
+io stress tests on every trading day, Defendants did not use those stress t=
+ests to estimate worst-case losses to the portfolios during extreme market =
+events. To arrive at the 20%=C2=A0estimated worst-case daily loss for the P=
+&amp;G Fund, for example, Defendants simply took the fund=E2=80=99s worst p=
+erformance on a single day (approximately 9%), doubled it, and then rounded=
+ up.</p><p style=3D"margin: 16px 0;">Moreover, on nearly every trading day =
+from late 2016 through early 2018, the historical scenarios stress test LJM=
+ purportedly used to estimate =E2=80=9Cworst-case=E2=80=9D losses showed po=
+tential losses greater than the worst-case daily loss estimates disclosed t=
+o investors. In fact, on many occasions, Defendants=E2=80=99 stress testing=
+ estimated potential loss exposure approaching or exceeding 100% of the fun=
+ds=E2=80=99 value.</p></blockquote><p style=3D"margin: 16px 0;">I feel like=
+ =E2=80=9Cour worst-case future loss is twice our worst-ever actual loss, r=
+ounded up=E2=80=9D is often sort of a reasonable rule of thumb and produces=
+ a number that sounds about right to an average investor, but is clearly wr=
+ong here where the whole point of the strategy is the pennies-in-front-of-a=
+-steamroller thing. In reality,=C2=A0LJM=E2=80=99s worst-case scenario was =
+exactly what you=E2=80=99d expect it to be: an=C2=A080% loss in two days pl=
+us an SEC enforcement action.</p><h2 style=3D"font-weight: bold; font-famil=
+y: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -=
+1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style: dotted=
+; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">Everything is s=
+ecurities fraud</h2><p style=3D"margin: 16px 0;">On the one hand, an accoun=
+ting restatement =E2=80=94=C2=A0an admission that a company=E2=80=99s=C2=A0=
+previous accounting statements were wrong and that it overstated its income=
+ =E2=80=94=C2=A0is a classic form of securities fraud, the sort of thing th=
+at shareholders are always going to sue over. On the other hand, <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMjgvdmlyZ2luLWdhbGFjdGl=
+jLXN1ZWQtYnktaW52ZXN0b3Itb3Zlci1zcGFjLXMtYWNjb3VudGluZy1pc3N1ZXM/607f07ceef=
+4b8524a319a23cB36b5e3f8" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> this isn=E2=80=99t=C2=A0<em>quite=C2=A0</em>that</a>:</p><b=
+lockquote><p style=3D"margin: 16px 0;">Virgin Galactic Holdings Inc. was su=
+ed by an investor who claims he lost money when the space-tourism company a=
+nnounced that it would restate its results due to regulatory guidance about=
+ the accounting treatment of warrants.</p><p style=3D"margin: 16px 0;">The =
+Las Cruces, New Mexico-based company said on April 30 that it would have to=
+ restate its 2020 results because of accounting guidance of regulators rela=
+ted to special purpose acquisition companies, or SPACs. The next trading da=
+y, its shares fell 9%. The company combined with Social Capital Hedosophia,=
+ run by former Facebook executive Chamath Palihapitiya, and went public in =
+October 2019. =E2=80=A6</p><p style=3D"margin: 16px 0;">The Securities and =
+Exchange Commission set forth new guidance in April that warrants, which ar=
+e issued to early investors in the deals, might not be considered equity in=
+struments and may instead be liabilities for accounting purposes. =E2=80=A6=
+ The investor, Shane Lavin, said in the lawsuit filed Friday in federal cou=
+rt in Brooklyn, New York, that Virgin Galactic and its executives knew that=
+ the results they were reporting were wrong.=C2=A0</p></blockquote><p style=
+=3D"margin: 16px 0;">It=E2=80=99s not like Virgin Galactic was cooking the =
+books by reporting billions of dollars of revenue for spaceship tickets=C2=
+=A0that it never actually sold. Virgin Galactic doesn=E2=80=99t sell spaces=
+hip tickets and has always had minimal revenue; its revenue for the last th=
+ree years combined was <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/24023110.269579/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2=
+FyL2RhdGEvMTcwNjk0Ni8wMDAxNzA2OTQ2MjEwMDAwNTYvc3BjZS0yMDIwMTIzMS5odG0jaWM1M=
+jQ5MjFmZjlhYTQ3ZDY4NjY0ZjJhZGZjY2Q4OGVmXzExOA/607f07ceef4b8524a319a23cB26e6=
+351e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">less=
+ than $7 million</a>. Meanwhile its net loss last year was about $685 milli=
+on after the restatement, up from $273 million before the restatement, a ch=
+ange that is due entirely to the weird accounting treatment of SPAC warrant=
+s.</p><p style=3D"margin: 16px 0;">That is not a cash cost, and it is not a=
+ctually a surprise: Every Virgin Galactic investor knew about the warrants,=
+ the fact that the warrants were in-the-money and an economic cost to the c=
+ompany was obvious, and the only question was whether or not that cost had =
+to be reflected in the company=E2=80=99s income statement.</p><p style=3D"m=
+argin: 16px 0;">Last month, the SEC <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24023110.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjEtMDQtMTMvZ3JhYi1zcGFjLW1lZ2EtbWVyZ2VyLWlzbi10LW1lZ2Et=
+d2l0aG91dC1ibGFja3JvY2stcGlwZQ/607f07ceef4b8524a319a23cB02b814e0" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> decided that it s=
+hould be</a>, partly as a matter of technical=C2=A0judgment about U.S. gene=
+rally accepted accounting principles=C2=A0but also, let=E2=80=99s be clear,=
+ because the SEC does not like SPACs and wants to slow them down. So the SE=
+C decided that SPAC accounting should be a bit more onerous and conservativ=
+e than everyone had thought, and so a bunch of SPACs, including Virgin Gala=
+ctic, had to restate their earnings. The SEC=E2=80=99s disfavor, and the lo=
+wer GAAP income (well, higher GAAP losses), is bad for Virgin Galactic, and=
+ every bad thing that happens to a public company is arguably securities fr=
+aud.=C2=A0</p><h2 style=3D"font-weight: bold; font-family: &quot;Arial Blac=
+k&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20p=
+x; border-bottom-width: 1px; border-bottom-style: dotted; padding-bottom: 5=
+px; margin-top: 30px; margin-bottom: 0;">Archegos vs. SPACs</h2><p style=3D=
+"margin: 16px 0;">The basic channel of financial contagion is deleveraging.=
+ Stock X goes down a lot. Hedge Fund A owns a lot of Stock X on margin; to =
+meet margin calls on Stock X, it sells a bunch of the better and more liqui=
+d Stock Y. So Stock Y goes down a lot. Hedge Fund B owns a lot of Stock Y a=
+nd starts selling Stock Z, etc. Meanwhile brokers get nervous and start cal=
+ling in loans and increasing margin requirements and, so more hedge funds d=
+ump more stocks.</p><p style=3D"margin: 16px 0;">The implosion of <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMDUvYmlsbC1od2Fu=
+Zy1zLWFyY2hlZ29zLXN3YXAtYWZ0ZXJtYXRoLWlzLWF3a3dhcmQtZm9yLWJhbmtz/607f07ceef=
+4b8524a319a23cB303f31f4" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Archegos Capital Management</a> looked like this: Archegos =
+had big levered stock positions, one of its stocks went down, it had to sel=
+l other stocks, those stocks went down, etc. But because Archegos was so le=
+vered, and because no one had really heard of it before it tanked the price=
+s of a bunch of big stocks, it led to a lasting backlash against hedge-fund=
+ (and family-office) leverage. The result is that, months later, there are =
+still stories about big levered hedge-fund trades that had nothing to do wi=
+th Archegos, or with the stocks it owned, but that nonetheless <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3=
+cuZnQuY29tL2NvbnRlbnQvZWUxNWZiY2EtOGVmNy00YjZmLWJiODctMzAzNzg4MDVkZDI5/607f=
+07ceef4b8524a319a23cB54743b73" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">got broken by Archegos</a>:</p><blockquote><p style=3D=
+"margin: 16px 0;">The market for special purpose acquisition companies has =
+become an unexpected casualty of the Archegos Capital Management scandal, a=
+s banks rein in lending to hedge funds that had invested heavily in blank-c=
+heque companies.</p><p style=3D"margin: 16px 0;">Banks across Wall Street h=
+ave become more wary of how much leverage they can extend to their clients =
+following the collapse of Archegos, the investment firm run by Bill Hwang, =
+forcing hedge funds and family offices to reconsider their investments in S=
+pacs, according to several market participants.</p><p style=3D"margin: 16px=
+ 0;">=E2=80=9CPrime broker terms generally have tightened as a result of Ar=
+chegos,=E2=80=9D said a senior banker who works on Spac deals. =E2=80=9CA l=
+ot of the return profile for hedge funds is derived from the leverage they =
+employ. It was a gravy train when it was levered.=E2=80=9D</p></blockquote>=
+<p style=3D"margin: 16px 0;">For a hedge fund, a SPAC is basically <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMDgvc3BhYy1tYWdp=
+Yy1pc24tdC1mcmVl/607f07ceef4b8524a319a23cB58ccbcf2" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> a money-market investment plus s=
+ome warrants</a>. If you can lever that up a ton, it looks good; if you can=
+=E2=80=99t, it looks like a money-market fund. Now you can=E2=80=99t, and=
+=C2=A0the whole SPAC boom is suffering.=C2=A0</p><h2 style=3D"font-weight: =
+bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; l=
+etter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border-bott=
+om-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;"=
+>Elsewhere in equity capital markets</h2><p style=3D"margin: 16px 0;">The b=
+asic problem with traditional initial public offerings is that, when a comp=
+any does an IPO, its stock usually=C2=A0goes up: The stock price on the pub=
+lic exchange moments after it goes public is often much higher than the pri=
+ce that the company gets for the stock. If you are the company selling the =
+stock, this might seem bad: Why shouldn=E2=80=99t=C2=A0<em>you=C2=A0</em>ge=
+t to sell at the higher price? Similarly, if you are a person buying the st=
+ock on the exchange, it might seem bad: Why shouldn=E2=80=99t=C2=A0<em>you=
+=C2=A0</em>get to buy at the lower price? SPACs and direct listings and =E2=
+=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/24023110.269=
+579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMDc=
+vdGhlLWlwby1tYXJrZXQtd2FzLXRvby1nb29k/607f07ceef4b8524a319a23cB61960fec" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> hybrid IPOs=
+</a>=E2=80=9D are attempts to address this central annoyance, to let regula=
+r investors <a href=3D"https://link.mail.bloombergbusiness.com/click/240231=
+10.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtM=
+DItMjMvdGVzbGEtcml2YWwtbHVjaWQtbW90b3JzLXBhaWQtYS1wcmljZS1mb3ItaXRzLXNwYWMt=
+ZGVhbA/607f07ceef4b8524a319a23cB0ddfac95" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> buy at the IPO price</a>=C2=A0or to let c=
+ompanies sell at the post-IPO market price or, somehow, both.</p><p style=
+=3D"margin: 16px 0;">This is the sort of innovation that flourishes in a ho=
+t IPO market: For the most part, it=E2=80=99s only worth doing all this wei=
+rd stuff if IPOs usually go up. If not, why bother? <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cuZnQuY29tL=
+2NvbnRlbnQvZmZlMmUzNzEtY2M5ZS00MWNjLTk0ZDQtYjZkMzQ0NmI2ZWQ3/607f07ceef4b852=
+4a319a23cBf9a007d8" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">Anyway</a>:</p><blockquote><p style=3D"margin: 16px 0;">New figur=
+es show the IPO market has cooled substantially since a red-hot first quart=
+er, as shares in recently floated companies have drifted lower and some hig=
+h-profile debuts have flopped.</p><p style=3D"margin: 16px 0;">In January a=
+nd February, the shares of companies joining the New York Stock Exchange or=
+ Nasdaq rose on average more than 40 per cent from their IPO price on the f=
+irst day of trading, according to data from Dealogic.</p><p style=3D"margin=
+: 16px 0;">In March and April, the average pop had dropped closer to 20 per=
+ cent, and in May it fell further to an average 18 per cent as of the middl=
+e of last week.</p></blockquote><p style=3D"margin: 16px 0;">Back at the be=
+ginning of the modern SPAC boom, another thing people used to say about SPA=
+Cs is that they somehow cut Wall Street=C2=A0<em>banks=C2=A0</em>out of the=
+ gravy train of going public, somehow letting companies deal directly with =
+the public rather than letting=C2=A0Wall Street insiders profit=C2=A0from r=
+ich IPO fees. I <a href=3D"https://link.mail.bloombergbusiness.com/click/24=
+023110.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+jAtMDctMjcvc3BhY3MtYXJlbi10LWNoZWFwZXItdGhhbi1pcG9zLXlldA/607f07ceef4b8524a=
+319a23cBe86211cb" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> never</a> really <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/24023110.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjEtMDEtMjIvZmFjZWJvb2stcy1zdXByZW1lLWNvdXJ0LXRha2VzLWEtY2FzZQ/607=
+f07ceef4b8524a319a23cBe2efe0ee" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> understood</a> this claim, and people stopped making=
+ it as it became clear just how comically lucrative SPACs are for investmen=
+t banks. Not anymore, though; the banks will <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRl=
+bnQvODhkN2Y1NzctOWJmYS00MjE1LWI1N2ItMGY4YTRkYTM2NDRh/607f07ceef4b8524a319a2=
+3cB7e3a11b2" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">miss all those SPAC fees</a>:</p><blockquote><p style=3D"margin: 16px 0;=
+">The fees US banks earn from special purpose acquisition companies=C2=A0ha=
+ve plunged in the past two months, disrupting what had been a main profit g=
+enerator on Wall Street.</p><p style=3D"margin: 16px 0;">Investment banks m=
+ade a little over $430m from initial public offerings of Spacs and mergers =
+between Spacs and private companies in April and May, according to data fro=
+m Refinitiv. That accounted for 4.5 per cent of overall investment banking =
+fees for the period.</p><p style=3D"margin: 16px 0;">By comparison, in Janu=
+ary and February, Spacs accounted for 22.5 per cent of revenues and brought=
+ banks almost $3bn in fees =E2=80=94 the two most active months ever for th=
+e sector.</p></blockquote><h2 style=3D"font-weight: bold; font-family: &quo=
+t;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; fo=
+nt-size: 20px; border-bottom-width: 1px; border-bottom-style: dotted; paddi=
+ng-bottom: 5px; margin-top: 30px; margin-bottom: 0;">Crypto mine</h2><p sty=
+le=3D"margin: 16px 0;">Okay, <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24023110.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjEtMDUtMjgvY29wcy1zdHVtYmxlLW9uLWJpdGNvaW4tbWluZS1pbi1odW50LWZvci1=
+1LWstY2FubmFiaXMtZmFybQ/607f07ceef4b8524a319a23cBf6ac7c5f" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;"> fine</a>:</p><blockquote>=
+<p style=3D"margin: 16px 0;">When British police raided a warehouse, they w=
+ere expecting to find a cannabis farm. Instead they found banks of computer=
+s illegally siphoning the electricity needed to mine for Bitcoin.</p><p sty=
+le=3D"margin: 16px 0;">Cops in West Midlands, England seized around 100 com=
+puter units that were working to bypass the local power grid. They discover=
+ed the warehouse after sending a drone over the site, which detected a cons=
+iderable heat source. =E2=80=A6</p><p style=3D"margin: 16px 0;">=E2=80=9CIt=
+=E2=80=99s certainly not what we were expecting,=E2=80=9D Police Sergeant J=
+ennifer Griffin=C2=A0said in a statement Friday. =E2=80=9CIt had all the ha=
+llmarks of a cannabis cultivation set-up.=E2=80=9D</p><p style=3D"margin: 1=
+6px 0;">The police said they hadn=E2=80=99t yet made any arrests but believ=
+ed thousands of pounds worth of power had been taken from the grid.</p><p s=
+tyle=3D"margin: 16px 0;">=E2=80=9CMining for cryptocurrency is not itself i=
+llegal but clearly abstracting electricity from the mains supply to power i=
+t is,=E2=80=9D Griffin said.=C2=A0</p></blockquote><p style=3D"margin: 16px=
+ 0;">One neighbor =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24023110.269579/aHR0cHM6Ly93d3cuZGFpbHltYWlsLmNvLnVrL25ld3MvYXJ0aW=
+NsZS05NjI4ODczL1BvbGljZS1kaXNjb3Zlci1naWFudC1jcnlwdG9jdXJyZW5jeS1XZXN0LU1pZ=
+GxhbmRzLWRydWctcmFpZC5odG1sP2l0bz1uYXRpdmVfc2hhcmVfYXJ0aWNsZS1tYXN0aGVhZA/6=
+07f07ceef4b8524a319a23cBc4bd21da" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">told MailOnline that</a> they had seen three Englis=
+h men who 'looked a bit nerdy and dodgy' arriving at the unit 'on and off' =
+for around eight months,=E2=80=9D which really should have attracted the cr=
+ypto police. That=E2=80=99s a pretty good name for a crypto hedge fund actu=
+ally, like, Nerdy and Dodgy Capital Partners.=C2=A0</p><h2 style=3D"font-we=
+ight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-se=
+rif; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; borde=
+r-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-botto=
+m: 0;">Desk Jockey</h2><p style=3D"margin: 16px 0;">A couple of years ago w=
+e talked about a =E2=80=A6=C2=A0concept? ... called Music for Business, in =
+which a band, uh, makes music for business? It=E2=80=99s from a =E2=80=A6=
+=C2=A0band? branding agency? =E2=80=A6=C2=A0called Mobile Steam Unit, and i=
+t is fun. =E2=80=9CThere are so many songs about breakups, and so few about=
+ interoffice email, but at this point the latter is as central an aspect of=
+ human existence as the former, and we need an art that reflects and celebr=
+ates and interrogates and recombines it,=E2=80=9D <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDgtMDkvbXVzay1zLW1vbmV5LW15c3RlcnktaW=
+50cmlndWVzLXNlYw/607f07ceef4b8524a319a23cB22622ac0" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> I said</a>. =E2=80=9CUnlike conv=
+entional commercial music created solely to enhance the advertising and mar=
+keting content companies use to sell their products, Mobile Steam Unit crea=
+tes music for the people who make up the company itself,=E2=80=9D <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6L=
+y9tb2JpbGVzdGVhbXVuaXQuY29tLw/607f07ceef4b8524a319a23cBb78b8aee" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Mobile Steam Unit =
+says</a>, I guess in its marketing copy.</p><p style=3D"margin: 16px 0;">An=
+yway, here=E2=80=99s their new single, =E2=80=9C<a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cueW91dHViZS5jb=
+20vd2F0Y2g_dj1tZzZRQU12RnM3TQ/607f07ceef4b8524a319a23cB64a3eb09" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Desk Jockey + Stea=
+khouse</a>.=E2=80=9D =E2=80=9CI=E2=80=99m a desk jockey, an office jock;=C2=
+=A0I like to Gchat=C2=A0and pick stocks,=E2=80=9D it goes. And: =E2=80=9CI =
+follow timelines, complete sales; I build portfolios, keep up with emails.=
+=E2=80=9D And: =E2=80=9CI wear a cornflower blue tie.=E2=80=9D And: =E2=80=
+=9CI=E2=80=99ve got to get out, I=E2=80=99m in the cab to a steakhouse.=E2=
+=80=9D I like it.</p><h2 style=3D"font-weight: bold; font-family: &quot;Ari=
+al Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-si=
+ze: 20px; border-bottom-width: 1px; border-bottom-style: dotted; padding-bo=
+ttom: 5px; margin-top: 30px; margin-bottom: 0;">Things happen</h2><p style=
+=3D"margin: 16px 0;">A Credit Suisse Unit <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjEtMDUtMjgvYS1jcmVkaXQtc3Vpc3NlLXVuaXQtYmxhY2tsaXN0ZW=
+QtZ3VwdGEtYXMtYW5vdGhlci1iYW5rcm9sbGVkLWhpbQ/607f07ceef4b8524a319a23cB3a9db=
+ac5" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Blac=
+klisted Gupta</a> as Another Bankrolled Him. How Swiss asset managers opene=
+d their doors to <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+4023110.269579/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNzI2YmZiN2YtMmUxYy00OTFl=
+LTk4OWYtYzBjYzEyNmMzNzdi/607f07ceef4b8524a319a23cBf5006941" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">Lex Greensill</a>. West V=
+irginia Gov. Jim Justice Is Personally Liable for $700 Million in <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy93ZXN0LXZpcmdpbmlhLWdvdi1qaW0tanVzdGljZS1pcy1w=
+ZXJzb25hbGx5LWxpYWJsZS1mb3ItNzAwLW1pbGxpb24taW4tZ3JlZW5zaWxsLWxvYW5zLTExNjI=
+yNDYyNDAxP21vZD1ocF9sZWFkX3BvczM/607f07ceef4b8524a319a23cBd3571eaf" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">Greensill Loans</=
+a>. KKR and CD&amp;R Close to $4.7 Billion Deal to Buy Out <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMDEva2tyLWNkLXItY2xvc2UtdG8tZ=
+GVhbC10by10YWtlLWNsb3VkZXJhLXByaXZhdGUtZG93LWpvbmVzLXNheXM/607f07ceef4b8524=
+a319a23cB3d82d90d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Cloudera</a>. Roshun Patel on What Really Drove the <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMDEvdHJhbnNjcmlwdC1yb3NodW=
+4tcGF0ZWwtb24td2hhdC1yZWFsbHktZHJvdmUtdGhlLWNyeXB0by1tYXJrZXQtY3Jhc2g/607f0=
+7ceef4b8524a319a23cB069e298b" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">Crypto Market Crash</a>. <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRl=
+bnQvZjlmMmQ0NTQtMzZiNi00M2JmLTllNWItNjk1Y2Q2NWNhNDI3/607f07ceef4b8524a319a2=
+3cB695682a6" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">Bitcoin ETF applications</a> gather dust as SEC=E2=80=99s Gensler frets =
+over =E2=80=98gaps.=E2=80=99 EY Europe revamp <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnR=
+lbnQvNjMzMzZhZmQtN2IxZS00MTQyLThlZTAtNDhiYzY3OGQyYTFl/607f07ceef4b8524a319a=
+23cBd635713e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">has partners worried</a> over Wirecard damage. Fed Warned Deutsche Bank=
+ Over <a href=3D"https://link.mail.bloombergbusiness.com/click/24023110.269=
+579/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mZWQtd2FybmVkLWRldXRzY2hlLWJhbms=
+tb3Zlci1hbnRpLW1vbmV5LWxhdW5kZXJpbmctYmFja3NsaWRpbmctMTE2MjIzOTA2NzA_bW9kPW=
+l0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB49210002" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">Anti-Money-Laundering</a> Ba=
+cksliding. EU set to unveil <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/24023110.269579/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMDA4MGE1ZWQtN=
+DcxNy00YmEzLTk0MTUtMTExYjZmYzgyZGNm/607f07ceef4b8524a319a23cBd43de12e" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">digital wallet=
+</a> fit for post-Covid life. The Curious World of <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d3cubnl0aW1lcy=
+5jb20vMjAyMS8wNS8yNS9mYXNoaW9uL3NlbGxpbmctdmlydHVhbC1yZWFsLWVzdGF0ZS5odG1sP=
+3JlZmVycmluZ1NvdXJjZT1hcnRpY2xlU2hhcmU/607f07ceef4b8524a319a23cBf69b80df" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">NFT Real Es=
+tate</a> and Design. =E2=80=9CIn honor of the five-year anniversary of Hara=
+mbe=E2=80=99s death =E2=80=94 which is a VERY weird thing to commemorate =
+=E2=80=94 the photographer behind the main Harambe image, Jeff McCurry, is =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24023110.269579/aH=
+R0cHM6Ly93d3cuZ2FyYmFnZWRheS5lbWFpbC9wL3dlbGNvbWUtdG8tYmV5YmxhZGUtdGlrdG9r/=
+607f07ceef4b8524a319a23cB1f03be21" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">auctioning it off as an NFT</a>.=E2=80=9D=C2=A0</p=
+><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-med=
+ia"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form=
+, right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbu=
+siness.com/click/24023110.269579/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbm=
+Vzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0M=
+GYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB9cb340de" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money=
+ Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24023110.269579/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcu=
+Y29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBfbb5501c" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span>=
+</p><p style=3D"margin: 16px 0;"><em>[1] Engine No. 1=E2=80=99s <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/24023110.269579/aHR0cHM6Ly93d=
+3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzM0MDg4LzAwMDA5MDI2NjQyMTAwMTkzMS9w=
+MjEtMDk1N2RlZmMxNGEuaHRt/607f07ceef4b8524a319a23cBfc446362" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">proxy statement says</a>:=
+ =E2=80=9CIf successful, Engine No. 1 may seek reimbursement of these costs=
+ from the Company. In the event that it decides to seek reimbursement of it=
+s expenses, Engine No. 1 does not intend to submit the matter to a vote of =
+the Company=E2=80=99s shareholders. The Board, which will consist of four o=
+f the Nominees, if all are elected, and eight of the incumbent Company dire=
+ctors, would be required to evaluate the requested reimbursement consistent=
+ with their fiduciary duties to the Company and its shareholders.=E2=80=9D<=
+/em></p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24023110.269579/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB61e54adb" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24023110.269579/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBe88f1395" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24023110.269579/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBfdf37a21" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24023110.269579/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBd73a4914" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2402=
+3110.269579/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cBaf399266" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24023110.269579/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC71f09e46" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24023110.269579/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB773e7ca1" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24023110.269579/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB755de8a6" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ceawcm.5s0b/0b2a86dc.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_46819949_1293549728.1622565836293--
+

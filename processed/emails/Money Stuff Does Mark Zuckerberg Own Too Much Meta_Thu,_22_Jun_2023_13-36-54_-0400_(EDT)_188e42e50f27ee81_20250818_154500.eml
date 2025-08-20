@@ -1,0 +1,2176 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp5048662rwb;
+        Thu, 22 Jun 2023 10:37:00 -0700 (PDT)
+X-Received: by 2002:a7b:cc94:0:b0:3fa:740e:f9aa with SMTP id p20-20020a7bcc94000000b003fa740ef9aamr1988605wma.37.1687455420463;
+        Thu, 22 Jun 2023 10:37:00 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1687455420; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=nw60Prf1VTl83NINUWPSAXphl9cFzE2inYIlusAGypPQ7b5dnRBkahtt9GMD2phFwm
+         p3BEjZ3+Ad1AsT2hNxRyy0xq/90PyH52EFytRswtuYgMr7zc49y6sO0N1uKGvxSW9+I0
+         347xYSpJ9hbUMbQ2YOVf8zSWEs5/1XthOmsgNJQ9F5OPZl9GfNG9Fz6idKRVq2OWT9kJ
+         eR7tn5VS38AqPQ42w6NNacYwJrA6njjD6dLunUOdhRO1IMYMa5yVYfIm8RH0lVwdIOur
+         55p781SFnqiijsjRmvl9/fcwM4dNXlAEhHes39vYhpaTOeQhkZ5uHUz6/vg5U/kgL23B
+         /rKA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=hoQfknJjFdOjna7vs/4ea9G83qfRUYrs5AlWYzbKMEs=;
+        b=Nfd8Nkq17GiSpSFiSQKyvG1DSHBdC0YbvRQS5yGSHIfLLIaCA6byZ4NTN89/+jGfj9
+         zfqtQazq9dwEpUcONQ/9C0uSUWpMlxMBPVUJiq8IP5JzfrAFmEOD+br+GNxEzNa6di2q
+         fccC1EBRRr6HDpe7jIKaEmDsri2zjVrHkMUyDDi34svLgl+gKNGCXwM4NAo8FiLLK61k
+         t2fjcp5U3vaU2N8dK7Q36OsofmJ0XUu6G8oGybY48Up6LzG/vyv5DSO4NxW1eI/giJ2o
+         I14lL2dILv122s8j7hR5M9vrAZ7i6F3WK19dQYT7+6H8KxiV2TrWmnuLFLGjQcnNEz1b
+         GKPg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QFIVqsM7;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 14-20020a05600c020e00b003fa74389b12sor746166wmi.2.2023.06.22.10.37.00
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 22 Jun 2023 10:37:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QFIVqsM7;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1687455420; x=1690047420;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=hoQfknJjFdOjna7vs/4ea9G83qfRUYrs5AlWYzbKMEs=;
+        b=BW8kjlz+8zRIqfHMcHh8wpqW4+CnCCqu/MDwHvj5b6sug+1mgNST9vRx4m++Nqmkei
+         sqNumNFCxENe1pQTsRspsELhwhpwFUu0ZnphYHJdHBzgRyV5YNRNzn7VAIG6PZ+IapOJ
+         s8LMsoD4aDm4giFby2ivCS/xls/x39lgYVj6pUHsWFz2stx3Y0gzRfQSaFatGgx3IyoN
+         ojGLlrepbVZoRdliUhRe+WUeFNgm5L4CQVTso13ln4PjD04X9LKauqUB1zeZuseZ0fFw
+         rWM3zdjhLhB4KclBSqXe1HwTGUrY4L7zWVe3UVj9EdR+nojnXHBqKtxKyPx7Ml+XWjQo
+         mRaA==
+X-Gm-Message-State: AC+VfDyc9qNy1eB3q1z5Yyrhh3IEjlTLfRfzO5asJet9nqEskk2HnUN1
+	muz8d6RgdogUzx9xOIrQMcIC+dyp06jGuoDuXoe/2lKQn09yigYaEQ==
+X-Received: by 2002:a5d:4747:0:b0:30f:ca86:98a2 with SMTP id o7-20020a5d4747000000b0030fca8698a2mr15902970wrs.24.1687455419899;
+        Thu, 22 Jun 2023 10:36:59 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:45d2:0:0:0:0:0 with SMTP id b18csp1679685wrs;
+        Thu, 22 Jun 2023 10:36:55 -0700 (PDT)
+X-Received: by 2002:aca:280d:0:b0:39c:5d62:e794 with SMTP id 13-20020aca280d000000b0039c5d62e794mr9235376oix.3.1687455415382;
+        Thu, 22 Jun 2023 10:36:55 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1687455415; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Rvk92+7tBujzeQTtRR2ofu8GYpOwZpUIZlz9NeyEU68TyvQa0UWo1wRhIxiI1PnhFy
+         o13A5zqjoaao2uGKYokExTpcYcf4yUrFCqK+54nJbn/KCqFgs5RilW+D2eK16Vf22wuN
+         RzOR2VffwlENeMShSV54LNHFZJjDLmBaWtkq4IWDgecdE/OY3NiZEmQm1BQ9xB4LgbM7
+         9CBjuZkYTef6sHPhHq+qSgI/r5XKzYaMNsNUlnxjnLs54olHfyw3TeXNKwQUl4gi7iNZ
+         iOUb+UWDQejMx7la4eBR3Qf0pWK6N5D0bpWtsSCRLFXm3OfPZcDm44WTeTz2jDAQ3FLZ
+         SS7g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=hoQfknJjFdOjna7vs/4ea9G83qfRUYrs5AlWYzbKMEs=;
+        b=sSwQsKpknh5aHcBrLCTMHODtSLrV/779+aVXnC523CE3dIzJXfmRTna3cnEbfR7RXZ
+         2jyveUCmcY952gLHeJAaq+wfZ++jUxVva+uT/0HzIhIAHw30qt8xsTKyERqJzIrBb9wD
+         0EuKj+aLsDFybHkcl0sNg082TdRNR3H2yu/B3Z0dktiChF2mcm98dX9r0c37Xjg35rdS
+         3z3ValsQgUuN4k83nnahcBk1Pmnm41ECnYoCZvPIAkEPlOjH6dMGj8kwS++sN1tOHWXD
+         s6Js2LwOiOCSCS7FBjlWAVAKRgj+IHElJaBIS29wBXdO9GTLtSAoOYkpKxC7dS/xyBug
+         9Chw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QFIVqsM7;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230622133654.31871501.256403@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230622133654.31871501.256403@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230622133654.31871501.256403@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id q65-20020acaf244000000b003a04581e51fsor26557oih.6.2023.06.22.10.36.55
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 22 Jun 2023 10:36:55 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230622133654.31871501.256403@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ5pYwjQM3ofJJOEzTmEkTvGpSlhBv8bqvZNJ/ymBmd7oOkkq/CSNKggtxwT23u1JBUdOF0h+lXEGZvG61JYE8jpSkvx1jg=
+X-Received: by 2002:a05:6808:4c5:b0:39a:28ba:9431 with SMTP id a5-20020a05680804c500b0039a28ba9431mr9872543oie.12.1687455414999;
+        Thu, 22 Jun 2023 10:36:54 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1687455414; cv=none;
+        d=google.com; s=arc-20160816;
+        b=htZuQ3EIa2oh5rwchYOEt3PLtwH6BupHp+UHYnaHY2PfYQbdr+C1SGUrrkounZ4lzg
+         /tlEfM4jPtqWBSJIV3kIUNXLSfMP1Lm8plTKyhbyL6S7iQHT48lgBHWa16oHF1Q2bbH0
+         7SeVsGFtYgnuiP7iz8qa5DTg92extt+ZX3cR0YAfVUByEzjubzl8dczdMHwaNUidg1Gb
+         X2xMVZQNEudGmidHjt1swOdXN6vUKYdngDfwjL8HmjA3ouIXci25YBxya+kmAmtRHM3y
+         h9SGcbKkXh3jsTve0z3xkWYHv4dvz0uDybU9wvGaqUIozHy6l1yMCL/BNWQyjVeviIon
+         +/TA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=hoQfknJjFdOjna7vs/4ea9G83qfRUYrs5AlWYzbKMEs=;
+        b=YsJn8kM9/Sd8OulwPFTuXyNbegZJryI3TBfyMY93bJDhROjZYqCUZ4Bfb2RVkJx0c1
+         k6/bgywXsM67rLFGpeKXb0yOZgCM4h6owFd8xhoYnxhieyZR581AaLwhIVbLnjgnSDY4
+         HYRi02lWvhtHYqsEBoj+K+6nsi3AhLbVuT3WrtkuM6PAZLfatWVzReysDweUsOvkgabW
+         AGGJ/0njLtKQHVcbZIzxsKsQXms5xaK5MIEhtwWgZQPEL+YCIXtwejDTu+fyaClFoZ7/
+         ri/xgtWCdY18jMyE6pJZXTMQJSWyCfHUcc2fMHioK4hHIfv2iTeKNmxO5ZKz/opQ+GAD
+         fLpQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QFIVqsM7;
+       spf=pass (google.com: domain of delivery_20230622133654.31871501.256403@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230622133654.31871501.256403@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230622133654.31871501.256403@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id fg12-20020a056808640c00b0039d9025b84csi603140oib.5.2023.06.22.10.36.54
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 22 Jun 2023 10:36:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230622133654.31871501.256403@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=hujqdsdw/pVYxBaYPCdM7UUb7FBsR/BBCdHIx7/xyOY=;
+ b=QFIVqsM7ewk0229+ALPN3azNHGfW8h5/WeyrJukjBsMIMsf7QDI4cr6UBjZHL8h28MmESJMI6sSK
+   EqtAjxC9Qqy3PNFjnGPXiMfOfU250K73VgaAPE1eUP82i7o8+LRau5jGbbT+/FqKExn3F5D5oznz
+   5IRUpcqo+NYTXwMkPMw=
+Received: from njmta-90.sailthru.com (173.228.155.90) by bloomberg-b.sailthru.com id hii3bc30nu8n for <bloomberg@khamel.com>; Thu, 22 Jun 2023 12:36:54 -0500 (envelope-from <delivery_20230622133654.31871501.256403@mx.sailthru.com>)
+Received: from nj1-wetmaroon.flt (172.18.20.22) by njmta-90.sailthru.com id hii3bc1qqbs3 for <bloomberg@khamel.com>; Thu, 22 Jun 2023 13:36:54 -0400 (envelope-from <delivery_20230622133654.31871501.256403@mx.sailthru.com>)
+Date: Thu, 22 Jun 2023 13:36:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230622133654.31871501.256403@sailthru.com>
+Subject: Money Stuff: Does Mark Zuckerberg Own Too Much Meta?
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_79882304_2039309648.1687455414108"
+Precedence: bulk
+x-job: 6358-31871501-20230622
+X-Feedback-ID: 6358:31871501:campaign:sailthru
+X-TM-ID: 20230622133654.31871501.256403
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetmaroon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciz47h.5hub/be1dc02d
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciz47h.5hub/be1dc02d>, <mailto:unsubscribe_20230622133654.31871501.256403@mx.sailthru.com>
+X-rpcampaign: stjko31871501
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_79882304_2039309648.1687455414108
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+The most interesting theoretical problem in corporate governance today is
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+
+ =20
+   =20
+      Who is a company for?
+   =20
+ =20
+
+The most interesting theoretical problem in corporate governance today is, =
+if you are the chief executive officer of a public company, should you try =
+to maximize=C2=A0the value of your company=E2=80=99s stock, or should you t=
+ry to maximize=C2=A0the value of your stockholders=E2=80=99 portfolios? I g=
+uess you could do other things too, but the popular model these days is tha=
+t your job is to maximize shareholder value. One way to maximize value for =
+your shareholders =E2=80=94=C2=A0the traditional way =E2=80=94=C2=A0is to m=
+ake your company=E2=80=99s stock go up. The other way to maximize value for=
+ your shareholders =E2=80=94=C2=A0the modern-portfolio-theory way =E2=80=94=
+=C2=A0is to make all of the=C2=A0other=C2=A0stocks that your shareholders=
+=C2=A0also=C2=A0own go up.=C2=A0
+Nobody really says that, because it is insane. For one thing, if you are th=
+e CEO of a public company, you don=E2=80=99t really=C2=A0know=C2=A0with pre=
+cision what other stocks your shareholders own, so it is hard to make them =
+go up.
+  [1]
+=C2=A0For another thing, if you are the CEO of a public company, you have a=
+ significant ability to make your own company=E2=80=99s stock go up and a l=
+imited ability to make other companies=E2=80=99 stocks go up: If you are a =
+small oil-exploration company, and your shareholders=E2=80=99 biggest holdi=
+ng is Apple Inc., realistically you are not going to move Apple=E2=80=99s s=
+tock price much.
+More generally, =E2=80=9Cmaximize the value of your stock=E2=80=9D provides=
+ a relatively concrete guide to action at a business you control: You alloc=
+ate capital well and do stuff to maximize cash flows, and your stock goes u=
+p. It also just sort of makes sense as a business proposition: The stuff th=
+at makes your stock go up in the long run is pretty much the stuff that mak=
+es your business successful; if your stock goes up then in some broad crude=
+ sense you are probably doing some things right for your customers and empl=
+oyees and suppliers and community. =E2=80=9CMaximize the value of your shar=
+eholders=E2=80=99 portfolio=E2=80=9D does not really provide CEOs a useful =
+guide to action, and does not really make sense for their businesses. Somet=
+imes the best thing for the shareholders=E2=80=99 portfolio might be to shu=
+t down a viable company so a competitor can make more money, and that feels=
+ like a bad business decision.
+So when I say that this is the most interesting theoretical problem in corp=
+orate governance, I do not really mean that CEOs wrestle with this problem,=
+ or that there are academic papers published on both sides. Everyone agrees=
+ that =E2=80=9Cmaximize your stock value=E2=80=9D is right and =E2=80=9Cmax=
+imize the value of your stockholders=E2=80=99 portfolios=E2=80=9D is bizarr=
+e.
+That=E2=80=99s what makes it interesting! It burbles beneath the surface; n=
+obody says the insane answer, but it is subtly influential.=C2=A0It really =
+is the case that a large percentage of the shares of public companies are o=
+wned by large diversified institutional shareholders, including a lot of in=
+dex funds and   quasi-index=C2=A0investors, who care more about the overall=
+ value of their diversified portfolios than they do about the stock price o=
+f any one company. It would be weird if corporate governance did=C2=A0not=
+=C2=A0respond to that change.
+And so we have   talked a   lot over the   years about a theory that the ri=
+se of index ownership leads to less product-market competition and higher p=
+rices: The idea is that softer competition and higher prices are good for a=
+n industry=E2=80=99s overall profits, so diversified shareholders who own a=
+ll of the competitors in an industry subtly or explicitly pressure them to =
+compete less. No shareholder or executive actually talks like this, but som=
+e academics claim to find some empirical evidence of its effects.
+And those large diversified investors=C2=A0do=C2=A0sometimes   talk about s=
+ystemic factors that affect all of the companies in their portfolios. Most =
+notably they talk about ESG, environmental, social and governance investing=
+, which is in part a framework for big diversified investors to consider sy=
+stemic risks and the externalities of their investments: If 1% of your port=
+folio is invested in oil and gas companies, and they drill more oil and mak=
+e more money, but as a result the earth gets warmer and weather events wipe=
+ out the value of other companies that make up 10% of your portfolio, then =
+that was bad, for you, financially. ESG is a way to consider the systemic r=
+isks of your portfolio and pressure companies =E2=80=94=C2=A0the oil compan=
+ies=E2=80=94=C2=A0to mitigate those risks. =E2=80=9C
+Systemic stewardship,=E2=80=9D people sometimes call it, pushing individual=
+ companies to reduce the systemic risks to your whole portfolio.
+Or during Covid-19 vaccine development we   talked a  bit about how shareho=
+lders in biotech companies working on vaccines had an economic interest in =
+those vaccines that dwarfed=C2=A0their economic interest in the shares of t=
+he companies themselves. Widely available vaccines would reopen the global =
+economy and create enormous value for cruise operators and hotel companies =
+and retailers and airlines and office landlords and everybody else; even if=
+ the drug companies gave the vaccines away and bankrupted themselves, that =
+would be good=C2=A0for their shareholders.=C2=A0
+Anyway I said above that nobody=C2=A0says=C2=A0that the duty of a public-co=
+mpany CEO is to maximize the value of her stockholders=E2=80=99 portfolios,=
+ rather than the value of her own company=E2=80=99s stock. But a few people=
+ do say it; they=E2=80=99re just weird. We have talked a few times about th=
+e Shareholder Commons, an activist group that submits shareholder proposals=
+ to public companies (Fox Corp., for instance) asking them to focus less on=
+ their own profits and more on systemic risk. And now here is an absolutely=
+ incredible (and  Shareholder Commons-related)=C2=A0lawsuit in Delaware Cha=
+ncery Court accusing Mark Zuckerberg, Sheryl Sandberg and other executives =
+and directors of Meta Platforms Inc. of=C2=A0violating their fiduciary duti=
+es to shareholders=C2=A0because they care too much about Meta and not enoug=
+h about all the other stocks that the shareholders own:
+
+For a corporation whose impact is so widespread, the well-established doctr=
+ine of stockholder primacy cannot be rationally applied on behalf of invest=
+ors=C2=A0without recognizing the impact of portfolio theory, which inextric=
+ably links common=C2=A0stock ownership to broad portfolio diversification. =
+The economic benefits from =E2=80=94 indeed the viability of =E2=80=94 a sy=
+stem of corporate law rooted in maximizing financial value for stockholders=
+ would vanish if it forced directors to make decisions that increased corpo=
+rate value but depressed portfolio values for most of its stockholders. But=
+ this is precisely how the Company has operated: Defendants have ignored th=
+e interests of all of its diversified stockholders, making decisions as if =
+the costs that Meta imposes on such portfolios were not meaningful to stock=
+holders.
+This circumstance is particularly troubling because it favors the small sub=
+set of stockholders who control the Company through the ownership of highly=
+ concentrated positions of high-voting common stock, including the Company=
+=E2=80=99s CEO and Chairman. For this controlling subset, maximizing the va=
+lue of the Company by undermining the global economy is financially benefic=
+ial. This conflict is exacerbated by Company policies that require all dire=
+ctors and high-ranking officers to own Company stock, as well as the granti=
+ng of initial and annual awards of stock to all directors and compensation =
+policies that reward Company activities that benefit the Company=E2=80=99s =
+financial performance, regardless of the Company=E2=80=99s impact on the di=
+versified portfolios of its stockholders.=C2=A0These fiduciaries have chose=
+n to maximize the value that matters to them personally, rather than the fi=
+nancial values that matter to the Company=E2=80=99s diversified stockholder=
+ base. The Defendants=E2=80=99=C2=A0interests are directly at odds with tho=
+se of the diversified stockholders, who own only a minority voting stake du=
+e to the Company=E2=80=99s dual class capital structure.
+
+That is, there is a conflict of interest between Facebook=E2=80=99s executi=
+ves and directors and its shareholders, because the executives and director=
+s=C2=A0own too much Facebook stock. If they owned less Facebook stock and m=
+ore stock in other companies, their interests would be more aligned with th=
+ose of their other shareholders, and they=E2=80=99d manage Facebook for the=
+ benefit of the whole stock market rather than to maximize its own value. F=
+acebook should pay its executives in S&P 500 index funds, not in Facebook s=
+hares, is I guess the theory here.=C2=A0
+That is the opening of the complaint in the case, filed last October. In Ma=
+rch, Meta  moved to dismiss the case, writing:
+
+The fiduciaries of Delaware corporations do not owe a duty to oversee, cons=
+ider, or protect a stockholder=E2=80=99s investments in other companies=E2=
+=80=94their duties are to Meta and its stockholders in their capacity as st=
+ockholders of that company. =E2=80=A6
+At bottom, Plaintiff is not pursuing claims under the law as it exists, but=
+ rather using this case to broadcast his theories about how he would like t=
+he law to change. Tellingly, Plaintiff never explains how his preferred ver=
+sion of fiduciary duty law=C2=A0could feasibly be followed=E2=80=94where th=
+e decisions of corporate fiduciaries must be guided by not only what is in =
+the best interests of the corporation itself, but also what is in the best =
+interests of every other company, including Meta=E2=80=99s competitors, or =
+the =E2=80=9Cglobal economy.=E2=80=9D=C2=A0
+
+This is quite right: The lawsuit is not so much a real lawsuit as it is a p=
+iece of performance art, or a philosophy paper. It doesn=E2=80=99t really p=
+rovide a guide for corporate action; it is just an abstract inquiry into wh=
+at the corporation is for. I=C2=A0love it so much. The plaintiff  filed a r=
+esponse last week:
+While fiduciaries have a general obligation to maximize financial value, th=
+at obligation must end when it is opposed to stockholder interests. Accordi=
+ngly, Defendants cannot refuse to consider whether increases in Meta=E2=80=
+=99s financial value come from the pockets of typical Meta stockholders thr=
+ough harm to their investments. Just as Revlon prioritizes stockholder retu=
+rn over corporate cash flows in a sale, fiduciaries must make a good faith =
+effort to address the true cost of corporate operations that tax stockholde=
+rs=E2=80=99 portfolios. Although Delaware courts=C2=A0may not have previous=
+ly enforced this obligation, they have not rejected it either, and consiste=
+nt application of longstanding principles demands its recognition.
+Obviously a rule saying that corporate executives should maximize the value=
+ of their shareholders=E2=80=99 portfolios would make no sense=C2=A0for the=
+ company. But it would arguably make sense=C2=A0for the shareholders, and a=
+ren=E2=80=99t they what matters?
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Lawyers vs. bankers
+   =20
+ =20
+
+Where does the value in financial services come from? Some possibilities:
+=09Some people have extra money that they want to invest; other people need=
+ money to do projects; connecting the people who have money to the people w=
+ho need money is valuable, and you can get paid for doing it.=09Some people=
+ have risk and want to be safer; other people would like to take on a bit m=
+ore risk to earn more money; finding good ways to slice risk and allocate i=
+t to the people who want it is valuable, and you can get paid for doing it.=
+=09Economic structures are also=C2=A0legal=C2=A0structures, and law and reg=
+ulation allocate property rights. Finding ways to make the legal system all=
+ocate more property rights to your clients (and away from people who are no=
+t your clients) is valuable, to your clients, and you can get paid for doin=
+g it.
+
+You could imagine the relative value of these activities, and the amount of=
+ value you can capture by doing them, shifting over time. When capital is s=
+carce=C2=A0and communications are hard, knowing where to find investors is =
+a rare and valuable skill that you can charge a lot for. When capital is pl=
+entiful and the internet connects everyone and anyone can raise $100 millio=
+n in 10 minutes, your contacts with investors are less valuable.
+We   talked a while back about my career as a corporate equity derivatives =
+banker. In some textbook economic sense, derivatives are about risk allocat=
+ion, but in my line of work, I wrote, =E2=80=9Cderivatives were essentially=
+ about regulatory arbitrage=E2=80=9D: We did stuff to optimize taxes or acc=
+ounting, not to allocate risk more sensibly. I wrote:=C2=A0
+The lesson that I learned from my career as a derivatives structurer is tha=
+t much of finance is about this sort of regulatory arbitrage. Economic life=
+ is socially constructed, society has rules, and you can make use of the ru=
+les to make money.
+This is admittedly an idiosyncratic lesson to learn from a weird corner of =
+the financial industry, but I kind of took away the notion that the structu=
+ring of economic entitlements is an underrated part of finance, while movin=
+g capital from people who have it to people who need it and allocating risk=
+ sensibly were maybe somewhat overrated. A lot of the action, it seems to m=
+e, is in the weeds of the contracts and the rules, not in the broad economi=
+c ideas.
+Anyway  here=E2=80=99s this:
+
+While bankers used to make multiples of what lawyers did, the lawyers have =
+been zooming ahead, thanks to stagnant banker pay for all but the very top =
+performers and changing dynamics at law firms. The trend took hold well bef=
+ore the recent slowdown in deal making dented banker pay.
+The Wall Street Journal spoke to more than 30 compensation experts, bankers=
+ and lawyers and reviewed pay data over more than 15 years.=C2=A0
+Managing directors who aren=E2=80=99t in high-ranking leadership roles at b=
+anks make an average of between $1 million and $2 million most years, inclu=
+ding bonuses often paid largely in stock, more or less unchanged from where=
+ it was two decades ago.=C2=A0
+Equity partners at top law firms, meanwhile, can make around $3 million or =
+more a year=E2=80=94more than triple what they were pulling in two decades =
+ago. An elite group of partners who bring in exceptional amounts of busines=
+s are earning north of $15 million at a handful of firms including Wachtell=
+, Lipton, Rosen & Katz; Kirkland & Ellis; and Paul, Weiss, Rifkind, Wharton=
+ & Garrison.
+=E2=80=9CThings have changed,=E2=80=9D said Mark Rosen, a longtime legal re=
+cruiter. =E2=80=9CLawyer compensation has grown unbelievably.=E2=80=9D=C2=
+=A0=E2=80=A6
+The reasons for the shifting fortunes between the two groups are varied. No=
+ longer relegated to simply marking up contracts, today=E2=80=99s corporate=
+ lawyers are quasibankers, serving as sounding boards for corporate executi=
+ves as they clash with regulators or wrestle with thorny issues such as suc=
+cession planning. They have also received an outsize amount of work from th=
+e rise of private equity, a client base that was nowhere near as active 20 =
+years ago.
+
+One more possible explanation here is that private equity is to some extent=
+ a substitute for investment banking: Twenty years ago, if you had a compan=
+y and wanted to sell it, you hired an investment bank, and the bank found a=
+nother company that wanted to buy your company and charged a fee. It was a =
+pure brokerage model. Private equity (partially) replaced that with a sort =
+of dealer model: Now, if you have a company and want to sell it, there=E2=
+=80=99s a decent chance that you just sell it to a private equity firm, who=
+ holds onto it for a bit, spruces it up, finds another buyer, sells it, and=
+ collects a large markup on the overall transaction. Bankers are still invo=
+lved, but more of the value gets captured by the private equity firm, which=
+ anyway employs a lot of successful former investment bankers. If private e=
+quity skims off the best bankers and the best banking economics, of course =
+banker pay will go down. Meanwhile the private equity firms still need lots=
+ of lawyers.
+
+ =20
+   =20
+      Shadow trading
+   =20
+ =20
+
+Sometimes readers of this column email me with questions or ideas. A fairly=
+ high percentage of these questions and ideas are about how to insider trad=
+e.
+  [2]
+=C2=A0For some time,   the single most common question/idea that people ema=
+iled me went something like this: =E2=80=9CIf I find out material nonpublic=
+ information about a public company, and I trade that company=E2=80=99s sto=
+ck,=C2=A0I will go to jail. But what if I trade a=C2=A0different=C2=A0compa=
+ny=E2=80=99s stock, one that is in the same industry and correlated with th=
+e stock that I know about? Is that illegal? If it is illegal, will I get ca=
+ught?=E2=80=9D
+In general I try to avoid answering those questions, because (1) nothing in=
+ this column is legal advice and (2) I certainly do not want to give you ad=
+vice about how to do crimes and not get caught. But in 2021, the US Securit=
+ies and Exchange Commission   actually brought an insider trading case agai=
+nst a guy named Matthew Panuwat for allegedly doing this. Panuwat worked as=
+ the head of business development at Medivation Inc., a publicly traded bio=
+tech company; he learned that Medivation was about to be acquired, and went=
+ out and bought call options on a competitor called Incyte. The Medivation =
+deal was announced, Incyte=E2=80=99s stock went up sympathetically, Panuwat=
+ made money, and the SEC came after him for insider trading.
+This provides some very partial answers to my readers=E2=80=99 questions:
+=09The SEC thinks it=E2=80=99s illegal, though Panuwat argues that the SEC =
+is wrong=C2=A0and the case is ongoing.=09The SEC did catch it,=C2=A0once.
+
+The question that interests me here is: What is the denominator? Was Panuwa=
+t the first person ever to notice that, when he got inside information abou=
+t his company, he could use it to trade other companies=E2=80=99 stocks?=C2=
+=A0No, absolutely not, tons of my readers have also noticed that, and they =
+keep writing to me about it. Was Panuwat the first person ever to=C2=A0actu=
+ally do it?=C2=A0That I do not know; perhaps my readers are curious theoret=
+icians but uniformly law-abiding.
+  [3]
+
+But=C2=A0what evidence there is suggests that, no, lots of people have done=
+ this. After the Panuwat case,   we discussed=C2=A0a  paper by=C2=A0Mihir M=
+ehta, David Reeb and Wanli Zhao, which named this phenomenon =E2=80=94=C2=
+=A0using inside information about one company to trade a correlated stock =
+=E2=80=94=C2=A0=E2=80=9Cshadow trading,=E2=80=9D and which found statistica=
+l evidence that it is pretty widespread. Earlier this year,   we discussed =
+another  paper finding evidence of shadow trading using exchange-traded fun=
+ds.=C2=A0If shadow trading happens all the time and the SEC has brought one=
+ enforcement action, well, I leave the math as an exercise for the reader. =
+This is not any sort of advice about anything!
+One fascinating empirical source here is that  ProPublica has a trove of =
+=E2=80=9Ctax records of the wealthiest taxpayers, including many of the nat=
+ion=E2=80=99s top business leaders,=E2=80=9D and has been going through the=
+m looking for, among other things, evidence of shadow trading. We   talked =
+about some suggestive examples in March, in which executives of one public =
+company made well-timed trades in another company=E2=80=99s stock, though i=
+t can be a little hard to tell just from trading records if the executive (=
+1) had inside information=C2=A0about the other company=C2=A0(for instance, =
+a banker leaked deal information to the executive), (2) just used her gener=
+al industry knowledge and insight to make good trades or (3) was shadow tra=
+ding on inside information=C2=A0about her own company.
+Similarly today ProPublica has a story about  biotech-company executives ma=
+king well-timed trades in their competitors=E2=80=99 stocks:
+
+The chairman of a biotech company bought shares in a corporate partner just=
+ as the partner was reaching the final stages of secret negotiations to be =
+purchased.
+The chairman of a bone health company made aggressive bets on a medical tec=
+hnology firm run by an adviser to his board just before its sales took off,=
+ netting him $29 million in a series of options trades.
+A wealthy investor with ties to a niche area of cancer research personally =
+traded, for the first time ever, in a company in that sector just before it=
+ was taken over. He bought high-risk options that earned him a quick $1 mil=
+lion in profit.
+
+Again these examples are ambiguous; if anything, they suggest that the exec=
+utives had inside information about the competitors, rather than inside inf=
+ormation about their own companies that they used to trade correlated stock=
+s. (=E2=80=9CBuy stock in a competitor just before it is taken over=E2=80=
+=9D is either good luck or regular insider trading; =E2=80=9Cbuy stock in a=
+ competitor just before=C2=A0you=C2=A0are taken over=E2=80=9D is possible s=
+hadow trading.) The most fun example, though, comes from Medivation:
+
+It wasn=E2=80=99t just Panuwat who risked violating Medivation=E2=80=99s po=
+licy, a trove of confidential IRS data obtained in recent years by ProPubli=
+ca shows.
+It was also his then-boss, CEO David Hung. ...
+In one instance, tax records show Hung traded a competitor=E2=80=99s stock =
+ahead of news he himself disclosed that experts said would likely qualify a=
+s material.
+
+
+On Aug. 24, 2015, Hung announced that Medivation was acquiring a cancer-fig=
+hting medication from a company called BioMarin. The drug was one of a hand=
+ful of cutting-edge new drugs that Hung hailed as an =E2=80=9Cexciting clas=
+s of oncology therapeutics.=E2=80=9D
+What Hung didn=E2=80=99t say was that on the same day his company finalized=
+ the acquisition =E2=80=94 but three days before the public announcement =
+=E2=80=94 he made a purchase in his personal stock trading account. He boug=
+ht about $8 million in shares of Clovis Oncology, a company that was separa=
+tely developing a drug in the same treatment category, known as =E2=80=9CPA=
+RP inhibitors.=E2=80=9D
+After the acquisition, the pharmaceutical trade press noted that there was =
+growing interest in this class of drugs. Hung=E2=80=99s deal marked the fir=
+st big acquisition of a PARP inhibitor.
+=E2=80=9CObviously all the PARPs are going to pop,=E2=80=9D said Nierengart=
+en, the analyst who covered Hung=E2=80=99s company. Clovis is a small compa=
+ny reliant on a small number of drugs, =E2=80=9Cso it=E2=80=99s really goin=
+g to pop,=E2=80=9D he said.
+
+That looks like a classic shadow trade: You know that one company is gettin=
+g acquired (by you), so you buy stock in a competitor because it will go up=
+ when the acquisition is announced.
+
+ =20
+   =20
+      PE recruiting
+   =20
+ =20
+
+Private equity recruiting notoriously happens roughly two years in advance:=
+ People get hired at investment banks as analysts, start their two-year ana=
+lyst program, and more or less immediately start interviewing for private e=
+quity jobs to start at the end of the analyst program. The thinking is, rou=
+ghly:
+=09The banks do a decent job of=C2=A0selecting=C2=A0people, so if the PE fi=
+rms hire from a pool of bank analysts they will get good employees.=09The b=
+anks do a decent job of=C2=A0training=C2=A0people, so if the analysts finis=
+h their two-year analyst program before starting in PE they will know what =
+they are doing.=09Nobody is going to distinguish themselves=C2=A0all that m=
+uch=C2=A0as a banking analyst: The PE firms don=E2=80=99t need to wait unti=
+l the end of the analyst program to hire the analysts who did the best job;=
+ they can just hire the analysts they like the most at the beginning of the=
+ program, and figure they will all get the same basic training and experien=
+ce.=09The earlier you hire, the better your selection will be, so if your c=
+ompetitors are hiring in October you hire in September, and the hiring keep=
+s getting earlier and earlier.
+
+In principle the earliest possible date for private equity recruiting would=
+ be, like, the day after college seniors get their offers at investment ban=
+ks, but in practice recruiting seems to happen around the time the analysts=
+=C2=A0start=C2=A0their banking jobs, not when they=C2=A0get=C2=A0them. This=
+ year   that was too early though?
+
+Private equity shops looking to fill out their 2024 associate classes were =
+forced to do a second round of recruiting this year after initial efforts f=
+ell short, according to an analysis by recruiter Odyssey Search Partners.=
+=C2=A0
+Eager to beat competitors, many buyout shops started reaching out to banks=
+=E2=80=99 first-year trainees just a few weeks after they began work in 202=
+2. But the newly arrived dealmakers, dubbed analysts, weren=E2=80=99t quite=
+ ready to boast about their prowess. Some had yet to complete a single deal=
+.
+=E2=80=9CMany of Wall Street=E2=80=99s prominent institutions were left wit=
+h unfilled positions,=E2=80=9D according to the Odyssey report. =E2=80=9CFr=
+om the perspective of many investment banking analysts, the acceleration of=
+ recruiting timelines has reduced their willingness and ability to particip=
+ate.=E2=80=9D =E2=80=A6
+Back in 2010, private equity firms typically waited for junior bankers to s=
+oak up about 11 months of training before poaching efforts started. For the=
+ associate class of 2024, private equity giants began recruiting less than =
+a month into their program. That was the earliest kickoff to on-cycle recru=
+iting ever, Odyssey found.
+=E2=80=9CMany analysts during the on-cycle period in August 2022 held off,=
+=E2=80=9D the Odyssey report found. =E2=80=9CTo do well, bankers typically =
+believe they should have closed at least one transaction in order to have m=
+aterial to discuss in interviews. The slower M&A environment has reduced th=
+eir level of experience compared to that of prior classes.=E2=80=9D
+
+That=E2=80=99s adorable? A downstream effect of a slower M&A environment is=
+ that first-month investment banking analysts have never closed a deal,=C2=
+=A0so they don=E2=80=99t feel like they have anything to talk about at PE r=
+ecruiting, so they don=E2=80=99t do it, so PE firms can=E2=80=99t hire juni=
+or associates, so they can=E2=80=99t close more deals, further slowing the =
+M&A environment? I am not at all sure why first-month investment bankers wo=
+uld =E2=80=9Cbelieve they should have closed at least one transaction in or=
+der to have material to discuss in interviews=E2=80=9D =E2=80=94=C2=A0I can=
+not believe that a first-month banker=E2=80=99s prowess at deal closing wou=
+ld be material in a PE firm=E2=80=99s hiring decisions =E2=80=94 but here w=
+e are.
+
+ =20
+   =20
+      ESG AI
+   =20
+ =20
+
+One way to think about environmental, social and governance investing is th=
+at it is a way for diversified investors to pay attention to broad systemic=
+ risks =E2=80=94=C2=A0climate change, poor governance =E2=80=94=C2=A0in the=
+ir portfolios. But not=C2=A0all=C2=A0systemic risks, just a somewhat arbitr=
+ary list of them. Climate change: an ESG risk. Nuclear war: ehh, maybe an E=
+SG risk, kind of? Malign artificial intelligence running wild and destroyin=
+g humanity:  apparently not an ESG risk.
+
+Nvidia Corp.=E2=80=99s stratospheric ascent has lured at least 100 more ESG=
+ funds in recent weeks, transforming the company into one of the most popul=
+ar stocks among asset managers who integrate environmental, social and gove=
+rnance metrics into their investment strategies.
+There are now over 1,400 ESG funds directly holding Nvidia, according to da=
+ta compiled by Bloomberg based on the latest filings. =E2=80=A6
+ESG=E2=80=99s growing exposure to tech =E2=80=94 and in particular artifici=
+al intelligence =E2=80=94 has the potential to change the narrative around =
+an investment strategy that last year suffered a number of headwinds. Amid =
+an energy crisis and rising interest rates, ESG found itself the target of =
+political attacks in the US, with Republicans calling it an anti-American f=
+orm of business and investing that put a =E2=80=9Cwoke=E2=80=9D agenda ahea=
+d of financial returns.=C2=A0
+This year, however, ESG funds=E2=80=99 reliance on tech is driving outperfo=
+rmance. The top ESG funds so far in 2023 are all tech-heavy and invested in=
+ AI, and all have returned more than 40%.=C2=A0
+
+It is funny to imagine some intermediate phase where artificial intelligenc=
+e has not enslaved or destroyed humanity, but where=C2=A0some=C2=A0AI robot=
+s are killing or enslaving=C2=A0some=C2=A0humans. (Or, like, AI just puts a=
+ lot of humans out of work and causes social problems?) In that phase I sup=
+pose people would still be investing and AI companies would still be invest=
+able and profitable (?); some investors would buy their stocks because they=
+ make money, while other socially responsible investors would say =E2=80=9C=
+no, AI is bad for humanity so I am going to stay away from those stocks.=E2=
+=80=9D But right now AI is, for ESG investors, a pure good.
+
+ =20
+   =20
+      How=E2=80=99s Twitter going?
+   =20
+ =20
+
+I do think that if you are hired as the new chief executive officer of a mu=
+ltibillion-dollar website company, and on your first day on the job your di=
+rect reports come to you like =E2=80=9Cwe are wrestling with a difficult de=
+cision and now that you are here we would like to get your view on it,=E2=
+=80=9D and you are like =E2=80=9Cokay what is it,=E2=80=9D and they are lik=
+e =E2=80=9Cshould we pay the cloud hosting bill so we can keep our website =
+on the internet,=E2=80=9D your first reaction will probably be to say =E2=
+=80=9Cyes we should absolutely do that, why was this a hard question,=E2=80=
+=9D and your second reaction will probably be to think =E2=80=9CI have made=
+ a terrible mistake.=E2=80=9D To be fair Linda Yaccarino absolutely  knew w=
+hat she was getting into:
+
+Twitter Chief Executive Linda Yaccarino intervened to help repair the relat=
+ionship between the social-media company and Alphabet=E2=80=99s Google afte=
+r a payment issue, a person familiar with the matter said, an early example=
+ of the new CEO=E2=80=99s management style.
+Twitter is now paying Google for its cloud services after not consistently =
+paying some of those bills, people familiar with the matter said. Those bil=
+ls amounted to more than $20 million a month recently, people familiar with=
+ the matter said. ...
+Twitter and Google have had significant business ties. Twitter has used Goo=
+gle=E2=80=99s cloud services for a range of purposes, including anti-spam t=
+echnology and data-warehousing services, according to people familiar with =
+the matter and past blog posts from both companies. =E2=80=A6
+Twitter=E2=80=99s spending on Google=E2=80=99s cloud services became a focu=
+s internally at Twitter after Twitter owner Elon Musk acquired the company =
+late last year and quickly placed an emphasis on cutting costs and curbing =
+reliance on vendors, according to people familiar with the matter.
+Under Musk=E2=80=99s ownership, Twitter has been accused of missing payment=
+s on some bills that Musk inherited when he took over and implemented a mor=
+e austere spending style.=C2=A0
+
+=E2=80=9CThe new CEO=E2=80=99s management style=E2=80=9D is that when big v=
+endors send her a bill for services that they provided as agreed and that a=
+re critical to Twitter=E2=80=99s functioning, she pays it. This was also th=
+e management style of Twitter=E2=80=99s previous CEOs, except one of them.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+BOE Steps Up Inflation Fight With   Surprise Rate Hike to 5%. Google Cloud =
+Launches  Anti-Money-Laundering Tool for Banks, Betting on the Power of AI.=
+ To Beat Back New York, London Seeks to  Tap Pension Pot. Marcum to Settle =
+SEC, PCAOB Claims Over Widespread Failures in  SPAC Audits. CFOs Are Hangin=
+g On to Expanded  Corporate Jet Perks. Phishing frenzy: School kids are  st=
+ealing millions of dollars of NFTs =E2=80=94 to buy Roblox skins. The GameS=
+top movie will feature Vincent D=E2=80=99Onofrio as Steve Cohen and   Nick =
+Offerman as Ken Griffin. Elon Musk and Mark Zuckerberg agree to  hold cage =
+fight.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] This is much *less* true than it used to be, through some combination=
+ of extensive position-disclosure rules and the rise of institutional owner=
+ship and index funds: The average public-company CEO could, with an afterno=
+on on Bloomberg, get a pretty decent view of her main shareholders=E2=80=99=
+ other holdings, which probably was not true 30 years ago. I suspect that b=
+etter information about other holdings is part of what has made this questi=
+on a bit more live now than it used to be.
+
+
+  [2] Sorry to my readers at the SEC.
+
+
+  [3] Also, I mean, again this is not any sort of advice, but if you have n=
+oticed this possibility then you might email me to ask about it, or you mig=
+ht actually go trade on it, but you really should not do *both*. From my se=
+lfish perspective I would *love* to read an SEC complaint that is like =E2=
+=80=9Cthe defendant emailed Bloomberg columnist Matt Levine to ask =E2=80=
+=98if I know my company is going to be acquired, can I buy call options in =
+our closest competitor,=E2=80=99 and then went out and bought those call op=
+tions,=E2=80=9D but from your perspective you don=E2=80=99t want to be the =
+defendant in that complaint.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciz47h.5hub/b76bc3d1.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_79882304_2039309648.1687455414108
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.The most=
+ interesting theoretical problem in corporate governance today is
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjIyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjImdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBce0bf94e"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTg3MTUwMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIxMjc5MDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBd68d4c7c" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31871501&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32127904&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong> <em>Money S=
+tuff will be off tomorrow, back on Monday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Who is a company for?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The most interesting theoretical problem in co=
+rporate governance today is, if you are the chief executive officer of a pu=
+blic company, should you try to maximize=C2=A0<em>the value of your company=
+=E2=80=99s stock</em>, or should you try to maximize=C2=A0<em>the value of =
+your stockholders=E2=80=99 portfolios</em>? I guess you could do other thin=
+gs too, but the popular model these days is that your job is to maximize sh=
+areholder value. One way to maximize value for your shareholders =E2=80=94=
+=C2=A0the traditional way =E2=80=94=C2=A0is to make your company=E2=80=99s =
+stock go up. The other way to maximize value for your shareholders =E2=80=
+=94=C2=A0the modern-portfolio-theory way =E2=80=94=C2=A0is to make all of t=
+he=C2=A0<em>other=C2=A0</em>stocks that your shareholders=C2=A0<em>also=C2=
+=A0</em>own go up.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Nobody really says that, because it is insane.=
+ For one thing, if you are the CEO of a public company, you don=E2=80=99t r=
+eally=C2=A0<em>know=C2=A0</em>with precision what other stocks your shareho=
+lders own, so it is hard to make them go up.<a class=3D"footnote-index" hre=
+f=3D"#footnote-1" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[1]</span>
+</a>=C2=A0For another thing, if you are the CEO of a public company, you ha=
+ve a significant ability to make your own company=E2=80=99s stock go up and=
+ a limited ability to make other companies=E2=80=99 stocks go up: If you ar=
+e a small oil-exploration company, and your shareholders=E2=80=99 biggest h=
+olding is Apple Inc., realistically you are not going to move Apple=E2=80=
+=99s stock price much.</p>
+<p style=3D"margin: 16px 0;">More generally, =E2=80=9Cmaximize the value of=
+ your stock=E2=80=9D provides a relatively concrete guide to action at a bu=
+siness you control: You allocate capital well and do stuff to maximize cash=
+ flows, and your stock goes up. It also just sort of makes sense as a busin=
+ess proposition: The stuff that makes your stock go up in the long run is p=
+retty much the stuff that makes your business successful; if your stock goe=
+s up then in some broad crude sense you are probably doing some things righ=
+t for your customers and employees and suppliers and community. =E2=80=9CMa=
+ximize the value of your shareholders=E2=80=99 portfolio=E2=80=9D does not =
+really provide CEOs a useful guide to action, and does not really make sens=
+e for their businesses. Sometimes the best thing for the shareholders=E2=80=
+=99 portfolio might be to shut down a viable company so a competitor can ma=
+ke more money, and that feels like a bad business decision.</p>
+<p style=3D"margin: 16px 0;">So when I say that this is the most interestin=
+g theoretical problem in corporate governance, I do not really mean that CE=
+Os wrestle with this problem, or that there are academic papers published o=
+n both sides. Everyone agrees that =E2=80=9Cmaximize your stock value=E2=80=
+=9D is right and =E2=80=9Cmaximize the value of your stockholders=E2=80=99 =
+portfolios=E2=80=9D is bizarre.</p>
+<p style=3D"margin: 16px 0;">That=E2=80=99s what makes it interesting! It b=
+urbles beneath the surface; nobody <em>says </em>the insane answer, but it =
+is subtly influential.=C2=A0It really is the case that a large percentage o=
+f the shares of public companies are owned by large diversified institution=
+al shareholders, including a lot of index funds and <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/31871501.256403/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMDItMDkvcXVhc2ktaW5kZXhlcnMtZ3Jvd3Ro=
+LWFuZC1jb25mdXNpb24_Y21waWQ9QkJEMDYyMjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWF=
+pbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjIyJnV0bV9jYW1wYWlnbj1tb2=
+5leXN0dWZm/607f07ceef4b8524a319a23cBafe7961a" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">  quasi-index=C2=A0in=
+vestors</a>, who care more about the overall value of their diversified por=
+tfolios than they do about the stock price of any one company. It would be =
+weird if corporate governance did=C2=A0<em>not=C2=A0</em>respond to that ch=
+ange.</p>
+<p style=3D"margin: 16px 0;">And so we have <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31871501.256403/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMTUtMDQtMTYvc2hvdWxkLW11dHVhbC1mdW5kcy1iZS1pbGxl=
+Z2FsLT9jbXBpZD1CQkQwNjIyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/60=
+7f07ceef4b8524a319a23cB8b5ab58e" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  talked</a> a <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/31871501.256403/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMTItMDcvcmVndWxhdG9ycy1hc2staWYt=
+aW5kZXgtZnVuZHMtYXJlLWJhZD9jbXBpZD1CQkQwNjIyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXV=
+tPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjImdXRtX2NhbXBhaW=
+duPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBc23b8d8a" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  lot</a> over=
+ the <a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.2564=
+03/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDctMjIv=
+aW5kZXgtZnVuZHMtbWF5LXdvcmstYS1saXR0bGUtdG9vLXdlbGw_Y21waWQ9QkJEMDYyMjIzX01=
+PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm=
+09MjMwNjIyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB547ead9=
+b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  years</a> about a theory that the rise of index ownership le=
+ads to less product-market competition and higher prices: The idea is that =
+softer competition and higher prices are good for an industry=E2=80=99s ove=
+rall profits, so diversified shareholders who own all of the competitors in=
+ an industry subtly or explicitly pressure them to compete less. No shareho=
+lder or executive actually talks like this, but some academics claim to fin=
+d some empirical evidence of its effects.</p>
+<p style=3D"margin: 16px 0;">And those large diversified investors=C2=A0<em=
+>do=C2=A0</em>sometimes <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31871501.256403/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjEtMTAtMDQvZmFjZWJvb2std2hpc3RsZWJsb3dlci1zaG93cy1hLXNoaWZ0LWluLXNo=
+YXJlaG9sZGVyLXZhbHVlcy1hd2F5LWZyb20tcHJvZml0cz9jbXBpZD1CQkQwNjIyMjNfTU9ORVl=
+TVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMz=
+A2MjImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBdfa1f4fa" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  talk about systemic factors</a> that affect all of the companies in=
+ their portfolios. Most notably they talk about ESG, environmental, social =
+and governance investing, which is in part a framework for big diversified =
+investors to consider systemic risks and the externalities of their investm=
+ents: If 1% of your portfolio is invested in oil and gas companies, and the=
+y drill more oil and make more money, but as a result the earth gets warmer=
+ and weather events wipe out the value of other companies that make up 10% =
+of your portfolio, then that was bad, for you, financially. ESG is a way to=
+ consider the systemic risks of your portfolio and pressure companies =E2=
+=80=94=C2=A0the oil companies=E2=80=94=C2=A0to mitigate those risks. =E2=80=
+=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjYvc3=
+RhcnR1cHMtc29tZXRpbWVzLXN0cmV0Y2gtdGhlLXRydXRoP2NtcGlkPUJCRDA2MjIyM19NT05FW=
+VNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIz=
+MDYyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBdd5d397c" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">
+Systemic stewardship</a>,=E2=80=9D people sometimes call it, pushing indivi=
+dual companies to reduce the systemic risks to your whole portfolio.</p>
+<p style=3D"margin: 16px 0;">Or during Covid-19 vaccine development we <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjQvdGhlLXZhY=
+2NpbmUtaXMtbm90LWEtY29tcGV0aXRpb24_Y21waWQ9QkJEMDYyMjIzX01PTkVZU1RVRkYmdXRt=
+X21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjIyJnV0bV9=
+jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBad1e733c" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  talk=
+ed</a> a <a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.=
+256403/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjAtMDMt=
+MTkvbW9uZXktc3R1ZmYtY3VyaW5nLWEtcGFuZGVtaWMtY291bGQtbWFrZS15b3UtcmljaD9jbXB=
+pZD1CQkQwNjIyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMzA2MjImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cBaec11afb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> bit</a> about how shareholders in biotech co=
+mpanies working on vaccines had an economic interest in those vaccines that=
+ <em>dwarfed=C2=A0</em>their economic interest in the shares of the compani=
+es themselves. Widely available vaccines would reopen the global economy an=
+d create enormous value for cruise operators and hotel companies and retail=
+ers and airlines and office landlords and everybody else; even if the drug =
+companies gave the vaccines away and bankrupted themselves, that would be g=
+ood=C2=A0<em>for their shareholders</em>.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Anyway I said above that nobody=C2=A0<em>says=
+=C2=A0</em>that the duty of a public-company CEO is to maximize the value o=
+f her stockholders=E2=80=99 portfolios, rather than the value of her own co=
+mpany=E2=80=99s stock. But a few people do say it; they=E2=80=99re just wei=
+rd. We have talked a few times about the Shareholder Commons, an activist g=
+roup that submits shareholder proposals to public companies (<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/31871501.256403/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMTQvaXQtcGF5cy10by1ub3Q=
+tcGF5LXlvdXItZGVidHM_Y21waWQ9QkJEMDYyMjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbW=
+FpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjIyJnV0bV9jYW1wYWlnbj1tb=
+25leXN0dWZm/607f07ceef4b8524a319a23cBa7abc0cd" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">Fox Corp., for insta=
+nce</a>) asking them to focus less on their own profits and more on systemi=
+c risk. And now here is an absolutely incredible (and <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31871501.256403/aHR0cHM6Ly90aGVzaGFyZWh=
+vbGRlcmNvbW1vbnMuY29tL3BvbGljeS1saXRpZ2F0aW9uLWxldHRlcnMv/607f07ceef4b8524a=
+319a23cB99d17fbc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Shareholder Commons-related</a>)=C2=A0<em><a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aHR0cHM6=
+Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3J0bFozZ0c2VFJ=
+YWS92MA/607f07ceef4b8524a319a23cBa5f7a174" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">lawsuit in Delaware Chan=
+cery Court</a> </em>accusing Mark Zuckerberg, Sheryl Sandberg and other exe=
+cutives and directors of Meta Platforms Inc. of=C2=A0<em>violating their fi=
+duciary duties to shareholders=C2=A0</em>because they care too much about M=
+eta and not enough about all the other stocks that the shareholders own:</p=
+>
+<blockquote>
+<p style=3D"margin: 16px 0;">For a corporation whose impact is so widesprea=
+d, the well-established doctrine of stockholder primacy cannot be rationall=
+y applied on behalf of investors=C2=A0without recognizing the impact of por=
+tfolio theory, which inextricably links common=C2=A0stock ownership to broa=
+d portfolio diversification. The economic benefits from =E2=80=94 indeed th=
+e viability of =E2=80=94 a system of corporate law rooted in maximizing fin=
+ancial value for stockholders would vanish if it forced directors to make d=
+ecisions that increased corporate value but depressed portfolio values for =
+most of its stockholders. But this is precisely how the Company has operate=
+d: Defendants have ignored the interests of all of its diversified stockhol=
+ders, making decisions as if the costs that Meta imposes on such portfolios=
+ were not meaningful to stockholders.</p>
+<p style=3D"margin: 16px 0;">This circumstance is particularly troubling be=
+cause it favors the small subset of stockholders who control the Company th=
+rough the ownership of highly concentrated positions of high-voting common =
+stock, including the Company=E2=80=99s CEO and Chairman. For this controlli=
+ng subset, maximizing the value of the Company by undermining the global ec=
+onomy is financially beneficial. This conflict is exacerbated by Company po=
+licies that require all directors and high-ranking officers to own Company =
+stock, as well as the granting of initial and annual awards of stock to all=
+ directors and compensation policies that reward Company activities that be=
+nefit the Company=E2=80=99s financial performance, regardless of the Compan=
+y=E2=80=99s impact on the diversified portfolios of its stockholders.=C2=A0=
+These fiduciaries have chosen to maximize the value that matters to them pe=
+rsonally, rather than the financial values that matter to the Company=E2=80=
+=99s diversified stockholder base. The Defendants=E2=80=99=C2=A0interests a=
+re directly at odds with those of the diversified stockholders, who own onl=
+y a minority voting stake due to the Company=E2=80=99s dual class capital s=
+tructure.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That is, there is a conflict of interest betwe=
+en Facebook=E2=80=99s executives and directors and its shareholders, becaus=
+e the executives and directors=C2=A0<em>own too much Facebook stock</em>. I=
+f they owned less Facebook stock and more stock in other companies, their i=
+nterests would be more aligned with those of their other shareholders, and =
+they=E2=80=99d manage Facebook for the benefit of the whole stock market ra=
+ther than to maximize its own value. Facebook should pay its executives in =
+S&amp;P 500 index funds, not in Facebook shares, is I guess the theory here=
+.=C2=A0</p>
+<p style=3D"margin: 16px 0;">That is the opening of the complaint in the ca=
+se, filed last October. In March, Meta <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/31871501.256403/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bW=
+VudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JFZ0JJc2Z5R0lxYy92MA/607f07ceef4b8524a319a2=
+3cB460605de" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> moved to dismiss the case</a>, writing:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The fiduciaries of Delaware corporations do no=
+t owe a duty to oversee, consider, or protect a stockholder=E2=80=99s inves=
+tments in other companies=E2=80=94their duties are to Meta and its stockhol=
+ders in their capacity as stockholders of that company. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">At bottom, Plaintiff is not pursuing claims un=
+der the law as it exists, but rather using this case to broadcast his theor=
+ies about how he would like the law to change. Tellingly, Plaintiff never e=
+xplains how his preferred version of fiduciary duty law=C2=A0could feasibly=
+ be followed=E2=80=94where the decisions of corporate fiduciaries must be g=
+uided by not only what is in the best interests of the corporation itself, =
+but also what is in the best interests of every other company, including Me=
+ta=E2=80=99s competitors, or the =E2=80=9Cglobal economy.=E2=80=9D=C2=A0</p=
+>
+</blockquote>
+<p style=3D"margin: 16px 0;">This is quite right: The lawsuit is not so muc=
+h a real lawsuit as it is a piece of performance art, or a philosophy paper=
+. It doesn=E2=80=99t really provide a guide for corporate action; it is jus=
+t an abstract inquiry into what the corporation is for. I=C2=A0love it so m=
+uch. The plaintiff <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/31871501.256403/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0=
+hCRmRmeElVL3JKVEpjdGdrWmFBUS92MA/607f07ceef4b8524a319a23cBd29e04f5" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> filed a response last week</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">While fiduciaries have a general o=
+bligation to maximize financial value, that obligation must end when it is =
+opposed to stockholder interests. Accordingly, Defendants cannot refuse to =
+consider whether increases in Meta=E2=80=99s financial value come from the =
+pockets of typical Meta stockholders through harm to their investments. Jus=
+t as <em>Revlon </em>prioritizes <em>stockholder </em>return over <em>corpo=
+rate </em>cash flows in a sale, fiduciaries must make a good faith effort t=
+o address the true cost of corporate operations that tax stockholders=E2=80=
+=99 portfolios. Although Delaware courts=C2=A0may not have previously enfor=
+ced this obligation, they have not rejected it either, and consistent appli=
+cation of longstanding principles demands its recognition.</p></blockquote>
+<p style=3D"margin: 16px 0;">Obviously a rule saying that corporate executi=
+ves should maximize the value of their shareholders=E2=80=99 portfolios wou=
+ld make no sense=C2=A0<em>for the company</em>. But it would arguably make =
+sense=C2=A0<em>for the shareholders</em>, and aren=E2=80=99t they what matt=
+ers?</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTg3MTUwMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIxMjc5MDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCf0b7c81d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31871501&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32127904&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTg3MTUwMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIxMjc5MDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDf0b7c81d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31871501&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32127904&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Lawyers vs. bankers</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Where does the value in financial services com=
+e from? Some possibilities:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Some people have extra money that they=
+ want to invest; other people need money to do projects; connecting the peo=
+ple who have money to the people who need money is valuable, and you can ge=
+t paid for doing it.</li>=09<li style=3D"margin-bottom: 5px;">Some people h=
+ave risk and want to be safer; other people would like to take on a bit mor=
+e risk to earn more money; finding good ways to slice risk and allocate it =
+to the people who want it is valuable, and you can get paid for doing it.</=
+li>=09<li style=3D"margin-bottom: 5px;">Economic structures are also=C2=A0<=
+em>legal=C2=A0</em>structures, and law and regulation allocate property rig=
+hts. Finding ways to make the legal system allocate more property rights to=
+ your clients (and away from people who are not your clients) is valuable, =
+<em>to your clients</em>, and you can get paid for doing it.</li>
+</ul>
+<p style=3D"margin: 16px 0;">You could imagine the relative value of these =
+activities, and the amount of value you can capture by doing them, shifting=
+ over time. When capital is scarce=C2=A0and communications are hard, knowin=
+g where to find investors is a rare and valuable skill that you can charge =
+a lot for. When capital is plentiful and the internet connects everyone and=
+ anyone can raise $100 million in 10 minutes, your contacts with investors =
+are less valuable.</p>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/31871501.256403/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDQtMjcvZmlyc3QtcmVwdWJsaWMtaXMtaW4tbGltYm8_Y21waWQ9QkJE=
+MDYyMjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXI=
+mdXRtX3Rlcm09MjMwNjIyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a=
+23cBbe76a95b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  talked a while back</a> about my career as a corpor=
+ate equity derivatives banker. In some textbook economic sense, derivatives=
+ are about risk allocation, but in my line of work, I wrote, =E2=80=9Cderiv=
+atives were essentially about regulatory arbitrage=E2=80=9D: We did stuff t=
+o optimize taxes or accounting, not to allocate risk more sensibly. I wrote=
+:=C2=A0</p>
+<blockquote><p style=3D"margin: 16px 0;">The lesson that I learned from my =
+career as a derivatives structurer is that much of finance is about this so=
+rt of regulatory arbitrage. Economic life is socially constructed, society =
+has rules, and you can make use of the rules to make money.</p></blockquote=
+>
+<p style=3D"margin: 16px 0;">This is admittedly an idiosyncratic lesson to =
+learn from a weird corner of the financial industry, but I kind of took awa=
+y the notion that the structuring of economic entitlements is an underrated=
+ part of finance, while moving capital from people who have it to people wh=
+o need it and allocating risk sensibly were maybe somewhat overrated. A lot=
+ of the action, it seems to me, is in the weeds of the contracts and the ru=
+les, not in the broad economic ideas.</p>
+<p style=3D"margin: 16px 0;">Anyway <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31871501.256403/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9vb=
+i13YWxsLXN0cmVldC1sYXd5ZXJzLW1ha2UtbW9yZS10aGFuLWJhbmtlcnMtbm93LWFlODA3MGE3=
+P21vZD1ocF9sZWFkX3BvczE/607f07ceef4b8524a319a23cBdb9d66aa" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> here=E2=
+=80=99s this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">While bankers used to make multiples of what l=
+awyers did, the lawyers have been zooming ahead, thanks to stagnant banker =
+pay for all but the very top performers and changing dynamics at law firms.=
+ The trend took hold well before the recent slowdown in deal making dented =
+banker pay.</p>
+<p style=3D"margin: 16px 0;">The Wall Street Journal spoke to more than 30 =
+compensation experts, bankers and lawyers and reviewed pay data over more t=
+han 15 years.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Managing directors who aren=E2=80=99t in high-=
+ranking leadership roles at banks make an average of between $1 million and=
+ $2 million most years, including bonuses often paid largely in stock, more=
+ or less unchanged from where it was two decades ago.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Equity partners at top law firms, meanwhile, c=
+an make around $3 million or more a year=E2=80=94more than triple what they=
+ were pulling in two decades ago. An elite group of partners who bring in e=
+xceptional amounts of business are earning north of $15 million at a handfu=
+l of firms including Wachtell, Lipton, Rosen &amp; Katz; Kirkland &amp; Ell=
+is; and Paul, Weiss, Rifkind, Wharton &amp; Garrison.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThings have changed,=E2=80=9D said Ma=
+rk Rosen, a longtime legal recruiter. =E2=80=9CLawyer compensation has grow=
+n unbelievably.=E2=80=9D=C2=A0=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The reasons for the shifting fortunes between =
+the two groups are varied. No longer relegated to simply marking up contrac=
+ts, today=E2=80=99s corporate lawyers are quasibankers, serving as sounding=
+ boards for corporate executives as they clash with regulators or wrestle w=
+ith thorny issues such as succession planning. They have also received an o=
+utsize amount of work from the rise of private equity, a client base that w=
+as nowhere near as active 20 years ago.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One more possible explanation here is that pri=
+vate equity is to some extent a <em>substitute </em>for investment banking:=
+ Twenty years ago, if you had a company and wanted to sell it, you hired an=
+ investment bank, and the bank found another company that wanted to buy you=
+r company and charged a fee. It was a pure brokerage model. Private equity =
+(partially) replaced that with a sort of dealer model: Now, if you have a c=
+ompany and want to sell it, there=E2=80=99s a decent chance that you just s=
+ell it to a private equity firm, who holds onto it for a bit, spruces it up=
+, finds another buyer, sells it, and collects a large markup on the overall=
+ transaction. Bankers are still involved, but more of the value gets captur=
+ed by the private equity firm, which anyway employs a lot of successful for=
+mer investment bankers. If private equity skims off the best bankers and th=
+e best banking economics, of course banker pay will go down. Meanwhile the =
+private equity firms still need lots of lawyers.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Shadow trading</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Sometimes readers of this column email me with=
+ questions or ideas. A fairly high percentage of these questions and ideas =
+are about how to insider trade.<a class=3D"footnote-index" href=3D"#footnot=
+e-2" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: none !imp=
+ortant; background-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0For some time, <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31871501.256403/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMjEtMDgtMjMvc3BhYy1zdWl0LWxlYWRzLXRvLXNwYXJjcz9jbXBpZD1CQkQwNjIyMjN=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yMzA2MjImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBc3f2=
+8f67" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  the single most common</a> question/idea that people emaile=
+d me went something like this: =E2=80=9CIf I find out material nonpublic in=
+formation about a public company, and I trade that company=E2=80=99s stock,=
+=C2=A0I will go to jail. But what if I trade a=C2=A0<em>different=C2=A0</em=
+>company=E2=80=99s stock, one that is in the same industry and correlated w=
+ith the stock that I know about? Is that illegal? If it is illegal, will I =
+get caught?=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">In general I try to avoid answering those ques=
+tions, because (1) nothing in this column is legal advice and (2) I certain=
+ly do not want to give you advice about how to do crimes and not get caught=
+. But in 2021, the US Securities and Exchange Commission <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/31871501.256403/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDgtMjMvc3BhYy1zdWl0LWxlYWRzLXR=
+vLXNwYXJjcz9jbXBpZD1CQkQwNjIyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV=
+9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjImdXRtX2NhbXBhaWduPW1vbmV5c3R1Z=
+mY/607f07ceef4b8524a319a23cCc3f28f67" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  actually brought</a> an ins=
+ider trading case against a guy named Matthew Panuwat for allegedly doing t=
+his. Panuwat worked as the head of business development at Medivation Inc.,=
+ a publicly traded biotech company; he learned that Medivation was about to=
+ be acquired, and went out and bought call options on a competitor called I=
+ncyte. The Medivation deal was announced, Incyte=E2=80=99s stock went up sy=
+mpathetically, Panuwat made money, and the SEC came after him for insider t=
+rading.</p>
+<p style=3D"margin: 16px 0;">This provides some very partial answers to my =
+readers=E2=80=99 questions:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The SEC thinks it=E2=80=99s illegal, =
+though Panuwat argues that the SEC is wrong=C2=A0and the case is ongoing.</=
+li>=09<li style=3D"margin-bottom: 5px;">The SEC did catch it,=C2=A0<em>once=
+</em>.</li>
+</ol>
+<p style=3D"margin: 16px 0;">The question that interests me here is: What i=
+s the denominator? Was Panuwat the first person ever to notice that, when h=
+e got inside information about his company, he could use it to trade other =
+companies=E2=80=99 stocks?=C2=A0<em>No, absolutely not, tons of my readers =
+have also noticed that, and they keep writing to me about it</em>. Was Panu=
+wat the first person ever to=C2=A0<em>actually do it?=C2=A0</em>That I do n=
+ot know; perhaps my readers are curious theoreticians but uniformly law-abi=
+ding.<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: none !important; background-color: =
+transparent !important; display: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But=C2=A0what evidence there is suggests that,=
+ no, lots of people have done this. After the Panuwat case, <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/31871501.256403/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDgtMjUvaW5zaWRlcnMtdHJhZGUt=
+aW4tb3V0c2lkZS1jb21wYW5pZXM_Y21waWQ9QkJEMDYyMjIzX01PTkVZU1RVRkYmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjIyJnV0bV9jYW1wYW=
+lnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB139eb4da" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  we discusse=
+d</a>=C2=A0a <a href=3D"https://link.mail.bloombergbusiness.com/click/31871=
+501.256403/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0=
+X2lkPTM2ODkxNTQ/607f07ceef4b8524a319a23cB1a82db2f" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> paper</a> by=C2=
+=A0Mihir Mehta, David Reeb and Wanli Zhao, which named this phenomenon =E2=
+=80=94=C2=A0using inside information about one company to trade a correlate=
+d stock =E2=80=94=C2=A0=E2=80=9Cshadow trading,=E2=80=9D and which found st=
+atistical evidence that it is pretty widespread. Earlier this year, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMDIvdGhlLXNlYy13=
+YW50cy10by1zZWUtbW9yZS1waG9uZXM_Y21waWQ9QkJEMDYyMjIzX01PTkVZU1RVRkYmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjIyJnV0bV9jYW=
+1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8690b627" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">  we disc=
+ussed</a> another <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+31871501.256403/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3R=
+yYWN0X2lkPTQzNDM1Nzk/607f07ceef4b8524a319a23cC1231fe16" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> paper</a> =
+finding evidence of shadow trading using exchange-traded funds.=C2=A0If sha=
+dow trading happens all the time and the SEC has brought one enforcement ac=
+tion, well, I leave the math as an exercise for the reader. This is not any=
+ sort of advice about anything!</p>
+<p style=3D"margin: 16px 0;">One fascinating empirical source here is that =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aH=
+R0cHM6Ly93d3cucHJvcHVibGljYS5vcmcvYXJ0aWNsZS9iaW90ZWNoLWV4ZWN1dGl2ZXMtaW52Z=
+XN0b3JzLXRyYWRlLWhlYWx0aC1jYXJlLXN0b2Nrcw/607f07ceef4b8524a319a23cBad07ab6e=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> ProPublica</a> has a trove of =E2=80=9Ctax records of the wealth=
+iest taxpayers, including many of the nation=E2=80=99s top business leaders=
+,=E2=80=9D and has been going through them looking for, among other things,=
+ evidence of shadow trading. We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/31871501.256403/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDMtMTYvY3JlZGl0LXN1aXNzZS1wdXRzLW9uLWEtYnJhdmUtZmFjZT9j=
+bXBpZD1CQkQwNjIyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV=
+3c2xldHRlciZ1dG1fdGVybT0yMzA2MjImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef=
+4b8524a319a23cBe9be7a10" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  talked about</a> some suggestive example=
+s in March, in which executives of one public company made well-timed trade=
+s in another company=E2=80=99s stock, though it can be a little hard to tel=
+l just from trading records if the executive (1) had inside information=C2=
+=A0<em>about the other company=C2=A0</em>(for instance, a banker leaked dea=
+l information to the executive), (2) just used her general industry knowled=
+ge and insight to make good trades or (3) was shadow trading on inside info=
+rmation=C2=A0<em>about her own company</em>.</p>
+<p style=3D"margin: 16px 0;">Similarly today ProPublica has a story about <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aHR=
+0cHM6Ly93d3cucHJvcHVibGljYS5vcmcvYXJ0aWNsZS9iaW90ZWNoLWV4ZWN1dGl2ZXMtaW52ZX=
+N0b3JzLXRyYWRlLWhlYWx0aC1jYXJlLXN0b2Nrcw/607f07ceef4b8524a319a23cCad07ab6e"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> biotech-company executives making well-timed trades</a> in their =
+competitors=E2=80=99 stocks:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The chairman of a biotech company bought share=
+s in a corporate partner just as the partner was reaching the final stages =
+of secret negotiations to be purchased.</p>
+<p style=3D"margin: 16px 0;">The chairman of a bone health company made agg=
+ressive bets on a medical technology firm run by an adviser to his board ju=
+st before its sales took off, netting him $29 million in a series of option=
+s trades.</p>
+<p style=3D"margin: 16px 0;">A wealthy investor with ties to a niche area o=
+f cancer research personally traded, for the first time ever, in a company =
+in that sector just before it was taken over. He bought high-risk options t=
+hat earned him a quick $1 million in profit.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Again these examples are ambiguous; if anythin=
+g, they suggest that the executives had inside information about the compet=
+itors, rather than inside information about their own companies that they u=
+sed to trade correlated stocks. (=E2=80=9CBuy stock in a competitor just be=
+fore it is taken over=E2=80=9D is either good luck or regular insider tradi=
+ng; =E2=80=9Cbuy stock in a competitor just before=C2=A0<em>you=C2=A0</em>a=
+re taken over=E2=80=9D is possible shadow trading.) The most fun example, t=
+hough, comes from Medivation:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">It wasn=E2=80=99t just Panuwat who risked viol=
+ating Medivation=E2=80=99s policy, a trove of confidential IRS data obtaine=
+d in recent years by ProPublica shows.</p>
+<p style=3D"margin: 16px 0;">It was also his then-boss, CEO David Hung. ...=
+</p>
+<p style=3D"margin: 16px 0;">In one instance, tax records show Hung traded =
+a competitor=E2=80=99s stock ahead of news he himself disclosed that expert=
+s said would likely qualify as material.</p>
+</blockquote>
+<blockquote>
+<p style=3D"margin: 16px 0;">On Aug. 24, 2015, Hung announced that Medivati=
+on was acquiring a cancer-fighting medication from a company called BioMari=
+n. The drug was one of a handful of cutting-edge new drugs that Hung hailed=
+ as an =E2=80=9Cexciting class of oncology therapeutics.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">What Hung didn=E2=80=99t say was that on the s=
+ame day his company finalized the acquisition =E2=80=94 but three days befo=
+re the public announcement =E2=80=94 he made a purchase in his personal sto=
+ck trading account. He bought about $8 million in shares of Clovis Oncology=
+, a company that was separately developing a drug in the same treatment cat=
+egory, known as =E2=80=9CPARP inhibitors.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">After the acquisition, the pharmaceutical trad=
+e press noted that there was growing interest in this class of drugs. Hung=
+=E2=80=99s deal marked the first big acquisition of a PARP inhibitor.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CObviously all the PARPs are going to =
+pop,=E2=80=9D said Nierengarten, the analyst who covered Hung=E2=80=99s com=
+pany. Clovis is a small company reliant on a small number of drugs, =E2=80=
+=9Cso it=E2=80=99s really going to pop,=E2=80=9D he said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That looks like a classic shadow trade: You kn=
+ow that one company is getting acquired (by you), so you buy stock in a com=
+petitor because it will go up when the acquisition is announced.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">PE recruiting</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Private equity recruiting notoriously happens =
+roughly two years in advance: People get hired at investment banks as analy=
+sts, start their two-year analyst program, and more or less immediately sta=
+rt interviewing for private equity jobs to start at the end of the analyst =
+program. The thinking is, roughly:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">The banks do a decent job of=C2=A0<em>=
+selecting=C2=A0</em>people, so if the PE firms hire from a pool of bank ana=
+lysts they will get good employees.</li>=09<li style=3D"margin-bottom: 5px;=
+">The banks do a decent job of=C2=A0<em>training=C2=A0</em>people, so if th=
+e analysts finish their two-year analyst program before starting in PE they=
+ will know what they are doing.</li>=09<li style=3D"margin-bottom: 5px;">No=
+body is going to distinguish themselves=C2=A0<em>all that much=C2=A0</em>as=
+ a banking analyst: The PE firms don=E2=80=99t need to wait until the end o=
+f the analyst program to hire the analysts who did the best job; they can j=
+ust hire the analysts they like the most at the beginning of the program, a=
+nd figure they will all get the same basic training and experience.</li>=09=
+<li style=3D"margin-bottom: 5px;">The earlier you hire, the better your sel=
+ection will be, so if your competitors are hiring in October you hire in Se=
+ptember, and the hiring keeps getting earlier and earlier.</li>
+</ul>
+<p style=3D"margin: 16px 0;">In principle the earliest possible date for pr=
+ivate equity recruiting would be, like, the day after college seniors get t=
+heir offers at investment banks, but in practice recruiting seems to happen=
+ around the time the analysts=C2=A0<em>start=C2=A0</em>their banking jobs, =
+not when they=C2=A0<em>get=C2=A0</em>them. This year <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/31871501.256403/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjIvcHJpdmF0ZS1lcXVpdHktcy1yYWNlLXR=
+vLXBvYWNoLWp1bmlvci1iYW5rZXJzLWZpbmRzLWl0cy1saW1pdD9jbXBpZD1CQkQwNjIyMjNfTU=
+9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVyb=
+T0yMzA2MjImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB99f1170=
+6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  that was too early though</a>?</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Private equity shops looking to fill out their=
+ 2024 associate classes were forced to do a second round of recruiting this=
+ year after initial efforts fell short, according to an analysis by recruit=
+er Odyssey Search Partners.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Eager to beat competitors, many buyout shops s=
+tarted reaching out to banks=E2=80=99 first-year trainees just a few weeks =
+after they began work in 2022. But the newly arrived dealmakers, dubbed ana=
+lysts, weren=E2=80=99t quite ready to boast about their prowess. Some had y=
+et to complete a single deal.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CMany of Wall Street=E2=80=99s promine=
+nt institutions were left with unfilled positions,=E2=80=9D according to th=
+e Odyssey report. =E2=80=9CFrom the perspective of many investment banking =
+analysts, the acceleration of recruiting timelines has reduced their willin=
+gness and ability to participate.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Back in 2010, private equity firms typically w=
+aited for junior bankers to soak up about 11 months of training before poac=
+hing efforts started. For the associate class of 2024, private equity giant=
+s began recruiting less than a month into their program. That was the earli=
+est kickoff to on-cycle recruiting ever, Odyssey found.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CMany analysts during the on-cycle per=
+iod in August 2022 held off,=E2=80=9D the Odyssey report found. =E2=80=9CTo=
+ do well, bankers typically believe they should have closed at least one tr=
+ansaction in order to have material to discuss in interviews. The slower M&=
+amp;A environment has reduced their level of experience compared to that of=
+ prior classes.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That=E2=80=99s adorable? A downstream effect o=
+f a slower M&amp;A environment is that first-month investment banking analy=
+sts have never closed a deal,=C2=A0so they don=E2=80=99t feel like they hav=
+e anything to talk about at PE recruiting, so they don=E2=80=99t do it, so =
+PE firms can=E2=80=99t hire junior associates, so they can=E2=80=99t close =
+more deals, further slowing the M&amp;A environment? I am not at all sure w=
+hy first-month investment bankers would =E2=80=9Cbelieve they should have c=
+losed at least one transaction in order to have material to discuss in inte=
+rviews=E2=80=9D =E2=80=94=C2=A0I cannot believe that a first-month banker=
+=E2=80=99s prowess at deal closing would be material in a PE firm=E2=80=99s=
+ hiring decisions =E2=80=94 but here we are.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">ESG AI</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One way to think about environmental, social a=
+nd governance investing is that it is a way for diversified investors to pa=
+y attention to broad systemic risks =E2=80=94=C2=A0climate change, poor gov=
+ernance =E2=80=94=C2=A0in their portfolios. But not=C2=A0<em>all=C2=A0</em>=
+systemic risks, just a somewhat arbitrary list of them. Climate change: an =
+ESG risk. Nuclear war: ehh, maybe an ESG risk, kind of? Malign artificial i=
+ntelligence running wild and destroying humanity: <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/31871501.256403/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjEvbnZpZGlhLW1vcmUtcG9wdWxhci10aGFuLX=
+Rlc2xhLWFzLWFub3RoZXItMTAwLWVzZy1mdW5kcy1waWxlLWluP2NtcGlkPUJCRDA2MjIyM19NT=
+05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJt=
+PTIzMDYyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBbaa3cf9=
+d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> apparently not an ESG risk</a>.</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Nvidia Corp.=E2=80=99s stratospheric ascent ha=
+s lured at least 100 more ESG funds in recent weeks, transforming the compa=
+ny into one of the most popular stocks among asset managers who integrate e=
+nvironmental, social and governance metrics into their investment strategie=
+s.</p>
+<p style=3D"margin: 16px 0;">There are now over 1,400 ESG funds directly ho=
+lding Nvidia, according to data compiled by Bloomberg based on the latest f=
+ilings. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">ESG=E2=80=99s growing exposure to tech =E2=80=
+=94 and in particular artificial intelligence =E2=80=94 has the potential t=
+o change the narrative around an investment strategy that last year suffere=
+d a number of headwinds. Amid an energy crisis and rising interest rates, E=
+SG found itself the target of political attacks in the US, with Republicans=
+ calling it an anti-American form of business and investing that put a =E2=
+=80=9Cwoke=E2=80=9D agenda ahead of financial returns.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This year, however, ESG funds=E2=80=99 relianc=
+e on tech is driving outperformance. The top ESG funds so far in 2023 are a=
+ll tech-heavy and invested in AI, and all have returned more than 40%.=C2=
+=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It is funny to imagine some intermediate phase=
+ where artificial intelligence has not enslaved or destroyed humanity, but =
+where=C2=A0<em>some=C2=A0</em>AI robots are killing or enslaving=C2=A0<em>s=
+ome=C2=A0</em>humans. (Or, like, AI just puts a lot of humans out of work a=
+nd causes social problems?) In that phase I suppose people would still be i=
+nvesting and AI companies would still be investable and profitable (?); som=
+e investors would buy their stocks because they make money, while other soc=
+ially responsible investors would say =E2=80=9Cno, AI is bad for humanity s=
+o I am going to stay away from those stocks.=E2=80=9D But right now AI is, =
+for ESG investors, a pure good.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">How=E2=80=99s Twitter going?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I do think that if you are hired as the new ch=
+ief executive officer of a multibillion-dollar website company, and on your=
+ first day on the job your direct reports come to you like =E2=80=9Cwe are =
+wrestling with a difficult decision and now that you are here we would like=
+ to get your view on it,=E2=80=9D and you are like =E2=80=9Cokay what is it=
+,=E2=80=9D and they are like =E2=80=9Cshould we pay the cloud hosting bill =
+so we can keep our website on the internet,=E2=80=9D your first reaction wi=
+ll probably be to say =E2=80=9Cyes we should absolutely do that, why was th=
+is a hard question,=E2=80=9D and your second reaction will probably be to t=
+hink =E2=80=9CI have made a terrible mistake.=E2=80=9D To be fair Linda Yac=
+carino absolutely <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+31871501.256403/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90d2l0dGVyLWNlby1pbnR=
+lcnZlbmVkLXRvLW1lbmQtZ29vZ2xlLXJlbGF0aW9uc2hpcC1hZnRlci1jbG91ZC1wYXltZW50LW=
+lzc3VlLTFlNjExODZm/607f07ceef4b8524a319a23cBa8b624c1" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> knew what sh=
+e was getting into</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Twitter Chief Executive Linda Yaccarino interv=
+ened to help repair the relationship between the social-media company and A=
+lphabet=E2=80=99s Google after a payment issue, a person familiar with the =
+matter said, an early example of the new CEO=E2=80=99s management style.</p=
+>
+<p style=3D"margin: 16px 0;">Twitter is now paying Google for its cloud ser=
+vices after not consistently paying some of those bills, people familiar wi=
+th the matter said. Those bills amounted to more than $20 million a month r=
+ecently, people familiar with the matter said. ...</p>
+<p style=3D"margin: 16px 0;">Twitter and Google have had significant busine=
+ss ties. Twitter has used Google=E2=80=99s cloud services for a range of pu=
+rposes, including anti-spam technology and data-warehousing services, accor=
+ding to people familiar with the matter and past blog posts from both compa=
+nies. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Twitter=E2=80=99s spending on Google=E2=80=99s=
+ cloud services became a focus internally at Twitter after Twitter owner El=
+on Musk acquired the company late last year and quickly placed an emphasis =
+on cutting costs and curbing reliance on vendors, according to people famil=
+iar with the matter.</p>
+<p style=3D"margin: 16px 0;">Under Musk=E2=80=99s ownership, Twitter has be=
+en accused of missing payments on some bills that Musk inherited when he to=
+ok over and implemented a more austere spending style.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe new CEO=E2=80=99s management styl=
+e=E2=80=9D is that when big vendors send her a bill for services that they =
+provided as agreed and that are critical to Twitter=E2=80=99s functioning, =
+she pays it. This was also the management style of Twitter=E2=80=99s previo=
+us CEOs, except one of them.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">BOE Steps Up Inflation Fight With <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/31871501.256403/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjIvYm9lLXN0ZXBzLXVwLWluZ=
+mxhdGlvbi1maWdodC13aXRoLXNob2NrLXJhdGUtaGlrZS10by01P2NtcGlkPUJCRDA2MjIyM19N=
+T05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJ=
+tPTIzMDYyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB95f918=
+0c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Surprise Rate Hike</a> to 5%. Google Cloud Launches <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy9nb29nbGUtY2xvdWQtbGF1bmNoZXMtYW50aS1tb25leS1s=
+YXVuZGVyaW5nLXRvb2wtZm9yLWJhbmtzLWJldHRpbmctb24tdGhlLXBvd2VyLW9mLWFpLTI1MTJ=
+jY2NlP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cBff94dade" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Anti-Money-Laundering Tool</a> for Banks, Betting on the Power of AI. To=
+ Beat Back New York, London Seeks to <a href=3D"https://link.mail.bloomberg=
+business.com/click/31871501.256403/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90=
+by1iZWF0LWJhY2stbmV3LXlvcmstbG9uZG9uLXNlZWtzLXRvLXRhcC1wZW5zaW9uLXBvdC1iMTR=
+iODJiNz9tb2Q9aHBfbGlzdGJfcG9zMw/607f07ceef4b8524a319a23cB53f7c520" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Tap Pension Pot</a>. Marcum to Settle SEC, PCAOB Claims Over Widespread Fa=
+ilures in <a href=3D"https://link.mail.bloombergbusiness.com/click/31871501=
+.256403/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9tYXJjdW0tdG8tc2V0dGxlLXNlYy1=
+wY2FvYi1jbGFpbXMtb3Zlci13aWRlc3ByZWFkLWZhaWx1cmVzLWluLXNwYWMtYXVkaXRzLWJiOG=
+YzZDQ4P21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cBf43ec2be" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> SPAC Audits</a>. CFOs Are Hanging On to Expanded <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/31871501.256403/aHR0cHM6Ly93d3cud3NqLmNv=
+bS9hcnRpY2xlcy9jZm9zLWFyZS1oYW5naW5nLW9uLXRvLWV4cGFuZGVkLWNvcnBvcmF0ZS1qZXQ=
+tcGVya3MtMWYyZTEwMDU_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cBf=
+1ba7fec" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Corporate Jet Perks</a>. Phishing frenzy: School kids are=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/a=
+HR0cHM6Ly93d3cudGhlYmxvY2suY28vcG9zdC8yMzUwMjIvcGhpc2hpbmctZnJlbnp5LXNjaG9v=
+bC1raWRzLWFyZS1zdGVhbGluZy1taWxsaW9ucy1vZi1kb2xsYXJzLW9mLW5mdHMtdG8tYnV5LXJ=
+vYmxveC1za2lucw/607f07ceef4b8524a319a23cBa2f107c4" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> stealing millio=
+ns of dollars of NFTs</a> =E2=80=94 to buy Roblox skins. The GameStop movie=
+ will feature Vincent D=E2=80=99Onofrio as Steve Cohen and <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/31871501.256403/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjIvZ2FtZXN0b3AtbW92aWUtZHVtY=
+i1tb25leS1nb2VzLWluc2lkZS10aGUtbWVtZS1zdG9jay1zYWdhP2NtcGlkPUJCRDA2MjIyM19N=
+T05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJ=
+tPTIzMDYyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB744946=
+e9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Nick Offerman as Ken Griffin</a>. Elon Musk and Mark Zuckerb=
+erg agree to <a href=3D"https://link.mail.bloombergbusiness.com/click/31871=
+501.256403/aHR0cHM6Ly93d3cuYmJjLmNvbS9uZXdzL2J1c2luZXNzLTY1OTgxODc2/607f07c=
+eef4b8524a319a23cB18303c91" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> hold cage fight</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31871501.256403/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBbc99f340" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31871501.256403/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB1e6ddef8" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] This is much *less* true than it used to b=
+e, through some combination of extensive position-disclosure rules and the =
+rise of institutional ownership and index funds: The average public-company=
+ CEO could, with an afternoon on Bloomberg, get a pretty decent view of her=
+ main shareholders=E2=80=99 other holdings, which probably was not true 30 =
+years ago. I suspect that better information about other holdings is part o=
+f what has made this question a bit more live now than it used to be.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Sorry to my readers at the SEC.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Also, I mean, again this is not any sort o=
+f advice, but if you have noticed this possibility then you might email me =
+to ask about it, or you might actually go trade on it, but you really shoul=
+d not do *both*. From my selfish perspective I would *love* to read an SEC =
+complaint that is like =E2=80=9Cthe defendant emailed Bloomberg columnist M=
+att Levine to ask =E2=80=98if I know my company is going to be acquired, ca=
+n I buy call options in our closest competitor,=E2=80=99 and then went out =
+and bought those call options,=E2=80=9D but from your perspective you don=
+=E2=80=99t want to be the defendant in that complaint.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBacb5dac5" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBa3c06232" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB15260116" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB4c54363a" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB0ee8a7c8" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.2564=
+03/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBa609f1cb" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31871501.256403/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCc019d5cc" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31871501.256403/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB6b73e620" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31871501.256403/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB4c64cbcf" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB7=
+307f4c0" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31871501.256403/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB2=
+3b38e40" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciz47h.5hub/b76bc3d1.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_79882304_2039309648.1687455414108--
+

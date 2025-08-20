@@ -1,0 +1,1744 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:1c9:b0:138:a0a2:ca29 with SMTP id v9csp2848003lka;
+        Mon, 30 Aug 2021 10:14:02 -0700 (PDT)
+X-Received: by 2002:a05:6402:1642:: with SMTP id s2mr25072760edx.135.1630343642137;
+        Mon, 30 Aug 2021 10:14:02 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1630343642; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=EOd/IdYPx5r0B6AF1b9AbwFXa+32sykA4dMTCskS0233KbOcMBxQrbaGe3lDUz22Gl
+         jOYDPIMC4XxXSXecpGIq/xa7xJ4ZuLeUAGz53d5cU6CRTK0CVgLFlh3uAhiEwYpsBEmi
+         uJWguAd05/yQBGbrg8fIVRDik1QuKPJst9IBz8/8SP+2QvLjllIq8ZGKqpZ21cDaLmpZ
+         sdc4VKf4pfFhnniOFcig9uqlAbn2bC61H8keFYRh/LQWwCIbTu/yJl9P7S3efYZG+uAb
+         DPUFJ71XdLaL4A3aQB89ipAjWfkT7iSk5YcNCYgEl9hyCXDj29Estpb+YSdXaSUFhOHC
+         tlVg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=26PZcvcRepp/PjS06jy5Z2YWTuNibXrYbKkktwSGpBo=;
+        b=PGPh04/pDq+SBpXenqwsiAjaG0iH4K3bj10GCZhWBkH2OKZEPT93Sa6B5CfKy2VQ5F
+         4sE+rRKhUVoqvEeySPIzhecC3IjpiRUVOm0h3Lh/j7HajKu/3VCc/LRaQ4JX+UOVEs/M
+         EfdhPZ35Nh2makR8dSrIPDC7L/blpJrZabrL9rWFXKuTCn7aSSi8qLCW03/VUF7YzPk5
+         cekhSiV9vmu+Jmm8ttlabyQl8GOO4WmjaHD+PCDsODprb54z4mZj+yY/pE8HUYa/gveh
+         HQXy6H6rE0K/Kh+ufIIfjz4MzyZ2AsjAaiTVZPWMtkWcCNM+bGwW11xxZF5gQWI9FgKm
+         /t6Q==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=0IjLywyn;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id bg21sor9122549ejb.66.2021.08.30.10.14.01
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 30 Aug 2021 10:14:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=0IjLywyn;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=26PZcvcRepp/PjS06jy5Z2YWTuNibXrYbKkktwSGpBo=;
+        b=ubW48CHJiPYYjM50TyEXGxo2MXEPWNSPpgFJAeLducvyOf0mPm9LYj4GvIzK/0yQHF
+         9Ll7ejAAxWXbZiky1wYryBAbDzJ6PG5RVf6lJNDOXhl4fCbBbWL0JxntN0bJ6EDePJ8Z
+         DQgOnbhKX+QiclpU/HgYhkiZK7XqTJhNJDymuC/IVkz/fstUtOGaHXKpp2w2xDSNdQ0N
+         IyL8Hg3ObdVSXIUOboDG+yGPmCA5z/vLxKX91eFgsLe/E9r43PH2fQrG2K59008Tp61K
+         79IVpchHr2R4VJaMxm4AtKaCqYqfKAxVh7EnqtxQGBqiCMLjCBbTV4kYsaz0xYaKhUjd
+         YSpA==
+X-Gm-Message-State: AOAM530fMPIgS8QK8Oe3PjYurcc6lh3kCMkOaRyEJ3HzfMNJh/hTK4iz
+	lGN6uPacnVgbrZ1/n7CpPA9PNRM16w/MepSorelWIcmHB6PfDP+KnVDz
+X-Received: by 2002:a17:906:3159:: with SMTP id e25mr26220008eje.549.1630343641765;
+        Mon, 30 Aug 2021 10:14:01 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:ab4:a245:0:0:0:0:0 with SMTP id dh5csp1484488ecb;
+        Mon, 30 Aug 2021 10:13:58 -0700 (PDT)
+X-Received: by 2002:ae9:f404:: with SMTP id y4mr23263458qkl.52.1630343637966;
+        Mon, 30 Aug 2021 10:13:57 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1630343637; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ZnTFgFNnhyUXepvcptFgI6nRnxtPVVvuFCrp9Bl7ZvSpWAYCqkHW0xVYPVHRlW9ISh
+         L1HYkUuB7A7UKXGrB0/dECNgKmPWvM3w4cGkkyAWkep6IeudOaW30fZ0dOh6zJlB7P/p
+         K8ZAY7H4yAIEo7aULq01r9mSpw5FlibWSS8HPJSoF6EcVucPFs9HWHD+De33I2uA8A4z
+         4P3CxAY9HlsDXBDLUpFYGZT0cjyt17jDhGycy6pYUDxpeg7c/lXzCm9hZ/ITjMkI8SrT
+         7qmhLO2vsWwRpswG10BeatcM1W6mfo+PrsCqZHI39M+Ckby1vPTv80b9++7rfSMruQqV
+         yj+w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=26PZcvcRepp/PjS06jy5Z2YWTuNibXrYbKkktwSGpBo=;
+        b=S4fK3qWlKsPVxNL7ArpjglQ2xDUB3xwf45UIXS2NZfinLP/1RfaolA/KBCkmp5lDg+
+         JwZzt02Bu0F/kvsny/nN9J7HiQKgYFJjBfQNNZkFryt1aP0TckJ7aWss55V+VBNc3woy
+         FGjr8fRXSCi6eEyuNqKh/QeZRkZZKyHGOfncOaeCbmXB/ZvPbBU8f5tH9Xo3lvhgYAZc
+         tKA300vfLEquEttlVRAhf6tjE4+c86lBD9kXzzSF7GZoL4F/j38LX2U0wes1e/Nlp+s4
+         Zupbdjdw8NOJC+67HZ6OaKde08zmZsVcF/s4HSTlhkkoAcot6F+Zb7dp7Xb5HfMgnaKI
+         vE/g==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=0IjLywyn;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210830131103.24898515.251678@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210830131103.24898515.251678@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210830131103.24898515.251678@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id bj3sor1688130qkb.93.2021.08.30.10.13.57
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 30 Aug 2021 10:13:57 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210830131103.24898515.251678@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxDLgwQcDKRqoq5CK4TKfQWDChBF+hDZ0UjG7tRQypt7s6Twf8DQVNjKEB7jGwHBvMDMU1e6bAKusrHwMQSVEZXcDroTkk=
+X-Received: by 2002:a37:a147:: with SMTP id k68mr23011470qke.416.1630343637455;
+        Mon, 30 Aug 2021 10:13:57 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1630343637; cv=none;
+        d=google.com; s=arc-20160816;
+        b=z04hKv0dc6Neq6BVQW6JjmuLEalkZ9kWsanUTiqDtsC1uRmPBcaJ0LTMNILAJslDUU
+         vSiiu1vTduGujHU+YKgxWxaPM2/e3R1SB8m6/k3JYOtZ1CmjaEwnAo7ESGod5j5rG0eZ
+         nNNZx13w0rkf6A04xECnaLkHPnt+HT9dKPOOdabNbVSGh5HB/bOJNxK4vVp1/occgiBP
+         6QuO/dQOjQlKPhALHbDTpT/qsa+E83bzikuftqcWSkLZGt8lXa1hPwKVUflMXHXfDtiY
+         Myuua2w6e1W7+4YPaJCZH32eTudX1J+tyim69jolBuTF3LObuh8hZ8Z/NABXvTEOS+8B
+         BXRQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=26PZcvcRepp/PjS06jy5Z2YWTuNibXrYbKkktwSGpBo=;
+        b=0VpDXhq7+QYpPKARmshlGzeJOdJTry9v4n6Zwi8HrmVP/L5hrGncIq8CdDxCxfN4Ww
+         EbzhYXoU5chGc0zlON/+TGlQBZtKCgCixeo19gQrZKHcsaobo8VMpFfN9HB/GnTLxJJM
+         D98eeEzd5dMz6WOQ9bViXkgJjdVqd+KXc3qqo7DeDi4cMVw6vPhojX7M43q2qkr/J1Mi
+         YVJZeLYPTfTTDat4yzUEy6imBhTLCeF/Xz6z0as9r+eX2OP2Gw1CQqK7i2uSEaceKv1T
+         NcXd51ejuqT+9QKSshmhi4RlNrD7CEKEDdDrU+Rl+KL37oERBCDFTv4y9HX8smR1X0Te
+         uLeg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=0IjLywyn;
+       spf=pass (google.com: domain of delivery_20210830131103.24898515.251678@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210830131103.24898515.251678@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210830131103.24898515.251678@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id s128si3307qkh.6.2021.08.30.10.13.57
+        for <khamel83@gmail.com>;
+        Mon, 30 Aug 2021 10:13:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210830131103.24898515.251678@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=R+YYxzvJ4zJkn6w/MRErFjlO9pg=;
+ b=0IjLywynJOn0WDqeRZK6O34va36lKfbX3qfwQjYGjc4627sXONn6KHe4cd3DcHtoDgv5H1UMxhtM
+   FpSr867pacrg+dSdAxIyW9zDSnKkEL1myRWnWw47QxrUPK6x+ozSedUHskJr4N/z6+bCCCfgJBfJ
+   HPrmPxR6Qrdn6TVru6k=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by bloomberg-b.sailthru.com id h5k8ta1qqbs9 for <bloomberg@khamel.com>; Mon, 30 Aug 2021 13:13:56 -0400 (envelope-from <delivery_20210830131103.24898515.251678@mx.sailthru.com>)
+Date: Mon, 30 Aug 2021 13:11:03 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210830131103.24898515.251678@sailthru.com>
+Subject: Money Stuff: ESG Accounting Requires Accountants
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8284910_487956790.1630343463126"
+Precedence: bulk
+X-Feedback-ID: 6358:24898515:campaign:sailthru
+X-TM-ID: 20210830131103.24898515.251678
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetcarmine.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cetntf.5e72/5e65c703
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cetntf.5e72/5e65c703>, <mailto:unsubscribe_20210830131103.24898515.251678@mx.sailthru.com>
+X-rpcampaign: stjko24898515
+
+------=_Part_8284910_487956790.1630343463126
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      ESG accounting
+   =20
+ =20
+A simple story is that investors want to buy stocks and bonds from good com=
+panies, companies in strong financial positions, companies with high revenu=
+es and low expenses and lots of valuable assets. The way to tell that a com=
+pany has high revenues and low expenses and valuable assets is by looking a=
+t its financial statements, which helpfully=C2=A0list its revenues and expe=
+nses and assets and liabilities. Obviously unscrupulous people might start =
+companies and=C2=A0lie=C2=A0on those financial statements, because then the=
+y could raise a lot of money and keep it for themselves. Or they might not =
+lie=C2=A0exactly, but instead use odd accounting choices to make their fina=
+ncial position look better than it is. So there is a whole profession of au=
+diting, which is basically in the business of examining companies=E2=80=99 =
+financial statements,=C2=A0making sure that they conform to generally accep=
+ted accounting principles and=C2=A0certifying to the investing public that =
+they are more or less true. Sometimes auditors get this wrong, but generall=
+y investors trust auditors enough that (1) financial statements audited by =
+reputable accounting firms, particularly the =E2=80=9CBig Four,=E2=80=9D ar=
+e generally considered to be more or less true and (2) financial statements=
+ that aren=E2=80=99t audited are often viewed with some suspicion.Tradition=
+ally the main thing investors were assumed to want, from a company, was a s=
+trong financial position, so the audited financial statements mattered a lo=
+t. But of course investors want other things. One thing they want is strong=
+ growth prospects, which is not really something that is reflected in audit=
+ed historical financial statements; audited financials matter a lot less to=
+ hot startups looking to raise venture capital than they do to mature indus=
+trial companies looking to sell bonds. Another thing they want is just, you=
+ know, meme-y stuff. You don=E2=80=99t need an auditor to tell you if a com=
+pany=E2=80=99s chief executive officer is fun on Twitter.=C2=A0These days i=
+nvestors also care a lot about environmental, social and governance factors=
+. These things are not particularly reflected in financial statements. But =
+they could be! Or, I mean, they could be reflected in other statements. ESG=
+ statements, I guess. The thing about ESG is that it has some of the same i=
+ssues that require auditing of financial statements.=09Investors want compa=
+nies with good ESG positions, companies that don=E2=80=99t pollute a lot an=
+d treat employees well and so forth.=09Unscrupulous people might lie about =
+how much they pollute, etc.=09Or they might just use different methods of a=
+ccounting for their pollution, etc., to make their own performance look goo=
+d.=09It would be nice to standardize how companies report ESG data, and to =
+have some authority figure to check it and vouch for it.ESG stuff largely s=
+eems factual, measurable, reportable, but the measurement and reporting are=
+ not yet standardized in the way that financial reporting is. That creates =
+an opportunity for people who are in the business of standardizing and cert=
+ifying=C2=A0corporate measurements and reports. Here is a fun Financial Tim=
+es article about the opportunity:Now the Big Four accounting firms are jump=
+ing on a bandwagon that offers two tempting opportunities: an expansion of =
+what companies must account for, and a chance to rebrand a scandal-plagued =
+profession as experts on climate change, diversity and winning consumers=E2=
+=80=99 trust. ...The Big Four are responding in part to a rise in clients=
+=E2=80=99 budgets for developing net zero emissions plans and other sustain=
+ability initiatives. Tracking nonfinancial metrics such as companies=E2=80=
+=99 carbon footprints, and not simply their financial results, gives them a=
+ chance to generate more fee income and improve profit margins.The introduc=
+tion of standardised ESG reporting metrics for companies would also create =
+more work for accountants. This will potentially be facilitated by the prop=
+osed International Sustainability Standards Board, a body that could be cre=
+ated by November to mirror the role the International Accounting Standards =
+Board plays in setting financial reporting standards.It is not every day th=
+at the accounting profession gets a whole new category of thing to account =
+for. Like if you are an accountant right now you pretty much audit the bala=
+nce sheet and the income statement and the cash flow statement, and if you =
+were an accountant 50 years ago you pretty much audited those same three st=
+atements. But in 10 years it is not implausible that accountants will be au=
+diting those three statements plus the statement of carbon emissions and th=
+e statement of workplace diversity and who even knows what else. There coul=
+d be, like, twice as much accounting as there is now! Assuming that they se=
+ize the opportunity right away and get everyone to think =E2=80=9Cwe need t=
+o reduce our carbon emissions, better hire an accountant.=E2=80=9D
+ =20
+   =20
+      Tickers
+   =20
+ =20
+Obviously there should be a liquid market in stock=C2=A0tickers. For one th=
+ing, tickers are valuable, and they should go to their highest-value=C2=A0u=
+ses. If there are dozens of=C2=A0cannabis companies=C2=A0(and=C2=A0exchange=
+-traded funds focused on the cannabis industry), the biggest and most profi=
+table one should get the WEED ticker, so that people with a generic vague d=
+esire to=C2=A0buy a weed stock can easily buy the correct one. Or it should=
+ be able to pry  the POT ticker away from the Potash Corp. of Saskatchewan,=
+ because relatively few people go around thinking =E2=80=9CI=E2=80=99d like=
+ to buy a potash stock so I=E2=80=99ll buy POT.=E2=80=9D =C2=A0For another =
+thing, it would be fun to know the value of tickers so that you could estim=
+ate how much of a company=E2=80=99s market value comes from the present val=
+ue of its expected cash flows and how much of it comes from having the righ=
+t ticker symbol. We have  talked a few  times about a company whose stock t=
+icker is COKE (it=E2=80=99s not the Coca-Cola Co.); it has a $3.7 billion m=
+arket capitalization, and there is a community of short sellers who have ar=
+gued that that=E2=80=99s mostly due to the ticker. If there was a market fo=
+r tickers maybe they=E2=80=99d be able to prove it.[1] Memorable tickers, a=
+nd tickers  adjacent to nouns that  Elon Musk tweets, are valuable; it woul=
+d be nice for their price to reflect their value. You could break down the =
+value of a company into the sum of its parts, the parts being =E2=80=9Coper=
+ating a business=E2=80=9D and =E2=80=9Chaving a ticker.=E2=80=9D Almost alw=
+ays the business would be the main thing and the ticker would be negligible=
+, but occasionally the business would be a negative, the ticker would be wo=
+rth more than the entire company, and a careful financial analysis would te=
+ll you that the move is=C2=A0to sell the ticker for cash and liquidate.Anyw=
+ay Bloomberg=E2=80=99s  Katie Greifeld tried to buy a ticker on the gray ma=
+rket for $250,000, but she got turned down. Which makes sense because it=E2=
+=80=99s a pretty good ticker:It=E2=80=99s late spring in New York, and the =
+latest bout of Reddit-fueled craziness has hit the market. A source tipped =
+me off that Roundhill Investments -- [Will] Hershey=E2=80=99s firm -- is si=
+tting on surely one of the hottest assets on Wall Street: It owns the ticke=
+r MEME, and is just deciding how to cash in.=E2=80=9CWe have it reserved at=
+ an exchange,=E2=80=9D Hershey says. =E2=80=9CIt=E2=80=99s not ours to sell=
+.=E2=80=9DWhich is a shame, because a good ticker -- the set of letters und=
+er which a security trades -- is a rapidly appreciating commodity. In fact,=
+ Hershey had already been approached late last year by a company offering $=
+250,000 for another of Roundhill=E2=80=99s. So I got curious about what it =
+would take for someone to pry MEME from his grasp.=C2=A0Greifeld was undete=
+rred by the technicality that Roundhill did not actually own the unused tic=
+ker. It had it exclusively reserved at an exchange, which gave it a sort of=
+ property right, which surely it could monetize?You could agree to a price,=
+ I say, and Roundhill can drop the ticker and the buyer can reserve it a se=
+cond after it does. Although I suppose that would create a millisecond risk=
+ of someone stealing it.=E2=80=9CYeah,=E2=80=9D says Hershey with a chuckle=
+. =E2=80=9CThe high-frequency ticker-reservation guys.=E2=80=9DAt law firm =
+Morgan, Lewis & Bockius LLP, Laura Flores specializes in the regulation of =
+investment vehicles. =E2=80=A6 I explain my MEME plan to her, and ask if it=
+=E2=80=99s feasible. She describes it as =E2=80=9Ctechnically=E2=80=9D lega=
+l -- which is good enough for me -- and intriguingly, says it=E2=80=99s not=
+ such an unusual request. Unsolicited approaches for tickers are likely bec=
+oming more common.=E2=80=9CIt=E2=80=99s probably still kind of a minority s=
+ituation,=E2=80=9D Flores says. =E2=80=9CNow that we=E2=80=99re getting int=
+o more thematic ETFs where that ticker becomes even more important and reco=
+gnizable, I think we=E2=80=99re going to see that activity increase.=E2=80=
+=9D =E2=80=A6=E2=80=9CAs we=E2=80=99ve seen an increase of retail trading a=
+nd investors come into the market, there certainly has been greater appetit=
+e for firms -- including ourselves -- to try and gain access to tickers tha=
+t may fit in the memorable category,=E2=80=9D says Dave Mazza, head of prod=
+uct at ETF issuer Direxion. To date no one has tried to buy a live ticker f=
+rom him, =E2=80=9Cbut I do know there are back-channel conversations about =
+if someone might have a ticker that you think you might want, is there a po=
+ssible swap,=E2=80=9D he says.But ultimately Roundhill said no because the =
+ticker was worth considerably more than $250,000 to it: It put the ticker o=
+n a meme-stock exchange-traded fund that it announced last week.The Roundhi=
+ll MEME ETF (ticker MEME) will screen stocks based on their social media ac=
+tivity and levels of short interest, according to a Securities and Exchange=
+ Commission filing Thursday. The ETF will rebalance every two weeks based o=
+n the holdings=E2=80=99 =E2=80=9Csocial media score=E2=80=9D over a trailin=
+g 14-day period.=C2=A0It already has $420 billion in assets. No, I=E2=80=99=
+m kidding, it hasn=E2=80=99t even launched yet. It=C2=A0does however have a=
+ proposed expense ratio of 69 basis points, which is nice. Roundhill has do=
+ne preliminary filings for other ETFs =E2=80=94=C2=A0here=E2=80=99s one for=
+ its =E2=80=9Cmetaverse=E2=80=9D ETF, ticker META =E2=80=94=C2=A0without fi=
+lling in a proposed fee; from its website, its ETFs all seem to have fees o=
+f 50, 75 or 80 basis points. But I guess they did some careful calculations=
+ here and decided that 69 basis points was the right number for the MEME ET=
+F. Seems right? If you=E2=80=99re gonna have a meme ETF with a MEME ticker,=
+ everything about it might as well be as meme-y as possible. Getting the ME=
+ME ticker is a cutthroat business; putting a 69 basis point fee on it is ea=
+sy.
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                    The=20
+Moon Pod is a zero gravity beanbag chair that relieves stress and anxiety, =
+mimicking the sensations of flotation therapy. Moon Pod=E2=80=99s zero-grav=
+ity technology acts as your personal cushioning system, so you can sit back=
+ and relax.
+                                    Moon Pod
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+ =20
+   =20
+      Elsewhere in meme-stock investing
+   =20
+ =20
+The Wall Street Journal has an article about =E2=80=9CThe Social-Media Star=
+s Who Move Markets=E2=80=9D and oh man is it something:=E2=80=9CTraditional=
+ finance is a black box,=E2=80=9D said Sarah Petite, a social-media consult=
+ant in Los Angeles. =E2=80=9CThis generation is looking at their parents an=
+d saying, =E2=80=98The way you thought about money? That isn=E2=80=99t how =
+it works anymore.=E2=80=99 =E2=80=9DInstead, young people want a road map t=
+o how to make big profits, and a strong independent streak draws many of th=
+em to online influencers who dole out advice free, rather than paying a tra=
+ditional investment manager to handle their money for them. Many don=E2=80=
+=99t care much about the qualifications of who=E2=80=99s giving the advice,=
+ experts and young investors themselves say.=E2=80=9CI have a rule: Don=E2=
+=80=99t pay for something you can get free,=E2=80=9D said Rex Wu, a 33-year=
+-old investor from Tampa Bay, Fla., who is a regular viewer of [YouTube sto=
+ck-market influencer and also somehow California gubernatorial candidate Ke=
+vin] Paffrath and several other online finance-world personalities. He says=
+ he has invested a few hundred thousand dollars based on =E2=80=9Cthings I=
+=E2=80=99ve learned online from guys like Kevin.=E2=80=9D So far this year,=
+ his portfolio has returned 23%; year-to-date, the S&P 500 has returned 21%=
+.=E2=80=9CIf I were to walk into JPMorgan tomorrow, they have the bias of t=
+rying to earn my business, and they might be trying to oversell me,=E2=80=
+=9D Mr. Wu said. =E2=80=9CGuys online don=E2=80=99t really have anything th=
+ey=E2=80=99re trying to sell me.=E2=80=9DOkay so between =E2=80=9Cdon=E2=80=
+=99t pay for something you can get free=E2=80=9D and =E2=80=9Cdon=E2=80=99t=
+ get something free that you could pay for,=E2=80=9D I think the latter mig=
+ht be better advice? I mean neither is a hard-and-fast rule or anything but=
+ in the long run there is some truth to the idea that you get what you pay =
+for? Also=C2=A0guys online definitely have things they=E2=80=99re trying to=
+ sell you?=C2=A0Like most internet content, influencer videos thrive on pop=
+ularity. And in the midst of a long-running bull market, what=E2=80=99s pop=
+ular is success stories and hot tips only.Many influencers report that when=
+ they hype an investment, they get the page views they crave. When the mess=
+age is bearish, however, viewers turn away, or worse, attack the messenger =
+with vicious trolling. =E2=80=A6Most [of Kevin Paffrath=E2=80=99s] videos w=
+ith positive titles garner more than 200,000 views, he says, while videos t=
+hat have negative takes on a company or an industry in the title rarely get=
+ more than 60,000 views.=E2=80=9CI have to be an astronaut and show them th=
+at the rocket ship is fun, but you can=E2=80=99t look at that your whole li=
+fe,=E2=80=9D Mr. Paffrath said.=E2=80=9CI=E2=80=99ll play the momentum game=
+, but let=E2=80=99s be real: True wealth comes from long-run interest. The =
+trouble is, on YouTube, none of my videos about that kind of thing get any =
+views.=E2=80=9DLook, the thing about =E2=80=9Ctraditional finance is a blac=
+k box=E2=80=9D is that it actually comes with a fairly complete and well-un=
+derstood=C2=A0explanatory structure. =E2=80=9CWhy is this stock worth $X? B=
+ecause the present value of its expected future cash flows is $X. What does=
+ that mean? Well, here=E2=80=99s the Wikipedia page on discounted cash flow=
+ modeling, and here are six analyst reports projecting the company=E2=80=99=
+s future cash flows, which are based on guidance from the company, and here=
+ is a spreadsheet with all of my inputs and assumptions.=E2=80=9D Like it i=
+s a =E2=80=9Cblack box=E2=80=9D in the sense that, if you don=E2=80=99t wan=
+t to bother with learning all of that stuff, you won=E2=80=99t understand i=
+t, but that is true of most things. And it is a =E2=80=9Cblack box=E2=80=9D=
+ in the related sense that there are professionals who will worry about it =
+for you, so you don=E2=80=99t have to=C2=A0bother with learning all of that=
+ stuff. Also right yes of course that explanatory structure does not work=
+=C2=A0especially=C2=A0well; stocks are regularly over- or under-valued comp=
+ared to their actual future cash flows, and move around too much to be just=
+ified by changes in those expectations, and those professionals have a hard=
+ time beating the market. Still it is =E2=80=A6=C2=A0there is a way to thin=
+k about it, you know?=C2=A0And then meme investing in 2021 is like =E2=80=
+=9CI have to be an astronaut and show them that the rocket ship is fun=E2=
+=80=9D and yes right in a sense all of this stuff is=C2=A0simple=C2=A0=E2=
+=80=94=C2=A0=E2=80=9Clet=E2=80=99s all buy the same stock and then it will =
+go up=E2=80=9D =E2=80=94 but =E2=80=A6=C2=A0is it not a =E2=80=9Cblack box=
+=E2=80=9D? Is it not totally resistant to understanding and analysis and ex=
+planation and meaning? Is it not just =E2=80=9Cthis stock is going to $10,0=
+00 because that=E2=80=99s a very large number that is fun to say=E2=80=9D? =
+How did you calculate that number?=C2=A0Or am I just old? Anyway I don=E2=
+=80=99t know what to tell you but I guess a lot of people on YouTube do.
+ =20
+   =20
+      Gamification
+   =20
+ =20
+Here is a U.S. Securities and Exchange Commission press release with the we=
+irdly enormous title =E2=80=9CSEC Requests Information and Comment on Broke=
+r-Dealer and Investment Adviser Digital Engagement Practices, Related Tools=
+ and Methods, and Regulatory Considerations and Potential Approaches; Infor=
+mation and Comments on Investment Adviser Use of Technology.=E2=80=9D Basic=
+ally the question is, like, =E2=80=9Cis it bad that Robinhood is fun?=E2=80=
+=9DThe Securities and Exchange Commission today announced that it is reques=
+ting information and public comment on matters related to the use of digita=
+l engagement practices by broker-dealers and investment advisers. These too=
+ls include behavioral prompts, differential marketing, game-like features (=
+commonly referred to as gamification), and other design elements or feature=
+s designed to engage with retail investors on digital platforms (e.g., webs=
+ites, portals, and applications), as well as the analytical and technologic=
+al tools and methods (collectively called digital engagement practices (DEP=
+s))."While new technologies can bring us greater access and product choice,=
+ they also raise questions as to whether we as investors are appropriately =
+protected when we trade and get financial advice," said SEC Chair Gary Gens=
+ler. "In many cases, these features may encourage investors to trade more o=
+ften, invest in different products, or change their investment strategy. Pr=
+edictive analytics and other DEPs often are designed with an optimization f=
+unction to increase revenues, data collection, or customer time spent on th=
+e platform. This may lead to conflicts between the platform and investors. =
+I=E2=80=99m interested in the varied questions included in the Request for =
+Comment, and I=E2=80=99m particularly focused on how we protect investors e=
+ngaging with technologies that use DEPs."I have to say that I sort of sympa=
+thize with the SEC=E2=80=99s suspicion that it is bad that Robinhood is fun=
+, but I also sympathize with Robinhood=E2=80=99s position that, like, what =
+else are they going to do? They looked at a world where the user experience=
+ for individual investors was not particularly good, and they were like =E2=
+=80=9Cwhat if we built a retail investing product with a good user experien=
+ce?=E2=80=9D And that=C2=A0worked, and so people used their product a lot. =
+And there was a big backlash as everyone=C2=A0was like =E2=80=9Cwait actual=
+ly it=E2=80=99s bad for a retail investing product to have a good user expe=
+rience, because it is bad for retail investors to trade too much.=E2=80=9DA=
+nd that backlash was probably not wrong! Maybe a little too paternalistic, =
+but not=C2=A0wrong; compulsive gambling is=C2=A0probably a bad idea.=C2=A0B=
+ut, yeah, I mean, what was Robinhood supposed to do? Intentionally build a =
+bad user experience so people wouldn=E2=80=99t use its product too much?My =
+first thought here was like =E2=80=9Cit is weird to regulate a product for =
+being too user-friendly,=E2=80=9D but is it? That is how casinos are regula=
+ted, and, like, vape pens. There is an element of this sort of thing =E2=80=
+=94=C2=A0=E2=80=9Cyou can sell it, but don=E2=80=99t make it too attractive=
+=E2=80=9D =E2=80=94=C2=A0in the regulation of alcohol and tobacco and canna=
+bis and pharmaceuticals. It=E2=80=99s how people talk about the addictive p=
+roperties of social media, and sugary drinks and snacks.=C2=A0It is possibl=
+e that in a society of abundance the basic regulatory problem is that compa=
+nies will get too good at turning their customers into addicts. Maybe regul=
+ating Robinhood for being too engaging=C2=A0isn=E2=80=99t=C2=A0actually tha=
+t weird, in 2021.Anyway here is a selection of the SEC=E2=80=99s questions =
+about =E2=80=9Cdigital engagement practices=E2=80=9D:What market forces are=
+ driving the adoption of DEPs on digital platforms and how? For example, to=
+ what extent and how is the use of DEPs influenced or driven by=C2=A0market=
+ practices related to compensation and revenue (e.g., =E2=80=9Czero commiss=
+ion=E2=80=9D and PFOF)? What types of compensation and revenue arrangements=
+ influence or drive market practices related to the use of DEPs? =E2=80=A6D=
+o firms use DEPs to promote or otherwise direct retail investors to securit=
+ies, investment strategies, or services that are more lucrative for the fir=
+m or that may be riskier to the retail investor than others =E2=80=93 such =
+as: margin services, options trading, proprietary products, products for wh=
+ich the firm receives revenue sharing or other third-party payments, or oth=
+er higher fee products?=C2=A0 ...Do firms use DEPs to encourage longer-term=
+ investment activities, including, but not limited to, increased contributi=
+ons to or establishment of retirement accounts? If so, how? =E2=80=A6To wha=
+t extent, and how, do firms use (or in the future expect to use) tools base=
+d on AI/ML (including deep learning, supervised learning, unsupervised lear=
+ning, and=C2=A0reinforcement learning) and NLP and NLG, to develop and evol=
+ve DEPs? What are the objective functions of AI/ML models (e.g. revenue gen=
+eration)?To what extent, and how, do firms use (or in the future expect to =
+use) behavioral psychology to develop and evolve platforms or DEPs? To what=
+ extent, and how, do firms use (or in the future expect to use) predictive =
+data analytics to develop and evolve DEPs? To what extent, and how, do firm=
+s use =E2=80=9Cdark patterns=E2=80=9D in connection with DEPs?
+ =20
+   =20
+      Are SPACs investment companies?
+   =20
+ =20
+No, say all the law firms that work with special purpose investment compani=
+es:When 49 major national law firms banded together late last week to=C2=A0=
+condemn lawsuits targeting special purpose acquisition companies, the deal-=
+making world took notice. =E2=80=A6SPACs have recently come under attack in=
+ high-profile shareholder suits that challenge their fundamental structure,=
+ starting with an action against the $4 billion blank-check firm run by the=
+ billionaire investor Bill Ackman, which forced him to rethink his approach=
+. =E2=80=A6=C2=A0Two prominent securities law professors, John Morley of Ya=
+le and the former S.E.C. commissioner Robert Jackson, now of Columbia, were=
+ behind the suits.=C2=A0Kirkland & Ellis, one of the top legal advisers to =
+SPACs, helped to organize other firms to issue the statement, which said th=
+e lawsuits are =E2=80=9Cwithout factual or legal basis.=E2=80=9D Some who s=
+igned on, like Simpson Thacher & Bartlett, have comparatively little involv=
+ement with SPACs. They are protesting on principle, organizers said. =E2=80=
+=9CThe market has already driven some reform,=E2=80=9D said Christian Nagle=
+r of Kirkland & Ellis. =E2=80=9COtherwise it should be done by proposing ru=
+les and laws, not by lawsuits.=E2=80=9DWe talked about this  last week: Som=
+e law professors are suing some SPACs, claiming that they are =E2=80=9Cinve=
+stment companies=E2=80=9D under the=C2=A0Investment Company Act of 1940 and=
+ therefore, essentially, illegal. (Or at least, it's illegal for their spon=
+sors to get all the fees that they get.) I think those professors are wrong=
+, and all these law firms agree with me. Of course the law firms are biased=
+: If SPACs are in fact illegal, then the law firms can't charge any more fe=
+es for raising SPACs. I suppose they can charge some fees for unwinding the=
+m, I dunno. Still I think the law firms are right.One raw fact here is that=
+ there are a lot of SPACs, and they=E2=80=99ve been around for a while, and=
+ nobody has really said this before. None of their law firms have told them=
+ =E2=80=9Chey you are an investment company under the =E2=80=9940 Act,=E2=
+=80=9D and the U.S. Securities and Exchange Commission, which has reviewed =
+all of the SPACs=E2=80=99 filings, has not told any of them =E2=80=9Chey yo=
+u=E2=80=99re an investment company and can=E2=80=99t charge all these fees.=
+=E2=80=9D=C2=A0In general, if you see that fact, and you don=E2=80=99t both=
+er to read a word of the =E2=80=9940 Act, you could reasonably conclude =E2=
+=80=9Cwell that means SPACs are not investment companies.=E2=80=9D Surely i=
+f they were investment companies under the=C2=A0=E2=80=9940 Act, someone wo=
+uld have noticed by now.There is just sort of an efficient-markets-ish argu=
+ment: A lot of smart people (deal lawyers, plaintiffs=E2=80=99 lawyers, the=
+ SEC)=C2=A0have a lot of good incentives to read the =E2=80=9940 Act, all t=
+he way through, and notice if a big sector of the market is violating it. T=
+he fact that no one has noticed that over many years=C2=A0probably=C2=A0mea=
+ns that there=E2=80=99s nothing to notice. Of course the fact that two smar=
+t law professors did notice it this year, or say they did anyway,=C2=A0is c=
+ontrary evidence, but not much.=C2=A0And if they were=C2=A0arguably investm=
+ent companies under the=C2=A0=E2=80=9940 Act, but the SEC over the course o=
+f many years consistently treated them as not investment companies, then th=
+at is itself a regulatory decision that is entitled to some precedential we=
+ight.[2] If there is doubt about whether SPACs are=C2=A0=E2=80=9940 Act inv=
+estment companies, the SEC=E2=80=99s consistent treatment of them as=C2=A0n=
+ot investment companies should really settle the issue.
+ =20
+   =20
+      Another look at last look
+   =20
+ =20
+We  talked on Thursday about =E2=80=9Clast look,=E2=80=9D the practice in t=
+he foreign exchange market in which dealers sometimes walk away from trades=
+ if the price moves against them. I was like, yes, right, of course a deale=
+r would do that, if it could. I also noted that of course a dealer would ba=
+ck out of a trade if the price moved=C2=A0against=C2=A0it, but would not fe=
+el a similar desire to back out of a trade if the price moved=C2=A0in its f=
+avor. There is nothing in =E2=80=9Cthe rules=E2=80=9D =E2=80=94=C2=A0more a=
+ set of voluntary principles =E2=80=94=C2=A0requiring last look to be used =
+symmetrically.That said, I am perhaps too cynical about last look.[3] Sever=
+al readers emailed me examples of dealers who promise to use last look symm=
+etrically, that is, to have some price-movement threshold and back out of t=
+rades if the price moves that amount=C2=A0either way. (For instance, here i=
+s JPMorgan Chase & Co.=E2=80=99s last look policy, which says that its =E2=
+=80=9CPrice Movement Thresholds are symmetrical =E2=80=93 this means that t=
+he same client-specific tolerance level applies to price differences in eit=
+her direction.=E2=80=9D) So if you do a trade to buy pounds from a dealer, =
+and the pound moves=C2=A0down (against you)=C2=A0in the brief last-look win=
+dow, you won=E2=80=99t get filled at the now-stale price either. It=E2=80=
+=99s only fair!
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Aluminum Notches Decade Highs on Soaring Demand, Snarled Supplies. Funds Ho=
+lding $10 Trillion Are Told Their  ESG Goals Fall Short. Saudi Arabia=E2=80=
+=99s grandiose climate plans struggle to take off.  ESG AT1. China Slashes =
+Kids=E2=80=99  Gaming Time to Just Three Hours a Week. Huarong Posts $15.9 =
+Billion Loss as Leverage Hit  1,333 Times. Rich Friends Who  Helped Evergra=
+nde Tycoon Count Their Losses. Scarce Credit Hinders Homeownership on Triba=
+l Land.=C2=A0Elizabeth Holmes=E2=80=99s Lawyers Say She  Suffered Partner=
+=E2=80=99s Abuse.=C2=A0Theranos Founder=E2=80=99s  Dream Jury Would Be Sili=
+con Valley Savvy. =E2=80=9COften a senior banker is at the mercy of a 30-ye=
+ar-old PE vice-president who requests, at all hours, tedious financial anal=
+ysis or due diligence for immediate reply with nary a =E2=80=98please=E2=80=
+=99 or =E2=80=98thank you.=E2=80=99=E2=80=9D=C2=A0Newlyweds send $240 bill =
+to guests who were no-shows for their wedding.=C2=A0=E2=80=9CCannibalism is=
+ something where there is certainly a grey area.=E2=80=9DIf you'd like to g=
+et=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, ple=
+ase=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and ot=
+her great Bloomberg newsletters here. Thanks![1] Don=E2=80=99t think too ha=
+rd about this. Obviously even if there was a market for tickers there would=
+ not be a continuous two-sided market for *each* ticker. I=E2=80=99m sort o=
+f kidding.[2] The SEC will cheerfully go around saying that it isn=E2=80=99=
+t, that its inactions are not precedential, etc., but in casual usage yes, =
+absolutely, never saying that=C2=A0SPACs are investment companies for years=
+ does sort of commit the SEC to continue not to say it.[3] Here, however, i=
+s a fun May 2021 paper from XTX Markets, called =E2=80=9DLast Look Myths De=
+bunked,=E2=80=9D if you want a more detailed critique of last look policies=
+.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cetntf.5e72/8c9c34aa.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8284910_487956790.1630343463126
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px 0px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24898515.251678/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBd1e80390"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24898515.251678/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB8324d98=
+0">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">ESG accounting</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A simple story is that investors want =
+to buy stocks and bonds from good companies, companies in strong financial =
+positions, companies with high revenues and low expenses and lots of valuab=
+le assets. The way to tell that a company has high revenues and low expense=
+s and valuable assets is by looking at its financial statements, which help=
+fully=C2=A0list its revenues and expenses and assets and liabilities. Obvio=
+usly unscrupulous people might start companies and=C2=A0<em>lie=C2=A0</em>o=
+n those financial statements, because then they could raise a lot of money =
+and keep it for themselves. Or they might not <em>lie=C2=A0</em>exactly, bu=
+t instead use odd accounting choices to make their financial position look =
+better than it is. So there is a whole profession of auditing, which is bas=
+ically in the business of examining companies=E2=80=99 financial statements=
+,=C2=A0making sure that they conform to generally accepted accounting princ=
+iples and=C2=A0certifying to the investing public that they are more or les=
+s true. Sometimes auditors get this wrong, but generally investors trust au=
+ditors enough that (1) financial statements audited by reputable accounting=
+ firms, particularly the =E2=80=9CBig Four,=E2=80=9D are generally consider=
+ed to be more or less true and (2) financial statements that aren=E2=80=99t=
+ audited are often viewed with some suspicion.</p><p style=3D"margin: 16px =
+0;">Traditionally the main thing investors were assumed to want, from a com=
+pany, was a strong financial position, so the audited financial statements =
+mattered a lot. But of course investors want other things. One thing they w=
+ant is strong growth prospects, which is not really something that is refle=
+cted in audited historical financial statements; audited financials matter =
+a lot less to hot startups looking to raise venture capital than they do to=
+ mature industrial companies looking to sell bonds. Another thing they want=
+ is just, you know, meme-y stuff. You don=E2=80=99t need an auditor to tell=
+ you if a company=E2=80=99s chief executive officer is fun on Twitter.=C2=
+=A0</p><p style=3D"margin: 16px 0;">These days investors also care a lot ab=
+out environmental, social and governance factors. These things are not part=
+icularly reflected in financial statements. But they could be! Or, I mean, =
+they could be reflected in other statements. ESG statements, I guess. The t=
+hing about ESG is that it has some of the same issues that require auditing=
+ of financial statements.</p><ol style=3D"list-style-type: decimal; padding=
+-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Investor=
+s want companies with good ESG positions, companies that don=E2=80=99t poll=
+ute a lot and treat employees well and so forth.</li>=09<li style=3D"margin=
+-bottom: 5px;">Unscrupulous people might lie about how much they pollute, e=
+tc.</li>=09<li style=3D"margin-bottom: 5px;">Or they might just use differe=
+nt methods of accounting for their pollution, etc., to make their own perfo=
+rmance look good.</li>=09<li style=3D"margin-bottom: 5px;">It would be nice=
+ to standardize how companies report ESG data, and to have some authority f=
+igure to check it and vouch for it.</li></ol><p style=3D"margin: 16px 0;">E=
+SG stuff largely seems factual, measurable, reportable, but the measurement=
+ and reporting are not yet standardized in the way that financial reporting=
+ is. That creates an opportunity for people who are in the business of stan=
+dardizing and certifying=C2=A0corporate measurements and reports. Here is a=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/24898515.251678/a=
+HR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNGE0N2ZiNGEtNGExMC00YzA1LThjNWQtMDJkODMw=
+NTJiZWU3/607f07ceef4b8524a319a23cBb8afcaaf" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">fun Financial Times article</a> about the=
+ opportunity:</p><blockquote><p style=3D"margin: 16px 0;">Now the Big Four =
+accounting firms are jumping on a bandwagon that offers two tempting opport=
+unities: an expansion of what companies must account for, and a chance to r=
+ebrand a scandal-plagued profession as experts on climate change, diversity=
+ and winning consumers=E2=80=99 trust. ...</p><p style=3D"margin: 16px 0;">=
+The Big Four are responding in part to a rise in clients=E2=80=99 budgets f=
+or developing net zero emissions plans and other sustainability initiatives=
+. Tracking nonfinancial metrics such as companies=E2=80=99 carbon footprint=
+s, and not simply their financial results, gives them a chance to generate =
+more fee income and improve profit margins.</p><p style=3D"margin: 16px 0;"=
+>The introduction of standardised ESG reporting metrics for companies would=
+ also create more work for accountants. This will potentially be facilitate=
+d by the proposed International Sustainability Standards Board, a body that=
+ could be created by November to mirror the role the International Accounti=
+ng Standards Board plays in setting financial reporting standards.</p></blo=
+ckquote><p style=3D"margin: 16px 0;">It is not every day that the accountin=
+g profession gets a whole new category of thing to account for. Like if you=
+ are an accountant right now you pretty much audit the balance sheet and th=
+e income statement and the cash flow statement, and if you were an accounta=
+nt 50 years ago you pretty much audited those same three statements. But in=
+ 10 years it is not implausible that accountants will be auditing those thr=
+ee statements plus the statement of carbon emissions and the statement of w=
+orkplace diversity and who even knows what else. There could be, like, twic=
+e as much accounting as there is now! Assuming that they seize the opportun=
+ity right away and get everyone to think =E2=80=9Cwe need to reduce our car=
+bon emissions, better hire an accountant.=E2=80=9D</p><table class=3D"heade=
+r" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Tickers</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Obviously there should be a liquid mar=
+ket in stock=C2=A0tickers. For one thing, tickers are valuable, and they sh=
+ould go to their highest-value=C2=A0uses. If there are dozens of=C2=A0canna=
+bis companies=C2=A0(and=C2=A0exchange-traded funds focused on the cannabis =
+industry), the biggest and most profitable one should get the WEED ticker, =
+so that people with a generic vague desire to=C2=A0buy a weed stock can eas=
+ily buy the correct one. Or it should be able to pry <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMTktMDItMDEvZnJvbS15b2xvLXRvLXBvdC10aW55LXd=
+lZWtlbmQtdW5saW1pdGVkLXdpbnMtcG90LXRpY2tlci1sb3R0ZXJ5/607f07ceef4b8524a319a=
+23cBf9313f7e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> the POT ticker</a> away from the Potash Corp. of Saskatchewan, because=
+ relatively few people go around thinking =E2=80=9CI=E2=80=99d like to buy =
+a potash stock so I=E2=80=99ll buy POT.=E2=80=9D =C2=A0</p><p style=3D"marg=
+in: 16px 0;">For another thing, it would be fun to know the value of ticker=
+s so that you could estimate how much of a company=E2=80=99s market value c=
+omes from the present value of its expected cash flows and how much of it c=
+omes from having the right ticker symbol. We have <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMTItMDIvdGhlLWJsYWNrbWFpbC1idXNpbmVzcy=
+1pc24tdC1lYXN5/607f07ceef4b8524a319a23cB4c4eb68f" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> talked</a> a few <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDItMTMvaXQtcy1nb29kLWlmLXBlb3=
+BsZS13YW50LXRlc2xhLXN0b2Nr/607f07ceef4b8524a319a23cBf1e57eab" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> times</a> about a comp=
+any whose stock ticker is COKE (it=E2=80=99s not the Coca-Cola Co.); it has=
+ a $3.7 billion market capitalization, and there is a community of short se=
+llers who have argued that that=E2=80=99s mostly due to the ticker. If ther=
+e was a market for tickers maybe they=E2=80=99d be able to prove it.[1] Mem=
+orable tickers, and tickers <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/24898515.251678/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMjEtMDEtMTkvbWF5YmUtdGhlLWluZGV4LWZ1bmRzLWRvbi10LXZvdGUjZm9vdG5v=
+dGUtNz9zcmVmPTFrSlZOcW5V/607f07ceef4b8524a319a23cB6787f70b" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;"> adjacent</a> to nouns th=
+at <a href=3D"https://link.mail.bloombergbusiness.com/click/24898515.251678=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMTMvZn=
+JhdWQtaXMtbm8tZnVuLXdpdGhvdXQtZnJpZW5kcw/607f07ceef4b8524a319a23cBbd4ae2b0"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Elon Mus=
+k tweets</a>, are valuable; it would be nice for their price to reflect the=
+ir value. You could break down the value of a company into the sum of its p=
+arts, the parts being =E2=80=9Coperating a business=E2=80=9D and =E2=80=9Ch=
+aving a ticker.=E2=80=9D Almost always the business would be the main thing=
+ and the ticker would be negligible, but occasionally the business would be=
+ a negative, the ticker would be worth more than the entire company, and a =
+careful financial analysis would tell you that the move is=C2=A0to sell the=
+ ticker for cash and liquidate.</p><p style=3D"margin: 16px 0;">Anyway Bloo=
+mberg=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/24=
+898515.251678/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtM=
+DgtMjcvaG93LXRvLWdldC1ldGYtdGlja2VyLWxpa2UtbWVtZS1pbnNpZGUtZ3JheS1tYXJrZXQt=
+Zm9yLWJlc3Qtc3RvY2stZnVuZC1uYW1lcw/607f07ceef4b8524a319a23cB1f338b35" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> Katie Greifeld=
+ tried to buy a ticker</a> on the gray market for $250,000, but she got tur=
+ned down. Which makes sense because it=E2=80=99s a pretty good ticker:</p><=
+blockquote><p style=3D"margin: 16px 0;">It=E2=80=99s late spring in New Yor=
+k, and the latest bout of Reddit-fueled craziness has hit the market. A sou=
+rce tipped me off that Roundhill Investments -- [Will] Hershey=E2=80=99s fi=
+rm -- is sitting on surely one of the hottest assets on Wall Street: It own=
+s the ticker MEME, and is just deciding how to cash in.</p><p style=3D"marg=
+in: 16px 0;">=E2=80=9CWe have it reserved at an exchange,=E2=80=9D Hershey =
+says. =E2=80=9CIt=E2=80=99s not ours to sell.=E2=80=9D</p><p style=3D"margi=
+n: 16px 0;">Which is a shame, because a good ticker -- the set of letters u=
+nder which a security trades -- is a rapidly appreciating commodity. In fac=
+t, Hershey had already been approached late last year by a company offering=
+ $250,000 for another of Roundhill=E2=80=99s. So I got curious about what i=
+t would take for someone to pry MEME from his grasp.=C2=A0</p></blockquote>=
+<p style=3D"margin: 16px 0;">Greifeld was undeterred by the technicality th=
+at Roundhill did not actually own the unused ticker. It had it exclusively =
+reserved at an exchange, which gave it a sort of property right, which sure=
+ly it could monetize?</p><blockquote><p style=3D"margin: 16px 0;">You could=
+ agree to a price, I say, and Roundhill can drop the ticker and the buyer c=
+an reserve it a second after it does. Although I suppose that would create =
+a millisecond risk of someone stealing it.</p><p style=3D"margin: 16px 0;">=
+=E2=80=9CYeah,=E2=80=9D says Hershey with a chuckle. =E2=80=9CThe high-freq=
+uency ticker-reservation guys.=E2=80=9D</p><p style=3D"margin: 16px 0;">At =
+law firm Morgan, Lewis &amp; Bockius LLP, Laura Flores specializes in the r=
+egulation of investment vehicles. =E2=80=A6 I explain my MEME plan to her, =
+and ask if it=E2=80=99s feasible. She describes it as =E2=80=9Ctechnically=
+=E2=80=9D legal -- which is good enough for me -- and intriguingly, says it=
+=E2=80=99s not such an unusual request. Unsolicited approaches for tickers =
+are likely becoming more common.</p><p style=3D"margin: 16px 0;">=E2=80=9CI=
+t=E2=80=99s probably still kind of a minority situation,=E2=80=9D Flores sa=
+ys. =E2=80=9CNow that we=E2=80=99re getting into more thematic ETFs where t=
+hat ticker becomes even more important and recognizable, I think we=E2=80=
+=99re going to see that activity increase.=E2=80=9D =E2=80=A6</p><p style=
+=3D"margin: 16px 0;">=E2=80=9CAs we=E2=80=99ve seen an increase of retail t=
+rading and investors come into the market, there certainly has been greater=
+ appetite for firms -- including ourselves -- to try and gain access to tic=
+kers that may fit in the memorable category,=E2=80=9D says Dave Mazza, head=
+ of product at ETF issuer Direxion. To date no one has tried to buy a live =
+ticker from him, =E2=80=9Cbut I do know there are back-channel conversation=
+s about if someone might have a ticker that you think you might want, is th=
+ere a possible swap,=E2=80=9D he says.</p></blockquote><p style=3D"margin: =
+16px 0;">But ultimately Roundhill said no because the ticker was worth cons=
+iderably more than $250,000 to it: It put the ticker on a meme-stock exchan=
+ge-traded fund that it <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/24898515.251678/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjEtMDgtMjYvZnVuZC1uYW1lZC1tZW1lLWlzLW9uLXRoZS13YXktdG8tc3VyZi10aGUtcmV0Y=
+WlsLWludmVzdG9yLXdhdmVz/607f07ceef4b8524a319a23cB883df115" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">announced last week</a>.</=
+p><blockquote><p style=3D"margin: 16px 0;">The Roundhill MEME ETF (ticker M=
+EME) will screen stocks based on their social media activity and levels of =
+short interest, according to a Securities and Exchange Commission filing Th=
+ursday. The ETF will rebalance every two weeks based on the holdings=E2=80=
+=99 =E2=80=9Csocial media score=E2=80=9D over a trailing 14-day period.=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">It already has $420 billio=
+n in assets. No, I=E2=80=99m kidding, it hasn=E2=80=99t even launched yet. =
+It=C2=A0does however have a proposed expense ratio of 69 basis points, <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24898515.251678/aHR0cH=
+M6Ly90d2l0dGVyLmNvbS9KU2V5ZmYvc3RhdHVzLzE0MzA5ODcwMTQ1MzEzMzQxNTE/607f07cee=
+f4b8524a319a23cBf4a26f75" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">which is nice</a>. Roundhill has done preliminary filings f=
+or other ETFs =E2=80=94=C2=A0<a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24898515.251678/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9k=
+YXRhLzE2ODM0NzEvMDAwMDg5NDE4OTIxMDAyMTQ0L21ldGE0ODVhLmh0bQ/607f07ceef4b8524=
+a319a23cBac1ca804" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">here=E2=80=99s one</a> for its =E2=80=9Cmetaverse=E2=80=9D ETF, ti=
+cker META =E2=80=94=C2=A0without filling in a proposed fee; from its <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/24898515.251678/aHR0cHM6=
+Ly93d3cucm91bmRoaWxsaW52ZXN0bWVudHMuY29tL2V0Zi8/607f07ceef4b8524a319a23cBa0=
+d86fae" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;">we=
+bsite</a>, its ETFs all seem to have fees of <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cucm91bmRoaWxsaW52=
+ZXN0bWVudHMuY29tL2V0Zi9uZXJkLw/607f07ceef4b8524a319a23cBd8a8954d" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">50</a>, <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/24898515.251678/aHR0cHM6Ly93=
+d3cucm91bmRoaWxsaW52ZXN0bWVudHMuY29tL2V0Zi9iZXR6Lw/607f07ceef4b8524a319a23c=
+B841dea4c" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>75</a> or <a href=3D"https://link.mail.bloombergbusiness.com/click/2489851=
+5.251678/aHR0cHM6Ly93d3cucm91bmRoaWxsaW52ZXN0bWVudHMuY29tL2V0Zi9kZWVwLw/607=
+f07ceef4b8524a319a23cBd60f9a58" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">80</a> basis points. But I guess they did some carefu=
+l calculations here and decided that 69 basis points was the right number f=
+or the MEME ETF. Seems right? If you=E2=80=99re gonna have a meme ETF with =
+a MEME ticker, everything about it might as well be as meme-y as possible. =
+Getting the MEME ticker is a cutthroat business; putting a 69 basis point f=
+ee on it is easy.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iLNeXG8dhYHw/v=
+0/-1x-1.png" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/iLNeXG8dhYHw/v0/-1x-1.png" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;"><p style=3D"margin: 10px 0px;"><strong>The <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cubW9vbnBvZ=
+C5jby8_dXRtX3NvdXJjZT1zcG9uY29uJnV0bV9tZWRpdW09c3BvbmNvbiZ1dG1fY2FtcGFpZ249=
+Ymxvb21iZXJnJnV0bV90ZXJtPW1hdHRsZXZpbmVzbW9uZXlzdHVmZiZ1dG1fY29udGVudD1hdWd=
+1c3QzMA/607f07ceef4b8524a319a23cB5020bda1" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" title=3D"Moon Pod" style=3D"color: #000000=
+; text-decoration: underline;">
+Moon Pod</a> is a zero gravity beanbag chair that relieves stress and anxie=
+ty, mimicking the sensations of flotation therapy. Moon Pod=E2=80=99s zero-=
+gravity technology acts as your personal cushioning system, so you can sit =
+back and relax.</strong></p></div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Moon Pod</p></di=
+v>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in meme-stock investing</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The Wall Street Journal has an article=
+ about =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/24=
+898515.251678/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90aGUtc29jaWFsLW1lZGlhL=
+XN0YXJzLXdoby1tb3ZlLW1hcmtldHMtMTE2MzAwNTY2MDE/607f07ceef4b8524a319a23cBd50=
+80f81" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">The=
+ Social-Media Stars Who Move Markets</a>=E2=80=9D and oh man is it somethin=
+g:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CTraditional finance=
+ is a black box,=E2=80=9D said Sarah Petite, a social-media consultant in L=
+os Angeles. =E2=80=9CThis generation is looking at their parents and saying=
+, =E2=80=98The way you thought about money? That isn=E2=80=99t how it works=
+ anymore.=E2=80=99 =E2=80=9D</p><p style=3D"margin: 16px 0;">Instead, young=
+ people want a road map to how to make big profits, and a strong independen=
+t streak draws many of them to online influencers who dole out advice free,=
+ rather than paying a traditional investment manager to handle their money =
+for them. Many don=E2=80=99t care much about the qualifications of who=E2=
+=80=99s giving the advice, experts and young investors themselves say.</p><=
+p style=3D"margin: 16px 0;">=E2=80=9CI have a rule: Don=E2=80=99t pay for s=
+omething you can get free,=E2=80=9D said Rex Wu, a 33-year-old investor fro=
+m Tampa Bay, Fla., who is a regular viewer of [YouTube stock-market influen=
+cer and also somehow California gubernatorial candidate Kevin] Paffrath and=
+ several other online finance-world personalities. He says he has invested =
+a few hundred thousand dollars based on =E2=80=9Cthings I=E2=80=99ve learne=
+d online from guys like Kevin.=E2=80=9D So far this year, his portfolio has=
+ returned 23%; year-to-date, the S&amp;P 500 has returned 21%.</p><p style=
+=3D"margin: 16px 0;">=E2=80=9CIf I were to walk into JPMorgan tomorrow, the=
+y have the bias of trying to earn my business, and they might be trying to =
+oversell me,=E2=80=9D Mr. Wu said. =E2=80=9CGuys online don=E2=80=99t reall=
+y have anything they=E2=80=99re trying to sell me.=E2=80=9D</p></blockquote=
+><p style=3D"margin: 16px 0;">Okay so between =E2=80=9Cdon=E2=80=99t pay fo=
+r something you can get free=E2=80=9D and =E2=80=9Cdon=E2=80=99t get someth=
+ing free that you could pay for,=E2=80=9D I think the latter might be bette=
+r advice? I mean neither is a hard-and-fast rule or anything but in the lon=
+g run there is some truth to the idea that you get what you pay for? Also=
+=C2=A0guys online definitely have things they=E2=80=99re trying to sell you=
+?=C2=A0</p><blockquote><p style=3D"margin: 16px 0;">Like most internet cont=
+ent, influencer videos thrive on popularity. And in the midst of a long-run=
+ning bull market, what=E2=80=99s popular is success stories and hot tips on=
+ly.</p><p style=3D"margin: 16px 0;">Many influencers report that when they =
+hype an investment, they get the page views they crave. When the message is=
+ bearish, however, viewers turn away, or worse, attack the messenger with v=
+icious trolling. =E2=80=A6</p><p style=3D"margin: 16px 0;">Most [of Kevin P=
+affrath=E2=80=99s] videos with positive titles garner more than 200,000 vie=
+ws, he says, while videos that have negative takes on a company or an indus=
+try in the title rarely get more than 60,000 views.</p><p style=3D"margin: =
+16px 0;">=E2=80=9CI have to be an astronaut and show them that the rocket s=
+hip is fun, but you can=E2=80=99t look at that your whole life,=E2=80=9D Mr=
+. Paffrath said.</p><p style=3D"margin: 16px 0;">=E2=80=9CI=E2=80=99ll play=
+ the momentum game, but let=E2=80=99s be real: True wealth comes from long-=
+run interest. The trouble is, on YouTube, none of my videos about that kind=
+ of thing get any views.=E2=80=9D</p></blockquote><p style=3D"margin: 16px =
+0;">Look, the thing about =E2=80=9Ctraditional finance is a black box=E2=80=
+=9D is that it actually comes with a fairly complete and well-understood=C2=
+=A0explanatory structure. =E2=80=9CWhy is this stock worth $X? Because the =
+present value of its expected future cash flows is $X. What does that mean?=
+ Well, here=E2=80=99s the <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/24898515.251678/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRGlzY291bnR=
+lZF9jYXNoX2Zsb3c/607f07ceef4b8524a319a23cB998e4608" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">Wikipedia page</a> on discounted =
+cash flow modeling, and here are six analyst reports projecting the company=
+=E2=80=99s future cash flows, which are based on guidance from the company,=
+ and here is a spreadsheet with all of my inputs and assumptions.=E2=80=9D =
+Like it is a =E2=80=9Cblack box=E2=80=9D in the sense that, if you don=E2=
+=80=99t want to bother with learning all of that stuff, you won=E2=80=99t u=
+nderstand it, but that is true of most things. And it is a =E2=80=9Cblack b=
+ox=E2=80=9D in the related sense that there are professionals who will worr=
+y about it for you, so you don=E2=80=99t <em>have to=C2=A0</em>bother with =
+learning all of that stuff. Also right yes of course that explanatory struc=
+ture does not work=C2=A0<em>especially=C2=A0</em>well; stocks are regularly=
+ over- or under-valued compared to their actual future cash flows, and move=
+ around too much to be justified by changes in those expectations, and thos=
+e professionals have a hard time beating the market. Still it is =E2=80=A6=
+=C2=A0there is a way to think about it, you know?=C2=A0</p><p style=3D"marg=
+in: 16px 0;">And then meme investing in 2021 is like =E2=80=9CI have to be =
+an astronaut and show them that the rocket ship is fun=E2=80=9D and yes rig=
+ht in a sense all of this stuff is=C2=A0<em>simple=C2=A0</em>=E2=80=94=C2=
+=A0=E2=80=9Clet=E2=80=99s all buy the same stock and then it will go up=E2=
+=80=9D =E2=80=94 but =E2=80=A6=C2=A0is it not a =E2=80=9Cblack box=E2=80=9D=
+? Is it not totally resistant to understanding and analysis and explanation=
+ and meaning? Is it not just =E2=80=9Cthis stock is going to $10,000 becaus=
+e that=E2=80=99s a very large number that is fun to say=E2=80=9D? How did y=
+ou calculate that number?=C2=A0Or am I just old? Anyway I don=E2=80=99t kno=
+w what to tell you but I guess a lot of people on YouTube do.</p><table cla=
+ss=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Gamification</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is a U.S. Securities and Exchange=
+ Commission <a href=3D"https://link.mail.bloombergbusiness.com/click/248985=
+15.251678/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMS0xNjc/6=
+07f07ceef4b8524a319a23cB4878103c" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">press release</a> with the weirdly enormous title =
+=E2=80=9CSEC Requests Information and Comment on Broker-Dealer and Investme=
+nt Adviser Digital Engagement Practices, Related Tools and Methods, and Reg=
+ulatory Considerations and Potential Approaches; Information and Comments o=
+n Investment Adviser Use of Technology.=E2=80=9D Basically the question is,=
+ like, =E2=80=9Cis it bad that Robinhood is fun?=E2=80=9D</p><blockquote><p=
+ style=3D"margin: 16px 0;">The Securities and Exchange Commission today ann=
+ounced that it is requesting information and public comment on matters rela=
+ted to the use of digital engagement practices by broker-dealers and invest=
+ment advisers. These tools include behavioral prompts, differential marketi=
+ng, game-like features (commonly referred to as gamification), and other de=
+sign elements or features designed to engage with retail investors on digit=
+al platforms (e.g., websites, portals, and applications), as well as the an=
+alytical and technological tools and methods (collectively called digital e=
+ngagement practices (DEPs)).</p><p style=3D"margin: 16px 0;">"While new tec=
+hnologies can bring us greater access and product choice, they also raise q=
+uestions as to whether we as investors are appropriately protected when we =
+trade and get financial advice," said SEC Chair Gary Gensler. "In many case=
+s, these features may encourage investors to trade more often, invest in di=
+fferent products, or change their investment strategy. Predictive analytics=
+ and other DEPs often are designed with an optimization function to increas=
+e revenues, data collection, or customer time spent on the platform. This m=
+ay lead to conflicts between the platform and investors. I=E2=80=99m intere=
+sted in the varied questions included in the Request for Comment, and I=E2=
+=80=99m particularly focused on how we protect investors engaging with tech=
+nologies that use DEPs."</p></blockquote><p style=3D"margin: 16px 0;">I hav=
+e to say that I sort of sympathize with the SEC=E2=80=99s suspicion that it=
+ is bad that Robinhood is fun, but I also sympathize with Robinhood=E2=80=
+=99s position that, like, what else are they going to do? They looked at a =
+world where the user experience for individual investors was not particular=
+ly good, and they were like =E2=80=9Cwhat if we built a retail investing pr=
+oduct with a good user experience?=E2=80=9D And that=C2=A0worked, and so pe=
+ople used their product a lot. And there was a big backlash as everyone=C2=
+=A0was like =E2=80=9Cwait actually it=E2=80=99s bad for a retail investing =
+product to have a good user experience, because it is bad for retail invest=
+ors to trade too much.=E2=80=9D</p><p style=3D"margin: 16px 0;">And that ba=
+cklash was probably not wrong! Maybe a little too paternalistic, but not=C2=
+=A0wrong; compulsive gambling <em>is=C2=A0</em>probably a bad idea.=C2=A0Bu=
+t, yeah, I mean, what was Robinhood supposed to do? Intentionally build a b=
+ad user experience so people wouldn=E2=80=99t use its product too much?</p>=
+<p style=3D"margin: 16px 0;">My first thought here was like =E2=80=9Cit is =
+weird to regulate a product for being too user-friendly,=E2=80=9D but is it=
+? That is how casinos are regulated, and, like, vape pens. There is an elem=
+ent of this sort of thing =E2=80=94=C2=A0=E2=80=9Cyou can sell it, but don=
+=E2=80=99t make it too attractive=E2=80=9D =E2=80=94=C2=A0in the regulation=
+ of alcohol and tobacco and cannabis and pharmaceuticals. It=E2=80=99s how =
+people talk about the addictive properties of social media, and sugary drin=
+ks and snacks.=C2=A0It is possible that in a society of abundance the basic=
+ regulatory problem is that companies will get too good at turning their cu=
+stomers into addicts. Maybe regulating Robinhood for being too engaging=C2=
+=A0<em>isn=E2=80=99t=C2=A0</em>actually that weird, in 2021.</p><p style=3D=
+"margin: 16px 0;">Anyway here is a selection of <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cuc2VjLmdvdi9yd=
+Wxlcy9vdGhlci8yMDIxLzM0LTkyNzY2LnBkZg/607f07ceef4b8524a319a23cB78e23a1d" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">the SEC=E2=
+=80=99s questions</a> about =E2=80=9Cdigital engagement practices=E2=80=9D:=
+</p><blockquote><p style=3D"margin: 16px 0;">What market forces are driving=
+ the adoption of DEPs on digital platforms and how? For example, to what ex=
+tent and how is the use of DEPs influenced or driven by=C2=A0market practic=
+es related to compensation and revenue (e.g., =E2=80=9Czero commission=E2=
+=80=9D and PFOF)? What types of compensation and revenue arrangements influ=
+ence or drive market practices related to the use of DEPs? =E2=80=A6</p><p =
+style=3D"margin: 16px 0;">Do firms use DEPs to promote or otherwise direct =
+retail investors to securities, investment strategies, or services that are=
+ more lucrative for the firm or that may be riskier to the retail investor =
+than others =E2=80=93 such as: margin services, options trading, proprietar=
+y products, products for which the firm receives revenue sharing or other t=
+hird-party payments, or other higher fee products?=C2=A0 ...</p><p style=3D=
+"margin: 16px 0;">Do firms use DEPs to encourage longer-term investment act=
+ivities, including, but not limited to, increased contributions to or estab=
+lishment of retirement accounts? If so, how? =E2=80=A6</p><p style=3D"margi=
+n: 16px 0;">To what extent, and how, do firms use (or in the future expect =
+to use) tools based on AI/ML (including deep learning, supervised learning,=
+ unsupervised learning, and=C2=A0reinforcement learning) and NLP and NLG, t=
+o develop and evolve DEPs? What are the objective functions of AI/ML models=
+ (e.g. revenue generation)?</p><p style=3D"margin: 16px 0;">To what extent,=
+ and how, do firms use (or in the future expect to use) behavioral psycholo=
+gy to develop and evolve platforms or DEPs? To what extent, and how, do fir=
+ms use (or in the future expect to use) predictive data analytics to develo=
+p and evolve DEPs? To what extent, and how, do firms use =E2=80=9Cdark patt=
+erns=E2=80=9D in connection with DEPs?</p></blockquote><table class=3D"head=
+er" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Are SPACs investment companies?</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">No, <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAy=
+MS8wOC8zMC9idXNpbmVzcy9kZWFsYm9vay9zcGFjLWxhd3N1aXRzLmh0bWw/607f07ceef4b852=
+4a319a23cBa751d257" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">say all the law firms</a> that work with special purpose investme=
+nt companies:</p><blockquote><p style=3D"margin: 16px 0;">When 49 major nat=
+ional law firms banded together late last week to=C2=A0<a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cucm9wZX=
+NncmF5LmNvbS9lbi9uZXdzcm9vbS9hbGVydHMvMjAyMS9BdWd1c3QvNDktb2YtdGhlLU5hdGlvb=
+nMtTGVhZGluZy1MYXctRmlybXMtUmVzcG9uZC10by1JbnZlc3RtZW50LUNvbXBhbnktQWN0LUxh=
+d3N1aXRz/607f07ceef4b8524a319a23cB54c63c1c" target=3D"_blank" title=3D"" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">condemn lawsuits targeting special purpose acquisition comp=
+anies</a>, the deal-making world took notice. =E2=80=A6</p><p style=3D"marg=
+in: 16px 0;">SPACs have recently come under attack in high-profile sharehol=
+der suits that challenge their fundamental structure, starting with an acti=
+on against the $4 billion blank-check firm run by the billionaire investor =
+Bill Ackman, which forced him to rethink his approach. =E2=80=A6=C2=A0Two p=
+rominent securities law professors, John Morley of Yale and the former S.E.=
+C. commissioner Robert Jackson, now of Columbia, were behind the suits.=C2=
+=A0</p><p style=3D"margin: 16px 0;">Kirkland &amp; Ellis, one of the top le=
+gal advisers to SPACs, helped to organize other firms to issue the statemen=
+t, which said the lawsuits are =E2=80=9Cwithout factual or legal basis.=E2=
+=80=9D Some who signed on, like Simpson Thacher &amp; Bartlett, have compar=
+atively little involvement with SPACs. They are protesting on principle, or=
+ganizers said. =E2=80=9CThe market has already driven some reform,=E2=80=9D=
+ said Christian Nagler of Kirkland &amp; Ellis. =E2=80=9COtherwise it shoul=
+d be done by proposing rules and laws, not by lawsuits.=E2=80=9D</p></block=
+quote><p style=3D"margin: 16px 0;">We talked about this <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDgtMjMvc3BhYy1zdWl0LWxlYWRzLXRv=
+LXNwYXJjcw/607f07ceef4b8524a319a23cB2546eae6" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> last week</a>: Some law professors are=
+ suing some SPACs, claiming that they are =E2=80=9Cinvestment companies=E2=
+=80=9D under the=C2=A0Investment Company Act of 1940 and therefore, essenti=
+ally, illegal. (Or at least, it's illegal for their sponsors to get all the=
+ fees that they get.) I think those professors are wrong, and all these law=
+ firms <a href=3D"https://link.mail.bloombergbusiness.com/click/24898515.25=
+1678/aHR0cHM6Ly93d3cuc3RibGF3LmNvbS9kb2NzL2RlZmF1bHQtc291cmNlL3B1YmxpY2F0aW=
+9ucy8wOF8yN18yMV9zdGF0ZW1lbnQucGRm/607f07ceef4b8524a319a23cB129981cb" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">agree with me</=
+a>. Of course the law firms are biased: If SPACs are in fact illegal, then =
+the law firms can't charge any more fees for raising SPACs. I suppose they =
+can charge some fees for unwinding them, I dunno. Still I think the law fir=
+ms are right.</p><p style=3D"margin: 16px 0;">One raw fact here is that the=
+re are a lot of SPACs, and they=E2=80=99ve been around for a while, and nob=
+ody has really said this before. None of their law firms have told them =E2=
+=80=9Chey you are an investment company under the =E2=80=9940 Act,=E2=80=9D=
+ and the U.S. Securities and Exchange Commission, which has reviewed all of=
+ the SPACs=E2=80=99 filings, has not told any of them =E2=80=9Chey you=E2=
+=80=99re an investment company and can=E2=80=99t charge all these fees.=E2=
+=80=9D=C2=A0<em>In general</em>, if you see that fact, and you don=E2=80=99=
+t bother to read a word of the =E2=80=9940 Act, you could reasonably conclu=
+de =E2=80=9Cwell that means SPACs are not investment companies.=E2=80=9D Su=
+rely if they were investment companies under the=C2=A0=E2=80=9940 Act, some=
+one would have noticed by now.</p><p style=3D"margin: 16px 0;">There is jus=
+t sort of an efficient-markets-ish argument: A lot of smart people (deal la=
+wyers, plaintiffs=E2=80=99 lawyers, the SEC)=C2=A0have a lot of good incent=
+ives to read the =E2=80=9940 Act, all the way through, and notice if a big =
+sector of the market is violating it. The fact that no one has noticed that=
+ over many years=C2=A0<em>probably=C2=A0</em>means that there=E2=80=99s not=
+hing to notice. Of course the fact that two smart law professors did notice=
+ it this year, or say they did anyway,=C2=A0is contrary evidence, but not m=
+uch.=C2=A0</p><p style=3D"margin: 16px 0;">And if they were=C2=A0<em>arguab=
+ly</em> investment companies under the=C2=A0=E2=80=9940 Act, but the SEC ov=
+er the course of many years consistently treated them as not investment com=
+panies, then that is itself a regulatory decision that is entitled to some =
+precedential weight.[2] If there is doubt about whether SPACs are=C2=A0=E2=
+=80=9940 Act investment companies, the SEC=E2=80=99s consistent treatment o=
+f them as=C2=A0<em>not</em> investment companies should really settle the i=
+ssue.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Another look at last look</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMDgtMjYvYWNjdXNlZC1wb256aS1zY2hlbWVyLWtlcHQtYnVz=
+eQ/607f07ceef4b8524a319a23cBef3e015a" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;"> talked on Thursday</a> about =E2=80=9Clast loo=
+k,=E2=80=9D the practice in the foreign exchange market in which dealers so=
+metimes walk away from trades if the price moves against them. I was like, =
+yes, right, of course a dealer would do that, if it could. I also noted tha=
+t of course a dealer would back out of a trade if the price moved=C2=A0<em>=
+against=C2=A0</em>it, but would not feel a similar desire to back out of a =
+trade if the price moved=C2=A0<em>in its favor</em>. There is nothing in =
+=E2=80=9Cthe rules=E2=80=9D =E2=80=94=C2=A0more a set of voluntary principl=
+es =E2=80=94=C2=A0requiring last look to be used symmetrically.</p><p style=
+=3D"margin: 16px 0;">That said, I am perhaps too cynical about last look.[3=
+] Several readers emailed me examples of dealers who promise to use last lo=
+ok symmetrically, that is, to have some price-movement threshold and back o=
+ut of trades if the price moves that amount=C2=A0<em>either way</em>. (For =
+instance, here is JPMorgan Chase &amp; Co.=E2=80=99s <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cuanBtb3Jn=
+YW4uY29tL2Rpc2Nsb3N1cmVzL3RyYWRlLW1hdGNoaW5n/607f07ceef4b8524a319a23cBa8535=
+ee0" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">last =
+look policy</a>, which says that its =E2=80=9CPrice Movement Thresholds are=
+ symmetrical =E2=80=93 this means that the same client-specific tolerance l=
+evel applies to price differences in either direction.=E2=80=9D) So if you =
+do a trade to buy pounds from a dealer, and the pound moves=C2=A0<em>down <=
+/em>(against you)=C2=A0in the brief last-look window, you won=E2=80=99t get=
+ filled at the now-stale price either. It=E2=80=99s only fair!</p><table cl=
+ass=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloomberg=
+business.com/click/24898515.251678/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9h=
+bHVtaW51bS1ub3RjaGVzLWRlY2FkZS1oaWdocy1vbi1zb2FyaW5nLWRlbWFuZC1zbmFybGVkLXN=
+1cHBsaWVzLTExNjMwMzExMDM0P21vZD1ocF9sZWFkX3BvczU/607f07ceef4b8524a319a23cB9=
+d3c0e59" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">A=
+luminum</a> Notches Decade Highs on Soaring Demand, Snarled Supplies. Funds=
+ Holding $10 Trillion Are Told Their <a href=3D"https://link.mail.bloomberg=
+business.com/click/24898515.251678/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjEtMDgtMjgvZnVuZHMtaG9sZGluZy0xMC10cmlsbGlvbi1hcmUtdG9sZC1=
+0aGVpci1lc2ctZ29hbHMtZmFsbC1zaG9ydA/607f07ceef4b8524a319a23cB9907e486" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> ESG Goals Fal=
+l Short</a>. Saudi Arabia=E2=80=99s <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24898515.251678/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMDdhN=
+mUzOTItNTcxNi00NGMwLWE2YmQtZDZmN2VhNDc0ZTVl/607f07ceef4b8524a319a23cBc39bfc=
+b3" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">grandi=
+ose climate plans</a> struggle to take off. <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjEtMDgtMzAvaW5kaWFuLWJhbmstcGxhbnMtdW51c3VhbC1ub3Rl=
+LW9mZmVyaW5nLXJpc2tpZXItZXNnLWV4cG9zdXJl/607f07ceef4b8524a319a23cBca757460"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> ESG AT1<=
+/a>. China Slashes Kids=E2=80=99 <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/24898515.251678/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjEtMDgtMzAvY2hpbmEtbGltaXRzLW1pbm9ycy10by1qdXN0LXRocmVlLWhvdXJ=
+zLW9mLW9ubGluZS1nYW1pbmctYS13ZWVr/607f07ceef4b8524a319a23cBde13bc23" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> Gaming Time</a>=
+ to Just Three Hours a Week. Huarong Posts $15.9 Billion Loss as Leverage H=
+it <a href=3D"https://link.mail.bloombergbusiness.com/click/24898515.251678=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMjkvaHVhcm=
+9uZy1wb3N0cy0xNS05LWJpbGxpb24tbG9zcy1pbi0yMDIwLWZsYWdzLWFzc2V0LXNhbGVz/607f=
+07ceef4b8524a319a23cB15dfa4a2" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> 1,333 Times</a>. Rich Friends Who <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMjkvcmljaC1mcmllbmRzLXdoby1oZWxw=
+ZWQtZXZlcmdyYW5kZS10eWNvb24tbm93LWNvdW50LXRoZWlyLWxvc3Nlcw/607f07ceef4b8524=
+a319a23cB821eb9d4" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Helped Evergrande Tycoon</a> Count Their Losses. Scarce <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24898515.251678/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy9zY2FyY2UtY3JlZGl0LWhpbmRlcnMtaG9tZW93bmVyc2hp=
+cC1vbi10cmliYWwtbGFuZC0xMTYzMDI0NTYwMT9tb2Q9bGVhZF9mZWF0dXJlX2JlbG93X2FfcG9=
+zMQ/607f07ceef4b8524a319a23cBb11026b7" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;">Credit</a> Hinders Homeownership on Tribal Lan=
+d.=C2=A0Elizabeth Holmes=E2=80=99s Lawyers Say She <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMjgvZWxpemFiZXRoLWhvbG1lcy1zLWxhd3llc=
+nMtc2F5LXNoZS1zdWZmZXJlZC1kZWNhZGUtbG9uZy1hYnVzZQ/607f07ceef4b8524a319a23cB=
+aeb0b790" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Suffered Partner=E2=80=99s Abuse</a>.=C2=A0Theranos Founder=E2=80=99s <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24898515.251678/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMzAvdGhlcmFub3MtZ=
+m91bmRlci1zLWRyZWFtLWp1cnktd291bGQtYmUtc2lsaWNvbi12YWxsZXktc2F2dnk/607f07ce=
+ef4b8524a319a23cB90da43e3" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Dream Jury</a> Would Be Silicon Valley Savvy. =E2=80=9COf=
+ten a senior banker is at the mercy of a <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQv=
+MjgxMDQ2NTEtZTI5Ny00MzcxLWIwOGQtN2ExMGI1OTBjNGU4P3NoYXJlVHlwZT1ub25naWZ0/60=
+7f07ceef4b8524a319a23cB46ad6326" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">30-year-old PE vice-president</a> who requests, at a=
+ll hours, tedious financial analysis or due diligence for immediate reply w=
+ith nary a =E2=80=98please=E2=80=99 or =E2=80=98thank you.=E2=80=99=E2=80=
+=9D=C2=A0Newlyweds <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/24898515.251678/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjEvMDgvMjcvbmV3bHl3ZWRzLXNlbm=
+QtMjQwLWJpbGwtdG8tZ3Vlc3RzLXdoby13ZXJlLXdlZGRpbmctbm8tc2hvd3M/607f07ceef4b8=
+524a319a23cBa5d16f30" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">send $240 bill</a> to guests who were no-shows for their weddi=
+ng.=C2=A0=E2=80=9CCannibalism is something where there is certainly <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24898515.251678/aHR0cHM6L=
+y93d3cuZ2F3a2VyLmNvbS9jdWx0dXJlL3doYXQtY291bnRzLWFzLWNhbm5pYmFsaXNt/607f07c=
+eef4b8524a319a23cBdc5220f3" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">a grey area</a>.=E2=80=9D</p><p style=3D"margin: 16px 0;"=
+><span class=3D"news-designed-for-consumer-media"><em>If you'd like to get=
+=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, pleas=
+e=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/24898515.25=
+1678/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZX=
+lzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07=
+ceef4b8524a319a23cB0acabb7b" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">subscribe =
+at this link</a>. Or you can subscribe to Money Stuff and other great Bloom=
+berg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+4898515.251678/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07c=
+eef4b8524a319a23cBb0243d26" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px=
+ 0;"><em>[1] Don=E2=80=99t think too hard about this. Obviously even if the=
+re was a market for tickers there would not be a continuous two-sided marke=
+t for *each* ticker. I=E2=80=99m sort of kidding.</em></p><p style=3D"margi=
+n: 16px 0;"><em>[2] The SEC will cheerfully go around saying that it isn=E2=
+=80=99t, that its inactions are not precedential, etc., but in casual usage=
+ yes, absolutely, never saying that=C2=A0SPACs are investment companies for=
+ years does sort of commit the SEC to continue not to say it.</em></p><p st=
+yle=3D"margin: 16px 0;"><em>[3] Here, however, is a <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/24898515.251678/aHR0cHM6Ly93d3cudHJlYXN1c=
+mVycy5vcmcvc3lzdGVtL2ZpbGVzL1hUWH5MTCUyMHBhcGVyfk1heSUyMDIwMjF-RmluYWx-cGJs=
+YyUyMC5wZGY/607f07ceef4b8524a319a23cB85a49351" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">fun May 2021 paper</a> from XTX Market=
+s, called =E2=80=9DLast Look Myths Debunked,=E2=80=9D if you want a more de=
+tailed critique of last look policies.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24898515.251678/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBb6c1985f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24898515.251678/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBa43f334f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24898515.251678/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBf71c3009" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24898515.251678/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBecab3bd2" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2489851=
+5.251678/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBb9abf235" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24898515.251678/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCab788f6c" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24898515.251678/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBea49a102" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24898515.251678/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBfacc3164" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cetntf.5e72/8c9c34aa.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8284910_487956790.1630343463126--
+

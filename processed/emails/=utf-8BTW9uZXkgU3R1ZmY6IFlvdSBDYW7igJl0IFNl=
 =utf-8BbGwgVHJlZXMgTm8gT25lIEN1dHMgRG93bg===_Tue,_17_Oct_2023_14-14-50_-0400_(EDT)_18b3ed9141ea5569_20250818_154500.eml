@@ -1,0 +1,1885 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:ad4:558f:0:b0:66d:158:b35e with SMTP id f15csp4388054qvx;
+        Tue, 17 Oct 2023 11:14:56 -0700 (PDT)
+X-Received: by 2002:ac2:4c4b:0:b0:507:b14e:b10d with SMTP id o11-20020ac24c4b000000b00507b14eb10dmr3067771lfk.66.1697566495893;
+        Tue, 17 Oct 2023 11:14:55 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1697566495; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=X6ZGAHWBuMuPICHiOVgE300IPUR9I4d05FQfYJWgI/wzv2BqACsHxYWPGXQT/hijMm
+         ilNvHgpzQlPfqTgK6o4hRd3kAallSABFSmsBu2wRBetrOAME0lhdj2O93OTFkIQvrrhD
+         K0hYdYFTgFQIVuDZ+a1ILiG9b5JL2qSroQeG2VcWuS3/YuJQAXThLLmspgy1CBsEWetB
+         J0pwA3bJuLOuepJ7pfI4RPzaASuvyZfQFZR9ZQ+qo0sLeGg/0I1jn5R7pRhteVgsCvRc
+         08hegHhvGcXz+p7PClsH3jwoK1ijT8EmIdGOdzy65zl9PVp4+v8HRT7FjCF4QIgfn1ZN
+         0umg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=nkR55oPYeYBgvNAoiSHTEYR5SNkRL5JiGXM3OYcRmOg=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=HIlM1AN4/j024sMmZHzUZTemIe/gs7NwzptrkP5a8iKhbZ4nGkRx7cwf+QrRPZNeQc
+         HtgCx04yHo/vRBAA336joRYJP0ZvuPCjfCclIuV9M3O0kIkg2zz2Fn94hMObcdq3GiRS
+         kalapMRe8cHehp3pkX9/7x0Lm/n+jaWpn2fned3Kk+XXGMA9dJlUVrMeXoHywgCREWdX
+         7xDM3lNysHuNykclPfAI0vEIqBA3TBJmqzDwqfPUgvlrKV72DeUYBn4cdnngeW65eRqK
+         ynXUDUOGCH8+M7AeafrpSDHt9+wrXjZqCUqvmyW1on5IVOYyZ02Jo63zKzOtxKnpM8lM
+         kM6g==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kVZTo4np;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j5-20020adfc685000000b0032d48353251sor82429wrg.8.2023.10.17.11.14.55
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 17 Oct 2023 11:14:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kVZTo4np;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1697566495; x=1698171295;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=nkR55oPYeYBgvNAoiSHTEYR5SNkRL5JiGXM3OYcRmOg=;
+        b=Mgyn82LIxcH0F4JU/U7Lf6nzQbzW3sOw12pODDDNQiYFr2VlWobloKE7+0Jras9/XJ
+         N0mzGjHm5XLa9J81qqd+ot+lA9LlYt3aT65V6AtoFlM/jTrAmk4/X759ii3J6EH2XxvV
+         Mpry2taMfGKhHriFhQTOtEue22SnThicqdBUQ/1+1FWRs6w8Bf26xM6sHPOkvt1M+b3d
+         qhE6DUCsLKicAIVKcvKymwyt4gtbd6vLd0Uhr/5SOhZGWUKka2PXR8dMNe5QGOBoQX4E
+         QLt6Zi0aW3+SPR3WD5LoEIH4ufXJ8Jg99crircJ112Ds6uxa+3TUOn2gQJ5cr0QeWQx6
+         eZPw==
+X-Gm-Message-State: AOJu0YyPNklCGsp2Sqem2QaDNUZW1CaLSLzYk4fajN7vEfJFf1c6WgdE
+	rz2N3ntPWfheba1pS1fNrI40phFX2rz+5LirR9oZ342kMdDzMF3Rbg==
+X-Received: by 2002:a5d:4d87:0:b0:32d:81fe:7104 with SMTP id b7-20020a5d4d87000000b0032d81fe7104mr2091965wru.63.1697566495327;
+        Tue, 17 Oct 2023 11:14:55 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:504e:0:b0:314:13a5:30c2 with SMTP id h14csp607919wrt;
+        Tue, 17 Oct 2023 11:14:52 -0700 (PDT)
+X-Received: by 2002:a0d:c807:0:b0:59f:687c:fb36 with SMTP id k7-20020a0dc807000000b0059f687cfb36mr3347657ywd.45.1697566492326;
+        Tue, 17 Oct 2023 11:14:52 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1697566492; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=OOKHvQYgd5C6h4RvJnlNxgLTtIR4hKU1xvp8AITMW6ZmQPstgNII5USaJfqd4kzGho
+         rPKsJxg5EsPbYA6Ia1HcgVh6B07zvLUlB3/gDa23ck9JuAFokM1X0NVR6/tkbM0tN3pU
+         DXDAmNGNeXFA0tzEDWuOv7q8AlzMYq4xdnRmUoYhS5iLUz+Fn/3Dr8sBcek2OOWySr+G
+         LcT14Hv2VkM665e9E/bM4AtxU63jD0sS1AZpibl+CK1Qb7KBmtNNE5ozokjdrsU9yl6O
+         HR2rHWyCXnG0okeVt/SoT0K69ZZRQ5IyQXDCHHHZYva1T4kDoYiFujmxUMyVS8vhHbHI
+         ybaA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=nkR55oPYeYBgvNAoiSHTEYR5SNkRL5JiGXM3OYcRmOg=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=LdRmRn6l4lPX8J/xaE8yBSrGu7+TlfujreoRXIiqTq346DYUQvFyUlIND1+9Xna01V
+         eHgzZbQTWQ/rqcHnshbLE+cGwWeVboUdONer+aSwExH4ku5Q1DaA0g9x4Q1OoySQ4Ih2
+         plWp4ZcIcDpmzycHEQOlXcfdbqWlnfwi60dORxnsQyWarB5HJ0Hwyfs4dHRrnu9E8ol/
+         eyYHSCUE6QupJ2FQpM8RbNrLa4Kr8sSdF0Hs17FuDFPUyUM7B7cwW7Oi74/MjZmIpkK5
+         RvR3eEzEiiirnJtsd9glrmEAGlACMvb9v2nm0Tfwiaw1UM+MoUuy/NORV2QpGrThi37I
+         Pu5Q==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kVZTo4np;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231017141450.33057398.256428@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231017141450.33057398.256428@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231017141450.33057398.256428@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j195-20020a8192cc000000b005a22f41fcfesor1127327ywg.11.2023.10.17.11.14.52
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 17 Oct 2023 11:14:52 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20231017141450.33057398.256428@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IHDEGEv6HvMs8kkPqo2RUghnTSc4L0VPW8SzTyA5ftnTsGEjjjLy5s6OccaugMtVIwydLB4jC4Ll6yOthbf108zuLPLrRU=
+X-Received: by 2002:a05:690c:dd1:b0:5a7:af97:c787 with SMTP id db17-20020a05690c0dd100b005a7af97c787mr3339893ywb.11.1697566491984;
+        Tue, 17 Oct 2023 11:14:51 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1697566491; cv=none;
+        d=google.com; s=arc-20160816;
+        b=bgptAksYyqMBaFcHAik5DtbML6xif8FBCTZSQjADMEbnmMQQbUj4QK6RLEiY/+YVcj
+         REIU4pirmoJh2hsYHAB7aJkSSbn1F8/jWg2yTmD2OnXOgdbCcODBdF8PW4gkVK5+AoPu
+         hZxLHwIOmF/5Cr56toQJ04m+zZsdhG7EBkSc674TGO65cynXpxBMBiYYQjX48hnpywzG
+         7Ji2h0Bfc4LgYFQ4nZTwnigGM4EoMIQtHDk5PGli04PeGVsJ3CZu2CdGrQWVsT2W+nVi
+         xLeEAGs/eN5/i54f7rGAzFZ4wO/XS+pF8Fxqob7nKbc9amzG0DKc8Cm3Q5Hr7CbFUmdW
+         nwcg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=nkR55oPYeYBgvNAoiSHTEYR5SNkRL5JiGXM3OYcRmOg=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=Jyf8ppUtSiKmU6yfJMHWjRV69HV4QaqDlDJctENZYyy7bMerrEaONY2B6Z6A1Q23m3
+         ncBx+W4kUKm1xX5hio78/n/AhzNImgwia+Bao3pZbLNDphq3zB0Qu8BTpGQYWyxEvaH9
+         lAMevnV4uQ5VpF0lRho1Nw3xyM/AFQipLLEh++NQ90rNh1mwlJcqj1lqshdUNnVG3I2b
+         c5WkoaR2QGcUdcufTWv2VLqKJEn0oZ/ezJbTk8BCGaEQg+lyetCGOAt0z/2MZCPWCkES
+         BanUKdoEE2YYOlEuspXXtmqnEt+lfVK2WrsZAzCLWmHMTPZANCjYc+N+uZ7JarLjVW3+
+         jG3g==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kVZTo4np;
+       spf=pass (google.com: domain of delivery_20231017141450.33057398.256428@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20231017141450.33057398.256428@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231017141450.33057398.256428@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id u204-20020a8179d5000000b005a7e4fb91b7si281603ywc.4.2023.10.17.11.14.51
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 17 Oct 2023 11:14:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20231017141450.33057398.256428@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=TJJOKvPTvHUpKbf9VGI4vtvZUllxvOC7dVlBIv2gHY8=;
+ b=kVZTo4npiVcsOskdeZARhM9l4dPVP7tIyC53B5HI7v4Q5y/n4Ab2KPbARg8kDyqBPFptRCHgfl5t
+   DHL/j0A966RHvL5pLDwrz+b+eBxunjTrp/jZ1LUmfmXu7aZwY5I0y2QzDkfaEj0oZoZF2jFdqIsx
+   Y2oFtUBi3UvmvHcrtIo=
+Received: from aws1-mta-relay9.sailthru.cloud (10.55.62.145) by pmta29.sailthru.com id h5r7hm2sd4s4 for <bloomberg@khamel.com>; Tue, 17 Oct 2023 13:14:50 -0500 (envelope-from <delivery_20231017141450.33057398.256428@mx.sailthru.com>)
+Date: Tue, 17 Oct 2023 14:14:50 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231017141450.33057398.256428@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IFlvdSBDYW7igJl0IFNl?=
+ =?utf-8?B?bGwgVHJlZXMgTm8gT25lIEN1dHMgRG93bg==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10858002_35877560.1697566490202"
+Precedence: bulk
+x-job: 6358-33057398-20231017
+X-Feedback-ID: 6358:33057398:campaign:sailthru
+X-TM-ID: 20231017141450.33057398.256428
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-80-231.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjoj92.5hv0/cbae47cc
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjoj92.5hv0/cbae47cc>, <mailto:unsubscribe_20231017141450.33057398.256428@mx.sailthru.com>
+X-rpcampaign: stjko33057398
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_10858002_35877560.1697566490202
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        There are, I think, three main ways to get into the business of sel=
+ling carbon offsets: You are an environmentalist: You want to avert clima
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Carbon offsets
+   =20
+ =20
+
+There are, I think, three main ways to get into the business of   selling c=
+arbon offsets:
+=09You are=C2=A0an environmentalist: You want to avert climate change, and =
+you think that the carbon offsets business is a good way to do it. Your mot=
+ives are essentially idealistic.=09You are   a logger: You own some timberl=
+and, you cut it down to make lumber or paper, you track the markets for lum=
+ber and paper closely, and you realize that the carbon offsets market will =
+pay you more for=C2=A0not=C2=A0cutting down trees than the lumber market wi=
+ll pay you for cutting them down. Your motives are straightforward and pric=
+e-based.=09You are a financial engineer: You are in the business of structu=
+ring financial products to address the perceived problems of people on both=
+ sides of the trade, and sitting in the middle and taking a cut. Your compe=
+titive position depends on coming up with creative new trades to propose, a=
+nd creative new ways to take your cut. Carbon credits =E2=80=94=C2=A0which =
+involve new and complicated accounting regimes, and which involve selling a=
+ product that you=C2=A0don=E2=80=99t=C2=A0create (emissions) to people who =
+don=E2=80=99t use it =E2=80=94=C2=A0are a particularly appealing generator =
+of financial engineering. Your motives are basically profit-oriented, thoug=
+h also somewhat aesthetic.=C2=A0
+
+=E2=80=9CESG Consultant But Evil," I have   sometimes called the last categ=
+ory.
+There has been a=C2=A0lot of reporting, over the years, about how a lot of =
+carbon offset projects are somewhat fake. In particular, a classic form of =
+carbon credits comes from designating some forest and promising not to cut =
+down the trees in that forest. That naturally leads to dubious accounting r=
+egimes: The cheapest way to generate those credits is by promising not to c=
+ut down trees that you wouldn=E2=80=99t have cut down anyway. And so there =
+are verification and auditing regimes that are basically about figuring out=
+ the baseline and making sure that people only get credits for not chopping=
+ down trees that would otherwise have been chopped down. But this is imperf=
+ect and game-able in various ways.
+If you run a carbon credits business, and it comes to your attention that s=
+ome of the credits that you are selling are fake =E2=80=94=C2=A0that you ar=
+e getting paid for not chopping down trees that would not have been chopped=
+ down anyway =E2=80=94=C2=A0what do you do about it? I think it sort of dep=
+ends on your original motivations:
+=09If you came to carbon credits as an environmentalist, then you will take=
+ this news badly. You might announce your findings, apologize, pay back the=
+ money and promise to do better. You might resign in a huff. Or you might n=
+ot. You might have=C2=A0come=C2=A0to the business as an environmentalist, b=
+ut it=E2=80=99s a good business. You might have gotten used to the money. Y=
+ou might say =E2=80=9Cehh it=E2=80=99s good enough.=E2=80=9D Or =E2=80=9Cye=
+s but we are making the world better by selling these credits, even if some=
+ of them are fake, and let=E2=80=99s not undermine that by admitting to the=
+ fakes.=E2=80=9D Your original idealistic principles might be compromised b=
+y contact with the real world, or with money.=09If you came to carbon credi=
+ts as a logger, you are just selling your trees to the highest bidder. You =
+don=E2=80=99t care if it=E2=80=99s for fake carbon credits or real carbon c=
+redits or pulp. This is a non-event.=09If you came to carbon credits as a f=
+inancial engineer, and you find out that you are getting paid for some pure=
+ accounting abstraction rather than for saving the world, you will be like =
+=E2=80=9Cyes, exactly.=E2=80=9D If you are an ESG Consultant But Evil, the =
+evil is part of the point.
+
+At the New Yorker, Heidi Blake=C2=A0has a wild story about a carbon credit =
+project in Zimbabwe. =E2=80=9CThe world=E2=80=99s largest carbon-offsetting=
+ firm, South Pole Holding AG,=E2=80=9D structured =E2=80=9Ca deal to sell c=
+arbon offsets from an effort to protect a vast swath of forest on the banks=
+ of Lake Kariba.=E2=80=9D South Pole signed the deal with the owner of the =
+forest, Steve Wentzel, =E2=80=9Ca former show jumper who had made a fortune=
+ in offshore finance and then started investing in gold mines.=E2=80=9D Sou=
+th Pole would sell the carbon credits to big companies that wanted to boast=
+ that they were carbon neutral; it would take a cut and send the rest of th=
+e money to Wentzel; he would take a cut and spend the rest of the money on=
+=C2=A0projects (=E2=80=9Cfarming activities, =E2=80=A6 new school huts and =
+clinics, anti-poaching patrols, and fire-suppression measures=E2=80=9D) to =
+encourage local development without deforestation.
+The thrust of the story is that (1) the money kind of disappeared and (2) a=
+ lot of the carbon credits turned out to be fake.=C2=A0But I also enjoyed t=
+he differing motives of the players.=C2=A0Renat Heuberger, the chief execut=
+ive officer of South Pole, is portrayed as someone who got into carbon cred=
+its because he was=C2=A0a committed environmentalist who wanted to change t=
+he world, but who got used to the way things are done. By the time he was=
+=C2=A0confronted with the carbon credits being fake, he didn=E2=80=99t care=
+:
+To Heuberger=E2=80=99s mind, the Kariba project was as good as it needed to=
+ be: =E2=80=9CIs it perfect? Is the guy a hundred per cent? Every dollar al=
+ways a hundred per cent?=E2=80=9D He shrugged. =E2=80=9CYou have to navigat=
+e your way around.=E2=80=9D
+This is a contrast to South Pole=E2=80=99s=C2=A0previous=C2=A0CEO, who deci=
+ded that carbon credits were fake and quit:
+=E2=80=9CI was building up this worry,=E2=80=9D he said. =E2=80=9CIt=E2=80=
+=99s just paper credits.=E2=80=9D He told me that he remained friends with =
+Heuberger, but did not share his encompassing faith in offsetting. =E2=80=
+=9CThe big majority of what you see in the market, in my view, boils down t=
+o a lot of greenwashing, a lot of marketing, a lot of money-making,=E2=80=
+=9D he said.=C2=A0
+Meanwhile Dirk Muench, Heuberger's friend from college, had gone off to be =
+an investment banker, got disillusioned and joined South Pole. He=C2=A0was=
+=C2=A0a financial engineer, but he got into the carbon credits racket as an=
+ idealist, and he seems to have stayed one: He got a bad feeling about the =
+Kariba project, investigated it, decided that the money was misplaced and t=
+he credits fake, and made trouble:
+On July 9th, Muench sent an e-mail to Heuberger and other executives, with =
+the subject line =E2=80=9CRed Flag.=E2=80=9D He reported that, after a long=
+ investigation, he could only conclude that most of the funds for the Karib=
+a project had gone astray. In private, he says, he urged Heuberger to admit=
+ the problems: =E2=80=9CWe need to come public before it is in the press.=
+=E2=80=9D
+And was ignored:
+Heuberger was disinclined to listen to Muench. =E2=80=9CHe=E2=80=99s very d=
+riven=E2=80=94the mind-set is totally on impact,=E2=80=9D Heuberger told me=
+. =E2=80=9CFor him, there=E2=80=99s only good and bad.=E2=80=9D South Pole =
+removed Muench from the inquiry into Wentzel=E2=80=99s finances, after whic=
+h =E2=80=9Cthe relationship and flow of information proved to be more produ=
+ctive again,=E2=80=9D the company said
+And then there is Wentzel, =E2=80=9Ca white Zimbabwean tycoon,=E2=80=9D who=
+ doesn=E2=80=99t care about any of this, got the Kariba land =E2=80=9Cas pa=
+yment for a debt,=E2=80=9D and is a fountain of gleefully cynical quotes:
+=E2=80=9CI don=E2=80=99t know anything,=E2=80=9D he said. =E2=80=9CI=E2=80=
+=99m not a tree scientist or anything like that.=E2=80=9D
+And, sure, he took a lot of money from South Pole without being able to acc=
+ount for how it was spent, but, see, that was on purpose:=C2=A0
+
+Years of political and economic instability had made it too precarious to b=
+ank in Zimbabwe, he said, and transferring money to a sanctioned state from=
+ Guernsey was a bureaucratic headache: =E2=80=9CDo you know how much compli=
+ance I had to go through to just have one transaction?=E2=80=9D So he had d=
+evised an untraceable way of moving the funds. =E2=80=9CIt was illegal,=E2=
+=80=9D he acknowledged, =E2=80=9Cbut it got looked over.=E2=80=9D=C2=A0=E2=
+=80=A6
+=E2=80=9CThis looks really bad, because you=E2=80=99re just sending money h=
+ere, there, and everywhere, but, on the receiving side, I can show where we=
+=E2=80=99ve got it,=E2=80=9D he told me. =E2=80=9CWell, I can show you the =
+bundles of cash on the floor.=E2=80=9D When payments arrived, he said, he w=
+ould =E2=80=9Cgrab the money and run with it,=E2=80=9D distributing it amon=
+g the stakeholders in the project. =E2=80=9CFor any kind of European or Ame=
+rican, that=E2=80=99s not comprehensible,=E2=80=9D he said. =E2=80=9CHow ma=
+ny Western people have carried half a million dollars of cash in their hand=
+?=E2=80=9D
+Wentzel=E2=80=99s demeanor seemed to lighten as he unburdened himself, and =
+he began to stage a mock interrogation. =E2=80=9CCan I see the=C2=A0swift?=
+=E2=80=9D he boomed, referring to the code that banks use for international=
+ payments. =E2=80=9CThe money got there swiftly, but I can=E2=80=99t tell y=
+ou what the=C2=A0swift=C2=A0was.=E2=80=9D Suddenly his waggish smile gave w=
+ay to a frown. =E2=80=9CI don=E2=80=99t know what you=E2=80=99re going to r=
+eport on this, and I hope to God it=E2=80=99s not all of it, because I prob=
+ably will go to jail,=E2=80=9D he said. Then he reassured himself. =E2=80=
+=9CI=E2=80=99ll go to jail for the right reasons,=E2=80=9D he said. =E2=80=
+=9CSavior or villain? I=E2=80=99m right in the damned middle. And I=E2=80=
+=99m happy to be that way.=E2=80=9D
+
+I sometimes talk around here about not putting compromising things in email=
+, but if you are going around telling a New Yorker=C2=A0reporter, on the re=
+cord, =E2=80=9CI=C2=A0don=E2=80=99t know what you=E2=80=99re going to repor=
+t on this, and I hope to God it=E2=80=99s not all of it, because I probably=
+ will go to jail,=E2=80=9D you are far beyond my power to help or harm you.=
+ I bet that guy will be fine. Also: =E2=80=9CA hundred thousand dollars is =
+only as big as a brick,=E2=80=9D he tells Blake. =E2=80=9CIt=E2=80=99s not =
+difficult to carry it around.=E2=80=9D
+Anyway that=E2=80=99s the money. The bigger problem at Kariba, arguably, is=
+ that some of the carbon credits were fake. What that means specifically is=
+ that the project was registered with Verra, a nonprofit that serves as=C2=
+=A0=E2=80=9Cthe primary standard-setter of the voluntary carbon trade,=E2=
+=80=9D which has a methodology to determine if a project is actually preser=
+ving trees:
+To register the Kariba project with Verra, South Pole had to predict how mu=
+ch of the forest would be lost without any intervention, and thus determine=
+ how much carbon the scheme would conserve over a thirty-year life span. Cr=
+edits would be issued every year against that total, and the prediction wou=
+ld be checked once a decade, by comparing Kariba with an unguarded referenc=
+e area nearby. =E2=80=A6=C2=A0On that basis, the project would be eligible =
+for almost two hundred million credits.
+And so they went out and sold lots of=C2=A0credits. But then when they chec=
+ked, years later, they found that they had sold too many, because Kariba ha=
+d not had nearly the effects they had calculated, in part because it lost s=
+ome trees but mostly because the reference forest did not:
+Project monitors had surveyed the site and found fewer trees than South Pol=
+e planned to claim credit for. Then [South Pole co-founder Christian] Danne=
+cker learned something even more alarming: the rate of forest loss in the p=
+roject=E2=80=99s reference region=E2=80=94the benchmark against which its s=
+uccess would be measured=E2=80=94was starkly lower than projected. The wave=
+ of deforestation that South Pole=E2=80=99s efforts were supposed to preven=
+t was looking more like a trickle, which could significantly diminish the v=
+alue of the project.
+The problem with this anti-deforestation project was that there was=C2=A0to=
+o little deforestation. That seems good? For the climate? But bad for the p=
+eople hawking carbon credits. The idealistic Muench pointed out the problem=
+, and the now-jaded Heuberger was like =E2=80=9Cmeh still fine=E2=80=9D:
+Muench and another executive urged Heuberger to stop selling offsets from t=
+he Kariba project immediately. =E2=80=9CIf it comes out that we=E2=80=99ve =
+knowingly sold credits that weren=E2=80=99t equivalent to a ton of CO2=C2=
+=A0emissions avoided, it would do huge damage,=E2=80=9D Muench said. Heuber=
+ger rejected that idea. The credits had been validated by Verra, he argued:=
+ =E2=80=9CIf you want to scale, you have to rely on certain rules and syste=
+ms.=E2=80=9D
+And there was a staff meeting that really got to the heart of the problem:
+
+=E2=80=9CAre the Kariba credits based on reality?=E2=80=9D one staffer aske=
+d.
+=E2=80=9CI give the question back: What is reality?=E2=80=9D Dannecker snap=
+ped.
+South Pole=E2=80=99s head of U.S. sales tried again: =E2=80=9CWe have clien=
+ts coming to us saying, =E2=80=98Hey, the credits that you sold us, that im=
+pact that we claimed, did that actually happen? Yes or no?=E2=80=99=C2=A0=
+=E2=80=9D
+A public-affairs executive intervened: =E2=80=9CWhich is why we=E2=80=99re =
+holding the current verification at the moment=E2=80=94because we want to m=
+ake sure that that is the case.=E2=80=9D
+=E2=80=9CHow much profit has South Pole made by selling Kariba credits?=E2=
+=80=9D another staffer asked.
+=E2=80=9CI didn=E2=80=99t do the numbers, to be honest,=E2=80=9D Dannecker =
+replied. =E2=80=9CI guess we probably made ten million dollars.=E2=80=9D Th=
+ere were audible gasps, before another executive warned, =E2=80=9CTo be cle=
+ar, we don=E2=80=99t want to repeat that publicly.=E2=80=9D
+
+I hesitate to point it out, but I am a financial engineer at heart, and=C2=
+=A0there is a solution here. The essential problem with Kariba is not that =
+the trees in the protected forest were cut down: They mostly weren=E2=80=99=
+t. The problem is that the trees in the unprotected reference=C2=A0forest=
+=C2=A0also weren=E2=80=99t cut down. Simply speaking, the carbon impact of =
+the Kariba project is calculated by (1) adding up the trees in Kariba that =
+were not cut down and (2) subtracting the trees in the reference forest tha=
+t were not cut down. If Kariba was perfectly preserved and the reference fo=
+rest was razed to the ground, then Kariba did a good job of protecting tree=
+s in a dangerous neighborhood for trees. If Kariba was perfectly preserved =
+and the reference forest was=C2=A0also=C2=A0perfectly preserved, then Karib=
+a had no real effect on emissions.
+You see the solution, right? The solution is: You are a shady guy anyway, y=
+ou do lots of stuff off the books, you have access to a poorly paid local w=
+orkforce who want to continue getting the economic benefits of the carbon c=
+redit project,=C2=A0you hand them a brick of cash to burn down the referenc=
+e forest.
+More generally the optimal way to do carbon offsets is:
+=09You set up an entity called like Green Niceness that buys a forest and p=
+romises to preserve it.=09You have your buddy set up an entity called Nasty=
+ Lumber LLC, with no traceable ties to you or Green Niceness, that buys a n=
+earby forest.=09You get Green Niceness=E2=80=99s forest certified as a carb=
+on offset project, with Nasty Lumber=E2=80=99s forest as the reference fore=
+st.=09Green Niceness puts a fence around its trees; Nasty Lumber deforests =
+as fast as it can.=09Green Niceness makes a lot of money selling carbon cre=
+dits; Nasty Lumber probably makes some money selling lumber.=09You split th=
+e profits by passing around=C2=A0bricks of cash.
+
+I mean, not optimal for the world or anything, just optimal for you.=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      The CEO of Goldman Sachs is no longer a DJ
+   =20
+ =20
+
+For a while   there seemed to be a small but real and hilarious chance that=
+ David Solomon, the chief executive officer of Goldman Sachs Group Inc.,
+  [1]
+ who is also a DJ, might lose his job, as CEO of Goldman Sachs, because he =
+is a DJ. The  New York Times reported on the  conflicts of interest arising=
+ from Solomon=E2=80=99s CEOing and DJing, somehow. The  Wall Street Journal=
+ reported on Goldman partners plotting=C2=A0mutinies, =E2=80=9Csaying it wa=
+sn=E2=80=99t a good look for the CEO of one of Wall Street=E2=80=99s most f=
+ormidable firms [to also be a DJ].=E2=80=9D=C2=A0
+And now  the Financial Times reports that, in fact, Solomon has resolved th=
+ese conflicts by stepping down from his job. As a DJ. He=E2=80=99s still=C2=
+=A0the CEO of Goldman Sachs. But not also a DJ:
+
+Goldman Sachs chief executive David Solomon has decided to stop DJing at hi=
+gh-profile events following criticism that his hobby created a distraction =
+from his work leading the Wall Street firm, according to people with knowle=
+dge of the decision.=C2=A0
+What started as a colourful side hustle that softened Solomon=E2=80=99s pub=
+lic image became a lightning rod for criticism of him inside Goldman from b=
+ankers disgruntled over strategic mis-steps and lower pay.=C2=A0
+Solomon, 61, made the decision to pull back from DJing about a year ago bec=
+ause it generated unwanted media attention, the people said.=C2=A0
+The last notable event where Solomon DJed was in July 2022 at Lollapalooza,=
+ a four-day music festival in Chicago.=C2=A0
+Following a request for comment, Goldman spokesman Tony Fratto said: =E2=80=
+=9CThis is not news. David hasn=E2=80=99t publicly DJed an event in well ov=
+er a year, which we have confirmed multiple times in the past.=E2=80=9D=C2=
+=A0
+
+Does he still DJ birthday parties? Client meetings? Are there secret underg=
+round clubs deep in Bushwick throwing 3 a.m. raves where David Solomon DJs =
+to a small but enthusiastic crowd of electonic-music cognoscenti? No.=C2=A0=
+Anyway I am going to forget about this immediately and continue to tell eve=
+ryone that the CEO of Goldman Sachs is also a DJ.
+
+ =20
+   =20
+      Ozempic is great for business
+   =20
+ =20
+
+Last week  I wrote about a hypothetical =E2=80=9Cdrug that reduces consumpt=
+ion in general, a universal demand suppressant,=E2=80=9D which would be goo=
+d for the profits of the drug company that invented it (it could sell a lot=
+ of pills) but bad for all the other companies. In a world of universal own=
+ership of the stock market, where most public companies are largely owned b=
+y the same big institutional investors, this would create an interesting te=
+nsion: The company that invented the drug would want to sell a lot of it, t=
+o raise its own profits, but that company=E2=80=99s=C2=A0owners=C2=A0=E2=80=
+=94=C2=A0the universal shareholders =E2=80=94=C2=A0would=C2=A0not=C2=A0want=
+ that, because, as diversified investors, they would lose more from their o=
+ther companies than they would gain from the drug company.
+This was of course inspired by Ozempic, Wegovy and Mounjaro, the new class =
+of weight-loss and, like, impulse-control drugs. But only loosely inspired =
+by them. For one thing, those drugs  do not=C2=A0really=C2=A0reduce demand =
+universally: They will probably lead to reduced spending on snack foods and=
+ cigarettes, but people will still want to do other stuff, and they=E2=80=
+=99ll be healthier and live longer and so probably consume more overall. (J=
+osh Barro is even more optimistic about their effects, writing that =E2=80=
+=9Cthey improve humans=E2=80=99 natural intelligence along at least one dim=
+ension and probably several. I think that=E2=80=99s extremely exciting and =
+a much better candidate for singularly-important-technological-advance-of-o=
+ur-time than AI.=E2=80=9D)
+For another thing, though, the companies that make these drugs have unusual=
+ ownership structures. They are not mainly owned by the usual universal own=
+ers, BlackRock=C2=A0and Vanguard=C2=A0and Fidelity and State Street. Here i=
+s a=C2=A0Wall Street Journal story=C2=A0on their biggest owners:
+
+Two nonprofit foundations are large shareholders of Eli Lilly and Novo Nord=
+isk, the companies selling the drugs Ozempic, Wegovy and Mounjaro popularly=
+ used to reduce weight. Thanks to the drugs=E2=80=99 skyrocketing sales, th=
+e foundations=E2=80=99 stakes have surged in value, creating windfalls that=
+ are reshaping charitable giving.
+The philanthropies are now among the biggest in the world, with the Novo No=
+rdisk Foundation counting $114 billion in assets and Lilly Endowment quadru=
+pling in value to $40 billion. The Lilly Endowment is the second largest U.=
+S. foundation, behind the Bill & Melinda Gates Foundation=E2=80=94and its $=
+53 billion in assets=E2=80=94but ahead of the Ford Foundation and the J. Pa=
+ul Getty Trust, according to FoundationMark data provider.
+With their newfound anti-obesity riches, the foundations have been expandin=
+g their ranks and increasing their donations by hundreds of millions of dol=
+lars a year. =E2=80=A6
+The enrichment of the foundations is a product of the unusual ownership str=
+uctures of the two drugmakers. Their large ownership stakes, which date bac=
+k decades, have helped insulate the drugmakers from the daily whims of shar=
+eholders.=C2=A0
+The Lilly Endowment=E2=80=99s 11% stake makes it Eli Lilly=E2=80=99s bigges=
+t shareholder. The Novo Nordisk Foundation owns more than one-fourth of Nov=
+o Nordisk shares and majority voting control of the drugmaker. The Lilly En=
+dowment operates independently from Eli Lilly, while the Novo foundation is=
+ more intertwined with Novo Nordisk as its controlling shareholder.
+
+I suppose this means that, if Eli Lilly or Novo Nordisk=C2=A0does=C2=A0disc=
+over a drug that is good for humanity but bad for the stock market, they wi=
+ll be inclined to market it anyway.=C2=A0
+
+ =20
+   =20
+      Drug cartel compliance
+   =20
+ =20
+
+We have   talked a few   times around   here about the compliance function =
+at ransomware hacking firms. In general, any sort of firm will have to deci=
+de what level of crime it is optimal to commit. For a normal=C2=A0company, =
+I think the conventional wisdom is that the optimal level of crime is low, =
+but probably slightly higher than=C2=A0zero. Meanwhile,   I wrote:
+What if your company=E2=80=99s business is crime? What if you are a Mafia f=
+amily, or a ransomware hacking group? Clearly the optimal level of crime is=
+ not zero: If your business is crime, you have to do crime to get revenue. =
+But the optimal level of crime is also not infinite: If you do too many cri=
+mes, or crimes that are too bad, you will get in too much trouble. Doing mo=
+re and bigger crimes should increase your crime-based revenue, but it also =
+increases the resources that officials will expend on trying to shut you do=
+wn, and thus your risks of being stopped and punished. At some point the li=
+nes cross, and you should forego some criminal revenue in order to keep you=
+r legal risk manageable.
+Well, here is a  Wall Street Journal story about how the Sinaloa drug carte=
+l=E2=80=99s compliance team has decided that the optimal level of illegal d=
+rug trafficking is =E2=80=9Cnot fentanyl=E2=80=9D:
+
+The Sinaloa cartel, the leading exporter of fentanyl to the U.S., is prohib=
+iting the production and trafficking of the illegal opioid in its territory=
+ after coming under increasing pressure from U.S. law enforcement, cartel m=
+embers say. =E2=80=A6
+A midlevel Sinaloa cartel operative, who used to deal in chemical precursor=
+s needed to make the synthetic opioid, said the Chapitos are leaving the bu=
+siness in part because they wanted the U.S. to shift its crackdown efforts =
+to the Jalisco New Generation Cartel, their chief rival and another leading=
+ fentanyl producer.
+Exports of cocaine, heroin and methamphetamine to the U.S. will likely rise=
+ in the near future to make up for the income shortfall from the fentanyl b=
+an, cartel members say.
+
+You will not be surprised to learn that the punishment for cartel=C2=A0empl=
+oyees who violate this order is not a negative note in their personnel file=
+. The optimal amount of crime for the Sinaloa drug cartel apparently contin=
+ues to include quite a lot of murder.
+
+ =20
+   =20
+      Meal allowances
+   =20
+ =20
+
+Speaking of the optimal level of crime at normal companies. I   wrote yeste=
+rday about hypothetical abuses of investment bank meal allowances. I propos=
+ed a few, and ended with =E2=80=9COr you do one of the seven more creative =
+minor abuses that my readers are going to email me about today.=E2=80=9D He=
+re are two. First:
+I eat a big lunch, but not a huge dinner. So the $45 we get for dinner does=
+n't do much for me. What I do is go to our local food court, buy my $15 sal=
+ad, and then tip the guy the remaining $30. The next day, when I'm getting =
+lunch, the guy will conveniently "forget" to ring up half the items.=C2=A0
+Principal/agent problems on=C2=A0both=C2=A0sides, love it. And:
+At [one firm], it was very common for senior employees to have a waiter cha=
+nge the =E2=80=9Cnumber of guests=E2=80=9D that often appears on a receipt =
+to, say, =E2=80=9C14 people=E2=80=9D and claim employees or clients were at=
+ dinner when it was really just 2 guys racking up a $2000 bar tab at a Tues=
+day.=C2=A0
+That=E2=80=99s like =E2=80=A6=C2=A0kind of a medium-level abuse?
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+ Long-End Treasuries Hit by Wildest Swings Since 2020 Pandemic.=C2=A0 Home =
+Sales on Track for Slowest Year Since Housing Bust. Real Estate Brokers Poc=
+keting Up to 6% in Fees Draw   Antitrust Scrutiny.   Goldman Traders Soften=
+ Blow From Real Estate Hit, Strategy Shift.=C2=A0BofA=E2=80=99s Profit Tops=
+ Estimates on Trading, Net Interest Income.=C2=A0Country Garden Bondholders=
+ Yet to Get Interest as Deadline Looms. Risk-Advisory Firms Decide  Hong Ko=
+ng Isn=E2=80=99t Worth It. Tucker Carlson=E2=80=99s Media Company Secures I=
+nvestment Led by New  =E2=80=98Anti-Woke=E2=80=99 Firm 1789 Capital. Mexico=
+ revives century-old railway in $2.8bn bid to  rival Panama Canal. Dalio=E2=
+=80=99s   Abu Dhabi Penthouse Shows Rise of New Hedge Fund Hubs.=C2=A0Sanct=
+ioned Billionaire Fridman Able to   Take the Bus, UK Says.=C2=A0It=E2=80=99=
+s Getting Too Expensive to  Have Fun.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Disclosure, where I used to work.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjoj92.5hv0/345efa46.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_10858002_35877560.1697566490202
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+There are, I think, three main ways to get into the business of selling car=
+bon offsets: You are an environmentalist: You want to avert clima
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMDE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMTcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBe7a3a510"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzA1NzM5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMzMTM4MjYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBd30a0ea6" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33057398&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33313826&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Carbon offsets</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">There are, I think, three main ways to get int=
+o the business of <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+33057398.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMjEtMDQtMjEveW91LWNhbi1zZWxsLXRoZS10cmVlcy15b3UtZG9uLXQtY3V0P2NtcGlkPUJCRD=
+EwMTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJ=
+nV0bV90ZXJtPTIzMTAxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a=
+23cBa14147ed" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  selling carbon offsets</a>:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You are=C2=A0an environmentalist: You=
+ want to avert climate change, and you think that the carbon offsets busine=
+ss is a good way to do it. Your motives are essentially idealistic.</li>=09=
+<li style=3D"margin-bottom: 5px;">You are <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/33057398.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjMtMDQtMTgvcHVycGxlLWR1bXBzLWl0cy1wcnBscz9jbXBpZD=
+1CQkQxMDE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xld=
+HRlciZ1dG1fdGVybT0yMzEwMTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524=
+a319a23cB491a6f29" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">  a logger</a>: You own some timberland, you cut=
+ it down to make lumber or paper, you track the markets for lumber and pape=
+r closely, and you realize that the carbon offsets market will pay you more=
+ for=C2=A0<em>not=C2=A0</em>cutting down trees than the lumber market will =
+pay you for cutting them down. Your motives are straightforward and price-b=
+ased.</li>=09<li style=3D"margin-bottom: 5px;">You are a financial engineer=
+: You are in the business of structuring financial products to address the =
+perceived problems of people on both sides of the trade, and sitting in the=
+ middle and taking a cut. Your competitive position depends on coming up wi=
+th creative new trades to propose, and creative new ways to take your cut. =
+Carbon credits =E2=80=94=C2=A0which involve new and complicated accounting =
+regimes, and which involve selling a product that you=C2=A0don=E2=80=99t=C2=
+=A0create (emissions) to people who don=E2=80=99t use it =E2=80=94=C2=A0are=
+ a particularly appealing generator of financial engineering. Your motives =
+are basically profit-oriented, though also somewhat aesthetic.=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">=E2=80=9CESG Consultant But Evil," I have <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTUvbWF0dC1sZ=
+XZpbmUtcy1tb25leS1zdHVmZi1iaW5hbmNlLWZ0eC1hbmQtY2Fycz9jbXBpZD1CQkQxMDE3MjNf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMzEwMTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB1d4ab=
+c03" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  sometimes called</a> the last category.</p>
+<p style=3D"margin: 16px 0;">There has been a=C2=A0<em>lot</em> of reportin=
+g, over the years, about how a lot of carbon offset projects are somewhat f=
+ake. In particular, a classic form of carbon credits comes from designating=
+ some forest and promising not to cut down the trees in that forest. That n=
+aturally leads to dubious accounting regimes: The cheapest way to generate =
+those credits is by promising not to cut down trees that you wouldn=E2=80=
+=99t have cut down anyway. And so there are verification and auditing regim=
+es that are basically about figuring out the baseline and making sure that =
+people only get credits for not chopping down trees that would otherwise ha=
+ve been chopped down. But this is imperfect and game-able in various ways.<=
+/p>
+<p style=3D"margin: 16px 0;">If you run a carbon credits business, and it c=
+omes to your attention that some of the credits that you are selling are fa=
+ke =E2=80=94=C2=A0that you are getting paid for not chopping down trees tha=
+t would not have been chopped down anyway =E2=80=94=C2=A0what do you do abo=
+ut it? I think it sort of depends on your original motivations:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If you came to carbon credits as an e=
+nvironmentalist, then you will take this news badly. You might announce you=
+r findings, apologize, pay back the money and promise to do better. You mig=
+ht resign in a huff. Or you might not. You might have=C2=A0<em>come=C2=A0</=
+em>to the business as an environmentalist, but it=E2=80=99s a good business=
+. You might have gotten used to the money. You might say =E2=80=9Cehh it=E2=
+=80=99s good enough.=E2=80=9D Or =E2=80=9Cyes but we are making the world b=
+etter by selling these credits, even if some of them are fake, and let=E2=
+=80=99s not undermine that by admitting to the fakes.=E2=80=9D Your origina=
+l idealistic principles might be compromised by contact with the real world=
+, or with money.</li>=09<li style=3D"margin-bottom: 5px;">If you came to ca=
+rbon credits as a logger, you are just selling your trees to the highest bi=
+dder. You don=E2=80=99t care if it=E2=80=99s for fake carbon credits or rea=
+l carbon credits or pulp. This is a non-event.</li>=09<li style=3D"margin-b=
+ottom: 5px;">If you came to carbon credits as a financial engineer, and you=
+ find out that you are getting paid for some pure accounting abstraction ra=
+ther than for saving the world, you will be like =E2=80=9Cyes, exactly.=E2=
+=80=9D If you are an ESG Consultant But Evil, the evil is part of the point=
+.</li>
+</ol>
+<p style=3D"margin: 16px 0;">At the New Yorker, Heidi Blake=C2=A0<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/33057398.256428/aHR0cHM6Ly93=
+d3cubmV3eW9ya2VyLmNvbS9tYWdhemluZS8yMDIzLzEwLzIzL3RoZS1ncmVhdC1jYXNoLWZvci1=
+jYXJib24taHVzdGxl/607f07ceef4b8524a319a23cB3a3ca12f" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">has a wild sto=
+ry about a carbon credit project in Zimbabwe</a>. =E2=80=9CThe world=E2=80=
+=99s largest carbon-offsetting firm, South Pole Holding AG,=E2=80=9D struct=
+ured =E2=80=9Ca deal to sell carbon offsets from an effort to protect a vas=
+t swath of forest on the banks of Lake Kariba.=E2=80=9D South Pole signed t=
+he deal with the owner of the forest, Steve Wentzel, =E2=80=9Ca former show=
+ jumper who had made a fortune in offshore finance and then started investi=
+ng in gold mines.=E2=80=9D South Pole would sell the carbon credits to big =
+companies that wanted to boast that they were carbon neutral; it would take=
+ a cut and send the rest of the money to Wentzel; he would take a cut and s=
+pend the rest of the money on=C2=A0projects (=E2=80=9Cfarming activities, =
+=E2=80=A6 new school huts and clinics, anti-poaching patrols, and fire-supp=
+ression measures=E2=80=9D) to encourage local development without deforesta=
+tion.</p>
+<p style=3D"margin: 16px 0;">The thrust of the story is that (1) the money =
+kind of disappeared and (2) a lot of the carbon credits turned out to be fa=
+ke.=C2=A0But I also enjoyed the differing motives of the players.=C2=A0Rena=
+t Heuberger, the chief executive officer of South Pole, is portrayed as som=
+eone who got into carbon credits because he was=C2=A0a committed environmen=
+talist who wanted to change the world, but who got used to the way things a=
+re done. By the time he was=C2=A0confronted with the carbon credits being f=
+ake, he didn=E2=80=99t care:</p>
+<blockquote><p style=3D"margin: 16px 0;">To Heuberger=E2=80=99s mind, the K=
+ariba project was as good as it needed to be: =E2=80=9CIs it perfect? Is th=
+e guy a hundred per cent? Every dollar always a hundred per cent?=E2=80=9D =
+He shrugged. =E2=80=9CYou have to navigate your way around.=E2=80=9D</p></b=
+lockquote>
+<p style=3D"margin: 16px 0;">This is a contrast to South Pole=E2=80=99s=C2=
+=A0<em>previous=C2=A0</em>CEO, who decided that carbon credits were fake an=
+d quit:</p>
+<blockquote><p style=3D"margin: 16px 0;">=E2=80=9CI was building up this wo=
+rry,=E2=80=9D he said. =E2=80=9CIt=E2=80=99s just paper credits.=E2=80=9D H=
+e told me that he remained friends with Heuberger, but did not share his en=
+compassing faith in offsetting. =E2=80=9CThe big majority of what you see i=
+n the market, in my view, boils down to a lot of greenwashing, a lot of mar=
+keting, a lot of money-making,=E2=80=9D he said.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">Meanwhile Dirk Muench, Heuberger's friend from=
+ college, had gone off to be an investment banker, got disillusioned and jo=
+ined South Pole. He=C2=A0<em>was=C2=A0</em>a financial engineer, but he got=
+ into the carbon credits racket as an idealist, and he seems to have stayed=
+ one: He got a bad feeling about the Kariba project, investigated it, decid=
+ed that the money was misplaced and the credits fake, and made trouble:</p>
+<blockquote><p style=3D"margin: 16px 0;">On July 9th, Muench sent an e-mail=
+ to Heuberger and other executives, with the subject line =E2=80=9CRed Flag=
+.=E2=80=9D He reported that, after a long investigation, he could only conc=
+lude that most of the funds for the Kariba project had gone astray. In priv=
+ate, he says, he urged Heuberger to admit the problems: =E2=80=9CWe need to=
+ come public before it is in the press.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">And was ignored:</p>
+<blockquote><p style=3D"margin: 16px 0;">Heuberger was disinclined to liste=
+n to Muench. =E2=80=9CHe=E2=80=99s very driven=E2=80=94the mind-set is tota=
+lly on impact,=E2=80=9D Heuberger told me. =E2=80=9CFor him, there=E2=80=99=
+s only good and bad.=E2=80=9D South Pole removed Muench from the inquiry in=
+to Wentzel=E2=80=99s finances, after which =E2=80=9Cthe relationship and fl=
+ow of information proved to be more productive again,=E2=80=9D the company =
+said</p></blockquote>
+<p style=3D"margin: 16px 0;">And then there is Wentzel, =E2=80=9Ca white Zi=
+mbabwean tycoon,=E2=80=9D who doesn=E2=80=99t care about any of this, got t=
+he Kariba land =E2=80=9Cas payment for a debt,=E2=80=9D and is a fountain o=
+f gleefully cynical quotes:</p>
+<blockquote><p style=3D"margin: 16px 0;">=E2=80=9CI don=E2=80=99t know anyt=
+hing,=E2=80=9D he said. =E2=80=9CI=E2=80=99m not a tree scientist or anythi=
+ng like that.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">And, sure, he took a lot of money from South P=
+ole without being able to account for how it was spent, but, see, that was =
+on purpose:=C2=A0</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Years of political and economic instability ha=
+d made it too precarious to bank in Zimbabwe, he said, and transferring mon=
+ey to a sanctioned state from Guernsey was a bureaucratic headache: =E2=80=
+=9CDo you know how much compliance I had to go through to just have one tra=
+nsaction?=E2=80=9D So he had devised an untraceable way of moving the funds=
+. =E2=80=9CIt was illegal,=E2=80=9D he acknowledged, =E2=80=9Cbut it got lo=
+oked over.=E2=80=9D=C2=A0=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThis looks really bad, because you=E2=
+=80=99re just sending money here, there, and everywhere, but, on the receiv=
+ing side, I can show where we=E2=80=99ve got it,=E2=80=9D he told me. =E2=
+=80=9CWell, I can show you the bundles of cash on the floor.=E2=80=9D When =
+payments arrived, he said, he would =E2=80=9Cgrab the money and run with it=
+,=E2=80=9D distributing it among the stakeholders in the project. =E2=80=9C=
+For any kind of European or American, that=E2=80=99s not comprehensible,=E2=
+=80=9D he said. =E2=80=9CHow many Western people have carried half a millio=
+n dollars of cash in their hand?=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Wentzel=E2=80=99s demeanor seemed to lighten a=
+s he unburdened himself, and he began to stage a mock interrogation. =E2=80=
+=9CCan I see the=C2=A0<em>swift</em>?=E2=80=9D he boomed, referring to the =
+code that banks use for international payments. =E2=80=9CThe money got ther=
+e swiftly, but I can=E2=80=99t tell you what the=C2=A0<em>swift</em>=C2=A0w=
+as.=E2=80=9D Suddenly his waggish smile gave way to a frown. =E2=80=9CI don=
+=E2=80=99t know what you=E2=80=99re going to report on this, and I hope to =
+God it=E2=80=99s not all of it, because I probably will go to jail,=E2=80=
+=9D he said. Then he reassured himself. =E2=80=9CI=E2=80=99ll go to jail fo=
+r the right reasons,=E2=80=9D he said. =E2=80=9CSavior or villain? I=E2=80=
+=99m right in the damned middle. And I=E2=80=99m happy to be that way.=E2=
+=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I sometimes talk around here about not putting=
+ compromising things in email, but if you are going around telling a New Yo=
+rker=C2=A0reporter, on the record, =E2=80=9CI=C2=A0don=E2=80=99t know what =
+you=E2=80=99re going to report on this, and I hope to God it=E2=80=99s not =
+all of it, because I probably will go to jail,=E2=80=9D you are far beyond =
+my power to help or harm you. I bet that guy will be fine. Also: =E2=80=9CA=
+ hundred thousand dollars is only as big as a brick,=E2=80=9D he tells Blak=
+e. =E2=80=9CIt=E2=80=99s not difficult to carry it around.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Anyway that=E2=80=99s the money. The bigger pr=
+oblem at Kariba, arguably, is that some of the carbon credits were fake. Wh=
+at that means specifically is that the project was registered with Verra, a=
+ nonprofit that serves as=C2=A0=E2=80=9Cthe primary standard-setter of the =
+voluntary carbon trade,=E2=80=9D which has a methodology to determine if a =
+project is actually preserving trees:</p>
+<blockquote><p style=3D"margin: 16px 0;">To register the Kariba project wit=
+h Verra, South Pole had to predict how much of the forest would be lost wit=
+hout any intervention, and thus determine how much carbon the scheme would =
+conserve over a thirty-year life span. Credits would be issued every year a=
+gainst that total, and the prediction would be checked once a decade, by co=
+mparing Kariba with an unguarded reference area nearby. =E2=80=A6=C2=A0On t=
+hat basis, the project would be eligible for almost two hundred million cre=
+dits.</p></blockquote>
+<p style=3D"margin: 16px 0;">And so they went out and sold lots of=C2=A0cre=
+dits. But then when they checked, years later, they found that they had sol=
+d too many, because Kariba had not had nearly the effects they had calculat=
+ed, in part because it lost some trees but mostly because the reference for=
+est did not:</p>
+<blockquote><p style=3D"margin: 16px 0;">Project monitors had surveyed the =
+site and found fewer trees than South Pole planned to claim credit for. The=
+n [South Pole co-founder Christian] Dannecker learned something even more a=
+larming: the rate of forest loss in the project=E2=80=99s reference region=
+=E2=80=94the benchmark against which its success would be measured=E2=80=94=
+was starkly lower than projected. The wave of deforestation that South Pole=
+=E2=80=99s efforts were supposed to prevent was looking more like a trickle=
+, which could significantly diminish the value of the project.</p></blockqu=
+ote>
+<p style=3D"margin: 16px 0;">The problem with this anti-deforestation proje=
+ct was that there was=C2=A0<em>too little deforestation</em>. That seems go=
+od? For the climate? But bad for the people hawking carbon credits. The ide=
+alistic Muench pointed out the problem, and the now-jaded Heuberger was lik=
+e =E2=80=9Cmeh still fine=E2=80=9D:</p>
+<blockquote><p style=3D"margin: 16px 0;">Muench and another executive urged=
+ Heuberger to stop selling offsets from the Kariba project immediately. =E2=
+=80=9CIf it comes out that we=E2=80=99ve knowingly sold credits that weren=
+=E2=80=99t equivalent to a ton of CO2=C2=A0emissions avoided, it would do h=
+uge damage,=E2=80=9D Muench said. Heuberger rejected that idea. The credits=
+ had been validated by Verra, he argued: =E2=80=9CIf you want to scale, you=
+ have to rely on certain rules and systems.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">And there was a staff meeting that really got =
+to the heart of the problem:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CAre the Kariba credits based on reali=
+ty?=E2=80=9D one staffer asked.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CI give the question back: What is rea=
+lity?=E2=80=9D Dannecker snapped.</p>
+<p style=3D"margin: 16px 0;">South Pole=E2=80=99s head of U.S. sales tried =
+again: =E2=80=9CWe have clients coming to us saying, =E2=80=98Hey, the cred=
+its that you sold us, that impact that we claimed, did that actually happen=
+? Yes or no?=E2=80=99=C2=A0=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">A public-affairs executive intervened: =E2=80=
+=9CWhich is why we=E2=80=99re holding the current verification at the momen=
+t=E2=80=94because we want to make sure that that is the case.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CHow much profit has South Pole made b=
+y selling Kariba credits?=E2=80=9D another staffer asked.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CI didn=E2=80=99t do the numbers, to b=
+e honest,=E2=80=9D Dannecker replied. =E2=80=9CI guess we probably made ten=
+ million dollars.=E2=80=9D There were audible gasps, before another executi=
+ve warned, =E2=80=9CTo be clear, we don=E2=80=99t want to repeat that publi=
+cly.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I hesitate to point it out, but I am a financi=
+al engineer at heart, and=C2=A0there <em>is</em> a solution here. The essen=
+tial problem with Kariba is not that the trees in the protected forest were=
+ cut down: They mostly weren=E2=80=99t. The problem is that the trees in th=
+e unprotected reference=C2=A0forest=C2=A0<em>also </em>weren=E2=80=99t cut =
+down. Simply speaking, the carbon impact of the Kariba project is calculate=
+d by (1) adding up the trees in Kariba that were not cut down and (2) subtr=
+acting the trees in the reference forest that were not cut down. If Kariba =
+was perfectly preserved and the reference forest was razed to the ground, t=
+hen Kariba did a good job of protecting trees in a dangerous neighborhood f=
+or trees. If Kariba was perfectly preserved and the reference forest was=C2=
+=A0<em>also=C2=A0</em>perfectly preserved, then Kariba had no real effect o=
+n emissions.</p>
+<p style=3D"margin: 16px 0;">You see the solution, right? The solution is: =
+You are a shady guy anyway, you do lots of stuff off the books, you have ac=
+cess to a poorly paid local workforce who want to continue getting the econ=
+omic benefits of the carbon credit project,=C2=A0<em>you hand them a brick =
+of cash to burn down the reference forest</em>.</p>
+<p style=3D"margin: 16px 0;">More generally the optimal way to do carbon of=
+fsets is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You set up an entity called like Gree=
+n Niceness that buys a forest and promises to preserve it.</li>=09<li style=
+=3D"margin-bottom: 5px;">You have your buddy set up an entity called Nasty =
+Lumber LLC, with no traceable ties to you or Green Niceness, that buys a ne=
+arby forest.</li>=09<li style=3D"margin-bottom: 5px;">You get Green Nicenes=
+s=E2=80=99s forest certified as a carbon offset project, with Nasty Lumber=
+=E2=80=99s forest as the reference forest.</li>=09<li style=3D"margin-botto=
+m: 5px;">Green Niceness puts a fence around its trees; Nasty Lumber defores=
+ts as fast as it can.</li>=09<li style=3D"margin-bottom: 5px;">Green Nicene=
+ss makes a lot of money selling carbon credits; Nasty Lumber probably makes=
+ some money selling lumber.</li>=09<li style=3D"margin-bottom: 5px;">You sp=
+lit the profits by passing around=C2=A0bricks of cash.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I mean, not optimal for the world or anything,=
+ just optimal for you.=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzA1NzM5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMzMTM4MjYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCfbb28c5d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33057398&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33313826&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzA1NzM5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMzMTM4MjYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDfbb28c5d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33057398&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33313826&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The CEO of Goldman Sachs is no longer a DJ</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">For a while <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/33057398.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjMtMDYtMTMvbmFrZWQtc2hvcnQtc2VsbGVyLWdldHMtaW4tdHJ=
+vdWJsZT9jbXBpZD1CQkQxMDE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cB27cc9d9d" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  there seemed</a> to be a small =
+but real and hilarious chance that David Solomon, the chief executive offic=
+er of Goldman Sachs Group Inc.,<a class=3D"footnote-index" href=3D"#footnot=
+e-1" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: none !imp=
+ortant; background-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a> who is also a DJ, might lose his job, as CEO of Goldman Sachs, because=
+ he is a DJ. The <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+3057398.256428/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wMi8wNS9idXNpbmVzcy9k=
+YXZpZC1zb2xvbW9uLWRqLWdvbGRtYW4tc2FjaHMuaHRtbA/607f07ceef4b8524a319a23cBfb3=
+849b8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> New York Times</a> reported on the <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33057398.256428/aHR0cHM6Ly93d3cubnl0aW1lcy=
+5jb20vMjAyMy8wMi8wNS9idXNpbmVzcy9kYXZpZC1zb2xvbW9uLWRqLWdvbGRtYW4tc2FjaHMua=
+HRtbA/607f07ceef4b8524a319a23cCfb3849b8" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> conflicts of interest</=
+a> arising from Solomon=E2=80=99s CEOing and DJing, somehow. The <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/33057398.256428/aHR0cHM6Ly93=
+d3cud3NqLmNvbS9hcnRpY2xlcy9nb2xkbWFuLXNhY2hzLWNlby1kYXZpZC1zb2xvbW9uLWRqLWJ=
+vbnVzZXMtMWE0N2RiZjU_bW9kPWhwX2xlYWRfcG9zNQ/607f07ceef4b8524a319a23cB6a7bb9=
+38" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Wall Street Journal</a> reported on Goldman partners plotting=
+=C2=A0mutinies, =E2=80=9Csaying it wasn=E2=80=99t a good look for the CEO o=
+f one of Wall Street=E2=80=99s most formidable firms [to also be a DJ].=E2=
+=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">And now <a href=3D"https://link.mail.bloomberg=
+business.com/click/33057398.256428/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZDEx=
+NjAxYjUtZmJhMS00NjAzLWFjYWQtZWIyZWU1ODdhOGUz/607f07ceef4b8524a319a23cB842cc=
+6c3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> the Financial Times reports</a> that, in fact, Solomon has re=
+solved these conflicts by stepping down from his job. As a DJ. He=E2=80=99s=
+ still=C2=A0the CEO of Goldman Sachs. But not also a DJ:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Goldman Sachs chief executive David Solomon ha=
+s decided to stop DJing at high-profile events following criticism that his=
+ hobby created a distraction from his work leading the Wall Street firm, ac=
+cording to people with knowledge of the decision.=C2=A0</p>
+<p style=3D"margin: 16px 0;">What started as a colourful side hustle that s=
+oftened Solomon=E2=80=99s public image became a lightning rod for criticism=
+ of him inside Goldman from bankers disgruntled over strategic mis-steps an=
+d lower pay.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Solomon, 61, made the decision to pull back fr=
+om DJing about a year ago because it generated unwanted media attention, th=
+e people said.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The last notable event where Solomon DJed was =
+in July 2022 at Lollapalooza, a four-day music festival in Chicago.=C2=A0</=
+p>
+<p style=3D"margin: 16px 0;">Following a request for comment, Goldman spoke=
+sman Tony Fratto said: =E2=80=9CThis is not news. David hasn=E2=80=99t publ=
+icly DJed an event in well over a year, which we have confirmed multiple ti=
+mes in the past.=E2=80=9D=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Does he still DJ birthday parties? Client meet=
+ings? Are there secret underground clubs deep in Bushwick throwing 3 a.m. r=
+aves where David Solomon DJs to a small but enthusiastic crowd of electonic=
+-music cognoscenti? No.=C2=A0Anyway I am going to forget about this immedia=
+tely and continue to tell everyone that the CEO of Goldman Sachs is also a =
+DJ.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Ozempic is great for business</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Last week <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/33057398.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjMtMTAtMDkvb3plbXBpYy1pcy1iYWQtZm9yLWJ1c2luZXNzP2Ntc=
+GlkPUJCRDEwMTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdz=
+bGV0dGVyJnV0bV90ZXJtPTIzMTAxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b=
+8524a319a23cB7f72adfe" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> I wrote about</a> a hypothetical =E2=80=9Cd=
+rug that reduces consumption in general, a universal demand suppressant,=E2=
+=80=9D which would be good for the profits of the drug company that invente=
+d it (it could sell a lot of pills) but bad for all the other companies. In=
+ a world of universal ownership of the stock market, where most public comp=
+anies are largely owned by the same big institutional investors, this would=
+ create an interesting tension: The company that invented the drug would wa=
+nt to sell a lot of it, to raise its own profits, but that company=E2=80=99=
+s=C2=A0<em>owners=C2=A0</em>=E2=80=94=C2=A0the universal shareholders =E2=
+=80=94=C2=A0would=C2=A0<em>not=C2=A0</em>want that, because, as diversified=
+ investors, they would lose more from their other companies than they would=
+ gain from the drug company.</p>
+<p style=3D"margin: 16px 0;">This was of course inspired by Ozempic, Wegovy=
+ and Mounjaro, the new class of weight-loss and, like, impulse-control drug=
+s. But only loosely inspired by them. For one thing, those drugs <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/33057398.256428/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTAtMTAvc2JmLXMtYmV0cy1=
+1c2VkLXRvLXdvcmstb3V0P2NtcGlkPUJCRDEwMTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTAxNyZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cB18d720f4" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> do not=C2=A0<em>r=
+eally=C2=A0</em>reduce demand universally</a>: They will probably lead to r=
+educed spending on snack foods and cigarettes, but people will still want t=
+o do other stuff, and they=E2=80=99ll be healthier and live longer and so p=
+robably consume more overall. (Josh Barro is even more optimistic about the=
+ir effects, <a href=3D"https://link.mail.bloombergbusiness.com/click/330573=
+98.256428/aHR0cHM6Ly93d3cuam9zaGJhcnJvLmNvbS9wL296ZW1waWMtaXMtb2J2aW91c2x5L=
+Wdvb2QtZm9yLWJ1c2luZXNz/607f07ceef4b8524a319a23cBb2dbee54" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">writing =
+that</a> =E2=80=9Cthey improve humans=E2=80=99 natural intelligence along a=
+t least one dimension and probably several. I think that=E2=80=99s extremel=
+y exciting and a much better candidate for singularly-important-technologic=
+al-advance-of-our-time than AI.=E2=80=9D)</p>
+<p style=3D"margin: 16px 0;">For another thing, though, the companies that =
+make these drugs have unusual ownership structures. They are not mainly own=
+ed by the usual universal owners, BlackRock=C2=A0and Vanguard=C2=A0and Fide=
+lity and State Street. Here is a=C2=A0<a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/33057398.256428/aHR0cHM6Ly93d3cud3NqLmNvbS9oZWFsdGgvcGh=
+hcm1hL3Rob3NlLW5ldy1waWNrbGViYWxsLWNvdXJ0cy10aGFuay1vemVtcGljLTU4MTg5OWYz/6=
+07f07ceef4b8524a319a23cB92213f7c" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">Wall Street Journal story</a>=C2=
+=A0on their biggest owners:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Two nonprofit foundations are large shareholde=
+rs of Eli Lilly and Novo Nordisk, the companies selling the drugs Ozempic, =
+Wegovy and Mounjaro popularly used to reduce weight. Thanks to the drugs=E2=
+=80=99 skyrocketing sales, the foundations=E2=80=99 stakes have surged in v=
+alue, creating windfalls that are reshaping charitable giving.</p>
+<p style=3D"margin: 16px 0;">The philanthropies are now among the biggest i=
+n the world, with the Novo Nordisk Foundation counting $114 billion in asse=
+ts and Lilly Endowment quadrupling in value to $40 billion. The Lilly Endow=
+ment is the second largest U.S. foundation, behind the Bill &amp; Melinda G=
+ates Foundation=E2=80=94and its $53 billion in assets=E2=80=94but ahead of =
+the Ford Foundation and the J. Paul Getty Trust, according to FoundationMar=
+k data provider.</p>
+<p style=3D"margin: 16px 0;">With their newfound anti-obesity riches, the f=
+oundations have been expanding their ranks and increasing their donations b=
+y hundreds of millions of dollars a year. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The enrichment of the foundations is a product=
+ of the unusual ownership structures of the two drugmakers. Their large own=
+ership stakes, which date back decades, have helped insulate the drugmakers=
+ from the daily whims of shareholders.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The Lilly Endowment=E2=80=99s 11% stake makes =
+it Eli Lilly=E2=80=99s biggest shareholder. The Novo Nordisk Foundation own=
+s more than one-fourth of Novo Nordisk shares and majority voting control o=
+f the drugmaker. The Lilly Endowment operates independently from Eli Lilly,=
+ while the Novo foundation is more intertwined with Novo Nordisk as its con=
+trolling shareholder.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I suppose this means that, if Eli Lilly or Nov=
+o Nordisk=C2=A0<em>does=C2=A0</em>discover a drug that is good for humanity=
+ but bad for the stock market, they will be inclined to market it anyway.=
+=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Drug cartel compliance</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bloomberg=
+business.com/click/33057398.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjEtMDUtMTEvY3J5cHRvLW1hcmtldHMtYXJlLXdoZXJlLXRoZS1mdW4=
+taXM_Y21waWQ9QkJEMTAxNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMDE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB322be809" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  talked</a> a few <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/33057398.256428/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMDgvZWxvbi1tdXNrLWRpZC1zb2=
+1lLXR3ZWV0cz9jbXBpZD1CQkQxMDE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cBcf1ce7ef" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  times</a> around <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMDgvZWxvbi1tdXNr=
+LWRpZC1zb21lLXR3ZWV0cz9jbXBpZD1CQkQxMDE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWV=
+tYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMTcmdXRtX2NhbXBhaWduPW=
+1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cCcf1ce7ef" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  here</a> about t=
+he compliance function at ransomware hacking firms. In general, any sort of=
+ firm will have to decide what level of crime it is optimal to commit. For =
+a normal=C2=A0company, I think the conventional wisdom is that the optimal =
+level of crime is low, but probably slightly higher than=C2=A0zero. Meanwhi=
+le, <a href=3D"https://link.mail.bloombergbusiness.com/click/33057398.25642=
+8/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTEvY=
+3J5cHRvLW1hcmtldHMtYXJlLXdoZXJlLXRoZS1mdW4taXM_Y21waWQ9QkJEMTAxNzIzX01PTkVZ=
+U1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjM=
+xMDE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cC322be809" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  I wrote</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">What if your company=E2=80=99s bus=
+iness is crime? What if you are a Mafia family, or a ransomware hacking gro=
+up? Clearly the optimal level of crime is not zero: If your business is cri=
+me, you have to do crime to get revenue. But the optimal level of crime is =
+also not infinite: If you do too many crimes, or crimes that are too bad, y=
+ou will get in too much trouble. Doing more and bigger crimes should increa=
+se your crime-based revenue, but it also increases the resources that offic=
+ials will expend on trying to shut you down, and thus your risks of being s=
+topped and punished. At some point the lines cross, and you should forego s=
+ome criminal revenue in order to keep your legal risk manageable.</p></bloc=
+kquote>
+<p style=3D"margin: 16px 0;">Well, here is a <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/33057398.256428/aHR0cHM6Ly93d3cud3NqLmNvbS93b3Js=
+ZC9hbWVyaWNhcy9tZXhpY2FuLXNpbmFsb2EtY2FydGVscy1tZXNzYWdlLXRvLW1lbWJlcnMtc3R=
+vcC1tYWtpbmctZmVudGFueWwtb3ItZGllLWI5NmQzZTA5P21vZD1ocF9sZWFkX3BvczU/607f07=
+ceef4b8524a319a23cBb05470b9" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> Wall Street Journal story</a> about h=
+ow the Sinaloa drug cartel=E2=80=99s compliance team has decided that the o=
+ptimal level of illegal drug trafficking is =E2=80=9Cnot fentanyl=E2=80=9D:=
+</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Sinaloa cartel, the leading exporter of fe=
+ntanyl to the U.S., is prohibiting the production and trafficking of the il=
+legal opioid in its territory after coming under increasing pressure from U=
+.S. law enforcement, cartel members say. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">A midlevel Sinaloa cartel operative, who used =
+to deal in chemical precursors needed to make the synthetic opioid, said th=
+e Chapitos are leaving the business in part because they wanted the U.S. to=
+ shift its crackdown efforts to the Jalisco New Generation Cartel, their ch=
+ief rival and another leading fentanyl producer.</p>
+<p style=3D"margin: 16px 0;">Exports of cocaine, heroin and methamphetamine=
+ to the U.S. will likely rise in the near future to make up for the income =
+shortfall from the fentanyl ban, cartel members say.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">You will not be surprised to learn that the pu=
+nishment for cartel=C2=A0employees who violate this order is not a negative=
+ note in their personnel file. The optimal amount of crime for the Sinaloa =
+drug cartel apparently continues to include quite a lot of murder.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Meal allowances</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Speaking of the optimal level of crime at norm=
+al companies. I <a href=3D"https://link.mail.bloombergbusiness.com/click/33=
+057398.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+jMtMTAtMTYvY2RzLWJldC1iaXRlcy1jYXJsLWljYWhuP2NtcGlkPUJCRDEwMTcyM19NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTA=
+xNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7bf8fd25" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  wrote yesterday</a> about hypothetical abuses of investment bank meal=
+ allowances. I proposed a few, and ended with =E2=80=9COr you do one of the=
+ seven more creative minor abuses that my readers are going to email me abo=
+ut today.=E2=80=9D Here are two. First:</p>
+<blockquote><p style=3D"margin: 16px 0;">I eat a big lunch, but not a huge =
+dinner. So the $45 we get for dinner doesn't do much for me. What I do is g=
+o to our local food court, buy my $15 salad, and then tip the guy the remai=
+ning $30. The next day, when I'm getting lunch, the guy will conveniently "=
+forget" to ring up half the items.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">Principal/agent problems on=C2=A0<em>both=C2=
+=A0</em>sides, love it. And:</p>
+<blockquote><p style=3D"margin: 16px 0;">At [one firm], it was very common =
+for senior employees to have a waiter change the =E2=80=9Cnumber of guests=
+=E2=80=9D that often appears on a receipt to, say, =E2=80=9C14 people=E2=80=
+=9D and claim employees or clients were at dinner when it was really just 2=
+ guys racking up a $2000 bar tab at a Tuesday.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">That=E2=80=99s like =E2=80=A6=C2=A0kind of a m=
+edium-level abuse?</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/33057398.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMTAtMTcvbG9uZy1lbmQtdHJlYXN1cmllcy1mbHVjdHVhdGUtYnktbW9zdC1zaW5=
+jZS0yMDIwLXBhbmRlbWljLW9uc2V0P2NtcGlkPUJCRDEwMTcyM19NT05FWVNUVUZGJnV0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTAxNyZ1dG1fY2Ftc=
+GFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBa70e4950" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> Long-End =
+Treasuries</a> Hit by Wildest Swings Since 2020 Pandemic.=C2=A0<a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/33057398.256428/aHR0cHM6Ly93d3=
+cud3NqLmNvbS9lY29ub215L2hvdXNpbmcvaG9tZS1zYWxlcy1vbi10cmFjay1mb3Itc2xvd2Vzd=
+C15ZWFyLXNpbmNlLWhvdXNpbmctYnVzdC0yMDI0NTNhYj9tb2Q9aXRwX3dzag/607f07ceef4b8=
+524a319a23cB5a6a0dff" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Home Sales</a> on Track for Slowest Year Sin=
+ce Housing Bust. Real Estate Brokers Pocketing Up to 6% in Fees Draw <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMTYvdXMtcmVhbHRvcnM=
+tbHVjcmF0aXZlLWZlZS1zeXN0ZW0tZmFjZXMtbW91bnRpbmctYW50aXRydXN0LXJpc2s_Y21waW=
+Q9QkJEMTAxNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZ=
+XR0ZXImdXRtX3Rlcm09MjMxMDE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b852=
+4a319a23cB526f85bb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  Antitrust Scrutiny</a>. <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/33057398.256428/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMTcvZ29sZG1hbi10cmFkZXJzLWhlbHAt=
+Y291bnRlci1yZWFsLWVzdGF0ZS1sb3NzZXMtc3RhZ25hbnQtbS1hP2NtcGlkPUJCRDEwMTcyM19=
+NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZX=
+JtPTIzMTAxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb60da=
+b08" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Goldman</a> Traders Soften Blow From Real Estate Hit, Strate=
+gy Shift.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/330=
+57398.256428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMT=
+AtMTcvYm9mYS1iZWF0cy1lc3RpbWF0ZXMtb24tdHJhZGluZy1hbmQtbmV0LWludGVyZXN0LWluY=
+29tZS1nYWlucz9jbXBpZD1CQkQxMDE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0=
+bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMTcmdXRtX2NhbXBhaWduPW1vbmV5c3R=
+1ZmY/607f07ceef4b8524a319a23cBb3e8fe8a" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">BofA=E2=80=99s</a> Profit T=
+ops Estimates on Trading, Net Interest Income.=C2=A0<a href=3D"https://link=
+.mail.bloombergbusiness.com/click/33057398.256428/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMTYvY291bnRyeS1nYXJkZW4taW4tZmluYWwt=
+aG91cnMtdG8tYXZvaWQtZmlyc3QtZG9sbGFyLWJvbmQtZGVmYXVsdD9jbXBpZD1CQkQxMDE3MjN=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yMzEwMTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB01da=
+581a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">Country Garden</a> Bondholders Yet to Get Interest as Deadlin=
+e Looms. Risk-Advisory Firms Decide <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/33057398.256428/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9ya=
+XNrLWFkdmlzb3J5LWZpcm1zLWRlY2lkZS1ob25nLWtvbmctaXNudC13b3J0aC1pdC1mMmJkZTQz=
+Nz9tb2Q9aXRwX3dzag/607f07ceef4b8524a319a23cB12184d75" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Hong Kong</a=
+> Isn=E2=80=99t Worth It. Tucker Carlson=E2=80=99s Media Company Secures In=
+vestment Led by New <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/33057398.256428/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9tZWRpYS90dWNrZXItY=
+2FybHNvbnMtbWVkaWEtY29tcGFueS1zZWN1cmVzLWludmVzdG1lbnQtbGVkLWJ5LW5ldy1hbnRp=
+LXdva2UtZmlybS0xNzg5LWNhcGl0YWwtYTQ3ZDIwZGQ_bW9kPWhwX2xlYWRfcG9zNg/607f07ce=
+ef4b8524a319a23cBc05a3f62" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> =E2=80=98Anti-Woke=E2=80=99 Firm</a> 17=
+89 Capital. Mexico revives century-old railway in $2.8bn bid to <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/33057398.256428/aHR0cHM6Ly93d=
+3cuZnQuY29tL2NvbnRlbnQvYmJlOGU4NTEtZTlmMi00ZWQxLWE0YTctMDUxYTY3MGI0MGUw/607=
+f07ceef4b8524a319a23cB7c1553bd" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> rival Panama Canal</a>. Dalio=E2=
+=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/33057398.2=
+56428/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMTAtMTcvZ=
+GFsaW8tcy1hYnUtZGhhYmktcGVudGhvdXNlLXNob3dzLXJpc2Utb2YtbmV3LWhlZGdlLWZ1bmQt=
+aHVicz9jbXBpZD1CQkQxMDE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/60=
+7f07ceef4b8524a319a23cBdeee7055" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  Abu Dhabi Penthouse</a> Shows Ri=
+se of New Hedge Fund Hubs.=C2=A0Sanctioned Billionaire Fridman Able to <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMTcvc2FuY3Rpb25lZ=
+C1iaWxsaW9uYWlyZS1mcmlkbWFuLWFibGUtdG8tdGFrZS10aGUtYnVzLXVrLXNheXM_Y21waWQ9=
+QkJEMTAxNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR=
+0ZXImdXRtX3Rlcm09MjMxMDE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a=
+319a23cB9cd7ab3c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  Take the Bus</a>, UK Says.=C2=A0It=E2=80=99s Ge=
+tting Too Expensive to <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/33057398.256428/aHR0cHM6Ly93d3cud3NqLmNvbS9lY29ub215L2NvbnN1bWVycy9pdH=
+MtZ2V0dGluZy10b28tZXhwZW5zaXZlLXRvLWhhdmUtZnVuLWE1OWU5ZGY4P21vZD1ocF9sZWFkX=
+3Bvczg/607f07ceef4b8524a319a23cBf7a808ee" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Have Fun</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33057398.256428/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB3d91f54f" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33057398.256428/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBe04a00b8" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Disclosure, where I used to work.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB2d04d1fb" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB96847453" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB244b61d0" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB5d0c0de7" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBa0b9c834" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33057398.2564=
+28/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBe4ecdf2c" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33057398.256428/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC6c3a0a91" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33057398.256428/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB86f04f87" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33057398.256428/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBe7b09798" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB3=
+6a0aaaa" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33057398.256428/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBc=
+dff6aee" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjoj92.5hv0/345efa46.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_10858002_35877560.1697566490202--
+

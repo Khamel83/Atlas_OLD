@@ -1,0 +1,1787 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:dd94:0:b0:67a:8dc3:b581 with SMTP id v20csp3515874qvk;
+        Wed, 6 Dec 2023 10:07:22 -0800 (PST)
+X-Received: by 2002:a05:600c:4689:b0:40b:2a46:6f1 with SMTP id p9-20020a05600c468900b0040b2a4606f1mr1768307wmo.2.1701886041720;
+        Wed, 06 Dec 2023 10:07:21 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1701886041; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=n5UQ0xBzVCOIva2WS7zBLfltha7BK3hMNQfo4tRKpzQl0wdVH33K24mwVxqgp/pUyY
+         t+Aob9ljCfHzgdAZmQheOmu95I9175J0yF7WTs9DXkWYvu8ZkBBbEh1fE2Amr7EolJAm
+         wZzMVGn8eVSIPHXSmtIcOg5EdqXwBFVo7XVoQbDn0Km6nXh6luVsN0aoAzn+qZT5AZbs
+         yNyf2t47L3eOp2+Co9ERb58Xru3TquabUtQu5weqBxXGcyTGgNaMNREJhIHlWMyFxkmU
+         0rDD0C3seEajZceUFmHPPO/+FJfs1owa9tfLRsnP2oc0TyuLCLtVv7g+w7HAYTId+Yeq
+         aXtQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=6GCE61SbVhL2tnWGUB0xf1SMjj52BBtpjMrNXsdLIeM=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=zwahraDfAM4pLbgPdLehpsmAV68VglT54JZqAAG/mmSjM2Q6IJC7fHaxIKQ3CFc5ca
+         sX9GGMDwaU8bxB4JFclsQIRoCqi//wp6afPuOlCEKQIlUgEtxum0TLseDMmEEPXbzo4O
+         PM/oab9t13M3sVPER5MLfHuLYt22QErAjvpEPKK5RDe130rHnEpPKLYxjwLaby1Y9iKc
+         xcYHIH3zQQucWiQObwBIESQhyEPU3hYZj4AaidjEsSd4krcM+DfR2g7oJuPM2LhitR5i
+         kfjIt4hXfEX2ohjpey3erzzKrHoCFhBUkJiA3j2fdloELV6Gn9TIk85X7VKfY10oL+uc
+         lDow==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="FrrP/9pc";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i7-20020a05600c354700b0040b2be7ce47sor91580wmq.1.2023.12.06.10.07.21
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 06 Dec 2023 10:07:21 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="FrrP/9pc";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1701886041; x=1702490841;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=6GCE61SbVhL2tnWGUB0xf1SMjj52BBtpjMrNXsdLIeM=;
+        b=BBfVULPhNYr/QtSoq/iGShppKww8A+oLCZ6hqxUTWZCjiBkWrDACmCEFECDb2vonE6
+         J+FG8jJJ7DJaRqPNwHsJklovcMXWKRo+lxHqrQKJsHtZbi2Ad9reSBUfFhGlGAV8xGlq
+         2fENz2uqOppM6qdVkVuofKch0sSJQvX4aIGG2spGNzluASgEnOpYmu0Za8su7tQtFeo6
+         fBm8AEFUKvAQJPjD4suk8GyyuqCjuNcaa+c+/p/Z84HiLpSxF1sJU22zaPQ1aRV4SZ+l
+         lzk2KmMOSrWdY7G8cewi88VqwQaFlawewDqFR9H0lfTtpuoY2GjphbgZrGfIM9GSME3z
+         70cA==
+X-Gm-Message-State: AOJu0YyU9pQ/T09a5gUh4G3JL3PddKnSNiozIR+vGteXPxQT8TpSO1AR
+	4vOUVcUJOQdKpw95COXXUN6VMUW1M7asTbxFQtC6nGux78MfjWumvw==
+X-Received: by 2002:a05:600c:4995:b0:407:73fc:6818 with SMTP id h21-20020a05600c499500b0040773fc6818mr1759187wmp.2.1701886041059;
+        Wed, 06 Dec 2023 10:07:21 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:ec84:0:b0:333:384e:c9a6 with SMTP id z4csp1576wrn;
+        Wed, 6 Dec 2023 10:07:03 -0800 (PST)
+X-Received: by 2002:a05:6871:729:b0:1fb:e34:e31d with SMTP id f41-20020a056871072900b001fb0e34e31dmr1340206oap.24.1701886021377;
+        Wed, 06 Dec 2023 10:07:01 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1701886021; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=bmZAnGOGcG4a9F7WtZfN2gYFNep8bPShX9v54ITSHVBkn6uCa7sBaMP+LoNTLz4KtM
+         a5WERSYGFjiHCqDmdC+8VCGvuKoa5I5q7TwAY83fuzqphqt6BKLXcrY9fExeQ0uBCsK/
+         GeE5HedyNIpJQtfoVCd7VdENtXsY6ydYCG6KZ2ty0e25ywX9NJHyR2GpENf/YIzW+1Lw
+         yf16007W6tufW1YbiBXl/ZA1rQAxWjpN5DPbTT15DUgjSncvam48r7ErOyqh6xMQ8W1S
+         JNw0RqCzYR1xtyJxOy/y0sCTfaplmGlsUF6hrA1CNZuaG/AQTfd/Pjqj8Du0NKazZ2oo
+         5S9A==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=6GCE61SbVhL2tnWGUB0xf1SMjj52BBtpjMrNXsdLIeM=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=TZls6U/G/ypYo92rXhJuS92iQGkzNCZHQsRO5IORGutIor5wW/xXmXK9PsAXCMDwjU
+         T/1AHpjDqQsbq01XCExJmyeAYoI8Ezaeum5+9EMS4cnfAZqa/a+0HLjwybGLENXLwNVJ
+         O4qibqhey15aYh7ArirXrp2oYs5Avsqial0qluGIar8aod1J9g4kGE/4MWQWai9FR7ah
+         LYdbiaWJLpHeMSTtbTfL3P9y0VdLHQ4dnrFgkrxgJeyPk12Cjatnci2awXvBI96njQms
+         GFr6445cfxM/LqCXakvGxAhnRhQqV5I5DsFoosh3GBYf7+XZP6xe7V/+ZFJ/CTkherVx
+         aZ/Q==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="FrrP/9pc";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231206130651.33603614.257406@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231206130651.33603614.257406@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231206130651.33603614.257406@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id zh28-20020a0568716b9c00b001faa5e16de5sor215070oab.20.2023.12.06.10.06.52
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 06 Dec 2023 10:07:01 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20231206130651.33603614.257406@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IH0h9VRI52FN6vGAWO7uovJHVjRszRC552NATB6LV1vFR7LXNMwBhZOEcRBdOZQbylxZVTGDsOYIckFX3dcFd9oj25wQ1w=
+X-Received: by 2002:a05:6871:5d1:b0:1fb:75a:77a7 with SMTP id v17-20020a05687105d100b001fb075a77a7mr1360376oan.88.1701886012305;
+        Wed, 06 Dec 2023 10:06:52 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1701886011; cv=none;
+        d=google.com; s=arc-20160816;
+        b=m0rM2s1kIA+RaOC5xEs2yh6/d7ozOIsf/tVPajGsI90L0abBCZsPIXlbw5L8YcDpx5
+         NU2gv/WtlWg8e6is0S3a+INPiNokYpCJln09gPsKHH3b8Rh5iH6eKthe44X7phn1gvOC
+         QplIuEnAIbVv+GG+NBmqpAJDNEQTaHjQAKiJnUqBEgTvjr7/lO1mQC04cWJSBHO8Tjzo
+         QPwv8pX/b4nUhtMbZO63D9EYMUAv+g1B5gOZv6y5teEu9cPPXDbrOAycQakPBFaVpLSe
+         eKZNBT/5Th3fZpXS1MZH4561pBxwB6LSkyoF+j3IVveF+kFM8X0X+iIcWmZlpwyF1Wap
+         aNbA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=6GCE61SbVhL2tnWGUB0xf1SMjj52BBtpjMrNXsdLIeM=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=lOcfxDJ52ponVIggm6uyuX1EAhq9K7blz/LJMgxXFGaZJ3P+L5vtFdjbqCVeYdPB/Q
+         hK0Sq4qGK1TwBHs3y5gMgVNNPGWAHRolKMzX+qlsAoifhtVJb4yz4EgRE/2DQmTZuLZW
+         N0XwL2rWHGwgsdUISdGjDEQVKdZOmndLO3Asrh+1Z5VRliQJ4sCju1n6ZVIicG7MMmn+
+         bnQ1GiI0Qi0bbN9kb0SjqeYnG3/M7shsgFHKys9uEi5ZvJmBoY/yCMF/P6PQ0bNrY8Ug
+         ze2gSI2Y/M1l8d9D8CVVZsEy7yhVl8Zxr4r7Aqtr0gJyqdgV2hvwYsQo5lg4cS6sEb2P
+         iuIA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="FrrP/9pc";
+       spf=pass (google.com: domain of delivery_20231206130651.33603614.257406@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20231206130651.33603614.257406@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231206130651.33603614.257406@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id nl27-20020a056871459b00b001fb179a3c63si93186oab.3.2023.12.06.10.06.51
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 06 Dec 2023 10:06:51 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20231206130651.33603614.257406@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=QEdycBndoNRIemCvvemIK+XSMbH8Dzk6JUeJGgZI5Os=;
+ b=FrrP/9pclzKQSe3WfiNMD+PoiHTj9Zkl4Q0Dcwec8sHrlcNnzyya+bMmGQ9ej4FR4FA5ZH9iVdKA
+   7cA/YghrstP8f1rd+RJAZTGoeOP6kgmYp/CmeU1n7U38jUMarWDHK/IBn48kOxstRWbSJ52cYSzl
+   KOm08ImyXX4WshmTb+A=
+Received: from aws1-mta-relay9.sailthru.cloud (10.55.62.145) by bloomberg-b.sailthru.com id he2s3m30nu8m for <bloomberg@khamel.com>; Wed, 6 Dec 2023 12:06:51 -0600 (envelope-from <delivery_20231206130651.33603614.257406@mx.sailthru.com>)
+Date: Wed, 6 Dec 2023 13:06:51 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231206130651.33603614.257406@sailthru.com>
+Subject: Money Stuff: Who Gets Paid for Not Cutting Down Trees?
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10220243_806832212.1701886011044"
+Precedence: bulk
+x-job: 6358-33603614-20231206
+X-Feedback-ID: 6358:33603614:campaign:sailthru
+X-TM-ID: 20231206130651.33603614.257406
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-67-241.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck08pq.5im6/4767947a
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck08pq.5im6/4767947a>, <mailto:unsubscribe_20231206130651.33603614.257406@mx.sailthru.com>
+X-rpcampaign: stjko33603614
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_10220243_806832212.1701886011044
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        If you live on some land, and it turns out there is oil under the l=
+and, then either you get to drill the oil and sell it and keep the money,
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Carbon credits
+   =20
+ =20
+
+If you live on some land, and it turns out there is oil under the land, the=
+n either you get to drill the oil and sell it and keep the money, or the go=
+vernment does, or someone else does. There are various legal regimes. Perha=
+ps you get to lease the oil rights to an oil company and keep some of the m=
+oney. Perhaps you get nothing; perhaps the government owns all the oil in y=
+our country and can cut its own deals with the oil companies without giving=
+ you anything. All sorts of possibilities. But in any case, either you get =
+the money from the oil, or someone else does, or you split it somehow. Or, =
+of course, the oil is not discovered, or not exploited, and nobody gets the=
+ money.
+Similarly, if you live on some land, and it has trees, and you don=E2=80=99=
+t cut down the trees, then the trees store carbon that might otherwise go i=
+nto the atmosphere, and therefore they reduce global warming. And in the mo=
+dern economy, those trees =E2=80=94=C2=A0or, rather, the fact of not cuttin=
+g down the trees =E2=80=94=C2=A0can be turned into carbon credits; some big=
+ company will pay money for those credits to offset its own emissions. But =
+who gets to sell the carbon credits and keep the money? Again, the possibil=
+ities include (1) you, as the person living on the land, (2) the government=
+, or (3) someone else. Perhaps you can cut a deal with a carbon-credit comp=
+any to preserve the trees, generate the credits and split the money. Perhap=
+s the government owns all the not-cutting-down-trees in your country and ca=
+n cut its own deals with global markets without giving you anything. All so=
+rts of possibilities.
+In a rigorous accounting regime, either you would get the money, or someone=
+ else would, or you=E2=80=99d split it, but unlike with oil, the laws of ph=
+ysics do not really dictate a rigorous accounting regime. If you sell oil t=
+o someone, you can=E2=80=99t sell it to someone else. If you sell not-cutti=
+ng-down-trees to someone, nothing in nature prevents you (or someone else!)=
+ from also selling not-cutting-down those same trees to someone else, thoug=
+h well constructed carbon credit regimes do. This week the US Commodity Fut=
+ures Trading Commission proposed some guidance on voluntary carbon credit r=
+egimes, emphasizing the importance of =E2=80=9Cno double counting,=E2=80=9D=
+=C2=A0 that is, =E2=80=9Cthat the [voluntary carbon credits] representing t=
+he credited emission reductions or removals are issued to only one registry=
+ and cannot be used after retirement or cancelation.=E2=80=9D
+Also, of course, nobody might get the money from the carbon credits =E2=80=
+=94=C2=A0the carbon credits might not be produced and sold =E2=80=94 but th=
+is is also a bit different from the case of oil. To drill up oil, you have =
+to (1) know it is there (under the ground) and (2) spend money on drilling,=
+ storage, transportation, etc. Not cutting down trees is, as a matter of ph=
+ysical reality, much simpler than drilling up oil:
+=09The trees are above ground (they are trees), so you can see them, so you=
+ know they are there.=09Not cutting them down is easy and free: Cutting dow=
+n trees takes intentional effort, so you can just not do that.
+  [1]
+
+
+
+That oversimplifies, though. For one thing, there is some opportunity cost =
+of not cutting down the trees. (You can=E2=80=99t use them for firewood, bu=
+ilding materials, etc.) For another thing, there is some cost of certifying=
+ and marketing the carbon credits. Also, though, a rigorous carbon credit r=
+egime doesn=E2=80=99t give you credit=C2=A0just=C2=A0for not cutting down a=
+ny old trees; it gives you credit only for cutting down trees that=C2=A0oth=
+erwise would have been cut down. So if you live near a forest and enjoy the=
+ views and leave the trees alone, and then you try to sell carbon credits, =
+the carbon credit buyers will say =E2=80=9Cno those trees are fine anyway.=
+=E2=80=9D The CFTC guidance also emphasizes the importance of =E2=80=9Caddi=
+tionality,=E2=80=9D=C2=A0that is, =E2=80=9Cwhether the [voluntary carbon cr=
+edits] are credited only for projects or activities that result in [greenho=
+use gas] emission reductions or removals that would not have been developed=
+ or implemented in the absence of the added monetary incentive created by t=
+he revenue from the sale of carbon credits.=E2=80=9D
+And so if you just live on some land, and it has some trees, and you leave =
+those trees alone and have for generations, you might have a hard time maki=
+ng money from the carbon credit market. Whereas if you live on some land, a=
+nd it has some trees, and you sometimes chop down those trees for firewood =
+and building materials, and have for generations, the efficient carbon cred=
+it market approach might be for your government to bring in someone=C2=A0el=
+se =E2=80=94=C2=A0some outside carbon credit company =E2=80=94=C2=A0to mana=
+ge the trees and=C2=A0protect them from you, generating carbon credits. And=
+ then the outside company and the government split the money. Maybe they gi=
+ve you some of it, to compensate you for your loss of use of the trees.
+Here=E2=80=99s a Financial Times story about =E2=80=9C the looming land gra=
+b in Africa for carbon credits=E2=80=9D:
+
+One day in late October, leaders from more than a dozen towns across Liberi=
+a=E2=80=99s Gbi-Doru rainforest crammed into a whitewashed, tin-roofed chur=
+ch.
+They had gathered to hear for the first time about a deal signed by their n=
+ational government proposing to give Blue Carbon, a private investment vehi=
+cle based thousands of miles away in Dubai, exclusive rights to develop car=
+bon credits on land they claim as theirs.=C2=A0
+=E2=80=9CNone of them were aware of the Blue Carbon deal,=E2=80=9D says And=
+rew Zeleman, who helps lead Liberia=E2=80=99s unions of foresters. ...Blue =
+Carbon, a private company whose founder and chair Sheikh Ahmed Dalmook al-M=
+aktoum is a member of Dubai=E2=80=99s royal family, is in discussions to ac=
+quire management rights to millions of hectares of land in Africa. The scal=
+e is enormous: the negotiations involve potential deals for about a tenth o=
+f Liberia=E2=80=99s land mass, a fifth of Zimbabwe=E2=80=99s, and swaths of=
+ Kenya, Zambia and Tanzania.
+Blue Carbon=E2=80=99s intention is to sell the emission reductions linked t=
+o forest conservation in these regions as carbon credits, under an unfinish=
+ed international accounting framework for carbon markets being designed by =
+the UN. In a market that is being designed for and by governments, it is am=
+ong the most active private brokers. =E2=80=A6
+A copy of Blue Carbon=E2=80=99s memorandum of understanding with Liberia, d=
+ated July and seen by the Financial Times, proposed to give the Dubai-based=
+ company exclusive rights to generate and sell carbon credits on about 1mn =
+hectares of Liberian land. It would receive 70 per cent of the value of the=
+ credits for the next three decades, and sell these tax-free for a decade.=
+=C2=A0The government would receive the other 30 per cent, with some of this=
+ going to local communities.
+
+The central conceptual oddity of carbon credits is:
+=09You can get paid for not cutting down trees, and=09If a tree is not cut =
+down then=C2=A0everyone on Earth=C2=A0did not cut it down, but=09Only one o=
+f them gets the carbon credit.
+
+If a tree in Liberia is not cut down, then it is technically true that a Du=
+bai company didn=E2=80=99t cut it down, but it is also true that I=C2=A0did=
+n=E2=80=99t cut it down, and it is arguably even more true that the Liberia=
+n person who lives next to the tree did not cut it down. But the Dubai comp=
+any has some advantages in terms of getting paid.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Venture Global
+   =20
+ =20
+
+Love these guys:
+
+Michael Sabel=C2=A0and his partner, both industry novices, have made a fort=
+une virtually overnight by building from scratch one of the world=E2=80=99s=
+ largest gas exporters. They have also made some powerful enemies.
+Here at this sprawling facility spanning about 630 acres in the wetlands ou=
+tside New Orleans, Sabel said his company,=C2=A0Venture Global LNG, is on p=
+ace to leapfrog competitors and to rival Qatar as one of the world=E2=80=99=
+s top exporters of liquefied natural gas by 2030.
+But he must navigate a nasty feud with some of the industry=E2=80=99s bigge=
+st names.=C2=A0
+Venture Global=E2=80=99s earliest customers, including the oil giants BP an=
+d Shell, say the upstart company is ripping them off. =E2=80=A6
+BP and Shell argue that under the long-term contracts they signed over the =
+past decade with Venture Global, they should have begun receiving LNG cargo=
+es months ago, which they could sell through their vast trading arms. Inste=
+ad, when the Ukraine war broke out, and LNG prices soared, Venture Global s=
+old its gas at higher prices on the spot market=E2=80=94raking in more than=
+ $14 billion in sales.=C2=A0
+=E2=80=9CIt=E2=80=99s very unusual, and it=E2=80=99s very disappointing,=E2=
+=80=9D Shell CEO=C2=A0Wael Sawan=C2=A0said in a November interview. =E2=80=
+=9CThis is, of course, a project that was underpinned by the offtake agreem=
+ents that companies like ours provided.=E2=80=9DVenture Global counters tha=
+t the contracts require it to deliver LNG to those early customers only whe=
+n its first plant in Louisiana, called Calcasieu Pass, is finished. And it =
+says even though the plant has shipped more than 200 cargoes, it isn=E2=80=
+=99t technically complete. Twenty-one months after Venture Global=E2=80=99s=
+ first overseas shipment, BP, Shell and other early buyers are still waitin=
+g, and seething.=C2=A0
+
+We  talked about this in August, but now there is a Wall Street Journal pro=
+file of Venture Global and the dispute, and it =E2=80=A6=C2=A0is really not=
+ more complicated than I thought it was? Venture Global has long-term suppl=
+y contracts with customers like BP and Shell, requiring it to sell them LNG=
+ cargoes at fixed prices. It signed these contracts well before it built it=
+s facility, =E2=80=9Cputting the project on the map and giving big banks co=
+nfidence to provide financing=E2=80=9D to build it, as the Journal reports.=
+ The customers got discounted prices in exchange for taking a risk on an un=
+proven new venture; Venture Global got commitments that allowed it to build=
+ its facility. The way those contracts work is that Venture Global has to s=
+tart delivering gas to the buyers when work on its plant is done and it ent=
+ers commercial operation. I wrote in August:
+It has a plant in Louisiana that =E2=80=9Chas yet to enter commercial opera=
+tions,=E2=80=9D but that nevertheless produces and sells LNG. There is some=
+ philosophical distinction there that eludes me: Intuitively, if you have a=
+ factory that is producing and selling LNG, that would seem to be a commerc=
+ial operation, but apparently if there=E2=80=99s something wrong with your =
+steam generators then, no, not commercial yet, fine.
+And then the spot price of natural gas shot up and Venture Global started p=
+roducing LNG and selling it in the spot market, arguing that, while the pla=
+nt is complete enough to export LNG, it is not complete complete, and so Ve=
+nture Global doesn=E2=80=99t have to fulfill the contracts yet. =E2=80=9CDo=
+ not flip the metaphysical switch that turns your not-in-commercial-operati=
+on plant into an in-commercial-operation plant,=E2=80=9D I said. =E2=80=9CI=
+n March, it told its long-term buyers that serious malfunctions in the Calc=
+asieu Pass power system would delay their contracted cargoes,=E2=80=9D says=
+ the Journal, though those malfunctions were not serious enough to delay th=
+e=C2=A0other=C2=A0cargoes, the ones it is selling at much higher prices in =
+the spot market. The long-term buyers do not like it. =E2=80=9CWhen the vas=
+t majority of your customers are pursuing some form of litigation against y=
+ou, it=E2=80=99s time to look in the mirror,=E2=80=9D the Shell spokesman s=
+aid. Venture Global disagrees:
+
+Sabel said customers knew from the beginning there would be an extended per=
+iod to get the plant fully operational and the company would sell cargoes t=
+o others during that period before fulfilling long-term contracts.
+=E2=80=9CYou get all-time low prices, we get to finish the facility,=E2=80=
+=9D he said.
+
+I hope that eventually they get the facility just about finished, but they =
+don=E2=80=99t, like, paint one last rivet. And then they say =E2=80=9Coops,=
+ still not finished, see, unpainted rivet,=E2=80=9D and keep selling LNG at=
+ high prices to spot buyers. (I hope Shell and BP grumble and buy at spot p=
+rices too!) And then eventually when gas prices drop and it=E2=80=99s less =
+uneconomical for Venture Global to sell at the contract prices, they say =
+=E2=80=9Cokay fine fine=E2=80=9D and paint the rivet. What a great trade.=
+=C2=A0
+
+ =20
+   =20
+      AI signals
+   =20
+ =20
+
+Two ways to use a computer to generate trading signals would be:
+=09Think about subtle characteristics of a company that might be good or ba=
+d for that company. Develop a hypothesis =E2=80=94=C2=A0=E2=80=9Cexecutives=
+ who say =E2=80=98I=E2=80=99 on earnings calls are bad narcissists, but exe=
+cutives who say =E2=80=98we=E2=80=99 on earnings calls are good inclusive l=
+eaders=E2=80=9D =E2=80=94=C2=A0and then use a computer to crunch the data a=
+nd evaluate the hypothesis. Take the hypotheses that are good =E2=80=94=C2=
+=A0the signals that turn out to work =E2=80=94=C2=A0and program them into a=
+ trading model, which uses the signals to buy and sell stocks.=09Just ask a=
+ computer =E2=80=9Cis this company good or what,=E2=80=9D and if the comput=
+er says =E2=80=9Cyeah it=E2=80=99s good=E2=80=9D you buy the stock.
+
+The advantage of the first method is that it is comprehensible; you can, at=
+ some level, explain your strategy, because you have reasons for every sign=
+al. Also those signals are more likely to be robust, less likely to be just=
+ statistical artifacts, if there is some explicable reasoning behind them.
+The advantage of the second method is, what if the computer is smarter than=
+ you? What if it sees subtle patterns that you miss?
+Anyway here=E2=80=99s   Bloomberg=E2=80=99s Justina Lee on =E2=80=9Cwhat ar=
+tificial-intelligence proponents are dreaming up these days, thanks to the =
+computational firepower of language models like ChatGPT=E2=80=9D:
+
+At its core, linguistic data-crunching seeks to help quants get better at p=
+redicting the future by analyzing the meaning of the text behind the number=
+s.=C2=A0
+Over at AllianceBernstein, data scientists Andrew Chin and Yuyu Fan are goi=
+ng all-in on AI tools to find hidden meanings in corporate spiel. Not every=
+ attempt has worked. For instance, when they dug into how Chinese companies=
+ summarize on-site visits from brokers, they found that the more complex th=
+e text =E2=80=94 like the length of sentences and unnecessary words =E2=80=
+=94 the more evidence that the firm in question is struggling.
+On the other hand, the number of words divided by the length of the broker =
+event, a proxy for speaking speed, didn=E2=80=99t mean much. In US earnings=
+ calls, they studied the use of the =E2=80=9Cwe=E2=80=9D pronoun as a sign =
+of collaboration and unity. That also proved meaningless.
+=E2=80=9CWe really try to generate a broad set of signals =E2=80=94 sometim=
+es hundreds =E2=80=94 but it doesn=E2=80=99t mean all of them will work,=E2=
+=80=9D said Fan, a senior data scientist at the $669 billion manager.
+Whereas machine reading used to rely on counting positive and negative word=
+s, the large language models behind chatbots are far better at parsing cont=
+ext even across meandering paragraphs. These robots not only purport to str=
+ucture the unstructured, they also promise to automate research tasks and g=
+enerate fresh trading ideas at breakneck speed. And the introduction of Cha=
+tGPT alone =E2=80=94 which has ingested enough text that it has a good gras=
+p of all subjects =E2=80=94 is a regime shift. Academic researchers have fo=
+und that simply telling the chatbot to rate if a news headline is good or b=
+ad for a stock has produced better results than prior methods.
+
+You can construct a query like =E2=80=9Cdoes this news story indicate that =
+the company=E2=80=99s leadership team is collaborative and not using comple=
+x answers to hide the truth,=E2=80=9D or you can construct a query like =E2=
+=80=9Ccomputer, would you buy this stock?=E2=80=9D I guess you=E2=80=99d fe=
+el better about your own contributions if you asked the more complicated qu=
+estions. Like, you are in charge here and the computer is just helping with=
+ the analysis. But =E2=80=9Csimply telling the chatbot to rate if a news he=
+adline is good or bad for a stock has produced better results than prior me=
+thods.=E2=80=9D
+
+ =20
+   =20
+      Celebrity SPACs
+   =20
+ =20
+
+For a while, not that long ago, there was a huge boom in special purpose ac=
+quisition companies. A SPAC is basically some financial quasi-celebrity rai=
+sing a bunch of money to go out and take a company public, and bigger finan=
+cial celebrities tended to get better results. If you were, for instance, C=
+hamath Palihapitiya, who became famous as the  SPAC King, you could raise a=
+ lot of money for a lot of SPACs, get meetings with a lot of high-profile p=
+rivate companies, close attractive deals with them and make a lot of money.=
+ (For yourself, anyway. Palihapitiya=E2=80=99s SPACs  did not perform parti=
+cularly well for his investors, but nobody=E2=80=99s perfect.)
+Palihapitiya is a somewhat arbitrary celebrity, though, and pretty quickly =
+the promotors of the SPAC boom realized that you could just get=C2=A0real=
+=C2=A0celebrities to do SPACs. In 2021,  the New York Times reported on SPA=
+Cs promoted by, among other people, Jay-Z, Shaquille O=E2=80=99Neal,=C2=A0S=
+erena Williams and=C2=A0Alex Rodriguez. (Also in 2021, the US Securities an=
+d Exchange Commission  put out an investor alert warning: =E2=80=9CNever in=
+vest in a SPAC based solely on a celebrity=E2=80=99s involvement.=E2=80=9D)=
+ I  wrote at the time that =E2=80=9Cone possibility is that this is ineffic=
+ient, and every celebrity has a SPAC because the SPAC market is unbelievabl=
+y frothy right now,=E2=80=9D so there was plenty of money to spend on celeb=
+rity marketing. But, I went on:
+Another possibility is that this is efficient, in a goofy way. It is probab=
+ly true that, in the business of sourcing and negotiating deals with privat=
+e companies, random celebrities do have certain advantages over experienced=
+ mergers-and-acquisitions bankers and semi-retired corporate operators.=C2=
+=A0There is undoubtedly a set of company founders who would be really excit=
+ed to take a meeting with noted former Citigroup banker Michael Klein, but =
+there is another set of founders who would be much more excited to take a m=
+eeting with noted current Warriors guard Steph Curry. The latter group is p=
+robably larger, and it is not obvious that it would be worse for investors.
+Obviously this is an empirical question: Either celebrity-led SPACs did=C2=
+=A0worse=C2=A0than banker-led SPACs, or they did=C2=A0better.=C2=A0(And the=
+ data is basically in, since the SPAC boom has emphatically ended.) And her=
+e is =E2=80=9CCelebrity SPACs: Advantageous or Gimmicky?=E2=80=9D by Emre K=
+uvvet in the Journal of Investing:
+Celebrity involvement with special purpose acquisition companies (SPACs) ha=
+s received intense criticism by the media and the SEC. Should investment ma=
+nagers be wary of celebrity SPACs? We examine the role of celebrities in th=
+e SPAC process and find that celebrity SPACs have more fundings, higher-qua=
+lity SPAC intermediaries, higher-quality target firms, higher returns, and =
+shorter duration of target acquisitions. Sponsors of celebrity SPACs also h=
+ave more =E2=80=9Cskin in the game.=E2=80=9D We show that while celebrity c=
+hairpeople, CEOs, and board members have positive impacts on the SPAC proce=
+ss, celebrity advisors do not have such positive effects.
+=E2=80=9CCelebrity advisor=E2=80=9D is just, like, throw some marketing mon=
+ey at a celebrity; =E2=80=9Ccelebrity board member=E2=80=9D is, Shaq might =
+show up at the meeting with the target to close the deal. That turns out to=
+ actually be worth something.
+
+ =20
+   =20
+      Binance is law-abiding now
+   =20
+ =20
+
+Crypto is mature enough by now that there are some good running bits, some =
+callbacks to old jokes. Tether has spent years telling anyone who will list=
+en that it is just months away from releasing an audit, and everyone has a =
+good laugh each time.=C2=A0And Binance has spent years  claiming that it wa=
+s located nowhere, to the point that when  Chinese police reportedly raided=
+ its Shanghai office, Binance  replied that=C2=A0it =E2=80=9Chas no fixed o=
+ffices in Shanghai or China, so it makes no sense that police raided on any=
+ offices and shut them down.=E2=80=9D Classic.
+But then Binance  pleaded guilty to a bunch of money laundering charges in =
+US federal court, agreeing to pay $4.3 billion in penalties and install a c=
+ompliance monitor to be generally more law-abiding. Its founder and chief e=
+xecutive officer, Changpeng =E2=80=9CCZ=E2=80=9D Zhao, also pleaded guilty =
+and stepped down as CEO. You might think this would put an end to the =E2=
+=80=9Cno location=E2=80=9D bit but, no, it=E2=80=99s too good. The  Financi=
+al Times reports on the new CEO, Richard Teng:
+
+Teng on Tuesday declined to reveal where the exchange was based. He also sa=
+id Binance has undergone audits in jurisdictions where it is regulated, but=
+ declined to name the audit firms involved.
+=E2=80=9CWhy do you feel so entitled to those answers?=E2=80=9D Teng asked =
+at the FT Crypto and Digital Assets Summit in London, adding that the compa=
+ny provides the necessary information to regulators. =E2=80=9CIs there a ne=
+ed for us to share all of this information publicly? No.=E2=80=9D=C2=A0
+
+I guess not, no, I guess it=E2=80=99s fine for a financial institution trus=
+ted with billions of dollars of customer money not to be located in any par=
+ticular jurisdiction? Binance=E2=80=99s  plea agreement requires it to hire=
+ a monitor to write reports on its anti-money-laundering compliance and sha=
+re them with the US Department of Justice, and requires Binance to =E2=80=
+=9Cprovide the Monitor with access to all =E2=80=A6=C2=A0facilities, and em=
+ployees, as reasonably requested by the Monitor, that fall within the scope=
+ of the Mandate of the Monitor,=E2=80=9D so I suppose the Justice Departmen=
+t can find out where Binance is located, but maybe not? Maybe the monitor w=
+ill be like =E2=80=9Chey can I visit headquarters=E2=80=9D and Binance will=
+ say =E2=80=9Cwhy do you feel entitled to that=E2=80=9D?=C2=A0
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+How Russia Punched an $11 Billion Hole in the West=E2=80=99s   Oil Sanction=
+s.=C2=A0Exxon Boosts Buybacks 14% as Hunt for More Oil Accelerates.=C2=A0FT=
+C Investigates Exxon=E2=80=99s $60 Billion  Deal for Pioneer. New York Coul=
+d Be the Latest State to  Ban Noncompete Agreements. China=E2=80=99s Coloss=
+al  Hidden-Debt Problem Is Coming to a Head. BlackRock to roll out first  g=
+enerative AI tools to clients next month.=C2=A0UK Fraud Cops Make Arrest in=
+   Fake Airplane Parts Scandal. Hedge fund trader at heart of  cum-ex scand=
+al extradited to Denmark.  Trafigura charged in Switzerland over alleged An=
+golan bribery. Facebook and Instagram  Steer Predators to Children, New Mex=
+ico Attorney General Alleges in Lawsuit. BAT to take =C2=A325bn impairment =
+charge on value of US  cigarette brands. Can Wegovy Fight   Alcoholism? Sup=
+reme Court Wary of  Remaking Income Tax. Taxpayers in Swiss City Can Settle=
+ Bills With   Bitcoin, Tether. Activist Nuns, With Stake in Smith & Wesson,=
+  Sue Gun Maker Over AR-15 Rifles.  PowerPoints to Santa.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] There are exceptions; it might take work to protect the trees from fo=
+rest fires or whatever.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck08pq.5im6/63d62611.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_10220243_806832212.1701886011044
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+If you live on some land, and it turns out there is oil under the land, the=
+n either you get to drill the oil and sell it and keep the money,
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.257406/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMjA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMDYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBb8bb8660"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.257406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzYwMzYxNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM4NjEwMjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB01ed4acb" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33603614&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33861020&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Carbon credits</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you live on some land, and it turns out the=
+re is oil under the land, then either you get to drill the oil and sell it =
+and keep the money, or the government does, or someone else does. There are=
+ various legal regimes. Perhaps you get to lease the oil rights to an oil c=
+ompany and keep some of the money. Perhaps you get nothing; perhaps the gov=
+ernment owns all the oil in your country and can cut its own deals with the=
+ oil companies without giving you anything. All sorts of possibilities. But=
+ in any case, either you get the money from the oil, or someone else does, =
+or you split it somehow. Or, of course, the oil is not discovered, or not e=
+xploited, and nobody gets the money.</p>
+<p style=3D"margin: 16px 0;">Similarly, if you live on some land, and it ha=
+s trees, and you don=E2=80=99t cut down the trees, then the trees store car=
+bon that might otherwise go into the atmosphere, and therefore they reduce =
+global warming. And in the modern economy, those trees =E2=80=94=C2=A0or, r=
+ather, the fact of not cutting down the trees =E2=80=94=C2=A0can be turned =
+into carbon credits; some big company will pay money for those credits to o=
+ffset its own emissions. But who gets to sell the carbon credits and keep t=
+he money? Again, the possibilities include (1) you, as the person living on=
+ the land, (2) the government, or (3) someone else. Perhaps you can cut a d=
+eal with a carbon-credit company to preserve the trees, generate the credit=
+s and split the money. Perhaps the government owns all the not-cutting-down=
+-trees in your country and can cut its own deals with global markets withou=
+t giving you anything. All sorts of possibilities.</p>
+<p style=3D"margin: 16px 0;">In a rigorous accounting regime, either you wo=
+uld get the money, or someone else would, or you=E2=80=99d split it, but un=
+like with oil, the laws of physics do not really dictate a rigorous account=
+ing regime. If you sell oil to someone, you can=E2=80=99t sell it to someon=
+e else. If you sell not-cutting-down-trees to someone, nothing in nature pr=
+events you (or someone else!) from also selling not-cutting-down those same=
+ trees to someone else, though well constructed carbon credit regimes do. T=
+his week the US Commodity Futures Trading Commission <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3cuY2Z0Yy5n=
+b3YvUHJlc3NSb29tL1ByZXNzUmVsZWFzZXMvODgyOS0yMw/607f07ceef4b8524a319a23cB486=
+d7e0b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">proposed some guidance</a> on voluntary carbon credit regime=
+s, emphasizing the importance of =E2=80=9Cno double counting,=E2=80=9D=C2=
+=A0 that is, =E2=80=9Cthat the [voluntary carbon credits] representing the =
+credited emission reductions or removals are issued to only one registry an=
+d cannot be used after retirement or cancelation.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Also, of course, <em>nobody</em> might get the=
+ money from the carbon credits =E2=80=94=C2=A0the carbon credits might not =
+be produced and sold =E2=80=94 but this is also a bit different from the ca=
+se of oil. To drill up oil, you have to (1) know it is there (under the gro=
+und) and (2) spend money on drilling, storage, transportation, etc. Not cut=
+ting down trees is, as a matter of physical reality, much simpler than dril=
+ling up oil:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The trees are above ground (they are =
+trees), so you can see them, so you know they are there.</li>=09<li style=
+=3D"margin-bottom: 5px;">Not cutting them down is easy and free: Cutting do=
+wn trees takes intentional effort, so you can just not do that.<a class=3D"=
+footnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: none !important; background-color: transparent !impo=
+rtant; display: inline-block;">
+<span>[1]</span>
+</a>
+</li>
+</ol>
+<p style=3D"margin: 16px 0;">That oversimplifies, though. For one thing, th=
+ere is some opportunity cost of not cutting down the trees. (You can=E2=80=
+=99t use them for firewood, building materials, etc.) For another thing, th=
+ere is some cost of certifying and marketing the carbon credits. Also, thou=
+gh, a rigorous carbon credit regime doesn=E2=80=99t give you credit=C2=A0<e=
+m>just=C2=A0</em>for not cutting down any old trees; it gives you credit on=
+ly for cutting down trees that=C2=A0<em>otherwise would have been cut down<=
+/em>. So if you live near a forest and enjoy the views and leave the trees =
+alone, and then you try to sell carbon credits, the carbon credit buyers wi=
+ll say =E2=80=9Cno those trees are fine anyway.=E2=80=9D The CFTC guidance =
+also emphasizes the importance of =E2=80=9Cadditionality,=E2=80=9D=C2=A0tha=
+t is, =E2=80=9Cwhether the [voluntary carbon credits] are credited only for=
+ projects or activities that result in [greenhouse gas] emission reductions=
+ or removals that would not have been developed or implemented in the absen=
+ce of the added monetary incentive created by the revenue from the sale of =
+carbon credits.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">And so if you just live on some land, and it h=
+as some trees, and you leave those trees alone and have for generations, yo=
+u might have a hard time making money from the carbon credit market. Wherea=
+s if you live on some land, and it has some trees, and you sometimes chop d=
+own those trees for firewood and building materials, and have for generatio=
+ns, the efficient carbon credit market approach might be for your governmen=
+t to bring in someone=C2=A0<em>else =E2=80=94</em>=C2=A0some outside carbon=
+ credit company =E2=80=94=C2=A0to manage the trees and=C2=A0<em>protect the=
+m from you</em>, generating carbon credits. And then the outside company an=
+d the government split the money. Maybe they give you some of it, to compen=
+sate you for your loss of use of the trees.</p>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s a Financial Times story about =
+=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.=
+257406/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZjliZWFkNjktNzQwMS00NGZlLThkYjkt=
+MWM0MDYzYWU5NThj/607f07ceef4b8524a319a23cB450a77e9" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> the looming la=
+nd grab in Africa for carbon credits</a>=E2=80=9D:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">One day in late October, leaders from more tha=
+n a dozen towns across Liberia=E2=80=99s Gbi-Doru rainforest crammed into a=
+ whitewashed, tin-roofed church.</p>
+<p style=3D"margin: 16px 0;">They had gathered to hear for the first time a=
+bout a deal signed by their national government proposing to give Blue Carb=
+on, a private investment vehicle based thousands of miles away in Dubai, ex=
+clusive rights to develop carbon credits on land they claim as theirs.=C2=
+=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CNone of them were aware of the Blue C=
+arbon deal,=E2=80=9D says Andrew Zeleman, who helps lead Liberia=E2=80=99s =
+unions of foresters. ...<br /><br />Blue Carbon, a private company whose fo=
+under and chair Sheikh Ahmed Dalmook al-Maktoum is a member of Dubai=E2=80=
+=99s royal family, is in discussions to acquire management rights to millio=
+ns of hectares of land in Africa. The scale is enormous: the negotiations i=
+nvolve potential deals for about a tenth of Liberia=E2=80=99s land mass, a =
+fifth of Zimbabwe=E2=80=99s, and swaths of Kenya, Zambia and Tanzania.</p>
+<p style=3D"margin: 16px 0;">Blue Carbon=E2=80=99s intention is to sell the=
+ emission reductions linked to forest conservation in these regions as carb=
+on credits, under an unfinished international accounting framework for carb=
+on markets being designed by the UN. In a market that is being designed for=
+ and by governments, it is among the most active private brokers. =E2=80=A6=
+</p>
+<p style=3D"margin: 16px 0;">A copy of Blue Carbon=E2=80=99s memorandum of =
+understanding with Liberia, dated July and seen by the Financial Times, pro=
+posed to give the Dubai-based company exclusive rights to generate and sell=
+ carbon credits on about 1mn hectares of Liberian land. It would receive 70=
+ per cent of the value of the credits for the next three decades, and sell =
+these tax-free for a decade.=C2=A0The government would receive the other 30=
+ per cent, with some of this going to local communities.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The central conceptual oddity of carbon credit=
+s is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You can get paid for not cutting down=
+ trees, and</li>=09<li style=3D"margin-bottom: 5px;">If a tree is not cut d=
+own then=C2=A0<em>everyone on Earth=C2=A0</em>did not cut it down, but</li>=
+=09<li style=3D"margin-bottom: 5px;">Only one of them gets the carbon credi=
+t.</li>
+</ol>
+<p style=3D"margin: 16px 0;">If a tree in Liberia is not cut down, then it =
+is technically true that a Dubai company didn=E2=80=99t cut it down, but it=
+ is also true that <em>I=C2=A0</em>didn=E2=80=99t cut it down, and it is ar=
+guably even more true that the Liberian person who lives next to the tree d=
+id not cut it down. But the Dubai company has some advantages in terms of g=
+etting paid.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.257406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzYwMzYxNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM4NjEwMjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC78abef89" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33603614&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33861020&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.257406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzYwMzYxNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM4NjEwMjAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD78abef89" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33603614&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33861020&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Venture Global</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Love <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33603614.257406/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9lbmV=
+yZ3ktb2lsL3RoZS11LXMtZ2FzLXN0YXJ0dXAtYXQtdGhlLWNlbnRlci1vZi1hbi1lcGljLWZldW=
+Qtd2l0aC1nbG9iYWwtZW5lcmd5LWdpYW50cy1hNTlhMWIzOT9tb2Q9aHBfbGVhZF9wb3M2/607f=
+07ceef4b8524a319a23cB01cb2a26" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">these guys</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Michael Sabel=C2=A0and his partner, both indus=
+try novices, have made a fortune virtually overnight by building from scrat=
+ch one of the world=E2=80=99s largest gas exporters. They have also made so=
+me powerful enemies.</p>
+<p style=3D"margin: 16px 0;">Here at this sprawling facility spanning about=
+ 630 acres in the wetlands outside New Orleans, Sabel said his company,=C2=
+=A0Venture Global LNG, is on pace to leapfrog competitors and to rival Qata=
+r as one of the world=E2=80=99s top exporters of liquefied natural gas by 2=
+030.</p>
+<p style=3D"margin: 16px 0;">But he must navigate a nasty feud with some of=
+ the industry=E2=80=99s biggest names.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Venture Global=E2=80=99s earliest customers, i=
+ncluding the oil giants BP and Shell, say the upstart company is ripping th=
+em off. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">BP and Shell argue that under the long-term co=
+ntracts they signed over the past decade with Venture Global, they should h=
+ave begun receiving LNG cargoes months ago, which they could sell through t=
+heir vast trading arms. Instead, when the Ukraine war broke out, and LNG pr=
+ices soared, Venture Global sold its gas at higher prices on the spot marke=
+t=E2=80=94raking in more than $14 billion in sales.=C2=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s very unusual, and it=E2=
+=80=99s very disappointing,=E2=80=9D Shell CEO=C2=A0Wael Sawan=C2=A0said in=
+ a November interview. =E2=80=9CThis is, of course, a project that was unde=
+rpinned by the offtake agreements that companies like ours provided.=E2=80=
+=9D<br /><br />Venture Global counters that the contracts require it to del=
+iver LNG to those early customers only when its first plant in Louisiana, c=
+alled Calcasieu Pass, is finished. And it says even though the plant has sh=
+ipped more than 200 cargoes, it isn=E2=80=99t technically complete. Twenty-=
+one months after Venture Global=E2=80=99s first overseas shipment, BP, Shel=
+l and other early buyers are still waiting, and seething.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33603614.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDgtMDgvZG9uLXQtZG8tZGVhbHMtb24tbGlua2VkaW4_Y21waWQ9QkJE=
+MTIwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXI=
+mdXRtX3Rlcm09MjMxMjA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a=
+23cB4cd6c8d8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> talked about this in August</a>, but now there is a =
+Wall Street Journal profile of Venture Global and the dispute, and it =E2=
+=80=A6=C2=A0is really not more complicated than I thought it was? Venture G=
+lobal has long-term supply contracts with customers like BP and Shell, requ=
+iring it to sell them LNG cargoes at fixed prices. It signed these contract=
+s well before it built its facility, =E2=80=9Cputting the project on the ma=
+p and giving big banks confidence to provide financing=E2=80=9D to build it=
+, as the Journal reports. The customers got discounted prices in exchange f=
+or taking a risk on an unproven new venture; Venture Global got commitments=
+ that allowed it to build its facility. The way those contracts work is tha=
+t Venture Global has to start delivering gas to the buyers when work on its=
+ plant is done and it enters commercial operation. I wrote in August:</p>
+<blockquote><p style=3D"margin: 16px 0;">It has a plant in Louisiana that =
+=E2=80=9Chas yet to enter commercial operations,=E2=80=9D but that neverthe=
+less produces and sells LNG. There is some philosophical distinction there =
+that eludes me: Intuitively, if you have a factory that is producing and se=
+lling LNG, that would seem to be a commercial operation, but apparently if =
+there=E2=80=99s something wrong with your steam generators then, no, not co=
+mmercial yet, fine.</p></blockquote>
+<p style=3D"margin: 16px 0;">And then the spot price of natural gas shot up=
+ and Venture Global started producing LNG and selling it in the spot market=
+, arguing that, while the plant is complete enough to export LNG, it is not=
+ <em>complete </em>complete, and so Venture Global doesn=E2=80=99t have to =
+fulfill the contracts yet. =E2=80=9CDo not flip the metaphysical switch tha=
+t turns your not-in-commercial-operation plant into an in-commercial-operat=
+ion plant,=E2=80=9D I said. =E2=80=9CIn March, it told its long-term buyers=
+ that serious malfunctions in the Calcasieu Pass power system would delay t=
+heir contracted cargoes,=E2=80=9D says the Journal, though those malfunctio=
+ns were not serious enough to delay the=C2=A0<em>other=C2=A0</em>cargoes, t=
+he ones it is selling at much higher prices in the spot market. The long-te=
+rm buyers do not like it. =E2=80=9CWhen the vast majority of your customers=
+ are pursuing some form of litigation against you, it=E2=80=99s time to loo=
+k in the mirror,=E2=80=9D the Shell spokesman said. Venture Global disagree=
+s:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Sabel said customers knew from the beginning t=
+here would be an extended period to get the plant fully operational and the=
+ company would sell cargoes to others during that period before fulfilling =
+long-term contracts.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CYou get all-time low prices, we get t=
+o finish the facility,=E2=80=9D he said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I hope that eventually they get the facility <=
+em>just about </em>finished, but they don=E2=80=99t, like, paint one last r=
+ivet. And then they say =E2=80=9Coops, still not finished, see, unpainted r=
+ivet,=E2=80=9D and keep selling LNG at high prices to spot buyers. (I hope =
+Shell and BP grumble and buy at spot prices too!) And then eventually when =
+gas prices drop and it=E2=80=99s less uneconomical for Venture Global to se=
+ll at the contract prices, they say =E2=80=9Cokay fine fine=E2=80=9D and pa=
+int the rivet. What a great trade.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">AI signals</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Two ways to use a computer to generate trading=
+ signals would be:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Think about subtle characteristics of=
+ a company that might be good or bad for that company. Develop a hypothesis=
+ =E2=80=94=C2=A0=E2=80=9Cexecutives who say =E2=80=98I=E2=80=99 on earnings=
+ calls are bad narcissists, but executives who say =E2=80=98we=E2=80=99 on =
+earnings calls are good inclusive leaders=E2=80=9D =E2=80=94=C2=A0and then =
+use a computer to crunch the data and evaluate the hypothesis. Take the hyp=
+otheses that are good =E2=80=94=C2=A0the signals that turn out to work =E2=
+=80=94=C2=A0and program them into a trading model, which uses the signals t=
+o buy and sell stocks.</li>=09<li style=3D"margin-bottom: 5px;">Just ask a =
+computer =E2=80=9Cis this company good or what,=E2=80=9D and if the compute=
+r says =E2=80=9Cyeah it=E2=80=99s good=E2=80=9D you buy the stock.</li>
+</ol>
+<p style=3D"margin: 16px 0;">The advantage of the first method is that it i=
+s comprehensible; you can, at some level, explain your strategy, because yo=
+u have reasons for every signal. Also those signals are more likely to be r=
+obust, less likely to be just statistical artifacts, if there is some expli=
+cable reasoning behind them.</p>
+<p style=3D"margin: 16px 0;">The advantage of the second method is, what if=
+ the computer is smarter than you? What if it sees subtle patterns that you=
+ miss?</p>
+<p style=3D"margin: 16px 0;">Anyway here=E2=80=99s <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMDYvd2FsbC1zdHJlZXQtcXVhbnRzLWpvaW4tY=
+2hhdGJvdC1ib29tLWFzLWFpLWdvbGQtcnVzaC1pbnRlbnNpZmllcz9jbXBpZD1CQkQxMjA2MjNf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMzEyMDYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB023e0=
+5c6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Bloomberg=E2=80=99s Justina Lee</a> on =E2=80=9Cwhat artific=
+ial-intelligence proponents are dreaming up these days, thanks to the compu=
+tational firepower of language models like ChatGPT=E2=80=9D:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">At its core, linguistic data-crunching seeks t=
+o help quants get better at predicting the future by analyzing the meaning =
+of the text behind the numbers.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Over at AllianceBernstein, data scientists And=
+rew Chin and Yuyu Fan are going all-in on AI tools to find hidden meanings =
+in corporate spiel. Not every attempt has worked. For instance, when they d=
+ug into how Chinese companies summarize on-site visits from brokers, they f=
+ound that the more complex the text =E2=80=94 like the length of sentences =
+and unnecessary words =E2=80=94 the more evidence that the firm in question=
+ is struggling.</p>
+<p style=3D"margin: 16px 0;">On the other hand, the number of words divided=
+ by the length of the broker event, a proxy for speaking speed, didn=E2=80=
+=99t mean much. In US earnings calls, they studied the use of the =E2=80=9C=
+we=E2=80=9D pronoun as a sign of collaboration and unity. That also proved =
+meaningless.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe really try to generate a broad set=
+ of signals =E2=80=94 sometimes hundreds =E2=80=94 but it doesn=E2=80=99t m=
+ean all of them will work,=E2=80=9D said Fan, a senior data scientist at th=
+e $669 billion manager.</p>
+<p style=3D"margin: 16px 0;">Whereas machine reading used to rely on counti=
+ng positive and negative words, the large language models behind chatbots a=
+re far better at parsing context even across meandering paragraphs. These r=
+obots not only purport to structure the unstructured, they also promise to =
+automate research tasks and generate fresh trading ideas at breakneck speed=
+. And the introduction of ChatGPT alone =E2=80=94 which has ingested enough=
+ text that it has a good grasp of all subjects =E2=80=94 is a regime shift.=
+ Academic researchers have found that simply telling the chatbot to rate if=
+ a news headline is good or bad for a stock has produced better results tha=
+n prior methods.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">You can construct a query like =E2=80=9Cdoes t=
+his news story indicate that the company=E2=80=99s leadership team is colla=
+borative and not using complex answers to hide the truth,=E2=80=9D or you c=
+an construct a query like =E2=80=9Ccomputer, would you buy this stock?=E2=
+=80=9D I guess you=E2=80=99d feel better about your own contributions if yo=
+u asked the more complicated questions. Like, you are in charge here and th=
+e computer is just helping with the analysis. But =E2=80=9Csimply telling t=
+he chatbot to rate if a news headline is good or bad for a stock has produc=
+ed better results than prior methods.=E2=80=9D</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Celebrity SPACs</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">For a while, not that long ago, there was a hu=
+ge boom in special purpose acquisition companies. A SPAC is basically some =
+financial quasi-celebrity raising a bunch of money to go out and take a com=
+pany public, and bigger financial celebrities tended to get better results.=
+ If you were, for instance, Chamath Palihapitiya, who became famous as the =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.257406/aH=
+R0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8xMi8wNy9idXNpbmVzcy9jaGFtYXRoLXBhbGloY=
+XBpdGl5YS1zcGFjLWludmVzdG9ycy5odG1s/607f07ceef4b8524a319a23cBba37d786" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> SPAC King</a>, you could raise a lot of money for a lot of SPACs, get =
+meetings with a lot of high-profile private companies, close attractive dea=
+ls with them and make a lot of money. (For yourself, anyway. Palihapitiya=
+=E2=80=99s SPACs <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+3603614.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjIt=
+MDgtMTYvc3BhYy1raW5nLXBhbGloYXBpdGl5YS1nb2VzLXNpbGVudC13aXRoLWhpcy1lbXBpcmU=
+tc2hyaXZlbGluZz9jbXBpZD1CQkQxMjA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJn=
+V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMDYmdXRtX2NhbXBhaWduPW1vbmV5c=
+3R1ZmY/607f07ceef4b8524a319a23cBc4a4936a" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> did not perform particu=
+larly well</a> for his <em>investors</em>, but nobody=E2=80=99s perfect.)</=
+p>
+<p style=3D"margin: 16px 0;">Palihapitiya is a somewhat arbitrary celebrity=
+, though, and pretty quickly the promotors of the SPAC boom realized that y=
+ou could just get=C2=A0<em>real=C2=A0</em>celebrities to do SPACs. In 2021,=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.257406/a=
+HR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wMi8yNy9zdHlsZS9TUEFDUy1jZWxlYnJpdHkt=
+Y3JhemUuaHRtbA/607f07ceef4b8524a319a23cB49210940" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> the New York Tim=
+es reported</a> on SPACs promoted by, among other people, Jay-Z, Shaquille =
+O=E2=80=99Neal,=C2=A0Serena Williams and=C2=A0Alex Rodriguez. (Also in 2021=
+, the US Securities and Exchange Commission <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3cuc2VjLmdvdi9vaWVhL=
+2ludmVzdG9yLWFsZXJ0cy1hbmQtYnVsbGV0aW5zL2NlbGVicml0eS1pbnZvbHZlbWVudC1zcGFj=
+cy1pbnZlc3Rvci1hbGVydA/607f07ceef4b8524a319a23cB8fd80b1e" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> put out =
+an investor alert</a> warning: =E2=80=9CNever invest in a SPAC based solely=
+ on a celebrity=E2=80=99s involvement.=E2=80=9D) I <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDMtMDIvamF5LXotYWxleC1yb2RyaWd1ZXotc=
+3RlcGgtY3Vycnktc3BhY3MtYXJlLWEtY2VsZWJyaXR5LWFmZmFpcj9jbXBpZD1CQkQxMjA2MjNf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMzEyMDYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB8732c=
+85d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> wrote at the time</a> that =E2=80=9Cone possibility is that t=
+his is inefficient, and every celebrity has a SPAC because the SPAC market =
+is unbelievably frothy right now,=E2=80=9D so there was plenty of money to =
+spend on celebrity marketing. But, I went on:</p>
+<blockquote><p style=3D"margin: 16px 0;">Another possibility is that this i=
+s efficient, in a goofy way. It is probably true that, in the business of s=
+ourcing and negotiating deals with private companies, random celebrities do=
+ have certain advantages over experienced mergers-and-acquisitions bankers =
+and semi-retired corporate operators.=C2=A0There is undoubtedly a set of co=
+mpany founders who would be really excited to take a meeting with noted for=
+mer Citigroup banker Michael Klein, but there is another set of founders wh=
+o would be much more excited to take a meeting with noted current Warriors =
+guard Steph Curry. The latter group is probably larger, and it is not obvio=
+us that it would be worse for investors.</p></blockquote>
+<p style=3D"margin: 16px 0;">Obviously this is an empirical question: Eithe=
+r celebrity-led SPACs did=C2=A0<em>worse=C2=A0</em>than banker-led SPACs, o=
+r they did=C2=A0<em>better.=C2=A0</em>(And the data is basically in, since =
+the SPAC boom has emphatically ended.) And here is =E2=80=9C<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3cuc=
+G0tcmVzZWFyY2guY29tL2NvbnRlbnQvaWlqaW52ZXN0L2Vhcmx5LzIwMjMvMTEvMjMvam9pMjAy=
+MzEyOTI/607f07ceef4b8524a319a23cB7c7964d8" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Celebrity SPACs: Advanta=
+geous or Gimmicky?</a>=E2=80=9D by Emre Kuvvet in the Journal of Investing:=
+</p>
+<blockquote><p style=3D"margin: 16px 0;">Celebrity involvement with special=
+ purpose acquisition companies (SPACs) has received intense criticism by th=
+e media and the SEC. Should investment managers be wary of celebrity SPACs?=
+ We examine the role of celebrities in the SPAC process and find that celeb=
+rity SPACs have more fundings, higher-quality SPAC intermediaries, higher-q=
+uality target firms, higher returns, and shorter duration of target acquisi=
+tions. Sponsors of celebrity SPACs also have more =E2=80=9Cskin in the game=
+.=E2=80=9D We show that while celebrity chairpeople, CEOs, and board member=
+s have positive impacts on the SPAC process, celebrity advisors do not have=
+ such positive effects.</p></blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CCelebrity advisor=E2=80=9D is just, l=
+ike, throw some marketing money at a celebrity; =E2=80=9Ccelebrity board me=
+mber=E2=80=9D is, Shaq might show up at the meeting with the target to clos=
+e the deal. That turns out to actually be worth something.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Binance is law-abiding now</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Crypto is mature enough by now that there are =
+some good running bits, some callbacks to old jokes. Tether has spent years=
+ telling anyone who will listen that it is just months away from releasing =
+an audit, and everyone has a good laugh each time.=C2=A0And Binance has spe=
+nt years <a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.=
+257406/aHR0cHM6Ly93d3cuYml0c2Fib3V0bW9uZXkuY29tL2FyY2hpdmUvYm9uZC12aWxsYWlu=
+LWNvbXBsaWFuY2Utc3RyYXRlZ3kv/607f07ceef4b8524a319a23cBc85f97ea" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> cl=
+aiming that it was located nowhere</a>, to the point that when <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3=
+cudGhlYmxvY2suY28vcG9zdC80ODExMi9zZXR0aW5nLXRoZS1yZWNvcmQtc3RyYWlnaHQtb24tb=
+3VyLWJpbmFuY2UtcmVwb3J0aW5n/607f07ceef4b8524a319a23cB5ce06010" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Chi=
+nese police reportedly raided its Shanghai office</a>, Binance <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/33603614.257406/aHR0cHM6Ly9jb2=
+ludGVsZWdyYXBoLmNvbS9uZXdzL2JpbmFuY2UtZGVuaWVzLXBvbGljZS1yYWlkcy12ZXJ5LWV4a=
+XN0ZW5jZS1vZi1zaGFuZ2hhaS1vZmZpY2Vz/607f07ceef4b8524a319a23cB5958bac9" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> replied that</a>=C2=A0it =E2=80=9Chas no fixed offices in Shanghai or =
+China, so it makes no sense that police raided on any offices and shut them=
+ down.=E2=80=9D Classic.</p>
+<p style=3D"margin: 16px 0;">But then Binance <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3cuanVzdGljZS5nb3Y=
+vb3BhL3ByL2JpbmFuY2UtYW5kLWNlby1wbGVhZC1ndWlsdHktZmVkZXJhbC1jaGFyZ2VzLTRiLX=
+Jlc29sdXRpb24/607f07ceef4b8524a319a23cB6e8ede8a" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> pleaded guilty</a=
+> to a bunch of money laundering charges in US federal court, agreeing to p=
+ay $4.3 billion in penalties and install a compliance monitor to be general=
+ly more law-abiding. Its founder and chief executive officer, Changpeng =E2=
+=80=9CCZ=E2=80=9D Zhao, also pleaded guilty and stepped down as CEO. You mi=
+ght think this would put an end to the =E2=80=9Cno location=E2=80=9D bit bu=
+t, no, it=E2=80=99s too good. The <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33603614.257406/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNzdlOTI=
+4MmUtY2RlMi00ZWEyLWJjYmMtZWFlN2M4OGE3OTEw/607f07ceef4b8524a319a23cBee445355=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> Financial Times reports on the new CEO</a>, Richard Teng:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Teng on Tuesday declined to reveal where the e=
+xchange was based. He also said Binance has undergone audits in jurisdictio=
+ns where it is regulated, but declined to name the audit firms involved.</p=
+>
+<p style=3D"margin: 16px 0;">=E2=80=9CWhy do you feel so entitled to those =
+answers?=E2=80=9D Teng asked at the FT Crypto and Digital Assets Summit in =
+London, adding that the company provides the necessary information to regul=
+ators. =E2=80=9CIs there a need for us to share all of this information pub=
+licly? No.=E2=80=9D=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I guess not, no, I guess it=E2=80=99s fine for=
+ a financial institution trusted with billions of dollars of customer money=
+ not to be located in any particular jurisdiction? Binance=E2=80=99s <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/33603614.257406/aHR0cHM6=
+Ly93d3cuanVzdGljZS5nb3YvbWVkaWEvMTMyNjkwMS9kbD9pbmxpbmU/607f07ceef4b8524a31=
+9a23cB6d45248c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> plea agreement</a> requires it to hire a monitor t=
+o write reports on its anti-money-laundering compliance and share them with=
+ the US Department of Justice, and requires Binance to =E2=80=9Cprovide the=
+ Monitor with access to all =E2=80=A6=C2=A0facilities, and employees, as re=
+asonably requested by the Monitor, that fall within the scope of the Mandat=
+e of the Monitor,=E2=80=9D so I suppose the Justice Department can find out=
+ where Binance is located, but maybe not? Maybe the monitor will be like =
+=E2=80=9Chey can I visit headquarters=E2=80=9D and Binance will say =E2=80=
+=9Cwhy do you feel entitled to that=E2=80=9D?=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">How Russia Punched an $11 Billion Hole in the =
+West=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/336=
+03614.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMT=
+ItMDYvb2lsLXByaWNlcy1ob3ctcnVzc2lhLXB1bmNoZWQtYW4tMTEtYmlsbGlvbi1ob2xlLWluL=
+Xdlc3Qtcy1zYW5jdGlvbnMtcmVnaW1lP2NtcGlkPUJCRDEyMDYyM19NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTIwNiZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB13848e84" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  Oil Sa=
+nctions</a>.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/=
+33603614.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjM=
+tMTItMDYvZXh4b24tYm9vc3RzLXNoYXJlLWJ1eWJhY2tzLWFzLWh1bnQtZm9yLW1vcmUtb2lsLW=
+FjY2VsZXJhdGVzP2NtcGlkPUJCRDEyMDYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmd=
+XRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTIwNiZ1dG1fY2FtcGFpZ249bW9uZXlz=
+dHVmZg/607f07ceef4b8524a319a23cBcabc8374" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Exxon</a> Boosts Buyback=
+s 14% as Hunt for More Oil Accelerates.=C2=A0FTC Investigates Exxon=E2=80=
+=99s $60 Billion <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+3603614.257406/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9lbmVyZ3ktb2lsL2Z0Yy1p=
+bnZlc3RpZ2F0aW5nLWV4eG9ucy02MC1iaWxsaW9uLWRlYWwtZm9yLXBpb25lZXItZTc5YzlkNzU=
+_bW9kPWl0cF93c2o/607f07ceef4b8524a319a23cB4cc53de5" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> Deal for Pione=
+er</a>. New York Could Be the Latest State to <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3cud3NqLmNvbS9wb2x=
+pdGljcy9wb2xpY3kvbmV3LXlvcmstbm9uLWNvbXBldGUtZW1wbG95bWVudC1hNzJhMDA2ZT9tb2=
+Q9aHBfbGVhZF9wb3Mz/607f07ceef4b8524a319a23cB9f23ecbf" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Ban Noncompe=
+te Agreements</a>. China=E2=80=99s Colossal <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3cud3NqLmNvbS93b3JsZ=
+C9jaGluYS9jaGluYXMtY29sb3NzYWwtaGlkZGVuLWRlYnQtcHJvYmxlbS1pcy1jb21pbmctdG8t=
+YS1oZWFkLTgzYTM0ZGMwP21vZD1pdHBfd3Nq/607f07ceef4b8524a319a23cB07c421fc" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> Hidden-Debt Problem</a> Is Coming to a Head. BlackRock to roll out fi=
+rst <a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.25740=
+6/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvM2YzNDMxZjEtZDZkYy00MzEwLTllZGMtM2JjO=
+GNkYzQ2Y2Fh/607f07ceef4b8524a319a23cB89092e78" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> generative AI tools=
+</a> to clients next month.=C2=A0UK Fraud Cops Make Arrest in <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMDYvdWstZnJhdWQtY29wcy1tYW=
+tlLWFycmVzdC1pbi1hb2ctdGVjaG5pY3MtZmFrZS1haXJwbGFuZS1wYXJ0cy1zY2FuZGFsP2Ntc=
+GlkPUJCRDEyMDYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdz=
+bGV0dGVyJnV0bV90ZXJtPTIzMTIwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b=
+8524a319a23cBc2d0ed55" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">  Fake Airplane Parts</a> Scandal. Hedge fun=
+d trader at heart of <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/33603614.257406/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNmFmNmVmODAtNTEwNC00=
+OGIzLTg2MmUtMjA5NzExNTcyN2Qy/607f07ceef4b8524a319a23cB90805343" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> cu=
+m-ex scandal</a> extradited to Denmark. <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvY=
+2JlZjU2ZTQtZmY4Mi00YTFlLTllNGQtMDYxZGViZGMyNzk1/607f07ceef4b8524a319a23cBe4=
+6dcf70" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> Trafigura</a> charged in Switzerland over alleged Angolan =
+bribery. Facebook and Instagram <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33603614.257406/aHR0cHM6Ly93d3cud3NqLmNvbS90ZWNoL2ZhY2Vib29rL=
+WFuZC1pbnN0YWdyYW0tc3RlZXItcHJlZGF0b3JzLXRvLWNoaWxkcmVuLW5ldy1tZXhpY28tYXR0=
+b3JuZXktZ2VuZXJhbC1hbGxlZ2VzLWluLWxhd3N1aXQtYjc2YTViMDQ_bW9kPWhwX2xlYWRfcG9=
+zMg/607f07ceef4b8524a319a23cBaa8d534e" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> Steer Predators to Children=
+</a>, New Mexico Attorney General Alleges in Lawsuit. BAT to take =C2=A325b=
+n impairment charge on value of US <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/33603614.257406/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYTA4Ym=
+RjYzctNzhlMC00MDY2LWIyYzctNzkwZmVhYzc0NzEy/607f07ceef4b8524a319a23cB42b880e=
+9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> cigarette brands</a>. Can Wegovy Fight <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMDYvY2FuLW96ZW1waWMtd2Vnb3Z5LXRyZWF=
+0LWFsY29ob2xpc20tZm9yLWJpZy1waGFybWEtaXQtcy1ub3QtYS1wcmlvcml0eT9jbXBpZD1CQk=
+QxMjA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlc=
+iZ1dG1fdGVybT0yMzEyMDYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319=
+a23cBa18c9420" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  Alcoholism</a>? Supreme Court Wary of <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3=
+cud3NqLmNvbS91cy1uZXdzL2xhdy9zdXByZW1lLWNvdXJ0LWhlYXJzLWJpZ2dlc3QtdGF4LWNhc=
+2UtaW4tZGVjYWRlcy04NTU5YmU0OT9tb2Q9aXRwX3dzag/607f07ceef4b8524a319a23cB95b0=
+7271" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Remaking Income Tax</a>. Taxpayers in Swiss City Can Settle =
+Bills With <a href=3D"https://link.mail.bloombergbusiness.com/click/3360361=
+4.257406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMD=
+YvdGF4cGF5ZXJzLWluLXN3aXNzLWNpdHktY2FuLXNldHRsZS1iaWxscy13aXRoLWJpdGNvaW4td=
+GV0aGVyP2NtcGlkPUJCRDEyMDYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nv=
+dXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTIwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/=
+607f07ceef4b8524a319a23cBb958b8f6" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  Bitcoin, Tether</a>. Activist =
+Nuns, With Stake in Smith &amp; Wesson, <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3cud3NqLmNvbS91cy1uZXdzL=
+2FjdGl2aXN0LW51bnMtd2l0aC1zdGFrZS1pbi1zbWl0aC13ZXNzb24tc3VlLWd1bi1tYWtlci1v=
+dmVyLWFyLTE1LXJpZmxlcy00MDc1OTU0ND9tb2Q9aXRwX3dzag/607f07ceef4b8524a319a23c=
+B73a2a39a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> Sue Gun Maker</a> Over AR-15 Rifles. <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/33603614.257406/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS9saWZlc3R5bGUvY2hyaXN0bWFzLXdpc2gtbGlzdC1wcmVzZW50cy1wb3dlcnBvaW50LXN=
+saWRlcy1kNDcwZDkxNz9tb2Q9aHBfZmVhdHN0X3BvczU/607f07ceef4b8524a319a23cB69b90=
+e0c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> PowerPoints to Santa</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33603614.257406/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBdd06759e" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33603614.257406/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBd0c1823a" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] There are exceptions; it might take work t=
+o protect the trees from forest fires or whatever.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.257406/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB81c75ce9" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.257406/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB6e686bb7" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.257406/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB82a5b2a4" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.257406/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB2ce9c690" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.257406/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB837a3597" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.2574=
+06/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB4b0ab5c0" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33603614.257406/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCf0f6b429" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33603614.257406/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBb99ec8e0" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33603614.257406/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBd08f9c7f" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.257406/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB2=
+debb595" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33603614.257406/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB8=
+6bf5980" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck08pq.5im6/63d62611.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_10220243_806832212.1701886011044--
+

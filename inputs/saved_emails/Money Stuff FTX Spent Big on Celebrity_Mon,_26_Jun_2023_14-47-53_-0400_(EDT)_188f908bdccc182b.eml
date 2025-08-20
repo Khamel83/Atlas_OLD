@@ -1,0 +1,2120 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp7454487rwb;
+        Mon, 26 Jun 2023 11:47:59 -0700 (PDT)
+X-Received: by 2002:a05:600c:22c6:b0:3f9:b244:c294 with SMTP id 6-20020a05600c22c600b003f9b244c294mr26320249wmg.35.1687805279506;
+        Mon, 26 Jun 2023 11:47:59 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1687805279; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=VALgm/SaLwUN6vSJhsk3PoCHy7r9X4S0SenICH+RwSB859UgPCrEN/g4MtpwexgOaS
+         vd/cqDyzocT0qUdEp6/TpGOLeo463etIjrilWoT1IXXLWddGPlf0/5t6+VAoBxwrGfxA
+         3KKrFnHDrkY/dUsvD7MfggqIhKqOmFixlg+GgLDdGry61YHZA4W2iBnF1pLlnaebeAoR
+         Ai7WU9yINx4aPRkiwdDzDfQKp/EzfAvBc3kPHD0lv7ID2cFBEQ0a4oVjGOpLGbdHPtvs
+         VQGA7/Ae8HMapXBVYI2EVEDljoBXLdjePY3A5VmR/dxgQh3p00KwUDsNkOpTtgwr975v
+         hbaQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=tm/u9hCFqZsFf+hXyrutij/kYMjbJhssPk08m+EjtO0=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=VMKJHTmWuUDAZsxTTyJEJFAkg92dhuUiH0OP99ETIWa3cohlKMpxBwAHOc98eHa+ZQ
+         lh6u2VbkMvgaPb3dUEpGhaADZIxG05PIU7AuN2lbuIT9GZ22m2jlZkQj9wCzhijlWh6H
+         Af4WhxRi9SQYxqDcAxQ0WZXbZogqu4qU6FDKp+HizYkdEJ1s6WEKrF0xsCqY/5+o/NmN
+         npzc0Q3QZLpAjHhQQRPwCwsO2zeUDHHoGkaxUeO9cz5IBeKwxIloxvWWYb15ihpxd0Fo
+         /O+0Qgj2OFIv6/110aFtB9VUmdPjOR0nrzCwcq6MTXldSdD+COumc4M4VSPgFQ5ZX2t/
+         3LgA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vxp4RaZ7;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i27-20020adfa51b000000b003062e60c2f3sor1725489wrb.1.2023.06.26.11.47.59
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 26 Jun 2023 11:47:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vxp4RaZ7;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1687805279; x=1690397279;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=tm/u9hCFqZsFf+hXyrutij/kYMjbJhssPk08m+EjtO0=;
+        b=iMUeRfYrdiQT+AWjFiUvsEj90QJcdYXr4YE8XE1qKITKZSoyMdGtJ7pB7JJqldSjDO
+         5ZmdKnz/Cp5/2YDaaqWx7sAWpRo/N36O8ITE21ScJ8xiY7bnyckRkoaiiN+wuwtH6/dw
+         jPI8kuZoYXrIBHdA55Nld/3rSBedz5uPagu6jBecZPQcr0+lNidGyk98DUdIu6qH+JM6
+         H1Egp/f6PsNRUtbh0zZYeNJzcQ7Ahqra2XtdDRmRh3z6GVqzEwhmGsz8b5fIuLj3VrCD
+         VSt0HhzIltDOSb1HvLytAxr7jwsCpjuj4gTqqi/b/KICPYzepiVxYpK9qeQgwjFEWuie
+         As9w==
+X-Gm-Message-State: AC+VfDw0+1eXStrPU8na4DS6kKoJpAPho6JlHtRqpV9wP4jAzD1LH9/k
+	pYnuE5NdZ0gpkp2JmqdQeNYDN6QM+IbwBRsB6DkdJjXofOfgVx8Q1A==
+X-Received: by 2002:a5d:5582:0:b0:30e:57f2:9f0 with SMTP id i2-20020a5d5582000000b0030e57f209f0mr31622661wrv.39.1687805278946;
+        Mon, 26 Jun 2023 11:47:58 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:d4cc:0:0:0:0:0 with SMTP id w12csp430056wrk;
+        Mon, 26 Jun 2023 11:47:54 -0700 (PDT)
+X-Received: by 2002:a92:d6ca:0:b0:345:ab32:115 with SMTP id z10-20020a92d6ca000000b00345ab320115mr2792842ilp.4.1687805274264;
+        Mon, 26 Jun 2023 11:47:54 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1687805274; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=YwZk6AMFvdyo8CtTOAfmBotpL5upRl0949WLXsYasFT78YmbzRw5EwacoN/URmVAkg
+         Vl+NYi7YrpFCPXBbxrbDaz8icP4vTKEJPENlzcdVuQpG8wgEvVqYoMRoTTv+U6dztHtZ
+         JZOV6xYwo0FMW8ox8mO3FuQbOUmB6kYv0dywidTjG4NVxZ5a4uIqxoS4h0AJIOE1YMdE
+         TitnxXIZSdgl3atS0oGBbYZSkCnFbsanEv8019GEnnkqN6TUasq8lsac7k60SmUsBIG1
+         +Nzg+wEhl2Tj6lJlYA/saeHb1IcPcybq7hyg9x8oT281WGxqoK0/PunNkWt0mjdjTsEI
+         cIdw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=tm/u9hCFqZsFf+hXyrutij/kYMjbJhssPk08m+EjtO0=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=CXaM+neRR2o4ILue653Hf4iAsyomZyOFZ76cKrSnapTNGeUZOWfFYup9O2+Lq3N5H7
+         M2KtEwusEpfqKoSyk16ucmnjT3qbV1IQ4qm7LSawsym/xp07djFDhtU3fd1DTcjkC8y/
+         efbtIAOnuvg8+wZ9WxZ7HQF3+AQ62SHXcBKREYA1Y971NveoCNi0IS+nZ07TVk4mvaWo
+         vYuOc6y0HiHNT7Oyve+YoPrXnx4JGMtyKatrUwEx6beSXG2cAJipjjXlOElagYjAP4g6
+         43GCYx7RAb92BSu5rQW03t3lwSWC3s4WLba6oaOH8ttua+30VhWtgRs88bHnZ3x4JaeZ
+         AdmQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vxp4RaZ7;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230626144753.31906837.263401@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230626144753.31906837.263401@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230626144753.31906837.263401@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c5-20020a02a605000000b0042acca617aesor530331jam.12.2023.06.26.11.47.54
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 26 Jun 2023 11:47:54 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230626144753.31906837.263401@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ4q5wnZJYp6SChMTeEfeAjZ5gELRyWGNDsddvFRlvUaGOt/nTsZhqV726JWyggc3pHGP0DQlKoMnHJCX6SGnlH9Ly4jl+o=
+X-Received: by 2002:a92:d9cb:0:b0:340:9f52:a981 with SMTP id n11-20020a92d9cb000000b003409f52a981mr23221521ilq.2.1687805273841;
+        Mon, 26 Jun 2023 11:47:53 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1687805273; cv=none;
+        d=google.com; s=arc-20160816;
+        b=jA7vlTHpr9gl5IRKZQ8O8qeNtHmOxFcvdD/bUXFGxA41ahHFWzipAGCVsqjAIceGYI
+         BB9+R86GyJerdonSU7EkxrdEyWfhfuCHSwPEXtY+eRm9P6PgAEG9RqBM2ydWCvOU9UDN
+         TtVQmDxXrh+tT0LIuelKcbmg9mb3qFFDttvToElosNH58e+46fot2/PJHeDJ4X0aI1Ty
+         AfmO+rsFAbQc5SIp+to+4HG7dHKHCfy3M8xP8V0KKW7Fjkk0bNdBy9NTkOg24/Uy3B28
+         7rNMl8e/EClehVP7IUd8qohGMjtxW9eLxkqdeUgfwR4EzNJxOf9VD7ItfauNmluD7ZFC
+         8OEA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=tm/u9hCFqZsFf+hXyrutij/kYMjbJhssPk08m+EjtO0=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=MsxVTJmzy2f4lu8muuydWCYoZkNWTBX9AlJWqfQEq4oPxOeyJYMIpRyvlHMY/UAzqj
+         1YbigreHiC2YlanEqMJlr8XJ3zvu+XjwkjTQq4escy9XFr+dvz8Pc+uKTMZw+WD8ivxo
+         +oZByaCdGR0be9balQUSYtWenh6UpfL0TN7LdjUBn4sZD2ZniAGUUILrXEc1A/5/q91H
+         gez/8+GnqDkAay38UJGltAy5XhTkSBRjEAn4QCJjxeWtIHEj81t3ZLfbEN+92ZGID3Km
+         i+RMwzlW+MLgR2AiRaFMihSRw/w/5yLT3WJk0qDitTWv9+fgBGsGXwgNTk6LajS2F8hr
+         PPUA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vxp4RaZ7;
+       spf=pass (google.com: domain of delivery_20230626144753.31906837.263401@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230626144753.31906837.263401@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230626144753.31906837.263401@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id q9-20020a92ca49000000b0032e1027cbf4si406482ilo.1.2023.06.26.11.47.53
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 26 Jun 2023 11:47:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230626144753.31906837.263401@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=ljxu83jE64+E0HXGf9MJFIGcxpcli6/9+9fRwU2sUtg=;
+ b=vxp4RaZ78zwgYy9t4aV4zjvEs/MUJVTvfbMJogJPRur2j1vgVmyPLczr8sIwjgtz8f07OL3/QnXG
+   iuojkkNzHzIFmTFBx3hPPuHYWS4aqtQ6QCeRWWus/23yizwVKasNTv+pQ9P+UYJRlGWqbKRUkP39
+   aQDYhXERz6kZQLM2ncc=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by bloomberg-b.sailthru.com id hj7eli30nu8e for <bloomberg@khamel.com>; Mon, 26 Jun 2023 13:47:53 -0500 (envelope-from <delivery_20230626144753.31906837.263401@mx.sailthru.com>)
+Date: Mon, 26 Jun 2023 14:47:53 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230626144753.31906837.263401@sailthru.com>
+Subject: Money Stuff: FTX Spent Big on Celebrity
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8022095_1889070285.1687805273249"
+Precedence: bulk
+x-job: 6358-31906837-20230626
+X-Feedback-ID: 6358:31906837:campaign:sailthru
+X-TM-ID: 20230626144753.31906837.263401
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-tancanary.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cizvh1.5n8p/18fe29d0
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cizvh1.5n8p/18fe29d0>, <mailto:unsubscribe_20230626144753.31906837.263401@mx.sailthru.com>
+X-rpcampaign: stjko31906837
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_8022095_1889070285.1687805273249
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        For a while crypto was probably the highest bidder for celebrity an=
+d influence. A ton of money flowed into crypto over the last few years. M
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      K5
+   =20
+ =20
+
+For a while crypto was probably the highest bidder for celebrity and influe=
+nce. A ton of money flowed into crypto over the last few years. Margins wer=
+e high; it=E2=80=99s not like crypto firms had to build a lot of factories =
+and hire a lot of workers to make new tokens. Crypto went up based on socia=
+l adoption, on widespread respectability, on the prospect=C2=A0of increasin=
+g legality. If you were a crypto firm in 2022, funneling gobs of money to p=
+oliticians and former regulators and celebrities was a really good investme=
+nt in making your firm popular and respectable, and it didn=E2=80=99t reall=
+y compete that much with=C2=A0other=C2=A0investments. If you are Apple Inc.=
+, it is good to have regulators on your side and celebrities endorsing your=
+ products, but also you make phones and if you spend a lot of money making =
+the phones better then customers will want more of them. For large parts of=
+ the crypto ecosystem that, uh, was not really an option. Influencer market=
+ing and political lobbying were valuable and viable; making useful products=
+ that appealed to consumers in an immediate and intuitive way was not.
+And so here=C2=A0is  a New York Times story about some guys who were in the=
+ celebrity-and-influence business and were at the top of their game:
+
+A former aide to President Clinton, [Michael] Kives started working for Cre=
+ative Artists Agency in 2003, representing actors like Bruce Willis and Arn=
+old Schwarzenegger. At Mr. Kives=E2=80=99s 2019 wedding in Palm Springs, Ca=
+lif., [Katy] Perry sang =E2=80=9CHava Nagila,=E2=80=9D a Jewish folk song, =
+and two writers on =E2=80=9CThe Office=E2=80=9D delivered a roast.
+Mr. Kives started K5 in 2018. He was later joined by [Bryan] Baum, an entre=
+preneur who had co-founded a software company that was acquired by Lyft. K5=
+ has invested in start-ups including SpaceX and Boring Company, which are r=
+un by Elon Musk, amassing a portfolio of 148 companies.
+As they built K5, Mr. Kives and Mr. Baum touted their connections, includin=
+g with the billionaire financier Warren E. Buffett.
+  [1]
+
+
+Their firm, K5 Global, is an investment firm, and I suppose that running an=
+ investment firm is one way to monetize having a lot of connections to the =
+rich and famous: Your connections can help with raising money and also with=
+ getting into hot deals; =E2=80=9CI am good friends with Elon Musk=E2=80=9D=
+ is one way to get differentiated (
+not always good!) investment performance in recent years.=C2=A0
+But a better way to monetize those connections was apparently to  sell them=
+ to Sam Bankman-Fried:
+
+Mr. Kives, a Hollywood agent turned investor, played an unusual role in Mr.=
+ Bankman-Fried=E2=80=99s business empire: super connector. He and his busin=
+ess partner, Bryan Baum, helped the young founder cultivate relationships w=
+ith Mr. Bloom, Ms. Perry and former President Bill Clinton, and offered int=
+roductions to a who=E2=80=99s who of celebrities and business leaders, from=
+ Leonardo DiCaprio to the governor of Saudi Arabia=E2=80=99s Public Investm=
+ent Fund.
+The relationship was mutually beneficial. Mr. Bankman-Fried invested $700 m=
+illion in Mr. Kives=E2=80=99s venture-capital firm, court records show, an =
+extraordinary level of support for a fund with a short track record of star=
+t-up investments. Mr. Kives, the founder and face of the firm, and Mr. Baum=
+ each received $125 million as part of the deal.
+Mr. Kives, 42, and Mr. Baum, 34, were part of an under-the-radar network of=
+ middlemen who introduced celebrities and other power brokers to the once h=
+igh-flying crypto industry. Before cryptocurrencies crashed last year, a dr=
+umbeat of endorsements from Hollywood stars, professional athletes, busines=
+s titans and politicians created an aura of credibility around the volatile=
+ and largely unregulated market. ...
+On Thursday, FTX=E2=80=99s bankruptcy lawyers sued Mr. Kives=E2=80=99s firm=
+, K5 Global, to recover the money that Mr. Bankman-Fried had invested. The =
+$700 million was among the largest sums the FTX founder contributed to any =
+group; the lawsuit said he had made the investment =E2=80=9Cto burnish his =
+own political and social influence.=E2=80=9D
+
+One hundred twenty-five million dollars! Each!  The lawsuit makes it clear =
+that FTX paid them that money for some of their shares in their businesses,=
+ not as=C2=A0personal commissions, but it comes to about the same place. =
+=E2=80=9CNo due diligence or financial analysis was conducted to support th=
+is inflated valuation=E2=80=9D for the K5 businesses, says the complaint,=
+=C2=A0=E2=80=9Cand Kives and Baum knew that this valuation was not well fou=
+nded and was materially inflated.=E2=80=9D
+The complaint is generally a fun read:
+
+Kives and Bankman-Fried first connected via email on November 16, 2021, whe=
+n Kives helped introduce Bankman-Fried to world-renowned Australian musicia=
+n Sia. Shortly thereafter, Kives began inviting Bankman-Fried to dinner par=
+ties with Wall Street titans, Academy Award winning actors, and NBA stars. =
+On February 11, 2022, the Friday before the Super Bowl, Bankman-Fried atten=
+ded a dinner party at Kives=E2=80=99s house alongside former high-ranking p=
+oliticians, a centibillionaire CEO, and various other celebrities. The next=
+ day, February 12, 2022, Kives connected Bankman-Fried via email to a tech =
+company CEO and his wife, a former U.S. Ambassador to the Bahamas.
+On February 13, 2022, Bankman-Fried attended the Super Bowl as Kives=E2=80=
+=99s guest, along with A-list celebrities. Bankman-Fried was captivated by =
+Kives=E2=80=99s star-studded circle of friends, and two days later raved in=
+ an internal document that K5 Global was =E2=80=9Csomething of a one-stop s=
+hop for relationships that we should utilize.=E2=80=9D Bankman-Fried noted =
+that Kives and Baum wanted several things in exchange, including =E2=80=9C[=
+m]aybe us to invest in them,=E2=80=9D and, as described below, such investm=
+ents quickly followed.
+
+Alameda Research Ltd., Bankman-Fried=E2=80=99s trading firm, invested about=
+ $300 million in K5 entities and about $400 million in some K5 funds, which=
+ made venture investments with the money:
+As of September 18, 2022, K5X Fund I LP had invested $280.5 million. The va=
+st majority=E2=80=94$252 million=E2=80=94was invested in just eight compani=
+es, two of which were SpaceX ($189.7 million invested) and The Boring Compa=
+ny ($23 million invested), both founded by Elon Musk, with whom Kives purpo=
+rted to be close friends. These two investments represented approximately 7=
+6% of K5X Fund I LP=E2=80=99s portfolio.
+And:
+
+Bankman-Fried noted in an internal document that the FTX executive had ques=
+tioned whether Baum was acting in FTX=E2=80=99s best interest and had sugge=
+sted that this =E2=80=9Creek[ed]=E2=80=9D of Baum =E2=80=9Ctrying to nickel=
+ and dime FTX, or scam it a little bit . . . .=E2=80=9D
+Despite these concerns, Bankman-Fried defended Baum, describing what he bel=
+ieved was the root of the issue: =E2=80=9CIs Bryan an FTX employee, or a ra=
+ndom 3rd party? The answer, really, is neither. The answer is that it=E2=80=
+=99s sorta complicated and liminal and unclear. Bryan lives in the uncanny =
+valley=E2=80=9D (emphasis in original).
+
+Great.=C2=A0In bankruptcy, a company can in some circumstances=C2=A0get bac=
+k money that it paid to other companies, if it =E2=80=9Creceived less than =
+a reasonably equivalent value in exchange for such transfer or obligation=
+=E2=80=9D and was insolvent at the time. And so the FTX bankruptcy estate i=
+s suing Kives, Baum and K5 for the money back, because it =E2=80=9Cdid not =
+receive reasonably equivalent value in exchange for=E2=80=9D all the money =
+it sent them. Which seems right! One hundred twenty-five million dollars! E=
+ach! For some party invites!
+On the other hand:
+=09Ex ante, it is possible that trying to become friends with like Bill Cli=
+nton and Elon Musk and the head of the PIF and Sia was the best possible us=
+e of FTX=E2=80=99s $700 million. In the last few years, big crypto firms we=
+re in a race to achieve respectability and stability before they could be b=
+rought down by legal problems and/or by stealing all the money; FTX lost th=
+e race, but I=E2=80=99m not sure it was unreasonable for it to pour all of =
+its resources into running it. What else was it gonna do?=09Most of what FT=
+X/Alameda did, as they slid into bankruptcy, took the form of spending=C2=
+=A0real customer money on piles of magic beans. At the end, FTX was left wi=
+th a   balance sheet consisting mostly of Serum and MAPS and FTT and other =
+quasi-worthless tokens that Bankman-Fried made up. I suppose the stakes in =
+K5 are similarly magic-bean-ish, but=C2=A0at least=C2=A0some=C2=A0of the K5=
+ stuff was real! FTX put money into K5's funds and=C2=A0apparently got, lik=
+e, $189.7 million worth of SpaceX,   which is up since FTX invested, which =
+is more than you can say for FTT.=09The complaint says that FTX paid for mu=
+ch of Kives=E2=80=99s=C2=A0and Baum's stakes in K5 with =E2=80=9C$250 milli=
+on in shares of FTX Trading Ltd. and West Realm Shires, Inc.,=E2=80=9D whic=
+h I=E2=80=99m pretty sure are worth zero now. So arguably it did get equiva=
+lent value for=C2=A0that. Magic beans for magic beans.
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Bittrex v. SEC
+   =20
+ =20
+
+I   like to   say that all cryptocurrency exchanges are doing crimes, and i=
+f you=E2=80=99re lucky your exchange is doing only process crimes. But what=
+ if it is? Consider this simple hypothetical fact pattern:
+=09A crypto exchange has $1 billion of customer money.=09It has stolen none=
+ of this money! Good job.=09The exchange also has $50 million of its own mo=
+ney, which it very carefully keeps separate from the customer money, with n=
+o stealing allowed.=09The US Securities and Exchange Commission fines it $1=
+00 million for operating an illegal securities exchange.=09Now the exchange=
+ owes customers $1 billion and the SEC $100 million, for a total of $1.1 bi=
+llion.=09It has $1 billion of customer money and $50 million of its own mon=
+ey, for a total of $1.05 billion, which is less.=09Its liabilities exceed i=
+ts assets, so it files for bankruptcy.=09Do the customers get paid in full,=
+ or the SEC, or neither?
+
+This problem comes up because =E2=80=9Ccustomer money" is a fuzzier concept=
+ in crypto than it is in traditional banking or securities brokerage. When =
+you send dollars to a crypto exchange and use them to buy Bitcoins, and you=
+ look at your balance on the exchange's website and it says =E2=80=9C1.57 B=
+itcoins=E2=80=9D or whatever, you tend to think that those Bitcoins belong =
+to you. Frankly the exchange would probably=C2=A0prefer=C2=A0that those Bit=
+coins belong to you, for marketing and legal reasons.
+But the situation is not particularly clear, and it does seem more likely t=
+hat the exchange=C2=A0owns=C2=A0the Bitcoins, and just=C2=A0owes=C2=A0you a=
+n unsecured debt: If the exchange doesn=E2=80=99t have enough money to pay =
+back all its creditors, you may not get back all your Bitcoins. =E2=80=9CBe=
+cause custodially held crypto assets may be considered to be the property o=
+f a bankruptcy estate, in the event of a bankruptcy, the crypto assets we h=
+old in custody on behalf of our customers could be subject to bankruptcy pr=
+oceedings and such customers could be treated as our general unsecured cred=
+itors,=E2=80=9D  says Coinbase Global Inc., controversially but correctly. =
+And in fact lots of crypto businesses have gone bankrupt in the last year o=
+r so, and it=20
+does seem like the=20
+legal result is mostly that the coins belong to the crypto businesses and t=
+he customers are unsecured creditors. Which might mean that they would have=
+ to share with the SEC.
+Of course the other question here is, would the SEC actually do this? Would=
+ the SEC fine a crypto exchange=C2=A0more than all of its own money for ill=
+egally trading securities, and go after customers for the rest of the money=
+? On the one hand, it seems a little crazy: When it goes after crypto excha=
+nges for operating illegal securities exchanges, the SEC=E2=80=99s goal is =
+presumably to=C2=A0protect customers (by imposing=C2=A0on crypto exchanges =
+the disclosure, conflicts, supervision, etc. rules applicable to securities=
+ exchanges), and it would be strange to take customer money as a penalty fo=
+r customer-protection failings. On the other hand, I mean, surely the SEC=
+=E2=80=99s=C2=A0broader=C2=A0goal is to=C2=A0clamp down on crypto, and send=
+ing a message to crypto customers like =E2=80=9Cyour money is not safe at a=
+ny crypto exchange, because the SEC might take it=E2=80=9D has a certain de=
+terrent effect.
+Anyway this is all a=C2=A0bit=C2=A0fanciful, but also a bit not. In April  =
+ the SEC sued Bittrex Inc., a crypto exchange, for operating an unregistere=
+d securities exchange. Bittrex responded by, among other things, shutting d=
+own its US business and=20
+putting it into bankruptcy. But all of the customer=C2=A0money is there and=
+ accounted for, and Bittrex asked the bankruptcy court to let it process cu=
+stomer withdrawals normally.=C2=A0The Petition newsletter reports:
+The debtors filed a motion seeking entry of an order authorizing them to ho=
+nor withdrawals of crypto by customers. Interestingly, the debtors stated: =
+=E2=80=9Cthere may be a dispute between the Debtors and their customers as =
+to who owns the cryptocurrencies deposited by customers and stored in the D=
+ebtors=E2=80=99 wallets. The Debtors believe that they own the cryptocurren=
+cy assets. But, the proposed treatment, where customers will be permitted t=
+o withdraw cryptocurrencies equivalent to 100% of the cryptocurrencies they=
+ deposited as a distribution (subject to complying with information request=
+s to ensure that all governmental rules and regulations are satisfied) avoi=
+ds the expense and delay of litigation concerning ownership of those assets=
+, while still providing customers, the vast majority of which are individua=
+ls, the ability to receive a 100% distribution by withdrawing the cryptocur=
+rencies.=E2=80=9D
+That is: The customers technically have an unsecured claim on their crypto =
+assets, which are technically owned by Bittrex. But there=E2=80=99s plenty =
+of money and not much debt so it=E2=80=99s fine, Bittrex will just give the=
+m their=C2=A0crypto back anyway.
+Except that the SEC is still suing Bittrex, and presumably expects to extra=
+ct a large fine. And so the question arises: Can Bittrex give its customers=
+ back all their money, or does it have to hang on to some of that money to=
+=C2=A0potentially use to pay SEC fines? While the bankruptcy judge did sign=
+ the order allowing Bittrex to give its customers their money back, the ord=
+er explicitly said that it would not=C2=A0
+prohibit the Debtors, any liquidating trustee, plan administrator or any cr=
+editor, including the United States, from recovering from any customer the =
+value of any cryptocurrency assets or fiat currency such customer receives =
+that exceeds the distributions provided by the plan, if such general unsecu=
+red creditor or subordinated creditor is not paid in full, and, in such eve=
+nt, the entry of this Order shall not constitute collateral estoppel or res=
+ judicata of any customers' entitlement to cryptocurrency assets or priorit=
+y under any federal or state law.
+That is: If the SEC is not paid in full on whatever fines it ultimately ext=
+racts, it can go after Bittrex=E2=80=99s customers for the amounts they wit=
+hdrew. As Petition says =E2=80=9CSoooooo=E2=80=A6customers can withdraw the=
+ir crypto but that crypto is subject to a potential clawback in favor of th=
+e regulators? FUN!!=E2=80=9D=C2=A0Again this is all a bit fanciful, and I c=
+annot really imagine the SEC suing Bittrex=E2=80=99s customers for withdraw=
+ing their money. But it=E2=80=99s keeping the option open.
+
+ =20
+   =20
+      Due diligence
+   =20
+ =20
+
+I think sometimes about the similarities between these three businesses:
+=09Journalism=09Spying=09Fundamental investment analysis
+
+The basic job of many journalists and spies, and of a certain sort of analy=
+st, is to develop personal relationships and use them to find out useful in=
+formation that no one else knows, and then give that information to your cu=
+stomers. If you are a journalist your customers are your readers =E2=80=94=
+=C2=A0sometimes =E2=80=9Cthe public,=E2=80=9D but sometimes a rather narrow=
+er class of paying subscribers. If you are a spy your customer is your gove=
+rnment. If you are an investment analyst, your customer might be your hedge=
+ fund (your boss and your clients), or you might be producing research for =
+outside customers (basically,=C2=A0several=C2=A0hedge funds).
+The boundaries can be porous. There are some=C2=A0very=C2=A0niche financial=
+ publications, for instance. Consider this fact pattern:
+=09You work for a publication.=09You cultivate deep relationships with the =
+employees of a publicly traded company.=09They tell you that the company is=
+ cooking its books, and they smuggle out corporate documents proving it.=09=
+You write up your findings in a big detailed convincing report, put the hea=
+dline =E2=80=9CCompany X Is a Fraud=E2=80=9D on it,=C2=A0and publish it for=
+ your readers.
+
+If you work at Bloomberg News or the New York Times, and your readers are m=
+illions of subscribers and website visitors, this is pretty clearly =E2=80=
+=9Cjournalism,=E2=80=9D=C2=A0and good. If you work at a firm called Special=
+ized Stock Research and your readers are two hedge funds who each pay $1 mi=
+llion a year for your reports, this is pretty clearly =E2=80=9Cinvestment r=
+esearch,=E2=80=9D=C2=A0and regulators might have serious questions about wh=
+ether it is=C2=A0insider trading.=C2=A0Insiders at a public company leaked =
+information to you because of your long-standing relationship, and then you=
+ passed that information on to people who traded on it: That sounds a lot l=
+ike a crime.
+  [2]
+=C2=A0I wonder sometimes what the boundary is: Is there some minimum number=
+ of subscribers, or some maximum subscription price, that makes a report =
+=E2=80=9Cjournalism=E2=80=9D rather than =E2=80=9Cinsider trading=E2=80=9D?
+  [3]
+
+Similarly if your job is to work in China and find out stuff about Chinese =
+companies and policymakers and report back what you learned to an American =
+audience, you might be a spy (if the audience is the American government) o=
+r a journalist (American newspaper readers) or a due diligence consultant (=
+American investors). But in each case your activities will be kind of simil=
+ar, and subject to misinterpretation:
+
+Expert network consulting company Gerson Lehrman Group has become the lates=
+t due diligence firm to cut jobs in China as Beijing intensifies scrutiny o=
+f the sector on national security grounds.
+US-based GLG, which maintains a network of specialists that global investor=
+s can tap for due diligence on transactions, began trimming China staff las=
+t month, said several people familiar with the matter.
+The reductions come as Beijing cracks down on foreign consultancies this ye=
+ar, alarming international investors at a time of growing tensions between =
+the US and China. The campaign has made operating in China more difficult f=
+or foreign companies, which depend on the consultants to help navigate the =
+world=E2=80=99s second-largest economy. =E2=80=A6
+Investors and foreign multinationals said the crackdown made performing due=
+ diligence for investments and procurement contracts with Chinese partners =
+and suppliers difficult.
+
+Of course journalism is also sometimes misinterpreted as spying.=C2=A0
+
+ =20
+   =20
+      Art shares
+   =20
+ =20
+
+If a painting is worth $55 million, how much is a tradeable=C2=A0one-millio=
+nth fractional share of the painting worth? Three possible answers:
+=09$55, because $55 million divided by 1 million is $55.=09More than $55, b=
+ecause there are more people in the world with $55 than with $55 million, a=
+nd they will all want shares, and a deep liquid publicly traded pool of buy=
+ers will make the shares worth more than the painting itself.=09Less than $=
+55, because if you buy the painting for $55 million you can hang it over yo=
+ur couch, while if you buy a share for $55 you can=E2=80=99t hang anything =
+anywhere.
+
+I don=E2=80=99t know which is right. Intuitively, it seems to me that ownin=
+g an entire painting offers certain aesthetic and prestige benefits, while =
+owning any fraction of a painting does not offer any fraction of those bene=
+fits: Hanging nothing over your couch is not one one-millionth as valuable,=
+ interior-decor-wise, as hanging a fancy painting over your couch. But I ha=
+ve been wrong before, and the rise of crypto and=20
+non-fungible tokens does apparently teach the lesson that people will pay f=
+or, and derive some sort of prestige and aesthetic benefit from, an entry i=
+n a ledger saying that they own a tiny fraction of some object that they ca=
+nnot touch or look at.
+Also there is a sort of soft no-arbitrage condition, which is that if the s=
+hares all trade at, say, $30, then somebody could buy them all for $30 mill=
+ion, own the entire painting, and hang it over her couch, at a significant =
+discount to its real value of $55 million.
+  [4]
+
+Anyway  here=E2=80=99s this:
+
+A company named Artex is launching a roughly $55 million initial public off=
+ering of Bacon=E2=80=99s =E2=80=9CThree Studies for a Portrait of George Dy=
+er,=E2=80=9D painted shortly after the couple met in 1963. Shares in the po=
+rtrait will be sold for around $100 a piece and will list on a specially cr=
+eated art stock exchange based in Liechtenstein, giving regular investors t=
+he ability to buy and sell shares in a famous artwork on a stock exchange f=
+or the first time.=C2=A0
+Trading is expected to begin in July. The portrait will then go on public d=
+isplay in a museum, rather than be squirreled away in a freeport =E2=80=94 =
+high-security, low-tax warehouses where wealthy collectors often store valu=
+able works of art.=C2=A0
+
+Part of the pitch here is about reducing transaction costs:
+Artex has big plans to float $1 billion worth of paintings over the next fe=
+w months, each individual work with its own IPO. The company thinks supply =
+will come from private collectors that are looking for a cheaper alternativ=
+e to selling through auction houses like Sotheby=E2=80=99s and Christie=E2=
+=80=99s, which can charge up to 20% in commission. Artex takes a lower cut =
+of 3% of the IPO proceeds plus a small fee every time shares in the Bacon p=
+ortrait change hands.
+I assume that if you are Sotheby=E2=80=99s or Christie=E2=80=99s, your pitc=
+h to collectors is =E2=80=9Cwe will sell your painting to rich art collecto=
+rs with whom we have cultivated relationships and who want to hang it in th=
+eir houses, which will result in a price that is at least 25% higher than y=
+ou=E2=80=99d get by selling=C2=A0fractional shares in your painting to onli=
+ne randos who=C2=A0can=E2=80=99t=C2=A0hang it in their houses.=E2=80=9D I d=
+on=E2=80=99t know if that is correct, though, and it=E2=80=99s hard to meas=
+ure without much data.
+Also:
+The Bacon portrait also should be a bit easier to cash in and out of as it =
+will be publicly traded, and Artex will subsidize up to 3% of market value =
+daily to provide liquidity.
+In general, =E2=80=9Cwe will open up an exchange for X targeting retail inv=
+estors, and we will also be a market maker on that exchange, buying X when =
+retail investors want to sell it and selling it when they want to buy it=E2=
+=80=9D seems like a risky but usually lucrative business. (It=E2=80=99s a r=
+ough description of the modern=20
+US retail stock brokerage business; it has also made a lot of fortunes in c=
+rypto.) If you are Sotheby=E2=80=99s, the big problem with $55 million pain=
+tings is that they trade infrequently (though at huge spreads). If you are =
+Artex and you can succeed in making this Bacon painting trade dozens of tim=
+es a day (though in small fractional size and at tighter spreads), and you =
+get to be in the middle of each trade, that could be a good deal.
+Also:
+The first publicly listed artwork also raises the tantalizing possibility o=
+f a takeover of the Bacon portrait. If a billionaire collector or museum wa=
+nts to swoop in with a bid, they must offer a 20% premium to the average cl=
+osing price of the shares over the previous 20 trading days, according to r=
+ules set by Artex. A rival bidder can then step in and offer even more, tho=
+ugh unlike with a typical corporate takeover, shareholders don=E2=80=99t ge=
+t to vote on whether to accept the offer.=C2=A0
+This is a weird mechanism? Does it imply that the painting=C2=A0ought=C2=A0=
+to trade at a discount to its =E2=80=9Creal=E2=80=9D value in private hands=
+ (because any private buyer would have to pay a 20% premium)? If you are a =
+rich collector, would you rather buy a painting from Artex at a 20% premium=
+ to its trading price, or at a Christie=E2=80=99s auction with a 20% commis=
+sion?
+  [5]
+
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Goldman Taps Solomon Ally=20
+Montag for Board Amid Disquiet in Ranks.=C2=A0Goldman Sachs Is=20
+Cutting About 125 Managing Directors Globally. JPMorgan=20
+Cuts 40 Dealmakers in North America as Part of Global Reduction.=C2=A0Junk-=
+Rated Companies Accept Tougher Terms to Borrow. PacWest Sells Loans to Ares=
+ as=20
+Private-Credit Firms Circle Banks.=C2=A0Moody=E2=80=99s warns of =E2=80=98s=
+erious challenge=E2=80=99 to $1.4tn private credit market. Apollo Leads $2 =
+Billion  Private Financing for Semiconductor Firm Wolfspeed.=C2=A0Financial=
+ storm bears down on US  commercial real estate. Blackstone to   Sell Wareh=
+ouses to Prologis for $3.1 Billion. Europe=E2=80=99s  bank resolution autho=
+rity seeks =E2=80=98firepower=E2=80=99 to deal with collapsed lenders. Bund=
+esbank may need recapitalisation to cover bond-buying losses. Samsung Heirs=
+ Boost Borrowings to $3 Billion, Facing $10-Billion=20
+Inheritance Tax Bill. Companies Try New Strategy to  Stay in China: Siloing=
+.=C2=A0Elite law firms flock to  dealmaking Saudi Arabia amid global M&A dr=
+ought. AI Fails  Insider Trading Test. =E2=80=9CThe only fight outcome I ca=
+n really promise you is that  both men will embarrass themselves and that i=
+f one of them has a distinct physical advantage over the other, it will not=
+ be pleasant to watch unless you enjoy watching beatings.=E2=80=9D=C2=A0Bea=
+r breaks into house, steals pork chops, hangs out window.  Furby=E2=80=99s =
+back.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] =E2=80=9CIn an interview, Mr. Buffett said Mr. Kives was a =E2=80=98n=
+ame-dropper=E2=80=99 who =E2=80=98might pitch that he has a connection to m=
+e, but he doesn=E2=80=99t,=E2=80=99=E2=80=9D hee hee hee. If I were Warren =
+Buffett I would *love* to do =E2=80=9Cnever heard of him=E2=80=9D interview=
+s.
+
+
+  [2] Actual US insider trading law *sort of* incorporates a =E2=80=9Cperso=
+nal benefit test=E2=80=9D: It=E2=80=99s illegal insider trading if the insi=
+der got some benefit from leaking to you, and not if they just did it out o=
+f public-spiritedness or whatever. (In fact the original Supreme Court case=
+ stating this rule looked a lot like my hypothetical.) This is a bit vague,=
+ though, and  the test is pretty much always satisfied these days: Just the=
+ personal benefit of feeling good about your relationship can be enough to =
+satisfy the test.=20
+
+
+  [3] To me the interesting example is  the Blaszczak case, where a =E2=80=
+=9Cpolitical intelligence consultant=E2=80=9D wrote reports for a tiny grou=
+p of high-paying hedge-fund clients about government decisions. He used gov=
+ernment officials as sources for those reports, and was prosecuted for insi=
+der trading. If he wrote those reports for a larger group of clients who pa=
+id less, I think he would have just been a =E2=80=9Cjournalist=E2=80=9D and=
+ so not guilty of insider trading. (He was convicted, but the conviction wa=
+s reversed on appeal for reasons that aren=E2=80=99t directly related to my=
+ questions about the case.)
+
+
+  [4] This does not work in reverse: If the shares trade at $100, there is =
+no corresponding mechanism to capture the difference between the $100 milli=
+on market cap and the $55 million real value. This is   true for corporate =
+stocks too, by the way: If a company=E2=80=99s stock trades for much less t=
+han the present value of its cash flows, some bidder can buy all the stock,=
+ take over the company and capture the cash flows; if it trades for much mo=
+re than the present value of its cash flows, short sellers can=E2=80=99t do=
+ anything to *force* it back to a realistic valuation. By the way, though, =
+in corporate stocks there is at least a concept of a realistic valuation: =
+=E2=80=9CA company is worth the present value of its cash flows,=E2=80=9D e=
+tc. With art a painting is worth what someone will pay for it. In the text =
+I say that the painting is worth $55 million, as though that were a real fa=
+ct about the world, but that=E2=80=99s not really right.
+
+
+  [5] Also can you manipulate this automatic-fixed-premium, no-vote mechani=
+sm? If liquidity isn=E2=80=99t great in a painting, can you start shorting =
+shares of it to drive down the trading price, and then buy the whole painti=
+ng cheap at a premium to the manipulated market price? Even better: Divide =
+a $55 million painting into 1 million shares. Sell 500,000 of them in an IP=
+O and keep the rest. They start trading on the exchange, but somewhat sleep=
+ily. You start dumping some more shares, sloppily: Say you sell 100,000 sha=
+res over 20 days, driving the average price down to $40. (You have sold 600=
+,000 shares for total proceeds of about 30.7 million: $55 times 500,000 min=
+us a 3% fee is $26.7 million in the IPO, plus $4 million from selling 100,0=
+00 shares at an average price of $40.) Then you put in a bid to buy the who=
+le painting at $48 (a 20% premium to the trading price), no one outbids you=
+ in this sleepy odd market that you have manipulated, and you pay $28.8 mil=
+lion for the 600,000 shares you don=E2=80=99t own, a round-trip profit of a=
+bout $1.9 million, minus some transaction costs. And you get the painting b=
+ack.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cizvh1.5n8p/c9086df4.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8022095_1889070285.1687805273249
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+For a while crypto was probably the highest bidder for celebrity and influe=
+nce. A ton of money flowed into crypto over the last few years. M
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjI2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB319c7ffb"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTkwNjgzNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIxNzAyMzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB6eb8fefe" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31906837&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32170238&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">K5</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">For a while crypto was probably the highest bi=
+dder for celebrity and influence. A ton of money flowed into crypto over th=
+e last few years. Margins were high; it=E2=80=99s not like crypto firms had=
+ to build a lot of factories and hire a lot of workers to make new tokens. =
+Crypto went up based on social adoption, on widespread respectability, on t=
+he prospect=C2=A0of increasing legality. If you were a crypto firm in 2022,=
+ funneling gobs of money to politicians and former regulators and celebriti=
+es was a really good investment in making your firm popular and respectable=
+, and it didn=E2=80=99t really compete that much with=C2=A0<em>other=C2=A0<=
+/em>investments. If you are Apple Inc., it is good to have regulators on yo=
+ur side and celebrities endorsing your products, but also you make phones a=
+nd if you spend a lot of money making the phones better then customers will=
+ want more of them. For large parts of the crypto ecosystem that, uh, was n=
+ot really an option. Influencer marketing and political lobbying were valua=
+ble and viable; making useful products that appealed to consumers in an imm=
+ediate and intuitive way was not.</p>
+<p style=3D"margin: 16px 0;">And so here=C2=A0is <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d3cubnl0aW1lcy5j=
+b20vMjAyMy8wNi8yMy90ZWNobm9sb2d5L3NhbS1iYW5rbWFuLWZyaWVkLWNlbGVicml0eS1mcml=
+lbmRzLmh0bWw/607f07ceef4b8524a319a23cBb1ab10e0" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> a New York Times s=
+tory</a> about some guys who were in the celebrity-and-influence business a=
+nd were at the top of their game:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A former aide to President Clinton, [Michael] =
+Kives started working for Creative Artists Agency in 2003, representing act=
+ors like Bruce Willis and Arnold Schwarzenegger. At Mr. Kives=E2=80=99s 201=
+9 wedding in Palm Springs, Calif., [Katy] Perry sang =E2=80=9CHava Nagila,=
+=E2=80=9D a Jewish folk song, and two writers on =E2=80=9CThe Office=E2=80=
+=9D delivered a roast.</p>
+<p style=3D"margin: 16px 0;">Mr. Kives started K5 in 2018. He was later joi=
+ned by [Bryan] Baum, an entrepreneur who had co-founded a software company =
+that was acquired by Lyft. K5 has invested in start-ups including SpaceX an=
+d Boring Company, which are run by Elon Musk, amassing a portfolio of 148 c=
+ompanies.</p>
+<p style=3D"margin: 16px 0;">As they built K5, Mr. Kives and Mr. Baum toute=
+d their connections, including with the billionaire financier Warren E. Buf=
+fett.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: none !important; background-color: =
+transparent !important; display: inline-block;">
+<span>[1]</span>
+</a></p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Their firm, K5 Global, is an investment firm, =
+and I suppose that running an investment firm is one way to monetize having=
+ a lot of connections to the rich and famous: Your connections can help wit=
+h raising money and also with getting into hot deals; =E2=80=9CI am good fr=
+iends with Elon Musk=E2=80=9D is one way to get differentiated (<a href=3D"=
+https://link.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTAtMDMvZXZlcnlvbmUtd2Fu=
+dGVkLXRvLWJ1eS10d2l0dGVyLXdpdGgtZWxvbj9jbXBpZD1CQkQwNjI2MjNfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjYmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBc0cb3a97" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">
+not always good!</a>) investment performance in recent years.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But a better way to monetize those connections=
+ was apparently to <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/31906837.263401/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wNi8yMy90ZWNobm9sb2=
+d5L3NhbS1iYW5rbWFuLWZyaWVkLWNlbGVicml0eS1mcmllbmRzLmh0bWw/607f07ceef4b8524a=
+319a23cCb1ab10e0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> sell them to Sam Bankman-Fried</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Mr. Kives, a Hollywood agent turned investor, =
+played an unusual role in Mr. Bankman-Fried=E2=80=99s business empire: supe=
+r connector. He and his business partner, Bryan Baum, helped the young foun=
+der cultivate relationships with Mr. Bloom, Ms. Perry and former President =
+Bill Clinton, and offered introductions to a who=E2=80=99s who of celebriti=
+es and business leaders, from Leonardo DiCaprio to the governor of Saudi Ar=
+abia=E2=80=99s Public Investment Fund.</p>
+<p style=3D"margin: 16px 0;">The relationship was mutually beneficial. Mr. =
+Bankman-Fried invested $700 million in Mr. Kives=E2=80=99s venture-capital =
+firm, court records show, an extraordinary level of support for a fund with=
+ a short track record of start-up investments. Mr. Kives, the founder and f=
+ace of the firm, and Mr. Baum each received $125 million as part of the dea=
+l.</p>
+<p style=3D"margin: 16px 0;">Mr. Kives, 42, and Mr. Baum, 34, were part of =
+an under-the-radar network of middlemen who introduced celebrities and othe=
+r power brokers to the once high-flying crypto industry. Before cryptocurre=
+ncies crashed last year, a drumbeat of endorsements from Hollywood stars, p=
+rofessional athletes, business titans and politicians created an aura of cr=
+edibility around the volatile and largely unregulated market. ...</p>
+<p style=3D"margin: 16px 0;">On Thursday, FTX=E2=80=99s bankruptcy lawyers =
+sued Mr. Kives=E2=80=99s firm, K5 Global, to recover the money that Mr. Ban=
+kman-Fried had invested. The $700 million was among the largest sums the FT=
+X founder contributed to any group; the lawsuit said he had made the invest=
+ment =E2=80=9Cto burnish his own political and social influence.=E2=80=9D</=
+p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One hundred twenty-five million dollars! Each!=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/a=
+HR0cHM6Ly9yZXN0cnVjdHVyaW5nLnJhLmtyb2xsLmNvbS9GVFgvSG9tZS1Eb3dubG9hZFBERj9p=
+ZDE9TVRVek16YzNNQT09JmlkMj0tMQ/607f07ceef4b8524a319a23cB75c436ad" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ The lawsuit</a> makes it clear that FTX paid them that money for some of t=
+heir shares in their businesses, not as=C2=A0personal commissions, but it c=
+omes to about the same place. =E2=80=9CNo due diligence or financial analys=
+is was conducted to support this inflated valuation=E2=80=9D for the K5 bus=
+inesses, says the complaint,=C2=A0=E2=80=9Cand Kives and Baum knew that thi=
+s valuation was not well founded and was materially inflated.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">The complaint is generally a fun read:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Kives and Bankman-Fried first connected via em=
+ail on November 16, 2021, when Kives helped introduce Bankman-Fried to worl=
+d-renowned Australian musician Sia. Shortly thereafter, Kives began invitin=
+g Bankman-Fried to dinner parties with Wall Street titans, Academy Award wi=
+nning actors, and NBA stars. On February 11, 2022, the Friday before the Su=
+per Bowl, Bankman-Fried attended a dinner party at Kives=E2=80=99s house al=
+ongside former high-ranking politicians, a centibillionaire CEO, and variou=
+s other celebrities. The next day, February 12, 2022, Kives connected Bankm=
+an-Fried via email to a tech company CEO and his wife, a former U.S. Ambass=
+ador to the Bahamas.</p>
+<p style=3D"margin: 16px 0;">On February 13, 2022, Bankman-Fried attended t=
+he Super Bowl as Kives=E2=80=99s guest, along with A-list celebrities. Bank=
+man-Fried was captivated by Kives=E2=80=99s star-studded circle of friends,=
+ and two days later raved in an internal document that K5 Global was =E2=80=
+=9Csomething of a one-stop shop for relationships that we should utilize.=
+=E2=80=9D Bankman-Fried noted that Kives and Baum wanted several things in =
+exchange, including =E2=80=9C[m]aybe us to invest in them,=E2=80=9D and, as=
+ described below, such investments quickly followed.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Alameda Research Ltd., Bankman-Fried=E2=80=99s=
+ trading firm, invested about $300 million in K5 entities and about $400 mi=
+llion in some K5 funds, which made venture investments with the money:</p>
+<blockquote><p style=3D"margin: 16px 0;">As of September 18, 2022, K5X Fund=
+ I LP had invested $280.5 million. The vast majority=E2=80=94$252 million=
+=E2=80=94was invested in just eight companies, two of which were SpaceX ($1=
+89.7 million invested) and The Boring Company ($23 million invested), both =
+founded by Elon Musk, with whom Kives purported to be close friends. These =
+two investments represented approximately 76% of K5X Fund I LP=E2=80=99s po=
+rtfolio.</p></blockquote>
+<p style=3D"margin: 16px 0;">And:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Bankman-Fried noted in an internal document th=
+at the FTX executive had questioned whether Baum was acting in FTX=E2=80=99=
+s best interest and had suggested that this =E2=80=9Creek[ed]=E2=80=9D of B=
+aum =E2=80=9Ctrying to nickel and dime FTX, or scam it a little bit . . . .=
+=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Despite these concerns, Bankman-Fried defended=
+ Baum, describing what he believed was the root of the issue: =E2=80=9C<em>=
+Is Bryan an FTX employee, or a random 3rd party?</em> The answer, really, i=
+s<em> neither</em>. The answer is that it=E2=80=99s sorta complicated and l=
+iminal and unclear. Bryan lives in the uncanny valley=E2=80=9D (emphasis in=
+ original).</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Great.=C2=A0In bankruptcy, a company can in so=
+me circumstances=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/31906837.263401/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzE=
+xLzU0OA/607f07ceef4b8524a319a23cB3dd53ec3" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">get back money that it p=
+aid</a> to other companies, if it =E2=80=9Creceived less than a reasonably =
+equivalent value in exchange for such transfer or obligation=E2=80=9D and w=
+as insolvent at the time. And so the FTX bankruptcy estate is suing Kives, =
+Baum and K5 for the money back, because it =E2=80=9Cdid not receive reasona=
+bly equivalent value in exchange for=E2=80=9D all the money it sent them. W=
+hich seems right! One hundred twenty-five million dollars! Each! For some p=
+arty invites!</p>
+<p style=3D"margin: 16px 0;">On the other hand:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Ex ante, it is possible that trying t=
+o become friends with like Bill Clinton and Elon Musk and the head of the P=
+IF and Sia was the best possible use of FTX=E2=80=99s $700 million. In the =
+last few years, big crypto firms were in a race to achieve respectability a=
+nd stability before they could be brought down by legal problems and/or by =
+stealing all the money; FTX <em>lost</em> the race, but I=E2=80=99m not sur=
+e it was unreasonable for it to pour all of its resources into running it. =
+What else was it gonna do?</li>=09<li style=3D"margin-bottom: 5px;">Most of=
+ what FTX/Alameda did, as they slid into bankruptcy, took the form of spend=
+ing=C2=A0real customer money on piles of magic beans. At the end, FTX was l=
+eft with a <a href=3D"https://link.mail.bloombergbusiness.com/click/3190683=
+7.263401/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMT=
+EtMTQvZnR4LXMtYmFsYW5jZS1zaGVldC13YXMtYmFkP2NtcGlkPUJCRDA2MjYyM19NT05FWVNUV=
+UZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYy=
+NiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7e6e66ed" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  balance sheet</a> consisting mostly of Serum and MAPS and FTT and othe=
+r quasi-worthless tokens that Bankman-Fried made up. I suppose the stakes i=
+n K5 are similarly magic-bean-ish, but=C2=A0at least=C2=A0<em>some=C2=A0</e=
+m>of the K5 stuff was real! FTX put money into K5's funds and=C2=A0apparent=
+ly got, like, $189.7 million worth of SpaceX, <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjMvc3BhY2V4LXRlbmRlci1vZmZlci1zYWlkLXRvLX=
+ZhbHVlLWNvbXBhbnktYXQtYWJvdXQtMTUwLWJpbGxpb24_Y21waWQ9QkJEMDYyNjIzX01PTkVZU=
+1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMw=
+NjI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB9e1c0421" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">  which is up</a> since FTX invested, which is more than you can say f=
+or FTT.</li>=09<li style=3D"margin-bottom: 5px;">The complaint says that FT=
+X paid for much of Kives=E2=80=99s=C2=A0and Baum's stakes in K5 with =E2=80=
+=9C$250 million in shares of FTX Trading Ltd. and West Realm Shires, Inc.,=
+=E2=80=9D which I=E2=80=99m pretty sure are worth zero now. So arguably it =
+did get equivalent value for=C2=A0<em>that</em>. Magic beans for magic bean=
+s.</li>
+</ol>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTkwNjgzNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIxNzAyMzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC617463d9" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31906837&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32170238&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTkwNjgzNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIxNzAyMzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD617463d9" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31906837&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32170238&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bittrex v. SEC</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/31906837.263401/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjMtMDMtMjcvdGhlLWNmdGMtY29tZXMtZm9yLWJpbmFuY2U_Y21waWQ9QkJEM=
+DYyNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXIm=
+dXRtX3Rlcm09MjMwNjI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a2=
+3cBdc76fa16" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  like</a> to <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/31906837.263401/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMjMtMDYtMDYvdGhlLXNlYy1jb21lcy1mb3ItY3J5cHRvP2NtcGlkPUJCR=
+DA2MjYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVy=
+JnV0bV90ZXJtPTIzMDYyNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319=
+a23cB401c6f51" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  say</a> that all cryptocurrency exchanges are doin=
+g crimes, and if you=E2=80=99re lucky your exchange is doing only process c=
+rimes. But what if it is? Consider this simple hypothetical fact pattern:</=
+p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">A crypto exchange has $1 billion of c=
+ustomer money.</li>=09<li style=3D"margin-bottom: 5px;">It has stolen none =
+of this money! Good job.</li>=09<li style=3D"margin-bottom: 5px;">The excha=
+nge also has $50 million of its own money, which it very carefully keeps se=
+parate from the customer money, with no stealing allowed.</li>=09<li style=
+=3D"margin-bottom: 5px;">The US Securities and Exchange Commission fines it=
+ $100 million for operating an illegal securities exchange.</li>=09<li styl=
+e=3D"margin-bottom: 5px;">Now the exchange owes customers $1 billion and th=
+e SEC $100 million, for a total of $1.1 billion.</li>=09<li style=3D"margin=
+-bottom: 5px;">It has $1 billion of customer money and $50 million of its o=
+wn money, for a total of $1.05 billion, which is less.</li>=09<li style=3D"=
+margin-bottom: 5px;">Its liabilities exceed its assets, so it files for ban=
+kruptcy.</li>=09<li style=3D"margin-bottom: 5px;">Do the customers get paid=
+ in full, or the SEC, or neither?</li>
+</ol>
+<p style=3D"margin: 16px 0;">This problem comes up because =E2=80=9Ccustome=
+r money" is a fuzzier concept in crypto than it is in traditional banking o=
+r securities brokerage. When you send dollars to a crypto exchange and use =
+them to buy Bitcoins, and you look at your balance on the exchange's websit=
+e and it says =E2=80=9C1.57 Bitcoins=E2=80=9D or whatever, you tend to thin=
+k that those Bitcoins belong to you. Frankly the exchange would probably=C2=
+=A0<em>prefer=C2=A0</em>that those Bitcoins belong to you, for marketing an=
+d legal reasons.</p>
+<p style=3D"margin: 16px 0;">But the situation is not particularly clear, a=
+nd it does seem more likely that the exchange=C2=A0<em>owns=C2=A0</em>the B=
+itcoins, and just=C2=A0<em>owes=C2=A0</em>you an unsecured debt: If the exc=
+hange doesn=E2=80=99t have enough money to pay back all its creditors, you =
+may not get back all your Bitcoins. =E2=80=9CBecause custodially held crypt=
+o assets may be considered to be the property of a bankruptcy estate, in th=
+e event of a bankruptcy, the crypto assets we hold in custody on behalf of =
+our customers could be subject to bankruptcy proceedings and such customers=
+ could be treated as our general unsecured creditors,=E2=80=9D <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d3=
+cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTY3OTc4OC8wMDAxNjc5Nzg4M=
+jMwMDAwMzEvY29pbi0yMDIyMTIzMS5odG0jaTA5ZGQwZmM1ODZlMDRlZjJiZWMyOTI4YTZiZGQ0=
+OTc3XzI2NQ/607f07ceef4b8524a319a23cB344fa4ac" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> says Coinbase Global=
+ Inc.</a>, controversially but correctly. And in fact lots of crypto busine=
+sses have gone bankrupt in the last year or so, and it <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTItMDYveW91LWNhbi10LXRlbGwtYW5hb=
+HlzdHMtdG9vLW11Y2g_Y21waWQ9QkJEMDYyNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFp=
+bCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjI2JnV0bV9jYW1wYWlnbj1tb25=
+leXN0dWZm/607f07ceef4b8524a319a23cBf42fa045" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">
+does seem like</a> the <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/31906837.263401/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjMtMDEtMDUvY29pbmRlYWwtcy1iZW50bGV5cy13ZXJlbi10LXJlYWw_Y21waWQ9QkJEM=
+DYyNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXIm=
+dXRtX3Rlcm09MjMwNjI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a2=
+3cB49398e11" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">
+legal result</a> is mostly that the coins belong to the crypto businesses a=
+nd the customers are unsecured creditors. Which might mean that they would =
+have to share with the SEC.</p>
+<p style=3D"margin: 16px 0;">Of course the other question here is, would th=
+e SEC actually do this? Would the SEC fine a crypto exchange=C2=A0<em>more =
+than all of its own money</em> for illegally trading securities, and go aft=
+er customers for the rest of the money? On the one hand, it seems a little =
+crazy: When it goes after crypto exchanges for operating illegal securities=
+ exchanges, the SEC=E2=80=99s goal is presumably to=C2=A0<em>protect custom=
+ers </em>(by imposing=C2=A0on crypto exchanges the disclosure, conflicts, s=
+upervision, etc. rules applicable to securities exchanges), and it would be=
+ strange to take customer money as a penalty for customer-protection failin=
+gs. On the other hand, I mean, surely the SEC=E2=80=99s=C2=A0<em>broader=C2=
+=A0</em>goal is to=C2=A0<em>clamp down on crypto</em>, and sending a messag=
+e to crypto customers like =E2=80=9Cyour money is not safe at any crypto ex=
+change, because the SEC might take it=E2=80=9D has a certain deterrent effe=
+ct.</p>
+<p style=3D"margin: 16px 0;">Anyway this is all a=C2=A0<em>bit=C2=A0</em>fa=
+nciful, but also a bit not. In April <a href=3D"https://link.mail.bloomberg=
+business.com/click/31906837.263401/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjMtMDQtMTcvdGhlLXNlYy1jb21lcy1mb3ItYml0dHJleD9jbXBpZD1=
+CQkQwNjI2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMzA2MjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cBd165feab" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  the SEC sued Bittrex Inc.</a>, a crypto exchang=
+e, for operating an unregistered securities exchange. Bittrex responded by,=
+ among other things, shutting down its US business and <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMDgvY3J5cHRvLXBsYXRmb3JtLWJpdHRyZ=
+XgtZmlsZXMtY2hhcHRlci0xMS1iYW5rcnVwdGN5LWluLWRlbGF3YXJlP2NtcGlkPUJCRDA2MjYy=
+M19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIzMDYyNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB29=
+bd915e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">
+putting it into bankruptcy</a>. But all of the customer=C2=A0money is there=
+ and accounted for, and Bittrex asked the bankruptcy court to let it proces=
+s customer withdrawals normally.=C2=A0The <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/31906837.263401/aHR0cHM6Ly9wZXRpdGlvbi5zdWJzdGFjay5=
+jb20vcC9iaXR0cmV4LXRha2VzLWl0LXRvLXRoZS1zZWM_dXRtX3NvdXJjZT1wb3N0LWVtYWlsLX=
+RpdGxlJnB1YmxpY2F0aW9uX2lkPTQmcG9zdF9pZD0xMzAwNTQwMjQmaXNGcmVlbWFpbD1mYWxzZ=
+SZ1dG1fbWVkaXVtPWVtYWls/607f07ceef4b8524a319a23cB264b3734" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">Petition=
+ newsletter</a> reports:</p>
+<blockquote><p style=3D"margin: 16px 0;">The debtors filed a motion seeking=
+ entry of an order authorizing them to honor withdrawals of crypto by custo=
+mers. Interestingly, the debtors stated: =E2=80=9Cthere may be a dispute be=
+tween the Debtors and their customers as to who owns the cryptocurrencies d=
+eposited by customers and stored in the Debtors=E2=80=99 wallets. The Debto=
+rs believe that they own the cryptocurrency assets. But, the proposed treat=
+ment, where customers will be permitted to withdraw cryptocurrencies equiva=
+lent to 100% of the cryptocurrencies they deposited as a distribution (subj=
+ect to complying with information requests to ensure that all governmental =
+rules and regulations are satisfied) avoids the expense and delay of litiga=
+tion concerning ownership of those assets, while still providing customers,=
+ the vast majority of which are individuals, the ability to receive a 100% =
+distribution by withdrawing the cryptocurrencies.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">That is: The customers technically have an uns=
+ecured claim on their crypto assets, which are technically owned by Bittrex=
+. But there=E2=80=99s plenty of money and not much debt so it=E2=80=99s fin=
+e, Bittrex will just give them their=C2=A0crypto back anyway.</p>
+<p style=3D"margin: 16px 0;">Except that the SEC is still suing Bittrex, an=
+d presumably expects to extract a large fine. And so the question arises: C=
+an Bittrex give its customers back all their money, or does it have to hang=
+ on to some of that money to=C2=A0<em>potentially use to pay SEC fines? </e=
+m>While the bankruptcy judge did sign the order allowing Bittrex to give it=
+s customers their money back, the order explicitly said that it would not=
+=C2=A0</p>
+<blockquote><p style=3D"margin: 16px 0;">prohibit the Debtors, any liquidat=
+ing trustee, plan administrator or any creditor, including the United State=
+s, from recovering from any customer the value of any cryptocurrency assets=
+ or fiat currency such customer receives that exceeds the distributions pro=
+vided by the plan, if such general unsecured creditor or subordinated credi=
+tor is not paid in full, and, in such event, the entry of this Order shall =
+not constitute collateral estoppel or res judicata of any customers' entitl=
+ement to cryptocurrency assets or priority under any federal or state law.<=
+/p></blockquote>
+<p style=3D"margin: 16px 0;">That is: If the SEC is not paid in full on wha=
+tever fines it ultimately extracts, it can go after Bittrex=E2=80=99s custo=
+mers for the amounts they withdrew. As Petition says =E2=80=9CSoooooo=E2=80=
+=A6customers can withdraw their crypto but that crypto is subject to a pote=
+ntial clawback in favor of the regulators? FUN!!=E2=80=9D=C2=A0Again this i=
+s all a bit fanciful, and I cannot really imagine the SEC suing Bittrex=E2=
+=80=99s customers for withdrawing their money. But it=E2=80=99s keeping the=
+ option open.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Due diligence</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I think sometimes about the similarities betwe=
+en these three businesses:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Journalism</li>=09<li style=3D"margin=
+-bottom: 5px;">Spying</li>=09<li style=3D"margin-bottom: 5px;">Fundamental =
+investment analysis</li>
+</ol>
+<p style=3D"margin: 16px 0;">The basic job of many journalists and spies, a=
+nd of a certain sort of analyst, is to develop personal relationships and u=
+se them to find out useful information that no one else knows, and then giv=
+e that information to your customers. If you are a journalist your customer=
+s are your readers =E2=80=94=C2=A0sometimes =E2=80=9Cthe public,=E2=80=9D b=
+ut sometimes a rather narrower class of paying subscribers. If you are a sp=
+y your customer is your government. If you are an investment analyst, your =
+customer might be your hedge fund (your boss and your clients), or you migh=
+t be producing research for outside customers (basically,=C2=A0<em>several=
+=C2=A0</em>hedge funds).</p>
+<p style=3D"margin: 16px 0;">The boundaries can be porous. There are some=
+=C2=A0<em>very=C2=A0</em>niche financial publications, for instance. Consid=
+er this fact pattern:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">You work for a publication.</li>=09<li=
+ style=3D"margin-bottom: 5px;">You cultivate deep relationships with the em=
+ployees of a publicly traded company.</li>=09<li style=3D"margin-bottom: 5p=
+x;">They tell you that the company is cooking its books, and they smuggle o=
+ut corporate documents proving it.</li>=09<li style=3D"margin-bottom: 5px;"=
+>You write up your findings in a big detailed convincing report, put the he=
+adline =E2=80=9CCompany X Is a Fraud=E2=80=9D on it,=C2=A0and publish it fo=
+r your readers.</li>
+</ul>
+<p style=3D"margin: 16px 0;">If you work at Bloomberg News or the New York =
+Times, and your readers are millions of subscribers and website visitors, t=
+his is pretty clearly =E2=80=9Cjournalism,=E2=80=9D=C2=A0and good. If you w=
+ork at a firm called Specialized Stock Research and your readers are two he=
+dge funds who each pay $1 million a year for your reports, this is pretty c=
+learly =E2=80=9Cinvestment research,=E2=80=9D=C2=A0and regulators might hav=
+e serious questions about whether it is=C2=A0<em>insider trading.=C2=A0</em=
+>Insiders at a public company leaked information to you because of your lon=
+g-standing relationship, and then you passed that information on to people =
+who traded on it: That sounds a lot like a crime.<a class=3D"footnote-index=
+" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: none !important; background-color: transparent !important; display=
+: inline-block;">
+<span>[2]</span>
+</a>=C2=A0I wonder sometimes what the boundary is: Is there some minimum nu=
+mber of subscribers, or some maximum subscription price, that makes a repor=
+t =E2=80=9Cjournalism=E2=80=9D rather than =E2=80=9Cinsider trading=E2=80=
+=9D?<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: none !important; background-color: t=
+ransparent !important; display: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Similarly if your job is to work in China and =
+find out stuff about Chinese companies and policymakers and report back wha=
+t you learned to an American audience, you might be a spy (if the audience =
+is the American government) or a journalist (American newspaper readers) or=
+ a due diligence consultant (American investors). But in each case your act=
+ivities will be kind of similar, and <a href=3D"https://link.mail.bloomberg=
+business.com/click/31906837.263401/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMjE2=
+MzQ1OTEtZWQ1My00ZDgzLTk2NGQtODAyYmVhYTdmYzY0/607f07ceef4b8524a319a23cB5acf1=
+dea" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">subject to misinterpretation</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Expert network consulting company Gerson Lehrm=
+an Group has become the latest due diligence firm to cut jobs in China as B=
+eijing intensifies scrutiny of the sector on national security grounds.</p>
+<p style=3D"margin: 16px 0;">US-based GLG, which maintains a network of spe=
+cialists that global investors can tap for due diligence on transactions, b=
+egan trimming China staff last month, said several people familiar with the=
+ matter.</p>
+<p style=3D"margin: 16px 0;">The reductions come as Beijing cracks down on =
+foreign consultancies this year, alarming international investors at a time=
+ of growing tensions between the US and China. The campaign has made operat=
+ing in China more difficult for foreign companies, which depend on the cons=
+ultants to help navigate the world=E2=80=99s second-largest economy. =E2=80=
+=A6</p>
+<p style=3D"margin: 16px 0;">Investors and foreign multinationals said the =
+crackdown made performing due diligence for investments and procurement con=
+tracts with Chinese partners and suppliers difficult.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Of course journalism is also sometimes <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6L=
+y93d3cud3NqLmNvbS9uZXdzL2V2YW4tZ2Vyc2hrb3ZpY2g/607f07ceef4b8524a319a23cB578=
+d0830" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">misinterpreted as spying</a>.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Art shares</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If a painting is worth $55 million, how much i=
+s a tradeable=C2=A0one-millionth fractional share of the painting worth? Th=
+ree possible answers:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">$55, because $55 million divided by 1=
+ million is $55.</li>=09<li style=3D"margin-bottom: 5px;">More than $55, be=
+cause there are more people in the world with $55 than with $55 million, an=
+d they will all want shares, and a deep liquid publicly traded pool of buye=
+rs will make the shares worth more than the painting itself.</li>=09<li sty=
+le=3D"margin-bottom: 5px;">Less than $55, because if you buy the painting f=
+or $55 million you can hang it over your couch, while if you buy a share fo=
+r $55 you can=E2=80=99t hang anything anywhere.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know which is right. Intuitive=
+ly, it seems to me that owning an entire painting offers certain aesthetic =
+and prestige benefits, while owning any fraction of a painting does not off=
+er any fraction of those benefits: Hanging nothing over your couch is not o=
+ne one-millionth as valuable, interior-decor-wise, as hanging a fancy paint=
+ing over your couch. But I have been wrong before, and the rise of crypto a=
+nd <a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMDkvdH=
+dlbnR5LXBlcmNlbnQtb2YtYS1waWN0dXJlLW9mLWEtZG9nP2NtcGlkPUJCRDA2MjYyM19NT05FW=
+VNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIz=
+MDYyNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc5f7b3b8" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">
+non-fungible tokens</a> does apparently teach the lesson that people will p=
+ay for, and derive some sort of prestige and aesthetic benefit from, an ent=
+ry in a ledger saying that they own a tiny fraction of some object that the=
+y cannot touch or look at.</p>
+<p style=3D"margin: 16px 0;">Also there is a sort of soft no-arbitrage cond=
+ition, which is that if the shares all trade at, say, $30, then somebody co=
+uld buy them all for $30 million, own the entire painting, and hang it over=
+ her couch, at a significant discount to its real value of $55 million.<a c=
+lass=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: none !important; background-color: transpare=
+nt !important; display: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Anyway <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31906837.263401/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9pc=
+G8tZnJhbmNpcy1iYWNvbi1wb3J0cmFpdC1nZW9yZ2UtZHllci1hcnQtbWFya2V0LTRhNjYwMDBh=
+/607f07ceef4b8524a319a23cB34926f42" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> here=E2=80=99s this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A company named Artex is launching a roughly $=
+55 million initial public offering of Bacon=E2=80=99s =E2=80=9CThree Studie=
+s for a Portrait of George Dyer,=E2=80=9D painted shortly after the couple =
+met in 1963. Shares in the portrait will be sold for around $100 a piece an=
+d will list on a specially created art stock exchange based in Liechtenstei=
+n, giving regular investors the ability to buy and sell shares in a famous =
+artwork on a stock exchange for the first time.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Trading is expected to begin in July. The port=
+rait will then go on public display in a museum, rather than be squirreled =
+away in a freeport =E2=80=94 high-security, low-tax warehouses where wealth=
+y collectors often store valuable works of art.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Part of the pitch here is about reducing trans=
+action costs:</p>
+<blockquote><p style=3D"margin: 16px 0;">Artex has big plans to float $1 bi=
+llion worth of paintings over the next few months, each individual work wit=
+h its own IPO. The company thinks supply will come from private collectors =
+that are looking for a cheaper alternative to selling through auction house=
+s like Sotheby=E2=80=99s and Christie=E2=80=99s, which can charge up to 20%=
+ in commission. Artex takes a lower cut of 3% of the IPO proceeds plus a sm=
+all fee every time shares in the Bacon portrait change hands.</p></blockquo=
+te>
+<p style=3D"margin: 16px 0;">I assume that if you are Sotheby=E2=80=99s or =
+Christie=E2=80=99s, your pitch to collectors is =E2=80=9Cwe will sell your =
+painting to rich art collectors with whom we have cultivated relationships =
+and who want to hang it in their houses, which will result in a price that =
+is at least 25% higher than you=E2=80=99d get by selling=C2=A0fractional sh=
+ares in your painting to online randos who=C2=A0<em>can=E2=80=99t=C2=A0</em=
+>hang it in their houses.=E2=80=9D I don=E2=80=99t know if that is correct,=
+ though, and it=E2=80=99s hard to measure without much data.</p>
+<p style=3D"margin: 16px 0;">Also:</p>
+<blockquote><p style=3D"margin: 16px 0;">The Bacon portrait also should be =
+a bit easier to cash in and out of as it will be publicly traded, and Artex=
+ will subsidize up to 3% of market value daily to provide liquidity.</p></b=
+lockquote>
+<p style=3D"margin: 16px 0;"><em>In general</em>, =E2=80=9Cwe will open up =
+an exchange for X targeting retail investors, and we will also be a market =
+maker on that exchange, buying X when retail investors want to sell it and =
+selling it when they want to buy it=E2=80=9D seems like a risky but usually=
+ lucrative business. (It=E2=80=99s a rough description of the modern <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDUvcm9iaW5ob29=
+kLWdhbWVzdG9wLXNhZ2EtcHJlc3N1cmVzLXBheW1lbnQtZm9yLW9yZGVyLWZsb3c_Y21waWQ9Qk=
+JEMDYyNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjMwNjI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cBdee1849c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">
+US retail stock brokerage business</a>; it has also made a lot of fortunes =
+in crypto.) If you are Sotheby=E2=80=99s, the big problem with $55 million =
+paintings is that they trade infrequently (though at huge spreads). If you =
+are Artex and you can succeed in making this Bacon painting trade dozens of=
+ times a day (though in small fractional size and at tighter spreads), and =
+you get to be in the middle of each trade, that could be a good deal.</p>
+<p style=3D"margin: 16px 0;">Also:</p>
+<blockquote><p style=3D"margin: 16px 0;">The first publicly listed artwork =
+also raises the tantalizing possibility of a takeover of the Bacon portrait=
+. If a billionaire collector or museum wants to swoop in with a bid, they m=
+ust offer a 20% premium to the average closing price of the shares over the=
+ previous 20 trading days, according to rules set by Artex. A rival bidder =
+can then step in and offer even more, though unlike with a typical corporat=
+e takeover, shareholders don=E2=80=99t get to vote on whether to accept the=
+ offer.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">This is a weird mechanism? Does it imply that =
+the painting=C2=A0<em>ought=C2=A0</em>to trade at a discount to its =E2=80=
+=9Creal=E2=80=9D value in private hands (because any private buyer would ha=
+ve to pay a 20% premium)? If you are a rich collector, would you rather buy=
+ a painting from Artex at a 20% premium to its trading price, or at a Chris=
+tie=E2=80=99s auction with a 20% commission?<a class=3D"footnote-index" hre=
+f=3D"#footnote-5" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[5]</span>
+</a></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Goldman Taps Solomon Ally <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjYvZ29sZG1hbi10YXBzLXRvbS1tb250Y=
+WctZm9yLWJvYXJkLWFtaWQtZGlzcXVpZXQtaW4tYmFuay1zLXJhbmtzP2NtcGlkPUJCRDA2MjYy=
+M19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIzMDYyNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBd1=
+7169e9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">
+Montag</a> for Board Amid Disquiet in Ranks.=C2=A0Goldman Sachs Is <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjMvZ29sZG1hbi1zYWNo=
+cy1iZWdpbnMtY3V0dGluZy1hYm91dC0xMjUtb2YtaXRzLW1hbmFnaW5nLWRpcmVjdG9ycz9jbXB=
+pZD1CQkQwNjI2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMzA2MjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cB3ce2b1c5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">
+Cutting About 125 Managing Directors</a> Globally. JPMorgan <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjMvanBtb3JnYW4tY3V0cy00MC1k=
+ZWFsbWFrZXJzLWluLW5vcnRoLWFtZXJpY2EtYW1pZC1nbG9iYWwtY3VsbD9jbXBpZD1CQkQwNjI=
+2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG=
+1fdGVybT0yMzA2MjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB=
+50053a09" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">
+Cuts 40 Dealmakers</a> in North America as Part of Global Reduction.=C2=A0<=
+a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aHR=
+0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9qdW5rLXJhdGVkLWNvbXBhbmllcy1hY2NlcHQtdG=
+91Z2hlci10ZXJtcy10by1ib3Jyb3ctMTY4ZjhiYWY_bW9kPWl0cF93c2omcnU9eWFob28/607f0=
+7ceef4b8524a319a23cB05df5365" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">Junk-Rated Companies</a> Accept Tough=
+er Terms to Borrow. PacWest Sells Loans to Ares as <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjYvcGFjd2VzdC1zZWxscy0zLTUtYmlsbGlvb=
+i1hc3NldC1iYWNrZWQtbG9hbi1wb3J0Zm9saW8tdG8tYXJlcz9jbXBpZD1CQkQwNjI2MjNfTU9O=
+RVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0=
+yMzA2MjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB78428a74"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">
+Private-Credit Firms</a> Circle Banks.=C2=A0Moody=E2=80=99s warns of =E2=80=
+=98serious challenge=E2=80=99 to $1.4tn <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZ=
+GU2ZWIyNDUtODBmZi00ZjljLWIyZWQtN2E0MTU1Mzg1MTJi/607f07ceef4b8524a319a23cBed=
+287b12" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">private credit market</a>. Apollo Leads $2 Billion <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjUvYXBvbGxvLWxlYWRz=
+LTItYmlsbGlvbi1wcml2YXRlLWZpbmFuY2luZy1mb3Itc2VtaWNvbmR1Y3Rvci1maXJtLXdvbGZ=
+zcGVlZD9jbXBpZD1CQkQwNjI2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cBbfe233ac" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Private Financing</a> for Semico=
+nductor Firm Wolfspeed.=C2=A0Financial storm bears down on US <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d3c=
+uZnQuY29tL2NvbnRlbnQvNjU4ZDkzN2YtZjgwNC00NjU2LWE5ZDgtNDI4YjljMmM5MTdk/607f0=
+7ceef4b8524a319a23cBaee8bd65" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> commercial real estate</a>. Blacksto=
+ne to <a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263=
+401/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjYvYmx=
+hY2tzdG9uZS10by1zZWxsLXdhcmVob3VzZXMtdG8tcHJvbG9naXMtZm9yLTMtMS1iaWxsaW9uP2=
+NtcGlkPUJCRDA2MjYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZ=
+XdzbGV0dGVyJnV0bV90ZXJtPTIzMDYyNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07cee=
+f4b8524a319a23cB0ae6f961" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  Sell Warehouses</a> to Prologis for $3.=
+1 Billion. Europe=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/31906837.263401/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMjVjNjgwY2QtN=
+jg1MC00YTM0LWIwMDktZmI5OGVjNzZhNDZk/607f07ceef4b8524a319a23cB8fcf1d62" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> bank resolution authority</a> seeks =E2=80=98firepower=E2=80=99 to dea=
+l with collapsed lenders. <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/31906837.263401/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNDZkMzk1MmEtNWV=
+lMi00MzFhLTg0MzAtNGE3MWU1MzBjYmNl/607f07ceef4b8524a319a23cBd56e6c77" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">Bundesbank</a> may need recapitalisation to cover bond-buying losses. Sam=
+sung Heirs Boost Borrowings to $3 Billion, Facing $10-Billion <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjYvc2Ftc3VuZy1oZWlycy1ib2=
+9zdC1ib3Jyb3dpbmdzLXRvLTMtYmlsbGlvbi1hcy10YXgtY29tZXMtZHVlP2NtcGlkPUJCRDA2M=
+jYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIzMDYyNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+B71b2c97d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">
+Inheritance Tax Bill</a>. Companies Try New Strategy to <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d3cud3NqL=
+mNvbS9hcnRpY2xlcy9jb21wYW5pZXMtdHJ5LW5ldy1zdHJhdGVneS10by1zdGF5LWluLWNoaW5h=
+LXNpbG9pbmctNjFjODg3MjE_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23=
+cBaa02f8d9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> Stay in China</a>: Siloing.=C2=A0Elite law firms flock=
+ to <a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.26340=
+1/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNjFmOTBhZTMtYmE2Zi00ODllLThiNmItNzUwN=
+jJmNTE3NGFj/607f07ceef4b8524a319a23cBf1733e95" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> dealmaking Saudi Ar=
+abia</a> amid global M&amp;A drought. AI Fails <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d3cuaW50ZWdyaXR5LX=
+Jlc2VhcmNoLmNvbS9haS1mYWlscy1pbnNpZGVyLXRyYWRpbmctdGVzdC8/607f07ceef4b8524a=
+319a23cB2496e514" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Insider Trading Test</a>. =E2=80=9CThe only figh=
+t outcome I can really promise you is that <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/31906837.263401/aHR0cHM6Ly93d3cudm94LmNvbS9jdWx0dX=
+JlLzIwMjMvNi8yMy8yMzc3MTc2OS9tdXNrLXp1Y2tlcmJlcmctY2FnZS1tYXRjaC1maWdodC11Z=
+mMtbW1h/607f07ceef4b8524a319a23cBd07c41e0" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> both men will embarrass=
+ themselves</a> and that if one of them has a distinct physical advantage o=
+ver the other, it will not be pleasant to watch unless you enjoy watching b=
+eatings.=E2=80=9D=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/31906837.263401/aHR0cHM6Ly93d3cudXBpLmNvbS9PZGRfTmV3cy8yMDIzLzA2LzIxL2=
+JlYXItcG9yay1jaG9wcy1TdGVhbWJvYXQtU3ByaW5ncy1Db2xvcmFkby85MTYxNjg3Mzc5MzIxL=
+w/607f07ceef4b8524a319a23cB9e1e59ac" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">Bear</a> breaks into house, st=
+eals pork chops, hangs out window. <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/31906837.263401/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90aG=
+UtaGl0LTkwcy10b3ktdGhhdC10ZXJyb3JpemVkLXBhcmVudHMtaXMtcmV0dXJuaW5nLXRvLXNoZ=
+Wx2ZXMtOWI5Y2RiZDU_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB2e1=
+7e65b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Furby=E2=80=99s</a> back.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31906837.263401/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB02b1b115" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31906837.263401/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB86a7ca17" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] =E2=80=9CIn an interview, Mr. Buffett said=
+ Mr. Kives was a =E2=80=98name-dropper=E2=80=99 who =E2=80=98might pitch th=
+at he has a connection to me, but he doesn=E2=80=99t,=E2=80=99=E2=80=9D hee=
+ hee hee. If I were Warren Buffett I would *love* to do =E2=80=9Cnever hear=
+d of him=E2=80=9D interviews.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Actual US insider trading law *sort of* in=
+corporates a =E2=80=9Cpersonal benefit test=E2=80=9D: It=E2=80=99s illegal =
+insider trading if the insider got some benefit from leaking to you, and no=
+t if they just did it out of public-spiritedness or whatever. (In fact the =
+original <a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.=
+263401/aHR0cHM6Ly9zdXByZW1lLmp1c3RpYS5jb20vY2FzZXMvZmVkZXJhbC91cy80NjMvNjQ2=
+Lw/607f07ceef4b8524a319a23cB151243b0" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">Supreme Court case stating th=
+is rule</a> looked a lot like my hypothetical.) This is a bit vague, though=
+, and <a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263=
+401/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMDgtMjQ=
+vbWFydG9tYS1ydWxpbmctc2hvd3MtdGhhdC1ldmVyeXRoaW5nLWlzLWluc2lkZXItdHJhZGluZy=
+1hZ2Fpbj9jbXBpZD1CQkQwNjI2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb=
+3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/=
+607f07ceef4b8524a319a23cBae891fa7" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> the test is pretty much always =
+satisfied these</a> days: Just the personal benefit of feeling good about y=
+our relationship can be enough to satisfy the test. </p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] To me the interesting example is <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMDUtMjUvaGVkZ2UtZnVu=
+ZC1nb3QtYmFuYW5hcy1ib25hbnphLW9mLWluc2lkZS1pbmZvcm1hdGlvbj9jbXBpZD1CQkQwNjI=
+2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG=
+1fdGVybT0yMzA2MjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB=
+7a0adc57" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> the Blaszczak case</a>, where a =E2=80=9Cpolitical intel=
+ligence consultant=E2=80=9D wrote reports for a tiny group of high-paying h=
+edge-fund clients about government decisions. He used government officials =
+as sources for those reports, and was prosecuted for insider trading. If he=
+ wrote those reports for a larger group of clients who paid less, I think h=
+e would have just been a =E2=80=9Cjournalist=E2=80=9D and so not guilty of =
+insider trading. (He was convicted, but the conviction was <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/31906837.263401/aHR0cHM6Ly9jb3JwZ2=
+92Lmxhdy5oYXJ2YXJkLmVkdS8yMDIzLzAzLzIxL3VuaXRlZC1zdGF0ZXMtdi1ibGFzemN6YWstY=
+29udGludWVzLXRvLXJlc2hhcGUtaW5zaWRlci10cmFkaW5nLWxhdy8/607f07ceef4b8524a319=
+a23cB7f55ee86" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">reversed on appeal</a> for reasons that aren=E2=80=
+=99t directly related to my questions about the case.)</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] This does not work in reverse: If the shar=
+es trade at $100, there is no corresponding mechanism to capture the differ=
+ence between the $100 million market cap and the $55 million real value. Th=
+is is <a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263=
+401/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTAtMTg=
+vbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1jcmVkaXQtc3Vpc3NlLXdhcy1hLXJldmVyc2UtbW=
+VtZS1zdG9jaz9jbXBpZD1CQkQwNjI2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cBbf2a780d" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  true for corporate stocks =
+too</a>, by the way: If a company=E2=80=99s stock trades for much less than=
+ the present value of its cash flows, some bidder can buy all the stock, ta=
+ke over the company and capture the cash flows; if it trades for much more =
+than the present value of its cash flows, short sellers can=E2=80=99t do an=
+ything to *force* it back to a realistic valuation. By the way, though, in =
+corporate stocks there is at least a concept of a realistic valuation: =E2=
+=80=9CA company is worth the present value of its cash flows,=E2=80=9D etc.=
+ With art a painting is worth what someone will pay for it. In the text I s=
+ay that the painting is worth $55 million, as though that were a real fact =
+about the world, but that=E2=80=99s not really right.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Also can you manipulate this automatic-fix=
+ed-premium, no-vote mechanism? If liquidity isn=E2=80=99t great in a painti=
+ng, can you start shorting shares of it to drive down the trading price, an=
+d then buy the whole painting cheap at a premium to the manipulated market =
+price? Even better: Divide a $55 million painting into 1 million shares. Se=
+ll 500,000 of them in an IPO and keep the rest. They start trading on the e=
+xchange, but somewhat sleepily. You start dumping some more shares, sloppil=
+y: Say you sell 100,000 shares over 20 days, driving the average price down=
+ to $40. (You have sold 600,000 shares for total proceeds of about 30.7 mil=
+lion: $55 times 500,000 minus a 3% fee is $26.7 million in the IPO, plus $4=
+ million from selling 100,000 shares at an average price of $40.) Then you =
+put in a bid to buy the whole painting at $48 (a 20% premium to the trading=
+ price), no one outbids you in this sleepy odd market that you have manipul=
+ated, and you pay $28.8 million for the 600,000 shares you don=E2=80=99t ow=
+n, a round-trip profit of about $1.9 million, minus some transaction costs.=
+ And you get the painting back.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB5aca7c3e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBab74d21b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB3e62b9c3" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBaabd8752" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBfb43afd4" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.2634=
+01/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB3dfa1603" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31906837.263401/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC38c4bdf8" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31906837.263401/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB579815a7" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31906837.263401/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB939bc119" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB3=
+7ef48a8" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31906837.263401/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBd=
+f695111" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cizvh1.5n8p/c9086df4.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8022095_1889070285.1687805273249--
+

@@ -1,0 +1,1776 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4882:0:b0:14f:df5a:7f27 with SMTP id o2csp7464295lkd;
+        Tue, 30 Nov 2021 10:33:14 -0800 (PST)
+X-Received: by 2002:a05:6402:5c9:: with SMTP id n9mr1015525edx.306.1638297194399;
+        Tue, 30 Nov 2021 10:33:14 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1638297194; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=xvNmWcM9HX2SBbqkca7eY6tI/WJrtU7mlrc4k39SYteVzOMSdKCIAFk4Js+yC7p/uw
+         3F3F0na+XTixsc/oxlcs3l4Nb80CtgUU3hk76nXIHG8Y/qu9/tyQozRWcqL0piifG+QX
+         H6bY9QRXkBFdNdTId43UL0R3gSlsXCx88ABhGimdowZjSiLFDaaqsDkjJiwJK/s7ibGZ
+         XkWnnXcqor5Ry1J6uS9LabgQHEkSh+/SJvwTTM7a9ZmxtkZk+OP+F/i4nnn4GwMnh9wI
+         L0wrxDTG5mV+juyg7pgLkZ5b19UV+hoJf9w2I6VpYilwXPQth6JoeF9k9TMmezCe+zNk
+         FtVg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=DgPQyVkL+z+L1iQrydUA1DvWQTmMNISXrjVVf5Q90Kw=;
+        b=ZAz3ToTAG0mSmwpJ3uGtfdxlBOh+6Nu8yUcY+tXrcxQ0cwwDDMrlGVsq8Q0GgXZTnE
+         0nXpjSS7udEq4qZwmaDim2EDnn+jLJcfx1CS1ZcvP892bNWRtYagMVN7tYciQQy7M+m9
+         duA1QworuF9x7A6+oizNyNwstKG2R5IID6mwIiCg/W7gVQ1qr76ndEYb5GjtzleLtF2a
+         CLnG3gqOUeHzpXeukbB0b6z56TKQ7zSWG2Aqcex/eHaq8Hu+5pDp7UXHXwd6ijIrlAu3
+         V0R4JTO2P/RbQqHCuE4P3WhXuZDU16OjgWW6G+hkxCyerREi7/1/Sl3pbK1qYTI6T1pW
+         MuGw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=GJxz+wAo;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id ms24sor9786901ejc.89.2021.11.30.10.33.14
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 30 Nov 2021 10:33:14 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=GJxz+wAo;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=DgPQyVkL+z+L1iQrydUA1DvWQTmMNISXrjVVf5Q90Kw=;
+        b=YIcBosnKQkjuzoA795KbKDmsH+wUHTAJhHw9JY1tgVwzeVkEgrU54RMv0Muif2C7Mc
+         IgQw5+/w0wRXyVkGlUjhovrrbYEyCtbxw+xclxEB3CZsEl6X1ivu4AV6o2Er9CUIqQK0
+         B9QtQ+saCB8MbAJclGYTmEgsbg7G8Z5erUZXUOhRjWDPYwAB9rpP7uyMsMQlrKC+vrUX
+         HiRO5Piz+lRS1W6R7KsWlhv+9gL0jBs5hE9jcvebu0aBSUs6w4IN62L2yMPNAuaJCQNH
+         kJIZNsqv2ePWhwUM+lJyaeDncLpsjfQC81ZJEEizN8iQ8fACZ2d6Xc71tupAyV3RWmWv
+         H5oA==
+X-Gm-Message-State: AOAM5311Lq1wzzIOQdkyoEc7WEjl69acXE5u1uWP9fNytj57NjMesomn
+	3+lZLCJzkJQoV0EjN2gck1/NMocfijW8wKirgTYtjhUXGR36pMXIiDLo
+X-Received: by 2002:a17:906:54e:: with SMTP id k14mr930124eja.268.1638297193917;
+        Tue, 30 Nov 2021 10:33:13 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3f11:0:0:0:0:0 with SMTP id b17csp7062047ecq;
+        Tue, 30 Nov 2021 10:33:11 -0800 (PST)
+X-Received: by 2002:a17:90b:4f4c:: with SMTP id pj12mr759118pjb.217.1638297191196;
+        Tue, 30 Nov 2021 10:33:11 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1638297191; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=FsjAGjWiafJchLGmNi0yB5x6hw7V01fU7djKSBrpjq6cvAUmeiJkEnGzTSDjQZh7Qc
+         eJnSti3VQCGfXVQfxioZSYKRDHwQ4Y2tUPS8i2v/m4rO+pijUMMc6edspHQk8Df0ucET
+         72NLIgSkiFQwFv/e2W1qIPAKUCl/RlN9kmqH6QePIKuAAeerl7ivp0k6/5YWUXZdwKRm
+         E63UhSlw1dTMKLODw+nHdIc0s23iN7POQYjYX0Oj27pFsIa2XTSE3+WHzp1O1KXzwuy0
+         zrDB7fRn+5ko6Qj8tGNj9fpymD6oRKR/4XdCwm3HXYvyOywD880Y4kyj1J9T7zj24UAC
+         oz1Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=DgPQyVkL+z+L1iQrydUA1DvWQTmMNISXrjVVf5Q90Kw=;
+        b=lLQ1KYfa8KcgBY17dVXAHIpnz6zQa6r5H+uDMZYRjNWJt5ZwkMtC6fD4z7NXXdE5wl
+         5EFXEz+xRhda73TFKtzfHNyPcvzpS3NuUlj2hFRUybX0vr1PfHEydv9WDZm0T8OC2JCk
+         48r9jGTupc8aiY5t2u0dteeyHcKQ6pz3Cty5QrtWNCnMQrKSVclzFgbfQ8QtwwvvGfFH
+         e+jSMpwf+2hd9rsyhSVX1s5HUVLhdIVxejjVoZmlb1ih+g2lwyfNPhqXobadpEo7Iel9
+         dlwj+ccAa6D4BP8/ShPKhfQFRFvwedx0VcmLPTNwrILCU+Si4Dil534RqwMLag7di2x0
+         hX4A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=GJxz+wAo;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20211130133204.25879753.286657@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20211130133204.25879753.286657@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211130133204.25879753.286657@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id r22sor8456743pgv.58.2021.11.30.10.33.10
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 30 Nov 2021 10:33:11 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20211130133204.25879753.286657@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzQHGQcSPF1uYr6q9pgvAPF03yMy9XYDB9rA3mIBvMd+OEqe3N7RwwO+FEtiDyfRJBEJWCOrS/RmmEtz7FwMUfyPI+HZBU=
+X-Received: by 2002:a63:814a:: with SMTP id t71mr675170pgd.507.1638297190484;
+        Tue, 30 Nov 2021 10:33:10 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1638297190; cv=none;
+        d=google.com; s=arc-20160816;
+        b=NYdgzT3E0uFW/1u74dQA9mbr4kIX0xtvIGdM4yeC4gCqwK86M5+aDphPdr9UZ9+Rhx
+         +XXDda8RgwChcJGU7wsylbgCpof098MtXRk4ovrIseYfdZ8Ojyi4LMPWf4iuZjI13crW
+         v8B2+3Fkf9b1CAXS4wcexwbMLzzuwcnQ4Watc9dIFpGSDs5hmcWNwLLFMc+luIH7U4ii
+         Z5CnzGEbNzRlfOVH+lB5IdcPP1AAZ99xoxK2M14oBfu92YF9jtsUMAOSk0C9f5LV3Wvi
+         vYMidx1H69t3OVFHGab8WXOWfaTlBDf4Cx+YNpmZq836Xs/Ul3AjNBgaKsvMYUDucmpz
+         +CbQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=DgPQyVkL+z+L1iQrydUA1DvWQTmMNISXrjVVf5Q90Kw=;
+        b=Flq8YDgte0GZHCWv/zxfYr2aRIQok78ziw3k7hYvcz7KCp9d7jMNYGAqJPqIJE4LHC
+         bLqUaZ/VywdWgOgJk5C/MUUlQlYuxJKjrJvOugWwOn5pQUknh9ojiYplFW9bNI1nXWRH
+         EzhZ2uQLVQk4XGGnqlR+O1hLMZDUWPbytlkZk19nWb+Gkzir5ow37vkHjB2+1EjkHpOT
+         G8n8Qr+17O/hunaKKlKxyiFHIG+htXj3Hj/nqwCOe4paSv2lfoIElwj9585+NYBthhAt
+         X1V5MVxAva4xJfvIhS8uMGaRZUqBTwAs/Cksn3Z1sMYWRk0BvrpMrapcxbX1RXRTqTER
+         QaCw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=GJxz+wAo;
+       spf=pass (google.com: domain of delivery_20211130133204.25879753.286657@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20211130133204.25879753.286657@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211130133204.25879753.286657@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id 64si683672pjo.2.2021.11.30.10.33.05
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 30 Nov 2021 10:33:10 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20211130133204.25879753.286657@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=7/0ij5QASBZiTkwsBovoKdo5y2Fox2ik2X94wJRCXis=;
+ b=GJxz+wAoUUY1HwoCecTwLPe/8mqX8rxmaCC0uZbe9PLQLHhSh3TN/6pvFQwTtgKzT4bdVDgxJ7bS
+   Eut08mpTS2Nm+RKpgpii241ortt2Q5hzhFbq9Gms2j2+eZm3Xd8sZqNCM0oV7Y7cxMMr/thoUUWf
+   jeresy1UCLKlK0XL2aA=
+Received: from njmta-20.sailthru.com (173.228.155.20) by bloomberg-b.sailthru.com id hkpn662tkt0t for <bloomberg@khamel.com>; Tue, 30 Nov 2021 13:32:56 -0500 (envelope-from <delivery_20211130133204.25879753.286657@mx.sailthru.com>)
+Received: from nj1-fadindigo.flt (172.18.20.20) by njmta-20.sailthru.com id hkpn5g1qqbs8 for <bloomberg@khamel.com>; Tue, 30 Nov 2021 13:32:04 -0500 (envelope-from <delivery_20211130133204.25879753.286657@mx.sailthru.com>)
+Date: Tue, 30 Nov 2021 13:32:04 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20211130133204.25879753.286657@sailthru.com>
+Subject: Money Stuff: Omicron Crypto Is a Bet on Attention
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_114600042_1208696544.1638297124516"
+Precedence: bulk
+X-Feedback-ID: 6358:25879753:campaign:sailthru
+X-TM-ID: 20211130133204.25879753.286657
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-fadindigo.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfeoy1.656p/6fb42ade
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfeoy1.656p/6fb42ade>, <mailto:unsubscribe_20211130133204.25879753.286657@mx.sailthru.com>
+X-rpcampaign: stjko25879753
+
+------=_Part_114600042_1208696544.1638297124516
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        OmicronThe basic innovation of crypto is the production of artifici=
+al scarcity. The original Bitcoin white paper addresses the problem: Sure
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Omicron
+   =20
+ =20
+The basic innovation of crypto is the production=C2=A0of artificial scarcit=
+y. The original Bitcoin white paper=C2=A0addresses the problem: Sure, anyon=
+e can type numbers on their computer, but is there a way for a community to=
+ allocate numbers on your computer=C2=A0in a way that makes them demonstrab=
+ly scarce? If there is, then you can call those numbers =E2=80=9Cmoney=E2=
+=80=9D and they can be valuable. I am being a little annoying, but this was=
+ obviously a real innovation and did in fact help make=C2=A0Bitcoin very va=
+luable.=C2=A0The rest of the crypto world continued applying that same proc=
+ess. Most non-fungible token projects address the problem: Sure, anyone can=
+ limitlessly reproduce JPEGs on the internet, but is there a way for a comm=
+unity to allocate ownership claims to JPEGs in a way that makes them scarce=
+? The answer is =E2=80=A6=C2=A0not really, no, in=C2=A0the sense that anyon=
+e can still right-click and save the JPEGs underlying most of the popular N=
+FT projects. And yet the answer is also =E2=80=9Csort of,=E2=80=9D in the s=
+ense that NFT communities tend to respect the allocations of ownership clai=
+ms; they=C2=A0act like=C2=A0the JPEGs are scarce =E2=80=94=C2=A0the NFTs, t=
+he ownership claims,=C2=A0are=C2=A0scarce =E2=80=94=C2=A0and so they have v=
+alue. And so some NFTs sell for lots of money.Basically it is easy, using b=
+lockchain technology,=C2=A0to create=C2=A0scarce claims. You could I suppos=
+e use this technology to create scarce claims to scarce resources: You coul=
+d put, like, housing deeds or shares of corporate ownership=C2=A0or cargo-c=
+ontainer manifests on the blockchain. This would =E2=80=94=C2=A0people have=
+ argued for years=C2=A0=E2=80=94=C2=A0have benefits in terms of efficiency =
+and legibility and tradability. It would create value by improving the proc=
+esses by which real-world assets are transferred and allocated. Classic fin=
+ancial-services stuff. Nobody talks that=C2=A0much about this anymore.Inste=
+ad, people like to use blockchain technology to create scarce claims to=C2=
+=A0abundant, or=C2=A0infinite, resources. There is absolutely no shortage o=
+f JPEGs, they are infinitely reproducible more or less for free, but that m=
+eans =E2=80=94 or meant =E2=80=94=C2=A0that you couldn=E2=80=99t become a m=
+illionaire by having good taste in JPEGs. But now people can create a uniqu=
+e non-fungible token=C2=A0representing ownership of a JPEG and use it as a =
+status symbol or a speculative asset. Nobody will pay you for a number in y=
+our computer=E2=80=99s memory, but people will pay you for a=C2=A0scarce=C2=
+=A0number in your computer=E2=80=99s memory.It is an interesting economic q=
+uestion whether this artificial production of scarcity could actually creat=
+e value.=C2=A0Arguably abundance is more valuable than scarcity? Arguably t=
+his is all =E2=80=A6=C2=A0terrible? Here is Ryan Broderick on crypto, Web3,=
+ right-clicking on NFT JPEGs, etc.:The best overall articulation I=E2=80=99=
+ve seen so far of why Web3 is so hated by many online subcultures right now=
+ was from @nicodotgay, the Twitter user behind the right-click mosaic. They=
+ explained in a follow-up tweet that they weren=E2=80=99t anti-NFT for ecol=
+ogical reasons. =E2=80=9CThe real issue is that they represent an attempt t=
+o re-impose artificial scarcity on culture,=E2=80=9D @nicodotgay tweeted. =
+=E2=80=9C=E2=80=98Digital scarcity=E2=80=99 is an anti human evolution ideo=
+logy that imposes board game-like rules which serve no purpose than to pres=
+erve the game itself - to hide the internal contradictions of capitalism th=
+at become painfully obvious in an area of culture that has overcome scarcit=
+y.=E2=80=9DBut the other way to put that is that people do seem to enjoy st=
+atus-competition and gambling games, they get some value out of them, and a=
+rtificial scarcity allows them to play a lot more of those games, thus incr=
+easing human happiness, or something. There is a new abundance of scarcity.=
+Similarly. There is a new coronavirus variant of concern, referred to as =
+=E2=80=9Comicron.=E2=80=9D Let=E2=80=99s say you predict that omicron will =
+be a really big deal, and you would like to make a bet on that prediction. =
+There are various=C2=A0ways to implement that bet using regular financial a=
+ssets =E2=80=94=C2=A0buy mask manufacturers or short cruise lines or whatev=
+er =E2=80=94=C2=A0but they each involve real-world details; you need to pre=
+dict some mechanism to link =E2=80=9Comicron will be a big deal=E2=80=9D to=
+ =E2=80=9Ccruise-ship stocks will go down=E2=80=9D or whatever. What you wa=
+nt is a pure bet on the proposition =E2=80=9Comicron will be a big deal.=E2=
+=80=9D=C2=A0For instance if you could just buy the word =E2=80=9Comicron=E2=
+=80=9D and collect a royalty every time someone used it, that would be alon=
+g the lines of the bet that you want. If omicron is a big deal, people will=
+ say =E2=80=9Comicron=E2=80=9D a lot and you=E2=80=99ll get lots of royalti=
+es. You can=E2=80=99t do that. The word =E2=80=9Comicron=E2=80=9D is just a=
+ word.[1] It=E2=80=99s not scarce.[2] Omicron omicron omicron omicron omicr=
+on omicron omicron. See?On the other hand, because crypto gives you the too=
+ls to create artificial scarcity,=C2=A0you could easily=C2=A0make=C2=A0a sc=
+arce class of =E2=80=9Comicrons.=E2=80=9D Create a new crypto token on some=
+ blockchain. =E2=80=9COnly 10,000 of this Omicron Coin will ever be minted,=
+=E2=80=9D or whatever. Now you have a scarce version of the word omicron, a=
+nd you can start ascribing value to it. The more people say =E2=80=9Comicro=
+n,=E2=80=9D the more people will look to buy Omicron Coin, and the more val=
+uable it will be.You probably hate me for typing that, but I promise that y=
+ou don=E2=80=99t hate me as much as I hate myself. I know that it makes no =
+sense! It=E2=80=99s just true, is all! Here=E2=80=99s my Bloomberg Opinion =
+colleague  Mark Gongloff:A crypto thing called Omicron has soared more than=
+ 900% since Saturday because there is now also a Covid variant called omicr=
+on. That's it. That's the reason.=C2=A0 ...Omicron the Crypto Thing is, in =
+the words of CoinTelegraph, =E2=80=9Ca recently introduced decentralized re=
+serve currency protocol that runs on the Ethereum layer-two network Arbitru=
+m. Its native OMIC token is backed by several other crypto assets including=
+ the USD Coin stablecoin and liquidity provider tokens. It can only be trad=
+ed on the SushiSwap decentralized exchange.=E2=80=9DOmicron is a clone of O=
+lympusDAO, a fascinating decentralized-finance Ponzi scheme that we=E2=80=
+=99ll probably have to talk about around here one day, but that=E2=80=99s n=
+ot why it=E2=80=99s up. It=E2=80=99s up because it is a tradable=C2=A0claim=
+ with the word =E2=80=9Comicron=E2=80=9D in its name,=C2=A0and the word =E2=
+=80=9Comicron=E2=80=9D is up. You just have to unfocus your eyes and not th=
+ink too hard about it. Omicron, omicron, get it?I  wrote last month:All I a=
+m saying is that if I sold you a crypto token that was called =E2=80=9CStri=
+peCoin=E2=80=9D and I said =E2=80=9Cthis is a token on the stock of Stripe=
+=E2=80=9D you might say =E2=80=94=C2=A0because you are reading Money Stuff,=
+ etc. =E2=80=94=C2=A0you might say =E2=80=9Cwait how is the value of the to=
+ken linked to the value of Stripe=E2=80=9D and I would say =E2=80=9Chahahah=
+a it absolutely isn=E2=80=99t.=E2=80=9D But my hypothesis is that not every=
+one is as skeptical and literal-minded as you are, and some people would ju=
+st go buy StripeCoin=C2=A0when they had nice thoughts about Stripe and sell=
+ StripeCoin=C2=A0when they had sad thoughts about Stripe and buy a whole lo=
+t of StripeCoin=C2=A0when Stripe went public,=C2=A0and it would at least di=
+rectionally end up being a sort of a proxy for Stripe stock. And everyone w=
+ould get what they came for, which is a convenient way to gamble on people=
+=E2=80=99s feelings about Stripe.=C2=A0This model was wrong in one importan=
+t respect: People did not buy Omicron because they have nice thoughts about=
+ the omicron variant; they bought=C2=A0Omicron because they are having=C2=
+=A0thoughts=C2=A0about it. (Presumably sad thoughts, it being a deadly viru=
+s, though who knows.) The thing being traded here is not=C2=A0fondness=C2=
+=A0but=C2=A0attention. Crypto has developed tools to create scarce claims o=
+n computerized representations of memes, to create scarce tradable claims o=
+n=C2=A0societal attention.[3] This is =E2=80=A6=C2=A0extremely, extremely s=
+tupid? I think? But what do I know. The point is that=C2=A0it works.Elsewhe=
+re!The latest hot real-estate market isn=E2=80=99t on the scenic coasts or =
+in balmy Sunbelt cities. It=E2=80=99s in the metaverse, where gamers are fl=
+ocking and digital property sales are setting new records.A growing number =
+of investment firms are acquiring digital land in worlds such as the Sandbo=
+x and Decentraland, where players simulate real-life pursuits, from shoppin=
+g to attending a concert. They are betting that individuals and companies w=
+ill spend money to use virtual homes and retail space and that the value of=
+ properties will increase as more people join the worlds.Sure!
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Reef
+   =20
+ =20
+Here is a good story from the glory days of the SoftBank Group Corp. invest=
+ment boom. Reef Global Inc. operates =E2=80=9Cghost kitchens=E2=80=9D from =
+trailers in parking lots. So it=E2=80=99s a food-service company basically.=
+ It has raised over $1.5 billion, some of it from SoftBank. That would buy =
+a lot of trailers, but naturally Reef=C2=A0used the money to buy parking lo=
+ts:Reef started as a parking-lot technology company named ParkJockey. Co-fo=
+under and Chief Executive Ari Ojalvo, a former restaurant entrepreneur, aim=
+ed to convert parts of parking lots into small parks surrounded by trailers=
+ offering services including child care and staging areas for package deliv=
+ery.SoftBank backed it in 2018. Reef quickly used much of the $1.2 billion =
+it raised to buy two giant companies that manage and operate parking lots, =
+becoming what it says is the largest parking-lot network in North America.=
+=C2=A0Sure, well, if you are going to run restaurant kitchens in parking lo=
+ts, you might as well also run the parking lots? I don=E2=80=99t know why t=
+hat would make sense? But it=E2=80=99s hard to spend $1.2 billion on food t=
+rucks quickly, and faster to spend it on buying parking-lot companies, I gu=
+ess? Seems fine, whatever, except=C2=A0they also somehow bought the wrong p=
+arking lots?Despite Reef=E2=80=99s parking roots, Reef found it wasn=E2=80=
+=99t able to put trailers on many of its lots, as some had enclosed garages=
+, where propane tanks and utility hookups aren=E2=80=99t allowed. Others we=
+re owned by landlords who didn=E2=80=99t want food trucks, former employees=
+ said. As a result, Reef rents lots from other parking owners for more than=
+ 70% of its kitchens, current and former executives said.Imagine being the =
+person at the parking-lot-food-truck company who went out to buy the larges=
+t parking-lot network in North America to park your food trucks, and then f=
+ound out that you can=E2=80=99t park the food trucks in all the parking lot=
+s you bought. For a couple of years SoftBank really created an environment =
+where startups had to spend money faster than they could think, and we are =
+still enjoying the fallout.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Derivatives
+   =20
+ =20
+Yesterday Francine McKenna wrote=C2=A0about the dispute between Tesla Inc. =
+and JPMorgan Chase & Co. over some Tesla warrants that we  discussed a coup=
+le of weeks ago. Her main point is that JPMorgan=C2=A0valued the warrants a=
+t one price (assuming that they were adjusted for Elon Musk=E2=80=99s prete=
+nd takeover of Tesla), Tesla valued them at some other price (assuming that=
+ they weren=E2=80=99t), they are now in a legal fight over who was right, a=
+nd PricewaterhouseCoopers LLP audits both companies=E2=80=99 books and pres=
+umably let them both use their own differing valuations. This actually does=
+ not bother me that much =E2=80=94=C2=A0sometimes companies get in valuatio=
+n disputes, and anyway Tesla and JPMorgan account for Tesla warrants differ=
+ently (JPMorgan as a mark-to-market asset, Tesla as an equity instrument) =
+=E2=80=94=C2=A0but that=E2=80=99s not what I want to talk about.Instead I w=
+ant to talk about this sentence describing the initial 2014 transaction tha=
+t Tesla and JPMorgan are now fighting over: =E2=80=9CIt=E2=80=99s one of th=
+ose =E2=80=98heads I win, tails you lose=E2=80=99 type of deals investment =
+banks talk seemingly sophisticated company treasurers into.=E2=80=9D I disa=
+gree! JPMorgan=E2=80=99s=C2=A0adjustment=C2=A0of the warrants is controvers=
+ial =E2=80=94=C2=A0Tesla thinks it was pretty opportunistic, and I have som=
+e sympathy for that position =E2=80=94=C2=A0but the original deal was fine.=
+ Tesla paid its banks =E2=80=94=C2=A0JPMorgan and three other underwriters =
+on its 2014 convertible-bond deal =E2=80=94=C2=A0a net premium of about $21=
+4 million for the transaction[4]; in exchange, Tesla got a =E2=80=9Cbond he=
+dge=E2=80=9D (an option to buy its stock at the conversion price of the con=
+vertible bond) and the banks got a warrant=C2=A0(an option to buy the stock=
+ at a higher price). Net, Tesla bought a call spread on its own stock. By t=
+he 2021 maturity of=C2=A0the=C2=A0convertible bonds, the stock was way abov=
+e the exercise prices of all of the options, and Tesla saved something like=
+ $760 million worth of stock issuance because of the call spread.[5] Now JP=
+Morgan wants $160 million of that back, but even so it was a good deal=C2=
+=A0for Tesla. (The banks did fine too, they were hedged, don=E2=80=99t worr=
+y about them.)But it gets better. The net premium that Tesla paid to the ba=
+nks was about $214 million. As we  discussed last week, that number is conv=
+eniently almost exactly the amount of taxes that Tesla could theoretically =
+save by doing this transaction: The price it paid for the bond hedge (about=
+ $603 million) was tax-deductible, while the price the banks paid it for th=
+e warrants (about $389 million) was not taxable; at a 35% tax rate that $60=
+3 million deduction should be worth about $211 million. In practice Tesla h=
+as mostly generated losses since 2014, and probably didn=E2=80=99t get to t=
+ake a lot of those tax deductions; also corporate tax rates are lower now. =
+In general, though, this is the sort of transaction that could reasonably h=
+ave been marketed as =E2=80=9Cyou buy an option from us and the IRS pays fo=
+r it.=E2=80=9DI am harping on this because I think it is a general theme in=
+ the analysis of complicated financial transactions. In general, when you s=
+ee a bank sell a complex derivative to a non-financial customer like a car =
+company,=C2=A0there are two popular ways to analyze it:=09The textbook view=
+=C2=A0is that the company has some financial risk and is paying the bank a =
+fair premium to manage the risk. =E2=80=9CTesla has a risk that its stock w=
+ill go up above the conversion price, so it paid its banks to hedge that ri=
+sk.=E2=80=9D (It is right in the name, =E2=80=9Cbond hedge.=E2=80=9D)=09The=
+=C2=A0cynical view=C2=A0is that the bank has tricked the customer into givi=
+ng the bank a lot of money for a worthless thing that the customer doesn=E2=
+=80=99t understand, that the way the bank makes money is by bamboozling the=
+ client in a zero-sum trade.I think you should be suspicious of both of tho=
+se views. In many cases the=C2=A0correct, though also cynical=C2=A0view is =
+that the trade is, deep down, a=C2=A0tax optimization: The bank does stuff =
+to lower the customer=E2=80=99s taxes, and the customer gives the bank a cu=
+t of the tax savings.[6]
+ =20
+   =20
+      RugSeekers
+   =20
+ =20
+Here  is a story about =E2=80=9Ca 52-year-old grandfather in a Dogecoin hat=
+ [who] is patrolling the darkest corners of the crypto world for Shit Coin =
+scammers=E2=80=9D:Robert Browning and his motley crew =E2=80=94 named the R=
+ugSeekers for a popular pump and dump scam called the rug pull =E2=80=94 ar=
+e investigating a tip about a new coin called We Save Moon. They=E2=80=99re=
+ examining its source code, wallets and price charts for red flags indicati=
+ng fraud. Browning enters the coin=E2=80=99s group chat on Telegram, the me=
+ssaging app where this world hangs out. He starts typing under his alias Ro=
+bAte25 =E2=80=94 a reference to his grandson=E2=80=99s birthday, 8/25 =E2=
+=80=94 and moves in for the kill.Here=E2=80=99s how the chat starts:RobAte2=
+5: Are there any modsWe Save Moon: we are here for you as alwaysRobAte25: H=
+elloWe Save Moon: let=E2=80=99s PUMP and get this party startWell that seem=
+s like the kill, no?=C2=A0And yet it goes on for a long time from there. He=
+ asks questions about the identity of the developers. =E2=80=9CWhat=E2=80=
+=99s the utility of the coin,=E2=80=9D asks another RugSeeker. (The answer =
+is that =E2=80=9Cpeople get all kind of rewards.=E2=80=9D) The RugSeekers d=
+o test transactions to see how the liquidity pool operates. (Trickily.) Eve=
+ryone pretends that this is very serious difficult high-tech stuff.Did you =
+read the start of the chat that I quoted? =E2=80=9CLet's PUMP and get this =
+party start,=E2=80=9D say the developers of We Save Moon, immediately, to a=
+ stranger on the internet, in reply to his penetrating investigative questi=
+on =E2=80=9CHello.=E2=80=9D=C2=A0I know all I need to know about whether We=
+ Save Moon is a scam! But RugSeekers keep seeking.=C2=A0In crypto, =E2=80=
+=9Cwe=E2=80=99re going to pump a worthless thing to make money for ourselve=
+s=E2=80=9D is just=C2=A0normal stuff; people=C2=A0want=C2=A0to invest in pu=
+mps. Just not the bad ones.=C2=A0
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Moderna=E2=80=99s Concerns About  Omicron Outlook Spark Market Slump. The i=
+nside story of the Pfizer vaccine: =E2=80=98a once-in-an-epoch windfall.=E2=
+=80=99 Goldman Sachs Rolls Out New Worker Benefits to Combat Employee Burno=
+ut. Facebook Owner Meta Must  Sell Giphy on Competition Concerns, U.K. Says=
+.=C2=A0Hertz Targets $2 Billion in Buybacks Amid Pandemic Recovery. Activis=
+t calls on Glencore to spin off coal assets.=C2=A0Expert Networks Aren=E2=
+=80=99t Just for Hedge Funds Anymore. Microsoft=E2=80=99s Satya Nadella Sel=
+ls Half of His Shares in the Company. Twitter=E2=80=99s Agrawal Is  Younges=
+t CEO in S&P 500, Nudging Out Zuckerberg.=C2=A0When Shipping Containers Are=
+ Abandoned, the Cargo Becomes a  Mystery Prize. Learning Sixteenth-Century =
+Business Jargon.=C2=A0What is Waystar Royco=E2=80=99s true valuation? Mergi=
+ng black holes may create bubbles that could swallow the universe.If you'd =
+like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your i=
+nbox, please=C2=A0subscribe at this link. Or you can subscribe to Money Stu=
+ff and other great Bloomberg newsletters here. Thanks![1] I suppose technic=
+ally it=E2=80=99s a letter, but in practical English-language usage it=E2=
+=80=99s a word.[2] Also if it was scarce people wouldn=E2=80=99t use it! Pu=
+blic-health agencies don=E2=80=99t go around naming coronavirus variants, l=
+ike, =E2=80=9Cthe Super Bowl variant,=E2=80=9D because then they=E2=80=99d =
+get sued=C2=A0and have to pay the intellectual-property-rights owners.[3] D=
+own here in the footnotes you and I can talk like rational people and say: =
+Look, if it=E2=80=99s essentially free to create these scarce claims, can=
+=E2=80=99t anyone just create more of them, defeating the promise of scarci=
+ty? Can=E2=80=99t I go launch a thing and call it Omicron Coin and sell it =
+to compete with the existing Omicron Coin? Can=E2=80=99t anybody do that? S=
+houldn=E2=80=99t there be hundreds of Omicron Coin projects all competing f=
+or the money looking to speculate on the word =E2=80=9Comicron=E2=80=9D? Su=
+re, man, I dunno. I should say that the limits here seem to be more social =
+=E2=80=94=C2=A0about what projects get attention on what crypto websites an=
+d chats, etc. =E2=80=94=C2=A0rather than technical, and our rational object=
+ions probably don=E2=80=99t carry much weight. In the early days of Bitcoin=
+, Bitcoin proponents said =E2=80=9Conly 21 million Bitcoins will ever be mi=
+nted so they will go up in value,=E2=80=9D and Bitcoin skeptics said =E2=80=
+=9Cno, if they become valuable, then people can just create new Bitcoin cop=
+ycats and siphon away that value.=E2=80=9D The skeptics were not *entirely*=
+ wrong =E2=80=94=C2=A0there are copycats=C2=A0like Dogecoin that really did=
+ become valuable =E2=80=94=C2=A0but they were *almost* entirely wrong; a Bi=
+tcoin clone did not turn out to be a good substitute for Bitcoin.[4] See pa=
+ge 57 here: =E2=80=9CIn connection with the offering of these notes in 2014=
+, we purchased a convertible note hedges for $603.4 million and sold warran=
+ts [for] $389.2 million.=E2=80=9D[5] This is a rough number and requires so=
+me explanation. The $214 million net premium number is actually for two dif=
+ferent call spreads, relating to Tesla=E2=80=99s convertibles maturing in 2=
+019 and 2021. The 2019 convertible matured out of the money (see page 22 he=
+re) and so Tesla=E2=80=99s call-spread premium was effectively wasted. The =
+2021 convertible matured ridiculously in-the-money and everyone converted (=
+see page 20 here). The actual result involved net share settlement of the b=
+onds, bond hedge and warrants, but the basic *economic* result is that (1) =
+Tesla bought a call spread on the 3.8 million shares of stock underlying th=
+e 2021 convertible, (2) that call spread had strikes of $359.87 and $560.63=
+88, a difference of about $200.77 per share, and (3) both legs ended up in =
+the money. So Tesla got back value equal to about the $200.77 width of the =
+call spread times the 3.8 million underlying shares, or about $760 million.=
+ (The share and per-share numbers are as of 2014, when the trades were done=
+; since then Tesla had a stock split, which changes the share numbers but n=
+ot the total value.) This is probably not quite right due to differences in=
+ timing of settlement, etc., but it=E2=80=99s in the right ballpark.[6] Dis=
+closure, I used to do these trades as a banker. =E2=80=9CYou buy a call spr=
+ead from us and the IRS will pay for it=E2=80=9D: Definitely a thing I said=
+!
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfeoy1.656p/4648c3c7.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_114600042_1208696544.1638297124516
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+OmicronThe basic innovation of crypto is the production of artificial scarc=
+ity. The original Bitcoin white paper addresses the problem: Sure
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTg3OTc1MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNjY0MTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBae469063" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25879753&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26166410&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTMwMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMzAmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBdf3d07be"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTg3OTc1MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNjY0MTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC529795f1" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25879753&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26166410&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Omicron</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The basic innovation of crypto is the =
+production=C2=A0of artificial scarcity. The original <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/25879753.286657/aHR0cHM6Ly9iaXRjb2luLm9y=
+Zy9iaXRjb2luLnBkZg/607f07ceef4b8524a319a23cBe42d3722" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">Bitcoin white=
+ paper</a>=C2=A0addresses the problem: Sure, anyone can type numbers on the=
+ir computer, but is there a way for a community to allocate numbers on your=
+ computer=C2=A0in a way that makes them demonstrably scarce? If there is, t=
+hen you can call those numbers =E2=80=9Cmoney=E2=80=9D and they can be valu=
+able. I am being a little annoying, but this was obviously a real innovatio=
+n and did in fact help make=C2=A0Bitcoin very valuable.=C2=A0</p><p style=
+=3D"margin: 16px 0;">The rest of the crypto world continued applying that s=
+ame process. Most non-fungible token projects address the problem: Sure, an=
+yone can limitlessly reproduce JPEGs on the internet, but is there a way fo=
+r a community to allocate ownership claims to JPEGs in a way that makes the=
+m scarce? The answer is =E2=80=A6=C2=A0not really, no, in=C2=A0the sense th=
+at anyone can still <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/25879753.286657/aHR0cHM6Ly9zbGF0ZS5jb20vdGVjaG5vbG9neS8yMDIxLzExL25mdC1pb=
+WFnZS1vd25lcnNoaXAtcmlnaHQtY2xpY2tpbmctc2F2aW5nLWNvcHlpbmctdHJvbGxpbmcuaHRt=
+bA/607f07ceef4b8524a319a23cB2ec7b9cc" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">right-click</a> and save the =
+JPEGs underlying most of the popular NFT projects. And yet the answer is al=
+so =E2=80=9Csort of,=E2=80=9D in the sense that NFT communities tend to res=
+pect the allocations of ownership claims; they=C2=A0<em>act like=C2=A0</em>=
+the JPEGs are scarce =E2=80=94=C2=A0the NFTs, the ownership claims,=C2=A0<e=
+m>are=C2=A0</em>scarce =E2=80=94=C2=A0and so they have value. And so some N=
+FTs sell for lots of money.</p><p style=3D"margin: 16px 0;">Basically it is=
+ easy, using blockchain technology,=C2=A0to create=C2=A0<em>scarce claims</=
+em>. You could I suppose use this technology to create scarce claims to sca=
+rce resources: You could put, like, housing deeds or shares of corporate ow=
+nership=C2=A0or cargo-container manifests on the blockchain. This would =E2=
+=80=94=C2=A0people have argued for years=C2=A0=E2=80=94=C2=A0have benefits =
+in terms of efficiency and legibility and tradability. It would create valu=
+e by improving the processes by which real-world assets are transferred and=
+ allocated. Classic financial-services stuff. Nobody talks that=C2=A0much a=
+bout this anymore.</p><p style=3D"margin: 16px 0;">Instead, people like to =
+use blockchain technology to create scarce claims to=C2=A0<em>abundant</em>=
+, or=C2=A0<em>infinite</em>, resources. There is absolutely no shortage of =
+JPEGs, they are infinitely reproducible more or less for free, but that mea=
+ns =E2=80=94 or meant =E2=80=94=C2=A0that you couldn=E2=80=99t become a mil=
+lionaire by having good taste in JPEGs. But now people can create a unique =
+non-fungible token=C2=A0representing ownership of a JPEG and use it as a st=
+atus symbol or a speculative asset. Nobody will pay you for a number in you=
+r computer=E2=80=99s memory, but people will pay you for a=C2=A0<em>scarce=
+=C2=A0</em>number in your computer=E2=80=99s memory.</p><p style=3D"margin:=
+ 16px 0;">It is an interesting economic question whether this artificial pr=
+oduction of scarcity could actually create value.=C2=A0Arguably abundance i=
+s more valuable than scarcity? Arguably this is all =E2=80=A6=C2=A0terrible=
+? <a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/=
+aHR0cHM6Ly93d3cuZ2FyYmFnZWRheS5lbWFpbC9wL3JpZ2h0LWNsaWNrZXJzLXZzLXRoZS1tb25=
+rZXktanBn/607f07ceef4b8524a319a23cB7a2dfb78" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Here is Ryan Broderick=
+</a> on crypto, Web3, right-clicking on NFT JPEGs, etc.:</p><blockquote><p =
+style=3D"margin: 16px 0;">The best overall articulation I=E2=80=99ve seen s=
+o far of why Web3 is so hated by many online subcultures right now was from=
+ @nicodotgay, the Twitter user behind the right-click mosaic. They explaine=
+d in a follow-up tweet that they weren=E2=80=99t anti-NFT for ecological re=
+asons. =E2=80=9CThe real issue is that they represent an attempt to re-impo=
+se artificial scarcity on culture,=E2=80=9D @nicodotgay tweeted. =E2=80=9C=
+=E2=80=98Digital scarcity=E2=80=99 is an anti human evolution ideology that=
+ imposes board game-like rules which serve no purpose than to preserve the =
+game itself - to hide the internal contradictions of capitalism that become=
+ painfully obvious in an area of culture that has overcome scarcity.=E2=80=
+=9D</p></blockquote><p style=3D"margin: 16px 0;">But the other way to put t=
+hat is that people do seem to enjoy status-competition and gambling games, =
+they get some value out of them, and artificial scarcity allows them to pla=
+y a lot more of those games, thus increasing human happiness, or something.=
+ There is a new abundance of scarcity.</p><p style=3D"margin: 16px 0;">Simi=
+larly. There is a new coronavirus <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/25879753.286657/aHR0cHM6Ly93d3cud2hvLmludC9uZXdzL2l0ZW0vMjY=
+tMTEtMjAyMS1jbGFzc2lmaWNhdGlvbi1vZi1vbWljcm9uLShiLjEuMS41MjkpLXNhcnMtY292LT=
+ItdmFyaWFudC1vZi1jb25jZXJu/607f07ceef4b8524a319a23cBa388262e" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">varia=
+nt of concern</a>, referred to as =E2=80=9Comicron.=E2=80=9D Let=E2=80=99s =
+say you predict that omicron will be a really big deal, and you would like =
+to make a bet on that prediction. There are various=C2=A0ways to implement =
+that bet using regular financial assets =E2=80=94=C2=A0buy mask manufacture=
+rs or short cruise lines or whatever =E2=80=94=C2=A0but they each involve r=
+eal-world details; you need to predict some mechanism to link =E2=80=9Comic=
+ron will be a big deal=E2=80=9D to =E2=80=9Ccruise-ship stocks will go down=
+=E2=80=9D or whatever. What you want is a pure bet on the proposition =E2=
+=80=9Comicron will be a big deal.=E2=80=9D=C2=A0</p><p style=3D"margin: 16p=
+x 0;">For instance if you could just buy the word =E2=80=9Comicron=E2=80=9D=
+ and collect a royalty every time someone used it, that would be along the =
+lines of the bet that you want. If omicron is a big deal, people will say =
+=E2=80=9Comicron=E2=80=9D a lot and you=E2=80=99ll get lots of royalties. Y=
+ou can=E2=80=99t do that. The word =E2=80=9Comicron=E2=80=9D is just a word=
+.[1] It=E2=80=99s not scarce.[2] Omicron omicron omicron omicron omicron om=
+icron omicron. See?</p><p style=3D"margin: 16px 0;">On the other hand, beca=
+use crypto gives you the tools to create artificial scarcity,=C2=A0you coul=
+d easily=C2=A0<em>make=C2=A0</em>a scarce class of =E2=80=9Comicrons.=E2=80=
+=9D Create a new crypto token on some blockchain. =E2=80=9COnly 10,000 of t=
+his Omicron Coin will ever be minted,=E2=80=9D or whatever. Now you have a =
+scarce version of the word omicron, and you can start ascribing value to it=
+. The more people say =E2=80=9Comicron,=E2=80=9D the more people will look =
+to buy Omicron Coin, and the more valuable it will be.</p><p style=3D"margi=
+n: 16px 0;">You probably hate me for typing that, but I promise that you do=
+n=E2=80=99t hate me as much as I hate myself. I know that it makes no sense=
+! It=E2=80=99s just true, is all! Here=E2=80=99s my Bloomberg Opinion colle=
+ague <a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.2866=
+57/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMjkv=
+b21pY3Jvbi1jcnlwdG8tc3VyZ2VzLWFzLWNvdmlkLTE5LXZhcmlhbnQtc3ByZWFkcy10b28_Y21=
+waWQ9QkJEMTEzMDIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3=
+NsZXR0ZXImdXRtX3Rlcm09MjExMTMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b=
+8524a319a23cB14774659" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> Mark Gongloff</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">A crypto thing called Omicron has soared more than 900=
+% since Saturday because there is now also a Covid variant called omicron. =
+That's it. That's the reason.=C2=A0 ...</p><p style=3D"margin: 16px 0;">Omi=
+cron the Crypto Thing is, in the words of <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/25879753.286657/aHR0cHM6Ly9jb2ludGVsZWdyYXBoLmNvbS9=
+uZXdzL29ic2N1cmUtb21pY3Jvbi10b2tlbi1zcGlrZXMtOTAwLWFmdGVyLW5ldy12YXJpYW50LW=
+VtZXJnZXM_Y2FtcGFpZ25faWQ9NCZlbWM9ZWRpdF9ka18yMDIxMTEyOSZpbnN0YW5jZV9pZD00N=
+jUxMSZubD1kZWFsYm9vayZyZWdpX2lkPTEwMDk1NDIxJnNlZ21lbnRfaWQ9NzU1ODUmdGU9MSZ1=
+c2VyX2lkPTk0N2M3OTUxMTkzOTRmYzRkN2E5Yzk0NTkyZDUwNTgz/607f07ceef4b8524a319a2=
+3cB0d89808c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">CoinTelegraph</a>, =E2=80=9Ca recently introduced dece=
+ntralized reserve currency protocol that runs on the Ethereum layer-two net=
+work Arbitrum. Its native OMIC token is backed by several other crypto asse=
+ts including the USD Coin stablecoin and liquidity provider tokens. It can =
+only be traded on the SushiSwap decentralized exchange.=E2=80=9D</p></block=
+quote><p style=3D"margin: 16px 0;">Omicron <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/25879753.286657/aHR0cHM6Ly9jb2ludGVsZWdyYXBoLmNvbS=
+9uZXdzL29ic2N1cmUtb21pY3Jvbi10b2tlbi1zcGlrZXMtOTAwLWFmdGVyLW5ldy12YXJpYW50L=
+WVtZXJnZXM_Y2FtcGFpZ25faWQ9NCZlbWM9ZWRpdF9ka18yMDIxMTEyOSZpbnN0YW5jZV9pZD00=
+NjUxMSZubD1kZWFsYm9vayZyZWdpX2lkPTEwMDk1NDIxJnNlZ21lbnRfaWQ9NzU1ODUmdGU9MSZ=
+1c2VyX2lkPTk0N2M3OTUxMTkzOTRmYzRkN2E5Yzk0NTkyZDUwNTgz/607f07ceef4b8524a319a=
+23cC0d89808c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">is a clone of OlympusDAO</a>, a fascinating decentral=
+ized-finance Ponzi scheme that we=E2=80=99ll probably have to talk about ar=
+ound here one day, but that=E2=80=99s not why it=E2=80=99s up. It=E2=80=99s=
+ up because it is a tradable=C2=A0claim with the word =E2=80=9Comicron=E2=
+=80=9D in its name,=C2=A0and the word =E2=80=9Comicron=E2=80=9D is up. You =
+just have to unfocus your eyes and not think too hard about it. Omicron, om=
+icron, get it?</p><p style=3D"margin: 16px 0;">I <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/25879753.286657/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMDcvbWF0dC1sZXZpbmUtcy1tb25leS1zdHV=
+mZi1sb29raW5nLWZvci10ZXRoZXItcy1tb25leT9jbXBpZD1CQkQxMTMwMjFfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMzAmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBacabea9f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ wrote last month</a>:</p><blockquote><p style=3D"margin: 16px 0;">All I am=
+ saying is that if I sold you a crypto token that was called =E2=80=9CStrip=
+eCoin=E2=80=9D and I said =E2=80=9Cthis is a token on the stock of Stripe=
+=E2=80=9D you might say =E2=80=94=C2=A0because you are reading Money Stuff,=
+ etc. =E2=80=94=C2=A0you might say =E2=80=9Cwait how is the value of the to=
+ken linked to the value of Stripe=E2=80=9D and I would say =E2=80=9Chahahah=
+a it absolutely isn=E2=80=99t.=E2=80=9D But my hypothesis is that not every=
+one is as skeptical and literal-minded as you are, and some people would ju=
+st go buy StripeCoin=C2=A0when they had nice thoughts about Stripe and sell=
+ StripeCoin=C2=A0when they had sad thoughts about Stripe and buy a whole lo=
+t of StripeCoin=C2=A0when Stripe went public,=C2=A0and it would at least di=
+rectionally end up being a sort of a proxy for Stripe stock. And everyone w=
+ould get what they came for, which is a convenient way to gamble on people=
+=E2=80=99s feelings about Stripe.=C2=A0</p></blockquote><p style=3D"margin:=
+ 16px 0;">This model was wrong in one important respect: People did not buy=
+ Omicron because they have <em>nice</em> thoughts about the omicron variant=
+; they bought=C2=A0Omicron because they are having=C2=A0<em>thoughts=C2=A0<=
+/em>about it. (Presumably sad thoughts, it being a deadly virus, though who=
+ knows.) The thing being traded here is not=C2=A0<em>fondness=C2=A0</em>but=
+=C2=A0<em>attention</em>. Crypto has developed tools to create scarce claim=
+s on computerized representations of memes, to create scarce tradable claim=
+s on=C2=A0societal attention.[3] This is =E2=80=A6=C2=A0extremely, extremel=
+y stupid? I think? But what do I know. The point is that=C2=A0it works.</p>=
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/25879753.286657/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9tZXRhdmVy=
+c2UtcmVhbC1lc3RhdGUtcGlsZXMtdXAtcmVjb3JkLXNhbGVzLWluLXNhbmRib3gtYW5kLW90aGV=
+yLXZpcnR1YWwtcmVhbG1zLTExNjM4MjY4MzgwP21vZD1ocF9sZWFkX3BvczEy/607f07ceef4b8=
+524a319a23cB675ba394" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Elsewhere</a>!</p><blockquote><p style=3D"mar=
+gin: 16px 0;">The latest hot real-estate market isn=E2=80=99t on the scenic=
+ coasts or in balmy Sunbelt cities. It=E2=80=99s in the metaverse, where ga=
+mers are flocking and digital property sales are setting new records.</p><p=
+ style=3D"margin: 16px 0;">A growing number of investment firms are acquiri=
+ng digital land in worlds such as the Sandbox and Decentraland, where playe=
+rs simulate real-life pursuits, from shopping to attending a concert. They =
+are betting that individuals and companies will spend money to use virtual =
+homes and retail space and that the value of properties will increase as mo=
+re people join the worlds.</p></blockquote><p style=3D"margin: 16px 0;">Sur=
+e!</p><table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadd=
+ing=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTg3OTc1MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNjY0MTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDcaf8eb28" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25879753&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26166410&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTg3OTc1MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNjY0MTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEcaf8eb28" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25879753&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26166410&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTg3OTc1MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNjY0MTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF4ac69afe" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25879753&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26166410&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTg3OTc1MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNjY0MTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG4ac69afe" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25879753&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26166410&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Reef</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is a <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/25879753.286657/aHR0cHM6Ly93d3cud3NqLmNvbS9hcn=
+RpY2xlcy9naG9zdC1raXRjaGVucy1hcmUtcHJvdmluZy10by1iZS1hLW1lc3N5LWJ1c2luZXNzL=
+WFzLXJlZWYtZ2xvYmFsLXNob3dzLTExNjM4MTg3MjAx/607f07ceef4b8524a319a23cB2a0f6d=
+e2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">good story</a> from the glory days of the SoftBank Group Corp.=
+ investment boom. Reef Global Inc. operates =E2=80=9Cghost kitchens=E2=80=
+=9D from trailers in parking lots. So it=E2=80=99s a food-service company b=
+asically. It has raised over $1.5 billion, some of it from SoftBank. That w=
+ould buy a lot of trailers, but naturally Reef=C2=A0used the money to buy p=
+arking lots:</p><blockquote><p style=3D"margin: 16px 0;">Reef started as a =
+parking-lot technology company named ParkJockey. Co-founder and Chief Execu=
+tive Ari Ojalvo, a former restaurant entrepreneur, aimed to convert parts o=
+f parking lots into small parks surrounded by trailers offering services in=
+cluding child care and staging areas for package delivery.</p><p style=3D"m=
+argin: 16px 0;">SoftBank backed it in 2018. Reef quickly used much of the $=
+1.2 billion it raised to buy two giant companies that manage and operate pa=
+rking lots, becoming what it says is the largest parking-lot network in Nor=
+th America.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Sure, well, =
+if you are going to run restaurant kitchens in parking lots, you might as w=
+ell also run the parking lots? I don=E2=80=99t know why that would make sen=
+se? But it=E2=80=99s hard to spend $1.2 billion on food trucks quickly, and=
+ faster to spend it on buying parking-lot companies, I guess? Seems fine, w=
+hatever, except=C2=A0they also somehow bought the wrong parking lots?</p><b=
+lockquote><p style=3D"margin: 16px 0;">Despite Reef=E2=80=99s parking roots=
+, Reef found it wasn=E2=80=99t able to put trailers on many of its lots, as=
+ some had enclosed garages, where propane tanks and utility hookups aren=E2=
+=80=99t allowed. Others were owned by landlords who didn=E2=80=99t want foo=
+d trucks, former employees said. As a result, Reef rents lots from other pa=
+rking owners for more than 70% of its kitchens, current and former executiv=
+es said.</p></blockquote><p style=3D"margin: 16px 0;">Imagine being the per=
+son at the parking-lot-food-truck company who went out to buy the largest p=
+arking-lot network in North America to park your food trucks, and then foun=
+d out that you can=E2=80=99t park the food trucks in all the parking lots y=
+ou bought. For a couple of years SoftBank really created an environment whe=
+re startups had to spend money faster than they could think, and we are sti=
+ll enjoying the fallout.</p><table class=3D"liveintent-flex-ad" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTg3OTc1MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNjY0MTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHf571eec8" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25879753&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26166410&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Derivatives</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Yesterday Francine McKenna <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/25879753.286657/aHR0cHM6Ly90a=
+GVkaWcuc3Vic3RhY2suY29tL3AvcHdjLWJldHdlZW4tYS1yb2NrLWFuZC1hLWhhcmQtcGxhY2U/=
+607f07ceef4b8524a319a23cB7bf1b0ad" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">wrote=C2=A0about</a> the dispute=
+ between Tesla Inc. and JPMorgan Chase &amp; Co. over some Tesla warrants t=
+hat we <a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.28=
+6657/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMT=
+YvanBtb3JnYW4tZmlnaHRzLXRlc2xhLW92ZXItd2FycmFudHM_Y21waWQ9QkJEMTEzMDIxX01PT=
+kVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09=
+MjExMTMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB05a77879"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> discussed a couple of weeks ago</a>. Her main point is that JPMor=
+gan=C2=A0valued the warrants at one price (assuming that they were adjusted=
+ for Elon Musk=E2=80=99s pretend takeover of Tesla), Tesla valued them at s=
+ome other price (assuming that they weren=E2=80=99t), they are now in a leg=
+al fight over who was right, and PricewaterhouseCoopers LLP audits both com=
+panies=E2=80=99 books and presumably let them both use their own differing =
+valuations. This actually does not bother me that much =E2=80=94=C2=A0somet=
+imes companies get in valuation disputes, and anyway Tesla and JPMorgan acc=
+ount for Tesla warrants differently (JPMorgan as a mark-to-market asset, Te=
+sla as an equity instrument) =E2=80=94=C2=A0but that=E2=80=99s not what I w=
+ant to talk about.</p><p style=3D"margin: 16px 0;">Instead I want to talk a=
+bout this sentence describing the initial 2014 transaction that Tesla and J=
+PMorgan are now fighting over: =E2=80=9CIt=E2=80=99s one of those =E2=80=98=
+heads I win, tails you lose=E2=80=99 type of deals investment banks talk se=
+emingly sophisticated company treasurers into.=E2=80=9D I disagree! JPMorga=
+n=E2=80=99s=C2=A0<em>adjustment=C2=A0</em>of the warrants is controversial =
+=E2=80=94=C2=A0Tesla thinks it was pretty opportunistic, and I have some sy=
+mpathy for that position =E2=80=94=C2=A0but the original deal was fine. Tes=
+la paid its banks =E2=80=94=C2=A0JPMorgan and three other underwriters on i=
+ts 2014 convertible-bond deal =E2=80=94=C2=A0a net premium of about $214 mi=
+llion for the transaction[4]; in exchange, Tesla got a =E2=80=9Cbond hedge=
+=E2=80=9D (an option to buy its stock at the conversion price of the conver=
+tible bond) and the banks got a warrant=C2=A0(an option to buy the stock at=
+ a higher price). Net, Tesla bought a call spread on its own stock. By the =
+2021 maturity of=C2=A0the=C2=A0convertible bonds, the stock was way above t=
+he exercise prices of all of the options, and Tesla saved something like $7=
+60 million worth of stock issuance because of the call spread.[5] Now JPMor=
+gan wants $160 million of that back, but even so it was a good deal=C2=A0fo=
+r Tesla. (The banks did fine too, they were hedged, don=E2=80=99t worry abo=
+ut them.)</p><p style=3D"margin: 16px 0;">But it gets better. The net premi=
+um that Tesla paid to the banks was about $214 million. As we <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/25879753.286657/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMjMvYW1lcmljYW4tZXhwcm=
+Vzcy1zb2xkLXNvbWUtdGF4LWRlZHVjdGlvbnM_Y21waWQ9QkJEMTEzMDIxX01PTkVZU1RVRkYmd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTMwJnV0=
+bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB9d14b724" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> di=
+scussed last week</a>, that number is conveniently almost exactly the amoun=
+t of taxes that Tesla could theoretically save by doing this transaction: T=
+he price it paid for the bond hedge (about $603 million) was tax-deductible=
+, while the price the banks paid it for the warrants (about $389 million) w=
+as not taxable; at a 35% tax rate that $603 million deduction should be wor=
+th about $211 million. In practice Tesla has mostly generated losses since =
+2014, and probably didn=E2=80=99t get to take a lot of those tax deductions=
+; also corporate tax rates are lower now. <em>In general</em>, though, this=
+ is the sort of transaction that could reasonably have been marketed as =E2=
+=80=9Cyou buy an option from us and the IRS pays for it.=E2=80=9D</p><p sty=
+le=3D"margin: 16px 0;">I am harping on this because I think it is a general=
+ theme in the analysis of complicated financial transactions. In general, w=
+hen you see a bank sell a complex derivative to a non-financial customer li=
+ke a car company,=C2=A0there are two popular ways to analyze it:</p><ol sty=
+le=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li=
+ style=3D"margin-bottom: 5px;">The <em>textbook view=C2=A0</em>is that the =
+company has some financial risk and is paying the bank a fair premium to ma=
+nage the risk. =E2=80=9CTesla has a risk that its stock will go up above th=
+e conversion price, so it paid its banks to hedge that risk.=E2=80=9D (It i=
+s right in the name, =E2=80=9Cbond hedge.=E2=80=9D)</li>=09<li style=3D"mar=
+gin-bottom: 5px;">The=C2=A0<em>cynical view=C2=A0</em>is that the bank has =
+tricked the customer into giving the bank a lot of money for a worthless th=
+ing that the customer doesn=E2=80=99t understand, that the way the bank mak=
+es money is by bamboozling the client in a zero-sum trade.</li></ol><p styl=
+e=3D"margin: 16px 0;">I think you should be suspicious of both of those vie=
+ws. In many cases the=C2=A0<em>correct, though also cynical=C2=A0</em>view =
+is that the trade is, deep down, a=C2=A0tax optimization: The bank does stu=
+ff to lower the customer=E2=80=99s taxes, and the customer gives the bank a=
+ cut of the tax savings.[6]</p><table class=3D"header" width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">RugSeekers</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/25879753.286657/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+mZWF0dXJlcy9hdm9pZC1jcnlwdG9jdXJyZW5jeS1zY2Ftcy0yMDIxLz9jbXBpZD1CQkQxMTMwMj=
+FfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fd=
+GVybT0yMTExMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB105=
+102be" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> is a story</a> about =E2=80=9Ca 52-year-old grandfather in =
+a Dogecoin hat [who] is patrolling the darkest corners of the crypto world =
+for Shit Coin scammers=E2=80=9D:</p><blockquote><p style=3D"margin: 16px 0;=
+">Robert Browning and his motley crew =E2=80=94 named the RugSeekers for a =
+popular pump and dump scam called the rug pull =E2=80=94 are investigating =
+a tip about a new coin called We Save Moon. They=E2=80=99re examining its s=
+ource code, wallets and price charts for red flags indicating fraud. Browni=
+ng enters the coin=E2=80=99s group chat on Telegram, the messaging app wher=
+e this world hangs out. He starts typing under his alias RobAte25 =E2=80=94=
+ a reference to his grandson=E2=80=99s birthday, 8/25 =E2=80=94 and moves i=
+n for the kill.</p></blockquote><p style=3D"margin: 16px 0;">Here=E2=80=99s=
+ how the chat starts:</p><blockquote><p style=3D"margin: 16px 0;"><strong>R=
+obAte25:</strong> Are there any mods</p><p style=3D"margin: 16px 0;"><stron=
+g>We Save Moon:</strong> we are here for you as always</p><p style=3D"margi=
+n: 16px 0;"><strong>RobAte25:</strong> Hello</p><p style=3D"margin: 16px 0;=
+"><strong>We Save Moon:</strong> let=E2=80=99s PUMP and get this party star=
+t</p></blockquote><p style=3D"margin: 16px 0;">Well that seems like the kil=
+l, no?=C2=A0And yet it goes on for a long time from there. He asks question=
+s about the identity of the developers. =E2=80=9CWhat=E2=80=99s the utility=
+ of the coin,=E2=80=9D asks another RugSeeker. (The answer is that =E2=80=
+=9Cpeople get all kind of rewards.=E2=80=9D) The RugSeekers do test transac=
+tions to see how the liquidity pool operates. (Trickily.) Everyone pretends=
+ that this is very serious difficult high-tech stuff.</p><p style=3D"margin=
+: 16px 0;">Did you read the start of the chat that I quoted? =E2=80=9CLet's=
+ PUMP and get this party start,=E2=80=9D say the developers of We Save Moon=
+, immediately, to a stranger on the internet, in reply to his penetrating i=
+nvestigative question =E2=80=9CHello.=E2=80=9D=C2=A0I know all I need to kn=
+ow about whether We Save Moon is a scam! But RugSeekers keep seeking.=C2=A0=
+In crypto, =E2=80=9Cwe=E2=80=99re going to pump a worthless thing to make m=
+oney for ourselves=E2=80=9D is just=C2=A0<em>normal stuff</em>; people=C2=
+=A0<em>want=C2=A0</em>to invest in pumps. Just not the bad ones.=C2=A0</p><=
+table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Moderna=E2=80=99s Concerns About <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMzAvbW9kZXJuYS1jZW=
+8tc2F5cy13b3JsZC1tYXktbmVlZC1uZXctdmFjY2luZXMtdG8tZmlnaHQtb21pY3Jvbj9jbXBpZ=
+D1CQkQxMTMwMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xl=
+dHRlciZ1dG1fdGVybT0yMTExMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b852=
+4a319a23cB37d7d988" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Omicron Outlook</a> Spark Market Slump. The =
+inside story of the Pfizer vaccine: =E2=80=98<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25879753.286657/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRl=
+bnQvMGNlYTVlM2YtZDRjNC00ZWUyLTk2MWEtM2FhMTUwZjM4OGVj/607f07ceef4b8524a319a2=
+3cBac3fb4e0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">a once-in-an-epoch windfall</a>.=E2=80=99 Goldman Sach=
+s Rolls Out New Worker Benefits to <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/25879753.286657/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9nb2=
+xkbWFuLXNhY2hzLXJvbGxzLW91dC1uZXctd29ya2VyLWJlbmVmaXRzLXRvLWNvbWJhdC1lbXBsb=
+3llZS1idXJub3V0LTExNjM4MjEwNjE3P21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b852=
+4a319a23cB1b932b01" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Combat Employee Burnout</a>. Facebook Owner M=
+eta Must <a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.=
+286657/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMzAv=
+bWV0YS1tdXN0LXNlbGwtZ2lwaHktb24tY29tcGV0aXRpb24tY29uY2VybnMtdS1rLXNheXM_Y21=
+waWQ9QkJEMTEzMDIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3=
+NsZXR0ZXImdXRtX3Rlcm09MjExMTMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b=
+8524a319a23cB49d968fb" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> Sell Giphy</a> on Competition Concerns, U.K=
+. Says.=C2=A0Hertz Targets <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25879753.286657/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9oZXJ0ei10YX=
+JnZXRzLTItYmlsbGlvbi1pbi1idXliYWNrcy1hbWlkLXBhbmRlbWljLXJlY292ZXJ5LTExNjM4M=
+jA1MDU5P21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cBfcc3c247" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">$2 Billion in Buybacks</a> Amid Pandemic Recovery. Activist calls on Gl=
+encore to <a href=3D"https://link.mail.bloombergbusiness.com/click/25879753=
+.286657/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNmY1YThjNDMtNzZkNC00ODQzLWExNWU=
+tNDdiYzc2N2VjNmQ4/607f07ceef4b8524a319a23cBc53fb411" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">spin off coal =
+assets</a>.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+5879753.286657/aHR0cHM6Ly93d3cuaW5zdGl0dXRpb25hbGludmVzdG9yLmNvbS9hcnRpY2xl=
+L2Ixdm5yOTlyYjgwN3FxL2V4cGVydC1uZXR3b3Jrcy1hcmVudC1qdXN0LWZvci1oZWRnZS1mdW5=
+kcy1hbnltb3Jl/607f07ceef4b8524a319a23cB62f7fba4" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Expert Networks</a=
+> Aren=E2=80=99t Just for Hedge Funds Anymore. Microsoft=E2=80=99s Satya Na=
+della <a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286=
+657/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9taWNyb3NvZnRzLXNhdHlhLW5hZGVsbGE=
+tc29sZC1oYWxmLW9mLWhpcy1zaGFyZXMtaW4tdGhlLWNvbXBhbnktMTE2MzgyMTQyNDM_bW9kPW=
+l0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cBac907626" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">Sells Half=
+ of His Shares</a> in the Company. Twitter=E2=80=99s Agrawal Is <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/25879753.286657/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMzAvdHdpdHRlci1zLWFncmF3=
+YWwtaXMtbm93LXlvdW5nZXN0LWNlby1pbi1zLXAtNTAwP2NtcGlkPUJCRDExMzAyMV9NT05FWVN=
+UVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMT=
+EzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB9fb17218" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> Youngest CEO</a> in S&amp;P 500, Nudging Out Zuckerberg.=C2=A0When Sh=
+ipping Containers Are Abandoned, the Cargo Becomes a <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/25879753.286657/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMzAvYnVzaW5lc3MtYm9vbXMtZm9yLWNhcmd=
+vLXNhbHZhZ2UtYnV5ZXJzLWFtaWQtc3VwcGx5LWNoYWluLWNyaXNpcz9jbXBpZD1CQkQxMTMwMj=
+FfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fd=
+GVybT0yMTExMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBc50=
+fdc4b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Mystery Prize</a>. Learning Sixteenth-Century <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/25879753.286657/aHR0cHM6Ly93d3c=
+ubGFwaGFtc3F1YXJ0ZXJseS5vcmcvcm91bmR0YWJsZS9sZWFybmluZy1zaXh0ZWVudGgtY2VudH=
+VyeS1idXNpbmVzcy1qYXJnb24/607f07ceef4b8524a319a23cBbd97c692" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">Busine=
+ss Jargon</a>.=C2=A0What is <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/25879753.286657/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMGQ5MmI5MzgtZ=
+mE4YS00MDE5LThiY2MtZmI0ODJlYjFhN2I0/607f07ceef4b8524a319a23cBf170da39" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">Waystar Royco=E2=80=99s</a> true valuation? Merging black holes may cre=
+ate bubbles that could <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/25879753.286657/aHR0cHM6Ly93d3cubmV3c2NpZW50aXN0LmNvbS9hcnRpY2xlLzIyOT=
+g5ODktbWVyZ2luZy1ibGFjay1ob2xlcy1tYXktY3JlYXRlLWJ1YmJsZXMtdGhhdC1jb3VsZC1zd=
+2FsbG93LXRoZS11bml2ZXJzZS8_dXRtX3Rlcm09QXV0b2ZlZWQmdXRtX2NhbXBhaWduPWVjaG9i=
+b3gmdXRtX21lZGl1bT1zb2NpYWwmdXRtX3NvdXJjZT1Ud2l0dGVyI0VjaG9ib3g9MTYzODIzMzU=
+5NA/607f07ceef4b8524a319a23cB87c51db7" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">swallow the universe</a>.</p=
+><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-med=
+ia"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form=
+, right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbu=
+siness.com/click/25879753.286657/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbm=
+Vzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0M=
+GYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB69a8043a" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money=
+ Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25879753.286657/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcu=
+Y29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB0a05fa59" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span>=
+</p><p style=3D"margin: 16px 0;"><em>[1] I suppose technically it=E2=80=99s=
+ a letter, but in practical English-language usage it=E2=80=99s a word.</em=
+></p><p style=3D"margin: 16px 0;"><em>[2] Also if it was scarce people woul=
+dn=E2=80=99t use it! Public-health agencies don=E2=80=99t go around naming =
+coronavirus variants, like, =E2=80=9Cthe Super Bowl variant,=E2=80=9D becau=
+se <a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657=
+/aHR0cDovL3d3dy53YWtlZm9yZXN0bGF3cmV2aWV3LmNvbS8yMDIxLzAyL3RoZS1iaWctdHJhZG=
+VtYXJrLWdhbWUtdGhlLW5mbHMtYmF0dGxlLXRvLXByb3RlY3QtaXRzLXN1cGVyLWJvd2wtdHJhZ=
+GVtYXJrLw/607f07ceef4b8524a319a23cB5b781850" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">then they=E2=80=99d ge=
+t sued</a>=C2=A0and have to pay the intellectual-property-rights owners.</e=
+m></p><p style=3D"margin: 16px 0;"><em>[3] Down here in the footnotes you a=
+nd I can talk like rational people and say: Look, if it=E2=80=99s essential=
+ly free to create these scarce claims, can=E2=80=99t anyone just create mor=
+e of them, defeating the promise of scarcity? Can=E2=80=99t I go launch a t=
+hing and call it Omicron Coin and sell it to compete with the existing Omic=
+ron Coin? Can=E2=80=99t anybody do that? Shouldn=E2=80=99t there be hundred=
+s of Omicron Coin projects all competing for the money looking to speculate=
+ on the word =E2=80=9Comicron=E2=80=9D? Sure, man, I dunno. I should say th=
+at the limits here seem to be more social =E2=80=94=C2=A0about what project=
+s get attention on what crypto websites and chats, etc. =E2=80=94=C2=A0rath=
+er than technical, and our rational objections probably don=E2=80=99t carry=
+ much weight. In the early days of Bitcoin, Bitcoin proponents said =E2=80=
+=9Conly 21 million Bitcoins will ever be minted so they will go up in value=
+,=E2=80=9D and Bitcoin skeptics said =E2=80=9Cno, if they become valuable, =
+then people can just create new Bitcoin copycats and siphon away that value=
+.=E2=80=9D The skeptics were not *entirely* wrong =E2=80=94=C2=A0there are =
+copycats=C2=A0like Dogecoin that really did become valuable =E2=80=94=C2=A0=
+but they were *almost* entirely wrong; a Bitcoin clone did not turn out to =
+be a good substitute for Bitcoin.</em></p><p style=3D"margin: 16px 0;"><em>=
+[4] See <a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.2=
+86657/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwM=
+TU2NDU5MDE1MDAxMDMxL3RzbGEtMTBrXzIwMTQxMjMxLmh0bQ/607f07ceef4b8524a319a23cB=
+46e9a021" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">page 57 here</a>: =E2=80=9CIn connection with the offerin=
+g of these notes in 2014, we purchased a convertible note hedges for $603.4=
+ million and sold warrants [for] $389.2 million.=E2=80=9D</em></p><p style=
+=3D"margin: 16px 0;"><em>[5] This is a rough number and requires some expla=
+nation. The $214 million net premium number is actually for two different c=
+all spreads, relating to Tesla=E2=80=99s convertibles maturing in 2019 and =
+2021. The 2019 convertible matured out of the money (see <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/25879753.286657/aHR0cHM6Ly93d3cuc2Vj=
+Lmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMTU2NDU5MDE5MDEzNDYyL3RzbGE=
+tMTBxXzIwMTkwMzMxLmh0bQ/607f07ceef4b8524a319a23cB11ee9914" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">page 22 =
+here</a>) and so Tesla=E2=80=99s call-spread premium was effectively wasted=
+. The 2021 convertible matured ridiculously in-the-money and everyone conve=
+rted (see <a href=3D"https://link.mail.bloombergbusiness.com/click/25879753=
+.286657/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTM=
+xODYwNS8wMDAwOTUwMTcwMjEwMDAwNDYvdHNsYS0yMDIxMDMzMS5odG0/607f07ceef4b8524a3=
+19a23cBcc7650f0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">page 20 here</a>). The actual result involved net =
+share settlement of the bonds, bond hedge and warrants, but the basic *econ=
+omic* result is that (1) Tesla bought a call spread on the 3.8 million shar=
+es of stock underlying the 2021 convertible, (2) that call spread had strik=
+es of $359.87 and $560.6388, a difference of about $200.77 per share, and (=
+3) both legs ended up in the money. So Tesla got back value equal to about =
+the $200.77 width of the call spread times the 3.8 million underlying share=
+s, or about $760 million. (The share and per-share numbers are as of 2014, =
+when the trades were done; since then Tesla had a stock split, which change=
+s the share numbers but not the total value.) This is probably not quite ri=
+ght due to differences in timing of settlement, etc., but it=E2=80=99s in t=
+he right ballpark.</em></p><p style=3D"margin: 16px 0;"><em>[6] Disclosure,=
+ I used to do these trades as a banker. =E2=80=9CYou buy a call spread from=
+ us and the IRS will pay for it=E2=80=9D: Definitely a thing I said!</em></=
+p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBd329b0c3" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBf062b5ed" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB5d2f15d9" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB6b3c0e12" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTg3OTc1MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNjY0MTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIa4bb9cad" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25879753&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26166410&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2587975=
+3.286657/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB18b1d858" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25879753.286657/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCa9c803a2" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25879753.286657/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB3f924475" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25879753.286657/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB6004a227" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB2=
+17d3fba" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25879753.286657/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB8=
+ebb8e2c" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D258797=
+53&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26166410&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D258797=
+53&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26166410&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D258797=
+53&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26166410&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D258797=
+53&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26166410&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D258797=
+53&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26166410&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfeoy1.656p/4648c3c7.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_114600042_1208696544.1638297124516--
+

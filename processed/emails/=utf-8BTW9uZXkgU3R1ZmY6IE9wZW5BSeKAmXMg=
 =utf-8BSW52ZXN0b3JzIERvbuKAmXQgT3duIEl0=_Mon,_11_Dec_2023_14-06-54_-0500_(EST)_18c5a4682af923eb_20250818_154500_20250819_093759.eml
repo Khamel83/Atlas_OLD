@@ -1,0 +1,2177 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:dd94:0:b0:67a:8dc3:b581 with SMTP id v20csp6533257qvk;
+        Mon, 11 Dec 2023 11:07:00 -0800 (PST)
+X-Received: by 2002:a05:6000:1366:b0:333:2fd2:7680 with SMTP id q6-20020a056000136600b003332fd27680mr1112740wrz.113.1702321619766;
+        Mon, 11 Dec 2023 11:06:59 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1702321619; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=eePsJvIaDL2oPs+VPxiNRHp5l6fwA6ucy2+eH9oqswAbcgkquTIIl4X7CHj1JcVogJ
+         BDSH25qRgP/sFo4ZTGrTJnNch8srEcgfa+Fl0gtcqxb5E+pSsnrurA/Ks80JG0ton1/N
+         mrgV6TmoC9DifjpjuGDDmGP555GXIa2L8jdhLdfp25hv8A6XDAanD5SKUzhFxHor0D3P
+         gYqgFzR8W/18xjbnpiWZDrXt7FsAqp2YHMEYQLvXmkR1WWzJNPAXZF7CJ415ozrrHCa3
+         gSywUXRCd0U9Pb3u8QpVB1IqmInKIQQNDkNlFCQVjlhfLvydOmyJ5M4qNA1LIALJ8Bqu
+         pRWA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=DMF09LHSoemctU4z8VsJUNnKGY4skZcPKqdPxJuFprQ=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=GfnjcXkS63AhlE+7m2QqLwqQd5GGKveUOySYFPmKYJSPS6ODTfaeF/hacXmQ7XelUA
+         oedsF/LCdIxTzJb7kMoh90Kf4sy6lkJ3X9vnDBoDuzWX1DvghRGWufB8i7T+btkABHXZ
+         x1lII4UfC9K1iReBLerj6sdkfH6gd2ZkM1MnrdXc+SrQ/um5SpKKfd8aCeoVlaLAwdc6
+         Yqe/5mOVZ/4LMlQKNl31lbjefx5Y4F5fhgZ3GrQFNkGstHh0ECBqXMBHvJ65V1SJqVOQ
+         H9wKon6aj0pBI8kMKtGxC7SxkAqD2j6a/rPqcebK3cjhfZ9tNRhIr/suvfu8C1dJibPK
+         CiIA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zhbZYUq5;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i12-20020adfefcc000000b00333309264b3sor1297400wrp.0.2023.12.11.11.06.59
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 11 Dec 2023 11:06:59 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zhbZYUq5;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1702321619; x=1702926419;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=DMF09LHSoemctU4z8VsJUNnKGY4skZcPKqdPxJuFprQ=;
+        b=ZSLJ4NLDHO6fD6wICvOTRI7p6YNeykUcSE6ZH8W7X2t4K4DVO/kiVb0/Uvv+vqKts+
+         dLVvcu4S/zOkcTFgKTtcDjrRTSGu2+ZT69pk0OByaUHSf7EfY4vkw/ATniZqeOCXwxaR
+         IhlF/9pvUUn/pGVB2kGnZpYj6+GO24yNgoztJJtYI/0Fm02/UTQp+Fo+0BDYfjFTWnw2
+         SOhrbZpbFnslelXGuIVuDXp9ZIWKlVGcugXM0OGGghWDes6Uxd965AB6qxTDkgNL62BH
+         pIHW3/xMk2OHFRC/mpGzeH/+yz4AjQOH3u80vI2WCzg03uVumiJkadn3ZqzWCQxUw8b0
+         RnNA==
+X-Gm-Message-State: AOJu0YzLNDtqNt81tD9gzQUcasOvwBOR95R9M8hDg88uHM+H/kgcQjN4
+	tzRwW7zMeLon6hkowsYZCrAACgLLSdEXpnxmlvBYAbbUZFAJQv9uzw==
+X-Received: by 2002:a05:6000:108a:b0:333:4635:c914 with SMTP id y10-20020a056000108a00b003334635c914mr1220777wrw.82.1702321619239;
+        Mon, 11 Dec 2023 11:06:59 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:e109:0:b0:333:384e:c9a6 with SMTP id t9csp1357725wrz;
+        Mon, 11 Dec 2023 11:06:56 -0800 (PST)
+X-Received: by 2002:a05:6808:120c:b0:3b8:b063:ade2 with SMTP id a12-20020a056808120c00b003b8b063ade2mr4952505oil.63.1702321615775;
+        Mon, 11 Dec 2023 11:06:55 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1702321615; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=MbgBQQ3n3wSWdNOwsq7Uh4JGGyOC/9+3lT2l4gyNeY+BQRoIdInCgzvPRBt2T40pIP
+         KQMGaZUUBaMLBTrqPmA1gB1BDmgCQC3DKIvEKF2hQL1M5pV9CbPQUOLl4e0iYvHxf77A
+         aVbRFEiuYHns3W/2IqWSz3BGhdlJ9iWF0ouPHktNZNqYl7ULp/OavnrHTHBEpcoVaZ+u
+         Mx0nAfMO1fZGiOidHsmklm14aibK0Met5ehDBySd+AWwLVrCIYMQKBqzdzdTVAiRaf4m
+         AY+Epp+mQSsYBfINgNA0tw7ZHuIZ1nX5qxvaOs6JiGDJh+gh1swcK3PvoBCmyOT87YEr
+         BCZg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=DMF09LHSoemctU4z8VsJUNnKGY4skZcPKqdPxJuFprQ=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=jxTi1s8CxhM3FesIrZolFivY+tEQPVNP3v5zBR/34cpHhvdOEyQ/7o+eiL6IjkXCDA
+         blJjlIcn+Reou0k0KDT6R+KTuUaY6EjwzcFqwhtLj+gdLkqHnjPuWYxXY0bLVteJNTpV
+         siiTw2Cw9qXVlod+JWAj16gBWgRG2+srRv47uRbyZTDf225LcHVUry0PNxirUZwagh7a
+         LjmI0WUmbKoKrrjGF/yv3+m55zHo1/dBkag5h6uI0ayKkue56BatTVGvZknIEgzq/8EY
+         w2EtHbaKeTvCkU074IMKMjKjbSz18e+7Df2QfUgutO5hQHgAyXex3oSevWuf3mSJTS/T
+         NtCQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zhbZYUq5;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231211140654.33655342.286402@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231211140654.33655342.286402@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231211140654.33655342.286402@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l22-20020a544116000000b003b8b2d8a843sor6341870oic.3.2023.12.11.11.06.55
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 11 Dec 2023 11:06:55 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20231211140654.33655342.286402@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IEPc3UGBUcmCR1nxj9mP51pNDYGAhbWsvmadWBFWQobwWjyzEL32U+F/JyqOhtAhVrVjARjuAHCm9YoNwRsxqjzgWtO5YI=
+X-Received: by 2002:a05:6808:228b:b0:3ba:175:f195 with SMTP id bo11-20020a056808228b00b003ba0175f195mr3779028oib.94.1702321615400;
+        Mon, 11 Dec 2023 11:06:55 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1702321615; cv=none;
+        d=google.com; s=arc-20160816;
+        b=qaCHIisF8pqw+2/9JZik+i3Ot4DGzRhwIsPXLGZ5JxQMz0yWk/CCvPZFMcLuCiloOa
+         JIc6J+pKwskGVEgf1pYlalTZnAmaQJxLHHjxYbBwML5cpYLKwXk+npijlqg6Nhc8BxA8
+         osVc/OgVhpaU4xrCXMtg/uP+V18cJ87KGQx1EU1NwSm6DyJ3t72UYgAwfp84LMKFMlMZ
+         7gAM7KBThzvmL5RJlgtFcDxZAdAN0761RFOMfXZVf63zxZQ2CFkjmWHqTj/mc8qEWMUF
+         AVDq6Ojxi6b/iw3xoZ/AE+0OZPPtUudlM184hCiFeWLvDb+0D7RGuil3GT+X+CT2bRwX
+         lTQA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=DMF09LHSoemctU4z8VsJUNnKGY4skZcPKqdPxJuFprQ=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=ZjVnTdVeBT+LCzcJ2rSKMcx6h/otk87+gtkJrVCl2N2dYhi1AOypR16praP747fFFN
+         NJ1NFDpUfbmdP4eBXcREpP9Rc7qkdFgktzZY+hI1z2MKzqN9WRl2lqx6HFPuG2HIJJ15
+         cvw/krR3oJSmumGAgQu6rFJ+392XPJPgOP1FJOxGdzLfCq/f6/DZCxSAzqSH8POKNafo
+         2IiAW+5RYd3pFArX0URBEBg/NfJw0P3oTaLcwhWe30fjVNTJnBlXWl/ck8aO+OYy+yLc
+         PaFzCIuDZ8+9TLNWC7Ni5S3aEAzkPk4MZOxOwbq39WmToY8dxlkJVOnLZ30TxknXBbHO
+         tZ9A==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zhbZYUq5;
+       spf=pass (google.com: domain of delivery_20231211140654.33655342.286402@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20231211140654.33655342.286402@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231211140654.33655342.286402@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id h37-20020a0561023da500b004649987350fsi2210694vsv.0.2023.12.11.11.06.55
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 11 Dec 2023 11:06:55 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20231211140654.33655342.286402@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=4jEKwO8xldVLchExJaLxJ9gv3lYKHA1VvpFDHwaaS0s=;
+ b=zhbZYUq56538WR6ndBCBmML2cl06oEjw6YwjECbOKSC50xva3AeIPjxQNQnX5FGghFLTKR8h0yg/
+   1MmA5UC7DOsKaHZMEgGAyqB0FrBa0oQVUO0KmfCfQr5/ygfU/tQYQVQUinpGOr13P6eeHFY2N55i
+   9LTXelVm4LeC9QAn/t4=
+Received: from aws1-mta-relay9.sailthru.cloud (10.55.62.145) by bloomberg-b.sailthru.com id hetesu30nu8c for <bloomberg@khamel.com>; Mon, 11 Dec 2023 13:06:54 -0600 (envelope-from <delivery_20231211140654.33655342.286402@mx.sailthru.com>)
+Date: Mon, 11 Dec 2023 14:06:54 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231211140654.33655342.286402@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IE9wZW5BSeKAmXMg?=
+ =?utf-8?B?SW52ZXN0b3JzIERvbuKAmXQgT3duIEl0?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_48891855_1072172887.1702321614170"
+Precedence: bulk
+x-job: 6358-33655342-20231211
+X-Feedback-ID: 6358:33655342:campaign:sailthru
+X-TM-ID: 20231211140654.33655342.286402
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-71-1.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck1cmm.64zm/64878eeb
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck1cmm.64zm/64878eeb>, <mailto:unsubscribe_20231211140654.33655342.286402@mx.sailthru.com>
+X-rpcampaign: stjko33655342
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_48891855_1072172887.1702321614170
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        The normal way to own a share of a company=E2=80=99s profits is to =
+buy its stock. If you find a company that you think is promising, and you w=
+ant to
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      OpenAI ownership
+   =20
+ =20
+
+The normal way to own a share of a company=E2=80=99s profits is to buy its =
+stock. If you find a company that you think is promising, and you want to g=
+ive it some money to finance its operations in exchange for a share of its =
+profits, you might buy, say,=C2=A010% of its stock, and then in some rough =
+sense you own 10% of its future profits. Not in any very strict sense =E2=
+=80=94=C2=A0the company gets=C2=A0the profits, and may or may not pay some =
+or all of them out to you as dividends=C2=A0=E2=80=94=C2=A0but people do te=
+nd to think of a share of stock as a share in future profits.
+But while stock is the=C2=A0standard=C2=A0way to buy a share of a company=
+=E2=80=99s profits, it is not the only way. Here=E2=80=99s another one:=C2=
+=A0I=C2=A0buy 10% of the company=E2=80=99s stock, and then I write you a to=
+tal return swap, a derivative contract saying that I=E2=80=99ll pay you $1 =
+for every $1 that the stock goes up (and you=E2=80=99ll pay me $1 for every=
+ $1 it goes down). That way, you have economic exposure to the stock: You m=
+ake money if it goes up=C2=A0and lose money if it goes down. But you don=E2=
+=80=99t own the actual shares of stock, or some of the rights that attach t=
+o them. (You normally can=E2=80=99t vote for directors, for instance.) You =
+have economic ownership of the stock, but you don=E2=80=99t actually own st=
+ock.
+  [1]
+
+There are other ways. Many crypto tokens, for instance, are kind of=C2=A0pr=
+ofit interests in some project.
+  [2]
+=C2=A0Or more simply, you=C2=A0go to the company and say =E2=80=9Chey I=E2=
+=80=99d like to buy 10% of your profits=E2=80=9D and the company says =E2=
+=80=9Csure=E2=80=9D and writes a contract saying =E2=80=9Cyou are entitled =
+to 10% of our profits.=E2=80=9D And then when the company has profits it wr=
+ites you a quarterly check.
+  [3]
+
+Why would you do any of these things, instead of buying stock? Here are thr=
+ee possible answers:
+=09You arrived from Mars 10 minutes ago,=C2=A0you have never heard of =E2=
+=80=9Ccommon stock,=E2=80=9D so you reason from first principles about how =
+to invest in a company and take a share of its profits. =E2=80=9CWhat if we=
+ wrote some sort of a contract giving me a share of the profits,=E2=80=9D y=
+ou say, etc.=C2=A0=09The company is not actually a company and doesn=E2=80=
+=99t have stock, so you need to resort to workarounds. You want to give mon=
+ey to a university lab, or a government project, or a nonprofit organizatio=
+n, or your brother-in-law,=C2=A0to develop some commercial thing, and in ex=
+change you want 10% of the commercial thing=E2=80=99s profits. Maybe you wr=
+ite a profit-sharing contract. Or you want to invest money in a decentraliz=
+ed crypto project, and you take back tokens=C2=A0that seem likely to go up =
+if it succeeds.=09Regulatory arbitrage. Because stock is the normal way to =
+own a share of a company=E2=80=99s profits, a lot of=C2=A0rules=C2=A0apply =
+to stock, and if you buy something that is Not Stock you might avoid those =
+rules, while still getting the benefits (profit sharing, etc.) of stock. Fo=
+r instance, the US Securities and Exchange Commission has a lot of disclosu=
+re and other rules that apply to people who buy   more than 5% of a public =
+company=E2=80=99s stock; some investors want to avoid those disclosure rule=
+s for various reasons, so they will use total return swaps or other derivat=
+ives rather than buying stock directly. (There is a cat-and-mouse element t=
+o this, where people use swaps to avoid the rules, so the SEC   revises the=
+ rules to capture swaps.)=C2=A0Or there are margin rules limiting how much =
+money you can borrow=C2=A0to buy stocks, while the rules for derivatives ca=
+n be laxer. (This is part of what went wrong with   Archegos Capital Manage=
+ment.)=C2=A0Or US antitrust law  requires regulatory preapproval for anyone=
+ buying more than a certain amount of a company=E2=80=99s stock; buying Not=
+ Stock can avoid those rules too.=C2=A0
+
+Reason 1 is fun but, I think, rarely applies.
+  [4]
+=C2=A0But we have   talked a   lot   recently about the drama and corporate=
+ structure of OpenAI, which is technically a nonprofit, but which has taken=
+ billions of dollars from Microsoft Corp. and other investors in exchange f=
+or (capped) participation in the profits of its for-profit (uh,  capped-pro=
+fit) subsidiary. Basically OpenAI=E2=80=99s strategy is to take Microsoft=
+=E2=80=99s money, use it to build chatbots and other sort-of-artificial-int=
+elligence tools, make many billions of dollars from the chatbots, use some =
+of the money to pay Microsoft a lavish return on its investment, use the re=
+st to build artificial general intelligence, and then use artificial genera=
+l intelligence =E2=80=9Cfor the benefit of humanity,=E2=80=9D rather than f=
+or the benefit of Microsoft.
+OpenAI seems to be   worth $86 billion, and I have=C2=A0joked that =E2=80=
+=9Cas far as I can tell no one in human history has ever purchased shares i=
+n a nonprofit at an $86 billion valuation,=E2=80=9D but that was just a sho=
+rthand, and Microsoft=C2=A0didn=E2=80=99t=C2=A0purchase shares in OpenAI, o=
+r not exactly.
+  [5]
+=C2=A0It bought a capped profit interest in OpenAI=E2=80=99s capped-profit =
+subsidiary?
+Part of this is for Reason 2: OpenAI is a nonprofit, it has unusual goals, =
+and it is pursuing those goals with an unusual profit-sharing mechanism rat=
+her than with normal stock.
+But part of it is for Reason 3, regulatory arbitrage.   Bloomberg=E2=80=99s=
+ Dina Bass and Leah Nylen report:
+
+With global regulators examining Microsoft Corp.=E2=80=99s $13 billion inve=
+stment in OpenAI, the software giant has a simple argument it hopes will re=
+sonate with antitrust officials: It doesn=E2=80=99t own a traditional stake=
+ in the buzzy startup so can=E2=80=99t be said to control it.
+When Microsoft negotiated an additional $10 billion investment in OpenAI in=
+ January, it opted for an unusual arrangement, people familiar with the mat=
+ter said at the time. Rather than buy a chunk of the cutting-edge artificia=
+l intelligence lab, it cut a deal to receive almost half of OpenAI=E2=80=99=
+s financial returns until the investment is repaid up to a pre-determined c=
+ap, one of the people said. The unorthodox structure was concocted because =
+OpenAI is a capped for-profit company housed inside a non-profit organizati=
+on.
+It=E2=80=99s not clear regulators see a distinction, however. On Friday the=
+ UK Competition and Markets Authority said it was gathering information fro=
+m stakeholders to determine whether the collaboration between the two firms=
+ threatens competition in the UK, home of Google=E2=80=99s AI research lab =
+Deepmind. The US Federal Trade Commission is also examining the nature of M=
+icrosoft=E2=80=99s investment in OpenAI and whether it may violate antitrus=
+t laws, according to a person familiar with the matter. =E2=80=A6
+Microsoft didn=E2=80=99t report the transaction to the agency because the i=
+nvestment in OpenAI doesn=E2=80=99t amount to control of the company under =
+US law, the person said. OpenAI is a non-profit and acquisitions of non-cor=
+porate entities aren=E2=80=99t reported under US merger law, regardless of =
+value. Agency officials are analyzing the situation and assessing what its =
+options are.
+=E2=80=9CWhile details of our agreement remain confidential, it is importan=
+t to note that Microsoft does not own any portion of OpenAI and is simply e=
+ntitled to a share of profit distributions,=E2=80=9D a Microsoft spokespers=
+on said in a statement.=C2=A0
+
+Sure. Ownership of a company consists=C2=A0mainly=C2=A0of being entitled to=
+ a share of profit distributions, but not=C2=A0only=C2=A0that; ownership do=
+es often (not always) come with, for instance, voting rights. Microsoft has=
+ isolated the profit share and taken only that, not actual ownership. Okay =
+fine and also a  board observer seat.=C2=A0
+=E2=80=9CIt=E2=80=99s not clear regulators see a distinction,=E2=80=9D or t=
+hat they should really. The conceptual overlap between =E2=80=9Cowning a po=
+rtion of OpenAI=E2=80=9D and =E2=80=9Cbeing entitled to a share of profit d=
+istributions=E2=80=9D is not perfect, but it is large, and a regulator migh=
+t reasonably say =E2=80=9Cclose enough.=E2=80=9D
+Also here is a small fun fact about this distinction. When I   wrote about =
+OpenAI last month, I included this organizational chart from its own websit=
+e:
+
+
+   =20
+
+I clipped that chart from the website myself, on Nov. 19, though=C2=A0I cir=
+cled =E2=80=9CMinority owner=E2=80=9D in blue for this post.=C2=A0I went ba=
+ck to  the website yesterday to check, and found this=C2=A0slightly differe=
+nt=C2=A0chart:
+
+
+   =20
+
+See the difference? Again, I took the liberty of circling it in blue. I do =
+not know the details of Microsoft=E2=80=99s contractual arrangement with Op=
+enAI, or if they have changed since November. But in November, OpenAI=E2=80=
+=99s website said that Microsoft was a =E2=80=9Cminority owner=E2=80=9D of =
+its capped-profit subsidiary. In December, when =E2=80=9Cit is important to=
+ note that Microsoft does not own any portion of OpenAI,=E2=80=9D the websi=
+te says it has a =E2=80=9Cminority economic interest.=E2=80=9D You can see =
+how people might confuse those things, since OpenAI did.
+One other thing I should say is that  here is a claim that OpenAI=E2=80=99s=
+ employees=C2=A0get a capped profit interest instead of stock (or stock opt=
+ions, or restricted stock units), because of its nonprofit structure, and t=
+hat this profit interest gets better=C2=A0tax treatment, for them, than sta=
+ndard startup equity awards:
+
+People receiving profit interests will be granted the units upon their vest=
+ing date at no additional cost. Because of that, there=E2=80=99s an additio=
+nal key tax benefit in that they are tax-free upon issuance and vesting, so=
+ the only tax hit would be a capital gains tax when the profit is received =
+or sold.
+In contrast, with a traditional Restricted Stock Unit (RSU) that you=E2=80=
+=99d see at a MAANG level company, when the RSU vests, an employee will be =
+taxed upon receiving their RSUs immediately. This is because the RSU is ess=
+entially a percentage of equity in the company and holds a value at whateve=
+r the market rate is for that company=E2=80=99s stock.
+
+Regulatory arbitrage everywhere!
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Elsewhere in AI economics
+   =20
+ =20
+
+Some complaints that you hear sometimes, or that I do anyway, are:
+=09Index funds are =E2=80=9Cworse than Marxism=E2=80=9D: By not choosing be=
+tween companies, but just buying all of them, they sap the dynamism of fina=
+ncial capitalism and lead to an essentially socialist economy.=C2=A0=09Inde=
+x funds are  bad for competition: If all of the public companies are owned =
+by the same half-dozen big investment managers, then those managers won=E2=
+=80=99t want the companies to compete with one another; they will just want=
+ to maximize the overall pool of corporate profits to benefit their joint o=
+wners.=C2=A0=09Index funds are bad for investors, for practical reasons: Th=
+e S&P 500, the most important US stock index, is  heavily weighted to a few=
+ enormous tech companies that have had a remarkable run of growth recently,=
+ so you are not really getting much diversification from your index fund, a=
+nd you are taking a lot of risk on those few companies.=C2=A0=09Index funds=
+ are socialism, and that=E2=80=99s great: We could nationalize index funds =
+and give=C2=A0shares of them=C2=A0to everyone, and then we=E2=80=99ll have =
+(1) ownership of the means of production by the masses and (2)=C2=A0good en=
+ough=C2=A0financial performance and innovation; after all, companies=C2=A0a=
+re=C2=A0largely owned by big diversified asset managers now and they still =
+manage to innovate and compete. You get the egalitarian benefits of sociali=
+sm, but also the economic benefits of modern financial capitalism.=C2=A0(=
+=E2=80=9CIndex Funds Are A Proof Of Concept For Market Socialism,=E2=80=9D =
+ Matt Bruenig has argued.) I guess this one isn=E2=80=99t really a complain=
+t.=09Artificial intelligence will take over the world,   not necessarily in=
+ a =E2=80=9Crobots will kill us all to make  paper clips=E2=80=9D way but i=
+n the sense that AI will be much better at most jobs than humans are, which=
+ will create enormous abundance and leisure time, but which will also put m=
+any humans out of work. The benefits=C2=A0of AI will accrue only to the plu=
+tocrats that own the robots, while the masses who are put out of work by th=
+e robots will be immiserated and have no source of income, so we need unive=
+rsal basic income to prevent misery and/or revolution. (This is, for instan=
+ce, possibly=C2=A0Sam Altman=E2=80=99s view?)=C2=A0
+
+I suppose a synthesis of all of these ideas=C2=A0might be:
+=09AI will take over the world, but the robots will mostly be owned by the =
+big public tech companies with the resources to devote to the very capital-=
+intensive buildout of AI. So the benefits of AI will accrue mostly to those=
+ big tech companies=E2=80=99=C2=A0stocks, which will make index fund invest=
+ors very rich. Also the trend is for more people to be index fund investors=
+, so eventually everyone will benefit from the abundance of AI because we w=
+ill all, through our index funds, own the robots.
+
+There are holes in that case, I dunno. (Not everyone owns index funds, and =
+what about the international dimension, and even in the AI abundance world =
+someone has to take out the garbage, etc.) But I enjoyed this story from Bl=
+oomberg=E2=80=99s Jeran Wittenstein and Ryan Vlastelica, which=C2=A0kind of=
+=C2=A0suggests that synthesis:
+
+The fate of the S&P 500 is increasingly resting on whether a handful of the=
+ biggest technology companies can parlay artificial intelligence investment=
+s into even higher profits.
+Seven firms including Microsoft Corp. and Nvidia Corp. have driven about th=
+ree-quarters of the index=E2=80=99s gain this year, in a rally stoked by an=
+ investor obsession with AI=E2=80=99s potential to disrupt vast parts of th=
+e economy. Valuations are high, with the companies=E2=80=99 shares trading =
+at an average of 32 times earnings. Pressure is mounting on companies to de=
+liver on some of the earnings hope embedded in their ever-rising stock pric=
+es. =E2=80=A6
+Nick Rubinstein, technology stock portfolio manager at Jennison Associates,=
+ is confident that profits from AI will help make some Big Tech stocks look=
+ like bargains at current prices.
+=E2=80=9CI=E2=80=99m more excited now than I have been for a very long time=
+,=E2=80=9D he said in an interview. =E2=80=9CSo many industries can benefit=
+, while the arms dealers for AI should benefit even more.=E2=80=9D
+
+Yeah I mean the possibilities are (1) AI takes over the world imminently, w=
+hich is good for S&P 500 investors=C2=A0qua=C2=A0S&P 500 investors, or (2) =
+it doesn=E2=80=99t, which is probably good for most S&P 500 investors qua p=
+rofessional knowledge workers whose jobs could get squeezed by AI. Owning N=
+vidia stock is a decent hedge to getting replaced by an Nvidia-powered=C2=
+=A0robot!
+
+ =20
+   =20
+      Cow burps
+   =20
+ =20
+
+The basic situation is that some processes on Earth release carbon into the=
+ atmosphere and accelerate climate change, while other processes on Earth c=
+apture or store carbon and reduce climate change. Burning jet fuel releases=
+ carbon,=C2=A0trees store carbon, etc. We would like less climate change, w=
+hich means encouraging the processes that store carbon and reducing the one=
+s that release carbon. There are various (voluntary and regulatory) systems=
+ for =E2=80=9Ccarbon credits=E2=80=9D or =E2=80=9Ccarbon offsets,=E2=80=9D =
+the theory of which is=C2=A0roughly=C2=A0that people who engage in carbon-r=
+eleasing processes can pay money to encourage other people to engage in car=
+bon-storing processes to offset their emissions. Airlines in Europe can sen=
+d money to forest conservationists who will protect trees in Africa, offset=
+ting the carbon released by the airlines with the carbon stored by the tree=
+s.
+The   fundamental   questions in all of this are usually about baselines. O=
+ne way to think about trees is =E2=80=9Cchopping down trees releases carbon=
+, so it is carbon-emitting, while leaving the trees alone is=C2=A0neutral; =
+maybe planting=C2=A0trees reduces climate change, but you can=E2=80=99t get=
+ credit for just leaving existing trees alone.=E2=80=9D Another (far more c=
+ommon) way to think about trees is =E2=80=9Cthe trees store carbon, so leav=
+ing the trees alone is carbon-reducing, so you can generate carbon credits =
+by leaving trees alone.=E2=80=9D=C2=A0Perhaps the question is what process =
+you are measuring: The process of =E2=80=9Cbeing a tree=E2=80=9D stores car=
+bon and is good; the process of =E2=80=9Ccutting down trees=E2=80=9D releas=
+es carbon and is bad.
+When cows burp they release carbon. You might imagine saying =E2=80=9Ca cat=
+tle rancher with X cows generates Y tons of carbon emissions, and should ha=
+ve to buy carbon offsets to be neutral.=E2=80=9D Or: =E2=80=9CA cattle ranc=
+her with X cows, who changes their feed to a special low-burp diet, will on=
+ly generate Z tons of carbon emissions (Z < Y), so will have to buy fewer c=
+arbon offsets to be neutral.=E2=80=9D But it=E2=80=99s just a question of b=
+aselines. Why not: =E2=80=9CA=C2=A0cattle rancher with X cows, who changes =
+their feed to a special low-burp diet, will only generate Z tons of carbon =
+emissions (Z < Y), and so will reduce global emissions by (Z -=C2=A0X), and=
+ so will=C2=A0generate=C2=A0carbon credits that she can sell to airlines.=
+=E2=80=9D And then the airlines can burn a lot of jet fuel and put carbon i=
+nto the atmosphere, and they can say =E2=80=9Cbut it=E2=80=99s okay because=
+ we are paying some cows to burp less.=E2=80=9D
+I don=E2=80=99t know.   Bloomberg News reports:
+
+Canada announced a plan to encourage farmers to reduce emissions from cattl=
+e through a credit trading system, the latest climate-change initiative int=
+roduced by Prime Minister Justin Trudeau=E2=80=99s government.
+The Reducing Enteric Methane Emissions from Beef Cattle proposal would gran=
+t farmers who reduce methane emissions generated by cow burps to earn credi=
+ts that can be sold to other businesses to meet their own emission targets.
+Each credit would represent a metric tonne of emissions and would be met by=
+ improving diets, management and using other strategies to support =E2=80=
+=9Cmore efficient animal growth,=E2=80=9D Environment and Climate Change Ca=
+nada said in a release.
+
+Okay. Here is  the proposal, and I went directly to  the section on =E2=80=
+=9CBaseline scenario GHG [greenhouse gas] emissions,=E2=80=9D which has a b=
+unch of equations to quantify how much gas the cows were burping=C2=A0befor=
+e the project started. Then you improve the diet, they burp less, you calcu=
+late how much they=E2=80=99re burping now, you subtract, and that differenc=
+e is how much credit you can claim. You sell the burping reductions to like=
+ an oil-sands company to offset their emissions. Drilling up oil causes car=
+bon emissions, and cows burping cause carbon emissions, but, through the ma=
+gic of accounting, getting the cows to burp less=C2=A0offsets=C2=A0the oil =
+drillers=E2=80=99 carbon emissions.
+What are the chances that there will be some sort of cow burp accounting sc=
+andal, where ranchers claim excessive credits by manipulating the inputs in=
+to the=C2=A0formulas? Not zero, right? Teach the cows to burp quietly so th=
+e carbon credit auditors don=E2=80=99t notice them? If I am writing about a=
+ cow burp accounting scandal here in 2026 that will be a life well lived.
+
+ =20
+   =20
+      GameStop
+   =20
+ =20
+
+A long time ago, a skilled investor named Warren Buffett bought a lot of st=
+ock in a struggling textile manufacturer named Berkshire Hathaway Inc., thi=
+nking it was undervalued.
+  [6]
+=C2=A0He bought enough stock to control the company and make himself the ch=
+airman, but=C2=A0he let others run the day-to-day textile operations. He wa=
+s an investor, not a textile operator. Berkshire Hathaway had some cash, an=
+d, as chairman, he used that cash to make other investments, including in t=
+he insurance industry. Berkshire Hathaway=C2=A0is now a conglomerate with a=
+bout=C2=A0a $770 billion=C2=A0market capitalization, and it is still often =
+thought of mostly as=C2=A0Buffett=E2=80=99s investment vehicle, a company t=
+hat generates cash that he=C2=A0uses to make stock-market bets. But it also=
+ has a lot of operating businesses that generate that cash. Textiles is not=
+ one of them, though; that was shut down in 1985.
+I do not necessarily think that Ryan Cohen is the next Warren Buffett, or t=
+hat GameStop Corp. is the next Berkshire Hathaway, but wouldn=E2=80=99t tha=
+t be funny?  CNBC reported last week:
+
+Struggling retailer GameStop=C2=A0is giving its CEO and chair Ryan Cohen ev=
+en more control, including the ability to use company cash to buy other sto=
+cks.
+In its quarterly report released Wednesday night, GameStop announced two ch=
+anges to its corporate investment plan: company cash can now be used to buy=
+ equities instead of just short-term debt, and that Cohen is in charge of t=
+he investments.
+=E2=80=9CMr. Cohen directs the investment activity of the Company in public=
+ and private markets pursuant to authority granted by the Board of Director=
+s.=E2=80=9D ...
+The company did not hold a quarterly conference call with Wall Street analy=
+sts, but Wedbush=E2=80=99s Michael Pachter called the decision =E2=80=9Cina=
+ne=E2=80=9D and =E2=80=9Calarming.=E2=80=9D
+=E2=80=9CInvestors have a myriad of investment vehicles available to them a=
+nd therefore do not need GameStop to act as a mutual fund. If GameStop trul=
+y believes in the value of its shares, it should use its excess cash to buy=
+ back stock,=E2=80=9D Pachter said in a note to clients.
+
+Oh, sure, I mean, that=E2=80=99s a standard thing to say about conglomerate=
+s. Investors who want to own Stock X can buy Stock X; there=E2=80=99s no ne=
+ed for GameStop to buy it for them. Investors who want a skilled profession=
+al to buy stocks for them can hire a skilled professional, or buy a mutual =
+fund; there=E2=80=99s no need for them to let the chief executive officer o=
+f a video game retailer pick stocks for them, or to link his stock-picking =
+portfolio to the performance of the video game stores.
+On the other hand, the point is not that=C2=A0shareholders=C2=A0have better=
+ options than investing in public equities through GameStop. The point is t=
+hat=C2=A0GameStop =E2=80=A6=C2=A0maybe =E2=80=A6 doesn=E2=80=99t? If you ru=
+n GameStop and your diagnosis of the company=E2=80=99s problems is =E2=80=
+=9Cwe are a dying mall retailer of video games,=E2=80=9D you might be tempt=
+ed to diversify into letting your meme-stock chief executive officer YOLO y=
+our=C2=A0money on public stocks, whether or not that is strictly optimal as=
+ a matter of corporate financial theory. =E2=80=9CIf GameStop truly believe=
+s in the value of its shares, it should use its excess cash to buy back sto=
+ck,=E2=80=9D sure, but what if it doesn=E2=80=99t? What if the right model =
+of GameStop is =E2=80=9Cwow, people threw a lot of money at us for mystifyi=
+ng reasons, but using the money to spruce up our mall stores would be crazy=
+, let=E2=80=99s use it instead=C2=A0to pivot to, uh, whatever Ryan Cohen wa=
+nts to buy=E2=80=9D?=C2=A0
+
+ =20
+   =20
+      Hamas insider trading?
+   =20
+ =20
+
+We   talked last week about a  paper purporting to find evidence of insider=
+ trading in advance of the Oct. 7 Hamas attacks in Israel. I found it incon=
+clusive. But here=E2=80=99s a  pretty thorough=C2=A0debunking by Alexandra =
+Scaggs and Louis Ashworth at FT Alphaville, pointing out that the suspiciou=
+s trades cited by the paper are all pretty small, and that the timing doesn=
+=E2=80=99t actually look all that suspicious.
+More generally, if you knew in advance about the Oct. 7 attacks, there were=
+ many possible ways to trade it. You could short Israeli stocks on the Tel =
+Aviv Stock Exchange, or trade options on those stocks, or short American de=
+positary receipts on those stocks on US exchanges, or trade options on thos=
+e ADRs, or short Israel-focused exchange-traded funds, or buy defense contr=
+actor stocks, or sell the Israeli shekel,=C2=A0or buy crude oil futures, or=
+ do any number of other things. Lots of asset prices would reasonably predi=
+ctably move on news of a Hamas attack on Israel.=C2=A0
+One thing this means is that, if a sophisticated trader was using inside in=
+formation about Hamas attacks to make money, it would be hard to catch them=
+. But another thing it means is that, if a sophisticated academic was tryin=
+g to find=C2=A0evidence=C2=A0of such=C2=A0trades, it=E2=80=99s pretty easy!=
+ Just, like, think of all the ways that someone might hypothetically trade =
+on inside information about the Oct. 7 attacks, and then see if there was a=
+ny abnormal volume in any of them on any of the days leading up to the atta=
+cks. Odds are that there will be abnormal volume in=C2=A0some=C2=A0of them =
+at=C2=A0some=C2=A0point =E2=80=94=C2=A0someone is always making a big bet=
+=C2=A0on something =E2=80=94=C2=A0and then you=E2=80=99ve got yourself a go=
+od headline.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Citadel Hedge Fund Alum Raises $3.5 Billion for =E2=80=98Anti-Pod=E2=80=99 =
+Multimanager Firm.=C2=A0Billionaire Steve Cohen Pushes   Point72 Deeper Int=
+o Macro Trading. Investor Group Launches $5.8 Billion Buyout  Bid for Macy=
+=E2=80=99s. SEC Probes Investment Advisers=E2=80=99 Use of AI.=C2=A0Why  Tr=
+easury Auctions Have Wall Street on Edge. Rate Cut Pivot Can=E2=80=99t Come=
+ Soon Enough for   Debt-Strapped Companies. Central banks  prepare to rebuf=
+f investors over path of interest rates. You=E2=80=99re Better Off   Going =
+All In on Stocks Than Bonds, New Research Finds. Law Firms Escalate  Talent=
+ War Even in Slower Economy.=C2=A0Cigna Calls Off Humana Pursuit, Plans Big=
+ Stock Buyback.=C2=A0Occidental to Buy Oil Driller   CrownRock in $12 Billi=
+on Deal. Brookfield chides US bank regulator for  =E2=80=98secret=E2=80=99 =
+auction of housing loans. India=E2=80=99s NSE set to  take Hong Kong=E2=80=
+=99s spot among world=E2=80=99s largest markets. Ex-Credit Suisse CEO   Thi=
+am Seeks Key Ivory Coast Opposition Role.=C2=A0  AI-Powered Drive-Thru Is A=
+ctually Run Almost Entirely By Humans.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] There are various other derivatives with similar profiles (contracts =
+for difference, put/call combos, penny-strike calls, forwards, etc.), and a=
+lso derivatives (collars, variable share forwards, etc.) that give you *som=
+e* but not all of the economic exposure to the stock.
+
+
+  [2] I think a lot of crypto tokens are best understood as   quasi-stock i=
+n a company, with at least a loose entitlement to a share of profits, and s=
+ometimes a fairly explicit one. Some   crypto exchange have affiliated toke=
+ns and promise to use a portion of fee revenue to buy back those tokens, mu=
+ch like companies doing stock buybacks with profits. And here the point is =
+more or less entirely regulatory arbitrage: If you call it a =E2=80=9Ctoken=
+=E2=80=9D instead of a =E2=80=9Cstock,=E2=80=9D you can argue (unconvincing=
+ly) that it=E2=80=99s not subject to securities laws.
+
+
+  [3] Or some other arrangement. Most companies do not pay out all their pr=
+ofits in dividends each quarter; maybe in this hypothetical arrangement the=
+ company is like =E2=80=9Cwe=E2=80=99ll accrue 10% of profits in an account=
+ with your name on it, but we won=E2=80=99t pay it out immediately, and if =
+we have a loss one quarter we=E2=80=99ll decrement your account, and eventu=
+ally we=E2=80=99ll settle things but in our own time.=E2=80=9D The 10% of p=
+rofits =E2=80=9Cbelong=E2=80=9D to you in some meaningful sense, much like =
+they would to a shareholder, but you don=E2=80=99t necessarily get a quarte=
+rly check.
+
+
+  [4] Except sometimes in crypto, which often does seem like it arrived fro=
+m Mars 10 minutes ago.
+
+
+  [5] Also not at an $86 billion valuation: That number has been mentioned =
+in connection with the current tender offer, while Microsoft   got in earli=
+er.
+
+
+  [6] Buffett describes some of this history in his  1985 shareholder lette=
+r. Some of it is  from Wikipedia.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck1cmm.64zm/ca0eff6e.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_48891855_1072172887.1702321614170
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+The normal way to own a share of a company=E2=80=99s profits is to buy its =
+stock. If you find a company that you think is promising, and you want to
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMjExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBc71ab4d3"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzY1NTM0MiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM5NDE3NDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB6afa1b5b" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33655342&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33941744&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">OpenAI ownership</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The normal way to own a share of a company=E2=
+=80=99s profits is to buy its stock. If you find a company that you think i=
+s promising, and you want to give it some money to finance its operations i=
+n exchange for a share of its profits, you might buy, say,=C2=A010% of its =
+stock, and then in some rough sense you own 10% of its future profits. Not =
+in any very strict sense =E2=80=94=C2=A0the company gets=C2=A0the profits, =
+and may or may not pay some or all of them out to you as dividends=C2=A0=E2=
+=80=94=C2=A0but people do tend to think of a share of stock as a share in f=
+uture profits.</p>
+<p style=3D"margin: 16px 0;">But while stock is the=C2=A0<em>standard=C2=A0=
+</em>way to buy a share of a company=E2=80=99s profits, it is not the only =
+way. Here=E2=80=99s another one:=C2=A0<em>I=C2=A0</em>buy 10% of the compan=
+y=E2=80=99s stock, and then I write you a total return swap, a derivative c=
+ontract saying that I=E2=80=99ll pay you $1 for every $1 that the stock goe=
+s up (and you=E2=80=99ll pay me $1 for every $1 it goes down). That way, yo=
+u have economic exposure to the stock: You make money if it goes up=C2=A0an=
+d lose money if it goes down. But you don=E2=80=99t own the actual shares o=
+f stock, or some of the rights that attach to them. (You normally can=E2=80=
+=99t vote for directors, for instance.) You have economic ownership of the =
+stock, but you don=E2=80=99t actually own stock.<a class=3D"footnote-index"=
+ href=3D"#footnote-1" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: none !important; background-color: transparent !important; display:=
+ inline-block;">
+<span>[1]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">There are other ways. Many crypto tokens, for =
+instance, are <em>kind of=C2=A0</em>profit interests in some project.<a cla=
+ss=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: none !important; background-color: transparent=
+ !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0Or more simply, you=C2=A0go to the company and say =E2=80=9Chey I=
+=E2=80=99d like to buy 10% of your profits=E2=80=9D and the company says =
+=E2=80=9Csure=E2=80=9D and writes a contract saying =E2=80=9Cyou are entitl=
+ed to 10% of our profits.=E2=80=9D And then when the company has profits it=
+ writes you a quarterly check.<a class=3D"footnote-index" href=3D"#footnote=
+-3" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: none !impo=
+rtant; background-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Why would you do any of these things, instead =
+of buying stock? Here are three possible answers:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You arrived from Mars 10 minutes ago,=
+=C2=A0you have never heard of =E2=80=9Ccommon stock,=E2=80=9D so you reason=
+ from first principles about how to invest in a company and take a share of=
+ its profits. =E2=80=9CWhat if we wrote some sort of a contract giving me a=
+ share of the profits,=E2=80=9D you say, etc.=C2=A0</li>=09<li style=3D"mar=
+gin-bottom: 5px;">The company is not actually a company and doesn=E2=80=99t=
+ have stock, so you need to resort to workarounds. You want to give money t=
+o a university lab, or a government project, or a nonprofit organization, o=
+r your brother-in-law,=C2=A0to develop some commercial thing, and in exchan=
+ge you want 10% of the commercial thing=E2=80=99s profits. Maybe you write =
+a profit-sharing contract. Or you want to invest money in a decentralized c=
+rypto project, and you take back tokens=C2=A0that seem likely to go up if i=
+t succeeds.</li>=09<li style=3D"margin-bottom: 5px;">Regulatory arbitrage. =
+Because stock is the normal way to own a share of a company=E2=80=99s profi=
+ts, a lot of=C2=A0<em>rules=C2=A0</em>apply to stock, and if you buy someth=
+ing that is Not Stock you might avoid those rules, while still getting the =
+benefits (profit sharing, etc.) of stock. For instance, the US Securities a=
+nd Exchange Commission has a lot of disclosure and other rules that apply t=
+o people who buy <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+3655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjItMDQtMDYvZWxvbi1tdXNrLWlzLWFjdGl2ZS1ub3c_Y21waWQ9QkJEMTIxMTIzX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMj=
+ExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBfe276d0b" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  more than 5%</a> of a public company=E2=80=99s stock; some investors w=
+ant to avoid those disclosure rules for various reasons, so they will use t=
+otal return swaps or other derivatives rather than buying stock directly. (=
+There is a cat-and-mouse element to this, where people use swaps to avoid t=
+he rules, so the SEC <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/33655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMjItMDMtMjQvdGhlLXNlYy13YW50cy10by1zdG9wLWFjdGl2aXNtP2NtcGlkPUJCRDEyMTE=
+yM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV=
+90ZXJtPTIzMTIxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB2=
+6961b61" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  revises the rules to capture swaps</a>.)=C2=A0Or there a=
+re margin rules limiting how much money you can <em>borrow=C2=A0</em>to buy=
+ stocks, while the rules for derivatives can be laxer. (This is part of wha=
+t went wrong with <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+33655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMjEtMDctMjkvYXJjaGVnb3Mtd2FzLXRvby1idXN5LWZvci1tYXJnaW4tY2FsbHM_Y21waWQ9Qk=
+JEMTIxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjMxMjExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cBd48dd6c0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  Archegos Capital Management</a>.)=C2=A0Or US anti=
+trust law <a href=3D"https://link.mail.bloombergbusiness.com/click/33655342=
+.286402/aHR0cHM6Ly93d3cuZnRjLmdvdi9lbmZvcmNlbWVudC9jb21wZXRpdGlvbi1tYXR0ZXJ=
+zLzIwMjMvMDIvaHNyLXRocmVzaG9sZC1hZGp1c3RtZW50cy1yZXBvcnRhYmlsaXR5LTIwMjM/60=
+7f07ceef4b8524a319a23cB2b6dd8f6" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> requires regulatory preapproval</=
+a> for anyone buying more than a certain amount of a company=E2=80=99s stoc=
+k; buying Not Stock can avoid those rules too.=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">Reason 1 is fun but, I think, rarely applies.<=
+a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: none !important; background-color: transp=
+arent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0But we have <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/33655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjMtMTEtMjAvd2hvLWNvbnRyb2xzLW9wZW5haT9jbXBpZD1CQkQxMjExMjNfTU9ORVlTVF=
+VGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyM=
+TEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB094a1408" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  talked</a> a <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+33655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMjMtMTEtMjEvb3BlbmFpLWlzLWEtc3RyYW5nZS1ub25wcm9maXQ_Y21waWQ9QkJEMTIxMTIzX0=
+1PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlc=
+m09MjMxMjExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBbf4509=
+50" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  lot</a> <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/33655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjMtMTEtMjcvb3BlbmFpLWlzLXN0aWxsLWFuLTg2LWJpbGxpb24tbm9ucHJvZml0P2Ntc=
+GlkPUJCRDEyMTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdz=
+bGV0dGVyJnV0bV90ZXJtPTIzMTIxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b=
+8524a319a23cB997da13d" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">  recently</a> about the drama and corporate=
+ structure of OpenAI, which is technically a nonprofit, but which has taken=
+ billions of dollars from Microsoft Corp. and other investors in exchange f=
+or (capped) participation in the profits of its for-profit (uh, <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d=
+3cudGhlZGlmZi5jby9hcmNoaXZlL3doeS1pcy1vcGVuYWktZmluYW5jZWQtdGhhdC13YXk/607f=
+07ceef4b8524a319a23cB5ef837be" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> capped-profit</a>) subsidiary. Basi=
+cally OpenAI=E2=80=99s strategy is to take Microsoft=E2=80=99s money, use i=
+t to build chatbots and other sort-of-artificial-intelligence tools, make m=
+any billions of dollars from the chatbots, use some of the money to pay Mic=
+rosoft a lavish return on its investment, use the rest to build artificial =
+general intelligence, and then use artificial general intelligence =E2=80=
+=9Cfor the benefit of humanity,=E2=80=9D rather than for the benefit of Mic=
+rosoft.</p>
+<p style=3D"margin: 16px 0;">OpenAI seems to be <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTEtMjcvb3BlbmFpLWlzLXN0aWxsLWFuLTg2LWJp=
+bGxpb24tbm9ucHJvZml0P2NtcGlkPUJCRDEyMTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1=
+haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTIxMSZ1dG1fY2FtcGFpZ249bW=
+9uZXlzdHVmZg/607f07ceef4b8524a319a23cC997da13d" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  worth $86 billion=
+</a>, and I have=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/33655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjMtMTEtMjEvb3BlbmFpLWlzLWEtc3RyYW5nZS1ub25wcm9maXQ_Y21waWQ9QkJEMTIxMT=
+IzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjMxMjExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cCbf=
+450950" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">joked that</a> =E2=80=9Cas far as I can tell no one in huma=
+n history has ever purchased shares in a nonprofit at an $86 billion valuat=
+ion,=E2=80=9D but that was just a shorthand, and Microsoft=C2=A0<em>didn=E2=
+=80=99t=C2=A0</em>purchase shares in OpenAI, or not exactly.<a class=3D"foo=
+tnote-index" href=3D"#footnote-5" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: none !important; background-color: transparent !importa=
+nt; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0It bought a capped profit interest in OpenAI=E2=80=99s capped-pro=
+fit subsidiary?</p>
+<p style=3D"margin: 16px 0;">Part of this is for Reason 2: OpenAI is a nonp=
+rofit, it has unusual goals, and it is pursuing those goals with an unusual=
+ profit-sharing mechanism rather than with normal stock.</p>
+<p style=3D"margin: 16px 0;">But part of it is for Reason 3, regulatory arb=
+itrage. <a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.2=
+86402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMDgvb=
+Wljcm9zb2Z0LXMtYW5zd2VyLXRvLW9wZW5haS1pbnF1aXJ5LWl0LWRvZXNuLXQtb3duLWEtc3Rh=
+a2U_Y21waWQ9QkJEMTIxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMjExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f0=
+7ceef4b8524a319a23cB532ae49e" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  Bloomberg=E2=80=99s Dina Bass and L=
+eah Nylen report</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">With global regulators examining Microsoft Cor=
+p.=E2=80=99s $13 billion investment in OpenAI, the software giant has a sim=
+ple argument it hopes will resonate with antitrust officials: It doesn=E2=
+=80=99t own a traditional stake in the buzzy startup so can=E2=80=99t be sa=
+id to control it.</p>
+<p style=3D"margin: 16px 0;">When Microsoft negotiated an additional $10 bi=
+llion investment in OpenAI in January, it opted for an unusual arrangement,=
+ people familiar with the matter said at the time. Rather than buy a chunk =
+of the cutting-edge artificial intelligence lab, it cut a deal to receive a=
+lmost half of OpenAI=E2=80=99s financial returns until the investment is re=
+paid up to a pre-determined cap, one of the people said. The unorthodox str=
+ucture was concocted because OpenAI is a capped for-profit company housed i=
+nside a non-profit organization.</p>
+<p style=3D"margin: 16px 0;">It=E2=80=99s not clear regulators see a distin=
+ction, however. On Friday the UK Competition and Markets Authority said it =
+was gathering information from stakeholders to determine whether the collab=
+oration between the two firms threatens competition in the UK, home of Goog=
+le=E2=80=99s AI research lab Deepmind. The US Federal Trade Commission is a=
+lso examining the nature of Microsoft=E2=80=99s investment in OpenAI and wh=
+ether it may violate antitrust laws, according to a person familiar with th=
+e matter. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Microsoft didn=E2=80=99t report the transactio=
+n to the agency because the investment in OpenAI doesn=E2=80=99t amount to =
+control of the company under US law, the person said. OpenAI is a non-profi=
+t and acquisitions of non-corporate entities aren=E2=80=99t reported under =
+US merger law, regardless of value. Agency officials are analyzing the situ=
+ation and assessing what its options are.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWhile details of our agreement remain=
+ confidential, it is important to note that Microsoft does not own any port=
+ion of OpenAI and is simply entitled to a share of profit distributions,=E2=
+=80=9D a Microsoft spokesperson said in a statement.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Sure. Ownership of a company consists=C2=A0<em=
+>mainly=C2=A0</em>of being entitled to a share of profit distributions, but=
+ not=C2=A0<em>only=C2=A0</em>that; ownership does often (<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDctMTEvaW52ZXN0b3JzLWdhdmUtc25=
+hcC1hLWdpZnQ_Y21waWQ9QkJEMTIxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMjExJnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cB1f0d1870" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">not always</a>) come with, f=
+or instance, voting rights. Microsoft has isolated the profit share and tak=
+en only that, not actual ownership. Okay fine and also a <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS90ZWNoL2FpL29wZW5haXMtbmV3LWJvYXJkLXRha2VzLW92ZXItYW5kLXNheXMtbWljcm9=
+zb2Z0LXdpbGwtaGF2ZS1vYnNlcnZlci1yb2xlLTUwZTU1Yjcz/607f07ceef4b8524a319a23cB=
+6560a677" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> board observer seat</a>.=C2=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s not clear regulators see=
+ a distinction,=E2=80=9D or that they should really. The conceptual overlap=
+ between =E2=80=9Cowning a portion of OpenAI=E2=80=9D and =E2=80=9Cbeing en=
+titled to a share of profit distributions=E2=80=9D is not perfect, but it i=
+s large, and a regulator might reasonably say =E2=80=9Cclose enough.=E2=80=
+=9D</p>
+<p style=3D"margin: 16px 0;">Also here is a small fun fact about this disti=
+nction. When I <a href=3D"https://link.mail.bloombergbusiness.com/click/336=
+55342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+MtMTEtMjAvd2hvLWNvbnRyb2xzLW9wZW5haT9jbXBpZD1CQkQxMjExMjNfTU9ORVlTVFVGRiZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTEmdXRt=
+X2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cC094a1408" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  wr=
+ote about OpenAI</a> last month, I included this organizational chart from =
+its own website:</p>
+<div class=3D"body-image" style=3D"margin: 20px 0px;">
+<!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/i8Mj3hVMXgTg/v1/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/i8Mj3hVMXgTg/v1/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]-->
+</div><p style=3D"margin: 16px 0;">I clipped that chart from the website my=
+self, on Nov. 19, though=C2=A0I circled =E2=80=9CMinority owner=E2=80=9D in=
+ blue for this post.=C2=A0I went back to <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/33655342.286402/aHR0cHM6Ly9vcGVuYWkuY29tL291ci1zdHJ1=
+Y3R1cmU/607f07ceef4b8524a319a23cB34911d47" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> the website</a> yesterd=
+ay to check, and found this=C2=A0<em>slightly different=C2=A0</em>chart:</p=
+>
+<div class=3D"body-image" style=3D"margin: 20px 0px;">
+<!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iIyChnKQ1lHc/igd5hxyQuPrs/v1/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iIyChn=
+KQ1lHc/igd5hxyQuPrs/v1/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]-->
+</div><p style=3D"margin: 16px 0;">See the difference? Again, I took the li=
+berty of circling it in blue. I do not know the details of Microsoft=E2=80=
+=99s contractual arrangement with OpenAI, or if they have changed since Nov=
+ember. But in November, OpenAI=E2=80=99s website said that Microsoft was a =
+=E2=80=9Cminority owner=E2=80=9D of its capped-profit subsidiary. In Decemb=
+er, when =E2=80=9Cit is important to note that Microsoft does not own any p=
+ortion of OpenAI,=E2=80=9D the website says it has a =E2=80=9Cminority econ=
+omic interest.=E2=80=9D You can see how people might confuse those things, =
+since OpenAI did.</p>
+<p style=3D"margin: 16px 0;">One other thing I should say is that <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/aHR0cHM6L=
+y93d3cubGV2ZWxzLmZ5aS9ibG9nL29wZW5haS1jb21wZW5zYXRpb24uaHRtbCVDMiVBMA/607f0=
+7ceef4b8524a319a23cB59f7f451" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> here is a claim</a> that OpenAI=E2=
+=80=99s <em>employees=C2=A0</em>get a capped profit interest instead of sto=
+ck (or stock options, or restricted stock units), because of its nonprofit =
+structure, and that this profit interest gets better=C2=A0<em>tax treatment=
+</em>, for them, than standard startup equity awards:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">People receiving profit interests will be gran=
+ted the units upon their vesting date at no additional cost. Because of tha=
+t, there=E2=80=99s an additional key tax benefit in that they are tax-free =
+upon issuance and vesting, so the only tax hit would be a capital gains tax=
+ when the profit is received or sold.</p>
+<p style=3D"margin: 16px 0;">In contrast, with a traditional Restricted Sto=
+ck Unit (RSU) that you=E2=80=99d see at a MAANG level company, when the RSU=
+ vests, an employee will be taxed upon receiving their RSUs immediately. Th=
+is is because the RSU is essentially a percentage of equity in the company =
+and holds a value at whatever the market rate is for that company=E2=80=99s=
+ stock.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Regulatory arbitrage everywhere!</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzY1NTM0MiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM5NDE3NDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCb0fcad02" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33655342&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33941744&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzY1NTM0MiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM5NDE3NDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDb0fcad02" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33655342&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33941744&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in AI economics</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Some complaints that you hear sometimes, or th=
+at I do anyway, are:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Index funds are =E2=80=9C<a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTYtMDgtMjQvYXJlLWluZGV4LWZ1b=
+mRzLWNvbW11bmlzdD9jbXBpZD1CQkQxMjExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB83d0ea7b" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">worse than Marxism</a>=
+=E2=80=9D: By not choosing between companies, but just buying all of them, =
+they sap the dynamism of financial capitalism and lead to an essentially so=
+cialist economy.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">Index funds=
+ are <a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.2864=
+02/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL25ld3NsZXR0ZXJzLzIwMTgtMTIt=
+MDcvbW9uZXktc3R1ZmYtcmVndWxhdG9ycy1hc2staWYtaW5kZXgtZnVuZHMtYXJlLWJhZD9jbXB=
+pZD1CQkQxMjExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMzEyMTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cB2022b070" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> bad for competition</a>: If all of the publi=
+c companies are owned by the same half-dozen big investment managers, then =
+those managers won=E2=80=99t want the companies to compete with one another=
+; they will just want to maximize the overall pool of corporate profits to =
+benefit their joint owners.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">=
+Index funds are bad for investors, for practical reasons: The S&amp;P 500, =
+the most important US stock index, is <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYjU=
+yODFkZmQtNTRhMS00MmZhLWIwMWQtODhiM2FhOGYzMjcy/607f07ceef4b8524a319a23cBc94a=
+4dea" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> heavily weighted</a> to a few enormous tech companies that h=
+ave had a remarkable run of growth recently, so you are not really getting =
+much diversification from your index fund, and you are taking a lot of risk=
+ on those few companies.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">Ind=
+ex funds are socialism, and that=E2=80=99s great: We could nationalize inde=
+x funds and give=C2=A0shares of them=C2=A0to everyone, and then we=E2=80=99=
+ll have (1) ownership of the means of production by the masses and (2)=C2=
+=A0<em>good enough=C2=A0</em>financial performance and innovation; after al=
+l, companies=C2=A0<em>are=C2=A0</em>largely owned by big diversified asset =
+managers now and they still manage to innovate and compete. You get the ega=
+litarian benefits of socialism, but also the economic benefits of modern fi=
+nancial capitalism.=C2=A0(=E2=80=9CIndex Funds Are A Proof Of Concept For M=
+arket Socialism,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/33655342.286402/aHR0cHM6Ly93d3cucGVvcGxlc3BvbGljeXByb2plY3Qub3JnLzI=
+wMTcvMDgvMTcvaW5kZXgtZnVuZHMtYXJlLWEtcHJvb2Ytb2YtY29uY2VwdC1mb3ItbWFya2V0LX=
+NvY2lhbGlzbS8/607f07ceef4b8524a319a23cB6a37b31b" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Matt Bruenig has =
+argued</a>.) I guess this one isn=E2=80=99t really a complaint.</li>=09<li =
+style=3D"margin-bottom: 5px;">Artificial intelligence will take over the wo=
+rld, <a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.2864=
+02/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTAvYXJt=
+LWNlby1yZW5lLWhhYXMtaGFzLXF1YWxtcy1vdmVyLWFpLWJ1dC1zZWVzLXVwc2lkZS1mb3ItY2h=
+pcG1ha2VyP2NtcGlkPUJCRDEyMTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3=
+NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTIxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZ=
+g/607f07ceef4b8524a319a23cB28006fd6" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  not necessarily</a> in a =E2=
+=80=9Crobots will kill us all to make <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/33655342.286402/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2k=
+vSW5zdHJ1bWVudGFsX2NvbnZlcmdlbmNl/607f07ceef4b8524a319a23cB015c692e" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> paper clips</a>=E2=80=9D way but in the sense that AI will be much bette=
+r at most jobs than humans are, which will create enormous abundance and le=
+isure time, but which will also put many humans <em>out of work</em>. The b=
+enefits=C2=A0of AI will accrue only to the plutocrats that own the robots, =
+while the masses who are put out of work by the robots will be immiserated =
+and have no source of income, so we need universal basic income to prevent =
+misery and/or revolution. (This is, for instance, possibly=C2=A0<a href=3D"=
+https://link.mail.bloombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d=
+3cuY25iYy5jb20vMjAyMS8wMy8zMC9vcGVuYWktY2VvLXNhbS1hbHRtYW4tc2F5cy1haS1jb3Vs=
+ZC1wYXktZm9yLXViaS1leHBlcnRzLWRpc2FncmVlLmh0bWw/607f07ceef4b8524a319a23cB77=
+c3a736" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">Sam Altman=E2=80=99s view</a>?)=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">I suppose a synthesis of all of these ideas=C2=
+=A0might be:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">AI will take over the world, but the r=
+obots will mostly be owned by the big public tech companies with the resour=
+ces to devote to the very capital-intensive buildout of AI. So the benefits=
+ of AI will accrue mostly to those big tech companies=E2=80=99=C2=A0stocks,=
+ which will make index fund investors very rich. Also the trend is for more=
+ people to be index fund investors, so eventually everyone will benefit fro=
+m the abundance of AI because we will all, through our index funds, own the=
+ robots.</li>
+</ul>
+<p style=3D"margin: 16px 0;">There are holes in that case, I dunno. (Not ev=
+eryone owns index funds, and what about the international dimension, and ev=
+en in the AI abundance world someone has to take out the garbage, etc.) But=
+ I enjoyed this story from Bloomberg=E2=80=99s Jeran Wittenstein and Ryan V=
+lastelica, which=C2=A0<em>kind of=C2=A0</em><a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjMtMTItMTAvYmlnLXRlY2gtcy1hYmlsaXR5LXRvLWRlbGl2ZXIt=
+b24tYWktcHJvZml0cy1sb29tcy1vdmVyLXMtcC01MDA_Y21waWQ9QkJEMTIxMTIzX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMj=
+ExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6c0c3122" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">suggests that synthesis</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The fate of the S&amp;P 500 is increasingly re=
+sting on whether a handful of the biggest technology companies can parlay a=
+rtificial intelligence investments into even higher profits.</p>
+<p style=3D"margin: 16px 0;">Seven firms including Microsoft Corp. and Nvid=
+ia Corp. have driven about three-quarters of the index=E2=80=99s gain this =
+year, in a rally stoked by an investor obsession with AI=E2=80=99s potentia=
+l to disrupt vast parts of the economy. Valuations are high, with the compa=
+nies=E2=80=99 shares trading at an average of 32 times earnings. Pressure i=
+s mounting on companies to deliver on some of the earnings hope embedded in=
+ their ever-rising stock prices. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Nick Rubinstein, technology stock portfolio ma=
+nager at Jennison Associates, is confident that profits from AI will help m=
+ake some Big Tech stocks look like bargains at current prices.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CI=E2=80=99m more excited now than I h=
+ave been for a very long time,=E2=80=9D he said in an interview. =E2=80=9CS=
+o many industries can benefit, while the arms dealers for AI should benefit=
+ even more.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yeah I mean the possibilities are (1) AI takes=
+ over the world imminently, which is good for S&amp;P 500 investors=C2=A0<e=
+m>qua=C2=A0</em>S&amp;P 500 investors, or (2) it doesn=E2=80=99t, which is =
+probably good for most S&amp;P 500 investors <em>qua</em> professional know=
+ledge workers whose jobs could get squeezed by AI. Owning Nvidia stock is a=
+ decent hedge to getting replaced by an Nvidia-powered=C2=A0robot!</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Cow burps</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The basic situation is that some processes on =
+Earth release carbon into the atmosphere and accelerate climate change, whi=
+le other processes on Earth capture or store carbon and reduce climate chan=
+ge. Burning jet fuel releases carbon,=C2=A0trees store carbon, etc. We woul=
+d like less climate change, which means encouraging the processes that stor=
+e carbon and reducing the ones that release carbon. There are various (volu=
+ntary and regulatory) systems for =E2=80=9Ccarbon credits=E2=80=9D or =E2=
+=80=9Ccarbon offsets,=E2=80=9D the theory of which is=C2=A0<em>roughly=C2=
+=A0</em>that people who engage in carbon-releasing processes can pay money =
+to encourage other people to engage in carbon-storing processes to offset t=
+heir emissions. Airlines in Europe can send money to forest conservationist=
+s who will protect trees in Africa, offsetting the carbon released by the a=
+irlines with the carbon stored by the trees.</p>
+<p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/33655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjMtMTItMDYvd2hvLWdldHMtcGFpZC1mb3Itbm90LWN1dHRpbmctZG93bi1=
+0cmVlcz9jbXBpZD1CQkQxMjExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cB5efb7823" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  fundamental</a> <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTAtMTcveW91LWNhbi10LXNlbGwt=
+dHJlZXMtbm8tb25lLWN1dHMtZG93bj9jbXBpZD1CQkQxMjExMjNfTU9ORVlTVFVGRiZ1dG1fbWV=
+kaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTEmdXRtX2NhbX=
+BhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBee0c96f9" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">  question=
+s</a> in all of this are usually about baselines. One way to think about tr=
+ees is =E2=80=9Cchopping down trees releases carbon, so it is carbon-emitti=
+ng, while leaving the trees alone is=C2=A0neutral; maybe <em>planting=C2=A0=
+</em>trees reduces climate change, but you can=E2=80=99t get credit for jus=
+t leaving existing trees alone.=E2=80=9D Another (far more common) way to t=
+hink about trees is =E2=80=9Cthe trees store carbon, so leaving the trees a=
+lone is carbon-reducing, so you can generate carbon credits by leaving tree=
+s alone.=E2=80=9D=C2=A0Perhaps the question is what process you are measuri=
+ng: The process of =E2=80=9Cbeing a tree=E2=80=9D stores carbon and is good=
+; the process of =E2=80=9Ccutting down trees=E2=80=9D releases carbon and i=
+s bad.</p>
+<p style=3D"margin: 16px 0;">When cows burp they release carbon. You might =
+imagine saying =E2=80=9Ca cattle rancher with X cows generates Y tons of ca=
+rbon emissions, and should have to buy carbon offsets to be neutral.=E2=80=
+=9D Or: =E2=80=9CA cattle rancher with X cows, who changes their feed to a =
+special low-burp diet, will only generate Z tons of carbon emissions (Z &lt=
+; Y), so will have to buy fewer carbon offsets to be neutral.=E2=80=9D But =
+it=E2=80=99s just a question of baselines. Why not: =E2=80=9CA=C2=A0cattle =
+rancher with X cows, who changes their feed to a special low-burp diet, wil=
+l only generate Z tons of carbon emissions (Z &lt; Y), and so will <em>redu=
+ce</em> global emissions by (Z -=C2=A0X), and so will=C2=A0<em>generate=C2=
+=A0</em>carbon credits that she can sell to airlines.=E2=80=9D And then the=
+ airlines can burn a lot of jet fuel and put carbon into the atmosphere, an=
+d they can say =E2=80=9Cbut it=E2=80=99s okay because we are paying some co=
+ws to burp less.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know. <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTEvY2FuYWRhLXRhY2tsZXMtbWV0aGFuZS1lb=
+Wlzc2lvbnMtZnJvbS1jb3ctYnVycHMtd2l0aC1jcmVkaXQtcGxhbj9jbXBpZD1CQkQxMjExMjNf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMzEyMTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB0bbc7=
+2a0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Bloomberg News reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Canada announced a plan to encourage farmers t=
+o reduce emissions from cattle through a credit trading system, the latest =
+climate-change initiative introduced by Prime Minister Justin Trudeau=E2=80=
+=99s government.</p>
+<p style=3D"margin: 16px 0;">The Reducing Enteric Methane Emissions from Be=
+ef Cattle proposal would grant farmers who reduce methane emissions generat=
+ed by cow burps to earn credits that can be sold to other businesses to mee=
+t their own emission targets.</p>
+<p style=3D"margin: 16px 0;">Each credit would represent a metric tonne of =
+emissions and would be met by improving diets, management and using other s=
+trategies to support =E2=80=9Cmore efficient animal growth,=E2=80=9D Enviro=
+nment and Climate Change Canada said in a release.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Okay. Here is <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3cuY2FuYWRhLmNhL2VuL2=
+Vudmlyb25tZW50LWNsaW1hdGUtY2hhbmdlL3NlcnZpY2VzL2NsaW1hdGUtY2hhbmdlL3ByaWNpb=
+mctcG9sbHV0aW9uLWhvdy1pdC13aWxsLXdvcmsvb3V0cHV0LWJhc2VkLXByaWNpbmctc3lzdGVt=
+L2ZlZGVyYWwtZ3JlZW5ob3VzZS1nYXMtb2Zmc2V0LXN5c3RlbS9wcm90b2NvbHMvZHJhZnQtcmV=
+kdWNpbmctZW50ZXJpYy1tZXRoYW5lLWVtaXNzaW9ucy1iZWVmLWNhdHRsZS5odG1s/607f07cee=
+f4b8524a319a23cB2b7bc581" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> the proposal</a>, and I went directly to=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/a=
+HR0cHM6Ly93d3cuY2FuYWRhLmNhL2VuL2Vudmlyb25tZW50LWNsaW1hdGUtY2hhbmdlL3NlcnZp=
+Y2VzL2NsaW1hdGUtY2hhbmdlL3ByaWNpbmctcG9sbHV0aW9uLWhvdy1pdC13aWxsLXdvcmsvb3V=
+0cHV0LWJhc2VkLXByaWNpbmctc3lzdGVtL2ZlZGVyYWwtZ3JlZW5ob3VzZS1nYXMtb2Zmc2V0LX=
+N5c3RlbS9wcm90b2NvbHMvZHJhZnQtcmVkdWNpbmctZW50ZXJpYy1tZXRoYW5lLWVtaXNzaW9uc=
+y1iZWVmLWNhdHRsZS5odG1sI3RvYzE3/607f07ceef4b8524a319a23cB8f5d2f88" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ the section</a> on =E2=80=9CBaseline scenario GHG [greenhouse gas] emissio=
+ns,=E2=80=9D which has a bunch of equations to quantify how much gas the co=
+ws were burping=C2=A0<em>before </em>the project started. Then you improve =
+the diet, they burp less, you calculate how much they=E2=80=99re burping no=
+w, you subtract, and that difference is how much credit you can claim. You =
+sell the burping reductions to like an oil-sands company to offset their em=
+issions. Drilling up oil causes carbon emissions, and cows burping cause ca=
+rbon emissions, but, through the magic of accounting, getting the cows to b=
+urp less=C2=A0<em>offsets=C2=A0</em>the oil drillers=E2=80=99 carbon emissi=
+ons.</p>
+<p style=3D"margin: 16px 0;">What are the chances that there will be some s=
+ort of cow burp accounting scandal, where ranchers claim excessive credits =
+by manipulating the inputs into the=C2=A0formulas? Not zero, right? Teach t=
+he cows to burp quietly so the carbon credit auditors don=E2=80=99t notice =
+them? If I am writing about a cow burp accounting scandal here in 2026 that=
+ will be a life well lived.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">GameStop</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A long time ago, a skilled investor named Warr=
+en Buffett bought a lot of stock in a struggling textile manufacturer named=
+ Berkshire Hathaway Inc., thinking it was undervalued.<a class=3D"footnote-=
+index" href=3D"#footnote-6" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: none !important; background-color: transparent !important; di=
+splay: inline-block;">
+<span>[6]</span>
+</a>=C2=A0He bought enough stock to control the company and make himself th=
+e chairman, but=C2=A0he let others run the day-to-day textile operations. H=
+e was an investor, not a textile operator. Berkshire Hathaway had some cash=
+, and, as chairman, he used that cash to make other investments, including =
+in the insurance industry. Berkshire Hathaway=C2=A0is now a conglomerate wi=
+th about=C2=A0a $770 billion=C2=A0market capitalization, and it is still of=
+ten thought of mostly as=C2=A0Buffett=E2=80=99s investment vehicle, a compa=
+ny that generates cash that he=C2=A0uses to make stock-market bets. But it =
+also has a lot of operating businesses that generate that cash. Textiles is=
+ not one of them, though; that was shut down in 1985.</p>
+<p style=3D"margin: 16px 0;">I do not necessarily think that Ryan Cohen is =
+the next Warren Buffett, or that GameStop Corp. is the next Berkshire Hatha=
+way, but wouldn=E2=80=99t that be funny? <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMy8x=
+Mi8wNy8tZ2FtZXN0b3BzLXBvdGVudGlhbC1uZXctc3RyYXRlZ3ktbGV0LXJ5YW4tY29oZW4tYnV=
+5LW90aGVyLXN0b2Nrcy13aXRoLWNvbXBhbnktY2FzaC5odG1s/607f07ceef4b8524a319a23cB=
+fa0fe46d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> CNBC reported last week</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Struggling retailer GameStop=C2=A0is giving it=
+s CEO and chair Ryan Cohen even more control, including the ability to use =
+company cash to buy other stocks.</p>
+<p style=3D"margin: 16px 0;">In its quarterly report released Wednesday nig=
+ht, GameStop announced two changes to its corporate investment plan: compan=
+y cash can now be used to buy equities instead of just short-term debt, and=
+ that Cohen is in charge of the investments.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CMr. Cohen directs the investment acti=
+vity of the Company in public and private markets pursuant to authority gra=
+nted by the Board of Directors.=E2=80=9D ...</p>
+<p style=3D"margin: 16px 0;">The company did not hold a quarterly conferenc=
+e call with Wall Street analysts, but Wedbush=E2=80=99s Michael Pachter cal=
+led the decision =E2=80=9Cinane=E2=80=9D and =E2=80=9Calarming.=E2=80=9D</p=
+>
+<p style=3D"margin: 16px 0;">=E2=80=9CInvestors have a myriad of investment=
+ vehicles available to them and therefore do not need GameStop to act as a =
+mutual fund. If GameStop truly believes in the value of its shares, it shou=
+ld use its excess cash to buy back stock,=E2=80=9D Pachter said in a note t=
+o clients.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Oh, sure, I mean, that=E2=80=99s a standard th=
+ing to say about conglomerates. Investors who want to own Stock X can buy S=
+tock X; there=E2=80=99s no need for GameStop to buy it for them. Investors =
+who want a skilled professional to buy stocks for them can hire a skilled p=
+rofessional, or buy a mutual fund; there=E2=80=99s no need for them to let =
+the chief executive officer of a video game retailer pick stocks for them, =
+or to link his stock-picking portfolio to the performance of the video game=
+ stores.</p>
+<p style=3D"margin: 16px 0;">On the other hand, the point is not that=C2=A0=
+<em>shareholders=C2=A0</em>have better options than investing in public equ=
+ities through GameStop. The point is that=C2=A0<em>GameStop </em>=E2=80=A6=
+=C2=A0maybe =E2=80=A6 doesn=E2=80=99t? If you run GameStop and your diagnos=
+is of the company=E2=80=99s problems is =E2=80=9Cwe are a dying mall retail=
+er of video games,=E2=80=9D you might be tempted to diversify into letting =
+your meme-stock chief executive officer YOLO your=C2=A0money on public stoc=
+ks, whether or not that is strictly optimal as a matter of corporate financ=
+ial theory. =E2=80=9CIf GameStop truly believes in the value of its shares,=
+ it should use its excess cash to buy back stock,=E2=80=9D sure, but what i=
+f it doesn=E2=80=99t? What if the right model of GameStop is =E2=80=9Cwow, =
+people threw a lot of money at us for mystifying reasons, but using the mon=
+ey to spruce up our mall stores would be crazy, let=E2=80=99s use it instea=
+d=C2=A0to pivot to, uh, whatever Ryan Cohen wants to buy=E2=80=9D?=C2=A0</p=
+>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Hamas insider trading?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMTItMDQvd2hvc2UtaW5jb21lLWRvLXlvdS1wYXktdGF4ZXMtb24_Y21w=
+aWQ9QkJEMTIxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3N=
+sZXR0ZXImdXRtX3Rlcm09MjMxMjExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8=
+524a319a23cBf4d78fda" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  talked last week</a> about a <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/33655342.286402/aHR0cHM6Ly9wYXBl=
+cnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTQ2NTIwMjc/607f07ceef4=
+b8524a319a23cB4ef4efaf" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> paper</a> purporting to find evidence of i=
+nsider trading in advance of the Oct. 7 Hamas attacks in Israel. I found it=
+ inconclusive. But here=E2=80=99s a <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/33655342.286402/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvY2VlN=
+WU0ZmQtMjM1My00OTU4LWE1ZjgtYzRhODAyMDI0ZmFi/607f07ceef4b8524a319a23cB41a294=
+7a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> pretty thorough=C2=A0debunking</a> by Alexandra Scaggs and Lo=
+uis Ashworth at FT Alphaville, pointing out that the suspicious trades cite=
+d by the paper are all pretty small, and that the timing doesn=E2=80=99t ac=
+tually look all that suspicious.</p>
+<p style=3D"margin: 16px 0;">More generally, if you knew in advance about t=
+he Oct. 7 attacks, there were many possible ways to trade it. You could sho=
+rt Israeli stocks on the Tel Aviv Stock Exchange, or trade options on those=
+ stocks, or short American depositary receipts on those stocks on US exchan=
+ges, or trade options on those ADRs, or short Israel-focused exchange-trade=
+d funds, or buy defense contractor stocks, or sell the Israeli shekel,=C2=
+=A0or buy crude oil futures, or do any number of other things. Lots of asse=
+t prices would reasonably predictably move on news of a Hamas attack on Isr=
+ael.=C2=A0</p>
+<p style=3D"margin: 16px 0;">One thing this means is that, if a sophisticat=
+ed trader was using inside information about Hamas attacks to make money, i=
+t would be hard to catch them. But another thing it means is that, if a sop=
+histicated academic was trying to find=C2=A0<em>evidence=C2=A0</em>of such=
+=C2=A0trades, it=E2=80=99s pretty easy! Just, like, think of all the ways t=
+hat someone might hypothetically trade on inside information about the Oct.=
+ 7 attacks, and then see if there was any abnormal volume in any of them on=
+ any of the days leading up to the attacks. Odds are that there will be abn=
+ormal volume in=C2=A0<em>some=C2=A0</em>of them at=C2=A0<em>some=C2=A0</em>=
+point =E2=80=94=C2=A0someone is always making a big bet=C2=A0on something =
+=E2=80=94=C2=A0and then you=E2=80=99ve got yourself a good headline.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Citadel Hedge Fund Alum Raises $3.5 Billion fo=
+r =E2=80=98<a href=3D"https://link.mail.bloombergbusiness.com/click/3365534=
+2.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMD=
+gvY2l0YWRlbC1oZWRnZS1mdW5kLWFsdW0tcmFpc2VzLTMtNS1iaWxsaW9uLWZvci1hbnRpLXBvZ=
+C1zaG9wP2NtcGlkPUJCRDEyMTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nv=
+dXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTIxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/=
+607f07ceef4b8524a319a23cB99b21c19" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">Anti-Pod</a>=E2=80=99 Multimanag=
+er Firm.=C2=A0Billionaire Steve Cohen Pushes <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTEvc3RldmUtY29oZW4tcy1oZWRnZS1mdW5kLXBvaW5=
+0NzItYmVlZnMtdXAtbWFjcm8tdHJhZGluZy10ZWFtcz9jbXBpZD1CQkQxMjExMjNfTU9ORVlTVF=
+VGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyM=
+TEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB5da3b130" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  Point72</a> Deeper Into Macro Trading. Investor Group Launches $5.8 Bi=
+llion Buyout <a href=3D"https://link.mail.bloombergbusiness.com/click/33655=
+342.286402/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9kZWFscy9pbnZlc3Rvci1ncm91=
+cC1sYXVuY2hlcy01LTgtYmlsbGlvbi1idXlvdXQtYmlkLWZvci1tYWN5cy00NDFjYTI0YT9tb2Q=
+9aXRwX3dzag/607f07ceef4b8524a319a23cB58ef93dd" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> Bid for Macy=E2=80=
+=99s</a>. SEC Probes Investment Advisers=E2=80=99 <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+hcnRpY2xlcy9zZWMtcHJvYmVzLWludmVzdG1lbnQtYWR2aXNlcnMtdXNlLW9mLWFpLTQ4NDg1Mj=
+c5P21vZD1sZWFkX2ZlYXR1cmVfYmVsb3dfYV9wb3Mx/607f07ceef4b8524a319a23cB489f461=
+a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Use of AI</a>.=C2=A0Why <a href=3D"https://link.mail.bloomberg=
+business.com/click/33655342.286402/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL3do=
+eS10cmVhc3VyeS1hdWN0aW9ucy1oYXZlLXdhbGwtc3RyZWV0LW9uLWVkZ2UtODM4NWYxNWU_bW9=
+kPWhwX2xlYWRfcG9zMw/607f07ceef4b8524a319a23cBe8e0c725" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> Treasury Au=
+ctions</a> Have Wall Street on Edge. Rate Cut Pivot Can=E2=80=99t Come Soon=
+ Enough for <a href=3D"https://link.mail.bloombergbusiness.com/click/336553=
+42.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItM=
+TEvMjAyNC1pbnRlcmVzdC1yYXRlLWN1dC1yYWNlcy1kZWJ0LXRvLWF2b2lkLWhhcmQtbGFuZGlu=
+Zz9jbXBpZD1CQkQxMjExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U=
+9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07=
+ceef4b8524a319a23cB5bde7fbe" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  Debt-Strapped Companies</a>. Central=
+ banks <a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.28=
+6402/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMWZlYTM5ZTItNGUyZi00NWIxLTkxMWUtNW=
+M0NTY1MGVlNWU0/607f07ceef4b8524a319a23cBd3502bdb" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> prepare to rebuf=
+f investors</a> over path of interest rates. You=E2=80=99re Better Off <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMDgvYm9uZHMtcm9sZ=
+S1pbi1yZXRpcmVtZW50LXBsYW5zLXF1ZXN0aW9uZWQtYnktbmV3LXJlc2VhcmNoP2NtcGlkPUJC=
+RDEyMTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGV=
+yJnV0bV90ZXJtPTIzMTIxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a31=
+9a23cB8aa8c6fe" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  Going All In on Stocks</a> Than Bonds, New Resear=
+ch Finds. Law Firms Escalate <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/33655342.286402/aHR0cHM6Ly93d3cud3NqLmNvbS91cy1uZXdzL2xhdy9sYXct=
+ZmlybXMtZXNjYWxhdGUtdGFsZW50LXdhci1ldmVuLWluLXNsb3dlci1lY29ub215LWY1Y2M2NmY=
+1P21vZD1ocF9sZWFkX3BvczEw/607f07ceef4b8524a319a23cBe0aa00f8" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> Talen=
+t War</a> Even in Slower Economy.=C2=A0Cigna <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNp=
+bmVzcy9kZWFscy9jaWduYS1jYWxscy1vZmYtaHVtYW5hLXB1cnN1aXQtcGxhbnMtYmlnLXN0b2N=
+rLWJ1eWJhY2stYWUxYzZiM2M_bW9kPWhwX2xlYWRfcG9zMQ/607f07ceef4b8524a319a23cBae=
+ccfa5f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">Calls Off Humana Pursuit</a>, Plans Big Stock Buyback.=C2=
+=A0Occidental to Buy Oil Driller <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/33655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjMtMTItMTEvb2NjaWRlbnRhbC10by1idXktcGVybWlhbi1leHBsb3Jlci1jcm9=
+3bnJvY2stZm9yLTEyLWJpbGxpb24_Y21waWQ9QkJEMTIxMTIzX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMjExJnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB11731e1d" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  CrownRock<=
+/a> in $12 Billion Deal. Brookfield chides US bank regulator for <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93=
+d3cuZnQuY29tL2NvbnRlbnQvMjljMTNmYmMtMGVlNi00NzU1LWE5ZWEtMzQ5ZDllZjdiYzU1/60=
+7f07ceef4b8524a319a23cB75fcfa9a" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> =E2=80=98secret=E2=80=99 auction<=
+/a> of housing loans. India=E2=80=99s NSE set to <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3cuZnQuY29tL2Nv=
+bnRlbnQvZjI2M2JmODQtYzNlMy00YTBlLWIyYzYtNzQ5ZTNjYzE3MmEw/607f07ceef4b8524a3=
+19a23cB6c795577" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> take Hong Kong=E2=80=99s spot</a> among world=E2=
+=80=99s largest markets. Ex-Credit Suisse CEO <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMDkvZXgtY3JlZGl0LXN1aXNzZS1jZW8tdGhpYW0tc2=
+Vla3Mta2V5LWl2b3J5LWNvYXN0LW9wcG9zaXRpb24tcm9sZT9jbXBpZD1CQkQxMjExMjNfTU9OR=
+VlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0y=
+MzEyMTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB0842b581" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  Thiam</a> Seeks Key Ivory Coast Opposition Role.=C2=A0<a href=3D"=
+https://link.mail.bloombergbusiness.com/click/33655342.286402/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMDcvYWktZmFzdC1mb29kLWRy=
+aXZlLXRocnVzLW5lZWQtaHVtYW4td29ya2Vycy03MC1vZi10aW1lP2NtcGlkPUJCRDEyMTEyM19=
+NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZX=
+JtPTIzMTIxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB38304=
+346" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  AI-Powered Drive-Thru</a> Is Actually Run Almost Entirely By=
+ Humans.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33655342.286402/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBdf196554" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33655342.286402/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBd5f52407" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] There are various other derivatives with s=
+imilar profiles (contracts for difference, put/call combos, penny-strike ca=
+lls, forwards, etc.), and also derivatives (collars, variable share forward=
+s, etc.) that give you *some* but not all of the economic exposure to the s=
+tock.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] I think a lot of crypto tokens are best un=
+derstood as <a href=3D"https://link.mail.bloombergbusiness.com/click/336553=
+42.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtM=
+DctMTQvcmlwcGxlLWlzLWEtc2VjdXJpdHktYW5kLWl0LWlzbi10P2NtcGlkPUJCRDEyMTEyM19N=
+T05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJ=
+tPTIzMTIxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB26d1db=
+f5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  quasi-stock</a> in a company, with at least a loose entitlem=
+ent to a share of profits, and sometimes a fairly explicit one. Some <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMDkvYmFua21hbi1=
+mcmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyYWwtYmVmb3JlLWJpbmFuY2UtZGVhbD9jbXBpZD=
+1CQkQxMjExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xld=
+HRlciZ1dG1fdGVybT0yMzEyMTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524=
+a319a23cBc76642dc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">  crypto exchange have affiliated tokens</a> and=
+ promise to use a portion of fee revenue to buy back those tokens, much lik=
+e companies doing stock buybacks with profits. And here the point is more o=
+r less entirely regulatory arbitrage: If you call it a =E2=80=9Ctoken=E2=80=
+=9D instead of a =E2=80=9Cstock,=E2=80=9D you can argue (unconvincingly) th=
+at it=E2=80=99s not subject to securities laws.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Or some other arrangement. Most companies =
+do not pay out all their profits in dividends each quarter; maybe in this h=
+ypothetical arrangement the company is like =E2=80=9Cwe=E2=80=99ll accrue 1=
+0% of profits in an account with your name on it, but we won=E2=80=99t pay =
+it out immediately, and if we have a loss one quarter we=E2=80=99ll decreme=
+nt your account, and eventually we=E2=80=99ll settle things but in our own =
+time.=E2=80=9D The 10% of profits =E2=80=9Cbelong=E2=80=9D to you in some m=
+eaningful sense, much like they would to a shareholder, but you don=E2=80=
+=99t necessarily get a quarterly check.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Except sometimes in crypto, which often do=
+es seem like it arrived from Mars 10 minutes ago.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Also not at an $86 billion valuation: That=
+ number has been mentioned in connection with the current tender offer, whi=
+le Microsoft <a href=3D"https://link.mail.bloombergbusiness.com/click/33655=
+342.286402/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEt=
+MjMvbWljcm9zb2Z0LW1ha2VzLW11bHRpYmlsbGlvbi1kb2xsYXItaW52ZXN0bWVudC1pbi1vcGV=
+uYWk_Y21waWQ9QkJEMTIxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMjExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB67e46901" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  got in earlier</a>.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Buffett describes some of this history in =
+his <a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.28640=
+2/aHR0cHM6Ly93d3cuYmVya3NoaXJlaGF0aGF3YXkuY29tL2xldHRlcnMvMTk4NS5odG1s/607f=
+07ceef4b8524a319a23cBbf46ca30" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> 1985 shareholder letter</a>. Some o=
+f it is <a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.2=
+86402/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvV2FycmVuX0J1ZmZldHQjQXNzdW1pb=
+mdfQmVya3NoaXJl/607f07ceef4b8524a319a23cBdcc89063" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> from Wikipedia<=
+/a>.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBc83abaec" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBdedad646" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBf65b489c" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB937137c5" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBec16fd87" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.2864=
+02/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBb2a342d9" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33655342.286402/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC359bd24c" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33655342.286402/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBf0b2f75e" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33655342.286402/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB2f340b66" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB0=
+628885c" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33655342.286402/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB2=
+64a74ed" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck1cmm.64zm/ca0eff6e.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_48891855_1072172887.1702321614170--
+

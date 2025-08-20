@@ -1,0 +1,2256 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6359:604d:b0:130:da8c:7dd9 with SMTP id rx13csp298503rwb;
+        Wed, 23 Aug 2023 11:10:50 -0700 (PDT)
+X-Received: by 2002:a05:6000:1807:b0:316:fc86:28ae with SMTP id m7-20020a056000180700b00316fc8628aemr8854880wrh.15.1692814250198;
+        Wed, 23 Aug 2023 11:10:50 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1692814250; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ijVnOz/UaF/kCrLFoLApVk9uFvuAYzvOs7mX3RJEH414uaX5OIn70XjzDtE/rzkgnz
+         rWhdA5VMTFwMdcDy6hjDwqPPvv49gqsf9W+vNfhtBYhFB2m4dDQNeam3M2yuYllNyZhm
+         Hb6ueUBzlLR+gwg7cHwuCtmwFRDQWqpAlHCpRZqOf9P08z18jb0GfSc9dP6aqZFEj1X8
+         VhcqUmJyD4ATxxeEuAihU3TeCcU5qJDCHwKAKNxZurNLFH9hw7AqYEgxCcLc31zEGyQr
+         oyRC3ZZ++WKV1B1e1Z7Q2hB0IGqFoLA6rwDuFftwzPVpuhL/x+99Q54/khVzF0KoMp6C
+         +M8w==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=30E1qjx1KiTMDVmZqPkhcEFhrIghWwlK0FRliZl+Cv4=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=dVVLyWmvumNE0iJNt4k/wNLZh65MvwrbGa8pDjfy7UFjP+iz1V7U3o2xvx8QYmrQAx
+         3RYereGvREgkAcD78mVJufvcOLXDno1T8j80LMdfRBeFmW0WagNoc2WJZEQlg+A6T0eU
+         pHP1S55+yb6AUFq47UJuU1qFIhLgh5aDvPdcPY8xQk3nWXq4r5KFl1Xuos6Vq9UrXYMN
+         mpettud/TFb9FyB5/zEkBzch0bQXnN9/6XWE31U+bi6/s4kw+fKQgO4gVDBZBSGzlwxp
+         yLd/Orrti8aQZgGvEBJ69QXRZuYq1yu2kdF3fWMfNjm0Na4yMH+Z44du+oN95ZO6r5ch
+         G//w==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ADTQPCH1;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id s19-20020adf9793000000b003177f55c689sor3392919wrb.3.2023.08.23.11.10.50
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 23 Aug 2023 11:10:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ADTQPCH1;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1692814250; x=1693419050;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=30E1qjx1KiTMDVmZqPkhcEFhrIghWwlK0FRliZl+Cv4=;
+        b=baCt0k8NaRcRJb54Z+8QAECiZMdD2fgDGJjwzxsIJgx102w28ME+FBGcQ4p0wTSEPe
+         dt4eJasRvSs2o9EY3N+MRTSCUhhUadEN841WZFvtTDSnnl5Zn49n7E799tCyq0jxmjmO
+         ZuQiwZqFw9+a1js5If1kWEaEFBMVmNJG1iWGf4CEe4GBfYyzSF8kQYwWTk+1IGoq9rz6
+         AYC8Zzgk4cqLeOTuVZALbLzaIsCPAKXBDj/m1EtizrJwNAEgCilgiHl/PwTi6k6yC4g1
+         dw/9JQb6KeyPo8jqKUhAB8z1B4kmPldtmKBs2dlir87NALsR5kIHuIbKnk+/YoQCq5De
+         vyTQ==
+X-Gm-Message-State: AOJu0YxBXfAn7RvVmPCQGfutKL8RM0qXSdNkUJmINygbwiCsNFSLydhU
+	ThvhW5cC4p96RokYDrJTleMNp6Fn5RWfFxN7c6NPN5tu+imbstCHfw==
+X-Received: by 2002:a5d:65c5:0:b0:319:76a2:36e9 with SMTP id e5-20020a5d65c5000000b0031976a236e9mr10248683wrw.56.1692814249618;
+        Wed, 23 Aug 2023 11:10:49 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:6000:1373:b0:317:6ac3:4e22 with SMTP id q19csp901618wrz;
+        Wed, 23 Aug 2023 11:10:45 -0700 (PDT)
+X-Received: by 2002:a05:6e02:2188:b0:349:178b:2818 with SMTP id j8-20020a056e02218800b00349178b2818mr2943192ila.13.1692814245245;
+        Wed, 23 Aug 2023 11:10:45 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1692814245; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=EkoEFHbIpTz3Fh80cmCGiWbAY1LX9VewD2Y8qRcQOpOOEHLRoOhgutEwwXlGCGCvgZ
+         +usZpUsg+/7WBRHUh2jBs/7HH3tnXtWHue0PM9e1QRl8FYEKtSYu0bmDG1bEdsebleBa
+         OWUcoqCDa618iNwxqslx/xVxeu21u4qBoCj0NbTaiVzcFI8iGWgHi0NbGMoxGaqaCGB2
+         8mHji88R8Fo7/P34smiabHcfwqAxSI5NZrsJ+vP9OafQBBO02F1yhW0ZC2cCqoAeRWWl
+         IdK9rcKON+AGTNgeqMKhuNBSIX3WjwF4eLO+KqoI/n4YDXJRQakbfSx3LJmabCxAV5ii
+         MV9Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=30E1qjx1KiTMDVmZqPkhcEFhrIghWwlK0FRliZl+Cv4=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=sdWnMCIjHfNHw0AVujrupobzoX/6BtCkCPbQJvHbc7vySLOiq6dUWmtq6ONVsQZI3+
+         ou76T5tFlHwEAfzZIQmIZHbnl2wphPb4vsZfKKq7UzjHIYdHB0iKo/DTKejsAZobVqcp
+         9DqgcW0zQqDE4rvHc13CcKCbdN99VOtrss3tKnOICMxHA3qREu+IfsND+6C56qa9E0o9
+         JKPgcIECwlag6KyKUy//b+TDZEuWyLT/Es2sTEdl224ZR7DYC2Ubgd9tV/kfJfC87k1j
+         0Fz9sgjrFtUdnG52ahSEhKA9PuzuzoY17TKDDtXS4msF9E9sZFyqpe3rt9H83eyZ8v90
+         OwRA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ADTQPCH1;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230823141043.32488619.288425@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230823141043.32488619.288425@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230823141043.32488619.288425@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id q16-20020a92c010000000b0034cc56e0526sor61184ild.6.2023.08.23.11.10.45
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 23 Aug 2023 11:10:45 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230823141043.32488619.288425@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IFKGODy0Xnr9oAEvAaxBSRq9wRxoH1RQocf5/9ohBeLAj0XvPLt3SsIUzRejVZynQ+VRXVMFDURr5z6DavARMZENH3glrw=
+X-Received: by 2002:a05:6e02:20ee:b0:349:9988:fc51 with SMTP id q14-20020a056e0220ee00b003499988fc51mr3456719ilv.14.1692814244840;
+        Wed, 23 Aug 2023 11:10:44 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1692814244; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Sv7jX+EqgHg6Ew5hgNGd7u+ak/FDEsr+U68ChTnZxVEABZrL7MFiFEjkyuLZBFnl2b
+         DCGlgdRADFxVwXDjkrEhGJflY4FW461WltCGs8n+LoifXZQsLMqU2QVYQoEZ0ATyHPFV
+         kaTdDmEGymaYMyscXS2wIgiqOhKxxMoySGSnac1LMnwMia4QT3Bf9pDMagz/eOraBbWI
+         DA/vwSV+SQfecnxVf9SWbGTxg+Dg/tz7OaTw/FGEvZitUvOPYzt00MxokCIlKE1yZxCa
+         FAoxyCqoHvGhDoZJY/VSOYfG1vutPz4c4AiSvN5xI1+IgxdFoFIrUlwS9NOfTsSX5/J7
+         ZYHw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=30E1qjx1KiTMDVmZqPkhcEFhrIghWwlK0FRliZl+Cv4=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=jdP74Mqq15PW3HGUhmL5+dziKM8U71CmlHHKqXTmM4hJGGwslSt6ufUK12IcosxBZp
+         AyaDcJO9wqmCOuhmfMkoVRP9uG1KzGbZGBgNzwHYEE7LpIJ+R1n6ywnXj/UuLSngtPnC
+         wqWBt89Orfi2GcafTmCNeBvstnaEGmZfdZoB7IjADyNLNuw+S8tf37uvhm+wpiGlNmz3
+         9YMj60HP9R4HBzTsayxn6I2eqM2RLW+C3qCHU1RN1r3rAv5N7DgGdbE35u/M1n8SIJXa
+         JDHFtp0zNMHYLY2amENPf/zTKAKEDCsen2GLIeDVC2hNhGwqijG6zWU8JGUeIwQgeMBN
+         ZMOg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ADTQPCH1;
+       spf=pass (google.com: domain of delivery_20230823141043.32488619.288425@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230823141043.32488619.288425@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230823141043.32488619.288425@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id 7-20020a056e0216c700b0034ca7d5fcedsi741760ilx.1.2023.08.23.11.10.44
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 23 Aug 2023 11:10:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230823141043.32488619.288425@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=PrU/NUG7UoKnttQVMkgqgAuJLDPAyPT+RYyezAgdKKQ=;
+ b=ADTQPCH1cOtGAWyiYN9qioS4aQcVPacvW7hgQdcbmXplfZCnPmCbaYfA77KHxtB5/y2BzmYaV0Ls
+   M0+sLMJ/6C3vKTKByBk5hARhWKqcV7o74gyoZkmfB7s1n30kuOQ9lRUWKfaj12rg7gmRV2PiZsEr
+   Tu74Wo9xhz+gchBDpik=
+Received: from ip-10-55-58-49.ec2.internal (10.55.58.49) by aws1-mta-relay5.sailthru.cloud id hsp5q81qqbsl for <bloomberg@khamel.com>; Wed, 23 Aug 2023 13:10:43 -0500 (envelope-from <delivery_20230823141043.32488619.288425@mx.sailthru.com>)
+Date: Wed, 23 Aug 2023 14:10:43 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230823141043.32488619.288425@sailthru.com>
+Subject: Money Stuff: Could Sculptor Be Better, or Cheaper?
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_21331044_1825678538.1692814243888"
+Precedence: bulk
+x-job: 6358-32488619-20230823
+X-Feedback-ID: 6358:32488619:campaign:sailthru
+X-TM-ID: 20230823141043.32488619.288425
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-58-49.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjccdn.66jt/331ff34a
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjccdn.66jt/331ff34a>, <mailto:unsubscribe_20230823141043.32488619.288425@mx.sailthru.com>
+X-rpcampaign: stjko32488619
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_21331044_1825678538.1692814243888
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off for the rest of the week,=
+ back on Monday.There is something odd about a publicly traded hedge fund
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off for the rest of the wee=
+k,=C2=A0back on Monday.
+
+ =20
+   =20
+      Sculptor
+   =20
+ =20
+
+There is something odd about a publicly traded hedge fund management firm. =
+The typical hedge fund management firm is private,=C2=A0owned mostly by its=
+ founder=C2=A0(who is also the chief investment officer and chief executive=
+ officer),=C2=A0and the rough cultural expectation is that people who run b=
+ig hedge funds collect most of the fees from those funds and get very rich.=
+ In a publicly traded hedge fund management firm, the CEO/CIO does=C2=A0not=
+=C2=A0own most of the company; outside shareholders do.
+  [1]
+
+But the CEO/CIO of a public hedge fund firm still runs a big hedge fund and=
+ wants to be treated, and paid, like a big-time hedge fund manager; the boa=
+rd of directors, in setting her pay, will be inclined to compare her to oth=
+er=C2=A0managers of large=C2=A0hedge funds.
+  [2]
+ And so she and her senior management team will receive =E2=80=94=C2=A0not=
+=C2=A0all=C2=A0of the fees from the funds they manage, but something uncomf=
+ortably close to all of them,
+  [3]
+ not leaving very much left over for public shareholders.=C2=A0
+And so in the extreme case a publicly traded hedge fund firm should look li=
+ke this:
+=09Its CEO/CIO gets paid a lot of money, and in total its investment profes=
+sionals get paid roughly 100% of the firm=E2=80=99s fee income.=09Its marke=
+t capitalization =E2=80=94=C2=A0that is, the value of its stock, or the exp=
+ected value of future cash flows to the shareholders =E2=80=94=C2=A0should =
+be close to zero, because the CEO/CIO should be able to capture most of the=
+ cash flows from the company.
+
+But the company is public! Anyone can buy its stock. And so if you are feel=
+ing confident in your own abilities, a good trade might be:
+=09Buy the company for roughly $0.=09Fire the CEO and pay yourself her sala=
+ry instead.
+
+If you have a public company where most of the cash flows go, not to the sh=
+areholders, but to the CEO, then it is cheap to become a shareholder and lu=
+crative to become the CEO. But if you buy enough shares you can make yourse=
+lf the CEO. There is an arbitrage.
+  [4]
+
+We   talked on Monday=C2=A0about the takeover battle for Sculptor Capital M=
+anagement Inc. A brief recap:
+=09Sculptor is a publicly traded company that manages about $34 billion of =
+client assets in hedge funds, real estate private equity funds and collater=
+alized loan obligations. Its revenue  consists mostly of management and per=
+formance fees charged to those funds, and its expenses consist mostly of sa=
+laries and bonuses to the people who manage them.=09Sculptor is in a long-r=
+unning fight with its founder and former manager, Daniel Och, over some com=
+bination of economic issues and personal pique. Sculptor=E2=80=99s current =
+CEO/CIO, Jimmy Levin, is a former prot=C3=A9g=C3=A9 of Och before the two h=
+ad a falling out, and Och has spent years grousing and suing about what he =
+views as Levin=E2=80=99s excessive pay package (over $145=C2=A0million in 2=
+021, and about $49 million in 2022). The fight, and an earlier bribery scan=
+dal, =E2=80=9Chave had an adverse impact on our business,=E2=80=9D Sculptor=
+  has said, and also performance hasn=E2=80=99t been great;=C2=A0clients ha=
+ve taken money out of its hedge funds, revenue has declined, and the stock =
+price is a lot lower now than it was in 2021.=09Sculptor decided to sell it=
+self, talked to 70 potential buyers, and ultimately reached a deal with Rit=
+hm Capital Corp., a publicly traded real estate investment manager, at $11.=
+15 per share, or about $639 million. It announced that deal last month.=09O=
+n Aug. 12, a group of hedge fund managers led by Boaz Weinstein and  also i=
+ncluding Bill Ackman and Marc Lasry put in an offer of $12.25 per share, th=
+ough that offer only became public this weekend.=C2=A0=09Rithm=E2=80=99s bo=
+ard has, so far, rejected that offer, because it worries that it is too unc=
+ertain: The Weinstein group does not have committed financing for the full =
+size of its offer, and it plans to get some of the cash by selling Sculptor=
+=E2=80=99s CLO business to another buyer, but does not yet have a definitiv=
+e agreement with that buyer. So the board would rather stick with a reasona=
+bly certain $11.15 than stretch for a risky $12.25.
+
+I   wrote on Monday that these issues seem=C2=A0solvable:=C2=A0Like, Sculpt=
+or=E2=80=99s board should talk to the Weinstein group, and the Weinstein gr=
+oup (which consists of rich hedge fund mangers with plenty of money) should=
+ get it together to commit for the full amount of money required, and ultim=
+ately Sculptor should manage a deal (with Weinstein, or with Rithm, or with=
+ someone else) at some price well north of $11.15.
+The market also thinks this =E2=80=94=C2=A0the stock closed at $11.81 on Mo=
+nday =E2=80=94=C2=A0and, certainly, Daniel Och does. Yesterday he  sent som=
+e  letters to the board complaining about all of this and asking for more i=
+nformation about how the board evaluated the bids it got (and quoting my Mo=
+nday column). His basic view is that the board arranged the sale to Rithm, =
+and is blowing off Weinstein,=C2=A0not because it wants to maximize shareho=
+lder value but because it wants to maximize Jimmy Levin=E2=80=99s pay: Rith=
+m would retain Levin (though at like $30 million a year), while Weinstein p=
+robably would not, so Levin would probably rather sell to Rithm, and Och su=
+spects that the board arranged that for him. (The board vehemently denies t=
+hat, and says that Levin=E2=80=99s future employment played no part in its =
+decision.) And so Och=E2=80=99s=C2=A0role is to publicly scold the board so=
+ that they are shamed into negotiating with Weinstein to sell at a higher p=
+rice.
+  [5]
+
+But here I want to make a point about the schematic math.=C2=A0The schemati=
+c math is that anyone can buy Sculptor for about $650 million,
+  [6]
+=C2=A0and Sculptor is a business that pays its chief investment officer som=
+ething like $100 million per year. If you could buy the company,=C2=A0fire =
+him and make yourself the boss of Sculptor, then=C2=A0you=C2=A0could take t=
+hat $100 million a year for yourself. That=E2=80=99s like a 15% annual retu=
+rn on your investment right there, even assuming that you can=E2=80=99t gro=
+w assets or improve performance or save money by firing anyone else. That=
+=E2=80=99s pretty good. It is not quite the schematic math that I began wit=
+h =E2=80=94=C2=A0=E2=80=9Cbuy all the shares for $0, then make yourself CEO=
+ and collect all the fees=E2=80=9D =E2=80=94=C2=A0but it is related.
+Now, there is a flaw in that math. The flaw is that Sculptor=E2=80=99s futu=
+re fee income depends on its clients continuing to be clients; much of Scul=
+ptor=E2=80=99s money is redeemable without too much notice, so if all the c=
+lients are dissatisfied with the new CEO then they will leave and the new C=
+EO won=E2=80=99t get any money. If=C2=A0I=C2=A0somehow borrowed $650 millio=
+n to buy Sculptor and made myself CEO, presumably all the clients would lea=
+ve immediately and my investment would be worth $0. And for a lot of plausi=
+ble buyers of Sculptor =E2=80=94=C2=A0certainly for Rithm, which is not rea=
+lly in the hedge-fund business =E2=80=94=C2=A0the only way to buy Sculptor =
+and get value out of it is by retaining Levin and his senior management tea=
+m to keep clients happy and keep making money.
+But that is the genius of the Weinstein plan:=C2=A0Boaz Weinstein is a hedg=
+e fund manager! But also Bill Ackman is a hedge fund manager, and Marc Lasr=
+y, and there might be others involved.
+  [7]
+=C2=A0Surely=C2=A0between=C2=A0them (1) they could run a hedge fund and (2)=
+ they could mollify Sculptor=E2=80=99s clients. =E2=80=9CI like Jimmy Levin=
+, but I also like Bill Ackman, so it=E2=80=99s fine,=E2=80=9D some clients =
+might say, and others might not love Ackman but are pretty fond of Weinstei=
+n, etc.; with enough names on the list surely most clients will find=C2=A0s=
+omeone=C2=A0they like.
+Or not, I mean, nothing is guaranteed, and the takeover sure would be=C2=A0=
+weird. Weinstein=E2=80=99s firm, Saba Capital Management, was one of the 70=
+ bidders that Sculptor talked to before signing a deal with Rithm (it is re=
+ferred to as =E2=80=9CBidder J=E2=80=9D in the proxy statement
+  [8]
+), and Sculptor preferred Rithm in part for financing certainty but also in=
+ part for client-retention certainty. Any buyer of Sculptor would want the =
+deal to be conditional on some number of clients giving their consent to th=
+e deal: If all the clients flee immediately, then Sculptor isn=E2=80=99t wo=
+rth buying. Rithm has an 85% client consent condition in its deal, and Saba=
+ initially asked for 75%. That sounds like Saba=E2=80=99s offer would be mo=
+re certain than Rithm=E2=80=99s (with a lower client consent threshold), bu=
+t Rithm would retain Levin and Saba more or less wouldn=E2=80=99t, and the =
+board got nervous. From  the proxy for the Rithm deal
+  [9]
+:
+
+It was discussed that the transaction proposed by Bidder J may make client =
+consent more difficult to obtain because Bidder J had indicated its intent =
+to not have Mr.=C2=A0Levin (considered a =E2=80=9Ckey man=E2=80=9D under ce=
+rtain client arrangements) continue in a long-term role at the Company foll=
+owing the closing of the potential transaction, and instead Bidder J intend=
+ed that the Company=E2=80=99s investment function would be overseen by an =
+=E2=80=9COffice of the CIO=E2=80=9D which would include (without limitation=
+) representatives of Bidder J and certain third parties that had no affilia=
+tion with the Company but would be selected and hired by Bidder J. As such =
+it was discussed that the client consent condition as currently proposed by=
+ Bidder J =E2=80=94 while similar to the one negotiated with Rithm =E2=80=
+=94 may be more difficult for the Company to satisfy. ...
+The Company=E2=80=99s management conveyed its view that, given Bidder J=E2=
+=80=99s stated post-closing business plans, ...=C2=A0the Company=E2=80=99s =
+management remained concerned about its ability to retain current key emplo=
+yees, and the likelihood of achieving the client consent condition.=C2=A0
+
+Och, in  his letter yesterday, scoffs at this excuse:
+The Special Committee summarily concluded that the bidders who did not wish=
+ to retain Mr.=C2=A0Levin would be unable to obtain client consents to the =
+transaction. But there is no indication that the Special Committee took any=
+ steps to test this hypothesis or to reduce the client-consent contingency =
+necessary for the transaction (and thereby put any such consent risk on the=
+ bidder). Instead, they used this =E2=80=9Ckey man=E2=80=9D issue as an exc=
+use to defer to Mr. Levin=E2=80=99s interests.=C2=A0
+He also complains that Rithm reduced its price because of the expense of pa=
+ying Sculptor=E2=80=99s managers:
+The Special Committee=E2=80=99s defense of management=E2=80=99s interests c=
+ame directly at the expense of the stockholders. Rithm itself initially agr=
+eed to offer $12 a share to the Class A stockholders, but revised its offer=
+ down a full dollar, because =E2=80=9Cit would need to spend more money tha=
+n anticipated in the form of a long-term incentive plan and retention plan =
+for the Company=E2=80=99s senior leadership.=E2=80=9D=C2=A0
+It=E2=80=99s all pretty=C2=A0odd. For one thing, if Weinstein and Ackman an=
+d Lasry think =E2=80=9Cwe would do a better job of running this $30 billion=
+ of assets than Jimmy Levin does, and clients would like us more,=E2=80=9D =
+then it=E2=80=99s not clear that their=C2=A0best=C2=A0move is to pay $650 m=
+illion to buy Sculptor. Arguably their best move is just to call up the cli=
+ents and say =E2=80=9Chey, if you prefer me to Jimmy Levin, why don=E2=80=
+=99t you take your money out of Sculptor and put it in my fund instead?=E2=
+=80=9D If your thesis is =E2=80=9CSculptor=E2=80=99s clients are so sick of=
+ Sculptor that they=E2=80=99d love to have their money managed by Boaz Wein=
+stein instead,=E2=80=9D you can just offer the=C2=A0clients=C2=A0that deal =
+without=C2=A0buying Sculptor. I suppose it is hard to get $30 billion of cl=
+ient assets all at once, and paying $650 million for them is arguably a bar=
+gain;=C2=A0also some of Sculptor=E2=80=99s businesses would continue to be =
+run by its professionals rather than the Weinstein group. (Also,  Ackman an=
+d  Weinstein have done a fair amount of hedge-fund activism in their time, =
+and if you even partly believe my schematic math then this is a very tempti=
+ng=C2=A0activist=C2=A0situation: =E2=80=9CThis company is undervalued becau=
+se management is too entrenched, so if we buy it and fire management there=
+=E2=80=99s money to be made.)
+Also it is very fun that the Weinstein group would buy Sculptor in their pe=
+rsonal=C2=A0accounts? Weinstein, Ackman and Lasry=C2=A0all run hedge fund m=
+anagement firms themselves (Saba Capital Management, Pershing Square Capita=
+l Management, Avenue Capital Group), but those firms are not, separately or=
+ together, offering to buy Sculptor.
+  [10]
+ Instead, they are offering to buy Sculptor in their personal accounts. Lik=
+e, their day jobs are managing hedge funds, and then as a hobby they will f=
+orm a sort of hedge-fund-manager supergroup and manage another hedge fund f=
+or fun. There are regulatory complications with a hedge-fund firm buying an=
+other hedge-fund firm; buying it in your personal account is easier, though=
+ I suppose there are conflict questions there too. (If you see a good inves=
+tment idea in your role at the Sculptor =E2=80=9COffice of CIO,=E2=80=9D ca=
+n you bring it to your day job?)
+Really, though, wouldn=E2=80=99t you want=C2=A0to do this? If you are a con=
+fident successful hedge fund manager, and you had the chance to get togethe=
+r with your hedge fund manager friends and=C2=A0buy=C2=A0a rival hedge fund=
+ manager=E2=80=99s firm out from under him, for fairly cheap, wouldn=E2=80=
+=99t you do it? It seems to me to make economic sense as a trade, but also =
+how much fun is that? =E2=80=9CWe are willing to bet $650 million that we c=
+an do a better job for your clients than you can, and that=E2=80=99s the pr=
+ice tag, so bye!=E2=80=9D
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      X
+   =20
+ =20
+
+Elsewhere in  weird M&A situations:
+
+United States Steel and the United Steelworkers union are at odds over the =
+union=E2=80=99s influence as the steelmaker considers acquisition bids.
+The union, which represents about 11,000 hourly production workers at U.S. =
+Steel, is backing rival steelmaker Cleveland-Cliffs=E2=80=99 attempt to buy=
+ the company. U.S. Steel is pushing back, saying its contract with USW does=
+n=E2=80=99t give the union a veto vote over any potential deal for the 122-=
+year-old company.=C2=A0
+Pittsburgh-based U.S. Steel said on Aug. 13 that the company is considering=
+ multiple offers for all or part of its business. Alongside Cleveland-Cliff=
+s, industrial conglomerate Esmark has also announced a bid for U.S. Steel, =
+which is one of the four big steelmakers that supply the auto industry, the=
+ construction sector and other manufacturers.
+
+You can read=C2=A0Cleveland-Cliffs=E2=80=99 very confident  press release a=
+bout the union=E2=80=99s backing here, saying =E2=80=9Cwith this exclusive =
+assignment, Cliffs is the only realistic buyer able to acquire the totality=
+ of U.S. Steel.=E2=80=9D You can read US Steel=E2=80=99s view of the matter=
+  here and  here, along with a slide  here saying that =E2=80=9Cthe Basic L=
+abor Agreement (=E2=80=98BLA=E2=80=99) with the United Steelworkers labor u=
+nion (=E2=80=98USW=E2=80=99) does not provide a right to veto any transacti=
+on that may result from this review.=E2=80=9D (The BLA is  here.) It seems =
+to me that US Steel is clearly right =E2=80=94=C2=A0there=E2=80=99s no veto=
+ right =E2=80=94=C2=A0but the union does have some power. Specifically:
+=09Any buyer of the whole company has to recognize the USW union and assume=
+ US Steel=E2=80=99s agreements with it, including the labor agreement that =
+US Steel signed last year. (But the buyer can do this unilaterally; the USW=
+ can=E2=80=99t say no to the assumption.)=09The union has a =E2=80=9Cright =
+to bid=E2=80=9D: If anyone makes an offer to buy US Steel, the company has =
+to tell the USW and give it 45 days to match the offer. But after that, =E2=
+=80=9Cthe Company shall not be under any obligation to accept such offer=E2=
+=80=9D from the USW: It just can=E2=80=99t sell to anyone else =E2=80=9Cunl=
+ess that transaction is superior to the USW offer.=E2=80=9D But if the USW =
+offers $32 and someone else offers $35, US Steel can take the higher bid.
+  [11]
+
+=09The union can=C2=A0assign=C2=A0that right to bid to someone else, which =
+is what it did with Cleveland-Cliffs: Now Cleveland-Cliffs effectively owns=
+ the union=E2=80=99s right to bid.
+
+So this does not actually make Cleveland-Cliffs =E2=80=9Cthe only realistic=
+ buyer=E2=80=9D: If Cleveland-Cliffs offers $35 and Esmark offers $40, then=
+ Esmark wins. That said, the assignment does give Cleveland-Cliffs some big=
+ advantages. For one thing, if you are buying a big unionized company, it i=
+s probably better to have the union on your side; anyone else is going to b=
+e a bit more nervous about labor relations than Cleveland-Cliffs is, which =
+might be reflected in price.
+Also Cleveland-Cliffs just has the ability to=C2=A0annoy=C2=A0US Steel abou=
+t the process, which is worth something. Yesterday it  sent US Steel a lett=
+er complaining that (1) it has the right to be notified of any bids for the=
+ company, (2) there sure seem to be bids=C2=A0and (3) it hasn=E2=80=99t bee=
+n notified yet:
+
+The Right to Bid provision requires USS to promptly notify Cliffs =E2=80=94=
+=C2=A0as the assignee =E2=80=94=C2=A0of any proposal received for =E2=80=9C=
+any possible transaction=E2=80=9D to sell a controlling interest in the Com=
+pany. =E2=80=A6=C2=A0
+USS has publicly indicated on multiple occasions, including in two press re=
+leases on August 13, 2023, that it had indeed received =E2=80=9Cmultiple un=
+solicited proposals that ranged from the acquisition of certain production =
+assets to consideration for the whole Company.=E2=80=9D It is interesting t=
+o note that, today, in your letter to the Company=E2=80=99s employees, =E2=
+=80=A6=C2=A0you referred to these other proposals as =E2=80=9Cinquiries=E2=
+=80=9D for the first time. Regardless, to date, neither the USW nor Cliffs =
+has received any notice of such proposals or =E2=80=9Cinquiries.=E2=80=9D =
+=E2=80=A6
+USS must immediately either (a) provide Cliffs and the USW with the require=
+d notice of all proposals that have already been received; or (b) if USS ha=
+s not in fact received any proposals, correct its prior public statements.
+
+Not a veto right, not an exclusive bidding right, but you can see how that =
+might deter other bidders.
+Also by the way here is  Esmark=E2=80=99s announcement of its bid=C2=A0last=
+ week, which is kind of wild? Esmark Inc. is a private company owned and ru=
+n by James Bouchard, and this is just odd language:
+Esmark, Inc. announced today a voluntary public cash and exchange offer for=
+ all issued and outstanding shares in U.S. Steel Corporation (NYSE: X) (=E2=
+=80=9CU.S. Steel=E2=80=9D) for $35 USD per share. The initial offer period =
+runs from August 14, 2023, to November 30, 2023, and may be extended. Compl=
+etion of the Offer is expected in Q4 2023, subject to regulatory and antitr=
+ust clearances.
+That=C2=A0sounds=C2=A0like Esmark was announcing a tender offer, but as far=
+ as I can tell it wasn=E2=80=99t; there is  no tender offer document filed =
+with the US Securities and Exchange Commission. Also what is a =E2=80=9Cvol=
+untary public cash and exchange offer=E2=80=9D? Here is a  Wall Street Jour=
+nal profile of Bouchard that (1) makes it seem like he probably has the mon=
+ey but (2) also includes this:
+
+After amassing his own fortune through acquiring companies in the steel bus=
+iness and other industries, the 62-year-old investor has made a bold offer =
+to buy United States Steel for about $7.8 billion.=C2=A0
+=E2=80=9CWe have the cash,=E2=80=9D he said. Bouchard said he has $10 billi=
+on set aside for the acquisition. He said the industrial conglomerate he le=
+ads, Esmark, is debt free and that he doesn=E2=80=99t intend to borrow mone=
+y against it to buy U.S. Steel.=C2=A0
+
+If you are trying to figure out if a potential buyer of a $7.8 billion comp=
+any can actually pay for it, him saying =E2=80=9Cwe have the cash=E2=80=9D =
+to a reporter is =E2=80=A6=C2=A0almost a negative?=C2=A0
+Anyway if I were US Steel I=E2=80=99d be trying to get a bid from Elon Musk=
+? We know that he will impulsively overpay for companies, he probably has s=
+ome use for steel, and most important he is obsessed with the letter =E2=80=
+=9CX.=E2=80=9D=C2=A0US Steel=E2=80=99s stock-exchange ticker is X. You don=
+=E2=80=99t get that ticker every day; surely it=E2=80=99s worth $10 billion=
+ to Musk.
+
+ =20
+   =20
+      People are worried about stock buybacks
+   =20
+ =20
+
+When I was an investment banker, ages ago, part of my job was to pitch stoc=
+k buybacks to companies. Part of this pitch involved comparing buybacks to =
+dividends, the other way that companies commonly return cash to shareholder=
+s. For=C2=A0me, the advantage of buybacks was obvious: A buyback requires h=
+iring a bank and paying it a commission,
+  [12]
+=C2=A0so I could make money from buybacks but not from dividends. The=C2=A0=
+pitch=C2=A0did not highlight=C2=A0that.
+Instead the pitch to companies focused mostly on the advantages of buybacks=
+ to=C2=A0shareholders.
+  [13]
+ The main one is that, in the US, a buyback is much more=C2=A0tax-efficient=
+ than a dividend. With a dividend, every shareholder gets paid cash, and ev=
+ery (taxable) shareholder pays taxes on the full amount of cash. (Generally=
+ the tax rate is  15% or 20%.) With a buyback, shareholders can choose to g=
+et cash (by selling into the buyback) or not (by keeping their shares). If =
+they keep their shares, they pay no tax (now): The value of their shares (h=
+opefully) goes up due to the buyback, but they have no realized income. If =
+they sell, they do pay tax (again generally 15% or 20%), but only on their=
+=C2=A0gain, not on the entire amount of cash they receive.
+I have never been entirely sure how effective a pitch that is: A lot of sha=
+reholders (401k investors, endowments, etc.) are tax-exempt, and a lot of i=
+nvestment managers seem to measure their performance mostly on pretax rathe=
+r than after-tax returns, so maybe companies don=E2=80=99t (and shouldn=E2=
+=80=99t) care about saving their shareholders taxes. On the other hand corp=
+orate=C2=A0executives=C2=A0tend to (1) own a lot of stock and (2) be sensit=
+ive to taxes, so they like the tax efficiency of buybacks.
+Anyway now there is a 1% excise tax on share buybacks in the US, and  the W=
+all Street Journal reports:
+
+A new 1% tax on stock buybacks is starting to increase companies=E2=80=99 a=
+nticipated tax burdens, to the tune of over $3.5 billion in the first half =
+of the year among the largest U.S. public companies.=C2=A0
+Businesses in recent weeks have disclosed what they are expecting their tax=
+ bills for share repurchases to be for the first half of the year, offering=
+ a first glimpse at the levy=E2=80=99s midyear impact on their financials. =
+Booking Holdings estimates a tax liability of $47 million for the six month=
+s ended June 30, according to a regulatory filing. PayPal anticipates a $24=
+ million bill tied to buybacks for that period, while MetLife expects a tax=
+ hit of $13 million.=C2=A0
+The tax, which went into effect Jan. 1, is set to cost S&P 500 companies $1=
+.6 billion in the second quarter, according to preliminary data from S&P Do=
+w Jones Indices, a unit of ratings firm S&P Global. ...
+Despite the higher tax obligations, companies are largely shrugging off the=
+ tax. From April through June, S&P 500 companies are expected to spend arou=
+nd $169 billion on stock buybacks, down about 20% from both the first quart=
+er of this year and from a year ago, the preliminary S&P data show.
+
+The math there is $169 billion of buybacks, 1% tax, $1.6 billion of taxes.
+  [14]
+=C2=A0If companies did $169 billion of dividends instead, there=E2=80=99d b=
+e =E2=80=A6=C2=A0not $33.8 billion of taxes to pay (20% of $169 billion), b=
+ecause some shareholders are not taxable or pay lower rates than 20%, but a=
+ lot more than $1.6 billion anyway.
+  [15]
+=C2=A0Buybacks are more expensive than they used to be, but still a tax bar=
+gain compared to dividends.
+By the way, this is a thing I did not know about the buyback tax:
+The 1% tax=E2=80=94which was a last-minute addition to the climate, health =
+and tax law known as the Inflation Reduction Act passed last year=E2=80=94i=
+s levied on net buybacks, meaning total shares repurchased minus new shares=
+ issued during the year.
+Here is  the statutory text; section 4501(b)(3) says that the taxable amoun=
+t of buybacks =E2=80=9Cshall be reduced by the fair market value of any sto=
+ck issued by the covered corporation during the taxable year, including the=
+ fair market value of any stock issued or provided to employees.=E2=80=9D O=
+ne  complaint that people sometimes  have about stock buybacks is that they=
+ are a way to sort of disguise executive compensation: A company=C2=A0pays =
+its executives $100 million worth of stock, then it buys back $100 million =
+worth of stock to avoid the dilutive impact of those payments. I have never=
+ found this complaint that compelling (it=E2=80=99s not=C2=A0disguised=C2=
+=A0executive compensation; this is all disclosed), but some people do, and =
+if you do I guess you should be dissatisfied with the buyback tax. It speci=
+fically exempts buybacks that are used to offset stock-based compensation.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+ Bank of America Trading Desks Gain Ground With More Capital, Headcount. Go=
+ldman Is Cracking Down on Employees That Aren't in Office   Five Days a Wee=
+k. Private equity firms hand over  distressed companies to rivals. Wall Str=
+eet=E2=80=99s  China Dreams Slip Away. Morgan Stanley Fined for UK Energy T=
+rading   WhatsApp Breach.=C2=A0Allocators Aren=E2=80=99t Happy With the  NA=
+V Lending Craze. Europe poised for arrival of  =E2=80=98zero-day=E2=80=99 o=
+ptions.  Binance, the Biggest Player in Crypto, Is Facing Legal Risks Over =
+Russia.=C2=A0Ex-OpenSea Employee Sentenced to Three Months in First  NFT In=
+sider-Trading Case.=C2=A0=E2=80=98Everybody Else Left or They Died:=E2=80=
+=99   California Bank Grows Simply by Surviving. Do Corporations Care about=
+  ESG Ratings?Bots Are Better than Humans at  Solving CAPTCHAs. Disgraced e=
+x-Suffolk County police chief who botched Gilgo Beach case and  beat up por=
+n thief accused of soliciting sex =E2=80=94 at 10 a.m.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Not to spoil it or anything =E2=80=94 it=E2=80=99s in the title =E2=
+=80=94 but this is going to be about Sculptor Capital Management. Jimmy Lev=
+in, Sculptor=E2=80=99s chief executive officer and chief investment officer=
+, owns about 14% of the company. He has about 22% voting power, due to owne=
+rship of Class B shares that have votes but no economic rights.
+
+
+  [2] And this might be justified! You are competing for clients=E2=80=99 d=
+ollars with other hedge funds, so you need to hire a good hedge fund manage=
+r to make the clients money, and good hedge fund managers are expensive.
+
+
+  [3] Crudely, if you take the compensation and benefits line of Sculptor=
+=E2=80=99s income statement and divide it by the sum of management fees and=
+ incentive income, you get ratios from 46% in 2020 up to 80% in 2022. The i=
+ntuition here might be something like =E2=80=9Cin good years, the employees=
+ get about half of the fees and the shareholders get the other half, but in=
+ bad years, the employees still need to be paid like hedge fund managers, s=
+o they get like 80% of the fees.=E2=80=9D
+
+
+  [4] This is to some extent true of all public companies, and a general re=
+ason for activism and hostile takeovers is =E2=80=9Cthe CEO is overpaid and=
+ underperforming.=E2=80=9D Hedge funds are just an extreme case because the=
+ir costs are almost entirely personnel, and not that *many* personnel.
+
+
+  [5] I should say that this is Och=E2=80=99s public position, but Sculptor=
+ argues that he is in fact not aligned with public shareholders because of =
+his particular tax arrangements with Sculptor. In particular, during its sa=
+le process, Sculptor got a higher bid (from =E2=80=9CBidder D=E2=80=9D), an=
+d entered into exclusive negotiations with that bidder, but that bidder wan=
+ted approval from Och to go forward with a deal, and Och apparently didn=E2=
+=80=99t give it. Sculptor suggests =E2=80=94 see page 51 of the proxy, part=
+icularly footnote 6 =E2=80=94 that this was because Bidder D wouldn=E2=80=
+=99t give Och all of the tax benefits he wanted. (He doesn=E2=80=99t like t=
+he Rithm deal *more* than the Bidder D one; it=E2=80=99s just that Rithm wa=
+s willing to go forward without Och=E2=80=99s approval.)
+
+
+  [6] More strictly, anyone with enough money can put in a fully financed, =
+minimally conditioned bid to buy Sculptor for some price above $11.15, whic=
+h will force the board to negotiate with them, and if they end up with the =
+highest price they will can buy Sculptor by paying (1) whatever price they =
+agreed to pay (something like $650 million or so) plus (2) a $16.6 million =
+termination fee to Rithm, which does already have a signed deal.
+
+
+  [7] Sculptor=E2=80=99s proxy says that the Weinstein consortium would hav=
+e =E2=80=9C$288 million of equity financing from four unaffiliated parties,=
+=E2=80=9D which I assume means Weinstein, Ackman, Lasry and someone else, t=
+hough who knows.
+
+
+  [8] I assert this with some, but not 100%, confidence; the proxy does not=
+ actually identify Bidder J. It says that, after the deal was signed, =E2=
+=80=9Ca consortium of bidders led by the founder of Bidder J=E2=80=9D put i=
+n the topping bid, and my impression is that Weinstein is the leader of the=
+ consortium, but due to Bidder J=E2=80=99s nondisclosure agreement with Sab=
+a the actual structure of the bid is not public anywhere.
+
+
+  [9] Elsewhere in the proxy, in a discussion of =E2=80=9CBidder D=E2=80=9D=
+ (who ultimately dropped out), the board notes =E2=80=9Cthat Mr. Levin had =
+reported that he was comfortable that Bidder D would continue to compensate=
+ the investment professionals of the Company in a manner that would encoura=
+ge retention and facilitate the achievement of the client consent condition=
+ set forth in the draft merger agreement with respect to the potential tran=
+saction.=E2=80=9D Basically, paying the investment team well is a condition=
+ to the merger, because if the investment team all leaves then the clients =
+will too. Or that is the idea!
+
+
+  [10] Again, it appears that Saba (=E2=80=9CBidder J=E2=80=9D) was in disc=
+ussions to buy Sculptor, but eventually Sculptor went with Rithm instead, a=
+nd then after the deal was signed =E2=80=9Ca consortium of bidders led by t=
+he founder of Bidder J=E2=80=9D (i.e. Weinstein) put in their bid. =E2=80=
+=9CFinancing for their bid for Sculptor is expected to come from their pers=
+onal money, not their firms=E2=80=99 cash,=E2=80=9D reported the Wall Stree=
+t Journal. Though their bid involves selling a portion of Sculptor (its col=
+lateralized loan obligation business) to another asset management firm (cal=
+led =E2=80=9CBidder H=E2=80=9D), which would buy it as a firm, not with its=
+ founder=E2=80=99s cash.
+
+
+  [11] =E2=80=9CSuperior=E2=80=9D is defined in a fairly normal way: =E2=80=
+=9CThe Company may only deem a proposed transaction superior if its Board o=
+f Directors reasonably determines that such transaction is more favorable t=
+o the Company and/or its shareholders, taking into consideration such facto=
+rs as price, form of consideration, certainty of payment, conditions preced=
+ent to closing, competitive factors, and other factors which influence whic=
+h of the transactions is in the best interests of the Company and/or its sh=
+areholders.=E2=80=9D
+
+
+  [12] Actually ideally it would involve a derivative product like an accel=
+erated stock buyback, rather than just paying $0.01 per share of commission=
+s, but in any case a buyback involves some economics to a bank or broker.
+
+
+  [13] Also some advantages to the company. The biggest is probably that bu=
+ybacks are more =E2=80=9Cflexible=E2=80=9D in the sense that shareholders g=
+et used to dividends and get mad if they are cut, while a buyback program c=
+an increase and decrease in size without locking the company in much.
+
+
+  [14] I mean there=E2=80=99s apparently some imprecise rounding there but =
+never mind.
+
+
+  [15] Of course the $1.6 billion number doesn=E2=80=99t count the taxes on=
+ capital gains from sales into the $169 billion of buybacks, but presumably=
+ that number is a lot lower than $33.8 billion too.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjccdn.66jt/454f884c.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_21331044_1825678538.1692814243888
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off for the rest of the week, back on=
+ Monday.There is something odd about a publicly traded hedge fund
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwODIzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MjMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB8ca69229"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjQ4ODYxOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI3NzcwNDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB2e9cb57a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32488619&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32777044&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off for the rest of the week,=C2=A0back on Monday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Sculptor</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">There is something odd about a publicly traded=
+ hedge fund management firm. The typical hedge fund management firm is priv=
+ate,=C2=A0owned mostly by its founder=C2=A0(who is also the chief investmen=
+t officer and chief executive officer),=C2=A0and the rough cultural expecta=
+tion is that people who run big hedge funds collect most of the fees from t=
+hose funds and get very rich. In a publicly traded hedge fund management fi=
+rm, the CEO/CIO does=C2=A0<em>not=C2=A0</em>own most of the company; outsid=
+e shareholders do.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: none !important; backg=
+round-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But the CEO/CIO of a public hedge fund firm st=
+ill runs a big hedge fund and wants to be treated, and paid, like a big-tim=
+e hedge fund manager; the board of directors, in setting her pay, will be i=
+nclined to compare her to other=C2=A0managers of large=C2=A0hedge funds.<a =
+class=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: none !important; background-color: transpar=
+ent !important; display: inline-block;">
+<span>[2]</span>
+</a> And so she and her senior management team will receive =E2=80=94=C2=A0=
+not=C2=A0<em>all=C2=A0</em>of the fees from the funds they manage, but some=
+thing uncomfortably close to all of them,<a class=3D"footnote-index" href=
+=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[3]</span>
+</a> not leaving very much left over for public shareholders.=C2=A0</p>
+<p style=3D"margin: 16px 0;">And so in the extreme case a publicly traded h=
+edge fund firm should look like this:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Its CEO/CIO gets paid a lot of money,=
+ and in total its investment professionals get paid roughly 100% of the fir=
+m=E2=80=99s fee income.</li>=09<li style=3D"margin-bottom: 5px;">Its market=
+ capitalization =E2=80=94=C2=A0that is, the value of its stock, or the expe=
+cted value of future cash flows to the shareholders =E2=80=94=C2=A0should b=
+e close to zero, because the CEO/CIO should be able to capture most of the =
+cash flows from the company.</li>
+</ol>
+<p style=3D"margin: 16px 0;">But the company is public! Anyone can buy its =
+stock. And so if you are feeling confident in your own abilities, a good tr=
+ade might be:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Buy the company for roughly $0.</li>=
+=09<li style=3D"margin-bottom: 5px;">Fire the CEO and pay yourself her sala=
+ry instead.</li>
+</ol>
+<p style=3D"margin: 16px 0;">If you have a public company where most of the=
+ cash flows go, not to the shareholders, but to the CEO, then it is cheap t=
+o become a shareholder and lucrative to become the CEO. But if you buy enou=
+gh shares you can make yourself the CEO. There is an arbitrage.<a class=3D"=
+footnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: none !important; background-color: transparent !impo=
+rtant; display: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/32488619.288425/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDgtMjEvZXZlcnlvbmUtd2FudHMtYS1waWVjZS1vZi1zY3VscHRvcj9j=
+bXBpZD1CQkQwODIzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV=
+3c2xldHRlciZ1dG1fdGVybT0yMzA4MjMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef=
+4b8524a319a23cB8509c166" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  talked on Monday</a>=C2=A0about the take=
+over battle for Sculptor Capital Management Inc. A brief recap:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Sculptor is a publicly traded company=
+ that manages about $34 billion of client assets in hedge funds, real estat=
+e private equity funds and collateralized loan obligations. Its revenue <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/aHR0c=
+HM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTQwMzI1Ni8wMDAx=
+NDAzMjU2MjMwMDAwNTEvc2N1LTIwMjIxMjMxLmh0bSNpNDFmODQyNDIyMjY5NDc0NWJhY2M1NzF=
+jYmQxZWZiMjVfMzE/607f07ceef4b8524a319a23cB4992fadf" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> consists mostl=
+y</a> of management and performance fees charged to those funds, and its ex=
+penses consist mostly of salaries and bonuses to the people who manage them=
+.</li>=09<li style=3D"margin-bottom: 5px;">Sculptor is in a long-running fi=
+ght with its founder and former manager, Daniel Och, over some combination =
+of economic issues and personal pique. Sculptor=E2=80=99s current CEO/CIO, =
+Jimmy Levin, is a former prot=C3=A9g=C3=A9 of Och before the two had a fall=
+ing out, and Och has spent years grousing and suing about what he views as =
+Levin=E2=80=99s excessive pay package (<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0=
+FyY2hpdmVzL2VkZ2FyL2RhdGEvMTQwMzI1Ni8wMDAxNDAzMjU2MjMwMDAwNzMvc2N1LTIwMjMwN=
+DI4Lmh0bSNpNTdjZTBkNDViYjRiNDZhMDhjMDRkNTYzOTNiYjIzODNfMTI3/607f07ceef4b852=
+4a319a23cBf525b3c4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">over $145=C2=A0million in 2021</a>, and about=
+ $49 million in 2022). The fight, and an earlier bribery scandal, =E2=80=9C=
+have had an adverse impact on our business,=E2=80=9D Sculptor <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3c=
+uc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTQwMzI1Ni8wMDAxNDAzMjU2Mj=
+MwMDAwNTEvc2N1LTIwMjIxMjMxLmh0bSNpNDFmODQyNDIyMjY5NDc0NWJhY2M1NzFjYmQxZWZiM=
+jVfMjUw/607f07ceef4b8524a319a23cBbaee9e00" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> has said</a>, and also =
+performance hasn=E2=80=99t been great;=C2=A0clients have taken money out of=
+ its hedge funds, revenue has declined, and the stock price is a lot lower =
+now than it was in 2021.</li>=09<li style=3D"margin-bottom: 5px;">Sculptor =
+decided to sell itself, talked to 70 potential buyers, and ultimately reach=
+ed a deal with Rithm Capital Corp., a publicly traded real estate investmen=
+t manager, at $11.15 per share, or about $639 million. It announced that de=
+al last month.</li>=09<li style=3D"margin-bottom: 5px;">On Aug. 12, a group=
+ of hedge fund managers led by Boaz Weinstein and <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+idXNpbmVzcy9kZWFscy93YWxsLXN0cmVldC1hbGwtc3RhcnMtaW5jbHVkaW5nLXdlaW5zdGVpbi=
+1hY2ttYW4tYmlkLWZvci1oZWRnZS1mdW5kLTgzMzcyNmUwP21vZD1ocF9sZWFkX3BvczQ/607f0=
+7ceef4b8524a319a23cBd3ec42e9" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> also including</a> Bill Ackman and M=
+arc Lasry put in an offer of $12.25 per share, though that offer only becam=
+e public this weekend.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">Rithm=
+=E2=80=99s board has, so far, rejected that offer, because it worries that =
+it is too uncertain: The Weinstein group does not have committed financing =
+for the full size of its offer, and it plans to get some of the cash by sel=
+ling Sculptor=E2=80=99s CLO business to another buyer, but does not yet hav=
+e a definitive agreement with that buyer. So the board would rather stick w=
+ith a reasonably certain $11.15 than stretch for a risky $12.25.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/32488619.288425/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjMtMDgtMjEvZXZlcnlvbmUtd2FudHMtYS1waWVjZS1vZi1zY3VscHRvcj9jb=
+XBpZD1CQkQwODIzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3=
+c2xldHRlciZ1dG1fdGVybT0yMzA4MjMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4=
+b8524a319a23cC8509c166" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  wrote on Monday</a> that these issues see=
+m=C2=A0<em>solvable:=C2=A0</em>Like, Sculptor=E2=80=99s board should talk t=
+o the Weinstein group, and the Weinstein group (which consists of rich hedg=
+e fund mangers with plenty of money) should get it together to commit for t=
+he full amount of money required, and ultimately Sculptor should manage a d=
+eal (with Weinstein, or with Rithm, or with someone else) at some price wel=
+l north of $11.15.</p>
+<p style=3D"margin: 16px 0;">The market also thinks this =E2=80=94=C2=A0the=
+ stock closed at $11.81 on Monday =E2=80=94=C2=A0and, certainly, Daniel Och=
+ does. Yesterday he <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/32488619.288425/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0M=
+DMyNTYvMDAwMTE5MzEyNTIzMjE4MDE4L2Q1MDk2NDhkZXg5OTI4Lmh0bQ/607f07ceef4b8524a=
+319a23cBc5e3230f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> sent</a> some <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZl=
+cy9lZGdhci9kYXRhLzE0MDMyNTYvMDAwMTE5MzEyNTIzMjE4MDE4L2Q1MDk2NDhkZXg5OTI5Lmh=
+0bQ/607f07ceef4b8524a319a23cB29ede13c" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> letters</a> to the board co=
+mplaining about all of this and asking for more information about how the b=
+oard evaluated the bids it got (and quoting my Monday column). His basic vi=
+ew is that the board arranged the sale to Rithm, and is blowing off Weinste=
+in,=C2=A0not because it wants to maximize shareholder value but because it =
+wants to maximize Jimmy Levin=E2=80=99s pay: Rithm would retain Levin (thou=
+gh at like $30 million a year), while Weinstein probably would not, so Levi=
+n would probably rather sell to Rithm, and Och suspects that the board arra=
+nged that for him. (The board vehemently denies that, and says that Levin=
+=E2=80=99s future employment played no part in its decision.) And so Och=E2=
+=80=99s=C2=A0role is to publicly scold the board so that they are shamed in=
+to negotiating with Weinstein to sell at a higher price.<a class=3D"footnot=
+e-index" href=3D"#footnote-5" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: none !important; background-color: transparent !important; =
+display: inline-block;">
+<span>[5]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But here I want to make a point about the sche=
+matic math.=C2=A0The schematic math is that anyone can buy Sculptor for abo=
+ut $650 million,<a class=3D"footnote-index" href=3D"#footnote-6" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: none !important; backgro=
+und-color: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0and Sculptor is a business that pays its chief investment officer=
+ something like $100 million per year. If you could buy the company,=C2=A0f=
+ire him and make yourself the boss of Sculptor, then=C2=A0<em>you=C2=A0</em=
+>could take that $100 million a year for yourself. That=E2=80=99s like a 15=
+% annual return on your investment right there, even assuming that you can=
+=E2=80=99t grow assets or improve performance or save money by firing anyon=
+e else. That=E2=80=99s pretty good. It is not quite the schematic math that=
+ I began with =E2=80=94=C2=A0=E2=80=9Cbuy all the shares for $0, then make =
+yourself CEO and collect all the fees=E2=80=9D =E2=80=94=C2=A0but it is rel=
+ated.</p>
+<p style=3D"margin: 16px 0;">Now, there is a flaw in that math. The flaw is=
+ that Sculptor=E2=80=99s future fee income depends on its clients continuin=
+g to be clients; much of Sculptor=E2=80=99s money is redeemable without too=
+ much notice, so if all the clients are dissatisfied with the new CEO then =
+they will leave and the new CEO won=E2=80=99t get any money. If=C2=A0<em>I=
+=C2=A0</em>somehow borrowed $650 million to buy Sculptor and made myself CE=
+O, presumably all the clients would leave immediately and my investment wou=
+ld be worth $0. And for a lot of plausible buyers of Sculptor =E2=80=94=C2=
+=A0certainly for Rithm, which is not really in the hedge-fund business =E2=
+=80=94=C2=A0the only way to buy Sculptor and get value out of it is by reta=
+ining Levin and his senior management team to keep clients happy and keep m=
+aking money.</p>
+<p style=3D"margin: 16px 0;">But that is the genius of the Weinstein plan:=
+=C2=A0Boaz Weinstein is a hedge fund manager! But also Bill Ackman is a hed=
+ge fund manager, and Marc Lasry, and there might be others involved.<a clas=
+s=3D"footnote-index" href=3D"#footnote-7" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: none !important; background-color: transparent =
+!important; display: inline-block;">
+<span>[7]</span>
+</a>=C2=A0Surely=C2=A0<em>between=C2=A0</em>them (1) they could run a hedge=
+ fund and (2) they could mollify Sculptor=E2=80=99s clients. =E2=80=9CI lik=
+e Jimmy Levin, but I also like Bill Ackman, so it=E2=80=99s fine,=E2=80=9D =
+some clients might say, and others might not love Ackman but are pretty fon=
+d of Weinstein, etc.; with enough names on the list surely most clients wil=
+l find=C2=A0<em>someone=C2=A0</em>they like.</p>
+<p style=3D"margin: 16px 0;">Or not, I mean, nothing is guaranteed, and the=
+ takeover sure would be=C2=A0<em>weird</em>. Weinstein=E2=80=99s firm, Saba=
+ Capital Management, was one of the 70 bidders that Sculptor talked to befo=
+re signing a deal with Rithm (it is referred to as =E2=80=9CBidder J=E2=80=
+=9D in the proxy statement<a class=3D"footnote-index" href=3D"#footnote-8" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: none !importan=
+t; background-color: transparent !important; display: inline-block;">
+<span>[8]</span>
+</a>), and Sculptor preferred Rithm in part for financing certainty but als=
+o in part for client-retention certainty. Any buyer of Sculptor would want =
+the deal to be conditional on some number of clients giving their consent t=
+o the deal: If all the clients flee immediately, then Sculptor isn=E2=80=99=
+t worth buying. Rithm has an 85% client consent condition in its deal, and =
+Saba initially asked for 75%. That sounds like Saba=E2=80=99s offer would b=
+e more certain than Rithm=E2=80=99s (with a lower client consent threshold)=
+, but Rithm would retain Levin and Saba more or less wouldn=E2=80=99t, and =
+the board got nervous. From <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/32488619.288425/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kY=
+XRhLzE0MDMyNTYvMDAwMTE0MDM2MTIzMDQwNTk1L255MjAwMDk5Mzl4MV9wcmVtMTRhLmh0bSN0=
+Qk0/607f07ceef4b8524a319a23cB8b66d4ec" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> the proxy</a> for the Rithm=
+ deal<a class=3D"footnote-index" href=3D"#footnote-9" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: none !important; background-color: =
+transparent !important; display: inline-block;">
+<span>[9]</span>
+</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">It was discussed that the transaction proposed=
+ by Bidder J may make client consent more difficult to obtain because Bidde=
+r J had indicated its intent to not have Mr.=C2=A0Levin (considered a =E2=
+=80=9Ckey man=E2=80=9D under certain client arrangements) continue in a lon=
+g-term role at the Company following the closing of the potential transacti=
+on, and instead Bidder J intended that the Company=E2=80=99s investment fun=
+ction would be overseen by an =E2=80=9COffice of the CIO=E2=80=9D which wou=
+ld include (without limitation) representatives of Bidder J and certain thi=
+rd parties that had no affiliation with the Company but would be selected a=
+nd hired by Bidder J. As such it was discussed that the client consent cond=
+ition as currently proposed by Bidder J =E2=80=94 while similar to the one =
+negotiated with Rithm =E2=80=94 may be more difficult for the Company to sa=
+tisfy. ...</p>
+<p style=3D"margin: 16px 0;">The Company=E2=80=99s management conveyed its =
+view that, given Bidder J=E2=80=99s stated post-closing business plans, ...=
+=C2=A0the Company=E2=80=99s management remained concerned about its ability=
+ to retain current key employees, and the likelihood of achieving the clien=
+t consent condition.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Och, in <a href=3D"https://link.mail.bloomberg=
+business.com/click/32488619.288425/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9l=
+ZGdhci9kYXRhLzE0MDMyNTYvMDAwMTE5MzEyNTIzMjE4MDE4L2Q1MDk2NDhkZXg5OTI5Lmh0bQ/=
+607f07ceef4b8524a319a23cC29ede13c" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> his letter yesterday</a>, scoff=
+s at this excuse:</p>
+<blockquote><p style=3D"margin: 16px 0;">The Special Committee summarily co=
+ncluded that the bidders who did not wish to retain Mr.=C2=A0Levin would be=
+ unable to obtain client consents to the transaction. But there is no indic=
+ation that the Special Committee took any steps to test this hypothesis or =
+to reduce the client-consent contingency necessary for the transaction (and=
+ thereby put any such consent risk on the bidder). Instead, they used this =
+=E2=80=9Ckey man=E2=80=9D issue as an excuse to defer to Mr. Levin=E2=80=99=
+s interests.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">He also complains that Rithm reduced its price=
+ because of the expense of paying Sculptor=E2=80=99s managers:</p>
+<blockquote><p style=3D"margin: 16px 0;">The Special Committee=E2=80=99s de=
+fense of management=E2=80=99s interests came directly at the expense of the=
+ stockholders. Rithm itself initially agreed to offer $12 a share to the Cl=
+ass A stockholders, but revised its offer down a full dollar, because =E2=
+=80=9Cit would need to spend more money than anticipated in the form of a l=
+ong-term incentive plan and retention plan for the Company=E2=80=99s senior=
+ leadership.=E2=80=9D=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">It=E2=80=99s all pretty=C2=A0odd. For one thin=
+g, if Weinstein and Ackman and Lasry think =E2=80=9Cwe would do a better jo=
+b of running this $30 billion of assets than Jimmy Levin does, and clients =
+would like us more,=E2=80=9D then it=E2=80=99s not clear that their=C2=A0<e=
+m>best=C2=A0</em>move is to pay $650 million to buy Sculptor. Arguably thei=
+r best move is just to call up the clients and say =E2=80=9Chey, if you pre=
+fer me to Jimmy Levin, why don=E2=80=99t you take your money out of Sculpto=
+r and put it in my fund instead?=E2=80=9D If your thesis is =E2=80=9CSculpt=
+or=E2=80=99s clients are so sick of Sculptor that they=E2=80=99d love to ha=
+ve their money managed by Boaz Weinstein instead,=E2=80=9D you can just off=
+er the=C2=A0<em>clients=C2=A0</em>that deal without=C2=A0<em>buying Sculpto=
+r</em>. I suppose it is hard to get $30 billion of client assets all at onc=
+e, and paying $650 million for them is arguably a bargain;=C2=A0also some o=
+f Sculptor=E2=80=99s businesses would continue to be run by its professiona=
+ls rather than the Weinstein group. (Also, <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMj=
+AyMi8wMy8zMC9idXNpbmVzcy9kZWFsYm9vay9hY2ttYW4tc2hhcmVob2xkZXItYWN0aXZpc20ua=
+HRtbA/607f07ceef4b8524a319a23cBb42d8cf9" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Ackman</a> and <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/aHR0cHM6L=
+y93d3cud3NqLmNvbS9maW5hbmNlL2ludmVzdGluZy9ibGFja3JvY2stY2xhc2hlcy13aXRoLWhl=
+ZGdlLWZ1bmQtZ2lhbnQtb3Zlci1jb250cm9sLW9mLWZ1bmRzLTE1YzAwYTI/607f07ceef4b852=
+4a319a23cB38ef6161" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Weinstein</a> have done a fair amount of hed=
+ge-fund activism in their time, and if you even partly believe my schematic=
+ math then this is a very tempting=C2=A0<em>activist=C2=A0</em>situation: =
+=E2=80=9CThis company is undervalued because management is too entrenched, =
+so if we buy it and fire management there=E2=80=99s money to be made.)</p>
+<p style=3D"margin: 16px 0;">Also it is very fun that the Weinstein group w=
+ould buy Sculptor in their <em>personal=C2=A0</em>accounts? Weinstein, Ackm=
+an and Lasry=C2=A0all run hedge fund management firms themselves (Saba Capi=
+tal Management, Pershing Square Capital Management, Avenue Capital Group), =
+but those firms are not, separately or together, offering to buy Sculptor.<=
+a class=3D"footnote-index" href=3D"#footnote-10" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: none !important; background-color: trans=
+parent !important; display: inline-block;">
+<span>[10]</span>
+</a> Instead, they are offering to buy Sculptor in their personal accounts.=
+ Like, their day jobs are managing hedge funds, and then as a hobby they wi=
+ll form a sort of hedge-fund-manager supergroup and manage another hedge fu=
+nd for fun. There are regulatory complications with a hedge-fund firm buyin=
+g another hedge-fund firm; buying it in your personal account is easier, th=
+ough I suppose there are conflict questions there too. (If you see a good i=
+nvestment idea in your role at the Sculptor =E2=80=9COffice of CIO,=E2=80=
+=9D can you bring it to your day job?)</p>
+<p style=3D"margin: 16px 0;">Really, though, wouldn=E2=80=99t you <em>want<=
+/em>=C2=A0to do this? If you are a confident successful hedge fund manager,=
+ and you had the chance to get together with your hedge fund manager friend=
+s and=C2=A0<em>buy=C2=A0</em>a rival hedge fund manager=E2=80=99s firm out =
+from under him, for fairly cheap, wouldn=E2=80=99t you do it? It seems to m=
+e to make economic sense as a trade, but also how much fun is that? =E2=80=
+=9CWe are willing to bet $650 million that we can do a better job for your =
+clients than you can, and that=E2=80=99s the price tag, so bye!=E2=80=9D</p=
+>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjQ4ODYxOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI3NzcwNDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC67956943" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32488619&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32777044&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjQ4ODYxOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI3NzcwNDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD67956943" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32488619&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32777044&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">X</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Elsewhere in <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmV=
+zcy91LXMtc3RlZWwtdW5pdGVkLXN0ZWVsd29ya2Vycy1zcXVhcmUtb2ZmLW9uLXRha2VvdmVyLT=
+k0ZGJiZDIw/607f07ceef4b8524a319a23cB26bcfff0" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> weird M&amp;A situat=
+ions</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">United States Steel and the United Steelworker=
+s union are at odds over the union=E2=80=99s influence as the steelmaker co=
+nsiders acquisition bids.</p>
+<p style=3D"margin: 16px 0;">The union, which represents about 11,000 hourl=
+y production workers at U.S. Steel, is backing rival steelmaker Cleveland-C=
+liffs=E2=80=99 attempt to buy the company. U.S. Steel is pushing back, sayi=
+ng its contract with USW doesn=E2=80=99t give the union a veto vote over an=
+y potential deal for the 122-year-old company.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Pittsburgh-based U.S. Steel said on Aug. 13 th=
+at the company is considering multiple offers for all or part of its busine=
+ss. Alongside Cleveland-Cliffs, industrial conglomerate Esmark has also ann=
+ounced a bid for U.S. Steel, which is one of the four big steelmakers that =
+supply the auto industry, the construction sector and other manufacturers.<=
+/p>
+</blockquote>
+<p style=3D"margin: 16px 0;">You can read=C2=A0Cleveland-Cliffs=E2=80=99 ve=
+ry confident <a href=3D"https://link.mail.bloombergbusiness.com/click/32488=
+619.288425/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzc2NDA2NS8w=
+MDAwNzY0MDY1MjMwMDAxNDEvYTIwMjMwODE3LTQyNXhwcmVzc3JlbGVhc2UuaHRt/607f07ceef=
+4b8524a319a23cBfbcc83cb" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> press release</a> about the union=E2=80=
+=99s backing here, saying =E2=80=9Cwith this exclusive assignment, Cliffs i=
+s the only realistic buyer able to acquire the totality of U.S. Steel.=E2=
+=80=9D You can read US Steel=E2=80=99s view of the matter <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3cuc2V=
+jLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTE2MzMwMi8wMDAxMTA0NjU5MjMwOT=
+I5MTEvdG0yMzIzOTE5ZDFfOGsuaHRt/607f07ceef4b8524a319a23cBc5a16e48" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ here</a> and <a href=3D"https://link.mail.bloombergbusiness.com/click/3248=
+8619.288425/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGE=
+vMTE2MzMwMi8wMDAxMTYzMzAyMjMwMDAwODUveC0yMDIzMDgyMi5odG0/607f07ceef4b8524a3=
+19a23cC371eefcf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> here</a>, along with a slide <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3cuc2VjLm=
+dvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzExNjMzMDIvMDAwMTEwNDY1OTIzMDkyOTExL3RtMjMyM=
+zkxOWQxX2V4OTktMi5odG0/607f07ceef4b8524a319a23cB4cca6dc0" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> here</a>=
+ saying that =E2=80=9Cthe Basic Labor Agreement (=E2=80=98BLA=E2=80=99) wit=
+h the United Steelworkers labor union (=E2=80=98USW=E2=80=99) does not prov=
+ide a right to veto any transaction that may result from this review.=E2=80=
+=9D (The BLA is <a href=3D"https://link.mail.bloombergbusiness.com/click/32=
+488619.288425/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzExNjMzM=
+DIvMDAwMTEwNDY1OTIzMDkyOTExL3RtMjMyMzkxOWQxX2V4OTktMS5odG0/607f07ceef4b8524=
+a319a23cB4ea47be3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> here</a>.) It seems to me that US Steel is clea=
+rly right =E2=80=94=C2=A0there=E2=80=99s no veto right =E2=80=94=C2=A0but t=
+he union does have some power. Specifically:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Any buyer of the whole company has to=
+ recognize the USW union and assume US Steel=E2=80=99s agreements with it, =
+including the labor agreement that US Steel signed last year. (But the buye=
+r can do this unilaterally; the USW can=E2=80=99t say no to the assumption.=
+)</li>=09<li style=3D"margin-bottom: 5px;">The union has a =E2=80=9Cright t=
+o bid=E2=80=9D: If anyone makes an offer to buy US Steel, the company has t=
+o tell the USW and give it 45 days to match the offer. But after that, =E2=
+=80=9Cthe Company shall not be under any obligation to accept such offer=E2=
+=80=9D from the USW: It just can=E2=80=99t sell to anyone else =E2=80=9Cunl=
+ess that transaction is superior to the USW offer.=E2=80=9D But if the USW =
+offers $32 and someone else offers $35, US Steel can take the higher bid.<a=
+ class=3D"footnote-index" href=3D"#footnote-11" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: none !important; background-color: transp=
+arent !important; display: inline-block;">
+<span>[11]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">The union can=C2=A0assign<em>=C2=
+=A0</em>that right to bid to someone else, which is what it did with Clevel=
+and-Cliffs: Now Cleveland-Cliffs effectively owns the union=E2=80=99s right=
+ to bid.</li>
+</ol>
+<p style=3D"margin: 16px 0;">So this does not actually make Cleveland-Cliff=
+s =E2=80=9Cthe only realistic buyer=E2=80=9D: If Cleveland-Cliffs offers $3=
+5 and Esmark offers $40, then Esmark wins. That said, the assignment does g=
+ive Cleveland-Cliffs some big advantages. For one thing, if you are buying =
+a big unionized company, it is probably better to have the union on your si=
+de; anyone else is going to be a bit more nervous about labor relations tha=
+n Cleveland-Cliffs is, which might be reflected in price.</p>
+<p style=3D"margin: 16px 0;">Also Cleveland-Cliffs just has the ability to=
+=C2=A0<em>annoy=C2=A0</em>US Steel about the process, which is worth someth=
+ing. Yesterday it <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+32488619.288425/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzc2NDA=
+2NS8wMDAwNzY0MDY1MjMwMDAxNDYvYTIwMjMwODIyOC1rNDI1Lmh0bQ/607f07ceef4b8524a31=
+9a23cBb755aa04" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> sent US Steel a letter</a> complaining that (1) it=
+ has the right to be notified of any bids for the company, (2) there sure s=
+eem to be bids=C2=A0and (3) it hasn=E2=80=99t been notified yet:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Right to Bid provision requires USS to pro=
+mptly notify Cliffs =E2=80=94=C2=A0as the assignee =E2=80=94=C2=A0of any pr=
+oposal received for =E2=80=9Cany possible transaction=E2=80=9D to sell a co=
+ntrolling interest in the Company. =E2=80=A6=C2=A0</p>
+<p style=3D"margin: 16px 0;">USS has publicly indicated on multiple occasio=
+ns, including in two press releases on August 13, 2023, that it had indeed =
+received =E2=80=9Cmultiple unsolicited proposals that ranged from the acqui=
+sition of certain production assets to consideration for the whole Company.=
+=E2=80=9D It is interesting to note that, today, in your letter to the Comp=
+any=E2=80=99s employees, =E2=80=A6=C2=A0you referred to these other proposa=
+ls as =E2=80=9Cinquiries=E2=80=9D for the first time. Regardless, to date, =
+neither the USW nor Cliffs has received any notice of such proposals or =E2=
+=80=9Cinquiries.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">USS must immediately either (a) provide Cliffs=
+ and the USW with the required notice of all proposals that have already be=
+en received; or (b) if USS has not in fact received any proposals, correct =
+its prior public statements.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Not a veto right, not an exclusive bidding rig=
+ht, but you can see how that might deter other bidders.</p>
+<p style=3D"margin: 16px 0;">Also by the way here is <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3cuYnVzaW5l=
+c3N3aXJlLmNvbS9uZXdzL2hvbWUvMjAyMzA4MTQwMTk3MjgvZW4vRXNtYXJrLUluYy4tQW5ub3V=
+uY2VzLUFsbC1DYXNoLVB1YmxpYy1PZmZlci1mb3ItVS5TLi1TdGVlbC1TaGFyZXM/607f07ceef=
+4b8524a319a23cB3b6e860f" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> Esmark=E2=80=99s announcement of its bid<=
+/a>=C2=A0last week, which is kind of wild? Esmark Inc. is a private company=
+ owned and run by James Bouchard, and this is just odd language:</p>
+<blockquote><p style=3D"margin: 16px 0;">Esmark, Inc. announced today a vol=
+untary public cash and exchange offer for all issued and outstanding shares=
+ in U.S. Steel Corporation (NYSE: X) (=E2=80=9CU.S. Steel=E2=80=9D) for $35=
+ USD per share. The initial offer period runs from August 14, 2023, to Nove=
+mber 30, 2023, and may be extended. Completion of the Offer is expected in =
+Q4 2023, subject to regulatory and antitrust clearances.</p></blockquote>
+<p style=3D"margin: 16px 0;">That=C2=A0<em>sounds=C2=A0</em>like Esmark was=
+ announcing a tender offer, but as far as I can tell it wasn=E2=80=99t; the=
+re is <a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288=
+425/aHR0cHM6Ly93d3cuc2VjLmdvdi9jZ2ktYmluL2Jyb3dzZS1lZGdhcj9jb21wYW55PSZDSUs=
+9eCZmaWxlbnVtPSZTdGF0ZT0mU0lDPSZvd25lcj1leGNsdWRlJmFjdGlvbj1nZXRjb21wYW55/6=
+07f07ceef4b8524a319a23cB2c03119b" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> no tender offer document</a> fil=
+ed with the US Securities and Exchange Commission. Also what is a =E2=80=9C=
+voluntary public cash and exchange offer=E2=80=9D? Here is a <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3cu=
+d3NqLmNvbS9idXNpbmVzcy93aG8taXMtdGhlLW1vZ3VsLWJpZGRpbmctZm9yLXUtcy1zdGVlbC0=
+3MWNkMDM3Yz9tb2Q9aHBfbGVhZF9wb3M1/607f07ceef4b8524a319a23cB4827399e" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Wall Street Journal profile</a> of Bouchard that (1) makes it seem like =
+he probably has the money but (2) also includes this:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">After amassing his own fortune through acquiri=
+ng companies in the steel business and other industries, the 62-year-old in=
+vestor has made a bold offer to buy United States Steel for about $7.8 bill=
+ion.=C2=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe have the cash,=E2=80=9D he said. B=
+ouchard said he has $10 billion set aside for the acquisition. He said the =
+industrial conglomerate he leads, Esmark, is debt free and that he doesn=E2=
+=80=99t intend to borrow money against it to buy U.S. Steel.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If you are trying to figure out if a potential=
+ buyer of a $7.8 billion company can actually pay for it, him saying =E2=80=
+=9Cwe have the cash=E2=80=9D to a reporter is =E2=80=A6=C2=A0almost a negat=
+ive?=C2=A0</p>
+<p style=3D"margin: 16px 0;">Anyway if I were US Steel I=E2=80=99d be tryin=
+g to get a bid from Elon Musk? We know that he will impulsively overpay for=
+ companies, he probably has some use for steel, and most important he is ob=
+sessed with the letter =E2=80=9CX.=E2=80=9D=C2=A0US Steel=E2=80=99s stock-e=
+xchange ticker is X. You don=E2=80=99t get that ticker every day; surely it=
+=E2=80=99s worth $10 billion to Musk.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">People are worried about stock buybacks</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">When I was an investment banker, ages ago, par=
+t of my job was to pitch stock buybacks to companies. Part of this pitch in=
+volved comparing buybacks to dividends, the other way that companies common=
+ly return cash to shareholders. For=C2=A0<em>me</em>, the advantage of buyb=
+acks was obvious: A buyback requires hiring a bank and paying it a commissi=
+on,<a class=3D"footnote-index" href=3D"#footnote-12" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: none !important; background-color: t=
+ransparent !important; display: inline-block;">
+<span>[12]</span>
+</a>=C2=A0so I could make money from buybacks but not from dividends. The=
+=C2=A0<em>pitch=C2=A0</em>did not highlight=C2=A0that.</p>
+<p style=3D"margin: 16px 0;">Instead the pitch to companies focused mostly =
+on the advantages of buybacks to=C2=A0<em>shareholders</em>.<a class=3D"foo=
+tnote-index" href=3D"#footnote-13" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: none !important; background-color: transparent !import=
+ant; display: inline-block;">
+<span>[13]</span>
+</a> The main one is that, in the US, a buyback is much more=C2=A0<em>tax-e=
+fficient </em>than a dividend. With a dividend, every shareholder gets paid=
+ cash, and every (taxable) shareholder pays taxes on the full amount of cas=
+h. (Generally the tax rate is <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32488619.288425/aHR0cHM6Ly93d3cuZm9vbC5jb20vaW52ZXN0aW5nL3N0b2N=
+rLW1hcmtldC90eXBlcy1vZi1zdG9ja3MvZGl2aWRlbmQtc3RvY2tzL2hvdy1kaXZpZGVuZHMtdG=
+F4ZWQv/607f07ceef4b8524a319a23cB5bafadbe" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> 15% or 20%</a>.) With a=
+ buyback, shareholders can choose to get cash (by selling into the buyback)=
+ or not (by keeping their shares). If they keep their shares, they pay no t=
+ax (now): The value of their shares (hopefully) goes up due to the buyback,=
+ but they have no realized income. If they sell, they do pay tax (again gen=
+erally 15% or 20%), but only on their=C2=A0<em>gain</em>, not on the entire=
+ amount of cash they receive.</p>
+<p style=3D"margin: 16px 0;">I have never been entirely sure how effective =
+a pitch that is: A lot of shareholders (401k investors, endowments, etc.) a=
+re tax-exempt, and a lot of investment managers seem to measure their perfo=
+rmance mostly on pretax rather than after-tax returns, so maybe companies d=
+on=E2=80=99t (and shouldn=E2=80=99t) care about saving their shareholders t=
+axes. On the other hand corporate=C2=A0<em>executives=C2=A0</em>tend to (1)=
+ own a lot of stock and (2) be sensitive to taxes, so <em>they</em> like th=
+e tax efficiency of buybacks.</p>
+<p style=3D"margin: 16px 0;">Anyway now there is a 1% excise tax on share b=
+uybacks in the US, and <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/32488619.288425/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9uZXctdS1zLWJ1eW=
+JhY2stdGF4LWhpdHMtY29tcGFuaWVzLXdpdGgtMy01LWJpbGxpb24tYnVyZGVuLTQ1MmMxZjkzP=
+21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cBe7794371" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> the=
+ Wall Street Journal reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A new 1% tax on stock buybacks is starting to =
+increase companies=E2=80=99 anticipated tax burdens, to the tune of over $3=
+.5 billion in the first half of the year among the largest U.S. public comp=
+anies.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Businesses in recent weeks have disclosed what=
+ they are expecting their tax bills for share repurchases to be for the fir=
+st half of the year, offering a first glimpse at the levy=E2=80=99s midyear=
+ impact on their financials. Booking Holdings estimates a tax liability of =
+$47 million for the six months ended June 30, according to a regulatory fil=
+ing. PayPal anticipates a $24 million bill tied to buybacks for that period=
+, while MetLife expects a tax hit of $13 million.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The tax, which went into effect Jan. 1, is set=
+ to cost S&amp;P 500 companies $1.6 billion in the second quarter, accordin=
+g to preliminary data from S&amp;P Dow Jones Indices, a unit of ratings fir=
+m S&amp;P Global. ...</p>
+<p style=3D"margin: 16px 0;">Despite the higher tax obligations, companies =
+are largely shrugging off the tax. From April through June, S&amp;P 500 com=
+panies are expected to spend around $169 billion on stock buybacks, down ab=
+out 20% from both the first quarter of this year and from a year ago, the p=
+reliminary S&amp;P data show.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The math there is $169 billion of buybacks, 1%=
+ tax, $1.6 billion of taxes.<a class=3D"footnote-index" href=3D"#footnote-1=
+4" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: none !impor=
+tant; background-color: transparent !important; display: inline-block;">
+<span>[14]</span>
+</a>=C2=A0If companies did $169 billion of dividends instead, there=E2=80=
+=99d be =E2=80=A6=C2=A0not $33.8 billion of taxes to pay (20% of $169 billi=
+on), because some shareholders are not taxable or pay lower rates than 20%,=
+ but a lot more than $1.6 billion anyway.<a class=3D"footnote-index" href=
+=3D"#footnote-15" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[15]</span>
+</a>=C2=A0Buybacks are more expensive than they used to be, but still a tax=
+ bargain compared to dividends.</p>
+<p style=3D"margin: 16px 0;">By the way, this is a thing I did not know abo=
+ut the buyback tax:</p>
+<blockquote><p style=3D"margin: 16px 0;">The 1% tax=E2=80=94which was a las=
+t-minute addition to the climate, health and tax law known as the Inflation=
+ Reduction Act passed last year=E2=80=94is levied on net buybacks, meaning =
+total shares repurchased minus new shares issued during the year.</p></bloc=
+kquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/32488619.288425/aHR0cHM6Ly91c2NvZGUuaG91c2UuZ292L3ZpZXcu=
+eGh0bWw_cmVxPSh0aXRsZToyNiUyMHNlY3Rpb246NDUwMSUyMGVkaXRpb246cHJlbGltKQ/607f=
+07ceef4b8524a319a23cB56ac8d9d" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> the statutory text</a>; section 450=
+1(b)(3) says that the taxable amount of buybacks =E2=80=9Cshall be reduced =
+by the fair market value of any stock issued by the covered corporation dur=
+ing the taxable year, including the fair market value of any stock issued o=
+r provided to employees.=E2=80=9D One <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/32488619.288425/aHR0cHM6Ly9oYnIub3JnLzIwMTQvMDkvcHJvZml=
+0cy13aXRob3V0LXByb3NwZXJpdHk/607f07ceef4b8524a319a23cB8ad76fb2" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> co=
+mplaint</a> that people sometimes <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32488619.288425/aHR0cHM6Ly9jb3JwZ292Lmxhdy5oYXJ2YXJkLmVkdS8=
+yMDE5LzEwLzMwL2RpbHV0aW9uLWRpc2Nsb3N1cmUtZXF1aXR5LWNvbXBlbnNhdGlvbi1hbmQtYn=
+V5YmFja3Mv/607f07ceef4b8524a319a23cB4a700d42" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> have</a> about stock=
+ buybacks is that they are a way to sort of disguise executive compensation=
+: A company=C2=A0pays its executives $100 million worth of stock, then it b=
+uys back $100 million worth of stock to avoid the dilutive impact of those =
+payments. I have never found this complaint that compelling (it=E2=80=99s n=
+ot=C2=A0<em>disguised=C2=A0</em>executive compensation; this is all disclos=
+ed), but some people do, and if you do I guess you should be dissatisfied w=
+ith the buyback tax. It specifically exempts buybacks that are used to offs=
+et stock-based compensation.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32488619.288425/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDgtMjMvYmFuay1vZi1hbWVyaWNhLXRyYWRpbmctZGVza3MtZ2Fpbi1ncm91bmQ=
+td2l0aC1tb3JlLWNhcGl0YWwtaGVhZGNvdW50P2NtcGlkPUJCRDA4MjMyM19NT05FWVNUVUZGJn=
+V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgyMyZ1d=
+G1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb1c737d6" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Bank of America</a> Trading Desks Gain Ground With More Capital, Headcount=
+. Goldman Is Cracking Down on Employees That Aren't in Office <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMjIvZ29sZG1hbi1zYWNocy1wcm=
+Vzc3VyZXMtc3RhZmYtdG8tcmV0dXJuLXRvLW9mZmljZS01LWRheXMtYS13ZWVrP2NtcGlkPUJCR=
+DA4MjMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVy=
+JnV0bV90ZXJtPTIzMDgyMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319=
+a23cBd5dec666" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  Five Days a Week</a>. Private equity firms hand ov=
+er <a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425=
+/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYjFiYjgzNTktNTRjMC00ODNlLWFkMzYtNGM2Nm=
+ZkY2YxZjM1/607f07ceef4b8524a319a23cB0d0aef28" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> distressed companies=
+</a> to rivals. Wall Street=E2=80=99s <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL3N=
+0b2Nrcy93YWxsLXN0cmVldHMtY2hpbmEtZHJlYW1zLXNsaXAtYXdheS1mNjhhYzcwOD9tb2Q9aH=
+BfbGVhZF9wb3Mx/607f07ceef4b8524a319a23cB22d2e6ae" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> China Dreams</a>=
+ Slip Away. Morgan Stanley Fined for UK Energy Trading <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMjMvbW9yZ2FuLXN0YW5sZXktZmluZWQtZ=
+m9yLXVrLWVuZXJneS10cmFkaW5nLXdoYXRzYXBwLWJyZWFjaD9jbXBpZD1CQkQwODIzMjNfTU9O=
+RVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0=
+yMzA4MjMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9e7fdbc8"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">  WhatsApp Breach</a>.=C2=A0Allocators Aren=E2=80=99t Happy With t=
+he <a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425=
+/aHR0cHM6Ly93d3cuaW5zdGl0dXRpb25hbGludmVzdG9yLmNvbS9hcnRpY2xlLzJjMmZ2ZnlwbW=
+xteXk5azd6am81Yy9jb3JuZXItb2ZmaWNlL2FsbG9jYXRvcnMtYXJlbnQtaGFwcHktd2l0aC10a=
+GUtbmF2LWxlbmRpbmctY3JhemU/607f07ceef4b8524a319a23cB327c4d76" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> NAV =
+Lending</a> Craze. Europe poised for arrival of <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3cuZnQuY29tL2Nvb=
+nRlbnQvMDNhZmY1ZWEtYjZmZi00NDk0LTgzZTQtYjM4NjI4ODdmMzk5/607f07ceef4b8524a31=
+9a23cBfac1f65d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> =E2=80=98zero-day=E2=80=99 options</a>. <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/32488619.288425/aHR0cHM6Ly93=
+d3cud3NqLmNvbS9maW5hbmNlL2JpbmFuY2UtY3J5cHRvY3VycmVuY3ktcnVzc2lhLXNhbmN0aW9=
+ucy1kZGI5NDhjMw/607f07ceef4b8524a319a23cBaf05fd35" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> Binance</a>, th=
+e Biggest Player in Crypto, Is Facing Legal Risks Over Russia.=C2=A0Ex-Open=
+Sea Employee Sentenced to Three Months in First <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3cud3NqLmNvbS9ma=
+W5hbmNlL2V4LW9wZW5zZWEtZW1wbG95ZWUtc2VudGVuY2VkLXRvLXRocmVlLW1vbnRocy1pbi1m=
+aXJzdC1uZnQtaW5zaWRlci10cmFkaW5nLWNhc2UtYzU1ODczMjM_bW9kPWhwX2xpc3RiX3BvczQ=
+/607f07ceef4b8524a319a23cBd4ec4213" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> NFT Insider-Trading Case</a>.=
+=C2=A0=E2=80=98Everybody Else Left or They Died:=E2=80=99 <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/32488619.288425/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMjMvZWFzdC13ZXN0LWJhbmNvcnAtaX=
+MtYmlnZ2VzdC1jYWxpZm9ybmlhLWJhbmstYWZ0ZXItc3ZiLWZyYy1mYWxsP2NtcGlkPUJCRDA4M=
+jMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIzMDgyMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+B9e5274d8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">  California Bank</a> Grows Simply by Surviving. Do Corp=
+orations Care about <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/32488619.288425/aHR0cHM6Ly9jbHNibHVlc2t5Lmxhdy5jb2x1bWJpYS5lZHUvMjAyMy8wO=
+C8yMy9kby1jb3Jwb3JhdGlvbnMtY2FyZS1hYm91dC1lc2ctcmF0aW5ncy8/607f07ceef4b8524=
+a319a23cB765816bc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> ESG Ratings</a>?Bots Are Better than Humans at =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/aH=
+R0cHM6Ly93d3cuc2NobmVpZXIuY29tL2Jsb2cvYXJjaGl2ZXMvMjAyMy8wOC9ib3RzLWFyZS1iZ=
+XR0ZXItdGhhbi1odW1hbnMtYXQtc29sdmluZy1jYXB0Y2hhcy5odG1s/607f07ceef4b8524a31=
+9a23cB75398570" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> Solving CAPTCHAs</a>. Disgraced ex-Suffolk County =
+police chief who botched Gilgo Beach case and <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/32488619.288425/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjM=
+vMDgvMjIvZGlzZ3JhY2VkLWZvcm1lci1wb2xpY2UtY2hpZWYtamFtZXMtYnVya2UtYXJyZXN0ZW=
+QtZm9yLWFsbGVnZWRseS1zb2xpY2l0aW5nLWEtcHJvc3RpdHV0ZS8/607f07ceef4b8524a319a=
+23cBb61d68c0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> beat up porn thief</a> accused of soliciting sex =E2=
+=80=94 at 10 a.m.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32488619.288425/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBe00d8923" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32488619.288425/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB48eedf29" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Not to spoil it or anything =E2=80=94 it=
+=E2=80=99s in the title =E2=80=94 but this is going to be about Sculptor Ca=
+pital Management. Jimmy Levin, Sculptor=E2=80=99s chief executive officer a=
+nd chief investment officer, <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32488619.288425/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVz=
+L2VkZ2FyL2RhdGEvMTQwMzI1Ni8wMDAxNDAzMjU2MjMwMDAwNzMvc2N1LTIwMjMwNDI4Lmh0bSN=
+pNTdjZTBkNDViYjRiNDZhMDhjMDRkNTYzOTNiYjIzODNfOTE/607f07ceef4b8524a319a23cB9=
+77af602" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">owns about 14%</a> of the company. He has about 22% voting=
+ power, due to ownership of Class B shares that have votes but no economic =
+rights.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] And this might be justified! You are compe=
+ting for clients=E2=80=99 dollars with other hedge funds, so you need to hi=
+re a good hedge fund manager to make the clients money, and good hedge fund=
+ managers are expensive.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Crudely, if you take the compensation and =
+benefits line of <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+2488619.288425/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2Rh=
+dGEvMTQwMzI1Ni8wMDAxNDAzMjU2MjMwMDAwNTEvc2N1LTIwMjIxMjMxLmh0bSNpNDFmODQyNDI=
+yMjY5NDc0NWJhY2M1NzFjYmQxZWZiMjVfMzE/607f07ceef4b8524a319a23cC4992fadf" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">Sculptor=E2=80=99s income statement</a> and divide it by the sum of ma=
+nagement fees and incentive income, you get ratios from 46% in 2020 up to 8=
+0% in 2022. The intuition here might be something like =E2=80=9Cin good yea=
+rs, the employees get about half of the fees and the shareholders get the o=
+ther half, but in bad years, the employees still need to be paid like hedge=
+ fund managers, so they get like 80% of the fees.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] This is to some extent true of all public =
+companies, and a general reason for activism and hostile takeovers is =E2=
+=80=9Cthe CEO is overpaid and underperforming.=E2=80=9D Hedge funds are jus=
+t an extreme case because their costs are almost entirely personnel, and no=
+t that *many* personnel.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] I should say that this is Och=E2=80=99s pu=
+blic position, but Sculptor argues that he is in fact not aligned with publ=
+ic shareholders because of his particular tax arrangements with Sculptor. I=
+n particular, during its sale process, Sculptor got a higher bid (from =E2=
+=80=9CBidder D=E2=80=9D), and entered into exclusive negotiations with that=
+ bidder, but that bidder wanted approval from Och to go forward with a deal=
+, and Och apparently didn=E2=80=99t give it. Sculptor suggests =E2=80=94 se=
+e <a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/=
+aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MDMyNTYvMDAwMTE0MDM=
+2MTIzMDQwNTk1L255MjAwMDk5Mzl4MV9wcmVtMTRhLmh0bSN0Qk0/607f07ceef4b8524a319a2=
+3cC8b66d4ec" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">page 51 of the proxy</a>, particularly footnote 6 =E2=
+=80=94 that this was because Bidder D wouldn=E2=80=99t give Och all of the =
+tax benefits he wanted. (He doesn=E2=80=99t like the Rithm deal *more* than=
+ the Bidder D one; it=E2=80=99s just that Rithm was willing to go forward w=
+ithout Och=E2=80=99s approval.)</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] More strictly, anyone with enough money ca=
+n put in a fully financed, minimally conditioned bid to buy Sculptor for so=
+me price above $11.15, which will force the board to negotiate with them, a=
+nd if they end up with the highest price they will can buy Sculptor by payi=
+ng (1) whatever price they agreed to pay (something like $650 million or so=
+) plus (2) a $16.6 million termination fee to Rithm, which does already hav=
+e a signed deal.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/32488619.288425/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdh=
+ci9kYXRhLzE0MDMyNTYvMDAwMTE0MDM2MTIzMDQwNTk1L255MjAwMDk5Mzl4MV9wcmVtMTRhLmh=
+0bSN0Qk0/607f07ceef4b8524a319a23cD8b66d4ec" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">Sculptor=E2=80=99s prox=
+y </a>says that the Weinstein consortium would have =E2=80=9C$288 million o=
+f equity financing from four unaffiliated parties,=E2=80=9D which I assume =
+means Weinstein, Ackman, Lasry and someone else, though who knows.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] I assert this with some, but not 100%, con=
+fidence; the proxy does not actually identify Bidder J. It says that, after=
+ the deal was signed, =E2=80=9Ca consortium of bidders led by the founder o=
+f Bidder J=E2=80=9D put in the topping bid, and my impression is that Weins=
+tein is the leader of the consortium, but due to Bidder J=E2=80=99s nondisc=
+losure agreement with Saba the actual structure of the bid is not public an=
+ywhere.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] Elsewhere in the proxy, in a discussion of=
+ =E2=80=9CBidder D=E2=80=9D (who ultimately dropped out), the board notes =
+=E2=80=9Cthat Mr. Levin had reported that he was comfortable that Bidder D =
+would continue to compensate the investment professionals of the Company in=
+ a manner that would encourage retention and facilitate the achievement of =
+the client consent condition set forth in the draft merger agreement with r=
+espect to the potential transaction.=E2=80=9D Basically, paying the investm=
+ent team well is a condition to the merger, because if the investment team =
+all leaves then the clients will too. Or that is the idea!</p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] Again, it appears that Saba (=E2=80=9CBid=
+der J=E2=80=9D) was in discussions to buy Sculptor, but eventually Sculptor=
+ went with Rithm instead, and then after the deal was signed =E2=80=9Ca con=
+sortium of bidders led by the founder of Bidder J=E2=80=9D (i.e. Weinstein)=
+ put in their bid. =E2=80=9CFinancing for their bid for Sculptor is expecte=
+d to come from their personal money, not their firms=E2=80=99 cash,=E2=80=
+=9D reported <a href=3D"https://link.mail.bloombergbusiness.com/click/32488=
+619.288425/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9kZWFscy93YWxsLXN0cmVldC1h=
+bGwtc3RhcnMtaW5jbHVkaW5nLXdlaW5zdGVpbi1hY2ttYW4tYmlkLWZvci1oZWRnZS1mdW5kLTg=
+zMzcyNmUwP21vZD1ocF9sZWFkX3BvczQ/607f07ceef4b8524a319a23cCd3ec42e9" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>the Wall Street Journal</a>. Though their bid involves selling a portion o=
+f Sculptor (its collateralized loan obligation business) to another asset m=
+anagement firm (called =E2=80=9CBidder H=E2=80=9D), which would buy it as a=
+ firm, not with its founder=E2=80=99s cash.</p>
+</div>
+<div id=3D"footnote-11" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[11] =E2=80=9CSuperior=E2=80=9D is defined in =
+a fairly normal way: =E2=80=9CThe Company may only deem a proposed transact=
+ion superior if its Board of Directors reasonably determines that such tran=
+saction is more favorable to the Company and/or its shareholders, taking in=
+to consideration such factors as price, form of consideration, certainty of=
+ payment, conditions precedent to closing, competitive factors, and other f=
+actors which influence which of the transactions is in the best interests o=
+f the Company and/or its shareholders.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-12" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[12] Actually ideally it would involve a deriv=
+ative product like an accelerated stock buyback, rather than just paying $0=
+.01 per share of commissions, but in any case a buyback involves some econo=
+mics to a bank or broker.</p>
+</div>
+<div id=3D"footnote-13" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[13] Also some advantages to the company. The =
+biggest is probably that buybacks are more =E2=80=9Cflexible=E2=80=9D in th=
+e sense that shareholders get used to dividends and get mad if they are cut=
+, while a buyback program can increase and decrease in size without locking=
+ the company in much.</p>
+</div>
+<div id=3D"footnote-14" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[14] I mean there=E2=80=99s apparently some im=
+precise rounding there but never mind.</p>
+</div>
+<div id=3D"footnote-15" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[15] Of course the $1.6 billion number doesn=
+=E2=80=99t count the taxes on capital gains from sales into the $169 billio=
+n of buybacks, but presumably that number is a lot lower than $33.8 billion=
+ too.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB4b810148" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB311d404e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBe278e1e6" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBfa4c9d67" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBd915f483" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.2884=
+25/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBa6edf06f" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32488619.288425/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC5043f58d" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32488619.288425/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBfb3e1e59" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32488619.288425/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBaa1d702b" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB6=
+652459b" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32488619.288425/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB8=
+d59da3a" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjccdn.66jt/454f884c.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_21331044_1825678538.1692814243888--
+

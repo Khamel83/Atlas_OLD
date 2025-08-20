@@ -1,0 +1,13 @@
+# A Lesson From the Biggest Losers: Exercise Keeps Off the Weight - The New York Times
+
+**URL:** https://www.nytimes.com/2017/10/31/health/biggest-losers-weight-loss.html
+**Date:** 2017-11-01 13:40:03
+
+---
+
+# nytimes.com
+
+Unknown author • October 31, 2017 
+
+![nytimes.com]()
+

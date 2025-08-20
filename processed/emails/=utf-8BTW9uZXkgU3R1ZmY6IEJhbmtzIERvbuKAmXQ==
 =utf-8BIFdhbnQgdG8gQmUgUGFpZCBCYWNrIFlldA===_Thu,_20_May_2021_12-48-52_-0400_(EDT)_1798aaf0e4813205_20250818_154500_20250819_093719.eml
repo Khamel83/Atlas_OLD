@@ -1,0 +1,1531 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:ca10:0:b029:f7:875:abe8 with SMTP id z16csp2422513lkq;
+        Thu, 20 May 2021 09:49:59 -0700 (PDT)
+X-Received: by 2002:aa7:d893:: with SMTP id u19mr6110949edq.258.1621529398872;
+        Thu, 20 May 2021 09:49:58 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1621529398; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=1IdEUBwUAvNcO01Nms606vajq5l0oz+iVKZbEMbJbe7EbW4+NmPYD4OK3la9QSgLFe
+         tjwRENMlxILyLdl8EzIkfj5XtuJtRcdh3I2j7ZTyyuqt0ccmUpOlxsW1I4FnoKWfZUDh
+         ZBjGjQkfCzVAGmxOlJo8znnkuVb62Mw4rkoajlRpqHYnn4mLcquwzcza6JNYF8m77LNb
+         rEu69D2SKoHS10SIm7bhwaQuzcHlN8VFVhHhTolJIxSqwG7eJGJ4twseKVOaPKrEI715
+         0FjiIQgTELMXF/Nj0OlcTlnreTv9mBASEreb7LMF1yBYeqImWCjs59+IuujJ4d7pZW1z
+         3u/Q==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=B+7fWcRBL/EfGaChqpJRghr4tfLGEnqLwMH4cm+p19g=;
+        b=HoB6WQXV8SO4rwMjchX1Miy9S0UfJZdU4xBOxiKdjvMkT2aw9iQuO3RATIoVmTjlxW
+         SLFwLS+a15sCCb1+0Qw7T5JH2Ww/d5CLZYypesFwr8K2EKpmyw9XquYP7JQuRtdQW5Un
+         HZyrUT22Aa47qgz4vu0FjZ5Hp2pGJL9d9IT4QnqAPXpnmOmeHCz3l31B4iuSqgHyniXQ
+         gV8dm57I0+jAXjowMXSWuDbNeeTFWJpdtg6k6YUkkxkw7FeHdDI49wSSmihMjlKP+tZj
+         Yg8gXk6R18iaGkGZQ3Z+jV/9BloWEig4Wd7lhXWUefKYADlrZ4OJeq5tJtCh+cYuJzc2
+         lAcg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QqwieYBX;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id u14sor3445337edq.2.2021.05.20.09.49.58
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 20 May 2021 09:49:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QqwieYBX;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=B+7fWcRBL/EfGaChqpJRghr4tfLGEnqLwMH4cm+p19g=;
+        b=EumBINGNNWoPin9aLOpeQHM3HjfUonYq/SI7CH90WAFr2C5fg1MLKKwXUqXggQWDyn
+         sZDfSA7bEo9/cyey34R+LiOrAEG53PKk3+duTHnsqvumaYO7UyKcmFw/p7sH68UftxdO
+         aO2zHXZlBCeVvm4JA24Q1FbHCtFlA7KT4ET0u2YigWjjiJ9XQe38q6EPlbGAfnOHPK7/
+         gZ29eP+NAalvCH6YPhUV9MQj3w+k0H3nH0jDGM18HTjq053hUdaoswRySzfNmydCTH6g
+         M0coNNblt6Oe7pPYrnHrLEDaEnrX0A2UZuziSmxyUnNT1prF6fETg0I53kdKnWwG/wSO
+         Nl1Q==
+X-Gm-Message-State: AOAM533OUtvJtWXsFCV9PIXFJI09ta1YJcD3g4KwVVpWw+7HDHGyNdO4
+	peyhPdNzKLFgYENOf8PTesS6RWD71qGe/Nwm8XNhUruz94fVQF2OJQ==
+X-Received: by 2002:a05:6402:12cf:: with SMTP id k15mr5932960edx.332.1621529398606;
+        Thu, 20 May 2021 09:49:58 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3ec9:0:0:0:0:0 with SMTP id h9csp1652241ecr;
+        Thu, 20 May 2021 09:49:55 -0700 (PDT)
+X-Received: by 2002:a37:f503:: with SMTP id l3mr6338320qkk.307.1621529395627;
+        Thu, 20 May 2021 09:49:55 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1621529395; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=YkxcBB55F87olzMSd3dFKrpgiIYLvCYtZk8UNXIhUmPshSweOC8QqAKMOFYlZOSn09
+         pmSwKYcWeX+Z36vR/uCYDXUyJ36F5BViS+zkDf45qwVJoUfU2A7ZX1VjtcAp8P1SPNSk
+         nis4L1O/So3+fLO9htFFNpCnuzqdZ2xLzECssbv4oeXEBILKTrixbMyLqNeP2WAxnVkN
+         Oy4QE+kzly8Em4HIOTPseZphPEOfWoxS7A3ojyAUcl7DpcLzOEaaaFrgIVaAHz2jfFJQ
+         DufQRqeyolF/KhutxsUPv+nGYVsVNcsVvHNss7O/ZHzlKU/v5FBj4nHjCA0xdYvMK4hu
+         ThHw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=B+7fWcRBL/EfGaChqpJRghr4tfLGEnqLwMH4cm+p19g=;
+        b=f1VoYJwcG022J/2YdszalrBXWEBWqi41yAs93VueKHRhp4W8rvuHLRyqUqGqXDIqXe
+         sTe/1T/WP34exPsXexchZSUhTkrqSSF2yVeMADKTugqDh86t9PtUNFjAv/ZRAw72ICwB
+         KqNZ6b2D2zHiH05ip1M+1phksG4HTKWEIUS1E8W7WXJ17lElwncmRUemjCAHOYzbuZwz
+         9CNGgL+GeJBrlur1OvPnUVrVZtdBigWxGzU6c7gu89cTUqYh+DwKnctittFNnWyj46sX
+         WeLxCSZ/PVr6+5IerRz2Lot4Hufi+NmWOf1CZZJqwMyVgsL+SdNMXmaNIJFvky0XUypJ
+         9zww==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QqwieYBX;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210520124852.23906543.263544@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210520124852.23906543.263544@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210520124852.23906543.263544@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id bb15sor3570249qvb.61.2021.05.20.09.49.55
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 20 May 2021 09:49:55 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210520124852.23906543.263544@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJx7Q/GowtEM5/Qs4F/B6A3sXInnRpftaQ0cpQbebC2a1BKhHbAoi9lJJv+Apt79JSe+RIwa8GittVNinYvBfE7q6FOCItA=
+X-Received: by 2002:a05:6214:1441:: with SMTP id b1mr6427283qvy.36.1621529395025;
+        Thu, 20 May 2021 09:49:55 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1621529395; cv=none;
+        d=google.com; s=arc-20160816;
+        b=TnmEVMiCpl1gh34W/rFLocAcTfTkwllIY+/FeMlKNUblOJqeatPCy491yld91/JTQu
+         sDKuzqjoI4qCFuDhdIS6awMV0MBgyclCrCD90xUfRa9wchAcjUIyHbN5s98xsGghWP9f
+         tmgEvmCIHtQnbxzM16C1Uu7wowAufas+Qks1e824RiFSx8fSHw8cEJMTm4iCVjuPcGPs
+         klvNKt1exxcPb3vaNu3yPQfEHvqX8W5S2gI/QdigNKbcBoHIYcBhPNpxr2tRlGjOdFwq
+         OGhCbTfpyJoEfG5ALRZh8fTBNDmdDECkJfEtLnLQYw9RuuMUR0ifnRnz2wamIqJ8kC4B
+         DpXw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=B+7fWcRBL/EfGaChqpJRghr4tfLGEnqLwMH4cm+p19g=;
+        b=zHxqB0Iic1OOX3OzYmZeiYScLzRU2ytPBuWuRr/72CVQNEwVFBq4vTe//Wwb84rvrP
+         QDmAYqN/k3NreBUgPVQaCy9VSdZOb0gRJaoFBRFZrAcDaA11VR136tB011a+vKkOF3cV
+         +/oc79n1k7PbM5wQ9tLxVWAcRH6rb/wfQgmcjhpemX3tpCN4XqBOZWOt6AVxi5T90BRz
+         aqZi32NolglPgUt2MQk+eXHwyleQ4Jxkfvn1LehM3MCMPamdA96VF2tOv16PEbnno8AE
+         un+nzHj0p2sqR5w/+E16ZAWQONVP5Uwl49b5JdUGM3Y8EC+6e6ivmX2Hk8D5v3US39xV
+         4aXg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QqwieYBX;
+       spf=pass (google.com: domain of delivery_20210520124852.23906543.263544@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210520124852.23906543.263544@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210520124852.23906543.263544@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id z13si393444qtq.4.2021.05.20.09.49.54
+        for <khamel83@gmail.com>;
+        Thu, 20 May 2021 09:49:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210520124852.23906543.263544@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=2W0iB3g4hy1sM/kDQdKnhqoFqog=;
+ b=QqwieYBXmRi6scaxE/XX25CDQdknOJEbQSYeoonauVyg4iEPYt+X+aSXJ5V8ScDMWeJxLIZIGnoa
+   O2bpIIzadBGW1KO3thMy9DhKT1T1wY3cFgVRsUsXl2rjn6wSpxw/g1TMJdxtDueUJc0BQ8ukBz0j
+   WeSckqOjvLBcXAxqoPc=
+Received: from njmta-149.sailthru.com (173.228.155.149) by bloomberg-b.sailthru.com id hkq9j41qqbsn for <bloomberg@khamel.com>; Thu, 20 May 2021 12:49:54 -0400 (envelope-from <delivery_20210520124852.23906543.263544@mx.sailthru.com>)
+Received: from nj1-wetcopper.flt (172.18.20.36) by njmta-149.sailthru.com id hkq9j21qqbsh for <bloomberg@khamel.com>; Thu, 20 May 2021 12:48:52 -0400 (envelope-from <delivery_20210520124852.23906543.263544@mx.sailthru.com>)
+Date: Thu, 20 May 2021 12:48:52 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210520124852.23906543.263544@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEJhbmtzIERvbuKAmXQ=?=
+ =?utf-8?B?IFdhbnQgdG8gQmUgUGFpZCBCYWNrIFlldA==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_38930304_1162575892.1621529332753"
+Precedence: bulk
+X-TM-ID: 20210520124852.23906543.263544
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetcopper.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce8een.5nco/748a76a1
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce8een.5nco/748a76a1>, <mailto:unsubscribe_20210520124852.23906543.263544@mx.sailthru.com>
+X-rpcampaign: stjko23906543
+
+------=_Part_38930304_1162575892.1621529332753
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+ =20
+ =20
+  Money Stuff
+ =20
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+   =20
+       =20
+           =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+
+     =20
+     =20
+ =20
+   =20
+      Programming note: Money Stuff will be off tomorrow, back on Monday.Pr=
+epaymentVery broadly speaking, a big problem that banks have right now is t=
+oo much money. The simple way a bank works is that it takes in money from d=
+eposits and lends it out as loans, getting more interest on the loans than =
+it pays on the deposits. In 2021, people have a lot of cash, for reasons ha=
+ving to do with economic growth and stimulus and monetary policy and the Fe=
+d=E2=80=99s balance sheet and so forth. When people have a lot of cash, the=
+y store it in banks, so there is a lot of demand for=C2=A0bank deposits. Bu=
+t when people have a lot of cash, they do not need to borrow more, so there=
+ is not a lot of demand for bank loans. The money comes in, but the banks h=
+ave nowhere to put it.This manifests in various ways. Big banks  announce r=
+ecord earnings but complain that no one wants to borrow money from them. Th=
+ey talk about  turning away deposits. The  debate earlier this year about t=
+he temporary exclusion of U.S. Treasuries and Fed reserves from the supplem=
+ental leverage ratio was essentially about this problem: Banks have a lot o=
+f money, but don=E2=80=99t have enough loans to make, so they park the mone=
+y in Treasuries and reserves that don=E2=80=99t earn them much money, and t=
+hey=E2=80=99d prefer not to have to have expensive capital to support those=
+ super-safe and not very lucrative assets.=C2=A0Or in general you might thi=
+nk that if banks make a bunch of loans to risky borrowers, and then the gov=
+ernment swoops in and gives those borrowers billions of dollars to pay back=
+ all those loans, in full, early, that would be=C2=A0good=C2=A0for banks. Y=
+ou might think it would be particularly good during a period of economic re=
+covery and rising interest rates: The banks get their money back from these=
+ risky borrowers and can lend it to better borrowers at higher rates. But i=
+n the current environment, that logic doesn=E2=80=99t work: Banks have plen=
+ty of=C2=A0money; money is the last thing that they want. What they want is=
+ loans, and those are precious and=C2=A0hard to find; getting their existin=
+g loans paid back in full is a=C2=A0bad=C2=A0outcome.So here is a=C2=A0stra=
+nge story from the New York Times=C2=A0about farm loans:The Biden administr=
+ation=E2=80=99s efforts to provide $4 billion in debt relief to minority fa=
+rmers is encountering stiff resistance from banks, which are complaining th=
+at the government initiative to pay off the loans of borrowers who have fac=
+ed decades of financial discrimination will cut into their profits and hurt=
+ investors. =E2=80=A6Their argument stems from the way banks make money fro=
+m loans and how they decide where to extend credit. When a bank lends money=
+ to a borrower, like a farmer, it considers several factors, including how =
+much interest it will earn over the lifetime of the loan and whether the ba=
+nk can sell the loan to other investors.By allowing borrowers to repay thei=
+r debts early, the lenders are being denied income they have long expected,=
+ they argue. The banks want the federal government to pay money beyond the =
+outstanding loan amount so that banks and investors will not miss out on in=
+terest income that they were expecting or money that they would have made r=
+eselling the loans to other investors.It's a little hard to sympathize with=
+ the banks on the merits here. As far as I can tell these loans are prepaya=
+ble without penalty,[1] so the banks aren=E2=80=99t losing an income stream=
+ that they were=C2=A0contractually entitled to, just one that they=C2=A0exp=
+ected:=C2=A0When you make thousands of loans to disadvantaged farmers, they=
+=E2=80=99re all allowed to pay you back early, but they probably won=E2=80=
+=99t, because what are the odds that thousands of disadvantaged farmers wil=
+l all come into lots of money all at once? Now they have all come into mone=
+y at once, oops.Also, while these farmers might be risky borrowers, they we=
+ren=E2=80=99t risky for the=C2=A0banks: These are loans that were guarantee=
+d by the U.S. Department of Agriculture=E2=80=99s Farm Service Agency; the =
+banks were making the loans and collecting profits without taking much cred=
+it risk. Really it is=C2=A0fine=C2=A0that the banks were expecting large pr=
+ofits on these no-risk loans to disadvantaged farmers; that=E2=80=99s how t=
+he program is supposed to work: The government relies on the banks to admin=
+ister the program, and if it wasn=E2=80=99t profitable for them then it wou=
+ldn=E2=80=99t achieve its policy objectives of getting money to farmers. Bu=
+t it doesn=E2=80=99t make the banks particularly sympathetic when they comp=
+lain about losing their profits.=C2=A0Also this is just a rough sentence, f=
+or the banks:Although the government is paying 120 percent of the outstandi=
+ng loan amounts to cover additional taxes and fees, banks say that unless t=
+hey get more, they will be on the losing end of the bailout.Still, here is =
+the letter from the American Bankers Association, Independent Community Ban=
+kers of America and National Rural Lenders Association,[2] and if your hear=
+tstrings are tuned in just the right way perhaps it will tug at them:For ex=
+ample, a large community bank which has an SDA farm/ranch portfolio of over=
+ $200 million calculates they could lose millions of dollars in net income =
+per year if their portfolio of SDA loans is quickly paid off. A $200mm-plus=
+ loan balance going to zero will have a significant financial impact on the=
+ bank=E2=80=99s balance sheet, capital position and income statements alarm=
+ing bank regulators. Such a loss will also undoubtedly reduce the bank=E2=
+=80=99s ability to retain employees.Another example is a smaller community =
+bank with over $10 million in SDA farm/ranch loans comprising over ten perc=
+ent of their portfolio. This bank estimates the sudden payoff of these loan=
+s will cause an annual loss of net income of over $300,000 per year for sev=
+eral years and raise concerns alluded to above.=C2=A0Naively you might thin=
+k that a banking regulator would be happy to see a bank get paid back in fu=
+ll, early, on its loans, but modern banking doesn=E2=80=99t quite work that=
+ way.Bridge loansWell, in general banks would like to make loans but can=E2=
+=80=99t find enough borrowers, but=C2=A0poor Goldman Sachs Group Inc. has m=
+ore demand for loans than it can meet,  sort of:It would have been a coup f=
+or Goldman Sachs: Standing shoulder-to-shoulder with much larger rival JPMo=
+rgan Chase & Co. to split a $41.5 billion check financing AT&T Inc.=E2=80=
+=99s mega media deal with Discovery Inc.But by the time the transaction was=
+ announced Monday, Goldman would ultimately trim its commitment, largely du=
+e to regulatory restrictions, according to people with knowledge of the mat=
+ter. JPMorgan and its monstrous $3.7 trillion balance sheet, meanwhile, cov=
+ered the difference. =E2=80=A6For Goldman, the issue on the AT&T-Discovery =
+deal was that regulatory limits constrain the amount of exposure it can hav=
+e to individual companies relative to the size of its balance sheet, which =
+is roughly a third that of JPMorgan.Goldman would end up financing $18 bill=
+ion of the deal, or 43%, with JPMorgan picking up the remaining $23.5 billi=
+on.Disclosure, I used to work at Goldman, a decade ago, and back then we co=
+mplained about this stuff all the time:Goldman Sachs may routinely rank at =
+the top in advising on global mergers and acquisitions, but the firm=E2=80=
+=99s constrained ability to self-fund big financing packages with the ease =
+of commercial banking giants such as JPMorgan has long been a sore spot for=
+ its dealmakers. Behind the scenes, bankers at Goldman, Morgan Stanley and =
+a roster of boutique advisory firms have groused for years that some banks =
+effectively buy their way into mandates by offering loans. ...Bridge loans =
+are also a crucial step in building relationships with companies to win hig=
+her-paying mandates down the road.The facilities are intended to be taken o=
+ut in the bond market, for example, and the banks that led the bridge usual=
+ly also lead those transactions, which are more lucrative.Of course when I =
+started at Goldman it was not a bank holding company; now it is, and has a =
+growing consumer bank and $250 billion of deposits. But it is soothing to k=
+now that this complaint =E2=80=94=C2=A0that big commercial banks buy their =
+way into M&A and bond deals by committing their balance sheets to bridge lo=
+ans =E2=80=94=C2=A0will never go away.
+
+
+   =20
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                                Paid Post
+                               =20
+84% of ultra-high-net-worth individuals collect art. It makes sense =E2=80=
+=94contemporary art appreciated 13.6% per year over the last 25 years vs. 8=
+.9% returns for the S&P 500.
+
+Masterworks has fractionalized investments in masterpieces by Basquiat and =
+Banksy. If you're looking for a tangible, non-correlated asset class,=20
+check out Masterworks today.=C2=A0=C2=A0
+
+(See Disclaimer)
+
+                                Masterworks
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+Unwoke investingOne thing I have sometimes wondered about is why there are =
+a lot of investment options that lean explicitly to the left politically, b=
+ut not a lot that lean to the right. Socially responsible investing, and en=
+vironmental, social and governance investing, are booming businesses and ha=
+ve a more or less progressive flavor, but there is not really an equivalent=
+ on the conservative side.You could, I think, have a sort of sociological m=
+odel for this: People who manage investments tend to be highly educated pro=
+fessionals in big coastal cities, a demographic that skews progressive. Som=
+e of them will care about the environment and social justice and will run=
+=C2=A0ESG funds; others won=E2=80=99t care that much and will run =E2=80=9C=
+regular,=E2=80=9D non-ESG, active or passive funds; but few will be social =
+conservatives or climate-change skeptics who want to start explicitly right=
+-wing funds. I think there=E2=80=99s something to this model, but not all t=
+hat much; it=E2=80=99s not like the financial industry is overwhelmingly ov=
+ertly progressive.Or you could have sort of a simple model where there are =
+two political parties of investing, as it were:=09The left position is that=
+ companies should do good in various progressive ways, and you should try t=
+o send your money to the good ones and not the bad ones.=09The right positi=
+on is that companies should maximize profits and shareholder returns, witho=
+ut trying to do good for the world.In this model, ESG and socially responsi=
+ble investing are necessarily leftish positions, while the rightish equival=
+ent is just=C2=A0normal investing, just buying the stocks you think will go=
+ up without regard to their environmental and social records.[3] If you=E2=
+=80=99re a progressive, you think =E2=80=9Ccompanies should be good steward=
+s of the environment=E2=80=9D and buy ESG funds; if you=E2=80=99re a conser=
+vative, you think =E2=80=9CI don=E2=80=99t care if companies are good stewa=
+rds of the environment as long as they make money=E2=80=9D and buy, just, r=
+egular funds. There is no third position like =E2=80=9CI think companies sh=
+ould be bad stewards of the environment=E2=80=9D; the neutral, unmarked, de=
+fault=C2=A0option is the conservative one.I think this model is roughly cor=
+rect but also not fully satisfying. You can see a little of it in the polit=
+ical reaction to ESG and socially responsible investing, where the right-wi=
+ng position is often to use legislation or regulation to=C2=A0ban or=C2=A0r=
+estrict socially responsible investing and require investors to focus exclu=
+sively on financial results. The traditional conservative position on the p=
+urpose of the corporation is that the purpose of the corporation is to make=
+ money, so the politically conservative approach to investing is to ignore =
+politics and just pick the stocks that will go up the most.But while that i=
+s the traditional view, I don=E2=80=99t think it really captures modern U.S=
+. conservatism.=C2=A0With modern U.S. conservatism you=E2=80=99d expect to =
+see more explicitly anti-progressive, anti-woke, anti-environmental, genera=
+lly politically engaged investment options: not =E2=80=9Cwe=E2=80=99ll buy =
+the most profitable companies whether or not they use fossil fuels=E2=80=9D=
+ but =E2=80=9Cwe=E2=80=99ll buy the fossil fuel companies to own the libs.=
+=E2=80=9D=C2=A0And now there is a bit of that. From the=C2=A0Wall Street Jo=
+urnal:A small group of conservative money managers is trying to catch up to=
+ investment funds that for years have catered to those concerned about clim=
+ate change, diversity or animal rights. =E2=80=A6The American Conservative =
+Values ETF, which was started just before last fall=E2=80=99s election, has=
+ seen its assets under management more than triple so far this year, from a=
+bout $3 million to more than $9 million. The growth =E2=80=9Cabsolutely val=
+idates that demand exists,=E2=80=9D according to Bill Flaig, the founder an=
+d chief executive of the fund=E2=80=99s suburban-Washington management firm=
+, Ridgeline Research.The fund that Mr. Flaig helps oversee =E2=80=9Cboycott=
+s=E2=80=9D Facebook Inc., Apple Inc., Google parent Alphabet Inc. and more =
+than 20 other companies that it views as overly progressive in their corpor=
+ate politics. =E2=80=A6In April, the American Conservative Values ETF dropp=
+ed from its portfolio Atlanta-based corporations Delta Air Lines Inc. and C=
+oca-Cola Co., after their executives criticized a new Georgia voting law th=
+at civil-rights groups have argued will make voting harder.BlackRock=E2=80=
+=99s ESG exchange-traded funds had inflows of $8.6 billion in the fourth qu=
+arter of 2020, meaning that BlackRock brings=C2=A0in more ESG ETF money eve=
+ry trading hour than this conservative ETF has brought in in its history, b=
+ut it=E2=80=99s a start. Or here=E2=80=99s another one:Two ETFs run by 2ndV=
+ote Advisers LLC near Nashville have grown in the past month from about $6 =
+million to roughly $25 million, representatives say. Money managers at the =
+firm say they hope they will surpass $100 million by the end of the year af=
+ter adding more portfolio choices and courting pension funds in conservativ=
+e-leaning states.=E2=80=9CIt=E2=80=99s an investment option for unwoke inve=
+stors,=E2=80=9D said Andy Puzder, who is on the firm=E2=80=99s advisory boa=
+rd. =E2=80=9CWe believe that companies that focus on profit make more than =
+companies that don=E2=80=99t.=E2=80=9DThat sounds like my traditional model=
+, where woke investors care about social and political issues and unwoke on=
+es just care about profit, but in fact 2ndVote doesn=E2=80=99t just care ab=
+out profit:2ndVote Advisers started offering two ETFs after last year=E2=80=
+=99s presidential election. One fund caters to investors who feel strongly =
+about opposing abortion, while the other is targeted at supporters of gun r=
+ights.The funds use a =E2=80=9Csocial scoring system=E2=80=9D that looks at=
+ a variety of company information, including direct and indirect donations,=
+ activities and stated policies, sponsorship of political and advocacy-rela=
+ted events, donations by corporate leaders, and lobbying efforts for or aga=
+inst various issues on the state and federal level.=E2=80=9CCompanies that =
+focus on profit are worth more than companies that don=E2=80=99t=E2=80=9D i=
+s sort of the traditional conservative view; =E2=80=9Ccompanies that oppose=
+ abortion rights are worth more than companies that support them=E2=80=9D i=
+s the new view.Cathie, Larry, ElonI don=E2=80=99t know if this is true, and=
+ honestly I assume it isn=E2=80=99t,[4] but it=E2=80=99s too amazing not to=
+ print here:Ark Invest CEO Cathie Wood =E2=80=A6 weighed in on the effect o=
+f Tesla CEO Elon Musk=E2=80=99s recent pronouncements on Bitcoin, claiming =
+that Musk was likely pressured to switch investment strategies on Bitcoin b=
+y his firm=E2=80=99s shareholders such as BlackRock Inc., an American multi=
+national investment management corporation. =E2=80=9CI believe what happene=
+d is after he took a position on Bitcoin, he got pushback from institutiona=
+l shareholders like BlackRock. You've got Larry Fink beating drum on climat=
+e change. I don't think he expected that. But I think he'll come back to th=
+e mix.=E2=80=9D said Wood.My model of Larry Fink and BlackRock is that they=
+ control vast sums of money that they invest in every single company and so=
+ can=E2=80=99t spend a lot of time thinking about the specific business dec=
+isions of=C2=A0any particular company. Where BlackRock can add value as an =
+investor is by thinking systemically: Instead of worrying about some widget=
+ company=E2=80=99s market share (meaningless, to BlackRock, since it owns a=
+ll of the company=E2=80=99s competitors), it spends its time thinking about=
+ systemic risks to all of the companies it owns. One risk that  BlackRock c=
+ares about a lot is climate change, which makes sense: If the world becomes=
+ uninhabitable for humans that will probably be  bad for every company=E2=
+=80=99s profits, and BlackRock owns every company.=C2=A0And so BlackRock ca=
+n go to every company and say =E2=80=9Cbe better about climate change.=E2=
+=80=9D But again BlackRock necessarily operates at a rather high level of g=
+enerality =E2=80=94=C2=A0owning every company, etc.=C2=A0=E2=80=94=C2=A0and=
+ it might not be obvious, at that level, what every company should=C2=A0do=
+=C2=A0about climate change. I suppose you could call up the coal companies =
+and say =E2=80=9Cstop mining coal,=E2=80=9D and BlackRock is  doing a tiny =
+bit of that. But are you going to call up a social media company and give i=
+t nuanced recommendations, grounded=C2=A0in its particular business needs, =
+about reducing executive travel and locating its servers in places that use=
+ more renewable energy? Seems like a lot of work.On the other hand you can =
+have some simple blanket climate policies. And if you think =E2=80=94=C2=A0=
+as many people, apparently including  Elon Musk last week, do =E2=80=94=C2=
+=A0that Bitcoin mining is=C2=A0very bad for the environment, then a blanket=
+ policy for all companies saying =E2=80=9Cdon=E2=80=99t=C2=A0accept Bitcoin=
+ for payment=E2=80=9D seems reasonable enough. It=E2=80=99s not like any co=
+mpanies need to accept Bitcoin for payment; even Bitcoin Pizza doesn=E2=80=
+=99t accept Bitcoin for payment.=C2=A0(To be clear, whether Bitcoin is that=
+ bad is itself controversial, and  Wood has argued that Bitcoin is=C2=A0goo=
+d=C2=A0for the environment, because it creates off-peak demand for electric=
+ity that can make renewable generation economically viable.) So you really =
+could just about imagine it being logical for Larry Fink =E2=80=94=C2=A0Tes=
+la=E2=80=99s third-biggest shareholder =E2=80=94=C2=A0to call up Elon Musk =
+and tell him =E2=80=9Chey, I am an environmental guy, I like your electric =
+cars, but knock it off with the Bitcoin.=E2=80=9DThat said, my model of Elo=
+n Musk is that he absolutely absolutely absolutely does not care even the t=
+iniest bit what BlackRock thinks, and has no reason to care. Musk owns 17.7=
+% of Tesla; BlackRock owns 5.2%. Tesla is in the S&P 500 index, so BlackRoc=
+k=E2=80=99s index funds are stuck with it. If Musk needs money, he can easi=
+ly raise it by doing at-the-market offerings to enthusiastic retail investo=
+rs rather than bothering with BlackRock; in fact,  he did that when Tesla w=
+as added to the S&P 500, which is ordinarily the best time for a company to=
+ raise money from index-y institutional=C2=A0investors like BlackRock. Tesl=
+a=E2=80=99s governance style is =E2=80=9CElon Musk whimsy=E2=80=9D rather t=
+han, like, =E2=80=9Ctraditional good governance,=E2=80=9D and the company=
+=E2=80=99s personal identification with Musk is so strong, and Musk is so s=
+trange, that he just has no reason or inclination to care about what his in=
+stitutional shareholders think. I assume if Elon Musk got a call from Larry=
+ Fink to talk about climate change, he=E2=80=99d=C2=A0say =E2=80=9Cyou=E2=
+=80=99re boring!=E2=80=9D and hang up.And in fact Musk did get bored enough=
+ of being anti-Bitcoin that he was back to being kind of pro-Bitcoin yester=
+day,  tweeting about his diamond hands, though also somewhat anti-Bitcoin, =
+tweeting memes making fun of Bitcoin fans=C2=A0because that is also fun. It=
+ doesn=E2=80=99t=C2=A0feel like the influence of staid institutional invest=
+ors, you know?In general I am  very=C2=A0fond of  theories =E2=80=94=C2=A0e=
+ven somewhat conspiratorial theories =E2=80=94=C2=A0suggesting that massive=
+ institutional investors exercise enormous unseen power over global compani=
+es. I just don=E2=80=99t believe those theories about Tesla.=C2=A0Elsewhere=
+There will be a Bloomberg Opinion Clubhouse chat about Bitcoin and Elon Mus=
+k at 4 p.m. New York time today, if you=E2=80=99re interested; I will proba=
+bly be there with Roy Bahat, Liam Denning, Lionel Laurent and Olga Kharif. =
+Here=E2=80=99s a link.Things happenApollo Co-Founder  Harris Steps Back Aft=
+er Missing Out on CEO. Morgan Stanley CEO  Shakes Up Leadership With Eyes o=
+n a Successor. JPMorgan Eyes  $100 Million Payday on Trade Linked to Aramco=
+ Deal. Colonial Pipeline CEO Tells Why He Paid Hackers a $4.4 Million Ranso=
+m.=C2=A0Oatly IPO Prices at $17 a Share, Notching $10 Billion Valuation.=C2=
+=A0ByteDance Founder  Steps Down as CEO Ahead of Mega IPO.=C2=A0SPAC Sellof=
+f Bruises Individual Investors. European Companies, Flush With Cash, Turn t=
+o Stock Buybacks. The Reinvention of  Canary Wharf. The Pleasures of Learne=
+dLeague and the Spirit of Trivia.=C2=A0$ASS Coin Billionaire: Tales From th=
+e  Fringe of the Crypto Craze. =E2=80=98Please Help,=E2=80=99 Beg Those Who=
+ Lost $2 Million to  Fake Elon Musks.If you'd like to get=C2=A0Money=C2=A0S=
+tuff=C2=A0in handy email form, right in your inbox, please=C2=A0subscribe a=
+t this link. Or you can subscribe to Money Stuff and other great Bloomberg =
+newsletters here. Thanks!=C2=A0[1] Some Googling suggests that some FSA loa=
+ns are prepayable without penalty and some are not. But the program (Sectio=
+n 1005 of the American Rescue Plan Act of 2021)=C2=A0does not call for modi=
+fying the loans, just providing money to pay them back on their terms, so I=
+ assume that either there are no prepayment penalties, or that the governme=
+nt will pay them and they=E2=80=99re still not enough to make the banks who=
+le.[2] This is a small-bank problem; big banks just don=E2=80=99t have enou=
+gh disadvantaged farmer loans to care. =E2=80=9CRepresentatives for Goldman=
+ Sachs, JPMorgan Chase and Citigroup said that the debt relief program had =
+not been on their radar and that they had not been lobbying against it,=E2=
+=80=9D notes the Times.[3] There is a=C2=A0vein of ESG theory that says tha=
+t the good environmental and social stocks will also go up more =E2=80=94=
+=C2=A0that having=C2=A0good environmental policies is good for long-term va=
+lue, etc. =E2=80=94=C2=A0but I don=E2=80=99t think that believing or disbel=
+ieving that is=C2=A0essential to any of these arguments.[4] To be clear,=C2=
+=A0it=E2=80=99s true that she said it (at a Bloomberg BusinessWeek event, a=
+s Bloomberg=E2=80=99s Eric Balchunas tweeted); I just have no particular re=
+ason to think her assertion about Musk and Fink is true.
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce8een.5nco/b4b46b0e.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_38930304_1162575892.1621529332753
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23906543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB1f3=
+a1e51"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"8">
+<tr>
+<td width=3D"206" align=3D"center">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB0f78cf1=
+7">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p><h2 style=3D"font-weight=
+: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif;=
+ letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border-bo=
+ttom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0=
+;">Prepayment</h2><p style=3D"margin: 16px 0;">Very broadly speaking, a big=
+ problem that banks have right now is <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/23906543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjAtMDQtMDIvYmFua3MtaGF2ZS10b28tbXVjaC1tb25leS1ub3c/60=
+7f07ceef4b8524a319a23cBb799049c" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">too much money</a>. The simple way a bank works is t=
+hat it takes in money from deposits and lends it out as loans, getting more=
+ interest on the loans than it pays on the deposits. In 2021, people have a=
+ lot of cash, for reasons having to do with economic growth and stimulus an=
+d monetary policy and the Fed=E2=80=99s balance sheet and so forth. When pe=
+ople have a lot of cash, they store it in banks, so there is a lot of deman=
+d for=C2=A0bank deposits. But when people have a lot of cash, they do not n=
+eed to borrow more, so there is not a lot of demand for bank loans. The mon=
+ey comes in, but the banks have nowhere to put it.</p><p style=3D"margin: 1=
+6px 0;">This manifests in various ways. Big banks <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/23906543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDQtMTQvanBtb3JnYW4tcG9zdHMtaW52ZXN0bWVudC=
+1iYW5raW5nLWZlZS1zdXJnZS13aGlsZS1sb2Fucy1kZWNsaW5l/607f07ceef4b8524a319a23c=
+B4739eac9" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> announce record earnings but complain</a> that no one wants to borrow mon=
+ey from them. They talk about <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23906543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjEtMDMtMjIvamFtaWUtZGltb24tbWF5LXNvb24tdHVybi1hd2F5LWRlcG9zaXRzLW=
+FuZC1oZS1zLW5vdC1oYXBweQ/607f07ceef4b8524a319a23cB4365cd2d" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;"> turning away deposits</a=
+>. The <a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.26=
+3544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDMtMT=
+AvY292aWQtZXhlbXB0aW9uLWZvci1iYW5rLWxldmVyYWdlLXRyYXBzLXRoZS1mZWQ/607f07cee=
+f4b8524a319a23cB4bb7371f" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> debate earlier this year</a> about the temporary exclusion=
+ of U.S. Treasuries and Fed reserves from the supplemental leverage ratio w=
+as essentially about this problem: Banks have a lot of money, but don=E2=80=
+=99t have enough loans to make, so they park the money in Treasuries and re=
+serves that don=E2=80=99t earn them much money, and they=E2=80=99d prefer n=
+ot to have to have expensive capital to support those super-safe and not ve=
+ry lucrative assets.=C2=A0</p><p style=3D"margin: 16px 0;">Or in general yo=
+u might think that if banks make a bunch of loans to risky borrowers, and t=
+hen the government swoops in and gives those borrowers billions of dollars =
+to pay back all those loans, in full, early, that would be=C2=A0<em>good=C2=
+=A0</em>for banks. You might think it would be particularly good during a p=
+eriod of economic recovery and rising interest rates: The banks get their m=
+oney back from these risky borrowers and can lend it to better borrowers at=
+ higher rates. But in the current environment, that logic doesn=E2=80=99t w=
+ork: Banks have plenty of=C2=A0<em>money</em>; money is the last thing that=
+ they want. What they want is loans, and those are precious and=C2=A0hard t=
+o find; getting their existing loans paid back in full is a=C2=A0<em>bad=C2=
+=A0</em>outcome.</p><p style=3D"margin: 16px 0;">So here is a=C2=A0strange =
+story from the New York Times=C2=A0<a href=3D"https://link.mail.bloombergbu=
+siness.com/click/23906543.263544/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNS=
+8xOS91cy9wb2xpdGljcy9ibGFjay1mYXJtZXJzLWRlYnQtcmVsaWVmLmh0bWw/607f07ceef4b8=
+524a319a23cBaeddf3fb" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">about farm loans</a>:</p><blockquote><p style=3D"margin: 16px =
+0;">The Biden administration=E2=80=99s efforts to provide $4 billion in deb=
+t relief to minority farmers is encountering stiff resistance from banks, w=
+hich are complaining that the government initiative to pay off the loans of=
+ borrowers who have faced decades of financial discrimination will cut into=
+ their profits and hurt investors. =E2=80=A6</p><p style=3D"margin: 16px 0;=
+">Their argument stems from the way banks make money from loans and how the=
+y decide where to extend credit. When a bank lends money to a borrower, lik=
+e a farmer, it considers several factors, including how much interest it wi=
+ll earn over the lifetime of the loan and whether the bank can sell the loa=
+n to other investors.</p><p style=3D"margin: 16px 0;">By allowing borrowers=
+ to repay their debts early, the lenders are being denied income they have =
+long expected, they argue. The banks want the federal government to pay mon=
+ey beyond the outstanding loan amount so that banks and investors will not =
+miss out on interest income that they were expecting or money that they wou=
+ld have made reselling the loans to other investors.</p></blockquote><p sty=
+le=3D"margin: 16px 0;">It's a little hard to sympathize with the banks on t=
+he merits here. As far as I can tell these loans are prepayable without pen=
+alty,[1] so the banks aren=E2=80=99t losing an income stream that they were=
+=C2=A0<em>contractually entitled to</em>, just one that they=C2=A0<em>expec=
+ted:=C2=A0</em>When you make thousands of loans to disadvantaged farmers, t=
+hey=E2=80=99re all allowed to pay you back early, but they probably won=E2=
+=80=99t, because what are the odds that thousands of disadvantaged farmers =
+will all come into lots of money all at once? Now they <em>have</em> all co=
+me into money at once, oops.</p><p style=3D"margin: 16px 0;">Also, while th=
+ese farmers might be risky borrowers, they weren=E2=80=99t risky for the=C2=
+=A0<em>banks</em>: These are loans that were guaranteed by the U.S. Departm=
+ent of Agriculture=E2=80=99s Farm Service Agency; the banks were making the=
+ loans and collecting profits without taking much credit risk. Really it is=
+=C2=A0<em>fine=C2=A0</em>that the banks were expecting large profits on the=
+se no-risk loans to disadvantaged farmers; that=E2=80=99s how the program i=
+s supposed to work: The government relies on the banks to administer the pr=
+ogram, and if it wasn=E2=80=99t profitable for them then it wouldn=E2=80=99=
+t achieve its policy objectives of getting money to farmers. But it doesn=
+=E2=80=99t make the banks particularly sympathetic when they complain about=
+ losing their profits.=C2=A0Also this is just a rough sentence, for the ban=
+ks:</p><blockquote><p style=3D"margin: 16px 0;">Although the government is =
+paying 120 percent of the outstanding loan amounts to cover additional taxe=
+s and fees, banks say that unless they get more, they will be on the losing=
+ end of the bailout.</p></blockquote><p style=3D"margin: 16px 0;">Still, <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544/aHR0=
+cHM6Ly93d3cuaWNiYS5vcmcvZG9jcy9kZWZhdWx0LXNvdXJjZS9pY2JhL2Fkdm9jYWN5LWRvY3V=
+tZW50cy9sZXR0ZXJzLXRvLXJlZ3VsYXRvcnMvbGV0dGVyLXRvLXVzZGEtb24tc2RhLWxvYW4tcG=
+F5b2Zmcy5wZGY_c2Z2cnNuPTFlNzgwZTE3XzA/607f07ceef4b8524a319a23cBd84719c2" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">here is the =
+letter</a> from the American Bankers Association, Independent Community Ban=
+kers of America and National Rural Lenders Association,[2] and if your hear=
+tstrings are tuned in just the right way perhaps it will tug at them:</p><b=
+lockquote><p style=3D"margin: 16px 0;">For example, a large community bank =
+which has an SDA farm/ranch portfolio of over $200 million calculates they =
+could lose millions of dollars in net income per year if their portfolio of=
+ SDA loans is quickly paid off. A $200mm-plus loan balance going to zero wi=
+ll have a significant financial impact on the bank=E2=80=99s balance sheet,=
+ capital position and income statements alarming bank regulators. Such a lo=
+ss will also undoubtedly reduce the bank=E2=80=99s ability to retain employ=
+ees.</p><p style=3D"margin: 16px 0;">Another example is a smaller community=
+ bank with over $10 million in SDA farm/ranch loans comprising over ten per=
+cent of their portfolio. This bank estimates the sudden payoff of these loa=
+ns will cause an annual loss of net income of over $300,000 per year for se=
+veral years and raise concerns alluded to above.=C2=A0</p></blockquote><p s=
+tyle=3D"margin: 16px 0;">Naively you might think that a banking regulator w=
+ould be happy to see a bank get paid back in full, early, on its loans, but=
+ modern banking doesn=E2=80=99t quite work that way.</p><h2 style=3D"font-w=
+eight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-s=
+erif; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; bord=
+er-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bott=
+om: 0;">Bridge loans</h2><p style=3D"margin: 16px 0;">Well, in general bank=
+s would like to make loans but can=E2=80=99t find enough borrowers, but=C2=
+=A0poor Goldman Sachs Group Inc. has more demand for loans than it can meet=
+, <a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMjAvZ29sZG1=
+hbi1zLWFtYml0aW9uLXRvLW1hdGNoLWpwbW9yZ2FuLW9uLWF0LXQtZGVhbC1tZWV0cy1yZWFsaX=
+R5/607f07ceef4b8524a319a23cB6c61329c" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;"> sort of</a>:</p><blockquote><p style=3D"margin=
+: 16px 0;">It would have been a coup for Goldman Sachs: Standing shoulder-t=
+o-shoulder with much larger rival JPMorgan Chase &amp; Co. to split a $41.5=
+ billion check financing AT&amp;T Inc.=E2=80=99s mega media deal with Disco=
+very Inc.</p><p style=3D"margin: 16px 0;">But by the time the transaction w=
+as announced Monday, Goldman would ultimately trim its commitment, largely =
+due to regulatory restrictions, according to people with knowledge of the m=
+atter. JPMorgan and its monstrous $3.7 trillion balance sheet, meanwhile, c=
+overed the difference. =E2=80=A6</p><p style=3D"margin: 16px 0;">For Goldma=
+n, the issue on the AT&amp;T-Discovery deal was that regulatory limits cons=
+train the amount of exposure it can have to individual companies relative t=
+o the size of its balance sheet, which is roughly a third that of JPMorgan.=
+</p><p style=3D"margin: 16px 0;">Goldman would end up financing $18 billion=
+ of the deal, or 43%, with JPMorgan picking up the remaining $23.5 billion.=
+</p></blockquote><p style=3D"margin: 16px 0;">Disclosure, I used to work at=
+ Goldman, a decade ago, and back then we complained about this stuff all th=
+e time:</p><blockquote><p style=3D"margin: 16px 0;">Goldman Sachs may routi=
+nely rank at the top in advising on global mergers and acquisitions, but th=
+e firm=E2=80=99s constrained ability to self-fund big financing packages wi=
+th the ease of commercial banking giants such as JPMorgan has long been a s=
+ore spot for its dealmakers. Behind the scenes, bankers at Goldman, Morgan =
+Stanley and a roster of boutique advisory firms have groused for years that=
+ some banks effectively buy their way into mandates by offering loans. ...<=
+/p><p style=3D"margin: 16px 0;">Bridge loans are also a crucial step in bui=
+lding relationships with companies to win higher-paying mandates down the r=
+oad.</p><p style=3D"margin: 16px 0;">The facilities are intended to be take=
+n out in the bond market, for example, and the banks that led the bridge us=
+ually also lead those transactions, which are more lucrative.</p></blockquo=
+te><p style=3D"margin: 16px 0;">Of course when I started at Goldman it was =
+not a bank holding company; now it is, and has a growing consumer bank and =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544/aH=
+R0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzg4Njk4Mi8wMDAxMTkzMTI1M=
+jEwNDkzODAvZDM5NjU0ZDEway5odG0jdG9jMzk2NTRfNjc/607f07ceef4b8524a319a23cB16b=
+ea0f4" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">$25=
+0 billion of deposits</a>. But it is soothing to know that this complaint =
+=E2=80=94=C2=A0that big commercial banks buy their way into M&amp;A and bon=
+d deals by committing their balance sheets to bridge loans =E2=80=94=C2=A0w=
+ill never go away.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 14px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Paid Post</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;"><strong>84% of ultra-high-net-worth individu=
+als collect art. It makes sense =E2=80=94contemporary art appreciated 13.6%=
+ per year over the last 25 years vs. 8.9% returns for the S&amp;P 500.</str=
+ong>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544/aH=
+R0cHM6Ly93d3cubWFzdGVyd29ya3MuaW8vP3V0bV9zb3VyY2U9bW9uZXlzdHVmZiZ1dG1fbWVka=
+XVtPW5ld3NsZXR0ZXImdXRtX2NhbXBhaWduPTMtMjItMjE/607f07ceef4b8524a319a23cBd07=
+37fab" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: underline;">
+Masterworks</a> has fractionalized investments in masterpieces by Basquiat =
+and Banksy. If you're looking for a tangible, non-correlated asset class, <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544/aHR=
+0cHM6Ly93d3cubWFzdGVyd29ya3MuaW8vP3V0bV9zb3VyY2U9bW9uZXlzdHVmZiZ1dG1fbWVkaX=
+VtPW5ld3NsZXR0ZXImdXRtX2NhbXBhaWduPTMtMjItMjE/607f07ceef4b8524a319a23cCd073=
+7fab" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: underline;">
+check out Masterworks today</a>.=C2=A0=C2=A0</p>
+<p style=3D"margin: 10px 0px;">(See <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/23906543.263544/aHR0cHM6Ly93d3cubWFzdGVyd29ya3MuaW8vZGlzY=
+2xhaW1lcj91dG1fc291cmNlPW1vbmV5c3R1ZmYmdXRtX21lZGl1bT1uZXdzbGV0dGVyJnV0bV9j=
+YW1wYWlnbj0zLTIyLTIx/607f07ceef4b8524a319a23cB2930d0fb" style=3D"color: #00=
+0000; text-decoration: underline;">Disclaimer</a>)</p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Masterworks</p><=
+/div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">Unwoke investing</h2><p style=3D"margin: 16px 0;=
+">One thing I have sometimes wondered about is why there are a lot of inves=
+tment options that lean explicitly to the left politically, but not a lot t=
+hat lean to the right. Socially responsible investing, and environmental, s=
+ocial and governance investing, are booming businesses and have a more or l=
+ess progressive flavor, but there is not really an equivalent on the conser=
+vative side.</p><p style=3D"margin: 16px 0;">You could, I think, have a sor=
+t of sociological model for this: People who manage investments tend to be =
+highly educated professionals in big coastal cities, a demographic that ske=
+ws progressive. Some of them will care about the environment and social jus=
+tice and will run=C2=A0ESG funds; others won=E2=80=99t care that much and w=
+ill run =E2=80=9Cregular,=E2=80=9D non-ESG, active or passive funds; but fe=
+w will be social conservatives or climate-change skeptics who want to start=
+ explicitly right-wing funds. I think there=E2=80=99s something to this mod=
+el, but not all that much; it=E2=80=99s not like the financial industry is =
+overwhelmingly overtly progressive.</p><p style=3D"margin: 16px 0;">Or you =
+could have sort of a simple model where there are two political parties of =
+investing, as it were:</p><ol style=3D"list-style-type: decimal; padding-le=
+ft: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">The left po=
+sition is that companies should do good in various progressive ways, and yo=
+u should try to send your money to the good ones and not the bad ones.</li>=
+=09<li style=3D"margin-bottom: 5px;">The right position is that companies s=
+hould maximize profits and shareholder returns, without trying to do good f=
+or the world.</li></ol><p style=3D"margin: 16px 0;">In this model, ESG and =
+socially responsible investing are necessarily leftish positions, while the=
+ rightish equivalent is just=C2=A0<em>normal investing</em>, just buying th=
+e stocks you think will go up without regard to their environmental and soc=
+ial records.[3] If you=E2=80=99re a progressive, you think =E2=80=9Ccompani=
+es should be good stewards of the environment=E2=80=9D and buy ESG funds; i=
+f you=E2=80=99re a conservative, you think =E2=80=9CI don=E2=80=99t care if=
+ companies are good stewards of the environment as long as they make money=
+=E2=80=9D and buy, just, regular funds. There is no third position like =E2=
+=80=9CI think companies should be bad stewards of the environment=E2=80=9D;=
+ the neutral, unmarked, default=C2=A0option is the conservative one.</p><p =
+style=3D"margin: 16px 0;">I think this model is roughly correct but also no=
+t fully satisfying. You can see a little of it in the political reaction to=
+ ESG and socially responsible investing, where the right-wing position is o=
+ften to use legislation or regulation to=C2=A0<a href=3D"https://link.mail.=
+bloombergbusiness.com/click/23906543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDYtMjUvdGhlLWdvdmVybm1lbnQtd2FudHMtZXNnLW=
+91dC1vZi1wZW5zaW9ucw/607f07ceef4b8524a319a23cBcdc04cee" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">ban or=C2=A0restrict socially=
+ responsible investing</a> and require investors to focus exclusively on fi=
+nancial results. The traditional conservative position on the purpose of th=
+e corporation is that the purpose of the corporation is to make money, so t=
+he politically conservative approach to investing is to ignore politics and=
+ just pick the stocks that will go up the most.</p><p style=3D"margin: 16px=
+ 0;">But while that is the traditional view, I don=E2=80=99t think it reall=
+y captures modern U.S. conservatism.=C2=A0With modern U.S. conservatism you=
+=E2=80=99d expect to see more explicitly anti-progressive, anti-woke, anti-=
+environmental, generally politically engaged investment options: not =E2=80=
+=9Cwe=E2=80=99ll buy the most profitable companies whether or not they use =
+fossil fuels=E2=80=9D but =E2=80=9Cwe=E2=80=99ll buy the fossil fuel compan=
+ies to own the libs.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;">And now=
+ there is a bit of that. From <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23906543.263544/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90cnVtcC1=
+hbGxpZXMtcHJvbW90ZS1wb3J0Zm9saW9zLXRhcmdldGluZy11bndva2UtaW52ZXN0b3JzLTExNj=
+IxMzQyODAz/607f07ceef4b8524a319a23cB6cf7c2d6" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">the=C2=A0Wall Street Journal</a>:</p><b=
+lockquote><p style=3D"margin: 16px 0;">A small group of conservative money =
+managers is trying to catch up to investment funds that for years have cate=
+red to those concerned about climate change, diversity or animal rights. =
+=E2=80=A6</p><p style=3D"margin: 16px 0;">The American Conservative Values =
+ETF, which was started just before last fall=E2=80=99s election, has seen i=
+ts assets under management more than triple so far this year, from about $3=
+ million to more than $9 million. The growth =E2=80=9Cabsolutely validates =
+that demand exists,=E2=80=9D according to Bill Flaig, the founder and chief=
+ executive of the fund=E2=80=99s suburban-Washington management firm, Ridge=
+line Research.</p><p style=3D"margin: 16px 0;">The fund that Mr. Flaig help=
+s oversee =E2=80=9Cboycotts=E2=80=9D Facebook Inc., Apple Inc., Google pare=
+nt Alphabet Inc. and more than 20 other companies that it views as overly p=
+rogressive in their corporate politics. =E2=80=A6</p><p style=3D"margin: 16=
+px 0;">In April, the American Conservative Values ETF dropped from its port=
+folio Atlanta-based corporations Delta Air Lines Inc. and Coca-Cola Co., af=
+ter their executives criticized a new Georgia voting law that civil-rights =
+groups have argued will make voting harder.</p></blockquote><p style=3D"mar=
+gin: 16px 0;">BlackRock=E2=80=99s ESG exchange-traded funds had <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/23906543.263544/aHR0cHM6Ly93d=
+3cubW9ybmluZ3N0YXIuY29tL2FydGljbGVzLzEwMTkxOTUvYS1icm9rZW4tcmVjb3JkLWZsb3dz=
+LWZvci11cy1zdXN0YWluYWJsZS1mdW5kcy1hZ2Fpbi1yZWFjaC1uZXctaGVpZ2h0cw/607f07ce=
+ef4b8524a319a23cBcaaa1ec5" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">inflows of $8.6 billion</a> in the fourth quarter of 2020,=
+ meaning that BlackRock brings=C2=A0in more ESG ETF money every trading hou=
+r than this conservative ETF has brought in in its history, but it=E2=80=99=
+s a start. Or here=E2=80=99s another one:</p><blockquote><p style=3D"margin=
+: 16px 0;">Two ETFs run by 2ndVote Advisers LLC near Nashville have grown i=
+n the past month from about $6 million to roughly $25 million, representati=
+ves say. Money managers at the firm say they hope they will surpass $100 mi=
+llion by the end of the year after adding more portfolio choices and courti=
+ng pension funds in conservative-leaning states.</p><p style=3D"margin: 16p=
+x 0;">=E2=80=9CIt=E2=80=99s an investment option for unwoke investors,=E2=
+=80=9D said Andy Puzder, who is on the firm=E2=80=99s advisory board. =E2=
+=80=9CWe believe that companies that focus on profit make more than compani=
+es that don=E2=80=99t.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;=
+">That sounds like my traditional model, where woke investors care about so=
+cial and political issues and unwoke ones just care about profit, but in fa=
+ct 2ndVote doesn=E2=80=99t just care about profit:</p><blockquote><p style=
+=3D"margin: 16px 0;">2ndVote Advisers started offering two ETFs after last =
+year=E2=80=99s presidential election. One fund caters to investors who feel=
+ strongly about opposing abortion, while the other is targeted at supporter=
+s of gun rights.</p><p style=3D"margin: 16px 0;">The funds use a =E2=80=9Cs=
+ocial scoring system=E2=80=9D that looks at a variety of company informatio=
+n, including direct and indirect donations, activities and stated policies,=
+ sponsorship of political and advocacy-related events, donations by corpora=
+te leaders, and lobbying efforts for or against various issues on the state=
+ and federal level.</p></blockquote><p style=3D"margin: 16px 0;">=E2=80=9CC=
+ompanies that focus on profit are worth more than companies that don=E2=80=
+=99t=E2=80=9D is sort of the traditional conservative view; =E2=80=9Ccompan=
+ies that oppose abortion rights are worth more than companies that support =
+them=E2=80=9D is the new view.</p><h2 style=3D"font-weight: bold; font-fami=
+ly: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: =
+-1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style: dotte=
+d; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">Cathie, Larry,=
+ Elon</h2><p style=3D"margin: 16px 0;">I don=E2=80=99t know if <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/23906543.263544/aHR0cHM6Ly9jb2=
+lubWFya2V0Y2FwLmNvbS9oZWFkbGluZXMvbmV3cy9BcmstSW52ZXN0LUJ1eXMtMjctbWlsbGlvb=
+i1pbi1UZXNsYS1TdG9jay1QcmVkaWN0cy1CaXRjb2luLVdpbGwtUmVhY2gtNTAway8/607f07ce=
+ef4b8524a319a23cBe690da7e" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">this</a> is true, and honestly I assume it isn=E2=80=99t,[=
+4] but it=E2=80=99s too amazing not to print here:</p><blockquote><p style=
+=3D"margin: 16px 0;">Ark Invest CEO Cathie Wood =E2=80=A6 weighed in on the=
+ effect of Tesla CEO Elon Musk=E2=80=99s recent pronouncements on Bitcoin, =
+claiming that Musk was likely pressured to switch investment strategies on =
+Bitcoin by his firm=E2=80=99s shareholders such as BlackRock Inc., an Ameri=
+can multinational investment management corporation. =E2=80=9CI believe wha=
+t happened is after he took a position on Bitcoin, he got pushback from ins=
+titutional shareholders like BlackRock. You've got Larry Fink beating drum =
+on climate change. I don't think he expected that. But I think he'll come b=
+ack to the mix.=E2=80=9D said Wood.</p></blockquote><p style=3D"margin: 16p=
+x 0;">My model of Larry Fink and BlackRock is that they control vast sums o=
+f money that they invest in every single company and so can=E2=80=99t spend=
+ a lot of time thinking about the specific business decisions of=C2=A0any p=
+articular company. Where BlackRock can add value as an investor is by think=
+ing systemically: Instead of worrying about some widget company=E2=80=99s m=
+arket share (meaningless, to BlackRock, since it owns all of the company=E2=
+=80=99s competitors), it spends its time thinking about systemic risks to a=
+ll of the companies it owns. One risk that <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/23906543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjAtMDEtMTQvYmxhY2tyb2NrLWhhcy1ncmVlbi1wbGFucw/60=
+7f07ceef4b8524a319a23cB5c00d759" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> BlackRock cares about a lot</a> is climate change, =
+which makes sense: If the world becomes uninhabitable for humans that will =
+probably be <a href=3D"https://link.mail.bloombergbusiness.com/click/239065=
+43.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktM=
+DctMTEvbWF5YmUtdGhlLWNvbXBhbmllcy13aWxsLWZpeC10aGUtY2xpbWF0ZQ/607f07ceef4b8=
+524a319a23cB4d28c9d2" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> bad for every company=E2=80=99s profits</a>, and BlackRock ow=
+ns every company.=C2=A0</p><p style=3D"margin: 16px 0;">And so BlackRock ca=
+n go to every company and say =E2=80=9Cbe better about climate change.=E2=
+=80=9D But again BlackRock necessarily operates at a rather high level of g=
+enerality =E2=80=94=C2=A0owning every company, etc.=C2=A0=E2=80=94=C2=A0and=
+ it might not be obvious, at that level, what every company should=C2=A0<em=
+>do=C2=A0</em>about climate change. I suppose you could call up the coal co=
+mpanies and say =E2=80=9Cstop mining coal,=E2=80=9D and BlackRock is <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjAtMDEtMTQvYmxhY2tyb2NrLXM=
+tdG91Z2gtb24tY29hbC1wbGFuLXNraXJ0cy1hcm91bmQtdGhlLWJpZ2dlc3QtbWluZXJz/607f0=
+7ceef4b8524a319a23cB12ca34f8" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> doing a tiny bit of that</a>. But are you going to cal=
+l up a social media company and give it nuanced recommendations, grounded=
+=C2=A0in its particular business needs, about reducing executive travel and=
+ locating its servers in places that use more renewable energy? Seems like =
+a lot of work.</p><p style=3D"margin: 16px 0;">On the other hand you can ha=
+ve some simple blanket climate policies. And if you think =E2=80=94=C2=A0as=
+ many people, apparently including <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/23906543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMjEtMDUtMTMvZWxvbi1tdXNrLWdvdC1ib3JlZC1vZi1iaXRjb2lu/607f=
+07ceef4b8524a319a23cB8dbc54d8" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> Elon Musk last week</a>, do =E2=80=94=C2=A0that <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544/aHR0cHM=
+6Ly93d3cuZnQuY29tL2NvbnRlbnQvMWFlY2IyZGItOGY2MS00MjdjLWE0MTMtM2I5MjkyOTFjOG=
+Fj/607f07ceef4b8524a319a23cB14470091" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">Bitcoin mining is=C2=A0very bad for the environ=
+ment</a>, then a blanket policy for all companies saying =E2=80=9Cdon=E2=80=
+=99t=C2=A0accept Bitcoin for payment=E2=80=9D seems reasonable enough. It=
+=E2=80=99s not like any companies <em>need</em> to accept Bitcoin for payme=
+nt; even <a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.=
+263544/aHR0cHM6Ly93d3cucmVzdGF1cmFudGJ1c2luZXNzb25saW5lLmNvbS90ZWNobm9sb2d5=
+L25ld2x5LWxhdW5jaGVkLWJpdGNvaW4tcGl6emEtYnJhbmQtZG9lc250LWFjY2VwdC1iaXRjb2l=
+u/607f07ceef4b8524a319a23cBaffdf1fe" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">Bitcoin Pizza</a> doesn=E2=80=99t accept Bitcoin=
+ for payment.=C2=A0(To be clear, whether Bitcoin is that bad is itself cont=
+roversial, and <a href=3D"https://link.mail.bloombergbusiness.com/click/239=
+06543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMD=
+QtMjIvY2F0aGllLXdvb2Qtcy1hcmstc2F5cy1iaXRjb2luLW1pbmluZy1pcy1nb29kLWZvci10a=
+GUtcGxhbmV0/607f07ceef4b8524a319a23cBacf0c8d8" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> Wood has argued</a> that Bitcoin is=
+=C2=A0<em>good=C2=A0</em>for the environment, because it <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/23906543.263544/aHR0cHM6Ly9hc3NldHMu=
+Y3RmYXNzZXRzLm5ldC8yZDVxMXRkNmN5eHEvNW1SamM5WDVMVFhGRmloSWxUdDdRSy9lN2JjYmE=
+0NzIxN2I2MDQyM2EwMWEzNTdlMDM2MTA1ZS9CQ0VJX1doaXRlX1BhcGVyLnBkZg/607f07ceef4=
+b8524a319a23cB6428479d" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">creates off-peak demand for electricity</a> that can make ren=
+ewable generation economically viable.) So you really could just about imag=
+ine it being logical for Larry Fink =E2=80=94=C2=A0Tesla=E2=80=99s third-bi=
+ggest shareholder =E2=80=94=C2=A0to call up Elon Musk and tell him =E2=80=
+=9Chey, I am an environmental guy, I like your electric cars, but knock it =
+off with the Bitcoin.=E2=80=9D</p><p style=3D"margin: 16px 0;">That said, m=
+y model of Elon Musk is that he absolutely absolutely absolutely does not c=
+are even the tiniest bit what BlackRock thinks, and has no reason to care. =
+Musk owns 17.7% of Tesla; BlackRock owns 5.2%. Tesla is in the S&amp;P 500 =
+index, so BlackRock=E2=80=99s index funds are stuck with it. If Musk needs =
+money, he can easily raise it by doing at-the-market offerings to enthusias=
+tic retail investors rather than bothering with BlackRock; in fact, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMDYvdGVzbGEta2Vw=
+dC1idXN5LWluLTIwMjA/607f07ceef4b8524a319a23cB1bc00af4" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> he did that</a> <em>when Tesl=
+a was added to the S&amp;P 500</em>, which is ordinarily the best time for =
+a company to raise money from index-y institutional=C2=A0investors like Bla=
+ckRock. Tesla=E2=80=99s governance style is =E2=80=9CElon Musk whimsy=E2=80=
+=9D rather than, like, =E2=80=9Ctraditional good governance,=E2=80=9D and t=
+he company=E2=80=99s personal identification with Musk is so strong, and Mu=
+sk is so strange, that he just has no reason or inclination to care about w=
+hat his institutional shareholders think. I assume if Elon Musk got a call =
+from Larry Fink to talk about climate change, he=E2=80=99d=C2=A0say =E2=80=
+=9Cyou=E2=80=99re boring!=E2=80=9D and hang up.</p><p style=3D"margin: 16px=
+ 0;">And in fact Musk did get bored enough of being anti-Bitcoin that he wa=
+s back to being kind of pro-Bitcoin yesterday, <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/23906543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTkveW91LWNhbi1zcGFjLXlvdXItc3BhYw/60=
+7f07ceef4b8524a319a23cBa361a14f" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> tweeting about his diamond hands</a>, though also s=
+omewhat anti-Bitcoin, <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/23906543.263544/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTM5NTM=
+1MjA3MzU1MDUzMjYxMw/607f07ceef4b8524a319a23cBafba1a47" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">tweeting memes making fun of B=
+itcoin fans</a>=C2=A0because that is also fun. It doesn=E2=80=99t=C2=A0<em>=
+feel </em>like the influence of staid institutional investors, you know?</p=
+><p style=3D"margin: 16px 0;">In general I am <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/23906543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDItMTgvdGhlLWJpZy1zaGFyZWhvbGRlcnMtZ2V0LW=
+JpZ2dlcg/607f07ceef4b8524a319a23cB3fbef461" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> very</a>=C2=A0fond of <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/23906543.263544/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjQvdGhlLXZhY2NpbmUtaXMtbm9=
+0LWEtY29tcGV0aXRpb24/607f07ceef4b8524a319a23cBe4ee58fb" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> theories</a> =E2=80=94=C2=A0=
+even somewhat conspiratorial theories =E2=80=94=C2=A0suggesting that massiv=
+e institutional investors exercise enormous unseen power over global compan=
+ies. I just don=E2=80=99t believe those theories about <em>Tesla</em>.=C2=
+=A0</p><h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;=
+, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; bord=
+er-bottom-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; mar=
+gin-top: 30px; margin-bottom: 0;">Elsewhere</h2><p style=3D"margin: 16px 0;=
+">There will be a Bloomberg Opinion Clubhouse chat about Bitcoin and Elon M=
+usk at 4 p.m. New York time today, if you=E2=80=99re interested; I will pro=
+bably be there with Roy Bahat, Liam Denning, Lionel Laurent and Olga Kharif=
+. <a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544/=
+aHR0cHM6Ly93d3cuam9pbmNsdWJob3VzZS5jb20vam9pbi9CbG9vbWJlcmdPcGluaW9uL1E1UXh=
+XMFFDL01LMzl3cGFw/607f07ceef4b8524a319a23cB47388f8c" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">Here=E2=80=99s a link</a>.</p><h=
+2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, =
+Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom=
+-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top: =
+30px; margin-bottom: 0;">Things happen</h2><p style=3D"margin: 16px 0;">Apo=
+llo Co-Founder <a href=3D"https://link.mail.bloombergbusiness.com/click/239=
+06543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMD=
+UtMjAvYXBvbGxvLWNvLWZvdW5kZXItaGFycmlzLXN0ZXBwaW5nLWJhY2stYWZ0ZXItbWlzc2luZ=
+y1vdXQtb24tY2Vv/607f07ceef4b8524a319a23cB00d1d4ea" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> Harris Steps Back</a> After Missi=
+ng Out on CEO. Morgan Stanley CEO <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/23906543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjEtMDUtMjAvbW9yZ2FuLXN0YW5sZXktY2VvLXNoYWtlcy11cC1sZWFkZXJzaG=
+lwLXdpdGgtZXllcy1vbi1hLXN1Y2Nlc3Nvcg/607f07ceef4b8524a319a23cB5cbec20c" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Shakes Up Le=
+adership</a> With Eyes on a Successor. JPMorgan Eyes <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/23906543.263544/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTkvanBtb3JnYW4tZXllcy0xMDAtbWlsbGl=
+vbi1wYXlkYXktb24tdHJhZGUtbGlua2VkLXRvLWFyYW1jby1kZWFs/607f07ceef4b8524a319a=
+23cB2c55d2df" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> $100 Million Payday</a> on Trade Linked to Aramco Deal. Colonial Pipel=
+ine CEO Tells <a href=3D"https://link.mail.bloombergbusiness.com/click/2390=
+6543.263544/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jb2xvbmlhbC1waXBlbGluZS1=
+jZW8tdGVsbHMtd2h5LWhlLXBhaWQtaGFja2Vycy1hLTQtNC1taWxsaW9uLXJhbnNvbS0xMTYyMT=
+QzNTYzNj9tb2Q9aHBfbGVhZF9wb3M0/607f07ceef4b8524a319a23cB40379732" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Why He Paid Hacker=
+s</a> a $4.4 Million Ransom.=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/23906543.263544/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9vYXR=
+seS1wcmVwYXJlcy10by1wcmljZS1pcG8tYW1pZC1zdG9jay1tYXJrZXQtZGVjbGluZXMtMTE2Mj=
+E0NTYzNjE_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB98cc4900" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">Oatly IPO</a=
+> Prices at $17 a Share, Notching $10 Billion Valuation.=C2=A0ByteDance Fou=
+nder <a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.2635=
+44/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMjAvYnl0=
+ZWRhbmNlLWZvdW5kZXItemhhbmcteWltaW5nLXN0ZXBzLWRvd24tYXMtY2VvLWFoZWFkLW9mLWl=
+wbw/607f07ceef4b8524a319a23cB7459216b" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;"> Steps Down as CEO</a> Ahead of Mega IPO.=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544=
+/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zcGFjLXNlbGxvZmYtYnJ1aXNlcy1pbmRpdm=
+lkdWFsLWludmVzdG9ycy0xMTYyMTM5NjgwOD9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef=
+4b8524a319a23cB694a6ad0" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">SPAC Selloff</a> Bruises Individual Investors. European Comp=
+anies, Flush With Cash, Turn to <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/23906543.263544/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ldXJvc=
+GVhbi1jb21wYW5pZXMtZmx1c2gtd2l0aC1jYXNoLXR1cm4tdG8tc3RvY2stYnV5YmFja3MtMTE2=
+MjE0MTY2MDU_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB6424ad9a" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">Stock Buyb=
+acks</a>. The Reinvention of <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23906543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1=
+cmVzLzIwMjEtMDUtMjAvYWZ0ZXItYnJleGl0LWFuZC10aGUtcGFuZGVtaWMtY2FuYXJ5LXdoYXJ=
+mLWlzLXJlaW52ZW50aW5nLWl0c2VsZg/607f07ceef4b8524a319a23cBe888bfbe" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Canary Wharf</a>.=
+ The Pleasures of <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+23906543.263544/aHR0cHM6Ly93d3cubmV3eW9ya2VyLmNvbS9zcG9ydHMvc3BvcnRpbmctc2N=
+lbmUvdGhlLXBsZWFzdXJlcy1vZi1sZWFybmVkbGVhZ3VlLWFuZC10aGUtc3Bpcml0LW9mLXRyaX=
+ZpYQ/607f07ceef4b8524a319a23cB3d1f1711" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">LearnedLeague</a> and the Spirit of Trivia.=
+=C2=A0$ASS Coin Billionaire: Tales From the <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/23906543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2ZlYXR1cmVzLzIwMjEtMDUtMjAvY3J5cHRvLW1hcmtldC1wcmljZXMtYXNzLWNvaW4t=
+c3VwZXJkb2dlLWJpbGxpb25haXJlcy1wcm9zcGVyLWFuZC1mYWxs/607f07ceef4b8524a319a2=
+3cBdaddc409" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Fringe of the Crypto Craze</a>. =E2=80=98Please Help,=E2=80=99 Beg Thos=
+e Who Lost $2 Million to <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23906543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjEtMDUtMTkvLXBsZWFzZS1oZWxwLWJlZy10aG9zZS13aG8tbG9zdC0yLW1pbGxpb24tdG8=
+tZmFrZS1lbG9uLW11c2tz/607f07ceef4b8524a319a23cBe3e7e956" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> Fake Elon Musks</a>.</p><p =
+style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media">=
+<em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, ri=
+ght in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/23906543.263544/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy=
+5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyN=
+jI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB2ecd6bc6" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money Stu=
+ff and other great Bloomberg newsletters <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/23906543.263544/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29t=
+L25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB0611cd9f" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span></p>=
+<p style=3D"margin: 16px 0;">=C2=A0</p><p style=3D"margin: 16px 0;"><em>[1]=
+ Some Googling suggests that <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23906543.263544/aHR0cHM6Ly93d3cuZ292bG9hbnMuZ292L2xvYW5zL2Zhcm0t=
+b3duZXJzaGlwLWxvYW5zLShkaXJlY3QtYW5kLWd1YXJhbnRlZWQpLw/607f07ceef4b8524a319=
+a23cBca6b29ba" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">some FSA loans</a> are <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/23906543.263544/aHR0cHM6Ly9maXRzbWFsbGJ1c2luZXNzLmNvbS9mc2EtbG9hb=
+nMtdWx0aW1hdGUtZ3VpZGUv/607f07ceef4b8524a319a23cB18489714" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">prepayable without penalty=
+</a> and <a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.=
+263544/aHR0cHM6Ly93d3cuZnNhLnVzZGEuZ292L0ludGVybmV0L0ZTQV9GaWxlL2hlbHBmdWxf=
+aGludHMucGRm/607f07ceef4b8524a319a23cB75346c36" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">some are not</a>. But the program (Se=
+ction 1005 of the <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+23906543.263544/aHR0cHM6Ly93d3cuY29uZ3Jlc3MuZ292LzExNy9iaWxscy9ocjEzMTkvQkl=
+MTFMtMTE3aHIxMzE5ZW5yLnBkZg/607f07ceef4b8524a319a23cB0cab1349" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">American Rescue Plan A=
+ct of 2021</a>)=C2=A0does not call for modifying the loans, just providing =
+money to pay them back on their terms, so I assume that either there are no=
+ prepayment penalties, or that the government will pay them and they=E2=80=
+=99re still not enough to make the banks whole.</em></p><p style=3D"margin:=
+ 16px 0;"><em>[2] This is a small-bank problem; big banks just don=E2=80=99=
+t have enough disadvantaged farmer loans to care. =E2=80=9CRepresentatives =
+for Goldman Sachs, JPMorgan Chase and Citigroup said that the debt relief p=
+rogram had not been on their radar and that they had not been lobbying agai=
+nst it,=E2=80=9D notes the Times.</em></p><p style=3D"margin: 16px 0;"><em>=
+[3] There is a=C2=A0vein of ESG theory that says that the good environmenta=
+l and social stocks will also go up more =E2=80=94=C2=A0that having=C2=A0go=
+od environmental policies is good for long-term value, etc. =E2=80=94=C2=A0=
+but I don=E2=80=99t think that believing or disbelieving that is=C2=A0essen=
+tial to any of these arguments.</em></p><p style=3D"margin: 16px 0;"><em>[4=
+] To be clear,=C2=A0it=E2=80=99s true that she said it (at a Bloomberg Busi=
+nessWeek event, as Bloomberg=E2=80=99s <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/23906543.263544/aHR0cHM6Ly90d2l0dGVyLmNvbS9FcmljQmFsY2=
+h1bmFzL3N0YXR1cy8xMzk1MDI5NzUyMjczMDY4MDM3/607f07ceef4b8524a319a23cB6282f18=
+0" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">Eric Ba=
+lchunas tweeted</a>); I just have no particular reason to think her asserti=
+on about Musk and Fink is true.</em></p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB1ecc411e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBf38a88e3" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB1da8cd2d" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23906543.263544/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB63789877" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2390=
+6543.263544/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cBd16ff520" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23906543.263544/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC0c38bd34" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23906543.263544/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBe31cbc1e" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23906543.263544/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBc6d8ecda" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce8een.5nco/b4b46b0e.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_38930304_1162575892.1621529332753--
+

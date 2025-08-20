@@ -1,0 +1,2635 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:7290:b0:c5:6d1d:3c13 with SMTP id w16csp372148rwf;
+        Thu, 15 Sep 2022 06:08:36 -0700 (PDT)
+X-Received: by 2002:a63:86c3:0:b0:435:2d4:53e3 with SMTP id x186-20020a6386c3000000b0043502d453e3mr34473524pgd.415.1663247316106;
+        Thu, 15 Sep 2022 06:08:36 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1663247316; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Nge9zQdFa7jRXH/DANmsJwlx2yd5TrNIi3OTp+j++2bc/POsmte0mG23nEVn2CCV9E
+         EZ8AKrbcdeDsJLVuRxptFpXalLrjPg1VJ5WjSVURAeXQ7pqyAnEnOlNGhmiwlHonaLuj
+         qQmpU38I7fLcJhAwzecQq0fDmdVpLZWuoSAqO/EVt3hCFozy2Ke8KhB5uESGojBRzFpW
+         AEoRQC49blGNvbb+5vO9haI8occ+JLO+YoezuIBg7L+52gJRT6ERD63wUQ8lwYaH5mZZ
+         NY06fvTvSDd3qEVPxqAHeL5tTsOhQAOtsdQ54RNWa58CjI4M5J2mv/iAbg9UVReJ/OnJ
+         4XjQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-archive:list-unsubscribe-post:references:sender
+         :list-unsubscribe:list-owner:message-id:list-url:in-reply-to:list-id
+         :list-post:date:reply-to:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=3S3feFAMDz74+2f35KAbm9MpDM8NINXBdT0+7+2sZSI=;
+        b=QqRty94OQd+jxhlH9c/ml0kpMuYnsNKtwZkFqkRPIDAjgybcdiZTvYO1aaiGuDlFe7
+         cMCIZhwEJB02efeeSrqhlkir7oUaAxauGV3uFmH/QGTP9/ITzojUz7Pm07TuB9goflh2
+         9KqwCFGvaUX/t6j4PCLdjNS84PzLrbyNXH5YTe28kfR6x5Z5ZSXUOM0mPTDH0NHFU1vP
+         8RzQmD+9DXALfQCC8G94JhbUu+HMFLqYojuBCX3+hVkKYM9wbcWVkVTN/y+3mLMI4ou2
+         Q3ekCahxRwhjpGlkUKM6LtbLw0xFYlyhXCQxdmxTCvfhJVEoDi6ItF57CprHYynwuhKJ
+         LFkQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=LvuvvNqw;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p7-20020a170902ebc700b0016a39ba33ffsor7299083plg.96.2022.09.15.06.08.36
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 15 Sep 2022 06:08:36 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=LvuvvNqw;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-archive:list-unsubscribe-post:references:sender
+         :list-unsubscribe:list-owner:message-id:list-url:in-reply-to:list-id
+         :list-post:date:reply-to:to:from:subject:mime-version:dkim-signature
+         :delivered-to:x-gm-message-state:from:to:cc:subject:date;
+        bh=3S3feFAMDz74+2f35KAbm9MpDM8NINXBdT0+7+2sZSI=;
+        b=EsBmBmv3AoqpzpgAJie2gO9RIWdOvzng5e3kjVt68aLhIXicjp32ZC3QXYn0yraQZz
+         +ZuYGpJce1Is4fkhe7t3wSQ99bRmyJ1qJy096+lNTIEd21YCWMBbtDHnHelnFJsGV+OF
+         xS0IbYomhZNVARW+pEQeZBQuUMNn0a9pTH+UnPP8ZdCwYMW9nq2OKfSfv6awUA/gCRDK
+         kQSwoggm5R17HsAEqxTCCIdDxVCluXZIfY8UriOquA4P3XjK8JVMb42F4nQvSYZX8uPS
+         GwPirYQqndIlEXWa+YR0kdTquy+vVp/NCU0S+sYRO0DiEkNp2oJFuC41FGPNNT50YrqJ
+         p1Ng==
+X-Gm-Message-State: ACrzQf2UT5LuCC1JPpJmpAHyyfYZKmeYnp0z3nKHHFinBD3716LMvgDW
+	KEb+9tvpjL5ofgG3hdbUl0ThhE4DMdAcNBMDL8/qVgnwMCIOcvXeTg==
+X-Received: by 2002:a17:902:8486:b0:171:48cd:1356 with SMTP id c6-20020a170902848600b0017148cd1356mr4111101plo.153.1663247315805;
+        Thu, 15 Sep 2022 06:08:35 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a17:90b:438b:0:0:0:0 with SMTP id in11csp220000pjb;
+        Thu, 15 Sep 2022 06:08:33 -0700 (PDT)
+X-Received: by 2002:aca:db04:0:b0:350:35fa:bbed with SMTP id s4-20020acadb04000000b0035035fabbedmr1413115oig.136.1663247313200;
+        Thu, 15 Sep 2022 06:08:33 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1663247313; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=KPpsXTR9cD1Q+uDN8dOb8ob4Kgu6+jllRCsvUoNFRH4i50dIirnrc6NCcle7kgpwM0
+         VRlGGsm1lnlb0S6h3ckGv7o+8I3T40qPMvj/UrDKXtf2U0+QrVDXbWIez4nxU5BS98bx
+         AvX2hI98mssPHIp5WCY+82V8CHqdzwlmNmL+moRAFfPvYoGuIny0cvc0s3sCgagsgHiQ
+         EKn5rrJzebAwnxmg3JXDhEeYHnlouRiqD2DcrmXO8CX+G26BW/Jg68gpZJZ6NwQ9ccTS
+         zbX7D+x9MxA4tC6kdkG6aAj9qQ437xBFW248vWm6g5SaliYDmqJo0ovKt0J7FqDNrtUA
+         GB9g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-archive:list-unsubscribe-post:references:sender
+         :list-unsubscribe:list-owner:message-id:list-url:in-reply-to:list-id
+         :list-post:date:reply-to:to:from:subject:mime-version:dkim-signature;
+        bh=3S3feFAMDz74+2f35KAbm9MpDM8NINXBdT0+7+2sZSI=;
+        b=nEpqgrs6v5mux2idtFegLmQ52BoBzeCqwD9dAUT6z+DGe5DARKX6L6owttSRseAcOY
+         KgUvQOh+4UviVRn6wYLxSUucYPHK6QfV0d7Q8wqoCVB4yEjpGpw/hiY6eUEjRh9zdFfO
+         /EXa/sEqVmSc90jhr2pV3AvW8iCDmInpHga3HLAFqQ4+9/wflCX6SjWbMVhEtH/hqTs0
+         +62tEcFqXGSAPSfgB4kA++mxmO0wnN9ESlB0UXgnqZFJaXBlhOnSk34VmD252sZ/A4Cd
+         yiB2f4stv7g3hsIlFtxbXjQG/6wKi7eOqSiCkDOZ2xCqRAQEOposc6eF4rWWohlrCeSo
+         FpkQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=LvuvvNqw;
+       arc=pass (i=1 spf=pass spfdomain=mg-d1.substack.com dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id y9-20020a056870418900b0012707451104sor642119oac.10.2022.09.15.06.08.33
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 15 Sep 2022 06:08:33 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AA6agR401vGxYhBPfzq+vthWPPE35Wv1PD4t2DWveUTVvJ+U2Gh1zzq5hVbSQmSQEVSe5lorGdomCpEE/fXjVo1W8uiKBDp369Q=
+X-Received: by 2002:a05:6870:a90e:b0:11d:f581:954a with SMTP id eq14-20020a056870a90e00b0011df581954amr5526336oab.249.1663247312871;
+        Thu, 15 Sep 2022 06:08:32 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1663247312; cv=none;
+        d=google.com; s=arc-20160816;
+        b=BAaCofvwA5jCl8kJRkKGOcb4/HPLAXh4uE7J2QCWS0OQIk3H4h1dKFYP1lK8b1MjVu
+         IslYL4WSjUrrQFgWzmMwtpGLkkZT/CuPDlL/Yi3eD9frZl7I/FG8FD6n2BV+0YpdgxQ3
+         UDM/HMkqk8IC0JLd7C25aJZuNfa3pnTEF3MuZJbE+oYakpccEA4GMoeg3Jr+DRB88ZWT
+         g1KjWOuSBdWJ2m36oKhbVL3Odt7fpzsryingKaB4ww9bQ/HX7y7vvykxJFEi24V0iKel
+         zK/IOM/PR9Lf+XvbB/KAzlK1990JTEh2mINenqK+RSDbCnsvU858D6K9woF8bm3w0Kgi
+         0KVw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-archive:list-unsubscribe-post:references:sender
+         :list-unsubscribe:list-owner:message-id:list-url:in-reply-to:list-id
+         :list-post:date:reply-to:to:from:subject:mime-version:dkim-signature;
+        bh=3S3feFAMDz74+2f35KAbm9MpDM8NINXBdT0+7+2sZSI=;
+        b=JDCrbBibrlfVIUYUWgc6omzPPey6Eara8msGEYz+GIIqlNxTfsT8oGPlG6QuBHUFKz
+         faUqRjS5itmS+T9bYnFaUQQ/i9ykRu5+B0dfxb7AvWyzlGpRkkTCHPvBT9huNdmm3wWZ
+         DL2RezwMD/EZ6ddmbBtgyLx+TFpdhYqajgdcrBx+zZTbNcZYzfnuasmRtC+xabQub5sO
+         mnHTXFenQOmDFX3n4OByQXyt84C+FvEnH9fIwjyzdqKaSCs/KCuDGRIJGecAkrzWcKHE
+         45DZ0p5hSO+X5UejocOnOXnPmdMczmREfU11LXWsKO4T2+bnS1IjzaH/RZbOzktQwaJE
+         uAOw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=LvuvvNqw;
+       spf=pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 161.38.195.184 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from mg-195-184.substack.com (mg-195-184.substack.com. [161.38.195.184])
+        by gmr-mx.google.com with UTF8SMTPS id be36-20020a05687058a400b0011ca4383bd6si289484oab.4.2022.09.15.06.08.22
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 15 Sep 2022 06:08:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 161.38.195.184 as permitted sender) client-ip=161.38.195.184;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d1.substack.com; q=dns/txt;
+ s=k1; t=1663247298; x=1663333698; h=List-Archive: References: Sender:
+ Sender: List-Unsubscribe: List-Owner: Message-Id: In-Reply-To: List-Id:
+ List-Post: Date: Reply-To: To: To: From: From: Subject: Subject:
+ Content-Type: Mime-Version;
+ bh=3S3feFAMDz74+2f35KAbm9MpDM8NINXBdT0+7+2sZSI=; b=LvuvvNqwTz/wUbMTkWy9pzhuyMnLrFGtMX9xoVmq9QZYvXwvv+g+2zmtviIwU2Wdnq3r/97m
+ gyjQMgd7pJ7vyTOzD82Xq2Dz4lNErOkO0J+g5NzXBqToWv2hR/B5aG4wEtKNIjvD5fXljRcA
+ p/LyXau1AbEYlSCRkbCBCHnzt7o=
+X-Mailgun-Sending-Ip: 161.38.195.184
+X-Mailgun-Sid: WyI1OTU0MCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiMzliMDhjNiJd
+Received: from <unknown> (<unknown> []) by d4036ed94faf with HTTP id
+ 6323210d9b30f7f7dc614e85; Thu, 15 Sep 2022 12:56:41 GMT
+X-Mailgun-Batch-Id: 6323210a4838e5e042c02b2f
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="bba831caec0531e95cb0cea3dfcec72a4553b3031095ec6f0d2ac4c9a468"
+Subject: The Founder's Letter: Trevor Dryer & Miles Halady, Carbon Title
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+Reply-To: Not Boring
+ <reply+17p44y&9p0gt&&9d4f88d36175a613d4f550eb8e058fffca53b8d700ec9cd69879eba823e9ac3d@mg1.substack.com>
+Date: Thu, 15 Sep 2022 12:56:27 +0000
+List-Post: <https://www.notboring.co/p/the-founders-letter-trevor-dryer>
+List-Id: <notboring.substack.com>
+In-Reply-To: <post-73395250@substack.com>
+List-Url: <https://www.notboring.co/>
+Message-Id: <20220915125627.3.ad997d981a4a59ae@mg-d1.substack.com>
+List-Owner: <mailto:notboring@substack.com>
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk56TXpPVFV5TlRBc0ltbGhkQ0k2TVRZMk16STBOalU1T0N3aVpYaHdJam94TmpZMU9ETTROVGs0TENKcGMzTWlPaUp3ZFdJdE1UQXdNalVpTENKemRXSWlPaUprYVhOaFlteGxYMlZ0WVdsc0luMC5lTnloZ1duXzlxeUtZRW1DLUJhSE13R3JLSFlWZWJmSnlZaGdmaHdYNVpBIiwicCI6NzMzOTUyNTAsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjYzMjQ2NTk4LCJleHAiOjE2NjU4Mzg1OTgsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.vUY9Eh8-Y2lYY-DKVNIEpLMXleEJ7FZcejbaS8khEjE?>
+Sender: Not Boring <notboring@substack.com>
+References: <post-73395250@substack.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Archive: <https://www.notboring.co/archive>
+X-Mailgun-Variables: {"category": "post", "comment_id": "",
+ "email_generated_at": "1663246600411", "is_freemail": "true",
+ "post_audience": "everyone", "post_id": "73395250", "post_type":
+ "newsletter", "pub_community_enabled": "true", "publication_id": "10025",
+ "subdomain": "notboring", "user_id": "16283549"}
+
+--bba831caec0531e95cb0cea3dfcec72a4553b3031095ec6f0d2ac4c9a468
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/the-founders-letter=
+-trevor-dryer
+
+Welcome to the=C2=A0600=C2=A0newly Not Boring people=C2=A0who have joined u=
+s since Monday! If you haven=E2=80=99t subscribed, join=C2=A0152,817 smart,=
+ curious folks by subscribing here:
+The Founder=E2=80=99s Letter Series is brought to you by=E2=80=A6 Compound =
+[ https://substack.com/redirect/047a1455-93bf-4608-9d7b-9fc08bfe4c9f?r=3D9p=
+0gt ]
+If you work at a high-growth tech startup, you may have been expecting an I=
+PO in 2022. But because of the market downturn, your company is likely stil=
+l private.=C2=A0
+Your personal financial situation faces new questions:
+Should I sell my shares in my company=E2=80=99s secondary sale?
+How much in taxes do I owe when I exercise or sell? How do I minimize my ta=
+xes?
+Once I get some cash, how should I invest it? All ETFs or a balance with so=
+mething else?
+While you could spend the time to figure this out on your own (or not addre=
+ss the questions at all), you could also hire an expert to optimize your pe=
+rsonal finances for you.=C2=A0
+This is where Compound [ https://substack.com/redirect/047a1455-93bf-4608-9=
+d7b-9fc08bfe4c9f?r=3D9p0gt ] steps in.=C2=A0
+Compound [ https://substack.com/redirect/047a1455-93bf-4608-9d7b-9fc08bfe4c=
+9f?r=3D9p0gt ] is an all-in-one solution for tech founders and employees to=
+ manage their personal finances. Compound [ https://substack.com/redirect/0=
+47a1455-93bf-4608-9d7b-9fc08bfe4c9f?r=3D9p0gt ] has served 1,000s of client=
+s from companies like Stripe, Figma, and Airtable and their advisors can he=
+lp you optimize company equity, diversify concentrated stock positions, pla=
+n asset allocation, and more.
+Request access here [ https://substack.com/redirect/59c9a5b3-b17a-4af4-a886=
+-5f48f1c4006b?r=3D9p0gt ] and they=E2=80=99ll be in touch.=C2=A0
+For more information, please check out further disclosures here [ https://s=
+ubstack.com/redirect/5ba1e30e-0074-4c44-bcaa-ba2d539fcf41?r=3D9p0gt ].
+Hi friends ,
+Happy Thursday!=20
+On Monday, I wrote about [ https://substack.com/redirect/09ec82d8-740c-4593=
+-9160-38ad8a2d2b15?r=3D9p0gt ] working harder (more energy) and smarter (be=
+tter technology) to create an Abundance Renaissance. Carbon Title fits the =
+bill.=20
+One of the tensions in the climate fight is that we need to build more hous=
+ing and other new buildings, but the construction and operation of building=
+s emits a lot of carbon. The real estate industry is responsible for 38% of=
+ greenhouse gas emissions globally, but degrowth isn=E2=80=99t the answer. =
+People need places to live and work and gather. Avoiding the disastrous eff=
+ects of climate change but ending up in a world in which half the populatio=
+n can=E2=80=99t afford a home isn=E2=80=99t a good result. Somehow, we need=
+ to build more while emitting less.=20
+Carbon Title=E2=80=99s mission is to resolve that tension by helping buildi=
+ng owners, and their tenants, better understand each building=E2=80=99s car=
+bon footprint and facilitating the purchase of high-quality carbon credits =
+to offset their impact. They=E2=80=99re launching today =E2=80=94 check the=
+m out [ https://substack.com/redirect/54b176c7-5295-4935-aa01-6a815a1929a4?=
+r=3D9p0gt ] =E2=80=94 so I asked the company=E2=80=99s co-founders Trevor a=
+nd Miles to tell us about what they=E2=80=99re building, and why.
+IT=E2=80=99S TIME TO BUILD cleanly.=20
+Let=E2=80=99s get to it.=20
+The Founder=E2=80=99s Letter: Trevor Dryer & Miles Haladay, Carbon Title
+One of the most complex industries on Earth needs radical change
+Let=E2=80=99s start with an enormous, and seemingly intractable, problem. W=
+e need to build 3.8 million more housing units [ https://substack.com/redir=
+ect/0f7249dc-39d5-476c-bc22-822e13828cba?r=3D9p0gt ] in the United States j=
+ust to keep up with the rate of household formation=E2=80=94we=E2=80=99re c=
+urrently building at a rate of 1.5 million per year [ https://substack.com/=
+redirect/786cc149-6ab7-4d98-a13e-1b3a8c344b5a?r=3D9p0gt ]. Add in the need =
+for additional essential infrastructure, and construction output will likel=
+y double by the end of the decade.
+To keep up with the Paris agreements=E2=80=94and to stave off the worst-cas=
+e climate scenario=E2=80=94the construction industry, like every other indu=
+stry, needs to reduce its total carbon emissions by about 45% by 2030.=C2=
+=A0
+It doesn=E2=80=99t take a math genius to calculate that in order to both do=
+uble construction output and cut emissions almost in half, all within the n=
+ext 8 years, we need to slash per-project emissions by at least 70%.
+2030 is coming fast in construction time. Construction isn=E2=80=99t softwa=
+re and can=E2=80=99t be iterated multiple times a day. Many in the industry=
+ work on one project at a time. And given that new buildings take, from ide=
+a to occupancy, about 2 to 4 years to complete, we need to make radical cha=
+nges right now=E2=80=94leaving us the next three to four iterative cycles t=
+o hit the 2030 targets.
+Oh=E2=80=94and building shit is hard. You=E2=80=99re putting millions of do=
+llars on the line for a single digit profit margin, and, at the same time, =
+dealing with all of the challenges of a people business: mistakes are made,=
+ employees argue, and construction materials=E2=80=94well, we can only hope=
+ they show up sometime. Let=E2=80=99s just say adding brand-new, untested p=
+roducts to the mix isn=E2=80=99t something contractors hope for when they w=
+ake up.
+If you aren=E2=80=99t concerned enough yet=E2=80=A6real estate accounts for=
+ 38% of global greenhouse gas emissions [ https://substack.com/redirect/9e7=
+21c48-b049-480e-8e4f-60d4ee29bb9e?r=3D9p0gt ].
+Construction is a necessary industry and its impact on society is real and =
+lasting. Without construction, we don=E2=80=99t have hospitals, schools, ho=
+using or power. No stadiums, retail spaces, theaters, conference centers. W=
+ithout construction we live in tents.
+Bottom line: construction is a high carbon, low margin, essential industry.=
+ We can=E2=80=99t just cross our fingers and hope it will decarbonize. We h=
+ave to do the work. As two dads with kids whose lives will be shaped by the=
+ trajectory of the climate crisis, we feel we have a personal stake in doin=
+g this work=E2=80=94and, as successful founders with experience in the cons=
+truction and fintech industries, we believe we have a unique angle on the s=
+olution to construction=E2=80=99s seemingly intractable carbon problem.
+We need to radically rethink how we approach construction. In order to make=
+ that happen, we need to give everyone =E2=80=93 from the bankers who finan=
+ce construction projects, to the corporations that rent office space, to th=
+e ordinary people who rent apartments =E2=80=93 the information they need t=
+o easily identify carbon-neutral buildings, and vote with their feet for lo=
+wer-carbon options. We need to align the financial incentives of this indus=
+try with the urgent human need to address the climate crisis.
+Two key things need to happen to get the construction industry to go carbon=
+-neutral within the next 8 years.=C2=A0
+First, it needs to be easier for builders to find, evaluate, and implement =
+lower-carbon materials, and purchase high-quality carbon removal credits to=
+ offset the remaining emissions and get to carbon neutral. High-quality car=
+bon credits serve two purposes.=C2=A0 First, they finance projects that act=
+ually remove and sequester carbon.=C2=A0 Second, they capture the cost of t=
+he negative externality (carbon emissions) in the cost of the building.=C2=
+=A0 This not only helps us achieve our climate goals, but also makes greene=
+r alternatives more cost competitive.=C2=A0=C2=A0=C2=A0
+Second, it needs to be easier for tenants and stakeholders to evaluate a bu=
+ilding or project=E2=80=99s carbon footprint. Much of this information is n=
+ot well understood or is locked up in proprietary databases, hidden from ma=
+ss consumption. Do you know how many metric tons of greenhouse gasses your =
+apartment building emits each year? As one industry person put it, without =
+public data, it is easy for tenants, bankers, investors and developers =E2=
+=80=9Cto stay blissfully ignorant of the mess they are making.=E2=80=9D
+Banks, investment firms, and companies with large real estate portfolios ne=
+ed to stop the hot potato game of who owns a building=E2=80=99s carbon emis=
+sions. Building owners profit from their buildings, and we believe they are=
+ ultimately responsible for the carbon emitted. Tenants and other stakehold=
+ers should and are starting to demand better=E2=80=94reports [ https://subs=
+tack.com/redirect/c27dc66b-418f-4ab0-b8d9-ca0245af2ae4?r=3D9p0gt ] already =
+show that green-certified office buildings command rental premiums of as mu=
+ch as 21%.=C2=A0 Many of our early customers tell us that their buildings a=
+re more valuable-upon sale and in the form of higher rents=E2=80=93if they =
+are carbon neutral. So, do it for the earth, or do it for your bottom line.=
+ In the end, it doesn=E2=80=99t matter.=C2=A0
+Our company Carbon Title [ https://substack.com/redirect/6104cd94-e2b0-408f=
+-b6ed-3ba4f2c15f86?r=3D9p0gt ] offers a simple, transparent, cost-effective=
+ way to neutralize buildings=E2=80=99 climate impact. Our platform empowers=
+ building owners, developers, and contractors to easily understand a buildi=
+ng=E2=80=99s CO2 emissions over time, purchase high-quality carbon credits,=
+ and apply carbon credits to achieve verifiable carbon neutrality.
+We do this with radical transparency, using Web3 tools (blockchain, NFTs et=
+c.) to verify carbon neutrality claims and enforce traceability. No hidden =
+greenwashing.
+What are two non-crypto native founders doing talking Web3? =C2=A0
+At our last companies, Mirador, a fintech company Trevor founded, and Viewp=
+oint, a construction software company owned and operated by Miles=E2=80=99s=
+ family, we learned that technology needs to solve a problem, not just soun=
+d cool. In this case, the problem=E2=80=94a lack of transparency and trust =
+in the carbon credit market=E2=80=94is tailor-made for new Web3 tools. We d=
+idn=E2=80=99t set out to start a web3 company and, in fact, when we raised =
+our pre-seed at the top of the market in December of 2021, we didn=E2=80=99=
+t mention web3.=C2=A0 However, as we learned more about public blockchains =
+and NFTs=E2=80=93even as the market crashed=E2=80=93we realized Web3 could =
+help us fulfill our mission.=C2=A0
+To start, Carbon Title aims to build a decentralized database of carbon emi=
+ssions. This data has to be public, so that all stakeholders can apply pres=
+sure on builders to use lower-carbon materials and finance high-quality car=
+bon removal projects. Transparency is also essential for the large (and gro=
+wing) number of corporations, money managers, hedge funds, banks, and endow=
+ments that have made climate neutrality pledges.
+This data also has to be trustworthy. The stakes are too high to allow for =
+greenwashing. Construction won=E2=80=99t be able to go completely carbon-ne=
+utral without adding some carbon removal into the mix=E2=80=94that=E2=80=99=
+s simply the reality of building in the physical world and the limitations =
+of today=E2=80=99s technology. So stakeholders need to be able to trust tha=
+t the carbon removal credits getting a building to net zero are actually re=
+moving carbon from the atmosphere. Creating NFTs for carbon removal credits=
+ ensures that each carbon credit purchased is unique.
+Public opinion is on the side of change. Rapid change. But right now, high-=
+quality data on carbon emissions simply isn=E2=80=99t available to the publ=
+ic. As a result, builders and developers haven=E2=80=99t felt much pressure=
+ yet to change. Putting carbon data on the blockchain will enable us to mak=
+e it accessible, verifiable, and trustworthy. Because blockchain data can=
+=E2=80=99t be edited and is public, stakeholders will be able to see the wh=
+ole history of a building=E2=80=99s efforts to go carbon neutral, even when=
+ the building is sold to new management. This will give people and institut=
+ions the tools they need to force the industry to change=E2=80=94and give t=
+he construction industry the tools it needs to make changes faster and more=
+ effectively.
+Building a better world
+The climate crisis is a generation-defining problem, and construction is a =
+big part of that problem. We need to keep building more homes and more infr=
+astructure, but we need to quickly start building greener. With Carbon Titl=
+e, we will give both builders and their customers the tools they need to de=
+mand and enact rapid change. We=E2=80=99ll make the financial benefit of gr=
+eener construction crystal-clear, and we=E2=80=99ll help builders buy high-=
+quality, verifiable carbon removal credits to close the gap and get their p=
+rojects to carbon-neutral.
+We believe that humanity has the potential to alter its course, even at thi=
+s point. We also believe that we can solve this problem while continuing to=
+ build the economy. We want more building, and cleaner building. Most impor=
+tantly, we all owe it to our children to figure this out =E2=80=93 they nee=
+d both a planet to live on and buildings to live in.
+We each have two kids who are the same ages=E2=80=948 and 11=E2=80=94which =
+is how we met. We can no longer say that some generation in the future will=
+ deal with our problems; our children will see the ocean rise at least a fo=
+ot in their lifetime. They will experience more wildfires, countless losses=
+ of natural wonders like the Great Barrier Reef, and potentially untold pro=
+blems such as food scarcity and mass migration that we can=E2=80=99t fully =
+anticipate today.
+Carbon Title is our effort to drive radical climate change. What=E2=80=99s =
+yours?
+Trevor & Miles
+Thanks to Trevor & Miles for sharing their story!=20
+We=E2=80=99ll be back here first thing tomorrow morning with the Weekly Dos=
+e of Optimism.=20
+Thanks for reading,=20
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZOek16T1RVeU5UQXNJbWxoZENJNk1UWTJNekkwTmpVNU9Dd2laW=
+Gh3SWpveE5qWTFPRE00TlRrNExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FY=
+TmhZbXhsWDJWdFlXbHNJbjAuZU55aGdXbl85cXlLWUVtQy1CYUhNd0dyS0hZVmViZkp5WWhnZmh=
+3WDVaQSIsInAiOjczMzk1MjUwLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdC=
+I6MTY2MzI0NjU5OCwiZXhwIjoxNjY1ODM4NTk4LCJpc3MiOiJwdWItMCIsInN1YiI6Imxpbmstc=
+mVkaXJlY3QifQ.HiHapMmUqLltdcWX4cBarq8Z7HXnacxQOEL7GBIZt4s?
+--bba831caec0531e95cb0cea3dfcec72a4553b3031095ec6f0d2ac4c9a468
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D"--animation-smoothing: cubic-bezier(0.16, 1, 0.3, 1); --anim=
+ation-timing-fast: 0.2s; --animation-timing-slow: 0.5s; --border-default: 1=
+px solid var(--color-utility-detail); --border-radius: 4px; --border-radius=
+-12: 12px; --border-radius-4: 4px; --border-radius-8: 8px; --color-accent-w=
+ith-theme: #67bdfc; --color-bg-primary: var(--color-white); --color-bg-seco=
+ndary: #f5f5f5; --color-bg-tertiary: #dedede; --color-bg-tooltip: #191919; =
+--color-blue: #66c8ff; --color-error: #eb5757; --color-green: #53d09c; --co=
+lor-heart: #ff8383; --color-primary: #404040; --color-primary-with-theme: #=
+1a1a1a; --color-secondary: #808080; --color-secondary-with-theme: #767676; =
+--color-substack-accent: #ff6719; --color-substack-accent-bg: #fff7f3; --co=
+lor-substack-bg: var(--color-white); --color-substack-secondary: #808080; -=
+-color-substack-wash: #f5f5f5; --color-tertiary: #a7a7a7; --color-utility-d=
+etail: #e0e0e0; --color-white: #ffffff; --font-family-meta: 'SF Compact Rou=
+nded', 'SF Pro Rounded', ui-rounded, 'SF Pro Text', -apple-system,
+    BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans=
+-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol'; --font-family-serif: -apple-system-ui-serif, ui-seri=
+f, 'Spectral', 'Georgia', serif; --font-family-text: 'SF Pro Text', -apple-=
+system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; --font-family-title: 'SF Pro Display', -apple-system-headline, var(--=
+font-family-text); --font-size-14: 14px; --font-size-16: 16px; --font-size-=
+default: 16px; --font-weight-600: 600; --grid-0-5: 4px; --grid-1: 8px; --gr=
+id-2: 16px; --grid-3: 24px; --grid-4: 32px; --grid-5: 40px; --grid-6: 48px;=
+ --img-transition: background-color var(--animation-timing-fast) var(--anim=
+ation-smoothing); --letter-spacing-default: -0.3px; --letter-spacing-small:=
+ -0.15px; --line-height-20: 20px; --line-height-default: 20px; --nav-bp-1: =
+1168px; --nav-bp-2: 500px; --padder: 16px; --shadow-lg: 0px 10px 15px -3px =
+rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05); --shadow-md: 0px =
+4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06); --sh=
+adow-sm: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06); -=
+-shadow-xl: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(=
+0, 0, 0, 0.04); --size-12: 12px; --size-16: 16px; --size-32: 32px; --size-4=
+: 4px; --size-40: 40px; --size-8: 8px;"><head><title>The Founder's Letter: =
+Trevor Dryer &amp; Miles Halady, Carbon Title</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-inner div.youtube-screen,
+  .typography.editor .markup div.youtube-inner div.youtube-screen,
+  .typography .markup div.vimeo-inner div.youtube-screen,
+  .typography.editor .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (min-width: 540px) {
+  .subscribe-dialog-above-the-fold .subscribe-dialog-publication-inbox-prom=
+pt {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-dialog-above-the-fold .subscribe-dialog-contents .subscribe-di=
+alog-publication-title {
+    margin-top: 28px;
+  }
+  .subscribe-dialog-above-the-fold .subscribe-dialog-contents .subscribe-di=
+alog-publication-subtitle {
+    display: none;
+  }
+  .subscribe-dialog-above-the-fold .subscribe-dialog-contents .subscribe-di=
+alog-publication-inbox-prompt {
+    margin-bottom: 20px;
+  }
+  .subscribe-dialog-above-the-fold .subscribe-dialog-contents .subscribe-di=
+alog-let-me-read-it {
+    margin-bottom: 38px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget .header-anchor-widget-bu=
+tton-container {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f5f5f5 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 620px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+
+
+@media (min-width: 631px) {
+  .sm\:tw-relative {
+    position: relative !important;
+  }
+  .sm\:tw-my-8 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .sm\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .sm\:tw-ml-0 {
+    margin-left: 0px !important;
+  }
+  .sm\:tw-mt-0 {
+    margin-top: 0px !important;
+  }
+  .sm\:tw-ml-3 {
+    margin-left: 0.75rem !important;
+  }
+  .sm\:tw-mb-0 {
+    margin-bottom: 0px !important;
+  }
+  .sm\:tw-mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .sm\:tw-block {
+    display: block !important;
+  }
+  .sm\:tw-inline-block {
+    display: inline-block !important;
+  }
+  .sm\:tw-flex {
+    display: flex !important;
+  }
+  .sm\:tw-hidden {
+    display: none !important;
+  }
+  .sm\:tw-h-screen {
+    height: 100vh !important;
+  }
+  .sm\:tw-h-56 {
+    height: 14rem !important;
+  }
+  .sm\:tw-max-h-\[60vh\] {
+    max-height: 60vh !important;
+  }
+  .sm\:tw-w-auto {
+    width: auto !important;
+  }
+  .sm\:tw-w-full {
+    width: 100% !important;
+  }
+  .sm\:tw-w-56 {
+    width: 14rem !important;
+  }
+  .sm\:tw-w-\[500px\] {
+    width: 500px !important;
+  }
+  .sm\:tw-max-w-lg {
+    max-width: 32rem !important;
+  }
+  .sm\:tw-max-w-none {
+    max-width: none !important;
+  }
+  .sm\:tw-translate-y-0 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-95 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-100 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .sm\:tw-items-start {
+    align-items: flex-start !important;
+  }
+  .sm\:tw-gap-3 {
+    gap: 0.75rem !important;
+  }
+  .sm\:tw-gap-4 {
+    gap: 1rem !important;
+  }
+  .sm\:tw-gap-5 {
+    gap: 1.25rem !important;
+  }
+  .sm\:tw-gap-1 {
+    gap: 0.25rem !important;
+  }
+  .sm\:tw-gap-2 {
+    gap: 0.5rem !important;
+  }
+  .sm\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
+  }
+  .sm\:tw-border {
+    border-width: 1px !important;
+  }
+  .sm\:tw-p-0 {
+    padding: 0px !important;
+  }
+  .sm\:tw-p-6 {
+    padding: 1.5rem !important;
+  }
+  .sm\:tw-px-6 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .sm\:tw-py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .sm\:tw-pb-4 {
+    padding-bottom: 1rem !important;
+  }
+  .sm\:tw-pb-16 {
+    padding-bottom: 4rem !important;
+  }
+  .sm\:tw-text-left {
+    text-align: left !important;
+  }
+  .sm\:tw-align-middle {
+    vertical-align: middle !important;
+  }
+  .sm\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .sm\:tw-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .sm\:tw-font-medium {
+    font-weight: 500 !important;
+  }
+  .sm\:tw-text-pub-secondary-text {
+    color: #767676 !important;
+  }
+  .sm\:tw-opacity-70 {
+    opacity: 0.7 !important;
+  }
+  .sm\:hover\:tw-opacity-100:hover {
+    opacity: 1 !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .md\:tw-left-auto {
+    left: auto !important;
+  }
+  .md\:tw-bottom-4 {
+    bottom: 1rem !important;
+  }
+  .md\:tw-right-4 {
+    right: 1rem !important;
+  }
+  .md\:tw-w-3\/4 {
+    width: 75% !important;
+  }
+  .md\:tw-pl-4 {
+    padding-left: 1rem !important;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-pencraft-common-module__flex-direction-mobile-column--QEQMb {
+    flex-direction: column;
+  }
+  .frontend-pencraft-common-module__flex-direction-mobile-row--2covw {
+    flex-direction: row;
+  }
+  .frontend-pencraft-common-module__flex-direction-mobile-row-reverse--_Acu=
+e {
+    flex-direction: row-reverse;
+  }
+  .frontend-pencraft-common-module__flex-direction-mobile-column-reverse--1=
+tk_j {
+    flex-direction: column-reverse;
+  }
+  .frontend-pencraft-common-module__flex-justify-mobile-start--10Ck6 {
+    justify-content: flex-start;
+  }
+  .frontend-pencraft-common-module__flex-justify-mobile-space-between--1thW=
+z {
+    justify-content: space-between;
+  }
+  .frontend-pencraft-common-module__flex-justify-mobile-center--1ELDq {
+    justify-content: center;
+  }
+  .frontend-pencraft-common-module__flex-justify-mobile-end--3qfew {
+    justify-content: flex-end;
+  }
+  .frontend-pencraft-common-module__flex-align-mobile-start--Am1pD {
+    align-items: flex-start;
+  }
+  .frontend-pencraft-common-module__flex-align-mobile-end--wM4Mu {
+    align-items: flex-end;
+  }
+  .frontend-pencraft-common-module__flex-align-mobile-center--1HtZR {
+    align-items: center;
+  }
+  .frontend-pencraft-common-module__flex-gap-mobile-0--17zPw {
+    gap: 0;
+  }
+  .frontend-pencraft-common-module__flex-gap-mobile-4--36m7v {
+    gap: 4px;
+  }
+  .frontend-pencraft-common-module__flex-gap-mobile-6--2dloA {
+    gap: 6px;
+  }
+  .frontend-pencraft-common-module__flex-gap-mobile-8--2qVaY {
+    gap: 8px;
+  }
+  .frontend-pencraft-common-module__flex-gap-mobile-12--uXb6B {
+    gap: 12px;
+  }
+  .frontend-pencraft-common-module__flex-gap-mobile-16--2onFW {
+    gap: 16px;
+  }
+  .frontend-pencraft-common-module__flex-gap-mobile-20--1OKrw {
+    gap: 20px;
+  }
+  .frontend-pencraft-common-module__flex-gap-mobile-24--6_4Ii {
+    gap: 24px;
+  }
+  .frontend-pencraft-common-module__flex-gap-mobile-32--17QXx {
+    gap: 32px;
+  }
+  .frontend-pencraft-common-module__flex-gap-mobile-40--14OJ6 {
+    gap: 40px;
+  }
+  .frontend-pencraft-common-module__flex-gap-mobile-48--1Wkoi {
+    gap: 48px;
+  }
+  .frontend-pencraft-common-module__flex-gap-mobile-56--18KBR {
+    gap: 56px;
+  }
+  .frontend-pencraft-common-module__flex-gap-mobile-80--3KL2w {
+    gap: 80px;
+  }
+  .frontend-pencraft-common-module__flex-gap-mobile-120--1oBaT {
+    gap: 120px;
+  }
+  .frontend-pencraft-common-module__padding-mobile-0--L4Hki {
+    padding: 0;
+  }
+  .frontend-pencraft-common-module__padding-mobile-4--94nEz {
+    padding: 4px;
+  }
+  .frontend-pencraft-common-module__padding-mobile-6--nqbPK {
+    padding: 6px;
+  }
+  .frontend-pencraft-common-module__padding-mobile-8--3akLr {
+    padding: 8px;
+  }
+  .frontend-pencraft-common-module__padding-mobile-12--3AwxE {
+    padding: 12px;
+  }
+  .frontend-pencraft-common-module__padding-mobile-16--1PnOi {
+    padding: 16px;
+  }
+  .frontend-pencraft-common-module__padding-mobile-20--3AlKM {
+    padding: 20px;
+  }
+  .frontend-pencraft-common-module__padding-mobile-24--dHZyP {
+    padding: 24px;
+  }
+  .frontend-pencraft-common-module__padding-mobile-32--18S6A {
+    padding: 32px;
+  }
+  .frontend-pencraft-common-module__padding-mobile-40--qHCzi {
+    padding: 40px;
+  }
+  .frontend-pencraft-common-module__padding-mobile-48--24VgS {
+    padding: 48px;
+  }
+  .frontend-pencraft-common-module__padding-mobile-56--ysS4E {
+    padding: 56px;
+  }
+  .frontend-pencraft-common-module__padding-mobile-80--3oPgN {
+    padding: 80px;
+  }
+  .frontend-pencraft-common-module__padding-mobile-120--3raVs {
+    padding: 120px;
+  }
+  .frontend-pencraft-common-module__padding-y-mobile-0--27NtC {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .frontend-pencraft-common-module__padding-y-mobile-4--MA3SC {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .frontend-pencraft-common-module__padding-y-mobile-6--2ktNk {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .frontend-pencraft-common-module__padding-y-mobile-8--1-xgA {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .frontend-pencraft-common-module__padding-y-mobile-12--1Gxu1 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .frontend-pencraft-common-module__padding-y-mobile-16--2Bn9G {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .frontend-pencraft-common-module__padding-y-mobile-20--1MnDX {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .frontend-pencraft-common-module__padding-y-mobile-24--21eSI {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .frontend-pencraft-common-module__padding-y-mobile-32--3LxMP {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .frontend-pencraft-common-module__padding-y-mobile-40--2qUAb {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .frontend-pencraft-common-module__padding-y-mobile-48--YAvdN {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .frontend-pencraft-common-module__padding-y-mobile-56--_h6Kt {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+  .frontend-pencraft-common-module__padding-y-mobile-80--35tU1 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .frontend-pencraft-common-module__padding-y-mobile-120--3VE_R {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .frontend-pencraft-common-module__padding-x-mobile-0--PtkwN {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .frontend-pencraft-common-module__padding-x-mobile-4--1dhXj {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .frontend-pencraft-common-module__padding-x-mobile-6--3hOc- {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .frontend-pencraft-common-module__padding-x-mobile-8--26X3h {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .frontend-pencraft-common-module__padding-x-mobile-12--HLyv5 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .frontend-pencraft-common-module__padding-x-mobile-16--T3Ne1 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .frontend-pencraft-common-module__padding-x-mobile-20--25-W6 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .frontend-pencraft-common-module__padding-x-mobile-24--3LP_L {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .frontend-pencraft-common-module__padding-x-mobile-32--1-AbR {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .frontend-pencraft-common-module__padding-x-mobile-40--1tqgI {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .frontend-pencraft-common-module__padding-x-mobile-48--3JJQU {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .frontend-pencraft-common-module__padding-x-mobile-56--4pYXQ {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+  .frontend-pencraft-common-module__padding-x-mobile-80--3R7LV {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .frontend-pencraft-common-module__padding-x-mobile-120--23ON4 {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .frontend-pencraft-common-module__padding-top-mobile-0--25R3Q {
+    padding-top: 0;
+  }
+  .frontend-pencraft-common-module__padding-top-mobile-4--3St0o {
+    padding-top: 4px;
+  }
+  .frontend-pencraft-common-module__padding-top-mobile-6--21NCF {
+    padding-top: 6px;
+  }
+  .frontend-pencraft-common-module__padding-top-mobile-8--3wg7- {
+    padding-top: 8px;
+  }
+  .frontend-pencraft-common-module__padding-top-mobile-12--3e1OP {
+    padding-top: 12px;
+  }
+  .frontend-pencraft-common-module__padding-top-mobile-16--3-j4R {
+    padding-top: 16px;
+  }
+  .frontend-pencraft-common-module__padding-top-mobile-20--1mFOS {
+    padding-top: 20px;
+  }
+  .frontend-pencraft-common-module__padding-top-mobile-24--3xBqY {
+    padding-top: 24px;
+  }
+  .frontend-pencraft-common-module__padding-top-mobile-32--1FA3j {
+    padding-top: 32px;
+  }
+  .frontend-pencraft-common-module__padding-top-mobile-40--1UTqL {
+    padding-top: 40px;
+  }
+  .frontend-pencraft-common-module__padding-top-mobile-48--8eA9R {
+    padding-top: 48px;
+  }
+  .frontend-pencraft-common-module__padding-top-mobile-56--1nzmr {
+    padding-top: 56px;
+  }
+  .frontend-pencraft-common-module__padding-top-mobile-80--1kmzV {
+    padding-top: 80px;
+  }
+  .frontend-pencraft-common-module__padding-top-mobile-120--IzR2I {
+    padding-top: 120px;
+  }
+  .frontend-pencraft-common-module__padding-bottom-mobile-0--22yvu {
+    padding-bottom: 0;
+  }
+  .frontend-pencraft-common-module__padding-bottom-mobile-4--3iYzN {
+    padding-bottom: 4px;
+  }
+  .frontend-pencraft-common-module__padding-bottom-mobile-6--1IU78 {
+    padding-bottom: 6px;
+  }
+  .frontend-pencraft-common-module__padding-bottom-mobile-8--1OnEN {
+    padding-bottom: 8px;
+  }
+  .frontend-pencraft-common-module__padding-bottom-mobile-12--2Z3YP {
+    padding-bottom: 12px;
+  }
+  .frontend-pencraft-common-module__padding-bottom-mobile-16--1O52g {
+    padding-bottom: 16px;
+  }
+  .frontend-pencraft-common-module__padding-bottom-mobile-20--1qjA7 {
+    padding-bottom: 20px;
+  }
+  .frontend-pencraft-common-module__padding-bottom-mobile-24--3F6_c {
+    padding-bottom: 24px;
+  }
+  .frontend-pencraft-common-module__padding-bottom-mobile-32--1Pl16 {
+    padding-bottom: 32px;
+  }
+  .frontend-pencraft-common-module__padding-bottom-mobile-40--16dfR {
+    padding-bottom: 40px;
+  }
+  .frontend-pencraft-common-module__padding-bottom-mobile-48--294Xj {
+    padding-bottom: 48px;
+  }
+  .frontend-pencraft-common-module__padding-bottom-mobile-56--2a2m4 {
+    padding-bottom: 56px;
+  }
+  .frontend-pencraft-common-module__padding-bottom-mobile-80--2egWl {
+    padding-bottom: 80px;
+  }
+  .frontend-pencraft-common-module__padding-bottom-mobile-120--36GGe {
+    padding-bottom: 120px;
+  }
+}
+
+
+@media (max-width: 1168px) {
+  .frontend-components-NavBadge-module__responsive--3TOrk {
+    right: 2px;
+    width: 6px;
+    height: 6px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .frontend-components-NavBadge-module__responsive--3TOrk {
+    right: auto;
+    bottom: -2px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-pencraft-Text-module__marketingHeading1--2faSI.frontend-pencraf=
+t-Text-module__marketingHeading1--2faSI {
+    font-size: 44px;
+    line-height: 54.56px;
+  }
+  .frontend-pencraft-Text-module__marketingHeading2--3kVJM.frontend-pencraf=
+t-Text-module__marketingHeading2--3kVJM {
+    font-size: 32px;
+    line-height: 33.79px;
+  }
+  .frontend-pencraft-Text-module__marketingHeading3--3VbJ0.frontend-pencraf=
+t-Text-module__marketingHeading3--3VbJ0 {
+    font-size: 28px;
+    line-height: 34.72px;
+  }
+  .frontend-pencraft-Text-module__marketingQuote--1DD9-.frontend-pencraft-T=
+ext-module__marketingQuote--1DD9- {
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+
+
+@media (max-width: var(--nav-bp-2)) {
+  .frontend-reader2-Page-module__linkRow--1QoCL.frontend-reader2-Page-modul=
+e__isPadded--Gbh4N {
+    padding: var(--size-12) 0;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-login-typo_handler-EmailTypoHandler-module__wrapper--3KwYe {
+    max-width: none;
+    margin: 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-components-prompts-WriterShareModal-module__toast--wc1bo {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-lib-ProfileSetupToast-module__headerRow--17w27 {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-substack-MarketingBenefits-module__image--2QUft {
+    max-width: 320px;
+    width: 100%;
+  }
+  .frontend-substack-MarketingBenefits-module__text--SaPmW {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-substack-MarketingFaq-module__question--2rUpu {
+    padding-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-substack-MarketingHero-module__hero--3h-vI {
+    padding-top: 164px;
+    padding-bottom: 80px;
+    height: auto;
+  }
+  .frontend-substack-MarketingHero-module__heroInnerRow--2eFw1 {
+    height: auto;
+  }
+  .frontend-substack-MarketingHero-module__heroImg--bOtm8 {
+    flex-basis: auto !important;
+    max-width: 342px;
+  }
+  .frontend-substack-MarketingHero-module__heroText--1wSRq {
+    flex-basis: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-substack-HomePageLeaderboard-module__itemRank--11Q67 {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .frontend-substack-home_page-module__home--28JuV section h2 {
+    margin-top: 80px;
+    font-size: 44px;
+    line-height: 54.56px;
+  }
+  .frontend-substack-home_page-module__writerList--1rikY {
+    padding: 0 24px 80px 24px;
+    gap: 80px;
+  }
+  .frontend-substack-home_page-module__writerList--1rikY > div {
+    margin-top: 0;
+    gap: 80px;
+  }
+  .frontend-substack-home_page-module__accordion--FrMcl {
+    flex-basis: auto;
+  }
+  .frontend-substack-home_page-module__readingExperience--3sCWK {
+    max-height: 100px;
+    max-width: 100%;
+  }
+  .frontend-substack-home_page-module__readingExperiencesImage--3YmzM {
+    width: 110%;
+    flex-basis: auto;
+  }
+  .frontend-substack-home_page-module__expandCollapseButton--3UjfI {
+    top: 34px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-substack-PublicationThreadAppLinkPage-module__threadsLinkContai=
+ner--3JR5W {
+    width: calc(100vw - 80px);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-account-groups-GroupManagement-module__groupSubWrapper--OIOo2 {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 825px) {
+  .frontend-reader2-PostViewer-module__navArrows--3IjkT {
+    opacity: 0;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .frontend-reader2-ManageSubscriptionPage-module__highlightRow--1lIkl.fron=
+tend-reader2-ManageSubscriptionPage-module__withPlans--3KhSk {
+    align-items: start;
+    flex-direction: column;
+  }
+  .frontend-reader2-ManageSubscriptionPage-module__highlightButtons--1lIV5 =
+{
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+  .frontend-editor-post-AudioEducationModal-module__modalContainer--3-T0R {
+    height: 524px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-publish-stats-pages-reader_referrals_stats-reader_referrals_sta=
+ts-module__popoverWrapper--3Gh5i {
+    display: none;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwOTE1MTI1NjI3LjMuYWQ5OTdkOTgxYTRhNTlhZUBtZy1kMS5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFja=
+y5jb20iLCJwIjo3MzM5NTI1MCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjox=
+MDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTY2MzI0NjY=
+wMCwiZXhwIjoxNjY1ODM4NjAwLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.aOnY5yik1UaPSI=
+32OxB1y_zocutFUVglqmpQapdg7do" alt=3D"" width=3D"1" height=3D"1" border=3D"=
+0" style=3D"height:1px !important;width:1px !important;border-width:0 !impo=
+rtant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !im=
+portant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 =
+!important;padding-right:0 !important;padding-left:0 !important;"/><div sty=
+le=3D"display:none;font-size:1px;color:#333333;line-height:1px;max-height:0=
+px;max-width:0px;opacity:0;overflow:hidden;" class=3D"preview">Helping Buil=
+ders Build More, Cleanly &#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+</div><table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" class=3D"email-body-container"><tr><td></td><td wi=
+dth=3D"550" class=3D"content"></td><td></td></tr><tr><td></td><td align=3D"=
+left" width=3D"550" class=3D"content"><div style=3D"font-size: 16px; line-h=
+eight: 26px; margin: 0 auto; max-width: 550px; overflow-wrap: break-word; w=
+idth: 100%;"><table role=3D"presentation" width=3D"100%" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0"><tr><td align=3D"right" style=3D"height: 40p=
+x;"><table role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0"><tr><td style=3D"vertical-align: middle;"><a href=3D"=
+https://substack.com/app-link/post?publication_id=3D10025&post_id=3D7339525=
+0&utm_source=3Demail" class=3D"tw-font-body tw-text-ssm tw-text-substack-se=
+condary" style=3D"color: rgb(128,128,128) !important; font-family: SF Pro T=
+ext, -apple-system, BlinkMacSystemFont, Inter, Segoe UI, Roboto, Helvetica,=
+ Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !imp=
+ortant; font-size: 13px !important;">Open in browser</a></td></tr></table><=
+/td></tr></table><div dir=3D"auto" class=3D"post typography" style=3D"font-=
+size: 16px; line-height: 26px; padding: 16px 0 0 0;"><div class=3D"post-hea=
+der" style=3D"font-size: 16px; line-height: 26px;"><h1 class=3D"post-title =
+long published" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font=
+-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display',=
+ -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, s=
+ans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-s=
+ize: 1.625em; font-weight: bold; line-height: 130%; margin: 0.378em 0 0 0;"=
+><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL3AvdGhlLWZvdW5kZXJzLWxldHRlci10cmV2b3ItZHJ5ZXI_dG9rZW49ZXlKMWMyVn=
+lYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk56TXpPVFV5TlRBc0ltbGhkQ0k2TVRZM=
+k16STBOalU1T0N3aVpYaHdJam94TmpZMU9ETTROVGs0TENKcGMzTWlPaUp3ZFdJdE1UQXdNalVp=
+TENKemRXSWlPaUp3YjNOMExYSmxZV04wYVc5dUluMC5VS2FqV1RQYm1LeWQtc1QxOHFRVklZU2l=
+LSWY1UENWcjhjREs5U2pTT3hFIiwicCI6NzMzOTUyNTAsInMiOjEwMDI1LCJmIjp0cnVlLCJ1Ij=
+oxNjI4MzU0OSwiaWF0IjoxNjYzMjQ2NTk4LCJleHAiOjE2NjU4Mzg1OTgsImlzcyI6InB1Yi0wI=
+iwic3ViIjoibGluay1yZWRpcmVjdCJ9.pNJLYJzx4L0oUV_I5CAMsbmqnysKzk8WONP2_sSOrSE=
+?" style=3D"color: #1a1a1a; text-decoration: none;">The Founder's Letter: T=
+revor Dryer &amp; Miles Halady, Carbon Title</a></h1><h3 class=3D"subtitle"=
+ style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: ant=
+ialiased; color: #767676; font-family: 'SF Compact Display', -apple-system,=
+ BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'App=
+le Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 20px; font=
+-weight: normal; line-height: 1.16em; margin: 4px 0 8px; margin-top: 8px;">=
+Helping Builders Build More, Cleanly</h3><table cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"post-meta custom" style=3D"align-items: center; height: 2=
+0px; margin: 1em 0;"><tr><td title=3D"2022-09-15T12:56:31.662Z" class=3D"po=
+st-meta-item post-date" style=3D"color: #767676; font-family: -apple-system=
+, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Ap=
+ple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; fon=
+t-weight: 400; height: 14px; margin-right: 0; padding: 0px 12px 0px 0; padd=
+ing-bottom: 0; padding-right: 0; padding-top: 0; position: relative; text-d=
+ecoration: none; white-space: nowrap;"><time dateTime=3D"2022-09-15T12:56:3=
+1.662Z">Sep 15</time></td></tr></table><table role=3D"presentation" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-u=
+fi-2-top" style=3D"border-bottom: 1px solid #e0e0e0; border-top: 1px solid =
+#e0e0e0;"><tr height=3D"16"><td height=3D"16" style=3D"font-size: 0px; line=
+-height: 0;">&#160;</td></tr><tr><td><table role=3D"presentation" width=3D"=
+100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><table role=
+=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td style=3D"vertical-align: middle;"><table role=3D"presentatio=
+n" width=3D"36" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td al=
+ign=3D"center"><a href=3D"https://substack.com/app-link/post?publication_id=
+=3D10025&post_id=3D73395250&utm_source=3Dsubstack&isFreemail=3Dtrue&submitL=
+ike=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NzMzOTUyNTAsInJl=
+YWN0aW9uIjoi4p2kIiwiaWF0IjoxNjYzMjQ2NTk4LCJleHAiOjE2NjU4Mzg1OTgsImlzcyI6InB=
+1Yi0xMDAyNSIsInN1YiI6InJlYWN0aW9uIn0.6TQFtKTSteVCmtDdP29ZX9G2K95AZFypfkMvkF=
+DVaRI&utm_medium=3Demail" style=3D"border: 1px solid #e0e0e0; border-radius=
+: 100000px; color: #808080; display: inline-block; font-family: var(--font-=
+family-text); font-size: 12px; font-weight: 500; line-height: 1; padding: 9=
+px 0; text-decoration: none; text-transform: uppercase; width: 36px;" class=
+=3D"email-icon-button"><img src=3D"https://substackcdn.com/image/fetch/w_36=
+,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%=
+2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%252380=
+8080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !i=
+mportant; max-width: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"=
+></a></td></tr></table></td><td width=3D"8"></td><td style=3D"vertical-alig=
+n: middle;"><table role=3D"presentation" width=3D"36" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://sub=
+stack.com/app-link/post?publication_id=3D10025&post_id=3D73395250&utm_sourc=
+e=3Dsubstack&utm_medium=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3De=
+yJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NzMzOTUyNTAsImlhdCI6MTY2MzI0NjU5OCwi=
+ZXhwIjoxNjY1ODM4NTk4LCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0=
+=2EUKajWTPbmKyd-sT18qQVIYSiKIf5PCVr8cDK9S=
+jSOxE&utm_source=3Dsubstack&utm_medi=
+um=3Demail" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; co=
+lor: #808080; display: inline-block; font-family: var(--font-family-text); =
+font-size: 12px; font-weight: 500; line-height: 1; padding: 9px 0; text-dec=
+oration: none; text-transform: uppercase; width: 36px;" class=3D"email-icon=
+-button"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png=
+,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucid=
+eComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26stro=
+keWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; m=
+ax-width: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"></a></td><=
+/tr></table></td><td width=3D"8"></td><td style=3D"vertical-align: middle;"=
+><table role=3D"presentation" width=3D"36" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/r=
+edirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGhlLWZvdW5kZXJzLWxld=
+HRlci10cmV2b3ItZHJ5ZXI_dXRtX3NvdXJjZT1zdWJzdGFjayZ1dG1fbWVkaXVtPWVtYWlsJnV0=
+bV9jb250ZW50PXNoYXJlJmFjdGlvbj1zaGFyZSZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE1=
+6VTBPU3dpY0c5emRGOXBaQ0k2TnpNek9UVXlOVEFzSW1saGRDSTZNVFkyTXpJME5qVTVPQ3dpWl=
+hod0lqb3hOalkxT0RNNE5UazRMQ0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSndiM=
+04wTFhKbFlXTjBhVzl1SW4wLlVLYWpXVFBibUt5ZC1zVDE4cVFWSVlTaUtJZjVQQ1ZyOGNESzlT=
+alNPeEUiLCJwIjo3MzM5NTI1MCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQ=
+iOjE2NjMyNDY1OTgsImV4cCI6MTY2NTgzODU5OCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLX=
+JlZGlyZWN0In0.-Ie6nlnxJJnVX0Fu81ASLbapwSapcoRwzzM3k34qqcU?" style=3D"border=
+: 1px solid #e0e0e0; border-radius: 100000px; color: #808080; display: inli=
+ne-block; font-family: var(--font-family-text); font-size: 12px; font-weigh=
+t: 500; line-height: 1; padding: 9px 0; text-decoration: none; text-transfo=
+rm: uppercase; width: 36px;" class=3D"email-icon-button"><img src=3D"https:=
+//substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive=
+:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3Fv%3D4%26height%3D3=
+6%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" heig=
+ht=3D"18" style=3D"border: none !important; max-width: 18px; vertical-align=
+: middle;" alt=3D"" class=3D"icon"></a></td></tr></table></td></tr></table>=
+</td><td align=3D"right"><table role=3D"presentation" width=3D"auto" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"vertical-align:=
+ middle;"><table role=3D"presentation" width=3D"auto" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://sub=
+stack.com/app-link/post?publication_id=3D10025&post_id=3D73395250&utm_sourc=
+e=3Dpodcast-email&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NzMzOTUyN=
+TAsImlhdCI6MTY2MzI0NjU5OCwiZXhwIjoxNjY1ODM4NTk4LCJpc3MiOiJwdWItMTAwMjUiLCJz=
+dWIiOiJwb3N0LXJlYWN0aW9uIn0.UKajWTPbmKyd-sT18qQVIYSiKIf5PCVr8cDK9SjSOxE&pla=
+y_audio=3Dtrue" class=3D"email-button-outline" style=3D"border: 1px solid #=
+e0e0e0; border-radius: 100000px; color: #808080; display: inline-block; fon=
+t-family: var(--font-family-text); font-size: 13px; font-weight: 500; line-=
+height: 1; padding: 11.5px 14px; text-decoration: none; text-transform: upp=
+ercase;">&#9655;&#160;&#160;Listen</a></td></tr></table></td><td width=3D"8=
+"></td><td style=3D"vertical-align: middle;"><table role=3D"presentation" w=
+idth=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td alig=
+n=3D"center"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9=
+3d3cubm90Ym9yaW5nLmNvL3AvdGhlLWZvdW5kZXJzLWxldHRlci10cmV2b3ItZHJ5ZXI_dXRtX3=
+NvdXJjZT1zdWJzdGFjayZ1dG1fbWVkaXVtPWVtYWlsJnRva2VuPWV5SjFjMlZ5WDJsa0lqb3hOa=
+kk0TXpVME9Td2ljRzl6ZEY5cFpDSTZOek16T1RVeU5UQXNJbWxoZENJNk1UWTJNekkwTmpVNU9D=
+d2laWGh3SWpveE5qWTFPRE00TlRrNExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2l=
+KellYWmxMWEJ2YzNRaWZRLm1hckNLb2VhT3Z0UU5DWVM5QjRhRGs3UVhteDBjdnJIRVpFLTAzMX=
+lmUmMmYWN0aW9uPXNhdmUiLCJwIjo3MzM5NTI1MCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2M=
+jgzNTQ5LCJpYXQiOjE2NjMyNDY1OTgsImV4cCI6MTY2NTgzODU5OCwiaXNzIjoicHViLTAiLCJz=
+dWIiOiJsaW5rLXJlZGlyZWN0In0.4L9jNHSoI9fMk-uL2L2ETqR3pnx7y2n2AgPu9iirjTk?" c=
+lass=3D"email-button-outline" style=3D"border: 1px solid #e0e0e0; border-ra=
+dius: 100000px; color: #808080; display: inline-block; font-family: var(--f=
+ont-family-text); font-size: 13px; font-weight: 500; line-height: 1; paddin=
+g: 11.5px 14px; text-decoration: none; text-transform: uppercase;">SAVE</a>=
+</td></tr></table></td></tr></table></td></tr></table></td></tr><tr height=
+=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;">&#160;<=
+/td></tr></table></div></div><div dir=3D"auto" class=3D"post typography" st=
+yle=3D"font-size: 16px; line-height: 26px; padding: 16px 0 0 0;"><div dir=
+=3D"auto" class=3D"body markup" style=3D"font-size: 16px; line-height: 26px=
+; margin-bottom: 12px; text-align: initial; width: 100%; word-break: break-=
+word;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0; margin-top: 0;"><em><span>Welcome to the&#160;</span><strong=
+>600&#160;newly Not Boring people&#160;</strong><span>who have joined us si=
+nce Monday! If you haven&#8217;t subscribed, join&#160;</span><strong>152,8=
+17 </strong><span>smart, curious folks by subscribing here:</span></em></p>=
+<div class=3D"subscribe-widget is-signed-up is-fully-subscribed" style=3D"d=
+irection: ltr; font-size: 16px; line-height: 26px; margin: 0 0 1em;"><p cla=
+ss=3D"button-wrapper" style=3D"color: #1a1a1a; font-size: 16px; line-height=
+: 26px; margin: 0 0 1em 0; text-align: center;"><a href=3D"https://substack=
+=2Ecom/redirect/2/eyJlIjoiaHR0cHM6Ly93d3c=
+ubm90Ym9yaW5nLmNvL2FjY291bnQiLCJwIjo=
+3MzM5NTI1MCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NjMyNDY1OT=
+gsImV4cCI6MTY2NTgzODU5OCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.v=
+imyCMqQw-fSXirqDoRQaVdARI3E7yIaCqwXXTuwftM?" class=3D"button subscribe-btn =
+outline" style=3D"background: transparent; background-color: transparent; b=
+order: 1px solid #67bdfc; border-radius: 4px; box-sizing: border-box; color=
+: #67bdfc; cursor: pointer; display: inline-block; font-family: -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; f=
+ont-weight: normal; height: auto; line-height: 20px; margin: 0 auto; opacit=
+y: 1; outline: none; padding: 12px 20px; text-align: center; text-decoratio=
+n: none !important; white-space: nowrap;"><img src=3D"https://substackcdn.c=
+om/image/fetch/w_40,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A=
+%2F%2Fsubstack.com%2Ficon%2FLucideCheck%3Fv%3D4%26height%3D40%26fill%3Dtran=
+sparent%26stroke%3D%252367bdfc%26strokeWidth%3D2" width=3D"20" height=3D"20=
+" style=3D"-ms-interpolation-mode: bicubic; border: none !important; displa=
+y: inline-block; height: auto; margin: 0 auto; margin-right: 0.5rem; max-wi=
+dth: 20px; vertical-align: middle;" alt=3D"" class=3D"check-icon static"><s=
+pan style=3D"text-decoration: none;">Subscribe</span></a></p></div><div sty=
+le=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: #ebebeb=
+; border: none; height: 1px; margin: 48px 0; padding: 0;"></div><p style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><s=
+trong><span>The Founder&#8217;s Letter Series is brought to you by&#8230; <=
+/span><a href=3D"https://substack.com/redirect/047a1455-93bf-4608-9d7b-9fc0=
+8bfe4c9f?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: unde=
+rline;">Compound</a></strong></p><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;"><em>If you work at a high-growth =
+tech startup, you may have been expecting an IPO in 2022. But because of th=
+e market downturn, your company is likely still private.</em><span>&#160;</=
+span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0;"><em>Your personal financial situation faces new questions=
+:</em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0;">Should I sell my shares in my company&#8217;s secondary =
+sale?</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0;">How much in taxes do I owe when I exercise or sell? How d=
+o I minimize my taxes?</p><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;">Once I get some cash, how should I inves=
+t it? All ETFs or a balance with something else?</p><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>While you =
+could spend the time to figure this out on your own (or not address the que=
+stions at all), you could also hire an expert to optimize your personal fin=
+ances for you.&#160;</em></p><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;"><em><span>This is where </span><stron=
+g><a href=3D"https://substack.com/redirect/047a1455-93bf-4608-9d7b-9fc08bfe=
+4c9f?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underlin=
+e;">Compound</a></strong><span> steps in.&#160;</span></em></p><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em=
+><a href=3D"https://substack.com/redirect/047a1455-93bf-4608-9d7b-9fc08bfe4=
+c9f?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline=
+;">Compound</a><span> is an all-in-one solution for tech founders and emplo=
+yees to manage their personal finances. </span><a href=3D"https://substack.=
+com/redirect/047a1455-93bf-4608-9d7b-9fc08bfe4c9f?r=3D9p0gt" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">Compound</a><span> has ser=
+ved 1,000s of clients from companies like Stripe, Figma, and Airtable and t=
+heir advisors can help you optimize company equity, diversify concentrated =
+stock positions, plan asset allocation, and more.</span></em></p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+><em><strong><span>Request access </span><a href=3D"https://substack.com/re=
+direct/59c9a5b3-b17a-4af4-a886-5f48f1c4006b?r=3D9p0gt" rel=3D"" style=3D"co=
+lor: #1a1a1a; text-decoration: underline;">here</a></strong><span> and they=
+&#8217;ll be in touch.&#160;</span></em></p><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em><span>For more inf=
+ormation, please check out further disclosures </span><a href=3D"https://su=
+bstack.com/redirect/5ba1e30e-0074-4c44-bcaa-ba2d539fcf41?r=3D9p0gt" rel=3D"=
+" style=3D"color: #1a1a1a; text-decoration: underline;">here</a><span>.</sp=
+an><span class=3D"footnote-anchor-email" style=3D"font-size: 20px;">&#185;<=
+/span></em></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=
+=3D"background: #ebebeb; border: none; height: 1px; margin: 48px 0; padding=
+: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px;=
+ margin: 0 0 1em 0;">Hi friends ,</p><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0 0 1em 0;">Happy Thursday! </p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+><span>On Monday, I </span><a href=3D"https://substack.com/redirect/09ec82d=
+8-740c-4593-9160-38ad8a2d2b15?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; =
+text-decoration: underline;">wrote about</a><span> working harder (more ene=
+rgy) and smarter (better technology) to create an Abundance Renaissance. Ca=
+rbon Title fits the bill. </span></p><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0 0 1em 0;">One of the tensions in the cl=
+imate fight is that we need to build more housing and other new buildings, =
+but the construction and operation of buildings emits a lot of carbon. The =
+real estate industry is responsible for 38% of greenhouse gas emissions glo=
+bally, but degrowth isn&#8217;t the answer. People need places to live and =
+work and gather. Avoiding the disastrous effects of climate change but endi=
+ng up in a world in which half the population can&#8217;t afford a home isn=
+&#8217;t a good result. Somehow, we need to build more while emitting less.=
+ </p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin=
+: 0 0 1em 0;"><span>Carbon Title&#8217;s mission is to resolve that tension=
+ by helping building owners, and their tenants, better understand each buil=
+ding&#8217;s carbon footprint and facilitating the purchase of high-quality=
+ carbon credits to offset their impact. They&#8217;re launching today &#821=
+2; </span><a href=3D"https://substack.com/redirect/54b176c7-5295-4935-aa01-=
+6a815a1929a4?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: =
+underline;">check them out</a><span> &#8212; so I asked the company&#8217;s=
+ co-founders Trevor and Miles to tell us about what they&#8217;re building,=
+ and why.</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;">IT&#8217;S TIME TO BUILD cleanly. </p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Let&#8217;s get to it. </p><div style=3D"font-size: 16px; line-height: 26p=
+x;"><hr style=3D"background: #ebebeb; border: none; height: 1px; margin: 48=
+px 0; padding: 0;"></div><h1 class=3D"header-with-anchor-widget" style=3D"-=
+moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; c=
+olor: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSy=
+stemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Em=
+oji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2em; font-weight: bol=
+d; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relative;"><stro=
+ng>The Founder&#8217;s Letter: Trevor Dryer &amp; Miles Haladay, Carbon Tit=
+le</strong></h1><div class=3D"captioned-image-container-static" style=3D"fo=
+nt-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: center;"=
+><figure style=3D"display: inline-block; margin: 0 auto; width: 100%;"><tab=
+le class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><=
+tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=
+=3D"content" width=3D"1200" style=3D"text-align: center;"><a class=3D"image=
+-link" target=3D"_blank" href=3D"https://substack.com/redirect/78b5bd7f-f03=
+8-4e9b-8e00-58be454ef84e?r=3D9p0gt" rel=3D"" style=3D"align-items: center; =
+border: none; display: block; flex-direction: column; height: auto; margin:=
+ 0; padding: 0; position: relative; text-decoration: none; width: auto;"><i=
+mg data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437=
+e-9518-adb32be77984.s3.amazonaws.com/public/images/6c3e83c6-5978-42af-a8bd-=
+bb14ceffbada_1200x600.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize=
+&quot;:null,&quot;height&quot;:600,&quot;width&quot;:1200,&quot;resizeWidth=
+&quot;:null,&quot;bytes&quot;:201493,&quot;alt&quot;:null,&quot;title&quot;=
+:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;be=
+lowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" width=3D=
+"550" height=3D"275" class=3D"wide-image" src=3D"https://substackcdn.com/im=
+age/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2=
+F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpubli=
+c%2Fimages%2F6c3e83c6-5978-42af-a8bd-bb14ceffbada_1200x600.png" style=3D"-m=
+s-interpolation-mode: bicubic; border: none !important; display: block; hei=
+ght: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; ve=
+rtical-align: middle; width: auto !important;"></a></td><td style=3D"text-a=
+lign: center;"></td></tr></tbody></table></figure></div><h3 class=3D"header=
+-with-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -webkit=
+-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Disp=
+lay', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Ari=
+al, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; f=
+ont-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.=
+625em 0; position: relative;"><strong>One of the most complex industries on=
+ Earth needs radical change</strong></h3><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>Let&#8217;s start w=
+ith an enormous, and seemingly intractable, problem. </span><a href=3D"http=
+s://substack.com/redirect/0f7249dc-39d5-476c-bc22-822e13828cba?r=3D9p0gt" r=
+el=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">We need to bu=
+ild 3.8 million more housing units</a><span> in the United States just to k=
+eep up with the rate of household formation&#8212;</span><a href=3D"https:/=
+/substack.com/redirect/786cc149-6ab7-4d98-a13e-1b3a8c344b5a?r=3D9p0gt" rel=
+=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">we&#8217;re cur=
+rently building at a rate of 1.5 million per year</a><span>. Add in the nee=
+d for additional essential infrastructure, and </span><strong>construction =
+output will likely double by the end of the decade.</strong></p><p style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">To=
+ keep up with the Paris agreements&#8212;and to stave off the worst-case cl=
+imate scenario&#8212;the construction industry, like every other industry, =
+needs to reduce its total carbon emissions by about 45% by 2030.&#160;</p><=
+p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 =
+1em 0;"><span>It doesn&#8217;t take a math genius to calculate that </span>=
+<strong>in order to both double construction output and cut emissions almos=
+t in half, all within the next 8 years, we need to slash per-project emissi=
+ons by at least 70%.</strong></p><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;"><span>2030 is coming fast in cons=
+truction time. Construction isn&#8217;t software and can&#8217;t be iterate=
+d multiple times a day. Many in the industry work on one project at a time.=
+ And given that new buildings take, from idea to occupancy, about 2 to 4 ye=
+ars to complete, we need to make radical changes right now&#8212;leaving us=
+ the next</span><strong> three to four</strong><span> iterative cycles to h=
+it the 2030 targets.</span></p><p style=3D"color: #1a1a1a; font-size: 16px;=
+ line-height: 26px; margin: 0 0 1em 0;"><span>Oh&#8212;and building shit is=
+ hard. You&#8217;re putting millions of dollars on the line for a </span><s=
+trong>single digit profit margin</strong><span>, and, at the same time, dea=
+ling with all of the challenges of a people business: mistakes are made, em=
+ployees argue, and construction materials&#8212;well, we can only hope they=
+ show up sometime. Let&#8217;s just say adding brand-new, untested products=
+ to the mix isn&#8217;t something contractors hope for when they wake up.</=
+span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0;"><span>If you aren&#8217;t concerned enough yet&#8230;</sp=
+an><strong><span>real estate accounts for </span><a href=3D"https://substac=
+k.com/redirect/9e721c48-b049-480e-8e4f-60d4ee29bb9e?r=3D9p0gt" rel=3D"" sty=
+le=3D"color: #1a1a1a; text-decoration: underline;">38% of global greenhouse=
+ gas emissions</a></strong><span>.</span></p><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Construction is a nec=
+essary industry and its impact on society is real and lasting. Without cons=
+truction, we don&#8217;t have hospitals, schools, housing or power. No stad=
+iums, retail spaces, theaters, conference centers. Without construction we =
+live in tents.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0;"><strong>Bottom line: construction is a high carb=
+on, low margin, essential industry.</strong><span> We can&#8217;t just cros=
+s our fingers and hope it will decarbonize. We have to do the work. As two =
+dads with kids whose lives will be shaped by the trajectory of the climate =
+crisis, we feel we have a personal stake in doing this work&#8212;and, as s=
+uccessful founders with experience in the construction and fintech industri=
+es, we believe we have a unique angle on the solution to construction&#8217=
+;s seemingly intractable carbon problem.</span></p><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">We need to radi=
+cally rethink how we approach construction. In order to make that happen, w=
+e need to give everyone &#8211; from the bankers who finance construction p=
+rojects, to the corporations that rent office space, to the ordinary people=
+ who rent apartments &#8211; the information they need to easily identify c=
+arbon-neutral buildings, and vote with their feet for lower-carbon options.=
+ We need to align the financial incentives of this industry with the urgent=
+ human need to address the climate crisis.</p><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>Two key things=
+ need to happen to get the construction industry to go carbon-neutral withi=
+n the next 8 years.</span><strong>&#160;</strong></p><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>First, =
+it needs to be easier for builders to </span><strong>find, evaluate, and im=
+plement lower-carbon materials, and purchase high-quality carbon removal cr=
+edits to offset the remaining emissions and get to carbon neutral. </strong=
+><span>High-quality carbon credits serve two purposes.&#160; First, they fi=
+nance projects that actually remove and sequester carbon.&#160; Second, the=
+y capture the cost of the negative externality (carbon emissions) in the co=
+st of the building.&#160; This not only helps us achieve our climate goals,=
+ but also makes greener alternatives more cost competitive.&#160;&#160;&#16=
+0;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px=
+; margin: 0 0 1em 0;"><span>Second, it needs to be easier for tenants and s=
+takeholders</span><strong> to evaluate a building or project&#8217;s carbon=
+ footprint.</strong><span> Much of this information is not well understood =
+or is locked up in proprietary databases, hidden from mass consumption. Do =
+you know how many metric tons of greenhouse gasses your apartment building =
+emits each year? As one industry person put it, without public data, it is =
+easy for tenants, bankers, investors and developers &#8220;to stay blissful=
+ly ignorant of the mess they are making.&#8221;</span></p><p style=3D"color=
+: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>Ba=
+nks, investment firms, and companies with large real estate portfolios need=
+ to stop the hot potato game of who owns a building&#8217;s carbon emission=
+s. Building owners profit from their buildings, and we believe they are ult=
+imately responsible for the carbon emitted. Tenants and other stakeholders =
+should and are starting to demand better&#8212;</span><a href=3D"https://su=
+bstack.com/redirect/c27dc66b-418f-4ab0-b8d9-ca0245af2ae4?r=3D9p0gt" rel=3D"=
+" style=3D"color: #1a1a1a; text-decoration: underline;">reports</a><span> a=
+lready show that green-certified office buildings command rental premiums o=
+f as much as 21%.&#160; Many of our early customers tell us that their buil=
+dings are more valuable-upon sale and in the form of higher rents&#8211;if =
+they are carbon neutral. So, do it for the earth, or do it for your bottom =
+line. In the end, it doesn&#8217;t matter.&#160;</span></p><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>O=
+ur company</span><a href=3D"https://substack.com/redirect/6104cd94-e2b0-408=
+f-b6ed-3ba4f2c15f86?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decor=
+ation: underline;"> Carbon Title</a><span> offers a simple, transparent, co=
+st-effective way to neutralize buildings&#8217; climate impact. Our platfor=
+m empowers building owners, developers, and contractors to easily understan=
+d a building&#8217;s CO2 emissions over time, purchase high-quality carbon =
+credits, and apply carbon credits to achieve verifiable carbon neutrality.<=
+/span></p><div class=3D"captioned-image-container-static" style=3D"font-siz=
+e: 16px; line-height: 26px; margin-bottom: 16px; text-align: center;"><figu=
+re style=3D"display: inline-block; margin: 0 auto; width: 100%;"><table cla=
+ss=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody>=
+<tr><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"cont=
+ent" width=3D"908" style=3D"text-align: center;"><a class=3D"image-link" ta=
+rget=3D"_blank" href=3D"https://substack.com/redirect/e6e5d129-04aa-46c9-85=
+e3-28fa5bafc8ce?r=3D9p0gt" rel=3D"" style=3D"align-items: center; border: n=
+one; display: block; flex-direction: column; height: auto; margin: 0; paddi=
+ng: 0; position: relative; text-decoration: none; width: auto;"><img data-a=
+ttrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-ad=
+b32be77984.s3.amazonaws.com/public/images/b3318b63-857b-4afc-b9ff-09dad0642=
+1da_908x705.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:nul=
+l,&quot;height&quot;:705,&quot;width&quot;:908,&quot;resizeWidth&quot;:null=
+,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;t=
+ype&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;in=
+ternalRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D"427.0374449339=
+207" class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1816=
+,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e0=
+5bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb33=
+18b63-857b-4afc-b9ff-09dad06421da_908x705.png" style=3D"-ms-interpolation-m=
+ode: bicubic; border: none !important; display: block; height: auto; margin=
+: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-align: mid=
+dle; width: auto !important;"></a></td><td style=3D"text-align: center;"></=
+td></tr></tbody></table></figure></div><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">We do this with radical tra=
+nsparency, using Web3 tools (blockchain, NFTs etc.) to verify carbon neutra=
+lity claims and enforce traceability. No hidden greenwashing.</p><h3 class=
+=3D"header-with-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiase=
+d; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Co=
+mpact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helv=
+etica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin=
+: 1em 0 0.625em 0; position: relative;"><strong>What are two non-crypto nat=
+ive founders doing talking Web3? </strong><span>&#160;</span></h3><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+><span>At our last companies, Mirador, a fintech company Trevor founded, an=
+d Viewpoint, a construction software company owned and operated by Miles&#8=
+217;s family, we learned that </span><strong>technology needs to solve a pr=
+oblem, </strong><span>not just sound cool. In this case, </span><strong>the=
+ problem&#8212;a lack of transparency and trust in the carbon credit market=
+&#8212;is tailor-made for new Web3 tools. </strong><span>We didn&#8217;t se=
+t out to start a web3 company and, in fact, when we raised our pre-seed at =
+the top of the market in December of 2021, we didn&#8217;t mention web3.&#1=
+60; However, as we learned more about public blockchains and NFTs&#8211;eve=
+n as the market crashed&#8211;we realized Web3 could help us fulfill our mi=
+ssion.&#160;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;"><span>To start, Carbon Title aims to build =
+a decentralized database of carbon emissions. This data has to be </span><s=
+trong>public</strong><span>, so that all stakeholders can apply pressure on=
+ builders to use lower-carbon materials and finance high-quality carbon rem=
+oval projects. Transparency is also essential for the large (and growing) n=
+umber of corporations, money managers, hedge funds, banks, and endowments t=
+hat have made climate neutrality pledges.</span></p><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>This dat=
+a also has to be </span><strong>trustworthy</strong><span>. The stakes are =
+too high to allow for greenwashing. Construction won&#8217;t be able to go =
+completely carbon-neutral without adding some carbon removal into the mix&#=
+8212;that&#8217;s simply the reality of building in the physical world and =
+the limitations of today&#8217;s technology. So stakeholders need to be abl=
+e to trust that the carbon removal credits getting a building to net zero a=
+re actually removing carbon from the atmosphere. Creating NFTs for carbon r=
+emoval credits ensures that each carbon credit purchased is </span><strong>=
+unique</strong><span>.</span></p><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;"><span>Public opinion is on the si=
+de of change. Rapid change. But right now, high-quality data on carbon emis=
+sions simply isn&#8217;t available to the public. As a result, builders and=
+ developers haven&#8217;t felt much pressure yet to change. Putting carbon =
+data on the blockchain will enable us to make it </span><strong>accessible<=
+/strong><span>, </span><strong>verifiable</strong><span>, and </span><stron=
+g>trustworthy</strong><span>. Because blockchain data can&#8217;t be edited=
+ and is public, stakeholders will be able to see the whole history of a bui=
+lding&#8217;s efforts to go carbon neutral, even when the building is sold =
+to new management. This will give people and institutions the tools they ne=
+ed to force the industry to change&#8212;and give the construction industry=
+ the tools it needs to make changes faster and more effectively.</span></p>=
+<h3 class=3D"header-with-anchor-widget" style=3D"-moz-osx-font-smoothing: a=
+ntialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-famil=
+y: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Rob=
+oto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', '=
+Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16e=
+m; margin: 1em 0 0.625em 0; position: relative;"><strong>Building a better =
+world</strong></h3><p style=3D"color: #1a1a1a; font-size: 16px; line-height=
+: 26px; margin: 0 0 1em 0;">The climate crisis is a generation-defining pro=
+blem, and construction is a big part of that problem. We need to keep build=
+ing more homes and more infrastructure, but we need to quickly start buildi=
+ng greener. With Carbon Title, we will give both builders and their custome=
+rs the tools they need to demand and enact rapid change. We&#8217;ll make t=
+he financial benefit of greener construction crystal-clear, and we&#8217;ll=
+ help builders buy high-quality, verifiable carbon removal credits to close=
+ the gap and get their projects to carbon-neutral.</p><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>We bel=
+ieve that humanity has the potential to alter its course, even at this poin=
+t. We also believe that we can solve this problem while continuing to build=
+ the economy. We want </span><em>more</em><span> building, and </span><em>c=
+leaner </em><span>building. Most importantly, we all owe it to our children=
+ to figure this out &#8211; they need both a planet to live on and building=
+s to live in.</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;">We each have two kids who are the same age=
+s&#8212;8 and 11&#8212;which is how we met. We can no longer say that some =
+generation in the future will deal with our problems; our children will see=
+ the ocean rise at least a foot in their lifetime. They will experience mor=
+e wildfires, countless losses of natural wonders like the Great Barrier Ree=
+f, and potentially untold problems such as food scarcity and mass migration=
+ that we can&#8217;t fully anticipate today.</p><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Carbon Title is ou=
+r effort to drive radical climate change. What&#8217;s yours?</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Trevor &amp; Miles</p><div style=3D"font-size: 16px; line-height: 26px;"><=
+hr style=3D"background: #ebebeb; border: none; height: 1px; margin: 48px 0;=
+ padding: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;">Thanks to Trevor &amp; Miles for sharing their=
+ story! </p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px;=
+ margin: 0 0 1em 0;">We&#8217;ll be back here first thing tomorrow morning =
+with the Weekly Dose of Optimism. </p><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;">Thanks for reading, </p><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em=
+ 0;">Packy</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;"></p><div class=3D"footnote" style=3D"align-items: ba=
+seline; border-top: solid 1px rgba(204, 204, 204, 0.5); display: flex; flex=
+-direction: row; font-size: 90%; line-height: 26px; margin-bottom: 0; paddi=
+ng-top: 1.5em;"><span class=3D"footnote-number" style=3D"display: block; ma=
+rgin-right: 6px; min-width: 24px;">1</span><div class=3D"footnote-content" =
+style=3D"display: block; font-size: 16px; line-height: 26px;"><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><spa=
+n>Investment advisory services are provided by Compound Advisers, Inc. (&#8=
+220;Compound Advisers&#8221;), an SEC-registered investment adviser (CRD# 3=
+06341/SEC#: 801-122303). The information contained in this communication is=
+ provided by Compound for general informational purposes and should not be =
+considered as financial or tax advice. This communication is not an offer t=
+o sell securities. All investing involves risk, including the possible loss=
+ of any or all of the money invested, and past performance never guarantees=
+ future results. Please see Compound Advisers' Form CRS</span><a href=3D"ht=
+tps://substack.com/redirect/c28318c8-52bc-45c6-a41e-270fde685d68?r=3D9p0gt"=
+ rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;"> here</a><s=
+pan>, and ADV Part 2A Brochure</span><a href=3D"https://substack.com/redire=
+ct/b35399c0-1fb6-4c56-bb06-1dc18b17432b?r=3D9p0gt" rel=3D"" style=3D"color:=
+ #1a1a1a; text-decoration: underline;"> here</a><span>.</span></p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+></p></div></div></div></div><table cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"post-meta custom big alternative-meta centered" style=3D"margin: 0 au=
+to;"><tr style=3D"align-items: center; display: flex;"><td class=3D"post-me=
+ta-item icon" style=3D"color: #767676; font-family: -apple-system, BlinkMac=
+SystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color =
+Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 100%;=
+ line-height: 18px; padding: 0px 12px 0px 0; padding-right: 16px; position:=
+ relative; text-decoration: none; text-indent: 3px; white-space: nowrap;"><=
+span class=3D"post-meta-icon like-reaction-button"><a href=3D"https://subst=
+ack.com/app-link/post?publication_id=3D10025&post_id=3D73395250&utm_source=
+=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI=
+4MzU0OSwicG9zdF9pZCI6NzMzOTUyNTAsInJlYWN0aW9uIjoi4p2kIiwiaWF0IjoxNjYzMjQ2NT=
+k4LCJleHAiOjE2NjU4Mzg1OTgsImlzcyI6InB1Yi0xMDAyNSIsInN1YiI6InJlYWN0aW9uIn0.6=
+TQFtKTSteVCmtDdP29ZX9G2K95AZFypfkMvkFDVaRI&utm_medium=3Demail" class=3D"lik=
+e-button button post-meta-button" style=3D"align-items: center; background-=
+color: transparent; border: 1px solid #ebebeb; border-radius: 4px; box-sizi=
+ng: border-box; color: #1a1a1a; cursor: pointer; display: flex; font-family=
+: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, =
+sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-=
+size: 16px; font-weight: normal; height: auto; line-height: 15px; margin: 0=
+; opacity: 1; outline: none; padding: 10px 16px; text-align: center; text-d=
+ecoration: none; text-indent: 0px; white-space: nowrap;"><img src=3D"https:=
+//substackcdn.com/image/fetch/w_28,c_scale,f_png,q_auto:good,fl_progressive=
+:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D2=
+8%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"1=
+4" height=3D"14" style=3D"border: none !important; display: inline-block; f=
+loat: left; height: 14px; margin-right: 4px; max-width: 14px; vertical-alig=
+n: top; width: auto;" alt=3D""><span class=3D"like-count" style=3D"color: #=
+1a1a1a; margin-left: 7px;">Like</span></a></span></td><td class=3D"post-met=
+a-item icon" style=3D"color: #767676; font-family: -apple-system, BlinkMacS=
+ystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color E=
+moji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 100%; =
+line-height: 18px; padding: 0px 12px 0px 0; padding-right: 16px; position: =
+relative; text-decoration: none; text-indent: 3px; white-space: nowrap;"><a=
+ href=3D"https://substack.com/app-link/post?publication_id=3D10025&post_id=
+=3D73395250&utm_source=3Dsubstack&utm_medium=3Demail&isFreemail=3Dtrue&comm=
+ents=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NzMzOTUyNTAsIml=
+hdCI6MTY2MzI0NjU5OCwiZXhwIjoxNjY1ODM4NTk4LCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOi=
+Jwb3N0LXJlYWN0aW9uIn0.UKajWTPbmKyd-sT18qQVIYSiKIf5PCVr8cDK9SjSOxE&utm_sourc=
+e=3Dsubstack&utm_medium=3Demail" class=3D"post-meta-button button" style=3D=
+"align-items: center; background-color: transparent; border: 1px solid #ebe=
+beb; border-radius: 4px; box-sizing: border-box; color: #1a1a1a; cursor: po=
+inter; display: flex; font-family: -apple-system, BlinkMacSystemFont, 'Sego=
+e UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI=
+ Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height: a=
+uto; line-height: 15px; margin: 0; opacity: 1; outline: none; padding: 10px=
+ 16px; text-align: center; text-decoration: none; white-space: nowrap;"><im=
+g src=3D"https://substackcdn.com/image/fetch/w_28,c_scale,f_png,q_auto:good=
+,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3F=
+v%3D4%26height%3D28%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWid=
+th%3D2" width=3D"14" height=3D"14" style=3D"border: none !important; displa=
+y: inline-block; float: left; height: 14px; margin-right: 4px; max-width: 1=
+4px; vertical-align: top; width: auto;" alt=3D"Comment" class=3D"comment-ic=
+on post-meta-icon"><span class=3D"meta-button-label">Comment</span></a></td=
+><td class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -a=
+pple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans=
+-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size=
+: 14px; height: 100%; line-height: 18px; margin-right: 0; padding: 0px 12px=
+ 0px 0; padding-right: 0; position: relative; text-decoration: none; text-i=
+ndent: 3px; white-space: nowrap;"><span><a href=3D"https://substack.com/red=
+irect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGhlLWZvdW5kZXJzLWxldHR=
+lci10cmV2b3ItZHJ5ZXI_dXRtX3NvdXJjZT1zdWJzdGFjayZ1dG1fbWVkaXVtPWVtYWlsJnV0bV=
+9jb250ZW50PXNoYXJlJmFjdGlvbj1zaGFyZSZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16V=
+TBPU3dpY0c5emRGOXBaQ0k2TnpNek9UVXlOVEFzSW1saGRDSTZNVFkyTXpJME5qVTVPQ3dpWlho=
+d0lqb3hOalkxT0RNNE5UazRMQ0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSndiM04=
+wTFhKbFlXTjBhVzl1SW4wLlVLYWpXVFBibUt5ZC1zVDE4cVFWSVlTaUtJZjVQQ1ZyOGNESzlTal=
+NPeEUiLCJwIjo3MzM5NTI1MCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiO=
+jE2NjMyNDY1OTgsImV4cCI6MTY2NTgzODU5OCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJl=
+ZGlyZWN0In0.-Ie6nlnxJJnVX0Fu81ASLbapwSapcoRwzzM3k34qqcU?" class=3D"button p=
+ost-meta-button" style=3D"align-items: center; background-color: transparen=
+t; border: 1px solid #ebebeb; border-radius: 4px; box-sizing: border-box; c=
+olor: #1a1a1a; cursor: pointer; display: flex; font-family: -apple-system, =
+BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Appl=
+e Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-=
+weight: normal; height: auto; line-height: 15px; margin: 0; opacity: 1; out=
+line: none; padding: 10px 16px; text-align: center; text-decoration: none; =
+white-space: nowrap;"><img src=3D"https://substackcdn.com/image/fetch/w_28,=
+c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2=
+Ficon%2FLucideShare%3Fv%3D4%26height%3D28%26fill%3Dtransparent%26stroke%3D%=
+2523757575%26strokeWidth%3D2" width=3D"14" height=3D"14" style=3D"border: n=
+one !important; display: inline-block; float: left; height: 14px; margin-ri=
+ght: 4px; max-width: 14px; vertical-align: top; width: auto;" alt=3D"Share"=
+ class=3D"recommend-icon post-meta-icon"><span class=3D"meta-button-label">=
+Share</span></a></span></td></tr></table><div class=3D"container-border" st=
+yle=3D"border-top: 1px solid rgba(204, 204, 204, 0.5); box-sizing: border-b=
+ox; font-size: 16px; line-height: 26px; margin: 32px 0 0; width: 100%;"></d=
+iv><div class=3D"post-cta" style=3D"font-size: 16px; line-height: 26px; mar=
+gin: 24px 0 40px;"><p style=3D"font-size: 16px; font-style: italic; line-he=
+ight: 26px; margin: 24px 0 0; margin-top: 0;"><span>If you liked this post =
+from <a href=3D"https://substack.com/redirect/b49cbaf9-b7ce-4e12-83f9-42ec5=
+c96c16f?r=3D9p0gt">Not Boring by Packy McCormick</a>, why not share it?</sp=
+an></p><p class=3D"cta-box" style=3D"font-size: 16px; font-style: italic; l=
+ine-height: 26px; margin: 24px 0 0; text-align: center;"><a role=3D"button"=
+ href=3D"https://substack.com/redirect/0b42a1e5-bd46-4c68-a244-ec53eeddb993=
+?r=3D9p0gt" class=3D"button primary twitter-link" style=3D"background-color=
+: #67bdfc; border: 0px solid #67bdfc; border-radius: 4px; border-width: 13p=
+x 20px 13px 18px; box-sizing: content-box; color: #ffffff !important; curso=
+r: pointer; display: inline-block; font-family: -apple-system, BlinkMacSyst=
+emFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoj=
+i', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 17px; font-style: norma=
+l; font-weight: 300; height: 24px; line-height: 24px; margin: 0; opacity: 1=
+; outline: none; padding: 0; text-align: center; text-decoration: none !imp=
+ortant; vertical-align: middle; white-space: nowrap;"><span style=3D"color:=
+ #ffffff; text-decoration: none;">Share</span></a></p></div><div class=3D"f=
+ooter hasMargin" style=3D"background: #f5f5f5 !important; color: #808080; f=
+ont-size: 16px; line-height: 26px; margin-top: 24px; padding: 24px; text-al=
+ign: center;"><p class=3D"small" style=3D"color: #808080; font-family: -app=
+le-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: =
+14px; line-height: 22px; margin: 0; padding-bottom: 16px;">&#169; 2022 <spa=
+n>Packy McCormick</span><br>10 City Point, Brooklyn, NY 11201 <br><a href=
+=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmN=
+vL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2=
+ljRzl6ZEY5cFpDSTZOek16T1RVeU5UQXNJbWxoZENJNk1UWTJNekkwTmpVNU9Dd2laWGh3SWpve=
+E5qWTFPRE00TlRrNExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhs=
+WDJWdFlXbHNJbjAuZU55aGdXbl85cXlLWUVtQy1CYUhNd0dyS0hZVmViZkp5WWhnZmh3WDVaQSI=
+sInAiOjczMzk1MjUwLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY2Mz=
+I0NjU5OCwiZXhwIjoxNjY1ODM4NTk4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY=
+3QifQ.HiHapMmUqLltdcWX4cBarq8Z7HXnacxQOEL7GBIZt4s?" style=3D"color: #808080=
+;"><span style=3D"color: #808080; text-decoration: underline;">Unsubscribe<=
+/span></a></p><p class=3D"small powered-by-substack" style=3D"color: #80808=
+0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helv=
+etica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol'; font-size: 14px; line-height: 22px; margin: 0; margin-top: 0; padd=
+ing-bottom: 0;"><a href=3D"https://substack.com/redirect/da6d6e89-05c0-4d3c=
+-a18e-d04ab21f75a9?r=3D9p0gt" style=3D"color: #808080; display: inline-bloc=
+k; margin: 8px 4px 0; text-decoration: none;"><img src=3D"https://substackc=
+dn.com/image/fetch/w_260,c_limit,f_auto,q_auto:good,fl_progressive:steep/ht=
+tps%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fapp-button%402x.png" srcset=3D"htt=
+ps://substackcdn.com/image/fetch/w_130,c_limit,f_auto,q_auto:good,fl_progre=
+ssive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fapp-button.png, http=
+s://substackcdn.com/image/fetch/w_260,c_limit,f_auto,q_auto:good,fl_progres=
+sive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fapp-button%402x.png 2=
+x, https://substackcdn.com/image/fetch/w_390,c_limit,f_auto,q_auto:good,fl_=
+progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fapp-button%403=
+x.png 3x" width=3D"130" alt=3D"Get the app" height=3D"40" style=3D"border: =
+none !important; max-width: 550px; vertical-align: middle;"></a><a href=3D"=
+https://substack.com/redirect/4708b9dc-0ccf-4eb2-af61-05075d3b4a05?r=3D9p0g=
+t" style=3D"color: #808080; display: inline-block; margin: 8px 4px 0; text-=
+decoration: none;"><img src=3D"https://substackcdn.com/image/fetch/w_270,c_=
+limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2F=
+img%2Femail%2Fpublish-button%402x.png" srcset=3D"https://substackcdn.com/im=
+age/fetch/w_135,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F=
+%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button.png, https://substackcdn.com=
+/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A=
+%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png 2x, https://subs=
+tackcdn.com/image/fetch/w_405,c_limit,f_auto,q_auto:good,fl_progressive:ste=
+ep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%403x.png 3x" w=
+idth=3D"135" alt=3D"Start writing" height=3D"40" style=3D"border: none !imp=
+ortant; max-width: 550px; vertical-align: middle;"></a></p></div></div></td=
+><td></td></tr></table><img src=3D"https://mailgun.substack.com/api/v1/emai=
+l/open?token=3DeyJtIjoiPDIwMjIwOTE1MTI1NjI3LjMuYWQ5OTdkOTgxYTRhNTlhZUBtZy1k=
+MS5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSI=
+sImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjo3MzM5NTI1MCwidCI6Im5ld3NsZXR0ZXIiLC=
+JhIjoiZXZlcnlvbmUiLCJzIjoxMDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6I=
+mJvdHRvbSIsImlhdCI6MTY2MzI0NjYwMCwiZXhwIjoxNjY1ODM4NjAwLCJpc3MiOiJwdWItMCIs=
+InN1YiI6ImVvIn0.LdeLtA36LWc5CZ1IR7fNI_gDB5ognUmUqiZM9inAgmE" alt=3D"" width=
+=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !=
+important;border-width:0 !important;margin-top:0 !important;margin-bottom:0=
+ !important;margin-right:0 !important;margin-left:0 !important;padding-top:=
+0 !important;padding-bottom:0 !important;padding-right:0 !important;padding=
+-left:0 !important;"/><img width=3D"1px" height=3D"1px" alt=3D"" src=3D"htt=
+ps://email.mg-d1.substack.com/o/eJxFUEtuxCAMPU3ZNeITICw4C3LAyaAmMCJOq9y-zKR=
+Sd5b9_H4RCNfaLv-sBzHcIW9hxYKt71MA8sIYJUdjOB-FYMkrN_MpGpaPsDR8P3hqJ7LnOW85Au=
+VaQk5ecC41e3gedZR2BBCLwGVaLEhYlJ2U0NbCLNhLOMCZMpaIHr-xXbUgi3XfsdCL6ob0wSrlt=
+NScZS-5lNwJLaQ20g5qgOScTW4SMIJ2gB8j39fPJIbjnA-C-DV0RtZ8qTTXlsvaAV8P2HF7H7r7=
+8JI8S6YrYIF5w3QHo7ub88D2DmbkpPTobld0PdEX_Dk2JMLGulqqvZTyL8Twr0Qr3fQLzT57Hg"=
+></body></html>
+--bba831caec0531e95cb0cea3dfcec72a4553b3031095ec6f0d2ac4c9a468--

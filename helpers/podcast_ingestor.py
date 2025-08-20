@@ -8,9 +8,9 @@ import requests
 from helpers.base_ingestor import BaseIngestor
 from helpers.dedupe import link_uid
 from helpers.metadata_manager import ContentType
+from helpers.path_manager import PathType
 from helpers.transcription import transcribe_audio
-from helpers.utils import (generate_markdown_summary,
-                           log_error, log_info)
+from helpers.utils import generate_markdown_summary, log_error, log_info
 
 USER_AGENT = "AtlasIngestor/1.0 (+https://github.com/yourrepo/atlas)"
 
@@ -102,23 +102,23 @@ class PodcastIngestor(BaseIngestor):
 
         # Use the path_manager to get all required paths
         paths = self.path_manager.get_path_set(self.content_type, file_id)
-        audio_path = paths.get_path("audio")
-        paths.get_path("metadata")
-        transcript_path = paths.get_path("transcript")
-        md_path = paths.get_path("markdown")
+        audio_path = paths.get_path(PathType.AUDIO)
+        paths.get_path(PathType.METADATA)
+        transcript_path = paths.get_path(PathType.TRANSCRIPT)
+        md_path = paths.get_path(PathType.MARKDOWN)
 
         # CAPTURE ALL METADATA - Never lose any information!
         # Extract every available field from the RSS entry
         podcast_metadata = self._extract_all_podcast_metadata(entry, audio_url)
-        
+
         meta = self.create_metadata(
             source=metadata["source"],
             title=entry.title,
-            type_specific=podcast_metadata["type_specific"]
+            type_specific=podcast_metadata["type_specific"],
         )
         # Override the generated UID with our specific one for deduplication
         meta.uid = file_id
-        
+
         # Save raw RSS entry data for complete preservation
         self.save_raw_data(entry, meta, "rss_entry")
         try:
@@ -179,7 +179,7 @@ class PodcastIngestor(BaseIngestor):
         return meta.status == "success"
 
         return True  # Indicate success for the ingestor
-    
+
     def _extract_all_podcast_metadata(self, entry, audio_url):
         """
         Extract ALL available metadata from RSS feed entry.
@@ -187,13 +187,13 @@ class PodcastIngestor(BaseIngestor):
         """
         # Raw entry data - preserve the complete source
         raw_entry = {}
-        
+
         # Convert feedparser entry to dict, handling all possible fields
         for key in entry.keys():
             try:
                 value = entry[key]
                 # Handle complex objects by converting to serializable format
-                if hasattr(value, '__dict__'):
+                if hasattr(value, "__dict__"):
                     raw_entry[key] = str(value)
                 elif isinstance(value, (list, dict)):
                     raw_entry[key] = value
@@ -201,74 +201,64 @@ class PodcastIngestor(BaseIngestor):
                     raw_entry[key] = str(value) if value is not None else None
             except Exception as e:
                 raw_entry[key] = f"<extraction_error: {str(e)}>"
-        
+
         # Extract structured podcast-specific metadata
         podcast_data = {
             # Core episode information
             "episode_number": entry.get("itunes_episode"),
             "season_number": entry.get("itunes_season"),
             "episode_type": entry.get("itunes_episodetype", "full"),
-            
             # Content descriptions (often contain show notes!)
             "summary": entry.get("summary", ""),
             "subtitle": entry.get("subtitle", ""),
             "description": entry.get("description", ""),
-            
             # Publication information
             "published": entry.get("published", ""),
             "published_parsed": str(entry.get("published_parsed", "")),
             "updated": entry.get("updated", ""),
-            
             # Author/Creator information
             "author": entry.get("author", ""),
             "authors": entry.get("authors", []),
             "creator": entry.get("creator", ""),
             "publisher": entry.get("publisher", ""),
-            
             # Media information
             "duration": entry.get("itunes_duration", ""),
             "explicit": entry.get("itunes_explicit"),
             "language": entry.get("language", ""),
-            
             # Links and references
             "link": entry.get("link", ""),
             "links": entry.get("links", []),
             "guid": entry.get("guid", ""),
             "id": entry.get("id", ""),
-            
             # Visual content
             "image": entry.get("image", {}),
             "thumbnail": entry.get("thumbnail", ""),
-            
             # Categorization
             "tags": entry.get("tags", []),
             "categories": entry.get("categories", []),
             "keywords": entry.get("keywords", []),
-            
             # Technical metadata
             "enclosures": entry.get("enclosures", []),
             "content": entry.get("content", []),
-            
             # Copyright and legal
             "copyright": entry.get("copyright", ""),
             "rights": entry.get("rights", ""),
-            
             # Audio URL (redundant but explicit)
             "audio_url": audio_url,
         }
-        
+
         # Handle iTunes-specific fields (there may be many!)
         itunes_fields = {}
         for key in entry.keys():
             if key.startswith("itunes_"):
                 itunes_fields[key] = entry.get(key)
-        
+
         # Handle any custom namespaced fields (spotify:, google:, etc.)
         custom_fields = {}
         for key in entry.keys():
             if ":" in key and not key.startswith("itunes_"):
                 custom_fields[key] = entry.get(key)
-        
+
         # Store everything in type_specific metadata
         return {
             "type_specific": {
@@ -277,7 +267,7 @@ class PodcastIngestor(BaseIngestor):
                 "custom_fields": custom_fields,
                 "raw_entry": raw_entry,  # Complete original data
                 "extraction_timestamp": datetime.now().isoformat(),
-                "feedparser_version": getattr(feedparser, '__version__', 'unknown')
+                "feedparser_version": getattr(feedparser, "__version__", "unknown"),
             }
         }
 

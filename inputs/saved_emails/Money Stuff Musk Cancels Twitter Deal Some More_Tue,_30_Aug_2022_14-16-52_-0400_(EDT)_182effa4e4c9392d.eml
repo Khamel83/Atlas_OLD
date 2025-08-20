@@ -1,0 +1,2254 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6359:4201:b0:b5:9df0:5e91 with SMTP id kn1csp2346616rwb;
+        Tue, 30 Aug 2022 11:18:55 -0700 (PDT)
+X-Received: by 2002:a17:902:c94f:b0:175:298:377a with SMTP id i15-20020a170902c94f00b001750298377amr6836382pla.133.1661883535134;
+        Tue, 30 Aug 2022 11:18:55 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1661883535; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=GCDFHo9MDhEqLSfMej7h1cF/w+bUsDAc3tzAydf7zNARV1l/aCuusPOLQOnh+BSgZN
+         VrxLWspJWsr9UWq1C9wu6DOeSTSLIXF1QtuSukmk5BdTOMwnH6GsXGJM5cI+FqAZMo/1
+         suFGzQArB+t5Qfn4jAQSwp+OKT3g82axq2M9zxfCQrIqJ0BserzC5nZ2ERQ+rfIspb+n
+         ErMNQAhGY4CSu15ZXHkWRgv3LTEcJ0DJf/6XZlEuDXj6gUx7bML8xtf6hhqgtAKmYEUI
+         Ry6VixGMXEtNXalqKuAGfJTz7HPpA9bGtPeF33rOlCWqZUgjvVAJZxURWnHgt1pSR8de
+         YXLg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=CPBkOBdHMY9LOR2c4Jx4vCC9WmZ/gzq9nzY0uqJpe+Q=;
+        b=RLMJYFp6cbBSrpTkawNGqlwm1G6qHvMscfRezKzIlxMfUFgxyA7UcjvQ7BFa4pF74U
+         TWu6KC2cR97fD80yzi7wOcvBG75rGTLseDiwwy9HYATBie2QkRc1L2wZBQiix55R1RJx
+         c8uW6Zka+gTcJ4Bjj/c2tzmTh1zC70T4mubbpvdC76+wBBF6RHqvHbrS2CeUqgbp9DfU
+         fgDlw37I1d6tnznqlsEg5MEmzPkZ0pHI5IeZTTWfOyN6iHj9/Cu/Le1Y4P9bdxAVrs9D
+         IwHgxlfVoTNQHG3r+SuVFvAPkL57weTIPmigdb+sgMdNaUpbIPIssYfE7VI2EZfKmTYm
+         PRnw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=FF4mO6Cm;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id k16-20020a170902d59000b0015a4629bedbsor2599398plh.127.2022.08.30.11.18.55
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 30 Aug 2022 11:18:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=FF4mO6Cm;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc;
+        bh=CPBkOBdHMY9LOR2c4Jx4vCC9WmZ/gzq9nzY0uqJpe+Q=;
+        b=uHIx/7IKKLtPbOuowLRjvE9eQzCkltdCHs7zKsa0UcF3N3qaO3xiXNoN5Xwkiehkjw
+         Al5L9vjLZbchMM+q+SAkxHcTQF5y2PUaUp/BC6fK7XiLASJqHFseL3iOicgI9ht4B9EV
+         GxLeDrQTL04k+McL0es6y+Uu9Ncc6bANwyG+k7nKredd2CC6NwZLaXI2Z7W1Tc6ucibQ
+         /GVtPCa/HvRuwVRjparZyn5JKMKiUASzhjlhax3Tfzm56bmGbLg8bCy6wYdy3InrN7nW
+         u612wJc+isL+5D5vaMrJ+9Sn+q8eUgdAlHimVcyNDccePVkeVyjBKzdTvsNfC3JD9AYF
+         XSyg==
+X-Gm-Message-State: ACgBeo07UvqaMQJ3V3chRStyrGqt6TVwfCeSfP1XFyBKem6KP8oXaVq7
+	GRILRk05MZQQgNCU+Ve7ILBjSrArWlEtxVu4ri+u4MSAOmjLXsa0aQ==
+X-Received: by 2002:a17:902:e382:b0:173:36e4:ede6 with SMTP id g2-20020a170902e38200b0017336e4ede6mr21517765ple.139.1661883534817;
+        Tue, 30 Aug 2022 11:18:54 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a17:90a:bb07:0:0:0:0 with SMTP id u7csp2770700pjr;
+        Tue, 30 Aug 2022 11:18:51 -0700 (PDT)
+X-Received: by 2002:a05:6102:d1:b0:392:96cf:6e73 with SMTP id u17-20020a05610200d100b0039296cf6e73mr1156206vsp.19.1661883530988;
+        Tue, 30 Aug 2022 11:18:50 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1661883530; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=FiAGlJxZ5KU0BPfiKKH8OyNhrmxU7ql8XT1n2lZpb1o8wO8QWkMyyvWsah2YWcnFGT
+         LVbwi0te/kPHIUTIBWKPlawhmZNAskznTBqc5WmRLRNiorq0OlmyCUNHomt5HBTr29TK
+         I83UztR7JDvuOmPGYGaHiLK804iAsyb6cOGlc4QQqKdmkjgXGlqe2gMmoCuJJag7F/yz
+         qito6T/PGyf/9Qv90I/R1kB6xs/nVbyXKRCluDyn+ecVVv4fPwHPFogIDBYjO3k+elEh
+         u/23xwiYwHUvreOz9FQBsANG0k1lgO34TCAppZFZxWo8Rjbf8Zxzl2hSKt3FecweoZRs
+         2WBg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=CPBkOBdHMY9LOR2c4Jx4vCC9WmZ/gzq9nzY0uqJpe+Q=;
+        b=Aix8dgbghQCBGuqG/UprYZVf8b/GJp8s/ClJeDfmChzYjPyTpeaYYJfuWyk7sI3K/+
+         WlCwcjt2wYbr2vvPGqQRTKrbAMFwR72g+3+emMOSMpub8+sWVmDHYnwcn76y1wBR/zsu
+         4PZLcBJXpsNmWj6KjIUtt53YVKB2pchk4xw8/G3QtLOL6yP/hjkAEmR++lmF/BOWEBN2
+         9qDMNlnlJte4kVDTg8Ka2XoOBcTEO8/tT0lPLCma+LtO9P3oZkWfJ1vkdkLoOYOvFUn5
+         WYmeF9YVQbPiWn0yWSZ3i3n1LmGp1AqvegvkanO2CwO1foQ5nsZ9tQC9EPKcgnOMCrG1
+         wZoA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=FF4mO6Cm;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220830141652.28895329.263565@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220830141652.28895329.263565@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220830141652.28895329.263565@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m133-20020a1f268b000000b00393857910a2sor2185026vkm.3.2022.08.30.11.18.50
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 30 Aug 2022 11:18:50 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220830141652.28895329.263565@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AA6agR5pQP23L2XI4fLzgEhiTmdKCwhLcNzADrMCVScrdQJCSDj5WkbSjKwKVOgSDAaeTcbayQ5jOQ/rMswLTveIR9bKWGawrUo=
+X-Received: by 2002:a1f:a74c:0:b0:379:1113:4f07 with SMTP id q73-20020a1fa74c000000b0037911134f07mr5457215vke.40.1661883530312;
+        Tue, 30 Aug 2022 11:18:50 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1661883530; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ZZLlyb4pWA24Yg3Wnd9LeQP8t5yvsZV6CbkRJPnqHKbTpOM+Xn9/qsqwSIheNCq9uN
+         qoH4DgQt53ht/Jcs1y1V3Nln50W/yUA4uRDsoypx+CwOy68oiJ1k3w/gzQ6KmxP391ZO
+         tIvMoAzbblZb2Gy59rKRiPQ4vsiWEb/ft8JTk2p0ktx66st80wcSgC9NN6WmVsmGdhWK
+         +XPCVkEbUbIzI/yJq9JqnoSM2HJ7aqBV2bqXsbqWcgszTFuRgNh9VsrZ61CyJzRj1foy
+         ziWskcPJ7j43viKn2Qga5Ia+emtpOXOsbzmE7lIWzwuOSVLoARH48DGuggoli5rKuQa6
+         Bs5g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=CPBkOBdHMY9LOR2c4Jx4vCC9WmZ/gzq9nzY0uqJpe+Q=;
+        b=XNnSLUy3paNyAl1OBPO55kVJSCjJg2eKV56l/9RtohSIQiADSs6+Y5zvvU3pue1Xrd
+         m4zTP/nszmr/TqK8WicgQU39fBKKtlqx1l+SkMuHjAye/vTSzgL11wXfBGI9bgzhhIPv
+         l2lGIahpDzooRaRrvr2fIRf8VpQ/MzGBiV96oN45es1TFXem0qYFXpXLf2K02VaB12e3
+         aLYNZCM1w64Tkgw7gpjIWXy2UB0qyjcg7er05a2rTFOR3GkdIyz/T8dTwACvRtijEDFQ
+         ipo59sSetLqjgKK/Ii/52qcYvssS7N5fQOQBiFUs17RwIWw1ZciUjPraN+76bAq4iAWv
+         cY6w==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=FF4mO6Cm;
+       spf=pass (google.com: domain of delivery_20220830141652.28895329.263565@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220830141652.28895329.263565@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220830141652.28895329.263565@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id p131-20020a1fa689000000b00393c8e85e1dsi371475vke.5.2022.08.30.11.18.50
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 30 Aug 2022 11:18:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220830141652.28895329.263565@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=Ln5SvwwIoYg/3BDvEtE9001ftMc3Z3k9pmcgVFwQTks=;
+ b=FF4mO6CmlVNxRGCBHOJAaXdbXkI+Z18LKMkJHWRsEp6bim3tHvM8Emb4hY7t5EmAbqjeOSdYHAMc
+   hVWbdZ5lwpNgcAQ8ZY0aIdiDFRzdoJOJb0/MtvQgu3WBT3EEJLedh4AtdgjkZE7VMLOFw8f+Mh7H
+   mDFTHEeMxRHdGCtKta0=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by bloomberg-b.sailthru.com id h1pa8i30nu8r for <bloomberg@khamel.com>; Tue, 30 Aug 2022 14:18:49 -0400 (envelope-from <delivery_20220830141652.28895329.263565@mx.sailthru.com>)
+Date: Tue, 30 Aug 2022 14:16:52 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220830141652.28895329.263565@sailthru.com>
+Subject: Money Stuff: Musk Cancels Twitter Deal Some More
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_19726741_825212589.1661883412011"
+Precedence: bulk
+X-Feedback-ID: 6358:28895329:campaign:sailthru
+X-TM-ID: 20220830141652.28895329.263565
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-rawolive.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ch7bs1.5nd9/2b97a012
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ch7bs1.5nd9/2b97a012>, <mailto:unsubscribe_20220830141652.28895329.263565@mx.sailthru.com>
+X-rpcampaign: stjko28895329
+
+------=_Part_19726741_825212589.1661883412011
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        What if Elon Musk had never made a hostile bid to buy Twitter Inc.?=
+ What if Twitter was just bopping along, being a public company, and then
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+
+What if Elon Musk had never made a hostile bid to buy Twitter Inc.? What if=
+ Twitter was just bopping along, being a public company, and then one day i=
+ts former head of security, Peiter =E2=80=9CMudge=E2=80=9D Zatko,  sent a b=
+unch of regulators=C2=A0a whistle-blower letter saying that Twitter=E2=80=
+=99s=C2=A0security was bad in various ways, that it failed to safeguard use=
+r data and was vulnerable to hackers and was generally sort of sloppy about=
+ stuff? Obviously some things would happen:
+=09Regulators =E2=80=94=C2=A0the Federal Trade Commission, the Securities a=
+nd Exchange Commission, etc. =E2=80=94 would investigate. If Twitter=E2=80=
+=99s security was bad in the ways that Zatko says, then perhaps there would=
+ be fines, or settlements requiring Twitter to change its practices.=C2=A0=
+=09Politicians would hold hearings. Obviously politicians love to hold hear=
+ings about how social-media companies are bad at privacy or moderation, so =
+they=E2=80=99d do that here. It seems unlikely that anything would come of =
+this.=09Perhaps there would be business consequences. Twitter users, disgus=
+ted by its lax security practices, might quit. Advertisers might stop buyin=
+g ads.=C2=A0=09Given these things =E2=80=94=C2=A0investigations, potential =
+fines, bad publicity, business consequences =E2=80=94=C2=A0there would=C2=
+=A0definitely=C2=A0be shareholder lawsuits. Everything,=C2=A0I am always sa=
+ying around here, is securities fraud: If a public company does a bad thing=
+ (bad information security practices, etc.), then shareholders can sue, say=
+ing =E2=80=9Cyou did a bad thing but didn=E2=80=99t tell me about it, so I =
+was tricked into buying stock, which is fraud.=E2=80=9D=C2=A0
+
+What would be the aggregate impact of all of those things? Well, I don=E2=
+=80=99t know; it depends on how true and how serious Zatko=E2=80=99s claims=
+ turn out to be. Twitter denies and downplays them, while Zatko has incenti=
+ves to play them up. But so far my sense is that all of this is pretty ordi=
+nary-course stuff. If you are a large social media company, there will be i=
+nternal controversies about your information-security and content-moderatio=
+n practices; every big social media company faces tradeoffs there. The peop=
+le who lose out in those controversies will have incentives to go public as=
+ whistle-blowers, and then regulators and politicians will have incentives =
+to investigate and extract settlements. None of this is=C2=A0existential; n=
+one of it is, like, =E2=80=9C90% of Twitter users are bots and so advertise=
+rs=C2=A0will all leave,=E2=80=9D or =E2=80=9CTwitter sold all of its users=
+=E2=80=99 Social Security numbers to North Korean hackers so the users will=
+ all quit,=E2=80=9D or =E2=80=9CTwitter is operating illegally and will be =
+shut down by the government.=E2=80=9D And most of it is pretty hypothetical=
+, more =E2=80=9CTwitter=E2=80=99s practices create risks of something reall=
+y bad happening=E2=80=9D than =E2=80=9Csomething really bad has actually ha=
+ppened.=E2=80=9D
+That doesn=E2=80=99t necessarily mean that all of Zatko=E2=80=99s complaint=
+s are wrong or trivial. It=E2=80=99s just that, in a world where Twitter wa=
+s just a public company with an information-security whistle-blower, the co=
+nsequences of that would be pretty bounded. Might Twitter pay, I don=E2=80=
+=99t know, nine digits of fines? Might it lose some business? Might its sto=
+ck drop by 5%? Might a shareholder lawsuit settle for another nine digits? =
+Again, without really having a strong view on the validity or seriousness o=
+f these claims, I will say: Sure, those things are possible.
+Might Twitter pay 11 digits of fines? Might it lose 30% of its business? Mi=
+ght its stock drop by 30%? From this complaint? No, I am going to say, not =
+really. It=E2=80=99s not literally impossible, but it=E2=80=99s not really =
+a thing that happens. In particular, people don=E2=80=99t roll the dice on =
+big investigations and lawsuits. They settle, for reasonable amounts of mon=
+ey. There is a sense in which a certain amount of regulatory fines and cong=
+ressional hearings and shareholder lawsuits are a cost of doing business fo=
+r big tech companies: They can be expensive and annoying and one tries to m=
+inimize them, but you can=E2=80=99t expect to escape them entirely, or worr=
+y=C2=A0too=C2=A0much about them when they happen. This stuff seems to be in=
+ that category.
+But in the actual world we live in, where Musk did=C2=A0sign an agreement t=
+o buy Twitter that he is now trying to get out of, things are different. Tw=
+itter,=C2=A0now, is pretty much a binary bet. Either Musk will buy Twitter =
+for $54.20 per share in cash, as he agreed to do in April, or he won=E2=80=
+=99t. If he does, Twitter is worth $54.20 per share, to its existing shareh=
+olders, and all this information-security stuff is Elon Musk=E2=80=99s (bou=
+nded, manageable) problem. If he doesn=E2=80=99t, then Twitter is worth=C2=
+=A0much less=C2=A0than $54.20 per share. What that number is =E2=80=94=C2=
+=A0maybe it is $25? $30?=C2=A0=E2=80=94=C2=A0will depend on Twitter=E2=80=
+=99s user growth and ad revenue and business prospects and legal liabilitie=
+s and so forth, and perhaps Zatko=E2=80=99s complaints will lower that numb=
+er by a dollar or two. But if you are a Twitter shareholder, that is a seco=
+ndary concern; what is much more important to you is that $54.20 is much mu=
+ch bigger than whatever that number is. You want the $54.20.
+And Zatko=E2=80=99s complaint might make it harder for you to get it. Yeste=
+rday Musk=E2=80=99s lawyers  sent Twitter another letter, re-terminating th=
+e merger agreement, arguing that=C2=A0Twitter has breached the merger agree=
+ment in various ways based on Zatko=E2=80=99s complaint, which Musk say =E2=
+=80=9Calleges far-reaching misconduct at Twitter =E2=80=A6 that is likely t=
+o have severe consequences for Twitter=E2=80=99s business.=E2=80=9D=C2=A0(T=
+witter  sent a letter back to Musk saying =E2=80=9Cno.=E2=80=9D) Like Musk=
+=E2=80=99s previous letter terminating the merger agreement for an unrelate=
+d list of reasons, this letter is a strange piece of work =E2=80=94=C2=A0it=
+ misrepresents what the merger agreement says for some reason?
+  [1]
+=C2=A0=E2=80=94=C2=A0but it certainly says a lot of things. If Zatko=E2=80=
+=99s complaints are all true and maximally bad, then,   as we discussed yes=
+terday, Musk might have some argument that he can get out of the deal for f=
+raud. He=C2=A0might=C2=A0also have an argument that he can get out of the d=
+eal for some failure of Twitter=E2=80=99s representations in the merger agr=
+eement, and this letter opens up that argument.
+Will it work? Man, I have no idea. When Musk previously tried to terminate =
+the merger agreement, Twitter sued to force him to close, and that case is =
+moving toward a trial in October. It would be very hard to accommodate a wh=
+ole new set of issues =E2=80=94=C2=A0How bad is Twitter=E2=80=99s security?=
+ Is it true that =E2=80=9CTwitter apparently never acquired the rights to T=
+witter=E2=80=99s core machine learning models,=E2=80=9D as Musk=E2=80=99s n=
+ew letter says?
+  [2]
+=C2=A0Who knew what, when? Will any of this have a =E2=80=9Cmaterial advers=
+e effect=E2=80=9D on Twitter=E2=80=99s business? =E2=80=94=C2=A0in the six =
+weeks or so before trial, and   Musk is asking for a delay. The judge might=
+ not want to delay the trial to throw in a grab bag of miscellaneous new is=
+sues that no one has mentioned before, but=C2=A0Musk=E2=80=99s (and Zatko=
+=E2=80=99s) argument is that no one has mentioned them because Twitter kept=
+ them secret, and if he=E2=80=99s right that they are serious issues then i=
+t seems unfair to him to ignore them.
+As I said yesterday, you could have two readings of what is going on here. =
+One is that Musk has been playing cynical games to get out of his binding a=
+greement to buy Twitter, and it has not been going very well for him, and t=
+his =E2=80=94 scouring=C2=A0Zatko=E2=80=99s complaint for more excuses to g=
+et out of the deal =E2=80=94=C2=A0is a new cynical game that he is playing.=
+ On that reading, you should not be very sympathetic to him, or delay the t=
+rial, or let him out of the deal. The other reading is that Musk has been p=
+laying cynical games to get out of his binding agreement to buy Twitter, an=
+d it has not been going very well for him, and Zatko=E2=80=99s complaint is=
+, by sheer coincidence, a=C2=A0good=C2=A0reason for him to get out of the d=
+eal. It=E2=80=99s just his, and our, weird dumb luck that while he was flai=
+ling around trying to back out of this deal, it came out that Twitter is do=
+ing a bunch of frauds that should let him out of the deal.
+I have my own view about which is more likely.=C2=A0But my point here is th=
+at Zatko=E2=80=99s complaint has enormous, unusual=C2=A0leverage. In the or=
+dinary course, a complaint like this might generate hearings and investigat=
+ions and lawsuits, but there would be reasonable settlements, and=C2=A0its =
+impact on Twitter and its shareholders would ultimately be pretty limited. =
+But because of the pending Musk deal =E2=80=94=C2=A0and Musk=E2=80=99s desi=
+re to get out of that deal, and his willingness to litigate everything to t=
+he death to do so =E2=80=94=C2=A0this complaint could cost Twitter and its =
+shareholders, you know,   $20 billion, or whatever the difference is betwee=
+n Musk=E2=80=99s price of $54.20 per share and what Twitter would be worth =
+without him.
+When Zatko=E2=80=99s complaint came out,  a Twitter spokesperson said that =
+he =E2=80=9Cappears to be opportunistically seeking to inflict harm on Twit=
+ter, its customers, and its shareholders,=E2=80=9D and there is an importan=
+t sense in which that is true. In the normal case, if you read Zatko=E2=80=
+=99s complaint and assumed that everything in it was (1) true and (2) as ba=
+d as Zatko thinks it is, you would not expect it to cost Twitter=C2=A0twent=
+y billion dollars=C2=A0to clean it up. But because of the Musk situation, t=
+hat is a possibility. The timing gives his complaint an unusual power to hu=
+rt Twitter.
+Obviously one possible outcome is something like =E2=80=9Cokay, in the real=
+ world, this complaint is at the absolute maximum a $1 billion problem, so =
+Twitter will knock $1 billion off the purchase price and Musk will close th=
+e deal at $53 per share.=E2=80=9D If Musk still wanted Twitter,=C2=A0and if=
+ this complaint was truly news to him, that is the sort of compromise that =
+you=E2=80=99d expect them to reach. But Musk was already fighting to get ou=
+t of the deal entirely, and there's no real chance of a compromise like tha=
+t. Musk=E2=80=99s incentives are to make Zatko=E2=80=99s claims seem existe=
+ntial for Twitter, because that=E2=80=99s his path out of the deal.=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Meme king
+   =20
+ =20
+
+The basic business of an activist investor is that you pick a public compan=
+y, you buy a bunch of its stock, you announce your position, you say =E2=80=
+=9CI have a few suggestions for how this company could be run better,=E2=80=
+=9D you get the company to implement your suggestions (by persuasiveness, o=
+r public pressure, or proxy fight),=C2=A0the suggestions are in fact good, =
+and the stock goes up. Your suggestions increase the long-term value of the=
+ company, which is good for the stock price today. You are a big shareholde=
+r, so you profit. When you are done =E2=80=94=C2=A0when the company has imp=
+lemented your changes and the stock price reflects the increased long-term =
+value =E2=80=94=C2=A0you sell your stock and collect, as it were, your payc=
+heck for a job well done.
+Obviously it is possible to be bad at this. You might be bad at getting com=
+panies to implement your suggestions =E2=80=94=C2=A0you are not persuasive,=
+ you don=E2=80=99t win proxy fights, people don=E2=80=99t like you, etc. =
+=E2=80=94=C2=A0or you might be good at getting them to implement your sugge=
+stions, but the suggestions are bad and make the stock go down. But let=E2=
+=80=99s assume that some people are good at it. What that means is that, wh=
+en they announce an activist position in a company=E2=80=99s stock, (1) the=
+y are likely to make changes to that company and (2) those changes are like=
+ly to make the stock go up.=C2=A0
+What=C2=A0that=C2=A0means is that, when they announce an activist position =
+in a company=E2=80=99s stock, the stock will go up right away. Other invest=
+ors will say =E2=80=9Cah, yes, that activist is in the stock, and her track=
+ record is good, so this stock will go up, so I should buy it now,=E2=80=9D=
+ so they do, so it goes up now.
+If you are a good activist, this might create some temptation. You just spe=
+nt, I don=E2=80=99t know, $100 million buying some stock. You have a 120-pa=
+ge slide deck about how the company should make changes. You=E2=80=99ll hav=
+e to go in and have a contentious meeting with management, and they might s=
+ay no, and then you=E2=80=99d have to have a proxy fight, and you might los=
+e. Even if you win, they=E2=80=99ll have to execute your plan; they might m=
+ess it up, or your plan might be bad to begin with. Everything is risky and=
+ uncertain and a lot of work, and it=E2=80=99ll be a year or two before you=
+ know the results. Meanwhile the stock jumped 20% on your announcement, so =
+you have a $20 million profit=C2=A0right now. If you just sell your stock, =
+then, boom, you=E2=80=99ve made money from your activism=C2=A0without actua=
+lly doing it,=C2=A0quickly, without much risk. Why not just sell now?
+A little bit of the answer is =E2=80=9Cif you sell people will complain abo=
+ut market manipulation,=E2=80=9D but most of the answer is that you are pla=
+ying a repeated game, and your reputation is valuable.=C2=A0If you have a r=
+eputation for being good at activism, you can keep doing activism, and it c=
+an keep making you money. If you do this stunt =E2=80=94=C2=A0announce an a=
+ctivist position, see the stock rise, dump the stock =E2=80=94=C2=A0more th=
+an once or twice, then the magic ends. After that, everyone will say =E2=80=
+=9Coh, sure, you bought stock, but just to pump it, not to do valuable acti=
+vism, I=E2=80=99m not falling for that again,=E2=80=9D and they won=E2=80=
+=99t buy the stock, so it won=E2=80=99t go up, so you won=E2=80=99t have an=
+y profit, so you=E2=80=99ll have to go back to actually doing activism =E2=
+=80=94=C2=A0except that no one will trust you and they=E2=80=99ll all assum=
+e you=E2=80=99re an opportunist.
+In 2020, Chewy founder Ryan Cohen bought a big chunk of GameStop Corp. stoc=
+k and did some activism to try to pivot it to e-commerce and technology. Th=
+is was fine, you know, whatever =E2=80=94=C2=A0Cohen got himself a board se=
+at and the company=E2=80=99s attention =E2=80=94=C2=A0until January 2021, w=
+hen GameStop=E2=80=99s stock exploded. I  wrote at the time:
+
+He=E2=80=99s been on the board for two weeks, he=E2=80=99s done roughly not=
+hing, and he=E2=80=99s up 1,655%, or some other comically large number, dep=
+ending on what minute you choose to look at the stock price. It is a stagge=
+ringly good trade. =E2=80=A6 Cohen has been in for five months and has made=
+ more than a billion dollars.
+But what can he do? I mean one thing that he can do is work diligently on G=
+ameStop=E2=80=99s board of directors to improve the company=E2=80=99s perfo=
+rmance, like he planned to do two weeks ago. But it=E2=80=99s going to be k=
+ind of a long time, if ever, before GameStop=E2=80=99s performance catches =
+up to its stock price. The market has (let=E2=80=99s say!) already given Co=
+hen full credit for unprecedented, spectacular, sustained success in turnin=
+g GameStop around; it seems sort of tedious, now, to come to work every day=
+ and try to actually do it. Also it might not work, and then where will he =
+be? Not up $1.3 billion anyway.=C2=A0
+The obvious trade is to get out while the getting is good, sell all his sto=
+ck, quit the board and take a month-long victory lap just hanging out on Re=
+ddit and bragging. But he can=E2=80=99t really do that either. For one thin=
+g there would be certain legal complications if a board member and 12.9% sh=
+areholder tried to dump all his stock into this wild rally. There is also t=
+he likelihood that the GameStop magic is delicate, and if he announced he w=
+as selling his stake the stock might collapse before he could sell.=C2=A0It=
+=E2=80=99s not that the stock rallied this week because of Cohen=E2=80=99s =
+involvement, but Cohen=E2=80=99s involvement is a load-bearing element some=
+where down in the basement of this bizarre structure. If he said =E2=80=9Ct=
+hat=E2=80=99s it I=E2=80=99m out,=E2=80=9D other people might too. He has m=
+ade a once-in-a-lifetime trade and can=E2=80=99t cash in.=C2=A0
+
+Well!  Here=E2=80=99s a story about Cohen from today=E2=80=99s=C2=A0Wall St=
+reet Journal:
+
+Investor Ryan Cohen might have run afoul of disclosure guidelines in his su=
+rprise sale of Bed Bath & Beyond Inc. stock this month, securities lawyers =
+said, but regulatory action against him appears unlikely.
+Mr. Cohen sold his entire stake in the home-goods retailer on Aug. 16 and 1=
+7, just months after he took a significant position in the company and pled=
+ged to force changes there. Shares tumbled after news of his sales came out=
+ on the afternoon of the 17th, but meanwhile Mr. Cohen benefited from a hug=
+e surge in volume that enabled him to sell millions of shares while prices =
+rose.=C2=A0
+An ownership disclosure that Mr. Cohen filed on the morning he began sellin=
+g included a trivial update about the size of his holdings and said he hadn=
+=E2=80=99t done any trading in Bed Bath & Beyond during the prior 60 days. =
+=E2=80=A6
+Within minutes or hours of the ownership disclosure, Mr. Cohen began sellin=
+g. Individual investors =E2=80=9Chave no idea he is dumping the stock again=
+st them,=E2=80=9D said Joshua Mitts, a law professor at Columbia University=
+ who specializes in analytical research on trading strategies.
+The Securities and Exchange Commission could investigate whether Mr. Cohen =
+had a plan to sell before he filed the Aug. 16 update that he should have d=
+isclosed, according to former regulators and law professors who specialize =
+in securities law. =E2=80=A6=C2=A0A person familiar with Mr. Cohen=E2=80=99=
+s trading said his filings complied with rules, and he didn=E2=80=99t make =
+any offers or seek any prices for his Bed Bath & Beyond shares before makin=
+g the Aug. 16 ownership disclosure update.
+
+The  Aug. 16 filing was =E2=80=A6=C2=A0a reminder that Cohen owned the stoc=
+k? In March,  Cohen reported that he owned about 9.45 million shares (via d=
+irect stock ownership and high-strike January 2023 options), or about 9.8% =
+of the company; later that month,  he reported that he had reached an agree=
+ment with Bed Bath on the appointment of new directors. Nothing changed sin=
+ce then except that Bed Bath bought back some stock, meaning that Cohen=E2=
+=80=99s 9.45 million shares now represented 11.8% of the company. So he  fi=
+led an update saying that.
+Then the stock soared for, as far as anyone can tell, irrational meme-y rea=
+sons: The Aug. 16 filing reminded meme-stock investors that Cohen owned a b=
+unch of Bed Bath stock and options, and they were like =E2=80=9Coh yeah, lo=
+ve that guy, to the moon!=E2=80=9D: Cohen is a =E2=80=9Cmeme king,=E2=80=9D=
+ with =E2=80=9Ca deep fan base of individual investors=E2=80=9D because of =
+his role in GameStop, so when he buys a stock =E2=80=94=C2=A0or even just r=
+eminds people that he already owned the stock =E2=80=94=C2=A0the stock goes=
+ up. When Cohen filed that disclosure on the morning of Aug. 16, the stock =
+was trading at around his purchase price; by the end of that day, it was wa=
+y up. Cohen, sensibly, sold, making a profit of about $57 million.
+  [3]
+
+One possibility is that this was a nefarious plot, but that seems unlikely.=
+ The more likely explanation is that he felt required to make this disclosu=
+re and was not particularly planning to sell (at more or less no profit) wh=
+en he made it. And then the stock soared and he figured, sure, why not, tak=
+e a profit now. People got excited when he reminded them that he owned the =
+stock, and he took advantage by selling the stock.
+The main point that I want to make here is that it is not at all clear that=
+ being a meme-stock king=C2=A0is a particularly repeated game. I mean, Cohe=
+n has done it twice, so good for him. But can he, or anyone,
+  [4]
+=C2=A0do it, like, four times? It is one thing to painstakingly build a tra=
+ck record of driving corporate improvements through activism, to the point =
+that your investments can move a stock price, and then say =E2=80=9CI do no=
+t want to undermine my credibility by dumping my stock before I have a chan=
+ce to make improvements.=E2=80=9D It is another thing to build a track reco=
+rd of people on Reddit calling themselves =E2=80=9Capes=E2=80=9D and piling=
+ into your stock trades for entertainment reasons. How long can you count o=
+n that lasting? If they=E2=80=99re buying your stock, you might as well sel=
+l it.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Getting paid not to drill oil
+   =20
+ =20
+
+The most interesting field of economics might be the economics of not doing=
+ things. The main way that people make money, in the world, is by doing thi=
+ngs that other people want: drilling oil, brewing coffee, maintaining socia=
+l media sites, writing newsletters. But there are a few lines of business w=
+here you can get paid for not=C2=A0doing things that you=E2=80=99d otherwis=
+e do. Blackmail, for instance, is a classic: =E2=80=9CI will go around dist=
+ributing these compromising photos of you, unless you pay me money, in whic=
+h case I will do nothing.=E2=80=9D  Coasean bargaining: =E2=80=9CI will bui=
+ld a smelly polluting factory on my land next to yours, unless you pay me m=
+oney not to, in which case I will leave it undeveloped.=E2=80=9D Demand res=
+ponse in electric grids: =E2=80=9CI will turn my lights on and use electric=
+ity, unless you pay me not to, in which case I will use less electricity.=
+=E2=80=9D And, in the modern world, all sorts of environmental credit schem=
+es: =E2=80=9CI will  chop down these trees, drill this oil, etc., unless yo=
+u pay me not to, in which case I won=E2=80=99t do anything at all.=E2=80=9D
+There are so many ways in which the economics here are unintuitive. Conside=
+r the oil market. There is some demand schedule for oil;=C2=A0people will u=
+se more of it at lower prices and less at higher prices. There is also a su=
+pply schedule: Some oil is cheaper to drill than other oil, so when oil pri=
+ces are low only the cheapest-to-extract oil will get drilled, but when pri=
+ces get high people will drill in more difficult environments because it be=
+comes=C2=A0worth it. But then consider the market for=C2=A0not=C2=A0drillin=
+g oil. If you own a bunch of oil fields, and someone will pay you $5 per ba=
+rrel not to drill oil, you should start your not-drilling in the most-expen=
+sive-to-drill places. =E2=80=9CGood news,=E2=80=9D you say, =E2=80=9CI have=
+ decided not to drill in this field that costs $150 per barrel to drill, no=
+w pay me my $5.=E2=80=9D You could expand on this theory. If you=C2=A0don=
+=E2=80=99t=C2=A0own any oil fields, you could walk into the offices of some=
+ environmental-credits company and say =E2=80=9Cif you pay me $5 per barrel=
+ not to drill oil, I won=E2=80=99t go around buying oil fields and drilling=
+ them.=E2=80=9D
+Also consider the demand schedule there. If you promise me not to drill for=
+ oil, I might pay you $5 per barrel for the oil you don=E2=80=99t drill. Bu=
+t you could go to someone else and promise not to drill the oil, and they m=
+ight pay you $3 per barrel. For the same barrels. =E2=80=9CNot drilling oil=
+=E2=80=9D is a non-rival good; you can not drill the same barrel of oil as =
+many times as you like, and sell it to a different person each time.
+Or consider blackmail. If you get some compromising photos of me, and I pay=
+ you not to publish them, then you won=E2=80=99t publish them (let=E2=80=99=
+s assume). But what are your long-term incentives? The way to succeed in th=
+e business of not publishing compromising photos is by=C2=A0taking lots of =
+compromising photos and repeatedly threatening to publish them. If I paid y=
+ou $100 not to publish the photos, and you were like =E2=80=9Cright, good, =
+I get paid not to publish photos, I will stop taking the photos,=E2=80=9D y=
+ou would be deeply misunderstanding your business. You are not being paid t=
+o not publish photos =E2=80=94=C2=A0anyone can not publish photos! You are =
+being paid to credibly threaten to publish photos, and then not publish the=
+m.
+This has important implications for the environmental credit schemes. You d=
+on=E2=80=99t get paid for not drilling oil or not cutting down trees; you g=
+et paid when there is a credible threat (from you or someone else) to drill=
+ the oil or cut the trees, and you prevent it. You are in the credible-thre=
+ats business.=C2=A0
+Anyway I enjoyed this story about =E2=80=9C Crypto and climate change: can =
+web3 help get us to net zero?,=E2=80=9D not so much for the crypto stuff as=
+ for the credible-threats stuff:
+
+Last year, a British oil exploration company and a tech start-up joined for=
+ces on a project to permanently lock away untapped fossil fuel reserves in =
+Greenland.
+The idea was simple: the energy company, Greenland Gas and Oil, would not e=
+xtract oil from an area on the east coast that it had exploration licences =
+for. Instead it would monetise keeping the oil in the ground via a partners=
+hip with the tech company, Carbonbase, which works on offsetting carbon emi=
+ssions.
+The mechanics were more complex. The partnership aimed to sell NFTs, digita=
+l collectibles that come with ownership certificates, linked to the unexplo=
+red land. The profits would then be used in part to compensate the energy c=
+ompany and the oil would stay underground. And, since the Greenland governm=
+ent had stopped issuing new exploration licences, the energy company would =
+not be able to simply apply for another and tap a different part of the cou=
+ntry. ...
+But, after months of discussions, the partnership ran into problems. Carbon=
+base and Greenland Gas and Oil did not agree on how to structure the joint =
+venture. Carbonbase also discovered that the country of Greenland had never=
+ successfully produced any oil, a fact that they said undermined the whole =
+idea. Pursuing the project =E2=80=9Cwould have destroyed our public reputat=
+ion=E2=80=9D and looked like =E2=80=9Cgreenwashing=E2=80=9D, says Max Song,=
+ founder of Carbonbase.
+
+Someone should really pay me not to drill for oil in my backyard. Is there =
+oil under my backyard? I don=E2=80=99t know, but someone should pay me not =
+to find out.
+
+ =20
+   =20
+      Block-trade lawyer
+   =20
+ =20
+
+What  a terrible job:
+
+Morgan Stanley has ordered an internal lawyer to shadow the unit entangled =
+in a federal investigation into block trading, underscoring the gravity of =
+the probe and the steps the lender is taking to beef up supervision.
+The Wall Street bank has embedded one of its lawyers to sit on its US equit=
+y syndicate desk to supervise bankers and answer their legal questions, acc=
+ording to people briefed on the arrangement. ...
+It is the latest example of the fallout from the investigations by the Depa=
+rtment of Justice and Securities and Exchange Commission into Morgan Stanle=
+y=E2=80=99s block trading business, which gathered momentum after the colla=
+pse last year of Bill Hwang=E2=80=99s Archegos Capital Management. =E2=80=
+=A6 Heightened scrutiny of block trading has emerged as one of the main leg=
+al risks faced by Wall Street groups, alongside a separate investigation in=
+to bankers=E2=80=99 use of personal mobile phones to communicate with clien=
+ts and counterparties.
+
+We have   talked about the   block-trade probe   before.=C2=A0The equity sy=
+ndicate desk is in the uncomfortable position of talking to (1) investors, =
+about what stocks they would like to buy, and (2) public companies and big =
+shareholders, about selling their stocks. Broadly speaking, if Morgan Stanl=
+ey is buying a block of stock from a big seller after the close today and t=
+hen re-selling it to its investor clients, the syndicate desk can=E2=80=99t=
+ go around calling those investor clients to say =E2=80=9CHey a block of XY=
+Z stock is coming after the close, get ready.=E2=80=9D That would be bad. B=
+ut if it is chatting with those investor clients all day, can it say =E2=80=
+=A6=C2=A0=E2=80=9CBusy day today guys=E2=80=9D? =E2=80=9CStick around after=
+ the close today, we=E2=80=99ve got a fun one for you=E2=80=9D? =E2=80=9CHo=
+w are you feeling about entertainment companies these days=E2=80=9D? Can it=
+ drop some hints? Can it use tone and body language? Can the investors, who=
+ know the market well and have some idea of what blocks might come loose, m=
+ake an informed guess about what the syndicate desk is talking about? Can t=
+he investors then position themselves by, for instance, dumping some XYZ st=
+ock during the afternoon and then buying it back at a discount after the cl=
+ose?
+Oh, I don=E2=80=99t know, I don=E2=80=99t want to give you legal advice. Bu=
+t if you=E2=80=99re the Morgan Stanley lawyer who covers the syndicate desk=
+, you do have to give the syndicate desk legal advice. You have to give som=
+e sort of general answer to those questions. =E2=80=9CYou can talk to inves=
+tors about broad sectors without disclosing the name of the company that yo=
+u have a block for,=E2=80=9D maybe, or whatever, I don=E2=80=99t know. You =
+make some rules and you hand the rules to the syndicate desk and then, cruc=
+ially,=C2=A0you do not listen to their phone calls. You want some gap betwe=
+en the abstract rules that you have made to keep the syndicate desk out of =
+trouble, and the syndicate desk=E2=80=99s interpretation of those rules to =
+get themselves into trouble. Now the lawyer has to sit there and listen to =
+the calls!=C2=A0
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Exxon Escalates Dispute With Russia Over  Barred Exit From Giant Oil Projec=
+t. Nasdaq  Board-Diversity Rule Takes Center Stage in Court Battle. Big US =
+ mortgage lenders turn screws on smaller rivals as rates rise. Temasek to L=
+ead $100 Million Funding for   Crypto Landlord Animoca. FTC Sues Idaho Comp=
+any for Selling  Sensitive Tracking Data. Frustrated  Evergrande bondholder=
+s push own plan for debt restructuring. Shrinking  CDS committee sparks que=
+stions over US$9trn market's future. =E2=80=98At the Top Level=E2=80=99: Se=
+rena Williams Sets Her Sights on   Venture Capital After US Open. NBA Star =
+Giannis Antetokounmpo Is Lending His Name to an   ETF.=C2=A0Thai   YouTuber=
+ Allegedly Cheats Forex Investors of $55 Million. Emotional support  alliga=
+tor.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Ann Lipton points out on Twitter that Musk=E2=80=99s letter cites Sec=
+tion 4.11 of the merger agreement, which says that =E2=80=9CAs of the date =
+of this Agreement, there is no suit, action or proceeding pending or, to th=
+e Knowledge of the Company, threatened in writing against the Company or an=
+y of its Subsidiaries, that would have a Company Material Adverse Effect.=
+=E2=80=9D The letter says: =E2=80=9CIt is likely the case=E2=80=94given the=
+ extensive information withheld from the Musk Parties detailed in the Zatko=
+ Complaint=E2=80=94that the representations set forth in Section 4.11 will =
+be false as of the date of any potential closing of the transactions contem=
+plated by the Merger Agreement, resulting in a failure of the closing condi=
+tion set forth in Section 7.2(b).=E2=80=9D But that=E2=80=99s not how the a=
+greement works. Section 4.11 says that there is no relevant litigation as o=
+f the date of the merger agreement, that is, as of April 2022. Section 7.2(=
+b) says that the representations have to be =E2=80=9Ctrue and correct as of=
+ the Closing Date (except to the extent such representations and warranties=
+ are expressly made as of a specific date, in which case such representatio=
+ns and warranties shall be so true and correct as of such specific date onl=
+y).=E2=80=9D The litigation rep is made as of the signing date only, so it =
+does not have to be true at closing. Elon Musk can=E2=80=99t terminate the =
+deal just because someone sues Twitter.
+
+
+  [2] This too appears to be a stretch by Musk=E2=80=99s lawyers; what Mudg=
+e=E2=80=99s complaint actually says (paragraph 70) is that =E2=80=9CTwitter=
+ had never acquired proper legal rights to training materials used to build=
+ Twitter=E2=80=99s key Machine Learning models.=E2=80=9D I am not an intell=
+ectual-property lawyer or anything, but this seems less bad. Also I am not =
+sure I understand it; surely if you are building a machine learning model f=
+or Twitter=E2=80=99s =E2=80=9Cmost basic products, like which Tweets to sho=
+w each user,=E2=80=9D your training materials would be =E2=80=A6 tweets?
+
+
+  [3] The stock closed at $16.00 on Aug. 15, and he filed pre-open on the 1=
+6th. He bought his shares between January and February at prices ranging fr=
+om about $13 to about $17, spending a total of $119.4 million on 7.78 milli=
+on shares ($15.34 per share) plus another $1.8 million on options to buy 1.=
+7 million shares. He sold the stock on Aug. 16 and 17 for prices ranging fr=
+om about $18.68 to $29.22, and the options for prices of $5.34 to $8.62 per=
+ share, for total proceeds of about $178.1 million, or about $57 million mo=
+re than he originally paid.
+
+
+  [4] Except=20
+Elon Musk. Musk can apparently move asset prices as many times as he wants.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ch7bs1.5nd9/40ca4eb4.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_19726741_825212589.1661883412011
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+What if Elon Musk had never made a hostile bid to buy Twitter Inc.? What if=
+ Twitter was just bopping along, being a public company, and then
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yODg5NTMyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkxNTg4OTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBf49c4c10" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D28895329&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29158894&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwODMwMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA4MzAmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBbde2e351"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yODg5NTMyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkxNTg4OTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC6f98b9c9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D28895329&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29158894&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">What if Elon Musk had never made a hostile bid=
+ to buy Twitter Inc.? What if Twitter was just bopping along, being a publi=
+c company, and then one day its former head of security, Peiter =E2=80=9CMu=
+dge=E2=80=9D Zatko, <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/28895329.263565/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL3RlY2hub2xvZ3kva=
+W50ZXJhY3RpdmUvMjAyMi90d2l0dGVyLXdoaXN0bGVibG93ZXItc2VjLXNwYW0v/607f07ceef4=
+b8524a319a23cB564345e4" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> sent a bunch of regulators=C2=A0a whistle-=
+blower letter</a> saying that Twitter=E2=80=99s=C2=A0security was bad in va=
+rious ways, that it failed to safeguard user data and was vulnerable to hac=
+kers and was generally sort of sloppy about stuff? Obviously some things wo=
+uld happen:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Regulators =E2=80=94=C2=A0the Federal=
+ Trade Commission, the Securities and Exchange Commission, etc. =E2=80=94 w=
+ould investigate. If Twitter=E2=80=99s security was bad in the ways that Za=
+tko says, then perhaps there would be fines, or settlements requiring Twitt=
+er to change its practices.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">=
+Politicians would hold hearings. Obviously politicians love to hold hearing=
+s about how social-media companies are bad at privacy or moderation, so the=
+y=E2=80=99d do that here. It seems unlikely that anything would come of thi=
+s.</li>=09<li style=3D"margin-bottom: 5px;">Perhaps there would be business=
+ consequences. Twitter users, disgusted by its lax security practices, migh=
+t quit. Advertisers might stop buying ads.=C2=A0</li>=09<li style=3D"margin=
+-bottom: 5px;">Given these things =E2=80=94=C2=A0investigations, potential =
+fines, bad publicity, business consequences =E2=80=94=C2=A0there would=C2=
+=A0<em>definitely=C2=A0</em>be shareholder lawsuits. Everything,=C2=A0I am =
+always saying around here, is securities fraud: If a public company does a =
+bad thing (bad information security practices, etc.), then shareholders can=
+ sue, saying =E2=80=9Cyou did a bad thing but didn=E2=80=99t tell me about =
+it, so I was tricked into buying stock, which is fraud.=E2=80=9D=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">What would be the aggregate impact of all of t=
+hose things? Well, I don=E2=80=99t know; it depends on how true and how ser=
+ious Zatko=E2=80=99s claims turn out to be. Twitter denies and downplays th=
+em, while Zatko has incentives to play them up. But so far my sense is that=
+ all of this is pretty ordinary-course stuff. If you are a large social med=
+ia company, there will be internal controversies about your information-sec=
+urity and content-moderation practices; every big social media company face=
+s tradeoffs there. The people who lose out in those controversies will have=
+ incentives to go public as whistle-blowers, and then regulators and politi=
+cians will have incentives to investigate and extract settlements. None of =
+this is=C2=A0<em>existential</em>; none of it is, like, =E2=80=9C90% of Twi=
+tter users are bots and so advertisers=C2=A0will all leave,=E2=80=9D or =E2=
+=80=9CTwitter sold all of its users=E2=80=99 Social Security numbers to Nor=
+th Korean hackers so the users will all quit,=E2=80=9D or =E2=80=9CTwitter =
+is operating illegally and will be shut down by the government.=E2=80=9D An=
+d most of it is pretty hypothetical, more =E2=80=9CTwitter=E2=80=99s practi=
+ces create risks of something really bad happening=E2=80=9D than =E2=80=9Cs=
+omething really bad has actually happened.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">That doesn=E2=80=99t necessarily mean that all=
+ of Zatko=E2=80=99s complaints are wrong or trivial. It=E2=80=99s just that=
+, in a world where Twitter was just a public company with an information-se=
+curity whistle-blower, the consequences of that would be pretty bounded. Mi=
+ght Twitter pay, I don=E2=80=99t know, nine digits of fines? Might it lose =
+some business? Might its stock drop by 5%? Might a shareholder lawsuit sett=
+le for another nine digits? Again, without really having a strong view on t=
+he validity or seriousness of these claims, I will say: Sure, those things =
+are possible.</p>
+<p style=3D"margin: 16px 0;">Might Twitter pay 11 digits of fines? Might it=
+ lose 30% of its business? Might its stock drop by 30%? From <em>this</em> =
+complaint? No, I am going to say, not really. It=E2=80=99s not literally im=
+possible, but it=E2=80=99s not really a thing that happens. In particular, =
+people don=E2=80=99t roll the dice on big investigations and lawsuits. They=
+ settle, for reasonable amounts of money. There is a sense in which a certa=
+in amount of regulatory fines and congressional hearings and shareholder la=
+wsuits are a cost of doing business for big tech companies: They can be exp=
+ensive and annoying and one tries to minimize them, but you can=E2=80=99t e=
+xpect to escape them entirely, or worry=C2=A0<em>too=C2=A0</em>much about t=
+hem when they happen. This stuff seems to be in that category.</p>
+<p style=3D"margin: 16px 0;">But in the actual world we live in, where Musk=
+ <em>did=C2=A0</em>sign an agreement to buy Twitter that he is now trying t=
+o get out of, things are different. Twitter,=C2=A0now, is pretty much a bin=
+ary bet. Either Musk will buy Twitter for $54.20 per share in cash, as he a=
+greed to do in April, or he won=E2=80=99t. If he does, Twitter is worth $54=
+.20 per share, to its existing shareholders, and all this information-secur=
+ity stuff is Elon Musk=E2=80=99s (bounded, manageable) problem. If he doesn=
+=E2=80=99t, then Twitter is worth=C2=A0<em>much less=C2=A0</em>than $54.20 =
+per share. What that number is =E2=80=94=C2=A0maybe it is $25? $30?=C2=A0=
+=E2=80=94=C2=A0will depend on Twitter=E2=80=99s user growth and ad revenue =
+and business prospects and legal liabilities and so forth, and perhaps Zatk=
+o=E2=80=99s complaints will lower that number by a dollar or two. But if yo=
+u are a Twitter shareholder, that is a secondary concern; what is much more=
+ important to you is that $54.20 is much much bigger than whatever that num=
+ber is. You want the $54.20.</p>
+<p style=3D"margin: 16px 0;">And Zatko=E2=80=99s complaint might make it ha=
+rder for you to get it. Yesterday Musk=E2=80=99s lawyers <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/28895329.263565/aHR0cHM6Ly93d3cuc2Vj=
+Lmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIyMDk1NzY1L3RtMjI=
+yNDc5MGQxX2V4OTktcS5odG0/607f07ceef4b8524a319a23cB61882005" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> sent T=
+witter another letter</a>, re-terminating the merger agreement, arguing tha=
+t=C2=A0Twitter has breached the merger agreement in various ways based on Z=
+atko=E2=80=99s complaint, which Musk say =E2=80=9Calleges far-reaching misc=
+onduct at Twitter =E2=80=A6 that is likely to have severe consequences for =
+Twitter=E2=80=99s business.=E2=80=9D=C2=A0(Twitter <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/28895329.263565/aHR0cHM6Ly93d3cuc2VjLmdvdi=
+9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyMjMzNDcxL2QzNTk5MzdkZ=
+GVmYTE0YS5odG0/607f07ceef4b8524a319a23cBb0e63b5d" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> sent a letter ba=
+ck to Musk</a> saying =E2=80=9Cno.=E2=80=9D) Like Musk=E2=80=99s previous l=
+etter terminating the merger agreement for an unrelated list of reasons, th=
+is letter is a strange piece of work =E2=80=94=C2=A0it misrepresents what t=
+he merger agreement says for some reason?<a class=3D"footnote-index" href=
+=3D"#footnote-1" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[1]</span>
+</a>=C2=A0=E2=80=94=C2=A0but it certainly says a lot of things. If Zatko=E2=
+=80=99s complaints are all true and maximally bad, then, <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/28895329.263565/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDgtMjkvbXVzay10cmllcy1hLW5ldy1=
+3YXktb3V0LW9mLXR3aXR0ZXI_Y21waWQ9QkJEMDgzMDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT=
+1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwODMwJnV0bV9jYW1wYWlnb=
+j1tb25leXN0dWZm/607f07ceef4b8524a319a23cB21a50218" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">  as we discusse=
+d yesterday</a>, Musk might have some argument that he can get out of the d=
+eal for fraud. He=C2=A0<em>might=C2=A0</em>also have an argument that he ca=
+n get out of the deal for some failure of Twitter=E2=80=99s representations=
+ in the merger agreement, and this letter opens up that argument.</p>
+<p style=3D"margin: 16px 0;">Will it work? Man, I have no idea. When Musk p=
+reviously tried to terminate the merger agreement, Twitter sued to force hi=
+m to close, and that case is moving toward a trial in October. It would be =
+very hard to accommodate a whole new set of issues =E2=80=94=C2=A0How bad i=
+s Twitter=E2=80=99s security? Is it true that =E2=80=9CTwitter apparently n=
+ever acquired the rights to Twitter=E2=80=99s core machine learning models,=
+=E2=80=9D as Musk=E2=80=99s new letter says?<a class=3D"footnote-index" hre=
+f=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[2]</span>
+</a>=C2=A0Who knew what, when? Will any of this have a =E2=80=9Cmaterial ad=
+verse effect=E2=80=9D on Twitter=E2=80=99s business? =E2=80=94=C2=A0in the =
+six weeks or so before trial, and <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/28895329.263565/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjItMDgtMzAvbXVzay1zZWVrcy10by1hbWVuZC10d2l0dGVyLWNvbXBsYWludC=
+1pbi1zZWFsZWQtY291cnQtZmlsaW5nP2NtcGlkPUJCRDA4MzAyMl9NT05FWVNUVUZGJnV0bV9tZ=
+WRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDgzMCZ1dG1fY2Ft=
+cGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBe89f1506" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">  Musk is=
+ asking for a delay</a>. The judge might not want to delay the trial to thr=
+ow in a grab bag of miscellaneous new issues that no one has mentioned befo=
+re, but=C2=A0Musk=E2=80=99s (and Zatko=E2=80=99s) argument is that no one h=
+as mentioned them because Twitter kept them secret, and if he=E2=80=99s rig=
+ht that they are serious issues then it seems unfair to him to ignore them.=
+</p>
+<p style=3D"margin: 16px 0;">As I said yesterday, you could have two readin=
+gs of what is going on here. One is that Musk has been playing cynical game=
+s to get out of his binding agreement to buy Twitter, and it has not been g=
+oing very well for him, and this =E2=80=94 scouring=C2=A0Zatko=E2=80=99s co=
+mplaint for more excuses to get out of the deal =E2=80=94=C2=A0is a new cyn=
+ical game that he is playing. On that reading, you should not be very sympa=
+thetic to him, or delay the trial, or let him out of the deal. The other re=
+ading is that Musk has been playing cynical games to get out of his binding=
+ agreement to buy Twitter, and it has not been going very well for him, and=
+ Zatko=E2=80=99s complaint is, by sheer coincidence, a=C2=A0<em>good=C2=A0<=
+/em>reason for him to get out of the deal. It=E2=80=99s just his, and our, =
+weird dumb luck that while he was flailing around trying to back out of thi=
+s deal, it came out that Twitter is doing a bunch of frauds that should let=
+ him out of the deal.</p>
+<p style=3D"margin: 16px 0;">I have my own view about which is more likely.=
+=C2=A0But my point here is that Zatko=E2=80=99s complaint has enormous, unu=
+sual=C2=A0<em>leverage</em>. In the ordinary course, a complaint like this =
+might generate hearings and investigations and lawsuits, but there would be=
+ reasonable settlements, and=C2=A0its impact on Twitter and its shareholder=
+s would ultimately be pretty limited. But because of the pending Musk deal =
+=E2=80=94=C2=A0and Musk=E2=80=99s desire to get out of that deal, and his w=
+illingness to litigate everything to the death to do so =E2=80=94=C2=A0this=
+ complaint could cost Twitter and its shareholders, you know, <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/28895329.263565/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMTEvdGhlLXByaWNlLW9mLW=
+5vdC1idXlpbmctdHdpdHRlcj9jbXBpZD1CQkQwODMwMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtP=
+WVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA4MzAmdXRtX2NhbXBhaWdu=
+PW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB8fbdb4eb" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">  $20 billion</a=
+>, or whatever the difference is between Musk=E2=80=99s price of $54.20 per=
+ share and what Twitter would be worth without him.</p>
+<p style=3D"margin: 16px 0;">When Zatko=E2=80=99s complaint came out, <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aHR0cHM=
+6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL3RlY2hub2xvZ3kvaW50ZXJhY3RpdmUvMjAyMi90d2=
+l0dGVyLXdoaXN0bGVibG93ZXItc2VjLXNwYW0v/607f07ceef4b8524a319a23cC564345e4" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> a Twitter spokesperson said</a> that he =E2=80=9Cappears to be oppo=
+rtunistically seeking to inflict harm on Twitter, its customers, and its sh=
+areholders,=E2=80=9D and there is an important sense in which that is true.=
+ In the normal case, if you read Zatko=E2=80=99s complaint and assumed that=
+ everything in it was (1) true and (2) as bad as Zatko thinks it is, you wo=
+uld not expect it to cost Twitter=C2=A0<em>twenty billion dollars=C2=A0</em=
+>to clean it up. But because of the Musk situation, that is a possibility. =
+The timing gives his complaint an unusual power to hurt Twitter.</p>
+<p style=3D"margin: 16px 0;">Obviously one possible outcome is something li=
+ke =E2=80=9Cokay, in the real world, this complaint is at the absolute maxi=
+mum a $1 billion problem, so Twitter will knock $1 billion off the purchase=
+ price and Musk will close the deal at $53 per share.=E2=80=9D If Musk stil=
+l wanted Twitter,=C2=A0and if this complaint was truly news to him, that is=
+ the sort of compromise that you=E2=80=99d expect them to reach. But Musk w=
+as already fighting to get out of the deal entirely, and there's no real ch=
+ance of a compromise like that. Musk=E2=80=99s incentives are to make Zatko=
+=E2=80=99s claims seem existential for Twitter, because that=E2=80=99s his =
+path out of the deal.=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODg5NTMyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkxNTg4OTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDdef8ef85" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28895329&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29158894&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODg5NTMyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkxNTg4OTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEdef8ef85" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28895329&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29158894&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODg5NTMyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkxNTg4OTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFe076ad81" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28895329&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29158894&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODg5NTMyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkxNTg4OTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGe076ad81" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28895329&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29158894&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Meme king</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The basic business of an activist investor is =
+that you pick a public company, you buy a bunch of its stock, you announce =
+your position, you say =E2=80=9CI have a few suggestions for how this compa=
+ny could be run better,=E2=80=9D you get the company to implement your sugg=
+estions (by persuasiveness, or public pressure, or proxy fight),=C2=A0the s=
+uggestions are in fact good, and the stock goes up. Your suggestions increa=
+se the long-term value of the company, which is good for the stock price to=
+day. You are a big shareholder, so you profit. When you are done =E2=80=94=
+=C2=A0when the company has implemented your changes and the stock price ref=
+lects the increased long-term value =E2=80=94=C2=A0you sell your stock and =
+collect, as it were, your paycheck for a job well done.</p>
+<p style=3D"margin: 16px 0;">Obviously it is possible to be bad at this. Yo=
+u might be bad at getting companies to implement your suggestions =E2=80=94=
+=C2=A0you are not persuasive, you don=E2=80=99t win proxy fights, people do=
+n=E2=80=99t like you, etc. =E2=80=94=C2=A0or you might be good at getting t=
+hem to implement your suggestions, but the suggestions are bad and make the=
+ stock go down. But let=E2=80=99s assume that some people are good at it. W=
+hat that means is that, when they announce an activist position in a compan=
+y=E2=80=99s stock, (1) they are likely to make changes to that company and =
+(2) those changes are likely to make the stock go up.=C2=A0</p>
+<p style=3D"margin: 16px 0;">What=C2=A0<em>that=C2=A0</em>means is that, wh=
+en they announce an activist position in a company=E2=80=99s stock, the sto=
+ck will go up right away. <em>Other</em> investors will say =E2=80=9Cah, ye=
+s, that activist is in the stock, and her track record is good, so this sto=
+ck will go up, so I should buy it now,=E2=80=9D so they do, so it goes up n=
+ow.</p>
+<p style=3D"margin: 16px 0;">If you are a good activist, this might create =
+some temptation. You just spent, I don=E2=80=99t know, $100 million buying =
+some stock. You have a 120-page slide deck about how the company should mak=
+e changes. You=E2=80=99ll have to go in and have a contentious meeting with=
+ management, and they might say no, and then you=E2=80=99d have to have a p=
+roxy fight, and you might lose. Even if you win, they=E2=80=99ll have to ex=
+ecute your plan; they might mess it up, or your plan might be bad to begin =
+with. Everything is risky and uncertain and a lot of work, and it=E2=80=99l=
+l be a year or two before you know the results. Meanwhile the stock jumped =
+20% on your announcement, so you have a $20 million profit=C2=A0<em>right n=
+ow</em>. If you just sell your stock, then, boom, you=E2=80=99ve made money=
+ from your activism=C2=A0<em>without actually doing it,=C2=A0</em>quickly, =
+without much risk. Why not just sell now?</p>
+<p style=3D"margin: 16px 0;">A little bit of the answer is =E2=80=9Cif you =
+sell people will complain about market manipulation,=E2=80=9D but most of t=
+he answer is that you are playing a repeated game, and your reputation is v=
+aluable.=C2=A0If you have a reputation for being good at activism, you can =
+keep doing activism, and it can keep making you money. If you do this stunt=
+ =E2=80=94=C2=A0announce an activist position, see the stock rise, dump the=
+ stock =E2=80=94=C2=A0more than once or twice, then the magic ends. After t=
+hat, everyone will say =E2=80=9Coh, sure, you bought stock, but just to pum=
+p it, not to do valuable activism, I=E2=80=99m not falling for that again,=
+=E2=80=9D and they won=E2=80=99t buy the stock, so it won=E2=80=99t go up, =
+so you won=E2=80=99t have any profit, so you=E2=80=99ll have to go back to =
+actually doing activism =E2=80=94=C2=A0except that no one will trust you an=
+d they=E2=80=99ll all assume you=E2=80=99re an opportunist.</p>
+<p style=3D"margin: 16px 0;">In 2020, Chewy founder Ryan Cohen bought a big=
+ chunk of GameStop Corp. stock and did some activism to try to pivot it to =
+e-commerce and technology. This was fine, you know, whatever =E2=80=94=C2=
+=A0Cohen got himself a board seat and the company=E2=80=99s attention =E2=
+=80=94=C2=A0until January 2021, when GameStop=E2=80=99s stock exploded. I <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMjcvcmVkZG=
+l0LWRyaXZlbi1zdXJnZS1wdXRzLWdhbWVzdG9wLWFuZC1yeWFuLWNvaGVuLWluLWEtd2VpcmQtc=
+3BvdD9jbXBpZD1CQkQwODMwMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3Vy=
+Y2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA4MzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607=
+f07ceef4b8524a319a23cBeca5db42" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> wrote at the time</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">He=E2=80=99s been on the board for two weeks, =
+he=E2=80=99s done roughly nothing, and he=E2=80=99s up 1,655%, or some othe=
+r comically large number, depending on what minute you choose to look at th=
+e stock price. It is a staggeringly good trade. =E2=80=A6 Cohen has been in=
+ for five months and has made more than a billion dollars.</p>
+<p style=3D"margin: 16px 0;">But what can he do? I mean one thing that he c=
+an do is work diligently on GameStop=E2=80=99s board of directors to improv=
+e the company=E2=80=99s performance, like he planned to do two weeks ago. B=
+ut it=E2=80=99s going to be kind of a long time, if ever, before GameStop=
+=E2=80=99s performance catches up to its stock price. The market has (let=
+=E2=80=99s say!) already given Cohen full credit for unprecedented, spectac=
+ular, sustained success in turning GameStop around; it seems sort of tediou=
+s, now, to come to work every day and try to actually do it. Also it might =
+not work, and then where will he be? Not up $1.3 billion anyway.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The obvious trade is to get out while the gett=
+ing is good, sell all his stock, quit the board and take a month-long victo=
+ry lap just hanging out on Reddit and bragging. But he can=E2=80=99t really=
+ do that either. For one thing there would be certain legal complications i=
+f a board member and 12.9% shareholder tried to dump all his stock into thi=
+s wild rally. There is also the likelihood that the GameStop magic is delic=
+ate, and if he announced he was selling his stake the stock might collapse =
+before he could sell.=C2=A0It=E2=80=99s not that the stock rallied this wee=
+k because of Cohen=E2=80=99s involvement, but Cohen=E2=80=99s involvement i=
+s a load-bearing element somewhere down in the basement of this bizarre str=
+ucture. If he said =E2=80=9Cthat=E2=80=99s it I=E2=80=99m out,=E2=80=9D oth=
+er people might too. He has made a once-in-a-lifetime trade and can=E2=80=
+=99t cash in.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Well! <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/28895329.263565/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9yeW=
+FuLWNvaGVucy1iZWQtYmF0aC1iZXlvbmQtc3RvY2stc2FsZXMtaGlnaGxpZ2h0LWdyYXktYXJlY=
+S1pbi1kaXNjbG9zdXJlLTExNjYxNzMzNjY4P21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4=
+b8524a319a23cB78627e61" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> Here=E2=80=99s a story about Cohen</a> fro=
+m today=E2=80=99s=C2=A0Wall Street Journal:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Investor Ryan Cohen might have run afoul of di=
+sclosure guidelines in his surprise sale of Bed Bath &amp; Beyond Inc. stoc=
+k this month, securities lawyers said, but regulatory action against him ap=
+pears unlikely.</p>
+<p style=3D"margin: 16px 0;">Mr. Cohen sold his entire stake in the home-go=
+ods retailer on Aug. 16 and 17, just months after he took a significant pos=
+ition in the company and pledged to force changes there. Shares tumbled aft=
+er news of his sales came out on the afternoon of the 17th, but meanwhile M=
+r. Cohen benefited from a huge surge in volume that enabled him to sell mil=
+lions of shares while prices rose.=C2=A0</p>
+<p style=3D"margin: 16px 0;">An ownership disclosure that Mr. Cohen filed o=
+n the morning he began selling included a trivial update about the size of =
+his holdings and said he hadn=E2=80=99t done any trading in Bed Bath &amp; =
+Beyond during the prior 60 days. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Within minutes or hours of the ownership discl=
+osure, Mr. Cohen began selling. Individual investors =E2=80=9Chave no idea =
+he is dumping the stock against them,=E2=80=9D said Joshua Mitts, a law pro=
+fessor at Columbia University who specializes in analytical research on tra=
+ding strategies.</p>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission could i=
+nvestigate whether Mr. Cohen had a plan to sell before he filed the Aug. 16=
+ update that he should have disclosed, according to former regulators and l=
+aw professors who specialize in securities law. =E2=80=A6=C2=A0A person fam=
+iliar with Mr. Cohen=E2=80=99s trading said his filings complied with rules=
+, and he didn=E2=80=99t make any offers or seek any prices for his Bed Bath=
+ &amp; Beyond shares before making the Aug. 16 ownership disclosure update.=
+</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/28895329.263565/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdh=
+ci9kYXRhLzg4NjE1OC8wMDAxMTkzODA1MjIwMDExOTkvZTYyMTg4Nl9zYzEzZGEtcmN2Lmh0bQ/=
+607f07ceef4b8524a319a23cBeefd6de5" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> Aug. 16 filing</a> was =E2=80=
+=A6=C2=A0a reminder that Cohen owned the stock? In March, <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/28895329.263565/aHR0cHM6Ly93d3cuc2V=
+jLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzg4NjE1OC8wMDAxMTkzODA1MjIwMDA0MjYvc2MxM2=
+QxMzM1MTAwMl8wMzA3MjAyMi5odG0/607f07ceef4b8524a319a23cB94731958" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Cohen reported</a> that he owned about 9.45 million shares (via direct sto=
+ck ownership and high-strike January 2023 options), or about 9.8% of the co=
+mpany; later that month, <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/28895329.263565/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRh=
+Lzg4NjE1OC8wMDAwOTIxODk1MjIwMDA5NzIvc2MxM2RhMTEzMzUxMDAyXzAzMjQyMDIyLmh0bQ/=
+607f07ceef4b8524a319a23cB5361407e" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> he reported</a> that he had rea=
+ched an agreement with Bed Bath on the appointment of new directors. Nothin=
+g changed since then except that Bed Bath bought back some stock, meaning t=
+hat Cohen=E2=80=99s 9.45 million shares now represented 11.8% of the compan=
+y. So he <a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.=
+263565/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzg4NjE1OC8wMDAx=
+MTkzODA1MjIwMDExOTkvZTYyMTg4Nl9zYzEzZGEtcmN2Lmh0bQ/607f07ceef4b8524a319a23c=
+Ceefd6de5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> filed an update</a> saying that.</p>
+<p style=3D"margin: 16px 0;">Then the stock soared for, as far as anyone ca=
+n tell, irrational meme-y reasons: The Aug. 16 filing reminded meme-stock i=
+nvestors that Cohen owned a bunch of Bed Bath stock and options, and they w=
+ere like =E2=80=9Coh yeah, love that guy, to the moon!=E2=80=9D: Cohen is a=
+ =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329=
+.263565/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9yeWFuLWNvaGVuLXMtcmMtdmVudHV=
+yZXMtc2VsbHMtZW50aXJlLXN0YWtlLWluLWJlZC1iYXRoLWJleW9uZC0xMTY2MDg1NTM3NQ/607=
+f07ceef4b8524a319a23cBafce71b5" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">meme king</a>,=E2=80=9D with =E2=80=
+=9Ca deep fan base of individual investors=E2=80=9D because of his role in =
+GameStop, so when he buys a stock =E2=80=94=C2=A0or even just reminds peopl=
+e that he already owned the stock =E2=80=94=C2=A0the stock goes up. When Co=
+hen filed that disclosure on the morning of Aug. 16, the stock was trading =
+at around his purchase price; by the end of that day, it was way up. Cohen,=
+ sensibly, sold, making a profit of about $57 million.<a class=3D"footnote-=
+index" href=3D"#footnote-3" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: none !important; background-color: transparent !important; di=
+splay: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">One possibility is that this was a nefarious p=
+lot, but that seems unlikely. The more likely explanation is that he felt r=
+equired to make this disclosure and was not particularly planning to sell (=
+at more or less no profit) when he made it. And then the stock soared and h=
+e figured, sure, why not, take a profit now. People got excited when he rem=
+inded them that he owned the stock, and he took advantage by selling the st=
+ock.</p>
+<p style=3D"margin: 16px 0;">The main point that I want to make here is tha=
+t it is not at all clear that being a meme-stock king=C2=A0<em>is</em> a pa=
+rticularly repeated game. I mean, Cohen has done it twice, so good for him.=
+ But can he, or anyone,<a class=3D"footnote-index" href=3D"#footnote-4" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: none !important; =
+background-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0do it, like, four times? It is one thing to painstakingly build a=
+ track record of driving corporate improvements through activism, to the po=
+int that your investments can move a stock price, and then say =E2=80=9CI d=
+o not want to undermine my credibility by dumping my stock before I have a =
+chance to make improvements.=E2=80=9D It is another thing to build a track =
+record of people on Reddit calling themselves =E2=80=9Capes=E2=80=9D and pi=
+ling into your stock trades for entertainment reasons. How long can you cou=
+nt on that lasting? If they=E2=80=99re buying your stock, you might as well=
+ sell it.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yODg5NTMyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkxNTg4OTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHc2a86e5b" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D28895329&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29158894&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Getting paid not to drill oil</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The most interesting field of economics might =
+be the economics of not doing things. The main way that people make money, =
+in the world, is by doing things that other people want: drilling oil, brew=
+ing coffee, maintaining social media sites, writing newsletters. But there =
+are a few lines of business where you can get paid for <em>not</em>=C2=A0do=
+ing things that you=E2=80=99d otherwise do. Blackmail, for instance, is a c=
+lassic: =E2=80=9CI will go around distributing these compromising photos of=
+ you, unless you pay me money, in which case I will do nothing.=E2=80=9D <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aHR0=
+cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQ29hc2VfdGhlb3JlbQ/607f07ceef4b8524a319=
+a23cB8bf61fee" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> Coasean bargaining</a>: =E2=80=9CI will build a sme=
+lly polluting factory on my land next to yours, unless you pay me money not=
+ to, in which case I will leave it undeveloped.=E2=80=9D Demand response in=
+ electric grids: =E2=80=9CI will turn my lights on and use electricity, unl=
+ess you pay me not to, in which case I will use less electricity.=E2=80=9D =
+And, in the modern world, all sorts of environmental credit schemes: =E2=80=
+=9CI will <a href=3D"https://link.mail.bloombergbusiness.com/click/28895329=
+.263565/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDQ=
+tMjEvbW9uZXktc3R1ZmYteW91LWNhbi1zZWxsLXRoZS10cmVlcy15b3UtZG9uLXQtY3V0P2NtcG=
+lkPUJCRDA4MzAyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzb=
+GV0dGVyJnV0bV90ZXJtPTIyMDgzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8=
+524a319a23cB71eae282" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> chop down these trees</a>, drill this oil, e=
+tc., unless you pay me not to, in which case I won=E2=80=99t do anything at=
+ all.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">There are so many ways in which the economics =
+here are unintuitive. Consider the oil market. There is some demand schedul=
+e for oil;=C2=A0people will use more of it at lower prices and less at high=
+er prices. There is also a supply schedule: Some oil is cheaper to drill th=
+an other oil, so when oil prices are low only the cheapest-to-extract oil w=
+ill get drilled, but when prices get high people will drill in more difficu=
+lt environments because it becomes=C2=A0worth it. But then consider the mar=
+ket for=C2=A0<em>not=C2=A0</em>drilling oil. If you own a bunch of oil fiel=
+ds, and someone will pay you $5 per barrel not to drill oil, you should sta=
+rt your not-drilling in the most-expensive-to-drill places. =E2=80=9CGood n=
+ews,=E2=80=9D you say, =E2=80=9CI have decided not to drill in this field t=
+hat costs $150 per barrel to drill, now pay me my $5.=E2=80=9D You could ex=
+pand on this theory. If you=C2=A0<em>don=E2=80=99t=C2=A0</em>own any oil fi=
+elds, you could walk into the offices of some environmental-credits company=
+ and say =E2=80=9Cif you pay me $5 per barrel not to drill oil, I won=E2=80=
+=99t go around buying oil fields and drilling them.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Also consider the demand schedule there. If yo=
+u promise me not to drill for oil, I might pay you $5 per barrel for the oi=
+l you don=E2=80=99t drill. But you could go to someone else and promise not=
+ to drill the oil, and they might pay you $3 per barrel. For the same barre=
+ls. =E2=80=9CNot drilling oil=E2=80=9D is a non-rival good; you can not dri=
+ll the same barrel of oil as many times as you like, and sell it to a diffe=
+rent person each time.</p>
+<p style=3D"margin: 16px 0;">Or consider blackmail. If you get some comprom=
+ising photos of me, and I pay you not to publish them, then you won=E2=80=
+=99t publish them (let=E2=80=99s assume). But what are your long-term incen=
+tives? The way to succeed in the business of not publishing compromising ph=
+otos is by=C2=A0<em>taking lots of compromising photos and repeatedly threa=
+tening to publish them</em>. If I paid you $100 not to publish the photos, =
+and you were like =E2=80=9Cright, good, I get paid not to publish photos, I=
+ will stop taking the photos,=E2=80=9D you would be deeply misunderstanding=
+ your business. You are not being paid to not publish photos =E2=80=94=C2=
+=A0anyone can not publish photos! You are being paid to credibly threaten t=
+o publish photos, and then not publish them.</p>
+<p style=3D"margin: 16px 0;">This has important implications for the enviro=
+nmental credit schemes. You don=E2=80=99t get paid for not drilling oil or =
+not cutting down trees; you get paid when there is a credible threat (from =
+you or someone else) to drill the oil or cut the trees, and you prevent it.=
+ You are in the credible-threats business.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Anyway I enjoyed this story about =E2=80=9C<a =
+href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aHR0c=
+HM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMWY3OTVlNWQtYzJjZi00ZTkxLTg5ZjEtNmQ1NTQ0YThh=
+M2Ri/607f07ceef4b8524a319a23cBe79f1fe4" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> Crypto and climate change:=
+ can web3 help get us to net zero?</a>,=E2=80=9D not so much for the crypto=
+ stuff as for the credible-threats stuff:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Last year, a British oil exploration company a=
+nd a tech start-up joined forces on a project to permanently lock away unta=
+pped fossil fuel reserves in Greenland.</p>
+<p style=3D"margin: 16px 0;">The idea was simple: the energy company, Green=
+land Gas and Oil, would not extract oil from an area on the east coast that=
+ it had exploration licences for. Instead it would monetise keeping the oil=
+ in the ground via a partnership with the tech company, Carbonbase, which w=
+orks on offsetting carbon emissions.</p>
+<p style=3D"margin: 16px 0;">The mechanics were more complex. The partnersh=
+ip aimed to sell NFTs, digital collectibles that come with ownership certif=
+icates, linked to the unexplored land. The profits would then be used in pa=
+rt to compensate the energy company and the oil would stay underground. And=
+, since the Greenland government had stopped issuing new exploration licenc=
+es, the energy company would not be able to simply apply for another and ta=
+p a different part of the country. ...</p>
+<p style=3D"margin: 16px 0;">But, after months of discussions, the partners=
+hip ran into problems. Carbonbase and Greenland Gas and Oil did not agree o=
+n how to structure the joint venture. Carbonbase also discovered that the c=
+ountry of Greenland had never successfully produced any oil, a fact that th=
+ey said undermined the whole idea. Pursuing the project =E2=80=9Cwould have=
+ destroyed our public reputation=E2=80=9D and looked like =E2=80=9Cgreenwas=
+hing=E2=80=9D, says Max Song, founder of Carbonbase.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Someone should really pay me not to drill for =
+oil in my backyard. Is there oil under my backyard? I don=E2=80=99t know, b=
+ut someone should pay me not to find out.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Block-trade lawyer</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">What <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/28895329.263565/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNTQwNTY=
+3ZWMtNjZiOS00ODU4LWJiZTgtOTgyZTY0M2MxNmZh/607f07ceef4b8524a319a23cB0e2dd2fb=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> a terrible job</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Morgan Stanley has ordered an internal lawyer =
+to shadow the unit entangled in a federal investigation into block trading,=
+ underscoring the gravity of the probe and the steps the lender is taking t=
+o beef up supervision.</p>
+<p style=3D"margin: 16px 0;">The Wall Street bank has embedded one of its l=
+awyers to sit on its US equity syndicate desk to supervise bankers and answ=
+er their legal questions, according to people briefed on the arrangement. .=
+..</p>
+<p style=3D"margin: 16px 0;">It is the latest example of the fallout from t=
+he investigations by the Department of Justice and Securities and Exchange =
+Commission into Morgan Stanley=E2=80=99s block trading business, which gath=
+ered momentum after the collapse last year of Bill Hwang=E2=80=99s Archegos=
+ Capital Management. =E2=80=A6 Heightened scrutiny of block trading has eme=
+rged as one of the main legal risks faced by Wall Street groups, alongside =
+a separate investigation into bankers=E2=80=99 use of personal mobile phone=
+s to communicate with clients and counterparties.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bloomberg=
+business.com/click/28895329.263565/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjItMDItMTYvcGVvcGxlLWFyZS13b3JyaWVkLWFib3V0LWJsb2NrLXR=
+yYWRlcz9jbXBpZD1CQkQwODMwMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA4MzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cB18eb7b4a" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  talked</a> about the <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/28895329.263565/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMjgvYmFyY2xheXMtc29=
+sZC10b28tbWFueS1ub3Rlcz9jbXBpZD1CQkQwODMwMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPW=
+VtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA4MzAmdXRtX2NhbXBhaWduP=
+W1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB93dd72c5" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  block-trade</a>=
+ probe <a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.26=
+3565/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMz=
+EvdGhlLXNlYy1pcy1jb21pbmctZm9yLXNwYWNzP2NtcGlkPUJCRDA4MzAyMl9NT05FWVNUVUZGJ=
+nV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDgzMCZ1=
+dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB4b24c378" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  before</a>.=C2=A0The equity syndicate desk is in the uncomfortable positi=
+on of talking to (1) investors, about what stocks they would like to buy, a=
+nd (2) public companies and big shareholders, about selling their stocks. B=
+roadly speaking, if Morgan Stanley is buying a block of stock from a big se=
+ller after the close today and then re-selling it to its investor clients, =
+the syndicate desk can=E2=80=99t go around calling those investor clients t=
+o say =E2=80=9CHey a block of XYZ stock is coming after the close, get read=
+y.=E2=80=9D That would be bad. But if it is chatting with those investor cl=
+ients all day, can it say =E2=80=A6=C2=A0=E2=80=9CBusy day today guys=E2=80=
+=9D? =E2=80=9CStick around after the close today, we=E2=80=99ve got a fun o=
+ne for you=E2=80=9D? =E2=80=9CHow are you feeling about entertainment compa=
+nies these days=E2=80=9D? Can it drop some hints? Can it use tone and body =
+language? Can the investors, who know the market well and have some idea of=
+ what blocks might come loose, make an informed guess about what the syndic=
+ate desk is talking about? Can the investors then position themselves by, f=
+or instance, dumping some XYZ stock during the afternoon and then buying it=
+ back at a discount after the close?</p>
+<p style=3D"margin: 16px 0;">Oh, I don=E2=80=99t know, I don=E2=80=99t want=
+ to give you legal advice. But if you=E2=80=99re the Morgan Stanley lawyer =
+who covers the syndicate desk, you do have to give the syndicate desk legal=
+ advice. You have to give some sort of general answer to those questions. =
+=E2=80=9CYou can talk to investors about broad sectors without disclosing t=
+he name of the company that you have a block for,=E2=80=9D maybe, or whatev=
+er, I don=E2=80=99t know. You make some rules and you hand the rules to the=
+ syndicate desk and then, crucially,=C2=A0<em>you do not listen to their ph=
+one calls</em>. You want some gap between the abstract rules that you have =
+made to keep the syndicate desk out of trouble, and the syndicate desk=E2=
+=80=99s interpretation of those rules to get themselves into trouble. Now t=
+he lawyer has to sit there and listen to the calls!=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Exxon Escalates Dispute With Russia Over <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aHR0cHM=
+6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9leHhvbi1lc2NhbGF0ZXMtZGlzcHV0ZS13aXRoLXJ1c3=
+NpYS1vdmVyLWJhcnJlZC1leGl0LWZyb20tZ2lhbnQtb2lsLXByb2plY3QtMTE2NjE4NTE4MDI_b=
+W9kPWhwX2xlYWRfcG9zMg/607f07ceef4b8524a319a23cBbadff420" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> Barred Ex=
+it</a> From Giant Oil Project. Nasdaq <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/28895329.263565/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9=
+uYXNkYXEtYm9hcmQtZGl2ZXJzaXR5LXJ1bGUtdGFrZXMtY2VudGVyLXN0YWdlLWluLWNvdXJ0LW=
+JhdHRsZS0xMTY2MTc5OTczMT9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a2=
+3cBd7eea6e5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> Board-Diversity Rule</a> Takes Center Stage in Court =
+Battle. Big US <a href=3D"https://link.mail.bloombergbusiness.com/click/288=
+95329.263565/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvN2I5MDM1YjQtOGRhNi00NzIxLW=
+I5YWUtZGQ3NzEyYzI4Yzhk/607f07ceef4b8524a319a23cB16ce348a" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> mortgage=
+ lenders</a> turn screws on smaller rivals as rates rise. Temasek to Lead $=
+100 Million Funding for <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/28895329.263565/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzL=
+zIwMjItMDgtMzAvdGVtYXNlay10by1sZWFkLTEwMC1taWxsaW9uLWZ1bmRpbmctZm9yLWNyeXB0=
+by1sYW5kbG9yZC1hbmltb2NhP2NtcGlkPUJCRDA4MzAyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW0=
+9ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDgzMCZ1dG1fY2FtcGFpZ2=
+49bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6a517fac" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">  Crypto Landlo=
+rd</a> Animoca. FTC Sues Idaho Company for Selling <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/28895329.263565/aHR0cHM6Ly93d3cud3NqLmNvbS=
+9hcnRpY2xlcy9mdGMtc3Vlcy1pZGFoby1jb21wYW55LWZvci1zZWxsaW5nLXNlbnNpdGl2ZS10c=
+mFja2luZy1kYXRhLTExNjYxNzk4MzAzP21vZD1ocF9saXN0YV9wb3My/607f07ceef4b8524a31=
+9a23cB2e9011c3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> Sensitive Tracking Data</a>. Frustrated <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/28895329.263565/aHR0cHM6Ly93=
+d3cuZnQuY29tL2NvbnRlbnQvYzAxY2E4MGEtYWZjYS00OTNhLWIwOWEtNjZkY2QzMGE1NzY3/60=
+7f07ceef4b8524a319a23cB8330c920" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> Evergrande bondholders</a> push o=
+wn plan for debt restructuring. Shrinking <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/28895329.263565/aHR0cHM6Ly93d3cuaWZyZS5jb20vc3Rvcnk=
+vMzQ5MzU5MS9zaHJpbmtpbmctY2RzLWNvbW1pdHRlZS1yYWlzZXMtcXVlc3Rpb25zLW92ZXItbW=
+Fya2V0cy1mdXR1cmUtYnJ0bGRkZ2xkZA/607f07ceef4b8524a319a23cB913d188d" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> CDS committee</a> sparks questions over US$9trn market's future. =E2=80=
+=98At the Top Level=E2=80=99: Serena Williams Sets Her Sights on <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/28895329.263565/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDgtMjkvc2VyZW5hLXdpbGxpYW1=
+zLXNldHMtc2lnaHRzLW9uLXZlbnR1cmUtY2FwaXRhbC1hZnRlci11cy1vcGVuP2NtcGlkPUJCRD=
+A4MzAyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJ=
+nV0bV90ZXJtPTIyMDgzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a=
+23cB6fdb4e7f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  Venture Capital</a> After US Open. NBA Star Giannis=
+ Antetokounmpo Is Lending His Name to an <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/28895329.263565/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjItMDgtMjkvbmJhLWludmVzdG9yLWdyZWVrLWZyZWFrLWdpYW5uaXM=
+tYW50ZXRva291bm1wby1sZW5kcy1uYW1lLXRvLW5ldy1ldGY_Y21waWQ9QkJEMDgzMDIyX01PTk=
+VZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09M=
+jIwODMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB898cf392" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  ETF</a>.=C2=A0Thai <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/28895329.263565/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjItMDgtMzAvdGhhaS15b3V0dWJlci1hbGxlZ2VkbHktY2hlYXRzLWZvcmV4LWludmV=
+zdG9ycy1vZi01NS1taWxsaW9uP2NtcGlkPUJCRDA4MzAyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW=
+09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDgzMCZ1dG1fY2FtcGFpZ=
+249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB46f96003" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  YouTuber</a>=
+ Allegedly Cheats Forex Investors of $55 Million. Emotional support <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aHR0cHM6L=
+y93d3cuc2VhdHRsZXRpbWVzLmNvbS9uYXRpb24td29ybGQvaGlzLWVtb3Rpb25hbC1zdXBwb3J0=
+LWFuaW1hbC1pcy1hbi1hbGxpZ2F0b3ItdGhleS1zbGVlcC1pbi10aGUtc2FtZS1iZWQv/607f07=
+ceef4b8524a319a23cB983fa7f8" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> alligator</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/28895329.263565/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBb09e2b2c" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/28895329.263565/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBe2f94a6e" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Ann Lipton <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/28895329.263565/aHR0cHM6Ly9tb2JpbGUudHdpdHRlci5jb=
+20vQW5uTUxpcHRvbi9zdGF0dXMvMTU2NDYwNzUzNTA1NDgxOTMzMA/607f07ceef4b8524a319a=
+23cBb939305b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">points out</a> on Twitter that Musk=E2=80=99s letter =
+cites <a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263=
+565/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE=
+5MzEyNTIyMjAyMTYzL2QyODMxMTlkZGVmbTE0YS5odG0jYW54YXRvYzI4MzExOV8yOA/607f07c=
+eef4b8524a319a23cB202bf9de" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">Section 4.11</a> of the merger agreemen=
+t, which says that =E2=80=9CAs of the date of this Agreement, there is no s=
+uit, action or proceeding pending or, to the Knowledge of the Company, thre=
+atened in writing against the Company or any of its Subsidiaries, that woul=
+d have a Company Material Adverse Effect.=E2=80=9D <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/28895329.263565/aHR0cHM6Ly93d3cuc2VjLmdvdi=
+9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIyMDk1NzY1L3RtMjIyNDc5M=
+GQxX2V4OTktcS5odG0/607f07ceef4b8524a319a23cC61882005" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">The letter sa=
+ys</a>: =E2=80=9CIt is likely the case=E2=80=94given the extensive informat=
+ion withheld from the Musk Parties detailed in the Zatko Complaint=E2=80=94=
+that the representations set forth in Section 4.11 will be false as of the =
+date of any potential closing of the transactions contemplated by the Merge=
+r Agreement, resulting in a failure of the closing condition set forth in S=
+ection 7.2(b).=E2=80=9D But that=E2=80=99s not how the agreement works. Sec=
+tion 4.11 says that there is no relevant litigation as of the date of the m=
+erger agreement, that is, as of April 2022. <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/28895329.263565/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoa=
+XZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyMjAyMTYzL2QyODMxMTlkZGVmbTE0=
+YS5odG0jYW54YXRvYzI4MzExOV83Mg/607f07ceef4b8524a319a23cB2e637cb0" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Section 7.2(b)</a> says that the representations have to be =E2=80=9Ctrue a=
+nd correct as of the Closing Date (except to the extent such representation=
+s and warranties are expressly made as of a specific date, in which case su=
+ch representations and warranties shall be so true and correct as of such s=
+pecific date only).=E2=80=9D The litigation rep is made as of the signing d=
+ate only, so it does not have to be true at closing. Elon Musk can=E2=80=99=
+t terminate the deal just because someone sues Twitter.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] This too appears to be a stretch by Musk=
+=E2=80=99s lawyers; what Mudge=E2=80=99s complaint actually says (paragraph=
+ 70) is that =E2=80=9CTwitter had never acquired proper legal rights to tra=
+ining materials used to build Twitter=E2=80=99s key Machine Learning models=
+.=E2=80=9D I am not an intellectual-property lawyer or anything, but this s=
+eems less bad. Also I am not sure I understand it; surely if you are buildi=
+ng a machine learning model for Twitter=E2=80=99s =E2=80=9Cmost basic produ=
+cts, like which Tweets to show each user,=E2=80=9D your training materials =
+would be =E2=80=A6 tweets?</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] The stock closed at $16.00 on Aug. 15, and=
+ he filed pre-open on the 16th. He <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/28895329.263565/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZG=
+dhci9kYXRhLzg4NjE1OC8wMDAxMTkzODA1MjIwMDA0MjYvc2MxM2QxMzM1MTAwMl8wMzA3MjAyM=
+i5odG0/607f07ceef4b8524a319a23cC94731958" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">bought his shares</a> be=
+tween January and February at prices ranging from about $13 to about $17, s=
+pending a total of $119.4 million on 7.78 million shares ($15.34 per share)=
+ plus another $1.8 million on options to buy 1.7 million shares. He <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzg4NjE1OC8wMDAwOTIxODk1MjIwMDI0=
+OTYvc2MxM2RhMzEzMzUxMDAyXzA4MTgyMDIyLmh0bQ/607f07ceef4b8524a319a23cBa00e564=
+0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">sold the stock</a> on Aug. 16 and 17 for prices ranging from a=
+bout $18.68 to $29.22, and the options for prices of $5.34 to $8.62 per sha=
+re, for total proceeds of about $178.1 million, or about $57 million more t=
+han he originally paid.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Except <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/28895329.263565/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMDItMTAvZWxvbi1tdXNrLXR3ZWV0cy1ncmVhdC1uZXdzLWZv=
+ci1iaXRjb2luLWJhZC1uZXdzLWZvci1lY29uLW1ham9ycz9jbXBpZD1CQkQwODMwMjJfTU9ORVl=
+TVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMj=
+A4MzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB56bb3904" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">
+Elon Musk</a>. Musk can apparently move asset prices as many times as he wa=
+nts.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB3fbe2d13" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB8009d11d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB919a2eb2" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB83570d0a" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yODg5NTMyOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkxNTg4OTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI623cd60f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D28895329&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29158894&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB43c8ddb3" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28895329.263565/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC6a4319c3" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/28895329.263565/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBbd286131" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/28895329.263565/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB89b2bb62" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB5=
+9d83010" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28895329.263565/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBb=
+61511f2" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D288953=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29158894&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D288953=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29158894&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D288953=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29158894&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D288953=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29158894&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D288953=
+29&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29158894&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ch7bs1.5nd9/40ca4eb4.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_19726741_825212589.1661883412011--
+

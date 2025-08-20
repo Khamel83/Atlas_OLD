@@ -1,0 +1,2294 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:7e97:0:b0:147:d9bd:f310 with SMTP id l23csp847585lkh;
+        Tue, 19 Oct 2021 10:38:35 -0700 (PDT)
+X-Received: by 2002:a17:906:b803:: with SMTP id dv3mr38949704ejb.289.1634665115330;
+        Tue, 19 Oct 2021 10:38:35 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1634665115; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=utR99yY0gdllDPK8VSCcZ3f8q9TzAU/bCV353XlFCGJWf9LVr7N2E/m91lQLhlZqlK
+         rBfJB84TSgGhu2qnlWm8dIo7lUYcrs4WeM2CkNiXDSikPFVGTeoEKEBlfgle8D7tImvd
+         xHYpHBy/RGVLT9AkUeGD4MYxcMtayVG1NR72CV4IlXhcS+FohQv0HVFfLnHsUpuepTEm
+         t/l0B+POb/ZTSnVvmnnHDchy3mhJXMSuGxEa80viyUrBhHwIrYLcqsmA0B+Uwgx/sQla
+         +cMkvEShfWgnHRb8kf5+iqXEWNFYh4y60l02xnPS101Tfy1sJclbofbscsfdZlzUH0He
+         ZjiQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=j8HIvUzPCzfvAVCfwX2w46dag7EnH3aQCc1yJ0kqybg=;
+        b=p9W2BOdN/yGJ1axAz16paEsT2SCQdARpUeXN3rHMhyNIj8qRT5JBFStCTSSYQvOqzK
+         Y8WhpwXW2FaYPyJWcCfVVh/7xht5S0ujnC9MFWIzdVCF6qN4bCmI6MdmMtuz3O1IHXii
+         PavgQSf9kAkSBu8/mE7ZK4lPIvFcg0FtepQ3SQCgQ6PvCU2NFmcbQAfusEANkTlzew2U
+         R8J/1nwpQ2TkjVVCDA15JJliFZjC7U5NVSKVGqi5iTLup2KVh8V5fMhT8vIbEHKnKQCV
+         +h9kGsnF31rURkUTyj/I8ICfp5+eZ8JmwzSc4zUVRgGzUiU4r/1EzQCWyxQERwKktFie
+         gC2g==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=MHiPc4ZJ;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p22sor10388502ejc.78.2021.10.19.10.38.35
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 19 Oct 2021 10:38:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=MHiPc4ZJ;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=j8HIvUzPCzfvAVCfwX2w46dag7EnH3aQCc1yJ0kqybg=;
+        b=xNhIctLu3nbBugIHAtnB20t3CcVB/Tq4uq9FEUXW8tDlxTq2BQ9J2uJasXVWxE5VOB
+         t8hHU8ejkQVxHWKIUP9ubTXuXtBi1RWdu6yXq6SCUIluk6TdzjO5QMKPKUxGqGbDV8OW
+         6+aDInVRL0pmokKgNe2np5/TP/5wRoztkZfiuBofbmw1hVFEWGBPPurQh5QOgtTh4WvF
+         OsLB+aygSpkmavLqDcvt+MlbuX37+oR/d/AigW7OqKeVXjROhETYuMZdCZkkf9DXsHKc
+         liOtqTKItjbcwvj38CZleBgBFQxJQZsYkcp9c1q14F4P/LFxPJhPu2swLPweE38b8PsI
+         WB2Q==
+X-Gm-Message-State: AOAM533CLd3qdozv+EX1+DDJE8EZ6A0w62A7g3b2M26xfxlr9z9NcDFl
+	HJ7kOGlRrt9/nVEY2k1k3w6c1wtcE/uMIE6nAIiwOCCg4qps7eIx4A==
+X-Received: by 2002:a17:906:38ce:: with SMTP id r14mr38422804ejd.268.1634665114897;
+        Tue, 19 Oct 2021 10:38:34 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:2090:0:0:0:0:0 with SMTP id v16csp403510ecn;
+        Tue, 19 Oct 2021 10:38:30 -0700 (PDT)
+X-Received: by 2002:ab0:45c4:: with SMTP id u62mr1460865uau.69.1634665110658;
+        Tue, 19 Oct 2021 10:38:30 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1634665110; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=JTJGoNTsXl3GRre3tBQ78cm9/vMFA90WpLWH3hh3YK9dQkUJcbu/EGd6NYILJXwFSu
+         WIUhtou5CkDVRszLo3m404AoCWh2FJMqz8U4Gi7yCyt+pw6ubKJ+Xy+R34JFIkk66bD5
+         0XNujOwDzrtujdKOq2cl2Ak16tJTaaZY74al3LFHtfNP/HozgvEDJgxV1OUtC2Qzz9qZ
+         F6tjYEeuD0qqG+NnmiML/cs+TQRJnUJcCXYLjZ0Z/bzOr2THCty4yizV03zyafnxyom3
+         i0Fvi+jRESlY0vnFpenf2xorg0FW+PEE7Bl4XtCS6DYJ8+bmUhB1+gdfWOaBtvNgRq2o
+         KccQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=j8HIvUzPCzfvAVCfwX2w46dag7EnH3aQCc1yJ0kqybg=;
+        b=uGRbw2nfVsShWp2uhpsCqV/ARtYjWH3pOPp84WV24uzbsP/DDnYQmhw7/+2/BHtBUX
+         oo0eUqZXFYD01bsg2XlhXl/9lOYcaCDBhSja1K+7SMV0snSd2YN3+twSfWM0k37lElpD
+         2x/YjaVvhEl8JhCah7WAC74a2T31ipG3PQ2NexDulTkjc3rrHiRvC5KFv5ka2E75yj+T
+         QtYEYJNrqKdrCfqGwl5YMu/tZNCMhJBoyJ2EbpZ+SWg0iYoH0ZwnICY4QCM5RfZaFqHA
+         uC7+Pzvq0lVYr2VClQiRvSd1uKcgLKRIldxvUssjvytkZIzW5UNZOv8uQ3vZBkeoGpxV
+         V+rA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=MHiPc4ZJ;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20211019133756.25393723.275721@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20211019133756.25393723.275721@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211019133756.25393723.275721@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id cd15sor5211458vsb.52.2021.10.19.10.38.30
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 19 Oct 2021 10:38:30 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20211019133756.25393723.275721@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzWzzBoBPhbMSbfyza59qq+Lo1oDjRpgNmcBueQuSA7uJqgeCANDlhSdiK7TWofp+q1/Xi6rnaZZ2KllpRzhqVoiN+ZNA4=
+X-Received: by 2002:a05:6102:32d6:: with SMTP id o22mr24578459vss.32.1634665109799;
+        Tue, 19 Oct 2021 10:38:29 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1634665109; cv=none;
+        d=google.com; s=arc-20160816;
+        b=sNp8YwkG6DKTBO+Ob/X7S+T1hgVUNg5MK0DRd6LJd1Nd5ouzw4nzy8YiUMPUDz3e4X
+         WwNju3qzwvvpJfrSVJUxhaS6eJT4uRkfzL5sMOxcczN4ehTajIG5nq9R2ymIEdMJ4jtI
+         b4DGfAbsTLiZ8O+BQtLPwmqZlDAnNMNNZ72EVERzH19ivt8YZVwfnxeB2BPpm26A1Cnq
+         uYk2JkqzanAqamjpqYUIzyB0DdgSSTRIlQ/fQrOO57PdMsqZ/6flJgkhCqQ104zXKyQm
+         2mys3cPo7MT3hsots3rHPA3QQaVm3IA483iy6obOnTwKu7CiEFqFRtDbvsD/ZTXejgmS
+         9z/g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=j8HIvUzPCzfvAVCfwX2w46dag7EnH3aQCc1yJ0kqybg=;
+        b=IW1ZbkpCg1zo9v+HH0rk6ZlEJYSko7atn52INkVL3iwdCL0Wdy/LITPV/ghoGMMvdv
+         ziyGP6QDD0wilBlkqHwmQxrJ0BMNsppHzx93hfNagINc+RANZvEVkUwaa+AcV0Jsm4SS
+         jlQ+Bob7RlT4kDEm1iFYyAUrSJFdOzu+z/eWMZT/zQ1zqLxh/6u6pTu6DkEjWhvOuGQn
+         gcGaCa3gVwqZ0wImFLBRsIaai8MuqXqawl3IFmXTxFDKrDEQL+Xu/4uIYswqx7JltaJ/
+         iCqX5ZrD/djtGKU6uUAjG21S+mUhnImp3zEYQXTYB6WWTRzpd91/4wuUC3DmETUC7Mf1
+         cKQA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=MHiPc4ZJ;
+       spf=pass (google.com: domain of delivery_20211019133756.25393723.275721@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20211019133756.25393723.275721@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211019133756.25393723.275721@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTP id g132si1164360vkg.4.2021.10.19.10.38.29
+        for <khamel83@gmail.com>;
+        Tue, 19 Oct 2021 10:38:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20211019133756.25393723.275721@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=OVC5XegeYInDfV+n4tRXFFuFim3aEJ0FGYASVXLWRc4=;
+ b=MHiPc4ZJaDCUWv6sPo2QC568OYeuWjZvEPBia23sEWJONm/7O+oHuEXgNePK8TyDipp+thTip36N
+   QCBtAzVDOOUxXnOf5fkwQntsQAJvY7W747NhXMFgarrBO9OTnjx0Ut3Vf7ypNiVjUwhEH9mkCt/B
+   7M7+HAKZOoT04ACWabY=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by pmta29.sailthru.com id hds19a2tem41 for <bloomberg@khamel.com>; Tue, 19 Oct 2021 13:38:29 -0400 (envelope-from <delivery_20211019133756.25393723.275721@mx.sailthru.com>)
+Date: Tue, 19 Oct 2021 13:37:56 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20211019133756.25393723.275721@sailthru.com>
+Subject: Money Stuff: The SEC Is Baffled By GameStop Too
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2049573_730309251.1634665076480"
+Precedence: bulk
+X-Feedback-ID: 6358:25393723:campaign:sailthru
+X-TM-ID: 20211019133756.25393723.275721
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-tancanary.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cf49x7.5wqx/3664456f
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cf49x7.5wqx/3664456f>, <mailto:unsubscribe_20211019133756.25393723.275721@mx.sailthru.com>
+X-rpcampaign: stjko25393723
+
+------=_Part_2049573_730309251.1634665076480
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      GameStop report!
+   =20
+ =20
+Yesterday the=C2=A0U.S. Securities and Exchange Commission released a =E2=
+=80=9CStaff Report on Equity and Options Market Structure Conditions in Ear=
+ly 2021,=E2=80=9D specifically the conditions that allowed GameStop Corp.=
+=E2=80=99s stock to go from $17.25 to $325 over the course of January for n=
+o particular reason. It would have been cool if the SEC had, uh, found a re=
+ason. If the report was like =E2=80=9Cactually we looked deep into the stoc=
+k exchange=E2=80=99s computers and found that they accidentally shifted a d=
+ecimal point one spot to the right, that was supposed to be $32.50, oops,=
+=E2=80=9D that would have been an interesting result.Or at the time this wa=
+s all happening, there were a lot of theories about =E2=80=9Cshort squeezes=
+=E2=80=9D and =E2=80=9Cgamma squeezes=E2=80=9D and nefarious hedge funds do=
+ing evil things to manipulate=C2=A0the stock. If the SEC had said =E2=80=9C=
+it was gamma, just so much gamma,=E2=80=9D that would have added to our und=
+erstanding of the world. Or if it had said =E2=80=9Cactually some big hedge=
+ funds=C2=A0were hugely long GameStop and manipulated the price up behind t=
+he scenes by doing wash trades with their=C2=A0cronies,=E2=80=9D that would=
+ have been really cool and fun.=C2=A0But instead the SEC report =E2=80=94=
+=C2=A0look,=C2=A0it=E2=80=99s not a=C2=A0bad=C2=A0report. If the GameStop s=
+aga got you interested in market structure, if you read a few GameStop arti=
+cles and started thinking things like =E2=80=9Cwait how can more than 100% =
+of the stock be sold short=E2=80=9D or =E2=80=9Cwhy would Citadel Securitie=
+s pay Robinhood to trade with=C2=A0its customers=E2=80=99 orders=E2=80=9D o=
+r =E2=80=9Cwhat is a gamma squeeze,=E2=80=9D then the SEC report is a crisp=
+, sober, sensible, useful and readable explainer. It=E2=80=99s fine! But if=
+ you spent the week of GameStop immersed in GameStop then there is nothing =
+all that new here. It=E2=80=99s a little boring. =E2=80=9CMany observers an=
+ticipated much more,=E2=80=9D says DealBook. GameStop was so big, and so we=
+ird! This one stock going up a lot dominated the national news for like a w=
+eek. It cries out for a correspondingly big and weird explanation. But, nah=
+. People just =E2=80=A6=C2=A0liked the stock?So: Did GameStop rocket up bec=
+ause of a short squeeze?[1] Yes, a bit,=C2=A0the SEC says, but in fact the =
+short sellers who threw in the towel and bought in their GameStop shorts we=
+re only a small percentage of volume, and they mostly did so=C2=A0early=C2=
+=A0in GameStop=E2=80=99s big run in the last week of January:Staff observed=
+ that during some discrete periods, GME had sharp price increases concurren=
+tly with known major short sellers covering their short positions after inc=
+urring significant losses. During these times, short sellers covering their=
+ positions likely contributed to increases in GME=E2=80=99s price.=C2=A0For=
+ example, staff observed that=C2=A0particularly during the earlier rise fro=
+m January 22 to 27 the price of GME rose as the short interest decreased. S=
+taff also observed discrete periods of sharp price increases during which a=
+ccounts held by firms known to the staff to be covering short interest in G=
+ME were actively buying large volumes of GME shares, in some cases accounti=
+ng for very significant portions of the net buying pressure during a period=
+. Figure 6 shows that buy volume in GME, including buy volume from particip=
+ants identified as having large short positions, increased significantly be=
+ginning around January 22 and remained high for several days, corresponding=
+ to the beginning of the most dramatic phase of the run-up in GME=E2=80=99s=
+ price.Figure 6 shows that the run-up in GME stock price coincided with buy=
+ing by those with short positions. However, it also shows that such buying =
+was a small fraction of overall buy volume, and that GME share prices conti=
+nued to be high after the direct effects of covering short positions would =
+have waned. The underlying motivation of such buy volume cannot be determin=
+ed; perhaps it was motivated by the desire to maintain a short squeeze. Whe=
+ther driven by a desire to squeeze short sellers and thus to profit from th=
+e resultant rise in price, or by belief in the fundamentals of GameStop, it=
+ was the positive sentiment, not the buying-to-cover, that sustained the we=
+eks-long price appreciation of GameStop stock.Here is Figure 6:There was de=
+finitely some short-covering, but what this picture mostly shows is that wh=
+en the dotted line (price) skyrockets the red bars (short-covering) flatten=
+. The story is not so much that retail investors on Reddit identified a sto=
+ck that was over-shorted, bid up the price, and thus forced all the short s=
+ellers to cover their shorts at new highs and push up the price more. The s=
+tory is more that the retail investors bid up the price, the short sellers =
+covered and pushed up the price a bit more, and then the retail investors =
+=E2=80=94=C2=A0possibly influenced by rumors of a short squeeze, or by shor=
+t interest figures being reported on a lag =E2=80=94=C2=A0went and pushed u=
+p the price much, much more. And the short sellers had either covered befor=
+e that happened, or said =E2=80=9Cwell this price is ridiculous=E2=80=9D an=
+d waited to cover until it fell.=C2=A0Actually the SEC almost concludes tha=
+t there should have been=C2=A0more=C2=A0short selling:The price surge in GM=
+E also raises questions of market efficiency that relate to short selling. =
+Staff have observed that it was unusually costly to borrow shares in GME.=
+=C2=A0Academic research implicates constraints on short selling as a possib=
+le contributor to bubbles where stock prices rise above what may be justifi=
+ed by fundamentals. Such constraints on short selling could arise from cost=
+ or from risk aversion. To the extent that GameStop was costly and risky to=
+ short, the reluctance to sell short could have contributed to the run-up i=
+n prices and the subsequent steep decline.Did GameStop rocket because of a =
+gamma squeeze? That is: Did retail traders buy a ton of call options, forci=
+ng options market makers to hedge by buying a ton of stock and then buy mor=
+e as the stock rose?[2]=C2=A0No, not at all, says the SEC:Staff did not fin=
+d evidence of a gamma squeeze in GME during January 2021. One of the main d=
+rivers of a gamma squeeze is an influx of call option purchases, which caus=
+es market makers to hedge their writing of the call options by purchasing t=
+he underlying stock, driving up the stock price in the process. While staff=
+ did find GME options trading volume from individual customers increased su=
+bstantially, from only $58.5 million on January 21 to $563.4 million on Jan=
+uary 22 until peaking at $2.4 billion on January 27, this increase in optio=
+ns trading volume was mostly driven by an increase in the buying of put, ra=
+ther than call, options. Further, data show that market-makers were buying,=
+ rather than writing, call options. These observations by themselves are no=
+t consistent with a gamma squeeze.That=E2=80=99s sort of a weird result. =
+=E2=80=9CMarket-makers were buying, rather than writing, call options=E2=80=
+=9D means that customers were=C2=A0selling=C2=A0call options on GameStop. O=
+ne possible interpretation of that is that retail investors were in fact bu=
+ying call options to=C2=A0bet=C2=A0on GameStop =E2=80=94=C2=A0as they said =
+they were on Reddit, etc. =E2=80=94=C2=A0but hedge funds and institutions w=
+ere=C2=A0selling=C2=A0call options as a way to get short GameStop, and the =
+hedge-fund sales outweighed the retail buys. (And in fact  there are storie=
+s about hedge funds selling GameStop=C2=A0calls at the peak and making a to=
+n of money.) Meanwhile though retail was mostly buying puts=C2=A0during Gam=
+eStop=E2=80=99s big week, also betting that the stock would go down (or hed=
+ging the gains they had made). And the SEC says elsewhere that =E2=80=9Cbet=
+ween January 22 and January 27, GME traders began to suddenly close their c=
+all option positions.=E2=80=9D All of this =E2=80=94=C2=A0market makers sel=
+ling puts and buying calls =E2=80=94=C2=A0would tend to have the effect of =
+pushing the stock=C2=A0down, as the market makers hedged both sold puts and=
+ bought calls by selling GameStop stock.[3] Retail traders YOLOing short-da=
+ted out-of-the-money call options does not seem to explain much of what hap=
+pened in GameStop=E2=80=99s big week.What else? Did GameStop eventually cra=
+sh late in that week because Robinhood limited its customers=E2=80=99 abili=
+ty to buy the stock? Maybe, why not, though the SEC doesn=E2=80=99t really =
+take a position. But did Robinhood impose limits because of some evil consp=
+iracy with hedge funds and market makers? No, of course not; Robinhood (and=
+ other brokers) imposed limits on GameStop (and other meme stock) trading b=
+ecause of margin requirements at their clearinghouses.The way  stock tradin=
+g works is that a buyer and seller agree to a trade on the stock exchange a=
+nd then, two days later, the buyer delivers the money and the seller delive=
+rs the shares. That creates two days of credit risk: If the buyer vanishes,=
+ the seller doesn=E2=80=99t get paid. To solve this, there are clearinghous=
+es that essentially guarantee every trade; if you sell stock, you can be co=
+nfident that you=E2=80=99ll get=C2=A0your money in two days, because the cl=
+earinghouse will pay you. The main stock clearinghouse is the National Secu=
+rities Clearing Corp. (NSCC); the main options one is the Options Clearing =
+Corp. (OCC). Brokers are required to keep cash at the clearinghouses to gua=
+rantee their obligations to settle trades. The more trades a broker does, a=
+nd the riskier those obligations are, the more cash the broker needs. When =
+there=E2=80=99s a ton of trading=C2=A0in very volatile stocks, the clearing=
+houses will call brokers for more money:Clearing agencies (i.e., NSCC and, =
+to a lesser extent, OCC) played important roles duringthe January 2021 GME =
+market events. The risk management mechanisms of these clearingagencies eff=
+ectively led others in the transaction chain=E2=80=94such as retail broker-=
+dealers=E2=80=94to pauseand manage the risk exposure that arose as the rate=
+ of transactions accelerated. Both NSCC andOCC experienced record volumes c=
+leared on January 27, 2021.=C2=A0=E2=80=A6In highly volatile trading where =
+share prices whipsaw by hundreds of dollars, NSCC may require more margin t=
+o guard against an increased risk of defaults (which may occur if, for exam=
+ple, buyers do not carry-through on paying for a stock that has plummeted o=
+r sellers do not carry-through on delivering a stock that has skyrocketed).=
+ On January 27, 2021, in response to market activity during the trading ses=
+sion, NSCC made intraday margin calls from 36 clearing members totaling $6.=
+9 billion, bringing the total required margin across all members to $25.5 b=
+illion. Of the $6.9 billion, $2.1 billion were intraday mark-to-market call=
+s, while the remaining $4.8 billion was a special ECP charge. Specifically,=
+ NSCC observed unusual volatility in certain securities, including GME, whi=
+ch presented heightened risk to the clearinghouse and its members.86 As a r=
+esult, it calculated and assessed against certain affected members the rema=
+ining $4.8 billion as an additional special charge pursuant to its establis=
+hed rules. NSCC imposed this charge on 18 members, all of whom provided the=
+ additional margin. NSCC subjected one additional member to the special cha=
+rge, but that member ultimately did not have to meet that charge after offs=
+etting its exposure with a transfer from an affiliate.Again, this is not a =
+weird conspiracy but a normal operation of standard market structure.[4] Wh=
+en trading goes haywire, there are rules to make sure that traders can cove=
+r their obligations, and one way that those rules work is by effectively ca=
+lming down the trading.What else. =E2=80=9CPayment for order flow.=E2=80=9D=
+ The GameStop saga drew a lot of attention to the fact that retail brokers =
+like Robinhood sell a lot of their customers=E2=80=99=C2=A0orders to =E2=80=
+=9Coff-exchange market makers=E2=80=9D like Citadel Securities. We have  ta=
+lked about that=C2=A0a lot before, the SEC explains it in a sober and strai=
+ghtforward way,[5] and there doesn=E2=80=99t seem to have been anything par=
+ticularly nefarious going on in that relationship. Still this is an interes=
+ting little fact:GME trading in January 2021 shifted the prevailing distrib=
+ution of GME equity executions across venues. Specifically, the proportion =
+of off-exchange activity initially rose as individual investor activity inc=
+reased, then fell as volatility increased. Approximately half of GME=E2=80=
+=99s dollar and share volume reported to the consolidated tape in 2020 was =
+executed on a national securities exchange. On January 21, 2021 (when GME o=
+pened at $39.23 and closed at $43.03), 62.60% of the day=E2=80=99s dollar v=
+olume was executed off exchange. But, beginning on January 22 (when GME ope=
+ned at $42.59 and closed at $65.01), the percentage of dollar volume execut=
+ed off exchange consistently dipped below 50%, reaching a low of 32.83% on =
+January 28 (when GME opened at $265.00 and closed at $193.60).An increasing=
+ percentage of volume executed on exchange when volatility spikes may indic=
+ate that market participants, including wholesalers, are seeking to avoid i=
+nternalizing customer orders to reduce potential losses when hedging become=
+s more difficult.The first part of the story is that, stereotypically, inst=
+itutional trading often happens on exchanges but retail trading normally ha=
+ppens off-exchange, with wholesalers (market makers). As retail piled into =
+GameStop, more of its trading happened off exchanges.But the second part of=
+ the story is that in fact those market makers=C2=A0can=C2=A0just send the =
+retail orders on to exchanges, rather than trading with them themselves.[6]=
+ Often they prefer not to do this, because in general it is profitable to t=
+rade with those retail orders. But as things got absolutely wild in GameSto=
+p, the market makers seem often to have said =E2=80=9Cmeh we don=E2=80=99t =
+need this aggravation=E2=80=9D and sent the orders out to exchanges.[7] In =
+general, if you buy stock through a retail brokerage, you=E2=80=99re not bu=
+ying it on the exchange, you're buying it from a wholesaler. But enough peo=
+ple bought GameStop in the last week of January to break that system; they =
+ended up buying a lot of their stock on the exchange.=C2=A0The report ends =
+with a shrug in the direction of market reforms that SEC Chair Gary Gensler=
+  wants to do anyway: reducing=C2=A0settlement times to reduce clearinghous=
+e risk, improved reporting of short sales, more transparency for off-exchan=
+ge trading. None of these things have much to do with what happened to Game=
+Stop that last week in January. Or here=E2=80=99s this:Consideration should=
+ be given to whether game-like features and celebratory animations that are=
+ likely intended to create positive feedback from trading lead investors to=
+ trade more than they would otherwise. In addition, payment for order flow =
+and the incentives it creates may cause broker-dealers to find novel ways t=
+o increase customer trading, including through the use of digital engagemen=
+t practices.Yeah, look.=C2=A0In general, do retail brokerages have economic=
+ incentives to push more trading? Yes, definitely. Do little animations of =
+confetti to celebrate a trade make people more likely to trade? Sure, maybe=
+, why not.=C2=A0Did people buy tons and tons of GameStop in the last week o=
+f January because of the game-like user experience of their brokerage apps?=
+=C2=A0No, of course not, come on. The game of GameStop, in January 2021, wa=
+s not about getting to the top of Robinhood=E2=80=99s leader board or whate=
+ver. (Robinhood was trying to=C2=A0stop=C2=A0people from trading GameStop t=
+hat week! It actually=C2=A0prevented=C2=A0them from buying GameStop for a w=
+hile!) The game of GameStop was pervasive in society; if you were buying Ga=
+meStop stock it was because you read about it on Reddit or on the front pag=
+e of every newspaper, or because you heard about it on every television new=
+s show. There were at least eight GameStop film projects in the works by mi=
+d-February! =E2=80=9CLet=E2=80=99s all buy GameStop and get rich=E2=80=9D w=
+as absolutely a weird game-like positive feedback loop that led investors t=
+o trade more than they would otherwise, but Robinhood=E2=80=99s app design =
+had nothing to do with it.So the SEC=E2=80=99s report doesn=E2=80=99t so mu=
+ch explain=C2=A0what happened to GameStop; really it just=C2=A0rules out=C2=
+=A0various popular, technical-ish, conspiracy-ish explanations. =E2=80=9CYo=
+u see, GameStop=E2=80=99s stock went up 2,700% in January[8] on no news bec=
+ause of this complex equation involving gamma, retail options volume, short=
+ positioning and sunspots=E2=80=9D is a good explanation in that (1) it exp=
+lains a weird thing in a weird way and (2)=C2=A0reading it makes you feel s=
+mart and in-the-know. But, the SEC says =E2=80=94=C2=A0and I think they=E2=
+=80=99re probably right =E2=80=94=C2=A0it isn=E2=80=99t true.=E2=80=9CYou s=
+ee, GameStop=E2=80=99s stock went up 2,700% in January on no news because a=
+ bunch of small retail investors simultaneously decided to buy it=E2=80=9D =
+is a bad explanation in that it explains a wild phenomenon in a boring way,=
+ and in that it doesn=E2=80=99t tell you anything=C2=A0useful. There is no =
+technical fix to market structure that would prevent that sort of thing fro=
+m happening, nor is it obvious that you=E2=80=99d want to prevent that sort=
+ of thing (people all deciding to buy a stock) from happening. There is=C2=
+=A0no obvious set of technical indicators that would help you identify futu=
+re whatever-this-is situations;=C2=A0options positioning and short interest=
+ and whatever seem to have been less important than just everyone in the wo=
+rld liking the stock at the same time.=C2=A0One other thing that might be w=
+orth mentioning is that the volume-weighted average price of GameStop stock=
+ during its crazy last week of January=C2=A0was $166.23.[9] It closed yeste=
+rday at $186.02. If you bought GameStop during its insane week, you=E2=80=
+=99re probably up. If your explanation of GameStop is =E2=80=9Cweird techni=
+cal stuff happened that week and the price went crazy,=E2=80=9D or =E2=80=
+=9Cevil conspiracies happened that week and the price went crazy,=E2=80=9D =
+or even just =E2=80=9Cwe all collectively lost our minds that week and the =
+price went crazy,=E2=80=9D how do you explain that =E2=80=94=C2=A0with less=
+ attention and less volatility and less weird technical stuff =E2=80=94 it=
+=E2=80=99s still happening?
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Green vs. anti-green
+   =20
+ =20
+The way it works is that there are companies and each company does a range =
+of projects. Some companies =E2=80=94=C2=A0particularly energy companies =
+=E2=80=94=C2=A0will do all three of these sorts of projects:=09Green projec=
+ts, where the company does something that is good for the environment. (Bui=
+lding a wind farm, say.)=09Dirty projects, where the company does something=
+ that is bad for the environment but nonetheless has positive expected valu=
+e for the company. (Drilling for oil in an arctic wildlife reserve, say.)=
+=09Neutral and miscellaneous projects, where the company does something tha=
+t doesn=E2=80=99t feel especially related to the environment one way or the=
+ other. (Stock buybacks, I dunno.)The company needs money to fund these pro=
+jects. Crudely, there are two ways to raise money: You can raise money spec=
+ifically earmarked for a particular=C2=A0project, or you just raise money f=
+or general corporate purposes and use the money for whichever projects you =
+want. Crudely, you should choose a financing method based on what investors=
+ want: If there is a ton of=C2=A0investor demand for green projects, you sh=
+ould finance the green projects with specifically earmarked money; if there=
+ is a ton of investor resistance to dirty projects, you should finance the =
+dirty projects out of general corporate funds.[10]We have talked a few time=
+s about =E2=80=9Cgreen bonds,=E2=80=9D which are bonds that a company (or c=
+ountry, etc.) issues specifically to finance green projects. Green bonds ex=
+ist because investors like to finance green projects, so green bonds tend t=
+o have a slightly lower interest rate than regular bonds of the same compan=
+y: The company does whatever mix of projects it does, but investors prefer =
+to explicitly finance the green ones. But we talked last week about reports=
+ that that is changing, as investors say, well, look, we want companies to =
+be green in their overall mix of projects, but we don=E2=80=99t really get =
+any great benefit out of specifically financing the green projects. If a co=
+mpany mostly goes around polluting but also does one small solar project, w=
+e=E2=80=99re not gonna be all that jazzed to buy green bonds to finance the=
+ solar project. As the Financial Times reported:Many investors are beginnin=
+g to question the logic of paying extra for a bond with a =E2=80=9Cgreen=E2=
+=80=9D label, arguing that there are better ways to incentivise sovereign o=
+r corporate borrowers to boost their spending on environmentally friendly p=
+rojects.These fund managers say that companies or governments should be rew=
+arded =E2=80=94 or penalised =E2=80=94 based on their green efforts as a wh=
+ole, rather than hiving off a small part of their activities and rebadging =
+the debt used to pay for it.=E2=80=9CWe always evaluate an issuer in its en=
+tirety, not just one bond,=E2=80=9D says Madeleine King, co-head of global =
+credit research at Legal & General Investment Management. She argues that i=
+t makes little sense to pay a premium for a green bond compared with a norm=
+al bond from the same company when the creditworthiness =E2=80=94 and the s=
+ustainability credentials =E2=80=94 of the issuer are the same in either ca=
+se.Conversely, here is the Wall Street Journal reporting that =E2=80=9CSome=
+ Investors Say Bank Pledges to Cut Funding for Arctic Drilling Contain Loop=
+holes=E2=80=9D:Some of the world=E2=80=99s largest banks, including Goldman=
+ Sachs Group Inc., HSBC Holdings=C2=A0PLC and BNP Paribas SA pledged in rec=
+ent years to stop direct financing of Arctic oil exploration. The idea was =
+to choke off money for fossil-fuel extraction in a pristine natural environ=
+ment.A battle has broken out among investors, environmentalists and banks o=
+ver those pledges. Some investors and environmentalists say they contain lo=
+opholes, and money has continued to flow from big banks to companies active=
+ in areas of Norway, Russia, Canada and Alaska rich in oil and gas. Under p=
+ressure, two of the banks, BNP and HSBC, say they are reviewing their pledg=
+es to make them stronger. ...Among the complaints about the pledges: While =
+banks have stopped directly lending to Arctic projects through what are kno=
+wn as project finance loans, they continue to lend to oil-and-gas companies=
+ active in the Arctic at the corporate level, where money is fungible. =E2=
+=80=A6There is no indication that the banks have violated their promises, w=
+hich focus on project finance, or lending to specific projects. But about 9=
+0% of energy investments are financed primarily from company balance sheets=
+, according to the International Energy Agency.Yes, right, if you go to the=
+ market and say =E2=80=9Cwe want to borrow money for green things,=E2=80=9D=
+ you might save a basis point, though you might not; now people just kind o=
+f expect you to do green things. If you go to the market and say =E2=80=9Cw=
+e want to borrow money for dirty things,=E2=80=9D you will miss out on some=
+ investors. =E2=80=9CCome on,=E2=80=9D those investors will say, =E2=80=9Cw=
+e=E2=80=99re not going to give you money=C2=A0specifically for the dirty th=
+ings, that looks terrible.=E2=80=9D But if you go to the market and say =E2=
+=80=9Cwe want to borrow money for all the things we use money for,=E2=80=9D=
+ some of them will be clean and some of them will be dirty and it=E2=80=99s=
+ all basically fine.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      =E2=80=98I=E2=80=99d like my Twitter to be off the hook=E2=80=99
+   =20
+ =20
+A couple of years ago Elon Musk was going around getting  fined millions of=
+ dollars by the SEC and sued by a cave diver for being on Twitter too much,=
+ and I was  writing dumb columns that were like =E2=80=9Cmaybe Elon Musk sh=
+ould focus on building cars=C2=A0and spend less time getting in legal troub=
+le on Twitter.=E2=80=9D I mean to be fair also the SEC and a federal judge =
+and Tesla Inc.=E2=80=99s=C2=A0 Designated Counsel for Keeping Musk Off Twit=
+ter were also saying =E2=80=9CElon, get off Twitter, man.=E2=80=9D And at l=
+east the SEC had a point; he was doing a certain amount of securities fraud=
+ on Twitter and their job is to stop that. But as a matter of=C2=A0corporat=
+e finance=C2=A0Musk was clearly right and I, at least, was wrong. Given the=
+ choice of spending an hour designing a bumper for a car or spending an hou=
+r tweeting memes, Musk =E2=80=94=C2=A0who is not particularly an engineer b=
+ut who is huge on=C2=A0Twitter =E2=80=94=C2=A0clearly should almost always =
+choose Twitter. Being much too online has gotten Musk a rabid fan base, and=
+ they=E2=80=99re investors, and that allows Tesla=C2=A0to raise limitless a=
+mounts of money for Tesla at an attractive cost of capital, and also frankl=
+y lets it make spare cash on Bitcoin speculation if it wants to. A Musk twe=
+et is a ludicrously, implausibly=C2=A0valuable=C2=A0thing in a way that a M=
+usk-designed windshield wiper probably isn=E2=80=99t. If he can make a twee=
+t worth tens of millions of dollars with a minute=E2=80=99s effort he proba=
+bly should just do that, instead of expending more effort to make something=
+ less valuable.Similarly  here=E2=80=99s Adam Aron:AMC Entertainment Holdin=
+gs Inc., is a favorite of meme-stock investors and Chief Executive Officer =
+Adam Aron finds out what they -- and movie goers -- think by posting messag=
+es on Twitter almost every day and reading most of the comments he gets in =
+return.=E2=80=9CIt=E2=80=99s very helpful for me running an organization to=
+ know what my constituency cares about,=E2=80=9D Aron said Monday on a pane=
+l at the Milken Institute Global Conference in Beverly Hills, California. =
+=E2=80=9CThere=E2=80=99s a lot of learning that can go on, if you not only =
+speak on Twitter, but you read what people are speaking back to you.=E2=80=
+=9DLearning, I don=E2=80=99t know, sure, but the guy has raised umpteen bil=
+lion dollars and gotten his=C2=A0movie-theater company=C2=A0through a=C2=A0=
+global pandemic=C2=A0in much better financial shape than it was before the =
+pandemic by going all-in on embracing his meme-stock status. And, yes, that=
+ requires being down to clown on social media.=C2=A0There is a traditional =
+view of corporate social media in which a board would tell its chief execut=
+ive officer to be cautious and anodyne on Twitter. There are many things th=
+at can go wrong with an unhinged Twitter presence, and not a lot that can g=
+o right, is what your lawyer would probably tell you. But the last few year=
+s have altered that calculation, and now the things that can go right are l=
+ike =E2=80=9Craising billions of dollars of retail capital when you need it=
+ most,=C2=A0at all-time-high valuations.=E2=80=9D Arguably=C2=A0it=E2=80=99=
+s a breach of fiduciary duties=C2=A0not=C2=A0to be weird on Twitter all the=
+ time.
+ =20
+   =20
+      The computer will buy your company
+   =20
+ =20
+Yesterday, while talking about something else, I went off on a little fligh=
+t of fancy about automated computer-driven mergers and acquisitions.  I wro=
+te:It is fun to imagine a world in which mergers and acquisitions were simi=
+larly automated. If you were the chief executive officer of a public (or pr=
+ivate!) company, and you wanted to sell, you could push a button and a comp=
+uter would tell you =E2=80=9Cthe bid price for your company is $8 billion=
+=E2=80=9D or whatever. And then you=E2=80=99d hit the =E2=80=9Cokay sell=E2=
+=80=9D button, and some automated market maker =E2=80=94 some pool of cash =
+attached to that computer =E2=80=94 would wire you $8 billion and take over=
+ your company. And then the market maker would resell it a second later for=
+ $8.2 billion to some long-term strategic buyer who is in the market for a =
+business like yours. And all the matchmaking and valuation work of modern M=
+&A =E2=80=94 bankers building deep personal relationships with CEOs and fly=
+ing around the country pitching deals, 60-page board decks full of valuatio=
+n models, 100-page contracts full of closing contingencies, all-night negot=
+iations, fights about cultural fit and the name of the combined company, et=
+c. =E2=80=94 would all be sort of smushed into the automatic market-maker m=
+odel.This would be funny! It will be a bit of world-building in my science-=
+fiction finance novel set in the year 2264. But it is not going to happen n=
+ow, or in 10 years, or probably in 50 years. The facts about whole companie=
+s are too complicated and fuzzy and difficult to observe for a computer to =
+price confidently, and companies trade so infrequently that any random erro=
+rs could destroy the business model. Plus the capital required for this bus=
+iness model =E2=80=94 billions and billions of dollars for each trade =E2=
+=80=94 would be too much for a business of five programmers and a computer.=
+ Finance slowly grinds toward this ideal, but it may never actually get thi=
+s far.A couple of readers emailed to point out that =E2=80=A6=C2=A0this act=
+ually happens a little bit? Here=E2=80=99s a company called OpenStore, whic=
+h  Bloomberg described in June=C2=A0as=C2=A0=E2=80=9Ca startup that makes a=
+utomated purchase offers to small e-commerce businesses.=E2=80=9D (It=E2=80=
+=99s from the people who brought you OpenDoor, which, like Zillow, tries to=
+ do=C2=A0that with houses.) If you run a storefront on Shopify Inc., a comp=
+uter can pretty much make you a price without a whole lot of extensive in-p=
+erson negotiation or due diligence. To the extent that businesses of the fu=
+ture are not so much =E2=80=9Cbig factory makes widgets and then a team of =
+hard-charging widget salespeople fan out and build personal relationships w=
+ith widget buyers=E2=80=9D but rather =E2=80=9Csome cloud servers, an API a=
+nd a Stripe account,=E2=80=9D automated business purchasing actually seems =
+feasible. It=E2=80=99s not that a computer will be able to understand all t=
+he idiosyncratic personal and physical features of a business, it=E2=80=99s=
+ that those features might get sanded away.
+ =20
+   =20
+      Ape Stuff
+   =20
+ =20
+This seems to be real?A 7-foot-tall bronze statue of Harambe, the Cincinnat=
+i Zoo gorilla that made national headlines in 2016 after picking up and car=
+rying around a 3-year-old boy who climbed into its enclosure, then getting =
+shot, appeared on Wall Street Monday.The giant gorilla was placed in Bowlin=
+g Green Park, directly across from the famous Charging Bull statue, which w=
+as surrounded by 10,000 bananas (that will later be donated to local food b=
+anks and community fridges) to make a point about wealth disparity.The orga=
+nizers, founders of Sapien.Network, an in-development social networking pla=
+tform "dedicated to putting the needs and welfare of human beings first" sa=
+id they put up the display to show that Wall Street has become "bananas" --=
+ wholly out of touch with the needs of everyday people.Sapien.Network co-fo=
+unders Robert Giometti, Tejay Aluru and Ankit Bhatia said they used the sym=
+bol of Harambe to represent the millions who struggle under a U.S. capitali=
+st system they say "enriches wealthy elites and leaves the average person b=
+ehind."But as Giometti told News 4 Monday, "it=E2=80=99s not about rejectin=
+g capitalism or the current system. It's about revolving them into the curr=
+ent future and letting them empower more groups of people. That's the whole=
+ point of this story.""Harambe is a representation of something that lets u=
+s look at more than just ourselves. What are we aspiring to as people?" he =
+explained. "It's about connecting. A simple gesture of giving a banana buil=
+ds community. As a society, we need to come together. We can=E2=80=99t keep=
+ fighting to come together."=C2=A0Well there you go. I assumed it had to do=
+ with AMC.=C2=A0
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Bitcoin Pushes Toward Record Before Debut of  Futures-Based ETF.  MicroStra=
+tegy Stumbles as Bitcoin ETF Launch Hits Stock=E2=80=99s Thesis. The  =E2=
+=80=98Risk-Free=E2=80=99 Crypto Trade Is Back In a Big Way. =E2=80=98 BTFD=
+=E2=80=99 Mantra Inspires Ticker for Planned Bitcoin ETF. Credit Suisse Nea=
+rs Deal With U.S. Over  Mozambique Scandal. Facebook to Hire 10,000 Workers=
+ in EU to Build Up =E2=80=98Metaverse.=E2=80=99 12-inch skeleton.If you'd l=
+ike to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your in=
+box, please=C2=A0subscribe at this link. Or you can subscribe to Money Stuf=
+f and other great Bloomberg newsletters here. Thanks!=C2=A0[1] Oh, by the w=
+ay, another question is: =E2=80=9CIs it bad that more than 100% of GameStop=
+=E2=80=99s float was short?=E2=80=9D Money Stuff readers  already know that=
+ the answer is =E2=80=9Cno, come on,=E2=80=9D but the SEC helpfully explain=
+s: =E2=80=9CSome commentators have asked how short interest can get as high=
+ as it did in GameStop. Short interest can exceed 100%=E2=80=94as it did wi=
+th GME=E2=80=94when the same shares are lent multiple times by successive p=
+urchasers. If someone purchases a stock from a short seller and subsequentl=
+y lends the stock out again, it will appear as if the stock was sold short =
+twice for the purpose of the short interest calculation.=E2=80=9D Still ano=
+ther question might be: =E2=80=9CWas there a lot of evil naked shorting?=E2=
+=80=9D Again the answer is no: =E2=80=9CThe unusually high amount of short =
+selling raised the question of whether some of the short sales were =E2=80=
+=98naked=E2=80=99=E2=80=94namely, made without arranging to borrow the unde=
+rlying security. When a naked short sale occurs, the seller fails to delive=
+r the securities to the buyer, and staff did observe spikes in fails to del=
+iver in GME. However, fails to deliver can occur either with short or long =
+sales, making them an imperfect measure of naked short selling. Moreover, b=
+ased on the staff=E2=80=99s review of the available data, GME did not exper=
+ience persistent fails to deliver at the individual clearing member level. =
+Specifically, staff observed that most clearing members were able to clear =
+any fails relatively quickly, i.e., within a few days, and for the most par=
+t did not experience fails across multiple days.=E2=80=9D[2] We discussed t=
+he mechanics in more detail  the first time we talked about GameStop, way b=
+ack on Jan. 25.=C2=A0[3] The effect of the price moves on the hedges =E2=80=
+=94=C2=A0the actual gamma =E2=80=94 is more ambiguous. The way you hedge a =
+bought call is by shorting stock and then shorting more as the stock goes u=
+p (and the calls become more in-the-money). The way you hedge a sold put is=
+ by shorting stock and then buying some back as the stock goes up (and the =
+puts become more out-of-the-money). So if market makers were buying calls a=
+nd selling puts, their initial hedging would push the stock down, but their=
+ dynamic hedging would to some extent offset.[4] In fact, NSCC =E2=80=9Cexc=
+ess capital premium=E2=80=9D rules allowed it to call for significantly *mo=
+re* cash than it did, but it waived those calls to avoid blowing up brokers=
+ too much.=C2=A0The SEC says: =E2=80=9CBecause these members=E2=80=99 ratio=
+s of excess risk versus capital were not driven by individual clearing memb=
+er actions, but by extreme volatility in individual cleared equities, NSCC =
+exercised its rules-based discretion to waive the ECP charge for all member=
+s on January 28, 2021. Absent this waiver, one retail broker-dealer would h=
+ave had an additional ECP charge of more than double its margin requirement=
+ of $1.4 billion on January 28, 2021.=E2=80=9D Byrne Hobart writes: =E2=80=
+=9CSo the conspiracy was to relax requirements for one broker-dealer, to th=
+e (marginal) benefit of retail investors.=E2=80=9D[5] Here=E2=80=99s its ex=
+planation of why market makers will pay for order flow, and how it gets ret=
+ail customers better prices: =E2=80=9COff-exchange market makers use segmen=
+tation to mitigate one of the key risks traders face=E2=80=94prices moving =
+against their positions after executing a trade. Some in the marketplace ma=
+y possess superior information about underlying asset values and will only =
+buy when posted prices are low relative to their information, and sell when=
+ they are high. Other participants may, by virtue of greater quantities of =
+data, have statistically greater predictive ability regarding the direction=
+ of prices. Because market makers are more likely to lose money when intera=
+cting with such order flow, they have an incentive to distinguish order flo=
+w that does not correlate with future price movements from order flow that =
+does. The bid-ask spread, the difference between what a buyer is willing to=
+ pay and a seller willing to accept, normally compensates market makers for=
+ the risk that prices may move against them.=C2=A0To the extent that market=
+ makers can segment order flow that is less correlated with future prices, =
+they can offer a lower spread when trading with this order flow. Besides di=
+ffering in the motive for trading, such orders are more likely to be small,=
+ uncorrelated with one another, and thus =E2=80=98one and done=E2=80=99 (i.=
+e., not the first in a series of orders intended to transact a large amount=
+ of stock), which also allows for a tighter spread.=C2=A0Off-exchange marke=
+t makers typically offer payment to the retail broker-dealer for the right =
+to trade with its customer order flow (i.e., payment for order flow).=E2=80=
+=9D[6] The SEC says: =E2=80=9CFor stocks, off-exchange market makers may ex=
+ecute individual investor orders by taking the other side of the trade prin=
+cipally (=E2=80=98internalizing=E2=80=99=C2=A0the trade) or may route the o=
+rder to other trading venues for execution.=E2=80=9D[7] This could be about=
+ short-term price risk =E2=80=94 =E2=80=9Cmeh, we don=E2=80=99t want to be =
+on the wrong side of a tidal wave of retail orders=E2=80=9D =E2=80=94=C2=A0=
+or just about inventory risk =E2=80=94=C2=A0=E2=80=9Cwe just sold a billion=
+ dollars of stock to retail, we can=E2=80=99t sell them anymore.=E2=80=9D=
+=C2=A0[8] That is a somewhat non-canonical number that I took from the SEC =
+report: =E2=80=9COverall, GME=E2=80=99s intraday share price increased appr=
+oximately 2,700% from its intraday low on January 8 to its intraday high on=
+ January 28, followed by a decrease of over 86% from that day to the closin=
+g price at the end of the first week of February.=E2=80=9D[9] That's Bloomb=
+erg page GME US <Equity> AQR, from the morning of Jan. 25 to the evening of=
+ Jan. 29.=C2=A0[10] This is too crude, and there are good general finance r=
+easons that corporate-level financing might be cheaper or better (diversifi=
+cation of assets, financial flexibility, etc.) or conversely that project-l=
+evel financing might be cheaper or better (more senior security on the asse=
+ts, less recourse to other assets, etc.).=C2=A0
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cf49x7.5wqx/29f49e73.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_2049573_730309251.1634665076480
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTM5MzcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2Njk0NDQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cB38dd20e6" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25393723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25669444&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMDE5MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwMTkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB4a8d63e1"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTM5MzcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2Njk0NDQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cCb2fa56ad" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25393723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25669444&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"108" style=3D"width: 108px !important; display:block" =
+/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">GameStop report!</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Yesterday the=C2=A0U.S. Securities and=
+ Exchange Commission <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/25393723.275721/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAy=
+MS0yMTI/607f07ceef4b8524a319a23cBe30680c9" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">released</a> a =E2=80=9C=
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9zdGFmZi1yZXBvcnQtZXF1aXR5LW9wdGlvbnMtbWFya=
+2V0LXN0cnVjdGlvbi1jb25kaXRpb25zLWVhcmx5LTIwMjEucGRm/607f07ceef4b8524a319a23=
+cB34ee8f95" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">Staff Report on Equity and Options Market Structure Con=
+ditions in Early 2021</a>,=E2=80=9D specifically the conditions that allowe=
+d GameStop Corp.=E2=80=99s stock to go from $17.25 to $325 over the course =
+of January for no particular reason. It would have been cool if the SEC had=
+, uh, found a reason. If the report was like =E2=80=9Cactually we looked de=
+ep into the stock exchange=E2=80=99s computers and found that they accident=
+ally shifted a decimal point one spot to the right, that was supposed to be=
+ $32.50, oops,=E2=80=9D that would have been an interesting result.</p><p s=
+tyle=3D"margin: 16px 0;">Or at the time this was all happening, there were =
+a lot of theories about =E2=80=9Cshort squeezes=E2=80=9D and =E2=80=9Cgamma=
+ squeezes=E2=80=9D and nefarious hedge funds doing evil things to manipulat=
+e=C2=A0the stock. If the SEC had said =E2=80=9Cit was gamma, just so much g=
+amma,=E2=80=9D that would have added to our understanding of the world. Or =
+if it had said =E2=80=9Cactually some big hedge funds=C2=A0were hugely <em>=
+long</em> GameStop and manipulated the price up behind the scenes by doing =
+wash trades with their=C2=A0cronies,=E2=80=9D that would have been really c=
+ool and fun.=C2=A0</p><p style=3D"margin: 16px 0;">But instead the SEC repo=
+rt =E2=80=94=C2=A0look,=C2=A0it=E2=80=99s not a=C2=A0<em>bad=C2=A0</em>repo=
+rt. If the GameStop saga got you interested in market structure, if you rea=
+d a few GameStop articles and started thinking things like =E2=80=9Cwait ho=
+w can more than 100% of the stock be sold short=E2=80=9D or =E2=80=9Cwhy wo=
+uld Citadel Securities pay Robinhood to trade with=C2=A0its customers=E2=80=
+=99 orders=E2=80=9D or =E2=80=9Cwhat is a gamma squeeze,=E2=80=9D then the =
+SEC report is a crisp, sober, sensible, useful and readable explainer. It=
+=E2=80=99s fine! But if you spent the week of GameStop immersed in GameStop=
+ then there is nothing all that new here. It=E2=80=99s a little boring. =E2=
+=80=9CMany observers anticipated much more,=E2=80=9D <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3cubnl0aW1l=
+cy5jb20vMjAyMS8xMC8xOS9idXNpbmVzcy9kZWFsYm9vay9nYW1lc3RvcC1tZW1lLXN0b2Nrcy1=
+yZXBvcnQuaHRtbA/607f07ceef4b8524a319a23cB3e5f65f8" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">says DealBook</a=
+>. GameStop was so big, and so weird! This one stock going up a lot dominat=
+ed the national news for like a week. It cries out for a correspondingly bi=
+g and weird explanation. But, nah. People just =E2=80=A6=C2=A0liked the sto=
+ck?</p><p style=3D"margin: 16px 0;">So: Did GameStop rocket up because of a=
+ short squeeze?[1] Yes, a bit,=C2=A0the SEC says, but in fact the short sel=
+lers who threw in the towel and bought in their GameStop shorts were only a=
+ small percentage of volume, and they mostly did so=C2=A0<em>early=C2=A0</e=
+m>in GameStop=E2=80=99s big run in the last week of January:</p><blockquote=
+><p style=3D"margin: 16px 0;">Staff observed that during some discrete peri=
+ods, GME had sharp price increases concurrently with known major short sell=
+ers covering their short positions after incurring significant losses. Duri=
+ng these times, short sellers covering their positions likely contributed t=
+o increases in GME=E2=80=99s price.=C2=A0For example, staff observed that=
+=C2=A0particularly during the earlier rise from January 22 to 27 the price =
+of GME rose as the short interest decreased. Staff also observed discrete p=
+eriods of sharp price increases during which accounts held by firms known t=
+o the staff to be covering short interest in GME were actively buying large=
+ volumes of GME shares, in some cases accounting for very significant porti=
+ons of the net buying pressure during a period. Figure 6 shows that buy vol=
+ume in GME, including buy volume from participants identified as having lar=
+ge short positions, increased significantly beginning around January 22 and=
+ remained high for several days, corresponding to the beginning of the most=
+ dramatic phase of the run-up in GME=E2=80=99s price.</p><p style=3D"margin=
+: 16px 0;">Figure 6 shows that the run-up in GME stock price coincided with=
+ buying by those with short positions. However, it also shows that such buy=
+ing was a small fraction of overall buy volume, and that GME share prices c=
+ontinued to be high after the direct effects of covering short positions wo=
+uld have waned. The underlying motivation of such buy volume cannot be dete=
+rmined; perhaps it was motivated by the desire to maintain a short squeeze.=
+ Whether driven by a desire to squeeze short sellers and thus to profit fro=
+m the resultant rise in price, or by belief in the fundamentals of GameStop=
+, it was the positive sentiment, not the buying-to-cover, that sustained th=
+e weeks-long price appreciation of GameStop stock.</p></blockquote><p style=
+=3D"margin: 16px 0;">Here is Figure 6:</p><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/iYYPmqH.ib.s/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/iYYPmqH.ib.s/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]--><p style=3D"margin: 16px 0;">There was definitely some short-co=
+vering, but what this picture mostly shows is that when the dotted line (pr=
+ice) skyrockets the red bars (short-covering) flatten. The story is not so =
+much that retail investors on Reddit identified a stock that was over-short=
+ed, bid up the price, and thus forced all the short sellers to cover their =
+shorts at new highs and push up the price more. The story is more that the =
+retail investors bid up the price, the short sellers covered and pushed up =
+the price a bit more, and then the retail investors =E2=80=94=C2=A0possibly=
+ influenced by rumors of a short squeeze, or by short interest figures bein=
+g reported on a lag =E2=80=94=C2=A0went and pushed up the price much, much =
+more. And the short sellers had either covered before that happened, or sai=
+d =E2=80=9Cwell this price is ridiculous=E2=80=9D and waited to cover until=
+ it fell.=C2=A0</p><p style=3D"margin: 16px 0;">Actually the SEC almost con=
+cludes that there should have been=C2=A0<em>more=C2=A0</em>short selling:</=
+p><blockquote><p style=3D"margin: 16px 0;">The price surge in GME also rais=
+es questions of market efficiency that relate to short selling. Staff have =
+observed that it was unusually costly to borrow shares in GME.=C2=A0Academi=
+c research implicates constraints on short selling as a possible contributo=
+r to bubbles where stock prices rise above what may be justified by fundame=
+ntals. Such constraints on short selling could arise from cost or from risk=
+ aversion. To the extent that GameStop was costly and risky to short, the r=
+eluctance to sell short could have contributed to the run-up in prices and =
+the subsequent steep decline.</p></blockquote><p style=3D"margin: 16px 0;">=
+Did GameStop rocket because of a gamma squeeze? That is: Did retail traders=
+ buy a ton of call options, forcing options market makers to hedge by buyin=
+g a ton of stock and then buy more as the stock rose?[2]=C2=A0No, not at al=
+l, says the SEC:</p><blockquote><p style=3D"margin: 16px 0;">Staff did not =
+find evidence of a gamma squeeze in GME during January 2021. One of the mai=
+n drivers of a gamma squeeze is an influx of call option purchases, which c=
+auses market makers to hedge their writing of the call options by purchasin=
+g the underlying stock, driving up the stock price in the process. While st=
+aff did find GME options trading volume from individual customers increased=
+ substantially, from only $58.5 million on January 21 to $563.4 million on =
+January 22 until peaking at $2.4 billion on January 27, this increase in op=
+tions trading volume was mostly driven by an increase in the buying of put,=
+ rather than call, options. Further, data show that market-makers were buyi=
+ng, rather than writing, call options. These observations by themselves are=
+ not consistent with a gamma squeeze.</p></blockquote><p style=3D"margin: 1=
+6px 0;">That=E2=80=99s sort of a weird result. =E2=80=9CMarket-makers were =
+buying, rather than writing, call options=E2=80=9D means that customers wer=
+e=C2=A0<em>selling=C2=A0</em>call options on GameStop. One possible interpr=
+etation of that is that retail investors were in fact buying call options t=
+o=C2=A0bet=C2=A0on GameStop =E2=80=94=C2=A0as they said they were on Reddit=
+, etc. =E2=80=94=C2=A0but hedge funds and institutions were=C2=A0<em>sellin=
+g=C2=A0</em>call options as a way to get short GameStop, and the hedge-fund=
+ sales outweighed the retail buys. (And in fact <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1=
+cHJlbWUtY291cnQtaGVkZ2UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNndzP2NtcGlkPUJ=
+CRDEwMTkyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dG=
+VyJnV0bV90ZXJtPTIxMTAxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a3=
+19a23cBa51fc988" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> there are stories</a> about hedge funds selling G=
+ameStop=C2=A0calls at the peak and making a ton of money.) Meanwhile though=
+ retail was mostly buying <em>puts=C2=A0</em>during GameStop=E2=80=99s big =
+week, also betting that the stock would go down (or hedging the gains they =
+had made). And the SEC says elsewhere that =E2=80=9Cbetween January 22 and =
+January 27, GME traders began to suddenly close their call option positions=
+.=E2=80=9D All of this =E2=80=94=C2=A0market makers selling puts and buying=
+ calls =E2=80=94=C2=A0would tend to have the effect of pushing the stock=C2=
+=A0<em>down</em>, as the market makers hedged both sold puts and bought cal=
+ls by selling GameStop stock.[3] Retail traders YOLOing short-dated out-of-=
+the-money call options does not seem to explain much of what happened in Ga=
+meStop=E2=80=99s big week.</p><p style=3D"margin: 16px 0;">What else? Did G=
+ameStop eventually crash late in that week because Robinhood limited its cu=
+stomers=E2=80=99 ability to buy the stock? Maybe, why not, though the SEC d=
+oesn=E2=80=99t really take a position. But did Robinhood impose limits beca=
+use of some evil conspiracy with hedge funds and market makers? No, of cour=
+se not; Robinhood (and other brokers) imposed limits on GameStop (and other=
+ meme stock) trading because of margin requirements at their clearinghouses=
+.</p><p style=3D"margin: 16px 0;">The way <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMjkvcmVkZGl0LXRyYWRlcnMtb24tcm9iaW5ob29kLW=
+FyZS1vbi1ib3RoLXNpZGVzLW9mLWdhbWVzdG9wP2NtcGlkPUJCRDEwMTkyMV9NT05FWVNUVUZGJ=
+nV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTAxOSZ1=
+dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB34973fb7" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ stock trading works</a> is that a buyer and seller agree to a trade on the=
+ stock exchange and then, two days later, the buyer delivers the money and =
+the seller delivers the shares. That creates two days of credit risk: If th=
+e buyer vanishes, the seller doesn=E2=80=99t get paid. To solve this, there=
+ are clearinghouses that essentially guarantee every trade; if you sell sto=
+ck, you can be confident that you=E2=80=99ll get=C2=A0your money in two day=
+s, because the clearinghouse will pay you. The main stock clearinghouse is =
+the National Securities Clearing Corp. (NSCC); the main options one is the =
+Options Clearing Corp. (OCC). Brokers are required to keep cash at the clea=
+ringhouses to guarantee their obligations to settle trades. The more trades=
+ a broker does, and the riskier those obligations are, the more cash the br=
+oker needs. When there=E2=80=99s a ton of trading=C2=A0in very volatile sto=
+cks, the clearinghouses will call brokers for more money:</p><blockquote><p=
+ style=3D"margin: 16px 0;">Clearing agencies (i.e., NSCC and, to a lesser e=
+xtent, OCC) played important roles during<br />the January 2021 GME market =
+events. The risk management mechanisms of these clearing<br />agencies effe=
+ctively led others in the transaction chain=E2=80=94such as retail broker-d=
+ealers=E2=80=94to pause<br />and manage the risk exposure that arose as the=
+ rate of transactions accelerated. Both NSCC and<br />OCC experienced recor=
+d volumes cleared on January 27, 2021.=C2=A0=E2=80=A6</p><p style=3D"margin=
+: 16px 0;">In highly volatile trading where share prices whipsaw by hundred=
+s of dollars, NSCC may require more margin to guard against an increased ri=
+sk of defaults (which may occur if, for example, buyers do not carry-throug=
+h on paying for a stock that has plummeted or sellers do not carry-through =
+on delivering a stock that has skyrocketed). On January 27, 2021, in respon=
+se to market activity during the trading session, NSCC made intraday margin=
+ calls from 36 clearing members totaling $6.9 billion, bringing the total r=
+equired margin across all members to $25.5 billion. Of the $6.9 billion, $2=
+.1 billion were intraday mark-to-market calls, while the remaining $4.8 bil=
+lion was a special ECP charge. Specifically, NSCC observed unusual volatili=
+ty in certain securities, including GME, which presented heightened risk to=
+ the clearinghouse and its members.86 As a result, it calculated and assess=
+ed against certain affected members the remaining $4.8 billion as an additi=
+onal special charge pursuant to its established rules. NSCC imposed this ch=
+arge on 18 members, all of whom provided the additional margin. NSCC subjec=
+ted one additional member to the special charge, but that member ultimately=
+ did not have to meet that charge after offsetting its exposure with a tran=
+sfer from an affiliate.</p></blockquote><p style=3D"margin: 16px 0;">Again,=
+ this is not a weird conspiracy but a normal operation of standard market s=
+tructure.[4] When trading goes haywire, there are rules to make sure that t=
+raders can cover their obligations, and one way that those rules work is by=
+ effectively calming down the trading.</p><p style=3D"margin: 16px 0;">What=
+ else. =E2=80=9CPayment for order flow.=E2=80=9D The GameStop saga drew a l=
+ot of attention to the fact that retail brokers like Robinhood sell a lot o=
+f their customers=E2=80=99=C2=A0orders to =E2=80=9Coff-exchange market make=
+rs=E2=80=9D like Citadel Securities. We have <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDUvcm9iaW5ob29kLWdhbWVzdG9wLXNhZ2EtcHJ=
+lc3N1cmVzLXBheW1lbnQtZm9yLW9yZGVyLWZsb3c_Y21waWQ9QkJEMTAxOTIxX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMDE5J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB49eeb98d" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ talked</a> about <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+25393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzI=
+wMjEtMDgtMzEvd2hhdC1oYXBwZW5zLXRvLXJvYmluaG9vZC1pZi10aGUtc2VjLWJhbnMtcGF5bW=
+VudC1mb3Itb3JkZXItZmxvdy1rdDBhNWtqZz9jbXBpZD1CQkQxMDE5MjFfTU9ORVlTVFVGRiZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwMTkmdXRt=
+X2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBfcfcfadc" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">that=
+</a>=C2=A0a lot <a href=3D"https://link.mail.bloombergbusiness.com/click/25=
+393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwM=
+jEtMDktMjMvbW9uZXktc3R1ZmYtZGFyay1wb29sLXNvbGQtc29tZS1vcmRlci1mbG93P2NtcGlk=
+PUJCRDEwMTkyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTIxMTAxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cB2bc24368" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">before</a>, the SEC explains it in a sober an=
+d straightforward way,[5] and there doesn=E2=80=99t seem to have been anyth=
+ing particularly nefarious going on in that relationship. Still this is an =
+interesting little fact:</p><blockquote><p style=3D"margin: 16px 0;">GME tr=
+ading in January 2021 shifted the prevailing distribution of GME equity exe=
+cutions across venues. Specifically, the proportion of off-exchange activit=
+y initially rose as individual investor activity increased, then fell as vo=
+latility increased. Approximately half of GME=E2=80=99s dollar and share vo=
+lume reported to the consolidated tape in 2020 was executed on a national s=
+ecurities exchange. On January 21, 2021 (when GME opened at $39.23 and clos=
+ed at $43.03), 62.60% of the day=E2=80=99s dollar volume was executed off e=
+xchange. But, beginning on January 22 (when GME opened at $42.59 and closed=
+ at $65.01), the percentage of dollar volume executed off exchange consiste=
+ntly dipped below 50%, reaching a low of 32.83% on January 28 (when GME ope=
+ned at $265.00 and closed at $193.60).</p><p style=3D"margin: 16px 0;">An i=
+ncreasing percentage of volume executed on exchange when volatility spikes =
+may indicate that market participants, including wholesalers, are seeking t=
+o avoid internalizing customer orders to reduce potential losses when hedgi=
+ng becomes more difficult.</p></blockquote><p style=3D"margin: 16px 0;">The=
+ first part of the story is that, stereotypically, institutional trading of=
+ten happens on exchanges but retail trading normally happens off-exchange, =
+with wholesalers (market makers). As retail piled into GameStop, more of it=
+s trading happened off exchanges.</p><p style=3D"margin: 16px 0;">But the s=
+econd part of the story is that in fact those market makers=C2=A0<em>can=C2=
+=A0</em>just send the retail orders on to exchanges, rather than trading wi=
+th them themselves.[6] Often they prefer not to do this, because in general=
+ it is profitable to trade with those retail orders. But as things got abso=
+lutely wild in GameStop, the market makers seem often to have said =E2=80=
+=9Cmeh we don=E2=80=99t need this aggravation=E2=80=9D and sent the orders =
+out to exchanges.[7] In general, if you buy stock through a retail brokerag=
+e, you=E2=80=99re not buying it on the exchange, you're buying it from a wh=
+olesaler. But enough people bought GameStop in the last week of January to =
+break that system; they ended up buying a lot of their stock on the exchang=
+e.=C2=A0</p><p style=3D"margin: 16px 0;">The report ends with a shrug in th=
+e direction of market reforms that SEC Chair Gary Gensler <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMTgvc2VjLW1lbWUtc3RvY2stcmVwb3=
+J0LWRlYnVua3MtY29uc3BpcmFjaWVzLWJhY2tzLWdlbnNsZXItYWdlbmRhP2NtcGlkPUJCRDEwM=
+TkyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIxMTAxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+B81a05a9a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> wants to do anyway</a>: reducing=C2=A0settlement times =
+to reduce clearinghouse risk, improved reporting of short sales, more trans=
+parency for off-exchange trading. None of these things have much to do with=
+ what happened to GameStop that last week in January. Or here=E2=80=99s thi=
+s:</p><blockquote><p style=3D"margin: 16px 0;">Consideration should be give=
+n to whether game-like features and celebratory animations that are likely =
+intended to create positive feedback from trading lead investors to trade m=
+ore than they would otherwise. In addition, payment for order flow and the =
+incentives it creates may cause broker-dealers to find novel ways to increa=
+se customer trading, including through the use of digital engagement practi=
+ces.</p></blockquote><p style=3D"margin: 16px 0;">Yeah, look.=C2=A0<em>In g=
+eneral</em>, do retail brokerages have economic incentives to push more tra=
+ding? Yes, definitely. Do little animations of confetti to celebrate a trad=
+e make people more likely to trade? Sure, maybe, why not.=C2=A0<em>Did peop=
+le buy tons and tons of GameStop in the last week of January because of the=
+ game-like user experience of their brokerage apps?=C2=A0</em>No, of course=
+ not, come on. The game of GameStop, in January 2021, was not about getting=
+ to the top of Robinhood=E2=80=99s leader board or whatever. (Robinhood was=
+ trying to=C2=A0<em>stop=C2=A0</em>people from trading GameStop that week! =
+It actually=C2=A0<em>prevented=C2=A0</em>them from buying GameStop for a wh=
+ile!) The game of GameStop was pervasive in society; if you were buying Gam=
+eStop stock it was because you read about it on Reddit or on the front page=
+ of every newspaper, or because you heard about it on every television news=
+ show. There were at least <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25393723.275721/aHR0cHM6Ly93d3cudGhld3JhcC5jb20vbWFrZS1pdC1nYW1lc3=
+RvcC1hbGwtdGhlLWNvbXBldGluZy1maWxtLWFuZC10di1wcm9qZWN0cy1pbi10aGUtd29ya3MtY=
+WJvdXQtdGhlLXdhbGxzdHJlZXRiZXRzLXNhZ2Ev/607f07ceef4b8524a319a23cBb7be26a2" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">eight GameStop film projects</a> in the works by mid-February! =E2=
+=80=9CLet=E2=80=99s all buy GameStop and get rich=E2=80=9D was absolutely a=
+ weird game-like positive feedback loop that led investors to trade more th=
+an they would otherwise, but Robinhood=E2=80=99s app design had nothing to =
+do with it.</p><p style=3D"margin: 16px 0;">So the SEC=E2=80=99s report doe=
+sn=E2=80=99t so much explain=C2=A0what happened to GameStop; really it just=
+=C2=A0<em>rules out=C2=A0</em>various popular, technical-ish, conspiracy-is=
+h explanations. =E2=80=9CYou see, GameStop=E2=80=99s stock went up 2,700% i=
+n January[8] on no news because of this complex equation involving gamma, r=
+etail options volume, short positioning and sunspots=E2=80=9D is a good exp=
+lanation in that (1) it explains a weird thing in a weird way and (2)=C2=A0=
+reading it makes you feel smart and in-the-know. But, the SEC says =E2=80=
+=94=C2=A0and I think they=E2=80=99re probably right =E2=80=94=C2=A0it isn=
+=E2=80=99t true.</p><p style=3D"margin: 16px 0;">=E2=80=9CYou see, GameStop=
+=E2=80=99s stock went up 2,700% in January on no news because a bunch of sm=
+all retail investors simultaneously decided to buy it=E2=80=9D is a bad exp=
+lanation in that it explains a wild phenomenon in a boring way, and in that=
+ it doesn=E2=80=99t tell you anything=C2=A0useful. There is no technical fi=
+x to market structure that would prevent that sort of thing from happening,=
+ nor is it obvious that you=E2=80=99d want to prevent <em>that</em> sort of=
+ thing (people all deciding to buy a stock) from happening. There is=C2=A0n=
+o obvious set of technical indicators that would help you identify future w=
+hatever-this-is situations;=C2=A0options positioning and short interest and=
+ whatever seem to have been less important than just everyone in the world =
+liking the stock at the same time.=C2=A0</p><p style=3D"margin: 16px 0;">On=
+e other thing that might be worth mentioning is that the volume-weighted av=
+erage price of GameStop stock during its crazy last week of January=C2=A0wa=
+s $166.23.[9] It closed yesterday at $186.02. If you bought GameStop during=
+ its insane week, you=E2=80=99re probably <em>up</em>. If your explanation =
+of GameStop is =E2=80=9Cweird technical stuff happened that week and the pr=
+ice went crazy,=E2=80=9D or =E2=80=9Cevil conspiracies happened that week a=
+nd the price went crazy,=E2=80=9D or even just =E2=80=9Cwe all collectively=
+ lost our minds that week and the price went crazy,=E2=80=9D how do you exp=
+lain that =E2=80=94=C2=A0with less attention and less volatility and less w=
+eird technical stuff =E2=80=94 it=E2=80=99s still happening?</p><table clas=
+s=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D"0" cellspa=
+cing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTM5MzcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2Njk0NDQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cD805a1e75" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25393723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25669444&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTM5MzcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2Njk0NDQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cE805a1e75" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25393723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25669444&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTM5MzcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2Njk0NDQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cF92b6e829" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25393723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25669444&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTM5MzcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2Njk0NDQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cG92b6e829" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25393723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25669444&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Green vs. anti-green</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The way it works is that there are com=
+panies and each company does a range of projects. Some companies =E2=80=94=
+=C2=A0particularly energy companies =E2=80=94=C2=A0will do all three of the=
+se sorts of projects:</p><ol style=3D"list-style-type: decimal; padding-lef=
+t: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Green projec=
+ts, where the company does something that is good for the environment. (Bui=
+lding a wind farm, say.)</li>=09<li style=3D"margin-bottom: 5px;">Dirty pro=
+jects, where the company does something that is bad for the environment but=
+ nonetheless has positive expected value for the company. (Drilling for oil=
+ in an arctic wildlife reserve, say.)</li>=09<li style=3D"margin-bottom: 5p=
+x;">Neutral and miscellaneous projects, where the company does something th=
+at doesn=E2=80=99t feel especially related to the environment one way or th=
+e other. (Stock buybacks, I dunno.)</li></ol><p style=3D"margin: 16px 0;">T=
+he company needs money to fund these projects. Crudely, there are two ways =
+to raise money: You can raise money specifically earmarked for a particular=
+=C2=A0project, or you just raise money for general corporate purposes and u=
+se the money for whichever projects you want. Crudely, you should choose a =
+financing method based on what investors want: If there is a ton of=C2=A0in=
+vestor demand for green projects, you should finance the green projects wit=
+h specifically earmarked money; if there is a ton of investor resistance to=
+ dirty projects, you should finance the dirty projects out of general corpo=
+rate funds.[10]</p><p style=3D"margin: 16px 0;">We have <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMTItMDYvZ3JlZW4tYm9uZHMtd2l0aG91=
+dC10aGUtYm9uZHM_Y21waWQ9QkJEMTAxOTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ=
+1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMDE5JnV0bV9jYW1wYWlnbj1tb25leX=
+N0dWZm/607f07ceef4b8524a319a23cB1a37cad6" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">talked</a> a few times a=
+bout =E2=80=9Cgreen bonds,=E2=80=9D which are bonds that a company (or coun=
+try, etc.) issues specifically to finance green projects. Green bonds exist=
+ because investors like to finance green projects, so green bonds tend to h=
+ave a slightly lower interest rate than regular bonds of the same company: =
+The company does whatever mix of projects it does, but investors prefer to =
+explicitly finance the green ones. But we <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMTQvaXQtcGF5cy10by1ub3QtcGF5LXlvdXItZGVidH=
+M_Y21waWQ9QkJEMTAxOTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMDE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cB7d883e92" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">talked last week</a> about reports that=
+ that is changing, as investors say, well, look, we want companies to be gr=
+een in their overall mix of projects, but we don=E2=80=99t really get any g=
+reat benefit out of specifically financing the green projects. If a company=
+ mostly goes around polluting but also does one small solar project, we=E2=
+=80=99re not gonna be all that jazzed to buy green bonds to finance the sol=
+ar project. As the Financial Times <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/25393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMjEtMTAtMTQvaXQtcGF5cy10by1ub3QtcGF5LXlvdXItZGVidHM_Y21wa=
+WQ9QkJEMTAxOTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3Ns=
+ZXR0ZXImdXRtX3Rlcm09MjExMDE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b85=
+24a319a23cC7d883e92" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">reported</a>:</p><blockquote><p style=3D"marg=
+in: 16px 0;">Many investors are beginning to question the logic of paying e=
+xtra for a bond with a =E2=80=9Cgreen=E2=80=9D label, arguing that there ar=
+e better ways to incentivise sovereign or corporate borrowers to boost thei=
+r spending on environmentally friendly projects.</p><p style=3D"margin: 16p=
+x 0;">These fund managers say that companies or governments should be rewar=
+ded =E2=80=94 or penalised =E2=80=94 based on their green efforts as a whol=
+e, rather than hiving off a small part of their activities and rebadging th=
+e debt used to pay for it.</p><p style=3D"margin: 16px 0;">=E2=80=9CWe alwa=
+ys evaluate an issuer in its entirety, not just one bond,=E2=80=9D says Mad=
+eleine King, co-head of global credit research at Legal &amp; General Inves=
+tment Management. She argues that it makes little sense to pay a premium fo=
+r a green bond compared with a normal bond from the same company when the c=
+reditworthiness =E2=80=94 and the sustainability credentials =E2=80=94 of t=
+he issuer are the same in either case.</p></blockquote><p style=3D"margin: =
+16px 0;">Conversely, here is <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/25393723.275721/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9iYW5rcy1w=
+cm9taXNlZC10by1jdXQtZnVuZGluZy1mb3ItYXJjdGljLW9pbC1kcmlsbGluZy1tb25leS1mbG9=
+3ZWQtYW55d2F5LTExNjM0NDY4NTgwP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a=
+319a23cB9427219d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">the Wall Street Journal</a> reporting that =E2=80=
+=9CSome Investors Say Bank Pledges to Cut Funding for Arctic Drilling Conta=
+in Loopholes=E2=80=9D:</p><blockquote><p style=3D"margin: 16px 0;">Some of =
+the world=E2=80=99s largest banks, including Goldman Sachs Group Inc., HSBC=
+ Holdings=C2=A0PLC and BNP Paribas SA pledged in recent years to stop direc=
+t financing of Arctic oil exploration. The idea was to choke off money for =
+fossil-fuel extraction in a pristine natural environment.</p><p style=3D"ma=
+rgin: 16px 0;">A battle has broken out among investors, environmentalists a=
+nd banks over those pledges. Some investors and environmentalists say they =
+contain loopholes, and money has continued to flow from big banks to compan=
+ies active in areas of Norway, Russia, Canada and Alaska rich in oil and ga=
+s. Under pressure, two of the banks, BNP and HSBC, say they are reviewing t=
+heir pledges to make them stronger. ...</p><p style=3D"margin: 16px 0;">Amo=
+ng the complaints about the pledges: While banks have stopped directly lend=
+ing to Arctic projects through what are known as project finance loans, the=
+y continue to lend to oil-and-gas companies active in the Arctic at the cor=
+porate level, where money is fungible. =E2=80=A6</p><p style=3D"margin: 16p=
+x 0;">There is no indication that the banks have violated their promises, w=
+hich focus on project finance, or lending to specific projects. But about 9=
+0% of energy investments are financed primarily from company balance sheets=
+, according to the International Energy Agency.</p></blockquote><p style=3D=
+"margin: 16px 0;">Yes, right, if you go to the market and say =E2=80=9Cwe w=
+ant to borrow money for green things,=E2=80=9D you might save a basis point=
+, though you might not; now people just kind of expect you to do green thin=
+gs. If you go to the market and say =E2=80=9Cwe want to borrow money for di=
+rty things,=E2=80=9D you will miss out on some investors. =E2=80=9CCome on,=
+=E2=80=9D those investors will say, =E2=80=9Cwe=E2=80=99re not going to giv=
+e you money=C2=A0<em>specifically for the dirty things</em>, that looks ter=
+rible.=E2=80=9D But if you go to the market and say =E2=80=9Cwe want to bor=
+row money for all the things we use money for,=E2=80=9D some of them will b=
+e clean and some of them will be dirty and it=E2=80=99s all basically fine.=
+</p><table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTM5MzcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2Njk0NDQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cHd32b812d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25393723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25669444&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">=E2=80=98I=E2=80=99d like <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/25393723.275721/aHR0cHM6Ly90d2l0dGVyLmNvbS9zaWx2aWFraWxsaW5nc=
+y9zdGF0dXMvMTQ1MDQ0OTI4MjA1MDQ0OTQxNQ/607f07ceef4b8524a319a23cB35f277cb" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">my Twitter</a> to be off the hook=E2=80=99</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A couple of years ago Elon Musk was go=
+ing around getting <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/25393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMTgtMTAtMDEvdGVzbGEtd2lsbC10cnktdG8tYmUtbW9yZS1ub3JtYWw_Y21waWQ9QkJEMTAxO=
+TIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjExMDE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB4=
+0f486cc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> fined millions of dollars</a> by the SEC and <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3=
+cudGhlZ3VhcmRpYW4uY29tL3RlY2hub2xvZ3kvMjAxOS9kZWMvMDYvZWxvbi1tdXNrLXZlcm5vb=
+i11bnN3b3J0aC10cmlhbC12ZXJkaWN0/607f07ceef4b8524a319a23cB6e6a70f7" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+sued by a cave diver</a> for being on Twitter too much, and I was <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDgtMDgvZWxvbi1tdXNr=
+LWhhcy1zb21lLWZ1bi13aXRoLXRlc2xhP2NtcGlkPUJCRDEwMTkyMV9NT05FWVNUVUZGJnV0bV9=
+tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTAxOSZ1dG1fY2=
+FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB2a3450c9" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> writin=
+g dumb columns</a> that were like =E2=80=9Cmaybe Elon Musk should focus on =
+building cars=C2=A0and spend less time getting in legal trouble on Twitter.=
+=E2=80=9D I mean to be fair also the SEC and a federal judge and Tesla Inc.=
+=E2=80=99s=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/25=
+393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+TktMDItMjcvd2hvLWNhbi1zYXktd2hhdC1jYWxpZm9ybmlhLW1lYW5zP2NtcGlkPUJCRDEwMTky=
+MV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIxMTAxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB92=
+b6a4cf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> Designated Counsel for Keeping Musk Off Twitter</a> were a=
+lso saying =E2=80=9CElon, get off Twitter, man.=E2=80=9D And at least the S=
+EC had a point; he was doing a certain amount of securities fraud on Twitte=
+r and their job is to stop that. But as a matter of=C2=A0<em>corporate fina=
+nce=C2=A0</em>Musk was clearly right and I, at least, was wrong. Given the =
+choice of spending an hour designing a bumper for a car or spending an hour=
+ tweeting memes, Musk =E2=80=94=C2=A0who is not particularly an engineer bu=
+t who is huge on=C2=A0Twitter =E2=80=94=C2=A0clearly should almost always c=
+hoose Twitter. Being much too online has gotten Musk a rabid fan base, and =
+they=E2=80=99re investors, and that allows Tesla=C2=A0to raise limitless am=
+ounts of money for Tesla at an attractive cost of capital, and also frankly=
+ lets it make spare cash <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0=
+ZXJzLzIwMjEtMDUtMTcvbW9uZXktc3R1ZmYtZWxvbi1tdXNrLXMtYml0Y29pbi1mdW4tY29udGl=
+udWVzP2NtcGlkPUJCRDEwMTkyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdX=
+JjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTAxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/60=
+7f07ceef4b8524a319a23cBafc645b7" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">on Bitcoin speculation</a> if it w=
+ants to. A Musk tweet is a ludicrously, implausibly=C2=A0<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDgvZWxvbi1tdXNrLXdvcmtzLWh=
+pcy1tYWdpYy1vbi1kb2dlY29pbi1hbmQtYml0Y29pbj9jbXBpZD1CQkQxMDE5MjFfTU9ORVlTVF=
+VGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwM=
+TkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB61234f26" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"><em>valuable=C2=A0</em>thing</a> in a way that a Musk-designed windshiel=
+d wiper probably isn=E2=80=99t. If he can make a tweet worth tens of millio=
+ns of dollars with a minute=E2=80=99s effort he probably should just do tha=
+t, instead of expending more effort to make something less valuable.</p><p =
+style=3D"margin: 16px 0;">Similarly <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/25393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjEtMTAtMTkvYW1jLWNlby1hZGFtLWFyb24taXMtYS1mcmVxdWVudC10d2Vl=
+dGVyLXdoby1yZWFkcy1oaXMtY29tbWVudHM_Y21waWQ9QkJEMTAxOTIxX01PTkVZU1RVRkYmdXR=
+tX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMDE5JnV0bV=
+9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB825df35a" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> here=
+=E2=80=99s Adam Aron</a>:</p><blockquote><p style=3D"margin: 16px 0;">AMC E=
+ntertainment Holdings Inc., is a favorite of meme-stock investors and Chief=
+ Executive Officer Adam Aron finds out what they -- and movie goers -- thin=
+k by posting messages on Twitter almost every day and reading most of the c=
+omments he gets in return.</p><p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=
+=80=99s very helpful for me running an organization to know what my constit=
+uency cares about,=E2=80=9D Aron said Monday on a panel at the Milken Insti=
+tute Global Conference in Beverly Hills, California. =E2=80=9CThere=E2=80=
+=99s a lot of learning that can go on, if you not only speak on Twitter, bu=
+t you read what people are speaking back to you.=E2=80=9D</p></blockquote><=
+p style=3D"margin: 16px 0;">Learning, I don=E2=80=99t know, sure, but the g=
+uy has <a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.27=
+5721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDYtMD=
+IvbW9uZXktc3R1ZmYtYW1jLWJyaW5ncy1vdXQtdGhlLXBvcGNvcm4_Y21waWQ9QkJEMTAxOTIxX=
+01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rl=
+cm09MjExMDE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBaf300=
+2e1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">raised umpteen billion dollars</a> and gotten his=C2=A0<em>mov=
+ie-theater company=C2=A0</em>through a=C2=A0<em>global pandemic=C2=A0</em>i=
+n much better financial shape than it was before the pandemic by going all-=
+in on embracing his meme-stock status. And, yes, that requires being down t=
+o clown on social media.=C2=A0</p><p style=3D"margin: 16px 0;">There is a t=
+raditional view of corporate social media in which a board would tell its c=
+hief executive officer to be cautious and anodyne on Twitter. There are man=
+y things that can go wrong with an unhinged Twitter presence, and not a lot=
+ that can go right, is what your lawyer would probably tell you. But the la=
+st few years have altered that calculation, and now the things that can go =
+right are like =E2=80=9Craising billions of dollars of retail capital when =
+you need it most,=C2=A0at all-time-high valuations.=E2=80=9D Arguably=C2=A0=
+it=E2=80=99s a breach of fiduciary duties=C2=A0<em>not=C2=A0</em>to be weir=
+d on Twitter all the time.</p><table class=3D"header" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The computer will buy your company</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Yesterday, while talking about somethi=
+ng else, I went off on a little flight of fancy about automated computer-dr=
+iven mergers and acquisitions. <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/25393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjEtMTAtMTgvdGhlLWNvbXB1dGVyLWNhbi10LWJ1eS15b3VyLWhvdXNlLW5vd=
+z9jbXBpZD1CQkQxMDE5MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cB7b3a890a" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> I wrote</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">It is fun to imagine a world in which mergers and acqu=
+isitions were similarly automated. If you were the chief executive officer =
+of a public (or private!) company, and you wanted to sell, you could push a=
+ button and a computer would tell you =E2=80=9Cthe bid price for your compa=
+ny is $8 billion=E2=80=9D or whatever. And then you=E2=80=99d hit the =E2=
+=80=9Cokay sell=E2=80=9D button, and some automated market maker =E2=80=94 =
+some pool of cash attached to that computer =E2=80=94 would wire you $8 bil=
+lion and take over your company. And then the market maker would resell it =
+a second later for $8.2 billion to some long-term strategic buyer who is in=
+ the market for a business like yours. And all the matchmaking and valuatio=
+n work of modern M&amp;A =E2=80=94 bankers building deep personal relations=
+hips with CEOs and flying around the country pitching deals, 60-page board =
+decks full of valuation models, 100-page contracts full of closing continge=
+ncies, all-night negotiations, fights about cultural fit and the name of th=
+e combined company, etc. =E2=80=94 would all be sort of smushed into the au=
+tomatic market-maker model.</p><p style=3D"margin: 16px 0;">This would be f=
+unny! It will be a bit of world-building in my science-fiction finance nove=
+l set in the year 2264. But it is not going to happen now, or in 10 years, =
+or probably in 50 years. The facts about whole companies are too complicate=
+d and fuzzy and difficult to observe for a computer to price confidently, a=
+nd companies trade so infrequently that any random errors could destroy the=
+ business model. Plus the capital required for this business model =E2=80=
+=94 billions and billions of dollars for each trade =E2=80=94 would be too =
+much for a business of five programmers and a computer. Finance slowly grin=
+ds toward this ideal, but it may never actually get this far.</p></blockquo=
+te><p style=3D"margin: 16px 0;">A couple of readers emailed to point out th=
+at =E2=80=A6=C2=A0this actually happens a little bit? Here=E2=80=99s <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aHR0cHM6=
+Ly9vcGVuLnN0b3JlLw/607f07ceef4b8524a319a23cB9f26acbe" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">a company cal=
+led OpenStore</a>, which <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjEtMDYtMTgvdGhpcy1hbGdvcml0aG0td2FudHMtdG8tYnV5LXlvdXItZmF2b3JpdGUtc2h=
+vcGlmeS1zdG9yZWZyb250P2NtcGlkPUJCRDEwMTkyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTAxOSZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb52059ec" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Bloomberg describ=
+ed in June</a>=C2=A0as=C2=A0=E2=80=9Ca startup that makes automated purchas=
+e offers to small e-commerce businesses.=E2=80=9D (It=E2=80=99s from the pe=
+ople who brought you OpenDoor, which, like Zillow, tries to do=C2=A0that wi=
+th houses.) If you run a storefront on Shopify Inc., a computer can pretty =
+much make you a price without a whole lot of extensive in-person negotiatio=
+n or due diligence. To the extent that businesses of the future are not so =
+much =E2=80=9Cbig factory makes widgets and then a team of hard-charging wi=
+dget salespeople fan out and build personal relationships with widget buyer=
+s=E2=80=9D but rather =E2=80=9Csome cloud servers, an API and a Stripe acco=
+unt,=E2=80=9D automated business purchasing actually seems feasible. It=E2=
+=80=99s not that a computer will be able to understand all the idiosyncrati=
+c personal and physical features of a business, it=E2=80=99s that those fea=
+tures might get sanded away.</p><table class=3D"header" width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Ape Stuff</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">This <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3cubmJjbG9zYW5nZWxlcy5=
+jb20vbmV3cy9uYXRpb25hbC1pbnRlcm5hdGlvbmFsLzctZm9vdC10YWxsLWhhcmFtYmUtc3RhdH=
+VlLXN0YXJlcy1kb3duLXdhbGwtc3RyZWV0cy1jaGFyZ2luZy1idWxsLXdoaWNoLWlzLW5vdy1jb=
+3ZlcmVkLWluLWJhbmFuYXMvMjcxOTU1My8_X29zb3VyY2U9U29jaWFsRmxvd1R3dF9MQUJyYW5k=
+/607f07ceef4b8524a319a23cB3ef51452" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">seems to be real</a>?</p><block=
+quote><p style=3D"margin: 16px 0;">A 7-foot-tall bronze statue of Harambe, =
+the Cincinnati Zoo gorilla that made national headlines in 2016 after picki=
+ng up and carrying around a 3-year-old boy who climbed into its enclosure, =
+then getting shot, appeared on Wall Street Monday.</p><p style=3D"margin: 1=
+6px 0;">The giant gorilla was placed in Bowling Green Park, directly across=
+ from the famous Charging Bull statue, which was surrounded by 10,000 banan=
+as (that will later be donated to local food banks and community fridges) t=
+o make a point about wealth disparity.</p><p style=3D"margin: 16px 0;">The =
+organizers, founders of Sapien.Network, an in-development social networking=
+ platform "dedicated to putting the needs and welfare of human beings first=
+" said they put up the display to show that Wall Street has become "bananas=
+" -- wholly out of touch with the needs of everyday people.</p><p style=3D"=
+margin: 16px 0;">Sapien.Network co-founders Robert Giometti, Tejay Aluru an=
+d Ankit Bhatia said they used the symbol of Harambe to represent the millio=
+ns who struggle under a U.S. capitalist system they say "enriches wealthy e=
+lites and leaves the average person behind."</p><p style=3D"margin: 16px 0;=
+">But as Giometti told News 4 Monday, "it=E2=80=99s not about rejecting cap=
+italism or the current system. It's about revolving them into the current f=
+uture and letting them empower more groups of people. That's the whole poin=
+t of this story."</p><p style=3D"margin: 16px 0;">"Harambe is a representat=
+ion of something that lets us look at more than just ourselves. What are we=
+ aspiring to as people?" he explained. "It's about connecting. A simple ges=
+ture of giving a banana builds community. As a society, we need to come tog=
+ether. We can=E2=80=99t keep fighting to come together."=C2=A0</p></blockqu=
+ote><p style=3D"margin: 16px 0;">Well there you go. I assumed it had to do =
+with AMC.=C2=A0</p><table class=3D"header" width=3D"100%" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Bitcoin Pushes Toward Record Before De=
+but of <a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.27=
+5721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMTgvYm=
+l0Y29pbi1yYWxsaWVzLWFmdGVyLXdlZWtlbmQtdHVtYmxlLWFtaWQtZXRmLWFudGljaXBhdGlvb=
+j9jbXBpZD1CQkQxMDE5MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cBd8215d2b" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> Futures-Based ETF</a>. <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMTkvbWljcm9zdHJhdGVneS1zdHVt=
+Ymxlcy1hcy1iaXRjb2luLWV0Zi1sYXVuY2gtaGl0cy1zdG9jay1zLXRoZXNpcz9jbXBpZD1CQkQ=
+xMDE5MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlci=
+Z1dG1fdGVybT0yMTEwMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a=
+23cBb5a661f9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> MicroStrategy</a> Stumbles as Bitcoin ETF Launch Hit=
+s Stock=E2=80=99s Thesis. The <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjEtMTAtMTgvY3J5cHRvLXMtbW9uZXktcHJpbnRpbmctbWFjaGluZS1oYXMtdHVybm=
+VkLWJhY2stb24tZm9yLW5vdz9jbXBpZD1CQkQxMDE5MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtP=
+WVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEwMTkmdXRtX2NhbXBhaWdu=
+PW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe7b04e4b" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> =E2=80=98Risk-F=
+ree=E2=80=99 Crypto Trade</a> Is Back In a Big Way. =E2=80=98<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMTkvZGF5LXRyYWRlci1idGZkLW1=
+hbnRyYS1pbnNwaXJlcy10aWNrZXItZm9yLXBsYW5uZWQtYml0Y29pbi1ldGY_Y21waWQ9QkJEMT=
+AxOTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImd=
+XRtX3Rlcm09MjExMDE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23=
+cBb25e2057" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> BTFD</a>=E2=80=99 Mantra Inspires Ticker for Planned B=
+itcoin ETF. Credit Suisse Nears Deal With U.S. Over <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMTgvY3JlZGl0LXN1aXNzZS1pbi10YWxrcy13=
+aXRoLXUtcy10by1zZXR0bGUtbW96YW1iaXF1ZS1zY2FuZGFsP2NtcGlkPUJCRDEwMTkyMV9NT05=
+FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPT=
+IxMTAxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB528bf0dd"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Mozambique Scandal</a>. Facebook to Hire 10,000 Workers in EU to =
+Build Up =E2=80=98<a href=3D"https://link.mail.bloombergbusiness.com/click/=
+25393723.275721/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mYWNlYm9vay10by1oaXJ=
+lLTEwLTAwMC13b3JrZXJzLWluLWV1LXRvLWJ1aWxkLXVwLW1ldGF2ZXJzZS0xMTYzNDUzNjAxND=
+9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB3dd9378d" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">Met=
+averse</a>.=E2=80=99 12-inch <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/25393723.275721/aHR0cHM6Ly93d3cuaW5wdXRtYWcuY29tL2N1bHR1cmUvaG9t=
+ZS1kZXBvdC0xMi1mb290LXNrZWxldG9uLXNjYW1zLXNjYWxwZXJz/607f07ceef4b8524a319a2=
+3cB1ef54a17" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">skeleton</a>.</p><p style=3D"margin: 16px 0;"><span cl=
+ass=3D"news-designed-for-consumer-media"><em>If you'd like to get=C2=A0Mone=
+y=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a =
+href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aHR0c=
+DovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1z=
+aWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524=
+a319a23cB1b3d8a04" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">subscribe at this li=
+nk</a>. Or you can subscribe to Money Stuff and other great Bloomberg newsl=
+etters <a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.27=
+5721/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a=
+319a23cB6d116661" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;">=C2=
+=A0</p><p style=3D"margin: 16px 0;"><em>[1] Oh, by the way, another questio=
+n is: =E2=80=9CIs it bad that more than 100% of GameStop=E2=80=99s float wa=
+s short?=E2=80=9D Money Stuff readers <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjEtMDEtMjUvdGhlLWdhbWUtbmV2ZXItc3RvcHM_Y21waWQ9QkJEMT=
+AxOTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImd=
+XRtX3Rlcm09MjExMDE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZmI2Zvb3Rub3RlLTM/607f07ce=
+ef4b8524a319a23cB29add0c4" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> already know</a> that the answer is =E2=
+=80=9Cno, come on,=E2=80=9D but the SEC helpfully explains: =E2=80=9CSome c=
+ommentators have asked how short interest can get as high as it did in Game=
+Stop. Short interest can exceed 100%=E2=80=94as it did with GME=E2=80=94whe=
+n the same shares are lent multiple times by successive purchasers. If some=
+one purchases a stock from a short seller and subsequently lends the stock =
+out again, it will appear as if the stock was sold short twice for the purp=
+ose of the short interest calculation.=E2=80=9D Still another question migh=
+t be: =E2=80=9CWas there a lot of evil naked shorting?=E2=80=9D Again the a=
+nswer is no: =E2=80=9CThe unusually high amount of short selling raised the=
+ question of whether some of the short sales were =E2=80=98naked=E2=80=99=
+=E2=80=94namely, made without arranging to borrow the underlying security. =
+When a naked short sale occurs, the seller fails to deliver the securities =
+to the buyer, and staff did observe spikes in fails to deliver in GME. Howe=
+ver, fails to deliver can occur either with short or long sales, making the=
+m an imperfect measure of naked short selling. Moreover, based on the staff=
+=E2=80=99s review of the available data, GME did not experience persistent =
+fails to deliver at the individual clearing member level. Specifically, sta=
+ff observed that most clearing members were able to clear any fails relativ=
+ely quickly, i.e., within a few days, and for the most part did not experie=
+nce fails across multiple days.=E2=80=9D</em></p><p style=3D"margin: 16px 0=
+;"><em>[2] We discussed the mechanics in more detail <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/25393723.275721/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMjUvdGhlLWdhbWUtbmV2ZXItc3RvcHM=
+_Y21waWQ9QkJEMTAxOTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW=
+5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMDE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ce=
+ef4b8524a319a23cB20fade04" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> the first time we talked about GameStop=
+</a>, way back on Jan. 25.=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[=
+3] The effect of the price moves on the hedges =E2=80=94=C2=A0the actual ga=
+mma =E2=80=94 is more ambiguous. The way you hedge a bought call is by shor=
+ting stock and then shorting more as the stock goes up (and the calls becom=
+e more in-the-money). The way you hedge a sold put is by shorting stock and=
+ then buying some back as the stock goes up (and the puts become more out-o=
+f-the-money). So if market makers were buying calls and selling puts, their=
+ initial hedging would push the stock down, but their dynamic hedging would=
+ to some extent offset.</em></p><p style=3D"margin: 16px 0;"><em>[4] In fac=
+t, NSCC =E2=80=9Cexcess capital premium=E2=80=9D rules allowed it to call f=
+or significantly *more* cash than it did, but it waived those calls to avoi=
+d blowing up brokers too much.=C2=A0The SEC says: =E2=80=9CBecause these me=
+mbers=E2=80=99 ratios of excess risk versus capital were not driven by indi=
+vidual clearing member actions, but by extreme volatility in individual cle=
+ared equities, NSCC exercised its rules-based discretion to waive the ECP c=
+harge for all members on January 28, 2021. Absent this waiver, one retail b=
+roker-dealer would have had an additional ECP charge of more than double it=
+s margin requirement of $1.4 billion on January 28, 2021.=E2=80=9D <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aHR0cHM6L=
+y9kaWZmLnN1YnN0YWNrLmNvbS9wL2dhbWVzdG9wLXJlbWFpbnMtYS1teXN0ZXJ5/607f07ceef4=
+b8524a319a23cBaefc2cf9" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">Byrne Hobart writes</a>: =E2=80=9CSo the co=
+nspiracy was to relax requirements for one broker-dealer, to the (marginal)=
+ benefit of retail investors.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"=
+><em>[5] Here=E2=80=99s its explanation of why market makers will pay for o=
+rder flow, and how it gets retail customers better prices: =E2=80=9COff-exc=
+hange market makers use segmentation to mitigate one of the key risks trade=
+rs face=E2=80=94prices moving against their positions after executing a tra=
+de. Some in the marketplace may possess superior information about underlyi=
+ng asset values and will only buy when posted prices are low relative to th=
+eir information, and sell when they are high. Other participants may, by vi=
+rtue of greater quantities of data, have statistically greater predictive a=
+bility regarding the direction of prices. Because market makers are more li=
+kely to lose money when interacting with such order flow, they have an ince=
+ntive to distinguish order flow that does not correlate with future price m=
+ovements from order flow that does. The bid-ask spread, the difference betw=
+een what a buyer is willing to pay and a seller willing to accept, normally=
+ compensates market makers for the risk that prices may move against them.=
+=C2=A0To the extent that market makers can segment order flow that is less =
+correlated with future prices, they can offer a lower spread when trading w=
+ith this order flow. Besides differing in the motive for trading, such orde=
+rs are more likely to be small, uncorrelated with one another, and thus =E2=
+=80=98one and done=E2=80=99 (i.e., not the first in a series of orders inte=
+nded to transact a large amount of stock), which also allows for a tighter =
+spread.=C2=A0Off-exchange market makers typically offer payment to the reta=
+il broker-dealer for the right to trade with its customer order flow (i.e.,=
+ payment for order flow).=E2=80=9D</em></p><p style=3D"margin: 16px 0;"><em=
+>[6] The SEC says: =E2=80=9CFor stocks, off-exchange market makers may exec=
+ute individual investor orders by taking the other side of the trade princi=
+pally (=E2=80=98internalizing=E2=80=99=C2=A0the trade) or may route the ord=
+er to other trading venues for execution.=E2=80=9D</em></p><p style=3D"marg=
+in: 16px 0;"><em>[7] This could be about short-term price risk =E2=80=94 =
+=E2=80=9Cmeh, we don=E2=80=99t want to be on the wrong side of a tidal wave=
+ of retail orders=E2=80=9D =E2=80=94=C2=A0or just about inventory risk =E2=
+=80=94=C2=A0=E2=80=9Cwe just sold a billion dollars of stock to retail, we =
+can=E2=80=99t sell them anymore.=E2=80=9D=C2=A0</em></p><p style=3D"margin:=
+ 16px 0;"><em>[8] That is a somewhat non-canonical number that I took from =
+the SEC report: =E2=80=9COverall, GME=E2=80=99s intraday share price increa=
+sed approximately 2,700% from its intraday low on January 8 to its intraday=
+ high on January 28, followed by a decrease of over 86% from that day to th=
+e closing price at the end of the first week of February.=E2=80=9D</em></p>=
+<p style=3D"margin: 16px 0;"><em>[9] That's Bloomberg page GME US &lt;Equit=
+y&gt; AQR, from the morning of Jan. 25 to the evening of Jan. 29.=C2=A0</em=
+></p><p style=3D"margin: 16px 0;"><em>[10] This is too crude, and there are=
+ good general finance reasons that corporate-level financing might be cheap=
+er or better (diversification of assets, financial flexibility, etc.) or co=
+nversely that project-level financing might be cheaper or better (more seni=
+or security on the assets, less recourse to other assets, etc.).=C2=A0</em>=
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBaf2d0096" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBe70770c4" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB66e8f83e" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB1eb9d9e0" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTM5MzcyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU2Njk0NDQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cIcbfd6697" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25393723&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25669444&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2539372=
+3.275721/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBe8fdbd40" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25393723.275721/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC09929489" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25393723.275721/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB9897e5b5" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25393723.275721/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB6b4c1639" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB3=
+dbedfd2" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25393723.275721/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBe=
+bb8712b" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D253937=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25669444&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D253937=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25669444&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D253937=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25669444&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D253937=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25669444&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D253937=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25669444&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cf49x7.5wqx/29f49e73.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_2049573_730309251.1634665076480--
+

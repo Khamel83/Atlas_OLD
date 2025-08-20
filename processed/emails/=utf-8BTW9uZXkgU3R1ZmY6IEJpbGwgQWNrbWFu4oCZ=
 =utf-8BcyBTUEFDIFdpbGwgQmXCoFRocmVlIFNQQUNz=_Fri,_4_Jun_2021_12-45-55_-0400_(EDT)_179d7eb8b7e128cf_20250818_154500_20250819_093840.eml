@@ -1,0 +1,1614 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:5c7:b029:fa:486f:dd6a with SMTP id r7csp1400910lkr;
+        Fri, 4 Jun 2021 09:46:48 -0700 (PDT)
+X-Received: by 2002:a17:906:8810:: with SMTP id zh16mr4966118ejb.268.1622825208661;
+        Fri, 04 Jun 2021 09:46:48 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1622825208; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=zCMawyXvwf0Ea6YluSbwRnWvCfjXbQKrmjcdrUssP79f6jOMeCRK6HhCgMEkV0VN2t
+         O+E+5dajSjW61gsJ4VvE6vcNookyzSNbgQ7FqyMQE5CeKhE0MHENY0M87m2RvDo4vn/y
+         vlATtNeFTnxFlPORFjglEsUOnb5lkuBmbHoT6W0ftNnihDmsZ3zAWTiVj8vuL+pHbKWd
+         gn2oiuDEsrur5FDYFHDAYzB5rLN69+vZXNnwKqmB4TlDw8lGk96qL2S+cJ4yCM8ByXXs
+         DTEiTUEhxFtbmhcyEDDNy5BVXhvRxCyLjBoMgyvFjR7P9Bx2QOV8wP0tNBzEVAhA0Oor
+         e7Bg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=yVzr0tjr4YWfv1Wt8JUHXqJZ/cBZjedONTsV7el7lfo=;
+        b=SZNPg3rlZfC8ZYs8/AH/q45MaW2DoGQ7dXau7OV/QeG9tsdxxVgTEw7L7inV9/6Apu
+         bVK4T/koLqgpfwClksea6ypk3rgrqmoQtwkoZdKEOUt+QgPVTYuqrrDDIOk2qXL+hgg4
+         QUhR7Q//r9IcnZk1qyakGCP2GWj2H/JXZdVvkKMWi+3rFFBbmwAFbLc/DrTcQ+VRqZGz
+         PYbDF26haLoC+Zt6QHhJHBNBOcuZDPFgQI7KiH3+lSkMhU2haK0ZN/RMGOATk1TmHwQm
+         Z2SH8atp40cmm2O3QCtnekbP7uy3r8wauGzDMXBpQ/gfPlWV5UvU8MkfqRvtzQI8oUlO
+         2I6A==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Nwd38eM5;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id t7sor5710946eds.27.2021.06.04.09.46.48
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Fri, 04 Jun 2021 09:46:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Nwd38eM5;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=yVzr0tjr4YWfv1Wt8JUHXqJZ/cBZjedONTsV7el7lfo=;
+        b=RJjjH7CTo0YrHLj9GsbL81aqXgvZvJQd/j8Zx8B6A/CCtJeD5JpfWYAtrGtDKswxJa
+         Po6mpTMGZ8Qs82cJ/2uAbqFm0rCuME1KIeMVimOIeqOVuojqMRK69ySDB6nONH38iDoN
+         QbQYIJf8TBl7zWxB0nMmRyGAK092Ks1oanx5hXyU7z9TybhgcgfXbgDcJV5x0EdwjVU+
+         pq64pn9HjC+pUJCPCsuG7v7+T5KeE72+O2qh1ELSfzA7EFEmP/A7v6rghsie8WkEXAch
+         j87+tcUSVMherYHaTegdc+O2Xa72zPSQB9CttOlSgrVRtfAOUThitlbSmglLOcebC8ho
+         HEAw==
+X-Gm-Message-State: AOAM530KMSR4AgPJ98DQW1ei/G9GN6gr785iKGEiCm3/4kpjQ1NqNF/d
+	PvqEJy0585BPU3whOnWVq9pU8OifSgV8/VV9kQag71Bk0jsqp4bORg==
+X-Received: by 2002:a05:6402:22f3:: with SMTP id dn19mr5641827edb.240.1622825208216;
+        Fri, 04 Jun 2021 09:46:48 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:238d:0:0:0:0:0 with SMTP id g13csp1400934eco;
+        Fri, 4 Jun 2021 09:46:45 -0700 (PDT)
+X-Received: by 2002:a1f:9891:: with SMTP id a139mr3253123vke.11.1622825205261;
+        Fri, 04 Jun 2021 09:46:45 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1622825205; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=g5hXs3YZ4U6l0io4BnhL+0azF0DBUvK5YLjeEBUAAwam38uYrveWX2XLYHr50l3Ejg
+         lqXYkOrLHxJ5upaFd77JM/pUzlNpgAg7+mNTMomv67pY+USc8wq4wcal4WVaega3d8V/
+         lZkpAGmNvKqYf6tnDvB5rywfOmDWEvRnta9cMwQd8pXmMfSh1HfFTgzNIGAozBkuj89/
+         o19BHjSxD2biRP2Gvmc7C/H8yzVPwCT/LMN0MIpU25nwRss6OZrtW5BlitIofltt5aGH
+         MewQIBtHrGhlwWlp/Gwm/BWwBOV9M1RAly1frrv5WiFn/4NDK4N6xn8EDQwm+kKRiWjt
+         VIQw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=yVzr0tjr4YWfv1Wt8JUHXqJZ/cBZjedONTsV7el7lfo=;
+        b=ZMi62+ElgKb5kqk800ghkym5pIDjc5oIXGLmymnDVHHgx7ghDyOF/J4sqYLNkwTpd9
+         S6WGMe9og2WGvL518zmMKn5pJnm+pDdHsYwCYRm1DufWTKHpGBSHMOAnULgCl9mjKy+U
+         2VW/xSp4Y2QxMIB9o6CGhOtiJQxIhap4btoTtBw0IYCh842+k0qVtRiLWUxIYpvL1A36
+         HbGSOriNUpKk+e+LETzw4gPbOPdMOpa9A2L3fSmAEf9oDiHUxAHlBnMBoS/P9aho8UmP
+         max848JniQuuEpQ/iULdVFxV3glgpGpWYLOJTlKJT5IQx6b9V8V+jJ/hSBPE272ru7l+
+         NuWA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Nwd38eM5;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210604124555.24056212.282298@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210604124555.24056212.282298@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210604124555.24056212.282298@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 21sor994864vki.17.2021.06.04.09.46.44
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Fri, 04 Jun 2021 09:46:45 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210604124555.24056212.282298@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxMmAguAtJ4e58OtdSbSsUhC33fR5/Oza30xhgLdQzT5qgM/nnjt75v8Ni8Jf/PQk8GDHxky8kjuidn4MyukzABmtwkfaI=
+X-Received: by 2002:a05:6122:649:: with SMTP id h9mr3293597vkp.3.1622825204450;
+        Fri, 04 Jun 2021 09:46:44 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1622825204; cv=none;
+        d=google.com; s=arc-20160816;
+        b=AvZVFmCEX3sgv8sTJbxTmhvxGAFuLJZ99l1SaE/jeqzgDu1N9bEwmjVi/FVGvcxhjM
+         91/bg6CU4VxgMaHizwhgUCwA1VnA63l8GguSXH608U5L3VqfSsgsJBo8MDPqJxeVQUWo
+         GQTjOI8Av/dfF80XvmkIkN7r6GnXPjJMSiX53rAX1NMCHlain+W2idnbhX6krefi89Vg
+         Sp0hYmwnci5SkoX9JT4oC6JCkpgx/MVR+58CgVMWe2vao2CtLto3XKNkCL1jVP0fLqPe
+         SJzc2Vd8UAWxgQTl2r/U0tGvt0Emg4IynZMNaQtQWgGFW97w+RuKQXeTsN9zrTEIZq41
+         7Nsg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=yVzr0tjr4YWfv1Wt8JUHXqJZ/cBZjedONTsV7el7lfo=;
+        b=ZT/7dh2l1ygfB7VR6GtU3YDW0WO+ClG502qUf4lRgipEnEiejVLc/KavA6dTOcsD3L
+         6w5lmAYDLKkHvX8NYyk5jmWlQz0YsdcoEIeBJd05tMUHhufIZr3Cv4BQ01YeL44pa7nD
+         1wq/U3CDxx0z8yn8sH/t+J/qNe9H+kbtHixwlt0btt6k+yLfEYAUrN5RqiEZix4sEs+z
+         4AksEsS8McbBsBKdYlxE23TgVxYgBYcWwZDMpPJp4yMwhqcjdUZ6COJ4C1BlnDD+h+PY
+         knLJ/jjCDu7NcBk8vbVI6Z9+VQ4Ivd9HtvniwAUYRfGTh6EWBItqrrFyGUjPNCOIOcoX
+         Gp7Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Nwd38eM5;
+       spf=pass (google.com: domain of delivery_20210604124555.24056212.282298@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20210604124555.24056212.282298@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210604124555.24056212.282298@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTP id h7si695839uad.1.2021.06.04.09.46.44
+        for <khamel83@gmail.com>;
+        Fri, 04 Jun 2021 09:46:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210604124555.24056212.282298@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=6ta+oiM8Q254+CpqCamLHrCoThQ=;
+ b=Nwd38eM5wf7g8cDqO9ET4fF6+8Q9B2ORX+OYcfEi2U6i14yOGoaeC2b4ztXGEJOPEaRlOfyUGuLe
+   XsOE4wXZRZt3PuWDgtdO3abMBNOKyQ3cXIHWSzFpOY4y65yEjPtyXGM2+XLiWztAejCK08PJsndm
+   0IPqxWzh9JPGxR2wfps=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by pmta29.sailthru.com id hn9cf81qqbsi for <bloomberg@khamel.com>; Fri, 4 Jun 2021 12:46:44 -0400 (envelope-from <delivery_20210604124555.24056212.282298@mx.sailthru.com>)
+Date: Fri, 4 Jun 2021 12:45:55 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210604124555.24056212.282298@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEJpbGwgQWNrbWFu4oCZ?=
+ =?utf-8?B?cyBTUEFDIFdpbGwgQmXCoFRocmVlIFNQQUNz?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_30527168_1277475335.1622825155216"
+Precedence: bulk
+X-Feedback-ID: 6358:24056212:campaign:sailthru
+X-TM-ID: 20210604124555.24056212.282298
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wryforest.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ceblw4.61tm/26ccf568
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ceblw4.61tm/26ccf568>, <mailto:unsubscribe_20210604124555.24056212.282298@mx.sailthru.com>
+X-rpcampaign: stjko24056212
+
+------=_Part_30527168_1277475335.1622825155216
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+ =20
+ =20
+  Money Stuff
+ =20
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+   =20
+       =20
+           =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+
+     =20
+     =20
+ =20
+   =20
+      Programming note: I said yesterday that there would not be a Money St=
+uff=C2=A0today, but there will be. Here it is.SPARC SPARC SPARCThe way a sp=
+ecial purpose acquisition company works is that investors put money in a po=
+t, and the sponsor of the pot goes out and looks for a company to merge wit=
+h. When the sponsor finds a target company and does the=C2=A0merger, the ta=
+rget company gets the money in the pot, and the investors in the pot get sh=
+ares of the target company. (The sponsor does too, as compensation for her =
+target-hunting efforts.) Until then, the pot is invested in money-market se=
+curities. If the sponsor doesn=E2=80=99t find a target company, or if the i=
+nvestors don=E2=80=99t like the merger, they can get their money back with =
+a tiny bit of interest.If you think too hard about this, it might seem a li=
+ttle inefficient. Why do the investors put the money in the pot at the=C2=
+=A0beginning? It=E2=80=99s not doing anything. The money just sits there. W=
+hy not wait until the sponsor finds a deal, and=C2=A0then=C2=A0put the mone=
+y in? While they wait for the sponsor to find a target, the SPAC investors =
+can put their money into whatever they want, Treasury bills or the S&P 500 =
+or AMC or Bitcoin or whatever. Then one day the sponsor says =E2=80=9Chere=
+=E2=80=99s the deal,=E2=80=9D and the investors can decide if they like it,=
+ and if they do they can give the sponsor their money and if they don=E2=80=
+=99t they don=E2=80=99t have to. It=E2=80=99s the same basic economics as a=
+ SPAC =E2=80=94=C2=A0just like in a SPAC, the investors sign up with a spon=
+sor at the beginning not knowing what the deal is, but when the deal is ann=
+ounced they can decide whether or not they still want in =E2=80=94=C2=A0but=
+ without locking the money up in Treasury bills for months or years.If you =
+think too hard about=C2=A0that, you might say =E2=80=9Cwait that=E2=80=99s =
+just an initial public offering, the whole point of the SPAC is that you gi=
+ve money to the sponsor first,=E2=80=9D but I don=E2=80=99t think that=E2=
+=80=99s right. In a SPAC you do=C2=A0give money to the sponsor first, but y=
+ou can always get it back at the end. The money is there, but not locked up=
+. Instead, the point of the SPAC is that you have expressed some vote of co=
+nfidence in the sponsor: You trust her to find you a good deal, so you sign=
+ up for her deal-finding expedition. You put up your money as an expression=
+ of interest, not a commitment to invest. The point of the SPAC is not the =
+money in the pool; the point of the SPAC is that a bunch of investors have =
+expressed nonbinding interest in having a particular sponsor find a company=
+ for them. The valuable things are the sponsor=E2=80=99s connections and he=
+r curation and negotiation skills. If you have those things, raising the mo=
+ney later is fine.Pershing Square Tontine Holdings is doing lots of things;=
+ here=E2=80=99s one of them:An affiliate of our Sponsor has formed an entit=
+y that will be known as Pershing Square SPARC Holdings, Ltd. (=E2=80=9CSPAR=
+C=E2=80=9D), which is a Cayman Islands Corporation.SPARC is not a SPAC. It =
+is a Special Purpose Acquisition Rights Company. Unlike a traditional SPAC,=
+ SPARC does not intend to raise capital through an underwritten offering in=
+ which investors commit capital without knowing the company with which SPAR=
+C will combine.Instead, SPARC intends to issue rights to acquire common sto=
+ck in SPARC for $20.00 per share to PSTH shareholders (=E2=80=9CSPARs=E2=80=
+=9D) which can only be exercised after SPARC enters into a definitive agree=
+ment for its initial business combination. The SPARs are expected to trade =
+on the NYSE and have a term of five years, subject to extension=E2=80=A6.As=
+suming all SPARs are exercised, SPARC will raise $5.6 billion of cash from =
+SPAR holders. SPARC is expected to enter into forward purchase agreements w=
+ith affiliates of the Pershing Square Funds, the SPARC=E2=80=99s sponsor, f=
+or a minimum investment of $1 billion, and up to $5 billion, subject to inc=
+rease with SPARC=E2=80=99s board consent. ...SPARC=E2=80=99s structure has =
+been designed to allow SPAR holders to avoid incurring the opportunity cost=
+ of capital of a typical SPAC, as the SPARs will not be exercisable, and ho=
+lders will not be able to acquire shares in SPARC, until a definitive agree=
+ment has been signed. The SPARC Sponsor will also benefit by not having any=
+ time pressure associated with the typical two-year SPAC commitment period.=
+A SPARC is a SPAC without a pool of money. It doesn=E2=80=99t have shares; =
+it has rights. You own a right =E2=80=94=C2=A0a SPAR =E2=80=94=C2=A0and you=
+ can trade that, and the sponsor of the SPARC (Pershing Square Capital Mana=
+gement LP, Bill Ackman=E2=80=99s hedge fund) goes out and looks for a deal,=
+ and if it finds a good deal, it says =E2=80=9Chey who wants to put in $20 =
+for this deal,=E2=80=9D and if you own a SPAR you can put in your $20 and g=
+et back a share of the deal. If you don=E2=80=99t own a SPAR, you can buy o=
+ne from someone who does, and then put in your $20. If you do own a SPAR bu=
+t don=E2=80=99t want in on the deal, you can sell your SPAR to someone who =
+wants in.[1] The SPARs will, presumably, trade at some market price that re=
+flects the market=E2=80=99s confidence that Bill Ackman will find and negot=
+iate a good deal for the SPARC. If he announces a deal and everyone hates i=
+t, then no one will want to put in $20 and the SPARs will trade to zero-ish=
+. If he announces a deal and everyone loves it, then investors will think, =
+like, =E2=80=9CI can put in $20 and get back $30 worth of stock in this awe=
+some deal,=E2=80=9D and the SPARs will trade to $10-ish. Etc.I like this? I=
+t is fun. It dispenses with almost all of the financial engineering of a SP=
+AC: There are no warrants, no cash value, no shareholder votes, no time lim=
+its. In fact arguably there is no=C2=A0anything.=C2=A0Bill Ackman can go ar=
+ound to private companies looking to go public and say =E2=80=A6=C2=A0what?=
+ =E2=80=9CHey, I=E2=80=99ve got some friends, and they are following with i=
+nterest my efforts to find a company to merge with. If I find a good one, m=
+aybe they=E2=80=99ll give me money, though they haven=E2=80=99t given me an=
+y money yet and they=E2=80=99re under no obligation to do so. Would you lik=
+e to be that company, and maybe my friends will give you their money? We ca=
+n find out together!=E2=80=9DI want to emphasize that this really is the sa=
+me pitch as a SPAC: In a SPAC, just like a SPARC, the sponsor cannot=C2=A0g=
+uarantee=C2=A0that any of the investors will actually contribute their mone=
+y to the deal; SPAC investors have withdrawal rights, while SPARC investors=
+ have no obligation to put in their money. (In a SPARC, just like a SPAC, t=
+he sponsor=C2=A0itself=C2=A0can put up some money to make the deal more cer=
+tain for the target; here Pershing Square will contribute between $1 billio=
+n and $5 billion to any deal it finds.) The SPARC might feel a=C2=A0bit=C2=
+=A0less real than the SPAC, because the SPAC already has the money and the =
+SPARC doesn=E2=80=99t, but I=E2=80=99m not sure that difference matters tha=
+t much. The point in either case is that=C2=A0a bunch of people want to inv=
+est with Bill Ackman, and have put their names on a nonbinding list that wi=
+ll let them do so.But I also want to emphasize that this pitch is also the =
+same as =E2=80=A6 nothing? Like if Chamath Palihapitiya =E2=80=94=C2=A0or B=
+ill Ackman for that matter =E2=80=94=C2=A0found some nice private company a=
+nd said =E2=80=9Chey, I would love to take you public, but all of my SPACs =
+already did deals and I forgot to raise another one, what if we just called=
+ all the people who like me and asked them to chip in some money,=E2=80=9D =
+that would be=C2=A0just as good as a SPARC. There=E2=80=99s no pre-commitme=
+nt here[2]; the pitch is not =E2=80=9CI have a pool of money to give you=E2=
+=80=9D but rather =E2=80=9Cpeople like me and trust me and I probably=C2=A0=
+can=C2=A0raise a pool of money for you.=E2=80=9D The SPARC formalizes that =
+a little bit, but if you sign up to do a deal with Bill Ackman=E2=80=99s SP=
+ARC it=E2=80=99s not because the SPARC has money to give you, it=E2=80=99s =
+because you are confident that Bill Ackman can=C2=A0go find=C2=A0money to g=
+ive you.Anyway, like I said, this is only one of the things that Pershing S=
+quare Tontine Holdings is doing. PSTH is a SPAC (not a SPARC) that Bill Ack=
+man launched=C2=A0way back in July 2020; he raised $4 billion to  hunt for =
+(in his words) a =E2=80=9CMature Unicorn.=E2=80=9D PSTH did not find a Matu=
+re Unicorn. PSTH is, however, a rather Mature SPAC at this point: Like all =
+SPACs, it has a two-year deadline to do a deal, and the clock started runni=
+ng last July. That still gives it more than a year, but =E2=80=9Cstartups t=
+end to shy away from those that haven=E2=80=99t found a partner after about=
+ six months=E2=80=9D; things aren=E2=80=99t=C2=A0desperate=C2=A0yet, but PS=
+TH is not exactly the freshest of SPACs. There was =E2=80=9Clots of specula=
+tion that it would try to buy a company like Airbnb or Stripe, and word is =
+that it did at least try to kick those sorts of tires,=E2=80=9D but I guess=
+ that didn=E2=80=99t work out.Instead, Pershing Square announced a deal for=
+ Universal Music Group. Uh, well, technically it announced that it=C2=A0mig=
+ht=C2=A0have a deal: =E2=80=9CIt is in discussions with Vivendi S.E. (=E2=
+=80=98Vivendi=E2=80=99) to acquire 10% of the outstanding Ordinary Shares o=
+f Universal Music Group B.V. (=E2=80=98UMG=E2=80=99) for approximately $4 b=
+illion, representing an enterprise value of =E2=82=AC35 billion for UMG.=E2=
+=80=9D This is not a traditional SPAC deal, for a number of reasons. For on=
+e thing, Universal is not a hot startup or a =E2=80=9Cmature unicorn,=E2=80=
+=9D but a carveout from a public company.Also, though, the PSTH deal is not=
+ a vehicle for=C2=A0taking Universal public: Vivendi was already planning t=
+o spin off Universal to its shareholders, and it will go ahead with that pl=
+an. Instead, PSTH will just buy some Universal shares from Vivendi; once Un=
+iversal goes public (on Euronext Amsterdam) PSTH will distribute those shar=
+es to its own shareholders. The PSTH shares =E2=80=94=C2=A0which are listed=
+ on the New York Stock Exchange =E2=80=94=C2=A0won=E2=80=99t=C2=A0become=C2=
+=A0shares of the newly public Universal; instead, PSTH shareholders will=C2=
+=A0keep their PSTH shares and also get some Universal shares as a distribut=
+ion.So PSTH will still exist and will still be publicly traded on the New Y=
+ork Stock Exchange. It will also still have some money in its pot:PSTH expe=
+cts to fund the Transaction with cash held in its trust account from its IP=
+O ($4 billion plus interest), and approximately $1.6 billion in additional =
+funds from the exercise of its Forward Purchase Agreements with the Pershin=
+g Square Funds and affiliates. Approximately $4.1 billion of these proceeds=
+ will be used to acquire the UMG Shares and pay transaction costs, with the=
+ $1.5 billion balance to be retained by PSTH Remainco.So if you are a PSTH =
+investor, you=E2=80=99ll get some Universal stock (worth $14.75, on Ackman=
+=E2=80=99s math, though you don=E2=80=99t have to agree) and keep a share i=
+n a $1.5 billion pool of cash. (That share should be worth about $7.50.[3])=
+What will the pool of cash do? Well, it will keep on looking for a unicorn,=
+ I guess; it will be a lot like a regular SPAC without technically being a =
+SPAC:PSTH Remainco to Pursue Another Business Combination Following the Pro=
+posed TransactionAfter funding the UMG purchase and related transaction exp=
+enses, PSTH Remainco will have $1.5 billion in cash and marketable securiti=
+es. In addition, the Forward Purchase Agreements will be amended to provide=
+ that the Pershing Square Funds will continue to have the right, but not th=
+e obligation, to buy approximately $1.4 billion of PSTH=E2=80=99s Class A c=
+ommon shares to fund PSTH=E2=80=99s future business combination transaction=
+. The Pershing Square Funds will own approximately 29% of PSTH Remainco bef=
+ore the exercise of any Additional Forward Purchase Agreements.PSTH Remainc=
+o intends to remain listed on the NYSE. Because the transaction will satisf=
+y the requirements of an initial business combination, PSTH Remainco will n=
+o longer be treated as a SPAC under NYSE listing rules.Sure, I guess? I ass=
+ume that the key advantage here is that, because the Universal deal checks =
+PSTH=E2=80=99s box for =E2=80=9Cdo a deal within two years,=E2=80=9D the ti=
+me pressure is off: PSTH Remainco will bop along with a pool of cash that i=
+t can use to do any deal it wants whenever it wants.[4] It is sort of anoth=
+er permanent-capital vehicle for Bill Ackman.So, right, Pershing Square Ton=
+tine Holdings is sort of fissioning into three different SPAC-related thing=
+s:=09Most of the money in PSTH will go to buy Universal shares, grudgingly =
+and technically satisfying its=C2=A0obligations as a SPAC=C2=A0to do a big =
+deal within two years.=09The rest of the money in PSTH will stay in PSTH (=
+=E2=80=9CPSTH Remainco=E2=80=9D), so it can look for another, smaller deal,=
+ free of some of the traditional SPAC obligations.=09The, like, spiritual S=
+PAC-ness of PSTH will roll over into the SPARC, which will look for yet ano=
+ther deal, free of the traditional SPAC obligations and also the drag of ho=
+lding a pot of cash.I am sure it all made a kind of sense to whoever dreame=
+d it up.Anyway there are three=C2=A0other traditional features of a SPAC th=
+at are worth discussing here. One is redemption rights: If you own stock in=
+ a SPAC, and you don=E2=80=99t like the deal it does, you can take your mon=
+ey out, redeeming your shares for their cash value. The cash value is the i=
+nitial price of the SPAC =E2=80=94=C2=A0usually $10, though PSTH=E2=80=99s =
+is $20 =E2=80=94=C2=A0plus whatever interest the SPAC earned on your money =
+while it looked for a deal. That will happen here too, though in a slightly=
+ weird way:PSTH will satisfy its shareholders=E2=80=99 redemption rights by=
+ tendering for its shares at a price equal to PSTH=E2=80=99s cash-in-trust =
+per-share, or approximately $20 per share (the =E2=80=9CRedemption Tender O=
+ffer=E2=80=9D). The Redemption Tender Offer is expected to be launched shor=
+tly following the execution of the definitive transaction documentation.See=
+ms fine. Presumably if some PSTH shareholders demand their money back then =
+there will be less than $1.5 billion left in the stub PSTH Remainco. I don=
+=E2=80=99t know what happens if shareholders demand more than $1.5 billion =
+back: Does PSTH give Vivendi less than $4 billion and get less than 10% of =
+Universal Music? Or does Pershing Square make up the difference? It doesn=
+=E2=80=99t matter too much, though; after the deal was announced, PSTH trad=
+ed down (from yesterday=E2=80=99s $25.05 close), but it=E2=80=99s still wel=
+l above the $20 cash value, so you would not expect many investors to redee=
+m.Another traditional SPAC feature is voting rights: If=C2=A0the shareholde=
+rs of a SPAC (the investors in the pool) don=E2=80=99t like the deal that t=
+he sponsor finds, they can vote it down. This is not actually important in =
+modern SPACs: If you don=E2=80=99t like a deal, rather than voting against =
+it you=C2=A0will normally vote for=C2=A0it and then redeem your shares for =
+their cash value. The main investor protection is not voting rights but get=
+ting your money back. A good thing, too, because PSTH=E2=80=99s Universal d=
+eal is an asset purchase rather than a merger, and the =E2=80=9CTransaction=
+ will not require a vote of PSTH=E2=80=99s shareholders.=E2=80=9D=C2=A0A th=
+ird feature is warrants. When a SPAC goes public, normally it sells investo=
+rs a unit consisting of a share plus a fraction of a warrant. The warrant l=
+ets you buy an additional share; here, each whole PSTH warrant lets you buy=
+ another share for $23. The idea is that if the SPAC does a good merger, th=
+e stock of the combined company will be worth much more than the cash value=
+ of the SPAC, and investors will get a little sweetener, the ability to buy=
+ more stock at a price that is higher than the SPAC price but lower than th=
+e true value of the merged business.PSTH did its warrants in a somewhat com=
+plicated way: Each share came with one-ninth of a warrant, but PSTH also se=
+t aside two-ninths of a warrant per share as =E2=80=9Ctontine warrants.=E2=
+=80=9D The idea was that the tontine warrants would be handed out to all th=
+e shareholders who did=C2=A0not=C2=A0exercise their redemption rights, as a=
+n incentive for investors to keep their money in the pot. I  wrote at the t=
+ime:Only investors who=C2=A0don=E2=80=99t=C2=A0demand their money back when=
+ the SPAC finds a target will get those warrants, but the number of those w=
+arrants will be fixed. The more investors redeem, the more warrants each=C2=
+=A0non-redeeming investor will get. (It=E2=80=99s like a=C2=A0tontine=C2=A0=
+in that, the more people drop out, the higher the value for the remaining p=
+eople.) This gives investors an incentive not to redeem; in particular, it =
+makes it less likely that a=C2=A0lot=C2=A0of investors will redeem (because=
+ the value for the remaining investors will keep going up). So Ackman has a=
+ better ability to offer certainty, because his public investors are a bit =
+more locked in than SPAC investors usually are.All of this turned out to be=
+ sort of meaningless?=C2=A0PSTH isn=E2=80=99t doing a merger, it=E2=80=99s =
+just buying Universal shares, and it=E2=80=99s not getting any Universal wa=
+rrants. The warrants just sort of go away. PSTH investors can choose to eit=
+her (1) exchange their warrants for some additional shares of PSTH (and, th=
+us, additional shares of Universal), or (2) keep their warrants, which then=
+ become warrants of PSTH Remainco with an adjusted strike price. If everyon=
+e chooses the first option =E2=80=94=C2=A0to exchange their warrants for mo=
+re shares =E2=80=94=C2=A0then, in effect, the warrants vanish. Every shareh=
+older goes from owning 1 share of PSTH to owning 1.09 shares or whatever,[5=
+] but PSTH has the same amount of cash in its pot and gets the same number =
+of Universal shares. So your 1.09=C2=A0new shares are worth exactly the sam=
+e as your old 1 share was worth, and the warrants didn=E2=80=99t do you any=
+ good.[6](The tontine-y part still applies, though: If you ask for your cas=
+h back in the tender offer, you don=E2=80=99t get the tontine warrants, and=
+ the people who don=E2=80=99t demand their cash back share more of those wa=
+rrants.)I don=E2=80=99t know? Seems fun. One thing to say about the SPARC i=
+s that June 2021 is not necessarily a great time to raise a SPAC, and it=E2=
+=80=99s not clear that this deal =E2=80=94=C2=A0the Universal stake plus th=
+e three-way SPAC fission =E2=80=94=C2=A0is the sort of home run that will m=
+ake investors want to buy Ackman=E2=80=99s next SPAC. (=E2=80=9CAckman=E2=
+=80=99s SPAC Slumps After Universal Music Deal Irks Investors,=E2=80=9D is =
+ the Bloomberg headline.) Ackman is winding up his first SPAC, PSTH, by doi=
+ng the Universal deal, though there will still be that stub PSTH Remainco l=
+ooking to do another deal. If he went out to raise another $4 billion now, =
+to hunt for another big deal, investors might be skeptical. So he isn=E2=80=
+=99t. Instead he=E2=80=99s launching his next SPAC as a SPARC: He=E2=80=99s=
+ launching a new $4 billion SPAC=C2=A0without raising money for it. Ackman =
+SPAC II (that is,=C2=A0Pershing Square SPARC Holdings=C2=A0Ltd.)=C2=A0will =
+go public as soon as Ackman SPAC I (Pershing Square Tontine Holdings) close=
+s its deal, and Ackman will be able to go hunt for another big deal, but he=
+ won=E2=80=99t have to raise the money until he finds the deal. Maybe by th=
+en it will be easier to raise the money.AMC AMC AMCYesterday about $31.9 bi=
+llion worth of=C2=A0AMC Entertainment Holdings Inc. stock traded, down a bi=
+t from Wednesday=E2=80=99s $39.7 billion but still quite a lot. For compari=
+son, Tesla Inc. stock traded $17.8 billion yesterday. Apple Inc. traded $9.=
+4 billion. Amazon.com Inc. traded $7.7 billion. GameStop Corp. traded $2.1 =
+billion. All U.S. stocks on all U.S. exchanges, combined, traded $536.4 bil=
+lion yesterday.[7] AMC was 6% of U.S. stock trading. That=E2=80=99s pretty =
+high. Could be higher, though. RBC Bearings Inc., a ball-bearings manufactu=
+rer, traded $12.3 million of stock. Seems unnecessary. In the future the on=
+ly stocks will be AMC, GameStop and Tesla. The idea that you=E2=80=99d go t=
+o the stock market to buy or sell shares of some boring company that makes =
+industrial parts, just because you expect its future cash flows to be highe=
+r than what is currently discounted in the stock price, will seem weird and=
+ quaint. =E2=80=9CNo we only trade memes here.=E2=80=9DAnyway, right, AMC t=
+raded $31.9 billion of stock yesterday, including about $2.75 billion in th=
+e first half hour of the trading day. If you wanted to sell, say, $587.3 mi=
+llion worth of AMC stock, you could have done that very quickly yesterday. =
+As it happens AMC did want to sell $587.3 million of AMC stock, and did do =
+that very quickly. This press release crossed the wire at 12:58 p.m. yester=
+day:AMC Entertainment Holdings, Inc. (NYSE: AMC) (=E2=80=9CAMC=E2=80=9D or =
+=E2=80=9Cthe Company=E2=80=9D), announced that it has completed its 11.550 =
+million share at-the-market (=E2=80=9CATM=E2=80=9D) equity program launched=
+ earlier today. AMC raised approximately $587.3 million of new equity capit=
+al, before commissions and fees, at an average price of approximately $50.8=
+5 per share.Good for them. Some AMC facts:=09From the time AMC went public =
+in 2013=C2=A0until=C2=A0this Tuesday, its highest closing price ever was $3=
+5.68, in March 2015.=C2=A0=09AMC=E2=80=99s total market capitalization at t=
+he end of 2020 was $458 million.[8]AMC raised more money than it was worth=
+=C2=A0five months ago, at effectively an all-time-high stock price, in abou=
+t three hours yesterday.=C2=A0It is fun to imagine: What if AMC did that ev=
+ery three hours? How long could it draw this out? The stock price roughly d=
+oubled last week, and then it roughly doubled again this week despite AMC s=
+elling millions of shares on two separate days this week. Let=E2=80=99s say=
+ you keep selling 20 million shares a week, and the stock keeps doubling ev=
+ery week. Next week you sell say $1.8 billion of stock.[9] The week after $=
+3.6 billion. By August you=E2=80=99re raising trillions of dollars a week, =
+buying Apple Inc. with spare cash.I am kidding, of course. For one thing, n=
+othing grows like that for long, though ask yourself how sure you are about=
+ that.For another thing, AMC=E2=80=99s hilarious tragic curse is that it ca=
+n=E2=80=99t sell any more stock because it is out of authorized shares. Yes=
+terday  I wrote that I wasn=E2=80=99t sure how many shares AMC had left, bu=
+t that I hoped it was 1, one share, and that AMC would auction off its last=
+ share for millions of dollars. In fact the number is slightly bigger than =
+that. In another press release yesterday, AMC Chief Executive Officer Adam =
+Aron said: =E2=80=9CAs of today, in our efforts to best position AMC for a =
+successful recovery from the pandemic, we have issued or reserved substanti=
+ally all but 46,124 of the shares that were previously authorized.=E2=80=9D=
+ That=E2=80=99s about as slim as it realistically gets: AMC has issued 99.9=
+912% of its authorized shares. Those 46,124 shares are worth about $2.4 mil=
+lion at yesterday=E2=80=99s closing price, or about one day of AMC=E2=80=99=
+s popcorn sales.[10] Can=E2=80=99t do much with that.But perhaps =E2=80=94=
+=C2=A0as I argued yesterday =E2=80=94 that=E2=80=99s the wrong way to look =
+at it. Perhaps the very scarcity of those 46,124 shares is what makes them =
+valuable. In the first quarter of 2021, AMC sold about 187 million shares a=
+t an average price of $3.19. On Tuesday, it  sold 8.5 million more shares=
+=C2=A0at $27.12 each. Yesterday, it sold 11.55 million more shares at $50.8=
+5 each. Now it has just thousands of shares to sell. Shouldn=E2=80=99t they=
+ be worth thousands or millions of dollars each? As AMC gets closer and clo=
+ser to its authorized-share cap, its price keeps going up; scarcity makes t=
+he shares worth more.I realize this is nonsense =E2=80=94=C2=A0those 46,124=
+ shares are entirely fungible with the other shares, they are no =E2=80=9Cs=
+carcer=E2=80=9D than the rest, in fact there are many more=C2=A0AMC shares =
+available now than there were in the first quarter, etc. =E2=80=94=C2=A0but=
+ I do feel like a healthy dose of nonsense is what is needed here. The way =
+to understand AMC is to abandon your conscious mind for a while and just fl=
+oat on a sea of vague associations. How boring=C2=A0to apply traditional no=
+tions of corporate finance or supply and demand to AMC. AMC is a new thing.=
+Anyway AMC is going to ask its shareholders to authorize another 25 million=
+ shares, just for a bit of breathing room, though it promises not to issue =
+them until 2022. (This is down from its previous ask for 500 million more s=
+hares, which was actually a much more=C2=A0normal=C2=A0ask: Ordinarily comp=
+anies want to have ample room under their authorized-share cap, but given A=
+MC=E2=80=99s gleeful stock issuance you can see why some shareholders might=
+ not want that.)It also issued this rather wild press release about how man=
+y shares are eligible to vote on the new authorization (people who bought y=
+esterday can=E2=80=99t), which includes this nod to anti-short-selling cons=
+piracy theory:AMC has received a number of inquiries regarding so-called sy=
+nthetic shares and fake shares. AMC has no reliable information about this,=
+ therefore we can make no comment in this regard. AMC only maintains record=
+s regarding the shares it has legally issued and which are outstanding.I fe=
+el like they could have added a sentence to that paragraph saying =E2=80=9C=
+if you own fake AMC shares, you can=E2=80=99t vote them,=E2=80=9D but perha=
+ps the lawyers did not like that.=C2=A0
+
+
+   =20
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                                Paid Post
+                                Meet Axos Bank=E2=80=99s Rewards Checking =
+=E2=80=93 the account that helps you earn more, so you can save more. Earn =
+up to 1.25% Annual Percentage Yield, pay zero fees, and get unlimited domes=
+tic ATM fee reimbursements. And, as a bonus, enjoy a mobile banking app tha=
+t will knock your socks off.=20
+Apply Now
+                                Axos Bank
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+Things happenBitcoin Slips After Musk  Tweets Broken-Heart Emoji for Token.=
+ U.S.  Job Growth Picks Up in Sign of Progress on Filling Openings. AMC Bos=
+s Adam Aron Basks in Meme-Stock Spotlight. Washington to bar US investors f=
+rom 59 Chinese companies. Texas Rising: Hedge Funds, Big Tech Drive Lone St=
+ar Wealth Boom. Hot Housing Market Leaves People Afraid to Trade Up. Candid=
+ate interrupted by sex toy on drone, punched at event.=C2=A0If you'd like t=
+o get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, =
+please=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and=
+ other great Bloomberg newsletters here. Thanks![1] Unlike in a regular SPA=
+C, the SPARs won=E2=80=99t come with withdrawal rights =E2=80=94=C2=A0you w=
+on=E2=80=99t be able to get your money back from the SPARC if you don=E2=80=
+=99t like the deal. But that is of course because you haven=E2=80=99t put y=
+our money in yet! The SPARs aren=E2=80=99t claims on a pool of cash, they=
+=E2=80=99re just rights to contribute to a *future* pool of cash. Also, unl=
+ike in a regular SPAC, you won=E2=80=99t be able to *vote* on the deal: =E2=
+=80=9CSPARC common shares will initially be owned 100% by affiliates of Per=
+shing Square so no vote will be required from other shareholders to consumm=
+ate a transaction.=E2=80=9D[2] Except =E2=80=94=C2=A0importantly =E2=80=94=
+=C2=A0Pershing Square=E2=80=99s own $1 billion to $5 billion. But that has =
+nothing to do with the SPARC; Pershing Square could just invest $1 billion =
+to $5 billion in any company that wanted the money, or in any public compan=
+y that didn=E2=80=99t for that matter.[3] That is,=C2=A0PSTH raised $4 bill=
+ion by selling 200 million shares at $20 each. Take out $2.5 billion of cas=
+h and you have 200 million shares in=C2=A0a $1.5 billion pool of cash, so e=
+ach share is a claim on $7.50 of cash. This is complicated by the redemptio=
+n rights=C2=A0and warrant stuff discussed below, though; really what I mean=
+ is like =E2=80=9Ceach share + warrant unit will be worth about $7.50 if no=
+ one redeems.=E2=80=9D[4] I assume, though it is frankly unclear, that the =
+redemption tender offer in connection with the Universal deal will terminat=
+e PSTH shareholders=E2=80=99 redemption rights, so that if PSTH Remainco do=
+es a deal later on it will be able to commit the full $1.5 billion in the p=
+ot without worrying about redemptions.[5] A rough number. Page 166 of the o=
+riginal prospectus has a table of the exchange value of warrants and shares=
+. As of 11 a.m. today PSTH was trading at about $22.43, so I use the $22 co=
+lumn in the table, and I use the 60-day line in the table because I assume =
+you=E2=80=99d take the deal as soon as possible. So that gives me an exchan=
+ge ratio of about 0.26 shares per warrant. (That roughly tracks: The warran=
+ts trade separately and were at about $6.12 at 11 a.m., or about 27% of the=
+ price of the stock.) Each share comes with one-third of a warrant (includi=
+ng tontine warrants), so that=E2=80=99s about 0.09 added shares per share.[=
+6] This is not quite right because the warrants and shares do trade separat=
+ely now, so plenty of people own only shares or only warrants, and will be =
+diluting each other etc. But from the perspective of PSTH investors as a wh=
+ole, the warrants turned out to be roughly a nothing. Incidentally my gut i=
+nstinct is that most of the warrants will be exchanged for PSTH shares in t=
+he exchange offer, rather than kept outstanding as PSTH Remainco warrants, =
+but I have not done any math on that and am not even sure how to think abou=
+t it.=C2=A0[7] According to=C2=A0Bloomberg=E2=80=99s MVALUSE <Index> functi=
+on.[8]=C2=A0For that matter, its total market capitalization at the end of =
+*2019*, more or less pre-pandemic, was $752 million.[9] For my dumb rough m=
+ath here, assume that the stock price at the end of this week is $60, at th=
+e end of next week it=E2=80=99s $120, and AMC sells at an average of the tw=
+o, i.e. $90 per share. Don=E2=80=99t, you know, put too much stock in that.=
+[10] I=E2=80=99m mostly kidding. In 2019, pre-pandemic, AMC reported $1,719=
+.6 million of food and beverage revenues, or about $4.7 million per day. I =
+am assuming, with no basis, that half of that is popcorn.
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ceblw4.61tm/244c93d1.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_30527168_1277475335.1622825155216
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24056212.282298/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB65a=
+be034"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"8">
+<tr>
+<td width=3D"206" align=3D"center">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24056212.282298/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB892ee9b=
+0">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong> <em>I said =
+yesterday that there would not be a Money Stuff=C2=A0today, but there will =
+be. Here it is.</em></p><h2 style=3D"font-weight: bold; font-family: &quot;=
+Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font=
+-size: 20px; border-bottom-width: 1px; border-bottom-style: dotted; padding=
+-bottom: 5px; margin-top: 30px; margin-bottom: 0;">SPARC SPARC SPARC</h2><p=
+ style=3D"margin: 16px 0;">The way a special purpose acquisition company wo=
+rks is that investors put money in a pot, and the sponsor of the pot goes o=
+ut and looks for a company to merge with. When the sponsor finds a target c=
+ompany and does the=C2=A0merger, the target company gets the money in the p=
+ot, and the investors in the pot get shares of the target company. (The spo=
+nsor does too, as compensation for her target-hunting efforts.) Until then,=
+ the pot is invested in money-market securities. If the sponsor doesn=E2=80=
+=99t find a target company, or if the investors don=E2=80=99t like the merg=
+er, they can get their money back with a tiny bit of interest.</p><p style=
+=3D"margin: 16px 0;">If you think too hard about this, it might seem a litt=
+le inefficient. Why do the investors put the money in the pot at the=C2=A0<=
+em>beginning</em>? It=E2=80=99s not doing anything. The money just sits the=
+re. Why not wait until the sponsor finds a deal, and=C2=A0<em>then=C2=A0</e=
+m>put the money in? While they wait for the sponsor to find a target, the S=
+PAC investors can put their money into whatever they want, Treasury bills o=
+r the S&amp;P 500 or AMC or Bitcoin or whatever. Then one day the sponsor s=
+ays =E2=80=9Chere=E2=80=99s the deal,=E2=80=9D and the investors can decide=
+ if they like it, and if they do they can give the sponsor their money and =
+if they don=E2=80=99t they don=E2=80=99t have to. It=E2=80=99s the same bas=
+ic economics as a SPAC =E2=80=94=C2=A0just like in a SPAC, the investors si=
+gn up with a sponsor at the beginning not knowing what the deal is, but whe=
+n the deal is announced they can decide whether or not they still want in =
+=E2=80=94=C2=A0but without locking the money up in Treasury bills for month=
+s or years.</p><p style=3D"margin: 16px 0;">If you think too hard about=C2=
+=A0<em>that</em>, you might say =E2=80=9Cwait that=E2=80=99s just an initia=
+l public offering, the whole point of the SPAC is that you give money to th=
+e sponsor first,=E2=80=9D but I don=E2=80=99t think that=E2=80=99s right. I=
+n a SPAC you <em>do=C2=A0</em>give money to the sponsor first, but you can =
+always get it back at the end. The money is <em>there</em>, but not <em>loc=
+ked up</em>. Instead, the point of the SPAC is that you have expressed some=
+ vote of confidence in the sponsor: You trust her to find you a good deal, =
+so you sign up for her deal-finding expedition. You put up your money as an=
+ expression of interest, not a commitment to invest. The point of the SPAC =
+is not the money in the pool; the point of the SPAC is that a bunch of inve=
+stors have expressed nonbinding interest in having a particular sponsor fin=
+d a company for them. The valuable things are the sponsor=E2=80=99s connect=
+ions and her curation and negotiation skills. If you have those things, rai=
+sing the money later is fine.</p><p style=3D"margin: 16px 0;">Pershing Squa=
+re Tontine Holdings is <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/24056212.282298/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLz=
+E4MTE4ODIvMDAwMTE5MzEyNTIxMTgxOTQyL2QxNzI3MjFkZXg5OTEuaHRt/607f07ceef4b8524=
+a319a23cBaadacfe5" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">doing lots of things</a>; here=E2=80=99s one of them:</p><blockquo=
+te><p style=3D"margin: 16px 0;">An affiliate of our Sponsor has formed an e=
+ntity that will be known as Pershing Square SPARC Holdings, Ltd. (=E2=80=9C=
+SPARC=E2=80=9D), which is a Cayman Islands Corporation.</p><p style=3D"marg=
+in: 16px 0;">SPARC is not a SPAC. It is a Special Purpose Acquisition Right=
+s Company. Unlike a traditional SPAC, SPARC does not intend to raise capita=
+l through an underwritten offering in which investors commit capital withou=
+t knowing the company with which SPARC will combine.</p><p style=3D"margin:=
+ 16px 0;">Instead, SPARC intends to issue rights to acquire common stock in=
+ SPARC for $20.00 per share to PSTH shareholders (=E2=80=9CSPARs=E2=80=9D) =
+which can only be exercised after SPARC enters into a definitive agreement =
+for its initial business combination. The SPARs are expected to trade on th=
+e NYSE and have a term of five years, subject to extension=E2=80=A6.</p><p =
+style=3D"margin: 16px 0;">Assuming all SPARs are exercised, SPARC will rais=
+e $5.6 billion of cash from SPAR holders. SPARC is expected to enter into f=
+orward purchase agreements with affiliates of the Pershing Square Funds, th=
+e SPARC=E2=80=99s sponsor, for a minimum investment of $1 billion, and up t=
+o $5 billion, subject to increase with SPARC=E2=80=99s board consent. ...</=
+p><p style=3D"margin: 16px 0;">SPARC=E2=80=99s structure has been designed =
+to allow SPAR holders to avoid incurring the opportunity cost of capital of=
+ a typical SPAC, as the SPARs will not be exercisable, and holders will not=
+ be able to acquire shares in SPARC, until a definitive agreement has been =
+signed. The SPARC Sponsor will also benefit by not having any time pressure=
+ associated with the typical two-year SPAC commitment period.</p></blockquo=
+te><p style=3D"margin: 16px 0;">A SPARC is a SPAC without a pool of money. =
+It doesn=E2=80=99t have shares; it has rights. You own a right =E2=80=94=C2=
+=A0a SPAR =E2=80=94=C2=A0and you can trade that, and the sponsor of the SPA=
+RC (Pershing Square Capital Management LP, Bill Ackman=E2=80=99s hedge fund=
+) goes out and looks for a deal, and if it finds a good deal, it says =E2=
+=80=9Chey who wants to put in $20 for this deal,=E2=80=9D and if you own a =
+SPAR you can put in your $20 and get back a share of the deal. If you don=
+=E2=80=99t own a SPAR, you can buy one from someone who does, and then put =
+in your $20. If you do own a SPAR but don=E2=80=99t want in on the deal, yo=
+u can sell your SPAR to someone who wants in.[1] The SPARs will, presumably=
+, trade at some market price that reflects the market=E2=80=99s confidence =
+that Bill Ackman will find and negotiate a good deal for the SPARC. If he a=
+nnounces a deal and everyone hates it, then no one will want to put in $20 =
+and the SPARs will trade to zero-ish. If he announces a deal and everyone l=
+oves it, then investors will think, like, =E2=80=9CI can put in $20 and get=
+ back $30 worth of stock in this awesome deal,=E2=80=9D and the SPARs will =
+trade to $10-ish. Etc.</p><p style=3D"margin: 16px 0;">I like this? It is f=
+un. It dispenses with almost all of the <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24056212.282298/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL25ld3NsZXR0ZXJzLzIwMjEtMDEtMDgvbW9uZXktc3R1ZmYtc3BhYy1tYWdpYy1pc24tdC1m=
+cmVl/607f07ceef4b8524a319a23cB3a21a69a" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">financial engineering</a> of a SPAC: There ar=
+e no warrants, no cash value, no shareholder votes, no time limits. In fact=
+ arguably there is no=C2=A0<em>anything.=C2=A0</em>Bill Ackman can go aroun=
+d to private companies looking to go public and say =E2=80=A6=C2=A0what? =
+=E2=80=9CHey, I=E2=80=99ve got some friends, and they are following with in=
+terest my efforts to find a company to merge with. If I find a good one, ma=
+ybe they=E2=80=99ll give me money, though they haven=E2=80=99t given me any=
+ money yet and they=E2=80=99re under no obligation to do so. Would you like=
+ to be that company, and maybe my friends will give you their money? We can=
+ find out together!=E2=80=9D</p><p style=3D"margin: 16px 0;">I want to emph=
+asize that this really is the same pitch as a SPAC: In a SPAC, just like a =
+SPARC, the sponsor cannot=C2=A0<em>guarantee=C2=A0</em>that any of the inve=
+stors will actually contribute their money to the deal; SPAC investors have=
+ withdrawal rights, while SPARC investors have no obligation to put in thei=
+r money. (In a SPARC, just like a SPAC, the sponsor=C2=A0<em>itself=C2=A0</=
+em>can put up some money to make the deal more certain for the target; here=
+ Pershing Square will contribute between $1 billion and $5 billion to any d=
+eal it finds.) The SPARC might feel a=C2=A0<em>bit=C2=A0</em>less real than=
+ the SPAC, because the SPAC already has the money and the SPARC doesn=E2=80=
+=99t, but I=E2=80=99m not sure that difference matters that much. The point=
+ in either case is that=C2=A0a bunch of people want to invest with Bill Ack=
+man, and have put their names on a nonbinding list that will let them do so=
+.</p><p style=3D"margin: 16px 0;">But I also want to emphasize that this pi=
+tch is also the same as =E2=80=A6 nothing? Like if Chamath Palihapitiya =E2=
+=80=94=C2=A0or Bill Ackman for that matter =E2=80=94=C2=A0found some nice p=
+rivate company and said =E2=80=9Chey, I would love to take you public, but =
+all of my SPACs already did deals and I forgot to raise another one, what i=
+f we just called all the people who like me and asked them to chip in some =
+money,=E2=80=9D that would be=C2=A0<em>just as good as a SPARC</em>. There=
+=E2=80=99s no pre-commitment here[2]; the pitch is not =E2=80=9CI have a po=
+ol of money to give you=E2=80=9D but rather =E2=80=9Cpeople like me and tru=
+st me and I probably=C2=A0<em>can=C2=A0</em>raise a pool of money for you.=
+=E2=80=9D The SPARC formalizes that a little bit, but if you sign up to do =
+a deal with Bill Ackman=E2=80=99s SPARC it=E2=80=99s not because the SPARC =
+has money to give you, it=E2=80=99s because you are confident that Bill Ack=
+man can=C2=A0<em>go find=C2=A0</em>money to give you.</p><p style=3D"margin=
+: 16px 0;">Anyway, like I said, this is only one of the things that Pershin=
+g Square Tontine Holdings is doing. PSTH is a SPAC (not a SPARC) that Bill =
+Ackman launched=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/24056212.282298/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4=
+MTE4ODIvMDAwMTE5MzEyNTIwMTk3Nzc2L2Q5MzAwNTVkNDI0YjQuaHRt/607f07ceef4b8524a3=
+19a23cB0c60718b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">way back in July 2020</a>; he raised $4 billion to <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/24056212.282298/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDYtMjMvYmlsbC1hY2ttYW4td2FudH=
+MtYS1tYXR1cmUtdW5pY29ybg/607f07ceef4b8524a319a23cB8ef4ec96" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;"> hunt for</a> (in his wor=
+ds) a =E2=80=9CMature Unicorn.=E2=80=9D PSTH did not find a Mature Unicorn.=
+ PSTH is, however, a rather Mature SPAC at this point: Like all SPACs, it h=
+as a two-year deadline to do a deal, and the clock started running last Jul=
+y. That still gives it more than a year, <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24056212.282298/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xl=
+cy9mb3Itc3RhcnR1cC1sZWFkZXJzLXNwYWNzLWhhdmUtbG9zdC10aGVpci1hbGx1cmUtMTE2MjE=
+3NzQ4MDA_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB01fccbf7" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">but</a> =E2=
+=80=9Cstartups tend to shy away from those that haven=E2=80=99t found a par=
+tner after about six months=E2=80=9D; things aren=E2=80=99t=C2=A0<em>desper=
+ate=C2=A0</em>yet, but PSTH is not exactly the freshest of SPACs. <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24056212.282298/aHR0cHM6L=
+y93d3cuYXhpb3MuY29tL25ld3NsZXR0ZXJzL2F4aW9zLXByby1yYXRhLTUyNDQyNTVmLTUzZDMt=
+NDYyNS04OGQxLTIxN2E2NTgyNTMzMy5odG1s/607f07ceef4b8524a319a23cBbb203c94" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">There was</a>=
+ =E2=80=9Clots of speculation that it would try to buy a company like Airbn=
+b or Stripe, and word is that it did at least try to kick those sorts of ti=
+res,=E2=80=9D but I guess that didn=E2=80=99t work out.</p><p style=3D"marg=
+in: 16px 0;">Instead, Pershing Square announced a deal for Universal Music =
+Group. Uh, well, technically <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24056212.282298/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9k=
+YXRhLzE4MTE4ODIvMDAwMTE5MzEyNTIxMTgxOTQzL2QxNzI3MjFkZXg5OTEuaHRt/607f07ceef=
+4b8524a319a23cB432fd2e9" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">it announced that it=C2=A0<em>might=C2=A0</em>have a deal</a=
+>: =E2=80=9CIt is in discussions with Vivendi S.E. (=E2=80=98Vivendi=E2=80=
+=99) to acquire 10% of the outstanding Ordinary Shares of Universal Music G=
+roup B.V. (=E2=80=98UMG=E2=80=99) for approximately $4 billion, representin=
+g an enterprise value of =E2=82=AC35 billion for UMG.=E2=80=9D This is not =
+a traditional SPAC deal, for a number of reasons. For one thing, Universal =
+is not a hot startup or a =E2=80=9Cmature unicorn,=E2=80=9D but a carveout =
+from a public company.</p><p style=3D"margin: 16px 0;">Also, though, the PS=
+TH deal is not a vehicle for=C2=A0taking Universal public: Vivendi was alre=
+ady <a href=3D"https://link.mail.bloombergbusiness.com/click/24056212.28229=
+8/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZmZmNzA0OGItMWMwZC00NWE4LWFkNWItZmYyN=
+zdkMzQwOTdm/607f07ceef4b8524a319a23cB65423679" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">planning to spin off Universal</a> to =
+its shareholders, and it will go ahead with that plan. Instead, PSTH will j=
+ust buy some Universal shares from Vivendi; once Universal goes public (on =
+Euronext Amsterdam) PSTH will distribute those shares to its own shareholde=
+rs. The PSTH shares =E2=80=94=C2=A0which are listed on the New York Stock E=
+xchange =E2=80=94=C2=A0won=E2=80=99t=C2=A0<em>become=C2=A0</em>shares of th=
+e newly public Universal; instead, PSTH shareholders will=C2=A0keep their P=
+STH shares and also get some Universal shares as a distribution.</p><p styl=
+e=3D"margin: 16px 0;">So PSTH will still exist and will still be publicly t=
+raded on the New York Stock Exchange. It will also <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24056212.282298/aHR0cHM6Ly93d3cuc2VjLmdvdi=
+9BcmNoaXZlcy9lZGdhci9kYXRhLzE4MTE4ODIvMDAwMTE5MzEyNTIxMTgxOTQzL2QxNzI3MjFkZ=
+Xg5OTEuaHRt/607f07ceef4b8524a319a23cC432fd2e9" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">still have some money in its pot</a>:<=
+/p><blockquote><p style=3D"margin: 16px 0;">PSTH expects to fund the Transa=
+ction with cash held in its trust account from its IPO ($4 billion plus int=
+erest), and approximately $1.6 billion in additional funds from the exercis=
+e of its Forward Purchase Agreements with the Pershing Square Funds and aff=
+iliates. Approximately $4.1 billion of these proceeds will be used to acqui=
+re the UMG Shares and pay transaction costs, with the $1.5 billion balance =
+to be retained by PSTH Remainco.</p></blockquote><p style=3D"margin: 16px 0=
+;">So if you are a PSTH investor, you=E2=80=99ll get some Universal stock (=
+worth $14.75, on Ackman=E2=80=99s math, though you don=E2=80=99t have to ag=
+ree) and keep a share in a $1.5 billion pool of cash. (That share should be=
+ worth about $7.50.[3])</p><p style=3D"margin: 16px 0;">What will the pool =
+of cash do? Well, it will keep on looking for a unicorn, I guess; it will b=
+e a lot like a regular SPAC without technically being a SPAC:</p><blockquot=
+e><p style=3D"margin: 16px 0;">PSTH Remainco to Pursue Another Business Com=
+bination Following the Proposed Transaction</p><p style=3D"margin: 16px 0;"=
+>After funding the UMG purchase and related transaction expenses, PSTH Rema=
+inco will have $1.5 billion in cash and marketable securities. In addition,=
+ the Forward Purchase Agreements will be amended to provide that the Pershi=
+ng Square Funds will continue to have the right, but not the obligation, to=
+ buy approximately $1.4 billion of PSTH=E2=80=99s Class A common shares to =
+fund PSTH=E2=80=99s future business combination transaction. The Pershing S=
+quare Funds will own approximately 29% of PSTH Remainco before the exercise=
+ of any Additional Forward Purchase Agreements.</p><p style=3D"margin: 16px=
+ 0;">PSTH Remainco intends to remain listed on the NYSE. Because the transa=
+ction will satisfy the requirements of an initial business combination, PST=
+H Remainco will no longer be treated as a SPAC under NYSE listing rules.</p=
+></blockquote><p style=3D"margin: 16px 0;">Sure, I guess? I assume that the=
+ key advantage here is that, because the Universal deal checks PSTH=E2=80=
+=99s box for =E2=80=9Cdo a deal within two years,=E2=80=9D the time pressur=
+e is off: PSTH Remainco will bop along with a pool of cash that it can use =
+to do any deal it wants whenever it wants.[4] It is sort of another permane=
+nt-capital vehicle for Bill Ackman.</p><p style=3D"margin: 16px 0;">So, rig=
+ht, Pershing Square Tontine Holdings is sort of fissioning into three diffe=
+rent SPAC-related things:</p><ol style=3D"list-style-type: decimal; padding=
+-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Most of =
+the money in PSTH will go to buy Universal shares, grudgingly and technical=
+ly satisfying its=C2=A0obligations as a SPAC=C2=A0to do a big deal within t=
+wo years.</li>=09<li style=3D"margin-bottom: 5px;">The rest of the money in=
+ PSTH will stay in PSTH (=E2=80=9CPSTH Remainco=E2=80=9D), so it can look f=
+or another, smaller deal, free of some of the traditional SPAC obligations.=
+</li>=09<li style=3D"margin-bottom: 5px;">The, like, spiritual SPAC-ness of=
+ PSTH will roll over into the SPARC, which will look for yet another deal, =
+free of the traditional SPAC obligations and also the drag of holding a pot=
+ of cash.</li></ol><p style=3D"margin: 16px 0;">I am sure it all made a kin=
+d of sense to whoever dreamed it up.</p><p style=3D"margin: 16px 0;">Anyway=
+ there are three=C2=A0other traditional features of a SPAC that are worth d=
+iscussing here. One is redemption rights: If you own stock in a SPAC, and y=
+ou don=E2=80=99t like the deal it does, you can take your money out, redeem=
+ing your shares for their cash value. The cash value is the initial price o=
+f the SPAC =E2=80=94=C2=A0usually $10, though PSTH=E2=80=99s is $20 =E2=80=
+=94=C2=A0plus whatever interest the SPAC earned on your money while it look=
+ed for a deal. That will happen here too, though in a slightly weird way:</=
+p><blockquote><p style=3D"margin: 16px 0;">PSTH will satisfy its shareholde=
+rs=E2=80=99 redemption rights by tendering for its shares at a price equal =
+to PSTH=E2=80=99s cash-in-trust per-share, or approximately $20 per share (=
+the =E2=80=9CRedemption Tender Offer=E2=80=9D). The Redemption Tender Offer=
+ is expected to be launched shortly following the execution of the definiti=
+ve transaction documentation.</p></blockquote><p style=3D"margin: 16px 0;">=
+Seems fine. Presumably if some PSTH shareholders demand their money back th=
+en there will be less than $1.5 billion left in the stub PSTH Remainco. I d=
+on=E2=80=99t know what happens if shareholders demand more than $1.5 billio=
+n back: Does PSTH give Vivendi less than $4 billion and get less than 10% o=
+f Universal Music? Or does Pershing Square make up the difference? It doesn=
+=E2=80=99t matter too much, though; after the deal was announced, PSTH trad=
+ed down (from yesterday=E2=80=99s $25.05 close), but it=E2=80=99s still wel=
+l above the $20 cash value, so you would not expect many investors to redee=
+m.</p><p style=3D"margin: 16px 0;">Another traditional SPAC feature is voti=
+ng rights: If=C2=A0the shareholders of a SPAC (the investors in the pool) d=
+on=E2=80=99t like the deal that the sponsor finds, they can vote it down. T=
+his is not actually important in modern SPACs: If you don=E2=80=99t like a =
+deal, rather than voting against it you=C2=A0will normally vote <em>for=C2=
+=A0</em>it and then redeem your shares for their cash value. The main inves=
+tor protection is not voting rights but getting your money back. A good thi=
+ng, too, because PSTH=E2=80=99s Universal deal is an asset purchase rather =
+than a merger, and the =E2=80=9CTransaction will not require a vote of PSTH=
+=E2=80=99s shareholders.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;">A t=
+hird feature is warrants. When a SPAC goes public, normally it sells invest=
+ors a unit consisting of a share plus a fraction of a warrant. The warrant =
+lets you buy an additional share; here, each whole PSTH warrant lets you bu=
+y another share for $23. The idea is that if the SPAC does a good merger, t=
+he stock of the combined company will be worth much more than the cash valu=
+e of the SPAC, and investors will get a little sweetener, the ability to bu=
+y more stock at a price that is higher than the SPAC price but lower than t=
+he true value of the merged business.</p><p style=3D"margin: 16px 0;">PSTH =
+did its warrants in a somewhat complicated way: Each share came with one-ni=
+nth of a warrant, but PSTH also set aside two-ninths of a warrant per share=
+ as =E2=80=9Ctontine warrants.=E2=80=9D The idea was that the tontine warra=
+nts would be handed out to all the shareholders who did=C2=A0<em>not=C2=A0<=
+/em>exercise their redemption rights, as an incentive for investors to keep=
+ their money in the pot. I <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24056212.282298/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjAtMDYtMjMvYmlsbC1hY2ttYW4td2FudHMtYS1tYXR1cmUtdW5pY29ybg/607f07=
+ceef4b8524a319a23cC8ef4ec96" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> wrote at the time</a>:</p><blockquote><p style=3D"margi=
+n: 16px 0;">Only investors who=C2=A0<em>don=E2=80=99t=C2=A0</em>demand thei=
+r money back when the SPAC finds a target will get those warrants, but the =
+number of those warrants will be fixed. The more investors redeem, the more=
+ warrants each=C2=A0<em>non</em>-redeeming investor will get. (It=E2=80=99s=
+ like a=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/24056=
+212.282298/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVG9udGluZQ/607f07ceef4b8=
+524a319a23cB96c0b064" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">tontine</a>=C2=A0=
+in that, the more people drop out, the higher the value for the remaining p=
+eople.) This gives investors an incentive not to redeem; in particular, it =
+makes it less likely that a=C2=A0<em>lot=C2=A0</em>of investors will redeem=
+ (because the value for the remaining investors will keep going up). So Ack=
+man has a better ability to offer certainty, because his public investors a=
+re a bit more locked in than SPAC investors usually are.</p></blockquote><p=
+ style=3D"margin: 16px 0;">All of this turned out to be sort of meaningless=
+?=C2=A0PSTH isn=E2=80=99t doing a merger, it=E2=80=99s just buying Universa=
+l shares, and it=E2=80=99s not getting any Universal warrants. The warrants=
+ just sort of go away. PSTH investors can choose to either (1) exchange the=
+ir warrants for some additional shares of PSTH (and, thus, additional share=
+s of Universal), or (2) keep their warrants, which then become warrants of =
+PSTH Remainco with an adjusted strike price. If everyone chooses the first =
+option =E2=80=94=C2=A0to exchange their warrants for more shares =E2=80=94=
+=C2=A0then, in effect, the warrants vanish. Every shareholder goes from own=
+ing 1 share of PSTH to owning 1.09 shares or whatever,[5] but PSTH has the =
+same amount of cash in its pot and gets the same number of Universal shares=
+. So your 1.09=C2=A0new shares are worth exactly the same as your old 1 sha=
+re was worth, and the warrants didn=E2=80=99t do you any good.[6]</p><p sty=
+le=3D"margin: 16px 0;">(The tontine-y part still applies, though: If you as=
+k for your cash back in the tender offer, you don=E2=80=99t get the tontine=
+ warrants, and the people who don=E2=80=99t demand their cash back share mo=
+re of those warrants.)</p><p style=3D"margin: 16px 0;">I don=E2=80=99t know=
+? Seems fun. One thing to say about the SPARC is that June 2021 is not nece=
+ssarily a great time to raise a SPAC, and it=E2=80=99s not clear that this =
+deal =E2=80=94=C2=A0the Universal stake plus the three-way SPAC fission =E2=
+=80=94=C2=A0is the sort of home run that will make investors want to buy Ac=
+kman=E2=80=99s next SPAC. (=E2=80=9CAckman=E2=80=99s SPAC Slumps After Univ=
+ersal Music Deal Irks Investors,=E2=80=9D is <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24056212.282298/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMDQvYWNrbWFuLXMtc3BhYy1zbHVtcHMtYWZ0ZXItdW5=
+pdmVyc2FsLW11c2ljLWRlYWwtaXJrcy1pbnZlc3RvcnM/607f07ceef4b8524a319a23cB7c0fc=
+e3f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> the =
+Bloomberg headline</a>.) Ackman is winding up his first SPAC, PSTH, by doin=
+g the Universal deal, though there will still be that stub PSTH Remainco lo=
+oking to do another deal. If he went out to raise another $4 billion now, t=
+o hunt for another big deal, investors might be skeptical. So he isn=E2=80=
+=99t. Instead he=E2=80=99s launching his next SPAC as a SPARC: He=E2=80=99s=
+ launching a new $4 billion SPAC=C2=A0<em>without raising money for it</em>=
+. Ackman SPAC II (that is,=C2=A0Pershing Square SPARC Holdings=C2=A0Ltd.)=
+=C2=A0will go public as soon as Ackman SPAC I (Pershing Square Tontine Hold=
+ings) closes its deal, and Ackman will be able to go hunt for another big d=
+eal, but he won=E2=80=99t have to raise the money until he finds the deal. =
+Maybe by then it will be easier to raise the money.</p><h2 style=3D"font-we=
+ight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-se=
+rif; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; borde=
+r-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-botto=
+m: 0;">AMC AMC AMC</h2><p style=3D"margin: 16px 0;">Yesterday about $31.9 b=
+illion worth of=C2=A0AMC Entertainment Holdings Inc. stock traded, down a b=
+it from Wednesday=E2=80=99s $39.7 billion but still quite a lot. For compar=
+ison, Tesla Inc. stock traded $17.8 billion yesterday. Apple Inc. traded $9=
+.4 billion. Amazon.com Inc. traded $7.7 billion. GameStop Corp. traded $2.1=
+ billion. All U.S. stocks on all U.S. exchanges, combined, traded $536.4 bi=
+llion yesterday.[7] AMC was 6% of U.S. stock trading. That=E2=80=99s pretty=
+ high. Could be higher, though. RBC Bearings Inc., a ball-bearings manufact=
+urer, traded $12.3 million of stock. Seems unnecessary. In the future the o=
+nly stocks will be AMC, GameStop and Tesla. The idea that you=E2=80=99d go =
+to the stock market to buy or sell shares of some boring company that makes=
+ industrial parts, just because you expect its future cash flows to be high=
+er than what is currently discounted in the stock price, will seem weird an=
+d quaint. =E2=80=9CNo we only trade memes here.=E2=80=9D</p><p style=3D"mar=
+gin: 16px 0;">Anyway, right, AMC traded $31.9 billion of stock yesterday, i=
+ncluding about $2.75 billion in the first half hour of the trading day. If =
+you wanted to sell, say, $587.3 million worth of AMC stock, you could have =
+done that very quickly yesterday. As it happens AMC did want to sell $587.3=
+ million of AMC stock, and did do that very quickly. <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/24056212.282298/aHR0cHM6Ly93d3cuc2VjLmdv=
+di9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTE1NzkvMDAwMTEwNDY1OTIxMDc2NDU5L3RtMjExNzg=
+5N2Q0X2RlZmExNGEuaHRt/607f07ceef4b8524a319a23cBba4abd12" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">This press release</a> cross=
+ed the wire at 12:58 p.m. yesterday:</p><blockquote><p style=3D"margin: 16p=
+x 0;">AMC Entertainment Holdings, Inc. (NYSE: AMC) (=E2=80=9CAMC=E2=80=9D o=
+r =E2=80=9Cthe Company=E2=80=9D), announced that it has completed its 11.55=
+0 million share at-the-market (=E2=80=9CATM=E2=80=9D) equity program launch=
+ed earlier today. AMC raised approximately $587.3 million of new equity cap=
+ital, before commissions and fees, at an average price of approximately $50=
+.85 per share.</p></blockquote><p style=3D"margin: 16px 0;">Good for them. =
+Some AMC facts:</p><ol style=3D"list-style-type: decimal; padding-left: 40p=
+x; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">From the time AMC =
+went public in 2013=C2=A0until=C2=A0this Tuesday, its highest closing price=
+ ever was $35.68, in March 2015.=C2=A0</li>=09<li style=3D"margin-bottom: 5=
+px;">AMC=E2=80=99s total market capitalization at the end of 2020 was $458 =
+million.[8]</li></ol><p style=3D"margin: 16px 0;">AMC raised more money tha=
+n it was worth=C2=A0five months ago, at effectively an all-time-high stock =
+price, in about three hours yesterday.=C2=A0</p><p style=3D"margin: 16px 0;=
+">It is fun to imagine: What if AMC did that every three hours? How long co=
+uld it draw this out? The stock price roughly doubled last week, and then i=
+t roughly doubled again this week despite AMC selling millions of shares on=
+ two separate days this week. Let=E2=80=99s say you keep selling 20 million=
+ shares a week, and the stock keeps doubling every week. Next week you sell=
+ say $1.8 billion of stock.[9] The week after $3.6 billion. By August you=
+=E2=80=99re raising trillions of dollars a week, buying Apple Inc. with spa=
+re cash.</p><p style=3D"margin: 16px 0;">I am kidding, of course. For one t=
+hing, nothing grows like that for long, though ask yourself how sure you ar=
+e about that.</p><p style=3D"margin: 16px 0;">For another thing, AMC=E2=80=
+=99s hilarious tragic curse is that it can=E2=80=99t sell any more stock be=
+cause it is out of authorized shares. Yesterday <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/24056212.282298/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDMvYW1jLWhhcy1hLWJpdC1tb3JlLXN0b2Nr=
+LXRvLXNlbGw/607f07ceef4b8524a319a23cBa088462f" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> I wrote that</a> I wasn=E2=80=99t sur=
+e how many shares AMC had left, but that I hoped it was 1, one share, and t=
+hat AMC would auction off its last share for millions of dollars. In fact t=
+he number is slightly bigger than that. In <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/24056212.282298/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaX=
+Zlcy9lZGdhci9kYXRhLzE0MTE1NzkvMDAwMTEwNDY1OTIxMDc2NDYwL3RtMjExNzg5N2Q2X2RlZ=
+mExNGEuaHRt/607f07ceef4b8524a319a23cBd8438c71" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">another press release yesterday</a>, A=
+MC Chief Executive Officer Adam Aron said: =E2=80=9CAs of today, in our eff=
+orts to best position AMC for a successful recovery from the pandemic, we h=
+ave issued or reserved substantially all but 46,124 of the shares that were=
+ previously authorized.=E2=80=9D That=E2=80=99s about as slim as it realist=
+ically gets: AMC has issued 99.9912% of its authorized shares. Those 46,124=
+ shares are worth about $2.4 million at yesterday=E2=80=99s closing price, =
+or about one day of AMC=E2=80=99s popcorn sales.[10] Can=E2=80=99t do much =
+with that.</p><p style=3D"margin: 16px 0;">But perhaps =E2=80=94=C2=A0as I =
+argued yesterday =E2=80=94 that=E2=80=99s the wrong way to look at it. Perh=
+aps the very scarcity of those 46,124 shares is what makes them valuable. I=
+n the first quarter of 2021, AMC <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/24056212.282298/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hp=
+dmVzL2VkZ2FyL2RhdGEvMTQxMTU3OS8wMDAxNDExNTc5MjEwMDAwMzgvYW1jLTIwMjEwMzMxeDE=
+wcS5odG0/607f07ceef4b8524a319a23cBdbb3e4eb" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">sold about 187 million shares</a> at an a=
+verage price of $3.19. On Tuesday, it <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/24056212.282298/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjEtMDYtMDEvaXQtcy1nb29kLXRvLXdpbi1hLXByb3h5LWZpZ2h0/6=
+07f07ceef4b8524a319a23cB546effc9" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> sold 8.5 million more shares</a>=C2=A0at $27.12 ea=
+ch. Yesterday, it sold 11.55 million more shares at $50.85 each. Now it has=
+ just thousands of shares to sell. Shouldn=E2=80=99t they be worth thousand=
+s or millions of dollars each? As AMC gets closer and closer to its authori=
+zed-share cap, its price keeps going up; scarcity makes the shares worth mo=
+re.</p><p style=3D"margin: 16px 0;">I realize this is nonsense =E2=80=94=C2=
+=A0those 46,124 shares are entirely fungible with the other shares, they ar=
+e no =E2=80=9Cscarcer=E2=80=9D than the rest, in fact there are many <em>mo=
+re=C2=A0</em>AMC shares available now than there were in the first quarter,=
+ etc. =E2=80=94=C2=A0but I do feel like a healthy dose of nonsense is what =
+is needed here. The way to understand AMC is to abandon your conscious mind=
+ for a while and just float on a sea of vague associations. How boring=C2=
+=A0to apply traditional notions of corporate finance or supply and demand t=
+o AMC. AMC is a new thing.</p><p style=3D"margin: 16px 0;">Anyway AMC is go=
+ing to ask its shareholders to <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24056212.282298/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci=
+9kYXRhLzE0MTE1NzkvMDAwMTA0NzQ2OTIxMDAxMTY0L2EyMjQzMjc4enByZXIxNGEuaHRt/607f=
+07ceef4b8524a319a23cB3483a15a" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">authorize another 25 million shares</a>, just for a bi=
+t of breathing room, though it promises not to issue them until 2022. (This=
+ is down from its previous ask for 500 million more shares, which was actua=
+lly a<em> much more=C2=A0normal=C2=A0</em>ask: Ordinarily companies want to=
+ have ample room under their authorized-share cap, but given AMC=E2=80=99s =
+gleeful stock issuance you can see why some shareholders might not want tha=
+t.)</p><p style=3D"margin: 16px 0;">It also issued <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24056212.282298/aHR0cHM6Ly93d3cuc2VjLmdvdi=
+9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTE1NzkvMDAwMTEwNDY1OTIxMDc2NDYxL3RtMjExNzg5N=
+2Q1X2RlZmExNGEuaHRt/607f07ceef4b8524a319a23cBb8c38fe2" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">this rather wild press release=
+</a> about how many shares are eligible to vote on the new authorization (p=
+eople who bought yesterday can=E2=80=99t), which includes this nod to anti-=
+short-selling conspiracy theory:</p><blockquote><p style=3D"margin: 16px 0;=
+">AMC has received a number of inquiries regarding so-called synthetic shar=
+es and fake shares. AMC has no reliable information about this, therefore w=
+e can make no comment in this regard. AMC only maintains records regarding =
+the shares it has legally issued and which are outstanding.</p></blockquote=
+><p style=3D"margin: 16px 0;">I feel like they could have added a sentence =
+to that paragraph saying =E2=80=9Cif you own fake AMC shares, you can=E2=80=
+=99t vote them,=E2=80=9D but perhaps the lawyers did not like that.=C2=A0</=
+p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 14px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Paid Post</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;"><p style=3D"margin: 10px 0px;">Meet Axos Bank=E2=80=99s Rewards Ch=
+ecking =E2=80=93 the account that helps you earn more, so you can save more=
+. Earn up to 1.25% Annual Percentage Yield, pay zero fees, and get unlimite=
+d domestic ATM fee reimbursements. And, as a bonus, enjoy a mobile banking =
+app that will knock your socks off. <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24056212.282298/aHR0cHM6Ly9iaXQubHkvM2ZiZ1ZnTg/607f07ceef=
+4b8524a319a23cB22f7bbee" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" title=3D"Apply Now" style=3D"color: #000000; text-decoration=
+: underline;">
+Apply Now</a></p></div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Axos Bank</p></d=
+iv>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">Things happen</h2><p style=3D"margin: 16px 0;">B=
+itcoin Slips After Musk <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/24056212.282298/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzL=
+zIwMjEtMDYtMDQvYml0Y29pbi1kcm9wcy1hZnRlci1tdXNrLXR3ZWV0cy1icm9rZW4taGVhcnQt=
+ZW1vamktZm9yLXRva2Vu/607f07ceef4b8524a319a23cB5d342a81" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> Tweets Broken-Heart Emoji</a=
+> for Token. U.S. <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+24056212.282298/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjE=
+tMDYtMDQvdS1zLWpvYi1ncm93dGgtcGlja2VkLXVwLXN0ZWFtLWluLW1heS1hZnRlci1kaXNhcH=
+BvaW50aW5nLWFwcmls/607f07ceef4b8524a319a23cBa200092e" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> Job Growth Picks Up</a> in Sig=
+n of Progress on Filling Openings. AMC Boss Adam Aron Basks in <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/24056212.282298/aHR0cHM6Ly93d3=
+cud3NqLmNvbS9hcnRpY2xlcy9hbWMtYm9zcy1hZGFtLWFyb24tYmFza3MtaW4tbWVtZS1zdG9ja=
+y1zcG90bGlnaHQtMTE2MjI3OTkwMDA_bW9kPWhwX2xlYWRfcG9zMw/607f07ceef4b8524a319a=
+23cB4c8c4da7" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">Meme-Stock Spotlight</a>. Washington to <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24056212.282298/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlb=
+nQvOTFlNmZiMmEtNjM4NS00OWIzLTgzYWEtODA0NDM3NDgwNWM0/607f07ceef4b8524a319a23=
+cBc4add8ab" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">bar US investors</a> from 59 Chinese companies. <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/24056212.282298/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMDQvdGV4YXMtcmlzaW5nLWhlZGdlLWZ1bmRzLW=
+JpZy10ZWNoLWRyaXZlLWxvbmUtc3Rhci13ZWFsdGgtYm9vbQ/607f07ceef4b8524a319a23cB0=
+9641423" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">T=
+exas Rising</a>: Hedge Funds, Big Tech Drive Lone Star Wealth Boom. Hot <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/24056212.282298/aHR0c=
+HM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zb21lLWhvbWVvd25lcnMtYXJlbnQtc2VsbGluZy1i=
+ZWNhdXNlLXRoZXktY2FudC1hZmZvcmQtdG8tdHJhZGUtdXAtMTE2MjI3OTkwMDM_bW9kPWhwX2x=
+lYWRfcG9zNw/607f07ceef4b8524a319a23cBb62d037e" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Housing Market</a> Leaves People Afrai=
+d to Trade Up. Candidate interrupted by sex toy on drone, <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/24056212.282298/aHR0cHM6Ly9hcG5ld3M=
+uY29tL2FydGljbGUvbGlmZXN0eWxlLXRveXMtb2RkaXRpZXMtZ292ZXJubWVudC1hbmQtcG9saX=
+RpY3MtNzA0N2MzMGE0YWM5N2NhM2E1ZmFlZDA3YTFjNDFkNTA/607f07ceef4b8524a319a23cB=
+1ab8a4bf" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+punched at event</a>.=C2=A0</p><p style=3D"margin: 16px 0;"><span class=3D"=
+news-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0=
+Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/24056212.282298/aHR0cDovL2xp=
+bmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXA=
+maGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23=
+cB4887d1f9" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">subscribe at this link</a>.=
+ Or you can subscribe to Money Stuff and other great Bloomberg newsletters =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24056212.282298/aH=
+R0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23c=
+Bf0843bba" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] Unli=
+ke in a regular SPAC, the SPARs won=E2=80=99t come with withdrawal rights =
+=E2=80=94=C2=A0you won=E2=80=99t be able to get your money back from the SP=
+ARC if you don=E2=80=99t like the deal. But that is of course because you h=
+aven=E2=80=99t put your money in yet! The SPARs aren=E2=80=99t claims on a =
+pool of cash, they=E2=80=99re just rights to contribute to a *future* pool =
+of cash. Also, unlike in a regular SPAC, you won=E2=80=99t be able to *vote=
+* on the deal: =E2=80=9CSPARC common shares will initially be owned 100% by=
+ affiliates of Pershing Square so no vote will be required from other share=
+holders to consummate a transaction.=E2=80=9D</em></p><p style=3D"margin: 1=
+6px 0;"><em>[2] Except =E2=80=94=C2=A0importantly =E2=80=94=C2=A0Pershing S=
+quare=E2=80=99s own $1 billion to $5 billion. But that has nothing to do wi=
+th the SPARC; Pershing Square could just invest $1 billion to $5 billion in=
+ any company that wanted the money, or in any public company that didn=E2=
+=80=99t for that matter.</em></p><p style=3D"margin: 16px 0;"><em>[3] That =
+is,=C2=A0PSTH raised $4 billion by selling 200 million shares at $20 each. =
+Take out $2.5 billion of cash and you have 200 million shares in=C2=A0a $1.=
+5 billion pool of cash, so each share is a claim on $7.50 of cash. This is =
+complicated by the redemption rights=C2=A0and warrant stuff discussed below=
+, though; really what I mean is like =E2=80=9Ceach share + warrant unit wil=
+l be worth about $7.50 if no one redeems.=E2=80=9D</em></p><p style=3D"marg=
+in: 16px 0;"><em>[4] I assume, though it is frankly unclear, that the redem=
+ption tender offer in connection with the Universal deal will terminate PST=
+H shareholders=E2=80=99 redemption rights, so that if PSTH Remainco does a =
+deal later on it will be able to commit the full $1.5 billion in the pot wi=
+thout worrying about redemptions.</em></p><p style=3D"margin: 16px 0;"><em>=
+[5] A rough number. Page 166 of the <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24056212.282298/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZ=
+Gdhci9kYXRhLzE4MTE4ODIvMDAwMTE5MzEyNTIwMTk3Nzc2L2Q5MzAwNTVkNDI0YjQuaHRtI3Rv=
+YzkzMDA1NV8xMw/607f07ceef4b8524a319a23cB09fcbd6d" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">original prospectus</a> has a table=
+ of the exchange value of warrants and shares. As of 11 a.m. today PSTH was=
+ trading at about $22.43, so I use the $22 column in the table, and I use t=
+he 60-day line in the table because I assume you=E2=80=99d take the deal as=
+ soon as possible. So that gives me an exchange ratio of about 0.26 shares =
+per warrant. (That roughly tracks: The warrants trade separately and were a=
+t about $6.12 at 11 a.m., or about 27% of the price of the stock.) Each sha=
+re comes with one-third of a warrant (including tontine warrants), so that=
+=E2=80=99s about 0.09 added shares per share.</em></p><p style=3D"margin: 1=
+6px 0;"><em>[6] This is not quite right because the warrants and shares do =
+trade separately now, so plenty of people own only shares or only warrants,=
+ and will be diluting each other etc. But from the perspective of PSTH inve=
+stors as a whole, the warrants turned out to be roughly a nothing. Incident=
+ally my gut instinct is that most of the warrants will be exchanged for PST=
+H shares in the exchange offer, rather than kept outstanding as PSTH Remain=
+co warrants, but I have not done any math on that and am not even sure how =
+to think about it.=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[7] Accor=
+ding to=C2=A0Bloomberg=E2=80=99s MVALUSE &lt;Index&gt; function.</em></p><p=
+ style=3D"margin: 16px 0;"><em>[8]=C2=A0For that matter, its total market c=
+apitalization at the end of *2019*, more or less pre-pandemic, was $752 mil=
+lion.</em></p><p style=3D"margin: 16px 0;"><em>[9] For my dumb rough math h=
+ere, assume that the stock price at the end of this week is $60, at the end=
+ of next week it=E2=80=99s $120, and AMC sells at an average of the two, i.=
+e. $90 per share. Don=E2=80=99t, you know, put too much stock in that.</em>=
+</p><p style=3D"margin: 16px 0;"><em>[10] I=E2=80=99m mostly kidding. In 20=
+19, pre-pandemic, <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+24056212.282298/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2R=
+hdGEvMTQxMTU3OS8wMDAxNDExNTc5MjEwMDAwMDYvYW1jLTIwMjAxMjMxeDEway5odG0jSXRlbT=
+hGaW5hbmNpYWxTdGF0ZW1lbnRzYW5kU3VwcGxlbWVudGFyeQ/607f07ceef4b8524a319a23cBd=
+f6121a1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">A=
+MC reported</a> $1,719.6 million of food and beverage revenues, or about $4=
+.7 million per day. I am assuming, with no basis, that half of that is popc=
+orn.</em></p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24056212.282298/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB76cd14c2" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24056212.282298/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB338def8b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24056212.282298/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB823082cd" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24056212.282298/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBc35ef237" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2405=
+6212.282298/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB27c89b65" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24056212.282298/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC70ad228e" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24056212.282298/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB318a49e2" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24056212.282298/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB8cd7c150" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ceblw4.61tm/244c93d1.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_30527168_1277475335.1622825155216--
+

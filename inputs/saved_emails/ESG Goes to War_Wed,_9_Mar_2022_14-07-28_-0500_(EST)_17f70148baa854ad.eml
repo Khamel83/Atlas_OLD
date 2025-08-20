@@ -1,0 +1,1829 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:5d4:b0:1a3:fa90:e4b0 with SMTP id r20csp671264lkr;
+        Wed, 9 Mar 2022 11:07:48 -0800 (PST)
+X-Received: by 2002:a05:600c:21ce:b0:389:9052:a1ca with SMTP id x14-20020a05600c21ce00b003899052a1camr8771102wmj.123.1646852868623;
+        Wed, 09 Mar 2022 11:07:48 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1646852868; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=BQ3IUO2WwLF0OB1MBxb4ZpJoYShFpGQrGvQk+yzvSZO0eIoW5iLTD8OEY7LJitIUSi
+         NekDbq5WGCGvH6Tdkj9/Cx0eGGbekBdqLP0qTLfUzFfEY0+3yk+NibvvVSyYfZVXvAtU
+         gCT9HOrO8/K4i5gVg4LjDChOFs6tK7m3Tw2A00H1A+X/WWEjrNK0Yb5txbIOcuByEu5I
+         yiszSJlY1vMcZ11NkjJtfNo3hZyI3KOkkpsIT2n7o+lsDucCH83LqlbVYU2YGA/EKboB
+         oUb9XABQqbD5lUTM6O+cC2vVyLtSttFKkz5PbGEYz3xlfmvyjvG6hnw82dR84gk9TGP0
+         XcHA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=oeADHI4sUF/wYczQu7ysknN8XWRkxQaOeCDD9p1+AxM=;
+        b=OFizwnOo73gBmwNmmSd/+w77cs+iHgJfdg9iTLCU5zLAcjpHGHzuy+o1ISKkLMTKGq
+         Z2rzj/+whk45hIMklyY1DMNuCdirT0LaK+ydWpAxS6psTisPXV30WQ/xLv35ALLCHhKD
+         AVziQdJ3r9NPPn3CN8FjENHlpfj9RFj4JSvuWWmoeiL30Hs6iFcBttR/HPRe5CEli3VK
+         7nMUWor+RahnuL9b6UIDzRMBRXBLyaJ0UsNGZE5unTjnUGkmVv1NwYFbkvuEcw+J92kC
+         0vGsSzYUzk2KP0C48TcUQVj162L0edtkVGpPe4LZPp3wiFg/Vd/4jBJh92GVHVFFhUTC
+         tDMw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="BT7uL/4V";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c12-20020adfa70c000000b001f07a7cac15sor4949755wrd.76.2022.03.09.11.07.48
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 09 Mar 2022 11:07:48 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="BT7uL/4V";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=oeADHI4sUF/wYczQu7ysknN8XWRkxQaOeCDD9p1+AxM=;
+        b=uaKbIjcnO0coe5U74A+7aHa4fs1+GtpBQajEt36ruY4bl0XaXrfDAewnPaC1Gibulv
+         8179R16OSHwde6q5QbmbrXn38fmt3kE7fmxz3eerjQwbaTc5wSb6y9hpepUMMCK6cFzo
+         LLNL9ZOdPbOzUY4rvF009oNkznvScGsO/on/0+++zEIBsiE4kvvAtCZ+sV16jyCNzhZ3
+         cCLlJm+E7JKYdGcvELacQS6OUw4Ab8E0kzNVVlWm0ssz+YLd34psNR2oMvjr9Z5aoKDs
+         xPHVMhF4FWb1Or5ghSN9rY+5BvssBqOjxdJ+mAaVyj2011jbYHcUeQT5/W/wR4cAgvai
+         MUIg==
+X-Gm-Message-State: AOAM531hVpDehOEAzWx42Prc/CSoNg2SlVrzKqUYIUqwHV4zHbDnWYzy
+	YRCmYrGY69OlwWTlSd1U+4RJbQrtT8sKdFwreIPvmWnFjjSx/XFQcw==
+X-Received: by 2002:a5d:49c9:0:b0:1f0:16b2:584f with SMTP id t9-20020a5d49c9000000b001f016b2584fmr823515wrs.710.1646852868153;
+        Wed, 09 Mar 2022 11:07:48 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:9f4b:0:0:0:0:0 with SMTP id f11csp523630wrg;
+        Wed, 9 Mar 2022 11:07:45 -0800 (PST)
+X-Received: by 2002:a05:6102:31a3:b0:320:a451:bbbe with SMTP id d3-20020a05610231a300b00320a451bbbemr725485vsh.75.1646852864904;
+        Wed, 09 Mar 2022 11:07:44 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1646852864; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=LXcNCWHwE32IweBGE2LNcdmOjhNKjFEGKIz4qEV7Z6z/dttLGAUXsr+iLk8Kz5HGOT
+         /mVXjJMGByE5tcUN9KZm7C59VdioaPN21Ut9LCYiqO9/aO3V6/iQhfqXQaJ+Gv9Ay6yA
+         GQ/pONs1OQ1EG290NXKcBP8P+z68MNET+Tida4mvYGwlXKkeEiwGk5AObRe+kwbp6WMs
+         HiA7hiBd6BtmQagFAg2LwQFnCPr6K1aM65yD0sw3F1pG/gf4jgthGSw4qZPgw/0Map4A
+         F8XyEw16qHlAUuT0dElCClfhKoiR+C8ugCPMf6QehZamOK87pIbhHA/TI9jfef4NIBzY
+         zsSQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=oeADHI4sUF/wYczQu7ysknN8XWRkxQaOeCDD9p1+AxM=;
+        b=QbBqqh7Ykmyc3nkvkjIb9zlgKmPMpqaDPbDxSXOXv3O+0qZY2uEv6NY1/bHE0wriVj
+         ORn5+ANkIve1idoS5bu+hHST/w8n3/V+uNtDvzSG9wbsDF3f6eF4N5WNc0x/kw+2dNlo
+         FRJSQQCxz27YXaW/wvM6nJg7pG9TjjbfX5CyL2EZccUoQsO0zeFFTHKtn2Zlwx1F3K8t
+         ncwOFacCTqcadSLP0eo7F7kJBtRfqBct/GlKBZs9uQ9VCEpw0gFJSw5+1GgBizimr0wW
+         dMVJ15D/iLAx86J1d5igTy52JX0V7iHcKtXcAtaMIS+mAaj+rL5jRxmkzKb9yEX/bVlf
+         Gg1w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="BT7uL/4V";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220309140728.26966673.261607@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220309140728.26966673.261607@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220309140728.26966673.261607@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h6-20020a056102104600b0032076e8f6dfsor2919028vsq.78.2022.03.09.11.07.44
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 09 Mar 2022 11:07:44 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20220309140728.26966673.261607@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwuFaCV2iMtEWcnZBfFz4hpmmT5Nd1qOfvdMBZaeqjE676ZecA8ukB/QLlrkQ3vY+A994CVHX7HwFxg9Ylqb3uwLE59hVY=
+X-Received: by 2002:a05:6102:3593:b0:320:c282:c835 with SMTP id h19-20020a056102359300b00320c282c835mr551221vsu.12.1646852864457;
+        Wed, 09 Mar 2022 11:07:44 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1646852864; cv=none;
+        d=google.com; s=arc-20160816;
+        b=GR6RSIdDJooVxkpbNmfMK4JX1MpyI2BnoYxcf2gChj97xN2W8e39bDrZ2u/ajPeCjl
+         qmVP7C4TZ/VbueHoJInAN9ZwIC467vh16nQgf87M5e9nolPlyA2LKVhjow42+HVxQWwx
+         Q7SNy9+HZceVM9/GDneIArEBkr/p6ckmVzqNxbnBPLRKUxQ5gXgrfk4VZiwcpW8zdeSn
+         Mk0MHlbVhS39LMA2Fwvi3NYI4NR42oW7v4EujkVr+pgAXwOeTtZGEoxMwOMxhIeFmYgq
+         sqvaneLhEFVOmbKxswZPJS9mTJFemKWAtZ6BbkW3Ps4OQuCE9aKk133NtJ3ff4dOD4ZR
+         Gs6Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=oeADHI4sUF/wYczQu7ysknN8XWRkxQaOeCDD9p1+AxM=;
+        b=bP2j6KXi/v1QxGmcAb3EGt44q5IO/akdYdRdO2JuDiVp+/6fV1v4RcdplnlPomwkAb
+         qnKI8dnKKr0s2okdQpGS4Xp4HGHsYuvcKkuUzVKrNyTY5vUvocxwEIdqizit2ZkxGnUY
+         dLnAqNy56tbylUtu1YdjAOWPVLqPXqGBbT2YvIqrBLKAWHuKHKjL6bwICh5uzHM7Ctkk
+         r+vfZVaTzyBD7Ed+wz6xWT4w1sldbJFnYquA8Ob+ekSFy+1GUuf40kBfm3KJrL903SjO
+         lFkkDkHBbM5TTIRUir3cdFju7UDicTSwqQ+01JY2A2qwyrlG9V0syIyEq9mwZu6G9ns1
+         KpQQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="BT7uL/4V";
+       spf=pass (google.com: domain of delivery_20220309140728.26966673.261607@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220309140728.26966673.261607@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220309140728.26966673.261607@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id d13-20020a1f9b0d000000b0032f06dfd587si169369vke.1.2022.03.09.11.07.36
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 09 Mar 2022 11:07:44 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20220309140728.26966673.261607@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=rUfQIYH9ZJjtaLrrFtMyu8Z+2YdNzx1Kjwt1kOldkRE=;
+ b=BT7uL/4V5Umc0LrGljT2RXekgY0loDV7qF5m4awv4YvaMhSl8Jlwh8/jmgt0rH9g1LHQzJ0C/09a
+   +WJzNprlys0dJNXeMDfTv6MTPxeGbAb+I0Fw/eF1V5D1vSfS6nr8NqKDHnUGgTWrC9UIQspwLZyZ
+   ytejSEPDtDQql6rKp9Y=
+Received: from njmta-53.sailthru.com (173.228.155.53) by bloomberg-b.sailthru.com id h53tfi2tkt01 for <bloomberg@khamel.com>; Wed, 9 Mar 2022 14:07:28 -0500 (envelope-from <delivery_20220309140728.26966673.261607@mx.sailthru.com>)
+Received: from nj1-oddlime.flt (172.18.20.14) by njmta-53.sailthru.com id h53tf01qqbsj for <bloomberg@khamel.com>; Wed, 9 Mar 2022 14:07:28 -0500 (envelope-from <delivery_20220309140728.26966673.261607@mx.sailthru.com>)
+Date: Wed, 9 Mar 2022 14:07:28 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220309140728.26966673.261607@sailthru.com>
+Subject: ESG Goes to War
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10752429_1036174465.1646852848304"
+Precedence: bulk
+X-Feedback-ID: 6358:26966673:campaign:sailthru
+X-TM-ID: 20220309140728.26966673.261607
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddlime.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg1zm9.5luv/3f76beff
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg1zm9.5luv/3f76beff>, <mailto:unsubscribe_20220309140728.26966673.261607@mx.sailthru.com>
+X-rpcampaign: stjko26966673
+
+------=_Part_10752429_1036174465.1646852848304
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        ESG=E2=80=9C=E2=80=98It=E2=80=99s the first European war in the ESG=
+ age,=E2=80=99 says Steven Fox, chief executive of the strategic intelligen=
+ce group Veracity Worldwide=E2=80=9D t
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      ESG
+   =20
+ =20
+=E2=80=9C=E2=80=98It=E2=80=99s the first European war in the ESG age,=E2=80=
+=99 says Steven Fox, chief executive of the strategic intelligence group Ve=
+racity Worldwide=E2=80=9D to the Financial Times. He is talking specificall=
+y about a decision by Levi Strauss & Co. to pull out of the Russian market =
+following Russia=E2=80=99s invasion of Ukraine, and more broadly about deci=
+sions by lots of international companies to pull out of Russia to protest t=
+he invasion, or to comply with sanctions, or to avoid the risk and uncertai=
+nty and bad publicity of staying in Russia. It is quite a line. In the olde=
+n days =E2=80=94=C2=A010 years ago? =E2=80=94=C2=A0big public companies wer=
+e essentially in the business of maximizing cash flows for shareholders; th=
+ey might pull out of a war zone to avoid risk, but you would not expect eve=
+ry public company to take a moral stand on every important issue. In the ne=
+w world of environmental, social and governance investing, companies are ex=
+pected to be moral actors.More specifically, in the new world of ESG=C2=A0a=
+nd the invasion of Ukraine, companies have to think about three competing g=
+oals:=09Make money for shareholders.=09Do stuff that was ESG a month ago, m=
+eaning a certain amount of social and governance stuff but=C2=A0primarily=
+=C2=A0reducing carbon emissions.=09Be patriotic participants in Ukraine=E2=
+=80=99s, and the world=E2=80=99s, defense against Russian invasion.In many =
+cases, Things 2 and 3 push in the same direction: Russia=E2=80=99s ability =
+to wage war is funded by oil and gas exports,=C2=A0its war effort is helped=
+ by high oil and gas prices, so reducing the use of oil and gas is=C2=A0bot=
+h=C2=A0good for the environment=C2=A0and=C2=A0good for Ukraine.There are no=
+table exceptions, though, particularly for oil and gas companies. If you=E2=
+=80=99re an oil company, opening lots of marginal projects to drill lots of=
+ oil is=C2=A0bad=C2=A0for the environment, and something that your ESG-focu=
+sed shareholders disliked a month ago, but it also reduces oil prices and s=
+o is=C2=A0good=C2=A0for Ukraine.=C2=A0And so on the one hand oil producers =
+get ESG-ish patriotic pressure to increase drilling, even at the cost of sh=
+areholder returns:The Biden administration has ratcheted up pressure on US =
+shale producers, telling them they should be doing =E2=80=9Cwhatever it tak=
+es=E2=80=9D to increase supply and tame oil prices that have soared followi=
+ng Vladimir Putin=E2=80=99s invasion of Ukraine.Amos Hochstein, the state d=
+epartment=E2=80=99s special envoy and co-ordinator for international energy=
+ affairs, dismissed as =E2=80=9Cnonsense=E2=80=9D industry claims that Whit=
+e House policies are holding back drilling and instead blamed Wall Street i=
+nvestors he said were hungry for returns. =E2=80=A6=E2=80=9CIf there=E2=80=
+=99s anyone that=E2=80=99s standing in the way, according to them, it=E2=80=
+=99s their financial backers, who are insisting on dividends and fiscal dis=
+cipline in the face of a war in Europe, and the highest prices we have seen=
+ in a couple of generations,=E2=80=9D Hochstein told the Financial Times in=
+ an interview on the sidelines of the CERAWeek energy conference in Houston=
+.Hochstein added: =E2=80=9CAnd that=E2=80=99s not a US government problem. =
+If there=E2=80=99s a bottleneck it is on Wall Street. They should call thei=
+r financiers and tell them there=E2=80=99s a war going on. The American pub=
+lic is paying the price.=E2=80=9DAnd on the other hand companies=C2=A0still=
+ get ESG-ish environmental pressure to reduce drilling, even at the cost of=
+ shareholder returns:Credit Suisse is facing shareholder calls to cut its f=
+ossil fuel exposure while a new study has revealed European companies=E2=80=
+=99 slow progress on emissions, as pressure mounts on the corporate world t=
+o step up its climate efforts.Investors with =E2=82=AC2.2tn under managemen=
+t filed a resolution at the Swiss bank on Wednesday calling for it to slash=
+ its exposure to oil, gas and coal assets. =E2=80=A6Credit Suisse has lent =
+more than $82bn to fossil fuel companies and projects since the 2016 signin=
+g of the Paris agreement and is Europe=E2=80=99s top bank for the provision=
+ of coal mining finance, according to the two charities. =E2=80=A6Rob Baile=
+y, partner at Oliver Wyman, said he expected to see the emissions-cutting r=
+ate =E2=80=9Cstart to improve=E2=80=9D as companies move from focusing on s=
+etting targets to implementing them.Maxfield Weiss, executive director at C=
+DP Europe, said if investors could take =E2=80=9Csuper fast action in the f=
+ace of crises=E2=80=9D such as the Ukraine war, it =E2=80=9Craises a questi=
+on=E2=80=9D about whether companies and financial institutions were acting =
+fast enough to tackle climate change.Tell them there=E2=80=99s a war going =
+on!The old-school theory of corporate finance, in which the duty of a publi=
+c company is to maximize shareholder value, was not really about this being=
+ the=C2=A0best=C2=A0goal; rather, it was about the clarity=C2=A0of having=
+=C2=A0one=C2=A0goal. It is not always obvious what a company should do to m=
+aximize shareholder value, but it is more or less obvious when a company ha=
+s succeeded (the stock goes up). With ESG, that is not true: Different shar=
+eholders, stakeholders, governments, etc., could have different views about=
+ what is good for the environment, governance or (particularly) society. =
+=E2=80=9CDo what is good for shareholder value=E2=80=9D does not exactly te=
+ll executives what to do, but it does=C2=A0hold them to account=C2=A0for do=
+ing it. =E2=80=9CDo what is good for society=E2=80=9D does not really do ev=
+en that. Is it good for society to drill more oil to keep oil prices down, =
+or to drill less oil to keep emissions down?=C2=A0Meanwhile, we  talked las=
+t week about how producing military weapons was not especially ESG, but has=
+ now, given the increased risk of Russian aggression against Europe, become=
+ much more ESG. But  not entirely ESG:Hundreds of ESG funds run by some of =
+the world=E2=80=99s biggest money managers have a combined $13.4 billion st=
+ake in companies that supply weapons and technology to the Myanmar military=
+, according to a report.The funds, which say they take into account environ=
+mental, social and governance risks, have investments across 33 companies t=
+hat the United Nations and two advocacy groups say provided weapons, commun=
+ications and technologies to the military, Inclusive Development Internatio=
+nal and ALTSEAN-Burma said in a report released Wednesday. ...At the same t=
+ime, some analysts and investors are making a new case for the defense indu=
+stry and military technologies on moral or political grounds, as a measure =
+of support for companies that supply the Ukrainian army.=C2=A0David Pred, e=
+xecutive director of Inclusive Development International, said there=E2=80=
+=99s no place for arms manufacturers in ESG funds, =E2=80=9Cfull stop.=E2=
+=80=9D=C2=A0=E2=80=9CAnd certainly not companies that supply regimes that a=
+re using those weapons on innocent civilians and for non-defensive purposes=
+,=E2=80=9D he said. =E2=80=9CFor us, it is about the human impact of the co=
+mpany and its product, there=E2=80=99s just no reasonable argument for arms=
+ makers to be in these funds.=E2=80=9DIf you are an ESG investor you need t=
+o have a theory of international relations that tells you whether it is a n=
+et=C2=A0good or bad for human flourishing for democracies to procure powerf=
+ul weapons to deter and/or conduct wars. If you were a non-ESG investor you=
+ just had to know if companies could sell the weapons at a profit. But you =
+can=E2=80=99t do that anymore. Even if you care only about money, now ESG i=
+nforms both what companies will do and how markets will react. It=E2=80=99s=
+ the ESG age now.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Aircraft leasing
+   =20
+ =20
+The problem with lending money against airplanes as collateral is that =E2=
+=80=A6=C2=A0your collateral can fly away?  Seems like a big risk?Russia=E2=
+=80=99s decision to block foreign owners from seizing hundreds of planes wo=
+rth about $10 billion is roiling a market where aircraft leases are bundled=
+ into bonds and sold to investors.European Union sanctions imposed on Russi=
+a because of its Ukraine invasion give plane owners until March 28 to retri=
+eve the vehicles. But only a handful have been extracted, and hopes for mor=
+e are dim.And so some asset-backed securities in the aviation space are com=
+ing under duress as a result. Although these types of transactions are desi=
+gned to survive cash flow problems at the airlines leasing the planes, full=
+y losing access to planes under these circumstances almost guarantees that =
+lease payments that feed these ABS deals will soon dry up, with recourse un=
+certain.One fascinating thing here is that, if you are a lessor or lender, =
+you have a lot of=C2=A0legal=C2=A0levers to pull to try to get your planes =
+back, and the lessors are getting creative about pulling them. The lessor c=
+an for instance affect the insurance status of the plane, which can affect =
+its official airworthiness, which  can get it grounded:Those able to react =
+quickly have been able to salvage a handful of planes whose insurance and a=
+irworthiness certifications are being revoked one by one.=C2=A0Aircastle Lt=
+d., a Stamford, Connecticut-based lessor, used the confusion over the insur=
+ance status of one of its jets to take possession as it made a stopover in =
+Mexico City. =E2=80=A6In another case reported by The Air Current, an Airbu=
+s A321neo on its way to Cairo had its airworthiness certificate revoked by =
+authorities in Bermuda mid-flight after it lost its insurance.=C2=A0Its own=
+er, lessor SMBC Aviation Capital, attempted to repossess the plane after it=
+ landed but it was able to return to Moscow, the outlet said.But on the oth=
+er hand the lessee =E2=80=94=C2=A0the Russian airline =E2=80=94=C2=A0can ju=
+st launch the plane into the sky and fly it to Russia, where you can't get =
+it! =E2=80=9CCome back, you forgot your airworthiness certificate,=E2=80=9D=
+ you can shout forlornly as the plane flies away. But the airworthiness cer=
+tificate is an artifice of regulation, while the plane is a plane and can f=
+ly away.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Good timing
+   =20
+ =20
+One kind of trading that you could do is betting on which companies will be=
+ acquired. You identify a company, you think =E2=80=9Cthis company is ripe =
+for a takeover at a premium,=E2=80=9D and you buy its stock hoping that you=
+=E2=80=99re right. Or, even better, you buy=C2=A0call options=C2=A0on the c=
+ompany, to make a levered bet that there will be a takeover soon,=C2=A0befo=
+re your options expire.=C2=A0People do this, it=E2=80=99s a thing, but it s=
+trikes me as a somewhat unpleasant business? There are basically two possib=
+le outcomes:=09You are wrong and lose money.=09You are right and make money=
+, but everyone is like =E2=80=9Cboy it is=C2=A0pretty suspicious=C2=A0that =
+you bought all these call options right before a takeover was announced=E2=
+=80=9D and you get investigated for insider trading.Also honestly if you ar=
+e good at this =E2=80=94=C2=A0if you are right a lot =E2=80=94=C2=A0it is p=
+robably because you cultivate the sorts of relationships and gossip network=
+s that will make people extra suspicious about your good timing?=C2=A0Anywa=
+y:Federal prosecutors and securities regulators are investigating large bet=
+s that Barry Diller, Alexander von Furstenberg and David Geffen made on Act=
+ivision Blizzard Inc. shares in January, days before the videogame maker ag=
+reed to be acquired by Microsoft Corp., according to people familiar with t=
+he matter. =E2=80=A6Messrs. Diller, von Furstenberg and Geffen bought optio=
+ns to purchase Activision shares at $40 each on Jan. 14 in privately arrang=
+ed transactions through JPMorgan Chase & Co., the people said. Activision s=
+hares were trading around $63 at the time, meaning the options were already=
+ profitable to exercise, or =E2=80=9Cin the money.=E2=80=9D Option holders =
+could reap more if Activision=E2=80=99s stock price rose.Mr. Diller said in=
+ an interview that none of the men had material nonpublic information about=
+ the Microsoft-Activision deal. He confirmed they had been contacted by reg=
+ulators.=E2=80=9CIt was simply a lucky bet,=E2=80=9D he said. =E2=80=9CWe a=
+cted on no information of any kind from anyone. It is one of those coincide=
+nces.=E2=80=9D ...The three men haven=E2=80=99t yet exercised the options, =
+which don=E2=80=99t expire until early next year, the people said.The trade=
+rs appear to have spent around $108 million to acquire the right to buy 4.1=
+2 million Activision shares, the people said. Those options are now valued =
+at around $168 million, based on recent trading prices. The value of the op=
+tions would rise further if the deal closes at the stated per-share price o=
+f $95, which Microsoft has said is expected after midyear. If the men hold =
+the options through a closing at that price, their profit stands to surpass=
+ $100 million, the people said.=C2=A0Mr. Diller has served on the board of =
+directors of Coca-Cola Co. with Activision Chief Executive Bobby Kotick.=C2=
+=A0Just one of those things! I mean. The thing is that if Bobby Kotick call=
+ed you up and said =E2=80=9Chey we=E2=80=99re doing a merger in four days=
+=E2=80=9D and you bought call options you=E2=80=99d be whisked off to jail =
+immediately; these people seem smart and well-advised so I am going to assu=
+me that =E2=80=9Csimply a lucky bet=E2=80=9D is the correct explanation.[1]=
+ Still. Arguably too lucky. So lucky that it=E2=80=99s unlucky.My favorite =
+part of this might be that these are not listed options that you can buy=C2=
+=A0on the exchange, but rather over-the-counter options that they negotiate=
+d directly with JPMorgan Chase & Co. I don=E2=80=99t know how JPMorgan hedg=
+ed the options that it sold, but ordinarily you would expect that a bank se=
+lling options like this would=C2=A0lose money if the stock shot up due to a=
+ merger announcement. Not so=C2=A0much money, given how they were probably =
+hedged =E2=80=94=C2=A0certainly not the $60 million that these guys made =
+=E2=80=94=C2=A0but perhaps a few million dollars.[2] If you are a trader at=
+ a bank and the salesperson covering rich well-connected entertainment-indu=
+stry clients comes to you and says =E2=80=9Chey I need to buy $108 million =
+of options for my guys, this is a great trade for us,=E2=80=9D and you quot=
+e a price and sell those options, and then=C2=A0four days later=C2=A0there=
+=E2=80=99s a merger announcement and you take a loss, you will be mad. You =
+will go over to the salesperson and complain. You will want to know what th=
+e buyers knew and when they knew it.=C2=A0You will perhaps want revenge. Yo=
+u will perhaps get it:JPMorgan reported the trades to law enforcement after=
+ the deal became public, the people said. Under the terms of a criminal set=
+tlement it reached in September 2020 related to market-manipulation claims,=
+ JPMorgan is required to disclose to law enforcement evidence or concerns a=
+bout misconduct over the duration of the three-year agreement. JPMorgan dec=
+lined to comment.=E2=80=9CSorry, I=E2=80=99m required to report this to the=
+ Feds, nothing I can do about it,=E2=80=9D=C2=A0you say through clenched te=
+eth.
+ =20
+   =20
+      Tim Leissner!
+   =20
+ =20
+Tim Leissner is a former Goldman Sachs Group Inc. banker who  did a ton of =
+crimes in connection with the looting of Malaysian development fund 1MDB. H=
+e has pleaded guilty and is cooperating with prosecutors who are trying his=
+ former subordinate, Roger Ng, for allegedly assisting him with some of tho=
+se crimes. Leissner has been testifying at Ng's trial, and recently Ng=E2=
+=80=99s lawyers have been cross-examining him to try to undermine his testi=
+mony. This seems to consist mostly of asking him about all the times he lie=
+d, in order to suggest to the jury that he=E2=80=99s probably lying now.Thi=
+s is going to take a while, because Leissner seems to have been one of the =
+most astonishing liars in the modern financial industry. We have  talked be=
+fore about how he=C2=A0twice faked divorces=C2=A0to marry other women;  now=
+ here=E2=80=99s this:Ex-Goldman Sachs star banker Tim Leissner detailed Tue=
+sday how he used an email account with his ex-wife=E2=80=99s name for all s=
+orts of shenanigans, beginning with a lie to his girlfriend at the time, Ki=
+mora Lee Simmons.=C2=A0Posing as his then-wife Judy Chan, Leissner initiall=
+y used the account to try to convince Simmons the two were no longer marrie=
+d. But he went on to pose as Chan for years to converse with Simmons about =
+family vacations and other topics. ...Leissner was questioned Tuesday about=
+ the phony email account by Ng=E2=80=99s lawyer, Marc Agnifilo, who=E2=80=
+=99s trying to undermine the banker=E2=80=99s credibility by showing the ju=
+ry that he=E2=80=99s a =E2=80=9Crare cunning liar,=E2=80=9D as the attorney=
+ told the judge.While posing as Chan, Leissner declined Simmons=E2=80=99s r=
+epeated invitations for Chan and her children to vacation with the former m=
+odel and her family in Paris, an Austrian ski holiday and a private Caribbe=
+an island. In one email created by Leissner, Chan told Simmons she=E2=80=99=
+d be unable to visit because she and her children with Leissner had been in=
+jured in a car accident.=E2=80=9CIt was an entire life you completely falsi=
+fied because you made the whole thing up?=E2=80=9D an incredulous Agnifilo =
+asked.=E2=80=9CThe correspondence yes,=E2=80=9D Leissner said. =E2=80=9CBut=
+ an entire life may be too far.=E2=80=9D =C2=A0=E2=80=9CSure like 90% of my=
+ life was fake, but 100%? That seems high.=E2=80=9D I am not sure how much =
+prosecutors really=C2=A0need=C2=A0Leissner=E2=80=99s testimony; the looting=
+ of 1MDB was  pretty egregious, and=C2=A0presumably there is documentary ev=
+idence of Ng's participation. It=E2=80=99s plausible that the jury could (1=
+) conclude that Leissner is lying about everything he says but (2) convict =
+Ng anyway. I wouldn=E2=80=99t, though. I am offended that prosecutors put t=
+his serial liar=C2=A0on the stand to testify against his surely-not-nearly-=
+as-bad underling, and if I were on the jury I=E2=80=99d  acquit on principl=
+e.=C2=A0Also it continues to amaze me that this guy was a Goldman Sachs Gro=
+up Inc. partner. (Disclosure, I used to work at Goldman.) I feel like there=
+ is a sort of oscillating hierarchy of honesty in investment banking:=09If =
+you are perfectly honest, that will limit your career. =E2=80=9CDon=E2=80=
+=99t do this merger,=E2=80=9D you will say to clients, too often.=C2=A0=09I=
+f you are a reasonable amount of dishonest =E2=80=94=C2=A0honest, but with =
+some caveats =E2=80=94=C2=A0then you are what people call =E2=80=9Ccommerci=
+al,=E2=80=9D the highest praise for an investment banker, and you will go f=
+ar.=C2=A0The job involves getting clients to do deals and pay you large fee=
+s, and that calls for a certain ability to feign enthusiasm, misdirect atte=
+ntion, etc. Sure=C2=A0you should never=C2=A0lie=C2=A0to clients, but you mi=
+ght=C2=A0want to choose what to emphasize in ways that help the=C2=A0bottom=
+ line.=09If you are=C2=A0too=C2=A0dishonest, that will again limit your car=
+eer: A banker who lies to clients, or to colleagues, is a=C2=A0regulatory a=
+nd reputational risk; Goldman, at least, retains enough of its old partners=
+hip culture that no one will want a partner whom they can=E2=80=99t trust.=
+=09If you are=C2=A0incredibly, absurdly=C2=A0dishonest then I guess you get=
+=C2=A0good at it and can convince all the partners that you=E2=80=99re actu=
+ally honest enough to make partner? Those are the really risky ones.
+ =20
+   =20
+      A TikTok
+   =20
+ =20
+Here=E2=80=99s a TikTok dance video=C2=A0about how Vanguard and BlackRock o=
+wn all the companies? It=E2=80=99s =E2=80=A6=C2=A0not =E2=80=A6=C2=A0right?=
+ =E2=80=A6=C2=A0or =E2=80=A6=C2=A0good? =E2=80=A6=C2=A0but it is =E2=80=A6=
+=C2=A0a TikTok dance video about how Vanguard and BlackRock own all the com=
+panies? This is an idea that we  talk about from  time to  time around here=
+, and that I like to think I played some role in popularizing, though now o=
+f course I regret all of my choices. I cannot recommend this video, but I d=
+o feel obligated to mention it.=C2=A0
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Matt Klein: The Implications of Unrestricted Financial Warfare. Biden Pushe=
+s for Coordinated Approach to  Crypto Oversight.=C2=A0Germany Is Stalling E=
+U Efforts to Broaden Russia=E2=80=99s  SWIFT Ban. Russia=E2=80=99s techies =
+flee country they fear is =E2=80=98flying into an abyss=E2=80=99. How Amban=
+i  Outfoxed Amazon in a $3.4 Billion Deal Dispute.=C2=A0Mainstream Hedge Fu=
+nds Pour Billions of Dollars Into Crypto. USA Today Owner Gannett Co. Gave =
+Advertisers Inaccurate Information for Nine Months.=C2=A0SMBC Nikko complai=
+ned to regulators over trader=E2=80=99s death after questioning. Will Russi=
+an default lead to another pari passu saga?=C2=A0Gauloises Cigarette Maker =
+Halts Russia Operations Amid Sanctions.=C2=A0A-Rod Backs New App That=E2=80=
+=99s a =E2=80=98Stock Market=E2=80=99 for  Fans of Athletes. =E2=80=9CThe m=
+int Charizard trading card will be auctioned off with other fraudulently ob=
+tained luxury items seized by the U.S. Marshals.=E2=80=9DIf you'd like to g=
+et=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, ple=
+ase=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and ot=
+her great Bloomberg newsletters here. Thanks![1] Of course careful readers =
+of Money Stuff know what you should do if Bobby Kotick calls you and says =
+=E2=80=9Chey we=E2=80=99re doing a merger in four days.=E2=80=9D You buy ca=
+ll options on, like, Electronic Arts Inc., figuring that *it* will go up on=
+ news of a takeover in its industry. In fact EA was up 2.7% on Jan. 18, whi=
+le Activision was up 25.9%, so this wouldn=E2=80=99t work out great, but yo=
+u also probably wouldn=E2=80=99t get investigated. This is called =E2=80=9C=
+ shadow trading=E2=80=9D and hoo boy is it not legal advice! To be clear th=
+e SEC thinks it=E2=80=99s illegal! Probably![2] The textbook hedge for sell=
+ing a call option is to buy some of the underlying shares, but not all of t=
+hem; as the stock goes up you have to buy more shares. (Here my guess is th=
+at the delta on the trade date was around 90%, and jumped up to around 96% =
+when the deal was announced.) If the stock jumps up discontinuously because=
+ of a merger announcement =E2=80=94=C2=A0Activision closed at $65.39 the Fr=
+iday before the deal announcement and opened at $86.77 the next day =E2=80=
+=94 you lose money, buying lots of stock at a higher price. Other hedges ar=
+e possible =E2=80=94=C2=A0JPMorgan could have bought listed options, etc. =
+=E2=80=94=C2=A0and for all I know JPMorgan did well on this trade, but my b=
+aseline assumption is that it probably didn=E2=80=99t.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg1zm9.5luv/e9898223.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_10752429_1036174465.1646852848304
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+ESG=E2=80=9C=E2=80=98It=E2=80=99s the first European war in the ESG age,=E2=
+=80=99 says Steven Fox, chief executive of the strategic intelligence group=
+ Veracity Worldwide=E2=80=9D t
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjk2NjY3MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMjgyODAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBf8632d2f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26966673&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27228280&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB90dceb50"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjk2NjY3MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMjgyODAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCd5cb82d3" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26966673&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27228280&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">ESG</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">=E2=80=9C=E2=80=98It=E2=80=99s the fir=
+st European war in the ESG age,=E2=80=99 says Steven Fox, chief executive o=
+f the strategic intelligence group Veracity Worldwide=E2=80=9D <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/26966673.261607/aHR0cHM6Ly93d3=
+cuZnQuY29tL2NvbnRlbnQvMDg3ZmNiM2QtZDVjYi00NWU3LTg0ZGYtMzBhOTAyMGNhMTAz/607f=
+07ceef4b8524a319a23cB51e920ba" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">to the Financial Times</a>. He is ta=
+lking specifically about a decision by Levi Strauss &amp; Co. to pull out o=
+f the Russian market following Russia=E2=80=99s invasion of Ukraine, and mo=
+re broadly about decisions by lots of international companies to pull out o=
+f Russia to protest the invasion, or to comply with sanctions, or to avoid =
+the risk and uncertainty and bad publicity of staying in Russia. It is quit=
+e a line. In the olden days =E2=80=94=C2=A010 years ago? =E2=80=94=C2=A0big=
+ public companies were essentially in the business of maximizing cash flows=
+ for shareholders; they might pull out of a war zone to avoid risk, but you=
+ would not expect every public company to take a moral stand on every impor=
+tant issue. In the new world of environmental, social and governance invest=
+ing, companies are expected to be moral actors.</p><p style=3D"margin: 16px=
+ 0;">More specifically, in the new world of ESG=C2=A0<em>and the invasion o=
+f Ukraine</em>, companies have to think about three competing goals:</p><ol=
+ style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Make money for shareholders.</li>=09<l=
+i style=3D"margin-bottom: 5px;">Do stuff that was ESG a month ago, meaning =
+a certain amount of social and governance stuff but=C2=A0<em>primarily=C2=
+=A0</em>reducing carbon emissions.</li>=09<li style=3D"margin-bottom: 5px;"=
+>Be patriotic participants in Ukraine=E2=80=99s, and the world=E2=80=99s, d=
+efense against Russian invasion.</li></ol><p style=3D"margin: 16px 0;">In m=
+any cases, Things 2 and 3 push in the same direction: Russia=E2=80=99s abil=
+ity to wage war is funded by oil and gas exports,=C2=A0its war effort is he=
+lped by high oil and gas prices, so reducing the use of oil and gas is=C2=
+=A0<em>both=C2=A0</em>good for the environment=C2=A0<em>and=C2=A0</em>good =
+for Ukraine.</p><p style=3D"margin: 16px 0;">There are notable exceptions, =
+though, particularly for oil and gas companies. If you=E2=80=99re an oil co=
+mpany, opening lots of marginal projects to drill lots of oil is=C2=A0<em>b=
+ad=C2=A0</em>for the environment, and something that your ESG-focused share=
+holders disliked a month ago, but it also reduces oil prices and so is=C2=
+=A0<em>good=C2=A0</em>for Ukraine.=C2=A0</p><p style=3D"margin: 16px 0;">An=
+d so on the one hand oil producers get ESG-ish <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/26966673.261607/aHR0cHM6Ly93d3cuZnQuY29tL2Nvbn=
+RlbnQvZmVlODhlODAtOGJhOS00YWI4LTlkNzktY2JkOTIzNWRkMjli/607f07ceef4b8524a319=
+a23cBf10bb053" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">patriotic pressure to increase drilling</a>, even at=
+ the cost of shareholder returns:</p><blockquote><p style=3D"margin: 16px 0=
+;">The Biden administration has ratcheted up pressure on US shale producers=
+, telling them they should be doing =E2=80=9Cwhatever it takes=E2=80=9D to =
+increase supply and tame oil prices that have soared following Vladimir Put=
+in=E2=80=99s invasion of Ukraine.</p><p style=3D"margin: 16px 0;">Amos Hoch=
+stein, the state department=E2=80=99s special envoy and co-ordinator for in=
+ternational energy affairs, dismissed as =E2=80=9Cnonsense=E2=80=9D industr=
+y claims that White House policies are holding back drilling and instead bl=
+amed Wall Street investors he said were hungry for returns. =E2=80=A6</p><p=
+ style=3D"margin: 16px 0;">=E2=80=9CIf there=E2=80=99s anyone that=E2=80=99=
+s standing in the way, according to them, it=E2=80=99s their financial back=
+ers, who are insisting on dividends and fiscal discipline in the face of a =
+war in Europe, and the highest prices we have seen in a couple of generatio=
+ns,=E2=80=9D Hochstein told the Financial Times in an interview on the side=
+lines of the CERAWeek energy conference in Houston.</p><p style=3D"margin: =
+16px 0;">Hochstein added: =E2=80=9CAnd that=E2=80=99s not a US government p=
+roblem. If there=E2=80=99s a bottleneck it is on Wall Street. They should c=
+all their financiers and tell them there=E2=80=99s a war going on. The Amer=
+ican public is paying the price.=E2=80=9D</p></blockquote><p style=3D"margi=
+n: 16px 0;">And on the other hand companies=C2=A0still get ESG-ish <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvYTg4NTIzMmUtNGE0ZS00MzhhLWIyODUtY2NlMTJhMWE3YzBj=
+/607f07ceef4b8524a319a23cB36aa75be" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">environmental pressure to reduc=
+e drilling</a>, even at the cost of shareholder returns:</p><blockquote><p =
+style=3D"margin: 16px 0;">Credit Suisse is facing shareholder calls to cut =
+its fossil fuel exposure while a new study has revealed European companies=
+=E2=80=99 slow progress on emissions, as pressure mounts on the corporate w=
+orld to step up its climate efforts.</p><p style=3D"margin: 16px 0;">Invest=
+ors with =E2=82=AC2.2tn under management filed a resolution at the Swiss ba=
+nk on Wednesday calling for it to slash its exposure to oil, gas and coal a=
+ssets. =E2=80=A6</p><p style=3D"margin: 16px 0;">Credit Suisse has lent mor=
+e than $82bn to fossil fuel companies and projects since the 2016 signing o=
+f the Paris agreement and is Europe=E2=80=99s top bank for the provision of=
+ coal mining finance, according to the two charities. =E2=80=A6</p><p style=
+=3D"margin: 16px 0;">Rob Bailey, partner at Oliver Wyman, said he expected =
+to see the emissions-cutting rate =E2=80=9Cstart to improve=E2=80=9D as com=
+panies move from focusing on setting targets to implementing them.</p><p st=
+yle=3D"margin: 16px 0;">Maxfield Weiss, executive director at CDP Europe, s=
+aid if investors could take =E2=80=9Csuper fast action in the face of crise=
+s=E2=80=9D such as the Ukraine war, it =E2=80=9Craises a question=E2=80=9D =
+about whether companies and financial institutions were acting fast enough =
+to tackle climate change.</p></blockquote><p style=3D"margin: 16px 0;">Tell=
+ them there=E2=80=99s a war going on!</p><p style=3D"margin: 16px 0;">The o=
+ld-school theory of corporate finance, in which the duty of a public compan=
+y is to maximize shareholder value, was not really about this being the=C2=
+=A0<em>best=C2=A0</em>goal; rather, it was about the clarity=C2=A0of having=
+=C2=A0<em>one=C2=A0</em>goal. It is not always obvious what a company shoul=
+d do to maximize shareholder value, but it is more or less obvious when a c=
+ompany has succeeded (the stock goes up). With ESG, that is not true: Diffe=
+rent shareholders, stakeholders, governments, etc., could have different vi=
+ews about what is good for the environment, governance or (particularly) so=
+ciety. =E2=80=9CDo what is good for shareholder value=E2=80=9D does not exa=
+ctly tell executives what to do, but it does=C2=A0<em>hold them to account=
+=C2=A0</em>for doing it. =E2=80=9CDo what is good for society=E2=80=9D does=
+ not really do even that. Is it good for society to drill more oil to keep =
+oil prices down, or to drill less oil to keep emissions down?=C2=A0</p><p s=
+tyle=3D"margin: 16px 0;">Meanwhile, we <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/26966673.261607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjItMDMtMDEvbm9ib2R5LXdhbnRzLXJ1c3NpYW4tYXNzZXRzP2Ntc=
+GlkPUJCRDAzMDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdz=
+bGV0dGVyJnV0bV90ZXJtPTIyMDMwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b=
+8524a319a23cBbb251eba" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> talked last week</a> about how producing mi=
+litary weapons was not especially ESG, but has now, given the increased ris=
+k of Russian aggression against Europe, become much more ESG. But <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDkvZXNnLWludmVzdG9y=
+cy1ob2xkLTEzLTQtYmlsbGlvbi1pbi1teWFubWFyLW1pbGl0YXJ5LXN1cHBsaWVycz9jbXBpZD1=
+CQkQwMzA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMjAzMDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cBa5e66bed" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> not entirely ESG</a>:</p><blockquote><p style=3D=
+"margin: 16px 0;">Hundreds of ESG funds run by some of the world=E2=80=99s =
+biggest money managers have a combined $13.4 billion stake in companies tha=
+t supply weapons and technology to the Myanmar military, according to a rep=
+ort.</p><p style=3D"margin: 16px 0;">The funds, which say they take into ac=
+count environmental, social and governance risks, have investments across 3=
+3 companies that the United Nations and two advocacy groups say provided we=
+apons, communications and technologies to the military, Inclusive Developme=
+nt International and ALTSEAN-Burma said in a report released Wednesday. ...=
+</p><p style=3D"margin: 16px 0;">At the same time, some analysts and invest=
+ors are making a new case for the defense industry and military technologie=
+s on moral or political grounds, as a measure of support for companies that=
+ supply the Ukrainian army.=C2=A0</p><p style=3D"margin: 16px 0;">David Pre=
+d, executive director of Inclusive Development International, said there=E2=
+=80=99s no place for arms manufacturers in ESG funds, =E2=80=9Cfull stop.=
+=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;">=E2=80=9CAnd certainly not =
+companies that supply regimes that are using those weapons on innocent civi=
+lians and for non-defensive purposes,=E2=80=9D he said. =E2=80=9CFor us, it=
+ is about the human impact of the company and its product, there=E2=80=99s =
+just no reasonable argument for arms makers to be in these funds.=E2=80=9D<=
+/p></blockquote><p style=3D"margin: 16px 0;">If you are an ESG investor you=
+ need to have a theory of international relations that tells you whether it=
+ is a net=C2=A0good or bad for human flourishing for democracies to procure=
+ powerful weapons to deter and/or conduct wars. If you were a non-ESG inves=
+tor you just had to know if companies could sell the weapons at a profit. B=
+ut you can=E2=80=99t do that anymore. Even if you care only about money, no=
+w ESG informs both what companies will do and how markets will react. It=E2=
+=80=99s the ESG age now.</p><table class=3D"liveintent-sponsored-content" w=
+idth=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjk2NjY3MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMjgyODAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD93e0eedd" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26966673&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27228280&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjk2NjY3MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMjgyODAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE93e0eedd" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26966673&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27228280&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjk2NjY3MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMjgyODAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF23645f41" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26966673&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27228280&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjk2NjY3MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMjgyODAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG23645f41" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26966673&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27228280&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Aircraft leasing</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The problem with lending money against=
+ airplanes as collateral is that =E2=80=A6=C2=A0your collateral can fly awa=
+y? <a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDgvcnVzc2=
+lhLXJvaWxzLXBsYW5lLWJhY2tlZC1ib25kcy1ieS1rZWVwaW5nLTEwLWJpbGxpb24tb2YtamV0c=
+z9jbXBpZD1CQkQwMzA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cB959a58e3" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> Seems like a big risk</a>?</p><blockqu=
+ote><p style=3D"margin: 16px 0;">Russia=E2=80=99s decision to block foreign=
+ owners from seizing hundreds of planes worth about $10 billion is roiling =
+a market where aircraft leases are bundled into bonds and sold to investors=
+.</p><p style=3D"margin: 16px 0;">European Union sanctions imposed on Russi=
+a because of its Ukraine invasion give plane owners until March 28 to retri=
+eve the vehicles. But only a handful have been extracted, and hopes for mor=
+e are dim.</p><p style=3D"margin: 16px 0;">And so some asset-backed securit=
+ies in the aviation space are coming under duress as a result. Although the=
+se types of transactions are designed to survive cash flow problems at the =
+airlines leasing the planes, fully losing access to planes under these circ=
+umstances almost guarantees that lease payments that feed these ABS deals w=
+ill soon dry up, with recourse uncertain.</p></blockquote><p style=3D"margi=
+n: 16px 0;">One fascinating thing here is that, if you are a lessor or lend=
+er, you have a lot of=C2=A0<em>legal=C2=A0</em>levers to pull to try to get=
+ your planes back, and the lessors are getting creative about pulling them.=
+ The lessor can for instance affect the insurance status of the plane, whic=
+h can affect its official airworthiness, which <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/26966673.261607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDgvb3duZXJzLW91dGZveGVkLWFzLXJ1c3NpYS1hY=
+nNjb25kcy13aXRoLTEwLWJpbGxpb24tb2YtamV0cz9jbXBpZD1CQkQwMzA5MjJfTU9ORVlTVFVG=
+RiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDk=
+mdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb340319f" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> can get it grounded</a>:</p><blockquote><p style=3D"margin: 16px 0;">Thos=
+e able to react quickly have been able to salvage a handful of planes whose=
+ insurance and airworthiness certifications are being revoked one by one.=
+=C2=A0</p><p style=3D"margin: 16px 0;">Aircastle Ltd., a Stamford, Connecti=
+cut-based lessor, used the confusion over the insurance status of one of it=
+s jets to take possession as it made a stopover in Mexico City. =E2=80=A6</=
+p><p style=3D"margin: 16px 0;">In another case reported by The Air Current,=
+ an Airbus A321neo on its way to Cairo had its airworthiness certificate re=
+voked by authorities in Bermuda mid-flight after it lost its insurance.=C2=
+=A0Its owner, lessor SMBC Aviation Capital, attempted to repossess the plan=
+e after it landed but it was able to return to Moscow, the outlet said.</p>=
+</blockquote><p style=3D"margin: 16px 0;">But on the other hand the lessee =
+=E2=80=94=C2=A0the Russian airline =E2=80=94=C2=A0can just launch the plane=
+ into the sky and fly it to Russia, where you can't get it! =E2=80=9CCome b=
+ack, you forgot your airworthiness certificate,=E2=80=9D you can shout forl=
+ornly as the plane flies away. But the airworthiness certificate is an arti=
+fice of regulation, while the plane is a plane and can fly away.</p><table =
+class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjk2NjY3MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMjgyODAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH64ebcb9f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26966673&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27228280&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Good timing</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One kind of trading that you could do =
+is betting on which companies will be acquired. You identify a company, you=
+ think =E2=80=9Cthis company is ripe for a takeover at a premium,=E2=80=9D =
+and you buy its stock hoping that you=E2=80=99re right. Or, even better, yo=
+u buy=C2=A0<em>call options=C2=A0</em>on the company, to make a levered bet=
+ that there will be a takeover <em>soon</em>,<em>=C2=A0</em>before your opt=
+ions expire.=C2=A0</p><p style=3D"margin: 16px 0;">People do this, it=E2=80=
+=99s a thing, but it strikes me as a somewhat unpleasant business? There ar=
+e basically two possible outcomes:</p><ol style=3D"list-style-type: decimal=
+; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;"=
+>You are wrong and lose money.</li>=09<li style=3D"margin-bottom: 5px;">You=
+ are right and make money, but everyone is like =E2=80=9Cboy it is=C2=A0<em=
+>pretty suspicious=C2=A0</em>that you bought all these call options right b=
+efore a takeover was announced=E2=80=9D and you get investigated for inside=
+r trading.</li></ol><p style=3D"margin: 16px 0;">Also honestly if you are g=
+ood at this =E2=80=94=C2=A0if you are right a lot =E2=80=94=C2=A0it is prob=
+ably because you cultivate the sorts of relationships and gossip networks t=
+hat will make people extra suspicious about your good timing?=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy91LXMtcHJvYmVzLW9wdGlvbnMtdHJhZGUtdGhhdC1nYWlu=
+ZWQtb24tbWljcm9zb2Z0LWFjdGl2aXNpb24tZGVhbC0xMTY0Njc4NzAwMD9tb2Q9aHBfbGVhZF9=
+wb3Mx/607f07ceef4b8524a319a23cBfc767472" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Anyway</a>:</p><blockquo=
+te><p style=3D"margin: 16px 0;">Federal prosecutors and securities regulato=
+rs are investigating large bets that Barry Diller, Alexander von Furstenber=
+g and David Geffen made on Activision Blizzard Inc. shares in January, days=
+ before the videogame maker agreed to be acquired by Microsoft Corp., accor=
+ding to people familiar with the matter. =E2=80=A6</p><p style=3D"margin: 1=
+6px 0;">Messrs. Diller, von Furstenberg and Geffen bought options to purcha=
+se Activision shares at $40 each on Jan. 14 in privately arranged transacti=
+ons through JPMorgan Chase &amp; Co., the people said. Activision shares we=
+re trading around $63 at the time, meaning the options were already profita=
+ble to exercise, or =E2=80=9Cin the money.=E2=80=9D Option holders could re=
+ap more if Activision=E2=80=99s stock price rose.</p><p style=3D"margin: 16=
+px 0;">Mr. Diller said in an interview that none of the men had material no=
+npublic information about the Microsoft-Activision deal. He confirmed they =
+had been contacted by regulators.</p><p style=3D"margin: 16px 0;">=E2=80=9C=
+It was simply a lucky bet,=E2=80=9D he said. =E2=80=9CWe acted on no inform=
+ation of any kind from anyone. It is one of those coincidences.=E2=80=9D ..=
+.</p><p style=3D"margin: 16px 0;">The three men haven=E2=80=99t yet exercis=
+ed the options, which don=E2=80=99t expire until early next year, the peopl=
+e said.</p><p style=3D"margin: 16px 0;">The traders appear to have spent ar=
+ound $108 million to acquire the right to buy 4.12 million Activision share=
+s, the people said. Those options are now valued at around $168 million, ba=
+sed on recent trading prices. The value of the options would rise further i=
+f the deal closes at the stated per-share price of $95, which Microsoft has=
+ said is expected after midyear. If the men hold the options through a clos=
+ing at that price, their profit stands to surpass $100 million, the people =
+said.=C2=A0</p><p style=3D"margin: 16px 0;">Mr. Diller has served on the bo=
+ard of directors of Coca-Cola Co. with Activision Chief Executive Bobby Kot=
+ick.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Just one of those t=
+hings! I mean. The thing is that if Bobby Kotick called you up and said =E2=
+=80=9Chey we=E2=80=99re doing a merger in four days=E2=80=9D and you bought=
+ call options you=E2=80=99d be whisked off to jail immediately; these peopl=
+e seem smart and well-advised so I am going to assume that =E2=80=9Csimply =
+a lucky bet=E2=80=9D is the correct explanation.[1] Still. Arguably too luc=
+ky. So lucky that it=E2=80=99s unlucky.</p><p style=3D"margin: 16px 0;">My =
+favorite part of this might be that these are not listed options that you c=
+an buy=C2=A0on the exchange, but rather over-the-counter options that they =
+negotiated directly with JPMorgan Chase &amp; Co. I don=E2=80=99t know how =
+JPMorgan hedged the options that it sold, but ordinarily you would expect t=
+hat a bank selling options like this would=C2=A0lose money if the stock sho=
+t up due to a merger announcement. Not <em>so=C2=A0</em>much money, given h=
+ow they were probably hedged =E2=80=94=C2=A0certainly not the $60 million t=
+hat these guys made =E2=80=94=C2=A0but perhaps a few million dollars.[2] If=
+ you are a trader at a bank and the salesperson covering rich well-connecte=
+d entertainment-industry clients comes to you and says =E2=80=9Chey I need =
+to buy $108 million of options for my guys, this is a great trade for us,=
+=E2=80=9D and you quote a price and sell those options, and then=C2=A0<em>f=
+our days later=C2=A0</em>there=E2=80=99s a merger announcement and you take=
+ a loss, you will be mad. You will go over to the salesperson and complain.=
+ You will want to know what the buyers knew and when they knew it.=C2=A0You=
+ will perhaps want revenge. You will perhaps get it:</p><blockquote><p styl=
+e=3D"margin: 16px 0;">JPMorgan reported the trades to law enforcement after=
+ the deal became public, the people said. Under the terms of a criminal set=
+tlement it reached in September 2020 related to market-manipulation claims,=
+ JPMorgan is required to disclose to law enforcement evidence or concerns a=
+bout misconduct over the duration of the three-year agreement. JPMorgan dec=
+lined to comment.</p></blockquote><p style=3D"margin: 16px 0;">=E2=80=9CSor=
+ry, I=E2=80=99m required to report this to the Feds, nothing I can do about=
+ it,=E2=80=9D=C2=A0you say through clenched teeth.</p><table class=3D"heade=
+r" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Tim Leissner!</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Tim Leissner is a former Goldman Sachs=
+ Group Inc. banker who <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/26966673.261607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjItMDItMTcvYnJpYmVyeS13b24tdC1tYWtlLXlvdS1hLWhlcm8_Y21waWQ9QkJEMDMwO=
+TIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjIwMzA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2=
+9d787af" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> did a ton of crimes</a> in connection with the looting of=
+ Malaysian development fund 1MDB. He has pleaded guilty and is cooperating =
+with prosecutors who are trying his former subordinate, Roger Ng, for alleg=
+edly assisting him with some of those crimes. Leissner has been testifying =
+at Ng's trial, and recently Ng=E2=80=99s lawyers have been cross-examining =
+him to try to undermine his testimony. This seems to consist mostly of aski=
+ng him about all the times he lied, in order to suggest to the jury that he=
+=E2=80=99s probably lying now.</p><p style=3D"margin: 16px 0;">This is goin=
+g to take a while, because Leissner seems to have been one of the most asto=
+nishing liars in the modern financial industry. We have <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/26966673.261607/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDItMjgvcnVzc2lhLXMtbW9uZXktaXMt=
+Z29uZT9jbXBpZD1CQkQwMzA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/60=
+7f07ceef4b8524a319a23cB0ba948db" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> talked before</a> about how he=C2=
+=A0<em>twice faked divorces=C2=A0</em>to marry other women; <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/26966673.261607/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDkvZXgtZ29sZG1hbi1iYW5rZXIt=
+ZmFrZWQtaGlzLWV4LXdpZmUtcy1lbWFpbC10by1zcGluLXdlYi1vZi1saWVzP2NtcGlkPUJCRDA=
+zMDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJn=
+V0bV90ZXJtPTIyMDMwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a2=
+3cBdba71f5c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> now here=E2=80=99s this</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">Ex-Goldman Sachs star banker Tim Leissner detailed Tue=
+sday how he used an email account with his ex-wife=E2=80=99s name for all s=
+orts of shenanigans, beginning with a lie to his girlfriend at the time, Ki=
+mora Lee Simmons.=C2=A0</p><p style=3D"margin: 16px 0;">Posing as his then-=
+wife Judy Chan, Leissner initially used the account to try to convince Simm=
+ons the two were no longer married. But he went on to pose as Chan for year=
+s to converse with Simmons about family vacations and other topics. ...</p>=
+<p style=3D"margin: 16px 0;">Leissner was questioned Tuesday about the phon=
+y email account by Ng=E2=80=99s lawyer, Marc Agnifilo, who=E2=80=99s trying=
+ to undermine the banker=E2=80=99s credibility by showing the jury that he=
+=E2=80=99s a =E2=80=9Crare cunning liar,=E2=80=9D as the attorney told the =
+judge.</p><p style=3D"margin: 16px 0;">While posing as Chan, Leissner decli=
+ned Simmons=E2=80=99s repeated invitations for Chan and her children to vac=
+ation with the former model and her family in Paris, an Austrian ski holida=
+y and a private Caribbean island. In one email created by Leissner, Chan to=
+ld Simmons she=E2=80=99d be unable to visit because she and her children wi=
+th Leissner had been injured in a car accident.</p><p style=3D"margin: 16px=
+ 0;">=E2=80=9CIt was an entire life you completely falsified because you ma=
+de the whole thing up?=E2=80=9D an incredulous Agnifilo asked.</p><p style=
+=3D"margin: 16px 0;">=E2=80=9CThe correspondence yes,=E2=80=9D Leissner sai=
+d. =E2=80=9CBut an entire life may be too far.=E2=80=9D =C2=A0</p></blockqu=
+ote><p style=3D"margin: 16px 0;">=E2=80=9CSure like 90% of my life was fake=
+, but 100%? That seems high.=E2=80=9D I am not sure how much prosecutors re=
+ally=C2=A0<em>need=C2=A0</em>Leissner=E2=80=99s testimony; the looting of 1=
+MDB was <a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.2=
+61607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMTEtM=
+DIvZG9uLXQtc3RlYWwtdGhlLWJyaWJlLW1vbmV5P2NtcGlkPUJCRDAzMDkyMl9NT05FWVNUVUZG=
+JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMwOSZ=
+1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB245328b7" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ pretty egregious</a>, and=C2=A0presumably there is documentary evidence of=
+ Ng's participation. It=E2=80=99s plausible that the jury could (1) conclud=
+e that Leissner is lying about everything he says but (2) convict Ng anyway=
+. I wouldn=E2=80=99t, though. I am offended that prosecutors put this seria=
+l liar=C2=A0on the stand to testify against his surely-not-nearly-as-bad un=
+derling, and if I were on the jury I=E2=80=99d <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/26966673.261607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDItMjgvcnVzc2lhLXMtbW9uZXktaXMtZ29uZT9jb=
+XBpZD1CQkQwMzA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3=
+c2xldHRlciZ1dG1fdGVybT0yMjAzMDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4=
+b8524a319a23cC0ba948db" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> acquit on principle</a>.=C2=A0</p><p style=
+=3D"margin: 16px 0;">Also it continues to amaze me that this guy was a <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aHR0cH=
+M6Ly93d3cuZ29sZG1hbnNhY2hzLmNvbS9tZWRpYS1yZWxhdGlvbnMvcHJlc3MtcmVsZWFzZXMvY=
+XJjaGl2ZWQvMjAwNi8yMDA2LTEwLTI2Lmh0bWw/607f07ceef4b8524a319a23cBd81e662c" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">Goldman Sachs Group Inc. partner</a>. (Disclosure, I used to work at=
+ Goldman.) I feel like there is a sort of oscillating hierarchy of honesty =
+in investment banking:</p><ol style=3D"list-style-type: decimal; padding-le=
+ft: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">If you are =
+perfectly honest, that will limit your career. =E2=80=9CDon=E2=80=99t do th=
+is merger,=E2=80=9D you will say to clients, too often.=C2=A0</li>=09<li st=
+yle=3D"margin-bottom: 5px;">If you are a reasonable amount of dishonest =E2=
+=80=94=C2=A0honest, but with some caveats =E2=80=94=C2=A0then you are what =
+people call =E2=80=9Ccommercial,=E2=80=9D the highest praise for an investm=
+ent banker, and you will go far.=C2=A0The job involves getting clients to d=
+o deals and pay you large fees, and that calls for a certain ability to fei=
+gn enthusiasm, misdirect attention, etc. Sure=C2=A0you should never=C2=A0<e=
+m>lie=C2=A0</em>to clients, but you might=C2=A0want to choose what to empha=
+size in ways that help the=C2=A0bottom line.</li>=09<li style=3D"margin-bot=
+tom: 5px;">If you are=C2=A0<em>too=C2=A0</em>dishonest, that will again lim=
+it your career: A banker who lies to clients, or to colleagues, is a=C2=A0r=
+egulatory and reputational risk; Goldman, at least, retains enough of its o=
+ld partnership culture that no one will want a partner whom they can=E2=80=
+=99t trust.</li>=09<li style=3D"margin-bottom: 5px;">If you are=C2=A0<em>in=
+credibly, absurdly=C2=A0</em>dishonest then I guess you get=C2=A0good at it=
+ and can convince all the partners that you=E2=80=99re actually honest enou=
+gh to make partner? Those are the really risky ones.</li></ol><table class=
+=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+>
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">A TikTok</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here=E2=80=99s <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/26966673.261607/aHR0cHM6Ly90d2l0dGVyLmNvb=
+S9UaWtUb2tJbnZlc3RvcnMvc3RhdHVzLzE1MDEzNjY2NzMwMzQ0NjUyODM/607f07ceef4b8524=
+a319a23cBdc43612d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">a TikTok dance video</a>=C2=A0about how Vanguard=
+ and BlackRock own all the companies? It=E2=80=99s =E2=80=A6=C2=A0not =E2=
+=80=A6=C2=A0right? =E2=80=A6=C2=A0or =E2=80=A6=C2=A0good? =E2=80=A6=C2=A0bu=
+t it is =E2=80=A6=C2=A0a TikTok dance video about how Vanguard and BlackRoc=
+k own all the companies? This is an idea that we <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/26966673.261607/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMTItMDcvcmVndWxhdG9ycy1hc2staWYtaW5kZXg=
+tZnVuZHMtYXJlLWJhZD9jbXBpZD1CQkQwMzA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYW=
+lsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDkmdXRtX2NhbXBhaWduPW1vb=
+mV5c3R1ZmY/607f07ceef4b8524a319a23cBc46dc7b9" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> talk about</a> from =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDQtMTYvc2hvd=
+WxkLW11dHVhbC1mdW5kcy1iZS1pbGxlZ2FsLT9jbXBpZD1CQkQwMzA5MjJfTU9ORVlTVFVGRiZ1=
+dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDkmdXR=
+tX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBd188c947" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> ti=
+me</a> to <a href=3D"https://link.mail.bloombergbusiness.com/click/26966673=
+.261607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDc=
+tMjIvaW5kZXgtZnVuZHMtbWF5LXdvcmstYS1saXR0bGUtdG9vLXdlbGw_Y21waWQ9QkJEMDMwOT=
+IyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjIwMzA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6a=
+06cece" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> time</a> around here, and that I like to think I played so=
+me role in popularizing, though now of course I regret all of my choices. I=
+ cannot recommend this video, but I do feel obligated to mention it.=C2=A0<=
+/p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Matt Klein: The <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/26966673.261607/aHR0cHM6Ly90aGVvdmVyc2hv=
+b3QuY28vcC90aGUtaW1wbGljYXRpb25zLW9mLXVucmVzdHJpY3RlZA/607f07ceef4b8524a319=
+a23cB59da3bc5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">Implications</a> of Unrestricted Financial Warfare. =
+Biden Pushes for Coordinated Approach to <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/26966673.261607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjItMDMtMDkvYmlkZW4tcHVzaGVzLWZvci1tb3JlLWNvb3JkaW5hdGV=
+kLWFwcHJvYWNoLXRvLWNyeXB0by1vdmVyc2lnaHQ_Y21waWQ9QkJEMDMwOTIyX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzA5J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBfbea7205" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Crypto Oversight</a>.=C2=A0Germany Is Stalling EU Efforts to Broaden Russi=
+a=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/269666=
+73.261607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtM=
+DkvZ2VybWFueS1pcy1zdGFsbGluZy1ldS1lZmZvcnRzLXRvLWJyb2FkZW4tcnVzc2lhLXMtc3dp=
+ZnQtYmFuP2NtcGlkPUJCRDAzMDkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3N=
+vdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMwOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg=
+/607f07ceef4b8524a319a23cB64b75f90" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> SWIFT Ban</a>. Russia=E2=80=99=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/=
+aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYThiNTNkN2EtMDhjNS00ODRlLTlkYzYtY2Q0YjJ=
+kODg5ZTNm/607f07ceef4b8524a319a23cBf1acc844" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">techies flee country</=
+a> they fear is =E2=80=98flying into an abyss=E2=80=99. How Ambani <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDkvaG93LWFtYmFuaS1v=
+dXRmb3hlZC1hbWF6b24taW4tYS0zLTQtYmlsbGlvbi1kZWFsLWRpc3B1dGU_Y21waWQ9QkJEMDM=
+wOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdX=
+RtX3Rlcm09MjIwMzA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23c=
+Bfa63b753" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> Outfoxed Amazon</a> in a $3.4 Billion Deal Dispute.=C2=
+=A0Mainstream Hedge Funds Pour Billions of Dollars Into <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/26966673.261607/aHR0cHM6Ly93d3cud3NqL=
+mNvbS9hcnRpY2xlcy9tYWluc3RyZWFtLWhlZGdlLWZ1bmRzLXBvdXItYmlsbGlvbnMtb2YtZG9s=
+bGFycy1pbnRvLWNyeXB0by0xMTY0NjgwODIyMz9tb2Q9aHBfbGVhZF9wb3Mz/607f07ceef4b85=
+24a319a23cB6840d1ad" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Crypto</a>. USA Today Owner Gannett Co. <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aHR0cHM=
+6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy91c2EtdG9kYXktb3duZXItZ2FubmV0dC1jby1nYXZlLW=
+FkdmVydGlzZXJzLWluYWNjdXJhdGUtaW5mb3JtYXRpb24tZm9yLW5pbmUtbW9udGhzLTExNjQ2N=
+zg0NzQ1P21vZD1ocF9sZWFkX3Bvczc/607f07ceef4b8524a319a23cB8d21f4a1" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Gave Advertisers Inaccurate Information</a> for Nine Months.=C2=A0SMBC Nikk=
+o complained to regulators over <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/26966673.261607/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMzNjOWY0N=
+2MtZDU1ZS00Yjc0LWEzYTItNzA0M2Y0YTY3YmQ1/607f07ceef4b8524a319a23cBfc38e432" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">trader=E2=80=99s death</a> after questioning. Will Russian default =
+lead to <a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.2=
+61607/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMmZkMWE3Y2MtMTE4Zi00MjhmLTk2MDctM=
+TBkNzM5NjZlMmY1/607f07ceef4b8524a319a23cB1d681161" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">another <em>pari=
+ passu</em> saga</a>?=C2=A0<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26966673.261607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbG=
+VzLzIwMjItMDMtMDkvZ2F1bG9pc2VzLWNpZ2FyZXR0ZS1tYWtlci1oYWx0cy1ydXNzaWEtb3Blc=
+mF0aW9ucy1hbWlkLXNhbmN0aW9ucz9jbXBpZD1CQkQwMzA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDkmdXRtX2NhbXB=
+haWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBff49ad64" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">Gauloises</=
+a> Cigarette Maker Halts Russia Operations Amid Sanctions.=C2=A0A-Rod Backs=
+ New App That=E2=80=99s a =E2=80=98Stock Market=E2=80=99 for <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/26966673.261607/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDkvYS1yb2QtYmFja3MtbmV3LWF=
+wcC10aGF0LXMtYS1zdG9jay1tYXJrZXQtZm9yLWZhbnMtb2YtYXRobGV0ZXM_Y21waWQ9QkJEMD=
+MwOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImd=
+XRtX3Rlcm09MjIwMzA5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23=
+cB477acaf4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> Fans of Athletes</a>. =E2=80=9CThe <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/26966673.261607/aHR0cHM6Ly93d3cubnl0a=
+W1lcy5jb20vMjAyMi8wMy8wOC91cy9jb3ZpZC1mcmF1ZC1wb2tlbW9uLWNhcmQtY2hhcml6YXJk=
+Lmh0bWw/607f07ceef4b8524a319a23cB5bcb0b4e" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">mint Charizard trading c=
+ard</a> will be auctioned off with other fraudulently obtained luxury items=
+ seized by the U.S. Marshals.=E2=80=9D</p><p style=3D"margin: 16px 0;"><spa=
+n class=3D"news-designed-for-consumer-media"><em>If you'd like to get=C2=A0=
+Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607=
+/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdH=
+VmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef=
+4b8524a319a23cBbaab327d" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">subscribe at t=
+his link</a>. Or you can subscribe to Money Stuff and other great Bloomberg=
+ newsletters <a href=3D"https://link.mail.bloombergbusiness.com/click/26966=
+673.261607/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4=
+b8524a319a23cB1b6e640e" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"=
+><em>[1] Of course careful readers of Money Stuff know what you should do i=
+f Bobby Kotick calls you and says =E2=80=9Chey we=E2=80=99re doing a merger=
+ in four days.=E2=80=9D You buy call options on, like, Electronic Arts Inc.=
+, figuring that *it* will go up on news of a takeover in its industry. In f=
+act EA was up 2.7% on Jan. 18, while Activision was up 25.9%, so this would=
+n=E2=80=99t work out great, but you also probably wouldn=E2=80=99t get inve=
+stigated. This is called =E2=80=9C<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/26966673.261607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjItMDEtMjYvd2F0Y2gtb3V0LWZvci1zaGFkb3ctdHJhZGluZz9jbXBpZD=
+1CQkQwMzA5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xld=
+HRlciZ1dG1fdGVybT0yMjAzMDkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524=
+a319a23cB7d5d4a0a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> shadow trading</a>=E2=80=9D and hoo boy is it n=
+ot legal advice! To be clear the SEC thinks it=E2=80=99s illegal! Probably!=
+</em></p><p style=3D"margin: 16px 0;"><em>[2] The textbook hedge for sellin=
+g a call option is to buy some of the underlying shares, but not all of the=
+m; as the stock goes up you have to buy more shares. (Here my guess is that=
+ the delta on the trade date was around 90%, and jumped up to around 96% wh=
+en the deal was announced.) If the stock jumps up discontinuously because o=
+f a merger announcement =E2=80=94=C2=A0Activision closed at $65.39 the Frid=
+ay before the deal announcement and opened at $86.77 the next day =E2=80=94=
+ you lose money, buying lots of stock at a higher price. Other hedges are p=
+ossible =E2=80=94=C2=A0JPMorgan could have bought listed options, etc. =E2=
+=80=94=C2=A0and for all I know JPMorgan did well on this trade, but my base=
+line assumption is that it probably didn=E2=80=99t.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB64885913" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB991daa01" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB2c4d3046" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB18bfc493" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjk2NjY3MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMjgyODAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI223e67ff" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26966673&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27228280&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2696667=
+3.261607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB88e11b92" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26966673.261607/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC607908fc" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26966673.261607/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBb3946b14" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26966673.261607/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB5a64676e" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB3=
+3d06fd0" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26966673.261607/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBb=
+dea89f6" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D269666=
+73&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27228280&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D269666=
+73&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27228280&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D269666=
+73&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27228280&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D269666=
+73&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27228280&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D269666=
+73&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27228280&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg1zm9.5luv/e9898223.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_10752429_1036174465.1646852848304--
+

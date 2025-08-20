@@ -41,7 +41,70 @@ class PaywallDetector:
 
     def detect(self, html: str, url: str) -> bool:
         """Check if content appears to be behind a paywall."""
-        # Implementation placeholder
+        if not html:
+            return False
+
+        html_lower = html.lower()
+
+        # Check URL patterns for known paywall sites
+        paywall_domains = [
+            "nytimes.com",
+            "wsj.com",
+            "ft.com",
+            "bloomberg.com",
+            "economist.com",
+            "washingtonpost.com",
+            "medium.com",
+            "theathletic.com",
+            "stratechery.com",
+        ]
+
+        for domain in paywall_domains:
+            if domain in url.lower():
+                return True
+
+        # Check for paywall indicator phrases
+        paywall_phrases = [
+            "subscribe to continue reading",
+            "this article is for subscribers",
+            "premium content",
+            "paywall",
+            "subscription required",
+            "sign up to read",
+            "become a member",
+            "upgrade to premium",
+            "free article limit",
+            "register to continue",
+            "log in to read",
+        ]
+
+        for phrase in paywall_phrases:
+            if phrase in html_lower:
+                return True
+
+        # Check DOM selectors for paywall elements
+        paywall_selectors = self.patterns.get("dom_selectors", [])
+        for selector in paywall_selectors:
+            # Simple check for class/id names in HTML
+            if f'class="{selector}"' in html_lower or f'id="{selector}"' in html_lower:
+                return True
+
+        # Check for truncated content indicators
+        truncation_indicators = [
+            "...",
+            "(continued)",
+            "read more",
+            "full article",
+            "complete story",
+            "entire article",
+        ]
+
+        # If content is very short and has truncation indicators
+        if len(html) < 2000:  # Short content
+            for indicator in truncation_indicators:
+                if indicator in html_lower:
+                    return True
+
         return False
 
 
@@ -92,8 +155,119 @@ class PaywallBypass:
         if not self.check_consent_valid(domain):
             return None
 
-        # Implementation placeholder
-        return self._apply_watermark(html) if self._requires_watermark(domain) else html
+        try:
+            cleaned_html = html
+
+            if method == "dom_cleanup":
+                cleaned_html = self._clean_paywall_elements(html)
+            elif method == "content_extraction":
+                cleaned_html = self._extract_main_content(html)
+            elif method == "simple_strip":
+                cleaned_html = self._simple_paywall_strip(html)
+
+            # Apply watermark if required by jurisdiction
+            if self._requires_watermark(domain):
+                cleaned_html = self._apply_watermark(cleaned_html)
+
+            return cleaned_html
+
+        except Exception as e:
+            print(f"Paywall bypass error: {e}")
+            return None
+
+    def _clean_paywall_elements(self, html: str) -> str:
+        """Remove common paywall DOM elements."""
+        # Common paywall element patterns to remove
+        paywall_patterns = [
+            r'<div[^>]*class="[^"]*paywall[^"]*"[^>]*>.*?</div>',
+            r'<div[^>]*class="[^"]*subscription[^"]*"[^>]*>.*?</div>',
+            r'<div[^>]*class="[^"]*premium[^"]*"[^>]*>.*?</div>',
+            r'<div[^>]*id="[^"]*paywall[^"]*"[^>]*>.*?</div>',
+            r'<div[^>]*class="[^"]*modal[^"]*"[^>]*>.*?</div>',
+            r'<div[^>]*class="[^"]*overlay[^"]*"[^>]*>.*?</div>',
+        ]
+
+        import re
+
+        cleaned = html
+        for pattern in paywall_patterns:
+            cleaned = re.sub(pattern, "", cleaned, flags=re.IGNORECASE | re.DOTALL)
+
+        return cleaned
+
+    def _extract_main_content(self, html: str) -> str:
+        """Extract main article content, ignoring paywall elements."""
+        try:
+            from bs4 import BeautifulSoup
+
+            soup = BeautifulSoup(html, "html.parser")
+
+            # Remove known paywall elements
+            paywall_selectors = [
+                ".paywall",
+                "#paywall",
+                ".subscription-banner",
+                ".premium-content",
+                ".modal",
+                ".overlay",
+                ".subscription-required",
+                ".register-wall",
+            ]
+
+            for selector in paywall_selectors:
+                elements = soup.select(selector)
+                for element in elements:
+                    element.decompose()
+
+            # Try to find main content
+            main_content_selectors = [
+                "article",
+                ".article-content",
+                ".content",
+                ".post-content",
+                ".entry-content",
+                "main",
+                ".story-body",
+                ".article-body",
+            ]
+
+            for selector in main_content_selectors:
+                content = soup.select_one(selector)
+                if content:
+                    return str(content)
+
+            # Fallback to body content
+            body = soup.find("body")
+            return str(body) if body else html
+
+        except ImportError:
+            # BeautifulSoup not available, use simple text processing
+            return self._simple_paywall_strip(html)
+        except Exception:
+            return html
+
+    def _simple_paywall_strip(self, html: str) -> str:
+        """Simple text-based paywall content removal."""
+        lines = html.split("\n")
+        cleaned_lines = []
+
+        skip_patterns = [
+            "subscribe",
+            "premium",
+            "paywall",
+            "sign up",
+            "register",
+            "membership",
+            "subscription",
+        ]
+
+        for line in lines:
+            line_lower = line.lower()
+            # Skip lines that contain paywall-related terms
+            if not any(pattern in line_lower for pattern in skip_patterns):
+                cleaned_lines.append(line)
+
+        return "\n".join(cleaned_lines)
 
     def _requires_watermark(self, domain: str) -> bool:
         """Check if jurisdiction requires watermarking."""

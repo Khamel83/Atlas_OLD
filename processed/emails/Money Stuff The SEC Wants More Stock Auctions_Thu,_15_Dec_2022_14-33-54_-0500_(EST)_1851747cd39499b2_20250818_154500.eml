@@ -1,0 +1,2436 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:140c:b0:df:6da6:e45b with SMTP id m12csp764082rwi;
+        Thu, 15 Dec 2022 11:34:19 -0800 (PST)
+X-Received: by 2002:a05:600c:4fc6:b0:3d2:14ec:f6b1 with SMTP id o6-20020a05600c4fc600b003d214ecf6b1mr17647403wmq.14.1671132859560;
+        Thu, 15 Dec 2022 11:34:19 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1671132859; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=n7PncGtyQt107z1Wt0Rq8PYAKFR+bM6NJggk08F8IrcpJpRVVEvdrqSP36w2CScKXR
+         spN+Vvgw8gpTJJ5yd9EAgiwlmgr6OgJXZUFiZzi2uy8hXPkqKCOcCjXgwC5wQTx+wkHo
+         tgBKKsunYlXMRxzy+pchf7n8u9ABVcBpiOaiMb4kg6ePyvZ8nXHSQXN5Za2ZLRSQhEcr
+         jS/96mneLAdXUAjfd7dhfPjDIhqCVCGynABlh2vXcyXDW8E7IKrTuJVUjZEmgQRUotGO
+         bx5YEvCx0+igCKw9acnQk9qOX7Tyx+fb2jdlU8yDEHGfYwSb/l6pYfjgfe1nTUWrdzz9
+         /2QA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=DHgVxgwNIf3bcnGSKkEpP2LGu9BcdfzdkoXq64bNNAQ=;
+        b=PWesR5NutoMoQfbAIFSChwY2RlRE+3hf3I3g1kVulWTZVEmfkJ1bawlvnL/XuBJIbQ
+         PZ5nNNKovTi9DODmP3xHCsj0Dv4nNbJx2qx2eaHIs5HQcnJ0H72+A/2Wr9t0JU+duo7v
+         2FKGks/EdfiJwL5m5R/vSxQxAPzJtwNrJlEq6TV11vYDxU1mBJWh/qPFgOCden0/AJSV
+         CNiiQsJeLpi5+2sz0blMXv5nkLtAIU2twMUCvPKvSzMkk49iXLPmS2mFW9WDFRbczPWr
+         bgnrD+2iBdK8fBqvE5yRX11KHdv6nNPJMduEdySMSLunsbrLQsUE9BMjvg4cftR+SYe6
+         IayA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="O7/sOlqv";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 2-20020a05600c02c200b003c6cd5e9fdesor2112969wmn.32.2022.12.15.11.34.19
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 15 Dec 2022 11:34:19 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="O7/sOlqv";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=DHgVxgwNIf3bcnGSKkEpP2LGu9BcdfzdkoXq64bNNAQ=;
+        b=Wi3mur6l9v/yjIL22TBAjdDhYGZBDBVeVQLDCNKdoD/pjHspCnrCTJF3IK8N0KQhl4
+         7GaWSM8a2p36FR/cIJ6CUHCtIfAunOVw2PhTdnjnznz4DbUEq4U/RL5aBgu850RkcuVY
+         P0GTiUE9q9ZIA0ssn4Xv190MZCWQ5iBIhnutAEwdSdlL2ZCk20IAdInDNA/cinAWv1SE
+         Wce8U8hpAg5wBLyMQPLjIhEBXLa0vvEFtbEqQjEcD0dVB1PWEpaJLNC0MSN4uls2vovE
+         MdUXA7TyqXVJ5K1Y1xtw9DYcidhBZNFlNG+uTeU7xPpaOl16nL8+OfDiFXlAJHi8ZAVE
+         CZxQ==
+X-Gm-Message-State: AFqh2kq54IVbwXr4Vp+K3cEfdgjvzn/si6jIjA9DnoidN34gKiw6Iajl
+	/djbQcC78UU21Ddd36gLnYaTdUH1DMLQfxTGN+/WHca2vNRQo8TnmQ==
+X-Received: by 2002:a05:600c:4b27:b0:3d0:57ea:3188 with SMTP id i39-20020a05600c4b2700b003d057ea3188mr177168wmp.28.1671132859246;
+        Thu, 15 Dec 2022 11:34:19 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:a454:0:0:0:0:0 with SMTP id e20csp560092wra;
+        Thu, 15 Dec 2022 11:34:15 -0800 (PST)
+X-Received: by 2002:a05:6a20:8403:b0:a7:7c23:6cf4 with SMTP id c3-20020a056a20840300b000a77c236cf4mr56813514pzd.2.1671132855096;
+        Thu, 15 Dec 2022 11:34:15 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1671132855; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=cxcQF7juLv796+kXligwqY5vNFyvdM6Z09y9yClLOZUXYN09tA+/ag98jMRmUYgyJS
+         Id9T0ztHyDGP/Uzuk+Tt/NVMgdf7TpzA0XHjIOcoezxhwaootKaS50BBJoin9VBp4IYl
+         j0nboKuDvAp3EM/QG/sTFW+Wi7qVCCp78Wx+Qcr6ShMTuiA7H+yMj8QA9Tga+ggaO5g4
+         wzt9CtRKlfRkJX2QYJycjcwX/zwLX/a5Ii54Up3/PGqBgHWbqJaaNW3YSittVMweVlAs
+         FYYrwzLt5iVk40UOvZ5A/ZjaTdd6NHYRJTuD2aeGe/sQevcuIIV6xy38RKT8QqvlNrpk
+         GLfw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=DHgVxgwNIf3bcnGSKkEpP2LGu9BcdfzdkoXq64bNNAQ=;
+        b=rhLuoWnNHrQ5Kt/HFjrqEQljN0XlkpqQF1lSFAMOFQzJe1OEJhbt4NSZyNGF3hdkVk
+         e01qKqcqdfIRaYM/nANT6gJAi//EVhL27kaXqkiHgX2JGoWxylNKtG/z85DqD9ck24BL
+         /8c7/iAs5pN8wq/O6WDtPtQ8QhbrTiO2jNSgWzLAWuB+0UkdGqYo1xz4xW3FOyKEH7T1
+         IqrILyj8lzk8OD7VseMijJodRDjFxdzP4qOV3XmMsY0nI2+LouqZcGLprbf7h3ssPLBU
+         S1f/g7jZVBGPjUGA1iM89uPY78Imo0ePhOIetPPR9kyYk8QgN/8UKH26ZQnRdNpu5xTk
+         qOjw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="O7/sOlqv";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20221215143354.29993996.261528@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20221215143354.29993996.261528@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221215143354.29993996.261528@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id b21-20020a17090ae39500b002188466d2d9sor2739475pjz.41.2022.12.15.11.34.14
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 15 Dec 2022 11:34:15 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20221215143354.29993996.261528@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AA0mqf5T372V/7qHXl2ZrK6GJJ7YGW5I24d/cXXRyoukXnLKZEqczUkoYEmc5XUQkJxh4rWchxGa/wzOP4CnQAYetbxzDQWCZcY=
+X-Received: by 2002:a17:90a:989:b0:219:10b3:c7b5 with SMTP id 9-20020a17090a098900b0021910b3c7b5mr36083250pjo.49.1671132854709;
+        Thu, 15 Dec 2022 11:34:14 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1671132854; cv=none;
+        d=google.com; s=arc-20160816;
+        b=MjXF+1VVWXNIYObTUJLSEY3VBlmDeL+sJk4LvoqzSyfWw0Kq3qhtXZCfESNPjLULiU
+         0HqLC/aAs9BaJPxAEuLIL25h/nVVYIGFgE7z3Nf7j3nn30cbw49LWTHJnOovVQA/rarA
+         t7sZY1EZq3GbwSfTlds7R258pGs+OX5B9zL3fCeUxb5Z+bjS7MI4iuAID9Z3CB+rpf49
+         YRXea7JjtLBri1ngYsW0blZUEizZ/4h4kp8nYlMSoLIHcIqh7YGn12aTQNaHzGWkFkoo
+         IyAK2w9P+3nYjmBDqWE5LGs35Gccibuyjzib/X2BK/Xa2dHdzDG8lsleReqh56OwMH0Q
+         UtoQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=DHgVxgwNIf3bcnGSKkEpP2LGu9BcdfzdkoXq64bNNAQ=;
+        b=UeXsX7fwvK6ub1h51Hua0wVSChBjywxbN9WV+r7XhTVvzXArv7em4Hjhlgjbj4jVOZ
+         LGKmmYKMgSJ4i6sj84Y1yRZ8p9LQAYLHolrHHeXwQEZYKZiQFHt2K/ea79KA5vTH1Oo2
+         BYaUQfgWmJDb+4H+3pdEKFN2ShTRmx9g4z9tcdLhDzdoxjX/dJWX06ijUAZ5YOe3THme
+         Hh6kl7KiqONX+IGhPST1VwC3HHgX1/KkCCPetgKxp+GKJGZvvUFDYf1Mmn5r7oyqzuzi
+         NqrSEox1umVtnhP7jzPAIQCLkhEkHCJ1ZKZNXHIJevILoLp7thyTxO/v1/VeVnEZ/Mhr
+         nqFw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="O7/sOlqv";
+       spf=pass (google.com: domain of delivery_20221215143354.29993996.261528@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20221215143354.29993996.261528@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221215143354.29993996.261528@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id z10-20020a17090ad78a00b00219b6acf453si529628pju.3.2022.12.15.11.34.14
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 15 Dec 2022 11:34:14 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20221215143354.29993996.261528@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=j9GheqWJrCTeqDlQYcWU+5r6E1Lp0FWLKwE2eCks9zo=;
+ b=O7/sOlqvts8/9FfDjel63t/y2TBpXFyVct6zK+GJnJ1V3OSgwachTmZEPxcx7Ia9XcnRInSy9U8e
+   lPQH2zuQTzunimZZEDjWwQijXDCZRG9RlSBfWvm+Ei1EtyPoKwrP5rvM2a0Eym+h2ag26yTfE+Kz
+   +ViKRh42cpNAnLpjjGw=
+Received: from nj1-mta30.sailthru.com (204.153.120.165) by pmta29.sailthru.com id hjdrba2sd4su for <bloomberg@khamel.com>; Thu, 15 Dec 2022 14:34:13 -0500 (envelope-from <delivery_20221215143354.29993996.261528@mx.sailthru.com>)
+Date: Thu, 15 Dec 2022 14:33:54 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20221215143354.29993996.261528@sailthru.com>
+Subject: Money Stuff: The SEC Wants More Stock Auctions
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_15317133_1464855252.1671132834449"
+Precedence: bulk
+X-Feedback-ID: 6358:29993996:campaign:sailthru
+X-TM-ID: 20221215143354.29993996.261528
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-fadindigo.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chuvik.5lso/0d1f2a67
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chuvik.5lso/0d1f2a67>, <mailto:unsubscribe_20221215143354.29993996.261528@mx.sailthru.com>
+X-rpcampaign: stjko29993996
+
+------=_Part_15317133_1464855252.1671132834449
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+The basic idea is that if a Robinhood customer is buying stock, it is usu
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+
+ =20
+   =20
+      PFOF etc.
+   =20
+ =20
+
+The basic idea=C2=A0is that if a Robinhood customer is buying stock, it is =
+usually=C2=A0good to sell it to them. In general, if you sell stocks, you w=
+ill worry that the people=C2=A0buying from you know something you don=E2=80=
+=99t. They might know that, like, the company is about to announce a merger=
+ or whatever, but realistically the=C2=A0main=C2=A0thing they might know is=
+ that they themselves plan to buy more stock: If you sell them 100 shares o=
+f a stock at $10, and then they buy 10,000 more shares, the price will go u=
+p and you will wish you had not sold to them at $10. If BlackRock Inc. is b=
+uying stock and you are selling it to them, that is a real risk that you fa=
+ce; it is called =E2=80=9Cadverse selection.=E2=80=9D=C2=A0But if a Robinho=
+od customer buys 100 shares of stock from you, the chances=C2=A0that she=E2=
+=80=99s buying 10,000 more over the next two minutes are pretty slim. That =
+is mostly not how Robinhood Markets Inc. customers behave. So selling stock=
+ to Robinhood customers who want to buy =E2=80=94=C2=A0or buying it from Ro=
+binhood customers who want to sell =E2=80=94=C2=A0is a better and safer bus=
+iness than trading stock with BlackRock.
+  [1]
+=C2=A0We   talk about   this a lot around   here.
+Much of US equity market structure is driven by this basic fact, that it is=
+ better to trade with retail customers than it is to trade with professiona=
+l investors. In general, when you trade on a public stock exchange, you don=
+=E2=80=99t know who=E2=80=99s on the other side. If there is an order to bu=
+y 100 shares, and you take the other side and sell 100 shares, you don=E2=
+=80=99t know if you=E2=80=99re trading with a hedge fund or a retail invest=
+or; you don=E2=80=99t know if it=E2=80=99s the start of a flood of buy orde=
+rs or just a random blip. But if you=C2=A0could=C2=A0know who was on the ot=
+her side =E2=80=94=C2=A0if, say, you could know with certainty that everyon=
+e on the other side of your trades was a Robinhood customer =E2=80=94=C2=A0=
+then that would be better. You could make a lot more money trading only wit=
+h Robinhood customers than you could trading with everyone.
+And so what you do is you go to Robinhood and say =E2=80=9Cwhen your custom=
+ers give you orders to buy stock, don=E2=80=99t send those orders to the st=
+ock exchange, where they will be indistinguishable from orders from hedge f=
+unds and institutions =E2=80=94=C2=A0send them to me.=E2=80=9D In return, y=
+ou offer=C2=A0Robinhood=C2=A0three things:
+=09You promise to give its customers better=C2=A0prices than they=E2=80=99d=
+ get on the stock exchange. If some stock is for sale on the exchange for $=
+10.01 per share, you=E2=80=99ll sell it to Robinhood=E2=80=99s customers fo=
+r $10.005 or something. This is called =E2=80=9Cprice improvement,=E2=80=9D=
+ and Robinhood likes it because, as a broker, it has an obligation to get =
+=E2=80=9Cbest execution=E2=80=9D for its customers. Getting them a better p=
+rice than they could get on the exchange seems like a good way to get best =
+execution.=C2=A0In practice, you won=E2=80=99t=C2=A0always=C2=A0give Robinh=
+ood=E2=80=99s customers price improvement. Sometimes it is=C2=A0not=C2=A0th=
+at good to trade with Robinhood customers, for whatever reason =E2=80=94=C2=
+=A0sometimes they are selling stock that you don=E2=80=99t want to buy =E2=
+=80=94=C2=A0and so you=E2=80=99ll just send their order to the exchange. Bu=
+t (1) you will always give Robinhood customers prices that are=C2=A0at leas=
+t as good=C2=A0as they=E2=80=99d get on the exchange (since at worst you se=
+nd the order to the exchange), and (2)=C2=A0most of the time=C2=A0you will =
+give them better prices. And Robinhood will keep track, and grade you on ho=
+w often you give price improvement and how much, and this is a competitive =
+business and if you are not giving them enough price improvement they=E2=80=
+=99ll send their orders to someone else.=09You=C2=A0handle=C2=A0the orders =
+for Robinhood. If you weren=E2=80=99t handling these orders, Robinhood woul=
+d have to think hard thoughts about how to route its customers=E2=80=99 ord=
+ers to get the best possible price. Should it send the order directly to th=
+e stock exchange? Which one? (There are  more than a dozen.) Should it send=
+ the order to a broker=E2=80=99s dark pool? Should it split it up and send =
+bits to different venues? These are complicated questions that institutiona=
+l brokers have to think about as they try to get best execution for their c=
+ustomers. Robinhood doesn=E2=80=99t. Robinhood just sends the order to you,=
+ and you decide whether to trade with it yourself or route it elsewhere, bu=
+t you guarantee Robinhood a good price.=09Also you pay Robinhood money for =
+sending you their orders. This is called =E2=80=9Cpayment for order flow,=
+=E2=80=9D or PFOF. The intuition is that it is so profitable to trade with =
+Robinhood customers that you can give the customers price improvement, and =
+you can give Robinhood a check, and yet it is still a=C2=A0good business fo=
+r you.
+  [2]
+=C2=A0Meanwhile Robinhood uses these payments to subsidize its costs so tha=
+t it can offer its customers zero-commission trades, which the customers se=
+em to like. This encourages the customers to do more trades (they=E2=80=99r=
+e free!), which brings in more PFOF revenue for Robinhood.
+
+The firms that=C2=A0do this business =E2=80=94=C2=A0who pay Robinhood for t=
+he right to trade with their orders =E2=80=94=C2=A0are often called =E2=80=
+=9Cwholesalers,=E2=80=9D or=C2=A0=E2=80=9Cmarket makers,=E2=80=9D or occasi=
+onally =E2=80=9Cinternalizers,=E2=80=9D or, loosely, =E2=80=9Chigh-frequenc=
+y traders.=E2=80=9D Robinhood=E2=80=99s  actual wholesalers include=C2=A0Ci=
+tadel Securities LLC, Virtu=C2=A0Americas LLC,=C2=A0Jane Street Capital and=
+ G1 Execution Services LLC.
+This is hugely controversial for reasons we have talked about a lot, and I =
+won=E2=80=99t bore you again. (Basically: PFOF feels like a bribe, zero-com=
+mission trading with PFOF encourages excessive trading, it is bad for insti=
+tutional investors =E2=80=94 like your mutual funds =E2=80=94=C2=A0to have =
+retail orders executed away from the public markets, people don=E2=80=99t l=
+ike middlemen, etc.)=C2=A0But here I want to point out two specific controv=
+ersial features that we have not talked about a lot because they are not us=
+ually the main things people get mad about.
+First: The measurements of price improvement are a little bit fuzzy. In gen=
+eral, retail brokers=C2=A0take a holistic view of their wholesalers=E2=80=
+=99 performance. They want to get price improvement on a large number of or=
+ders, and they want to get a large dollar amount of price improvement. But =
+they don=E2=80=99t =E2=80=94=C2=A0and, practically speaking, can=E2=80=99t =
+=E2=80=94=C2=A0check whether they got the=C2=A0most possible price improvem=
+ent on every order. In practice, sometimes the wholesaler does a trade that=
+ is very profitable for it: It would have happily sold a stock at $10.003, =
+but sells it at $10.007 instead, making an extra $0.004. There is still pri=
+ce improvement =E2=80=94=C2=A0the public-market price is $10.01, say =E2=80=
+=94=C2=A0but less than there could have been. Other times, the wholesaler d=
+oes a trade that is a loss leader: It sells that stock at $10.00, when the =
+=E2=80=9Cright=E2=80=9D price is $10.003, and takes an $0.003 loss to provi=
+de good service for Robinhood. Over the course of millions of trades in=C2=
+=A0a month, the wholesaler has to (1) give enough price improvement to make=
+ Robinhood happy and (2) make enough money to make itself happy. But over t=
+he course of an individual trade that won=E2=80=99t always be true.
+Second: There is only a limited group of wholesalers. There are some firms =
+=E2=80=94=C2=A0Citadel Securities, Virtu, etc. =E2=80=94=C2=A0that are in t=
+his business, that have the relationships and algorithms and connections to=
+ operate as wholesalers to retail brokers. They provide that complete packa=
+ge of services =E2=80=94=C2=A0reliable price improvement, professional rout=
+ing, payment for order flow, etc. =E2=80=94=C2=A0to retail brokers; they co=
+mpete to be good service providers to those brokers. A retail broker can se=
+nd=C2=A0every=C2=A0trade to its wholesaler, and the wholesaler will handle =
+all of them at good prices.=C2=A0
+But remember the basic point that it is, generally, good to trade with Robi=
+nhood orders. Lots of people =E2=80=94=C2=A0not just professional wholesale=
+rs =E2=80=94=C2=A0would like to do it, at least on a part-time basis.
+For instance, if you run a big mutual fund, you will not generally want to =
+get into the business of making markets and paying for order flow. If Robin=
+hood comes to you and says =E2=80=9Cour customers want to buy a lot of Game=
+Stop Corp. stock,=E2=80=9D and you don=E2=80=99t own any GameStop stock, yo=
+u won=E2=80=99t sell them any. On the other hand, sometimes you will need t=
+o sell a million shares of some stock over the course of a day, because you=
+r portfolio manager has decided she doesn=E2=80=99t like the stock anymore.=
+ What you would like to be able to do, in that situation, is call up Robinh=
+ood that day and say =E2=80=9Chey, we=E2=80=99re selling XYZ stock, so if a=
+ny of your customers want to buy it, don=E2=80=99t send their orders to Vir=
+tu, send them to us, and we=E2=80=99ll give them a good price.=E2=80=9D You=
+ might trade at the midpoint price: If the public market price is $9.99 bid=
+ and $10.01 offered, you will get $9.99 per share selling into the public m=
+arkets, while Robinhood=E2=80=99s customers might pay, say, $10.005 per sha=
+re buying from a wholesaler (getting some price improvement over the public=
+ offer price). But if you cut out the middleman, you could sell the stock t=
+o them for $10.00 even, and you=E2=80=99d both be better off.
+In general this is not what happens: Mutual funds and other institutional i=
+nvestors don=E2=80=99t get to trade with a lot of retail order flow; only t=
+he specific wholesalers with whom a specific brokerage has negotiated arran=
+gements do.
+  [3]
+=C2=A0But sometimes those investors would=C2=A0like=C2=A0to trade with reta=
+il order flow =E2=80=94=C2=A0not as a business, just as a trade =E2=80=94=
+=C2=A0and they are sad that they can=E2=80=99t.=C2=A0
+Yesterday the US Securities and Exchange Commission proposed new rules that=
+ would   completely revise this system. There are several new rule proposal=
+s, including a new =E2=80=9CRegulation Best Execution=E2=80=9D that would f=
+ormalize and clarify what a broker=E2=80=99s =E2=80=9Cbest execution=E2=80=
+=9D obligations  actually mean (=E2=80=9Crequiring a broker-dealer to use r=
+easonable diligence to ascertain the best market for a security, and buy or=
+ sell in such market so that the resultant price to the customer is as favo=
+rable as possible under prevailing market conditions=E2=80=9D), and a new s=
+et of rules about  stock-market tick sizes and fees.
+But for our purposes the main one is  a new proposed rule =E2=80=9Cthat wou=
+ld require certain orders of individual investors to be exposed to competit=
+ion in fair and open auctions before such orders could be executed internal=
+ly.=E2=80=9D Here is  the 397-page rule proposal, and the SEC=E2=80=99s fac=
+t sheet. But the basic summary is:
+=09If a retail broker sends an order to a wholesaler, before trading with t=
+he order, the wholesaler has to put it up for public auction at a stock exc=
+hange or other =E2=80=9Copen competition trading center.=E2=80=9D=09The auc=
+tion would last between 100 and 300 milliseconds.=09Anyone could bid to tra=
+de with the retail order, and whoever offers=C2=A0the best price wins.=09If=
+ nobody bids, or if the original wholesaler has the best price, then the or=
+iginal wholesaler can trade with the order.=09The stock exchange could not =
+charge a fee to the retail order, though it could charge a fee of up to $0.=
+0005 per share to the winning bidder in the auction. (And it could pay a re=
+bate of up to $0.0005 per share to the broker submitting the retail order.)
+
+The rule is complicated and at this point the consequences are unclear, but=
+ there are a few obvious intended effects.
+First, wholesalers will have to compete to provide price improvement on an =
+order-by-order basis. Instead of doing millions of trades a month and sayin=
+g =E2=80=9Cwe provided price improvement on X% of trades, for a total dolla=
+r amount of $Y,=E2=80=9D you=E2=80=99d have to compete to win each trade by=
+ providing the most price improvement on that trade.=C2=A0The SEC thinks th=
+is will provide a higher total amount of price improvement, because rigorou=
+s competition over each order will drive down prices;  it says:
+The current isolation of individual investor orders from order-by-order com=
+petition results in suboptimal price improvement for such orders. The=C2=A0=
+Commission labels this forgone price improvement =E2=80=9Ccompetitive short=
+fall.=E2=80=9D Based on an analysis of trading data from the wholesalers an=
+d national securities exchanges in the first quarter of 2022, the competiti=
+ve shortfall is estimated to be approximately 1.08 basis points per dollar =
+traded by wholesalers or 1.08 cents for every $100 traded, with an estimate=
+d total annual competitive shortfall of $1.5 billion.=C2=A0
+But this is pretty uncertain. It is possible that the current system =E2=80=
+=94=C2=A0where wholesalers win some and lose some but compete to provide a =
+lot of consistent price improvement over a large number of orders =E2=80=94=
+ lets wholesalers manage risk better and so offer better prices. Here is a =
+paper titled =E2=80=9CWould Order-by-Order Auctions Be Competitive,=E2=80=
+=9D=C2=A0by Thomas Ernst, Chester Spatt and Jian Sun, arguing that =E2=80=
+=9Ca winner's curse problem in the auction can reduce retail investor welfa=
+re, particularly at times of limited liquidity.=E2=80=9D And the SEC says:
+
+An additional cost for some orders may arise to the extent that lower execu=
+tion quality for some orders currently subsidizes better execution quality =
+for others. Table 10 shows that wholesalers execute 13.82% of orders at pri=
+ces superior to midpoint for the investor.=C2=A0On average, unless the orde=
+rs have systematically negative price impact, the wholesaler may not be ear=
+ning a positive marginal profit on these executions.=C2=A0This could imply =
+they currently subsidize the additional price improvement on these trades w=
+ith marginal profits earned on other executions. To the extent this occurs,=
+ if wholesalers marginal profits decline under the Proposal, then customers=
+ could receive less price improvement and experience higher transaction cos=
+ts on trades that are currently subsidized. However, on average, the Commis=
+sion expects that execution quality for individual investor orders would li=
+kely improve under the Proposal.
+The Commission recognizes that wholesalers may provide consistency with reg=
+ard to the execution quality that they deliver to individual investor order=
+s.There is the concern that the Proposal would undermine the wholesaler bus=
+iness model, which in turn could hinder the ability of wholesalers to conti=
+nue to provide consistency in their execution services. The Commission beli=
+eves, however, that while bidders in qualified auctions may not provide as =
+much consistency as wholesalers, some orders could receive improved executi=
+on quality while others would=C2=A0receive reduced execution quality (relat=
+ive to wholesalers).
+
+The current system offers consistent amounts of price improvement across lo=
+ts of orders; the proposed system would offer more price improvement on som=
+e orders and less (or none) on others. The SEC thinks that the total amount=
+ of price improvement would go up, but it=E2=80=99s hard to tell. At the Wa=
+ll Street Journal, Alexander Osipovich=C2=A0writes:
+
+Order-by-order auctions might have different impacts for different stocks, =
+according to Chester Spatt, a former SEC chief economist who is now a finan=
+ce professor at Carnegie Mellon University.
+For actively traded stocks that many firms are eager to trade, investors mi=
+ght benefit as firms jockey for the right to fill each order. But for less =
+popular stocks, fewer firms will bother to participate in the auctions, and=
+ the investor might end up getting a worse price than what he or she gets i=
+n the current system, he said.
+
+Second, a goal of this proposal is to let big institutional investors =E2=
+=80=94=C2=A0mutual funds, pensions, etc. =E2=80=94=C2=A0trade against retai=
+l orders. The SEC writes:
+The isolation of individual investor orders at wholesalers prevents other i=
+nvestors from having an opportunity to trade with this low-cost flow. Insti=
+tutional investors that currently submit their own marketable orders on nat=
+ional securities exchanges and other trading centers potentially could trad=
+e at better prices if given an opportunity to interact with the marketable =
+orders of individual investors in fair and open auctions. ... Moreover, if =
+institutional investors that currently pay a full =E2=80=9Cspread=E2=80=9D =
+(that is, the difference between the highest price bid and the lowest price=
+ offer) to access liquidity were able instead to interact in auctions with =
+the marketable orders of individual investors that currently are mostly ina=
+ccessible to them, these institutional investors could benefit from lower s=
+pread costs.
+This is my example above: Instead of an institution getting $9.99 when it s=
+ells, a retail investor paying $10.005 to buy, and a market maker pocketing=
+ the $0.015 difference, the institution could just sell directly to the ret=
+ail investor at $10 and they=E2=80=99d both be better off. In the current s=
+ystem, institutional investors don=E2=80=99t have direct access to retail o=
+rders; under the SEC=E2=80=99s proposal they more or less would.
+  [4]
+
+Third =E2=80=A6=C2=A0I think this is meant to get rid of payment for order =
+flow? I mean, it doesn=E2=80=99t explicitly say that. But under this regime=
+, it is hard to tell why a wholesaler would want to pay a retail broker for=
+ its order flow. You have to put all the orders up for auction anyway, so y=
+ou only get to trade with the ones that no one else wants; it is lucrative=
+=C2=A0to trade with retail orders at a price that is=C2=A0better than the p=
+ublic-market price, but it is not obvious that it would be all that lucrati=
+ve to trade with them at a price that is=C2=A0better than anyone else would=
+ offer. =E2=80=9CThe Commission recognizes that the implementation of quali=
+fied auctions, as mandated by the Proposal, could lead to a significant dec=
+line or perhaps disappearance of PFOF,=E2=80=9D writes the SEC. It just doe=
+sn=E2=80=99t worry that much:
+An additional concern is that if the Proposal results in a significant or c=
+omplete loss of PFOF, then retail brokers would be forced to start charging=
+ commissions again for online NMS stock and ETF trades. There are several r=
+easons that retail brokers would be unlikely to resume charging commissions=
+ for these orders. First, the majority of retail brokers receive relatively=
+ little or no PFOF, and yet they have nevertheless successfully managed to =
+support commission-free trading through their other revenue-generating line=
+s of business. In fact, several retail brokers, including some that do not =
+accept PFOF, earned record revenues and profits after zero-commission tradi=
+ng was initiated. While most brokers had already reduced=C2=A0commissions t=
+o under $10, there was still considerable concern that the zero commissions=
+ would lower profits. Despite these concerns, industry profit grew in 2020.=
+585 Moreover, the average PFOF payment that brokers receive on a 100 share =
+order is 10-20 cents. The PFOF for a 1000 share order is less than the comm=
+ission fees previously charged by broker-dealers, which had generally been =
+$5 or more.=C2=A0Thus, just as the loss of commission fees was not offset b=
+y the receipt of PFOF, the loss of PFOF might not necessitate the return of=
+ commission fees.
+Payment for order flow sort of=C2=A0created=C2=A0the zero-commission retail=
+-brokerage model, but it=E2=80=99s not really necessary anymore. You can ru=
+n a profitable retail brokerage on  net interest margin, without charging f=
+or trades at all.
+Also, this proposal sets up sort of an alternative mechanism for payment fo=
+r order flow. Instead of wholesalers paying brokers to get their orders, =
+=E2=80=9Copen competition trading centers=E2=80=9D (stock exchanges) could =
+charge wholesalers and institutions up to $0.0005 per share to trade with t=
+hose orders, and then could pass some or all of those fees back to the reta=
+il brokers:
+Additionally, to the extent that rebates paid for the routing of segmented =
+orders to qualified auctions are passed through to retail brokers, it could=
+ reduce the likelihood that they resume charging commissions. The 5 mil cap=
+ on rebates that qualified auctions could pay for the submission of segment=
+ed orders under the Proposal is approximately 40% of the average combined P=
+FOF rate paid by wholesalers for marketable orders as estimated in Table 2.
+Basically you can still pay for order flow, but only on=C2=A0an order-by-or=
+der basis.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+
+There are a bunch of=C2=A0competing meta-theories of what Elon Musk is up t=
+o with, you know, Twitter Inc., all this. Here are two straightforward, fir=
+st-order theories:
+=09Elon Musk   is very rich and has eccentric hobbies,=C2=A0his favorite ho=
+bby is getting in fights online, and nobody around him ever tells him to kn=
+ock it off. So all this stuff is bad, but it=E2=80=99s what he wants =E2=80=
+=94=C2=A0at least, what he wants in the moment =E2=80=94=C2=A0so he does it=
+. =E2=80=9CMusk is just a being of pure impulse,=E2=80=9D  writes Ryan Brod=
+erick. =E2=80=9CHe=E2=80=99s essentially a flatworm with a rocket company.=
+=E2=80=9D I too am excessively online,=C2=A0so I sympathize with this view.=
+=09Elon Musk genuinely and correctly believes=C2=A0that buying Twitter and =
+making it, like, a  division of  QAnon is the most important thing that he =
+can do for humanity. =E2=80=9CThe woke mind virus is either defeated or not=
+hing else matters,=E2=80=9D  he tweeted: Sure his other businesses are abou=
+t rockets and electric cars, about=C2=A0making humanity multiplanetary and =
+solving climate change, but those problems are trivial compared to the real=
+ work of  tweeting memes about Anthony Fauci. I do not pretend to understan=
+d this view, but (1) it is Musk=E2=80=99s own stated theory of what is goin=
+g on=C2=A0and (2) a lot of his venture-capitalist buddies seem to believe i=
+t, so I do not want to write it off entirely. I mean, I do. But here it is.
+
+But I am also drawn to two weirder and more convoluted theories
+  [5]
+:
+=09Tesla Inc. stock is the main source of Musk=E2=80=99s wealth, and he has=
+ done a good job of maximizing that stock=E2=80=99s price by rallying a leg=
+ion of retail fans. But eventually he needs to cash out, and that presents =
+a problem: If the founder, chief executive officer and cult leader of Tesla=
+ starts dumping stock, then that signals a loss of confidence, and the stoc=
+k would collapse before he could get much money out of it. But if he create=
+d a=C2=A0distraction, or an=C2=A0excuse, for dumping the stock, then that m=
+ight cushion the blow. Not =E2=80=9CI am selling $40 billion of Tesla stock=
+ to top-tick it=E2=80=9D but more like =E2=80=9CI am selling $40 billion of=
+ Tesla stock to buy Twitter and wage war for the future of civilization.=E2=
+=80=9D Then his fans might say =E2=80=9Cgreat, sell that stock, wage that w=
+ar,=E2=80=9D and he can sell stock without taking too much of a hit. And in=
+ fact Musk has=C2=A0sold almost $40 billion of Tesla stock, after repeatedl=
+y promising that he was done. We have   talked about this theory before, bu=
+t I find it somewhat=C2=A0unsatisfying because (1) in fact Tesla=E2=80=99s =
+stock has gone down a ton as he=E2=80=99s been selling! and (2) he has plow=
+ed most of the proceeds into buying Twitter, which has probably gone down e=
+ven more! I do not see how he has accomplished any real diversification or =
+stock-price-maintenance goals.=C2=A0=09Tesla Inc. is the main source of Mus=
+k=E2=80=99s wealth, and his main goal in life is selling lots of Teslas. He=
+ has sold all the Teslas that he can sell to coastal elite liberals, and no=
+w he faces the daunting challenge of selling electric cars to social conser=
+vatives. Acquiring Twitter and turning it into a right-wing media company w=
+ith himself as the main character might be bad for, like,  Twitter ad sales=
+, but that is small potatoes if it is good for=C2=A0selling Teslas to Repub=
+licans. =E2=80=9COur cars are electric, yes, but they are free from the wok=
+e mind virus=E2=80=9D is perhaps a good pitch.
+  [6]
+
+
+
+Those last two theories have opposite implications for what you should thin=
+k about all this if you are a=C2=A0Tesla=C2=A0shareholder. If you think tha=
+t Musk=E2=80=99s purchase of Twitter is meant to provide a distracting cove=
+r for his loss of interest in Tesla, seems bad! If you think that Musk=E2=
+=80=99s purchase of Twitter is meant to open up new markets for Tesla then,=
+ you know, give him a chance, see where this is going.
+ Anyway:
+
+Elon Musk sold another $3.58 billion worth of Tesla Inc. shares, bringing t=
+he total amount he=E2=80=99s offloaded since late last year to almost $40 b=
+illion.
+The latest disposal of about 22 million shares this week coincided with Mus=
+k falling from the top spot on the Bloomberg Billionaires Index, a position=
+ he=E2=80=99d occupied since September of last year. Tesla=E2=80=99s market=
+ value also slumped below the half-trillion-dollar mark for the first time =
+since November 2020.
+Musk=E2=80=99s persistent selling after repeated assurances that he was don=
+e unloading Tesla stock reflects mounting pressure on the finances of Twitt=
+er Inc. His erratic and impulsive approach to running the social-media comp=
+any has alienated advertisers, and efforts to bring in more revenue from su=
+bscription fees backfired when impostor accounts exploited a poorly execute=
+d rollout of verification badges.
+
+And:
+
+The chorus of Tesla Inc. individual investors expressing misgivings that Ch=
+ief Executive Elon Musk=E2=80=98s involvement with Twitter Inc. may be to t=
+he detriment of the electric-vehicle maker is getting louder, with the car =
+company=E2=80=99s stock on track for its worst full-year performance. =C2=
+=A0
+=E2=80=9CThere is no TSLA CEO today,=E2=80=9D Gary Black, managing partner =
+of the Future Fund LLC, which owns roughly $50 million worth of Tesla, twee=
+ted Monday. ...
+Mr. Black said, =E2=80=9CThe market voted today that the $TSLA brand has be=
+en negatively impacted by the Twitter drama. Where before EV buyers were pr=
+oud to drive their Teslas to their friends or show off Teslas in their driv=
+eways, now the Twitter controversy is hurting Tesla=E2=80=99s brand equity.=
+=E2=80=9D
+
+Yeah I mean if you are an asset manager you are maybe less proud to show of=
+f your Tesla, but how many Teslas can Musk possibly sell to asset managers?=
+=C2=A0
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Underwriting
+   =20
+ =20
+
+One way to think about insurance underwriting is that you build your underw=
+riting model by:
+=09Making a list of=C2=A0observable factors that are correlated with the ri=
+sk you are insuring, and then=09Crossing off the factors=C2=A0that regulato=
+rs and politicians would get mad at you for using.
+
+The first part helps you figure out the right price to charge for insurance=
+, and requires some statistical sense. The second part keeps you out of tro=
+uble, and requires some=C2=A0political sense. If your research discovers th=
+at people who drive red cars get in more car accidents than people who driv=
+e gray cars, sure, charge the red-car drivers more.
+  [7]
+=C2=A0If your research discovers that Jewish people get in more car acciden=
+ts than Christians, you=C2=A0put that research straight in the trash can! W=
+hy did you even do that research? What were you thinking? What is wrong wit=
+h you?
+Anyway:
+
+If you passed on getting the COVID vaccine, you might be a lot more likely =
+to get into a car crash. =E2=80=A6
+During the summer of 2021, Canadian researchers =E2=80=A6 found that the un=
+vaccinated people were 72% more likely to be involved in a severe traffic c=
+rash=E2=80=94in which at least one person was transported to the hospital=
+=E2=80=94than those who were vaccinated. That=E2=80=99s similar to the incr=
+eased risk of car crashes for people with sleep apnea, though only about ha=
+lf that of people who abuse alcohol, researchers found. ...
+The authors theorize that people who resist public health recommendations m=
+ight also =E2=80=9Cneglect basic road safety guidelines.=E2=80=9D =E2=80=A6
+The findings are significant enough that primary care doctors should consid=
+er counseling unvaccinated patients on traffic safety=E2=80=94and insurance=
+ companies might base changes to insurance policies on vaccination data, th=
+e authors suggest.=C2=A0
+
+I am quite certain that, at least in the US, no auto insurer is going to st=
+art asking drivers about their Covid vaccination status so that it can char=
+ge unvaccinated people more! Imagine the congressional hearings!=C2=A0
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+BlackRock Is Caught in the   ESG Crossfire and Struggling to Get Out. Vangu=
+ard  spared ESG grilling in Texas after ditching green alliance. Chinese   =
+Stock Delisting Threat Eases as US Gets Access to Audit Data. US   Blacklis=
+ts More Chinese Tech Companies, Escalating Trade Fight. FTX Executives Used=
+ =E2=80=98Korea=E2=80=99 Account to Mask  Giant Alameda Liabilities.=C2=A0B=
+ahamian authorities were tipped off by top Bankman-Fried associate.=C2=A0In=
+ Hedge Fund   Pay Dispute, a Portfolio Manager Denies Misconduct. EY Looks =
+at  Backup Plans on Split Amid Higher Costs, Slower Growth. School of Quant=
+: At $29,000, a   Public NYC College Outclasses Princeton.=C2=A0Debt Defaul=
+ter Zambia Seeks to   Offload Costly Presidential Gulfstream Jet.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] I am mostly just being annoying when I say =E2=80=9CRobinhood=E2=80=
+=9D; really this paragraph is true of any individual retail investor. (Simi=
+larly, for =E2=80=9CBlackRock,=E2=80=9D you can substitute pretty much any =
+institutional investor, hedge fund, etc.) But not entirely: Different retai=
+l brokerages have, statistically, different customer bases, and  there do s=
+eem to be some aggregate differences between how Robinhood Markets Inc. cus=
+tomers trade and how, say, Interactive Brokers Pro customers trade. Some re=
+tail brokerages=E2=80=99 customers are, as it were, more retail than others=
+, and it is more profitable to trade against them.
+
+
+  [2] We   talked last year about a  Bloomberg Intelligence research note f=
+inding that =E2=80=9CMarket makers captured 48.5% of the spread in executin=
+g self-directed retail orders in 2Q [of 2021]. Of the balance, 13.3% was pa=
+id to the broker and 38.2% went to the client.=E2=80=9D So basically market=
+ makers who do this sort of wholesaling business end up charging about half=
+ of the spread on retail orders that they would in public markets. This is =
+not all profit to them =E2=80=94 they have trading costs, and there is stil=
+l some adverse selection in retail trading =E2=80=94 but the point is it is=
+ still a profitable business at half the public-market spread. Meanwhile th=
+e other half of the spread goes roughly one-quarter to PFOF and roughly thr=
+ee-quarters to price improvement.
+
+
+  [3] I should say that some public exchanges have retail execution facilit=
+ies that are basically designed to allow for this sort of thing: Brokers ca=
+n send retail orders to those facilities, and institutions (or anyone else)=
+ can compete to take the other side of them.=20
+
+
+  [4] Some caveats here. First, they=E2=80=99d have to do this through an =
+=E2=80=9Copen competition trading center,=E2=80=9D like a stock exchange, w=
+hich could charge the institution a fee; to some extent this rule is a tran=
+sfer of value from wholesalers to exchanges. Second, they=E2=80=99d have to=
+ have the capacity to bid on these 100-millisecond auctions, capacity that =
+could presumably be provided by their brokers=E2=80=99 routers, but that wo=
+uld have to be built. Third, I think if you asked wholesalers how the syste=
+m works today, they would dispute the claim that institutions would sell at=
+ $9.99 while retail bought at $10.005 and wholesalers pocketed the differen=
+ce. =E2=80=9CIf institutions want to sell at $10, they can put a midpoint s=
+ell order on a dark pool, and we would route a retail order to that dark po=
+ol and fill it at $10,=E2=80=9D they would say. All in all wholesalers seem=
+ to be skeptical of the idea that there is tons of value to be found by mat=
+ching buyers and sellers of stock up more efficiently. They claim that *the=
+y* are the most efficient matchers of buyers and sellers.
+
+
+  [5] See also  Max Read=E2=80=99s theory that =E2=80=9Cthe only thing he k=
+nows how to do -- the only way he knows how to make money, but also the way=
+ he has been conditioned to respond to any kind of adversity or challenge -=
+- is to create chaos and drama around himself in search of new opportunity.=
+ The =E2=80=98grand plan=E2=80=99 at Twitter, such as it is, is for him to =
+make a mess, wherever and however he can, and see what happens: is there a =
+business opportunity here? An edge? Can I find new political allies, busine=
+ss partners, customers?=E2=80=9D But: =E2=80=9C=E2=80=98Chaotic main charac=
+ter=E2=80=99 is a surprisingly acceptable and effective role for an executi=
+ve to take in conditions of historically low interest rates, when people an=
+d institutions have lots of money and are hungry for risk. But when money i=
+s less easily accessible, and appetites for risk are low, the fraction of p=
+eople who are attracted to (or merely willing to tolerate) your [bull] decl=
+ines, and your talent for drama looks less like a strength and more like a =
+liability (or personality deficit).=E2=80=9D
+
+
+  [6] Here is  a Twitter thread from David Risher making this argument. =E2=
+=80=9C@elonmusk *really* cares about 2 things: Climate Change and Attention=
+. The 1st is an existential threat; the 2d is a steroid that force-multipli=
+es all other efforts. =E2=80=A6 Who loves @Teslas? Stereotypically: latte-s=
+ipping, @NPR-listening, coastal-living libs. But that's not enough. So what=
+'s the strategy? Make yourself (and your brand) appealing to a more sociall=
+y conservative crowd. =E2=80=A6 As for Attention, it's super-clear that goi=
+ng right is an viral attention-grabber.=E2=80=9D
+
+
+  [7] This one appears to be an urban legend, but a fun one.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chuvik.5lso/f774bc51.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_15317133_1464855252.1671132834449
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.The basi=
+c idea is that if a Robinhood customer is buying stock, it is usu
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yOTk5Mzk5NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAyNTU1MjQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB2b7d6158" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D29993996&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMjE1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEyMTUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBc82e85a9"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yOTk5Mzk5NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAyNTU1MjQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCb02ee6ee" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D29993996&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">PFOF etc.</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The basic idea=C2=A0is that if a Robinhood cus=
+tomer is buying stock, it is usually<em>=C2=A0</em>good to sell it to them.=
+ In general, if you sell stocks, you will worry that the people=C2=A0buying=
+ from you know something you don=E2=80=99t. They might know that, like, the=
+ company is about to announce a merger or whatever, but realistically the=
+=C2=A0<em>main=C2=A0</em>thing they might know is that they themselves plan=
+ to buy more stock: If you sell them 100 shares of a stock at $10, and then=
+ they buy 10,000 more shares, the price will go up and you will wish you ha=
+d not sold to them at $10. If BlackRock Inc. is buying stock and you are se=
+lling it to them, that is a real risk that you face; it is called =E2=80=9C=
+adverse selection.=E2=80=9D=C2=A0But if a Robinhood customer buys 100 share=
+s of stock from you, the chances=C2=A0that she=E2=80=99s buying 10,000 more=
+ over the next two minutes are pretty slim. That is mostly not how Robinhoo=
+d Markets Inc. customers behave. So selling stock to Robinhood customers wh=
+o want to buy =E2=80=94=C2=A0or buying it from Robinhood customers who want=
+ to sell =E2=80=94=C2=A0is a better and safer business than trading stock w=
+ith BlackRock.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: none !important; backgroun=
+d-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0We <a href=3D"https://link.mail.bloombergbusiness.com/click/29993=
+996.261528/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEt=
+MDItMDUvcm9iaW5ob29kLWdhbWVzdG9wLXNhZ2EtcHJlc3N1cmVzLXBheW1lbnQtZm9yLW9yZGV=
+yLWZsb3c_Y21waWQ9QkJEMTIxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc2=
+91cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMjE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/=
+607f07ceef4b8524a319a23cB58c61b0e" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  talk</a> about <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/29993996.261528/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMDcvdGhlLWlwby1tYXJrZXQt=
+d2FzLXRvby1nb29kP2NtcGlkPUJCRDEyMTUyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTIxNSZ1dG1fY2FtcGFpZ249bW9uZX=
+lzdHVmZg/607f07ceef4b8524a319a23cB0d4bd9da" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  this</a> a lot around=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDgtMjUvc29t=
+ZS1mcmVlLWJyb2tlcnMtYXJlLWNoZWFwZXItdGhhbi1vdGhlcnM_Y21waWQ9QkJEMTIxNTIyX01=
+PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm=
+09MjIxMjE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8382d42=
+f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  here</a>.</p>
+<p style=3D"margin: 16px 0;">Much of US equity market structure is driven b=
+y this basic fact, that it is better to trade with retail customers than it=
+ is to trade with professional investors. In general, when you trade on a p=
+ublic stock exchange, you don=E2=80=99t know who=E2=80=99s on the other sid=
+e. If there is an order to buy 100 shares, and you take the other side and =
+sell 100 shares, you don=E2=80=99t know if you=E2=80=99re trading with a he=
+dge fund or a retail investor; you don=E2=80=99t know if it=E2=80=99s the s=
+tart of a flood of buy orders or just a random blip. But if you=C2=A0<em>co=
+uld=C2=A0</em>know who was on the other side =E2=80=94=C2=A0if, say, you co=
+uld know with certainty that everyone on the other side of your trades was =
+a Robinhood customer =E2=80=94=C2=A0then that would be better. You could ma=
+ke a lot more money trading only with Robinhood customers than you could tr=
+ading with everyone.</p>
+<p style=3D"margin: 16px 0;">And so what you do is you go to Robinhood and =
+say =E2=80=9Cwhen your customers give you orders to buy stock, don=E2=80=99=
+t send those orders to the stock exchange, where they will be indistinguish=
+able from orders from hedge funds and institutions =E2=80=94=C2=A0send them=
+ to me.=E2=80=9D In return, you offer=C2=A0Robinhood=C2=A0three things:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You promise to give its customers bet=
+ter=C2=A0<em>prices </em>than they=E2=80=99d get on the stock exchange. If =
+some stock is for sale on the exchange for $10.01 per share, you=E2=80=99ll=
+ sell it to Robinhood=E2=80=99s customers for $10.005 or something. This is=
+ called =E2=80=9Cprice improvement,=E2=80=9D and Robinhood likes it because=
+, as a broker, it has an obligation to get =E2=80=9Cbest execution=E2=80=9D=
+ for its customers. Getting them a better price than they could get on the =
+exchange seems like a good way to get best execution.=C2=A0In practice, you=
+ won=E2=80=99t=C2=A0<em>always=C2=A0</em>give Robinhood=E2=80=99s customers=
+ price improvement. Sometimes it is=C2=A0<em>not=C2=A0</em>that good to tra=
+de with Robinhood customers, for whatever reason =E2=80=94=C2=A0sometimes t=
+hey are selling stock that you don=E2=80=99t want to buy =E2=80=94=C2=A0and=
+ so you=E2=80=99ll just send their order to the exchange. But (1) you will =
+always give Robinhood customers prices that are=C2=A0<em>at least as good=
+=C2=A0</em>as they=E2=80=99d get on the exchange (since at worst you send t=
+he order to the exchange), and (2)=C2=A0<em>most of the time=C2=A0</em>you =
+will give them better prices. And Robinhood will keep track, and grade you =
+on how often you give price improvement and how much, and this is a competi=
+tive business and if you are not giving them enough price improvement they=
+=E2=80=99ll send their orders to someone else.</li>=09<li style=3D"margin-b=
+ottom: 5px;">You=C2=A0<em>handle=C2=A0</em>the orders for Robinhood. If you=
+ weren=E2=80=99t handling these orders, Robinhood would have to think hard =
+thoughts about how to route its customers=E2=80=99 orders to get the best p=
+ossible price. Should it send the order directly to the stock exchange? Whi=
+ch one? (There are <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/29993996.261528/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9zcm8uc2h0bWw/607f07ceef=
+4b8524a319a23cB15997ee1" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> more than a dozen</a>.) Should it send th=
+e order to a broker=E2=80=99s dark pool? Should it split it up and send bit=
+s to different venues? These are complicated questions that institutional b=
+rokers have to think about as they try to get best execution for their cust=
+omers. Robinhood doesn=E2=80=99t. Robinhood just sends the order to you, an=
+d you decide whether to trade with it yourself or route it elsewhere, but y=
+ou guarantee Robinhood a good price.</li>=09<li style=3D"margin-bottom: 5px=
+;">Also you pay Robinhood money for sending you their orders. This is calle=
+d =E2=80=9Cpayment for order flow,=E2=80=9D or PFOF. The intuition is that =
+it is so profitable to trade with Robinhood customers that you can give the=
+ customers price improvement, and you can give Robinhood a check, and yet i=
+t is still a=C2=A0good business for you.<a class=3D"footnote-index" href=3D=
+"#footnote-2" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+none !important; background-color: transparent !important; display: inline-=
+block;">
+<span>[2]</span>
+</a>=C2=A0Meanwhile Robinhood uses these payments to subsidize its costs so=
+ that it can offer its customers zero-commission trades, which the customer=
+s seem to like. This encourages the customers to do more trades (they=E2=80=
+=99re free!), which brings in more PFOF revenue for Robinhood.</li>
+</ol>
+<p style=3D"margin: 16px 0;">The firms that=C2=A0do this business =E2=80=94=
+=C2=A0who pay Robinhood for the right to trade with their orders =E2=80=94=
+=C2=A0are often called =E2=80=9Cwholesalers,=E2=80=9D or=C2=A0=E2=80=9Cmark=
+et makers,=E2=80=9D or occasionally =E2=80=9Cinternalizers,=E2=80=9D or, lo=
+osely, =E2=80=9Chigh-frequency traders.=E2=80=9D Robinhood=E2=80=99s <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aHR0cHM6=
+Ly9jZG4ucm9iaW5ob29kLmNvbS9hc3NldHMvcm9iaW5ob29kL2xlZ2FsL1JIUyUyMFNFQyUyMFJ=
+1bGUlMjA2MDYlMjBhbmQlMjA2MDclMjBEaXNjbG9zdXJlJTIwUTIlMjAyMDIxLnBkZg/607f07c=
+eef4b8524a319a23cBb501fddb" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> actual wholesalers</a> include=C2=A0Ci=
+tadel Securities LLC, Virtu=C2=A0Americas LLC,=C2=A0Jane Street Capital and=
+ G1 Execution Services LLC.</p>
+<p style=3D"margin: 16px 0;">This is hugely controversial for reasons we ha=
+ve talked about a lot, and I won=E2=80=99t bore you again. (Basically: PFOF=
+ feels like a bribe, zero-commission trading with PFOF encourages excessive=
+ trading, it is bad for institutional investors =E2=80=94 like your mutual =
+funds =E2=80=94=C2=A0to have retail orders executed away from the public ma=
+rkets, people don=E2=80=99t like middlemen, etc.)=C2=A0But here I want to p=
+oint out two specific controversial features that we have <em>not</em> talk=
+ed about a lot because they are not usually the main things people get mad =
+about.</p>
+<p style=3D"margin: 16px 0;">First: The measurements of price improvement a=
+re a little bit fuzzy. In general, retail brokers=C2=A0take a holistic view=
+ of their wholesalers=E2=80=99 performance. They want to get price improvem=
+ent on a large number of orders, and they want to get a large dollar amount=
+ of price improvement. But they don=E2=80=99t =E2=80=94=C2=A0and, practical=
+ly speaking, can=E2=80=99t =E2=80=94=C2=A0check whether they got the=C2=A0<=
+em>most possible price improvement on every order</em>. In practice, someti=
+mes the wholesaler does a trade that is very profitable for it: It would ha=
+ve happily sold a stock at $10.003, but sells it at $10.007 instead, making=
+ an extra $0.004. There is still price improvement =E2=80=94=C2=A0the publi=
+c-market price is $10.01, say =E2=80=94=C2=A0but less than there could have=
+ been. Other times, the wholesaler does a trade that is a loss leader: It s=
+ells that stock at $10.00, when the =E2=80=9Cright=E2=80=9D price is $10.00=
+3, and takes an $0.003 loss to provide good service for Robinhood. Over the=
+ course of millions of trades in=C2=A0a month, the wholesaler has to (1) gi=
+ve enough price improvement to make Robinhood happy and (2) make enough mon=
+ey to make itself happy. But over the course of an individual trade that wo=
+n=E2=80=99t always be true.</p>
+<p style=3D"margin: 16px 0;">Second: There is only a limited group of whole=
+salers. There are some firms =E2=80=94=C2=A0Citadel Securities, Virtu, etc.=
+ =E2=80=94=C2=A0that are in this business, that have the relationships and =
+algorithms and connections to operate as wholesalers to retail brokers. The=
+y provide that complete package of services =E2=80=94=C2=A0reliable price i=
+mprovement, professional routing, payment for order flow, etc. =E2=80=94=C2=
+=A0to retail brokers; they compete to be good service providers to those br=
+okers. A retail broker can send=C2=A0<em>every=C2=A0</em>trade to its whole=
+saler, and the wholesaler will handle all of them at good prices.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But remember the basic point that it is, gener=
+ally, good to trade with Robinhood orders. Lots of people =E2=80=94=C2=A0no=
+t just professional wholesalers =E2=80=94=C2=A0would like to do it, at leas=
+t on a part-time basis.</p>
+<p style=3D"margin: 16px 0;">For instance, if you run a big mutual fund, yo=
+u will not generally want to get into the business of making markets and pa=
+ying for order flow. If Robinhood comes to you and says =E2=80=9Cour custom=
+ers want to buy a lot of GameStop Corp. stock,=E2=80=9D and you don=E2=80=
+=99t own any GameStop stock, you won=E2=80=99t sell them any. On the other =
+hand, sometimes you will need to sell a million shares of some stock over t=
+he course of a day, because your portfolio manager has decided she doesn=E2=
+=80=99t like the stock anymore. What you would like to be able to do, in th=
+at situation, is call up Robinhood that day and say =E2=80=9Chey, we=E2=80=
+=99re selling XYZ stock, so if any of your customers want to buy it, don=E2=
+=80=99t send their orders to Virtu, send them to us, and we=E2=80=99ll give=
+ them a good price.=E2=80=9D You might trade at the midpoint price: If the =
+public market price is $9.99 bid and $10.01 offered, you will get $9.99 per=
+ share selling into the public markets, while Robinhood=E2=80=99s customers=
+ might pay, say, $10.005 per share buying from a wholesaler (getting some p=
+rice improvement over the public offer price). But if you cut out the middl=
+eman, you could sell the stock to them for $10.00 even, and you=E2=80=99d b=
+oth be better off.</p>
+<p style=3D"margin: 16px 0;">In general this is not what happens: Mutual fu=
+nds and other institutional investors don=E2=80=99t get to trade with a lot=
+ of retail order flow; only the specific wholesalers with whom a specific b=
+rokerage has negotiated arrangements do.<a class=3D"footnote-index" href=3D=
+"#footnote-3" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+none !important; background-color: transparent !important; display: inline-=
+block;">
+<span>[3]</span>
+</a>=C2=A0But sometimes those investors would=C2=A0<em>like=C2=A0</em>to tr=
+ade with retail order flow =E2=80=94=C2=A0not as a business, just as a trad=
+e =E2=80=94=C2=A0and they are sad that they can=E2=80=99t.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Yesterday the US Securities and Exchange Commi=
+ssion proposed new rules that would <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/29993996.261528/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjItMTItMTQvd2FsbC1zdHJlZXQtc3RvY2stdHJhZGluZy1zZXQtZm9yLW1h=
+am9yLW92ZXJoYXVsLWluLW5ldy1zZWMtcGxhbj9jbXBpZD1CQkQxMjE1MjJfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEyMTUmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBf7a7fc47" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  completely revise this system</a>. There are several new rule proposals, =
+including a new =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/29993996.261528/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2Uv=
+MjAyMi0yMjY/607f07ceef4b8524a319a23cB0c908f9f" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">Regulation Best Exec=
+ution</a>=E2=80=9D that would formalize and clarify what a broker=E2=80=99s=
+ =E2=80=9Cbest execution=E2=80=9D obligations <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/29993996.261528/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWx=
+lcy9wcm9wb3NlZC8yMDIyLzM0LTk2NDk2LnBkZg/607f07ceef4b8524a319a23cB61bed953" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> actually mean</a> (=E2=80=9Crequiring a broker-dealer to use reaso=
+nable diligence to ascertain the best market for a security, and buy or sel=
+l in such market so that the resultant price to the customer is as favorabl=
+e as possible under prevailing market conditions=E2=80=9D), and a new set o=
+f rules about <a href=3D"https://link.mail.bloombergbusiness.com/click/2999=
+3996.261528/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMi0yMjQ=
+/607f07ceef4b8524a319a23cB6494c825" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> stock-market tick sizes and fe=
+es</a>.</p>
+<p style=3D"margin: 16px 0;">But for our purposes the main one is <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMi0yMjU/607f07ceef4b8524a319=
+a23cBb283fd50" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> a new proposed rule</a> =E2=80=9Cthat would require=
+ certain orders of individual investors to be exposed to competition in fai=
+r and open auctions before such orders could be executed internally.=E2=80=
+=9D Here is <a href=3D"https://link.mail.bloombergbusiness.com/click/299939=
+96.261528/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9wcm9wb3NlZC8yMDIyLzM0LTk2NDk1L=
+nBkZg/607f07ceef4b8524a319a23cB355ecb88" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> the 397-page rule propo=
+sal</a>, and the SEC=E2=80=99s fact sheet. But the basic summary is:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">If a retail broker sends an order to a=
+ wholesaler, before trading with the order, the wholesaler has to put it up=
+ for public auction at a stock exchange or other =E2=80=9Copen competition =
+trading center.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">The aucti=
+on would last between 100 and 300 milliseconds.</li>=09<li style=3D"margin-=
+bottom: 5px;">Anyone could bid to trade with the retail order, and whoever =
+offers=C2=A0the best price wins.</li>=09<li style=3D"margin-bottom: 5px;">I=
+f nobody bids, or if the original wholesaler has the best price, then the o=
+riginal wholesaler can trade with the order.</li>=09<li style=3D"margin-bot=
+tom: 5px;">The stock exchange could not charge a fee to the retail order, t=
+hough it could charge a fee of up to $0.0005 per share to the winning bidde=
+r in the auction. (And it could pay a rebate of up to $0.0005 per share to =
+the broker submitting the retail order.)</li>
+</ul>
+<p style=3D"margin: 16px 0;">The rule is complicated and at this point the =
+consequences are unclear, but there are a few obvious intended effects.</p>
+<p style=3D"margin: 16px 0;">First, wholesalers will have to compete to pro=
+vide price improvement on an order-by-order basis. Instead of doing million=
+s of trades a month and saying =E2=80=9Cwe provided price improvement on X%=
+ of trades, for a total dollar amount of $Y,=E2=80=9D you=E2=80=99d have to=
+ compete to win each trade by providing the most price improvement <em>on t=
+hat trade.=C2=A0</em>The SEC thinks this will provide a higher total amount=
+ of price improvement, because rigorous competition over each order will dr=
+ive down prices; <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+9993996.261528/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9wcm9wb3NlZC8yMDIyLzM0LTk2=
+NDk1LnBkZg/607f07ceef4b8524a319a23cC355ecb88" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> it says</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">The current isolation of individua=
+l investor orders from order-by-order competition results in suboptimal pri=
+ce improvement for such orders. The=C2=A0Commission labels this forgone pri=
+ce improvement =E2=80=9Ccompetitive shortfall.=E2=80=9D Based on an analysi=
+s of trading data from the wholesalers and national securities exchanges in=
+ the first quarter of 2022, the competitive shortfall is estimated to be ap=
+proximately 1.08 basis points per dollar traded by wholesalers or 1.08 cent=
+s for every $100 traded, with an estimated total annual competitive shortfa=
+ll of $1.5 billion.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">But this is pretty uncertain. It is possible t=
+hat the current system =E2=80=94=C2=A0where wholesalers win some and lose s=
+ome but compete to provide a lot of consistent price improvement over a lar=
+ge number of orders =E2=80=94 lets wholesalers manage risk better and so of=
+fer better prices. Here is a paper titled =E2=80=9C<a href=3D"https://link.=
+mail.bloombergbusiness.com/click/29993996.261528/aHR0cHM6Ly9wYXBlcnMuc3Nybi=
+5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTQzMDA1MDU/607f07ceef4b8524a319a=
+23cB9cd7222c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">Would Order-by-Order Auctions Be Competitive</a>,=E2=
+=80=9D=C2=A0by Thomas Ernst, Chester Spatt and Jian Sun, arguing that =E2=
+=80=9Ca winner's curse problem in the auction can reduce retail investor we=
+lfare, particularly at times of limited liquidity.=E2=80=9D And the SEC say=
+s:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">An additional cost for some orders may arise t=
+o the extent that lower execution quality for some orders currently subsidi=
+zes better execution quality for others. Table 10 shows that wholesalers ex=
+ecute 13.82% of orders at prices superior to midpoint for the investor.=C2=
+=A0On average, unless the orders have systematically negative price impact,=
+ the wholesaler may not be earning a positive marginal profit on these exec=
+utions.=C2=A0This could imply they currently subsidize the additional price=
+ improvement on these trades with marginal profits earned on other executio=
+ns. To the extent this occurs, if wholesalers marginal profits decline unde=
+r the Proposal, then customers could receive less price improvement and exp=
+erience higher transaction costs on trades that are currently subsidized. H=
+owever, on average, the Commission expects that execution quality for indiv=
+idual investor orders would likely improve under the Proposal.</p>
+<p style=3D"margin: 16px 0;">The Commission recognizes that wholesalers may=
+ provide consistency with regard to the execution quality that they deliver=
+ to individual investor orders.There is the concern that the Proposal would=
+ undermine the wholesaler business model, which in turn could hinder the ab=
+ility of wholesalers to continue to provide consistency in their execution =
+services. The Commission believes, however, that while bidders in qualified=
+ auctions may not provide as much consistency as wholesalers, some orders c=
+ould receive improved execution quality while others would=C2=A0receive red=
+uced execution quality (relative to wholesalers).</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The current system offers consistent amounts o=
+f price improvement across lots of orders; the proposed system would offer =
+more price improvement on some orders and less (or none) on others. The SEC=
+ thinks that the total amount of price improvement would go up, but it=E2=
+=80=99s hard to tell. At the Wall Street Journal, Alexander Osipovich=C2=A0=
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93aWxsLWF1Y3Rpb25zLWhlbHAtaW52ZXN0b3JzL=
+WdldC1iZXR0ZXItcHJpY2VzLXRyYWRlcnMtYXJlLXNrZXB0aWNhbC0xMTY3MTExMTk3OD9tb2Q9=
+aHBfZmVhdHN0X3BvczQ/607f07ceef4b8524a319a23cB91fc8b0b" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">writes</a>:<=
+/p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Order-by-order auctions might have different i=
+mpacts for different stocks, according to Chester Spatt, a former SEC chief=
+ economist who is now a finance professor at Carnegie Mellon University.</p=
+>
+<p style=3D"margin: 16px 0;">For actively traded stocks that many firms are=
+ eager to trade, investors might benefit as firms jockey for the right to f=
+ill each order. But for less popular stocks, fewer firms will bother to par=
+ticipate in the auctions, and the investor might end up getting a worse pri=
+ce than what he or she gets in the current system, he said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Second, a goal of this proposal is to let big =
+institutional investors =E2=80=94=C2=A0mutual funds, pensions, etc. =E2=80=
+=94=C2=A0trade against retail orders. The SEC writes:</p>
+<blockquote><p style=3D"margin: 16px 0;">The isolation of individual invest=
+or orders at wholesalers prevents other investors from having an opportunit=
+y to trade with this low-cost flow. Institutional investors that currently =
+submit their own marketable orders on national securities exchanges and oth=
+er trading centers potentially could trade at better prices if given an opp=
+ortunity to interact with the marketable orders of individual investors in =
+fair and open auctions. ... Moreover, if institutional investors that curre=
+ntly pay a full =E2=80=9Cspread=E2=80=9D (that is, the difference between t=
+he highest price bid and the lowest price offer) to access liquidity were a=
+ble instead to interact in auctions with the marketable orders of individua=
+l investors that currently are mostly inaccessible to them, these instituti=
+onal investors could benefit from lower spread costs.</p></blockquote>
+<p style=3D"margin: 16px 0;">This is my example above: Instead of an instit=
+ution getting $9.99 when it sells, a retail investor paying $10.005 to buy,=
+ and a market maker pocketing the $0.015 difference, the institution could =
+just sell directly to the retail investor at $10 and they=E2=80=99d both be=
+ better off. In the current system, institutional investors don=E2=80=99t h=
+ave direct access to retail orders; under the SEC=E2=80=99s proposal they m=
+ore or less would.<a class=3D"footnote-index" href=3D"#footnote-4" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: none !important; backg=
+round-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Third =E2=80=A6=C2=A0I think this is meant to =
+get rid of payment for order flow? I mean, it doesn=E2=80=99t explicitly sa=
+y that. But under this regime, it is hard to tell why a wholesaler would wa=
+nt to pay a retail broker for its order flow. You have to put all the order=
+s up for auction anyway, so you only get to trade with the ones that no one=
+ else wants; it is lucrative=C2=A0to trade with retail orders at a price th=
+at is=C2=A0<em>better than the public-market price</em>, but it is not obvi=
+ous that it would be all that lucrative to trade with them at a price that =
+is=C2=A0<em>better than anyone else would offer</em>. =E2=80=9CThe Commissi=
+on recognizes that the implementation of qualified auctions, as mandated by=
+ the Proposal, could lead to a significant decline or perhaps disappearance=
+ of PFOF,=E2=80=9D writes the SEC. It just doesn=E2=80=99t worry that much:=
+</p>
+<blockquote><p style=3D"margin: 16px 0;">An additional concern is that if t=
+he Proposal results in a significant or complete loss of PFOF, then retail =
+brokers would be forced to start charging commissions again for online NMS =
+stock and ETF trades. There are several reasons that retail brokers would b=
+e unlikely to resume charging commissions for these orders. First, the majo=
+rity of retail brokers receive relatively little or no PFOF, and yet they h=
+ave nevertheless successfully managed to support commission-free trading th=
+rough their other revenue-generating lines of business. In fact, several re=
+tail brokers, including some that do not accept PFOF, earned record revenue=
+s and profits after zero-commission trading was initiated. While most broke=
+rs had already reduced=C2=A0commissions to under $10, there was still consi=
+derable concern that the zero commissions would lower profits. Despite thes=
+e concerns, industry profit grew in 2020.585 Moreover, the average PFOF pay=
+ment that brokers receive on a 100 share order is 10-20 cents. The PFOF for=
+ a 1000 share order is less than the commission fees previously charged by =
+broker-dealers, which had generally been $5 or more.=C2=A0Thus, just as the=
+ loss of commission fees was not offset by the receipt of PFOF, the loss of=
+ PFOF might not necessitate the return of commission fees.</p></blockquote>
+<p style=3D"margin: 16px 0;">Payment for order flow sort of=C2=A0<em>create=
+d=C2=A0</em>the zero-commission retail-brokerage model, but it=E2=80=99s no=
+t really necessary anymore. You can run a profitable retail brokerage on <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aHR0=
+cHM6Ly93d3cua2FsenVtZXVzLmNvbS8yMDE5LzYvMjYvaG93LWJyb2tlcmFnZXMtbWFrZS1tb25=
+leS8/607f07ceef4b8524a319a23cB1a9bac0f" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> net interest margin</a>, w=
+ithout charging for trades at all.</p>
+<p style=3D"margin: 16px 0;">Also, this proposal sets up sort of an alterna=
+tive mechanism for payment for order flow. Instead of wholesalers paying br=
+okers to get their orders, =E2=80=9Copen competition trading centers=E2=80=
+=9D (stock exchanges) could charge wholesalers and institutions up to $0.00=
+05 per share to trade with those orders, and then could pass some or all of=
+ those fees back to the retail brokers:</p>
+<blockquote><p style=3D"margin: 16px 0;">Additionally, to the extent that r=
+ebates paid for the routing of segmented orders to qualified auctions are p=
+assed through to retail brokers, it could reduce the likelihood that they r=
+esume charging commissions. The 5 mil cap on rebates that qualified auction=
+s could pay for the submission of segmented orders under the Proposal is ap=
+proximately 40% of the average combined PFOF rate paid by wholesalers for m=
+arketable orders as estimated in Table 2.</p></blockquote>
+<p style=3D"margin: 16px 0;">Basically you can still pay for order flow, bu=
+t only on=C2=A0an order-by-order basis.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yOTk5Mzk5NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAyNTU1MjQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD64ea08c9" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D29993996&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yOTk5Mzk5NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAyNTU1MjQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE64ea08c9" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D29993996&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yOTk5Mzk5NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAyNTU1MjQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF2ca49bdf" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D29993996&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yOTk5Mzk5NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAyNTU1MjQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG2ca49bdf" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D29993996&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0yOTk5Mzk5NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAyNTU1MjQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH725bf77d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D29993996&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0yOTk5Mzk5NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAyNTU1MjQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI725bf77d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D29993996&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">There are a bunch of=C2=A0competing meta-theor=
+ies of what Elon Musk is up to with, you know, Twitter Inc., all this. Here=
+ are two straightforward, first-order theories:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Elon Musk <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/29993996.261528/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMDQvZWxvbi1tdXNrLWJvdWdodC1zb21lLXR3a=
+XR0ZXI_Y21waWQ9QkJEMTIxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291=
+cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMjE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/60=
+7f07ceef4b8524a319a23cBccfc1c70" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  is very rich and has eccentric h=
+obbies</a>,=C2=A0his favorite hobby is getting in fights online, and nobody=
+ around him ever tells him to knock it off. So all this stuff is bad, but i=
+t=E2=80=99s what he wants =E2=80=94=C2=A0at least, what he wants in the mom=
+ent =E2=80=94=C2=A0so he does it. =E2=80=9CMusk is just a being of pure imp=
+ulse,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/299=
+93996.261528/aHR0cHM6Ly93d3cuZ2FyYmFnZWRheS5lbWFpbC9wL2EtZmxhdHdvcm0td2l0aC=
+1hLXJvY2tldC1jb21wYW55/607f07ceef4b8524a319a23cB22c6183c" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> writes R=
+yan Broderick</a>. =E2=80=9CHe=E2=80=99s essentially a flatworm with a rock=
+et company.=E2=80=9D I too am excessively online,=C2=A0so I sympathize with=
+ this view.</li>=09<li style=3D"margin-bottom: 5px;">Elon Musk genuinely an=
+d correctly believes=C2=A0that buying Twitter and making it, like, a <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aHR0cHM6=
+Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL3RlY2hub2xvZ3kvMjAyMi8xMi8xNC9xYW5vbi1tdXN=
+rLXJldml2YWwtdHdpdHRlci8/607f07ceef4b8524a319a23cB689d7302" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> divisi=
+on</a> of <a href=3D"https://link.mail.bloombergbusiness.com/click/29993996=
+.261528/aHR0cHM6Ly93d3cudmljZS5jb20vZW4vYXJ0aWNsZS95M3Bqa3cvZWxvbi1tdXNrLWl=
+zLW5vdy1wcm9tb3RpbmctcWFub24/607f07ceef4b8524a319a23cBc53fea7b" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> QA=
+non</a> is the most important thing that he can do for humanity. =E2=80=9CT=
+he woke mind virus is either defeated or nothing else matters,=E2=80=9D <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aHR0c=
+HM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTYwMjI3ODQ3NzIzNDcyODk2MA/607f0=
+7ceef4b8524a319a23cB0b5060f8" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> he tweeted</a>: Sure his other busin=
+esses are about rockets and electric cars, about=C2=A0making humanity multi=
+planetary and solving climate change, but those problems are trivial compar=
+ed to the real work of <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/29993996.261528/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTYwMT=
+g4NDQ3ODc0NTM3NDcyMA/607f07ceef4b8524a319a23cBe43d124b" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> tweeting m=
+emes about Anthony Fauci</a>. I do not pretend to understand this view, but=
+ (1) it is Musk=E2=80=99s own stated theory of what is going on<em>=C2=A0</=
+em>and (2) a lot of his venture-capitalist buddies seem to believe it, so I=
+ do not want to write it off entirely. I mean, I do. But here it is.</li>
+</ul>
+<p style=3D"margin: 16px 0;">But I am also drawn to two weirder and more co=
+nvoluted theories<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: none !important; backgr=
+ound-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a>:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Tesla Inc. stock is the main source of=
+ Musk=E2=80=99s wealth, and he has done a good job of maximizing that stock=
+=E2=80=99s price by rallying a legion of retail fans. But eventually he nee=
+ds to cash out, and that presents a problem: If the founder, chief executiv=
+e officer and cult leader of Tesla starts dumping stock, then that signals =
+a loss of confidence, and the stock would collapse before he could get much=
+ money out of it. But if he created a=C2=A0<em>distraction</em>, or an=C2=
+=A0<em>excuse</em>, for dumping the stock, then that might cushion the blow=
+. Not =E2=80=9CI am selling $40 billion of Tesla stock to top-tick it=E2=80=
+=9D but more like =E2=80=9CI am selling $40 billion of Tesla stock to buy T=
+witter and wage war for the future of civilization.=E2=80=9D Then his fans =
+might say =E2=80=9Cgreat, sell that stock, wage that war,=E2=80=9D and he c=
+an sell stock without taking too much of a hit. And in fact Musk <em>has=C2=
+=A0</em><a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.2=
+61528/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTItMTUvZ=
+Wxvbi1tdXNrLXNlbGxzLWF0LWxlYXN0LTMtNi1iaWxsaW9uLW9mLXRlc2xhLXNoYXJlcz9jbXBp=
+ZD1CQkQxMjE1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2x=
+ldHRlciZ1dG1fdGVybT0yMjEyMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b85=
+24a319a23cB576e3658" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">sold almost $40 billion of Tesla stock</a>, a=
+fter repeatedly promising that he was done. We have <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/29993996.261528/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMjgvZWxvbi1tdXNrLXMtb3RoZXItbWVy=
+Z2VyLXdvcmtlZC1vdXQ_Y21waWQ9QkJEMTIxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWF=
+pbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMjE1JnV0bV9jYW1wYWlnbj1tb2=
+5leXN0dWZm/607f07ceef4b8524a319a23cB1cf12614" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">  talked about this t=
+heory before</a>, but I find it somewhat=C2=A0unsatisfying because (1) in f=
+act Tesla=E2=80=99s stock has gone down a ton as he=E2=80=99s been selling!=
+ and (2) he has plowed most of the proceeds into buying Twitter, which has =
+probably gone down even more! I do not see how he has accomplished any real=
+ diversification or stock-price-maintenance goals.=C2=A0</li>=09<li style=
+=3D"margin-bottom: 5px;">Tesla Inc. is the main source of Musk=E2=80=99s we=
+alth, and his main goal in life is selling lots of Teslas. He has sold all =
+the Teslas that he can sell to coastal elite liberals, and now he faces the=
+ daunting challenge of selling electric cars to social conservatives. Acqui=
+ring Twitter and turning it into a right-wing media company with himself as=
+ the main character might be bad for, like, <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/29993996.261528/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY=
+2xlcy9lbG9uLW11c2tzLXR3aXR0ZXItZmxhbWUtdGhyb3dpbmctaGFzLW5ldy1tYWduaXR1ZGUt=
+MTE2NzExMDAyODM_bW9kPWhwX2xlYWRfcG9zMw/607f07ceef4b8524a319a23cBfa6bb200" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> Twitter ad sales</a>, but that is small potatoes if it is good for=
+=C2=A0<em>selling Teslas to Republicans</em>. =E2=80=9COur cars are electri=
+c, yes, but they are free from the woke mind virus=E2=80=9D is perhaps a go=
+od pitch.<a class=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: none !important; background-col=
+or: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a>
+</li>
+</ul>
+<p style=3D"margin: 16px 0;">Those last two theories have opposite implicat=
+ions for what you should think about all this if you are a=C2=A0<em>Tesla=
+=C2=A0</em>shareholder. If you think that Musk=E2=80=99s purchase of Twitte=
+r is meant to provide a distracting cover for his loss of interest in Tesla=
+, seems bad! If you think that Musk=E2=80=99s purchase of Twitter is meant =
+to open up new markets for Tesla then, you know, give him a chance, see whe=
+re this is going.</p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/29993996.261528/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjItMTItMTUvZWxvbi1tdXNrLXNlbGxzLWF0LWxlYXN0LTMtNi1iaWxsaW9uLW9mLXR=
+lc2xhLXNoYXJlcz9jbXBpZD1CQkQxMjE1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJn=
+V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEyMTUmdXRtX2NhbXBhaWduPW1vbmV5c=
+3R1ZmY/607f07ceef4b8524a319a23cC576e3658" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Anyway</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Elon Musk sold another $3.58 billion worth of =
+Tesla Inc. shares, bringing the total amount he=E2=80=99s offloaded since l=
+ate last year to almost $40 billion.</p>
+<p style=3D"margin: 16px 0;">The latest disposal of about 22 million shares=
+ this week coincided with Musk falling from the top spot on the Bloomberg B=
+illionaires Index, a position he=E2=80=99d occupied since September of last=
+ year. Tesla=E2=80=99s market value also slumped below the half-trillion-do=
+llar mark for the first time since November 2020.</p>
+<p style=3D"margin: 16px 0;">Musk=E2=80=99s persistent selling after repeat=
+ed assurances that he was done unloading Tesla stock reflects mounting pres=
+sure on the finances of Twitter Inc. His erratic and impulsive approach to =
+running the social-media company has alienated advertisers, and efforts to =
+bring in more revenue from subscription fees backfired when impostor accoun=
+ts exploited a poorly executed rollout of verification badges.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/29993996.261528/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90ZXNsYS1p=
+bnZlc3RvcnMtdm9pY2UtY29uY2Vybi1vdmVyLWVsb24tbXVza3MtZm9jdXMtb24tdHdpdHRlci0=
+xMTY3MDk0ODc4Nj9tb2Q9YXJ0aWNsZV9pbmxpbmU/607f07ceef4b8524a319a23cBed4a303d"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">And</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The chorus of Tesla Inc. individual investors =
+expressing misgivings that Chief Executive Elon Musk=E2=80=98s involvement =
+with Twitter Inc. may be to the detriment of the electric-vehicle maker is =
+getting louder, with the car company=E2=80=99s stock on track for its worst=
+ full-year performance. =C2=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThere is no TSLA CEO today,=E2=80=9D =
+Gary Black, managing partner of the Future Fund LLC, which owns roughly $50=
+ million worth of Tesla, tweeted Monday. ...</p>
+<p style=3D"margin: 16px 0;">Mr. Black said, =E2=80=9CThe market voted toda=
+y that the $TSLA brand has been negatively impacted by the Twitter drama. W=
+here before EV buyers were proud to drive their Teslas to their friends or =
+show off Teslas in their driveways, now the Twitter controversy is hurting =
+Tesla=E2=80=99s brand equity.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yeah I mean if you are an asset manager you ar=
+e maybe less proud to show off your Tesla, but how many Teslas can Musk pos=
+sibly sell to asset managers?=C2=A0</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yOTk5Mzk5NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAyNTU1MjQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJ9dafcbf9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D29993996&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Underwriting</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One way to think about insurance underwriting =
+is that you build your underwriting model by:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Making a list of=C2=A0observable fact=
+ors that are correlated with the risk you are insuring, and then</li>=09<li=
+ style=3D"margin-bottom: 5px;">Crossing off the factors=C2=A0that regulator=
+s and politicians would get mad at you for using.</li>
+</ol>
+<p style=3D"margin: 16px 0;">The first part helps you figure out the right =
+price to charge for insurance, and requires some statistical sense. The sec=
+ond part keeps you out of trouble, and requires some=C2=A0political sense. =
+If your research discovers that people who drive red cars get in more car a=
+ccidents than people who drive gray cars, sure, charge the red-car drivers =
+more.<a class=3D"footnote-index" href=3D"#footnote-7" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: none !important; background-color: =
+transparent !important; display: inline-block;">
+<span>[7]</span>
+</a>=C2=A0If your research discovers that Jewish people get in more car acc=
+idents than Christians, you=C2=A0put that research straight in the trash ca=
+n! Why did you even do that research? What were you thinking? What is wrong=
+ with you?</p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/29993996.261528/aHR0cHM6Ly9mb3J0dW5lLmNvbS93ZWxsLzIwMjIvMTIvMTMv=
+Y292aWQtdW52YWNjaW5hdGVkLWdyZWF0ZXItcmlzay1jYXItY3Jhc2gtdHJhZmZpYy1hY2NpZGV=
+udC1uZXctc3R1ZHktc2F5cy1jYW5hZGEtZ292ZXJubWVudC1yZWNvcmRzLXBmaXplci1tb2Rlcm=
+5hLw/607f07ceef4b8524a319a23cBc18bead2" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">Anyway</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">If you passed on getting the COVID vaccine, yo=
+u might be a lot more likely to get into a car crash. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">During the summer of 2021, Canadian researcher=
+s =E2=80=A6 found that the unvaccinated people were 72% more likely to be i=
+nvolved in a severe traffic crash=E2=80=94in which at least one person was =
+transported to the hospital=E2=80=94than those who were vaccinated. That=E2=
+=80=99s similar to the increased risk of car crashes for people with sleep =
+apnea, though only about half that of people who abuse alcohol, researchers=
+ found. ...</p>
+<p style=3D"margin: 16px 0;">The authors theorize that people who resist pu=
+blic health recommendations might also =E2=80=9Cneglect basic road safety g=
+uidelines.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The findings are significant enough that prima=
+ry care doctors should consider counseling unvaccinated patients on traffic=
+ safety=E2=80=94and insurance companies might base changes to insurance pol=
+icies on vaccination data, the authors suggest.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I am quite certain that, at least in the US, n=
+o auto insurer is going to start asking drivers about their Covid vaccinati=
+on status so that it can charge unvaccinated people more! Imagine the congr=
+essional hearings!=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">BlackRock Is Caught in the <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/29993996.261528/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjItMTItMTUvYmxhY2tyb2NrLWlzLWNhdWdodC1p=
+bi10aGUtZXNnLWNyb3NzZmlyZS1hbmQtc3RydWdnbGluZy10by1nZXQtb3V0P2NtcGlkPUJCRDE=
+yMTUyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJn=
+V0bV90ZXJtPTIyMTIxNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a2=
+3cBfc3e21e4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  ESG Crossfire</a> and Struggling to Get Out. Vanguar=
+d <a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/=
+aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZTM1NTMwOTctYmIyOC00NGQwLTgzZmEtMmFkMjV=
+iNTY2OGMx/607f07ceef4b8524a319a23cB6c05f52a" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> spared ESG grilling</=
+a> in Texas after ditching green alliance. Chinese <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/29993996.261528/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTItMTUvY2hpbmVzZS1zdG9jay1kZWxpc3Rpbmctc=
+mlzay1mYWxscy1hZnRlci11cy13YXRjaGRvZy1nb3QtYWNjZXNzP2NtcGlkPUJCRDEyMTUyMl9N=
+T05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJ=
+tPTIyMTIxNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBea775e=
+c3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Stock Delisting Threat Eases</a> as US Gets Access to Audit =
+Data. US <a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.=
+261528/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTItMTUv=
+dXMtYmxhY2tsaXN0cy1tb3JlLWNoaW5hLXRlY2gtY29tcGFuaWVzLWVzY2FsYXRpbmctdHJhZGU=
+tZmlnaHQ_Y21waWQ9QkJEMTIxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc2=
+91cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMjE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/=
+607f07ceef4b8524a319a23cB18418569" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  Blacklists</a> More Chinese Te=
+ch Companies, Escalating Trade Fight. FTX Executives Used =E2=80=98Korea=E2=
+=80=99 Account to Mask <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/29993996.261528/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjItMTItMTQvZnR4LWV4ZWN1dGl2ZXMtdXNlZC1rb3JlYS1hY2NvdW50LXRvLW1hc2stZ2lhb=
+nQtYWxhbWVkYS1saWFiaWxpdGllcz9jbXBpZD1CQkQxMjE1MjJfTU9ORVlTVFVGRiZ1dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEyMTUmdXRtX2NhbXB=
+haWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBc7bf7c8f" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> Giant Alam=
+eda Liabilities</a>.=C2=A0Bahamian authorities were <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/29993996.261528/aHR0cHM6Ly93d3cuZnQuY29tL=
+2NvbnRlbnQvOTIxZDA3MjctNGM2ZS00OGZkLWE5M2ItNTIzNDk0MGZlNjIw/607f07ceef4b852=
+4a319a23cB5a1a55d1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">tipped off</a> by top Bankman-Fried associate=
+.=C2=A0In Hedge Fund <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/29993996.261528/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIw=
+MjItMTItMTUvaW4taGVkZ2UtZnVuZC1wYXktZGlzcHV0ZS1hLXBvcnRmb2xpby1tYW5hZ2VyLWR=
+lbmllcy1taXNjb25kdWN0P2NtcGlkPUJCRDEyMTUyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTIxNSZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cB5f187b96" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  Pay Dispute</a>,=
+ a Portfolio Manager Denies Misconduct. EY Looks at <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/29993996.261528/aHR0cHM6Ly93d3cud3NqLmNvb=
+S9hcnRpY2xlcy9leS1sb29rcy1hdC1iYWNrdXAtcGxhbnMtb24tc3BsaXQtYW1pZC1oaWdoZXIt=
+Y29zdHMtc2xvd2VyLWdyb3d0aC0xMTY3MTA2MDA0Nz9tb2Q9aHBfbGVhZF9wb3M0/607f07ceef=
+4b8524a319a23cB048a0f29" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> Backup Plans</a> on Split Amid Higher Cos=
+ts, Slower Growth. School of Quant: At $29,000, a <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/29993996.261528/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjItMTItMTUvc2Nob29sLW9mLXF1YW50LWF0LTI5LTAwMC=
+1hbi1ueWMtY29sbGVnZS1vdXRjbGFzc2VzLXByaW5jZXRvbj9jbXBpZD1CQkQxMjE1MjJfTU9OR=
+VlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0y=
+MjEyMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBa6a5f907" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  Public NYC College</a> Outclasses Princeton.=C2=A0Debt Defaulter =
+Zambia Seeks to <a href=3D"https://link.mail.bloombergbusiness.com/click/29=
+993996.261528/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItM=
+TItMTUvZGVidC1kZWZhdWx0ZXItemFtYmlhLXNlZWtzLXRvLW9mZmxvYWQtY29zdGx5LXByZXNp=
+ZGVudGlhbC1ndWxmc3RyZWFtLWpldD9jbXBpZD1CQkQxMjE1MjJfTU9ORVlTVFVGRiZ1dG1fbWV=
+kaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEyMTUmdXRtX2NhbX=
+BhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe8bed7cf" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">  Offload =
+Costly Presidential Gulfstream Jet</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/29993996.261528/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB0e48a332" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/29993996.261528/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB7a86f5ea" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] I am mostly just being annoying when I say=
+ =E2=80=9CRobinhood=E2=80=9D; really this paragraph is true of any individu=
+al retail investor. (Similarly, for =E2=80=9CBlackRock,=E2=80=9D you can su=
+bstitute pretty much any institutional investor, hedge fund, etc.) But not =
+entirely: Different retail brokerages have, statistically, different custom=
+er bases, and <a href=3D"https://link.mail.bloombergbusiness.com/click/2999=
+3996.261528/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjI=
+tMDgtMjUvc29tZS1mcmVlLWJyb2tlcnMtYXJlLWNoZWFwZXItdGhhbi1vdGhlcnM_Y21waWQ9Qk=
+JEMTIxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjIxMjE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cC8382d42f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> there do seem to be some aggregate differences</a>=
+ between how Robinhood Markets Inc. customers trade and how, say, Interacti=
+ve Brokers Pro customers trade. Some retail brokerages=E2=80=99 customers a=
+re, as it were, more retail than others, and it is more profitable to trade=
+ against them.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] We <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/29993996.261528/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjEtMDgtMzEvd2hhdC1oYXBwZW5zLXRvLXJvYmluaG9vZC1pZi10aGUt=
+c2VjLWJhbnMtcGF5bWVudC1mb3Itb3JkZXItZmxvdz9jbXBpZD1CQkQxMjE1MjJfTU9ORVlTVFV=
+GRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEyMT=
+UmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9c151d98" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  talked last year</a> about a <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/29993996.261528/aHR0cHM6Ly9ibGlua3MuYmxvb21iZXJnLmNvbS9uZXdz=
+L3N0b3JpZXMvUVlOSDUzRFdYMlE0P2NtcGlkPUJCRDEyMTUyMl9NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTIxNSZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7ca61300" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> Bloomberg =
+Intelligence research note</a> finding that =E2=80=9CMarket makers captured=
+ 48.5% of the spread in executing self-directed retail orders in 2Q [of 202=
+1]. Of the balance, 13.3% was paid to the broker and 38.2% went to the clie=
+nt.=E2=80=9D So basically market makers who do this sort of wholesaling bus=
+iness end up charging about half of the spread on retail orders that they w=
+ould in public markets. This is not all profit to them =E2=80=94 they have =
+trading costs, and there is still some adverse selection in retail trading =
+=E2=80=94 but the point is it is still a profitable business at half the pu=
+blic-market spread. Meanwhile the other half of the spread goes roughly one=
+-quarter to PFOF and roughly three-quarters to price improvement.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] I should say that some public exchanges ha=
+ve retail execution facilities that are basically designed to allow for thi=
+s sort of thing: Brokers can send retail orders to those facilities, and in=
+stitutions (or anyone else) can compete to take the other side of them. </p=
+>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Some caveats here. First, they=E2=80=99d h=
+ave to do this through an =E2=80=9Copen competition trading center,=E2=80=
+=9D like a stock exchange, which could charge the institution a fee; to som=
+e extent this rule is a transfer of value from wholesalers to exchanges. Se=
+cond, they=E2=80=99d have to have the capacity to bid on these 100-millisec=
+ond auctions, capacity that could presumably be provided by their brokers=
+=E2=80=99 routers, but that would have to be built. Third, I think if you a=
+sked wholesalers how the system works today, they would dispute the claim t=
+hat institutions would sell at $9.99 while retail bought at $10.005 and who=
+lesalers pocketed the difference. =E2=80=9CIf institutions want to sell at =
+$10, they can put a midpoint sell order on a dark pool, and we would route =
+a retail order to that dark pool and fill it at $10,=E2=80=9D they would sa=
+y. All in all wholesalers seem to be skeptical of the idea that there is to=
+ns of value to be found by matching buyers and sellers of stock up more eff=
+iciently. They claim that *they* are the most efficient matchers of buyers =
+and sellers.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] See also <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/29993996.261528/aHR0cHM6Ly9tYXhyZWFkLnN1YnN0YWNrLmN=
+vbS9wL2RpZC1lbG9uLW11c2stY2hhbmdlP3V0bV9zb3VyY2U9cG9zdC1lbWFpbC10aXRsZSZwdW=
+JsaWNhdGlvbl9pZD0zOTI4NzMmcG9zdF9pZD05MDc1NDIwNCZpc0ZyZWVtYWlsPXRydWUmdXRtX=
+21lZGl1bT1lbWFpbA/607f07ceef4b8524a319a23cB0f646586" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> Max Read=E2=
+=80=99s theory</a> that =E2=80=9Cthe only thing he knows how to do -- the o=
+nly way he knows how to make money, but also the way he has been conditione=
+d to respond to any kind of adversity or challenge -- is to create chaos an=
+d drama around himself in search of new opportunity. The =E2=80=98grand pla=
+n=E2=80=99 at Twitter, such as it is, is for him to make a mess, wherever a=
+nd however he can, and see what happens: is there a business opportunity he=
+re? An edge? Can I find new political allies, business partners, customers?=
+=E2=80=9D But: =E2=80=9C=E2=80=98Chaotic main character=E2=80=99 is a surpr=
+isingly acceptable and effective role for an executive to take in condition=
+s of historically low interest rates, when people and institutions have lot=
+s of money and are hungry for risk. But when money is less easily accessibl=
+e, and appetites for risk are low, the fraction of people who are attracted=
+ to (or merely willing to tolerate) your [bull] declines, and your talent f=
+or drama looks less like a strength and more like a liability (or personali=
+ty deficit).=E2=80=9D</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Here is <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/29993996.261528/aHR0cHM6Ly90d2l0dGVyLmNvbS9kYXZpZHJp=
+c2hlcldSL3N0YXR1cy8xNjAzMTg5NDA4NDU4NzU2MDk2/607f07ceef4b8524a319a23cBdd715=
+2df" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> a Twitter thread</a> from David Risher making this argument. =
+=E2=80=9C@elonmusk *really* cares about 2 things: Climate Change and Attent=
+ion. The 1st is an existential threat; the 2d is a steroid that force-multi=
+plies all other efforts. =E2=80=A6 Who loves @Teslas? Stereotypically: latt=
+e-sipping, @NPR-listening, coastal-living libs. But that's not enough. So w=
+hat's the strategy? Make yourself (and your brand) appealing to a more soci=
+ally conservative crowd. =E2=80=A6 As for Attention, it's super-clear that =
+going right is an viral attention-grabber.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] This one <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/29993996.261528/aHR0cHM6Ly93d3cuaWlpLm9yZy9hcnRpY2x=
+lLzgtYXV0by1pbnN1cmFuY2UtbXl0aHM/607f07ceef4b8524a319a23cB883bdd54" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>appears to be an urban legend</a>, but a fun one.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBab4279c1" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB8f2ee0cb" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB575568e2" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB296371de" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yOTk5Mzk5NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAyNTU1MjQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cK4506a2ef" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D29993996&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBb1e4d2dd" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/29993996.261528/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCe28dbb50" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/29993996.261528/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB28043724" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/29993996.261528/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBc6adb7df" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB1=
+fe6cb57" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29993996.261528/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB1=
+cfe4b31" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D299939=
+96&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D299939=
+96&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D299939=
+96&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D299939=
+96&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D299939=
+96&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30255524&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chuvik.5lso/f774bc51.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_15317133_1464855252.1671132834449--
+

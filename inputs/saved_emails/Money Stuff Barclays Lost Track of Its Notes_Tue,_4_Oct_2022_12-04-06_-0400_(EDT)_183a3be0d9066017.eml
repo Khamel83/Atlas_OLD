@@ -1,0 +1,2277 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:7290:b0:c5:6d1d:3c13 with SMTP id w16csp371428rwf;
+        Tue, 4 Oct 2022 09:04:45 -0700 (PDT)
+X-Received: by 2002:a05:6a00:1392:b0:561:8156:d8d8 with SMTP id t18-20020a056a00139200b005618156d8d8mr8965902pfg.43.1664899485045;
+        Tue, 04 Oct 2022 09:04:45 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1664899485; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=VJFzho8D/K8XRPC4RNT535emxFyknqf6+7CmmJO4/CT7SnVgi7pjRjc1PJAh0A7Tok
+         ILuE/Ytj4xaUCEl9evGwjc3oxc9mwuNt5lRxxgBmEMJJQK+kizcQM+jABRoTBOlia3f5
+         6bg18+G2VrH2DWYraQ9OyHn42w5SvDE1uipJZRZBaKgHwOEOrAsXzyFDCeQWO/zr0Aob
+         8U3YD1ylZEMlTLS+OjKvBqC2hGme5c8GHm0ORS503myGmgxAI7ty3rk9JgwNOfe8LuQk
+         drcwyumKBypotvUcvTYKRkyWADqBZ489Sbqx8PUaO02kM3fpYfV5ba3oBGARO5l17pNV
+         Hwqg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=7DW8pWcYZf8EOomRl7MY0GEnWbiLMwqIRbTQQXmvGno=;
+        b=DOxzt+u2Fcakab1TXmHexkrYG7JClf5TRKc0oZQ5bv8gulftyQxm3gceMI1OKmG9vx
+         jmG0WcBbGzklxt5xvvV97IJVpR3rDUVz9mNpnmrI6Ox1775roTghZWohKHWxZn5i5xDJ
+         c8JD5mOIwCvvN5Qs4M8PfR0uBIpfQobFPlZKvUoTUQzhiTF/5/SCXWNoZwiaQ/r9MVHJ
+         4+Rk1oLFl/sRjZrFXppXiL2kXU9tyez5kPi6BAzb0yhmKjUlbVAqEbZzGRHT6rd9T96P
+         J+dzTxCitgwC3J9MrGeYMPEFK4tof1Stl7iIfXfyXeHHs6Ku9RcXeqKq3JlUTPJRtpQO
+         Nucg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=4fQuoTbU;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p9-20020a17090a74c900b0020a0e1e1f21sor4273692pjl.40.2022.10.04.09.04.44
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 04 Oct 2022 09:04:45 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=4fQuoTbU;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date;
+        bh=7DW8pWcYZf8EOomRl7MY0GEnWbiLMwqIRbTQQXmvGno=;
+        b=W+LdBVM46euksc8pKKSyZ+1dErAZi1cu9+nDEWlH1PtK04w6DJHZAoXSenw5F/1i9T
+         x/M8ErtVPvpNbS983gfbEpnLgeUuuYVqv0cULD5adBjgZ2ONWT5z4vf+o1n8HmB0XZIy
+         ly1d42szulQwNm1P+cOZIyF2CWI6LLTbA8i7MdteJmZkT07SBHO7V8JttDaIdw1PaTeO
+         wPhBEOjT/yJop2/t8GN5Eocr5XO9bmyh0yuQnd9SDnSM925ceUi88ZN3rA8iapifNqzU
+         pZygMjLNidXbsRWh8bJKyFrbRNp4YBkuxZ06vGu/qwlPCpXcifAu3KBIBJY3zHZ/1afF
+         EqZQ==
+X-Gm-Message-State: ACrzQf3ap4zfq8RDcbMCW6kFRp9DCZsw5l05fZhPlGFMdT1Gydx1UCtp
+	ZZ2fnA58PXbaW2OKU65ijPRFjLGL3PXMTgW/ys7fWA+1RUeigntH9A==
+X-Received: by 2002:a17:90b:3e8c:b0:202:c7b1:b20b with SMTP id rj12-20020a17090b3e8c00b00202c7b1b20bmr438033pjb.54.1664899484406;
+        Tue, 04 Oct 2022 09:04:44 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a17:90a:7289:0:0:0:0 with SMTP id e9csp93610pjg;
+        Tue, 4 Oct 2022 09:04:40 -0700 (PDT)
+X-Received: by 2002:a63:83c6:0:b0:44c:1ae6:ad18 with SMTP id h189-20020a6383c6000000b0044c1ae6ad18mr11613449pge.83.1664899480288;
+        Tue, 04 Oct 2022 09:04:40 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1664899480; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=vckTju0tQfWOaOyOytp29O2ziBSzT1ba2FM3ihV743JoZ8CwNnxCjJ3krfXM1WTj8/
+         sBsb8vmhx2gfkQpW2cbn/xNa8c+0hBvyvSZsDFs36olxRhrDVK9SkcZ2yvj/wUYdoZUv
+         vmMTKGaVlBraZ5DZEuYFhObiu7eb3eK7R4TJ+6d3P/RSw/C/AHL5st+rNDHdMG/M7Dfc
+         1iZDlPu19sYIHPsldAaMxayLf2NWrJmJTLjTaC3emoNlwC8NUHGcAFct6DN7VrsidnHe
+         MNr8AaYw5bOHlAE/nq6dBGQDzNnqstCD/+FFHJ0Mr6uaXwtjPNfLKlMv01xHQEUJAHW/
+         kDaQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=7DW8pWcYZf8EOomRl7MY0GEnWbiLMwqIRbTQQXmvGno=;
+        b=OjKM4o4GVLBbIRg4VYf+ZJGGrONF/66Qolf+bi9aNhN2afttCBpUR/afbiaUI9+jEV
+         AilKglJzoHfrp0BY0q+wCdgLP0zjlup9U+AQAEjMEGnDY1EpqOwwEjto7pVyOfRGvxd6
+         s8uzW+9spLnurpZF9tpiyjd873gNgFAzdcqkOQ0HDf4cUbOCpcM/kOf4Hdgv8VkYBLPG
+         48f98NBMZFaZrkCF+CQ/CRfRqRrSf6LpDV0Sw6cfhfSftRai/KUSY08do7pVuk8JXmTk
+         m7Bgv1XFJIKPAi6W09rJJSxi9/MSX39vBxMWJkGAOt2klHNA44APHZjpe4/rqcdRAkMh
+         AW1w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=4fQuoTbU;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20221004120406.29264112.275527@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20221004120406.29264112.275527@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221004120406.29264112.275527@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c5-20020a17090a8d0500b001fded8896a7sor4869090pjo.15.2022.10.04.09.04.40
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 04 Oct 2022 09:04:40 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20221004120406.29264112.275527@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMsMyM5vh2CntqgNvl0MUM2IhnFlbyS0mPPG5h1rJsByy9Al1weW/kav1WWHrzZ52ycMwRYI3+EQpRn4u+CoG4180pUm/iUsLbA=
+X-Received: by 2002:a17:90b:400c:b0:20a:bb11:a0f3 with SMTP id ie12-20020a17090b400c00b0020abb11a0f3mr437821pjb.166.1664899479840;
+        Tue, 04 Oct 2022 09:04:39 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1664899479; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Hq7v89EXvQrkbsns4oNWwb66XAp6NeibKwKRj6F0Cvwo5LOGZi07XKYXAhwQOGNFwg
+         8q7mZ0skhyprtX6YtE2wrz+QS/nMPmnUoy6SvsfQHzYKNaaQZMdD0q54BRK7diH6FI7b
+         V3lBCC4k8HVUcM6xap7c1O3CHWQHguJiIhl6rgZiTaz4Nl0CWQGo187s9WCWGk5fzrgb
+         9kRF4pmZTivH2dRineud3kTYLMlnTHtth9fGTlLfVSPyIP3J0YURsIwtsDJ4iSyYLgfw
+         1HagjTiF9poFVS1NuS3pqqVWyBJQowd8DfCQAXKIzxAzUjVV/NQr28yZhQyt8PB4Y3zx
+         2RGQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=7DW8pWcYZf8EOomRl7MY0GEnWbiLMwqIRbTQQXmvGno=;
+        b=N17EjQE7ItfeEr+P6KW33unVbT4dsj51Cr4CPIn0FzmUxo8MA/PjChWg7ZDvn4elXI
+         Ac7mznEBzWQZddSVc6+ADZ96/Csgm+NFKM14kb7m0td0jQjfEEMmmGRYe+MaZ6GLzAXV
+         gtyhjh5SEELsiPrnmDc6J/7uofRE9VtyOUybXEp67A0Oki7mkXPlfGsRsNSpzuVZVdnS
+         uoQ7ljHil2xXLHpfBf8lFDDY/mpkQIIgiUJNFS17SuMbqpB3LsyUMlBeMesBRYY5Maxn
+         95Bo39adUQQ7MVdRjel9GJiiWhHC1NE5dlyaxfGG6fH3sehGr6NjOqcXRuhOv4TZJKEb
+         P/dQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=4fQuoTbU;
+       spf=pass (google.com: domain of delivery_20221004120406.29264112.275527@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20221004120406.29264112.275527@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221004120406.29264112.275527@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id e2-20020a17090301c200b0017824ebedc5si498593plh.1.2022.10.04.09.04.39
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 04 Oct 2022 09:04:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20221004120406.29264112.275527@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=YEWqzGFpIsPw5iJUyhIRxCH+hFT7S2V3dUwLzitDKKg=;
+ b=4fQuoTbUVgd72pgPUx/+p8G0vvTJEYi5vw+wce4mP2TRZFkk/nWThNdP8+s4mm0bkA0rJNR39CkQ
+   dXtzEM/y/05Om8jm96lqIoEHLY5lN8hWvv35sCVVAmzM6td9UPMU59GW7UdIHnNBcvubWP/qBtNg
+   SAugb4FFPE1kiFIhuTc=
+Received: from njmta-180.sailthru.com (173.228.155.180) by bloomberg-b.sailthru.com id h7hcpc30nu8s for <bloomberg@khamel.com>; Tue, 4 Oct 2022 12:04:38 -0400 (envelope-from <delivery_20221004120406.29264112.275527@mx.sailthru.com>)
+Received: from nj1-hotheart.flt (172.18.20.32) by njmta-180.sailthru.com id h7hcpa1qqbse for <bloomberg@khamel.com>; Tue, 4 Oct 2022 12:04:06 -0400 (envelope-from <delivery_20221004120406.29264112.275527@mx.sailthru.com>)
+Date: Tue, 4 Oct 2022 12:04:06 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20221004120406.29264112.275527@sailthru.com>
+Subject: Money Stuff: Barclays Lost Track of Its Notes
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_7193955_1520092384.1664899446734"
+Precedence: bulk
+X-Feedback-ID: 6358:29264112:campaign:sailthru
+X-TM-ID: 20221004120406.29264112.275527
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-hotheart.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chf8c0.5wlj/3a42036d
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chf8c0.5wlj/3a42036d>, <mailto:unsubscribe_20221004120406.29264112.275527@mx.sailthru.com>
+X-rpcampaign: stjko29264112
+
+------=_Part_7193955_1520092384.1664899446734
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Thursda=
+y.In March 2022, Barclays Plc%3Cp%3EI%20am%20just%20going%20to%20call%20t
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Thurs=
+day.
+
+ =20
+   =20
+      Barclays!
+   =20
+ =20
+
+In March 2022, Barclays Plc
+  [1]
+=C2=A0discovered an oopsie involving a fairly technical detail of US securi=
+ties law. When a=C2=A0company sells securities to the public, in the US, it=
+ has to register those securities, filing a registration statement with the=
+ US Securities and Exchange Commission that says what kinds and amounts of =
+securities it plans to sell. This is very important. If you sell securities=
+=C2=A0without=C2=A0properly registering them, you can get in trouble. One k=
+ind of trouble that you can get in is that the SEC can sue you. Another kin=
+d of trouble that you can get in is that the people who=C2=A0buy=C2=A0the s=
+ecurities can demand their money back. If you sell people stock for $20 per=
+ share, and then a year later they notice that you did not properly registe=
+r the offering, and the stock is now at $5, you have to give them their $20=
+ back. (If the stock is at $30, they can keep it; they don=E2=80=99t=C2=A0h=
+ave=C2=A0to take their money back.)=C2=A0This creates a lot of bad risk for=
+ you, which you can avoid by filing the right forms.
+When the company is a startup selling stock=C2=A0to the public for the firs=
+t time, the=C2=A0registration process is called an =E2=80=9Cinitial public =
+offering=E2=80=9D and is a big deal. When the company is a giant bank that =
+sells dozens of securities every day, it is not. It files a =E2=80=9Cshelf =
+registration statement,=E2=80=9D letting it sell a large=C2=A0amount of a w=
+ide range of securities over time, and then each day it sells some more sec=
+urities =E2=80=9Coff that shelf,=E2=80=9D and when it has sold all of the s=
+ecurities covered by the shelf registration statement then it files a new o=
+ne and starts over again. And it is all pretty administrative and boring.
+The bank uses the shelf to sell a range of securities: bonds and notes to f=
+und its general activities, structured notes (basically customized derivati=
+ves wrapped in bonds of the bank and sold to rich people), and (at Barclays=
+)  exchange-traded products that give customers exposure to things like oil=
+ prices or the VIX volatility index. Every day the bank needs funding, and =
+customers want to do trades, and some of those trades come in the form of s=
+ecurities issued off the shelf.
+Normally the SEC makes this process very easy for big well-known companies.=
+ A =E2=80=9Cwell-known seasoned issuer,=E2=80=9D or WKSI, under US securiti=
+es law can file shelf registration statements that don=E2=80=99t even speci=
+fy a maximum amount of securities, and they are automatically =E2=80=9Ceffe=
+ctive=E2=80=9D: The company can just sell securities immediately, as soon a=
+s it files the registration statement, without any SEC review. The WKSI sta=
+ndards are in SEC Rule 405 and Instruction I.A on=C2=A0Form S-3, and the ba=
+sic requirements are that you have been public for at least a year, you hav=
+e a stock market capitalization of at least $700 million, and your annual a=
+nd quarterly SEC reports are up-to-date. The intuition is that if you are a=
+ big company that has been public for a while, you can just say =E2=80=9Che=
+y we=E2=80=99re selling some securities,=E2=80=9D and then you do it, witho=
+ut a lot of formalities.
+Barclays is a big company that has been public for a while, so it was a WKS=
+I, and it used its WKSI status to sell lots of structured notes and exchang=
+e-traded products every day.=C2=A0But there is one more requirement for bei=
+ng a WKSI, which is that you can=E2=80=99t have committed any securities fr=
+aud in the last three years.
+  [2]
+=C2=A0It is a=C2=A0fact of life=C2=A0that big=C2=A0banks are constantly get=
+ting in trouble for some form or other of securities fraud. At every one of=
+ the large legacy investment banks, somebody in some division is committing=
+ securities fraud=C2=A0right now. But the WKSI rules really are intended to=
+ let big public companies issue securities with a minimum of fuss, and nobo=
+dy needs that more than a bank selling new notes every day. And in general =
+the banks are not getting in trouble for fraudulently issuing structured no=
+tes off their WKSI shelf registration statements. (Sometimes, though!) If s=
+omeone on some mortgage-bond trading desk does some light fraud, it is odd =
+to punish the exchange-traded-notes people by making it more inconvenient f=
+or them to register securities.
+For a long time, the SEC dealt with this by granting =E2=80=9CWKSI=C2=A0wai=
+vers=E2=80=9D to banks pretty liberally: Each time a bank got caught doing =
+something bad, it would confess its=C2=A0sins and pay a big fine, and then =
+the SEC would say =E2=80=9Cokay but you still get to be a WKSI.=E2=80=9D An=
+d the banks could keep issuing securities efficiently.=C2=A0
+At some point this became controversial, for reasons that  I have never und=
+erstood, and=C2=A0people objected that the SEC was giving out too many of t=
+hese waivers. So in 2015 the SEC collected some fines and=C2=A0gave out som=
+e waivers for foreign-exchange manipulation, and SEC Commissioner Kara Stei=
+n dissented, noting that the SEC was granting =E2=80=9CBarclays its third W=
+KSI waiver since 2007.=E2=80=9D (UBS AG was on its seventh waiver and JPMor=
+gan Chase & Co. its sixth.) The next year Barclays got its  fourth WKSI wai=
+ver, for a  $361 million settlement over some bad dark-pool stuff.=C2=A0
+In May 2017 Barclays signed a fairly run-of-the-mill settlement with the SE=
+C in which it agreed to pay $97 million for overcharging some clients for m=
+utual funds. Securities fraud, sure, why not.
+  [3]
+=C2=A0This one, though, was finally a bridge too far, and it did not get a =
+WKSI waiver. I don=E2=80=99t know why this one was the one.=C2=A0But after =
+that Barclays stopped being a WKSI.
+  [4]
+
+This meant that instead of occasionally filing shelf registration statement=
+s saying =E2=80=9Chey we=E2=80=99re gonna sell some securities, look out,=
+=E2=80=9D Barclays had to occasionally file shelf registration statements s=
+aying =E2=80=9Chey we=E2=80=99re gonna sell $_______ of securities, look ou=
+t.=E2=80=9D And in the summer of=C2=A02019, Barclays filed a shelf registra=
+tion statement saying that it would sell up to $20,761,600,000 of securitie=
+s=C2=A0over the next three years.
+  [5]
+=C2=A0
+I do not know how they picked that number, which is mystifyingly precise, b=
+ut I have a rough idea.
+  [6]
+=C2=A0Barclays put together a working group of people responsible for the s=
+helf (some lawyers, some structured-products traders, some administrative p=
+eople, etc.), and the working group came up with=C2=A0an estimate of how ma=
+ny securities Barclays would need to sell over those next three years, basi=
+cally by asking the heads of all the structured-product desks how much busi=
+ness they planned to do.
+And then =E2=80=94=C2=A0this is crucial =E2=80=94=C2=A0the working group ca=
+me up with =E2=80=9Can initial allocation of fees among the trading desks a=
+ccessing the 2019 Shelf.=E2=80=9D See, when Barclays registered $20,761,600=
+,000 of securities on its 2019 shelf registration statement, it had to pay =
+a fee to the SEC, and the fee is based on how many securities it registered=
+. WKSIs can  pay their filing fees as they go: Each day you sell some new s=
+ecurities and pay the SEC a small fee. But non-WKSIs have to pay the fees u=
+pfront, when they file their shelf registration statement. The fee was $2,4=
+33,889.92, $2.4 million of fees for $20.8 billion of registered securities.
+  [7]
+
+So I assume that what happened is roughly this:
+
+Working group lawyer: How many structured notes do you want to be able to s=
+ell over the next three years?
+Structured-products desk head: I dunno, I have a good feeling about the nex=
+t three years, can I have $10 billion?
+Lawyer: Whatever you want, but we have to pay fees upfront, and we=E2=80=99=
+re charging those fees to the desks. So if you say $10 billion then we=E2=
+=80=99ll deduct $1.17 million from your revenue this year.
+Desk head: Oh then one billion.
+
+The incentive=C2=A0to say a large number is that you have no idea how many =
+securities you=E2=80=99ll sell over the next three years, you=E2=80=99ll tr=
+y to sell a lot, and it is better to have more flexibility than less. The i=
+ncentive to say a small number is that you have to pay a 0.01% fee. You don=
+=E2=80=99t become the head of an exchange-traded-products desk by paying ou=
+t 0.01% fees carelessly.=C2=A0
+So Barclays registered exactly $20,761,600,000 of securities in summer 2019=
+, and naturally someone then started a spreadsheet and kept careful track o=
+f how many securities it issued each day, and matched that calculation up a=
+gainst the $20,761,600,000 cap, and when the total issuance got reasonably =
+close to $20,761,600,000, that person alerted senior lawyers and desk heads=
+ so that they could get to work on a new shelf registration statement well =
+before they ran out of capacity on the old one. Right? Obviously? This is j=
+ust a routine thing that you have to do: If you have registered a finite nu=
+mber of securities, you keep track of how many you have issued, so you don=
+=E2=80=99t run out of room on your registration statement.
+This is so routine, so obvious, that apparently everyone at Barclays assume=
+d that someone else was doing it, and no one actually did. And then one day=
+ someone in finance asked someone in legal=C2=A0=E2=80=9Chey do you have th=
+at spreadsheet with the shelf issuances,=E2=80=9D and the lawyer was like =
+=E2=80=9Cno let me see who has that, I=E2=80=99ll get right back to you,=E2=
+=80=9D and then a hole opened up in the earth and swallowed all of them:
+
+On March 8, 2022, a member of Group Treasury reached out to the member of t=
+he legal department who had been part of the Working Group, inquiring as to=
+ how many securities=C2=A0remained available to be offered and sold off of =
+the 2019 Shelf because Group Treasury was planning on doing a sale of corpo=
+rate debt securities.
+Over the course of that day and the next, various BBPLC personnel attempted=
+ to calculate the cumulative amount of securities offered and sold from the=
+ 2019 Shelf in order to determine the amount of securities that remained av=
+ailable for sale. Over the course of these efforts, it became clear to all =
+involved that there was no internal control in place to track in real time =
+the amount of securities offered and sold against the amount of securities =
+registered.
+On or around March 9, 2022, BBPLC personnel concluded that securities had b=
+een offered and sold in excess of what had been registered on the 2019 Shel=
+f. Shortly thereafter, BBPLC halted new offers and sales of securities from=
+ the 2019 Shelf and, on March 14, 2022, alerted regulators about the over-i=
+ssuance and disclosed to the market that BBPLC did not have sufficient issu=
+ance capacity to support further sales from inventory and any further issua=
+nces of certain ETNs.=C2=A0
+
+I don=E2=80=99t think I=E2=80=99ve ever read a worse paragraph than that mi=
+ddle paragraph.=C2=A0I don=E2=80=99t think that you could write horror fict=
+ion scarier than that. This year for Halloween I am going to go as It Becom=
+ing Clear to All Involved=C2=A0That There Was No Internal Control in Place =
+to Track in Real Time the Amount of Securities Offered and Sold Against the=
+ Amount of Securities Registered. I think I would rather be eaten by a were=
+wolf than have that become clear to me.
+That block quote is from an SEC order against Barclays, because last week B=
+arclays settled with the SEC again, this time for selling unregistered secu=
+rities. It registered $20.8 billion of securities, and overshot that by rou=
+ghly $16.37 billion. Just not particularly close at all. It is illegal to s=
+ell unregistered securities, and so Barclays paid the SEC a $200 million fi=
+ne.
+It also separately had to make a =E2=80=9Crescission offer,=E2=80=9D meanin=
+g that it had to=C2=A0contact everyone who bought those extra securities an=
+d say =E2=80=9Chey, if you want your money back, let us know.=E2=80=9D=C2=
+=A0Holders of roughly $7.7 billion of those securities demanded their money=
+ back, which cost Barclays hundreds of millions more dollars. It does not s=
+eem to have disclosed an exact number, but in July it estimated the number =
+at about =C2=A31.6 billion, and last week (after the rescission offer was c=
+ompleted)  it confirmed that the results were =E2=80=9Cmaterially in line=
+=E2=80=9D with that number.
+  [8]
+
+In March, when Barclays discovered this oopsie, it notified the market and =
+estimated that it would cost about=C2=A0=C2=A3450 million in rescission, bu=
+t that number has grown over time. The intuition is roughly: If you bought =
+a structured note or exchange-traded product=C2=A0from Barclays in late 202=
+1 or early 2022, you were making some sort of bet in which Barclays would g=
+ive you more than your money back=C2=A0if something happened (often: if the=
+ market was up) but Barclays would give you less than your money back if so=
+mething else happened (often: if the market was down). If Barclays gave you=
+ more than your money back, you=E2=80=99re happy, and you did not take the =
+rescission offer. If Barclays gave you less than your money back, you were =
+sad, and you did take the rescission offer. Between March and now, markets =
+went down a lot, so more people are sad and want rescission.
+When this came out in March,  we talked about it here. I want to go back to=
+ two things I said at the time. First, my assumptions about how this happen=
+ed:
+
+If some junior person in the internal legal team leaves, and forgets to pas=
+s along the =E2=80=9Cshelfcapacityleft_07.xls=E2=80=9D spreadsheet to her s=
+uccessor, and it stops being updated =E2=80=94=C2=A0then, uh. =E2=80=A6=C2=
+=A0=C2=A0You just keep bopping along as though everything was fine, and the=
+n one day a new junior analyst starts on the legal team and finds the =E2=
+=80=9Cshelfcapacityleft_07.xls=E2=80=9D spreadsheet in a folder and asks th=
+e vice president =E2=80=9Chey what is this,=E2=80=9D and the VP looks, and =
+she realizes what it is, and they check the math 20 times because it seems =
+too horrible to be true, and then they all leave for the bar at noon becaus=
+e it is not a fixable error and they will miss each other when they=E2=80=
+=99re all fired tomorrow. =E2=80=A6
+I hope that they will eventually publish the full report and we can find ou=
+t what the actual file name of =E2=80=9Cshelfcapacityleft_07.xls=E2=80=9D w=
+as and when it was last updated. Perhaps we will learn the name of the juni=
+or analyst in the legal department responsible for updating the spreadsheet=
+, and which law school she left for when she stopped updating it.
+
+I feel like I captured=C2=A0the general feel of it, but it did not occur to=
+ me that there=C2=A0was never a spreadsheet at all. It=E2=80=99s not that t=
+hey stopped updating it, it=E2=80=99s that it never existed. Not great!
+Second, my assumptions about how the SEC would react:
+It is not a fixable error because the rules are harsh, and there is no no-h=
+arm-no-foul rule for illegal securities offerings. If you sell securities w=
+ithout a valid registration statement =E2=80=94=C2=A0as Barclays did =E2=80=
+=94=C2=A0then you have to offer to buy the securities back at the price you=
+ sold them for. If the securities were structured notes and ETNs =E2=80=94=
+=C2=A0that is, bets that some index will go up or down, or weird exotic opt=
+ions bets =E2=80=94=C2=A0and if you don=E2=80=99t catch the mistake for a w=
+hole year, then some of them will have gone down a lot. You sold them for $=
+100 and now they are worth $50 and you have to buy them back at $100. (Othe=
+rs will have gone=C2=A0up=C2=A0a lot, but you don=E2=80=99t get to buy=C2=
+=A0those=C2=A0back at par: You have to offer to rescind all of your sales, =
+but the holders can decline.) You can call up the SEC and say =E2=80=9Cwe m=
+essed up a little bit but no one was harmed, sorry,=E2=80=9D and the SEC wi=
+ll say =E2=80=9Cah yes we see, we understand, no one was harmed and you did=
+n=E2=80=99t mean it,=E2=80=9D and they will feel sorry for you, but they wi=
+ll still make you offer to buy back all the ETNs. And then you=E2=80=99ll l=
+ose 450 million pounds.
+Well. I mean. That=E2=80=99s what=C2=A0I=C2=A0would say, if I were the SEC!=
+ I would say =E2=80=9Clook yes there=E2=80=99s no way around it, this is go=
+ing to cost you hundreds of millions of dollars to buy back all those struc=
+tured notes and exchange-traded products that you sold. I=E2=80=99m sorry, =
+it=E2=80=99s very unfair: The speculators who bought those notes made a bet=
+, and they lost, and they get their money back due to a random administrati=
+ve windfall. You didn=E2=80=99t actually deceive or defraud them in any way=
+, and your dumb administrative mistake didn=E2=80=99t=C2=A0harm=C2=A0them, =
+but they do get to take advantage of it to get their money back, sorry.=E2=
+=80=9D
+The actual SEC=C2=A0fined Barclays $200 million on top of the rescission co=
+sts, and  said this:
+"This case highlights why it is essential for firms like Barclays to have r=
+obust internal controls over their offers and sales of securities," said Gu=
+rbir S. Grewal, Director of the SEC=E2=80=99s Division of Enforcement. "Whi=
+le we acknowledge Barclays=E2=80=99 efforts to identify, disclose and remed=
+iate this conduct, the control deficiencies and the scope of the conduct at=
+ issue here was simply staggering. The time for other firms employing simil=
+ar shelf registrations to take notice and improve their internal compliance=
+ and control functions is now."
+Just unbelievably harsh! Sure yes this was very bad, but the only=C2=A0vict=
+im=C2=A0of it was Barclays; the investors who bought unregistered securitie=
+s were not deceived in any way, and many of them ended up with a random win=
+dfall. Sure yes Barclays=E2=80=99s=C2=A0shareholders=C2=A0suffered by havin=
+g to pay out that random windfall, but it=E2=80=99s not like fining them $2=
+00 million more makes that any better.=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Not legal advice but
+   =20
+ =20
+
+If your older brother does some crime, and he collects his loot in Bitcoin,=
+ and the US government seizes his Bitcoin, and you steal the Bitcoin back o=
+ut from under the government=E2=80=99s nose, and you convert the Bitcoin in=
+to dollars, should you put the dollars into a bathtub and roll around in th=
+em=C2=A0while women dance around you and your buddy takes pictures on your=
+=C2=A0phone? I am not your lawyer and I am not going to give you legal advi=
+ce, though I think you can easily imagine the look your lawyer would give y=
+ou if you asked her this question. I will say though that if you ask your b=
+uddies this=C2=A0question, they would probably say =E2=80=9Coh absolutely y=
+es that sounds like a good time,=E2=80=9D and I cannot really fault them.=
+=C2=A0Rolling around in a bathtub of money that you stole from the governme=
+nt really is funny. Anyway here=E2=80=99s Bloomberg=E2=80=99s David Voreaco=
+s with   one of the great first paragraphs of financial journalism:
+Gary Harmon grinned as he lounged in a bathtub full of dollar bills surroun=
+ded by scantily clad women. The moment, captured in a photo on his cellphon=
+e, could be part of his undoing. To US prosecutors, it=E2=80=99s evidence t=
+hat he suddenly came into a lot of money.
+I will buy what they are selling on this point. If you show me a picture of=
+ a man sitting in a bathtub of dollar bills,
+  [9]
+=C2=A0I am definitely going to think =E2=80=9Cthis man acquired that money =
+suddenly.=E2=80=9D You don=E2=80=99t grind away at a steady job for 40 year=
+s and then have your retirement party in a bathtub full of your pension. A =
+bathtub of money really does indicate suddenness. Voreacos goes on:
+
+The prosecutors accuse Harmon of a very unusual crime: remotely swiping Bit=
+coin stored on a computer device the government had already seized in anoth=
+er case, brought against his older brother, Larry. As authorities watched h=
+elplessly, 713 digital tokens=E2=80=94then worth almost $5 million=E2=80=94=
+were somehow spirited away from the =E2=80=9Chardware wallet=E2=80=9D they =
+were holding in an evidence locker.
+Larry Harmon, who=E2=80=99s since pleaded guilty to laundering $311 million=
+ through crypto transactions, swore up and down he wasn=E2=80=99t involved =
+in the disappearing act. Instead, Larry, 39, pointed the finger at Gary, 30=
+, and ultimately helped to nail him. Gary is in federal jail in Washington,=
+ D.C., awaiting trial, and Larry is free on bail near Akron. The cases of t=
+he Harmons=E2=80=94literal crypto bros=E2=80=94show how the IRS and the FBI=
+ are succeeding in collecting evidence but still face challenges on the blo=
+ckchain frontier. Authorities had to track digital money moving through a t=
+angle of anonymous accounts to connect it to Larry. When they tried to seiz=
+e it, they faced a problem: How do you put a fence around a quicksilver ass=
+et such as Bitcoin?
+
+Colloquially you can say that you have Bitcoin =E2=80=9Con=E2=80=9D a hardw=
+are wallet or other computer storage device, like  the guy in Wales who thr=
+ew his in a garbage dump and keeps getting publicity for his schemes to dig=
+ it up. But really the hardware wallet just stores your private keys to one=
+ or more Bitcoin addresses, and having those on a hardware wallet doesn=E2=
+=80=99t stop you from also storing them somewhere else =E2=80=94=C2=A0on an=
+other hardware wallet, in your iPhone notes app, on a Post-it note, by=C2=
+=A0memorizing them (or by memorizing a seed phrase that can be used to gene=
+rate the keys), etc.=C2=A0The lesson for the government is that if you arre=
+st someone for Bitcoin crime and you seize his hardware wallet, you have no=
+t seized his Bitcoin; you have just seized a hard drive, and he =E2=80=94=
+=C2=A0or his brother, or anyone else =E2=80=94=C2=A0might have other ways t=
+o access the Bitcoins. The way you seize the Bitcoins is by getting his pri=
+vate keys =E2=80=94=C2=A0from the hardware wallet, or by asking him, or wha=
+tever =E2=80=94=C2=A0and then transferring them to an address that=C2=A0you=
+=C2=A0control, where you can be pretty sure that he and his friends do not =
+have the keys.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Whistles, whistles
+   =20
+ =20
+
+I   wrote in August about Elon Musk=E2=80=99s efforts to get out of buying =
+Twitter Inc.:
+
+The situation is that the richest person in the world, Elon Musk, has $44 b=
+illion riding on the question of whether Twitter Inc. is doing a massive lo=
+ng-running fraud on its users, its advertisers and its shareholders. Musk h=
+as claimed that it is, with no evidence at all, just a vague feeling that h=
+e has. If he=E2=80=99s right and there is a massive fraud, then he can get =
+out of his agreement to buy Twitter for about $44 billion. If he=E2=80=99s =
+wrong, he has to buy Twitter.=C2=A0
+This situation is extremely well known. There are incentives. If you have s=
+omething to do with Twitter, or you know something about Twitter, or you ar=
+e in the business of counting Twitter bots, then you should take a few minu=
+tes and ask yourself: Well, do I know anything about Twitter doing any mass=
+ive frauds? If you do =E2=80=A6 look, I don=E2=80=99t know exactly what you=
+ can do with that. I am not at all sure that you can actually go to Elon Mu=
+sk and be like =E2=80=9Chey I=E2=80=99ve got a pile of fraud documents, the=
+y=E2=80=99re yours for $1 billion.=E2=80=9D (He could send you a subpoena a=
+nd get them for free?) Even if you did strike a deal with him, he=E2=80=99s=
+ notoriously bad about sticking to his deals. Still. I just have a vague ge=
+neral sense that saving the richest person in the world $44 billion is a go=
+od career move.=C2=A0
+So you should expect that, over the next month or two, as Musk=E2=80=99s tr=
+ial date with Twitter approaches, people will be popping up to say =E2=80=
+=9Coh sure Twitter is a fraud, massive fraud, totally, I have proof, Elon, =
+call me.=E2=80=9D
+
+Well, that case goes to trial this month, and  here=E2=80=99s this:
+
+Another Twitter whistleblower is considering taking the stand when Elon Mus=
+k faces the company in court over his $44 billion buyout deal later in two =
+weeks =E2=80=94 and he may have a few things to say about bots, The Post ha=
+s learned. ...
+The would-be whistleblower, a former Twitter employee, claims to have been =
+involved in an internal report several years ago that supposedly concluded =
+that at least 30% of Twitter=E2=80=99s daily active users are automated spa=
+m accounts.
+=E2=80=9CTwitter execs laughed when they were told about the report and sai=
+d, =E2=80=98We have always had a bot problem,=E2=80=99=E2=80=9D the potenti=
+al whistleblower said in an interview with The Post. =E2=80=A6
+The potential whistleblower said that Twitter=E2=80=99s chosen metric to me=
+asure bots =E2=80=94 called Monetizable Daily Active Users, or mDAUs =E2=80=
+=94 is overly narrow and fails to fully capture the extent of the site=E2=
+=80=99s spam problem. He said Twitter may not be lying when it says that le=
+ss than 5% of its mDAUs are bots, but takes issue with using mDAU as a meas=
+urement in the first place and claims the company has not been transparent =
+with investors.=C2=A0
+
+Yes look if he testifies that Twitter=E2=80=99s securities filings were acc=
+urate, but he didn=E2=80=99t like=C2=A0them, then that won=E2=80=99t help M=
+usk very much will it. The problem here is that the incentives are so large=
+ and well-known that they will attract a lot of people who are eager to hel=
+p but have nothing to offer.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+ Credit Suisse=E2=80=99s Options Worsen as Markets Mayhem Takes Toll.=C2=A0=
+How big is the  capital hole at Credit Suisse? Kwarteng Gave BOE Permission=
+ for =C2=A3100 Billion of   Bond Buying. Fund Managers, Regulators Wrestle =
+Over Plans to  Tighten ESG Rules. China=E2=80=99s  property crash: =E2=80=
+=98a slow-motion financial crisis.=E2=80=99 Poshmark to Sell Itself for Les=
+s Than  Half Its IPO Price to Korea=E2=80=99s Naver. Nikola Founder   Trevo=
+r Milton Won=E2=80=99t Testify in Fraud Trial. Theranos Founder  Elizabeth =
+Holmes Gets Hearing on New Trial. Bankrupt Crypto Firm   Celsius Sets Dates=
+ for Auction of Assets. Crypto Could  Threaten Financial System, Federal Ri=
+sk Panel Warns. PwC sees opportunity to poach staff during  EY split. Softw=
+are   Robots Are Gaining Ground in White-Collar Office World. Elon Musk Set=
+s Off Uproar in Ukraine by Tweeting His   =E2=80=98Peace=E2=80=99 Plan. =E2=
+=80=9CIt=E2=80=99s about addressing a feeling I think a lot of people relat=
+e to, and turning that feeling that already exists of guilt or anxiety into=
+ a sense of freedom,   or empowerment or joy.=E2=80=9D =E2=80=9CCan you buy=
+ Twitter   and then delete it, please!? xx.=E2=80=9D =E2=80=9CVerified user=
+s are without question the worst part of any mainstream platform and if you=
+ want to imagine a world without online anonymity, go tell me about the inc=
+redible original content  trending on LinkedIn right now.=E2=80=9D =E2=80=
+=9CThe Onion files this brief to protect its continued ability to create  f=
+iction that may ultimately merge into reality.=E2=80=9D =E2=80=9CIf you do =
+what you hate, the money will  chase you down a dark alleyway and throttle =
+you.=E2=80=9D Adult  Happy Meals.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] I am just going to call the whole thing =E2=80=9CBarclays,=E2=80=9D a=
+nd Barclays Plc is the top-level holding company. In fact various Barclays =
+entities are involved here, and in particular last week=E2=80=99s settlemen=
+t is with Barclays Plc and Barclays Bank Plc; Barclays Bank Plc is the file=
+r of the relevant registration statements.
+
+
+  [2] This is in the =E2=80=9Cineligible issuer=E2=80=9D definition in  Rul=
+e 405, which includes among other things an exclusion if =E2=80=9CWithin th=
+e past three years =E2=80=A6 the issuer or any entity that at the time was =
+a subsidiary of the issuer was made the subject of any judicial or administ=
+rative decree or order arising out of a governmental action that: =E2=80=A6=
+ Determines that the person violated the anti-fraud provisions of the feder=
+al securities laws.=E2=80=9D
+
+
+  [3] =E2=80=9CAs a result of the conduct described above, Barclays Capital=
+ willfully violated Section 206(2) of the Advisers Act, which prohibits an =
+investment adviser from engaging in any transaction, practice, or course of=
+ business that operates as a fraud or deceit upon a client or prospective c=
+lient,=E2=80=9D says  the 2017 SEC order.
+
+
+  [4] For three years. It=E2=80=99s a WKSI again as of May 2022, and now ha=
+s a WKSI shelf.
+
+
+  [5] For simplicity I am skipping over another dumb detail of this story, =
+which is that Barclays overshot its issuance on a *previous* shelf registra=
+tion statement (a 2018 conversion of its WKSI shelf into a non-WKSI limited=
+ shelf). That was a smaller dollar amount and a less dramatic discovery, bu=
+t same basic problem.
+
+
+  [6] Obviously I=E2=80=99m relying on, and quoting, last week=E2=80=99s SE=
+C order.=20
+
+
+  [7] See the cover page of the registration statement. The SEC=E2=80=99s f=
+iling fee rates change each year; the current fee is $110.20 per million do=
+llars registered.
+
+
+  [8] For some reason the SEC says that its settlement is =E2=80=9C$361 mil=
+lion,=E2=80=9D consisting of a $200 million fine plus $161 million of =E2=
+=80=9Cdisgorgement,=E2=80=9D with the latter =E2=80=9Cdeemed satisfied by i=
+ts offer of rescission.=E2=80=9D But that does not seem to mean that Barcla=
+ys paid $161 million of rescission =E2=80=94 it seems to have paid a lot mo=
+re. Note by the way that the rescission offer was for $17.7 billion, which =
+covers both the $16.4 billion overshoot on the 2019 shelf and also the smal=
+ler overshoot on the earlier shelf.
+
+
+  [9] Singles, mind you; it looks like there is maybe $150 in this picture.=
+ So not *great* evidence.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chf8c0.5wlj/04ada6a6.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_7193955_1520092384.1664899446734
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Thursday.In Mar=
+ch 2022, Barclays Plc%3Cp%3EI%20am%20just%20going%20to%20call%20t
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yOTI2NDExMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1Mzk2Mzkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB5771939c" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D29264112&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29539639&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMDA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEwMDQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBb2c7d34b"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yOTI2NDExMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1Mzk2Mzkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC88a2d44a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D29264112&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29539639&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Thursday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Barclays!</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">In March 2022, Barclays Plc<a class=3D"footnot=
+e-index" href=3D"#footnote-1" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: none !important; background-color: transparent !important; =
+display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0discovered an oopsie involving a fairly technical detail of US se=
+curities law. When a=C2=A0company sells securities to the public, in the US=
+, it has to register those securities, filing a registration statement with=
+ the US Securities and Exchange Commission that says what kinds and amounts=
+ of securities it plans to sell. This is very important. If you sell securi=
+ties=C2=A0without<em>=C2=A0</em>properly registering them, you can get in t=
+rouble. One kind of trouble that you can get in is that the SEC can sue you=
+. Another kind of trouble that you can get in is that the people who=C2=A0b=
+uy<em>=C2=A0</em>the securities can demand their money back. If you sell pe=
+ople stock for $20 per share, and then a year later they notice that you di=
+d not properly register the offering, and the stock is now at $5, you have =
+to give them their $20 back. (If the stock is at $30, they can keep it; the=
+y don=E2=80=99t=C2=A0<em>have=C2=A0</em>to take their money back.)=C2=A0Thi=
+s creates a lot of bad risk for you, which you can avoid by filing the righ=
+t forms.</p>
+<p style=3D"margin: 16px 0;">When the company is a startup selling stock=C2=
+=A0to the public for the first time, the=C2=A0registration process is calle=
+d an =E2=80=9Cinitial public offering=E2=80=9D and is a big deal. When the =
+company is a giant bank that sells dozens of securities every day, it is no=
+t. It files a =E2=80=9Cshelf registration statement,=E2=80=9D letting it se=
+ll a large=C2=A0amount of a wide range of securities over time, and then ea=
+ch day it sells some more securities =E2=80=9Coff that shelf,=E2=80=9D and =
+when it has sold all of the securities covered by the shelf registration st=
+atement then it files a new one and starts over again. And it is all pretty=
+ administrative and boring.</p>
+<p style=3D"margin: 16px 0;">The bank uses the shelf to sell a range of sec=
+urities: bonds and notes to fund its general activities, structured notes (=
+basically customized derivatives wrapped in bonds of the bank and sold to r=
+ich people), and (at Barclays) <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/29264112.275527/aHR0cHM6Ly93d3cuZXRmc3RyZWFtLmNvbS9uZXdzL2Jhcm=
+NsYXlzLXN1c3BlbmRzLWV0bi1yYW5nZS1hZnRlci1wYXBlcndvcmstaXNzdWUv/607f07ceef4b=
+8524a319a23cBd5f3530a" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> exchange-traded products</a> that give cust=
+omers exposure to things like oil prices or the VIX volatility index. Every=
+ day the bank needs funding, and customers want to do trades, and some of t=
+hose trades come in the form of securities issued off the shelf.</p>
+<p style=3D"margin: 16px 0;">Normally the SEC makes this process very easy =
+for big well-known companies. A =E2=80=9Cwell-known seasoned issuer,=E2=80=
+=9D or WKSI, under US securities law can file shelf registration statements=
+ that don=E2=80=99t even specify a maximum amount of securities, and they a=
+re automatically =E2=80=9Ceffective=E2=80=9D: The company can just sell sec=
+urities immediately, as soon as it files the registration statement, withou=
+t any SEC review. The WKSI standards are in <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZ=
+WR1L2Nmci90ZXh0LzE3LzIzMC40MDU/607f07ceef4b8524a319a23cBe9e35eaf" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+SEC Rule 405</a> and Instruction I.A on=C2=A0<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxl=
+cy9mb3Jtcy0zLnBkZg/607f07ceef4b8524a319a23cB68d26ea1" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">Form S-3</a>,=
+ and the basic requirements are that you have been public for at least a ye=
+ar, you have a stock market capitalization of at least $700 million, and yo=
+ur annual and quarterly SEC reports are up-to-date. The intuition is that i=
+f you are a big company that has been public for a while, you can just say =
+=E2=80=9Chey we=E2=80=99re selling some securities,=E2=80=9D and then you d=
+o it, without a lot of formalities.</p>
+<p style=3D"margin: 16px 0;">Barclays is a big company that has been public=
+ for a while, so it was a WKSI, and it used its WKSI status to sell lots of=
+ structured notes and exchange-traded products every day.=C2=A0But there is=
+ one more requirement for being a WKSI, which is that you can=E2=80=99t hav=
+e committed any securities fraud in the last three years.<a class=3D"footno=
+te-index" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: none !important; background-color: transparent !important;=
+ display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0It is a=C2=A0fact of life=C2=A0that big=C2=A0banks are constantly=
+ getting in trouble for some form or other of securities fraud. At every on=
+e of the large legacy investment banks, somebody in some division is commit=
+ting securities fraud=C2=A0<em>right now</em>. But the WKSI rules really ar=
+e intended to let big public companies issue securities with a minimum of f=
+uss, and nobody needs that more than a bank selling new notes every day. An=
+d in general the banks are not getting in trouble for fraudulently issuing =
+structured notes off their WKSI shelf registration statements. (<a href=3D"=
+https://link.mail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d=
+3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAxNi0xMjk/607f07ceef4b8524a319a23c=
+Bd851c642" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">Sometimes</a>, though!) If someone on some mortgage-bond=
+ trading desk does some light fraud, it is odd to punish the exchange-trade=
+d-notes people by making it more inconvenient for them to register securiti=
+es.</p>
+<p style=3D"margin: 16px 0;">For a long time, the SEC dealt with this by gr=
+anting =E2=80=9CWKSI=C2=A0waivers=E2=80=9D to banks pretty liberally: Each =
+time a bank got caught doing something bad, it would confess its=C2=A0sins =
+and pay a big fine, and then the SEC would say =E2=80=9Cokay but you still =
+get to be a WKSI.=E2=80=9D And the banks could keep issuing securities effi=
+ciently.=C2=A0</p>
+<p style=3D"margin: 16px 0;">At some point this became controversial, for r=
+easons that <a href=3D"https://link.mail.bloombergbusiness.com/click/292641=
+12.275527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtM=
+DItMDUvc2VjLWRvZXNuLXQtdGFrZS1pdHMtYXV0b21hdGljLXB1bmlzaG1lbnRzLXRvby1saXRl=
+cmFsbHk_Y21waWQ9QkJEMTAwNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMDA0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB2be38034" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> I have never understood</a>, and=
+=C2=A0people objected that the SEC was giving out too many of these waivers=
+. So in 2015 the SEC collected some fines and=C2=A0gave out some waivers fo=
+r foreign-exchange manipulation, and <a href=3D"https://link.mail.bloomberg=
+business.com/click/29264112.275527/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3N0YXRl=
+bWVudC9zdGVpbi13YWl2ZXJzLWdyYW50ZWQtZGlzc2VudGluZy1zdGF0ZW1lbnQ/607f07ceef4=
+b8524a319a23cB83e6baf4" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">SEC Commissioner Kara Stein dissented</a>, =
+noting that the SEC was granting =E2=80=9CBarclays its third WKSI waiver si=
+nce 2007.=E2=80=9D (UBS AG was on its seventh waiver and JPMorgan Chase &am=
+p; Co. its sixth.) The next year Barclays got its <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+ydWxlcy9vdGhlci8yMDE2LzMzLTEwMDEyLnBkZg/607f07ceef4b8524a319a23cBcf0efe86" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> fourth WKSI waiver</a>, for a <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZX=
+NzLXJlbGVhc2UvMjAyMi0xNzk/607f07ceef4b8524a319a23cB77dee5ff" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> $361 =
+million settlement</a> over some bad dark-pool stuff.=C2=A0</p>
+<p style=3D"margin: 16px 0;">In May 2017 Barclays signed a fairly run-of-th=
+e-mill <a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.27=
+5527/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAxNy05OA/607f07c=
+eef4b8524a319a23cB676f963e" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">settlement with the SEC</a> in which it=
+ agreed to pay $97 million for overcharging some clients for mutual funds. =
+Securities fraud, sure, why not.<a class=3D"footnote-index" href=3D"#footno=
+te-3" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !im=
+portant; background-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0This one, though, was finally a bridge too far, and it did not ge=
+t a WKSI waiver. I don=E2=80=99t know why this one was the one.=C2=A0But af=
+ter that Barclays stopped being a WKSI.<a class=3D"footnote-index" href=3D"=
+#footnote-4" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: n=
+one !important; background-color: transparent !important; display: inline-b=
+lock;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">This meant that instead of occasionally filing=
+ shelf registration statements saying =E2=80=9Chey we=E2=80=99re gonna sell=
+ some securities, look out,=E2=80=9D Barclays had to occasionally file shel=
+f registration statements saying =E2=80=9Chey we=E2=80=99re gonna sell $___=
+____ of securities, look out.=E2=80=9D And in the summer of=C2=A02019, Barc=
+lays filed a shelf registration statement saying that it would sell up to <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aHR=
+0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzMxMjA3MC8wMDAxMTkzMTI1MT=
+kyMDY5MjUvZDc3ODQ5M2RmM2EuaHRt/607f07ceef4b8524a319a23cB8f16bf54" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+$20,761,600,000 of securities</a>=C2=A0over the next three years.<a class=
+=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0</p>
+<p style=3D"margin: 16px 0;">I do not know how they picked that number, whi=
+ch is mystifyingly precise, but I have a rough idea.<a class=3D"footnote-in=
+dex" href=3D"#footnote-6" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: none !important; background-color: transparent !important; disp=
+lay: inline-block;">
+<span>[6]</span>
+</a>=C2=A0Barclays put together a working group of people responsible for t=
+he shelf (some lawyers, some structured-products traders, some administrati=
+ve people, etc.), and the working group came up with=C2=A0an estimate of ho=
+w many securities Barclays would need to sell over those next three years, =
+basically by asking the heads of all the structured-product desks how much =
+business they planned to do.</p>
+<p style=3D"margin: 16px 0;">And then =E2=80=94=C2=A0this is crucial =E2=80=
+=94=C2=A0the working group came up with =E2=80=9Can initial allocation of f=
+ees among the trading desks accessing the 2019 Shelf.=E2=80=9D See, when Ba=
+rclays registered $20,761,600,000 of securities on its 2019 shelf registrat=
+ion statement, it had to pay a fee to the SEC, and the fee is based on how =
+many securities it registered. WKSIs can <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cuYW1lcmljYW5iYXIub3Jn=
+L2dyb3Vwcy9idXNpbmVzc19sYXcvcHVibGljYXRpb25zL2JsdC8yMDEwLzA4LzA0X2x5bm4v/60=
+7f07ceef4b8524a319a23cBb356cd65" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> pay their filing fees as they go<=
+/a>: Each day you sell some new securities and pay the SEC a small fee. But=
+ non-WKSIs have to pay the fees upfront, when they file their shelf registr=
+ation statement. The fee was $2,433,889.92, $2.4 million of fees for $20.8 =
+billion of registered securities.<a class=3D"footnote-index" href=3D"#footn=
+ote-7" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !i=
+mportant; background-color: transparent !important; display: inline-block;"=
+>
+<span>[7]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">So I assume that what happened is roughly this=
+:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;"><strong>Working group lawyer:</strong> How man=
+y structured notes do you want to be able to sell over the next three years=
+?</p>
+<p style=3D"margin: 16px 0;"><strong>Structured-products desk head:</strong=
+> I dunno, I have a good feeling about the next three years, can I have $10=
+ billion?</p>
+<p style=3D"margin: 16px 0;"><strong>Lawyer:</strong> Whatever you want, bu=
+t we have to pay fees upfront, and we=E2=80=99re charging those fees to the=
+ desks. So if you say $10 billion then we=E2=80=99ll deduct $1.17 million f=
+rom your revenue this year.</p>
+<p style=3D"margin: 16px 0;"><strong>Desk head:</strong> Oh then one billio=
+n.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The incentive=C2=A0to say a large number is th=
+at you have no idea how many securities you=E2=80=99ll sell over the next t=
+hree years, you=E2=80=99ll try to sell a lot, and it is better to have more=
+ flexibility than less. The incentive to say a small number is that you hav=
+e to pay a 0.01% fee. You don=E2=80=99t become the head of an exchange-trad=
+ed-products desk by paying out 0.01% fees carelessly.=C2=A0</p>
+<p style=3D"margin: 16px 0;">So Barclays registered exactly $20,761,600,000=
+ of securities in summer 2019, and naturally someone then started a spreads=
+heet and kept careful track of how many securities it issued each day, and =
+matched that calculation up against the $20,761,600,000 cap, and when the t=
+otal issuance got reasonably close to $20,761,600,000, that person alerted =
+senior lawyers and desk heads so that they could get to work on a new shelf=
+ registration statement well before they ran out of capacity on the old one=
+. Right? Obviously? This is just a routine thing that you have to do: If yo=
+u have registered a finite number of securities, you keep track of how many=
+ you have issued, so you don=E2=80=99t run out of room on your registration=
+ statement.</p>
+<p style=3D"margin: 16px 0;">This is so routine, so obvious, that apparentl=
+y everyone at Barclays assumed that someone else was doing it, and no one a=
+ctually did. And then one day someone in finance asked someone in legal=C2=
+=A0=E2=80=9Chey do you have that spreadsheet with the shelf issuances,=E2=
+=80=9D and the lawyer was like =E2=80=9Cno let me see who has that, I=E2=80=
+=99ll get right back to you,=E2=80=9D and then a hole opened up in the eart=
+h and swallowed all of them:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On March 8, 2022, a member of Group Treasury r=
+eached out to the member of the legal department who had been part of the W=
+orking Group, inquiring as to how many securities=C2=A0remained available t=
+o be offered and sold off of the 2019 Shelf because Group Treasury was plan=
+ning on doing a sale of corporate debt securities.</p>
+<p style=3D"margin: 16px 0;">Over the course of that day and the next, vari=
+ous BBPLC personnel attempted to calculate the cumulative amount of securit=
+ies offered and sold from the 2019 Shelf in order to determine the amount o=
+f securities that remained available for sale. Over the course of these eff=
+orts, it became clear to all involved that there was no internal control in=
+ place to track in real time the amount of securities offered and sold agai=
+nst the amount of securities registered.</p>
+<p style=3D"margin: 16px 0;">On or around March 9, 2022, BBPLC personnel co=
+ncluded that securities had been offered and sold in excess of what had bee=
+n registered on the 2019 Shelf. Shortly thereafter, BBPLC halted new offers=
+ and sales of securities from the 2019 Shelf and, on March 14, 2022, alerte=
+d regulators about the over-issuance and disclosed to the market that BBPLC=
+ did not have sufficient issuance capacity to support further sales from in=
+ventory and any further issuances of certain ETNs.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t think I=E2=80=99ve ever read a=
+ worse paragraph than that middle paragraph.=C2=A0I don=E2=80=99t think tha=
+t you could write horror fiction scarier than that. This year for Halloween=
+ I am going to go as It Becoming Clear to All Involved=C2=A0That There Was =
+No Internal Control in Place to Track in Real Time the Amount of Securities=
+ Offered and Sold Against the Amount of Securities Registered. I think I wo=
+uld rather be eaten by a werewolf than have that become clear to me.</p>
+<p style=3D"margin: 16px 0;">That block quote is from <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cuc2VjLmd=
+vdi9saXRpZ2F0aW9uL2FkbWluLzIwMjIvMzMtMTExMTAucGRm/607f07ceef4b8524a319a23cB=
+c648ce94" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">an SEC order against Barclays</a>, because last week Barc=
+lays <a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.2755=
+27/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMi0xNzk/607f07ce=
+ef4b8524a319a23cC77dee5ff" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">settled with the SEC again</a>, this tim=
+e for selling unregistered securities. It registered $20.8 billion of secur=
+ities, and overshot that by roughly $16.37 billion. Just not particularly c=
+lose at all. It is illegal to sell unregistered securities, and so Barclays=
+ paid the SEC a $200 million fine.</p>
+<p style=3D"margin: 16px 0;">It also separately had to make a =E2=80=9Cresc=
+ission offer,=E2=80=9D meaning that it had to=C2=A0contact everyone who bou=
+ght those extra securities and say =E2=80=9Chey, if you want your money bac=
+k, let us know.=E2=80=9D=C2=A0Holders of roughly <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly9ob21lLmJhcmNsYXlz=
+L2NvbnRlbnQvZGFtL2hvbWUtYmFyY2xheXMvZG9jdW1lbnRzL2ludmVzdG9yLXJlbGF0aW9ucy9=
+JUk5ld3NQcmVzZW50YXRpb25zLzIwMjJOZXdzLzIwMjIwOTE1LUV4cGlyYXRpb24tb2YtQmFyY2=
+xheXMtQmFuay1QTEMtUmVzY2lzc2lvbi1PZmZlci5wZGY/607f07ceef4b8524a319a23cB0cf6=
+5140" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">$7.7 billion of those securities</a> demanded their money bac=
+k, which cost Barclays hundreds of millions more dollars. It does not seem =
+to have disclosed an exact number, but in July it <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly9ob21lLmJhcmNsYXl=
+zL2NvbnRlbnQvZGFtL2hvbWUtYmFyY2xheXMvZG9jdW1lbnRzL2ludmVzdG9yLXJlbGF0aW9ucy=
+9SZXN1bHRBbm5vdW5jZW1lbnRzL0hZMjAyMi8yMDIyMDcyOC1CYXJjbGF5cy1CYW5rLVBMQy1Jb=
+nRlcmltLTIwMjItUmVzdWx0cy1Bbm5vdW5jZW1lbnQucGRm/607f07ceef4b8524a319a23cB92=
+28efa9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">estimated the number</a> at about =C2=A31.6 billion, and la=
+st week (after the rescission offer was completed) <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly9ob21lLmJhcmNsYX=
+lzL2NvbnRlbnQvZGFtL2hvbWUtYmFyY2xheXMvZG9jdW1lbnRzL2ludmVzdG9yLXJlbGF0aW9uc=
+y9JUk5ld3NQcmVzZW50YXRpb25zLzIwMjJOZXdzLzIwMjIwOTMwLVVwZGF0ZS1vbi1vdmVyLWlz=
+c3VhbmNlLXVuZGVyLUJCUExDLVVTLVNoZWxmLnBkZg/607f07ceef4b8524a319a23cB7e3f1ea=
+2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> it confirmed</a> that the results were =E2=80=9Cmaterially in=
+ line=E2=80=9D with that number.<a class=3D"footnote-index" href=3D"#footno=
+te-8" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !im=
+portant; background-color: transparent !important; display: inline-block;">
+<span>[8]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">In March, when Barclays discovered this oopsie=
+, it notified the market and estimated that it would <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly9ob21lLmJhcmNs=
+YXlzL2NvbnRlbnQvZGFtL2hvbWUtYmFyY2xheXMvZG9jdW1lbnRzL2ludmVzdG9yLXJlbGF0aW9=
+ucy9JUk5ld3NQcmVzZW50YXRpb25zLzIwMjJOZXdzLzIwMjIwMzI4LUltcGFjdC1vZiUyMG92ZX=
+ItaXNzdWFuY2UtdW5kZXItQkJQTEMtVVMtU2hlbGYucGRm/607f07ceef4b8524a319a23cBf22=
+50227" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">cost about=C2=A0=C2=A3450 million</a> in rescission, but tha=
+t number has grown over time. The intuition is roughly: If you bought a str=
+uctured note or exchange-traded product=C2=A0from Barclays in late 2021 or =
+early 2022, you were making some sort of bet in which Barclays would give y=
+ou more than your money back=C2=A0if something happened (often: if the mark=
+et was up) but Barclays would give you less than your money back if somethi=
+ng else happened (often: if the market was down). If Barclays gave you more=
+ than your money back, you=E2=80=99re happy, and you did not take the resci=
+ssion offer. If Barclays gave you less than your money back, you were sad, =
+and you did take the rescission offer. Between March and now, markets went =
+down a lot, so more people are sad and want rescission.</p>
+<p style=3D"margin: 16px 0;">When this came out in March, <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMjgvYmFyY2xheXMtc29sZC10b2=
+8tbWFueS1ub3Rlcz9jbXBpZD1CQkQxMDA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJ=
+nV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEwMDQmdXRtX2NhbXBhaWduPW1vbmV5=
+c3R1ZmY/607f07ceef4b8524a319a23cB27e6a151" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> we talked about it here=
+</a>. I want to go back to two things I said at the time. First, my assumpt=
+ions about how this happened:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">If some junior person in the internal legal te=
+am leaves, and forgets to pass along the =E2=80=9Cshelfcapacityleft_07.xls=
+=E2=80=9D spreadsheet to her successor, and it stops being updated =E2=80=
+=94=C2=A0then, uh. =E2=80=A6=C2=A0=C2=A0You just keep bopping along as thou=
+gh everything was fine, and then one day a new junior analyst starts on the=
+ legal team and finds the =E2=80=9Cshelfcapacityleft_07.xls=E2=80=9D spread=
+sheet in a folder and asks the vice president =E2=80=9Chey what is this,=E2=
+=80=9D and the VP looks, and she realizes what it is, and they check the ma=
+th 20 times because it seems too horrible to be true, and then they all lea=
+ve for the bar at noon because it is not a fixable error and they will miss=
+ each other when they=E2=80=99re all fired tomorrow. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">I hope that they will eventually publish the f=
+ull report and we can find out what the actual file name of =E2=80=9Cshelfc=
+apacityleft_07.xls=E2=80=9D was and when it was last updated. Perhaps we wi=
+ll learn the name of the junior analyst in the legal department responsible=
+ for updating the spreadsheet, and which law school she left for when she s=
+topped updating it.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I feel like I captured=C2=A0the general <em>fe=
+el</em> of it, but it did not occur to me that there=C2=A0<em>was never a s=
+preadsheet at all</em>. It=E2=80=99s not that they stopped updating it, it=
+=E2=80=99s that it never existed. Not great!</p>
+<p style=3D"margin: 16px 0;">Second, my assumptions about how the SEC would=
+ react:</p>
+<blockquote><p style=3D"margin: 16px 0;">It is not a fixable error because =
+the rules are harsh, and there is no no-harm-no-foul rule for illegal secur=
+ities offerings. If you sell securities without a valid registration statem=
+ent =E2=80=94=C2=A0as Barclays did =E2=80=94=C2=A0then you have to offer to=
+ buy the securities back at the price you sold them for. If the securities =
+were structured notes and ETNs =E2=80=94=C2=A0that is, bets that some index=
+ will go up or down, or weird exotic options bets =E2=80=94=C2=A0and if you=
+ don=E2=80=99t catch the mistake for a whole year, then some of them will h=
+ave gone down a lot. You sold them for $100 and now they are worth $50 and =
+you have to buy them back at $100. (Others will have gone=C2=A0<em>up=C2=A0=
+</em>a lot, but you don=E2=80=99t get to buy=C2=A0<em>those</em>=C2=A0back =
+at par: You have to offer to rescind all of your sales, but the holders can=
+ decline.) You can call up the SEC and say =E2=80=9Cwe messed up a little b=
+it but no one was harmed, sorry,=E2=80=9D and the SEC will say =E2=80=9Cah =
+yes we see, we understand, no one was harmed and you didn=E2=80=99t mean it=
+,=E2=80=9D and they will feel sorry for you, but they will still make you o=
+ffer to buy back all the ETNs. And then you=E2=80=99ll lose 450 million pou=
+nds.</p></blockquote>
+<p style=3D"margin: 16px 0;">Well. I mean. That=E2=80=99s what=C2=A0<em>I=
+=C2=A0</em>would say, if I were the SEC! I would say =E2=80=9Clook yes ther=
+e=E2=80=99s no way around it, this is going to cost you hundreds of million=
+s of dollars to buy back all those structured notes and exchange-traded pro=
+ducts that you sold. I=E2=80=99m sorry, it=E2=80=99s very unfair: The specu=
+lators who bought those notes made a bet, and they lost, and they get their=
+ money back due to a random administrative windfall. You didn=E2=80=99t act=
+ually deceive or defraud them in any way, and your dumb administrative mist=
+ake didn=E2=80=99t=C2=A0<em>harm=C2=A0</em>them, but they do get to take ad=
+vantage of it to get their money back, sorry.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">The actual SEC=C2=A0<em>fined Barclays $200 mi=
+llion on top of the rescission costs</em>, and <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZX=
+dzL3ByZXNzLXJlbGVhc2UvMjAyMi0xNzk/607f07ceef4b8524a319a23cD77dee5ff" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> said this</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">"This case highlights why it is es=
+sential for firms like Barclays to have robust internal controls over their=
+ offers and sales of securities," said Gurbir S. Grewal, Director of the SE=
+C=E2=80=99s Division of Enforcement. "While we acknowledge Barclays=E2=80=
+=99 efforts to identify, disclose and remediate this conduct, the control d=
+eficiencies and the scope of the conduct at issue here was simply staggerin=
+g. The time for other firms employing similar shelf registrations to take n=
+otice and improve their internal compliance and control functions is now."<=
+/p></blockquote>
+<p style=3D"margin: 16px 0;">Just unbelievably harsh! Sure yes this was ver=
+y <em>bad</em>, but the only=C2=A0<em>victim=C2=A0</em>of it was Barclays; =
+the investors who bought unregistered securities were not deceived in any w=
+ay, and many of them ended up with a random windfall. Sure yes Barclays=E2=
+=80=99s=C2=A0<em>shareholders=C2=A0</em>suffered by having to pay out that =
+random windfall, but it=E2=80=99s not like fining them $200 million more ma=
+kes that any better.=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yOTI2NDExMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1Mzk2Mzkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD631a8f6a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D29264112&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29539639&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yOTI2NDExMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1Mzk2Mzkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE631a8f6a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D29264112&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29539639&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yOTI2NDExMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1Mzk2Mzkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF89af90dc" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D29264112&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29539639&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yOTI2NDExMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1Mzk2Mzkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG89af90dc" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D29264112&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29539639&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Not legal advice but</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If your older brother does some crime, and he =
+collects his loot in Bitcoin, and the US government seizes his Bitcoin, and=
+ you steal the Bitcoin back out from under the government=E2=80=99s nose, a=
+nd you convert the Bitcoin into dollars, should you put the dollars into a =
+bathtub and roll around in them=C2=A0while women dance around you and your =
+buddy takes pictures on your=C2=A0phone? I am not your lawyer and I am not =
+going to give you legal advice, though I think you can easily imagine the l=
+ook your lawyer would give you if you asked her this question. I will say t=
+hough that if you ask your <em>buddies</em> this=C2=A0question, they would =
+probably say =E2=80=9Coh absolutely yes that sounds like a good time,=E2=80=
+=9D and I cannot really fault them.=C2=A0Rolling around in a bathtub of mon=
+ey that you stole from the government really is funny. Anyway here=E2=80=99=
+s Bloomberg=E2=80=99s David Voreacos with <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjItMTAtMDMvZmVkcy1zZWl6ZWQtMzExbS1pbi1iaXRjb2luLWJ0Yy=
+10aGUtY3J5cHRvLWhhY2tlci1zdG9sZS1pdC1iYWNrP2NtcGlkPUJCRDEwMDQyMl9NT05FWVNUV=
+UZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTAw=
+NCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB3d7d8b49" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  one of the great first paragraphs of financial journalism</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Gary Harmon grinned as he lounged =
+in a bathtub full of dollar bills surrounded by scantily clad women. The mo=
+ment, captured in a photo on his cellphone, could be part of his undoing. T=
+o US prosecutors, it=E2=80=99s evidence that he suddenly came into a lot of=
+ money.</p></blockquote>
+<p style=3D"margin: 16px 0;">I will buy what they are selling on this point=
+. If you show me a picture of a man sitting in a bathtub of dollar bills,<a=
+ class=3D"footnote-index" href=3D"#footnote-9" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: none !important; background-color: transpa=
+rent !important; display: inline-block;">
+<span>[9]</span>
+</a>=C2=A0I am definitely going to think =E2=80=9Cthis man acquired that mo=
+ney suddenly.=E2=80=9D You don=E2=80=99t grind away at a steady job for 40 =
+years and then have your retirement party in a bathtub full of your pension=
+. A bathtub of money really does indicate suddenness. Voreacos goes on:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The prosecutors accuse Harmon of a very unusua=
+l crime: remotely swiping Bitcoin stored on a computer device the governmen=
+t had already seized in another case, brought against his older brother, La=
+rry. As authorities watched helplessly, 713 digital tokens=E2=80=94then wor=
+th almost $5 million=E2=80=94were somehow spirited away from the =E2=80=9Ch=
+ardware wallet=E2=80=9D they were holding in an evidence locker.</p>
+<p style=3D"margin: 16px 0;">Larry Harmon, who=E2=80=99s since pleaded guil=
+ty to laundering $311 million through crypto transactions, swore up and dow=
+n he wasn=E2=80=99t involved in the disappearing act. Instead, Larry, 39, p=
+ointed the finger at Gary, 30, and ultimately helped to nail him. Gary is i=
+n federal jail in Washington, D.C., awaiting trial, and Larry is free on ba=
+il near Akron. The cases of the Harmons=E2=80=94literal crypto bros=E2=80=
+=94show how the IRS and the FBI are succeeding in collecting evidence but s=
+till face challenges on the blockchain frontier. Authorities had to track d=
+igital money moving through a tangle of anonymous accounts to connect it to=
+ Larry. When they tried to seize it, they faced a problem: How do you put a=
+ fence around a quicksilver asset such as Bitcoin?</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Colloquially you can say that you have Bitcoin=
+ =E2=80=9Con=E2=80=9D a hardware wallet or other computer storage device, l=
+ike <a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.27552=
+7/aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9zZWFyY2g_cT1tYXR0K2xldmluZSt3YWxlcytnYXJiY=
+WdlK2R1bXAmcmx6PTFDNUNIRkFfZW5VUzgwN1VTODA3Jm9xPW1hdHQrbGV2aW5lK3dhbGVzK2dh=
+cmJhZ2UrZHVtcCZhcXM9Y2hyb21lLi42OWk1Ny4zNDE2ajFqNyZzb3VyY2VpZD1jaHJvbWUmaWU=
+9VVRGLTg/607f07ceef4b8524a319a23cB472a3ebd" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> the guy in Wales</a> w=
+ho threw his in a garbage dump and keeps getting publicity for his schemes =
+to dig it up. But really the hardware wallet just stores your private keys =
+to one or more Bitcoin addresses, and having those on a hardware wallet doe=
+sn=E2=80=99t stop you from also storing them somewhere else =E2=80=94=C2=A0=
+on another hardware wallet, in your iPhone notes app, on a Post-it note, by=
+=C2=A0memorizing them (or by memorizing a seed phrase that can be used to g=
+enerate the keys), etc.=C2=A0The lesson for the government is that if you a=
+rrest someone for Bitcoin crime and you seize his hardware wallet, you have=
+ not seized his Bitcoin; you have just seized a hard drive, and he =E2=80=
+=94=C2=A0or his brother, or anyone else =E2=80=94=C2=A0might have other way=
+s to access the Bitcoins. The way you seize the Bitcoins is by getting his =
+private keys =E2=80=94=C2=A0from the hardware wallet, or by asking him, or =
+whatever =E2=80=94=C2=A0and then transferring them to an address that=C2=A0=
+<em>you=C2=A0</em>control, where you can be pretty sure that he and his fri=
+ends do not have the keys.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yOTI2NDExMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1Mzk2Mzkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH76ffb295" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D29264112&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29539639&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Whistles, whistles</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/29264112.275527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjItMDgtMjMvYW1jLWdvZXMtYXBlP2NtcGlkPUJCRDEwMDQyMl9NT05FWVNUV=
+UZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTAw=
+NCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB440fa25a" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  wrote in August</a> about Elon Musk=E2=80=99s efforts to get out of bu=
+ying Twitter Inc.:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The situation is that the richest person in th=
+e world, Elon Musk, has $44 billion riding on the question of whether Twitt=
+er Inc. is doing a massive long-running fraud on its users, its advertisers=
+ and its shareholders. Musk has claimed that it is, with no evidence at all=
+, just a vague feeling that he has. If he=E2=80=99s right and there is a ma=
+ssive fraud, then he can get out of his agreement to buy Twitter for about =
+$44 billion. If he=E2=80=99s wrong, he has to buy Twitter.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This situation is extremely well known. There =
+are incentives. If you have something to do with Twitter, or you know somet=
+hing about Twitter, or you are in the business of counting Twitter bots, th=
+en you should take a few minutes and ask yourself: Well, do I know anything=
+ about Twitter doing any massive frauds? If you do =E2=80=A6 look, I don=E2=
+=80=99t know exactly what you can do with that. I am not at all sure that y=
+ou can actually go to Elon Musk and be like =E2=80=9Chey I=E2=80=99ve got a=
+ pile of fraud documents, they=E2=80=99re yours for $1 billion.=E2=80=9D (H=
+e could send you a subpoena and get them for free?) Even if you did strike =
+a deal with him, he=E2=80=99s notoriously bad about sticking to his deals. =
+Still. I just have a vague general sense that saving the richest person in =
+the world $44 billion is a good career move.=C2=A0</p>
+<p style=3D"margin: 16px 0;">So you should expect that, over the next month=
+ or two, as Musk=E2=80=99s trial date with Twitter approaches, people will =
+be popping up to say =E2=80=9Coh sure Twitter is a fraud, massive fraud, to=
+tally, I have proof, Elon, call me.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Well, that case goes to trial this month, and =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly9ueXBvc3QuY29tLzIwMjIvMTAvMDMvc2Vjb25kLXR3aXR0ZXItd2hpc3RsZWJsb3dlc=
+i1jb3VsZC1hcHBlYXItYXQtZWxvbi1tdXNrLXRyaWFsLw/607f07ceef4b8524a319a23cBbf3f=
+dff7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> here=E2=80=99s this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Another Twitter whistleblower is considering t=
+aking the stand when Elon Musk faces the company in court over his $44 bill=
+ion buyout deal later in two weeks =E2=80=94 and he may have a few things t=
+o say about bots, The Post has learned. ...</p>
+<p style=3D"margin: 16px 0;">The would-be whistleblower, a former Twitter e=
+mployee, claims to have been involved in an internal report several years a=
+go that supposedly concluded that at least 30% of Twitter=E2=80=99s daily a=
+ctive users are automated spam accounts.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CTwitter execs laughed when they were =
+told about the report and said, =E2=80=98We have always had a bot problem,=
+=E2=80=99=E2=80=9D the potential whistleblower said in an interview with Th=
+e Post. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The potential whistleblower said that Twitter=
+=E2=80=99s chosen metric to measure bots =E2=80=94 called Monetizable Daily=
+ Active Users, or mDAUs =E2=80=94 is overly narrow and fails to fully captu=
+re the extent of the site=E2=80=99s spam problem. He said Twitter may not b=
+e lying when it says that less than 5% of its mDAUs are bots, but takes iss=
+ue with using mDAU as a measurement in the first place and claims the compa=
+ny has not been transparent with investors.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yes look if he testifies that Twitter=E2=80=99=
+s securities filings were accurate, but he didn=E2=80=99t <em>like=C2=A0</e=
+m>them, then that won=E2=80=99t help Musk very much will it. The problem he=
+re is that the incentives are so large and well-known that they will attrac=
+t a lot of people who are eager to help but have nothing to offer.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/29264112.275527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjItMTAtMDMvY3JlZGl0LXN1aXNzZS1zLW9wdGlvbnMtd29yc2VuLWFzLW1hcmtldHM=
+tbWF5aGVtLXRha2VzLWEtdG9sbD9jbXBpZD1CQkQxMDA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEwMDQmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB00305900" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Credit Suiss=
+e=E2=80=99s</a> Options Worsen as Markets Mayhem Takes Toll.=C2=A0How big i=
+s the <a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275=
+527/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOGU2ZTcyNTUtY2E5NC00YTgyLThjYTgtMjB=
+mYzI1ZWYzNzg1/607f07ceef4b8524a319a23cB0a77626d" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> capital hole</a> =
+at Credit Suisse? Kwarteng Gave BOE Permission for =C2=A3100 Billion of <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTAtMDQva3dhcnRlbmct=
+Z2F2ZS1ib2UtcGVybWlzc2lvbi1mb3ItMTAwLWJpbGxpb24tb2YtYm9uZC1idXlpbmc_Y21waWQ=
+9QkJEMTAwNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZX=
+R0ZXImdXRtX3Rlcm09MjIxMDA0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524=
+a319a23cB7d8652f1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">  Bond Buying</a>. Fund Managers, Regulators Wre=
+stle Over Plans to <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/29264112.275527/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mdW5kLW1hbmFnZXJzLX=
+JlZ3VsYXRvcnMtd3Jlc3RsZS1vdmVyLXBsYW5zLXRvLXRpZ2h0ZW4tZXNnLXJ1bGVzLTExNjY0O=
+DQ1ODU2P21vZD1ocF9sZWFkX3BvczEy/607f07ceef4b8524a319a23cB5d98162a" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Tighten ESG Rules</a>. China=E2=80=99s <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZ=
+TllOGM4NzktNTUzNi00ZmJjLThlYzItZjJhMjc0YjgyM2I0/607f07ceef4b8524a319a23cBc0=
+78fcc1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> property crash</a>: =E2=80=98a slow-motion financial crisi=
+s.=E2=80=99 Poshmark to Sell Itself for Less Than <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+hcnRpY2xlcy9uYXZlci10by1hY3F1aXJlLXBvc2htYXJrLWZvci0xNy05MC1hLXNoYXJlLWluLW=
+Nhc2gtb3ItMS0yLWJpbGxpb24tMTE2NjQ4Mzg4MDg_bW9kPWl0cF93c2omcnU9eWFob28/607f0=
+7ceef4b8524a319a23cBe2a89317" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> Half Its IPO Price</a> to Korea=E2=
+=80=99s Naver. Nikola Founder <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/29264112.275527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjItMTAtMDMvbmlrb2xhLWZvdW5kZXItdHJldm9yLW1pbHRvbi13b24tdC10ZXN0aW=
+Z5LWluLWhpcy1mcmF1ZC10cmlhbD9jbXBpZD1CQkQxMDA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVka=
+XVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEwMDQmdXRtX2NhbXBh=
+aWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB162a5dee" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  Trevor Mil=
+ton</a> Won=E2=80=99t Testify in Fraud Trial. Theranos Founder <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3=
+cud3NqLmNvbS9hcnRpY2xlcy90aGVyYW5vcy1mb3VuZGVyLWVsaXphYmV0aC1ob2xtZXMtZ2V0c=
+y1oZWFyaW5nLW9uLW5ldy10cmlhbC0xMTY2NDgyNzUyMD9tb2Q9aXRwX3dzaiZydT15YWhvbw/6=
+07f07ceef4b8524a319a23cB4407c2ca" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Elizabeth Holmes</a> Gets Hearin=
+g on New Trial. Bankrupt Crypto Firm <a href=3D"https://link.mail.bloomberg=
+business.com/click/29264112.275527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjItMTAtMDQvYmFua3J1cHQtY3J5cHRvLWZpcm0tY2Vsc2l1cy1zZXRzLWR=
+hdGVzLWZvci1hdWN0aW9uLW9mLWFzc2V0cz9jbXBpZD1CQkQxMDA0MjJfTU9ORVlTVFVGRiZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEwMDQmdXRtX=
+2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBbbe5538d" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Cel=
+sius</a> Sets Dates for Auction of Assets. Crypto Could <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cud3NqL=
+mNvbS9hcnRpY2xlcy9jcnlwdG8tY291bGQtdGhyZWF0ZW4tZmluYW5jaWFsLXN5c3RlbS1mZWRl=
+cmFsLXJpc2stcGFuZWwtd2FybnMtMTE2NjQ4MjY0OTY_bW9kPWl0cF93c2omcnU9eWFob28/607=
+f07ceef4b8524a319a23cB2c3f6431" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> Threaten Financial System</a>, Fed=
+eral Risk Panel Warns. PwC sees opportunity to poach staff during <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvMGZmY2FkYzMtMTQ2ZC00NjQ5LTgzM2QtZmFmZmNhNmY0ZDIy=
+/607f07ceef4b8524a319a23cBf1724106" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> EY split</a>. Software <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDktMjkvc29mdHdhcmUtcm9i=
+b3RzLWFyZS1nYWluaW5nLWdyb3VuZC1pbi13aGl0ZS1jb2xsYXItb2ZmaWNlLXdvcmxkP2NtcGl=
+kPUJCRDEwMDQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIyMTAwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cB6d765322" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  Robots</a> Are Gaining Ground in White-Coll=
+ar Office World. Elon Musk Sets Off Uproar in Ukraine by Tweeting His <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTAtMDMvbXVzay1zZXRzLW=
+9mZi11cHJvYXItaW4tdWtyYWluZS1ieS10d2VldGluZy1oaXMtcGVhY2UtcGxhbj9jbXBpZD1CQ=
+kQxMDA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRl=
+ciZ1dG1fdGVybT0yMjEwMDQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a31=
+9a23cB6f053cde" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  =E2=80=98Peace=E2=80=99 Plan</a>. =E2=80=9CIt=E2=
+=80=99s about addressing a feeling I think a lot of people relate to, and t=
+urning that feeling that already exists of guilt or anxiety into a sense of=
+ freedom, <a href=3D"https://link.mail.bloombergbusiness.com/click/29264112=
+.275527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTAtMDM=
+vaG9sbHl3b29kLWJhY2tlZC1zdGFydHVwLXdhbnRzLXlvdS10by10cnktaXRzLWxvdy1jYXJiLW=
+JhZ2VsP2NtcGlkPUJCRDEwMDQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nvd=
+XJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTAwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/6=
+07f07ceef4b8524a319a23cBb1ffed06" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  or empowerment or joy</a>.=E2=
+=80=9D =E2=80=9CCan you buy Twitter <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/29264112.275527/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjItMTAtMDQvbXVzay1zLXRleHRzLW92ZXItdHdpdHRlci1kZWFsLWluY2x1=
+ZGVkLWV4LXdpZmUtdGFsdWxhaC1yaWxleT9jbXBpZD1CQkQxMDA0MjJfTU9ORVlTVFVGRiZ1dG1=
+fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEwMDQmdXRtX2=
+NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBaec9e066" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  and =
+then delete it</a>, please!? xx.=E2=80=9D =E2=80=9CVerified users are witho=
+ut question the worst part of any mainstream platform and if you want to im=
+agine a world without online anonymity, go tell me about the incredible ori=
+ginal content <a href=3D"https://link.mail.bloombergbusiness.com/click/2926=
+4112.275527/aHR0cHM6Ly93d3cuZ2FyYmFnZWRheS5lbWFpbC9wL29oLWNvb2wtd2VyZS10YWx=
+raW5nLWFib3V0LWFub255bWl0eQ/607f07ceef4b8524a319a23cB2f8c351b" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> tre=
+nding on LinkedIn</a> right now.=E2=80=9D =E2=80=9CThe Onion files this bri=
+ef to protect its continued ability to create <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cuc3VwcmVtZWNvdXJ=
+0Lmdvdi9Eb2NrZXRQREYvMjIvMjItMjkzLzI0MjI5Mi8yMDIyMTAwMzEyNTI1Mjg5Nl8zNTI5NT=
+U0NV8xLTIyLjEwLjAzJTIwLSUyME5vdmFrLVBhcm1hJTIwLSUyME9uaW9uJTIwQW1pY3VzJTIwQ=
+nJpZWYucGRm/607f07ceef4b8524a319a23cB4b76ced4" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> fiction that may ul=
+timately merge into reality</a>.=E2=80=9D =E2=80=9CIf you do what you hate,=
+ the money will <a href=3D"https://link.mail.bloombergbusiness.com/click/29=
+264112.275527/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8xMC8wMi9ib29rcy9idWxse=
+S1tYXJrZXQtamFtaWUtZmlvcmUtaGlnZ2lucy5odG1s/607f07ceef4b8524a319a23cBeb6e1f=
+a4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> chase you down a dark alleyway and throttle you</a>.=E2=80=9D=
+ Adult <a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.27=
+5527/aHR0cHM6Ly93d3cudG9kYXkuY29tL2Zvb2QvcmVzdGF1cmFudHMvbWNkb25hbGRzLWhhcH=
+B5LW1lYWxzLWFkdWx0LXZlcnNpb25zLWNvbWluZy1zb29uLXJjbmE1MDAyNw/607f07ceef4b85=
+24a319a23cB70c3b38d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Happy Meals</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/29264112.275527/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBcaee3a55" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/29264112.275527/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB262b12a1" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] I am just going to call the whole thing =
+=E2=80=9CBarclays,=E2=80=9D and Barclays Plc is the top-level holding compa=
+ny. In fact various Barclays entities are involved here, and in particular =
+last week=E2=80=99s settlement is with Barclays Plc and Barclays Bank Plc; =
+Barclays Bank Plc is the filer of the relevant registration statements.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] This is in the =E2=80=9Cineligible issuer=
+=E2=80=9D definition in <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/29264112.275527/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3L=
+zIzMC40MDU/607f07ceef4b8524a319a23cCe9e35eaf" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> Rule 405</a>, which =
+includes among other things an exclusion if =E2=80=9CWithin the past three =
+years =E2=80=A6 the issuer or any entity that at the time was a subsidiary =
+of the issuer was made the subject of any judicial or administrative decree=
+ or order arising out of a governmental action that: =E2=80=A6 Determines t=
+hat the person violated the anti-fraud provisions of the federal securities=
+ laws.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] <em>=E2=80=9CAs a result of the conduct de=
+scribed above, Barclays Capital willfully violated Section 206(2) of the Ad=
+visers Act, which prohibits an investment adviser from engaging in any tran=
+saction, practice, or course of business that operates as a fraud or deceit=
+ upon a client or prospective client,=E2=80=9D says <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cuc2VjLmdvd=
+i9saXRpZ2F0aW9uL2FkbWluLzIwMTcvMzMtMTAzNTUucGRm/607f07ceef4b8524a319a23cB00=
+d32840" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> the 2017 SEC order</a>.</em></p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] For three years. It=E2=80=99s a WKSI again=
+ as of May 2022, and now has <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/29264112.275527/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9k=
+YXRhLzMxMjA3MC8wMDAxMTkzMTI1MjIxNTc1ODUvMDAwMTE5MzEyNS0yMi0xNTc1ODUtaW5kZXg=
+uaHRt/607f07ceef4b8524a319a23cB1ad66acc" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">a WKSI shelf</a>.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] For simplicity I am skipping over another =
+dumb detail of this story, which is that Barclays overshot its issuance on =
+a *previous* shelf registration statement (a 2018 conversion of its WKSI sh=
+elf into a non-WKSI limited shelf). That was a smaller dollar amount and a =
+less dramatic discovery, but same basic problem.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Obviously I=E2=80=99m relying on, and quot=
+ing, last week=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/29264112.275527/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2FkbWluLzIw=
+MjIvMzMtMTExMTAucGRm/607f07ceef4b8524a319a23cCc648ce94" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">SEC order</=
+a>. </p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] See the cover page of the <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cuc2=
+VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzMxMjA3MC8wMDAxMTkzMTI1MTkyMDY5MjUvZDc3O=
+DQ5M2RmM2EuaHRt/607f07ceef4b8524a319a23cC8f16bf54" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">registration sta=
+tement</a>. The SEC=E2=80=99s filing fee rates change each year; the <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aHR0cHM6=
+Ly93d3cuc2VjLmdvdi9vZm0vQXJ0aWNsZS9mZWVhbXQuaHRtbA/607f07ceef4b8524a319a23c=
+Bfe1bad53" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">current fee</a> is $110.20 per million dollars registere=
+d.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] For some reason <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/29264112.275527/aHR0cHM6Ly93d3cuc2VjLmdvdi9u=
+ZXdzL3ByZXNzLXJlbGVhc2UvMjAyMi0xNzk/607f07ceef4b8524a319a23cE77dee5ff" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">the SEC says</a> that its settlement is =E2=80=9C$361 million,=E2=80=9D=
+ consisting of a $200 million fine plus $161 million of =E2=80=9Cdisgorgeme=
+nt,=E2=80=9D with the latter =E2=80=9Cdeemed satisfied by its offer of resc=
+ission.=E2=80=9D But that does not seem to mean that Barclays paid $161 mil=
+lion of rescission =E2=80=94 it seems to have paid a lot more. Note by the =
+way that the rescission offer was for $17.7 billion, which covers both the =
+$16.4 billion overshoot on the 2019 shelf and also the smaller overshoot on=
+ the earlier shelf.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] Singles, mind you; it looks like there is =
+maybe $150 in this picture. So not *great* evidence.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB6c76a946" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB00bd011a" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB9deb4ca3" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB711b8303" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yOTI2NDExMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk1Mzk2Mzkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIb549f9cc" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D29264112&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29539639&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB36279343" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/29264112.275527/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC70f42bf8" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/29264112.275527/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBf30e8598" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/29264112.275527/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB651b3829" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB0=
+84e1aa4" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29264112.275527/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBa=
+421d3b8" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D292641=
+12&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29539639&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D292641=
+12&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29539639&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D292641=
+12&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29539639&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D292641=
+12&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29539639&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D292641=
+12&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29539639&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chf8c0.5wlj/04ada6a6.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_7193955_1520092384.1664899446734--
+

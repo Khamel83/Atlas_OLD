@@ -98,14 +98,22 @@ def setup_automation_branch():
     print("🌿 Setting up automation branch...")
 
     # Commit any pending changes first
+    print("📝 Adding all changes to staging...")
     execute_git_command("git add -A")
-    execute_git_command('git commit -m "WIP: Save changes before automated execution" || true')
-    
+    print("💾 Committing pending changes...")
+    execute_git_command(
+        'git commit -m "WIP: Save changes before automated execution" || true'
+    )
+
     # Create and checkout feature branch
     branch_name = "feat/automated-blocks"
-    if not execute_git_command(f"git checkout -b {branch_name} 2>/dev/null || git checkout {branch_name}"):
+    print(f"🌿 Switching to branch: {branch_name}")
+    if not execute_git_command(
+        f"git checkout -b {branch_name} 2>/dev/null || git checkout {branch_name}"
+    ):
         print("⚠️ Using current branch instead")
 
+    print("✅ Branch setup complete")
     return True
 
 
@@ -219,9 +227,12 @@ def main():
     print("=" * 60)
 
     # Change to Atlas directory
+    print(f"📂 Changing to Atlas directory: /home/ubuntu/dev/atlas")
     os.chdir("/home/ubuntu/dev/atlas")
+    print(f"📂 Current directory: {os.getcwd()}")
 
     # Execute blocks
+    print("🚀 Starting block execution...")
     success = execute_blocks()
 
     if success:

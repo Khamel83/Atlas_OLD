@@ -1,0 +1,1761 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:60d:b029:116:5c91:524e with SMTP id gq13csp3932127lkb;
+        Mon, 26 Jul 2021 10:15:21 -0700 (PDT)
+X-Received: by 2002:a17:906:32d8:: with SMTP id k24mr18087959ejk.422.1627319721343;
+        Mon, 26 Jul 2021 10:15:21 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1627319721; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=HAXDpBRXwR1N43W1PIog8MdYIxa4lxL7IQu2D2LF7d3kTaFvlGLS4r4mImKSFLq+TJ
+         LrL7C4y9GjX1honSh7DhZ0Hc+IKrltVtjFay6ziX+sWsYmvMnCd+tYS5M3fUCHOhWBUl
+         eZwyYzZB9ltHmMUhQpHjvfcoyhvfg+i3wmVucChK6XzZrTRnbsliVmdh8IizpS0s2Z75
+         Xb8pkP3H4j6bB5V3do4e4R5kswnlMJ1kRfbmrbh7kry/+wrSxceH9sHw1dyw7vPNW1Ih
+         RacYBjUqR4x6NIwkb5f34/I/dWglSWBhaK/IX5TOcv0FBmU5sxWqgLr/5n4JnTgnnmPd
+         lG3w==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=i9/fhZ/slObhCahXvzUVPaWiX9PFVpZ2zPREFdzJv0w=;
+        b=0swS7k2hRL6hjfSSqXKHVf70uHM3Y0EtObA5z//2F+4h7f4UVsApSQOq7QUOOkDMp/
+         geuwGSukP0J1onY8FNtMP95zJ5O/Gm9O3y+n+04t1OcO/d5lG3nJPoyZAtwgLwpKnD/5
+         XSvFPaHfFOE0SYF11nvTRJe267oVZjUkRWUx6vEX9O81mrsXSy3pbj4sqDHRJt1Y+3nU
+         UmWLvwOxg6eaILq9p9+CUDl0dFLlTCpUA3dTtQtroPT6kSBa+uuA48ZcYRaMLM4hVVaq
+         XCKYMmcmkbz7WRrTcKRCJAyVji9e4TYhRAvadLblJC7wxKpffPX33sH14ABaTP2KNpM4
+         bZuQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mPO2Az+c;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id da12sor61958edb.27.2021.07.26.10.15.21
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 26 Jul 2021 10:15:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mPO2Az+c;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=i9/fhZ/slObhCahXvzUVPaWiX9PFVpZ2zPREFdzJv0w=;
+        b=b3qgWXLm4YXmXeQY7izBkZk2NAoGA3LVc+iU/WmZct+xViCd09Ug/NfW3KLIl24Toq
+         i3cQJTevhj4AH0OCEjq9nRHtcmEVxCQ6D2Iz5p2us5PwvZq+PvMb8OkOiqf7R8lSVyr0
+         O4Ok3IFtmd2P+5qGNQEAFFqXIuYNfi6VMWJft/JhVAUkYVkGHMWQjcEhc++riPbOLB0E
+         i1LcbBsuusfuK6NP8OhsbVsGPH+UzUgjgGBYlE9567pLsM6gt/DI264uPPrqnT18Eo8D
+         wBsHswZkXC4RwO0VizslCnH4XmFIOdU0iMwud5WZYW+3sUB3nhJRuzN9t+fbDqnx2LjC
+         9C+A==
+X-Gm-Message-State: AOAM530dyR87cyNjYaFOBa6momzRgQbzmUYflO30ozZxy5hapeERCAFk
+	CbrGJjz5QVtLuF9PNf8wx+lxIKWjj/Preo9ZjYmvj+wTDfgVknlbbA==
+X-Received: by 2002:a05:6402:487:: with SMTP id k7mr22270801edv.315.1627319721103;
+        Mon, 26 Jul 2021 10:15:21 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:ab4:9b88:0:0:0:0:0 with SMTP id h8csp2080528ecz;
+        Mon, 26 Jul 2021 10:15:18 -0700 (PDT)
+X-Received: by 2002:a05:651c:4cb:: with SMTP id e11mr2415985lji.79.1627319718131;
+        Mon, 26 Jul 2021 10:15:18 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1627319718; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=QOmwbMFp5cV50I3O7f8+VDFgqs+l3pSvxfwi9ZrIs/Mxor8ZKGvPL0B/8+cyQ8+iGL
+         lROLaSTz+vd12GxVLyADI3LnK2CFWDA2LOO2nGd56GasL0fWk1EuQAz3RD0NfkS8aZOS
+         LSAdvp5pcRC8A3wS7SUBoEi0V9HF6GlV5gqOI5gpuzMEOi22J7WdVOfOQkfsy/eEF9Gu
+         KAphyve3pUxjWGQxxN5p/7hyHCNrt8aMjKoQXOeHFW0vRGkKAHnRlL+CpNx6AyADSBX6
+         F+Mw8CNGCAWJLi4+XwOwieX66719QLfy/8h9Kkugg4+2SMObYsdUfb9T3woK+JfGX/jo
+         3E2g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=i9/fhZ/slObhCahXvzUVPaWiX9PFVpZ2zPREFdzJv0w=;
+        b=JJLBFl15Zl72qEC8jXw6jGplvbImRoI9grBEsnSZ9JFVF56z5mCSZTcSm+FIiNZw9Z
+         z/qcEIkwOGoaC1WkQFfvs4KN2IU1zNeTvjfzESG8SKzpx1LmP4AJGea+R17UzKkyFt6f
+         /CHe58h8rWBhDutUssrmyj/tAMkZKXOCMITrMCwGNdl3JvBaWkzu8oBZI+dUxz3yM86M
+         epKhewLCu34y7rRXNh4ScL4fJjoKLya7ClkS6x4z0zVhP9FRmx4sAhh/a3FWTjTBAQTh
+         gX+VdqE9Ht5q6QpG7U+x0sWKTLLXiod8cqwOcjlDMQ6UHjCsgAkjreemOvYjoTPboDQi
+         ygXg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mPO2Az+c;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210726131251.24559660.263121@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210726131251.24559660.263121@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210726131251.24559660.263121@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j16sor59878lfu.184.2021.07.26.10.15.18
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 26 Jul 2021 10:15:18 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210726131251.24559660.263121@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyjf6t20vS8qQsJOTBs6cNLBYaFNn29sPxaRi/1HR4yc7m6tPOtEy4jdVY1lJb+gMHZW28YVNM/8zRy90IUQNmL5zzrQgU=
+X-Received: by 2002:a19:f110:: with SMTP id p16mr14322796lfh.584.1627319717895;
+        Mon, 26 Jul 2021 10:15:17 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1627319717; cv=none;
+        d=google.com; s=arc-20160816;
+        b=0kCZnNjfJhn8lo7gFqmKDjyHQkMDJSzfuiAIBgwvyLx+1q1q2FS6rYzjqEDEBLFQUs
+         2LKZ2B0BOL8X4EfPn2uwuGmsITTXHJQlOXjwLyAcu9t2tAUUnL7G34CejJuVsJAJNZeG
+         S1npkBcUPM7tDrflfvPqvIt+FsBq6ZKmJHjkH0KDXGDzgwZmE3Kh1E9n4iv6gMWxUav5
+         n2L4feRxJKkoUCFBQXPK9/7avfEe5vuugcemoTN4icW8s9AXCkgoNof+9wythChYogfE
+         clSq1QsNzikxtkr+NbKexYnqd+gO6/gWTpcSTblnM3PFN7KkFsOHZeMg2L4Iu+HoAt80
+         cS8w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=i9/fhZ/slObhCahXvzUVPaWiX9PFVpZ2zPREFdzJv0w=;
+        b=O2BdHwxhbY30yReJ1Y226lvcvU7jPa7CeTqfNT6qe7RI2xYupekmo+RID0safDI60/
+         XeW1Ow58pqo3cFR917lcpI16EVx9kOAAq2QqQJhBsRIjnCnmIhpe9nEDYi+FAeQ6bagK
+         v77oRFTH3igXcWNvvghde98I6EDK6DwYuhIbKJBFkn/RSSyQQlQW24xPMf7IxOQevkq/
+         COdUt6bx/qqUduljMr+h4t9AbgaSoMyMGhNrrSJrNxFvnfRj6pa49KWB4riGii3+DK8M
+         cUQqpTPLMznMQCvMqxIRRQ7g339zIdiUYPZEk3zzvLLTuzsK2h2lSgswTKJJRHqTWcQq
+         yj1Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mPO2Az+c;
+       spf=pass (google.com: domain of delivery_20210726131251.24559660.263121@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210726131251.24559660.263121@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210726131251.24559660.263121@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id b15si14136ljf.6.2021.07.26.10.15.17
+        for <khamel83@gmail.com>;
+        Mon, 26 Jul 2021 10:15:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210726131251.24559660.263121@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=4WVuM3xMLuxaWmdk4xGgTnpe12g=;
+ b=mPO2Az+cId4cOcx8c/xwLL1TNU0G/2lX3C6vuXSxJMnStxylYU8ymmkVYi1NtR52g2r9J0l/jGj+
+   IMgO5wEDA1VC4QZkam7JxZb91K0zE09QGTPYT8ZAsgYQSKu77922jFm2/QFOQNKI/wK1OCQjIoAG
+   MQSsXeUg748Toljee8A=
+Received: from njmta-90.sailthru.com (173.228.155.90) by bloomberg-b.sailthru.com id hvrmqa1qqbs5 for <bloomberg@khamel.com>; Mon, 26 Jul 2021 13:15:16 -0400 (envelope-from <delivery_20210726131251.24559660.263121@mx.sailthru.com>)
+Received: from nj1-lowvermillion.flt (172.18.20.37) by njmta-90.sailthru.com id hvrmq81qqbs7 for <bloomberg@khamel.com>; Mon, 26 Jul 2021 13:12:51 -0400 (envelope-from <delivery_20210726131251.24559660.263121@mx.sailthru.com>)
+Date: Mon, 26 Jul 2021 13:12:51 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210726131251.24559660.263121@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEl04oCZcyBFYXN5IHRvIEJv?=
+ =?utf-8?B?cnJvdyBNb25leSBJZiBZb3UgSGF2ZSBNb25leQ==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_44084203_1253955175.1627319571429"
+Precedence: bulk
+X-Feedback-ID: 6358:24559660:campaign:sailthru
+X-TM-ID: 20210726131251.24559660.263121
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-lowvermillion.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cemecs.5n0x/cde4c1b8
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cemecs.5n0x/cde4c1b8>, <mailto:unsubscribe_20210726131251.24559660.263121@mx.sailthru.com>
+X-rpcampaign: stjko24559660
+
+------=_Part_44084203_1253955175.1627319571429
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Buy borrow die
+   =20
+ =20
+You could have a dumb oversimplified model that goes like this:=09In the ol=
+den days, rich people invested their money in stocks and bonds. They wanted=
+ cash flow from those stocks and bonds, money that they could live on witho=
+ut spending principal. So the stocks and bonds produced cash flows. Investm=
+ent-grade bonds paid interest, blue-chip stocks paid dividends, and their r=
+ich owners used the interest and dividend payments to finance their lifesty=
+les.=09In modern days, rich people still invest their money in stocks and b=
+onds, but they have discovered the concept of tax efficiency. Dividends and=
+ interest payments are taxable; if you have $100 million of wealth,=C2=A0it=
+ earns 5% a year in interest and dividends, and you pay a 40% tax rate, the=
+n in a=C2=A0year you=C2=A0will pay $2 million of taxes and be $3 million ri=
+cher. You=E2=80=99d prefer not to pay the taxes.=09So it is no longer parti=
+cularly expected that good stocks will pay large, or any, dividends: Compan=
+ies retain earnings to reinvest in growth (rewarding their shareholders wit=
+h capital appreciation rather than dividends), or if they want to return ca=
+sh they do it via tax-efficient buybacks rather than dividends.=09Meanwhile=
+ the interest rates on bonds are really low. This is more of a macroeconomi=
+c thing than a tax-efficiency thing, honestly, but it=E2=80=99s worth notin=
+g.=09If you have $100 million of wealth and it appreciates by 5% per year w=
+ithout paying out any cash, then in a=C2=A0year you will pay no taxes and b=
+e $5 million richer. Better!=09How do you pay for your lifestyle? Well, if =
+you have $100 million, you can pretty easily borrow money secured by your p=
+ortfolio. If you borrow $3 million a year (what we assumed you were taking =
+home under the old system) and your wealth keeps compounding at 5% per year=
+, you will never borrow more than about 23% of the value of your holdings.[=
+1] A bank should be fairly comfortable lending you 23% of the value of your=
+ portfolio of stocks and bonds, since you=E2=80=99re rich.=09Borrowing mone=
+y is not income, so you don=E2=80=99t pay taxes on it.=09And you=E2=80=99ll=
+ pay very low interest on this borrowing (see point 4).It is just a more ef=
+ficient way to extract spending money from wealth. (This model is sometimes=
+ called =E2=80=9Cbuy borrow die,=E2=80=9D because if you die in step 9, tha=
+t can further improve the tax efficiency of the strategy.) It does require =
+a change in the business model of banks, though: Instead of principally bei=
+ng in the business of lending money to people who don=E2=80=99t have money =
+and need some, they are increasingly in the business of lending money to pe=
+ople who have lots of money but don=E2=80=99t want to liquidate financial a=
+ssets.So here you go:The lending businesses of large US banks are doubling =
+down on wealthier customers, as well-to-do Americans borrow to buy second h=
+omes, invest in the stock market and potentially lighten their tax bills.Th=
+e combined value of loans made by the wealth management arms of JPMorgan Ch=
+ase, Bank of America, Citigroup and Morgan Stanley surpassed $600bn in the =
+second quarter, up 17.5 per cent from a year earlier. This represented 22.5=
+ per cent of the banks=E2=80=99 total loan books, up from 16.3 per cent in =
+mid-2017. ...This type of borrowing has been on the rise for more than a de=
+cade but the pace has picked up since the Federal Reserve cut interest rate=
+s in response to the pandemic. For a two-year loan against liquid investmen=
+ts such as stocks, wealth management clients can expect to pay a rate of ab=
+out 1.4 per cent, according to bankers and advisers.=C2=A0=E2=80=9CRates ar=
+e so remarkably low that they look at it as cheap money,=E2=80=9D said Chri=
+stopher Boyett, co-chair of the private wealth practice at law firm Holland=
+ & Knight.The contrast with the banks=E2=80=99 consumer and corporate loan =
+books is startling. Wealth management loans at JPMorgan, Bank of America, C=
+iti and Morgan Stanley have grown 50 per cent in the past four years, compa=
+red with only 9 per cent for their overall loan book.JPMorgan and Citi are =
+now lending more to a small number of ultra-high net worth clients than to =
+their millions of credit card customers. A decade ago, JPMorgan was lending=
+ five times as much to credit card customers as it did to private clients. =
+...Controversially, the borrowings can also serve to lower taxes. Instead o=
+f selling assets to raise cash =E2=80=94 and facing a capital gains tax bil=
+l =E2=80=94 high net-worth clients obtain funding by borrowing against the =
+value of their investments.=E2=80=9CThe other way that these families could=
+ get liquidity from these assets=C2=A0would be to sell them=C2=A0and that o=
+f course would have tax consequences and those would not be favourable,=E2=
+=80=9D said Sabrena Silver, a partner at law firm White & Case.If you are a=
+ bank, it is better to lend people money equal to a fraction of the value o=
+f their portfolio of liquid financial assets than it is to lend them money =
+that they=C2=A0don=E2=80=99t=C2=A0have. If they already have plenty of mone=
+y, they are more likely to pay you back. Meanwhile=C2=A0if you are a rich p=
+erson, it is better to get liquidity without paying taxes than to get liqui=
+dity and pay taxes. Seems like a good trade for everyone?
+ =20
+   =20
+      Credit scoring
+   =20
+ =20
+I mean this is the sort of cute pat anecdote that banks love to publicize:F=
+ICO is becoming a smaller factor in underwriting decisions at Citizens Fina=
+ncial Group Inc. When shoppers apply for its buy-now-pay-later loans, the b=
+ank considers factors including the products they are buying, according to =
+a person familiar with the matter. Fitness equipment, for example, is viewe=
+d as a sign of creditworthiness because it suggests a positive change in th=
+e applicant=E2=80=99s behavior. By next year, the bank plans to use cellpho=
+ne, cable and utility-payment information to help vet loan applicants, the =
+person said.Yes, right, buying a Peloton on credit increases your debt-to-i=
+ncome ratio but improves your credit because people who do group fitness cl=
+asses don=E2=80=99t default on debt, fine, but if you=E2=80=99re going to b=
+rag about this to journalists you=E2=80=99ve got to publicize the whole lis=
+t. Fitness equipment is credit-positive; what else is positive? What=E2=80=
+=99s negative? If you are financing a flat-screen TV, that=E2=80=99s bad, r=
+ight?=C2=A0A nice suit is good? What about a boat? Are there =E2=80=A6=C2=
+=A0are=C2=A0there purchase types that correlate both with creditworthiness =
+and also with race or gender? I feel like this discussion is=C2=A0cute and =
+positive when it is limited to fitness equipment but you don't actually wan=
+t to open up the box here.That=E2=80=99s from an article about how the =E2=
+=80=9CFICO Score=E2=80=99s Hold on the Credit Market Is Slipping=E2=80=9D:B=
+ig lenders are moving away from FICO, according to people familiar with the=
+ matter. Capital One Financial Corp. and Synchrony Financial don=E2=80=99t =
+use its scores for most consumer-lending decisions. They are becoming a sma=
+ller factor in some underwriting decisions at JPMorgan Chase & Co. and Bank=
+ of America Corp.A key financial regulator, meanwhile, is encouraging banks=
+ to de-emphasize credit scores in an effort to expand access to affordable =
+credit. And housing-finance giants Fannie Mae and Freddie Mac are consideri=
+ng allowing lenders to use other scores when evaluating mortgage applicants=
+.There are a few reasons for the shift. Many lenders now review a wealth of=
+ new data and use it to refine their own proprietary scores that they say a=
+re better able to predict who will repay and who won=E2=80=99t. =E2=80=A6Fo=
+r banks, one benefit of their own scoring systems is their ability to tweak=
+ them when problems arise. Several years ago, JPMorgan noticed that when bo=
+rrowers transferred their credit-card debt to a personal loan, their FICO s=
+cores often increased because the share of debt they carried compared with =
+their cards=E2=80=99 spending limits had fallen, a person familiar with the=
+ matter said. But the debt was still present in the form of a personal loan=
+. The bank found a similar issue with its own credit score but was able to =
+quickly fix it, the person said. FICO said recent versions of its scores ad=
+dress this issue.=C2=A0On first principles you might think that a bank is i=
+n the business of deciding whom to lend money to. It is weird to outsource =
+that core decision to someone else, and sensible to try to bring it back in=
+-house and also differentiate yourself. Like, banks=C2=A0should=C2=A0try to=
+ compete with each other by making better credit decisions, lending to cred=
+itworthy borrowers that the rest of the market misses and avoiding lending =
+to risky borrowers that the rest of the market loves. If you are a bank you=
+ should try to get better at the core skills of banking.The counterpoint is=
+ that banks are not always exactly in the business of lending money from th=
+eir balance sheets and hoping to get paid back. Sometimes they=E2=80=99re i=
+n the business of packaging loans and selling them, and there, being=C2=A0r=
+ight=C2=A0is less important than being=C2=A0standard:FICO has a big advanta=
+ge: Investors rely heavily on the scores to decide whether to buy packaged-=
+up consumer loans. The scores are a common language of sorts, one that requ=
+ires no time-consuming translation. Even lenders that don=E2=80=99t use FIC=
+O to make lending decisions tend to use them in loan securitizations.
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                   =20
+Modern Treasury makes money move faster
+
+Their  software platform=C2=A0connects directly to your corporate bank acco=
+unts and ERP systems so that finance teams get  full visibility and control=
+ over payments and developers get flexible APIs to automate complex payment=
+ flows.=C2=A0
+
+Learn how innovative companies like Pipe used MT to transform how they move=
+ money.
+
+                                    Modern Treasury
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+ =20
+   =20
+      Chinese tutoring
+   =20
+ =20
+Two notable facts about the People=E2=80=99s Republic of China are that (1)=
+ it has been communist for the last 70 years and (2) it bans foreign invest=
+ors from owning shares of certain sorts of technology companies. Until like=
+ a month ago, everyone thought China was =E2=80=A6 kidding? Yes sure China =
+is ruled by the Communist Party, but look at all the profits that were bein=
+g made by Chinese capitalists. And yes sure foreign investors aren=E2=80=99=
+t allowed to own=C2=A0Chinese tech companies, but a robust  =E2=80=9Cvariab=
+le interest entity=E2=80=9D structure allowed foreign investors to=C2=A0eff=
+ectively=C2=A0own shares in profitable Chinese tech companies. It=E2=80=99s=
+ fine! In very broad strokes, investing in China was like investing everywh=
+ere else.Things  are different now:China unveiled a sweeping overhaul of it=
+s $100 billion education tech sector, banning companies that teach the scho=
+ol curriculum from making profits, raising capital or going public.Beijing =
+on Saturday published a plethora of regulations that together threaten to u=
+p-end the sector and jeopardize billions of dollars in foreign investment. =
+Companies that teach school subjects can no longer accept overseas investme=
+nt, which could include capital from the offshore registered entities of Ch=
+inese firms, according to a notice released by the State Council. Those now=
+ in violation of that rule must take steps to rectify the situation, the co=
+untry=E2=80=99s most powerful administrative authority said, without elabor=
+ating.In addition, listed firms will no longer be allowed to raise capital =
+via stock markets to invest in businesses that teach classroom subjects. Ou=
+tright acquisitions are forbidden. And all vacation and weekend tutoring re=
+lated to the school syllabus is now off-limits.The regulations threaten to =
+obliterate the outsized growth that made stock market darlings of TAL Educa=
+tion Group, New Oriental Education & Technology Group and Gaotu Techedu Inc=
+. They could also put the market largely out of reach of global investors. =
+Education technology had emerged as one of the hottest investment plays in =
+China in recent years, attracting billions from the likes of Tiger Global M=
+anagement, Temasek Holdings Pte and SoftBank Group Corp.TAL, New Oriental E=
+ducation=C2=A0and Gaotu are all Cayman Islands companies; they =E2=80=94=C2=
+=A0or rather their Chinese variable interest entities =E2=80=94=C2=A0are in=
+ education-tech businesses that foreigners are prohibited from owning. Thro=
+ugh a series of contracts, foreign investors can own these Caymans companie=
+s, which in turn can share in the profits of the onshore Chinese education-=
+tech companies. Except, oops, no profits!I have to say that I am impressed =
+by the regulatory move of=C2=A0banning profits. In the U.S., I don=E2=80=99=
+t think it would really occur to a regulator to tell an established industr=
+y that it is not allowed to make profits anymore. =E2=80=9CThat=E2=80=99s j=
+ust the same as shutting down the industry, right?,=E2=80=9D I think U.S. r=
+egulators would say. But in a nominally communist system I suppose you don=
+=E2=80=99t have to believe as much in the profit motive; you can distinguis=
+h businesses that are illegal from ones that are not allowed to turn a prof=
+it.All of these companies, in their disclosures to foreign investors, inclu=
+de risk factors about how the legal status of their VIE structures is uncer=
+tain and how the Chinese government might decide that they are in violation=
+ of the law and impose all sorts of remedies, like =E2=80=9Cconfiscating an=
+y of our income that they deem to be obtained through illegal operations=E2=
+=80=9D or =E2=80=9Crevoking the business and operating licenses of our PRC =
+subsidiaries or consolidated affiliated entities.=E2=80=9D In a sense there=
+ is nothing surprising here; the boom in foreign investment in Chinese tech=
+ companies has been entirely a creature of regulatory grace that might end =
+at any time. People got used to the grace, though. Now it might be ending.E=
+lsewhere, my Bloomberg Opinion colleague Noah Smith asks: =E2=80=9CWhy is C=
+hina smashing its tech industry?=E2=80=9D
+ =20
+   =20
+      Bitcoin
+   =20
+ =20
+I understand that Jeff Bezos and Andy Jassy have better things to do with t=
+heir time, but if=C2=A0I ran Amazon.com Inc., I=E2=80=99d be pretty tempted=
+ to:=09Quietly buy a ton of Bitcoins,=09Put up a job posting looking for a =
+=E2=80=9CDigital Currency and Blockchain Product Lead=E2=80=9D on  my websi=
+te, and=09Sell all those Bitcoins when the price of Bitcoin  rallies 20% on=
+ the news that Amazon might be getting into crypto.To be=C2=A0clear, I don=
+=E2=80=99t think that happened. I just think  it should have:=C2=A0Bitcoin =
+surged near $40,000 as a crypto-related job ad from Amazon.com Inc. stoked =
+speculation about the company=E2=80=99s involvement in the industry.The job=
+ posting, which was reported by CoinDesk last week, said the Amazon is look=
+ing for an executive to develop the company=E2=80=99s =E2=80=9Cdigital curr=
+ency and blockchain strategy.=E2=80=9D Analysts have also wondered whether =
+the move could eventually lead to Amazon accepting Bitcoin as a method of p=
+ayment.Yeah. The thing about Bitcoin is that it has no, as it were,=C2=A0in=
+terior=C2=A0fundamentals. The fundamental drivers of Bitcoin's value are no=
+t internal facts about Bitcoin, its technology or the actions of its develo=
+pers or whatever; there is no company with cash flows and expenses and exec=
+utives and factories. The fundamental drivers of Bitcoin=E2=80=99s value ar=
+e=C2=A0social=C2=A0facts about who is using it for what. If you are someone=
+ whose use or non-use of Bitcoin is material to its value =E2=80=94=C2=A0if=
+ you are, for example, a gigantic dominant player in online commerce, or  E=
+lon Musk =E2=80=94=C2=A0then your decision to use Bitcoin is obviously=C2=
+=A0going to drive the price, it=E2=80=99s obviously going to be the main fa=
+ctor that day, even rumors about it will move the price, and why shouldn=E2=
+=80=99t you make a profit on your own information?We  talked last month abo=
+ut how Amazon actually does a form of this strategy: When it strikes commer=
+cial deals with smaller companies, it pushes to get warrants to buy those c=
+ompanies=E2=80=99 stock, because it knows that news of the commercial deals=
+ will make those companies=E2=80=99 stocks go up. I wrote:I am a simple man=
+ and to me this seems good. Buy a thing, create good news for the thing, an=
+nounce that news, watch the price of the thing go up. In general I think it=
+ is under-utilized, as a strategy.=C2=A0I assume that Amazon didn=E2=80=99t=
+ utilize it here. But it should have.Here=E2=80=99s  another explanation fo=
+r Bitcoin=E2=80=99s move:Some analysts said short covering also fueled the =
+gain. More than $940 million of crypto shorts were liquidated on Monday, th=
+e most since May 19, according to data from Bybt.com.=E2=80=9CThe extent of=
+ the jump was probably driven by over-leveraged shorts,=E2=80=9D said Vijay=
+ Ayyar, head of Asia Pacific at crypto exchange Luno in Singapore.Why? Part=
+ly on a short squeeze I suppose: Amazon news pushes up the price of Bitcoin=
+, which causes leveraged shorts to lose all their equity and get closed out=
+. But this is also intriguing:Two of the world=E2=80=99s most popular crypt=
+ocurrency exchanges announced on Sunday that they would curb a type of high=
+-risk trading that has been blamed in part for sharp fluctuations in the va=
+lue of Bitcoin and the casino-like atmosphere on such platforms globally.Th=
+e first move came from the exchange, FTX, which said it would reduce the si=
+ze of the bets investors can make by lowering the amount of leverage it off=
+ers to 20 times from 101 times. Leverage multiplies the traders=E2=80=99 ch=
+ance for not only profit, but also loss. =E2=80=A6About 14 hours later, Cha=
+ngpeng Zhao the founder of Binance, the world=E2=80=99s largest cryptocurre=
+ncy exchange, echoed the move by FTX, announcing that his company had alrea=
+dy started to limit leverage to 20 times for new users and it would soon ex=
+pand this limit to other existing clients.Reducing leverage for Bitcoin tra=
+des could push the price of Bitcoin down (if it forces leveraged Bitcoin ho=
+lders to sell) or up (if it forces leveraged Bitcoin=C2=A0shorts=C2=A0to bu=
+y). Elsewhere: =E2=80=9CCrypto has =E2=80=98no inherent worth=E2=80=99 but =
+is good to trade, says Man Group chief.=E2=80=9D
+ =20
+   =20
+      Bluestone and Greensill
+   =20
+ =20
+We have talked a few times around here about Greensill Capital, a =E2=80=9C=
+supply chain finance=E2=80=9D company that was notionally in the business o=
+f making short-term loans secured by its clients=E2=80=99 accounts receivab=
+le (or payable) but was actually=C2=A0in the business of making long-term u=
+nsecured loans against its clients=E2=80=99 =E2=80=9Cprospective=C2=A0recei=
+vables.=E2=80=9D In basic receivables finance, a=C2=A0client would sell its=
+ products to its customers on credit, Greensill would front the cash to the=
+ client, and Greensill would get paid back with interest a few weeks later =
+when the customers paid. In prospective receivables finance, a client would=
+ think of a potential customer and write down how much it wanted to sell to=
+ the customer, Greensill would lend it some money, and it would roll the mo=
+ney over every few months until the client one day actually managed to sell=
+ some products to the potential customer and get money to pay back Greensil=
+l.=C2=A0Greensill imploded a few months ago, and the discovery that it was =
+largely in the prospective-receivables business led to a lot of awkwardness=
+.=C2=A0For instance, Greensill=E2=80=99s insolvency administrator  was=C2=
+=A0alarmed to discover=C2=A0that Greensill was financing fake receivables: =
+It =E2=80=9Capproached companies that were listed as debtors=E2=80=9D to a =
+Greensill client, and =E2=80=9Cseveral of these companies have disputed the=
+ veracity of the invoices.=E2=80=9D This sounds a lot like fraud, but there=
+ is an innocent explanation: These invoices represented=C2=A0prospective re=
+ceivables, so=C2=A0of course=C2=A0they were fake and the supposed =E2=80=9C=
+debtors=E2=80=9D had never heard of them. This is just how prospective rece=
+ivables financing works! It all made sense at the time to the people who di=
+d it! Probably.One customer who got a lot of prospective receivables financ=
+ing from Greensill was Bluestone Resources Inc., a coal company owned by We=
+st Virginia Governor Jim Justice. When Greensill imploded, it (or rather, i=
+ts administrator=C2=A0and lenders, particularly Credit Suisse Group AG, whi=
+ch bought a lot of Greensill loans) asked for the money back, which it was =
+entitled to do because after all it was notionally making short-term receiv=
+ables-backed loans to Bluestone. But Bluestone didn=E2=80=99t have the mone=
+y, because in its mind it was doing long-term unsecured borrowing against p=
+otential future sales. So  Bluestone sued, asking, basically, for more time=
+ to pay off the loans.=C2=A0In Greensill=E2=80=99s defense, I guess, it kin=
+d of makes sense to lend to a=C2=A0commodity=C2=A0company against its =E2=
+=80=9Cprospective receivables=E2=80=9D? Like a coal company is not really i=
+n the business of building deep customer relationships so it can upsell hig=
+her-margin products to those=C2=A0customers. A coal company is in the busin=
+ess of owning a bunch of coal in the ground, taking it out of the ground, a=
+nd selling it at market prices. So if it needs to pay back the money sooner=
+ than expected, all it has to do is take more coal out of the ground. Anywa=
+y:West Virginia Gov. Jim Justice and Credit Suisse Group AG are looking to =
+take advantage of surging coal prices to help him pay off nearly $850 milli=
+on in loans his companies borrowed from now-collapsed Greensill Capital.Rep=
+resentatives of the Swiss bank and Mr. Justice=E2=80=99s family of companie=
+s met face-to-face this month in West Virginia to sort out the mountain of =
+debt, which Mr. Justice personally guaranteed.Plans under discussion includ=
+e ramping up output at coal mines operated by the Justice family=E2=80=99s =
+Bluestone Resources Inc., according to a person familiar with the conversat=
+ions.=C2=A0Yeah it's fine. You dig the coal, you sell it, boom, the prospec=
+tive receivables become real ones, no problem.
+ =20
+   =20
+      The interns are back
+   =20
+ =20
+God love 'em, they are  working hard:Working in the office means experienci=
+ng the energy of a trading floor. On her third day at JPMorgan=E2=80=99s of=
+fice, 21-year-old environmental science major Anna Albright learned how wor=
+ked up traders can get.It was June 16, and the Federal Reserve had just sho=
+cked markets by signaling two potential interest-rate increases in 2023. Th=
+e seventh floor of the largest U.S. bank was a flurry of chat pings, ringin=
+g phones and cross-floor shouting as analysts pored over Chair Jerome Powel=
+l=E2=80=99s press conference diction for an explanation behind the abrupt c=
+hange in the Fed=E2=80=99s dot plot.=E2=80=9CIt was like the Super Bowl, bu=
+t way more intense,=E2=80=9D said Albright, a trading and sales summer anal=
+yst. =E2=80=9CWe were like =E2=80=98Oh my God, what world have we entered?=
+=E2=80=99=E2=80=9DAnd playing hard:For others, New York=E2=80=99s reopening=
+ is an opportunity to bond with fellow interns after work. One popular spot=
+ is Phebe=E2=80=99s, the downtown bar known as a =E2=80=9Chaven for NYU kid=
+s and Wall Street interns,=E2=80=9D according to bartender Lauren Ramirez, =
+28. It=E2=80=99s clear the summer analysts have arrived when you see =E2=80=
+=9Canything Vineyard Vines, pastel button-ups and boat shoes,=E2=80=9D Rami=
+rez explained.By 10 p.m. on a Friday in June, interns crowded a packed danc=
+e floor, screaming along to an electronic remix of Taylor Swift=E2=80=99s =
+=E2=80=9CLove Story,=E2=80=9D and the line to get in was the only thing vis=
+ible outside the entrance. By 10:15 p.m., the queue stretched down the stre=
+et, crowding the sidewalk and blocking the entrance to neighboring apartmen=
+ts and businesses. Black cars double-parked to let out packs of young men a=
+nd women as they headed inside and assumed a place at the bar.There is noth=
+ing more intense than the energy of a trading floor during a Fed press conf=
+erence, unless it is the energy of Phebe=E2=80=99s on a summer Friday. I me=
+an, I=E2=80=99m lying, there are totally=C2=A0things that are more intense =
+than that, but the point is that the Wall Street interns are having a nice =
+time and learning a lot about the industry and themselves.
+ =20
+   =20
+      A nice gesture
+   =20
+ =20
+Here is an article about campaign finance for local elections in New Jersey=
+. Municipal contracting is hard=C2=A0because there are often =E2=80=9Cpay t=
+o play=E2=80=9D rules forbidding firms from contributing to local officials=
+=E2=80=99 election campaigns and also winning municipal contracts given out=
+ by those officials. But those rules are complicated and there are exceptio=
+ns, and so some firms will do business with a city while also contributing =
+to the mayor=E2=80=99s campaign funds. And sometimes they will give reporte=
+rs great quotes about it:In March 2020, Parsippany-based firm Statewide Str=
+iping donated $2,600 to Fulop=E2=80=99s campaign; four months later, the ci=
+ty (legally) awarded Statewide a $1.16 million contract for road painting.K=
+enneth Kida, the president of Statewide, said such donations were meant as =
+=E2=80=9Ca nice gesture.=E2=80=9D=E2=80=9CIt=E2=80=99s just a thank you for=
+ the pleasure of doing business with the city,=E2=80=9D he said.We  talk  e=
+nough about these sorts of euphemisms that I wanted to make sure to record =
+that one.=C2=A0
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Tether Executives Said to Face  Criminal Probe Into Bank Fraud. Robinhood D=
+itches IPO Traditions Again in a  Roadshow Open to All. Fed=E2=80=99s  MBS =
+Buying High on Agenda as Officials Begin Taper Talk.=C2=A0Private-Equity Fi=
+rms Spark Bidding Wars in U.K.=C2=A0SoftBank Vision Fund=E2=80=99s bet on D=
+idi falls $4bn into the red. Hedge funds back away from Binance after regul=
+atory assault. Sri Lanka to Repay $1 Billion Bond, Ending  Default Threat.=
+=C2=A0Citadel Securities Fined by Finra for  Trading Ahead of Clients. Cred=
+it Suisse  Settles Spying Case With Ex-Wealth Chief Khan. Jeremy Grantham=
+=E2=80=99s Firm Says Stocks Are Overpriced and  Social Media Is Wrong. Elon=
+ Musk says Tesla caused two-thirds of his personal and professional pain. J=
+eff Bezos' 18-year-old space-flight companion reportedly told him he had ne=
+ver bought anything from Amazon before. =E2=80=9CFor Romania, the broadcast=
+er used an image of Count Dracula.=E2=80=9DIf you'd like to get=C2=A0Money=
+=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0subs=
+cribe at this link. Or you can subscribe to Money Stuff and other great Blo=
+omberg newsletters here. Thanks![1] That is, (wealth in year n+1) =3D (weal=
+th in year n) x (1.05), while (debt in year n+1) =3D (debt in year n) + ($3=
+ million). Or (wealth in year n) =3D ($100 million) x (1.05^n), while (debt=
+ in year n) =3D ($3 million) x n. If you divide the latter by the former yo=
+u get a maximum of about 22.61% in around year 20; then it starts declining=
+. Obviously this math is dumb and unrealistic: You will owe interest on the=
+ debt, and your expenses will grow=C2=A0with inflation; it is too cute to a=
+ssume that your debt grows linearly while your assets grow exponentially. (=
+Also the assets can go down.) Still.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cemecs.5n0x/b9eb83d8.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_44084203_1253955175.1627319571429
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px 0px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24559660.263121/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB05066deb"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24559660.263121/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cBc36245f=
+5">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Buy borrow die</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">You could have a dumb oversimplified m=
+odel that goes like this:</p><ol style=3D"list-style-type: decimal; padding=
+-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">In the o=
+lden days, rich people invested their money in stocks and bonds. They wante=
+d cash flow from those stocks and bonds, money that they could live on with=
+out spending principal. So the stocks and bonds produced cash flows. Invest=
+ment-grade bonds paid interest, blue-chip stocks paid dividends, and their =
+rich owners used the interest and dividend payments to finance their lifest=
+yles.</li>=09<li style=3D"margin-bottom: 5px;">In modern days, rich people =
+still invest their money in stocks and bonds, but they have discovered the =
+concept of tax efficiency. Dividends and interest payments are taxable; if =
+you have $100 million of wealth,=C2=A0it earns 5% a year in interest and di=
+vidends, and you pay a 40% tax rate, then in a=C2=A0year you=C2=A0will pay =
+$2 million of taxes and be $3 million richer. You=E2=80=99d prefer not to p=
+ay the taxes.</li>=09<li style=3D"margin-bottom: 5px;">So it is no longer p=
+articularly expected that good stocks will pay large, or any, dividends: Co=
+mpanies retain earnings to reinvest in growth (rewarding their shareholders=
+ with capital appreciation rather than dividends), or if they want to retur=
+n cash they do it via tax-efficient buybacks rather than dividends.</li>=09=
+<li style=3D"margin-bottom: 5px;">Meanwhile the interest rates on bonds are=
+ really low. This is more of a macroeconomic thing than a tax-efficiency th=
+ing, honestly, but it=E2=80=99s worth noting.</li>=09<li style=3D"margin-bo=
+ttom: 5px;">If you have $100 million of wealth and it appreciates by 5% per=
+ year without paying out any cash, then in a=C2=A0year you will pay no taxe=
+s and be $5 million richer. Better!</li>=09<li style=3D"margin-bottom: 5px;=
+">How do you pay for your lifestyle? Well, if you have $100 million, you ca=
+n pretty easily borrow money secured by your portfolio. If you borrow $3 mi=
+llion a year (what we assumed you were taking home under the old system) an=
+d your wealth keeps compounding at 5% per year, you will never borrow more =
+than about 23% of the value of your holdings.[1] A bank should be fairly co=
+mfortable lending you 23% of the value of your portfolio of stocks and bond=
+s, since you=E2=80=99re rich.</li>=09<li style=3D"margin-bottom: 5px;">Borr=
+owing money is not <em>income</em>, so you don=E2=80=99t pay taxes on it.</=
+li>=09<li style=3D"margin-bottom: 5px;">And you=E2=80=99ll pay very low int=
+erest on this borrowing (see point 4).</li></ol><p style=3D"margin: 16px 0;=
+">It is just a more efficient way to extract spending money from wealth. (T=
+his model is sometimes called =E2=80=9C<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy=
+9idXktYm9ycm93LWRpZS1ob3ctcmljaC1hbWVyaWNhbnMtbGl2ZS1vZmYtdGhlaXItcGFwZXItd=
+2VhbHRoLTExNjI1OTA5NTgz/607f07ceef4b8524a319a23cBad0d56b2" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">buy borrow die</a>,=E2=80=
+=9D because if you die in step 9, that can further improve the tax efficien=
+cy of the strategy.) It does require a change in the business model of bank=
+s, though: Instead of principally being in the business of lending money to=
+ people who don=E2=80=99t have money and need some, they are increasingly i=
+n the business of lending money to people who have lots of money but don=E2=
+=80=99t want to liquidate financial assets.</p><p style=3D"margin: 16px 0;"=
+>So <a href=3D"https://link.mail.bloombergbusiness.com/click/24559660.26312=
+1/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOGEzMjhhZjQtYjhmMi00OGM1LTgyYTktZDdkY=
+zFjMzQ1ZTFj/607f07ceef4b8524a319a23cB08678371" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">here you go</a>:</p><blockquote><p sty=
+le=3D"margin: 16px 0;">The lending businesses of large US banks are doublin=
+g down on wealthier customers, as well-to-do Americans borrow to buy second=
+ homes, invest in the stock market and potentially lighten their tax bills.=
+</p><p style=3D"margin: 16px 0;">The combined value of loans made by the we=
+alth management arms of JPMorgan Chase, Bank of America, Citigroup and Morg=
+an Stanley surpassed $600bn in the second quarter, up 17.5 per cent from a =
+year earlier. This represented 22.5 per cent of the banks=E2=80=99 total lo=
+an books, up from 16.3 per cent in mid-2017. ...</p><p style=3D"margin: 16p=
+x 0;">This type of borrowing has been on the rise for more than a decade bu=
+t the pace has picked up since the Federal Reserve cut interest rates in re=
+sponse to the pandemic. For a two-year loan against liquid investments such=
+ as stocks, wealth management clients can expect to pay a rate of about 1.4=
+ per cent, according to bankers and advisers.=C2=A0</p><p style=3D"margin: =
+16px 0;">=E2=80=9CRates are so remarkably low that they look at it as cheap=
+ money,=E2=80=9D said Christopher Boyett, co-chair of the private wealth pr=
+actice at law firm Holland &amp; Knight.</p><p style=3D"margin: 16px 0;">Th=
+e contrast with the banks=E2=80=99 consumer and corporate loan books is sta=
+rtling. Wealth management loans at JPMorgan, Bank of America, Citi and Morg=
+an Stanley have grown 50 per cent in the past four years, compared with onl=
+y 9 per cent for their overall loan book.</p><p style=3D"margin: 16px 0;">J=
+PMorgan and Citi are now lending more to a small number of ultra-high net w=
+orth clients than to their millions of credit card customers. A decade ago,=
+ JPMorgan was lending five times as much to credit card customers as it did=
+ to private clients. ...</p><p style=3D"margin: 16px 0;">Controversially, t=
+he borrowings can also serve to lower taxes. Instead of selling assets to r=
+aise cash =E2=80=94 and facing a capital gains tax bill =E2=80=94 high net-=
+worth clients obtain funding by borrowing against the value of their invest=
+ments.</p><p style=3D"margin: 16px 0;">=E2=80=9CThe other way that these fa=
+milies could get liquidity from these assets=C2=A0would be to sell them=C2=
+=A0and that of course would have tax consequences and those would not be fa=
+vourable,=E2=80=9D said Sabrena Silver, a partner at law firm White &amp; C=
+ase.</p></blockquote><p style=3D"margin: 16px 0;">If you are a bank, it is =
+better to lend people money equal to a fraction of the value of their portf=
+olio of liquid financial assets than it is to lend them money that they=C2=
+=A0<em>don=E2=80=99t=C2=A0have</em>. If they already have plenty of money, =
+they are more likely to pay you back. Meanwhile=C2=A0if you are a rich pers=
+on, it is better to get liquidity without paying taxes than to get liquidit=
+y and pay taxes. Seems like a good trade for everyone?</p><table class=3D"h=
+eader" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Credit scoring</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I mean <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY=
+2xlcy9maWNvLXNjb3Jlcy1ob2xkLW9uLXRoZS1jcmVkaXQtbWFya2V0LWlzLXNsaXBwaW5nLTEx=
+NjI3MTE5MDAzP21vZD1ocF9saXN0YV9wb3My/607f07ceef4b8524a319a23cB9d3fa2ae" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">this</a> is t=
+he sort of cute pat anecdote that banks love to publicize:</p><blockquote><=
+p style=3D"margin: 16px 0;">FICO is becoming a smaller factor in underwriti=
+ng decisions at Citizens Financial Group Inc. When shoppers apply for its b=
+uy-now-pay-later loans, the bank considers factors including the products t=
+hey are buying, according to a person familiar with the matter. Fitness equ=
+ipment, for example, is viewed as a sign of creditworthiness because it sug=
+gests a positive change in the applicant=E2=80=99s behavior. By next year, =
+the bank plans to use cellphone, cable and utility-payment information to h=
+elp vet loan applicants, the person said.</p></blockquote><p style=3D"margi=
+n: 16px 0;">Yes, right, buying a Peloton on credit increases your debt-to-i=
+ncome ratio but improves your credit because people who do group fitness cl=
+asses don=E2=80=99t default on debt, fine, but if you=E2=80=99re going to b=
+rag about this to journalists you=E2=80=99ve got to publicize the whole lis=
+t. Fitness equipment is credit-positive; what else is positive? What=E2=80=
+=99s negative? If you are financing a flat-screen TV, that=E2=80=99s bad, r=
+ight?=C2=A0A nice suit is good? What about a boat? Are there =E2=80=A6=C2=
+=A0are=C2=A0there purchase types that correlate both with creditworthiness =
+and also with race or gender? I feel like this discussion is=C2=A0cute and =
+positive when it is limited to fitness equipment but you don't actually wan=
+t to open up the box here.</p><p style=3D"margin: 16px 0;">That=E2=80=99s f=
+rom an article about how the =E2=80=9C<a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9=
+maWNvLXNjb3Jlcy1ob2xkLW9uLXRoZS1jcmVkaXQtbWFya2V0LWlzLXNsaXBwaW5nLTExNjI3MT=
+E5MDAzP21vZD1ocF9saXN0YV9wb3My/607f07ceef4b8524a319a23cC9d3fa2ae" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">FICO Score=E2=80=
+=99s Hold on the Credit Market Is Slipping</a>=E2=80=9D:</p><blockquote><p =
+style=3D"margin: 16px 0;">Big lenders are moving away from FICO, according =
+to people familiar with the matter. Capital One Financial Corp. and Synchro=
+ny Financial don=E2=80=99t use its scores for most consumer-lending decisio=
+ns. They are becoming a smaller factor in some underwriting decisions at JP=
+Morgan Chase &amp; Co. and Bank of America Corp.</p><p style=3D"margin: 16p=
+x 0;">A key financial regulator, meanwhile, is encouraging banks to de-emph=
+asize credit scores in an effort to expand access to affordable credit. And=
+ housing-finance giants Fannie Mae and Freddie Mac are considering allowing=
+ lenders to use other scores when evaluating mortgage applicants.</p><p sty=
+le=3D"margin: 16px 0;">There are a few reasons for the shift. Many lenders =
+now review a wealth of new data and use it to refine their own proprietary =
+scores that they say are better able to predict who will repay and who won=
+=E2=80=99t. =E2=80=A6</p><p style=3D"margin: 16px 0;">For banks, one benefi=
+t of their own scoring systems is their ability to tweak them when problems=
+ arise. Several years ago, JPMorgan noticed that when borrowers transferred=
+ their credit-card debt to a personal loan, their FICO scores often increas=
+ed because the share of debt they carried compared with their cards=E2=80=
+=99 spending limits had fallen, a person familiar with the matter said. But=
+ the debt was still present in the form of a personal loan. The bank found =
+a similar issue with its own credit score but was able to quickly fix it, t=
+he person said. FICO said recent versions of its scores address this issue.=
+=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">On first principles you=
+ might think that a bank is in the business of deciding whom to lend money =
+to. It is weird to outsource that core decision to someone else, and sensib=
+le to try to bring it back in-house and also differentiate yourself. Like, =
+banks=C2=A0<em>should=C2=A0</em>try to compete with each other by making be=
+tter credit decisions, lending to creditworthy borrowers that the rest of t=
+he market misses and avoiding lending to risky borrowers that the rest of t=
+he market loves. If you are a bank you should try to get better at the core=
+ skills of banking.</p><p style=3D"margin: 16px 0;">The counterpoint is tha=
+t banks are not always exactly in the business of lending money from their =
+balance sheets and hoping to get paid back. Sometimes they=E2=80=99re in th=
+e business of packaging loans and selling them, and there, being=C2=A0<em>r=
+ight=C2=A0</em>is less important than being=C2=A0<em>standard:</em></p><blo=
+ckquote><p style=3D"margin: 16px 0;">FICO has a big advantage: Investors re=
+ly heavily on the scores to decide whether to buy packaged-up consumer loan=
+s. The scores are a common language of sorts, one that requires no time-con=
+suming translation. Even lenders that don=E2=80=99t use FICO to make lendin=
+g decisions tend to use them in loan securitizations.</p></blockquote>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ik_WONTr7PCE/v=
+0/-1x-1.jpg" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/ik_WONTr7PCE/v0/-1x-1.jpg" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;"><strong>Modern Treasury makes money move fas=
+ter</strong></p>
+<p style=3D"margin: 10px 0px;">Their <a href=3D"https://link.mail.bloomberg=
+business.com/click/24559660.263121/aHR0cHM6Ly93d3cubW9kZXJudHJlYXN1cnkuY29t=
+L21vbmV5c3R1ZmYtMQ/607f07ceef4b8524a319a23cB32e2f277" style=3D"color: #0000=
+00; text-decoration: underline;"> software platform</a>=C2=A0connects direc=
+tly to your corporate bank accounts and ERP systems so that finance teams g=
+et <a href=3D"https://link.mail.bloombergbusiness.com/click/24559660.263121=
+/aHR0cHM6Ly93d3cubW9kZXJudHJlYXN1cnkuY29tL21vbmV5c3R1ZmYtMg/607f07ceef4b852=
+4a319a23cB3cc3b275" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" title=3D"full visibility and control" style=3D"color: #000000; =
+text-decoration: underline;"> full visibility and control</a> over payments=
+ and developers get flexible APIs to automate complex payment flows.=C2=A0<=
+/p>
+<p style=3D"margin: 10px 0px;"><a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24559660.263121/aHR0cHM6Ly93d3cubW9kZXJudHJlYXN1cnkuY29tL21vbm=
+V5c3R1ZmYtMw/607f07ceef4b8524a319a23cB25e92916" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" title=3D"Learn how" style=3D"color: #000000; text-decor=
+ation: underline;">Learn how</a> innovative companies like Pipe used MT to =
+transform how they move money.</p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Modern Treasury<=
+/p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Chinese tutoring</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Two notable facts about the People=E2=
+=80=99s Republic of China are that (1) it has been communist for the last 7=
+0 years and (2) it bans foreign investors from owning shares of certain sor=
+ts of technology companies. Until like a month ago, everyone thought China =
+was =E2=80=A6 kidding? Yes sure China is ruled by the Communist Party, but =
+look at all the profits that were being made by Chinese capitalists. And ye=
+s sure foreign investors aren=E2=80=99t allowed to own=C2=A0Chinese tech co=
+mpanies, but a robust <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/24559660.263121/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjEtMDctMDcvb3duaW5nLWNoaW5lc2UtY29tcGFuaWVzLWlzLWNvbXBsaWNhdGVk/607f0=
+7ceef4b8524a319a23cB6941a226" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> =E2=80=9Cvariable interest entity=E2=80=9D structure</=
+a> allowed foreign investors to=C2=A0<em>effectively=C2=A0</em>own shares i=
+n profitable Chinese tech companies. It=E2=80=99s fine! In very broad strok=
+es, investing in China was like investing everywhere else.</p><p style=3D"m=
+argin: 16px 0;">Things <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/24559660.263121/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjEtMDctMjQvY2hpbmEtYmFucy1zY2hvb2wtY3VycmljdWx1bS10dXRvcmluZy1maXJtcy1mc=
+m9tLWdvaW5nLXB1YmxpYw/607f07ceef4b8524a319a23cB7bd939cf" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> are different now</a>:</p><=
+blockquote><p style=3D"margin: 16px 0;">China unveiled a sweeping overhaul =
+of its $100 billion education tech sector, banning companies that teach the=
+ school curriculum from making profits, raising capital or going public.</p=
+><p style=3D"margin: 16px 0;">Beijing on Saturday published a plethora of r=
+egulations that together threaten to up-end the sector and jeopardize billi=
+ons of dollars in foreign investment. Companies that teach school subjects =
+can no longer accept overseas investment, which could include capital from =
+the offshore registered entities of Chinese firms, according to a notice re=
+leased by the State Council. Those now in violation of that rule must take =
+steps to rectify the situation, the country=E2=80=99s most powerful adminis=
+trative authority said, without elaborating.</p><p style=3D"margin: 16px 0;=
+">In addition, listed firms will no longer be allowed to raise capital via =
+stock markets to invest in businesses that teach classroom subjects. Outrig=
+ht acquisitions are forbidden. And all vacation and weekend tutoring relate=
+d to the school syllabus is now off-limits.</p><p style=3D"margin: 16px 0;"=
+>The regulations threaten to obliterate the outsized growth that made stock=
+ market darlings of TAL Education Group, New Oriental Education &amp; Techn=
+ology Group and Gaotu Techedu Inc. They could also put the market largely o=
+ut of reach of global investors. Education technology had emerged as one of=
+ the hottest investment plays in China in recent years, attracting billions=
+ from the likes of Tiger Global Management, Temasek Holdings Pte and SoftBa=
+nk Group Corp.</p></blockquote><p style=3D"margin: 16px 0;"><a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cuc=
+2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTQ5OTYyMC8wMDAxMTA0NjU5MjEw=
+NjMwNzcvdGFsLTIwMjEwMjI4eDIwZi5odG0/607f07ceef4b8524a319a23cB8acffdca" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">TAL</a>, <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM=
+6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzNzI5MjAvMDAwMTE5MzEyNTIwMj=
+c1NTQzL2QyOTUyOWRmM2Fzci5odG0/607f07ceef4b8524a319a23cB91e5e527" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">New Oriental Educa=
+tion</a>=C2=A0and <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+24559660.263121/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2R=
+hdGEvMTc2ODI1OS8wMDAxMTkzMTI1MjExMzA0NDAvZDIyNDQ0ZDIwZi5odG0/607f07ceef4b85=
+24a319a23cCf97b8ce0" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Gaotu</a> are all Cayman Islands companies; they =E2=80=94=C2=
+=A0or rather their Chinese variable interest entities =E2=80=94=C2=A0are in=
+ education-tech businesses that foreigners are prohibited from owning. Thro=
+ugh a series of contracts, foreign investors can own these Caymans companie=
+s, which in turn can share in the profits of the onshore Chinese education-=
+tech companies. Except, oops, no profits!</p><p style=3D"margin: 16px 0;">I=
+ have to say that I am impressed by the regulatory move of=C2=A0<em>banning=
+ profits</em>. In the U.S., I don=E2=80=99t think it would really occur to =
+a regulator to tell an established industry that it is not allowed to make =
+profits anymore. =E2=80=9CThat=E2=80=99s just the same as shutting down the=
+ industry, right?,=E2=80=9D I think U.S. regulators would say. But in a nom=
+inally communist system I suppose you don=E2=80=99t have to believe as much=
+ in the profit motive; you can distinguish businesses that are illegal from=
+ ones that are not allowed to turn a profit.</p><p style=3D"margin: 16px 0;=
+">All of these companies, in their disclosures to foreign investors, includ=
+e <a href=3D"https://link.mail.bloombergbusiness.com/click/24559660.263121/=
+aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTM3MjkyMC8=
+wMDAxMTkzMTI1MjAyNDcxNjAvZDE1OTI5MGQyMGYuaHRt/607f07ceef4b8524a319a23cD1366=
+50ee" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">risk=
+ factors</a> about how the legal status of their VIE structures is uncertai=
+n and how the Chinese government might decide that they are in violation of=
+ the law and impose all sorts of remedies, like =E2=80=9Cconfiscating any o=
+f our income that they deem to be obtained through illegal operations=E2=80=
+=9D or =E2=80=9Crevoking the business and operating licenses of our PRC sub=
+sidiaries or consolidated affiliated entities.=E2=80=9D In a sense there is=
+ nothing surprising here; the boom in foreign investment in Chinese tech co=
+mpanies has been entirely a creature of regulatory grace that might end at =
+any time. People got used to the grace, though. Now it might be ending.</p>=
+<p style=3D"margin: 16px 0;">Elsewhere, my Bloomberg Opinion colleague Noah=
+ Smith asks: =E2=80=9CWhy is China <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/24559660.263121/aHR0cHM6Ly9ub2FocGluaW9uLnN1YnN0YWNrLmNvbS=
+9wL3doeS1pcy1jaGluYS1zbWFzaGluZy1pdHMtdGVjaC1pbmR1c3RyeQ/607f07ceef4b8524a3=
+19a23cB49bbe8f8" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">smashing its tech industry</a>?=E2=80=9D</p><table class=3D"header" =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bitcoin</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I understand that Jeff Bezos and Andy =
+Jassy have better things to do with their time, but if=C2=A0<em>I </em>ran =
+Amazon.com Inc., I=E2=80=99d be pretty tempted to:</p><ol style=3D"list-sty=
+le-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"marg=
+in-bottom: 5px;">Quietly buy a ton of Bitcoins,</li>=09<li style=3D"margin-=
+bottom: 5px;">Put up a job posting looking for a =E2=80=9CDigital Currency =
+and Blockchain Product Lead=E2=80=9D on <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cuYW1hem9uLmpvYnMvZW4va=
+m9icy8xNjQ0NTEzL2RpZ2l0YWwtY3VycmVuY3ktYW5kLWJsb2NrY2hhaW4tcHJvZHVjdC1sZWFk=
+/607f07ceef4b8524a319a23cBb78bae00" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> my website</a>, and</li>=09<li style=3D"margin-b=
+ottom: 5px;">Sell all those Bitcoins when the price of Bitcoin <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3=
+cud3NqLmNvbS9hcnRpY2xlcy9iaXRjb2luLWp1bXBzLTIwLXRvLWEtc2l4LXdlZWstaGlnaC0xM=
+TYyNzI4NzU0ND9tb2Q9aHBfbGVhZF9wb3Mx/607f07ceef4b8524a319a23cBc497c8a5" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> rallies 20%</=
+a> on the news that Amazon might be getting into crypto.</li></ol><p style=
+=3D"margin: 16px 0;">To be=C2=A0clear, I don=E2=80=99t think that happened.=
+ I just think <a href=3D"https://link.mail.bloombergbusiness.com/click/2455=
+9660.263121/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDc=
+tMjYvYml0Y29pbi1zdXJnZXMtdG93YXJkLTQwLTAwMC1sZXZlbC1leHRlbmRpbmctcmVjZW50LX=
+JlY292ZXJ5/607f07ceef4b8524a319a23cB5e2f7473" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> it should have</a>:=C2=A0</p><blockquo=
+te><p style=3D"margin: 16px 0;">Bitcoin surged near $40,000 as a crypto-rel=
+ated job ad from Amazon.com Inc. stoked speculation about the company=E2=80=
+=99s involvement in the industry.</p><p style=3D"margin: 16px 0;">The job p=
+osting, which was reported by CoinDesk last week, said the Amazon is lookin=
+g for an executive to develop the company=E2=80=99s =E2=80=9Cdigital curren=
+cy and blockchain strategy.=E2=80=9D Analysts have also wondered whether th=
+e move could eventually lead to Amazon accepting Bitcoin as a method of pay=
+ment.</p></blockquote><p style=3D"margin: 16px 0;">Yeah. The thing about Bi=
+tcoin is that it has no, as it were,=C2=A0<em>interior=C2=A0</em>fundamenta=
+ls. The fundamental drivers of Bitcoin's value are not internal facts about=
+ Bitcoin, its technology or the actions of its developers or whatever; ther=
+e is no company with cash flows and expenses and executives and factories. =
+The fundamental drivers of Bitcoin=E2=80=99s value are=C2=A0<em>social=C2=
+=A0</em>facts about who is using it for what. If you are someone whose use =
+or non-use of Bitcoin is material to its value =E2=80=94=C2=A0if you are, f=
+or example, a gigantic dominant player in online commerce, or <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDgvZWxvbi1tdXNrLXdvcm=
+tzLWhpcy1tYWdpYy1vbi1kb2dlY29pbi1hbmQtYml0Y29pbg/607f07ceef4b8524a319a23cB7=
+d0fd437" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;"> =
+Elon Musk</a> =E2=80=94=C2=A0then your decision to use Bitcoin is <em>obvio=
+usly=C2=A0</em>going to drive the price, it=E2=80=99s obviously going to be=
+ the main factor that day, even rumors about it will move the price, and wh=
+y shouldn=E2=80=99t you make a profit on your own information?</p><p style=
+=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/24559660.263121/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjEtMDYtMzAvYW1hem9uLWdvdC1zb21lLXdhcnJhbnRz/607f07ceef4b8524a319a23=
+cBa108eb50" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> talked last month</a> about how Amazon actually does a form of this stra=
+tegy: When it strikes commercial deals with smaller companies, it pushes to=
+ get warrants to buy those companies=E2=80=99 stock, because it knows that =
+news of the commercial deals will make those companies=E2=80=99 stocks go u=
+p. I wrote:</p><blockquote><p style=3D"margin: 16px 0;">I am a simple man a=
+nd to me this seems good. Buy a thing, <em>create</em> good news for the th=
+ing, announce that news, watch the price of the thing go up. In general I t=
+hink it is under-utilized, as a strategy.=C2=A0</p></blockquote><p style=3D=
+"margin: 16px 0;">I assume that Amazon didn=E2=80=99t utilize it here. But =
+it should have.</p><p style=3D"margin: 16px 0;">Here=E2=80=99s <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjYvYml0Y29pbi1zdXJnZXMtd=
+G93YXJkLTQwLTAwMC1sZXZlbC1leHRlbmRpbmctcmVjZW50LXJlY292ZXJ5/607f07ceef4b852=
+4a319a23cC5e2f7473" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> another explanation</a> for Bitcoin=E2=80=99s move:</p><blockquo=
+te><p style=3D"margin: 16px 0;">Some analysts said short covering also fuel=
+ed the gain. More than $940 million of crypto shorts were liquidated on Mon=
+day, the most since May 19, according to data from Bybt.com.</p><p style=3D=
+"margin: 16px 0;">=E2=80=9CThe extent of the jump was probably driven by ov=
+er-leveraged shorts,=E2=80=9D said Vijay Ayyar, head of Asia Pacific at cry=
+pto exchange Luno in Singapore.</p></blockquote><p style=3D"margin: 16px 0;=
+">Why? Partly on a short squeeze I suppose: Amazon news pushes up the price=
+ of Bitcoin, which causes leveraged shorts to lose all their equity and get=
+ closed out. But <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+4559660.263121/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNy8yNS91cy9wb2xpdGlj=
+cy9jcnlwdG9jdXJyZW5jeS1mdHgtaGlnaC1yaXNrLXRyYWRlLmh0bWw_Y2FtcGFpZ25faWQ9NCZ=
+lbWM9ZWRpdF9ka18yMDIxMDcyNiZpbnN0YW5jZV9pZD0zNjI1NiZubD1kZWFsYm9vayZyZWdpX2=
+lkPTEyNTMyNzc1JnNlZ21lbnRfaWQ9NjQ0MzMmdGU9MSZ1c2VyX2lkPTNjNWMyNTc5OTQwYjQyY=
+WNiZDk1ZDliYTIwNjMxZDgz/607f07ceef4b8524a319a23cB6051a4c4" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">this is also intriguing</a=
+>:</p><blockquote><p style=3D"margin: 16px 0;">Two of the world=E2=80=99s m=
+ost popular cryptocurrency exchanges announced on Sunday that they would cu=
+rb a type of high-risk trading that has been blamed in part for sharp fluct=
+uations in the value of Bitcoin and the casino-like atmosphere on such plat=
+forms globally.</p><p style=3D"margin: 16px 0;">The first move came from th=
+e exchange, FTX, which said it would reduce the size of the bets investors =
+can make by lowering the amount of leverage it offers to 20 times from 101 =
+times. Leverage multiplies the traders=E2=80=99 chance for not only profit,=
+ but also loss. =E2=80=A6</p><p style=3D"margin: 16px 0;">About 14 hours la=
+ter, Changpeng Zhao the founder of Binance, the world=E2=80=99s largest cry=
+ptocurrency exchange, echoed the move by FTX, announcing that his company h=
+ad already started to limit leverage to 20 times for new users and it would=
+ soon expand this limit to other existing clients.</p></blockquote><p style=
+=3D"margin: 16px 0;">Reducing leverage for Bitcoin trades could push the pr=
+ice of Bitcoin down (if it forces leveraged Bitcoin holders to sell) or up =
+(if it forces leveraged Bitcoin=C2=A0<em>shorts=C2=A0</em>to buy). Elsewher=
+e: =E2=80=9CCrypto has =E2=80=98no inherent worth=E2=80=99 but is <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvOTI3NWJhZjQtMDQyMi00M2ExLWI4YzktOTMxNzg4MmNhODc0=
+/607f07ceef4b8524a319a23cBab9dd93a" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">good to trade</a>, says Man Group chief.=E2=80=9D=
+</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bluestone and Greensill</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We have talked a few times around here=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/24559660.263121/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDMtMTcvZ3Jl=
+ZW5zaWxsLWRpZG4tdC1qdXN0LWZpbmFuY2UtYmx1ZXN0b25lLXMtc3VwcGx5LWNoYWlu/607f07=
+ceef4b8524a319a23cB7e53779d" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">about Greensill Capital</a>, a =E2=80=9Csupply chain fin=
+ance=E2=80=9D company that was notionally in the business of making short-t=
+erm loans secured by its clients=E2=80=99 accounts receivable (or payable) =
+but was actually=C2=A0in the business of making long-term unsecured loans a=
+gainst its clients=E2=80=99 =E2=80=9Cprospective=C2=A0receivables.=E2=80=9D=
+ In basic receivables finance, a=C2=A0client would sell its products to its=
+ customers on credit, Greensill would front the cash to the client, and Gre=
+ensill would get paid back with interest a few weeks later when the custome=
+rs paid. In prospective receivables finance, a client would think of a pote=
+ntial customer and write down how much it wanted to sell to the customer, G=
+reensill would lend it some money, and it would roll the money over every f=
+ew months until the client one day actually managed to sell some products t=
+o the potential customer and get money to pay back Greensill.=C2=A0</p><p s=
+tyle=3D"margin: 16px 0;">Greensill imploded a few months ago, and the disco=
+very that it was largely in the prospective-receivables business led to a l=
+ot of awkwardness.=C2=A0For instance, Greensill=E2=80=99s insolvency admini=
+strator <a href=3D"https://link.mail.bloombergbusiness.com/click/24559660.2=
+63121/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtM=
+DYvZ3JlZW5zaWxsLWNhcGl0YWwtZmluYW5jZWQtaW1hZ2luYXJ5LWludm9pY2VzLWZvci1ndXB0=
+YS1zLWxpYmVydHk/607f07ceef4b8524a319a23cB29ffa0b9" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> was=C2=A0alarmed to discover</a>=
+=C2=A0that Greensill was financing fake receivables: It =E2=80=9Capproached=
+ companies that were listed as debtors=E2=80=9D to a Greensill client, and =
+=E2=80=9Cseveral of these companies have disputed the veracity of the invoi=
+ces.=E2=80=9D This sounds a lot like fraud, but there is an innocent explan=
+ation: These invoices represented=C2=A0<em>prospective receivables</em>, so=
+=C2=A0<em>of course=C2=A0</em>they were fake and the supposed =E2=80=9Cdebt=
+ors=E2=80=9D had never heard of them. This is just how prospective receivab=
+les financing works! It all made sense at the time to the people who did it=
+! Probably.</p><p style=3D"margin: 16px 0;">One customer who got a lot of p=
+rospective receivables financing from Greensill was Bluestone Resources Inc=
+., a coal company owned by West Virginia Governor Jim Justice. When Greensi=
+ll imploded, it (or rather, its administrator=C2=A0and lenders, particularl=
+y Credit Suisse Group AG, which bought a lot of Greensill loans) asked for =
+the money back, which it was entitled to do because after all it was notion=
+ally making short-term receivables-backed loans to Bluestone. But Bluestone=
+ didn=E2=80=99t have the money, because in its mind it was doing long-term =
+unsecured borrowing against potential future sales. So <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDMtMTcvZ3JlZW5zaWxsLWRpZG4tdC1qd=
+XN0LWZpbmFuY2UtYmx1ZXN0b25lLXMtc3VwcGx5LWNoYWlu/607f07ceef4b8524a319a23cC7e=
+53779d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;"> B=
+luestone sued</a>, asking, basically, for more time to pay off the loans.=
+=C2=A0</p><p style=3D"margin: 16px 0;">In Greensill=E2=80=99s defense, I gu=
+ess, it kind of makes sense to lend to a=C2=A0<em>commodity=C2=A0</em>compa=
+ny against its =E2=80=9Cprospective receivables=E2=80=9D? Like a coal compa=
+ny is not really in the business of building deep customer relationships so=
+ it can upsell higher-margin products to those=C2=A0customers. A coal compa=
+ny is in the business of owning a bunch of coal in the ground, taking it ou=
+t of the ground, and selling it at market prices. So if it needs to pay bac=
+k the money sooner than expected, all it has to do is take more coal out of=
+ the ground. <a href=3D"https://link.mail.bloombergbusiness.com/click/24559=
+660.263121/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93ZXN0LXZpcmdpbmlhLWdvdi1q=
+aW0tanVzdGljZXMtY29tcGFuaWVzLWxvb2stdG8tc3VyZ2luZy1jb2FsLXByaWNlcy10by1wYXk=
+tb2ZmLWRlYnRzLTExNjI3MDU5NDc5/607f07ceef4b8524a319a23cBc94e2717" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Anyway</a>:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">West Virginia Gov. Jim Justice and Cr=
+edit Suisse Group AG are looking to take advantage of surging coal prices t=
+o help him pay off nearly $850 million in loans his companies borrowed from=
+ now-collapsed Greensill Capital.</p><p style=3D"margin: 16px 0;">Represent=
+atives of the Swiss bank and Mr. Justice=E2=80=99s family of companies met =
+face-to-face this month in West Virginia to sort out the mountain of debt, =
+which Mr. Justice personally guaranteed.</p><p style=3D"margin: 16px 0;">Pl=
+ans under discussion include ramping up output at coal mines operated by th=
+e Justice family=E2=80=99s Bluestone Resources Inc., according to a person =
+familiar with the conversations.=C2=A0</p></blockquote><p style=3D"margin: =
+16px 0;">Yeah it's fine. You dig the coal, you sell it, boom, the prospecti=
+ve receivables become real ones, no problem.</p><table class=3D"header" wid=
+th=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The interns are back</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">God love 'em, they are <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjMvd2FsbC1zdHJlZXQtcy1wb3N0=
+LXpvb20taW50ZXJucy1yZXZpdmUtd29yay1hbmQtcGxheS1oYXJkLWN5Y2xl/607f07ceef4b85=
+24a319a23cBb7f65795" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> working hard</a>:</p><blockquote><p style=3D"margin: 16px 0;"=
+>Working in the office means experiencing the energy of a trading floor. On=
+ her third day at JPMorgan=E2=80=99s office, 21-year-old environmental scie=
+nce major Anna Albright learned how worked up traders can get.</p><p style=
+=3D"margin: 16px 0;">It was June 16, and the Federal Reserve had just shock=
+ed markets by signaling two potential interest-rate increases in 2023. The =
+seventh floor of the largest U.S. bank was a flurry of chat pings, ringing =
+phones and cross-floor shouting as analysts pored over Chair Jerome Powell=
+=E2=80=99s press conference diction for an explanation behind the abrupt ch=
+ange in the Fed=E2=80=99s dot plot.</p><p style=3D"margin: 16px 0;">=E2=80=
+=9CIt was like the Super Bowl, but way more intense,=E2=80=9D said Albright=
+, a trading and sales summer analyst. =E2=80=9CWe were like =E2=80=98Oh my =
+God, what world have we entered?=E2=80=99=E2=80=9D</p></blockquote><p style=
+=3D"margin: 16px 0;">And playing hard:</p><blockquote><p style=3D"margin: 1=
+6px 0;">For others, New York=E2=80=99s reopening is an opportunity to bond =
+with fellow interns after work. One popular spot is Phebe=E2=80=99s, the do=
+wntown bar known as a =E2=80=9Chaven for NYU kids and Wall Street interns,=
+=E2=80=9D according to bartender Lauren Ramirez, 28. It=E2=80=99s clear the=
+ summer analysts have arrived when you see =E2=80=9Canything Vineyard Vines=
+, pastel button-ups and boat shoes,=E2=80=9D Ramirez explained.</p><p style=
+=3D"margin: 16px 0;">By 10 p.m. on a Friday in June, interns crowded a pack=
+ed dance floor, screaming along to an electronic remix of Taylor Swift=E2=
+=80=99s =E2=80=9CLove Story,=E2=80=9D and the line to get in was the only t=
+hing visible outside the entrance. By 10:15 p.m., the queue stretched down =
+the street, crowding the sidewalk and blocking the entrance to neighboring =
+apartments and businesses. Black cars double-parked to let out packs of you=
+ng men and women as they headed inside and assumed a place at the bar.</p><=
+/blockquote><p style=3D"margin: 16px 0;">There is nothing more intense than=
+ the energy of a trading floor during a Fed press conference, unless it is =
+the energy of Phebe=E2=80=99s on a summer Friday. I mean, I=E2=80=99m lying=
+, there are totally=C2=A0things that are more intense than that, but the po=
+int is that the Wall Street interns are having a nice time and learning a l=
+ot about the industry and themselves.</p><table class=3D"header" width=3D"1=
+00%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">A nice gesture</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cubmouY29tL2h1ZHNv=
+bi8yMDIxLzA3L3doby1pcy1mdW5kaW5nLXN0ZXZlLWZ1bG9wcy0xOC1taWxsaW9uLXJlLWVsZWN=
+0aW9uLXdhci1jaGVzdC5odG1s/607f07ceef4b8524a319a23cB3371cbf6" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">an article</a> about cam=
+paign finance for local elections in New Jersey. Municipal contracting is h=
+ard=C2=A0because there are often =E2=80=9Cpay to play=E2=80=9D rules forbid=
+ding firms from contributing to local officials=E2=80=99 election campaigns=
+ and also winning municipal contracts given out by those officials. But tho=
+se rules are complicated and there are exceptions, and so some firms will d=
+o business with a city while also contributing to the mayor=E2=80=99s campa=
+ign funds. And sometimes they will give reporters great quotes about it:</p=
+><blockquote><p style=3D"margin: 16px 0;">In March 2020, Parsippany-based f=
+irm Statewide Striping donated $2,600 to Fulop=E2=80=99s campaign; four mon=
+ths later, the city (legally) awarded Statewide a $1.16 million contract fo=
+r road painting.</p><p style=3D"margin: 16px 0;">Kenneth Kida, the presiden=
+t of Statewide, said such donations were meant as =E2=80=9Ca nice gesture.=
+=E2=80=9D</p><p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s just a than=
+k you for the pleasure of doing business with the city,=E2=80=9D he said.</=
+p></blockquote><p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMTEvaXMtdGhlLXR3aXR0ZXItYmFuLXNlY3Vya=
+XRpZXMtZnJhdWQ/607f07ceef4b8524a319a23cBc61a1822" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> talk</a> <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDEtMDQvZG9uLXQtY2FsbC1icmliZXMtY2hpY2=
+tlbnM/607f07ceef4b8524a319a23cBbd4ecbc1" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> enough</a> about these sorts of euphemism=
+s that I wanted to make sure to record that one.=C2=A0</p><table class=3D"h=
+eader" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Tether Executives Said to Face <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjYvdGV0aGVyLWV4ZWN1=
+dGl2ZXMtc2FpZC10by1mYWNlLWNyaW1pbmFsLXByb2JlLWludG8tYmFuay1mcmF1ZA/607f07ce=
+ef4b8524a319a23cB59177d6d" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Criminal Probe</a> Into Bank Fraud. Robinhood Ditches IPO=
+ Traditions Again in a <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/24559660.263121/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjEtMDctMjQvcm9iaW5ob29kLWRpdGNoZXMtaXBvLXRyYWRpdGlvbnMtYWdhaW4taW4tYS1yb=
+2Fkc2hvdy1vcGVuLXRvLWFsbA/607f07ceef4b8524a319a23cB0beb0162" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Roadshow Open to All</a=
+>. Fed=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+4559660.263121/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEt=
+MDctMjUvZmVkLXMtbWJzLWJ1eWluZy1oaWdoLW9uLWFnZW5kYS1hcy1vZmZpY2lhbHMtYmVnaW4=
+tdGFwZXItdGFsaw/607f07ceef4b8524a319a23cBcb9b3c42" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> MBS Buying</a> High on Agenda as =
+Officials Begin Taper Talk.=C2=A0Private-Equity Firms Spark <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cud=
+3NqLmNvbS9hcnRpY2xlcy9wcml2YXRlLWVxdWl0eS1maXJtcy1zcGFyay1iaWRkaW5nLXdhcnMt=
+aW4tdS1rLTExNjI3MjE0NDAwP21vZD1ocF9saXN0YV9wb3Mz/607f07ceef4b8524a319a23cB0=
+41acd07" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">B=
+idding Wars</a> in U.K.=C2=A0SoftBank Vision Fund=E2=80=99s <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cuZ=
+nQuY29tL2NvbnRlbnQvNjZhZmZmMDYtY2VlMC00ZTgzLWJhODYtYmU2NzRiYWVlMmM3/607f07c=
+eef4b8524a319a23cB2d1b0bb6" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">bet on Didi</a> falls $4bn into the red. Hedge funds <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cH=
+M6Ly93d3cuZnQuY29tL2NvbnRlbnQvMGNiZDU3MDQtNDJmZC00YzljLWIwYWItOGJjYTIxMmI2N=
+GI4/607f07ceef4b8524a319a23cB83e04275" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;">back away from Binance</a> after regulatory as=
+sault. Sri Lanka to Repay $1 Billion Bond, Ending <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjUvc3JpLWxhbmthLXRvLXJlcGF5LTEtYmlsbG=
+lvbi1ib25kLW1vbmRheS1lbmRpbmctZGVmYXVsdC10aHJlYXQ/607f07ceef4b8524a319a23cB=
+12d1fb3d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Default Threat</a>.=C2=A0Citadel Securities Fined by Finra for <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjAtMDctMjEvY2l0YWRlbC1zZWN1cml0=
+aWVzLWZpbmVkLWJ5LWZpbnJhLWZvci10cmFkaW5nLWFoZWFkLW9mLWNsaWVudHM/607f07ceef4=
+b8524a319a23cB6e1d40a9" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Trading Ahead</a> of Clients. Credit Suisse <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjUvY3JlZGl0LXN1aXNzZS1zZXR0b=
+GVzLXNweWluZy1jYXNlLXdpdGgtZm9ybWVyLXdlYWx0aC1jaGllZi1raGFu/607f07ceef4b852=
+4a319a23cBc27d6b40" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> Settles Spying Case</a> With Ex-Wealth Chief Khan. Jeremy Granth=
+am=E2=80=99s Firm Says Stocks Are Overpriced and <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjMvYnViYmxlLWV4cGVydC1qZXJlbXktZ3JhbnR=
+oYW0tcy1nbW8tdXMtc3RvY2tzLXRvby1jb3N0bHktYnktZXZlcnktbWVhc3VyZQ/607f07ceef4=
+b8524a319a23cBadd8b1e1" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Social Media Is Wrong</a>. Elon Musk says Tesla caused <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM=
+6Ly93d3cuY25iYy5jb20vMjAyMS8wNy8yMS9lbG9uLW11c2stdGVzbGEtY2F1c2VkLXR3by10aG=
+lyZHMtb2YtbXktcGVyc29uYWwtcHJvZmVzc2lvbmFsLXBhaW4uaHRtbA/607f07ceef4b8524a3=
+19a23cB52fce366" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">two-thirds</a> of his personal and professional pain. Jeff Bezos' 18=
+-year-old space-flight companion reportedly told him he had <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24559660.263121/aHR0cHM6Ly93d3cuY=
+nVzaW5lc3NpbnNpZGVyLmNvbS9vbGl2ZXItZGFlbWVuLWplZmYtYmV6b3Mtc3BhY2VmbGlnaHQt=
+Ymx1ZS1vcmlnaW4tbmV2ZXItdXNlZC1hbWF6b24tMjAyMS03/607f07ceef4b8524a319a23cB1=
+e2e54f9" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">n=
+ever bought anything from Amazon</a> before. =E2=80=9CFor Romania, the broa=
+dcaster used an image of <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24559660.263121/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNy8yNS9zcG9y=
+dHMvb2x5bXBpY3MvbWJjLWJyb2FkY2FzdGVyLWFwb2xvZ3ktb2x5bXBpY3Mtb3BlbmluZy1jZXJ=
+lbW9ueS5odG1s/607f07ceef4b8524a319a23cB9dae4b93" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Count Dracula</a>.=E2=80=9D</p><p st=
+yle=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media"><e=
+m>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, righ=
+t in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24559660.263121/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5j=
+b20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI=
+5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB2135b950" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">subscribe at this link</a>. Or you can subscribe to Money Stuf=
+f and other great Bloomberg newsletters <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24559660.263121/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL=
+25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBe3263d3f" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span></p><=
+p style=3D"margin: 16px 0;"><em>[1] That is, (wealth in year n+1) =3D (weal=
+th in year n) x (1.05), while (debt in year n+1) =3D (debt in year n) + ($3=
+ million). Or (wealth in year n) =3D ($100 million) x (1.05^n), while (debt=
+ in year n) =3D ($3 million) x n. If you divide the latter by the former yo=
+u get a maximum of about 22.61% in around year 20; then it starts declining=
+. Obviously this math is dumb and unrealistic: You will owe interest on the=
+ debt, and your expenses will grow=C2=A0with inflation; it is too cute to a=
+ssume that your debt grows linearly while your assets grow exponentially. (=
+Also the assets can go down.) Still.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24559660.263121/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB0110afe1" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24559660.263121/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB12a866f4" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24559660.263121/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBe8f46c93" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24559660.263121/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB62e3a9ff" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2455966=
+0.263121/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBff1456e2" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24559660.263121/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCd10b9056" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24559660.263121/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB72e924fd" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24559660.263121/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB4e0c8734" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cemecs.5n0x/b9eb83d8.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_44084203_1253955175.1627319571429--
+

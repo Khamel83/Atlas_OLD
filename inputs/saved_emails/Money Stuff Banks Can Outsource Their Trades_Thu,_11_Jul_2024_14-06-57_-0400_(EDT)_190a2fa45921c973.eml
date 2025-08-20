@@ -1,0 +1,2355 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6214:50e:b0:6b5:e9f8:e0cc with SMTP id px14csp189454qvb;
+        Thu, 11 Jul 2024 11:07:09 -0700 (PDT)
+X-Forwarded-Encrypted: i=5; AJvYcCUxw0aJQMJdk8G8b5wwX5w6EjcWHZYLy1wLLWCKhxf67IFpnHnB1QuFuBC/y5xApdzviIDNiqDmIDV1WeeqKz42
+X-Received: by 2002:a2e:8297:0:b0:2ee:8aed:ddba with SMTP id 38308e7fff4ca-2eeb30b8ae7mr72899851fa.4.1720721228868;
+        Thu, 11 Jul 2024 11:07:08 -0700 (PDT)
+ARC-Seal: i=4; a=rsa-sha256; t=1720721228; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=DYx4j6Vmyer187+luK6MHaKyLEnirdvgH9V84hov7SzFA9VoxkgTbBrb9j/e871JO6
+         aq/lFoiwpgOqJrhtj4lMT7w4nuagBetm0PlqmuAn2ooa5wVPzO2zHWmgOIzBCj3O707T
+         yV485nUVkHz6PGucsm8S7fy146TyHuOUuEsFZmlGl+jl+RMKzREFXc3vjsuUtefWbqqV
+         +e5+8M2Z29R6woHSD8arGT3z3jbF0oeyfr5w8BphjxYsK2JYFYhhymKMXlK/vgu+s/QW
+         wvCkYFYx+U2GQ65gTyroEb4V9AeVfWBLjZfrKimbCJ5o2bQR9fVwTVJw+MKzgTbPAS9t
+         8rJQ==
+ARC-Message-Signature: i=4; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:list-unsubscribe-post:precedence:mime-version
+         :subject:message-id:to:from:date:dkim-signature:dkim-signature
+         :delivered-to;
+        bh=8U0dpZqT5NCXWc6NhvrKiKtkyBEvtzfFiMIFlfcythg=;
+        fh=61ngasj6PgKuSo4TLFdHaO8dm7yzzOsFdYGxtfU9TA4=;
+        b=wUZQyvA1fn/ebxW/cMvC/4cXWy9GjS/byBKHr8eB/OL1b1WpGCH8tI2FHrJoGQbTOz
+         TK3lziCxF5prSCkqqO1JyhjvFFJl0CwDDkVe3Vmt1LD6inA3ZNJVRYk4YPSCHZ8f/1Ar
+         611Sh57vxSQGWYHtKdgOso8Q4AKixxUlG5cYIXz3uSqVdWc6bp+QUcwSycbHZ7FArN9S
+         SEG/QsswTdsnIlZ9KjZf/GkBeqZ0jbO6uRN4/r3RO1y7zc27gDLBVslp23aShCaF5bl1
+         cwI6JMSipjE2/YY+VcDSSKIqG30qmQ38kZybfrA+P+CjOGYY5wt7Uxncu4Rg4aJ+rbTw
+         pmRA==;
+        dara=google.com
+ARC-Authentication-Results: i=4; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=A0q93gLh;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QJqvodZW;
+       arc=pass (i=3 spf=pass spfdomain=khamel.com dkim=pass dkdomain=khamel.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id ffacd0b85a97d-367cde7eefesor1796069f8f.2.2024.07.11.11.07.08
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 11 Jul 2024 11:07:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=A0q93gLh;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QJqvodZW;
+       arc=pass (i=3 spf=pass spfdomain=khamel.com dkim=pass dkdomain=khamel.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+ARC-Seal: i=3; a=rsa-sha256; t=1720721228; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=sy7Oi9icaqArXeoxWxcyNk3+zcRERCPXHf24XyvDUsELZDQqKiRwCCtBjPEfC0sTuf
+         ih7Rc07lQL+vMAxG3ajOI0thaRBvHaP975WjGalqwwYogihDouXYc07DNvZhL4jl82Iv
+         /8L+L4D66oi4dIeHdy6ky3dahFs/eKwEJLd/y2PBTbQvaMyZZTIYu3m2n714VlxPF4s/
+         6l2S90H72vWkDtPj/4h+366nZldickVOQVjUrcdoAUFJs3nJxn2u8B4OfnR412s1wxV0
+         WL4Mk7aKEoXS9wQOhcPgV3h4svzjP3cVywhT56WcZh82srZoTFqDs2k7IpDGj3cO8u6a
+         EzxQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:list-unsubscribe-post:precedence:mime-version
+         :subject:message-id:to:from:date:dkim-signature:dkim-signature
+         :delivered-to;
+        bh=8U0dpZqT5NCXWc6NhvrKiKtkyBEvtzfFiMIFlfcythg=;
+        fh=61ngasj6PgKuSo4TLFdHaO8dm7yzzOsFdYGxtfU9TA4=;
+        b=wW/RFAajBf+nIjUJclr8QiCS6NqPN1fIyzJ094bT0smCj8W2Qrgq1dd8XVAkzIY3PL
+         TP3mSuRUzplkl1RJqmpqTim3CteoHDV9guu1PfFsrX/07ptXBfnXmr2dDRQ2gJnTSj06
+         5YVvMDxZKPCc1MR/NeSlyzw6BdfBfeuqLClgQZ/rWEkEpoNBUUkQRj6oE1wKXAJku82A
+         FIP0vI/UPpe2xuoSyQpUD9U0VLhWo5moZzJyuCOsSRzljASWTsFEUdOk43kyeBxvsX1y
+         R1fc39RzRRB44F+M7h2VHgIJlEAJ4BAPTGdO2z1Z0Xkp4TXcwwKH7RUpQ3p/T0slEuu/
+         zv/Q==;
+        dara=google.com
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=A0q93gLh;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QJqvodZW;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 198.244.55.164 as permitted sender) smtp.mailfrom="bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1720721228; x=1721326028;
+        h=list-unsubscribe:list-unsubscribe-post:precedence:mime-version
+         :subject:message-id:to:from:date:dkim-signature:dkim-signature
+         :delivered-to:x-forwarded-for:x-forwarded-to:x-gm-message-state:from
+         :to:cc:subject:date:message-id:reply-to;
+        bh=8U0dpZqT5NCXWc6NhvrKiKtkyBEvtzfFiMIFlfcythg=;
+        b=sdXBJlnTa01/m1JN7z0laAXIzQwg6uVM/BW0chYaXm4sDFD4QVCCZnL13oWif0JyBp
+         sCfgZnlPhCxHgcN3cBQiM/nTN2r9f2T+TbU5KvBfOca4qBp5nsIFDsANgNVyWLqd6YFv
+         ASQn1QE2mfxFOBAOFSl/MJMR8ezKlnv8pc+e9fzIwQpeKBpEyTUMxPOOWjrh6dJDr+/7
+         Rw0JaW/gSO/dSan4PxnscOOe+mDkqBI3Yc91hk4MgLghnzz+zqUpAgjWJ9HZ2mUDwGgT
+         vbbEM3okdUeyHf4qimlaVFOV1Z+XToWDrZmqTAI8Ya8mdY5+dCnP1ZxHIyoiTtAK1szK
+         VzPQ==
+X-Forwarded-Encrypted: i=3; AJvYcCWqb//iZQWkLsbjHIgmzpLh+hOrz/xi3gDLklf5R+hQbxu9wlSHBJvI7DlsYsaS8vOphiLEqZQqP4EOq5Tlr93Q
+X-Gm-Message-State: AOJu0YwLWqFsGvLmzBS8Wt3EY/nqZmNxy7DQrNY8Q7DKGg0MAyvrlyqe
+	DRJJjMBxJ12hb3ORfvjgetBF2r+fPipTDHIaTMWvk5uC5gGniX3GwqMjPgF6xZGbIixBWy5fWrY
+	887jHKv6pfyDbXIwLzj9aYQiSIPmHok1T0c/3rym8UkRAN6Py2lhTW+VVVA==
+X-Received: by 2002:adf:e98d:0:b0:367:89d3:6581 with SMTP id ffacd0b85a97d-367cea67d70mr6443156f8f.17.1720721228102;
+        Thu, 11 Jul 2024 11:07:08 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:e747:0:b0:367:f06d:d84d with SMTP id c7csp338001wrn;
+        Thu, 11 Jul 2024 11:07:03 -0700 (PDT)
+X-Forwarded-Encrypted: i=3; AJvYcCX1I4CxWnN1flG9IyGR8YjmS9yhas3fVBnpQ1DKNbzOu/e/VHueIMshBG2HW+rzF2XocDqF9LFQKyYpKNnwhIPyIhw=
+X-Google-Smtp-Source: AGHT+IE3DNG+qpWpzuLTe5bhR8+m8WaPYRmTEThpWz/E0k1II/g2i5iVAPNfv302BNYrn0dybuaL
+X-Received: by 2002:a05:6a00:2d91:b0:708:2b90:eaed with SMTP id d2e1a72fcca58-70b434f6445mr10678282b3a.6.1720721223026;
+        Thu, 11 Jul 2024 11:07:03 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1720721223; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=jY33TVKtAyRXFgaysTCvaKPsYoSutYmRIxqynBrLG3gJ0l+oHUCITqi2uxkpjQkm6M
+         5Uj203Zgxj7TNFd4hYQTzrS1YsG8bRjPMQ6uSc9Yi/rq7K9BP9vBSt9kMPFTZC25QQ14
+         9GWC/Jx93rqcg9SLSp8pswa2SlMndYQcMMDXzHND5Y317D97WhBsj2yMO5YeYWFrpFNw
+         ptvJ6CHdmC0vdCupFuWJEHddJykOVdcPzMQSbyHAEbSQMMl/1EZNIBcAz6u8UbZ4MHF4
+         zuNmA4kJjs2+HsuvfZsGCrbTgEHb8Tv4Bg/BV1IsfLAPeMFlvXFmwtDI8gDMf0bjne/K
+         uewg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:list-unsubscribe-post:precedence:mime-version
+         :subject:message-id:to:from:date:dkim-signature:dkim-signature;
+        bh=8U0dpZqT5NCXWc6NhvrKiKtkyBEvtzfFiMIFlfcythg=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=grn14jLk5DlB3pj4ORTYf4MnQrJ+xq5pEvjOX7yJS8Ki6mQWKw1Y/CsoYQDcm6IqJN
+         XlYKN+2d1HShJ3DQGpHeR7g8HKjTTSnRi2puyM0G0tU3iZTAlxIR0VvEm9od/gc1QQhs
+         MEIYzA1n2MvPsLr7Zf+3U615Ht/pLm18pZd5wfYe5/+xst/kQgHgQwn0TXqANr4jdubH
+         o1Qioru7awj0pOjdcmnY59WpykjDhDcl8SZQAMltuxD7ii+RYd/AP2C+Rh5nWv4BEvlB
+         iJtO0g9/Y4/8nVUrlb93JZLralDw+TJ69hzldG4cVjR6hpJr+QyYi6LegCCrvcNt58dU
+         xVmg==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=A0q93gLh;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=QJqvodZW;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 198.244.55.164 as permitted sender) smtp.mailfrom="bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com>
+Received: from a164.a94b46b0.use4.send.mailgun.net (a164.a94b46b0.use4.send.mailgun.net. [198.244.55.164])
+        by mx.google.com with UTF8SMTPS id d2e1a72fcca58-70b437c1942si6464934b3a.40.2024.07.11.11.07.02
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 11 Jul 2024 11:07:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 198.244.55.164 as permitted sender) client-ip=198.244.55.164;
+ARC-Seal: i=1; cv=none; a=rsa-sha256; d=mailgun.org; s=mg; t=1720721221;
+ b=m4U/C0HGZUlmg9PmJQI7Eemaa0A7S35DgBxWPpg2uyCWFTQZTKPMQL90fHW4wxRr/C2lS8R+Po2THoNTpDvMv5LcSC54qtkCFaHOStqf0YA1yh/g1bc42K7e56OkeYfQqXbYO0poYxIAhG4tb5EiiJL0GiI6q0HhyvZ+VUo+fEA=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=mailgun.org; s=mg; t=1720721221;
+ h=List-Unsubscribe: List-Unsubscribe-Post: X-Feedback-ID: Content-Type: MIME-Version: Subject: Subject: Message-ID: To: To: From: From: Date: X-Feedback-Id: Sender: DKIM-Signature: DKIM-Signature;
+ bh=8U0dpZqT5NCXWc6NhvrKiKtkyBEvtzfFiMIFlfcythg=;
+ b=L3o6BgBoFNAljc5cIZR9n8xhbYWHRfV6xfIvjbAUU1wvcr7H54IDhlP2/p1dVUnDT/LDufDmr1wC0GkFvumjVGJINQvkCz3I80DrqivwA8QwG7olaCaoHROSUG5eqewoyy5GZ1UkYQKF6Fs/LNYI8jRu28lyQmhwKawfw+jlg00=
+ARC-Authentication-Results: i=1; mailgun.org;
+ dkim=pass header.d=mail.bloombergview.com header.s=sailthru header.b=QJqvodZW;
+ spf=pass (domain mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom="delivery_20240711140657.36027023.195406@mx.sailthru.com";
+ dmarc=pass (dkim=pass domain=mail.bloombergview.com) header.from=mail.bloombergview.com;
+ arc=none
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=khamel.com; q=dns/txt; s=pic; t=1720721221; x=1720728421;
+ h=List-Unsubscribe: List-Unsubscribe-Post: X-Feedback-ID: Content-Type: MIME-Version: Subject: Subject: Message-ID: To: To: From: From: Date: X-Feedback-Id: Sender;
+ bh=8U0dpZqT5NCXWc6NhvrKiKtkyBEvtzfFiMIFlfcythg=;
+ b=A0q93gLhakLBVvWikp6uAUIBk3hQF/o/jXjnNwc9sm7NUsdLpLHDd4Gp+vgWM7GC4rOx5YbJS8Djgkyb2f01AekB0hhUhaDepzQkA8f91RKxf3UPhUw+qRw3Hg2ePI4VoiI84KXY/dBld0G1gMFXiZ5BrEb86RPr8J1sBQ+tsDI=
+X-Feedback-Id: delivery_20240711140657.36027023.195406@mx.sailthru.com::663d69d519aae0348c93b932:mailgun
+X-Mailgun-Sending-Ip: 198.244.55.164
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com [192.64.236.13]) by
+ 2e1dd017df26 with SMTP id 66901f457fe86a720c146006 (version=TLS1.3,
+ cipher=TLS_AES_128_GCM_SHA256); Thu, 11 Jul 2024 18:06:58 GMT
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com [192.64.236.13]) by
+ 2e1dd017df26 with SMTP id <undefined> (version=TLS1.3,
+ cipher=TLS_AES_128_GCM_SHA256); Thu, 11 Jul 2024 18:06:58 GMT
+X-Envelope-From: delivery_20240711140657.36027023.195406@mx.sailthru.com
+X-Mailgun-Incoming: Yes
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:
+ List-Unsubscribe-Post:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=8U0dpZqT5NCXWc6NhvrKiKtkyBEvtzfFiMIFlfcythg=;
+ b=QJqvodZWZRwpEc681MEPq1NsXFClwa8ZLk0kx347WhMu6GYVYh31F37KVkEVfwEqwFKk+VKtMfbh
+   f7bFWu+YKm1/1kHs2+ESU8tkGV08XvKLP1dmt968YHcZlH6EO1iV+rr7vFgaGCPhYCmvqoWOLYEL
+   7QHoYURD6xbGD9VDRkE=
+Received: from aws1-mta-relay1.sailthru.cloud (10.55.90.180) by bloomberg-b.sailthru.com id hi0fk23791sa for <bloomberg@khamel.com>; Thu, 11 Jul 2024 13:06:57 -0500 (envelope-from <delivery_20240711140657.36027023.195406@mx.sailthru.com>)
+Date: Thu, 11 Jul 2024 14:06:57 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20240711140657.36027023.195406@sailthru.com>
+Subject: Money Stuff: Banks Can Outsource Their Trades
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6790175_220141867.1720721217877"
+Precedence: bulk
+x-job: 6358-36027023-20240711
+X-Feedback-ID: 6358:36027023:campaign:sailthru
+X-TM-ID: 20240711140657.36027023.195406
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: aws-campaign-mailer-10.sailthru.cloud
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23clg6mn.46ry/8ef8aa33
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23clg6mn.46ry/8ef8aa33>,<mailto:unsubscribe_20240711140657.36027023.195406@mx.sailthru.com>
+X-rpcampaign: stjko36027023
+
+------=_Part_6790175_220141867.1720721217877
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        If you are a retail stock investor in the US, you have a broker. Yo=
+ur broker is a company =E2=80=94 Robinhood or Charles Schwab or E*Trade =E2=
+=80=94 that is
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      White label
+   =20
+ =20
+If you are a retail stock investor in the US, you have a broker. Your broke=
+r is a company =E2=80=94=C2=A0Robinhood or Charles Schwab or E*Trade =E2=80=
+=94=C2=A0that is in the business of having account relationships with retai=
+l investors. It advertises to attract your business, it has a nice website =
+and app for you to make trades, it accepts transfers from your bank so you =
+can buy stocks, it sends you account statements and keeps track of your sto=
+cks for you.=C2=A0But what the broker typically does not do is=C2=A0trade s=
+tocks for you.=C2=A0If you want to trade stocks, you go to your broker=E2=
+=80=99s app and click the buttons for =E2=80=9Cbuy 100 shares of XYZ,=E2=80=
+=9D and the broker=E2=80=99s computer gets the order, and then it ships the=
+ order out to someone=C2=A0else, some=C2=A0different=C2=A0company, called a=
+ =E2=80=9Cmarket maker,=E2=80=9D
+  [1]
+ whose job is to get you the stock at the best available price.=C2=A0Someti=
+mes this will involve sending your order on to the New York Stock Exchange,=
+ or some other trading venue: The market maker buys 100 shares of XYZ on th=
+e exchange at the market price and then hands them over to you. Often, thou=
+gh, the market maker will instead sell you the stock out of its inventory: =
+It is in the business of trading stocks for its own account, so when it get=
+s your order to buy 100 shares of XYZ, it will sell you 100 shares of XYZ a=
+s a principal, charging you slightly less than the market price on the exch=
+ange.You do=C2=A0not=C2=A0have a direct account relationship with the marke=
+t maker, and you might not know who the market maker is on any stock trade =
+that you do, though you can get some general idea from public disclosures. =
+If you are a customer of Robinhood, for instance, your stock orders are pro=
+bably being executed by Virtu Americas, Citadel Securities, Jane Street Cap=
+ital, G1 Execution Services or Two Sigma Securities. That=E2=80=99s a prett=
+y typical list; those are some of the biggest market makers for retail stoc=
+k trades.Why is there this division of labor? Well, why is there any divisi=
+on of labor? The people who run Robinhood and Charles Schwab are in the bus=
+iness of advertising and providing customer service to retail investors; th=
+e people who run Virtu and Citadel Securities are in the business of buying=
+ stocks at low prices and selling them at slightly higher prices. The skill=
+ sets do not have a ton of overlap. You=E2=80=99ve got Robinhood bopping ar=
+ound building fun apps that make people trade more stocks, but do you want =
+Robinhood risk-managing a big trading book? No, you do not. So Virtu or Cit=
+adel Securities or Jane Street comes to Robinhood and says =E2=80=9Chey, le=
+t us risk-manage the actual trading for you, so you can stick to what you a=
+re good at.=E2=80=9D And they set up some sort of outsourcing arrangement w=
+here your broker sends your orders to a market maker to actually trade.The =
+economics of these relationships are controversial, and we talk about them =
+from time to time, but for now let=E2=80=99s not worry about that.I should =
+add that things are slightly different if you are a customer of Merrill Lyn=
+ch. In that case, your order might get executed by those same guys =E2=80=
+=94=C2=A0Virtu, Citadel Securities, Jane Street, G1 and=C2=A0Two Sigma all =
+trade some Merrill Lynch orders =E2=80=94=C2=A0but it will=C2=A0most likely=
+ be executed by another market maker, BofA Securities. Like Merrill Lynch, =
+BofA Securities is a division=C2=A0of Bank of America Corp.: They are techn=
+ically separate entities, but they have the same owner. Loosely speaking, i=
+f your broker is Merrill Lynch, or JPMorgan or Goldman Sachs or Morgan Stan=
+ley,
+  [2]
+ your broker probably=C2=A0does=C2=A0trade stocks for you: Your broker is p=
+art of a big bank that handles=C2=A0both=C2=A0the customer-service side of =
+the business=C2=A0and=C2=A0the trading side of the business. Historically, =
+the core business of a brokerage included=C2=A0both=C2=A0customer service=
+=C2=A0and=C2=A0trading, but over time people realized that they could be un=
+bundled efficiently.=C2=A0All of this could=C2=A0in principle be true of in=
+stitutional investors too. You could imagine a world in which:=09Institutio=
+nal investors have account relationships with big Wall Street investment ba=
+nks, who provide them with customer service: account statements, custody, a=
+ person they can call when they want to trade.
+  [3]
+=09But the actual trades are done by some third-party market maker: The ins=
+titution calls their bank to say =E2=80=9CI want to buy 1 million shares of=
+ XYZ,=E2=80=9D and the person at the bank who takes the call says =E2=80=9C=
+I=E2=80=99ll get right on that,=E2=80=9D and she types =E2=80=9Cbuy 1 milli=
+on shares of XYZ=E2=80=9D into her system, and the system sends that order =
+to some third-party market maker who actually does the trade.You don=E2=80=
+=99t see a ton of this at the high end, because if you are an institutional=
+ investor you probably care less about the snazziness of your broker=E2=80=
+=99s app and more about the broker=E2=80=99s ability to=C2=A0actually do th=
+e trades:=C2=A0You want a bank that is willing to take some risk to quote y=
+ou the best prices on the stuff you want to trade. And traditionally that w=
+as the thing banks were good at. They had lots of money, they employed the =
+best traders and risk managers, of course they would do the actual trades.N=
+ow, less so. Bloomberg=E2=80=99s=C2=A0Katherine Doherty and Sridhar Nataraj=
+an report:Inside Ken Griffin=E2=80=99s Citadel Securities, a new strategy f=
+or handling even more of Wall Street=E2=80=99s trading is starting to take =
+shape =E2=80=94 with implications for struggling banks and brokerages aroun=
+d the world.The goal is to offer such firms a white-label trading service: =
+They would deal with customers while Citadel Securities manages the guts of=
+ their trading desks, including technology, analytics and order execution.T=
+he nascent plan, described by people with direct knowledge of the matter, c=
+ould be pitched as a solution for units where profits are getting eroded by=
+ stiffer capital rules, competitive pressures to lower fees and the need to=
+ make costly upgrades. Firms including Deutsche Bank AG have responded to n=
+arrowing margins in stock trading in recent years by shuttering some desks,=
+ ceding market share to top players such as JPMorgan Chase & Co. and Goldma=
+n Sachs Group Inc.=E2=80=9CBanks and brokers are getting squeezed on both e=
+nds, which is where we are seeing customer service deteriorating,=E2=80=9D =
+said Jesse Forster, a senior analyst of market structure and technology at =
+Coalition Greenwich. =E2=80=9CInvestors are not getting their proper tradin=
+g coverage, and they have been vocal about that.=E2=80=9DCitadel Securities=
+=E2=80=99 move underscores the ambitions afoot inside billionaire Griffin=
+=E2=80=99s massive trading operation, led by Chief Executive Officer=C2=A0P=
+eng Zhao. The firm would likely pitch such partnerships as a way for embatt=
+led banks and brokerages to shave costs and offer customers better pricing =
+with superior technology.It used to be that, if you wanted to trade an exot=
+ic derivative or sell a portfolio of high-yield bonds, you could call like =
+eight banks and they would each quote you an aggressive price to win your b=
+usiness. Each of them was willing to=C2=A0take=C2=A0risk=C2=A0to quote you =
+that price: They wanted to be your counterparty on the derivative, or to bu=
+y the bonds from=C2=A0you for their own account. Now, banks in general have=
+ less capacity to take those risks, and if you call your eight banks some o=
+f them will refuse to quote=C2=A0you a price, or will quote you a price tha=
+t is not very attractive. And you will be aggrieved. =E2=80=9CWe are seeing=
+ customer service deteriorating,=E2=80=9D not in the sense that Deutsche Ba=
+nk doesn=E2=80=99t give its institutional customers a snazzy app that rains=
+ confetti when they do a trade =E2=80=94=C2=A0the institutional customers d=
+on=E2=80=99t want that! =E2=80=94=C2=A0but in the sense that Deutsche Bank =
+doesn=E2=80=99t give its institutional customers aggressive, or any, quotes=
+ on some of the trades that they want to do.=C2=A0Meanwhile Citadel Securit=
+ies really is in the business of taking trading risk, and it can hire risk-=
+takers who would formerly have gone to banks. Also the business of taking t=
+rading risk (particularly in equities) is much more automated and algorithm=
+ic than it used to be, so Citadel Securities=E2=80=99 computers can do the =
+trades that would once have been done by a bank=E2=80=99s humans.We talk ab=
+out this theme from time to time around here. The potted history is somethi=
+ng like:=09Once, when investors wanted to buy and sell securities, they cal=
+led up an independent dealer=C2=A0or investment bank, which traded with the=
+m for its own account.=09Over time, as regulatory restrictions eased and as=
+ the need for scale increased, those dealers increasingly became=C2=A0banks=
+, or rather affiliates of banks: The firms that had the most capacity to ta=
+ke big trading positions were those with access to a bank=E2=80=99s balance=
+ sheet.=09After 2008, regulatory restrictions on banks increased, they beca=
+me less interested in risk-taking, and they became less able to take big tr=
+ading positions.=09And so now the people who have the most capacity to take=
+ big trading positions are=C2=A0not=C2=A0banks. They=E2=80=99re hedge funds=
+, or proprietary trading firms, or alternative asset managers, or whatever.=
+=09Kind of like the dealers in Step 1, except now they have better computer=
+s.The banks still have the relationships, though.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Bill Hwang
+   =20
+ =20
+Bill Hwang was charged with market manipulation because his family office, =
+Archegos Capital Management, bought a ton of shares of about a dozen stocks=
+, as sloppily as possible, with the effect and apparent intention of making=
+ those stocks go up. Yesterday a jury convicted him.
+  [4]
+=C2=A0After the trial, it seems reasonably clear that Hwang wanted to buy a=
+ ton of those stocks to push their prices up, and he told his trader to do =
+so. He wasn=E2=80=99t=C2=A0just=C2=A0buying lots of those stocks because he=
+ liked them, with the accidental side effect of pushing up the prices; he r=
+eally wanted to push up the prices, and bought in an aggressive manner to a=
+chieve that goal.=C2=A0And that=E2=80=99s probably illegal: Buying a ton of=
+ stock with the intention of pushing up the price is market manipulation; i=
+t=E2=80=99s causing the price of the stock to reflect something other than =
+real supply and demand.
+  [5]
+Still, the trial is unsatisfying. Normally, in this sort of market manipula=
+tion =E2=80=94=C2=A0=E2=80=9Copen market manipulation,=E2=80=9D where you a=
+rtificially inflate the price of a stock just by buying a lot of it, withou=
+t also going around telling lies about how the company has a cure for cance=
+r or whatever =E2=80=94 you also have=C2=A0some plan to make money.=C2=A0Ri=
+ght? It=E2=80=99s easy, with enough money, to make a stock go up: You just =
+buy a lot of it, and the price will go up. But then what? Then you sell a l=
+ot of it, and the price will go right back down. You have big paper profits=
+ on the way up, but you cannot realize those profits, and by the time you s=
+ell the stock you end up losing money. This certainly happened to Hwang: He=
+ started off with hundreds of millions of dollars, briefly manipulated his =
+way to $36 billion, sold his stocks and ended up at zero.There=C2=A0are=C2=
+=A0ways to make money from this sort of market manipulation, but they requi=
+re some sort of additional plan. We have talked about Avi Eisenberg, the Ma=
+ngo Markets guy, who artificially inflated the price of a crypto token (by =
+buying a lot of it), created large paper profits on a derivative position, =
+and then was able to withdraw those profits from a somewhat dumb decentrali=
+zed finance protocol.=C2=A0That=E2=80=99s=C2=A0how you do market manipulati=
+on: Buy a lot of a thing, yes, but also (1) have a bigger derivative positi=
+on that profits from your buying and/or (2) trick someone into lending you =
+money against your artificially inflated asset so you don=E2=80=99t have to=
+ sell it and drive down the price. (Eisenberg was also convicted.)=C2=A0Tha=
+t=C2=A0makes sense: You inflate the price of the thing, and you have some p=
+lan to make money.From the beginning, the mystery of Bill Hwang is that the=
+re has never been any real evidence that he had a plan to make money. He bo=
+ught stocks, he pushed them up, he had paper profits, he had capacity to wi=
+thdraw or borrow against some of those paper profits, and he plowed basical=
+ly all of them back into buying more of the same stocks. He never took his =
+foot off the gas; he was pouring more money into those stocks the week they=
+ all collapsed. I have speculated that it would be cool if at some point he=
+ withdrew a billion dollars of profits and buried them in his backyard, but=
+ even after the trial I have never seen any evidence of that.
+  [6]
+ =E2=80=9CWhat was in it for him,=E2=80=9D the judge asked before the trial=
+, and I don=E2=80=99t think there was ever really an answer.=C2=A0It doesn=
+=E2=80=99t matter! Manipulating stocks for no reason is illegal, just like =
+manipulating them for profit would be. It=E2=80=99s just narratively unsati=
+sfying.
+ =20
+   =20
+      Greenshoes
+   =20
+ =20
+When a US company does an initial public offering of its stock, there is no=
+rmally a =E2=80=9Cgreenshoe.=E2=80=9D=C2=A0Let=E2=80=99s say the company pl=
+ans to sell 10 million shares in its IPO. The company hires investment bank=
+s to sell the stock, they go out and market the stock and take orders, and =
+eventually they come back to the company and say =E2=80=9Cwe think you can =
+sell your 10 million shares at $20 each.=E2=80=9D The company agrees, the d=
+eal is priced, and the banks go off and allocate the stock to the investors=
+ who put in orders.But the banks do not allocate 10 million shares to inves=
+tors. They allocate 11.5 million shares, 15% more than the size of the offe=
+ring.=C2=A0The company sells 10 million shares to the banks for $200 millio=
+n, but the banks sell 11.5 million shares to investors for $230 million.
+  [7]
+ The banks are, effectively,=C2=A0short=C2=A01.5 million shares. Sort of. A=
+ctually, in addition to the 10 million shares that it sells to the banks, t=
+he company also gives the banks an=C2=A0option=C2=A0to buy another 1.5 mill=
+ion shares, at the IPO price, within the next few weeks. The option is call=
+ed a =E2=80=9Cgreenshoe option,=E2=80=9D named after the first company to d=
+o it.=C2=A0And then the stock opens for trading, and it either trades up or=
+ down. Ordinarily it trades up. If the stock ends its first day of trading =
+at, say, $27, then the banks come to the company and say =E2=80=9Cthe stock=
+ traded well, everything=E2=80=99s great and we=E2=80=99re exercising the g=
+reenshoe.=E2=80=9D The company gives the banks the extra 1.5 million shares=
+, the banks give the company the extra $30 million, and the number of share=
+s issued by the company (11.5 million) matches the number of shares sold in=
+ the IPO.Sometimes it trades down, though. If, on the first day, the stock =
+falls from $20 to $19.75, the banks will start=C2=A0buying back=C2=A0some o=
+f the stock they sold. This has the effect of keeping the price up: If nobo=
+dy else is buying the stock, the banks will. They will keep going until the=
+y have bought back 1.5 million shares, =E2=80=9Cusing=E2=80=9D the greensho=
+e to =E2=80=9Cdefend=E2=80=9D the IPO price. If the banks buy back all 1.5 =
+million shares, then they close out their short that way: They never exerci=
+se the greenshoe option, the company only issues 10 million shares, and aft=
+er the IPO is done only 10 million shares are outstanding. The banks sold 1=
+1.5 million and bought back 1.5 million to defend the price.This is called =
+=E2=80=9Cstabilization,=E2=80=9D and it is a sort of legal form of market m=
+anipulation: The banks that do an IPO are allowed to buy back stock to try =
+to stop it falling below the IPO price. It is a longstanding part of US sto=
+ck offerings, and bankers will tell companies that it is essential. Because=
+ the banks stand ready to defend the IPO price, investors have more confide=
+nce that the IPO price is good, and are more likely to buy the IPO. And so =
+most US IPOs feature greenshoes: Investors like them, banks insist on them,=
+ and companies=C2=A0want their IPOs to go well and don=E2=80=99t want to le=
+ave out a feature that investors want. I have never been all that convinced=
+ that greenshoes are necessary, and you probably could do an IPO without on=
+e, but most companies end up doing the standard thing.Every so often, thoug=
+h, the greenshoe leads to a weird result. The IPO prices at $20, and the ne=
+xt day it opens for trading at, like, $16. The deal is just mispriced, the =
+investors who buy in the IPO are hoping to flip it, there are no real buyer=
+s, and the stock immediately falls well below the IPO price. In that case, =
+there is not a ton that the banks can do, but they=E2=80=99ll do what they =
+can: They buy back the 1.5 million shares, at $16 each, to stop the price g=
+oing even lower.The weird result is that they sold those 1.5 million shares=
+ for $20 and bought them back at $16, making a profit of $6 million.=C2=A0T=
+hey shorted the stock of the IPO they were selling, and made money when it =
+went down. That looks bad!And in fact some form of this has happened in sev=
+eral high-profile IPOs =E2=80=94=C2=A0including Facebook Inc.=C2=A0and Uber=
+ Technologies Inc. =E2=80=94=C2=A0and each time there is a little controver=
+sy about the fact that the banks make money by pricing IPOs too high and be=
+tting against them.Now, this is not a particularly serious controversy, bec=
+ause it=E2=80=99s pretty clear that the banks are not doing this nefariousl=
+y. If they were, they=E2=80=99d do it more often! In fact, most IPOs are cl=
+early priced to go=C2=A0up, and the more frequent complaint is =E2=80=9Cban=
+ks underprice IPOs to benefit their investor clients at the expense of the =
+IPO companies,=E2=80=9D not =E2=80=9Cbanks overprice IPOs to make money tra=
+ding the greenshoe.=E2=80=9D=C2=A0Still it=E2=80=99s all a little weird, an=
+d companies that pay attention sometimes find it annoying. Why should the b=
+anks be able to make money on the greenshoe? Maybe you have to have this me=
+chanism =E2=80=94=C2=A0greenshoes, short selling, stabilization, etc. =E2=
+=80=94=C2=A0to attract investors to the IPO, but why is it necessary for th=
+e=C2=A0banks=C2=A0to profit from it? I once talked to a startup founder who=
+ was thinking of going public and who was contemplating demanding that, if =
+the banks=C2=A0do=C2=A0make any money trading the greenshoe, they give it b=
+ack to the company: Shouldn=E2=80=99t that money belong to the company, not=
+ its banks?Well Bill Ackman is actually doing it. Here is the latest prospe=
+ctus for Pershing Square USA Ltd., his proposed US public investment vehicl=
+e. In the description of the greenshoe, it says: =E2=80=9CTo the extent the=
+ Underwriters generate a net profit from purchasing Common Shares at prices=
+ below the initial public offering price to close out any syndicate short p=
+osition, the Underwriters have agreed to pay any such net profit to the Com=
+pany.=E2=80=9D If PSUS falls below its IPO price and the banks make money b=
+uying=C2=A0back stock, they have to pay it to PSUS.Now, this is a bit of an=
+ odd case. PSUS=E2=80=99s initial public offering price is fixed at $50 per=
+ share, and in a sense it can=E2=80=99t really be over- or undervalued: PSU=
+S will initially be just a pot of money that Pershing Square will use to in=
+vest in companies, so each share will initially represent $50 worth of mone=
+y in the pot. The stock might end up trading at a discount or a premium to =
+that value =E2=80=94=C2=A0Pershing Square Holdings, its similar European ve=
+hicle, trades at about a 20% discount to net asset value, while a more US-f=
+riendly vehicle, given Ackman=E2=80=99s track record and social media prese=
+nce, could trade at a premium =E2=80=94=C2=A0but it=E2=80=99s not going to =
+drop 50% on the first day. (Not investment advice!) The=C2=A0pricing=C2=A0o=
+f this IPO is much less uncertain that the pricing of the typical tech star=
+tup IPO, so the chances of making a big profit trading the greenshoe are lo=
+wer.Nonetheless it=E2=80=99s a precedent. If the banks agree to pay over th=
+eir greenshoe profits here, what=E2=80=99s to stop the next tech startup IP=
+O company from asking for the same deal? =E2=80=9CNo, PSUS was different, i=
+t was a pot of cash, the expected greenshoe profits were zero=E2=80=9D is n=
+ot a very good argument: The greenshoe profits are=C2=A0supposed=C2=A0to be=
+ zero on every deal, and if the banks make money on the greenshoe it is bec=
+ause something has gone wrong. Why should they profit from that?
+ =20
+   =20
+      Sacklers
+   =20
+ =20
+The Purdue Pharma LP situation is:=09Purdue Pharma makes opioid painkillers=
+ that led to an addiction crisis and killed a lot of people. Various people=
+ sued, and Purdue owes them far more money than it has, so it filed for ban=
+kruptcy.=09In the years before it went bankrupt, Purdue Pharma kicked out s=
+omething like $11.5 billion to its owners, the Sackler family, some of whos=
+e members=C2=A0ran the company and were involved in its opioid marketing.=
+=09In addition to=C2=A0Purdue=E2=80=99s=C2=A0money, the various victims wan=
+t the=C2=A0Sacklers=E2=80=99=C2=A0money, since that money largely comes fro=
+m Purdue and since the Sacklers were largely responsible for Purdue=E2=80=
+=99s opioid work.=09But suing the Sacklers is complicated: They=E2=80=99re =
+rich and have good lawyers and a lot of the money is now offshore or in tru=
+sts that will be hard to access.=09So a settlement was worked out: The Sack=
+lers would give about $6 billion of their money to the Purdue bankruptcy es=
+tate to pay claims, and in exchange no one would be able to sue them anymor=
+e. All their opioid liability would go away.=09This is called a =E2=80=9Cno=
+nconsensual third-party release=E2=80=9D: Purdue=E2=80=99s bankruptcy=C2=A0=
+would end all opioid-related lawsuits against the Sacklers, even though the=
+y are not bankrupt themselves.=09A bankruptcy court signed off on this, a d=
+istrict court found it was not allowed, an appeals courts found that it was=
+, and finally last month the US Supreme Court overruled that decision and f=
+ound that it is in fact not allowed. The bankruptcy court can=E2=80=99t jus=
+t end all the lawsuits against the Sacklers.=09Now what?Well, part of the a=
+nswer is that there are two sorts of claims against the Sacklers. The most =
+straightforward=C2=A0ones are=C2=A0Purdue=E2=80=99s=C2=A0claims. The rough =
+idea is that bankruptcy courts can travel back in time a bit. When a compan=
+y goes bankrupt, you add up its assets and liabilities and then divvy up th=
+e money (1) fairly and (2) based on the seniority of claims. So if the comp=
+any has $100 of assets, $50 of senior debt, $100 of junior debt and then so=
+me shareholders, the bankruptcy court gives the senior creditors 100 cents =
+on the dollar, the junior creditors=C2=A050 cents on the dollar, and the sh=
+areholders nothing.But if the shareholders paid themselves a dividend the d=
+ay before the bankruptcy, that would obviously be cheating: The bankruptcy =
+was imminent, and the=C2=A0shareholders are supposed to get nothing! Or eve=
+n if the junior creditors got paid off in full the day before the bankruptc=
+y =E2=80=94=C2=A0even if they were totally innocent and=C2=A0really owed th=
+e money =E2=80=94=C2=A0that=E2=80=99s not fair either, because the company =
+was=C2=A0basically=C2=A0bankrupt, and they should be behind the senior cred=
+itors in line.And so bankruptcy courts have various ways to claw back money=
+ that went out the door=C2=A0before=C2=A0the bankruptcy. We=C2=A0talked the=
+ other day about how some customers of Celsius, the bankrupt crypto firm, w=
+ithdrew their money shortly before it went bankrupt, and so got back 100 ce=
+nts on the dollar, while other customers waited until bankruptcy and will g=
+et back less. Celsius is trying to take their money back, under rules about=
+ avoidable transfers: If the company is insolvent and pays back some credit=
+ors shortly before bankruptcy, and they get more than they would get in ban=
+kruptcy, the bankruptcy court can undo those payments and make the creditor=
+s give back the money. The court can also claw back =E2=80=9Cfraudulent tra=
+nsfers,=E2=80=9D which covers actual fraud =E2=80=94=C2=A0payments=C2=A0tha=
+t were made before bankruptcy =E2=80=9Cwith=C2=A0actual intent to hinder, d=
+elay, or defraud=E2=80=9D creditors =E2=80=94=C2=A0but also=C2=A0dividends=
+=C2=A0made while the company was insolvent. The idea is that, if the compan=
+y is going bankrupt, the shareholders should be last in line; if they paid=
+=C2=A0themselves before bankruptcy, they have to give the money back.Again,=
+ the Sacklers paid themselves $11.5 billion over the years before bankruptc=
+y, and there=E2=80=99s some argument that at least some of that money can b=
+e clawed back. Also, some of them were officers and directors of Purdue Pha=
+rma, which might have claims against them for violating their fiduciary dut=
+ies. Intuitively, Purdue Pharma is worth a large negative amount of money d=
+ue to the actions of the Sacklers =E2=80=94=C2=A0both in running the compan=
+y and in stripping it of cash as the end approached =E2=80=94=C2=A0and so i=
+t has various potential lawsuits against them.But there is also another sor=
+t of claim: everyone else=E2=80=99s personal claims against the Sacklers fo=
+r everything else. There are various legal theories that might make members=
+ of the Sackler family personally liable for Purdue Pharma=E2=80=99s opioid=
+ marketing, so victims or state attorneys general could sue them under thos=
+e theories. Not =E2=80=9Cyou owe this money to Purdue, which owes it to me,=
+=E2=80=9D but =E2=80=9Cyou owe this money to me directly.=E2=80=9DThe Supre=
+me Court essentially ruled that the bankruptcy court can=E2=80=99t release =
+the second category of claims: The Sacklers aren=E2=80=99t bankrupt, so if =
+some attorney general wants to bring some personal lawsuit against one of t=
+hem, the bankruptcy court can=E2=80=99t stop it. But the bankruptcy court c=
+an=C2=A0clearly=C2=A0release the first category of claims: Those claims bel=
+ong to Purdue Pharma, and Purdue Pharma is in bankruptcy, and if Purdue Pha=
+rma wants to settle a lawsuit against the Sacklers, the bankruptcy court is=
+ the court that will sign off on that.The Sacklers don=E2=80=99t want that:=
+ They don=E2=80=99t want to settle=C2=A0only Purdue=E2=80=99s claims; they =
+want to settle=C2=A0everyone=E2=80=99s=C2=A0claims and get a full release. =
+They don=E2=80=99t want to pay 90% of their money to Purdue, only to get su=
+ed for another 300% of their money by other people. They want a global sett=
+lement. And the Supreme Court said that they can=E2=80=99t get it.To be cle=
+ar, Purdue=E2=80=99s bankruptcy estate =E2=80=94=C2=A0the lawyers and judge=
+s working on the case, including most of the victims and creditors =E2=80=
+=94=C2=A0wanted that too. They wanted a global settlement because that maxi=
+mized the amount of money the Sacklers were willing to put in. Without a gl=
+obal settlement, the Sacklers will be less inclined to settle any individua=
+l case.But that=E2=80=99s not an option anymore, so the obvious next step i=
+s for the bankruptcy estate to try to settle=C2=A0its=C2=A0claims against t=
+he Sacklers. And the first step in=C2=A0that=C2=A0process is pretty much to=
+ rattle some swords and make it clear that (1) Purdue Pharma=C2=A0has=C2=A0=
+claims against the Sacklers, (2) those claims are good and big and (3) it w=
+ill pursue them aggressively. So the Wall Street Journal reports:Bankrupt o=
+pioid maker Purdue Pharma is backing an effort by its top creditors to sue =
+members of the Sackler family who own the company over allegations that the=
+y illegally transferred billions of dollars to private trusts before Purdue=
+=E2=80=99s 2019 bankruptcy filing.The official committee of Purdue=E2=80=99=
+s creditors filed a proposed complaint against the Sacklers on Monday after=
+ the Supreme Court last month rejected a $6 billion settlement agreement to=
+ resolve the mass opioid-related lawsuits against the company=E2=80=99s fam=
+ily owners.Purdue supports granting the creditors committee the legal stand=
+ing to sue, according to Monday=E2=80=99s filing. The company also is seeki=
+ng to restart negotiations with the Sacklers, whose wealth has been estimat=
+ed near $11 billion.Here is the proposed complaint, which is quite punchy:T=
+o guarantee their family remained ultrawealthy for generations to come, the=
+ Sacklers also had to siphon those profits out of the Debtors, and (they ho=
+ped) beyond the reach of Purdue=E2=80=99s creditors, including the individu=
+al and governmental victims of the opioid crisis that Purdue and the Sackle=
+rs helped create and fuel.=C2=A0Indeed, the Sacklers=E2=80=99 efforts to mo=
+ve assets out of Purdue and away from its creditors are at the heart of thi=
+s Complaint. The experience of Purdue=E2=80=99s guilty plea in 2007 particu=
+larly alarmed the Sacklers and drove home the danger that opioid-related li=
+tigation could swamp Purdue and threaten their wealth. Just a few days afte=
+r entry of the first guilty plea in 2007, the Sacklers panicked and asked e=
+ach other, =E2=80=9CWe=E2=80=99re rich? For how long? Until which suits get=
+ through to the family?=E2=80=9D A few months later, Peter Boer, a close fa=
+mily advisor and soon-to-be Purdue director, advised the Sacklers to =E2=80=
+=9Ctake defensive measures=E2=80=9D against Purdue=E2=80=99s =E2=80=9Cuncap=
+ped liabilities,=E2=80=9D including by sending assets overseas. Boer counse=
+led the Sacklers to deprive litigants of a =E2=80=9Cdeep pocket=E2=80=9D fr=
+om which to recover damages inflicted by Purdue.Consistent with that advice=
+, the Sacklers spent the next decade siphoning off the proceeds of their il=
+legal marketing and sale of opioids from Purdue just as Boer and others had=
+ counseled. The Sacklers transferred billions into an elaborate system of t=
+rusts and offshore entities in a manner designed to defraud the Debtors and=
+ the Debtors=E2=80=99 creditors and frustrate any effort at recovery by the=
+ individuals and governments that have been devastated by Purdue=E2=80=99s =
+crimes. The family hoped they had created =E2=80=9Clayers and layers that w=
+ould have to be penetrated=E2=80=9D before litigation could threaten the =
+=E2=80=9Cvast fortune=E2=80=9D the family had built. Immediately following =
+the 2007 guilty plea, the Sacklers dramatically increased distributions fro=
+m the company, transferring more than $11.5 billion in cash and property of=
+fshore and to spendthrift trusts in less than a decade.=C2=A0And the Journa=
+l quotes the Sacklers=E2=80=99 punchy response:Representatives for the fami=
+lies of the late Mortimer Sackler and the late Raymond Sackler said the cre=
+ditors=E2=80=99 filing =E2=80=9Cis riddled with factual errors, ignores tha=
+t about half the money was paid in taxes and is contrary to the goal of wor=
+king together towards a resolution that provides billions of dollars for co=
+mmunities and people in need.=E2=80=9DBut all of this is probably part of n=
+egotiations. Purdue Pharma wrote a statement supporting the lawsuit, saying=
+ that =E2=80=9Cthe Debtors=E2=80=99 claims against third parties are the es=
+tates=E2=80=99 most valuable assets=E2=80=94they underlay the settlement un=
+der which the Sacklers had previously agreed to pay $5.5-6 billion.=E2=80=
+=9D But it adds that that =E2=80=9Cthe Debtors are hopeful that mediation w=
+ill lead to a consensual resolution of these chapter 11 cases.=E2=80=9D=C2=
+=A0Basically: The Sacklers agreed to pay up to $6 billion of their own mone=
+y to opioid victims, because they figured that was better than fighting a m=
+illion lawsuits. In exchange, they wanted those lawsuits to all go away. Th=
+e Supreme Court said that that is not allowed. Now, Purdue Pharma would lik=
+e the Sacklers to pay up to $6 billion of their own money to opioid victims=
+, because they figure that is better than fighting=C2=A0one=C2=A0lawsuit =
+=E2=80=94=C2=A0the biggest and most straightforward one =E2=80=94=C2=A0from=
+ Purdue itself. That negotiation starts by threatening the lawsuit.
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+I dunno, this is kind of cool:[Elon]=C2=A0Musk, 53, has directed SpaceX emp=
+loyees to drill into the design and details of a Martian city, according to=
+ five people with knowledge of the efforts and documents viewed by The New =
+York Times. One team is drawing up plans for small dome habitats, including=
+ the materials that could be used to build them. Another is working on spac=
+esuits to combat Mars=E2=80=99s hostile environment, while a medical team i=
+s researching whether humans can have children there. Mr. Musk has voluntee=
+red his sperm to help seed a colony, two people familiar with his comments =
+said.The initiatives, which are in their infancy, are a shift toward more c=
+oncrete planning for life on Mars as Mr. Musk=E2=80=99s timeline has hasten=
+ed. While he said in 2016 that it would take 40 to 100 years to have a self=
+-sustaining civilization on the planet, Mr. Musk told SpaceX employees in A=
+pril that he now expects one million people to be living there in about 20 =
+years. ...Mr. Musk is so wedded to the idea of creating a civilization on M=
+ars =E2=80=94 he once said he plans to die there =E2=80=94 that it has prop=
+elled nearly every business endeavor he has undertaken on Earth. His vision=
+ for Mars underlies most of the six companies that he leads or owns, each o=
+f which could potentially contribute to an extraterrestrial colony, accordi=
+ng to the documents and the people with knowledge of the efforts.The Boring=
+ Company, a private tunneling venture founded by Mr. Musk, was started in p=
+art to ready equipment to burrow under Mars=E2=80=99s surface, two of the p=
+eople said. Mr. Musk has told people that he bought X, the social media pla=
+tform, partly to help test how a citizen-led government that rules by conse=
+nsus might work on Mars. He has also said that he envisions residents on th=
+e planet will drive a version of the steel-paneled Cybertrucks made by Tesl=
+a, his electric vehicle company.I can=E2=80=99t help but appreciate a coher=
+ent vision, you know? The guy has tons of money, boundless energy, and an e=
+xtremely specific weird vision of what interplanetary life will be like. He=
+ has a picture in his head of life on Mars, apparently inspired by consumin=
+g a certain amount of science fiction, and it involves tunnels, sure, but i=
+t also involves governance by Twitter poll (?) and driving around in cars w=
+ith a particular cyberpunk aesthetic. And he runs a car company, so he had =
+that company build the car to match what he thinks Mars traffic=C2=A0should=
+ look like. Also I guess everyone on Mars will share his DNA? Again an=C2=
+=A0idiosyncratic=C2=A0vision of a sci-fi future, but at least it is authent=
+ically his.As a financial columnist and everything-is-securities-fraud guy,=
+ I suppose I could ask questions like =E2=80=9Cif you are a Tesla sharehold=
+er, how should you feel about the fact that the company=E2=80=99s chief exe=
+cutive officer is pushing some weird truck design not because it makes econ=
+omic sense but because it matches the pictures in his head of what life on =
+Mars will be like?=E2=80=9D But I don=E2=80=99t really care; if you=E2=80=
+=99re a Tesla shareholder you signed up for all of this. So far the picture=
+s in the guy=E2=80=99s head have mostly worked out for his investors.=C2=A0
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Pimco, Silver Point Lose Fight Over 2022 Incora Debt Package.=C2=A0Milder I=
+nflation Keeps Door Open to September Rate Cut.=C2=A0Deutsche Bank settles =
+with trader who alleged he was Libor =E2=80=98fall guy.=E2=80=99=C2=A0RBC S=
+hakes Up Leadership, Splits P&C Banking Unit Into Two. How Rivian Became th=
+e Anti-Tesla. =E2=80=9CPayment requests of $5 or less are considered rude b=
+y 72% of people ages 16 to 26.=E2=80=9DIf you'd like to get=C2=A0Money=C2=
+=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0subscri=
+be at this link. Or you can subscribe to Money Stuff and other great Bloomb=
+erg newsletters here. Thanks!
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+           =20
+         =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+       =20
+         =20
+       =20
+  [1] This seems to be the most normal way to refer to this company, though=
+ =E2=80=9Cdealer=E2=80=9D or =E2=80=9Cwholesaler=E2=80=9D or =E2=80=9Cinter=
+nalizer=E2=80=9D or =E2=80=9Celectronic trading firm=E2=80=9D are all possi=
+bilities.
+
+
+  [2] Morgan Stanley owns E*Trade, and from its routing disclosure I gather=
+ that (1) if you have an account at Morgan Stanley Smith Barney, probably y=
+our order is executed by Morgan Stanley, but (2) if you have an account at =
+E*Trade, probably your order is executed by the usual crew of outside marke=
+t makers.
+
+
+  [3] There is a third important category here, which is leverage: If you a=
+re a hedge fund, one thing that you want from your bank relationships is to=
+ be able to borrow money to do trades. This is probably a business that mak=
+es more sense at a bank than at Citadel Securities, but who knows.
+
+
+  [4] Somewhat inexplicably, he was acquitted of manipulating one stock, th=
+ough convicted on the rest. He was also convicted of lying to his banks to =
+get them to lend him more money, which is probably the more serious offense=
+ here, but it=E2=80=99s also more straightforward; the market manipulation =
+case is weirder.
+
+
+  [5] Not legal advice, and I don=E2=80=99t love this analysis and think it=
+=E2=80=99s pretty fuzzy, but I do think it=E2=80=99s sufficient to get you =
+convicted of market manipulation.
+
+
+  [6] He did squirrel a certain amount of money away=20
+into his nonprofit foundation, which pays generous salaries to some of his =
+former Archegos employees, but still.
+
+
+  [7] For simplicity, in all of these numbers I am ignoring the banks=E2=80=
+=99 fee for doing the IPO, which is normally a discount to the stock price.=
+ So really it=E2=80=99s like =E2=80=9Cthe company sells 10 million shares t=
+o the banks for $190 million,=E2=80=9D because the banks buy the shares at =
+$19 and resell them at $20.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+  <a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f=
+07ceef4b8524a319a23clg6mn.46ry/a7f28d11.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_6790175_220141867.1720721217877
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+If you are a retail stock investor in the US, you have a broker. Your broke=
+r is a company =E2=80=94 Robinhood or Charles Schwab or E*Trade =E2=80=94 t=
+hat is
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNzExMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA3MTEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB28eae030"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/img7rZ7yYddA/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/img7rZ7yYddA/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZzdHBlPWRlZmF1bHQmbGk9M=
+zYwMjcwMjMmbT0yMWQ2ZGVhODJkNmIxNjYxNWNmNDQyMzNiZTYyMDUyNSZwPTM2MjIyNDI5Jg/6=
+07f07ceef4b8524a319a23cBfa365370" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;stpe=3Ddefault&amp=
+;li=3D36027023&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D36222429&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">White label</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">If you are a retail stock investor in =
+the US, you have a broker. Your broker is a company =E2=80=94=C2=A0Robinhoo=
+d or Charles Schwab or E*Trade =E2=80=94=C2=A0that is in the business of ha=
+ving account relationships with retail investors. It advertises to attract =
+your business, it has a nice website and app for you to make trades, it acc=
+epts transfers from your bank so you can buy stocks, it sends you account s=
+tatements and keeps track of your stocks for you.=C2=A0</p><p style=3D"marg=
+in: 16px 0;">But what the broker typically does not do is=C2=A0<em>trade st=
+ocks for you</em>.=C2=A0If you want to trade stocks, you go to your broker=
+=E2=80=99s app and click the buttons for =E2=80=9Cbuy 100 shares of XYZ,=E2=
+=80=9D and the broker=E2=80=99s computer gets the order, and then it ships =
+the order out to someone=C2=A0<em>else</em>, some=C2=A0<em>different=C2=A0<=
+/em>company, called a =E2=80=9Cmarket maker,=E2=80=9D<a class=3D"footnote-i=
+ndex" href=3D"#footnote-1" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: none !important; background-color: transparent !important; dis=
+play: inline-block;">
+<span>[1]</span>
+</a> whose job is to get you the stock at the best available price.=C2=A0So=
+metimes this will involve sending your order on to the New York Stock Excha=
+nge, or some other trading venue: The market maker buys 100 shares of XYZ o=
+n the exchange at the market price and then hands them over to you. Often, =
+though, the market maker will instead sell you the stock out of its invento=
+ry: It is in the business of trading stocks for its own account, so when it=
+ gets your order to buy 100 shares of XYZ, it will sell you 100 shares of X=
+YZ as a principal, charging you slightly less than the market price on the =
+exchange.</p><p style=3D"margin: 16px 0;">You do=C2=A0<em>not=C2=A0</em>hav=
+e a direct account relationship with the market maker, and you might not kn=
+ow who the market maker is on any stock trade that you do, though you can g=
+et some general idea from public disclosures. If you are a customer of Robi=
+nhood, for instance, your stock orders are <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/36027023.195406/aHR0cHM6Ly9jZG4ucm9iaW5ob29kLmNvbS=
+9hc3NldHMvcm9iaW5ob29kL2xlZ2FsL1JIUyUyMFNFQyUyMFJ1bGUlMjA2MDYlMjBhbmQlMjA2M=
+DclMjBEaXNjbG9zdXJlLnBkZg/607f07ceef4b8524a319a23cB547d5df1" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">probab=
+ly being executed</a> by Virtu Americas, Citadel Securities, Jane Street Ca=
+pital, G1 Execution Services or Two Sigma Securities. That=E2=80=99s a pret=
+ty typical list; those are some of the biggest market makers for retail sto=
+ck trades.</p><p style=3D"margin: 16px 0;">Why is there this division of la=
+bor? Well, why is there any division of labor? The people who run Robinhood=
+ and Charles Schwab are in the business of advertising and providing custom=
+er service to retail investors; the people who run Virtu and Citadel Securi=
+ties are in the business of buying stocks at low prices and selling them at=
+ slightly higher prices. The skill sets do not have a ton of overlap. You=
+=E2=80=99ve got Robinhood bopping around building fun apps that make people=
+ trade more stocks, but do you want Robinhood risk-managing a big trading b=
+ook? No, <a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.=
+195406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMTIt=
+MTcvcm9iaW5ob29kLWNoZWNraW5nLW1vdmVkLWZhc3QtYW5kLWJyb2tlP2NtcGlkPUJCRDA3MTE=
+yNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV=
+90ZXJtPTI0MDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB1=
+b68bc9f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">you</a> do <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/36027023.195406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMjItMDYtMjcvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1tZW1lLXdlZWstd2Fz=
+LXRvby1nb29kLXRvLXJvYmluaG9vZD9jbXBpZD1CQkQwNzExMjRfTU9ORVlTVFVGRiZ1dG1fbWV=
+kaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA3MTEmdXRtX2NhbX=
+BhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb19c1bb9" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">not</a>. S=
+o Virtu or Citadel Securities or Jane Street comes to Robinhood and says =
+=E2=80=9Chey, let us risk-manage the actual trading for you, so you can sti=
+ck to what you are good at.=E2=80=9D And they set up some sort of outsourci=
+ng arrangement where your broker sends your orders to a market maker to act=
+ually trade.</p><p style=3D"margin: 16px 0;">The economics of these relatio=
+nships <a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.19=
+5406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMD=
+Uvcm9iaW5ob29kLWdhbWVzdG9wLXNhZ2EtcHJlc3N1cmVzLXBheW1lbnQtZm9yLW9yZGVyLWZsb=
+3c_Y21waWQ9QkJEMDcxMTI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNl=
+PW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNzExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07=
+ceef4b8524a319a23cB91ca2353" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">are controversial</a>, and we talk abo=
+ut them from time to time, but for now let=E2=80=99s not worry about that.<=
+/p><p style=3D"margin: 16px 0;">I should add that things are slightly diffe=
+rent if you are a customer of Merrill Lynch. In that case, <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly9wdWJsaW=
+MuczMuY29tL3J1bGU2MDYvbWxjb19nd2ltLw/607f07ceef4b8524a319a23cBf486128d" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">your order might get executed</a> by those same guys =E2=80=94=C2=A0Vi=
+rtu, Citadel Securities, Jane Street, G1 and=C2=A0Two Sigma all trade some =
+Merrill Lynch orders =E2=80=94=C2=A0but it will=C2=A0<em>most likely </em>b=
+e executed by another market maker, BofA Securities. Like Merrill Lynch, Bo=
+fA Securities is a division=C2=A0of Bank of America Corp.: They are technic=
+ally separate entities, but they have the same owner. Loosely speaking, if =
+your broker is Merrill Lynch, or JPMorgan or Goldman Sachs or Morgan Stanle=
+y,<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: none !important; background-color: tra=
+nsparent !important; display: inline-block;">
+<span>[2]</span>
+</a> your broker probably=C2=A0<em>does=C2=A0</em>trade stocks for you: You=
+r broker is part of a big bank that handles=C2=A0<em>both=C2=A0</em>the cus=
+tomer-service side of the business=C2=A0<em>and=C2=A0</em>the trading side =
+of the business. Historically, the core business of a brokerage included=C2=
+=A0<em>both=C2=A0</em>customer service=C2=A0<em>and=C2=A0</em>trading, but =
+over time people realized that they could be unbundled efficiently.=C2=A0</=
+p><p style=3D"margin: 16px 0;">All of this could=C2=A0<em>in principle </em=
+>be true of institutional investors too. You could imagine a world in which=
+:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16p=
+x 0;">=09<li style=3D"margin-bottom: 5px;">Institutional investors have acc=
+ount relationships with big Wall Street investment banks, who provide them =
+with customer service: account statements, custody, a person they can call =
+when they want to trade.<a class=3D"footnote-index" href=3D"#footnote-3" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: none !important;=
+ background-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a></li>=09<li style=3D"margin-bottom: 5px;">But the actual trades are don=
+e by some third-party market maker: The institution calls their bank to say=
+ =E2=80=9CI want to buy 1 million shares of XYZ,=E2=80=9D and the person at=
+ the bank who takes the call says =E2=80=9CI=E2=80=99ll get right on that,=
+=E2=80=9D and she types =E2=80=9Cbuy 1 million shares of XYZ=E2=80=9D into =
+her system, and the system sends that order to some third-party market make=
+r who actually does the trade.</li></ol><p style=3D"margin: 16px 0;">You do=
+n=E2=80=99t see a ton of this at the high end, because if you are an instit=
+utional investor you probably care less about the snazziness of your broker=
+=E2=80=99s app and more about the broker=E2=80=99s ability to=C2=A0<em>actu=
+ally do the trades:=C2=A0</em>You want a bank that is willing to take some =
+risk to quote you the best prices on the stuff you want to trade. And tradi=
+tionally that was the thing banks were good at. They had lots of money, the=
+y employed the best traders and risk managers, of course they would do the =
+actual trades.</p><p style=3D"margin: 16px 0;">Now, less so. Bloomberg=E2=
+=80=99s=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/36027=
+023.195406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDct=
+MTEvY2l0YWRlbC1zZWN1cml0aWVzLWNyYWZ0cy1wbGFuLXRvLXNoYWtlLXVwLWJhbmtzLXRyYWR=
+pbmctZGVza3M_Y21waWQ9QkJEMDcxMTI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNzExJnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cB77b2e5b6" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">Katherine Doherty and Sridha=
+r Natarajan report</a>:</p><blockquote><p style=3D"margin: 16px 0;">Inside =
+Ken Griffin=E2=80=99s Citadel Securities, a new strategy for handling even =
+more of Wall Street=E2=80=99s trading is starting to take shape =E2=80=94 w=
+ith implications for struggling banks and brokerages around the world.</p><=
+p style=3D"margin: 16px 0;">The goal is to offer such firms a white-label t=
+rading service: They would deal with customers while Citadel Securities man=
+ages the guts of their trading desks, including technology, analytics and o=
+rder execution.</p><p style=3D"margin: 16px 0;">The nascent plan, described=
+ by people with direct knowledge of the matter, could be pitched as a solut=
+ion for units where profits are getting eroded by stiffer capital rules, co=
+mpetitive pressures to lower fees and the need to make costly upgrades. Fir=
+ms including Deutsche Bank AG have responded to narrowing margins in stock =
+trading in recent years by shuttering some desks, ceding market share to to=
+p players such as JPMorgan Chase &amp; Co. and Goldman Sachs Group Inc.</p>=
+<p style=3D"margin: 16px 0;">=E2=80=9CBanks and brokers are getting squeeze=
+d on both ends, which is where we are seeing customer service deteriorating=
+,=E2=80=9D said Jesse Forster, a senior analyst of market structure and tec=
+hnology at Coalition Greenwich. =E2=80=9CInvestors are not getting their pr=
+oper trading coverage, and they have been vocal about that.=E2=80=9D</p><p =
+style=3D"margin: 16px 0;">Citadel Securities=E2=80=99 move underscores the =
+ambitions afoot inside billionaire Griffin=E2=80=99s massive trading operat=
+ion, led by Chief Executive Officer=C2=A0Peng Zhao. The firm would likely p=
+itch such partnerships as a way for embattled banks and brokerages to shave=
+ costs and offer customers better pricing with superior technology.</p></bl=
+ockquote><p style=3D"margin: 16px 0;">It used to be that, if you wanted to =
+trade an exotic derivative or sell a portfolio of high-yield bonds, you cou=
+ld call like eight banks and they would each quote you an aggressive price =
+to win your business. Each of them was willing to=C2=A0<em>take=C2=A0</em><=
+em>risk=C2=A0</em>to quote you that price: They wanted to be your counterpa=
+rty on the derivative, or to buy the bonds from=C2=A0you for their own acco=
+unt. Now, banks in general have less capacity to take those risks, and if y=
+ou call your eight banks some of them will refuse to quote=C2=A0you a price=
+, or will quote you a price that is not very attractive. And you will be ag=
+grieved. =E2=80=9CWe are seeing customer service deteriorating,=E2=80=9D no=
+t in the sense that Deutsche Bank doesn=E2=80=99t give its institutional cu=
+stomers a snazzy app that rains confetti when they do a trade =E2=80=94=C2=
+=A0the institutional customers don=E2=80=99t want that! =E2=80=94=C2=A0but =
+in the sense that Deutsche Bank doesn=E2=80=99t give its institutional cust=
+omers aggressive, or any, quotes on some of the trades that they want to do=
+.=C2=A0</p><p style=3D"margin: 16px 0;">Meanwhile Citadel Securities really=
+ is in the business of taking trading risk, and it can hire risk-takers who=
+ would formerly have gone to banks. Also the business of taking trading ris=
+k (particularly in equities) is much more automated and algorithmic than it=
+ used to be, so Citadel Securities=E2=80=99 computers can do the trades tha=
+t would once have been done by a bank=E2=80=99s humans.</p><p style=3D"marg=
+in: 16px 0;">We talk about this theme from <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjQtMDMtMDQvdHJhZGluZy1kZXNrcy10cmFkZS1sZXNzLWxlb=
+mQtbW9yZT9jbXBpZD1CQkQwNzExMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9z=
+b3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA3MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY=
+/607f07ceef4b8524a319a23cB8526ed4d" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">time</a> to <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjQtMDItMDcvaGVkZ2UtZnVuZHMtYXJlLWRl=
+YWxlcnMtbm93P2NtcGlkPUJCRDA3MTEyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXR=
+tX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdH=
+VmZg/607f07ceef4b8524a319a23cB49e56976" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">time</a> around <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDktMTQvcGVvcGxlLWFyZS13=
+b3JyaWVkLWFib3V0LXRoZS1iYXNpcy10cmFkZT9jbXBpZD1CQkQwNzExMjRfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA3MTEmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBfad79523" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+here</a>. The potted history is something like:</p><ol style=3D"list-style-=
+type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-=
+bottom: 5px;">Once, when investors wanted to buy and sell securities, they =
+called up an independent dealer=C2=A0or investment bank, which traded with =
+them for its own account.</li>=09<li style=3D"margin-bottom: 5px;">Over tim=
+e, as regulatory restrictions eased and as the need for scale increased, th=
+ose dealers increasingly became=C2=A0<em>banks</em>, or rather affiliates o=
+f banks: The firms that had the most capacity to take big trading positions=
+ were those with access to a bank=E2=80=99s balance sheet.</li>=09<li style=
+=3D"margin-bottom: 5px;">After 2008, regulatory restrictions on banks incre=
+ased, they became less interested in risk-taking, and they became less able=
+ to take big trading positions.</li>=09<li style=3D"margin-bottom: 5px;">An=
+d so now the people who have the most capacity to take big trading position=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjQtMDYtMTIvYmF=
+ua3MtdHJhbnNmZXItcmlzay10by10aGVtc2VsdmVzP2NtcGlkPUJCRDA3MTEyNF9NT05FWVNUVU=
+ZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDcxM=
+SZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6dd9d3c3" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">are=C2=A0<em>not=C2=A0</em>banks</a>. They=E2=80=99re hedge funds, or pro=
+prietary trading firms, or alternative asset managers, or whatever.</li>=09=
+<li style=3D"margin-bottom: 5px;">Kind of like the dealers in Step 1, excep=
+t now they have better computers.</li></ol><p style=3D"margin: 16px 0;">The=
+ banks still have the relationships, though.</p><table class=3D"liveintent-=
+sponsored-content" width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZzdHBlPWRlZmF1bHQmbGk9M=
+zYwMjcwMjMmbT0yMWQ2ZGVhODJkNmIxNjYxNWNmNDQyMzNiZTYyMDUyNSZwPTM2MjIyNDI5Jg/6=
+07f07ceef4b8524a319a23cCf62e34bb" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;stpe=3Ddefault&amp=
+;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;li=3D36027023&amp;m=3D21d6=
+dea82d6b16615cf44233be620525&amp;p=3D36222429&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZzdHBlPWRlZmF1bHQmbGk9M=
+zYwMjcwMjMmbT0yMWQ2ZGVhODJkNmIxNjYxNWNmNDQyMzNiZTYyMDUyNSZwPTM2MjIyNDI5Jg/6=
+07f07ceef4b8524a319a23cDf62e34bb" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;stpe=3Ddefault&amp=
+;li_coord=3Dmobile&amp;collapse_width=3D550&amp;li=3D36027023&amp;m=3D21d6d=
+ea82d6b16615cf44233be620525&amp;p=3D36222429&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bill Hwang</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Bill Hwang was charged with market man=
+ipulation because his family office, Archegos Capital Management, bought a =
+ton of shares of about a dozen stocks, as sloppily as possible, with the ef=
+fect and apparent intention of making those stocks go up. Yesterday <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDctMTAvYmlsbC1od2FuZy1m=
+b3VuZC1ndWlsdHktYWZ0ZXItdHJpYWwtb3Zlci0yMDIxLWFyY2hlZ29zLWNvbGxhcHNlP2NtcGl=
+kPUJCRDA3MTEyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTI0MDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cBa80c3629" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">a jury convicted him</a>.<a class=3D"footnote=
+-index" href=3D"#footnote-4" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: none !important; background-color: transparent !important; d=
+isplay: inline-block;">
+<span>[4]</span>
+</a>=C2=A0After the trial, it seems reasonably clear that Hwang wanted to b=
+uy a ton of those stocks to push their prices up, and he told his trader to=
+ do so. He wasn=E2=80=99t=C2=A0<em>just=C2=A0</em>buying lots of those stoc=
+ks because he liked them, with the accidental side effect of pushing up the=
+ prices; he really wanted to push up the prices, and bought in an aggressiv=
+e manner to achieve that goal.=C2=A0</p><p style=3D"margin: 16px 0;">And th=
+at=E2=80=99s probably illegal: Buying a ton of stock with the <em>intention=
+ </em>of pushing up the price is market manipulation; it=E2=80=99s causing =
+the price of the stock to reflect something other than real supply and dema=
+nd.<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: none !important; background-color: tr=
+ansparent !important; display: inline-block;">
+<span>[5]</span>
+</a></p><p style=3D"margin: 16px 0;">Still, the trial is unsatisfying. Norm=
+ally, in this sort of market manipulation =E2=80=94=C2=A0=E2=80=9C<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6L=
+y93d3cucmV1dGVycy5jb20vbGVnYWwvanVyeS1yZWFjaGVzLXZlcmRpY3QtYXJjaGVnb3MtZm91=
+bmRlci1od2FuZ3MtY3JpbWluYWwtdHJpYWwtMjAyNC0wNy0xMC8/607f07ceef4b8524a319a23=
+cBc92a7768" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">open market manipulation</a>,=E2=80=9D where you artifi=
+cially inflate the price of a stock just by buying a lot of it, without als=
+o going around telling lies about how the company has a cure for cancer or =
+whatever =E2=80=94 you also have=C2=A0<em>some plan to make money</em>.=C2=
+=A0Right? It=E2=80=99s easy, with enough money, to make a stock go up: You =
+just buy a lot of it, and the price will go up. But then what? Then you sel=
+l a lot of it, and the price will go right back down. You have big paper pr=
+ofits on the way up, but you cannot realize those profits, and by the time =
+you sell the stock you end up losing money. This certainly <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDctMTEvYmlsbC1od2FuZy12ZXJkaWN0L=
+XRoZS1jcmltaW5hbC1jb252aWN0aW9uLW9mLWFyY2hlZ29zLXMtZm91bmRlci1leHBsYWluZWQ_=
+Y21waWQ9QkJEMDcxMTI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5=
+ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNzExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07cee=
+f4b8524a319a23cB5ae821c8" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">happened to Hwang</a>: He started off wit=
+h hundreds of millions of dollars, briefly manipulated his way to $36 billi=
+on, sold his stocks and ended up at zero.</p><p style=3D"margin: 16px 0;">T=
+here=C2=A0<em>are=C2=A0</em>ways to make money from this sort of market man=
+ipulation, but they require some sort of additional plan. We have <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDEtMDMvY3J5cHRvLW1h=
+bmlwdWxhdGlvbi1oYXMtY29uc2VxdWVuY2VzP2NtcGlkPUJCRDA3MTEyNF9NT05FWVNUVUZGJnV=
+0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDcxMSZ1dG=
+1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc584f35d" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">tal=
+ked about Avi Eisenberg</a>, the Mango Markets guy, who artificially inflat=
+ed the price of a crypto token (by buying a lot of it), created large paper=
+ profits on a derivative position, and then was able to withdraw those prof=
+its from a somewhat dumb decentralized finance protocol.=C2=A0<em>That=E2=
+=80=99s=C2=A0</em>how you do market manipulation: Buy a lot of a thing, yes=
+, but also (1) have a bigger derivative position that profits from your buy=
+ing and/or (2) trick someone into lending you money against your artificial=
+ly inflated asset so you don=E2=80=99t have to sell it and drive down the p=
+rice. (Eisenberg was also convicted.)=C2=A0<em>That=C2=A0</em>makes sense: =
+You inflate the price of the thing, and you have some plan to make money.</=
+p><p style=3D"margin: 16px 0;">From the beginning, <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMjcvYmlsbC1od2FuZy1hcnJlc3QtaW5za=
+WRlLXRoZS12aWNpb3VzLWN5Y2xlLW9mLWFyY2hlZ29zLWNvbGxhcHNlP2NtcGlkPUJCRDA3MTEy=
+NF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTI0MDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB5e=
+2e78a8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">the mystery of Bill Hwang</a> is that there has never been =
+any real evidence that he had a plan to make money. He bought stocks, he pu=
+shed them up, he had paper profits, he had capacity to withdraw or borrow a=
+gainst some of those paper profits, and he plowed basically all of them bac=
+k into buying more of the same stocks. He never took his foot off the gas; =
+he was pouring more money into those stocks the week they all collapsed. I =
+have speculated that it would be cool if at some point he withdrew a billio=
+n dollars of profits and buried them in his backyard, but even after the tr=
+ial I have never seen any evidence of that.<a class=3D"footnote-index" href=
+=3D"#footnote-6" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[6]</span>
+</a> =E2=80=9CWhat was in it for him,=E2=80=9D <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjQtMDUtMDcvYm9uZC1tYXJrZXRzLWFyZS10aGUtbmV3L=
+XN0b2NrLW1hcmtldHM_Y21waWQ9QkJEMDcxMTI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFp=
+bCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNzExJnV0bV9jYW1wYWlnbj1tb25=
+leXN0dWZm/607f07ceef4b8524a319a23cB01c7f6ad" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">the judge asked before=
+ the trial</a>, and I don=E2=80=99t think there was ever really an answer.=
+=C2=A0</p><p style=3D"margin: 16px 0;">It doesn=E2=80=99t matter! Manipulat=
+ing stocks for no reason is illegal, just like manipulating them for profit=
+ would be. It=E2=80=99s just narratively unsatisfying.</p><ol style=3D"list=
+-style-type: decimal; padding-left: 40px; margin: 16px 0;"></ol><table clas=
+s=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Greenshoes</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">When a US company does an initial publ=
+ic offering of its stock, there is normally a =E2=80=9Cgreenshoe.=E2=80=9D=
+=C2=A0Let=E2=80=99s say the company plans to sell 10 million shares in its =
+IPO. The company hires investment banks to sell the stock, they go out and =
+market the stock and take orders, and eventually they come back to the comp=
+any and say =E2=80=9Cwe think you can sell your 10 million shares at $20 ea=
+ch.=E2=80=9D The company agrees, the deal is priced, and the banks go off a=
+nd allocate the stock to the investors who put in orders.</p><p style=3D"ma=
+rgin: 16px 0;">But the banks do not allocate 10 million shares to investors=
+. They allocate 11.5 million shares, 15% more than the size of the offering=
+.=C2=A0The company sells 10 million shares to the banks for $200 million, b=
+ut the banks sell 11.5 million shares to investors for $230 million.<a clas=
+s=3D"footnote-index" href=3D"#footnote-7" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: none !important; background-color: transparent =
+!important; display: inline-block;">
+<span>[7]</span>
+</a> The banks are, effectively,=C2=A0<em>short=C2=A0</em>1.5 million share=
+s. Sort of. Actually, in addition to the 10 million shares that it sells to=
+ the banks, the company also gives the banks an=C2=A0<em>option</em>=C2=A0t=
+o buy another 1.5 million shares, at the IPO price, within the next few wee=
+ks. The option is called a =E2=80=9Cgreenshoe option,=E2=80=9D <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3=
+cubWFuaGF0dGFuc3RyZWV0Y2FwaXRhbC5jb20vZmFxL2Zvci1mdW5kcmFpc2Vycy1mb3ItaW52Z=
+XN0b3JzL3doYXQtZ3JlZW5zaG9lLXVzZWQtaXBvcw/607f07ceef4b8524a319a23cBe5c51ec4=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">named after</a> the first company to do it.=C2=A0</p><p style=3D"=
+margin: 16px 0;">And then the stock opens for trading, and it either trades=
+ up or down. Ordinarily it trades up. If the stock ends its first day of tr=
+ading at, say, $27, then the banks come to the company and say =E2=80=9Cthe=
+ stock traded well, everything=E2=80=99s great and we=E2=80=99re exercising=
+ the greenshoe.=E2=80=9D The company gives the banks the extra 1.5 million =
+shares, the banks give the company the extra $30 million, and the number of=
+ shares issued by the company (11.5 million) matches the number of shares s=
+old in the IPO.</p><p style=3D"margin: 16px 0;">Sometimes it trades down, t=
+hough. If, on the first day, the stock falls from $20 to $19.75, the banks =
+will start=C2=A0<em>buying back=C2=A0</em>some of the stock they sold. This=
+ has the effect of keeping the price up: If nobody else is buying the stock=
+, the banks will. They will keep going until they have bought back 1.5 mill=
+ion shares, =E2=80=9Cusing=E2=80=9D the greenshoe to =E2=80=9Cdefend=E2=80=
+=9D the IPO price. If the banks buy back all 1.5 million shares, then they =
+close out their short that way: They never exercise the greenshoe option, t=
+he company only issues 10 million shares, and after the IPO is done only 10=
+ million shares are outstanding. The banks sold 11.5 million and bought bac=
+k 1.5 million to defend the price.</p><p style=3D"margin: 16px 0;">This is =
+called =E2=80=9Cstabilization,=E2=80=9D and it is a sort of <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTYtMTEtMjUvYXBwZWFscy1jb3VydC1j=
+b25jbHVkZXMtdGhhdC1pcG9zLWFyZS1sZWdhbD9jbXBpZD1CQkQwNzExMjRfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA3MTEmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB8e5d4848" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+legal form of market manipulation</a>: The banks that do an IPO are allowed=
+ to buy back stock to try to stop it falling below the IPO price. It is a l=
+ongstanding part of US stock offerings, and bankers will tell companies tha=
+t it is essential. Because the banks stand ready to defend the IPO price, i=
+nvestors have more confidence that the IPO price is good, and are more like=
+ly to buy the IPO. And so most US IPOs feature greenshoes: Investors like t=
+hem, banks insist on them, and companies=C2=A0want their IPOs to go well an=
+d don=E2=80=99t want to leave out a feature that investors want. I have nev=
+er been all that convinced that greenshoes are necessary, and you probably =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS92aWV3L2FydGljbGVzLzIwMTgtMDMtMTYvc3BvdGlme=
+S13aWxsLXNraXAtYS1sb3Qtb2YtaXBvLWVzc2VudGlhbHM_Y21waWQ9QkJEMDcxMTI0X01PTkVZ=
+U1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQ=
+wNzExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB85e69341" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">could do an IPO without one</a>, but most companies end up doing the =
+standard thing.</p><p style=3D"margin: 16px 0;">Every so often, though, the=
+ greenshoe leads to a weird result. The IPO prices at $20, and the next day=
+ it opens for trading at, like, $16. The deal is just mispriced, the invest=
+ors who buy in the IPO are hoping to flip it, there are no real buyers, and=
+ the stock immediately falls well below the IPO price. In that case, there =
+is not a ton that the banks can do, but they=E2=80=99ll do what they can: T=
+hey buy back the 1.5 million shares, at $16 each, to stop the price going e=
+ven lower.</p><p style=3D"margin: 16px 0;">The weird result is that they so=
+ld those 1.5 million shares for $20 and bought them back at $16, making a p=
+rofit of $6 million.=C2=A0<em>They shorted the stock of the IPO they were s=
+elling, and made money when it went down. </em>That looks bad!</p><p style=
+=3D"margin: 16px 0;">And in fact some form of this has happened in several =
+high-profile IPOs =E2=80=94=C2=A0including <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vYX=
+J0aWNsZS9pZFVTMjg2NzAzNTA5NS8/607f07ceef4b8524a319a23cB27448b24" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Facebook Inc.</a>=C2=A0and <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/36027023.195406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMTktMDUtMTQvdGhlcmUtd2FzLW5vLXdheS10by13aW4td2l0aC10aGUtdWJlci1pc=
+G8_Y21waWQ9QkJEMDcxMTI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNl=
+PW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNzExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07=
+ceef4b8524a319a23cB313eb3d6" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Uber Technologies Inc.</a> =E2=80=94=
+=C2=A0and each time there is a little controversy about the fact that the b=
+anks make money by pricing IPOs too high and betting against them.</p><p st=
+yle=3D"margin: 16px 0;">Now, this is <a href=3D"https://link.mail.bloomberg=
+business.com/click/36027023.195406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjEtMDEtMjAvZ3JlZW4tc2hvZXMtbG9vay1mdW5ueT9jbXBpZD1CQkQ=
+wNzExMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlci=
+Z1dG1fdGVybT0yNDA3MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a=
+23cBabad5738" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">not a particularly serious controversy</a>, because i=
+t=E2=80=99s pretty clear that the banks are not doing this nefariously. If =
+they were, they=E2=80=99d do it more often! In fact, most IPOs are clearly =
+priced to go=C2=A0<em>up</em>, and the more frequent complaint is =E2=80=9C=
+banks underprice IPOs to benefit their investor clients at the expense of t=
+he IPO companies,=E2=80=9D not =E2=80=9Cbanks overprice IPOs to make money =
+trading the greenshoe.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;">Still=
+ it=E2=80=99s all a little weird, and companies that pay attention sometime=
+s find it annoying. Why should the banks be able to make money on the green=
+shoe? Maybe you have to have this mechanism =E2=80=94=C2=A0greenshoes, shor=
+t selling, stabilization, etc. =E2=80=94=C2=A0to attract investors to the I=
+PO, but why is it necessary for the=C2=A0<em>banks=C2=A0</em>to profit from=
+ it? I once talked to a startup founder who was thinking of going public an=
+d who was contemplating demanding that, if the banks=C2=A0<em>do=C2=A0</em>=
+make any money trading the greenshoe, they give it back to the company: Sho=
+uldn=E2=80=99t that money belong to the company, not its banks?</p><p style=
+=3D"margin: 16px 0;">Well Bill Ackman is actually doing it. Here is the lat=
+est <a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.19540=
+6/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzIwMDI2NjAvMDAwMTE5M=
+zEyNTI0MTc2NTQxL2Q2MjM3ODFkbjJhLmh0bQ/607f07ceef4b8524a319a23cBab32b68f" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">prospectus</a> for Pershing Square USA Ltd., his proposed US public i=
+nvestment vehicle. In <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/36027023.195406/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzI=
+wMDI2NjAvMDAwMTE5MzEyNTI0MTc2NTQxL2Q2MjM3ODFkbjJhLmh0bSNkNjIzNzgxXzIw/607f0=
+7ceef4b8524a319a23cB3431ddb8" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">the description of the greenshoe</a>,=
+ it says: =E2=80=9CTo the extent the Underwriters generate a net profit fro=
+m purchasing Common Shares at prices below the initial public offering pric=
+e to close out any syndicate short position, the Underwriters have agreed t=
+o pay any such net profit to the Company.=E2=80=9D If PSUS falls below its =
+IPO price and the banks make money buying=C2=A0back stock, they have to pay=
+ it to PSUS.</p><p style=3D"margin: 16px 0;">Now, this is a bit of an odd c=
+ase. PSUS=E2=80=99s initial public offering price is fixed at $50 per share=
+, and in a sense it can=E2=80=99t really be over- or undervalued: PSUS will=
+ initially be just a pot of money that Pershing Square will use to invest i=
+n companies, so each share will initially represent $50 worth of money in t=
+he pot. The stock might end up trading at a discount or a premium to that v=
+alue =E2=80=94=C2=A0Pershing Square Holdings, its similar European vehicle,=
+ trades at about a 20% discount to net asset value, while a more US-friendl=
+y vehicle, given Ackman=E2=80=99s track record and social media presence, c=
+ould trade at a premium =E2=80=94=C2=A0but it=E2=80=99s not going to drop 5=
+0% on the first day. (Not investment advice!) The=C2=A0<em>pricing=C2=A0</e=
+m>of this IPO is much less uncertain that the pricing of the typical tech s=
+tartup IPO, so the chances of making a big profit trading the greenshoe are=
+ lower.</p><p style=3D"margin: 16px 0;">Nonetheless it=E2=80=99s a preceden=
+t. If the banks agree to pay over their greenshoe profits here, what=E2=80=
+=99s to stop the next tech startup IPO company from asking for the same dea=
+l? =E2=80=9CNo, PSUS was different, it was a pot of cash, the expected gree=
+nshoe profits were zero=E2=80=9D is not a very good argument: The greenshoe=
+ profits are=C2=A0<em>supposed=C2=A0</em>to be zero on every deal, and if t=
+he banks make money on the greenshoe it is because something has gone wrong=
+. Why should they profit from that?</p><table class=3D"header" width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Sacklers</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The Purdue Pharma LP situation is:</p>=
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Purdue Pharma makes opioid painkiller=
+s that led to an addiction crisis and killed a lot of people. Various peopl=
+e sued, and Purdue owes them far more money than it has, so it filed for ba=
+nkruptcy.</li>=09<li style=3D"margin-bottom: 5px;">In the years before it w=
+ent bankrupt, Purdue Pharma kicked out something like $11.5 billion to its =
+owners, the Sackler family, some of whose members=C2=A0ran the company and =
+were involved in its opioid marketing.</li>=09<li style=3D"margin-bottom: 5=
+px;">In addition to=C2=A0<em>Purdue=E2=80=99s</em>=C2=A0money, the various =
+victims want the=C2=A0<em>Sacklers=E2=80=99=C2=A0</em>money, since that mon=
+ey largely comes from Purdue and since the Sacklers were largely responsibl=
+e for Purdue=E2=80=99s opioid work.</li>=09<li style=3D"margin-bottom: 5px;=
+">But suing the Sacklers is complicated: They=E2=80=99re rich and have good=
+ lawyers and a lot of the money is now offshore or in trusts that will be h=
+ard to access.</li>=09<li style=3D"margin-bottom: 5px;">So a settlement was=
+ worked out: The Sacklers would give about $6 billion of their money to the=
+ Purdue bankruptcy estate to pay claims, and in exchange no one would be ab=
+le to sue them anymore. All their opioid liability would go away.</li>=09<l=
+i style=3D"margin-bottom: 5px;">This is called a =E2=80=9Cnonconsensual thi=
+rd-party release=E2=80=9D: Purdue=E2=80=99s bankruptcy=C2=A0would end all o=
+pioid-related lawsuits against the Sacklers, even though they are not bankr=
+upt themselves.</li>=09<li style=3D"margin-bottom: 5px;">A bankruptcy court=
+ signed off on this, a district court <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjEtMTItMjMvdGhlLXB1cmR1ZS1iYW5rcnVwdGN5LWRpZG4tdC13b3=
+JrP2NtcGlkPUJCRDA3MTEyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cB2a58ec8c" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">found it was not allowed</a>, an appe=
+als courts <a href=3D"https://link.mail.bloombergbusiness.com/click/3602702=
+3.195406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMD=
+UtMzEvcHVyZHVlLXBoYXJtYS1zLWJhbmtydXB0Y3ktd29ya3Mtbm93P2NtcGlkPUJCRDA3MTEyN=
+F9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTI0MDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBfb3=
+aac9d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">found that it was</a>, and finally last month the US Supreme=
+ Court <a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.19=
+5406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjQtMDYtMj=
+cvcHVyZHVlLXMtYmFua3J1cHRjeS13ZW50LXRvby1mYXI_Y21waWQ9QkJEMDcxMTI0X01PTkVZU=
+1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQw=
+NzExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB42335d6f" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">overruled that decision</a> and found that it is in fact not allowed. =
+The bankruptcy court can=E2=80=99t just end all the lawsuits against the Sa=
+cklers.</li>=09<li style=3D"margin-bottom: 5px;">Now what?</li></ol><p styl=
+e=3D"margin: 16px 0;">Well, part of the answer is that there are two sorts =
+of claims against the Sacklers. The most straightforward=C2=A0ones are=C2=
+=A0<em>Purdue=E2=80=99s=C2=A0</em>claims. The rough idea is that bankruptcy=
+ courts can travel back in time a bit. When a company goes bankrupt, you ad=
+d up its assets and liabilities and then divvy up the money (1) fairly and =
+(2) based on the seniority of claims. So if the company has $100 of assets,=
+ $50 of senior debt, $100 of junior debt and then some shareholders, the ba=
+nkruptcy court gives the senior creditors 100 cents on the dollar, the juni=
+or creditors=C2=A050 cents on the dollar, and the shareholders nothing.</p>=
+<p style=3D"margin: 16px 0;">But if the shareholders paid themselves a divi=
+dend the day before the bankruptcy, that would obviously be cheating: The b=
+ankruptcy was imminent, and the=C2=A0shareholders are supposed to get nothi=
+ng! Or even if the junior creditors got paid off in full the day before the=
+ bankruptcy =E2=80=94=C2=A0even if they were totally innocent and=C2=A0real=
+ly owed the money =E2=80=94=C2=A0that=E2=80=99s not fair either, because th=
+e company was=C2=A0<em>basically=C2=A0</em>bankrupt, and they should be beh=
+ind the senior creditors in line.</p><p style=3D"margin: 16px 0;">And so ba=
+nkruptcy courts have various ways to claw back money that went out the door=
+=C2=A0<em>before=C2=A0</em>the bankruptcy. We=C2=A0<a href=3D"https://link.=
+mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjQtMDctMDkvY2Vsc2l1cy13YW50cy1zb21lLW1vb=
+mV5LWJhY2s_Y21waWQ9QkJEMDcxMTI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNzExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cB59900d53" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">talked the other day</a> about=
+ how some customers of Celsius, the bankrupt crypto firm, withdrew their mo=
+ney shortly before it went bankrupt, and so got back 100 cents on the dolla=
+r, while other customers waited until bankruptcy and will get back less. Ce=
+lsius is trying to take their money back, under rules about <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3cub=
+GF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzExLzU0Nw/607f07ceef4b8524a319a23cB34c0=
+9b5a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">avoidable transfers</a>: If the company is insolvent and pays=
+ back some creditors shortly before bankruptcy, and they get more than they=
+ would get in bankruptcy, the bankruptcy court can undo those payments and =
+make the creditors give back the money. The court can also claw back =E2=80=
+=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406=
+/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzExLzU0OA/607f07ceef4=
+b8524a319a23cB3dbeb6fa" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">fraudulent transfers</a>,=E2=80=9D which co=
+vers actual fraud =E2=80=94=C2=A0payments=C2=A0that were made before bankru=
+ptcy =E2=80=9Cwith=C2=A0actual intent to hinder, delay, or defraud=E2=80=9D=
+ creditors =E2=80=94=C2=A0but also=C2=A0<em>dividends</em>=C2=A0made while =
+the company was insolvent. The idea is that, if the company is going bankru=
+pt, the shareholders should be last in line; if they paid=C2=A0themselves b=
+efore bankruptcy, they have to give the money back.</p><p style=3D"margin: =
+16px 0;">Again, the Sacklers paid themselves $11.5 billion over the years b=
+efore bankruptcy, and there=E2=80=99s some argument that at least some of t=
+hat money can be clawed back. Also, some of them were officers and director=
+s of Purdue Pharma, which might have claims against them for violating thei=
+r fiduciary duties. Intuitively, Purdue Pharma is worth a large negative am=
+ount of money due to the actions of the Sacklers =E2=80=94=C2=A0both in run=
+ning the company and in stripping it of cash as the end approached =E2=80=
+=94=C2=A0and so it has various potential lawsuits against them.</p><p style=
+=3D"margin: 16px 0;">But there is also another sort of claim: everyone else=
+=E2=80=99s personal claims against the Sacklers for everything else. There =
+are various legal theories that might make members of the Sackler family pe=
+rsonally liable for Purdue Pharma=E2=80=99s opioid marketing, so victims or=
+ state attorneys general could sue them under those theories. Not =E2=80=9C=
+you owe this money to Purdue, which owes it to me,=E2=80=9D but =E2=80=9Cyo=
+u owe this money to me directly.=E2=80=9D</p><p style=3D"margin: 16px 0;">T=
+he Supreme Court essentially ruled that the bankruptcy court can=E2=80=99t =
+release the second category of claims: The Sacklers aren=E2=80=99t bankrupt=
+, so if some attorney general wants to bring some personal lawsuit against =
+one of them, the bankruptcy court can=E2=80=99t stop it. But the bankruptcy=
+ court can=C2=A0clearly<em>=C2=A0</em>release the first category of claims:=
+ Those claims belong to Purdue Pharma, and Purdue Pharma is in bankruptcy, =
+and if Purdue Pharma wants to settle a lawsuit against the Sacklers, the ba=
+nkruptcy court is the court that will sign off on that.</p><p style=3D"marg=
+in: 16px 0;">The Sacklers don=E2=80=99t want that: They don=E2=80=99t want =
+to settle=C2=A0<em>only </em>Purdue=E2=80=99s claims; they want to settle=
+=C2=A0<em>everyone=E2=80=99s=C2=A0</em>claims and get a full release. They =
+don=E2=80=99t want to pay 90% of their money to Purdue, only to get sued fo=
+r another 300% of their money by other people. They want a global settlemen=
+t. And the Supreme Court said that they can=E2=80=99t get it.</p><p style=
+=3D"margin: 16px 0;">To be clear, Purdue=E2=80=99s bankruptcy estate =E2=80=
+=94=C2=A0the lawyers and judges working on the case, including most of the =
+victims and creditors =E2=80=94=C2=A0wanted that too. They wanted a global =
+settlement because that maximized the amount of money the Sacklers were wil=
+ling to put in. Without a global settlement, the Sacklers will be less incl=
+ined to settle any individual case.</p><p style=3D"margin: 16px 0;">But tha=
+t=E2=80=99s not an option anymore, so the obvious next step is for the bank=
+ruptcy estate to try to settle=C2=A0<em>its=C2=A0</em>claims against the Sa=
+cklers. And the first step in=C2=A0<em>that=C2=A0</em>process is pretty muc=
+h to rattle some swords and make it clear that (1) Purdue Pharma=C2=A0<em>h=
+as=C2=A0</em>claims against the Sacklers, (2) those claims are good and big=
+ and (3) it will pursue them aggressively. So <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnR=
+pY2xlcy9wdXJkdWUtcGhhcm1hLWJhY2tzLWNyZWRpdG9yLWxhd3N1aXQtYWdhaW5zdC1zYWNrbG=
+Vycy1mb3Itc2hpZnRpbmctYXNzZXRzLWUxNWFlMWUzP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f=
+07ceef4b8524a319a23cB29bacb24" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">the Wall Street Journal reports</a>:=
+</p><blockquote><p style=3D"margin: 16px 0;">Bankrupt opioid maker Purdue P=
+harma is backing an effort by its top creditors to sue members of the Sackl=
+er family who own the company over allegations that they illegally transfer=
+red billions of dollars to private trusts before Purdue=E2=80=99s 2019 bank=
+ruptcy filing.</p><p style=3D"margin: 16px 0;">The official committee of Pu=
+rdue=E2=80=99s creditors filed a proposed complaint against the Sacklers on=
+ Monday after the Supreme Court last month rejected a $6 billion settlement=
+ agreement to resolve the mass opioid-related lawsuits against the company=
+=E2=80=99s family owners.</p><p style=3D"margin: 16px 0;">Purdue supports g=
+ranting the creditors committee the legal standing to sue, according to Mon=
+day=E2=80=99s filing. The company also is seeking to restart negotiations w=
+ith the Sacklers, whose wealth has been estimated near $11 billion.</p></bl=
+ockquote><p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly9hc3NldHMuYndieC5pby9=
+kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3Jva3J2a2NFcGdfby92MA/607f07ceef4b852=
+4a319a23cB4cea8281" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">the proposed complaint</a>, which is quite pu=
+nchy:</p><blockquote><p style=3D"margin: 16px 0;">To guarantee their family=
+ remained ultrawealthy for generations to come, the Sacklers also had to si=
+phon those profits out of the Debtors, and (they hoped) beyond the reach of=
+ Purdue=E2=80=99s creditors, including the individual and governmental vict=
+ims of the opioid crisis that Purdue and the Sacklers helped create and fue=
+l.=C2=A0Indeed, the Sacklers=E2=80=99 efforts to move assets out of Purdue =
+and away from its creditors are at the heart of this Complaint. The experie=
+nce of Purdue=E2=80=99s guilty plea in 2007 particularly alarmed the Sackle=
+rs and drove home the danger that opioid-related litigation could swamp Pur=
+due and threaten their wealth. Just a few days after entry of the first gui=
+lty plea in 2007, the Sacklers panicked and asked each other, =E2=80=9C<em>=
+We=E2=80=99re rich? For how long? Until which suits get through to the fami=
+ly?</em>=E2=80=9D A few months later, Peter Boer, a close family advisor an=
+d soon-to-be Purdue director, advised the Sacklers to =E2=80=9Ctake defensi=
+ve measures=E2=80=9D against Purdue=E2=80=99s =E2=80=9Cuncapped liabilities=
+,=E2=80=9D including by sending assets overseas. Boer counseled the Sackler=
+s to deprive litigants of a =E2=80=9Cdeep pocket=E2=80=9D from which to rec=
+over damages inflicted by Purdue.</p><p style=3D"margin: 16px 0;">Consisten=
+t with that advice, the Sacklers spent the next decade siphoning off the pr=
+oceeds of their illegal marketing and sale of opioids from Purdue just as B=
+oer and others had counseled. The Sacklers transferred billions into an ela=
+borate system of trusts and offshore entities in a manner designed to defra=
+ud the Debtors and the Debtors=E2=80=99 creditors and frustrate any effort =
+at recovery by the individuals and governments that have been devastated by=
+ Purdue=E2=80=99s crimes. The family hoped they had created =E2=80=9Clayers=
+ and layers that would have to be penetrated=E2=80=9D before litigation cou=
+ld threaten the =E2=80=9Cvast fortune=E2=80=9D the family had built. Immedi=
+ately following the 2007 guilty plea, the Sacklers dramatically increased d=
+istributions from the company, transferring more than $11.5 billion in cash=
+ and property offshore and to spendthrift trusts in less than a decade.=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">And the Journal quotes the=
+ Sacklers=E2=80=99 punchy response:</p><blockquote><p style=3D"margin: 16px=
+ 0;">Representatives for the families of the late Mortimer Sackler and the =
+late Raymond Sackler said the creditors=E2=80=99 filing =E2=80=9Cis riddled=
+ with factual errors, ignores that about half the money was paid in taxes a=
+nd is contrary to the goal of working together towards a resolution that pr=
+ovides billions of dollars for communities and people in need.=E2=80=9D</p>=
+</blockquote><p style=3D"margin: 16px 0;">But all of this is probably part =
+of negotiations. Purdue Pharma wrote a <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/36027023.195406/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bW=
+VudHMvdXNlcnMvaXFqV0hCRmRmeElVL3J0OWI4b2djQXBfRS92MA/607f07ceef4b8524a319a2=
+3cBfc65d8b9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">statement supporting the lawsuit</a>, saying that =E2=
+=80=9Cthe Debtors=E2=80=99 claims against third parties are the estates=E2=
+=80=99 most valuable assets=E2=80=94they underlay the settlement under whic=
+h the Sacklers had previously agreed to pay $5.5-6 billion.=E2=80=9D But it=
+ adds that that =E2=80=9Cthe Debtors are hopeful that mediation will lead t=
+o a consensual resolution of these chapter 11 cases.=E2=80=9D=C2=A0</p><p s=
+tyle=3D"margin: 16px 0;">Basically: The Sacklers agreed to pay up to $6 bil=
+lion of their own money to opioid victims, because they figured that was be=
+tter than fighting a million lawsuits. In exchange, they wanted those lawsu=
+its to all go away. The Supreme Court said that that is not allowed. Now, P=
+urdue Pharma would like the Sacklers to pay up to $6 billion of their own m=
+oney to opioid victims, because they figure that is better than fighting=C2=
+=A0<em>one=C2=A0</em>lawsuit =E2=80=94=C2=A0the biggest and most straightfo=
+rward one =E2=80=94=C2=A0from Purdue itself. That negotiation starts by thr=
+eatening the lawsuit.</p><table class=3D"header" width=3D"100%" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I dunno, <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20=
+vMjAyNC8wNy8xMS90ZWNobm9sb2d5L2Vsb24tbXVzay1zcGFjZXgtbWFycy5odG1s/607f07cee=
+f4b8524a319a23cB32bddf95" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">this is kind of cool</a>:</p><blockquote>=
+<p style=3D"margin: 16px 0;">[Elon]=C2=A0Musk, 53, has directed SpaceX empl=
+oyees to drill into the design and details of a Martian city, according to =
+five people with knowledge of the efforts and documents viewed by The New Y=
+ork Times. One team is drawing up plans for small dome habitats, including =
+the materials that could be used to build them. Another is working on space=
+suits to combat Mars=E2=80=99s hostile environment, while a medical team is=
+ researching whether humans can have children there. Mr. Musk has volunteer=
+ed his sperm to help seed a colony, two people familiar with his comments s=
+aid.</p><p style=3D"margin: 16px 0;">The initiatives, which are in their in=
+fancy, are a shift toward more concrete planning for life on Mars as Mr. Mu=
+sk=E2=80=99s timeline has hastened. While he said in 2016 that it would tak=
+e 40 to 100 years to have a self-sustaining civilization on the planet, Mr.=
+ Musk told SpaceX employees in April that he now expects one million people=
+ to be living there in about 20 years. ...</p><p style=3D"margin: 16px 0;">=
+Mr. Musk is so wedded to the idea of creating a civilization on Mars =E2=80=
+=94 he once said he plans to die there =E2=80=94 that it has propelled near=
+ly every business endeavor he has undertaken on Earth. His vision for Mars =
+underlies most of the six companies that he leads or owns, each of which co=
+uld potentially contribute to an extraterrestrial colony, according to the =
+documents and the people with knowledge of the efforts.</p><p style=3D"marg=
+in: 16px 0;">The Boring Company, a private tunneling venture founded by Mr.=
+ Musk, was started in part to ready equipment to burrow under Mars=E2=80=99=
+s surface, two of the people said. Mr. Musk has told people that he bought =
+X, the social media platform, partly to help test how a citizen-led governm=
+ent that rules by consensus might work on Mars. He has also said that he en=
+visions residents on the planet will drive a version of the steel-paneled C=
+ybertrucks made by Tesla, his electric vehicle company.</p></blockquote><p =
+style=3D"margin: 16px 0;">I can=E2=80=99t help but appreciate a coherent vi=
+sion, you know? The guy has tons of money, boundless energy, and an extreme=
+ly specific weird vision of what interplanetary life will be like. He has a=
+ picture in his head of life on Mars, apparently inspired by consuming a ce=
+rtain amount of science fiction, and it involves tunnels, sure, but it also=
+ involves governance by Twitter poll (?) and driving around in cars with a =
+particular cyberpunk aesthetic. And he runs a car company, so he had that c=
+ompany build the car to match what he thinks Mars traffic=C2=A0should look =
+like. Also I guess everyone on Mars will share his DNA? Again an=C2=A0<em>i=
+diosyncratic=C2=A0</em>vision of a sci-fi future, but at least it is authen=
+tically his.</p><p style=3D"margin: 16px 0;">As a financial columnist and e=
+verything-is-securities-fraud guy, I suppose I could ask questions like =E2=
+=80=9Cif you are a Tesla shareholder, how should you feel about the fact th=
+at the company=E2=80=99s chief executive officer is pushing some weird truc=
+k design not because it makes economic sense but because it matches the pic=
+tures in his head of what life on Mars will be like?=E2=80=9D But I don=E2=
+=80=99t really care; if you=E2=80=99re a Tesla shareholder you signed up fo=
+r all of this. So far the pictures in the guy=E2=80=99s head have mostly wo=
+rked out for his investors.=C2=A0</p><table class=3D"header" width=3D"100%"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Pimco, Silver Point Lose Fight Over 20=
+22 <a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDctMTAvcGltY2=
+8tc2lsdmVyLXBvaW50LWxvc2UtZmlnaHQtb3Zlci0yMDIyLWluY29yYS1kZWJ0LWZpbmFuY2luZ=
+z9jbXBpZD1CQkQwNzExMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yNDA3MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cB505d90e9" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">Incora Debt Package</a>.=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6L=
+y93d3cud3NqLmNvbS9lY29ub215L2NlbnRyYWwtYmFua2luZy9pbmZsYXRpb24tanVuZS1jcGkt=
+cmVwb3J0LWludGVyZXN0LXJhdGUtNDM3ZmE3NzI/607f07ceef4b8524a319a23cBa4c95b60" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">Milder Inflation</a> Keeps Door Open to September Rate Cut.=C2=A0De=
+utsche Bank settles with trader who alleged he was <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3cuZnQuY29tL2=
+NvbnRlbnQvNmNmZTM0MWUtMDc0My00OGU0LWI1ZjMtNjJlZDdiM2I5ZjRm/607f07ceef4b8524=
+a319a23cBa26e5b0c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">Libor</a> =E2=80=98fall guy.=E2=80=99=C2=A0<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDctMTEvcmJjLXNoYWtlcy=
+11cC1sZWFkZXJzaGlwLWFuZC1zcGxpdHMtcC1jLWJhbmtpbmctdW5pdC1pbnRvLXR3bz9jbXBpZ=
+D1CQkQwNzExMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xl=
+dHRlciZ1dG1fdGVybT0yNDA3MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b852=
+4a319a23cB2a7e660d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">RBC</a> Shakes Up Leadership, Splits P&amp;C =
+Banking Unit Into Two. How <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/36027023.195406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cm=
+VzLzIwMjQtMDctMTEvcml2aWFuLWlzLWEtaGl0LXdpdGgtZXYtYnV5ZXJzLXR1cm5lZC1vZmYtY=
+nktZWxvbi1tdXNrP2NtcGlkPUJCRDA3MTEyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwm=
+dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDcxMSZ1dG1fY2FtcGFpZ249bW9uZXl=
+zdHVmZg/607f07ceef4b8524a319a23cBf4a3f39e" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Rivian</a> Became the An=
+ti-Tesla. =E2=80=9CPayment requests of $5 or less are <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/36027023.195406/aHR0cHM6Ly93d3cud3NqLmN=
+vbS9wZXJzb25hbC1maW5hbmNlL2lmLWEtZnJpZW5kLWJpbGxzLXlvdS00LWZvci1hLWZhdm9yLW=
+FyZS10aGV5LXJlYWxseS1hLWZyaWVuZC1kMWIxN2RjZT9tb2Q9aHBfZmVhdHN0X3BvczQ/607f0=
+7ceef4b8524a319a23cBd8ff315f" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">considered rude</a> by 72% of people =
+ages 16 to 26.=E2=80=9D</p><p style=3D"margin: 16px 0;"><span class=3D"news=
+-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuf=
+f=C2=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cDovL2xpbmsu=
+bWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGF=
+zaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB0c=
+63afed" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">subscribe at this link</a>. Or =
+you can subscribe to Money Stuff and other great Bloomberg newsletters <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cH=
+M6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB7b6=
+28bc0" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">her=
+e</a>. Thanks!</em></span></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"image-wrapper" style=3D"border-collapse: collapse; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"image-component" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+<tr>
+<td style=3D"width: 100%; border-collapse: collapse; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt;" width=3D"100%">
+<center>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aH=
+R0cHM6Ly9saW5rLmNodGJsLmNvbS9Nb25leS1TdHVmZi1Qb2RjYXN0LU5ld3NsZXR0ZXI/607f0=
+7ceef4b8524a319a23cB08adf168" target=3D"_blank">
+<!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Listen to the Money Stuff Podcast"=
+ src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i6H.ue2bNPOA/v0/-1=
+x-1.png" width=3D"550" /></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"image-component__image" src=3D"https://assets.bwb=
+x.io/images/users/iqjWHBFdfxIU/i6H.ue2bNPOA/v0/-1x-1.png" alt=3D"Listen to =
+the Money Stuff Podcast" style=3D"max-width: 550px; display: block; width: =
+100%;" /><!--[if mso]>
+</div>
+<![endif]-->
+</a>
+</center>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] This seems to be the most normal way to re=
+fer to this company, though =E2=80=9Cdealer=E2=80=9D or =E2=80=9Cwholesaler=
+=E2=80=9D or =E2=80=9Cinternalizer=E2=80=9D or =E2=80=9Celectronic trading =
+firm=E2=80=9D are all possibilities.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Morgan Stanley owns E*Trade, and from <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aHR0cH=
+M6Ly9jZG4yLmV0cmFkZS5uZXQvMS8yNDA0MzAxMzUwMC4wL2FlbXByb3MvY29udGVudC9kYW0vZ=
+XRyYWRlL3JldGFpbC9lbl9VUy9kb2N1bWVudHMvcGRmL29yZGVyLXJvdXRpbmctcmVwb3J0cy8y=
+MDI0LzYwNi1NU1dNLTIwMjRRMS5wZGY/607f07ceef4b8524a319a23cBb85a710a" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+its routing disclosure</a> I gather that (1) if you have an account at Morg=
+an Stanley Smith Barney, probably your order is executed by Morgan Stanley,=
+ but (2) if you have an account at E*Trade, probably your order is executed=
+ by the usual crew of outside market makers.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] There is a third important category here, =
+which is leverage: If you are a hedge fund, one thing that you want from yo=
+ur bank relationships is to be able to borrow money to do trades. This is p=
+robably a business that makes more sense at a bank than at Citadel Securiti=
+es, but who knows.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Somewhat inexplicably, he was acquitted of=
+ manipulating one stock, though convicted on the rest. He was also convicte=
+d of lying to his banks to get them to lend him more money, which is probab=
+ly the more serious offense here, but it=E2=80=99s also more straightforwar=
+d; the market manipulation case is weirder.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Not legal advice, and I don=E2=80=99t love=
+ this analysis and think it=E2=80=99s pretty fuzzy, but I do think it=E2=80=
+=99s sufficient to get you convicted of market manipulation.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] He did squirrel a certain amount of money =
+away <a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.1954=
+06/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjQtMDUtMDEv=
+YmFua3MtYXJlLXN0aWxsLXdoZXJlLXRoZS1tb25leS1pc24tdD9jbXBpZD1CQkQwNzExMjRfTU9=
+ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT=
+0yNDA3MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB259cdfd5=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">
+into his nonprofit foundation</a>, which pays generous salaries to some of =
+his former Archegos employees, but still.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] For simplicity, in all of these numbers I =
+am ignoring the banks=E2=80=99 fee for doing the IPO, which is normally a d=
+iscount to the stock price. So really it=E2=80=99s like =E2=80=9Cthe compan=
+y sells 10 million shares to the banks for $190 million,=E2=80=9D because t=
+he banks buy the shares at $19 and resell them at $20.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB9a6bd048" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBb15ecfa1" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB4545bf3b" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBf46a62b5" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBf0562160" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.1954=
+06/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB28b43043" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/36027023.195406/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC4258111c" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/36027023.195406/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBa817ef1a" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/36027023.195406/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB9e4ef5ae" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBc=
+f95d3d4" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/36027023.195406/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB3=
+1fa9dba" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23clg6mn.46ry/a7f28d11.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_6790175_220141867.1720721217877--

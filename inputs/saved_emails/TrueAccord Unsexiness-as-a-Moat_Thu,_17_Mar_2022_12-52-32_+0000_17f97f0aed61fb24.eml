@@ -1,0 +1,2587 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:63c7:0:b0:1a5:fa8c:80ab with SMTP id n7csp135407lkk;
+        Thu, 17 Mar 2022 05:53:27 -0700 (PDT)
+X-Received: by 2002:a05:600c:4408:b0:388:a042:344f with SMTP id u8-20020a05600c440800b00388a042344fmr3867810wmn.52.1647521607236;
+        Thu, 17 Mar 2022 05:53:27 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1647521607; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=sf3jY0cmbjS55B3SalJC/COE2SfWewjgoAQHrCBW3lwsfQjCi2lgtnB617SeAtkXlh
+         94A50ab5+1MvieHTAc0905RZhKVK54prUzy0Lc0KCgFAMPwbufZqKl5IYPTZwWfTKJ+C
+         mkw1dybdKyYiKfyxtSRt32bYWvGK+UA+o4SMiyg+iT9bR3cRjvn5VbuKx26t0Oren7ws
+         GivpVdsSmqJcC6+ZV2hQACRS/Lkg4zED9DMKrWbW/Q1IBR7RQF2779aG7RWCvwFe5V6L
+         W8h5Uthkcl9JTuigg2xUgzGKDQhS6fDm15o9k4UA8ZEzsPwRDgo9er9AR3CR1uEc9uO9
+         m8iQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-url:list-unsubscribe:reply-to:list-id:sender
+         :list-unsubscribe-post:list-post:references:list-archive:list-owner
+         :in-reply-to:date:message-id:to:from:subject:mime-version
+         :dkim-signature:delivered-to;
+        bh=oH8awsPWjHKkT/xdj3w+1N5eOCd5PV+Bvfmtm4zq+QM=;
+        b=mK4ILRtJT6Q8UeiOF7/FdwwghEM5NhvSEY2JHCngumEfqWPfYflOr/bKub9ttmjrwQ
+         wMwcGP+xbQjijnUf9xjYApAkYIFleQhFrtA7NHvmxmAlo2kH3RHE7MqvkppdUUxtSrI3
+         PmBvJfe81jMt1iD+GxeswWwGj8pL4+kM2Sya3T/968sczurdsiItwcu05d0+e5btXr/j
+         2scvq784ouNWZTwdl5g4YTtCsY5M/rNuTLN5BMzy0Eay3f/JZOOeGnuHWGzfpWVqt4/G
+         PK0xNRF0HxJqS02fGCn589EYnTJN6zzCQqQwqkfLaDogPhkzlrc7a6u0/HhudVGUlIR0
+         H+5A==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=aO5SOnEv;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m1-20020adfdc41000000b001f1fefadb79sor1487290wrj.71.2022.03.17.05.53.27
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 17 Mar 2022 05:53:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=aO5SOnEv;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:mime-version:subject
+         :from:to:message-id:date:in-reply-to:list-owner:list-archive
+         :references:list-post:list-unsubscribe-post:sender:list-id:reply-to
+         :list-unsubscribe:list-url;
+        bh=oH8awsPWjHKkT/xdj3w+1N5eOCd5PV+Bvfmtm4zq+QM=;
+        b=jang+P3Kl19RQgRKP7zC0o232Cvf6WN0O7cjnG4WOdyjiBCFokqMUlhUaUAJSRd08L
+         eoHwKR8AiH+I94drvZjwtSCw15jkjxtw6ryziX195Wup47ewGlra8FPB/z5KSNRclSw8
+         r21Y5KyS+jLBOHNVeoSsjKLn3lE9UTk3uMxT9Zjo/lWkHW7nvIktWGod0NDnMRQ+oG+g
+         xqQBrCsJoA0g3BDymocFmMH+6E+YE4irJFuD57NlOJE08tu44pAGbvap/33g4AbbUMpG
+         RKIfzFYsPh9RchS61BTZMm2bc3r1Ldj8smpXRtfw0xhGl90Ka7Jo/LtA10Qy6BtlcQ4K
+         cOfg==
+X-Gm-Message-State: AOAM532pBbSMVJ6SCqxxy7t1PoQ3yq92lKAdIdw3pbpHWMhtY4MWq9Al
+	RLd8+mcglru0/Jk1qtayo485cyhm20eBhmvm0/sy9piDH3SofQU1Kg==
+X-Received: by 2002:a5d:6d81:0:b0:203:e187:1faa with SMTP id l1-20020a5d6d81000000b00203e1871faamr3990705wrs.381.1647521606894;
+        Thu, 17 Mar 2022 05:53:26 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f410:0:0:0:0:0 with SMTP id g16csp165607wro;
+        Thu, 17 Mar 2022 05:53:24 -0700 (PDT)
+X-Received: by 2002:a25:9001:0:b0:628:755e:f6bd with SMTP id s1-20020a259001000000b00628755ef6bdmr4731401ybl.481.1647521603963;
+        Thu, 17 Mar 2022 05:53:23 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1647521603; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Yx87fY8UpKwH90kZfYKGwGCckrJFUg88eljuGQMD8rrHMzCwNoNi6GtoI4sxeyvSzv
+         4Og/lSx0BSKk9Es4vhzRYfadnkwckQ3tvmWz7k+xmKdXJ825IhgaIfyZI8JnQEVI5yLB
+         JxPQJfH7Qy/83+q77ThwQhyDTtl/eTglyOG3PLSALHGoKYqGf2Dh49gwHM3Sl/zArOlD
+         CXnCOZgGlSLbCegVzil8jbBAUnZSezy73OwaQyIMNZZ8YzV2bu2E74lhdBJFmQXxIl85
+         AbA/uZM9trNbLSmr+rIe6JLlIghL1YcQX/S4zMTOAY+PwjJleHy9RG9g7+PawPjKVfqM
+         S/mg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-url:list-unsubscribe:reply-to:list-id:sender
+         :list-unsubscribe-post:list-post:references:list-archive:list-owner
+         :in-reply-to:date:message-id:to:from:subject:mime-version
+         :dkim-signature;
+        bh=oH8awsPWjHKkT/xdj3w+1N5eOCd5PV+Bvfmtm4zq+QM=;
+        b=0ML0E8zVBAKRL8lZPlrtgFliz7uGNicwLgOsBkpLMs913AZ9O5B3c9Atd+0kuVnHsW
+         1NSp6eECFjuDiekujNL+7Ejr5VIRrMEYOfRXi9tsByUCuW164fZfhYg1gXVQfE4AJhbo
+         AcIBHlLIuw6PcN4EsAsjzhwjlk0ij4oj5Gk7jlGSIIEzbqm0jiI9D8NZeyNeqrthwjLi
+         gQhfIk/5p98YkxU63GH9+bjmYgiQLkuzIJxHTFygDYNpeIIfCfrFLmLYCq+9JDqp3S4w
+         CBwgBZbS9eF5kM1N98AHK1PUfccb+tANWhuf4OkFnAkhT+3ynOEAJeE08ovgjP4jerXx
+         s++A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=aO5SOnEv;
+       arc=pass (i=1 spf=pass spfdomain=mg2.substack.com dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i132-20020a253b8a000000b0063362d1a44fsor1180114yba.46.2022.03.17.05.53.23
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 17 Mar 2022 05:53:23 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyMYXbFDxFO7GR38YT/L84x/i70Xrj0CRgveqZTG/+MKYEg03sqiRzS0VsnIePkrZKwaK7bx2V0MEm1NoF+b/qCJzlbCbM=
+X-Received: by 2002:a25:b9cb:0:b0:61d:a7a5:6005 with SMTP id y11-20020a25b9cb000000b0061da7a56005mr4652220ybj.360.1647521603627;
+        Thu, 17 Mar 2022 05:53:23 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1647521603; cv=none;
+        d=google.com; s=arc-20160816;
+        b=XnFUf2+o6QqgJVoseBwIhvtNP8PHrtZ9OqwL1SQw3shKqqoJ3JRjjQwkfaa2PGB5Ih
+         VEry64PF1x7rupeEs1kgXobCp1ynfRZbPh0uP4hLfZi1acIwP/9XNF1Pot/QlLsYCREn
+         77bfZw/HQb3gzGzMpZbIuHblcz/NcZH3F1C9HnOofiwJpWbT+MtBh5XxcV0R3E0u+Qjt
+         wH93XZYVO+w3cTvmVpm29axOXe2PEtGkxx+VfFRQJHE6IMnC+H9vPuyK14Ki5qlZ0QnA
+         RDbnr+l/2RJUUae4bgoJJo1UXQsACmgCvZUPEbkz/FTnao69lfvWMuZLp6Fc7XdSM4+7
+         Gyug==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-url:list-unsubscribe:reply-to:list-id:sender
+         :list-unsubscribe-post:list-post:references:list-archive:list-owner
+         :in-reply-to:date:message-id:to:from:subject:mime-version
+         :dkim-signature;
+        bh=oH8awsPWjHKkT/xdj3w+1N5eOCd5PV+Bvfmtm4zq+QM=;
+        b=uapqBslo2l48oPa7IIQ63S/Kq9ub/wVPzjfunFw6EPalabdqgQhbaGZ0g780OvQWha
+         REVrV2rA7c8RpiOGvjyV5ZOSJW+Onu78gvbokvwMHiY4+shAWADcYE9Plmk5hpZC002t
+         dWZ0ZSM0U+fshphcjdlMmOMYX9TrVDQE8f+c9mkCPOu0BlBZMxD/ZwmzUYB+4yRYiz+9
+         9HdkSVDfKg0UpaTKWp/FXc/9B0/0tx29kGsY1ycFQ59bu6GtwolDZT7Ichlen3uUJKzz
+         D/wQ/vvpZJJmgUMxmPFCj6XW904F4T/Gvs5b9l4wnav9IHka3F3nY53f7r51UF+2xAqc
+         is6g==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=aO5SOnEv;
+       spf=pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 161.38.202.170 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mg-202-170.substack.com (mg-202-170.substack.com. [161.38.202.170])
+        by gmr-mx.google.com with UTF8SMTPS id f11-20020a5b01cb000000b0062882b904b4si330950ybp.0.2022.03.17.05.53.13
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 17 Mar 2022 05:53:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 161.38.202.170 as permitted sender) client-ip=161.38.202.170;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg2.substack.com; q=dns/txt;
+ s=mailo; t=1647521603; h=List-Unsubscribe: Reply-To: List-Id: Sender:
+ Sender: List-Post: References: List-Archive: List-Owner: In-Reply-To:
+ Date: Message-Id: To: To: From: From: Subject: Subject: Content-Type:
+ Mime-Version; bh=oH8awsPWjHKkT/xdj3w+1N5eOCd5PV+Bvfmtm4zq+QM=; b=aO5SOnEvQYPqljgsn/KW2AsAd5h1SxCgyru/j5z7XAElSbju+VoHw3YmeC1szlby8zXbZDE9
+ 52karepNfZS0KnLNAp6tqjc7tPT8det35CCGkqCKEfvXloZT3uGiNkx95aCWDsZQ5qDbDPb6
+ x9uhIMSIntwBQ85GEF2l7PiBxN8=
+X-Mailgun-Sending-Ip: 161.38.202.170
+X-Mailgun-Sid: WyIyZDMzMyIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICI0ZDE4NTgiXQ==
+Received: from <unknown> (<unknown> []) by
+ api-n17.prod.us-east-1.postgun.com with HTTP id 62332f275d31f8689f7053d8;
+ Thu, 17 Mar 2022 12:52:50 GMT
+X-Mailgun-Batch-Id: 62332f239381191ba2424dff
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="423f04d4025798a6200f83264980d3cae893ae723855cfea3a6cd8dc1b9a"
+Subject: TrueAccord: Unsexiness-as-a-Moat
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+Message-Id: <20220317125232.2.6baef34daf84ed7c.3ujpnad2@mg2.substack.com>
+Date: Thu, 17 Mar 2022 12:52:32 +0000
+In-Reply-To: <post-50490574@substack.com>
+List-Owner: <mailto:notboring@substack.com>
+List-Archive: <https://www.notboring.co/archive>
+References: <post-50490574@substack.com>
+List-Post: <https://www.notboring.co/p/trueaccord-unsexiness-as-a-moat>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Sender: Not Boring <notboring@substack.com>
+List-Id: <notboring.substack.com>
+Reply-To: Not Boring
+ <reply+u26ry&9p0gt&&3d5e87801ffe1632473bb3b54892db05232b22c2a6082c25b257f87c4913e400@mg1.substack.com>
+List-Unsubscribe: <https://www.notboring.co/action/disable_email/disable?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTA0OTA1NzQsImlhdCI6MTY0NzUyMTU3MCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoiZGlzYWJsZV9lbWFpbCJ9.p0wOPDqbHVXnDWUAmWiofgBQpoinNL_GslqUcIXB4Co>
+List-Url: <https://www.notboring.co/>
+X-Mailgun-Variables: {"category":"post", "email_generated_at":"1647521570587",
+ "is_freemail":"true", "post_audience":"everyone", "post_id":"50490574",
+ "post_type":"newsletter", "pub_community_enabled":"true",
+ "publication_id":"10025", "subdomain":"notboring", "user_id":"16283549"}
+
+--423f04d4025798a6200f83264980d3cae893ae723855cfea3a6cd8dc1b9a
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://email.mg2.substack.com/c/eJxFkM1uwyAMg=
+J-m3BoBgSQ9cNhlrxE54LSsCUT8LMvbz22kTbJBsrE-_FkoeI_pMFvMhb2OsRwbmoB7XrAUTKxm=
+TKN3RnRyaLW6MWeUE4MemM_jnBBX8IspqSLb6rR4C8XH8J7gXGr2MGISA71XCFLNON24GBB4J_g=
+gleh0e3KhOo_BosFvTEcMyBbzKGXLl_bjIj8p9n1vQixTTD7cGxuptFG-0GBtTO5aQ8YfHzDnK1=
+Bc1wiFeSO5lLwVvZBatrKRTTcBzq1yMNOvXG-btn5tAZy8KL7eZZPrlAvYJ0FWlswflNrPB6y4v=
+Bu07kj3WoMvx4gBpgXdaaKcQt9uxjsGTCTajVBIo-q1FLrneujPzUmV5urGda8YkV2kqfAP_QUX=
+go6E
+
+Welcome to the=C2=A0288=C2=A0newly Not Boring people=C2=A0who have joined u=
+s since Monday! Join=C2=A0108,356 smart, curious folks by subscribing here:=
+=20
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 Not Boring
+When I started writing Not Boring, my plan was to get big enough that I cou=
+ld throw up a paywall, convert some small % of free readers to paid, and ho=
+pefully make enough to make a living. Once it started growing, though, I di=
+dn=E2=80=99t want to shut it off. I wanted as many people to be able to rea=
+d and engage with Not Boring as possible. Sponsors make that possible.=20
+We=E2=80=99re gearing up for Q2 and looking for companies and protocols to =
+sponsor Not Boring across the newsletter, podcast, and new projects =F0=9F=
+=91=80. Just yesterday, we announced [https://email.mg2.substack.com/c/eJxF=
+kb1uxCAQhJ_GlBZewD8FRZToUiQp0qRIY2Gz9nFnYwfWOfntw52LSGgZtBrN8m1vCMcl7HpdIrF=
+7aWlfUXu8xQmJMLAtYmid1UUJtVCyYVZLW9SqZi62Q0CcjZs0hQ3ZunWT6w25xT8cnINiZ10bNZ=
+gGa24aI-3QVFVnlRoGDp2SCtWRazbr0Peo8RfDvnhkkz4TrTETTxmc0qGbu0-U98ucXqvpr_tHE=
+pEMbTGJQnHJy6aGhgsoBJRFmYlT8r8Az6CkJH4ub933V49ODHZc3-Panl6fP5nTwAG4KKoCFAjI=
+IS87g4OQ1gy1RFv1udguqzcWMsnnEfK4dSm4v96nYUH7hbolOD-m9vVsZpwejUSkTfe8eUd7i95=
+0E9oDFh3MH_jaET2GtAvbGkqkZaWgUBVXdXXASTTT5xquKslSsl2Sy_-H_gE-hJZf] that FTX=
+ [https://email.mg2.substack.com/c/eJxFkE1uxCAMhU8zLCMwkJ8Fi256jcgBJ0NDICKk=
+VXr6MpNFZeQnYdlP77NYaEn5Mns6Cnu1sVw7mUg_R6BSKLPzoDx6Z0QLvdRqYM4oJ3rdM3-Mcyb=
+a0AdT8klsP6fgLRaf4nuDc9DsaVCjUz3qQWqqInTP3YwolLQDtMN0--LpPEVLhr4pXykSC-ZZyn=
+485McDPusLPq7NFJJd5xR8amza6u_gfvcqRLODWswb4ABcik6ABgkNNO2ENEvlcO4Vuc428vzaI=
+zp4KL4t0BzndBS06-siyyamMqXs41LH6xM3Cu9BTTdW3c7oyzVSxCmQu4OXm98bxbhQpFy5uhFL=
+paY6DUJ3XPfdHbSS0VwNXHeKVWeX6lb8N_0Df-uIEA] is  sponsoring Not Boring Found=
+ers Season 2, which means we can turn it into a real podcast (subscribe at =
+Spotify [https://email.mg2.substack.com/c/eJxFkMtqwzAQRb_GWho9LWehRUsJlLYUs=
+uvK6DFO1NiSkeQk_vsqyaIwzMBcLgeO1QWOMW1qibmg-xrKtoAKcM0TlAIJrRnS4J0iHe2Z4Dvk=
+FHekFz3yeRgTwKz9pEpaAS2rmbzVxcfwaGBMBTop3BPMO8sMlob0hAIRve6kdczJUVj95OrVeQg=
+WFFwgbTEAmtSplCU37KWh-zpxgdDmJRY_bq2Nc33lU7zW053Jz-fr5ftw-Npi_tjYjdzep4bts2=
+_Ym6DQyU6bnTSGEwvIK4opxYxIQgVltKVtZzSMjDs99hyctC1bf5egHW04no-0zavJRdvznYuSC=
+rGYmHw41vh80jNMj6AKGOqd1-DLNkDQZgL3dFOeih-2hiMESFW9G3SpYrkUlAiJRS-fLqo8gfkO=
+C8lRJbtYW-Ef-ge6WpJ7] or Apple [https://email.mg2.substack.com/c/eJxFkEtuxC=
+AMhk8z7BqBgZAsWHTTa0QEnAydBBCQVrl9mUmlkSw_Zf_yZ03FNeZTp1gqebqpngl1wN-yYa2Yy=
+VEwT95p1sPApRiJ08KxQQ7El2nJiLvxm675QJKOefPWVB_Da4NSkOSujTJ26dUC1PGBigGRK8Od=
+sDDSuWfLpWsO5zFY1PiD-YwByabvtaZy4583-GqWorOm1NKZlDbsbNxb8yjvSctCrB9zzD6srfC=
+OSVAC2MgZ8RooAOVMMZDAoYOunw0uXDizDAKdsh0_vlMwDm6C7it05ZhLNfbxlCJZt9v_pwV93M=
+2O22vQvp5a3I_g6zlhMPOG7gJSL64vRNOKAXPj7SZTG02hJDCpqBzUBaARk1SMVCpBmrKLbSu8R=
+f8ASKiPdg]). I=E2=80=99d love to continue the tradition of Not Boring reade=
+rs=E2=80=99 companies sponsoring Not Boring, so if you=E2=80=99re intereste=
+d in reaching this audience, email partnerships@notboring.co or share some =
+info in the form here=E2=80=A6
+Hi friends =F0=9F=91=8B,=C2=A0
+Top of the mornin=E2=80=99 to ya and Happy St. Patrick=E2=80=99s Day! A lit=
+tle over a year ago, the Not Boring Syndicate backed TrueAccord [https://em=
+ail.mg2.substack.com/c/eJxFUMuOxCAM-5rhWEEKfRw47GV_A1FIO-y0UEG6Vf9-melhpSiR=
+YtmW7SzhkvKl91SIvZeha0cd8SwrEmFmR8Fsgteig6FVcmReSy8GNbBQzJwRNxtWTflAth_TGpy=
+lkOKHwTko9tQjdjMXswSHHjvbdRzAi5EPkxxHlOr2tYcPGB1q_MV8pYhs1U-ivTzarwd81znPs3=
+n7WOdS9o1LW32yoKHq8Vb0AhS00EDTTRbnVno7DxJ975r2-Nmj9fCQfFugKcdUyLrXW4JlHRNNK=
+Ye4VPj1tBuuH6CmMfVuRwx0GYx2WtHfQenu6xPdLBgx1x69sVRbkr0CoXquhv4OVptQXI5c9ZJV=
+Z58qK_6b_gErmYLE].=C2=A0
+Instead of the typical long Not Boring post, I wanted to mix it up and try =
+something new =E2=80=93 I=E2=80=99m sharing the main sections from the memo=
+ I wrote for the Syndicate last year as-is, and then adding my thoughts on =
+what=E2=80=99s changed since and where I didn=E2=80=99t think big enough.=
+=C2=A0
+While I hope that fintech companies read this and want to work with TrueAcc=
+ord, the main point of this piece is to highlight the importance of a few t=
+hemes for investors and builders alike:
+Unsexiness-as-a-Moat
+The Versatility of Picking the Right Wedge=C2=A0
+The Value of Aligned Incentives (beyond web3)=C2=A0
+The Different Paths a Great Entrepreneur Can Take Towards the Same Goal
+A common piece of venture capital advice is to back great founders in big m=
+arkets, because great founders will uncover all of the best opportunities. =
+TrueAccord=E2=80=99s founder, Ohad Samet, has proved that as he=E2=80=99s e=
+volved TrueAccord over the past year.=C2=A0
+It=E2=80=99s a good reminder that while I can make my best guesses as to wh=
+ere companies and industries are headed, the best entrepreneurs will bend t=
+hings in unexpected directions.=C2=A0
+Let=E2=80=99s get to it.
+TrueAccord: Unsexiness-as-a-Moat=C2=A0
+Debt collection.=C2=A0
+Have I scared you away yet?=C2=A0
+If so, that=E2=80=99s part of the beauty of TrueAccord [https://email.mg2.s=
+ubstack.com/c/eJxFUMuOxCAM-5rhWEEKfRw47GV_A1FIO-y0UEG6Vf9-melhpSiRYtmW7Szhk=
+vKl91SIvZeha0cd8SwrEmFmR8Fsgteig6FVcmReSy8GNbBQzJwRNxtWTflAth_TGpylkOKHwTko=
+9tQjdjMXswSHHjvbdRzAi5EPkxxHlOr2tYcPGB1q_MV8pYhs1U-ivTzarwd81znPs3n7WOdS9o1=
+LW32yoKHq8Vb0AhS00EDTTRbnVno7DxJ975r2-Nmj9fCQfFugKcdUyLrXW4JlHRNNKYe4VPj1tB=
+uuH6CmMfVuRwx0GYx2WtHfQenu6xPdLBgx1x69sVRbkr0CoXquhv4OVptQXI5c9ZJVZ58qK_6b_=
+gErmYLE]. It uses unsexiness as a moat, and has quietly built one of the bi=
+ggest fintech startups you=E2=80=99ve never heard of.
+When I first spoke to TrueAccord=E2=80=99s founder and CEO, Ohad Samet [htt=
+ps://email.mg2.substack.com/c/eJxFUMtuxCAM_JrlGPEM5MChl_5GBMGb0E0gAqer_H3J5=
+lDJsmWNxuOZySHMuZx2zxXJ1UY8d7AJ3nUFRCjkqFDGGCzruRFKDiRYGZhRhsQ6PgvA5uJqsRxA=
+9sOvcXIYc_owKOWKLJZJOnCmnQcQDAYlnKFg-uChF4pO5tZ1R4iQJrDwC-XMCchqF8S9PsTXg3-=
+3wne8PuqmvLUtLy5UtwGSaDnlnAqmGVdc8I53vXfwFDK4p5EQ9NSJ42dPLvCHpNvMu3r4im56Xb=
+dIsSmjzyWmucGvpR1dP0DzM7a5HSniOUJyfoVwW8U7sY_5cYYEpSUZRoctJ6kVZ0pTZfRtrWWhq=
+Byo0pI05ZAbK_2L_gFh64PC], last year, he told me, =E2=80=9CI would really lo=
+ve to see more second and third time founders try to build something really=
+ hard.=E2=80=9D=C2=A0
+He=E2=80=99s doing it himself. Before founding TrueAccord, Ohad worked in f=
+raud protection at PayPal, was the founder of Signifyd, founder of Analyzd =
+(Acquired by Klarna in 2011), and was the Chief Risk Officer at Klarna for =
+three years. While running TrueAccord, he also served a one-year stint as a=
+ Board Member on the Consumer Advisory Board at the Consumer Financial Prot=
+ection Bureau (CFPB).=C2=A0
+Now, he=E2=80=99s building something really hard. TrueAccord is =E2=80=9Cde=
+bt collection, reinvented,=E2=80=9D the largest and fastest-growing technol=
+ogy player in consumer debt repayment. Ohad said the thing that attracted h=
+im to debt collection is that it hits the holy grail of major startup ideas=
+: a big, unattended, fragmented, low NPS market, a solution for which would=
+ solve a core issue for people.=C2=A0
+Over the first seven years of its life, TrueAccord built skills in consumer=
+-friendly digital debt collection. At its core is a personalized, self-serv=
+e debt repayment experience that uses machine learning to reach consumers a=
+t the right time via the right channels. Instead of constant cold-calling, =
+TrueAccord might text or email at times its found are most successful. Beca=
+use the company has always had ambitions to build a full suite of financial=
+ services for its target audience, it=E2=80=99s taken a much friendlier app=
+roach to collections, one meant to retain instead of repel.=C2=A0
+Consumers can and do work with TrueAccord directly to get control of their =
+debt, but the secret sauce in TrueAccord=E2=80=99s approach to date has bee=
+n Recover [https://email.mg2.substack.com/c/eJxFkEGOhCAQRU_TLA2UIPaCxWzmGga=
+p0mZawSCM8fZD62ISUhCqfv3852ymOabTbHHP7FOGfG5kAh37QjlTYmWnNHg0ooO-VfLJ0EgUve=
+qZ34cpEa3WLyanQmwr4-KdzT6GS8E5KPYyT9Kqs0J0XOCEfNKgJEptW_UEzRFuX1vQU3Bk6JfSG=
+QOxxbxy3vZH-_WA73qO42g-Pta5mLBxca2fW4pYXK6vRC5W6TXbMm-AA_BWaAEKWmig6UZLUyvR=
+Tr0k1K5py88WLMJD8nWGZi_jnq17fzazZELMY0w-zLX9ftmVlqtRQw71Xkvw-Rwo2HEhvPPnG-N=
+FZJgpUKp4cbC5wpNagVCaq17feSsgxeWTKy1ZdcZYVeHf9A_Zb4oU]: a late-stage recove=
+ry (read: debt collection) product through which companies pay TrueAccord t=
+o collect debt from their customers.=C2=A0
+BNPL giants Klarna and Affirm, for example, outsource collections to TrueAc=
+cord and pay TrueAccord 22% of what it collects. More importantly, when con=
+sidering the vision to provide more financial services to the target market=
+, when companies buy Recover, TrueAccord gets paid to acquire customers. Th=
+at means it has a negative CAC on consumers.
+It seems to be working. Each month, creditors send TrueAccord 500k - 1 mill=
+ion potential customers, for free, and then pay them a commission on repaid=
+ debt!=C2=A0
+The promise and success of Recover has attracted some of the world=E2=80=99=
+s top investors including Khosla Ventures, Homebrew, Felicis, Arbor Venture=
+s, and PayPal/Affirm founder Max Levchin. We backed the company last year, =
+before there was Not Boring Capital, via the Not Boring Syndicate.=C2=A0
+When we invested in TrueAccord March of last year, I wrote up a short memo =
+on what excited me about the opportunity. I=E2=80=99m going to include thre=
+e sections exactly as-is from that memo:
+TrueAccord: The Nice Guy in the Massive Debt Collection Market
+Consumer Debt Repayment as a Wedge
+Unsexiness-as-a-Moat=C2=A0
+But then I=E2=80=99m going to show you what I missed, too. I didn=E2=80=99t=
+ think big enough. It=E2=80=99s a good reminder =E2=80=93 particularly in a=
+ period when everyone seems to have turned impossibly bearish =E2=80=93 tha=
+t markets change and evolve in unpredictable ways, and that building blocks=
+ can snap together in ways that create bigger-than-anticipated opportunitie=
+s.=C2=A0
+In TrueAccord=E2=80=99s case, I didn=E2=80=99t predict how central lending =
+and consumer debt would become to fintech =E2=80=93 fueled by the dramatic =
+ascent of Buy Now, Pay Later (BNPL), consumer fintech, and embedded finance=
+=2E Some of the most successful tech comp=
+anies have become, wittingly or unwi=
+ttingly, creditors.=C2=A0The debt market actually shrank last year thanks t=
+o stimulus checks, and as it comes back, the lender composition will lean m=
+ore tech-forward than it was before.=20
+In response, last September, TrueAccord launched its second product, Retain=
+ [https://email.mg2.substack.com/c/eJxFUsGOpSAQ_Bq9aRDxqQcPkzezX7B3g9D62EFw=
+odlZ_35b3GQSUjRdaaqbQkmEzYdzOnzE8oIZzwMmB1_RAiKEMkUIs9FT8-BD24mx1JPQzdANpYn=
+zGgB2aeyEIUF5pMUaJdF4lysY4135mvpFjn03UskghBgZX8TaNgsboevZ8OC3rkzagFMwwR8Ip3=
+dQ2umFeMSifSv4D1qL9Vt9CUmlfNC18jtlOeMNbWwk-CYrK5NTL4hVAJTGVbLSZjMobbWaELGK3=
+qar0Wr1oQIZ7FlFlBtUylsL6qJilm0v_f6DEOEvFu178yh4x58XsFucAoIPTjBc0djm3E_q5i13=
+k49PHw4f8uv8v-D5ZfCVuUNGvIJ3nSAnNFjjfidwOc2uoZLDWJdmIk3O2qZviGh5zevHImFthZb=
+rIED3qm7Tr8NJzQvB9o3XMS00mvq8HqwMk_O4-GDcRvTnS-5gM0HmzbTvyRk8Z3BysaBvX_H-Ht=
+npeQMHNAXoWSJ9CtF3vCEfu6G_fSTjO0Yud70oSVl7qnLfov8AWBPL0g], a white-label Sa=
+aS product that fintechs can use to collect early-stage delinquencies befor=
+e consumers default, when they=E2=80=99re much more likely to pay.=C2=A0
+Like Lithic [https://email.mg2.substack.com/c/eJxFkMtuhSAQhp_msDsGEEQXLLrpa=
+xiEUelRMFxqfPtOj0mbcEmYDN_8nzUFlpgufcRcyO8xlusAHeDMG5QCidQMafROs473rRQDcVo4=
+1sue-DzOCWA3ftMlVSBHnTZvTfExvDso5ZKs2lprWNe1k6OMDUb2qudzK5Qz3aCmfr65pjoPwYK=
+Gb0hXDEA2vZZy5Ef78eCfuM7zbEIsU0w-LI2N-HTg3nxZvc1PnPlpay5xx6m95pRz2jLFuOQtb3=
+jTTQYQ68zcC3DKNm39OoJx_CHovvAm1ykXY1_4806S_iNh-bWaHbZ3ATOOeO81-HKNEMy0gbvjl=
+9viW8i4QICEdt1oCroTSnImFcXwd1z0I6kYqFSCINlF7Ar_0B-ltYs-], Onbo [https://ema=
+il.mg2.substack.com/c/eJxF0E1PxCAQBuBfU44NDNCPAwejrgcTTx6MlwbKdBe3BQJU038v7=
+h5MJsyEyeRNnlkXPId0qBhyIX_PVI6IyuNPXrEUTGTPmCZnFetg4FKMxCph2SAH4vK0JMRNu1WV=
+tCOJu1ndrIsL_nZBKUhyUUxSwRY5oJa8w3GxgjKgHbeUcSo6c8_Vu3XoZ1T4jekIHsmqLqXE3PC=
+HBk61QkTf5hiKW452Dlv9wuhysFgnWOfw9vHw_BpSfB8fPz_CCz-9NfyUXcOflh4XZmbDAEcBzB=
+CngAJQznoGEji00HZG48KF1csg0PZzy_ev6LWFRtDtDG3eTS56vv5Fk6R8KCYk5891fb3oDdfbo=
+hpMtW-7d-WY0Guzor3zlLvyDWw6o8dU9e2kS7UVvQQmeyqH_s5R_SrbSGUvSE22oV75_9BfvKaS=
+0w], and of course, AWS, TrueAccord turned many of the tools it built for i=
+ts own first product, Recover, into infrastructure for other companies with=
+ Retain. Ohad calls it the =E2=80=9CAWS of Consumer Debt and Delinquency.=
+=E2=80=9D
+Retain uses data on the 16 million consumers it=E2=80=99s worked with direc=
+tly and through Recover, plus TrueAccord=E2=80=99s HeartBeat machine learni=
+ng platform, to identify delinquent customers and reach them through the be=
+st touchpoint at the best time. Unlike Recover, through which clients outso=
+urce collections to TrueAccord, clients embed Retain right in their stack.=
+=C2=A0
+Instead of collecting post-default, Retain helps keep consumers from defaul=
+ting on loans in a much friendlier, more tech-forward, and effective way th=
+an any traditional delinquency or collections solution could. It=E2=80=99s =
+growing like crazy =E2=80=93 crossing the 1 million consumer mark in less t=
+han 6 months =E2=80=93 and is used by fintech platforms like SynapseFi [htt=
+ps://email.mg2.substack.com/c/eJxFkEFuxCAMRU8zLCNiYMgsWHTTayCCTYY2gQhIq9y-z=
+GRRybJlfdlf73vXaMnlNHuujb2abedOJtFvXak1KuyoVGxEM95hEko-GBqJ46QmFqsNhWhzcTWt=
+HMT2Y16jdy3m9L7gHBR7GtQEgF6PeBciTAFD0HKGCdF5weFx-boDIyVPhn6onDkRW82ztb3exMc=
+NPnvVM7m9UoiDz1vfWTTAAbgY9QgKBAww3GdHQUh0YZKE2g_i-NqTQ7hJvi0w1GOuzfnv1wtWTM=
+ptziWmpcvfT7fR-hY6iO1zO1Jsp6Xk5pXwYmxXVG9qu1Ci0iNE61oPSGoFo9JcTfpi6iEoLh9ca=
+cm6M-Z-lf5N_wAvGIGU] and Sila [https://email.mg2.substack.com/c/eJxFkEluwzA=
+MRU8TLQ2NlrLQoptcQ9BAO2psydDQwrevEi8KECSID_LjfW8brLmc-si1oXcz7TxAJ_itG7QGBf=
+UKxcSgyUwVE_yOguaBKKFQrGYpALuNm26lAzq626K3Leb0ucCYCvTUDMsZgDsVfMD3WXrnZ7ZYZ=
+QkPgki4fG0PEZIHDT9QzpwAbfrZ2lFv7OtGH6Nq3Ow-hHPyeR87ippiSjEjklBBGZ3oNDsLC-PB=
+LopDkH5i_ftINtAbx_tKp9pdbda_3i9Q0Sk3l0tM65BfT7vD9hEGiBlz7ym200CyboNwMbYrqg-=
+1WSFBGREGY9sIiEtBiZBYKHkxjRAE5ncsJEfDOeRxlf5N_wD2OIFg].=C2=A0
+I also missed just how important the incentive alignment narrative would be=
+come in 2021 and 2022. TrueAccord=E2=80=99s business model is aligned with =
+both creditors and consumers: Recover, for example, only makes money when c=
+onsumers get out of debt. As one sign of that alignment, TrueAccord success=
+fully lobbied for the passage of the CFPB=E2=80=99s Regulation F [https://e=
+mail.mg2.substack.com/c/eJxFkU2OhCAQhU_T7DRYSqMLFrOZaxiE0mYGwfDTHW8_1fZiEgI=
+Ur15e5cPogltMpzpiLuy9zeU8UAV8ZY-lYGI1Y5qdVd0dxl4ME7NqsN0oRubyvCbEXTuvSqrIjr=
+p4Z3RxMVwOzkGwhwIQHKc7CDtx200ccZX6vsq1l3oB6D65ulqHwaDCJ6YzBmRePUo58q3_usE3r=
+dfr1ZoYct0xrS5oam63-CQlVY-5OSKln1S-Rd9cj1RZXEpjovdo3pM1R9J0MWRIuFV_jdus1Mic=
+Ag7A-052IKCHFtr7onHtB6vXcUArTdvXnyNoC7eB7xu0uS65aPNLg-0sqRDLEpMLG8m_D72jvwQ=
+CM9O51-DKOWPQi0f7YVY-6C-K84YBE32JnXUh4IMU0AnJxSg_jAiq4MPEhRwYJdtIrvAf-gftqp=
+7a], which limits debt collectors=E2=80=99 ability to hound people on the p=
+hone, among other things.=C2=A0
+One of the past year=E2=80=99s biggest themes has been reinventing financia=
+l services. Fintech and web3 attracted as much attention and venture capita=
+l dollars as any category. The promise of many of these products is that th=
+ey=E2=80=99ll be able to provide opportunities to people who are left behin=
+d by the traditional financial system.=C2=A0
+No one is more focused on making sure that everyone has a fair financial ch=
+ance than TrueAccord. They=E2=80=99ve been working on this for eight years,=
+ despite and even because of the fact that debt collection is an unsexy cat=
+egory.=C2=A0
+So today, we=E2=80=99ll look back at last March=E2=80=99s memo before looki=
+ng forward to what the world, and the financial system, look like when True=
+Accord achieves its vision:=C2=A0
+The 2021 Memo: Nice Guy, Debt Collection-as-a-Wedge, Unsexiness as a Moat=
+=C2=A0
+What I Missed: Retain, Incentive Alignment, and a World Without Debt Traps
+The 2021 Memo
+TrueAccord: The Nice Guy in the Massive Debt Collection Market
+Depending on which source you use, 50-80 million Americans spend a signific=
+ant amount of their income on late charges and interest rates, get harassed=
+ on a daily basis by collectors, and are locked out of basic financial serv=
+ices. These people, by and large, are neither miscreants nor victims. They=
+=E2=80=99re totally normal people who happen to be in debt, and want a way =
+out that doesn=E2=80=99t involve a massive hit to their credit or a lifetim=
+e of ballooning interest payments.=C2=A0
+I was one of them; when I dislocated my knee in college, the hospital sent =
+the bill to the wrong place, we never paid, and I only found out when a col=
+lections agency started harassing me. I was happy to pay, but realized that=
+ even paying would represent a black mark on my credit score. It was a no-w=
+in situation, and I basically had to pay and then wait for years for it to =
+roll off my score. Luckily, I was young and didn=E2=80=99t have a family, b=
+ut similar situations mean that normal people can=E2=80=99t access the bank=
+ing system, further exacerbating their financial situation.
+TrueAccord helps consumers pull their credit reports, negotiate with credit=
+ors and collectors [https://email.mg2.substack.com/c/eJxFkMuOhCAQRb-mWRosQO=
+wFi9nMbxAepc20ggEc498PrYtJKlWLys3Juc5UnFM-1ZZKJZ-l67mhiniUBWvFTPaCWQev-gFGJ=
+viTeMV9P4qRhKKnjLiasKiadyTbbpfgTA0pXglKQZCXcoz6iQ0oxGAm4FJawaWAwU5SUrDPm2t2=
+HzA6VPiL-UwRyaJetW7lwb4e8N3mOI7uwzHOpewxzmbGzqWVBAUUgLJe9iCAQQfdYA1OjHszjRy=
+9dB3bf7ZoPDw4XWfoym5LNe595bOKqdqUQ5zb-_0yKy7Xownpdtc9hnpqjMYu6G_Xeld22esZI-=
+ZWpdemtqI-dr2QVIzydmtlCMqfVEhOGtmnlor_0D8c7IRe] in an informed way by using=
+ AI to show them what other people have successfully said and done, uses it=
+s heft to negotiate with collectors on consumers=E2=80=99 behalf, offers no=
+n-predatory 0% APR loans, and when the consumer is ready to pay, they can d=
+o it right through TrueAccord.=C2=A0
+TrueAccord is not like the collections agencies you=E2=80=99re probably thi=
+nking about: it has a 4.8 star rating on Google and an A+ from the Better B=
+usiness Bureau.=C2=A0
+Consumers never* love a collections agency, but that A+ is a sign that they=
+ at least respect TrueAccord. And the approach works: 75-100% more people p=
+ay TrueAccord, at a lower monthly rate, than a traditional collections agen=
+cy or dirty call center.=C2=A0
+*Not never. This is an actual review:=C2=A0
+"I have had other debts in collections with TrueAccord. The thing I love mo=
+st about TrueAccord is that the (sic) don't threaten to have you arrested l=
+ike so many other collection agencies do. TrueAccord is flexible and gives =
+you time to pay. They really do work with you epescially (sic) if you are s=
+truggling financially."
+But Ohad is a Worldbuilder [https://email.mg2.substack.com/c/eJxFkM2OhCAMgJ=
+9muGmwwqgHDnvZ1zAIVdlRMFDW-PbLjslu0p-kTfOln9GES4iXOkIi9ltGug5UHs-0IRFGlhPG0=
+VnVPKFvpRiYVcI2veyZS-McEXftNkUxIzvytDmjyQX_vuAcJFuVEaBhbvgMxgx6EBKnxpge59ZK=
+NI28uTpbh96gwm-MV_DINrUSHenRfjzgs8R5nrUPNIXo_FKbUEZHSTpDdeorVRSqI6J1hipasZo=
+z5YjMKeAAvG26BiS0UEP9nHSBC6vnXqDtTN3mr8NrCw_B9wXqlKdE2rwKY2dR_THL-rXqHbf3on=
+w7lr5n7-ga0etpQ3uLoNvnW824oMdYPNtRU7EoOgmN7Ljsu_vxYkpyMXDZCVbINpQr_w_9ASiLj=
+5A], and debt collections is the wedge into a much larger market: banking t=
+he underbanked. It all comes down to customer acquisition cost (CAC).=C2=A0
+Debt Collection as a Wedge
+Fintech startups that have gone after the low-end of the market have tradit=
+ionally followed the same playbook: spend a ton of money trying to acquire =
+customers via Facebook and Google, and try to earn enough from them to make=
+ the payback work. It doesn=E2=80=99t. The CAC is too damn high.
+In Jack of Two Trades [https://email.mg2.substack.com/c/eJxFkMuOwyAMRb-m7Bo=
+RA3ksWHQzvxFBcFLaBCJwJsrfD9NIM5Ifki376p7REM4xnXqLmdhvGejcUAc88oJEmNieMQ3e6b=
+qBTijZM6elqzvVMZ-HKSGuxi-a0o5s2-3iR0M-hs8F56DYU1sF9dRY10IzWtnL2phe1LyxIKQwq=
+C5dszuPYUSN35jOGJAt-km05Zt43OCrxHEcVYhkY_JhrsZYRlvJlxnf9zjd6Yh3SsZhZl4DB-Ci=
+bmtQIKCCqrEGJyGdmTqJrh0rsb-2YBzcJF9nqPJuM5VP5e_Kkv7TKev306y4fBbF4VD6ugdP54D=
+B2AXdZZ4uhh8cw4wBU2HrBkOFnGwLAtVy1bWX2UJHcdlz1UpWlF0sV-Ff9AfRfInB], Marc Ru=
+binstein [https://email.mg2.substack.com/c/eJxFUMtuxCAM_JrlGBEeIXvg0EtvvfQH=
+IgNOljaBiJiu8vdldytVsmxZo_F4xgPhkstp93wQe7SJzh1twvuxIhEWVg8sUwy2H8QotbqyYFX=
+oRz2yeExzQdwgrpZKRbZXt0YPFHN6MjgXmt1sQOnNDFcNBnQY-lkG7oQcpOFqkNq8dKGGiMmjxR=
+8sZ07IVnsj2o-LfLuI91Z0j4-POp-3tn1A8Z_VnSxawYXgsje90EKKTnSDA5ylCjCPCoPxnaxfe=
+4IgLopvi-iO6g4C__04xYpNmVwuMS0N_r7BhusTaHamNreaIp0TJnArhpdTegX29D4tmLC0IMME=
+1GJSRoteG67HP2ctCs3VlWujWFMOubHSv-gvwsqDMw] wrote about why Square=E2=80=99=
+s Cash App viral marketing campaigns were such an advantage: =E2=80=9CThe s=
+trategy kept customer acquisition costs exceptionally low: last year, they =
+were less than $5 per customer.=E2=80=9D=C2=A0
+$5 is cool, but what if someone just gives you customers? TrueAccord=E2=80=
+=99s main customers are companies that need to collect debts from customers=
+ -- Yelp, Upwork, and LendUp are some of its clients -- and collectively, t=
+hey send TrueAccord 500k - 1 million people per month. Yup, instead of payi=
+ng to acquire customers, companies just send them to TrueAccord. Of those, =
+5-30% choose to work with TrueAccord (it=E2=80=99s opt-in), and that number=
+ is growing as TrueAccord=E2=80=99s positive reputation builds. People in d=
+ebt are rational and want a way out, and TrueAccord is the friendliest, eas=
+iest way to do that. Plus, the companies that send TrueAccord customers pay=
+ it 15-20% of the money collected. So really, the consumer debt repayment p=
+roduct that TrueAccord offers right now is a fast-growing, high-margin,=C2=
+=A0 negative-CAC channel for its bigger ambitions.=C2=A0
+Once TrueAccord owns the customer relationship and has helped those consume=
+rs out of debt, it can begin to layer on additional financial services: par=
+tnerships with neobanks, debit cards, banking services. These are excellent=
+ businesses once the customer is in the door, but many attempts die at the =
+hands of high CACs. TrueAccord is playing the long game, and has been for t=
+he past seven years, because it knows it can do well by doing good.=C2=A0
+Fewer consumers in debt, more consumers with access to financial services, =
+more profits for TrueAccord.=C2=A0
+It sounds like a perfect playbook. Why hasn=E2=80=99t anyone done it before=
+?=C2=A0=C2=A0=C2=A0
+Unsexiness-as-a-Moat
+We can all agree that debt collection isn=E2=80=99t sexy. We all want to av=
+oid it entirely, and those of us who=E2=80=99ve had to engage know that it=
+=E2=80=99s a terrible and hopeless experience.=C2=A0
+It=E2=80=99s equally difficult to build a business in the space: there are =
+compliance issues, reputational issues, people treat their vendors like shi=
+t, it=E2=80=99s commoditized, and there=E2=80=99s fierce competition from b=
+oiler room call centers. It=E2=80=99s different than traditional SaaS: your=
+ clients don=E2=80=99t love you, there=E2=80=99s no customer obsession. The=
+ best you can do is make sure that a customer=E2=80=99s experience with you=
+ sucked less than the customer=E2=80=99s experience with another company.=
+=C2=A0
+For most people, that=E2=80=99s a deterrent. For Ohad, that was an opportun=
+ity. He bet that people would be attracted to other, shinier opportunities =
+in fintech and avoid getting their hands dirty in consumer debt collection.=
+ He was right, and that=E2=80=99s given him and the TrueAccord team a seven=
+ year head start.=C2=A0
+That head start means it=E2=80=99s worked with more than 16 million consume=
+rs, built up a massive database on what works with which types of vendors, =
+and built something counterintuitive: a respected brand in debt collection.=
+ After years, people are talking online about their relatively positive exp=
+eriences with TrueAccord, and that helps convince others to work with them =
+when their collections are handed over.=C2=A0
+It also means that TrueAccord has been able to build a uniquely cohesive cu=
+lture.=C2=A0
+=E2=80=9CThere=E2=80=99s something bonding,=E2=80=9D Ohad quipped, =E2=80=
+=9Cabout a vision so compelling that smart people are willing to tell their=
+ friends and families they work in debt collection.=E2=80=9D=C2=A0
+The culture that TrueAccord has built around that vision is one of the comp=
+any=E2=80=99s strengths and something that keeps it on the right track. He =
+said that if he tried to ask TrueAccord=E2=80=99s head designer to do somet=
+hing that started exploiting consumers now that they=E2=80=99re big enough =
+to do so, =E2=80=9CShe would tell me to go to hell and then quit on the spo=
+t. As she should.=E2=80=9D The company culture he described is like an anti=
+body to bad behavior. =E2=80=9CWe don=E2=80=99t need a =E2=80=98no assholes=
+=E2=80=99 rule here because an asshole would naturally feel so out of place=
+=2E=E2=80=9D=C2=A0
+TrueAccord is mission-driven, operating in an unsexy space, and taking a lo=
+nger view than anyone in the room. It would be nearly impossible for a well=
+-funded startup to come in and compete with TrueAccord because of the moat =
+it=E2=80=99s built, and no large player wants the reputational risk of work=
+ing in debt collection. It may be one of the few fintech companies impervio=
+us to Stripe=E2=80=99s ever-expanding scope; can you imagine Stripe Collect=
+?=C2=A0
+What I Missed =C2=A0
+In the past year, instead of turning its focus more directly on consumers, =
+TrueAccord discovered an opportunity to reach even more customers by provid=
+ing white-labeled early-stage collection services to fintech companies via =
+Retain. The vision remains the same, but the sequencing is different. Retai=
+n offers the opportunity to help the most people avoid default today.
+That said, the same strategies apply to Retain:=C2=A0
+Debt Collection as a Wedge. TrueAccord is using its experience, technology,=
+ and reputation in debt collection to wedge into the stacks of a new genera=
+tion of creditors instead of using debt collection as a wedge into offering=
+ more financial services to the unbanked itself (for now).
+Unsexiness as a Moat. Given the choice between extending someone a loan or =
+trying to collect their debt, 99 out of 100 fintech companies would choose =
+(and have chosen) the former. That means that there=E2=80=99s been an explo=
+sion in the number of companies offering credit, but there hasn=E2=80=99t b=
+een a commensurate explosion in the number of companies who can collect deb=
+ts when it comes to it in a way that fintech companies would be proud to pa=
+rtner with.=C2=A0
+Those two strategies have afforded TrueAccord the rare opportunity to build=
+ core infrastructure in a fast-growing space uncontested.=C2=A0
+Embedded Finance, BNPL, and Retain
+In a year of financial markets craziness, 2021 belonged to fintech. That me=
+ant more new companies offering more credit products to more consumers.=C2=
+=A0
+In the private markets, according to CB Insights [https://email.mg2.substac=
+k.com/c/eJxFkE9rhDAQxT_N5raSvxs95NAWCr320KtEM7rpaiLJWPHbN6uFwjDzmMfwmF9vEca=
+YdrPEjOTZWtwXMAG2PAEiJLJmSK13ht14LZRsiDPSsVrVxOd2SACz9ZPBtAJZ1m7yvUUfw3FBKV=
+fkbgS1wormBrIZNJMWNGW60cqKHmqg6sy1q_MQejDwA2mPAchk7ohLvoiXC38vtW1b1Xc-ZD_eM=
+Vd9nMsywRIT5qLeXq8ff177BQHXBNfPw71yylm1uIF4UySngmnGFRe84tWtszAI6exQS3C6r8T6=
+vQTr-EXSeeRVXruMtn8880gyIWIXkw9jsR93O8N0GOX1tsx5DR73FoLtJnAnFTzhHpzaEQKkAt2=
+1FgtSqRVnSlNV65NCwaaobKjSkpRkF8tV-A_9BQP7koM], fintech companies accounted =
+for $131 billion of the total $621 billion in global venture capital fundin=
+g.=C2=A0
+Within fintech, two of the biggest trends have been embedded finance and Bu=
+y Now Pay Later (BNPL).=C2=A0
+Embedded finance is a topic we=E2=80=99ve covered a few times in Not Boring=
+, when we talked about Unit [https://email.mg2.substack.com/c/eJxFkN1uhCAQh=
+Z9G7mpwgFUvuGjS7GsQkNGlq2D4qfHty65JmzBMMpMzJ-ebdMYlxFPuIWXy-lQ-d5Qej7RizhhJ=
+SRiVs7K7wcAEH4mV3HaDGIhLao6Im3arzLEg2YtZ3aSzC_6toBQEeUikZkbOZ2OpNqMAqKds17G=
+RGgP9oC9fXaxDP6HEH4xn8EhW-ch5Tw37bOBe33EcrQ_ZhOj80k6hjvZa2qSwlowfxbvcsHsVfB=
+3ESaAAlHV9BwIYtNDejMaZcavngaPtp5aV791rCw2n2wJtKiZlPT3r6Y1E-WdV18-H3nB9L2pIV=
+fv2cjsVem1WtFf-fGF8E1ELeowVr1U6V3i8F9CJnoqhv_JWQILykYqek-psQ1X5f9NfltuKuw],=
+ Lithic [https://email.mg2.substack.com/c/eJxFkN1qxCAQRp8m3m2If2ty4UWh7GsEo=
+5Os3USDjg15-9oNtOAozPBxnGMNwhLTqfeYkfxeI5476ABHXgEREikZ0uidpnfWcykG4rRwtJc9=
+8XmcE8Bm_KoxFSB7mVZvDfoY3omuY5I89cyVmWZuBqWoHWZpACSlfOZDz6ia6MU1xXkIFjR8Qzp=
+jALLqJ-KeG_7RsEc9x3G0IeIUkw9La2Nt7bVWj09v863--WZLxrhBavij5j4P4jXrGOs4VZRJxl=
+nL2vtkYObCmbkX4JRtefnag3GsEd22sDaXKaOxr0rYSNJ_xDp-Pc0G63tQdx3ru5Xg8RwhmGkFd=
+2nAy-ZbzLhAgFQtu9FgdSiUZFSqTvbqWrt6kp0YOqkEqWQXayr8Q38ApAONYQ], and in a re=
+cent Not Boring Founders convo with Stilt=E2=80=99s Rohit Mittal [https://e=
+mail.mg2.substack.com/c/eJxFkLtuwzAMRb_GGg1Zj8geNARt06FApg5BF0MP2lFjS4Ikt_D=
+fV0mGAgRJkLy4xDGqwBzSLmPIBd3TWPYI0sNvXqAUSGjLkEZnZXcgPeVsQFYy2_W8Ry6PUwJYlV=
+tkSRuguOnFGVVc8A8FxoSjqyS0F3iYlFVGg6D0MGDaDdgOhgCro6ev2qwDb0DCD6Q9eECLvJYSc=
+0OPDTnVCBF8m2MobtpbE9Y6guhysFA7sphwvhzfPkKKn8PL1yW809O5oafsGvpqhGJTzxQTmrKO=
+aeQkwYTUP0RHOKGkJe1BK5gos6oeghWmpdt39MqShuF1Jm3edC7K3O7WKEkfig7J-bmub1e1wvJ=
+YVAZjrevmXdlH8EovYJ94ypPyA9g4g4dU6dtRlcqWCU46LjDvxRNH5ccxGzAXDFVnG6rK_5v-Ab=
+Twk3k]. Fintech Today=E2=80=99s Ian Kar [https://email.mg2.substack.com/c/e=
+JxFkMGOhCAMhp9mOBpEGPXAYS_7GqTS6rCjYKDuxLdfZjxs0rRpmvbv93tgWlI-7Z4Ki3dyfO5k=
+I73KSsyUxVEou4C2vauhM3oUaDW2gxlEKG7ORBuE1XI-SOzHtAYPHFL8bEipjHjYUWov9XjvCcw=
+4KGOQfNeOgDjNiKO_dOHAQNGTpV_KZ4okVvtg3sut-7qp7xr8Cu-PGp-22gWIT8hOBKukUrJr-1=
+YZ1alGNfcJaO40wjxowt433fGzR0B103JbVFOOqTD45_uSyDYmnlIOcanj5wM2Wj-DSuNq3Y4Y-=
+HQUYVoJL1C-_Pqgu4Ui5eojOuDqku6Nak0vzdBfYNUJU_Gl6bWoypjqVvwX_QPSgoOC] define=
+s it as, =E2=80=9CWhen a non-financial services company creates financial s=
+ervices products for their users, embedding them into its existing products=
+=2E=E2=80=9D=C2=A0
+For purposes of today=E2=80=99s discussion, what it means is that more non-=
+banks are extending credit to customers than ever before.=C2=A0
+BNPL =E2=80=93 which essentially extends customers zero-interest loans at t=
+he point-of-sale in order to increase conversion =E2=80=93 had an even bigg=
+er year than embedded finance:=C2=A0
+In January 2021, Affirm priced its IPO at $49 and popped 110% on its first =
+day of trading to a market cap of $24 billion. It peaked at $46 billion in =
+November.
+In June, Softbank led a round in Ohad=E2=80=99s old company, Swedish BNPL K=
+larna, that valued it at $46 billion.
+In August, Square bought Aussie BNPL Afterpay for $29 billion.=C2=A0
+Things have cooled off since from a valuation perspective. Affirm, whose bi=
+ggest customer, Peloton, has struggled, is trading at around $8 billion. In=
+dex Ventures=E2=80=99 Mark Goldberg pointed out that, because it=E2=80=99s =
+still private and not marked daily, Klarna is on paper worth more than a ba=
+sket of big public fintechs combined:=C2=A0
+But for our discussion, what=E2=80=99s important is volume, not valuations.=
+ A Juniper Research report [https://email.mg2.substack.com/c/eJxFkcuOhCAURL=
+-m2WkQeeiCxWzmNwyPq80MAgFs498Pdi8mIdwbKpWqHIyqsMV8yRRLRfe11CuBDHAWD7VCRkeBv=
+DgrB06mkdEZWUntMLEJubKsGWBXzsuaD0Dp0N4ZVV0MbwfGhKGnFGymGDAjBBsQfB2IEJyulBtO=
+qRmnT646rINgQMIL8hUDIC-ftabyGL8e5Lud8zz7pK4dQi3WvaA3cW_Pd9c2dEi-KwmCdWHrauz=
+KCd7fyzwz3W0-auX91emrI5jwrtTDXt3qgr3dHA8Tn9uCnGwyweMgBsLISHrSc61gHalV60TBCt=
+OPx08KypIHxftG-nLoUpX5vQuhLEOsOubWosm_T7WDfwuNztLmfgRXrwWC0h7sB1z98H-jXDYIk=
+Nu_2EXVRp0KRgYmMJvEB1QjyzCdMRMUtWQbmyv8h_4BgrScyA] estimated $226 billion i=
+n 2021 BNPL volume, and projected growth to $995 billion by 2026, or roughl=
+y 25% of all ecommerce spending. Once again, more non-banks are extending c=
+redit to customers than ever before.=C2=A0
+Both embedded finance and BNPL might want to offer credit to more people, b=
+ut they don=E2=80=99t have the (old, shitty, harassing, etc=E2=80=A6) infra=
+structure that banks have in place to make sure that they can prevent borro=
+wers from defaulting and collect if they do. They=E2=80=99re faced with a f=
+ew options:=C2=A0
+Build. Fintech companies could build collections in-house, but it=E2=80=99s=
+ complicated from a compliance perspective, not a core competency, and not =
+sexy enough to excite employees. Plus, as discussed in last year=E2=80=99s =
+memo, many companies don=E2=80=99t want collections on their hands.=C2=A0
+Bad. They could go with the bad solutions =E2=80=93 working with traditiona=
+l collection agencies who harass people and often end up in court =E2=80=93=
+ but that would be bad for brand, wouldn=E2=80=99t integrate technologicall=
+y, and could hurt morale and mission.=C2=A0
+Partner with TrueAccord. TrueAccord has the expertise, experience, and tech=
+nical chops to collect more effectively than traditional agencies, and it=
+=E2=80=99s the only modern solution that modern companies don=E2=80=99t fee=
+l weird turning their customers over to.
+More and more, embedded finance and BNPL companies are turning to TrueAccor=
+d and using one or both of its two products:=C2=A0
+To see what the world looks like when TrueAccord succeeds=E2=80=A6=20
+Not Boring Talent Collective
+If you ever read about a company in Not Boring and think, =E2=80=9CI wish I=
+ could work there,=E2=80=9D then you should apply to join the Not Boring Ta=
+lent Collective. When companies in the Not Boring portfolio and community l=
+ook to hire, they=E2=80=99ll find you there.
+Thanks for reading, and see you on Monday,
+Packy
+
+Unsubscribe https://email.mg2.substack.com/c/eJxFkluP2jAQhX8NeYx8yfUhDywUNm=
+gJXZXb8hI59gCGxM4mTtPk19eA1EqWbZ3RzLHOZ84MXHQzJLVujfPYcjPUkCjo2xKMgcbpWmhyK=
+RIckIj6XuyIxBM48iNHtvm5AaiYLBPTdODUXVFKzozU6tmBEPGda4Ji8M-MoygggUcxpzzCRUQx=
+wRFmVAQvX9YJCYpDAr-hGbQCp0yuxtTthE4nZGFX3_eu0qbQjVQXl2srMf4wsxchW1aUkD9fM6E=
+Lo--gJnQOwwpzsh-OpLynN_0nu6Xeetyhza9e8mU8ikVcn2ZpkG2naLOd4mz8bNOqvAqrrbdfKB=
+t3w3q7o-tZL9kxG-0Myd_38mP7o1_PU5xKO4fu5UM_Lcvx67BqT_u4LA6LupitYrdG_ebn_Lt43=
+x_V_LCbVgepz5e3z1pLlX3ky7b83vH0-ObNtCMTgghBFIeY-IQSl7hBweBMPcHOkQci5C7tbrVi=
+gkw8VF2I23ZFaxi_2zgqp0n-xWPL9yuroHwWLJjcnlWnpBlyUI-oxIuZeaF_5pZfQEFjv4TImbH=
+AvdAn2A-RH4UvRhaqj7wY-aHnWGehbZf6b_oXAxvH_g
+--423f04d4025798a6200f83264980d3cae893ae723855cfea3a6cd8dc1b9a
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>TrueAccord: Unsexiness-as-a-Moat</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin-bottom: 16px;
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 16px 0 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+table.post-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item,
+  table.post-meta.alternative-meta tr td.post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item,
+  table.post-meta.alternative-meta tr td.post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item.guest=
+-author-publication,
+  table.post-meta.alternative-meta tr td.post-meta-item.guest-author-public=
+ation {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  table.post-meta tr td.post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  table.post-meta tr td.post-meta-item .post-meta-button .meta-button-label=
+ {
+    display: none;
+  }
+  table.post-meta tr td.post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  table.post-meta tr td.post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f8f8f8 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 18px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwMzE3MTI1MjMyLjIuNmJhZWYzNGRhZjg0ZWQ3Yy4zdWpwbmFkMkBtZzIuc3Vic3RhY2suY2=
+9tPiIsInUiOjE2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1Y=
+nN0YWNrLmNvbSIsInAiOjUwNDkwNTc0LCJ0IjoibmV3c2xldHRlciIsImEiOiJldmVyeW9uZSIs=
+InMiOjEwMDI1LCJjIjoicG9zdCIsImYiOnRydWUsImlhdCI6MTY0NzUyMTU3MCwiaXNzIjoicHV=
+iLTAiLCJzdWIiOiJlbyJ9.04cR69ojbYvAaiTQBHb1s521R2-S5Ps_UkLn3hZ6o7Y" alt=3D""=
+ width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width=
+:1px !important;border-width:0 !important;margin-top:0 !important;margin-bo=
+ttom:0 !important;margin-right:0 !important;margin-left:0 !important;paddin=
+g-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;p=
+adding-left:0 !important;"/><div style=3D"display:none;font-size:1px;color:=
+#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hid=
+den;" class=3D"preview">Bringing Debt Collection Into the New World &#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;</div><table role=3D"presentatio=
+n" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D=
+"email-body-container"><tr><td></td><td width=3D"550" class=3D"content"></t=
+d><td></td></tr><tr><td></td><td align=3D"left" width=3D"550" class=3D"cont=
+ent"><div style=3D"font-size: 16px; line-height: 26px; margin: 0 auto; max-=
+width: 550px; overflow-wrap: break-word; width: 100%;"><div dir=3D"auto" cl=
+ass=3D"post typography" style=3D"font-size: 16px; line-height: 26px; paddin=
+g: 9.6px 0;"><div class=3D"post-header" style=3D"font-size: 16px; line-heig=
+ht: 26px;"><h1 class=3D"post-title short published" style=3D"-moz-osx-font-=
+smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a=
+; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Se=
+goe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe =
+UI Emoji', 'Segoe UI Symbol'; font-size: 40px; font-weight: bold; line-heig=
+ht: 130%; margin: 0.378em 0 0 0;"><a href=3D"https://email.mg2.substack.com=
+/c/eJxFUl2P2jAQ_DXkjch2YhI_5AFx5RpUuLZ83B0vkWMvYEjsKHYuhF9_BqRWWnulWe2MNLOC=
+OziadsgaY11w_wo3NJBp6G0FzkEbdBbaQskMT0ga0ZgFMoslTmkaKFscWoCaqypzbQdB05WVEtw=
+pox8bCBEanDKSsjhBKSSESVymqaCcMsQkI5REQCdPXd5JBVpABl_QDkZDUGUn5xo7iqYjMvfV93=
+2ojStNq_QxFMZDjX93aS6EaeW40xauSoO1Y-5rXBvuRtHcmQvoUfQCwwILshs-SHXJz-a6Oufx8=
+rZFb-teiVd2k3PW7Gf5ZLWZorfNFK9uf2xeVyfpseXmE61u22G52UbLWa_4x-rmOZT4uVO_Nj_6=
+5UuOc-V5op164He-GR727_OzfK2-SrVg4aG4VuPJaZ9b_Yl_H9DsfYmP9Xqaxn-n67WsWTq7Lva=
+MXzobqIwgQlCEE3z3iYQknJQcDlEs-SGNQSYijLpzo7kkoxjVRxLarrSOi4v3pg7a7J9Xfnw58R=
+qqx8CnVPhed1q5oQDNywrkM0D3vINHpMURNLT-PmTBnU8_TijBNEE0TZ6B-YQpihmiSRx4ZWn8l=
+v4v-g2m2MuY" style=3D"color: #1a1a1a; text-decoration: none;">TrueAccord: U=
+nsexiness-as-a-Moat</a></h1><h3 class=3D"subtitle" style=3D"-moz-osx-font-s=
+moothing: antialiased; -webkit-font-smoothing: antialiased; color: #767676;=
+ font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Seg=
+oe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Symbol'; font-size: 20px; font-weight: normal; line-hei=
+ght: 1.16em; margin: 4px 0 8px; margin-top: 8px;">Bringing Debt Collection =
+Into the New World</h3><table cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+post-meta   custom" style=3D"margin: 1em 0;"><tr><td title=3D"2022-03-17T12=
+:52:48.421Z" class=3D"post-meta-item post-date" style=3D"color: #767676; fo=
+nt-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica=
+, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbo=
+l'; font-size: 14px; font-weight: 400; height: 14px; line-height: 100%; pad=
+ding: 0px 12px 0px 0; padding-bottom: 0; padding-top: 0; position: relative=
+; text-decoration: none; vertical-align: middle; white-space: nowrap;"><tim=
+e dateTime=3D"2022-03-17T12:52:48.421Z">Mar 17</time></td><td class=3D"post=
+-meta-item icon" style=3D"color: #767676; font-family: -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weigh=
+t: 400; height: 14px; line-height: 100%; padding: 0px 12px 0px 0; padding-b=
+ottom: 0; padding-top: 0; position: relative; text-decoration: none; text-i=
+ndent: 3px; vertical-align: middle; white-space: nowrap;"><span class=3D"po=
+st-meta-icon"><a href=3D"https://email.mg2.substack.com/c/eJxFUtuSojAQ_Rp5W=
+yokXB94cNxhFkuxrMF11hcqJI1GIDAQZPDrN-heqlLdldPVp2-HUQXnppvCtumVMZtMTS2EEsa-=
+AqWgM4Yeukzw0HKxTxw7MHhoc8t3fEP0WdEB1FRUoeoGMNohrwSjSjTykYEQdoxLSFwfgKOAksJ=
+igUXcwilc3-c-yh3iFORZlw5cgGQQwg26qZFgVOFFqbZfkOUCR_qN42jKRuVNJ-TZZI2GaCu0vV=
+nazCTaPdr51gFlcxsLEqmmBO2_w7S2GP45feCqjK_NV3KN7e39gHbvo2BvwZ1HQXtaxW6SLtEuX=
+VrJfd_Hcl39OiaIHoNB5wi7xWUsRkGPEXpy7EmSxl9JysbNat0yshU7sR75MVbbdDlurweh8bv-=
+z_h0OkZX_lbdcrEOzM8fp3d2e5WZVzYq9V72nx96nauXzaF0YYjjzek1ZyjCB3u_wO6g6qxvho6=
+BnqUf8l5RVv7Ba-BiqOcZ5-ENEWKEMSKWZ2EHE2xi080pFMTmtPBt4B4zyXBtJeV4YaP6jM2_hH=
+qrtdGF_7asw-WF1lA9Avq-mfb1IIWaMpA0r4A_T6-eCno0kJ1BQqeVxTOqtG5sz8GW4yHH956n1=
+tpwkB0gx7MNXZk3Okv-L_obXOTgdA" class=3D"like-button" style=3D"display: bloc=
+k; text-decoration: none;"><img src=3D"https://cdn.substack.com/image/fetch=
+/w_28,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack=
+=2Ecom%2Ficon%2FHeartIconRounded%3Fv%3D3%=
+26height%3D28%26fill%3D%2523757575%2=
+6stroke%3D%2523757575%26strokeWidth%3D2" width=3D"14" height=3D"14" style=
+=3D"border: none !important; display: inline-block; float: left; height: 14=
+px; max-width: 14px; vertical-align: top; width: auto;" alt=3D""></a></span=
+></td><td class=3D"post-meta-item icon" style=3D"color: #767676; font-famil=
+y: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,=
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font=
+-size: 14px; font-weight: 400; height: 14px; line-height: 100%; padding: 0p=
+x 12px 0px 0; padding-bottom: 0; padding-top: 0; position: relative; text-d=
+ecoration: none; text-indent: 3px; vertical-align: middle; white-space: now=
+rap;"><a class=3D"" href=3D"https://email.mg2.substack.com/c/eJxFUsty4jAQ_B=
+p8wyXJ74MPFFmyTi1kd3kk4eKSpTEILMllyTHm6yNgH1UjHXo0PaPpZtTCQXdj3mpjvdtV2rGFX=
+MFgGrAWOq830JWC5zgmaRCFmcfzkOM0Sj1hyroDkFQ0ue168Nq-agSjVmh1r0CIRN4xp5DGdUXD=
+jFGaxgEjEOEMZygDhoGl4aMv7bkAxSCHT-hGrcBr8qO1rZkEswlZuBiGwVfaVroT6uAz7aDWnVt=
+rypju-LRXBi5CgTFT6mIqNbXuBdNSgrKOaWH1GdQkeILxBTOyG99Jcy5O-rI6FeHyukWv60Gw5-=
+zKF1m7nxfxajNDr5sZXl1_mUI2R-6w5eYDra7bcbnZBsv5IOj76uo4BPu-Ez8234blU4EL4XiCn=
+bjjN745HvdvixN_bj4r8ZL5dXlppvFxXxj1gX_WaP62xAe5nqXh79l6zWWWzi8v-4yeezMhcW9l=
+aXTfMXCzm74ylrLzH1wCF728_emmhCdygghBAU4wiUhAfOLHFYU6CDmt0xB4wvygP7WKcjIJkTw=
+Q_y-h26n0uvzfjl36fKQSmnvCqVveNtkrYccSFK0a4A_h7cM_9wHKAyjonK94Sa1zTZhEBEcJit=
+LkIbRzRoTCDEVJ6LnOXLsq9b_pF2mC4Q0" style=3D"display: block; text-decoration=
+: none;"><img src=3D"https://cdn.substack.com/image/fetch/w_28,c_scale,f_pn=
+g,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FComm=
+entIconRounded%3Fv%3D3%26height%3D28%26fill%3D%2523757575%26stroke%3D%25237=
+57575%26strokeWidth%3D2" width=3D"14" height=3D"14" style=3D"border: none !=
+important; display: inline-block; float: left; height: 14px; max-width: 14p=
+x; vertical-align: top; width: auto;" alt=3D"Comment" class=3D"comment-icon=
+ post-meta-icon"></a></td><td class=3D"post-meta-item icon" style=3D"color:=
+ #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Robot=
+o, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Se=
+goe UI Symbol'; font-size: 14px; font-weight: 400; height: 14px; line-heigh=
+t: 100%; margin-right: 0; padding: 0px 12px 0px 0; padding-bottom: 0; paddi=
+ng-right: 0; padding-top: 0; position: relative; text-decoration: none; tex=
+t-indent: 3px; vertical-align: middle; white-space: nowrap;"><span><a href=
+=3D"https://email.mg2.substack.com/c/eJxNkl2vojAQhn8N3ElKAYELLjjnxA1GPW5W13=
+P2hpR21CK0pB-L-Ou36n4lbZN5ppPJvPNSYuAk1VQMUhv__tRmGqAQMOoOjAHlWw2q5qwI5ziLk=
+jj3WRGzMEsyn-v6qAB6wrvCKAv-YJuOU2K4FI8KhHDinwuGkywlCWNRFjd5dmwaFqI8R4QBa5J0=
+_uxLLOMgKBTwE9QkBfhdcTZm0F5UenjhzjiOgZCmkYqLU0ClQ4O799aEUqnYzAoNVy5A6xlxZ9Z=
+LYrxoYU1fa2kVBS9607bRhtCLh-d33gPjtnf8McdvSKUwIMz995kocJTQ-1T_ASMvcI9hWoYUf5=
+8-cHepWnndtFW8vu3R-7eRk8MCPdnXaLOrrpsdHVevy4FGa_7OlyM7VGa9K8d1u-eO31z84E20Q=
+auPZfd52CByyG0lUFC9tKh8lfBFaHMUzbbU-3pm7GX9druV8se01av9_HPbvrSlzwuMMEZRmIY4=
+wREOcDBvCByjmJFjFgNLaRDZdhCEYS9G_QkHf1Rxsva-Kv7K7NKXM-mheyTcgp02fW8FN1MNgjQ=
+dsOfuzdNCDxXrEwhQzlqsJsYZJ04THCYpcjZ47tqZI0FxjpI09l1nJl2V-Nf0F0qw41k" style=
+=3D"display: block; text-decoration: none;"><img src=3D"https://cdn.substac=
+k.com/image/fetch/w_32,c_scale,f_png,q_auto:good,fl_progressive:steep/https=
+%3A%2F%2Fsubstack.com%2Ficon%2FRecommendIconRounded%3Fv%3D2%26height%3D32%2=
+6fill%3D%2523757575%26stroke%3Dnone%26strokeWidth%3D2" width=3D"16" height=
+=3D"16" style=3D"border: none !important; display: inline-block; float: lef=
+t; height: 16px; max-width: 550px; vertical-align: top; width: 16px;" alt=
+=3D"Share" class=3D"recommend-icon post-meta-icon"></a></span></td></tr></t=
+able></div></div><div dir=3D"auto" class=3D"post typography" style=3D"font-=
+size: 16px; line-height: 26px; padding: 9.6px 0;"><div dir=3D"auto" class=
+=3D"body markup" style=3D"font-size: 16px; line-height: 26px; margin-bottom=
+: 12px; text-align: initial; width: 100%; word-break: break-word;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; =
+margin-top: 0;"><em>Welcome to the&nbsp;<strong>288&nbsp;newly Not Boring p=
+eople&nbsp;</strong>who have joined us since Monday! Join&nbsp;<strong>108,=
+356 </strong>smart, curious folks by subscribing here: </em></p><div class=
+=3D"subscribe-widget is-signed-up" style=3D"direction: ltr; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em;"><p class=3D"button-wrapper" style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; tex=
+t-align: center;"><a href=3D"https://email.mg2.substack.com/c/eJxFUctuwyAQ_=
+Bpzq2WwMeTAoVKV37B4bBxaAxZeauXvS-w2lRDSzu7OjGatRphTfqg1bUie34SPFVSEfVsAETIp=
+G-TJO0VHJns-XIhTg6OSS-K36ZYBgvaLwlyArMUs3mr0KR4bXcc4uStKR3ER1hjhmDF8lNLI8aI=
+lrwUdHT11dXEeogUF35AfKQJZ1B1x3Zr-vWHX-vZ9b2NCk7KPc2tThbZiNpu9gaa_FgzTlkq2tf=
+h4UjZsfGIBnC-hYofTX_A1-GJ4272b4W_JpogQsQ7wbrh0XAzEK9Yx1vVUUMZZz1rWjkbDrR-cv=
+skBnLBtXz7XqB1rhi7MrH2So7Zf1WwgWb3M1_bXXQdYjkaNreqFUKLHxwRRmwXcmSiehzmcTzNE=
+yPVgbtJYzzEIzigXHZfiTLBG_jJblV2qW_Ff9AcnzqfM" class=3D"button primary subsc=
+ribe-btn" style=3D"background-color: #67bdfc; border: none; border-radius: =
+4px; box-sizing: border-box; color: #ffffff !important; cursor: pointer; di=
+splay: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe=
+ UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI =
+Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height: au=
+to; line-height: 20px; margin: 0; opacity: 1; outline: none; padding: 12px =
+20px; text-align: center; text-decoration: none !important; white-space: no=
+wrap;"><span style=3D"color: #ffffff; text-decoration: none;">Subscribe now=
+</span></a></p></div><div style=3D"font-size: 16px; line-height: 26px;"><hr=
+ style=3D"background: #e0ecf6; border: none; height: 1px; margin: 25.6px 0;=
+ padding: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;"><strong>Today&#8217;s Not Boring is brought to=
+ you by&#8230; Not Boring</strong></p><div class=3D"captioned-image-contain=
+er-static" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px=
+; text-align: center;"><figure style=3D"display: inline-block; margin: 0 au=
+to; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-paddin=
+g-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td =
+align=3D"left" class=3D"content" width=3D"900" style=3D"text-align: center;=
+"><a class=3D"image-link" target=3D"_blank" href=3D"https://email.mg2.subst=
+ack.com/c/eJxVUsuu3CAM_ZrJLhHhMZBFFldX6m9EBpwMnQRSIPd2-vX1JIuqErKNreNjOHZQc=
+Un5Ne6p1OZtpvracYz4XVasFXNzFMxT8GN_50YoOTR-lL43yjShTHNG3CCsY80HNvth1-CghhRP=
+BGNcNY_Raa4svw_OM-0AKK3mHrz0Qt8HNcuLFw4fMDoc8QvzK0Vs1vFR615u4uPGf9BxPnblsKW=
+Ce3YubZQKGyxIfsbqHm9PbWq68c9fVyA-lpQ83ed12nNaMpYSvpDypSLuhLgouHqTqDcNGXu4J1=
+I9t8iUtc7I1gKIVgqN7aB604K3glvUejCyK6KDDf6kCN_lmot6XH9xhueQ5QwFID1Y-hYNNZUzy=
+HYwg21xnkF7BkYCTgNjv_s76_a4NGHkjHMmet0TXvCOd3cLOAvpYTYSvXadOH7uETy_SbYt_L8v=
+avIYU7Uph7hQ-fmADdezQPNN5LcjhvqaMIJd0V8y1msbTmGnBSNm2hI_QaUdkFrxXmmmjL5kI50=
+VkwNTWjbE7BOh4j_Sv4aDx7g" rel=3D"" style=3D"align-items: center; border: no=
+ne; display: block; flex-direction: column; height: auto; margin: 0; paddin=
+g: 0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&qu=
+ot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazona=
+ws.com/public/images/3ae5f44d-e884-4fa4-989b-effa7d0a84ae_900x160.png&quot;=
+,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:=
+160,&quot;width&quot;:900,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:21=
+204,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;imag=
+e/png&quot;,&quot;href&quot;:null}" alt=3D"" width=3D"550" height=3D"97.777=
+77777777777" class=3D"wide-image" src=3D"https://cdn.substack.com/image/fet=
+ch/w_1800,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbuc=
+keteer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fima=
+ges%2F3ae5f44d-e884-4fa4-989b-effa7d0a84ae_900x160.png" style=3D"-ms-interp=
+olation-mode: bicubic; border: none !important; display: block; height: aut=
+o; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-a=
+lign: middle; width: auto !important;"></a></td><td style=3D"text-align: ce=
+nter;"></td></tr></tbody></table></figure></div><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>When I started=
+ writing Not Boring, my plan was to get big enough that I could throw up a =
+paywall, convert some small % of free readers to paid, and hopefully make e=
+nough to make a living. Once</em> <em>it started growing, though, I didn&#8=
+217;t want to shut it off. I wanted as many people to be able to read and e=
+ngage with Not Boring as possible. Sponsors make that possible. </em></p><p=
+ style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1=
+em 0;"><em>We&#8217;re gearing up for Q2 and looking for companies and prot=
+ocols to sponsor Not Boring across the newsletter, podcast, and new project=
+s </em>&#128064;. <em>Just yesterday, we <a href=3D"https://email.mg2.subst=
+ack.com/c/eJxFkb1uxCAQhJ_GlBZewD8FRZToUiQp0qRIY2Gz9nFnYwfWOfntw52LSGgZtBrN8=
+m1vCMcl7HpdIrF7aWlfUXu8xQmJMLAtYmid1UUJtVCyYVZLW9SqZi62Q0CcjZs0hQ3ZunWT6w25=
+xT8cnINiZ10bNZgGa24aI-3QVFVnlRoGDp2SCtWRazbr0Peo8RfDvnhkkz4TrTETTxmc0qGbu0-=
+U98ucXqvpr_tHEpEMbTGJQnHJy6aGhgsoBJRFmYlT8r8Az6CkJH4ub933V49ODHZc3-Panl6fP5=
+nTwAG4KKoCFAjIIS87g4OQ1gy1RFv1udguqzcWMsnnEfK4dSm4v96nYUH7hbolOD-m9vVsZpwej=
+USkTfe8eUd7i950E9oDFh3MH_jaET2GtAvbGkqkZaWgUBVXdXXASTTT5xquKslSsl2Sy_-H_gE-=
+hJZf" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">announ=
+ced</a> that <a href=3D"https://email.mg2.substack.com/c/eJxFkE1uxCAMhU8zLC=
+MwkJ8Fi256jcgBJ0NDICKkVXr6MpNFZeQnYdlP77NYaEn5Mns6Cnu1sVw7mUg_R6BSKLPzoDx6Z=
+0QLvdRqYM4oJ3rdM3-Mcyba0AdT8klsP6fgLRaf4nuDc9DsaVCjUz3qQWqqInTP3YwolLQDtMN0=
+--LpPEVLhr4pXykSC-ZZyn485McDPusLPq7NFJJd5xR8amza6u_gfvcqRLODWswb4ABcik6ABgk=
+NNO2ENEvlcO4Vuc428vzaIzp4KL4t0BzndBS06-siyyamMqXs41LH6xM3Cu9BTTdW3c7oyzVSxC=
+mQu4OXm98bxbhQpFy5uhFLpaY6DUJ3XPfdHbSS0VwNXHeKVWeX6lb8N_0Df-uIEA" rel=3D"" =
+style=3D"color: #1a1a1a; text-decoration: underline;">FTX</a> is  sponsorin=
+g Not Boring Founders Season 2, which means we can turn it into a real podc=
+ast (subscribe at <a href=3D"https://email.mg2.substack.com/c/eJxFkMtqwzAQR=
+b_GWho9LWehRUsJlLYUsuvK6DFO1NiSkeQk_vsqyaIwzMBcLgeO1QWOMW1qibmg-xrKtoAKcM0T=
+lAIJrRnS4J0iHe2Z4DvkFHekFz3yeRgTwKz9pEpaAS2rmbzVxcfwaGBMBTop3BPMO8sMlob0hAI=
+Rve6kdczJUVj95OrVeQgWFFwgbTEAmtSplCU37KWh-zpxgdDmJRY_bq2Nc33lU7zW053Jz-fr5f=
+tw-Npi_tjYjdzep4bts2_Ym6DQyU6bnTSGEwvIK4opxYxIQgVltKVtZzSMjDs99hyctC1bf5egH=
+W04no-0zavJRdvznYuSCrGYmHw41vh80jNMj6AKGOqd1-DLNkDQZgL3dFOeih-2hiMESFW9G3Sp=
+YrkUlAiJRS-fLqo8gfkOC8lRJbtYW-Ef-ge6WpJ7" rel=3D"" style=3D"color: #1a1a1a;=
+ text-decoration: underline;">Spotify</a> or <a href=3D"https://email.mg2.s=
+ubstack.com/c/eJxFkEtuxCAMhk8z7BqBgZAsWHTTa0QEnAydBBCQVrl9mUmlkSw_Zf_yZ03FN=
+eZTp1gqebqpngl1wN-yYa2YyVEwT95p1sPApRiJ08KxQQ7El2nJiLvxm675QJKOefPWVB_Da4NS=
+kOSujTJ26dUC1PGBigGRK8OdsDDSuWfLpWsO5zFY1PiD-YwByabvtaZy4583-GqWorOm1NKZlDb=
+sbNxb8yjvSctCrB9zzD6srfCOSVAC2MgZ8RooAOVMMZDAoYOunw0uXDizDAKdsh0_vlMwDm6C7i=
+t05ZhLNfbxlCJZt9v_pwV93M2O22vQvp5a3I_g6zlhMPOG7gJSL64vRNOKAXPj7SZTG02hJDCpq=
+BzUBaARk1SMVCpBmrKLbSu8Rf8ASKiPdg" rel=3D"" style=3D"color: #1a1a1a; text-d=
+ecoration: underline;">Apple</a>). I&#8217;d love to continue the tradition=
+ of Not Boring readers&#8217; companies sponsoring Not Boring, so if you&#8=
+217;re interested in reaching this audience, email partnerships@notboring.c=
+o or share some info in the form here&#8230;</em></p><p class=3D"button-wra=
+pper" data-attrs=3D"{&quot;url&quot;:&quot;https://airtable.com/shrxNGVi960=
+VpW1oC&quot;,&quot;text&quot;:&quot;Sponsor Not Boring&quot;,&quot;action&q=
+uot;:null,&quot;class&quot;:null}" style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em 0; text-align: center;"><a class=3D"bu=
+tton primary" href=3D"https://email.mg2.substack.com/c/eJxFkMtuxCAMRb9mWEaE=
+Rx4LFlWldtfldIkIOAmdBCJw2ubvSyaLSpYty7Kv77EGYYrpUFvMSM6k8dhABfjJCyBCInuGpL1=
+TdcM6LkVPnBKu7mRHfNZjAliNXxSmHci2D4u3Bn0Mzw1KmSSz6vuuEZJT6yw0nWnE0INrez5wGK=
+nl4tI1u_MQLCj4hnTEAGRRM-KWb_zlxt5KGJ_QDAtUNq6lzXP6_Xi_-76h9-2zjq_EK0YZo7xua=
+yYZZxWrmsHAyIUzYyeKqK34_rUF49hN0HViVd6HjMY-zpskqRBxiMmHqYwfs1lheQ6KMV3qugeP=
+h4ZwfuEuz3ihe1LQEwRIBanTBgsw0UpWy5bKrr08FiiSip7KVpCi7GLZCv-if7dFhjs" rel=3D=
+"" style=3D"background-color: #67bdfc; border: none; border-radius: 4px; bo=
+x-sizing: border-box; color: #ffffff !important; cursor: pointer; display: =
+inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', R=
+oboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height: auto; lin=
+e-height: 20px; margin: 0; opacity: 1; outline: none; padding: 12px 20px; t=
+ext-align: center; text-decoration: none !important; white-space: nowrap;">=
+<span style=3D"color: #ffffff; text-decoration: none;">Sponsor Not Boring</=
+span></a></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=
+=3D"background: #e0ecf6; border: none; height: 1px; margin: 25.6px 0; paddi=
+ng: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;">Hi friends &#128075;,&nbsp;</p><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Top of the m=
+ornin&#8217; to ya and Happy St. Patrick&#8217;s Day! A little over a year =
+ago, the Not Boring Syndicate backed <a href=3D"https://email.mg2.substack.=
+com/c/eJxFUMuOxCAM-5rhWEEKfRw47GV_A1FIO-y0UEG6Vf9-melhpSiRYtmW7SzhkvKl91SIv=
+Zeha0cd8SwrEmFmR8Fsgteig6FVcmReSy8GNbBQzJwRNxtWTflAth_TGpylkOKHwTko9tQjdjMX=
+swSHHjvbdRzAi5EPkxxHlOr2tYcPGB1q_MV8pYhs1U-ivTzarwd81znPs3n7WOdS9o1LW32yoKH=
+q8Vb0AhS00EDTTRbnVno7DxJ975r2-Nmj9fCQfFugKcdUyLrXW4JlHRNNKYe4VPj1tBuuH6CmMf=
+VuRwx0GYx2WtHfQenu6xPdLBgx1x69sVRbkr0CoXquhv4OVptQXI5c9ZJVZ58qK_6b_gErmYLE"=
+ rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">TrueAccord<=
+/a>.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;">Instead of the typical long Not Boring post, I wante=
+d to mix it up and try something new &#8211; I&#8217;m sharing the main sec=
+tions from the memo I wrote for the Syndicate last year as-is, and then add=
+ing my thoughts on what&#8217;s changed since and where I didn&#8217;t thin=
+k big enough.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;">While I hope that fintech companies read th=
+is and want to work with TrueAccord, the main point of this piece is to hig=
+hlight the importance of a few themes for investors and builders alike:</p>=
+<ol style=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: =
+8px; margin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Unsexine=
+ss-as-a-Moat</strong></p></li><li style=3D"margin-bottom: 4px; margin-left:=
+ 8px; margin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>The Ver=
+satility of Picking the Right Wedge&nbsp;</strong></p></li><li style=3D"mar=
+gin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margi=
+n-bottom: 0;"><strong>The Value of Aligned Incentives (beyond web3)&nbsp;</=
+strong></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-r=
+ight: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0; margin-bottom: 0;"><strong>The Different Paths a=
+ Great Entrepreneur Can Take Towards the Same Goal</strong></p></li></ol><p=
+ style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1=
+em 0;">A common piece of venture capital advice is to back great founders i=
+n big markets, because great founders will uncover all of the best opportun=
+ities. TrueAccord&#8217;s founder, Ohad Samet, has proved that as he&#8217;=
+s evolved TrueAccord over the past year.&nbsp;</p><p style=3D"color: #1a1a1=
+a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">It&#8217;s a goo=
+d reminder that while I can make my best guesses as to where companies and =
+industries are headed, the best entrepreneurs will bend things in unexpecte=
+d directions.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;">Let&#8217;s get to it.</p><div style=3D"fon=
+t-size: 16px; line-height: 26px;"><hr style=3D"background: #e0ecf6; border:=
+ none; height: 1px; margin: 25.6px 0; padding: 0;"></div><h1 style=3D"-moz-=
+osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color=
+: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2em; font-weight: bold; l=
+ine-height: 1.16em; margin: 1em 0 0.625em 0;"><strong>TrueAccord: Unsexines=
+s-as-a-Moat&nbsp;</strong></h1><div class=3D"captioned-image-container-stat=
+ic" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-=
+align: center;"><figure style=3D"display: inline-block; margin: 0 auto; wid=
+th: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: =
+1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=
+=3D"left" class=3D"content" width=3D"1200" style=3D"text-align: center;"><a=
+ class=3D"image-link" target=3D"_blank" href=3D"https://email.mg2.substack.=
+com/c/eJxVUsuu3CAM_Zphl4hngEUWV1fqb0Q8nAydBFIg93b69SXJoqqEbIPxOZaPnamwpPwe9=
+1QqOs1U3zuMEb7LCrVCRkeBPAU_koEqJrhGfuSeKKFQKNOcATYT1rHmA9B-2DU4U0OKVwXGVKDn=
+aC2nBjzBQjNsHbZ60NJizWY9a43xzWsOHyA6GOEL8jtFQOv4rHUvD_bxoD_acT725bClGvfqXdr=
+aU9jMAs3PUN3z9A2mpgf9_HUH7GNJybf7vE57TkuGUsIXtPdSAfZWcVNQcZKIk6YZe7gXtHzuAA=
+trneKdNYZ1nEnotCCqM94yakFKrXhfWG828ydF813uvhrGPYsrvJosVygZngV2QydnpTvOiesUM=
+w2ei0Fxxr0hciIU498D5f0eFxRGiinFjEjSABjtaT9YA_P5d1YcvHQ9O37u0Xj64Hhb6H8zQnmM=
+qdqUQ1xa-vU0G6xXojU4Nb8dMdT3BNHYFfytY73X4VJ2WiBCbmviJ1PbEnApKBESCyVv3ZrQAnO=
+NheSoMfvUquI_0r-RJMY0" rel=3D"" style=3D"align-items: center; border: none;=
+ display: block; flex-direction: column; height: auto; margin: 0; padding: =
+0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;=
+:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.=
+com/public/images/730f50c6-7f89-441c-83a4-b4568434da17_1200x624.png&quot;,&=
+quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:62=
+4,&quot;width&quot;:1200,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:722=
+19,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image=
+/png&quot;,&quot;href&quot;:null}" alt=3D"" width=3D"550" height=3D"286" cl=
+ass=3D"wide-image" src=3D"https://cdn.substack.com/image/fetch/w_2400,c_lim=
+it,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84=
+-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F730f50c6-=
+7f89-441c-83a4-b4568434da17_1200x624.png" style=3D"-ms-interpolation-mode: =
+bicubic; border: none !important; display: block; height: auto; margin: 0 a=
+uto; margin-bottom: 0; max-width: 100% !important; vertical-align: middle; =
+width: auto !important;"></a></td><td style=3D"text-align: center;"></td></=
+tr></tbody></table></figure></div><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;">Debt collection.&nbsp;</p><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;">Have I scared you away yet?&nbsp;</p><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;">If so, that&#8217;s part o=
+f the beauty of <a href=3D"https://email.mg2.substack.com/c/eJxFUMuOxCAM-5r=
+hWEEKfRw47GV_A1FIO-y0UEG6Vf9-melhpSiRYtmW7SzhkvKl91SIvZeha0cd8SwrEmFmR8Fsgt=
+eig6FVcmReSy8GNbBQzJwRNxtWTflAth_TGpylkOKHwTko9tQjdjMXswSHHjvbdRzAi5EPkxxHl=
+Or2tYcPGB1q_MV8pYhs1U-ivTzarwd81znPs3n7WOdS9o1LW32yoKHq8Vb0AhS00EDTTRbnVno7=
+DxJ975r2-Nmj9fCQfFugKcdUyLrXW4JlHRNNKYe4VPj1tBuuH6CmMfVuRwx0GYx2WtHfQenu6xP=
+dLBgx1x69sVRbkr0CoXquhv4OVptQXI5c9ZJVZ58qK_6b_gErmYLE" rel=3D"" style=3D"co=
+lor: #1a1a1a; text-decoration: underline;">TrueAccord</a>. It uses <strong>=
+unsexiness as a moat</strong>, and has quietly built one of the biggest fin=
+tech startups you&#8217;ve never heard of.</p><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em 0;">When I first spoke t=
+o TrueAccord&#8217;s founder and CEO, <a href=3D"https://email.mg2.substack=
+=2Ecom/c/eJxFUMtuxCAM_JrlGPEM5MChl_5GBMGb=
+0E0gAqer_H3J5lDJsmWNxuOZySHMuZx2zxXJ=
+1UY8d7AJ3nUFRCjkqFDGGCzruRFKDiRYGZhRhsQ6PgvA5uJqsRxA9sOvcXIYc_owKOWKLJZJOnC=
+mnQcQDAYlnKFg-uChF4pO5tZ1R4iQJrDwC-XMCchqF8S9PsTXg3-3wne8PuqmvLUtLy5UtwGSaD=
+nlnAqmGVdc8I53vXfwFDK4p5EQ9NSJ42dPLvCHpNvMu3r4im56XbdIsSmjzyWmucGvpR1dP0DzM=
+7a5HSniOUJyfoVwW8U7sY_5cYYEpSUZRoctJ6kVZ0pTZfRtrWWhqByo0pI05ZAbK_2L_gFh64PC=
+" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Ohad Samet=
+</a>, last year, he told me, &#8220;I would really love to see more second =
+and third time founders try to build something really hard.&#8221;&nbsp;</p=
+><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 =
+0 1em 0;">He&#8217;s doing it himself. Before founding TrueAccord, Ohad wor=
+ked in fraud protection at PayPal, was the founder of Signifyd, founder of =
+Analyzd (Acquired by Klarna in 2011), and was the Chief Risk Officer at Kla=
+rna for three years. While running TrueAccord, he also served a one-year st=
+int as a Board Member on the Consumer Advisory Board at the Consumer Financ=
+ial Protection Bureau (CFPB).&nbsp;</p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">Now, he&#8217;s building so=
+mething really hard. TrueAccord is &#8220;<strong>debt collection, reinvent=
+ed</strong>,&#8221; the largest and fastest-growing technology player in co=
+nsumer debt repayment. Ohad said the thing that attracted him to debt colle=
+ction is that it hits the holy grail of major startup ideas:<strong> a big,=
+ unattended, fragmented, low NPS market, a solution for which would solve a=
+ core issue for people.&nbsp;</strong></p><div class=3D"captioned-image-con=
+tainer-static" style=3D"font-size: 16px; line-height: 26px; margin-bottom: =
+16px; text-align: center;"><figure style=3D"display: inline-block; margin: =
+0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-p=
+adding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td=
+><td align=3D"left" class=3D"content" width=3D"1456" style=3D"text-align: c=
+enter;"><a class=3D"image-link" target=3D"_blank" href=3D"https://email.mg2=
+=2Esubstack.com/c/eJxVUsuunDAM_ZphB8qThAW=
+Lqyv1N5CTGIYOJDQJ93b69fUMi6pSZDu2fI7=
+lYw8Vl5Sf45FKbV5mqs8Dx4jfZcNaMTdnwTytYeS9sFKroQmjCtxq26xlmjPiDus21nxic5xuWz=
+3UNcV3B2NCN_eRcQhgei44nwUzgwAdVGDQ91LLQdiLF86wYvQ44hfmZ4rYbOO91qPc5MdN_KDnQ=
+-zK6UoF_-h82im17rAg-Rmrv788wdR0E5-_rkB-LCkF-s_bdOS0ZCxl_ULKl4p4UMdFIfSLRL9o=
+yLjTP5DquUWmnfNWtQ5AtkoabAfNbQvBSeHQmMGqrsgOdviTInyXay7CuHbxDt9DlguZSU1bgHb=
+oZ8JD61vLnCY8zbh3IHXQE1eD_q0U6464NOsomBBMcsMJQIpOdL0DnKUKMFuFwfhOnj-PCEHcFN=
+sX8d-OmjzGVF3Ka1yo_LjDjtu7QANO5PczrvU5YQS3Ybh0rNc5vJWdFoyY6UzCBJWOQBktuDZMW=
+3PpRkJrpgamjWqIOSTqiv9I_wIa-8Z2" rel=3D"" style=3D"align-items: center; bor=
+der: none; display: block; flex-direction: column; height: auto; margin: 0;=
+ padding: 0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot=
+;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.=
+amazonaws.com/public/images/b03511fa-96f3-4e8c-80b5-ad501cba35d5_1495x440.p=
+ng&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;heigh=
+t&quot;:429,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes=
+&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:nu=
+ll,&quot;href&quot;:null}" alt=3D"" width=3D"550" height=3D"162.05357142857=
+142" class=3D"wide-image" src=3D"https://cdn.substack.com/image/fetch/w_291=
+2,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e=
+05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0=
+3511fa-96f3-4e8c-80b5-ad501cba35d5_1495x440.png" style=3D"-ms-interpolation=
+-mode: bicubic; border: none !important; display: block; height: auto; marg=
+in: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-align: m=
+iddle; width: auto !important;"></a></td><td style=3D"text-align: center;">=
+</td></tr></tbody></table></figure></div><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0;">Over the first seven year=
+s of its life, TrueAccord built skills in consumer-friendly digital debt co=
+llection. At its core is a <strong>personalized, self-serve debt repayment =
+experience</strong> that uses machine learning to reach consumers at the ri=
+ght time via the right channels. Instead of constant cold-calling, TrueAcco=
+rd might text or email at times its found are most successful. Because the =
+company has always had ambitions to build a full suite of financial service=
+s for its target audience, it&#8217;s taken a much friendlier approach to c=
+ollections, one meant to <strong>retain instead of repel</strong>.&nbsp;</p=
+><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 =
+0 1em 0;">Consumers can and do work with TrueAccord directly to get control=
+ of their debt, but the secret sauce in TrueAccord&#8217;s approach to date=
+ has been <strong><a href=3D"https://email.mg2.substack.com/c/eJxFkEGOhCAQR=
+U_TLA2UIPaCxWzmGgap0mZawSCM8fZD62ISUhCqfv3852ymOabTbHHP7FOGfG5kAh37QjlTYmWn=
+NHg0ooO-VfLJ0EgUveqZ34cpEa3WLyanQmwr4-KdzT6GS8E5KPYyT9Kqs0J0XOCEfNKgJEptW_U=
+EzRFuX1vQU3Bk6JfSGQOxxbxy3vZH-_WA73qO42g-Pta5mLBxca2fW4pYXK6vRC5W6TXbMm-AA_=
+BWaAEKWmig6UZLUyvRTr0k1K5py88WLMJD8nWGZi_jnq17fzazZELMY0w-zLX9ftmVlqtRQw71X=
+kvw-Rwo2HEhvPPnG-NFZJgpUKp4cbC5wpNagVCaq17feSsgxeWTKy1ZdcZYVeHf9A_Zb4oU" re=
+l=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Recover</a></s=
+trong>: a late-stage recovery (read: debt collection) product through which=
+ <strong>companies pay TrueAccord</strong> to collect debt from their custo=
+mers.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0 0 1em 0;">BNPL giants <strong>Klarna</strong> and <strong>Aff=
+irm</strong>, for example, outsource collections to TrueAccord and pay True=
+Accord 22% of what it collects. More importantly, when considering the visi=
+on to provide more financial services to the target market, when companies =
+buy Recover, <strong>TrueAccord gets paid to acquire customers</strong>. Th=
+at means it has a <strong>negative CAC on consumers</strong>.</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>It seems to be working. Each month, creditors send TrueAccord <strong>500k=
+ - 1 million</strong> potential customers, for free, and then pay them a co=
+mmission on repaid debt!&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;">The promise and success of Recov=
+er has attracted some of the world&#8217;s top investors including Khosla V=
+entures, Homebrew, Felicis, Arbor Ventures, and PayPal/Affirm founder Max L=
+evchin. We backed the company last year, before there was Not Boring Capita=
+l, via the Not Boring Syndicate.&nbsp;</p><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;">When we invested in True=
+Accord March of last year, I wrote up a short memo on what excited me about=
+ the opportunity. I&#8217;m going to include three sections exactly as-is f=
+rom that memo:</p><ul style=3D"margin-top: 0;"><li style=3D"margin-bottom: =
+4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format=
+: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0; margin-bottom: 0;"><strong>TrueAccord: The Nice Guy in the Massi=
+ve Debt Collection Market</strong></p></li><li style=3D"margin-bottom: 4px;=
+ margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bu=
+llet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0; margin-bottom: 0;"><strong>Consumer Debt Repayment as a Wedge</stron=
+g></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right:=
+ 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1=
+a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><stron=
+g>Unsexiness-as-a-Moat&nbsp;</strong></p></li></ul><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">But then I&#821=
+7;m going to show you what I missed, too. I didn&#8217;t think big enough. =
+It&#8217;s a good reminder &#8211; particularly in a period when everyone s=
+eems to have turned impossibly bearish &#8211; that markets change and evol=
+ve in unpredictable ways, and that building blocks can snap together in way=
+s that create bigger-than-anticipated opportunities.&nbsp;</p><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">In T=
+rueAccord&#8217;s case, I didn&#8217;t predict <strong>how central lending =
+and consumer debt would become to fintech</strong> &#8211; fueled by the dr=
+amatic ascent of Buy Now, Pay Later (BNPL), consumer fintech, and embedded =
+finance. Some of the most successful tech companies have become, wittingly =
+or unwittingly, creditors.&nbsp;The debt market actually shrank last year t=
+hanks to stimulus checks, and as it comes back, the lender composition will=
+ lean more tech-forward than it was before. </p><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">In response, last =
+September, <strong>TrueAccord launched its second product, <a href=3D"https=
+://email.mg2.substack.com/c/eJxFUsGOpSAQ_Bq9aRDxqQcPkzezX7B3g9D62EFwodlZ_35=
+b3GQSUjRdaaqbQkmEzYdzOnzE8oIZzwMmB1_RAiKEMkUIs9FT8-BD24mx1JPQzdANpYnzGgB2ae=
+yEIUF5pMUaJdF4lysY4135mvpFjn03UskghBgZX8TaNgsboevZ8OC3rkzagFMwwR8Ip3dQ2umFe=
+MSifSv4D1qL9Vt9CUmlfNC18jtlOeMNbWwk-CYrK5NTL4hVAJTGVbLSZjMobbWaELGK3qar0Wr1=
+oQIZ7FlFlBtUylsL6qJilm0v_f6DEOEvFu178yh4x58XsFucAoIPTjBc0djm3E_q5i13k49PHw4=
+f8uv8v-D5ZfCVuUNGvIJ3nSAnNFjjfidwOc2uoZLDWJdmIk3O2qZviGh5zevHImFthZbrIED3qm=
+7Tr8NJzQvB9o3XMS00mvq8HqwMk_O4-GDcRvTnS-5gM0HmzbTvyRk8Z3BysaBvX_H-HtnpeQMHN=
+AXoWSJ9CtF3vCEfu6G_fSTjO0Yud70oSVl7qnLfov8AWBPL0g" rel=3D"" style=3D"color:=
+ #1a1a1a; text-decoration: underline;">Retain</a>,</strong> a white-label S=
+aaS product that fintechs can use to collect <strong>early-stage delinquenc=
+ies</strong> before consumers default, when they&#8217;re much more likely =
+to pay.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">Like <a href=3D"https://email.mg2.substack.com/c/=
+eJxFkMtuhSAQhp_msDsGEEQXLLrpaxiEUelRMFxqfPtOj0mbcEmYDN_8nzUFlpgufcRcyO8xlus=
+AHeDMG5QCidQMafROs473rRQDcVo41sue-DzOCWA3ftMlVSBHnTZvTfExvDso5ZKs2lprWNe1k6=
+OMDUb2qudzK5Qz3aCmfr65pjoPwYKGb0hXDEA2vZZy5Ef78eCfuM7zbEIsU0w-LI2N-HTg3nxZv=
+c1PnPlpay5xx6m95pRz2jLFuOQtb3jTTQYQ68zcC3DKNm39OoJx_CHovvAm1ykXY1_4806S_iNh=
+-bWaHbZ3ATOOeO81-HKNEMy0gbvjl9viW8i4QICEdt1oCroTSnImFcXwd1z0I6kYqFSCINlF7Ar=
+_0B-ltYs-" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">L=
+ithic</a>, <a href=3D"https://email.mg2.substack.com/c/eJxF0E1PxCAQBuBfU44N=
+DNCPAwejrgcTTx6MlwbKdBe3BQJU038v7h5MJsyEyeRNnlkXPId0qBhyIX_PVI6IyuNPXrEUTGT=
+PmCZnFetg4FKMxCph2SAH4vK0JMRNu1WVtCOJu1ndrIsL_nZBKUhyUUxSwRY5oJa8w3GxgjKgHb=
+eUcSo6c8_Vu3XoZ1T4jekIHsmqLqXE3PCHBk61QkTf5hiKW452Dlv9wuhysFgnWOfw9vHw_BpSf=
+B8fPz_CCz-9NfyUXcOflh4XZmbDAEcBzBCngAJQznoGEji00HZG48KF1csg0PZzy_ev6LWFRtDt=
+DG3eTS56vv5Fk6R8KCYk5891fb3oDdfbohpMtW-7d-WY0Guzor3zlLvyDWw6o8dU9e2kS7UVvQQ=
+meyqH_s5R_SrbSGUvSE22oV75_9BfvKaS0w" rel=3D"" style=3D"color: #1a1a1a; text=
+-decoration: underline;">Onbo</a>, and of course, AWS, TrueAccord turned ma=
+ny of the tools it built for its own first product, Recover, into infrastru=
+cture for other companies with Retain. Ohad calls it the &#8220;AWS of Cons=
+umer Debt and Delinquency.&#8221;</p><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0 0 1em 0;">Retain uses data on the 16 mi=
+llion consumers it&#8217;s worked with directly and through Recover, plus T=
+rueAccord&#8217;s HeartBeat machine learning platform, to identify delinque=
+nt customers and reach them through the best touchpoint at the best time. U=
+nlike Recover, through which clients <em>outsource</em> collections to True=
+Accord, clients <em>embed</em> Retain right in their stack.&nbsp;</p><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;">Instead of collecting post-default, Retain helps keep consumers from def=
+aulting on loans in a much friendlier, more tech-forward, and effective way=
+ than any traditional delinquency or collections solution could. It&#8217;s=
+ growing like crazy &#8211; crossing the 1 million consumer mark in less th=
+an 6 months &#8211; and is used by fintech platforms like <a href=3D"https:=
+//email.mg2.substack.com/c/eJxFkEFuxCAMRU8zLCNiYMgsWHTTayCCTYY2gQhIq9y-zGRR=
+ybJlfdlf73vXaMnlNHuujb2abedOJtFvXak1KuyoVGxEM95hEko-GBqJ46QmFqsNhWhzcTWtHMT=
+2Y16jdy3m9L7gHBR7GtQEgF6PeBciTAFD0HKGCdF5weFx-boDIyVPhn6onDkRW82ztb3exMcNPn=
+vVM7m9UoiDz1vfWTTAAbgY9QgKBAww3GdHQUh0YZKE2g_i-NqTQ7hJvi0w1GOuzfnv1wtWTMptz=
+iWmpcvfT7fR-hY6iO1zO1Jsp6Xk5pXwYmxXVG9qu1Ci0iNE61oPSGoFo9JcTfpi6iEoLh9cacm6=
+M-Z-lf5N_wAvGIGU" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underl=
+ine;">SynapseFi</a> and <a href=3D"https://email.mg2.substack.com/c/eJxFkEl=
+uwzAMRU8TLQ2NlrLQoptcQ9BAO2psydDQwrevEi8KECSID_LjfW8brLmc-si1oXcz7TxAJ_itG7=
+QGBfUKxcSgyUwVE_yOguaBKKFQrGYpALuNm26lAzq626K3Leb0ucCYCvTUDMsZgDsVfMD3WXrnZ=
+7ZYZQkPgki4fG0PEZIHDT9QzpwAbfrZ2lFv7OtGH6Nq3Ow-hHPyeR87ippiSjEjklBBGZ3oNDsL=
+C-PBLopDkH5i_ftINtAbx_tKp9pdbda_3i9Q0Sk3l0tM65BfT7vD9hEGiBlz7ym200CyboNwMbY=
+rqg-1WSFBGREGY9sIiEtBiZBYKHkxjRAE5ncsJEfDOeRxlf5N_wD2OIFg" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">Sila</a>.&nbsp;</p><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;=
+">I also missed just how important the <strong>incentive alignment </strong=
+>narrative would become in 2021 and 2022. TrueAccord&#8217;s business model=
+ is aligned with both creditors and consumers: Recover, for example, only m=
+akes money when consumers get out of debt. As one sign of that alignment, T=
+rueAccord successfully lobbied for the passage of the CFPB&#8217;s <a href=
+=3D"https://email.mg2.substack.com/c/eJxFkU2OhCAQhU_T7DRYSqMLFrOZaxiE0mYGwf=
+DTHW8_1fZiEgIUr15e5cPogltMpzpiLuy9zeU8UAV8ZY-lYGI1Y5qdVd0dxl4ME7NqsN0oRubyv=
+CbEXTuvSqrIjrp4Z3RxMVwOzkGwhwIQHKc7CDtx200ccZX6vsq1l3oB6D65ulqHwaDCJ6YzBmRe=
+PUo58q3_usE3rdfr1ZoYct0xrS5oam63-CQlVY-5OSKln1S-Rd9cj1RZXEpjovdo3pM1R9J0MWR=
+IuFV_jdus1MicAg7A-052IKCHFtr7onHtB6vXcUArTdvXnyNoC7eB7xu0uS65aPNLg-0sqRDLEp=
+MLG8m_D72jvwQCM9O51-DKOWPQi0f7YVY-6C-K84YBE32JnXUh4IMU0AnJxSg_jAiq4MPEhRwYJ=
+dtIrvAf-gftqp7a" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underli=
+ne;">Regulation F</a>, which limits debt collectors&#8217; ability to hound=
+ people on the phone, among other things.&nbsp;</p><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">One of the past=
+ year&#8217;s biggest themes has been <strong>reinventing financial service=
+s</strong>. Fintech and web3 attracted as much attention and venture capita=
+l dollars as any category. The promise of many of these products is that th=
+ey&#8217;ll be able to provide opportunities to people who are left behind =
+by the traditional financial system.&nbsp;</p><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em 0;">No one is more focus=
+ed on making sure that everyone has a fair financial chance than TrueAccord=
+=2E They&#8217;ve been working on this fo=
+r eight years, despite and even beca=
+use of the fact that debt collection is an unsexy category.&nbsp;</p><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;">So today, we&#8217;ll look back at last March&#8217;s memo before lookin=
+g forward to what the world, and the financial system, look like when TrueA=
+ccord achieves its vision:&nbsp;</p><ol style=3D"margin-top: 0;"><li style=
+=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;=
+"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+; margin-bottom: 0;"><strong>The 2021 Memo</strong>: Nice Guy, Debt Collect=
+ion-as-a-Wedge, Unsexiness as a Moat&nbsp;</p></li><li style=3D"margin-bott=
+om: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom=
+: 0;"><strong>What I Missed: </strong>Retain, Incentive Alignment, and a Wo=
+rld Without Debt Traps</p></li></ol><h2 style=3D"-moz-osx-font-smoothing: a=
+ntialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-famil=
+y: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Rob=
+oto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', '=
+Segoe UI Symbol'; font-size: 1.625em; font-weight: bold; line-height: 1.16e=
+m; margin: 1em 0 0.625em 0;"><strong>The 2021 Memo</strong></h2><h3 style=
+=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialias=
+ed; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-we=
+ight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;"><strong>TrueAcco=
+rd: The Nice Guy in the Massive Debt Collection Market</strong></h3><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;=
+">Depending on which source you use, <strong>50-80 million Americans spend =
+a significant amount of their income on late charges and interest rates</st=
+rong>, get harassed on a daily basis by collectors, and are locked out of b=
+asic financial services. These people, by and large, are neither miscreants=
+ nor victims. They&#8217;re totally normal people who happen to be in debt,=
+ and want a way out that doesn&#8217;t involve a massive hit to their credi=
+t or a lifetime of ballooning interest payments.&nbsp;</p><p style=3D"color=
+: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">I was on=
+e of them; when I dislocated my knee in college, the hospital sent the bill=
+ to the wrong place, we never paid, and I only found out when a collections=
+ agency started harassing me. I was happy to pay, but realized that even pa=
+ying would represent a black mark on my credit score. It was a no-win situa=
+tion, and I basically had to pay and then wait for years for it to roll off=
+ my score. Luckily, I was young and didn&#8217;t have a family, but similar=
+ situations mean that normal people can&#8217;t access the banking system, =
+further exacerbating their financial situation.</p><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">TrueAccord help=
+s consumers pull their credit reports, <a href=3D"https://email.mg2.substac=
+k.com/c/eJxFkMuOhCAQRb-mWRosQOwFi9nMbxAepc20ggEc498PrYtJKlWLys3Juc5UnFM-1ZZ=
+KJZ-l67mhiniUBWvFTPaCWQev-gFGJviTeMV9P4qRhKKnjLiasKiadyTbbpfgTA0pXglKQZCXco=
+z6iQ0oxGAm4FJawaWAwU5SUrDPm2t2HzA6VPiL-UwRyaJetW7lwb4e8N3mOI7uwzHOpewxzmbGz=
+qWVBAUUgLJe9iCAQQfdYA1OjHszjRy9dB3bf7ZoPDw4XWfoym5LNe595bOKqdqUQ5zb-_0yKy7X=
+ownpdtc9hnpqjMYu6G_Xeld22esZI-ZWpdemtqI-dr2QVIzydmtlCMqfVEhOGtmnlor_0D8c7IR=
+e" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">negotiate=
+ with creditors and collectors</a> in an informed way by using AI to show t=
+hem what other people have successfully said and done, uses its heft to neg=
+otiate with collectors on consumers&#8217; behalf, offers non-predatory 0% =
+APR loans, and when the consumer is ready to pay, they can do it right thro=
+ugh TrueAccord.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-=
+height: 26px; margin: 0 0 1em 0;">TrueAccord is not like the collections ag=
+encies you&#8217;re probably thinking about: it has a 4.8 star rating on Go=
+ogle and an A+ from the Better Business Bureau.&nbsp;</p><div class=3D"capt=
+ioned-image-container-static" style=3D"font-size: 16px; line-height: 26px; =
+margin-bottom: 16px; text-align: center;"><figure style=3D"display: inline-=
+block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin:=
+ 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-alig=
+n: center;"></td><td align=3D"left" class=3D"content" width=3D"1448" style=
+=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"=
+https://email.mg2.substack.com/c/eJxVUsuunDAM_ZphB8oTwoLF1ZX6G8hJPEw6kNAk3N=
+vp19cDi6pSZDu2fI7lYwcVl5Rf055Kbd5mrq8dp4jfZcVaMTdHwTwHP_FeGKnV2PhJeW60aUKZ7=
+xlxg7BONR_Y7Iddg4MaUjw7GBO6eUzG2ZGPnBmutIdeSIReMiWE6a0QFi5eOHzA6HDCL8yvFLFZ=
+p0ete7nJj5v4Qc_52JXDlgru2bm0USpssCD5O1b3eHuCqekmPn9dgfxYUvL0v6_zntOSsZTwhZQ=
+vFXGnjotC6DeJftOQsYd7ItVzi0xb64xqLYBslRywHTU3LXgrhcVhGI3qiuxggz8pwne55iKMax=
+dneA5ZzvAuFaJVrGVWD63i6FrQCK2WTtheWjMqNnOlzG9JwHtcmjAJJgSTfOAEIEUnut4CEpCHu=
+1HoB9fJ4-cewYubYtsi_ttRk6eYqk05xIXKzwdsuJ4FGnAmvx0x1NeMEeyK_tKxXudwKjsvGDHT=
+mfgZKh2BGrTgemDaDJduJLRmamR6UA0x-0Rd8R_pX4PVxq8" rel=3D"" style=3D"align-it=
+ems: center; border: none; display: block; flex-direction: column; height: =
+auto; margin: 0; padding: 0; text-decoration: none; width: auto;"><img data=
+-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-=
+adb32be77984.s3.amazonaws.com/public/images/f34eeb40-0b57-41ec-a5ea-53c2b63=
+b8940_1448x384.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:=
+null,&quot;height&quot;:384,&quot;width&quot;:1448,&quot;resizeWidth&quot;:=
+null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&qu=
+ot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"550" height=3D=
+"145.85635359116023" class=3D"wide-image" src=3D"https://cdn.substack.com/i=
+mage/fetch/w_2896,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%=
+2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpubl=
+ic%2Fimages%2Ff34eeb40-0b57-41ec-a5ea-53c2b63b8940_1448x384.png" style=3D"-=
+ms-interpolation-mode: bicubic; border: none !important; display: block; he=
+ight: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; v=
+ertical-align: middle; width: auto !important;"></a></td><td style=3D"text-=
+align: center;"></td></tr></tbody></table></figure></div><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Consumers=
+ never* <em>love</em> a collections agency, but that A+ is a sign that they=
+ at least respect TrueAccord. And the approach works: 75-100% more people p=
+ay TrueAccord, at a lower monthly rate, than a traditional collections agen=
+cy or dirty call center.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;"><em>*Not never. This is an actua=
+l review:&nbsp;</em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;"><em>"I have had other debts in collections=
+ with TrueAccord. The thing I love most about TrueAccord is that the (sic) =
+don't threaten to have you arrested like so many other collection agencies =
+do. TrueAccord is flexible and gives you time to pay. They really do work w=
+ith you epescially (sic) if you are struggling financially."</em></p><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;">But Ohad is a <a href=3D"https://email.mg2.substack.com/c/eJxFkM2OhCAMgJ=
+9muGmwwqgHDnvZ1zAIVdlRMFDW-PbLjslu0p-kTfOln9GES4iXOkIi9ltGug5UHs-0IRFGlhPG0=
+VnVPKFvpRiYVcI2veyZS-McEXftNkUxIzvytDmjyQX_vuAcJFuVEaBhbvgMxgx6EBKnxpge59ZK=
+NI28uTpbh96gwm-MV_DINrUSHenRfjzgs8R5nrUPNIXo_FKbUEZHSTpDdeorVRSqI6J1hipasZo=
+z5YjMKeAAvG26BiS0UEP9nHSBC6vnXqDtTN3mr8NrCw_B9wXqlKdE2rwKY2dR_THL-rXqHbf3on=
+w7lr5n7-ga0etpQ3uLoNvnW824oMdYPNtRU7EoOgmN7Ljsu_vxYkpyMXDZCVbINpQr_w_9ASiLj=
+5A" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Worldbui=
+lder</a>, and debt collections is the wedge into a much larger market: bank=
+ing the underbanked. It all comes down to customer acquisition cost (CAC).&=
+nbsp;</p><h3 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-sm=
+oothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -a=
+pple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans=
+-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size=
+: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;=
+"><strong>Debt Collection as a Wedge</strong></h3><p style=3D"color: #1a1a1=
+a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Fintech startups=
+ that have gone after the low-end of the market have traditionally followed=
+ the same playbook: spend a ton of money trying to acquire customers via Fa=
+cebook and Google, and try to earn enough from them to make the payback wor=
+k. It doesn&#8217;t. The CAC is too damn high.</p><div class=3D"captioned-i=
+mage-container-static" style=3D"font-size: 16px; line-height: 26px; margin-=
+bottom: 16px; text-align: center;"><figure style=3D"display: inline-block; =
+margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto=
+; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center=
+;"></td><td align=3D"left" class=3D"content" width=3D"676" style=3D"text-al=
+ign: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://ema=
+il.mg2.substack.com/c/eJxVUsuO2zAM_JroZkPW2wcfFgv0Nww9GEeNLbmSvNv068vYh6KAQ=
+FIkhkNw6G2DJZfXtOfayNvM7bXDlOC7rtAaFHJUKHMM06CY4VKMJEwiDEYaEut8LwCbjevUygFk=
+P9wavW0xpxNBKZPkMQFCFQc6SAUCDTMDKKoGJakOox8vXnuECMnDBF9QXjkBWadHa3u98Y8b-4H=
+Ph9TXw9Vm_bP3ecNU3OwC6O_Q_OPtsU3LN_b56wr4x5JzwP99nfeSlwK1xi_AfG0AOyIuCibfJP=
+JNg8Yd_glYLx1Q6Zw3onPW8k5wDd0oB9PZ4DhzoPVoRF95bzf7Jyf7Xa-5sMe1izM8h6xnKAMor=
+pjrRuNZJ0YmOuud6IxlQnJgzhk_K61-Czn2e1pInBhljPJBD4jnrGe9chbuXAR7NwKC9j0_fu7J=
+BnYTdFvYfysiZUq5uVxiWrD8fNgN1rOA883otyPF9pohWbdCuGRs1zWcws4LJCh4JWG2DW9AaMk=
+Gqak0-pINdZZUjFRqQZA5ZESlf6R_AcnixeY" rel=3D"" style=3D"align-items: center=
+; border: none; display: block; flex-direction: column; height: auto; margi=
+n: 0; padding: 0; text-decoration: none; width: auto;"><img data-attrs=3D"{=
+&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be7798=
+4.s3.amazonaws.com/public/images/5de6362b-98c2-4924-acb4-8a2453e2bb8c_676x4=
+59.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;h=
+eight&quot;:459,&quot;width&quot;:676,&quot;resizeWidth&quot;:null,&quot;by=
+tes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;=
+:null,&quot;href&quot;:null}" alt=3D"" width=3D"550" height=3D"373.44674556=
+213016" class=3D"wide-image" src=3D"https://cdn.substack.com/image/fetch/w_=
+1352,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketee=
+r-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2=
+F5de6362b-98c2-4924-acb4-8a2453e2bb8c_676x459.png" style=3D"-ms-interpolati=
+on-mode: bicubic; border: none !important; display: block; height: auto; ma=
+rgin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-align:=
+ middle; width: auto !important;"></a></td><td style=3D"text-align: center;=
+"></td></tr></tbody></table></figure></div><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0 0 1em 0;">In <em><a href=3D"https=
+://email.mg2.substack.com/c/eJxFkMuOwyAMRb-m7BoRA3ksWHQzvxFBcFLaBCJwJsrfD9N=
+IM5Ifki376p7REM4xnXqLmdhvGejcUAc88oJEmNieMQ3e6bqBTijZM6elqzvVMZ-HKSGuxi-a0o=
+5s2-3iR0M-hs8F56DYU1sF9dRY10IzWtnL2phe1LyxIKQwqC5dszuPYUSN35jOGJAt-km05Zt43=
+OCrxHEcVYhkY_JhrsZYRlvJlxnf9zjd6Yh3SsZhZl4DB-CibmtQIKCCqrEGJyGdmTqJrh0rsb-2=
+YBzcJF9nqPJuM5VP5e_Kkv7TKev306y4fBbF4VD6ugdP54DB2AXdZZ4uhh8cw4wBU2HrBkOFnGw=
+LAtVy1bWX2UJHcdlz1UpWlF0sV-Ff9AfRfInB" rel=3D"" style=3D"color: #1a1a1a; te=
+xt-decoration: underline;">Jack of Two Trades</a>,</em> <a href=3D"https://=
+email.mg2.substack.com/c/eJxFUMtuxCAM_JrlGBEeIXvg0EtvvfQHIgNOljaBiJiu8vdldy=
+tVsmxZo_F4xgPhkstp93wQe7SJzh1twvuxIhEWVg8sUwy2H8QotbqyYFXoRz2yeExzQdwgrpZKR=
+bZXt0YPFHN6MjgXmt1sQOnNDFcNBnQY-lkG7oQcpOFqkNq8dKGGiMmjxR8sZ07IVnsj2o-LfLuI=
+91Z0j4-POp-3tn1A8Z_VnSxawYXgsje90EKKTnSDA5ylCjCPCoPxnaxfe4IgLopvi-iO6g4C__0=
+4xYpNmVwuMS0N_r7BhusTaHamNreaIp0TJnArhpdTegX29D4tmLC0IMME1GJSRoteG67HP2ctCs=
+3VlWujWFMOubHSv-gvwsqDMw" rel=3D"" style=3D"color: #1a1a1a; text-decoration=
+: underline;">Marc Rubinstein</a> wrote about why Square&#8217;s Cash App v=
+iral marketing campaigns were such an advantage: &#8220;The strategy kept c=
+ustomer acquisition costs exceptionally low: last year, they were less than=
+ $5 per customer.&#8221;&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;">$5 is cool, but what if someone =
+just gives you customers? TrueAccord&#8217;s main customers are companies t=
+hat need to collect debts from customers -- Yelp, Upwork, and LendUp are so=
+me of its clients -- and collectively, they <strong>send TrueAccord 500k - =
+1 million people per month</strong>. Yup, instead of paying to acquire cust=
+omers, companies just send them to TrueAccord. Of those, 5-30% choose to wo=
+rk with TrueAccord (it&#8217;s opt-in), and that number is growing as TrueA=
+ccord&#8217;s positive reputation builds. People in debt are rational and w=
+ant a way out, and TrueAccord is the friendliest, easiest way to do that. P=
+lus, the companies that send TrueAccord customers pay it 15-20% of the mone=
+y collected. So really, the consumer debt repayment product that TrueAccord=
+ offers right now is a <strong>fast-growing, high-margin,&nbsp; negative-CA=
+C channel for its bigger ambitions.</strong>&nbsp;</p><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Once TrueAcc=
+ord owns the customer relationship and has helped those consumers out of de=
+bt, it can begin to layer on additional financial services: partnerships wi=
+th neobanks, debit cards, banking services. These are excellent businesses =
+once the customer is in the door, but many attempts die at the hands of hig=
+h CACs. TrueAccord is playing the long game, and has been for the past seve=
+n years, because it knows it can do well by doing good.&nbsp;</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Fewer consumers in debt, more consumers with access to financial services,=
+ more profits for TrueAccord.&nbsp;</p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">It sounds like a perfect pl=
+aybook. Why hasn&#8217;t anyone done it before?&nbsp;&nbsp;&nbsp;</p><h3 st=
+yle=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antial=
+iased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, Bl=
+inkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font=
+-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;"><strong>Unsex=
+iness-as-a-Moat</strong></h3><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;">We can all agree that debt collection=
+ isn&#8217;t sexy. We all want to avoid it entirely, and those of us who&#8=
+217;ve had to engage know that it&#8217;s a terrible and hopeless experienc=
+e.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px;=
+ margin: 0 0 1em 0;">It&#8217;s equally difficult to build a business in th=
+e space: there are compliance issues, reputational issues, people treat the=
+ir vendors like shit, it&#8217;s commoditized, and there&#8217;s fierce com=
+petition from boiler room call centers. It&#8217;s different than tradition=
+al SaaS: your clients don&#8217;t love you, there&#8217;s no customer obses=
+sion. The best you can do is make sure that a customer&#8217;s experience w=
+ith you sucked less than the customer&#8217;s experience with another compa=
+ny.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px=
+; margin: 0 0 1em 0;">For most people, that&#8217;s a deterrent. For Ohad, =
+that was an opportunity. He bet that people would be attracted to other, sh=
+inier opportunities in fintech and avoid getting their hands dirty in consu=
+mer debt collection. He was right, and that&#8217;s given him and the TrueA=
+ccord team a seven year head start.&nbsp;</p><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;">That head start means=
+ it&#8217;s <strong>worked with more than 16 million consumers</strong>, bu=
+ilt up a massive database on what works with which types of vendors, and bu=
+ilt something counterintuitive: a <strong>respected brand in debt collectio=
+n</strong>. After years, people are talking online about their relatively p=
+ositive experiences with TrueAccord, and that helps convince others to work=
+ with them when their collections are handed over.&nbsp;</p><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">It als=
+o means that TrueAccord has been able to build a <strong>uniquely cohesive =
+culture</strong>.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">&#8220;There&#8217;s something bonding,=
+&#8221; Ohad quipped, &#8220;about a vision so compelling that smart people=
+ are willing to tell their friends and families they work in debt collectio=
+n.&#8221;&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height=
+: 26px; margin: 0 0 1em 0;">The culture that TrueAccord has built around th=
+at vision is one of the company&#8217;s strengths and something that keeps =
+it on the right track. He said that if he tried to ask TrueAccord&#8217;s h=
+ead designer to do something that started exploiting consumers now that the=
+y&#8217;re big enough to do so, &#8220;She would tell me to go to hell and =
+then quit on the spot. As she should.&#8221; The company culture he describ=
+ed is like an antibody to bad behavior. &#8220;We don&#8217;t need a &#8216=
+;no assholes&#8217; rule here because an asshole would naturally feel so ou=
+t of place.&#8221;&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 1em 0;">TrueAccord is mission-driven, operatin=
+g in an unsexy space, and taking a longer view than anyone in the room. It =
+would be nearly impossible for a well-funded startup to come in and compete=
+ with TrueAccord because of the moat it&#8217;s built, and no large player =
+wants the reputational risk of working in debt collection. It may be one of=
+ the few fintech companies impervious to Stripe&#8217;s ever-expanding scop=
+e; can you imagine Stripe Collect?&nbsp;</p><h2 style=3D"-moz-osx-font-smoo=
+thing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; fo=
+nt-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe =
+UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol'; font-size: 1.625em; font-weight: bold; line-heigh=
+t: 1.16em; margin: 1em 0 0.625em 0;"><strong>What I Missed</strong> &nbsp;<=
+/h2><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0;">In the past year, instead of turning its focus more directly o=
+n consumers, TrueAccord discovered an opportunity to reach even more custom=
+ers by providing white-labeled early-stage collection services to fintech c=
+ompanies via Retain. The vision remains the same, but the sequencing is dif=
+ferent. Retain offers the <strong>opportunity to help the most people avoid=
+ default today</strong>.</p><p style=3D"color: #1a1a1a; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 1em 0;">That said, the same strategies apply t=
+o Retain:&nbsp;</p><ul style=3D"margin-top: 0;"><li style=3D"margin-bottom:=
+ 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-forma=
+t: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px;=
+ margin: 0; margin-bottom: 0;"><strong>Debt Collection as a Wedge</strong>.=
+ TrueAccord is using its experience, technology, and reputation in debt col=
+lection to wedge into the stacks of a new generation of creditors instead o=
+f using debt collection as a wedge into offering more financial services to=
+ the unbanked itself (for now).</p></li><li style=3D"margin-bottom: 4px; ma=
+rgin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bulle=
+t;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0; margin-bottom: 0;"><strong>Unsexiness as a Moat. </strong>Given the cho=
+ice between extending someone a loan or trying to collect their debt, 99 ou=
+t of 100 fintech companies would choose (and have chosen) the former. That =
+means that there&#8217;s been an explosion in the number of companies offer=
+ing credit, but there hasn&#8217;t been a commensurate explosion in the num=
+ber of companies who can collect debts when it comes to it in a way that fi=
+ntech companies would be proud to partner with.&nbsp;</p></li></ul><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Those two strategies have afforded TrueAccord the rare opportunity to buil=
+d core infrastructure in a fast-growing space uncontested.&nbsp;</p><h3 sty=
+le=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antiali=
+ased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, Bli=
+nkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple C=
+olor Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-=
+weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;"><strong>Embedd=
+ed Finance, BNPL, and Retain</strong></h3><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;">In a year of financial m=
+arkets craziness, 2021 belonged to fintech. That meant more new companies o=
+ffering more credit products to more consumers.&nbsp;</p><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">In the pr=
+ivate markets, according to <a href=3D"https://email.mg2.substack.com/c/eJx=
+FkE9rhDAQxT_N5raSvxs95NAWCr320KtEM7rpaiLJWPHbN6uFwjDzmMfwmF9vEcaYdrPEjOTZWt=
+wXMAG2PAEiJLJmSK13ht14LZRsiDPSsVrVxOd2SACz9ZPBtAJZ1m7yvUUfw3FBKVfkbgS1wormB=
+rIZNJMWNGW60cqKHmqg6sy1q_MQejDwA2mPAchk7ohLvoiXC38vtW1b1Xc-ZD_eMVd9nMsywRIT=
+5qLeXq8ff177BQHXBNfPw71yylm1uIF4UySngmnGFRe84tWtszAI6exQS3C6r8T6vQTr-EXSeeR=
+VXruMtn8880gyIWIXkw9jsR93O8N0GOX1tsx5DR73FoLtJnAnFTzhHpzaEQKkAt21FgtSqRVnSl=
+NV65NCwaaobKjSkpRkF8tV-A_9BQP7koM" rel=3D"" style=3D"color: #1a1a1a; text-d=
+ecoration: underline;">CB Insights</a>, <strong>fintech companies accounted=
+ for $131 billion of the total $621 billion in global venture capital fundi=
+ng</strong>.&nbsp;</p><div class=3D"captioned-image-container-static" style=
+=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: ce=
+nter;"><figure style=3D"display: inline-block; margin: 0 auto; width: 100%;=
+"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6=
+em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" c=
+lass=3D"content" width=3D"908" style=3D"text-align: center;"><a class=3D"im=
+age-link" target=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJxVUs=
+uunDAM_ZphB8qTJAsWV1fqbyAnMQwdSGgS7u306xtgUVWKbMdHx8ey7aDgHNN72GMuzWnG8t5xC=
+PidVywFU3NkTOPiB9ozzaUwjR-Ep1rqZsnjlBA3WNahpAOb_bDr4qAsMVwMQphsnoPzhljojTMG=
+DPVaGkN6sHRiPWhmplsXDr9gcDjgF6Z3DNisw7OUPT_4x4P9qM_50OXD5gLu1bm41dSywYzVT1j=
+c8_S1TIkP9vnrDvjHHKOv_2kd9xTnhDkvX1jzuSDulXFLMHmKyFOmGnu4F1Y8tUiktU6L1gLwVn=
+CFrZFUt-AtZxaVMlp0mXewwZ8Y4DvffdUa9yyu8GoyX6EA2Rs5-VqYilZYdK2VVLZMKUeNYCc-G=
+qJ_S2K6PczNMjDCGOFU0crnrGNdbwEnLjxMWqBXruPHzz2AZw9Btpn9N6ImDSEWG9MS5gq_nrDh=
+egG1v7H67QhLeY8YwK7o7zWW-xquxY4zBkz1SvwIpd6AUJJRqYjU6l5b3bMkwhCpRFOVfays8E_=
+0L8qYxrE" rel=3D"" style=3D"align-items: center; border: none; display: blo=
+ck; flex-direction: column; height: auto; margin: 0; padding: 0; text-decor=
+ation: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https:=
+//bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/im=
+ages/4a5695fd-e014-4bec-b515-277c19424a56_908x509.png&quot;,&quot;fullscree=
+n&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:509,&quot;width&=
+quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quo=
+t;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}=
+" alt=3D"" width=3D"550" height=3D"308.31497797356826" class=3D"wide-image"=
+ src=3D"https://cdn.substack.com/image/fetch/w_1816,c_limit,f_auto,q_auto:g=
+ood,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-ad=
+b32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4a5695fd-e014-4bec-b515-277=
+c19424a56_908x509.png" style=3D"-ms-interpolation-mode: bicubic; border: no=
+ne !important; display: block; height: auto; margin: 0 auto; margin-bottom:=
+ 0; max-width: 100% !important; vertical-align: middle; width: auto !import=
+ant;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></table>=
+<figcaption class=3D"image-caption" style=3D"color: #767676; font-family: s=
+ans-serif; font-size: 14px; font-weight: 300; line-height: 1.4em; text-alig=
+n: center;"><em>CB Insights 2021 State of Venture Report</em></figcaption><=
+/figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;">Within fintech, two of the biggest trends have been =
+<strong>embedded finance</strong> and <strong>Buy Now Pay Later (BNPL)</str=
+ong>.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0 0 1em 0;"><strong>Embedded finance</strong> is a topic we&#82=
+17;ve covered a few times in Not Boring, when we talked about <a href=3D"ht=
+tps://email.mg2.substack.com/c/eJxFkN1uhCAQhZ9G7mpwgFUvuGjS7GsQkNGlq2D4qfHt=
+y65JmzBMMpMzJ-ebdMYlxFPuIWXy-lQ-d5Qej7RizhhJSRiVs7K7wcAEH4mV3HaDGIhLao6Im3a=
+rzLEg2YtZ3aSzC_6toBQEeUikZkbOZ2OpNqMAqKds17GRGgP9oC9fXaxDP6HEH4xn8EhW-ch5Tw=
+37bOBe33EcrQ_ZhOj80k6hjvZa2qSwlowfxbvcsHsVfB3ESaAAlHV9BwIYtNDejMaZcavngaPtp=
+5aV791rCw2n2wJtKiZlPT3r6Y1E-WdV18-H3nB9L2pIVfv2cjsVem1WtFf-fGF8E1ELeowVr1U6=
+V3i8F9CJnoqhv_JWQILykYqek-psQ1X5f9NfltuKuw" rel=3D"" style=3D"color: #1a1a1=
+a; text-decoration: underline;">Unit</a>, <a href=3D"https://email.mg2.subs=
+tack.com/c/eJxFkN1qxCAQRp8m3m2If2ty4UWh7GsEo5Os3USDjg15-9oNtOAozPBxnGMNwhLT=
+qfeYkfxeI5476ABHXgEREikZ0uidpnfWcykG4rRwtJc98XmcE8Bm_KoxFSB7mVZvDfoY3omuY5I=
+89cyVmWZuBqWoHWZpACSlfOZDz6ia6MU1xXkIFjR8QzpjALLqJ-KeG_7RsEc9x3G0IeIUkw9La2=
+Nt7bVWj09v863--WZLxrhBavij5j4P4jXrGOs4VZRJxlnL2vtkYObCmbkX4JRtefnag3GsEd22s=
+DaXKaOxr0rYSNJ_xDp-Pc0G63tQdx3ru5Xg8RwhmGkFd2nAy-ZbzLhAgFQtu9FgdSiUZFSqTvbq=
+Wrt6kp0YOqkEqWQXayr8Q38ApAONYQ" rel=3D"" style=3D"color: #1a1a1a; text-deco=
+ration: underline;">Lithic</a>, and in a recent <a href=3D"https://email.mg=
+2.substack.com/c/eJxFkLtuwzAMRb_GGg1Zj8geNARt06FApg5BF0MP2lFjS4Ikt_DfV0mGAg=
+RJkLy4xDGqwBzSLmPIBd3TWPYI0sNvXqAUSGjLkEZnZXcgPeVsQFYy2_W8Ry6PUwJYlVtkSRugu=
+OnFGVVc8A8FxoSjqyS0F3iYlFVGg6D0MGDaDdgOhgCro6ev2qwDb0DCD6Q9eECLvJYSc0OPDTnV=
+CBF8m2MobtpbE9Y6guhysFA7sphwvhzfPkKKn8PL1yW809O5oafsGvpqhGJTzxQTmrKOaeQkwYT=
+UP0RHOKGkJe1BK5gos6oeghWmpdt39MqShuF1Jm3edC7K3O7WKEkfig7J-bmub1e1wvJYVAZjre=
+vmXdlH8EovYJ94ypPyA9g4g4dU6dtRlcqWCU46LjDvxRNH5ccxGzAXDFVnG6rK_5v-AbTwk3k" =
+rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Not Boring F=
+ounders convo with Stilt&#8217;s Rohit Mittal</a>. Fintech Today&#8217;s <a=
+ href=3D"https://email.mg2.substack.com/c/eJxFkMGOhCAMhp9mOBpEGPXAYS_7GqTS6=
+rCjYKDuxLdfZjxs0rRpmvbv93tgWlI-7Z4Ki3dyfO5kI73KSsyUxVEou4C2vauhM3oUaDW2gxlE=
+KG7ORBuE1XI-SOzHtAYPHFL8bEipjHjYUWov9XjvCcw4KGOQfNeOgDjNiKO_dOHAQNGTpV_KZ4o=
+kVvtg3sut-7qp7xr8Cu-PGp-22gWIT8hOBKukUrJr-1YZ1alGNfcJaO40wjxowt433fGzR0B103=
+JbVFOOqTD45_uSyDYmnlIOcanj5wM2Wj-DSuNq3Y4Y-HQUYVoJL1C-_Pqgu4Ui5eojOuDqku6Na=
+k0vzdBfYNUJU_Gl6bWoypjqVvwX_QPSgoOC" rel=3D"" style=3D"color: #1a1a1a; text=
+-decoration: underline;">Ian Kar</a> defines it as, &#8220;When a non-finan=
+cial services company creates financial services products for their users, =
+embedding them into its existing products.&#8221;&nbsp;</p><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">For pur=
+poses of today&#8217;s discussion, what it means is that <strong>more non-b=
+anks are extending credit to customers than ever before</strong>.&nbsp;</p>=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0=
+ 1em 0;"><strong>BNPL &#8211; </strong>which essentially extends customers =
+zero-interest loans at the point-of-sale in order to increase conversion &#=
+8211;<strong> </strong>had an even bigger year than embedded finance:&nbsp;=
+</p><ul style=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-le=
+ft: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; mar=
+gin-bottom: 0;">In January 2021<strong>, Affirm </strong>priced its IPO at =
+$49 and popped 110% on its first day of trading to a market cap of $24 bill=
+ion. It peaked at <strong>$46 billion</strong> in November.</p></li><li sty=
+le=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4p=
+x; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0; margin-bottom: 0;">In June, Softbank led a =
+round in Ohad&#8217;s old company, Swedish BNPL <strong>Klarna</strong>, th=
+at valued it at <strong>$46 billion</strong>.</p></li><li style=3D"margin-b=
+ottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special=
+-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0; margin-bottom: 0;">In August, <strong>Square bought Aussi=
+e BNPL Afterpay for $29 billion</strong>.&nbsp;</p></li></ul><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Thing=
+s have cooled off since from a valuation perspective. Affirm, whose biggest=
+ customer, Peloton, has struggled, is trading at around $8 billion. Index V=
+entures&#8217; Mark Goldberg pointed out that, because it&#8217;s still pri=
+vate and not marked daily, Klarna is on paper worth more than a basket of b=
+ig public fintechs combined:&nbsp;</p><div class=3D"tweet" style=3D"backgro=
+und: #fff; border: 1px solid #e1e8ed; border-radius: 5px; direction: ltr; d=
+isplay: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', =
+Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; =
+max-width: 520px; padding: 20px 20px 11.6px 20px;"><a href=3D"https://email=
+=2Emg2.substack.com/c/eJxFkEtuxCAMhk8zLCN=
+wIIQFi27aVc-AIDgZOglEQDrK7ctMFpWQ8UP=
+2b3-TrbikfOo9lUpextRzRx3xWVasFTM5CmYTvGYDjL3ginjNPRvFSEIxc0bcbFh1zQeS_XBrmG=
+wNKb47KAVB7tpLmNzohqmfFXVyHlBaIRS3kg1sFuzStYcPGCfU-Iv5TBHJqu-17uXWf9zgs736D=
+K-NuiltLfq2-WG-0uod5sW0RKm2HqU5TNBeAihQSlAFo6KUBA0UgPZMMhDQQwfd4CzOPfd2Hjl6=
+OXX98bNH6-HG6bZAVw7XRk6Plx7JOqbqUg5xaeXH3W64vgvtZtP-7YihngajdSv6C0e9qL4BmQU=
+j5kbbG1sbSy4FMCGpGOV1fuMlKFdUSE6ask-tK_6L_gEMpo14" target=3D"_blank" rel=3D=
+"" style=3D"color: black; display: block; text-decoration: none; white-spac=
+e: pre-wrap;"><div class=3D"tweet-header" style=3D"display: block; font-siz=
+e: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;"><im=
+g class=3D"tweet-user-avatar" src=3D"https://cdn.substack.com/image/twitter=
+_name/w_36/Mark_Goldberg_.jpg" alt=3D"Twitter avatar for @Mark_Goldberg_" s=
+tyle=3D"-ms-interpolation-mode: bicubic; border: none !important; border-ra=
+dius: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; ma=
+x-width: 100%; vertical-align: middle; width: 36px;"><span class=3D"tweet-a=
+uthor-name" style=3D"color: #1c2022; display: block; font-weight: 700;">Mar=
+k Goldberg </span><span class=3D"tweet-author" style=3D"color: #697882; dis=
+play: block; font-size: 14px;">@Mark_Goldberg_</span></div>Is there a disco=
+nnect between public &amp; private market valuations in fintech right now? =
+&#9878;&#65039;
+=20
+Klarna (2021 round) =3D combined market cap of...
+Robinhood +
+Opendoor +
+Marqeta +
+Affirm +
+Toast +=20
+Blend +
+Sofi</a><a href=3D"https://email.mg2.substack.com/c/eJxFkEtuxCAMhk8zLCNwIIQ=
+Fi27aVc-AIDgZOglEQDrK7ctMFpWQ8UP2b3-TrbikfOo9lUpextRzRx3xWVasFTM5CmYTvGYDjL=
+3ginjNPRvFSEIxc0bcbFh1zQeS_XBrmGwNKb47KAVB7tpLmNzohqmfFXVyHlBaIRS3kg1sFuzSt=
+YcPGCfU-Iv5TBHJqu-17uXWf9zgs736DK-NuiltLfq2-WG-0uod5sW0RKm2HqU5TNBeAihQSlAF=
+o6KUBA0UgPZMMhDQQwfd4CzOPfd2Hjl6OXX98bNH6-HG6bZAVw7XRk6Plx7JOqbqUg5xaeXH3W6=
+4vgvtZtP-7YihngajdSv6C0e9qL4BmQUj5kbbG1sbSy4FMCGpGOV1fuMlKFdUSE6ask-tK_6L_g=
+EMpo14" target=3D"_blank" rel=3D"" style=3D"color: black; display: block; t=
+ext-decoration: none; white-space: pre-wrap;"><div class=3D"tweet-footer" s=
+tyle=3D"color: #697882; display: block; font-size: 14px; line-height: 26px;=
+ margin-top: 10px; text-decoration: none;"><p class=3D"tweet-date" style=3D=
+"border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-siz=
+e: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: =
+10px;">March 15th 2022</p><span class=3D"retweets" style=3D"display: inline=
+-block; margin-right: 8px;"><span class=3D"rt-count" style=3D"color: #1c202=
+2; font-weight: bold;">68</span> Retweets</span><span class=3D"likes" style=
+=3D"display: inline-block; margin-right: 8px;"><span class=3D"like-count" s=
+tyle=3D"color: #1c2022; font-weight: bold;">830</span> Likes</span></div></=
+a></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 1em 0;">But for our discussion, what&#8217;s important is <strong>=
+volume, not valuations</strong>. A <a href=3D"https://email.mg2.substack.co=
+m/c/eJxFkcuOhCAURL-m2WkQeeiCxWzmNwyPq80MAgFs498Pdi8mIdwbKpWqHIyqsMV8yRRLRfe=
+11CuBDHAWD7VCRkeBvDgrB06mkdEZWUntMLEJubKsGWBXzsuaD0Dp0N4ZVV0MbwfGhKGnFGymGD=
+AjBBsQfB2IEJyulBtOqRmnT646rINgQMIL8hUDIC-ftabyGL8e5Lud8zz7pK4dQi3WvaA3cW_Pd=
+9c2dEi-KwmCdWHrauzKCd7fyzwz3W0-auX91emrI5jwrtTDXt3qgr3dHA8Tn9uCnGwyweMgBsLI=
+SHrSc61gHalV60TBCtOPx08KypIHxftG-nLoUpX5vQuhLEOsOubWosm_T7WDfwuNztLmfgRXrwW=
+C0h7sB1z98H-jXDYIkNu_2EXVRp0KRgYmMJvEB1QjyzCdMRMUtWQbmyv8h_4BgrScyA" rel=3D=
+"" style=3D"color: #1a1a1a; text-decoration: underline;">Juniper Research r=
+eport</a> estimated $226 billion in 2021 BNPL volume, and projected growth =
+to <strong>$995 billion by 2026</strong>, or roughly 25% of all ecommerce s=
+pending. Once again, <strong>more non-banks are extending credit to custome=
+rs than ever before.&nbsp;</strong></p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">Both embedded finance and B=
+NPL might want to offer credit to more people, but they don&#8217;t have th=
+e (old, shitty, harassing, etc&#8230;) infrastructure that banks have in pl=
+ace to make sure that they can prevent borrowers from defaulting and collec=
+t if they do. They&#8217;re faced with a few options:&nbsp;</p><ul style=3D=
+"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-=
+right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: =
+#1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">=
+<strong>Build. </strong>Fintech companies could build collections in-house,=
+ but it&#8217;s complicated from a compliance perspective, not a core compe=
+tency, and not sexy enough to excite employees. Plus, as discussed in last =
+year&#8217;s memo, many companies don&#8217;t want collections on their han=
+ds.&nbsp;</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin=
+-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"=
+><strong>Bad. </strong>They could go with the bad solutions &#8211; working=
+ with traditional collection agencies who harass people and often end up in=
+ court &#8211; but that would be bad for brand, wouldn&#8217;t integrate te=
+chnologically, and could hurt morale and mission.&nbsp;</p></li><li style=
+=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;=
+ mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Partner with TrueA=
+ccord. </strong>TrueAccord has the expertise, experience, and technical cho=
+ps to collect more effectively than traditional agencies, and it&#8217;s th=
+e only modern solution that modern companies don&#8217;t feel weird turning=
+ their customers over to.</p></li></ul><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">More and more, embedded fin=
+ance and BNPL companies are turning to TrueAccord and using one or both of =
+its two products:&nbsp;</p><h4 style=3D"-moz-osx-font-smoothing: antialiase=
+d; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Co=
+mpact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helv=
+etica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol'; font-size: 1.125em; font-weight: bold; line-height: 1.16em; margin=
+: 1em 0 0.625em 0;">To see what the world looks like when TrueAccord succee=
+ds&#8230; </h4><p class=3D"button-wrapper" data-attrs=3D"{&quot;url&quot;:&=
+quot;https://www.notboring.co/p/trueaccord-unsexiness-as-a-moat?token=3DeyJ=
+1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTA0OTA1NzQsImlhdCI6MTY0NzUyMTU3MCwiaX=
+NzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.f_xl-6hZIsnY1Pf0CWM1gmSA=
+84RASSdm98CxJZ9akus&quot;,&quot;text&quot;:&quot;Continue Reading Online&qu=
+ot;,&quot;action&quot;:null,&quot;class&quot;:null}" style=3D"color: #1a1a1=
+a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; text-align: cente=
+r;"><a class=3D"button primary" href=3D"https://email.mg2.substack.com/c/eJ=
+xFUl2P2jAQ_DXkjch2YhI_5AFx5RpUuLZ83B0vkWMvYEjsKHYuhF9_BqRWWnulWe2MNLOCOziad=
+sgaY11w_wo3NJBp6G0FzkEbdBbaQskMT0ga0ZgFMoslTmkaKFscWoCaqypzbQdB05WVEtwpox8b=
+CBEanDKSsjhBKSSESVymqaCcMsQkI5REQCdPXd5JBVpABl_QDkZDUGUn5xo7iqYjMvfV932ojSt=
+Nq_QxFMZDjX93aS6EaeW40xauSoO1Y-5rXBvuRtHcmQvoUfQCwwILshs-SHXJz-a6Oufx8rZFb-=
+teiVd2k3PW7Gf5ZLWZorfNFK9uf2xeVyfpseXmE61u22G52UbLWa_4x-rmOZT4uVO_Nj_65UuOc=
+-V5op164He-GR727_OzfK2-SrVg4aG4VuPJaZ9b_Yl_H9DsfYmP9Xqaxn-n67WsWTq7LvaMXzob=
+qIwgQlCEE3z3iYQknJQcDlEs-SGNQSYijLpzo7kkoxjVRxLarrSOi4v3pg7a7J9Xfnw58Rqqx8C=
+nVPhed1q5oQDNywrkM0D3vINHpMURNLT-PmTBnU8_TijBNEE0TZ6B-YQpihmiSRx4ZWn8lv4v-g=
+2m2MuY" rel=3D"" style=3D"background-color: #67bdfc; border: none; border-r=
+adius: 4px; box-sizing: border-box; color: #ffffff !important; cursor: poin=
+ter; display: inline-block; font-family: -apple-system, BlinkMacSystemFont,=
+ 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; hei=
+ght: auto; line-height: 20px; margin: 0; opacity: 1; outline: none; padding=
+: 12px 20px; text-align: center; text-decoration: none !important; white-sp=
+ace: nowrap;"><span style=3D"color: #ffffff; text-decoration: none;">Contin=
+ue Reading Online</span></a></p><div style=3D"font-size: 16px; line-height:=
+ 26px;"><hr style=3D"background: #e0ecf6; border: none; height: 1px; margin=
+: 25.6px 0; padding: 0;"></div><h3 style=3D"-moz-osx-font-smoothing: antial=
+iased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'S=
+F Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, =
+Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe=
+ UI Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; ma=
+rgin: 1em 0 0.625em 0;">Not Boring Talent Collective</h3><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>If yo=
+u ever read about a company in Not Boring and think, &#8220;I wish I could =
+work there,&#8221; then you should apply to join the Not Boring Talent Coll=
+ective. When companies in the Not Boring portfolio and community look to hi=
+re, they&#8217;ll find you there.</em></p><p class=3D"button-wrapper" data-=
+attrs=3D"{&quot;url&quot;:&quot;https://not-boring.pallet.com/talent/welcom=
+e?referral=3Dtrue&quot;,&quot;text&quot;:&quot;Join the Not Boring Talent C=
+ollective&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; text-=
+align: center;"><a class=3D"button primary" href=3D"https://email.mg2.subst=
+ack.com/c/eJxFkEtuxCAMQE8Tdo0In4FZsKhUzTUiPk6GlkBEnI5y-zLJohIyli3r2c9bhLnUw=
+6xlQ_IOIx4rmAyvLQEiVLJvUMcYzHBjmktxJ8GIMGipSdzGqQIsNiaDdQey7i5FbzGWfE5QyiR5=
+mrtzA7daexikkxqcVFpbdffUSc75dHHtHiJkDwZ-oR4lA0nmibhuHf_s2KO9XPDDlRrz3K82tfV=
+6X5ZWR5sgY0tekFoFOv6oMEGtNnX869wsGkYZo3xQA5OMs571N2dh4iLYSQsIyvd8_16zDawTdJ=
+lZv-1uQ-t_3hBSTYNf7Nb-edoF0tloJ4_tX_Yc8RghW5cgXDbwknr6GWfIUJvsMFpsKoWSbJCKS=
+q2u65suScWdSiVII4fSpvI_9A_zopBD" rel=3D"" style=3D"background-color: #67bdf=
+c; border: none; border-radius: 4px; box-sizing: border-box; color: #ffffff=
+ !important; cursor: pointer; display: inline-block; font-family: -apple-sy=
+stem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px;=
+ font-weight: normal; height: auto; line-height: 20px; margin: 0; opacity: =
+1; outline: none; padding: 12px 20px; text-align: center; text-decoration: =
+none !important; white-space: nowrap;"><span style=3D"color: #ffffff; text-=
+decoration: none;">Join the Not Boring Talent Collective</span></a></p><div=
+ style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: #e0=
+ecf6; border: none; height: 1px; margin: 25.6px 0; padding: 0;"></div><p st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em =
+0;">Thanks for reading, and see you on Monday,</p><p style=3D"color: #1a1a1=
+a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-bottom: 0;=
+">Packy</p></div></div><table cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+post-meta big centered custom" style=3D"margin: 0 auto;"><tr><td class=3D"p=
+ost-meta-item icon" style=3D"color: #767676; font-family: -apple-system, Bl=
+inkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height:=
+ 18px; line-height: 18px; padding: 0px 12px 0px 0; padding-right: 16px; pos=
+ition: relative; text-decoration: none; text-indent: 3px; vertical-align: m=
+iddle; white-space: nowrap;"><span class=3D"post-meta-icon"><a href=3D"http=
+s://email.mg2.substack.com/c/eJxFUtuSojAQ_Rp5WyokXB94cNxhFkuxrMF11hcqJI1GID=
+AQZPDrN-heqlLdldPVp2-HUQXnppvCtumVMZtMTS2EEsa-AqWgM4Yeukzw0HKxTxw7MHhoc8t3f=
+EP0WdEB1FRUoeoGMNohrwSjSjTykYEQdoxLSFwfgKOAksJigUXcwilc3-c-yh3iFORZlw5cgGQQ=
+wg26qZFgVOFFqbZfkOUCR_qN42jKRuVNJ-TZZI2GaCu0vVnazCTaPdr51gFlcxsLEqmmBO2_w7S=
+2GP45feCqjK_NV3KN7e39gHbvo2BvwZ1HQXtaxW6SLtEuXVrJfd_Hcl39OiaIHoNB5wi7xWUsRk=
+GPEXpy7EmSxl9JysbNat0yshU7sR75MVbbdDlurweh8bv-z_h0OkZX_lbdcrEOzM8fp3d2e5WZV=
+zYq9V72nx96nauXzaF0YYjjzek1ZyjCB3u_wO6g6qxvho6BnqUf8l5RVv7Ba-BiqOcZ5-ENEWKE=
+MSKWZ2EHE2xi080pFMTmtPBt4B4zyXBtJeV4YaP6jM2_hHqrtdGF_7asw-WF1lA9Avq-mfb1IIW=
+aMpA0r4A_T6-eCno0kJ1BQqeVxTOqtG5sz8GW4yHH956n1tpwkB0gx7MNXZk3Okv-L_obXOTgdA=
+" class=3D"like-button button post-meta-button" style=3D"background-color: =
+transparent; border: 1px solid #e0ecf6; border-radius: 4px; box-sizing: bor=
+der-box; color: #666; cursor: pointer; display: block; font-family: -apple-=
+system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-seri=
+f, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16p=
+x; font-weight: normal; height: auto; line-height: 15px; margin: 0; opacity=
+: 1; outline: none; padding: 10px 16px; text-align: center; text-decoration=
+: none; white-space: nowrap;"><img src=3D"https://cdn.substack.com/image/fe=
+tch/w_28,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubst=
+ack.com%2Ficon%2FHeartIconRounded%3Fv%3D3%26height%3D28%26fill%3D%252375757=
+5%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"14" height=3D"14" styl=
+e=3D"border: none !important; display: inline-block; float: left; height: 1=
+4px; margin-right: 4px; max-width: 14px; vertical-align: top; width: auto;"=
+ alt=3D""><span class=3D"meta-button-label">Like</span></a></span></td><td =
+class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-=
+system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-seri=
+f, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14p=
+x; height: 18px; line-height: 18px; padding: 0px 12px 0px 0; padding-right:=
+ 16px; position: relative; text-decoration: none; text-indent: 3px; vertica=
+l-align: middle; white-space: nowrap;"><a href=3D"https://email.mg2.substac=
+k.com/c/eJxFUsty4jAQ_Bp8wyXJ74MPFFmyTi1kd3kk4eKSpTEILMllyTHm6yNgH1UjHXo0PaP=
+pZtTCQXdj3mpjvdtV2rGFXMFgGrAWOq830JWC5zgmaRCFmcfzkOM0Sj1hyroDkFQ0ue168Nq-ag=
+SjVmh1r0CIRN4xp5DGdUXDjFGaxgEjEOEMZygDhoGl4aMv7bkAxSCHT-hGrcBr8qO1rZkEswlZu=
+BiGwVfaVroT6uAz7aDWnVtrypju-LRXBi5CgTFT6mIqNbXuBdNSgrKOaWH1GdQkeILxBTOyG99J=
+cy5O-rI6FeHyukWv60Gw5-zKF1m7nxfxajNDr5sZXl1_mUI2R-6w5eYDra7bcbnZBsv5IOj76uo=
+4BPu-Ez8234blU4EL4XiCnbjjN745HvdvixN_bj4r8ZL5dXlppvFxXxj1gX_WaP62xAe5nqXh79=
+l6zWWWzi8v-4yeezMhcW9laXTfMXCzm74ylrLzH1wCF728_emmhCdygghBAU4wiUhAfOLHFYU6C=
+Dmt0xB4wvygP7WKcjIJkTwQ_y-h26n0uvzfjl36fKQSmnvCqVveNtkrYccSFK0a4A_h7cM_9wHK=
+AyjonK94Sa1zTZhEBEcJitLkIbRzRoTCDEVJ6LnOXLsq9b_pF2mC4Q0" class=3D"post-meta=
+-button button" style=3D"background-color: transparent; border: 1px solid #=
+e0ecf6; border-radius: 4px; box-sizing: border-box; color: #666; cursor: po=
+inter; display: block; font-family: -apple-system, BlinkMacSystemFont, 'Seg=
+oe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height: =
+auto; line-height: 15px; margin: 0; opacity: 1; outline: none; padding: 10p=
+x 16px; text-align: center; text-decoration: none; white-space: nowrap;"><i=
+mg src=3D"https://cdn.substack.com/image/fetch/w_28,c_scale,f_png,q_auto:go=
+od,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FCommentIconRoun=
+ded%3Fv%3D3%26height%3D28%26fill%3D%2523757575%26stroke%3D%2523757575%26str=
+okeWidth%3D2" width=3D"14" height=3D"14" style=3D"border: none !important; =
+display: inline-block; float: left; height: 14px; margin-right: 4px; max-wi=
+dth: 14px; vertical-align: top; width: auto;" alt=3D"Comment" class=3D"comm=
+ent-icon post-meta-icon"><span class=3D"meta-button-label">Comment</span></=
+a></td><td class=3D"post-meta-item icon" style=3D"color: #767676; font-fami=
+ly: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial=
+, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fon=
+t-size: 14px; height: 18px; line-height: 18px; margin-right: 0; padding: 0p=
+x 12px 0px 0; padding-right: 0; position: relative; text-decoration: none; =
+text-indent: 3px; vertical-align: middle; white-space: nowrap;"><span><a hr=
+ef=3D"https://email.mg2.substack.com/c/eJxNkl2vojAQhn8N3ElKAYELLjjnxA1GPW5W=
+13P2hpR21CK0pB-L-Ou36n4lbZN5ppPJvPNSYuAk1VQMUhv__tRmGqAQMOoOjAHlWw2q5qwI5zi=
+Lkjj3WRGzMEsyn-v6qAB6wrvCKAv-YJuOU2K4FI8KhHDinwuGkywlCWNRFjd5dmwaFqI8R4QBa5=
+J0_uxLLOMgKBTwE9QkBfhdcTZm0F5UenjhzjiOgZCmkYqLU0ClQ4O799aEUqnYzAoNVy5A6xlxZ=
+9ZLYrxoYU1fa2kVBS9607bRhtCLh-d33gPjtnf8McdvSKUwIMz995kocJTQ-1T_ASMvcI9hWoYU=
+f58-cHepWnndtFW8vu3R-7eRk8MCPdnXaLOrrpsdHVevy4FGa_7OlyM7VGa9K8d1u-eO31z84E2=
+0QauPZfd52CByyG0lUFC9tKh8lfBFaHMUzbbU-3pm7GX9druV8se01av9_HPbvrSlzwuMMEZRmI=
+Y4wREOcDBvCByjmJFjFgNLaRDZdhCEYS9G_QkHf1Rxsva-Kv7K7NKXM-mheyTcgp02fW8FN1MNg=
+jQdsOfuzdNCDxXrEwhQzlqsJsYZJ04THCYpcjZ47tqZI0FxjpI09l1nJl2V-Nf0F0qw41k" cla=
+ss=3D"button post-meta-button" style=3D"background-color: transparent; bord=
+er: 1px solid #e0ecf6; border-radius: 4px; box-sizing: border-box; color: #=
+666; cursor: pointer; display: block; font-family: -apple-system, BlinkMacS=
+ystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color E=
+moji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: n=
+ormal; height: auto; line-height: 15px; margin: 0; opacity: 1; outline: non=
+e; padding: 10px 16px; text-align: center; text-decoration: none; white-spa=
+ce: nowrap;"><img src=3D"https://cdn.substack.com/image/fetch/w_32,c_scale,=
+f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2F=
+RecommendIconRounded%3Fv%3D2%26height%3D32%26fill%3D%2523757575%26stroke%3D=
+none%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"border: none !i=
+mportant; display: inline-block; float: left; height: 16px; margin-right: 4=
+px; max-width: 550px; vertical-align: top; width: 16px;" alt=3D"Share" clas=
+s=3D"recommend-icon post-meta-icon"><span class=3D"meta-button-label">Share=
+</span></a></span></td></tr></table><div class=3D"container-border" style=
+=3D"border-top: 1px solid #e0ecf6; box-sizing: border-box; font-size: 16px;=
+ line-height: 26px; margin: 32px 0 0; width: 100%;"></div><div class=3D"pos=
+t-cta" style=3D"font-size: 16px; line-height: 26px; margin: 24px 0 40px;"><=
+p style=3D"font-size: 16px; font-style: italic; line-height: 26px; margin: =
+24px 0 0; margin-top: 0;"><span>If you liked this post from <a href=3D"http=
+s://email.mg2.substack.com/c/eJxFUMtuxCAQ-5rlGJEBQnLg0Et_A_GYZOkmEAFplL8v3U=
+itNJqRxrIt25mKS8qX2lOp5Hfpeu2oIp5lxVoxk6Ng1sGrfoCRCT4Rr7jvRzGSUPScETcTVlXzg=
+WQ_7BqcqSHFN4NSEOSpwEjOwE295BxAUssGxyZLZ_ADB4u3rzl8wOhQ4TfmK0Ukq3rWupcH-3jA=
+Z5vzPLuYqk05xKVzqb1IUEABKOtlDwIYdNAN1uDMuDfzyNFL17Hja4_Gw4PTbYGuHLZU415NYSN=
+Z_Sk2-PU0G65voGXR7W5HDPXSGI1d0d8x693WO7heMGJuLXptauuISwG9kFSM8o7VehCUT1RITp=
+qzT40V_01_AIiwgYc">Not Boring by Packy McCormick</a>, why not share it?</sp=
+an></p><p class=3D"cta-box" style=3D"font-size: 16px; font-style: italic; l=
+ine-height: 26px; margin: 24px 0 0; text-align: center;"><a role=3D"button"=
+ href=3D"https://email.mg2.substack.com/c/eJxFUdFuwyAM_Jrw1iiBENIHHiZN_Y3IA=
+SdlDRCBWde_H22lTTIgzrbudGeAcIvpoY-YiT2vmR4H6oD3vCMRJlYyptlZ3Y98EnI4M6sH209y=
+Yi7Pa0L04HZNqSA7yrI7A-RieG10HZfsqqc6PSrbL0tvcDlzCwLsCArGdVLjyt-8UKzDYFDjN6Z=
+HDMh2fSU6ciM-Gn6pdb_f2xBpicmFrTWxQkc9T2owJiZ7KiHjjwuY8wlqnXwEasSlkJ89Wld8Iz=
+5fehs-PkED_gC3hQobggqCeYqv33yFhMxp3nHeiV71XHLBW96OC-AqBgvrNKBVphXl6whgeTN0f=
+uNtLksmMLeqz7Ok__TW9u0KHvdXozo119eX4OgxY4BlR_s2kd5ZvGTOGwZMNSM7A9UEBiV5L1Un=
+J_U2rbosu-HcSTWwymxj3Qr_pL-NzqQ5" class=3D"button primary twitter-link" sty=
+le=3D"background-color: #67bdfc; border: 0px solid #67bdfc; border-radius: =
+4px; border-width: 13px 20px 13px 18px; box-sizing: content-box; color: #ff=
+ffff !important; cursor: pointer; display: inline-block; font-family: -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-se=
+rif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1=
+7px; font-style: normal; font-weight: 300; height: 24px; line-height: 24px;=
+ margin: 0; opacity: 1; outline: none; padding: 0; text-align: center; text=
+-decoration: none !important; vertical-align: middle; white-space: nowrap;"=
+><img src=3D"https://cdn.substack.com/image/fetch/w_23.1,c_scale,f_png,q_au=
+to:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FShareIcon%=
+3Fv%3D2%26height%3D42%26stroke%3D%2523FFF%26strokeWidth%3D2" width=3D"11.55=
+" height=3D"21" style=3D"border: none !important; display: inline-block; he=
+ight: 21px; margin-right: 8px; max-width: 11.55px; vertical-align: middle; =
+width: 21px;" alt=3D""><span style=3D"color: #ffffff; text-decoration: none=
+;">Share</span></a></p></div><div class=3D"footer" style=3D"background: #f8=
+f8f8 !important; color: #bcbcbc; font-size: 16px; line-height: 26px; margin=
+-top: 24px; padding: 32px; text-align: center;"><p class=3D"small" style=3D=
+"color: #bcbcbc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 13px; line-height: 26px; margin-bottom: 0=
+; padding-bottom: 30px;">&#169; 2022 <span>Packy McCormick</span> <a href=
+=3D"https://email.mg2.substack.com/c/eJxFkluP2jAQhX8NeYx8yfUhDywUNmgJXZXb8h=
+I59gCGxM4mTtPk19eA1EqWbZ3RzLHOZ84MXHQzJLVujfPYcjPUkCjo2xKMgcbpWmhyKRIckIj6X=
+uyIxBM48iNHtvm5AaiYLBPTdODUXVFKzozU6tmBEPGda4Ji8M-MoygggUcxpzzCRUQxwRFmVAQv=
+X9YJCYpDAr-hGbQCp0yuxtTthE4nZGFX3_eu0qbQjVQXl2srMf4wsxchW1aUkD9fM6ELo--gJnQ=
+Owwpzsh-OpLynN_0nu6Xeetyhza9e8mU8ikVcn2ZpkG2naLOd4mz8bNOqvAqrrbdfKBt3w3q7o-=
+tZL9kxG-0Myd_38mP7o1_PU5xKO4fu5UM_Lcvx67BqT_u4LA6LupitYrdG_ebn_Lt43x_V_LCbV=
+gepz5e3z1pLlX3ky7b83vH0-ObNtCMTgghBFIeY-IQSl7hBweBMPcHOkQci5C7tbrVigkw8VF2I=
+23ZFaxi_2zgqp0n-xWPL9yuroHwWLJjcnlWnpBlyUI-oxIuZeaF_5pZfQEFjv4TImbHAvdAn2A-=
+RH4UvRhaqj7wY-aHnWGehbZf6b_oXAxvH_g" style=3D"color: #bcbcbc;"><span style=
+=3D"color: #bcbcbc; text-decoration: underline;">Unsubscribe</span></a><br>=
+10 City Point, Brooklyn, NY 11201</p><p class=3D"small powered-by-substack"=
+ style=3D"color: #bcbcbc; font-family: -apple-system, BlinkMacSystemFont, '=
+Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Sego=
+e UI Emoji', 'Segoe UI Symbol'; font-size: 13px; line-height: 26px; margin-=
+bottom: 0; padding-bottom: 0;"><a href=3D"https://email.mg2.substack.com/c/=
+eJxNkd1uhCAQhZ9GLg2_6l5w0aTZ1zAI4y5dAYNDG9--qG3aZDIX52RyDh_WIDxS3vWaNiTHGnF=
+fQUf42hZAhEzKBnn0TrOOD0LJG3FaOjaogfhtnDNAMH7RmAuQtUyLtwZ9iucFpVyRp-4UOEEpWM=
+edFR1ljjFL3USFFaZ6V64pzkO0oOET8p4ikEU_EdetEW8Nv9fZyrShsa_WpnAo4l4wjFsq2UIj3=
+n_thneHHsD5Eqp-FvwRbYoIEas6p3S8zmtOOaeC9YwrLnjL224yMAvpzDxIcL1tRflYo3G8kTQ8=
+ePu_Bsk6JpxS9vFR7dfTBFhOo7KoaSGU6HEfIZppAXdhwov22Wt8QIRcf8GNBitj2SvOVE_V0F9=
+YKkdF5Y2qXpKa7FK9in-h32KrmaY" style=3D"color: #bcbcbc; text-decoration: non=
+e;"><img alt=3D"Publish on Substack" src=3D"https://cdn.substack.com/image/=
+fetch/w_340,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fs=
+ubstack.com%2Fimg%2Fpublish-on-substack.png" width=3D"170" height=3D"32" st=
+yle=3D"border: none !important; margin-top: 3px; max-width: 550px; vertical=
+-align: middle;"></a></p></div></div></td><td></td></tr></table><img width=
+=3D"1px" height=3D"1px" alt=3D"" src=3D"https://email.mg2.substack.com/o/eJ=
+xFUMuOhCAQ_JrlaKABYQ58iwG7ddhRMAiz8e-XHQ976qSqU6_ZV1pzudyRz8po93GbVkpUOo6Tr=
+06MymgQ2nBtDUOnUFhtWTynpdDn39XSiB0tbHH2NeY0RXSCc9Ds6TQHo8agFmu7hpQE3CMSolQC=
+AgT25zv5hpHSTI7eVK6c6Ia7jubqwbVRLDrgAFwKI0CDhAGGMXhapEK_WEVo5kG27yN5hC_F9xW=
+Gs4Wz-vk1zHlnxaVcQy4xrZ1-Pf1O24fowad-95ZivSZKPmyEd6d6r9JOKp9OI1ip1eMOV6-DXK=
+Kfc6NaqbDuhrnvkf6NfgFcyXYP"></body></html>
+--423f04d4025798a6200f83264980d3cae893ae723855cfea3a6cd8dc1b9a--

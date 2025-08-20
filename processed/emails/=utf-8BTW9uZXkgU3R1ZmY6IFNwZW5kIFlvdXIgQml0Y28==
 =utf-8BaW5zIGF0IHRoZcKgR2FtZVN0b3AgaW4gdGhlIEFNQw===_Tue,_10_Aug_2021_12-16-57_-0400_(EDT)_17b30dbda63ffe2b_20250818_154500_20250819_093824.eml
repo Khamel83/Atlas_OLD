@@ -1,0 +1,1570 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:60d:b029:116:5c91:524e with SMTP id gq13csp4191567lkb;
+        Tue, 10 Aug 2021 09:18:40 -0700 (PDT)
+X-Received: by 2002:a17:907:9602:: with SMTP id gb2mr29042975ejc.119.1628612319933;
+        Tue, 10 Aug 2021 09:18:39 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1628612319; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=uTG/yNTccoIWcKtvK0AaBdfkVL177tA6kF04jPsOuTeBS4Tg4xBUwdQ0KKBER/mIlo
+         fXHnF0wv8ONOi/lWPhLtT9p9fGIGd+hHUHXOsq9OjJ7tkQJ1asynwc1RKuD2S1EIulSs
+         5KwcKDWr43DgqNmdqrMuGCTLmge+xbK1P/GggTGMj+XQ2j9Ms3AP9cOm3/1lMdDk43fa
+         965wdZI9t8aoYBL5SYG/dmtKBl0uABRozn5xWy2t49bP/2vBdEsMXpfShP0uSYoEcMzS
+         H6E+vvqZFPG4ztM6GIuhamP1RlP152shC9avciiUPC+uDUeJfr8JbZscFfvDt2liLQ9X
+         WgDw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=/kv2bc/td4/2WE49eKlBIPRSHZddCa1qcOnbf/hJr+k=;
+        b=ku1Nf9BOTyw+vUY2eOCw08hInUe4NQ2k03Ddqwpj3EFwpUzV8E0L2tPuafAvMUnvL9
+         n5YyT/J8TPsywvGFN6G51pGRNJ/xoMlH4KJdLx+EJ8r1u9JtORKjLs9xHZu+7s+GIfl5
+         NK4oNDEv5kdwZpVUOXkgOp7bvsxfuT6boga1Ym/j1fHfp/dZFlcSXaaT3ftdzk7ztZ+5
+         ewi/2SBtksOTu1VGcj0DZcyVOUAqHij/BqA83KDpdZ/QDTkUSnbkYFWPJU28jFyW9aHb
+         L+NH3Se4hG4rHU4GO0giJeMc7scMJi+Lwbxbc5O7r5HmO2t2C+iRjopBXrfu1EWc4ZDz
+         spIQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=3xmQrnDb;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id v11sor6958023ejf.23.2021.08.10.09.18.39
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 10 Aug 2021 09:18:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=3xmQrnDb;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=/kv2bc/td4/2WE49eKlBIPRSHZddCa1qcOnbf/hJr+k=;
+        b=VhaukTZ3GrjFtE84xWX4Jr75Q6wbG5FFZ/1n0zEClLragBYkl7kXYqeRXKsU182dyB
+         0LLJWRK2ia64e7btnvzF2C6bvohRMJIsjkOkhpiwdZP0wl25XeqbCiKBsvWmNj2PfAlx
+         L8Vbqv2r6GXlPP3zcV/ezhlTM4hQbEqUFQXiSwlg3HGQctoMj/lrcsYHZUGqn43n8U8+
+         Z9LfBtWr7m+ZF7z0qsPopBB8FmLHqFSab4zv4mjEUhur66eSZTlXz1gNhYoZUCDxHkZC
+         4brAv9euvoeOZ7xtxmSvGkPZ31UGCmmZZBWYT4/Cz6/4/Fdu4yVzm1e3NUEvLHVSokLf
+         ahqw==
+X-Gm-Message-State: AOAM5310PDf5DLxUU+h/IEavUgfhEn8Rxm2JD2Wm23bVdFFuSuGNc117
+	rup9mZQNSVME1Byaz1Rt3N9eONRADKGulDCib6M7vI6z7JZHAnJ6Nw==
+X-Received: by 2002:a05:6402:215:: with SMTP id t21mr5889975edv.68.1628612319689;
+        Tue, 10 Aug 2021 09:18:39 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3bce:0:0:0:0:0 with SMTP id g14csp1653971ecu;
+        Tue, 10 Aug 2021 09:18:36 -0700 (PDT)
+X-Received: by 2002:a37:9c50:: with SMTP id f77mr28654857qke.103.1628612315957;
+        Tue, 10 Aug 2021 09:18:35 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1628612315; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=p1jf/UF9IV1nwgcBhb/QaTBqWoCrh2QUupOPkhG49ZtF9wcdsiNPHfdAK53u/Jhwpb
+         wldNUumxbB5lGdy9ifm6ug9LfD9K1TNScnJYyvrsIayiQNPIwvzkaBwkZIqzxxocUnFf
+         B8hEXJT7YGRdKUc+4/sTwgzaGW6ZAjLVY015JN3c4EyyAPtAnOki+gIGhVDJ6qhdWtNe
+         5tvPjc+KOadydtzRDucuFJ2Ut3P4qj5COAoztN50FPiJUunmoqTjJZtb/e8LBODT0SJP
+         XPHKlOvzUbR0c2lrY0ZSYe6nZO6wscxfACcqMH39jkbfaIUXmRd+wReGh46ndNKZBEzt
+         kJCg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=/kv2bc/td4/2WE49eKlBIPRSHZddCa1qcOnbf/hJr+k=;
+        b=MvLGW5yZv601+ooPaMLtzttEOyuSNWDlKsiC3pdU0HHeW2JVoxMqfS4sTobgCw8eFW
+         j3NMY+l5tj+K4x52qB//URKMXhMWvTgAvbL8tPm2hz5540psyTaOuwHOv1dYyi6gx22G
+         cc9xS6BbcR7gn3RHCxd8pcanxqsJ47HuRd6yrLIIdxWMr3W5GK4Vf5EVSTQppxCSxZ9k
+         qJiT8Uqkds3rGEZ/nt3mPtlA/+afObR29tsIE62byCqLWKCgyDdKZBS9Odf0b8nHujpY
+         ZOXFDZY4Hp2KzwLNm8RG/TUMRJdC0Qia3AbGaE2/TvQO35Xy8ar+/LvMuUjxCd8VwlOf
+         DHPA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=3xmQrnDb;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210810121657.24703227.276523@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210810121657.24703227.276523@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210810121657.24703227.276523@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g4sor8008564qkd.154.2021.08.10.09.18.35
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 10 Aug 2021 09:18:35 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210810121657.24703227.276523@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxgeHFMjEUE6vdFKEF+lCn+hA0pGERqofRNCu6c/pztIJhHabP/xhezw5x+222hibY0LkiZT4Qx3Nov8XIJPNrZT9Qu4x8=
+X-Received: by 2002:a37:9e11:: with SMTP id h17mr27902298qke.193.1628612315598;
+        Tue, 10 Aug 2021 09:18:35 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1628612315; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Ub9gNnxPedM/nWEijxftn75ptue4fTCfrVK7LuWWJSDB949VPXCENk23GjpDuQTA+C
+         BXkPXsVyf+iJSnWmV0cM8YKwYLiRht849evM9jAyU425tBGp9UPFXy7cjVSNffOt2oQe
+         vIAT0DA1YoTOT25HCe5Z6Tx64WiiEI6eeE6vylPiEmESGD0Bsy0ixRGO092ngY/k8RNV
+         trJrClTjDYtQvaimybBF2cMyEUw8b0sjWuSWUAveO7NsASGt3o6MPugj4jlE5BYz3k/1
+         OWkd6ST/XZxeSXw44uRrknP8Qymii34Qsk5ba1DQhcSbnJTdvzr8chVIAhxrtyaxpkM2
+         Rdyg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=/kv2bc/td4/2WE49eKlBIPRSHZddCa1qcOnbf/hJr+k=;
+        b=plDoKt61Yeet0sLPrWiYB8rKwAP9hsEXcA6p8Mz3Cyal83daX8k0yl6odvZBBDn9Fj
+         Q1NUpys2Jxd3wDuUTOHeQ9r9PWyn6d1TEPOB49z5sueDLrFySNqx7LyL2mwWO0pa2rSg
+         9uaQcqzqdImZvFCU5JsmlWkNqcGrw5JBaPk6HhbJAxqNejJAUZfmWyPL1MXvlQZzA8K9
+         +qbxd1Bqc6TQb6YKxPiLAcAjT0vajUuhC6iLjgnQx2llu7aQmz1EMpMjK2Q7LmoSDa39
+         IRjLC2jUTPrkxXPE8IwARIhQKcYqLu86Ep26CQeLwC23iaIUFN8TGcTzDW/9JGwiB/ST
+         /McQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=3xmQrnDb;
+       spf=pass (google.com: domain of delivery_20210810121657.24703227.276523@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210810121657.24703227.276523@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210810121657.24703227.276523@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id m10si540761qkp.6.2021.08.10.09.18.35
+        for <khamel83@gmail.com>;
+        Tue, 10 Aug 2021 09:18:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210810121657.24703227.276523@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=4tBBAUUilCqvOraJx1de2m1NNQk=;
+ b=3xmQrnDbfPG9JWUuGtMesKSyyme6XLNulOKNE4Gl1OyWmCMtnAoUaIHYSL74YL36cx1l9HVnAN5D
+   iOKQMg7J2jYXZQ02rJgSa12S6iDVDPHVW+tDuR1LfsYKJoTrK1s6nT6snQ6a+Xl3lc3qrc9AWulN
+   ZHjxlqloNJZADU5RSxU=
+Received: from njmta-149.sailthru.com (173.228.155.149) by bloomberg-b.sailthru.com id h2ajdm1qqbs7 for <bloomberg@khamel.com>; Tue, 10 Aug 2021 12:18:35 -0400 (envelope-from <delivery_20210810121657.24703227.276523@mx.sailthru.com>)
+Received: from nj1-oddturquoise.flt (172.18.48.8) by njmta-149.sailthru.com id h2ajdm1qqbs7 for <bloomberg@khamel.com>; Tue, 10 Aug 2021 12:16:57 -0400 (envelope-from <delivery_20210810121657.24703227.276523@mx.sailthru.com>)
+Date: Tue, 10 Aug 2021 12:16:57 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210810121657.24703227.276523@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IFNwZW5kIFlvdXIgQml0Y28=?=
+ =?utf-8?B?aW5zIGF0IHRoZcKgR2FtZVN0b3AgaW4gdGhlIEFNQw==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_7235012_1428820336.1628612217913"
+Precedence: bulk
+X-Feedback-ID: 6358:24703227:campaign:sailthru
+X-TM-ID: 20210810121657.24703227.276523
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddturquoise.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ceph4r.5xd7/a53c2ed0
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ceph4r.5xd7/a53c2ed0>, <mailto:unsubscribe_20210810121657.24703227.276523@mx.sailthru.com>
+X-rpcampaign: stjko24703227
+
+------=_Part_7235012_1428820336.1628612217913
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      AMC=C2=A0
+   =20
+ =20
+Sure I mean right of course:AMC Entertainment chairman-CEO Adam Aron said t=
+he chain will be technologically equipped to start accepting Bitcoin paymen=
+ts for U.S. movie tickets and concessions ordered online by the end of the =
+year.At a meaty, newsy and somewhat bizarre webcast, Aron also noted the ch=
+ain will also start accepting Apple Pay and Google Pay.Aron noted that many=
+ of the company=E2=80=99s big new crop of retail investors, which he=E2=80=
+=99s embraced heartily, are highly enthusiastic about cryptocurrency.He sai=
+d he learned about cryto while serving a stint on the board of Centricus Ac=
+quisition Corp., a SPAC (or special purpose acquisition company) set up by =
+one one of his =E2=80=9Cclosest European friends=E2=80=9D of more than 20 y=
+ears, chairman of Silversea Cruises (Manfredi Lefebvre d=E2=80=99Ovidio). C=
+entricus acquired a firm called Arqit, which Aron said =E2=80=9Cis on the c=
+utting edge of quantum encryption and blockchain technology.=E2=80=9DI =E2=
+=80=A6=C2=A0write =E2=80=A6=C2=A0about =E2=80=A6=C2=A0finance? Like, for my=
+ job? Why. The chief executive officer of the main meme stock these days, a=
+ guy known by his retail investor fan base=C2=A0as =E2=80=9CSilverback,=E2=
+=80=9D learned about Bitcoin while serving on the board of a SPAC and now p=
+lans to accept it for movies and popcorn. Those are all words. I just typed=
+ them. I sure did.Look, if you run a meme-stock company, you have to announ=
+ce earnings four times a year, and then you will probably want to do an ear=
+nings call. If you do a normal earnings call with normal sell-side stock an=
+alysts, they will ask you questions like =E2=80=9Cwhen will you stop losing=
+ money=E2=80=9D and it will be boring and kind of a bummer and they will no=
+t leave the call in love with you. In particular, your answer to the questi=
+on =E2=80=9Cwhen will you stop losing money=E2=80=9D will not be so good th=
+at the analysts will recommend your stock: AMC Entertainment Holdings Inc. =
+loses money and its stock is up 1,480% this year; purely on valuation, no a=
+nalyst is going to give that a Buy recommendation.[1]On the other hand, if =
+you run a meme-stock company and you do an earnings call where you take que=
+stions from your enthusiastic individual shareholders, (1) the questions wi=
+ll be insane, (2) your answers will be insane, (3) the shareholders will lo=
+ve it and (4) the stock will go up. AMC did its earnings call using a platf=
+orm that let individual shareholders submit questions; then the chief finan=
+cial officer read the questions and Aron answered them. Here is  Bloomberg=
+=E2=80=99s transcript. It is something! Here=E2=80=99s one:Sean D. Goodman,=
+ Executive Vice President and Chief Financial Officer: Great. Thanks, Adam.=
+ And the next question is from David. The question is, will AMC consider pa=
+rtnering with GameStop to offer more theater experiences via local and nati=
+onal gaming competitions?Adam M. Aron, Chief Executive Officer and Presiden=
+t:As I said in my remarks just a few minutes ago, I don't even think I can =
+count the number of times people have asked me if we could partner with Gam=
+eStop. We're certainly willing to do so. It seems to me it's one of these i=
+nteresting ideas that flowed in from our individual investors and we're hap=
+py to reach out the GameStop and see if they have any interest.Yes, right! =
+Put the GameStop in the AMC! Drive there in a Tesla that you rented at a He=
+rtz! Pay for your tickets with Dogecoin! Cram the whole thing into a rocket=
+ ship and send it to Mars! I already said =E2=80=9CSPAC=E2=80=9D! This is h=
+ow finance works now; the goal is to say as many meme-trade buzzwords as po=
+ssible because that is what makes=C2=A0stocks go up. That=E2=80=99s why you=
+ do a call like this.I should say that only=C2=A0some=C2=A0of the questions=
+ are insane; actually most of them are quite good and in=C2=A0a refreshing =
+way. On a regular earnings call, analysts tend to ask questions like =E2=80=
+=9Ccould you break down the drivers of gross margins=E2=80=9D or whatever, =
+sort of zoomed-in questions about financial modeling. They follow the compa=
+ny for their job and already have a basic sense of how its business operate=
+s; what they want is to refine their model to better=C2=A0predict future ea=
+rnings, so that their buy-side clients will be impressed by their accuracy.=
+=C2=A0On a retail-driven earnings call for a movie-theater company, you get=
+ broad practical questions about how the theater business works, and the re=
+sults are accessible and informative. So questions included=C2=A0=E2=80=9Ch=
+ow is AMC preparing for the possible large-scale Covid surge that could pot=
+entially shut theaters down again,=E2=80=9D or =E2=80=9Chow does AMC plan t=
+o combat day-and-date releases of movies on the streaming platforms and the=
+aters,=E2=80=9D=C2=A0or this one:Sean D. Goodman, Executive Vice President =
+and Chief Financial Officer: The next question is from Ryan. The question i=
+s, would AMC ever consider reestablishing drive-in theaters? With current s=
+tate of the world, it would bring a lot of revenue with a little worry for =
+people trying to social distance.Adam M. Aron, Chief Executive Officer and =
+President:Ryan, that's a great question. And the reason I say it's a great =
+question is I asked that same question last July and we went through an exh=
+austive analysis of drive-in theaters. And honestly, we came to the conclus=
+ion that they're a bad economic idea. It sounds appealing actually to stay =
+in your car, but there are two problems. Go into a parking lot and look at =
+how much asphalt is needed to put a lot of cars in a lot. The viewing exper=
+ience at a drive-in theater is not necessarily great, because many people a=
+re quite far from the screen. Additionally, drive-in theaters are very seas=
+onal. They're not popular in the winter, in colder locations in the United =
+States. And in the summer in much of the United States, it doesn't get dark=
+ before 8 or 9 o'clock PM, which means that you really can only use the dri=
+ve-in screen for one showtime a night. The economics aren't there. It's unl=
+ikely that we would go forward. It sounds like it's a great idea, but it is=
+n't actually.So now you know a little=C2=A0bit more about the economics of =
+drive-in theaters, which would not have happened on a normal earnings call.=
+=C2=A0Still there is a good dose of insanity.[2] The GameStop question was,=
+ somehow, asked twice. And here=E2=80=99s this:Sean D. Goodman, Executive V=
+ice President and Chief Financial Officer: Aaron asks, I promise, not a sar=
+castic question, but can you guys make the AMC mascot officially a gorilla?=
+Adam M. Aron, Chief Executive Officer and President:Well, AMC has been arou=
+nd for 100 years. We don't actually have a mascot. It's an interesting ques=
+tion. I don't know. I know why you ask it. I think we're probably going to =
+go without a mascot, but I will tell you that if there is a tremendous amou=
+nt of branding work going on at AMC right now, I said a few minutes ago tha=
+t we intend to be the best strongest market around. Watch what we're doing =
+with our marketing programs over the coming weeks and months and years, I t=
+hink you'll be pleased when you see AMC leading the way yet again.Then at t=
+he end they took one question[3] from a Wall Street analyst and it went lik=
+e this:Wanted to ask about some of the metrics you were talking about with =
+respect to industry admission revenue. Adam, you talked about first quarter=
+ 13% of two years ago and now we're up to 45% of two years ago. So maybe ju=
+st kind of a broad question on if you have an updated view on where this ca=
+n get to, whether it's 2022 or 2023, what's changed in your crystal ball? I=
+s it 80%, 90%? Can we get back to peak levels as you've put all these thing=
+s in your blender? Thanks.Yeah, I dunno, less fun than the gorilla one! The=
+ stock was up one billion percent after this call. No, I=E2=80=99m kidding,=
+ but as of 10:15 a.m. today it was up about 6%. Also  earnings were good?AM=
+C Entertainment Holdings Inc. posted a narrower quarterly loss, beating ana=
+lysts=E2=80=99 estimates with results that nonetheless underscore the movie=
+ industry=E2=80=99s struggle to draw fans back to cinemas and compete with =
+streaming options at home.The world=E2=80=99s largest theater chain, strugg=
+ling under $5.5 billion in corporate borrowings, said Monday its loss shran=
+k to 71 cents a share, excluding some items, better than the 94-cent loss a=
+nalysts were predicting. Revenue soared to $444.7 million, from virtually n=
+othing a year ago, and was better than the $382.3 million that Wall Street =
+expected. ...=E2=80=9CWe=E2=80=99re well ahead of our own and consensus thi=
+rd-party expectations,=E2=80=9D Chief Executive Officer Adam Aron said on a=
+ call with shareholders. =E2=80=9CIn short, we crushed it.=E2=80=9D
+ =20
+   =20
+      By the way
+   =20
+ =20
+The technology that AMC used to let its shareholders ask questions is from =
+a firm called Say Technologies. Here=E2=80=99s  some more Say Technologies =
+news from this morning:Robinhood Markets Inc. agreed to buy Say Technologie=
+s, a tool for shareholder voting and communication, in its first acquisitio=
+n as a public company.The approximately $140 million all-cash deal will giv=
+e Robinhood access to Say=E2=80=99s software, which helps company sharehold=
+ers exercise their right to vote proxies and ask questions of management, a=
+ccording to a blog post Tuesday. The announcement comes less than two weeks=
+ after Robinhood made its public trading debut.Makes sense.=C2=A0
+ =20
+   =20
+      Masterly stock manipulations
+   =20
+ =20
+Here=E2=80=99s a=C2=A0scam. You start, or gain control of, a tiny company w=
+ith publicly traded stock. The company doesn=E2=80=99t do much; its stock t=
+rades for a few pennies a share at most. You own most of the shares. You ma=
+ke yourself (or your friend) the chief executive officer of the company, an=
+d you have the company put out a bunch of press releases saying =E2=80=9Cwe=
+=E2=80=99ve found a cure for cancer=E2=80=9D or =E2=80=9Cwe=E2=80=99re pivo=
+ting to crypto=E2=80=9D or whatever. Maybe you and your friends buy some mo=
+re shares to make the stock go up. People notice the press releases and the=
+ stock going up, so they start buying the stock and it goes up more. You se=
+ll your stock as they buy it. You have taken the stock of a worthless compa=
+ny, briefly tricked people into thinking it=E2=80=99s valuable, and then=C2=
+=A0dumped the stock on them.As a general form of scam this is very popular =
+and, apparently, lucrative, and so of course there are rules to prevent it.=
+ For one thing it is illegal and if you do it you can go to prison, though =
+that is only the very last line of defense and not everyone gets caught. Th=
+ere are other defenses. For instance, in the U.S., if you control a company=
+ =E2=80=94=C2=A0including just by owning a lot of its stock =E2=80=94=C2=A0=
+there are restrictions on your ability to sell it. Even if you aren=E2=80=
+=99t doing a scam, I mean, if you own 50% of a penny-stock company you can=
+=E2=80=99t just dump all your shares anonymously in the stock market in a w=
+eek. Your stock is =E2=80=9Crestricted,=E2=80=9D and generally speaking you=
+ need to register your sales of restricted stock, file a prospectus with th=
+e Securities and Exchange Commission, disclose that you=E2=80=99re selling,=
+ etc.[4] One purpose of these rules is to make sure that the company disclo=
+ses all relevant information about itself to people who might buy the stock=
+. But another purpose is just to flag to everyone that you =E2=80=94=C2=A0t=
+he big shareholder =E2=80=94=C2=A0are selling. =E2=80=9CHuh, that=E2=80=99s=
+ odd,=E2=80=9D they might think, =E2=80=9Cthis company just put out a press=
+ release saying that it cured cancer, but the CEO is selling all of her sto=
+ck. Perhaps something is amiss!=E2=80=9D And then they don=E2=80=99t buy it=
+.Of course if you are doing a scam anyway, you might decide to ignore these=
+ rules. Sell your stock without filing a registration statement, why not. B=
+ut there are further defenses. Companies hire transfer agents to keep track=
+ of their stock ownership, and the transfer agent =E2=80=94=C2=A0generally =
+a reputable independent company =E2=80=94=C2=A0will check whether stock is =
+=E2=80=9Crestricted=E2=80=9D and not let you sell it freely if it is.=C2=A0=
+Brokerage firms are going to ask questions and do checks; if you are the CE=
+O and 50% shareholder of a company they won=E2=80=99t let you just dump you=
+r stock into the market. The intermediaries in the financial system are sup=
+posed to prevent this scam.So if you are determined to do this scam, you mi=
+ght have to do some subsidiary scams to trick the intermediaries into think=
+ing that you don=E2=80=99t own your stock, or you don=E2=80=99t control the=
+ company. Instead of you owning 50% of the stock, pretend that 12 apparentl=
+y unconnected people each own 4% or so;=C2=A0they=C2=A0sell the stock (and =
+you get the money). That sort of thing. And while there is a system of regu=
+lated legal intermediaries =E2=80=94=C2=A0transfer agents, legitimate broke=
+rs =E2=80=94=C2=A0who facilitate stock sales and who are supposed to be on =
+guard against scammers, there is another system of=C2=A0illegal=C2=A0interm=
+ediaries who help people do exactly this scam.=C2=A0Here are=C2=A0an SEC en=
+forcement action=C2=A0and related criminal charges=C2=A0against some people=
+ accused of running one of these intermediaries:The Securities and Exchange=
+ Commission [yesterday] announced an emergency action charging nine individ=
+uals, including a public company chairman, for their participation in long-=
+running fraudulent schemes that collectively generated hundreds of millions=
+ of dollars from unlawful stock sales and caused significant harm to retail=
+ investors in the United States and around the world. The SEC has obtained =
+emergency relief in court, including an order to freeze the defendants=E2=
+=80=99 assets.According to the SEC=E2=80=99s complaint unsealed today, Cana=
+dian resident Frederick L. Sharp masterminded a complex scheme from 2011 to=
+ 2019 in which he and his associates =E2=80=93 Canadian residents Zhiying Y=
+vonne Gasarch and Courtney Kelln =E2=80=93 enabled control persons of micro=
+cap companies whose stock was publicly traded in the U.S. securities market=
+s to conceal their control and ownership of huge amounts of penny stock.=C2=
+=A0 They then surreptitiously dumped the stock into the U.S. markets in vio=
+lation of federal securities laws.=C2=A0 The services Sharp and his associa=
+tes allegedly provided included furnishing networks of offshore shell compa=
+nies to conceal stock ownership, arranging stock transfers and money transm=
+ittals, and providing encrypted accounting and communications systems.=C2=
+=A0 According to the complaint, Sharp and his associates facilitated over a=
+ billion dollars in gross sales in hundreds of penny stock companies.The SE=
+C=E2=80=99s complaint is delightful, because the way this business (alleged=
+ly) works is not, like, a couple of guys in a room doing a scam. This is a =
+big business of facilitating other people=E2=80=99s scams, so it has to hav=
+e a certain amount of advertising and branding and customer service. And oh=
+ boy does it:Sharp, who used the code name =E2=80=9CBond=E2=80=9D (styling =
+himself after the fictional character James Bond), was the mastermind and l=
+eader of the Sharp Group. Among other things, Sharp cultivated relationship=
+s with the Sharp Group=E2=80=99s clients=E2=80=94that is, individuals seeki=
+ng fraudulently to sell stock in the markets to retail investors=E2=80=94an=
+d with various offshore trading platforms. Sharp also routinely served as a=
+ liaison between dozens of clients (like the Veldhuis Control Group) and th=
+e trading platforms (like Wintercap SA).=C2=A0During the period of the sche=
+me detailed herein, Sharp described in a communication to a client the foll=
+owing about the Sharp Group=E2=80=99s services: =E2=80=9CThe service provid=
+ed is comprehensive; it is not limited to trading. It includes pyaments [si=
+c], loans, private placements and keeping clients out of jail.=E2=80=9D (Em=
+phasis added).Right, see, if you just want to do legal trading, you can go =
+to Robinhood or whatever. If you want to do=C2=A0crime=C2=A0trading, you wi=
+ll need a more full-service broker, one whose business includes keeping you=
+ out of jail. Or trying to.Here is more on the alleged full service:Sharp o=
+versaw the creation and deployment of various front companies, which served=
+ as nominee shareholders used to disguise his clients=E2=80=99 stock owners=
+hip and to sell stock surreptitiously.One of the services provided by the S=
+harp Group was making available offshore corporate nominee shareholders and=
+ individuals who would serve as the nominal owners of those entities. Sharp=
+ installed these various nominal owners to pose as the beneficial owners of=
+ the=C2=A0=C2=A0various entities that served as nominee shareholders. In ac=
+tuality, these individuals did not own or control the stock held by the nom=
+inee shareholders and generally had no role other than offering their names=
+, passports, and signatures, which the Sharp Group used to incorporate and =
+open accounts for the corporate nominees. In dealing with banks, brokerages=
+, and other financial services providers, these individuals were held out a=
+s actual beneficial owners. In this way, the Sharp Group kept the identitie=
+s of control groups hidden, while fraudulently appearing to satisfy the com=
+pliance requirements of the banking and securities firms where the Sharp Gr=
+oup opened these accounts.Again the basic idea is that if you run a penny-s=
+tock company and own a bunch of its stock, and you go to a brokerage to sel=
+l the stock, the broker will stop you. But if you get a dozen random people=
+ to open brokerage accounts saying that they own some of your stock, the br=
+oker might let them sell. To do this you need a dozen random people to lend=
+ their =E2=80=9Cnames, passports, and signatures=E2=80=9D to a crime, and y=
+ou might have a hard time finding them. But it=E2=80=99s no problem for Bon=
+d. That is the business he=E2=80=99s in.Obviously it=E2=80=99s a problem fo=
+r you if you pretend to give your stock to those dozen random people and th=
+ey sell it and keep the money.=C2=A0(What are you going to do, sue them?) F=
+ortunately Bond has his Q accounting system to keep everything honest:Sharp=
+ also hired and directed individuals who created and administered the Sharp=
+ Group=E2=80=99s accounting system, which Sharp called =E2=80=9CQ=E2=80=9D =
+(thereby expanding his James Bond affectations =E2=80=93 =E2=80=9CQ=E2=80=
+=9D being another fictional character in James Bond). Given the extensive e=
+fforts by the Sharp Group and its clients to conceal and obscure the actual=
+ ownership and control of the stock they were surreptitiously selling, the =
+Q system was essential in keeping track of the amounts of stock to be sold =
+and the total proceeds being collected for each deal Sharp=E2=80=99s client=
+s ran. Accordingly, the Sharp Group accounted for all of the nominee shareh=
+olders=E2=80=99 assets in Q by tracking which of the nominee shareholders h=
+eld which stocks (and which stocks=E2=80=99 sales proceeds) for which parti=
+cular client or client group, like the Veldhuis Control Group. The Sharp Gr=
+oup also relied on the Q system to calculate the commissions and fees it co=
+llected for facilitating its clients=E2=80=99 illegal stock sales.=C2=A0I c=
+annot resist=C2=A0people who do crimes, run their crimes like a legitimate =
+business, and also play-act at being spies. Just an endlessly charming comb=
+ination.=C2=A0But here is the very best part of this case:In 2002, Sharp wr=
+ote a fictionalized book about securities fraud and money laundering in whi=
+ch he described illegal conduct that parallels the Sharp Group=E2=80=99s bu=
+siness model. Sharp=E2=80=99s book (Footloose: Charlie Smith=E2=80=99s Offs=
+hore Chronicles) includes the following passage:=E2=80=9CEventually [the cl=
+ient] took greater positions in the stocks, sharing the take with fewer par=
+tners. This meant he had to disguise his shareholdings in order to avoid se=
+curities disclosure requirements and trading restrictions.Offshore companie=
+s were ideal for his purpose. They came from around the world with nominee =
+directors, but were still subject to his control. The perfect situation for=
+ his masterly stock manipulations.=E2=80=9DImagine being the SEC lawyer ass=
+igned to read =E2=80=9CFootloose: Charlie Smith=E2=80=99s Offshore Chronicl=
+es=E2=80=9D to prepare for this case. Or do you think some SEC lawyer was r=
+eading =E2=80=9CFootloose: Charlie Smith=E2=80=99s Offshore Chronicles=E2=
+=80=9D for pleasure[5] and thought =E2=80=9Chey this fictional account soun=
+ds awfully realistic,=C2=A0I wonder if we should take a quick peek into thi=
+s author=E2=80=9D? =E2=80=9CHis masterly stock manipulations,=E2=80=9D I lo=
+ve it.=C2=A0
+ =20
+   =20
+      Object-fire-token-money
+   =20
+ =20
+I have written several times about what I call the=C2=A0=E2=80=9Cobject-fir=
+e-token-money=E2=80=9D NFT cycle: You acquire some work of art or other val=
+uable cultural object (e.g. a  Banksy painting), you light it on fire, you =
+create some electronic (or paper)=C2=A0certificate saying =E2=80=9CI promis=
+e I destroyed this object,=E2=80=9D and then you sell the certificate=C2=A0=
+to some crypto millionaire as its own art object, a =E2=80=9Cnon-fungible t=
+oken=E2=80=9D that has some asserted artistic or scarcity or comedic value.=
+ Last week I wrote about a woman who plans to be cremated, when she dies, w=
+ith the only existing audio recording of J.D. Salinger. The audio recording=
+ is, let us assume, a valuable cultural object that people would like to pa=
+y money for (but can=E2=80=99t because she=E2=80=99s gonna burn it). But, I=
+ said, a certificate that it was burned is also=C2=A0a valuable cultural ob=
+ject, sort of, whatever, that people might also pay money for. If you burn=
+=C2=A0a valuable cultural artifact, you get an NFT, which is also valuable.=
+ This is how crypto economics works. I promise that I do not make the rules=
+.Reader David Vasak emailed to point out that I was not thinking big enough=
+:Surely you don't need a valuable cultural object to be burnt; just film a =
+sufficiently well known person being cremated after their funeral and mint =
+an NFT of that? Object - fire - token - money!I=E2=80=99m not sure you even=
+ need the video! In the classic =E2=80=9Cobject-fire-token-money=E2=80=9D c=
+ycle, the point of the video is to prove that the original object no longer=
+ exists, so the token is the only remaining representation of the cultural =
+artifact. I do not think that this makes very much sense, but it seems to b=
+e how the NFT world operates. But if everyone knows that the original objec=
+t no longer exists then you can dispense with the video, and the burning fo=
+r that matter. For instance it is fairly clear that William Shakespeare is =
+no longer alive. So if I sold an NFT =E2=80=9Cof=E2=80=9D William Shakespea=
+re =E2=80=94=C2=A0a representation of Shakespeare on the blockchain =E2=80=
+=94=C2=A0the actual William Shakespeare could not pop up and say =E2=80=9Cn=
+o I=E2=80=99m Shakespeare, not this token thing.=E2=80=9D[6] So Shakespeare=
+-on-blockchain has exactly the same scarcity value as burnt-Banksy-on-block=
+chain. More, really, because there are a lot of Banksy paintings that someo=
+ne could burn, but only one Shakespeare.=E2=80=9CBut if you put =E2=80=98Sh=
+akespeare=E2=80=99 on the blockchain,=E2=80=9D you say,=C2=A0=E2=80=9Cwhat =
+connection does that have to the actual Shakespeare? Couldn=E2=80=99t anyon=
+e else also put =E2=80=98Shakespeare=E2=80=99 on the blockchain, creating a=
+n unlimited supply of unique tokens all asserting some totally insubstantia=
+l=C2=A0link to Shakespeare? Doesn=E2=80=99t buying =E2=80=98Shakespeare=E2=
+=80=99 on the blockchain confer absolutely no rights or benefits to the act=
+ual Shakespeare or his works?=E2=80=9D Right!Men have died from time to tim=
+e, and worms have eaten them, but not for NFTs. I=E2=80=99m sorry that this=
+ is even stupider than my usual stupid NFT sections.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+ESG Investors Question Their Own Methods After  Grim Climate Report.=C2=A0P=
+rogressive Opposition to Jerome Powell Clouds His Chances for Second Term a=
+s Fed Chairman. CFA  Pass Rate Slumps to Record Low as Pandemic Disrupts St=
+udying. Chinese Bond Swings Threaten Global Debt Investors. Why Xi Jinping =
+Waited Years to Launch His  Crackdown on Tycoons. SoftBank to cut China inv=
+estments until tech sector calms. Washington vs Big Tech: Lina Khan=E2=80=
+=99s battle to transform American antitrust. Hertz Posts Higher Revenue, Pl=
+ans to Relist Amid Travel Rebound. Heatmap of Money Stuff topics. Outgunned=
+ Crypto Lobbyists Falter in Bid to  Fix Broad Tax Rules. Locating Stablecoi=
+ns within the Regulatory Perimeter. Tether significantly increased exposure=
+ to treasury bills as of June, per reserves report.=C2=A0Citigroup Reaches =
+First Deal of Jane Fraser=E2=80=99s Refresh, Selling Australian Consumer Ba=
+nk. WeWork and Cushman & Wakefield Are Forming $150 Million Partnership. SE=
+C Charges Former Domino's Pizza Accountant with Insider Trading. =E2=80=9CD=
+ogs have come a long way since the days when they were put to work on farms=
+ and fed scraps.=E2=80=9D =E2=80=9CHe explained that since the crown signif=
+ies a king, which is positive, it meant his brother was doing well.=E2=80=
+=9D HARD MTN DEW.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy e=
+mail form, right in your inbox, please=C2=A0subscribe at this link. Or you =
+can subscribe to Money Stuff and other great Bloomberg newsletters here. Th=
+anks![1] Bloomberg=E2=80=99s ANR page reports 5 Holds and 4 Sells. If your =
+model of AMC=E2=80=99s stock price is that it is the result of a random num=
+ber generator, is that a Hold or a Sell? I think it=E2=80=99s a Hold, right=
+? It would be insane to *short* that, anyway.[2] Or here=E2=80=99s a questi=
+on that seems practical but still has a meme-stock tinge: =E2=80=9CWould yo=
+u consider selling AMC merchandise at theaters and on online platforms, I t=
+hink it will be profitable.=E2=80=9D I feel like two years ago no one would=
+ have thought to buy *AMC* merch: If you love movies, you might buy merch f=
+or specific movies, maybe even for a studio, but for a movie-theater chain?=
+ Now of course AMC is a beloved brand, but realistically if you=E2=80=99re =
+buying AMC merch (1) it=E2=80=99s because you like the stock and (2) it wil=
+l have a gorilla on it.[3] =E2=80=9COne question,=E2=80=9D on an earnings c=
+all, always means =E2=80=9Cone compound question plus a compound=C2=A0follo=
+w-up=E2=80=9D; here that was =E2=80=9CAnd then a quick follow-up and then I=
+'ll pass it off. With respect to the food and beverage strength that you sa=
+w in this quarter and I think even in the first quarter from a per cap stan=
+dpoint, can you talk about where that's coming from? Is that the mobile ord=
+ering initiative? Is that a mix of products? And then have you taken prices=
+ up, given some of the commentary that you made with respect to ticket pric=
+ing? Have you done the same thing for food and beverage yet? Thanks.=E2=80=
+=9D[4] Paragraphs 35-38 of the SEC complaint=C2=A0have a nice high-level ov=
+erview of the legal regime. There are exceptions to the registration requir=
+ement =E2=80=94=C2=A0Rule 144, etc. =E2=80=94=C2=A0but they are not especia=
+lly relevant to the big-picture scam of owning a ton of penny stock and dum=
+ping it quickly.[5] Don=E2=80=99t laugh, it sounds fun, of course I ordered=
+ it. Here=E2=80=99s the Amazon description: =E2=80=9COffshore and off-the-w=
+all -- Charlie Smith's capricious misadventures are a lighthearted glimpse =
+of how one likeable rascal copes with the three-headed hydra of globalizati=
+on, rampant taxation and creeping regulation.=E2=80=9D[6] Fine, yes, he has=
+ a grave, and I suppose his skeleton could compete with the NFT; you might =
+have to limit this to cremated celebrities.=C2=A0
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ceph4r.5xd7/8181b716.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_7235012_1428820336.1628612217913
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px 0px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24703227.276523/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBd7515fcb"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">AMC=C2=A0</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Sure I mean <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/24703227.276523/aHR0cHM6Ly9kZWFkbGluZS5jb20v=
+MjAyMS8wOC9hbWMtZW50ZXJ0YWlubWVudC1iaXRjb2luLWZvci11LXMtdGlja2V0cy1jb25jZXN=
+zaW9ucy1ieS15ZWFyLWVuZC1jZW8tYWRhbS1hcm9uLTEyMzQ4MTE3ODcv/607f07ceef4b8524a=
+319a23cB617aa0cc" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">right of course</a>:</p><blockquote><p style=3D"margin: 16px 0;">AM=
+C Entertainment chairman-CEO Adam Aron said the chain will be technological=
+ly equipped to start accepting Bitcoin payments for U.S. movie tickets and =
+concessions ordered online by the end of the year.</p><p style=3D"margin: 1=
+6px 0;">At a meaty, newsy and somewhat bizarre webcast, Aron also noted the=
+ chain will also start accepting Apple Pay and Google Pay.</p><p style=3D"m=
+argin: 16px 0;">Aron noted that many of the company=E2=80=99s big new crop =
+of retail investors, which he=E2=80=99s embraced heartily, are highly enthu=
+siastic about cryptocurrency.</p><p style=3D"margin: 16px 0;">He said he le=
+arned about cryto while serving a stint on the board of Centricus Acquisiti=
+on Corp., a SPAC (or special purpose acquisition company) set up by one one=
+ of his =E2=80=9Cclosest European friends=E2=80=9D of more than 20 years, c=
+hairman of Silversea Cruises (Manfredi Lefebvre d=E2=80=99Ovidio). Centricu=
+s acquired a firm called Arqit, which Aron said =E2=80=9Cis on the cutting =
+edge of quantum encryption and blockchain technology.=E2=80=9D</p></blockqu=
+ote><p style=3D"margin: 16px 0;">I =E2=80=A6=C2=A0write =E2=80=A6=C2=A0abou=
+t =E2=80=A6=C2=A0finance? Like, for my job? Why. The chief executive office=
+r of the main meme stock these days, a guy known by his retail investor fan=
+ base=C2=A0as =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/24703227.276523/aHR0cHM6Ly9tYXJrZXRzLmJ1c2luZXNzaW5zaWRlci5jb20vbmV3cy=
+9zdG9ja3MvaG93LWFtYy1jZW8tYWRhbS1hcm9uLWVtYnJhY2VkLXRoZS1jb21wYW55LW1lbWUtc=
+3RhdHVzLTIwMjEtNg/607f07ceef4b8524a319a23cBf7a66756" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">Silverback</a>,=E2=80=9D learned=
+ about Bitcoin while serving on the board of a SPAC and now plans to accept=
+ it for movies and popcorn. Those are all words. I just typed them. I sure =
+did.</p><p style=3D"margin: 16px 0;">Look, if you run a meme-stock company,=
+ you have to announce earnings four times a year, and then you will probabl=
+y want to do an earnings call. If you do a normal earnings call with normal=
+ sell-side stock analysts, they will ask you questions like =E2=80=9Cwhen w=
+ill you stop losing money=E2=80=9D and it will be boring and kind of a bumm=
+er and they will not leave the call in love with you. In particular, your a=
+nswer to the question =E2=80=9Cwhen will you stop losing money=E2=80=9D wil=
+l not be so good that the analysts will recommend your stock: AMC Entertain=
+ment Holdings Inc. loses money and its stock is up 1,480% this year; purely=
+ on valuation, no analyst is going to give that a Buy recommendation.[1]</p=
+><p style=3D"margin: 16px 0;">On the other hand, if you run a meme-stock co=
+mpany and you do an earnings call where you take questions from your enthus=
+iastic individual shareholders, (1) the questions will be insane, (2) your =
+answers will be insane, (3) the shareholders will love it and (4) the stock=
+ will go up. AMC did its earnings call using a platform that let individual=
+ shareholders submit questions; then the chief financial officer read the q=
+uestions and Aron answered them. Here is <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24703227.276523/aHR0cHM6Ly9ibGlua3MuYmxvb21iZXJnLmNv=
+bS9uZXdzL3N0b3JpZXMvUVhMSEVBR0pDRDFY/607f07ceef4b8524a319a23cB13e24f5a" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Bloomberg=E2=
+=80=99s transcript</a>. It is something! Here=E2=80=99s one:</p><blockquote=
+><p style=3D"margin: 16px 0;">Sean D. Goodman, Executive Vice President and=
+ Chief Financial Officer: Great. Thanks, Adam. And the next question is fro=
+m David. The question is, will AMC consider partnering with GameStop to off=
+er more theater experiences via local and national gaming competitions?</p>=
+<p style=3D"margin: 16px 0;">Adam M. Aron, Chief Executive Officer and Pres=
+ident:<br />As I said in my remarks just a few minutes ago, I don't even th=
+ink I can count the number of times people have asked me if we could partne=
+r with GameStop. We're certainly willing to do so. It seems to me it's one =
+of these interesting ideas that flowed in from our individual investors and=
+ we're happy to reach out the GameStop and see if they have any interest.</=
+p></blockquote><p style=3D"margin: 16px 0;">Yes, right! Put the GameStop in=
+ the AMC! Drive there in a Tesla that you rented at a Hertz! Pay for your t=
+ickets with Dogecoin! Cram the whole thing into a rocket ship and send it t=
+o Mars! I already said =E2=80=9CSPAC=E2=80=9D! This is how finance works no=
+w; the goal is to say as many meme-trade buzzwords as possible because that=
+ is what makes=C2=A0stocks go up. That=E2=80=99s why you do a call like thi=
+s.</p><p style=3D"margin: 16px 0;">I should say that only=C2=A0<em>some=C2=
+=A0</em>of the questions are insane; actually most of them are quite good a=
+nd in=C2=A0a refreshing way. On a regular earnings call, analysts tend to a=
+sk questions like =E2=80=9Ccould you break down the drivers of gross margin=
+s=E2=80=9D or whatever, sort of zoomed-in questions about financial modelin=
+g. They follow the company for their job and already have a basic sense of =
+how its business operates; what they want is to refine their model to bette=
+r=C2=A0predict future earnings, so that their buy-side clients will be impr=
+essed by their accuracy.=C2=A0</p><p style=3D"margin: 16px 0;">On a retail-=
+driven earnings call for a movie-theater company, you get broad practical q=
+uestions about how the theater business works, and the results are accessib=
+le and informative. So questions included=C2=A0=E2=80=9Chow is AMC preparin=
+g for the possible large-scale Covid surge that could potentially shut thea=
+ters down again,=E2=80=9D or =E2=80=9Chow does AMC plan to combat day-and-d=
+ate releases of movies on the streaming platforms and theaters,=E2=80=9D=C2=
+=A0or this one:</p><blockquote><p style=3D"margin: 16px 0;">Sean D. Goodman=
+, Executive Vice President and Chief Financial Officer: The next question i=
+s from Ryan. The question is, would AMC ever consider reestablishing drive-=
+in theaters? With current state of the world, it would bring a lot of reven=
+ue with a little worry for people trying to social distance.</p><p style=3D=
+"margin: 16px 0;">Adam M. Aron, Chief Executive Officer and President:<br /=
+>Ryan, that's a great question. And the reason I say it's a great question =
+is I asked that same question last July and we went through an exhaustive a=
+nalysis of drive-in theaters. And honestly, we came to the conclusion that =
+they're a bad economic idea. It sounds appealing actually to stay in your c=
+ar, but there are two problems. Go into a parking lot and look at how much =
+asphalt is needed to put a lot of cars in a lot. The viewing experience at =
+a drive-in theater is not necessarily great, because many people are quite =
+far from the screen. Additionally, drive-in theaters are very seasonal. The=
+y're not popular in the winter, in colder locations in the United States. A=
+nd in the summer in much of the United States, it doesn't get dark before 8=
+ or 9 o'clock PM, which means that you really can only use the drive-in scr=
+een for one showtime a night. The economics aren't there. It's unlikely tha=
+t we would go forward. It sounds like it's a great idea, but it isn't actua=
+lly.</p></blockquote><p style=3D"margin: 16px 0;">So now you know a little=
+=C2=A0bit more about the economics of drive-in theaters, which would not ha=
+ve happened on a normal earnings call.=C2=A0Still there is a good dose of i=
+nsanity.[2] The GameStop question was, somehow, asked twice. And here=E2=80=
+=99s this:</p><blockquote><p style=3D"margin: 16px 0;">Sean D. Goodman, Exe=
+cutive Vice President and Chief Financial Officer: Aaron asks, I promise, n=
+ot a sarcastic question, but can you guys make the AMC mascot officially a =
+gorilla?</p><p style=3D"margin: 16px 0;">Adam M. Aron, Chief Executive Offi=
+cer and President:<br />Well, AMC has been around for 100 years. We don't a=
+ctually have a mascot. It's an interesting question. I don't know. I know w=
+hy you ask it. I think we're probably going to go without a mascot, but I w=
+ill tell you that if there is a tremendous amount of branding work going on=
+ at AMC right now, I said a few minutes ago that we intend to be the best s=
+trongest market around. Watch what we're doing with our marketing programs =
+over the coming weeks and months and years, I think you'll be pleased when =
+you see AMC leading the way yet again.</p></blockquote><p style=3D"margin: =
+16px 0;">Then at the end they took one question[3] from a Wall Street analy=
+st and it went like this:</p><blockquote><p style=3D"margin: 16px 0;">Wante=
+d to ask about some of the metrics you were talking about with respect to i=
+ndustry admission revenue. Adam, you talked about first quarter 13% of two =
+years ago and now we're up to 45% of two years ago. So maybe just kind of a=
+ broad question on if you have an updated view on where this can get to, wh=
+ether it's 2022 or 2023, what's changed in your crystal ball? Is it 80%, 90=
+%? Can we get back to peak levels as you've put all these things in your bl=
+ender? Thanks.</p></blockquote><p style=3D"margin: 16px 0;">Yeah, I dunno, =
+less fun than the gorilla one! The stock was up one billion percent after t=
+his call. No, I=E2=80=99m kidding, but as of 10:15 a.m. today it was up abo=
+ut 6%. Also <a href=3D"https://link.mail.bloombergbusiness.com/click/247032=
+27.276523/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtM=
+DkvYW1jLWJlYXRzLWFuYWx5c3RzLWVzdGltYXRlcy1ldmVuLXdpdGgtbW92aWUtYXR0ZW5kYW5j=
+ZS1zbG93/607f07ceef4b8524a319a23cB9e9bcf85" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> earnings were good</a>?</p><blockquote><=
+p style=3D"margin: 16px 0;">AMC Entertainment Holdings Inc. posted a narrow=
+er quarterly loss, beating analysts=E2=80=99 estimates with results that no=
+netheless underscore the movie industry=E2=80=99s struggle to draw fans bac=
+k to cinemas and compete with streaming options at home.</p><p style=3D"mar=
+gin: 16px 0;">The world=E2=80=99s largest theater chain, struggling under $=
+5.5 billion in corporate borrowings, said Monday its loss shrank to 71 cent=
+s a share, excluding some items, better than the 94-cent loss analysts were=
+ predicting. Revenue soared to $444.7 million, from virtually nothing a yea=
+r ago, and was better than the $382.3 million that Wall Street expected. ..=
+.</p><p style=3D"margin: 16px 0;">=E2=80=9CWe=E2=80=99re well ahead of our =
+own and consensus third-party expectations,=E2=80=9D Chief Executive Office=
+r Adam Aron said on a call with shareholders. =E2=80=9CIn short, we crushed=
+ it.=E2=80=9D</p></blockquote><table class=3D"header" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">By the way</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The technology that AMC used to let it=
+s shareholders ask questions is from a firm called Say Technologies. Here=
+=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/2470322=
+7.276523/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMT=
+Avcm9iaW5ob29kLWJ1eXMtcHJveHktdm90ZS10b29sLXNheS10ZWNobm9sb2dpZXMtZm9yLTE0M=
+C1taWxsaW9u/607f07ceef4b8524a319a23cB7babb648" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> some more Say Technologies news</a> f=
+rom this morning:</p><blockquote><p style=3D"margin: 16px 0;">Robinhood Mar=
+kets Inc. agreed to buy Say Technologies, a tool for shareholder voting and=
+ communication, in its first acquisition as a public company.</p><p style=
+=3D"margin: 16px 0;">The approximately $140 million all-cash deal will give=
+ Robinhood access to Say=E2=80=99s software, which helps company shareholde=
+rs exercise their right to vote proxies and ask questions of management, ac=
+cording to a blog post Tuesday. The announcement comes less than two weeks =
+after Robinhood made its public trading debut.</p></blockquote><p style=3D"=
+margin: 16px 0;">Makes sense.=C2=A0</p><table class=3D"header" width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Masterly stock manipulations</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here=E2=80=99s a=C2=A0scam. You start,=
+ or gain control of, a tiny company with publicly traded stock. The company=
+ doesn=E2=80=99t do much; its stock trades for a few pennies a share at mos=
+t. You own most of the shares. You make yourself (or your friend) the chief=
+ executive officer of the company, and you have the company put out a bunch=
+ of press releases saying =E2=80=9Cwe=E2=80=99ve found a cure for cancer=E2=
+=80=9D or =E2=80=9Cwe=E2=80=99re pivoting to crypto=E2=80=9D or whatever. M=
+aybe you and your friends buy some more shares to make the stock go up. Peo=
+ple notice the press releases and the stock going up, so they start buying =
+the stock and it goes up more. You sell your stock as they buy it. You have=
+ taken the stock of a worthless company, briefly tricked people into thinki=
+ng it=E2=80=99s valuable, and then=C2=A0dumped the stock on them.</p><p sty=
+le=3D"margin: 16px 0;">As a general form of scam this is very popular and, =
+apparently, lucrative, and so of course there are rules to prevent it. For =
+one thing it is illegal and if you do it you can go to prison, though that =
+is only the very last line of defense and not everyone gets caught. There a=
+re other defenses. For instance, in the U.S., if you control a company =E2=
+=80=94=C2=A0including just by owning a lot of its stock =E2=80=94=C2=A0ther=
+e are restrictions on your ability to sell it. Even if you aren=E2=80=99t d=
+oing a scam, I mean, if you own 50% of a penny-stock company you can=E2=80=
+=99t just dump all your shares anonymously in the stock market in a week. Y=
+our stock is =E2=80=9Crestricted,=E2=80=9D and generally speaking you need =
+to register your sales of restricted stock, file a prospectus with the Secu=
+rities and Exchange Commission, disclose that you=E2=80=99re selling, etc.[=
+4] One purpose of these rules is to make sure that the company discloses al=
+l relevant information about itself to people who might buy the stock. But =
+another purpose is just to flag to everyone that you =E2=80=94=C2=A0the big=
+ shareholder =E2=80=94=C2=A0are selling. =E2=80=9CHuh, that=E2=80=99s odd,=
+=E2=80=9D they might think, =E2=80=9Cthis company just put out a press rele=
+ase saying that it cured cancer, but the CEO is selling all of her stock. P=
+erhaps something is amiss!=E2=80=9D And then they don=E2=80=99t buy it.</p>=
+<p style=3D"margin: 16px 0;">Of course if you are doing a scam anyway, you =
+might decide to ignore these rules. Sell your stock without filing a regist=
+ration statement, why not. But there are further defenses. Companies hire t=
+ransfer agents to keep track of their stock ownership, and the transfer age=
+nt =E2=80=94=C2=A0generally a reputable independent company =E2=80=94=C2=A0=
+will check whether stock is =E2=80=9Crestricted=E2=80=9D and not let you se=
+ll it freely if it is.=C2=A0Brokerage firms are going to ask questions and =
+do checks; if you are the CEO and 50% shareholder of a company they won=E2=
+=80=99t let you just dump your stock into the market. The intermediaries in=
+ the financial system are supposed to prevent this scam.</p><p style=3D"mar=
+gin: 16px 0;">So if you are determined to do this scam, you might have to d=
+o some subsidiary scams to trick the intermediaries into thinking that you =
+don=E2=80=99t own your stock, or you don=E2=80=99t control the company. Ins=
+tead of you owning 50% of the stock, pretend that 12 apparently unconnected=
+ people each own 4% or so;=C2=A0<em>they=C2=A0</em>sell the stock (and you =
+get the money). That sort of thing. And while there is a system of regulate=
+d legal intermediaries =E2=80=94=C2=A0transfer agents, legitimate brokers =
+=E2=80=94=C2=A0who facilitate stock sales and who are supposed to be on gua=
+rd against scammers, there is another system of=C2=A0<em>illegal=C2=A0</em>=
+intermediaries who help people do <em>exactly this scam</em>.=C2=A0</p><p s=
+tyle=3D"margin: 16px 0;">Here are=C2=A0<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/24703227.276523/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZX=
+NzLXJlbGVhc2UvMjAyMS0xNDg/607f07ceef4b8524a319a23cB584b852a" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">an SEC enforcement actio=
+n</a>=C2=A0and related <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/24703227.276523/aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvdXNhby1tYS9wci9mb3VyLW=
+luZGl2aWR1YWxzLWNoYXJnZWQtbG9uZy1ydW5uaW5nLWdsb2JhbC1wdW1wLWFuZC1kdW1wLXNja=
+GVtZQ/607f07ceef4b8524a319a23cB646ae3e4" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">criminal charges</a>=C2=A0against some peo=
+ple accused of running one of these intermediaries:</p><blockquote><p style=
+=3D"margin: 16px 0;">The Securities and Exchange Commission [yesterday] ann=
+ounced an emergency action charging nine individuals, including a public co=
+mpany chairman, for their participation in long-running fraudulent schemes =
+that collectively generated hundreds of millions of dollars from unlawful s=
+tock sales and caused significant harm to retail investors in the United St=
+ates and around the world. The SEC has obtained emergency relief in court, =
+including an order to freeze the defendants=E2=80=99 assets.</p><p style=3D=
+"margin: 16px 0;">According to the SEC=E2=80=99s complaint unsealed today, =
+Canadian resident Frederick L. Sharp masterminded a complex scheme from 201=
+1 to 2019 in which he and his associates =E2=80=93 Canadian residents Zhiyi=
+ng Yvonne Gasarch and Courtney Kelln =E2=80=93 enabled control persons of m=
+icrocap companies whose stock was publicly traded in the U.S. securities ma=
+rkets to conceal their control and ownership of huge amounts of penny stock=
+.=C2=A0 They then surreptitiously dumped the stock into the U.S. markets in=
+ violation of federal securities laws.=C2=A0 The services Sharp and his ass=
+ociates allegedly provided included furnishing networks of offshore shell c=
+ompanies to conceal stock ownership, arranging stock transfers and money tr=
+ansmittals, and providing encrypted accounting and communications systems.=
+=C2=A0 According to the complaint, Sharp and his associates facilitated ove=
+r a billion dollars in gross sales in hundreds of penny stock companies.</p=
+></blockquote><p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/24703227.276523/aHR0cHM6Ly93d3cuc2VjLmdvdi9saX=
+RpZ2F0aW9uL2NvbXBsYWludHMvMjAyMS9jb21wLXByMjAyMS0xNDgucGRm/607f07ceef4b8524=
+a319a23cB311d1198" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">SEC=E2=80=99s complaint</a> is delightful, because the way this bu=
+siness (allegedly) works is not, like, a couple of guys in a room doing a s=
+cam. This is a big business of facilitating other people=E2=80=99s scams, s=
+o it has to have a certain amount of advertising and branding and customer =
+service. And oh boy does it:</p><blockquote><p style=3D"margin: 16px 0;">Sh=
+arp, who used the code name =E2=80=9CBond=E2=80=9D (styling himself after t=
+he fictional character James Bond), was the mastermind and leader of the Sh=
+arp Group. Among other things, Sharp cultivated relationships with the Shar=
+p Group=E2=80=99s clients=E2=80=94that is, individuals seeking fraudulently=
+ to sell stock in the markets to retail investors=E2=80=94and with various =
+offshore trading platforms. Sharp also routinely served as a liaison betwee=
+n dozens of clients (like the Veldhuis Control Group) and the trading platf=
+orms (like Wintercap SA).=C2=A0</p><p style=3D"margin: 16px 0;">During the =
+period of the scheme detailed herein, Sharp described in a communication to=
+ a client the following about the Sharp Group=E2=80=99s services: =E2=80=9C=
+The service provided is comprehensive; it is not limited to trading. It inc=
+ludes pyaments [sic], loans, private placements <strong>and keeping clients=
+ out of jail</strong>.=E2=80=9D (Emphasis added).</p></blockquote><p style=
+=3D"margin: 16px 0;">Right, see, if you just want to do legal trading, you =
+can go to Robinhood or whatever. If you want to do=C2=A0<em>crime=C2=A0</em=
+>trading, you will need a more full-service broker, one whose business incl=
+udes keeping you out of jail. Or trying to.</p><p style=3D"margin: 16px 0;"=
+>Here is more on the alleged full service:</p><blockquote><p style=3D"margi=
+n: 16px 0;">Sharp oversaw the creation and deployment of various front comp=
+anies, which served as nominee shareholders used to disguise his clients=E2=
+=80=99 stock ownership and to sell stock surreptitiously.</p><p style=3D"ma=
+rgin: 16px 0;">One of the services provided by the Sharp Group was making a=
+vailable offshore corporate nominee shareholders and individuals who would =
+serve as the nominal owners of those entities. Sharp installed these variou=
+s nominal owners to pose as the beneficial owners of the=C2=A0=C2=A0various=
+ entities that served as nominee shareholders. In actuality, these individu=
+als did not own or control the stock held by the nominee shareholders and g=
+enerally had no role other than offering their names, passports, and signat=
+ures, which the Sharp Group used to incorporate and open accounts for the c=
+orporate nominees. In dealing with banks, brokerages, and other financial s=
+ervices providers, these individuals were held out as actual beneficial own=
+ers. In this way, the Sharp Group kept the identities of control groups hid=
+den, while fraudulently appearing to satisfy the compliance requirements of=
+ the banking and securities firms where the Sharp Group opened these accoun=
+ts.</p></blockquote><p style=3D"margin: 16px 0;">Again the basic idea is th=
+at if you run a penny-stock company and own a bunch of its stock, and you g=
+o to a brokerage to sell the stock, the broker will stop you. But if you ge=
+t a dozen random people to open brokerage accounts saying that they own som=
+e of your stock, the broker might let them sell. To do this you need a doze=
+n random people to lend their =E2=80=9Cnames, passports, and signatures=E2=
+=80=9D to a crime, and you might have a hard time finding them. But it=E2=
+=80=99s no problem for Bond. That is the business he=E2=80=99s in.</p><p st=
+yle=3D"margin: 16px 0;">Obviously it=E2=80=99s a problem for you if you pre=
+tend to give your stock to those dozen random people and they sell it and k=
+eep the money.=C2=A0(What are you going to do, sue them?) Fortunately Bond =
+has his Q accounting system to keep everything honest:</p><blockquote><p st=
+yle=3D"margin: 16px 0;">Sharp also hired and directed individuals who creat=
+ed and administered the Sharp Group=E2=80=99s accounting system, which Shar=
+p called =E2=80=9CQ=E2=80=9D (thereby expanding his James Bond affectations=
+ =E2=80=93 =E2=80=9CQ=E2=80=9D being another fictional character in James B=
+ond). Given the extensive efforts by the Sharp Group and its clients to con=
+ceal and obscure the actual ownership and control of the stock they were su=
+rreptitiously selling, the Q system was essential in keeping track of the a=
+mounts of stock to be sold and the total proceeds being collected for each =
+deal Sharp=E2=80=99s clients ran. Accordingly, the Sharp Group accounted fo=
+r all of the nominee shareholders=E2=80=99 assets in Q by tracking which of=
+ the nominee shareholders held which stocks (and which stocks=E2=80=99 sale=
+s proceeds) for which particular client or client group, like the Veldhuis =
+Control Group. The Sharp Group also relied on the Q system to calculate the=
+ commissions and fees it collected for facilitating its clients=E2=80=99 il=
+legal stock sales.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">I can=
+not resist=C2=A0people who do crimes, run their crimes like a legitimate bu=
+siness, and also play-act at being spies. Just an endlessly charming combin=
+ation.=C2=A0But here is the very best part of this case:</p><blockquote><p =
+style=3D"margin: 16px 0;">In 2002, Sharp wrote a fictionalized book about s=
+ecurities fraud and money laundering in which he described illegal conduct =
+that parallels the Sharp Group=E2=80=99s business model. Sharp=E2=80=99s bo=
+ok (<em>Footloose: Charlie Smith=E2=80=99s Offshore Chronicles</em>) includ=
+es the following passage:</p><p style=3D"margin: 16px 0;">=E2=80=9CEventual=
+ly [the client] took greater positions in the stocks, sharing the take with=
+ fewer partners. This meant he had to disguise his shareholdings in order t=
+o avoid securities disclosure requirements and trading restrictions.</p><p =
+style=3D"margin: 16px 0;">Offshore companies were ideal for his purpose. Th=
+ey came from around the world with nominee directors, but were still subjec=
+t to his control. The perfect situation for his masterly stock manipulation=
+s.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">Imagine being the =
+SEC lawyer assigned to read =E2=80=9CFootloose: Charlie Smith=E2=80=99s Off=
+shore Chronicles=E2=80=9D to prepare for this case. Or do you think some SE=
+C lawyer was reading =E2=80=9CFootloose: Charlie Smith=E2=80=99s Offshore C=
+hronicles=E2=80=9D for pleasure[5] and thought =E2=80=9Chey this fictional =
+account sounds awfully realistic,=C2=A0I wonder if we should take a quick p=
+eek into this author=E2=80=9D? =E2=80=9CHis masterly stock manipulations,=
+=E2=80=9D I love it.=C2=A0</p><table class=3D"header" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Object-fire-token-money</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I have <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24703227.276523/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMDMvc3BhY3MtYXJlbi10LWEtZ3VhcmFudGVlLWNm=
+LWZpbmFuY2UtaWlpLWFuZC1hZXllLWFyZS1wcm9vZg/607f07ceef4b8524a319a23cB3a9980e=
+5" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">written=
+</a> <a href=3D"https://link.mail.bloombergbusiness.com/click/24703227.2765=
+23/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjQv=
+bWVycmlsbC1seW5jaC1wdXRzLWRvd24tdGhlLXBob25l/607f07ceef4b8524a319a23cB68e89=
+bc8" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">sever=
+al</a> <a href=3D"https://link.mail.bloombergbusiness.com/click/24703227.27=
+6523/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMT=
+AvZWxvbi1tdXNrLXMtc25sLWRlYnV0LWRpZG4tdC1oZWxwLXRoZS1kb2dlY29pbi1idWxscw/60=
+7f07ceef4b8524a319a23cB962e7d50" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">times</a> about what I call the=C2=A0=E2=80=9Cobject=
+-fire-token-money=E2=80=9D NFT cycle: You acquire some work of art or other=
+ valuable cultural object (e.g. a <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/24703227.276523/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjEtMDUtMTEvY3J5cHRvLW1hcmtldHMtYXJlLXdoZXJlLXRoZS1mdW4taX=
+M/607f07ceef4b8524a319a23cB9fc92626" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Banksy painting</a>), you light it on fire, you=
+ create some electronic (<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24703227.276523/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMjEtMDYtMDcvc3BhY3MtY2FuLXNob290LW91dC1zcGFyY3M/607f07ceef4b8524a31=
+9a23cB2383672e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">or paper</a>)=C2=A0certificate saying =E2=80=9CI promise I destroyed =
+this object,=E2=80=9D and then you sell the certificate=C2=A0to some crypto=
+ millionaire as its own art object, a =E2=80=9Cnon-fungible token=E2=80=9D =
+that has some asserted artistic or scarcity or comedic value. Last week <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/24703227.276523/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDgtMDIvY2hpbmVz=
+ZS1zdG9ja3Mtd2lsbC1nZXQtbW9yZS13YXJuaW5ncw/607f07ceef4b8524a319a23cB1834d45=
+7" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">I wrote=
+ about</a> a woman who plans to be cremated, when she dies, with the only e=
+xisting audio recording of J.D. Salinger. The audio recording is, let us as=
+sume, a valuable cultural object that people would like to pay money for (b=
+ut can=E2=80=99t because she=E2=80=99s gonna burn it). But, I said, a certi=
+ficate that it was burned is <em>also=C2=A0</em>a valuable cultural object,=
+ sort of, whatever, that people might also pay money for. If you burn=C2=A0=
+a valuable cultural artifact, you get an NFT, which is also valuable. This =
+is how crypto economics works. I promise that I do not make the rules.</p><=
+p style=3D"margin: 16px 0;">Reader David Vasak emailed to point out that I =
+was not thinking big enough:</p><blockquote><p style=3D"margin: 16px 0;">Su=
+rely you don't need a valuable cultural object to be burnt; just film a suf=
+ficiently well known person being cremated after their funeral and mint an =
+NFT of that? Object - fire - token - money!</p></blockquote><p style=3D"mar=
+gin: 16px 0;">I=E2=80=99m not sure you even need the video! In the classic =
+=E2=80=9Cobject-fire-token-money=E2=80=9D cycle, the point of the video is =
+to prove that the original object no longer exists, so the token is the onl=
+y remaining representation of the cultural artifact. I <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/24703227.276523/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjQvbWVycmlsbC1seW5jaC1wdXRzL=
+WRvd24tdGhlLXBob25l/607f07ceef4b8524a319a23cC68e89bc8" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">do not think that this makes v=
+ery much sense</a>, but it seems to be how the NFT world operates. But if e=
+veryone knows that the original object no longer exists then you can dispen=
+se with the video, and the burning for that matter. For instance it is fair=
+ly clear that William Shakespeare is no longer alive. So if I sold an NFT =
+=E2=80=9Cof=E2=80=9D William Shakespeare =E2=80=94=C2=A0a representation of=
+ Shakespeare on the blockchain =E2=80=94=C2=A0the actual William Shakespear=
+e could not pop up and say =E2=80=9Cno I=E2=80=99m Shakespeare, not this to=
+ken thing.=E2=80=9D[6] So Shakespeare-on-blockchain has exactly the same sc=
+arcity value as burnt-Banksy-on-blockchain. More, really, because there are=
+ a lot of Banksy paintings that someone could burn, but only one Shakespear=
+e.</p><p style=3D"margin: 16px 0;">=E2=80=9CBut if you put =E2=80=98Shakesp=
+eare=E2=80=99 on the blockchain,=E2=80=9D you say,=C2=A0=E2=80=9Cwhat conne=
+ction does that have to the actual Shakespeare? Couldn=E2=80=99t anyone els=
+e also put =E2=80=98Shakespeare=E2=80=99 on the blockchain, creating an unl=
+imited supply of unique tokens all asserting some totally insubstantial=C2=
+=A0link to Shakespeare? Doesn=E2=80=99t buying =E2=80=98Shakespeare=E2=80=
+=99 on the blockchain confer absolutely no rights or benefits to the actual=
+ Shakespeare or his works?=E2=80=9D Right!</p><p style=3D"margin: 16px 0;">=
+Men have died from time to time, and worms have eaten them, but not for NFT=
+s. I=E2=80=99m sorry that this is even stupider than my usual stupid NFT se=
+ctions.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">ESG Investors Question Their Own Metho=
+ds After <a href=3D"https://link.mail.bloombergbusiness.com/click/24703227.=
+276523/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMTAv=
+aXBjYy1yZXBvcnQtZXNnLWludmVzdG9ycy1xdWVzdGlvbi10aGVpci1tZXRob2Rz/607f07ceef=
+4b8524a319a23cB2f32f0e2" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Grim Climate Report</a>.=C2=A0Progressive Opposition to <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/24703227.276523/aHR0c=
+HM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9wcm9ncmVzc2l2ZS1vcHBvc2l0aW9uLXRvLWplcm9t=
+ZS1wb3dlbGwtY2xvdWRzLWhpcy1jaGFuY2VzLWZvci1zZWNvbmQtdGVybS1hcy1mZWQtY2hhaXJ=
+tYW4tMTE2Mjg1ODc4MDA_bW9kPWhwX2xlYWRfcG9zMw/607f07ceef4b8524a319a23cB63c89b=
+e9" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">Jerome=
+ Powell</a> Clouds His Chances for Second Term as Fed Chairman. CFA <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24703227.276523/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMTAvY2ZhLXBhc3MtcmF0=
+ZS1zbHVtcHMtdG8tcmVjb3JkLWxvdy1hcy1wYW5kZW1pYy1kaXNydXB0cy1zdHVkeWluZw/607f=
+07ceef4b8524a319a23cB252096fe" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> Pass Rate</a> Slumps to Record Low as Pandemic Disrup=
+ts Studying. Chinese <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/24703227.276523/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jaGluZXNlLWJvbmQt=
+c3dpbmdzLXRocmVhdGVuLWdsb2JhbC1kZWJ0LWludmVzdG9ycy0xMTYyODU4NzgwMj9tb2Q9aHB=
+fbGVhZF9wb3M2/607f07ceef4b8524a319a23cB1b7e8314" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Bond Swings</a> Threaten Global Debt=
+ Investors. Why Xi Jinping Waited Years to Launch His <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/24703227.276523/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMTAvZXZlci1wb3dlcmZ1bC14aS1maW5kcy=
+1uby1iZXR0ZXItdGltZS10by1odW1ibGUtY2hpbmEtdHljb29ucw/607f07ceef4b8524a319a2=
+3cB58b0b854" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Crackdown on Tycoons</a>. SoftBank to <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/24703227.276523/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQ=
+vOGI5OGRiN2MtMjRlOS00YWE0LWJjNDItNTYzMzgxMzk5NjJl/607f07ceef4b8524a319a23cB=
+55ff905c" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+cut China investments</a> until tech sector calms. Washington vs Big Tech: =
+Lina Khan=E2=80=99s battle to <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24703227.276523/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZWJhOGQzZDc=
+tZGJhNy00Mzg5LTg1OGMtNTQwNmMzMWI0MTNk/607f07ceef4b8524a319a23cBda7b494d" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">transform Am=
+erican antitrust</a>. Hertz Posts Higher Revenue, <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/24703227.276523/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+hcnRpY2xlcy9oZXJ0ei1wb3N0cy1oaWdoZXItcmV2ZW51ZS1wbGFucy10by1yZWxpc3QtYW1pZC=
+10cmF2ZWwtcmVib3VuZC0xMTYyODUxODk2ND9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef=
+4b8524a319a23cB78fab628" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">Plans to Relist</a> Amid Travel Rebound. Heatmap of <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24703227.276523/aHR0cHM6L=
+y9ibG9nLnZnaGFpc2FzLmNvbS9tYXR0LWxldmluZS10b3BpY3Mv/607f07ceef4b8524a319a23=
+cB538c5941" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">Money Stuff topics</a>. Outgunned Crypto Lobbyists Falter in Bid to <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24703227.276523/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMTAvb3V0Z3VubmVkLW=
+NyeXB0by1sb2JieWlzdHMtZmFsdGVyLWluLWJpZC10by1maXgtYnJvYWQtdGF4LXJ1bGVz/607f=
+07ceef4b8524a319a23cB677ebdb8" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> Fix Broad Tax Rules</a>. Locating <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/24703227.276523/aHR0cHM6Ly9jb3JwZ292L=
+mxhdy5oYXJ2YXJkLmVkdS8yMDIxLzA4LzA1L2xvY2F0aW5nLXN0YWJsZWNvaW5zLXdpdGhpbi10=
+aGUtcmVndWxhdG9yeS1wZXJpbWV0ZXIv/607f07ceef4b8524a319a23cBc68cc888" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">Stablecoins</a> w=
+ithin the Regulatory Perimeter. Tether significantly increased exposure to =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24703227.276523/aH=
+R0cHM6Ly93d3cudGhlYmxvY2tjcnlwdG8uY29tL3Bvc3QvMTEzODc0L3RldGhlci1uZXctcmVzZ=
+XJ2ZXMtcmVwb3J0LWp1bmUtMjAyMS10cmVhc3VyeS1iaWxscw/607f07ceef4b8524a319a23cB=
+329e90f7" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+treasury bills</a> as of June, per reserves report.=C2=A0Citigroup Reaches =
+First Deal of Jane Fraser=E2=80=99s Refresh, Selling <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/24703227.276523/aHR0cHM6Ly93d3cud3NqLmNv=
+bS9hcnRpY2xlcy9jaXRpZ3JvdXAtcmVhY2hlcy1maXJzdC1kZWFsLW9mLWphbmUtZnJhc2Vycy1=
+yZWZyZXNoLXNlbGxpbmctYXVzdHJhbGlhbi1jb25zdW1lci1iYW5rLTExNjI4NTE4OTQ0P21vZD=
+1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB1117be22" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">Australian Consumer Bank</a=
+>. WeWork and <a href=3D"https://link.mail.bloombergbusiness.com/click/2470=
+3227.276523/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93ZXdvcmstYW5kLWN1c2htYW4=
+td2FrZWZpZWxkLWFyZS1mb3JtaW5nLTE1MC1taWxsaW9uLXBhcnRuZXJzaGlwLTExNjI4NTEwND=
+Qz/607f07ceef4b8524a319a23cB93d95628" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">Cushman &amp; Wakefield</a> Are Forming $150 Mi=
+llion Partnership. SEC Charges <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24703227.276523/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2xpdH=
+JlbGVhc2VzLzIwMjEvbHIyNTE1OS5odG0/607f07ceef4b8524a319a23cB68b6e2dd" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">Former Domino's =
+Pizza Accountant</a> with Insider Trading. =E2=80=9CDogs have <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/24703227.276523/aHR0cHM6Ly93d3c=
+ubnByLm9yZy9zZWN0aW9ucy9tb25leS8yMDIxLzA4LzEwLzEwMjU1OTY5ODEvaG93LXRoZS1wZX=
+QtcmV2b2x1dGlvbi11bmxlYXNoZWQtYS1uZXctdG9wLWRvZy1pbi1hbWVyaWNh/607f07ceef4b=
+8524a319a23cB4cbde8ce" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">come a long way</a> since the days when they were put to work =
+on farms and fed scraps.=E2=80=9D =E2=80=9CHe explained that since the crow=
+n signifies a king, <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/24703227.276523/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zZW5kaW5nLWEtc21pb=
+GV5LWZhY2UtbWFrZS1zdXJlLXlvdS1rbm93LXdoYXQteW91cmUtc2F5aW5nLTExNjI4NTIyODQw=
+/607f07ceef4b8524a319a23cB52d63a4d" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">which is positive</a>, it meant his brother was d=
+oing well.=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/24703227.276523/aHR0cHM6Ly93d3cuYm9zdG9uYmVlci5jb20vbmV3cy1yZWxlYXNlcy9uZ=
+XdzLXJlbGVhc2UtZGV0YWlscy9ib3N0b24tYmVlci1jb21wYW55LXBhcnRuZXJzLXBlcHNpY28t=
+dXMtbGF1bmNoLW5ldy1oYXJkLW10bi1kZXc/607f07ceef4b8524a319a23cB355cafeb" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">HARD MTN DEW</=
+a>.</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consum=
+er-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy emai=
+l form, right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24703227.276523/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdi=
+dXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2Z=
+mY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB80eed56e" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">subscribe at this link</a>. Or you can subscribe to=
+ Money Stuff and other great Bloomberg newsletters <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24703227.276523/aHR0cHM6Ly9sb2dpbi5ibG9vbW=
+JlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB8dffade2" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em><=
+/span></p><p style=3D"margin: 16px 0;"><em>[1] Bloomberg=E2=80=99s ANR page=
+ reports 5 Holds and 4 Sells. If your model of AMC=E2=80=99s stock price is=
+ that it is the result of a random number generator, is that a Hold or a Se=
+ll? I think it=E2=80=99s a Hold, right? It would be insane to *short* that,=
+ anyway.</em></p><p style=3D"margin: 16px 0;"><em>[2] Or here=E2=80=99s a q=
+uestion that seems practical but still has a meme-stock tinge: =E2=80=9CWou=
+ld you consider selling AMC merchandise at theaters and on online platforms=
+, I think it will be profitable.=E2=80=9D I feel like two years ago no one =
+would have thought to buy *AMC* merch: If you love movies, you might buy me=
+rch for specific movies, maybe even for a studio, but for a movie-theater c=
+hain? Now of course AMC is a beloved brand, but realistically if you=E2=80=
+=99re buying AMC merch (1) it=E2=80=99s because you like the stock and (2) =
+it will have a gorilla on it.</em></p><p style=3D"margin: 16px 0;"><em>[3] =
+=E2=80=9COne question,=E2=80=9D on an earnings call, always means =E2=80=9C=
+one compound question plus a compound=C2=A0follow-up=E2=80=9D; here that wa=
+s =E2=80=9CAnd then a quick follow-up and then I'll pass it off. With respe=
+ct to the food and beverage strength that you saw in this quarter and I thi=
+nk even in the first quarter from a per cap standpoint, can you talk about =
+where that's coming from? Is that the mobile ordering initiative? Is that a=
+ mix of products? And then have you taken prices up, given some of the comm=
+entary that you made with respect to ticket pricing? Have you done the same=
+ thing for food and beverage yet? Thanks.=E2=80=9D</em></p><p style=3D"marg=
+in: 16px 0;"><em>[4] Paragraphs 35-38 of <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24703227.276523/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0=
+aW9uL2NvbXBsYWludHMvMjAyMS9jb21wLXByMjAyMS0xNDgucGRm/607f07ceef4b8524a319a2=
+3cC311d1198" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">the SEC complaint</a>=C2=A0have a nice high-level overview of the legal =
+regime. There are exceptions to the registration requirement =E2=80=94=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/24703227.276523=
+/aHR0cHM6Ly93d3cuaW52ZXN0b3IuZ292L2ludHJvZHVjdGlvbi1pbnZlc3RpbmcvaW52ZXN0aW=
+5nLWJhc2ljcy9nbG9zc2FyeS9zZWN1cml0aWVzLWFjdC1ydWxlLTE0NCM6fjp0ZXh0PVJ1bGUlM=
+jAxNDQlMjBwcm92aWRlcyUyMGFuJTIwZXhlbXB0aW9uLHNvbGQlMjBhdCUyMGFueSUyMG9uZSUy=
+MHRpbWUu/607f07ceef4b8524a319a23cB2d268d4d" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Rule 144</a>, etc. =E2=80=94=C2=A0but the=
+y are not especially relevant to the big-picture scam of owning a ton of pe=
+nny stock and dumping it quickly.</em></p><p style=3D"margin: 16px 0;"><em>=
+[5] Don=E2=80=99t laugh, it sounds fun, of course I ordered it. Here=E2=80=
+=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/24703227.2765=
+23/aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9Gb290bG9vc2UtQ2hhcmxpZS1TbWl0aHMtT2Zmc2hv=
+cmUtQ2hyb25pY2xlcy9kcC8xNTUzOTUzOTkxL3JlZj1zcl8xXzE_ZGNoaWxkPTEma2V5d29yZHM=
+9JUUyJTgwJTlERm9vdGxvb3NlJTNBK0NoYXJsaWUrU21pdGglRTIlODAlOTlzK09mZnNob3JlK0=
+Nocm9uaWNsZXMlRTIlODAlOUQmcWlkPTE2Mjg1NTUzMTYmc3I9OC0x/607f07ceef4b8524a319=
+a23cB0194ad3d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">the Amazon description</a>: =E2=80=9COffshore and off-the-wall -- Char=
+lie Smith's capricious misadventures are a lighthearted glimpse of how one =
+likeable rascal copes with the three-headed hydra of globalization, rampant=
+ taxation and creeping regulation.=E2=80=9D</em></p><p style=3D"margin: 16p=
+x 0;"><em>[6] Fine, yes, he has a grave, and I suppose his skeleton could c=
+ompete with the NFT; you might have to limit this to cremated celebrities.=
+=C2=A0</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24703227.276523/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB59f8e2aa" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24703227.276523/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB3f4b070c" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24703227.276523/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB848cbf34" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24703227.276523/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBe970f96e" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2470322=
+7.276523/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBf68d8045" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24703227.276523/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCe0b57a1f" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24703227.276523/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB1e646f2c" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24703227.276523/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB102a5ceb" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ceph4r.5xd7/8181b716.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_7235012_1428820336.1628612217913--
+

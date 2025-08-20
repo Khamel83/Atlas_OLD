@@ -1,0 +1,1530 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4387:0:b029:109:68cb:7f2e with SMTP id s7csp3789340lko;
+        Wed, 23 Jun 2021 10:06:05 -0700 (PDT)
+X-Received: by 2002:a17:906:d83:: with SMTP id m3mr1068528eji.63.1624467965274;
+        Wed, 23 Jun 2021 10:06:05 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1624467965; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=UGvpYYOMskzBTvnij3M1VervgPFx9WHLKAONuAyC00oUsBZwcaysYKlTreTBKzF/3B
+         nbtG2pz8fwetcr8OM0nsgPHo/u/jUPaqNzRcAD9E6gY1TFNS85RYyCtWAapUu0KbEV45
+         q45TzcUnIqV7NSti05J0DShaXgQaxeWCHaZQ/hdtok0NZVlB/Hazz56F+CCGxLQxn5Rt
+         d/pdCKddRJW8irzq06GeY8KCdMS9iylEAf4180Wdki1F/ZZnLn2m5rrm+k2m9wScH0V/
+         tAs3yN5h4NmZCQITPMAFQ/ryVYRNe99kMirlwBBB1o5TbPydHD9GDCCeiEGt/tzrctEw
+         Lkaw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=pFeQ4NEojWbODCH8egUITirLKEiRvtj1JU927gXpaFs=;
+        b=QIF2ViUPFjy4LvLsY28btBFSSr6tMVObxsXTuftyPnCWEV0KNcdcfFVf/XnrnQpLPw
+         iDG9tE2NwdOW+DjFLR9+zJFFO53tYXC6CswNqvkH9nLJ/zebEf3l1x5/Ri9u1D9MNIF1
+         epcB0XvrOkQJ6GJhIMRdJxKUdW+ZbGXIAGxQqjIb0Y82IMXTPUUErIzCXmskBv0AbXl3
+         J/URCn+4M+Z2R3EhrsexIOgtQ2GRHoKygt4w1BEzSwk1ob30wFqQUW/Jd0bqt/ZJQ2Ph
+         K9+/8lLxDsn3p+5mAMLm8MFLIvcMXaDcOO/6cXJZ6XCvU6OBrsFq3mxHV1/s2pd1LG74
+         XcdA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=flinmUA+;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id y3sor491125ejd.5.2021.06.23.10.06.05
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 23 Jun 2021 10:06:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=flinmUA+;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=pFeQ4NEojWbODCH8egUITirLKEiRvtj1JU927gXpaFs=;
+        b=YsbjH5P4u4CR85Q770ymBXO1SdNUU5mtBEnPCOwl/Z8sfnGndFih3BUaMacJkCUPUq
+         MEvBWaJK0PnANO09euLrtNjPV0q3OTkSg5lxJRlyyG26dXs2pCs7VttURBGQHcKPEvBw
+         FaXJkGobLUff4YJO/uPIdXMZiBbNz4rsCJCquvS3tA0Hn8ozjh4LskbT6IDLbsz3qeOB
+         4r3PJKOFzRUwQVhHMvHmz+6WqAon/VSbIyrrtE4LQgGoLu4ImXyX/DJWxayJRKYapW3a
+         BrTbJ90s4HMu53iqnG1OWD1amFuIcJn+5L117+OIIORWHClL2APKCIjgdowtFqzbvFoN
+         hUSg==
+X-Gm-Message-State: AOAM533HOSHikIzV6fMJTo7KixysHSEQSoDlwfhv6cIucVs1meOk8Tvh
+	jyblk2hNVC0RhOwxjaxu0eM70QsON8nDvGOzRYsSWGtwABTAFSiG7Q==
+X-Received: by 2002:a17:906:6d59:: with SMTP id a25mr1068496ejt.83.1624467964821;
+        Wed, 23 Jun 2021 10:06:04 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:ab4:9248:0:0:0:0:0 with SMTP id g8csp6463623ecz;
+        Wed, 23 Jun 2021 10:06:02 -0700 (PDT)
+X-Received: by 2002:a0c:e8cc:: with SMTP id m12mr935000qvo.27.1624467961998;
+        Wed, 23 Jun 2021 10:06:01 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1624467961; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=HkHcIYQNBwfkmL6yqbftP/oUNcosbtJIuDQZUmjPxFmNZ8X0JEaq7P1OpjOOXPWYkX
+         zh7PmxvdpnLoe2/BVgeslSIQxmmqqfL89eFkcyHWG8l3/idkkLpP4vbjICFurElOpfbQ
+         NcFNXOZzQQ7oPPQnk4MSf/+q3/c+aD7zxrkjlaOlE+nrycaRlbPCiJKC78WpHhrsnOOV
+         Z5kNnO5ioq/fcfHxhWZzrP9B6v11f3aL4hABLfupp6dGYlTi375UbAMcKc8TG68GWXCJ
+         E8dkKVO5g4ii6GlXVteBC6WCu1akt0anyml0bG4brYEE+ydatm77QaeC+zSm+85DGD9u
+         J6xg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=pFeQ4NEojWbODCH8egUITirLKEiRvtj1JU927gXpaFs=;
+        b=zciCxowOudQrnStB+XswZpGuqzPGIf+Z4CtrSMpuRDbf13sBVrOUW9oI2sY8DpnXBg
+         bpcGFd3C93uKcVdMmdjCwHsn2LVOQAMWhwKRRRkS/4a5gcJ0O0EDRWcPOkSgJ6U0CpnH
+         t0ticf29ZYf/aj/ZXxUhrKNxhva5l3Ttz8xpiQ/omR/xpqNF3hAwpN2n7ZGTCBPVUdVA
+         6TPWAibBlTQC4TcwKBnnnC8M8xRjPS0h3n1O6ujgzPZIJbWimY/nxpvC7Qv4D9PK9zXB
+         hSt2a88t4aBlOP8PSfD6DHaf7XGaL3c3W5ZXyQGQiWktui6Ww5qdnJfy+GSUkiG7tDdI
+         Xp3w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=flinmUA+;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210623130411.24240248.258390@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210623130411.24240248.258390@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210623130411.24240248.258390@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id b16sor142712qvt.13.2021.06.23.10.06.01
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 23 Jun 2021 10:06:01 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210623130411.24240248.258390@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJx/TsNEzGQEJcfLuTXnNHBL8Rm97LDwLoJ1PwT5aK+UEXgVJKEEGdAw3trGap9G370HkQYkb06rMbKFt4gufvXrHo95MnA=
+X-Received: by 2002:a05:6214:96f:: with SMTP id do15mr634034qvb.18.1624467961499;
+        Wed, 23 Jun 2021 10:06:01 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1624467961; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ECFQJk/QHg9f1uJV0H9GIxdcxGLCdKmcuk+Keg6PNEjzDN/AXcNHHR7y5rcv9p9ag/
+         6brnsJvpbwAZhfmHCRI8gEn5GPF7Yd4JVwvBBNb8OE3JaMd5ORpxmy9VKor6rayuFs2I
+         fiAtB7ASkN7/uetz6T39SMf45kgL1GJt+LLQhCShMQ8qnGUOrKBwZ5IxfRsF+qSwW8po
+         7XsvS7C0ViY/CNaWiFB+s5ZQDtMEaoJxj2cV0pHaiIvAbMszoupyEtqJF58JuC78nYG1
+         F6zEkEB0Qiuu7EmCIHNIRbK054XawnaawbjJRc0fyRqp1yIjhWDNKUEex0f/8vC6YsRt
+         /90A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=pFeQ4NEojWbODCH8egUITirLKEiRvtj1JU927gXpaFs=;
+        b=Ha0Gr5tS2dO6zQw6rFlpoLEiA1qffXCCzryxBOiJSDqK+lSmit2CyGFUPD7unVHPem
+         tI+kifq3lTUsafpjEbXcQZHrcbE96gjw5pM73zBMH1Y7HxyYtbGTsPlfTdFZ+Ev1Jex5
+         iX7zxvFf3usf+KjImH7Uoe0/dCrRr+L9JGfLBrjH1ch1wO1UJGp9VpOYEfC0QJGKvXrB
+         9paFhhYOGAw3Q0N4o/rkmlPdWQi8vabJ+0zgCN/0SozhDSn9OJ7GVgBHg+9q3Ukbgywf
+         ckCSOP1/3aEq707iCc+Q/4CM/E6GE0pRXlWwKqnefDxd7WyipxgBe9ItuUDriz59kMQF
+         Wyzw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=flinmUA+;
+       spf=pass (google.com: domain of delivery_20210623130411.24240248.258390@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20210623130411.24240248.258390@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210623130411.24240248.258390@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id c24si49290qtw.1.2021.06.23.10.06.01
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 23 Jun 2021 10:06:01 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210623130411.24240248.258390@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=7WPHzuI4UZrco6D4BRNJpcECXM5Dpxbxnkg7O2jlmJ8=;
+ b=flinmUA+Kzy5De/qCEAG4cv7Om4prRzxK2TIj2CDn6Rmkbtaym0XmxLiHrOL+ddoJ2usWr3Geu2K
+   talJ4BrGeOkeFVldSby1XvxuI+NhB5IIFZ2j0T20QfZ2/H1w6mLpy5uBp4Zbr+gYgLyBeV92am/G
+   eG10kyCOKnBZJkgYxRU=
+Received: from njmta-20.sailthru.com (173.228.155.20) by pmta29.sailthru.com id hqdkvg2qflcj for <bloomberg@khamel.com>; Wed, 23 Jun 2021 13:05:58 -0400 (envelope-from <delivery_20210623130411.24240248.258390@mx.sailthru.com>)
+Received: from nj1-lowvermillion.flt (172.18.20.37) by njmta-20.sailthru.com id hqdkvc1qqbsn for <bloomberg@khamel.com>; Wed, 23 Jun 2021 13:04:11 -0400 (envelope-from <delivery_20210623130411.24240248.258390@mx.sailthru.com>)
+Date: Wed, 23 Jun 2021 13:04:11 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210623130411.24240248.258390@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IFN1cHJlbWUgQ291cnQgV28=?=
+ =?utf-8?B?buKAmXQgSGVscCBHU0UgU2hhcmVob2xkZXJzIE11Y2g=?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_69517025_665502757.1624467851595"
+Precedence: bulk
+X-Feedback-ID: 6358:24240248:campaign:sailthru
+X-TM-ID: 20210623130411.24240248.258390
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-lowvermillion.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cefjw8.5jdi/316393e7
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cefjw8.5jdi/316393e7>, <mailto:unsubscribe_20210623130411.24240248.258390@mx.sailthru.com>
+X-rpcampaign: stjko24240248
+
+------=_Part_69517025_665502757.1624467851595
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Fannie and FreddieDuring the 2008 financial crisis, Fannie Mae an=
+d Freddie Mac, the giant mortgage companies, blew up. These were strange co=
+mpanies: They were publicly traded corporations owned by shareholders, but =
+they were called =E2=80=9Cgovernment-sponsored enterprises=E2=80=9D (or =E2=
+=80=9CGSEs=E2=80=9D) and had somewhat nebulous government backing. When the=
+y blew up, the U.S. government stepped in to bail them out with vast piles =
+of money. The bailout agreements were structured to give the government an =
+80% stake in the enterprises,[1] plus preferred stock for the money it put =
+in. The government would get a 10% dividend on the preferred stock. Also Fa=
+nnie and Freddie were put into conservatorship and effectively run by the F=
+ederal Housing Finance Agency, their=C2=A0regulator.=C2=A0In the years afte=
+r the bailout, Fannie and Freddie made so little money that they could not =
+regularly pay those dividends, so the government kept putting in more money=
+ to keep them solvent. In 2012, Fannie and Freddie agreed with the governme=
+nt =E2=80=94=C2=A0represented by the U.S. Department of the Treasury and th=
+e FHFA=C2=A0=E2=80=94=C2=A0to amend the bailout agreement so that, instead =
+of paying 10% a year on the billions of dollars that the government had put=
+ into them, Fannie and Freddie would just pay the government=C2=A0all of th=
+eir profits forever. (This was called the =E2=80=9Cthird amendment.=E2=80=
+=9D) Over the previous four years, this would have meant a lower payment, b=
+ecause Fannie and Freddie were not making enough money to pay that 10% divi=
+dend. After the third amendment, though, a weird thing happened and Fannie =
+and Freddie started making a lot of money, which they paid over to the Trea=
+sury.Nine years later, things are much the same. Fannie and Freddie are nom=
+inally public companies, but in conservatorship and run by the FHFA. They h=
+ave shareholders; their stocks trade over the counter (tickers FNMA and FMC=
+C, respectively); their equity market capitalizations as of yesterday=E2=80=
+=99s close were $12.9 billion and $7.2 billion, respectively.[2] They are n=
+o longer paying all of their income to the Treasury; subsequent amendments =
+have allowed them to retain=C2=A0earnings to meet capital requirements. Sti=
+ll they are very much economically owned by the Treasury; they can=E2=80=99=
+t pay dividends to their ordinary shareholders, only build capital and pay =
+anything extra to the Treasury. Everyone agrees that this is a weird status=
+ quo and that Fannie and Freddie should be returned to private hands, but e=
+veryone has agreed on that for about a decade now and it has=C2=A0never hap=
+pened. Maybe one day it will, but I  keep confidently predicting that it wo=
+n=E2=80=99t happen soon, and I keep being right.Fannie and Freddie=E2=80=99=
+s shareholders are very upset about this situation. In particular, they are=
+ very upset about the third amendment. If the third amendment had not happe=
+ned =E2=80=94=C2=A0if Fannie and Freddie had not agreed with Treasury and t=
+he FHFA to replace the government=E2=80=99s 10% dividend with an =E2=80=9Ca=
+ll of our profits=E2=80=9D dividend =E2=80=94=C2=A0then Fannie and Freddie =
+would have been able to keep their profits over the last nine years; they=
+=E2=80=99d have more capital now and perhaps be able to pay money out to sh=
+areholders. Certainly the publicly traded shares would be worth more. And w=
+hile technically Fannie and Freddie agreed to the amendment, Fannie and Fre=
+ddie were in conservatorship, so basically the FHFA could tell them what to=
+ agree to; the third amendment was not exactly an arm=E2=80=99s-length mark=
+et transaction.So the shareholders have sued a lot, in various courts, argu=
+ing that there were various irregularities in the third amendment. They hav=
+e mostly lost. We have  talked about these cases from time to time.One argu=
+ment that the shareholders had was that the FHFA is unconstitutional. This =
+has been a bit of a cottage industry in recent conservative lawyering, argu=
+ing that various regulatory agencies are unconstitutional under the Appoint=
+ments Clause, the bit of the U.S. Constitution that governs how the preside=
+nt can appoint executive officers. Basically Congress will set up a regulat=
+ory agency=C2=A0with a complicated statute providing for=C2=A0how its head =
+can be hired or fired or supervised, and the agency will go around regulati=
+ng, and someone won=E2=80=99t like a regulation and will sue saying that th=
+e statute is unconstitutional because it doesn=E2=80=99t give the president=
+ the correct power to hire or fire the head of the agency, so the whole age=
+ncy is void and no one has to follow its regulations.The shareholders tried=
+ that here with the FHFA, and it went all the way to the Supreme Court,=C2=
+=A0and today they =E2=80=A6 I guess they=C2=A0won a little bit? Not very mu=
+ch. The Supreme Court ruled today that the FHFA is in fact unconstitutional=
+ =E2=80=94=C2=A0or a little bit unconstitutional =E2=80=94=C2=A0because the=
+ statute authorizing the FHFA only allows its director to be removed =E2=80=
+=9Cfor cause,=E2=80=9D while the Constitution requires that the president b=
+e able to remove the director for any reason or no reason.=C2=A0But what do=
+ you do with that conclusion? It=E2=80=99s not like the third amendment was=
+ adopted by an FHFA director whom the president wanted to remove but couldn=
+=E2=80=99t; in fact, it was adopted by an FHFA acting director who was remo=
+vable=C2=A0without=C2=A0cause. And it's not like the only thing the FHFA ev=
+er did was adopt the third amendment and extract profits from Fannie and Fr=
+eddie; among other things, it=E2=80=99s been running them in conservatorshi=
+p for the last 13 years. It would be weird to say that the FHFA is unconsti=
+tutional so it has to give Fannie and Freddie=E2=80=99s profits back to the=
+ shareholders, but=C2=A0everything else=C2=A0that happened at Fannie and Fr=
+eddie over the last 13 years =E2=80=94=C2=A0every business decision that th=
+e FHFA supervised, every profitable trade that the GSEs did in conservators=
+hip, every infusion of money from the government, etc. =E2=80=94=C2=A0was f=
+ine.So the Supreme Court basically said, meh, it=E2=80=99s a little bit unc=
+onstitutional, but probably not worth worrying about. But it sent the case =
+back to an appeals court to double-check that conclusion (citation omitted)=
+:Suppose, for example, that the President had attempted to remove a Directo=
+r but was prevented from doing so by a lower court decision holding that he=
+ did not have =E2=80=9Ccause=E2=80=9D for removal. Or suppose that the Pres=
+ident had made a public statement expressing displeasure with actions taken=
+ by a Director and had asserted that he would remove the Director if the st=
+atute did not stand in the way. In those situations, the statutory provisio=
+n would clearly cause harm.In the present case, the situation is less clear=
+-cut, but the shareholders nevertheless claim that the unconstitutional rem=
+oval provision inflicted harm. Were it not for that provision, they suggest=
+, the President might have replaced one of the confirmed Directors who supe=
+rvised the implementation of the third amendment, or a confirmed Director m=
+ight=C2=A0 have altered his behavior in a way that would have benefited the=
+ shareholders.The federal parties dispute the possibility that the unconsti=
+tutional removal restriction caused any such harm. They argue that, irrespe=
+ctive of the President=E2=80=99s power to remove the FHFA Director, he =E2=
+=80=9Cretained the power to supervise the [Third] Amendment=E2=80=99s adopt=
+ion . . . because FHFA=E2=80=99s counterparty to the Amendment was Treasury=
+=E2=80=94an executive department led by a Secretary subject to removal at w=
+ill by the President.=E2=80=9D The parties=E2=80=99 arguments should be res=
+olved in the first instance by the lower courts.Yeah the shareholders are n=
+ot gonna win that one (by proving that a president wanted to fire an FHFA d=
+irector but didn=E2=80=99t?). The Supreme Court also rejected=C2=A0another,=
+ less interesting statutory argument against the third amendment. Fannie an=
+d Freddie may one day be back in shareholder hands, and the existing shareh=
+olders may get some value out of that, but it=E2=80=99s not going to be fro=
+m these lawsuits. =E2=80=9C Common shares of Fannie Mae slumped as much as =
+42% and those of Freddie Mac plunged 44%, both posting their steepest intra=
+day declines since October 2014.=E2=80=9D=C2=A0ComplianceI don=E2=80=99t kn=
+ow, honestly, this is kind of a good policy for a brokerage to have:Employe=
+es are also strictly prohibited from initiating contact with any Regulator =
+without prior approval from the Legal or Compliance Department. This prohib=
+ition applies to any subject matter that might be discussed with a Regulato=
+r, including an individual=E2=80=99s registration status with FINRA. Any em=
+ployee that violates this policy may be subject to disciplinary action by t=
+he Firm.Like, if you have a bunch of employees, and they are working on a b=
+unch of creative trade ideas, you don=E2=80=99t want one of them to just pi=
+ck up the phone and call the Securities and Exchange Commission and say =E2=
+=80=9Chey I have an idea, is this legal?=E2=80=9D You want them to run thei=
+r ideas by compliance and legal first, and make sure to work out the bugs a=
+nd present the best possible version=C2=A0to the SEC. You want, as far as p=
+ossible, to know what conversations your firm is having with the SEC. Those=
+ conversations can be high-stakes for a brokerage, so you want them to be c=
+entralized and coordinated by someone who knows what they=E2=80=99re doing.=
+Also of course if some employee sees something at the firm that they think =
+is illegal, it would be=C2=A0very=C2=A0helpful, for the firm, if they went =
+to the firm=E2=80=99s lawyers first. The lawyers=C2=A0might tell them =E2=
+=80=9Cno no no that=E2=80=99s perfectly legal, here=E2=80=99s why.=E2=80=9D=
+ Or they might say =E2=80=9Coh you=E2=80=99re right that=E2=80=99s illegal,=
+ we=E2=80=99d better tell the regulator,=E2=80=9D and then think of the bes=
+t and most apologetic way to do that. Or =E2=80=A6=C2=A0I mean of course yo=
+u could imagine the lawyers taking another approach. (=E2=80=9CThat=E2=80=
+=99s totally illegal but let=E2=80=99s=C2=A0not=C2=A0tell the regulators, a=
+ren=E2=80=99t you in line for a raise this year?=E2=80=9D Etc.)So I get whe=
+re the policy is coming from but it is also pretty illegal? The SEC=E2=80=
+=99s whistle-blower rules say that =E2=80=9CNo person may take any action t=
+o impede an individual from communicating directly with the Commission staf=
+f about a possible securities law violation.=E2=80=9D If your corporate rul=
+es say =E2=80=9Cno one can call up the SEC for any reason,=E2=80=9D you are=
+ prohibiting your employees from whistle-blowing, and that=E2=80=99s not al=
+lowed.So Guggenheim Securities LLC =E2=80=94=C2=A0which had this policy =E2=
+=80=94=C2=A0settled with the SEC today, promising not to do it again and ag=
+reeing to pay $208,912. Oops! What one wants is a policy like =E2=80=9Cdon=
+=E2=80=99t go cowboying around talking to regulators without telling compli=
+ance, but of course if you see anything illegal feel free to go to the regu=
+lators, that is your right as an American and we would never dream of stopp=
+ing you, though it would be a nice favor to us if you told us first.=E2=80=
+=9D But it=E2=80=99s a little hard to convey that in writing.
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                    Invest in world-changing startups on An=
+gelList
+
+
+AngelList is the leading platform for early-stage venture investing.=20
+Invest in experienced VCs that have backed Clubhouse, Notion, Pipe, and 77 =
+other unicorns. Adjust your investment size as your goals evolve.
+                                   =20
+AngelList
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+MoneroIf you are doing crime, Bitcoin has a lot of advantages over U.S. dol=
+lars. You can store and transfer money anonymously without permission, with=
+out going through the know-your-customer procedures and anti-money-launderi=
+ng checks of the U.S. banking system; also the transfers are more or less i=
+rreversible, so U.S. authorities can=E2=80=99t just go to your bank and tel=
+l it to reverse a payment to you. And Bitcoin is fairly useful: You can use=
+ it to pay for some things (particularly things that criminals might want),=
+ and if you want other things you can turn Bitcoin into regular currency fa=
+irly easily.There are disadvantages, though. Bitcoin transactions are recor=
+ded on a public ledger, so the authorities=C2=A0can=C2=A0track payments to =
+you and try to get them back. (By arresting you, or hacking your password o=
+r whatever.) And so the Federal Bureau of Investigation was able to trace t=
+he money that the=C2=A0Colonial Pipeline hackers got from a ransomware atta=
+ck and get most of it back. Also Bitcoin is=C2=A0less=C2=A0useful than doll=
+ars: Its price is volatile, and you will generally have to convert it into =
+regular currency to buy a sandwich.Here is a fun Financial Times story abou=
+t Monero, a =E2=80=9Cprivacy coin=E2=80=9D that is sort of like Bitcoin but=
+ untraceable:While bitcoin leaves a visible trail of transactions on its un=
+derlying blockchain, the niche =E2=80=9Cprivacy coin=E2=80=9D monero was de=
+signed to obscure the sender and receiver, as well as the amount exchanged.=
+As a result, it has become an increasingly sought-after tool for criminals =
+such as ransomware gangs, posing new problems for law enforcement.So that i=
+s an obvious advantage over Bitcoin, which means that if you are doing crim=
+e you should =E2=80=94=C2=A0arguably =E2=80=94=C2=A0prefer Monero to Bitcoi=
+n. And some criminals do:Russia-linked REvil, the notorious ransomware grou=
+p believed to be behind the attack earlier this month on meatpacker JBS, ha=
+s removed the option of paying in bitcoin this year, demanding monero only,=
+ according to Brett Callow, threat analyst at Emsisoft.Meanwhile both DarkS=
+ide, the group blamed for the Colonial Pipeline hack, and Babuk, which was =
+behind the attack on the Washington DC Police earlier this year, allow paym=
+ents in either cryptocurrency, but charge a 10 to 20 per cent premium to vi=
+ctims paying in riskier bitcoin, experts say.I have  written before about m=
+y fascination with, like, the back-office functions at ransomware groups. S=
+pecifically I wrote about DarkSide=E2=80=99s compliance department, which a=
+pparently decided that (1) hacking into computer systems to shut down compa=
+nies and extort ransoms from them is good crime that will increase DarkSide=
+=E2=80=99s revenues but (2) putting servers in Iran, which is subject to U.=
+S. sanctions, is bad crime that will reduce DarkSide=E2=80=99s revenues. Si=
+milarly here I would love to sit in a strategy meeting at DarkSide's billin=
+g department. =E2=80=9CWe realize that some customers will prefer to pay in=
+ Bitcoin, and we want them to have a good customer experience after we hack=
+ them and shut down their business, but it really is helpful to us if we ca=
+n push them to Monero so let=E2=80=99s offer a 10% discount for Monero.=E2=
+=80=9DOn the other hand a disadvantage of Monero is that it is less useful=
+=C2=A0than Bitcoin, in terms of being convertible into sandwiches etc. =E2=
+=80=9CIts overall market capitalisation remains a sliver of that of bitcoin=
+: nearly $5bn compared with $727bn,=E2=80=9D notes the Financial Times, and=
+ if you want to buy Monero (to pay ransoms) or sell Monero (because you got=
+ paid a ransom and want to spend it) it=E2=80=99s not especially easy or ef=
+ficient:Meanwhile ransomware negotiators, who are typically hired by victim=
+s to help=C2=A0handle extortion payments, have also begun contacting monero=
+ developers in order to understand how the cryptocurrency works, according =
+to Ehrenhofer. The negotiators are aiming to =E2=80=9Cbuild out the liquidi=
+ty relationships=E2=80=9D needed to facilitate payment in the event of a mo=
+nero ransom demand, he said.Like, sure it=E2=80=99s a 10% or 20% premium to=
+ pay in Bitcoin, but when you factor in the price impact of buying all that=
+ Monero it=E2=80=99s a closer question. And so what the world needs now is =
+more market makers in Monero so that companies can pay their ransoms more e=
+fficiently. =E2=80=9CBuild out the liquidity relationships.=E2=80=9D Imagin=
+e the pitch to venture capitalists if you want to start a new Monero market=
+ maker. =E2=80=9CThe problem is that companies cannot efficiently access Mo=
+nero liquidity to pay criminals. We will build good relationships with comp=
+anies who want to buy Monero to pay ransoms, and we will also build good re=
+lationships with criminals who want to turn their Monero ransoms back into =
+cash, so we can tighten Monero spreads and make paying ransom more efficien=
+t.=E2=80=9D Is that good?ApologiesOne thing=C2=A0you could do is buy a smal=
+l-cap stock, go on a message board, and write a bunch of fake but good-soun=
+ding things about the company. =E2=80=9CAmalgamated Widgets just got a cont=
+ract to supply plutonium to Tesla, this stock is going to the moon, diamond=
+ hands,=E2=80=9D whatever.=C2=A0People believe you, the=C2=A0stock goes up,=
+ and you sell it for a profit. This, or some more involved version of it, i=
+s sometimes called a =E2=80=9Cpump and dump.=E2=80=9DAnother thing you coul=
+d do is sell a small-cap stock=C2=A0short, go on a message board, and write=
+ a bunch of fake but bad-sounding things about the company. =E2=80=9CAmalga=
+mated Widgets just dumped a bunch of plutonium in a river near Elon Musk=E2=
+=80=99s house, this company is going bankrupt, get out while you can,=E2=80=
+=9D that sort of thing. People believe you, the stock goes down, and you co=
+ver your short at a profit. This is sometimes called a =E2=80=9Cshort and d=
+istort.=E2=80=9DOne difference between these approaches is that if you do a=
+ short and distort, the company will get really mad at you. They will respo=
+nd to your lies, and say mean things about you, and report you to the Secur=
+ities and Exchange Commission, and sue you, and perhaps send private invest=
+igators after you. If you do a pump and dump, the company won=E2=80=99t get=
+ mad at you. They might be in on it, or they might be=C2=A0flattered, or th=
+ey might not care, or they might even issue a corrective press release sayi=
+ng =E2=80=9Csorry these rumors about us are not true, nice though they are,=
+=E2=80=9D but they=E2=80=99re not going to=C2=A0sue=C2=A0you. Nor, generall=
+y, will the company=E2=80=99s enemies have much of a bone to pick with you.=
+ (If you do either thing =E2=80=94=C2=A0short and distort or pump and dump =
+=E2=80=94=C2=A0too egregiously the SEC will come after you, but that=E2=80=
+=99s a slightly separate issue.)=C2=A0If you say nice things about a stock =
+=E2=80=94=C2=A0even lies =E2=80=94=C2=A0people will like you; you are cheat=
+ing, but you=E2=80=99re playing for the good team. If you say mean things a=
+bout a stock =E2=80=94=C2=A0lies or not =E2=80=94=C2=A0people won=E2=80=99t=
+ like you; you are cheating on behalf of the bad guys.In fact basically=C2=
+=A0any=C2=A0time anyone shorts a stock and publicly announces their reasoni=
+ng, the company will reply =E2=80=9Cthis is just a short-and-distort scheme=
+ and we are looking into our legal options.=E2=80=9D This reaction is so in=
+evitable, and the actual experience of shorting and distorting seems so muc=
+h more unpleasant than the similar experience of pumping and dumping, that =
+I am almost inclined to believe that short-and-distort schemes don=E2=80=99=
+t actually exist. =E2=80=9CShort and distort=E2=80=9D is in practice a term=
+ that companies apply to short sellers whom they don=E2=80=99t like.But tha=
+t=E2=80=99s not really true. There is an academic literature; here=E2=80=99=
+s Joshua=C2=A0Mitts=E2=80=99s paper on =E2=80=9CShort and Distort,=E2=80=9D=
+ which examines =E2=80=9C1,720 pseudonymous attacks on mid- and large-cap f=
+irms from 2010-2017.=E2=80=9D (We=E2=80=99ve  discussed it before.) Also he=
+re=E2=80=99s this:A small Texas investor who caused shares of a real estate=
+ investment trust to plunge 39 percent in a day has agreed to pay the compa=
+ny restitution to settle a lawsuit against him, a rare development that cou=
+ld embolden other companies to pursue such claims.Quinton Mathews, who publ=
+ished his research on companies online under the pseudonym Rota Fortunae, w=
+ill pay Farmland Partners Inc "a multiple" of the profits on his short bet =
+in 2018, according to the terms of the legal settlement announced here late=
+ Sunday. His research had helped wipe out as much as $115 million off Farml=
+and's market value. ...Mathews conceded that "many of the key statements" i=
+n a report here he published on website Seeking Alpha targeting Farmland - =
+including allegations of dubious related-party transactions and the risk of=
+ insolvency - were wrong.=E2=80=9CI regret any harm the article and its ina=
+ccuracies caused,=E2=80=9D Mathews said in the announcement, which was post=
+ed on Twitter and Seeking Alpha.Well there you go. Expect to see so many mo=
+re companies suing so many more short sellers:Jacob Frenkel, an attorney wi=
+th Dickinson Wright who has defended companies against allegations of stock=
+ manipulation and was not involved in the Farmland case, said Mathews=E2=80=
+=99 apology and payment could build company confidence to pursue similar cl=
+aims against short sellers.=E2=80=9CIt=E2=80=99s highly unusual and refresh=
+ing to see a company take on this fight, because most will take the short t=
+erm blow of the attack without pursuing legal vindication,=E2=80=9D Frenkel=
+ said.Solar roofLast year we  talked about Nikola Corp.=E2=80=99s hilarious=
+ revenue for the second quarter of 2020. Nikola had revenue of $36,000 for =
+the quarter, which is quite low for a company with a=C2=A0$13 billion marke=
+t capitalization (as Nikola had at the time). Also though it earned that re=
+venue by installing solar panels at the house of Trevor Milton, its founder=
+, which is extra-weird considering (1) related party, conflicts of interest=
+, blah blah blah and (2) Nikola is in theory an electric-truck=C2=A0company=
+. =E2=80=9CIt is a $13 billion company whose only business so far is doing =
+odd jobs around its founder=E2=80=99s house,=E2=80=9D I wrote. Nikola=E2=80=
+=99s revenue last quarter was zero dollars, which is =E2=80=A6=C2=A0less =
+=E2=80=A6=C2=A0yet more sensible. (Its market cap is also lower.)One questi=
+on you might ask is: How many=C2=A0publicly traded electric-vehicle compani=
+es=C2=A0named after Nikola Tesla also have a side business installing solar=
+ panels on their founders=E2=80=99=C2=A0roofs? The answer is at least two:E=
+lon Musk, one of the world=E2=80=99s richest men, says a $50,000 abode near=
+ Brownsville, Texas, is his primary home these days. He has tweeted that he=
+=E2=80=99s made some improvements to the house, without specifying what the=
+y are.But earlier this year, Tesla Inc. employees traveled to Brownsville t=
+o install the company=E2=80=99s Solar Roof on that bungalow and several oth=
+er houses on Weems Street that are owned by another Musk company, SpaceX. T=
+he construction project gave Musk an up-close look at a challenge that=E2=
+=80=99s been vexing him.Musk has many priorities competing for his attentio=
+n, but recently has become intensely focused on Tesla=E2=80=99s Solar Roof,=
+ a niche product that enjoys demand from wealthy consumers but has proven t=
+o be a bear to install more cost effectively. While Solar Roof is only a sm=
+all slice of Tesla=E2=80=99s business, it is essential to Musk=E2=80=99s vi=
+sion for the company to evolve from an electric-car maker to something much=
+ grander: a one-stop shop for a household=E2=80=99s clean energy needs. Tes=
+la=E2=80=99s stated mission is to =E2=80=9Caccelerate the world=E2=80=99s t=
+ransition to sustainable energy,=E2=80=9D and Musk has been talking up the =
+benefits of solar and the =E2=80=9Cfree fusion reactor in the sky=E2=80=9D =
+for years.Frustrated with the Solar Roof=E2=80=99s progress, Musk has fired=
+ many of the executives and directors on the program, raised prices for con=
+sumers and gotten more heavily involved in its details. He is keen to impro=
+ve the amount of time it takes for workers to install the Solar Roof and he=
+lped crews with some of the installations on Weems Street, according to peo=
+ple familiar with the matter.Imagine having Elon Musk show up to help insta=
+ll solar panels on your roof. Imagine being the foreman of the installation=
+ crew that Musk is helping. (=E2=80=9CHey Elon would you mind taking a brea=
+k from Twitter for a second to help us lift this panel?=E2=80=9D)=C2=A0Imag=
+ine=C2=A0living in a modest house in Texas and having Elon Musk for a neigh=
+bor. (Do you think he spends much time in his $50,000 house?) I would be ha=
+ppier about this whole story if Musk ended up installing solar panels on Tr=
+evor Milton=E2=80=99s roof.=C2=A0Things happenThe  SPAC Man Method: Inside =
+the Billionaire Rush for Riches. Bitcoin=E2=80=99s Money-Printing Machine B=
+reaks Down as  Futures Fall. Morgan Stanley to  Require Vaccinations to Ent=
+er N.Y. Offices. How =E2=80=98dark arts=E2=80=99 and dirty tricks turned in=
+vestors against Toshiba. Amazon and Other Tech Giants Race to Buy Up Renewa=
+ble Energy. Banks Slowly Offer Alternatives to Overdraft Fees, a Bane of St=
+ruggling Spenders. Nonbank Lenders Are Dominating the Mortgage Market. Meat=
+ Grown in  Israeli Bioreactors Is Coming to American Diners.=C2=A0Self-Driv=
+ing Truck Startup Embark to Go Public in $5.2 Billion SPAC Deal.=C2=A0Bowle=
+ro in Merger Talks With SPAC Led by Ex-WWE Executives. =E2=80=9CA=C2=A0pitc=
+h invader stopped Belgium=E2=80=99s Euro 2020 match with Finland on Monday =
+when she wandered onto the field to advertise a cryptocurrency company.=E2=
+=80=9DIf you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, =
+right in your inbox, please=C2=A0subscribe at this link. Or you can subscri=
+be to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Te=
+chnically a warrant to purchase 79.9%, for accounting reasons.[2] Those num=
+bers are from Bloomberg=E2=80=99s DES pages and include the government=E2=
+=80=99s 79.9% stake; the =E2=80=9Creal=E2=80=9D market caps (amount in priv=
+ate hands) are arguably one-fifth of those numbers.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cefjw8.5jdi/ec82ac97.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_69517025_665502757.1624467851595
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24240248.258390/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBb50df80f"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24240248.258390/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB1b5188d=
+a">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Fannie and Freddie</h2><p style=3D"margin: 16px 0;">During the 2008 f=
+inancial crisis, Fannie Mae and Freddie Mac, the giant mortgage companies, =
+blew up. These were strange companies: They were publicly traded corporatio=
+ns owned by shareholders, but they were called =E2=80=9Cgovernment-sponsore=
+d enterprises=E2=80=9D (or =E2=80=9CGSEs=E2=80=9D) and had somewhat nebulou=
+s government backing. When they blew up, the U.S. government stepped in to =
+bail them out with vast piles of money. The bailout agreements were structu=
+red to give the government an 80% stake in the enterprises,[1] plus preferr=
+ed stock for the money it put in. The government would get a 10% dividend o=
+n the preferred stock. Also Fannie and Freddie were put into conservatorshi=
+p and effectively run by the Federal Housing Finance Agency, their=C2=A0reg=
+ulator.=C2=A0</p><p style=3D"margin: 16px 0;">In the years after the bailou=
+t, Fannie and Freddie made so little money that they could not regularly pa=
+y those dividends, so the government kept putting in more money to keep the=
+m solvent. In 2012, Fannie and Freddie agreed with the government =E2=80=94=
+=C2=A0represented by the U.S. Department of the Treasury and the FHFA=C2=A0=
+=E2=80=94=C2=A0to amend the bailout agreement so that, instead of paying 10=
+% a year on the billions of dollars that the government had put into them, =
+Fannie and Freddie would just pay the government=C2=A0<em>all of their prof=
+its forever</em>. (This was called the =E2=80=9Cthird amendment.=E2=80=9D) =
+Over the previous four years, this would have meant a lower payment, becaus=
+e Fannie and Freddie were not making enough money to pay that 10% dividend.=
+ After the third amendment, though, a weird thing happened and Fannie and F=
+reddie started making a lot of money, which they paid over to the Treasury.=
+</p><p style=3D"margin: 16px 0;">Nine years later, things are much the same=
+. Fannie and Freddie are nominally public companies, but in conservatorship=
+ and run by the FHFA. They have shareholders; their stocks trade over the c=
+ounter (tickers FNMA and FMCC, respectively); their equity market capitaliz=
+ations as of yesterday=E2=80=99s close were $12.9 billion and $7.2 billion,=
+ respectively.[2] They are no longer paying all of their income to the Trea=
+sury; <a href=3D"https://link.mail.bloombergbusiness.com/click/24240248.258=
+390/aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tL3N0b3J5L2Zhbm5pZS1tYWUtZnJlZGRpZS1=
+tYWMtY2FuLWtlZXAtZnV0dXJlLWVhcm5pbmdzLXBlci1hZ3JlZW1lbnQtYmV0d2Vlbi10cmVhc3=
+VyeS1hbmQtcmVndWxhdG9ycy0yMDIxLTAxLTE0/607f07ceef4b8524a319a23cB8f9ec666" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">subsequent =
+amendments</a> have allowed them to retain=C2=A0earnings to meet <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/24240248.258390/aHR0cHM6Ly93=
+d3cuaG91c2luZ3dpcmUuY29tL2FydGljbGVzL2ZoZmEtaXNzdWVzLWZpbmFsLWNhcGl0YWwtcnV=
+sZS1mb3ItZmFubmllLW1hZS1mcmVkZGllLW1hYy8/607f07ceef4b8524a319a23cBf67ed5c0"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">capital r=
+equirements</a>. Still they are very much economically owned by the Treasur=
+y; they can=E2=80=99t pay dividends to their ordinary shareholders, only bu=
+ild capital and pay anything extra to the Treasury. Everyone agrees that th=
+is is a weird status quo and that Fannie and Freddie should be returned to =
+private hands, but everyone has agreed on that for about a decade now and i=
+t has=C2=A0never happened. Maybe one day it will, but I <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/24240248.258390/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDctMTYvc29tZXRpbWVzLWFuYWx5c3Rz=
+LWhhdmUtZ29vZC1pZGVhcw/607f07ceef4b8524a319a23cBcb4083e4" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> keep confidently predictin=
+g</a> that it won=E2=80=99t happen soon, and I keep being right.</p><p styl=
+e=3D"margin: 16px 0;">Fannie and Freddie=E2=80=99s shareholders are very up=
+set about this situation. In particular, they are very upset about the thir=
+d amendment. If the third amendment had not happened =E2=80=94=C2=A0if Fann=
+ie and Freddie had not agreed with Treasury and the FHFA to replace the gov=
+ernment=E2=80=99s 10% dividend with an =E2=80=9Call of our profits=E2=80=9D=
+ dividend =E2=80=94=C2=A0then Fannie and Freddie would have been able to ke=
+ep their profits over the last nine years; they=E2=80=99d have more capital=
+ now and perhaps be able to pay money out to shareholders. Certainly the pu=
+blicly traded shares would be worth more. And while technically Fannie and =
+Freddie agreed to the amendment, Fannie and Freddie were in conservatorship=
+, so basically the FHFA could tell them what to agree to; the third amendme=
+nt was not exactly an arm=E2=80=99s-length market transaction.</p><p style=
+=3D"margin: 16px 0;">So the shareholders have sued a lot, in various courts=
+, arguing that there were various irregularities in the third amendment. Th=
+ey have mostly lost. We have <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24240248.258390/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fy=
+dGljbGVzLzIwMTQtMDItMTkvcGVvcGxlLXJlYWxseS1kaWRuLXQtbGlrZS1mYW5uaWUtbWFlLWF=
+uZC1mcmVkZGllLW1hYw/607f07ceef4b8524a319a23cBe4838a9c" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> talked about</a> these cases =
+from time to time.</p><p style=3D"margin: 16px 0;">One argument that the sh=
+areholders had was that the FHFA is unconstitutional. This has been a bit o=
+f a cottage industry in recent conservative lawyering, arguing that various=
+ regulatory agencies are unconstitutional under the <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/24240248.258390/aHR0cHM6Ly9lbi53aWtpcGVka=
+WEub3JnL3dpa2kvQXBwb2ludG1lbnRzX0NsYXVzZQ/607f07ceef4b8524a319a23cBa460bb81=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">Appointm=
+ents Clause</a>, the bit of the U.S. Constitution that governs how the pres=
+ident can appoint executive officers. Basically Congress will set up a regu=
+latory agency=C2=A0with a complicated statute providing for=C2=A0how its he=
+ad can be hired or fired or supervised, and the agency will go around regul=
+ating, and someone won=E2=80=99t like a regulation and will sue saying that=
+ the statute is unconstitutional because it doesn=E2=80=99t give the presid=
+ent the correct power to hire or fire the head of the agency, so the whole =
+agency is void and no one has to follow its regulations.</p><p style=3D"mar=
+gin: 16px 0;">The shareholders tried that here with the FHFA, and it went a=
+ll the way to the Supreme Court,=C2=A0and today they =E2=80=A6 I guess they=
+=C2=A0won a little bit? Not very much. The <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/24240248.258390/aHR0cHM6Ly93d3cuc3VwcmVtZWNvdXJ0Lm=
+dvdi9vcGluaW9ucy8yMHBkZi8xOS00MjJfazUzNy5wZGY/607f07ceef4b8524a319a23cB7158=
+ba53" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">Supr=
+eme Court ruled today</a> that the FHFA is in fact unconstitutional =E2=80=
+=94=C2=A0or a little bit unconstitutional =E2=80=94=C2=A0because the statut=
+e authorizing the FHFA only allows its director to be removed =E2=80=9Cfor =
+cause,=E2=80=9D while the Constitution requires that the president be able =
+to remove the director for any reason or no reason.=C2=A0</p><p style=3D"ma=
+rgin: 16px 0;">But what do you do with that conclusion? It=E2=80=99s not li=
+ke the third amendment was adopted by an FHFA director whom the president w=
+anted to remove but couldn=E2=80=99t; in fact, it was adopted by an FHFA <e=
+m>acting</em> director who was removable=C2=A0<em>without=C2=A0</em>cause. =
+And it's not like the only thing the FHFA ever did was adopt the third amen=
+dment and extract profits from Fannie and Freddie; among other things, it=
+=E2=80=99s been running them in conservatorship for the last 13 years. It w=
+ould be weird to say that the FHFA is unconstitutional so it has to give Fa=
+nnie and Freddie=E2=80=99s profits back to the shareholders, but=C2=A0<em>e=
+verything else=C2=A0</em>that happened at Fannie and Freddie over the last =
+13 years =E2=80=94=C2=A0every business decision that the FHFA supervised, e=
+very profitable trade that the GSEs did in conservatorship, every infusion =
+of money from the government, etc. =E2=80=94=C2=A0was fine.</p><p style=3D"=
+margin: 16px 0;">So the Supreme Court basically said, meh, it=E2=80=99s a l=
+ittle bit unconstitutional, but probably not worth worrying about. But it s=
+ent the case back to an appeals court to double-check that conclusion (cita=
+tion omitted):</p><blockquote><p style=3D"margin: 16px 0;">Suppose, for exa=
+mple, that the President had attempted to remove a Director but was prevent=
+ed from doing so by a lower court decision holding that he did not have =E2=
+=80=9Ccause=E2=80=9D for removal. Or suppose that the President had made a =
+public statement expressing displeasure with actions taken by a Director an=
+d had asserted that he would remove the Director if the statute did not sta=
+nd in the way. In those situations, the statutory provision would clearly c=
+ause harm.</p><p style=3D"margin: 16px 0;">In the present case, the situati=
+on is less clear-cut, but the shareholders nevertheless claim that the unco=
+nstitutional removal provision inflicted harm. Were it not for that provisi=
+on, they suggest, the President might have replaced one of the confirmed Di=
+rectors who supervised the implementation of the third amendment, or a conf=
+irmed Director might=C2=A0 have altered his behavior in a way that would ha=
+ve benefited the shareholders.</p><p style=3D"margin: 16px 0;">The federal =
+parties dispute the possibility that the unconstitutional removal restricti=
+on caused any such harm. They argue that, irrespective of the President=E2=
+=80=99s power to remove the FHFA Director, he =E2=80=9Cretained the power t=
+o supervise the [Third] Amendment=E2=80=99s adoption . . . because FHFA=E2=
+=80=99s counterparty to the Amendment was Treasury=E2=80=94an executive dep=
+artment led by a Secretary subject to removal at will by the President.=E2=
+=80=9D The parties=E2=80=99 arguments should be resolved in the first insta=
+nce by the lower courts.</p></blockquote><p style=3D"margin: 16px 0;">Yeah =
+the shareholders are not gonna win that one (by proving that a president wa=
+nted to fire an FHFA director but didn=E2=80=99t?). The Supreme Court also =
+rejected=C2=A0another, less interesting statutory argument against the thir=
+d amendment. Fannie and Freddie may one day be back in shareholder hands, a=
+nd the existing shareholders may get some value out of that, but it=E2=80=
+=99s not going to be from these lawsuits. =E2=80=9C<a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24240248.258390/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMjMvZmFubmllLWZyZWRkaWUtaW52ZXN0b3JzL=
+WdldC1taXhlZC1ydWxpbmctZnJvbS1zdXByZW1lLWNvdXJ0/607f07ceef4b8524a319a23cB30=
+70ff6b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;"> C=
+ommon shares of Fannie Mae slumped</a> as much as 42% and those of Freddie =
+Mac plunged 44%, both posting their steepest intraday declines since Octobe=
+r 2014.=E2=80=9D=C2=A0</p><h2 style=3D"font-weight: bold; font-family: &quo=
+t;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; fo=
+nt-size: 20px; border-bottom-width: 1px; border-bottom-style: dotted; margi=
+n: 0px; padding: 16px 0px 5px;">Compliance</h2><p style=3D"margin: 16px 0;"=
+>I don=E2=80=99t know, honestly, this is kind of a good policy for a broker=
+age to have:</p><blockquote><p style=3D"margin: 16px 0;">Employees are also=
+ strictly prohibited from initiating contact with any Regulator without pri=
+or approval from the Legal or Compliance Department. This prohibition appli=
+es to any subject matter that might be discussed with a Regulator, includin=
+g an individual=E2=80=99s registration status with FINRA. Any employee that=
+ violates this policy may be subject to disciplinary action by the Firm.</p=
+></blockquote><p style=3D"margin: 16px 0;">Like, if you have a bunch of emp=
+loyees, and they are working on a bunch of creative trade ideas, you don=E2=
+=80=99t want one of them to just pick up the phone and call the Securities =
+and Exchange Commission and say =E2=80=9Chey I have an idea, is this legal?=
+=E2=80=9D You want them to run their ideas by compliance and legal first, a=
+nd make sure to work out the bugs and present the best possible version=C2=
+=A0to the SEC. You want, as far as possible, to know what conversations you=
+r firm is having with the SEC. Those conversations can be high-stakes for a=
+ brokerage, so you want them to be centralized and coordinated by someone w=
+ho knows what they=E2=80=99re doing.</p><p style=3D"margin: 16px 0;">Also o=
+f course if some employee sees something at the firm that they think is ill=
+egal, it would be=C2=A0<em>very=C2=A0</em>helpful, for the firm, if they we=
+nt to the firm=E2=80=99s lawyers first. The lawyers=C2=A0might tell them =
+=E2=80=9Cno no no that=E2=80=99s perfectly legal, here=E2=80=99s why.=E2=80=
+=9D Or they might say =E2=80=9Coh you=E2=80=99re right that=E2=80=99s illeg=
+al, we=E2=80=99d better tell the regulator,=E2=80=9D and then think of the =
+best and most apologetic way to do that. Or =E2=80=A6=C2=A0I mean of course=
+ you could imagine the lawyers taking another approach. (=E2=80=9CThat=E2=
+=80=99s totally illegal but let=E2=80=99s=C2=A0<em>not=C2=A0</em>tell the r=
+egulators, aren=E2=80=99t you in line for a raise this year?=E2=80=9D Etc.)=
+</p><p style=3D"margin: 16px 0;">So I get where the policy is coming from b=
+ut it is also pretty illegal? The <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/24240248.258390/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci9=
+0ZXh0LzE3LzI0MC4yMUYtMTc/607f07ceef4b8524a319a23cBd6f6608e" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">SEC=E2=80=99s whistle-blo=
+wer rules</a> say that =E2=80=9CNo person may take any action to impede an =
+individual from communicating directly with the Commission staff about a po=
+ssible securities law violation.=E2=80=9D If your corporate rules say =E2=
+=80=9Cno one can call up the SEC for any reason,=E2=80=9D you are prohibiti=
+ng your employees from whistle-blowing, and that=E2=80=99s not allowed.</p>=
+<p style=3D"margin: 16px 0;">So Guggenheim Securities LLC =E2=80=94=C2=A0wh=
+ich had this policy =E2=80=94=C2=A0<a href=3D"https://link.mail.bloombergbu=
+siness.com/click/24240248.258390/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2=
+FkbWluLzIwMjEvMzQtOTIyMzcucGRm/607f07ceef4b8524a319a23cB838a303d" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">settled with the S=
+EC today</a>, promising not to do it again and agreeing to pay $208,912. Oo=
+ps! What one wants is a policy like =E2=80=9Cdon=E2=80=99t go cowboying aro=
+und talking to regulators without telling compliance, but of course if you =
+see anything illegal feel free to go to the regulators, that is your right =
+as an American and we would never dream of stopping you, though it would be=
+ a nice favor to us if you told us first.=E2=80=9D But it=E2=80=99s a littl=
+e hard to convey that in writing.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/inJXmAcNgA6I/v=
+0/-1x-1.png" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/inJXmAcNgA6I/v0/-1x-1.png" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;"><p style=3D"margin: 10px 0px;"><strong>Invest in world-changing st=
+artups on AngelList</strong><br />
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24240248.258390/aH=
+R0cDovL2FuZ2VsbGlzdC5jb20_dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1ha=
+WwmdXRtX2NhbXBhaWduPW1vbmV5X3N0dWZm/607f07ceef4b8524a319a23cBb7d1fbbf" styl=
+e=3D"color: #000000; text-decoration: underline;">
+<br />
+AngelList</a><a href=3D"https://link.mail.bloombergbusiness.com/click/24240=
+248.258390/aHR0cDovL2FuZ2VsbGlzdC5jb20vP3V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leV9zdHVmZg/607f07ceef4b8524a319a23c=
+B1b7310ec" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: underline;"> </a>is the leading =
+platform for early-stage venture investing. <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24240248.258390/aHR0cHM6Ly93d3cuYW5nZWxsaXN0LmNvb=
+S9yb2xsaW5nP3V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1w=
+YWlnbj1tb25leV9zdHVmZg/607f07ceef4b8524a319a23cBd7df388e" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: underline;">
+Invest</a> in experienced VCs that have backed Clubhouse, Notion, Pipe, and=
+ 77 other unicorns. Adjust your investment size as your goals evolve.</p></=
+div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;"><a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24240248.258390/aHR0cHM6Ly93d3cuYW=
+5nZWxsaXN0LmNvbS8_dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+2NhbXBhaWduPW1vbmV5X3N0dWZm/607f07ceef4b8524a319a23cBd2ef2f3a" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: underline;">
+AngelList</a></p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Monero</h2><p style=3D"margin: 16px 0;">If you are doing crime, Bitco=
+in has a lot of advantages over U.S. dollars. You can store and transfer mo=
+ney anonymously without permission, without going through the know-your-cus=
+tomer procedures and anti-money-laundering checks of the U.S. banking syste=
+m; also the transfers are more or less irreversible, so U.S. authorities ca=
+n=E2=80=99t just go to your bank and tell it to reverse a payment to you. A=
+nd Bitcoin is fairly useful: You can use it to pay for some things (particu=
+larly things that criminals might want), and if you want other things you c=
+an turn Bitcoin into regular currency fairly easily.</p><p style=3D"margin:=
+ 16px 0;">There are disadvantages, though. Bitcoin transactions are recorde=
+d on a public ledger, so the authorities=C2=A0<em>can=C2=A0</em>track payme=
+nts to you and try to get them back. (By arresting you, or hacking your pas=
+sword or whatever.) And so the Federal Bureau of Investigation was able to =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24240248.258390/aH=
+R0cHM6Ly93d3cubnByLm9yZy8yMDIxLzA2LzA4LzEwMDQyMjMwMDAvaG93LWEtbmV3LXRlYW0tb=
+2YtZmVkcy1oYWNrZWQtdGhlLWhhY2tlcnMtYW5kLWdvdC1jb2xvbmlhbC1waXBlbGluZXMtYml0=
+Y29pbi1iYWMjOn46dGV4dD1BbmRyZXclMjBIYXJuaWslMkZBUC0sVGhlJTIwSnVzdGljZSUyMER=
+lcGFydG1lbnQlMjBoYXMlMjBhc3NlbWJsZWQlMjBhJTIwbmV3JTIwdGFzayUyMGZvcmNlJTIwdG=
+8seWVhciUyQyUyMHRoZSUyMGRlcGFydG1lbnQlMjBhbm5vdW5jZWQlMjBNb25kYXku/607f07ce=
+ef4b8524a319a23cBf7b135d9" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">trace the money that the=C2=A0Colonial Pipeline hackers</a=
+> got from a ransomware attack and get most of it back. Also Bitcoin is=C2=
+=A0<em>less=C2=A0</em>useful than dollars: Its price is volatile, and you w=
+ill generally have to convert it into regular currency to buy a sandwich.</=
+p><p style=3D"margin: 16px 0;">Here is a fun <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24240248.258390/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRl=
+bnQvMTNmYjY2ZWQtYjRlMi00ZjVmLTkyNmEtN2QzNGRjNDBkOGI2/607f07ceef4b8524a319a2=
+3cB6516322b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">Financial Times story about Monero</a>, a =E2=80=9Cprivacy coin=E2=80=9D=
+ that is sort of like Bitcoin but untraceable:</p><blockquote><p style=3D"m=
+argin: 16px 0;">While bitcoin leaves a visible trail of transactions on its=
+ underlying blockchain, the niche =E2=80=9Cprivacy coin=E2=80=9D monero was=
+ designed to obscure the sender and receiver, as well as the amount exchang=
+ed.</p><p style=3D"margin: 16px 0;">As a result, it has become an increasin=
+gly sought-after tool for criminals such as ransomware gangs, posing new pr=
+oblems for law enforcement.</p></blockquote><p style=3D"margin: 16px 0;">So=
+ that is an obvious advantage over Bitcoin, which means that if you are doi=
+ng crime you should =E2=80=94=C2=A0arguably =E2=80=94=C2=A0prefer Monero to=
+ Bitcoin. And some criminals do:</p><blockquote><p style=3D"margin: 16px 0;=
+">Russia-linked REvil, the notorious ransomware group believed to be behind=
+ the attack earlier this month on meatpacker JBS, has removed the option of=
+ paying in bitcoin this year, demanding monero only, according to Brett Cal=
+low, threat analyst at Emsisoft.</p><p style=3D"margin: 16px 0;">Meanwhile =
+both DarkSide, the group blamed for the Colonial Pipeline hack, and Babuk, =
+which was behind the attack on the Washington DC Police earlier this year, =
+allow payments in either cryptocurrency, but charge a 10 to 20 per cent pre=
+mium to victims paying in riskier bitcoin, experts say.</p></blockquote><p =
+style=3D"margin: 16px 0;">I have <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/24240248.258390/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjEtMDUtMTEvY3J5cHRvLW1hcmtldHMtYXJlLXdoZXJlLXRoZS1mdW4taXM=
+/607f07ceef4b8524a319a23cB6b9d08ed" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> written before</a> about my fascination with, li=
+ke, the back-office functions at ransomware groups. Specifically I wrote ab=
+out DarkSide=E2=80=99s compliance department, which apparently decided that=
+ (1) hacking into computer systems to shut down companies and extort ransom=
+s from them is good crime that will increase DarkSide=E2=80=99s revenues bu=
+t (2) putting servers in Iran, which is subject to U.S. sanctions, is bad c=
+rime that will reduce DarkSide=E2=80=99s revenues. Similarly here I would l=
+ove to sit in a strategy meeting at DarkSide's billing department. =E2=80=
+=9CWe realize that some customers will prefer to pay in Bitcoin, and we wan=
+t them to have a good customer experience after we hack them and shut down =
+their business, but it really is helpful to us if we can push them to Moner=
+o so let=E2=80=99s offer a 10% discount for Monero.=E2=80=9D</p><p style=3D=
+"margin: 16px 0;">On the other hand a disadvantage of Monero is that it is =
+less <em>useful=C2=A0</em>than Bitcoin, in terms of being convertible into =
+sandwiches etc. =E2=80=9CIts overall market capitalisation remains a sliver=
+ of that of bitcoin: nearly $5bn compared with $727bn,=E2=80=9D notes the F=
+inancial Times, and if you want to buy Monero (to pay ransoms) or sell Mone=
+ro (because you got paid a ransom and want to spend it) it=E2=80=99s not es=
+pecially easy or efficient:</p><blockquote><p style=3D"margin: 16px 0;">Mea=
+nwhile ransomware negotiators, who are typically hired by victims to help=
+=C2=A0handle extortion payments, have also begun contacting monero develope=
+rs in order to understand how the cryptocurrency works, according to Ehrenh=
+ofer. The negotiators are aiming to =E2=80=9Cbuild out the liquidity relati=
+onships=E2=80=9D needed to facilitate payment in the event of a monero rans=
+om demand, he said.</p></blockquote><p style=3D"margin: 16px 0;">Like, sure=
+ it=E2=80=99s a 10% or 20% premium to pay in Bitcoin, but when you factor i=
+n the price impact of buying all that Monero it=E2=80=99s a closer question=
+. And so what the world needs now is more market makers in Monero so that c=
+ompanies can pay their ransoms more efficiently. =E2=80=9CBuild out the liq=
+uidity relationships.=E2=80=9D Imagine the pitch to venture capitalists if =
+you want to start a new Monero market maker. =E2=80=9CThe problem is that c=
+ompanies cannot efficiently access Monero liquidity to pay criminals. We wi=
+ll build good relationships with companies who want to buy Monero to pay ra=
+nsoms, and we will also build good relationships with criminals who want to=
+ turn their Monero ransoms back into cash, so we can tighten Monero spreads=
+ and make paying ransom more efficient.=E2=80=9D Is that good?</p><h2 style=
+=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helveti=
+ca, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-width:=
+ 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px 5px;">Apo=
+logies</h2><p style=3D"margin: 16px 0;">One thing=C2=A0you could do is buy =
+a small-cap stock, go on a message board, and write a bunch of fake but goo=
+d-sounding things about the company. =E2=80=9CAmalgamated Widgets just got =
+a contract to supply plutonium to Tesla, this stock is going to the moon, d=
+iamond hands,=E2=80=9D whatever.=C2=A0People believe you, the=C2=A0stock go=
+es up, and you sell it for a profit. This, or some more involved version of=
+ it, is sometimes called a =E2=80=9Cpump and dump.=E2=80=9D</p><p style=3D"=
+margin: 16px 0;">Another thing you could do is sell a small-cap stock=C2=A0=
+<em>short</em>, go on a message board, and write a bunch of fake but bad-so=
+unding things about the company. =E2=80=9CAmalgamated Widgets just dumped a=
+ bunch of plutonium in a river near Elon Musk=E2=80=99s house, this company=
+ is going bankrupt, get out while you can,=E2=80=9D that sort of thing. Peo=
+ple believe you, the stock goes down, and you cover your short at a profit.=
+ This is sometimes called a =E2=80=9Cshort and distort.=E2=80=9D</p><p styl=
+e=3D"margin: 16px 0;">One difference between these approaches is that if yo=
+u do a short and distort, the company will get really mad at you. They will=
+ respond to your lies, and say mean things about you, and report you to the=
+ Securities and Exchange Commission, and sue you, and perhaps send private =
+investigators after you. If you do a pump and dump, the company won=E2=80=
+=99t get mad at you. They might be in on it, or they might be=C2=A0flattere=
+d, or they might not care, or they might even issue a corrective press rele=
+ase saying =E2=80=9Csorry these rumors about us are not true, nice though t=
+hey are,=E2=80=9D but they=E2=80=99re not going to=C2=A0<em>sue=C2=A0</em>y=
+ou. Nor, generally, will the company=E2=80=99s enemies have much of a bone =
+to pick with you. (If you do either thing =E2=80=94=C2=A0short and distort =
+or pump and dump =E2=80=94=C2=A0too egregiously the SEC will come after you=
+, but that=E2=80=99s a slightly separate issue.)=C2=A0If you say nice thing=
+s about a stock =E2=80=94=C2=A0even lies =E2=80=94=C2=A0people will like yo=
+u; you are cheating, but you=E2=80=99re playing for the good team. If you s=
+ay mean things about a stock =E2=80=94=C2=A0lies or not =E2=80=94=C2=A0peop=
+le won=E2=80=99t like you; you are cheating on behalf of the bad guys.</p><=
+p style=3D"margin: 16px 0;">In fact basically=C2=A0any=C2=A0time anyone sho=
+rts a stock and publicly announces their reasoning, the company will reply =
+=E2=80=9Cthis is just a short-and-distort scheme and we are looking into ou=
+r legal options.=E2=80=9D This reaction is so inevitable, and the actual ex=
+perience of shorting and distorting seems so much more unpleasant than the =
+similar experience of pumping and dumping, that I am almost inclined to bel=
+ieve that short-and-distort schemes don=E2=80=99t actually exist. =E2=80=9C=
+Short and distort=E2=80=9D is in practice a term that companies apply to sh=
+ort sellers whom they don=E2=80=99t like.</p><p style=3D"margin: 16px 0;">B=
+ut that=E2=80=99s not really true. There is an academic literature; here=E2=
+=80=99s Joshua=C2=A0Mitts=E2=80=99s paper on =E2=80=9C<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/24240248.258390/aHR0cHM6Ly9wYXBlcnMuc3N=
+ybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTMxOTgzODQ/607f07ceef4b8524a3=
+19a23cBd62268ae" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">Short and Distort</a>,=E2=80=9D which examines =E2=80=9C1,720 pseudo=
+nymous attacks on mid- and large-cap firms from 2010-2017.=E2=80=9D (We=E2=
+=80=99ve <a href=3D"https://link.mail.bloombergbusiness.com/click/24240248.=
+258390/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDkt=
+MTQvZ29sZG1hbi1zLWJhbmtlcnMtYXJlLWNvbWluZy1iYWNr/607f07ceef4b8524a319a23cB2=
+ef4b7db" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;"> =
+discussed it before</a>.) Also <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24240248.258390/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vYXJ0aWNsZS9pZF=
+VTTDJOMk8zMUlT/607f07ceef4b8524a319a23cBa5025f10" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">here=E2=80=99s this</a>:</p><blockq=
+uote><p style=3D"margin: 16px 0;">A small Texas investor who caused shares =
+of a real estate investment trust to plunge 39 percent in a day has agreed =
+to pay the company restitution to settle a lawsuit against him, a rare deve=
+lopment that could embolden other companies to pursue such claims.</p><p st=
+yle=3D"margin: 16px 0;">Quinton Mathews, who published his research on comp=
+anies online under the pseudonym Rota Fortunae, will pay Farmland Partners =
+Inc "a multiple" of the profits on his short bet in 2018, according to the =
+terms of the legal settlement announced here late Sunday. His research had =
+helped wipe out as much as $115 million off Farmland's market value. ...</p=
+><p style=3D"margin: 16px 0;">Mathews conceded that "many of the key statem=
+ents" in a report here he published on website Seeking Alpha targeting Farm=
+land - including allegations of dubious related-party transactions and the =
+risk of insolvency - were wrong.</p><p style=3D"margin: 16px 0;">=E2=80=9CI=
+ regret any harm the article and its inaccuracies caused,=E2=80=9D Mathews =
+said in the announcement, which was posted on Twitter and Seeking Alpha.</p=
+></blockquote><p style=3D"margin: 16px 0;">Well there you go. Expect to see=
+ so many more companies suing so many more short sellers:</p><blockquote><p=
+ style=3D"margin: 16px 0;">Jacob Frenkel, an attorney with Dickinson Wright=
+ who has defended companies against allegations of stock manipulation and w=
+as not involved in the Farmland case, said Mathews=E2=80=99 apology and pay=
+ment could build company confidence to pursue similar claims against short =
+sellers.</p><p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s highly unusu=
+al and refreshing to see a company take on this fight, because most will ta=
+ke the short term blow of the attack without pursuing legal vindication,=E2=
+=80=9D Frenkel said.</p></blockquote><h2 style=3D"font-weight: bold; font-f=
+amily: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacin=
+g: -1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style: do=
+tted; margin: 0px; padding: 16px 0px 5px;">Solar roof</h2><p style=3D"margi=
+n: 16px 0;">Last year we <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24240248.258390/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMjAtMDgtMDYvaXQtcy1hLWdvb2QtYW5kLWJhZC10aW1lLWZvci1pcG9z/607f07ceef=
+4b8524a319a23cBf9a4546e" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> talked about</a> Nikola Corp.=E2=80=99s hilarious revenue f=
+or the second quarter of 2020. Nikola had revenue of $36,000 for the quarte=
+r, which is quite low for a company with a=C2=A0$13 billion market capitali=
+zation (as Nikola had at the time). Also though it earned that revenue by i=
+nstalling solar panels at the house of Trevor Milton, its founder, which is=
+ extra-weird considering (1) related party, conflicts of interest, blah bla=
+h blah and (2) Nikola is in theory an electric-truck=C2=A0company. =E2=80=
+=9CIt is a $13 billion company whose only business so far is doing odd jobs=
+ around its founder=E2=80=99s house,=E2=80=9D I wrote. Nikola=E2=80=99s <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/24240248.258390/aHR0c=
+HM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTczMTI4OS8wMDAx=
+NzMxMjg5MjEwMDAwNzEvbmtsYS0yMDIxMDMzMS5odG0jaTE4ZTNhMjMzZWM3ODRjMzFhMDhiYTE=
+1OWFlNmJiZDM4XzEz/607f07ceef4b8524a319a23cB4441581f" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">revenue last quarter</a> was zer=
+o dollars, which is =E2=80=A6=C2=A0less =E2=80=A6=C2=A0yet more sensible. (=
+Its market cap is also lower.)</p><p style=3D"margin: 16px 0;">One question=
+ you might ask is: How many=C2=A0publicly traded electric-vehicle companies=
+=C2=A0named after Nikola Tesla also have a side business installing solar p=
+anels on their founders=E2=80=99=C2=A0roofs? <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24240248.258390/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMjMvdGVzbGEtcy1zb2xhci1yb29mLXJvbGxvdXQtaXM=
+tYS1idXN0LWFuZC1hLWZpeGF0aW9uLWZvci1lbG9uLW11c2s/607f07ceef4b8524a319a23cB4=
+53305b4" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">T=
+he answer is at least two</a>:</p><blockquote><p style=3D"margin: 16px 0;">=
+Elon Musk, one of the world=E2=80=99s richest men, says a $50,000 abode nea=
+r Brownsville, Texas, is his primary home these days. He has tweeted that h=
+e=E2=80=99s made some improvements to the house, without specifying what th=
+ey are.</p><p style=3D"margin: 16px 0;">But earlier this year, Tesla Inc. e=
+mployees traveled to Brownsville to install the company=E2=80=99s Solar Roo=
+f on that bungalow and several other houses on Weems Street that are owned =
+by another Musk company, SpaceX. The construction project gave Musk an up-c=
+lose look at a challenge that=E2=80=99s been vexing him.</p><p style=3D"mar=
+gin: 16px 0;">Musk has many priorities competing for his attention, but rec=
+ently has become intensely focused on Tesla=E2=80=99s Solar Roof, a niche p=
+roduct that enjoys demand from wealthy consumers but has proven to be a bea=
+r to install more cost effectively. While Solar Roof is only a small slice =
+of Tesla=E2=80=99s business, it is essential to Musk=E2=80=99s vision for t=
+he company to evolve from an electric-car maker to something much grander: =
+a one-stop shop for a household=E2=80=99s clean energy needs. Tesla=E2=80=
+=99s stated mission is to =E2=80=9Caccelerate the world=E2=80=99s transitio=
+n to sustainable energy,=E2=80=9D and Musk has been talking up the benefits=
+ of solar and the =E2=80=9Cfree fusion reactor in the sky=E2=80=9D for year=
+s.</p><p style=3D"margin: 16px 0;">Frustrated with the Solar Roof=E2=80=99s=
+ progress, Musk has fired many of the executives and directors on the progr=
+am, raised prices for consumers and gotten more heavily involved in its det=
+ails. He is keen to improve the amount of time it takes for workers to inst=
+all the Solar Roof and helped crews with some of the installations on Weems=
+ Street, according to people familiar with the matter.</p></blockquote><p s=
+tyle=3D"margin: 16px 0;">Imagine having Elon Musk show up to help install s=
+olar panels on your roof. Imagine being the foreman of the installation cre=
+w that Musk is helping. (=E2=80=9CHey Elon would you mind taking a break fr=
+om Twitter for a second to help us lift this panel?=E2=80=9D)=C2=A0Imagine=
+=C2=A0living in a modest house in Texas and having Elon Musk for a neighbor=
+. (Do you think he spends much time in his $50,000 house?) I would be happi=
+er about this whole story if Musk ended up installing solar panels on Trevo=
+r Milton=E2=80=99s roof.=C2=A0</p><h2 style=3D"font-weight: bold; font-fami=
+ly: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: =
+-1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style: dotte=
+d; margin: 0px; padding: 16px 0px 5px;">Things happen</h2><p style=3D"margi=
+n: 16px 0;">The <a href=3D"https://link.mail.bloombergbusiness.com/click/24=
+240248.258390/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjEtM=
+DYtMjMvc3BhYy1zdG9ja3Mtd2FsbC1zdHJlZXQtYmlsbGlvbmFpcmVzLW1ha2UtbWlsbGlvbnMt=
+d2hpbGUtaW52ZXN0b3JzLWxvc2UtbW9uZXk/607f07ceef4b8524a319a23cBff15f02f" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> SPAC Man</a> =
+Method: Inside the Billionaire Rush for Riches. Bitcoin=E2=80=99s Money-Pri=
+nting Machine Breaks Down as <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24240248.258390/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjEtMDYtMjIvYml0Y29pbi1zLW1vbmV5LXByaW50aW5nLW1hY2hpbmUtYnJlYWtzLWR=
+vd24tYXMtZnV0dXJlcy1jb2xsYXBzZQ/607f07ceef4b8524a319a23cBaf7aaac3" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Futures Fall</a>.=
+ Morgan Stanley to <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/24240248.258390/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMj=
+EtMDYtMjIvbW9yZ2FuLXN0YW5sZXktdGVsbHMtc3RhZmYtdGhleS1sbC1uZWVkLXZhY2NpbmVzL=
+XRvLWVudGVyLW9mZmljZQ/607f07ceef4b8524a319a23cBa098286f" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> Require Vaccinations</a> to=
+ Enter N.Y. Offices. How <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24240248.258390/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvODI1ZjU0OWYtMmE1=
+Ni00YmFiLWJmN2YtMTU3NjQ5ZWViNDVk/607f07ceef4b8524a319a23cB67f15f6f" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">=E2=80=98dark art=
+s=E2=80=99 and dirty tricks</a> turned investors against Toshiba. Amazon an=
+d Other Tech Giants Race to <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/24240248.258390/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hbWF6b24tY=
+W5kLW90aGVyLXRlY2gtZ2lhbnRzLXJhY2UtdG8tYnV5LXVwLXJlbmV3YWJsZS1lbmVyZ3ktMTE2=
+MjQ0Mzg4OTQ_bW9kPWhwX2xlYWRfcG9zMQ/607f07ceef4b8524a319a23cB0a409da2" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">Buy Up Renewabl=
+e Energy</a>. Banks Slowly Offer Alternatives to <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/24240248.258390/aHR0cHM6Ly93d3cubnl0aW1lcy5j=
+b20vMjAyMS8wNi8yMi95b3VyLW1vbmV5L292ZXJkcmFmdC1mZWVzLWJhbmtzLmh0bWw/607f07c=
+eef4b8524a319a23cBd60eccee" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">Overdraft Fees</a>, a Bane of Struggling Spenders. Nonban=
+k Lenders Are Dominating the <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24240248.258390/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ub25iYW5r=
+LWxlbmRlcnMtYXJlLWRvbWluYXRpbmctdGhlLW1vcnRnYWdlLW1hcmtldC0xMTYyNDM2NzQ2MD9=
+tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cBa4f05e36" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Mortgage Market</a>. M=
+eat Grown in <a href=3D"https://link.mail.bloombergbusiness.com/click/24240=
+248.258390/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYt=
+MjMvbWVhdC1ncm93bi1pbi1iaW9yZWFjdG9ycy1pcy1jb21pbmctdG8tYW1lcmljYW4tZGluZXJ=
+zLW5leHQteWVhcg/607f07ceef4b8524a319a23cB85ca59dc" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> Israeli Bioreactors</a> Is Coming=
+ to American Diners.=C2=A0Self-Driving Truck Startup <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/24240248.258390/aHR0cHM6Ly93d3cud3NqLmNv=
+bS9hcnRpY2xlcy9zZWxmLWRyaXZpbmctdHJ1Y2stc3RhcnR1cC1lbWJhcmstdG8tZ28tcHVibGl=
+jLWluLTUtMi1iaWxsaW9uLXNwYWMtZGVhbC0xMTYyNDQ0MjQwMD9tb2Q9aHBfbGlzdGFfcG9zMw=
+/607f07ceef4b8524a319a23cBb850de26" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">Embark</a> to Go Public in $5.2 Billion SPAC Deal=
+.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/24240248.25=
+8390/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMjMvYm=
+93bGVyby1zYWlkLWluLW1lcmdlci10YWxrcy13aXRoLXNwYWMtbGVkLWJ5LWV4LXd3ZS1leGVjd=
+XRpdmVz/607f07ceef4b8524a319a23cB5c8e864d" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Bowlero</a> in Merger Talks With SPAC Led =
+by Ex-WWE Executives. =E2=80=9CA=C2=A0pitch invader stopped Belgium=E2=80=
+=99s Euro 2020 match with Finland on Monday when she wandered onto the fiel=
+d to advertise <a href=3D"https://link.mail.bloombergbusiness.com/click/242=
+40248.258390/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjEvMDYvMjIvc2NhbnRpbHktY2xhZC1mYW=
+4taW52YWRlcy1iZWxnaXVtLWZpbmxhbmQtZXVyby0yMDIwLWdhbWUvP3V0bV9jYW1wYWlnbj1pc=
+GhvbmVfbnlwJnV0bV9zb3VyY2U9bWFpbF9hcHA/607f07ceef4b8524a319a23cB9ac3b893" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">a cryptocur=
+rency company</a>.=E2=80=9D</p><p style=3D"margin: 16px 0;"><span class=3D"=
+news-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0=
+Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/24240248.258390/aHR0cDovL2xp=
+bmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXA=
+maGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23=
+cB94ecd99f" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">subscribe at this link</a>.=
+ Or you can subscribe to Money Stuff and other great Bloomberg newsletters =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24240248.258390/aH=
+R0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23c=
+B81af8e1a" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] Tech=
+nically a warrant to purchase 79.9%, for accounting reasons.</em></p><p sty=
+le=3D"margin: 16px 0;"><em>[2] Those numbers are from Bloomberg=E2=80=99s D=
+ES pages and include the government=E2=80=99s 79.9% stake; the =E2=80=9Crea=
+l=E2=80=9D market caps (amount in private hands) are arguably one-fifth of =
+those numbers.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24240248.258390/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBd57f3204" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24240248.258390/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB3f2d6d03" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24240248.258390/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB7faaf657" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24240248.258390/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB4776583c" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-bottom: 32px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2424024=
+8.258390/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB863526e4" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24240248.258390/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCa94148c4" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24240248.258390/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBff7c25e2" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24240248.258390/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBade42d1c" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cefjw8.5jdi/ec82ac97.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_69517025_665502757.1624467851595--
+

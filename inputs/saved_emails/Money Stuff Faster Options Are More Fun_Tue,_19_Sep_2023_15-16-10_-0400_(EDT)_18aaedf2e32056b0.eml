@@ -1,0 +1,2270 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6359:5c04:b0:13e:ba3b:de11 with SMTP id pu4csp167489rwb;
+        Tue, 19 Sep 2023 12:16:17 -0700 (PDT)
+X-Received: by 2002:a05:600c:152:b0:404:2dbb:8943 with SMTP id w18-20020a05600c015200b004042dbb8943mr658889wmm.2.1695150976632;
+        Tue, 19 Sep 2023 12:16:16 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1695150976; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=SJ6zveK7lEcUrYh8/OR74RwN20IwB94eoTQVjclC552X0iQx8JNxQljvtHbCkk5FTQ
+         4S5OEoJwRieNLUDp3XtSsgQoMY4Yy64LjmbCP1mhevgojgziSAhMj24jfH8lL3cCWHFV
+         cK5lPahtlQUFY4Uechn5D1+jAP99kj4mQBrhzZGlIxNZM8egVFFJkuc8F9Ypg86Bp0pH
+         b0NPrw8zR0CHocIpmw2iWOc2zuhnv2WN/mqcJDd519WvPsgnwe6YI4StPSpWxcZdD9aj
+         SklhnLzW9eCdH7f5XB239SmKH5EPIUYp6ebWKEFHq2wCmZ/OV1L4zLC7czPYrq608687
+         pWHw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=2OkfFXwD1N/PuiGcDQXIQ5JgvfdjMWNbmSckkXRKcaw=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=Ukv6WKAOTASZASLknSQ+2nYaW1VhQUNK38JjQ/RHcy6jUUgYsFDTjolcBo2576OS8b
+         zjbs9qlVyOiSn7dD637z4S6M4JX2A+qnuxxInXWspbB8yyhGGD9d0uRrO2aXaqbVyUXD
+         KrTw98PZc3YjoIBF9lB4u3KO1F2ByTXbZ/xWEcgm5Rrej9TGh9HXaUa6VWKZVb6BLduN
+         x20jggAwzer//+c7IrmxGFNjJ+shAuMgZrxOxQ+uRmKeF5vpv6VLILIdq2hLpMo2+MDT
+         SbjZIt44knZ3MzwvsfKjdov7UOWnHy9IIbO5N/wfdNNYnIq0MqD2Tl6KvayTBjsRBxHw
+         HrmQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UdlhxxfR;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 12-20020a05600c230c00b00403cf5f2d6dsor4663626wmo.13.2023.09.19.12.16.16
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 19 Sep 2023 12:16:16 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UdlhxxfR;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1695150976; x=1695755776;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=2OkfFXwD1N/PuiGcDQXIQ5JgvfdjMWNbmSckkXRKcaw=;
+        b=V4JH6IrgbwzZ/yckTImC/DjX0USchpcJQSTps3D0ZHxnPm+qMjq1ZGqUVz2Fi/BUsE
+         GJ1uSwGSVjD4XVsnHuW+hxC2oVrp73MEGR8DjfSLFzMjmOlfKypxfippR+vfqPh+BOUf
+         iAJCKHFPHfh3zJ0pDj4+ND7GiLD2vAVz/wwn3OQMiNtqU3bNip8WqAMrPKgDLUpMmQw0
+         +8H9cdXTHo/3TiiG+YLLDZGjIGSrlc61+UR0HwlyXoeDKrV7wsnKcHr41dCCaomaYhET
+         KH9v4iswZ96pTZiq8FNhwTdUhllDcOgMVHbBdG3t4gCzcyQ/fudIlgOEJD/ROW2Eg2UK
+         JG2A==
+X-Gm-Message-State: AOJu0YxOd9pJ3VpMnIohpJfF3FAHED4/2OHZNxdzijOiSbwBGePodrx4
+	LDWMomFZPdsV8OH0tzxeCwqSmpQAp8XCrqIhUbsWPC+F00aIBtHQng==
+X-Received: by 2002:a05:600c:2613:b0:401:519:c9 with SMTP id h19-20020a05600c261300b00401051900c9mr584828wma.13.1695150976004;
+        Tue, 19 Sep 2023 12:16:16 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:4b8b:0:b0:317:6ac3:4e22 with SMTP id b11csp87161wrt;
+        Tue, 19 Sep 2023 12:16:11 -0700 (PDT)
+X-Received: by 2002:a05:6102:34c2:b0:44d:5053:11ce with SMTP id a2-20020a05610234c200b0044d505311cemr689728vst.19.1695150971474;
+        Tue, 19 Sep 2023 12:16:11 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1695150971; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=verHa91Ajq0TaPEAmvg2vHnnHHTcJbr6qfsmmzirIAaX0DKcPAcQBXPbMWrbvn4Eal
+         evI9OIiq6c7LsYBP12kR4XB8Ue9FvKtUph0cf5hzl6ZDe3itcmev93Hrra8oz+ZVwB3N
+         P6NjVsBvDAyixaQhkbbE1Y6q1OqGphS/FbRXJgNssQQTVV8yN9mubtmpZxFikCiLrEzC
+         jvIf2UGOxa2UE7IXz8BeKg0rh9whx8A+3/h1rpxiwCei+37zypTYsPCN+SgsABsaD58x
+         2+y9k5znreXVu+FX3w+NjX3ddD2WByJrfVO7LrFSeEj9vH7WUhXxZSYOeZ6NOKurchZ8
+         96wQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=2OkfFXwD1N/PuiGcDQXIQ5JgvfdjMWNbmSckkXRKcaw=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=xmo9dx4vlmOFE4+UWH3x+JwwC34ONuGaFvZH4MSzbrJuQetz2Ks3nMtPZ10j5AaHYt
+         6jzU9Ja64tF88WJOUrv3Pk42T5GAzfE+N1YDuZEFpGLgPl9fbT2oN3o0BRsUY2WQt0YD
+         CR6hPCSgkBxLrzy+we/1rbzVCJxvWPsIgaNyu5f3kUajf2bWFegmPEHzd/POZY5VGCTE
+         jQ4v5fDBi1i+zNq0mqFJ/4S4h0z9BAYDCZsUIZjlh78QuyteEZTyijMjP2cpyTTvrLi4
+         yX7GLxj3WZzr2lUTAECiK16NvWkFNIkN24Ct10LteYUVplUEkp8ogKzpuLo+FJzWw1bJ
+         AAOw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UdlhxxfR;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230919151610.32765671.258423@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230919151610.32765671.258423@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230919151610.32765671.258423@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d1-20020a67c101000000b004526818aef3sor1786587vsj.5.2023.09.19.12.16.11
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 19 Sep 2023 12:16:11 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230919151610.32765671.258423@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IFNtP1x7UOO25RqhG2eYRLBisJwJeBFDeCxAAiq1aai26JgZHEtv6UW4o4M0Vr9U17c9OaYCyNkFvXX7E6A8rYbwDQd36o=
+X-Received: by 2002:a67:f890:0:b0:452:8de3:391f with SMTP id h16-20020a67f890000000b004528de3391fmr866438vso.16.1695150971075;
+        Tue, 19 Sep 2023 12:16:11 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1695150971; cv=none;
+        d=google.com; s=arc-20160816;
+        b=xDLHqjjt4xiufMQjzzNFu+wLd3bMUrnPAJ8lwqfwfzbwuk6ECV+x1YNet7BK+G0e4T
+         ogsy7bbzx/hSyNhwGLkovP0m7oybszKSSSoA7n7vxNBE5MPBBTlmjJqK50UWMP7j2W+n
+         /BRxKNosLLiZVUfs68KhJivlXhvQ1FRt7Jbf1mHxCRYvnTCe6FbXfpApT6MZovVNHsrj
+         ZPEOav3/Iier2I+WO/TJC9bKIRZpyw/4gmpCSaH+kLldxxVdXa8F3KyLs3Feou31PpB1
+         yb5m1r2PNwkLuDkQuvOI3S+4gAI16O8tMYAwPnZi0yaBDfy8inp7Pgl0qjd+Om499ETd
+         qZZA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=2OkfFXwD1N/PuiGcDQXIQ5JgvfdjMWNbmSckkXRKcaw=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=PKsBmrxHMYovy1/g6e5HZr+XuTnYA9AVJMAwH5vcXV4HX6BNc/tNDTZvKUyMUhdVMI
+         hPGg0ha+VYgnO1lKOHk++Z8ElBdLsH71d/yHSjZfTEsr8E05Bi0DQTKuRRKzOGCx+87m
+         5/bHsSVSp437yorm++4yFxxM1+wGEY+weQZaeKJN89zXfCuCCT4/9jekOVXtyHut/hYP
+         LTQQR1U3iyrhYcI2yhXVvZ4uDsahyCy7kRaUX8RjApS8NSad9JR1j6O64Yi6fAYHQx0J
+         tg3rfaskAp6txXo+ZyqiqUuHb28KqWN5OzO6hiE8zoeEeuDrI/dCpMOEMlEZAhDXaDhL
+         yHOQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UdlhxxfR;
+       spf=pass (google.com: domain of delivery_20230919151610.32765671.258423@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230919151610.32765671.258423@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230919151610.32765671.258423@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id r9-20020a67f449000000b00450f3f7cd09si1190582vsn.0.2023.09.19.12.16.10
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 19 Sep 2023 12:16:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230919151610.32765671.258423@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=l2wCSIFLs7qMm9506gtLlRUjL3KChvC3BgnRq9JCrps=;
+ b=UdlhxxfRLjbS8ZeoRoKPDmWmKsUvemSWmethH0g09QDc8QlAN50HbJTPGG6/ZIS1/1SgveQV1pn9
+   XDYpvgGK8Iu4xSS1m2gZ2bDJOyE3i0fOZycow8G1yLeHcyfBqlZQADpDsYaHpQd3ck4QOkhUrTId
+   yXw4I2wSw+cT5fsVOR0=
+Received: from ip-10-55-68-215.ec2.internal (10.55.68.215) by aws1-mta-relay4.sailthru.cloud id h17pnk1qqbsr for <bloomberg@khamel.com>; Tue, 19 Sep 2023 14:16:10 -0500 (envelope-from <delivery_20230919151610.32765671.258423@mx.sailthru.com>)
+Date: Tue, 19 Sep 2023 15:16:10 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230919151610.32765671.258423@sailthru.com>
+Subject: Money Stuff: Faster Options Are More Fun
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_13914708_2139131282.1695150970736"
+Precedence: bulk
+x-job: 6358-32765671-20230919
+X-Feedback-ID: 6358:32765671:campaign:sailthru
+X-TM-ID: 20230919151610.32765671.258423
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-68-215.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjia5j.5jef/2cd3a4ef
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjia5j.5jef/2cd3a4ef>, <mailto:unsubscribe_20230919151610.32765671.258423@mx.sailthru.com>
+X-rpcampaign: stjko32765671
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_13914708_2139131282.1695150970736
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Let=E2=80=99s say you own a bunch of stocks, say $1 million worth o=
+f the stocks in the S&P 500 Index. You think they will go up (that=E2=80=99=
+s why you own=20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      0DTE
+   =20
+ =20
+
+Let=E2=80=99s say you own a bunch of stocks, say $1 million worth of the st=
+ocks in the S&P 500 Index. You think they will go up (that=E2=80=99s why yo=
+u own them), but you worry that they might go down. You can buy insurance a=
+gainst that risk: You can pay someone a fee now, and she will guarantee you=
+ that, in a year, your S&P 500 stocks will be worth at least $1 million. If=
+ they=E2=80=99re not, she=E2=80=99ll pay you the difference. (If they=E2=80=
+=99re worth more than $1 million, you keep the gains, but she keeps the fee=
+.) This is a put option.
+The fee for that insurance is about $50,000: You pay about 5% of the value =
+of your portfolio to insure it against a drop for one year.
+  [1]
+=C2=A0That=E2=80=99s kind of a lot? If the S&P goes down by 20%, you=E2=80=
+=99ll be happy you bought insurance, but if it goes down by 4% you won=E2=
+=80=99t be: You=E2=80=99d have been better off taking that loss and not pay=
+ing 5% upfront.
+  [2]
+ If the S&P goes=C2=A0up=C2=A0by 20%, you won=E2=80=99t mind your insurance=
+ that much =E2=80=94=C2=A0you still made 15%, net of insurance costs =E2=80=
+=94=C2=A0but if it goes up by 5% you=E2=80=99ll be bummed; the cost of insu=
+rance wiped out all of your gains.
+You might want cheaper insurance. One way to get cheaper insurance is to in=
+sure against only particular risks. One relatively simple way to do that=C2=
+=A0would be to buy insurance only on particular=C2=A0days.
+  [3]
+ If the Federal Reserve has a monetary=C2=A0policy announcement scheduled o=
+ne Wednesday afternoon, and you worry that the Fed might raise rates and th=
+at this will be bad for your stocks, you could buy insurance on your stocks=
+ for=C2=A0that day:=C2=A0If your stocks go down that day, you get paid the =
+difference, but if they don=E2=80=99t, your insurance premium is wasted. Th=
+at insurance is relatively cheap: Buying a day of protection costs a lot le=
+ss than buying a year of protection. I mean, it costs a lot more=C2=A0per d=
+ay=C2=A0=E2=80=94=C2=A0a one-day put costs more than 1/365th as much
+  [4]
+ as a one-year put =E2=80=94 but if you pick the right days maybe you save =
+money.
+Bloomberg=E2=80=99s   Lu Wang reports:
+
+Investors are wagering on the daily gyrations of American equity benchmarks=
+ by dashing in and out of trading contracts that expire within 24 hours =E2=
+=80=94 known by the =E2=80=9C0DTE=E2=80=9D moniker =E2=80=94 with less upfr=
+ont capital than meets the eye. The hidden fuel for the frenzy: Quirks in t=
+he ecosystem of the derivatives marketplace that makes these zero-days-to-e=
+xpiry options look cheap.
+The best way to observe the phenomenon is in the difference between how muc=
+h investors are actually spending on 0DTE and the notional value of those o=
+ptions =E2=80=94 that is, how much exposure they are getting to the underly=
+ing asset via the contracts.
+On the latter, the notional trading volume of 0DTE for the S&P 500 currentl=
+y averages a beefy $516 billion a day, according to data compiled by Cboe G=
+lobal Markets. Yet the actual amount of money paid out for them, or the pre=
+mium, is only $520 million.
+Put another way, traders are getting $1,000 of stock exposure for every dol=
+lar they spend on 0DTE. They would need to spend 10 times that to get the s=
+ame equity position using derivatives with a longer lifespan, a Bloomberg a=
+nalysis on Cboe=E2=80=99s data shows.
+=E2=80=9CThey are the fantasy football of option trading,=E2=80=9D said Den=
+nis Davitt, co-manager of the MDP Low Volatility Fund. =E2=80=9CYou spend a=
+ dollar and you see if it goes your way. Then you=E2=80=99re done at the en=
+d of the day.=E2=80=9D=C2=A0
+
+Getting exposure to $1,000 worth of stocks forever costs about $1,000. Gett=
+ing exposure to $1,000 worth of stocks for=C2=A0one day=C2=A0costs about $1=
+. What is the economic case for getting exposure to $1,000 worth of stocks =
+for one day? Why would you want that? Oh, mostly gambling, but also very ta=
+rgeted hedging:
+
+On March 22, for example, when the Federal Reserve was about to announce it=
+s monetary policy in the afternoon, the S&P 500 opened at about 4,002. At t=
+hat time, an at-the-money put =E2=80=94 a protective contract where the str=
+ike price is essentially the same as where the index is actually trading =
+=E2=80=94 cost about $26 for an expiry in the same session. A similar contr=
+act maturing two days later could be bought for roughly $37 =E2=80=94 or 42=
+% more than the 0DTE.
+=E2=80=9CThere are very meticulous use cases for 0DTE options that did not =
+exist previously,=E2=80=9D said=C2=A0Jonathan Zaionz, senior derivatives an=
+alyst at Cboe. =E2=80=9CSince people are taking shorter term views and/or h=
+edging with 0DTE, they don=E2=80=99t need to pay as much in time premium co=
+mpared to longer term strategies.=E2=80=9D
+
+I want to read a story about a long-term buy-and-hold passive index investo=
+r who (1) buys a bunch of the S&P 500, (2) never sells it and (3) has reeee=
+eeally good timing doing occasional hedges with 0DTE options. I am not sure=
+ that that=E2=80=99s=C2=A0much=C2=A0of what is going on here, and I=E2=80=
+=99m not sure that that would exactly count as =E2=80=9Clong-term buy-and-h=
+old passive index investing,=E2=80=9D but it would be cool.
+Also, last week   Wang and Isabelle Lee reported:
+
+Defiance ETFs is launching a fund on Thursday that sells ultra short-dated =
+options on the Nasdaq 100 as part of its strategy. The product will be the =
+first in the market to utilize so-called zero-day-to-expiration contracts, =
+or 0DTE, as part of its design.
+The fund will write puts =E2=80=94 bearish contracts that offer the buyer p=
+rotection from index declines =E2=80=94 to generate income. By offering opt=
+ions with such a short lifespan, the Defiance Nasdaq 100 Enhanced Options I=
+ncome ETF (ticker QQQY) will be able to sell contracts more frequently, acc=
+ording to the issuer.=C2=A0
+
+Here is  the prospectus. Basically the ETF sells at-the-money=C2=A0or sligh=
+tly out-of-the-money puts each day; if the S&P goes up it pockets the premi=
+um, and even if it=E2=80=99s down or flat it collects=C2=A0the (small) time=
+ value of the options. The natural way to think about this ETF is =E2=80=9C=
+a lot of people are really excited about buying 0DTE options, so they are p=
+robably overpaying, and probably a lot of them are doing it for dumb gambli=
+ng reasons, so we should be on the other side of that.=E2=80=9D
+The downside is of course that if everyone is buying lottery tickets, they =
+might be dumb, and being on the other side might be a positive-expected-val=
+ue trade, but  selling lottery tickets is risky:
+
+"QQQY is attempting to timely scratch two itches, potential income from an =
+asset that doesn=E2=80=99t typically generate income and exposure to the su=
+dden popularity of trading ODTE options," said Lois Gregson, senior ETF ana=
+lyst at FactSet Research Systems. ...
+"The strategy is similar to picking up dimes in front of a bulldozer. The i=
+ncome potential is there, but there are times you could also get run over,"=
+ Gregson said.
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Bankman, Fried
+   =20
+ =20
+
+Everyone agrees that FTX Trading Ltd., the bankrupt crypto exchange, was   =
+pretty casual about money. Everyone mostly agrees that Sam Bankman-Fried, F=
+TX=E2=80=99s founder and chief executive officer, had no hesitation about t=
+aking millions of dollars of FTX=E2=80=99s money to spend on Super Bowl ads=
+ or political donations or luxury apartments or  private jets to deliver Am=
+azon packages. Eventually it turned out that like $8 billion of FTX custome=
+r money was missing, FTX went bankrupt and=C2=A0Bankman-Fried was   arreste=
+d for fraud. His trial starts next month, and I suppose the basic dispute i=
+s:
+=09Prosecutors will argue that the combination of (1) FTX spending millions=
+ of dollars on luxury apartments for Bankman-Fried and (2) $8 billion of FT=
+X customer money going missing is=C2=A0pretty suspicious!=C2=A0Like, that=
+=E2=80=99s the main thing that=C2=A0you do in a financial fraud: You take c=
+ustomer money and spend it on luxury goods and experiences for yourself, an=
+d at the end you have the luxury goods and the customers don=E2=80=99t have=
+ the money.=09Bankman-Fried  will argue that he just sort of miscounted the=
+ money: Due to some bad spreadsheets, he thought=C2=A0that FTX had billions=
+ more dollars than it actually did, and so he figured =E2=80=9Cman we have =
+so much money it won=E2=80=99t do any harm to spend a few million here and =
+there.=E2=80=9D This is partly a defense of literal bad spreadsheets =E2=80=
+=94=C2=A0apparently FTX just forgot about a =E2=80=9Cpoorly internally labe=
+led=E2=80=9D $8 billion obligation to customers? =E2=80=94=C2=A0and partly =
+a defense of =E2=80=9Cwe were running a lucrative leveraged financial insti=
+tution in a boom=E2=80=9D: FTX was profitable on a day-to-day basis as long=
+ as crypto markets didn=E2=80=99t move against it, and then they did.
+
+You can probably guess which of those arguments will go over better with a =
+jury.
+In any case yesterday FTX=E2=80=99s bankruptcy estate   sued Bankman-Fried=
+=E2=80=99s parents, Stanford Law School professors Joseph Bankman and Barba=
+ra Fried, for, let=E2=80=99s say, being the knowing beneficiaries of FTX=E2=
+=80=99s largesse. Here is  the complaint. When FTX was cheerfully flinging =
+around money on luxury housing and=C2=A0private jets and political donation=
+s and Super Bowl ads, Bankman and Fried allegedly got themselves some luxur=
+y housing:
+On or about February 11, 2022, Bankman and Fried signed an agreement to pur=
+chase a $16.4 million 30,000 square-foot luxury property (for the two of th=
+em) with unobstructed ocean views in the Old Fort Bay community in The Baha=
+mas, referred to as =E2=80=9CBlue Water=E2=80=9D or =E2=80=9COld Fort Bay.=
+=E2=80=9D =E2=80=A6 Neither Bankman nor Fried contributed any money of thei=
+r own towards the purchase of Blue Water; rather, all of the funds were sou=
+rced from cash provided by the Debtors.
+And private jets:
+Bankman was richly rewarded for helping perpetuate the FTX Insiders=E2=80=
+=99 fraud. He received millions of dollars in unearned =E2=80=9Cgifts=E2=80=
+=9D and real property, flew on privately-chartered jets, expensed $1,200 pe=
+r night hotel stays to the FTX Group =E2=80=A6
+And political donations:
+Fried served as the single most influential advisor regarding Bankman-Fried=
+=E2=80=99s and the FTX Group=E2=80=99s political contributions, and repeate=
+dly =E2=80=9Cdunned,=E2=80=9D or called upon, Bankman-Fried and Singh to co=
+ntribute millions of dollars directly to Mind the Gap, Inc. (=E2=80=9CMTG=
+=E2=80=9D), a political action committee that she co-founded and for which =
+she served as President and Chairwoman, or the organizations MTG supported.
+And Super Bowl ads:
+At his request, Bankman received a cameo appearance alongside Larry David i=
+n a now-infamous 2022 FTX Super Bowl commercial. Bankman pushed for his rol=
+e in the commercial, stating bluntly, =E2=80=9COK, I=E2=80=99m not a starfu=
+cker and don=E2=80=99t really care about meeting, say, Tom Brady. But Larry=
+ David=E2=80=A6.=E2=80=9D
+And now the FTX bankruptcy estate wants the money back, basically on the th=
+eory that it was customer money and Bankman and Fried shouldn=E2=80=99t get=
+ to keep it.
+  [5]
+
+But also on the theory that Bankman and Fried knew, or should have known, t=
+hat it was customer money and not really on the up-and-up, that they were a=
+t least in some loose sense in on the scam. Part of the evidence for that i=
+s unfortunate-in-hindsight phrases: Fried =E2=80=9Cdescrib[ed] herself as h=
+er son Bankman-Fried=E2=80=99s =E2=80=98partner in crime of the noncriminal=
+ sort,=E2=80=99=E2=80=9D oops oops oops oops oops. Also her academic work h=
+as some=C2=A0ironic titles:
+Fried is a professor emerita of Stanford Law School and joined its faculty =
+in 1987. Fried has published more than three dozen legal and academic writi=
+ngs, including pieces entitled =E2=80=9CThe Limits of Personal Responsibili=
+ty=E2=80=9D and =E2=80=9CBeyond Blame.=E2=80=9D
+There=E2=80=99s a reason the complaint calls out those titles  and not =E2=
+=80=9CLeft Libertarianism: A Review Essay=E2=80=9D or =E2=80=9CCan Contract=
+ualism Save Us from Aggregation?=E2=80=9D or =E2=80=9CBegging the Question =
+with Style: Anarchy, State and Utopia at Thirty Years.=E2=80=9D
+  [6]
+
+But part of the evidence is that, while Fried is a political philosopher an=
+d a theorist of not blaming people, Bankman is a tax professor and, apparen=
+tly, a theorist of not paying taxes. And he seems to have been involved in =
+the tax structuring of how to get money out of FTX
+  [7]
+:
+
+In a January 2022 email exchange with Friedberg, Bankman-Fried, and others,=
+ Bankman proposed a series of possible non-taxable methods to structure a t=
+ransfer of $10 million from the FTX Group to himself and Fried. In fact, Ba=
+nkman proposed that, =E2=80=9C[t]he easiest way is to add 10M to the 250M l=
+oan Sam has from Alameda. Then, Sam gifts the money. No current tax on eith=
+er transaction. Eventually, Sam recognizes income when the loan is paid off=
+ or cancelled, at the dividend/capital gain rate, but that can happen in a =
+year when he donates a lot, offsetting some or all of the tax.=E2=80=9D ...
+Heeding Bankman=E2=80=99s advice, Friedberg agreed the $10 million gift sho=
+uld be papered as a loan to Bankman-Fried, and then be gifted to Bankman an=
+d Fried. Bankman-Fried could then transfer the =E2=80=9Cloaned=E2=80=9D fun=
+ds directly into an account belonging to Bankman and/or Fried. There is no =
+indication that Bankman-Fried intended to repay the so-called loan. Indeed,=
+ both Bankman and Fried acknowledged that the $10 million payment to them w=
+as a gift, as indicated by an email from Bankman to Bankman-Fried, stating:=
+ =E2=80=9CWe are so touched by this gift. Mom is announcing retirement, whi=
+ch she would not have done otherwise.=E2=80=9D=C2=A0
+
+And in the structuring of how to=C2=A0keep=C2=A0the money out of FTX:
+
+In November 2021 =E2=80=A6=C2=A0Bankman began discussions about bankruptcy =
+protection for the FTX Group. The General Counsel of Alameda and FTX Tradin=
+g, in an email including Bankman, asked Law Firm-1 to schedule a call to di=
+scuss =E2=80=9Chow assets including primary residence can be structured to =
+be bankruptcy-remote.=E2=80=9D (Emphasis added)
+The following day, Bankman initiated a discussion with Friedberg and Genera=
+l Counsel of Alameda and FTX Trading opining that, =E2=80=9C[i]t would be g=
+reat, all else equal, if we could, have the founders put money into propert=
+y in the Bahamas,=E2=80=9D included a link to https://link.mail.bloombergbu=
+siness.com/click/32765671.258423/aHR0cHM6Ly93d3cub2Zmc2hvcmVjb21wYW55LmNvbS=
+90cnVzdHMvYmFoYW1hcy1hc3NldC1wcm90ZWN0aW9uLyw/607f07ceef4b8524a319a23cB051a=
+b570 and sprang into action to find outside counsel to pursue this effort. =
+After collecting viewpoints from a fellow Stanford Law School professor, lo=
+cal counsel in The Bahamas, and his brother-in-law, Bankman determined that=
+ an overseas asset protection trust was =E2=80=9Csomething we might use whe=
+n we buy property in the Bahamas,=E2=80=9D but =E2=80=9Cthe real issue is w=
+hether these things work in the US, and to what extent=E2=80=A6.=E2=80=9D
+
+Yeah look if you help run a crypto company that goes bankrupt and loses $8 =
+billion of customer money,=C2=A0you don=E2=80=99t really want =E2=80=9Chttp=
+s://link.mail.bloombergbusiness.com/click/32765671.258423/aHR0cHM6Ly93d3cub=
+2Zmc2hvcmVjb21wYW55LmNvbS90cnVzdHMvYmFoYW1hcy1hc3NldC1wcm90ZWN0aW9uL-KAnQ/6=
+07f07ceef4b8524a319a23cB2e9f628a in your search history. Absolutely none of=
+ the words in that address sound good in this context. If you think that yo=
+ur exchange is going great and printing money and will never fail, and that=
+ there=E2=80=99s plenty of cash to lavish on personal expenses, then you pr=
+obably don=E2=80=99t worry that much about keeping your assets bankruptcy-r=
+emote.=C2=A0
+Also there=E2=80=99s this:
+
+Far from just turning the other way, Bankman also directly participated in =
+efforts to cover up other FTX Insiders=E2=80=99 fraud. As early as Septembe=
+r 2019, he both failed to investigate and applauded others for squashing a =
+whistleblower complaint that threatened to expose the FTX Group as a house =
+of cards. In September 2019, Bankman-Fried received an email from a now-dec=
+eased attorney (=E2=80=9CAttorney-1=E2=80=9D), threatening a lawsuit agains=
+t Alameda, Alameda Ltd., FTX Trading, Bankman-Fried, and others. Attorney-1=
+ claimed that certain entities within the FTX Group had engaged in cryptocu=
+rrency price manipulation through pump and dump schemes, engaged in money l=
+aundering, and operated an unlicensed money transmitter business. Whether o=
+r not these specific allegations were true, their investigation inevitably =
+would have laid bare the problems at the FTX Group.
+Bankman-Fried immediately forwarded the allegations to Bankman and Friedber=
+g, and requested that Bankman participate in the response to Attorney-1. Bu=
+t rather than investigate Attorney-1=E2=80=99s claims, Bankman suggested in=
+vestigating Attorney-1, asking =E2=80=9Cwhether or not there are any discip=
+linary actions against [Attorney-1.]=E2=80=9D Within weeks, Attorney-1 file=
+d a lawsuit on behalf of his client, which included the above claims as wel=
+l as allegations that certain entities within the FTX Group were engaged in=
+ unfair business practices and violations of the Commodity Exchange Act.
+
+Is that right, that =E2=80=9Cwhether or not these specific allegations were=
+ true, their investigation inevitably would have laid bare the problems at =
+the FTX Group=E2=80=9D? Don=E2=80=99t get me wrong; it seems possible that =
+FTX=C2=A0  was=C2=A0doing some pump-and-dumps, and I kind of can=E2=80=99t =
+imagine a Bahamas-headquartered crypto exchange   doing=C2=A0no=C2=A0money =
+laundering at all. And we have   previously discussed a (possibly apocrypha=
+l) story that Taylor Swift declined to work with FTX because she asked if t=
+hey were selling unregistered securities and was not satisfied with the ans=
+wer, even though FTX=E2=80=99s problem is very much not that it was=C2=A0se=
+lling unregistered securities.
+  [8]
+
+Still at least in principle you could probably satisfy yourself that FTX wa=
+s not doing pump-and-dumps =E2=80=94=C2=A0or conclude that it was, and tell=
+ it to knock it off =E2=80=94=C2=A0without discovering that it misplaced $8=
+ billion of customer money. Or you could say =E2=80=9Cehh money laundering,=
+ let=E2=80=99s tighten up our money laundering controls a little bit,=E2=80=
+=9D also without discovering the misplaced money. Pump-and-dumps and money =
+laundering are, like, the=C2=A0regular=C2=A0crypto crimes; the problem here=
+ was losing, or stealing, all the customer money.
+
+ =20
+   =20
+      AT1s
+   =20
+ =20
+
+Bank additional tier 1 capital securities are, I think, basically a trick. =
+The trick works like this:
+=09AT1s kind of look like bonds =E2=80=94=C2=A0they pay regular interest, t=
+hey usually get paid back after five or 10 years =E2=80=94=C2=A0so investor=
+s treat them like bonds. In particular, the interest payment on a bank=E2=
+=80=99s AT1s will normally be lower than the bank=E2=80=99s cost of equity =
+capital, and so banks will issue AT1s because they=E2=80=99re cheaper than =
+issuing equity.=09If the bank runs into trouble, the AT1s act like stock: T=
+hey absorb losses so that governments, taxpayers, depositors, etc. don=E2=
+=80=99t have to. The AT1s are sort of the first line of defense against ban=
+k bailouts. In some ways, some AT1s are actually=C2=A0junior to=C2=A0equity=
+:=C2=A0Many AT1s, by their terms, go to zero if a bank=E2=80=99s common equ=
+ity capital ratio falls below 7%; at that point, the common stock is still =
+worth something but the AT1s are worth nothing. This fact makes regulators =
+like AT1s =E2=80=94=C2=A0they are very helpfully loss-absorbing =E2=80=94=
+=C2=A0and so regulators treat them as good bank capital, a good substitute =
+for=C2=A0some of a bank=E2=80=99s common stock.
+
+Investors think of AT1s as almost like bonds; regulators think of AT1s as a=
+lmost like stock. And so banks can issue AT1s that, for regulatory purposes=
+, are treated almost like stock, but that, economically, are not nearly as =
+expensive as stock. So banks often optimize their capital structures by iss=
+uing as much AT1 capital as they are allowed to. A big European bank with a=
+ lot of common equity but no AT1 capital is leaving money on the table: It =
+should buy back some stock and issue more AT1s to be more efficient.
+A few years ago I wrote: =E2=80=9CIf the regulators think that they=E2=80=
+=99re equity and the investors think that they=E2=80=99re debt, probably so=
+meone is wrong!=E2=80=9D And then we have checked in a few times when the i=
+nvestors have been wrong. (I should say, I tend not to write about AT1s whe=
+n they just pay regular interest and then get redeemed at par at their firs=
+t call date; most of the time, the investors are right that AT1s look like =
+bonds.) Most notably, when Credit Suisse Group AG blew up and was acquired =
+by UBS Group AG this year, some $17 billion of Credit Suisse AT1s were writ=
+ten down to zero, and the holders were understandably upset. In particular,=
+ they were upset that Credit Suisse=E2=80=99s common=C2=A0shareholders=C2=
+=A0got paid something, while the AT1s got zeroed. If you think that AT1s ar=
+e bonds, then this is an outrage: The bonds are supposed to be senior to th=
+e common stock. If you think that AT1s are the first loss absorber to preve=
+nt bailouts, as Swiss regulators do, then this is great. (As I argued at th=
+e time, the Credit Suisse AT1s were=C2=A0designed by their terms to go to z=
+ero even if the stock is worth something, so the regulators are right as a =
+general matter, though the AT1 holders have some decent technical arguments=
+ about the exact events that triggered their writedown.)
+From UBS=E2=80=99s perspective, this was basically a sweet deal: It was abl=
+e to buy Credit Suisse and get rid of $17 billion of Credit Suisse=E2=80=99=
+s debt, or quasi-debt, because the Swiss regulators insisted that Credit Su=
+isse=E2=80=99s AT1s vanish. On the other hand, it leaves UBS with an ineffi=
+cient capital structure: That $17 billion of AT1s was cheap capital, and no=
+w it is gone; zeroing it effectively increased UBS=E2=80=99s common equity =
+capital, but common equity is not what it wants.=C2=A0Efficiency demands th=
+at UBS issue more AT1s to buy back some stock. Because,=C2=A0still, AT1 is =
+cheaper than common equity,=C2=A0even for UBS, even after the recent high-p=
+rofile Credit Suisse experience of zeroing the AT1s while the common equity=
+ got paid.=C2=A0
+Well, probably the AT1 is cheaper. Yesterday the Financial Times checked in=
+ with UBS on its AT1 program:
+
+UBS is under pressure to replace up to $17bn of Credit Suisse AT1 bonds in =
+the coming years to improve the efficiency of the enlarged bank=E2=80=99s c=
+apital structure and free up funds for shareholder returns and potential ac=
+quisitions.
+But some investors remain wary after bondholders lost billions of dollars d=
+uring the rescue of Credit Suisse when an emergency law brought in by the S=
+wiss government allowed the country=E2=80=99s financial regulator, Finma, t=
+o protect shareholders at the expense of AT1 holders.
+The decision shook up the traditional hierarchy of bank creditors and under=
+mined confidence in AT1s, which were introduced after the financial crisis =
+as regulators tried to shift risk away from depositors and imposed greater =
+capital requirements on banks in case of failure.
+=E2=80=9CUBS are working frantically in the background to sort this out,=E2=
+=80=9D said a bond fund manager who recently met the bank=E2=80=99s represe=
+ntatives. =E2=80=9CThey need to give investors confidence that the capital =
+structure won=E2=80=99t be inverted and the rules won=E2=80=99t be changed =
+at the eleventh hour again.=E2=80=9D
+
+UBS has to =E2=80=9Creplace up to $17bn of Credit Suisse AT1 bonds,=E2=80=
+=9D not in the sense that it needs to raise new money to pay them off =E2=
+=80=94=C2=A0those bonds are gone, it never has to pay them =E2=80=94=C2=A0b=
+ut in the sense that they were cheap capital and it misses them. It wants t=
+o sell $17 billion of AT1 securities to =E2=80=9Cfree up funds for sharehol=
+der returns.=E2=80=9D=C2=A0In effect, it is going out to investors and sayi=
+ng=C2=A0=E2=80=9Cwouldn=E2=80=99t you like to charge us less for AT1 securi=
+ties than you do for common stock?=E2=80=9D And the investors are saying =
+=E2=80=9Cwell, but, like, 20 minutes ago, we found out that your=C2=A0AT1=
+=C2=A0securities are actually junior to common stock, so shouldn=E2=80=99t =
+we charge you more for them?=E2=80=9D=C2=A0
+There are two plausible answers to this. One is to tweak the terms to make =
+the AT1s at least equal to common stock in a crisis:
+
+One option under consideration is replacing UBS=E2=80=99s AT1 bonds, which =
+are designed to be written down in the event the bank runs into trouble, wi=
+th versions of the security that would be converted into equity, according =
+to two people involved in the investor discussions.
+=E2=80=9CEquity conversion is probably better and there is more demand if y=
+ou do it like that,=E2=80=9D said another bond investor. =E2=80=9CBut we ar=
+e not naive and don=E2=80=99t think it changes the risk.=E2=80=9D
+
+The other answer is to just shrug and wait and figure that memories in this=
+ market are very short and eventually everyone will forget what they were m=
+ad about and buy the AT1s anyway.
+
+ =20
+   =20
+      Art Stuff
+   =20
+ =20
+
+A general theory of art might be that artists create cultural cachet, and a=
+rt collectors have cash, and the collectors trade their cash for the artist=
+s=E2=80=99 cachet. For centuries the main form of cultural=C2=A0cachet that=
+ artists could create was pretty pictures that looked nice hanging in colle=
+ctors=E2=80=99 dining rooms and impressed their dinner guests, and so the p=
+rettier the pictures were the more they were worth.
+But eventually it got fairly easy=C2=A0to get pictures of arbitrary prettin=
+ess, so pretty pictures do not carry the cachet and distinction that they o=
+nce did, so collectors are not willing to pay that much for them. Collector=
+s want more abstract and complicated forms of cultural cachet. They want th=
+eir art to convey=C2=A0sophistication, and one very popular way to convey s=
+ophistication is by showing that you are in some sense=C2=A0in on the joke.=
+ If you bought Duchamp=E2=80=99s urinal, that showed that you were with it.
+  [9]
+=C2=A0If you gave gold to Yves Klein in exchange for  a receipt that you th=
+en burned, you got nothing at all tangible, but you got cultural cachet. Yo=
+u gave Klein money, and he did a prank on you, and then you laughed about i=
+t=C2=A0together, which proved that you were cool in a way that hanging an O=
+ld Master in your dining room could not. You got exactly what you paid for.=
+ And Klein got the money.
+  [10]
+
+And then  non-fungible tokens were  invented to sort of  mass-produce this =
+effect for the internet age.=C2=A0This should not work:=C2=A0Pretty picture=
+s lost their edge in the art world because they became too easy to mass-pro=
+duce, and now being-in-on-a-dumb-stunt has also become easy to mass-produce=
+, and it too has, I think, lost its edge. For like seven minutes in 2021, y=
+ou could say =E2=80=9Cgive me money and I will give you a receipt for nothi=
+ng" and people would be like =E2=80=9Coh that=E2=80=99s a cool joke, here=
+=E2=80=99s the money=E2=80=9D and feel good and sophisticated, but that was=
+ very easy to do, so everyone did, so that market was saturated and it is, =
+I insist, no longer cool.
+But art museums maintain a record of the history of art, and the recent his=
+tory of art involves a lot of pranks. A replica of Duchamp=E2=80=99s urinal=
+ is  at the Tate. So now if you go to an art museum there will be some pret=
+ty pictures but also some stunts, and the point of the stunts is for you to=
+ look at them and say =E2=80=9Cha, I can=E2=80=99t believe the artist did t=
+hat stunt, how cool,=E2=80=9D or at least, like, =E2=80=9Chmm, how interest=
+ing, apparently people used to think these stunts were cool.=E2=80=9D=C2=A0=
+The stunts are often more noteworthy than the paintings. The San Francisco =
+Museum of Modern Art seems to be prouder of  Erased de Kooning Drawing=C2=
+=A0than it is of its  de Kooning drawings.=C2=A0
+We talked a few years ago about an artist named Jens Haaning, who was commi=
+ssioned by=C2=A0Kunsten, a Danish museum, to make a frankly pretty boring-s=
+ounding artwork in which he would, like, put a bunch of cash in some glass =
+frames to make a point about society or whatever. He borrowed the cash from=
+ the museum, to put into the frames. And then he delivered the frames empty=
+ and kept the cash. =E2=80=9CThe work of art is that I took their money,=E2=
+=80=9D he said, really the most general possible work of art.=C2=A0
+Nonetheless=C2=A0they sued him and yesterday=C2=A0they won, sort of:
+
+A Danish artist who pocketed the cash he received from a museum to incorpor=
+ate into an artwork must pay the roughly 530,000 kroner ($76,000) back, a c=
+ourt said.
+Jens Haaning should still get paid 40,000 kroner for the piece =E2=80=94 tw=
+o blank frames =E2=80=94 which the museum ended up putting on display, a co=
+urt in Copenhagen said in a ruling on Monday.
+Haaning agreed with Kunsten, a museum in northern Denmark, in 2021 that he =
+would borrow the cash to replicate his earlier work which displayed the ann=
+ual incomes of an Austrian and a Dane. But when the museum opened the box t=
+hat Haaning had shipped, the cash was missing and the artwork=E2=80=99s tit=
+le had been changed to =E2=80=9CTake the Money And Run.=E2=80=9D
+
+I like that they still have to pay him for the work. Because it=E2=80=99s g=
+ood! There=E2=80=99s a link to the museum=E2=80=99s webpage describing the =
+artwork; it includes=C2=A0a photograph of the two blank frames hanging in t=
+he museum=C2=A0and several paragraphs=C2=A0of curatorial text tracing the a=
+rt-historical antecedents of, you know, taking the money and running. It=E2=
+=80=99s a rich history! They got what they paid for! This prank is more int=
+eresting than the original thing they commissioned. I suppose it=E2=80=99s =
+even funnier now that they=E2=80=99ve gotten the money back. They should pu=
+t the money in a very heavy safe next to the empty frames. =E2=80=9CFailed =
+Prank=C2=A0(2023),=C2=A0medium: litigation.=E2=80=9D
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Instacart  Prices IPO at $30 a Share, at Top End of Expectations. Nasdaq an=
+d NYSE fight closest  listings contest in five years. Cboe=E2=80=99s CEO Re=
+signs Over   Undisclosed Personal Relationships. New York Regulator to Requ=
+ire Higher Standards for  Coin Listings and Delistings.=C2=A0Fund industry =
+braced for SEC crackdown on  deceptive product labels. Elon Musk Floats  Ch=
+arging Users for X. Dad sues hospital for $642M after  witnessing his wife=
+=E2=80=99s C-section: =E2=80=98It gave me psychotic illness.=E2=80=99
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Very casual numbers here. At noon today, the S&P 500 was at about 4,4=
+25, and Bloomberg showed the Sept. 20, 2024, 4,425-strike put (SPX US 09/20=
+/24 P4425 Equity) at about 211, or about 4.8% of notional.
+
+
+  [2] That=E2=80=99s also true if it goes down by, like, 5.1%, due to the t=
+ime value of money. Better to lose 5.1% over a year than to pay 5% at the b=
+eginning of the year.
+
+
+  [3] More complicated ways would be, like, identifying particular things t=
+hat would be bad for your portfolio, and betting directly on those rather t=
+han on the S&P. Also, like, you could buy a put spread where you take the f=
+irst 5% of the loss and then get insured against the next 10% and then you =
+take the rest, etc.; there's a whole industry devoted to selling optically =
+cheap downside protection.
+
+
+  [4] Or 1/250th, given that there are  250ish trading days in a year.
+
+
+  [5] I don=E2=80=99t think that the actual mechanisms of bankruptcy clawba=
+cks are that interesting here, but a lot of the stuff here consists of (1) =
+Bankman-Fried taking money out of FTX and (2) him then giving the money to =
+his parents. So the question is whether the parents, as subsequent transfer=
+ees, are liable to the company to give it back. =E2=80=9CBankman-Fried acte=
+d as a mere conduit, or, in the alternative, Bankman and Fried were subsequ=
+ent transferees after the initial transfer of funds from Alameda Ltd. to Ba=
+nkman-Fried, and Bankman and Fried lacked good faith with respect to such t=
+ransfers,=E2=80=9D is the sort of argument the complaint makes.
+
+
+  [6] =E2=80=9CFacing Up to Risk=E2=80=9D didn=E2=80=99t make the cut, or =
+=E2=80=9CEx Ante/Ex Post,=E2=80=9D but I suppose if you were litigating thi=
+s case for the bankruptcy estate you might want to skim those to see if you=
+ can mine them for irony.
+
+
+  [7] He also, unlike Fried, became an actual employee of FTX, which led to=
+ this awkward exchange:  =E2=80=9COn January 12, 2022, despite Bankman=E2=
+=80=99s employment agreement with FTX US detailing a $200,000 annual salary=
+, Bankman complained to FTX US Head of Administration that he was receiving=
+ gross pay of only $16,667 per month from FTX US, when he was =E2=80=98supp=
+osed to be getting $1M/yr, starting in December. So that would be a bit mor=
+e than $80,000 a month, gross=E2=80=A6=E2=80=99 Bankman promptly brought hi=
+s discontent to Bankman-Fried=E2=80=99s attention, emailing his son, =E2=80=
+=98Gee, Sam I don=E2=80=99t know what to say here. This is the first [I] ha=
+ve heard of the 200K a year salary! Putting Barbara on this.=E2=80=99 In ot=
+her words, Bankman lobbied his son to massively increase his own salary.=E2=
+=80=9D And cc=E2=80=99ed Bankman-Fried=E2=80=99s mom!
+
+
+  [8] I mean, if you asked the US Securities and Exchange Commission, they=
+=E2=80=99d probably tell you it was selling unregistered securities: It was=
+ selling crypto tokens that the SEC has argued elsewhere are securities. Bu=
+t the SEC didn=E2=80=99t bother charging FTX with this because, you know, b=
+igger fish to fry.
+
+
+  [9] In fact Duchamp  does not seem to have sold his original urinal =E2=
+=80=94 he displayed it and then possibly threw it away? =E2=80=94 but =E2=
+=80=9Cthe idea for Fountain arose from a discussion with the collector Walt=
+er Arensberg (1878=E2=80=931954) and the artist Joseph Stella (1877=E2=80=
+=931946),=E2=80=9D so right from the beginning the urinal was about collect=
+ors being in on the joke.
+
+
+  [10] =E2=80=9CThe work involved the sale of documentation of ownership of=
+ empty space (the Immaterial Zone), taking the form of a receipt, in exchan=
+ge for gold; if the buyer wished, the piece could then be completed in an e=
+laborate ritual in which the buyer would burn the receipt, and Klein would =
+throw half of the gold into the Seine,=E2=80=9D  Wikipedia says, but he=E2=
+=80=99d keep the other half.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjia5j.5jef/1a31f0e4.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_13914708_2139131282.1695150970736
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Let=E2=80=99s say you own a bunch of stocks, say $1 million worth of the st=
+ocks in the S&amp;P 500 Index. You think they will go up (that=E2=80=99s wh=
+y you own=20
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwOTE5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MTkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB67f84a0b"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjc2NTY3MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMwMjQwOTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB259be390" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32765671&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33024094&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">0DTE</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Let=E2=80=99s say you own a bunch of stocks, s=
+ay $1 million worth of the stocks in the S&amp;P 500 Index. You think they =
+will go up (that=E2=80=99s why you own them), but you worry that they might=
+ go down. You can buy insurance against that risk: You can pay someone a fe=
+e now, and she will guarantee you that, in a year, your S&amp;P 500 stocks =
+will be worth at least $1 million. If they=E2=80=99re not, she=E2=80=99ll p=
+ay you the difference. (If they=E2=80=99re worth more than $1 million, you =
+keep the gains, but she keeps the fee.) This is a put option.</p>
+<p style=3D"margin: 16px 0;">The fee for that insurance is about $50,000: Y=
+ou pay about 5% of the value of your portfolio to insure it against a drop =
+for one year.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: none !important; background=
+-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0That=E2=80=99s kind of a lot? If the S&amp;P goes down by 20%, yo=
+u=E2=80=99ll be happy you bought insurance, but if it goes down by 4% you w=
+on=E2=80=99t be: You=E2=80=99d have been better off taking that loss and no=
+t paying 5% upfront.<a class=3D"footnote-index" href=3D"#footnote-2" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a> If the S&amp;P goes=C2=A0<em>up=C2=A0</em>by 20%, you won=E2=80=99t mi=
+nd your insurance that much =E2=80=94=C2=A0you still made 15%, net of insur=
+ance costs =E2=80=94=C2=A0but if it goes up by 5% you=E2=80=99ll be bummed;=
+ the cost of insurance wiped out all of your gains.</p>
+<p style=3D"margin: 16px 0;">You might want cheaper insurance. One way to g=
+et cheaper insurance is to insure against only particular risks. One relati=
+vely simple way to do that=C2=A0would be to buy insurance only on particula=
+r=C2=A0<em>days</em>.<a class=3D"footnote-index" href=3D"#footnote-3" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a> If the Federal Reserve has a monetary=C2=A0policy announcement schedul=
+ed one Wednesday afternoon, and you worry that the Fed might raise rates an=
+d that this will be bad for your stocks, you could buy insurance on your st=
+ocks for=C2=A0<em>that day:=C2=A0</em>If your stocks go down that day, you =
+get paid the difference, but if they don=E2=80=99t, your insurance premium =
+is wasted. That insurance is relatively cheap: Buying a day of protection c=
+osts a lot less than buying a year of protection. I mean, it costs a lot mo=
+re=C2=A0<em>per day=C2=A0</em>=E2=80=94=C2=A0a one-day put costs more than =
+1/365th as much<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: none !important; backgrou=
+nd-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a> as a one-year put =E2=80=94 but if you pick the right days maybe you s=
+ave money.</p>
+<p style=3D"margin: 16px 0;">Bloomberg=E2=80=99s <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32765671.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMTkvYS1wb3B1bGFyLW9wdGlvbnMtdHJhZGUtZ2l=
+2ZXMtaW52ZXN0b3JzLWEtMS0wMDAtc3RvY2stYmV0LWZvci1qdXN0LTE_Y21waWQ9QkJEMDkxOT=
+IzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjMwOTE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf0=
+025d0a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  Lu Wang reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Investors are wagering on the daily gyrations =
+of American equity benchmarks by dashing in and out of trading contracts th=
+at expire within 24 hours =E2=80=94 known by the =E2=80=9C0DTE=E2=80=9D mon=
+iker =E2=80=94 with less upfront capital than meets the eye. The hidden fue=
+l for the frenzy: Quirks in the ecosystem of the derivatives marketplace th=
+at makes these zero-days-to-expiry options look cheap.</p>
+<p style=3D"margin: 16px 0;">The best way to observe the phenomenon is in t=
+he difference between how much investors are actually spending on 0DTE and =
+the notional value of those options =E2=80=94 that is, how much exposure th=
+ey are getting to the underlying asset via the contracts.</p>
+<p style=3D"margin: 16px 0;">On the latter, the notional trading volume of =
+0DTE for the S&amp;P 500 currently averages a beefy $516 billion a day, acc=
+ording to data compiled by Cboe Global Markets. Yet the actual amount of mo=
+ney paid out for them, or the premium, is only $520 million.</p>
+<p style=3D"margin: 16px 0;">Put another way, traders are getting $1,000 of=
+ stock exposure for every dollar they spend on 0DTE. They would need to spe=
+nd 10 times that to get the same equity position using derivatives with a l=
+onger lifespan, a Bloomberg analysis on Cboe=E2=80=99s data shows.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThey are the fantasy football of opti=
+on trading,=E2=80=9D said Dennis Davitt, co-manager of the MDP Low Volatili=
+ty Fund. =E2=80=9CYou spend a dollar and you see if it goes your way. Then =
+you=E2=80=99re done at the end of the day.=E2=80=9D=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Getting exposure to $1,000 worth of stocks for=
+ever costs about $1,000. Getting exposure to $1,000 worth of stocks for=C2=
+=A0<em>one day=C2=A0</em>costs about $1. What is the economic case for gett=
+ing exposure to $1,000 worth of stocks for one day? Why would you want that=
+? Oh, mostly gambling, but also very targeted hedging:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On March 22, for example, when the Federal Res=
+erve was about to announce its monetary policy in the afternoon, the S&amp;=
+P 500 opened at about 4,002. At that time, an at-the-money put =E2=80=94 a =
+protective contract where the strike price is essentially the same as where=
+ the index is actually trading =E2=80=94 cost about $26 for an expiry in th=
+e same session. A similar contract maturing two days later could be bought =
+for roughly $37 =E2=80=94 or 42% more than the 0DTE.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThere are very meticulous use cases f=
+or 0DTE options that did not exist previously,=E2=80=9D said=C2=A0Jonathan =
+Zaionz, senior derivatives analyst at Cboe. =E2=80=9CSince people are takin=
+g shorter term views and/or hedging with 0DTE, they don=E2=80=99t need to p=
+ay as much in time premium compared to longer term strategies.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I want to read a story about a long-term buy-a=
+nd-hold passive index investor who (1) buys a bunch of the S&amp;P 500, (2)=
+ never sells it and (3) has reeeeeeally good timing doing occasional hedges=
+ with 0DTE options. I am not sure that that=E2=80=99s=C2=A0<em>much=C2=A0</=
+em>of what is going on here, and I=E2=80=99m not sure that that would exact=
+ly count as =E2=80=9Clong-term buy-and-hold passive index investing,=E2=80=
+=9D but it would be cool.</p>
+<p style=3D"margin: 16px 0;">Also, last week <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/32765671.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjMtMDktMTQvemVyby1kYXktb3B0aW9ucy1ib29tLWlzLXNwaWx=
+saW5nLWludG8tNy00LXRyaWxsaW9uLWV0Zi1tYXJrZXQ_Y21waWQ9QkJEMDkxOTIzX01PTkVZU1=
+RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwO=
+TE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB309b4340" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  Wang and Isabelle Lee reported</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Defiance ETFs is launching a fund on Thursday =
+that sells ultra short-dated options on the Nasdaq 100 as part of its strat=
+egy. The product will be the first in the market to utilize so-called zero-=
+day-to-expiration contracts, or 0DTE, as part of its design.</p>
+<p style=3D"margin: 16px 0;">The fund will write puts =E2=80=94 bearish con=
+tracts that offer the buyer protection from index declines =E2=80=94 to gen=
+erate income. By offering options with such a short lifespan, the Defiance =
+Nasdaq 100 Enhanced Options Income ETF (ticker QQQY) will be able to sell c=
+ontracts more frequently, according to the issuer.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/32765671.258423/aHR0cHM6Ly93d3cuZGVmaWFuY2VldGZzLmNvbS93=
+cC1jb250ZW50L3VwbG9hZHMvZnVuZGRvY3MvcXFxeS9RUVFZLVByb3NwZWN0dXMucGRmP2hzQ3R=
+hVHJhY2tpbmc9ZmU4NDAxODMtN2E2MC00NzE0LTkyOGMtNDQ1ZjRmMzhhNzBhJTdDNzYyMzg4NG=
+MtYWMwYS00YzMwLWI3NzAtMjdlMDI5NjI4ZmE1/607f07ceef4b8524a319a23cBc0954478" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> the prospectus</a>. Basically the ETF sells at-the-money=C2=A0or sl=
+ightly out-of-the-money puts each day; if the S&amp;P goes up it pockets th=
+e premium, and even if it=E2=80=99s down or flat it collects=C2=A0the (smal=
+l) time value of the options. The natural way to think about this ETF is =
+=E2=80=9Ca lot of people are really excited about buying 0DTE options, so t=
+hey are probably overpaying, and probably a lot of them are doing it for du=
+mb gambling reasons, so we should be on the other side of that.=E2=80=9D</p=
+>
+<p style=3D"margin: 16px 0;">The downside is of course that if everyone is =
+buying lottery tickets, they might be dumb, and being on the other side mig=
+ht be a positive-expected-value trade, but <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/32765671.258423/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vYn=
+VzaW5lc3MvZmluYW5jZS9uZXctZXRmLWxvb2tzLXRhcC1ob3QtbWFya2V0LXplcm8tZGF5LW9wd=
+GlvbnMtMjAyMy0wOS0xNC8/607f07ceef4b8524a319a23cB41167062" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> selling =
+lottery tickets is risky</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">"QQQY is attempting to timely scratch two itch=
+es, potential income from an asset that doesn=E2=80=99t typically generate =
+income and exposure to the sudden popularity of trading ODTE options," said=
+ Lois Gregson, senior ETF analyst at FactSet Research Systems. ...</p>
+<p style=3D"margin: 16px 0;">"The strategy is similar to picking up dimes i=
+n front of a bulldozer. The income potential is there, but there are times =
+you could also get run over," Gregson said.</p>
+</blockquote>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjc2NTY3MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMwMjQwOTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCa8678913" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32765671&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33024094&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjc2NTY3MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMwMjQwOTQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDa8678913" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32765671&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33024094&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bankman, Fried</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Everyone agrees that FTX Trading Ltd., the ban=
+krupt crypto exchange, was <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32765671.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjItMTEtMTcvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1mdHgtd2FzLW5vdC12Z=
+XJ5LWNhcmVmdWw_Y21waWQ9QkJEMDkxOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1=
+dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTE5JnV0bV9jYW1wYWlnbj1tb25leXN=
+0dWZm/607f07ceef4b8524a319a23cBf8a865f4" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  pretty casual about mo=
+ney</a>. Everyone mostly agrees that Sam Bankman-Fried, FTX=E2=80=99s found=
+er and chief executive officer, had no hesitation about taking millions of =
+dollars of FTX=E2=80=99s money to spend on Super Bowl ads or political dona=
+tions or luxury apartments or <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32765671.258423/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9mdHg=
+tMTUwMDAtZGFpbHktZG9vcmRhc2gtY3JlZGl0cy1wcml2YXRlLXBsYW5lcy1kZWxpdmVyaW5nLW=
+FtYXpvbi0yMDIyLTEx/607f07ceef4b8524a319a23cB1b5da5b9" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> private jets=
+ to deliver Amazon packages</a>. Eventually it turned out that like $8 bill=
+ion of FTX customer money was missing, FTX went bankrupt and=C2=A0Bankman-F=
+ried was <a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.=
+258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTIt=
+MTMvaG93LXRvLWRvLWZyYXVkLWF0LWEtZnV0dXJlcy1leGNoYW5nZT9jbXBpZD1CQkQwOTE5MjN=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yMzA5MTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9fb7=
+e2da" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  arrested for fraud</a>. His trial starts next month, and I =
+suppose the basic dispute is:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Prosecutors will argue that the combin=
+ation of (1) FTX spending millions of dollars on luxury apartments for Bank=
+man-Fried and (2) $8 billion of FTX customer money going missing is=C2=A0<e=
+m>pretty suspicious!=C2=A0</em>Like, that=E2=80=99s the main thing that=C2=
+=A0you do in a financial fraud: You take customer money and spend it on lux=
+ury goods and experiences for yourself, and at the end you have the luxury =
+goods and the customers don=E2=80=99t have the money.</li>=09<li style=3D"m=
+argin-bottom: 5px;">Bankman-Fried <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32765671.258423/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vbGl2ZS8yMDI=
+yLzExLzMwL2J1c2luZXNzL3NhbS1iYW5rbWFuLWZyaWVkLWludGVydmlldw/607f07ceef4b852=
+4a319a23cB732cadba" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> will argue</a> that he just sort of miscount=
+ed the money: Due to some bad spreadsheets, he <em>thought=C2=A0</em>that F=
+TX had billions more dollars than it actually did, and so he figured =E2=80=
+=9Cman we have so much money it won=E2=80=99t do any harm to spend a few mi=
+llion here and there.=E2=80=9D This is partly a defense of literal bad spre=
+adsheets =E2=80=94=C2=A0apparently FTX just forgot about a =E2=80=9C<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LXMtYmFs=
+YW5jZS1zaGVldC13YXMtYmFkP2NtcGlkPUJCRDA5MTkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW0=
+9ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkxOSZ1dG1fY2FtcGFpZ2=
+49bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB40830ee2" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">poorly internal=
+ly labeled</a>=E2=80=9D $8 billion obligation to customers? =E2=80=94=C2=A0=
+and partly a defense of =E2=80=9Cwe were running a lucrative leveraged fina=
+ncial institution in a boom=E2=80=9D: FTX was profitable on a day-to-day ba=
+sis as long as crypto markets didn=E2=80=99t move against it, and then they=
+ did.</li>
+</ul>
+<p style=3D"margin: 16px 0;">You can probably guess which of those argument=
+s will go over better with a jury.</p>
+<p style=3D"margin: 16px 0;">In any case yesterday FTX=E2=80=99s bankruptcy=
+ estate <a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.2=
+58423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMTkvZ=
+nR4LXN1ZXMtc2FtLWJhbmttYW4tZnJpZWQtcy1wYXJlbnRzLXRvLWNsYXctYmFjay1mdW5kcz9j=
+bXBpZD1CQkQwOTE5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV=
+3c2xldHRlciZ1dG1fdGVybT0yMzA5MTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef=
+4b8524a319a23cB74bd6938" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  sued Bankman-Fried=E2=80=99s parents</a>=
+, Stanford Law School professors Joseph Bankman and Barbara Fried, for, let=
+=E2=80=99s say, being the knowing beneficiaries of FTX=E2=80=99s largesse. =
+Here is <a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.2=
+58423/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL=
+3JyYktPcElqcktONC92MA/607f07ceef4b8524a319a23cBacb38087" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> the compl=
+aint</a>. When FTX was cheerfully flinging around money on luxury housing a=
+nd=C2=A0private jets and political donations and Super Bowl ads, Bankman an=
+d Fried allegedly got themselves some luxury housing:</p>
+<blockquote><p style=3D"margin: 16px 0;">On or about February 11, 2022, Ban=
+kman and Fried signed an agreement to purchase a $16.4 million 30,000 squar=
+e-foot luxury property (for the two of them) with unobstructed ocean views =
+in the Old Fort Bay community in The Bahamas, referred to as =E2=80=9CBlue =
+Water=E2=80=9D or =E2=80=9COld Fort Bay.=E2=80=9D =E2=80=A6 Neither Bankman=
+ nor Fried contributed any money of their own towards the purchase of Blue =
+Water; rather, all of the funds were sourced from cash provided by the Debt=
+ors.</p></blockquote>
+<p style=3D"margin: 16px 0;">And private jets:</p>
+<blockquote><p style=3D"margin: 16px 0;">Bankman was richly rewarded for he=
+lping perpetuate the FTX Insiders=E2=80=99 fraud. He received millions of d=
+ollars in unearned =E2=80=9Cgifts=E2=80=9D and real property, flew on priva=
+tely-chartered jets, expensed $1,200 per night hotel stays to the FTX Group=
+ =E2=80=A6</p></blockquote>
+<p style=3D"margin: 16px 0;">And political donations:</p>
+<blockquote><p style=3D"margin: 16px 0;">Fried served as the single most in=
+fluential advisor regarding Bankman-Fried=E2=80=99s and the FTX Group=E2=80=
+=99s political contributions, and repeatedly =E2=80=9Cdunned,=E2=80=9D or c=
+alled upon, Bankman-Fried and Singh to contribute millions of dollars direc=
+tly to Mind the Gap, Inc. (=E2=80=9CMTG=E2=80=9D), a political action commi=
+ttee that she co-founded and for which she served as President and Chairwom=
+an, or the organizations MTG supported.</p></blockquote>
+<p style=3D"margin: 16px 0;">And Super Bowl ads:</p>
+<blockquote><p style=3D"margin: 16px 0;">At his request, Bankman received a=
+ cameo appearance alongside Larry David in a now-infamous 2022 FTX Super Bo=
+wl commercial. Bankman pushed for his role in the commercial, stating blunt=
+ly, =E2=80=9COK, I=E2=80=99m not a starfucker and don=E2=80=99t really care=
+ about meeting, say, Tom Brady. But Larry David=E2=80=A6.=E2=80=9D</p></blo=
+ckquote>
+<p style=3D"margin: 16px 0;">And now the FTX bankruptcy estate wants the mo=
+ney back, basically on the theory that it was customer money and Bankman an=
+d Fried shouldn=E2=80=99t get to keep it.<a class=3D"footnote-index" href=
+=3D"#footnote-5" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[5]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But also on the theory that Bankman and Fried =
+knew, or should have known, that it was customer money and not really on th=
+e up-and-up, that they were at least in some loose sense in on the scam. Pa=
+rt of the evidence for that is unfortunate-in-hindsight phrases: Fried =E2=
+=80=9Cdescrib[ed] herself as her son Bankman-Fried=E2=80=99s =E2=80=98partn=
+er in crime of the noncriminal sort,=E2=80=99=E2=80=9D oops oops oops oops =
+oops. Also her academic work has some=C2=A0ironic titles:</p>
+<blockquote><p style=3D"margin: 16px 0;">Fried is a professor emerita of St=
+anford Law School and joined its faculty in 1987. Fried has published more =
+than three dozen legal and academic writings, including pieces entitled =E2=
+=80=9CThe Limits of Personal Responsibility=E2=80=9D and =E2=80=9CBeyond Bl=
+ame.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">There=E2=80=99s a reason the complaint calls o=
+ut those titles <a href=3D"https://link.mail.bloombergbusiness.com/click/32=
+765671.258423/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9jZl9kZXYvQWJzQnlBdXRoL=
+mNmbT9wZXJfaWQ9MjI2MDY/607f07ceef4b8524a319a23cB3a8b37cf" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> and not<=
+/a> =E2=80=9CLeft Libertarianism: A Review Essay=E2=80=9D or =E2=80=9CCan C=
+ontractualism Save Us from Aggregation?=E2=80=9D or =E2=80=9CBegging the Qu=
+estion with Style: <em>Anarchy, State and Utopia</em> at Thirty Years.=E2=
+=80=9D<a class=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: none !important; background-color:=
+ transparent !important; display: inline-block;">
+<span>[6]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But part of the evidence is that, while Fried =
+is a political philosopher and a theorist of not blaming people, Bankman is=
+ a tax professor and, apparently, a theorist of not paying taxes. And he se=
+ems to have been involved in the tax structuring of how to get money out of=
+ FTX<a class=3D"footnote-index" href=3D"#footnote-7" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: none !important; background-color: t=
+ransparent !important; display: inline-block;">
+<span>[7]</span>
+</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In a January 2022 email exchange with Friedber=
+g, Bankman-Fried, and others, Bankman proposed a series of possible non-tax=
+able methods to structure a transfer of $10 million from the FTX Group to h=
+imself and Fried. In fact, Bankman proposed that, =E2=80=9C[t]he easiest wa=
+y is to add 10M to the 250M loan Sam has from Alameda. Then, Sam gifts the =
+money. No current tax on either transaction. Eventually, Sam recognizes inc=
+ome when the loan is paid off or cancelled, at the dividend/capital gain ra=
+te, but that can happen in a year when he donates a lot, offsetting some or=
+ all of the tax.=E2=80=9D ...</p>
+<p style=3D"margin: 16px 0;">Heeding Bankman=E2=80=99s advice, Friedberg ag=
+reed the $10 million gift should be papered as a loan to Bankman-Fried, and=
+ then be gifted to Bankman and Fried. Bankman-Fried could then transfer the=
+ =E2=80=9Cloaned=E2=80=9D funds directly into an account belonging to Bankm=
+an and/or Fried. There is no indication that Bankman-Fried intended to repa=
+y the so-called loan. Indeed, both Bankman and Fried acknowledged that the =
+$10 million payment to them was a gift, as indicated by an email from Bankm=
+an to Bankman-Fried, stating: =E2=80=9CWe are so touched by this gift. Mom =
+is announcing retirement, which she would not have done otherwise.=E2=80=9D=
+=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And in the structuring of how to=C2=A0<em>keep=
+=C2=A0</em>the money out of FTX:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In November 2021 =E2=80=A6=C2=A0Bankman began =
+discussions about bankruptcy protection for the FTX Group. The General Coun=
+sel of Alameda and FTX Trading, in an email including Bankman, asked Law Fi=
+rm-1 to schedule a call to discuss =E2=80=9Chow assets including primary re=
+sidence can be structured to be <em>bankruptcy-remote</em>.=E2=80=9D (Empha=
+sis added)</p>
+<p style=3D"margin: 16px 0;">The following day, Bankman initiated a discuss=
+ion with Friedberg and General Counsel of Alameda and FTX Trading opining t=
+hat, =E2=80=9C[i]t would be great, all else equal, if we could, have the fo=
+unders put money into property in the Bahamas,=E2=80=9D included a link to =
+https://www.offshorecompany.com/trusts/bahamas-asset-protection/, and spran=
+g into action to find outside counsel to pursue this effort. After collecti=
+ng viewpoints from a fellow Stanford Law School professor, local counsel in=
+ The Bahamas, and his brother-in-law, Bankman determined that an overseas a=
+sset protection trust was =E2=80=9Csomething we might use when we buy prope=
+rty in the Bahamas,=E2=80=9D but =E2=80=9Cthe real issue is whether these t=
+hings work in the US, and to what extent=E2=80=A6.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yeah look if you help run a crypto company tha=
+t goes bankrupt and loses $8 billion of customer money,=C2=A0you don=E2=80=
+=99t really want =E2=80=9Chttps://www.offshorecompany.com/trusts/bahamas-as=
+set-protection/=E2=80=9D in your search history. Absolutely none of the wor=
+ds in that address sound good in this context. If you think that your excha=
+nge is going great and printing money and will never fail, and that there=
+=E2=80=99s plenty of cash to lavish on personal expenses, then you probably=
+ don=E2=80=99t worry that much about keeping your assets bankruptcy-remote.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">Also there=E2=80=99s this:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Far from just turning the other way, Bankman a=
+lso directly participated in efforts to cover up other FTX Insiders=E2=80=
+=99 fraud. As early as September 2019, he both failed to investigate and ap=
+plauded others for squashing a whistleblower complaint that threatened to e=
+xpose the FTX Group as a house of cards. In September 2019, Bankman-Fried r=
+eceived an email from a now-deceased attorney (=E2=80=9CAttorney-1=E2=80=9D=
+), threatening a lawsuit against Alameda, Alameda Ltd., FTX Trading, Bankma=
+n-Fried, and others. Attorney-1 claimed that certain entities within the FT=
+X Group had engaged in cryptocurrency price manipulation through pump and d=
+ump schemes, engaged in money laundering, and operated an unlicensed money =
+transmitter business. Whether or not these specific allegations were true, =
+their investigation inevitably would have laid bare the problems at the FTX=
+ Group.</p>
+<p style=3D"margin: 16px 0;">Bankman-Fried immediately forwarded the allega=
+tions to Bankman and Friedberg, and requested that Bankman participate in t=
+he response to Attorney-1. But rather than investigate Attorney-1=E2=80=99s=
+ claims, Bankman suggested investigating Attorney-1, asking =E2=80=9Cwhethe=
+r or not there are any disciplinary actions against [Attorney-1.]=E2=80=9D =
+Within weeks, Attorney-1 filed a lawsuit on behalf of his client, which inc=
+luded the above claims as well as allegations that certain entities within =
+the FTX Group were engaged in unfair business practices and violations of t=
+he Commodity Exchange Act.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Is that right, that =E2=80=9Cwhether or not th=
+ese specific allegations were true, their investigation inevitably would ha=
+ve laid bare the problems at the FTX Group=E2=80=9D? Don=E2=80=99t get me w=
+rong; it seems possible that FTX=C2=A0<a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/32765671.258423/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8=
+wMS8xOC9idXNpbmVzcy9mdHgtc2JmLWNyeXB0by1tYXJrZXRzLmh0bWw/607f07ceef4b8524a3=
+19a23cB8471a7f9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">  <em>was=C2=A0</em>doing some pump-and-dumps</a>,=
+ and I kind of can=E2=80=99t imagine a Bahamas-headquartered crypto exchang=
+e <a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMjQvc29=
+tZS1zcGFjcy1oYXZlLXNwYXJlLWNhc2g_Y21waWQ9QkJEMDkxOTIzX01PTkVZU1RVRkYmdXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTE5JnV0bV9jY=
+W1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB7ad736c1" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  doing=
+=C2=A0<em>no=C2=A0</em>money laundering at all</a>. And we have <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/32765671.258423/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDQtMTkvYmV0dGVybWVudC1t=
+aXNzZWQtc29tZS10YXgtdHJhZGVzP2NtcGlkPUJCRDA5MTkyM19NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkxOSZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBbc59e900" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  previousl=
+y discussed</a> a (<a href=3D"https://link.mail.bloombergbusiness.com/click=
+/32765671.258423/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL2J1c2luZXNzLzIwMjMvMDcvMD=
+YvdGF5bG9yLXN3aWZ0LWFwcHJvdmVkLXNwb25zb3JzaGlwLWRlYWwtd2l0aC1mdHgtZGVzcGl0Z=
+S1wcmV2aW91cy1yZXBvcnRzLW55dC8/607f07ceef4b8524a319a23cBf5b0ee17" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+possibly apocryphal</a>) story that Taylor Swift declined to work with FTX =
+because she asked if they were selling unregistered securities and was not =
+satisfied with the answer, even though FTX=E2=80=99s problem is very much n=
+ot that it was=C2=A0<em>selling unregistered securities</em>.<a class=3D"fo=
+otnote-index" href=3D"#footnote-8" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: none !important; background-color: transparent !import=
+ant; display: inline-block;">
+<span>[8]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Still at least in principle you could probably=
+ satisfy yourself that FTX was not doing pump-and-dumps =E2=80=94=C2=A0or c=
+onclude that it <em>was</em>, and tell it to knock it off =E2=80=94=C2=A0wi=
+thout discovering that it misplaced $8 billion of customer money. Or you co=
+uld say =E2=80=9Cehh money laundering, let=E2=80=99s tighten up our money l=
+aundering controls a little bit,=E2=80=9D also without discovering the misp=
+laced money. Pump-and-dumps and money laundering are, like, the=C2=A0<em>re=
+gular=C2=A0</em>crypto crimes; the problem here was losing, or stealing, al=
+l the customer money.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">AT1s</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Bank additional tier 1 capital securities are,=
+ I think, basically a trick. The trick works like this:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">AT1s kind of look like bonds =E2=80=
+=94=C2=A0they pay regular interest, they usually get paid back after five o=
+r 10 years =E2=80=94=C2=A0so investors treat them like bonds. In particular=
+, the interest payment on a bank=E2=80=99s AT1s will normally be lower than=
+ the bank=E2=80=99s cost of equity capital, and so banks will issue AT1s be=
+cause they=E2=80=99re cheaper than issuing equity.</li>=09<li style=3D"marg=
+in-bottom: 5px;">If the bank runs into trouble, the AT1s act like stock: Th=
+ey absorb losses so that governments, taxpayers, depositors, etc. don=E2=80=
+=99t have to. The AT1s are sort of the first line of defense against bank b=
+ailouts. In some ways, some AT1s are actually=C2=A0<em>junior to=C2=A0equit=
+y:=C2=A0</em>Many AT1s, by their terms, go to zero if a bank=E2=80=99s comm=
+on equity capital ratio falls below 7%; at that point, the common stock is =
+still worth something but the AT1s are worth nothing. This fact makes regul=
+ators like AT1s =E2=80=94=C2=A0they are very helpfully loss-absorbing =E2=
+=80=94=C2=A0and so regulators treat them as good bank capital, a good subst=
+itute for=C2=A0some of a bank=E2=80=99s common stock.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Investors think of AT1s as almost like bonds; =
+regulators think of AT1s as almost like stock. And so banks can issue AT1s =
+that, for regulatory purposes, are treated almost like stock, but that, eco=
+nomically, are not nearly as expensive as stock. So banks often optimize th=
+eir capital structures by issuing as much AT1 capital as they are allowed t=
+o. A big European bank with a lot of common equity but no AT1 capital is le=
+aving money on the table: It should buy back some stock and issue more AT1s=
+ to be more efficient.</p>
+<p style=3D"margin: 16px 0;">A few years ago <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/32765671.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMTktMDItMTMvc2FudGFuZGVyLWRpZG4tdC1wYXktaXRzLW5=
+vbi1kZWJ0P2NtcGlkPUJCRDA5MTkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3=
+NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZ=
+g/607f07ceef4b8524a319a23cBcdf2c709" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">I wrote</a>: =E2=80=9CIf the r=
+egulators think that they=E2=80=99re equity and the investors think that th=
+ey=E2=80=99re debt, probably someone is wrong!=E2=80=9D And then we have ch=
+ecked in a few times when the investors have been wrong. (I should say, I t=
+end not to write about AT1s when they just pay regular interest and then ge=
+t redeemed at par at their first call date; <em>most </em>of the time, the =
+investors are right that AT1s look like bonds.) Most notably, when Credit S=
+uisse Group AG blew up and was acquired by UBS Group AG this year, some $17=
+ billion of Credit Suisse AT1s were written down to zero, and the holders w=
+ere understandably upset. In particular, they were upset that Credit Suisse=
+=E2=80=99s common=C2=A0shareholders=C2=A0got paid something, while the AT1s=
+ got zeroed. If you think that AT1s are bonds, then this is an outrage: The=
+ bonds are supposed to be senior to the common stock. If you think that AT1=
+s are the first loss absorber to prevent bailouts, as Swiss regulators do, =
+then this is great. (As I <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/32765671.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjMtMDMtMjAvdWJzLWdvdC1jcmVkaXQtc3Vpc3NlLWZvci1hbG1vc3Qtbm90aGluZz=
+9jbXBpZD1CQkQwOTE5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMzA5MTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cB2c090246" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">argued at the time</a>, the Credit Suiss=
+e AT1s were=C2=A0<em>designed by their terms to go to zero even if the stoc=
+k is worth something</em>, so the regulators are right as a general matter,=
+ though the AT1 holders have some decent technical arguments about the exac=
+t events that triggered their writedown.)</p>
+<p style=3D"margin: 16px 0;">From UBS=E2=80=99s perspective, this was basic=
+ally a sweet deal: It was able to buy Credit Suisse and get rid of $17 bill=
+ion of Credit Suisse=E2=80=99s debt, or quasi-debt, because the Swiss regul=
+ators insisted that Credit Suisse=E2=80=99s AT1s vanish. On the other hand,=
+ it leaves UBS with an inefficient capital structure: That $17 billion of A=
+T1s was cheap capital, and now it is gone; zeroing it effectively increased=
+ UBS=E2=80=99s common equity capital, but <em>common equity is not what it =
+wants.=C2=A0</em>Efficiency demands that UBS issue more AT1s to buy back so=
+me stock. Because,=C2=A0<em>still</em>, AT1 is cheaper than common equity,=
+=C2=A0<em>even for UBS</em>, even after the recent high-profile Credit Suis=
+se experience of zeroing the AT1s while the common equity got paid.=C2=A0</=
+p>
+<p style=3D"margin: 16px 0;">Well, probably the AT1 is cheaper. Yesterday t=
+he Financial Times <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/32765671.258423/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYzM1NmFjMDctODZiYS00Yz=
+BiLWI3M2ItMjRmZDViN2IzM2Fm/607f07ceef4b8524a319a23cB504553c8" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">check=
+ed in with UBS on its AT1 program</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">UBS is under pressure to replace up to $17bn o=
+f Credit Suisse AT1 bonds in the coming years to improve the efficiency of =
+the enlarged bank=E2=80=99s capital structure and free up funds for shareho=
+lder returns and potential acquisitions.</p>
+<p style=3D"margin: 16px 0;">But some investors remain wary after bondholde=
+rs lost billions of dollars during the rescue of Credit Suisse when an emer=
+gency law brought in by the Swiss government allowed the country=E2=80=99s =
+financial regulator, Finma, to protect shareholders at the expense of AT1 h=
+olders.</p>
+<p style=3D"margin: 16px 0;">The decision shook up the traditional hierarch=
+y of bank creditors and undermined confidence in AT1s, which were introduce=
+d after the financial crisis as regulators tried to shift risk away from de=
+positors and imposed greater capital requirements on banks in case of failu=
+re.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CUBS are working frantically in the ba=
+ckground to sort this out,=E2=80=9D said a bond fund manager who recently m=
+et the bank=E2=80=99s representatives. =E2=80=9CThey need to give investors=
+ confidence that the capital structure won=E2=80=99t be inverted and the ru=
+les won=E2=80=99t be changed at the eleventh hour again.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">UBS has to =E2=80=9Creplace up to $17bn of Cre=
+dit Suisse AT1 bonds,=E2=80=9D not in the sense that it needs to raise new =
+money to pay them off =E2=80=94=C2=A0those bonds are gone, it never has to =
+pay them =E2=80=94=C2=A0but in the sense that they were cheap capital and i=
+t misses them. It wants to sell $17 billion of AT1 securities to =E2=80=9Cf=
+ree up funds for shareholder returns.=E2=80=9D=C2=A0In effect, it is going =
+out to investors and saying=C2=A0=E2=80=9Cwouldn=E2=80=99t you like to char=
+ge us less for AT1 securities than you do for common stock?=E2=80=9D And th=
+e investors are saying =E2=80=9Cwell, but, like, 20 minutes ago, we found o=
+ut that your=C2=A0AT1=C2=A0securities are actually junior to common stock, =
+so shouldn=E2=80=99t we charge you <em>more </em>for them?=E2=80=9D=C2=A0</=
+p>
+<p style=3D"margin: 16px 0;">There are two plausible answers to this. One i=
+s to tweak the terms to make the AT1s at least equal to common stock in a c=
+risis:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">One option under consideration is replacing UB=
+S=E2=80=99s AT1 bonds, which are designed to be written down in the event t=
+he bank runs into trouble, with versions of the security that would be conv=
+erted into equity, according to two people involved in the investor discuss=
+ions.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CEquity conversion is probably better =
+and there is more demand if you do it like that,=E2=80=9D said another bond=
+ investor. =E2=80=9CBut we are not naive and don=E2=80=99t think it changes=
+ the risk.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The other answer is to just shrug and wait and=
+ figure that memories in this market are very short and eventually everyone=
+ will forget what they were mad about and buy the AT1s anyway.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Art Stuff</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A general theory of art might be that artists =
+create cultural cachet, and art collectors have cash, and the collectors tr=
+ade their cash for the artists=E2=80=99 cachet. For centuries the main form=
+ of cultural=C2=A0cachet that artists could create was pretty pictures that=
+ looked nice hanging in collectors=E2=80=99 dining rooms and impressed thei=
+r dinner guests, and so the prettier the pictures were the more they were w=
+orth.</p>
+<p style=3D"margin: 16px 0;">But eventually it got fairly easy=C2=A0to get =
+pictures of arbitrary prettiness, so pretty pictures do not carry the cache=
+t and distinction that they once did, so collectors are not willing to pay =
+that much for them. Collectors want more abstract and complicated forms of =
+cultural cachet. They want their art to convey=C2=A0<em>sophistication</em>=
+, and one very popular way to convey sophistication is by showing that you =
+are in some sense=C2=A0<em>in on the joke</em>. If you bought Duchamp=E2=80=
+=99s urinal, that showed that you were with it.<a class=3D"footnote-index" =
+href=3D"#footnote-9" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: none !important; background-color: transparent !important; display: =
+inline-block;">
+<span>[9]</span>
+</a>=C2=A0If you gave gold to Yves Klein in exchange for <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/32765671.258423/aHR0cHM6Ly9lbi53aWtp=
+cGVkaWEub3JnL3dpa2kvWm9uZV9kZV9TZW5zaWJpbGl0JUMzJUE5X1BpY3R1cmFsZV9JbW1hdCV=
+DMyVBOXJpZWxsZQ/607f07ceef4b8524a319a23cB14c819ad" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> a receipt that =
+you then burned</a>, you got nothing at all tangible, but you got cultural =
+cachet. You gave Klein money, and he did a prank on you, and then you laugh=
+ed about it=C2=A0<em>together</em>, which proved that you were cool in a wa=
+y that hanging an Old Master in your dining room could not. You got exactly=
+ what you paid for. And Klein got the money.<a class=3D"footnote-index" hre=
+f=3D"#footnote-10" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: none !important; background-color: transparent !important; display: in=
+line-block;">
+<span>[10]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">And then <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/32765671.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL25ld3NsZXR0ZXJzLzIwMjEtMDktMTAvbW9uZXktc3R1ZmYtZnVuZ2libGUtc2xpY2VzLW9mLW=
+5vbi1mdW5naWJsZS10b2tlbnM_Y21waWQ9QkJEMDkxOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1b=
+T1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTE5JnV0bV9jYW1wYWln=
+bj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB144d78f0" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> non-fungible t=
+okens</a> were <a href=3D"https://link.mail.bloombergbusiness.com/click/327=
+65671.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+EtMDMtMDgvbGlib3ItaXMtZ29pbmctYXdheS1mb3ItcmVhbD9jbXBpZD1CQkQwOTE5MjNfTU9OR=
+VlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0y=
+MzA5MTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBa50a7b63" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> invented</a> to sort of <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/32765671.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjEtMDUtMjQvbWVycmlsbC1seW5jaC1wdXRzLWRvd24tdGhlLXBob25lP2N=
+tcGlkPUJCRDA5MTkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTIzMDkxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cB683a8a42" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> mass-produce</a> this effect for the inte=
+rnet age.=C2=A0<em>This should not work:=C2=A0</em>Pretty pictures lost the=
+ir edge in the art world because they became too easy to mass-produce, and =
+now being-in-on-a-dumb-stunt has also become easy to mass-produce, and it t=
+oo has, I think, lost its edge. For like seven minutes in 2021, you could s=
+ay =E2=80=9Cgive me money and I will give you a receipt for nothing" and pe=
+ople would be like =E2=80=9Coh that=E2=80=99s a cool joke, here=E2=80=99s t=
+he money=E2=80=9D and feel good and sophisticated, but that was very easy t=
+o do, so everyone did, so that market was saturated and it is, I insist, no=
+ longer cool.</p>
+<p style=3D"margin: 16px 0;">But art <em>museums </em>maintain a record of =
+the history of art, and the recent history of art involves a lot of pranks.=
+ A replica of Duchamp=E2=80=99s urinal is <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/32765671.258423/aHR0cHM6Ly93d3cudGF0ZS5vcmcudWsvYXJ=
+0L2FydHdvcmtzL2R1Y2hhbXAtZm91bnRhaW4tdDA3NTcz/607f07ceef4b8524a319a23cBbffe=
+b92c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> at the Tate</a>. So now if you go to an art museum there wil=
+l be some pretty pictures but also some stunts, and the point of the stunts=
+ is for you to look at them and say =E2=80=9Cha, I can=E2=80=99t believe th=
+e artist did that stunt, how cool,=E2=80=9D or at least, like, =E2=80=9Chmm=
+, how interesting, apparently people used to think these stunts were cool.=
+=E2=80=9D=C2=A0The stunts are often more noteworthy than the paintings. The=
+ San Francisco Museum of Modern Art seems to be prouder of <em><a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/32765671.258423/aHR0cHM6Ly93d3=
+cuc2Ztb21hLm9yZy9hcnR3b3JrLzk4LjI5OC8/607f07ceef4b8524a319a23cB4c7a55ce" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> Erased de Kooning Drawing</a></em>=C2=A0than it is of its <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/32765671.258423/aHR0cHM6Ly93=
+d3cuc2Ztb21hLm9yZy9hcnRpc3QvV2lsbGVtX2RlX0tvb25pbmcv/607f07ceef4b8524a319a2=
+3cBfe02b15b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> de Kooning drawings</a>.=C2=A0</p>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/32765671.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjEtMDktMjcvaW1wb3N0b3JzLW9uLXRoZS1kdWUtZGlsaWdlbmNlLWNhbGw_=
+Y21waWQ9QkJEMDkxOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5=
+ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07cee=
+f4b8524a319a23cB545a59ce" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">talked a few years ago</a> about an artis=
+t named Jens Haaning, who was commissioned by=C2=A0Kunsten, a Danish museum=
+, to make a frankly pretty boring-sounding artwork in which he would, like,=
+ put a bunch of cash in some glass frames to make a point about society or =
+whatever. He borrowed the cash from the museum, to put into the frames. And=
+ then he delivered the frames empty and kept the cash. =E2=80=9CThe work of=
+ art is that I took their money,=E2=80=9D he said, really the most general =
+possible work of art.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Nonetheless=C2=A0they sued him and yesterday=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258=
+423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMTgvYXJ=
+0aXN0LXdoby10b29rLW11c2V1bS1zLW1vbmV5LWFuZC1yYW4tbG9zZXMtZGFuaXNoLWNvdXJ0LW=
+Nhc2U_Y21waWQ9QkJEMDkxOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291c=
+mNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607=
+f07ceef4b8524a319a23cBcc72e023" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">they won, sort of</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A Danish artist who pocketed the cash he recei=
+ved from a museum to incorporate into an artwork must pay the roughly 530,0=
+00 kroner ($76,000) back, a court said.</p>
+<p style=3D"margin: 16px 0;">Jens Haaning should still get paid 40,000 kron=
+er for the piece =E2=80=94 two blank frames =E2=80=94 which the museum ende=
+d up putting on display, a court in Copenhagen said in a ruling on Monday.<=
+/p>
+<p style=3D"margin: 16px 0;">Haaning agreed with Kunsten, a museum in north=
+ern Denmark, in 2021 that he would borrow the cash to replicate his earlier=
+ work which displayed the annual incomes of an Austrian and a Dane. But whe=
+n the museum opened the box that Haaning had shipped, the cash was missing =
+and the artwork=E2=80=99s title had been changed to =E2=80=9CTake the Money=
+ And Run.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I like that they still have to pay him for the=
+ work. Because it=E2=80=99s good! There=E2=80=99s a link to the museum=E2=
+=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.2=
+58423/aHR0cHM6Ly9rdW5zdGVuLmRrL2RhL2luZGhvbGQvamVucy1oYWFuaW5nLTEzMjkx/607f=
+07ceef4b8524a319a23cB7a62a7ce" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">webpage describing the artwork</a>; =
+it includes=C2=A0a photograph of the two blank frames hanging in the museum=
+=C2=A0and several paragraphs=C2=A0of curatorial text tracing the art-histor=
+ical antecedents of, you know, taking the money and running. It=E2=80=99s a=
+ rich history! They got what they paid for! This prank is more interesting =
+than the original thing they commissioned. I suppose it=E2=80=99s even funn=
+ier now that they=E2=80=99ve gotten the money back. They should put the mon=
+ey in a very heavy safe next to the empty frames. =E2=80=9CFailed Prank=C2=
+=A0(2023),=C2=A0<em>medium: litigation</em>.=E2=80=9D</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Instacart <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/32765671.258423/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy=
+9yZXRhaWwvaW5zdGFjYXJ0LXByaWNlcy1pcG8tYXQtMzAtYS1zaGFyZS1hdC10b3AtZW5kLW9mL=
+WV4cGVjdGF0aW9ucy1hMzNiYjYyYz9tb2Q9aXRwX3dzag/607f07ceef4b8524a319a23cB1f66=
+3a11" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Prices IPO</a> at $30 a Share, at Top End of Expectations. N=
+asdaq and NYSE fight closest <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32765671.258423/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvM2RlMDhhYWMt=
+ZTFmZC00ZjBmLWI3OGYtMDc2NTQwNWMyNTVl/607f07ceef4b8524a319a23cBd6c96af7" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> listings contest</a> in five years. Cboe=E2=80=99s CEO Resigns Over <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMTkvY2JvZS1zLW=
+Nlby10aWxseS1yZXNpZ25zLW92ZXItdW5kaXNjbG9zZWQtcGVyc29uYWwtcmVsYXRpb25zaGlwc=
+z9jbXBpZD1CQkQwOTE5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cB86d3671d" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">  Undisclosed Personal Relationships</a=
+>. New York Regulator to Require Higher Standards for <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/32765671.258423/aHR0cHM6Ly93d3cud3NqLmN=
+vbS9hcnRpY2xlcy9uZXcteW9yay1yZWd1bGF0b3ItdG8tcmVxdWlyZS1oaWdoZXItc3RhbmRhcm=
+RzLWZvci1jb2luLWxpc3RpbmdzLWFuZC1kZWxpc3RpbmdzLTYyMjlhYjRlP21vZD1pdHBfd3NqJ=
+nJ1PXlhaG9v/607f07ceef4b8524a319a23cB22e0860d" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> Coin Listings</a> a=
+nd Delistings.=C2=A0Fund industry braced for SEC crackdown on <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/32765671.258423/aHR0cHM6Ly93d3c=
+uZnQuY29tL2NvbnRlbnQvMGZlOTlmNTAtNWE3Ni00NmU2LWJlNTktZTZkOWVlMGUzY2Uy/607f0=
+7ceef4b8524a319a23cB5f7ef776" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> deceptive product labels</a>. Elon M=
+usk Floats <a href=3D"https://link.mail.bloombergbusiness.com/click/3276567=
+1.258423/aHR0cHM6Ly93d3cud3NqLmNvbS90ZWNoL2Vsb24tbXVzay1mbG9hdHMtY2hhcmdpbm=
+ctdXNlcnMtZm9yLXgtYjZmYjc1OGQ_bW9kPWhwX2xlYWRfcG9zNA/607f07ceef4b8524a319a2=
+3cB44d621e9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> Charging Users for X</a>. Dad sues hospital for $642M=
+ after <a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.25=
+8423/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjMvMDkvMTgvbWFuLXN1ZXMtaG9zcGl0YWwtYWZ0ZX=
+Itd2F0Y2hpbmctaGlzLXdpZmVzLWMtc2VjdGlvbi8/607f07ceef4b8524a319a23cBdab81dd7=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> witnessing his wife=E2=80=99s C-section</a>: =E2=80=98It gave me=
+ psychotic illness.=E2=80=99</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32765671.258423/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB7a50dc6d" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32765671.258423/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBf0b4d700" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Very casual numbers here. At noon today, t=
+he S&amp;P 500 was at about 4,425, and Bloomberg showed the Sept. 20, 2024,=
+ 4,425-strike put (SPX US 09/20/24 P4425 Equity) at about 211, or about 4.8=
+% of notional.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] That=E2=80=99s also true if it goes down b=
+y, like, 5.1%, due to the time value of money. Better to lose 5.1% over a y=
+ear than to pay 5% at the beginning of the year.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] More complicated ways would be, like, iden=
+tifying particular things that would be bad for your portfolio, and betting=
+ directly on those rather than on the S&amp;P. Also, like, you could buy a =
+put spread where you take the first 5% of the loss and then get insured aga=
+inst the next 10% and then you take the rest, etc.; there's a whole industr=
+y devoted to selling optically cheap downside protection.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Or 1/250th, given that there are <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/aHR0cHM6L=
+y9lbi53aWtpcGVkaWEub3JnL3dpa2kvVHJhZGluZ19kYXk/607f07ceef4b8524a319a23cBda2=
+8b2fe" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> 250ish trading days</a> in a year.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] I don=E2=80=99t think that the actual mech=
+anisms of bankruptcy clawbacks are that interesting here, but a lot of the =
+stuff here consists of (1) Bankman-Fried taking money out of FTX and (2) hi=
+m then giving the money to his parents. So the question is whether the pare=
+nts, as subsequent transferees, are liable to the company to give it back. =
+=E2=80=9CBankman-Fried acted as a mere conduit, or, in the alternative, Ban=
+kman and Fried were subsequent transferees after the initial transfer of fu=
+nds from Alameda Ltd. to Bankman-Fried, and Bankman and Fried lacked good f=
+aith with respect to such transfers,=E2=80=9D is the sort of argument the c=
+omplaint makes.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] =E2=80=9CFacing Up to Risk=E2=80=9D didn=
+=E2=80=99t make the cut, or =E2=80=9CEx Ante/Ex Post,=E2=80=9D but I suppos=
+e if you were litigating this case for the bankruptcy estate you might want=
+ to skim those to see if you can mine them for irony.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] He also, unlike Fried, became an actual em=
+ployee of FTX, which led to this awkward exchange:  =E2=80=9COn January 12,=
+ 2022, despite Bankman=E2=80=99s employment agreement with FTX US detailing=
+ a $200,000 annual salary, Bankman complained to FTX US Head of Administrat=
+ion that he was receiving gross pay of only $16,667 per month from FTX US, =
+when he was =E2=80=98supposed to be getting $1M/yr, starting in December. S=
+o that would be a bit more than $80,000 a month, gross=E2=80=A6=E2=80=99 Ba=
+nkman promptly brought his discontent to Bankman-Fried=E2=80=99s attention,=
+ emailing his son, =E2=80=98Gee, Sam I don=E2=80=99t know what to say here.=
+ This is the first [I] have heard of the 200K a year salary! Putting Barbar=
+a on this.=E2=80=99 In other words, Bankman lobbied his son to massively in=
+crease his own salary.=E2=80=9D And cc=E2=80=99ed Bankman-Fried=E2=80=99s m=
+om!</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] I mean, if you asked the US Securities and=
+ Exchange Commission, they=E2=80=99d probably tell you it was selling unreg=
+istered securities: It was selling crypto tokens that the SEC has argued el=
+sewhere are securities. But the SEC didn=E2=80=99t bother charging FTX with=
+ this because, you know, bigger fish to fry.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] In fact Duchamp <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32765671.258423/aHR0cHM6Ly93d3cudGF0ZS5vcmcu=
+dWsvYXJ0L2FydHdvcmtzL2R1Y2hhbXAtZm91bnRhaW4tdDA3NTcz/607f07ceef4b8524a319a2=
+3cCbffeb92c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> does not seem to have sold his original urinal</a> =
+=E2=80=94 he displayed it and then possibly threw it away? =E2=80=94 but =
+=E2=80=9Cthe idea for <em>Fountain </em>arose from a discussion with the co=
+llector Walter Arensberg (1878=E2=80=931954) and the artist Joseph Stella (=
+1877=E2=80=931946),=E2=80=9D so right from the beginning the urinal was abo=
+ut collectors being in on the joke.</p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] =E2=80=9CThe work involved the sale of do=
+cumentation of ownership of empty space (the Immaterial Zone), taking the f=
+orm of a receipt, in exchange for gold; if the buyer wished, the piece coul=
+d then be completed in an elaborate ritual in which the buyer would burn th=
+e receipt, and Klein would throw half of the gold into the Seine,=E2=80=9D =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/aH=
+R0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvWm9uZV9kZV9TZW5zaWJpbGl0JUMzJUE5X1BpY=
+3R1cmFsZV9JbW1hdCVDMyVBOXJpZWxsZQ/607f07ceef4b8524a319a23cC14c819ad" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Wikipedia says</a>, but he=E2=80=99d keep the other half.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB6606931f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBb1020f0c" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB024bb699" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB9ef0efee" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB90267262" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.2584=
+23/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB97ddebf5" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32765671.258423/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCbb483007" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32765671.258423/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB73ccd6a1" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32765671.258423/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBdb78d750" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB8=
+52fa9f6" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32765671.258423/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB3=
+1435d91" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjia5j.5jef/1a31f0e4.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_13914708_2139131282.1695150970736--
+

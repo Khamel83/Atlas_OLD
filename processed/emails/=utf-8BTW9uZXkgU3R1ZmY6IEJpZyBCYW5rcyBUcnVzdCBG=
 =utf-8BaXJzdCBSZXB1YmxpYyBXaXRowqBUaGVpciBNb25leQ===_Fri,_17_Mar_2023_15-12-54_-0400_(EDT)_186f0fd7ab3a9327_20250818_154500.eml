@@ -1,0 +1,2331 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp731674rwb;
+        Fri, 17 Mar 2023 12:13:09 -0700 (PDT)
+X-Received: by 2002:a1c:f70e:0:b0:3ed:514d:e07f with SMTP id v14-20020a1cf70e000000b003ed514de07fmr6536719wmh.3.1679080389638;
+        Fri, 17 Mar 2023 12:13:09 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1679080389; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=BDOgk+etBjzttfvvYXO9+8hIpKYQkyT/7ZWoVPJn8LZM72Yz+fFvZml2xwrdB+21oz
+         G5zKgp4+OxY+y9jA9+pcvzKxJGezIAZvUdi5cMuhVnooi40shUoKT+F3M3A2Gf7EWrzb
+         DBaxYcu6v7VRO+F+0zc9pefLCIKgbeT9pDqOierXsvrLF746Jt05YE3efYcWTWOoW3Tc
+         hUTHRlPHqgcIlK1AgiJTf+faRffOGT4qyXzQrZjWIvW16SOQze5DGX5BB18rnDsIV50m
+         YV7kKN7qWb7vZ22mQYG1BKueDxHon9KHtJVSrAN5DblNoLiaDUo9xKV/1cvofxC1zFtM
+         tHCA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=1Kshe+lGhyxk/7JNK5Utx0usxBCFNymTZoW/0N0ovLw=;
+        b=tI2SSQx3bd5rvuTJGsQB3u60TXd3/ELE0A4vg0M094MSg1JTZy5XxiXD/e0szcQj4a
+         VAPN3hL1KhlmMWaF4yxH1R09cPo2bf0rtVMbNTqCJf8gXynS2I/3G/OP/kK7GYoUv1N8
+         7bfinMh4cd8/0fydQffY6YQbvoj9oBaeprv5sZv5LIKLOjtGr1R6HEMjkGS3ODWqDlX8
+         LCiT2g8OBXs2ckS1OA0rb5D/zObVyimBTJBxS8Vc07lWj1bXAJZAmT6/b4EJDjGQedqb
+         MclpJFlmKtttmIXbDkgGrQy8iKv+bsd2iS4IEOPmzMwN+piRDL96b3QwaGtfID5Ngq4A
+         +y4A==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=rwfx6xZm;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d1-20020a5d4f81000000b002c5a6560c22sor1271190wru.47.2023.03.17.12.13.09
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Fri, 17 Mar 2023 12:13:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=rwfx6xZm;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1679080389;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=1Kshe+lGhyxk/7JNK5Utx0usxBCFNymTZoW/0N0ovLw=;
+        b=8FHTAk8q4fL6Mwwx64Lg6PA+eBWk0+dTZGY3/wgrzD43aVQJEMm3aQGqRGTPVNnuEy
+         6kr7nB8qRerYGfl3OdBPrfha59fa3tRFceogOywD13ik38/VkzaR4O8qC/FHgOqcmwjc
+         +leMTZgkEenNwObHThDJb6a3xGGBQMruy0MjOJpSx0M6TOnoYCS96QZd+YENlLf3cAvV
+         7DJ05gxQZqEtFmk4ntRjGuWQr//FnpB5jYbhZb/GSD7d8t5/yewVh4rwuV1ZcCRzFldR
+         pffOuZDEKBuw/W4Jw2/FH3pN9yCx/OdxK5vQvXbywLn7F6RfM0X+sNCJv9UzVTBO/2TL
+         6L2w==
+X-Gm-Message-State: AO0yUKUxAEwJZCXoZAJjV6UDnlkxz+Km5FgzuNrB4hFIs3GjUEg1QeUB
+	q92V3m7AwmctlelkJhwRvVzfst2VZiBokbUnna5XKFvgY2fgMpA76Q==
+X-Received: by 2002:adf:f405:0:b0:2c8:14ba:4594 with SMTP id g5-20020adff405000000b002c814ba4594mr2303515wro.3.1679080389177;
+        Fri, 17 Mar 2023 12:13:09 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5412:0:0:0:0:0 with SMTP id g18csp627774wrv;
+        Fri, 17 Mar 2023 12:13:05 -0700 (PDT)
+X-Received: by 2002:a2e:9bc4:0:b0:29a:95d8:3e04 with SMTP id w4-20020a2e9bc4000000b0029a95d83e04mr1227056ljj.50.1679080384972;
+        Fri, 17 Mar 2023 12:13:04 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1679080384; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=j2rMGvSVBC3CuaZKVgTmghcxaLGM/2B5hv2XzIzoCeOcr9yAl22Mal49Bk+kqiufb5
+         NsqVx9vyzjfr9T7DcW2/QKns6NSUsmML8xnjb8Uae6RdqgHsbW9b/NkTJxUXwifS8csX
+         RuywQ80g02p3kncafWyGENaNz0eSuTbNLjyCKbscKSvkY3QiztB+HMsLlQ7eXNKEK2ns
+         T22Utdn0Bjh6jI6xVhNLdlfWaQUHPgRu+vOLFQlIDU7wysW4HFCl59UL6z5KGYrmK4hJ
+         4P4MMn2DqZf3kLRdth1NoFNiChAnUvybi0TA84SaaS7gb8Wi0fE0HpALYQ1HjH/Z1HhX
+         5njA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=1Kshe+lGhyxk/7JNK5Utx0usxBCFNymTZoW/0N0ovLw=;
+        b=hSB01/3i4qwVPxUhVkC5P87XfERgVY9RxBGghfH58IwJOkuNgZWMmia8vDC4wRBkLz
+         XUEOQ9mCJjG7RoriOIHzUzR9Sd5nskrQdc5PoGjIqQtxo09exYhzkIh9PBbpkazPlOZ3
+         FGTbdFd8iUej2tjGMXYN3g1qXFB35/IWiNONVSt0LWELFTNSGeiLK1C5xTbvni9BClDg
+         OsZabmkmLpkrkBdqdOML5XUkN5XSEpb2R7l5y0E2i1NCAj0pLvUZYT76asTrw1iH60zk
+         yO2WOQe4jzTlbtBVEP101gvyH9UlVjQk7QFpUg97YePC4FPiPpCewEuf1SlTJ+KJWRsE
+         I1Ww==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=rwfx6xZm;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230317151254.30874255.262423@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230317151254.30874255.262423@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230317151254.30874255.262423@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g19-20020a2eb0d3000000b00299ac65bf8csor1295467ljl.23.2023.03.17.12.13.04
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Fri, 17 Mar 2023 12:13:04 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230317151254.30874255.262423@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set/vEoEwnKj67TqsuW8xoBp9cFDXnxSpRsySrN2Kcqqn5+7rmwcy1INLZdyY8bKOfI9VgMTS+H/Rlk+TQ3yHDY1M8ha8Fiw=
+X-Received: by 2002:a2e:988f:0:b0:29a:8dd0:f6cc with SMTP id b15-20020a2e988f000000b0029a8dd0f6ccmr1155093ljj.15.1679080384659;
+        Fri, 17 Mar 2023 12:13:04 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1679080384; cv=none;
+        d=google.com; s=arc-20160816;
+        b=fWS1fELXVlcPTQA4pWGix5LngWGn24Xusd8wB5qVJitssSgZstcX67sgIYa5+XKbnt
+         7X1vkeUSyK+eH+CtnQgtEWCWvbABhbM9pJlcDichwzW6542r5y7YQwyQuORsaWYM/Hh7
+         /ZlkUqbcX1U+9AFZzny62vI480QY9mHjfX81mUjBtaNGHxCIPqkChnfjoMxupMu0fcjO
+         aWXE3JCO3XsOB2WveBYxu4A6tS3ArYCXJm+DZVJ3cfSsH/aB4RUsgsm61ePJtxyk3wjE
+         xP3Dc+Oa38IC4OUWrLTnmXwBhaFCwwqWMIjSBRiIYbPRgyYg2BSevxPpzUMI6jHCUE66
+         Bg4g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=1Kshe+lGhyxk/7JNK5Utx0usxBCFNymTZoW/0N0ovLw=;
+        b=qlgV2kjnqKlUirpaAIbjHNCi32ZugIibNoBkIr3j88LttQQrW6osIlTL+IH2Zx8YGm
+         oRghNXippqN9Z6lYIjABH8u+sEZyQ8lKtOeqx/SnmXdkCCCK7gdQvJwjictwHILTw8Km
+         dL3sEZHJiFP/CXprQVRhedqGyObDC2XerNUAn8SusR6ZI9whCpTCCjIhmJ3rqifH3BJU
+         H2zcl7FqPsVhjN753/EdU7uuuHMoneV3Y97Ntv9r2XjoJYMP/vuLQT1Ai/vF9Pw+GHRc
+         5f/OYwbafgKlJclVPHT+DcpKvgYvacwAcuFELWtiAHuJu+73dkgAG+NR0KzHFdnPQoLl
+         773g==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=rwfx6xZm;
+       spf=pass (google.com: domain of delivery_20230317151254.30874255.262423@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230317151254.30874255.262423@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230317151254.30874255.262423@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id y33-20020a05651c222100b0029599709f7bsi157844ljq.2.2023.03.17.12.13.03
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 17 Mar 2023 12:13:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230317151254.30874255.262423@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=9/RXgbF5CiEZClhlIMfDEiabbKoNUmpZZYkUqNbCogs=;
+ b=rwfx6xZmaUregn6CZPqX80Mrx8hRgWnSxxsQv8VbIl+D0l0XOVQR0yA3DZGW0iOJGwjmWkHheC7T
+   JdEVJtLI3JJ16ecyYsXnx8ku6y3NFVyiX59crLl+QX46nqAGhluaxQY38u4fBF351Ve/9FL2ywDo
+   PrMsqMOgxO1r69RUX1w=
+Received: from njmta-90.sailthru.com (173.228.155.90) by bloomberg-b.sailthru.com id h2itrs30nu8p for <bloomberg@khamel.com>; Fri, 17 Mar 2023 15:13:02 -0400 (envelope-from <delivery_20230317151254.30874255.262423@mx.sailthru.com>)
+Received: from nj1-illmaroon.flt (172.18.20.34) by njmta-90.sailthru.com id h2itrs1qqbsd for <bloomberg@khamel.com>; Fri, 17 Mar 2023 15:12:54 -0400 (envelope-from <delivery_20230317151254.30874255.262423@mx.sailthru.com>)
+Date: Fri, 17 Mar 2023 15:12:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230317151254.30874255.262423@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEJpZyBCYW5rcyBUcnVzdCBG?=
+ =?utf-8?B?aXJzdCBSZXB1YmxpYyBXaXRowqBUaGVpciBNb25leQ==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_11416263_314781236.1679080374281"
+Precedence: bulk
+X-Feedback-ID: 6358:30874255:campaign:sailthru
+X-TM-ID: 20230317151254.30874255.262423
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illmaroon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cidqq7.5mhj/edffab95
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cidqq7.5mhj/edffab95>, <mailto:unsubscribe_20230317151254.30874255.262423@mx.sailthru.com>
+X-rpcampaign: stjko30874255
+
+------=_Part_11416263_314781236.1679080374281
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Banking is a confidence trick. You put money in the bank today beca=
+use you are confident you can take it out tomorrow; to you, a dollar that
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      (3, 3)
+   =20
+ =20
+
+Banking is a confidence trick. You put money in the bank today because you =
+are confident you can take it out tomorrow; to you, a dollar that you have =
+deposited in the bank is just as good =E2=80=94=C2=A0just as much money =E2=
+=80=94 as a dollar bill in your wallet. If you show up at the ATM at any ti=
+me of day or night, you expect it to give you your dollars. But the bank do=
+esn=E2=80=99t just put your dollars in a box and wait for you to take them =
+out; the bank uses its depositors=E2=80=99 money to make loans or buy bonds=
+, and just keeps a little bit around for people who need cash. If everyone =
+asked for their money back tomorrow, the bank wouldn=E2=80=99t have it. But=
+ everyone is confident that, if=C2=A0they=C2=A0ask for their money back tom=
+orrow, the bank=C2=A0will=C2=A0have it. So they mostly don=E2=80=99t ask fo=
+r it, so=C2=A0when they do, the bank=C2=A0does=C2=A0have it.=C2=A0The wides=
+pread belief that banks have the money is=C2=A0what makes it true.
+This is obvious=C2=A0stuff.
+  [1]
+ Also obvious, and famous, is that it is an unstable equilibrium. If people=
+ stop believing it, it stops being true. If everyone stops believing in a b=
+ank, they will all rush to get their money out, and the bank won=E2=80=99t =
+have it, and their lack of belief will be retrospectively justified. Wherea=
+s if they had kept believing, their belief would also have been justified.
+Isn=E2=80=99t this ridiculous? But there is a deep social purpose to the=C2=
+=A0confidence trick. Banking is a way for people collectively to make long-=
+term, risky bets without noticing them, a way to pool risks so that everyon=
+e is safer and better-off.
+  [2]
+ You and I put our money in the bank because it is =E2=80=9Cmoney in the ba=
+nk,=E2=80=9D it=C2=A0is very safe, and=C2=A0we can use it tomorrow to pay r=
+ent or buy a sandwich. And then the bank goes around making 30-year fixed-r=
+ate mortgage loans: Homeowners=C2=A0could never borrow money from=C2=A0me=
+=C2=A0for 30 years, because I might need the money for a sandwich=C2=A0tomo=
+rrow, but they can borrow from=C2=A0us collectively=C2=A0because the bank h=
+as diversified that liquidity risk among lots of depositors. Or the bank ma=
+kes small-business loans to businesses that might go bankrupt: Those busine=
+sses could never borrow from=C2=A0me, because I need the money and don=E2=
+=80=99t want to take the risk of losing it, but they can borrow from=C2=A0u=
+s collectively=C2=A0because the bank has diversified that credit risk among=
+ lots of depositors and also lots of borrowers.
+All of this is well known and there is a huge social apparatus of bank regu=
+lation and supervision and backstopping that is all designed to make this w=
+ork better, to make it=C2=A0safer, to=C2=A0boost=C2=A0confidence in banks a=
+nd to make it more justified, to make sure that banks=C2=A0do=C2=A0have eno=
+ugh liquidity=C2=A0that if a lot of people ask for money they will get it, =
+that they=C2=A0have enough capital that if they lose money on their loans t=
+hey=E2=80=99ll still have enough to pay depositors, that they don=E2=80=99t=
+ take dumb=C2=A0risks with depositors=E2=80=99 money. Actual confidence in =
+banks, in the US in 2023, is not just =E2=80=9Cwell I am sure the nice peop=
+le down at the bank know what they are doing,=E2=80=9D but also some versio=
+n of =E2=80=9CI am sure that the regulators are keeping an eye on the banks=
+, and that the government will try to save the banks if anything goes too w=
+rong, and that the government can print dollars so it has the=C2=A0capacity=
+=C2=A0to save the banks.=E2=80=9D=C2=A0
+But the basic problem remains: the confidence trick, the multiple equilibri=
+a=C2=A0where trust in banks makes them trustworthy and distrust in banks ma=
+kes them fail. Bankers and bank regulators tend not to talk in these terms,=
+ in part because they tend to take a more practical view of what they are d=
+oing each day but also because=C2=A0talking about it ruins the magic.
+  [3]
+=C2=A0But they know it in their bones; at a deep level they understand that=
+ they are creatures of social confidence, and that preserving that confiden=
+ce is their most important job.
+More specifically they know that if there is a run on a bank, and that bank=
+ goes bust and doesn=E2=80=99t pay depositors, then there will be a run on =
+other banks. And they know that the run can start with a bank that is bad, =
+that is undercapitalized and made poor decisions and in some sense deserves=
+ to fail, but that it can spread to other banks that are good. And they=C2=
+=A0know that =E2=80=9Cgood=E2=80=9D and =E2=80=9Cbad=E2=80=9D are not reall=
+y the things that matter: What makes a bank good is not just its capital ra=
+tios and liquidity position but also=C2=A0confidence, and however good the =
+ratios it is hard for a=C2=A0bank to survive a loss of confidence.
+  [4]
+ They know that they are all interconnected, that they are players in an es=
+sentially social game, and that the goal of the game is not to win but to k=
+eep playing.
+  [5]
+=C2=A0
+If you are in charge of=C2=A0a bank, and=C2=A0there is a run on some other =
+bank, and your bank is fine, you might be tempted to put out a public state=
+ment saying =E2=80=9Cah, see, that bank was bad, so there was a run, but ou=
+r bank is good and has no exposure to that bank,=C2=A0so there is no need f=
+or a run on us.=E2=80=9D Sometimes that is right, the bad bank was idiosync=
+ratically insolvent, and you should just avoid it.=C2=A0But  long experienc=
+e teaches that it=E2=80=99s often wrong. The right statement is often =E2=
+=80=9Chey everyone, that bank is great, there is no reason for a run, and i=
+n fact we are=C2=A0increasing our exposure=C2=A0to that bank, because=C2=A0=
+we=C2=A0are strong and also because we are confident in that bank.=E2=80=9D=
+ You run toward the fire, because  that=E2=80=99s the only way to=C2=A0put =
+it out:
+
+The biggest US banks pledged $30 billion of fresh cash for First Republic B=
+ank to stem the turmoil that has sent depositors fleeing from regional bank=
+s and shaken the country=E2=80=99s financial system.
+JPMorgan Chase & Co., Bank of America Corp., Citigroup Inc. and Wells Fargo=
+ & Co. will contribute $5 billion of uninsured deposits each, while Goldman=
+ Sachs Group Inc. and Morgan Stanley will kick in $2.5 billion apiece, acco=
+rding to a statement Thursday. Other banks will deposit smaller amounts as =
+part of a plan devised along with US regulators.
+=E2=80=9CThis action by America=E2=80=99s largest banks reflects their conf=
+idence in First Republic and in banks of all sizes,=E2=80=9D the banks said=
+ in their statement. The consortium cited the outflows of uninsured deposit=
+s at a small number of banks following the collapse of Silicon Valley Bank =
+and Signature Bank.
+
+One rough way to think about this is that, in the aftermath of the Silicon =
+Valley Bank failure, billions of dollars of deposits have moved out of some=
+ regional banks like First Republic, which seem risky, and into megabanks l=
+ike JPMorgan, which seem safe. So JPMorgan is taking some of those deposits=
+ and putting them back into First Republic, in part as a vote of confidence=
+ and in part because it has nowhere else to put the deposits and might as w=
+ell earn a bit of=C2=A0interest lending them to First Republic.
+  [6]
+
+But I=E2=80=99m not sure that=E2=80=99s all of what=E2=80=99s going on. For=
+ one thing, some of the deposits fleeing out of regional banks are going in=
+to Treasury bills and government money market funds: If you are fleeing you=
+r bank because you=E2=80=99re worried about widespread bank failure, fleein=
+g to=C2=A0another bank is not the most obvious move. And regional banks lik=
+e PNC Financial Services Group and Truist Financial Corp. are putting $1 bi=
+llion of deposits each into First Republic, and it=E2=80=99s not obvious to=
+ me why they would be huge beneficiaries of outflows from First Republic. F=
+leeing a regional bank for a too-big-to-fail megabank makes a kind of sense=
+, but fleeing one regional bank for another would be weirder.
+But it is a good look, for JPMorgan and Citi but especially for PNC and Tru=
+ist, to be the rescuer. The point here is not necessarily that JPMorgan and=
+ Truist have too much cash lying around and can plop it into First Republic=
+ with no problem. The point here is also to=C2=A0signal that=C2=A0JPMorgan =
+and Truist have too much cash lying around and can plop it into First Repub=
+lic with no problem.=C2=A0This consortium rescue of First Republic is suppo=
+sed to send a message=C2=A0that First Republic is strong and can survive, b=
+ut it has the pleasant side effect of sending a message=C2=A0that=C2=A0the =
+rescuing banks are strong and can survive.=C2=A0
+Did it work? Oh,  meh:
+
+First Republic Bank shares tumbled again on Friday, set for their worst wee=
+k ever, as sentiment around the lender remained fragile even after proposal=
+s for $30 billion of aid from Wall Street=E2=80=99s biggest banks.=C2=A0
+Shares of First Republic sank as much as 23% Friday, triggering at least on=
+e volatility halt, bringing its losses for the week to a record 68%. The dr=
+op comes after the bank reported that its borrowings from the US Federal Re=
+serve varied from $20 billion to $109 billion from March 10 to March 15, sa=
+id it was suspending dividend payments and disclosed a dwindling cash posit=
+ion.=C2=A0
+=E2=80=9CWe find it difficult to come up with a realistic scenario where th=
+ere=E2=80=99s residual value for First Republic common equity holders,=E2=
+=80=9D Wedbush analyst David Chiaverini wrote in a note to clients. Chiaver=
+ini downgraded the stock to neutral, cutting his price target to $5 from $1=
+40.
+Atlantic Equities John Heagerty also downgraded First Republic to neutral c=
+iting =E2=80=9Cunprecedented uncertainty=E2=80=9D surrounding the Californi=
+a lender. He said a return to prior leverage ratios for the bank =E2=80=9Cm=
+ay well necessitate a capital raise.=E2=80=9D
+
+But the goal here is not really to save First Republic common equity holder=
+s. The goal is to save confidence in the system. (=E2=80=9CIts shares fell =
+sharply on Friday morning after the bank had said it would cancel its divid=
+end on Thursday,=E2=80=9D  reported the New York Times, which is honestly a=
+ funny sentence: If there is any question about a bank=E2=80=99s ability to=
+ pay its depositors, of course it should not pay a dividend to its sharehol=
+ders!
+  [7]
+)
+Let=E2=80=99s talk about a few contrasts. Silicon Valley Bank   failed last=
+ week because, to oversimplify slightly, its interconnected network of tech=
+-startup and venture-capitalist depositors all worked themselves into a pan=
+ic and rushed to withdraw money all at once, then tweeted indignantly about=
+ how they were justified in doing that and how it was all the Fed=E2=80=99s=
+ fault. It=C2=A0was=C2=A0individually rational for each depositor to take i=
+ts money out and avoid exposure to SVB, but the collective result was quite=
+ bad=C2=A0for SVB and for the banking system and for the VCs and startups t=
+hemselves. Silicon Valley Bank=E2=80=99s Silicon Valley customers, it turne=
+d out, were individually rational but unable to act cooperatively in a mutu=
+ally beneficial way; in the prisoners=E2=80=99 dilemma of a bank run, they =
+all chose to defect.=C2=A0
+Banking analyst Dan Davies was  scathing on Twitter, writing about the Firs=
+t Republic rescue:
+When you tell 11 bankers that someone is in trouble, seems that they ask "h=
+ow can we help". Just don't try that with effective altruists eh.
+And:
+I would also guess that there was no one in that room at the fed saying "we=
+ll actually running on the bank is the rational thing to do actually"
+Ben Thompson was possibly even more scathing  at Stratechery:
+I assumed that Silicon Valley broadly was in the business of taking care of=
+ their own. =E2=80=A6=C2=A0[But] the bank run that resulted made it clear t=
+hat everyone, from venture capitalists to the startups they advised, were s=
+olely concerned about their own welfare, not about the ecosystem as a whole=
+.
+Thompson=E2=80=99s argument in that post is that Silicon Valley used to be =
+an=C2=A0iterated game among repeat players: Venture capitalists had long ca=
+reers and made many investments and would benefit way more from building a =
+good reputation and helping the overall startup ecosystem than they would b=
+y maximizing their winnings on any one deal. But, he argues, as startup exi=
+ts and venture funds have gotten bigger, =E2=80=9Csuccess became less about=
+ a series of victories and more about going big or going home,=E2=80=9D and=
+ that cooperative ethos has weakened.
+It is funny to think of tech founders and venture capitalists as creatures =
+of myopic=C2=A0self-interest, while=C2=A0bank CEOs=C2=A0are the generous al=
+truists, but the point is=C2=A0the bankers don=E2=80=99t have a choice. Ban=
+king is a necessarily social business, banks are interconnected, and=C2=A0t=
+he best and biggest bank is only as good as confidence in the broad banking=
+ system. You can=E2=80=99t =E2=80=9Cgo big or go home=E2=80=9D; even Jamie =
+Dimon has to care about the health of his less competent competitors. If yo=
+u blitzscale the best food-delivery startup and drive all the other food-de=
+livery startups out of business, you win; if you build the best bank and ot=
+her banks start going out of business, that is a mixed bag, at best,=C2=A0f=
+or you.
+The other contrast I want to point to is=C2=A0crypto. Crypto is a social co=
+nstruct like banking, but it is far more=C2=A0obviously=C2=A0socially const=
+ructed. It=E2=80=99s=C2=A0all just stuff that people made up in the last de=
+cade or so. It relies even more on confidence, and that confidence is shaki=
+er.=C2=A0When a bunch of crypto firms went bust last summer, Sam Bankman-Fr=
+ied=E2=80=99s crypto exchange FTX, and his crypto trading firm Alameda Rese=
+arch, often ended up rescuing them. Bankman-Fried got the nickname =E2=80=
+=9CJPEG Morgan,=E2=80=9D referencing J. Pierpont Morgan=E2=80=99s own habit=
+ of rescuing troubled banks to avert panic. This was, I think, smart of him=
+; it was what a good banker would do.=C2=A0Bankman-Fried=E2=80=99s own weal=
+th was very highly leveraged to overall confidence in the crypto ecosystem,=
+ so it was better for him to support failing competitors =E2=80=94=C2=A0and=
+ prop up that confidence =E2=80=94=C2=A0than it would be to let them fail. =
+He was in a cooperative confidence game, and he acted like it.
+Of course =E2=80=9Cconfidence game=E2=80=9D is also a=C2=A0bad thing, and F=
+TX and Alameda went bust themselves in November, which puts Bankman-Fried=
+=E2=80=99s rescues=C2=A0in a worse light: It is good to prop up confidence =
+in a socially beneficial system that runs on=C2=A0confidence, but bad to pr=
+op up confidence in a fraud. And while banking is a matter of confidence in=
+ a long-standing, deeply socially embedded system that finances lots of peo=
+ple=E2=80=99s real-world houses and businesses, crypto exchanges are=C2=A0=
+=E2=80=A6=C2=A0not that. If you are a bank and there is a run on the bank, =
+you will have to sell your mortgage loans and Treasury bonds and whatever, =
+and you will lose money selling them at fire-sale prices, and you might bec=
+ome insolvent and deposits might be at risk and the FDIC and the Fed=C2=A0m=
+ight have to step in. But if you are a crypto bank and there is a run on th=
+e bank, you will have to sell=C2=A0some   magic beans you made up, and you =
+will sell them=C2=A0for zero dollars, and you will become=C2=A0extremely=C2=
+=A0insolvent and your customers might get pennies on the dollar, and the FD=
+IC and the Fed will absolutely not step in because they are not in the cryp=
+to business, but federal prosecutors will be very interested.=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Silicon Valley Bank
+   =20
+ =20
+
+When the Federal Deposit Insurance Corp. seized Silicon Valley Bank last Fr=
+iday, it did what it generally does, which is try to find another bank to b=
+uy SVB. The bank had assets (mostly loans and bonds) worth about $197 billi=
+on as of Dec. 31 (presumably lower as of last Friday as it had sold assets =
+to meet its bank run),
+  [8]
+=C2=A0plus presumably some franchise value for a buyer who might want to do=
+ more business with tech startups and venture capitalists. But there was so=
+me uncertainty there: A lot of SVB=E2=80=99s assets are bonds that are pret=
+ty liquid but, these days, fairly volatile, and a lot of its assets are wei=
+rd loans to startups and influencers=C2=A0that another bank might have a ha=
+rd time understanding in a weekend.
+Meanwhile SVB had liabilities as of Dec. 31 consisting of roughly (1) $8 bi=
+llion of small deposits insured by the FDIC, (2) $15 billion of advances fr=
+om the Federal Home Loan Bank system, which are required to be paid back ah=
+ead of most other claims=C2=A0and (3) $165 billion of large deposits that w=
+ere=C2=A0not=C2=A0insured because they were above the FDIC=E2=80=99s insura=
+nce cap. That comes to about $188 billion, again as of Dec. 31; by last Fri=
+day the numbers were lower because billions of dollars of deposits had left=
+ in the bank run. Presumably the assets and liabilities had shrunk by=C2=A0=
+roughly=C2=A0the same amount =E2=80=94=C2=A0if $20 billion of deposits went=
+ out, then $20 billion of assets were sold to generate the cash =E2=80=94=
+=C2=A0though it would not be surprising if the assets went down a bit faste=
+r.
+But let=E2=80=99s ignore that and just use the December numbers: $197 billi=
+on of assets and $188 billion of more-or-less deposit-like claims. Another =
+bank might have looked at those numbers and said =E2=80=9Chmm, $197 billion=
+ of assets plus an exciting franchise, I=E2=80=99ll pay $210 billion for th=
+at.=E2=80=9D It would write the FDIC a check for $210 billion, the FDIC wou=
+ld pay out $188 billion to depositors and the FHLBs, and there=E2=80=99d be=
+ money left over for SVB=E2=80=99s bondholders and maybe even shareholders.=
+ (I mean, really=C2=A0it would not write a check to the FDIC, it would just=
+=C2=A0assume the deposits: Depositors would wake up on Monday morning to fi=
+nd that their deposits were now at the acquiring bank and everything was fi=
+ne.
+  [9]
+)
+Or another bank might have looked at those numbers, and the weirdness of th=
+e loans and the general bad environment right now, and said =E2=80=9Chmm, $=
+197 billion of assets at a failed bank and I have a day to do due diligence=
+, I=E2=80=99ll pay $150 billion for that.=E2=80=9D That=E2=80=99s enough to=
+ pay out the insured deposits and the FHLB, but it leaves only about 77=C2=
+=A0cents on the dollar for the uninsured depositors.
+  [10]
+=C2=A0
+This is, for reasons we discussed last week, not=C2=A0great; haircutting th=
+e uninsured depositors =E2=80=94=C2=A0when they are thousands of tech start=
+ups who need to make payroll, plus a lot of venture capitalists who are pol=
+itically connected and tweet a lot =E2=80=94=C2=A0would cause a lot of real=
+ economic problems and also potential contagion to other banks. A sensible =
+regulator, getting a bid like that, would not love it. It would say =E2=80=
+=9Chmm could you get to $188 billion, so we could pay out the uninsured dep=
+osits in full?=E2=80=9D I   wrote last week, as this process was starting:
+If you are a bank looking at buying SVB, and you do a detailed analysis of =
+its assets and conclude that they are worth $180 billion, and you come to t=
+he FDIC and say =E2=80=9CI will take over this bank and pay the uninsured d=
+epositors 95 cents on the dollar,=E2=80=9D the FDIC is going to look at you=
+ and say =E2=80=9Cdon=E2=80=99t you mean 100 cents on the dollar,=E2=80=9D =
+and you are going to say =E2=80=9Coh right yes of course, silly me, 100 cen=
+ts on the dollar.=E2=80=9D
+But that assumed that the buyer=E2=80=99s valuation of the assets would be=
+=C2=A0very close to, or above, the amount of the total (insured plus uninsu=
+red) deposits, and the regulators could talk the buyer into rounding up. Ov=
+er a weekend of rushed due diligence in the middle of a banking crisis. In =
+actual fact, a buyer might just say=C2=A0no.
+Or=C2=A0it might say: =E2=80=9CSure, I=E2=80=99ll assume all the deposits, =
+but I=E2=80=99ve had a weekend to do diligence and I am not confident that =
+the assets are worth $188 billion. But you are the FDIC, the Fed is standin=
+g right next to you, and between you you have infinite money: Why don=E2=80=
+=99t you give me a bit of a guarantee? If the assets turn out to be worth $=
+170 billion, I will have lost $18 billion =E2=80=94=C2=A0why don=E2=80=99t =
+you make it up to me? Or at least share in half of the loss, or take the fi=
+rst $10 billion of loss, or take all the losses above $10 billion, or somet=
+hing.=E2=80=9D Just some schmuck insurance in case the assets turn out to b=
+e worth way less than the buyer=C2=A0thought in its rushed review of them.
+You could imagine getting both bids. The FDIC might get:
+=09One bid to value the assets at $188 billion and pay out uninsured deposi=
+tors at 100 cents, but demanding some sort of FDIC/Fed risk-sharing backsto=
+p.=09Another bid to value the assets at $150 billion and pay out uninsured =
+depositors at 77 cents, with no backstop. (Paying a lower price is its own =
+form of insurance.)
+
+If it got those two bids, which should the FDIC take? As a matter of bank r=
+egulation in a crisis I do think that the first bid is=C2=A0obviously=C2=A0=
+better and more likely to prevent contagion and economic trouble. It is als=
+o unlikely to cost the Fed or FDIC much if any money: There does seem to be=
+ some cushion in the asset values, and=C2=A0stabilizing the banking system=
+=C2=A0is the best way to make the assets more valuable so the guarantee doe=
+sn=E2=80=99t have to pay out.=C2=A0
+But as a=C2=A0legal=C2=A0matter the second bid is better, because the FDIC =
+follows a principle of seeking a=C2=A0rescue that has the lowest cost for i=
+ts insurance fund, and the FDIC insurance fund only covers the=C2=A0insured=
+=C2=A0deposits. A bidder who paid out all of the uninsured deposits at face=
+ value, but who in return demanded $1 of risk-sharing from the FDIC, is tec=
+hnically a=C2=A0worse=C2=A0bidder than one who=C2=A0zeroed=C2=A0all the uni=
+nsured deposits at no cost to the FDIC. (There are also political and optic=
+al problems with the government giving a big-bank buyer the upside of buyin=
+g a failed bank, but guaranteeing against the downside.)
+If the FDIC just got a natural bid from a buyer to make all the uninsured d=
+epositors whole with no risk sharing, that would be great. But a bid to hai=
+rcut the uninsured depositors would cause systemic risk, while a bid to mak=
+e them whole in exchange for risk-sharing would be politically tricky and n=
+ot entirely legal.=C2=A0
+Bloomberg News has a the story of   how the FDIC=E2=80=99s sale process fai=
+led over the weekend, which is basically that the FDIC recognized this tens=
+ion and decided it was hopeless:
+
+Martin Gruenberg, chairman of the Federal Deposit Insurance Corp., has help=
+ed sell a lot of banks in his time. =E2=80=A6 But SVB was different. A vast=
+ amount of its customer deposits fell outside the FDIC=E2=80=99s guarantee =
+cap of $250,000, so finding a buyer =E2=80=94 almost certainly another bank=
+ =E2=80=94 to take on the giant liability was a tough sell. Any sweetener, =
+like an agreement with the FDIC to help shoulder future losses, would risk =
+leaving the agency on the hook for more than its share. The FDIC=E2=80=99s =
+own rules force it to seek the least costly outcome for itself, and in this=
+ case, that was potentially to let SVB fail and pay out the insured losses =
+only, regardless of the broader consequences. =C2=A0
+That=E2=80=99s the point Gruenberg stressed in frantic meetings last weeken=
+d at FDIC=E2=80=99s headquarters and on the phone with top officials from t=
+he Federal Reserve and the Treasury Department, the people with knowledge o=
+f the matter said. =E2=80=A6
+The only way to sidestep the obligation to protect the FDIC=E2=80=99s funds=
+, Gruenberg said, was for the government to say that SVB presented a system=
+ic risk to the US economy. That extraordinary step would mean the FDIC=E2=
+=80=99s pot could be used to pay out uninsured losses, with banks that pay =
+into the fund as a regulatory obligation eventually covering the excess cos=
+ts.
+By the time government officials agreed that=E2=80=99s what needed to happe=
+n =E2=80=94 well into Sunday =E2=80=94 the window to find a buyer was closi=
+ng fast.=C2=A0=C2=A0
+Still, even once an auction started, officials were reluctant to let the bi=
+ggest US banks make a bid. A bank like JPMorgan risked exceeding limits on =
+its deposit base, and regulators weren=E2=80=99t willing to waive the rules=
+ to let them in.=C2=A0
+What was left on the table wasn=E2=80=99t necessarily a compelling prospect=
+. To some of the people close to the negotiations, it felt like Gruenberg h=
+ad only agreed to an auction to prove just how uninterested the US banking =
+industry was.
+
+I think you can maybe read between the lines there a little bit and guess t=
+hat the Fed was like =E2=80=9Clet=E2=80=99s rescue the banking system from =
+contagion=E2=80=9D and the FDIC was like =E2=80=9Cno we have a mandate not =
+to spend any money.=E2=80=9D=C2=A0Ultimately the FDIC stepped in to guarant=
+ee the uninsured deposits anyway, without=C2=A0a buyer, and =E2=80=9Cthe ba=
+nk=E2=80=99s new management team doesn=E2=80=99t seem any closer to finding=
+ a buyer=E2=80=9D for the whole bank. Though, as   I said the other day, th=
+at does mean that the government still has the upside: If the banking syste=
+m stabilizes, maybe it will get a better price for SVB than it could have g=
+otten last weekend.
+ Elsewhere:
+
+Just over a year before Silicon Valley Bank=E2=80=99s collapse threatened a=
+ generation of technology startups and their backers, the Federal Reserve B=
+ank of San Francisco appointed a more senior team of examiners to assess th=
+e firm. They started calling out problem after problem.
+As the upgraded crew took over, it fired off a series of formal warnings to=
+ the bank=E2=80=99s leaders, pressing them to fix serious weaknesses in ope=
+rations and technology, according to people with knowledge of the matter.
+Then late last year they flagged a critical problem: The bank needed to imp=
+rove how it tracked interest-rate risks, one of the people said, an issue a=
+t the heart of its abrupt downfall this month.
+
+I mean, to be fair, SVB does seem to have=C2=A0accurately=C2=A0disclosed ho=
+w much money it had lost on its long-dated bond portfolio when interest rat=
+es went up; the problem is that people eventually=C2=A0read=C2=A0that discl=
+osure and panicked. It is possible that SVB would have been better off if i=
+t was worse at tracking interest-rate risks.=C2=A0
+Elsewhere in SVB, Silicon Valley Bank itself is in the hands of the FDIC, b=
+ut=C2=A0before last Friday the bank was owned by a publicly traded holding =
+company called SVB Financial Group, and the holding company is now in sort =
+of a sad limbo. It  announced last Friday:
+On March 10, 2023, SVB Financial Group=E2=80=99s (the =E2=80=9CCompany=E2=
+=80=9D) wholly owned subsidiary, Silicon Valley Bank (the =E2=80=9CBank=E2=
+=80=9D) was closed by the California Department of Financial Protection and=
+ Innovation, and the Federal Deposit Insurance Corporation was appointed as=
+ receiver. The Company is no longer the parent company of the Bank.
+=E2=80=9CThe Company is no longer the parent company of the Bank,=E2=80=9D =
+just a Hemingway story really. Anyway   what=E2=80=99s new with SVB Financi=
+al?
+
+Silicon Valley Bank=E2=80=99s former parent company filed for bankruptcy a =
+week after a run on deposits prompted regulators to seize its banking unit.=
+=C2=A0
+SVB Financial Group listed assets and liabilities of as much as $10 billion=
+ each in a Chapter 11 petition filed in New York. Broker-dealer SVB Securit=
+ies and venture capital arm SVB Capital aren=E2=80=99t included in the fili=
+ng, according to a statement. =E2=80=A6
+SVB =E2=80=9Cbelieves=E2=80=9D it has about $2.2 billion of liquidity and c=
+ounts its equity in SVB Capital and SVB Securities among its assets, accord=
+ing to the statement. It owes bondholders about $3.3 billion.=C2=A0
+
+Those numbers are not zero. The bonds still trade, and I see them quoted at=
+ more than 60 cents on the dollar. In general you expect holding-company bo=
+ndholders to be behind bank depositors in line, so that the bondholders get=
+ nothing unless the depositors are repaid in full.
+  [11]
+=C2=A0But one possible outcome of the weird fractured=C2=A0process here is =
+that the bondholders might get 60 cents on the dollar or more even as the F=
+DIC takes some risk of loss on paying out depositors.
+
+ =20
+   =20
+      There is ethical porn under capitalism
+   =20
+ =20
+
+Or not,=C2=A0I don=E2=80=99t know:
+
+MindGeek, one of the world=E2=80=99s largest and most controversial porn co=
+mpanies and the parent company of Pornhub, has been acquired by Ethical Cap=
+ital Partners, a newly set-up Canadian private equity firm. =E2=80=A6
+The company was brought to the brink of collapse in late 2020 after its fla=
+gship site Pornhub was cut off by the payments networks following investiga=
+tions that identified unlawful content on the platform. The company has den=
+ied allegations of wrongdoing.
+Solomon Friedman, a lawyer and co-founding partner of ECP, told the FT he b=
+elieved the lawsuits as well as criticism of MindGeek stemmed from a misund=
+erstanding of how the company is now safeguarding its content, which had be=
+en spurred in part by the secrecy surrounding the previous owners.
+ECP would not disclose how much it had paid for MindGeek, nor where it had =
+raised the funds that allowed the six buyout co-founders to acquire a compa=
+ny that claims to have more than 115mn daily visitors to porn sites such as=
+ YouPorn and Brazzers.
+Friedman said the management team of ECP, which includes lawyers and former=
+ cannabis investors, have =E2=80=9Ccomplete control of the acquisition and =
+the assets=E2=80=9D, adding that =E2=80=9Cno previous shareholders retain a=
+ny ownership, right or control of the company in any way=E2=80=9D.
+The firm said MindGeek=E2=80=99s remaining executives would continue runnin=
+g the company, but would not disclose who they are.
+=E2=80=9CAt this point we are not identifying the current executives, as th=
+ere is an unfortunate stigma [attached to the industry],=E2=80=9D Friedman =
+said.
+
+Ethical Capital Partners! Yes look if you are setting up a brand-new privat=
+e equity firm with five of your lawyer/cannabis-investor buddies for the so=
+le purpose of buying a porn company, you will be=C2=A0tempted=C2=A0to name =
+it, like, Porn Capital Partners, or We Bought a Pornhub LP, or 69/420=C2=A0=
+Capital Partners, or, I mean, I=E2=80=99m sure you have worse ideas. But =
+=E2=80=9CEthical Capital Partners=E2=80=9D is a much=C2=A0better idea. Just=
+ a thin but necessary layer of deniability there. Your public-pension-fund =
+limited partners, at their board meetings devoted to environmental, social =
+and governance issues, can be like =E2=80=9Cand this quarter we allocated s=
+ome funds to Ethical Capital Partners,=E2=80=9D and the directors will be l=
+ike =E2=80=9Cah yes that sounds very ethical, what exactly do they do again=
+,=E2=80=9D and then there=E2=80=99s an awkward silence and the investment t=
+eam is like =E2=80=9Cwell they do porn.=E2=80=9D But if they=C2=A0don=E2=80=
+=99t=C2=A0ask then it=E2=80=99s great.=C2=A0
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Banks  Borrow $164.8 Billion From Fed in Rush to Backstop Liquidity.=C2=A0B=
+illions of Dollars in Fed Discount Window Suggests  All Is Not Well in Bank=
+ing. UBS, Credit Suisse  Oppose Idea of Forced Combination, Sources Say. Cr=
+edit Suisse Investors See  Bail-In Risk for $82 Billion Bonds. Credit Suiss=
+e and Silicon Valley Bank=E2=80=99s problem is an addiction to clients.=C2=
+=A0Court Asks SEC to Weigh In on  Whether Loans Should Be Securities.=C2=A0=
+Peter Thiel had $50mn in Silicon Valley Bank when it went under.=C2=A0Schwa=
+b Clients Pull $8.8 Billion  From Prime Funds in Three Days.=C2=A0TikTok Sa=
+le Likely to Be  Rejected by China.=C2=A0SEC Charges Cannabis Company Ameri=
+can Patriot Brands, CEO, and Others with Fraud.=C2=A0LME Finds Some Nickel =
+Underlying Its Contracts  Is Missing. Madison Square Garden Owner  Feuds Wi=
+th Part-Time Liquor Inspector.=C2=A0
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Also it is in various ways the unsophisticated version of all of this=
+, and you don=E2=80=99t need to email me to be like =E2=80=9Cactually bank =
+deposits *are* money=E2=80=9D or =E2=80=9Cactually loans create deposits.=
+=E2=80=9D
+
+
+  [2] This discussion draws on Steve Randy Waldman=E2=80=99s Interfluidity =
+post, =E2=80=9CWhy is finance so complex,=E2=80=9D from December 2011. =E2=
+=80=9CFinancial systems help us overcome a collective action problem,=E2=80=
+=9D he writes. =E2=80=9CIn a world of investment projects whose costs and r=
+isks are perfectly transparent, most individuals would be frightened.=E2=80=
+=9D And: =E2=80=9CA banking system is a superposition of fraud and genius t=
+hat interposes itself between investors and entrepreneurs.=E2=80=9D I   wro=
+te earlier this week: =E2=80=9CWaldman describes banking as, broadly speaki=
+ng, an opacity mechanism for credit, a way for society to take a lot of cre=
+dit risk without the people taking that risk quite knowing that that=E2=80=
+=99s what they=E2=80=99re doing. My point yesterday was that it is also an =
+opacity mechanism for interest rates, a way for society to borrow short and=
+ lend long.=E2=80=9D
+
+
+  [3] David Graeber writes: =E2=80=9CThe political is that dimension of soc=
+ial life in which things really do become true if enough people believe the=
+m. The problem is that in order to play the game effectively, one can never=
+ acknowledge this: it may be true that, if I could convince everyone in the=
+ world that I was the King of France, I would in fact become the King of Fr=
+ance; but it would never work if I were to admit that this was the only bas=
+is of my claim. In this sense, politics is very similar to magic.=E2=80=9D =
+Same with banking.
+
+
+  [4] Bagehot wrote probably the most famous sentence ever written about ba=
+nking: =E2=80=9CEvery banker knows that if he has to prove that he is worth=
+y of credit, however good may be his arguments, in fact his credit is gone.=
+=E2=80=9D He goes on: =E2=80=9CBut what we have requires no proof. The whol=
+e rests on an instinctive confidence generated by use and years.=E2=80=9D=
+=20
+
+
+  [5] James Carse: "There are at least two kinds of games. One could be cal=
+led finite, the other infinite. A finite game is played for the purpose of =
+winning, an infinite game for the purpose of continuing the play." Those ar=
+e the first sentences of his 1986 book "Finite and Infinite Games," which h=
+onestly I do not love, but which I definitely learned about from a blog pos=
+t about venture capital.
+
+
+  [6] Telis Demos writes at the Wall Street Journal: =E2=80=9CThe structure=
+ of this deal also highlights that megabanks are hardly in need of another =
+tidal wave of deposits. Already, the biggest banks were in some ways strugg=
+ling with what to do with the surge of cash that came their way during the =
+pandemic. More deposits lead to bigger size, which can raise capital requir=
+ements for global banks, and at times they haven=E2=80=99t seen sufficient =
+loan demand to put that money to work very profitably. Buying more securiti=
+es doesn=E2=80=99t seem like the right answer, either, in light of recent e=
+vents.=E2=80=9D
+
+
+  [7] That said, in banking crises you sometimes hear claims that turning o=
+ff the common-stock dividend would stoke panic and make the bank less solve=
+nt, so the way for it to preserve money was to keep paying the money out to=
+ shareholders. This is intuitively very weird, but also pretty consistent w=
+ith the argument I am making here. You show strength by splashing money aro=
+und wastefully!
+
+
+  [8] Last week   I quoted a balance-sheet value of $212 billion, but that =
+is ignoring about   $15 billion of mark-to-market losses on the held-to-mat=
+urity securities as of Dec. 31. So $197 billion is closer to the assets at =
+market value.
+
+
+  [9] I have oversimplified in another important respect, which is that a b=
+ank that wanted to acquire those assets and thought they were worth $210 bi=
+llion would have to have some *capital* against them. Say you=E2=80=99d wan=
+t about 10% capital these days: If you thought the assets were worth $210 b=
+illion, you=E2=80=99d want to pay out up to $190 billion to depositors and =
+other claimants and put about $20 billion of capital into the new business.=
+ This would both reduce the amount available to pay claimants and require t=
+he buying bank to have, or raise, some extra capital to do the deal.
+
+
+  [10] Like, $150 billion minus $8 billion insured minus $15 billion FHLB i=
+s $127 billion, divided by $165 billion is 0.77. I=E2=80=99m again ignoring=
+ the need to capitalize the new business, etc.; this is very crude.
+
+
+  [11] This is only approximately true, in that the holding company here ha=
+s non-bank assets and the bonds can claim on them. But the regulatory notio=
+n that the holding company is supposed to be a =E2=80=9Csource of strength=
+=E2=80=9D for the bank makes it a bit unseemly for the holding company to h=
+ave value if the bank fails.=20
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cidqq7.5mhj/30a9fc2d.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_11416263_314781236.1679080374281
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Banking is a confidence trick. You put money in the bank today because you =
+are confident you can take it out tomorrow; to you, a dollar that
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBb63b1b4e"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDg3NDI1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzExMzY2Nzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBa0aaf6ec" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30874255&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31136678&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">(3, 3)</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Banking is a confidence trick. You put money i=
+n the bank today because you are confident you can take it out tomorrow; to=
+ you, a dollar that you have deposited in the bank is just as good =E2=80=
+=94=C2=A0just as much <em>money </em>=E2=80=94 as a dollar bill in your wal=
+let. If you show up at the ATM at any time of day or night, you expect it t=
+o give you your dollars. But the bank doesn=E2=80=99t just put your dollars=
+ in a box and wait for you to take them out; the bank uses its depositors=
+=E2=80=99 money to make loans or buy bonds, and just keeps a little bit aro=
+und for people who need cash. If everyone asked for their money back tomorr=
+ow, the bank wouldn=E2=80=99t have it. But everyone is confident that, if=
+=C2=A0<em>they=C2=A0</em>ask for their money back tomorrow, the bank=C2=A0<=
+em>will=C2=A0</em>have it. So they mostly don=E2=80=99t ask for it, so=C2=
+=A0when they do, the bank=C2=A0<em>does=C2=A0</em>have it.=C2=A0The widespr=
+ead belief that banks have the money is=C2=A0<em>what makes it true</em>.</=
+p>
+<p style=3D"margin: 16px 0;">This is obvious=C2=A0stuff.<a class=3D"footnot=
+e-index" href=3D"#footnote-1" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: none !important; background-color: transparent !important; =
+display: inline-block;">
+<span>[1]</span>
+</a> Also obvious, and famous, is that it is an unstable equilibrium. If pe=
+ople stop believing it, it stops being true. If everyone stops believing in=
+ a bank, they will all rush to get their money out, and the bank won=E2=80=
+=99t have it, and their lack of belief will be retrospectively justified. W=
+hereas if they had kept believing, their belief would also have been justif=
+ied.</p>
+<p style=3D"margin: 16px 0;">Isn=E2=80=99t this ridiculous? But there is a =
+deep social purpose to the=C2=A0confidence trick. Banking is a way for peop=
+le collectively to make long-term, risky bets without noticing them, a way =
+to pool risks so that everyone is safer and better-off.<a class=3D"footnote=
+-index" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: none !important; background-color: transparent !important; d=
+isplay: inline-block;">
+<span>[2]</span>
+</a> You and I put our money in the bank because it is =E2=80=9Cmoney in th=
+e bank,=E2=80=9D it=C2=A0is very safe, and=C2=A0we can use it tomorrow to p=
+ay rent or buy a sandwich. And then the bank goes around making 30-year fix=
+ed-rate mortgage loans: Homeowners=C2=A0could never borrow money from=C2=A0=
+<em>me=C2=A0</em>for 30 years, because I might need the money for a sandwic=
+h=C2=A0tomorrow, but they can borrow from=C2=A0<em>us collectively=C2=A0</e=
+m>because the bank has diversified that liquidity risk among lots of deposi=
+tors. Or the bank makes small-business loans to businesses that might go ba=
+nkrupt: Those businesses could never borrow from=C2=A0<em>me</em>, because =
+I need the money and don=E2=80=99t want to take the risk of losing it, but =
+they can borrow from=C2=A0<em>us collectively=C2=A0</em>because the bank ha=
+s diversified that credit risk among lots of depositors and also lots of bo=
+rrowers.</p>
+<p style=3D"margin: 16px 0;">All of this is well known and there is a huge =
+social apparatus of bank regulation and supervision and backstopping that i=
+s all designed to make this work better, to make it=C2=A0<em>safer</em>, to=
+=C2=A0boost<em>=C2=A0</em>confidence in banks and to make it more justified=
+, to make sure that banks=C2=A0<em>do=C2=A0</em>have enough liquidity=C2=A0=
+that if a lot of people ask for money they will get it, that they=C2=A0have=
+ enough capital that if they lose money on their loans they=E2=80=99ll stil=
+l have enough to pay depositors, that they don=E2=80=99t take dumb=C2=A0ris=
+ks with depositors=E2=80=99 money. Actual confidence in banks, in the US in=
+ 2023, is not just =E2=80=9Cwell I am sure the nice people down at the bank=
+ know what they are doing,=E2=80=9D but also some version of =E2=80=9CI am =
+sure that the regulators are keeping an eye on the banks, and that the gove=
+rnment will try to save the banks if anything goes too wrong, and that the =
+government can print dollars so it has the=C2=A0<em>capacity=C2=A0</em>to s=
+ave the banks.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">But the basic problem remains: the confidence =
+trick, the <a href=3D"https://link.mail.bloombergbusiness.com/click/3087425=
+5.262423/aHR0cHM6Ly90d2l0dGVyLmNvbS9tb2Rlc3Rwcm9wb3NhbDEvc3RhdHVzLzE2MzQ5Mj=
+MwMzk0MDkyMDUyNTE_cz00MyZ0PUpYS2hPdDB0MnJ6M2I4ZEpJTmtKalE/607f07ceef4b8524a=
+319a23cB798a2f21" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">multiple equilibria</a>=C2=A0where trust in banks=
+ makes them trustworthy and distrust in banks makes them fail. Bankers and =
+bank regulators tend not to talk in these terms, in part because they tend =
+to take a more practical view of what they are doing each day but also beca=
+use=C2=A0talking about it ruins the magic.<a class=3D"footnote-index" href=
+=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[3]</span>
+</a>=C2=A0But they know it in their bones; at a deep level they understand =
+that they are creatures of social confidence, and that preserving that conf=
+idence is their most important job.</p>
+<p style=3D"margin: 16px 0;">More specifically they know that if there is a=
+ run on a bank, and that bank goes bust and doesn=E2=80=99t pay depositors,=
+ then there will be a run on other banks. And they know that the run can st=
+art with a bank that is <em>bad</em>, that is undercapitalized and made poo=
+r decisions and in some sense deserves to fail, but that it can spread to o=
+ther banks that are <em>good</em>. And they=C2=A0know that =E2=80=9Cgood=E2=
+=80=9D and =E2=80=9Cbad=E2=80=9D are not really the things that matter: Wha=
+t makes a bank good is not just its capital ratios and liquidity position b=
+ut also=C2=A0<em>confidence</em>, and however good the ratios it is hard fo=
+r a=C2=A0bank to survive a loss of confidence.<a class=3D"footnote-index" h=
+ref=3D"#footnote-4" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: none !important; background-color: transparent !important; display: i=
+nline-block;">
+<span>[4]</span>
+</a> They know that they are all interconnected, that they are players in a=
+n essentially social game, and that the goal of the game is not to win but =
+to keep playing.<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: none !important; backgro=
+und-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0</p>
+<p style=3D"margin: 16px 0;">If you are in charge of=C2=A0a bank, and=C2=A0=
+there is a run on some other bank, and your bank is fine, you might be temp=
+ted to put out a public statement saying =E2=80=9Cah, see, that bank was ba=
+d, so there was a run, but our bank is good and has no exposure to that ban=
+k,=C2=A0so there is no need for a run on us.=E2=80=9D Sometimes that is rig=
+ht, the bad bank was idiosyncratically insolvent, and you should just avoid=
+ it.=C2=A0But <a href=3D"https://link.mail.bloombergbusiness.com/click/3087=
+4255.262423/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvUGFuaWNfb2ZfMTkwNyNKLl9=
+QLl9Nb3JnYW4/607f07ceef4b8524a319a23cBb08d7eb3" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> long experience</a=
+> teaches that it=E2=80=99s often wrong. The right statement is often =E2=
+=80=9Chey everyone, that bank is great, there is no reason for a run, and i=
+n fact we are=C2=A0<em>increasing our exposure=C2=A0</em>to that bank, beca=
+use=C2=A0<em>we=C2=A0</em>are strong and also because we are confident in t=
+hat bank.=E2=80=9D You run toward the fire, because <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTYvZmlyc3QtcmVwdWJsaWMtdG8tZ2V0LTMw=
+LWJpbGxpb24tb2YtYmFuay1kZXBvc2l0cy1pbi1yZXNjdWU_Y21waWQ9QkJEMDMxNzIzX01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+MwMzE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBca5da475" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> that=E2=80=99s the only way to=C2=A0put it out</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The biggest US banks pledged $30 billion of fr=
+esh cash for First Republic Bank to stem the turmoil that has sent deposito=
+rs fleeing from regional banks and shaken the country=E2=80=99s financial s=
+ystem.</p>
+<p style=3D"margin: 16px 0;">JPMorgan Chase &amp; Co., Bank of America Corp=
+., Citigroup Inc. and Wells Fargo &amp; Co. will contribute $5 billion of u=
+ninsured deposits each, while Goldman Sachs Group Inc. and Morgan Stanley w=
+ill kick in $2.5 billion apiece, according to a statement Thursday. Other b=
+anks will deposit smaller amounts as part of a plan devised along with US r=
+egulators.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThis action by America=E2=80=99s larg=
+est banks reflects their confidence in First Republic and in banks of all s=
+izes,=E2=80=9D the banks said in their statement. The consortium cited the =
+outflows of uninsured deposits at a small number of banks following the col=
+lapse of Silicon Valley Bank and Signature Bank.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One rough way to think about this is that, in =
+the aftermath of the Silicon Valley Bank failure, <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cubWFya2V0d2F=
+0Y2guY29tL3N0b3J5L3JlZ2lvbmFsLWJhbmtzLWFyZS1zZWVpbmctZmxpZ2h0LW9mLWRlcG9zaX=
+RzLXRvLXRvby1iaWctdG8tZmFpbC1tZWdhYmFua3MtZTA3MmRhYTc/607f07ceef4b8524a319a=
+23cB678c9d77" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">billions of dollars of deposits</a> have moved out of=
+ some regional banks like First Republic, which seem risky, and into megaba=
+nks like JPMorgan, which seem safe. So JPMorgan is taking some of those dep=
+osits and putting them back into First Republic, in part as a vote of confi=
+dence and in part because it has nowhere else to put the deposits and might=
+ as well earn a bit of=C2=A0interest lending them to First Republic.<a clas=
+s=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: none !important; background-color: transparent =
+!important; display: inline-block;">
+<span>[6]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But I=E2=80=99m not sure that=E2=80=99s all of=
+ what=E2=80=99s going on. For one thing, some of the deposits fleeing out o=
+f regional banks are going into Treasury bills and government money market =
+funds: If you are fleeing your bank because you=E2=80=99re worried about wi=
+despread bank failure, fleeing to=C2=A0<em>another bank </em>is not the mos=
+t obvious move. And regional banks like PNC Financial Services Group and Tr=
+uist Financial Corp. are putting $1 billion of deposits each into First Rep=
+ublic, and it=E2=80=99s not obvious to me why <em>they</em> would be huge b=
+eneficiaries of outflows from First Republic. Fleeing a regional bank for a=
+ too-big-to-fail megabank makes a kind of sense, but fleeing one regional b=
+ank for another would be weirder.</p>
+<p style=3D"margin: 16px 0;">But it is a good look, for JPMorgan and Citi b=
+ut especially for PNC and Truist, to be the rescuer. The point here is not =
+necessarily that JPMorgan and Truist have too much cash lying around and ca=
+n plop it into First Republic with no problem. The point here is also to<em=
+>=C2=A0signal that=C2=A0JPMorgan and Truist have too much cash lying around=
+ and can plop it into First Republic with no problem.=C2=A0</em>This consor=
+tium rescue of First Republic is supposed to send a message=C2=A0that First=
+ Republic is strong and can survive, but it has the pleasant side effect of=
+ sending a message=C2=A0that=C2=A0<em>the rescuing banks</em> are strong an=
+d can survive.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Did it work? Oh, <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTcvZmlyc3QtcmVwdWJsaWMtc2hhcmVzLXJlc3VtZS=
+1zbGlkZS1hcy1pbnZlc3RvcnMtYXNzZXNzLWFpZD9jbXBpZD1CQkQwMzE3MjNfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTcm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB831a63da" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ meh</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">First Republic Bank shares tumbled again on Fr=
+iday, set for their worst week ever, as sentiment around the lender remaine=
+d fragile even after proposals for $30 billion of aid from Wall Street=E2=
+=80=99s biggest banks.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Shares of First Republic sank as much as 23% F=
+riday, triggering at least one volatility halt, bringing its losses for the=
+ week to a record 68%. The drop comes after the bank reported that its borr=
+owings from the US Federal Reserve varied from $20 billion to $109 billion =
+from March 10 to March 15, said it was suspending dividend payments and dis=
+closed a dwindling cash position.=C2=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe find it difficult to come up with =
+a realistic scenario where there=E2=80=99s residual value for First Republi=
+c common equity holders,=E2=80=9D Wedbush analyst David Chiaverini wrote in=
+ a note to clients. Chiaverini downgraded the stock to neutral, cutting his=
+ price target to $5 from $140.</p>
+<p style=3D"margin: 16px 0;">Atlantic Equities John Heagerty also downgrade=
+d First Republic to neutral citing =E2=80=9Cunprecedented uncertainty=E2=80=
+=9D surrounding the California lender. He said a return to prior leverage r=
+atios for the bank =E2=80=9Cmay well necessitate a capital raise.=E2=80=9D<=
+/p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But the goal here is not really to save First =
+Republic common equity holders. The goal is to save confidence in the syste=
+m. (=E2=80=9CIts shares fell sharply on Friday morning after the bank had s=
+aid it would cancel its dividend on Thursday,=E2=80=9D <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cubnl0aW=
+1lcy5jb20vMjAyMy8wMy8xNy9idXNpbmVzcy9kZWFsYm9vay9maXJzdC1yZXB1YmxpYy1yZXNjd=
+WUuaHRtbA/607f07ceef4b8524a319a23cB6b79f9cf" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> reported the New York=
+ Times</a>, which is honestly a funny sentence: If there is any question ab=
+out a bank=E2=80=99s ability to pay its depositors, of course it should not=
+ pay a dividend to its shareholders!<a class=3D"footnote-index" href=3D"#fo=
+otnote-7" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none=
+ !important; background-color: transparent !important; display: inline-bloc=
+k;">
+<span>[7]</span>
+</a>)</p>
+<p style=3D"margin: 16px 0;">Let=E2=80=99s talk about a few contrasts. Sili=
+con Valley Bank <a href=3D"https://link.mail.bloombergbusiness.com/click/30=
+874255.262423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+jMtMDMtMTAvc3RhcnR1cC1iYW5rLWhhZC1hLXN0YXJ0dXAtYmFuay1ydW4_Y21waWQ9QkJEMDMx=
+NzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXR=
+tX3Rlcm09MjMwMzE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB=
+ef3bc354" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">  failed last week</a> because, to oversimplify slightly,=
+ its interconnected network of tech-startup and venture-capitalist deposito=
+rs all worked themselves into a panic and rushed to withdraw money all at o=
+nce, then tweeted indignantly about how they were justified in doing that a=
+nd how it was all the Fed=E2=80=99s fault. It=C2=A0<em>was=C2=A0</em>indivi=
+dually rational for each depositor to take its money out and avoid exposure=
+ to SVB, but the collective result was quite bad=C2=A0for SVB and for the b=
+anking system and for the VCs and startups themselves. Silicon Valley Bank=
+=E2=80=99s Silicon Valley customers, it turned out, were individually ratio=
+nal but unable to act cooperatively in a mutually beneficial way; in the pr=
+isoners=E2=80=99 dilemma of a bank run, they all chose to defect.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Banking analyst Dan Davies was <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30874255.262423/aHR0cHM6Ly90d2l0d=
+GVyLmNvbS9kc3F1YXJlZGRpZ2VzdC9zdGF0dXMvMTYzNjQ2MDg4MzE5Mzc2NTkxMg/607f07cee=
+f4b8524a319a23cB4cda26e5" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> scathing on Twitter</a>, writing about t=
+he First Republic rescue:</p>
+<blockquote><p style=3D"margin: 16px 0;">When you tell 11 bankers that some=
+one is in trouble, seems that they ask "how can we help". Just don't try th=
+at with effective altruists eh.</p></blockquote>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30874255.262423/aHR0cHM6Ly90d2l0dGVyLmNvbS9kc3F1YXJlZGRpZ2VzdC9z=
+dGF0dXMvMTYzNjQ2MzQ3OTA0NDQxNTQ4OQ/607f07ceef4b8524a319a23cB836e91bf" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">And</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">I would also guess that there was =
+no one in that room at the fed saying "well actually running on the bank is=
+ the rational thing to do actually"</p></blockquote>
+<p style=3D"margin: 16px 0;">Ben Thompson was possibly even more scathing <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/aHR=
+0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMy90aGUtZGVhdGgtb2Ytc2lsaWNvbi12YWxsZXktYm=
+Fuay8/607f07ceef4b8524a319a23cB5c7f2612" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> at Stratechery</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">I assumed that Silicon Valley broa=
+dly was in the business of taking care of their own. =E2=80=A6=C2=A0[But] t=
+he bank run that resulted made it clear that everyone, from venture capital=
+ists to the startups they advised, were solely concerned about their own we=
+lfare, not about the ecosystem as a whole.</p></blockquote>
+<p style=3D"margin: 16px 0;">Thompson=E2=80=99s argument in that post is th=
+at Silicon Valley <em>used to be</em> an=C2=A0iterated game among repeat pl=
+ayers: Venture capitalists had long careers and made many investments and w=
+ould benefit way more from building a good reputation and helping the overa=
+ll startup ecosystem than they would by maximizing their winnings on any on=
+e deal. But, he argues, as startup exits and venture funds have gotten bigg=
+er, =E2=80=9Csuccess became less about a series of victories and more about=
+ going big or going home,=E2=80=9D and that cooperative ethos has weakened.=
+</p>
+<p style=3D"margin: 16px 0;">It is funny to think of tech founders and vent=
+ure capitalists as creatures of myopic=C2=A0self-interest, while=C2=A0<em>b=
+ank CEOs=C2=A0</em>are the generous altruists, but the point is=C2=A0<em>th=
+e bankers don=E2=80=99t have a choice</em>. Banking is a necessarily social=
+ business, banks are interconnected, and=C2=A0the best and biggest bank is =
+only as good as confidence in the broad banking system. You can=E2=80=99t =
+=E2=80=9Cgo big or go home=E2=80=9D; even Jamie Dimon has to care about the=
+ health of his less competent competitors. If you blitzscale the best food-=
+delivery startup and drive all the other food-delivery startups out of busi=
+ness, you win; if you build the best bank and other banks start going out o=
+f business, that is a mixed bag, at best,=C2=A0<em>for you</em>.</p>
+<p style=3D"margin: 16px 0;">The other contrast I want to point to is=C2=A0=
+crypto. Crypto is a social construct like banking, but it is far more=C2=A0=
+<em>obviously=C2=A0</em>socially constructed. It=E2=80=99s=C2=A0all just st=
+uff that people made up in the last decade or so. It relies even more on co=
+nfidence, and that confidence is shakier.=C2=A0When a bunch of crypto firms=
+ went bust last summer, Sam Bankman-Fried=E2=80=99s crypto exchange FTX, an=
+d his crypto trading firm Alameda Research, often ended up rescuing them. B=
+ankman-Fried got the nickname =E2=80=9CJPEG Morgan,=E2=80=9D referencing J.=
+ Pierpont Morgan=E2=80=99s own habit of rescuing troubled banks to avert pa=
+nic. This was, I think, smart of him; it was what a good banker would do.=
+=C2=A0Bankman-Fried=E2=80=99s own wealth was very highly leveraged to overa=
+ll confidence in the crypto ecosystem, so it was better for him to support =
+failing competitors =E2=80=94=C2=A0and prop up that confidence =E2=80=94=C2=
+=A0than it would be to let them fail. He was in a cooperative confidence ga=
+me, and he acted like it.</p>
+<p style=3D"margin: 16px 0;">Of course =E2=80=9Cconfidence game=E2=80=9D is=
+ also a=C2=A0<em>bad thing</em>, and FTX and Alameda went bust themselves i=
+n November, which puts Bankman-Fried=E2=80=99s rescues=C2=A0in a worse ligh=
+t: It is good to prop up confidence in a socially beneficial system that ru=
+ns on=C2=A0confidence, but bad to prop up confidence in a fraud. And while =
+banking is a matter of confidence in a long-standing, deeply socially embed=
+ded system that finances lots of people=E2=80=99s real-world houses and bus=
+inesses, crypto exchanges are=C2=A0=E2=80=A6=C2=A0not that. If you are a ba=
+nk and there is a run on the bank, you will have to sell your mortgage loan=
+s and Treasury bonds and whatever, and you will lose money selling them at =
+fire-sale prices, and you might become insolvent and deposits might be at r=
+isk and the FDIC and the Fed=C2=A0might have to step in. But if you are a c=
+rypto bank and there is a run on the bank, you will have to sell=C2=A0<em>s=
+ome <a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.26242=
+3/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZ=
+nR4LXMtYmFsYW5jZS1zaGVldC13YXMtYmFkP2NtcGlkPUJCRDAzMTcyM19NT05FWVNUVUZGJnV0=
+bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxNyZ1dG1=
+fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBe200250e" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  ma=
+gic beans you made up</a></em>, and you will sell them=C2=A0<em>for zero do=
+llars</em>, and you will become=C2=A0<em>extremely=C2=A0</em>insolvent and =
+your customers might get pennies on the dollar, and the FDIC and the Fed wi=
+ll absolutely not step in because they are not in the crypto business, but =
+federal prosecutors will be very interested.=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDg3NDI1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzExMzY2Nzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC42207d85" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30874255&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31136678&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDg3NDI1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzExMzY2Nzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD42207d85" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30874255&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31136678&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Silicon Valley Bank</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">When the Federal Deposit Insurance Corp. seize=
+d Silicon Valley Bank last Friday, it did what it generally does, which is =
+try to find another bank to buy SVB. The bank had assets (mostly loans and =
+bonds) worth about $197 billion as of Dec. 31 (presumably lower as of last =
+Friday as it had sold assets to meet its bank run),<a class=3D"footnote-ind=
+ex" href=3D"#footnote-8" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: none !important; background-color: transparent !important; displ=
+ay: inline-block;">
+<span>[8]</span>
+</a>=C2=A0plus presumably some franchise value for a buyer who might want t=
+o do more business with tech startups and venture capitalists. But there wa=
+s some uncertainty there: A lot of SVB=E2=80=99s assets are bonds that are =
+pretty liquid but, these days, fairly volatile, and a lot of its assets are=
+ weird loans to startups and influencers=C2=A0that another bank might have =
+a hard time understanding in a weekend.</p>
+<p style=3D"margin: 16px 0;">Meanwhile SVB had liabilities as of Dec. 31 co=
+nsisting of roughly (1) $8 billion of small deposits insured by the FDIC, (=
+2) $15 billion of advances from the Federal Home Loan Bank system, which ar=
+e required to be paid back ahead of most other claims=C2=A0and (3) $165 bil=
+lion of large deposits that were=C2=A0<em>not=C2=A0</em>insured because the=
+y were above the FDIC=E2=80=99s insurance cap. That comes to about $188 bil=
+lion, again as of Dec. 31; by last Friday the numbers were lower because bi=
+llions of dollars of deposits had left in the bank run. Presumably the asse=
+ts and liabilities had shrunk by=C2=A0<em>roughly=C2=A0</em>the same amount=
+ =E2=80=94=C2=A0if $20 billion of deposits went out, then $20 billion of as=
+sets were sold to generate the cash =E2=80=94=C2=A0though it would not be s=
+urprising if the assets went down a bit faster.</p>
+<p style=3D"margin: 16px 0;">But let=E2=80=99s ignore that and just use the=
+ December numbers: $197 billion of assets and $188 billion of more-or-less =
+deposit-like claims. Another bank might have looked at those numbers and sa=
+id =E2=80=9Chmm, $197 billion of assets plus an exciting franchise, I=E2=80=
+=99ll pay $210 billion for that.=E2=80=9D It would write the FDIC a check f=
+or $210 billion, the FDIC would pay out $188 billion to depositors and the =
+FHLBs, and there=E2=80=99d be money left over for SVB=E2=80=99s bondholders=
+ and maybe even shareholders. (I mean, really=C2=A0it would not write a che=
+ck to the FDIC, it would just=C2=A0<em>assume the deposits: </em>Depositors=
+ would wake up on Monday morning to find that their deposits were now at th=
+e acquiring bank and everything was fine.<a class=3D"footnote-index" href=
+=3D"#footnote-9" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[9]</span>
+</a>)</p>
+<p style=3D"margin: 16px 0;">Or another bank might have looked at those num=
+bers, and the weirdness of the loans and the general bad environment right =
+now, and said =E2=80=9Chmm, $197 billion of assets at a failed bank and I h=
+ave a day to do due diligence, I=E2=80=99ll pay $150 billion for that.=E2=
+=80=9D That=E2=80=99s enough to pay out the insured deposits and the FHLB, =
+but it leaves only about 77=C2=A0cents on the dollar for the uninsured depo=
+sitors.<a class=3D"footnote-index" href=3D"#footnote-10" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: none !important; background-colo=
+r: transparent !important; display: inline-block;">
+<span>[10]</span>
+</a>=C2=A0</p>
+<p style=3D"margin: 16px 0;">This is, for reasons we discussed last week, n=
+ot=C2=A0<em>great</em>; haircutting the uninsured depositors =E2=80=94=C2=
+=A0when they are thousands of tech startups who need to make payroll, plus =
+a lot of venture capitalists who are politically connected and tweet a lot =
+=E2=80=94=C2=A0would cause a lot of real economic problems and also potenti=
+al contagion to other banks. A sensible regulator, getting a bid like that,=
+ would not love it. It would say =E2=80=9Chmm could you get to $188 billion=
+, so we could pay out the uninsured deposits in full?=E2=80=9D I <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC1iYW5=
+rLWhhZC1hLXN0YXJ0dXAtYmFuay1ydW4_Y21waWQ9QkJEMDMxNzIzX01PTkVZU1RVRkYmdXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzE3JnV0bV9jY=
+W1wYWlnbj1tb25leXN0dWZmI2Zvb3Rub3RlLTg/607f07ceef4b8524a319a23cB58afdb59" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">  wrote last week</a>, as this process was starting:</p>
+<blockquote><p style=3D"margin: 16px 0;">If you are a bank looking at buyin=
+g SVB, and you do a detailed analysis of its assets and conclude that they =
+are worth $180 billion, and you come to the FDIC and say =E2=80=9CI will ta=
+ke over this bank and pay the uninsured depositors 95 cents on the dollar,=
+=E2=80=9D the FDIC is going to look at you and say =E2=80=9Cdon=E2=80=99t y=
+ou mean 100 cents on the dollar,=E2=80=9D and you are going to say =E2=80=
+=9Coh right yes of course, silly me, 100 cents on the dollar.=E2=80=9D</p><=
+/blockquote>
+<p style=3D"margin: 16px 0;">But that assumed that the buyer=E2=80=99s valu=
+ation of the assets would be=C2=A0very close to, or above, the amount of th=
+e total (insured plus uninsured) deposits, and the regulators could talk th=
+e buyer into rounding up. Over a weekend of rushed due diligence in the mid=
+dle of a banking crisis. In actual fact, a buyer might just say=C2=A0no.</p=
+>
+<p style=3D"margin: 16px 0;">Or=C2=A0it might say: =E2=80=9CSure, I=E2=80=
+=99ll assume all the deposits, but I=E2=80=99ve had a weekend to do diligen=
+ce and I am not confident that the assets are worth $188 billion. But you a=
+re the FDIC, the Fed is standing right next to you, and between you you hav=
+e infinite money: Why don=E2=80=99t you give me a bit of a guarantee? If th=
+e assets turn out to be worth $170 billion, I will have lost $18 billion =
+=E2=80=94=C2=A0why don=E2=80=99t you make it up to me? Or at least share in=
+ half of the loss, or take the first $10 billion of loss, or take all the l=
+osses above $10 billion, or something.=E2=80=9D Just some schmuck insurance=
+ in case the assets turn out to be worth way less than the buyer=C2=A0thoug=
+ht in its rushed review of them.</p>
+<p style=3D"margin: 16px 0;">You could imagine getting both bids. The FDIC =
+might get:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">One bid to value the assets at $188 bi=
+llion and pay out uninsured depositors at 100 cents, but demanding some sor=
+t of FDIC/Fed risk-sharing backstop.</li>=09<li style=3D"margin-bottom: 5px=
+;">Another bid to value the assets at $150 billion and pay out uninsured de=
+positors at 77 cents, with no backstop. (Paying a lower price is its own fo=
+rm of insurance.)</li>
+</ul>
+<p style=3D"margin: 16px 0;">If it got those two bids, which should the FDI=
+C take? As a matter of bank regulation in a crisis I do think that the firs=
+t bid is=C2=A0<em>obviously=C2=A0</em>better and more likely to prevent con=
+tagion and economic trouble. It is also unlikely to cost the Fed or FDIC mu=
+ch if any money: There does seem to be some cushion in the asset values, an=
+d=C2=A0<em>stabilizing the banking system=C2=A0</em>is the best way to make=
+ the assets more valuable so the guarantee doesn=E2=80=99t have to pay out.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">But as a=C2=A0<em>legal=C2=A0</em>matter the s=
+econd bid is better, because the FDIC follows a principle of seeking a=C2=
+=A0rescue that has the lowest cost for its insurance fund, and the FDIC ins=
+urance fund only covers the=C2=A0insured<em>=C2=A0</em>deposits. A bidder w=
+ho paid out all of the uninsured deposits at face value, but who in return =
+demanded $1 of risk-sharing from the FDIC, is technically a=C2=A0<em>worse=
+=C2=A0</em>bidder than one who=C2=A0<em>zeroed=C2=A0</em>all the uninsured =
+deposits at no cost to the FDIC. (There are also political and optical prob=
+lems with the government giving a big-bank buyer the upside of buying a fai=
+led bank, but guaranteeing against the downside.)</p>
+<p style=3D"margin: 16px 0;">If the FDIC just got a natural bid from a buye=
+r to make all the uninsured depositors whole with no risk sharing, that wou=
+ld be great. But a bid to haircut the uninsured depositors would cause syst=
+emic risk, while a bid to make them whole in exchange for risk-sharing woul=
+d be politically tricky and not entirely legal.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Bloomberg News has a the story of <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTYvc3ZiLWh1bnRzLWZvci1hL=
+WJ1eWVyLWFmdGVyLXRlbnNlLWRyYWdnZWQtb3V0LWZkaWMtc2FsZS1mYWlsZWQ_Y21waWQ9QkJE=
+MDMxNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXI=
+mdXRtX3Rlcm09MjMwMzE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a=
+23cB3e60ff31" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  how the FDIC=E2=80=99s sale process failed over the=
+ weekend</a>, which is basically that the FDIC recognized this tension and =
+decided it was hopeless:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Martin Gruenberg, chairman of the Federal Depo=
+sit Insurance Corp., has helped sell a lot of banks in his time. =E2=80=A6 =
+But SVB was different. A vast amount of its customer deposits fell outside =
+the FDIC=E2=80=99s guarantee cap of $250,000, so finding a buyer =E2=80=94 =
+almost certainly another bank =E2=80=94 to take on the giant liability was =
+a tough sell. Any sweetener, like an agreement with the FDIC to help should=
+er future losses, would risk leaving the agency on the hook for more than i=
+ts share. The FDIC=E2=80=99s own rules force it to seek the least costly ou=
+tcome for itself, and in this case, that was potentially to let SVB fail an=
+d pay out the insured losses only, regardless of the broader consequences. =
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">That=E2=80=99s the point Gruenberg stressed in=
+ frantic meetings last weekend at FDIC=E2=80=99s headquarters and on the ph=
+one with top officials from the Federal Reserve and the Treasury Department=
+, the people with knowledge of the matter said. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The only way to sidestep the obligation to pro=
+tect the FDIC=E2=80=99s funds, Gruenberg said, was for the government to sa=
+y that SVB presented a systemic risk to the US economy. That extraordinary =
+step would mean the FDIC=E2=80=99s pot could be used to pay out uninsured l=
+osses, with banks that pay into the fund as a regulatory obligation eventua=
+lly covering the excess costs.</p>
+<p style=3D"margin: 16px 0;">By the time government officials agreed that=
+=E2=80=99s what needed to happen =E2=80=94 well into Sunday =E2=80=94 the w=
+indow to find a buyer was closing fast.=C2=A0=C2=A0</p>
+<p style=3D"margin: 16px 0;">Still, even once an auction started, officials=
+ were reluctant to let the biggest US banks make a bid. A bank like JPMorga=
+n risked exceeding limits on its deposit base, and regulators weren=E2=80=
+=99t willing to waive the rules to let them in.=C2=A0</p>
+<p style=3D"margin: 16px 0;">What was left on the table wasn=E2=80=99t nece=
+ssarily a compelling prospect. To some of the people close to the negotiati=
+ons, it felt like Gruenberg had only agreed to an auction to prove just how=
+ uninterested the US banking industry was.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I think you can maybe read between the lines t=
+here a little bit and guess that the Fed was like =E2=80=9Clet=E2=80=99s re=
+scue the banking system from contagion=E2=80=9D and the FDIC was like =E2=
+=80=9Cno we have a mandate not to spend any money.=E2=80=9D=C2=A0Ultimately=
+ the FDIC stepped in to guarantee the uninsured deposits anyway, <em>withou=
+t=C2=A0</em>a buyer, and =E2=80=9Cthe bank=E2=80=99s new management team do=
+esn=E2=80=99t seem any closer to finding a buyer=E2=80=9D for the whole ban=
+k. Though, as <a href=3D"https://link.mail.bloombergbusiness.com/click/3087=
+4255.262423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjM=
+tMDMtMTUvc2lsaWNvbi12YWxsZXktYmFuay1pcy1mb3Itc2FsZT9jbXBpZD1CQkQwMzE3MjNfTU=
+9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVyb=
+T0yMzAzMTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB4c46565=
+3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  I said the other day</a>, that does mean that the government=
+ still has the upside: If the banking system stabilizes, maybe it will get =
+a better price for SVB than it could have gotten last weekend.</p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30874255.262423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDMtMTcvZmVkLWFsYXJtcy1hdC1zdmItYmVnYW4tbW9yZS10aGFuLXllYXItYWd=
+vLWFzLWV4YW1pbmVycy1jaGFuZ2VkP2NtcGlkPUJCRDAzMTcyM19NT05FWVNUVUZGJnV0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxNyZ1dG1fY2Ftc=
+GFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB56ba41af" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> Elsewhere=
+</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Just over a year before Silicon Valley Bank=E2=
+=80=99s collapse threatened a generation of technology startups and their b=
+ackers, the Federal Reserve Bank of San Francisco appointed a more senior t=
+eam of examiners to assess the firm. They started calling out problem after=
+ problem.</p>
+<p style=3D"margin: 16px 0;">As the upgraded crew took over, it fired off a=
+ series of formal warnings to the bank=E2=80=99s leaders, pressing them to =
+fix serious weaknesses in operations and technology, according to people wi=
+th knowledge of the matter.</p>
+<p style=3D"margin: 16px 0;">Then late last year they flagged a critical pr=
+oblem: The bank needed to improve how it tracked interest-rate risks, one o=
+f the people said, an issue at the heart of its abrupt downfall this month.=
+</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I mean, to be fair, SVB does seem to have=C2=
+=A0<em>accurately=C2=A0</em>disclosed how much money it had lost on its lon=
+g-dated bond portfolio when interest rates went up; the problem is that peo=
+ple eventually=C2=A0<em>read=C2=A0</em>that disclosure and panicked. It is =
+possible that SVB would have been better off if it was <em>worse</em> at tr=
+acking interest-rate risks.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Elsewhere in SVB, Silicon Valley Bank itself i=
+s in the hands of the FDIC, but=C2=A0before last Friday the bank was owned =
+by a publicly traded holding company called SVB Financial Group, and the ho=
+lding company is now in sort of a sad limbo. It <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cuc2VjLmdvdi9pe=
+D9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvNzE5NzM5LzAwMDExOTMxMjUyMzA2Nzc3Ny9kNDUw=
+NjY0ZDhrLmh0bQ/607f07ceef4b8524a319a23cB93db25c8" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> announced last F=
+riday</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">On March 10, 2023, SVB Financial G=
+roup=E2=80=99s (the =E2=80=9CCompany=E2=80=9D) wholly owned subsidiary, Sil=
+icon Valley Bank (the =E2=80=9CBank=E2=80=9D) was closed by the California =
+Department of Financial Protection and Innovation, and the Federal Deposit =
+Insurance Corporation was appointed as receiver. The Company is no longer t=
+he parent company of the Bank.</p></blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe Company is no longer the parent c=
+ompany of the Bank,=E2=80=9D just a Hemingway story really. Anyway <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTcvc3ZiLWZpbmFuY2lh=
+bC1ncm91cC1maWxlcy1mb3ItY2hhcHRlci0xMS1iYW5rcnVwdGN5LXByb3RlY3Rpb24_Y21waWQ=
+9QkJEMDMxNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZX=
+R0ZXImdXRtX3Rlcm09MjMwMzE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524=
+a319a23cB61fe9d42" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">  what=E2=80=99s new with SVB Financial</a>?</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Silicon Valley Bank=E2=80=99s former parent co=
+mpany filed for bankruptcy a week after a run on deposits prompted regulato=
+rs to seize its banking unit.=C2=A0</p>
+<p style=3D"margin: 16px 0;">SVB Financial Group listed assets and liabilit=
+ies of as much as $10 billion each in a Chapter 11 petition filed in New Yo=
+rk. Broker-dealer SVB Securities and venture capital arm SVB Capital aren=
+=E2=80=99t included in the filing, according to a statement. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">SVB =E2=80=9Cbelieves=E2=80=9D it has about $2=
+.2 billion of liquidity and counts its equity in SVB Capital and SVB Securi=
+ties among its assets, according to the statement. It owes bondholders abou=
+t $3.3 billion.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Those numbers are not zero. The bonds still tr=
+ade, and I see them quoted at more than 60 cents on the dollar. In general =
+you expect holding-company bondholders to be behind bank depositors in line=
+, so that the bondholders get nothing unless the depositors are repaid in f=
+ull.<a class=3D"footnote-index" href=3D"#footnote-11" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: none !important; background-color: =
+transparent !important; display: inline-block;">
+<span>[11]</span>
+</a>=C2=A0But one possible outcome of the weird fractured=C2=A0process here=
+ is that the bondholders might get 60 cents on the dollar or more even as t=
+he FDIC takes some risk of loss on paying out depositors.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">There is ethical porn under capitalism</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Or not,=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQ=
+vNjljMzI5NWUtNmY0NS00YjVmLThlN2ItM2I4ZDU2Y2E0NmM4/607f07ceef4b8524a319a23cB=
+4e72db22" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">I don=E2=80=99t know</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">MindGeek, one of the world=E2=80=99s largest a=
+nd most controversial porn companies and the parent company of Pornhub, has=
+ been acquired by Ethical Capital Partners, a newly set-up Canadian private=
+ equity firm. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The company was brought to the brink of collap=
+se in late 2020 after its flagship site Pornhub was cut off by the payments=
+ networks following investigations that identified unlawful content on the =
+platform. The company has denied allegations of wrongdoing.</p>
+<p style=3D"margin: 16px 0;">Solomon Friedman, a lawyer and co-founding par=
+tner of ECP, told the FT he believed the lawsuits as well as criticism of M=
+indGeek stemmed from a misunderstanding of how the company is now safeguard=
+ing its content, which had been spurred in part by the secrecy surrounding =
+the previous owners.</p>
+<p style=3D"margin: 16px 0;">ECP would not disclose how much it had paid fo=
+r MindGeek, nor where it had raised the funds that allowed the six buyout c=
+o-founders to acquire a company that claims to have more than 115mn daily v=
+isitors to porn sites such as YouPorn and Brazzers.</p>
+<p style=3D"margin: 16px 0;">Friedman said the management team of ECP, whic=
+h includes lawyers and former cannabis investors, have =E2=80=9Ccomplete co=
+ntrol of the acquisition and the assets=E2=80=9D, adding that =E2=80=9Cno p=
+revious shareholders retain any ownership, right or control of the company =
+in any way=E2=80=9D.</p>
+<p style=3D"margin: 16px 0;">The firm said MindGeek=E2=80=99s remaining exe=
+cutives would continue running the company, but would not disclose who they=
+ are.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CAt this point we are not identifying =
+the current executives, as there is an unfortunate stigma [attached to the =
+industry],=E2=80=9D Friedman said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Ethical Capital Partners! Yes look if you are =
+setting up a brand-new private equity firm with five of your lawyer/cannabi=
+s-investor buddies for the sole purpose of buying a porn company, you will =
+be=C2=A0<em>tempted=C2=A0</em>to name it, like, Porn Capital Partners, or W=
+e Bought a Pornhub LP, or 69/420=C2=A0Capital Partners, or, I mean, I=E2=80=
+=99m sure you have worse ideas. But =E2=80=9CEthical Capital Partners=E2=80=
+=9D is a much<em>=C2=A0</em>better idea. Just a thin but necessary layer of=
+ deniability there. Your public-pension-fund limited partners, at their boa=
+rd meetings devoted to environmental, social and governance issues, can be =
+like =E2=80=9Cand this quarter we allocated some funds to Ethical Capital P=
+artners,=E2=80=9D and the directors will be like =E2=80=9Cah yes that sound=
+s very ethical, what exactly do they do again,=E2=80=9D and then there=E2=
+=80=99s an awkward silence and the investment team is like =E2=80=9Cwell th=
+ey do porn.=E2=80=9D But if they=C2=A0<em>don=E2=80=99t=C2=A0</em>ask then =
+it=E2=80=99s great.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Banks <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/30874255.262423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjMtMDMtMTYvYmFua3MtcnVzaC10by1iYWNrc3RvcC1saXF1aWRpdHktYm9yc=
+m93LTE2NC04LWJpbGxpb24tZnJvbS1mZWQ_Y21waWQ9QkJEMDMxNzIzX01PTkVZU1RVRkYmdXRt=
+X21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzE3JnV0bV9=
+jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf68e1b1d" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> Borro=
+w $164.8 Billion From Fed</a> in Rush to Backstop Liquidity.=C2=A0Billions =
+of Dollars in Fed Discount Window Suggests <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjItMTItMTkvYmlsbGlvbnMtb2YtZG9sbGFycy1pbi1mZWQtZGlzY=
+291bnQtd2luZG93LXN1Z2dlc3RzLWFsbC1pcy1ub3Qtd2VsbC1pbi1iYW5raW5nP2NtcGlkPUJC=
+RDAzMTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGV=
+yJnV0bV90ZXJtPTIzMDMxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a31=
+9a23cB9cba5a57" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> All Is Not Well</a> in Banking. UBS, Credit Suisse=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTYvdWJzLWNy=
+ZWRpdC1zdWlzc2UtYXJlLXNhaWQtdG8tb3Bwb3NlLWlkZWEtb2YtZm9yY2VkLWNvbWJpbmF0aW9=
+uP2NtcGlkPUJCRDAzMTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cB372cea3a" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> Oppose Idea of Forced Combination</a>=
+, Sources Say. Credit Suisse Investors See <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTcvY3JlZGl0LXN1aXNzZS1pbnZlc3RvcnMtc2VlLWJha=
+WwtaW4tcmlzay1mb3ItODItYmlsbGlvbi1ib25kcz9jbXBpZD1CQkQwMzE3MjNfTU9ORVlTVFVG=
+RiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTc=
+mdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB8dcc4c94" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> Bail-In Risk</a> for $82 Billion Bonds. Credit Suisse and Silicon Valley =
+Bank=E2=80=99s problem is an <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30874255.262423/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL29waW5p=
+b25zLzIwMjMvMDMvMTYvY3JlZGl0LXN1aXNzZS1zaWxpY29uLXZhbGxleS1iYW5rLWNsaWVudC1=
+jb250cm9sLw/607f07ceef4b8524a319a23cBa6222536" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">addiction to clients=
+</a>.=C2=A0Court Asks SEC to Weigh In on <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjMtMDMtMTYvY291cnQtYXNrcy1zZWMtdG8td2VpZ2gtaW4tb24td2h=
+ldGhlci1sb2Fucy1zaG91bGQtYmUtc2VjdXJpdGllcz9jbXBpZD1CQkQwMzE3MjNfTU9ORVlTVF=
+VGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzM=
+TcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBdc06331c" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Whether Loans Should Be Securities</a>.=C2=A0Peter Thiel <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cu=
+ZnQuY29tL2NvbnRlbnQvN2JjMTExNzYtMjkzYy00YTg5LWJiM2UtNjg2YTZkNGQ5NjIz/607f07=
+ceef4b8524a319a23cB7a15bd25" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">had $50mn in Silicon Valley Bank</a> w=
+hen it went under.=C2=A0Schwab Clients Pull $8.8 Billion <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTYvc2Nod2FiLWNsaWVudHMtcHVsbC0=
+4LTgtYmlsbGlvbi1mcm9tLXByaW1lLWZ1bmRzLWluLXRocmVlLWRheXM_Y21waWQ9QkJEMDMxNz=
+IzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjMwMzE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe0=
+c6d629" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> From Prime Funds</a> in Three Days.=C2=A0TikTok Sale Likel=
+y to Be <a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.2=
+62423/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL3Rpa3Rvay1zYWxlL=
+Wxpa2VseS10by1iZS1yZWplY3RlZC1ieS1jaGluYT91dG1fY2FtcGFpZ249QXV0b21hdGVkK0Zh=
+bGxiYWNrK1ImdXRtX2NvbnRlbnQ9ODkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWNpbyZ=
+1dG1fdGVybT0xOSZyYz0xYmRpNWg/607f07ceef4b8524a319a23cB38220eda" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Re=
+jected by China</a>.=C2=A0SEC Charges <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXN=
+zLXJlbGVhc2UvMjAyMy01NQ/607f07ceef4b8524a319a23cBf8ed0e20" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">Cannabis=
+ Company American Patriot Brands</a>, CEO, and Others with Fraud.=C2=A0LME =
+Finds Some Nickel Underlying Its Contracts <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTcvbG1lLWZpbmRzLWlycmVndWxhcml0aWVzLWluLW5pY=
+2tlbC11bmRlcmx5aW5nLW5pbmUtY29udHJhY3RzP2NtcGlkPUJCRDAzMTcyM19NT05FWVNUVUZG=
+JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxNyZ=
+1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb1b46aae" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Is Missing</a>. Madison Square Garden Owner <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20v=
+MjAyMy8wMy8xNi9ueXJlZ2lvbi9tYWRpc29uLXNxdWFyZS1nYXJkZW4tbGlxdW9yLWludmVzdGl=
+nYXRvci5odG1sP3NtaWQ9dHctc2hhcmU/607f07ceef4b8524a319a23cB0907669d" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> Feuds With Part-Time Liquor Inspector</a>.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30874255.262423/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB754d5695" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30874255.262423/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB17a55b55" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Also it is in various ways the unsophistic=
+ated version of all of this, and you don=E2=80=99t need to email me to be l=
+ike =E2=80=9Cactually bank deposits *are* money=E2=80=9D or =E2=80=9Cactual=
+ly loans create deposits.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] This discussion draws on Steve Randy Waldm=
+an=E2=80=99s Interfluidity post, =E2=80=9C<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cuaW50ZXJmbHVpZGl0eS5=
+jb20vdjIvMjY2OS5odG1s/607f07ceef4b8524a319a23cB6a184694" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">Why is fin=
+ance so complex</a>,=E2=80=9D from December 2011. =E2=80=9CFinancial system=
+s help us overcome a collective action problem,=E2=80=9D he writes. =E2=80=
+=9CIn a world of investment projects whose costs and risks are perfectly tr=
+ansparent, most individuals would be frightened.=E2=80=9D And: =E2=80=9CA b=
+anking system is a superposition of fraud and genius that interposes itself=
+ between investors and entrepreneurs.=E2=80=9D I <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTQvc3ZiLXRvb2stdGhlLXdyb25nLXJpc2t=
+zP2NtcGlkPUJCRDAzMTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cBbd961616" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  wrote earlier this week</a>: =E2=80=
+=9CWaldman describes banking as, broadly speaking, an opacity mechanism for=
+ credit, a way for society to take a lot of credit risk without the people =
+taking that risk quite knowing that that=E2=80=99s what they=E2=80=99re doi=
+ng. My point yesterday was that it is also an opacity mechanism for interes=
+t rates, a way for society to borrow short and lend long.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30874255.262423/aHR0cHM6Ly9ib29rcy5nb29nbGUuY29tL2Jvb2tzP2lk=
+PWxsaVRCUUFBUUJBSiZwZz1QVDUwMSZscGc9UFQ1MDEmZHE9JTIyaWYlMjBJJTIwY291bGQlMjB=
+jb252aW5jZSUyMGV2ZXJ5b25lJTIwaW4lMjB0aGUlMjB3b3JsZCUyMHRoYXQlMjBJJTIwd2FzJT=
+IwdGhlJTIwS2luZyUyMG9mJTIwRnJhbmNlLCUyMEklMjB3b3VsZCUyMGluJTIwZmFjdCUyMGJlY=
+29tZSUyMHRoZSUyMEtpbmclMjBvZiUyMEZyYW5jZSUyMiZzb3VyY2U9Ymwmb3RzPUtNWDJoa1NY=
+al8mc2lnPUFDZlUzVTJIcW9XYU9Wa3IzRUN3Rm5WMDduLXNhLUJKN2cmaGw9ZW4mc2E9WCZ2ZWQ=
+9MmFoVUtFd2lZM1BMLXRPUDlBaFVLTFZrRkhaZ09BQklRNkFGNkJBZ0RFQU0jdj1vbmVwYWdlJn=
+E9JTIyaWYlMjBJJTIwY291bGQlMjBjb252aW5jZSUyMGV2ZXJ5b25lJTIwaW4lMjB0aGUlMjB3b=
+3JsZCUyMHRoYXQlMjBJJTIwd2FzJTIwdGhlJTIwS2luZyUyMG9mJTIwRnJhbmNlJTJDJTIwSSUy=
+MHdvdWxkJTIwaW4lMjBmYWN0JTIwYmVjb21lJTIwdGhlJTIwS2luZyUyMG9mJTIwRnJhbmNlJTI=
+yJmY9ZmFsc2U/607f07ceef4b8524a319a23cB8cde490d" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">David Graeber write=
+s</a>: =E2=80=9CThe political is that dimension of social life in which thi=
+ngs really do become true if enough people believe them. The problem is tha=
+t in order to play the game effectively, one can never acknowledge this: it=
+ may be true that, if I could convince everyone in the world that I was the=
+ King of France, I would in fact become the King of France; but it would ne=
+ver work if I were to admit that this was the only basis of my claim. In th=
+is sense, politics is very similar to magic.=E2=80=9D Same with banking.</p=
+>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30874255.262423/aHR0cHM6Ly9zb2NpYWxzY2llbmNlcy5tY21hc3Rlci5j=
+YS9lY29uL3VnY20vM2xsMy9iYWdlaG90L2xvbWJhcmQuaHRtbA/607f07ceef4b8524a319a23c=
+B8a0cea05" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">Bagehot</a> wrote probably the most famous sentence ever=
+ written about banking: =E2=80=9CEvery banker knows that if he has to prove=
+ that he is worthy of credit, however good may be his arguments, in fact hi=
+s credit is gone.=E2=80=9D He goes on: =E2=80=9CBut what we have requires n=
+o proof. The whole rests on an instinctive confidence generated by use and =
+years.=E2=80=9D </p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] James Carse: "There are at least two kinds=
+ of games. One could be called finite, the other infinite. A finite game is=
+ played for the purpose of winning, an infinite game for the purpose of con=
+tinuing the play." Those are the first sentences of his 1986 book "<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/aHR0cHM6L=
+y93d3cuYW1hem9uLmNvbS9GaW5pdGUtSW5maW5pdGUtR2FtZXMtSmFtZXMtQ2Fyc2UvZHAvMTQ3=
+NjczMTcxMw/607f07ceef4b8524a319a23cBd0b3a806" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Finite and Infinite G=
+ames</a>," which honestly I do not love, but which I definitely learned abo=
+ut from <a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.2=
+62423/aHR0cHM6Ly9hbGV4ZGFuY28uY29tLzIwMjEvMDEvMTEvd2h5LXRoZS1jYW5hZGlhbi10Z=
+WNoLXNjZW5lLWRvZXNudC13b3JrLw/607f07ceef4b8524a319a23cB36902044" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+a blog post about venture capital</a>.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30874255.262423/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9iYW5r=
+cy1iaWctcGxhbi1taWdodC1zb2x2ZS10aGUtaW1tZWRpYXRlLXByb2JsZW0tYnV0LW5vdC10aGU=
+tYmlnZ2VyLW9uZXMtZjM0ODQ4OGM/607f07ceef4b8524a319a23cBa44a15e9" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">Tel=
+is Demos writes</a> at the Wall Street Journal: =E2=80=9CThe structure of t=
+his deal also highlights that megabanks are hardly in need of another tidal=
+ wave of deposits. Already, the biggest banks were in some ways struggling =
+with what to do with the surge of cash that came their way during the pande=
+mic. More deposits lead to bigger size, which can raise capital requirement=
+s for global banks, and at times they haven=E2=80=99t seen sufficient loan =
+demand to put that money to work very profitably. Buying more securities do=
+esn=E2=80=99t seem like the right answer, either, in light of recent events=
+.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] That said, in banking crises you sometimes=
+ hear claims that turning off the common-stock dividend would stoke panic a=
+nd make the bank less solvent, so the way for it to preserve money was to k=
+eep paying the money out to shareholders. This is intuitively very weird, b=
+ut also pretty consistent with the argument I am making here. You show stre=
+ngth by splashing money around wastefully!</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] Last week <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC1iYW5rLWhhZC1hLXN0YXJ0dXAtY=
+mFuay1ydW4_Y21waWQ9QkJEMDMxNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cCef3bc354" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  I quoted</a> a balance-sheet=
+ value of $212 billion, but that is ignoring about <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30874255.262423/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTMvc3ZiLWNvdWxkbi10LWlnbm9yZS1pd=
+HMtbG9zc2VzLWJ1dC10aGUtZmVkLWNhbj9jbXBpZD1CQkQwMzE3MjNfTU9ORVlTVFVGRiZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTcmdXRtX2N=
+hbXBhaWduPW1vbmV5c3R1ZmYjZm9vdG5vdGUtNw/607f07ceef4b8524a319a23cBc796f071" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  $15 billion of mark-to-market losses</a> on the held-to-maturity =
+securities as of Dec. 31. So $197 billion is closer to the assets at market=
+ value.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] I have oversimplified in another important=
+ respect, which is that a bank that wanted to acquire those assets and thou=
+ght they were worth $210 billion would have to have some *capital* against =
+them. Say you=E2=80=99d want about 10% capital these days: If you thought t=
+he assets were worth $210 billion, you=E2=80=99d want to pay out up to $190=
+ billion to depositors and other claimants and put about $20 billion of cap=
+ital into the new business. This would both reduce the amount available to =
+pay claimants and require the buying bank to have, or raise, some extra cap=
+ital to do the deal.</p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] Like, $150 billion minus $8 billion insur=
+ed minus $15 billion FHLB is $127 billion, divided by $165 billion is 0.77.=
+ I=E2=80=99m again ignoring the need to capitalize the new business, etc.; =
+this is very crude.</p>
+</div>
+<div id=3D"footnote-11" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[11] This is only approximately true, in that =
+the holding company here has non-bank assets and the bonds can claim on the=
+m. But the regulatory notion that the holding company is supposed to be a =
+=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.=
+262423/aHR0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUuZ292L3B1YmxpY2F0aW9ucy9maWxlcy9i=
+aGMucGRm/607f07ceef4b8524a319a23cB012dcb80" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">source of strength</a>=
+=E2=80=9D for the bank makes it a bit unseemly for the holding company to h=
+ave value if the bank fails. </p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB65ecab7c" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB5d72c7c3" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB5d6f0fc1" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBfdc56586" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB45b00a9c" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30874255.262423/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC77fa3f36" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30874255.262423/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB89ac8344" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30874255.262423/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBa1ac86c6" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+f06d26b" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30874255.262423/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB1=
+38a3e4e" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cidqq7.5mhj/30a9fc2d.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_11416263_314781236.1679080374281--
+

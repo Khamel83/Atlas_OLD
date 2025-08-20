@@ -1,0 +1,1912 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a17:902:9a01:b0:16a:54e8:a1d8 with SMTP id v1csp3322635plp;
+        Mon, 27 Jun 2022 11:29:22 -0700 (PDT)
+X-Received: by 2002:a05:600c:4282:b0:3a0:2ddf:4df3 with SMTP id v2-20020a05600c428200b003a02ddf4df3mr16839689wmc.45.1656354561849;
+        Mon, 27 Jun 2022 11:29:21 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1656354561; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Ixl2v2CPHLWDK9EZlMzKG4a7E9FjMVRPQaRZk5FO4Z/IzZF7PCnTunlSLzuVK3Kyar
+         f4rhvuuw6rhVQFtTVDBY+ZJaPkPp4t1rg08dnHHtN2XpmKY0J8Vig8fcCYx/mfKa4cWm
+         uGelKhyi97TIHCmowsI52pcHowAnzs91UefaPTq5BaeY7eE5e58g5tEvnk4rIGDYvhyq
+         vUOgLW0wKsrzmtjJye9jx018wFThzJ5btXIcdfcOzTm/Oqsivd7m/Nd5oQe+ly6lzTEx
+         u8sLX9QBwys0JQs5gFHNd73pdNYrcYFa47rg1LNSyLmNqDd7zADO93SPpaKavxX47IM/
+         syOA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=VbScOSPr5RMWq/oVu7elM/6fwPh5Q4yz5JvhwRKS02A=;
+        b=LBfJero8jdeTFTZbcJvF7spazVnj5YBg/WZoS5pngjhJgIG/KYnoCO6xgU/0ieCH4P
+         YCTnsn7Ws0VK++i7MCqg6qmccbmWBBq2qLiqsn17nMejTSiN3dgvutxo7dplJCGNzUhc
+         mJL5H9nUgVUlfoB5F4HTMf9V/wgU4N+c1SFgfcIHXBVqVfRHKYVGfNYC9A+cjuyRp7oV
+         zkl+BjDd23fWN5BF2f1jSZUcLX+cOehWlbnrpJRGziocCsQ2wjECO9zTUpaVr4CDnJtm
+         8WeLcoBl2ttmPM2g2f/ftWKX66Q6OOw0kfnYMVBaTtgvV5Ih2dekhunYjZ8A1MHlQSFZ
+         MfOQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=tlX6K9hu;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i2-20020a05600c14c200b00393e5b3872dsor3493495wmh.14.2022.06.27.11.29.21
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 27 Jun 2022 11:29:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=tlX6K9hu;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=VbScOSPr5RMWq/oVu7elM/6fwPh5Q4yz5JvhwRKS02A=;
+        b=cQgjEgSrGKFbr3ly7U4lnXz9dubnOH3wIEIk+hHoQrls6PnZwdlwK3OOljDosdobb7
+         RsTvDP2AqToFAmSqhOh0PXsC8ULBzV8AhK0HlfiNg0fE/dQpE3m7Xvbl2SQq3ruJ1VKv
+         1tphGZkUkV6Z337TVzPrELkMFk1Sess5h5Cb/dG17Sy0At9Znt7AHtG25p1AxJFXHDah
+         YzR1bQTQHWXRDZBpUwudDtcFcebPg6KtrzdPlBmTgeQbNiwDsXtHZtqDHMxhswAh8euh
+         7LLNZuUSLII3o/X5N7547NL0qP5Kg8/5yywODWS/V647+vYn3MplA6der3stcFB5yffr
+         C1zA==
+X-Gm-Message-State: AJIora8Nh/jDuNyFInmZDdfzO+bE66D1Zp89G0bjbD4o9W8GPB+GnVNF
+	XE8xzNLxG6RkOtKSseXUUrTPs0c+dH+5AI6EjclVYMbIWGPXpop4fA==
+X-Received: by 2002:a1c:6a0d:0:b0:3a0:4b6e:b64e with SMTP id f13-20020a1c6a0d000000b003a04b6eb64emr5949336wmc.188.1656354561078;
+        Mon, 27 Jun 2022 11:29:21 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f1c9:0:0:0:0:0 with SMTP id z9csp6027wro;
+        Mon, 27 Jun 2022 11:29:17 -0700 (PDT)
+X-Received: by 2002:a7b:c354:0:b0:39c:6753:21f8 with SMTP id l20-20020a7bc354000000b0039c675321f8mr17159575wmj.113.1656354556872;
+        Mon, 27 Jun 2022 11:29:16 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1656354556; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=u60KOLCbDGW+8YKpb9fTFdDGG7UkSpXhPoEEcGR0qrFSfb+k4KUYUziDIsABvQy7/y
+         MzAl4h7YLbcYap7LIjvPPOxeU01nuzHOaLc9dBreeH+cl4z7JrlD4bDjUBMqk7C79S51
+         y7OUmZ/3v9pQ5ETSd/9E9f8sM+JeMEbBVwtEPQMzMvwZic43rt0zuaJuRNjXkXd7A7jE
+         flgQqMuZxvQdepkCb8Kn7AgoLeVPw/2EQvw5oRQrm9AfelBCJEBG85D1OJ5n/l8TIObk
+         UkClJ2HQQZe6xO5DvWGn7RYflM9TpzInRPJkbwtxZVgKp5QALcZcT9MVJr4Ctu4MFnof
+         6zxw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=VbScOSPr5RMWq/oVu7elM/6fwPh5Q4yz5JvhwRKS02A=;
+        b=FmdqkDB0dnQ0DC/w5Ulv8le/fYmd8g2AJbm4EtZ0Mesmba0ev/s8hQFZ0B8d/uwKuZ
+         mkycXuYCBIz2KMBXAp2lUkM2/7O5ucps/3NsQ+lp3yKTw9TmnNjjhQl8fcu+TfevJ5rb
+         Rd3Mb5HTHeqSYSm8PQKczvBczySfvURu66XI/vS8uVuMbW0plFu3cb88WVqwGyJ8Fjy8
+         TpWUDV/ev2WbFXsNoMZA06LyWvpnPUPeSX/vWhVIRujfQuAb4Dwftz19Dxi6fJC8LAH5
+         FDNrs/abrRm8VlqaDvG+Njekc5rLrY/VleICVpgLbip7W1zQHKaMC8Bj68pjuFfdJppd
+         skqg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=tlX6K9hu;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220627142851.28194419.268588@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220627142851.28194419.268588@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220627142851.28194419.268588@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x13-20020adff64d000000b00211ae645f9bsor4968435wrp.68.2022.06.27.11.29.16
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 27 Jun 2022 11:29:16 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220627142851.28194419.268588@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGRyM1ty2okHwO3etWRQwTcUyOo4p99BT2U/LSM3tjr3JOaiQ8IP8LgRs+TFOh+JEkRJZuo/LsQCFSVf3MT1T+Aya+q4+7VzUJk=
+X-Received: by 2002:a5d:4e83:0:b0:21b:9dee:d109 with SMTP id e3-20020a5d4e83000000b0021b9deed109mr13521748wru.430.1656354556174;
+        Mon, 27 Jun 2022 11:29:16 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1656354556; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ANdmCScKSi/wNGcdhWMZgtE1IZcYuZVBBH8mC6KXpJqbsIpYXC11jumJW26gT+7G3c
+         j7BRuVRL+W2uKbEVBD6jZzZsKCz7wHVDTIg+UXNaeeMgEXYi48JD06Qr7bu4Eck3DKAW
+         nIDdAKnjrjLKn65NU4ECBjFXN8+hAu6AAIqi+t1oczrAwmc1dO12NhpFj6KLs2YIWJ7B
+         182UWyvGVPJ5k0V+TTDgK3bpGuGOfFoOWG1NLS8Jpnfw1+3tUgtUV95EwPY8MsvSpQE7
+         WVmQRDWv47g9H3d/bd8gCP2MUQeHyHSkC8PJjdbaY40L8n1Gxv8QGa5MVRATxutAzHg0
+         uYQA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=VbScOSPr5RMWq/oVu7elM/6fwPh5Q4yz5JvhwRKS02A=;
+        b=j6gj/ZYE/sdPYDAL66UDIz+yqxz046wNLB8caMSzI8FquSvc4NRM221niqXVfzXtO/
+         bCsr/i4953XxeUJXc5tv7dFwcMO8AwDVTxjIFLyVvJ7IjFq9KOjpGsAdyUWYfimD+Hcv
+         r5ReJda8JRDvTDgAW9BtUdr5rr1VaqQByqJzTPFuvoSWzHaoiAB/HcFocDTHoFGPoD9/
+         9HXuXH42ONfdfRO+5LKsbUA/bDgNGz5x+pdeDFbOirHLhOn9Ah9jmg3hvAdKgESPKppK
+         mXbblk1DKjwMxDaEPSDZ+BDs2aaMsW03ec0zV63xbBys4Ry2T5w+Ae9iUXhEFFAYa82Y
+         0I5Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=tlX6K9hu;
+       spf=pass (google.com: domain of delivery_20220627142851.28194419.268588@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220627142851.28194419.268588@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220627142851.28194419.268588@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id i17-20020a7bc951000000b0039c903985c6si637757wml.2.2022.06.27.11.29.06
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 27 Jun 2022 11:29:16 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220627142851.28194419.268588@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=nM0qH64JmCz76aY2Qjd4iO7wLyuKQqk4oxPsSsjXePY=;
+ b=tlX6K9huuP9VQrwUABIDHElAnXSk0SrQ2z0RZ6/7h+GsSdM/iAzeFA3OjDJVIj92aA6kAb81sD+S
+   EdBVG7SPG6V19s+tv+STaX6r3blKSwB39ihQr9+V+CSej0Gi388BQVMX7V/cpkCErmCZed6pi43x
+   YOoTXvI6DxOeZ1c1zzA=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by bloomberg-b.sailthru.com id hn7rf82tkt0b for <bloomberg@khamel.com>; Mon, 27 Jun 2022 14:28:59 -0400 (envelope-from <delivery_20220627142851.28194419.268588@mx.sailthru.com>)
+Date: Mon, 27 Jun 2022 14:28:51 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220627142851.28194419.268588@sailthru.com>
+Subject: Money Stuff: Meme stocks were too good to Robinhood
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8557432_1398066979.1656354531580"
+Precedence: bulk
+X-Feedback-ID: 6358:28194419:campaign:sailthru
+X-TM-ID: 20220627142851.28194419.268588
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-hotpine.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgsayb.5r8s/3380a8de
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgsayb.5r8s/3380a8de>, <mailto:unsubscribe_20220627142851.28194419.268588@mx.sailthru.com>
+X-rpcampaign: stjko28194419
+
+------=_Part_8557432_1398066979.1656354531580
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Robinhood=E2=80=99s crazy weekRobinhood Markets Inc. is in the busi=
+ness of getting people to trade stock (and options, and cryptocurrencies) o=
+n thei
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Robinhood=E2=80=99s crazy week
+   =20
+ =20
+Robinhood Markets Inc. is in the business of getting people to trade stock =
+(and options, and cryptocurrencies) on their phones. The more people who si=
+gn up for accounts, and the more they trade, the happier Robinhood is. The =
+way it makes money is that each time its customers trade stocks (or options=
+, or cryptocurrencies), Robinhood sends their order to a market maker, and =
+the market maker pays Robinhood a tiny fee for the right to execute the ord=
+er. Unlike many other retail brokers, Robinhood charges these market makers=
+ a variable fee that is, roughly speaking, higher for very volatile stocks.=
+[1] So the more people who sign up for Robinhood=E2=80=99s service, and the=
+ more they trade, and the more volatile the stocks that they trade are, the=
+ more money Robinhood makes.By this standard, the last week of January 2021=
+ was incredibly, incredibly good for Robinhood, an amazingly perfect week. =
+That was the height of the GameStop Corp. meme-stock mania: The whole world=
+=E2=80=99s attention was focused on the soaring price of GameStop stock, wh=
+ich was leading a lot of people to sign up for Robinhood and trade GameStop=
+, and GameStop was very volatile and so Robinhood got paid a lot for tradin=
+g it. Robinhood both increased its future value by signing up a lot of cust=
+omers, and increased its present profits by extracting a lot of money from =
+them each day.There was, however, a problem. When Robinhood=E2=80=99s custo=
+mers buy a stock, the trade does not settle right away: The customer agrees=
+ to buy the stock, and the market maker agrees to sell it to them, but they=
+ don=E2=80=99t actually exchange money for stock until two business days la=
+ter. There is  a credit component to the trade: The buyer has to deliver th=
+e money in two days, and the seller has to deliver the stock. If the stock =
+shoots up over those two days, you might worry that the seller will back ou=
+t of the deal; if the stock crashes, you might worry that the buyer will ba=
+ck out of the deal. In practice, the stock market deals with this risk thro=
+ugh clearinghouses: One giant entity (for US stocks, it=E2=80=99s the Natio=
+nal Securities Clearing Corp., a subsidiary of the Depository Trust & Clear=
+ing Corp.) guarantees all the trades, and clearinghouse members, like Robin=
+hood, post cash with the clearinghouse to guarantee their customers=E2=80=
+=99 trades.[2]Broadly speaking, Robinhood has to post more cash with the cl=
+earinghouse as its customers trade more stocks. And it has to post more cas=
+h as those stocks are more volatile: The more likely it is that a stock wil=
+l crash or moon, the bigger the credit risk is, so the more money is requir=
+ed.=C2=A0By this standard, the last week of January 2021 was incredibly bad=
+ for Robinhood. The GameStop meme-stock mania caused a lot of its customers=
+ to buy GameStop, and caused the price of GameStop to be very volatile, whi=
+ch caused Robinhood to have to post enormous amounts of cash with the clear=
+inghouse, and it happened not to have that cash lying around.=C2=A0And so R=
+obinhood=E2=80=99s otherwise great week came shockingly close to killing it=
+.Last week the US House Financial Services Committee released a report abou=
+t that week at the end of January 2021, and it is fascinating reading. It i=
+s mostly about Robinhood, and specifically it is about the tension=C2=A0ins=
+ide Robinhood between the fact that=C2=A0it was a great week=C2=A0and the f=
+act that=C2=A0it almost blew up Robinhood.So on the one hand, the meme-stoc=
+k week was great for Robinhood=E2=80=99s growth, and the people whose job i=
+t was to make Robinhood grow were excited. On Tuesday, Jan. 26, Elon Musk t=
+weeted =E2=80=9CGamestonk!!,=E2=80=9D which of course pushed up interest in=
+ trading GameStop on Robinhood. A Robinhood product manager emailed about t=
+his: =E2=80=9CFYI massive spike [in Robinhood account openings] in last 30m=
+ likely caused by Elon Musk tweet=E2=80=9D and =E2=80=9Cwe could probably i=
+nteract with this movement to promote RH growth.=E2=80=9D=C2=A0But as the w=
+eek went on, Robinhood got more nervous, both about its cash needs and abou=
+t whether its technology was up to all the activity. So here is a discussio=
+n =E2=80=94=C2=A0at about 11:24 p.m. on Wednesday, Jan. 27 =E2=80=94=C2=A0b=
+etween a brokerage product manager at Robinhood and the firm=E2=80=99s head=
+ of data science:Product manager: conflict brewingProduct manager: we have =
+to keep the growth flywheel runningProduct manager: webull is right on our =
+tailHead of data science: haah dont worry, we need to survive firstThey wan=
+ted to grow to pull ahead of the competition, but growth=C2=A0that week=C2=
+=A0was becoming a problem. Here is how close Robinhood came to blowing up t=
+he next day:On the morning of January 28, 2021, Robinhood had approximately=
+ $696 million in collateral already on deposit with the NSCC, leaving it wi=
+th a collateral deficit of approximately $3 billion, which it was required =
+to post to satisfy the NSCC=E2=80=99s clearing fund requirement or risk bei=
+ng in violation of the NSCC=E2=80=99s rules and potentially losing the abil=
+ity to clear trades for their customers altogether. [President of Robinhood=
+=E2=80=99s clearing operation Jim] Swartwout confirmed that this amount cam=
+e as a surprise to Robinhood and explained to Committee staff that they had=
+ anticipated and prepared for the $1.4 billion of collateral deposit requir=
+ements that represent =E2=80=9Ccore=E2=80=9D charges, but because they did =
+not model for Excess Capital Premium charges, Robinhood therefore did not e=
+xpect and had not arranged adequate funding for the additional $2.2 billion=
+ Excess Capital Premium charge. On the morning of January 28, 2021, Jim Swa=
+rtwout texted [Robinhood Chief Operating Officer] Gretchen Howard at 6:29 a=
+.m. EST, writing =E2=80=9CHuge liquidity issue.=E2=80=9D=C2=A0That is, the =
+clearinghouse called Robinhood and said it needed to post about $3 billion =
+to cover its obligations, and Robinhood didn=E2=80=99t have the money. Ulti=
+mately the clearinghouse waived most of the collateral requirement that day=
+, for Robinhood and some other firms in similar predicaments. If it hadn=E2=
+=80=99t (emphasis added):Without the NSCC=E2=80=99s waiver of Robinhood=E2=
+=80=99s Excess Capital Premium charge, Robinhood=E2=80=99s nonpayment would=
+ have constituted a =E2=80=9Cserious rule violation=E2=80=9D according to t=
+he NSCC=E2=80=99s rules.=C2=A0When a clearing-broker cannot deposit the req=
+uired collateral, the member is in default to the clearinghouse and NSCC ma=
+y =E2=80=9Ccease to act=E2=80=9D for that member under its rules, as the NS=
+CC did for Lehman Brothers on September 24, 2008 and MF Global on October 3=
+1, 2011. When NSCC ceases to act, the clearinghouse assumes control of the =
+defaulted member=E2=80=99s portfolio and liquidates it. This is done to lim=
+it the risk that the defaulted member poses to NSCC and to other nondefault=
+ing NSCC members, who can be subject to mutualized losses if the collateral=
+ already held by NSCC is insufficient to cover losses on the defaulter=E2=
+=80=99s portfolio. Robinhood leadership remained aware during the morning o=
+f January 28, 2021 that the NSCC could effectively eliminate the company=E2=
+=80=99s ability to clear their client=E2=80=99s trades and liquidate the fi=
+rm=E2=80=99s holdings.That would have been bad! =E2=80=9CHypothetically wha=
+t happens if a firm can=E2=80=99t meet their morning NSCC margin settlement=
+,=E2=80=9D an operations manager asked their former boss that morning=C2=A0=
+in a text message. Nothing good!=C2=A0Robinhood responded to the problem =
+=E2=80=94=C2=A0of not having enough money to support its explosive growth =
+=E2=80=94 by raising capital, but also by limiting customer trading in meme=
+ stocks, imposing PCO, =E2=80=9Cposition closing only,=E2=80=9D restriction=
+s to prevent customers from buying more GameStop:As Robinhood employees wor=
+ked through Wednesday, January 27, 2021, to code position=C2=A0limits for m=
+eme stocks, they struggled with how to frame the trading restrictions to th=
+e public and seemed to want to avoid giving their own clients the real reas=
+ons for imposing restrictions. A=C2=A0product manager at Robinhood Financia=
+l asked, =E2=80=9CDo we have a customer facing rational we can=C2=A0provide=
+?=C2=A0In response, a manager in Robinhood=E2=80=99s brokerage responded, =
+=E2=80=9CThe real reason is firm risk and us needing to control the velocit=
+y of trading. =E2=80=A6But we shouldn=E2=80=99t expose that.=E2=80=9DIt als=
+o slowed=C2=A0down new account approvals:According to Robinhood operations =
+staff, turning off auto approval meant that Robinhood=C2=A0was still =E2=80=
+=9Caccepting applications, but approval is turned off. This means a large n=
+umber of customers (were) still applying but (wouldn=E2=80=99t) be approved=
+ immediately,=E2=80=9D delaying their ability to=C2=A0transact on the platf=
+orm. The decision to throttle new account creation arose spontaneously on t=
+he morning of January 28, 2021.=C2=A0During the afternoon of January 28, 20=
+21, Robinhood Director of Account Operations estimated that approximately 3=
+00,000 customer applications were waiting in the queue to be approved. Robi=
+nhood employees discussed when to turn auto approval back on throughout the=
+ day on January 28, 2021 but decided to keep the auto approvals turned off =
+for the remainder of the day due to risk concerns associated with increased=
+ load on their platform. As a Robinhood employee said in a chat discussing =
+when to resume approving accounts, =E2=80=9Cany additional load takes us to=
+ the bottom faster.=E2=80=9DUltimately Robinhood=E2=80=99s decision to turn=
+ off auto approval had a significant impact on the number of new accounts o=
+n its platform. On the morning of January 29, 2021, the next day, Robinhood=
+ Financial=E2=80=99s Director of Brokerage Risk estimated that the number o=
+f customers waiting in the queue for their accounts to be approved had incr=
+eased to approximately 730,000.The meme-stock craze was so good for Robinho=
+od that 430,000 people tried to sign up for its service overnight! And so b=
+ad for Robinhood that it had to ignore all of them.=C2=A0I don=E2=80=99t kn=
+ow. It all worked out, I guess. On Jan. 28, Robinhood Financial President D=
+avid Dusseault told the Robinhood team =E2=80=9Cah we will navigate through=
+ this nscc issue,=E2=80=9D and =E2=80=9Cwe are to big for them to actually =
+shut us down.=E2=80=9D Never something you want to put in writing, but not =
+exactly wrong. The meme-stock craze made Robinhood arguably the most import=
+ant company in finance for a week. It would have been better if Robinhood=
+=E2=80=99s explosive success had made it rich and safe, but making it too b=
+ig to fail also worked.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Russian default
+   =20
+ =20
+Russia has international bonds outstanding, and it has the dollars to make =
+payments on them, but it has been blocked, by sanctions, from making those =
+payments. Yesterday a deadline for making some of those payments expired,  =
+putting Russia officially into default on its bonds. Now what? The Wall Str=
+eet Journal has the traditional answer:In theory, creditors could try to se=
+ize Russian assets abroad, though it is unclear what they might go after. S=
+ome investors have suggested they might claim frozen central-bank reserves =
+or oligarchs=E2=80=99 assets. Bondholders of Venezuelan debt sought assets =
+of a state-owned oil refiner after the country=E2=80=99s default. In 2013, =
+Argentina hired a private jet for the then-president=E2=80=99s trip to Asia=
+ and the Middle East because of the risk of creditors seizing the official =
+aircraft.=C2=A0=E2=80=9CI suspect, remembering what happened with Argentina=
+, that the Americans would be keen to have creditors chasing Russian assets=
+ all over the world,=E2=80=9D said Paul McNamara, an emerging-market fund m=
+anager at GAM. =E2=80=9CIt=E2=80=99s basically contracting out the job of g=
+oing after Russian assets.=E2=80=9D=C2=A0Sure. If there is some stash of do=
+llars (or=C2=A0yachts, houses, etc.) that belong to Russia, the bondholders=
+ could try to seize them. I will tell you where one stash of Russian dollar=
+s might be. The Journal also reports:Russia has plenty of money from oil an=
+d gas sales to pay its foreign debts, which are relatively small compared w=
+ith the size of its economy. But allied Western governments have blocked th=
+e Kremlin=E2=80=99s ability to tap foreign bank accounts or use cross-borde=
+r payment networks to move money.The Treasury Department last month let a p=
+rior sanctions exemption expire that had allowed U.S. banks and investors t=
+o process and receive payments on existing Russian bonds. ...One investor s=
+aid clearinghouse Euroclear received funds for the May interest payments ju=
+st before the Treasury=E2=80=99s exemption expiration. But the funds were f=
+rozen there because of sanctions, unable to be forwarded to his account. La=
+wyers say the bond documents are unclear over whether payments that reached=
+ the clearinghouse, but not the bondholder account, would constitute a form=
+al default.=C2=A0A Euroclear spokesperson didn=E2=80=99t immediately respon=
+d to a request for comment.Okay. Let=E2=80=99s not focus on the technical q=
+uestion of whether it counts as a default if the money gets to Euroclear bu=
+t Euroclear does not (due to sanctions) pass it along to the bondholders. I=
+ just want to make a narrow point here, which is:=09Russia supposedly trans=
+ferred the $100 million for this payment to Euroclear, where it is stuck.=
+=09The bondholders are now, I guess, looking to seize some Russian assets a=
+broad.=09What about that $100 million at Euroclear?Like, Euroclear=C2=A0has=
+=C2=A0that money,[3] and the bondholders=C2=A0want=C2=A0it, but Euroclear c=
+an=E2=80=99t pass it along to them because sanctions prohibit it from passi=
+ng along interest payments on behalf of Russia. But if you utter the right =
+incantations, you can turn that $100 million from =E2=80=9Ca Russian intere=
+st payment=E2=80=9D into =E2=80=9CRussian assets abroad that can be used to=
+ satisfy a default judgment.=E2=80=9D And then Euroclear could give it to t=
+he bondholders. Maybe? Boy is that not legal advice.This does not quite wor=
+k as a matter of=C2=A0arithmetic. Russia has transferred a little bit of mo=
+ney to foreign banks and clearinghouses to make interest payments on its bo=
+nds, and those payments have gotten stuck, and that has led to a default, a=
+nd in theory that default allows the holders of all of Russia=E2=80=99s bil=
+lions of dollars of international bonds to accelerate those bonds and deman=
+d immediate repayment. So there could be a rush of all of the bondholders t=
+o seize money, and the $100 million that might or might not be at Euroclear=
+ won=E2=80=99t come close to satisfying all of their claims.Still it is a s=
+trange sort of default. You could imagine a financial-engineering approach:=
+=09Get all the bondholders together to agree to accelerate the debt and try=
+ to seize Russian assets abroad.=09The bondholders also agree to a payment =
+waterfall: Holders of Bond A get the first $X seized, and then holders of B=
+ond B get the next $Y, and then holders of Bonds C and D share equally in t=
+he next $Z, etc. And $X happens to be the interest payment due on Bond A ne=
+xt month, and $Y happens to be the amount due on repayment of Bond B at mat=
+urity next year, etc.=09On the next interest payment date for Bond A, Russi=
+a transfers $X to a foreign account at some international bank and says =E2=
+=80=9Chey bondholders come seize our money.=E2=80=9D[4]=09The bondholders a=
+pply to the bank to seize the money and give it to the holders of Bond A un=
+der the payment waterfall.=09The bank is like =E2=80=9Csure whatever here y=
+ou go,=C2=A0seizing=C2=A0Russian money isn=E2=80=99t sanctioned, in fact it=
+ is encouraged.=E2=80=9D=09Then Russia pays Bond B the same way.=09Etc.Basi=
+cally you pass the bond payments along to the holders as normal, except tha=
+t instead of calling them =E2=80=9Cbond payments=E2=80=9D you call them =E2=
+=80=9Cassets seized due to acceleration of the bonds in default.=E2=80=9D T=
+he bondholders get paid as normal, but you get to say that Russia is gettin=
+g punished for default instead of paying its debts in the ordinary course. =
+You get to call it a default, but the bondholders get to keep getting paid.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Crypto credit
+   =20
+ =20
+Coinbase Global Inc. got a lot of  bad press last month for describing how =
+bankruptcy works, or might work, for cryptocurrency exchanges. =E2=80=9CBec=
+ause custodially held crypto assets may be considered to be the property of=
+ a bankruptcy estate,=E2=80=9D Coinbase explained in a risk factor in its F=
+orm 10-Q,=C2=A0=E2=80=9Cin the event of a bankruptcy, the crypto assets we =
+hold in custody on behalf of our customers could be subject to bankruptcy p=
+roceedings and such customers could be treated as our general unsecured cre=
+ditors.=E2=80=9DThis quite neutral description of a risk to Coinbase=E2=80=
+=99s creditors sort of blew up, and Coinbase had to go on a weird apology t=
+our in which they told people, well, we=E2=80=99re not=C2=A0planning=C2=A0t=
+o go bankrupt, and we don=E2=80=99t=C2=A0want=C2=A0to seize your crypto dep=
+osits. Coinbase was just warning its users, sensibly, that the law of crypt=
+o customer protection in bankruptcy is not all that clear or well developed=
+, and that there is a serious risk that a crypto bankruptcy would not not w=
+ork out the way you expect if you=E2=80=99re used to traditional financial-=
+industry bankruptcies.There is a lot of stuff like this in crypto. We  talk=
+ed last month about the blowup at TerraUSD, the algorithmic stablecoin. I w=
+rote about a model in which TerraUSD was the =E2=80=9Cdebt=E2=80=9D of the =
+Terra blockchain, while the Luna token was its =E2=80=9Cequity.=E2=80=9D In=
+tuitively, when it blew up, you would expect the holders of the debt to get=
+ whatever=E2=80=99s left (equity in the surviving company, any cash lying a=
+round, etc.), while the holders of the equity would get nothing. But in the=
+ case of Terra, things didn=E2=80=99t work that way: Terra launched a new b=
+lockchain, with some residual value, and gave most of it to Luna holders ra=
+ther than TerraUSD holders. The thing that was supposed to be a senior clai=
+m with a fixed value turned out to be mostly worthless; the thing that was =
+a risky bet on the growth of the network kept its value better (still not w=
+ell).=C2=A0Or here is a CoinDesk story from last week about BlockFi, which =
+announced a $250 million line of credit from FTX:Cryptocurrency investment =
+firm Morgan Creek Digital is attempting to raise $250 million from investor=
+s to purchase a majority stake in crypto lender BlockFi, a leaked investor =
+call from Tuesday reveals. =E2=80=A6=E2=80=9CI=E2=80=99ve been making calls=
+ all day,=E2=80=9D Morgan Creek Digital managing partner Mark Yusko said on=
+ the leaked call.According to Yusko, the FTX credit line proposal had a cat=
+ch for BlockFi=E2=80=99s existing shareholders: It gave FTX the option to b=
+uy BlockFi =E2=80=9Cat essentially zero price.=E2=80=9D If FTX were to exer=
+cise said option, it would effectively wipe out all of BlockFi=E2=80=99s ex=
+isting equity shareholders, including management and employees with stock o=
+ptions, as well as all equity investors in the company=E2=80=99s previous v=
+enture rounds.However, Yusko said on the leaked call that BlockFi founders =
+Zac Prince and Flori Marquez had a valid reason for preliminarily accepting=
+ the terms: Of the several emergency financing offers BlockFi received, FTX=
+=E2=80=99s was the only one that would not subordinate client assets to the=
+ rescuer.In other words, unless BlockFi went with FTX, its depositors would=
+ have had to wait in line behind the new lender to be repaid.Well they=E2=
+=80=99re not =E2=80=9Cdepositors=E2=80=9D exactly, are they, not in the cla=
+ssic banking sense. They look like depositors, sure, but their legal rights=
+ are not so clear.=C2=A0We have  talked a  lot  recently about how crypto h=
+as recreated the pre-2008 financial system, and is now having its own 2008 =
+financial crisis. But this is an important difference. Traditional finance =
+is in large part in the business of=C2=A0creating safe assets:=C2=A0You tak=
+e stuff with some risk (mortgages, bank loans, whatever), you package them =
+in a diversified and tranched way, you  issue senior claims against them, a=
+nd people treat those claims as so safe that they don=E2=80=99t have to wor=
+ry about them. Money in a bank account simply=C2=A0is money; you don=E2=80=
+=99t have to analyze your bank=E2=80=99s financial statements before openin=
+g a checking account. The short-term senior debt of financial institutions =
+is =E2=80=9Cinformation-insensitive.=E2=80=9D=C2=A0There is a sort of divis=
+ion of labor here: Ordinary people can put their money into safe places wit=
+hout thinking too hard about it; smart careful investors can buy equity cla=
+ims on banks or other financial institutions to try to make a profit. But t=
+he careless ordinary people=C2=A0have priority=C2=A0over the smart careful =
+people. The smart careful heavily involved people don=E2=80=99t get paid un=
+less the careless ordinary people get paid first. This is a matter of law a=
+nd banking regulation and the structuring of traditional finance. There are=
+, of course, various possible problems; in 2008 it turned out that some of =
+this information-insensitive debt was built on bad foundations and wasn=E2=
+=80=99t safe. But the basic mechanics of seniority mostly work pretty well.=
+But they are in a sense unnatural. If you started a bank in the state of na=
+ture, and the bank had equity investors who were smart and rich and concent=
+rated and heavily involved in the running of the bank, and then the bank to=
+ok a lot of money from dispersed retail depositors who didn=E2=80=99t pay a=
+ lot of attention and just wanted their money back and had no real idea abo=
+ut the running of the bank, and then the bank ran into trouble, you might e=
+xpect the equity investors to say =E2=80=9Cwell we=E2=80=99ll take whatever=
+ money is left and stiff the depositors.=E2=80=9D And you might not expect =
+the depositors to be very effective at fighting back. And so the equity inv=
+estors might in practice be senior to the depositors, in this state-of-natu=
+re bank. As they effectively were at Terra.Of course if you started a bank =
+in the state of nature nobody would give you any deposits. The reason peopl=
+e put their money in actual banks is that we live in a society and there ar=
+e rules that protect bank deposits, and also everyone is so used to this so=
+ciety and those rules that they don=E2=80=99t think about them. Most bank d=
+epositors do not know much about bank capital and liquidity requirements, b=
+ecause they don=E2=80=99t have to; that is the=C2=A0point=C2=A0of those req=
+uirements.Broadly speaking crypto banking (and quasi-banking) is like banki=
+ng in the state of nature, with no clear rules about seniority and deposito=
+r protection. But it attracts money because=C2=A0people are used to regular=
+ banking. When they see a thing that looks like a bank deposit, but for cry=
+pto, they think it will=C2=A0work like a bank deposit. It doesn=E2=80=99t a=
+lways.Elsewhere here is the Financial Times on the crypto =E2=80=9Ccredit c=
+risis=E2=80=9D:Investors could juice their returns by taking out multiple l=
+oans against the same collateral, a process called =E2=80=9Crecursive borro=
+wing=E2=80=9D. This freedom to recycle capital with little restraint led in=
+vestors to stack up more and more yields in different DeFi projects, earnin=
+g multiple interest rates at once.=E2=80=9CAs with the subprime crisis, it=
+=E2=80=99s something really appealing in terms of yield and it looks like a=
+nd is packaged like a risk-free financial product to ordinary people,=E2=80=
+=9D said Lennix Lai, director of financial markets at crypto exchange OKX.T=
+he financial gymnastics left huge towers of borrowing and theoretical value=
+ teetering on top of the same underlying assets. This kept going while cryp=
+to prices sailed higher. But then inflation, aggressive interest rate rises=
+ and geopolitical shockwaves from the war in Ukraine washed across financia=
+l markets.=E2=80=9CIt all worked during the bull run where the prices of al=
+l the assets went up only. When the prices started going down, a lot of peo=
+ple wanted to take their assets out,=E2=80=9D said Marcin Mi=C5=82osierny, =
+head of market research at crypto hedge fund ARK36.As token values plummete=
+d, the lenders called in their loans. The process has led to the removal of=
+ more than 60 per cent, or $124bn, of the total value locked on the ethereu=
+m blockchain since mid-May in a =E2=80=9CGreat Deleveraging=E2=80=9D, accor=
+ding to research firm Glassnode.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+ Credit Suisse, Cash and Cocaine Converge in Historic Conviction. Inside Ci=
+tigroup=E2=80=99s Attempt to Rally Wall Street to Pressure Gun Sellers. Mor=
+e Hedge Funds Are Betting Against Tether as Crypto Melts Down. Trump-Tied  =
+SPAC Says New York Grand Jury Subpoenaed Its Board. BP  Paid Rural Mexicans=
+ a =E2=80=9CPittance=E2=80=9D for Wall Street=E2=80=99s Favorite Climate So=
+lution. Pension Funds Plunge Into Riskier Bets=E2=80=94Just as Markets Are =
+Struggling. Crypto Meltdown Drags  Lending Returns From 25,000% to Almost Z=
+ero. How Elon Musk Helped Lift the Ceiling on C.E.O. Pay.=C2=A0UK Treasury =
+takes a stake in sex party planner Killing Kittens.If you'd like to get=C2=
+=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=
+=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and other=
+ great Bloomberg newsletters here. Thanks![1] A subplot in the House Financ=
+ial Services=C2=A0Committee report concerns how Robinhood calculates the pa=
+yment for order flow that it gets from market makers. =E2=80=9CMost other b=
+roker-dealers calculate PFOF rebates as a flat fee per share, whereas=C2=A0=
+ Robinhood calculates PFOF rebate rates based on the spread between the pur=
+chase and sale price of each security at the time of executing a=C2=A0trade=
+ on behalf of a customer.=E2=80=9D At volatile times, spreads blow out, bec=
+ause market making is riskier: If the stock is going to move against you by=
+ $1 every time you trade, you need to charge a spread of at least $1. Robin=
+hood=E2=80=99s formula charges PFOF as, essentially, a percentage of the pu=
+blic-market spread. When the spread is very wide because market making is v=
+ery risky, market making is not particularly profitable (you make a lot of =
+money on spreads but lose it on adverse selection), but Robinhood *charges*=
+ its market makers more. The market makers did not love this, and there is =
+a lot of discussion in the report about how Citadel Securities pushed back =
+to lower its PFOF payments to Robinhood. (=E2=80=9CAn employee for Citadel =
+Securities described Robinhood=E2=80=99s PFOF rebates as a runaway freight =
+train in the days leading up to January 28, 2021.=E2=80=9D) Robinhood got a=
+nnoyed at Citadel but also proposed to cap PFOF at $0.003 per share in the =
+meme stocks.=C2=A0[2]=C2=A0This cash is Robinhood=E2=80=99s cash, to guaran=
+tee *its* obligation, as a clearing broker, to the clearinghouse. Separatel=
+y, Robinhood will want to make sure that its customers are good for their o=
+bligations to buy the stocks they agreed to buy, which it might do by, for =
+example, requiring them to have cash in their accounts before doing trades,=
+ etc. (Not always =E2=80=94=C2=A0retail brokers offer margin trading, and s=
+ometimes let you trade before your deposits have cleared, etc. =E2=80=94=C2=
+=A0but broadly speaking this is a solvable sort of risk management problem =
+for the retail brokerage.) But Robinhood can=E2=80=99t just take the cash i=
+n its customers=E2=80=99 accounts and hand it over to the clearinghouse to =
+guarantee its obligations; that cash belongs to the customers.[3] I assume.=
+ I am not completely sure about this =E2=80=94=C2=A0the Journal reported it=
+ as a rumor, and Euroclear =E2=80=9Cdidn=E2=80=99t immediately respond to a=
+ request for comment=E2=80=9D =E2=80=94=C2=A0but the basic principle works =
+even if this specific case is wrong. Russia has tried to send=C2=A0money to=
+ various foreign intermediaries so it can get to bondholders, and the inter=
+mediaries are subject to US and European jurisdiction and don=E2=80=99t pas=
+s it along.[4] This is a hard part, I guess? The transfers here might be tr=
+icky. But, for instance, Russia is still getting hard currency by selling o=
+il, which is allowed under the sanctions regime; presumably it can leave so=
+me of that money in a lightly guarded place and say =E2=80=9Cpsst bondholde=
+rs look over here.=E2=80=9D
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgsayb.5r8s/5a2b0c64.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8557432_1398066979.1656354531580
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Robinhood=E2=80=99s crazy weekRobinhood Markets Inc. is in the business of =
+getting people to trade stock (and options, and cryptocurrencies) on thei
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yODE5NDQxOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0NjMwMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBc55522e0" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D28194419&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28463007&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjI3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MjcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB01fd9586"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yODE5NDQxOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0NjMwMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCd7500166" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D28194419&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28463007&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Robinhood=E2=80=99s crazy week</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Robinhood Markets Inc. is in the busin=
+ess of getting people to trade stock (and options, and cryptocurrencies) on=
+ their phones. The more people who sign up for accounts, and the more they =
+trade, the happier Robinhood is. The way it makes money is that each time i=
+ts customers trade stocks (or options, or cryptocurrencies), Robinhood send=
+s their order to a market maker, and the market maker pays Robinhood a tiny=
+ fee for the right to execute the order. Unlike many other retail brokers, =
+Robinhood charges these market makers a variable fee that is, roughly speak=
+ing, higher for very volatile stocks.[1] So the more people who sign up for=
+ Robinhood=E2=80=99s service, and the more they trade, and the more volatil=
+e the stocks that they trade are, the more money Robinhood makes.</p><p sty=
+le=3D"margin: 16px 0;">By this standard, the last week of January 2021 was =
+incredibly, incredibly good for Robinhood, an amazingly perfect week. That =
+was the height of the GameStop Corp. meme-stock mania: The whole world=E2=
+=80=99s attention was focused on the soaring price of GameStop stock, which=
+ was leading a lot of people to sign up for Robinhood and trade GameStop, a=
+nd GameStop was very volatile and so Robinhood got paid a lot for trading i=
+t. Robinhood both increased its future value by signing up a lot of custome=
+rs, and increased its present profits by extracting a lot of money from the=
+m each day.</p><p style=3D"margin: 16px 0;">There was, however, a problem. =
+When Robinhood=E2=80=99s customers buy a stock, the trade does not settle r=
+ight away: The customer agrees to buy the stock, and the market maker agree=
+s to sell it to them, but they don=E2=80=99t actually exchange money for st=
+ock until two business days later. There is <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/28194419.268588/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMjkvcmVkZGl0LXRyYWRlcnMtb24tcm9iaW5ob29k=
+LWFyZS1vbi1ib3RoLXNpZGVzLW9mLWdhbWVzdG9wP2NtcGlkPUJCRDA2MjcyMl9NT05FWVNUVUZ=
+GJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYyNy=
+Z1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB02a23e70" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> a credit component</a> to the trade: The buyer has to deliver the money i=
+n two days, and the seller has to deliver the stock. If the stock shoots up=
+ over those two days, you might worry that the seller will back out of the =
+deal; if the stock crashes, you might worry that the buyer will back out of=
+ the deal. In practice, the stock market deals with this risk through clear=
+inghouses: One giant entity (for US stocks, it=E2=80=99s the National Secur=
+ities Clearing Corp., a subsidiary of the Depository Trust &amp; Clearing C=
+orp.) guarantees all the trades, and clearinghouse members, like Robinhood,=
+ post cash with the clearinghouse to guarantee their customers=E2=80=99 tra=
+des.[2]</p><p style=3D"margin: 16px 0;">Broadly speaking, Robinhood has to =
+post more cash with the clearinghouse as its customers trade more stocks. A=
+nd it has to post more cash as those stocks are more volatile: The more lik=
+ely it is that a stock will crash or moon, the bigger the credit risk is, s=
+o the more money is required.=C2=A0</p><p style=3D"margin: 16px 0;">By this=
+ standard, the last week of January 2021 was incredibly <em>bad </em>for Ro=
+binhood. The GameStop meme-stock mania caused a lot of its customers to buy=
+ GameStop, and caused the price of GameStop to be very volatile, which caus=
+ed Robinhood to have to post enormous amounts of cash with the clearinghous=
+e, and it happened not to have that cash lying around.=C2=A0</p><p style=3D=
+"margin: 16px 0;">And so Robinhood=E2=80=99s otherwise great week came shoc=
+kingly close to killing it.</p><p style=3D"margin: 16px 0;">Last week the U=
+S House Financial Services Committee <a href=3D"https://link.mail.bloomberg=
+business.com/click/28194419.268588/aHR0cHM6Ly9maW5hbmNpYWxzZXJ2aWNlcy5ob3Vz=
+ZS5nb3YvbmV3cy9kb2N1bWVudHNpbmdsZS5hc3B4P0RvY3VtZW50SUQ9NDA5NTc4/607f07ceef=
+4b8524a319a23cB289299d4" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">released a report</a> about that week at t=
+he end of January 2021, and it is fascinating reading. It is mostly about R=
+obinhood, and specifically it is about the tension=C2=A0inside Robinhood be=
+tween the fact that=C2=A0<em>it was a great week=C2=A0</em>and the fact tha=
+t=C2=A0<em>it almost blew up Robinhood</em>.</p><p style=3D"margin: 16px 0;=
+">So on the one hand, the meme-stock week was great for Robinhood=E2=80=99s=
+ growth, and the people whose job it was to make Robinhood grow were excite=
+d. On Tuesday, Jan. 26, Elon Musk tweeted =E2=80=9CGamestonk!!,=E2=80=9D wh=
+ich of course pushed up interest in trading GameStop on Robinhood. A Robinh=
+ood product manager emailed about this: =E2=80=9CFYI massive spike [in Robi=
+nhood account openings] in last 30m likely caused by Elon Musk tweet=E2=80=
+=9D and =E2=80=9Cwe could probably interact with this movement to promote R=
+H growth.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;">But as the week we=
+nt on, Robinhood got more nervous, both about its cash needs and about whet=
+her its technology was up to all the activity. So here is a discussion =E2=
+=80=94=C2=A0at about 11:24 p.m. on Wednesday, Jan. 27 =E2=80=94=C2=A0betwee=
+n a brokerage product manager at Robinhood and the firm=E2=80=99s head of d=
+ata science:</p><blockquote><p style=3D"margin: 16px 0;"><strong>Product ma=
+nager: </strong>conflict brewing</p><p style=3D"margin: 16px 0;"><strong>Pr=
+oduct manager: </strong>we have to keep the growth flywheel running</p><p s=
+tyle=3D"margin: 16px 0;"><strong>Product manager:</strong> webull is right =
+on our tail</p><p style=3D"margin: 16px 0;"><strong>Head of data science: <=
+/strong>haah dont worry, we need to survive first</p></blockquote><p style=
+=3D"margin: 16px 0;">They wanted to grow to pull ahead of the competition, =
+but growth=C2=A0<em>that week=C2=A0</em>was becoming a problem. Here is how=
+ close Robinhood came to blowing up the next day:</p><blockquote><p style=
+=3D"margin: 16px 0;">On the morning of January 28, 2021, Robinhood had appr=
+oximately $696 million in collateral already on deposit with the NSCC, leav=
+ing it with a collateral deficit of approximately $3 billion, which it was =
+required to post to satisfy the NSCC=E2=80=99s clearing fund requirement or=
+ risk being in violation of the NSCC=E2=80=99s rules and potentially losing=
+ the ability to clear trades for their customers altogether. [President of =
+Robinhood=E2=80=99s clearing operation Jim] Swartwout confirmed that this a=
+mount came as a surprise to Robinhood and explained to Committee staff that=
+ they had anticipated and prepared for the $1.4 billion of collateral depos=
+it requirements that represent =E2=80=9Ccore=E2=80=9D charges, but because =
+they did not model for Excess Capital Premium charges, Robinhood therefore =
+did not expect and had not arranged adequate funding for the additional $2.=
+2 billion Excess Capital Premium charge. On the morning of January 28, 2021=
+, Jim Swartwout texted [Robinhood Chief Operating Officer] Gretchen Howard =
+at 6:29 a.m. EST, writing =E2=80=9CHuge liquidity issue.=E2=80=9D=C2=A0</p>=
+</blockquote><p style=3D"margin: 16px 0;">That is, the clearinghouse called=
+ Robinhood and said it needed to post about $3 billion to cover its obligat=
+ions, and Robinhood didn=E2=80=99t have the money. Ultimately the clearingh=
+ouse waived most of the collateral requirement that day, for Robinhood and =
+some other firms in similar predicaments. If it hadn=E2=80=99t (emphasis ad=
+ded):</p><blockquote><p style=3D"margin: 16px 0;">Without the NSCC=E2=80=99=
+s waiver of Robinhood=E2=80=99s Excess Capital Premium charge, Robinhood=E2=
+=80=99s nonpayment would have constituted a =E2=80=9Cserious rule violation=
+=E2=80=9D according to the NSCC=E2=80=99s rules.=C2=A0When a clearing-broke=
+r cannot deposit the required collateral, the member is in default to the c=
+learinghouse and NSCC may =E2=80=9Ccease to act=E2=80=9D for that member un=
+der its rules, as the NSCC did for Lehman Brothers on September 24, 2008 an=
+d MF Global on October 31, 2011. <strong>When NSCC ceases to act, the clear=
+inghouse assumes control of the defaulted member=E2=80=99s portfolio and li=
+quidates it.</strong> This is done to limit the risk that the defaulted mem=
+ber poses to NSCC and to other nondefaulting NSCC members, who can be subje=
+ct to mutualized losses if the collateral already held by NSCC is insuffici=
+ent to cover losses on the defaulter=E2=80=99s portfolio. Robinhood leaders=
+hip remained aware during the morning of January 28, 2021 that the NSCC cou=
+ld effectively eliminate the company=E2=80=99s ability to clear their clien=
+t=E2=80=99s trades and liquidate the firm=E2=80=99s holdings.</p></blockquo=
+te><p style=3D"margin: 16px 0;">That would have been bad! =E2=80=9CHypothet=
+ically what happens if a firm can=E2=80=99t meet their morning NSCC margin =
+settlement,=E2=80=9D an operations manager asked their former boss that mor=
+ning=C2=A0in a text message. Nothing good!=C2=A0</p><p style=3D"margin: 16p=
+x 0;">Robinhood responded to the problem =E2=80=94=C2=A0of not having enoug=
+h money to support its explosive growth =E2=80=94 by raising capital, but a=
+lso by limiting customer trading in meme stocks, imposing PCO, =E2=80=9Cpos=
+ition closing only,=E2=80=9D restrictions to prevent customers from buying =
+more GameStop:</p><blockquote><p style=3D"margin: 16px 0;">As Robinhood emp=
+loyees worked through Wednesday, January 27, 2021, to code position=C2=A0li=
+mits for meme stocks, they struggled with how to frame the trading restrict=
+ions to the public and seemed to want to avoid giving their own clients the=
+ real reasons for imposing restrictions. A=C2=A0product manager at Robinhoo=
+d Financial asked, =E2=80=9CDo we have a customer facing rational we can=C2=
+=A0provide?=C2=A0In response, a manager in Robinhood=E2=80=99s brokerage re=
+sponded, =E2=80=9CThe real reason is firm risk and us needing to control th=
+e velocity of trading. =E2=80=A6But we shouldn=E2=80=99t expose that.=E2=80=
+=9D</p></blockquote><p style=3D"margin: 16px 0;">It also slowed=C2=A0down n=
+ew account approvals:</p><blockquote><p style=3D"margin: 16px 0;">According=
+ to Robinhood operations staff, turning off auto approval meant that Robinh=
+ood=C2=A0was still =E2=80=9Caccepting applications, but approval is turned =
+off. This means a large number of customers (were) still applying but (woul=
+dn=E2=80=99t) be approved immediately,=E2=80=9D delaying their ability to=
+=C2=A0transact on the platform. The decision to throttle new account creati=
+on arose spontaneously on the morning of January 28, 2021.=C2=A0During the =
+afternoon of January 28, 2021, Robinhood Director of Account Operations est=
+imated that approximately 300,000 customer applications were waiting in the=
+ queue to be approved. Robinhood employees discussed when to turn auto appr=
+oval back on throughout the day on January 28, 2021 but decided to keep the=
+ auto approvals turned off for the remainder of the day due to risk concern=
+s associated with increased load on their platform. As a Robinhood employee=
+ said in a chat discussing when to resume approving accounts, =E2=80=9Cany =
+additional load takes us to the bottom faster.=E2=80=9D</p><p style=3D"marg=
+in: 16px 0;">Ultimately Robinhood=E2=80=99s decision to turn off auto appro=
+val had a significant impact on the number of new accounts on its platform.=
+ On the morning of January 29, 2021, the next day, Robinhood Financial=E2=
+=80=99s Director of Brokerage Risk estimated that the number of customers w=
+aiting in the queue for their accounts to be approved had increased to appr=
+oximately 730,000.</p></blockquote><p style=3D"margin: 16px 0;">The meme-st=
+ock craze was so good for Robinhood that 430,000 people tried to sign up fo=
+r its service overnight! And so bad for Robinhood that it had to ignore all=
+ of them.=C2=A0</p><p style=3D"margin: 16px 0;">I don=E2=80=99t know. It al=
+l worked out, I guess. On Jan. 28, Robinhood Financial President David Duss=
+eault told the Robinhood team =E2=80=9Cah we will navigate through this nsc=
+c issue,=E2=80=9D and =E2=80=9Cwe are to big for them to actually shut us d=
+own.=E2=80=9D Never something you want to put in writing, but not exactly w=
+rong. The meme-stock craze made Robinhood arguably the most important compa=
+ny in finance for a week. It would have been better if Robinhood=E2=80=99s =
+explosive success had made it rich and safe, but making it too big to fail =
+also worked.</p><table class=3D"liveintent-sponsored-content" width=3D"auto=
+" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODE5NDQxOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0NjMwMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD0f026267" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28194419&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28463007&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODE5NDQxOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0NjMwMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE0f026267" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28194419&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28463007&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODE5NDQxOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0NjMwMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFc4066ae7" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28194419&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28463007&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODE5NDQxOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0NjMwMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGc4066ae7" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28194419&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28463007&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Russian default</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Russia has international bonds outstan=
+ding, and it has the dollars to make payments on them, but it has been bloc=
+ked, by sanctions, from making those payments. Yesterday a deadline for mak=
+ing some of those payments expired, <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/28194419.268588/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjItMDYtMjYvcnVzc2lhLWRlZmF1bHRzLW9uLWZvcmVpZ24tZGVidC1mb3It=
+Zmlyc3QtdGltZS1zaW5jZS0xOTE4P2NtcGlkPUJCRDA2MjcyMl9NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDYyNyZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB401b718d" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> putting Ru=
+ssia officially into default</a> on its bonds. Now what? The Wall Street Jo=
+urnal <a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268=
+588/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zYW5jdGlvbnMtcHVzaC1ydXNzaWEtbmV=
+hci1maXJzdC1mb3JlaWduLWRlZmF1bHQtc2luY2UtYm9sc2hldmlrLXJldm9sdXRpb24tMTE2NT=
+YyNDgyMTI_bW9kPWhwX2xlYWRfcG9zMw/607f07ceef4b8524a319a23cB823c0278" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>has the traditional answer</a>:</p><blockquote><p style=3D"margin: 16px 0;=
+">In theory, creditors could try to seize Russian assets abroad, though it =
+is unclear what they might go after. Some investors have suggested they mig=
+ht claim frozen central-bank reserves or oligarchs=E2=80=99 assets. Bondhol=
+ders of Venezuelan debt sought assets of a state-owned oil refiner after th=
+e country=E2=80=99s default. In 2013, Argentina hired a private jet for the=
+ then-president=E2=80=99s trip to Asia and the Middle East because of the r=
+isk of creditors seizing the official aircraft.=C2=A0</p><p style=3D"margin=
+: 16px 0;">=E2=80=9CI suspect, remembering what happened with Argentina, th=
+at the Americans would be keen to have creditors chasing Russian assets all=
+ over the world,=E2=80=9D said Paul McNamara, an emerging-market fund manag=
+er at GAM. =E2=80=9CIt=E2=80=99s basically contracting out the job of going=
+ after Russian assets.=E2=80=9D=C2=A0</p></blockquote><p style=3D"margin: 1=
+6px 0;">Sure. If there is some stash of dollars (or=C2=A0yachts, houses, et=
+c.) that belong to Russia, the bondholders could try to seize them. I will =
+tell you where one stash of Russian dollars might be. The Journal also repo=
+rts:</p><blockquote><p style=3D"margin: 16px 0;">Russia has plenty of money=
+ from oil and gas sales to pay its foreign debts, which are relatively smal=
+l compared with the size of its economy. But allied Western governments hav=
+e blocked the Kremlin=E2=80=99s ability to tap foreign bank accounts or use=
+ cross-border payment networks to move money.</p><p style=3D"margin: 16px 0=
+;">The Treasury Department last month let a prior sanctions exemption expir=
+e that had allowed U.S. banks and investors to process and receive payments=
+ on existing Russian bonds. ...</p><p style=3D"margin: 16px 0;">One investo=
+r said clearinghouse Euroclear received funds for the May interest payments=
+ just before the Treasury=E2=80=99s exemption expiration. But the funds wer=
+e frozen there because of sanctions, unable to be forwarded to his account.=
+ Lawyers say the bond documents are unclear over whether payments that reac=
+hed the clearinghouse, but not the bondholder account, would constitute a f=
+ormal default.=C2=A0</p><p style=3D"margin: 16px 0;">A Euroclear spokespers=
+on didn=E2=80=99t immediately respond to a request for comment.</p></blockq=
+uote><p style=3D"margin: 16px 0;">Okay. Let=E2=80=99s not focus on the tech=
+nical question of whether it counts as a default if the money gets to Euroc=
+lear but Euroclear does not (due to sanctions) pass it along to the bondhol=
+ders. I just want to make a narrow point here, which is:</p><ul style=3D"li=
+st-style-type: disc; padding-left: 40px; margin: 16px 0;">=09<li style=3D"m=
+argin-bottom: 5px;">Russia supposedly transferred the $100 million for this=
+ payment to Euroclear, where it is stuck.</li>=09<li style=3D"margin-bottom=
+: 5px;">The bondholders are now, I guess, looking to seize some Russian ass=
+ets abroad.</li>=09<li style=3D"margin-bottom: 5px;">What about that $100 m=
+illion at Euroclear?</li></ul><p style=3D"margin: 16px 0;">Like, Euroclear=
+=C2=A0<em>has=C2=A0</em>that money,[3] and the bondholders=C2=A0<em>want=C2=
+=A0</em>it, but Euroclear can=E2=80=99t pass it along to them because sanct=
+ions prohibit it from passing along interest payments on behalf of Russia. =
+But if you utter the right incantations, you can turn that $100 million fro=
+m =E2=80=9Ca Russian interest payment=E2=80=9D into =E2=80=9CRussian assets=
+ abroad that can be used to satisfy a default judgment.=E2=80=9D And then E=
+uroclear could give it to the bondholders. Maybe? Boy is that not legal adv=
+ice.</p><p style=3D"margin: 16px 0;">This does not quite work as a matter o=
+f=C2=A0arithmetic. Russia has transferred a little bit of money to foreign =
+banks and clearinghouses to make interest payments on its bonds, and those =
+payments have gotten stuck, and that has led to a default, and in theory th=
+at default allows the holders of all of Russia=E2=80=99s billions of dollar=
+s of international bonds to accelerate those bonds and demand immediate rep=
+ayment. So there could be a rush of all of the bondholders to seize money, =
+and the $100 million that might or might not be at Euroclear won=E2=80=99t =
+come close to satisfying all of their claims.</p><p style=3D"margin: 16px 0=
+;">Still it is a strange sort of default. You could imagine a financial-eng=
+ineering approach:</p><ol style=3D"list-style-type: decimal; padding-left: =
+40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Get all the bon=
+dholders together to agree to accelerate the debt and try to seize Russian =
+assets abroad.</li>=09<li style=3D"margin-bottom: 5px;">The bondholders als=
+o agree to a payment waterfall: Holders of Bond A get the first $X seized, =
+and then holders of Bond B get the next $Y, and then holders of Bonds C and=
+ D share equally in the next $Z, etc. And $X happens to be the interest pay=
+ment due on Bond A next month, and $Y happens to be the amount due on repay=
+ment of Bond B at maturity next year, etc.</li>=09<li style=3D"margin-botto=
+m: 5px;">On the next interest payment date for Bond A, Russia transfers $X =
+to a foreign account at some international bank and says =E2=80=9Chey bondh=
+olders come seize our money.=E2=80=9D[4]</li>=09<li style=3D"margin-bottom:=
+ 5px;">The bondholders apply to the bank to seize the money and give it to =
+the holders of Bond A under the payment waterfall.</li>=09<li style=3D"marg=
+in-bottom: 5px;">The bank is like =E2=80=9Csure whatever here you go,=C2=A0=
+<em>seizing=C2=A0</em>Russian money isn=E2=80=99t sanctioned, in fact it is=
+ encouraged.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">Then Russia =
+pays Bond B the same way.</li>=09<li style=3D"margin-bottom: 5px;">Etc.</li=
+></ol><p style=3D"margin: 16px 0;">Basically you pass the bond payments alo=
+ng to the holders as normal, except that instead of calling them =E2=80=9Cb=
+ond payments=E2=80=9D you call them =E2=80=9Cassets seized due to accelerat=
+ion of the bonds in default.=E2=80=9D The bondholders get paid as normal, b=
+ut you get to say that Russia is getting punished for default instead of pa=
+ying its debts in the ordinary course. You get to call it a default, but th=
+e bondholders get to keep getting paid.</p><table class=3D"liveintent-flex-=
+ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yODE5NDQxOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0NjMwMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHf0a4a77d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D28194419&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28463007&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Crypto credit</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Coinbase Global Inc. got a lot of <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMTEvY29pbmJhc2UtZ=
+2l2ZXMtMjU2LWJpbGxpb24tcmVtaW5kZXItYWJvdXQtYWdvbmllcy1vZi1iYW5rcnVwdGN5P2Nt=
+cGlkPUJCRDA2MjcyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIyMDYyNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cB0a34d5f0" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> bad press</a> <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/28194419.268588/aHR0cHM6Ly93d3cud3NqLmNvbS9hcn=
+RpY2xlcy9jb2luYmFzZS1zYXlzLXVzZXJzLWNyeXB0by1hc3NldHMtbGFjay1iYW5rcnVwdGN5L=
+XByb3RlY3Rpb25zLTExNjUyMjk0MTAz/607f07ceef4b8524a319a23cB222dfb25" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+last month</a> for describing how bankruptcy works, or might work, for cryp=
+tocurrency exchanges. =E2=80=9CBecause custodially held crypto assets may b=
+e considered to be the property of a bankruptcy estate,=E2=80=9D <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/28194419.268588/aHR0cHM6Ly93=
+d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMDAwMTY3OTc4OC8wMDAxNjc=
+5Nzg4MjIwMDAwNDgvY29pbi0yMDIyMDMzMS5odG0/607f07ceef4b8524a319a23cB69c3b5e8"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">Coinbase explained in a risk factor in its Form 10-Q</a>,=C2=A0=E2=
+=80=9Cin the event of a bankruptcy, the crypto assets we hold in custody on=
+ behalf of our customers could be subject to bankruptcy proceedings and suc=
+h customers could be treated as our general unsecured creditors.=E2=80=9D</=
+p><p style=3D"margin: 16px 0;">This quite neutral description of a risk to =
+Coinbase=E2=80=99s creditors sort of blew up, and Coinbase had to go on a <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aHR=
+0cHM6Ly90d2l0dGVyLmNvbS9icmlhbl9hcm1zdHJvbmcvc3RhdHVzLzE1MjQyMzM0ODAwNDA3MT=
+AxNDQ/607f07ceef4b8524a319a23cB2ba3feb9" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">weird apology tour</a> i=
+n which they told people, well, we=E2=80=99re not=C2=A0<em>planning=C2=A0</=
+em>to go bankrupt, and we don=E2=80=99t=C2=A0<em>want=C2=A0</em>to seize yo=
+ur crypto deposits. Coinbase was just warning its users, sensibly, that the=
+ law of crypto customer protection in bankruptcy is not all that clear or w=
+ell developed, and that there is a serious risk that a crypto bankruptcy wo=
+uld not not work out the way you expect if you=E2=80=99re used to tradition=
+al financial-industry bankruptcies.</p><p style=3D"margin: 16px 0;">There i=
+s a lot of stuff like this in crypto. We <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/28194419.268588/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjItMDUtMjUvdGVycmEtaXMtYmFjay1mcm9tLWJhbmtydXB0Y3k=
+_Y21waWQ9QkJEMDYyNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW=
+5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ce=
+ef4b8524a319a23cB63e12289" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> talked last month</a> about the blowup =
+at TerraUSD, the algorithmic stablecoin. I wrote about a model in which Ter=
+raUSD was the =E2=80=9Cdebt=E2=80=9D of the Terra blockchain, while the Lun=
+a token was its =E2=80=9Cequity.=E2=80=9D Intuitively, when it blew up, you=
+ would expect the holders of the debt to get whatever=E2=80=99s left (equit=
+y in the surviving company, any cash lying around, etc.), while the holders=
+ of the equity would get nothing. But in the case of Terra, things didn=E2=
+=80=99t work that way: Terra launched a new blockchain, with some residual =
+value, and gave most of it to Luna holders rather than TerraUSD holders. Th=
+e thing that was supposed to be a senior claim with a fixed value turned ou=
+t to be mostly worthless; the thing that was a risky bet on the growth of t=
+he network kept its value better (still not well).=C2=A0</p><p style=3D"mar=
+gin: 16px 0;">Or here is <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/28194419.268588/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL2J1c2luZXNzLzIwMjIv=
+MDYvMjUvbW9yZ2FuLWNyZWVrLWlzLXRyeWluZy10by1jb3VudGVyLWZ0eHMtYmxvY2tmaS1iYWl=
+sb3V0LWxlYWtlZC1jYWxsLXNob3dzLw/607f07ceef4b8524a319a23cBa55e0702" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+a CoinDesk story</a> from last week about BlockFi, which announced a $250 m=
+illion line of credit from FTX:</p><blockquote><p style=3D"margin: 16px 0;"=
+>Cryptocurrency investment firm Morgan Creek Digital is attempting to raise=
+ $250 million from investors to purchase a majority stake in crypto lender =
+BlockFi, a leaked investor call from Tuesday reveals. =E2=80=A6</p><p style=
+=3D"margin: 16px 0;">=E2=80=9CI=E2=80=99ve been making calls all day,=E2=80=
+=9D Morgan Creek Digital managing partner Mark Yusko said on the leaked cal=
+l.</p><p style=3D"margin: 16px 0;">According to Yusko, the FTX credit line =
+proposal had a catch for BlockFi=E2=80=99s existing shareholders: It gave F=
+TX the option to buy BlockFi =E2=80=9Cat essentially zero price.=E2=80=9D I=
+f FTX were to exercise said option, it would effectively wipe out all of Bl=
+ockFi=E2=80=99s existing equity shareholders, including management and empl=
+oyees with stock options, as well as all equity investors in the company=E2=
+=80=99s previous venture rounds.</p><p style=3D"margin: 16px 0;">However, Y=
+usko said on the leaked call that BlockFi founders Zac Prince and Flori Mar=
+quez had a valid reason for preliminarily accepting the terms: Of the sever=
+al emergency financing offers BlockFi received, FTX=E2=80=99s was the only =
+one that would not subordinate client assets to the rescuer.</p><p style=3D=
+"margin: 16px 0;">In other words, unless BlockFi went with FTX, its deposit=
+ors would have had to wait in line behind the new lender to be repaid.</p><=
+/blockquote><p style=3D"margin: 16px 0;">Well they=E2=80=99re not =E2=80=9C=
+depositors=E2=80=9D exactly, are they, not in the classic banking sense. Th=
+ey look like depositors, sure, but their legal rights are not so clear.=C2=
+=A0</p><p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/28194419.268588/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMjMvcmV2bG9uLWlzLWdldHRpbmctbWVtZWQ_Y21w=
+aWQ9QkJEMDYyNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3N=
+sZXR0ZXImdXRtX3Rlcm09MjIwNjI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8=
+524a319a23cBb1af2852" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> talked</a> a <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/28194419.268588/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMjEvY2l0aS1hbmQtcmV2bG9uLWFyZS1pbi1tdXJr=
+eS13YXRlcnM_Y21waWQ9QkJEMDYyNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjI3JnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cB62a7d0a4" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> lot</a> <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/28194419.268588/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMTUvY3J5cHRvLWRlYnQtY2FuLWJlL=
+XRyb3VibGU_Y21waWQ9QkJEMDYyNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjI3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cB63b21510" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> recently</a> about how crypto=
+ has recreated the pre-2008 financial system, and is now having its own 200=
+8 financial crisis. But this is an important difference. Traditional financ=
+e is in large part in the business of=C2=A0<em>creating safe assets:=C2=A0<=
+/em>You take stuff with some risk (mortgages, bank loans, whatever), you pa=
+ckage them in a diversified and tranched way, you <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/28194419.268588/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMDcvbWF0dC1sZXZpbmUtcy1tb25leS1zdH=
+VmZi1sb29raW5nLWZvci10ZXRoZXItcy1tb25leT9jbXBpZD1CQkQwNjI3MjJfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2Mjcm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB32747147" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ issue senior claims</a> against them, and people treat those claims as so =
+safe that they don=E2=80=99t have to worry about them. Money in a bank acco=
+unt simply=C2=A0<em>is money</em>; you don=E2=80=99t have to analyze your b=
+ank=E2=80=99s financial statements before opening a checking account. The s=
+hort-term senior debt of financial institutions is =E2=80=9C<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/28194419.268588/aHR0cHM6Ly93d3cub=
+mJlci5vcmcvcGFwZXJzL3cyNjA3NA/607f07ceef4b8524a319a23cB2aa21d8d" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+information-insensitive</a>.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;"=
+>There is a sort of division of labor here: Ordinary people can put their m=
+oney into safe places without thinking too hard about it; smart careful inv=
+estors can buy equity claims on banks or other financial institutions to tr=
+y to make a profit. But the careless ordinary people=C2=A0<em>have priority=
+=C2=A0</em>over the smart careful people. The smart careful heavily involve=
+d people don=E2=80=99t get paid unless the careless ordinary people get pai=
+d first. This is a matter of law and banking regulation and the structuring=
+ of traditional finance. There are, of course, various possible problems; i=
+n 2008 it turned out that some of this information-insensitive debt was bui=
+lt on bad foundations and wasn=E2=80=99t safe. But the basic mechanics of s=
+eniority mostly work pretty well.</p><p style=3D"margin: 16px 0;">But they =
+are in a sense unnatural. If you started a bank in the state of nature, and=
+ the bank had equity investors who were smart and rich and concentrated and=
+ heavily involved in the running of the bank, and then the bank took a lot =
+of money from dispersed retail depositors who didn=E2=80=99t pay a lot of a=
+ttention and just wanted their money back and had no real idea about the ru=
+nning of the bank, and then the bank ran into trouble, you might expect the=
+ equity investors to say =E2=80=9Cwell we=E2=80=99ll take whatever money is=
+ left and stiff the depositors.=E2=80=9D And you might not expect the depos=
+itors to be very effective at fighting back. And so the equity investors mi=
+ght in practice be senior to the depositors, in this state-of-nature bank. =
+As they effectively were at Terra.</p><p style=3D"margin: 16px 0;">Of cours=
+e if you started a bank in the state of nature nobody would give you any de=
+posits. The reason people put their money in actual banks is that we live i=
+n a society and there are rules that protect bank deposits, and also everyo=
+ne is so used to this society and those rules that they don=E2=80=99t think=
+ about them. Most bank depositors do not know much about bank capital and l=
+iquidity requirements, because they don=E2=80=99t have to; that is the=C2=
+=A0<em>point=C2=A0</em>of those requirements.</p><p style=3D"margin: 16px 0=
+;">Broadly speaking crypto banking (and quasi-banking) is like banking in t=
+he state of nature, with no clear rules about seniority and depositor prote=
+ction. But it attracts money because=C2=A0<em>people are used to regular ba=
+nking</em>. When they see a thing that looks like a bank deposit, but for c=
+rypto, they think it will=C2=A0<em>work like a bank deposit</em>. It doesn=
+=E2=80=99t always.</p><p style=3D"margin: 16px 0;">Elsewhere here is the Fi=
+nancial Times on <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+8194419.268588/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMDMyYjk1ZGMtN2ZlYi00YTJk=
+LThlYWMtYzcxMjM1NjQzYzA3JUMyJUEw/607f07ceef4b8524a319a23cB88cdcd26" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>the crypto =E2=80=9Ccredit crisis=E2=80=9D</a>:</p><blockquote><p style=3D=
+"margin: 16px 0;">Investors could juice their returns by taking out multipl=
+e loans against the same collateral, a process called =E2=80=9Crecursive bo=
+rrowing=E2=80=9D. This freedom to recycle capital with little restraint led=
+ investors to stack up more and more yields in different DeFi projects, ear=
+ning multiple interest rates at once.</p><p style=3D"margin: 16px 0;">=E2=
+=80=9CAs with the subprime crisis, it=E2=80=99s something really appealing =
+in terms of yield and it looks like and is packaged like a risk-free financ=
+ial product to ordinary people,=E2=80=9D said Lennix Lai, director of finan=
+cial markets at crypto exchange OKX.</p><p style=3D"margin: 16px 0;">The fi=
+nancial gymnastics left huge towers of borrowing and theoretical value teet=
+ering on top of the same underlying assets. This kept going while crypto pr=
+ices sailed higher. But then inflation, aggressive interest rate rises and =
+geopolitical shockwaves from the war in Ukraine washed across financial mar=
+kets.</p><p style=3D"margin: 16px 0;">=E2=80=9CIt all worked during the bul=
+l run where the prices of all the assets went up only. When the prices star=
+ted going down, a lot of people wanted to take their assets out,=E2=80=9D s=
+aid Marcin Mi=C5=82osierny, head of market research at crypto hedge fund AR=
+K36.</p><p style=3D"margin: 16px 0;">As token values plummeted, the lenders=
+ called in their loans. The process has led to the removal of more than 60 =
+per cent, or $124bn, of the total value locked on the ethereum blockchain s=
+ince mid-May in a =E2=80=9CGreat Deleveraging=E2=80=9D, according to resear=
+ch firm Glassnode.</p></blockquote><table class=3D"header" width=3D"100%" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloomberg=
+business.com/click/28194419.268588/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjItMDYtMjcvY3JlZGl0LXN1aXNzZS1jb252aWN0ZWQtb2YtZmFpbGluZy1=
+0by1wcmV2ZW50LW1vbmV5LWxhdW5kZXJpbmc_Y21waWQ9QkJEMDYyNzIyX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNjI3JnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB21917a63" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Cre=
+dit Suisse, Cash and Cocaine</a> Converge in Historic Conviction. Inside Ci=
+tigroup=E2=80=99s Attempt to Rally Wall Street to <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/28194419.268588/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+hcnRpY2xlcy9jaXRpZ3JvdXAtdHJpZWQtYW5kLWZhaWxlZC10by1yYWxseS1iYW5rcy10by1wcm=
+Vzc3VyZS1ndW4tc2VsbGVycy0xMTY1NjEyNDA4Nj9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07=
+ceef4b8524a319a23cB59e3a748" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Pressure Gun Sellers</a>. More Hedge F=
+unds Are <a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.=
+268588/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9tb3JlLWhlZGdlLWZ1bmRzLWFyZS1i=
+ZXR0aW5nLWFnYWluc3QtdGV0aGVyLWFzLWNyeXB0by1tZWx0cy1kb3duLTExNjU2MzIyMjAwP21=
+vZD1ocF9sZWFkX3Bvczc/607f07ceef4b8524a319a23cBe5f40616" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">Betting Aga=
+inst Tether</a> as Crypto Melts Down. Trump-Tied <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/28194419.268588/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDYtMjcvZGlnaXRhbC13b3JsZC1kaXNjbG9zZXMtZ3J=
+hbmQtanVyeS1pbi1uZXcteW9yay13YW50cy1pbmZvcm1hdGlvbj9jbXBpZD1CQkQwNjI3MjJfTU=
+9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVyb=
+T0yMjA2MjcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB8c47004=
+8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> SPAC</a> Says New York Grand Jury Subpoenaed Its Board. BP <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9mZWF0dXJlcy8yMDIyLWNhcmJvbi1vZmZzZXQtY3JlZGl=
+0cy1tZXhpY28tZm9yZXN0LWJwLz9jbXBpZD1CQkQwNjI3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MjcmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB57882d3c" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Paid Rural M=
+exicans</a> a =E2=80=9CPittance=E2=80=9D for Wall Street=E2=80=99s Favorite=
+ Climate Solution. Pension Funds Plunge Into <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/28194419.268588/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRp=
+Y2xlcy9wZW5zaW9uLWZ1bmRzLXBsdW5nZS1pbnRvLXJpc2tpZXItYmV0c2p1c3QtYXMtbWFya2V=
+0cy1hcmUtc3RydWdnbGluZy0xMTY1NjI3NDI3MD9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07c=
+eef4b8524a319a23cBc07a4052" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">Riskier Bets</a>=E2=80=94Just as Market=
+s Are Struggling. Crypto Meltdown Drags <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/28194419.268588/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjItMDYtMjcvc2hvdWxkLWktbGVuZC1jcnlwdG8tYml0Y29pbi1tZWx0=
+ZG93bi1idGMtaGl0cy1pbnZlc3Rvci15aWVsZD9jbXBpZD1CQkQwNjI3MjJfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA2MjcmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB41419316" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Lending Returns</a> From 25,000% to Almost Zero. How Elon Musk Helped Lift=
+ the Ceiling on <a href=3D"https://link.mail.bloombergbusiness.com/click/28=
+194419.268588/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wNi8yNS9idXNpbmVzcy9oa=
+WdoZXN0LXBhaWQtY2Vvcy1lbG9uLW11c2suaHRtbA/607f07ceef4b8524a319a23cBad614da5=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">C.E.O. Pay</a>.=C2=A0UK Treasury <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/28194419.268588/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbn=
+QvNzE4NmY4OWEtODk1My00NmVhLTg1ZDMtMjA4ZTliNWNmZThm/607f07ceef4b8524a319a23c=
+Bfdec01fd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">takes a stake</a> in sex party planner Killing Kittens.<=
+/p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-m=
+edia"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email fo=
+rm, right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloomberg=
+business.com/click/28194419.268588/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNp=
+bmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y=
+0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB2e0f66a9" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Mon=
+ey Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/28194419.268588/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcm=
+cuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB4d8c7cc0" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></spa=
+n></p><p style=3D"margin: 16px 0;"><em>[1] A subplot in <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/28194419.268588/aHR0cHM6Ly9maW5hbmNpY=
+WxzZXJ2aWNlcy5ob3VzZS5nb3YvdXBsb2FkZWRmaWxlcy82LjIyX2hmc2NfZ3MucmVwb3J0X2ht=
+c21lZXRicC5pcm0ubmxyZi5wZGY/607f07ceef4b8524a319a23cB019ee8fa" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">the =
+House Financial Services=C2=A0Committee report</a> concerns how Robinhood c=
+alculates the payment for order flow that it gets from market makers. =E2=
+=80=9CMost other broker-dealers calculate PFOF rebates as a flat fee per sh=
+are, whereas=C2=A0 Robinhood calculates PFOF rebate rates based on the spre=
+ad between the purchase and sale price of each security at the time of exec=
+uting a=C2=A0trade on behalf of a customer.=E2=80=9D At volatile times, spr=
+eads blow out, because market making is riskier: If the stock is going to m=
+ove against you by $1 every time you trade, you need to charge a spread of =
+at least $1. Robinhood=E2=80=99s formula charges PFOF as, essentially, a pe=
+rcentage of the public-market spread. When the spread is very wide because =
+market making is very risky, market making is not particularly profitable (=
+you make a lot of money on spreads but lose it on adverse selection), but R=
+obinhood *charges* its market makers more. The market makers did not love t=
+his, and there is a lot of discussion in the report about how Citadel Secur=
+ities pushed back to lower its PFOF payments to Robinhood. (=E2=80=9CAn emp=
+loyee for Citadel Securities described Robinhood=E2=80=99s PFOF rebates as =
+a runaway freight train in the days leading up to January 28, 2021.=E2=80=
+=9D) Robinhood got annoyed at Citadel but also proposed to cap PFOF at $0.0=
+03 per share in the meme stocks.=C2=A0</em></p><p style=3D"margin: 16px 0;"=
+><em>[2]=C2=A0This cash is Robinhood=E2=80=99s cash, to guarantee *its* obl=
+igation, as a clearing broker, to the clearinghouse. Separately, Robinhood =
+will want to make sure that its customers are good for their obligations to=
+ buy the stocks they agreed to buy, which it might do by, for example, requ=
+iring them to have cash in their accounts before doing trades, etc. (Not al=
+ways =E2=80=94=C2=A0retail brokers offer margin trading, and sometimes let =
+you trade before your deposits have cleared, etc. =E2=80=94=C2=A0but broadl=
+y speaking this is a solvable sort of risk management problem for the retai=
+l brokerage.) But Robinhood can=E2=80=99t just take the cash in its custome=
+rs=E2=80=99 accounts and hand it over to the clearinghouse to guarantee its=
+ obligations; that cash belongs to the customers.</em></p><p style=3D"margi=
+n: 16px 0;"><em>[3] I assume. I am not completely sure about this =E2=80=94=
+=C2=A0the Journal reported it as a rumor, and Euroclear =E2=80=9Cdidn=E2=80=
+=99t immediately respond to a request for comment=E2=80=9D =E2=80=94=C2=A0b=
+ut the basic principle works even if this specific case is wrong. Russia ha=
+s tried to send=C2=A0money to various foreign intermediaries so it can get =
+to bondholders, and the intermediaries are subject to US and European juris=
+diction and don=E2=80=99t pass it along.</em></p><p style=3D"margin: 16px 0=
+;"><em>[4] This is a hard part, I guess? The transfers here might be tricky=
+. But, for instance, Russia is still getting hard currency by selling oil, =
+which is allowed under the sanctions regime; presumably it can leave some o=
+f that money in a lightly guarded place and say =E2=80=9Cpsst bondholders l=
+ook over here.=E2=80=9D</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB236bf2b4" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB8fb2ade2" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB5bac2514" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBe7ce0efe" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yODE5NDQxOSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjg0NjMwMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI918c390a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D28194419&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28463007&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB30a98e98" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28194419.268588/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC35d93436" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/28194419.268588/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB075283fa" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/28194419.268588/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBb63d8e17" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB6=
+8122efa" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28194419.268588/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB6=
+8bad5c5" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D281944=
+19&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28463007&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D281944=
+19&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28463007&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D281944=
+19&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28463007&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D281944=
+19&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28463007&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D281944=
+19&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28463007&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgsayb.5r8s/5a2b0c64.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8557432_1398066979.1656354531580--
+

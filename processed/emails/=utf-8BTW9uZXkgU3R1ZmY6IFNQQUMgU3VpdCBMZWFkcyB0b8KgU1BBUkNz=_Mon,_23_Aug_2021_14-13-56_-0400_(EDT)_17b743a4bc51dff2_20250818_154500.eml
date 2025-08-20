@@ -1,0 +1,1819 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:4d0d:b0:138:a0a2:ca29 with SMTP id cy13csp1657348lkb;
+        Mon, 23 Aug 2021 11:16:22 -0700 (PDT)
+X-Received: by 2002:aa7:db82:: with SMTP id u2mr39545702edt.299.1629742582526;
+        Mon, 23 Aug 2021 11:16:22 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1629742582; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=YwF1ssgkoKv8DoscWphjg2NAhYLbfae1Hb9eTv4pLSuvZnm4+nyawJ3WWXqLHNXFKr
+         PKOd13sIKodMQf0CpJDlsa2dCyvZGeXizsOhWiqgjEocc4rNRyGq5GXsMWNgyLOSyV9y
+         xwyV4rIM08rBrK0txB7LGPDnldzYUMVYLvC4RrDVySwqTbLlNzfdqrNHPFjFD4ojeoqX
+         aNSOIJJ5QcbjDxo60h/5zTpR8cmgk8+XihWrLFgBzaDbjNXSm6YWG1SYJFyJzlcUJber
+         /sGndpHTDWFcEp6wNk8917ysWFzunBDyuaPf1IsZS9RXbd+sJoiogUQKPrIHDmsLRbeX
+         aGZw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=/84uEftkIRAff/fwgkDZ2wYN+tTTztveKzGMM80xGGg=;
+        b=vI3FvXay2JufCZqYmy9uEP7EzLITRhelgNsSekCEQmxBk1fJ1vy/QxG+tSliGHIl2D
+         bVDZpDlYPViSL2nasq3xDwwUKjhPkVwqBoSwEs9X66J+2qX1Gjnvd/3yEHO9xkNfsohZ
+         syuion8fDTnh/RnLxsGQIupm80gIuck9e4ctz1Hy5YY12n+CE+QtQ8EB6OuGaTx4IIll
+         0CCToUgSiVagQZNUy66ZmAoBWQDRnUyudEf2AE+tA7tMMVGBssnCqCr2t8/NNLUifYjH
+         pUmwC/ScAWSghVVFzjS95FIYUFFVomGjNc4TekRM0cdu0WflDFU2ic8eJD+7Cjo2XEQ3
+         78Mw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=2gEHnOPq;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i20sor9161333ejb.11.2021.08.23.11.16.22
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 23 Aug 2021 11:16:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=2gEHnOPq;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=/84uEftkIRAff/fwgkDZ2wYN+tTTztveKzGMM80xGGg=;
+        b=Uj15LTfJNIZ/NRkPWvzIqHn45M8TF1XnrnmAYnr16zMO68pUzSHx5+uh9rP40ueWpM
+         UgiQLRplb21p+ZKVLUIBJYVd07XRaiLikPcm+YOhrVNM7Ip4+xwq00soWrDd2WLuSfav
+         H7bi65Bln7Gn9LgV8jsLp4FnD41AleAVK9bVRFZ55V9czIlvKZagdeWIm99TYD0EkBMM
+         zWUtgqLurWJcwKS+h6mSk9OkgsQ7a5PIyCTH6/7c4ZOtJd2QqfpTTQ/GEyPaqHyPXd6A
+         u0EcLnVrJmx+TkTPAaNwTMRDx32nQoAvtsH5ePQlG+wcu8aDCdQ1VqdEAHeX5xmtrHc2
+         jv8g==
+X-Gm-Message-State: AOAM533I8oysVnHuM9vPoNtjrnsrWxkTQfYxBEbQ2x//nJV3rzrwROBC
+	Gt+LG9ROZGybZ9o2XEXD3mFMQjEQ77a5gPnUc1EedIhYn7pxMRKko+19
+X-Received: by 2002:a17:906:2642:: with SMTP id i2mr37796045ejc.323.1629742582238;
+        Mon, 23 Aug 2021 11:16:22 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3bce:0:0:0:0:0 with SMTP id g14csp1919371ecu;
+        Mon, 23 Aug 2021 11:16:19 -0700 (PDT)
+X-Received: by 2002:a05:6122:925:: with SMTP id j37mr23428033vka.21.1629742578941;
+        Mon, 23 Aug 2021 11:16:18 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1629742578; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=j/4KBKgYLNe8+E9Ybvsik8nb3uicox0cwj19yetkGW+CD84j/F7a6AYY3oq5N0GqLn
+         AGFEl+uXV9CYsARX9RDZ0NteUi3NGv8+mDPcN+B22di2lN/bnR99brNlaGoLN3k1wfls
+         xTWgWPFdoeIxwubmxKCiWYiQMTVwJ9LL8U2KHAfp+xq72sQCaARIiFm6dla/PAJh3I0e
+         9Y6Oc3rNhQTUj14Rhs7gKwznaPvVrazkQ/7f0DtmsZSX+p5M82UnUbs+po6FWrIYYcHW
+         IEI2awqmHO1hjNUwJYsaec4yhULSI4Ls1UK62NwaKNzK8DBSKZmXYoDmxrneT7XcQ6rR
+         f55A==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=/84uEftkIRAff/fwgkDZ2wYN+tTTztveKzGMM80xGGg=;
+        b=hfydewAffGSasqru84OUbKltFEiYnP3JmOYppEL4KE22DPrfN7FIY0IyDrMqwpGFZD
+         ZVSjojS8yzV2SY8mKkDRfo3AcnyEvhD9CuKa25CMaWNCOEcIwcNWcAPmfspZZgRnPL+I
+         RGYzYWiacbTY1WAN5uFxdHkWGLicvpeOxC2ECL/9HmN1gNU2sDIz5BkHyoDqB0+3FWH/
+         6OJT7gCqupJLJGg7SN3CYNtdzfmrKnkztvi7Yg7/deKFSjiCPkb/YhIBUebxiQbjDOLS
+         76zU/U+8gVBgiKCO9mBFeKcvbZkp7WGPVvBPcK5PSD/tYp4Vv8sMtsM/6A7YH316FjAa
+         /A9g==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=2gEHnOPq;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210823141356.24831872.264243@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210823141356.24831872.264243@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210823141356.24831872.264243@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id s184sor165124vss.91.2021.08.23.11.16.18
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 23 Aug 2021 11:16:18 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210823141356.24831872.264243@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxtR0YolYkG7roGDZC+x7nnJymGLhMksTiCOCGHSRE14BL9xvmhSSoZC6yIQ6dG35rWsnpfzfNZmHgLFD0UJcxgBF6KaGw=
+X-Received: by 2002:a05:6102:4b3:: with SMTP id r19mr5388682vsa.7.1629742578544;
+        Mon, 23 Aug 2021 11:16:18 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1629742578; cv=none;
+        d=google.com; s=arc-20160816;
+        b=KEbD2fDHHZ09vHZw9rpsHIzHZQGNh7obxSRpIdW34yDwxRuwKYG+NpCe8CFYb45TlG
+         FAsUXjBVt4MZVlMobsHTk7zN6dszTu1kjmv5+Z3BVGOb96y1OUBvfz7p4mx8pjhj+Lx/
+         u5IqTczI6FHDxs85LaCHuhOiIrhXs1Yo25w0Mw7Gx3qn5aho0bthfoqZbBkoUkswGL6f
+         aMwYRa9UqE0bZw2oIpJ01pE0BeYWicb7QplT6J7cvx7nKilk5gMIbLnM7fJJSJZBENWu
+         9NdVtUzyZA+DYO6ojxpK3vmxA9QVAAt2Mjhvy4mR0dLwFjOm5Cu53/1corBYnl2SS40z
+         N5eQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=/84uEftkIRAff/fwgkDZ2wYN+tTTztveKzGMM80xGGg=;
+        b=c7QKak0osYnpAX2daumQrM/OdN1sQD3cvayb1avE4RKtnI/Brbc0xmU7Kfmjh+Ctvw
+         Y4h4VWKHW9iylLH9//iPNR1Cg+dRj5mLyHqURv52Dxvrhxsv7gO1QGLtHsB3wBg+/SI3
+         rJE0sL4WGOW3KXf8WfZrjU5XbuUYEID7yd2bPZPeLHgca7BoAz2CiPIJ89apcGdkJ7Xt
+         oiIBGGqbwr9ii1iuyRAl1Th5ymnbPWhSEhOzvS4ys1+T2WWvtAR7//K9eEdFE8hvSyrw
+         eflgi7I8laTUi3cPIhZMj/19zVJBRUMtTfYqjP8l6UOGW/yVV7Zrc4EAOAnyLNECydDJ
+         v6qA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=2gEHnOPq;
+       spf=pass (google.com: domain of delivery_20210823141356.24831872.264243@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210823141356.24831872.264243@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210823141356.24831872.264243@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id m15si1060773uab.1.2021.08.23.11.16.18
+        for <khamel83@gmail.com>;
+        Mon, 23 Aug 2021 11:16:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210823141356.24831872.264243@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=XJ7ssWLwDjBN+Ym9PfdKiuCu4cA=;
+ b=2gEHnOPqdIJd2HPCl/Gf3KhZYLL6Pi/GguuUZJlZVxssD2kvQiLcHqOVk1br2xJ3NXydsoYVS9py
+   Kvvab5nJVtFBdCViAnbRyvTMfksm2G3YnDyYuOuuuLBGlQ3XULBDNa2XA3F0orUXXAwXoeQGmavQ
+   tddSnxuLd8vjCO/F53M=
+Received: from nj2mta-17.sailthru.com (204.153.121.17) by bloomberg-b.sailthru.com id h4fiv41qqbs5 for <bloomberg@khamel.com>; Mon, 23 Aug 2021 14:16:18 -0400 (envelope-from <delivery_20210823141356.24831872.264243@mx.sailthru.com>)
+Date: Mon, 23 Aug 2021 14:13:56 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210823141356.24831872.264243@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IFNQQUMgU3VpdCBMZWFkcyB0b8KgU1BBUkNz?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_45123_2049410439.1629742436827"
+Precedence: bulk
+X-Feedback-ID: 6358:24831872:campaign:sailthru
+X-TM-ID: 20210823141356.24831872.264243
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oldjam.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ces8e8.5nw3/dde2943c
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ces8e8.5nw3/dde2943c>, <mailto:unsubscribe_20210823141356.24831872.264243@mx.sailthru.com>
+X-rpcampaign: stjko24831872
+
+------=_Part_45123_2049410439.1629742436827
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Ackman SPAC attack
+   =20
+ =20
+One basic way to invest is that you put your money in a pot, and a bunch of=
+ other people put their money in the pot, and one person manages the pot of=
+ money and uses it to invest in stuff. If the stuff she invests in goes up,=
+ you, and the other people who put money into the pot, make money. (If it g=
+oes down, you lose money.) If the stuff goes up, and usually also if it goe=
+s down, the manager gets paid somehow =E2=80=94=C2=A0fees, salaries, bonuse=
+s, a share of the profits, a share of the pot, etc. =E2=80=94=C2=A0for doin=
+g the work of picking the investments.This general description covers a lot=
+ of things. In a sense it covers every public company. Loosely speaking Tes=
+la Inc. raised a pot of money from investors, and Elon Musk =E2=80=94=C2=A0=
+its manager =E2=80=94=C2=A0invested that pot of money in factories and stuf=
+f to make cars, and the value of those investments went up, and so Tesla=E2=
+=80=99s shareholders made money and Musk was compensated in various ways (m=
+ostly shares and options) that made him very rich.=C2=A0But most classicall=
+y that description covers=C2=A0mutual funds. A mutual fund is a pot of mone=
+y, its manager uses the money to buy stocks or bonds, if the stocks or bond=
+s go up the shareholders of the fund make money, and the manager charges so=
+me fees.=C2=A0Back in the 1920s, a bunch of nefarious things happened in th=
+e stock market, including with mutual funds. Then the Great Depression happ=
+ened and the=C2=A0U.S. Congress wrote what we now call the securities laws,=
+ setting up a system of regulation of stock markets. One of these laws is t=
+he Investment Company Act of 1940, generally called =E2=80=9Cthe =E2=80=994=
+0 Act,=E2=80=9D which regulates mutual funds. Essentially the =E2=80=9940 A=
+ct defines an =E2=80=9Cinvestment company=E2=80=9D (roughly synonymous with=
+ =E2=80=9Cmutual fund=E2=80=9D) as a company that is mainly in the business=
+ of investing in securities, requires investment companies to make lots of =
+disclosures, and carefully regulates the relationships and conflicts of int=
+erest between the investment company =E2=80=94=C2=A0the pot of money =E2=80=
+=94=C2=A0and the people who manage it. In particular an investment company =
+will have an =E2=80=9Cinvestment adviser,=E2=80=9D a person or more often a=
+ company that manages the mutual fund, and the =E2=80=9940 Act (and the rel=
+ated Investment Advisers Act of 1940)=C2=A0sets requirements for the invest=
+ment company=E2=80=99s deal with the investment adviser. The investment adv=
+iser can=E2=80=99t, for instance, trade securities with the investment comp=
+any: If the adviser owns stocks, she can=E2=80=99t sell them to the mutual =
+fund (to avoid the risk that she=E2=80=99d sell them at too high a price). =
+The adviser=E2=80=99s fees are also regulated; in particular, it is hard fo=
+r advisers to charge performance-based fees (i.e. take a cut of the fund=E2=
+=80=99s upside).[1] There is a general sense that the requirements of the =
+=E2=80=9940 Act are quite strict, that it severely limits the things that t=
+he investment manager can do and the compensation she can receive.These rul=
+es do not apply to, for instance, Tesla. Or WeWork. The chief executive off=
+icer of a public company can have all sorts of compensation arrangements an=
+d conflicts of interest that the investment adviser of a mutual fund could =
+not. Those are general questions of corporate governance, and corporate gov=
+ernance rules=C2=A0in general=C2=A0are less strict than the rules of the =
+=E2=80=9940 Act. The =E2=80=9940 Act applies only to investment companies.=
+=C2=A0Companies that are in the business of investing in car factories or w=
+hatever are just regular companies and not covered. The key distinction is =
+that a company that is mainly in the business of buying=C2=A0securities=C2=
+=A0is an investment company, while a company that is mainly in the business=
+ of buying other things =E2=80=94=C2=A0factories or real estate or whatever=
+ =E2=80=94=C2=A0is not.[2]Occasionally there are weird accidents. A company=
+ will run an operating business and then come into possession of a ton of p=
+ublicly traded securities. Perhaps it sold a division for stock, etc. Is it=
+ an investment company? I dunno, maybe; sometimes temporarily holding a bun=
+ch of shares (before dividending them out to your shareholders, etc.) is fi=
+ne. There are technical rules but at our level of generality the point is t=
+hat there are some companies that are =E2=80=9Creally=E2=80=9D in the busin=
+ess of doing business, and those aren=E2=80=99t investment companies, and t=
+here are other companies that are =E2=80=9Creally=E2=80=9D in the business =
+of buying securities, and those are investment companies and subject to the=
+ =E2=80=9940 Act.(There are other forms of =E2=80=9Cpeople put money in a p=
+ot and a manager buys things with it=E2=80=9D that are not covered by=C2=A0=
+the =E2=80=9940 Act for whatever reason. Hedge funds, for instance, are a s=
+ort of investment firm that are limited to rich people and institutions, an=
+d are exempt from=C2=A0the =E2=80=9940 Act.[3] This gives hedge fund manage=
+rs more flexibility to charge performance fees, to use leverage and short s=
+elling, etc.)Another thing of the form =E2=80=9Cpeople put money in a pot a=
+nd a manager buys things with it=E2=80=9D is the special-purpose acquisitio=
+n company, or SPAC. In a SPAC, people put money into a pot, and the money s=
+tays in the pot until the manager finds a company to merge with. Then the p=
+ot merges with the target company; the target company gets the money and be=
+comes public, while the shareholders of the pot get shares of the newly pub=
+lic target. And the SPAC=E2=80=99s sponsor =E2=80=94=C2=A0the person who ra=
+ised the money in the pot and found the target =E2=80=94=C2=A0gets a big ch=
+unk of shares and warrants in the target company as compensation for her ef=
+forts.In a generic sense, SPAC sponsors are a lot like mutual-fund investme=
+nt advisers, but they get paid a lot more. They get a lot more performance =
+fees. Their fees are less clear and more discretionary. They can engage in =
+all sorts of conflicted transactions. (Here=E2=80=99s a  fun story about a =
+guy who ran a=C2=A0SPAC and merged it with=C2=A0his daughter=E2=80=99s comp=
+any.) A lot of people do not like SPACs. They feel bubbly. Their disclosure=
+ is sometimes=C2=A0 not the best. There is a sense that SPACs have often be=
+en a confusing and overhyped way for well-connected financiers to raise a l=
+ot of money from ordinary people, take a lot of that money for themselves, =
+and leave their investors=C2=A0with poor results.If you don=E2=80=99t like =
+SPACs, a thought you might have is: Look, the =E2=80=9940 Act is designed s=
+pecifically to address this sort of problem. There are people raising money=
+ from the general public to make investments. Those people are being a bit =
+aggressive in their fund-raising, and being=C2=A0very=C2=A0aggressive, and =
+somewhat confusing, in their compensation structures.=C2=A0There are confli=
+cts of interest and disclosure failings and asymmetric performance fees. Th=
+ese are =E2=80=9940 Act problems that=C2=A0the =E2=80=9940 Act is meant to =
+solve. Except that SPACs are not=C2=A0=E2=80=9940 Act investment companies.=
+Or are they? When I say that, in a SPAC, =E2=80=9Cpeople put money into a p=
+ot, and the money stays in the pot until the manager finds a company to mer=
+ge with,=E2=80=9D I don=E2=80=99t mean that literally. There=E2=80=99s not =
+a physical pot with some $100 bills in it. Until it finds a merger target, =
+the SPAC holds its money in a trust account and generally invests it in ver=
+y safe assets =E2=80=94=C2=A0typically short-term U.S. Treasury securities =
+or Treasury money market funds. Technically those are securities.[4] From t=
+he time it raises its money, until the time it does its merger, a SPAC is i=
+nvesting basically 100% of its shareholders=E2=80=99 money in securities.Do=
+es that make it an investment company? Probably not, no: It is not primaril=
+y in the business of investing in securities; rather, it is primarily in th=
+e business of finding an operating company to merge with, and it holds secu=
+rities for a while as it pursues that goal. But you could try. Here=E2=80=
+=99s a  Bloomberg article from last week:The largest SPAC to ever hit the m=
+arket is operating illegally as an investment company, a new lawsuit agains=
+t billionaire Bill Ackman=E2=80=99s Pershing Square Tontine Holdings Ltd. c=
+laims.=C2=A0Less than a month after the blank-check company abandoned plans=
+ for a deal with Universal Music Group, it=E2=80=99s facing a civil suit fr=
+om a shareholder claiming that it fits the description of an investment com=
+pany and should be regulated as one, starting with the =E2=80=9Cstaggering=
+=E2=80=9D compensation paid to Pershing Square Capital Management as invest=
+ment adviser.The suit by shareholder George Assad could have wide-ranging i=
+mplications for the financial industry if a court determines that SPACs mor=
+e generally should be regarded as investment companies subject to the 1940 =
+Investment Company Act, which requires registration with the Securities Exc=
+hange Commission and places restrictions on fees charged for investment adv=
+ice.Under the law, an investment company=E2=80=99s main business is securit=
+ies investing, the suit says, and that=E2=80=99s =E2=80=9Cbasically the onl=
+y thing that PSTH has ever done.=E2=80=9DHere is the complaint, and here is=
+ a New York Times article noting that =E2=80=9CRobert Jackson, a former S.E=
+.C. commissioner, and John Morley, a law professor at Yale,=E2=80=9D are th=
+e legal experts behind the lawsuit. Pershing Square Tontine Holdings is a p=
+articularly tempting target for a=C2=A0=E2=80=9940 Act lawsuit because, whi=
+le most SPACs buy Treasuries for a year and then merge with an operating co=
+mpany, PSTH bought Treasuries for a while and then proposed to spend its tr=
+ust money on shares of an already-public company, Universal Music Group.If =
+PSTH bought public shares of Universal Music and held them on behalf of its=
+ investors, it would obviously be an investment company. But it didn=E2=80=
+=99t. For one thing, PSTH ended up abandoning the Universal Music deal, so =
+it has just gone back to being a regular SPAC, holding a pot of money and l=
+ooking for a merger. For another thing, PSTH tried to structure the Univers=
+al Music deal as a typical SPAC merger (where it would=C2=A0merge with=C2=
+=A0Universal Music and transform PSTH shares into a minority stake of Unive=
+rsal Music), but couldn=E2=80=99t get that deal done and agreed to the (now=
+-abandoned) share purchase instead. For a third thing, PSTH=E2=80=99s plan =
+had been to=C2=A0distribute=C2=A0the Universal Music shares to its sharehol=
+ders, holding them only momentarily, not to hold and manage them on behalf =
+of PSTH=E2=80=99s shareholders.=C2=A0But Jackson and Morley=E2=80=99s logic=
+ is not limited to the particular structure of the PSTH/Universal Music dea=
+l (which, again, didn=E2=80=99t happen); it=C2=A0mostly applies to all SPAC=
+s. From the complaint:Investing in securities is the Company=E2=80=99s prim=
+ary business because that is all the Company has ever done with its assets.=
+ Since the time of its IPO, the Company has invested nearly all of its asse=
+ts in securities of the U.S. government and securities of money market mutu=
+al funds. Of the $4.03 billion in assets the Company owned as of June 30, 2=
+021, it invested fully $4.02=C2=A0billion in these two kinds of securities.=
+=C2=A0These instruments are the only source from which the Company has ever=
+ received any income.Now that the Company has abandoned the UMG Securities =
+Purchase, the Company will continue investing all of its assets in governme=
+nt securities and money market funds for up to an additional seventeen mont=
+hs as it continues to search for a new way to deploy its billions of dollar=
+s of capital. The Company=E2=80=99s Prospectus commits PSTH to invest all o=
+f that money in securities while it looks for an Initial Business Combinati=
+on.=C2=A0That=E2=80=99s true of every SPAC; if investing a SPAC pool in Tre=
+asuries until you find a merger makes a SPAC an investment company, then ev=
+ery SPAC is an investment company.I think that=E2=80=99s the point of the l=
+awsuit? Some people dislike SPACs, they dislike their compensation and disc=
+losure practices, and they would like those practices to be more strictly r=
+egulated. Writing new regulations is hard. But there is already a large com=
+plicated effective time-tested body of regulation that covers managers who =
+invest pots of money on behalf of retail investors, that regulates their di=
+sclosure and compensation and conflicts of interest. If you could just appl=
+y that body of regulation to SPACs =E2=80=94=C2=A0by finding that SPACs=C2=
+=A0are=C2=A0investment companies =E2=80=94=C2=A0then SPAC regulation will i=
+nstantly get a lot stricter. (And SPACs will probably mostly go away.)I don=
+=E2=80=99t think=C2=A0this is especially likely to work.=C2=A0In general, S=
+PACs are not in the business of buying Treasuries; they=E2=80=99re in the b=
+usiness of merging with operating companies.=C2=A0In particular, you could =
+argue that PSTH was=C2=A0not=C2=A0in the business of merging with an operat=
+ing company =E2=80=94=C2=A0it was in the business of trying to buy some Uni=
+versal Music shares to distribute to its shareholders =E2=80=94=C2=A0but I =
+don=E2=80=99t think that argument is particularly compelling; in any case i=
+t never happened. From the Bloomberg article:Usha Rodrigues, a professor of=
+ securities law at the University of Georgia, called the lawsuit=E2=80=99s =
+argument =E2=80=9Cbold=E2=80=9D and said it challenged the very model on wh=
+ich SPACs are premised.=E2=80=9CIt could be a very big deal, if the court a=
+ccepts the arguments,=E2=80=9D she said.But Rodrigues also said she was ske=
+ptical the case would succeed, as the SEC has allowed SPACs to operate for =
+decades now without registering as investment companies. =E2=80=9CThe plain=
+tiffs are really asking the courts to reject the SEC=E2=80=99s rules and re=
+gulations that have been evolving since 2003 if not earlier,=E2=80=9D she s=
+aid.At some point =E2=80=9Cnobody at the SEC noticed that SPACs are investm=
+ent companies=E2=80=9D[5] just turns into =E2=80=9Cbecause the SEC doesn=E2=
+=80=99t treat SPACs as investment companies, they aren=E2=80=99t investment=
+ companies.=E2=80=9D Still, it=E2=80=99s a clever effort. If you are gettin=
+g into the SPAC business for the financial upside, the risk that all that u=
+pside is illegal might be a deterrent.
+ =20
+   =20
+      Meanwhile, SPARCs
+   =20
+ =20
+If your model of the Ackman SPAC lawsuit is =E2=80=9Cthey want to make SPAC=
+s illegal by calling them investment companies,=E2=80=9D then the weird thi=
+ng is that Ackman has solved that problem. Let=E2=80=99s say that tomorrow =
+a court declares SPACs illegal. The illegal thing, this hypothetical court =
+says, is that a SPAC:=09takes investors=E2=80=99 money;=C2=A0=09invests it =
+in Treasury bills for a bit while it looks for an acquisition target, makin=
+g it a =E2=80=9940 Act investment company; and=09charges lots of weird cool=
+ fees, which are illegal under the =E2=80=9940 Act.Fine. Let=E2=80=99s say =
+you are a SPAC sponsor who wants to keep doing this racket because it is lu=
+crative. One thing you could (perhaps) do is keep doing SPACs but abiding b=
+y the =E2=80=9940 Act rules about fees and=C2=A0related-party transactions;=
+ I=E2=80=99m not sure this is even possible, but certainly it is unattracti=
+ve to sponsors.=C2=A0Instead the move is to=C2=A0not be an investment compa=
+ny, which means (in this hypothetical world where the Ackman SPAC lawsuit s=
+ucceeds)=C2=A0not taking investors=E2=80=99 money and investing it in Treas=
+uries. Just=C2=A0don=E2=80=99t=C2=A0take their money=C2=A0until you have an=
+ acquisition target. Sign up investors on a sort of waitlist, go out and lo=
+ok for an acquisition target, sign the merger agreement, and then go out to=
+ the investors on the waitlist and say =E2=80=9Cokay you can put your money=
+ in now.=E2=80=9DThis is the SPARC, the Special Purpose Acquisition Rights =
+Company.=C2=A0A SPARC is a SPAC without the pool of money. Instead of share=
+s, SPARCs issue rights; instead of selling shares for $10 or $20 per share =
+and keeping the money in trust, the SPARC gives rights away for free and ha=
+s no money in trust. It goes out and looks for a deal. When it finds one, i=
+t goes to the holders of rights and says =E2=80=9Chey would you like to kic=
+k in $10 to get a new public share of this company I found?=E2=80=9D If the=
+y mostly say yes, then the deal closes, the acquisition target gets the mon=
+ey and becomes public, and the SPARC rights (plus $10) transform into share=
+s of the new public company.=C2=A0When Pershing Square Tontine Holdings ann=
+ounced its Universal Music deal, it announced that PSTH shareholders, in ad=
+dition to Universal Music shares, would be getting SPARC rights, and we tal=
+ked about the SPARC structure a  couple of  times. It is cool! I am uncompl=
+icatedly fond of the SPARC; it is an evolution of the SPAC structure that i=
+s both (1) more efficient and investor-friendly (investors don=E2=80=99t ha=
+ve to tie up cash for months while the sponsor hunts for a target) and (2) =
+somehow funnier.  I wrote:It is fun. It dispenses with almost all of the fi=
+nancial engineering of a SPAC: There are no warrants, no cash value, no sha=
+reholder votes, no time limits. In fact arguably there is no anything. Bill=
+ Ackman can go around to private companies looking to go public and say =E2=
+=80=A6 what? =E2=80=9CHey, I=E2=80=99ve got some friends, and they are foll=
+owing with interest my efforts to find a company to merge with. If I find a=
+ good one, maybe they=E2=80=99ll give me money, though they haven=E2=80=99t=
+ given me any money yet and they=E2=80=99re under no obligation to do so. W=
+ould you like to be that company, and maybe my friends will give you their =
+money? We can find out together!=E2=80=9DBut, I emphasized, the same exact =
+thing is true of a SPAC: SPAC shareholders put their money in up front, but=
+ they can get it back when the deal is announced; the target only gets the =
+money if the SPAC shareholders decide it=E2=80=99s a good deal. The SPARC e=
+mphasizes this choice: It emphasizes that, if you are a target company and =
+you sign a deal with a SPA(R)C to go public, the SPA(R)C doesn=E2=80=99t co=
+me with any guaranteed money. Instead, you are signing up for the sponsor=
+=E2=80=99s ability to=C2=A0raise=C2=A0money, to go out to the retail invest=
+ors holding SPAC shares or SPARC rights and convince them to fund the deal.=
+Anyway, the Universal Music deal fell through, so PSTH did not end up doing=
+ the SPARCs. But there=E2=80=99s still time. Here's a letter that Ackman se=
+nt to PSTH shareholders last week, explaining and criticizing the =E2=80=99=
+40 Act lawsuit against PSTH=C2=A0and telling them that a SPARC is coming[6]=
+:We are working to accelerate the launch of Pershing Square SPARC Holdings,=
+ Ltd. (=E2=80=9CSPARC=E2=80=9D), and expect that we will shortly be making =
+a public filing of SPARC=E2=80=99s SEC registration statement. As a reminde=
+r, SPARC, which we conceived of months ago and disclosed in connection with=
+ the UMG transaction, is a modified opt-in (rather than the current opt-out=
+) SPAC structure where investors in PSTH would receive long-dated, transfer=
+able SPARC warrants to acquire common stock in SPARC, which we expect to be=
+ traded on the NYSE.SPARC warrants would give investors the right to invest=
+ in SPARC=E2=80=99s future merger transaction at a share price equal to SPA=
+RC=E2=80=99s cash net asset value (=E2=80=9CNAV=E2=80=9D) per share. The Pe=
+rshing Square Funds will be making a large-co-investment in SPARC on precis=
+ely the same terms and at the same time as SPARC=C2=A0warrant holders. The =
+SPARC warrants would not be exercisable, and warrant holders would not need=
+ to invest their capital, until SPARC has identified a merger target, compl=
+eted due diligence, entered into and approved a transaction, and cleared a =
+registration statement with the SEC, which will provide full disclosure on =
+the transaction and the target company.Originally, SPARC intended to issue =
+the SPARC warrants to PSTH shareholders after PSTH=E2=80=99s initial busine=
+ss combination. In light of this litigation, we expect that SPARC would iss=
+ue the SPARC warrants as promptly as possible after regulatory approvals ar=
+e obtained. =E2=80=A6Assuming SPARC is approved by the SEC and the SPARC wa=
+rrants are approved for listing on the NYSE, if PSTH has not by then entere=
+d into a merger transaction, we intend to seek PSTH shareholder approval to=
+ enable us to return to shareholders the $4 billion of cash PSTH holds in t=
+rust. Following the return of cash, we expect SPARC to issue one SPARC Dist=
+ributable Warrant for each PSTH Distributable Warrant, and one SPARC warran=
+t for each outstanding PSTH common share.=C2=A0As a result of the above, PS=
+TH shareholders will receive $20 per share in cash and one SPARC warrant fo=
+r each share that they own. This will entitle shareholders to invest in our=
+ next initial business combination at a share price equal to SPARC=E2=80=99=
+s cash NAV per share, or to sell the SPARC warrants on the NYSE.=C2=A0So if=
+ all goes according to plan, PSTH will hand back all of its money to invest=
+ors and disappear, and those investors will also get a SPARC right. And the=
+n if Ackman finds a new merger target, those investors will be able to exer=
+cise their SPARC rights to put in more money to fund the new deal. The SPAR=
+C structure is cool and elegant, but the process to get there is pretty ugl=
+y: Ackman (1) raised $4 billion, (2) now wants to hand it back, and (3) hop=
+es to be able to raise it again in the future. Oh well.I want to make two m=
+ore points about the SPARC structure. One is that, because it has no money,=
+ it really puts an emphasis on the sponsor=E2=80=99s ability to do a good d=
+eal, sell that deal, and raise money. In the SPAC boom of earlier this year=
+, lots of random people raised SPACs because SPACs were hot. When those peo=
+ple go to a target company and say =E2=80=9Chey we have a pot of money here=
+, would you like it,=E2=80=9D the target will be tempted to say yes. This i=
+s true even though the SPAC doesn=E2=80=99t really have a pot of money; the=
+ SPAC shareholders can take their money out before the deal closes.=C2=A0Wi=
+th a SPARC, on the other hand, the sponsor can=E2=80=99t say =E2=80=9Chey w=
+e have a pool of money here=E2=80=9D; all the sponsor can say is =E2=80=9Ch=
+ey there are some people who have an option to give me money if I strike a =
+good deal.=E2=80=9D If you are a target company, you=E2=80=99re only going =
+to do a deal with a sponsor who you think can deliver.The other point is we=
+irder: How do you=C2=A0start=C2=A0a SPARC? The way to start a SPAC is clear=
+: You sell shares for $10, you put all the $10 checks=C2=A0in a pot, you go=
+ look for deals. The shares are sold in a public offering, and investment b=
+anks are used to doing those offerings. Investors who buy in the offering p=
+ay $10, and can get $10 back at the end if you don=E2=80=99t do a deal (or =
+if they don=E2=80=99t like the deal that you do), so the offering feels pre=
+tty safe.With a SPARC, though, you can=E2=80=99t really do an initial publi=
+c offering of SPARC rights. Those rights are in some loose sense worth zero=
+ dollars. Of course they aren=E2=80=99t: You=E2=80=99ll list them on the st=
+ock exchange and they=E2=80=99ll trade for some price, and that price will =
+reflect people=E2=80=99s expectations that (1) you=E2=80=99ll sign a deal w=
+ith a target company, (2) they will like the deal and exercise the rights, =
+and (3) the price you agree to pay per share of the target company will be =
+lower than the trading value of those shares, so they will get a pop by exe=
+rcising their rights. If you are a decent SPARC sponsor that price will be =
+greater than zero. But those things are pretty uncertain, and if you sold t=
+he rights for, like, $2 a share and then didn=E2=80=99t do a deal =E2=80=94=
+=C2=A0letting the rights expire worthless =E2=80=94=C2=A0investors and regu=
+lators would be pretty mad at you. I think the only realistic price that a =
+SPARC=C2=A0sponsor=C2=A0could charge for SPARC rights is $0, even though th=
+ey would then trade up to a non-zero price.[7]=C2=A0So how do you give SPAR=
+C rights away for free? Well, Ackman has a simple solution: He has a SPAC, =
+and he=E2=80=99s going to give SPARC rights to his SPAC shareholders. One S=
+PAC share gets you one SPARC right. Fine. He was planning to do that after =
+the SPAC closed its Universal Music deal, and now that that deal is dead he=
+=E2=80=99s planning to do it when the SPAC hands its cash back to sharehold=
+ers. Any=C2=A0other=C2=A0SPAC sponsor could also do that =E2=80=94=C2=A0sta=
+rt a SPARC, hand SPARC rights out to your SPAC shareholders, either do a de=
+al with your SPAC or shut it down, and keep the SPARC around to do your nex=
+t deal. There are serial SPAC sponsors; they could easily become serial SPA=
+RC sponsors instead. Each time you do a deal, give out new SPARC rights to =
+the shareholders of that deal.But what if you don=E2=80=99t already have a =
+SPAC? You=E2=80=99re some brilliant financier or operator who wants to get =
+into the taking-companies-public business; you would start a SPAC, but you'=
+re convinced that the SPARC structure is better. (More investor-friendly, l=
+ess likely to get you in =E2=80=9940 Act trouble, etc.) The problem you hav=
+e is giving a bunch of rights away for free, to some defined group of peopl=
+e, preferably people who are likely to (1) exercise the rights if you find =
+a deal or (2) at least sell the rights to someone who might exercise.I supp=
+ose one thing you could do is call up Bill Ackman and say =E2=80=9Chey, you=
+=E2=80=99ve got a SPAC,[8] I would like to give your SPAC shareholders a pr=
+esent, could you send me your shareholder list?=E2=80=9D And then you distr=
+ibute your SPARC rights to every shareholder of PSTH. Or you call up some o=
+ther SPAC sponsor, get their shareholder list, and distribute SPARC rights =
+to their shareholders. Or you call up Warren Buffett and distribute your SP=
+ARC rights to Berkshire Hathaway Inc. shareholders. Or you print out SPARC =
+right certificates on paper and go door to door in Greenwich, Connecticut, =
+depositing one in each resident=E2=80=99s mailbox. Or you put them on the E=
+thereum blockchain and distribute one to each holder of Ether. The way to s=
+tart a SPARC is, as crypto people would say, with  an =E2=80=9Cairdrop=E2=
+=80=9D: Find some big but definable group of possibly interested people and=
+ give them SPARC rights for free.
+ =20
+   =20
+      Cool insider trading case
+   =20
+ =20
+I write a lot about insider trading, and my readers are smart, so the quest=
+ion I get asked perhaps more than any other goes like this:=E2=80=8B=E2=80=
+=8B=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B =E2=80=9CLet=E2=80=99s say I have s=
+ome big secret news about a public company. Say I work for a company and kn=
+ow that it=E2=80=99s about to announce good earnings or be taken over at a =
+premium. If I buy call options on my company=E2=80=99s stock, that=E2=80=99=
+s insider trading and I=E2=80=99ll go to prison. But what if I buy call opt=
+ions on=C2=A0another=C2=A0company=E2=80=99s stock? What if I buy call optio=
+ns on my company=E2=80=99s closest competitor, figuring that good news for =
+my company will also push up that company=E2=80=99s stock? I don=E2=80=99t =
+have any inside information=C2=A0about that company, do I? So it=E2=80=99s =
+not insider trading, right?=E2=80=9DMy answer has usually been what=C2=A0I =
+wrote last year:=09This is not legal advice.=09The U.S. Securities and Exch=
+ange Commission will probably take the position that it=E2=80=99s illegal i=
+nsider trading: You have=C2=A0nonpublic information, it is (indirectly) mat=
+erial to Company Y, and you have some duty of confidentiality to Company X =
+to keep it secret.=C2=A0=09But they are less likely to=C2=A0catch=C2=A0you =
+than if you trade your own company=E2=80=99s stock.=09Really, this is not l=
+egal advice!It is a curious fact that there is not a lot of precedent for t=
+his. I mean, at the time I wrote that, I had never seen a court case or SEC=
+ enforcement action about this sort of comparable-company insider trading. =
+You could interpret that in one of two ways:=09Insider traders are uniforml=
+y dumb; when they have material nonpublic information they only use it to t=
+rade their own company=E2=80=99s stock, and get caught.=C2=A0=09Some inside=
+r traders are smart; when they have material nonpublic information they use=
+ it to trade the stock of highly correlated companies in order to make quic=
+k reliable profits. But the SEC is dumb; it doesn=E2=80=99t have tools to n=
+otice and go after this sort of trading: If you trade your own company=E2=
+=80=99s stock they=E2=80=99ll check up on you, but if you trade your compet=
+itor=E2=80=99s stock they won=E2=80=99t.Given how many times my readers hav=
+e asked me about this hypothetical, I have to assume that the answer is No.=
+ 2,=C2=A0that people regularly use inside information about their own compa=
+nies to make profitable trades in the stock of other companies, and that th=
+e SEC doesn=E2=80=99t go after them.[9]But here=E2=80=99s an SEC enforcemen=
+t action from last week:According to the SEC's complaint, filed in the U.S.=
+ District Court for the Northern District of California, Matthew Panuwat, t=
+he then-head of business development at Medivation, a mid-sized, oncology-f=
+ocused biopharmaceutical company, purchased short-term, out-of-the-money st=
+ock options in Incyte Corporation, another mid-cap oncology-focused biophar=
+maceutical company, just days before the Aug. 22, 2016, announcement that P=
+fizer would acquire Medivation at a significant premium. Panuwat allegedly =
+purchased the options within minutes of learning highly confidential inform=
+ation concerning the merger. According to the complaint, Panuwat knew that =
+investment bankers had cited Incyte as a comparable company in discussions =
+with Medivation and he anticipated that the acquisition of Medivation would=
+ likely lead to an increase in Incyte's stock price. The complaint alleges =
+that Medivation's insider trading policy expressly forbade Panuwat from usi=
+ng confidential information he acquired at Medivation to trade in the secur=
+ities of any other publicly-traded company. Following the announcement of M=
+edivation's acquisition, Incyte's stock price increased by approximately 8%=
+. The complaint alleges that, by trading ahead of the announcement, Panuwat=
+ generated illicit profits of $107,066.There you go! He learned about his c=
+ompany=E2=80=99s merger, bought call options on his company=E2=80=99s close=
+st comparable company, made money when the merger was announced and the oth=
+er company=E2=80=99s=C2=A0stock went up, and got charged with insider tradi=
+ng. Here=E2=80=99s the SEC=E2=80=99s argument=C2=A0that it=E2=80=99s illega=
+l insider trading.Panuwat learned the foregoing information through his emp=
+loyment at Medivation, and he knew or was reckless in not knowing that the =
+information was material and nonpublic. Panuwat also knew, or was reckless =
+in not knowing, that the information concerning Medivation=E2=80=99s immine=
+nt acquisition was material not only to Medivation, but also to Incyte, a p=
+eer company in the biopharmaceutical industry that was also publicly-traded=
+, mid-cap, and oncology-focused. Medivation=E2=80=99s undisclosed acquisiti=
+on would have been viewed by a reasonable investor in Medivation or Incyte =
+as having significantly altered the total mix of information made available=
+. The public announcement of Medivation=E2=80=99s acquisition at a signific=
+ant premium to its then-current share price would likely have a positive im=
+pact on Incyte=E2=80=99s stock price. For example, the acquisition of Mediv=
+ation also made Incyte a more attractive target for acquisition.=C2=A0By vi=
+rtue of his employment at Medivation, as well as the confidentiality and=C2=
+=A0insider trading policies that he signed, Panuwat owed Medivation a duty =
+to keep this material nonpublic information confidential, and to refrain fr=
+om trading on Medivation=E2=80=99s confidentialinformation.=C2=A0Seems reas=
+onable enough. They do not, however, say how they caught him. So now I need=
+ to update my standard response:=09This is not legal advice.=09The U.S. Sec=
+urities and Exchange Commission will definitely=C2=A0take the position that=
+ it=E2=80=99s illegal insider trading: You have=C2=A0nonpublic information,=
+ it is (indirectly) material to Company Y, and you have some duty of confid=
+entiality to Company X to keep it secret.=C2=A0=09Also this is apparently s=
+omething they look for, so they might catch you.=09Really, this is not lega=
+l advice!
+ =20
+   =20
+      Things happen
+   =20
+ =20
+U.S. Banks and Money-Transfer Firms Tread Carefully in Taliban-Controlled A=
+fghanistan. Anti-money laundering fines surge as watchdogs impose tougher p=
+enalties. Cryptocurrency Companies Are Leaving China in =E2=80=98Great Mini=
+ng Migration.=E2=80=99 China Regulator  Halts 42 IPOs on Probe of Broker, L=
+aw Firm. Citadel to Pull $500 Million  From Melvin Amid Plotkin=E2=80=99s R=
+ebound. Theranos Founder  Elizabeth Holmes Is Ready for Her Day in Court. E=
+xecutives warn of growing container ship shortages. The Dividend Futures Di=
+saster Revisited: Anatomy of a Very Bad Trade. Did FinTech Lenders Facilita=
+te PPP Fraud? AmEx=E2=80=99s  Black Card Gets Face-Lift With Designs by Koo=
+lhaas, Wiley. Two jobs. Speed golf.=C2=A0Corsica closes beaches after rampa=
+ging cows hurt tourists.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in =
+handy email form, right in your inbox, please=C2=A0subscribe at this link. =
+Or you can subscribe to Money Stuff and other great Bloomberg newsletters h=
+ere. Thanks![1] It=C2=A0is not entirely forbidden; =E2=80=9940 Act advisers=
+ can charge =E2=80=9Cfulcrum fees.=E2=80=9D (Meaning they take a cut of the=
+ downside too.) But it=E2=80=99s rare. (Because of the downside.) Also stri=
+ctly speaking the rules about fees are in the Investment Advisers Act of 19=
+40, which is, uh, a different =E2=80=9940 Act.[2] See section 3(a)(1)=C2=A0=
+of the =E2=80=9940 Act, which defines an =E2=80=9Cinvestment company=E2=80=
+=9D to include a company that =E2=80=9Cis or holds itself out as being enga=
+ged primarily, or proposes to engage primarily, in the business of investin=
+g, reinvesting, or trading in securities,=E2=80=9D or =E2=80=9Cis engaged o=
+r proposes to engage in the business of investing, reinvesting, owning, hol=
+ding, or trading in securities, and owns or proposes to acquire investment =
+securities having a value exceeding 40 per centum of the value of such issu=
+er=E2=80=99s total assets (exclusive of Government securities and cash item=
+s).=E2=80=9D=C2=A0[3] A company =E2=80=9Cthe outstanding securities of whic=
+h are owned exclusively by persons who, at the time of acquisition of such =
+securities, are qualified purchasers, and which is not making and does not =
+at that time propose to make a public offering of such securities,=E2=80=9D=
+ is exempt from the =E2=80=9940 Act (see section 3(c)(7)). =E2=80=9CQualifi=
+ed purchaser=E2=80=9D means what you=E2=80=99d expect (rich person, institu=
+tion, etc.). So a mutual fund offered to the public is covered by the =E2=
+=80=9940 Act, but a hedge fund offered only to rich or institutional invest=
+ors is not.[4] Section 3(a)(2) of=C2=A0the =E2=80=9940 Act defines a thing =
+called =E2=80=9Cinvestment securities,=E2=80=9D which *excludes* Treasury s=
+ecurities. Section 3(a)(1)(C) says that a company is an investment company =
+if more than 40% of its assets are investment securities; SPACs are not inv=
+estment companies under that test. But section 3(a)(1)(A) says that a compa=
+ny is an investment company if it =E2=80=9Cis or holds itself out as being =
+engaged primarily, or proposes to engage primarily, in the business of inve=
+sting, reinvesting, or trading in securities=E2=80=9D =E2=80=94=C2=A0securi=
+ties, not =E2=80=9Cinvestment securities.=E2=80=9D So if you launch a Treas=
+ury-bond fund whose only business is buying and trading Treasuries, that=E2=
+=80=99s an investment company, even though you never buy =E2=80=9Cinvestmen=
+t securities.=E2=80=9D=C2=A0[5] As Ackman points out in his letter to PSTH =
+shareholders, one person at the SEC who never noticed this was Robert Jacks=
+on. From the letter: =E2=80=9CNotably, one of the professors who is leading=
+ the suit, Robert Jackson, served as an SEC Commissioner between January 20=
+18 and February 2020. During his more than two-year term as Commissioner, t=
+he SEC reviewed and declared effective more than 100 SPAC IPO registration =
+statements, and oversaw dozens of de-SPAC merger transactions. If Mr. Jacks=
+on is so sure that SPACs are in fact illegal investment companies, why didn=
+=E2=80=99t he take steps to shut them down while he was an SEC Commissioner=
+?=E2=80=9D[6] He says =E2=80=9Cwarrants=E2=80=9D where I might prefer to sa=
+y =E2=80=9Crights.=E2=80=9D The point is, you get an option that entitles y=
+ou to put in money and get back a share of stock in the new company.[7] Thi=
+nk of it this way: A typical SPAC sells shares for $10, and shareholders ge=
+t (1) $10 in a pot plus (2) the option to invest that $10 in a deal. That o=
+ption to invest, for a good SPAC sponsor in good times for SPACs, is worth =
+more than $0, and during the early-2021=C2=A0SPAC boom many SPACs would qui=
+ckly trade up to like $12 a share after going public. But the SPAC sponsor =
+wouldn=E2=80=99t sell the shares for $12, or whatever the market would bear=
+; the sponsor would sell the shares for $10, the amount of cash that it wou=
+ld keep in trust to hand back to shareholders if no deal happened. A SPARC =
+is the same as a SPAC except that instead of $10 in trust it keeps $0 in tr=
+ust. It=E2=80=99s a SPAC minus $10. As with a SPAC, the option to invest is=
+ worth something; $12 minus $10 is $2. But as with a SPAC, you=E2=80=99re n=
+ot going to charge for that option; you=E2=80=99re only going to charge inv=
+estors the amount of money they=E2=80=99re guaranteed to get back =E2=80=94=
+ here, $0.[8] Or, if all goes well, you call him in a few months and say =
+=E2=80=9Chey, you=E2=80=99ve got a SPARC.=E2=80=9D Same basic principle.[9]=
+ Again, though, the other possibility is that my readers are smart but very=
+ ethical; they=C2=A0love thinking of clever hypotheticals but would never e=
+ver do this.=C2=A0
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ces8e8.5nw3/47997966.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_45123_2049410439.1629742436827
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px 0px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBcf0da45e"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Ackman SPAC attack</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One basic way to invest is that you pu=
+t your money in a pot, and a bunch of other people put their money in the p=
+ot, and one person manages the pot of money and uses it to invest in stuff.=
+ If the stuff she invests in goes up, you, and the other people who put mon=
+ey into the pot, make money. (If it goes down, you lose money.) If the stuf=
+f goes up, and usually also if it goes down, the manager gets paid somehow =
+=E2=80=94=C2=A0fees, salaries, bonuses, a share of the profits, a share of =
+the pot, etc. =E2=80=94=C2=A0for doing the work of picking the investments.=
+</p><p style=3D"margin: 16px 0;">This general description covers a lot of t=
+hings. In a sense it covers every public company. Loosely speaking Tesla In=
+c. raised a pot of money from investors, and Elon Musk =E2=80=94=C2=A0its m=
+anager =E2=80=94=C2=A0invested that pot of money in factories and stuff to =
+make cars, and the value of those investments went up, and so Tesla=E2=80=
+=99s shareholders made money and Musk was compensated in various ways (most=
+ly shares and options) that made him very rich.=C2=A0</p><p style=3D"margin=
+: 16px 0;">But most classically that description covers=C2=A0<em>mutual fun=
+ds</em>. A mutual fund is a pot of money, its manager uses the money to buy=
+ stocks or bonds, if the stocks or bonds go up the shareholders of the fund=
+ make money, and the manager charges some fees.=C2=A0</p><p style=3D"margin=
+: 16px 0;">Back in the 1920s, a bunch of nefarious things happened in the s=
+tock market, including with mutual funds. Then the Great Depression happene=
+d and the=C2=A0U.S. Congress wrote what we now call the securities laws, se=
+tting up a system of regulation of stock markets. One of these laws is <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243/aHR0cH=
+M6Ly93d3cuZ292aW5mby5nb3YvY29udGVudC9wa2cvQ09NUFMtMTg3OS9wZGYvQ09NUFMtMTg3O=
+S5wZGY/607f07ceef4b8524a319a23cBd74b8300" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">the Investment Company Act of 1940</a>, ge=
+nerally called =E2=80=9Cthe =E2=80=9940 Act,=E2=80=9D which regulates mutua=
+l funds. Essentially the =E2=80=9940 Act defines an =E2=80=9Cinvestment com=
+pany=E2=80=9D (roughly synonymous with =E2=80=9Cmutual fund=E2=80=9D) as a =
+company that is mainly in the business of investing in securities, requires=
+ investment companies to make lots of disclosures, and carefully regulates =
+the relationships and conflicts of interest between the investment company =
+=E2=80=94=C2=A0the pot of money =E2=80=94=C2=A0and the people who manage it=
+. In particular an investment company will have an =E2=80=9Cinvestment advi=
+ser,=E2=80=9D a person or more often a company that manages the mutual fund=
+, and the =E2=80=9940 Act (and the related Investment Advisers Act of 1940)=
+=C2=A0sets requirements for the investment company=E2=80=99s deal with the =
+investment adviser. The investment adviser can=E2=80=99t, for instance, tra=
+de securities with the investment company: If the adviser owns stocks, she =
+can=E2=80=99t sell them to the mutual fund (to avoid the risk that she=E2=
+=80=99d sell them at too high a price). The adviser=E2=80=99s fees are also=
+ regulated; in particular, it is hard for advisers to charge performance-ba=
+sed fees (i.e. take a cut of the fund=E2=80=99s upside).[1] There is a gene=
+ral sense that the requirements of the =E2=80=9940 Act are quite strict, th=
+at it severely limits the things that the investment manager can do and the=
+ compensation she can receive.</p><p style=3D"margin: 16px 0;">These rules =
+do not apply to, for instance, Tesla. Or WeWork. The chief executive office=
+r of a public company can have all sorts of compensation arrangements and c=
+onflicts of interest that the investment adviser of a mutual fund could not=
+. Those are general questions of corporate governance, and corporate govern=
+ance rules=C2=A0<em>in general=C2=A0</em>are less strict than the rules of =
+the =E2=80=9940 Act. The =E2=80=9940 Act applies only to investment compani=
+es.=C2=A0Companies that are in the business of investing in car factories o=
+r whatever are just regular companies and not covered. The key distinction =
+is that a company that is mainly in the business of buying=C2=A0<em>securit=
+ies=C2=A0</em>is an investment company, while a company that is mainly in t=
+he business of buying other things =E2=80=94=C2=A0factories or real estate =
+or whatever =E2=80=94=C2=A0is not.[2]</p><p style=3D"margin: 16px 0;">Occas=
+ionally there are weird accidents. A company will run an operating business=
+ and then come into possession of a ton of publicly traded securities. Perh=
+aps it sold a division for stock, etc. Is it an investment company? I dunno=
+, maybe; sometimes temporarily holding a bunch of shares (before dividendin=
+g them out to your shareholders, etc.) is fine. There are technical rules b=
+ut at our level of generality the point is that there are some companies th=
+at are =E2=80=9Creally=E2=80=9D in the business of doing business, and thos=
+e aren=E2=80=99t investment companies, and there are other companies that a=
+re =E2=80=9Creally=E2=80=9D in the business of buying securities, and those=
+ are investment companies and subject to the =E2=80=9940 Act.</p><p style=
+=3D"margin: 16px 0;">(There are other forms of =E2=80=9Cpeople put money in=
+ a pot and a manager buys things with it=E2=80=9D that are not covered by=
+=C2=A0the =E2=80=9940 Act for whatever reason. Hedge funds, for instance, a=
+re a sort of investment firm that are limited to rich people and institutio=
+ns, and are exempt from=C2=A0the =E2=80=9940 Act.[3] This gives hedge fund =
+managers more flexibility to charge performance fees, to use leverage and s=
+hort selling, etc.)</p><p style=3D"margin: 16px 0;">Another thing of the fo=
+rm =E2=80=9Cpeople put money in a pot and a manager buys things with it=E2=
+=80=9D is the special-purpose acquisition company, or SPAC. In a SPAC, peop=
+le put money into a pot, and the money stays in the pot until the manager f=
+inds a company to merge with. Then the pot merges with the target company; =
+the target company gets the money and becomes public, while the shareholder=
+s of the pot get shares of the newly public target. And the SPAC=E2=80=99s =
+sponsor =E2=80=94=C2=A0the person who raised the money in the pot and found=
+ the target =E2=80=94=C2=A0gets a big chunk of shares and warrants in the t=
+arget company as compensation for her efforts.</p><p style=3D"margin: 16px =
+0;">In a generic sense, SPAC sponsors are a lot like mutual-fund investment=
+ advisers, but they get paid a lot more. They get a lot more performance fe=
+es. Their fees are less clear and more discretionary. They can engage in al=
+l sorts of conflicted transactions. (Here=E2=80=99s a <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/24831872.264243/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMTgvc3BhYy1iYWNrZWQtYnktZmF0aGVyLW=
+Z1ZWxzLTg0LWdhaW4tYnV5aW5nLWZpcm0tcnVuLWJ5LWRhdWdodGVy/607f07ceef4b8524a319=
+a23cB13483592" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> fun story</a> about a guy who ran a=C2=A0SPAC and merged it with=C2=
+=A0his daughter=E2=80=99s company.) A lot of people do not like SPACs. They=
+ feel bubbly. Their disclosure is sometimes=C2=A0<a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/24831872.264243/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMTIvbWF5YmUtc3BhY3MtYXJlLXJlYWxseS1=
+pcG9z/607f07ceef4b8524a319a23cB35738e65" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> not the best</a>. There is a sense that S=
+PACs have often been a confusing and overhyped way for well-connected finan=
+ciers to raise a lot of money from ordinary people, take a lot of that mone=
+y for themselves, and leave their investors=C2=A0with <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/24831872.264243/aHR0cHM6Ly93d3cubnl0aW1=
+lcy5jb20vMjAyMS8wOC8yMS9idXNpbmVzcy9kZWFsYm9vay9zcGFjLW1hcmtldC1mdXR1cmUuaH=
+RtbA/607f07ceef4b8524a319a23cB0e17dc27" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">poor results</a>.</p><p style=3D"margin: 16px=
+ 0;">If you don=E2=80=99t like SPACs, a thought you might have is: Look, th=
+e =E2=80=9940 Act is designed specifically to address this sort of problem.=
+ There are people raising money from the general public to make investments=
+. Those people are being a bit aggressive in their fund-raising, and being=
+=C2=A0<em>very=C2=A0</em>aggressive, and somewhat confusing, in their compe=
+nsation structures.=C2=A0There are conflicts of interest and disclosure fai=
+lings and asymmetric performance fees. These are =E2=80=9940 Act problems t=
+hat=C2=A0the =E2=80=9940 Act is meant to solve. Except that SPACs are not=
+=C2=A0=E2=80=9940 Act investment companies.</p><p style=3D"margin: 16px 0;"=
+>Or are they? When I say that, in a SPAC, =E2=80=9Cpeople put money into a =
+pot, and the money stays in the pot until the manager finds a company to me=
+rge with,=E2=80=9D I don=E2=80=99t mean that literally. There=E2=80=99s not=
+ a physical pot with some $100 bills in it. Until it finds a merger target,=
+ the SPAC holds its money in a trust account and generally invests it in ve=
+ry safe assets =E2=80=94=C2=A0typically short-term U.S. Treasury securities=
+ or Treasury money market funds. Technically those are securities.[4] From =
+the time it raises its money, until the time it does its merger, a SPAC is =
+investing basically 100% of its shareholders=E2=80=99 money in securities.<=
+/p><p style=3D"margin: 16px 0;">Does that make it an investment company? Pr=
+obably not, no: It is not primarily in the business of investing in securit=
+ies; rather, it is primarily in the business of finding an operating compan=
+y to merge with, and it holds securities for a while as it pursues that goa=
+l. But you could try. Here=E2=80=99s a <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/24831872.264243/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZX=
+dzL2FydGljbGVzLzIwMjEtMDgtMTcvcGVyc2hpbmctc3F1YXJlLXNwYWMtaGl0LXdpdGgtc3Vpd=
+C1xdWVzdGlvbmluZy1pdHMtbGVnYWxpdHk/607f07ceef4b8524a319a23cBaaf87225" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> Bloomberg arti=
+cle from last week</a>:</p><blockquote><p style=3D"margin: 16px 0;">The lar=
+gest SPAC to ever hit the market is operating illegally as an investment co=
+mpany, a new lawsuit against billionaire Bill Ackman=E2=80=99s Pershing Squ=
+are Tontine Holdings Ltd. claims.=C2=A0</p><p style=3D"margin: 16px 0;">Les=
+s than a month after the blank-check company abandoned plans for a deal wit=
+h Universal Music Group, it=E2=80=99s facing a civil suit from a shareholde=
+r claiming that it fits the description of an investment company and should=
+ be regulated as one, starting with the =E2=80=9Cstaggering=E2=80=9D compen=
+sation paid to Pershing Square Capital Management as investment adviser.</p=
+><p style=3D"margin: 16px 0;">The suit by shareholder George Assad could ha=
+ve wide-ranging implications for the financial industry if a court determin=
+es that SPACs more generally should be regarded as investment companies sub=
+ject to the 1940 Investment Company Act, which requires registration with t=
+he Securities Exchange Commission and places restrictions on fees charged f=
+or investment advice.</p><p style=3D"margin: 16px 0;">Under the law, an inv=
+estment company=E2=80=99s main business is securities investing, the suit s=
+ays, and that=E2=80=99s =E2=80=9Cbasically the only thing that PSTH has eve=
+r done.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">Here is <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243/aHR0cHM=
+6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JBbHJPdy5NOG=
+xOTS92MA/607f07ceef4b8524a319a23cB949b6e3a" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">the complaint</a>, and here is a <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243/aHR0cHM6L=
+y93d3cubnl0aW1lcy5jb20vMjAyMS8wOC8xNy9idXNpbmVzcy9kZWFsYm9vay9iaWxsLWFja21h=
+bi1zcGFjLmh0bWw/607f07ceef4b8524a319a23cBe78a493b" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">New York Times article</a> noting =
+that =E2=80=9CRobert Jackson, a former S.E.C. commissioner, and John Morley=
+, a law professor at Yale,=E2=80=9D are the legal experts behind the lawsui=
+t. Pershing Square Tontine Holdings is a particularly tempting target for a=
+=C2=A0=E2=80=9940 Act lawsuit because, while most SPACs buy Treasuries for =
+a year and then merge with an operating company, PSTH bought Treasuries for=
+ a while and then proposed to spend its trust money on shares of an already=
+-public company, Universal Music Group.</p><p style=3D"margin: 16px 0;">If =
+PSTH bought public shares of Universal Music and held them on behalf of its=
+ investors, it would obviously be an investment company. But it didn=E2=80=
+=99t. For one thing, PSTH ended up abandoning the Universal Music deal, so =
+it has just gone back to being a regular SPAC, holding a pot of money and l=
+ooking for a merger. For another thing, PSTH tried to structure the Univers=
+al Music deal as a typical SPAC merger (where it would=C2=A0<em>merge with=
+=C2=A0</em>Universal Music and transform PSTH shares into a minority stake =
+of Universal Music), but couldn=E2=80=99t get that deal done and agreed to =
+the (now-abandoned) share purchase instead. For a third thing, PSTH=E2=80=
+=99s plan had been to=C2=A0<em>distribute=C2=A0</em>the Universal Music sha=
+res to its shareholders, holding them only momentarily, not to hold and man=
+age them on behalf of PSTH=E2=80=99s shareholders.=C2=A0</p><p style=3D"mar=
+gin: 16px 0;">But Jackson and Morley=E2=80=99s logic is not limited to the =
+particular structure of the PSTH/Universal Music deal (which, again, didn=
+=E2=80=99t happen); it=C2=A0mostly applies to all SPACs. From the complaint=
+:</p><blockquote><p style=3D"margin: 16px 0;">Investing in securities is th=
+e Company=E2=80=99s primary business because that is all the Company has ev=
+er done with its assets. Since the time of its IPO, the Company has investe=
+d nearly all of its assets in securities of the U.S. government and securit=
+ies of money market mutual funds. Of the $4.03 billion in assets the Compan=
+y owned as of June 30, 2021, it invested fully $4.02=C2=A0billion in these =
+two kinds of securities.=C2=A0These instruments are the only source from wh=
+ich the Company has ever received any income.</p><p style=3D"margin: 16px 0=
+;">Now that the Company has abandoned the UMG Securities Purchase, the Comp=
+any will continue investing all of its assets in government securities and =
+money market funds for up to an additional seventeen months as it continues=
+ to search for a new way to deploy its billions of dollars of capital. The =
+Company=E2=80=99s Prospectus commits PSTH to invest all of that money in se=
+curities while it looks for an Initial Business Combination.=C2=A0</p></blo=
+ckquote><p style=3D"margin: 16px 0;">That=E2=80=99s true of every SPAC; if =
+investing a SPAC pool in Treasuries until you find a merger makes a SPAC an=
+ investment company, then every SPAC is an investment company.</p><p style=
+=3D"margin: 16px 0;">I think that=E2=80=99s the point of the lawsuit? Some =
+people dislike SPACs, they dislike their compensation and disclosure practi=
+ces, and they would like those practices to be more strictly regulated. Wri=
+ting new regulations is hard. But there is already a large complicated effe=
+ctive time-tested body of regulation that covers managers who invest pots o=
+f money on behalf of retail investors, that regulates their disclosure and =
+compensation and conflicts of interest. If you could just apply that body o=
+f regulation to SPACs =E2=80=94=C2=A0by finding that SPACs=C2=A0<em>are=C2=
+=A0</em>investment companies =E2=80=94=C2=A0then SPAC regulation will insta=
+ntly get a lot stricter. (And SPACs will probably mostly go away.)</p><p st=
+yle=3D"margin: 16px 0;">I don=E2=80=99t think=C2=A0this is especially likel=
+y to work.=C2=A0<em>In general</em>, SPACs are not in the business of buyin=
+g Treasuries; they=E2=80=99re in the business of merging with operating com=
+panies.=C2=A0<em>In particular</em>, you could argue that PSTH was=C2=A0<em=
+>not=C2=A0</em>in the business of merging with an operating company =E2=80=
+=94=C2=A0it was in the business of trying to buy some Universal Music share=
+s to distribute to its shareholders =E2=80=94=C2=A0but I don=E2=80=99t thin=
+k that argument is particularly compelling; in any case it never happened. =
+From the Bloomberg article:</p><blockquote><p style=3D"margin: 16px 0;">Ush=
+a Rodrigues, a professor of securities law at the University of Georgia, ca=
+lled the lawsuit=E2=80=99s argument =E2=80=9Cbold=E2=80=9D and said it chal=
+lenged the very model on which SPACs are premised.</p><p style=3D"margin: 1=
+6px 0;">=E2=80=9CIt could be a very big deal, if the court accepts the argu=
+ments,=E2=80=9D she said.</p><p style=3D"margin: 16px 0;">But Rodrigues als=
+o said she was skeptical the case would succeed, as the SEC has allowed SPA=
+Cs to operate for decades now without registering as investment companies. =
+=E2=80=9CThe plaintiffs are really asking the courts to reject the SEC=E2=
+=80=99s rules and regulations that have been evolving since 2003 if not ear=
+lier,=E2=80=9D she said.</p></blockquote><p style=3D"margin: 16px 0;">At so=
+me point =E2=80=9Cnobody at the SEC noticed that SPACs are investment compa=
+nies=E2=80=9D[5] just turns into =E2=80=9Cbecause the SEC doesn=E2=80=99t t=
+reat SPACs as investment companies, they aren=E2=80=99t investment companie=
+s.=E2=80=9D Still, it=E2=80=99s a clever effort. If you are getting into th=
+e SPAC business for the financial upside, the risk that all that upside is =
+illegal might be a deterrent.</p><table class=3D"header" width=3D"100%" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Meanwhile, SPARCs</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">If your model of the Ackman SPAC lawsu=
+it is =E2=80=9Cthey want to make SPACs illegal by calling them investment c=
+ompanies,=E2=80=9D then the weird thing is that Ackman has solved that prob=
+lem. Let=E2=80=99s say that tomorrow a court declares SPACs illegal. The il=
+legal thing, this hypothetical court says, is that a SPAC:</p><ol style=3D"=
+list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=
+=3D"margin-bottom: 5px;">takes investors=E2=80=99 money;=C2=A0</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">invests it in Treasury bills for a bit while i=
+t looks for an acquisition target, making it a =E2=80=9940 Act investment c=
+ompany; and</li>=09<li style=3D"margin-bottom: 5px;">charges lots of weird =
+cool fees, which are illegal under the =E2=80=9940 Act.</li></ol><p style=
+=3D"margin: 16px 0;">Fine. Let=E2=80=99s say you are a SPAC sponsor who wan=
+ts to keep doing this racket because it is lucrative. One thing you could (=
+perhaps) do is keep doing SPACs but abiding by the =E2=80=9940 Act rules ab=
+out fees and=C2=A0related-party transactions; I=E2=80=99m not sure this is =
+even possible, but certainly it is unattractive to sponsors.=C2=A0</p><p st=
+yle=3D"margin: 16px 0;">Instead the move is to=C2=A0<em>not be an investmen=
+t company</em>, which means (in this hypothetical world where the Ackman SP=
+AC lawsuit succeeds)=C2=A0<em>not taking investors=E2=80=99 money and inves=
+ting it in Treasuries</em>. Just=C2=A0<em>don=E2=80=99t=C2=A0</em>take thei=
+r money=C2=A0<em>until you have an acquisition target</em>. Sign up investo=
+rs on a sort of waitlist, go out and look for an acquisition target, sign t=
+he merger agreement, and then go out to the investors on the waitlist and s=
+ay =E2=80=9Cokay you can put your money in now.=E2=80=9D</p><p style=3D"mar=
+gin: 16px 0;">This is the SPARC, the Special Purpose Acquisition Rights Com=
+pany.=C2=A0A SPARC is a SPAC without the pool of money. Instead of shares, =
+SPARCs issue rights; instead of selling shares for $10 or $20 per share and=
+ keeping the money in trust, the SPARC gives rights away for free and has n=
+o money in trust. It goes out and looks for a deal. When it finds one, it g=
+oes to the holders of rights and says =E2=80=9Chey would you like to kick i=
+n $10 to get a new public share of this company I found?=E2=80=9D If they m=
+ostly say yes, then the deal closes, the acquisition target gets the money =
+and becomes public, and the SPARC rights (plus $10) transform into shares o=
+f the new public company.=C2=A0</p><p style=3D"margin: 16px 0;">When Pershi=
+ng Square Tontine Holdings announced its Universal Music deal, it announced=
+ that PSTH shareholders, in addition to Universal Music shares, would be ge=
+tting SPARC rights, and we talked about the SPARC structure a <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/24831872.264243/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDQvYmlsbC1hY2ttYW4tcy=
+1zcGFjLXdpbGwtYmUtdGhyZWUtc3BhY3M/607f07ceef4b8524a319a23cB1941e7eb" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> couple</a> of <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDcvc3BhY3=
+MtY2FuLXNob290LW91dC1zcGFyY3M/607f07ceef4b8524a319a23cB6f35b95b" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> times</a>. It is =
+cool! I am uncomplicatedly fond of the SPARC; it is an evolution of the SPA=
+C structure that is both (1) more efficient and investor-friendly (investor=
+s don=E2=80=99t have to tie up cash for months while the sponsor hunts for =
+a target) and (2) somehow funnier. <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/24831872.264243/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMjEtMDYtMDQvYmlsbC1hY2ttYW4tcy1zcGFjLXdpbGwtYmUtdGhyZWUtc=
+3BhY3M/607f07ceef4b8524a319a23cC1941e7eb" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> I wrote</a>:</p><blockquote><p style=3D"m=
+argin: 16px 0;">It is fun. It dispenses with almost all of the financial en=
+gineering of a SPAC: There are no warrants, no cash value, no shareholder v=
+otes, no time limits. In fact arguably there is no <em>anything</em>. Bill =
+Ackman can go around to private companies looking to go public and say =E2=
+=80=A6 what? =E2=80=9CHey, I=E2=80=99ve got some friends, and they are foll=
+owing with interest my efforts to find a company to merge with. If I find a=
+ good one, maybe they=E2=80=99ll give me money, though they haven=E2=80=99t=
+ given me any money yet and they=E2=80=99re under no obligation to do so. W=
+ould you like to be that company, and maybe my friends will give you their =
+money? We can find out together!=E2=80=9D</p></blockquote><p style=3D"margi=
+n: 16px 0;">But, I emphasized, the same exact thing is true of a SPAC: SPAC=
+ shareholders put their money in up front, but they can get it back when th=
+e deal is announced; the target only gets the money if the SPAC shareholder=
+s decide it=E2=80=99s a good deal. The SPARC emphasizes this choice: It emp=
+hasizes that, if you are a target company and you sign a deal with a SPA(R)=
+C to go public, the SPA(R)C doesn=E2=80=99t come with any guaranteed money.=
+ Instead, you are signing up for the sponsor=E2=80=99s ability to=C2=A0<em>=
+raise=C2=A0</em>money, to go out to the retail investors holding SPAC share=
+s or SPARC rights and convince them to fund the deal.</p><p style=3D"margin=
+: 16px 0;">Anyway, the Universal Music deal fell through, so PSTH did not e=
+nd up doing the SPARCs. But there=E2=80=99s still time. Here's a <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/24831872.264243/aHR0cHM6Ly9w=
+c3RvbnRpbmUuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIxLzA4LzguMTkuMjAyMS1QU1RILUx=
+ldHRlci10by1TaGFyZWhvbGRlcnMucGRm/607f07ceef4b8524a319a23cB4f6e42d4" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">letter that Ackm=
+an sent to PSTH shareholders last week</a>, explaining and criticizing the =
+=E2=80=9940 Act lawsuit against PSTH=C2=A0and telling them that a SPARC is =
+coming[6]:</p><blockquote><p style=3D"margin: 16px 0;">We are working to ac=
+celerate the launch of Pershing Square SPARC Holdings, Ltd. (=E2=80=9CSPARC=
+=E2=80=9D), and expect that we will shortly be making a public filing of SP=
+ARC=E2=80=99s SEC registration statement. As a reminder, SPARC, which we co=
+nceived of months ago and disclosed in connection with the UMG transaction,=
+ is a modified opt-in (rather than the current opt-out) SPAC structure wher=
+e investors in PSTH would receive long-dated, transferable SPARC warrants t=
+o acquire common stock in SPARC, which we expect to be traded on the NYSE.<=
+/p><p style=3D"margin: 16px 0;">SPARC warrants would give investors the rig=
+ht to invest in SPARC=E2=80=99s future merger transaction at a share price =
+equal to SPARC=E2=80=99s cash net asset value (=E2=80=9CNAV=E2=80=9D) per s=
+hare. The Pershing Square Funds will be making a large-co-investment in SPA=
+RC on precisely the same terms and at the same time as SPARC=C2=A0warrant h=
+olders. The SPARC warrants would not be exercisable, and warrant holders wo=
+uld not need to invest their capital, until SPARC has identified a merger t=
+arget, completed due diligence, entered into and approved a transaction, an=
+d cleared a registration statement with the SEC, which will provide full di=
+sclosure on the transaction and the target company.</p><p style=3D"margin: =
+16px 0;">Originally, SPARC intended to issue the SPARC warrants to PSTH sha=
+reholders after PSTH=E2=80=99s initial business combination. In light of th=
+is litigation, we expect that SPARC would issue the SPARC warrants as promp=
+tly as possible after regulatory approvals are obtained. =E2=80=A6</p><p st=
+yle=3D"margin: 16px 0;">Assuming SPARC is approved by the SEC and the SPARC=
+ warrants are approved for listing on the NYSE, if PSTH has not by then ent=
+ered into a merger transaction, we intend to seek PSTH shareholder approval=
+ to enable us to return to shareholders the $4 billion of cash PSTH holds i=
+n trust. Following the return of cash, we expect SPARC to issue one SPARC D=
+istributable Warrant for each PSTH Distributable Warrant, and one SPARC war=
+rant for each outstanding PSTH common share.=C2=A0</p><p style=3D"margin: 1=
+6px 0;">As a result of the above, PSTH shareholders will receive $20 per sh=
+are in cash and one SPARC warrant for each share that they own. This will e=
+ntitle shareholders to invest in our next initial business combination at a=
+ share price equal to SPARC=E2=80=99s cash NAV per share, or to sell the SP=
+ARC warrants on the NYSE.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;=
+">So if all goes according to plan, PSTH will hand back all of its money to=
+ investors and disappear, and those investors will also get a SPARC right. =
+And then if Ackman finds a new merger target, those investors will be able =
+to exercise their SPARC rights to put in more money to fund the new deal. T=
+he SPARC structure is cool and elegant, but the process to get there is pre=
+tty ugly: Ackman (1) raised $4 billion, (2) now wants to hand it back, and =
+(3) hopes to be able to raise it again in the future. Oh well.</p><p style=
+=3D"margin: 16px 0;">I want to make two more points about the SPARC structu=
+re. One is that, because it has no money, it really puts an emphasis on the=
+ sponsor=E2=80=99s ability to do a good deal, sell that deal, and raise mon=
+ey. In the SPAC boom of earlier this year, lots of random people raised SPA=
+Cs because SPACs were hot. When those people go to a target company and say=
+ =E2=80=9Chey we have a pot of money here, would you like it,=E2=80=9D the =
+target will be tempted to say yes. This is true even though the SPAC doesn=
+=E2=80=99t <em>really</em> have a pot of money; the SPAC shareholders can t=
+ake their money out before the deal closes.=C2=A0With a SPARC, on the other=
+ hand, the sponsor can=E2=80=99t say =E2=80=9Chey we have a pool of money h=
+ere=E2=80=9D; all the sponsor can say is =E2=80=9Chey there are some people=
+ who have an option to give me money if I strike a good deal.=E2=80=9D If y=
+ou are a target company, you=E2=80=99re only going to do a deal with a spon=
+sor who you think can deliver.</p><p style=3D"margin: 16px 0;">The other po=
+int is weirder: How do you=C2=A0<em>start=C2=A0</em>a SPARC? The way to sta=
+rt a SPAC is clear: You sell shares for $10, you put all the $10 checks=C2=
+=A0in a pot, you go look for deals. The shares are sold in a public offerin=
+g, and investment banks are used to doing those offerings. Investors who bu=
+y in the offering pay $10, and can get $10 back at the end if you don=E2=80=
+=99t do a deal (or if they don=E2=80=99t like the deal that you do), so the=
+ offering feels pretty safe.</p><p style=3D"margin: 16px 0;">With a SPARC, =
+though, you can=E2=80=99t really do an initial public offering of SPARC rig=
+hts. Those rights are in some loose sense worth zero dollars. Of course the=
+y aren=E2=80=99t: You=E2=80=99ll list them on the stock exchange and they=
+=E2=80=99ll trade for some price, and that price will reflect people=E2=80=
+=99s expectations that (1) you=E2=80=99ll sign a deal with a target company=
+, (2) they will like the deal and exercise the rights, and (3) the price yo=
+u agree to pay per share of the target company will be lower than the tradi=
+ng value of those shares, so they will get a pop by exercising their rights=
+. If you are a decent SPARC sponsor that price will be greater than zero. B=
+ut those things are pretty uncertain, and if you sold the rights for, like,=
+ $2 a share and then didn=E2=80=99t do a deal =E2=80=94=C2=A0letting the ri=
+ghts expire worthless =E2=80=94=C2=A0investors and regulators would be pret=
+ty mad at you. I think the only realistic price that a SPARC=C2=A0<em>spons=
+or=C2=A0</em>could charge for SPARC rights is $0, even though they would th=
+en trade up to a non-zero price.[7]=C2=A0</p><p style=3D"margin: 16px 0;">S=
+o how do you give SPARC rights away for free? Well, Ackman has a simple sol=
+ution: He has a SPAC, and he=E2=80=99s going to give SPARC rights to his SP=
+AC shareholders. One SPAC share gets you one SPARC right. Fine. He was plan=
+ning to do that after the SPAC closed its Universal Music deal, and now tha=
+t that deal is dead he=E2=80=99s planning to do it when the SPAC hands its =
+cash back to shareholders. Any=C2=A0<em>other=C2=A0</em>SPAC sponsor could =
+also do that =E2=80=94=C2=A0start a SPARC, hand SPARC rights out to your SP=
+AC shareholders, either do a deal with your SPAC or shut it down, and keep =
+the SPARC around to do your next deal. There are serial SPAC sponsors; they=
+ could easily become serial SPARC sponsors instead. Each time you do a deal=
+, give out new SPARC rights to the shareholders of that deal.</p><p style=
+=3D"margin: 16px 0;">But what if you don=E2=80=99t already have a SPAC? You=
+=E2=80=99re some brilliant financier or operator who wants to get into the =
+taking-companies-public business; you would start a SPAC, but you're convin=
+ced that the SPARC structure is better. (More investor-friendly, less likel=
+y to get you in =E2=80=9940 Act trouble, etc.) The problem you have is givi=
+ng a bunch of rights away for free, to some defined group of people, prefer=
+ably people who are likely to (1) exercise the rights if you find a deal or=
+ (2) at least sell the rights to someone who might exercise.</p><p style=3D=
+"margin: 16px 0;">I suppose one thing you could do is call up Bill Ackman a=
+nd say =E2=80=9Chey, you=E2=80=99ve got a SPAC,[8] I would like to give you=
+r SPAC shareholders a present, could you send me your shareholder list?=E2=
+=80=9D And then you distribute your SPARC rights to every shareholder of PS=
+TH. Or you call up some other SPAC sponsor, get their shareholder list, and=
+ distribute SPARC rights to their shareholders. Or you call up Warren Buffe=
+tt and distribute your SPARC rights to Berkshire Hathaway Inc. shareholders=
+. Or you print out SPARC right certificates on paper and go door to door in=
+ Greenwich, Connecticut, depositing one in each resident=E2=80=99s mailbox.=
+ Or you put them on the Ethereum blockchain and distribute one to each hold=
+er of Ether. The way to start a SPARC is, as crypto people would say, with =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMTAtMTEvbXV0d=
+WFsLWZ1bmRzLWluLXRoZS1lbmNoYW50ZWQtZm9yZXN0/607f07ceef4b8524a319a23cBd8ee65=
+3b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> an =
+=E2=80=9Cairdrop=E2=80=9D</a>: Find some big but definable group of possibl=
+y interested people and give them SPARC rights for free.</p><table class=3D=
+"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Cool insider trading case</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I write a lot about insider trading, a=
+nd my readers are smart, so the question I get asked perhaps more than any =
+other goes like this:=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B=
+ =E2=80=9CLet=E2=80=99s say I have some big secret news about a public comp=
+any. Say I work for a company and know that it=E2=80=99s about to announce =
+good earnings or be taken over at a premium. If I buy call options on my co=
+mpany=E2=80=99s stock, that=E2=80=99s insider trading and I=E2=80=99ll go t=
+o prison. But what if I buy call options on=C2=A0<em>another=C2=A0</em>comp=
+any=E2=80=99s stock? What if I buy call options on my company=E2=80=99s clo=
+sest competitor, figuring that good news for my company will also push up t=
+hat company=E2=80=99s stock? I don=E2=80=99t have any inside information=C2=
+=A0<em>about that company</em>, do I? So it=E2=80=99s not insider trading, =
+right?=E2=80=9D</p><p style=3D"margin: 16px 0;">My answer has usually been =
+what=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/24831872=
+.264243/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDc=
+tMTYvYS12YWNjaW5lLWNvdWxkLWN1cmUtYWlybGluZXM/607f07ceef4b8524a319a23cB7319d=
+75b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">I wro=
+te last year</a>:</p><blockquote><ol style=3D"list-style-type: decimal; pad=
+ding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">This=
+ is not legal advice.</li>=09<li style=3D"margin-bottom: 5px;">The U.S. Sec=
+urities and Exchange Commission will probably take the position that it=E2=
+=80=99s illegal insider trading: You have=C2=A0nonpublic information, it is=
+ (indirectly) material to Company Y, and you have some duty of confidential=
+ity to Company X to keep it secret.=C2=A0</li>=09<li style=3D"margin-bottom=
+: 5px;">But they are less likely to=C2=A0<em>catch=C2=A0</em>you than if yo=
+u trade your own company=E2=80=99s stock.</li>=09<li style=3D"margin-bottom=
+: 5px;">Really, this is not legal advice!</li></ol></blockquote><p style=3D=
+"margin: 16px 0;">It is a curious fact that there is not a lot of precedent=
+ for this. I mean, at the time I wrote that, I had never seen a court case =
+or SEC enforcement action about this sort of comparable-company insider tra=
+ding. You could interpret that in one of two ways:</p><ol style=3D"list-sty=
+le-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"marg=
+in-bottom: 5px;">Insider traders are uniformly dumb; when they have materia=
+l nonpublic information they only use it to trade their own company=E2=80=
+=99s stock, and get caught.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">=
+Some insider traders are smart; when they have material nonpublic informati=
+on they use it to trade the stock of highly correlated companies in order t=
+o make quick reliable profits. But the SEC is dumb; it doesn=E2=80=99t have=
+ tools to notice and go after this sort of trading: If you trade your own c=
+ompany=E2=80=99s stock they=E2=80=99ll check up on you, but if you trade yo=
+ur competitor=E2=80=99s stock they won=E2=80=99t.</li></ol><p style=3D"marg=
+in: 16px 0;">Given how many times my readers have asked me about this hypot=
+hetical, I have to assume that the answer is No. 2,=C2=A0that people regula=
+rly use inside information about their own companies to make profitable tra=
+des in the stock of other companies, and that the SEC doesn=E2=80=99t go af=
+ter them.[9]</p><p style=3D"margin: 16px 0;">But here=E2=80=99s an <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMS0xNTU/607f07ceef4b8524a319=
+a23cB83a4ddbb" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">SEC enforcement action</a> from last week:</p><blockquote><p style=3D"=
+margin: 16px 0;">According to the SEC's complaint, filed in the U.S. Distri=
+ct Court for the Northern District of California, Matthew Panuwat, the then=
+-head of business development at Medivation, a mid-sized, oncology-focused =
+biopharmaceutical company, purchased short-term, out-of-the-money stock opt=
+ions in Incyte Corporation, another mid-cap oncology-focused biopharmaceuti=
+cal company, just days before the Aug. 22, 2016, announcement that Pfizer w=
+ould acquire Medivation at a significant premium. Panuwat allegedly purchas=
+ed the options within minutes of learning highly confidential information c=
+oncerning the merger. According to the complaint, Panuwat knew that investm=
+ent bankers had cited Incyte as a comparable company in discussions with Me=
+divation and he anticipated that the acquisition of Medivation would likely=
+ lead to an increase in Incyte's stock price. The complaint alleges that Me=
+divation's insider trading policy expressly forbade Panuwat from using conf=
+idential information he acquired at Medivation to trade in the securities o=
+f any other publicly-traded company. Following the announcement of Medivati=
+on's acquisition, Incyte's stock price increased by approximately 8%. The c=
+omplaint alleges that, by trading ahead of the announcement, Panuwat genera=
+ted illicit profits of $107,066.</p></blockquote><p style=3D"margin: 16px 0=
+;">There you go! He learned about his company=E2=80=99s merger, bought call=
+ options on his company=E2=80=99s closest comparable company, made money wh=
+en the merger was announced and the other company=E2=80=99s=C2=A0stock went=
+ up, and got charged with insider trading. Here=E2=80=99s <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/24831872.264243/aHR0cHM6Ly93d3cuc2V=
+jLmdvdi9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMS9jb21wLXByMjAyMS0xNTUucGRm/607f0=
+7ceef4b8524a319a23cB0e1a8dd5" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">the SEC=E2=80=99s argument</a>=C2=A0that it=E2=80=99s i=
+llegal insider trading.</p><blockquote><p style=3D"margin: 16px 0;">Panuwat=
+ learned the foregoing information through his employment at Medivation, an=
+d he knew or was reckless in not knowing that the information was material =
+and nonpublic. Panuwat also knew, or was reckless in not knowing, that the =
+information concerning Medivation=E2=80=99s imminent acquisition was materi=
+al not only to Medivation, but also to Incyte, a peer company in the biopha=
+rmaceutical industry that was also publicly-traded, mid-cap, and oncology-f=
+ocused. Medivation=E2=80=99s undisclosed acquisition would have been viewed=
+ by a reasonable investor in Medivation or Incyte as having significantly a=
+ltered the total mix of information made available. The public announcement=
+ of Medivation=E2=80=99s acquisition at a significant premium to its then-c=
+urrent share price would likely have a positive impact on Incyte=E2=80=99s =
+stock price. For example, the acquisition of Medivation also made Incyte a =
+more attractive target for acquisition.=C2=A0</p><p style=3D"margin: 16px 0=
+;">By virtue of his employment at Medivation, as well as the confidentialit=
+y and=C2=A0insider trading policies that he signed, Panuwat owed Medivation=
+ a duty to keep this material nonpublic information confidential, and to re=
+frain from trading on Medivation=E2=80=99s confidential<br />information.=
+=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Seems reasonable enough=
+. They do not, however, say how they caught him. So now I need to update my=
+ standard response:</p><ol style=3D"list-style-type: decimal; padding-left:=
+ 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">This is not le=
+gal advice.</li>=09<li style=3D"margin-bottom: 5px;">The U.S. Securities an=
+d Exchange Commission will <em>definitely</em>=C2=A0take the position that =
+it=E2=80=99s illegal insider trading: You have=C2=A0nonpublic information, =
+it is (indirectly) material to Company Y, and you have some duty of confide=
+ntiality to Company X to keep it secret.=C2=A0</li>=09<li style=3D"margin-b=
+ottom: 5px;">Also this is apparently something they look for, so they might=
+ catch you.</li>=09<li style=3D"margin-bottom: 5px;">Really, this is not le=
+gal advice!</li></ol><table class=3D"header" width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">U.S. Banks and <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/24831872.264243/aHR0cHM6Ly93d3cud3NqLmNvb=
+S9hcnRpY2xlcy91LXMtYmFua3MtYW5kLW1vbmV5LXRyYW5zZmVyLWZpcm1zLXRyZWFkLWNhcmVm=
+dWxseS1pbi10YWxpYmFuLWNvbnRyb2xsZWQtYWZnaGFuaXN0YW4tMTE2Mjk1NTcxMjc_bW9kPWh=
+wX2xlYWRfcG9zOQ/607f07ceef4b8524a319a23cB0eff5cdf" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">Money-Transfer Firms</a> Tread Car=
+efully in Taliban-Controlled Afghanistan. Anti-money laundering <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/24831872.264243/aHR0cHM6Ly93d=
+3cuZnQuY29tL2NvbnRlbnQvNzE0NGZmNTMtNWExNy00NzdiLWFiNzUtNGY0YTg4Yjk0ZmQy/607=
+f07ceef4b8524a319a23cB5cff6057" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">fines surge</a> as watchdogs impose tougher penalties=
+. Cryptocurrency Companies Are Leaving China in =E2=80=98<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/24831872.264243/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS9hcnRpY2xlcy9jcnlwdG9jdXJyZW5jeS1jb21wYW5pZXMtYXJlLWxlYXZpbmctY2hpbmE=
+taW4tZ3JlYXQtbWluaW5nLW1pZ3JhdGlvbi0xMTYyOTYyNDYwMj9tb2Q9aXRwX3dzaiZydT15YW=
+hvbw/607f07ceef4b8524a319a23cB241acb38" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Great Mining Migration</a>.=E2=80=99 China Re=
+gulator <a href=3D"https://link.mail.bloombergbusiness.com/click/24831872.2=
+64243/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMjMvY=
+2hpbmEtcmVndWxhdG9yLWhhbHRzLTQyLWlwb3Mtb24tcHJvYmUtb2YtYnJva2VyLWxhdy1maXJt=
+/607f07ceef4b8524a319a23cBdddf5827" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Halts 42 IPOs</a> on Probe of Broker, Law Firm. =
+Citadel to Pull $500 Million <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24831872.264243/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjEtMDgtMjEvY2l0YWRlbC10by1yZWRlZW0tYWJvdXQtNTAwLW1pbGxpb24tZnJvbS1=
+tZWx2aW4tY2FwaXRhbC1kag/607f07ceef4b8524a319a23cB65489095" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;"> From Melvin</a> Amid Plot=
+kin=E2=80=99s Rebound. Theranos Founder <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24831872.264243/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjEtMDgtMjAvZWxpemFiZXRoLWhvbG1lcy10cmlhbC1ob3ctdGhlcmFu=
+b3MtZm91bmRlci1wbGFucy1kZWZlbnNlLXRvLXN0YXktb3V0LW9mLXByaXNvbg/607f07ceef4b=
+8524a319a23cB8eb6d0e8" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Elizabeth Holmes</a> Is Ready for Her Day in Court. Executive=
+s warn of growing <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+24831872.264243/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOTBjZjE0NzAtODk5OS00YTd=
+lLTgzOTAtNDQxMzA1MTM5OTI4/607f07ceef4b8524a319a23cB10a19d5d" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">container ship shortages=
+</a>. The <a href=3D"https://link.mail.bloombergbusiness.com/click/24831872=
+.264243/aHR0cHM6Ly9kaWZmLnN1YnN0YWNrLmNvbS9wL3RoZS1kaXZpZGVuZC1mdXR1cmVzLWR=
+pc2FzdGVyLXJldmlzaXRlZA/607f07ceef4b8524a319a23cB3dac05c0" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">Dividend Futures</a> Disas=
+ter Revisited: Anatomy of a Very Bad Trade. Did FinTech Lenders Facilitate =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243/aH=
+R0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTM5MDYzO=
+TU/607f07ceef4b8524a319a23cBe6d91981" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">PPP Fraud</a>? AmEx=E2=80=99s <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/24831872.264243/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMjAvYW1leC1zLWJsYWNrLWNhcmQtZ2=
+V0cy1mYWNlLWxpZnQtd2l0aC1kZXNpZ25zLWJ5LWtvb2xoYWFzLXdpbGV5/607f07ceef4b8524=
+a319a23cB268d9443" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Black Card</a> Gets Face-Lift With Designs by Koolhaas, Wiley. Tw=
+o <a href=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243/=
+aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90aGVzZS1wZW9wbGUtd2hvLXdvcmstZnJvbS1=
+ob21lLWhhdmUtYS1zZWNyZXQtdGhleS1oYXZlLXR3by1qb2JzLTExNjI4ODY2NTI5P3N0PTdmNT=
+hpN2JsYXJmeXdrayZyZWZsaW5rPWRlc2t0b3B3ZWJzaGFyZV90d2l0dGVy/607f07ceef4b8524=
+a319a23cB5d1b78ad" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">jobs</a>. Speed <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24831872.264243/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zcGVlZGdvbGYt=
+bGF1cmVuLWN1cHAtd29ybGQtcmVjb3JkLTExNjI5NDc0MjE0/607f07ceef4b8524a319a23cBe=
+78a70a8" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">g=
+olf</a>.=C2=A0Corsica closes beaches after <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/24831872.264243/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjEvMD=
+gvMjEvY29yc2ljYS1jbG9zZXMtYmVhY2hlcy1hZnRlci1yYW1wYWdpbmctY293cy1odXJ0LXRvd=
+XJpc3RzLz91dG1fbWVkaXVtPVNvY2lhbEZsb3cmdXRtX3NvdXJjZT1OWVBUd2l0dGVyJnV0bV9j=
+YW1wYWlnbj1Tb2NpYWxGbG93/607f07ceef4b8524a319a23cB7cefb6c6" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">rampaging cows</a> hurt t=
+ourists.</p><p style=3D"margin: 16px 0;"><em>If you'd like to get=C2=A0Mone=
+y=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a =
+href=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243/aHR0c=
+DovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1z=
+aWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524=
+a319a23cB2c2cb37d" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">subscribe at this li=
+nk</a>. Or you can subscribe to Money Stuff and other great Bloomberg newsl=
+etters <a href=3D"https://link.mail.bloombergbusiness.com/click/24831872.26=
+4243/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a=
+319a23cB7bf550f9" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">here</a>. Thanks!</em></p><p style=3D"margin: 16px 0;"><em>[1] It=
+=C2=A0is not entirely forbidden; =E2=80=9940 Act advisers can charge =E2=80=
+=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243=
+/aHR0cHM6Ly93d3cuZGVjaGVydC5jb20va25vd2xlZGdlL3B1YmxpY2F0aW9uLzIwMTQvOS9mdW=
+xjcnVtLWZlZXMtcmVnaXN0ZXJlZC1mdW5kcy1hbHRlcm5hdGl2ZS1mZWUtc3RydWN0dXJlLmh0b=
+Ww/607f07ceef4b8524a319a23cB6bfae160" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">fulcrum fees</a>.=E2=80=9D (Meaning they take a=
+ cut of the downside too.) But it=E2=80=99s rare. (Because of the downside.=
+) Also strictly speaking the rules about fees are in the <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/24831872.264243/aHR0cHM6Ly93d3cuc2Vj=
+Lmdvdi9ydWxlcy9vdGhlci8yMDIxL2lhLTU3MzMucGRm/607f07ceef4b8524a319a23cB78e86=
+687" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">Inves=
+tment Advisers Act of 1940</a>, which is, uh, a different =E2=80=9940 Act.<=
+/em></p><p style=3D"margin: 16px 0;"><em>[2] See <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/24831872.264243/aHR0cHM6Ly93d3cuZ292aW5mby5n=
+b3YvY29udGVudC9wa2cvQ09NUFMtMTg3OS9wZGYvQ09NUFMtMTg3OS5wZGY/607f07ceef4b852=
+4a319a23cCd74b8300" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">section 3(a)(1)</a>=C2=A0of the =E2=80=9940 Act, which defines an=
+ =E2=80=9Cinvestment company=E2=80=9D to include a company that =E2=80=9Cis=
+ or holds itself out as being engaged primarily, or proposes to engage prim=
+arily, in the business of investing, reinvesting, or trading in securities,=
+=E2=80=9D or =E2=80=9Cis engaged or proposes to engage in the business of i=
+nvesting, reinvesting, owning, holding, or trading in securities, and owns =
+or proposes to acquire investment securities having a value exceeding 40 pe=
+r centum of the value of such issuer=E2=80=99s total assets (exclusive of G=
+overnment securities and cash items).=E2=80=9D=C2=A0</em></p><p style=3D"ma=
+rgin: 16px 0;"><em><em>[3] A company =E2=80=9Cthe outstanding</em> securiti=
+es of which are owned exclusively by persons who, at the time of acquisitio=
+n of such securities, are qualified purchasers, and which is not making and=
+ does not at that time propose to make a public offering of such securities=
+,=E2=80=9D is exempt from the =E2=80=9940 Act (see <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24831872.264243/aHR0cHM6Ly93d3cuZ292aW5mby=
+5nb3YvY29udGVudC9wa2cvQ09NUFMtMTg3OS9wZGYvQ09NUFMtMTg3OS5wZGY/607f07ceef4b8=
+524a319a23cDd74b8300" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">section 3(c)(7)</a>). =E2=80=9CQualified purchaser=E2=80=9D me=
+ans what you=E2=80=99d expect (rich person, institution, etc.). So a mutual=
+ fund offered to the public is covered by the =E2=80=9940 Act, but a hedge =
+fund offered only to rich or institutional investors is not.</em></p><p sty=
+le=3D"margin: 16px 0;"><em>[4] Section 3(a)(2) of=C2=A0the =E2=80=9940 Act =
+defines a thing called =E2=80=9Cinvestment securities,=E2=80=9D which *excl=
+udes* Treasury securities. Section 3(a)(1)(C) says that a company is an inv=
+estment company if more than 40% of its assets are investment securities; S=
+PACs are not investment companies under that test. But section 3(a)(1)(A) s=
+ays that a company is an investment company if it =E2=80=9Cis or holds itse=
+lf out as being engaged primarily, or proposes to engage primarily, in the =
+business of investing, reinvesting, or trading in securities=E2=80=9D =E2=
+=80=94=C2=A0securities, not =E2=80=9Cinvestment securities.=E2=80=9D So if =
+you launch a Treasury-bond fund whose only business is buying and trading T=
+reasuries, that=E2=80=99s an investment company, even though you never buy =
+=E2=80=9Cinvestment securities.=E2=80=9D=C2=A0</em></p><p style=3D"margin: =
+16px 0;"><em>[5] As Ackman points out in his <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24831872.264243/aHR0cHM6Ly9wc3RvbnRpbmUuY29tL3dw=
+LWNvbnRlbnQvdXBsb2Fkcy8yMDIxLzA4LzguMTkuMjAyMS1QU1RILUxldHRlci10by1TaGFyZWh=
+vbGRlcnMucGRm/607f07ceef4b8524a319a23cC4f6e42d4" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">letter to PSTH shareholders</a>, one=
+ person at the SEC who never noticed this was Robert Jackson. From the lett=
+er: =E2=80=9CNotably, one of the professors who is leading the suit, Robert=
+ Jackson, served as an SEC Commissioner between January 2018 and February 2=
+020. During his more than two-year term as Commissioner, the SEC reviewed a=
+nd declared effective more than 100 SPAC IPO registration statements, and o=
+versaw dozens of de-SPAC merger transactions. If Mr. Jackson is so sure tha=
+t SPACs are in fact illegal investment companies, why didn=E2=80=99t he tak=
+e steps to shut them down while he was an SEC Commissioner?=E2=80=9D</em></=
+p><p style=3D"margin: 16px 0;"><em>[6] He says =E2=80=9Cwarrants=E2=80=9D w=
+here I might prefer to say =E2=80=9Crights.=E2=80=9D The point is, you get =
+an option that entitles you to put in money and get back a share of stock i=
+n the new company.</em></p><p style=3D"margin: 16px 0;"><em>[7] Think of it=
+ this way: A typical SPAC sells shares for $10, and shareholders get (1) $1=
+0 in a pot plus (2) the option to invest that $10 in a deal. That option to=
+ invest, for a good SPAC sponsor in good times for SPACs, is worth more tha=
+n $0, and during the early-2021=C2=A0SPAC boom many SPACs would quickly tra=
+de up to like $12 a share after going public. But the SPAC sponsor wouldn=
+=E2=80=99t sell the shares for $12, or whatever the market would bear; the =
+sponsor would sell the shares for $10, the amount of cash that it would kee=
+p in trust to hand back to shareholders if no deal happened. A SPARC is the=
+ same as a SPAC except that instead of $10 in trust it keeps $0 in trust. I=
+t=E2=80=99s a SPAC minus $10. As with a SPAC, the option to invest is worth=
+ something; $12 minus $10 is $2. But as with a SPAC, you=E2=80=99re not goi=
+ng to charge for that option; you=E2=80=99re only going to charge investors=
+ the amount of money they=E2=80=99re guaranteed to get back =E2=80=94 here,=
+ $0.</em></p><p style=3D"margin: 16px 0;"><em>[8] Or, if all goes well, you=
+ call him in a few months and say =E2=80=9Chey, you=E2=80=99ve got a SPARC.=
+=E2=80=9D Same basic principle.</em></p><p style=3D"margin: 16px 0;"><em>[9=
+] Again, though, the other possibility is that my readers are smart but ver=
+y ethical; they=C2=A0love thinking of clever hypotheticals but would never =
+ever do this.=C2=A0</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBd986faca" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBc644f51a" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBaeb727b8" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24831872.264243/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBc7bd5035" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2483187=
+2.264243/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBf5aed999" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24831872.264243/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC5b77ed98" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24831872.264243/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB88f98db2" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24831872.264243/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB0103936c" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ces8e8.5nw3/47997966.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_45123_2049410439.1629742436827--
+

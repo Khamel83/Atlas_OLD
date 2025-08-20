@@ -1,0 +1,1331 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp846744rwb;
+        Fri, 3 Mar 2023 09:22:36 -0800 (PST)
+X-Received: by 2002:a05:600c:a42:b0:3e2:d3:b2b6 with SMTP id c2-20020a05600c0a4200b003e200d3b2b6mr1761923wmq.14.1677864156173;
+        Fri, 03 Mar 2023 09:22:36 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1677864156; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=kW31JwUS79Rs7sZ+RUR0tdG7ag98FStLQaczLvzfMnD896QfCcLnNi/hn9GyeWc6yG
+         P1X8U1QiqfuarsTeri+PRno4lpf6pkLFLr3bz+8OsIjxNawuFNrSD0Xg87kgE8Zwzj32
+         /1jxXka701HEHKEhqIWgqfVyPt3eo1bLH+UA6w3eq8xuwO+ka5KZC0UVPlNBxydaqrt/
+         rwPzSXveoFUH4di1v1yIatzOx0nEtIV779ny+g8DVf5UCQislVwstc415Kf4q4bCsqr0
+         9UtE0IVRixlgG2WQC2Sj2d7ARnAdcB5WivjW+cfJp85a1+bb6X3qQWGT1bb6SvdAoFM/
+         Upuw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:list-url:list-owner:message-id:reply-to
+         :date:list-id:list-unsubscribe:to:from:subject:mime-version:sender
+         :dkim-signature:delivered-to;
+        bh=SaXFG/PdL1VxaexGMkbcPwzQNGVQsTdW0+EfgK/Nx0U=;
+        b=LGHXM9zg4K62XPWjiIWU5MhAXuNsnXXibi4GM/eO4BTna1l9ZQpReKEXbXAu3jh6Bl
+         ENeG2xh9zxXSTBI/xcaIarVgO4GnsO3M1bZmA31UOJ+xLAP1f+2JqiHBtKJaOBJRU+Es
+         K3sggKt4QFGcRn2ZtC1rgyGTvJkEeKqIIdEyZq30dwBIRDgjCtH63HS0XvV64BaTUPCa
+         9GOIq4R6ZK1XUzNvD0otpJj5dLeThx8KyEHnbEzpghOK6MHDKRmHTd3mwdKsO8XCwgxv
+         U9WdUSBF7BNSuaUxllMRk6BDdNzNxbC+ZDPAbnfVv764MaiwW6YP8IzNh/odfAZFoqqx
+         gbiQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=PXraISLe;
+       arc=pass (i=2 dkim=pass dkdomain=mg1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g11-20020adffc8b000000b002c567d02c8esor1276711wrr.60.2023.03.03.09.22.36
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Fri, 03 Mar 2023 09:22:36 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=PXraISLe;
+       arc=pass (i=2 dkim=pass dkdomain=mg1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1677864156;
+        h=content-transfer-encoding:list-url:list-owner:message-id:reply-to
+         :date:list-id:list-unsubscribe:to:from:subject:mime-version:sender
+         :dkim-signature:delivered-to:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=SaXFG/PdL1VxaexGMkbcPwzQNGVQsTdW0+EfgK/Nx0U=;
+        b=6AaOg9jcSvZ4gzyg/CTOvhTbz/bgGv0OjLxLbjcfdwKbsFoQibvf/wNlqzr+NaV6mx
+         mrr4e2ff0OX0NoAxkBnK3LAkagSAsQaC2hykguTVuPyQYqM+WoWEMFEb1fivIMtBwl81
+         khLqpHC+e47+WrkWm1/GKjple3ULCaMPkEGgVynTxriuSztkXzxWeKxu99r52yHXpnot
+         rt6A4saZgIKZhOZlOWZb54evFPw/gNqGe1mrIIFgn61gy7RjP7mfRLu7lQ8tYSerliKB
+         sZE7dU1dBGlZkHCpfhx4bxp4YiAmSHLf/J2GuHJ5I7xHYfwetqhsL7HIopK5e3tBKbDK
+         MZVw==
+X-Gm-Message-State: AO0yUKWQKiWam7GwchKQzBqqtBwHS3aqEYu9bbnDv9DTuYl+ZJyxwdU+
+	aG16DEke4jsBRipmgsJaMlbUtJq/YNs6A7LAwwGuP1Rz9izxMuevpg==
+X-Received: by 2002:a5d:4146:0:b0:2cb:c072:cf56 with SMTP id c6-20020a5d4146000000b002cbc072cf56mr531267wrq.7.1677864155841;
+        Fri, 03 Mar 2023 09:22:35 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:fa90:0:0:0:0:0 with SMTP id h16csp640308wrr;
+        Fri, 3 Mar 2023 09:22:34 -0800 (PST)
+X-Received: by 2002:a92:c54f:0:b0:316:dcfd:1b6e with SMTP id a15-20020a92c54f000000b00316dcfd1b6emr2247148ilj.30.1677864154190;
+        Fri, 03 Mar 2023 09:22:34 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1677864154; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Tf970W6IxvQLEnfAPdZiBi+woSyFC1uer6OyekPuxDduxh/F5uKnj/ecXopLtV3bhq
+         NGMkv++Vy8dTn9JNhdTALHgQE2VjEPQR9CNKmj0Y6THrp0Bqraw1izOLM6XNNz6+dN01
+         /6bcr3ltuhnAFos/Fc/D3+t62LdwBuPVY0myyJnATqZbkLr7xn1DsGNkpkEoJbbAF2bc
+         tcEf3hxuPcvnwS/gkeWNiK1lhzdnRrYj/LZnXYXtlgfk5c5PCMSq7gv2vMuHDCnDRco7
+         PFHdM/6SoDp6N4GXeDATvWukwM+0oYV3w6A5JMMnd8eJmysu+18SaiH/QIH9BEkFivHR
+         nBWw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:list-url:list-owner:message-id:reply-to
+         :date:list-id:list-unsubscribe:to:from:subject:mime-version:sender
+         :dkim-signature;
+        bh=SaXFG/PdL1VxaexGMkbcPwzQNGVQsTdW0+EfgK/Nx0U=;
+        b=kAy1iYJ6Sn95B2/W4fJQt0liIe9nw6D4hx/AqM8dvNXSsY8D1cztNdzslCY+unxdVy
+         8NfSyat0/gcUmn5ym9Fb8YNlFdiw+87NNn3/9Uyrp1gceQgLB/QmACmd1iWUH0IEsmDK
+         AsCO/MYSbFHMLRhvVcUgs4jHENi8YJV35MdCvrtySDSVjbM/nxROiTRc0ynO6RmhbPd5
+         xdB9b/17epCwPcj1Vz+o79/DDr1x1p2ItpqMGbugL1h9O5qZGgYBZg/xg723bUQhiNlv
+         JMiwDBLbuoAzTfvIAC0A+vU4OW977gYuUqpvp1RKkUt8SCeFNgbXJIGzpVkFJwoKZyTk
+         pd/A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=PXraISLe;
+       arc=pass (i=1 spf=pass spfdomain=mg1.substack.com dkim=pass dkdomain=mg1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j14-20020a056e02124e00b00316aa269177sor673716ilq.133.2023.03.03.09.22.34
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Fri, 03 Mar 2023 09:22:34 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set9k0mGp5CVs4WADPn0TmWSHZxiZFj3rWSSDvvUSiU3n6azIjRVIzPQzLLFw0Vx76f5BwzhOJfZtUEDij9NkFYdf+MJIAe4=
+X-Received: by 2002:a05:6e02:1a05:b0:317:106c:649c with SMTP id s5-20020a056e021a0500b00317106c649cmr2297270ild.27.1677864153958;
+        Fri, 03 Mar 2023 09:22:33 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1677864153; cv=none;
+        d=google.com; s=arc-20160816;
+        b=EcemegR9+xLYgsKkeqDRoX8xdPhefo2pMtCjnr4+FkV7fkmjVc9MQJZKKkg3AYVTlT
+         yH69t4PJpFQy68hwtU1qat0dX7TXihm4V87CNnLjnbi74A3JMuC5ng0g6s2OoRGwXP8j
+         BvswKIrvfvWxSaKyKs365z/iDwbqcJ2J6h3oxVxLaVMYQ5TCIhfN1e3C5rs6QQ/4yqfz
+         +iXqYcpI0f9PwkLfGSmzka0U71X/FJg55JyY3j4pNhPtTKQbrcpwX/bj3pZC/WdW4CMH
+         1qnJzGVopgJ417SnY3MvYiTTh+oLFC4inrNRxXolVt+MgpW6mmasbl8oZb+EEXnKeeQA
+         6nPw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:list-url:list-owner:message-id:reply-to
+         :date:list-id:list-unsubscribe:to:from:subject:mime-version:sender
+         :dkim-signature;
+        bh=SaXFG/PdL1VxaexGMkbcPwzQNGVQsTdW0+EfgK/Nx0U=;
+        b=BlxYLlCzkbxp/Yc2j7m9sTjr6bKgQOCUZ7+zvXfAulb3DzxMXD0+yWlG0QMIJNe0n6
+         YL+3QkDeH/DPyvL1N9rAmMDPJKSgBUktbb42xJlT3pYHJsWDwDPHr2LDNKKu7lYsuOyj
+         VEvBNY5GBPXMZ0tmyB92Va9YqqIECL+ZcggGKPjhzc73ALZRYqtKEiZzla00sZt6L2IJ
+         7omJ53gI6siTjF2SEjLfZVB1yaDEMtf4ita2fnxsebJQhV3p4wvKgSWiqXwBqe3EqE0Q
+         AwZ0HG+CcHU3m4vKTIDObnZlUNr4RdyBMvih6L7MpzCYuZgTmXADFJ7Ra2gHtKmAJE0g
+         7jjQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=PXraISLe;
+       spf=pass (google.com: domain of bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com designates 161.38.197.240 as permitted sender) smtp.mailfrom="bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com>
+Received: from mg-197-240.substack.com (mg-197-240.substack.com. [161.38.197.240])
+        by gmr-mx.google.com with UTF8SMTPS id i7-20020a056638400700b003e54cad3425si289018jai.1.2023.03.03.09.22.33
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 03 Mar 2023 09:22:33 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com designates 161.38.197.240 as permitted sender) client-ip=161.38.197.240;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg1.substack.com; q=dns/txt;
+ s=mailo; t=1677864152; x=1677871352; h=Content-Transfer-Encoding:
+ Content-Type: List-Owner: Message-Id: Reply-To: Date: List-Id:
+ List-Unsubscribe: To: To: From: From: Subject: Subject: Mime-Version:
+ Sender: Sender; bh=SaXFG/PdL1VxaexGMkbcPwzQNGVQsTdW0+EfgK/Nx0U=; b=PXraISLe2kbmS/X04zu5jdQGyJI//YVne1OBuhFhTEtXlv+7gbitFEd04jeQOWJoOzonuMQj
+ GCHDV0sWwgbGim9plxtfJf2l13F5k2iMJcURalml/qavHyS9skLy6i4VJtUJxcUwoQrB4l6A
+ gDxq61pFh5OsWvbNG2Iie44cBcU=
+X-Mailgun-Sending-Ip: 161.38.197.240
+X-Mailgun-Sid: WyIwMzJmMCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiMDcyYzdiIl0=
+Received: from <unknown> (<unknown> []) by e96259240fe9 with HTTP id
+ 64022cd8463d23143507cb4a; Fri, 03 Mar 2023 17:22:32 GMT
+Sender: no-reply=substack.com@mg1.substack.com
+Mime-Version: 1.0
+Subject: Not Boring by Packy McCormick recommended Dirt Roads
+From: Substack <no-reply@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: reader-recommendation-email
+List-Unsubscribe: <https://substack.com/api/v1/email/notification/unsubscribe?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwidG9waWMiOiJyZWFkZXJfcHVibGljYXRpb25fcmVjb21tZW5kYXRpb24iLCJpYXQiOjE2Nzc4NjQxNTIsImV4cCI6MTY4MDQ1NjE1MiwiaXNzIjoicHViLTAiLCJzdWIiOiJub3RpZmljYXRpb24tdW5zdWJzY3JpYmUifQ.bcEfZrIZMMSyYFW9kNax06WkZUFdaZXfE8dyD9j7SEc>
+List-Id: <www.substack.com>
+Date: Fri, 3 Mar 2023 17:22:31 +0000
+Reply-To: Substack <no-reply@substack.com>
+Message-Id: <20230303172231.3.24065ce9a75e3a51.a7tywx7t@mg1.substack.com>
+List-Owner: <mailto:no-reply@substack.com>
+List-Url: <https://substack.com/>
+X-Mailgun-Variables: {"category": "reader-recommendation-email",
+ "comment_id": "", "email_generated_at": "1677864152431", "is_freemail": "",
+ "post_audience": "", "post_id": "", "post_type": "",
+ "pub_community_enabled": "", "publication_id": "", "subdomain": "www",
+ "user_id": "16283549"}
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D""><head><title></title><meta charset=3D"utf-8"><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.youtube-inner div.youtube-screen,
+  .typography.editor .markup div.youtube-inner div.youtube-screen,
+  .typography .markup div.vimeo-inner div.youtube-screen,
+  .typography.editor .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet,
+  .typography.editor .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-text,
+  .typography.editor .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-photos-container.two,
+  .typography.editor .markup .tweet .tweet-photos-container.two,
+  .typography .markup .tweet .tweet-photos-container.three,
+  .typography.editor .markup .tweet .tweet-photos-container.three,
+  .typography .markup .tweet .tweet-photos-container.four,
+  .typography.editor .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-img,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-description,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-descript=
+ion {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget,
+  .header-anchor-container .header-anchor-widget {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .post-label {
+    margin-top: 8px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .footer-facepile-container {
+    height: 64px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.youtube-inner div.youtube-screen,
+  body .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  body .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-sub=
+scribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-photos-container.two,
+  body .markup .tweet .tweet-photos-container.three,
+  body .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed img.install-substack-app-embed-i=
+mg {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-link=
+ {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper {
+    width: 100%;
+    padding: 0 16px;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper:empty {
+    display: none;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button {
+    width: 100%;
+    margin: 16px 0;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjMwMzAzMTcyMjMxLjMuMjQwNjVjZTlhNzVlM2E1MS5hN3R5d3g3dEBtZzEuc3Vic3RhY2suY2=
+9tPiIsInUiOjE2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcxLnN1Y=
+nN0YWNrLmNvbSIsInAiOm51bGwsInQiOm51bGwsImEiOm51bGwsInMiOm51bGwsImMiOiJyZWFk=
+ZXItcmVjb21tZW5kYXRpb24tZW1haWwiLCJmIjpmYWxzZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQ=
+iOjE2Nzc4NjQxNTIsImV4cCI6MTY4MDQ1NjE1MiwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.u=
+KI3FRnzBERV0svyjQD3bvNt8fihWvl4q126yQj76E4" alt=3D"" width=3D"1" height=3D"=
+1" border=3D"0" style=3D"height:1px !important;width:1px !important;border-=
+width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margi=
+n-right:0 !important;margin-left:0 !important;padding-top:0 !important;padd=
+ing-bottom:0 !important;padding-right:0 !important;padding-left:0 !importan=
+t;"/><table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" class=3D"email-body-container"><tr><td></td><td wi=
+dth=3D"550" class=3D"content"></td><td></td></tr><tr><td></td><td align=3D"=
+left" width=3D"550" class=3D"content revamped-reader-recommendation notific=
+ation" style=3D"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol';"><div style=3D"font-size: 16px; line-height: 26px; ma=
+rgin: 0 auto; max-width: 550px; overflow-wrap: break-word; width: 100%;"><h=
+2 style=3D"-moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoo=
+thing: subpixel-antialiased; color: #404040; font-family: 'SF Compact Displ=
+ay', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Aria=
+l, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fo=
+nt-size: 1.625em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.6=
+25em 0;">Not Boring by Packy McCormick recommended Dirt Roads</h2><table ro=
+le=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0" class=3D"email-body-center" style=3D"margin: 0 auto; margin-bottom=
+: 8px; margin-top: 32px;"><tr><td style=3D"border-top: 1px solid #e0e0e0; p=
+adding-bottom: 16px; padding-top: 16px;"><img src=3D"https://substackcdn.co=
+m/image/fetch/w_51.55555555555556,c_scale,f_png,q_auto:good,fl_progressive:=
+steep/https%3A%2F%2Fsubstack.com%2Ficon%2FSubstackLogoIcon%3Fv%3D4%26height=
+%3D58%26strokeWidth%3D3.6" width=3D"26" height=3D"29" style=3D"border: none=
+ !important; max-width: 25.77777777777778px; vertical-align: middle;" alt=
+=3D""><div class=3D"icon-pile" style=3D"font-size: 16px; line-height: 26px;=
+ margin: 16px 0px;"><div class=3D"pub-and-pub-author" style=3D"align-items:=
+ center; display: flex; font-size: 16px; line-height: 26px;"><div class=3D"=
+pub-icon pub-icon stacked-icons" style=3D"border-radius: 4px; font-size: 16=
+px; height: 30px; line-height: 26px; margin-right: 8px; min-width: 30px; po=
+sition: relative; width: 30px;"><a href=3D"https://email.mg1.substack.com/c=
+/eJx9UMuOwyAM_Jpya8QjCc2BQy_7G8iAm6ImEBFH2fz90lRa7Wll5AMej2fGA-GYy2EKQsByLe=
+jzPGMKQDGnK84QJ7bklSwdCxq2rVhsDEb08qa6dmDBcC29diyu9lHwXDBs2dwU_cnxRrOnGW5-A=
+PRBCin8A1SvHh4ROXLXc1DucwS2EDH5eugjg87tyTyJlvWi7hf5Vd--703K5HKJaWx8rl8sGsml=
+4rWEllKJRjWy5X3ncQDdoYJONKDp2L81XVo-j6JZN7cS-FdlmFkxv4x1_HrCjNM5qFbsW8yWIh0=
+WE7gJqyb6N7Gz2xETlhpwsEA1Ma1vfSs62Srxcfv2VkWEXNHJVFcM_8B-ADxUi0U" native=3D=
+"" style=3D"color: #ff6719; text-decoration: none;"><picture><source type=
+=3D"image/webp" srcset=3D"https://substackcdn.com/image/fetch/w_64,h_64,c_f=
+ill,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc8=
+4-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F62784289=
+-29bb-4fdf-9ada-642905c5a28b_400x400.png"><img src=3D"https://substackcdn.c=
+om/image/fetch/w_64,h_64,c_fill,f_auto,q_auto:good,fl_progressive:steep/htt=
+ps%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%=
+2Fpublic%2Fimages%2F62784289-29bb-4fdf-9ada-642905c5a28b_400x400.png" sizes=
+=3D"100vw" alt=3D"Not Boring by Packy McCormick" srcset=3D"" width=3D"64" h=
+eight=3D"64" class=3D"frontend-components-responsive_img-module__img--1l4UG=
+ custom" style=3D"border-radius: 4px; display: flex; height: 100%; max-widt=
+h: 100%; width: 100%;"></picture></a></div><div class=3D"profile-image-wrap=
+per" style=3D"display: inline-block; font-size: 16px; height: auto; line-he=
+ight: 26px; max-width: 100%; position: relative;"><img height=3D"32" width=
+=3D"32" src=3D"https://substackcdn.com/image/fetch/w_64,h_64,c_fill,f_auto,=
+q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e=
+-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F40bee61d-67eb-4492-=
+9ee1-ebbbf2b03141_1280x855.jpeg" class=3D"user-profile-head" style=3D"borde=
+r: none !important; border-radius: 50%; display: block; max-width: 550px; v=
+ertical-align: middle;"></div></div></div><div class=3D"describe-text" styl=
+e=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px;"><div class=
+=3D"frontend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-modu=
+le__size-16--yeezN frontend-pencraft-Text-module__line-height-22--2MbqA fro=
+ntend-pencraft-Text-module__weight-normal--mEmBf frontend-pencraft-Text-mod=
+ule__color-primary--2I-sF" style=3D"color: #404040; font-size: 16px; font-w=
+eight: 400; letter-spacing: -0.31px; line-height: 22px; margin: 0; text-dec=
+oration: unset;"><a class=3D"recommender-link" href=3D"https://email.mg1.su=
+bstack.com/c/eJx9UMuOwyAM_Jpya8QjCc2BQy_7G8iAm6ImEBFH2fz90lRa7Wll5AMej2fGA-=
+GYy2EKQsByLejzPGMKQDGnK84QJ7bklSwdCxq2rVhsDEb08qa6dmDBcC29diyu9lHwXDBs2dwU_=
+cnxRrOnGW5-APRBCin8A1SvHh4ROXLXc1DucwS2EDH5eugjg87tyTyJlvWi7hf5Vd--703K5HKJ=
+aWx8rl8sGsml4rWEllKJRjWy5X3ncQDdoYJONKDp2L81XVo-j6JZN7cS-FdlmFkxv4x1_HrCjNM=
+5qFbsW8yWIh0WE7gJqyb6N7Gz2xETlhpwsEA1Ma1vfSs62Srxcfv2VkWEXNHJVFcM_8B-ADxUi0=
+U" style=3D"color: #ff6719; text-decoration: none;">Not Boring by Packy McC=
+ormick</a> recommended <a class=3D"recommended-link" href=3D"https://email.=
+mg1.substack.com/c/eJx9ULtuhDAQ_Jpzd8gv8F3hIk1-Ay32wlkBG9mLCH8fwzVJE2m1zczO=
+zowDwinlw2YEj_me0aVlweiBQop3XCDMbE2FejpWtGwrmPvgrejkQ7X6ybzlRjozsFD6MeN1YNm=
+6DXNwl8bJZi_bPUeF2j-4NjAIqfjoWugcKq6E8mP3fgKbDxhdffS2Qdf1bF9Ea7mpj5v8rONDpp=
+zAl6ZsQyFwX02lV4AFK3nVPkWNlEo0qpGad63DJ5gWFbSiAUPH_m3opvkyiT8SLNuYaEg5xKnCX=
+y9YcL6AGqg_LW0x0NFjhGHG6oz-7e3a_YQRc63Z90C1N2MenRat1Eq8M58JqwmfKjvafd8Z_qL9=
+ANI6jL4" style=3D"color: #ff6719; text-decoration: none;">Dirt Roads</a>:</=
+div></div><div style=3D"color: #808080; font-size: 14px; font-style: italic=
+; font-weight: 400; letter-spacing: -0.15px; line-height: 20px; margin: 0; =
+margin-bottom: 12px; text-decoration: unset;" class=3D"frontend-pencraft-Te=
+xt-module__reset--20JLV frontend-pencraft-Text-module__size-14--1PYz8 front=
+end-pencraft-Text-module__line-height-20--1soeQ frontend-pencraft-Text-modu=
+le__weight-normal--mEmBf frontend-pencraft-Text-module__color-secondary--Xj=
+VGl blurb-text">&quot;Understanding how financial value flows through compl=
+ex systems. Deep writing on the systems underpinning fintech &amp; DeFi.&qu=
+ot;</div></td></tr><tr><td style=3D"border-top: 1px solid #e0e0e0; padding-=
+bottom: 16px; padding-top: 16px;"><a href=3D"https://email.mg1.substack.com=
+/c/eJx9UcGu2yAQ_Bpzi2XAmOTAodLT-w0LwzpBz4AF66b5-y5OK7U9VCAOs7O7w4yzCPdcXqaA=
+9VAuBVyOEZK3GHK6QLRhY3uuOONrB8OOCmUO3vBJXKUab8ybQQunFxbqvBY4Gwzbj2UL7pzR2Ox=
+hwGo_cCXkTaxWrUIJP65X56b1xtU46fcSe_gAydGitww8uzfzQNxrJ7914pOuDwVLtr729VgqWv=
+fVE73V5OeBca75KA46-fG73Imp4RF8OCLhp8pfoMsJaRGhBb7buIP_x4R6WXMzpvlDPQVWKCWk-=
+0yfJHkk64MPg1AsGDEIOdDhWgjJe9mLcZiUg5vVCqRVvLcaX88fGrtxiHf-l35WTMq45Dabyl8P=
+G2E7C21RU3SkgK8Zkl02IFvwv6Gd73yHBIUy9rNFCk3r6zRSCqPkb8ObvSTCZ2In83w-GfxB-wm=
+_aLnH" style=3D"color: #ff6719; text-decoration: none;"><table class=3D"lin=
+k-card" style=3D"background: #f5f5f5; border-radius: 8px; padding: 16px; wi=
+dth: 100%;"><tr><td><div class=3D"pub-icon pub-icon-margin subscribe-image"=
+ style=3D"border: none; border-radius: 4px; font-size: 16px; height: 40px; =
+line-height: 26px; margin-bottom: 12px; margin-right: 10px; min-width: 30px=
+; position: relative; width: 40px;"><a href=3D"https://email.mg1.substack.c=
+om/c/eJx9ULuOwyAQ_JrQxTJgTFJQpLnfQGvYOCg2WLCWz39_2GnumhMrmp3ZeTggHFPeTUbwmK=
+8ZXZpnjB4opHjFGcLEllTI0r6gYWvBbIM3vBc3qbo786bVwumBhWKfGU-CYcs6TMGdNw40exl8Y=
+u98q4E7pwV3KPmzE-iVvA9KgvqIwOoDRleFPjboZE_mRbSUi3xcxFcdHzLlBL40ZR0KgXs3Fc6C=
+Ea2QbX1cCyF5IxvRtb1yeAetsIrwBjTt27emS9fOI__LzyYmGlIOcazr9wtmnM5FTWMPP2sMtFu=
+MMExYbdG_pZ2_HTFirh17C1RL0_rWd1yJTvJP4CNeNeFTRUezbRvDX7AfKi2MsQ" native=3D"=
+" style=3D"color: #ff6719; text-decoration: none;"><picture><source type=3D=
+"image/webp" srcset=3D"https://substackcdn.com/image/fetch/w_80,h_80,c_fill=
+,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-b=
+aa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F381d11b2-6e=
+f0-4a37-98c0-be3a2ed30202_591x591.png"><img src=3D"https://substackcdn.com/=
+image/fetch/w_80,h_80,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%=
+3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fp=
+ublic%2Fimages%2F381d11b2-6ef0-4a37-98c0-be3a2ed30202_591x591.png" sizes=3D=
+"100vw" alt=3D"Dirt Roads" srcset=3D"" width=3D"80" height=3D"80" class=3D"=
+frontend-components-responsive_img-module__img--1l4UG custom" style=3D"bord=
+er-radius: 4px; display: flex; height: 100%; max-width: 100%; width: 100%;"=
+></picture></a></div></td></tr><tr><td><div class=3D"frontend-pencraft-Text=
+-module__reset--20JLV frontend-pencraft-Text-module__size-16--yeezN fronten=
+d-pencraft-Text-module__weight-semibold--2XLPl frontend-pencraft-Text-modul=
+e__color-primary--2I-sF subscribe-title" style=3D"color: #404040; font-size=
+: 16px; font-weight: 600; letter-spacing: -0.31px; line-height: 20px; margi=
+n: 0; margin-bottom: 4px; text-decoration: unset;">Dirt Roads</div></td></t=
+r><tr class=3D"subscribe-desc"><td><div class=3D"frontend-pencraft-Text-mod=
+ule__reset--20JLV frontend-pencraft-Text-module__size-14--1PYz8 frontend-pe=
+ncraft-Text-module__weight-normal--mEmBf frontend-pencraft-Text-module__col=
+or-primary--2I-sF" style=3D"color: #404040; font-size: 14px; font-weight: 4=
+00; letter-spacing: -0.15px; line-height: 18px; margin: 0; text-decoration:=
+ unset;">We observe financial value flowing through complex systems</div></=
+td></tr></table></a></td></tr></table><div class=3D"cta" style=3D"font-size=
+: 16px; line-height: 26px; margin-bottom: 16px; margin-top: 6px; padding-to=
+p: 10px; text-align: center;"><a role=3D"button" href=3D"https://email.mg1.=
+substack.com/c/eJx9Us1ymzAYfBpzi0c_IOIDhyTYDW4dTxM7aXphhPTZkQ2SR0gx-Okr7HaS=
+9tCBYUarXb7VagV3sDW2zyxwCfbKgjBNA1pyp4y-goarOjqY1pWuP0AW-RZsqWSGGbmmSTyJZIZ=
+SItIqUm25sXAWZNHBV7US538M7OgtQ2QCiAnGNizlQCmqKra5ngBOhGQSyGUI91KBFmHQxYY7q-=
+vszblDO6I3IzILr1TWWcNlO2591Tou9uNADxvDUlhVwYjOvGvK1ngrwiL_wxsRNuANSOWbgJ_t_=
+gaF0S5MDKiFd94cQP6TRnu1MUNCQ1BBw70zT75q1CBx1kPALGzAWqW3ZUggeA-ec4wQScLezocD=
+tmqrQZb-8KG5eKC5Nq4yg3ZEkhjt33gD9eVczJk96MFuP8eCPPc_SL0vdqZ72BXx4rRGy6ej4i8=
+zdMEEXeavaLFad9_u5jXc36jlbkqW-Q16WL12D6tpWzT1SfQFK_QtflXotFyt6WJVqMA_yZdCLd=
+V8x7887ziZYHk3n4zv47l96ae6t3g9v6XOUbZwuem6Ihz_q37M23e_7X6K709xpDKCCEXhwSkhF=
+I_pmMSIJQImPE2A8gSPeer6Y5e6UYyaLf7rGiObfSTxOYehVOVwH14r15egeVVDaIf7b3fP33IL=
+Gmyouiy5C91N02sW44TEFF96N7QsmJAmsHV2PB4j-ET7BU-SFDQ" class=3D"button primar=
+y" style=3D"background-color: #FF6719; border: none; border-radius: 6px; bo=
+x-sizing: border-box; color: #ffffff !important; cursor: pointer; display: =
+inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', R=
+oboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol'; font-size: 14px; font-weight: 600; height: auto; line-h=
+eight: 20px; margin: 0; opacity: 1; outline: none; padding: 10px 24px; text=
+-align: center; text-decoration: none !important; white-space: nowrap; widt=
+h: 100%;"><div class=3D"frontend-pencraft-Text-module__reset--20JLV fronten=
+d-pencraft-Text-module__size-14--1PYz8 frontend-pencraft-Text-module__line-=
+height-20--1soeQ frontend-pencraft-Text-module__weight-semibold--2XLPl" sty=
+le=3D"font-size: 14px; font-weight: 600; letter-spacing: -0.15px; line-heig=
+ht: 20px; margin: 0; text-decoration: unset;">Subscribe to Dirt Roads</div>=
+</a></div><div class=3D"footer frontend-email-shared-typed-module__footer--=
+WmMp1" style=3D"color: #808080; font-size: 16px; line-height: 26px; padding=
+: 24px 0; text-align: center;"><div style=3D"font-size: 16px; line-height: =
+26px; padding-bottom: 24px;"><p class=3D"frontend-pencraft-Text-module__res=
+et--20JLV frontend-pencraft-Text-module__size-12--2onFT frontend-pencraft-T=
+ext-module__color-secondary--XjVGl small frontend-email-shared-typed-module=
+__meta--AAyPr" style=3D"color: #808080; font-family: -apple-system, BlinkMa=
+cSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color=
+ Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; letter-spaci=
+ng: 0; line-height: 16px; margin: 0; padding-bottom: 0; text-decoration: un=
+set;">&#169; 2023 <span>Substack Inc.</span><br>548 Market Street PMB 72296=
+, San Francisco, CA 94104 <br><a href=3D"https://email.mg1.substack.com/c/e=
+Jx9UsmOozAQ_Zpwa4RtluTAodVJeogaonQWCBfkjcTsAjOEfP0YMiP1aWTrWeVaXqleUSz5rW5H=
+t-WY8fat5bQuS14xLEVdvfESi0Jr6k4mcmy4q_UdbxPBXGDDJbLMlcZcw4HUIZrokrTlc4KrNT0=
+pBJ1rTNHa3XUcgoGNV6ZjIMwshYxYxpIwxjghjLxIcM8Er6gierUh5-zCvUvZdAv0voBbdbuedB=
+LTXFdBysSNUPgbKJjp1VvVUqR_G1BmX00ptBWEL9BW1jmvFmjNxx2g8DJGsMi9rH4EmWf6z7OxP=
+w6Cfa4GHPpiL3ZjHG7zONql9NdFkM8iu0bfDYFWSstLRiCQcWjlrz9TfH3smmt0EPtsA4MnNYPs=
+8AhOXueVF5N-eLZ_upr--gCCbAN8MQgcBU_FLabaX6f3Kf_JQm_i7Qn6buLyH58pWWgp3-55RYq=
+jPIv0oBO6SePWi33_OF634SoP8MOwwzw-bxmOo3SzZON6lTnHDdWECw2IDHWAAyECOtKhadgW5S=
+vsWBxhC-jYkePwcOTCNMob0H8OWmtdNVVSt6K6KXd-xyUvZocSO5nk6ishx4RXmBRcqSb_u1MzJ=
+jde8VatIEuwVDvlOEvbBBY0EXjtw6S-aoLVKrpyh2HQ-I-wP4rY7iE" style=3D"color: #80=
+8080; text-decoration: underline;"><span style=3D"color: #808080; text-deco=
+ration: underline;">Unsubscribe from this digest</span></a></p></div><p cla=
+ss=3D"frontend-email-shared-typed-module__footerSection--9vwqp small powere=
+d-by-substack" style=3D"color: #808080; font-family: -apple-system, BlinkMa=
+cSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color=
+ Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; line-height:=
+ 20px; margin: 0; margin-top: 0; padding: 0 24px; padding-bottom: 0;"><a hr=
+ef=3D"https://email.mg1.substack.com/c/eJx9UUuOhCAQPY3s2vBRsRcsJpn0NUwJpU1a=
+wWAZx9sP6mZWE0glpF7xPmWBcIzpMAnBYXoktHGeMTggH8MDZ_ATW-JKHR0LGratmDrvjGhkq-r=
+qyZzhWlrdM792Q8JrwLBl6ydvrz9ONHsbXQHaGlqulNbDc6g5yF5gI4XDlrfNTQKb8xhsJrpl0D=
+U9mTfRshbqq5CvfNetXwnsp8yg_IRluetjpZgwe3A--6BCvTaaOwvzAn4Mhfo-MTOkD5IPYyGbq=
+x0DZaLcvbQ_hhgpB9FvRDEwbySXiucjtJRKlKqUFW9qi0_QNSqoRQmajv1HU1HxeRTlX3UsmRCp=
+j-nkq_jnDTNOVyMn1J0et-Dp6DBAP2G2Sv8u4qrdiAFT3pvrgPIitG6bStSyUuIO8Ywsi3Axo4P=
+Z953hH9gvNxyqXA" style=3D"color: #808080; display: inline-block; margin: 0 =
+4px; text-decoration: none;"><img src=3D"https://substackcdn.com/image/fetc=
+h/w_260,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubst=
+ack.com%2Fimg%2Femail%2Fgeneric-app-button%402x.png" srcset=3D"https://subs=
+tackcdn.com/image/fetch/w_130,c_limit,f_auto,q_auto:good,fl_progressive:ste=
+ep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button.png, https=
+://substackcdn.com/image/fetch/w_260,c_limit,f_auto,q_auto:good,fl_progress=
+ive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button%402=
+x.png 2x, https://substackcdn.com/image/fetch/w_390,c_limit,f_auto,q_auto:g=
+ood,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric=
+-app-button%403x.png 3x" width=3D"130" alt=3D"Get the app" height=3D"40" st=
+yle=3D"border: none !important; max-width: 550px; vertical-align: middle;">=
+</a><a href=3D"https://email.mg1.substack.com/c/eJx9UUFupDAQfA2-DQIbMBx8iJT=
+NB_YBqDE9jBVsI9PW7Px-GyaJcklky5JL1VXV3RYIl5geJiHMmC4JbfQewwzkYrigB7eKLe400m=
+NDI_KOaXSzqTvZq7YZxGwqLa2ehNvHa8KzwIgtT6uzp8bBFjcjq6m31cAuQ6sRddf2fQ9X0E0n6=
+6GBpwnk2WGwbPSMQWf1am5E216ol0K-8d3ztBPY95JJx9ctIW-Fesvkxz3mZLFQr5-kQnYH7nF2=
+2TN-JvwAbQzEJoxeYyRMnzD4DViUccgUr25dcb58UY42_56ef04t9RoiTTG5sBRN9X4Dj-sRTTj=
+uWqqKT62lVHWpStlUXWtxAN2igrYuQdPj_k8TV_qlLr-3JpL5QZjHOx4DysHRY8QAEwc0gn7d4v=
+mOCwZMvPR5BOItat13Td3KRtXPDRzz5hBzZHYw9_td4DfafwsywFw" style=3D"color: #808=
+080; display: inline-block; margin: 0 4px; text-decoration: none;"><img src=
+=3D"https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl=
+_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-butto=
+n%402x.png" srcset=3D"https://substackcdn.com/image/fetch/w_135,c_limit,f_a=
+uto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fema=
+il%2Fpublish-button.png, https://substackcdn.com/image/fetch/w_270,c_limit,=
+f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2F=
+email%2Fpublish-button%402x.png 2x, https://substackcdn.com/image/fetch/w_4=
+05,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.c=
+om%2Fimg%2Femail%2Fpublish-button%403x.png 3x" width=3D"135" alt=3D"Start w=
+riting" height=3D"40" style=3D"border: none !important; max-width: 550px; v=
+ertical-align: middle;"></a></p></div></div></td><td></td></tr></table><img=
+ src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDIw=
+MjMwMzAzMTcyMjMxLjMuMjQwNjVjZTlhNzVlM2E1MS5hN3R5d3g3dEBtZzEuc3Vic3RhY2suY29=
+tPiIsInUiOjE2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcxLnN1Yn=
+N0YWNrLmNvbSIsInAiOm51bGwsInQiOm51bGwsImEiOm51bGwsInMiOm51bGwsImMiOiJyZWFkZ=
+XItcmVjb21tZW5kYXRpb24tZW1haWwiLCJmIjpmYWxzZSwicG9zaXRpb24iOiJib3R0b20iLCJp=
+YXQiOjE2Nzc4NjQxNTIsImV4cCI6MTY4MDQ1NjE1MiwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ=
+9.cvx2pXYuWXeXKiIlsifjiWAUbmRIIi3KOnO25oRN1Vo" alt=3D"" width=3D"1" height=
+=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !important;bor=
+der-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;m=
+argin-right:0 !important;margin-left:0 !important;padding-top:0 !important;=
+padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !impo=
+rtant;"/><img width=3D"1px" height=3D"1px" alt=3D"" src=3D"https://email.mg=
+1.substack.com/o/eJx9kNGOhCAMRb9meRtDQUQf-BZSoeOQUTCIcfz7RedlnzZNmib3tvekDg=
+tNKZ8mE3rKj0wuLQtFjyWk-KAFw8zubieKlKvdWywGOq37rgUlWgnMG66F0yMLm31muv2Grfs4B=
+3cfssEb9jKDR-LCe90_wQH0zilQqh-8I0AOI1vTVizuPlB0ZNiXpdzbt3QNwQguJK8FWggJjWxE=
+yzvlaECtSKKCBnU5j48uPy1fJmi2fdwKundTD7JsYipjyiFOVX6_cKH5FiqvvRL3GMppKeI4U80=
+r__5m3yhfWNCJXqp2-HKWc634Ndan6ormOA5Gf572C4TYfuU"></body></html>

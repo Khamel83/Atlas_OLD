@@ -1,0 +1,2229 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:c484:0:b0:677:e251:6ddb with SMTP id u4csp877794qvi;
+        Thu, 16 Nov 2023 10:58:57 -0800 (PST)
+X-Received: by 2002:a05:600c:4e8a:b0:405:3dbc:8823 with SMTP id f10-20020a05600c4e8a00b004053dbc8823mr2696905wmq.12.1700161136934;
+        Thu, 16 Nov 2023 10:58:56 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1700161136; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=wnNfArvBgV16pxNwbXmYHuCLMIWf1MjK1b1Z+NEQoKLubNwX+KSm/HD7oM7yGp24a/
+         UIBDt+/v4KPsnCnqLQrE1Kn53y5rYbdPzuX48K/8N7guCPFQ/hAnOJCWSK7XqnNKIyw6
+         Q1a7BJz7jn9tvmOToE+2oiwAsrIyMg964gjCGHy7tTaumzNK0/zjSTtmGgtIT7iQZy6k
+         1XFx3+ky+z4MMku+2Z7dYxA+1s9MjvpBPIEQOADWCVqi94nrmD/6RLR1N0+lBcPBtYlO
+         9az8iVZkX11iFNFMTXXfvTX/AkAHAoNoBY2+E5LgRC94v4hbtM1yeekJGPwb4e1lIsK0
+         VrGg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=VCOgdakZSOWyFIvEx+owvw9MgYBs1QnyYbKBFwJqXro=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=dogtefX0VkhM3QA89ntorXlYKF2C6phzCrOaAflawiqyTAEo0d9EcteykJezYGA1A9
+         CBwi0z1oe+0M8gANPa6SjT/gqJbf/S4DHQktBWjo2e3zRSuLNFkti4kOk/Dg7A293AdU
+         lNaZ1AQfArtc1jFImsFCbtfw6KZ/DXkWGH94qG2TH/uo/RcY6uJmq5s68xQfNImzj9y4
+         zORKdn0BSPFPzSAJb8497fcdYUbZpaWw05rx3udmP0eZ4nGIMhA5AMdSvTBONzE+k73D
+         gj0UbblUm2g8L7YLXusHAQw/EmrNuyesYiWNEOHX5ynJ1NI1Rd/sheC1qt26vYaxQGU1
+         Xecg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=yqLykX5m;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id q2-20020a05600c2e4200b00407855d307bsor35854wmf.10.2023.11.16.10.58.56
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 16 Nov 2023 10:58:56 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=yqLykX5m;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1700161136; x=1700765936;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=VCOgdakZSOWyFIvEx+owvw9MgYBs1QnyYbKBFwJqXro=;
+        b=ZM6ylNj/VunED484V9SywhNoXI5ejN5eXvFr1eFaRGeu6TnV5G8LfaINn04uEOqlJX
+         tHqwqjEjXXA1rWm+1xdm/R4htC9EmwZ50kPVtkHfQ1OqLtAb8xp4scroT5Jfk0w8iGnL
+         uhF3Dw7WaLVw4e5QEUNDwFw5xnxDBJwwfkAqfdBjTKL4tk20FcNmnE8DGLBy0TSPu9de
+         ci+RPiNRx1k6eR/nR83NxXH68NJ+DANYqk8tozbgGAw6rj1sjAga9sEAb5LD3gtGdGLp
+         ZzOn+m7Uno/q6giVI0MsYXGroRuZCl74X6P8YtOT1FU2RNtEHrDAEAT9FJmB84bEqBqN
+         rJ7Q==
+X-Gm-Message-State: AOJu0YwTp8lvTarhlL/Wq7MDcCd52vMYm1Fu+t3CCxWIddpGeALHakV/
+	i3QR7Nm9FTSte/CAfREahwqs42FGSh5GCiJ2irEg0U+JEZNIjBXvTw==
+X-Received: by 2002:adf:fec6:0:b0:32d:b7d4:b90 with SMTP id q6-20020adffec6000000b0032db7d40b90mr2236555wrs.39.1700161136448;
+        Thu, 16 Nov 2023 10:58:56 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:e051:0:b0:32f:dd4c:ebf8 with SMTP id w17csp461055wrh;
+        Thu, 16 Nov 2023 10:58:53 -0800 (PST)
+X-Received: by 2002:a05:6e02:1e0a:b0:359:6dce:67bb with SMTP id g10-20020a056e021e0a00b003596dce67bbmr23112502ila.23.1700161132624;
+        Thu, 16 Nov 2023 10:58:52 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1700161132; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=DJ1tvTUuaFIvkmH3DP7glikRPPPPmRQHngRwQFiT4PCeoyhMprx57IoUo3p2Yqaic8
+         XFgP6gIvmvRzLTB7ZEpIoheHzOp7NNieMNR+jH8pEl8NpUfabgBt/MQyO8HjbQCKmT68
+         pbvL+HASQsQB0oAD+7AU/xJF3cNh6pI8M/v44wew8MN0wLwTUKJgf2+fWtuotTyE3+XJ
+         jtR/fHWTFZDIDItQdpSAtW+YMYskSReJz6LKDt0i51YoMp7fGb/6ZnaGwfrW4JjtCLo/
+         MgRaEcA5tPti4GfbQylvGxgwp85FxK7RODxF0VFlsLDFRW9A9rwZ/AGZAQdYWyyED66p
+         HJVQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=VCOgdakZSOWyFIvEx+owvw9MgYBs1QnyYbKBFwJqXro=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=0FW6dhf/r34DuH9MMaeNDBbmzu2PfuAYzJZDkqQ2iQMCOrypdazgstl4XkB5UtuSr4
+         yAVhYDvYeNbA9xUQTps/qaJX1ZcXkKvjCQp/E8JmYIJPL8yFcrlnI19dRRMCue4+G+1U
+         51aYqo9PFPqM6td2ALOwFF/ikHJ6NVy35C+5JQCotbcjMSSra6i6BflD9g0u4mlqiuAu
+         HhkBcMBawDY79MnPdtQz5Z6dg2J+eYPC9J3yqYEJH2hhYQVO5f16h/cgkU8HCU0kxoW4
+         2CVi9BT0xx4i/lHjFFGN5KNO9IBORBLIa2TkWdj1xE8sBEn44khg3j6JzHAUYF84yl8F
+         pKoA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=yqLykX5m;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231116135851.33394198.256419@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231116135851.33394198.256419@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231116135851.33394198.256419@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m12-20020a056e02158c00b003514b3ef11bsor3613506ilu.11.2023.11.16.10.58.52
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 16 Nov 2023 10:58:52 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20231116135851.33394198.256419@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IGX9AXt+n4pVE9Lk1ELzpmfe90KI++Px5U3nBvEKbhSbAa89c9/jyQVyxIBC/YZO35IpzXEj7UmI1lIJ/ZjAXvqMxps76k=
+X-Received: by 2002:a05:6e02:18cc:b0:359:a77f:2903 with SMTP id s12-20020a056e0218cc00b00359a77f2903mr23260034ilu.1.1700161132163;
+        Thu, 16 Nov 2023 10:58:52 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1700161132; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Jy3zr+eX/5Ct80iyJWsJQlNEFeQ+NzSiq9+ogMz/On9cpma746tCEbg5YvU3axuB84
+         gCPvVbJnvDSgqWjQApvGXDDsZ4NZfiQuYxvw5DNvcDxsdFOfAHhiJUMK9CRe1FIAm91b
+         ZYmKi6rdlh7kc/5Pf22nPhfxFNbmZXc+sw/QHuo30WxwMfU1wymEHThhDw5br9btE98G
+         HdTpL2E0qDQ+9iR7RMwinhKYmaWXJ9Ts/7tQF5iAloOk6+pY5f883QxAXLJ2MEFLTP4B
+         +n0NClwR7xWyzEIMfGVSKeOPg8E/Xn094Rf3PaGrL/33+eWkUufDAGw0h8CdNOXr+jYK
+         kYzw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=VCOgdakZSOWyFIvEx+owvw9MgYBs1QnyYbKBFwJqXro=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=ykNNqYxMyKpy8JXBOHqv52sCNTZ9E6g7Yo6pvq8DM0gxTjyb6Xig99++nrVxpeq8oe
+         ucSLy919HN0hzeH3anZx3uZZAOZ3W5W/ikw/ZSgjkNI+VTS+zcDSyBv099U1OG48+Nwb
+         +GsOIOBB0T6XZ9hRKsgwDxSpRmwcjujRbFHtnfFpodQlTAmzjkogcjFADB2VCJJCmWhq
+         aSQc8DLcRVbCQ2yXssDzJ/8hd4Y0xaDdPWYR9LgONbc6ukC4FdnJQuQmYoCQ47R0WApu
+         KQMMW/FH22pe+6i+xXOOl2KQZv60b/t3unCbf9BJn/PLSeSPwiYNLScs4dbe26GcYMKa
+         xs4Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=yqLykX5m;
+       spf=pass (google.com: domain of delivery_20231116135851.33394198.256419@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20231116135851.33394198.256419@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231116135851.33394198.256419@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id dh10-20020a056e021f0a00b0035ab2a0b897si1608249ilb.3.2023.11.16.10.58.52
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 16 Nov 2023 10:58:52 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20231116135851.33394198.256419@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=/k1w8o9X400WVUni8RgZZoEUqC/N/Jf2lt/wOKzKlKU=;
+ b=yqLykX5mX5I8QIELiXgDeeQvQUCCQYih4e7OheCGw7tshfFGJzK4UXKIqZtdr29hZMflPa1qMtXf
+   hIYD9OPvsfimTqrgbvj6vBhYGjFwogZ43CiFyLU8KgT01W/HSIvanTqE+0VMnaEVx9FG1byXY8Z1
+   dEM68B4OH2TPwdbE3nw=
+Received: from aws1-mta-relay5.sailthru.cloud (10.55.76.97) by pmta29.sailthru.com id hapj6m2sd4sa for <bloomberg@khamel.com>; Thu, 16 Nov 2023 12:58:51 -0600 (envelope-from <delivery_20231116135851.33394198.256419@mx.sailthru.com>)
+Date: Thu, 16 Nov 2023 13:58:51 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231116135851.33394198.256419@sailthru.com>
+Subject: Money Stuff: Hackers Know Everything Is Securities Fraud
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_83451646_2088467087.1700161131688"
+Precedence: bulk
+x-job: 6358-33394198-20231116
+X-Feedback-ID: 6358:33394198:campaign:sailthru
+X-TM-ID: 20231116135851.33394198.256419
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-60-191.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjvr4m.5hur/11c7217b
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjvr4m.5hur/11c7217b>, <mailto:unsubscribe_20231116135851.33394198.256419@mx.sailthru.com>
+X-rpcampaign: stjko33394198
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_83451646_2088467087.1700161131688
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+I say this a lot but it keeps being true: Every bad thing that a public c
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+
+ =20
+   =20
+      Chutzpah
+   =20
+ =20
+
+I   say   this a   lot   but it  keeps being   true: Every bad thing that a=
+ public company does, and every bad thing that happens to a public company,=
+ is also securities fraud.
+The general form of this is something bad happens and the company does not =
+immediately disclose it, or has not adequately warned shareholders of the r=
+isk of it happening, or both. Later, when the bad news comes out, the compa=
+ny=E2=80=99s stock drops. Shareholders who bought the stock before the news=
+ came out sue, saying that they were deceived about the bad thing and lost =
+money. The US Securities and Exchange Commission also takes an interest in =
+fraud and might bring an enforcement action.
+Take computer hacking, for instance.=C2=A0If a company gets hacked, that is=
+ bad: The hack might disrupt its business, it might have to pay a ransom to=
+ unlock its files, its customers might stop trusting it, it might get in tr=
+ouble with regulators for losing customer data, etc. If a company gets hack=
+ed and does not immediately disclose it, and then later discloses it and th=
+e stock drops,   it will get sued for securities fraud. (Even if it does im=
+mediately disclose it, it might get sued for not previously=C2=A0warning sh=
+areholders about the risk of being hacked, or   for saying things like =E2=
+=80=9Cwe use strong passwords=E2=80=9D if, in fact, it did not.)
+Actually hacking is a special case, because getting hacked is=C2=A0so=C2=A0=
+=C2=A0securities fraud that the SEC recently  wrote new rules about hacking=
+ disclosure. These rules, which go into effect next month,=C2=A0require pub=
+lic companies to disclose =E2=80=9Cany cybersecurity incident they determin=
+e to be material=E2=80=9D=C2=A0within four days after they decide that it i=
+s material.=C2=A0
+One corollary of =E2=80=9Ceverything is securities fraud=E2=80=9D=C2=A0=E2=
+=80=94=C2=A0and this is the farthest possible thing from legal advice but h=
+ere we are =E2=80=94=C2=A0one corollary of this is that, if you=C2=A0do=C2=
+=A0a bad thing to a public company, once you have finished doing the bad th=
+ing, there is a fascinating window in which:
+=09You know about the bad thing, because you did it.=09The company knows ab=
+out the bad thing, because it experienced it, and/or because you sent it=C2=
+=A0an email like =E2=80=9Cnyah nyah I just hacked your computers.=E2=80=9D=
+=09The public does=C2=A0not=C2=A0know about the bad thing, because the comp=
+any has not yet disclosed it.
+
+By the theory of =E2=80=9Ceverything is securities fraud,=E2=80=9D=C2=A0the=
+ company is committing securities fraud during this window. (Particularly i=
+f the bad thing was a hack and the window has been more than four days.)=C2=
+=A0And you know it. How can you take advantage?
+One thing that you could do is short the company=E2=80=99s stock, hoping to=
+ profit when the bad thing is disclosed. This is a well-established approac=
+h, but has the problem of being illegal. It is (probably) insider trading: =
+You have material nonpublic information about the company, and are trading =
+on it.
+  [1]
+=C2=A0You might not care: If you did an illegal=C2=A0bad thing to the compa=
+ny (like hacking), also doing insider trading might not bother you. Still i=
+t adds some risk. My   Fifth Law of Insider Trading is =E2=80=9Cdon=E2=80=
+=99t insider trade by planting bombs at a company and buying put options on=
+ its stock.=E2=80=9D
+Another thing you could do is sue the company for securities fraud, but tha=
+t takes a lot of time and effort. Also you won=E2=80=99t get that much mone=
+y for it unless you owned a lot of the company=E2=80=99s stock, and presuma=
+bly you didn=E2=80=99t. (If you did, why did you do the bad thing to the co=
+mpany?)
+A third thing you could do is file a whistleblower complaint with the US Se=
+curities and Exchange Commission saying =E2=80=9Chey FYI this company is do=
+ing securities fraud.=E2=80=9D And then maybe the SEC will investigate and =
+agree and fine the company a pile of money and give you a cut of the money =
+as a whistleblower reward. The SEC does the work for you and just hands you=
+ the money at the end. Efficient!
+Anyway here is maybe  the most Money Stuff story I=E2=80=99ve ever written =
+about:
+
+The ALPHV/BlackCat ransomware operation has taken extortion to a new level =
+by filing a U.S. Securities and Exchange Commission complaint against one o=
+f their alleged victims for not complying with the four-day rule to disclos=
+e a cyberattack.
+Earlier today, the threat actor listed the software company MeridianLink on=
+ their data leak with a threat that they would leak allegedly stolen data u=
+nless a ransom is paid in 24 hours.
+
+LOVE IT. Apparently AlphV hacked into MeridianLink=E2=80=99s computers on N=
+ov. 7;  DataBreaches.net says that =E2=80=9Cthey did not encrypt any files,=
+ but did exfiltrate files.=E2=80=9D And then they asked MeridianLink for a =
+ransom payment, threatening to release the information they had obtained un=
+less they got paid. And then apparently MeridianLink did not pay them=C2=A0=
+or=C2=A0publicly disclose the hack, so AlphV went to  the SEC website and f=
+illed out a tip form. Their submission to the SEC included a bit of legal a=
+nalysis:
+It has come to our attention that MeridianLink, in light of a significant b=
+reach compromising customer data and operational information, has failed to=
+ file the requisite disclosure under Item 1.05 of Form 8-K within the stipu=
+lated four business days, as mandated by the new SEC rules.
+Do you think =E2=80=A6=C2=A0do you think the ransomware collective=E2=80=99=
+s lawyers wrote that? Do you think they hired a former SEC enforcement lawy=
+er to do their whistleblower submissions? Did they have an executive meetin=
+g where some ambitious young hacker was like =E2=80=9Clook ransom is great =
+but I think we have a real opportunity to expand into the SEC whistleblowin=
+g space, it=E2=80=99s pretty simple to add to our current product so we won=
+=E2=80=99t need a ton of engineering resources but to maximize returns we r=
+eally need to hire someone familiar with the SEC=E2=80=9D? If you work at t=
+he SEC and are considering a private-sector job offer from a ransomware col=
+lective please, please, please email me about it.
+There are problems with their submission, of course:
+=09The Item 1.05 disclosure rules don=E2=80=99t go into effect until next m=
+onth, though those rules largely codify prior SEC guidance=C2=A0and the SEC=
+ probably already thinks that not promptly disclosing a hack is securities =
+fraud.=09MeridianLink  told DataBreaches that =E2=80=9Cbased on our investi=
+gation to date, we have identified no evidence of unauthorized access to ou=
+r production platforms, and the incident has caused minimal business interr=
+uption.=E2=80=9D It=E2=80=99s entirely possible that this hack was=C2=A0not=
+=C2=A0material, which is why MeridianLink neither disclosed it nor paid up.=
+=C2=A0=09Look come on they are obviously not getting a whistleblower award =
+even if they are right! They did the hack! This is not really a=C2=A0play f=
+or money, this is just some combination of (1) attention-seeking prank (it =
+worked!) and (2) another way to annoy MeridianLink, another threat, a way=
+=C2=A0to extort this victim and future victims into paying up promptly.
+
+Do you think they read Money Stuff? I=C2=A0feel like I have done a lot to p=
+opularize the idea that everything is securities fraud =E2=80=94=C2=A0not a=
+s much as the SEC, but a lot =E2=80=94=C2=A0and it is nice to see how far t=
+he idea has traveled.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Ad valorem
+   =20
+ =20
+
+If Rivian Automotive Inc. bought some land in Georgia and built a big facto=
+ry there, it would have to pay Georgia property taxes on the factory. If, i=
+nstead, the government of the state of Georgia bought the land and built th=
+e factory there, and Rivian just=C2=A0rented=C2=A0it from the state, it wou=
+ld not have to pay the taxes.
+  [2]
+=C2=A0If Georgia really really wants Rivian to build a factory in Georgia, =
+it might want=C2=A0to give Rivian that=C2=A0tax reduction, as sort of a wel=
+come gift.
+But one doesn=E2=80=99t want the gift to be too lavish. The gift is =E2=80=
+=9Cyou don=E2=80=99t have to pay the full property tax rate on your factory=
+,=E2=80=9D not =E2=80=9Cwe will literally buy the land and build the factor=
+y for you.=E2=80=9D Rivian still has to build the factory! And the specific=
+ series of incantations that you utter, in Georgia, to make this all work i=
+s
+  [3]
+:
+=09Georgia, or more accurately a Georgia government entity called the JDA,
+  [4]
+ agrees to issue=C2=A0up to $15 billion of municipal bonds, from time to ti=
+me, to pay for the land and construction.=09Rivian agrees to buy the bonds =
+whenever they are issued.=09Rivian also agrees to rent the land and factory=
+ from the JDA.=09Whenever Rivian needs to spend a slug of money on the fact=
+ory, it sends the JDA a notice saying =E2=80=9Cwe=E2=80=99re spending $100 =
+million=E2=80=9D or whatever, and then the JDA sends back a notice saying =
+=E2=80=9Cgreat we=E2=80=99re selling you $100 million of bonds.=E2=80=9D
+  [5]
+
+=09And then Rivian just spends the $100 million, but everyone agrees that i=
+n some entirely abstract sense what happened is that Rivian paid $100 milli=
+on to the JDA to buy bonds, and the JDA issued the bonds to Rivian, and the=
+ JDA got the money, and the JDA gave the money to Rivian, and Rivian spent =
+it. No actual money changes hands between Rivian and the JDA; they all just=
+ agree to look at Rivian=E2=80=99s spending in a peculiar way.
+  [6]
+
+=09Of course then the =E2=80=9Cbonds=E2=80=9D are =E2=80=9Coutstanding,=E2=
+=80=9D and the JDA =E2=80=9Cowes=E2=80=9D Rivian the =E2=80=9C$100 million=
+=E2=80=9D plus =E2=80=9Cinterest,=E2=80=9D=C2=A0but this too is completely =
+abstract, and the way it works is, notionally,=C2=A0that Rivian pays the JD=
+A the $100 million plus interest as =E2=80=9Crent=E2=80=9D for the factory,=
+ and the JDA pays that back to Rivian as =E2=80=9Cprincipal and interest=E2=
+=80=9D on the bonds. Again, no money changes hands either way; this is just=
+ a further peculiar way to look at Rivian=E2=80=99s spending to make the bo=
+oks balance.
+  [7]
+
+=09At the end of the rental term (in December 2047) Rivian gets to buy the =
+land and factory for $100.
+  [8]
+
+
+
+The result is that, for the term of the agreement, the JDA=C2=A0technically=
+=C2=A0owns the factory, but Rivian actually pays to build it. But since it =
+doesn=E2=80=99t own it, it doesn=E2=80=99t pay taxes. (It does make negotia=
+ted=C2=A0payments in lieu of taxes, but at a lower rate.)
+Fun! Bloomberg=E2=80=99s   Amanda Albright reports:
+
+Electric-vehicle maker Rivian Automotive Inc. released what would usually b=
+e a startling announcement for the municipal-finance market: A potential $1=
+5 billion bond for a Georgia campus, that would in theory be the largest ev=
+er muni sale and nearly the size of the company=E2=80=99s market cap.
+Except, the bonds aren=E2=80=99t real.
+The debt is structured as what=E2=80=99s known as =E2=80=9Cphantom bonds=E2=
+=80=9D that are used by companies to get a property tax break in Georgia, a=
+nd involve no real financial or accounting impact for the company involved,=
+ according to a report by law firm Smith, Gambrell & Russell LLP. In Rivian=
+=E2=80=99s case, it=E2=80=99s a workaround because the state doesn=E2=80=99=
+t have legislation allowing for companies to get abatements that provide su=
+ch relief.
+The massive =E2=80=94 yet essentially fictitious =E2=80=94 sale is necessar=
+y as part of what=E2=80=99s one of the largest economic development project=
+s in Georgia=E2=80=99s history. It=E2=80=99s also indicative of the fierce =
+arms-race states embark on to land massive manufacturing deals that promise=
+ high-paying jobs and an economic boon. The company says it will create 7,5=
+00 jobs and that once up and running, the facility will eventually produce =
+as much as 400,000 vehicles per year. ...
+=E2=80=9CThe whole concept is set up for a break on the ad-valorem taxes,=
+=E2=80=9D John Shakarjian, Rivian=E2=80=99s associate general counsel for r=
+eal estate and construction, said in an interview. =E2=80=9CThere=E2=80=99s=
+ no cash changing hands, there=E2=80=99s no cash being generated, there=E2=
+=80=99s no movement of money.=E2=80=9D
+Shakarjian said Georgia=E2=80=99s system for economic development projects =
+was unusual among US states and even among countries abroad. He noted it=E2=
+=80=99s common for companies in Georgia to use the phantom-bond structure.
+
+Love it. You could imagine the government of Georgia just saying =E2=80=9Cy=
+ou know what, never mind all this,=C2=A0you=C2=A0just build the factory and=
+ we=E2=80=99ll waive your taxes for a bit.=E2=80=9D But apparently that=E2=
+=80=99s not allowed =E2=80=94=C2=A0=E2=80=9Cthe state doesn=E2=80=99t have =
+legislation allowing for companies to get abatements=E2=80=9D =E2=80=94=C2=
+=A0so it does this instead. Which comes to the same place, but=C2=A0provide=
+s much more entertainment for lawyers, and for me.
+
+ =20
+   =20
+      Elsewhere in whistleblower incentives
+   =20
+ =20
+
+More generally. Let=E2=80=99s say you find something bad at a public compan=
+y that the rest of the market does not know about. (Let=E2=80=99s say you d=
+idn=E2=80=99t do the bad thing yourself.) Let=E2=80=99s say that you know w=
+ith certainty that, when you disclose your bad news, the company=E2=80=99s =
+value will decline by 20%. It=E2=80=99s a company with a $1 billion market =
+capitalization, and once the market knows about your news it will be worth =
+$800 million. What should you do?
+You could sell the stock short. Say you short $100 million of stock, tying =
+up roughly $100 million of your balance sheet and risk exposure. You publis=
+h your news, the market reacts, your position declines to $80 million, you =
+cover, you have made $20 million. That is probably too optimistic; it=E2=80=
+=99s not easy to short 10% of a company=E2=80=99s stock, and you=E2=80=99ll=
+ probably pay a lot in stock borrow costs.
+  [9]
+
+Or you could file an SEC whistleblower complaint. How much is that worth to=
+ you? Well, the bull case is something like:
+=09The bad thing cost shareholders $200 million.=09The SEC will make the co=
+mpany pay=C2=A0the $200 million of damages as a penalty (and give some of i=
+t to the aggrieved shareholders).
+  [10]
+
+=09The SEC will give you 30% of the damages, or $60 million.
+
+You have made three times as much money, and you=C2=A0haven=E2=80=99t=C2=A0=
+tied up $100 million of balance sheet, or taken any risk:
+  [11]
+If you turn out to be completely wrong about the bad news or the market rea=
+ction, you don=E2=80=99t lose any money, whereas if=C2=A0you had shorted yo=
+u would have.
+Now, that math is also way too optimistic: The SEC whistleblower program mo=
+ves a lot more slowly than the market, and there is no guarantee that the S=
+EC will investigate, that they will bring a case, that they will win (or se=
+ttle), that they will ask for (or get) anything like those maximum damages,=
+ that they will judge you to be a worthy whistleblower, or that they will g=
+ive you 30% even if they do. (=E2=80=9CWhistleblower awards can range from =
+10 to 30 percent of the money collected when the monetary sanctions exceed =
+$1 million,=E2=80=9D  says the SEC.)
+Still, if you discount that math by 90% for its various uncertainties, your=
+ expected profit on this trade is=C2=A0$6 million, with no capital=C2=A0at =
+risk. I=E2=80=99m not sure it=E2=80=99s=C2=A0better, in the abstract, than =
+shorting the stock, but it=E2=80=99s an interesting alternative.
+Also, of course, why not both? Bloomberg=E2=80=99s   Austin Weinstein repor=
+ts:
+
+Alongside their public reports, short sellers are quietly sharing their res=
+earch about sketchy accounting and other misdeeds with the US Securities an=
+d Exchange Commission=E2=80=99s whistleblower office in hopes of making som=
+e extra money.
+The practice is widespread, with big-name short sellers Nate Anderson, Kyle=
+ Bass and Carson Block among the tipsters. If the SEC investigates and levi=
+es a fine, a short seller can collect up to 30% of the proceeds. That=E2=80=
+=99s on top of any profit they might make by betting on the stock=E2=80=99s=
+ decline. =E2=80=A6
+=E2=80=9CThe center of gravity in this program is shifting to short sellers=
+,=E2=80=9D said Alexander Platt, a University of Kansas law professor who h=
+as written about the trend. =E2=80=9CI think the taxpayers should know when=
+ $14 million of our money goes to Carson Block.=E2=80=9D
+
+Well but who do you think whistleblower money is going to, if it=E2=80=99s=
+=C2=A0not=C2=A0going to Carson Block? Often it is going to people who worke=
+d at companies, did fraud, and then realized that they could make more mone=
+y by blowing the whistle on the fraud than by continuing to do it. Whistleb=
+lower awards are not a reward for upstanding good citizenship; they are a r=
+eward for exposing fraud, and you=E2=80=99re not always going to like the p=
+eople who know about the frauds.
+And of course, over time, a lucrative whistleblower program is going to be=
+=C2=A0professionalized:=C2=A0The =E2=80=9Ccenter of gravity=E2=80=9D is goi=
+ng to shift from amateur whistleblowers (people who happened to work on a f=
+raud once) to professionals (people whose whole job is finding frauds and p=
+rofiting from them).
+  [12]
+
+I suppose that if you are the SEC, the question might be: How much securiti=
+es fraud is optimal to catch and punish? You could imagine answers like:
+=09100%. Fraud is bad and you have to punish it every time.=0950%. Catch th=
+e biggest frauds, the most egregious frauds, and create a lot of deterrence=
+ so that other companies don=E2=80=99t do fraud. But in a world of finite r=
+esources it is not really possible to catch every fraud, and the SEC has th=
+ings to do other than catching public-company accounting fraud.=C2=A0=09110=
+%. Anyone who even gets close to the line has to pay a big fine, and even i=
+f they didn=E2=80=99t do anything=C2=A0really=C2=A0wrong it=E2=80=99s okay =
+because it creates deterrence and brings in money for the government (and t=
+o pay whistleblowers).
+
+You could imagine the SEC, when it created the whistleblower program, think=
+ing =E2=80=9Cwe only catch 30% of fraud and it would be optimal to shift th=
+at up to like 40%, surely paying some money to whistleblowers will help wit=
+h that.=E2=80=9D But the result is that it now advertises risk-free unlimit=
+ed money to short sellers, and they will give it as much fraud as it can ha=
+ndle, maybe more.
+
+ =20
+   =20
+      Sculptor=E2=80=99s over
+   =20
+ =20
+
+For real, now,  I think:
+
+Sculptor Capital Management Inc.=E2=80=99s shareholder vote on a $720 milli=
+on buyout bid by Rithm Capital Corp. will proceed as scheduled on Thursday,=
+ virtually ensuring that the deal will be completed.
+The buyout appears on track after a pair of lawsuits failed to derail Rithm=
+=E2=80=99s $12.70 per share bid for the hedge fund. A New York judge on Tue=
+sday declined a request by a group of four former Sculptor executives to bl=
+ock the vote. Earlier in the day, a separate lawsuit in Delaware brought by=
+ a Sculptor shareholder was settled.
+The two decisions end a months-long bidding war by Boaz Weinstein and a gro=
+up of billionaire backers to buy the hedge fund at a higher price, a move t=
+hat would have vaulted Weinstein to the top of the industry. Shareholders r=
+epresenting about 39.2% of Sculptor=E2=80=99s voting power have already com=
+mitted to support the Rithm deal, and Rithm owns shares representing anothe=
+r 6.5%.
+
+Weinstein=E2=80=99s competition did force Rithm to raise its price from $11=
+.15 to $12.70, which is lower than his $13.50 offer but, Sculptor=E2=80=99s=
+ board decided, more certain.=C2=A0Weinstein=E2=80=99s deal would take mont=
+hs to close and might fall apart; Rithm=E2=80=99s might close this week.=C2=
+=A0
+Anyway the vote is today and everyone expects the deal to be approved and c=
+lose soon at $12.70. But the stock has traded above $12.70 for the last few=
+ days; it was at about $12.75 at noon today. I don=E2=80=99t know why? One =
+possibility is that, while none of the lawsuits succeeded in=C2=A0blocking=
+=C2=A0the deal, there=E2=80=99s still the possibility of a   lawsuit for=C2=
+=A0more money. (An   appraisal action, for instance.) Sculptor really did g=
+et a bid for $13.50 and sold for $12.70; it=E2=80=99s possible that some sh=
+areholders could find a court that sympathizes with the argument that they =
+should have gotten a little more.
+
+ =20
+   =20
+      DTMM
+   =20
+ =20
+
+Who among us:
+
+An Agoura Hills real estate developer was sentenced today to 41 months in f=
+ederal prison for failing to disclose on a bankruptcy petition that he had =
+earned nearly $2.3 million in income and for failing to report almost $6.9 =
+million in income on his tax returns. =E2=80=A6
+In April 2015, Handel filed a bankruptcy petition in Los Angeles in which h=
+e claimed under penalty of perjury he had no income from 2013 until April 2=
+015. In fact, he earned approximately $2,263,221 in income through DTMM Con=
+struction Inc., his West Los Angeles-based real estate development company,=
+ which, according to court documents, stood for =E2=80=9CDon=E2=80=99t Touc=
+h My Money.=E2=80=9D To further conceal his income from the bankruptcy cour=
+t and creditors, Handel arranged for DTMM to be registered in his wife=E2=
+=80=99s name but used the company to deposit the profits from his own work =
+as a real estate developer and to pay for his and his family=E2=80=99s livi=
+ng expenses.
+
+I=C2=A0almost=C2=A0appreciate the tradecraft here? Like the thought process=
+ must have been:
+=09I don=E2=80=99t want my creditors to touch my money.=09Therefore I will =
+put it in an entity rather than having it go to me directly.=09I want to ca=
+ll the entity =E2=80=9CDon=E2=80=99t Touch My Money.=E2=80=9D=09But if I do=
+ that, eventually someone will notice and get suspicious and it will look b=
+ad at my fraud trial.=09So I will call it DTMM instead, just a neutral stri=
+ng of letters; I will know what it means, but no one can prove it.
+
+Except then   you have to go=C2=A0tell=C2=A0somebody about your clever joke=
+, and then the whole thing doesn=E2=80=99t work.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Hedge fund Millennium prepares for  life after founder Izzy Englander. Scho=
+nfeld Cuts 15% of Staff After Exiting Millennium Talks. Blackstone borrows =
+to boost lending power of  $52bn credit fund. Big Banks to Be   Saddled Wit=
+h Tab for SVB, Signature Depositors. FDIC Chair,  Known for Temper, Ignored=
+ Bad Behavior in Workplace. Top US Bank Watchdogs   Defend Higher Capital R=
+ules for Lenders.=C2=A0Regulators Say Wells Fargo Isn=E2=80=99t Doing Enoug=
+h to  Police Customer Crimes. Activist ValueAct Builds  Stake in Disney. Sp=
+aceX Weighs   Spinning Off Starlink Via IPO as Soon as 2024. Musk-Xi Meetin=
+g Shows Tight Relationship   China Has With Tesla. Signa Bondholders Probe =
+Whether   Debt Rules Broken.   DeFi Is Becoming Less Competitive a Year Aft=
+er FTX=E2=80=99s Collapse Battered Crypto.=C2=A0Ex-Carlsberg executives  de=
+tained in Russia over fraud claims. Finance Firms Acknowledge   =E2=80=98Aw=
+ful=E2=80=99 Culture in UK Sexism Probe. The Radio Host and the  Real Estat=
+e Scam. Plane forced to return to airport after  horse escapes crate.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] There is a lot of nuance here, and arguably if you came by the inform=
+ation in an honest way =E2=80=94 after all, you created it =E2=80=94 you ca=
+n trade. But in the general case, and especially in the specific case of ha=
+cking, nobody is going to agree that you came by the information in an hone=
+st way. Not legal advice!
+
+
+  [2] This oversimplifies, and in fact taxes are payable on leasehold inter=
+ests, but never mind. The  Smith, Gambrell & Russell report that Albright c=
+ites contains some discussion of the valuation and taxation of the leasehol=
+d interest, but says that, =E2=80=9CGiven the terms and other characteristi=
+cs of the lease, taxation of the leasehold will be less than taxation of th=
+e ownership interest.=E2=80=9D
+
+
+  [3] The sources here are Rivian=E2=80=99s  Form 8-K disclosing the deal, =
+as well as the  rental agreement,  bond purchase agreement and  option agre=
+ement. The Smith Gambrell report is also useful.
+
+
+  [4] For "Joint Development Authority." Rivian=E2=80=99s  8-K says that it=
+=E2=80=99s the Joint Development Authority of Jasper County, Morgan County,=
+ Newton County and Walton County, along with the Georgia Department of Econ=
+omic Development.
+
+
+  [5] I am saying this to simplify the story, but in fact as far as I can t=
+ell Rivian doesn=E2=80=99t really need to tell the JDA every time it spends=
+ money, it can all be done constructively within Rivian without pestering t=
+he JDA. See the next footnote.
+
+
+  [6] The key bits here are sections 2 (=E2=80=9CAdvance Requests=E2=80=9D)=
+ and 3 (=E2=80=9CFunding Advance Requests=E2=80=9D) of the  bond purchase a=
+greement. =E2=80=9CEach Advance shall be paid by the Bond Purchaser either =
+(i) directly to the Company, as reimbursement for Costs of the Project incu=
+rred, to an account designated by the Company to the Bond Purchaser and Iss=
+uer in writing, or (ii) directly to a third party or parties, as payment fo=
+r Costs of the Project incurred by such parties,=E2=80=9D says section 3, a=
+nd the thing to notice there is that =E2=80=9Cthe Bond Purchaser=E2=80=9D a=
+nd =E2=80=9Cthe Company=E2=80=9D are both defined terms *meaning Rivian*. S=
+o Rivian makes the payments to itself. The agreement goes on to acknowledge=
+ that that=E2=80=99s kind of wasteful so no payments actually need to be ma=
+de: =E2=80=9CThe Bond Purchaser may make such Advance constructively, as pr=
+ovided in Section 4.02 of the Bond Resolution, by ledger entry or other int=
+ernal notation, and by making the notation on the applicable Bond described=
+ in Section 1(c) above, without the necessity of funds being transferred.=
+=E2=80=9D
+
+
+  [7] The key bit here is section 5.3(a) (=E2=80=9CPayment of Rents=E2=80=
+=9D) of the  rental agreement: =E2=80=9COn or before each date provided in =
+the Bond Resolution for the payment of principal or interest on the Bonds, =
+until the principal of, and interest on the Bonds shall have been paid in f=
+ull, the Company shall pay or cause to be paid to or as directed by the Iss=
+uer, as Basic Rent for the Project, a sum equal to the amount payable on su=
+ch date as principal of and interest on the Bonds, as provided in the Bond =
+Resolution. In any event, each payment of Basic Rent under this Section sha=
+ll be sufficient to pay the total amount of principal and interest on the B=
+onds payable on the payment date.=E2=80=9D
+
+
+  [8] See the 8-K, and the  option agreement.
+
+
+  [9] Also there are potential insider trading risks, depending on how you =
+found out the bad information.=20
+
+
+  [10] Obviously this is absurd, because that $200 million *also* comes out=
+ of shareholders=E2=80=99 pockets (or possibly insurance): It just makes th=
+e problem worse! My only defense is that this really is how US securities f=
+raud damages work; I don=E2=80=99t like it either.=20
+
+
+  [11] The general idea is that, if the bad news is going to cause an $X dr=
+op in the company=E2=80=99s stock price, short selling will allow you to ca=
+pture $X x Y% of that damage, where Y% is the amount you are willing and ab=
+le to short; given liquidity, the size of your fund, etc., Y% is probably a=
+ single-digit percentage at most. Whereas whistleblowing allows you to capt=
+ure up to 0.3 x $X, given the SEC=E2=80=99s award structure, and 0.3 is pro=
+bably higher than Y%.
+
+
+  [12] The other =E2=80=9Ccenter of gravity=E2=80=9D in the program is of c=
+ourse that the *lawyers* who represent whistleblowers and negotiate their a=
+wards tend to be people who came from the SEC=E2=80=99s whistleblower offic=
+e. =E2=80=9CThis is a good trade,=E2=80=9D  I once wrote: =E2=80=9CBuild a =
+spigot of government money and plant yourself in front of it.=E2=80=9D Plat=
+t has also written about this.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjvr4m.5hur/0972b3ae.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_83451646_2088467087.1700161131688
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.I say th=
+is a lot but it keeps being true: Every bad thing that a public c
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMTYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBdb36c515"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzM5NDE5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM2NTA2MTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB945b13a8" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33394198&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33650617&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Chutzpah</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I  <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlbWUtY291cnQt=
+aGVkZ2UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNndzP2NtcGlkPUJCRDExMTYyM19NT05=
+FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPT=
+IzMTExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBac552399"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> say</a> <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+33394198.256419/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMTktMDYtMjYvZXZlcnl0aGluZy1ldmVyeXdoZXJlLWlzLXNlY3VyaXRpZXMtZnJhdWQ_Y21waW=
+Q9QkJEMTExNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZ=
+XR0ZXImdXRtX3Rlcm09MjMxMTE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b852=
+4a319a23cBfcf8e016" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  this</a> a <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMDUvZHlzdG9waWFuLWZ1dHVyZS1zZWN1cml0aWVzL=
+WZyYXVkP2NtcGlkPUJCRDExMTYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nv=
+dXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/=
+607f07ceef4b8524a319a23cB6d8b4933" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  lot</a> <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDUtMDEvaXQtZG9lc24tdC1wYXktdG8tYmU=
+tdG9vLWV0aGljYWw_Y21waWQ9QkJEMTExNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbC=
+Z1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTE2JnV0bV9jYW1wYWlnbj1tb25le=
+XN0dWZm/607f07ceef4b8524a319a23cB5b3dc0c0" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  but</a> it <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS92aWV3L2FydGljbGVzLzIwMTgtMDktMjEvc2Vhd29ybGQtcy1zdHJh=
+bmdlLXNlY3VyaXRpZXMtZnJhdWQ_Y21waWQ9QkJEMTExNjIzX01PTkVZU1RVRkYmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTE2JnV0bV9jYW1wYW=
+lnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB7a5579c9" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> keeps</a> be=
+ing <a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.25641=
+9/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDgtMDkvY=
+mFyc3Rvb2wtc29sZC1oaWdoLWFuZC1ib3VnaHQtbG93P2NtcGlkPUJCRDExMTYyM19NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTE=
+xNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBba3dd5e4" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  true</a>: Every bad thing that a public company does, and every bad t=
+hing that happens to a public company, is also securities fraud.</p>
+<p style=3D"margin: 16px 0;">The general form of this is something bad happ=
+ens and the company does not immediately disclose it, or has not adequately=
+ warned shareholders of the risk of it happening, or both. Later, when the =
+bad news comes out, the company=E2=80=99s stock drops. Shareholders who bou=
+ght the stock before the news came out sue, saying that they were deceived =
+about the bad thing and lost money. The US Securities and Exchange Commissi=
+on also takes an interest in fraud and might bring an enforcement action.</=
+p>
+<p style=3D"margin: 16px 0;">Take computer hacking, for instance.=C2=A0If a=
+ company gets hacked, that is bad: The hack might disrupt its business, it =
+might have to pay a ransom to unlock its files, its customers might stop tr=
+usting it, it might get in trouble with regulators for losing customer data=
+, etc. If a company gets hacked and does not immediately disclose it, and t=
+hen later discloses it and the stock drops, <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJl=
+bWUtY291cnQtaGVkZ2UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNndzP2NtcGlkPUJCRDE=
+xMTYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJn=
+V0bV90ZXJtPTIzMTExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a2=
+3cCac552399" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  it will get sued for securities fraud</a>. (Even if =
+it does immediately disclose it, it might get sued for not previously=C2=A0=
+warning shareholders about the risk of being hacked, or <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTAtMzEvYmFkLXBhc3N3b3Jkcy1hcmUt=
+c2VjdXJpdGllcy1mcmF1ZD9jbXBpZD1CQkQxMTE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWV=
+tYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMTYmdXRtX2NhbXBhaWduPW=
+1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBcdcfa03b" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  for saying thing=
+s like</a> =E2=80=9Cwe use strong passwords=E2=80=9D if, in fact, it did no=
+t.)</p>
+<p style=3D"margin: 16px 0;">Actually hacking is a special case, because ge=
+tting hacked is=C2=A0<em>so=C2=A0</em>=C2=A0securities fraud that the SEC r=
+ecently <a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.2=
+56419/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy0xMzk/607f0=
+7ceef4b8524a319a23cB60f38b75" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> wrote new rules about hacking disclo=
+sure</a>. These rules, which go into effect next month,=C2=A0require public=
+ companies to disclose =E2=80=9Cany cybersecurity incident they determine t=
+o be material=E2=80=9D=C2=A0within four days after they decide that it is m=
+aterial.=C2=A0</p>
+<p style=3D"margin: 16px 0;">One corollary of =E2=80=9Ceverything is securi=
+ties fraud=E2=80=9D=C2=A0=E2=80=94=C2=A0and this is the farthest possible t=
+hing from legal advice but here we are =E2=80=94=C2=A0one corollary of this=
+ is that, if <em>you=C2=A0do=C2=A0</em>a bad thing to a public company, onc=
+e you have finished doing the bad thing, there is a fascinating window in w=
+hich:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You know about the bad thing, because=
+ you did it.</li>=09<li style=3D"margin-bottom: 5px;">The company knows abo=
+ut the bad thing, because it experienced it, and/or because you sent it=C2=
+=A0an email like =E2=80=9Cnyah nyah I just hacked your computers.=E2=80=9D<=
+/li>=09<li style=3D"margin-bottom: 5px;">The public does=C2=A0<em>not=C2=A0=
+</em>know about the bad thing, because the company has not yet disclosed it=
+.</li>
+</ol>
+<p style=3D"margin: 16px 0;">By the theory of =E2=80=9Ceverything is securi=
+ties fraud,=E2=80=9D=C2=A0the company is committing securities fraud during=
+ this window. (Particularly if the bad thing was a hack and the window has =
+been more than four days.)=C2=A0And you know it. How can you take advantage=
+?</p>
+<p style=3D"margin: 16px 0;">One thing that you could do is short the compa=
+ny=E2=80=99s stock, hoping to profit when the bad thing is disclosed. This =
+is a well-established approach, but has the problem of being illegal. It is=
+ (probably) insider trading: You have material nonpublic information about =
+the company, and are trading on it.<a class=3D"footnote-index" href=3D"#foo=
+tnote-1" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none =
+!important; background-color: transparent !important; display: inline-block=
+;">
+<span>[1]</span>
+</a>=C2=A0You might not care: If you did an <em>illegal=C2=A0</em>bad thing=
+ to the company (like hacking), also doing insider trading might not bother=
+ you. Still it adds some risk. My <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMTctMDQtMjEvanVpY2UtaGFja2luZy1hbmQtbW9ydGdhZ2UtdGVjaD9jbX=
+BpZD1CQkQxMTE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c=
+2xldHRlciZ1dG1fdGVybT0yMzExMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b=
+8524a319a23cB63622b33" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">  Fifth Law of Insider Trading</a> is =E2=80=
+=9Cdon=E2=80=99t insider trade by planting bombs at a company and buying pu=
+t options on its stock.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Another thing you could do is sue the company =
+for securities fraud, but that takes a lot of time and effort. Also you won=
+=E2=80=99t get that much money for it unless you owned a lot of the company=
+=E2=80=99s stock, and presumably you didn=E2=80=99t. (If you did, why did y=
+ou do the bad thing to the company?)</p>
+<p style=3D"margin: 16px 0;">A third thing you could do is file a whistlebl=
+ower complaint with the US Securities and Exchange Commission saying =E2=80=
+=9Chey FYI this company is doing securities fraud.=E2=80=9D And then maybe =
+the SEC will investigate and agree and fine the company a pile of money and=
+ give you a cut of the money as a whistleblower reward. The SEC does the wo=
+rk for you and just hands you the money at the end. Efficient!</p>
+<p style=3D"margin: 16px 0;">Anyway here is maybe <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxlZXBpbmd=
+jb21wdXRlci5jb20vbmV3cy9zZWN1cml0eS9yYW5zb213YXJlLWdhbmctZmlsZXMtc2VjLWNvbX=
+BsYWludC1vdmVyLXZpY3RpbXMtdW5kaXNjbG9zZWQtYnJlYWNoLw/607f07ceef4b8524a319a2=
+3cBebbfee1b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> the most Money Stuff story I=E2=80=99ve ever written =
+about</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The ALPHV/BlackCat ransomware operation has ta=
+ken extortion to a new level by filing a U.S. Securities and Exchange Commi=
+ssion complaint against one of their alleged victims for not complying with=
+ the four-day rule to disclose a cyberattack.</p>
+<p style=3D"margin: 16px 0;">Earlier today, the threat actor listed the sof=
+tware company MeridianLink on their data leak with a threat that they would=
+ leak allegedly stolen data unless a ransom is paid in 24 hours.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">LOVE IT. Apparently AlphV hacked into Meridian=
+Link=E2=80=99s computers on Nov. 7; <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuZGF0YWJyZWFjaGVzLm5ldC9hb=
+HBodi1maWxlcy1hbi1zZWMtY29tcGxhaW50LWFnYWluc3QtbWVyaWRpYW5saW5rLWZvci1ub3Qt=
+ZGlzY2xvc2luZy1hLWJyZWFjaC10by10aGUtc2VjLw/607f07ceef4b8524a319a23cB97b1d85=
+f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> DataBreaches.net says</a> that =E2=80=9Cthey did not encrypt =
+any files, but did exfiltrate files.=E2=80=9D And then they asked MeridianL=
+ink for a ransom payment, threatening to release the information they had o=
+btained unless they got paid. And then apparently MeridianLink did not pay =
+them=C2=A0<em>or=C2=A0</em>publicly disclose the hack, so AlphV went to <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aHR0c=
+HM6Ly90Y3Iuc2VjLmdvdi9UY3JFeHRlcm5hbFdlYi9mYWNlcy9wYWdlcy9hY2NlcHQuanNweA/6=
+07f07ceef4b8524a319a23cB0ac431a5" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> the SEC website</a> and filled o=
+ut a tip form. Their submission to the SEC included a bit of legal analysis=
+:</p>
+<blockquote><p style=3D"margin: 16px 0;">It has come to our attention that =
+MeridianLink, in light of a significant breach compromising customer data a=
+nd operational information, has failed to file the requisite disclosure und=
+er Item 1.05 of Form 8-K within the stipulated four business days, as manda=
+ted by the new SEC rules.</p></blockquote>
+<p style=3D"margin: 16px 0;">Do you think =E2=80=A6=C2=A0do you think the r=
+ansomware collective=E2=80=99s lawyers wrote that? Do you think they hired =
+a former SEC enforcement lawyer to do their whistleblower submissions? Did =
+they have an executive meeting where some ambitious young hacker was like =
+=E2=80=9Clook ransom is great but I think we have a real opportunity to exp=
+and into the SEC whistleblowing space, it=E2=80=99s pretty simple to add to=
+ our current product so we won=E2=80=99t need a ton of engineering resource=
+s but to maximize returns we really need to hire someone familiar with the =
+SEC=E2=80=9D? If you work at the SEC and are considering a private-sector j=
+ob offer from a ransomware collective please, please, please email me about=
+ it.</p>
+<p style=3D"margin: 16px 0;">There are problems with their submission, of c=
+ourse:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The Item 1.05 disclosure rules don=E2=
+=80=99t go into effect until next month, though those rules largely codify =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aH=
+R0cHM6Ly93d3cuc2VjLmdvdi9kaXZpc2lvbnMvY29ycGZpbi9ndWlkYW5jZS9jZmd1aWRhbmNlL=
+XRvcGljMi5odG0/607f07ceef4b8524a319a23cB7b6b4045" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">prior SEC guidanc=
+e</a>=C2=A0and the SEC probably already thinks that not promptly disclosing=
+ a hack is securities fraud.</li>=09<li style=3D"margin-bottom: 5px;">Merid=
+ianLink <a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.2=
+56419/aHR0cHM6Ly93d3cuZGF0YWJyZWFjaGVzLm5ldC9hbHBodi1maWxlcy1hbi1zZWMtY29tc=
+GxhaW50LWFnYWluc3QtbWVyaWRpYW5saW5rLWZvci1ub3QtZGlzY2xvc2luZy1hLWJyZWFjaC10=
+by10aGUtc2VjLw/607f07ceef4b8524a319a23cC97b1d85f" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> told DataBreache=
+s</a> that =E2=80=9Cbased on our investigation to date, we have identified =
+no evidence of unauthorized access to our production platforms, and the inc=
+ident has caused minimal business interruption.=E2=80=9D It=E2=80=99s entir=
+ely possible that this hack was=C2=A0<em>not=C2=A0</em>material, which is w=
+hy MeridianLink neither disclosed it nor paid up.=C2=A0</li>=09<li style=3D=
+"margin-bottom: 5px;">Look come on they are obviously not getting a whistle=
+blower award even if they are right! They did the hack! This is not really =
+a=C2=A0play for money, this is just some combination of (1) attention-seeki=
+ng prank (it worked!) and (2) another way to annoy MeridianLink, another th=
+reat, a way=C2=A0to extort this victim and future victims into paying up pr=
+omptly.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Do you think they read Money Stuff? I=C2=A0fee=
+l like I have done a lot to popularize the idea that everything is securiti=
+es fraud =E2=80=94=C2=A0not as much as the SEC, but a lot =E2=80=94=C2=A0an=
+d it is nice to see how far the idea has traveled.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzM5NDE5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM2NTA2MTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCd0ee4a51" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33394198&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33650617&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzM5NDE5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM2NTA2MTcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDd0ee4a51" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33394198&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33650617&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Ad valorem</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If Rivian Automotive Inc. bought some land in =
+Georgia and built a big factory there, it would have to pay Georgia propert=
+y taxes on the factory. If, instead, the government of the state of Georgia=
+ bought the land and built the factory there, and Rivian just=C2=A0<em>rent=
+ed=C2=A0</em>it from the state, it would not have to pay the taxes.<a class=
+=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0If Georgia really really wants Rivian to build a factory in Georg=
+ia, it might want=C2=A0to give Rivian that=C2=A0tax reduction, as sort of a=
+ welcome gift.</p>
+<p style=3D"margin: 16px 0;">But one doesn=E2=80=99t want the gift to be to=
+o lavish. The gift is =E2=80=9Cyou don=E2=80=99t have to pay the full prope=
+rty tax rate on your factory,=E2=80=9D not =E2=80=9Cwe will literally buy t=
+he land and build the factory for you.=E2=80=9D Rivian still has to build t=
+he factory! And the specific series of incantations that you utter, in Geor=
+gia, to make this all work is<a class=3D"footnote-index" href=3D"#footnote-=
+3" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: none !impor=
+tant; background-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Georgia, or more accurately a Georgia=
+ government entity called the JDA,<a class=3D"footnote-index" href=3D"#foot=
+note-4" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !=
+important; background-color: transparent !important; display: inline-block;=
+">
+<span>[4]</span>
+</a> agrees to issue=C2=A0up to $15 billion of municipal bonds, from time t=
+o time, to pay for the land and construction.</li>=09<li style=3D"margin-bo=
+ttom: 5px;">Rivian agrees to buy the bonds whenever they are issued.</li>=
+=09<li style=3D"margin-bottom: 5px;">Rivian also agrees to rent the land an=
+d factory from the JDA.</li>=09<li style=3D"margin-bottom: 5px;">Whenever R=
+ivian needs to spend a slug of money on the factory, it sends the JDA a not=
+ice saying =E2=80=9Cwe=E2=80=99re spending $100 million=E2=80=9D or whateve=
+r, and then the JDA sends back a notice saying =E2=80=9Cgreat we=E2=80=99re=
+ selling you $100 million of bonds.=E2=80=9D<a class=3D"footnote-index" hre=
+f=3D"#footnote-5" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[5]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">And then Rivian just spends the $=
+100 million, but everyone agrees that in some entirely abstract sense what =
+happened is that Rivian paid $100 million to the JDA to buy bonds, and the =
+JDA issued the bonds to Rivian, and the JDA got the money, and the JDA gave=
+ the money to Rivian, and Rivian spent it. No actual money changes hands be=
+tween Rivian and the JDA; they all just agree to look at Rivian=E2=80=99s s=
+pending in a peculiar way.<a class=3D"footnote-index" href=3D"#footnote-6" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: none !importan=
+t; background-color: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">Of course then the =E2=80=9Cbonds=
+=E2=80=9D are =E2=80=9Coutstanding,=E2=80=9D and the JDA =E2=80=9Cowes=E2=
+=80=9D Rivian the =E2=80=9C$100 million=E2=80=9D plus =E2=80=9Cinterest,=E2=
+=80=9D=C2=A0but this too is completely abstract, and the way it works is, n=
+otionally,=C2=A0that Rivian pays the JDA the $100 million plus interest as =
+=E2=80=9Crent=E2=80=9D for the factory, and the JDA pays that back to Rivia=
+n as =E2=80=9Cprincipal and interest=E2=80=9D on the bonds. Again, no money=
+ changes hands either way; this is just a further peculiar way to look at R=
+ivian=E2=80=99s spending to make the books balance.<a class=3D"footnote-ind=
+ex" href=3D"#footnote-7" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: none !important; background-color: transparent !important; displ=
+ay: inline-block;">
+<span>[7]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">At the end of the rental term (in=
+ December 2047) Rivian gets to buy the land and factory for $100.<a class=
+=3D"footnote-index" href=3D"#footnote-8" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[8]</span>
+</a>
+</li>
+</ol>
+<p style=3D"margin: 16px 0;">The result is that, for the term of the agreem=
+ent, the JDA=C2=A0<em>technically=C2=A0</em>owns the factory, but Rivian ac=
+tually pays to build it. But since it doesn=E2=80=99t own it, it doesn=E2=
+=80=99t pay taxes. (It does make negotiated=C2=A0payments in lieu of taxes,=
+ but at a lower rate.)</p>
+<p style=3D"margin: 16px 0;">Fun! Bloomberg=E2=80=99s <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTUvcml2aWFuLWxpbmVzLXVwLTE1LWJpbG=
+xpb24tZmFrZS1ib25kLXBsYW4tdG8tc25hZy10YXgtYnJlYWs_Y21waWQ9QkJEMTExNjIzX01PT=
+kVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09=
+MjMxMTE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6df6c917"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">  Amanda Albright reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Electric-vehicle maker Rivian Automotive Inc. =
+released what would usually be a startling announcement for the municipal-f=
+inance market: A potential $15 billion bond for a Georgia campus, that woul=
+d in theory be the largest ever muni sale and nearly the size of the compan=
+y=E2=80=99s market cap.</p>
+<p style=3D"margin: 16px 0;">Except, the bonds aren=E2=80=99t real.</p>
+<p style=3D"margin: 16px 0;">The debt is structured as what=E2=80=99s known=
+ as =E2=80=9Cphantom bonds=E2=80=9D that are used by companies to get a pro=
+perty tax break in Georgia, and involve no real financial or accounting imp=
+act for the company involved, according to a report by law firm Smith, Gamb=
+rell &amp; Russell LLP. In Rivian=E2=80=99s case, it=E2=80=99s a workaround=
+ because the state doesn=E2=80=99t have legislation allowing for companies =
+to get abatements that provide such relief.</p>
+<p style=3D"margin: 16px 0;">The massive =E2=80=94 yet essentially fictitio=
+us =E2=80=94 sale is necessary as part of what=E2=80=99s one of the largest=
+ economic development projects in Georgia=E2=80=99s history. It=E2=80=99s a=
+lso indicative of the fierce arms-race states embark on to land massive man=
+ufacturing deals that promise high-paying jobs and an economic boon. The co=
+mpany says it will create 7,500 jobs and that once up and running, the faci=
+lity will eventually produce as much as 400,000 vehicles per year. ...</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe whole concept is set up for a bre=
+ak on the ad-valorem taxes,=E2=80=9D John Shakarjian, Rivian=E2=80=99s asso=
+ciate general counsel for real estate and construction, said in an intervie=
+w. =E2=80=9CThere=E2=80=99s no cash changing hands, there=E2=80=99s no cash=
+ being generated, there=E2=80=99s no movement of money.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Shakarjian said Georgia=E2=80=99s system for e=
+conomic development projects was unusual among US states and even among cou=
+ntries abroad. He noted it=E2=80=99s common for companies in Georgia to use=
+ the phantom-bond structure.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Love it. You could imagine the government of G=
+eorgia just saying =E2=80=9Cyou know what, never mind all this,=C2=A0<em>yo=
+u=C2=A0</em>just build the factory and we=E2=80=99ll waive your taxes for a=
+ bit.=E2=80=9D But apparently that=E2=80=99s not allowed =E2=80=94=C2=A0=E2=
+=80=9Cthe state doesn=E2=80=99t have legislation allowing for companies to =
+get abatements=E2=80=9D =E2=80=94=C2=A0so it does this instead. Which comes=
+ to the same place, but=C2=A0provides much more entertainment for lawyers, =
+and for me.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in whistleblower incentives</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">More generally. Let=E2=80=99s say you find som=
+ething bad at a public company that the rest of the market does not know ab=
+out. (Let=E2=80=99s say you <em>didn=E2=80=99t</em> do the bad thing yourse=
+lf.) Let=E2=80=99s say that you know with certainty that, when you disclose=
+ your bad news, the company=E2=80=99s value will decline by 20%. It=E2=80=
+=99s a company with a $1 billion market capitalization, and once the market=
+ knows about your news it will be worth $800 million. What should you do?</=
+p>
+<p style=3D"margin: 16px 0;">You could sell the stock short. Say you short =
+$100 million of stock, tying up roughly $100 million of your balance sheet =
+and risk exposure. You publish your news, the market reacts, your position =
+declines to $80 million, you cover, you have made $20 million. That is prob=
+ably too optimistic; it=E2=80=99s not easy to short 10% of a company=E2=80=
+=99s stock, and you=E2=80=99ll probably pay a lot in stock borrow costs.<a =
+class=3D"footnote-index" href=3D"#footnote-9" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: none !important; background-color: transpar=
+ent !important; display: inline-block;">
+<span>[9]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Or you could file an SEC whistleblower complai=
+nt. How much is that worth to you? Well, the bull case is something like:</=
+p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The bad thing cost shareholders $200 =
+million.</li>=09<li style=3D"margin-bottom: 5px;">The SEC will make the com=
+pany pay=C2=A0the $200 million of damages as a penalty (and give some of it=
+ to the aggrieved shareholders).<a class=3D"footnote-index" href=3D"#footno=
+te-10" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !i=
+mportant; background-color: transparent !important; display: inline-block;"=
+>
+<span>[10]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">The SEC will give you 30% of the =
+damages, or $60 million.</li>
+</ol>
+<p style=3D"margin: 16px 0;">You have made three times as much money, and y=
+ou=C2=A0<em>haven=E2=80=99t=C2=A0</em>tied up $100 million of balance sheet=
+, or taken any risk:<a class=3D"footnote-index" href=3D"#footnote-11" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[11]</span>
+</a>If you turn out to be completely wrong about the bad news or the market=
+ reaction, you don=E2=80=99t lose any money, whereas if=C2=A0you had shorte=
+d you would have.</p>
+<p style=3D"margin: 16px 0;">Now, that math is also way too optimistic: The=
+ SEC whistleblower program moves a lot more slowly than the market, and the=
+re is no guarantee that the SEC will investigate, that they will bring a ca=
+se, that they will win (or settle), that they will ask for (or get) anythin=
+g like those maximum damages, that they will judge you to be a worthy whist=
+leblower, or that they will give you 30% even if they do. (=E2=80=9CWhistle=
+blower awards can range from 10 to 30 percent of the money collected when t=
+he monetary sanctions exceed $1 million,=E2=80=9D <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy0xNDc/607f07ceef4b8524a319a23cB9e2c0f83" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> says the SEC</a>.)</p>
+<p style=3D"margin: 16px 0;">Still, if you discount that math by 90% for it=
+s various uncertainties, your expected profit on this trade is=C2=A0$6 mill=
+ion, with no capital=C2=A0at risk. I=E2=80=99m not sure it=E2=80=99s=C2=A0<=
+em>better</em>, in the abstract, than shorting the stock, but it=E2=80=99s =
+an interesting alternative.</p>
+<p style=3D"margin: 16px 0;">Also, of course, why not both? Bloomberg=E2=80=
+=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.2564=
+19/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTUvbmF0=
+ZS1hbmRlcnNvbi1jYXJzb24tYmxvY2stYmVjb21lLXNlYy10aXBzdGVycy1mb3ItY2FzaC1wYXl=
+vdXRzP2NtcGlkPUJCRDExMTYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdX=
+JjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/60=
+7f07ceef4b8524a319a23cB27aba640" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  Austin Weinstein reports</a>:</p=
+>
+<blockquote>
+<p style=3D"margin: 16px 0;">Alongside their public reports, short sellers =
+are quietly sharing their research about sketchy accounting and other misde=
+eds with the US Securities and Exchange Commission=E2=80=99s whistleblower =
+office in hopes of making some extra money.</p>
+<p style=3D"margin: 16px 0;">The practice is widespread, with big-name shor=
+t sellers Nate Anderson, Kyle Bass and Carson Block among the tipsters. If =
+the SEC investigates and levies a fine, a short seller can collect up to 30=
+% of the proceeds. That=E2=80=99s on top of any profit they might make by b=
+etting on the stock=E2=80=99s decline. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe center of gravity in this program=
+ is shifting to short sellers,=E2=80=9D said Alexander Platt, a University =
+of Kansas law professor who has written about the trend. =E2=80=9CI think t=
+he taxpayers should know when $14 million of our money goes to Carson Block=
+.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Well but who do you think whistleblower money =
+is going to, if it=E2=80=99s=C2=A0<em>not=C2=A0</em>going to Carson Block? =
+Often it is going to people who worked at companies, did fraud, and then re=
+alized that they could make more money by blowing the whistle on the fraud =
+than by continuing to do it. Whistleblower awards are not a reward for upst=
+anding good citizenship; they are a reward for exposing fraud, and you=E2=
+=80=99re not always going to like the people who know about the frauds.</p>
+<p style=3D"margin: 16px 0;">And of course, over time, a lucrative whistleb=
+lower program is going to be=C2=A0<em>professionalized:=C2=A0</em>The =E2=
+=80=9Ccenter of gravity=E2=80=9D is going to shift from amateur whistleblow=
+ers (people who happened to work on a fraud once) to professionals (people =
+whose whole job is finding frauds and profiting from them).<a class=3D"foot=
+note-index" href=3D"#footnote-12" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: none !important; background-color: transparent !importa=
+nt; display: inline-block;">
+<span>[12]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">I suppose that if you are the SEC, the questio=
+n might be: How much securities fraud is optimal to catch and punish? You c=
+ould imagine answers like:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">100%. Fraud is bad and you have to pun=
+ish it every time.</li>=09<li style=3D"margin-bottom: 5px;">50%. Catch the =
+biggest frauds, the most egregious frauds, and create a lot of deterrence s=
+o that other companies don=E2=80=99t do fraud. But in a world of finite res=
+ources it is not really possible to catch every fraud, and the SEC has thin=
+gs to do other than catching public-company accounting fraud.=C2=A0</li>=09=
+<li style=3D"margin-bottom: 5px;">110%. Anyone who even gets close to the l=
+ine has to pay a big fine, and even if they didn=E2=80=99t do anything=C2=
+=A0<em>really=C2=A0</em>wrong it=E2=80=99s okay because it creates deterren=
+ce and brings in money for the government (and to pay whistleblowers).</li>
+</ul>
+<p style=3D"margin: 16px 0;">You could imagine the SEC, when it created the=
+ whistleblower program, thinking =E2=80=9Cwe only catch 30% of fraud and it=
+ would be optimal to shift that up to like 40%, surely paying some money to=
+ whistleblowers will help with that.=E2=80=9D But the result is that it now=
+ advertises risk-free unlimited money to short sellers, and they will give =
+it as much fraud as it can handle, maybe more.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Sculptor=E2=80=99s over</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">For real, now, <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTQvc2N1bHB0b3Itc2V0dGxlcy1sYXdzdWl0LW92ZXIt=
+cml0aG0tY2FwaXRhbC1zLWJ1eW91dC1vZmZlcj9jbXBpZD1CQkQxMTE2MjNfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMTYmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBfda2c817" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ I think</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Sculptor Capital Management Inc.=E2=80=99s sha=
+reholder vote on a $720 million buyout bid by Rithm Capital Corp. will proc=
+eed as scheduled on Thursday, virtually ensuring that the deal will be comp=
+leted.</p>
+<p style=3D"margin: 16px 0;">The buyout appears on track after a pair of la=
+wsuits failed to derail Rithm=E2=80=99s $12.70 per share bid for the hedge =
+fund. A New York judge on Tuesday declined a request by a group of four for=
+mer Sculptor executives to block the vote. Earlier in the day, a separate l=
+awsuit in Delaware brought by a Sculptor shareholder was settled.</p>
+<p style=3D"margin: 16px 0;">The two decisions end a months-long bidding wa=
+r by Boaz Weinstein and a group of billionaire backers to buy the hedge fun=
+d at a higher price, a move that would have vaulted Weinstein to the top of=
+ the industry. Shareholders representing about 39.2% of Sculptor=E2=80=99s =
+voting power have already committed to support the Rithm deal, and Rithm ow=
+ns shares representing another 6.5%.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Weinstein=E2=80=99s competition did force Rith=
+m to raise its price from $11.15 to $12.70, which is lower than his $13.50 =
+offer but, Sculptor=E2=80=99s board decided, more certain.=C2=A0Weinstein=
+=E2=80=99s deal would take months to close and might fall apart; Rithm=E2=
+=80=99s might close this week.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Anyway the vote is today and everyone expects =
+the deal to be approved and close soon at $12.70. But the stock has traded =
+above $12.70 for the last few days; it was at about $12.75 at noon today. I=
+ don=E2=80=99t know why? One possibility is that, while none of the lawsuit=
+s succeeded in=C2=A0<em>blocking=C2=A0</em>the deal, there=E2=80=99s still =
+the possibility of a <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/33394198.256419/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMTctMDItMTcvZG9sZS1mb29kLWhhZC10b28tbWFueS1zaGFyZXM_Y21waWQ9QkJEMTExNjI=
+zX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3=
+Rlcm09MjMxMTE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBaa9=
+593e0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  lawsuit</a> for=C2=A0<em>more money</em>. (An <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDQtMTcvYXBwcmFpc2FsLWFyY=
+ml0cmFnZS1tYWtlcy1hLWNvbWViYWNrP2NtcGlkPUJCRDExMTYyM19NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTExNiZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB9f06eef1" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  apprai=
+sal action</a>, for instance.) Sculptor really did get a bid for $13.50 and=
+ sold for $12.70; it=E2=80=99s possible that some shareholders could find a=
+ court that sympathizes with the argument that they should have gotten a li=
+ttle more.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">DTMM</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/33394198.256419/aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvdXNhby1jZGNhL3By=
+L2Fnb3VyYS1oaWxscy1wcm9wZXJ0eS1kZXZlbG9wZXItc2VudGVuY2VkLW5lYXJseS0zLTEyLXl=
+lYXJzLXByaXNvbi1seWluZy1iYW5rcnVwdGN5/607f07ceef4b8524a319a23cB61fcdf04" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">Who among us</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">An Agoura Hills real estate developer was sent=
+enced today to 41 months in federal prison for failing to disclose on a ban=
+kruptcy petition that he had earned nearly $2.3 million in income and for f=
+ailing to report almost $6.9 million in income on his tax returns. =E2=80=
+=A6</p>
+<p style=3D"margin: 16px 0;">In April 2015, Handel filed a bankruptcy petit=
+ion in Los Angeles in which he claimed under penalty of perjury he had no i=
+ncome from 2013 until April 2015. In fact, he earned approximately $2,263,2=
+21 in income through DTMM Construction Inc., his West Los Angeles-based rea=
+l estate development company, which, according to court documents, stood fo=
+r =E2=80=9CDon=E2=80=99t Touch My Money.=E2=80=9D To further conceal his in=
+come from the bankruptcy court and creditors, Handel arranged for DTMM to b=
+e registered in his wife=E2=80=99s name but used the company to deposit the=
+ profits from his own work as a real estate developer and to pay for his an=
+d his family=E2=80=99s living expenses.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I=C2=A0<em>almost=C2=A0</em>appreciate the tra=
+decraft here? Like the thought process must have been:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">I don=E2=80=99t want my creditors to =
+touch my money.</li>=09<li style=3D"margin-bottom: 5px;">Therefore I will p=
+ut it in an entity rather than having it go to me directly.</li>=09<li styl=
+e=3D"margin-bottom: 5px;">I want to call the entity =E2=80=9CDon=E2=80=99t =
+Touch My Money.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">But if I =
+do that, eventually someone will notice and get suspicious and it will look=
+ bad at my fraud trial.</li>=09<li style=3D"margin-bottom: 5px;">So I will =
+call it DTMM instead, just a neutral string of letters; <em>I </em>will kno=
+w what it means, but no one can prove it.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Except then <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjMtMTEtMTUvd2V3b3JrLXMtcmVzY3VlLXdhc24tdC1yZWFsP2N=
+tcGlkPUJCRDExMTYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTIzMTExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cB7a725af4" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  you have to go=C2=A0<em>tell=C2=A0</em>s=
+omebody</a> about your clever joke, and then the whole thing doesn=E2=80=99=
+t work.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Hedge fund Millennium prepares for <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d=
+3cuZnQuY29tL2NvbnRlbnQvOTYwOWU5ZGUtYTdiNS00OTE4LWE1MzQtNGI4NTc4NmYyNzQ5/607=
+f07ceef4b8524a319a23cB20edfe73" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> life after founder</a> Izzy Englan=
+der. <a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.2564=
+19/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTYvc2No=
+b25mZWxkLWN1dHMtMTUtb2Ytc3RhZmYtYWZ0ZXItYm9sdGluZy1mcm9tLW1pbGxlbm5pdW0tdGF=
+sa3M_Y21waWQ9QkJEMTExNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB83366009" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Schonfeld</a> Cuts 15% of Staff Afte=
+r Exiting Millennium Talks. Blackstone borrows to boost lending power of <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aHR0=
+cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMzJkYmYxMWYtMDI1NC00OTZjLThjNzctYzgxMzk4N2Z=
+lYmVi/607f07ceef4b8524a319a23cB984e0368" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> $52bn credit fund</a>. =
+Big Banks to Be <a href=3D"https://link.mail.bloombergbusiness.com/click/33=
+394198.256419/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtM=
+TEtMTYvYmlnLWJhbmtzLXRvLWJlLXNhZGRsZWQtd2l0aC10YWItZm9yLXN2Yi1zaWduYXR1cmUt=
+ZGVwb3NpdG9ycz9jbXBpZD1CQkQxMTE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV=
+0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMTYmdXRtX2NhbXBhaWduPW1vbmV5c3=
+R1ZmY/607f07ceef4b8524a319a23cB0d1f45a6" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  Saddled With Tab</a> f=
+or SVB, Signature Depositors. FDIC Chair, <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cud3NqLmNvbS9wb2xpdGl=
+jcy9wb2xpY3kvZmRpYy1jaGFpcm1hbi1tYXJ0aW4tZ3J1ZW5iZXJnLXdvcmtwbGFjZS1oYXJhc3=
+NtZW50LTVjYWU4NWJjP21vZD1ocF9sZWFkX3BvczE/607f07ceef4b8524a319a23cB88dc7103=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> Known for Temper</a>, Ignored Bad Behavior in Workplace. Top US =
+Bank Watchdogs <a href=3D"https://link.mail.bloombergbusiness.com/click/333=
+94198.256419/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMT=
+EtMTUvdG9wLXVzLWJhbmstd2F0Y2hkb2dzLWRlZmVuZC1oaWdoZXItY2FwaXRhbC1ydWxlcy1mb=
+3ItbGVuZGVycz9jbXBpZD1CQkQxMTE2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0=
+bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R=
+1ZmY/607f07ceef4b8524a319a23cB033e3770" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">  Defend Higher Capital Rul=
+es</a> for Lenders.=C2=A0Regulators Say Wells Fargo Isn=E2=80=99t Doing Eno=
+ugh to <a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.25=
+6419/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2JhbmtpbmcvcmVndWxhdG9ycy1zYXktd2=
+VsbHMtZmFyZ28taXNudC1kb2luZy1lbm91Z2gtdG8tcG9saWNlLWN1c3RvbWVyLWNyaW1lcy0wO=
+DA5MjgxZD9tb2Q9aHBfbGVhZF9wb3M0/607f07ceef4b8524a319a23cBed11e2ae" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Police Customer Crimes</a>. Activist ValueAct Builds <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cud3NqLmN=
+vbS9idXNpbmVzcy9kZWFscy9hY3RpdmlzdC12YWx1ZWFjdC1idWlsZHMtc3Rha2UtaW4tZGlzbm=
+V5LTNmNDgzYzhjP21vZD1pdHBfd3Nq/607f07ceef4b8524a319a23cBf8396cc8" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Stake in Disney</a>. SpaceX Weighs <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjMtMTEtMTUvc3BhY2V4LWRpc2N1c3Nlcy1zcGlub2ZmLW9mLXN0YXJsaW5r=
+LXNhdGVsbGl0ZS11bml0LXRocm91Z2gtaXBvLWFzLXNvb24tYXMtMjAyND9jbXBpZD1CQkQxMTE=
+2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG=
+1fdGVybT0yMzExMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB=
+a8e26a06" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">  Spinning Off Starlink</a> Via IPO as Soon as 2024. Musk=
+-Xi Meeting Shows Tight Relationship <a href=3D"https://link.mail.bloomberg=
+business.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjMtMTEtMTYvbXVzay14aS1tZWV0aW5nLXNob3dzLXRpZ2h0LXJlbGF0aW9=
+uc2hpcC1jaGluYS1oYXMtd2l0aC10ZXNsYT9jbXBpZD1CQkQxMTE2MjNfTU9ORVlTVFVGRiZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMTYmdXRtX=
+2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB4222ec0b" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Chi=
+na Has With Tesla</a>. Signa Bondholders Probe Whether <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTYvYm9uZGhvbGRlcnMtYXNzZXNzLXdoZ=
+XRoZXItc2lnbmEtdW5pdC10cmlnZ2VyZWQtZGVmYXVsdC1ldmVudD9jbXBpZD1CQkQxMTE2MjNf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMzExMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7d710=
+721" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Debt Rules Broken</a>. <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL2FydGljbGVzLzIwMjMtMTEtMTYvZGVmaS1pcy1iZWNvbWluZy1sZXNzLWNvbXBldGl0aXZlLW=
+EteWVhci1hZnRlci1mdHgtcy1jb2xsYXBzZS1iYXR0ZXJlZC1jcnlwdG8_Y21waWQ9QkJEMTExN=
+jIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjMxMTE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf=
+aa769ae" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  DeFi</a> Is Becoming Less Competitive a Year After FTX=
+=E2=80=99s Collapse Battered Crypto.=C2=A0Ex-Carlsberg executives <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvMTQ1ZjIzMTAtNzIyMi00ZGY5LTk5NzYtZjI2OGVkMWYxZWIy=
+/607f07ceef4b8524a319a23cB78977aa4" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> detained in Russia</a> over fr=
+aud claims. Finance Firms Acknowledge <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL2FydGljbGVzLzIwMjMtMTEtMTUvZmluYW5jZS1maXJtcy1hY2tub3dsZWRnZS1hd2Z1bC1jdW=
+x0dXJlLWluLXVrLXNleGlzbS1pbnF1aXJ5P2NtcGlkPUJCRDExMTYyM19NT05FWVNUVUZGJnV0b=
+V9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTExNiZ1dG1f=
+Y2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBd02aec9e" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  =E2=
+=80=98Awful=E2=80=99 Culture</a> in UK Sexism Probe. The Radio Host and the=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/a=
+HR0cHM6Ly9ueW1hZy5jb20vaW50ZWxsaWdlbmNlci9hcnRpY2xlL2JyZWFrZmFzdC1jbHViLWRq=
+LWVudnktY2VzYXItcGluYS1wb256aS1zY2hlbWUtYWxsZWdhdGlvbnMuaHRtbA/607f07ceef4b=
+8524a319a23cBf49c8c22" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> Real Estate Scam</a>. Plane forced to retur=
+n to airport after <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/33394198.256419/aHR0cHM6Ly93d3cuYmJjLmNvbS9uZXdzL3dvcmxkLXVzLWNhbmFkYS02Nz=
+QwNjc3OQ/607f07ceef4b8524a319a23cB137bbef2" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> horse escapes crate</a=
+>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33394198.256419/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB557bb590" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33394198.256419/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBdac054cf" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] There is a lot of nuance here, and arguabl=
+y if you came by the information in an honest way =E2=80=94 after all, you =
+created it =E2=80=94 you can trade. But in the general case, and especially=
+ in the specific case of hacking, nobody is going to agree that you came by=
+ the information in an honest way. Not legal advice!</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] This oversimplifies, and in fact taxes are=
+ payable on leasehold interests, but never mind. The <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuc2dybGF3=
+LmNvbS9icmllZmluZ3MvNDU4Lw/607f07ceef4b8524a319a23cB70269bda" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Smit=
+h, Gambrell &amp; Russell report</a> that Albright cites contains some disc=
+ussion of the valuation and taxation of the leasehold interest, but says th=
+at, =E2=80=9CGiven the terms and other characteristics of the lease, taxati=
+on of the leasehold will be less than taxation of the ownership interest.=
+=E2=80=9D</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] The sources here are Rivian=E2=80=99s <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aHR0cH=
+M6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTg3NDE3OC8wMDAxM=
+TkzMTI1MjMyNzU5OTEvZDMyMjAyOGQ4ay5odG0/607f07ceef4b8524a319a23cBc0325424" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> Form 8-K </a>disclosing the deal, as well as the <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuc2Vj=
+Lmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4NzQxNzgvMDAwMTE5MzEyNTIzMjc1OTkxL2QzMjI=
+wMjhkZXgxMDEuaHRt/607f07ceef4b8524a319a23cB2446b6c8" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> rental agreem=
+ent</a>, <a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.=
+256419/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4NzQxNzgvMDAw=
+MTE5MzEyNTIzMjc1OTkxL2QzMjIwMjhkZXgxMDIuaHRt/607f07ceef4b8524a319a23cB69aef=
+c97" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> bond purchase agreement</a> and <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmN=
+oaXZlcy9lZGdhci9kYXRhLzE4NzQxNzgvMDAwMTE5MzEyNTIzMjc1OTkxL2QzMjIwMjhkZXgxMD=
+MuaHRt/607f07ceef4b8524a319a23cB6edd0f0e" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> option agreement</a>. T=
+he <a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419=
+/aHR0cHM6Ly93d3cuc2dybGF3LmNvbS9icmllZmluZ3MvNDU4Lw/607f07ceef4b8524a319a23=
+cC70269bda" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">Smith Gambrell report</a> is also useful.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] For "Joint Development Authority." Rivian=
+=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/3339419=
+8.256419/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMT=
+g3NDE3OC8wMDAxMTkzMTI1MjMyNzU5OTEvZDMyMjAyOGQ4ay5odG0/607f07ceef4b8524a319a=
+23cCc0325424" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> 8-K</a> says that it=E2=80=99s the Joint Development=
+ Authority of Jasper County, Morgan County, Newton County and Walton County=
+, along with the Georgia Department of Economic Development.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] I am saying this to simplify the story, bu=
+t in fact as far as I can tell Rivian doesn=E2=80=99t really need to tell t=
+he JDA every time it spends money, it can all be done constructively within=
+ Rivian without pestering the JDA. See the next footnote.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] The key bits here are sections 2 (=E2=80=
+=9CAdvance Requests=E2=80=9D) and 3 (=E2=80=9CFunding Advance Requests=E2=
+=80=9D) of the <a href=3D"https://link.mail.bloombergbusiness.com/click/333=
+94198.256419/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4NzQxNz=
+gvMDAwMTE5MzEyNTIzMjc1OTkxL2QzMjIwMjhkZXgxMDIuaHRt/607f07ceef4b8524a319a23c=
+C69aefc97" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> bond purchase agreement</a>. =E2=80=9CEach Advance shal=
+l be paid by the Bond Purchaser either (i) directly to the Company, as reim=
+bursement for Costs of the Project incurred, to an account designated by th=
+e Company to the Bond Purchaser and Issuer in writing, or (ii) directly to =
+a third party or parties, as payment for Costs of the Project incurred by s=
+uch parties,=E2=80=9D says section 3, and the thing to notice there is that=
+ =E2=80=9Cthe Bond Purchaser=E2=80=9D and =E2=80=9Cthe Company=E2=80=9D are=
+ both defined terms *meaning Rivian*. So Rivian makes the payments to itsel=
+f. The agreement goes on to acknowledge that that=E2=80=99s kind of wastefu=
+l so no payments actually need to be made: =E2=80=9CThe Bond Purchaser may =
+make such Advance constructively, as provided in Section 4.02 of the Bond R=
+esolution, by ledger entry or other internal notation, and by making the no=
+tation on the applicable Bond described in Section 1(c) above, without the =
+necessity of funds being transferred.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] The key bit here is section 5.3(a) (=E2=80=
+=9CPayment of Rents=E2=80=9D) of the <a href=3D"https://link.mail.bloomberg=
+business.com/click/33394198.256419/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9l=
+ZGdhci9kYXRhLzE4NzQxNzgvMDAwMTE5MzEyNTIzMjc1OTkxL2QzMjIwMjhkZXgxMDEuaHRt/60=
+7f07ceef4b8524a319a23cC2446b6c8" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> rental agreement</a>: =E2=80=9COn=
+ or before each date provided in the Bond Resolution for the payment of pri=
+ncipal or interest on the Bonds, until the principal of, and interest on th=
+e Bonds shall have been paid in full, the Company shall pay or cause to be =
+paid to or as directed by the Issuer, as Basic Rent for the Project, a sum =
+equal to the amount payable on such date as principal of and interest on th=
+e Bonds, as provided in the Bond Resolution. In any event, each payment of =
+Basic Rent under this Section shall be sufficient to pay the total amount o=
+f principal and interest on the Bonds payable on the payment date.=E2=80=9D=
+</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] See the 8-K, and the <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/33394198.256419/aHR0cHM6Ly93d3cuc2VjLmd=
+vdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4NzQxNzgvMDAwMTE5MzEyNTIzMjc1OTkxL2QzMjIwMj=
+hkZXgxMDMuaHRt/607f07ceef4b8524a319a23cC6edd0f0e" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> option agreement=
+</a>.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] Also there are potential insider trading r=
+isks, depending on how you found out the bad information. </p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] Obviously this is absurd, because that $2=
+00 million *also* comes out of shareholders=E2=80=99 pockets (or possibly i=
+nsurance): It just makes the problem worse! My only defense is that this re=
+ally is how US securities fraud damages work; I don=E2=80=99t like it eithe=
+r. </p>
+</div>
+<div id=3D"footnote-11" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[11] The general idea is that, if the bad news=
+ is going to cause an $X drop in the company=E2=80=99s stock price, short s=
+elling will allow you to capture $X x Y% of that damage, where Y% is the am=
+ount you are willing and able to short; given liquidity, the size of your f=
+und, etc., Y% is probably a single-digit percentage at most. Whereas whistl=
+eblowing allows you to capture up to 0.3 x $X, given the SEC=E2=80=99s awar=
+d structure, and 0.3 is probably higher than Y%.</p>
+</div>
+<div id=3D"footnote-12" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[12] The other =E2=80=9Ccenter of gravity=E2=
+=80=9D in the program is of course that the *lawyers* who represent whistle=
+blowers and negotiate their awards tend to be people who came from the SEC=
+=E2=80=99s whistleblower office. =E2=80=9CThis is a good trade,=E2=80=9D <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtMTgvYmxhY2t=
+yb2NrLXN0aWxsLWxpa2VzLWNhcGl0YWxpc20_Y21waWQ9QkJEMTExNjIzX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTE2JnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB10d80bf7" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> I o=
+nce wrote</a>: =E2=80=9CBuild a spigot of government money and plant yourse=
+lf in front of it.=E2=80=9D Platt has <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/33394198.256419/aHR0cHM6Ly9vcGVueWxzLmxhdy55YWxlLmVkdS9=
+iaXRzdHJlYW0vaGFuZGxlLzIwLjUwMC4xMzA1MS8xODMwMC9BbGV4YW5kZXIlMjBJLiUyMFBsYX=
+R0JTIwVGhlJTIwV2hpc3RsZWJsb3dlciUyMEluZHVzdHJpYWwlMjBDb21wbGV4LnBkZg/607f07=
+ceef4b8524a319a23cB250c95be" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">also written about this</a>.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBe6c75f0d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB671e2ac9" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBab5e7341" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB389d1e09" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBcaa6601b" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.2564=
+19/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB000ddae5" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33394198.256419/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCf71a42ef" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33394198.256419/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB8684cb47" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33394198.256419/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBbe0c18af" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB8=
+fdaee89" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33394198.256419/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB3=
+eb2f54b" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjvr4m.5hur/0972b3ae.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_83451646_2088467087.1700161131688--
+

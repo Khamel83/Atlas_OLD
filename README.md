@@ -1,14 +1,33 @@
 # Atlas: Cognitive Amplification Platform
 
-**Documentation updated as of January 2025**
+**Documentation updated as of August 2025**
 
-Atlas is a sophisticated local-first content ingestion and cognitive amplification platform that processes articles, YouTube videos, and podcasts into structured knowledge for enhanced thinking and insight generation.
+Atlas is a sophisticated local-first content ingestion and cognitive amplification platform that processes articles, YouTube videos, and **podcasts** into structured knowledge for enhanced thinking and insight generation.
+
+## 🎙️ **MAJOR UPDATE: Podcast Transcript System Live**
+
+**NEW**: Atlas now discovers and processes podcast transcripts from 190+ podcasts with 110+ transcripts found including Lex Fridman (91 transcripts), This American Life (10 transcripts), and premium business content from Acquired. Full end-to-end processing through cognitive search pipeline.
 
 ## 🚀 Quick Start
 
 **Want to try Atlas right now?** See [QUICK_START.md](QUICK_START.md) for 10-minute setup instructions.
 
 **Need detailed status?** See [docs/CURRENT_STATUS.md](docs/CURRENT_STATUS.md) for what actually works vs. what doesn't.
+
+## 🔄 Always-Running Background Service
+
+Atlas includes a unified background service that handles all continuous processing automatically:
+
+```bash
+# Start the background service
+./scripts/start_atlas_service.sh start
+
+# For persistent operation (survives reboots)
+./scripts/setup_systemd_service.sh
+sudo systemctl start atlas
+```
+
+The service automatically handles podcast discovery, transcript fetching, article retries, and system maintenance with auto-restart on failures.
 
 ## ⚖️ Legal Notice
 

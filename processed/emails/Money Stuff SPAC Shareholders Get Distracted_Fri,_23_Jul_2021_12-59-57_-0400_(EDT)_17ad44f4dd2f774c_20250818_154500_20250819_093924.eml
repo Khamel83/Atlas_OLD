@@ -1,0 +1,1773 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:60d:b029:116:5c91:524e with SMTP id gq13csp1560419lkb;
+        Fri, 23 Jul 2021 10:00:05 -0700 (PDT)
+X-Received: by 2002:a17:906:fa8e:: with SMTP id lt14mr5417423ejb.21.1627059604549;
+        Fri, 23 Jul 2021 10:00:04 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1627059604; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=SPqZOHqy7sikoUv9Bej/ANS0h4ywf7ex+qktNR1zLIa6dCVVOz3shrBTO6/p2jaFA2
+         d1h2Ag31eTRY3hYtZ6oR2NvoadD8TWRer9Uxa068su1liRFLrc8SkcrjLVsiOL1Wo05V
+         UTBfTIdj+i9iSjoeDH/8r1U3vmBg3WtSeQpNVJChzUTnTo6QGF2YPY0rUKQ3hOuDDPJG
+         3aYzOxdno12DTeRv5bIj4TGJpvwmjH3nZ8yEk3pzj4EWSVqAYyLTSajvPBOdyhYH/JZn
+         evk/VmrcO1ebbH1N84XYYRp76nLJmQEJODXHjd/QSn8m3sFOxuLrc9zVEi2IMOQJRmc3
+         /8Ig==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=3wEPJYWXkq38okrhiMHqEPA3PckGeK3+3/AP8jL+TDQ=;
+        b=YZL2ZYWzbk2/EGE9DW0ppUqeLQMXsVe7NzcNdVYPGCdw7omo6Q4qJgsh2AZ2ctiObl
+         iKUi2Of6c4lHGM2FIXIemIKkLVGK8kPNYN/sdJsoSlE2KY17wVkA+72soPlZNidaoA1c
+         4EHzyNU6si5YICYPHrXa7qp6BZnag91RSweqHovpKBPmd6cU1zXGjEsF6vKtN/+iVrrO
+         iDxcbgNzmLjgp7tRFazY8da4mSQjE0Hr7919dpcS8XMto9uVXdpXveF9+vXCJpsww7KR
+         JRwDhhvWbTfkuXb5HfKQbwNof/1GDxEE1zlUJVRpF7PlPRLfQqXfG3FR403UiHRBnRH3
+         Nc0g==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=P633eQxs;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c11sor10866878edt.21.2021.07.23.10.00.04
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Fri, 23 Jul 2021 10:00:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=P633eQxs;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=3wEPJYWXkq38okrhiMHqEPA3PckGeK3+3/AP8jL+TDQ=;
+        b=hHH4ROSQVGJj2EFrAg6Cci88wjE/DXYK/1bScKECTzMjXdgb9nLfdwPdes3DRUduCY
+         TMXvIWjiRAaN/6CrXzjT30aefwaqjL6Xm6fsWKQIzFQF0zWT04PMHH+z1ATsiRIGVzW6
+         r3rvoBqkvchRO9bj5bRSKqenvrPsYOhfRCOJ99c1lpAh2uNJqOk+oUdBM0Xjp+OJnrE5
+         f795BWXwwv00cHGu4gixVW5u2fqrfUVpZa2TqBUJjK86eqhTd2+5lhMxSNNdEN0RqITf
+         em0qVIELL+OMV5SdZh4gU7uZGRbljDqas2QRw8Q6vS+hAIfSGscVYnHeYBcNChAVrhst
+         V3ag==
+X-Gm-Message-State: AOAM532VNIFloJ/IVmVO0rYOkS12hXOMS74zt1qzTBLq54lYu2XwtTlh
+	mpBHiLHczzD43ytlvQcW1yhjSEIvG2PGgnxT2f1ieoOcJ5yaWGgf3A==
+X-Received: by 2002:aa7:c6d4:: with SMTP id b20mr6676668eds.204.1627059602798;
+        Fri, 23 Jul 2021 10:00:02 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:314a:0:0:0:0:0 with SMTP id k10csp953219ecs;
+        Fri, 23 Jul 2021 09:59:59 -0700 (PDT)
+X-Received: by 2002:a19:ae0f:: with SMTP id f15mr3702467lfc.117.1627059599316;
+        Fri, 23 Jul 2021 09:59:59 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1627059599; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=0nWB9MS9EEx3CB3kI8YtqZqtGLZkbkW7RtOGy6ViCdufx89yEE408Qlxa3QBmyGwTQ
+         gQDJ1OepaE6Jt07m7deyVBiRTvicyyzZVMqm0RA+KxHB2kJSwWHw8pq0KDNKhsr3d4tW
+         /x8Z7ssSU4r1tXm88xZRPe6MgMZJOWsdihFOcFbATvKnt/tzaagZ7yiWybluffB7DV+N
+         OURstT0TaXd02C2twot/fDXE4iKiMnqG3A+AXb5pOr1FrXvuV0ncpbQ2BkSre6lXXCr9
+         zjsKlobVgsMqq2TCgMrLXPaCgVka4PgPiB5aqgAZ07JQmQuDJdaVG6xpFUSV316Jjbzr
+         +Ynw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=3wEPJYWXkq38okrhiMHqEPA3PckGeK3+3/AP8jL+TDQ=;
+        b=SJsWvmzvTxOfOzy32WCYPvIoiekabU233/TSYZMlGvsR0FmYSmVhb+SFSiM+Scuuew
+         enbc18tAjlMSPb3unQqhk20auHzpV2OmkcGeugcgIfkoP7Zc9MNW7w5IjSedJ4SXJQoT
+         0Oq0v7MEt4xeyV6V2wPzKX7Mj96RTMCFe68eJZPLey+5+gg4VM62j1pXXVWwkU+6OP3Y
+         5YuER0/5hi23r4JMDNql8xzqDH48a7Sf7a5xfoTPbeatimSYEBs524bJWlHJTrSX6YZD
+         wWUcsIU6gB83UUXDcjtpYQq1PW95YyDdEb5bqGARk0Haws18tjh5pUcpSFYsdXTd/GAL
+         bqSg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=P633eQxs;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210723125957.24537013.255073@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210723125957.24537013.255073@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210723125957.24537013.255073@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d12sor2355267lfm.111.2021.07.23.09.59.59
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Fri, 23 Jul 2021 09:59:59 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210723125957.24537013.255073@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxALE8o+ElF0C3OQo6IP8dcgd8joCnvv5jK2XslE9SK3DSSjZ8rZQ3p4Us4UHjT8RkmXuUnA/JLWzIMv3Nmya+gODHjlCk=
+X-Received: by 2002:ac2:5684:: with SMTP id 4mr3611238lfr.386.1627059599048;
+        Fri, 23 Jul 2021 09:59:59 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1627059599; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Eah0ZC9tD/SfTITt+Pqo6LG6CEjhCM6mgqIqdzuUfl22OcdPFLKHE+tUo0MmsIxS+m
+         4VZLwnhy/ocsn4vw1yLQRkoHk5H0rbswIFYNEsZmK9x2HjXfdKRQQozkrelmPe2L51JC
+         CSK0bjCGXRh/JmLF66zh0pZ3fx2AqW6PldeKvxqpOkOlurWsmmuQ0Q/+KrZ8NG9b3PDv
+         6fFFL/gJJOtRHa47gISAhktfrGlKbCje8GLbv+OdpeaNVIAK91GNSRwJjbn+85qPLtXy
+         i1d7qPLsFi5VaWRgvxKRpfkhG1bls6749FyRp2VdU1J5wZPM7Rrrr6Rv2TRnUNjvDkh8
+         5Hug==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=3wEPJYWXkq38okrhiMHqEPA3PckGeK3+3/AP8jL+TDQ=;
+        b=C1S2iHTGXx8fAT3toMd44pkgbaRGEeemcnIwEx1aJlhs6n6qSfIQYaYOqxbyXX8h6u
+         rKc9EfFyn6p/kigB6wp6btOaDEs3gEAHe9nR/Igdnv+ycJrd3N65HcN7/VKPqXfHoYsR
+         wNmeF5d5WXjsV8fOHgX0ApmaQrmAYLD4iS007kk7ExVrQdCISjWQth6FamGGubjubk0h
+         Z5EvNXb+6zKihd1PB8Jjg2AplJ6lK+aVvfYdvnYuVVJg/dANKkooJMNJmPai8UovBBKR
+         G1Gf1wjGfNpbWOjz764YtnV2HypmdNxW3UVbOY9grTxizABVvKl75wuPHedQv/mAAbmr
+         ZDOg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=P633eQxs;
+       spf=pass (google.com: domain of delivery_20210723125957.24537013.255073@mx.sailthru.com designates 192.64.238.62 as permitted sender) smtp.mailfrom=delivery_20210723125957.24537013.255073@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210723125957.24537013.255073@mx.sailthru.com>
+Received: from mta238-62.sailthru.com (mta238-62.sailthru.com. [192.64.238.62])
+        by gmr-mx.google.com with ESMTP id q8si1681125ljg.4.2021.07.23.09.59.58
+        for <khamel83@gmail.com>;
+        Fri, 23 Jul 2021 09:59:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210723125957.24537013.255073@mx.sailthru.com designates 192.64.238.62 as permitted sender) client-ip=192.64.238.62;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=HFrY4yPsfb67gsBr1Cay82XMw0M=;
+ b=P633eQxsnQFOQUICQscJAMDafBs7rVp9uKv7N2ztW/wXkKUZMbgGHv6YD00NrTpaU1nQNSUgWEP5
+   oE6kjlYY3fU/AVH0+8rpXCUTt0C3l0egxI6gdx4/Lbxb1vXkDfaaMtR3oVFsTxCiGqu+NqOGGzoK
+   SZRQ2Lr0fWrsZc9dux8=
+Received: from nj1-illcherry.flt (172.18.20.10) by mta238-62.sailthru.com id hvbqos1qqbsd for <bloomberg@khamel.com>; Fri, 23 Jul 2021 12:59:57 -0400 (envelope-from <delivery_20210723125957.24537013.255073@mx.sailthru.com>)
+Date: Fri, 23 Jul 2021 12:59:57 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210723125957.24537013.255073@sailthru.com>
+Subject: Money Stuff: SPAC Shareholders Get Distracted
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_13431240_1976592079.1627059597718"
+Precedence: bulk
+X-Feedback-ID: 6358:24537013:campaign:sailthru
+X-TM-ID: 20210723125957.24537013.255073
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illcherry.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23celwvp.5gtd/3e91bcfc
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23celwvp.5gtd/3e91bcfc>, <mailto:unsubscribe_20210723125957.24537013.255073@mx.sailthru.com>
+X-rpcampaign: stjko24537013
+
+------=_Part_13431240_1976592079.1627059597718
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Don=E2=80=99t forget to vote
+   =20
+ =20
+Churchill Capital Corp. IV is a special purpose acquisition company, a pot =
+of money worth about $10.00 for each share that it issued. Its stock closed=
+ yesterday at $22.90 per share, which is more than $10.00. This is because =
+it has announced a plan to merge with Lucid Motors Inc., an electric-vehicl=
+e company, and Churchill shareholders are excited about this merger and thi=
+nk it is a good deal.[1] If Churchill closes its deal with Lucid, Churchill=
+ shareholders will have Lucid stock that they think is worth $22.90. If it =
+does not close its deal with Lucid, they=E2=80=99ll get their $10 back in c=
+ash. They would prefer the $22.90.[2]They would prefer the $22.90, but they=
+ would not=C2=A0necessarily prefer it enough  to do anything about it:The b=
+lank-check company seeking to buy electric-car startup Lucid Motors Inc. ma=
+de a last-minute appeal for retail shareholders to vote for the deal amid s=
+igns that it=E2=80=99s struggling to win their approval.Churchill Capital C=
+orp. IV, the special purpose acquisition company started by investment bank=
+er Michael Klein, adjourned its Thursday shareholder meeting that was to de=
+termine the fate of the merger, pushing the decision back to the following =
+day. It also appealed again in a new statement for shareholders to sign off=
+ on the deal. Churchill=E2=80=99s shares fell as much as 4.8% before retrac=
+ing about half the loss.=E2=80=9CThe company still needs additional votes t=
+o obtain approval for that proposal by a majority of its outstanding shares=
+,=E2=80=9D according to the statement. =E2=80=9CAs a result, the meeting ha=
+s been adjourned to obtain the required votes.=E2=80=9D =E2=80=A6=E2=80=9CW=
+e welcome all of the new shareholders,=E2=80=9D Klein said. =E2=80=9CHoweve=
+r, we need you to participate in the election process. In particular, if yo=
+u are participating from the new trading platforms, the new apps that may n=
+ot necessarily be directing you clearly to a voting service, we need your v=
+ote,=E2=80=9D Klein said. He added that the process =E2=80=9Cliterally take=
+s one minute.=E2=80=9DMultiple notices have been sent to shareholders, with=
+ Lucid Chief Executive Officer Peter Rawlinson singling out Robinhood users=
+ =E2=80=9Cwith those diamond hands=E2=80=9D in a video posted to social med=
+ia earlier this week. The voting deadline was extended Thursday morning jus=
+t hours before the meeting was set to take place. Churchill also asked inve=
+stors who were holders of record to vote even if they=E2=80=99ve already so=
+ld their shares.It worked out fine; they approved the merger this morning. =
+Virtually everyone who voted =E2=80=94=C2=A0=E2=80=9Capproximately 98% of v=
+otes cast=E2=80=9D =E2=80=94=C2=A0voted yes.[3] But they needed a majority =
+of Churchill=E2=80=99s total shares outstanding to vote yes, and it was a s=
+truggle just to get enough people to vote.[4] And this is for an=C2=A0obvio=
+usly good deal, one where the stock was trading much higher ($22.90) than t=
+he cash value ($10) of the SPAC. There was a ton of enthusiasm for this mer=
+ger and it still struggled to get approved. For deals with less enthusiasm =
+that could be a problem.The problem was some combination of:=09Lots of SPAC=
+ investors =E2=80=94=C2=A0particularly in hot electric-vehicle SPAC deals l=
+ike Churchill/Lucid =E2=80=94=C2=A0are retail shareholders who have never b=
+othered to vote their shares, either because they are inexperienced and new=
+ to investing or just because there is almost no context where a retail sha=
+reholder=E2=80=99s vote could possibly matter. Voting on nonbinding say-on-=
+pay proposals, or even mergers, rarely matters because most companies=E2=80=
+=99 shareholder bases are dominated by institutions with lots of shares, so=
+ you figure the institutions will decide the question and it=E2=80=99s not =
+worth voting your 10 shares. Here, there are fewer institutions,[5] so your=
+ shares are worth voting.=09Relatedly, if you bought your shares on Robinho=
+od, Robinhood is not exactly laser-focused on getting you to vote. (=E2=80=
+=9COne person involved in the Lucid deal said: =E2=80=98Robinhood needs to =
+focus on this. It=E2=80=99s not right for their users.=E2=80=99=E2=80=9D)=
+=09The stock trades like 10 million shares a day. (There are 207 million sh=
+ares outstanding.) The record date for the vote was June 21. If you owned s=
+tock on June 21, you get to vote. If you bought stock after June 21, you do=
+n=E2=80=99t. If you owned stock on June 21 and then sold it, you still get =
+to vote. But you are unlikely to care very much. =E2=80=9CStockholders as o=
+f the close of business on June 21, 2021, the record date for the Special M=
+eeting, should vote their shares even if they no longer own them,=E2=80=9D =
+said Churchill in  its press release yesterday, but why should they? It doe=
+sn=E2=80=99t affect them anymore. They sold their stock; if the merger fail=
+s, they keep their money, and can have a good laugh at the people who bough=
+t the stock from them.=C2=A0To the extent SPACs are owned by rapidly day-tr=
+ading retail shareholders, this is going to be a continuing problem. The go=
+od news is that the retail day traders seem to be particularly concentrated=
+ in the hottest SPACs, which have the highest prices, so their holders have=
+ the most incentive to actually vote. A SPAC that announces a deal and trad=
+es to $10.15 is not going to get all that much enthusiasm, but nor is it go=
+ing to attract hordes of Robinhood traders who just forget to vote. Churchi=
+ll did attract those hordes, and they did forget to vote, but eventually it=
+ was able to track them down and point out that it was in their best intere=
+sts to vote.
+ =20
+   =20
+      Private markets are the new public markets
+   =20
+ =20
+In the U.S., the principal=C2=A0legal=C2=A0difference between a =E2=80=9Cpu=
+blic=E2=80=9D company and a =E2=80=9Cprivate=E2=80=9D company is that you h=
+ave to be rich to buy shares of a private company, while anyone can buy sha=
+res of a public company. Public companies=E2=80=99 stocks trade on the stoc=
+k exchange, and anyone can open a brokerage account and buy stocks. Private=
+ companies=E2=80=99 stocks trade in private transactions, which are subject=
+ to more complicated rules, but generally speaking if you are an =E2=80=9Ca=
+ccredited investor=E2=80=9D you are allowed to buy them.[6] The way to qual=
+ify as an accredited investor is, traditionally, to have enough money: a ne=
+t worth (excluding primary residence) of at least $1 million, or income of =
+at least $200,000 per year (or $300,000 for a couple). Recent amendments to=
+ the accredited-investor rules allow you to be accredited by knowledge (bas=
+ically having a securities license) rather than money. And of course basica=
+lly any=C2=A0institutional investor will be=C2=A0=E2=80=9Caccredited.=E2=80=
+=9DSo the rough traditional rule is that anyone can buy public stocks, but =
+only institutional investors, hedge funds, dentists, doctors, lawyers, prof=
+essional athletes, small-business owners =E2=80=A6=C2=A0honestly it is quit=
+e a long list of people who can buy private stocks? =E2=80=9CAccredited inv=
+estor=E2=80=9D used to be a pretty exclusive category, but it is much less =
+exclusive today. =E2=80=9CWhen the SEC first set its rules of entry for pri=
+vate markets in 1982, only 1.5 million households made the cut=E2=80=9D; by=
+ 2018, even=C2=A0before the recent amendments to expand the definition,=C2=
+=A0that number was =E2=80=9Cmore than 16 million U.S. households=E2=80=94ab=
+out one in eight.=E2=80=9DBut this legal difference dramatically understate=
+s the practical difference between public and private companies.=C2=A0If yo=
+u are a prosperous dentist, you are allowed to buy shares in private compan=
+ies, but most private companies won=E2=80=99t sell you any shares. When pri=
+vate companies want to raise money, they go to big investors =E2=80=94=C2=
+=A0venture capitalists and private equity funds but also mutual funds and h=
+edge funds and strategic investors and SoftBank=C2=A0=E2=80=94=C2=A0and rai=
+se large chunks of money. And they typically restrict those investors from =
+reselling their stock, so a market doesn=E2=80=99t really develop. And wher=
+eas public stocks trade on the stock exchange and you can see the price and=
+ put in an order to buy, private stocks, even when they do trade, usually d=
+on=E2=80=99t trade on an organized exchange and you can=E2=80=99t just buy =
+them through your broker. You have to know the person who=E2=80=99s selling=
+ them, if you want to buy them. And if you want to sell them, you have to k=
+now someone who=E2=80=99s looking to buy.One result of this is that, if you=
+ are a prosperous dentist, you can buy the same stock in the same public co=
+mpanies on the same terms as the fanciest hedge fund, but your universe of=
+=C2=A0private=C2=A0investment opportunities will be totally different from =
+the options available to brand-name venture capitalists and SoftBank. You w=
+ill never see any of the deals they see, and they will never see any of the=
+ deals you see. Probably the deals you see will be worse! Because they have=
+ lots of money and sophistication, and you have just enough money and sophi=
+stication to be accredited.If you run a company, you might want to be publi=
+c. There are various advantages to that; the main one is that=C2=A0you can =
+raise money from absolutely anyone. Not so long ago, I was fond of downplay=
+ing this advantage: Private markets were absolutely awash in money, it was =
+easy to raise billions of dollars from large institutional investors, and t=
+he main advantage of public markets =E2=80=94=C2=A0that they were where all=
+ the money was =E2=80=94=C2=A0was diminished. The meme-stock rally has chan=
+ged my perspective. Now public companies can raise hundreds of millions of =
+dollars in a few hours at enormous valuations in at-the-market offerings to=
+ wildly enthusiastic retail investors, which you can=E2=80=99t=C2=A0do if y=
+ou=E2=80=99re private. That does seem like a big advantage to being public?=
+Still,=C2=A0you might instead want to be private. There are various advanta=
+ges to that. One is that you don=E2=80=99t have to file lots of disclosure =
+documents (with risk factors, descriptions of your business, audited financ=
+ial statements, etc.) with the Securities and Exchange Commission. You save=
+ money on lawyers, you get to be a bit more secretive, you get sued less, e=
+tc. Another advantage is that you get to control your shareholder base. You=
+ can sell stock to investors you choose, and you can restrict their ability=
+ to resell it. If you don=E2=80=99t want activists or corporate raiders or =
+short-term-focused Wall Streeters or competitors or whoever to buy your sto=
+ck, you don=E2=80=99t let them. You can=E2=80=99t generally do that as a pu=
+blic company.But is there a compromise? Like what about this?=09You are leg=
+ally not a public company and don=E2=80=99t have to comply with the SEC=E2=
+=80=99s disclosure rules; but=09You can sell stock to as many people as pos=
+sible, and those people can=C2=A0resell=C2=A0their stock to as many people =
+as possible, on some sort of centralized exchange that can match up buyers =
+and sellers efficiently rather than by word of mouth; but=09If there are pa=
+rticular people who you don=E2=80=99t want buying your stock, you can ban t=
+hem.You could imagine a category like =E2=80=9Cas public as possible withou=
+t actually=C2=A0being public.=E2=80=9D Your stock trades electronically on =
+a centralized exchange, there are market makers and quoted prices, and anyo=
+ne who wants to buy it can buy it=C2=A0as long as they are accredited,[7] w=
+hich is a minority of Americans but now a fairly large minority. (And an ev=
+en larger minority of=C2=A0people who buy stocks.) If you want to raise mon=
+ey, you can try to sell stock to all the dentists who trade on the exchange=
+, though realistically the more appealing option is probably to sell stock =
+to big institutions but promise them liquidity in the form of being able to=
+=C2=A0resell=C2=A0their stock to the dentists whenever they want.=C2=A0The =
+appeal for companies=C2=A0is the broadest possible access to capital withou=
+t being public: You can sell to venture funds and hedge funds and mutual fu=
+nds and everyone else who invests privately, but also dentists. The appeal =
+for institutional investors is: You can buy stock in private companies and =
+resell it, to dentists or to other institutions, in a fairly liquid and tra=
+nsparent market. The appeal for dentists is: You can buy stock in private c=
+ompanies that have institutional investors, instead of private companies th=
+at only pitch their stock to dentists.There are also obvious benefits for i=
+ntermediaries. The appeal for the private-company exchange=C2=A0is of cours=
+e that you can charge higher fees to investors than a public exchange would=
+. The appeal for brokers =E2=80=94=C2=A0the investment banks and broker-dea=
+lers=C2=A0who would ordinarily be matching buyers and sellers of private-co=
+mpany stocks =E2=80=94=C2=A0is that their job is a lot less labor-intensive=
+ if people are just putting in orders to buy or sell private stock on an ex=
+change.Anyway:In the past year, a spate of companies have launched private =
+trading platforms to keep up with market demand for access to assets that a=
+re not publicly traded, including those that haven=E2=80=99t yet been tappe=
+d by a private equity or venture firm.Most recently, Nasdaq, SVB Financial,=
+ Citi, Goldman Sachs, and Morgan Stanley on Tuesday announced a joint ventu=
+re to build a secondary trading platform for institutional investors. =C2=
+=A0=C2=A0The platform will allow investors to access and execute private co=
+mpany stock transactions using technology. According to the announcement, t=
+his will increase transparency for investors. =C2=A0=E2=80=9CThe one thing =
+that I think we can all agree to at this point is that the secondary market=
+s are not a moment in time need,=E2=80=9D Eric Folkemer, president of Nasda=
+q Private Market, told Institutional Investor. =E2=80=9CMany of the stakeho=
+lders or employees expect it to a degree, especially as companies are stayi=
+ng private longer.=E2=80=9D ...Nasdaq Private Market isn=E2=80=99t the only=
+ firm entering the industry, though. CartaX, for instance, launched its bus=
+iness earlier this year, pitching liquidity for private company shareholder=
+s and access to these assets for institutional investors.=C2=A0Meanwhile, I=
+nvestX, a private equity marketplace for broker-dealers that has been opera=
+ting since 2014, launched GEM, its trading platform, in February. =C2=A0=E2=
+=80=9CI did a lot of research on private markets, and I saw a growing marke=
+t, one that was pistol hot,=E2=80=9D said Brian Schaeffer, managing directo=
+r at the firm, by phone. =E2=80=9CDemand was so great that you could see th=
+at the SEC would have to pay attention.=E2=80=9D =E2=80=A6=E2=80=9CThe SEC =
+is going to look at this and look at it very hard,=E2=80=9D Schaeffer said.=
+ For one, he added, the regulatory body is looking to redefine what an accr=
+edited investor should look like, which could change the clientele of these=
+ platforms. =C2=A0The pitches here seem to be mostly about liquidity for em=
+ployees and trading opportunities for institutions; nobody has quite come o=
+ut with a =E2=80=9Cbe as public as possible without being public=E2=80=9D p=
+itch to companies, or for that matter made a big push to sign up every dent=
+ist in America to their private-company exchange.To be fair, my tag line he=
+re =E2=80=94=C2=A0=E2=80=9Cprivate markets are the new public markets=E2=80=
+=9D =E2=80=94=C2=A0was=C2=A0more=C2=A0true a few years ago; public markets =
+have had a bit of a resurgence recently as a lot of the big crop of recent =
+unicorns have gone public, SoftBank=E2=80=99s money has lost some of its al=
+lure, and the meme-stock craze has made companies appreciate the benefits o=
+f being public. It is not clear that many companies would actually want thi=
+s combination of being technically private while having maximum access to i=
+nvestors, or that many dentists would actually want to sign up for this pla=
+tform instead of just trading public stocks on Robinhood. Still I kind of w=
+ant someone to try.
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                   =20
+For over 20 years, Selective Search Matchmakers have protected our clients=
+=E2=80=99 time, privacy and preferences in their search for love. Customize=
+d searches that employ proven executive search methodologies have resulted =
+in love for thousands of couples.
+
+Get started with a complimentary consultation.
+
+                                    Selective Search LLC.
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+ =20
+   =20
+      Business coaching
+   =20
+ =20
+I enjoyed this profile by Kate Clark of Matt Mochary, a =E2=80=9Cleadership=
+ consultant and former startup founder=E2=80=9D who coaches founders and ch=
+ief executive officers:Mochary, 52, guides the founders using tactical busi=
+ness lessons gleaned from his career as a founder and private equity invest=
+or, such as how to negotiate compensation with their boards. These he blend=
+s with spiritual practices, such as meditation for stress release and =E2=
+=80=9Cenergy audits=E2=80=9D to help founders realize what tasks sap them o=
+f energy. Those tasks must be delegated, he says.By taking his advice, exec=
+utives can find their =C2=A0=E2=80=9Czone of genius,=E2=80=9D and learn how=
+ to run a company well, he said in a Zoom interview from his home in Kauai,=
+ Hawaii.It is pleasingly specific:What he offers is the =E2=80=9CMochary Me=
+thod,=E2=80=9D which includes the belief that CEOs should focus only on the=
+ tasks that bring them energy and that they love. =E2=80=9C[I] teach founde=
+rs how to create deep relationships, how to create trust,=E2=80=9D Mochary =
+said. ...Mochary, who wouldn=E2=80=99t go into the specific discussions he =
+has had with clients, often dives deep into emotional discussions around fe=
+ar, anger and shame, say CEOs who have worked with him. He also gives pract=
+ical suggestions on handling employees and managing meetings, such as requi=
+ring biweekly written feedback between managers and their subordinates. And=
+ he has advised founders on how much stock it is appropriate to sell on the=
+ secondary market (Mochary recommends selling between $10 million and $100 =
+million in order to achieve a =E2=80=9Csense of abundance=E2=80=9D).What do=
+ you make of the combination of =E2=80=9Cfocus only on the tasks that bring=
+ them energy and that they love=E2=80=9D with =E2=80=9Crequiring biweekly w=
+ritten feedback between managers and their subordinates=E2=80=9D? Does that=
+ mean:=09Many successful CEOs=C2=A0love giving and receiving biweekly writt=
+en feedback, or=09CEOs can focus on doing what they love because they can m=
+ake their subordinates do stuff they hate?I can kind of see both possibilit=
+ies? For me personally, nothing brings me less energy than giving or receiv=
+ing frequent written feedback, but then I have never started a company. Als=
+o I am on Twitter all day so revealed preferences I guess.Also here is an a=
+mazing coaching move:In some more extreme cases, Mochary has replaced the C=
+EO entirely for a short period of time. In 2017, long before financial soft=
+ware startup Bolt garnered a valuation of $4 billion, Mochary stepped in fu=
+ll time as CEO for over a month. The experience led to a complete =E2=80=9C=
+culture reset,=E2=80=9D said co-founder and CEO Ryan Breslow.The immersive =
+method helped Breslow, only 23 at the time, learn what qualities are critic=
+al to being a good leader, he said. =E2=80=A6 =E2=80=9CIt could take an ent=
+ire year for me to tell you what to do as CEO or I could come in and be CEO=
+ for a few weeks,=E2=80=9D Breslow recalled Mochary saying. =E2=80=9CYou ca=
+n watch me and [you=E2=80=99ll] learn 10 times faster.=E2=80=9DWhat if he d=
+idn=E2=80=99t let the guy come back? =E2=80=9CIt=E2=80=99s my company now, =
+I=E2=80=99m sorry, this is going to be a valuable learning experience for y=
+ou at your next startup, bye.=E2=80=9D This is a good plot for a business n=
+ovel.The obvious question for services like this is: How do you charge? The=
+re is a ton of potential leverage here; startups have highly variable outco=
+mes, CEO performance is crucial to those outcomes, and making a CEO slightl=
+y better=C2=A0can potentially be worth hundreds of millions of dollars. And=
+ so traditionally startup founders get coaching from their venture capitali=
+sts, whose compensation comes in the form of owning shares (that they bough=
+t) in the company: If their advice and mentorship makes a founder better, t=
+hen their shares will be worth a lot more. (Also if they develop a reputati=
+on for making founders better, they will get offered more and better deals.=
+)If you unbundle coaching from capital, though, how should the coach charge=
+? The obvious answer would be =E2=80=9Cstock options=E2=80=9D[8] but that s=
+eems to be mostly wrong:Top coaches in the business today charge between $5=
+,000 and $10,000 per month, according to people familiar with the industry.=
+ Mochary charges $12,500 a month for sessions, which he holds on Zoom on a =
+monthly basis, if not more often.Until this year, Mochary would counsel exe=
+cutives at no charge, a choice he said he could make because the 2005 sale =
+of his startup Totality had made him wealthy. The pro bono move bothered so=
+me other coaches, according to one who asked not to be named. Mochary would=
+ sometimes ask executives to instead donate equity to his foundation, or he=
+ would invest in their startup.=E2=80=9CHe would invest in their startup=E2=
+=80=9D seems reasonable. =E2=80=9CA flat monthly fee=E2=80=9D is, you know,=
+ fine, but one worries about the alignment of incentives. =E2=80=9CFree, I =
+just love startups=E2=80=9D is sort of the deep Silicon Valley answer: You =
+do stuff to make the startup ecosystem better, which raises your status in =
+that ecosystem, which will eventually turn out to make you rich even if the=
+ causal mechanism is initially unclear.[9] (It helps to be rich to begin wi=
+th.)
+ =20
+   =20
+      Derivative markets
+   =20
+ =20
+Let=E2=80=99s say that you like the stock of AMC Entertainment Holdings Inc=
+. and you want to buy, say, $1,000 worth of it. Let=E2=80=99s say you don=
+=E2=80=99t have $1,000. How can you buy the stock anyway? A classic answer =
+is =E2=80=9Ca margin loan=E2=80=9D: You go to your broker, put in $500, you=
+r broker lends you $500, and you buy $1,000 worth of stock. When you sell i=
+t, you have to pay your broker back, and you have to pay interest, but if i=
+t goes up you get basically all of the upside.What if you don=E2=80=99t hav=
+e $500? You might look into options. A call option to buy 100 shares of AMC=
+ stock (about $3,600 worth) for $60 a share next month currently goes for a=
+bout $200.[10] If you buy that and AMC doubles to $72 next month, you will =
+make $1,000.[11] That=E2=80=99s roughly what you would have made buying $1,=
+000 worth of stock. Of course if it goes up less you=E2=80=99ll make less; =
+if it goes up 50% you=E2=80=99ll make nothing and lose your $200. This is n=
+ot a perfect substitute for buying the stock. But it=E2=80=99s something. I=
+t=E2=80=99s a leveraged bet on the stock, a way to spend a relatively small=
+ amount of money to bet on a huge rally in AMC stock.What if you don=E2=80=
+=99t have $200? What if you have, say, zero dollars? Will anyone provide yo=
+u with leverage where you put up nothing, they put up the money, you buy th=
+e AMC stock, if it goes up you collect the profits, and you never pay them =
+back? When you put it like that the answer is no, obviously not, but it=E2=
+=80=99s worth a try?Here is  an article from Bloomberg=E2=80=99s Michael Re=
+gan=C2=A0about GoFundMe as a platform for financing AMC investments:=E2=80=
+=9CHello fellow Apes!=E2=80=9D reads one pitch from a trader who=E2=80=99s =
+so far only been able to buy a partial share. =E2=80=9CI am here asking for=
+ help of any amount to buy AMC stonk! I work at my sad minimum wage job aka=
+ McDonald=E2=80=99s and barely have one share of AMC. Money is tight, I sur=
+vive off $1 menu and eat ramen. Hopefully I will have 1 share soon!=E2=80=
+=9D =E2=80=A6Many simply implore potential donors to contribute to traders =
+who want to buy and hold more AMC shares so they can worsen a short-squeeze=
+ among hedge funds betting against the stock. Details are scant on why exac=
+tly that would be a better strategy than the donors simply buying the share=
+s themselves.No, I=E2=80=99m kidding. While the GoFundMe pitches for, uh =
+=E2=80=A6=C2=A0margin donations? =E2=80=A6=C2=A0are the most=C2=A0financial=
+ly=C2=A0interesting ones =E2=80=94=C2=A0imagine starting a hedge fund funde=
+d by donations! =E2=80=94=C2=A0most of the pitches are actually to fund air=
+plane banners:Airborne messages pumping shares of AMC Entertainment Holding=
+s Inc. -- similar to the banner planes that alert parched Jersey Shore tour=
+ists to where they can find a $2 Corona Light -- have become a top tool of =
+choice for the retail army that is marching in formation for this cult stoc=
+k. Pilots don=E2=80=99t come cheap, so the self-described =E2=80=9Capes=E2=
+=80=9D of the AMC message boards are looking for handouts to help the effor=
+t: $4,250 for a flight over Canada; $550 to hoist =E2=80=9CAMC TO THE MOON =
+HODL=E2=80=9D above North Carolina; $3,000 to fly a similar message above W=
+all Street; 5,000 pounds so that the British Parliament gets the word. And =
+so on.One thing that I have said about the meme-stock craze is that retail =
+traders on Reddit have rapidly developed a very sophisticated collective un=
+derstanding of=C2=A0how to move stock prices. There is a lot of crowdsource=
+d knowledge about how to get the most bang for your buck, how to leverage a=
+ relatively small investment of your own money  into large purchases by opt=
+ions market makers and squeezed short sellers to push the stock up. (Some o=
+f the meme-stock issuers, particularly AMC, have also learned to play this =
+game, to  do publicity stunts that move their stock prices up and allow the=
+m to raise cash.) From where I sit, spending a few thousand dollars to fly =
+banners saying =E2=80=9CAMC TO THE MOON HODL=E2=80=9D=C2=A0over random beac=
+hes does=C2=A0not=C2=A0seem like a particularly cost-effective way to boost=
+ your portfolio; I would not expect that to drive the stock price up very m=
+uch. But I am willing to believe that the AMC apes might have a better hand=
+le on this stuff than I do.Also though the point of investing in meme stock=
+s is not=C2=A0just=C2=A0to make money, it is also to have fun and feel like=
+ part of a cultural phenomenon. I suppose the banners help with that.=C2=A0=
+Also here=E2=80=99s this:Brian Merli made a comment stating - "when amc hot=
+ $30 I'll eat a dog turd"=C2=A0Since then Brian has not came through with h=
+is promise. Apes you know what to do! Let's spread Brian's photo and quote =
+on billboards all over St. Louis, Missouri! 5k is the target price but we a=
+re apes! Let's spread Brian's face across the country! Buy more AMC!I don=
+=E2=80=99t see how that would help the stock price. It has raised $315. I d=
+unno.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+JPMorgan to  Double Advisers as Wall Street Vies for Wealthy. Fed Seen Spee=
+ding  Taper of MBS in Early-2022 Start to Pullback. New Aid Planned for Mor=
+tgage Borrowers at Risk of Foreclosure. Banks  Rethink Evergrande Mortgage =
+Halt After Queries From HKMA. The Tyranny of Spreadsheets. =E2=80=98I Feel =
+Conflicted=E2=80=99: Crypto=E2=80=99s Offshore Trading Moguls Talk Shop. Th=
+e Case for Stablecoins Being the  New Shadow Banks. Croat Plan to  Put Tesl=
+a on Euro Coins Reignites Balkan Feud. =E2=80=9CDavid Johnston won=E2=80=99=
+t touch money, except to destroy it.=E2=80=9D Bear goes wild in Olympic sta=
+dium, is still on the loose. =E2=80=9CYou have to trust us. You have to. We=
+ are not joking and we are not having fun. So many things are wrong with th=
+is place.=E2=80=9DIf you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy =
+email form, right in your inbox, please=C2=A0subscribe at this link. Or you=
+ can subscribe to Money Stuff and other great Bloomberg newsletters here. T=
+hanks![1] We  discussed it a few months ago, and I pointed out that investo=
+rs didn=E2=80=99t like the deal (when it was announced) as much as they had=
+ hoped to (before it was announced), but that is water under the bridge. Th=
+ey like it a lot more than they like $10, is the point.[2] Obviously if the=
+y think that Lucid is wildly overvalued and the stock is =E2=80=9Creally=E2=
+=80=9D only worth $5, they should sell the stock now, to someone who thinks=
+ it=E2=80=99s worth more, for $22.90. There is no scenario where it is rati=
+onal to hope the deal fails and then take your $10 back. This is a liquid s=
+tock trading in public markets; you can turn it into cash.=C2=A0Just take t=
+he $22.90 now.=C2=A0[3] I don=E2=80=99t know why you=E2=80=99d vote no. Con=
+fusion or peevishness, I dunno. Or you sold the stock after the record date=
+ and want to be annoying.[4] Technically the merger required only a majorit=
+y of the votes cast (assuming there was a quorum), but another proposal =E2=
+=80=94=C2=A0to amend Churchill=E2=80=99s corporate charter to stop being a =
+SPAC and to allow the issuance of shares in the transaction =E2=80=94=C2=A0=
+was a prerequisite to doing the merger and required a majority of the share=
+s outstanding. See pages 14 and 176=C2=A0of the proxy statement.=C2=A0[5] B=
+loomberg=E2=80=99s HDS list, of shareholders big or institutional enough to=
+ disclose their holdings, covers 13.17% of the shares outstanding. At Apple=
+ Inc. that number is 60.84%. At Tesla Inc. it is 65.22%. At JPMorgan Chase =
+& Co. it=E2=80=99s 75.82%.[6] To be clear, the rules are more complicated, =
+and people who are not accredited investors=C2=A0can definitely buy private=
+ stocks in various contexts. But there are limits on that, whereas basicall=
+y anyone who=E2=80=99s accredited=C2=A0can buy private stocks.=C2=A0[7] Or:=
+ Anyone who is accredited and wants to buy it can buy it, except for a list=
+ of excluded names that you provide to the exchange. If you=E2=80=99re not =
+a public company, there=E2=80=99s no rule that everyone has to have equal a=
+ccess.[8] Or=C2=A0a percentage of the CEO=E2=80=99s own compensation, like =
+a talent agent.[9] This post from Alex Danco contrasting the Silicon Valley=
+ and Canadian tech scenes informs my thinking on this point. He writes: =E2=
+=80=9CGood Angels are playing an infinite game. They are contributing to a =
+community; not in order to win something definite, but to earn the right to=
+ keep participating in the scene. They play the infinite game of growing th=
+eir status within a growing community, which is a very good thing. And they=
+ often make a ton of money, leading to the perplexing advice for outsiders:=
+ =E2=80=98the way to make money angel investing is to not set out trying to=
+ make money.=E2=80=99=E2=80=9D[10] That is, a bit after 10 a.m. today, I se=
+e the $60 strike 20-Aug-21 call last traded at $1.99 on Bloomberg=E2=80=99s=
+ OMON screen, with the stock in the high $35s. Options generally trade in c=
+ontracts on 100 shares.[11] I mean, you=E2=80=99ll pay $6,000 to exercise t=
+he option on 100 shares and sell them for $7,200, making $1,200, or $1,000 =
+after deducting your $200 premium.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23celwvp.5gtd/fb315174.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_13431240_1976592079.1627059597718
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px 0px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24537013.255073/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBfc9b9e83"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24537013.255073/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB12645eb=
+8">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Don=E2=80=99t forget to vote</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Churchill Capital Corp. IV is a specia=
+l purpose acquisition company, a pot of money <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmN=
+oaXZlcy9lZGdhci9kYXRhLzE4MTEyMTAvMDAwMTEwNDY1OTIxMDg1Mzg0L3RtMjE5MzU5LTEyXz=
+QyNGIzLmh0bQ/607f07ceef4b8524a319a23cB41df8de0" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" title=3D"see page 15 on redemption rights" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">worth about $10.00</a> for each share that it issued. Its stock close=
+d yesterday at $22.90 per share, which is more than $10.00. This is because=
+ it has announced a plan to merge with Lucid Motors Inc., an electric-vehic=
+le company, and Churchill shareholders are excited about this merger and th=
+ink it is a good deal.[1] If Churchill closes its deal with Lucid, Churchil=
+l shareholders will have Lucid stock that they think is worth $22.90. If it=
+ does not close its deal with Lucid, they=E2=80=99ll get their $10 back in =
+cash. They would prefer the $22.90.[2]</p><p style=3D"margin: 16px 0;">They=
+ would prefer the $22.90, but they would not=C2=A0<em>necessarily </em>pref=
+er it enough <a href=3D"https://link.mail.bloombergbusiness.com/click/24537=
+013.255073/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDct=
+MjIvZXYtc3RhcnR1cC1sdWNpZC1yaXNrcy1jb2xsYXBzZS1vZi1zcGFjLWRlYWwtb24tbm8tc2h=
+vdy1ob2xkZXJz/607f07ceef4b8524a319a23cB479c7952" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> to do anything about it</a>:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">The blank-check company seeking to bu=
+y electric-car startup Lucid Motors Inc. made a last-minute appeal for reta=
+il shareholders to vote for the deal amid signs that it=E2=80=99s strugglin=
+g to win their approval.</p><p style=3D"margin: 16px 0;">Churchill Capital =
+Corp. IV, the special purpose acquisition company started by investment ban=
+ker Michael Klein, adjourned its Thursday shareholder meeting that was to d=
+etermine the fate of the merger, pushing the decision back to the following=
+ day. It also appealed again in a new statement for shareholders to sign of=
+f on the deal. Churchill=E2=80=99s shares fell as much as 4.8% before retra=
+cing about half the loss.</p><p style=3D"margin: 16px 0;">=E2=80=9CThe comp=
+any still needs additional votes to obtain approval for that proposal by a =
+majority of its outstanding shares,=E2=80=9D according to the statement. =
+=E2=80=9CAs a result, the meeting has been adjourned to obtain the required=
+ votes.=E2=80=9D =E2=80=A6</p><p style=3D"margin: 16px 0;">=E2=80=9CWe welc=
+ome all of the new shareholders,=E2=80=9D Klein said. =E2=80=9CHowever, we =
+need you to participate in the election process. In particular, if you are =
+participating from the new trading platforms, the new apps that may not nec=
+essarily be directing you clearly to a voting service, we need your vote,=
+=E2=80=9D Klein said. He added that the process =E2=80=9Cliterally takes on=
+e minute.=E2=80=9D</p><p style=3D"margin: 16px 0;">Multiple notices have be=
+en sent to shareholders, with Lucid Chief Executive Officer Peter Rawlinson=
+ singling out Robinhood users =E2=80=9Cwith those diamond hands=E2=80=9D in=
+ a video posted to social media earlier this week. The voting deadline was =
+extended Thursday morning just hours before the meeting was set to take pla=
+ce. Churchill also asked investors who were holders of record to vote even =
+if they=E2=80=99ve already sold their shares.</p></blockquote><p style=3D"m=
+argin: 16px 0;">It worked out fine; they <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cucHJuZXdzd2lyZS5jb20v=
+bmV3cy1yZWxlYXNlcy9jaHVyY2hpbGwtY2FwaXRhbC1jb3JwLWl2LXN0b2NraG9sZGVycy1hcHB=
+yb3ZlLWx1Y2lkLWJ1c2luZXNzLWNvbWJpbmF0aW9uLTMwMTM0MDIxNy5odG1s/607f07ceef4b8=
+524a319a23cBc878e66f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">approved the merger</a> this morning. Virtually everyone who v=
+oted =E2=80=94=C2=A0=E2=80=9Capproximately 98% of votes cast=E2=80=9D =E2=
+=80=94=C2=A0voted yes.[3] But they needed a majority of Churchill=E2=80=99s=
+ total shares outstanding to vote yes, and it was a struggle just to get en=
+ough people to vote.[4] And this is for an=C2=A0<em>obviously good deal</em=
+>, one where the stock was trading much higher ($22.90) than the cash value=
+ ($10) of the SPAC. There was a ton of enthusiasm for this merger and it st=
+ill struggled to get approved. For deals with less enthusiasm that could be=
+ a problem.</p><p style=3D"margin: 16px 0;">The problem was some combinatio=
+n of:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin:=
+ 16px 0;">=09<li style=3D"margin-bottom: 5px;">Lots of SPAC investors =E2=
+=80=94=C2=A0particularly in hot electric-vehicle SPAC deals like Churchill/=
+Lucid =E2=80=94=C2=A0are retail shareholders who have never bothered to vot=
+e their shares, either because they are inexperienced and new to investing =
+or just because there is almost no context where a retail shareholder=E2=80=
+=99s vote could possibly matter. Voting on nonbinding say-on-pay proposals,=
+ or even mergers, rarely matters because most companies=E2=80=99 shareholde=
+r bases are dominated by institutions with lots of shares, so you figure th=
+e institutions will decide the question and it=E2=80=99s not worth voting y=
+our 10 shares. Here, there are fewer institutions,[5] so your shares are wo=
+rth voting.</li>=09<li style=3D"margin-bottom: 5px;">Relatedly, if you boug=
+ht your shares on Robinhood, Robinhood is not exactly laser-focused on gett=
+ing you to vote. (=E2=80=9COne person <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMTA=
+yYjJiOTQtZjY0YS00MmY1LTkzZWUtNDU4NDFkNTRmNTc2/607f07ceef4b8524a319a23cB9a43=
+c334" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">invo=
+lved in the Lucid deal said</a>: =E2=80=98Robinhood needs to focus on this.=
+ It=E2=80=99s not right for their users.=E2=80=99=E2=80=9D)</li>=09<li styl=
+e=3D"margin-bottom: 5px;">The stock trades like 10 million shares a day. (T=
+here are 207 million shares outstanding.) The record date for the vote was =
+June 21. If you owned stock on June 21, you get to vote. If you bought stoc=
+k after June 21, you don=E2=80=99t. If you owned stock on June 21 and then =
+sold it, you still get to vote. But you are unlikely to care very much. =E2=
+=80=9CStockholders as of the close of business on June 21, 2021, the record=
+ date for the Special Meeting, should vote their shares even if they no lon=
+ger own them,=E2=80=9D said Churchill in <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cucHJuZXdzd2lyZS5jb20v=
+bmV3cy1yZWxlYXNlcy9jaHVyY2hpbGwtaXYtcG9sbHMtcmVtYWluLW9wZW4tZm9yLWJ1c2luZXN=
+zLWNvbWJpbmF0aW9uLXdpdGgtbHVjaWQtbW90b3JzLTMwMTMzOTQ0My5odG1sP3RjPWVtbF9jbG=
+VhcnRpbWU/607f07ceef4b8524a319a23cBa1abbe1e" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> its press release yesterday</a>, but wh=
+y should they? It doesn=E2=80=99t affect them anymore. They sold their stoc=
+k; if the merger fails, they keep their money, and can have a good laugh at=
+ the people who bought the stock from them.=C2=A0</li></ol><p style=3D"marg=
+in: 16px 0;">To the extent SPACs are owned by rapidly day-trading retail sh=
+areholders, this is going to be a continuing problem. The good news is that=
+ the retail day traders seem to be particularly concentrated in the hottest=
+ SPACs, which have the highest prices, so their holders have the most incen=
+tive to actually vote. A SPAC that announces a deal and trades to $10.15 is=
+ not going to get all that much enthusiasm, but nor is it going to attract =
+hordes of Robinhood traders who just forget to vote. Churchill did attract =
+those hordes, and they did forget to vote, but eventually it was able to tr=
+ack them down and point out that it was in their best interests to vote.</p=
+><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Private markets are the new public markets</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">In the U.S., the principal=C2=A0<em>le=
+gal=C2=A0</em>difference between a =E2=80=9Cpublic=E2=80=9D company and a =
+=E2=80=9Cprivate=E2=80=9D company is that you have to be rich to buy shares=
+ of a private company, while anyone can buy shares of a public company. Pub=
+lic companies=E2=80=99 stocks trade on the stock exchange, and anyone can o=
+pen a brokerage account and buy stocks. Private companies=E2=80=99 stocks t=
+rade in private transactions, which are subject to more complicated rules, =
+but generally speaking if you are an =E2=80=9C<a href=3D"https://link.mail.=
+bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGw=
+uZWR1L2Nmci90ZXh0LzE3LzIzMC41MDE/607f07ceef4b8524a319a23cBbf0a6ce8" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">accredited invest=
+or</a>=E2=80=9D you are allowed to buy them.[6] The way to qualify as an ac=
+credited investor is, traditionally, to have enough money: a net worth (exc=
+luding primary residence) of at least $1 million, or income of at least $20=
+0,000 per year (or $300,000 for a couple). Recent <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMC0xOTE/607f07ceef4b8524a319a23cBa6ea1bc0" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">amendments</a=
+> to the accredited-investor rules allow you to be accredited by knowledge =
+(basically having a securities license) rather than money. And of course ba=
+sically any=C2=A0institutional investor will be=C2=A0=E2=80=9Caccredited.=
+=E2=80=9D</p><p style=3D"margin: 16px 0;">So the <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDktMjQvZWFybmluZy10aGUtcmlnaHQtdG8tZ2V=
+0LXN3aW5kbGVk/607f07ceef4b8524a319a23cB6462c427" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">rough traditional rule</a> is that a=
+nyone can buy public stocks, but only institutional investors, hedge funds,=
+ dentists, doctors, lawyers, professional athletes, small-business owners =
+=E2=80=A6=C2=A0honestly it is quite a long list of people who can buy priva=
+te stocks? =E2=80=9CAccredited investor=E2=80=9D used to be a pretty exclus=
+ive category, but it is much less exclusive today. =E2=80=9CWhen the SEC fi=
+rst set its rules of entry for private markets in 1982, <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cud3NqL=
+mNvbS9hcnRpY2xlcy9vcHBvcnR1bml0aWVzLXRvLWludmVzdC1pbi1wcml2YXRlLWNvbXBhbmll=
+cy1ncm93LTE1Mzc3MjIwMjM_dGVzbGE9eQ/607f07ceef4b8524a319a23cBf566b158" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">only 1.5 millio=
+n households</a> made the cut=E2=80=9D; by 2018, even=C2=A0before the recen=
+t amendments to expand the definition,=C2=A0that number was =E2=80=9Cmore t=
+han 16 million U.S. households=E2=80=94about one in eight.=E2=80=9D</p><p s=
+tyle=3D"margin: 16px 0;">But this legal difference dramatically understates=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/24537013.255073/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDYtMTkvcHJp=
+dmF0ZS1tYXJrZXRzLWNvdWxkLWJlLW1vcmUtcHVibGlj/607f07ceef4b8524a319a23cBf0b4e=
+b8d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">the p=
+ractical difference</a> between public and private companies.=C2=A0If you a=
+re a prosperous dentist, you are allowed to buy shares in private companies=
+, but most private companies won=E2=80=99t sell you any shares. When privat=
+e companies want to raise money, they go to big investors =E2=80=94=C2=A0ve=
+nture capitalists and private equity funds but also mutual funds and hedge =
+funds and strategic investors and SoftBank=C2=A0=E2=80=94=C2=A0and raise la=
+rge chunks of money. And they typically restrict those investors from resel=
+ling their stock, so a market doesn=E2=80=99t really develop. And whereas p=
+ublic stocks trade on the stock exchange and you can see the price and put =
+in an order to buy, private stocks, even when they do trade, usually don=E2=
+=80=99t trade on an organized exchange and you can=E2=80=99t just buy them =
+through your broker. You have to know the person who=E2=80=99s selling them=
+, if you want to buy them. And if you want to sell them, you have to know s=
+omeone who=E2=80=99s looking to buy.</p><p style=3D"margin: 16px 0;">One re=
+sult of this is that, if you are a prosperous dentist, you can buy the same=
+ stock in the same public companies on the same terms as the fanciest hedge=
+ fund, but your universe of=C2=A0<em>private=C2=A0</em>investment opportuni=
+ties will be totally different from the options available to brand-name ven=
+ture capitalists and SoftBank. You will never see any of the deals they see=
+, and they will never see any of the deals you see. Probably the deals you =
+see will be worse! Because they have lots of money and sophistication, and =
+you have just enough money and sophistication to be accredited.</p><p style=
+=3D"margin: 16px 0;">If you run a company, you might want to be public. The=
+re are various advantages to that; the main one is that=C2=A0you can raise =
+money from absolutely anyone. Not so long ago, I was <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDUtMDMvc29mdGJhbmstaGFzLWEtYmlnZ2V=
+yLXdlaXJkZXItdmlzaW9u/607f07ceef4b8524a319a23cB400a7f52" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">fond</a> of <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDgtMDUvcHVibGljLW1hcmtldHMtZ=
+G9uLXQtbWF0dGVyLWxpa2UtdGhleS11c2VkLXRv/607f07ceef4b8524a319a23cB3210db3c" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">downplayin=
+g</a> this <a href=3D"https://link.mail.bloombergbusiness.com/click/2453701=
+3.255073/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMD=
+MtMjQvcHVibGljLW1hcmtldHMtYW5kLWhlZGdlLWZ1bmQtY2xvc2luZ3M/607f07ceef4b8524a=
+319a23cBdd2cdf97" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">advantage</a>: Private markets were absolutely awash in money, it w=
+as easy to raise billions of dollars from large institutional investors, an=
+d the main advantage of public markets =E2=80=94=C2=A0that they were where =
+all the money was =E2=80=94=C2=A0was diminished. The meme-stock rally has c=
+hanged my perspective. Now public companies can raise <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDMvYW1jLWhhcy1hLWJpdC1tb3JlLX=
+N0b2NrLXRvLXNlbGw/607f07ceef4b8524a319a23cBebfc2e7f" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">hundreds of millions of dollars<=
+/a> in a few hours at enormous valuations in at-the-market offerings to wil=
+dly enthusiastic retail investors, which you can=E2=80=99t=C2=A0do if you=
+=E2=80=99re private. That does seem like a big advantage to being public?</=
+p><p style=3D"margin: 16px 0;">Still,=C2=A0you might instead want to be pri=
+vate. There are various advantages to that. One is that you don=E2=80=99t h=
+ave to file lots of disclosure documents (with risk factors, descriptions o=
+f your business, audited financial statements, etc.) with the Securities an=
+d Exchange Commission. You save money on lawyers, you get to be a bit more =
+secretive, you get sued less, etc. Another advantage is that you get to con=
+trol your shareholder base. You can sell stock to investors you choose, and=
+ you can restrict their ability to resell it. If you don=E2=80=99t want act=
+ivists or corporate raiders or short-term-focused Wall Streeters or competi=
+tors or whoever to buy your stock, you don=E2=80=99t let them. You can=E2=
+=80=99t generally do that as a public company.</p><p style=3D"margin: 16px =
+0;">But is there a compromise? Like what about this?</p><ol style=3D"list-s=
+tyle-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"ma=
+rgin-bottom: 5px;">You are legally not a public company and don=E2=80=99t h=
+ave to comply with the SEC=E2=80=99s disclosure rules; but</li>=09<li style=
+=3D"margin-bottom: 5px;">You can sell stock to as many people as possible, =
+and those people can=C2=A0<em>resell=C2=A0</em>their stock to as many peopl=
+e as possible, on some sort of centralized exchange that can match up buyer=
+s and sellers efficiently rather than by word of mouth; but</li>=09<li styl=
+e=3D"margin-bottom: 5px;">If there are particular people who you don=E2=80=
+=99t want buying your stock, you can ban them.</li></ol><p style=3D"margin:=
+ 16px 0;">You could imagine a category like =E2=80=9Cas public as possible =
+without actually=C2=A0being public.=E2=80=9D Your stock trades electronical=
+ly on a centralized exchange, there are market makers and quoted prices, an=
+d anyone who wants to buy it can buy it=C2=A0<em>as long as they are accred=
+ited</em>,[7] which is a minority of Americans but now a fairly large minor=
+ity. (And an even larger minority of=C2=A0<em>people who buy stocks</em>.) =
+If you want to raise money, you can try to sell stock to all the dentists w=
+ho trade on the exchange, though realistically the more appealing option is=
+ probably to sell stock to big institutions but promise them liquidity in t=
+he form of being able to=C2=A0<em>resell=C2=A0</em>their stock to the denti=
+sts whenever they want.=C2=A0</p><p style=3D"margin: 16px 0;">The appeal fo=
+r companies=C2=A0is the broadest possible access to capital without being p=
+ublic: You can sell to venture funds and hedge funds and mutual funds and e=
+veryone else who invests privately, but also dentists. The appeal for insti=
+tutional investors is: You can buy stock in private companies and resell it=
+, to dentists or to other institutions, in a fairly liquid and transparent =
+market. The appeal for dentists is: You can buy stock in private companies =
+that have institutional investors, instead of private companies that only p=
+itch their stock to dentists.</p><p style=3D"margin: 16px 0;">There are als=
+o obvious benefits for intermediaries. The appeal for the private-company e=
+xchange=C2=A0is of course that you can charge higher fees to investors than=
+ a public exchange would. The appeal for brokers =E2=80=94=C2=A0the investm=
+ent banks and broker-dealers=C2=A0who would ordinarily be matching buyers a=
+nd sellers of private-company stocks =E2=80=94=C2=A0is that their job is a =
+lot less labor-intensive if people are just putting in orders to buy or sel=
+l private stock on an exchange.</p><p style=3D"margin: 16px 0;"><a href=3D"=
+https://link.mail.bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d=
+3cuaW5zdGl0dXRpb25hbGludmVzdG9yLmNvbS9hcnRpY2xlL2Ixc3N3eGR3cDBkOGx2L01vdmUt=
+T3Zlci1Qcml2YXRlLUVxdWl0eS1UcmFkaW5nLVBsYXRmb3Jtcy1BcmUtSGVscGluZy1JbnZlc3R=
+vcnMtVGFwLVByZS1JUE8tQ29tcGFuaWVz/607f07ceef4b8524a319a23cBb14b3cba" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">Anyway</a>:</p><=
+blockquote><p style=3D"margin: 16px 0;">In the past year, a spate of compan=
+ies have launched private trading platforms to keep up with market demand f=
+or access to assets that are not publicly traded, including those that have=
+n=E2=80=99t yet been tapped by a private equity or venture firm.</p><p styl=
+e=3D"margin: 16px 0;">Most recently, Nasdaq, SVB Financial, Citi, Goldman S=
+achs, and Morgan Stanley on Tuesday announced a joint venture to build a se=
+condary trading platform for institutional investors. =C2=A0=C2=A0</p><p st=
+yle=3D"margin: 16px 0;">The platform will allow investors to access and exe=
+cute private company stock transactions using technology. According to the =
+announcement, this will increase transparency for investors. =C2=A0</p><p s=
+tyle=3D"margin: 16px 0;">=E2=80=9CThe one thing that I think we can all agr=
+ee to at this point is that the secondary markets are not a moment in time =
+need,=E2=80=9D Eric Folkemer, president of Nasdaq Private Market, told Inst=
+itutional Investor. =E2=80=9CMany of the stakeholders or employees expect i=
+t to a degree, especially as companies are staying private longer.=E2=80=9D=
+ ...</p><p style=3D"margin: 16px 0;">Nasdaq Private Market isn=E2=80=99t th=
+e only firm entering the industry, though. CartaX, for instance, launched i=
+ts business earlier this year, pitching liquidity for private company share=
+holders and access to these assets for institutional investors.=C2=A0</p><p=
+ style=3D"margin: 16px 0;">Meanwhile, InvestX, a private equity marketplace=
+ for broker-dealers that has been operating since 2014, launched GEM, its t=
+rading platform, in February. =C2=A0</p><p style=3D"margin: 16px 0;">=E2=80=
+=9CI did a lot of research on private markets, and I saw a growing market, =
+one that was pistol hot,=E2=80=9D said Brian Schaeffer, managing director a=
+t the firm, by phone. =E2=80=9CDemand was so great that you could see that =
+the SEC would have to pay attention.=E2=80=9D =E2=80=A6</p><p style=3D"marg=
+in: 16px 0;">=E2=80=9CThe SEC is going to look at this and look at it very =
+hard,=E2=80=9D Schaeffer said. For one, he added, the regulatory body is lo=
+oking to redefine what an accredited investor should look like, which could=
+ change the clientele of these platforms. =C2=A0</p></blockquote><p style=
+=3D"margin: 16px 0;">The pitches here seem to be mostly about liquidity for=
+ employees and trading opportunities for institutions; nobody has quite com=
+e out with a =E2=80=9Cbe as public as possible without being public=E2=80=
+=9D pitch to companies, or for that matter made a big push to sign up every=
+ dentist in America to their private-company exchange.</p><p style=3D"margi=
+n: 16px 0;">To be fair, my tag line here =E2=80=94=C2=A0=E2=80=9Cprivate ma=
+rkets are the new public markets=E2=80=9D =E2=80=94=C2=A0was=C2=A0<em>more=
+=C2=A0</em>true a few years ago; public markets have had a bit of a resurge=
+nce recently as a lot of the big crop of recent unicorns have gone public, =
+SoftBank=E2=80=99s money has lost some of its allure, and the meme-stock cr=
+aze has made companies appreciate the benefits of being public. It is not c=
+lear that many companies would actually want this combination of being tech=
+nically private while having maximum access to investors, or that many dent=
+ists would actually want to sign up for this platform instead of just tradi=
+ng public stocks on Robinhood. Still I kind of want someone to try.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iLp_LAZeAHVk/v=
+0/-1x-1.jpg" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/iLp_LAZeAHVk/v0/-1x-1.jpg" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;">For over 20 years, Selective Search Matchmak=
+ers have protected our clients=E2=80=99 time, privacy and preferences in th=
+eir search for love. Customized searches that employ proven executive searc=
+h methodologies have resulted in love for thousands of couples.</p>
+<p style=3D"margin: 10px 0px;"><a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24537013.255073/aHR0cHM6Ly93d3cuc2VsZWN0aXZlc2VhcmNoLmNvbS9ibG=
+9vbWJlcmc_dXRtX3NvdXJjZT1ibG9vbWJlcmcmdXRtX21lZGl1bT1wcmludCZ1dG1fY2FtcGFpZ=
+249bWVubm93JnV0bV9jb250ZW50PXB1cnN1aXRz/607f07ceef4b8524a319a23cBfbb2de85" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: underline;"><strong>Get started with a comp=
+limentary consultation.</strong></a></p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Selective Search=
+ LLC.</p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Business coaching</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I enjoyed <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cudGhlaW5mb3JtYX=
+Rpb24uY29tL2FydGljbGVzL3RoZS1jb2FjaC1iZWhpbmQtdGhlLWNvaW5iYXNlLWFuZC1yb2Jpb=
+mhvb2QtY2Vvcw/607f07ceef4b8524a319a23cBbae57f25" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">this profile</a> by Kate Clark of Ma=
+tt Mochary, a =E2=80=9Cleadership consultant and former startup founder=E2=
+=80=9D who coaches founders and chief executive officers:</p><blockquote><p=
+ style=3D"margin: 16px 0;">Mochary, 52, guides the founders using tactical =
+business lessons gleaned from his career as a founder and private equity in=
+vestor, such as how to negotiate compensation with their boards. These he b=
+lends with spiritual practices, such as meditation for stress release and =
+=E2=80=9Cenergy audits=E2=80=9D to help founders realize what tasks sap the=
+m of energy. Those tasks must be delegated, he says.</p><p style=3D"margin:=
+ 16px 0;">By taking his advice, executives can find their =C2=A0=E2=80=9Czo=
+ne of genius,=E2=80=9D and learn how to run a company well, he said in a Zo=
+om interview from his home in Kauai, Hawaii.</p></blockquote><p style=3D"ma=
+rgin: 16px 0;">It is pleasingly specific:</p><blockquote><p style=3D"margin=
+: 16px 0;">What he offers is the =E2=80=9CMochary Method,=E2=80=9D which in=
+cludes the belief that CEOs should focus only on the tasks that bring them =
+energy and that they love. =E2=80=9C[I] teach founders how to create deep r=
+elationships, how to create trust,=E2=80=9D Mochary said. ...</p><p style=
+=3D"margin: 16px 0;">Mochary, who wouldn=E2=80=99t go into the specific dis=
+cussions he has had with clients, often dives deep into emotional discussio=
+ns around fear, anger and shame, say CEOs who have worked with him. He also=
+ gives practical suggestions on handling employees and managing meetings, s=
+uch as requiring biweekly written feedback between managers and their subor=
+dinates. And he has advised founders on how much stock it is appropriate to=
+ sell on the secondary market (Mochary recommends selling between $10 milli=
+on and $100 million in order to achieve a =E2=80=9Csense of abundance=E2=80=
+=9D).</p></blockquote><p style=3D"margin: 16px 0;">What do you make of the =
+combination of =E2=80=9Cfocus only on the tasks that bring them energy and =
+that they love=E2=80=9D with =E2=80=9Crequiring biweekly written feedback b=
+etween managers and their subordinates=E2=80=9D? Does that mean:</p><ol sty=
+le=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li=
+ style=3D"margin-bottom: 5px;">Many successful CEOs=C2=A0love giving and re=
+ceiving biweekly written feedback, or</li>=09<li style=3D"margin-bottom: 5p=
+x;">CEOs can focus on doing what they love <em>because</em> they can make t=
+heir subordinates do stuff they hate?</li></ol><p style=3D"margin: 16px 0;"=
+>I can kind of see both possibilities? For me personally, nothing brings me=
+ less energy than giving or receiving frequent written feedback, but then I=
+ have never started a company. Also I am on Twitter all day so revealed pre=
+ferences I guess.</p><p style=3D"margin: 16px 0;">Also here is an amazing c=
+oaching move:</p><blockquote><p style=3D"margin: 16px 0;">In some more extr=
+eme cases, Mochary has replaced the CEO entirely for a short period of time=
+. In 2017, long before financial software startup Bolt garnered a valuation=
+ of $4 billion, Mochary stepped in full time as CEO for over a month. The e=
+xperience led to a complete =E2=80=9Cculture reset,=E2=80=9D said co-founde=
+r and CEO Ryan Breslow.</p><p style=3D"margin: 16px 0;">The immersive metho=
+d helped Breslow, only 23 at the time, learn what qualities are critical to=
+ being a good leader, he said. =E2=80=A6 =E2=80=9CIt could take an entire y=
+ear for me to tell you what to do as CEO or I could come in and be CEO for =
+a few weeks,=E2=80=9D Breslow recalled Mochary saying. =E2=80=9CYou can wat=
+ch me and [you=E2=80=99ll] learn 10 times faster.=E2=80=9D</p></blockquote>=
+<p style=3D"margin: 16px 0;">What if he didn=E2=80=99t let the guy come bac=
+k? =E2=80=9CIt=E2=80=99s my company now, I=E2=80=99m sorry, this is going t=
+o be a valuable learning experience for you at your next startup, bye.=E2=
+=80=9D This is a good plot for a business novel.</p><p style=3D"margin: 16p=
+x 0;">The obvious question for services like this is: How do you charge? Th=
+ere is a ton of potential leverage here; startups have highly variable outc=
+omes, CEO performance is crucial to those outcomes, and making a CEO slight=
+ly better=C2=A0can potentially be worth hundreds of millions of dollars. An=
+d so traditionally startup founders get coaching from their venture capital=
+ists, whose compensation comes in the form of owning shares (that they boug=
+ht) in the company: If their advice and mentorship makes a founder better, =
+then their shares will be worth a lot more. (Also if they develop a reputat=
+ion for making founders better, they will get offered more and better deals=
+.)</p><p style=3D"margin: 16px 0;">If you unbundle coaching from capital, t=
+hough, how should the coach charge? The obvious answer would be =E2=80=9Cst=
+ock options=E2=80=9D[8] but that seems to be mostly wrong:</p><blockquote><=
+p style=3D"margin: 16px 0;">Top coaches in the business today charge betwee=
+n $5,000 and $10,000 per month, according to people familiar with the indus=
+try. Mochary charges $12,500 a month for sessions, which he holds on Zoom o=
+n a monthly basis, if not more often.</p><p style=3D"margin: 16px 0;">Until=
+ this year, Mochary would counsel executives at no charge, a choice he said=
+ he could make because the 2005 sale of his startup Totality had made him w=
+ealthy. The pro bono move bothered some other coaches, according to one who=
+ asked not to be named. Mochary would sometimes ask executives to instead d=
+onate equity to his foundation, or he would invest in their startup.</p></b=
+lockquote><p style=3D"margin: 16px 0;">=E2=80=9CHe would invest in their st=
+artup=E2=80=9D seems reasonable. =E2=80=9CA flat monthly fee=E2=80=9D is, y=
+ou know, fine, but one worries about the alignment of incentives. =E2=80=9C=
+Free, I just love startups=E2=80=9D is sort of the deep Silicon Valley answ=
+er: You do stuff to make the startup ecosystem better, which raises your st=
+atus in that ecosystem, which will eventually turn out to make you rich eve=
+n if the causal mechanism is initially unclear.[9] (It helps to be rich to =
+begin with.)</p><table class=3D"header" width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Derivative markets</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Let=E2=80=99s say that you like the st=
+ock of AMC Entertainment Holdings Inc. and you want to buy, say, $1,000 wor=
+th of it. Let=E2=80=99s say you don=E2=80=99t have $1,000. How can you buy =
+the stock anyway? A classic answer is =E2=80=9Ca margin loan=E2=80=9D: You =
+go to your broker, put in $500, your broker lends you $500, and you buy $1,=
+000 worth of stock. When you sell it, you have to pay your broker back, and=
+ you have to pay interest, but if it goes up you get basically all of the u=
+pside.</p><p style=3D"margin: 16px 0;">What if you don=E2=80=99t have $500?=
+ You might look into options. A call option to buy 100 shares of AMC stock =
+(about $3,600 worth) for $60 a share next month currently goes for about $2=
+00.[10] If you buy that and AMC doubles to $72 next month, you will make $1=
+,000.[11] That=E2=80=99s roughly what you would have made buying $1,000 wor=
+th of stock. Of course if it goes up less you=E2=80=99ll make less; if it g=
+oes up 50% you=E2=80=99ll make nothing and lose your $200. This is not a pe=
+rfect substitute for buying the stock. But it=E2=80=99s something. It=E2=80=
+=99s a leveraged bet on the stock, a way to spend a relatively small amount=
+ of money to bet on a huge rally in AMC stock.</p><p style=3D"margin: 16px =
+0;">What if you don=E2=80=99t have $200? What if you have, say, zero dollar=
+s? Will anyone provide you with leverage where you put up nothing, they put=
+ up the money, you buy the AMC stock, if it goes up you collect the profits=
+, and you never pay them back? When you put it like that the answer is no, =
+obviously not, but it=E2=80=99s worth a try?</p><p style=3D"margin: 16px 0;=
+">Here is <a href=3D"https://link.mail.bloombergbusiness.com/click/24537013=
+.255073/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjM=
+vYW1jLXN0b2NrLWN1bHQtdHJpZXMtdG8tcmFpc2UtY2FwaXRhbC1pbi1kZWNpZGVkbHktYXBpc2=
+gtZmFzaGlvbg/607f07ceef4b8524a319a23cB85dee814" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> an article from Bloomberg=E2=80=99s =
+Michael Regan</a>=C2=A0about GoFundMe as a platform for financing AMC inves=
+tments:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CHello fellow A=
+pes!=E2=80=9D reads one pitch from a trader who=E2=80=99s so far only been =
+able to buy a partial share. =E2=80=9CI am here asking for help of any amou=
+nt to buy AMC stonk! I work at my sad minimum wage job aka McDonald=E2=80=
+=99s and barely have one share of AMC. Money is tight, I survive off $1 men=
+u and eat ramen. Hopefully I will have 1 share soon!=E2=80=9D =E2=80=A6</p>=
+<p style=3D"margin: 16px 0;">Many simply implore potential donors to contri=
+bute to traders who want to buy and hold more AMC shares so they can worsen=
+ a short-squeeze among hedge funds betting against the stock. Details are s=
+cant on why exactly that would be a better strategy than the donors simply =
+buying the shares themselves.</p></blockquote><p style=3D"margin: 16px 0;">=
+No, I=E2=80=99m kidding. While the GoFundMe pitches for, uh =E2=80=A6=C2=A0=
+margin donations? =E2=80=A6=C2=A0are the most=C2=A0<em>financially=C2=A0</e=
+m>interesting ones =E2=80=94=C2=A0imagine starting a hedge fund funded by d=
+onations! =E2=80=94=C2=A0most of the pitches are actually to fund airplane =
+banners:</p><blockquote><p style=3D"margin: 16px 0;">Airborne messages pump=
+ing shares of AMC Entertainment Holdings Inc. -- similar to the banner plan=
+es that alert parched Jersey Shore tourists to where they can find a $2 Cor=
+ona Light -- have become a top tool of choice for the retail army that is m=
+arching in formation for this cult stock. Pilots don=E2=80=99t come cheap, =
+so the self-described =E2=80=9Capes=E2=80=9D of the AMC message boards are =
+looking for handouts to help the effort: $4,250 for a flight over Canada; $=
+550 to hoist =E2=80=9CAMC TO THE MOON HODL=E2=80=9D above North Carolina; $=
+3,000 to fly a similar message above Wall Street; 5,000 pounds so that the =
+British Parliament gets the word. And so on.</p></blockquote><p style=3D"ma=
+rgin: 16px 0;">One thing that I have said about the meme-stock craze is tha=
+t retail traders on Reddit have rapidly developed a very sophisticated coll=
+ective understanding of=C2=A0<em>how to move stock prices</em>. There is a =
+lot of crowdsourced knowledge about how to get the most bang for your buck,=
+ how to leverage a relatively small investment of your own money <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMjUvdGhlLWdhbWUtbmV=
+2ZXItc3RvcHM/607f07ceef4b8524a319a23cB108dd3c5" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> into large purchases</a> by options =
+market makers and squeezed short sellers to push the stock up. (Some of the=
+ meme-stock issuers, particularly AMC, have also learned to play this game,=
+ to <a href=3D"https://link.mail.bloombergbusiness.com/click/24537013.25507=
+3/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDIvY=
+W1jLWJyaW5ncy1vdXQtdGhlLXBvcGNvcm4/607f07ceef4b8524a319a23cBbafda621" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> do publicity s=
+tunts</a> that move their stock prices up and allow them to raise cash.) Fr=
+om where I sit, spending a few thousand dollars to fly banners saying =E2=
+=80=9CAMC TO THE MOON HODL=E2=80=9D=C2=A0over random beaches does=C2=A0<em>=
+not=C2=A0</em>seem like a particularly cost-effective way to boost your por=
+tfolio; I would not expect that to drive the stock price up very much. But =
+I am willing to believe that the AMC apes might have a better handle on thi=
+s stuff than I do.</p><p style=3D"margin: 16px 0;">Also though the point of=
+ investing in meme stocks is not=C2=A0<em>just=C2=A0</em>to make money, it =
+is also to have fun and feel like part of a cultural phenomenon. I suppose =
+the banners help with that.=C2=A0Also <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cuZ29mdW5kbWUuY29tL2YvYnJ=
+pYW4tbWVybGktYmlsbGJvYXJkLXRvLXBheS1oaXMtZGVidC1kb2dnaWU_cWlkPTg0Zjg3NDVjYj=
+VlOTRjMTU3N2JlODY3MDg0MmE3ZmFh/607f07ceef4b8524a319a23cBf46ab0e6" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">here=E2=80=99s thi=
+s</a>:</p><blockquote><p style=3D"margin: 16px 0;">Brian Merli made a comme=
+nt stating - "when amc hot $30 I'll eat a dog turd"=C2=A0</p><p style=3D"ma=
+rgin: 16px 0;">Since then Brian has not came through with his promise. Apes=
+ you know what to do! Let's spread Brian's photo and quote on billboards al=
+l over St. Louis, Missouri! 5k is the target price but we are apes! Let's s=
+pread Brian's face across the country! Buy more AMC!</p></blockquote><p sty=
+le=3D"margin: 16px 0;">I don=E2=80=99t see how that would help the stock pr=
+ice. It has raised $315. I dunno.</p><table class=3D"header" width=3D"100%"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">JPMorgan to <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjIvanBtb3JnYW4tdG8tZG91YmxlLWFkdmlzZXJ=
+zLWFzLXdhbGwtc3RyZWV0LXZpZXMtZm9yLXdlYWx0aHk/607f07ceef4b8524a319a23cBf938f=
+b59" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Doub=
+le Advisers</a> as Wall Street Vies for Wealthy. Fed Seen Speeding <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24537013.255073/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjMvZmVkLXNlZW4tc3Bl=
+ZWRpbmctdGFwZXItb2YtbWJzLWluLWVhcmx5LTIwMjItc3RhcnQtdG8tcHVsbGJhY2s/607f07c=
+eef4b8524a319a23cB6324532e" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Taper of MBS</a> in Early-2022 Start to Pullback. New <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/24537013.255073/aHR0=
+cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9uZXctYWlkLXBsYW5uZWQtZm9yLW1vcnRnYWdlLWJ=
+vcnJvd2Vycy1hdC1yaXNrLW9mLWZvcmVjbG9zdXJlLTExNjI3MDMyNjAxP21vZD1ocF9sZWFkX3=
+BvczE/607f07ceef4b8524a319a23cBec23db02" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Aid Planned</a> for Mortgage Borrowers at =
+Risk of Foreclosure. Banks <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24537013.255073/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbG=
+VzLzIwMjEtMDctMjMvYmFua3MtcmV0aGluay1ldmVyZ3JhbmRlLW1vcnRnYWdlLWhhbHQtYWZ0Z=
+XItcXVlcmllcy1mcm9tLWhrbWE/607f07ceef4b8524a319a23cBc31b0ce0" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> Rethink Evergrande Mor=
+tgage Halt</a> After Queries From HKMA. The Tyranny of <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly90aW1oYXJmb3=
+JkLmNvbS8yMDIxLzA3L3RoZS10eXJhbm55LW9mLXNwcmVhZHNoZWV0cy8/607f07ceef4b8524a=
+319a23cBd826b2bf" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">Spreadsheets</a>. =E2=80=98I Feel Conflicted=E2=80=99: Crypto=E2=80=
+=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/24537013.2550=
+73/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNy8yMy9idXNpbmVzcy9kZWFsYm9vay9i=
+aW5hbmNlLUZUWC1jZW9zLmh0bWw/607f07ceef4b8524a319a23cBf4243fdb" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Offshore Trading Mogul=
+s</a> Talk Shop. The Case for Stablecoins Being the <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjMvdGhlLWNhc2UtZm9yLXN0YWJsZWNvaW5z=
+LWJlaW5nLXRoZS1uZXctc2hhZG93LWJhbmtz/607f07ceef4b8524a319a23cB71a7b7c6" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> New Shadow B=
+anks</a>. Croat Plan to <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/24537013.255073/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzL=
+zIwMjEtMDctMjMvY3JvYXRpYS1zLXBsYW4tdG8tcHV0LXRlc2xhLW9uLWV1cm8tY29pbnMtcmVp=
+Z25pdGVzLWJhbGthbi1mZXVk/607f07ceef4b8524a319a23cB9d26ba0c" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;"> Put Tesla on Euro Coins<=
+/a> Reignites Balkan Feud. =E2=80=9CDavid Johnston <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cuY2FwaXRhbG=
+RhaWx5LmNhL25ld3MvcGVubmlsZXNzLXR3by1kZWNhZGVzLXdpdGhvdXQtbW9uZXk/607f07cee=
+f4b8524a319a23cB36e19549" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">won=E2=80=99t touch money</a>, except to destroy it.=E2=80=
+=9D Bear goes wild in Olympic stadium, is <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/24537013.255073/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjEvMDc=
+vMjIvYmVhci1nb2VzLXdpbGQtaW4tb2x5bXBpYy1zdGFkaXVtLXN0aWxsLW9uLXRoZS1sb29zZQ=
+/607f07ceef4b8524a319a23cBd0c660e9" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">still on the loose</a>. =E2=80=9CYou have to trus=
+t us. You have to. <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/24537013.255073/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjEvMDcvMjIvZnlyZS1mZXN0aXZhbC=
+1vZi1vdmVybmlnaHQtY2FtcHMtY2xvc2VkLWFmdGVyLTYtZGF5cy8/607f07ceef4b8524a319a=
+23cB5b7e0998" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">We are not joking and we are not having fun</a>. So many things are wro=
+ng with this place.=E2=80=9D</p><p style=3D"margin: 16px 0;"><span class=3D=
+"news-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=
+=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24537013.255073/aHR0cDovL=
+2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdu=
+dXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319=
+a23cBe422b14a" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">subscribe at this link</=
+a>. Or you can subscribe to Money Stuff and other great Bloomberg newslette=
+rs <a href=3D"https://link.mail.bloombergbusiness.com/click/24537013.255073=
+/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a=
+23cBf06d77d7" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] W=
+e <a href=3D"https://link.mail.bloombergbusiness.com/click/24537013.255073/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjMvdGV=
+zbGEtcml2YWwtbHVjaWQtbW90b3JzLXBhaWQtYS1wcmljZS1mb3ItaXRzLXNwYWMtZGVhbA/607=
+f07ceef4b8524a319a23cBf4f0c513" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> discussed it a few months ago</a>, and I pointed out=
+ that investors didn=E2=80=99t like the deal (when it was announced) as muc=
+h as they had hoped to (before it was announced), but that is water under t=
+he bridge. They like it a lot more than they like $10, is the point.</em></=
+p><p style=3D"margin: 16px 0;"><em>[2] Obviously if they think that Lucid i=
+s wildly overvalued and the stock is =E2=80=9Creally=E2=80=9D only worth $5=
+, they should sell the stock now, to someone who thinks it=E2=80=99s worth =
+more, for $22.90. There is no scenario where it is rational to hope the dea=
+l fails and then take your $10 back. This is a liquid stock trading in publ=
+ic markets; you can turn it into cash.=C2=A0Just take the $22.90 now.=C2=A0=
+</em></p><p style=3D"margin: 16px 0;"><em>[3] I don=E2=80=99t know why you=
+=E2=80=99d vote no. Confusion or peevishness, I dunno. Or you sold the stoc=
+k after the record date and want to be annoying.</em></p><p style=3D"margin=
+: 16px 0;"><em>[4] Technically the merger required only a majority of the v=
+otes cast (assuming there was a quorum), but another proposal =E2=80=94=C2=
+=A0to amend Churchill=E2=80=99s corporate charter to stop being a SPAC and =
+to allow the issuance of shares in the transaction =E2=80=94=C2=A0was a pre=
+requisite to doing the merger and required a majority of the shares outstan=
+ding. See <a href=3D"https://link.mail.bloombergbusiness.com/click/24537013=
+.255073/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4MTEyMTAvMDA=
+wMTEwNDY1OTIxMDg1Mzg0L3RtMjE5MzU5LTEyXzQyNGIzLmh0bQ/607f07ceef4b8524a319a23=
+cC41df8de0" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">pages 14 and 176</a>=C2=A0of the proxy statement.=C2=A0</em></p><p style=
+=3D"margin: 16px 0;"><em>[5] Bloomberg=E2=80=99s HDS list, of shareholders =
+big or institutional enough to disclose their holdings, covers 13.17% of th=
+e shares outstanding. At Apple Inc. that number is 60.84%. At Tesla Inc. it=
+ is 65.22%. At JPMorgan Chase &amp; Co. it=E2=80=99s 75.82%.</em></p><p sty=
+le=3D"margin: 16px 0;"><em>[6] To be clear, <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3cuaW52ZXN0b3IuZ292L=
+2ludHJvZHVjdGlvbi1pbnZlc3RpbmcvaW52ZXN0aW5nLWJhc2ljcy9nbG9zc2FyeS9ydWxlLTUw=
+Ni1yZWd1bGF0aW9uLWQ/607f07ceef4b8524a319a23cB152974dd" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">the rules</a> are <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/24537013.255073/aHR0cHM6Ly93d3=
+cuaW52ZXN0b3IuZ292L2ludHJvZHVjdGlvbi1pbnZlc3RpbmcvaW52ZXN0aW5nLWJhc2ljcy9nb=
+G9zc2FyeS9yZWd1bGF0aW9uLWQtb2ZmZXJpbmdz/607f07ceef4b8524a319a23cB0c1210d3" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">more compl=
+icated</a>, and people who are not accredited investors=C2=A0can definitely=
+ buy private stocks in various contexts. But there are limits on that, wher=
+eas basically anyone who=E2=80=99s accredited=C2=A0can buy private stocks.=
+=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[7] Or: Anyone who is accre=
+dited and wants to buy it can buy it, except for a list of excluded names t=
+hat you provide to the exchange. If you=E2=80=99re not a public company, th=
+ere=E2=80=99s no rule that everyone has to have equal access.</em></p><p st=
+yle=3D"margin: 16px 0;"><em>[8] Or=C2=A0a percentage of the CEO=E2=80=99s o=
+wn compensation, like a talent agent.</em></p><p style=3D"margin: 16px 0;">=
+<em>[9] This <a href=3D"https://link.mail.bloombergbusiness.com/click/24537=
+013.255073/aHR0cHM6Ly9hbGV4ZGFuY28uY29tLzIwMjEvMDEvMTEvd2h5LXRoZS1jYW5hZGlh=
+bi10ZWNoLXNjZW5lLWRvZXNudC13b3JrLw/607f07ceef4b8524a319a23cB2aa1f536" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">post from Alex =
+Danco</a> contrasting the Silicon Valley and Canadian tech scenes informs m=
+y thinking on this point. He writes: =E2=80=9CGood Angels are playing an in=
+finite game. They are contributing to a community; not in order to win some=
+thing definite, but to earn the right to keep participating in the scene. T=
+hey play the infinite game of growing their status within a growing communi=
+ty, which is a very good thing. And they often make a ton of money, leading=
+ to the perplexing advice for outsiders: =E2=80=98the way to make money ang=
+el investing is to not set out trying to make money.=E2=80=99=E2=80=9D</em>=
+</p><p style=3D"margin: 16px 0;"><em>[10] That is, a bit after 10 a.m. toda=
+y, I see the $60 strike 20-Aug-21 call last traded at $1.99 on Bloomberg=E2=
+=80=99s OMON screen, with the stock in the high $35s. Options generally tra=
+de in contracts on 100 shares.</em></p><p style=3D"margin: 16px 0;"><em>[11=
+] I mean, you=E2=80=99ll pay $6,000 to exercise the option on 100 shares an=
+d sell them for $7,200, making $1,200, or $1,000 after deducting your $200 =
+premium.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24537013.255073/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBd5cbf402" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24537013.255073/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB0528037a" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24537013.255073/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBcbab8005" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24537013.255073/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBe8f3bace" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2453701=
+3.255073/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBb33281c0" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24537013.255073/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCef1bfbbc" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24537013.255073/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBb33bafa9" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24537013.255073/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB9ff91087" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23celwvp.5gtd/fb315174.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_13431240_1976592079.1627059597718--
+

@@ -1,0 +1,1677 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:60d:b029:116:5c91:524e with SMTP id gq13csp5763697lkb;
+        Wed, 28 Jul 2021 09:32:32 -0700 (PDT)
+X-Received: by 2002:aa7:c588:: with SMTP id g8mr819404edq.33.1627489952717;
+        Wed, 28 Jul 2021 09:32:32 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1627489952; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=AuXxj9gzuSCL/skBXTuDABvxw02zJ7Na7Ox7d2npRDywsH5reP3lJyLzBBnKprNAG0
+         VomJPV7YOblkdyRFgtezbs61mCOIw3sFeHDX2Thj+ZCbajTN8pBWHft+cIIJ8w/5HIt+
+         M3ZDSpbsB61HBHgTekEDs8RfZc2TQFU3+DMxCrzLByvFcvs5qUpACeEvQ/ePuOGLhifH
+         Rm8H5U1wD2iowSvq/dE7gDz184IpHHt7hELcrFm3rtYaIZRaF7QegCWBhmCPTmkL4XkG
+         imwcjHOMLVtxSizurmuYqQ4NTFJAmBp6XvYtgmrzZuiTP8PplgMznzziFNm7Ikq3Jljs
+         fL3w==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=dinHJSLx8pm/+J6VUyJZZ8yg11qVN6DLPLofh4xj01E=;
+        b=j/a9pXciYYh8khbYUl9aY1yEgdUzEceBxsO8GrsYjh0SeIOR100dHfgZsFiV0qjY6M
+         ZsV4K2Lr2VfMu5K7rjekY8g+SjDGkwNmvQUwxBUrOpcckMq6kLIAsfM/KI7Q1KXPzD8A
+         pd+LZR717nKkvI0MtJJnMtw41fviX6k405ZgiQsCu8SsvLO8fxeEFzA3w11oEkcOseAh
+         jlE9fxSeEE2O2tWx3qr5xIjNb2goGGPbaEMDh/lM2O4RaATzGwX5utI0vZnBuwcq/m9E
+         UrhQg5q+DhzlEnoIqtdp0Rqdd2SjUL0+KHRsYyem9m4G1ba4ngFt/jU/DVuWP8SuWSSM
+         vwMg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=m1ouZ0lm;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id hp31sor251454ejc.13.2021.07.28.09.32.32
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 28 Jul 2021 09:32:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=m1ouZ0lm;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=dinHJSLx8pm/+J6VUyJZZ8yg11qVN6DLPLofh4xj01E=;
+        b=AcNZ7BC2xWS0lEayPv+LLlACU/UrmG8tp/wweSnv6bX+Nvv400gOS3aG53H4pk+384
+         KGGEcqbPwNUHL0SvXtAo/D4lPzNfMbImVF7hVeC/h3+jkbMhHAu7msuofS6AUW1VrsWC
+         ifgv4Sir062cLuC2GcWUN3tbYNNRq6xEdqtx09wFoM07ZSW9tpgZC3wlLjPl3sg/Hak9
+         p48fmzefy3gepAi3MfaBq4X7oTOB6cTbBW0175R6PuJQW6WGqYYq2e0UcGrDXBzxbipo
+         itFU3pPYAbKyFPSLM5rmZPHwOXAIZtRWcopBTSe0jOdtbeeQHbEN+gsMXX3aT3tbArhV
+         oxtw==
+X-Gm-Message-State: AOAM532uG6aZpryKItRMvFuT4pBV21lgoX0dU85kJn8Iu9zqm2E0/EER
+	GB00xnIkZbUD9N00e24GokpCF8lpKcYINbuWM80xiFFYLvepQpZZ3w==
+X-Received: by 2002:a17:906:86c4:: with SMTP id j4mr295780ejy.431.1627489952396;
+        Wed, 28 Jul 2021 09:32:32 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:ab4:9b88:0:0:0:0:0 with SMTP id h8csp3993999ecz;
+        Wed, 28 Jul 2021 09:32:30 -0700 (PDT)
+X-Received: by 2002:a9d:6851:: with SMTP id c17mr643547oto.89.1627489949823;
+        Wed, 28 Jul 2021 09:32:29 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1627489949; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=cptH+9f2zXrZ7CtASIqGQ2gzcnCD8qrTmiZpnUgrh7VgqG8zdpsvoLTSkv5nKoV6Vs
+         uIWLfcyGnrw3dPYNEcbXj6zdX3sEy4BtmIiVmwIWJ47tCSMQ3FMrtbQaeMZFhcze4OWo
+         KshhRkJspfCjrVO+D4KQKlg4eCbqu3BGF/uAsA8CEXpxMoiknzAQlLLF1QYem+IXubGs
+         jpveveYveVkjMsevzkkPjzkTFSscUyGDxkt1w1E8DssKCUwUN3Hz3Zasb4DR9upUuY/3
+         b/SBpp8SVz2+vQj8q6/YyULYZ+PVytV9pqwGqMmQZSxQftotj0fvzD+f42TYTyvDyhW3
+         rhjQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=dinHJSLx8pm/+J6VUyJZZ8yg11qVN6DLPLofh4xj01E=;
+        b=hmd2BvUzowX9U1E2q8h1XiR33oKc/XIOJJStkxouiQFTk+2bO/hyYnAH3P3+pdyrt7
+         19VFubSkfWXahh7Bl1obl68mj5KWFS3TF0qrDxFap3LwDkPnLaFLezt523UrJDoClcye
+         3d+ULe6BpMMo3JX7TKJAyJyDYUdYtDOGo1X4D/XmPG1SFt85ogEsfHsCX4sKxV7dY5k7
+         AncOd7Oxt9QH4fXIPFfKRpO/Mbh0c56r/FpKgLPnOrGj5L4jGNOFU57cmGlGXyUiX5hw
+         sFR7dAqp9Q7Nx21Xh6cZswm9GFfzUJr8tJXLi63WGttoGb7gh1C8u6vJlceQgwMwgulo
+         qI1w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=m1ouZ0lm;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210728123110.24580483.273146@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210728123110.24580483.273146@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210728123110.24580483.273146@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id e10sor81418oth.45.2021.07.28.09.32.29
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 28 Jul 2021 09:32:29 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210728123110.24580483.273146@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxZTFsgE2V5mRK+4S+w25cmLTx8semaRiOfEcvyiwLINdOENmN2wt2hG6/9aiZ0quqC+zJ/ewzFGzDJYIANrVRVxAkrEHM=
+X-Received: by 2002:a9d:ba3:: with SMTP id 32mr657667oth.126.1627489949025;
+        Wed, 28 Jul 2021 09:32:29 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1627489949; cv=none;
+        d=google.com; s=arc-20160816;
+        b=IVP78uIhT+7YV/60OnGgZoNVrmkpfIeOttSXJPmuT0tLCPAtsqX/azf9OYQRAY7f3t
+         QFxcqSkWMEJ0RSUL3JCDCQsdAehX2ClpFwuD5HeVQA/I4cMcnqJLiKutu5U/Zz+5KsgY
+         fsbNsntNBvF9BUcXTLNdFyB1LbPEO2pRP8K8Cp5P0HT2OWtreCDXsCC7b5EEp3YRrGwe
+         6MXhwLs3NMikJNGmwlX91nf6wr6YIjvHxSJoS2JLVJ1SPX9Sx0WBls/avHit54vT0J9X
+         1lMBOBO4vlYfICsrtkanpHE+FKKaFh1eiJgR1FW1K2D0qCaETpNrS2bO6B6GHvW67Lvn
+         C1tA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=dinHJSLx8pm/+J6VUyJZZ8yg11qVN6DLPLofh4xj01E=;
+        b=EW08qqeTQmijauCSyNdFpobEuqBkcUjH/8jYaFDxoGoYdkbkrjVDV0gULn9xdF70cP
+         /X0tlCFafdSRK/zMMueWnv3eDvPZ6Qtp0QksOYTuhJ0buGjXZdsZZeWvlDfMnOA9B0rj
+         AVBVmv1N12hAeUQkPF7VvGEryJt62iWDco4av60miCzEgYxj+A0qGhNj+BD81r+J7mz+
+         LPy631mqTjo198uHPjTt0kBpZ7l6cdRMFFLcS7wH0QB8WeKxnhaLMzlOQu7A+i95Mvj2
+         JafzT1tTkjWDosQ1wRT3AZ/pto3exWBcY36e1CGty+YR2TQFISfCkoJKETlDRjla7rCy
+         y9yw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=m1ouZ0lm;
+       spf=pass (google.com: domain of delivery_20210728123110.24580483.273146@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210728123110.24580483.273146@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210728123110.24580483.273146@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id c20si28208ots.0.2021.07.28.09.32.28
+        for <khamel83@gmail.com>;
+        Wed, 28 Jul 2021 09:32:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210728123110.24580483.273146@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=VLsGhI+fkKNjDPUBEGoUna29Cak=;
+ b=m1ouZ0lmS2EmuuooUDGrFWnRUSKRmSIBTNO1tAoMPH4TmYfSqLnOoPzxQWbALkWfI0YtTX5HkDLE
+   UO6xhjG2lQOKtUJp/gEsTt5OT81zAh8FksFiMnTjh/XCOUctb0+GhoTDJlwmGG8mUYYXF9wJsUtV
+   gTMxbL8CA/BdNJNfGAs=
+Received: from nj2mta-17.sailthru.com (204.153.121.17) by bloomberg-b.sailthru.com id h0639o1qqbsj for <bloomberg@khamel.com>; Wed, 28 Jul 2021 12:32:28 -0400 (envelope-from <delivery_20210728123110.24580483.273146@mx.sailthru.com>)
+Date: Wed, 28 Jul 2021 12:31:10 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210728123110.24580483.273146@sailthru.com>
+Subject: Money Stuff: Robinhood Users Get to Own Robinhood
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_66659980_875616770.1627489870553"
+Precedence: bulk
+X-Feedback-ID: 6358:24580483:campaign:sailthru
+X-TM-ID: 20210728123110.24580483.273146
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-hotheart.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cemuf7.5ure/a3bbb787
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cemuf7.5ure/a3bbb787>, <mailto:unsubscribe_20210728123110.24580483.273146@mx.sailthru.com>
+X-rpcampaign: stjko24580483
+
+------=_Part_66659980_875616770.1627489870553
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Robinhood retail
+   =20
+ =20
+The basic way an initial public offering works is:=09A company hires banks =
+to market its stock to big institutional investors and build a book of dema=
+nd from those investors.=09After reviewing the order book, the company and =
+the banks price and allocate the stock one evening, selling it to those ins=
+titutional investors at the market-clearing price that they=E2=80=99re will=
+ing to pay.=09The next day, the stock opens for trading on the stock exchan=
+ge, and ordinary retail investors get to buy it. They don=E2=80=99t care wh=
+at price they pay. So=C2=A0some of the institutional investors who bought t=
+he stock=C2=A0in Step 2 flip it to retail investors on Robinhood for a quic=
+k profit.=C2=A0In Step 2, the company and the banks try to allocate the sto=
+ck mostly to long-term shareholders who do not intend to flip it, which mea=
+ns that there will not be all that much supply in Step 3. And because=C2=A0=
+the retail investors couldn=E2=80=99t buy it at the IPO price in Step 2, th=
+ey have to buy it at the public price in Step 3, which means that there wil=
+l automatically be demand. Maybe not if it=E2=80=99s a boring company, but =
+if it=E2=80=99s some sexy consumer-facing tech company then a lot of retail=
+ investors will want to buy it in Step 3 and will push up the price, so the=
+re will be a nice =E2=80=9CIPO pop=E2=80=9D: If you buy at the IPO price, y=
+ou can sell at a much higher price the next day.Everyone knows this, though=
+, so this is only the very first level of the analysis. If everyone in Step=
+ 2 thinks =E2=80=9Cthis is a big sexy consumer tech company so I will overp=
+ay for it and then flip it to retail tomorrow,=E2=80=9D then there will be =
+a lot of supply in Step 3 (everyone who bought in the IPO is flipping) and =
+not much demand (no professional value investor wants to add to its positio=
+n in the public market, and even retail thinks the price is too rich), so t=
+he stock will actually fall. Most IPOs have a nice pop, but some of the big=
+gest and sexiest consumer-facing tech IPOs (Facebook Inc.,  Uber Technologi=
+es Inc.) fell in early trading because, roughly speaking, they were too ove=
+r-hyped.Similarly. If you look at the three steps I laid out above, you mig=
+ht say, well, if the retail investors are willing to pay more than the inst=
+itutional investors, and IPOs=C2=A0usually pop, why should the institutiona=
+l investors get to profit from that? Why shouldn=E2=80=99t the company sell=
+ some stock to retail investors in Step 2? This reduces the number of share=
+s it needs to sell to institutions, which allows it to drive a harder barga=
+in with them and get a higher market-clearing price, meaning more money for=
+ the company and a smaller IPO pop. (Assuming, as everyone does, that the r=
+etail investors are not price-sensitive and will just buy at whatever price=
+ the institutions pay.) And in fact  I have argued that this is a good inst=
+inct to have and that Robinhood Markets Inc., the leading brokerage for pri=
+ce-insensitive retail investors, should encourage companies to do that.=C2=
+=A0But this again is all first-order stuff and you have to think about how =
+it will be received. If you are selling fewer shares to institutions, then =
+in theory you might be able to get a higher price.[1] But if the reason tha=
+t you are selling fewer shares to institutions is that you are selling a bu=
+nch of shares to retail to=C2=A0anticipate and lessen=C2=A0the IPO pop, the=
+n the institutions will demand a lower price. =E2=80=9CI would pay $50 per =
+share if I knew a bunch of retail investors will be waiting to buy from me =
+at $60 the next day, but if you=E2=80=99re selling stock to any retail inve=
+stors who want it then that goes away and I=E2=80=99ll only pay $45.=E2=80=
+=9D It is not really clear which effect dominates.I guess we=E2=80=99ll fin=
+d out tomorrow?=C2=A0Robinhood is  pricing its own IPO tonight:The company =
+behind the trading app that starred in this year=E2=80=99s meme stock run-u=
+p is carving out an unusually large role for those very same novice investo=
+rs. On Thursday, when its shares are expected to begin trading after they p=
+rice late Wednesday, the wisdom of that strategy will be put to the test.Th=
+e interests of bankers, founders and employees may not always align, but th=
+ey all typically cross their fingers for a company=E2=80=99s stock price to=
+ =E2=80=9Cpop=E2=80=9D much higher once it begins trading after an initial =
+public offering. That boost is important because it tends to indicate stron=
+g demand among individual investors who couldn=E2=80=99t get their hands on=
+ shares before they hit the exchange.That=E2=80=99s not the case for Robinh=
+ood, which has said it will reserve up to 35% of shares for its app users a=
+t the pre-trading range of $38 to $42 apiece. Chief Executive Officer Vlad =
+Tenev said in a live-streamed roadshow on Saturday that it will likely be o=
+ne of the largest such allocations to retail investors ever.While that deci=
+sion fits with Robinhood=E2=80=99s self-described mission of =E2=80=9Cdemoc=
+ratizing finance,=E2=80=9D it also sets the company up for a make-or-break =
+moment when its shares begin trading on the Nasdaq Stock Market under the s=
+ymbol HOOD.It=E2=80=99s like any exclusive club: The reason that people wan=
+t to be able to buy stocks at the IPO price is because a lot of people can=
+=E2=80=99t; if you let everyone do it, it stops being cool. If retail inves=
+tors mostly can't buy a stock at the IPO price, they=E2=80=99ll be lining u=
+p to buy it the next day, and if you were special and got to buy at the IPO=
+ price then you can make a quick profit. If everyone buys at the IPO price =
+then there'll be no one waiting to buy it the next day, and everyone who bo=
+ught it to make a quick profit will be selling it at a loss.Or they won=E2=
+=80=99t, of course, because they have diamond hands and like the stock. I h=
+ave no idea how any of this will go, and I doubt anyone else does either. P=
+eople are certainly nervous though:The decision by retail brokerage app Rob=
+inhood to reserve an unusually large stake in its initial public offering t=
+his week for its own customers has money managers girding for a volatile tr=
+ading debut. =E2=80=A6=E2=80=9CEverybody expects more volatility in the tra=
+ding, that=E2=80=99s it,=E2=80=9D said one equities trader at a large New Y=
+ork asset manager. =E2=80=9CThe more stock in retail hands, the more volati=
+le it is.=E2=80=9D=C2=A0Is that right? I feel like the real meme-stock vola=
+tility is when retail investors=C2=A0decide=C2=A0to get into a stock that t=
+hey=C2=A0aren=E2=80=99t=C2=A0in, when it migrates from institutional hands =
+to retail hands. Like what happened to GameStop Corp. in January, or what o=
+ften happens to IPO stocks on their first day of trading. Robinhood is goin=
+g to=C2=A0have=C2=A0a lot of retail investors, not because it is allocating=
+ a lot of stock to them in the IPO but because it is Robinhood and its cust=
+omers are going to buy it one way or another. Allocating a lot of stock to =
+them in the IPO just makes that transition smoother.=C2=A0I wrote recently:=
+If you allocate shares to the Robinhood traders to begin with =E2=80=94 in =
+the IPO, at a price set mainly by the institutional investors who care abou=
+t valuation =E2=80=94=C2=A0then there will be less of a retail rush to buy =
+stock the next day, and the stock will trade at closer to its IPO price.I s=
+hould emphasize that this is not investment advice and I am probably wrong?=
+ Like, one, I=E2=80=99m wrong about every prediction I make, and, two, in t=
+his case there keep being articles quoting professionals saying =E2=80=9Cth=
+is is going to be a wild one=E2=80=9D and you should probably believe them =
+instead of me.=C2=A0I am just laying out my thinking here so we can underst=
+and how I=E2=80=99ll be wrong.
+ =20
+   =20
+      Assorted small Robinhood scandals
+   =20
+ =20
+Here=E2=80=99s an update in Robinhood Markets Inc.=E2=80=99s latest revised=
+ prospectus for its initial public offering:Beginning on January 28, 2021, =
+due to increased deposit requirements imposed on [Robinhood]=C2=A0by the NS=
+CC in response to unprecedented market volatility, particularly in certain =
+securities, [Robinhood] temporarily restricted or limited its customers=E2=
+=80=99 purchase of certain securities, including GameStop Corp. and AMC Ent=
+ertainment Holdings, Inc., on our platform (the =E2=80=9CEarly 2021 Trading=
+ Restrictions=E2=80=9D). =E2=80=A6We have also received inquiries from the =
+SEC=E2=80=99s Division of Examinations and FINRA related to employee tradin=
+g in certain securities that were subject to the Early 2021 Trading Restric=
+tions, including GameStop Corp. and AMC Entertainment Holdings, Inc., durin=
+g the week of January 25, 2021. These matters include inquiries related to =
+whether any employee trading in these securities may have occurred in advan=
+ce of the public announcement of the Early 2021 Trading Restrictions on Jan=
+uary 28, 2021.=C2=A0Obviously it is=C2=A0possible=C2=A0that some Robinhood =
+employee bought GameStop stock, learned that Robinhood was about to restric=
+t trading in GameStop, and dumped all of her GameStop shares moments before=
+ the restrictions kicked in in order to avoid losing money. And that would =
+be bad and would get her in trouble with the Securities and Exchange Commis=
+sion and the Financial Industry Regulatory Authority. It seems like a weird=
+ly blatant thing to do, and I wouldn=E2=80=99t expect an employee of a regu=
+lated broker-dealer to do it, but, uh, Robinhood sometimes  does things tha=
+t I wouldn=E2=80=99t expect, from a regulatory perspective.=C2=A0On the oth=
+er hand if you were a Robinhood employee who was totally innocently=C2=A0tr=
+ading meme stocks during the week of Jan. 25, you might well have=C2=A0tota=
+lly innocently=C2=A0sold your GameStop on Jan. 27. Perhaps you bought the s=
+tock on Monday, Jan.=C2=A025, when it was a meme that everyone was talking =
+about; it closed at $76.79 that day. By Wednesday, Jan. 27, it closed at $3=
+47.51. You might have decided to sell because you were up like 350%? Like, =
+good trade, well done, take some profits. And then the next day your employ=
+er announces that it has restricted trading in GameStop and, on the one han=
+d, phew, you got out just in time, but on the other hand, oops, you=E2=80=
+=99re gonna get calls from the SEC and Finra.I suppose one question here is=
+: Is it good, if a lot of employees of a big retail brokerage are day-tradi=
+ng meme stocks in their personal accounts? On the one hand, it creates obvi=
+ous risks of conflict of interest and trading on inside information, as is =
+suggested by these SEC and Finra inquiries.=C2=A0On the other hand, you do =
+like to see Robinhood eating its own cooking. It is the leading brokerage f=
+or YOLOing meme stocks. Lots of people, particularly in the financial indus=
+try, think that YOLOing meme stocks is bad for you. If everyone at Robinhoo=
+d thought that =E2=80=94=C2=A0if none of them were YOLOing meme stocks in t=
+heir personal accounts =E2=80=94=C2=A0then that would be awkward; it would =
+suggest that they are knowingly taking advantage of, and encouraging, poor =
+decisions by their customers.=C2=A0If instead everyone at Robinhood piled i=
+nto GameStop too, that=E2=80=99s sort of nice; it suggests that they believ=
+e in what they=E2=80=99re selling.Here=E2=80=99s another update from the pr=
+ospectus:Further, on July 26, 2021, [Robinhood]=C2=A0received a FINRA inves=
+tigative request seeking documents and information related to its complianc=
+e with FINRA registration requirements for member personnel, including rela=
+ted to the FINRA non-registration status of Mr. Tenev and Mr. Bhatt. Robinh=
+ood is evaluating this matter and intends to cooperate with the investigati=
+on.See, the Financial Industry Regulatory Authority=C2=A0licenses brokers, =
+and if you work in certain jobs at a broker-dealer you need a Finra license=
+, and I guess Robinhood Chief Executive Officer Vlad Tenev doesn=E2=80=99t =
+have one? Honestly this seems like a bit of a silly thing to care about but=
+ the rules are the rules. I hope that Vlad Tenev has to show up at a Promet=
+ric testing center to take his Series 7 with a bunch of 22-year-old Wall St=
+reet analysts. You don=E2=80=99t often see celebrities at the Series 7.Here=
+=E2=80=99s  another update that is=C2=A0not=C2=A0from the revised prospectu=
+s:Robinhood Markets Inc. is exploring new features that would let customers=
+ invest spare change and better protect against volatility in cryptocurrenc=
+y trading, according to code hidden inside a test version of the company=E2=
+=80=99s iPhone app.Robinhood is developing an option called =E2=80=9Cround =
+up investments=E2=80=9D that will allow users to invest their spare change =
+in specific stocks, according to the code, which was part of a version of t=
+he app distributed to beta testers earlier this month. The code also shows =
+that the company is exploring a rewards program that will give bonuses to t=
+hose using the round-up feature.Investing spare change has become an increa=
+singly popular strategy for new stock traders and is a key piece of competi=
+ng apps such as Acorns, Chime and Wealthsimple. The code in the Robinhood a=
+pp doesn=E2=80=99t indicate where the spare change will come from, but othe=
+r apps typically connect to a debit or credit card. They round up purchases=
+ to the nearest dollar and automatically invest that difference. For exampl=
+e, if a user spends $3.75 on a cup of coffee, 25 cents will be put toward a=
+ chosen stock.Or if you spend $8.75 on a large popcorn at an AMC Entertainm=
+ent Holdings Inc. theater, you can round up to $9 and get 25 cents=E2=80=99=
+ worth of AMC stock. And if you buy AMC stock, you can=C2=A0get a free popc=
+orn. The arbitrage here is to spend $9 on popcorn plus stock and then go ba=
+ck to the concession counter and demand your $8.75 back because you=E2=80=
+=99re a shareholder. This is also not investing advice.
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                   =20
+Modern Treasury makes money move faster
+
+Their  software platform=C2=A0connects directly to your corporate bank acco=
+unts and ERP systems so that finance teams get  full visibility and control=
+ over payments and developers get flexible APIs to automate complex payment=
+ flows.=C2=A0
+
+Learn how innovative companies like Pipe used MT to transform how they move=
+ money.
+
+                                    Modern Treasury
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+ =20
+   =20
+      Deutsche Bank is back
+   =20
+ =20
+I love it:Deutsche Bank has ditched a cost-cutting target central to chief =
+executive Christian Sewing=E2=80=99s effort to revive the fortunes of Germa=
+ny=E2=80=99s biggest lender, telling shareholders that the transformation w=
+as now =E2=80=9Csignificantly advanced=E2=80=9D after reporting its best ru=
+n of profits in almost a decade.The bank said on Wednesday it was scrapping=
+ its cost-cutting target for 2022, a centrepiece of the turnround plan Sewi=
+ng first unveiled two years ago, and raised its full-year revenue target fo=
+r this year.The move comes shortly after Deutsche backtracked on a goal of =
+cutting 18,000 jobs, a target set in the summer of 2019 when Sewing unveile=
+d a radical plan to end more than a decade of disappointing earnings and sc=
+ale back the bank=E2=80=99s global ambitions.Until now the bank=E2=80=99s s=
+enior management has repeatedly argued that costs are the key benchmark to =
+measure the success of the restructuring, because they are the only lever u=
+nder its control. Sewing=E2=80=99s predecessor John Cryan was ousted in 201=
+8 after acknowledging that the bank would miss a crucial cost-cutting targe=
+t.The decision to abandon the target came as Deutsche delivered better than=
+ expected second-quarter results, with net profits hitting =E2=82=AC692m, c=
+omfortably surpassing analysts=E2=80=99 expectations of =E2=82=AC372m. The =
+bank claimed it had generated =E2=80=9Csustainable profitability=E2=80=9D i=
+n the first half of the year.See, when you=E2=80=99re not making a lot of m=
+oney in a fickle cyclical business like banking, you say =E2=80=9Ccosts are=
+ the only lever under our control=E2=80=9D and you focus on reducing them. =
+You lay people off, you fly coach, you reuse paper clips, you tell sharehol=
+ders =E2=80=9Clook we know things aren=E2=80=99t great but we are doing wha=
+t we can, with the paper clips.=E2=80=9DAnd then you have a  nice trading q=
+uarter and you=E2=80=99re like =E2=80=9Cactually it turns out we=C2=A0can t=
+otally control revenues, we have mastered the art of reliably making money =
+trading bonds, nothing can ever go wrong again, use all the paper clips you=
+ want.=E2=80=9D=C2=A0I=E2=80=99m exaggerating a little =E2=80=94=C2=A0Deuts=
+che Bank will be targeting a 70% cost/income ratio rather than a specific n=
+umber of euros of costs =E2=80=94 but man is this ever how investment banks=
+ work. You can imagine a bank that is like =E2=80=9Cwe are going to focus o=
+n costs throughout the cycle because we don=E2=80=99t want to become bloate=
+d and complacent when times are good,=E2=80=9D but you can only barely imag=
+ine it.
+ =20
+   =20
+      The Wu-Tang album
+   =20
+ =20
+Here is a press release that the U.S. Attorney=E2=80=99s Office for the Eas=
+tern District of New York issued yesterday about a unique piece of cultural=
+ property that was forfeited to the U.S. government:A 12-tablet Babylonian =
+version of the Gilgamesh epic, written in Akkadian, was discovered in 1853 =
+in the ruins of the library of the Assyrian King Assur Banipal in Nineveh (=
+located in modern-day northern Iraq). The events in the epic revolve around=
+ King Gilgamesh of Uruk (located in modern-day southern Iraq).=C2=A0The gov=
+ernment=E2=80=99s investigation showed that in 2003, a U.S. antiquities dea=
+ler (the =E2=80=9CAntiquities Dealer=E2=80=9D) purchased the Gilgamesh Drea=
+m Tablet, encrusted with dirt and unreadable, from a family member of a coi=
+n dealer in London. The Antiquities Dealer and a U.S. cuneiform expert ship=
+ped the tablet into the United States by international post without declari=
+ng formal entry. After the tablet was imported and cleaned, experts in cune=
+iform recognized it as bearing a portion of the Gilgamesh epic in which the=
+ protagonist describes his dreams to his mother. The protagonist=E2=80=99s =
+mother interprets the dreams as foretelling the arrival of a new friend.=C2=
+=A0She tells her son, =E2=80=9CYou will see him and your heart will laugh.=
+=E2=80=9D=C2=A0The names of the hero, Gilgamesh, and the character who beco=
+mes his friend, Enkidu, are replaced in this tablet with the names of deiti=
+es Sin and Ea. The tablet measures approximately 6-inches by 5-inches and i=
+s written in the Akkadian language.Oops, sorry, that=E2=80=99s the wrong on=
+e. The Gilgamesh tablet was sold by an auction house =E2=80=9Cto Hobby Lobb=
+y Stores, Inc. (=E2=80=98Hobby Lobby=E2=80=99), a prominent arts-and-crafts=
+ retailer based in Oklahoma City, Oklahoma, for display at the Museum of th=
+e Bible,=E2=80=9D and law enforcement seized it. I don=E2=80=99t know what =
+they=E2=80=99re going to do with it. Give it back to Iraq?Anyway no here=E2=
+=80=99s the=C2=A0other press release that the U.S. Attorney=E2=80=99s Offic=
+e for the Eastern District of New York issued yesterday about a unique piec=
+e of cultural property that was forfeited to the U.S. government:Earlier to=
+day, the United States sold the sole copy of the Wu-Tang Clan album =E2=80=
+=9COnce Upon a Time in Shaolin=E2=80=9D (the =E2=80=9CAlbum=E2=80=9D) which=
+ had previously been ordered to be forfeited as a substitute asset in conne=
+ction with the approximately $7.4 million forfeiture money judgment (Forfei=
+ture Money Judgment) entered against Shkreli at his March 2018 sentencing.=
+=C2=A0Proceeds from the sale of the Album will be applied to satisfy the ou=
+tstanding balance owed on the Forfeiture Money Judgment. The contract of sa=
+le contains a confidentiality provision that protects information relating =
+to the buyer and price. =E2=80=A6At the time Shkreli purchased the Album in=
+ 2015, it was marketed as =E2=80=9Cboth a work of art and an audio artifact=
+.=E2=80=9D=C2=A0The Album includes a hand-carved nickel-silver box as well =
+as a leather-bound manuscript containing lyrics and a certificate of authen=
+ticity. The Album is subject to various restrictions, including those relat=
+ing to the duplication of its sound recordings.In September 2017, just week=
+s after his conviction but before the district court-imposed forfeiture, Sh=
+kreli attempted to sell the Album through an on-line auction.Bloomberg  rep=
+orts:The anonymous buyer of the album was represented by Peter Scoolidge, a=
+ New York-based attorney. =E2=80=9CThis was the most interesting deal I hav=
+e ever worked on,=E2=80=9D Scoolidge said in a statement.Ehh I guess? I mea=
+n, fine, it=E2=80=99s a box and a book and an associated set of contractual=
+ provisions. (We discussed those provisions, plus some imaginary ones, in t=
+he  appendix to this post.) I suppose if you are buying the thing you have =
+to figure out whether you succeed to Shkreli=E2=80=99s contractual rights t=
+o prevent Wu-Tang from releasing more copies of the album; it=E2=80=99d be =
+funny if someone paid the government a lot of money for this one-of-a-kind =
+Wu-Tang album and then Wu-Tang just put it on Spotify. You=E2=80=99d still =
+have the certificate of authenticity, though; no one else has that. Unless =
+they type up their own. You=E2=80=99d have the only authentic certificate o=
+f authenticity.Obviously the thing that Martin Shkreli bought from the Wu-T=
+ang Clan was a non-fungible token? It was a non-fungible token  rendered in=
+ paper and leather and nickel and silver rather than immutable blockchain c=
+ode, but still. And then the government seized it and re-sold it, which is =
+a thing it can do, but you can certainly imagine a more interesting deal? W=
+hat if the government had securitized Martin Shkreli=E2=80=99s Wu-Tang albu=
+m? Or what if it had sold a limited edition of 1,000 non-fungible tokens, e=
+ach recorded on the blockchain, each accompanied by a certificate of authen=
+ticity signed by the U.S. Attorney for the Eastern District of Brooklyn, ea=
+ch representing =E2=80=9Chey I bought an NFT of the time the U.S. governmen=
+t seized Martin Shkreli=E2=80=99s Wu-Tang album=E2=80=9D? What if the gover=
+nment had held a press conference and said =E2=80=9Ccrime does not pay, and=
+ we will destroy everything associated with this crime,=E2=80=9D and then b=
+urned the Wu-Tang album on camera and then sold an NFT of=C2=A0that?=C2=A0W=
+hat if I sold this section of this column as an NFT? What if someone filmed=
+ Martin Shkreli reading this paragraph and sold that as an NFT?=C2=A0Do you=
+ remember when NFTs were a big deal? It was only like a couple of months ag=
+o.
+ =20
+   =20
+      Get valuable responsibility early
+   =20
+ =20
+This  article about Matthew Grimes, a 27-year-old Wharton graduate who=C2=
+=A0works for Tom Barrack and was arrested with him on charges of acting as =
+unregistered foreign agents for the United Arab Emirates, is not really cor=
+e Money Stuff subject matter, but I do want to spend a minute enjoying the =
+headline, which is =E2=80=9CFrom Intern to Co-Defendant.=E2=80=9D That is r=
+eally the dream career path. You start out as an intern just making copies =
+and getting coffee =E2=80=94=C2=A0=E2=80=9Caboard Barrack=E2=80=99s private=
+ planes, Grimes would graciously serve tea and crackers, and was sometimes =
+called upon to book restaurant reservations=E2=80=9D =E2=80=94=C2=A0but if =
+you work hard and are a good team player you will rapidly progress. You=E2=
+=80=99ll get face time with the boss, take on increasing responsibility, be=
+ put in front of clients, lead your own deals =E2=80=94=C2=A0Grimes =E2=80=
+=9Cwas also president of a related special purpose acquisition vehicle=E2=
+=80=9D =E2=80=94=C2=A0and, if everything works out just right, you=E2=80=99=
+ll end up charged in the same federal criminal prosecution as the boss. Tha=
+t=E2=80=99s how you know you=E2=80=99ve made it.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+The Time Tax. People are worried about bond market liquidity.=C2=A0Credit S=
+uisse=E2=80=99s Archegos Inquiry  Rips Bank=E2=80=99s Due Diligence. Beijin=
+g=E2=80=99s threat to VIEs triggers Wall Street angst over China stocks.=C2=
+=A0Spiraling Debt Crisis Confronts  Evergrande Billionaire =E2=80=94 and Xi=
+. Chinese Bike-Sharing Startup Hello  Scraps Plans for U.S. IPO. US law fir=
+ms offer bonuses of up to $250,000 in battle for staff. Hot Housing Market =
+Lets Banks Sell Mortgage Risk. Retail investors to drive $1.5tn push toward=
+s bespoke index funds. =E2=80=9CWe find that option expensiveness, as measu=
+red by implied volatility, is higher for low-ESG stocks, showing that inves=
+tors pay a premium in the option market to hedge ESG-related uncertainty.=
+=E2=80=9D=C2=A0Court Documents Reveal Ex-Glencore Trader=E2=80=99s Politica=
+l  Bribes in Nigeria. HSBC accused of =E2=80=98blatant and indefensible=E2=
+=80=99 forex fraud by ex-client. CFA Pass Rate Plummets to Record Low of 25=
+% for  Level 1 Exam.=C2=A0Ethanol, Ethan Allen, Ethereum. =E2=80=9CYonex Co=
+., which makes  Naomi Osaka=E2=80=99s tennis racquets, has slumped 8% in tw=
+o days after the superstar unexpectedly crashed out of the tournament in th=
+e third round on Tuesday.=E2=80=9D In the battle of the mega-yachts, does J=
+ennifer Lopez or Alex Rodriguez=E2=80=99s come out on top?If you'd like to =
+get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, pl=
+ease=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and o=
+ther great Bloomberg newsletters here. Thanks![1] The theory is just that t=
+here is a schedule of demand from institutions: Some will buy at any price,=
+ some will buy at $55 but no higher, some at $52, some at $50, some will on=
+ly pay $45, etc. You can just line them up in order by price and see how ma=
+ny shares they are willing to buy: 10 million at no limit, 7 million at $55=
+, 4 million at $52, etc. And you keep counting down, from high prices to lo=
+w prices, until you get to the number of shares you need to sell, and the *=
+lowest* price that you get to is the clearing price. So if you need to sell=
+ 50 million shares you keep counting demand until you get to the 50 million=
+th share at $45 or whatever. But if you change your mind and only need to s=
+ell 30 million shares, you don=E2=80=99t have to count as far, and you get =
+to the 30 millionth share at $52. This is not an entirely realistic model o=
+f how IPO bookbuilding works, but it is a decent toy model.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cemuf7.5ure/d8de3dc4.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_66659980_875616770.1627489870553
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px 0px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24580483.273146/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB084f7529"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24580483.273146/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cBad88920=
+a">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Robinhood retail</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The basic way <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24580483.273146/aHR0cHM6Ly9hMTZ6LmNvbS8yMD=
+IwLzA4LzI4L2luLWRlZmVuc2Utb2YtdGhlLWlwby8/607f07ceef4b8524a319a23cBb3e7a1a9=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">an initi=
+al public offering works</a> is:</p><ol style=3D"list-style-type: decimal; =
+padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">A=
+ company hires banks to market its stock to big institutional investors and=
+ build a book of demand from those investors.</li>=09<li style=3D"margin-bo=
+ttom: 5px;">After reviewing the order book, the company and the banks price=
+ and allocate the stock one evening, selling it to those institutional inve=
+stors at the market-clearing price that they=E2=80=99re willing to pay.</li=
+>=09<li style=3D"margin-bottom: 5px;">The next day, the stock opens for tra=
+ding on the stock exchange, and ordinary retail investors get to buy it. Th=
+ey don=E2=80=99t care what price they pay. So=C2=A0some of the institutiona=
+l investors who bought the stock=C2=A0in Step 2 flip it to retail investors=
+ on Robinhood for a quick profit.=C2=A0</li></ol><p style=3D"margin: 16px 0=
+;">In Step 2, the company and the banks try to allocate the stock mostly to=
+ long-term shareholders who do not intend to flip it, which means that ther=
+e will not be all that much supply in Step 3. And because=C2=A0the retail i=
+nvestors couldn=E2=80=99t buy it at the IPO price in Step 2, they have to b=
+uy it at the public price in Step 3, which means that there will automatica=
+lly be demand. Maybe not if it=E2=80=99s a boring company, but if it=E2=80=
+=99s some sexy consumer-facing tech company then a lot of retail investors =
+will want to buy it in Step 3 and will push up the price, so there will be =
+a nice =E2=80=9CIPO pop=E2=80=9D: If you buy at the IPO price, you can sell=
+ at a much higher price the next day.</p><p style=3D"margin: 16px 0;">Every=
+one knows this, though, so this is only the very first level of the analysi=
+s. If everyone in Step 2 thinks =E2=80=9Cthis is a big sexy consumer tech c=
+ompany so I will overpay for it and then flip it to retail tomorrow,=E2=80=
+=9D then there will be a lot of supply in Step 3 (everyone who bought in th=
+e IPO is flipping) and not much demand (no professional value investor want=
+s to add to its position in the public market, and even retail thinks the p=
+rice is too rich), so the stock will actually fall. Most IPOs have a nice p=
+op, but some of the biggest and sexiest consumer-facing tech IPOs (<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24580483.273146/aHR0cHM6L=
+y93d3cuY25iYy5jb20vMjAxMi8wNS8yMS9mYWNlYm9vay1zaGFyZXMtZmFsbC1iZWxvdy1pcG8t=
+b2ZmZXJpbmctcHJpY2UuaHRtbA/607f07ceef4b8524a319a23cB5e821f85" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">Facebook Inc.</a>, <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24580483.273146/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDUtMTQvdGhlcmUtd=
+2FzLW5vLXdheS10by13aW4td2l0aC10aGUtdWJlci1pcG8/607f07ceef4b8524a319a23cBe53=
+98e16" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Ub=
+er Technologies Inc.</a>) fell in early trading because, roughly speaking, =
+they were too over-hyped.</p><p style=3D"margin: 16px 0;">Similarly. If you=
+ look at the three steps I laid out above, you might say, well, if the reta=
+il investors are willing to pay more than the institutional investors, and =
+IPOs=C2=A0usually pop, why should the institutional investors get to profit=
+ from that? Why shouldn=E2=80=99t the company sell some stock to retail inv=
+estors in Step 2? This reduces the number of shares it needs to sell to ins=
+titutions, which allows it to drive a harder bargain with them and get a hi=
+gher market-clearing price, meaning more money for the company and a smalle=
+r IPO pop. (Assuming, as everyone does, that the retail investors are not p=
+rice-sensitive and will just buy at whatever price the institutions pay.) A=
+nd in fact <a href=3D"https://link.mail.bloombergbusiness.com/click/2458048=
+3.273146/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMD=
+UtMjQvbWVycmlsbC1seW5jaC1wdXRzLWRvd24tdGhlLXBob25l/607f07ceef4b8524a319a23c=
+B5c1e2bb0" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> I have argued</a> that this is a good instinct to have and that Robinhood=
+ Markets Inc., the leading brokerage for price-insensitive retail investors=
+, should encourage companies to do that.=C2=A0</p><p style=3D"margin: 16px =
+0;">But this again is all first-order stuff and you have to think about how=
+ it will be received. If you are selling fewer shares to institutions, then=
+ in theory you might be able to get a higher price.[1] But if the reason th=
+at you are selling fewer shares to institutions is that you are selling a b=
+unch of shares to retail to=C2=A0anticipate and lessen=C2=A0the IPO pop, th=
+en the institutions will demand a lower price. =E2=80=9CI would pay $50 per=
+ share if I knew a bunch of retail investors will be waiting to buy from me=
+ at $60 the next day, but if you=E2=80=99re selling stock to any retail inv=
+estors who want it then that goes away and I=E2=80=99ll only pay $45.=E2=80=
+=9D It is not really clear which effect dominates.</p><p style=3D"margin: 1=
+6px 0;">I guess we=E2=80=99ll find out tomorrow?=C2=A0Robinhood is <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24580483.273146/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjgvcm9iaW5ob29kLWJh=
+bmtzLW9uLWl0cy10cmFkZXJzLWFsbGVnaWFuY2UtaW4taXBvLWxpa2Utbm8tb3RoZXI/607f07c=
+eef4b8524a319a23cB9b7b1b01" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> pricing its own IPO tonight</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">The company behind the trading app that starred in thi=
+s year=E2=80=99s meme stock run-up is carving out an unusually large role f=
+or those very same novice investors. On Thursday, when its shares are expec=
+ted to begin trading after they price late Wednesday, the wisdom of that st=
+rategy will be put to the test.</p><p style=3D"margin: 16px 0;">The interes=
+ts of bankers, founders and employees may not always align, but they all ty=
+pically cross their fingers for a company=E2=80=99s stock price to =E2=80=
+=9Cpop=E2=80=9D much higher once it begins trading after an initial public =
+offering. That boost is important because it tends to indicate strong deman=
+d among individual investors who couldn=E2=80=99t get their hands on shares=
+ before they hit the exchange.</p><p style=3D"margin: 16px 0;">That=E2=80=
+=99s not the case for Robinhood, which has said it will reserve up to 35% o=
+f shares for its app users at the pre-trading range of $38 to $42 apiece. C=
+hief Executive Officer Vlad Tenev said in a live-streamed roadshow on Satur=
+day that it will likely be one of the largest such allocations to retail in=
+vestors ever.</p><p style=3D"margin: 16px 0;">While that decision fits with=
+ Robinhood=E2=80=99s self-described mission of =E2=80=9Cdemocratizing finan=
+ce,=E2=80=9D it also sets the company up for a make-or-break moment when it=
+s shares begin trading on the Nasdaq Stock Market under the symbol HOOD.</p=
+></blockquote><p style=3D"margin: 16px 0;">It=E2=80=99s like any exclusive =
+club: The reason that people want to be able to buy stocks at the IPO price=
+ is because a lot of people can=E2=80=99t; if you let everyone do it, it st=
+ops being cool. If retail investors mostly can't buy a stock at the IPO pri=
+ce, they=E2=80=99ll be lining up to buy it the next day, and if you were sp=
+ecial and got to buy at the IPO price then you can make a quick profit. If =
+everyone buys at the IPO price then there'll be no one waiting to buy it th=
+e next day, and everyone who bought it to make a quick profit will be selli=
+ng it at a loss.</p><p style=3D"margin: 16px 0;">Or they won=E2=80=99t, of =
+course, because they have diamond hands and like the stock. I have no idea =
+how any of this will go, and I doubt anyone else does either. People are <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/24580483.273146/aHR0=
+cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZWU3NTVjMDItZGQwOS00MDQxLThiMTQtZWZhZDMwYTY=
+2MmE2/607f07ceef4b8524a319a23cB53ba8342" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">certainly nervous though</a>:</p><blockquo=
+te><p style=3D"margin: 16px 0;">The decision by retail brokerage app Robinh=
+ood to reserve an unusually large stake in its initial public offering this=
+ week for its own customers has money managers girding for a volatile tradi=
+ng debut. =E2=80=A6</p><p style=3D"margin: 16px 0;">=E2=80=9CEverybody expe=
+cts more volatility in the trading, that=E2=80=99s it,=E2=80=9D said one eq=
+uities trader at a large New York asset manager. =E2=80=9CThe more stock in=
+ retail hands, the more volatile it is.=E2=80=9D=C2=A0</p></blockquote><p s=
+tyle=3D"margin: 16px 0;">Is that right? I feel like the real meme-stock vol=
+atility is when retail investors=C2=A0<em>decide=C2=A0</em>to get into a st=
+ock that they=C2=A0<em>aren=E2=80=99t=C2=A0</em>in, when it migrates from i=
+nstitutional hands to retail hands. Like what happened to GameStop Corp. in=
+ January, or what often happens to IPO stocks on their first day of trading=
+. Robinhood is going to=C2=A0<em>have=C2=A0</em>a lot of retail investors, =
+not because it is allocating a lot of stock to them in the IPO but because =
+it is Robinhood and its customers are going to buy it one way or another. A=
+llocating a lot of stock to them in the IPO just makes that transition <em>=
+smoother</em>.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/24580483.273146/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMjEtMDctMDIvcm9iaW5ob29kLWlwby1maWxpbmctaXMtYS1sZXNzb24taW4tbWVtZS1maW5h=
+bmNl/607f07ceef4b8524a319a23cBf6d334d1" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">I wrote recently</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">If you allocate shares to the Robinhood traders to beg=
+in with =E2=80=94 in the IPO, at a price set mainly by the institutional in=
+vestors who care about valuation =E2=80=94=C2=A0then there will be less of =
+a retail rush to buy stock the next day, and the stock will trade at closer=
+ to its IPO price.</p></blockquote><p style=3D"margin: 16px 0;">I should em=
+phasize that this is not investment advice and I am probably wrong? Like, o=
+ne, I=E2=80=99m wrong about every prediction I make, and, two, in this case=
+ there keep being articles quoting professionals saying =E2=80=9Cthis is go=
+ing to be a wild one=E2=80=9D and you should probably believe them instead =
+of me.=C2=A0I am just laying out my thinking here so we can understand how =
+I=E2=80=99ll be wrong.</p><table class=3D"header" width=3D"100%" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Assorted small Robinhood scandals</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;"><span>Here=E2=80=99s an update in Robi=
+nhood Markets Inc.=E2=80=99s </span><a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24580483.273146/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZ=
+Gdhci9kYXRhLzE3ODM4NzkvMDAwMTYyODI4MDIxMDE0NDg4L3JvYmluaG9vZHMtMWEyLmh0bQ/6=
+07f07ceef4b8524a319a23cBce813d4b" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">latest revised prospectus</a><span> for its initial=
+ public offering:</span></p><blockquote><p style=3D"margin: 16px 0;">Beginn=
+ing on January 28, 2021, due to increased deposit requirements imposed on [=
+Robinhood]=C2=A0by the NSCC in response to unprecedented market volatility,=
+ particularly in certain securities, [Robinhood] temporarily restricted or =
+limited its customers=E2=80=99 purchase of certain securities, including Ga=
+meStop Corp. and AMC Entertainment Holdings, Inc., on our platform (the =E2=
+=80=9CEarly 2021 Trading Restrictions=E2=80=9D). =E2=80=A6</p><p style=3D"m=
+argin: 16px 0;">We have also received inquiries from the SEC=E2=80=99s Divi=
+sion of Examinations and FINRA related to employee trading in certain secur=
+ities that were subject to the Early 2021 Trading Restrictions, including G=
+ameStop Corp. and AMC Entertainment Holdings, Inc., during the week of Janu=
+ary 25, 2021. These matters include inquiries related to whether any employ=
+ee trading in these securities may have occurred in advance of the public a=
+nnouncement of the Early 2021 Trading Restrictions on January 28, 2021.=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">Obviously it is=C2=A0<em>p=
+ossible=C2=A0</em>that some Robinhood employee bought GameStop stock, learn=
+ed that Robinhood was about to restrict trading in GameStop, and dumped all=
+ of her GameStop shares moments before the restrictions kicked in in order =
+to avoid losing money. And that would be bad and would get her in trouble w=
+ith the Securities and Exchange Commission and the Financial Industry Regul=
+atory Authority. It seems like a weirdly blatant thing to do, and I wouldn=
+=E2=80=99t expect an employee of a regulated broker-dealer to do it, but, u=
+h, Robinhood sometimes <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/24580483.273146/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMTgtMTItMTcvcm9iaW5ob29kLWNoZWNraW5nLW1vdmVkLWZhc3QtYW5kLWJyb2tl/607f=
+07ceef4b8524a319a23cB059771ff" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> does things that I wouldn=E2=80=99t expect</a>, from =
+a regulatory perspective.=C2=A0</p><p style=3D"margin: 16px 0;">On the othe=
+r hand if you were a Robinhood employee who was <em>totally innocently=C2=
+=A0</em>trading meme stocks during the week of Jan. 25, you might well have=
+=C2=A0<em>totally innocently=C2=A0</em>sold your GameStop on Jan. 27. Perha=
+ps you bought the stock on Monday, Jan.=C2=A025, when it was a meme that ev=
+eryone was talking about; it closed at $76.79 that day. By Wednesday, Jan. =
+27, it closed at $347.51. You might have decided to sell because you were u=
+p like 350%? Like, good trade, well done, take some profits. And then the n=
+ext day your employer announces that it has restricted trading in GameStop =
+and, on the one hand, phew, you got out just in time, but on the other hand=
+, oops, you=E2=80=99re gonna get calls from the SEC and Finra.</p><p style=
+=3D"margin: 16px 0;">I suppose one question here is: Is it <em>good</em>, i=
+f a lot of employees of a big retail brokerage are day-trading meme stocks =
+in their personal accounts? On the one hand, it creates obvious risks of co=
+nflict of interest and trading on inside information, as is suggested by th=
+ese SEC and Finra inquiries.=C2=A0On the other hand, you do like to see Rob=
+inhood eating its own cooking. It is the leading brokerage for YOLOing meme=
+ stocks. Lots of people, particularly in the financial industry, think that=
+ YOLOing meme stocks is bad for you. If everyone at Robinhood thought that =
+=E2=80=94=C2=A0if none of them were YOLOing meme stocks in their personal a=
+ccounts =E2=80=94=C2=A0then that would be awkward; it would suggest that th=
+ey are knowingly taking advantage of, and encouraging, poor decisions by th=
+eir customers.=C2=A0If instead everyone at Robinhood piled into GameStop to=
+o, that=E2=80=99s sort of nice; it suggests that they believe in what they=
+=E2=80=99re selling.</p><p style=3D"margin: 16px 0;">Here=E2=80=99s another=
+ update from the prospectus:</p><blockquote><p style=3D"margin: 16px 0;">Fu=
+rther, on July 26, 2021, [Robinhood]=C2=A0received a FINRA investigative re=
+quest seeking documents and information related to its compliance with FINR=
+A registration requirements for member personnel, including related to the =
+FINRA non-registration status of Mr. Tenev and Mr. Bhatt. Robinhood is eval=
+uating this matter and intends to cooperate with the investigation.</p></bl=
+ockquote><p style=3D"margin: 16px 0;">See, the Financial Industry Regulator=
+y Authority=C2=A0licenses brokers, and if you work in certain jobs at a bro=
+ker-dealer you need a Finra license, and I guess Robinhood Chief Executive =
+Officer Vlad Tenev <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/24580483.273146/aHR0cHM6Ly93d3cuY25uLmNvbS8yMDIxLzA3LzI3L2ludmVzdGluZy9yb2=
+Jpbmhvb2QtaXBvLWZpbnJhLXZsYWQtdGVuZXYvaW5kZXguaHRtbA/607f07ceef4b8524a319a2=
+3cBd7ee0fc5" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">doesn=E2=80=99t have one</a>? Honestly this seems like a bit of a silly =
+thing to care about but the rules are the rules. I hope that Vlad Tenev has=
+ to show up at a Prometric testing center to take his <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3cuZmlucmE=
+ub3JnL3JlZ2lzdHJhdGlvbi1leGFtcy1jZS9xdWFsaWZpY2F0aW9uLWV4YW1zL3Nlcmllczc/60=
+7f07ceef4b8524a319a23cBb20b5274" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">Series 7</a> with a bunch of 22-year-old Wall Street=
+ analysts. You don=E2=80=99t often see celebrities at the Series 7.</p><p s=
+tyle=3D"margin: 16px 0;">Here=E2=80=99s <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjEtMDctMjcvcm9iaW5ob29kLXdvcmtpbmctb24tZmVhdHVyZS10by1s=
+ZXQtdXNlcnMtaW52ZXN0LXNwYXJlLWNoYW5nZQ/607f07ceef4b8524a319a23cB0dd01caf" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> another up=
+date</a> that is=C2=A0<em>not=C2=A0</em>from the revised prospectus:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">Robinhood Markets Inc. is exploring n=
+ew features that would let customers invest spare change and better protect=
+ against volatility in cryptocurrency trading, according to code hidden ins=
+ide a test version of the company=E2=80=99s iPhone app.</p><p style=3D"marg=
+in: 16px 0;">Robinhood is developing an option called =E2=80=9Cround up inv=
+estments=E2=80=9D that will allow users to invest their spare change in spe=
+cific stocks, according to the code, which was part of a version of the app=
+ distributed to beta testers earlier this month. The code also shows that t=
+he company is exploring a rewards program that will give bonuses to those u=
+sing the round-up feature.</p><p style=3D"margin: 16px 0;">Investing spare =
+change has become an increasingly popular strategy for new stock traders an=
+d is a key piece of competing apps such as Acorns, Chime and Wealthsimple. =
+The code in the Robinhood app doesn=E2=80=99t indicate where the spare chan=
+ge will come from, but other apps typically connect to a debit or credit ca=
+rd. They round up purchases to the nearest dollar and automatically invest =
+that difference. For example, if a user spends $3.75 on a cup of coffee, 25=
+ cents will be put toward a chosen stock.</p></blockquote><p style=3D"margi=
+n: 16px 0;">Or if you spend $8.75 on a large popcorn at an AMC Entertainmen=
+t Holdings Inc. theater, you can round up to $9 and get 25 cents=E2=80=99 w=
+orth of AMC stock. And if you buy AMC stock, you can=C2=A0<a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDIvYW1jLWJyaW5ncy1vdXQtdG=
+hlLXBvcGNvcm4/607f07ceef4b8524a319a23cB1e21b005" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">get a free popcorn</a>. The arbitrag=
+e here is to spend $9 on popcorn plus stock and then go back to the concess=
+ion counter and demand your $8.75 back because you=E2=80=99re a shareholder=
+. This is also not investing advice.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iiFgdpyK_rI4/v=
+0/-1x-1.png" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/iiFgdpyK_rI4/v0/-1x-1.png" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;"><strong>Modern Treasury makes money move fas=
+ter</strong></p>
+<p style=3D"margin: 10px 0px;">Their <a href=3D"https://link.mail.bloomberg=
+business.com/click/24580483.273146/aHR0cHM6Ly93d3cubW9kZXJudHJlYXN1cnkuY29t=
+L21vbmV5c3R1ZmYtMQ/607f07ceef4b8524a319a23cBd0355cd0" style=3D"color: #0000=
+00; text-decoration: underline;"> software platform</a>=C2=A0connects direc=
+tly to your corporate bank accounts and ERP systems so that finance teams g=
+et <a href=3D"https://link.mail.bloombergbusiness.com/click/24580483.273146=
+/aHR0cHM6Ly93d3cubW9kZXJudHJlYXN1cnkuY29tL21vbmV5c3R1ZmYtMg/607f07ceef4b852=
+4a319a23cB036a9a20" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" title=3D"full visibility and control" style=3D"color: #000000; =
+text-decoration: underline;"> full visibility and control</a> over payments=
+ and developers get flexible APIs to automate complex payment flows.=C2=A0<=
+/p>
+<p style=3D"margin: 10px 0px;"><a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24580483.273146/aHR0cHM6Ly93d3cubW9kZXJudHJlYXN1cnkuY29tL21vbm=
+V5c3R1ZmYtMw/607f07ceef4b8524a319a23cB9564ef22" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" title=3D"Learn how" style=3D"color: #000000; text-decor=
+ation: underline;">Learn how</a> innovative companies like Pipe used MT to =
+transform how they move money.</p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Modern Treasury<=
+/p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Deutsche Bank is back</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMD=
+lhNTdhMDctZWYyYS00YWRiLTk5NGYtNTA2NGRkODA4MTQ4/607f07ceef4b8524a319a23cBec8=
+73a2f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">lov=
+e it</a>:</p><blockquote><p style=3D"margin: 16px 0;">Deutsche Bank has dit=
+ched a cost-cutting target central to chief executive Christian Sewing=E2=
+=80=99s effort to revive the fortunes of Germany=E2=80=99s biggest lender, =
+telling shareholders that the transformation was now =E2=80=9Csignificantly=
+ advanced=E2=80=9D after reporting its best run of profits in almost a deca=
+de.</p><p style=3D"margin: 16px 0;">The bank said on Wednesday it was scrap=
+ping its cost-cutting target for 2022, a centrepiece of the turnround plan =
+Sewing first unveiled two years ago, and raised its full-year revenue targe=
+t for this year.</p><p style=3D"margin: 16px 0;">The move comes shortly aft=
+er Deutsche backtracked on a goal of cutting 18,000 jobs, a target set in t=
+he summer of 2019 when Sewing unveiled a radical plan to end more than a de=
+cade of disappointing earnings and scale back the bank=E2=80=99s global amb=
+itions.</p><p style=3D"margin: 16px 0;">Until now the bank=E2=80=99s senior=
+ management has repeatedly argued that costs are the key benchmark to measu=
+re the success of the restructuring, because they are the only lever under =
+its control. Sewing=E2=80=99s predecessor John Cryan was ousted in 2018 aft=
+er acknowledging that the bank would miss a crucial cost-cutting target.</p=
+><p style=3D"margin: 16px 0;">The decision to abandon the target came as De=
+utsche delivered better than expected second-quarter results, with net prof=
+its hitting =E2=82=AC692m, comfortably surpassing analysts=E2=80=99 expecta=
+tions of =E2=82=AC372m. The bank claimed it had generated =E2=80=9Csustaina=
+ble profitability=E2=80=9D in the first half of the year.</p></blockquote><=
+p style=3D"margin: 16px 0;">See, when you=E2=80=99re not making a lot of mo=
+ney in a fickle cyclical business like banking, you say =E2=80=9Ccosts are =
+the only lever under our control=E2=80=9D and you focus on reducing them. Y=
+ou lay people off, you fly coach, you reuse paper clips, you tell sharehold=
+ers =E2=80=9Clook we know things aren=E2=80=99t great but we are doing what=
+ we can, with the paper clips.=E2=80=9D</p><p style=3D"margin: 16px 0;">And=
+ then you have a <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+4580483.273146/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjEtMDctMjgvZGV1dHNjaGUtc2hvdy15b3UtY2FuLXNocmluay1hbi1pbnZlc3RtZW50LWJhbms=
+tdG8tZ3JlYXRuZXNz/607f07ceef4b8524a319a23cB6fe0e8db" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> nice trading quarter</a> and yo=
+u=E2=80=99re like =E2=80=9Cactually it turns out we=C2=A0can totally contro=
+l revenues, we have mastered the art of reliably making money trading bonds=
+, nothing can ever go wrong again, use all the paper clips you want.=E2=80=
+=9D=C2=A0</p><p style=3D"margin: 16px 0;">I=E2=80=99m exaggerating a little=
+ =E2=80=94=C2=A0Deutsche Bank <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24580483.273146/aHR0cHM6Ly93d3cuZGIuY29tL25ld3MvZGV0YWlsLzIwMjE=
+wNzI4LWRldXRzY2hlLWJhbmstcmVwb3J0cy1wcm9maXQtYmVmb3JlLXRheC1vZi1FVVItMS0yLW=
+JpbGxpb24taW4tdGhlLXNlY29uZC1xdWFydGVyLW9mLTIwMjE_bGFuZ3VhZ2VfaWQ9MQ/607f07=
+ceef4b8524a319a23cB5abaf3de" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">will be targeting</a> a 70% cost/income ratio rather tha=
+n a specific number of euros of costs =E2=80=94 but man is this ever how in=
+vestment banks work. You can imagine a bank that is like =E2=80=9Cwe are go=
+ing to focus on costs throughout the cycle because we don=E2=80=99t want to=
+ become bloated and complacent when times are good,=E2=80=9D but you can on=
+ly barely imagine it.</p><table class=3D"header" width=3D"100%" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">The Wu-Tang album</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3cuanVzdGljZS5nb3Yv=
+dXNhby1lZG55L3ByL3JhcmUtY3VuZWlmb3JtLXRhYmxldC1iZWFyaW5nLXBvcnRpb24tZXBpYy1=
+naWxnYW1lc2gtZm9yZmVpdGVkLXVuaXRlZC1zdGF0ZXM/607f07ceef4b8524a319a23cB6b508=
+699" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">a pre=
+ss release</a> that the U.S. Attorney=E2=80=99s Office for the Eastern Dist=
+rict of New York issued yesterday about a unique piece of cultural property=
+ that was forfeited to the U.S. government:</p><blockquote><p style=3D"marg=
+in: 16px 0;">A 12-tablet Babylonian version of the Gilgamesh epic, written =
+in Akkadian, was discovered in 1853 in the ruins of the library of the Assy=
+rian King Assur Banipal in Nineveh (located in modern-day northern Iraq). T=
+he events in the epic revolve around King Gilgamesh of Uruk (located in mod=
+ern-day southern Iraq).=C2=A0</p><p style=3D"margin: 16px 0;">The governmen=
+t=E2=80=99s investigation showed that in 2003, a U.S. antiquities dealer (t=
+he =E2=80=9CAntiquities Dealer=E2=80=9D) purchased the Gilgamesh Dream Tabl=
+et, encrusted with dirt and unreadable, from a family member of a coin deal=
+er in London. The Antiquities Dealer and a U.S. cuneiform expert shipped th=
+e tablet into the United States by international post without declaring for=
+mal entry. After the tablet was imported and cleaned, experts in cuneiform =
+recognized it as bearing a portion of the Gilgamesh epic in which the prota=
+gonist describes his dreams to his mother. The protagonist=E2=80=99s mother=
+ interprets the dreams as foretelling the arrival of a new friend.=C2=A0She=
+ tells her son, =E2=80=9CYou will see him and your heart will laugh.=E2=80=
+=9D=C2=A0The names of the hero, Gilgamesh, and the character who becomes hi=
+s friend, Enkidu, are replaced in this tablet with the names of deities Sin=
+ and Ea. The tablet measures approximately 6-inches by 5-inches and is writ=
+ten in the Akkadian language.</p></blockquote><p style=3D"margin: 16px 0;">=
+Oops, sorry, that=E2=80=99s the wrong one. The Gilgamesh tablet was sold by=
+ an auction house =E2=80=9Cto Hobby Lobby Stores, Inc. (=E2=80=98Hobby Lobb=
+y=E2=80=99), a prominent arts-and-crafts retailer based in Oklahoma City, O=
+klahoma, for display at the Museum of the Bible,=E2=80=9D and law enforceme=
+nt seized it. I don=E2=80=99t know what they=E2=80=99re going to do with it=
+. Give it back to Iraq?</p><p style=3D"margin: 16px 0;">Anyway no here=E2=
+=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/24580483.2=
+73146/aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvdXNhby1lZG55L3ByL3VuaXRlZC1zdGF0ZXMtc=
+2VsbHMtdW5pcXVlLXd1LXRhbmctY2xhbi1hbGJ1bS1mb3JmZWl0ZWQtY29udmljdGVkLWhlZGdl=
+LWZ1bmQtbWFuYWdlcg/607f07ceef4b8524a319a23cB1afd0145" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">the=C2=A0<em>other</em> press r=
+elease</a> that the U.S. Attorney=E2=80=99s Office for the Eastern District=
+ of New York issued yesterday about a unique piece of cultural property tha=
+t was forfeited to the U.S. government:</p><blockquote><p style=3D"margin: =
+16px 0;">Earlier today, the United States sold the sole copy of the Wu-Tang=
+ Clan album =E2=80=9COnce Upon a Time in Shaolin=E2=80=9D (the =E2=80=9CAlb=
+um=E2=80=9D) which had previously been ordered to be forfeited as a substit=
+ute asset in connection with the approximately $7.4 million forfeiture mone=
+y judgment (Forfeiture Money Judgment) entered against Shkreli at his March=
+ 2018 sentencing.=C2=A0Proceeds from the sale of the Album will be applied =
+to satisfy the outstanding balance owed on the Forfeiture Money Judgment. T=
+he contract of sale contains a confidentiality provision that protects info=
+rmation relating to the buyer and price. =E2=80=A6</p><p style=3D"margin: 1=
+6px 0;">At the time Shkreli purchased the Album in 2015, it was marketed as=
+ =E2=80=9Cboth a work of art and an audio artifact.=E2=80=9D=C2=A0The Album=
+ includes a hand-carved nickel-silver box as well as a leather-bound manusc=
+ript containing lyrics and a certificate of authenticity. The Album is subj=
+ect to various restrictions, including those relating to the duplication of=
+ its sound recordings.In September 2017, just weeks after his conviction bu=
+t before the district court-imposed forfeiture, Shkreli attempted to sell t=
+he Album through an on-line auction.</p></blockquote><p style=3D"margin: 16=
+px 0;">Bloomberg <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+4580483.273146/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEt=
+MDctMjcvd3UtdGFuZy1hbGJ1bS1vd25lZC1ieS1tYXJ0aW4tc2hrcmVsaS1zb2xkLWJ5LXUtcy1=
+nb3Zlcm5tZW50/607f07ceef4b8524a319a23cBf1a76378" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> reports</a>:</p><blockquote><p styl=
+e=3D"margin: 16px 0;">The anonymous buyer of the album was represented by P=
+eter Scoolidge, a New York-based attorney. =E2=80=9CThis was the most inter=
+esting deal I have ever worked on,=E2=80=9D Scoolidge said in a statement.<=
+/p></blockquote><p style=3D"margin: 16px 0;">Ehh I guess? I mean, fine, it=
+=E2=80=99s a box and a book and an associated set of contractual provisions=
+. (We discussed those provisions, plus some imaginary ones, in the <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24580483.273146/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMTItMTcvbWFydGluLXNo=
+a3JlbGktYWNjdXNlZC1vZi1iZWluZy1zdXJwcmlzaW5nbHktZ29vZC1hdC1mcmF1ZA/607f07ce=
+ef4b8524a319a23cB53224673" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> appendix to this post</a>.) I suppose if you are buying t=
+he thing you have to <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/24580483.273146/aHR0cHM6Ly93d3cudGVjaGRpcnQuY29tL2FydGljbGVzLzIwMTgwMzA1=
+LzE3NDA1NzM5MzYyL2Rvai1ub3ctaGFzLW9uZS1raW5kLXd1LXRhbmctYWxidW0tZG9udC1leHB=
+lY3QtamVmZi1zZXNzaW9ucy10by1yZWxlYXNlLWFsYnVtLnNodG1sP19nb2JldGE9dHJ1ZQ/607=
+f07ceef4b8524a319a23cBaa1d77e0" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">figure out</a> whether you succeed to Shkreli=E2=80=
+=99s contractual rights to prevent Wu-Tang from releasing more copies of th=
+e album; it=E2=80=99d be funny if someone paid the government a lot of mone=
+y for this one-of-a-kind Wu-Tang album and then Wu-Tang just put it on Spot=
+ify. You=E2=80=99d still have the certificate of authenticity, though; no o=
+ne else has that. Unless they type up their own. You=E2=80=99d have the onl=
+y authentic certificate of authenticity.</p><p style=3D"margin: 16px 0;">Ob=
+viously the thing that Martin Shkreli bought from the Wu-Tang Clan was a no=
+n-fungible token? It was a non-fungible token <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDcvc3BhY3MtY2FuLXNob290LW91dC1zcGFyY3=
+M/607f07ceef4b8524a319a23cBfe7097f9" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> rendered in</a> paper and leather and nickel an=
+d silver rather than immutable blockchain code, but still. And then the gov=
+ernment seized it and re-sold it, which is a thing it can do, but you can c=
+ertainly imagine a more interesting deal? What if the government had securi=
+tized Martin Shkreli=E2=80=99s Wu-Tang album? Or what if it had sold a limi=
+ted edition of 1,000 non-fungible tokens, each recorded on the blockchain, =
+each accompanied by a certificate of authenticity signed by the U.S. Attorn=
+ey for the Eastern District of Brooklyn, each representing =E2=80=9Chey I b=
+ought an NFT of the time the U.S. government seized Martin Shkreli=E2=80=99=
+s Wu-Tang album=E2=80=9D? What if the government had held a press conferenc=
+e and said =E2=80=9Ccrime does not pay, and we will destroy everything asso=
+ciated with this crime,=E2=80=9D and then burned the Wu-Tang album on camer=
+a and then sold an NFT of=C2=A0<em>that?=C2=A0</em>What if I sold this sect=
+ion of this column as an NFT? What if someone filmed Martin Shkreli reading=
+ this paragraph and sold that as an NFT?=C2=A0</p><p style=3D"margin: 16px =
+0;">Do you remember when NFTs were a big deal? It was only like a couple of=
+ months ago.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Get valuable responsibility early</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">This <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjEtMDctMjgvZnJvbS1pbnRlcm4tdG8tY28tZGVmZW5kYW50LWJhcn=
+JhY2stcHJvdGVnZS1mYWNlcy1sb3lhbHR5LXRlc3Q/607f07ceef4b8524a319a23cB71aa6cdd=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> article=
+ about Matthew Grimes</a>, a 27-year-old Wharton graduate who=C2=A0works fo=
+r Tom Barrack and was arrested with him on charges of acting as unregistere=
+d foreign agents for the United Arab Emirates, is not really core Money Stu=
+ff subject matter, but I do want to spend a minute enjoying the headline, w=
+hich is =E2=80=9CFrom Intern to Co-Defendant.=E2=80=9D That is really the d=
+ream career path. You start out as an intern just making copies and getting=
+ coffee =E2=80=94=C2=A0=E2=80=9Caboard Barrack=E2=80=99s private planes, Gr=
+imes would graciously serve tea and crackers, and was sometimes called upon=
+ to book restaurant reservations=E2=80=9D =E2=80=94=C2=A0but if you work ha=
+rd and are a good team player you will rapidly progress. You=E2=80=99ll get=
+ face time with the boss, take on increasing responsibility, be put in fron=
+t of clients, lead your own deals =E2=80=94=C2=A0Grimes =E2=80=9Cwas also p=
+resident of a related special purpose acquisition vehicle=E2=80=9D =E2=80=
+=94=C2=A0and, if everything works out just right, you=E2=80=99ll end up cha=
+rged in the same federal criminal prosecution as the boss. That=E2=80=99s h=
+ow you know you=E2=80=99ve made it.</p><table class=3D"header" width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3cudGhlYXRsYW50aWMuY29t=
+L3BvbGl0aWNzL2FyY2hpdmUvMjAyMS8wNy9ob3ctZ292ZXJubWVudC1sZWFybmVkLXdhc3RlLXl=
+vdXItdGltZS10YXgvNjE5NTY4Lw/607f07ceef4b8524a319a23cB90a64717" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Time Tax</a>. People a=
+re worried about <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+4580483.273146/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNWI0MTczMTAtZjFiNi00Zjhh=
+LWFmNDYtYzU1YjY1MjMxYWM0/607f07ceef4b8524a319a23cBd0726536" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">bond market liquidity</a>=
+.=C2=A0Credit Suisse=E2=80=99s Archegos Inquiry <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjgvY3JlZGl0LXN1aXNzZS1zLWFyY2hlZ29zLWlu=
+dmVzdGlnYXRpb24tcmlwcy1iYW5rLXMtZHVlLWRpbGlnZW5jZQ/607f07ceef4b8524a319a23c=
+B5056037b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> Rips Bank=E2=80=99s Due Diligence</a>. Beijing=E2=80=99s <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3cuZn=
+QuY29tL2NvbnRlbnQvMzhiYTdiYjktOWE3ZS00ODE3LTgwY2YtMzI0YmM5YTQ1Mjdi/607f07ce=
+ef4b8524a319a23cB53fe24d8" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">threat to VIEs</a> triggers Wall Street angst over China s=
+tocks.=C2=A0Spiraling Debt Crisis Confronts <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjEtMDctMjcvdG9vLWJpZy10by1mYWlsLWRlYnQtY3Jpc2lzLWF0=
+LXByb3BlcnR5LWdpYW50LWNoaW5hLWV2ZXJncmFuZGUtdGVzdHMteGktamlucGluZw/607f07ce=
+ef4b8524a319a23cB183c2ab6" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Evergrande</a> Billionaire =E2=80=94 and Xi. Chinese Bike=
+-Sharing Startup Hello <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/24580483.273146/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjEtMDctMjcvY2hpbmVzZS1iaWtlLXNoYXJpbmctc3RhcnR1cC1oZWxsby1zY3JhcHMtcGxhb=
+nMtZm9yLXUtcy1pcG8/607f07ceef4b8524a319a23cB49536768" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> Scraps Plans</a> for U.S. IPO.=
+ US <a href=3D"https://link.mail.bloombergbusiness.com/click/24580483.27314=
+6/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMDQ2ZDQyZDEtZWMwYi00NjQ5LWFmNmEtNTkyN=
+DMwYjU2Njhj/607f07ceef4b8524a319a23cB8ba10638" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">law firms</a> offer bonuses of up to $=
+250,000 in battle for staff. Hot Housing Market Lets Banks <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3cud3=
+NqLmNvbS9hcnRpY2xlcy9ob3QtaG91c2luZy1tYXJrZXQtbGV0cy1iYW5rcy1zZWxsLW1vcnRnY=
+WdlLXJpc2stMTE2Mjc0NjQ2MDA_bW9kPWhwX2xlYWRfcG9zNg/607f07ceef4b8524a319a23cB=
+b621caa3" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Sell Mortgage Risk</a>. Retail investors to drive $1.5tn push towards <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24580483.273146/aHR0cHM=
+6Ly93d3cuZnQuY29tL2NvbnRlbnQvNGNiOGZjY2YtMzI3Zi00MzczLTk0NTAtNjA2NjRhOTAzZD=
+Uw/607f07ceef4b8524a319a23cB4970d62e" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">bespoke index funds</a>. =E2=80=9CWe find that =
+option expensiveness, as measured by implied volatility, is higher for low-=
+ESG stocks, showing that investors pay a premium in the option market to <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/24580483.273146/aHR0=
+cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTM4NzgxMjM=
+/607f07ceef4b8524a319a23cBdbdc6cef" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">hedge ESG-related uncertainty</a>.=E2=80=9D=C2=A0=
+Court Documents Reveal Ex-Glencore Trader=E2=80=99s Political <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjgvZXgtZ2xlbmNvcmUtdHJhZG=
+VyLWJyaWJlcy1pbmNsdWRlZC0zMDAtMDAwLWZvci1uaWdlcmlhLWVsZWN0aW9u/607f07ceef4b=
+8524a319a23cB2dc9681e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Bribes in Nigeria</a>. HSBC accused of =E2=80=98blatant and i=
+ndefensible=E2=80=99 <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/24580483.273146/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMGFlMjNmZGUtMTJlNS00=
+MzE0LWI0M2ItMTkxNmNiMzk2M2I2/607f07ceef4b8524a319a23cB7acacf27" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">forex fraud</a> by ex=
+-client. CFA Pass Rate Plummets to Record Low of 25% for <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjcvY2ZhLXBhc3MtcmF0ZS1wbHVtbWV=
+0cy10by1yZWNvcmQtbG93LW9mLTI1LWZvci1sZXZlbC0xLWV4YW0/607f07ceef4b8524a319a2=
+3cB6cb8ff34" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Level 1 Exam</a>.=C2=A0Ethanol, <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24580483.273146/aHR0cHM6Ly90d2l0dGVyLmNvbS9hbGxzdGFyY2hhc=
+nRzL3N0YXR1cy8xNDE4OTE2NjUxOTcwNDY1ODAw/607f07ceef4b8524a319a23cB09f0bf86" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">Ethan Alle=
+n</a>, Ethereum. =E2=80=9CYonex Co., which makes <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/24580483.273146/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjgvamFwYW4tcy10b3Atb2YtdGhlLW1lZGFsLXR=
+hYmxlLXN1cnByaXNpbmctc3RvY2tzLWFyZS1nb2xkZW4tdG9v/607f07ceef4b8524a319a23cB=
+88b8f061" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Naomi Osaka=E2=80=99s tennis racquets</a>, has slumped 8% in two days afte=
+r the superstar unexpectedly crashed out of the tournament in the third rou=
+nd on Tuesday.=E2=80=9D In the battle of the mega-yachts, does <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/24580483.273146/aHR0cHM6Ly9wYW=
+dlc2l4LmNvbS8yMDIxLzA3LzI3L2NvbXBhcmluZy1hbGV4LXJvZHJpZ3Vlei1qZW5uaWZlci1sb=
+3Blei1hbmQtYmVuLWFmZmxlY2tzLXlhY2h0cy8/607f07ceef4b8524a319a23cBb152409b" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">Jennifer Lo=
+pez or Alex Rodriguez=E2=80=99s</a> come out on top?</p><p style=3D"margin:=
+ 16px 0;"><span class=3D"news-designed-for-consumer-media"><em>If you'd lik=
+e to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbo=
+x, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/245=
+80483.273146/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d2=
+0vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3Y=
+Q/607f07ceef4b8524a319a23cB42b8e9a7" target=3D"_blank" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;">su=
+bscribe at this link</a>. Or you can subscribe to Money Stuff and other gre=
+at Bloomberg newsletters <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24580483.273146/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz=
+/607f07ceef4b8524a319a23cB75b8db82" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"marg=
+in: 16px 0;"><em>[1] The theory is just that there is a schedule of demand =
+from institutions: Some will buy at any price, some will buy at $55 but no =
+higher, some at $52, some at $50, some will only pay $45, etc. You can just=
+ line them up in order by price and see how many shares they are willing to=
+ buy: 10 million at no limit, 7 million at $55, 4 million at $52, etc. And =
+you keep counting down, from high prices to low prices, until you get to th=
+e number of shares you need to sell, and the *lowest* price that you get to=
+ is the clearing price. So if you need to sell 50 million shares you keep c=
+ounting demand until you get to the 50 millionth share at $45 or whatever. =
+But if you change your mind and only need to sell 30 million shares, you do=
+n=E2=80=99t have to count as far, and you get to the 30 millionth share at =
+$52. This is not an entirely realistic model of how IPO bookbuilding works,=
+ but it is a decent toy model.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24580483.273146/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBe3369473" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24580483.273146/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB4df7c17f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24580483.273146/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB835ef318" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24580483.273146/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB1bc0d6c0" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2458048=
+3.273146/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB089ffac0" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24580483.273146/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC90ae2002" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24580483.273146/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB88abd6c4" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24580483.273146/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB6b883b5e" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cemuf7.5ure/d8de3dc4.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_66659980_875616770.1627489870553--
+

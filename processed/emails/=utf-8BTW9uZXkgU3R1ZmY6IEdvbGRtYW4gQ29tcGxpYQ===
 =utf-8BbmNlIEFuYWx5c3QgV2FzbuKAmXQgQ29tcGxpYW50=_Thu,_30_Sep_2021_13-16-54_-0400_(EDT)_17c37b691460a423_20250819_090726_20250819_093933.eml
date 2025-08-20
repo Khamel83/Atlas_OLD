@@ -1,0 +1,1889 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:712:b0:13b:de3:276c with SMTP id o18csp749265lki;
+        Thu, 30 Sep 2021 10:18:04 -0700 (PDT)
+X-Received: by 2002:a50:e081:: with SMTP id f1mr8664850edl.65.1633022283827;
+        Thu, 30 Sep 2021 10:18:03 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1633022283; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Z/N+DcSU1zOz99m0hjCMLPuduQsEWE8gsfvTc/0e1kTmj/qsc8kpE4ja4++/ofZXSN
+         mDCDvZe5vUIlKlWHnJwuE04guO4kCH1jzW2QiKg61oTrWpVilROGoMZeJzDXaGYi5pnn
+         hD4FXIDvbVOF5gFrFZaPo3Hs6BN77gbFA7dJ7sfLu0cNmLMaX8kR0WwpvE3WQNHkj5VS
+         gSnJPWLT6XhLd+4819MFguHp6prS0bBivIIB3ELqetU8Nt3U4D4iQPZCN1h/NWb3xK87
+         wUVa94GLYEYfOhK9aaa3sTz6VJYNcepLOSEZlmp+Ska7fsJYa26ZwTCKQcEHPUCXGO01
+         PQzg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=zTe3xvZqId2tbpQuhbQo1NxokfYfn/jIM9FHXCPkHHM=;
+        b=G23+9dBVCcFHyrqjPA8uEhKXrJUP8nXBZdnjEoLngZs4iwgr4RvHELEYKvBFjSPG1d
+         /htPokFE62CodGGxl0p555gySvn3QvUiyIBjasx1c7ZEusDziv4KFWUfrIo+sqgXmov8
+         CJ58BEJ/vrZw0Pl3W83wzIEnMpb9OGXGlyzoP+/c9YD8YF2ArzkTIlIlBKr+ONsCTIs4
+         O3PXnqJ9+iNI1epltAXLxhh8QqikQ6HBfIhITU11WR3PaJnQm2QEfRPMZ64rLkJW/eMQ
+         zG+IIJWuQPl5Q/H5dtpE4iQV9Esm9jjgqXIUyItpm3LzgYvpdkyUbZnIkENa5k0VczMh
+         oYrQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=AAxDpCZC;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id b23sor2457251ejb.24.2021.09.30.10.18.03
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 30 Sep 2021 10:18:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=AAxDpCZC;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=zTe3xvZqId2tbpQuhbQo1NxokfYfn/jIM9FHXCPkHHM=;
+        b=ABC/K2Z2ZJZRKRX+QeS3J/Q6+xIOMcByKrFwejcjMR1QDmtB2beBhlq6muC8+xS78A
+         wXaRkC35ccdSqSDJlkNex+F0r7Yog97JZCdDjpahUUmu1dXrOQk7QcsYgVYsdI1icPwL
+         xnIHS2YfaOjVNka+mnY/RPADlkcAJaQji9m+AI8jzyjVSUQ0UkZZx/x0+MlZtKrpM4q/
+         SP61syCmmZBcJaaLN64JBlwhc0ga7a0AsOPBJXWlcPS/Sor4FawzQLwnMOTGPEGmqIic
+         Gp+a+8elssDuVHMIU3Hq3gflJYCw6+fj1MLMOUGldSy9iLOIDIEIooZySRYwHgcq1OCR
+         +fgA==
+X-Gm-Message-State: AOAM530pKgTnRWmI3a1pHCp6R1vJ0KmjXhMUSu8cvAUoKlaaJHhN6+U2
+	XYLCFsW9kkXfd65qW+iuC2MzNpEtV5amPGqBL9WjQ6CkhgxnS2SYaw==
+X-Received: by 2002:a17:906:2817:: with SMTP id r23mr395930ejc.285.1633022283398;
+        Thu, 30 Sep 2021 10:18:03 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3a91:0:0:0:0:0 with SMTP id b17csp469358ect;
+        Thu, 30 Sep 2021 10:18:00 -0700 (PDT)
+X-Received: by 2002:a50:da06:: with SMTP id z6mr8579873edj.355.1633022280255;
+        Thu, 30 Sep 2021 10:18:00 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1633022280; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=WHMtDVp9LYQ1LFoySzHtPF42wA0cIKi2suSHk+6oN3Qlgn7GPBKezaJqS0G+gHTHBf
+         dAbAek2bXtMQyLXpiRq4S7uz4ise5zdGZIM9FFnhDfM5CR81+IR0LOiV6Q2z2wR81OJA
+         BOrAkNf6k1b1q2fblEtAGsr13eFhwqZzBH0baobPZwndPujRwI8EDC9hZjVF5O5nNh/B
+         Ta0M5lS4m9sOi+p0rxiMaA0+H0YpRr3uhBRTtgmyDByw2EIFFG+iu5cGsmdFaMgaOjUr
+         3agRgq578eEZq7uByaUUEpJ1s7HNmaSejgBij3Fc7BDThUt9MA8XdJ6JSESlni3IginI
+         oPHg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=zTe3xvZqId2tbpQuhbQo1NxokfYfn/jIM9FHXCPkHHM=;
+        b=GgXJWMehuaKWYzHricYHwEQ84FJKRM3NyK+a8S6YJm6KrP3dIudpv0Ftd0AijwDn2L
+         QNPspPrBCwzDbsvFps5nFxewtMtdAZbGjjsMxPvGC1eELyAEnDdi9LvmVBiLNO97uTZM
+         C3RsJv3MUBk3En1VvY3K4Lzm/bAQwtndXF2joTwDN19hEak9+uYbq4rnKAE7RTUTOm/y
+         O+bVLi1R6W1c38aoUPfI0s7TLi5rv+CPHZz2w3SbiCMyAYPq4yHos5qhlyOCGL5Qtp76
+         s/QFijxPDCAyK/+/R5OU6Pn98uXNay2C5+2JKqIRIm8s9n3nqmlTwJkyoAQE5jXcilsF
+         n9Og==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=AAxDpCZC;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210930131654.25195151.265551@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210930131654.25195151.265551@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210930131654.25195151.265551@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id hg7sor2487777ejc.26.2021.09.30.10.18.00
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 30 Sep 2021 10:18:00 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210930131654.25195151.265551@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxkdshSnlr9XmKrK3fZGywAYMZL2/DOVMvYLC00DRiYkNqHC0zz4uU6vmdDoCskrrz1VxHHWRdcugJFUlgUgl+hkdRg3pU=
+X-Received: by 2002:aa7:cccb:: with SMTP id y11mr3559132edt.277.1633022279935;
+        Thu, 30 Sep 2021 10:17:59 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1633022279; cv=none;
+        d=google.com; s=arc-20160816;
+        b=1KB5X+nW9kWFAcpW3z3hpNOKW+/FivKMCIbDVoTNFmLZGNswXinUaVWdrIX8rOLIcM
+         g5CwhjfjaTjSVECwUL7BvFKEWkbjM5ckw1PWRHaH79LqVAZrcU5CmPmKuWVn1Hxn1csu
+         B5cjTx+MC8vjGAlpTzV1EL6tE6htrwxj58bMmgSkpPeU4SJXQ0F9bOlnRZPtzHbAQS9c
+         gAxI4iMPBybbBrwPhQzyofbZ9jWDfjxBZyiBhcjaXxZpyM+UGboSYnVx8mca0Aqp/zDX
+         vhkl2ajuFPhvptl2tiKfOfhI9cRpwL2px4ESEV3PVqVmw2lk7d9OWfDG0PEv1hBIL7/U
+         MNxA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=zTe3xvZqId2tbpQuhbQo1NxokfYfn/jIM9FHXCPkHHM=;
+        b=OaV4mpZvDQe/pCJS5tM8ziC1WSjbQ2FbX+cSe1L9+BGcFyn6nGxSLmgTVxHUNu2dXc
+         Fv0xmkFwJpsgZwrz0GQK6t9VZyPmCSs9uu5JoVahvbwIQKFFS+jacrYNooi1DXg7EgNy
+         rWf+trekHZFQelZ9l23n2FgsU4VIWOfcLgUUCwW9+dffcQwfyFplGDQY5TNTzCS38l9/
+         dNvq2v2YfwOgh7UEODmEBicaAvAbIrcA1HLyqOxHEOV5Kq5XuNisLY8IxR0o2oNMD7Mz
+         6NoZzUxg23ZLHzoCUuzEIPTarKZ5AHgwwWr0yKXWOYKSZGzbEfgwfh9MZ1gZNhQ8zHct
+         BkZA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=AAxDpCZC;
+       spf=pass (google.com: domain of delivery_20210930131654.25195151.265551@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210930131654.25195151.265551@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210930131654.25195151.265551@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id r23si282133edy.3.2021.09.30.10.17.59
+        for <khamel83@gmail.com>;
+        Thu, 30 Sep 2021 10:17:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210930131654.25195151.265551@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=EfmycRPLQsu4f4S8s23it4nh4tE=;
+ b=AAxDpCZCqccE3pMsKfgIqdQp4NfScPrjBV9mxxnUVj2rIqSlYdUTXGqj4rQ2KiI3NcZCt6M4yWz2
+   o7WWMk1dCUANR4/B7LSSakS48F9+WSrpYid+xPNSzBUj5PJDcK7mmbrN5A8pOEYjpXhY7msmXWut
+   oxDIDkb98qZLOpdIZ4I=
+Received: from njmta-53.sailthru.com (173.228.155.53) by bloomberg-b.sailthru.com id hanoke1qqbso for <bloomberg@khamel.com>; Thu, 30 Sep 2021 13:17:58 -0400 (envelope-from <delivery_20210930131654.25195151.265551@mx.sailthru.com>)
+Received: from nj1-oddturquoise.flt (172.18.48.8) by njmta-53.sailthru.com id hanokc1qqbsq for <bloomberg@khamel.com>; Thu, 30 Sep 2021 13:16:54 -0400 (envelope-from <delivery_20210930131654.25195151.265551@mx.sailthru.com>)
+Date: Thu, 30 Sep 2021 13:16:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210930131654.25195151.265551@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEdvbGRtYW4gQ29tcGxpYQ==?=
+ =?utf-8?B?bmNlIEFuYWx5c3QgV2FzbuKAmXQgQ29tcGxpYW50?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_622717_2146696361.1633022214108"
+Precedence: bulk
+X-Feedback-ID: 6358:25195151:campaign:sailthru
+X-TM-ID: 20210930131654.25195151.265551
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddturquoise.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cf00pb.5owf/1d992f52
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cf00pb.5owf/1d992f52>, <mailto:unsubscribe_20210930131654.25195151.265551@mx.sailthru.com>
+X-rpcampaign: stjko25195151
+
+------=_Part_622717_2146696361.1633022214108
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+ =20
+   =20
+      Insider trading (1)
+   =20
+ =20
+I assume that most people who work in compliance at big investment banks ar=
+e good, upstanding, compliant people, but I also get the impression that th=
+ere is a small but important minority who got into the compliance group bec=
+ause they thought it would be a good place to commit crimes?  Oops:A former=
+ Goldman Sachs Group Inc. compliance analyst whose job was to help the bank=
+ prevent insider trading was himself charged with insider trading by the Se=
+curities and Exchange Commission.The SEC sued Jose Luis Casero Sanchez on W=
+ednesday, claiming he used his position in the bank=E2=80=99s Warsaw office=
+ to access a control room which stored confidential information on =E2=80=
+=9Call pending and potential transactions in which the investment bank was =
+involved and advising clients.=E2=80=9D He made at least $471,700 in illega=
+l trading profits, the regulator said.Look, it is=C2=A0a good place to comm=
+it crimes! =E2=80=9CNobody suspects the compliance analyst=E2=80=9D would b=
+e a funny thing to say but isn=E2=80=99t particularly true; I bet everyone =
+suspects the compliance analyst. The real advantage is access to informatio=
+n.=C2=A0If you go to Goldman and work as an investment banking analyst, you=
+ will know about the handful of mergers that you are working on, and you wi=
+ll certainly hear about=C2=A0some other mergers that your friends are worki=
+ng on, but there are at least vague gestures in the direction of compartmen=
+talization and confidentiality even within the firm, and anyway you=C2=A0ar=
+e mostly busy on your own deals, not gossiping about everyone else=E2=80=99=
+s.=C2=A0Nobody is going to hand you a list of =E2=80=9Chere is every merger=
+ we are working on.=E2=80=9DWhereas they did hand Casero Sanchez that list.=
+ From the SEC=E2=80=99s complaint:One of Sanchez=E2=80=99s duties was to up=
+date the firm=E2=80=99s =E2=80=9CGrey List,=E2=80=9D which is a confidentia=
+l list of public and private entities for which the firm=E2=80=99s private-=
+side personnel possess material, nonpublic information.Typically, Grey List=
+ entities are involved in merger and acquisition activity and financings su=
+ch as public and private securities offerings, among other things. If an en=
+tity is on the Grey List, certain controls at the Investment Bank may be im=
+plicated, including but not limited to, surveillance of firm and client tra=
+ding activities in the securities of the company on the list, and the denia=
+l of certain employees=E2=80=99 personal trade requests in the securities o=
+f the company on the list.=C2=A0The Grey List is maintained on an internal =
+database at the Investment Bank (the =E2=80=9CConfidential Database=E2=80=
+=9D). The Confidential Database is the depository where material,=C2=A0nonp=
+ublic information about potential transactions involving the Investment Ban=
+k is stored. For each transaction, the Confidential Database may include, b=
+ut is not limited to: the names of the public and private entities involved=
+ in the potential or pending transaction; the firm=E2=80=99s role in the tr=
+ansaction; the nature of the transaction; the securities involved; the type=
+ of financing involved; the size of the transaction; pricing information; t=
+he projected announcement date; and other material, nonpublic details regar=
+ding the potential transaction.If someone hands you the passwords to a data=
+base and is like =E2=80=9Chere is a comprehensive list of all the stocks th=
+at we wouldn=E2=80=99t want anyone to insider trade on=E2=80=9D=C2=A0=E2=80=
+=A6=C2=A0you can see the temptation right?Anyway if you=E2=80=99re an inves=
+tment banking analyst and you work on like four deals and insider trade on =
+all of them, there are some problems; you only have a few shots to make mon=
+ey and you might find yourself reaching for profits by buying short-dated o=
+ut-of-the-money call options on merger targets, a violation of my Second La=
+w of Insider Trading. If you=E2=80=99re a compliance analyst with access to=
+ the comprehensive database of all deals, you can insider trade at a more l=
+eisurely pace. From the SEC=E2=80=99s press release:Between September 2020 =
+and May 2021, Sanchez allegedly abused that position of trust by trading on=
+ at least 45 events involving the investment bank=E2=80=99s clients based o=
+n the investment bank=E2=80=99s material, nonpublic information. To avoid d=
+etection, Sanchez allegedly traded in multiple U.S.-based brokerage account=
+s held in the name of one of his parents=E2=80=94Jose Luis Casero Abellan a=
+nd Maria Isabel Sanchez Gonzalez =E2=80=94and, in most instances, also refr=
+ained from placing large trades and made only modest profits. The complaint=
+ alleges that Sanchez generated more than $471,000 in ill-gotten gains duri=
+ng the course of the scheme.Well, he allegedly violated the Fourth Law of I=
+nsider Trading (=E2=80=9Cdon=E2=80=99t do it in your mother=E2=80=99s accou=
+nt=E2=80=9D), but all in all it=E2=80=99s a respectable effort. The SEC wen=
+t out of its way to say that he was hard to catch:=E2=80=9CDespite Sanchez=
+=E2=80=99s alleged efforts to avoid detection by limiting the size of his t=
+rades and using four different accounts to trade under his parents=E2=80=99=
+ names, the SEC=E2=80=99s keen analysis stitched together this pattern of s=
+uspicious trading and exposed gross violations of duty by a compliance prof=
+essional who exploited the sensitive information he was hired to protect.=
+=E2=80=9D said Joseph G. Sansone, Chief of the SEC=E2=80=99s Market Abuse U=
+nit.How many other compliance analysts out there are just a little bit bett=
+er at covering their tracks?
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Proxy voting
+   =20
+ =20
+I suppose somewhere out there there are people who are deeply engaged share=
+holders of one company. Each year these people get the company=E2=80=99s pr=
+oxy statement and read it cover to cover with great interest. Toward the ba=
+ck there are some shareholder proposals, in which shareholders get to sugge=
+st changes to how the company is run. These proposals typically have an env=
+ironmental, social or governance (ESG) flavor: A proposal might be =E2=80=
+=9Cthe company should do a report about how climate change will affect its =
+operations,=E2=80=9D or =E2=80=9Cthe company should do a report about the d=
+iversity of its managerial ranks,=E2=80=9D or =E2=80=9Cthe company should s=
+eparate the jobs of chairman of the board and chief executive officer.=E2=
+=80=9D These proposals are nonbinding and, under Securities and Exchange Co=
+mmission rules, cannot=C2=A0involve =E2=80=9Ca matter relating to the compa=
+ny=E2=80=99s ordinary business operations,=E2=80=9D so in practice they oft=
+en involve asking for reports rather than, like, =E2=80=9Cresolved, the com=
+pany will stop using fossil fuels.=E2=80=9DThe proposal will come with a li=
+ttle=C2=A0statement from the proponent, the (usually small, activist) share=
+holder who suggested it, and also a little=C2=A0statement from the company=
+=E2=80=99s board of directors, almost invariably recommending that sharehol=
+ders vote against the proposal. Our deeply engaged single-stock shareholder=
+ will read both statements carefully and think about the arguments that the=
+ proponent and the board make.=C2=A0She will weigh them in the context of h=
+er knowledge of the company. =E2=80=9CHmm,=E2=80=9D she will say, =E2=80=9C=
+I see what this person is saying about how separating the chairman and CEO =
+roles is best practice, but old Jim has done a great job as CEO and I=E2=80=
+=99d hate to risk upsetting him by taking away the chairman job.=E2=80=9D O=
+r: =E2=80=9CI would like to know about how climate change will affect the c=
+ompany, but I think the board=E2=80=99s track record on that is pretty good=
+ so I guess I will defer to them.=E2=80=9D Or =E2=80=9C=E2=80=A6=C2=A0and t=
+he board=E2=80=99s track record on that is pretty bad so I=E2=80=99ll vote =
+to demand more from them.=E2=80=9D Whatever.=C2=A0I don=E2=80=99t believe t=
+here are too many of these people but they probably exist. More than indivi=
+dual investors, some number of active stock-picking money managers probably=
+ own a relatively small number of stocks, track them carefully and vote reg=
+ularly on their proxy proposals. These money managers=C2=A0probably do not =
+read the proxies as closely as our hypothetical engaged retail shareholder =
+does. They do this a lot.=C2=A0They have heuristics. Maybe they vote agains=
+t most of these proposals, assuming that they=E2=80=99re nonbinding and a w=
+aste of time. Maybe their heuristic is =E2=80=9Cwe vote with management in =
+the companies that we like, but we vote against management on everything in=
+ companies where we dislike the board and are agitating for change.=E2=80=
+=9D Maybe they have issue-specific heuristics, =E2=80=9Cwe vote for climate=
+-change reports but against diversity reports=E2=80=9D or whatever. Probabl=
+y they have some mishmash of all of these heuristics, and vote different wa=
+ys for different proposals at different companies, but they don=E2=80=99t s=
+pend=C2=A0too=C2=A0much time thinking about it. These are not retail hobbyi=
+sts; they have a job to do (buying stocks that go up), and voting on proxy =
+proposals is not central to that job.It=E2=80=99s not irrelevant! Pressurin=
+g companies to do ESG things can increase their long-term value. A company =
+that has a poison pill or a staggered board might be less likely to be acqu=
+ired, and depending on your view of whether that would be good or bad for t=
+he value of your stock, you might care very much about voting on proposals =
+to get rid of a pill or to declassify the board. If you think that climate =
+change will be very bad for the company and that the board isn=E2=80=99t pa=
+ying attention, you will care a lot about getting the board to pay attentio=
+n, and a nonbinding request for a report on climate change is, you know, on=
+e more thing you could do to get the board to pay attention I guess. But mo=
+stly this stuff is pretty minor. Companies make money based mostly on how t=
+hey do their ordinary business, which is specifically off-limits to shareho=
+lder proposals. And even on the big-ticket stuff, companies seem to be more=
+ responsive to other forms of pressure (quiet nudges from big shareholders,=
+ social and customer pressure,  proxy fights) than they are to nonbinding p=
+roposals submitted by small shareholders.Then there are professional money =
+managers who own hundreds of stocks, perhaps all of the stocks, index funds=
+ and =E2=80=9Cquasi-indexers.=E2=80=9D It seems silly for these professiona=
+ls to read the proxies at all. (I=E2=80=99m sure they do =E2=80=94=C2=A0the=
+y have governance and stewardship teams to do that =E2=80=94=C2=A0but it se=
+ems silly.) Certainly if they have to vote on 100 shareholder proposals to =
+write climate reports in a proxy season, it would be silly for them to read=
+=C2=A0each=C2=A0of the proponents=E2=80=99 arguments and=C2=A0each=C2=A0of =
+the companies=E2=80=99 responses. They=E2=80=99ve seen all this before.At t=
+his level it is all heuristics. =E2=80=9CVote yes on climate proposals=E2=
+=80=9D or =E2=80=9Cvote with management unless we have a little red frowny =
+face next to the company in our huge spreadsheet of investments=E2=80=9D or=
+ whatever it is. If you own every company, you can=E2=80=99t have a close p=
+ersonal substantive relationship with all of them; you can=E2=80=99t waste =
+an hour thinking about whether=C2=A0this=C2=A0particular board of directors=
+ should or should not write a report about climate change. You have to have=
+ a general sense of whether it is good for companies to write climate repor=
+ts, and then use that general sense to inform some quick decisions about hu=
+ndreds of individual companies.Broadly speaking the trend of the last decad=
+e or so in proxy voting is that institutional asset managers used to have a=
+ heuristic of =E2=80=9Calways vote with management=E2=80=9D and now they ha=
+ve a heuristic of =E2=80=9Cvote for climate-change reports=E2=80=9D? I mean=
+, I oversimplify wildly. But as institutional investors talk more and more =
+about their commitment to ESG, it becomes more embarrassing for them to vot=
+e against ESG proposals. Someone will go collate all their votes and say =
+=E2=80=9Cthis firm voted against climate-change proposals in 87% of compani=
+es=E2=80=9D or whatever, and that will be embarrassing. And if the giant in=
+stitutional manager says =E2=80=9Cwell but we read all of those proposals c=
+losely and considered our deep working knowledge of those companies and dec=
+ided that a new report was unnecessary in 87% of the cases and necessary in=
+ 13%,=E2=80=9D one, that will not really satisfy anybody, and two, it proba=
+bly won=E2=80=99t be all that true. You were voting on some rough heuristic=
+ and now you had better shift your heuristic.Yesterday the SEC proposed a n=
+ew rule to make that collating easier:The Securities and Exchange Commissio=
+n today proposed amendments to Form N-PX to enhance the information mutual =
+funds, exchange-traded funds, and certain other funds report about their pr=
+oxy votes. The proposed rulemaking would require funds to tie the descripti=
+on of each voting matter to the issuer=E2=80=99s form of proxy and to categ=
+orize each matter by type to help investors identify votes of interest and =
+compare voting records. The proposal also would prescribe how funds organiz=
+e their reports and require them to use a structured data language to make =
+the filings easier to analyze. Funds would also be required to disclose how=
+ their securities lending activity impacted their voting. =E2=80=A6=E2=80=
+=9CThis proposal will make it easier and more efficient for investors to ge=
+t crucial information about proxy votes from funds,=E2=80=9D said SEC Chair=
+ Gary Gensler. =E2=80=9CI am pleased to support the staff=E2=80=99s recomme=
+ndations and look forward to putting them out to public comment.=E2=80=9DSi=
+nce 2003, funds have been required to file Form N-PX reports disclosing how=
+ they voted on proxy proposals relating to investments they hold, but inves=
+tors may face difficulties analyzing these reports. For example, funds may =
+report their votes in an inconsistent manner or in a format that is not mac=
+hine readable. This can make it more difficult for investors to analyze the=
+ reported data. The proposal would make funds=E2=80=99 proxy voting records=
+ more usable and easier to analyze, improving investors=E2=80=99 ability to=
+ monitor how their funds vote and compare different funds=E2=80=99 voting r=
+ecords.Here is the text of the proposed rule, which asks funds to break dow=
+n their voting into categories (=E2=80=9Cboard of directors,=E2=80=9D =E2=
+=80=9Caudit-related,=E2=80=9D =E2=80=9Cshareholder rights and defenses,=E2=
+=80=9D =E2=80=9Ccapital structure,=E2=80=9D =E2=80=9Cenvironment or climate=
+,=E2=80=9D =E2=80=9Cdiversity, equity and inclusion,=E2=80=9D etc.) and sub=
+categories (the subcategories of =E2=80=9Cenvironment or climate=E2=80=9D a=
+re =E2=80=9Cgreenhouse gas (GHG) emissions, transition planning or reportin=
+g, biodiversity or ecosystem risk, chemical footprint, renewable energy or =
+energy efficiency, water issues, waste or pollution, deforestation or land =
+use, say-on-climate, environmental justice, or other environment or climate=
+ matters=E2=80=9D). The categories and subcategories are listed on pages 36=
+ to 39; I count 17 categories and 88 subcategories. The SEC also says that=
+=C2=A0=E2=80=9Cwe expect that the instructions we are proposing that requir=
+e reports on Form N-PX to be structured and machine-readable would allow to=
+ols to be developed so that investors can sort and filter the data to view =
+votes by the relevant manager.=E2=80=9DThis way, if you want to know how of=
+ten BlackRock Inc. votes in favor of shareholder proposals involving =E2=80=
+=9Cwater issues,=E2=80=9D you can go use one of those tools and see that Bl=
+ackRock voted in favor of =E2=80=9Cwater issues=E2=80=9D proposals in 46% o=
+f cases or whatever it is. (To be clear I made that number up; the tools do=
+ not exist yet.) And you might say, =E2=80=9CBlackRock, do you not care abo=
+ut water?=E2=80=9D And BlackRock will be abashed. You never read any of tho=
+se water-issues proposals, and it=E2=80=99s possible that neither did Black=
+Rock, but that=E2=80=99s not the point. The point is that there is some sco=
+ring system for how many times a fund manager voted for =E2=80=9Cwater issu=
+es,=E2=80=9D and some incentive to maximize your score.SEC Commissioner Hes=
+ter Peirce dissented from the proposed rules on the grounds that if you tel=
+l people too much about how funds vote they will be hijacked by activists:W=
+hile fund shareholders may not be interested in this information, activists=
+ of every stripe can use the fact that funds have to publish their votes to=
+ increase their leverage through intimidation and negative publicity. =C2=
+=A0Thus these stakeholders shape how proxy votes are cast.=C2=A0A fund shar=
+eholder looking to earn a return so she can retire may not see much value i=
+n having the fund manager devote a lot of resources to voting and painstaki=
+ngly categorizing the votes for publication. =C2=A0The fund manager, knowin=
+g that each vote will be made public, may feel pressured to expend more tim=
+e considering the vote and figuring out how to catalog it than she would if=
+ the vote were not required to be made public and she were just focused on =
+doing what was best for the fund. =C2=A0Eh. I don=E2=80=99t think she=E2=80=
+=99s wrong exactly, except that it seems pretty clear that fund shareholder=
+s=C2=A0do=C2=A0care about ESG stuff? This is not about activists yelling at=
+ fund managers and the managers caving because they are afraid of activists=
+. This is about fund managers voting in a way that is reasonably designed t=
+o make their customers happy, and having more pressure to do that because t=
+he customers can check. Often what makes customers of an asset manager happ=
+y is the stocks going up. But that=E2=80=99s clearly not the only thing. Bi=
+g asset=C2=A0managers talk a lot about ESG because it sells; the customers =
+want ESG.You could just about=C2=A0imagine the person at a big index-fund f=
+irm saying =E2=80=9Cwell voting no on this proposal is better for the value=
+ of the company, but voting yes on it will make our customers feel better a=
+bout our ESG commitments and lead us to amass more assets.=E2=80=9D Which w=
+ay do you vote then? I think the cynical commercial answer is =E2=80=9Cvote=
+ for ESG,=E2=80=9D but I also think that might be the correct fiduciary ans=
+wer? Your obligations, as a fund manager, are to your investors, not to the=
+ companies you own.I am kind of fond of this rule? It seems somehow postmod=
+ern; it=C2=A0seems to acknowledge a shift in corporate governance. In the o=
+lden days, what mattered was the corporation; particular things happened at=
+ the corporation, and the shareholders cared very much about that corporati=
+on and had particular views on what it should do. In modern markets, the pa=
+radigmatic shareholder is broadly diversified, and there is less reason to =
+care about what any particular company does. What you want is for the huge =
+diversified shareholders who have influence over=C2=A0every=C2=A0company to=
+ use that influence in a broadly desirable way. Companies are just data poi=
+nts; what you care about is aggregates. We  talked the other day about a sh=
+areholder proposal at Fox Corp. that explicitly argued that the proposal mi=
+ght be bad for Fox=E2=80=99s bottom line,=C2=A0but will good for all the ot=
+her companies that Fox shareholders also own.=C2=A0That is the way of the=
+=C2=A0future.Oh by the way the rules also require funds to disclose more cl=
+early=C2=A0how many=C2=A0shares they voted, and how many shares they didn=
+=E2=80=99t vote because they were out on loan. We have  talked before about=
+ my somewhat fanciful theory that the corporate-governance importance of in=
+dex funds is overstated because really they lend out lots of shares to shor=
+t sellers, don=E2=80=99t recall them for votes, and end up voting fewer sha=
+res than they own. I don=E2=80=99t want to overstate it =E2=80=94=C2=A0they=
+ don=E2=80=99t usually lend out that many shares =E2=80=94=C2=A0but I guess=
+ we=E2=80=99ll know more about it soon.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Insider trading (2)
+   =20
+ =20
+We  talked yesterday about what I think is the essential problem of corpora=
+te insider trading, which is that =E2=80=9Cif you are a senior executive at=
+ a public company, you always know stuff about your company that the public=
+ doesn=E2=80=99t know, but you might want to sell stock sometimes.=E2=80=9D=
+ If you were serious about preventing executives from trading on inside inf=
+ormation, they=E2=80=99d never be allowed to trade, but that seems like a b=
+ad outcome. So you need some sort of imperfect compromise rule along the li=
+nes of =E2=80=9Cexecutives can=E2=80=99t trade with=C2=A0too much=C2=A0insi=
+de information.=E2=80=9D Which is loosely speaking the rule in the U.S. now=
+.I suggested that if people don=E2=80=99t like this rule you could have a h=
+arsher rule. For instance:=E2=80=9CExecutives can only buy or sell stock on=
+e day per quarter, two weeks after earnings, in a public auction in which e=
+veryone knows exactly how many shares the executives are submitting for pur=
+chase or sale=E2=80=9D? They might still know stuff that you don=E2=80=99t,=
+ but at least you know, like, how badly they want to buy or sell the stock,=
+ and you can adjust your views accordingly?Several people wrote to me to su=
+ggest a streamlined, more sensible version of that rule, along the lines of=
+: =E2=80=9CExecutives can trade whenever they want, but they have to disclo=
+se their plans in advance.=E2=80=9D The executive announces =E2=80=9CI plan=
+ to buy 10,000 shares tomorrow at a price no higher than $X,=E2=80=9D the m=
+arket has a day to digest it, she trades the next day. She still knows some=
+thing that the market doesn=E2=80=99t, but the market knows that she knows =
+something it doesn=E2=80=99t. In a sense no one selling to her is getting r=
+ipped off; everyone is on notice to be careful.I dunno, seems fair I guess?=
+ It doesn=E2=80=99t really address the problem of the executive knowing mor=
+e than everyone else. In practice under current rules insiders generally ha=
+ve to disclose their stock trading shortly=C2=A0after=C2=A0they do it, and =
+those disclosures seem to have long-term predictive power. From the  Bloomb=
+erg Businessweek article we discussed yesterday:It=E2=80=99s not just those=
+ at the top of the rankings who constantly beat the market. Purchases made =
+by U.S. executives outperformed the S&P 500 over the ensuing 12 months by a=
+n average of five percentage points between 2015 and 2020, according to a T=
+ipRanks analysis. The gap might seem scandalous to those with only a passin=
+g acquaintance with U.S. insider trading rules, which make it illegal for i=
+nsiders to trade using material=E2=80=94or financially significant=E2=80=94=
+nonpublic information. And yet on Wall Street it=E2=80=99s long been an ope=
+n secret that insiders trade on what they know. In 1962, Perry Wysong, a bo=
+w-tie-sporting investor from Florida, started a newsletter identifying oppo=
+rtunities based on insider trades. Years later, a young stockbroker in Flor=
+ida, George Muzea, set up a consulting firm to advise George Soros, Stanley=
+ Druckenmiller, and other hedge fund managers, often over games of tennis. =
+=E2=80=9CWe used to call the best prospects studs,=E2=80=9D he recalls. In =
+2008 a group of quants from Citigroup Inc. published a paper that found a p=
+ortfolio mirroring insiders=E2=80=99 trades could yield an astonishing 23.5=
+% a year, more than all but the most profitable hedge funds.If after-the-fa=
+ct news about executive trading is not fully incorporated into the stock pr=
+ice I=E2=80=99m not sure that advance notice would be either, and you might=
+ still have executives putting up pretty good trading performance and peopl=
+e getting suspicious.Another point that I glossed over yesterday is the dif=
+ference between buying and selling. It is easy to understand why an executi=
+ve would need to be able to sell stock in her company (to pay for kids=E2=
+=80=99 college, etc.), which means that sales are not necessarily that info=
+rmed or predictive: An executive who sells stock might be bearish on the co=
+mpany, or just have a tuition payment due. But an executive generally won=
+=E2=80=99t have much reason to=C2=A0buy=C2=A0stock in her company other tha=
+n being bullish on it, so insider purchases=C2=A0are more predictive. (=E2=
+=80=9CPurchases made by U.S. executives outperformed the S&P 500,=E2=80=9D =
+not sales.)=C2=A0
+ =20
+   =20
+      Hamburger habit
+   =20
+ =20
+I=E2=80=99m not going to tell you how to live your life, or give you invest=
+ment advice, but I do think that if you marry a stockbroker and then get di=
+vorced, you should think twice about letting him continue to manage your mo=
+ney:A former registered rep on Monday was ordered to pay $2.6 million in da=
+mages to his ex-wife in an arbitration claim that centered on margin, day t=
+rading and shorting stock. =E2=80=A6"He was a trader and got hooked on this=
+ one stock, a hamburger chain called Habit Restaurants," said Robert W. Pea=
+rce, Elizabeth Snyder's attorney. "It was a terrible lapse of judgment." =
+=E2=80=A6After they divorced in the early 2000s, Elizabeth Snyder eventuall=
+y became her ex-husband's client several years later =E2=80=A6"At a point i=
+n time, 80% to 90% of her account was in the one stock, and he was leverage=
+d and day trading," Pearce said. The share price for Habit Restaurants "pop=
+ped in the spring of 2015, but by the end of July to early August it got wh=
+acked. Her account went from $4.5 million net equity to under $50,000 at th=
+e end of the year. That was everything she had."Honestly a super weird way =
+to lose all your money. =E2=80=9CMy ex-husband lost all my money trading a =
+hamburger stock, but I got it back in Finra arbitration.=E2=80=9D=C2=A0
+ =20
+   =20
+      NFT Stuff
+   =20
+ =20
+Ah. Yes. Well:A startup blockchain project called NFTfi is allowing users t=
+o borrow against their non-fungible tokens in a new project that sits at th=
+e nexus of decentralized finance (DeFi) and the red-hot NFT market.NFTfi wa=
+s created to allow users to mortgage their NFTs in exchange for other crypt=
+ocurrencies that can then be sold for cash. The service provides immediate =
+liquidity to NFT holders who aren=E2=80=99t yet ready to part with their Cr=
+yptoPunks or Bored Apes. =E2=80=A6Once bought, NFTs are typically hard to u=
+se in a productive manner, unlike fungible tokens, which can be staked, len=
+t out or otherwise put to work to generate yield.=E2=80=9CIf you have a Cry=
+ptoPunk and you need cash but don=E2=80=99t want to sell it, you can use it=
+ as collateral,=E2=80=9D NFTfi co-founder Stephen Young told CoinDesk.The l=
+oan can then be used in a variety of ways: converted into fiat, deployed in=
+to DeFi protocols or even used to buy more NFTs.=E2=80=9CI have bought a po=
+inter on a blockchain saying that I own a pixelated image of an ape,=E2=80=
+=9D you say. =E2=80=9CNow to put it to work in a productive manner,=E2=80=
+=9D you say. =E2=80=9CBetter leverage up the pixelated ape image so I can b=
+uy more pixelated images of apes,=E2=80=9D you say. =E2=80=9CWhy work at a =
+job like a chump when my levered pixelated images of apes can work for me,=
+=E2=80=9D you say.=C2=A0A few weeks ago  I suggested that there is some abs=
+urdity to securitizing NFTs because they do not generate cash flows, but th=
+at just shows you what an idiot I am. You can =E2=80=A6=C2=A0get a =E2=80=
+=A6=C2=A0mortgage against =E2=80=A6=C2=A0your =E2=80=A6=C2=A0NFT =E2=80=A6=
+=C2=A0and use the proceeds =E2=80=A6=C2=A0to =E2=80=A6=C2=A0make markets in=
+ =E2=80=A6=C2=A0other NFTs =E2=80=A6=C2=A0I don=E2=80=99t know. I feel like=
+ I can almost see the outlines of a fully self-contained crypto ecosystem i=
+n which productive crypto assets generate more productive crypto assets and=
+ there is booming economic activity and growth and=C2=A0none of it touches =
+the real world at all=C2=A0but it works anyway? I=E2=80=99m going to go lie=
+ down.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+How Minting a  Trillion-Dollar Platinum Coin Could Avoid a Constitutional C=
+risis. Goldman Sachs was poised to triumph in China. What happened? Exodus =
+of Hong Kong Bankers Accelerates in Chase for China Deals. Evergrande Pays =
+Back Some Cash Owed to Wealth Product Investors. Citi Blasts  Revlon Lender=
+s, Saying All They Had to Do Was Call. US charges six Swiss bankers over ta=
+x fraud. Vlad Tenev op-ed. Dollar Tree to Sell More Items Above $1 as Costs=
+ Rise. =E2=80=9CSomeone or some group of people is using sophisticated tech=
+nology to sneak silly papers into peer-reviewed journals by the hundreds.=
+=E2=80=9D=C2=A0A squirrel hid thousands of walnuts under the hood of a man=
+=E2=80=99s truck. It wasn=E2=80=99t the first time.If you'd like to get=C2=
+=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=
+=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and other=
+ great Bloomberg newsletters here. Thanks!
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cf00pb.5owf/e4157324.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_622717_2146696361.1633022214108
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTE5NTE1MSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU0NjA3MDImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cBdbf25792" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25195151&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25460702&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 5px;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB03d1fe4c"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTE5NTE1MSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU0NjA3MDImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cC69cd5ab0" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25195151&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25460702&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"108" style=3D"width: 108px !important; display:block" =
+/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p><table class=3D"header" =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Insider trading (1)</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I assume that most people who work in =
+compliance at big investment banks are good, upstanding, compliant people, =
+but I also get the impression that there is a small but important minority =
+who got into the compliance group because they thought it would be a good p=
+lace to commit crimes? <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/25195151.265551/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjEtMDktMjkvc2VjLXN1ZXMtaW52ZXN0bWVudC1iYW5rLWNvbXBsaWFuY2UtYW5hbHlzdC1mb=
+3ItaW5zaWRlci10cmFkaW5n/607f07ceef4b8524a319a23cBc99dff46" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;"> Oops</a>:</p><blockquote>=
+<p style=3D"margin: 16px 0;">A former Goldman Sachs Group Inc. compliance a=
+nalyst whose job was to help the bank prevent insider trading was himself c=
+harged with insider trading by the Securities and Exchange Commission.</p><=
+p style=3D"margin: 16px 0;">The SEC sued Jose Luis Casero Sanchez on Wednes=
+day, claiming he used his position in the bank=E2=80=99s Warsaw office to a=
+ccess a control room which stored confidential information on =E2=80=9Call =
+pending and potential transactions in which the investment bank was involve=
+d and advising clients.=E2=80=9D He made at least $471,700 in illegal tradi=
+ng profits, the regulator said.</p></blockquote><p style=3D"margin: 16px 0;=
+">Look, it <em>is=C2=A0</em>a good place to commit crimes! =E2=80=9CNobody =
+suspects the compliance analyst=E2=80=9D would be a funny thing to say but =
+isn=E2=80=99t particularly true; I bet everyone suspects the compliance ana=
+lyst. The real advantage is access to information.=C2=A0If you go to Goldma=
+n and work as an investment banking analyst, you will know about the handfu=
+l of mergers that you are working on, and you will certainly hear about=C2=
+=A0some other mergers that your friends are working on, but there are at le=
+ast vague gestures in the direction of compartmentalization and confidentia=
+lity even within the firm, and anyway you=C2=A0are mostly busy on your own =
+deals, not gossiping about everyone else=E2=80=99s.=C2=A0Nobody is going to=
+ hand you a list of =E2=80=9Chere is every merger we are working on.=E2=80=
+=9D</p><p style=3D"margin: 16px 0;">Whereas they did hand Casero Sanchez th=
+at list. From <a href=3D"https://link.mail.bloombergbusiness.com/click/2519=
+5151.265551/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMS9=
+jb21wLXByMjAyMS0yMDMucGRm/607f07ceef4b8524a319a23cBb71ddce8" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">the SEC=E2=80=99s compla=
+int</a>:</p><blockquote><p style=3D"margin: 16px 0;">One of Sanchez=E2=80=
+=99s duties was to update the firm=E2=80=99s =E2=80=9CGrey List,=E2=80=9D w=
+hich is a confidential list of public and private entities for which the fi=
+rm=E2=80=99s private-side personnel possess material, nonpublic information=
+.</p><p style=3D"margin: 16px 0;">Typically, Grey List entities are involve=
+d in merger and acquisition activity and financings such as public and priv=
+ate securities offerings, among other things. If an entity is on the Grey L=
+ist, certain controls at the Investment Bank may be implicated, including b=
+ut not limited to, surveillance of firm and client trading activities in th=
+e securities of the company on the list, and the denial of certain employee=
+s=E2=80=99 personal trade requests in the securities of the company on the =
+list.=C2=A0</p><p style=3D"margin: 16px 0;">The Grey List is maintained on =
+an internal database at the Investment Bank (the =E2=80=9CConfidential Data=
+base=E2=80=9D). The Confidential Database is the depository where material,=
+=C2=A0nonpublic information about potential transactions involving the Inve=
+stment Bank is stored. For each transaction, the Confidential Database may =
+include, but is not limited to: the names of the public and private entitie=
+s involved in the potential or pending transaction; the firm=E2=80=99s role=
+ in the transaction; the nature of the transaction; the securities involved=
+; the type of financing involved; the size of the transaction; pricing info=
+rmation; the projected announcement date; and other material, nonpublic det=
+ails regarding the potential transaction.</p></blockquote><p style=3D"margi=
+n: 16px 0;">If someone hands you the passwords to a database and is like =
+=E2=80=9Chere is a comprehensive list of all the stocks that we wouldn=E2=
+=80=99t want anyone to insider trade on=E2=80=9D=C2=A0=E2=80=A6=C2=A0you ca=
+n see the temptation right?</p><p style=3D"margin: 16px 0;">Anyway if you=
+=E2=80=99re an investment banking analyst and you work on like four deals a=
+nd insider trade on all of them, there are some problems; you only have a f=
+ew shots to make money and you might find yourself reaching for profits by =
+buying short-dated out-of-the-money call options on merger targets, a viola=
+tion of my <a href=3D"https://link.mail.bloombergbusiness.com/click/2519515=
+1.265551/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMD=
+gtMTIvdGhlLTEwLWxhd3Mtb2YtaW5zaWRlci10cmFkaW5n/607f07ceef4b8524a319a23cBc83=
+e6980" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">Sec=
+ond Law of Insider Trading</a>. If you=E2=80=99re a compliance analyst with=
+ access to the comprehensive database of all deals, you can insider trade a=
+t a more leisurely pace. From the <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/25195151.265551/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJ=
+lbGVhc2UvMjAyMS0yMDM/607f07ceef4b8524a319a23cB90035bd4" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">SEC=E2=80=99s press release</=
+a>:</p><blockquote><p style=3D"margin: 16px 0;">Between September 2020 and =
+May 2021, Sanchez allegedly abused that position of trust by trading on at =
+least 45 events involving the investment bank=E2=80=99s clients based on th=
+e investment bank=E2=80=99s material, nonpublic information. To avoid detec=
+tion, Sanchez allegedly traded in multiple U.S.-based brokerage accounts he=
+ld in the name of one of his parents=E2=80=94Jose Luis Casero Abellan and M=
+aria Isabel Sanchez Gonzalez =E2=80=94and, in most instances, also refraine=
+d from placing large trades and made only modest profits. The complaint all=
+eges that Sanchez generated more than $471,000 in ill-gotten gains during t=
+he course of the scheme.</p></blockquote><p style=3D"margin: 16px 0;">Well,=
+ he allegedly violated the <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25195151.265551/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMTgtMDgtMTIvdGhlLTEwLWxhd3Mtb2YtaW5zaWRlci10cmFkaW5n/607f07ceef4b=
+8524a319a23cCc83e6980" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Fourth Law of Insider Trading</a> (=E2=80=9Cdon=E2=80=99t do i=
+t in your mother=E2=80=99s account=E2=80=9D), but all in all it=E2=80=99s a=
+ respectable effort. The SEC went out of its way to say that he was hard to=
+ catch:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CDespite Sanche=
+z=E2=80=99s alleged efforts to avoid detection by limiting the size of his =
+trades and using four different accounts to trade under his parents=E2=80=
+=99 names, the SEC=E2=80=99s keen analysis stitched together this pattern o=
+f suspicious trading and exposed gross violations of duty by a compliance p=
+rofessional who exploited the sensitive information he was hired to protect=
+.=E2=80=9D said Joseph G. Sansone, Chief of the SEC=E2=80=99s Market Abuse =
+Unit.</p></blockquote><p style=3D"margin: 16px 0;">How many other complianc=
+e analysts out there are just a little bit better at covering their tracks?=
+</p><table class=3D"liveintent-sponsored-content" width=3D"auto" cellpaddin=
+g=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTE5NTE1MSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU0NjA3MDImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cD1332da87" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25195151&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25460702&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTE5NTE1MSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU0NjA3MDImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cE1332da87" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25195151&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25460702&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTE5NTE1MSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU0NjA3MDImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cF00f6ae2b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25195151&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25460702&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTE5NTE1MSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU0NjA3MDImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cG00f6ae2b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25195151&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25460702&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Proxy voting</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I suppose somewhere out there there ar=
+e people who are deeply engaged shareholders of one company. Each year thes=
+e people get the company=E2=80=99s proxy statement and read it cover to cov=
+er with great interest. Toward the back there are some shareholder proposal=
+s, in which shareholders get to suggest changes to how the company is run. =
+These proposals typically have an environmental, social or governance (ESG)=
+ flavor: A proposal might be =E2=80=9Cthe company should do a report about =
+how climate change will affect its operations,=E2=80=9D or =E2=80=9Cthe com=
+pany should do a report about the diversity of its managerial ranks,=E2=80=
+=9D or =E2=80=9Cthe company should separate the jobs of chairman of the boa=
+rd and chief executive officer.=E2=80=9D These proposals are nonbinding and=
+, under <a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.2=
+65551/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0MC4xNGEtOA/60=
+7f07ceef4b8524a319a23cB9cb29abf" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">Securities and Exchange Commission rules</a>, cannot=
+=C2=A0involve =E2=80=9Ca matter relating to the company=E2=80=99s ordinary =
+business operations,=E2=80=9D so in practice they often involve asking for =
+reports rather than, like, =E2=80=9Cresolved, the company will stop using f=
+ossil fuels.=E2=80=9D</p><p style=3D"margin: 16px 0;">The proposal will com=
+e with a little=C2=A0statement from the proponent, the (usually small, acti=
+vist) shareholder who suggested it, and also a little=C2=A0statement from t=
+he company=E2=80=99s board of directors, almost invariably recommending tha=
+t shareholders vote against the proposal. Our deeply engaged single-stock s=
+hareholder will read both statements carefully and think about the argument=
+s that the proponent and the board make.=C2=A0She will weigh them in the co=
+ntext of her knowledge of the company. =E2=80=9CHmm,=E2=80=9D she will say,=
+ =E2=80=9CI see what this person is saying about how separating the chairma=
+n and CEO roles is best practice, but old Jim has done a great job as CEO a=
+nd I=E2=80=99d hate to risk upsetting him by taking away the chairman job.=
+=E2=80=9D Or: =E2=80=9CI would like to know about how climate change will a=
+ffect the company, but I think the board=E2=80=99s track record on that is =
+pretty good so I guess I will defer to them.=E2=80=9D Or =E2=80=9C=E2=80=A6=
+=C2=A0and the board=E2=80=99s track record on that is pretty bad so I=E2=80=
+=99ll vote to demand more from them.=E2=80=9D Whatever.=C2=A0</p><p style=
+=3D"margin: 16px 0;">I don=E2=80=99t believe there are too many of these pe=
+ople but they probably exist. More than individual investors, some number o=
+f active stock-picking money managers probably own a relatively small numbe=
+r of stocks, track them carefully and vote regularly on their proxy proposa=
+ls. These money managers=C2=A0probably do not read the proxies as closely a=
+s our hypothetical engaged retail shareholder does. They do this a lot.=C2=
+=A0They have heuristics. Maybe they vote against most of these proposals, a=
+ssuming that they=E2=80=99re nonbinding and a waste of time. Maybe their he=
+uristic is =E2=80=9Cwe vote with management in the companies that we like, =
+but we vote against management on everything in companies where we dislike =
+the board and are agitating for change.=E2=80=9D Maybe they have issue-spec=
+ific heuristics, =E2=80=9Cwe vote for climate-change reports but against di=
+versity reports=E2=80=9D or whatever. Probably they have some mishmash of a=
+ll of these heuristics, and vote different ways for different proposals at =
+different companies, but they don=E2=80=99t spend=C2=A0<em>too=C2=A0</em>mu=
+ch time thinking about it. These are not retail hobbyists; they have a job =
+to do (buying stocks that go up), and voting on proxy proposals is not cent=
+ral to that job.</p><p style=3D"margin: 16px 0;">It=E2=80=99s not irrelevan=
+t! Pressuring companies to do ESG things can increase their long-term value=
+. A company that has a poison pill or a staggered board might be less likel=
+y to be acquired, and depending on your view of whether that would be good =
+or bad for the value of your stock, you might care very much about voting o=
+n proposals to get rid of a pill or to declassify the board. If you think t=
+hat climate change will be very bad for the company and that the board isn=
+=E2=80=99t paying attention, you will care a lot about getting the board to=
+ pay attention, and a nonbinding request for a report on climate change is,=
+ you know, one more thing you could do to get the board to pay attention I =
+guess. But mostly this stuff is pretty minor. Companies make money based mo=
+stly on how they do their ordinary business, which is specifically off-limi=
+ts to shareholder proposals. And even on the big-ticket stuff, companies se=
+em to be more responsive to other forms of pressure (quiet nudges from big =
+shareholders, social and customer pressure, <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/25195151.265551/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjYvZXh4b24taGFzLWEtdG91Z2gtZ3JlZW4tYWN0=
+aXZpc3Q/607f07ceef4b8524a319a23cB3be79a97" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> proxy fights</a>) than they are to nonbin=
+ding proposals submitted by small shareholders.</p><p style=3D"margin: 16px=
+ 0;">Then there are professional money managers who own hundreds of stocks,=
+ perhaps all of the stocks, index funds and =E2=80=9C<a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/25195151.265551/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMDItMDkvcXVhc2ktaW5kZXhlcnMtZ3Jvd3R=
+oLWFuZC1jb25mdXNpb24/607f07ceef4b8524a319a23cB09a87e69" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">quasi-indexers</a>.=E2=80=9D =
+It seems silly for these professionals to read the proxies at all. (I=E2=80=
+=99m sure they do =E2=80=94=C2=A0they have governance and stewardship teams=
+ to do that =E2=80=94=C2=A0but it seems silly.) Certainly if they have to v=
+ote on 100 shareholder proposals to write climate reports in a proxy season=
+, it would be silly for them to read=C2=A0<em>each=C2=A0</em>of the propone=
+nts=E2=80=99 arguments and=C2=A0<em>each=C2=A0</em>of the companies=E2=80=
+=99 responses. They=E2=80=99ve seen all this before.</p><p style=3D"margin:=
+ 16px 0;">At this level it is all heuristics. =E2=80=9CVote yes on climate =
+proposals=E2=80=9D or =E2=80=9Cvote with management unless we have a little=
+ red frowny face next to the company in our huge spreadsheet of investments=
+=E2=80=9D or whatever it is. If you own every company, you can=E2=80=99t ha=
+ve a close personal substantive relationship with all of them; you can=E2=
+=80=99t waste an hour thinking about whether=C2=A0<em>this=C2=A0</em>partic=
+ular board of directors should or should not write a report about climate c=
+hange. You have to have a general sense of whether it is good for companies=
+ to write climate reports, and then use that general sense to inform some q=
+uick decisions about hundreds of individual companies.</p><p style=3D"margi=
+n: 16px 0;">Broadly speaking the trend of the last decade or so in proxy vo=
+ting is that institutional asset managers used to have a heuristic of =E2=
+=80=9Calways vote with management=E2=80=9D and now they have a heuristic of=
+ =E2=80=9Cvote for climate-change reports=E2=80=9D? I mean, I oversimplify =
+wildly. But as institutional investors talk more and more about their commi=
+tment to ESG, it becomes more embarrassing for them to vote against ESG pro=
+posals. Someone will go collate all their votes and say =E2=80=9Cthis firm =
+voted against climate-change proposals in 87% of companies=E2=80=9D or what=
+ever, and that will be embarrassing. And if the giant institutional manager=
+ says =E2=80=9Cwell but we read all of those proposals closely and consider=
+ed our deep working knowledge of those companies and decided that a new rep=
+ort was unnecessary in 87% of the cases and necessary in 13%,=E2=80=9D one,=
+ that will not really satisfy anybody, and two, it probably won=E2=80=99t b=
+e all that true. You were voting on some rough heuristic and now you had be=
+tter shift your heuristic.</p><p style=3D"margin: 16px 0;">Yesterday the SE=
+C proposed a new rule to <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25195151.265551/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2Uv=
+MjAyMS0yMDI/607f07ceef4b8524a319a23cBd10844df" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">make that collating easier</a>:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">The Securities and Exchange Commissio=
+n today proposed amendments to Form N-PX to enhance the information mutual =
+funds, exchange-traded funds, and certain other funds report about their pr=
+oxy votes. The proposed rulemaking would require funds to tie the descripti=
+on of each voting matter to the issuer=E2=80=99s form of proxy and to categ=
+orize each matter by type to help investors identify votes of interest and =
+compare voting records. The proposal also would prescribe how funds organiz=
+e their reports and require them to use a structured data language to make =
+the filings easier to analyze. Funds would also be required to disclose how=
+ their securities lending activity impacted their voting. =E2=80=A6</p><p s=
+tyle=3D"margin: 16px 0;">=E2=80=9CThis proposal will make it easier and mor=
+e efficient for investors to get crucial information about proxy votes from=
+ funds,=E2=80=9D said SEC Chair Gary Gensler. =E2=80=9CI am pleased to supp=
+ort the staff=E2=80=99s recommendations and look forward to putting them ou=
+t to public comment.=E2=80=9D</p><p style=3D"margin: 16px 0;">Since 2003, f=
+unds have been required to file Form N-PX reports disclosing how they voted=
+ on proxy proposals relating to investments they hold, but investors may fa=
+ce difficulties analyzing these reports. For example, funds may report thei=
+r votes in an inconsistent manner or in a format that is not machine readab=
+le. This can make it more difficult for investors to analyze the reported d=
+ata. The proposal would make funds=E2=80=99 proxy voting records more usabl=
+e and easier to analyze, improving investors=E2=80=99 ability to monitor ho=
+w their funds vote and compare different funds=E2=80=99 voting records.</p>=
+</blockquote><p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/25195151.265551/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+ydWxlcy9wcm9wb3NlZC8yMDIxLzM0LTkzMTY5LnBkZg/607f07ceef4b8524a319a23cB93693e=
+d3" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">the te=
+xt of the proposed rule</a>, which asks funds to break down their voting in=
+to categories (=E2=80=9Cboard of directors,=E2=80=9D =E2=80=9Caudit-related=
+,=E2=80=9D =E2=80=9Cshareholder rights and defenses,=E2=80=9D =E2=80=9Ccapi=
+tal structure,=E2=80=9D =E2=80=9Cenvironment or climate,=E2=80=9D =E2=80=9C=
+diversity, equity and inclusion,=E2=80=9D etc.) and subcategories (the subc=
+ategories of =E2=80=9Cenvironment or climate=E2=80=9D are =E2=80=9Cgreenhou=
+se gas (GHG) emissions, transition planning or reporting, biodiversity or e=
+cosystem risk, chemical footprint, renewable energy or energy efficiency, w=
+ater issues, waste or pollution, deforestation or land use, say-on-climate,=
+ environmental justice, or other environment or climate matters=E2=80=9D). =
+The categories and subcategories are listed on pages 36 to 39; I count 17 c=
+ategories and 88 subcategories. The SEC also says that=C2=A0=E2=80=9Cwe exp=
+ect that the instructions we are proposing that require reports on Form N-P=
+X to be structured and machine-readable would allow tools to be developed s=
+o that investors can sort and filter the data to view votes by the relevant=
+ manager.=E2=80=9D</p><p style=3D"margin: 16px 0;">This way, if you want to=
+ know how often BlackRock Inc. votes in favor of shareholder proposals invo=
+lving =E2=80=9Cwater issues,=E2=80=9D you can go use one of those tools and=
+ see that BlackRock voted in favor of =E2=80=9Cwater issues=E2=80=9D propos=
+als in 46% of cases or whatever it is. (To be clear I made that number up; =
+the tools do not exist yet.) And you might say, =E2=80=9CBlackRock, do you =
+not care about water?=E2=80=9D And BlackRock will be abashed. You never rea=
+d any of those water-issues proposals, and it=E2=80=99s possible that neith=
+er did BlackRock, but that=E2=80=99s not the point. The point is that there=
+ is some scoring system for how many times a fund manager voted for =E2=80=
+=9Cwater issues,=E2=80=9D and some incentive to maximize your score.</p><p =
+style=3D"margin: 16px 0;">SEC Commissioner Hester Peirce <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/25195151.265551/aHR0cHM6Ly93d3cuc2Vj=
+Lmdvdi9uZXdzL3B1YmxpYy1zdGF0ZW1lbnQvcGVpcmNlLW9wZW4tbWVldGluZy0yMDIxLTA5LTI=
+5/607f07ceef4b8524a319a23cB4cd225c6" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">dissented from the proposed rules</a> on the gro=
+unds that if you tell people too much about how funds vote they will be hij=
+acked by activists:</p><blockquote><p style=3D"margin: 16px 0;">While fund =
+shareholders may not be interested in this information, activists of every =
+stripe can use the fact that funds have to publish their votes to increase =
+their leverage through intimidation and negative publicity. =C2=A0Thus thes=
+e stakeholders shape how proxy votes are cast.=C2=A0</p><p style=3D"margin:=
+ 16px 0;">A fund shareholder looking to earn a return so she can retire may=
+ not see much value in having the fund manager devote a lot of resources to=
+ voting and painstakingly categorizing the votes for publication. =C2=A0The=
+ fund manager, knowing that each vote will be made public, may feel pressur=
+ed to expend more time considering the vote and figuring out how to catalog=
+ it than she would if the vote were not required to be made public and she =
+were just focused on doing what was best for the fund. =C2=A0</p></blockquo=
+te><p style=3D"margin: 16px 0;">Eh. I don=E2=80=99t think she=E2=80=99s wro=
+ng exactly, except that it seems pretty clear that fund shareholders=C2=A0<=
+em>do=C2=A0</em>care about ESG stuff? This is not about activists yelling a=
+t fund managers and the managers caving because they are afraid of activist=
+s. This is about fund managers voting in a way that is reasonably designed =
+to make their customers happy, and having more pressure to do that because =
+the customers can check. Often what makes customers of an asset manager hap=
+py is the stocks going up. But that=E2=80=99s clearly not the only thing. B=
+ig asset=C2=A0managers talk a lot about ESG because it sells; the customers=
+ want ESG.</p><p style=3D"margin: 16px 0;">You could just about=C2=A0imagin=
+e the person at a big index-fund firm saying =E2=80=9Cwell voting no on thi=
+s proposal is better for the value of the company, but voting yes on it wil=
+l make our customers feel better about our ESG commitments and lead us to a=
+mass more assets.=E2=80=9D Which way do you vote then? I think the cynical =
+commercial answer is =E2=80=9Cvote for ESG,=E2=80=9D but I also think that =
+might be the correct fiduciary answer? Your obligations, as a fund manager,=
+ are to your investors, not to the companies you own.</p><p style=3D"margin=
+: 16px 0;">I am kind of fond of this rule? It seems somehow postmodern; it=
+=C2=A0seems to acknowledge a shift in corporate governance. In the olden da=
+ys, what mattered was the corporation; particular things happened at the co=
+rporation, and the shareholders cared very much about that corporation and =
+had particular views on what it should do. In modern markets, the paradigma=
+tic shareholder is broadly diversified, and there is less reason to care ab=
+out what any particular company does. What you want is for the huge diversi=
+fied shareholders who have influence over=C2=A0<em>every=C2=A0</em>company =
+to use that influence in a broadly desirable way. Companies are just data p=
+oints; what you care about is aggregates. We <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25195151.265551/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMjcvaW1wb3N0b3JzLW9uLXRoZS1kdWUtZGlsaWd=
+lbmNlLWNhbGw/607f07ceef4b8524a319a23cB66cfc250" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> talked the other day</a> about a sha=
+reholder proposal at Fox Corp. that explicitly argued that the proposal mig=
+ht be bad for Fox=E2=80=99s bottom line,=C2=A0but will good for all the oth=
+er companies that Fox shareholders also own.=C2=A0That is the way of the=C2=
+=A0future.</p><p style=3D"margin: 16px 0;">Oh by the way the rules also req=
+uire funds to disclose more clearly=C2=A0<em>how many=C2=A0</em>shares they=
+ voted, and how many shares they didn=E2=80=99t vote because they were out =
+on loan. We have <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+5195151.265551/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjEtMDEtMTkvbWF5YmUtdGhlLWluZGV4LWZ1bmRzLWRvbi10LXZvdGU/607f07ceef4b8524a31=
+9a23cB0dc0ed03" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> talked before</a> about my somewhat fanciful theory that the corpora=
+te-governance importance of index funds is overstated because really they l=
+end out lots of shares to short sellers, don=E2=80=99t recall them for vote=
+s, and end up voting fewer shares than they own. I don=E2=80=99t want to ov=
+erstate it =E2=80=94=C2=A0they don=E2=80=99t usually lend out <em>that</em>=
+ many shares =E2=80=94=C2=A0but I guess we=E2=80=99ll know more about it so=
+on.</p><table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTE5NTE1MSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU0NjA3MDImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cH2c2f9bae" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25195151&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25460702&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Insider trading (2)</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/25195151.265551/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMDktMjkvaW5zaWRlcnMtYXJlLWdvb2QtYXQtdHJhZGluZw/6=
+07f07ceef4b8524a319a23cBd785e3a6" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> talked yesterday</a> about what I think is the ess=
+ential problem of corporate insider trading, which is that =E2=80=9Cif you =
+are a senior executive at a public company, you always know stuff about you=
+r company that the public doesn=E2=80=99t know, but you might want to sell =
+stock sometimes.=E2=80=9D If you were serious about preventing executives f=
+rom trading on inside information, they=E2=80=99d never be allowed to trade=
+, but that seems like a bad outcome. So you need some sort of imperfect com=
+promise rule along the lines of =E2=80=9Cexecutives can=E2=80=99t trade wit=
+h=C2=A0<em>too much=C2=A0</em>inside information.=E2=80=9D Which is loosely=
+ speaking the rule in the U.S. now.</p><p style=3D"margin: 16px 0;">I sugge=
+sted that if people don=E2=80=99t like this rule you could have a harsher r=
+ule. For instance:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CExe=
+cutives can only buy or sell stock one day per quarter, two weeks after ear=
+nings, in a public auction in which everyone knows exactly how many shares =
+the executives are submitting for purchase or sale=E2=80=9D? They might sti=
+ll know stuff that you don=E2=80=99t, but at least you know, like, how badl=
+y they want to buy or sell the stock, and you can adjust your views accordi=
+ngly?</p></blockquote><p style=3D"margin: 16px 0;">Several people wrote to =
+me to suggest a streamlined, more sensible version of that rule, along the =
+lines of: =E2=80=9CExecutives can trade whenever they want, but they have t=
+o disclose their plans in advance.=E2=80=9D The executive announces =E2=80=
+=9CI plan to buy 10,000 shares tomorrow at a price no higher than $X,=E2=80=
+=9D the market has a day to digest it, she trades the next day. She still k=
+nows something that the market doesn=E2=80=99t, but the market knows that s=
+he knows something it doesn=E2=80=99t. In a sense no one selling to her is =
+getting ripped off; everyone is on notice to be careful.</p><p style=3D"mar=
+gin: 16px 0;">I dunno, seems fair I guess? It doesn=E2=80=99t really addres=
+s the problem of the executive knowing more than everyone else. In practice=
+ under <a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.26=
+5551/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9mb3Jtcy0zLTQtNS5wZGY/607f07ceef4b85=
+24a319a23cB08b991b8" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">current rules</a> insiders generally have to disclose their st=
+ock trading shortly=C2=A0<em>after=C2=A0</em>they do it, and those disclosu=
+res seem to have <em>long</em>-term predictive power. From the <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/25195151.265551/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjEtMDktMjkvaXMtc3RvY2stbWFya2V0L=
+XJpZ2dlZC1pbnNpZGVyLXRyYWRpbmctYnktZXhlY3V0aXZlcy1pcy1wZXJ2YXNpdmUtY3JpdGlj=
+cy1zYXk/607f07ceef4b8524a319a23cB7aef0d78" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> Bloomberg Businessweek article</a> we dis=
+cussed yesterday:</p><blockquote><p style=3D"margin: 16px 0;">It=E2=80=99s =
+not just those at the top of the rankings who constantly beat the market. P=
+urchases made by U.S. executives outperformed the S&amp;P 500 over the ensu=
+ing 12 months by an average of five percentage points between 2015 and 2020=
+, according to a TipRanks analysis. The gap might seem scandalous to those =
+with only a passing acquaintance with U.S. insider trading rules, which mak=
+e it illegal for insiders to trade using material=E2=80=94or financially si=
+gnificant=E2=80=94nonpublic information. And yet on Wall Street it=E2=80=99=
+s long been an open secret that insiders trade on what they know. In 1962, =
+Perry Wysong, a bow-tie-sporting investor from Florida, started a newslette=
+r identifying opportunities based on insider trades. Years later, a young s=
+tockbroker in Florida, George Muzea, set up a consulting firm to advise Geo=
+rge Soros, Stanley Druckenmiller, and other hedge fund managers, often over=
+ games of tennis. =E2=80=9CWe used to call the best prospects studs,=E2=80=
+=9D he recalls. In 2008 a group of quants from Citigroup Inc. published a p=
+aper that found a portfolio mirroring insiders=E2=80=99 trades could yield =
+an astonishing 23.5% a year, more than all but the most profitable hedge fu=
+nds.</p></blockquote><p style=3D"margin: 16px 0;">If after-the-fact news ab=
+out executive trading is not fully incorporated into the stock price I=E2=
+=80=99m not sure that advance notice would be either, and you might still h=
+ave executives putting up pretty good trading performance and people gettin=
+g suspicious.</p><p style=3D"margin: 16px 0;">Another point that I glossed =
+over yesterday is the difference between buying and selling. It is easy to =
+understand why an executive would need to be able to sell stock in her comp=
+any (to pay for kids=E2=80=99 college, etc.), which means that sales are no=
+t necessarily that informed or predictive: An executive who sells stock mig=
+ht be bearish on the company, or just have a tuition payment due. But an ex=
+ecutive generally won=E2=80=99t have much reason to=C2=A0<em>buy=C2=A0</em>=
+stock in her company other than being bullish on it, so insider <em>purchas=
+es=C2=A0</em>are more predictive. (=E2=80=9C<em>Purchases</em> made by U.S.=
+ executives outperformed the S&amp;P 500,=E2=80=9D not sales.)=C2=A0</p><ta=
+ble class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Hamburger habit</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I=E2=80=99m not going to tell you how =
+to live your life, or give you investment advice, but I do think that if yo=
+u marry a stockbroker and then get divorced, you should think twice about <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aHR=
+0cHM6Ly93d3cuaW52ZXN0bWVudG5ld3MuY29tL2Zsb3JpZGEtYnJva2VyLXRvLXBheS1leC13aW=
+ZlLTItNi1taWxsaW9uLWluLWZpbnJhLWFyYml0cmF0aW9uLWNsYWltLTIxMjEzMj9OTElEPUlOL=
+URhaWx5LVB1bHNlJk5MX2lzc3VlRGF0ZT0yMDIxMDkyOSZ1dG1fc291cmNlPUlOLURhaWx5LVB1=
+bHNlLTIwMjEwOTI5JnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPWludmVzdG1lbnRuZXd=
+zJnV0bV92aXNpdD01NjA2NjUmbXNkeW50dHJpZD00REF1SGtJbjl1ZllqcHUxWUk0a0hXZnEwTD=
+kwaE1iWEZPVWd2cDFrRGJV/607f07ceef4b8524a319a23cBe27ca876" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">letting him continue to man=
+age your money</a>:</p><blockquote><p style=3D"margin: 16px 0;">A former re=
+gistered rep on Monday was ordered to pay $2.6 million in damages to his ex=
+-wife in an arbitration claim that centered on margin, day trading and shor=
+ting stock. =E2=80=A6</p><p style=3D"margin: 16px 0;">"He was a trader and =
+got hooked on this one stock, a hamburger chain called Habit Restaurants," =
+said Robert W. Pearce, Elizabeth Snyder's attorney. "It was a terrible laps=
+e of judgment." =E2=80=A6</p><p style=3D"margin: 16px 0;">After they divorc=
+ed in the early 2000s, Elizabeth Snyder eventually became her ex-husband's =
+client several years later =E2=80=A6</p><p style=3D"margin: 16px 0;">"At a =
+point in time, 80% to 90% of her account was in the one stock, and he was l=
+everaged and day trading," Pearce said. The share price for Habit Restauran=
+ts "popped in the spring of 2015, but by the end of July to early August it=
+ got whacked. Her account went from $4.5 million net equity to under $50,00=
+0 at the end of the year. That was everything she had."</p></blockquote><p =
+style=3D"margin: 16px 0;">Honestly a super weird way to lose all your money=
+. =E2=80=9CMy ex-husband lost all my money trading a hamburger stock, but I=
+ got it back in Finra arbitration.=E2=80=9D=C2=A0</p><table class=3D"header=
+" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT Stuff</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Ah. Yes. <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/25195151.265551/aHR0cHM6Ly93d3cuY29pbmRlc2suY29=
+tL21hcmtldHMvMjAyMS8wOS8yOS9wYXduLXlvdXItY3J5cHRvcHVuay1hLW5ldy1uZnQtZGVmaS=
+1sZW5kaW5nLW1hcmtldC1ibG9vbXMv/607f07ceef4b8524a319a23cBf17e64a6" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Well</a>:</p><bloc=
+kquote><p style=3D"margin: 16px 0;">A startup blockchain project called NFT=
+fi is allowing users to borrow against their non-fungible tokens in a new p=
+roject that sits at the nexus of decentralized finance (DeFi) and the red-h=
+ot NFT market.</p><p style=3D"margin: 16px 0;">NFTfi was created to allow u=
+sers to mortgage their NFTs in exchange for other cryptocurrencies that can=
+ then be sold for cash. The service provides immediate liquidity to NFT hol=
+ders who aren=E2=80=99t yet ready to part with their CryptoPunks or Bored A=
+pes. =E2=80=A6</p><p style=3D"margin: 16px 0;">Once bought, NFTs are typica=
+lly hard to use in a productive manner, unlike fungible tokens, which can b=
+e staked, lent out or otherwise put to work to generate yield.</p><p style=
+=3D"margin: 16px 0;">=E2=80=9CIf you have a CryptoPunk and you need cash bu=
+t don=E2=80=99t want to sell it, you can use it as collateral,=E2=80=9D NFT=
+fi co-founder Stephen Young told CoinDesk.</p><p style=3D"margin: 16px 0;">=
+The loan can then be used in a variety of ways: converted into fiat, deploy=
+ed into DeFi protocols or even used to buy more NFTs.</p></blockquote><p st=
+yle=3D"margin: 16px 0;">=E2=80=9CI have bought a pointer on a blockchain sa=
+ying that I own a pixelated image of an ape,=E2=80=9D you say. =E2=80=9CNow=
+ to put it to work in a productive manner,=E2=80=9D you say. =E2=80=9CBette=
+r leverage up the pixelated ape image so I can buy more pixelated images of=
+ apes,=E2=80=9D you say. =E2=80=9CWhy work at a job like a chump when my le=
+vered pixelated images of apes can work for me,=E2=80=9D you say.=C2=A0</p>=
+<p style=3D"margin: 16px 0;">A few weeks ago <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25195151.265551/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMDkvdHdlbnR5LXBlcmNlbnQtb2YtYS1waWN0dXJ=
+lLW9mLWEtZG9n/607f07ceef4b8524a319a23cBdcce52bf" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> I suggested</a> that there is some =
+absurdity to securitizing NFTs because they do not generate cash flows, but=
+ that just shows you what an idiot I am. You can =E2=80=A6=C2=A0get a =E2=
+=80=A6=C2=A0mortgage against =E2=80=A6=C2=A0your =E2=80=A6=C2=A0NFT =E2=80=
+=A6=C2=A0and use the proceeds =E2=80=A6=C2=A0to =E2=80=A6=C2=A0make markets=
+ in =E2=80=A6=C2=A0other NFTs =E2=80=A6=C2=A0I don=E2=80=99t know. I feel l=
+ike I can almost see the outlines of a fully self-contained crypto ecosyste=
+m in which productive crypto assets generate more productive crypto assets =
+and there is booming economic activity and growth and=C2=A0<em>none of it t=
+ouches the real world at all=C2=A0</em>but it works anyway? I=E2=80=99m goi=
+ng to go lie down.</p><table class=3D"header" width=3D"100%" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">How Minting a <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/25195151.265551/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDktMzAvaG93LW1pbnRpbmctYS10cmlsbGlvbi1kb=
+2xsYXItcGxhdGludW0tY29pbi1jb3VsZC1hdm9pZC1hLWNvbnN0aXR1dGlvbmFsLWNyaXNpcw/6=
+07f07ceef4b8524a319a23cB2526df26" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> Trillion-Dollar Platinum Coin</a> Could Avoid a Co=
+nstitutional Crisis. Goldman Sachs was poised to triumph in China. <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvYWQxYTg2MDgtMTA2OS00ZjliLWJmMjYtNWRkOWFlMDNmMGE4=
+/607f07ceef4b8524a319a23cBf09e9aec" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">What happened</a>? Exodus of Hong Kong Bankers Ac=
+celerates in <a href=3D"https://link.mail.bloombergbusiness.com/click/25195=
+151.265551/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDkt=
+MzAvc2hpZnQtb2YtaG9uZy1rb25nLWJhbmtlcnMtdG8tY2hpbmEtcGlja3MtdXAtaW4tY2hhc2U=
+tZm9yLWRlYWxz/607f07ceef4b8524a319a23cB0102b241" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Chase for China Deals</a>. Evergrand=
+e Pays Back Some Cash Owed to <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25195151.265551/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjEtMDktMzAvZXZlcmdyYW5kZS1wYXlzLWJhY2stc29tZS1jYXNoLW93ZWQtdG8td2=
+VhbHRoLXByb2R1Y3QtaW52ZXN0b3Jz/607f07ceef4b8524a319a23cB5fd15dd9" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Wealth Product Inv=
+estors</a>. Citi Blasts <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/25195151.265551/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzL=
+zIwMjEtMDktMjkvY2l0aS1ibGFzdHMtcmV2bG9uLWxlbmRlcnMtYWxsLXRoZXktaGFkLXRvLWRv=
+LXdhcy1tYWtlLWEtY2FsbA/607f07ceef4b8524a319a23cB672b20dc" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> Revlon Lenders</a>, Saying=
+ All They Had to Do Was Call. US charges six <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25195151.265551/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRl=
+bnQvNTE5YTE1MjAtNzliYy00YjI3LTk4YzUtZmU5ZGUyOGIxMDJi/607f07ceef4b8524a319a2=
+3cB552aa0e1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">Swiss bankers</a> over tax fraud. Vlad Tenev <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/25195151.265551/aHR0cHM6Ly93d3cud3NqLmNvbS9hc=
+nRpY2xlcy9yb2Jpbmhvb2QtdXNlcnMtcmVndWxhdGlvbi1yZXRhaWwtaW52ZXN0aW5nLW9yZGVy=
+LWZsb3ctYWNjZXNzLXRvLWNhcGl0YWwtaW52ZXN0aW5nLTExNjMyNzc2MDcxP21vZD1ocF9vcGl=
+uX3Bvc18zI2N4cmVjc19z/607f07ceef4b8524a319a23cBe80ee218" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">op-ed</a>. Dollar Tree to Se=
+ll More Items <a href=3D"https://link.mail.bloombergbusiness.com/click/2519=
+5151.265551/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9kb2xsYXItdHJlZS10by1zZWx=
+sLW1vcmUtaXRlbXMtYWJvdmUtMS1hcy1jb3N0cy1yaXNlLTExNjMyOTE4ODE2P21vZD10cmVuZG=
+luZ19ub3dfbmV3c18z/607f07ceef4b8524a319a23cBe4431aab" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">Above $1</a> as Costs Rise. =E2=
+=80=9CSomeone or some group of people is using sophisticated technology to =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly93d3cuY2hyb25pY2xlLmNvbS9hcnRpY2xlL3doeS1kaWQtYS1wZWVyLXJldmlld2VkL=
+WpvdXJuYWwtcHVibGlzaC1odW5kcmVkcy1vZi1ub25zZW5zZS1wYXBlcnM/607f07ceef4b8524=
+a319a23cB459facf4" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">sneak silly papers</a> into peer-reviewed journals by the hundreds=
+.=E2=80=9D=C2=A0A squirrel hid thousands of walnuts under the hood of a man=
+=E2=80=99s truck. <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+25195151.265551/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL25hdGlvbi8yMDIxLzA=
+5LzMwL3NxdWlycmVsLXRydWNrLWZhcmdvLWJpbGwtZmlzY2hlci8/607f07ceef4b8524a319a2=
+3cB4fb1f17a" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">It wasn=E2=80=99t the first time</a>.</p><p style=3D"margin: 16px 0;"><s=
+pan class=3D"news-designed-for-consumer-media"><em>If you'd like to get=C2=
+=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265=
+551/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXl=
+zdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07c=
+eef4b8524a319a23cB47855f52" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">subscribe a=
+t this link</a>. Or you can subscribe to Money Stuff and other great Bloomb=
+erg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/click/25=
+195151.265551/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ce=
+ef4b8524a319a23cB1392e15e" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">here</a>. Thanks!</em></span></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB4f96c92d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBe428fe47" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB6425beeb" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB9d7bcff5" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTE5NTE1MSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU0NjA3MDImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cI3545ccb5" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25195151&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25460702&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2519515=
+1.265551/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBdf034ae6" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25195151.265551/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC6112efc5" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25195151.265551/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBa630c4cf" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25195151.265551/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB7259d77d" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB9=
+4581234" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25195151.265551/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB7=
+b0694a9" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D251951=
+51&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25460702&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D251951=
+51&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25460702&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D251951=
+51&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25460702&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D251951=
+51&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25460702&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D251951=
+51&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25460702&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cf00pb.5owf/e4157324.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_622717_2146696361.1633022214108--
+

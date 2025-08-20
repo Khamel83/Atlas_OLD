@@ -1,0 +1,394 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp1227152rwb;
+        Fri, 26 May 2023 09:39:03 -0700 (PDT)
+X-Received: by 2002:adf:f307:0:b0:30a:c89c:c338 with SMTP id i7-20020adff307000000b0030ac89cc338mr2189347wro.50.1685119143677;
+        Fri, 26 May 2023 09:39:03 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1685119143; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=gnwLGzsIBQQ01JkabewYmMyagPVJaSvNWB5fsylRI/hw442q7FNF4N1egE04GJbrj3
+         YBPPWnYZGJawO3rmh2NfNJKSBExNo3T6n0DYtpLhnY5XMHpYMW2NnJcGWp9Ih8mfteTC
+         +/4TQyXPxUzFRuSaonrmje+nOVMGjA5Wn0hxkFgTKnzY4+JYHJZoMBdtBe3+W3Nhoc6G
+         LpjVnof0vGM/UbA8kYndBULUx1GtJiD5YO90a40XCdmaJhhm10MEazoMy40rH7tgnlRc
+         lI0BKRQnYSnojSp3bJGOpZnvI5kUuVj/DSL53NiM0cW7KI08aupswAOunyl96twDosPU
+         paDA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:list-id:list-unsubscribe:list-url
+         :list-owner:reply-to:date:message-id:to:from:subject:mime-version
+         :sender:dkim-signature:delivered-to;
+        bh=wTV5N47H9+w/GqvIkIk3IuJUZgrx693E5zWDagf+F0Y=;
+        b=gp6Z8AGUJVjg1Q3q0rxq3hmZNFP/jEybuOZsQOmUGcjz1UZTzyhVkX9+MVgdWIB7uf
+         1mQbc+rkdRrlito13NrHkr5Kt4jqN9k+YKySO06oHshtja2ix8yFv0MinLWDijbT0a1p
+         98LvlWgIgNDpqlSVycRCZKAiFPUAxx1MLYeHRKAFeq2NGlolESEBoOevxga8O4VLFUT9
+         pAnj8fBsle0/LnTn6+l+1/9D4MNxRCKKFfkMUjVi6b8zBQmGiEyTj/Jlec4G4Cg2YC0g
+         9irDQ/pWuitGbB0HmQ/TxKhxUP3NSMZvX8dem6sbtaxUALwoSyyhA9MYLH7Ps0fNII5X
+         mREQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=KZbaDD4C;
+       arc=pass (i=2 dkim=pass dkdomain=mg1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id cc3-20020a5d5c03000000b002f7f87f2377sor469531wrb.6.2023.05.26.09.39.03
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Fri, 26 May 2023 09:39:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=KZbaDD4C;
+       arc=pass (i=2 dkim=pass dkdomain=mg1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1685119143; x=1687711143;
+        h=content-transfer-encoding:list-id:list-unsubscribe:list-url
+         :list-owner:reply-to:date:message-id:to:from:subject:mime-version
+         :sender:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=wTV5N47H9+w/GqvIkIk3IuJUZgrx693E5zWDagf+F0Y=;
+        b=iau9fEa4XxpgmVI2A+j4JCzHR5zpvW7X4zy7VVfjsQClkd8mfQyFD0DMxET55+KdVH
+         +zODzQg4hc2W6IQk1TMQ/9BHM+VsDtigvFbxhny25ys2hLF4Abo+3HJzGTyM5BYMdOb7
+         uSybvu/PZ/SsP1rxXwLvDHCKIXXF6LLt4WY8IYbGo8wh5ao8XSUEOsyMQwVzYi6zftk+
+         MnbsbhUl2TDN+lncLASMvjF9/IHL5NsbywdVpG5jZMVVj+rRekXqhJt+npDW58px7sl5
+         bVnehgheGur/PdNm3QZv2aVtiivl08CUgvw4B3spvXOri5PkckDOnDF4fZ9l0HGzpCmD
+         jkYw==
+X-Gm-Message-State: AC+VfDwmDNnEsySkyLR4LtYuhBqw5ts4dR0dgIPu0xW1+/KwWzW9rjNd
+	mx1idc0O15A/1snDd4JYr5Yu95GjeZEnb7NSAQI9MWXTS7M2ZXI1OA==
+X-Received: by 2002:adf:e308:0:b0:30a:9c9c:de5b with SMTP id b8-20020adfe308000000b0030a9c9cde5bmr339712wrj.6.1685119143223;
+        Fri, 26 May 2023 09:39:03 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:4bcd:0:0:0:0:0 with SMTP id l13csp1018751wrt;
+        Fri, 26 May 2023 09:39:01 -0700 (PDT)
+X-Received: by 2002:a05:6102:144:b0:436:120:c91f with SMTP id a4-20020a056102014400b004360120c91fmr877012vsr.4.1685119141355;
+        Fri, 26 May 2023 09:39:01 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1685119141; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=YlJFvc99J1CtI0qNvqtf9+qjI1WjKsdSZkgqnPlCkthUJK8BgnE9GbkEzWo1sHk9/4
+         IPNN2tC2gIn/h+6QPfCmt79AS1Kmc1eMMIDEWYchd2f4e5H5RIcISza7rZlmlv84uEgD
+         4fAwwVnBVvopEhMoJTQol5BrWD/Wkhic8QVXjdiao24W1PhQYwobSXesfU+PBreIbrlY
+         4e8gDOm8mNQewpk71MOg+Yxd/iJxRD+kiOUnYBh2Uyh/sw0go2Flh4barp0+A9r+SBb+
+         oZ0TnTXERCzg2QP4NVvK1Muy9AgqzHON5/CpyzeUjTRj3IOyy0APkK1RPxI1Mw/TTZe7
+         1LYg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:list-id:list-unsubscribe:list-url
+         :list-owner:reply-to:date:message-id:to:from:subject:mime-version
+         :sender:dkim-signature;
+        bh=wTV5N47H9+w/GqvIkIk3IuJUZgrx693E5zWDagf+F0Y=;
+        b=KRZTNtF4q1Vy81XkRXbzhryTiRzbf+zTVASA4BV+rzseAkXFJVAs6Ys67X85LlFAZc
+         pHby9R65doGlNTuD2XY+Y/xYp2dtBCSEEdRhUOQ4GiUW0Slevgn3I7whJCNhue+76HTZ
+         R5ZYBPaz2/U5yEI88DDxr0LUyq1l6xEqw81gXDqDEvtjCeimNtX5IXsXXj/dxtyciV1z
+         VxBXiCFZzizDMbH/feQGx1xoghWIdIRmJUANprcJ35lz3jo+egYfyfVINeDaNI1nZjmr
+         DAVezHVYYyTk/+y6KoEvi0PGhQbjnLXfFL/w2O+cV116sLCN7D9WOT3Yqyhyfq9orb5i
+         2sPA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=KZbaDD4C;
+       arc=pass (i=1 spf=pass spfdomain=mg1.substack.com dkim=pass dkdomain=mg1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c9-20020a0561023c8900b004384fe5f0a6sor924557vsv.14.2023.05.26.09.39.01
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Fri, 26 May 2023 09:39:01 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ757OuCt0XwoTeKd17qQq2X0Gpe8aYoozkT1cOlhoGhMZDVFFqeXZdIGEiAgnjjHzUfZ2NXrWTySgmWZj1V8yx6BEowrfw=
+X-Received: by 2002:a67:f542:0:b0:435:5148:b0e4 with SMTP id z2-20020a67f542000000b004355148b0e4mr912810vsn.7.1685119141144;
+        Fri, 26 May 2023 09:39:01 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1685119141; cv=none;
+        d=google.com; s=arc-20160816;
+        b=y6XRJPDUlhWSNnMs/pnnjszeEmYmT8OG4sDxI/lnpnz6cGYNR7J+swiS7lwIQSj1Dm
+         TdKNsEQO+dVZSDMw6QoZUWkogO5/3wk+5tEjMnaIwGYXmurUMH49JwCa3XJy3ROJjI8I
+         eYJySXiOi4eNDl1dGx9OIpaSEurdNO97iPCVy/u0uHWxN2UE8ejPds6epZ3orZ1ZPLK5
+         bJiaq2J/2OigknUM5eLZgPqcDYfcghXNX0eaiea3gDvQh33d5LTr2Q/UprNBEQjkBbHw
+         H+8L/Idb681jLoYXCoEA6kKv4EOAtXxdSVvNE3N9xS9y6mqOyEnHNfEoH/i7hFuflEgQ
+         Anow==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:list-id:list-unsubscribe:list-url
+         :list-owner:reply-to:date:message-id:to:from:subject:mime-version
+         :sender:dkim-signature;
+        bh=wTV5N47H9+w/GqvIkIk3IuJUZgrx693E5zWDagf+F0Y=;
+        b=ICxSBshT9QU1MuIAcSJnJwv2ja+ACYCmONpp5voSogEjLqU3FO/RuV2beTb9u7iubb
+         zp0GRSdQbt7+nNN/Xw8lJMkKYiSLZysBE/Up6ABJbFndEczy1vgfFpiIMRyP0E1wFf+Q
+         1lW6MtXWpLvvtDdrAFtimyg4tN5X5JkpkMi4e2jUgg0Rom9PUsn7/1VA3b1CkRPa/Rx0
+         GC7lr8VQkCeLWI6hvJWb6UWLZ5INM47H5VAEkdgZaQf5JZszvTW2QJBeNIH5yMptQRoJ
+         Ci7ntGZNA4lzCvzaAon89dln5NByyGE+YyTv22RuMu54HJDTDhjNjAJddNX5SbRdcm42
+         8qJw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=KZbaDD4C;
+       spf=pass (google.com: domain of bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com designates 161.38.202.238 as permitted sender) smtp.mailfrom="bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com>
+Received: from mg-202-238.substack.com (mg-202-238.substack.com. [161.38.202.238])
+        by gmr-mx.google.com with UTF8SMTPS id g7-20020ab01047000000b00786dc05ab38si348129uab.1.2023.05.26.09.39.00
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 26 May 2023 09:39:01 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com designates 161.38.202.238 as permitted sender) client-ip=161.38.202.238;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg1.substack.com;
+ q=dns/txt; s=mailo; t=1685119139; x=1685126339; h=Content-Transfer-Encoding:
+ Content-Type: List-Id: List-Unsubscribe: List-Owner: Reply-To: Date:
+ Message-Id: To: To: From: From: Subject: Subject: Mime-Version: Sender:
+ Sender; bh=wTV5N47H9+w/GqvIkIk3IuJUZgrx693E5zWDagf+F0Y=;
+ b=KZbaDD4CNt1qnu1mprCM6oJmtUF0DJkVZwz598QoDdB5U+8zA+VTwq4jro0WjKIiWcxA+QS264csIL4o3++IdHyhI3tV2Q46ihXcL4I5Ex5Hy9IQ8WeRwIP5XGR7UcTjwzInLVQLzavwLMxuH2SQ3nnfE/0dKuE26ncW83oyxWU=
+X-Mailgun-Sending-Ip: 161.38.202.238
+X-Mailgun-Sid: WyIwMzJmMCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiMDcyYzdiIl0=
+Received: from <unknown> (<unknown> []) by 017dc2659475 with HTTP id
+ 6470e0a3f5df72de7d47b710; Fri, 26 May 2023 16:38:59 GMT
+Sender: no-reply=substack.com@mg1.substack.com
+Mime-Version: 1.0
+Subject: Not Boring by Packy McCormick recommended The Century of Biology
+From: Substack <no-reply@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: reader-recommendation-email
+Message-Id: <20230526163858.3.24065ce9a75e3a51.t7nl55rs@mg1.substack.com>
+Date: Fri, 26 May 2023 16:38:58 +0000
+Reply-To: Substack <no-reply@substack.com>
+List-Owner: <mailto:no-reply@substack.com>
+List-URL: <https://substack.com/>
+List-Unsubscribe: <https://substack.com/api/v1/email/notification/unsubscribe?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwidG9waWMiOiJyZWFkZXJfcHVibGljYXRpb25fcmVjb21tZW5kYXRpb24iLCJpYXQiOjE2ODUxMTkxMzksImV4cCI6MTY4NzcxMTEzOSwiaXNzIjoicHViLTAiLCJzdWIiOiJub3RpZmljYXRpb24tdW5zdWJzY3JpYmUifQ.isANWMsipGnEi6H_DMMoVAAfijg1MLL8v6eRjXXRtX0>
+List-Id: <www.substack.com>
+X-Mailgun-Variables: {"category": "reader-recommendation-email", "email_generated_at":
+ "1685119139424", "subdomain": "www", "user_id": "16283549"}
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta charset=3D"utf-8"><title></title></head><body class=3D"em=
+ail-body" style=3D"font-kerning: auto;"><img src=3D"https://mailgun.substac=
+k.com/api/v1/email/open?token=3DeyJtIjoiPDIwMjMwNTI2MTYzODU4LjMuMjQwNjVjZTl=
+hNzVlM2E1MS50N25sNTVyc0BtZzEuc3Vic3RhY2suY29tPiIsInUiOjE2MjgzNTQ5LCJyIjoibm=
+90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcxLnN1YnN0YWNrLmNvbSIsInAiOm51bGwsInQiO=
+m51bGwsImEiOm51bGwsInMiOm51bGwsImMiOiJyZWFkZXItcmVjb21tZW5kYXRpb24tZW1haWwi=
+LCJmIjpmYWxzZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE2ODUxMTkxMzksImV4cCI6MTY4Nzc=
+xMTEzOSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.zglOx5xdDyat7NaAdSyaTtgkNEPWRzfJe=
+0q8t5iNEKo" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:=
+1px !important;width:1px !important;border-width:0 !important;margin-top:0 =
+!important;margin-bottom:0 !important;margin-right:0 !important;margin-left=
+:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-=
+right:0 !important;padding-left:0 !important;"/><img src=3D"https://eotrx.s=
+ubstackcdn.com/open?token=3DeyJtIjoiPDIwMjMwNTI2MTYzODU4LjMuMjQwNjVjZTlhNzV=
+lM2E1MS50N25sNTVyc0BtZzEuc3Vic3RhY2suY29tPiIsInUiOjE2MjgzNTQ5LCJyIjoibm90Ym=
+9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcxLnN1YnN0YWNrLmNvbSIsInAiOm51bGwsInQiOm51b=
+GwsImEiOm51bGwsInMiOm51bGwsImMiOiJyZWFkZXItcmVjb21tZW5kYXRpb24tZW1haWwiLCJm=
+IjpmYWxzZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE2ODUxMTkxMzksImV4cCI6MTY4NzcxMTE=
+zOSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.zglOx5xdDyat7NaAdSyaTtgkNEPWRzfJe0q8t=
+5iNEKo" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px =
+!important;width:1px !important;border-width:0 !important;margin-top:0 !imp=
+ortant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !=
+important;padding-top:0 !important;padding-bottom:0 !important;padding-righ=
+t:0 !important;padding-left:0 !important;"/><table role=3D"presentation" wi=
+dth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"emai=
+l-body-container"><tr><td></td><td width=3D"550" class=3D"content"></td><td=
+></td></tr><tr><td></td><td align=3D"left" width=3D"550" class=3D"content r=
+evamped-reader-recommendation notification" style=3D"font-family: -apple-sy=
+stem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"><div style=3D"f=
+ont-size: 16px; line-height: 26px; margin: 0 auto; max-width: 550px; overfl=
+ow-wrap: break-word; width: 100%;"><h2 style=3D"-moz-appearance: optimizele=
+gibility; -moz-osx-font-smoothing: antialiased; -webkit-appearance: optimiz=
+elegibility; -webkit-font-smoothing: antialiased; appearance: optimizelegib=
+ility; color: #404040; font-family: 'SF Compact Display', -apple-system, Bl=
+inkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.625em; font=
+-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">Not Boring by=
+ Packy McCormick recommended The Century of Biology</h2><table role=3D"pres=
+entation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" c=
+lass=3D"email-body-center" style=3D"margin: 0 auto; margin-bottom: 8px; mar=
+gin-top: 32px;"><tr><td style=3D"border-top: 1px solid #e0e0e0; padding-bot=
+tom: 16px; padding-top: 16px;"><img src=3D"https://substackcdn.com/image/fe=
+tch/w_51.55555555555556,c_scale,f_png,q_auto:good,fl_progressive:steep/http=
+s%3A%2F%2Fsubstack.com%2Ficon%2FSubstackLogoIcon%3Fv%3D4%26height%3D58%26st=
+rokeWidth%3D3.6" width=3D"26" height=3D"29" style=3D"border: none !importan=
+t; max-width: 25.77777777777778px; vertical-align: middle;" alt><div class=
+=3D"icon-pile" style=3D"font-size: 16px; line-height: 26px; margin: 16px 0p=
+x;"><div class=3D"pub-and-pub-author" style=3D"align-items: center; display=
+: flex; font-size: 16px; line-height: 26px;"><div class=3D"pub-icon pub-ico=
+n stacked-icons" style=3D"border-radius: 4px; font-size: 16px; height: 30px=
+; line-height: 26px; margin-right: 8px; min-width: 30px; position: relative=
+; width: 30px;"><a href=3D"https://email.mg1.substack.com/c/eJx80DtuAyEUheH=
+VDJ0R70dBkcbbsO7AzRh5gAgYoew-kosoVdrz6TR_hIlH69-hIyTst46xlYI1wcyt3rBAPkkKzI=
+pod4KBG6c591x68rbHgRU7TEwPmH9UCUWegfuIySfHpElJSQTmPsF4Y6W1HLgnOQgmJNPCcCOdd=
+lRSoZjRET1YjRI0p9PWU-s-NsXKwem49jEhvmhshZzhOefX2OTHJu6buK-1aG1zbz3Xg8a2iTvp=
+4XfZFHs9oeD5Po9rT61ArmGtRea_Ca6B_ZFT4EY4qZX_CQAA___SOWQB" native style=3D"c=
+olor: #ff6719; text-decoration: none;"><picture><source type=3D"image/webp"=
+ srcset=3D"https://substackcdn.com/image/fetch/w_64,h_64,c_fill,f_webp,q_au=
+to:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-951=
+8-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F62784289-29bb-4fdf-9ada=
+-642905c5a28b_400x400.png"><img src=3D"https://substackcdn.com/image/fetch/=
+w_64,h_64,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbuck=
+eteer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimag=
+es%2F62784289-29bb-4fdf-9ada-642905c5a28b_400x400.png" sizes=3D"100vw" alt=
+=3D"Not Boring by Packy McCormick" width=3D"64" height=3D"64" class=3D"fron=
+tend-components-responsive_img-module__img--1l4UG custom" style=3D"border-r=
+adius: 4px; display: flex; height: 100%; max-width: 100%; width: 100%;"></p=
+icture></a></div><div class=3D"profile-image-wrapper" style=3D"display: inl=
+ine-block; font-size: 16px; height: auto; line-height: 26px; max-width: 100=
+%; position: relative;"><img height=3D"32" width=3D"32" src=3D"https://subs=
+tackcdn.com/image/fetch/w_64,h_64,c_fill,f_auto,q_auto:good,fl_progressive:=
+steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazo=
+naws.com%2Fpublic%2Fimages%2F40bee61d-67eb-4492-9ee1-ebbbf2b03141_1280x855.=
+jpeg" class=3D"user-profile-head" style=3D"border: none !important; border-=
+radius: 50%; display: block; max-width: 550px; vertical-align: middle;"></d=
+iv></div></div><div class=3D"describe-text" style=3D"font-size: 16px; line-=
+height: 26px; margin-bottom: 16px;"><div class=3D"pencraft frontend-pencraf=
+t-Box-module__reset--tAIEo frontend-pencraft-Text-module__size-16--yeezN fr=
+ontend-pencraft-Text-module__line-height-24--ePKm2 frontend-pencraft-Text-m=
+odule__weight-normal--mEmBf frontend-pencraft-Text-module__font-text--hJYwu=
+ frontend-pencraft-Text-module__color-primary--2I-sF frontend-pencraft-Text=
+-module__reset--20JLV frontend-pencraft-Text-module__body3--2ujZr" style=3D=
+"color: #404040; font-family: -apple-system, -system-ui, BlinkMacSystemFont=
+, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'S=
+egoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: 400; lette=
+r-spacing: -.32px; line-height: 24px; margin: 0; text-decoration: unset;"><=
+a href=3D"https://email.mg1.substack.com/c/eJx80DtuAyEUheHVDJ0R70dBkcbbsO7A=
+zRh5gAgYoew-kosoVdrz6TR_hIlH69-hIyTst46xlYI1wcyt3rBAPkkKzIpod4KBG6c591x68rb=
+HgRU7TEwPmH9UCUWegfuIySfHpElJSQTmPsF4Y6W1HLgnOQgmJNPCcCOddlRSoZjRET1YjRI0p9=
+PWU-s-NsXKwem49jEhvmhshZzhOefX2OTHJu6buK-1aG1zbz3Xg8a2iTvp4XfZFHs9oeD5Po9rT=
+61ArmGtRea_Ca6B_ZFT4EY4qZX_CQAA___SOWQB" class=3D"recommender-link" style=
+=3D"color: #ff6719; text-decoration: none;">Not Boring by Packy McCormick</=
+a> recommended <a href=3D"https://email.mg1.substack.com/c/eJx80L1uwyAUxfGn=
+MVssvi6YgaFLXiO6wI2DYqACrChvXylTu3T-HZ3hH3HS3vrbd8JE_dIptlKoJpy51QsVzAdLnls=
+ZbWDkhdlACCeUYx-77VSp46R0w_lLtdTs4QNxC9waoVyURHeTQLvN6SAABSrLspdcKg7SCKM22F=
+a1Ss0NRHJogRSCWKetB0Afi-ZlF-s4w5gYn2tshR3-Mef3WNTXIq-LvEaq8-zvdg-5_Vku8sq6r=
+22G1nPdF82fDyx0fF7GGVIrmKt_vV5s_tviHNRvOXlh5KZAu58AAAD__2FjZ3c" class=3D"re=
+commended-link" style=3D"color: #ff6719; text-decoration: none;">The Centur=
+y of Biology</a>:</div></div><div style=3D"color: #808080; font-size: 14px;=
+ font-style: italic; font-weight: 400; letter-spacing: -.15px; line-height:=
+ 20px; margin: 0; margin-bottom: 12px; text-decoration: unset;" class=3D"pe=
+ncraft frontend-pencraft-Box-module__reset--tAIEo frontend-pencraft-Text-mo=
+dule__size-14--1PYz8 frontend-pencraft-Text-module__line-height-20--1soeQ f=
+rontend-pencraft-Text-module__weight-normal--mEmBf frontend-pencraft-Text-m=
+odule__color-secondary--XjVGl frontend-pencraft-Text-module__reset--20JLV b=
+lurb-text">&quot;A Stanford Genetics PhD highlighting the cutting advances =
+in sciences for both scientific and non-scientific audiences. &quot;</div><=
+/td></tr><tr><td style=3D"border-top: 1px solid #e0e0e0; padding-bottom: 16=
+px; padding-top: 16px;"><a href=3D"https://email.mg1.substack.com/c/eJx8kc2=
+K7CAQhZ_G7DqopSZZuLgQ-jWC0UpaOmrjz2367Yc0MzAzi9meryg437Gm4p7yS2c0DvMlo00hYH=
+Sm-hQvGIw_OqfpwO2wdqiZGiVjE4Ope7Nlx4jZVHSLqd-o4KK7aZBWuGnkYCUKRpFzu20KkDJh8=
+PzhNaccqOSKKRjl2EPPBVXS4mQGiWAk6-sQDylzIYKGnfWlraUae-9tCt2hb7U-CoF_hF8Jv1qM=
+teVX2lafflyeGK6thqWkli0SmL8w4erMAzrfAoH53esztClWjJXAnPG_CQ90vwyVy5ZOa6c8wlX=
+GDXP2cV8ebV28KwRmRimXXdYx1TWdjAh6v5mAx7tCaatLwfion89nV_8cohXMi3eaKT6CFNNHAA=
+AA__9QlZS_" style=3D"color: #ff6719; text-decoration: none;"><table class=
+=3D"link-card" style=3D"background: #f5f5f5; border-radius: 8px; padding: 1=
+6px; width: 100%;"><tr><td><div class=3D"pub-icon pub-icon-margin subscribe=
+-image" style=3D"border: none; border-radius: 4px; font-size: 16px; height:=
+ 40px; line-height: 26px; margin-bottom: 12px; margin-right: 10px; min-widt=
+h: 30px; position: relative; width: 40px;"><a href=3D"https://email.mg1.sub=
+stack.com/c/eJx80L1uwyAUQOGnMVssLn82A0OXvEZ0gWsHxUAFWFbevlKmdun8nekEHLTX9na=
+NMFK7NQo1ZyoRR6rlRhnTwaLjiwiLZ-TArBrAgrTsY4-dCjUcFB84fqkSij2djQSworWBthis3m=
+QEsyhQalNeCs6SE1xIroUBI1e9znIWihsdyOKiSaKGeSzl0Lr1SfG8w9xP3weG1xxqZod7jvHdJ=
+_k1ifsk7oHKONu7bj7Vv2VzpQ5fWyr7pPjriZmOD_TTx5oxFXddFxv_jjg7tUeKDoxYpVb2JwAA=
+__-rRGc9" native style=3D"color: #ff6719; text-decoration: none;"><picture>=
+<source type=3D"image/webp" srcset=3D"https://substackcdn.com/image/fetch/w=
+_80,h_80,c_fill,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucke=
+teer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimage=
+s%2F711f23d0-af50-48f0-861e-49e12409ca08_256x256.png"><img src=3D"https://s=
+ubstackcdn.com/image/fetch/w_80,h_80,c_fill,f_auto,q_auto:good,fl_progressi=
+ve:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.am=
+azonaws.com%2Fpublic%2Fimages%2F711f23d0-af50-48f0-861e-49e12409ca08_256x25=
+6.png" sizes=3D"100vw" alt=3D"The Century of Biology" width=3D"80" height=
+=3D"80" class=3D"frontend-components-responsive_img-module__img--1l4UG cust=
+om" style=3D"border-radius: 4px; display: flex; height: 100%; max-width: 10=
+0%; width: 100%;"></picture></a></div></td></tr><tr><td><div class=3D"pencr=
+aft frontend-pencraft-Box-module__reset--tAIEo frontend-pencraft-Text-modul=
+e__size-16--yeezN frontend-pencraft-Text-module__weight-semibold--2XLPl fro=
+ntend-pencraft-Text-module__color-primary--2I-sF frontend-pencraft-Text-mod=
+ule__reset--20JLV subscribe-title" style=3D"color: #404040; font-size: 16px=
+; font-weight: 600; letter-spacing: -.31px; line-height: 20px; margin: 0; m=
+argin-bottom: 4px; text-decoration: unset;">The Century of Biology</div></t=
+d></tr><tr class=3D"subscribe-desc"><td><div class=3D"pencraft frontend-pen=
+craft-Box-module__reset--tAIEo frontend-pencraft-Text-module__size-14--1PYz=
+8 frontend-pencraft-Text-module__weight-normal--mEmBf frontend-pencraft-Tex=
+t-module__color-primary--2I-sF frontend-pencraft-Text-module__reset--20JLV"=
+ style=3D"color: #404040; font-size: 14px; font-weight: 400; letter-spacing=
+: -.15px; line-height: 18px; margin: 0; text-decoration: unset;">Data, comp=
+anies, and ideas from the frontier of biology.</div></td></tr></table></a><=
+/td></tr></table><div class=3D"cta" style=3D"font-size: 16px; line-height: =
+26px; margin-bottom: 16px; margin-top: 6px; padding-top: 10px; text-align: =
+center;"><a role=3D"button" href=3D"https://email.mg1.substack.com/c/eJx8ks=
+tu2zoYhJ-G2sXgRZSthRY5UXxiN6rR5tZkI1DkL4WySDoUGcd--kJxi6RddMn5Z4D5BpQiQOf8o=
+fAgFPgzD9IZA1aJoJ09AyP0kKgCz6mcNwkUJFtwQnLC8uT9VndgwYsAqhbh0zWlafJc4FQ0wAiR=
+aQtAOJ1jwVlLqUobqdqGJrqgmDLMaUYytuCLGZvRFGdcQi7mHJjgZBbmduDcjyjFpiOzMTZjEHI=
+7k84kQ_Ecwm5E7BzRJaJLCTZEf3Bto90fTkSX01N63QBiyxhMPbroJSBW_vYhmk26AaWjQax8B_=
+wlSmcD2IBY6eFVmB2ov6Yaz1o3zTetiGgmYnA3sTF6igQfAdHMQwvea9vVu9jUWo2IlQRjyhHN-=
+jiGetSdBVXH3Ufm1IGV1oXGTVlEeYq3z8LAcOLKgtuCneoe1kTS-8MPOmxXvXv72q_S6niHNzd7=
+LR6W-KR1pLq95NVtlV5frAe4Oteb_pJuSsmq28u36tiNKzMc5WGVrex_5FHjY9VXb1X5TV9frI_=
+qYaU3et2L_-97QXOiLtb5bBs5K6_uyNH6_T7LX8h1fPzSvT7dc6DfXw5D69m8fbrLb9Qi8cUHyW=
+eOZIyNckZoW-z3-yT88z_GEXytVUEyumA8zX8GAAD__zg47wQ" class=3D"button primary"=
+ style=3D"background-color: #FF6719; border: none; border-radius: 6px; box-=
+sizing: border-box; color: #ffffff !important; cursor: pointer; display: in=
+line-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Rob=
+oto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', '=
+Segoe UI Symbol'; font-size: 14px; font-weight: 600; height: auto; line-hei=
+ght: 20px; margin: 0; opacity: 1; outline: none; padding: 10px 24px; text-a=
+lign: center; text-decoration: none !important; white-space: nowrap; width:=
+ 100%;"><div class=3D"pencraft frontend-pencraft-Box-module__reset--tAIEo f=
+rontend-pencraft-Text-module__size-14--1PYz8 frontend-pencraft-Text-module_=
+_line-height-20--1soeQ frontend-pencraft-Text-module__weight-semibold--2XLP=
+l frontend-pencraft-Text-module__reset--20JLV" style=3D"color: unset; font-=
+size: 14px; font-weight: 600; letter-spacing: -.15px; line-height: 20px; ma=
+rgin: 0; text-decoration: unset;">Subscribe to The Century of Biology</div>=
+</a></div><div class=3D"footer frontend-email-shared-typed-module__footer--=
+WmMp1" style=3D"color: #808080; font-size: 16px; line-height: 26px; padding=
+: 24px 0; text-align: center;"><div style=3D"font-size: 16px; line-height: =
+26px; padding-bottom: 24px;"><p class=3D"pencraft frontend-pencraft-Box-mod=
+ule__reset--tAIEo frontend-pencraft-Text-module__size-12--2onFT frontend-pe=
+ncraft-Text-module__color-secondary--XjVGl frontend-pencraft-Text-module__r=
+eset--20JLV small frontend-email-shared-typed-module__meta--AAyPr" style=3D=
+"color: #808080; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 12px; letter-spacing: 0; line-height: 16p=
+x; margin: 0; padding-bottom: 0; text-decoration: unset;">&#169; 2023 <span=
+>Substack Inc.</span><br>548 Market Street PMB 72296, San Francisco, CA 941=
+04 <br><a href=3D"https://email.mg1.substack.com/c/eJx8ks1uqzwQhq_G7IrwL7Bg=
+EbWlBYVEzZcGkk1kG5OYPyNwmoSr_5QcHamrs51H7zwzo5HcqpMZ79GoeKnGl1FJ03WqL7nVpn9=
+RHdetU0aej6QvHBVBFlAIQ4hD58mOJ9WrkVtVHrn9RQkizjkiPmJCSe7LsgowDoTHvJCgKmSV4D=
+7jjo6Qh7BHEYMMBzRwsYuIx6hUIfepwpxC1_p9S-k4AeJ1J-hOFzFZLhtXms5po7O1wwTwAqAYo=
+Pg3BCjmgwYo_oEAxc9pAYp7Y3Wl5XM9gOJL_4jIUQsFcGxNo3qA39Q9hRLt7gVqm6Q2t1WdkGz-=
+9tb_XXX5EV55num1Tu-HPG4ORVrJz50WH229LzaDQLSS3a4WCNpDTps_NaKXr-mwL770un5H67f=
+vW7ZtbtncTEm3I_I1Ydl2T1azvGXb9_nh4cVqTmqjH72X28UjP5d58vBeBN4Mh-6vj9gyp3OZp_=
+Mep8O--9bVl6unxSrPJj189O-afR7fsszsFotK1yeYLZfBD1Obuig2tvCcMeqNFWbU_QkQrznzT=
+rXP804XUZqO6z66Xq-O_eeTXCY1HnUZQYYCTEn4fwAAAP__D6fIYw" style=3D"color: #808=
+080; text-decoration: underline;"><span style=3D"color: #808080; text-decor=
+ation: underline;">Unsubscribe from this digest</span></a></p></div><p clas=
+s=3D"frontend-email-shared-typed-module__footerSection--9vwqp small powered=
+-by-substack" style=3D"color: #808080; font-family: -apple-system, BlinkMac=
+SystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color =
+Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; line-height: =
+20px; margin: 0; margin-top: 0; padding: 0 24px; padding-bottom: 0;"><a hre=
+f=3D"https://email.mg1.substack.com/c/eJx8kU-umzAQh09jdkHYgw0svKhEc4EeAA32h=
+FgP25EZK-rtq6CmyqZvOd_30_zROGTacvltC6GncinkcoyUPHLI6UIRw9542w3KDWtDVppRSzlJ=
+mJrTLRslKsjkF-QP26u-uVsJIym1wkgoSZM20iuv1aR7tQ4G1iZY1SnotDLSwKjHFlrVd0Y7mnD=
+QBKhly0PatS6H6Lu4yfao68HovlqXY7PbO_PjEPBDqKtQ10_5KsOW6kPAtXJcjlyLIwHzOySUef=
+FIPtQoYD4P-gtdTkyJBcy3nJnKG2N8YNiSgBkr51vYd_KXf5FbIfp1zvx59oI5ZV5zCWkTffd1x=
+0j7uXex_xFHXX2OGJJ9Pp8Nf_uWelBZgrfSqBF0P_0JAAD__zV2mdA" style=3D"color: #80=
+8080; display: inline-block; margin: 0 4px; text-decoration: none;"><img sr=
+c=3D"https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-butt=
+on%402x.png" srcset=3D"https://substackcdn.com/image/fetch/w_135,c_limit,f_=
+auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fem=
+ail%2Fpublish-button.png, https://substackcdn.com/image/fetch/w_270,c_limit=
+,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2=
+Femail%2Fpublish-button%402x.png 2x, https://substackcdn.com/image/fetch/w_=
+405,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.=
+com%2Fimg%2Femail%2Fpublish-button%403x.png 3x" width=3D"135" alt=3D"Start =
+writing" height=3D"40" style=3D"border: none !important; max-width: 550px; =
+vertical-align: middle;"></a></p></div></div></td><td></td></tr></table><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjMwNTI2MTYzODU4LjMuMjQwNjVjZTlhNzVlM2E1MS50N25sNTVyc0BtZzEuc3Vic3RhY2suY2=
+9tPiIsInUiOjE2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcxLnN1Y=
+nN0YWNrLmNvbSIsInAiOm51bGwsInQiOm51bGwsImEiOm51bGwsInMiOm51bGwsImMiOiJyZWFk=
+ZXItcmVjb21tZW5kYXRpb24tZW1haWwiLCJmIjpmYWxzZSwicG9zaXRpb24iOiJib3R0b20iLCJ=
+pYXQiOjE2ODUxMTkxMzksImV4cCI6MTY4NzcxMTEzOSwiaXNzIjoicHViLTAiLCJzdWIiOiJlby=
+J9.u_gAtJqJc4oSQYKseGg7fToUWJPFZ6MQvoS6F7m7BpU" alt=3D"" width=3D"1" height=
+=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !important;bor=
+der-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;m=
+argin-right:0 !important;margin-left:0 !important;padding-top:0 !important;=
+padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !impo=
+rtant;"/><img width=3D"1px" height=3D"1px" alt=3D"" src=3D"https://email.mg=
+1.substack.com/o/eJx8zzuOwyAQANDThC4Wv-FTcJZoPIwdFAMSxrL29iul2mrrVz3CyXsfP2=
+kwZh7PwdRr5ZZxlt6eXLEcIifpNflVcFIugFJRmSi-9tq58cDJ-YXzj1ptxTt52oyPoMEi0ao39=
+iFIcFskF5S3IErSUhsJ2ilnAoTFLNpKB8QRPbBBUMv07QAY58PKuqvlvNZzIn0W6lWM1Ppc-yht=
+f1j5eWPl4wvnteZesbR037eY__auk8er5KScDgZs_A0AAP__3iJYBQ"></body></html>

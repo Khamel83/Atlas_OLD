@@ -1,0 +1,2158 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:c689:b0:130:da8c:7dd9 with SMTP id fe9csp2977812rwb;
+        Tue, 1 Aug 2023 10:49:01 -0700 (PDT)
+X-Received: by 2002:a5d:470d:0:b0:317:5c82:10c5 with SMTP id y13-20020a5d470d000000b003175c8210c5mr2627438wrq.17.1690912141218;
+        Tue, 01 Aug 2023 10:49:01 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1690912141; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=qXiNH/eUVjslrryWH2Yn6+y1dKsDZI77d3Rz9fzIR6SKLDbhnJ2d6K4QbZcujMfaT2
+         V4uEcXp2fgcsLeqqOSD8jBn/aCMZPAGeHh1SF4j51KBsAgLgycngRDu0w1ads4dzOyth
+         sAcJGJENXl/GgDynBXPJirG+NRgJWa//ZfxAEjk4jgEwiuHPLxIic/fT/VGrc8QpjOCw
+         xUpaeAq605LLIHoM8bO1Qn7k+ZXC5Iuy/lVL4KZq3Bz7a3nBWzOW83bz2IJ0CA5mWO1G
+         aYyoFLftfKsBtYel4qwLDz1RjDlcq3TMktpLEd1ID9N6C4oquDQtIX6ydplx2hxOmPWh
+         NJiA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=ya69uxah0xiuYJ/4EEt7GaaoDlzPfew4TvF+/3lldEc=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=Wnjejt6keJ4TcwFQiPOk6QM2e6Opfzy9pEr4zGxB1ISKU/PeIdZ0rNjXQ8oUCTg0NV
+         lrsLzCaEHn84atnGJeTrm+XflRjYbqCwfpB6hcDwQgP/K6nykWT+c44kIjLrhnHhVex5
+         2MJMMdZkTYl9smIwgiVeT9Ko19pUrnNA7sdTmojc4TRHpdXYVFgRyu4jQv4hID0y60Ez
+         NW5fDNjorRE1k8YqNpyL56ls/jBeL7Me/E2EIxjT3/VVPzsQ5u812Tx1Y76h4HcGOWyz
+         dxV7MXO9B6lGUCC2CYAxGQBJx2WRIOs4EWDqKMbP01+Iv+9lMXHwkK+KqfPCv9LW6iH4
+         kxBA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=M1MP8ijX;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id k18-20020adfb352000000b003144087acbdsor533666wrd.10.2023.08.01.10.49.01
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 01 Aug 2023 10:49:01 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=M1MP8ijX;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1690912141; x=1691516941;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=ya69uxah0xiuYJ/4EEt7GaaoDlzPfew4TvF+/3lldEc=;
+        b=K18diPLGByXVAbGmM2XHJHoWatAgTORqKWRV5QLnTb1TsEnTyphcIF8Agg7yeyeQbh
+         nHblMJoiNCDlRXq+M+I6wMMxSyXsbNDJCE1fXodHIRvfPc4/ZCx6WsOqNG3+a84jc/Ks
+         gl05g6ZSVBuIlpF443JKC6XPujKlbfJd8/pxkARjDmoGJiSXoajlc/dMa35bUuD2RuFv
+         0v0xjQD0uWQvnzGk/FBCnh33LHBziHlq3atjw23Zzlc0RcPnEsmt65GfiQZsVs1jPvt4
+         f6KARCyYc4+BWXMcijZQoe+UgPuEGERtFY9jec+Qji+nggx3aOTspkgjVBdOh42cdKhY
+         CRMw==
+X-Gm-Message-State: ABy/qLbCUnqfWsos7n1hmQs0JNrW8w2rDUPqyBpSesm3svph1CXktxFA
+	VXfOyNtY0cI/aevk8wzt3LRXJKFIHCQO1Aki78CVU6FZ2JKwNlxxvw==
+X-Received: by 2002:a05:6000:10c8:b0:315:9c3a:43c3 with SMTP id b8-20020a05600010c800b003159c3a43c3mr2884109wrx.15.1690912140682;
+        Tue, 01 Aug 2023 10:49:00 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:457c:0:b0:317:6ac3:4e22 with SMTP id a28csp437060wrc;
+        Tue, 1 Aug 2023 10:48:56 -0700 (PDT)
+X-Received: by 2002:a05:6808:2104:b0:3a7:507d:7b20 with SMTP id r4-20020a056808210400b003a7507d7b20mr1345147oiw.8.1690912136020;
+        Tue, 01 Aug 2023 10:48:56 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1690912136; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=IARtnARlnvHbHbrgGuBV7IbKSvx+mZpvpswLVJWWVltrv0IeL21PbuFqCcbmYSyoy2
+         DyK5z+OaTMXeJI+iFg5LG7DeeFR9PdWkIIyC2Ku4taJHkI9bKArXQZq6cOIvNs/HZfyw
+         ZUv9NKLA91XrH5to2QMLt8I9e0zx/smT4yNs9CuNDMSrXXUyRkbEM2nXZhEL3Drz8N/K
+         RKzBeHS6SZMyzdz9lWflYhq/hd4hpnuEhvBwM/iI6mI9MhGh1Jk52Nu292TdvsIYD/xu
+         pvbEiBy1MghoknOzKo/r0lMYUmO/yjDoXop+Orc7OIjQgvSSriWZMbqbKSvv+50pDpId
+         Crsw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=ya69uxah0xiuYJ/4EEt7GaaoDlzPfew4TvF+/3lldEc=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=KDKJTcmLASmp0jgKvQThfDhVp1VacBSPSR9Gex+CCCmuun5suLMBUDwWA979+hm98h
+         GaRGhPq1hB+2nBBwE8HTc0JRXFfZHxk/n7sXfAxrgmJkXJKNsnYj7g64rqnr5pBWdiuJ
+         7dh9JW0xhG1xQWb7P+jRrFE8ruo/836sfn6CK0hB843y1bHnjrWSVzH4neqR3V+Uu2V8
+         WBIRXjZty+Jq8fZJ7GhCWwUKzX18gl/1InIsKQQPduFAYsveIFNrHOHhMdrb4W9WfqmF
+         ZujAhasbksw2T+A/UpJQknwvaTBJjOsoqMUzmVqxCDxI8OX5iMKYIomnErYeES+uia3B
+         adCg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=M1MP8ijX;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230801134854.32262470.263416@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230801134854.32262470.263416@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230801134854.32262470.263416@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id e20-20020aca1314000000b003a46434c248sor11718416oii.9.2023.08.01.10.48.55
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 01 Aug 2023 10:48:55 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230801134854.32262470.263416@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: APBJJlGq7t7efoF6cxLGUj5r1uqTJo/z35iitlxPOFnrsjsVkwgt6zwhDEW8Q5GyQjOnSwTGLs8p5zuxik04kKnCarEN9DqicJo=
+X-Received: by 2002:a05:6808:1801:b0:3a1:e792:86f3 with SMTP id bh1-20020a056808180100b003a1e79286f3mr11403637oib.2.1690912135638;
+        Tue, 01 Aug 2023 10:48:55 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1690912135; cv=none;
+        d=google.com; s=arc-20160816;
+        b=zQje6XpEqqkclB39yTJ3wX9VUg1n9DgjfT8UUR3iadSWrMIKuigf5Ht+ElcMv2LK97
+         XIwqKScyxZMDjyEjQFRk4TnWhgpuDFKUjzY/uTWKWfMk7xrKZx1RQEsOFHUTbtjzKwfL
+         6JFl6IEBYVa3cFsEWb1ln8s1WpwoZANBmL0Wrx/c9KaKjOu6PT3xQ7M0pbkFRbxjG5K2
+         v1stMpLMHoZJKuTOPaU4+umosptcNhJmZtVhoxMfIe/P+DU+J+SHTypY30G1MhxNQ9ah
+         eloP+O/8SBaI9FDIqQgA0mK6XF2iRsmgEFDc3kjM0RfICeEz7WPCzM8/156+OcVcPPL9
+         Gu1w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=ya69uxah0xiuYJ/4EEt7GaaoDlzPfew4TvF+/3lldEc=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=SQ2+Vr5jPTB134NZHClpOY1W2Bw/bvvv1xUQeV1+WA2WRjlRyXTbXHBE7K/NkufoEG
+         U8yO55OeOHkObesPWtxnK90zmNhaHLMZaVJW9K1yxFvsDMmj3AZLo/nLBLsAU2DyhGuo
+         7+vWdTFOnpINlakfEZu0aeuQU4z4Xr0eo9up4eM3cWJ5i+0UbeTTwAWHf37oNgZqpDuN
+         +ZFqMDuaAmCaHMohkymx2SkShPxNv60/KlV3wVXwjUoGi4r1+w/L6/BhLqw/Sb/q3IHA
+         aczaRzTp5wVwVvEwBcPpR1IZZ+QYBhB3L/4P6I6MQH7q7cdgwq5Onnb5HlsiTuTpUDlX
+         Xo6g==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=M1MP8ijX;
+       spf=pass (google.com: domain of delivery_20230801134854.32262470.263416@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230801134854.32262470.263416@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230801134854.32262470.263416@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id u12-20020a056808114c00b003a747d9498esi162434oiu.4.2023.08.01.10.48.55
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 01 Aug 2023 10:48:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230801134854.32262470.263416@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=pJGq7Ipe1YPiUSCgLONpNM5nhqCIjgxGQ7exjaibHKo=;
+ b=M1MP8ijXgsIY2lKYAX3w1SCI0psf1pmB+EaDES7CuyD7MpcfcHxdYTon35UjlSX2dtle2ivk1bqL
+   T0ADFRQURitgWSurprz8UnzNAB0sKVQG5IBPXOLt58QVCB0mgY83NYiri9Yhc9EbpgKxM/gS4D3W
+   M9xFXX6uNfIXKR8zhzw=
+Received: from ip-10-55-85-2.ec2.internal (10.55.85.2) by aws1-mta-relay5.sailthru.cloud id hp52oc1qqbsd for <bloomberg@khamel.com>; Tue, 1 Aug 2023 12:48:54 -0500 (envelope-from <delivery_20230801134854.32262470.263416@mx.sailthru.com>)
+Date: Tue, 1 Aug 2023 13:48:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230801134854.32262470.263416@sailthru.com>
+Subject: Money Stuff: Who Put These Stocks in the Index?
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9578137_762380757.1690912134475"
+Precedence: bulk
+x-job: 6358-32262470-20230801
+X-Feedback-ID: 6358:32262470:campaign:sailthru
+X-TM-ID: 20230801134854.32262470.263416
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-85-2.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj7hvq.5n94/8c8892b4
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj7hvq.5n94/8c8892b4>, <mailto:unsubscribe_20230801134854.32262470.263416@mx.sailthru.com>
+X-rpcampaign: stjko32262470
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_9578137_762380757.1690912134475
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        One attraction of index investing is that nobody is responsible for=
+ any investing decisions. If I buy an index fund, I am just following sen
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Should index funds be illegal?
+   =20
+ =20
+
+One attraction of index investing is that nobody is responsible for any inv=
+esting decisions. If I buy an index fund, I am just following sensible stan=
+dard financial advice about indexing and diversification; if that index fun=
+d happens to hold stocks in companies that I find objectionable, I can say =
+=E2=80=9Cwell that=E2=80=99s not my fault, I didn=E2=80=99t buy those compa=
+nies, I just bought the index fund.=E2=80=9D Meanwhile the index fund manag=
+er buys those stocks, not because she wants to, but because they are in the=
+ index and her mandate is to track the index; buying those stocks is not re=
+ally her fault either. Meanwhile the index=C2=A0provider=C2=A0=E2=80=94=C2=
+=A0the company that compiles the index and licenses it to funds =E2=80=94=
+=C2=A0has some quasi-mechanical standards for including stocks in the index=
+, and they=C2=A0probably amount to something like =E2=80=9Cthis index inclu=
+des all of the stocks in the market,=E2=80=9D or all of the biggest stocks,=
+ or all of the tech stocks, or all of the US-based stocks, or all of the Ch=
+ina-based stocks, or whatever the index name says. There are indexes that a=
+re like =E2=80=9Cthis index includes all of the stocks in the US that we do=
+ not find morally objectionable,=E2=80=9D but that is more of a niche produ=
+ct than the indexes that are just all of the stocks.
+And so in theory you can have a lot of ordinary people investing their mone=
+y in companies that they find objectionable, through mutual funds whose man=
+agers find them objectionable, based on an index whose compilers find them =
+objectionable. Nobody=C2=A0wants=C2=A0to invest in those companies, but nob=
+ody is quite=C2=A0responsible=C2=A0for the decision, so they=C2=A0do=C2=A0i=
+nvest in those companies.
+And, really, that is the point of indexing! The basic idea of index investi=
+ng is something like =E2=80=9Cif you try to make investing decisions they w=
+ill be bad, so just buy the entire stock market,=E2=80=9D so it is importan=
+t for index funds to be set up in such a way that nobody makes investment d=
+ecisions. People=C2=A0want=C2=A0to make investment decisions, but those dec=
+isions are bad for them, so you have to guard carefully against the tendenc=
+y for investment decisions to creep back into the process. At every level, =
+you want to make sure that no one is making decisions.
+Of course this is exaggerated and we   talk all the   time around   here ab=
+out how a lot of discretion=C2=A0does=C2=A0creep back into index compositio=
+n, but still the theory makes a certain sense.
+Anyway:
+
+The world=E2=80=99s largest asset manager and a top stock-market-index comp=
+iler are being investigated by a congressional committee for facilitating A=
+merican investment in Chinese companies the U.S. government has accused of =
+bolstering China=E2=80=99s military and violating human rights.
+The House of Representatives=E2=80=99 Select Committee on the Chinese Commu=
+nist Party notified BlackRock and MSCI on Monday of the probes into their a=
+ctivities, according to letters viewed by The Wall Street Journal. ...
+The panel told the firms that a review of just a sliver of their activities=
+=E2=80=94which aren=E2=80=99t illegal=E2=80=94showed that they are causing =
+Americans to fund more than 60 Chinese companies that U.S. agencies have fl=
+agged on security or human-rights grounds.
+By routing =E2=80=9Cmassive flows of American capital=E2=80=9D to such Chin=
+ese entities, the U.S. firms are =E2=80=9Cexacerbating an already significa=
+nt national-security threat and undermining American values,=E2=80=9D said =
+the letters, signed by the panel=E2=80=99s chairman, Republican Rep. Mike G=
+allagher of Wisconsin, and its top Democrat, Rep. Raja Krishnamoorthi of Il=
+linois. Across five funds, BlackRock has invested more than $429 million in=
+ such Chinese companies, the panel found. =E2=80=A6
+MSCI selects the securities that make up the indexes many investors use as =
+a basis for their portfolios. There are more than $13 trillion of assets be=
+nchmarked to MSCI=E2=80=99s products. In a statement, the firm said it=E2=
+=80=99s reviewing the committee=E2=80=99s inquiry. It has previously said t=
+hat all of its index decisions are made after consultations with a range of=
+ global market participants. ...
+With this latest investigation into BlackRock and MSCI, the panel is broade=
+ning its focus by now also scrutinizing asset managers and index compilers.=
+ Such firms would typically have little to no direct involvement with the C=
+hinese companies in their portfolios or indexes, but they play a crucial ro=
+le in directing large sums of Americans=E2=80=99 retirement savings into th=
+eir coffers. The panel said its review has shown that, =E2=80=9Cas a direct=
+ result of decisions=E2=80=9D made by BlackRock and MSCI, Americans have be=
+en =E2=80=9Cunwittingly funding=E2=80=9D an array of Chinese companies that=
+ operate against the interests of the U.S. =E2=80=A6
+In its letters, the committee asked each firm to make a full accounting of =
+the Chinese entities it is investing in or including on indexes, and to rep=
+ort any due diligence it undertakes before doing so.
+
+At some level the correct answer for an index provider is =E2=80=9Cwe do no=
+ due diligence on any companies, because if we did that would undermine our=
+ complete innocence of any fundamental analysis,=E2=80=9D but nobody wants =
+to hear that.=C2=A0
+By the way! The solution here, if Congress finds these companies morally ob=
+jectionable, is to write a law that is like =E2=80=9Cit is illegal for Amer=
+ican funds to invest in these companies.=E2=80=9D If you do that, then MSCI=
+, in its =E2=80=9Cconsultations with a range of global market participants,=
+=E2=80=9D will hear things like =E2=80=9Cwe need an index of Chinese compan=
+ies that we are allowed to invest in,=E2=80=9D and it will duly compile tha=
+t sort of index, and BlackRock will invest in it.=C2=A0Congress=C2=A0can go=
+ ahead and make investing decisions for MSCI.=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Hex
+   =20
+ =20
+
+Here is an economic system, or a system anyway:
+=09I make up a crypto token called MattCoin. I can issue an unlimited amoun=
+t of MattCoins, since I made them up.=09I sell them to people for money.=09=
+You can use MattCoins to make term deposits, with me: You can give me back =
+your MattCoins and I will keep them for some specified time period (say, a =
+year), and at the end of the period I will hand them back to you with inter=
+est.=09The interest is paid in MattCoins.=09The interest rate is high, say,=
+ 38% per year.=09This is the=C2=A0only=C2=A0thing you can do with the MattC=
+oins. They=E2=80=99re not useful for payments, they don=E2=80=99t run smart=
+ contracts on a blockchain, all you can do is trade them on crypto exchange=
+s and deposit them for a 38% yield paid in kind.
+
+So you pay me $100 for 100 MattCoins, you deposit them with me for a year, =
+and at the end of the year I give you back 138 MattCoins.
+At the end of the year, how much would you expect your 138 MattCoins to be =
+worth? I think the main options are
+  [1]
+:
+=09$138. You put in $100 for 100 MattCoins, meaning that they are worth $1 =
+each, and in a year you get back 138 MattCoins. If they are still worth $1 =
+each, then 138 MattCoins are worth $138.=09$100. You put in $100 for some M=
+attCoins,=C2=A0absolutely no economic activity happened, and in a year you =
+get back 138 MattCoins. This is like a stock split: You had 100 shares of a=
+ pot worth $100, now you have 138 shares of a pot worth $100, each share is=
+ worth less but the pot hasn=E2=80=99t changed.=09$0. You put in $100 for s=
+ome MattCoins,=C2=A0absolutely no economic activity happened or will ever h=
+appen, in a year you get back 138 MattCoins, but=C2=A0I keep the $100=C2=A0=
+and you don=E2=80=99t get to exchange your 138 MattCoins for real money aga=
+in. There is not actually a pot with $100 in it; I just took the $100!=C2=
+=A0You put in $100 and got back a pile of magic beans that are not redeemab=
+le for anything. The pile grew bigger over the year, but it remains worthle=
+ss.=09More than $138. You put in $100 for 100 MattCoins, those MattCoins of=
+fered a 38% yield, other people see that 38% yield and said =E2=80=9CI want=
+ some of that,=E2=80=9D=C2=A0they buy some MattCoins, the price of MattCoin=
+ rises, still other people see the rising=C2=A0price=C2=A0and say =E2=80=9C=
+ooh I want some of=C2=A0that,=E2=80=9D the price rises further, it=E2=80=99=
+s a virtuous cycle, eventually each MattCoin is worth like $10,000 and your=
+ 138 MattCoins make you a millionaire.
+
+I think that Answer 3 is the standard answer that traditional financial ana=
+lysis would give you: You bought an electronic token with no cash flows eve=
+r, so it=E2=80=99s worth zero. I am drawn to this traditional analysis, but=
+ it has not really worked all that well for understanding crypto.
+I think that Answer 4=C2=A0is the standard answer that crypto would give yo=
+u. This is a completely accepted=C2=A0mechanism of crypto finance: You have=
+ some token, the main thing that the token does is generate more tokens, yo=
+u call those additional tokens =E2=80=9Cyield,=E2=80=9D people are attracte=
+d to the yield, they buy the token and its price goes up. The =E2=80=9Cyiel=
+d=E2=80=9D does not come from any economic activity in the real world; it j=
+ust comes from printing more tokens. =E2=80=9CPonzinomics,=E2=80=9D   peopl=
+e sometimes   say. Loosely speaking, this is the thought process behind cry=
+pto =E2=80=9CPonzicoins=E2=80=9D like   OlympusDAO and   Wonderland. Loosel=
+y speaking, it is the thought process behind many algorithmic stablecoins l=
+ike   TerraUSD. Loosely speaking, it is the thought process that Sam Bankma=
+n-Fried once=C2=A0described to me on Odd Lots:=C2=A0=E2=80=9CYou start with=
+ a company that builds a box and in practice this box, they probably dress =
+it up to look like a life-changing, you know, world-altering protocol that'=
+s gonna replace all the big banks in 38 days or whatever. Maybe for now act=
+ually ignore what it does or pretend it does literally nothing. It's just a=
+ box.=E2=80=9D
+Anyway here=E2=80=99s a US Securities and Exchange Commission  enforcement =
+action against a crypto project called Hex
+  [2]
+ and its founder, a guy named Richard Schueler who apparently goes by Richa=
+rd Heart:
+
+The Securities and Exchange Commission [yesterday] charged Richard Heart (a=
+ka Richard Schueler) and three unincorporated entities that he controls, He=
+x, PulseChain, and PulseX, with conducting unregistered offerings of crypto=
+ asset securities that raised more than $1 billion in crypto assets from in=
+vestors. The SEC also charged Heart and PulseChain with fraud for misapprop=
+riating at least $12 million of offering proceeds to purchase luxury goods =
+including sports cars, watches, and a 555-carat black diamond known as =E2=
+=80=98The Enigma=E2=80=99 =E2=80=93 reportedly the largest black diamond in=
+ the world.
+According to the SEC=E2=80=99s complaint, Heart began marketing Hex in 2018=
+, claiming it was the first high-yield =E2=80=9Cblockchain certificate of d=
+eposit,=E2=80=9D and began promoting Hex tokens as an investment designed t=
+o make people =E2=80=9Crich.=E2=80=9D=C2=A0
+
+There is a lot going on in  the complaint, including a very fun paragraph d=
+etailing Heart=E2=80=99s spending:
+Heart misappropriated at least $12.1 million of PulseChain investor assets =
+between August 3, 2021 and September 22, 2022, to fund his purchases of lux=
+ury goods, including cars and watches. For example, on August 3, 2021, Hear=
+t spent $337,642 of PulseChain investor assets on the purchase of a luxury =
+car from a European luxury car dealer. On August 24, 2021, Heart transferre=
+d another $534,916 to the same luxury car dealer for the purchase of a McLa=
+ren sports car. On August 29, 2021, Heart purchased a 2020 white Ferrari Ro=
+ma for $314,125. From January 2022 through March 2022, Heart also purchased=
+ five watches in separate transactions. Heart=E2=80=99s first purchase, on =
+January 20, 2022, included: (1) a $285,799 Rolex Submariner Oyster, (2) a $=
+550,000 Rolex Daytona Eye of the Tiger, and (3) a $800,000 Rolex GMT =E2=80=
+=93 Master II. On April 5, 2022, Heart spent an additional $1.38 million to=
+ purchase another Rolex watch. On April 10, 2022, Heart spent $419,192 of P=
+ulseChain investor assets to purchase another watch.=C2=A0
+But mostly I love=C2=A0Hex=E2=80=99s economic model. Here it is:
+
+Beginning in December 2019, Heart offered and sold Hex tokens, promising in=
+vestors many incentives and bonuses, while marketing Hex as the first high-=
+yield =E2=80=9CBlockchain Certificate of Deposit=E2=80=9D launched on the E=
+thereum network. Additionally, Heart touted a Hex feature that he developed=
+ and dubbed =E2=80=9Cstaking,=E2=80=9D which he described as allowing Hex i=
+nvestors to lock up their Hex tokens for a designated period of time in ret=
+urn for additional Hex tokens at the end of their lock-up period. Heart cla=
+imed that investors who participated in the so-called =E2=80=9Cstaking=E2=
+=80=9D of Hex tokens could earn an average of 38% annual return in the form=
+ of additional Hex tokens. =E2=80=A6
+Hex=E2=80=99s so-called =E2=80=9Cstaking=E2=80=9D mechanism does not involv=
+e validating transactions on the blockchain. ...
+Heart told potential investors on many occasions, including via several You=
+Tube livestreams, that Hex investors could =E2=80=9Cstake=E2=80=9D their He=
+x tokens through a process in which the tokens are sent to the Ethereum blo=
+ckchain=E2=80=99s genesis address. That address has no =E2=80=9Cowner=E2=80=
+=9D and, therefore, assets that are sent to it cannot be transferred out. I=
+n exchange for investors locking up their Hex tokens, Heart promised that t=
+he Hex smart contract would pay the investors investment returns in the for=
+m of additional Hex tokens to be delivered in the future. Heart has repeate=
+dly explained, including during a YouTube livestream interview in December =
+2019, that the purpose of this form of purported =E2=80=9Cstaking=E2=80=9D =
+was to incentivize investors to lock up their Hex tokens=E2=80=94which redu=
+ced the number of Hex tokens in circulation=E2=80=94to drive up their price=
+. Heart and Hex repeatedly advertised, including on Hex.com, social media, =
+and in interviews, that investors would receive an average investment retur=
+n of 38% in exchange for so-called =E2=80=9Cstaking=E2=80=9D their Hex toke=
+ns. =E2=80=A6
+In a November 27, 2019 interview livestreamed on YouTube shortly before the=
+ Hex=C2=A0Offering, Heart described the so-called =E2=80=9Cstaking=E2=80=9D=
+ feature as =E2=80=9Cvirtual lending=E2=80=9D within the Hex ecosystem, say=
+ing that, =E2=80=9Cwhen people stake their coins . . . the supply has reduc=
+ed, which means that everyone that hasn=E2=80=99t staked their coins just v=
+irtually borrowed the money. . . . If you=E2=80=99re holding an unstaked He=
+x, every time someone else stakes the Hex, your Hex that you can trade and =
+sell for fiat, it goes up in value.=E2=80=9D
+Throughout the relevant time period, Heart has emphasized that the principl=
+es of supply and demand create a direct relationship between the number of =
+=E2=80=9Cstaked=E2=80=9D tokens and the market value of Hex tokens. For exa=
+mple, on December 2, 2019, Heart emphasized on YouTube how his so-called =
+=E2=80=9Cstaking=E2=80=9D program would benefit all Hex token holders: =E2=
+=80=9C[b]ut in Hex, when people lock up their coins, and that is what cause=
+d the price to go up, then the market cap will go down, which gives you mor=
+e room to grow . . . [a]nd then you could just keep building appreciations =
+and mad gains.=E2=80=9D The Hex.com website currently states that =E2=80=9C=
+by staking their Hex, Stakers reduce the supply, which puts upwards pressur=
+e of Hex=E2=80=99s price.=E2=80=9D
+
+Notice how you earn your interest on Hex: You send it to a dead address so =
+no one can ever use it again. This is not what=C2=A0banks=C2=A0do to pay in=
+terest: Banks take deposits and use them to fund lending to support real-wo=
+rld economic activity. It is not what, say, Ethereum does to pay staking re=
+wards: Ethereum stakers validate transactions and thus arguably add to the =
+economic value of the Ethereum network. Hex does=C2=A0absolutely nothing, b=
+ut it just prints some extra tokens (which cost it nothing!) to pay =E2=80=
+=9Cyield.=E2=80=9D This is inflationary, but the staking is arguably deflat=
+ionary (you can=E2=80=99t sell the tokens that you=E2=80=99ve sent to the d=
+ead address), so if everything works out just right the value of Hex tokens=
+ goes up and your 38% in-kind yield is great.=C2=A0
+This was in 2019, back when a lot of people found this economic model plaus=
+ible, so it all did work out for a while. From the SEC complaint:
+Heart pumped Hex=E2=80=99s capacity for investment gain, claiming at Hex.co=
+m (until at least November 1, 2020) that, =E2=80=9CHex is designed to surpa=
+ss ETH, which did 10,000x price in 2.5 years. It=E2=80=99s working! So far,=
+ HEX=E2=80=99s USD price went up 115x in 129 days.=E2=80=9D On December 2, =
+2019, during a seven-hour livestream on YouTube hours before the Hex Offeri=
+ng commenced, Heart stated that Hex =E2=80=9Cwas built to outperform Ethere=
+um and Bitcoin and all other cryptocurrencies.=E2=80=9D Heart added that =
+=E2=80=9C[Hex] was built to be the highest appreciating asset that has ever=
+ existed in the history of man. That=E2=80=99s the design intention.=E2=80=
+=9D
+And then it didn=E2=80=99t; Hex  peaked in 2021 at about $0.49, and trades =
+at about $0.006 today, down almost 99% from the peak.=C2=A0
+I want to mention this case for two reasons. One is that it is absolutely a=
+ time capsule of crypto in 2019: Hex=E2=80=99s economic model was allegedly=
+ just =E2=80=9Cbuy our token and we will give you more of our token and tha=
+t=E2=80=99s how you will make money,=E2=80=9D and in 2019 enough crypto inv=
+estors were like =E2=80=9Csure that makes sense=E2=80=9D that Heart was abl=
+e to=C2=A0raise=C2=A0a billion dollars. There is something magnificent abou=
+t raising so much money with such a tissue-thin idea.
+The other is that the SEC is suing Heart for=C2=A0securities fraud, arguing=
+ that Hex tokens were=C2=A0securities, under the traditional US securities-=
+law analysis that we have   discussed a   lot around   here, which says tha=
+t a security is =E2=80=9Can investment of money in a common enterprise with=
+ profits to come solely from the efforts of others.=E2=80=9D And so the SEC=
+ cites evidence that the profits of Hex were to come from the efforts of He=
+art:
+
+From the outset, Heart controlled=E2=80=94and continues to control=E2=80=94=
+nearly all aspects of the Hex ecosystem. In a November 17, 2019 livestream =
+on YouTube, Heart shared with potential investors =E2=80=9Chow-to=E2=80=9D =
+videos that he created to explain how investors could: (1) purchase Hex tok=
+ens during the offering period, and (2) stake their Hex tokens. In that liv=
+estream, Heart also shared additional efforts he was undertaking, including=
+ the creation of more =E2=80=9Cwalk through=E2=80=9D videos and =E2=80=9Cri=
+nging up some more exchanges and whales [he] know[s]=E2=80=9D in order to m=
+ake the Hex launch successful. In the same video, Heart disclosed that he d=
+irected certain developers to work on the Hex code to the extent that their=
+ work =E2=80=9Cbenefit[ted] the ecosystem.=E2=80=9D
+In a November 12, 2020 YouTube livestream, Heart was asked how much of his =
+time was going towards Hex; Heart stated: =E2=80=9Calmost all of it.=E2=80=
+=9D As recently as the January 2023 Hex=C2=A0Conference (which was virtual,=
+ and available on YouTube), Heart stated regarding Hex, =E2=80=9CI want to =
+be =E2=80=93 I want to have the best performing asset that=E2=80=99s ever e=
+xisted. I want to be the best crypto founder that=E2=80=99s ever existed. I=
+ like doing =E2=80=93 I like owning the world=E2=80=99s largest diamond. I =
+like having a coin that went up a million percent that=E2=80=99s had 3 year=
+s of flawless operation, that=E2=80=99s never been hacked. The front end ha=
+s never gone down.=E2=80=9D
+
+But look at that economic model! The profits that Hex promised didn=E2=80=
+=99t come from anyone building anything; they came from (1) printing more H=
+ex and (2) people buying it. This was not an investment in some promised ec=
+osystem that was being built by a dedicated team of technologists to revolu=
+tionize computing or whatever; this was =E2=80=A6=C2=A0an investment in not=
+hing? This was so transparent a Ponzi, in the SEC=E2=80=99s own telling, th=
+at I=E2=80=99m not even sure it=E2=80=99s a security.=C2=A0
+
+ =20
+   =20
+      FTT
+   =20
+ =20
+
+Roughly speaking the way bankruptcy works is that if a company owes its cre=
+ditors $100 million and doesn=E2=80=99t have enough money to pay them, it w=
+ill file for bankruptcy and split what=E2=80=99s left among the creditors. =
+If there=E2=80=99s $100 million of debt and only $70 million of assets, all=
+ the creditors get 70 cents on the dollar. In the real world some creditors=
+ might have collateral, and some might be more senior than others, so some =
+will get more and some will get less, but this is the rough idea.
+In crypto exchange bankruptcies there is an additional wrinkle, though, bec=
+ause a crypto exchange will owe its customers, like, $100 million and 2 mil=
+lion Ether and 500,000 Bitcoins and 5 million Dogecoin and so forth, and if=
+ there is not enough money to go around you have to think about how to allo=
+cate it among those different customers. Should you treat each token separa=
+tely?=C2=A0If you have $70 million, 2 million Ether, zero Bitcoins and 1 mi=
+llion Dogecoin, do you pay 70% of dollar claims and 100% of Ether claims an=
+d 0% of Bitcoin claims and 20% of Dogecoin claims? Or do you put everything=
+ into one pot, sell all of it for dollars, and pay everyone the same percen=
+tage of their claims in dollars? There is also a question of how (and when)=
+ you measure their claims: Crypto prices are volatile, and if you owe a cus=
+tomer one Bitcoin worth $60,000 when you file for bankruptcy, you might owe=
+ her one Bitcoin worth $30,000 by the time you get out of bankruptcy.
+So these are complications, but by this point in the crypto bankruptcy cycl=
+e US courts are pretty used to dealing with them. But here is another wrink=
+le=C2=A0from   the FTX bankruptcy:
+
+FTX Group unveiled a draft creditor-repayment plan as part of its bankruptc=
+y that calls for settling customer claims in cash and wiping out its digita=
+l token FTT.
+The plan =E2=80=94 which FTX expects to amend based on feedback from stakeh=
+olders =E2=80=94 proposes valuing customer claims in US dollars as of the d=
+ate it went bankrupt and repaying them by selling assets tied to various si=
+los of the business, court papers show. FTX also still hasn=E2=80=99t ruled=
+ out rebooting an offshore exchange, according to the filings. =E2=80=A6
+The plan calls for giving no recovery on account of FTT tokens due to their=
+ =E2=80=9Cequity-like characteristics,=E2=80=9D advisers for FTX wrote in t=
+he filings. Equity is almost always wiped out in US bankruptcy reorganizati=
+ons.
+
+FTX owes its customers lots of dollars, Bitcoin, Ether, etc. It also owes i=
+ts customers some FTT, FTX=E2=80=99s own exchange token. I once   described=
+ FTT like this:
+FTX issues a token called FTT. The attributes of this token are, like, it e=
+ntitles you to some discounts and stuff, but the main attribute is that FTX=
+ periodically uses a portion of its profits to buy back FTT tokens. This ma=
+kes FTT kind of like stock in FTX: The higher FTX=E2=80=99s profits are, th=
+e higher the price of FTT will be.=C2=A0It is not actually stock in FTX =E2=
+=80=94 in fact FTX is a company and has stock and venture capitalists bough=
+t it, etc. =E2=80=94 but it is a lot like stock in FTX. FTT is a bet on FTX=
+=E2=80=99s future profits.
+It is enough like stock in FTX that, when FTX went bankrupt, its executives=
+ and bankruptcy lawyers said =E2=80=9Cwell look this is obviously stock and=
+ should be wiped out.=E2=80=9D Here is the  draft bankruptcy plan, which sa=
+ys:
+Classes 10, 11, 12 and 13 consist of claims by holders of FTT (whether or n=
+ot held on any FTX exchange), preferred stock and equity investors in the D=
+ebtors and related claims. All these claims and interests will be canceled =
+and extinguished as of the Effective Date and holders will not receive any =
+distribution.=C2=A0
+But it=E2=80=99s not stock! It=E2=80=99s a crypto token. At some level it i=
+s a crypto token the same as Solana and Ethereum and Bitcoin and all the ot=
+her stuff that FTX owes to its customers. And if you are an FTX customer, F=
+TX will look at your account and convert all of your Solana and Ethereum an=
+d Bitcoin and so forth into dollars at their market prices as of the bankru=
+ptcy date, and you will have a claim for that number of dollars, though you=
+ probably won=E2=80=99t get back 100 cents on the dollar on that claim.
+  [3]
+ But FTX will look at your account and convert all of your FTT tokens into =
+nothing. =E2=80=9COh that was just stock,=E2=80=9D they will say, even thou=
+gh it wasn=E2=80=99t.
+Four points here. One, I think this is obviously correct as an analytical m=
+atter. FTT does have =E2=80=9Cequity-like characteristics,=E2=80=9D it was =
+basically stock in FTX, since FTX went bankrupt its value really should be =
+zero, and=C2=A0it makes total sense to pay FTT holders nothing in order to =
+have more money to give to other customers.
+Two, I am not so sure it is correct as a tactical matter. One big holder of=
+ FTT is=C2=A0FTX, and FTX=E2=80=99s stash of FTT tokens is plausibly an ass=
+et that it could sell to raise more money to pay creditors. If FTX goes aro=
+und like =E2=80=9CFTT is great, we=E2=80=99re gonna revive the exchange, yo=
+u can use FTT to get fee discounts,=E2=80=9D maybe there will be some marke=
+t for FTT and it can sell its stash to raise money. If FTX goes around like=
+ =E2=80=9CFTT is wiped out, bye,=E2=80=9D it can=E2=80=99t.
+Three, when FTX went bankrupt,   we talked about some of the=C2=A0other=C2=
+=A0weird stuff on its balance sheet:=C2=A0Serum, Maps and   other =E2=80=9C=
+Samcoins=E2=80=9D that were created FTX=E2=80=99s affiliates and that were =
+also equity-like bets on other FTX-y ventures. The draft plan does not seem=
+ to contemplate wiping=C2=A0them=C2=A0out. If you have Serum in your FTX ac=
+count, you can get some of your money back. And I guess FTX=E2=80=99s bankr=
+uptcy estate can try to sell its Serum.
+Four, we have talked=C2=A0a lot about   the SEC=E2=80=99s crackdown on cryp=
+to, in which the SEC argues that basically every crypto token is a security=
+, and in which the crypto industry argues that basically no tokens are. Spe=
+cifically there is a popular crypto argument that=C2=A0crypto tokens themse=
+lves=C2=A0are not securities, that they are just objects, just =E2=80=9Calp=
+hanumeric cryptographic sequences,=E2=80=9D and that some=C2=A0sales=C2=A0o=
+f crypto tokens can be securities offerings (if you sell the token to raise=
+ money for a project and make promises to the buyers about the project), bu=
+t that the tokens themselves are never securities. I think that   this is c=
+ompletely incoherent but a lot of smart people believe it, and this month a=
+ federal judge   basically endorsed it in the Ripple case. To me, though, t=
+he better analysis is that crypto assets =E2=80=9Care quasi-stocks in crypt=
+o projects,=E2=80=9D as   I wrote about Ripple.
+On my analysis, zeroing FTT here is plainly correct: FTT was quasi-stock in=
+ the FTX project, the project failed, so FTT gets zeroed. (Other tokens are=
+ quasi-stocks in other=C2=A0projects, and should not be affected by the fai=
+lure of FTX.) But what if you think that crypto tokens can never be securit=
+ies, that they are just =E2=80=9Calphanumeric cryptographic sequences=E2=80=
+=9D? All of the tokens in all of the accounts at FTX are the same, just tok=
+ens, not securities, certainly not stock; how can FTX treat one of them as =
+stock and zero it?
+
+ =20
+   =20
+      Apollogies
+   =20
+ =20
+
+There is a simple model of private equity in which private equity firms cre=
+ate value for their investors by=C2=A0taking=C2=A0it from creditors. There =
+is some boring company with steady cash flows and some investment-grade deb=
+t, and a private equity firm comes along and buys it by loading it down wit=
+h a lot more debt. The existing creditors had safe investment-grade debt, b=
+ut now they have risky claims on a much more levered business; the value of=
+ their debt has gone down. The new creditors are also making a risky bet, t=
+hough at least they get paid for it. If things work out, the company does w=
+ell and the private equity fund makes a multiple of its capital; the credit=
+ors just get paid back. If things don=E2=80=99t work out, the company goes =
+bankrupt, the private equity fund loses its investment but the creditors al=
+so take big losses. If things first work out and then don=E2=80=99t, then t=
+he private equity fund can take out a big dividend in the good times and ma=
+ke back its investment, and then in the bad times it can leave the creditor=
+s with the losses. And the private equity sponsor is smart and focused on t=
+his, so it will write its debt documents in ways that allow it to get its m=
+oney back and leave creditors with the losses.
+I don=E2=80=99t mean to endorse this model completely, but a lot of people =
+believe some version of it. In particular, a=C2=A0lot=C2=A0of people believ=
+e a version of it where you replace the words =E2=80=9Cthe private equity f=
+und=E2=80=9D with the word =E2=80=9CApollo.=E2=80=9D Bloomberg=E2=80=99s Al=
+lison McNeely  writes about Apollo Global Management Inc.=E2=80=99s image:
+Apollo=E2=80=99s longtime reputation =E2=80=94 particularly in the brass-kn=
+uckle business of bickering over bankruptcies and investing in troubled com=
+panies =E2=80=93 has had real financial consequences. Historically, bond an=
+d loan investors have demanded additional interest, around 50 to 100 basis =
+points, to finance Apollo=E2=80=99s leveraged buyouts, just in case a brawl=
+ ensues. It=E2=80=99s known as the =E2=80=9CApollo Premium.=E2=80=9D
+I mean in some sense that should be a source of pride? Sure you pay an extr=
+a 50 to 100 basis points to finance your buyouts, but that=E2=80=99s only b=
+ecause you have extracted so much more value for your investors =E2=80=94=
+=C2=A0from your creditors =E2=80=94=C2=A0than all the other private equity =
+firms. They left money on the table in their previous deals. You took all t=
+he money off all the tables in all your deals, and you pay for it now.
+Anyway though the point of the article is that Apollo is now=C2=A0not=C2=A0=
+primarily a private equity firm focused on extracting value from creditors.=
+ Now it is mostly a creditor:
+
+Since he was named chief executive officer, [Marc]=C2=A0Rowan, 60, has ackn=
+owledged what many in the industry have been feeling in their bones: The tr=
+aditional private equity business, the one Apollo mastered over three decad=
+es, isn=E2=80=99t what it used to be now that those golden years of near-ze=
+ro interest rates are over. He=E2=80=99s been pushing Apollo further and fu=
+rther beyond its private equity roots and into high-growth arenas like priv=
+ate credit and insurance. =E2=80=A6
+Call Apollo a =E2=80=9Cprivate equity firm=E2=80=9D these days and executiv=
+es will correct you: No, we=E2=80=99re an alternative asset management comp=
+any, one that=E2=80=99s driving into direct lending, structured credit and =
+more, powered by Rowan=E2=80=99s financial masterstroke, the insurance arm =
+Athene.
+At the same time, Rowan is also chasing a more elusive goal, and one that=
+=E2=80=99s difficult to quantify in dollars and cents. He wants Apollo to s=
+hake off its image as one of Wall Street=E2=80=99s most ruthless risk-taker=
+s for good.
+Executives have spent the past few years on what some competitors have snar=
+kily called an =E2=80=9CApollo Apology Tour.=E2=80=9D Even now, they often =
+start meetings with prospective clients by fielding questions about their r=
+eputation as a hard-driving investor and are putting more effort into expla=
+ining their business, Apollo insiders say. =E2=80=A6
+=E2=80=9CIt is up to us now, over this next period of time, to actually cha=
+nge the perception for the reality of what the business is,=E2=80=9D Rowan =
+said at the Economic Club of New York lunch. =E2=80=9CWe are primarily an i=
+nvestment-grade provider of private credit.=E2=80=9D
+
+If you build a reputation for extracting a lot of battle by being cleverer,=
+ harder-working and more ruthless than everyone else, well, in large swathe=
+s of finance that=E2=80=99s=C2=A0just=C2=A0good. Investors will want to giv=
+e you money, because you are clever and ruthless. People will want to work =
+for you, because they fancy themselves clever and ruthless, and because you=
+ pay well. Creditors will fear you, which is not all good (you have to pay =
+them more to finance your deals), but which is maybe helpful if you actuall=
+y=C2=A0do=C2=A0end up fighting with them.
+But if you are an investment-grade provider of private credit, that reputat=
+ion is mostly unhelpful. If you=C2=A0go to an investment-grade company and =
+say =E2=80=9Chey we would love to provide you with some investment-grade pr=
+ivate credit=E2=80=9D and their first reaction is =E2=80=9Cokay but you pla=
+n to kill us right,=E2=80=9D you will not get a lot of deals done. Lots of =
+companies raise money from people who obviously plan to kill them, but that=
+=E2=80=99s distressed credit and they have no choices; if you want to deplo=
+y lots of capital doing investment-grade deals it is helpful to have a repu=
+tation for being=C2=A0easy=C2=A0to deal with, not terrifying. If you=E2=80=
+=99re an Apollo credit person, you probably do have to start every meeting =
+by saying =E2=80=9Cno, I=E2=80=99m not like our private-equity guys, I=E2=
+=80=99m nice, we sit on different floors, I=E2=80=99m scared of them too.=
+=E2=80=9D
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Ratings Firms Struggle With   Climate Risk in $133 Trillion Market. Uber Po=
+sts   First Operating Profit as Ridership Hits New Record. Missing Millions=
+ and a Rabbinical Arbitrator: Real-Estate Deal Gone Bad Hits Popular Crowd =
+Funder.=C2=A0Top stock pickers hit by =E2=80=98tremendous=E2=80=99 amount o=
+f  uninvested cash.   Four-Day Weeks Are Good for Employee Health, Study Su=
+ggests. People Are Hiring  D-List Celebrities to Deliver Their Bad News.  E=
+SBU.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Additional, less interesting options include =E2=80=9Cless than $100 =
+but more than $0,=E2=80=9D meaning that Answer 3 is basically correct but t=
+here are optimists out there who keep the price above zero, and =E2=80=9Cle=
+ss than $138 but more than $100,=E2=80=9D meaning I guess that something be=
+tween Answer 1 and Answer 2 is correct.
+
+
+  [2] The SEC also goes after two other Heart projects, PulseChain and Puls=
+eX, which purported to be less, you know, purely Ponzi-ish.
+
+
+  [3] The preliminary plan does not have an estimate of how much you=E2=80=
+=99ll get, though your claim is =E2=80=9Cimpaired,=E2=80=9D meaning that yo=
+u=E2=80=99re not just going to be paid off in cash in full.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj7hvq.5n94/c0c18766.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9578137_762380757.1690912134475
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+One attraction of index investing is that nobody is responsible for any inv=
+esting decisions. If I buy an index fund, I am just following sen
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwODAxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB9af5bcc8"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjI2MjQ3MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI1MjU4ODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB79e617ea" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32262470&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32525886&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Should index funds be illegal?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One attraction of index investing is that nobo=
+dy is responsible for any investing decisions. If I buy an index fund, I am=
+ just following sensible standard financial advice about indexing and diver=
+sification; if that index fund happens to hold stocks in companies that I f=
+ind objectionable, I can say =E2=80=9Cwell that=E2=80=99s not my fault, I d=
+idn=E2=80=99t buy <em>those companies</em>, I just bought the index fund.=
+=E2=80=9D Meanwhile the index fund manager buys those stocks, not because s=
+he wants to, but because they are in the index and her mandate is to track =
+the index; buying those stocks is not really her fault either. Meanwhile th=
+e index=C2=A0<em>provider=C2=A0</em>=E2=80=94=C2=A0the company that compile=
+s the index and licenses it to funds =E2=80=94=C2=A0has some quasi-mechanic=
+al standards for including stocks in the index, and they=C2=A0probably amou=
+nt to something like =E2=80=9Cthis index includes all of the stocks in the =
+market,=E2=80=9D or all of the biggest stocks, or all of the tech stocks, o=
+r all of the US-based stocks, or all of the China-based stocks, or whatever=
+ the index name says. There are indexes that are like =E2=80=9Cthis index i=
+ncludes all of the stocks in the US that we do not find morally objectionab=
+le,=E2=80=9D but that is more of a niche product than the indexes that are =
+just all of the stocks.</p>
+<p style=3D"margin: 16px 0;">And so in theory you can have a lot of ordinar=
+y people investing their money in companies that they find objectionable, t=
+hrough mutual funds whose managers find them objectionable, based on an ind=
+ex whose compilers find them objectionable. Nobody=C2=A0<em>wants=C2=A0</em=
+>to invest in those companies, but nobody is quite=C2=A0<em>responsible=C2=
+=A0</em>for the decision, so they=C2=A0<em>do=C2=A0</em>invest in those com=
+panies.</p>
+<p style=3D"margin: 16px 0;">And, really, that is the point of indexing! Th=
+e basic idea of index investing is something like =E2=80=9Cif you try to ma=
+ke investing decisions they will be bad, so just buy the entire stock marke=
+t,=E2=80=9D so it is important for index funds to be set up in such a way t=
+hat nobody makes investment decisions. People=C2=A0<em>want=C2=A0</em>to ma=
+ke investment decisions, but those decisions are bad for them, so you have =
+to guard carefully against the tendency for investment decisions to creep b=
+ack into the process. At every level, you want to make sure that no one is =
+making decisions.</p>
+<p style=3D"margin: 16px 0;">Of course this is exaggerated and we <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMDctMjcvdGhlLWVuZC1v=
+Zi1saWJvci1hbmQtbm9uLXZvdGluZy1zdG9jaz9jbXBpZD1CQkQwODAxMjNfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDEmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB3d5838fc" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  talk</a> all the <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/32262470.263416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjMtMDQtMjQvYmVkLWJhdGgtbW92ZXMtaW50by10aGUtYmV5b25kP2NtcGlkPUJCRDA4MDEyM=
+19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTIzMDgwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB513=
+94fe8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  time</a> around <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/32262470.263416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjMtMDctMTEvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1lbG9uLW11c2s=
+tYmxhbWVzLXRoZS1sYXd5ZXJzP2NtcGlkPUJCRDA4MDEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW=
+09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMSZ1dG1fY2FtcGFpZ=
+249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB79c8fbc6" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  here</a> abo=
+ut how a lot of discretion=C2=A0<em>does=C2=A0</em>creep back into index co=
+mposition, but still the theory makes a certain sense.</p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32262470.263416/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ibGFja3Jv=
+Y2stbXNjaS1mYWNlLWNvbmdyZXNzaW9uYWwtcHJvYmVzLWZvci1mYWNpbGl0YXRpbmctY2hpbmE=
+taW52ZXN0bWVudHMtMjE0N2NlMmM_bW9kPWhwX2xlYWRfcG9zMg/607f07ceef4b8524a319a23=
+cB8c785d7a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">Anyway</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The world=E2=80=99s largest asset manager and =
+a top stock-market-index compiler are being investigated by a congressional=
+ committee for facilitating American investment in Chinese companies the U.=
+S. government has accused of bolstering China=E2=80=99s military and violat=
+ing human rights.</p>
+<p style=3D"margin: 16px 0;">The House of Representatives=E2=80=99 Select C=
+ommittee on the Chinese Communist Party notified BlackRock and MSCI on Mond=
+ay of the probes into their activities, according to letters viewed by The =
+Wall Street Journal. ...</p>
+<p style=3D"margin: 16px 0;">The panel told the firms that a review of just=
+ a sliver of their activities=E2=80=94which aren=E2=80=99t illegal=E2=80=94=
+showed that they are causing Americans to fund more than 60 Chinese compani=
+es that U.S. agencies have flagged on security or human-rights grounds.</p>
+<p style=3D"margin: 16px 0;">By routing =E2=80=9Cmassive flows of American =
+capital=E2=80=9D to such Chinese entities, the U.S. firms are =E2=80=9Cexac=
+erbating an already significant national-security threat and undermining Am=
+erican values,=E2=80=9D said the letters, signed by the panel=E2=80=99s cha=
+irman, Republican Rep. Mike Gallagher of Wisconsin, and its top Democrat, R=
+ep. Raja Krishnamoorthi of Illinois. Across five funds, BlackRock has inves=
+ted more than $429 million in such Chinese companies, the panel found. =E2=
+=80=A6</p>
+<p style=3D"margin: 16px 0;">MSCI selects the securities that make up the i=
+ndexes many investors use as a basis for their portfolios. There are more t=
+han $13 trillion of assets benchmarked to MSCI=E2=80=99s products. In a sta=
+tement, the firm said it=E2=80=99s reviewing the committee=E2=80=99s inquir=
+y. It has previously said that all of its index decisions are made after co=
+nsultations with a range of global market participants. ...</p>
+<p style=3D"margin: 16px 0;">With this latest investigation into BlackRock =
+and MSCI, the panel is broadening its focus by now also scrutinizing asset =
+managers and index compilers. Such firms would typically have little to no =
+direct involvement with the Chinese companies in their portfolios or indexe=
+s, but they play a crucial role in directing large sums of Americans=E2=80=
+=99 retirement savings into their coffers. The panel said its review has sh=
+own that, =E2=80=9Cas a direct result of decisions=E2=80=9D made by BlackRo=
+ck and MSCI, Americans have been =E2=80=9Cunwittingly funding=E2=80=9D an a=
+rray of Chinese companies that operate against the interests of the U.S. =
+=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">In its letters, the committee asked each firm =
+to make a full accounting of the Chinese entities it is investing in or inc=
+luding on indexes, and to report any due diligence it undertakes before doi=
+ng so.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">At some level the correct answer for an index =
+provider is =E2=80=9Cwe do no due diligence on any companies, because if we=
+ did that would undermine our complete innocence of any fundamental analysi=
+s,=E2=80=9D but nobody wants to hear that.=C2=A0</p>
+<p style=3D"margin: 16px 0;">By the way! The solution here, if Congress fin=
+ds these companies morally objectionable, is to write a law that is like =
+=E2=80=9Cit is illegal for American funds to invest in these companies.=E2=
+=80=9D If you do that, then MSCI, in its =E2=80=9Cconsultations with a rang=
+e of global market participants,=E2=80=9D will hear things like =E2=80=9Cwe=
+ need an index of Chinese companies that we are allowed to invest in,=E2=80=
+=9D and it will duly compile that sort of index, and BlackRock will invest =
+in it.=C2=A0<em>Congress=C2=A0</em>can go ahead and make investing decision=
+s for MSCI.=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjI2MjQ3MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI1MjU4ODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC4179755a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32262470&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32525886&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjI2MjQ3MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI1MjU4ODYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD4179755a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32262470&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32525886&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Hex</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Here is an economic system, or a system anyway=
+:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">I make up a crypto token called MattC=
+oin. I can issue an unlimited amount of MattCoins, since I made them up.</l=
+i>=09<li style=3D"margin-bottom: 5px;">I sell them to people for money.</li=
+>=09<li style=3D"margin-bottom: 5px;">You can use MattCoins to make term de=
+posits, with me: You can give me back your MattCoins and I will keep them f=
+or some specified time period (say, a year), and at the end of the period I=
+ will hand them back to you with interest.</li>=09<li style=3D"margin-botto=
+m: 5px;">The interest is paid in MattCoins.</li>=09<li style=3D"margin-bott=
+om: 5px;">The interest rate is high, say, 38% per year.</li>=09<li style=3D=
+"margin-bottom: 5px;">This is the=C2=A0<em>only=C2=A0</em>thing you can do =
+with the MattCoins. They=E2=80=99re not useful for payments, they don=E2=80=
+=99t run smart contracts on a blockchain, all you can do is trade them on c=
+rypto exchanges and deposit them for a 38% yield paid in kind.</li>
+</ol>
+<p style=3D"margin: 16px 0;">So you pay me $100 for 100 MattCoins, you depo=
+sit them with me for a year, and at the end of the year I give you back 138=
+ MattCoins.</p>
+<p style=3D"margin: 16px 0;">At the end of the year, how much would you exp=
+ect your 138 MattCoins to be worth? I think the main options are<a class=3D=
+"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: none !important; background-color: transparent !imp=
+ortant; display: inline-block;">
+<span>[1]</span>
+</a>:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">$138. You put in $100 for 100 MattCoi=
+ns, meaning that they are worth $1 each, and in a year you get back 138 Mat=
+tCoins. If they are still worth $1 each, then 138 MattCoins are worth $138.=
+</li>=09<li style=3D"margin-bottom: 5px;">$100. You put in $100 for some Ma=
+ttCoins,=C2=A0<em>absolutely no economic activity happened</em>, and in a y=
+ear you get back 138 MattCoins. This is like a stock split: You had 100 sha=
+res of a pot worth $100, now you have 138 shares of a pot worth $100, each =
+share is worth less but the pot hasn=E2=80=99t changed.</li>=09<li style=3D=
+"margin-bottom: 5px;">$0. You put in $100 for some MattCoins,=C2=A0<em>abso=
+lutely no economic activity happened or will ever happen</em>, in a year yo=
+u get back 138 MattCoins, but=C2=A0<em>I keep the $100=C2=A0</em>and you do=
+n=E2=80=99t get to exchange your 138 MattCoins for real money again. There =
+is not actually a pot with $100 in it; I just took the $100!=C2=A0You put i=
+n $100 and got back a pile of magic beans that are not redeemable for anyth=
+ing. The pile grew bigger over the year, but it remains worthless.</li>=09<=
+li style=3D"margin-bottom: 5px;">More than $138. You put in $100 for 100 Ma=
+ttCoins, those MattCoins offered a 38% yield, other people see that 38% yie=
+ld and said =E2=80=9CI want some of that,=E2=80=9D=C2=A0<em>they </em>buy s=
+ome MattCoins, the price of MattCoin rises, still other people see the risi=
+ng=C2=A0<em>price=C2=A0</em>and say =E2=80=9Cooh I want some of=C2=A0<em>th=
+at</em>,=E2=80=9D the price rises further, it=E2=80=99s a virtuous cycle, e=
+ventually each MattCoin is worth like $10,000 and your 138 MattCoins make y=
+ou a millionaire.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I think that Answer 3 is the standard answer t=
+hat traditional financial analysis would give you: You bought an electronic=
+ token with no cash flows ever, so it=E2=80=99s worth zero. I am drawn to t=
+his traditional analysis, but it has not really worked all that well for un=
+derstanding crypto.</p>
+<p style=3D"margin: 16px 0;">I think that Answer 4=C2=A0<em>is the standard=
+ answer that crypto would give you</em>. This is a <em>completely accepted=
+=C2=A0</em>mechanism of crypto finance: You have some token, the main thing=
+ that the token does is generate more tokens, you call those additional tok=
+ens =E2=80=9Cyield,=E2=80=9D people are attracted to the yield, they buy th=
+e token and its price goes up. The =E2=80=9Cyield=E2=80=9D does not come fr=
+om <em>any economic activity in the real world</em>; it just comes from pri=
+nting more tokens. =E2=80=9CPonzinomics,=E2=80=9D <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/32262470.263416/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtMTkvd2FzaGluZy13ZWIzP2NtcGlkPUJCRD=
+A4MDEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJ=
+nV0bV90ZXJtPTIzMDgwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a=
+23cB9170e914" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  people</a> sometimes <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/32262470.263416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMjEvdGhlcmUtcy1pbnNpZGUtaW5mb3JtYXRpb24=
+taW4tc2VjLWZpbGluZ3M_Y21waWQ9QkJEMDgwMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbW=
+FpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwODAxJnV0bV9jYW1wYWlnbj1tb=
+25leXN0dWZm/607f07ceef4b8524a319a23cBbd023c85" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">  say</a>. Loosely s=
+peaking, this is the thought process behind crypto =E2=80=9CPonzicoins=E2=
+=80=9D like <a href=3D"https://link.mail.bloombergbusiness.com/click/322624=
+70.263416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9mZWF0dXJlcy8yMDIyLXRoZS1jcnlwd=
+G8tc3RvcnkvP2NtcGlkPUJCRDA4MDEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRt=
+X3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHV=
+mZg/607f07ceef4b8524a319a23cB026a96bd" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  OlympusDAO</a> and <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtMjcveW91LWdldC10=
+aGUtY3J5cHRvLXJ1bGVzLXlvdS13YW50P2NtcGlkPUJCRDA4MDEyM19NT05FWVNUVUZGJnV0bV9=
+tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMSZ1dG1fY2=
+FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB211d71ae" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  Wonde=
+rland</a>. Loosely speaking, it is the thought process behind many algorith=
+mic stablecoins like <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/32262470.263416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMjItMDUtMTEvdGVycmEtZmxvcHM_Y21waWQ9QkJEMDgwMTIzX01PTkVZU1RVRkYmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwODAxJnV0bV9jYW=
+1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBff1fe7fa" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">  TerraUS=
+D</a>. Loosely speaking, it is the thought process that Sam Bankman-Fried o=
+nce=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.=
+263416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEt=
+MTQvZnR4LXMtYmFsYW5jZS1zaGVldC13YXMtYmFkP2NtcGlkPUJCRDA4MDEyM19NT05FWVNUVUZ=
+GJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMS=
+Z1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB4a97bade" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>described to me on Odd Lots</a>:=C2=A0=E2=80=9CYou start with a company th=
+at builds a box and in practice this box, they probably dress it up to look=
+ like a life-changing, you know, world-altering protocol that's gonna repla=
+ce all the big banks in 38 days or whatever. Maybe for now actually ignore =
+what it does or pretend it does literally nothing. It's just a box.=E2=80=
+=9D</p>
+<p style=3D"margin: 16px 0;">Anyway here=E2=80=99s a US Securities and Exch=
+ange Commission <a href=3D"https://link.mail.bloombergbusiness.com/click/32=
+262470.263416/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy0xN=
+DM/607f07ceef4b8524a319a23cB6e2abf6c" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> enforcement action</a> again=
+st a crypto project called Hex<a class=3D"footnote-index" href=3D"#footnote=
+-2" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: none !impo=
+rtant; background-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a> and its founder, a guy named Richard Schueler who apparently goes by R=
+ichard Heart:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission [yester=
+day] charged Richard Heart (aka Richard Schueler) and three unincorporated =
+entities that he controls, Hex, PulseChain, and PulseX, with conducting unr=
+egistered offerings of crypto asset securities that raised more than $1 bil=
+lion in crypto assets from investors. The SEC also charged Heart and PulseC=
+hain with fraud for misappropriating at least $12 million of offering proce=
+eds to purchase luxury goods including sports cars, watches, and a 555-cara=
+t black diamond known as =E2=80=98The Enigma=E2=80=99 =E2=80=93 reportedly =
+the largest black diamond in the world.</p>
+<p style=3D"margin: 16px 0;">According to the SEC=E2=80=99s complaint, Hear=
+t began marketing Hex in 2018, claiming it was the first high-yield =E2=80=
+=9Cblockchain certificate of deposit,=E2=80=9D and began promoting Hex toke=
+ns as an investment designed to make people =E2=80=9Crich.=E2=80=9D=C2=A0</=
+p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There is a lot going on in <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/32262470.263416/aHR0cHM6Ly93d3cuc2VjL=
+mdvdi9maWxlcy9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMy9jb21wLXByMjAyMy0xNDMucGRm=
+/607f07ceef4b8524a319a23cBbc1c8834" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> the complaint</a>, including a=
+ very fun paragraph detailing Heart=E2=80=99s spending:</p>
+<blockquote><p style=3D"margin: 16px 0;">Heart misappropriated at least $12=
+.1 million of PulseChain investor assets between August 3, 2021 and Septemb=
+er 22, 2022, to fund his purchases of luxury goods, including cars and watc=
+hes. For example, on August 3, 2021, Heart spent $337,642 of PulseChain inv=
+estor assets on the purchase of a luxury car from a European luxury car dea=
+ler. On August 24, 2021, Heart transferred another $534,916 to the same lux=
+ury car dealer for the purchase of a McLaren sports car. On August 29, 2021=
+, Heart purchased a 2020 white Ferrari Roma for $314,125. From January 2022=
+ through March 2022, Heart also purchased five watches in separate transact=
+ions. Heart=E2=80=99s first purchase, on January 20, 2022, included: (1) a =
+$285,799 Rolex Submariner Oyster, (2) a $550,000 Rolex Daytona Eye of the T=
+iger, and (3) a $800,000 Rolex GMT =E2=80=93 Master II. On April 5, 2022, H=
+eart spent an additional $1.38 million to purchase another Rolex watch. On =
+April 10, 2022, Heart spent $419,192 of PulseChain investor assets to purch=
+ase another watch.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">But mostly I love=C2=A0Hex=E2=80=99s economic =
+model. Here it is:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Beginning in December 2019, Heart offered and =
+sold Hex tokens, promising investors many incentives and bonuses, while mar=
+keting Hex as the first high-yield =E2=80=9CBlockchain Certificate of Depos=
+it=E2=80=9D launched on the Ethereum network. Additionally, Heart touted a =
+Hex feature that he developed and dubbed =E2=80=9Cstaking,=E2=80=9D which h=
+e described as allowing Hex investors to lock up their Hex tokens for a des=
+ignated period of time in return for additional Hex tokens at the end of th=
+eir lock-up period. Heart claimed that investors who participated in the so=
+-called =E2=80=9Cstaking=E2=80=9D of Hex tokens could earn an average of 38=
+% annual return in the form of additional Hex tokens. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Hex=E2=80=99s so-called =E2=80=9Cstaking=E2=80=
+=9D mechanism does not involve validating transactions on the blockchain. .=
+..</p>
+<p style=3D"margin: 16px 0;">Heart told potential investors on many occasio=
+ns, including via several YouTube livestreams, that Hex investors could =E2=
+=80=9Cstake=E2=80=9D their Hex tokens through a process in which the tokens=
+ are sent to the Ethereum blockchain=E2=80=99s genesis address. That addres=
+s has no =E2=80=9Cowner=E2=80=9D and, therefore, assets that are sent to it=
+ cannot be transferred out. In exchange for investors locking up their Hex =
+tokens, Heart promised that the Hex smart contract would pay the investors =
+investment returns in the form of additional Hex tokens to be delivered in =
+the future. Heart has repeatedly explained, including during a YouTube live=
+stream interview in December 2019, that the purpose of this form of purport=
+ed =E2=80=9Cstaking=E2=80=9D was to incentivize investors to lock up their =
+Hex tokens=E2=80=94which reduced the number of Hex tokens in circulation=E2=
+=80=94to drive up their price. Heart and Hex repeatedly advertised, includi=
+ng on Hex.com, social media, and in interviews, that investors would receiv=
+e an average investment return of 38% in exchange for so-called =E2=80=9Cst=
+aking=E2=80=9D their Hex tokens. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">In a November 27, 2019 interview livestreamed =
+on YouTube shortly before the Hex=C2=A0Offering, Heart described the so-cal=
+led =E2=80=9Cstaking=E2=80=9D feature as =E2=80=9Cvirtual lending=E2=80=9D =
+within the Hex ecosystem, saying that, =E2=80=9Cwhen people stake their coi=
+ns . . . the supply has reduced, which means that everyone that hasn=E2=80=
+=99t staked their coins just virtually borrowed the money. . . . If you=E2=
+=80=99re holding an unstaked Hex, every time someone else stakes the Hex, y=
+our Hex that you can trade and sell for fiat, it goes up in value.=E2=80=9D=
+</p>
+<p style=3D"margin: 16px 0;">Throughout the relevant time period, Heart has=
+ emphasized that the principles of supply and demand create a direct relati=
+onship between the number of =E2=80=9Cstaked=E2=80=9D tokens and the market=
+ value of Hex tokens. For example, on December 2, 2019, Heart emphasized on=
+ YouTube how his so-called =E2=80=9Cstaking=E2=80=9D program would benefit =
+all Hex token holders: =E2=80=9C[b]ut in Hex, when people lock up their coi=
+ns, and that is what caused the price to go up, then the market cap will go=
+ down, which gives you more room to grow . . . [a]nd then you could just ke=
+ep building appreciations and mad gains.=E2=80=9D The Hex.com website curre=
+ntly states that =E2=80=9Cby staking their Hex, Stakers reduce the supply, =
+which puts upwards pressure of Hex=E2=80=99s price.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Notice how you earn your interest on Hex: You =
+send it to a dead address so no one can ever use it again. This is not what=
+=C2=A0<em>banks=C2=A0</em>do to pay interest: Banks take deposits and use t=
+hem to fund lending to support real-world economic activity. It is not what=
+, say, Ethereum does to pay staking rewards: Ethereum stakers validate tran=
+sactions and thus arguably add to the economic value of the Ethereum networ=
+k. Hex does=C2=A0<em>absolutely nothing</em>, but it just prints some extra=
+ tokens (which cost it nothing!) to pay =E2=80=9Cyield.=E2=80=9D This is in=
+flationary, but the staking is arguably deflationary (you can=E2=80=99t sel=
+l the tokens that you=E2=80=99ve sent to the dead address), so if everythin=
+g works out just right the value of Hex tokens goes up and your 38% in-kind=
+ yield is great.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This was in 2019, back when a lot of people fo=
+und this economic model plausible, so it all did work out for a while. From=
+ the SEC complaint:</p>
+<blockquote><p style=3D"margin: 16px 0;">Heart pumped Hex=E2=80=99s capacit=
+y for investment gain, claiming at Hex.com (until at least November 1, 2020=
+) that, =E2=80=9CHex is designed to surpass ETH, which did 10,000x price in=
+ 2.5 years. It=E2=80=99s working! So far, HEX=E2=80=99s USD price went up 1=
+15x in 129 days.=E2=80=9D On December 2, 2019, during a seven-hour livestre=
+am on YouTube hours before the Hex Offering commenced, Heart stated that He=
+x =E2=80=9Cwas built to outperform Ethereum and Bitcoin and all other crypt=
+ocurrencies.=E2=80=9D Heart added that =E2=80=9C[Hex] was built to be the h=
+ighest appreciating asset that has ever existed in the history of man. That=
+=E2=80=99s the design intention.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">And then it didn=E2=80=99t; Hex <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/32262470.263416/aHR0cHM6Ly9jb2lu=
+bWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL2hleC8/607f07ceef4b8524a319a23cB0a940970" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> peaked in 2021</a> at about $0.49, and trades at about $0.006 toda=
+y, down almost 99% from the peak.=C2=A0</p>
+<p style=3D"margin: 16px 0;">I want to mention this case for two reasons. O=
+ne is that it is absolutely a time capsule of crypto in 2019: Hex=E2=80=99s=
+ economic model was allegedly just =E2=80=9Cbuy our token and we will give =
+you more of our token and that=E2=80=99s how you will make money,=E2=80=9D =
+and in 2019 enough crypto investors were like =E2=80=9Csure that makes sens=
+e=E2=80=9D that Heart was able to=C2=A0raise=C2=A0<em>a billion dollars</em=
+>. There is something magnificent about raising so much money with such a t=
+issue-thin idea.</p>
+<p style=3D"margin: 16px 0;">The other is that the SEC is suing Heart for=
+=C2=A0<em>securities fraud</em>, arguing that Hex tokens were=C2=A0<em>secu=
+rities</em>, under the traditional US securities-law analysis that we have =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMDYvdGhlL=
+XNlYy1jb21lcy1mb3ItY3J5cHRvP2NtcGlkPUJCRDA4MDEyM19NT05FWVNUVUZGJnV0bV9tZWRp=
+dW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMSZ1dG1fY2FtcGF=
+pZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb406bdf8" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  discussed<=
+/a> a <a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263=
+416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMDc=
+vd2hlbi1pcy1hLXRva2VuLW5vdC1hLXNlY3VyaXR5P2NtcGlkPUJCRDA4MDEyM19NT05FWVNUVU=
+ZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwM=
+SZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBcb18c353" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  lot</a> around <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/32262470.263416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjMtMDctMTQvcmlwcGxlLWlzLWEtc2VjdXJpdHktYW5kLWl0LWlzbi10P2NtcGlkPUJCRDA4M=
+DEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIzMDgwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+Bff194cad" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">  here</a>, which says that a security is =E2=80=9Can in=
+vestment of money in a common enterprise with profits to come solely from t=
+he efforts of others.=E2=80=9D And so the SEC cites evidence that the profi=
+ts of Hex were to come from the efforts of Heart:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">From the outset, Heart controlled=E2=80=94and =
+continues to control=E2=80=94nearly all aspects of the Hex ecosystem. In a =
+November 17, 2019 livestream on YouTube, Heart shared with potential invest=
+ors =E2=80=9Chow-to=E2=80=9D videos that he created to explain how investor=
+s could: (1) purchase Hex tokens during the offering period, and (2) stake =
+their Hex tokens. In that livestream, Heart also shared additional efforts =
+he was undertaking, including the creation of more =E2=80=9Cwalk through=E2=
+=80=9D videos and =E2=80=9Cringing up some more exchanges and whales [he] k=
+now[s]=E2=80=9D in order to make the Hex launch successful. In the same vid=
+eo, Heart disclosed that he directed certain developers to work on the Hex =
+code to the extent that their work =E2=80=9Cbenefit[ted] the ecosystem.=E2=
+=80=9D</p>
+<p style=3D"margin: 16px 0;">In a November 12, 2020 YouTube livestream, Hea=
+rt was asked how much of his time was going towards Hex; Heart stated: =E2=
+=80=9Calmost all of it.=E2=80=9D As recently as the January 2023 Hex=C2=A0C=
+onference (which was virtual, and available on YouTube), Heart stated regar=
+ding Hex, =E2=80=9CI want to be =E2=80=93 I want to have the best performin=
+g asset that=E2=80=99s ever existed. I want to be the best crypto founder t=
+hat=E2=80=99s ever existed. I like doing =E2=80=93 I like owning the world=
+=E2=80=99s largest diamond. I like having a coin that went up a million per=
+cent that=E2=80=99s had 3 years of flawless operation, that=E2=80=99s never=
+ been hacked. The front end has never gone down.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But look at that economic model! The profits t=
+hat Hex promised didn=E2=80=99t come from anyone building anything; they ca=
+me from (1) printing more Hex and (2) people buying it. This was not an inv=
+estment in some promised ecosystem that was being built by a dedicated team=
+ of technologists to revolutionize computing or whatever; this was =E2=80=
+=A6=C2=A0an investment in nothing? This was so transparent a Ponzi, in the =
+SEC=E2=80=99s own telling, that I=E2=80=99m not even sure it=E2=80=99s a se=
+curity.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">FTT</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Roughly speaking the way bankruptcy works is t=
+hat if a company owes its creditors $100 million and doesn=E2=80=99t have e=
+nough money to pay them, it will file for bankruptcy and split what=E2=80=
+=99s left among the creditors. If there=E2=80=99s $100 million of debt and =
+only $70 million of assets, all the creditors get 70 cents on the dollar. I=
+n the real world some creditors might have collateral, and some might be mo=
+re senior than others, so some will get more and some will get less, but th=
+is is the rough idea.</p>
+<p style=3D"margin: 16px 0;">In crypto exchange bankruptcies there is an ad=
+ditional wrinkle, though, because a crypto exchange will owe its customers,=
+ like, $100 million and 2 million Ether and 500,000 Bitcoins and 5 million =
+Dogecoin and so forth, and if there is not enough money to go around you ha=
+ve to think about how to allocate it among those different customers. Shoul=
+d you treat each token separately?=C2=A0If you have $70 million, 2 million =
+Ether, zero Bitcoins and 1 million Dogecoin, do you pay 70% of dollar claim=
+s and 100% of Ether claims and 0% of Bitcoin claims and 20% of Dogecoin cla=
+ims? Or do you put everything into one pot, sell all of it for dollars, and=
+ pay everyone the same percentage of their claims in dollars? There is also=
+ a question of how (and when) you measure their claims: Crypto prices are v=
+olatile, and if you owe a customer one Bitcoin worth $60,000 when you file =
+for bankruptcy, you might owe her one Bitcoin worth $30,000 by the time you=
+ get out of bankruptcy.</p>
+<p style=3D"margin: 16px 0;">So these are complications, but by this point =
+in the crypto bankruptcy cycle US courts are pretty used to dealing with th=
+em. But here is another wrinkle=C2=A0from <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/32262470.263416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjMtMDgtMDEvZnR4LWRyYWZ0LWJhbmtydXB0Y3ktcGxhbi1jYWxscy=
+1mb3ItY2FzaC1yZXBheW1lbnQtZnR0LXdpcGVvdXQ_Y21waWQ9QkJEMDgwMTIzX01PTkVZU1RVR=
+kYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwODAx=
+JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB32561310" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>  the FTX bankruptcy</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">FTX Group unveiled a draft creditor-repayment =
+plan as part of its bankruptcy that calls for settling customer claims in c=
+ash and wiping out its digital token FTT.</p>
+<p style=3D"margin: 16px 0;">The plan =E2=80=94 which FTX expects to amend =
+based on feedback from stakeholders =E2=80=94 proposes valuing customer cla=
+ims in US dollars as of the date it went bankrupt and repaying them by sell=
+ing assets tied to various silos of the business, court papers show. FTX al=
+so still hasn=E2=80=99t ruled out rebooting an offshore exchange, according=
+ to the filings. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The plan calls for giving no recovery on accou=
+nt of FTT tokens due to their =E2=80=9Cequity-like characteristics,=E2=80=
+=9D advisers for FTX wrote in the filings. Equity is almost always wiped ou=
+t in US bankruptcy reorganizations.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">FTX owes its customers lots of dollars, Bitcoi=
+n, Ether, etc. It also owes its customers some FTT, FTX=E2=80=99s own excha=
+nge token. I once <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+32262470.263416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMjItMTEtMDkvYmFua21hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyYWwtYmVmb3JlLW=
+JpbmFuY2UtZGVhbD9jbXBpZD1CQkQwODAxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJ=
+nV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDEmdXRtX2NhbXBhaWduPW1vbmV5=
+c3R1ZmY/607f07ceef4b8524a319a23cB26e5c59a" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  described FTT like thi=
+s</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">FTX issues a token called FTT. The=
+ attributes of this token are, like, it entitles you to some discounts and =
+stuff, but the main attribute is that FTX periodically uses a portion of it=
+s profits to buy back FTT tokens. This makes FTT kind of like stock in FTX:=
+ The higher FTX=E2=80=99s profits are, the higher the price of FTT will be.=
+=C2=A0It is not <em>actually </em>stock in FTX =E2=80=94 in fact FTX is a c=
+ompany and has stock and venture capitalists bought it, etc. =E2=80=94 but =
+it is a lot <em>like </em>stock in FTX. FTT is a bet on FTX=E2=80=99s futur=
+e profits.</p></blockquote>
+<p style=3D"margin: 16px 0;">It is enough like stock in FTX that, when FTX =
+went bankrupt, its executives and bankruptcy lawyers said =E2=80=9Cwell loo=
+k this is obviously stock and should be wiped out.=E2=80=9D Here is the <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aHR0c=
+HM6Ly9yZXN0cnVjdHVyaW5nLnJhLmtyb2xsLmNvbS9GVFgvSG9tZS1Eb3dubG9hZFBERj9pZDE9=
+TWpRMU16UTFOQT09JmlkMj0tMQ/607f07ceef4b8524a319a23cBc28da645" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> draf=
+t bankruptcy plan</a>, which says:</p>
+<blockquote><p style=3D"margin: 16px 0;">Classes 10, 11, 12 and 13 consist =
+of claims by holders of FTT (whether or not held on any FTX exchange), pref=
+erred stock and equity investors in the Debtors and related claims. All the=
+se claims and interests will be canceled and extinguished as of the Effecti=
+ve Date and holders will not receive any distribution.=C2=A0</p></blockquot=
+e>
+<p style=3D"margin: 16px 0;">But it=E2=80=99s not stock! It=E2=80=99s a cry=
+pto token. At some level it is a crypto token the same as Solana and Ethere=
+um and Bitcoin and all the other stuff that FTX owes to its customers. And =
+if you are an FTX customer, FTX will look at your account and convert all o=
+f your Solana and Ethereum and Bitcoin and so forth into dollars at their m=
+arket prices as of the bankruptcy date, and you will have a claim for that =
+number of dollars, though you probably won=E2=80=99t get back 100 cents on =
+the dollar on that claim.<a class=3D"footnote-index" href=3D"#footnote-3" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: none !important=
+; background-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a> But FTX will look at your account and convert all of your FTT tokens i=
+nto nothing. =E2=80=9COh that was just stock,=E2=80=9D they will say, even =
+though it wasn=E2=80=99t.</p>
+<p style=3D"margin: 16px 0;">Four points here. One, I think this is obvious=
+ly correct as an analytical matter. FTT does have =E2=80=9Cequity-like char=
+acteristics,=E2=80=9D it was basically stock in FTX, since FTX went bankrup=
+t its value really should be zero, and=C2=A0it makes total sense to pay FTT=
+ holders nothing in order to have more money to give to other customers.</p=
+>
+<p style=3D"margin: 16px 0;">Two, I am not so sure it is correct as a tacti=
+cal matter. One big holder of FTT is=C2=A0<em>FTX</em>, and FTX=E2=80=99s s=
+tash of FTT tokens is plausibly an asset that it could sell to raise more m=
+oney to pay creditors. If FTX goes around like =E2=80=9CFTT is great, we=E2=
+=80=99re gonna revive the exchange, you can use FTT to get fee discounts,=
+=E2=80=9D maybe there will be some market for FTT and it can sell its stash=
+ to raise money. If FTX goes around like =E2=80=9CFTT is wiped out, bye,=E2=
+=80=9D it can=E2=80=99t.</p>
+<p style=3D"margin: 16px 0;">Three, when FTX went bankrupt, <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/32262470.263416/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LXMtYmFsYW5jZS1z=
+aGVldC13YXMtYmFkP2NtcGlkPUJCRDA4MDEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMSZ1dG1fY2FtcGFpZ249bW9uZX=
+lzdHVmZg/607f07ceef4b8524a319a23cC4a97bade" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  we talked about</a> s=
+ome of the=C2=A0<em>other=C2=A0</em>weird stuff on its balance sheet:=C2=A0=
+Serum, Maps and <a href=3D"https://link.mail.bloombergbusiness.com/click/32=
+262470.263416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItM=
+TEtMTQvc2FtLWJhbmttYW4tZnJpZWQtcy1tYWdpYy1tb25leS1ib3gtZW5yaWNoZWQtdmFzdC1j=
+cnlwdG8tbmV0d29yaz9jbXBpZD1CQkQwODAxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWl=
+sJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA4MDEmdXRtX2NhbXBhaWduPW1vbm=
+V5c3R1ZmY/607f07ceef4b8524a319a23cBaa0896e9" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  other =E2=80=9CSamco=
+ins=E2=80=9D</a> that were created FTX=E2=80=99s affiliates and that were a=
+lso equity-like bets on other FTX-y ventures. The draft plan does not seem =
+to contemplate wiping=C2=A0<em>them=C2=A0</em>out. If you have Serum in you=
+r FTX account, you can get some of your money back. And I guess FTX=E2=80=
+=99s bankruptcy estate can try to sell its Serum.</p>
+<p style=3D"margin: 16px 0;">Four, we have talked=C2=A0a lot about <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMDYvdGhlLXNlYy1j=
+b21lcy1mb3ItY3J5cHRvP2NtcGlkPUJCRDA4MDEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1=
+haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMSZ1dG1fY2FtcGFpZ249bW=
+9uZXlzdHVmZg/607f07ceef4b8524a319a23cCb406bdf8" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  the SEC=E2=80=99s=
+ crackdown on crypto</a>, in which the SEC argues that basically every cryp=
+to token is a security, and in which the crypto industry argues that basica=
+lly no tokens are. Specifically there is a popular crypto argument that=C2=
+=A0<em>crypto tokens themselves=C2=A0</em>are not securities, that they are=
+ just objects, just =E2=80=9Calphanumeric cryptographic sequences,=E2=80=9D=
+ and that some=C2=A0<em>sales=C2=A0</em>of crypto tokens can be securities =
+offerings (if you sell the token to raise money for a project and make prom=
+ises to the buyers about the project), but that the tokens themselves are n=
+ever securities. I think that <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32262470.263416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjMtMDctMTcvYnJhbmNoZXMtbWFrZS1iYW5rLXJ1bnMtaGFyZGVyP2NtcGlkPU=
+JCRDA4MDEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIzMDgwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cBbde96066" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  this is completely incoherent</a> but a lot of =
+smart people believe it, and this month a federal judge <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/32262470.263416/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDctMTQvcmlwcGxlLWlzLWEtc2VjdXJp=
+dHktYW5kLWl0LWlzbi10P2NtcGlkPUJCRDA4MDEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1=
+haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMSZ1dG1fY2FtcGFpZ249bW=
+9uZXlzdHVmZg/607f07ceef4b8524a319a23cCff194cad" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  basically endorse=
+d it</a> in the Ripple case. To me, though, the better analysis is that cry=
+pto assets =E2=80=9Care quasi-stocks in crypto projects,=E2=80=9D as <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDctMTQvcmlwcGxlLWl=
+zLWEtc2VjdXJpdHktYW5kLWl0LWlzbi10P2NtcGlkPUJCRDA4MDEyM19NT05FWVNUVUZGJnV0bV=
+9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDgwMSZ1dG1fY=
+2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cDff194cad" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  I wr=
+ote about Ripple</a>.</p>
+<p style=3D"margin: 16px 0;">On my analysis, zeroing FTT here is plainly co=
+rrect: FTT was quasi-stock in the FTX project, the project failed, so FTT g=
+ets zeroed. (Other tokens are quasi-stocks in <em>other=C2=A0</em>projects,=
+ and should not be affected by the failure of FTX.) But what if you think t=
+hat crypto tokens can never be securities, that they are just =E2=80=9Calph=
+anumeric cryptographic sequences=E2=80=9D? All of the tokens in all of the =
+accounts at FTX are the same, just tokens, not securities, certainly not st=
+ock; how can FTX treat one of them as stock and zero it?</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Apollogies</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">There is a simple model of private equity in w=
+hich private equity firms create value for their investors by=C2=A0<em>taki=
+ng=C2=A0</em>it from creditors. There is some boring company with steady ca=
+sh flows and some investment-grade debt, and a private equity firm comes al=
+ong and buys it by loading it down with a lot more debt. The existing credi=
+tors had safe investment-grade debt, but now they have risky claims on a mu=
+ch more levered business; the value of their debt has gone down. The new cr=
+editors are also making a risky bet, though at least they get paid for it. =
+If things work out, the company does well and the private equity fund makes=
+ a multiple of its capital; the creditors just get paid back. If things don=
+=E2=80=99t work out, the company goes bankrupt, the private equity fund los=
+es its investment but the creditors also take big losses. If things first w=
+ork out and then don=E2=80=99t, then the private equity fund can take out a=
+ big dividend in the good times and make back its investment, and then in t=
+he bad times it can leave the creditors with the losses. And the private eq=
+uity sponsor is smart and focused on this, so it will write its debt docume=
+nts in ways that allow it to get its money back and leave creditors with th=
+e losses.</p>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t mean to endorse this model com=
+pletely, but a lot of people believe some version of it. In particular, a=
+=C2=A0lot=C2=A0of people believe a version of it where you replace the word=
+s =E2=80=9Cthe private equity fund=E2=80=9D with the word =E2=80=9CApollo.=
+=E2=80=9D Bloomberg=E2=80=99s Allison McNeely <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/32262470.263416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMDEvYXBvbGxvLXRyaWVzLXRvLXNoZWQtcnV0aGxlc3=
+MtcHJpdmF0ZS1lcXVpdHktaW1hZ2UtaW4tbWFyYy1yb3dhbi1lcmE_Y21waWQ9QkJEMDgwMTIzX=
+01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rl=
+cm09MjMwODAxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB38578=
+01d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> writes about Apollo Global Management Inc.=E2=80=99s image</a=
+>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Apollo=E2=80=99s longtime reputati=
+on =E2=80=94 particularly in the brass-knuckle business of bickering over b=
+ankruptcies and investing in troubled companies =E2=80=93 has had real fina=
+ncial consequences. Historically, bond and loan investors have demanded add=
+itional interest, around 50 to 100 basis points, to finance Apollo=E2=80=99=
+s leveraged buyouts, just in case a brawl ensues. It=E2=80=99s known as the=
+ =E2=80=9CApollo Premium.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">I mean in some sense that should be a source o=
+f pride? Sure you pay an extra 50 to 100 basis points to finance your buyou=
+ts, but that=E2=80=99s only because you have extracted so much more value f=
+or your investors =E2=80=94=C2=A0from your creditors =E2=80=94=C2=A0than al=
+l the other private equity firms. They left money on the table in their pre=
+vious deals. You took all the money off all the tables in all your deals, a=
+nd you pay for it now.</p>
+<p style=3D"margin: 16px 0;">Anyway though the point of the article is that=
+ Apollo is now=C2=A0<em>not=C2=A0</em>primarily a private equity firm focus=
+ed on extracting value from creditors. Now it is mostly a creditor:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Since he was named chief executive officer, [M=
+arc]<strong>=C2=A0</strong>Rowan, 60, has acknowledged what many in the ind=
+ustry have been feeling in their bones: The traditional private equity busi=
+ness, the one Apollo mastered over three decades, isn=E2=80=99t what it use=
+d to be now that those golden years of near-zero interest rates are over. H=
+e=E2=80=99s been pushing Apollo further and further beyond its private equi=
+ty roots and into high-growth arenas like private credit and insurance. =E2=
+=80=A6</p>
+<p style=3D"margin: 16px 0;">Call Apollo a =E2=80=9Cprivate equity firm=E2=
+=80=9D these days and executives will correct you: No, we=E2=80=99re an alt=
+ernative asset management company, one that=E2=80=99s driving into direct l=
+ending, structured credit and more, powered by Rowan=E2=80=99s financial ma=
+sterstroke, the insurance arm Athene.</p>
+<p style=3D"margin: 16px 0;">At the same time, Rowan is also chasing a more=
+ elusive goal, and one that=E2=80=99s difficult to quantify in dollars and =
+cents. He wants Apollo to shake off its image as one of Wall Street=E2=80=
+=99s most ruthless risk-takers for good.</p>
+<p style=3D"margin: 16px 0;">Executives have spent the past few years on wh=
+at some competitors have snarkily called an =E2=80=9CApollo Apology Tour.=
+=E2=80=9D Even now, they often start meetings with prospective clients by f=
+ielding questions about their reputation as a hard-driving investor and are=
+ putting more effort into explaining their business, Apollo insiders say. =
+=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt is up to us now, over this next pe=
+riod of time, to actually change the perception for the reality of what the=
+ business is,=E2=80=9D Rowan said at the Economic Club of New York lunch. =
+=E2=80=9CWe are primarily an investment-grade provider of private credit.=
+=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If you build a reputation for extracting a lot=
+ of battle by being cleverer, harder-working and more ruthless than everyon=
+e else, well, in large swathes of finance that=E2=80=99s=C2=A0just=C2=A0<em=
+>good</em>. Investors will want to give you money, because you are clever a=
+nd ruthless. People will want to work for you, because they fancy themselve=
+s clever and ruthless, and because you pay well. Creditors will fear you, w=
+hich is not all good (you have to pay them more to finance your deals), but=
+ which is maybe helpful if you actually=C2=A0<em>do=C2=A0</em>end up fighti=
+ng with them.</p>
+<p style=3D"margin: 16px 0;">But if you are an investment-grade provider of=
+ private credit, that reputation is mostly unhelpful. If you=C2=A0go to an =
+investment-grade company and say =E2=80=9Chey we would love to provide you =
+with some investment-grade private credit=E2=80=9D and their first reaction=
+ is =E2=80=9Cokay but you plan to kill us right,=E2=80=9D you will not get =
+a lot of deals done. Lots of companies raise money from people who obviousl=
+y plan to kill them, but that=E2=80=99s <em>distressed</em> credit and they=
+ have no choices; if you want to deploy lots of capital doing investment-gr=
+ade deals it is helpful to have a reputation for being=C2=A0<em>easy=C2=A0<=
+/em>to deal with, not terrifying. If you=E2=80=99re an Apollo credit person=
+, you probably do have to start every meeting by saying =E2=80=9Cno, I=E2=
+=80=99m not like our private-equity guys, I=E2=80=99m nice, we sit on diffe=
+rent floors, I=E2=80=99m scared of them too.=E2=80=9D</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Ratings Firms Struggle With <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/32262470.263416/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMDEvcmF0aW5ncy1maXJtcy1zdHJ1Z2d=
+sZS10by1xdWFudGlmeS1jbGltYXRlLXJpc2tzLWluLWJvbmQtbWFya2V0P2NtcGlkPUJCRDA4MD=
+EyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0b=
+V90ZXJtPTIzMDgwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB=
+357fe7ba" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">  Climate Risk</a> in $133 Trillion Market. Uber Posts <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDgtMDEvdWJlci1zd2l=
+uZ3MtdG8tc3VycHJpc2UtcHJvZml0LWFzLXJpZGVyc2hpcC1yZWFjaGVzLW5ldy1yZWNvcmQ_Y2=
+1waWQ9QkJEMDgwMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld=
+3NsZXR0ZXImdXRtX3Rlcm09MjMwODAxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4=
+b8524a319a23cB103a1bae" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  First Operating Profit</a> as Ridership H=
+its New Record. Missing Millions and a <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/32262470.263416/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy=
+9taXNzaW5nLW1pbGxpb25zLWFuZC1hLXJhYmJpbmljYWwtYXJiaXRyYXRvci1yZWFsLWVzdGF0Z=
+S1kZWFsLWdvbmUtYmFkLWhpdHMtcG9wdWxhci1jcm93ZC1mdW5kZXItMzU1NTMxNGY_bW9kPWhw=
+X2xlYWRfcG9zNA/607f07ceef4b8524a319a23cB37921047" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">Rabbinical Arbitr=
+ator</a>: Real-Estate Deal Gone Bad Hits Popular Crowd Funder.=C2=A0Top sto=
+ck pickers hit by =E2=80=98tremendous=E2=80=99 amount of <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/32262470.263416/aHR0cHM6Ly93d3cuZnQu=
+Y29tL2NvbnRlbnQvZTFlMGYyNjEtOTlkMy00OGIwLTkwYTctNGY5YmEzYzAzZjNl/607f07ceef=
+4b8524a319a23cB9065452b" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> uninvested cash</a>. <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32262470.263416/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMjcvZm91ci1kYXktd29ya3dlZWtzLWFyZ=
+S1nb29kLWZvci1lbXBsb3llZS1oZWFsdGgtc3R1ZHktc3VnZ2VzdHM_Y21waWQ9QkJEMDgwMTIz=
+X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3R=
+lcm09MjMwODAxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB42a3=
+e111" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  Four-Day Weeks</a> Are Good for Employee Health, Study Sugg=
+ests. People Are Hiring <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/32262470.263416/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jYW1lby1hcHAta=
+GlyZS1jZWxlYnJpdGllcy10by1kZWxpdmVyLXBlcnNvbmFsLW1lc3NhZ2VzLWMyMDkwY2NlP21v=
+ZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cBe9ebf7c8" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> D-List=
+ Celebrities</a> to Deliver Their Bad News. <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32262470.263416/aHR0cHM6Ly9zbGF0ZS5jb20vaHVtYW4ta=
+W50ZXJlc3QvMjAyMy8wNy9sb3ZlLWxhbmd1YWdlLXJlbGF0aW9uc2hpcC1oYWNrLWNvbW11bmlj=
+YXRpb24tY291cGxlcy5odG1s/607f07ceef4b8524a319a23cB1bf0d746" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> ESBU</=
+a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32262470.263416/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB3404f6a6" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32262470.263416/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBe5b03773" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Additional, less interesting options inclu=
+de =E2=80=9Cless than $100 but more than $0,=E2=80=9D meaning that Answer 3=
+ is basically correct but there are optimists out there who keep the price =
+above zero, and =E2=80=9Cless than $138 but more than $100,=E2=80=9D meanin=
+g I guess that something between Answer 1 and Answer 2 is correct.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] The SEC also goes after two other Heart pr=
+ojects, PulseChain and PulseX, which purported to be less, you know, purely=
+ Ponzi-ish.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] The preliminary plan does not have an esti=
+mate of how much you=E2=80=99ll get, though your claim is =E2=80=9Cimpaired=
+,=E2=80=9D meaning that you=E2=80=99re not just going to be paid off in cas=
+h in full.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB337f663f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBf77997ea" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBede26aff" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBf470ce02" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB99b8f674" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.2634=
+16/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBc6f3af2c" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32262470.263416/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC48ac2a8e" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32262470.263416/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB61475ccc" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32262470.263416/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBbc71ff56" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBd=
+ccd0b0f" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32262470.263416/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB7=
+a1e009b" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj7hvq.5n94/c0c18766.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9578137_762380757.1690912134475--
+

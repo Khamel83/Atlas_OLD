@@ -1,0 +1,2473 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:10d5:b0:1b9:b7d6:557d with SMTP id cc21csp433968lkb;
+        Thu, 12 May 2022 05:49:46 -0700 (PDT)
+X-Received: by 2002:adf:fd4a:0:b0:20a:cee3:5abf with SMTP id h10-20020adffd4a000000b0020acee35abfmr27689053wrs.522.1652359786661;
+        Thu, 12 May 2022 05:49:46 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1652359786; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=wOfsxP4O1O1l/RePQYMgyA1k1uTxVtZDyJ6rPB3/cjZDn/6p8UeIOI6lwQ6F+vu2B3
+         LzMuWkF9McP2VkcW+tR4kRcC4AlIjZeoUyg4x1lXJoY5x87PcygskiR+zLj6R/jsUl8o
+         Uck1ieEgCxtVNKI5PaKraJpEA1EykHySdSLHDay9COcqAhxM4d8gEL5R5pNfiOj4txtZ
+         piJoKY3RBgRX31x59BN1J7VvmJHRuklcsvwYwTprdt+eJ+s567Fdh24W6W9TcxWmubAO
+         TyTTGmBVniKanaJHNqrdsTGgBH2obpcEgTd65EoTPeE592S8ZDqi0L5wgBPTaFclU51t
+         wgGg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-archive:message-id:list-owner:list-id
+         :list-unsubscribe:references:list-url:date:sender:in-reply-to
+         :reply-to:list-unsubscribe-post:to:from:subject:mime-version
+         :dkim-signature:delivered-to;
+        bh=YOqEQWPGQ8dXTDFzuOc1pNWxZ7GZm2IJAH1tumabp7g=;
+        b=vUfMk9FZzLoJ5ZQ6dJrVv2ivl87PVIi1ZS+WX6QTdpxufJtAQToBkqB6/PnGlQeleJ
+         wa/bRvEs6h54yVXHH1iG3oI/Wb43dubKBvC+JfedLaNxwJBjp/dbdG5C9xwTwKrafFcU
+         egXStBoiDzxVXOaHA6TSmj3qPUmBYwcpEIrp0UAyijEz1EsQDiqdg3/oAZmzO2Tq6wWa
+         FnKOPaRsSEb7f16l5k0knkSnrkbVtqAp8iHlc4czSbAQIvPXoATI19LssFxapgF8PG9Y
+         p4IWYaZNM1wQOVE145LJtQJJ+ih487EoICpPwmVazX+IZCFH1+cDEOX1UBBsu0JtTpWY
+         Hgkw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=UZgtrADd;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id b12-20020a5d45cc000000b0020c9f24df3bsor3007441wrs.37.2022.05.12.05.49.46
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 12 May 2022 05:49:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=UZgtrADd;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:mime-version:subject
+         :from:to:list-unsubscribe-post:reply-to:in-reply-to:sender:date
+         :list-url:references:list-unsubscribe:list-id:list-owner:message-id
+         :list-archive:list-post;
+        bh=YOqEQWPGQ8dXTDFzuOc1pNWxZ7GZm2IJAH1tumabp7g=;
+        b=pIU7jVXp4sIZRYLDcKIo4tDRkum0W5Y140MSPOQR+8mqayKMd4yPZlDvKNDJQUZMko
+         eXzsUm0t9jemPZt/98v2zWrn0Umu4clgTnENcX433yWARLl5xr58lCbXzLmV9HakDsvh
+         7yCEHphBo1xiW8aSDFSaVqckenqp08Q7z9e58k3PU/rTajkqDBaN+92g+c78XvRdWobt
+         GYYGt0a+qiqYAAGTrbF+aiyl3V9GGhaWopIFX+ARNb0EzLany7+8yu+T1wxVnvGOSora
+         qSgfxNwkaRbqcV05i4Y/hyvotYuHKsJsqgk5skB401n6GQHi1grcPj5p8MjPhiDoRxfA
+         DVkA==
+X-Gm-Message-State: AOAM531qewiRmbrnf1Y6UQtXMOGLkhNLYw45yqB/hWgBytBMmtiQIasC
+	m2gUNzA/LOMGGQagvi8QM1aOWCiqnzEibVBt/5RTM3PbiTQyQcg03w==
+X-Received: by 2002:adf:f2cb:0:b0:20a:e801:d13f with SMTP id d11-20020adff2cb000000b0020ae801d13fmr27097921wrp.309.1652359785934;
+        Thu, 12 May 2022 05:49:45 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:6b51:0:0:0:0:0 with SMTP id x17csp393462wrw;
+        Thu, 12 May 2022 05:49:43 -0700 (PDT)
+X-Received: by 2002:a05:6870:15ce:b0:e9:894f:d9ce with SMTP id k14-20020a05687015ce00b000e9894fd9cemr5509734oad.121.1652359783421;
+        Thu, 12 May 2022 05:49:43 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1652359783; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=FlpC2ldwARUIaxf/Da0vpuMRpbKi4b2tQRsV0P9OC0Z9LrncrQq7tQIsXYqP+3oS3o
+         atQ2j5I80IEbTy5WJYyjSbiG3yyhhIEFqhhu3Wtawlt7/hENEHzhemSOitCwaMPDdl7G
+         PrnpD5ev0K2DUQaL847RquXacYFDBXarurZP8CBCxfMKlPguRBwYLTOmVy0vOYPsxFWw
+         ItEYtfh8SYv5Il6AICtUaJ4PLPn1qb+19cri1LEYs1KefXH6hdYhiQaNGHd8rw60/ifr
+         t/siSEARhS9V6p/fVNiWvGudIZIzbpQz0HvWkog8Wsj7MepSaqR+1sZkjgXWIQoUkF1v
+         6WHQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-archive:message-id:list-owner:list-id
+         :list-unsubscribe:references:list-url:date:sender:in-reply-to
+         :reply-to:list-unsubscribe-post:to:from:subject:mime-version
+         :dkim-signature;
+        bh=YOqEQWPGQ8dXTDFzuOc1pNWxZ7GZm2IJAH1tumabp7g=;
+        b=Xi/ii+/mDC0UWhSjdZbEqZsgPiOND5zRNjoTH6tF3tpdQhIAO0F7FkMia8XCvRx5Wi
+         TAY3gmHJ13mHRfHj9WhOBT8fvD1xGJW6krlF6Q+C1vSva4LMspePboBFtK7M2vf2YZ8C
+         WHjRwfF7yp85r3xPFR5xmQFdx9NFq++EVr9CvpIT6UxcVNVgpmhUCylRwJj575Wf9MOb
+         LX75/Wn7j1Nbq3skg/sHPDLeJSiUAZtQAytnKUFqs8+ResU4Wk2RyJfZancgTMSntz4R
+         Dr3aIJ456aReASEyZ1A50kqR3VueVf1lxuU+OLfT9c8/MWCe/iGgkUsOCcJ4y9nlAwhF
+         XOqA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=UZgtrADd;
+       arc=pass (i=1 spf=pass spfdomain=mg2.substack.com dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id q4-20020a9d4b04000000b006069e7eb1c1sor743255otf.39.2022.05.12.05.49.43
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 12 May 2022 05:49:43 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzBuRsfYYbt2N5SxTGCmHMjGLk2BUUX0eudAMkqkGPIbiLbhmSfloMf5mXA0OMlF1mRx0imBgsArU7Xzu2w2gYEx1dVCv4=
+X-Received: by 2002:a9d:6a86:0:b0:606:ae59:8004 with SMTP id l6-20020a9d6a86000000b00606ae598004mr4646894otq.112.1652359783020;
+        Thu, 12 May 2022 05:49:43 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1652359783; cv=none;
+        d=google.com; s=arc-20160816;
+        b=T/tqYz/Ju862vtH4AiI+b2tnG89k+uStxO1g1L42dCyPIj1PTQFl/HXD1ahMmAr6GH
+         48ULPmCepRi6NrwCEig1VvEMTjB5OdHmqaTF5tM49KhHttTNU843JQCSvy4dlQqIbd8r
+         ndg2wAgzwW4Z6Rg9CRbm502zSuTOYPNEA0qIJ9PPN/yr8Ka0Y1ieL9096ZjFE1kDC4+2
+         WWTrlNi6S6RNuxliXVQG0Fk1UmndxKlC8oCvzM69+wQmhAS8mR0llO1N7mhUFMJ16lqT
+         2l/z+qhHU37ewGk7QwDrkcK7J/SkzEGQ8acF3JDUiHGjou26So4QbtRJj0H66X9y3mxb
+         DXTA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-archive:message-id:list-owner:list-id
+         :list-unsubscribe:references:list-url:date:sender:in-reply-to
+         :reply-to:list-unsubscribe-post:to:from:subject:mime-version
+         :dkim-signature;
+        bh=YOqEQWPGQ8dXTDFzuOc1pNWxZ7GZm2IJAH1tumabp7g=;
+        b=fQIgagGgcknUfVpLOl0xZ9rrGUqSLf2J7j4x//Al3HgyRVIMStRz9/iJdj3qV7GQ6C
+         h85hfJIEzhdZfMHIO8wyohxbbNx0SobOpVI2L+xg/KNmrsjVuM0aSTk6s1aaJ7CxS3HT
+         7EoyhSkNN7CpOa8OjA0JaSjcxCyKD2L4x/yOpxOD5mvYTsBciaNNxcqiZ/Dn8gAM9pAp
+         DR8+UA87j+FinYOze7KQGgVu34i1KkvJ1WfEIJRSwKhS0ZDjmWlL9zd0EalT9X+dLwI3
+         oEPFsMhNZBdSD+AzfFlH9BF1jfoXnniY+Xc+G1gYyGIg+DogrXNmXQU937tjaDLEsdoW
+         5rPw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=UZgtrADd;
+       spf=pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 161.38.202.253 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mg-202-253.substack.com (mg-202-253.substack.com. [161.38.202.253])
+        by gmr-mx.google.com with UTF8SMTPS id eg4-20020a056870988400b000ddac42441esi474550oab.0.2022.05.12.05.49.24
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 12 May 2022 05:49:43 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 161.38.202.253 as permitted sender) client-ip=161.38.202.253;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg2.substack.com; q=dns/txt;
+ s=mailo; t=1652359782; h=List-Post: List-Archive: Message-Id:
+ List-Owner: List-Id: List-Unsubscribe: References: Date: Sender:
+ Sender: In-Reply-To: Reply-To: To: To: From: From: Subject: Subject:
+ Content-Type: Mime-Version;
+ bh=YOqEQWPGQ8dXTDFzuOc1pNWxZ7GZm2IJAH1tumabp7g=; b=UZgtrADduEYrQgiDF8rg92vABV3XGPgFSM3qtqN2wGj0HwBQvUse225bNnu2pxVwnF/1Lma0
+ Bwn4cOv0FMbYzA8X1ZSlGvFNPtk7lVtlCUq9ojTklTw3rpTGEoYeW81fE3LGNuBxBBVLBm9Z
+ 5GJ8FHNGjyxY/UrF9Hg6ukndBtE=
+X-Mailgun-Sending-Ip: 161.38.202.253
+X-Mailgun-Sid: WyIyZDMzMyIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICI0ZDE4NTgiXQ==
+Received: from <unknown> (<unknown> []) by
+ api-n16.prod.us-east-1.postgun.com with HTTP id 627d0230793316916ab61a9d;
+ Thu, 12 May 2022 12:48:38 GMT
+X-Mailgun-Batch-Id: 627d022738a4f8e57dbf8768
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="305c0b2a900afe6e8488f67e8db218d7f3216e9e5af7cad90aacc11315e7"
+Subject: Terra: To the Moon and Back
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Reply-To: Not Boring
+ <reply+wgao5&9p0gt&&c90b320063d655f0fb2b4166a1f0f4d65525befeae9a9e426cf0149ff587b945@mg1.substack.com>
+In-Reply-To: <post-54508037@substack.com>
+Sender: Not Boring <notboring@substack.com>
+Date: Thu, 12 May 2022 12:48:28 +0000
+List-Url: <https://www.notboring.co/>
+References: <post-54508037@substack.com>
+List-Unsubscribe: <https://www.notboring.co/action/disable_email/disable?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTQ1MDgwMzcsImlhdCI6MTY1MjM1OTcxOCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoiZGlzYWJsZV9lbWFpbCJ9.Jyoxw7qO5XwT8X5FePlqSMYyOF7XIgHRbJv8e0anmGE>
+List-Id: <notboring.substack.com>
+List-Owner: <mailto:notboring@substack.com>
+Message-Id: <20220512124828.3.29ee4164cec8d6d5@mg2.substack.com>
+List-Archive: <https://www.notboring.co/archive>
+List-Post: <https://www.notboring.co/p/terra-to-the-moon-and-back>
+X-Mailgun-Variables: {"category":"post", "comment_id":"",
+ "email_generated_at":"1652359718388", "is_freemail":"true",
+ "post_audience":"everyone", "post_id":"54508037", "post_type":"newsletter",
+ "pub_community_enabled":"true", "publication_id":"10025",
+ "subdomain":"notboring", "user_id":"16283549"}
+
+--305c0b2a900afe6e8488f67e8db218d7f3216e9e5af7cad90aacc11315e7
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://email.mg2.substack.com/c/eJxFkMuOgzAMR=
+b-m2YHyhLDIopv5DZSHC1EhQcEM4u8nbUczkuNFrOvre7xFmHK5zJZ3JK824rWBSXDuCyBCIccO=
+ZYzBsI5roeRAgpGBaaVJ3MdHAVhtXAyWA8h2uCV6izGnt4JSrshsekqZ7bRm0A-SC_lgQxDMSep=
+66ZzUH197hAjJg4FvKFdOQHxeV0j4WkUWMyNu-03cb_yr1nmebcrocolpan2uX1t99eBiG8wNzt=
+CsOafGptA4658kGk45p4pxxqXmuhUtHwAk66QHr0MX1E3SdeLtfrgdq6SuXUkxfzZ1_JztCst7U=
+MOOrwuPFPEaIVm3QPhwwA_ON5lxggSlYg6jxQpRcaGGnmmhf3PXdEoqqqnoSXUOuarSv-kPg3KM=
+_A
+
+Welcome to the=C2=A01,281=C2=A0newly Not Boring people=C2=A0who have joined=
+ us since Monday! If you haven=E2=80=99t subscribed, join=C2=A0122,025 smar=
+t, curious folks by subscribing here:=20
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 FTX US [ https://e=
+mail.mg2.substack.com/c/eJxNkN9uhSAMxp9GLg3yR_GCiyXLXsMg9Cg5CgbKNt9-HE22JU3=
+TtGm_fj9rEJaYTn3EjOSVJjwP0AG-8gaIkEjJkCbvdNczxaUYidPCdUoq4vP0SAC78ZvGVIAcZd=
+68NehjuDYoZZKs2nALYz88OkVBOm5m0Y_DaAWrfcX5fOua4jwECxo-IZ0xALFx3yHg6xTZ9Ip45=
+Ia_NeyjxgO_25JrscYdrhY3DX8PEeeYfFj-GfCaUcao7FjHhGKq5S0bAUTXCwtWud7JRtB9YW0u=
+c0Zjn21VJkn_Hqvj52p22K5BdTm9XivB4zlBMPMG7gaAN8cLybRAgFT5uslgpScZl-PQKa7Ubbj=
+akkJSRflAqrKLdSv8if4AOiiLDQ ]
+If you=E2=80=99ve been following crypto at all over the past year, or if yo=
+u listen to Not Boring Founders, you know FTX US and its founder, Sam Bankm=
+an-Fried (SBF).
+Simply put, FTX US is one of the most complete apps in crypto, and its trad=
+ing platform has the lowest fees in the industry. With FTX US, you can trad=
+e crypto with up to 85% lower fees than any other exchange on the market.=20
+Of course, you can buy cryptocurrencies like BTC, ETH, and SOL (don=E2=80=
+=99t look now [ https://email.mg2.substack.com/c/eJxNkN9uhSAMxp9GLg3yR_GCiy=
+XLXsMg9Cg5CgbKNt9-HE22JU3TtGm_fj9rEJaYTn3EjOSVJjwP0AG-8gaIkEjJkCbvdNczxaUYi=
+dPCdUoq4vP0SAC78ZvGVIAcZd68NehjuDYoZZKs2nALYz88OkVBOm5m0Y_DaAWrfcX5fOua4jwE=
+Cxo-IZ0xALFx3yHg6xTZ9Ip45Ia_NeyjxgO_25JrscYdrhY3DX8PEeeYfFj-GfCaUcao7FjHhGK=
+q5S0bAUTXCwtWud7JRtB9YW0uc0Zjn21VJkn_Hqvj52p22K5BdTm9XivB4zlBMPMG7gaAN8cLyb=
+RAgFT5uslgpScZl-PQKa7UbbjakkJSRflAqrKLdSv8if4AOiiLDQ ], but they=E2=80=99re=
+ a lot cheaper than they were a week ago), but you can also buy Ethereum an=
+d Solana NFTs with no gas fees, and soon, you=E2=80=99ll be able to buy sto=
+cks on FTX US.
+To get started on a safe, accessible investing platform, download the FTX U=
+S app on your phone [ https://email.mg2.substack.com/c/eJxFUE2PhCAM_TXD0UAF=
+Bw8c9jJ_wyBUh4hgsO7G_fWL42HTpk369fqes4RzLqfZ8k7sCgOdG5qEP3tEIizs2LEMwRvRgW6=
+V7Jk30gutNAv7MBXE1YZoqBzItmOMwVkKOX02OAfF3kZgx62CSWgYZac8RxRcSf1EZ8Uk2hvXHj=
+5gcmjwG8uZEzKX1xUTXadYNG-ibX-0Xw94VY8hLc0Ys1umHENu6myt9v53qwlx8lCNBQMcgCsBA=
+qQG3bQN9IhSdNKh077z6iH5OkOzH-NO1i3XIVZMyjTmEtJc28vbrhg_jUpwuL46UqBzwGTHiP7m=
+TreEHzWGGROWKq0fLFXhFLSqfwrdan1zrYyUVFzz9skqss91K_2D_gEHbIi_ ] or, for a mo=
+re advanced experience, try the newly redesigned FTX US web app [ https://e=
+mail.mg2.substack.com/c/eJxNkN9uhSAMxp9GLg3yR_GCiyXLXsMg9Cg5CgbKNt9-HE22JU3=
+TtGm_fj9rEJaYTn3EjOSVJjwP0AG-8gaIkEjJkCbvdNczxaUYidPCdUoq4vP0SAC78ZvGVIAcZd=
+68NehjuDYoZZKs2nALYz88OkVBOm5m0Y_DaAWrfcX5fOua4jwECxo-IZ0xALFx3yHg6xTZ9Ip45=
+Ia_NeyjxgO_25JrscYdrhY3DX8PEeeYfFj-GfCaUcao7FjHhGKq5S0bAUTXCwtWud7JRtB9YW0u=
+c0Zjn21VJkn_Hqvj52p22K5BdTm9XivB4zlBMPMG7gaAN8cLybRAgFT5uslgpScZl-PQKa7Ubbj=
+akkJSRflAqrKLdSv8if4AOiiLDQ ]. Make sure to use the code NOTBORING to get f=
+ree crypto when you trade over $10.
+Hi friends =F0=9F=91=8B,=20
+Happy Thursday! We weren=E2=80=99t planning on sending anything out today, =
+but then the market completely crumbled. It=E2=80=99s been a bloody, across=
+-the-board meltdown kind of week, but one meltdown in particular has captur=
+ed everyone=E2=80=99s attention: Terra.=20
+Specifically, Terra=E2=80=99s two native tokens, Luna (LUNA) and TerraUSD (=
+UST) were supposed to work in tandem to peg UST, the algorithmic stablecoin=
+, to a $1 price.=20
+It=E2=80=99s important that stablecoins are worth $1, because their whole p=
+oint is to be worth $1. When everything fluctuates wildly, people need some=
+thing they can use to reliably spend and transact. The world=E2=80=99s two =
+biggest stablecoins =E2=80=94 USDC and USDT =E2=80=94 are both backed by re=
+latively stable assets like dollars and bonds, that sit in a bank account, =
+$1 worth for every $1 worth of stablecoin. That=E2=80=99s the safer way to =
+do it (although whether Tether (USDT) is actually 100% doing it has been th=
+e subject of debate [ https://email.mg2.substack.com/c/eJxFkEGOhCAQRU_T7Npg=
+ATYuWPRmrmEQSiWtYLAc4-0H28UkhBB-VT14zhKOKZ9mTRuxa-voXNFEPLYZiTCzfcPcBW_qBrR=
+QsmXeSF9rpVnYuiEjLjbMhvKObN37OThLIcVvB-eg2GTsYLnQXINTakAlsNfKt9oOsuetFf7m2t=
+0HjA4N_mI-U0Tm0rJgpGsUm81EtG4P8X7AT1nHcVQ0XaUjVqWwXAE0wGUjy5GwZPnZW_cJcXy6f=
+K6U3J5zAZzPjWw_o0shsmCAA3BVQw1Sg65EBS2irBvp0GnfePWQfBmh2va-9LnPBWPZxER9ymV4=
+iT-TXXD-BsVAdz17j4HODuMF8rccuh1_dXUjRszFve8sFbMKhGpftRZa3zLKl5VUXHPxYoXsU-m=
+K_9A_IPaVtA ]).=20
+Algorithmic stablecoins, which are deeply undercollateralized, are a much r=
+iskier proposition, and many attempts at pulling it off have failed. It=E2=
+=80=99s just that none have gotten as big as UST, thanks to its charismatic=
+ founder Do Kwon [ https://email.mg2.substack.com/c/eJxFUEuO7CAMPE2zjPimyYL=
+FbOYaiICTRp1ABM5r5fYPOouRLFuWXS5XeYew5nKZI1ckPVm8DjAJPnUDRCjkrFBsDIaNXAslJx=
+KMDEwrTWK1SwHYXdwMlhPIcc5b9A5jTl8EpVyRl1l6ZYE66rWQ08I4nxYRRrmMMwvhefO6M0RIH=
+gz8g3LlBMTnfYeE_RTZzAvxqA_x8-C_LfAT-3dD22ldRTdv8P7kRKLhlHOqGGdcaq4HMfAJQLJR=
+evA6jEE9JN1XPtRzbjj_7jdIMSnjnEtMaxu_X26H7Ttommx_5EwRLwupE4VbLt6ufQ2wKyQozc1=
+gHTavFBdqejIttL7lNRFKKqqpeJLGHHJDpT_S_7l4hS4 ], whose twitter handle is lit=
+erally @stablekwon, and the ecosystem that Terra has built on top of its L1=
+=2E=20
+The fact that UST broke its peg to the dollar, and that LUNA is down from a=
+n all-time high of $119 to its current price of $0.09 is a big, big deal. I=
+t=E2=80=99s broken an already shaky market. And if you=E2=80=99re at all in=
+terested in crypto, you should understand what happened.=20
+So I=E2=80=99m bringing in my friend Jon Wu [ https://email.mg2.substack.co=
+m/c/eJxFkMuOwyAMRb-mLCPeoQsWs5nfQDzclGkCEXGmyt8PaRYjIUvIvr4-N3qEqbbDrnVDcha=
+Hxwq2wHubAREa2TdoLifLNDdCyTtJViZmlCF5c48GsPg8W2w7kHUPc44ecy0fBaVckacNXjPBpJ=
+ajNiIYyh8QgubSw0ONHsLl6_eUoUSw8AvtqAVIrMsCBc9VZLZPxHW7ia8b_-4P3_m8bugz_fdTy=
+3t3JFtOOaeKccal4WYQA78DSKZlhGiSTuom6TLxYdvDhj6-Tj1ptlQMteUy9fbr6ReYP43O484j=
+9pLxcFB8mCFdqHgl9oF3ExRoPcnkPPacFBfqPjIjjLnQOoCSihoqRtKdU-2q8m_6B9CYg-o ], =
+who has become of the the most popular follows on Crypto Twitter for, among=
+ other things, his simple and colorful explanations of really complex thing=
+s happening in DeFi. As I was getting up to speed, I leaned heavily on Jon=
+=E2=80=99s expertise, like I did for Who Disrupts the Disruptors? [ https:/=
+/email.mg2.substack.com/c/eJxFkE1uhDAMhU8z2Q3KLxMWWXTTa6CQuBANJCgxRdy-AdRWs=
+izZlv38PmcRxpQPs6aC5Ew9HiuYCHuZAREy2QrkPnjDWq6Fkh3xRnqmlSah9F8ZYLFhNpg3IOs2=
+zMFZDCleG5RyRSbDtRf-JVsGHAYO1Gk1tJIxpWDohIZb124-QHRg4BvykSIQl5YFIp6nyGwmxLU=
+8xMeDf9bY972JCYeUQxwbl2prPdtTevpQ8rZieeIEvwXkQoLhlHOqGGdcaq4b0fAOQLJWOnDat1=
+49JF1G3pRtKGjdu95dSDZ_OnX8nuwC8zWobvvzxS0GPHqIdpjB3yDw5nmh6UeIkCtn31usFBUXq=
+nsxLbS-jVd7SiqqqXiRquxT3Yr_oj9_6Y7c ] When he=E2=80=99s not tweeting or mak=
+ing me smarter, Jon runs growth at Aztec [ https://email.mg2.substack.com/c=
+/eJxFUMuOwyAM_JpyjIgDKRw47GV_AxFwUtQEInC2yn790uawkmXJGo3n4R3hkstp9lyJvZelc0=
+eT8FVXJMLCjorFxmD6EdQghWbBiNArqVisdi6Im4uroXIg249pjd5RzOnD4Bwke5gg9DyPPAgxI=
+zquYZRKg_BunLhSd33puiNETB4N_mA5c0Lm87ZhovcrtpoH0V5vw9cNvtu4X0LfJaRXLs92s2iA=
+A3DZQw9CgeqGDjSi6Efh0aswBnkTfFugq8dUyfln1_6zYlKmKZeYlgY_H27D9QO0LPZt4EiRTov=
+JTSuGKyZdbX2C2wUTltZisI5aRxIGqe-9GpS6YjXzUkiu-HBnTTnkxkr_on8-iYHl ], a priv=
+acy-first crypto network bringing cheap, private transactions to Ethereum.
+As this situation unfolded, Jon dropped the best explainer thread [ https:/=
+/email.mg2.substack.com/c/eJxFUEFuxCAMfM1yjIBAQg4ceuk3EAluljaBCExX-X2dzaGSh=
+WwNnhnP4hHWXE575IrsehyeB9gEr7oBIhTWKhQXgxWDNL1WEwtWBWG0YbG6rwKw-7hZLA3Y0eYt=
+Lh5jTu8NzqVmT8s5BC17acKoxsHIaRaG93LxQc8gJn3r-hYipAUs_EI5cwK25H2HhBcV2-wT8ai=
+P_uMhP6nwFS93Hf2h6TunV3PUVPTYKjWCBMepV0YazTmVIr9Wcim5FlLIC-j6Tk4ASgxqgcWEIe=
+iH4vsqu9pmYlp-LnpWbMo45xLTSvDP0--wvQE6110eW4p4Okh-3iDcSeAd6Dsbt0KCQkEH55FiJ=
+Gd6GoXpjbkvp_u00pwyGRkph0xb6V_0D6GsiuY ] on the situation. It=E2=80=99s now=
+ over 21.7k likes. I asked him to share an updated version here on Not Bori=
+ng to bring us up to speed. The situation is ongoing, so follow Jon [ https=
+://email.mg2.substack.com/c/eJxFkMuOwyAMRb-mLCPeoQsWs5nfQDzclGkCEXGmyt8PaRY=
+jIUvIvr4-N3qEqbbDrnVDchaHxwq2wHubAREa2TdoLifLNDdCyTtJViZmlCF5c48GsPg8W2w7kH=
+UPc44ecy0fBaVckacNXjPBpJajNiIYyh8QgubSw0ONHsLl6_eUoUSw8AvtqAVIrMsCBc9VZLZPx=
+HW7ia8b_-4P3_m8bugz_fdTy3t3JFtOOaeKccal4WYQA78DSKZlhGiSTuom6TLxYdvDhj6-Tj1p=
+tlQMteUy9fbr6ReYP43O484j9pLxcFB8mCFdqHgl9oF3ExRoPcnkPPacFBfqPjIjjLnQOoCSiho=
+qRtKdU-2q8m_6B9CYg-o ] to stay up on it.=20
+Let=E2=80=99s get to it.=20
+To the Moon and Back
+An $18 billion stablecoin is losing its dollar peg with all the magical cha=
+os of algorithmic stables, with a dash of Bitcoin systemic risk drama.
+Here's everything you need to know.
+$UST is a dollar-pegged stablecoin that depegged over the weekend and again=
+ on Monday, vacillating wildly but consistently below its $1.00. As of this=
+ writing it sits at around $0.50.
+A reminder on how $UST works:
+You can always redeem $LUNA for $UST dollar-for-dollar, and vice versa.
+If $LUNA is at $50, you can redeem it for 50 $UST.
+Similarly, you can redeem 50 $UST for 1 $LUNA.
+It's worth noting you can always redeem 1 $UST for 1 dollar worth of $LUNA,=
+ even if $UST is worth <$1.
+This part is confusing, but in English: =E2=80=9CWe promise to give you a d=
+ollar=E2=80=99s worth of something if you give us 1 $UST.=E2=80=9D (that so=
+mething, of course, being $LUNA).
+It's meant to be a stabilizing mechanism:
+If $UST is trading at $0.99, arbitrageurs can buy it and redeem it for $1 o=
+f $LUNA, pocketing $0.01. This is called the contraction phase, because dem=
+and for $UST is falling.
+Of course when $UST is trading at $1.01, arbitrageurs can do the inverse=E2=
+=80=93trade $1 of $LUNA for 1 $UST, and pocket $0.01. This is called the ex=
+pansion phase, because demand for $UST is expanding. Note that another form=
+ of arbitrage also exists=E2=80=93simply selling 1 $UST for $1.01 of $USDC.
+If you=E2=80=99re holding a dollar bill and someone says they=E2=80=99ll gi=
+ve you a dollar and a penny for it, you should probably, uh, sell it.
+But of course curtailing expansion is easier than fixing contraction. Why? =
+When expansion (=E2=80=9Ctoo much demand=E2=80=9D) occurs, $LUNA is burned =
+for $UST, reducing $LUNA supply.
+Assuming $LUNA demand stays fixed, $LUNA=E2=80=99s price goes up. Something=
+ something economics 101. It=E2=80=99s the downside that=E2=80=99s importan=
+t to protect, and the way to do that is giving people a reason to hold $UST=
+, or some kind of utility.
+Stablecoins Require Utility=E2=84=A2 to maintain demand and defend their pe=
+g.
+So where does $UST get utility?
+Simple, Anchor Protocol.
+Anchor Protocol is (nominally) a money market, but the important tl;dr is i=
+t pays you 19.5% to stake $UST. You can think of Anchor as a high-yield sav=
+ings account.
+After all, putting your money in a savings account is one way in which the =
+US dollar is useful. Of course it=E2=80=99s useful for many, many other thi=
+ngs like buying groceries, paying taxes, and making origami swans.
+A huge proportion of $UST's circulating supply has historically been in Anc=
+hor. Now of course, depositors are withdrawing at a rapid clip. As of a few=
+ days ago, Anchor had 14 billion+ UST in deposits, down now to around 3.3 b=
+illion UST (worth about $2 billion).
+So again: why hold $UST?
+Easy: because Anchor=E2=80=99s paying you 20% per year to hold it.
+Two obvious questions:
+1) if something is paying you 20% risk-free*, why not just borrow a ton of =
+money and make it pay you like, 100%+?
+Oh uhm, that's exactly what Abracadabra / $MIM's degenbox did, a recursive =
+borrow strategy that allowed people to borrow with 5x net leverage:
+Degenbox and the rest of the Frog Nation DeFi ecosystem unwound in January,=
+ depegging $UST and sending $LUNA from $100 down to $46.
+Sound kinda familiar?
+Something something history may not repeat itself but it can rhyme.
+2) How does one give out 20% in free money every year?
+Well that's also easy, it=E2=80=99s paid for by LFG (Luna Foundation Guard)=
+, overseers of Terra's multi-billion dollar ecosystem fund.
+We'll come back to them.
+First we need to figure out what the $LUNA token does:
+I'm not going to focus on what drives its fundamental value and focus inste=
+ad narrative:
+~Every $UST in circulation reduces the circulation of $LUNA~
+The win scenario is every single $LUNA on earth gets burned for $UST.
+You can see the basic appeal:
+The more $UST, the less $LUNA.
+Holders should want to diamond-hands $LUNA:
+If there's unstoppable demand for $UST and you're the last $LUNA holder on =
+earth, you have immense redemption power.
+It's right on their YouTube video:
+That's kind of why it doesn=E2=80=99t matter much whether $LUNA marketcap i=
+s lower than $UST marketcap.
+It doesn't matter what the total implied value of $LUNA is.
+What matters is the marginal value of each $LUNA that is redeemed for $UST,=
+ or vice versa, aka $LUNA's price.
+But what's even MORE important is the directionality and stability of $LUNA=
+'s price.
+It's a Big Motherfucking Problem if the average redemption price of $LUNA f=
+or $UST is high relative to $LUNA's current price.
+Let me slow that one down:
+$LUNA price high
+$LUNA burned, many $UST minted
+$LUNA's price fall
+$UST redeemed for many $LUNA
+That is bad mmkay? Allow me to illustrate using extremes.
+Say the price of $LUNA is $1 billion.
+Then someone could mint 1 billion $UST by burning a single $LUNA.
+Then let's say the price of $LUNA falls to $1 for no good reason.
+That same person could redeem their 1 billion UST for 1 billion $LUNA.
+So suddenly--again, for no good reason at all--there's a LOT more $LUNA in =
+circulation being dumped on the open market.
+This is--in essence--what's happening today.
+So now back to the Luna Foundation Guard:
+$UST has the same dynamics as many other algo-stables, except in addition t=
+o the "algo" part they also have LFG.
+In other words, UST is stabilized by:
+1) Contracts.
+2) The gigantic gravity well created by the size of Do Kwon's nuts.
+Previously the LFG was in charge of the Anchor bootstrapping strategy:
+Take treasury $LUNA, sell it, and fill up the Anchor Protocol Reserve (the =
+big slush fund that pays $UST stakers 20%).
+Every other L1 eco fund uses similar give-money-away-to-boostrap-the-ecosys=
+tem type strategies, just less directly.=C2=A0
+What=E2=80=99s the bet behind funding Anchor? IsN=E2=80=99t iT a PonZi?!
+Well, paying people to lock up $UST means that in the short-term:
+$LUNA is burned for $UST
+$UST is staked (taken out of circulation)
+$LUNA price goes up
+The LFG sells $LUNA into dollars at a higher basis to fund the Protocol Res=
+erve
+And, longer term:
+$UST takes off as a widely-used stable before LFG runs out of money
+$LUNA goes to the moon
+Everyone is happy
+Hence this tweet where Do Kwon confidently polls the audience before adding=
+ $300 million to Anchor=E2=80=99s reserves:
+Relative to Luna=E2=80=99s marketcap, $300 million was nothing at the time!
+Then in January, Abracadabra-MIM Degenbox collapsed.
+That implosion took down a big push for $UST to be used in a 10-figure cros=
+s-chain ecosystem headed by Daniele Sesta.
+That's when Jump, 3AC, and others piled into the $1 billion Luna OTC deal t=
+o buy Bitcoin. To be explicit, that meant LFG would sell $1 billion of Luna=
+ to market makers and use the proceeds to buy Bitcoin to use as collateral =
+against $UST.
+The story there?
+1) Get the Bitcoin gang on board (every cycle needs one billionaire to go h=
+ard for the King)
+2) Give redemptions a $UST -> $BTC offramp in addition to the existing $UST=
+ -> $LUNA one, giving folks a way to redeem $UST without accessing the Deat=
+h Spiral.
+To read about the Death Spiral,  What=E2=80=99s Happening Now, and the tl;d=
+r Summary:
+If you don=E2=80=99t already, you need to follow Jon on Twitter [ https://e=
+mail.mg2.substack.com/c/eJxFkMuOwyAMRb-mLCPeoQsWs5nfQDzclGkCEXGmyt8PaRYjIUv=
+Ivr4-N3qEqbbDrnVDchaHxwq2wHubAREa2TdoLifLNDdCyTtJViZmlCF5c48GsPg8W2w7kHUPc4=
+4ecy0fBaVckacNXjPBpJajNiIYyh8QgubSw0ONHsLl6_eUoUSw8AvtqAVIrMsCBc9VZLZPxHW7i=
+a8b_-4P3_m8bugz_fdTy3t3JFtOOaeKccal4WYQA78DSKZlhGiSTuom6TLxYdvDhj6-Tj1ptlQM=
+teUy9fbr6ReYP43O484j9pLxcFB8mCFdqHgl9oF3ExRoPcnkPPacFBfqPjIjjLnQOoCSihoqRtK=
+dU-2q8m_6B9CYg-o ] to keep up to date with crypto.
+Good luck out there. It helps to zoom out. I=E2=80=99m reading Carlo Rovell=
+i=E2=80=99s There Are Places In The World Where Rules Are Less Important Th=
+an Kindness [ https://email.mg2.substack.com/c/eJxNUsuq2zAQ_Zp4l6CnLS28uFAK=
+pZsuCu3OyNJcW1xZciU5Jv36TuyGFsRwZs680BlrKkwpP_o1ldo8zVAfK_QR9hKgVsjNViAP3vW=
+0ZYpLoRvXC0eVVI0vw3sGWIwPfc0bNOs2Bm9N9SkeFYQw2cw91UCBdWPrRikZcYIRDdCxTr2_a8=
+n5OddszkO00MMd8iNFaGxaFoj12aoJ_VzrWi787cI-49v3_WYW8zvFG6Zh4PsMGa7fgrFQrj9SD=
+u76ZVlTribW61cfXYRSMM-taIjUnGpG5c-z24WjbfHNd-O8u_BPuBZvueiEbPkRxx0xfMAIdUc8=
+HU428ZnfadF1rdRE6FYLqRH9LYvwqlvrnl7411Jf0MEdoT3x3S4uvJiQrI_1P2-dH-hpQqmm6gh=
+Wk6dj4TWYq-aEtpSTjhKB7FosErTxPSOMEUkZZUIxdeM3hgII2goLVrnWyYsgy8RuZRtLNfbj-a=
+dN7mOqY8o-Tkh_zGaBcBAo8_DUZou-PgaIZgzgzguo5yEdNzFMECHjgbnBVDwfybjUHVVcqVNx1=
+FUKSRThXYOTXcKq-G_oH9wF1FY ], and it=E2=80=99s wonderful.=20
+Thanks for reading, and see you on Monday,
+Packy
+
+Unsubscribe https://email.mg2.substack.com/c/eJxFklGPojAUhX-NPBJaKJYHHjY6OJ=
+hFd3dcR30hpb1iFVoGyjD466dosps0TXNu7j035ytnBkrdjnGjO-NMV27GBmIFQ1eBMdA6fQdtL=
+kWMQkx9EkSOiAOBKKGO7PJzC1AzWcWm7cFp-qKSnBmp1aPD8zBxLjEmBQk5FYKJOaO-x4vzGYUQ=
+QREC4oCfvqwXEhSHGD6hHbUCh-u6BmWmUU4VX4xpupn_Y4YTe4ZhcJU2hW6lKl2urcT4ZGwfQna=
+sqCB_bDbzE6NvoGb-EsY14ng_HnB1S6_6a3NNg-z-19u-DZKvortIoua0SMPN7jfKluWQ3XmX1t=
+VFWC3bHVF2zdB2x7-2i0Gyw-ZuZ0j-upc_dy9DtkxRKu0cfy8n_bSq7sf3dXfaR1XxnjTFYh256=
+1F_DfOPLTkMO3ogCfyqPt6y47hN5oe0fP1TrD8peEzVqxdHxtjD2CMIIxxQTF3fxRFAgMKAgw0z=
+FGQWeHWJ3a4vOsP4zaZQO238LxVbvl1YDdWjYNnkU6C9kmbMQU0JiSc286T_iCsvQUFrf4XImbH=
+MCfZJNEfUp_SJycIgAfGo588d6yy07VL_Tb8B4cnKbQ
+--305c0b2a900afe6e8488f67e8db218d7f3216e9e5af7cad90aacc11315e7
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>Terra: To the Moon and Back</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin-bottom: 16px;
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 16px 0 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-footer.use-separators {
+    margin: 0 -16px;
+    padding: 22px 0 4px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .subscribe-dialog .modal-table .modal-row .modal-content > .container {
+    width: 552px;
+    padding: 37px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .subscribe-dialog .modal-table .modal-row .modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .subscribe-dialog .modal-row .modal-cell .modal-exit-btn {
+    margin-right: -20px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f8f8f8 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 18px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (min-width: 631px) {
+  .sm\:tw-my-8 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .sm\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .sm\:tw-mt-0 {
+    margin-top: 0px !important;
+  }
+  .sm\:tw-ml-3 {
+    margin-left: 0.75rem !important;
+  }
+  .sm\:tw-mb-0 {
+    margin-bottom: 0px !important;
+  }
+  .sm\:tw-mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .sm\:tw-block {
+    display: block !important;
+  }
+  .sm\:tw-inline-block {
+    display: inline-block !important;
+  }
+  .sm\:tw-flex {
+    display: flex !important;
+  }
+  .sm\:tw-hidden {
+    display: none !important;
+  }
+  .sm\:tw-h-screen {
+    height: 100vh !important;
+  }
+  .sm\:tw-h-64 {
+    height: 16rem !important;
+  }
+  .sm\:tw-w-full {
+    width: 100% !important;
+  }
+  .sm\:tw-w-auto {
+    width: auto !important;
+  }
+  .sm\:tw-w-64 {
+    width: 16rem !important;
+  }
+  .sm\:tw-max-w-lg {
+    max-width: 32rem !important;
+  }
+  .sm\:tw-max-w-none {
+    max-width: none !important;
+  }
+  .sm\:tw-translate-y-0 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-95 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-100 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .sm\:tw-items-start {
+    align-items: flex-start !important;
+  }
+  .sm\:tw-gap-2 {
+    gap: 0.5rem !important;
+  }
+  .sm\:tw-gap-4 {
+    gap: 1rem !important;
+  }
+  .sm\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
+  }
+  .sm\:tw-border {
+    border-width: 1px !important;
+  }
+  .sm\:tw-p-0 {
+    padding: 0px !important;
+  }
+  .sm\:tw-p-6 {
+    padding: 1.5rem !important;
+  }
+  .sm\:tw-py-16 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+  .sm\:tw-px-6 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .sm\:tw-py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .sm\:tw-pb-4 {
+    padding-bottom: 1rem !important;
+  }
+  .sm\:tw-text-left {
+    text-align: left !important;
+  }
+  .sm\:tw-align-middle {
+    vertical-align: middle !important;
+  }
+  .sm\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .sm\:tw-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .sm\:tw-font-medium {
+    font-weight: 500 !important;
+  }
+  .sm\:tw-text-pub-secondary-text {
+    color: #767676 !important;
+  }
+  .sm\:tw-opacity-70 {
+    opacity: 0.7 !important;
+  }
+  .sm\:hover\:tw-opacity-100:hover {
+    opacity: 1 !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .md\:tw-bottom-4 {
+    bottom: 1rem !important;
+  }
+  .md\:tw-right-4 {
+    right: 1rem !important;
+  }
+  .md\:tw-block {
+    display: block !important;
+  }
+  .md\:tw-flex {
+    display: flex !important;
+  }
+  .md\:tw-pl-4 {
+    padding-left: 1rem !important;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwNTEyMTI0ODI4LjMuMjllZTQxNjRjZWM4ZDZkNUBtZzIuc3Vic3RhY2suY29tPiIsInUiOj=
+E2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvb=
+SIsInAiOjU0NTA4MDM3LCJ0IjoibmV3c2xldHRlciIsImEiOiJldmVyeW9uZSIsInMiOjEwMDI1=
+LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNjUyMzU5NzE4LCJ=
+pc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.NqhQKQzWxIJeKCNjLSEFbFtPvO8RAVBkimKMYi07Lt=
+Q" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !impo=
+rtant;width:1px !important;border-width:0 !important;margin-top:0 !importan=
+t;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !impor=
+tant;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !=
+important;padding-left:0 !important;"/><div style=3D"display:none;font-size=
+:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;o=
+verflow:hidden;" class=3D"preview">Jon Wu on What's Happening With Terra-Lu=
+na, UST, and the Broken Peg &#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;</div><table role=3D"presentation" width=3D"100%" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" class=3D"email-body-container"><tr><td></td><td =
+width=3D"550" class=3D"content"></td><td></td></tr><tr><td></td><td align=
+=3D"left" width=3D"550" class=3D"content"><div style=3D"font-size: 16px; li=
+ne-height: 26px; margin: 0 auto; max-width: 550px; overflow-wrap: break-wor=
+d; width: 100%;"><div markup=3D"" style=3D"font-size: 16px; line-height: 40=
+px; margin-bottom: 8px; text-align: right;"><a href=3D"https://email.mg2.su=
+bstack.com/c/eJxVkdtuhCAQhp9G7mp0ABcvuNik2dcwCLMuWQUDYxvfvug2PSSEwJy-P_9YQz=
+jFtOs1ZmLHNdC-og74mWckwsS2jGnwTrcdKC5Fz5wWrlVSMZ-He0JcjJ81pQ3Zuo2zt4Z8DGdH0=
+4BkD30xVoIFJfoSQWcVWHsfJQhpRyXG-4trNucxWNT4gWmPAZmNy4KBjlFs1g-iNVf8WsGtnLyN=
+mYx91qWofM26vs0-PMvzGFbx238tFX8_1VTQnbAzIoVsVMMvzGtoABrZQgtCgap5DT2iaDth0Sr=
+XOVmJZpmg_otlSYdIY0w-TCX9fJgF5zNR2MMhfgue9gGDGWd0L4vo5fRp2jBhwFQ24AZDxV8JXP=
+aXVnGl2LdK_aOxkF0sXeEX-gW6ApUG" class=3D"tw-font-body tw-text-ssm tw-text-s=
+ubstack-secondary" style=3D"color: rgb(102,102,102) !important; font-family=
+: SF Pro Text, -apple-system, BlinkMacSystemFont, Inter, Segoe UI, Roboto, =
+Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI S=
+ymbol !important; font-size: 13px !important;">Open in browser</a></div><di=
+v dir=3D"auto" class=3D"post typography" style=3D"font-size: 16px; line-hei=
+ght: 26px; padding: 9.6px 0;"><div class=3D"post-header" style=3D"font-size=
+: 16px; line-height: 26px;"><h1 class=3D"post-title short published" style=
+=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialias=
+ed; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 40px; font-weigh=
+t: bold; line-height: 130%; margin: 0.378em 0 0 0;"><a href=3D"https://emai=
+l.mg2.substack.com/c/eJxFUtGOojAU_Rp5g9BSoDzwMNHRwQwas47rzgsp7VWL0DJQhsGv36=
+rJbtL24dzcc27PuZwZOOtuSlvdG-f-FGZqIVUw9jUYA50z9NAVUqQowjQISeKIlAhEQ-rIvjh1A=
+A2TdWq6AZx2KGvJmZFaPTp8H4fOJY1jEpUhITGKYx_TOALAiGARMCHgVJZPXTYICYpDCt_QTVqB=
+w3XTgDJ3KqdOL8a0_Sx4meGlPeM4ekqbUndSnT2uLdTaawfumGu0ay7gNlorlynhloxfZ8HS6Cu=
+oWbCAaY04PkxHXF-zSv9sqozktw9_-2uUfJXcxDJpP-dZtNnvUL44j_mN91lTX4TF8v0flFc52u=
+75z3Y-Snbc3CyH5G8H-b5_HfNFhjJpeYKDfOB3vjmaPn8vK7Gqv0u5TrzrTr6utYzeWDwe5U4to=
+Xr_-NI7363m6hBvT7uF-Nq-rLjMHJliH2M_RBhhQjH1Ag8nAARFhAOnIhLhjPjNGXv9UPbG_tS6=
+0Thd-s8dW75eWAP1o2AzKu7GDkqaqQDFyhrEMz7z3IJHoMUZFHR2O0TBjM0-xEGYxIgGlD7jsqG=
+EJPSpH8SOVRbadqn_on8BhbnLng" style=3D"color: #1a1a1a; text-decoration: none=
+;">Terra: To the Moon and Back</a></h1><h3 class=3D"subtitle" style=3D"-moz=
+-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; colo=
+r: #767676; font-family: 'SF Compact Display', -apple-system, BlinkMacSyste=
+mFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji=
+', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 20px; font-weight: norma=
+l; line-height: 1.16em; margin: 4px 0 8px; margin-top: 8px;">Jon Wu on What=
+'s Happening With Terra-Luna, UST, and the Broken Peg</h3><table cellpaddin=
+g=3D"0" cellspacing=3D"0" class=3D"post-meta custom" style=3D"margin: 1em 0=
+;"><tr><td title=3D"2022-05-12T12:48:35.645Z" class=3D"post-meta-item post-=
+date" style=3D"color: #767676; font-family: -apple-system, BlinkMacSystemFo=
+nt, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 400; hei=
+ght: 14px; line-height: 100%; padding: 0px 12px 0px 0; padding-bottom: 0; p=
+adding-top: 0; position: relative; text-decoration: none; vertical-align: m=
+iddle; white-space: nowrap;"><time dateTime=3D"2022-05-12T12:48:35.645Z">Ma=
+y 12</time></td><td class=3D"post-meta-item icon" style=3D"color: #767676; =
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helveti=
+ca, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 14px; font-weight: 400; height: 14px; line-height: 100%; p=
+adding: 0px 12px 0px 0; padding-bottom: 0; padding-top: 0; position: relati=
+ve; text-decoration: none; text-indent: 3px; vertical-align: middle; white-=
+space: nowrap;"><span class=3D"post-meta-icon like-reaction-button"><a href=
+=3D"https://email.mg2.substack.com/c/eJxFUl2PmzAQ_DXhrcjYJsADD8mluUIaTqe7NM=
+29IGNvEvNhIzCh5NfXJFIrWbvyrnZmNbOcGbjobopb3RtnDrmZWogVjH0NxkDnDD10uRSxt8Qh8=
+WnkiJgKL_RDR_b5uQNomKxj0w3gtENRS86M1OoxgRD2nWtMmCDL4OyJgFNyjqKAYVQwKqIAI44K=
+_ORlg5CgOMRwg27SChyumwaUmaGcOr4a0_YLslrgrX3jOLpKm0J3Ul1crm2JtdLGm2fDDGjTY7V=
+vHTA-r7QgW6MrsHkDU-px_Gv6jesqKfWfrEzo_n5Abx-j5K_RXWyj9uslWWaf795-cxn3d94nKq=
+1PxwyxYzTYGUlbXCVylOy4RU-Mw2Qx_Oz-nf58SVtO9vJNpqM4Jmb_uRr35UHa-t3-5_r0ddyW4=
+rW-FTKNXNisM6J5rd5LP0Mbueq03IEp35tKwum2ztY_duk12Q3i5MgYI4yR72EP0xCHLnFxBEC9=
+JeXAQ7EU_oKi5oLdfih6w3hl9WmcLv6nl21XV9ZA_WhY1_JZ6kFJM-WgWFGDeBpqnnfx0DG_gIL=
+O3ovImbHX4GPiR4EXkjB8Gmht8qmPQkQCxzILbafUf9K_p63STQ" class=3D"like-button" =
+style=3D"color: #767676; display: block; text-decoration: none;"><img src=
+=3D"https://substackcdn.com/image/fetch/w_32,c_scale,f_png,q_auto:good,fl_p=
+rogressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D2%26=
+height%3D32%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" =
+width=3D"16" height=3D"16" style=3D"border: none !important; display: inlin=
+e-block; float: left; height: 14px; max-width: 16px; vertical-align: top; w=
+idth: auto;" alt=3D""></a></span></td><td class=3D"post-meta-item icon" sty=
+le=3D"color: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Sego=
+e UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI=
+ Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 400; height: 14px=
+; line-height: 100%; padding: 0px 12px 0px 0; padding-bottom: 0; padding-to=
+p: 0; position: relative; text-decoration: none; text-indent: 3px; vertical=
+-align: middle; white-space: nowrap;"><a class=3D"" href=3D"https://email.m=
+g2.substack.com/c/eJxFUk1vozAQ_TXhBsLmyxw4VEmTEpVG0abZbC_I2JPEBGwKppT8-jVkP=
+ySPD280783MG0Y1XFQ7Jo3qtDV9uR4bSCQMXQVaQ2v1HbS54AkKMfECP7Z44nNEAmKJLj-3ADUV=
+VaLbHqymLyrBqBZKzhWuiwPrmoS8QPR8LmJacIiYB-GZeB6wKI4JwTR66NKeC5AMEviCdlQSLKb=
+qGqSeqKwquWrddAvvaYHX5g3D4EilC9UKeXGYMlBjwjTcUlsrW1_BrpWSNpXcLii7meQfPkOy1u=
+oGcuGtYNwiho_jCVe3tFTfb2XqZ_d3d_djEGwT3_k6bj6Wafh22KNsdRmyO-vSurpyg2WHXygrM=
+7Q7sO_dchD09HY3HIK9HMXr4XnIVilKheHxjmLGJ74lGj9-rku-qb4KsY2d2148b5UIX2g0nMRe=
+rqF8ff9Ue9cul_IY7c77Ff_cPW2YSBc47HWdd6pvGZjeu77o9DzZjNfARV9PM02GWCLBLsZugDD=
+CPsHE8RwcA_go9BkwwkMeLHy3vmDnL4_ZYm21yb-tmvTtSmuo5oTxNp8W2EuhxxwkLSrgD9v143=
+pm3fwCElpzVTyn2txMgL0gjhDxCHnYbMwM_MAlrhdZRpkrUyX_i_4G5zTg2Q" style=3D"colo=
+r: #767676; display: block; text-decoration: none;"><img src=3D"https://sub=
+stackcdn.com/image/fetch/w_32,c_scale,f_png,q_auto:good,fl_progressive:stee=
+p/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D2%26height%3D32%=
+26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"16"=
+ height=3D"16" style=3D"border: none !important; display: inline-block; flo=
+at: left; height: 14px; max-width: 16px; vertical-align: top; width: auto;"=
+ alt=3D"Comment" class=3D"comment-icon post-meta-icon"></a></td><td class=
+=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; fo=
+nt-weight: 400; height: 14px; line-height: 100%; margin-right: 0; padding: =
+0px 12px 0px 0; padding-bottom: 0; padding-right: 0; padding-top: 0; positi=
+on: relative; text-decoration: none; text-indent: 3px; vertical-align: midd=
+le; white-space: nowrap;"><span><a href=3D"https://email.mg2.substack.com/c=
+/eJxNkl2PoyAUhn9NvdMoiMULLyY708R22k6y24-5MginlargIq5rf_1iu18JkPAcDgfe93Bm4a=
+rNlHW6t968FHbqIFMw9g1YC8YbejCFFFmUIIpJnHoii0VECfVkX1wMQMtkk1kzgNcNZSM5s1KrR=
+0YYIuJVGREQcyC0TNOYiTSKlilQF0MYlYAAPeuyQUhQHDL4AWbSCjyu2xaUna_ymqyytusX-GWB=
+Vm6M4xgobUttpLoGXDvUuekebJhvtW8r8Futlc-U8EvG6wVeDbYtej0YDgv82g9lb2eOkpm3IOT=
+QOv74zm_ItbLuAfPpihlwlPH5c_8Bq2uY9zCtI46O0xk1dX7TP3e3PN7eD-H-6yjZaRU-2WFyjO=
+zub_H7l3XH8Vbu5XoUp9xuv72M29tBOn53-wcv8S58P6-bz9MuZKd0yFUY2I_l-ngu-PKzv3_H1=
+VZd8pF9TPtDsjERSS79oU58ujlu6tyTGXIihyRCEYopogEOUAoQR4mzg1ORCLKIw_aKgj9iOCFb=
+z2R_hXXhumItNI-As7eYPRmUtFMBipUNiKfz9tlAD_GKKygwrrFEwaxrG4IwSZcRxZQ-nXZ-kpi=
+ENMRLz1UW2mWpf0V_AdQ14Fk" style=3D"color: #767676; display: block; text-dec=
+oration: none;"><img src=3D"https://substackcdn.com/image/fetch/w_32,c_scal=
+e,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%=
+2FLucideShare%3Fv%3D2%26height%3D32%26fill%3Dtransparent%26stroke%3D%252375=
+7575%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"border: none !i=
+mportant; display: inline-block; float: left; height: 14px; max-width: 16px=
+; vertical-align: top; width: auto;" alt=3D"Share" class=3D"recommend-icon =
+post-meta-icon"></a></span></td></tr></table></div></div><div dir=3D"auto" =
+class=3D"post typography" style=3D"font-size: 16px; line-height: 26px; padd=
+ing: 9.6px 0;"><div dir=3D"auto" class=3D"body markup" style=3D"font-size: =
+16px; line-height: 26px; margin-bottom: 12px; text-align: initial; width: 1=
+00%; word-break: break-word;"><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0 0 1em 0; margin-top: 0;"><em>Welcome to the&nb=
+sp;<strong>1,281&nbsp;newly Not Boring people&nbsp;</strong>who have joined=
+ us since Monday! If you haven&#8217;t subscribed, join&nbsp;<strong>122,02=
+5 </strong>smart, curious folks by subscribing here: </em></p><div class=3D=
+"subscribe-widget is-signed-up" style=3D"direction: ltr; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em;"><p class=3D"button-wrapper" style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; text-a=
+lign: center;"><a href=3D"https://email.mg2.substack.com/c/eJxFUV1vhCAQ_DXy=
+VqN8eNwDD02a-xsGYc8jJ2BwqfHfF7W1CSFhdndmmDUaYYxpU3NckOxXj9sMKsC6TIAIieQFUu-=
+sajsqmeB3YhW3rRSSuKV_JgCv3aQwZSBzHiZnNLoYjommoYK81I03xnDeSqCCM20YSLB39rQd64=
+bOtKeuztZBMKDgG9IWAxATvYeAOxWZ1AtxXir2WdFHOeu61iHiEJMLY21igZY8LCa5ASr2yOj7J=
+eZkyuNrp69ot2MerMu-YIfrX_BqvBg-VmdH-BsyMWDxURoEF41s2I04RRtKG9HSlnJJZc1qegfg=
+bccNGGk7Kyre-JHWOydq8y4ePUnq8lzK75f2MB2Fkly_fzcHh1sPQQ8T2DNUPHdzGO5HCJDKzmy=
+vsWxEUCbut1YyKc8QS1SXx6JsY5kK_6I_oRSo3w" class=3D"button primary subscribe-=
+btn" style=3D"background-color: #67bdfc; border: none; border-radius: 4px; =
+box-sizing: border-box; color: #ffffff !important; cursor: pointer; display=
+: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height: auto; l=
+ine-height: 20px; margin: 0; opacity: 1; outline: none; padding: 12px 20px;=
+ text-align: center; text-decoration: none !important; white-space: nowrap;=
+"><span style=3D"color: #ffffff; text-decoration: none;">Subscribe now</spa=
+n></a></p></div><div style=3D"font-size: 16px; line-height: 26px;"><hr styl=
+e=3D"background: #e5e5e5; border: none; height: 1px; margin: 25.6px 0; padd=
+ing: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0 0 1em 0;"><strong>Today&#8217;s Not Boring is brought to you =
+by&#8230; <a href=3D"https://email.mg2.substack.com/c/eJxNkN9uhSAMxp9GLg3yR=
+_GCiyXLXsMg9Cg5CgbKNt9-HE22JU3TtGm_fj9rEJaYTn3EjOSVJjwP0AG-8gaIkEjJkCbvdNcz=
+xaUYidPCdUoq4vP0SAC78ZvGVIAcZd68NehjuDYoZZKs2nALYz88OkVBOm5m0Y_DaAWrfcX5fOu=
+a4jwECxo-IZ0xALFx3yHg6xTZ9Ip45Ia_NeyjxgO_25JrscYdrhY3DX8PEeeYfFj-GfCaUcao7F=
+jHhGKq5S0bAUTXCwtWud7JRtB9YW0uc0Zjn21VJkn_Hqvj52p22K5BdTm9XivB4zlBMPMG7gaAN=
+8cLybRAgFT5uslgpScZl-PQKa7UbbjakkJSRflAqrKLdSv8if4AOiiLDQ" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">FTX US</a></strong></p><di=
+v class=3D"captioned-image-container-static" style=3D"font-size: 16px; line=
+-height: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"d=
+isplay: inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-w=
+rapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=
+=3D"text-align: center;"></td><td align=3D"left" class=3D"content" width=3D=
+"271" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blan=
+k" href=3D"https://email.mg2.substack.com/c/eJxNkN9uhSAMxp9GLg3yR_GCiyXLXsM=
+g9Cg5CgbKNt9-HE22JU3TtGm_fj9rEJaYTn3EjOSVJjwP0AG-8gaIkEjJkCbvdNczxaUYidPCdU=
+oq4vP0SAC78ZvGVIAcZd68NehjuDYoZZKs2nALYz88OkVBOm5m0Y_DaAWrfcX5fOua4jwECxo-I=
+Z0xALFx3yHg6xTZ9Ip45Ia_NeyjxgO_25JrscYdrhY3DX8PEeeYfFj-GfCaUcao7FjHhGKq5S0b=
+AUTXCwtWud7JRtB9YW0uc0Zjn21VJkn_Hqvj52p22K5BdTm9XivB4zlBMPMG7gaAN8cLybRAgFT=
+5uslgpScZl-PQKa7UbbjakkJSRflAqrKLdSv8if4AOiiLDQ" rel=3D"" style=3D"align-it=
+ems: center; border: none; display: block; flex-direction: column; height: =
+auto; margin: 0; padding: 0; text-decoration: none; width: auto;"><img data=
+-attrs=3D"{&quot;src&quot;:&quot;https://substackcdn.com/image/fetch/w_1456=
+,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e0=
+5bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7ab=
+b8fce-5e0d-4029-b9f9-58d8b387d6b1_271x62.png&quot;,&quot;fullscreen&quot;:n=
+ull,&quot;imageSize&quot;:null,&quot;height&quot;:62,&quot;width&quot;:271,=
+&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2767,&quot;alt&quot;:null,&q=
+uot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot=
+;:&quot;https://ftx.us/home/#a=3Dnotboringnewsletter&quot;}" alt=3D"" width=
+=3D"271" height=3D"62" class=3D"" src=3D"https://substackcdn.com/image/fetc=
+h/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbuck=
+eteer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimag=
+es%2F7abb8fce-5e0d-4029-b9f9-58d8b387d6b1_271x62.png" style=3D"-ms-interpol=
+ation-mode: bicubic; border: none !important; display: block; height: auto;=
+ margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-ali=
+gn: middle; width: auto !important;"></a></td><td style=3D"text-align: cent=
+er;"></td></tr></tbody></table></figure></div><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>If you&#8217;ve =
+been following crypto at all over the past year, or if you listen to Not Bo=
+ring Founders, you know <strong>FTX US</strong> and its founder, Sam Bankma=
+n-Fried (SBF).</em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;"><em>Simply put, FTX US is one of the <stron=
+g>most complete apps in crypto</strong>, and its trading platform has the <=
+strong>lowest fees in the industry</strong>. With FTX US, you can trade cry=
+pto with up to <strong>85% lower fees</strong> than any other exchange on t=
+he market. </em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;"><em>Of course, you can buy cryptocurrencies li=
+ke <strong>BTC, ETH, and SOL</strong> (don&#8217;t <a href=3D"https://email=
+=2Emg2.substack.com/c/eJxNkN9uhSAMxp9GLg3=
+yR_GCiyXLXsMg9Cg5CgbKNt9-HE22JU3TtGm=
+_fj9rEJaYTn3EjOSVJjwP0AG-8gaIkEjJkCbvdNczxaUYidPCdUoq4vP0SAC78ZvGVIAcZd68Ne=
+hjuDYoZZKs2nALYz88OkVBOm5m0Y_DaAWrfcX5fOua4jwECxo-IZ0xALFx3yHg6xTZ9Ip45Ia_N=
+eyjxgO_25JrscYdrhY3DX8PEeeYfFj-GfCaUcao7FjHhGKq5S0bAUTXCwtWud7JRtB9YW0uc0Zj=
+n21VJkn_Hqvj52p22K5BdTm9XivB4zlBMPMG7gaAN8cLybRAgFT5uslgpScZl-PQKa7UbbjakkJ=
+SRflAqrKLdSv8if4AOiiLDQ" rel=3D"" style=3D"color: #1a1a1a; text-decoration:=
+ underline;">look now</a>, but they&#8217;re a lot cheaper than they were a=
+ week ago), but you can also buy Ethereum and Solana <strong>NFTs with no g=
+as fees</strong>, and soon, you&#8217;ll be able to <strong>buy stocks on</=
+strong> <strong>FTX US</strong>.</em></p><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>To get started on a <=
+strong>safe</strong>, <strong>accessible</strong> investing platform, <a hr=
+ef=3D"https://email.mg2.substack.com/c/eJxFUE2PhCAM_TXD0UAFBw8c9jJ_wyBUh4hg=
+sO7G_fWL42HTpk369fqes4RzLqfZ8k7sCgOdG5qEP3tEIizs2LEMwRvRgW6V7Jk30gutNAv7MBX=
+E1YZoqBzItmOMwVkKOX02OAfF3kZgx62CSWgYZac8RxRcSf1EZ8Uk2hvXHj5gcmjwG8uZEzKX1x=
+UTXadYNG-ibX-0Xw94VY8hLc0Ys1umHENu6myt9v53qwlx8lCNBQMcgCsBAqQG3bQN9IhSdNKh0=
+77z6iH5OkOzH-NO1i3XIVZMyjTmEtJc28vbrhg_jUpwuL46UqBzwGTHiP7mTreEHzWGGROWKq0f=
+LFXhFLSqfwrdan1zrYyUVFzz9skqss91K_2D_gEHbIi_" rel=3D"" style=3D"color: #1a1=
+a1a; text-decoration: underline;">download the FTX US app on your phone</a>=
+ or</em>, <em>for a more</em> <em>advanced experience, try the <a href=3D"h=
+ttps://email.mg2.substack.com/c/eJxNkN9uhSAMxp9GLg3yR_GCiyXLXsMg9Cg5CgbKNt9=
+-HE22JU3TtGm_fj9rEJaYTn3EjOSVJjwP0AG-8gaIkEjJkCbvdNczxaUYidPCdUoq4vP0SAC78Z=
+vGVIAcZd68NehjuDYoZZKs2nALYz88OkVBOm5m0Y_DaAWrfcX5fOua4jwECxo-IZ0xALFx3yHg6=
+xTZ9Ip45Ia_NeyjxgO_25JrscYdrhY3DX8PEeeYfFj-GfCaUcao7FjHhGKq5S0bAUTXCwtWud7J=
+RtB9YW0uc0Zjn21VJkn_Hqvj52p22K5BdTm9XivB4zlBMPMG7gaAN8cLybRAgFT5uslgpScZl-P=
+QKa7UbbjakkJSRflAqrKLdSv8if4AOiiLDQ" rel=3D"" style=3D"color: #1a1a1a; text=
+-decoration: underline;">newly redesigned FTX US web app</a></em>. <em>Make=
+ sure to use the code <strong>NOTBORING</strong> to get free crypto when yo=
+u trade over $10.</em></p><p class=3D"button-wrapper" data-attrs=3D"{&quot;=
+url&quot;:&quot;https://ftx.us/home/#a=3Dnotboringnewsletter&quot;,&quot;te=
+xt&quot;:&quot;Start Trading in 3 Minutes with FTX US&quot;,&quot;action&qu=
+ot;:null,&quot;class&quot;:null}" style=3D"color: #1a1a1a; font-size: 16px;=
+ line-height: 26px; margin: 0 0 1em 0; text-align: center;"><a class=3D"but=
+ton primary" href=3D"https://email.mg2.substack.com/c/eJxNkN9uhSAMxp9GLg3yR=
+_GCiyXLXsMg9Cg5CgbKNt9-HE22JU3TtGm_fj9rEJaYTn3EjOSVJjwP0AG-8gaIkEjJkCbvdNcz=
+xaUYidPCdUoq4vP0SAC78ZvGVIAcZd68NehjuDYoZZKs2nALYz88OkVBOm5m0Y_DaAWrfcX5fOu=
+a4jwECxo-IZ0xALFx3yHg6xTZ9Ip45Ia_NeyjxgO_25JrscYdrhY3DX8PEeeYfFj-GfCaUcao7F=
+jHhGKq5S0bAUTXCwtWud7JRtB9YW0uc0Zjn21VJkn_Hqvj52p22K5BdTm9XivB4zlBMPMG7gaAN=
+8cLybRAgFT5uslgpScZl-PQKa7UbbjakkJSRflAqrKLdSv8if4AOiiLDQ" rel=3D"" style=
+=3D"background-color: #67bdfc; border: none; border-radius: 4px; box-sizing=
+: border-box; color: #ffffff !important; cursor: pointer; display: inline-b=
+lock; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, H=
+elvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol'; font-size: 16px; font-weight: normal; height: auto; line-height=
+: 20px; margin: 0; opacity: 1; outline: none; padding: 12px 20px; text-alig=
+n: center; text-decoration: none !important; white-space: nowrap;"><span st=
+yle=3D"color: #ffffff; text-decoration: none;">Start Trading in 3 Minutes w=
+ith FTX US</span></a></p><div style=3D"font-size: 16px; line-height: 26px;"=
+><hr style=3D"background: #e5e5e5; border: none; height: 1px; margin: 25.6p=
+x 0; padding: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;">Hi friends &#128075;, </p><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Happy T=
+hursday! We weren&#8217;t planning on sending anything out today, but then =
+the market completely crumbled. It&#8217;s been a bloody, across-the-board =
+meltdown kind of week, but one meltdown in particular has captured everyone=
+&#8217;s attention: <strong>Terra</strong>. </p><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Specifically, Terr=
+a&#8217;s two native tokens, Luna (LUNA) and TerraUSD (UST) were supposed t=
+o work in tandem to peg UST, the algorithmic stablecoin, to a $1 price. </p=
+><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 =
+0 1em 0;">It&#8217;s important that stablecoins are worth $1, because their=
+ whole point is to be worth $1. When everything fluctuates wildly, people n=
+eed something they can use to reliably spend and transact. The world&#8217;=
+s two biggest stablecoins &#8212; USDC and USDT &#8212; are both backed by =
+relatively stable assets like dollars and bonds, that sit in a bank account=
+, $1 worth for every $1 worth of stablecoin. That&#8217;s the safer way to =
+do it (although whether Tether (USDT) is actually 100% doing it has been th=
+e <a href=3D"https://email.mg2.substack.com/c/eJxFkEGOhCAQRU_T7NpgATYuWPRmr=
+mEQSiWtYLAc4-0H28UkhBB-VT14zhKOKZ9mTRuxa-voXNFEPLYZiTCzfcPcBW_qBrRQsmXeSF9r=
+pVnYuiEjLjbMhvKObN37OThLIcVvB-eg2GTsYLnQXINTakAlsNfKt9oOsuetFf7m2t0HjA4N_mI=
+-U0Tm0rJgpGsUm81EtG4P8X7AT1nHcVQ0XaUjVqWwXAE0wGUjy5GwZPnZW_cJcXy6fK6U3J5zAZ=
+zPjWw_o0shsmCAA3BVQw1Sg65EBS2irBvp0GnfePWQfBmh2va-9LnPBWPZxER9ymV4iT-TXXD-B=
+sVAdz17j4HODuMF8rccuh1_dXUjRszFve8sFbMKhGpftRZa3zLKl5VUXHPxYoXsU-mK_9A_IPaV=
+tA" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">subject =
+of debate</a>). </p><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;">Algorithmic stablecoins, which are deeply unde=
+rcollateralized, are a much riskier proposition, and many attempts at pulli=
+ng it off have failed. It&#8217;s just that none have gotten as big as UST,=
+ thanks to its charismatic founder <a href=3D"https://email.mg2.substack.co=
+m/c/eJxFUEuO7CAMPE2zjPimyYLFbOYaiICTRp1ABM5r5fYPOouRLFuWXS5XeYew5nKZI1ckPVm=
+8DjAJPnUDRCjkrFBsDIaNXAslJxKMDEwrTWK1SwHYXdwMlhPIcc5b9A5jTl8EpVyRl1l6ZYE66r=
+WQ08I4nxYRRrmMMwvhefO6M0RIHgz8g3LlBMTnfYeE_RTZzAvxqA_x8-C_LfAT-3dD22ldRTdv8=
+P7kRKLhlHOqGGdcaq4HMfAJQLJRevA6jEE9JN1XPtRzbjj_7jdIMSnjnEtMaxu_X26H7Ttommx_=
+5EwRLwupE4VbLt6ufQ2wKyQozc1gHTavFBdqejIttL7lNRFKKqqpeJLGHHJDpT_S_7l4hS4" re=
+l=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Do Kwon</a>, w=
+hose twitter handle is literally @stablekwon, and the ecosystem that Terra =
+has built on top of its L1. </p><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em 0;">The fact that UST broke its peg to=
+ the dollar, and that LUNA is down from an all-time high of $119 to its cur=
+rent price of $0.09 is a big, big deal. It&#8217;s broken an already shaky =
+market. And if you&#8217;re at all interested in crypto, you should underst=
+and what happened. </p><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;">So I&#8217;m bringing in my friend <a href=
+=3D"https://email.mg2.substack.com/c/eJxFkMuOwyAMRb-mLCPeoQsWs5nfQDzclGkCEX=
+Gmyt8PaRYjIUvIvr4-N3qEqbbDrnVDchaHxwq2wHubAREa2TdoLifLNDdCyTtJViZmlCF5c48Gs=
+Pg8W2w7kHUPc44ecy0fBaVckacNXjPBpJajNiIYyh8QgubSw0ONHsLl6_eUoUSw8AvtqAVIrMsC=
+Bc9VZLZPxHW7ia8b_-4P3_m8bugz_fdTy3t3JFtOOaeKccal4WYQA78DSKZlhGiSTuom6TLxYdv=
+Dhj6-Tj1ptlQMteUy9fbr6ReYP43O484j9pLxcFB8mCFdqHgl9oF3ExRoPcnkPPacFBfqPjIjjL=
+nQOoCSihoqRtKdU-2q8m_6B9CYg-o" rel=3D"" style=3D"color: #1a1a1a; text-decor=
+ation: underline;">Jon Wu</a>, who has become of the the most popular follo=
+ws on Crypto Twitter for, among other things, his simple and colorful expla=
+nations of really complex things happening in DeFi. As I was getting up to =
+speed, I leaned heavily on Jon&#8217;s expertise, like I did for <em><a hre=
+f=3D"https://email.mg2.substack.com/c/eJxFkE1uhDAMhU8z2Q3KLxMWWXTTa6CQuBANJ=
+CgxRdy-AdRWsizZlv38PmcRxpQPs6aC5Ew9HiuYCHuZAREy2QrkPnjDWq6Fkh3xRnqmlSah9F8Z=
+YLFhNpg3IOs2zMFZDCleG5RyRSbDtRf-JVsGHAYO1Gk1tJIxpWDohIZb124-QHRg4BvykSIQl5Y=
+FIp6nyGwmxLU8xMeDf9bY972JCYeUQxwbl2prPdtTevpQ8rZieeIEvwXkQoLhlHOqGGdcaq4b0f=
+AOQLJWOnDat149JF1G3pRtKGjdu95dSDZ_OnX8nuwC8zWobvvzxS0GPHqIdpjB3yDw5nmh6UeIk=
+Ctn31usFBUXqnsxLbS-jVd7SiqqqXiRquxT3Yr_oj9_6Y7c" rel=3D"" style=3D"color: #=
+1a1a1a; text-decoration: underline;">Who Disrupts the Disruptors?</a></em> =
+When he&#8217;s not tweeting or making me smarter, Jon runs growth at <a hr=
+ef=3D"https://email.mg2.substack.com/c/eJxFUMuOwyAM_JpyjIgDKRw47GV_AxFwUtQE=
+InC2yn790uawkmXJGo3n4R3hkstp9lyJvZelc0eT8FVXJMLCjorFxmD6EdQghWbBiNArqVisdi6=
+Im4uroXIg249pjd5RzOnD4Bwke5gg9DyPPAgxIzquYZRKg_BunLhSd33puiNETB4N_mA5c0Lm87=
+ZhovcrtpoH0V5vw9cNvtu4X0LfJaRXLs92s2iAA3DZQw9CgeqGDjSi6Efh0aswBnkTfFugq8dUy=
+fln1_6zYlKmKZeYlgY_H27D9QO0LPZt4EiRTovJTSuGKyZdbX2C2wUTltZisI5aRxIGqe-9GpS6=
+YjXzUkiu-HBnTTnkxkr_on8-iYHl" rel=3D"" style=3D"color: #1a1a1a; text-decora=
+tion: underline;">Aztec</a>, a privacy-first crypto network bringing cheap,=
+ private transactions to Ethereum.</p><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;">As this situation unfolded, =
+Jon dropped the best <a href=3D"https://email.mg2.substack.com/c/eJxFUEFuxC=
+AMfM1yjIBAQg4ceuk3EAluljaBCExX-X2dzaGShWwNnhnP4hHWXE575IrsehyeB9gEr7oBIhTWK=
+hQXgxWDNL1WEwtWBWG0YbG6rwKw-7hZLA3Y0eYtLh5jTu8NzqVmT8s5BC17acKoxsHIaRaG93Lx=
+Qc8gJn3r-hYipAUs_EI5cwK25H2HhBcV2-wT8aiP_uMhP6nwFS93Hf2h6TunV3PUVPTYKjWCBMe=
+pV0YazTmVIr9Wcim5FlLIC-j6Tk4ASgxqgcWEIeiH4vsqu9pmYlp-LnpWbMo45xLTSvDP0--wvQ=
+E6110eW4p4Okh-3iDcSeAd6Dsbt0KCQkEH55FiJGd6GoXpjbkvp_u00pwyGRkph0xb6V_0D6Gsi=
+uY" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">explaine=
+r thread</a> on the situation. It&#8217;s now over 21.7k likes. I asked him=
+ to share an updated version here on Not Boring to bring us up to speed. Th=
+e situation is ongoing, so <a href=3D"https://email.mg2.substack.com/c/eJxF=
+kMuOwyAMRb-mLCPeoQsWs5nfQDzclGkCEXGmyt8PaRYjIUvIvr4-N3qEqbbDrnVDchaHxwq2wHu=
+bAREa2TdoLifLNDdCyTtJViZmlCF5c48GsPg8W2w7kHUPc44ecy0fBaVckacNXjPBpJajNiIYyh=
+8QgubSw0ONHsLl6_eUoUSw8AvtqAVIrMsCBc9VZLZPxHW7ia8b_-4P3_m8bugz_fdTy3t3JFtOO=
+aeKccal4WYQA78DSKZlhGiSTuom6TLxYdvDhj6-Tj1ptlQMteUy9fbr6ReYP43O484j9pLxcFB8=
+mCFdqHgl9oF3ExRoPcnkPPacFBfqPjIjjLnQOoCSihoqRtKdU-2q8m_6B9CYg-o" rel=3D"" s=
+tyle=3D"color: #1a1a1a; text-decoration: underline;">follow Jon</a> to stay=
+ up on it. </p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0 0 1em 0;">Let&#8217;s get to it. </p><div style=3D"font-size:=
+ 16px; line-height: 26px;"><hr style=3D"background: #e5e5e5; border: none; =
+height: 1px; margin: 25.6px 0; padding: 0;"></div><h1 style=3D"-moz-osx-fon=
+t-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a=
+1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, '=
+Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Sego=
+e UI Emoji', 'Segoe UI Symbol'; font-size: 2em; font-weight: bold; line-hei=
+ght: 1.16em; margin: 1em 0 0.625em 0;"><strong>To the Moon and Back</strong=
+></h1><div class=3D"captioned-image-container-static" style=3D"font-size: 1=
+6px; line-height: 26px; margin-bottom: 16px; text-align: center;"><figure s=
+tyle=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=
+=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><t=
+r><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"conten=
+t" width=3D"1200" style=3D"text-align: center;"><a class=3D"image-link" tar=
+get=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJxFUtuu3CAM_JrlLRH=
+XBB7ycFSpv4G4OFm0CaRAznb79SWJqkrIHtl4xrLtTIUl5c-0p1LRaXT97DBFeJcVaoWMjgJZBz=
+-RgUomuEJ-4p5IIVEoes4AmwnrVPMBaD_sGpypIcWrAmMq0HMiViivQDlvZia9s1xi64BQxwGYx=
+LeuOXyA6GCCb8ifFAG5tG0Q60mF1ulZ614e7OtBf7ZXDluqcS_nY9_-tUjYzALNz1Dds_m3JlwM=
+D_rD6TVsoTY0N5GaGvh1A_a1pOTPxKr3nJYMpYRvaPFSAfZGcotSccqKU7gZe7gXtHzuAAtrneS=
+dNYZ1nI3QKUFkZ7xl1MI4Ksn7wnqzmT8pmne5W20c96QuePVdLgjYCTsDdGyeacexalTcjp3EmH=
+gyWseJ0oRi_HvAuN_jgsJEMaVYEEool1T2rKcKgJOBO3DSD148ON4W2v8b2NkCylNM1aYc4tLSr=
+6fZYL0SrS99jv2IoX40RGNX8Pdy630j17r1AhFyux2vTW2XISgTaiSSSXkvs61McIElZiNqyj61=
+qvhf9C-FtM5_" rel=3D"" style=3D"align-items: center; border: none; display:=
+ block; flex-direction: column; height: auto; margin: 0; padding: 0; text-d=
+ecoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;ht=
+tps://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_prog=
+ressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.=
+s3.amazonaws.com%2Fpublic%2Fimages%2Fe0c5bfee-3ff2-4098-a4b7-8001d17bc419_1=
+200x600.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&q=
+uot;height&quot;:600,&quot;width&quot;:1200,&quot;resizeWidth&quot;:null,&q=
+uot;bytes&quot;:161034,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;ty=
+pe&quot;:&quot;image/png&quot;,&quot;href&quot;:null}" alt=3D"" width=3D"55=
+0" height=3D"275" class=3D"wide-image" src=3D"https://substackcdn.com/image=
+/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2=
+Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2=
+Fimages%2Fe0c5bfee-3ff2-4098-a4b7-8001d17bc419_1200x600.png" style=3D"-ms-i=
+nterpolation-mode: bicubic; border: none !important; display: block; height=
+: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; verti=
+cal-align: middle; width: auto !important;"></a></td><td style=3D"text-alig=
+n: center;"></td></tr></tbody></table></figure></div><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">An $18 billio=
+n stablecoin is losing its dollar peg with all the magical chaos of algorit=
+hmic stables, with a dash of Bitcoin systemic risk drama.</p><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Here'=
+s everything you need to know.</p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;"><strong>$UST</strong> is a dolla=
+r-pegged stablecoin that depegged over the weekend and again on Monday, vac=
+illating wildly but consistently below its $1.00. As of this writing it sit=
+s at around $0.50.</p><div class=3D"captioned-image-container-static" style=
+=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: ce=
+nter;"><figure style=3D"display: inline-block; margin: 0 auto; width: 100%;=
+"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6=
+em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" c=
+lass=3D"content" width=3D"1456" style=3D"text-align: center;"><a class=3D"i=
+mage-link" target=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJxFU=
+tuOnDAM_ZrhDZQrmAceVpX6G1EuhokWEjYJO51-fQO0qhQ5R3bsc2Lb6oJLTO9pj7k0p1HlveMU=
+8JVXLAVTc2RMyruJ9gy4FGPjJuEoSGh8VnNC3LRfp5IObPbDrN7q4mO4MghhsnlOPRWC9TA6QSn=
+MM3A7E0mkgMHgAD3cvPpwHoPFCb8xvWPAxsZtw1DOUs06PUvZ84N_PNjPevJhctH207rQ1XfV4z=
+e9YL1nLPZZ75eiQvYP9sOq1W--VDRXkhIr-LoB_1hidGdgVXuKS8Kc_TdWfy6Iey1ykzJ50sqTu=
+Bpz2E-s8dQikcZYEK3RmreCD9iOkkKrneGs_m0YQXSZd3rTv2PQr3xLrTXuTl3w0p0vKBkAs7Ns=
+kQ1jKyz2rRmdaTXAbC0diCFMUdn3v0ZBuj0sjZ8YYYxIyigTwKDjHRsRBe1rtgXXO_kQZFtY969=
+hp4QmTSEWE5MPSw1_PvWG6xWoutTZ9iP48lYYtFnR3cMt945c41YLBkx1d5zSpW6GZFyOAwUOf4=
+dZRyaFJED40FRmF2tW-E_6B1sTzQw" rel=3D"" style=3D"align-items: center; borde=
+r: none; display: block; flex-direction: column; height: auto; margin: 0; p=
+adding: 0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;s=
+rc&quot;:&quot;https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_=
+auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9=
+518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F52882cf5-e279-4ce6-b9=
+db-a88fcc170b02_1566x940.png&quot;,&quot;fullscreen&quot;:null,&quot;imageS=
+ize&quot;:null,&quot;height&quot;:874,&quot;width&quot;:1456,&quot;resizeWi=
+dth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot=
+;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"550"=
+ height=3D"330.1510989010989" class=3D"wide-image" src=3D"https://substackc=
+dn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/h=
+ttps%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.co=
+m%2Fpublic%2Fimages%2F52882cf5-e279-4ce6-b9db-a88fcc170b02_1566x940.png" st=
+yle=3D"-ms-interpolation-mode: bicubic; border: none !important; display: b=
+lock; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !impo=
+rtant; vertical-align: middle; width: auto !important;"></a></td><td style=
+=3D"text-align: center;"></td></tr></tbody></table></figure></div><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>A reminder on how $UST works:</p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;">You can always redeem <strong>$L=
+UNA</strong> for $UST dollar-for-dollar, and vice versa.</p><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">If $LU=
+NA is at $50, you can redeem it for 50 $UST.</p><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Similarly, you can=
+ redeem 50 $UST for 1 $LUNA.</p><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em 0;">It's worth noting you can always r=
+edeem 1 $UST for 1 dollar worth of $LUNA, even if $UST is worth &lt;$1.</p>=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0=
+ 1em 0;">This part is confusing, but in English: <strong>&#8220;We promise =
+to give you a dollar&#8217;s worth of something if you give us 1 $UST.&#822=
+1; (that something, of course, being $LUNA).</strong></p><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">It's mean=
+t to be a <strong>stabilizing mechanism</strong>:</p><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">If $UST is tr=
+ading at $0.99, arbitrageurs can buy it and redeem it for $1 of $LUNA, pock=
+eting $0.01. This is called the contraction phase, because demand for $UST =
+is falling.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0 0 1em 0;">Of course when $UST is trading at $1.01, arbitrageu=
+rs can do the inverse&#8211;trade $1 of $LUNA for 1 $UST, and pocket $0.01.=
+ This is called the expansion phase, because demand for $UST is expanding. =
+Note that another form of arbitrage also exists&#8211;simply selling 1 $UST=
+ for $1.01 of $USDC.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;">If you&#8217;re holding a dollar bill and =
+someone says they&#8217;ll give you a dollar and a penny for it, you should=
+ probably, uh, sell it.</p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">But of course curtailing expansion is e=
+asier than fixing contraction. Why? When expansion (&#8220;too much demand&=
+#8221;) occurs, $LUNA is burned for $UST, reducing $LUNA supply.</p><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;=
+">Assuming $LUNA demand stays fixed, $LUNA&#8217;s price goes up. Something=
+ something economics 101. It&#8217;s the downside that&#8217;s important to=
+ protect, and the way to do that is giving people a reason to hold $UST, or=
+ some kind of utility.</p><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;"><strong>Stablecoins Require Utility</str=
+ong>&#8482; to maintain demand and defend their peg.</p><p style=3D"color: =
+#1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">So where d=
+oes $UST get utility?</p><p style=3D"color: #1a1a1a; font-size: 16px; line-=
+height: 26px; margin: 0 0 1em 0;">Simple, <strong>Anchor Protocol</strong>.=
+</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0;">Anchor Protocol is (nominally) a money market, but the importa=
+nt tl;dr is it <strong>pays you 19.5% to stake $UST</strong>. You can think=
+ of Anchor as a <strong>high-yield savings account</strong>.</p><p style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Af=
+ter all, putting your money in a savings account is one way in which the US=
+ dollar is useful. Of course it&#8217;s useful for many, many other things =
+like buying groceries, paying taxes, and making origami swans.</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>A huge proportion of $UST's circulating supply has historically been in An=
+chor. Now of course, depositors are withdrawing at a rapid clip. As of a fe=
+w days ago, Anchor had 14 billion+ UST in deposits, down now to around 3.3 =
+billion UST (worth about $2 billion).</p><div class=3D"captioned-image-cont=
+ainer-static" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 1=
+6px; text-align: center;"><figure style=3D"display: inline-block; margin: 0=
+ auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-p=
+adding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td=
+><td align=3D"left" class=3D"content" width=3D"1456" style=3D"text-align: c=
+enter;"><a class=3D"image-link" target=3D"_blank" href=3D"https://email.mg2=
+=2Esubstack.com/c/eJxFUtuu3CAM_JrlLRHXBB7=
+ycFSpv4G4OFm0CaRAznb79SWJqkrIHtl4xrL=
+tTIUl5c-0p1LRaXT97DBFeJcVaoWMjgJZBz-RgUomuEJ-4p5IIVEoes4AmwnrVPMBaD_sGpypIc=
+WrAmMq0HOaOTcjsUax2SkYGJsbjcJOGDoyYsZb1xw-QHQwwTfkT4qAXNo2iPWkQuv0rHUvD_b1o=
+D_bK4ct1biX87Fv_1okbGaB5meo7tn8WxMuhgf94fQatlAbmptITQ38ugH7WlLyZ2LVe05LhlLC=
+N7R4qQB7I7lFqThlxSncjD3cC1o-d4CFtU7yzhrDOs5G6JQgsjPeMmphHJXkfWG92cyfFM273K0=
+2jntSF7z6LhecBzwoK3FnlOId93bsJHGmG7AfsFWEYjtoIkb-W1LZ73FBYaKYUiwIJZSfQdZTBc=
+DJwB046QcvHhxvC-3_DexsAeUppmpTDnFp6dfTbLBeidaXPsd-xFA_GqKxK_h7ufW-kWvdeoEIu=
+d2O16a2yxCUCTUSyaS8l9lWJrjAErMRNWWfWlX8L_oXRPLNIw" rel=3D"" style=3D"align-=
+items: center; border: none; display: block; flex-direction: column; height=
+: auto; margin: 0; padding: 0; text-decoration: none; width: auto;"><img da=
+ta-attrs=3D"{&quot;src&quot;:&quot;https://substackcdn.com/image/fetch/w_14=
+56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-=
+e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff=
+6069b80-a994-4db7-81ca-60d60b9120b6_1574x828.png&quot;,&quot;fullscreen&quo=
+t;:null,&quot;imageSize&quot;:null,&quot;height&quot;:766,&quot;width&quot;=
+:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:n=
+ull,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" al=
+t=3D"" width=3D"550" height=3D"289.3543956043956" class=3D"wide-image" src=
+=3D"https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be=
+77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff6069b80-a994-4db7-81ca-60d60b91=
+20b6_1574x828.png" style=3D"-ms-interpolation-mode: bicubic; border: none !=
+important; display: block; height: auto; margin: 0 auto; margin-bottom: 0; =
+max-width: 100% !important; vertical-align: middle; width: auto !important;=
+"></a></td><td style=3D"text-align: center;"></td></tr></tbody></table></fi=
+gure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0 0 1em 0;">So again: why hold $UST?</p><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Easy: because Anch=
+or&#8217;s paying you 20% per year to hold it.</p><p style=3D"color: #1a1a1=
+a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Two obvious ques=
+tions:</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0;">1) if something is paying you 20% risk-free*, why not ju=
+st borrow a ton of money and make it pay you like, 100%+?</p><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Oh uh=
+m, that's exactly what Abracadabra / $MIM's degenbox did, a recursive borro=
+w strategy that allowed people to borrow with 5x net leverage:</p><div clas=
+s=3D"tweet" style=3D"background: #fff; border: 1px solid #e1e8ed; border-ra=
+dius: 5px; direction: ltr; display: block; font: normal normal 16px/1.4 Hel=
+vetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-heig=
+ht: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20p=
+x;"><a href=3D"https://email.mg2.substack.com/c/eJxFkcFuwyAMhp8mHCtwICEHDtP=
+aatIumzbtGlFwUtaERMRp1bcfaQ-TELIx_n_z4SxhP6W7maeF2La1dJ_RRLwtAxJhYuuCqQ3eiA=
+p0qWTDvJFeaKVZWNouIY42DIbSimxeT0NwlsIUHx2cg2JnU_Ou81B1XIIW22HjhFXSVZ1ubJZ9-=
+trVB4wODV4x3aeIzE3jiJE2KTaYM9G8FOVLAce86Ba26Xb5Ts5-bzb2WqgcLmRpXXIgpFINrxQ0=
+vK5VLZSui_KYFfbAC6goB2PSb5_vr4d0-wnXL9jHQ_r-eGHBAAfgSoAAqUHvyh00iFJU0qHTvvK=
+qkHzsYbesp-znLtsYLJk40WlKIfa5fDnbEYdHIWNpt7esMdC9xWhPA_onMXqCfzBse4yY8of41l=
+LGraBUTS10qfWTUOagpOKalzXLzn7KXfHf9A-wkpY1" target=3D"_blank" rel=3D"" styl=
+e=3D"color: black; display: block; text-decoration: none; white-space: pre-=
+wrap;"><div class=3D"tweet-header" style=3D"display: block; font-size: 16px=
+; line-height: 1.2; margin-bottom: 14px; text-decoration: none;"><img class=
+=3D"tweet-user-avatar" src=3D"https://substackcdn.com/image/twitter_name/w_=
+36/jwang815.jpg" alt=3D"Twitter avatar for @jwang815" style=3D"-ms-interpol=
+ation-mode: bicubic; border: none !important; border-radius: 50%; display: =
+block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 100%; verti=
+cal-align: middle; width: 36px;"><span class=3D"tweet-author-name" style=3D=
+"color: #1c2022; display: block; font-weight: 700;">Jason Wang &#127766; </=
+span><span class=3D"tweet-author" style=3D"color: #697882; display: block; =
+font-size: 14px;">@jwang815</span></div>Assuming 8 loops and 90% of borrowi=
+ng allowed against aUST in each loop and assuming Anchor is paying 20% APY,=
+ the Degenbox should yield 113.906% APY.</a><a href=3D"https://email.mg2.su=
+bstack.com/c/eJxFkcFuwyAMhp8mHCtwICEHDtPaatIumzbtGlFwUtaERMRp1bcfaQ-TELIx_n=
+_z4SxhP6W7maeF2La1dJ_RRLwtAxJhYuuCqQ3eiAp0qWTDvJFeaKVZWNouIY42DIbSimxeT0Nwl=
+sIUHx2cg2JnU_Ou81B1XIIW22HjhFXSVZ1ubJZ9-trVB4wODV4x3aeIzE3jiJE2KTaYM9G8FOVL=
+Ace86Ba26Xb5Ts5-bzb2WqgcLmRpXXIgpFINrxQ0vK5VLZSui_KYFfbAC6goB2PSb5_vr4d0-wn=
+XL9jHQ_r-eGHBAAfgSoAAqUHvyh00iFJU0qHTvvKqkHzsYbesp-znLtsYLJk40WlKIfa5fDnbEY=
+dHIWNpt7esMdC9xWhPA_onMXqCfzBse4yY8of41lLGraBUTS10qfWTUOagpOKalzXLzn7KXfHf9=
+A-wkpY1" target=3D"_blank" rel=3D"" style=3D"color: black; display: block; =
+text-decoration: none; white-space: pre-wrap;"><div class=3D"tweet-footer" =
+style=3D"color: #697882; display: block; font-size: 14px; line-height: 26px=
+; margin-top: 10px; text-decoration: none;"><p class=3D"tweet-date" style=
+=3D"border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-=
+size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-botto=
+m: 10px;">November 3rd 2021</p><span class=3D"likes" style=3D"display: inli=
+ne-block; margin-right: 8px;"><span class=3D"like-count" style=3D"color: #1=
+c2022; font-weight: bold;">83</span> Likes</span></div></a></div><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Degenbox and the rest of the Frog Nation DeFi ecosystem unwound in January=
+, depegging $UST and sending $LUNA from $100 down to $46.</p><div class=3D"=
+captioned-image-container-static" style=3D"font-size: 16px; line-height: 26=
+px; margin-bottom: 16px; text-align: center;"><figure style=3D"display: inl=
+ine-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" wid=
+th=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margi=
+n: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-al=
+ign: center;"></td><td align=3D"left" class=3D"content" width=3D"1456" styl=
+e=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D=
+"https://email.mg2.substack.com/c/eJxFUtuO3CAM_ZrhLRHXQB7ysKrU30BcnAzaBLJAd=
+jr9-pKkVSVkH9n4HMu2MxWWlN_TnkpFp9H1vcMU4VVWqBUyOgpkHfxEBqqY4CPyE_dECYVC0XMG=
+2ExYp5oPQPth1-BMDSleFRhTgZ6TJNYPzHPpCACWVlLHAPNReaXwYNStaw4fIDqY4BvyO0VALm0=
+bxHpSoXV61rqXB_t40J_tlcOWatyn87Fv_1okbGaB5meo7tn8SxMuhgf94fQatlAbmptITQ183Y=
+B9LCn5M7HqPaclQynhG1q8VIC9kdyiVJyy4hRuxh7uE1o-d4CFtU7xzhrDOs4kdKMgqjPeMmpBy=
+lHxvrDebOZ3iuZV7lYbxz2pC159lwuOWHkLM-nMLBufNUOjIrJTjBAFs_eGEE0GjH_JUfR7XFCY=
+KKYUC0IJ5YqqnvV0BOBk4A6c8oMXD463hfb_Bna2gPIUU7Uph7i09OfTbLBeidaXPsd-xFDfGqK=
+xK_h7ufW-kWvdeoEIud2O16a2yxCUiVESxdTfZbaVCS6wwkyipuxTq4r_Rf8ABALOBg" rel=3D=
+"" style=3D"align-items: center; border: none; display: block; flex-directi=
+on: column; height: auto; margin: 0; padding: 0; text-decoration: none; wid=
+th: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://substackcdn.co=
+m/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%=
+3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fp=
+ublic%2Fimages%2F908dbef1-af73-4ba6-ad17-83118efdda11_1600x795.png&quot;,&q=
+uot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:723=
+,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null=
+,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;hr=
+ef&quot;:null}" alt=3D"" width=3D"550" height=3D"273.1112637362637" class=
+=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1456,c_limit,f=
+_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa=
+3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F908dbef1-af73=
+-4ba6-ad17-83118efdda11_1600x795.png" style=3D"-ms-interpolation-mode: bicu=
+bic; border: none !important; display: block; height: auto; margin: 0 auto;=
+ margin-bottom: 0; max-width: 100% !important; vertical-align: middle; widt=
+h: auto !important;"></a></td><td style=3D"text-align: center;"></td></tr><=
+/tbody></table></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0 0 1em 0;">Sound kinda familiar?</p><p style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">So=
+mething something history may not repeat itself but it can rhyme.</p><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;">2) How does one give out 20% in free money every year?</p><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Well =
+that's also easy, it&#8217;s paid for by <strong>LFG (Luna Foundation Guard=
+)</strong>, overseers of Terra's multi-billion dollar ecosystem fund.</p><p=
+ style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1=
+em 0;">We'll come back to them.</p><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0 0 1em 0;">First we need to figure out wha=
+t the $LUNA token does:</p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">I'm not going to focus on what drives i=
+ts fundamental value and focus instead narrative:</p><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>~Ever=
+y $UST in circulation reduces the circulation of $LUNA~</strong></p><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;=
+"><strong>The win scenario is every single $LUNA on earth gets burned for $=
+UST.</strong></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">You can see the basic appeal:</p><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">The mor=
+e $UST, the less $LUNA.</p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">Holders should want to diamond-hands $L=
+UNA:</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 1em 0;">If there's unstoppable demand for $UST and you're the last=
+ $LUNA holder on earth, you have immense redemption power.</p><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">It's=
+ right on their YouTube video:</p><a href=3D"https://email.mg2.substack.com=
+/c/eJxFUMtuhDAM_BpyRHkQCIccKlXbQ7UfsL2gkLgQLSQ0mCL-vmE5VLJ88Hg8nrEGYYjp0Etc=
+kZytw2MBHWBfJ0CERLYVUuedZjVXQlYtcbpyTElF_Np9J4DZ-Elj2oAsWz95a9DH8GJQyiUZNTh=
+p677pGZMUGgG8UnUrpGBW9IpadumazXkIFjT8QjpiAGLjPEPA8xSZ9Ii4rIV4K_gt177v5RE33H=
+oo8945MWjHQtx-C_H--bN83OPj6z4-iNecck4l4ywLc1WKkrcAFasrC1a52smiovPAy3XrVzT2e=
+R4kSYeIfUw-DBl-jmaG6QVkk9352RY8Hh0E00_gLv94xfhKpBsgQMrxus5gDk9yIduGKaHU5Te7=
+kpWkioqGZGUXMyv8i_4BIY6KCw" target=3D"_blank" class=3D"youtube-wrap" rel=3D=
+"" style=3D"display: block; margin: 1.6em 0;"><img src=3D"https://substackc=
+dn.com/image/youtube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/KqpGMoYZMhY"=
+ style=3D"-ms-interpolation-mode: bicubic; border: none !important; display=
+: block; height: auto; margin: 0 auto; max-width: 100%; vertical-align: mid=
+dle; width: 100%;"></a><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;">That's kind of why it doesn&#8217;t matter =
+much whether $LUNA marketcap is lower than $UST marketcap.</p><div class=3D=
+"tweet" style=3D"background: #fff; border: 1px solid #e1e8ed; border-radius=
+: 5px; direction: ltr; display: block; font: normal normal 16px/1.4 Helveti=
+ca, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: =
+26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;">=
+<a href=3D"https://email.mg2.substack.com/c/eJxFkU1v2zAMhn-NdQz0aSkHHQYEvRT=
+ooe1hOxmyxDlqbDmQ6GXprx-dHAYIAgmKfF8-igFhWuvdX9eGbL8GvF_BF7i1GRChsq1BHXLyop=
+dOGX1kyesknHEst-F3BVhCnj3WDdh1G-ccA-a1PDo4l4adveEhjMZaEKa3QtvIrQ3B2rGPoxl78=
+dQNW8pQInj4A_W-FmBxXRYouI9isz8jXlunfnTyhQ7e8u7uQG8o-7q03BagqGHArVEgjFQk1mul=
+teHqKLju1AsNOEneyR4p-LvwX9_vp_k1_3yTn1jmj28x3Vj2kkvJjZBCaifdQR3kEUCLXkeILvX=
+JdJovkzy0bSS9eNldsOrLiuNac5mofDmHBeZHgagM-ypbyXgfoIRxhvQEhk_uD4TDBAUq_UcaAh=
+Jt8m-OVjjl3BMQYTC0iuPKMlJOK3WV_6L_AHVdlz8" target=3D"_blank" rel=3D"" style=
+=3D"color: black; display: block; text-decoration: none; white-space: pre-w=
+rap;"><div class=3D"tweet-header" style=3D"display: block; font-size: 16px;=
+ line-height: 1.2; margin-bottom: 14px; text-decoration: none;"><img class=
+=3D"tweet-user-avatar" src=3D"https://substackcdn.com/image/twitter_name/w_=
+36/jksisme.jpg" alt=3D"Twitter avatar for @jksisme" style=3D"-ms-interpolat=
+ion-mode: bicubic; border: none !important; border-radius: 50%; display: bl=
+ock; float: left; height: 36px; margin: 0 8px 0 0; max-width: 100%; vertica=
+l-align: middle; width: 36px;"><span class=3D"tweet-author-name" style=3D"c=
+olor: #1c2022; display: block; font-weight: 700;">joey </span><span class=
+=3D"tweet-author" style=3D"color: #697882; display: block; font-size: 14px;=
+">@jksisme</span></div><span class=3D"tweet-fake-link" style=3D"color: #1ca=
+1f2; text-decoration: none;">@DegenSpartan</span> <div class=3D"tweet-photo=
+s-container" style=3D"display: flex; font-size: 16px; height: 350px; line-h=
+eight: 26px;"><div class=3D"tweet-photo-wrapper " style=3D"-moz-box-sizing:=
+ border-box; -webkit-box-sizing: border-box; border: 1px solid #e1e8ed; bor=
+der-radius: 5px; box-sizing: border-box; font-size: 16px; height: 100%; lin=
+e-height: 26px; width: 100%;"><img class=3D"tweet-photo" src=3D"https://sub=
+stackcdn.com/image/fetch/w_600,c_limit,f_auto,q_auto:good,fl_progressive:st=
+eep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FFSVSYYpaAAA-h3G.png" alt=3D"Im=
+age" style=3D"-ms-interpolation-mode: bicubic; border: none !important; bor=
+der-radius: 5px; display: block; height: 100%; margin: 0 auto; max-width: 1=
+00%; object-fit: cover; vertical-align: middle; width: 100%;"></div></div><=
+/a><a href=3D"https://email.mg2.substack.com/c/eJxFkU1v2zAMhn-NdQz0aSkHHQYE=
+vRTooe1hOxmyxDlqbDmQ6GXprx-dHAYIAgmKfF8-igFhWuvdX9eGbL8GvF_BF7i1GRChsq1BHXL=
+yopdOGX1kyesknHEst-F3BVhCnj3WDdh1G-ccA-a1PDo4l4adveEhjMZaEKa3QtvIrQ3B2rGPox=
+l78dQNW8pQInj4A_W-FmBxXRYouI9isz8jXlunfnTyhQ7e8u7uQG8o-7q03BagqGHArVEgjFQk1=
+multeHqKLju1AsNOEneyR4p-LvwX9_vp_k1_3yTn1jmj28x3Vj2kkvJjZBCaifdQR3kEUCLXkeI=
+LvXJdJovkzy0bSS9eNldsOrLiuNac5mofDmHBeZHgagM-ypbyXgfoIRxhvQEhk_uD4TDBAUq_Uc=
+aAhJt8m-OVjjl3BMQYTC0iuPKMlJOK3WV_6L_AHVdlz8" target=3D"_blank" rel=3D"" st=
+yle=3D"color: black; display: block; text-decoration: none; white-space: pr=
+e-wrap;"><div class=3D"tweet-footer" style=3D"color: #697882; display: bloc=
+k; font-size: 14px; line-height: 26px; margin-top: 10px; text-decoration: n=
+one;"><p class=3D"tweet-date" style=3D"border-bottom: 1px solid #e1e8ed; co=
+lor: #697882; display: block; font-size: 14px; line-height: 1.4; margin: 0;=
+ margin-bottom: 10px; padding-bottom: 10px;">May 9th 2022</p><span class=3D=
+"retweets" style=3D"display: inline-block; margin-right: 8px;"><span class=
+=3D"rt-count" style=3D"color: #1c2022; font-weight: bold;">9</span> Retweet=
+s</span><span class=3D"likes" style=3D"display: inline-block; margin-right:=
+ 8px;"><span class=3D"like-count" style=3D"color: #1c2022; font-weight: bol=
+d;">34</span> Likes</span></div></a></div><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;">It doesn't matter what t=
+he total implied value of $LUNA is.</p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">What matters is the margina=
+l value of each $LUNA that is redeemed for $UST, or vice versa, aka $LUNA's=
+ price.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0 0 1em 0;">But what's even MORE important is the <strong>direction=
+ality</strong> and <strong>stability</strong> of $LUNA's price.</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>It's a <strong>Big Motherfucking Problem</strong> if the average redemptio=
+n price of $LUNA for $UST is high relative to $LUNA's current price.</p><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;">Let me slow that one down:</p><ul style=3D"margin-top: 0;"><li style=
+=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;=
+ mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0; margin-bottom: 0;">$LUNA price high</p></li><=
+li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-t=
+op: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">$LUNA burned, many=
+ $UST minted</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; mar=
+gin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: =
+0;">$LUNA's price fall</p></li><li style=3D"margin-bottom: 4px; margin-left=
+: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margi=
+n-bottom: 0;">$UST redeemed for many $LUNA</p></li></ul><p style=3D"color: =
+#1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">That is ba=
+d mmkay? Allow me to illustrate using extremes.</p><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Say the price o=
+f $LUNA is $1 billion.</p><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;">Then someone could mint 1 billion $UST b=
+y burning a single $LUNA.</p><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;">Then let's say the price of $LUNA fal=
+ls to $1 for no good reason.</p><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em 0;">That same person could redeem thei=
+r 1 billion UST for 1 billion $LUNA.</p><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;">So suddenly--again, for no=
+ good reason at all--there's a LOT more $LUNA in circulation being dumped o=
+n the open market.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;">This is--in essence--what's happening today.=
+</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0;">So now back to the Luna Foundation Guard:</p><p style=3D"color=
+: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">$UST has=
+ the same dynamics as many other algo-stables, except in addition to the "a=
+lgo" part they also have LFG.</p><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;">In other words, UST is stabilized=
+ by:</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 1em 0;">1) Contracts.</p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;">2) The gigantic <strong>gravity =
+well</strong> created by the size of Do Kwon's nuts.</p><div class=3D"tweet=
+" style=3D"background: #fff; border: 1px solid #e1e8ed; border-radius: 5px;=
+ direction: ltr; display: block; font: normal normal 16px/1.4 Helvetica, Ro=
+boto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; =
+margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;"><a hre=
+f=3D"https://email.mg2.substack.com/c/eJxFUEuOwyAMPU1ZVoRPIAsWs5lrIAJuyjSBC=
+MxUuf2QZjGShYxsv593CEsuh9lzRXI-Fo8dTIJ3XQERCmkVio3BDCPTXIqJBCPCoKUmsdpHAdhc=
+XA2WBmRv8xq9w5jT54JSJsnTOKoDh6CUUF4woR5eutEpJidKaXioi9e1ECF5MPAL5cgJiM_bBgl=
+PKLKaJ-Jeb_zrxr574Tue6u59p_9-cno325uKDlvtzSCZoIpz1VVTxbg49RpGGaNyYAMTmuk7v7=
+MJQAyj8OB1GIO8Cbot7F7b3JH864QnxaSMcy4xLX38eroN1s-g27WnxpYiHhaSm1cIVxJ4BfrJx=
+i6QoPSgg3XYY5SMy0kNmmt9Oe_-pJBUU65IZw65X6V_0j8hpotO" target=3D"_blank" rel=
+=3D"" style=3D"color: black; display: block; text-decoration: none; white-s=
+pace: pre-wrap;"><div class=3D"tweet-header" style=3D"display: block; font-=
+size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;">=
+<img class=3D"tweet-user-avatar" src=3D"https://substackcdn.com/image/twitt=
+er_name/w_36/jonwu_.jpg" alt=3D"Twitter avatar for @jonwu_" style=3D"-ms-in=
+terpolation-mode: bicubic; border: none !important; border-radius: 50%; dis=
+play: block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 100%;=
+ vertical-align: middle; width: 36px;"><span class=3D"tweet-author-name" st=
+yle=3D"color: #1c2022; display: block; font-weight: 700;">jonwu.eth </span>=
+<span class=3D"tweet-author" style=3D"color: #697882; display: block; font-=
+size: 14px;">@jonwu_</span></div> <div class=3D"tweet-photos-container" sty=
+le=3D"display: flex; font-size: 16px; height: 350px; line-height: 26px;"><d=
+iv class=3D"tweet-photo-wrapper " style=3D"-moz-box-sizing: border-box; -we=
+bkit-box-sizing: border-box; border: 1px solid #e1e8ed; border-radius: 5px;=
+ box-sizing: border-box; font-size: 16px; height: 100%; line-height: 26px; =
+width: 100%;"><img class=3D"tweet-photo" src=3D"https://substackcdn.com/ima=
+ge/fetch/w_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%=
+2Fpbs.substack.com%2Fmedia%2FFSaYhoxXsAALZCZ.jpg" alt=3D"Image" style=3D"-m=
+s-interpolation-mode: bicubic; border: none !important; border-radius: 5px;=
+ display: block; height: 100%; margin: 0 auto; max-width: 100%; object-fit:=
+ cover; vertical-align: middle; width: 100%;"></div></div><div class=3D"quo=
+ted-tweet" style=3D"border: 1px solid #e1e8ed; border-radius: 4px; font-siz=
+e: 14px; line-height: 18px; margin-top: 12px; padding: 10px;"><p style=3D"c=
+olor: #1c2022; display: block; font-size: 16px; line-height: 1.4; margin: 0=
+;"><span class=3D"quote-tweet-name" style=3D"color: #1c2022; display: inlin=
+e-block; font-size: 14px; font-weight: bold; padding-right: 5px;">Do Kwon &=
+#127765; </span><span class=3D"quote-tweet-username" style=3D"color: #69788=
+2; font-size: 14px;">@stablekwon</span></p>Close to announcing a recovery p=
+lan for $UST. Hang tight.</div></a><a href=3D"https://email.mg2.substack.co=
+m/c/eJxFUEuOwyAMPU1ZVoRPIAsWs5lrIAJuyjSBCMxUuf2QZjGShYxsv593CEsuh9lzRXI-Fo8=
+dTIJ3XQERCmkVio3BDCPTXIqJBCPCoKUmsdpHAdhcXA2WBmRv8xq9w5jT54JSJsnTOKoDh6CUUF=
+4woR5eutEpJidKaXioi9e1ECF5MPAL5cgJiM_bBglPKLKaJ-Jeb_zrxr574Tue6u59p_9-cno32=
+5uKDlvtzSCZoIpz1VVTxbg49RpGGaNyYAMTmuk7v7MJQAyj8OB1GIO8Cbot7F7b3JH864QnxaSM=
+cy4xLX38eroN1s-g27WnxpYiHhaSm1cIVxJ4BfrJxi6QoPSgg3XYY5SMy0kNmmt9Oe_-pJBUU65=
+IZw65X6V_0j8hpotO" target=3D"_blank" rel=3D"" style=3D"color: black; displa=
+y: block; text-decoration: none; white-space: pre-wrap;"><div class=3D"twee=
+t-footer" style=3D"color: #697882; display: block; font-size: 14px; line-he=
+ight: 26px; margin-top: 10px; text-decoration: none;"><p class=3D"tweet-dat=
+e" style=3D"border-bottom: 1px solid #e1e8ed; color: #697882; display: bloc=
+k; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; paddi=
+ng-bottom: 10px;">May 10th 2022</p><span class=3D"retweets" style=3D"displa=
+y: inline-block; margin-right: 8px;"><span class=3D"rt-count" style=3D"colo=
+r: #1c2022; font-weight: bold;">4</span> Retweets</span><span class=3D"like=
+s" style=3D"display: inline-block; margin-right: 8px;"><span class=3D"like-=
+count" style=3D"color: #1c2022; font-weight: bold;">156</span> Likes</span>=
+</div></a></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0 0 1em 0;">Previously the LFG was in charge of the Anchor boo=
+tstrapping strategy:</p><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;">Take treasury $LUNA, sell it, and fill up =
+the Anchor Protocol Reserve (the big slush fund that pays $UST stakers 20%)=
+=2E</p><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin=
+: 0 0 1em 0;">Every other L1 eco fund uses similar give-money-away-to-boost=
+rap-the-ecosystem type strategies, just less directly.&nbsp;</p><p style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Wh=
+at&#8217;s the bet behind funding Anchor? <strong>IsN&#8217;t iT a PonZi?!<=
+/strong></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px;=
+ margin: 0 0 1em 0;">Well, paying people to lock up $UST means that in the =
+short-term:</p><ul style=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px=
+; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: b=
+ullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0; margin-bottom: 0;">$LUNA is burned for $UST</p></li><li style=3D"ma=
+rgin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-s=
+pecial-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0; margin-bottom: 0;">$UST is staked (taken out of cir=
+culation)</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin=
+-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"=
+>$LUNA price goes up</p></li><li style=3D"margin-bottom: 4px; margin-left: =
+8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-=
+bottom: 0;">The LFG sells $LUNA into dollars at a higher basis to fund the =
+Protocol Reserve</p></li></ul><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0 0 1em 0;">And, longer term:</p><ul style=3D"ma=
+rgin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-rig=
+ht: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">$US=
+T takes off as a widely-used stable before LFG runs out of money</p></li><l=
+i style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-to=
+p: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0; margin-bottom: 0;">$LUNA goes to the m=
+oon</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right=
+: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">Every=
+one is happy</p></li></ul><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;">Hence this tweet where Do Kwon confident=
+ly polls the audience before adding $300 million to Anchor&#8217;s reserves=
+:</p><div class=3D"tweet" style=3D"background: #fff; border: 1px solid #e1e=
+8ed; border-radius: 5px; direction: ltr; display: block; font: normal norma=
+l 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 1=
+6px; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 2=
+0px 11.6px 20px;"><a href=3D"https://email.mg2.substack.com/c/eJxFkcFuwyAMh=
+p8mHCswkJADh0nVLpN22HbYThEJboqaQEWcdd3TjzSHSQjZMvb_-2NwhGPKd3tNC7Ht6uh-RRvx=
+tkxIhJmtC-YueCtqMFKrlnmrvDDasLB0p4w4uzBZyiuy69pPYXAUUnx0cA6ana1pxEk43df6pFs=
+nofVGn-qGK-8aJz3uum71AeOAFr8x31NENqR5xkjbKDbZM9F1qeRTBc_l0C1s7g7lTckWcv2El1=
+uKe0LrUgKhistGCWE4tLXU2rSVfC4zjsArqKkEPzP_-n07Ti_h8xU-KE7vv2K8sWCBA3AtQIAyY=
+A7yAC2iErUacDC-9rpSfB7hsKx90RsumxGWbUzUpxziWMqXs5txehQKmG7bZo2B7h3Gza3fmdGO=
+_kGxGzFiLl_iO0cFuAap20YYaczOqJDQSnPDZcOKsk-lK_6L_gH7fpjh" target=3D"_blank"=
+ rel=3D"" style=3D"color: black; display: block; text-decoration: none; whi=
+te-space: pre-wrap;"><div class=3D"tweet-header" style=3D"display: block; f=
+ont-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: non=
+e;"><img class=3D"tweet-user-avatar" src=3D"https://substackcdn.com/image/t=
+witter_name/w_36/stablekwon.jpg" alt=3D"Twitter avatar for @stablekwon" sty=
+le=3D"-ms-interpolation-mode: bicubic; border: none !important; border-radi=
+us: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; max-=
+width: 100%; vertical-align: middle; width: 36px;"><span class=3D"tweet-aut=
+hor-name" style=3D"color: #1c2022; display: block; font-weight: 700;">Do Kw=
+on &#127765; </span><span class=3D"tweet-author" style=3D"color: #697882; d=
+isplay: block; font-size: 14px;">@stablekwon</span></div>Don&#8217;t wanna =
+get another DM about the <span class=3D"tweet-fake-link" style=3D"color: #1=
+ca1f2; text-decoration: none;">@anchor_protocol</span> yield reserve. What =
+do you want?</a><a href=3D"https://email.mg2.substack.com/c/eJxFkcFuwyAMhp8=
+mHCswkJADh0nVLpN22HbYThEJboqaQEWcdd3TjzSHSQjZMvb_-2NwhGPKd3tNC7Ht6uh-RRvxtk=
+xIhJmtC-YueCtqMFKrlnmrvDDasLB0p4w4uzBZyiuy69pPYXAUUnx0cA6ana1pxEk43df6pFsno=
+fVGn-qGK-8aJz3uum71AeOAFr8x31NENqR5xkjbKDbZM9F1qeRTBc_l0C1s7g7lTckWcv2El1uK=
+e0LrUgKhistGCWE4tLXU2rSVfC4zjsArqKkEPzP_-n07Ti_h8xU-KE7vv2K8sWCBA3AtQIAyYA7=
+yAC2iErUacDC-9rpSfB7hsKx90RsumxGWbUzUpxziWMqXs5txehQKmG7bZo2B7h3Gza3fmdGO_k=
+GxGzFiLl_iO0cFuAap20YYaczOqJDQSnPDZcOKsk-lK_6L_gH7fpjh" target=3D"_blank" r=
+el=3D"" style=3D"color: black; display: block; text-decoration: none; white=
+-space: pre-wrap;"><div class=3D"tweet-footer" style=3D"color: #697882; dis=
+play: block; font-size: 14px; line-height: 26px; margin-top: 10px; text-dec=
+oration: none;"><p class=3D"tweet-date" style=3D"border-bottom: 1px solid #=
+e1e8ed; color: #697882; display: block; font-size: 14px; line-height: 1.4; =
+margin: 0; margin-bottom: 10px; padding-bottom: 10px;">January 25th 2022</p=
+><span class=3D"retweets" style=3D"display: inline-block; margin-right: 8px=
+;"><span class=3D"rt-count" style=3D"color: #1c2022; font-weight: bold;">22=
+0</span> Retweets</span><span class=3D"likes" style=3D"display: inline-bloc=
+k; margin-right: 8px;"><span class=3D"like-count" style=3D"color: #1c2022; =
+font-weight: bold;">1,263</span> Likes</span></div></a></div><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Relat=
+ive to Luna&#8217;s marketcap, $300 million was nothing at the time!</p><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;">Then in January, Abracadabra-MIM Degenbox collapsed.</p><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">That=
+ implosion took down a big push for $UST to be used in a 10-figure cross-ch=
+ain ecosystem headed by Daniele Sesta.</p><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;">That's when Jump, 3AC, a=
+nd others piled into the $1 billion Luna OTC deal to buy Bitcoin. To be exp=
+licit, that meant LFG would sell $1 billion of Luna to market makers and us=
+e the proceeds to buy Bitcoin to use as collateral against $UST.</p><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;=
+">The story there?</p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;">1) Get the Bitcoin gang on board (every cycl=
+e needs one billionaire to go hard for the King)</p><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">2) Give redemp=
+tions a $UST -&gt; $BTC offramp in addition to the existing $UST -&gt; $LUN=
+A one, giving folks a way to redeem $UST without accessing the Death Spiral=
+=2E</p><div style=3D"font-size: 16px; lin=
+e-height: 26px;"><hr style=3D"backgr=
+ound: #e5e5e5; border: none; height: 1px; margin: 25.6px 0; padding: 0;"></=
+div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0;"><strong>To read about the Death Spiral,  What&#8217;s Happenin=
+g Now, and the tl;dr Summary:</strong></p><p class=3D"button-wrapper" data-=
+attrs=3D"{&quot;url&quot;:&quot;https://www.notboring.co/p/terra-to-the-moo=
+n-and-back?token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTQ1MDgwMzcsImlh=
+dCI6MTY1MjM1OTcxOCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.kQ=
+iEJoi6Ha7wXiQnFejLUqoQ0-jCnV7OfQDdqOAGciI&quot;,&quot;text&quot;:&quot;Cont=
+inue Reading Online&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0; text-align: center;"><a class=3D"button primary" href=3D"https://email=
+=2Emg2.substack.com/c/eJxFUtGOojAU_Rp5g9B=
+SoDzwMNHRwQwas47rzgsp7VWL0DJQhsGv36r=
+JbtL24dzcc27PuZwZOOtuSlvdG-f-FGZqIVUw9jUYA50z9NAVUqQowjQISeKIlAhEQ-rIvjh1AA=
+2TdWq6AZx2KGvJmZFaPTp8H4fOJY1jEpUhITGKYx_TOALAiGARMCHgVJZPXTYICYpDCt_QTVqBw=
+3XTgDJ3KqdOL8a0_Sx4meGlPeM4ekqbUndSnT2uLdTaawfumGu0ay7gNlorlynhloxfZ8HS6Cuo=
+WbCAaY04PkxHXF-zSv9sqozktw9_-2uUfJXcxDJpP-dZtNnvUL44j_mN91lTX4TF8v0flFc52u7=
+5z3Y-Snbc3CyH5G8H-b5_HfNFhjJpeYKDfOB3vjmaPn8vK7Gqv0u5TrzrTr6utYzeWDwe5U4toX=
+r_-NI7363m6hBvT7uF-Nq-rLjMHJliH2M_RBhhQjH1Ag8nAARFhAOnIhLhjPjNGXv9UPbG_tS60=
+Thd-s8dW75eWAP1o2AzKu7GDkqaqQDFyhrEMz7z3IJHoMUZFHR2O0TBjM0-xEGYxIgGlD7jsqGE=
+JPSpH8SOVRbadqn_on8BhbnLng" rel=3D"" style=3D"background-color: #67bdfc; bo=
+rder: none; border-radius: 4px; box-sizing: border-box; color: #ffffff !imp=
+ortant; cursor: pointer; display: inline-block; font-family: -apple-system,=
+ BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'App=
+le Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font=
+-weight: normal; height: auto; line-height: 20px; margin: 0; opacity: 1; ou=
+tline: none; padding: 12px 20px; text-align: center; text-decoration: none =
+!important; white-space: nowrap;"><span style=3D"color: #ffffff; text-decor=
+ation: none;">Continue Reading Online</span></a></p><div style=3D"font-size=
+: 16px; line-height: 26px;"><hr style=3D"background: #e5e5e5; border: none;=
+ height: 1px; margin: 25.6px 0; padding: 0;"></div><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>If you don&=
+#8217;t already, you need to <a href=3D"https://email.mg2.substack.com/c/eJ=
+xFkMuOwyAMRb-mLCPeoQsWs5nfQDzclGkCEXGmyt8PaRYjIUvIvr4-N3qEqbbDrnVDchaHxwq2w=
+HubAREa2TdoLifLNDdCyTtJViZmlCF5c48GsPg8W2w7kHUPc44ecy0fBaVckacNXjPBpJajNiIY=
+yh8QgubSw0ONHsLl6_eUoUSw8AvtqAVIrMsCBc9VZLZPxHW7ia8b_-4P3_m8bugz_fdTy3t3JFt=
+OOaeKccal4WYQA78DSKZlhGiSTuom6TLxYdvDhj6-Tj1ptlQMteUy9fbr6ReYP43O484j9pLxcF=
+B8mCFdqHgl9oF3ExRoPcnkPPacFBfqPjIjjLnQOoCSihoqRtKdU-2q8m_6B9CYg-o" rel=3D""=
+ style=3D"color: #1a1a1a; text-decoration: underline;">follow Jon on Twitte=
+r</a> to keep up to date with crypto.</em></p><div style=3D"font-size: 16px=
+; line-height: 26px;"><hr style=3D"background: #e5e5e5; border: none; heigh=
+t: 1px; margin: 25.6px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Good luck out there. =
+It helps to zoom out. I&#8217;m reading Carlo Rovelli&#8217;s <em><a href=
+=3D"https://email.mg2.substack.com/c/eJxNUsuq2zAQ_Zp4l6CnLS28uFAKpZsuCu3OyN=
+JcW1xZciU5Jv36TuyGFsRwZs680BlrKkwpP_o1ldo8zVAfK_QR9hKgVsjNViAP3vW0ZYpLoRvXC=
+0eVVI0vw3sGWIwPfc0bNOs2Bm9N9SkeFYQw2cw91UCBdWPrRikZcYIRDdCxTr2_a8n5OddszkO0=
+0MMd8iNFaGxaFoj12aoJ_VzrWi787cI-49v3_WYW8zvFG6Zh4PsMGa7fgrFQrj9SDu76ZVlTrib=
+W61cfXYRSMM-taIjUnGpG5c-z24WjbfHNd-O8u_BPuBZvueiEbPkRxx0xfMAIdUc8HU428Znfad=
+F1rdRE6FYLqRH9LYvwqlvrnl7411Jf0MEdoT3x3S4uvJiQrI_1P2-dH-hpQqmm6ghWk6dj4TWYq=
+-aEtpSTjhKB7FosErTxPSOMEUkZZUIxdeM3hgII2goLVrnWyYsgy8RuZRtLNfbj-adN7mOqY8o-=
+Tkh_zGaBcBAo8_DUZou-PgaIZgzgzguo5yEdNzFMECHjgbnBVDwfybjUHVVcqVNx1FUKSRThXYO=
+TXcKq-G_oH9wF1FY" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underl=
+ine;">There Are Places In The World Where Rules Are Less Important Than Kin=
+dness</a></em>, and it&#8217;s wonderful. </p><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Thanks for reading, =
+and see you on Monday,</p><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0; margin-bottom: 0;">Packy</p></div></div><=
+table cellpadding=3D"0" cellspacing=3D"0" class=3D"post-meta custom big alt=
+ernative-meta centered" style=3D"margin: 0 auto;"><tr style=3D"align-items:=
+ center; display: flex;"><td class=3D"post-meta-item icon" style=3D"color: =
+#767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto=
+, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Seg=
+oe UI Symbol'; font-size: 14px; height: 100%; line-height: 18px; padding: 0=
+px 12px 0px 0; padding-right: 24px; position: relative; text-decoration: no=
+ne; text-indent: 3px; vertical-align: middle; white-space: nowrap;"><span c=
+lass=3D"post-meta-icon like-reaction-button"><a href=3D"https://email.mg2.s=
+ubstack.com/c/eJxFUl2PmzAQ_DXhrcjYJsADD8mluUIaTqe7NM29IGNvEvNhIzCh5NfXJFIrW=
+bvyrnZmNbOcGbjobopb3RtnDrmZWogVjH0NxkDnDD10uRSxt8Qh8WnkiJgKL_RDR_b5uQNomKxj=
+0w3gtENRS86M1OoxgRD2nWtMmCDL4OyJgFNyjqKAYVQwKqIAI44K_ORlg5CgOMRwg27SChyumwa=
+UmaGcOr4a0_YLslrgrX3jOLpKm0J3Ul1crm2JtdLGm2fDDGjTY7VvHTA-r7QgW6MrsHkDU-px_G=
+v6jesqKfWfrEzo_n5Abx-j5K_RXWyj9uslWWaf795-cxn3d94nKq1PxwyxYzTYGUlbXCVylOy4R=
+U-Mw2Qx_Oz-nf58SVtO9vJNpqM4Jmb_uRr35UHa-t3-5_r0ddyW4rW-FTKNXNisM6J5rd5LP0Mb=
+ueq03IEp35tKwum2ztY_duk12Q3i5MgYI4yR72EP0xCHLnFxBEC9JeXAQ7EU_oKi5oLdfih6w3h=
+l9WmcLv6nl21XV9ZA_WhY1_JZ6kFJM-WgWFGDeBpqnnfx0DG_gILO3ovImbHX4GPiR4EXkjB8Gm=
+ht8qmPQkQCxzILbafUf9K_p63STQ" class=3D"like-button button post-meta-button"=
+ style=3D"align-items: center; background-color: transparent; border: 1px s=
+olid #e0ecf6; border-radius: 4px; box-sizing: border-box; color: #1a1a1a; c=
+ursor: pointer; display: flex; font-family: -apple-system, BlinkMacSystemFo=
+nt, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; =
+height: auto; line-height: 15px; margin: 0; opacity: 1; outline: none; padd=
+ing: 10px 16px; text-align: center; text-decoration: none; text-indent: 0px=
+; white-space: nowrap;"><img src=3D"https://substackcdn.com/image/fetch/w_3=
+6,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com=
+%2Ficon%2FLucideHeart%3Fv%3D2%26height%3D36%26fill%3Dtransparent%26stroke%3=
+D%2523757575%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border:=
+ none !important; display: inline-block; float: left; height: 14px; margin-=
+right: 4px; max-width: 18px; vertical-align: top; width: auto;" alt=3D""><s=
+pan class=3D"like-count" style=3D"color: #1a1a1a; margin-left: 7px;">Like</=
+span></a></span></td><td class=3D"post-meta-item icon" style=3D"color: #767=
+676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, He=
+lvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe U=
+I Symbol'; font-size: 14px; height: 100%; line-height: 18px; padding: 0px 1=
+2px 0px 0; padding-right: 24px; position: relative; text-decoration: none; =
+text-indent: 3px; vertical-align: middle; white-space: nowrap;"><a href=3D"=
+https://email.mg2.substack.com/c/eJxFUk1vozAQ_TXhBsLmyxw4VEmTEpVG0abZbC_I2J=
+PEBGwKppT8-jVkPySPD280783MG0Y1XFQ7Jo3qtDV9uR4bSCQMXQVaQ2v1HbS54AkKMfECP7Z44=
+nNEAmKJLj-3ADUVVaLbHqymLyrBqBZKzhWuiwPrmoS8QPR8LmJacIiYB-GZeB6wKI4JwTR66NKe=
+C5AMEviCdlQSLKbqGqSeqKwquWrddAvvaYHX5g3D4EilC9UKeXGYMlBjwjTcUlsrW1_BrpWSNpX=
+cLii7meQfPkOy1uoGcuGtYNwiho_jCVe3tFTfb2XqZ_d3d_djEGwT3_k6bj6Wafh22KNsdRmyO-=
+vSurpyg2WHXygrM7Q7sO_dchD09HY3HIK9HMXr4XnIVilKheHxjmLGJ74lGj9-rku-qb4KsY2d2=
+148b5UIX2g0nMRerqF8ff9Ue9cul_IY7c77Ff_cPW2YSBc47HWdd6pvGZjeu77o9DzZjNfARV9P=
+M02GWCLBLsZugDDCPsHE8RwcA_go9BkwwkMeLHy3vmDnL4_ZYm21yb-tmvTtSmuo5oTxNp8W2Eu=
+hxxwkLSrgD9v143pm3fwCElpzVTyn2txMgL0gjhDxCHnYbMwM_MAlrhdZRpkrUyX_i_4G5zTg2Q=
+" class=3D"post-meta-button button" style=3D"align-items: center; backgroun=
+d-color: transparent; border: 1px solid #e0ecf6; border-radius: 4px; box-si=
+zing: border-box; color: #1a1a1a; cursor: pointer; display: flex; font-fami=
+ly: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial=
+, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fon=
+t-size: 16px; font-weight: normal; height: auto; line-height: 15px; margin:=
+ 0; opacity: 1; outline: none; padding: 10px 16px; text-align: center; text=
+-decoration: none; white-space: nowrap;"><img src=3D"https://substackcdn.co=
+m/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%=
+2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D2%26height%3D36%26fill%3Dtr=
+ansparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"18" height=3D"=
+18" style=3D"border: none !important; display: inline-block; float: left; h=
+eight: 14px; margin-right: 4px; max-width: 18px; vertical-align: top; width=
+: auto;" alt=3D"Comment" class=3D"comment-icon post-meta-icon"><span class=
+=3D"meta-button-label">Comment</span></a></td><td class=3D"post-meta-item i=
+con" style=3D"color: #767676; font-family: -apple-system, BlinkMacSystemFon=
+t, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', '=
+Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 100%; line-hei=
+ght: 18px; margin-right: 0; padding: 0px 12px 0px 0; padding-right: 0; posi=
+tion: relative; text-decoration: none; text-indent: 3px; vertical-align: mi=
+ddle; white-space: nowrap;"><span><a href=3D"https://email.mg2.substack.com=
+/c/eJxNkl2PoyAUhn9NvdMoiMULLyY708R22k6y24-5MginlargIq5rf_1iu18JkPAcDgfe93Bm=
+4arNlHW6t968FHbqIFMw9g1YC8YbejCFFFmUIIpJnHoii0VECfVkX1wMQMtkk1kzgNcNZSM5s1K=
+rR0YYIuJVGREQcyC0TNOYiTSKlilQF0MYlYAAPeuyQUhQHDL4AWbSCjyu2xaUna_ymqyytusX-G=
+WBVm6M4xgobUttpLoGXDvUuekebJhvtW8r8Futlc-U8EvG6wVeDbYtej0YDgv82g9lb2eOkpm3I=
+OTQOv74zm_ItbLuAfPpihlwlPH5c_8Bq2uY9zCtI46O0xk1dX7TP3e3PN7eD-H-6yjZaRU-2WFy=
+jOzub_H7l3XH8Vbu5XoUp9xuv72M29tBOn53-wcv8S58P6-bz9MuZKd0yFUY2I_l-ngu-PKzv3_=
+H1VZd8pF9TPtDsjERSS79oU58ujlu6tyTGXIihyRCEYopogEOUAoQR4mzg1ORCLKIw_aKgj9iOC=
+Fbz2R_hXXhumItNI-As7eYPRmUtFMBipUNiKfz9tlAD_GKKygwrrFEwaxrG4IwSZcRxZQ-nXZ-k=
+piENMRLz1UW2mWpf0V_AdQ14Fk" class=3D"button post-meta-button" style=3D"alig=
+n-items: center; background-color: transparent; border: 1px solid #e0ecf6; =
+border-radius: 4px; box-sizing: border-box; color: #1a1a1a; cursor: pointer=
+; display: flex; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height: auto; =
+line-height: 15px; margin: 0; opacity: 1; outline: none; padding: 10px 16px=
+; text-align: center; text-decoration: none; white-space: nowrap;"><img src=
+=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_p=
+rogressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3Fv%3D2%26=
+height%3D36%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" =
+width=3D"18" height=3D"18" style=3D"border: none !important; display: inlin=
+e-block; float: left; height: 14px; margin-right: 4px; max-width: 18px; ver=
+tical-align: top; width: auto;" alt=3D"Share" class=3D"recommend-icon post-=
+meta-icon"><span class=3D"meta-button-label">Share</span></a></span></td></=
+tr></table><div class=3D"container-border" style=3D"border-top: 1px solid #=
+e0ecf6; box-sizing: border-box; font-size: 16px; line-height: 26px; margin:=
+ 32px 0 0; width: 100%;"></div><div class=3D"post-cta" style=3D"font-size: =
+16px; line-height: 26px; margin: 24px 0 40px;"><p style=3D"font-size: 16px;=
+ font-style: italic; line-height: 26px; margin: 24px 0 0; margin-top: 0;"><=
+span>If you liked this post from <a href=3D"https://email.mg2.substack.com/=
+c/eJxFUMtuhDAM_JrNEQWHgPeQQy_9DRQSw0YLCQqmiL9vWKRWsnzwaDwPZ5mmlE-zpo3FtXo-V=
+zKRjm0mZspi3yj3wZu6BVS6eQpvGl-jRhG2fsxEiw2z4byTWPdhDs5ySPHDkBK0eJkRRqcBu8ED=
+YksS1aha1aHtNAxykLeu3X2g6MjQD-UzRRIuLQtFvl6J2byY1-2hvh7wXeY4jiomHlIOcapcKic=
+RDEgAqWuooUHASlXwJGrqtnHk0LdePxq5TFBt-7Cxde9CXEQ2f48K_H7ZheYPUOL0l4c9Bj57in=
+aYyd9J-S7sk72fKFIuRfrecqlJg9LPrkaFeCcr_nWjJUrViaLsU2HFf9FfkyqCuw">Not Borin=
+g by Packy McCormick</a>, why not share it?</span></p><p class=3D"cta-box" =
+style=3D"font-size: 16px; font-style: italic; line-height: 26px; margin: 24=
+px 0 0; text-align: center;"><a role=3D"button" href=3D"https://email.mg2.s=
+ubstack.com/c/eJxFUdGOhCAM_Bp50yiIiw88XHLZ3zAIXSUrYLCe8e-vusldQgmdpsx0ag3Cl=
+PKp17Qhu64BzxV0hGNbABEy2zfIg3e66bgSsu2Z061rlFTMb8MrAwTjF415B7bu4-KtQZ_i3VHX=
+XLJZKwH0auRD9U64EUTXy06Jzj1a5RS8Prxmdx6iBQ0_kM8UgdkUAkS8vmKLnhHXrRBfBX_SOY6=
+jignHlH2cKpsIWilIcDYlphJnKENKsTTRlaOx70I8dwxDAOf3UIjvW3bBuwu0JqzGT5Fgi4ZAY6=
+8ZKN1mk4F5zWvOa9nwhreKq0pUvAdom661YJXrnCzaOky82vZxQ2IjRYFl_aeQyu_ZBFjuAvk0X=
+MPt0eM5QDTjAu5jIX42casbJoiQaUNuMEj-Sy5k_2iUUOpjGRkjW1mrWjwYMbtEXfGf9BeIwaHV=
+" class=3D"button primary twitter-link" style=3D"background-color: #67bdfc;=
+ border: 0px solid #67bdfc; border-radius: 4px; border-width: 13px 20px 13p=
+x 18px; box-sizing: content-box; color: #ffffff !important; cursor: pointer=
+; display: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'S=
+egoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol'; font-size: 17px; font-style: normal; font-we=
+ight: 300; height: 24px; line-height: 24px; margin: 0; opacity: 1; outline:=
+ none; padding: 0; text-align: center; text-decoration: none !important; ve=
+rtical-align: middle; white-space: nowrap;"><img src=3D"https://substackcdn=
+=2Ecom/image/fetch/w_23.1,c_scale,f_png,q=
+_auto:good,fl_progressive:steep/http=
+s%3A%2F%2Fsubstack.com%2Ficon%2FShareIcon%3Fv%3D2%26height%3D42%26stroke%3D=
+%2523FFF%26strokeWidth%3D2" width=3D"11.55" height=3D"21" style=3D"border: =
+none !important; display: inline-block; height: 21px; margin-right: 8px; ma=
+x-width: 11.55px; vertical-align: middle; width: 21px;" alt=3D""><span styl=
+e=3D"color: #ffffff; text-decoration: none;">Share</span></a></p></div> <di=
+v class=3D"footer" style=3D"background: #f8f8f8 !important; color: #bcbcbc;=
+ font-size: 16px; line-height: 26px; margin-top: 24px; padding: 32px; text-=
+align: center;"><p class=3D"small" style=3D"color: #bcbcbc; font-family: -a=
+pple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans=
+-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size=
+: 13px; line-height: 26px; margin-bottom: 0; padding-bottom: 30px;">&#169; =
+2022 <span>Packy McCormick</span> <a href=3D"https://email.mg2.substack.com=
+/c/eJxFklGPojAUhX-NPBJaKJYHHjY6OJhFd3dcR30hpb1iFVoGyjD466dosps0TXNu7j035ytn=
+BkrdjnGjO-NMV27GBmIFQ1eBMdA6fQdtLkWMQkx9EkSOiAOBKKGO7PJzC1AzWcWm7cFp-qKSnBm=
+p1aPD8zBxLjEmBQk5FYKJOaO-x4vzGYUQQREC4oCfvqwXEhSHGD6hHbUCh-u6BmWmUU4VX4xpup=
+n_Y4YTe4ZhcJU2hW6lKl2urcT4ZGwfQnasqCB_bDbzE6NvoGb-EsY14ng_HnB1S6_6a3NNg-z-1=
+9u-DZKvortIoua0SMPN7jfKluWQ3XmX1tVFWC3bHVF2zdB2x7-2i0Gyw-ZuZ0j-upc_dy9DtkxR=
+Ku0cfy8n_bSq7sf3dXfaR1XxnjTFYh2561F_DfOPLTkMO3ogCfyqPt6y47hN5oe0fP1TrD8peEz=
+VqxdHxtjD2CMIIxxQTF3fxRFAgMKAgw0zFGQWeHWJ3a4vOsP4zaZQO238LxVbvl1YDdWjYNnkU6=
+C9kmbMQU0JiSc286T_iCsvQUFrf4XImbHMCfZJNEfUp_SJycIgAfGo588d6yy07VL_Tb8B4cnKb=
+Q" style=3D"color: #bcbcbc;"><span style=3D"color: #bcbcbc; text-decoration=
+: underline;">Unsubscribe</span></a><br>10 City Point, Brooklyn, NY 11201</=
+p><p class=3D"small powered-by-substack" style=3D"color: #bcbcbc; font-fami=
+ly: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial=
+, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fon=
+t-size: 13px; line-height: 26px; margin-bottom: 0; margin-top: 0; padding-b=
+ottom: 0;"><a href=3D"https://email.mg2.substack.com/c/eJxNUctuhSAQ_RpZ3vAQ=
+xQWLJs39DYMwekkFDA5t_PuitmkTwuIcZs4DaxCWlA-9pR3JeY14bKAjfO0rIEImZYc8eqdZx5W=
+Q7UCcbh1TUhG_j3MGCMavGnMBspVp9dagT_GaoJRL8tIgmBGUdz2VzLB5VnYeKkYnJXswlt-6pj=
+gP0YKGT8hHikBsCgEinqvIql-I296It4Y_69nLtKOxH4_66ETEs2AY91SyhUa8_9IN7048gPMlV=
+Pwy-wPaFLGur-ic0pnUa045ryY5463i6iEefABoWddasMp1TjYtDQt__FcnWceEU8o-LpX-eJkA=
+60XUOsYzQ4kejxGimVZwd1N4F37ZGReIkOtHuNFgrVlyIYeeKaHU3UzNL1tJFRU9qcou1an4J_o=
+NzOeaHQ" style=3D"color: #bcbcbc; display: inline-block; margin: 8px 4px 0;=
+ text-decoration: none;"><img alt=3D"Publish on Substack" src=3D"https://su=
+bstackcdn.com/image/fetch/w_393,c_limit,f_auto,q_auto:good,fl_progressive:s=
+teep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-on-substack.png" wi=
+dth=3D"196" height=3D"40" style=3D"border: none !important; margin-top: 3px=
+; max-width: 550px; vertical-align: middle;"></a><a href=3D"https://email.m=
+g2.substack.com/c/eJxNUctuhDAM_BpyA5EXmz3kUKnqb0QhMWy0kKDEtOLvG-DQSpYla2yPZ=
+-wswpzyobdUkJzJ4LGBjvBTFkCETPYC2QSv6cAUl-JJvBaeKqlIKGbKAKsNi8a8A9n2cQnOYkjx=
+muh7JslLg6R29G4S7OFgck4MT8GU8JICWDoMN6_dfYDoQMM35CNFIC6tK0Q8V5FFvxC30vCPhn3=
+VKPtY0Lp3V5tqabftzm3BlKHN4EMGhw3_2nE1zq6bDXNs-OfZs9r8BgxxbthwwSliJaroJaadUq=
+rK23FHTJEEzXrGekkZZUIx1fGOPQEEHYQDp_zgZSP6dWbd_6NI1jHhmPJJI_r3y66wXEB1yZzS9=
+hjwMBDtuIC_DcT7D9cVZoYIuf7HG4vVfcm4fD6o4krdhlVbpJC96vmDVGaf6lT8I_0FDv-jyg" =
+style=3D"color: #bcbcbc; display: inline-block; margin: 8px 4px 0; text-dec=
+oration: none;"><img alt=3D"Get the app" src=3D"https://substackcdn.com/ima=
+ge/fetch/w_277,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%=
+2Fsubstack.com%2Fimg%2Femail%2Fget-the-app.png" width=3D"138" height=3D"40"=
+ style=3D"border: none !important; margin-top: 3px; max-width: 550px; verti=
+cal-align: middle;"></a></p></div></div></td><td></td></tr></table><img src=
+=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDIwMjIw=
+NTEyMTI0ODI4LjMuMjllZTQxNjRjZWM4ZDZkNUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjE2Mjg=
+zNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsIn=
+AiOjU0NTA4MDM3LCJ0IjoibmV3c2xldHRlciIsImEiOiJldmVyeW9uZSIsInMiOjEwMDI1LCJjI=
+joicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoiYm90dG9tIiwiaWF0IjoxNjUyMzU5NzE4LCJp=
+c3MiOiJwdWItMCIsInN1YiI6ImVvIn0.Om2m22R8xBEfyPe-lGgfEvlfDvCTMOcGlw6o0l6Fpr8=
+" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !impor=
+tant;width:1px !important;border-width:0 !important;margin-top:0 !important=
+;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !import=
+ant;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !i=
+mportant;padding-left:0 !important;"/><img width=3D"1px" height=3D"1px" alt=
+=3D"" src=3D"https://email.mg2.substack.com/o/eJxFUEluxCAQfE04WuzGB96CWDoeN=
+DaMoJ3Ivw-2D7m1ukq1RY-w1nbaT-1IYPd5cysUaOOfnEfLtOJCLTMzwhiSrEzMKENyd98Nbr7F=
+dgD5HGHL0WOuxeVkGaVckZcVVDAaw6KCmiUVVBsftVFAUwxaLpFcvs4fKUOJYOEH2lkLkFj3HQp=
+eUg9lHEoqaqiYSbacck4V44xLw80kJr4ASKZlhGiSTupL0n3lUz9CRx_f09AjzZaKobZc1gG_X3=
+6H7QZGdncZHiXj6aD4sEF6auEzzNGh3bU0N0LJ5cmE5wdsgd--ASI0MtxSHZOUf6M_x8p20w"><=
+/body></html>
+--305c0b2a900afe6e8488f67e8db218d7f3216e9e5af7cad90aacc11315e7--
